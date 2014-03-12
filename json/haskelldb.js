@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb"
+        "phrase": "haskelldb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main idea of bounded lists is to create lists with predetermined\n maximum size.\n\u003c/p\u003e\u003cp\u003eBoundedList is a simple, fast and type safe approach to implementing \n this idea.\n The implementation is based on inductive instances, making it very easy to\n expand with new bounds. A new bound only requires one instance of size and \n two instances of Less.\n\u003c/p\u003e\u003cp\u003eBoundedList works as follows.\n Every bound is build up by declaring a data-type representing the new bound.\n The instance of size only returns the size as an Int.\n The first instance of Less is for telling the typechecker that this bound\n is greater than the largest smaller bound.\n The second instance of Less is used by the typechecker to construct a chain\n of instances if there is no hardcoded instance available.\n This way the type checker can determine if a bound is smaller/greater\n then any other bound.\n\u003c/p\u003e\u003cp\u003eThis inductive approach gives the complexity O(n) on the number of instances\n and very short type checking times compared to an O(n^2) implementation.\n\u003c/p\u003e\u003cp\u003eBoundedList also comes with a few utility function for manipulation an\n contructing bounded lists.\n\u003c/p\u003e\u003cp\u003eTo be noted:\n Since each bound is a unique type:\n Explicit shrink and/or grow is needed before using (==).\n BoundedList does not have an instance of Ordering. (This might change)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "BoundedList",
           "package": "haskelldb",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The main idea of bounded lists is to create lists with predetermined maximum size BoundedList is simple fast and type safe approach to implementing this idea The implementation is based on inductive instances making it very easy to expand with new bounds new bound only requires one instance of size and two instances of Less BoundedList works as follows Every bound is build up by declaring data-type representing the new bound The instance of size only returns the size as an Int The first instance of Less is for telling the typechecker that this bound is greater than the largest smaller bound The second instance of Less is used by the typechecker to construct chain of instances if there is no hardcoded instance available This way the type checker can determine if bound is smaller greater then any other bound This inductive approach gives the complexity on the number of instances and very short type checking times compared to an implementation BoundedList also comes with few utility function for manipulation an contructing bounded lists To be noted Since each bound is unique type Explicit shrink and or grow is needed before using BoundedList does not have an instance of Ordering This might change",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "BoundedList",
           "package": "haskelldb",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "BoundedList",
           "package": "haskelldb",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "BoundedList",
           "package": "haskelldb",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N0",
           "package": "haskelldb",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N0",
           "package": "haskelldb",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N1",
           "package": "haskelldb",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N1",
           "package": "haskelldb",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N10",
           "package": "haskelldb",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N10",
           "package": "haskelldb",
@@ -122,6 +132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N100",
           "package": "haskelldb",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N100",
           "package": "haskelldb",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N101",
           "package": "haskelldb",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N101",
           "package": "haskelldb",
@@ -162,6 +176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N102",
           "package": "haskelldb",
@@ -170,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N102",
           "package": "haskelldb",
@@ -182,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N103",
           "package": "haskelldb",
@@ -190,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N103",
           "package": "haskelldb",
@@ -202,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N104",
           "package": "haskelldb",
@@ -210,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N104",
           "package": "haskelldb",
@@ -222,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N105",
           "package": "haskelldb",
@@ -230,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N105",
           "package": "haskelldb",
@@ -242,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N106",
           "package": "haskelldb",
@@ -250,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N106",
           "package": "haskelldb",
@@ -262,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N107",
           "package": "haskelldb",
@@ -270,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N107",
           "package": "haskelldb",
@@ -282,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N108",
           "package": "haskelldb",
@@ -290,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N108",
           "package": "haskelldb",
@@ -302,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N109",
           "package": "haskelldb",
@@ -310,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N109",
           "package": "haskelldb",
@@ -322,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N11",
           "package": "haskelldb",
@@ -330,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N11",
           "package": "haskelldb",
@@ -342,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N110",
           "package": "haskelldb",
@@ -350,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N110",
           "package": "haskelldb",
@@ -362,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N111",
           "package": "haskelldb",
@@ -370,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N111",
           "package": "haskelldb",
@@ -382,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N112",
           "package": "haskelldb",
@@ -390,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N112",
           "package": "haskelldb",
@@ -402,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N113",
           "package": "haskelldb",
@@ -410,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N113",
           "package": "haskelldb",
@@ -422,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N114",
           "package": "haskelldb",
@@ -430,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N114",
           "package": "haskelldb",
@@ -442,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N115",
           "package": "haskelldb",
@@ -450,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N115",
           "package": "haskelldb",
@@ -462,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N116",
           "package": "haskelldb",
@@ -470,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N116",
           "package": "haskelldb",
@@ -482,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N117",
           "package": "haskelldb",
@@ -490,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N117",
           "package": "haskelldb",
@@ -502,6 +550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N118",
           "package": "haskelldb",
@@ -510,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N118",
           "package": "haskelldb",
@@ -522,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N119",
           "package": "haskelldb",
@@ -530,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N119",
           "package": "haskelldb",
@@ -542,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N12",
           "package": "haskelldb",
@@ -550,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N12",
           "package": "haskelldb",
@@ -562,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N120",
           "package": "haskelldb",
@@ -570,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N120",
           "package": "haskelldb",
@@ -582,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N121",
           "package": "haskelldb",
@@ -590,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N121",
           "package": "haskelldb",
@@ -602,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N122",
           "package": "haskelldb",
@@ -610,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N122",
           "package": "haskelldb",
@@ -622,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N123",
           "package": "haskelldb",
@@ -630,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N123",
           "package": "haskelldb",
@@ -642,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N124",
           "package": "haskelldb",
@@ -650,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N124",
           "package": "haskelldb",
@@ -662,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N125",
           "package": "haskelldb",
@@ -670,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N125",
           "package": "haskelldb",
@@ -682,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N126",
           "package": "haskelldb",
@@ -690,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N126",
           "package": "haskelldb",
@@ -702,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N127",
           "package": "haskelldb",
@@ -710,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N127",
           "package": "haskelldb",
@@ -722,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N128",
           "package": "haskelldb",
@@ -730,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N128",
           "package": "haskelldb",
@@ -742,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N129",
           "package": "haskelldb",
@@ -750,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N129",
           "package": "haskelldb",
@@ -762,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N13",
           "package": "haskelldb",
@@ -770,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N13",
           "package": "haskelldb",
@@ -782,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N130",
           "package": "haskelldb",
@@ -790,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N130",
           "package": "haskelldb",
@@ -802,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N131",
           "package": "haskelldb",
@@ -810,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N131",
           "package": "haskelldb",
@@ -822,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N132",
           "package": "haskelldb",
@@ -830,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N132",
           "package": "haskelldb",
@@ -842,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N133",
           "package": "haskelldb",
@@ -850,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N133",
           "package": "haskelldb",
@@ -862,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N134",
           "package": "haskelldb",
@@ -870,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N134",
           "package": "haskelldb",
@@ -882,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N135",
           "package": "haskelldb",
@@ -890,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N135",
           "package": "haskelldb",
@@ -902,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N136",
           "package": "haskelldb",
@@ -910,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N136",
           "package": "haskelldb",
@@ -922,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N137",
           "package": "haskelldb",
@@ -930,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N137",
           "package": "haskelldb",
@@ -942,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N138",
           "package": "haskelldb",
@@ -950,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N138",
           "package": "haskelldb",
@@ -962,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N139",
           "package": "haskelldb",
@@ -970,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N139",
           "package": "haskelldb",
@@ -982,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N14",
           "package": "haskelldb",
@@ -990,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N14",
           "package": "haskelldb",
@@ -1002,6 +1100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N140",
           "package": "haskelldb",
@@ -1010,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N140",
           "package": "haskelldb",
@@ -1022,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N141",
           "package": "haskelldb",
@@ -1030,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N141",
           "package": "haskelldb",
@@ -1042,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N142",
           "package": "haskelldb",
@@ -1050,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N142",
           "package": "haskelldb",
@@ -1062,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N143",
           "package": "haskelldb",
@@ -1070,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N143",
           "package": "haskelldb",
@@ -1082,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N144",
           "package": "haskelldb",
@@ -1090,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N144",
           "package": "haskelldb",
@@ -1102,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N145",
           "package": "haskelldb",
@@ -1110,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N145",
           "package": "haskelldb",
@@ -1122,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N146",
           "package": "haskelldb",
@@ -1130,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N146",
           "package": "haskelldb",
@@ -1142,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N147",
           "package": "haskelldb",
@@ -1150,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N147",
           "package": "haskelldb",
@@ -1162,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N148",
           "package": "haskelldb",
@@ -1170,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N148",
           "package": "haskelldb",
@@ -1182,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N149",
           "package": "haskelldb",
@@ -1190,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N149",
           "package": "haskelldb",
@@ -1202,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N15",
           "package": "haskelldb",
@@ -1210,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N15",
           "package": "haskelldb",
@@ -1222,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N150",
           "package": "haskelldb",
@@ -1230,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N150",
           "package": "haskelldb",
@@ -1242,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N151",
           "package": "haskelldb",
@@ -1250,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N151",
           "package": "haskelldb",
@@ -1262,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N152",
           "package": "haskelldb",
@@ -1270,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N152",
           "package": "haskelldb",
@@ -1282,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N153",
           "package": "haskelldb",
@@ -1290,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N153",
           "package": "haskelldb",
@@ -1302,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N154",
           "package": "haskelldb",
@@ -1310,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N154",
           "package": "haskelldb",
@@ -1322,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N155",
           "package": "haskelldb",
@@ -1330,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N155",
           "package": "haskelldb",
@@ -1342,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N156",
           "package": "haskelldb",
@@ -1350,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N156",
           "package": "haskelldb",
@@ -1362,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N157",
           "package": "haskelldb",
@@ -1370,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N157",
           "package": "haskelldb",
@@ -1382,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N158",
           "package": "haskelldb",
@@ -1390,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N158",
           "package": "haskelldb",
@@ -1402,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N159",
           "package": "haskelldb",
@@ -1410,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N159",
           "package": "haskelldb",
@@ -1422,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N16",
           "package": "haskelldb",
@@ -1430,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N16",
           "package": "haskelldb",
@@ -1442,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N160",
           "package": "haskelldb",
@@ -1450,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N160",
           "package": "haskelldb",
@@ -1462,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N161",
           "package": "haskelldb",
@@ -1470,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N161",
           "package": "haskelldb",
@@ -1482,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N162",
           "package": "haskelldb",
@@ -1490,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N162",
           "package": "haskelldb",
@@ -1502,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N163",
           "package": "haskelldb",
@@ -1510,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N163",
           "package": "haskelldb",
@@ -1522,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N164",
           "package": "haskelldb",
@@ -1530,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N164",
           "package": "haskelldb",
@@ -1542,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N165",
           "package": "haskelldb",
@@ -1550,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N165",
           "package": "haskelldb",
@@ -1562,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N166",
           "package": "haskelldb",
@@ -1570,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N166",
           "package": "haskelldb",
@@ -1582,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N167",
           "package": "haskelldb",
@@ -1590,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N167",
           "package": "haskelldb",
@@ -1602,6 +1760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N168",
           "package": "haskelldb",
@@ -1610,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N168",
           "package": "haskelldb",
@@ -1622,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N169",
           "package": "haskelldb",
@@ -1630,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N169",
           "package": "haskelldb",
@@ -1642,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N17",
           "package": "haskelldb",
@@ -1650,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N17",
           "package": "haskelldb",
@@ -1662,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N170",
           "package": "haskelldb",
@@ -1670,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N170",
           "package": "haskelldb",
@@ -1682,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N171",
           "package": "haskelldb",
@@ -1690,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N171",
           "package": "haskelldb",
@@ -1702,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N172",
           "package": "haskelldb",
@@ -1710,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N172",
           "package": "haskelldb",
@@ -1722,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N173",
           "package": "haskelldb",
@@ -1730,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N173",
           "package": "haskelldb",
@@ -1742,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N174",
           "package": "haskelldb",
@@ -1750,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N174",
           "package": "haskelldb",
@@ -1762,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N175",
           "package": "haskelldb",
@@ -1770,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N175",
           "package": "haskelldb",
@@ -1782,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N176",
           "package": "haskelldb",
@@ -1790,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N176",
           "package": "haskelldb",
@@ -1802,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N177",
           "package": "haskelldb",
@@ -1810,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N177",
           "package": "haskelldb",
@@ -1822,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N178",
           "package": "haskelldb",
@@ -1830,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N178",
           "package": "haskelldb",
@@ -1842,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N179",
           "package": "haskelldb",
@@ -1850,6 +2033,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N179",
           "package": "haskelldb",
@@ -1862,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N18",
           "package": "haskelldb",
@@ -1870,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N18",
           "package": "haskelldb",
@@ -1882,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N180",
           "package": "haskelldb",
@@ -1890,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N180",
           "package": "haskelldb",
@@ -1902,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N181",
           "package": "haskelldb",
@@ -1910,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N181",
           "package": "haskelldb",
@@ -1922,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N182",
           "package": "haskelldb",
@@ -1930,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N182",
           "package": "haskelldb",
@@ -1942,6 +2134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N183",
           "package": "haskelldb",
@@ -1950,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N183",
           "package": "haskelldb",
@@ -1962,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N184",
           "package": "haskelldb",
@@ -1970,6 +2165,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N184",
           "package": "haskelldb",
@@ -1982,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N185",
           "package": "haskelldb",
@@ -1990,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N185",
           "package": "haskelldb",
@@ -2002,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N186",
           "package": "haskelldb",
@@ -2010,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N186",
           "package": "haskelldb",
@@ -2022,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N187",
           "package": "haskelldb",
@@ -2030,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N187",
           "package": "haskelldb",
@@ -2042,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N188",
           "package": "haskelldb",
@@ -2050,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N188",
           "package": "haskelldb",
@@ -2062,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N189",
           "package": "haskelldb",
@@ -2070,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N189",
           "package": "haskelldb",
@@ -2082,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N19",
           "package": "haskelldb",
@@ -2090,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N19",
           "package": "haskelldb",
@@ -2102,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N190",
           "package": "haskelldb",
@@ -2110,6 +2319,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N190",
           "package": "haskelldb",
@@ -2122,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N191",
           "package": "haskelldb",
@@ -2130,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N191",
           "package": "haskelldb",
@@ -2142,6 +2354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N192",
           "package": "haskelldb",
@@ -2150,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N192",
           "package": "haskelldb",
@@ -2162,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N193",
           "package": "haskelldb",
@@ -2170,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N193",
           "package": "haskelldb",
@@ -2182,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N194",
           "package": "haskelldb",
@@ -2190,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N194",
           "package": "haskelldb",
@@ -2202,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N195",
           "package": "haskelldb",
@@ -2210,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N195",
           "package": "haskelldb",
@@ -2222,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N196",
           "package": "haskelldb",
@@ -2230,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N196",
           "package": "haskelldb",
@@ -2242,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N197",
           "package": "haskelldb",
@@ -2250,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N197",
           "package": "haskelldb",
@@ -2262,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N198",
           "package": "haskelldb",
@@ -2270,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N198",
           "package": "haskelldb",
@@ -2282,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N199",
           "package": "haskelldb",
@@ -2290,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N199",
           "package": "haskelldb",
@@ -2302,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N2",
           "package": "haskelldb",
@@ -2310,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N2",
           "package": "haskelldb",
@@ -2322,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N20",
           "package": "haskelldb",
@@ -2330,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N20",
           "package": "haskelldb",
@@ -2342,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N200",
           "package": "haskelldb",
@@ -2350,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N200",
           "package": "haskelldb",
@@ -2362,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N201",
           "package": "haskelldb",
@@ -2370,6 +2605,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N201",
           "package": "haskelldb",
@@ -2382,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N202",
           "package": "haskelldb",
@@ -2390,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N202",
           "package": "haskelldb",
@@ -2402,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N203",
           "package": "haskelldb",
@@ -2410,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N203",
           "package": "haskelldb",
@@ -2422,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N204",
           "package": "haskelldb",
@@ -2430,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N204",
           "package": "haskelldb",
@@ -2442,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N205",
           "package": "haskelldb",
@@ -2450,6 +2693,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N205",
           "package": "haskelldb",
@@ -2462,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N206",
           "package": "haskelldb",
@@ -2470,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N206",
           "package": "haskelldb",
@@ -2482,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N207",
           "package": "haskelldb",
@@ -2490,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N207",
           "package": "haskelldb",
@@ -2502,6 +2750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N208",
           "package": "haskelldb",
@@ -2510,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N208",
           "package": "haskelldb",
@@ -2522,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N209",
           "package": "haskelldb",
@@ -2530,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N209",
           "package": "haskelldb",
@@ -2542,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N21",
           "package": "haskelldb",
@@ -2550,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N21",
           "package": "haskelldb",
@@ -2562,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N210",
           "package": "haskelldb",
@@ -2570,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N210",
           "package": "haskelldb",
@@ -2582,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N211",
           "package": "haskelldb",
@@ -2590,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N211",
           "package": "haskelldb",
@@ -2602,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N212",
           "package": "haskelldb",
@@ -2610,6 +2869,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N212",
           "package": "haskelldb",
@@ -2622,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N213",
           "package": "haskelldb",
@@ -2630,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N213",
           "package": "haskelldb",
@@ -2642,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N214",
           "package": "haskelldb",
@@ -2650,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N214",
           "package": "haskelldb",
@@ -2662,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N215",
           "package": "haskelldb",
@@ -2670,6 +2935,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N215",
           "package": "haskelldb",
@@ -2682,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N216",
           "package": "haskelldb",
@@ -2690,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N216",
           "package": "haskelldb",
@@ -2702,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N217",
           "package": "haskelldb",
@@ -2710,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N217",
           "package": "haskelldb",
@@ -2722,6 +2992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N218",
           "package": "haskelldb",
@@ -2730,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N218",
           "package": "haskelldb",
@@ -2742,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N219",
           "package": "haskelldb",
@@ -2750,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N219",
           "package": "haskelldb",
@@ -2762,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N22",
           "package": "haskelldb",
@@ -2770,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N22",
           "package": "haskelldb",
@@ -2782,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N220",
           "package": "haskelldb",
@@ -2790,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N220",
           "package": "haskelldb",
@@ -2802,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N221",
           "package": "haskelldb",
@@ -2810,6 +3089,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N221",
           "package": "haskelldb",
@@ -2822,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N222",
           "package": "haskelldb",
@@ -2830,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N222",
           "package": "haskelldb",
@@ -2842,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N223",
           "package": "haskelldb",
@@ -2850,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N223",
           "package": "haskelldb",
@@ -2862,6 +3146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N224",
           "package": "haskelldb",
@@ -2870,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N224",
           "package": "haskelldb",
@@ -2882,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N225",
           "package": "haskelldb",
@@ -2890,6 +3177,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N225",
           "package": "haskelldb",
@@ -2902,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N226",
           "package": "haskelldb",
@@ -2910,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N226",
           "package": "haskelldb",
@@ -2922,6 +3212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N227",
           "package": "haskelldb",
@@ -2930,6 +3221,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N227",
           "package": "haskelldb",
@@ -2942,6 +3234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N228",
           "package": "haskelldb",
@@ -2950,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N228",
           "package": "haskelldb",
@@ -2962,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N229",
           "package": "haskelldb",
@@ -2970,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N229",
           "package": "haskelldb",
@@ -2982,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N23",
           "package": "haskelldb",
@@ -2990,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N23",
           "package": "haskelldb",
@@ -3002,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N230",
           "package": "haskelldb",
@@ -3010,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N230",
           "package": "haskelldb",
@@ -3022,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N231",
           "package": "haskelldb",
@@ -3030,6 +3331,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N231",
           "package": "haskelldb",
@@ -3042,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N232",
           "package": "haskelldb",
@@ -3050,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N232",
           "package": "haskelldb",
@@ -3062,6 +3366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N233",
           "package": "haskelldb",
@@ -3070,6 +3375,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N233",
           "package": "haskelldb",
@@ -3082,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N234",
           "package": "haskelldb",
@@ -3090,6 +3397,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N234",
           "package": "haskelldb",
@@ -3102,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N235",
           "package": "haskelldb",
@@ -3110,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N235",
           "package": "haskelldb",
@@ -3122,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N236",
           "package": "haskelldb",
@@ -3130,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N236",
           "package": "haskelldb",
@@ -3142,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N237",
           "package": "haskelldb",
@@ -3150,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N237",
           "package": "haskelldb",
@@ -3162,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N238",
           "package": "haskelldb",
@@ -3170,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N238",
           "package": "haskelldb",
@@ -3182,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N239",
           "package": "haskelldb",
@@ -3190,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N239",
           "package": "haskelldb",
@@ -3202,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N24",
           "package": "haskelldb",
@@ -3210,6 +3529,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N24",
           "package": "haskelldb",
@@ -3222,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N240",
           "package": "haskelldb",
@@ -3230,6 +3551,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N240",
           "package": "haskelldb",
@@ -3242,6 +3564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N241",
           "package": "haskelldb",
@@ -3250,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N241",
           "package": "haskelldb",
@@ -3262,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N242",
           "package": "haskelldb",
@@ -3270,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N242",
           "package": "haskelldb",
@@ -3282,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N243",
           "package": "haskelldb",
@@ -3290,6 +3617,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N243",
           "package": "haskelldb",
@@ -3302,6 +3630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N244",
           "package": "haskelldb",
@@ -3310,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N244",
           "package": "haskelldb",
@@ -3322,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N245",
           "package": "haskelldb",
@@ -3330,6 +3661,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N245",
           "package": "haskelldb",
@@ -3342,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N246",
           "package": "haskelldb",
@@ -3350,6 +3683,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N246",
           "package": "haskelldb",
@@ -3362,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N247",
           "package": "haskelldb",
@@ -3370,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N247",
           "package": "haskelldb",
@@ -3382,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N248",
           "package": "haskelldb",
@@ -3390,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N248",
           "package": "haskelldb",
@@ -3402,6 +3740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N249",
           "package": "haskelldb",
@@ -3410,6 +3749,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N249",
           "package": "haskelldb",
@@ -3422,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N25",
           "package": "haskelldb",
@@ -3430,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N25",
           "package": "haskelldb",
@@ -3442,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N250",
           "package": "haskelldb",
@@ -3450,6 +3793,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N250",
           "package": "haskelldb",
@@ -3462,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N251",
           "package": "haskelldb",
@@ -3470,6 +3815,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N251",
           "package": "haskelldb",
@@ -3482,6 +3828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N252",
           "package": "haskelldb",
@@ -3490,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N252",
           "package": "haskelldb",
@@ -3502,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N253",
           "package": "haskelldb",
@@ -3510,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N253",
           "package": "haskelldb",
@@ -3522,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N254",
           "package": "haskelldb",
@@ -3530,6 +3881,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N254",
           "package": "haskelldb",
@@ -3542,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N255",
           "package": "haskelldb",
@@ -3550,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N255",
           "package": "haskelldb",
@@ -3562,6 +3916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N26",
           "package": "haskelldb",
@@ -3570,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N26",
           "package": "haskelldb",
@@ -3582,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N27",
           "package": "haskelldb",
@@ -3590,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N27",
           "package": "haskelldb",
@@ -3602,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N28",
           "package": "haskelldb",
@@ -3610,6 +3969,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N28",
           "package": "haskelldb",
@@ -3622,6 +3982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N29",
           "package": "haskelldb",
@@ -3630,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N29",
           "package": "haskelldb",
@@ -3642,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N3",
           "package": "haskelldb",
@@ -3650,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N3",
           "package": "haskelldb",
@@ -3662,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N30",
           "package": "haskelldb",
@@ -3670,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N30",
           "package": "haskelldb",
@@ -3682,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N31",
           "package": "haskelldb",
@@ -3690,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N31",
           "package": "haskelldb",
@@ -3702,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N32",
           "package": "haskelldb",
@@ -3710,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N32",
           "package": "haskelldb",
@@ -3722,6 +4092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N33",
           "package": "haskelldb",
@@ -3730,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N33",
           "package": "haskelldb",
@@ -3742,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N34",
           "package": "haskelldb",
@@ -3750,6 +4123,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N34",
           "package": "haskelldb",
@@ -3762,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N35",
           "package": "haskelldb",
@@ -3770,6 +4145,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N35",
           "package": "haskelldb",
@@ -3782,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N36",
           "package": "haskelldb",
@@ -3790,6 +4167,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N36",
           "package": "haskelldb",
@@ -3802,6 +4180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N37",
           "package": "haskelldb",
@@ -3810,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N37",
           "package": "haskelldb",
@@ -3822,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N38",
           "package": "haskelldb",
@@ -3830,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N38",
           "package": "haskelldb",
@@ -3842,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N39",
           "package": "haskelldb",
@@ -3850,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N39",
           "package": "haskelldb",
@@ -3862,6 +4246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N4",
           "package": "haskelldb",
@@ -3870,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N4",
           "package": "haskelldb",
@@ -3882,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N40",
           "package": "haskelldb",
@@ -3890,6 +4277,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N40",
           "package": "haskelldb",
@@ -3902,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N41",
           "package": "haskelldb",
@@ -3910,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N41",
           "package": "haskelldb",
@@ -3922,6 +4312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N42",
           "package": "haskelldb",
@@ -3930,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N42",
           "package": "haskelldb",
@@ -3942,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N43",
           "package": "haskelldb",
@@ -3950,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N43",
           "package": "haskelldb",
@@ -3962,6 +4356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N44",
           "package": "haskelldb",
@@ -3970,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N44",
           "package": "haskelldb",
@@ -3982,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N45",
           "package": "haskelldb",
@@ -3990,6 +4387,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N45",
           "package": "haskelldb",
@@ -4002,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N46",
           "package": "haskelldb",
@@ -4010,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N46",
           "package": "haskelldb",
@@ -4022,6 +4422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N47",
           "package": "haskelldb",
@@ -4030,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N47",
           "package": "haskelldb",
@@ -4042,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N48",
           "package": "haskelldb",
@@ -4050,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N48",
           "package": "haskelldb",
@@ -4062,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N49",
           "package": "haskelldb",
@@ -4070,6 +4475,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N49",
           "package": "haskelldb",
@@ -4082,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N5",
           "package": "haskelldb",
@@ -4090,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N5",
           "package": "haskelldb",
@@ -4102,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N50",
           "package": "haskelldb",
@@ -4110,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N50",
           "package": "haskelldb",
@@ -4122,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N51",
           "package": "haskelldb",
@@ -4130,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N51",
           "package": "haskelldb",
@@ -4142,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N52",
           "package": "haskelldb",
@@ -4150,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N52",
           "package": "haskelldb",
@@ -4162,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N53",
           "package": "haskelldb",
@@ -4170,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N53",
           "package": "haskelldb",
@@ -4182,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N54",
           "package": "haskelldb",
@@ -4190,6 +4607,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N54",
           "package": "haskelldb",
@@ -4202,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N55",
           "package": "haskelldb",
@@ -4210,6 +4629,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N55",
           "package": "haskelldb",
@@ -4222,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N56",
           "package": "haskelldb",
@@ -4230,6 +4651,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N56",
           "package": "haskelldb",
@@ -4242,6 +4664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N57",
           "package": "haskelldb",
@@ -4250,6 +4673,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N57",
           "package": "haskelldb",
@@ -4262,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N58",
           "package": "haskelldb",
@@ -4270,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N58",
           "package": "haskelldb",
@@ -4282,6 +4708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N59",
           "package": "haskelldb",
@@ -4290,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N59",
           "package": "haskelldb",
@@ -4302,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N6",
           "package": "haskelldb",
@@ -4310,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N6",
           "package": "haskelldb",
@@ -4322,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N60",
           "package": "haskelldb",
@@ -4330,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N60",
           "package": "haskelldb",
@@ -4342,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N61",
           "package": "haskelldb",
@@ -4350,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N61",
           "package": "haskelldb",
@@ -4362,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N62",
           "package": "haskelldb",
@@ -4370,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N62",
           "package": "haskelldb",
@@ -4382,6 +4818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N63",
           "package": "haskelldb",
@@ -4390,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N63",
           "package": "haskelldb",
@@ -4402,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N64",
           "package": "haskelldb",
@@ -4410,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N64",
           "package": "haskelldb",
@@ -4422,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N65",
           "package": "haskelldb",
@@ -4430,6 +4871,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N65",
           "package": "haskelldb",
@@ -4442,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N65535",
           "package": "haskelldb",
@@ -4450,6 +4893,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N65535",
           "package": "haskelldb",
@@ -4462,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N66",
           "package": "haskelldb",
@@ -4470,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N66",
           "package": "haskelldb",
@@ -4482,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N67",
           "package": "haskelldb",
@@ -4490,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N67",
           "package": "haskelldb",
@@ -4502,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N68",
           "package": "haskelldb",
@@ -4510,6 +4959,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N68",
           "package": "haskelldb",
@@ -4522,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N69",
           "package": "haskelldb",
@@ -4530,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N69",
           "package": "haskelldb",
@@ -4542,6 +4994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N7",
           "package": "haskelldb",
@@ -4550,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N7",
           "package": "haskelldb",
@@ -4562,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N70",
           "package": "haskelldb",
@@ -4570,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N70",
           "package": "haskelldb",
@@ -4582,6 +5038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N71",
           "package": "haskelldb",
@@ -4590,6 +5047,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N71",
           "package": "haskelldb",
@@ -4602,6 +5060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N72",
           "package": "haskelldb",
@@ -4610,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N72",
           "package": "haskelldb",
@@ -4622,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N73",
           "package": "haskelldb",
@@ -4630,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N73",
           "package": "haskelldb",
@@ -4642,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N74",
           "package": "haskelldb",
@@ -4650,6 +5113,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N74",
           "package": "haskelldb",
@@ -4662,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N75",
           "package": "haskelldb",
@@ -4670,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N75",
           "package": "haskelldb",
@@ -4682,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N76",
           "package": "haskelldb",
@@ -4690,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N76",
           "package": "haskelldb",
@@ -4702,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N77",
           "package": "haskelldb",
@@ -4710,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N77",
           "package": "haskelldb",
@@ -4722,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N78",
           "package": "haskelldb",
@@ -4730,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N78",
           "package": "haskelldb",
@@ -4742,6 +5214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N79",
           "package": "haskelldb",
@@ -4750,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N79",
           "package": "haskelldb",
@@ -4762,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N8",
           "package": "haskelldb",
@@ -4770,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N8",
           "package": "haskelldb",
@@ -4782,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N80",
           "package": "haskelldb",
@@ -4790,6 +5267,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N80",
           "package": "haskelldb",
@@ -4802,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N81",
           "package": "haskelldb",
@@ -4810,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N81",
           "package": "haskelldb",
@@ -4822,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N82",
           "package": "haskelldb",
@@ -4830,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N82",
           "package": "haskelldb",
@@ -4842,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N83",
           "package": "haskelldb",
@@ -4850,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N83",
           "package": "haskelldb",
@@ -4862,6 +5346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N84",
           "package": "haskelldb",
@@ -4870,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N84",
           "package": "haskelldb",
@@ -4882,6 +5368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N85",
           "package": "haskelldb",
@@ -4890,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N85",
           "package": "haskelldb",
@@ -4902,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N86",
           "package": "haskelldb",
@@ -4910,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N86",
           "package": "haskelldb",
@@ -4922,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N87",
           "package": "haskelldb",
@@ -4930,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N87",
           "package": "haskelldb",
@@ -4942,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N88",
           "package": "haskelldb",
@@ -4950,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N88",
           "package": "haskelldb",
@@ -4962,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N89",
           "package": "haskelldb",
@@ -4970,6 +5465,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N89",
           "package": "haskelldb",
@@ -4982,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N9",
           "package": "haskelldb",
@@ -4990,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N9",
           "package": "haskelldb",
@@ -5002,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N90",
           "package": "haskelldb",
@@ -5010,6 +5509,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N90",
           "package": "haskelldb",
@@ -5022,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N91",
           "package": "haskelldb",
@@ -5030,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N91",
           "package": "haskelldb",
@@ -5042,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N92",
           "package": "haskelldb",
@@ -5050,6 +5553,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N92",
           "package": "haskelldb",
@@ -5062,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N93",
           "package": "haskelldb",
@@ -5070,6 +5575,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N93",
           "package": "haskelldb",
@@ -5082,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N94",
           "package": "haskelldb",
@@ -5090,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N94",
           "package": "haskelldb",
@@ -5102,6 +5610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N95",
           "package": "haskelldb",
@@ -5110,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N95",
           "package": "haskelldb",
@@ -5122,6 +5632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N96",
           "package": "haskelldb",
@@ -5130,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N96",
           "package": "haskelldb",
@@ -5142,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N97",
           "package": "haskelldb",
@@ -5150,6 +5663,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N97",
           "package": "haskelldb",
@@ -5162,6 +5676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N98",
           "package": "haskelldb",
@@ -5170,6 +5685,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N98",
           "package": "haskelldb",
@@ -5182,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N99",
           "package": "haskelldb",
@@ -5190,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "N99",
           "package": "haskelldb",
@@ -5202,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "Size",
           "package": "haskelldb",
@@ -5210,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "Size",
           "package": "haskelldb",
@@ -5224,6 +5744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e and return the list inside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "fromBounded",
           "package": "haskelldb",
@@ -5234,6 +5755,7 @@
         "index": {
           "description": "Takes BoundedList and return the list inside",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "fromBounded",
           "normalized": "BoundedList a b-\u003e[a]",
@@ -5250,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e add grows it size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "grow",
           "package": "haskelldb",
@@ -5260,6 +5783,7 @@
         "index": {
           "description": "Takes BoundedList add grows it size",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "grow",
           "normalized": "BoundedList a b-\u003eBoundedList a c",
@@ -5275,6 +5799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the length of a \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "listBound",
           "package": "haskelldb",
@@ -5285,6 +5810,7 @@
         "index": {
           "description": "Returns the length of BoundedList",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "listBound",
           "normalized": "BoundedList a b-\u003eInt",
@@ -5301,6 +5827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShrinks the \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e supplied if\n it can do so without truncating the list. Returns Nothing\n if the list inside was to long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "shrink",
           "package": "haskelldb",
@@ -5311,6 +5838,7 @@
         "index": {
           "description": "Shrinks the BoundedList supplied if it can do so without truncating the list Returns Nothing if the list inside was to long",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "shrink",
           "normalized": "BoundedList a b-\u003eMaybe(BoundedList a c)",
@@ -5326,6 +5854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list and transforms it to a \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e.\n If the list doesn't fit, Nothing is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "toBounded",
           "package": "haskelldb",
@@ -5336,6 +5865,7 @@
         "index": {
           "description": "Takes list and transforms it to BoundedList If the list doesn fit Nothing is returned",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "toBounded",
           "normalized": "[a]-\u003eMaybe(BoundedList a b)",
@@ -5352,6 +5882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list and transforms it to a \u003ccode\u003e\u003ca\u003eBoundedList\u003c/a\u003e\u003c/code\u003e.\n If the list doesn'n fit, the list is truncated\n to make it fit into the bounded list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedList",
           "name": "trunc",
           "package": "haskelldb",
@@ -5362,6 +5893,7 @@
         "index": {
           "description": "Takes list and transforms it to BoundedList If the list doesn fit the list is truncated to make it fit into the bounded list",
           "hierarchy": "Database HaskellDB BoundedList",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedList",
           "name": "trunc",
           "normalized": "[a]-\u003eBoundedList a b",
@@ -5377,6 +5909,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBoundedString represents the sql types; CHARACTER and CHARACTER VARYING\n both defined in SQL 1992.\n BoundedString supports sizes in the range [0,255] and 65535.\n Greater sizes and the sql type SQL_TEXT (SQL 1992) will might be \n supported in the future.\n\u003c/p\u003e\u003cp\u003eThe use of BoundedString together with HaskellDB enables feedback when\n the length of a string exceeds the bound of a certain database field.\n BoundedString also provides a layer of type safety against loss of data\n due to sql string truncation when extracting and re-insert data into fields\n with smaller bound.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BoundedString",
           "package": "haskelldb",
@@ -5386,6 +5919,7 @@
         "index": {
           "description": "BoundedString represents the sql types CHARACTER and CHARACTER VARYING both defined in SQL BoundedString supports sizes in the range and Greater sizes and the sql type SQL TEXT SQL will might be supported in the future The use of BoundedString together with HaskellDB enables feedback when the length of string exceeds the bound of certain database field BoundedString also provides layer of type safety against loss of data due to sql string truncation when extracting and re-insert data into fields with smaller bound",
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BoundedString",
           "package": "haskelldb",
@@ -5399,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr0",
           "package": "haskelldb",
@@ -5407,6 +5942,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr0",
           "package": "haskelldb",
@@ -5420,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr1",
           "package": "haskelldb",
@@ -5428,6 +5965,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr1",
           "package": "haskelldb",
@@ -5441,6 +5979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr10",
           "package": "haskelldb",
@@ -5449,6 +5988,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr10",
           "package": "haskelldb",
@@ -5462,6 +6002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr100",
           "package": "haskelldb",
@@ -5470,6 +6011,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr100",
           "package": "haskelldb",
@@ -5483,6 +6025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr101",
           "package": "haskelldb",
@@ -5491,6 +6034,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr101",
           "package": "haskelldb",
@@ -5504,6 +6048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr102",
           "package": "haskelldb",
@@ -5512,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr102",
           "package": "haskelldb",
@@ -5525,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr103",
           "package": "haskelldb",
@@ -5533,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr103",
           "package": "haskelldb",
@@ -5546,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr104",
           "package": "haskelldb",
@@ -5554,6 +6103,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr104",
           "package": "haskelldb",
@@ -5567,6 +6117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr105",
           "package": "haskelldb",
@@ -5575,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr105",
           "package": "haskelldb",
@@ -5588,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr106",
           "package": "haskelldb",
@@ -5596,6 +6149,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr106",
           "package": "haskelldb",
@@ -5609,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr107",
           "package": "haskelldb",
@@ -5617,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr107",
           "package": "haskelldb",
@@ -5630,6 +6186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr108",
           "package": "haskelldb",
@@ -5638,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr108",
           "package": "haskelldb",
@@ -5651,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr109",
           "package": "haskelldb",
@@ -5659,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr109",
           "package": "haskelldb",
@@ -5672,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr11",
           "package": "haskelldb",
@@ -5680,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr11",
           "package": "haskelldb",
@@ -5693,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr110",
           "package": "haskelldb",
@@ -5701,6 +6264,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr110",
           "package": "haskelldb",
@@ -5714,6 +6278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr111",
           "package": "haskelldb",
@@ -5722,6 +6287,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr111",
           "package": "haskelldb",
@@ -5735,6 +6301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr112",
           "package": "haskelldb",
@@ -5743,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr112",
           "package": "haskelldb",
@@ -5756,6 +6324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr113",
           "package": "haskelldb",
@@ -5764,6 +6333,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr113",
           "package": "haskelldb",
@@ -5777,6 +6347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr114",
           "package": "haskelldb",
@@ -5785,6 +6356,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr114",
           "package": "haskelldb",
@@ -5798,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr115",
           "package": "haskelldb",
@@ -5806,6 +6379,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr115",
           "package": "haskelldb",
@@ -5819,6 +6393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr116",
           "package": "haskelldb",
@@ -5827,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr116",
           "package": "haskelldb",
@@ -5840,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr117",
           "package": "haskelldb",
@@ -5848,6 +6425,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr117",
           "package": "haskelldb",
@@ -5861,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr118",
           "package": "haskelldb",
@@ -5869,6 +6448,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr118",
           "package": "haskelldb",
@@ -5882,6 +6462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr119",
           "package": "haskelldb",
@@ -5890,6 +6471,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr119",
           "package": "haskelldb",
@@ -5903,6 +6485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr12",
           "package": "haskelldb",
@@ -5911,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr12",
           "package": "haskelldb",
@@ -5924,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr120",
           "package": "haskelldb",
@@ -5932,6 +6517,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr120",
           "package": "haskelldb",
@@ -5945,6 +6531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr121",
           "package": "haskelldb",
@@ -5953,6 +6540,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr121",
           "package": "haskelldb",
@@ -5966,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr122",
           "package": "haskelldb",
@@ -5974,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr122",
           "package": "haskelldb",
@@ -5987,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr123",
           "package": "haskelldb",
@@ -5995,6 +6586,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr123",
           "package": "haskelldb",
@@ -6008,6 +6600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr124",
           "package": "haskelldb",
@@ -6016,6 +6609,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr124",
           "package": "haskelldb",
@@ -6029,6 +6623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr125",
           "package": "haskelldb",
@@ -6037,6 +6632,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr125",
           "package": "haskelldb",
@@ -6050,6 +6646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr126",
           "package": "haskelldb",
@@ -6058,6 +6655,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr126",
           "package": "haskelldb",
@@ -6071,6 +6669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr127",
           "package": "haskelldb",
@@ -6079,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr127",
           "package": "haskelldb",
@@ -6092,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr128",
           "package": "haskelldb",
@@ -6100,6 +6701,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr128",
           "package": "haskelldb",
@@ -6113,6 +6715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr129",
           "package": "haskelldb",
@@ -6121,6 +6724,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr129",
           "package": "haskelldb",
@@ -6134,6 +6738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr13",
           "package": "haskelldb",
@@ -6142,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr13",
           "package": "haskelldb",
@@ -6155,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr130",
           "package": "haskelldb",
@@ -6163,6 +6770,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr130",
           "package": "haskelldb",
@@ -6176,6 +6784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr131",
           "package": "haskelldb",
@@ -6184,6 +6793,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr131",
           "package": "haskelldb",
@@ -6197,6 +6807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr132",
           "package": "haskelldb",
@@ -6205,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr132",
           "package": "haskelldb",
@@ -6218,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr133",
           "package": "haskelldb",
@@ -6226,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr133",
           "package": "haskelldb",
@@ -6239,6 +6853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr134",
           "package": "haskelldb",
@@ -6247,6 +6862,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr134",
           "package": "haskelldb",
@@ -6260,6 +6876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr135",
           "package": "haskelldb",
@@ -6268,6 +6885,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr135",
           "package": "haskelldb",
@@ -6281,6 +6899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr136",
           "package": "haskelldb",
@@ -6289,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr136",
           "package": "haskelldb",
@@ -6302,6 +6922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr137",
           "package": "haskelldb",
@@ -6310,6 +6931,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr137",
           "package": "haskelldb",
@@ -6323,6 +6945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr138",
           "package": "haskelldb",
@@ -6331,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr138",
           "package": "haskelldb",
@@ -6344,6 +6968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr139",
           "package": "haskelldb",
@@ -6352,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr139",
           "package": "haskelldb",
@@ -6365,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr14",
           "package": "haskelldb",
@@ -6373,6 +7000,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr14",
           "package": "haskelldb",
@@ -6386,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr140",
           "package": "haskelldb",
@@ -6394,6 +7023,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr140",
           "package": "haskelldb",
@@ -6407,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr141",
           "package": "haskelldb",
@@ -6415,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr141",
           "package": "haskelldb",
@@ -6428,6 +7060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr142",
           "package": "haskelldb",
@@ -6436,6 +7069,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr142",
           "package": "haskelldb",
@@ -6449,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr143",
           "package": "haskelldb",
@@ -6457,6 +7092,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr143",
           "package": "haskelldb",
@@ -6470,6 +7106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr144",
           "package": "haskelldb",
@@ -6478,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr144",
           "package": "haskelldb",
@@ -6491,6 +7129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr145",
           "package": "haskelldb",
@@ -6499,6 +7138,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr145",
           "package": "haskelldb",
@@ -6512,6 +7152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr146",
           "package": "haskelldb",
@@ -6520,6 +7161,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr146",
           "package": "haskelldb",
@@ -6533,6 +7175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr147",
           "package": "haskelldb",
@@ -6541,6 +7184,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr147",
           "package": "haskelldb",
@@ -6554,6 +7198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr148",
           "package": "haskelldb",
@@ -6562,6 +7207,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr148",
           "package": "haskelldb",
@@ -6575,6 +7221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr149",
           "package": "haskelldb",
@@ -6583,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr149",
           "package": "haskelldb",
@@ -6596,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr15",
           "package": "haskelldb",
@@ -6604,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr15",
           "package": "haskelldb",
@@ -6617,6 +7267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr150",
           "package": "haskelldb",
@@ -6625,6 +7276,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr150",
           "package": "haskelldb",
@@ -6638,6 +7290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr151",
           "package": "haskelldb",
@@ -6646,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr151",
           "package": "haskelldb",
@@ -6659,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr152",
           "package": "haskelldb",
@@ -6667,6 +7322,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr152",
           "package": "haskelldb",
@@ -6680,6 +7336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr153",
           "package": "haskelldb",
@@ -6688,6 +7345,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr153",
           "package": "haskelldb",
@@ -6701,6 +7359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr154",
           "package": "haskelldb",
@@ -6709,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr154",
           "package": "haskelldb",
@@ -6722,6 +7382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr155",
           "package": "haskelldb",
@@ -6730,6 +7391,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr155",
           "package": "haskelldb",
@@ -6743,6 +7405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr156",
           "package": "haskelldb",
@@ -6751,6 +7414,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr156",
           "package": "haskelldb",
@@ -6764,6 +7428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr157",
           "package": "haskelldb",
@@ -6772,6 +7437,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr157",
           "package": "haskelldb",
@@ -6785,6 +7451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr158",
           "package": "haskelldb",
@@ -6793,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr158",
           "package": "haskelldb",
@@ -6806,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr159",
           "package": "haskelldb",
@@ -6814,6 +7483,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr159",
           "package": "haskelldb",
@@ -6827,6 +7497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr16",
           "package": "haskelldb",
@@ -6835,6 +7506,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr16",
           "package": "haskelldb",
@@ -6848,6 +7520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr160",
           "package": "haskelldb",
@@ -6856,6 +7529,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr160",
           "package": "haskelldb",
@@ -6869,6 +7543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr161",
           "package": "haskelldb",
@@ -6877,6 +7552,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr161",
           "package": "haskelldb",
@@ -6890,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr162",
           "package": "haskelldb",
@@ -6898,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr162",
           "package": "haskelldb",
@@ -6911,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr163",
           "package": "haskelldb",
@@ -6919,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr163",
           "package": "haskelldb",
@@ -6932,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr164",
           "package": "haskelldb",
@@ -6940,6 +7621,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr164",
           "package": "haskelldb",
@@ -6953,6 +7635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr165",
           "package": "haskelldb",
@@ -6961,6 +7644,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr165",
           "package": "haskelldb",
@@ -6974,6 +7658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr166",
           "package": "haskelldb",
@@ -6982,6 +7667,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr166",
           "package": "haskelldb",
@@ -6995,6 +7681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr167",
           "package": "haskelldb",
@@ -7003,6 +7690,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr167",
           "package": "haskelldb",
@@ -7016,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr168",
           "package": "haskelldb",
@@ -7024,6 +7713,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr168",
           "package": "haskelldb",
@@ -7037,6 +7727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr169",
           "package": "haskelldb",
@@ -7045,6 +7736,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr169",
           "package": "haskelldb",
@@ -7058,6 +7750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr17",
           "package": "haskelldb",
@@ -7066,6 +7759,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr17",
           "package": "haskelldb",
@@ -7079,6 +7773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr170",
           "package": "haskelldb",
@@ -7087,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr170",
           "package": "haskelldb",
@@ -7100,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr171",
           "package": "haskelldb",
@@ -7108,6 +7805,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr171",
           "package": "haskelldb",
@@ -7121,6 +7819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr172",
           "package": "haskelldb",
@@ -7129,6 +7828,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr172",
           "package": "haskelldb",
@@ -7142,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr173",
           "package": "haskelldb",
@@ -7150,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr173",
           "package": "haskelldb",
@@ -7163,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr174",
           "package": "haskelldb",
@@ -7171,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr174",
           "package": "haskelldb",
@@ -7184,6 +7888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr175",
           "package": "haskelldb",
@@ -7192,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr175",
           "package": "haskelldb",
@@ -7205,6 +7911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr176",
           "package": "haskelldb",
@@ -7213,6 +7920,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr176",
           "package": "haskelldb",
@@ -7226,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr177",
           "package": "haskelldb",
@@ -7234,6 +7943,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr177",
           "package": "haskelldb",
@@ -7247,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr178",
           "package": "haskelldb",
@@ -7255,6 +7966,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr178",
           "package": "haskelldb",
@@ -7268,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr179",
           "package": "haskelldb",
@@ -7276,6 +7989,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr179",
           "package": "haskelldb",
@@ -7289,6 +8003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr18",
           "package": "haskelldb",
@@ -7297,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr18",
           "package": "haskelldb",
@@ -7310,6 +8026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr180",
           "package": "haskelldb",
@@ -7318,6 +8035,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr180",
           "package": "haskelldb",
@@ -7331,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr181",
           "package": "haskelldb",
@@ -7339,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr181",
           "package": "haskelldb",
@@ -7352,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr182",
           "package": "haskelldb",
@@ -7360,6 +8081,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr182",
           "package": "haskelldb",
@@ -7373,6 +8095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr183",
           "package": "haskelldb",
@@ -7381,6 +8104,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr183",
           "package": "haskelldb",
@@ -7394,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr184",
           "package": "haskelldb",
@@ -7402,6 +8127,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr184",
           "package": "haskelldb",
@@ -7415,6 +8141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr185",
           "package": "haskelldb",
@@ -7423,6 +8150,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr185",
           "package": "haskelldb",
@@ -7436,6 +8164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr186",
           "package": "haskelldb",
@@ -7444,6 +8173,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr186",
           "package": "haskelldb",
@@ -7457,6 +8187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr187",
           "package": "haskelldb",
@@ -7465,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr187",
           "package": "haskelldb",
@@ -7478,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr188",
           "package": "haskelldb",
@@ -7486,6 +8219,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr188",
           "package": "haskelldb",
@@ -7499,6 +8233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr189",
           "package": "haskelldb",
@@ -7507,6 +8242,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr189",
           "package": "haskelldb",
@@ -7520,6 +8256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr19",
           "package": "haskelldb",
@@ -7528,6 +8265,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr19",
           "package": "haskelldb",
@@ -7541,6 +8279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr190",
           "package": "haskelldb",
@@ -7549,6 +8288,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr190",
           "package": "haskelldb",
@@ -7562,6 +8302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr191",
           "package": "haskelldb",
@@ -7570,6 +8311,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr191",
           "package": "haskelldb",
@@ -7583,6 +8325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr192",
           "package": "haskelldb",
@@ -7591,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr192",
           "package": "haskelldb",
@@ -7604,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr193",
           "package": "haskelldb",
@@ -7612,6 +8357,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr193",
           "package": "haskelldb",
@@ -7625,6 +8371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr194",
           "package": "haskelldb",
@@ -7633,6 +8380,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr194",
           "package": "haskelldb",
@@ -7646,6 +8394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr195",
           "package": "haskelldb",
@@ -7654,6 +8403,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr195",
           "package": "haskelldb",
@@ -7667,6 +8417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr196",
           "package": "haskelldb",
@@ -7675,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr196",
           "package": "haskelldb",
@@ -7688,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr197",
           "package": "haskelldb",
@@ -7696,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr197",
           "package": "haskelldb",
@@ -7709,6 +8463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr198",
           "package": "haskelldb",
@@ -7717,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr198",
           "package": "haskelldb",
@@ -7730,6 +8486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr199",
           "package": "haskelldb",
@@ -7738,6 +8495,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr199",
           "package": "haskelldb",
@@ -7751,6 +8509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr2",
           "package": "haskelldb",
@@ -7759,6 +8518,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr2",
           "package": "haskelldb",
@@ -7772,6 +8532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr20",
           "package": "haskelldb",
@@ -7780,6 +8541,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr20",
           "package": "haskelldb",
@@ -7793,6 +8555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr200",
           "package": "haskelldb",
@@ -7801,6 +8564,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr200",
           "package": "haskelldb",
@@ -7814,6 +8578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr201",
           "package": "haskelldb",
@@ -7822,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr201",
           "package": "haskelldb",
@@ -7835,6 +8601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr202",
           "package": "haskelldb",
@@ -7843,6 +8610,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr202",
           "package": "haskelldb",
@@ -7856,6 +8624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr203",
           "package": "haskelldb",
@@ -7864,6 +8633,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr203",
           "package": "haskelldb",
@@ -7877,6 +8647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr204",
           "package": "haskelldb",
@@ -7885,6 +8656,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr204",
           "package": "haskelldb",
@@ -7898,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr205",
           "package": "haskelldb",
@@ -7906,6 +8679,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr205",
           "package": "haskelldb",
@@ -7919,6 +8693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr206",
           "package": "haskelldb",
@@ -7927,6 +8702,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr206",
           "package": "haskelldb",
@@ -7940,6 +8716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr207",
           "package": "haskelldb",
@@ -7948,6 +8725,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr207",
           "package": "haskelldb",
@@ -7961,6 +8739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr208",
           "package": "haskelldb",
@@ -7969,6 +8748,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr208",
           "package": "haskelldb",
@@ -7982,6 +8762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr209",
           "package": "haskelldb",
@@ -7990,6 +8771,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr209",
           "package": "haskelldb",
@@ -8003,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr21",
           "package": "haskelldb",
@@ -8011,6 +8794,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr21",
           "package": "haskelldb",
@@ -8024,6 +8808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr210",
           "package": "haskelldb",
@@ -8032,6 +8817,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr210",
           "package": "haskelldb",
@@ -8045,6 +8831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr211",
           "package": "haskelldb",
@@ -8053,6 +8840,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr211",
           "package": "haskelldb",
@@ -8066,6 +8854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr212",
           "package": "haskelldb",
@@ -8074,6 +8863,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr212",
           "package": "haskelldb",
@@ -8087,6 +8877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr213",
           "package": "haskelldb",
@@ -8095,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr213",
           "package": "haskelldb",
@@ -8108,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr214",
           "package": "haskelldb",
@@ -8116,6 +8909,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr214",
           "package": "haskelldb",
@@ -8129,6 +8923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr215",
           "package": "haskelldb",
@@ -8137,6 +8932,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr215",
           "package": "haskelldb",
@@ -8150,6 +8946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr216",
           "package": "haskelldb",
@@ -8158,6 +8955,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr216",
           "package": "haskelldb",
@@ -8171,6 +8969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr217",
           "package": "haskelldb",
@@ -8179,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr217",
           "package": "haskelldb",
@@ -8192,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr218",
           "package": "haskelldb",
@@ -8200,6 +9001,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr218",
           "package": "haskelldb",
@@ -8213,6 +9015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr219",
           "package": "haskelldb",
@@ -8221,6 +9024,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr219",
           "package": "haskelldb",
@@ -8234,6 +9038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr22",
           "package": "haskelldb",
@@ -8242,6 +9047,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr22",
           "package": "haskelldb",
@@ -8255,6 +9061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr220",
           "package": "haskelldb",
@@ -8263,6 +9070,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr220",
           "package": "haskelldb",
@@ -8276,6 +9084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr221",
           "package": "haskelldb",
@@ -8284,6 +9093,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr221",
           "package": "haskelldb",
@@ -8297,6 +9107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr222",
           "package": "haskelldb",
@@ -8305,6 +9116,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr222",
           "package": "haskelldb",
@@ -8318,6 +9130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr223",
           "package": "haskelldb",
@@ -8326,6 +9139,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr223",
           "package": "haskelldb",
@@ -8339,6 +9153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr224",
           "package": "haskelldb",
@@ -8347,6 +9162,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr224",
           "package": "haskelldb",
@@ -8360,6 +9176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr225",
           "package": "haskelldb",
@@ -8368,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr225",
           "package": "haskelldb",
@@ -8381,6 +9199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr226",
           "package": "haskelldb",
@@ -8389,6 +9208,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr226",
           "package": "haskelldb",
@@ -8402,6 +9222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr227",
           "package": "haskelldb",
@@ -8410,6 +9231,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr227",
           "package": "haskelldb",
@@ -8423,6 +9245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr228",
           "package": "haskelldb",
@@ -8431,6 +9254,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr228",
           "package": "haskelldb",
@@ -8444,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr229",
           "package": "haskelldb",
@@ -8452,6 +9277,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr229",
           "package": "haskelldb",
@@ -8465,6 +9291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr23",
           "package": "haskelldb",
@@ -8473,6 +9300,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr23",
           "package": "haskelldb",
@@ -8486,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr230",
           "package": "haskelldb",
@@ -8494,6 +9323,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr230",
           "package": "haskelldb",
@@ -8507,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr231",
           "package": "haskelldb",
@@ -8515,6 +9346,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr231",
           "package": "haskelldb",
@@ -8528,6 +9360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr232",
           "package": "haskelldb",
@@ -8536,6 +9369,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr232",
           "package": "haskelldb",
@@ -8549,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr233",
           "package": "haskelldb",
@@ -8557,6 +9392,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr233",
           "package": "haskelldb",
@@ -8570,6 +9406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr234",
           "package": "haskelldb",
@@ -8578,6 +9415,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr234",
           "package": "haskelldb",
@@ -8591,6 +9429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr235",
           "package": "haskelldb",
@@ -8599,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr235",
           "package": "haskelldb",
@@ -8612,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr236",
           "package": "haskelldb",
@@ -8620,6 +9461,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr236",
           "package": "haskelldb",
@@ -8633,6 +9475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr237",
           "package": "haskelldb",
@@ -8641,6 +9484,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr237",
           "package": "haskelldb",
@@ -8654,6 +9498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr238",
           "package": "haskelldb",
@@ -8662,6 +9507,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr238",
           "package": "haskelldb",
@@ -8675,6 +9521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr239",
           "package": "haskelldb",
@@ -8683,6 +9530,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr239",
           "package": "haskelldb",
@@ -8696,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr24",
           "package": "haskelldb",
@@ -8704,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr24",
           "package": "haskelldb",
@@ -8717,6 +9567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr240",
           "package": "haskelldb",
@@ -8725,6 +9576,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr240",
           "package": "haskelldb",
@@ -8738,6 +9590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr241",
           "package": "haskelldb",
@@ -8746,6 +9599,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr241",
           "package": "haskelldb",
@@ -8759,6 +9613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr242",
           "package": "haskelldb",
@@ -8767,6 +9622,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr242",
           "package": "haskelldb",
@@ -8780,6 +9636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr243",
           "package": "haskelldb",
@@ -8788,6 +9645,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr243",
           "package": "haskelldb",
@@ -8801,6 +9659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr244",
           "package": "haskelldb",
@@ -8809,6 +9668,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr244",
           "package": "haskelldb",
@@ -8822,6 +9682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr245",
           "package": "haskelldb",
@@ -8830,6 +9691,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr245",
           "package": "haskelldb",
@@ -8843,6 +9705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr246",
           "package": "haskelldb",
@@ -8851,6 +9714,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr246",
           "package": "haskelldb",
@@ -8864,6 +9728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr247",
           "package": "haskelldb",
@@ -8872,6 +9737,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr247",
           "package": "haskelldb",
@@ -8885,6 +9751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr248",
           "package": "haskelldb",
@@ -8893,6 +9760,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr248",
           "package": "haskelldb",
@@ -8906,6 +9774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr249",
           "package": "haskelldb",
@@ -8914,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr249",
           "package": "haskelldb",
@@ -8927,6 +9797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr25",
           "package": "haskelldb",
@@ -8935,6 +9806,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr25",
           "package": "haskelldb",
@@ -8948,6 +9820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr250",
           "package": "haskelldb",
@@ -8956,6 +9829,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr250",
           "package": "haskelldb",
@@ -8969,6 +9843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr251",
           "package": "haskelldb",
@@ -8977,6 +9852,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr251",
           "package": "haskelldb",
@@ -8990,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr252",
           "package": "haskelldb",
@@ -8998,6 +9875,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr252",
           "package": "haskelldb",
@@ -9011,6 +9889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr253",
           "package": "haskelldb",
@@ -9019,6 +9898,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr253",
           "package": "haskelldb",
@@ -9032,6 +9912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr254",
           "package": "haskelldb",
@@ -9040,6 +9921,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr254",
           "package": "haskelldb",
@@ -9053,6 +9935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr255",
           "package": "haskelldb",
@@ -9061,6 +9944,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr255",
           "package": "haskelldb",
@@ -9074,6 +9958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr26",
           "package": "haskelldb",
@@ -9082,6 +9967,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr26",
           "package": "haskelldb",
@@ -9095,6 +9981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr27",
           "package": "haskelldb",
@@ -9103,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr27",
           "package": "haskelldb",
@@ -9116,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr28",
           "package": "haskelldb",
@@ -9124,6 +10013,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr28",
           "package": "haskelldb",
@@ -9137,6 +10027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr29",
           "package": "haskelldb",
@@ -9145,6 +10036,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr29",
           "package": "haskelldb",
@@ -9158,6 +10050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr3",
           "package": "haskelldb",
@@ -9166,6 +10059,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr3",
           "package": "haskelldb",
@@ -9179,6 +10073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr30",
           "package": "haskelldb",
@@ -9187,6 +10082,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr30",
           "package": "haskelldb",
@@ -9200,6 +10096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr31",
           "package": "haskelldb",
@@ -9208,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr31",
           "package": "haskelldb",
@@ -9221,6 +10119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr32",
           "package": "haskelldb",
@@ -9229,6 +10128,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr32",
           "package": "haskelldb",
@@ -9242,6 +10142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr33",
           "package": "haskelldb",
@@ -9250,6 +10151,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr33",
           "package": "haskelldb",
@@ -9263,6 +10165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr34",
           "package": "haskelldb",
@@ -9271,6 +10174,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr34",
           "package": "haskelldb",
@@ -9284,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr35",
           "package": "haskelldb",
@@ -9292,6 +10197,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr35",
           "package": "haskelldb",
@@ -9305,6 +10211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr36",
           "package": "haskelldb",
@@ -9313,6 +10220,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr36",
           "package": "haskelldb",
@@ -9326,6 +10234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr37",
           "package": "haskelldb",
@@ -9334,6 +10243,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr37",
           "package": "haskelldb",
@@ -9347,6 +10257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr38",
           "package": "haskelldb",
@@ -9355,6 +10266,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr38",
           "package": "haskelldb",
@@ -9368,6 +10280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr39",
           "package": "haskelldb",
@@ -9376,6 +10289,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr39",
           "package": "haskelldb",
@@ -9389,6 +10303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr4",
           "package": "haskelldb",
@@ -9397,6 +10312,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr4",
           "package": "haskelldb",
@@ -9410,6 +10326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr40",
           "package": "haskelldb",
@@ -9418,6 +10335,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr40",
           "package": "haskelldb",
@@ -9431,6 +10349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr41",
           "package": "haskelldb",
@@ -9439,6 +10358,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr41",
           "package": "haskelldb",
@@ -9452,6 +10372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr42",
           "package": "haskelldb",
@@ -9460,6 +10381,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr42",
           "package": "haskelldb",
@@ -9473,6 +10395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr43",
           "package": "haskelldb",
@@ -9481,6 +10404,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr43",
           "package": "haskelldb",
@@ -9494,6 +10418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr44",
           "package": "haskelldb",
@@ -9502,6 +10427,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr44",
           "package": "haskelldb",
@@ -9515,6 +10441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr45",
           "package": "haskelldb",
@@ -9523,6 +10450,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr45",
           "package": "haskelldb",
@@ -9536,6 +10464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr46",
           "package": "haskelldb",
@@ -9544,6 +10473,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr46",
           "package": "haskelldb",
@@ -9557,6 +10487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr47",
           "package": "haskelldb",
@@ -9565,6 +10496,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr47",
           "package": "haskelldb",
@@ -9578,6 +10510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr48",
           "package": "haskelldb",
@@ -9586,6 +10519,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr48",
           "package": "haskelldb",
@@ -9599,6 +10533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr49",
           "package": "haskelldb",
@@ -9607,6 +10542,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr49",
           "package": "haskelldb",
@@ -9620,6 +10556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr5",
           "package": "haskelldb",
@@ -9628,6 +10565,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr5",
           "package": "haskelldb",
@@ -9641,6 +10579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr50",
           "package": "haskelldb",
@@ -9649,6 +10588,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr50",
           "package": "haskelldb",
@@ -9662,6 +10602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr51",
           "package": "haskelldb",
@@ -9670,6 +10611,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr51",
           "package": "haskelldb",
@@ -9683,6 +10625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr52",
           "package": "haskelldb",
@@ -9691,6 +10634,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr52",
           "package": "haskelldb",
@@ -9704,6 +10648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr53",
           "package": "haskelldb",
@@ -9712,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr53",
           "package": "haskelldb",
@@ -9725,6 +10671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr54",
           "package": "haskelldb",
@@ -9733,6 +10680,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr54",
           "package": "haskelldb",
@@ -9746,6 +10694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr55",
           "package": "haskelldb",
@@ -9754,6 +10703,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr55",
           "package": "haskelldb",
@@ -9767,6 +10717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr56",
           "package": "haskelldb",
@@ -9775,6 +10726,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr56",
           "package": "haskelldb",
@@ -9788,6 +10740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr57",
           "package": "haskelldb",
@@ -9796,6 +10749,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr57",
           "package": "haskelldb",
@@ -9809,6 +10763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr58",
           "package": "haskelldb",
@@ -9817,6 +10772,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr58",
           "package": "haskelldb",
@@ -9830,6 +10786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr59",
           "package": "haskelldb",
@@ -9838,6 +10795,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr59",
           "package": "haskelldb",
@@ -9851,6 +10809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr6",
           "package": "haskelldb",
@@ -9859,6 +10818,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr6",
           "package": "haskelldb",
@@ -9872,6 +10832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr60",
           "package": "haskelldb",
@@ -9880,6 +10841,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr60",
           "package": "haskelldb",
@@ -9893,6 +10855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr61",
           "package": "haskelldb",
@@ -9901,6 +10864,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr61",
           "package": "haskelldb",
@@ -9914,6 +10878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr62",
           "package": "haskelldb",
@@ -9922,6 +10887,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr62",
           "package": "haskelldb",
@@ -9935,6 +10901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr63",
           "package": "haskelldb",
@@ -9943,6 +10910,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr63",
           "package": "haskelldb",
@@ -9956,6 +10924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr64",
           "package": "haskelldb",
@@ -9964,6 +10933,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr64",
           "package": "haskelldb",
@@ -9977,6 +10947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr65",
           "package": "haskelldb",
@@ -9985,6 +10956,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr65",
           "package": "haskelldb",
@@ -9998,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr65535",
           "package": "haskelldb",
@@ -10006,6 +10979,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr65535",
           "package": "haskelldb",
@@ -10019,6 +10993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr66",
           "package": "haskelldb",
@@ -10027,6 +11002,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr66",
           "package": "haskelldb",
@@ -10040,6 +11016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr67",
           "package": "haskelldb",
@@ -10048,6 +11025,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr67",
           "package": "haskelldb",
@@ -10061,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr68",
           "package": "haskelldb",
@@ -10069,6 +11048,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr68",
           "package": "haskelldb",
@@ -10082,6 +11062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr69",
           "package": "haskelldb",
@@ -10090,6 +11071,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr69",
           "package": "haskelldb",
@@ -10103,6 +11085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr7",
           "package": "haskelldb",
@@ -10111,6 +11094,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr7",
           "package": "haskelldb",
@@ -10124,6 +11108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr70",
           "package": "haskelldb",
@@ -10132,6 +11117,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr70",
           "package": "haskelldb",
@@ -10145,6 +11131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr71",
           "package": "haskelldb",
@@ -10153,6 +11140,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr71",
           "package": "haskelldb",
@@ -10166,6 +11154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr72",
           "package": "haskelldb",
@@ -10174,6 +11163,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr72",
           "package": "haskelldb",
@@ -10187,6 +11177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr73",
           "package": "haskelldb",
@@ -10195,6 +11186,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr73",
           "package": "haskelldb",
@@ -10208,6 +11200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr74",
           "package": "haskelldb",
@@ -10216,6 +11209,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr74",
           "package": "haskelldb",
@@ -10229,6 +11223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr75",
           "package": "haskelldb",
@@ -10237,6 +11232,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr75",
           "package": "haskelldb",
@@ -10250,6 +11246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr76",
           "package": "haskelldb",
@@ -10258,6 +11255,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr76",
           "package": "haskelldb",
@@ -10271,6 +11269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr77",
           "package": "haskelldb",
@@ -10279,6 +11278,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr77",
           "package": "haskelldb",
@@ -10292,6 +11292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr78",
           "package": "haskelldb",
@@ -10300,6 +11301,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr78",
           "package": "haskelldb",
@@ -10313,6 +11315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr79",
           "package": "haskelldb",
@@ -10321,6 +11324,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr79",
           "package": "haskelldb",
@@ -10334,6 +11338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr8",
           "package": "haskelldb",
@@ -10342,6 +11347,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr8",
           "package": "haskelldb",
@@ -10355,6 +11361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr80",
           "package": "haskelldb",
@@ -10363,6 +11370,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr80",
           "package": "haskelldb",
@@ -10376,6 +11384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr81",
           "package": "haskelldb",
@@ -10384,6 +11393,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr81",
           "package": "haskelldb",
@@ -10397,6 +11407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr82",
           "package": "haskelldb",
@@ -10405,6 +11416,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr82",
           "package": "haskelldb",
@@ -10418,6 +11430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr83",
           "package": "haskelldb",
@@ -10426,6 +11439,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr83",
           "package": "haskelldb",
@@ -10439,6 +11453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr84",
           "package": "haskelldb",
@@ -10447,6 +11462,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr84",
           "package": "haskelldb",
@@ -10460,6 +11476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr85",
           "package": "haskelldb",
@@ -10468,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr85",
           "package": "haskelldb",
@@ -10481,6 +11499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr86",
           "package": "haskelldb",
@@ -10489,6 +11508,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr86",
           "package": "haskelldb",
@@ -10502,6 +11522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr87",
           "package": "haskelldb",
@@ -10510,6 +11531,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr87",
           "package": "haskelldb",
@@ -10523,6 +11545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr88",
           "package": "haskelldb",
@@ -10531,6 +11554,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr88",
           "package": "haskelldb",
@@ -10544,6 +11568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr89",
           "package": "haskelldb",
@@ -10552,6 +11577,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr89",
           "package": "haskelldb",
@@ -10565,6 +11591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr9",
           "package": "haskelldb",
@@ -10573,6 +11600,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr9",
           "package": "haskelldb",
@@ -10586,6 +11614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr90",
           "package": "haskelldb",
@@ -10594,6 +11623,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr90",
           "package": "haskelldb",
@@ -10607,6 +11637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr91",
           "package": "haskelldb",
@@ -10615,6 +11646,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr91",
           "package": "haskelldb",
@@ -10628,6 +11660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr92",
           "package": "haskelldb",
@@ -10636,6 +11669,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr92",
           "package": "haskelldb",
@@ -10649,6 +11683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr93",
           "package": "haskelldb",
@@ -10657,6 +11692,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr93",
           "package": "haskelldb",
@@ -10670,6 +11706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr94",
           "package": "haskelldb",
@@ -10678,6 +11715,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr94",
           "package": "haskelldb",
@@ -10691,6 +11729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr95",
           "package": "haskelldb",
@@ -10699,6 +11738,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr95",
           "package": "haskelldb",
@@ -10712,6 +11752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr96",
           "package": "haskelldb",
@@ -10720,6 +11761,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr96",
           "package": "haskelldb",
@@ -10733,6 +11775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr97",
           "package": "haskelldb",
@@ -10741,6 +11784,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr97",
           "package": "haskelldb",
@@ -10754,6 +11798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr98",
           "package": "haskelldb",
@@ -10762,6 +11807,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr98",
           "package": "haskelldb",
@@ -10775,6 +11821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr99",
           "package": "haskelldb",
@@ -10783,6 +11830,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BStr99",
           "package": "haskelldb",
@@ -10796,6 +11844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BoundedString",
           "package": "haskelldb",
@@ -10804,6 +11853,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB BoundedString",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.BoundedString",
           "name": "BoundedString",
           "package": "haskelldb",
@@ -10818,6 +11868,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDBDirect generates a Haskell module from a database.\n It first reads the system catalog of the database into\n a \u003ccode\u003eCatalog\u003c/code\u003e data type. After that it pretty prints that\n data structure in an appropiate Haskell module which\n can be used to perform queries on the database.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBDirect",
           "name": "DBDirect",
           "package": "haskelldb",
@@ -10827,6 +11878,7 @@
         "index": {
           "description": "DBDirect generates Haskell module from database It first reads the system catalog of the database into Catalog data type After that it pretty prints that data structure in an appropiate Haskell module which can be used to perform queries on the database",
           "hierarchy": "Database HaskellDB DBDirect",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBDirect",
           "name": "DBDirect",
           "package": "haskelldb",
@@ -10840,6 +11892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBDirect",
           "name": "dbdirect",
           "package": "haskelldb",
@@ -10849,6 +11902,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBDirect",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBDirect",
           "name": "dbdirect",
           "normalized": "DriverInterface-\u003eIO()",
@@ -10864,6 +11918,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExports every function needed by DBDirect generated \n files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "DBLayout",
           "package": "haskelldb",
@@ -10873,6 +11928,7 @@
         "index": {
           "description": "Exports every function needed by DBDirect generated files",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "DBLayout",
           "package": "haskelldb",
@@ -10887,6 +11943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Attr",
           "package": "haskelldb",
@@ -10896,6 +11953,7 @@
         "index": {
           "description": "Typed attributes",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Attr",
           "package": "haskelldb",
@@ -10910,6 +11968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e is a user-readable and manipulable\n representation of the internal \u003ccode\u003e\u003ca\u003eClockTime\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "CalendarTime",
           "package": "haskelldb",
@@ -10918,6 +11977,7 @@
         "index": {
           "description": "CalendarTime is user-readable and manipulable representation of the internal ClockTime type",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "CalendarTime",
           "package": "haskelldb",
@@ -10932,6 +11992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of normal expressions, contains the untyped PrimExpr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Expr",
           "package": "haskelldb",
@@ -10941,6 +12002,7 @@
         "index": {
           "description": "Type of normal expressions contains the untyped PrimExpr",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Expr",
           "package": "haskelldb",
@@ -10955,6 +12017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for field labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "FieldTag",
           "package": "haskelldb",
@@ -10964,6 +12027,7 @@
         "index": {
           "description": "Class for field labels",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "FieldTag",
           "package": "haskelldb",
@@ -10978,6 +12042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple day and time aggregate, where the day is of the specified parameter,\n and the time is a TimeOfDay.\n Conversion of this (as local civil time) to UTC depends on the time zone.\n Conversion of this (as local mean time) to UT1 depends on the longitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "LocalTime",
           "package": "haskelldb",
@@ -10986,6 +12051,7 @@
         "index": {
           "description": "simple day and time aggregate where the day is of the specified parameter and the time is TimeOfDay Conversion of this as local civil time to UTC depends on the time zone Conversion of this as local mean time to UT1 depends on the longitude",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "LocalTime",
           "package": "haskelldb",
@@ -11000,6 +12066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor that adds a field to a record.\n f is the field tag, a is the field value and b is the rest of the record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "RecCons",
           "package": "haskelldb",
@@ -11009,6 +12076,7 @@
         "index": {
           "description": "Constructor that adds field to record is the field tag is the field value and is the rest of the record",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "RecCons",
           "package": "haskelldb",
@@ -11023,6 +12091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "RecNil",
           "package": "haskelldb",
@@ -11032,6 +12101,7 @@
         "index": {
           "description": "The empty record",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "RecNil",
           "package": "haskelldb",
@@ -11046,6 +12116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic tables, contains table name and an\n   association from attributes to attribute\n   names in the real table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Table",
           "package": "haskelldb",
@@ -11055,6 +12126,7 @@
         "index": {
           "description": "Basic tables contains table name and an association from attributes to attribute names in the real table",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "Table",
           "package": "haskelldb",
@@ -11146,6 +12218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name of the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "fieldName",
           "package": "haskelldb",
@@ -11156,6 +12229,7 @@
         "index": {
           "description": "Gets the name of the label",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "fieldName",
           "normalized": "a-\u003eString",
@@ -11172,6 +12246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a table entry from a field tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "hdbMakeEntry",
           "package": "haskelldb",
@@ -11181,6 +12256,7 @@
         "index": {
           "description": "Constructs table entry from field tag",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "hdbMakeEntry",
           "normalized": "a-\u003eRecord(RecCons a(Expr b)RecNil)",
@@ -11197,6 +12273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake an \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e for a field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBLayout",
           "name": "mkAttr",
           "package": "haskelldb",
@@ -11206,6 +12283,7 @@
         "index": {
           "description": "Make an Attr for field",
           "hierarchy": "Database HaskellDB DBLayout",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBLayout",
           "name": "mkAttr",
           "normalized": "a-\u003eAttr a b",
@@ -11222,6 +12300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the \u003ca\u003ecore\u003c/a\u003e file of the DBSpec files. It defines\n a DBInfo and important functions on it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -11231,6 +12310,7 @@
         "index": {
           "description": "This is the core file of the DBSpec files It defines DBInfo and important functions on it",
           "hierarchy": "Database HaskellDB DBSpec DBInfo",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -11244,6 +12324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "CInfo",
           "package": "haskelldb",
@@ -11252,6 +12333,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec DBInfo",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "CInfo",
           "package": "haskelldb",
@@ -11266,6 +12348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a database layout, top level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -11275,6 +12358,7 @@
         "index": {
           "description": "Defines database layout top level",
           "hierarchy": "Database HaskellDB DBSpec DBInfo",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -11288,6 +12372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBOptions",
           "package": "haskelldb",
@@ -11296,6 +12381,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec DBInfo",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "DBOptions",
           "package": "haskelldb",
@@ -11309,6 +12395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "TInfo",
           "package": "haskelldb",
@@ -11317,6 +12404,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec DBInfo",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBInfo",
           "name": "TInfo",
           "package": "haskelldb",
@@ -11906,6 +12994,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConverts a DBSpec-generated database to a set of\n (FilePath,Doc), that can be used to generate definition\n files usable in HaskellDB (the generation itself is done\n in DBDirect)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "DBSpecToDBDirect",
           "package": "haskelldb",
@@ -11915,6 +13004,7 @@
         "index": {
           "description": "Converts DBSpec-generated database to set of FilePath Doc that can be used to generate definition files usable in HaskellDB the generation itself is done in DBDirect",
           "hierarchy": "Database HaskellDB DBSpec DBSpecToDBDirect",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "DBSpecToDBDirect",
           "package": "haskelldb",
@@ -11929,6 +13019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate module files in the given directory for the given DBInfo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "dbInfoToModuleFiles",
           "package": "haskelldb",
@@ -11938,6 +13029,7 @@
         "index": {
           "description": "Create module files in the given directory for the given DBInfo",
           "hierarchy": "Database HaskellDB DBSpec DBSpecToDBDirect",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "dbInfoToModuleFiles",
           "normalized": "FilePath-\u003eString-\u003eDBInfo-\u003eIO()",
@@ -11954,6 +13046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a database specification to a set of module names\n   and module contents. The first element of the returned list\n   is the top-level module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "specToHDB",
           "package": "haskelldb",
@@ -11963,6 +13056,7 @@
         "index": {
           "description": "Converts database specification to set of module names and module contents The first element of the returned list is the top-level module",
           "hierarchy": "Database HaskellDB DBSpec DBSpecToDBDirect",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDBDirect",
           "name": "specToHDB",
           "normalized": "String-\u003eDBInfo-\u003e[(String,Doc)]",
@@ -11979,6 +13073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnects to a database and generates stuff in it according\n to what's inside the DBSpec.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDatabase",
           "name": "DBSpecToDatabase",
           "package": "haskelldb",
@@ -11988,6 +13083,7 @@
         "index": {
           "description": "Connects to database and generates stuff in it according to what inside the DBSpec",
           "hierarchy": "Database HaskellDB DBSpec DBSpecToDatabase",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDatabase",
           "name": "DBSpecToDatabase",
           "package": "haskelldb",
@@ -12028,6 +13124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database table specified by a \u003ccode\u003e\u003ca\u003eTInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDatabase",
           "name": "tInfoToTable",
           "package": "haskelldb",
@@ -12038,6 +13135,7 @@
         "index": {
           "description": "Create database table specified by TInfo",
           "hierarchy": "Database HaskellDB DBSpec DBSpecToDatabase",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DBSpecToDatabase",
           "name": "tInfoToTable",
           "normalized": "Database-\u003eTInfo-\u003eIO()",
@@ -12054,6 +13152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnects to a Database and generates a DBSpec specification\n from it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.DatabaseToDBSpec",
           "name": "DatabaseToDBSpec",
           "package": "haskelldb",
@@ -12063,6 +13162,7 @@
         "index": {
           "description": "Connects to Database and generates DBSpec specification from it",
           "hierarchy": "Database HaskellDB DBSpec DatabaseToDBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.DatabaseToDBSpec",
           "name": "DatabaseToDBSpec",
           "package": "haskelldb",
@@ -12103,6 +13203,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious functions used when pretty printing stuff\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "PPHelpers",
           "package": "haskelldb",
@@ -12112,6 +13213,7 @@
         "index": {
           "description": "Various functions used when pretty printing stuff",
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "PPHelpers",
           "package": "haskelldb",
@@ -12125,6 +13227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "MakeIdentifiers",
           "package": "haskelldb",
@@ -12133,6 +13236,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "MakeIdentifiers",
           "package": "haskelldb",
@@ -12146,6 +13250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "MakeIdentifiers",
           "package": "haskelldb",
@@ -12155,6 +13260,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "MakeIdentifiers",
           "package": "haskelldb",
@@ -12168,6 +13274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkChars",
           "package": "haskelldb",
@@ -12177,6 +13284,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkChars",
           "normalized": "[Char]-\u003e[Char]",
@@ -12192,6 +13300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkKeyword",
           "package": "haskelldb",
@@ -12201,6 +13310,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkKeyword",
           "normalized": "[Char]-\u003e[Char]",
@@ -12216,6 +13326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkLower",
           "package": "haskelldb",
@@ -12225,6 +13336,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkLower",
           "normalized": "[Char]-\u003e[Char]",
@@ -12240,6 +13352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkLowerDef",
           "package": "haskelldb",
@@ -12249,6 +13362,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkLowerDef",
           "normalized": "Char-\u003e[Char]-\u003e[Char]",
@@ -12264,6 +13378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkUpper",
           "package": "haskelldb",
@@ -12273,6 +13388,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkUpper",
           "normalized": "[Char]-\u003e[Char]",
@@ -12288,6 +13404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkUpperDef",
           "package": "haskelldb",
@@ -12297,6 +13414,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "checkUpperDef",
           "normalized": "Char-\u003e[Char]-\u003e[Char]",
@@ -12312,6 +13430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "fileName",
           "package": "haskelldb",
@@ -12321,6 +13440,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "fileName",
           "normalized": "[Char]-\u003e[Char]",
@@ -12336,6 +13456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "identifier",
           "package": "haskelldb",
@@ -12345,6 +13466,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "identifier",
           "normalized": "String-\u003eString",
@@ -12359,6 +13481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "mkIdentCamelCase",
           "package": "haskelldb",
@@ -12368,6 +13491,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "mkIdentCamelCase",
           "package": "haskelldb",
@@ -12381,6 +13505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "mkIdentPreserving",
           "package": "haskelldb",
@@ -12390,6 +13515,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "mkIdentPreserving",
           "package": "haskelldb",
@@ -12403,6 +13529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "moduleName",
           "package": "haskelldb",
@@ -12412,6 +13539,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "moduleName",
           "normalized": "String-\u003eString",
@@ -12427,6 +13555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "newline",
           "package": "haskelldb",
@@ -12436,6 +13565,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "newline",
           "package": "haskelldb",
@@ -12448,6 +13578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "ppComment",
           "package": "haskelldb",
@@ -12457,6 +13588,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "ppComment",
           "normalized": "[[Char]]-\u003eDoc",
@@ -12473,6 +13605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralization of \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e to any separating character set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "split",
           "package": "haskelldb",
@@ -12483,6 +13616,7 @@
         "index": {
           "description": "Generalization of words and lines to any separating character set",
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "split",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -12497,6 +13631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toLowerCamelCase",
           "package": "haskelldb",
@@ -12506,6 +13641,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toLowerCamelCase",
           "normalized": "[Char]-\u003e[Char]",
@@ -12521,6 +13657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toType",
           "package": "haskelldb",
@@ -12530,6 +13667,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toType",
           "normalized": "String-\u003eString",
@@ -12545,6 +13683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toUpperCamelCase",
           "package": "haskelldb",
@@ -12554,6 +13693,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec PPHelpers",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec.PPHelpers",
           "name": "toUpperCamelCase",
           "normalized": "[Char]-\u003e[Char]",
@@ -12570,6 +13710,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDBSpec is the new and improved way of specifying databases.\n It is designed to be able to describe a database in such a \n way that it can easily be converted to a DBDirect-spec OR\n directly into a database\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBSpec",
           "package": "haskelldb",
@@ -12579,6 +13720,7 @@
         "index": {
           "description": "DBSpec is the new and improved way of specifying databases It is designed to be able to describe database in such way that it can easily be converted to DBDirect-spec OR directly into database",
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBSpec",
           "package": "haskelldb",
@@ -12592,6 +13734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "CInfo",
           "package": "haskelldb",
@@ -12600,6 +13743,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "CInfo",
           "package": "haskelldb",
@@ -12614,6 +13758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines a database layout, top level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -12623,6 +13768,7 @@
         "index": {
           "description": "Defines database layout top level",
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBInfo",
           "package": "haskelldb",
@@ -12636,6 +13782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBOptions",
           "package": "haskelldb",
@@ -12644,6 +13791,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "DBOptions",
           "package": "haskelldb",
@@ -12658,6 +13806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type and \u003ccode\u003enullable\u003c/code\u003e flag of a database column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "FieldDesc",
           "package": "haskelldb",
@@ -12667,6 +13816,7 @@
         "index": {
           "description": "The type and nullable flag of database column",
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "FieldDesc",
           "package": "haskelldb",
@@ -12681,6 +13831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA database column type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "FieldType",
           "package": "haskelldb",
@@ -12690,6 +13841,7 @@
         "index": {
           "description": "database column type",
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "FieldType",
           "package": "haskelldb",
@@ -12703,6 +13855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DBSpec",
           "name": "TInfo",
           "package": "haskelldb",
@@ -12711,6 +13864,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DBSpec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DBSpec",
           "name": "TInfo",
           "package": "haskelldb",
@@ -12909,6 +14063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines standard database operations and the\n primitive hooks that a particular database binding\n must provide.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -12918,6 +14073,7 @@
         "index": {
           "description": "Defines standard database operations and the primitive hooks that particular database binding must provide",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -12931,6 +14087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -12939,6 +14096,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -12953,6 +14111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunctions for getting values of a given type. Database drivers\n   need to implement these functions and pass this record to \u003ccode\u003e\u003ca\u003egetRec\u003c/a\u003e\u003c/code\u003e\n   when getting query results.\n\u003c/p\u003e\u003cp\u003eAll these functions should return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the value is NULL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "GetInstances",
           "package": "haskelldb",
@@ -12962,6 +14121,7 @@
         "index": {
           "description": "Functions for getting values of given type Database drivers need to implement these functions and pass this record to getRec when getting query results All these functions should return Nothing if the value is NULL",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "GetInstances",
           "package": "haskelldb",
@@ -12975,6 +14135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "GetRec",
           "package": "haskelldb",
@@ -12983,6 +14144,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "GetRec",
           "package": "haskelldb",
@@ -12996,6 +14158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "GetValue",
           "package": "haskelldb",
@@ -13004,6 +14167,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "GetValue",
           "package": "haskelldb",
@@ -13043,6 +14207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -13052,6 +14217,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "Database",
           "package": "haskelldb",
@@ -13065,6 +14231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "GetInstances",
           "package": "haskelldb",
@@ -13074,6 +14241,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "GetInstances",
           "package": "haskelldb",
@@ -13088,6 +14256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit any pending data to the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "commit",
           "package": "haskelldb",
@@ -13097,6 +14266,7 @@
         "index": {
           "description": "Commit any pending data to the database",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "commit",
           "normalized": "Database-\u003eIO()",
@@ -13112,6 +14282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs not very useful. You need to be root to use it. \n   We suggest you solve this in another way\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "createDB",
           "package": "haskelldb",
@@ -13121,6 +14292,7 @@
         "index": {
           "description": "Is not very useful You need to be root to use it We suggest you solve this in another way",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "createDB",
           "normalized": "Database-\u003eString-\u003eIO()",
@@ -13136,6 +14308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "createTable",
           "package": "haskelldb",
@@ -13144,6 +14317,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "createTable",
           "normalized": "Database-\u003eTableName-\u003e[(Attribute,FieldDesc)]-\u003eIO()",
@@ -13159,6 +14333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbCommit",
           "package": "haskelldb",
@@ -13168,6 +14343,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbCommit",
           "normalized": "IO()",
@@ -13183,6 +14359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbCreateDB",
           "package": "haskelldb",
@@ -13192,6 +14369,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbCreateDB",
           "normalized": "String-\u003eIO()",
@@ -13207,6 +14385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbCreateTable",
           "package": "haskelldb",
@@ -13216,6 +14395,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbCreateTable",
           "normalized": "TableName-\u003e[(Attribute,FieldDesc)]-\u003eIO()",
@@ -13231,6 +14411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbDelete",
           "package": "haskelldb",
@@ -13240,6 +14421,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbDelete",
           "normalized": "TableName-\u003e[PrimExpr]-\u003eIO()",
@@ -13255,6 +14437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbDescribe",
           "package": "haskelldb",
@@ -13264,6 +14447,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbDescribe",
           "normalized": "TableName-\u003eIO[(Attribute,FieldDesc)]",
@@ -13279,6 +14463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbDropDB",
           "package": "haskelldb",
@@ -13288,6 +14473,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbDropDB",
           "normalized": "String-\u003eIO()",
@@ -13303,6 +14489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbDropTable",
           "package": "haskelldb",
@@ -13312,6 +14499,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbDropTable",
           "normalized": "TableName-\u003eIO()",
@@ -13327,6 +14515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbInsert",
           "package": "haskelldb",
@@ -13336,6 +14525,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbInsert",
           "normalized": "TableName-\u003eAssoc-\u003eIO()",
@@ -13351,6 +14541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbInsertQuery",
           "package": "haskelldb",
@@ -13360,6 +14551,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbInsertQuery",
           "normalized": "TableName-\u003ePrimQuery-\u003eIO()",
@@ -13375,6 +14567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbQuery",
           "package": "haskelldb",
@@ -13384,6 +14577,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbQuery",
           "normalized": "PrimQuery-\u003eRel a-\u003eIO[Record b]",
@@ -13399,6 +14593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbTables",
           "package": "haskelldb",
@@ -13408,6 +14603,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbTables",
           "normalized": "IO[TableName]",
@@ -13423,6 +14619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbTransaction",
           "package": "haskelldb",
@@ -13432,6 +14629,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbTransaction",
           "normalized": "a b IO c-\u003eIO c",
@@ -13447,6 +14645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dbUpdate",
           "package": "haskelldb",
@@ -13456,6 +14655,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dbUpdate",
           "normalized": "TableName-\u003e[PrimExpr]-\u003eAssoc-\u003eIO()",
@@ -13521,6 +14721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dropDB",
           "package": "haskelldb",
@@ -13529,6 +14730,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dropDB",
           "normalized": "Database-\u003eString-\u003eIO()",
@@ -13544,6 +14746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "dropTable",
           "package": "haskelldb",
@@ -13552,6 +14755,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "dropTable",
           "normalized": "Database-\u003eTableName-\u003eIO()",
@@ -13568,6 +14772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getBool",
           "package": "haskelldb",
@@ -13578,6 +14783,7 @@
         "index": {
           "description": "Get Bool value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getBool",
           "normalized": "a-\u003eString-\u003eIO(Maybe Bool)",
@@ -13594,6 +14800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eCalendarTime\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getCalendarTime",
           "package": "haskelldb",
@@ -13604,6 +14811,7 @@
         "index": {
           "description": "Get CalendarTime value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getCalendarTime",
           "normalized": "a-\u003eString-\u003eIO(Maybe CalendarTime)",
@@ -13620,6 +14828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getDouble",
           "package": "haskelldb",
@@ -13630,6 +14839,7 @@
         "index": {
           "description": "Get Double value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getDouble",
           "normalized": "a-\u003eString-\u003eIO(Maybe Double)",
@@ -13646,6 +14856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getInt",
           "package": "haskelldb",
@@ -13656,6 +14867,7 @@
         "index": {
           "description": "Get an Int value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getInt",
           "normalized": "a-\u003eString-\u003eIO(Maybe Int)",
@@ -13672,6 +14884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getInteger",
           "package": "haskelldb",
@@ -13682,6 +14895,7 @@
         "index": {
           "description": "Get an Integer value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getInteger",
           "normalized": "a-\u003eString-\u003eIO(Maybe Integer)",
@@ -13698,6 +14912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eLocalTime\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getLocalTime",
           "package": "haskelldb",
@@ -13708,6 +14923,7 @@
         "index": {
           "description": "Get LocalTime value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getLocalTime",
           "normalized": "a-\u003eString-\u003eIO(Maybe LocalTime)",
@@ -13724,6 +14940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a result record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getRec",
           "package": "haskelldb",
@@ -13734,6 +14951,7 @@
         "index": {
           "description": "Create result record",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getRec",
           "package": "haskelldb",
@@ -13748,6 +14966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getString",
           "package": "haskelldb",
@@ -13758,6 +14977,7 @@
         "index": {
           "description": "Get String value",
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getString",
           "normalized": "a-\u003eString-\u003eIO(Maybe String)",
@@ -13773,6 +14993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Database",
           "name": "getValue",
           "package": "haskelldb",
@@ -13782,6 +15003,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Database",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Database",
           "name": "getValue",
           "normalized": "GetInstances a-\u003ea-\u003eString-\u003eIO b",
@@ -13952,6 +15174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis exports an API that all drivers must conform to. It\n is used by the end user to load drivers either dynamically\n or statically.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverAPI",
           "package": "haskelldb",
@@ -13961,6 +15184,7 @@
         "index": {
           "description": "This exports an API that all drivers must conform to It is used by the end user to load drivers either dynamically or statically",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverAPI",
           "package": "haskelldb",
@@ -13975,6 +15199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface which drivers should implement.\n   The \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function takes some driver specific name, value pairs\n   use to setup the database connection, and a database action to run.\n   \u003ccode\u003e\u003ca\u003erequiredOptions\u003c/a\u003e\u003c/code\u003e lists all required options with a short description,\n   that is printed as help in the DBDirect program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverInterface",
           "package": "haskelldb",
@@ -13984,6 +15209,7 @@
         "index": {
           "description": "Interface which drivers should implement The connect function takes some driver specific name value pairs use to setup the database connection and database action to run requiredOptions lists all required options with short description that is printed as help in the DBDirect program",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverInterface",
           "package": "haskelldb",
@@ -13998,6 +15224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonads in which \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computations may be embedded.\n Any monad built by applying a sequence of monad transformers to the\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad will be an instance of this class.\n\u003c/p\u003e\u003cp\u003eInstances should satisfy the following laws, which state that \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e\n is a transformer of monads:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e (m \u003e\u003e= f) = \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e m \u003e\u003e= (\u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e . f)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "MonadIO",
           "package": "haskelldb",
@@ -14006,6 +15233,7 @@
         "index": {
           "description": "Monads in which IO computations may be embedded Any monad built by applying sequence of monad transformers to the IO monad will be an instance of this class Instances should satisfy the following laws which state that liftIO is transformer of monads liftIO return return liftIO liftIO liftIO",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "MonadIO",
           "package": "haskelldb",
@@ -14019,6 +15247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverInterface",
           "package": "haskelldb",
@@ -14028,6 +15257,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "DriverInterface",
           "package": "haskelldb",
@@ -14041,6 +15271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "connect",
           "package": "haskelldb",
@@ -14050,6 +15281,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "connect",
           "normalized": "[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -14065,6 +15297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault dummy driver, real drivers should overload this\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "defaultdriver",
           "package": "haskelldb",
@@ -14075,6 +15308,7 @@
         "index": {
           "description": "Default dummy driver real drivers should overload this",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "defaultdriver",
           "package": "haskelldb",
@@ -14088,6 +15322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used by drivers to get option values from the given\n   list of name, value pairs.\n   It is intended for use with the \u003ccode\u003e\u003ca\u003erequiredOptions\u003c/a\u003e\u003c/code\u003e value of the driver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getAnnotatedOptions",
           "package": "haskelldb",
@@ -14097,6 +15332,7 @@
         "index": {
           "description": "Can be used by drivers to get option values from the given list of name value pairs It is intended for use with the requiredOptions value of the driver",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getAnnotatedOptions",
           "normalized": "[(String,String)]-\u003e[(String,String)]-\u003ea[String]",
@@ -14113,6 +15349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets an \u003ccode\u003e\u003ca\u003eSqlGenerator\u003c/a\u003e\u003c/code\u003e from the \u003ca\u003egenerator\u003c/a\u003e option in the given list.\n   Currently available generators: \u003ca\u003emysql\u003c/a\u003e, \u003ca\u003epostgresql\u003c/a\u003e, \u003ca\u003esqlite\u003c/a\u003e, \u003ca\u003edefault\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getGenerator",
           "package": "haskelldb",
@@ -14122,6 +15359,7 @@
         "index": {
           "description": "Gets an SqlGenerator from the generator option in the given list Currently available generators mysql postgresql sqlite default",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getGenerator",
           "normalized": "[(String,String)]-\u003ea SqlGenerator",
@@ -14138,6 +15376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used by drivers to get option values from the given\n   list of name, value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getOptions",
           "package": "haskelldb",
@@ -14147,6 +15386,7 @@
         "index": {
           "description": "Can be used by drivers to get option values from the given list of name value pairs",
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "getOptions",
           "normalized": "[String]-\u003e[(String,String)]-\u003ea[String]",
@@ -14162,6 +15402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "requiredOptions",
           "package": "haskelldb",
@@ -14171,6 +15412,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB DriverAPI",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.DriverAPI",
           "name": "requiredOptions",
           "normalized": "[(String,String)]",
@@ -14187,6 +15429,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the types of database columns, and functions\n for converting these between HSQL and internal formats\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldType",
           "package": "haskelldb",
@@ -14196,6 +15439,7 @@
         "index": {
           "description": "Defines the types of database columns and functions for converting these between HSQL and internal formats",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldType",
           "package": "haskelldb",
@@ -14210,6 +15454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass which retrieves a field description from a given type.\n Instances are provided for most concrete types. Instances\n for Maybe automatically make the field nullable, and instances\n for all (Expr a) types where a has an ExprType instance allows\n type information to be recovered from a given column expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "ExprType",
           "package": "haskelldb",
@@ -14219,6 +15464,7 @@
         "index": {
           "description": "Class which retrieves field description from given type Instances are provided for most concrete types Instances for Maybe automatically make the field nullable and instances for all Expr types where has an ExprType instance allows type information to be recovered from given column expression",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "ExprType",
           "package": "haskelldb",
@@ -14233,6 +15479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass which returns a list of field descriptions. Gets the\n descriptions of all columns in a Record/query. Most useful when\n the columns associated with each field in a (Rel r) type must be\n recovered. Note that this occurs at the type level only and no\n values are inspected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "ExprTypes",
           "package": "haskelldb",
@@ -14242,6 +15489,7 @@
         "index": {
           "description": "Class which returns list of field descriptions Gets the descriptions of all columns in Record query Most useful when the columns associated with each field in Rel type must be recovered Note that this occurs at the type level only and no values are inspected",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "ExprTypes",
           "package": "haskelldb",
@@ -14256,6 +15504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type and \u003ccode\u003enullable\u003c/code\u003e flag of a database column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldDesc",
           "package": "haskelldb",
@@ -14265,6 +15514,7 @@
         "index": {
           "description": "The type and nullable flag of database column",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldDesc",
           "package": "haskelldb",
@@ -14279,6 +15529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA database column type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldType",
           "package": "haskelldb",
@@ -14288,6 +15539,7 @@
         "index": {
           "description": "database column type",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "FieldType",
           "package": "haskelldb",
@@ -14301,6 +15553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "fromHaskellType",
           "package": "haskelldb",
@@ -14310,6 +15563,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "fromHaskellType",
           "normalized": "a-\u003eFieldDesc",
@@ -14325,6 +15579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "fromHaskellTypes",
           "package": "haskelldb",
@@ -14334,6 +15589,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "fromHaskellTypes",
           "normalized": "a-\u003e[FieldDesc]",
@@ -14350,6 +15606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a query, returns a list of the field names and their\n types used by the query. Useful for recovering field information\n once a query has been built up. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "queryFields",
           "package": "haskelldb",
@@ -14360,6 +15617,7 @@
         "index": {
           "description": "Given query returns list of the field names and their types used by the query Useful for recovering field information once query has been built up",
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "queryFields",
           "normalized": "Query(Rel a)-\u003e[(String,FieldDesc)]",
@@ -14375,6 +15633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.FieldType",
           "name": "toHaskellType",
           "package": "haskelldb",
@@ -14384,6 +15643,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB FieldType",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.FieldType",
           "name": "toHaskellType",
           "normalized": "FieldType-\u003eString",
@@ -14400,6 +15660,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a replacement for some of TREX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "HDBRec",
           "package": "haskelldb",
@@ -14409,6 +15670,7 @@
         "index": {
           "description": "This is replacement for some of TREX",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "HDBRec",
           "package": "haskelldb",
@@ -14423,6 +15685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for field labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "FieldTag",
           "package": "haskelldb",
@@ -14432,6 +15695,7 @@
         "index": {
           "description": "Class for field labels",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "FieldTag",
           "package": "haskelldb",
@@ -14446,6 +15710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe record \u003ccode\u003er\u003c/code\u003e has the field \u003ccode\u003ef\u003c/code\u003e if there is an instance of\n   \u003ccode\u003eHasField f r\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "HasField",
           "package": "haskelldb",
@@ -14455,6 +15720,7 @@
         "index": {
           "description": "The record has the field if there is an instance of HasField",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "HasField",
           "package": "haskelldb",
@@ -14468,6 +15734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ReadRecRow",
           "package": "haskelldb",
@@ -14476,6 +15743,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ReadRecRow",
           "package": "haskelldb",
@@ -14489,6 +15757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCat",
           "package": "haskelldb",
@@ -14497,6 +15766,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCat",
           "package": "haskelldb",
@@ -14511,6 +15781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor that adds a field to a record.\n f is the field tag, a is the field value and b is the rest of the record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCons",
           "package": "haskelldb",
@@ -14520,6 +15791,7 @@
         "index": {
           "description": "Constructor that adds field to record is the field tag is the field value and is the rest of the record",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCons",
           "package": "haskelldb",
@@ -14534,6 +15806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecNil",
           "package": "haskelldb",
@@ -14543,6 +15816,7 @@
         "index": {
           "description": "The empty record",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecNil",
           "package": "haskelldb",
@@ -14557,6 +15831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type used for records. This is a function\n   that takes a \u003ccode\u003e\u003ca\u003eRecNil\u003c/a\u003e\u003c/code\u003e so that the user does not have to \n   put a \u003ccode\u003e\u003ca\u003eRecNil\u003c/a\u003e\u003c/code\u003e at the end of every record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "Record",
           "package": "haskelldb",
@@ -14566,6 +15841,7 @@
         "index": {
           "description": "The type used for records This is function that takes RecNil so that the user does not have to put RecNil at the end of every record",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "Record",
           "package": "haskelldb",
@@ -14579,6 +15855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "Select",
           "package": "haskelldb",
@@ -14587,6 +15864,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "Select",
           "package": "haskelldb",
@@ -14600,6 +15878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "SetField",
           "package": "haskelldb",
@@ -14608,6 +15887,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "SetField",
           "package": "haskelldb",
@@ -14621,6 +15901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ShowLabels",
           "package": "haskelldb",
@@ -14629,6 +15910,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ShowLabels",
           "package": "haskelldb",
@@ -14643,6 +15925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a record to a list of label names and field values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ShowRecRow",
           "package": "haskelldb",
@@ -14652,6 +15935,7 @@
         "index": {
           "description": "Convert record to list of label names and field values",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "ShowRecRow",
           "package": "haskelldb",
@@ -14666,6 +15950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField selection operator. It is overloaded so that\n   users (read HaskellDB) can redefine it for things\n   with phantom record types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "(!)",
           "package": "haskelldb",
@@ -14676,6 +15961,7 @@
         "index": {
           "description": "Field selection operator It is overloaded so that users read HaskellDB can redefine it for things with phantom record types",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003ec",
@@ -14691,6 +15977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates one-field record from a label and a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "(.=.)",
           "package": "haskelldb",
@@ -14700,6 +15987,7 @@
         "index": {
           "description": "Creates one-field record from label and value",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "(.=.) .=.",
           "normalized": "a b c-\u003ec-\u003eRecord(RecCons b c RecNil)",
@@ -14714,6 +16002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCons",
           "package": "haskelldb",
@@ -14723,6 +16012,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecCons",
           "package": "haskelldb",
@@ -14736,6 +16026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecNil",
           "package": "haskelldb",
@@ -14745,6 +16036,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "RecNil",
           "package": "haskelldb",
@@ -14759,6 +16051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "emptyRecord",
           "package": "haskelldb",
@@ -14769,6 +16062,7 @@
         "index": {
           "description": "The empty record",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "emptyRecord",
           "package": "haskelldb",
@@ -14783,6 +16077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name of the label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "fieldName",
           "package": "haskelldb",
@@ -14793,6 +16088,7 @@
         "index": {
           "description": "Gets the name of the label",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "fieldName",
           "normalized": "a-\u003eString",
@@ -14809,6 +16105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of labels and strins representating values\n   to a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "readRecRow",
           "package": "haskelldb",
@@ -14819,6 +16116,7 @@
         "index": {
           "description": "Convert list of labels and strins representating values to record",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "readRecRow",
           "normalized": "[(String,String)]-\u003e[(a,[(String,String)])]",
@@ -14835,6 +16133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "recCat",
           "package": "haskelldb",
@@ -14845,6 +16144,7 @@
         "index": {
           "description": "Concatenates two records",
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "recCat",
           "normalized": "a-\u003ea-\u003ea",
@@ -14860,6 +16160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "recordLabels",
           "package": "haskelldb",
@@ -14869,6 +16170,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "recordLabels",
           "normalized": "a-\u003e[String]",
@@ -14884,6 +16186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "setField",
           "package": "haskelldb",
@@ -14893,6 +16196,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "setField",
           "normalized": "a b c-\u003ec-\u003ed-\u003ed",
@@ -14908,6 +16212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.HDBRec",
           "name": "showRecRow",
           "package": "haskelldb",
@@ -14917,6 +16222,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBRec",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.HDBRec",
           "name": "showRecRow",
           "normalized": "a-\u003e[(String,ShowS)]",
@@ -14933,6 +16239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines standard optimizations performed on PrimQuery's\n (relational expressions).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Optimize",
           "name": "Optimize",
           "package": "haskelldb",
@@ -14942,6 +16249,7 @@
         "index": {
           "description": "Defines standard optimizations performed on PrimQuery relational expressions",
           "hierarchy": "Database HaskellDB Optimize",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Optimize",
           "name": "Optimize",
           "package": "haskelldb",
@@ -14956,6 +16264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize a PrimQuery\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Optimize",
           "name": "optimize",
           "package": "haskelldb",
@@ -14966,6 +16275,7 @@
         "index": {
           "description": "Optimize PrimQuery",
           "hierarchy": "Database HaskellDB Optimize",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Optimize",
           "name": "optimize",
           "normalized": "PrimQuery-\u003ePrimQuery",
@@ -14981,6 +16291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize a set of criteria.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Optimize",
           "name": "optimizeCriteria",
           "package": "haskelldb",
@@ -14991,6 +16302,7 @@
         "index": {
           "description": "Optimize set of criteria",
           "hierarchy": "Database HaskellDB Optimize",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Optimize",
           "name": "optimizeCriteria",
           "normalized": "[PrimExpr]-\u003e[PrimExpr]",
@@ -15007,6 +16319,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrimQuery defines the datatype of relational expressions\n (\u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e) and some useful functions on PrimQuery's\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimQuery",
           "package": "haskelldb",
@@ -15016,6 +16329,7 @@
         "index": {
           "description": "PrimQuery defines the datatype of relational expressions PrimQuery and some useful functions on PrimQuery",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimQuery",
           "package": "haskelldb",
@@ -15029,6 +16343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrOp",
           "package": "haskelldb",
@@ -15037,6 +16352,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrOp",
           "package": "haskelldb",
@@ -15050,6 +16366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Assoc",
           "package": "haskelldb",
@@ -15058,6 +16375,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Assoc",
           "package": "haskelldb",
@@ -15071,6 +16389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Attribute",
           "package": "haskelldb",
@@ -15079,6 +16398,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Attribute",
           "package": "haskelldb",
@@ -15092,6 +16412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BinOp",
           "package": "haskelldb",
@@ -15100,6 +16421,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BinOp",
           "package": "haskelldb",
@@ -15113,6 +16435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Literal",
           "package": "haskelldb",
@@ -15121,6 +16444,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Literal",
           "package": "haskelldb",
@@ -15134,6 +16458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Name",
           "package": "haskelldb",
@@ -15142,6 +16467,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Name",
           "package": "haskelldb",
@@ -15155,6 +16481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -15163,6 +16490,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -15176,6 +16504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderOp",
           "package": "haskelldb",
@@ -15184,6 +16513,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderOp",
           "package": "haskelldb",
@@ -15197,6 +16527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimExpr",
           "package": "haskelldb",
@@ -15205,6 +16536,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimExpr",
           "package": "haskelldb",
@@ -15218,6 +16550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimQuery",
           "package": "haskelldb",
@@ -15226,6 +16559,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "PrimQuery",
           "package": "haskelldb",
@@ -15239,6 +16573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "RelOp",
           "package": "haskelldb",
@@ -15247,6 +16582,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "RelOp",
           "package": "haskelldb",
@@ -15260,6 +16596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Scheme",
           "package": "haskelldb",
@@ -15268,6 +16605,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Scheme",
           "package": "haskelldb",
@@ -15281,6 +16619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "SpecialOp",
           "package": "haskelldb",
@@ -15289,6 +16628,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "SpecialOp",
           "package": "haskelldb",
@@ -15302,6 +16642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "TableName",
           "package": "haskelldb",
@@ -15310,6 +16651,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "TableName",
           "package": "haskelldb",
@@ -15323,6 +16665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnOp",
           "package": "haskelldb",
@@ -15331,6 +16674,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnOp",
           "package": "haskelldb",
@@ -15344,6 +16688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrAvg",
           "package": "haskelldb",
@@ -15353,6 +16698,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrAvg",
           "package": "haskelldb",
@@ -15366,6 +16712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrCount",
           "package": "haskelldb",
@@ -15375,6 +16722,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrCount",
           "package": "haskelldb",
@@ -15388,6 +16736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrExpr",
           "package": "haskelldb",
@@ -15397,6 +16746,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrExpr",
           "package": "haskelldb",
@@ -15410,6 +16760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrMax",
           "package": "haskelldb",
@@ -15419,6 +16770,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrMax",
           "package": "haskelldb",
@@ -15432,6 +16784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrMin",
           "package": "haskelldb",
@@ -15441,6 +16794,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrMin",
           "package": "haskelldb",
@@ -15454,6 +16808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrOther",
           "package": "haskelldb",
@@ -15463,6 +16818,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrOther",
           "package": "haskelldb",
@@ -15476,6 +16832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrStdDev",
           "package": "haskelldb",
@@ -15485,6 +16842,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrStdDev",
           "package": "haskelldb",
@@ -15498,6 +16856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrStdDevP",
           "package": "haskelldb",
@@ -15507,6 +16866,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrStdDevP",
           "package": "haskelldb",
@@ -15520,6 +16880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrSum",
           "package": "haskelldb",
@@ -15529,6 +16890,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrSum",
           "package": "haskelldb",
@@ -15542,6 +16904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrVar",
           "package": "haskelldb",
@@ -15551,6 +16914,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrVar",
           "package": "haskelldb",
@@ -15564,6 +16928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrVarP",
           "package": "haskelldb",
@@ -15573,6 +16938,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AggrVarP",
           "package": "haskelldb",
@@ -15586,6 +16952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AttrExpr",
           "package": "haskelldb",
@@ -15595,6 +16962,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "AttrExpr",
           "package": "haskelldb",
@@ -15608,6 +16976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BaseTable",
           "package": "haskelldb",
@@ -15617,6 +16986,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BaseTable",
           "package": "haskelldb",
@@ -15630,6 +17000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BinExpr",
           "package": "haskelldb",
@@ -15639,6 +17010,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BinExpr",
           "package": "haskelldb",
@@ -15652,6 +17024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Binary",
           "package": "haskelldb",
@@ -15661,6 +17034,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Binary",
           "package": "haskelldb",
@@ -15674,6 +17048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BoolLit",
           "package": "haskelldb",
@@ -15683,6 +17058,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "BoolLit",
           "package": "haskelldb",
@@ -15696,6 +17072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "CaseExpr",
           "package": "haskelldb",
@@ -15705,6 +17082,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "CaseExpr",
           "normalized": "CaseExpr[(PrimExpr,PrimExpr)]PrimExpr",
@@ -15721,6 +17099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCast an expression to a given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "CastExpr",
           "package": "haskelldb",
@@ -15731,6 +17110,7 @@
         "index": {
           "description": "Cast an expression to given type",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "CastExpr",
           "package": "haskelldb",
@@ -15744,6 +17124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ConstExpr",
           "package": "haskelldb",
@@ -15753,6 +17134,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ConstExpr",
           "package": "haskelldb",
@@ -15766,6 +17148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DateLit",
           "package": "haskelldb",
@@ -15775,6 +17158,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DateLit",
           "package": "haskelldb",
@@ -15789,6 +17173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresents a default value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DefaultLit",
           "package": "haskelldb",
@@ -15799,6 +17184,7 @@
         "index": {
           "description": "represents default value",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DefaultLit",
           "package": "haskelldb",
@@ -15812,6 +17198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Difference",
           "package": "haskelldb",
@@ -15821,6 +17208,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Difference",
           "package": "haskelldb",
@@ -15834,6 +17222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Divide",
           "package": "haskelldb",
@@ -15843,6 +17232,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Divide",
           "package": "haskelldb",
@@ -15856,6 +17246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DoubleLit",
           "package": "haskelldb",
@@ -15865,6 +17256,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "DoubleLit",
           "package": "haskelldb",
@@ -15878,6 +17270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Empty",
           "package": "haskelldb",
@@ -15887,6 +17280,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Empty",
           "package": "haskelldb",
@@ -15900,6 +17294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "FunExpr",
           "package": "haskelldb",
@@ -15909,6 +17304,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "FunExpr",
           "normalized": "FunExpr Name[PrimExpr]",
@@ -15924,6 +17320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Group",
           "package": "haskelldb",
@@ -15933,6 +17330,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Group",
           "package": "haskelldb",
@@ -15946,6 +17344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "IntegerLit",
           "package": "haskelldb",
@@ -15955,6 +17354,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "IntegerLit",
           "package": "haskelldb",
@@ -15968,6 +17368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Intersect",
           "package": "haskelldb",
@@ -15977,6 +17378,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Intersect",
           "package": "haskelldb",
@@ -15990,6 +17392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ListExpr",
           "package": "haskelldb",
@@ -15999,6 +17402,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ListExpr",
           "normalized": "ListExpr[PrimExpr]",
@@ -16014,6 +17418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "NullLit",
           "package": "haskelldb",
@@ -16023,6 +17428,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "NullLit",
           "package": "haskelldb",
@@ -16036,6 +17442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAnd",
           "package": "haskelldb",
@@ -16045,6 +17452,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAnd",
           "package": "haskelldb",
@@ -16058,6 +17466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAsc",
           "package": "haskelldb",
@@ -16067,6 +17476,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAsc",
           "package": "haskelldb",
@@ -16080,6 +17490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAsg",
           "package": "haskelldb",
@@ -16089,6 +17500,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpAsg",
           "package": "haskelldb",
@@ -16102,6 +17514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitAnd",
           "package": "haskelldb",
@@ -16111,6 +17524,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitAnd",
           "package": "haskelldb",
@@ -16124,6 +17538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitNot",
           "package": "haskelldb",
@@ -16133,6 +17548,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitNot",
           "package": "haskelldb",
@@ -16146,6 +17562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitOr",
           "package": "haskelldb",
@@ -16155,6 +17572,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitOr",
           "package": "haskelldb",
@@ -16168,6 +17586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitXor",
           "package": "haskelldb",
@@ -16177,6 +17596,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpBitXor",
           "package": "haskelldb",
@@ -16190,6 +17610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpCat",
           "package": "haskelldb",
@@ -16199,6 +17620,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpCat",
           "package": "haskelldb",
@@ -16212,6 +17634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpDesc",
           "package": "haskelldb",
@@ -16221,6 +17644,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpDesc",
           "package": "haskelldb",
@@ -16234,6 +17658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpDiv",
           "package": "haskelldb",
@@ -16243,6 +17668,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpDiv",
           "package": "haskelldb",
@@ -16256,6 +17682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpEq",
           "package": "haskelldb",
@@ -16265,6 +17692,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpEq",
           "package": "haskelldb",
@@ -16278,6 +17706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpGt",
           "package": "haskelldb",
@@ -16287,6 +17716,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpGt",
           "package": "haskelldb",
@@ -16300,6 +17730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpGtEq",
           "package": "haskelldb",
@@ -16309,6 +17740,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpGtEq",
           "package": "haskelldb",
@@ -16322,6 +17754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIn",
           "package": "haskelldb",
@@ -16331,6 +17764,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIn",
           "package": "haskelldb",
@@ -16344,6 +17778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIsNotNull",
           "package": "haskelldb",
@@ -16353,6 +17788,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIsNotNull",
           "package": "haskelldb",
@@ -16366,6 +17802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIsNull",
           "package": "haskelldb",
@@ -16375,6 +17812,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpIsNull",
           "package": "haskelldb",
@@ -16388,6 +17826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLength",
           "package": "haskelldb",
@@ -16397,6 +17836,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLength",
           "package": "haskelldb",
@@ -16410,6 +17850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLike",
           "package": "haskelldb",
@@ -16419,6 +17860,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLike",
           "package": "haskelldb",
@@ -16432,6 +17874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLt",
           "package": "haskelldb",
@@ -16441,6 +17884,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLt",
           "package": "haskelldb",
@@ -16454,6 +17898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLtEq",
           "package": "haskelldb",
@@ -16463,6 +17908,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpLtEq",
           "package": "haskelldb",
@@ -16476,6 +17922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMinus",
           "package": "haskelldb",
@@ -16485,6 +17932,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMinus",
           "package": "haskelldb",
@@ -16498,6 +17946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMod",
           "package": "haskelldb",
@@ -16507,6 +17956,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMod",
           "package": "haskelldb",
@@ -16520,6 +17970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMul",
           "package": "haskelldb",
@@ -16529,6 +17980,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpMul",
           "package": "haskelldb",
@@ -16542,6 +17994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpNot",
           "package": "haskelldb",
@@ -16551,6 +18004,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpNot",
           "package": "haskelldb",
@@ -16564,6 +18018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpNotEq",
           "package": "haskelldb",
@@ -16573,6 +18028,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpNotEq",
           "package": "haskelldb",
@@ -16586,6 +18042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpOr",
           "package": "haskelldb",
@@ -16595,6 +18052,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpOr",
           "package": "haskelldb",
@@ -16608,6 +18066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpOther",
           "package": "haskelldb",
@@ -16617,6 +18076,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpOther",
           "package": "haskelldb",
@@ -16630,6 +18090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpPlus",
           "package": "haskelldb",
@@ -16639,6 +18100,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OpPlus",
           "package": "haskelldb",
@@ -16652,6 +18114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Order",
           "package": "haskelldb",
@@ -16661,6 +18124,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Order",
           "normalized": "Order[OrderExpr]",
@@ -16676,6 +18140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -16685,6 +18150,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -16699,6 +18165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eused for hacking in custom SQL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OtherLit",
           "package": "haskelldb",
@@ -16709,6 +18176,7 @@
         "index": {
           "description": "used for hacking in custom SQL",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "OtherLit",
           "package": "haskelldb",
@@ -16722,6 +18190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ParamExpr",
           "package": "haskelldb",
@@ -16731,6 +18200,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "ParamExpr",
           "package": "haskelldb",
@@ -16744,6 +18214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Project",
           "package": "haskelldb",
@@ -16753,6 +18224,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Project",
           "package": "haskelldb",
@@ -16766,6 +18238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Restrict",
           "package": "haskelldb",
@@ -16775,6 +18248,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Restrict",
           "package": "haskelldb",
@@ -16788,6 +18262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Special",
           "package": "haskelldb",
@@ -16797,6 +18272,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Special",
           "package": "haskelldb",
@@ -16810,6 +18286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "StringLit",
           "package": "haskelldb",
@@ -16819,6 +18296,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "StringLit",
           "package": "haskelldb",
@@ -16832,6 +18310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Times",
           "package": "haskelldb",
@@ -16841,6 +18320,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Times",
           "package": "haskelldb",
@@ -16854,6 +18334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Top",
           "package": "haskelldb",
@@ -16863,6 +18344,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Top",
           "package": "haskelldb",
@@ -16876,6 +18358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnExpr",
           "package": "haskelldb",
@@ -16885,6 +18368,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnExpr",
           "package": "haskelldb",
@@ -16898,6 +18382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnOpOther",
           "package": "haskelldb",
@@ -16907,6 +18392,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "UnOpOther",
           "package": "haskelldb",
@@ -16920,6 +18406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Union",
           "package": "haskelldb",
@@ -16929,6 +18416,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "Union",
           "package": "haskelldb",
@@ -16943,6 +18431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all attributes in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attrInExpr",
           "package": "haskelldb",
@@ -16953,6 +18442,7 @@
         "index": {
           "description": "Returns all attributes in an expression",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attrInExpr",
           "normalized": "PrimExpr-\u003eScheme",
@@ -16969,6 +18459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all attributes in a list of ordering expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attrInOrder",
           "package": "haskelldb",
@@ -16979,6 +18470,7 @@
         "index": {
           "description": "Returns all attributes in list of ordering expressions",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attrInOrder",
           "normalized": "[OrderExpr]-\u003eScheme",
@@ -16995,6 +18487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the schema (the attributes) of a query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attributes",
           "package": "haskelldb",
@@ -17005,6 +18498,7 @@
         "index": {
           "description": "Returns the schema the attributes of query",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "attributes",
           "normalized": "PrimQuery-\u003eScheme",
@@ -17020,6 +18514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a projection of some attributes while\n   keeping all other attributes in the relation visible too. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "extend",
           "package": "haskelldb",
@@ -17030,6 +18525,7 @@
         "index": {
           "description": "Creates projection of some attributes while keeping all other attributes in the relation visible too",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "extend",
           "normalized": "Assoc-\u003ePrimQuery-\u003ePrimQuery",
@@ -17045,6 +18541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold on \u003ccode\u003e\u003ca\u003ePrimExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "foldPrimExpr",
           "package": "haskelldb",
@@ -17055,6 +18552,7 @@
         "index": {
           "description": "Fold on PrimExpr",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "foldPrimExpr",
           "normalized": "(Attribute-\u003ea,Literal-\u003ea,BinOp-\u003ea-\u003ea-\u003ea,UnOp-\u003ea-\u003ea,AggrOp-\u003ea-\u003ea,[(a,a)]-\u003ea-\u003ea,[a]-\u003ea,Maybe Name-\u003ea-\u003ea,Name-\u003e[a]-\u003ea,Name-\u003ea-\u003ea)-\u003ePrimExpr-\u003ea",
@@ -17071,6 +18569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold on \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "foldPrimQuery",
           "package": "haskelldb",
@@ -17081,6 +18580,7 @@
         "index": {
           "description": "Fold on PrimQuery",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "foldPrimQuery",
           "normalized": "(a,TableName-\u003eScheme-\u003ea,Assoc-\u003ea-\u003ea,PrimExpr-\u003ea-\u003ea,RelOp-\u003ea-\u003ea-\u003ea,Assoc-\u003ea-\u003ea,SpecialOp-\u003ea-\u003ea)-\u003ePrimQuery-\u003ea",
@@ -17096,6 +18596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "isAggregate",
           "package": "haskelldb",
@@ -17105,6 +18606,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "isAggregate",
           "normalized": "PrimExpr-\u003eBool",
@@ -17121,6 +18623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines if a primitive expression represents a constant\n or is an expression only involving constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "isConstant",
           "package": "haskelldb",
@@ -17131,6 +18634,7 @@
         "index": {
           "description": "Determines if primitive expression represents constant or is an expression only involving constants",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "isConstant",
           "normalized": "PrimExpr-\u003eBool",
@@ -17147,6 +18651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitute attribute names in an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "substAttr",
           "package": "haskelldb",
@@ -17157,6 +18662,7 @@
         "index": {
           "description": "Substitute attribute names in an expression",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "substAttr",
           "normalized": "Assoc-\u003ePrimExpr-\u003ePrimExpr",
@@ -17173,6 +18679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the cartesian product of two queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "times",
           "package": "haskelldb",
@@ -17183,6 +18690,7 @@
         "index": {
           "description": "Takes the cartesian product of two queries",
           "hierarchy": "Database HaskellDB PrimQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrimQuery",
           "name": "times",
           "normalized": "PrimQuery-\u003ePrimQuery-\u003ePrimQuery",
@@ -17198,6 +18706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAuthor      :  Justin Bailey (jgbailey AT gmail DOT com)\n Pretty printing for Query, PrimQuery, and SqlSelect values.\n Useful for debugging the library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "PrintQuery",
           "package": "haskelldb",
@@ -17207,6 +18716,7 @@
         "index": {
           "description": "Author Justin Bailey jgbailey AT gmail DOT com Pretty printing for Query PrimQuery and SqlSelect values Useful for debugging the library",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "PrintQuery",
           "package": "haskelldb",
@@ -17221,6 +18731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a PrimQuery value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppPrim",
           "package": "haskelldb",
@@ -17231,6 +18742,7 @@
         "index": {
           "description": "Pretty print PrimQuery value",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppPrim",
           "normalized": "PrimQuery-\u003eDoc",
@@ -17247,6 +18759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the query and pretty print the primitive representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppQuery",
           "package": "haskelldb",
@@ -17257,6 +18770,7 @@
         "index": {
           "description": "Optimize the query and pretty print the primitive representation",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppQuery",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17273,6 +18787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print the primitive representation of an unoptimized query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppQueryUnOpt",
           "package": "haskelldb",
@@ -17283,6 +18798,7 @@
         "index": {
           "description": "Pretty print the primitive representation of an unoptimized query",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppQueryUnOpt",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17299,6 +18815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a query, turn it into a SqlSelect and print it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSelect",
           "package": "haskelldb",
@@ -17309,6 +18826,7 @@
         "index": {
           "description": "Take query turn it into SqlSelect and print it",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSelect",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17325,6 +18843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a query, turn it into a SqlSelect and print it, with optimizations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSelectUnOpt",
           "package": "haskelldb",
@@ -17335,6 +18854,7 @@
         "index": {
           "description": "Take query turn it into SqlSelect and print it with optimizations",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSelectUnOpt",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17351,6 +18871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a query, turn it into a SqlSelect and print it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSql",
           "package": "haskelldb",
@@ -17361,6 +18882,7 @@
         "index": {
           "description": "Take query turn it into SqlSelect and print it",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSql",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17376,6 +18898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSqlSelect",
           "package": "haskelldb",
@@ -17385,6 +18908,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSqlSelect",
           "normalized": "SqlSelect-\u003eDoc",
@@ -17401,6 +18925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a query, turn it into a SqlSelect and print it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSqlUnOpt",
           "package": "haskelldb",
@@ -17411,6 +18936,7 @@
         "index": {
           "description": "Take query turn it into SqlSelect and print it",
           "hierarchy": "Database HaskellDB PrintQuery",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.PrintQuery",
           "name": "ppSqlUnOpt",
           "normalized": "Query(Rel a)-\u003eDoc",
@@ -17427,6 +18953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic combinators for building type-safe queries.\n The Query monad constructs a relational expression\n (\u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e). \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Query",
           "package": "haskelldb",
@@ -17436,6 +18963,7 @@
         "index": {
           "description": "Basic combinators for building type-safe queries The Query monad constructs relational expression PrimQuery",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Query",
           "package": "haskelldb",
@@ -17450,6 +18978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to implement variable length arguments to \u003ccode\u003efunc\u003c/code\u003e, below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Args",
           "package": "haskelldb",
@@ -17459,6 +18988,7 @@
         "index": {
           "description": "Used to implement variable length arguments to func below",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Args",
           "package": "haskelldb",
@@ -17473,6 +19003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Attr",
           "package": "haskelldb",
@@ -17482,6 +19013,7 @@
         "index": {
           "description": "Typed attributes",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Attr",
           "package": "haskelldb",
@@ -17496,6 +19028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts records w/o Expr (usually from database\n queries) to records with Expr types. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ConstantRecord",
           "package": "haskelldb",
@@ -17505,6 +19038,7 @@
         "index": {
           "description": "Converts records Expr usually from database queries to records with Expr types",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ConstantRecord",
           "package": "haskelldb",
@@ -17519,6 +19053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of normal expressions, contains the untyped PrimExpr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Expr",
           "package": "haskelldb",
@@ -17528,6 +19063,7 @@
         "index": {
           "description": "Type of normal expressions contains the untyped PrimExpr",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Expr",
           "package": "haskelldb",
@@ -17542,6 +19078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of aggregate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -17551,6 +19088,7 @@
         "index": {
           "description": "Type of aggregate expressions",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -17565,6 +19103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of expression types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ExprC",
           "package": "haskelldb",
@@ -17574,6 +19113,7 @@
         "index": {
           "description": "Class of expression types",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ExprC",
           "package": "haskelldb",
@@ -17588,6 +19128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of default expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ExprDefault",
           "package": "haskelldb",
@@ -17597,6 +19138,7 @@
         "index": {
           "description": "The type of default expressions",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ExprDefault",
           "package": "haskelldb",
@@ -17611,6 +19153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of records that can be used with \u003ccode\u003einsert\u003c/code\u003e. \n   All all the values must be instances of \u003ccode\u003eInsertExpr\u003c/code\u003e for the\n   record to be an instance of \u003ccode\u003e\u003ca\u003eInsertRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "InsertRec",
           "package": "haskelldb",
@@ -17620,6 +19163,7 @@
         "index": {
           "description": "Class of records that can be used with insert All all the values must be instances of InsertExpr for the record to be an instance of InsertRec",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "InsertRec",
           "package": "haskelldb",
@@ -17633,6 +19177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -17641,6 +19186,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -17655,6 +19201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of expressions that can be used with \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ProjectExpr",
           "package": "haskelldb",
@@ -17664,6 +19211,7 @@
         "index": {
           "description": "Class of expressions that can be used with project",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ProjectExpr",
           "package": "haskelldb",
@@ -17678,6 +19226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of records that can be used with \u003ccode\u003e\u003ca\u003eproject\u003c/a\u003e\u003c/code\u003e. \n   All all the values must be instances of \u003ccode\u003e\u003ca\u003eProjectExpr\u003c/a\u003e\u003c/code\u003e for the\n   record to be an instance of \u003ccode\u003e\u003ca\u003eProjectRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ProjectRec",
           "package": "haskelldb",
@@ -17687,6 +19236,7 @@
         "index": {
           "description": "Class of records that can be used with project All all the values must be instances of ProjectExpr for the record to be an instance of ProjectRec",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ProjectRec",
           "package": "haskelldb",
@@ -17700,6 +19250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Query",
           "package": "haskelldb",
@@ -17708,6 +19259,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Query",
           "package": "haskelldb",
@@ -17722,6 +19274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of relations, contains the attributes\n   of the relation and an \u003ccode\u003eAlias\u003c/code\u003e to which the\n   attributes are renamed in the \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Rel",
           "package": "haskelldb",
@@ -17731,6 +19284,7 @@
         "index": {
           "description": "Type of relations contains the attributes of the relation and an Alias to which the attributes are renamed in the PrimQuery",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Rel",
           "package": "haskelldb",
@@ -17745,6 +19299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class which gives a polymorphic\n copy function that can turn a Rel into a Record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "RelToRec",
           "package": "haskelldb",
@@ -17754,6 +19309,7 @@
         "index": {
           "description": "Helper class which gives polymorphic copy function that can turn Rel into Record",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "RelToRec",
           "package": "haskelldb",
@@ -17767,6 +19323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ShowConstant",
           "package": "haskelldb",
@@ -17775,6 +19332,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ShowConstant",
           "package": "haskelldb",
@@ -17789,6 +19347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic tables, contains table name and an\n   association from attributes to attribute\n   names in the real table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Table",
           "package": "haskelldb",
@@ -17798,6 +19357,7 @@
         "index": {
           "description": "Basic tables contains table name and an association from attributes to attribute names in the real table",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Table",
           "package": "haskelldb",
@@ -17811,6 +19371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ToPrimExprs",
           "package": "haskelldb",
@@ -17819,6 +19380,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ToPrimExprs",
           "package": "haskelldb",
@@ -18238,6 +19800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Attr",
           "package": "haskelldb",
@@ -18247,6 +19810,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Attr",
           "package": "haskelldb",
@@ -18260,6 +19824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Expr",
           "package": "haskelldb",
@@ -18269,6 +19834,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Expr",
           "package": "haskelldb",
@@ -18282,6 +19848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -18291,6 +19858,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -18304,6 +19872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "ExprDefault",
           "package": "haskelldb",
@@ -18313,6 +19882,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "ExprDefault",
           "package": "haskelldb",
@@ -18326,6 +19896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Rel",
           "package": "haskelldb",
@@ -18335,6 +19906,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Rel",
           "package": "haskelldb",
@@ -18348,6 +19920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "Table",
           "package": "haskelldb",
@@ -18357,6 +19930,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "Table",
           "package": "haskelldb",
@@ -18601,6 +20175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "attribute",
           "package": "haskelldb",
@@ -18610,6 +20185,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "attribute",
           "normalized": "String-\u003eExpr a",
@@ -18624,6 +20200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "attributeName",
           "package": "haskelldb",
@@ -18633,6 +20210,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "attributeName",
           "normalized": "Attr a b-\u003eAttribute",
@@ -18855,6 +20433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "constantRecord",
           "package": "haskelldb",
@@ -18864,6 +20443,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "constantRecord",
           "normalized": "a-\u003eb",
@@ -19010,6 +20590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "exprs",
           "package": "haskelldb",
@@ -19019,6 +20600,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "exprs",
           "normalized": "Record a-\u003e[PrimExpr]",
@@ -19165,6 +20747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "labels",
           "package": "haskelldb",
@@ -19174,6 +20757,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "labels",
           "normalized": "a-\u003e[String]",
@@ -19371,6 +20955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the underlying untyped \u003ccode\u003e\u003ca\u003ePrimExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "primExpr",
           "package": "haskelldb",
@@ -19381,6 +20966,7 @@
         "index": {
           "description": "Get the underlying untyped PrimExpr",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "primExpr",
           "normalized": "a b-\u003ePrimExpr",
@@ -19448,6 +21034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "runQuery",
           "package": "haskelldb",
@@ -19457,6 +21044,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "runQuery",
           "normalized": "Query(Rel a)-\u003ePrimQuery",
@@ -19472,6 +21060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "runQueryRel",
           "package": "haskelldb",
@@ -19481,6 +21070,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "runQueryRel",
           "normalized": "Query(Rel a)-\u003e(PrimQuery,Rel a)",
@@ -19496,6 +21086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "select",
           "package": "haskelldb",
@@ -19505,6 +21096,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "select",
           "normalized": "Attr a b-\u003eRel c-\u003eExpr b",
@@ -19519,6 +21111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "showConstant",
           "package": "haskelldb",
@@ -19528,6 +21121,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "showConstant",
           "normalized": "a-\u003eLiteral",
@@ -19647,6 +21241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "tableName",
           "package": "haskelldb",
@@ -19657,6 +21252,7 @@
         "index": {
           "description": "Get the name of table",
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "tableName",
           "normalized": "Table a-\u003eTableName",
@@ -19672,6 +21268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "tableRec",
           "package": "haskelldb",
@@ -19681,6 +21278,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "tableRec",
           "normalized": "Table(Record a)-\u003eRecord a",
@@ -19749,6 +21347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Query",
           "name": "unQuery",
           "package": "haskelldb",
@@ -19758,6 +21357,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Query",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Query",
           "name": "unQuery",
           "normalized": "Query a-\u003ea",
@@ -19876,6 +21476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefault SQL generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "Default",
           "package": "haskelldb",
@@ -19885,6 +21486,7 @@
         "index": {
           "description": "Default SQL generation",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "Default",
           "package": "haskelldb",
@@ -19898,6 +21500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlBinary",
           "package": "haskelldb",
@@ -19907,6 +21510,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlBinary",
           "normalized": "SqlGenerator-\u003eRelOp-\u003eSqlSelect-\u003eSqlSelect-\u003eSqlSelect",
@@ -19923,6 +21527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this to create a \u003ccode\u003e\u003ca\u003eSqlCreate\u003c/a\u003e\u003c/code\u003e data type corresponding to \n the SQL statement CREATE DATABASE which creates a new database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlCreateDB",
           "package": "haskelldb",
@@ -19932,6 +21537,7 @@
         "index": {
           "description": "Use this to create SqlCreate data type corresponding to the SQL statement CREATE DATABASE which creates new database",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlCreateDB",
           "normalized": "SqlGenerator-\u003eString-\u003eSqlCreate",
@@ -19948,6 +21554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this to create a \u003ccode\u003e\u003ca\u003eSqlCreate\u003c/a\u003e\u003c/code\u003e data type corresponding to \n the SQL statement CREATE which creates a new table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlCreateTable",
           "package": "haskelldb",
@@ -19957,6 +21564,7 @@
         "index": {
           "description": "Use this to create SqlCreate data type corresponding to the SQL statement CREATE which creates new table",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlCreateTable",
           "normalized": "SqlGenerator-\u003eTableName-\u003e[(Attribute,FieldDesc)]-\u003eSqlCreate",
@@ -19973,6 +21581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlDelete\u003c/a\u003e\u003c/code\u003e. Corresponds to the SQL statement\n DELETE which deletes rows in a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDelete",
           "package": "haskelldb",
@@ -19982,6 +21591,7 @@
         "index": {
           "description": "Creates SqlDelete Corresponds to the SQL statement DELETE which deletes rows in table",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDelete",
           "normalized": "SqlGenerator-\u003eTableName-\u003e[PrimExpr]-\u003eSqlDelete",
@@ -19998,6 +21608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlDrop\u003c/a\u003e\u003c/code\u003e that delete the database with the \n name given as the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDropDB",
           "package": "haskelldb",
@@ -20008,6 +21619,7 @@
         "index": {
           "description": "Creates SqlDrop that delete the database with the name given as the first argument",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDropDB",
           "normalized": "SqlGenerator-\u003eString-\u003eSqlDrop",
@@ -20024,6 +21636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlDrop\u003c/a\u003e\u003c/code\u003e that delete the database named\n in the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDropTable",
           "package": "haskelldb",
@@ -20034,6 +21647,7 @@
         "index": {
           "description": "Creates SqlDrop that delete the database named in the first argument",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlDropTable",
           "normalized": "SqlGenerator-\u003eTableName-\u003eSqlDrop",
@@ -20049,6 +21663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlEmpty",
           "package": "haskelldb",
@@ -20058,6 +21673,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlEmpty",
           "normalized": "SqlGenerator-\u003eSqlSelect",
@@ -20073,6 +21689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlExpr",
           "package": "haskelldb",
@@ -20082,6 +21699,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlExpr",
           "normalized": "SqlGenerator-\u003ePrimExpr-\u003eSqlExpr",
@@ -20097,6 +21715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlGenerator",
           "package": "haskelldb",
@@ -20106,6 +21725,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlGenerator",
           "package": "haskelldb",
@@ -20120,6 +21740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures the groupby value on the SqlSelect either preserves existing \n grouping or that it will group on all columns (i.e, Mark == All).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlGroup",
           "package": "haskelldb",
@@ -20130,6 +21751,7 @@
         "index": {
           "description": "Ensures the groupby value on the SqlSelect either preserves existing grouping or that it will group on all columns i.e Mark All",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlGroup",
           "normalized": "SqlGenerator-\u003eAssoc-\u003eSqlSelect-\u003eSqlSelect",
@@ -20146,6 +21768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlInsert\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlInsert",
           "package": "haskelldb",
@@ -20155,6 +21778,7 @@
         "index": {
           "description": "Creates SqlInsert",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlInsert",
           "normalized": "SqlGenerator-\u003eTableName-\u003eAssoc-\u003eSqlInsert",
@@ -20171,6 +21795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlInsert\u003c/a\u003e\u003c/code\u003e. Corresponds to the SQL statement\n INSERT INTO which is used to insert new rows in a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlInsertQuery",
           "package": "haskelldb",
@@ -20180,6 +21805,7 @@
         "index": {
           "description": "Creates SqlInsert Corresponds to the SQL statement INSERT INTO which is used to insert new rows in table",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlInsertQuery",
           "normalized": "SqlGenerator-\u003eTableName-\u003ePrimQuery-\u003eSqlInsert",
@@ -20195,6 +21821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlLiteral",
           "package": "haskelldb",
@@ -20204,6 +21831,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlLiteral",
           "normalized": "SqlGenerator-\u003eLiteral-\u003eString",
@@ -20219,6 +21847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlProject",
           "package": "haskelldb",
@@ -20228,6 +21857,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlProject",
           "normalized": "SqlGenerator-\u003eAssoc-\u003eSqlSelect-\u003eSqlSelect",
@@ -20244,6 +21874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlSelect\u003c/a\u003e\u003c/code\u003e based on the \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e supplied.\n Corresponds to the SQL statement SELECT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlQuery",
           "package": "haskelldb",
@@ -20254,6 +21885,7 @@
         "index": {
           "description": "Creates SqlSelect based on the PrimQuery supplied Corresponds to the SQL statement SELECT",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlQuery",
           "normalized": "SqlGenerator-\u003ePrimQuery-\u003eSqlSelect",
@@ -20269,6 +21901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlQuote",
           "package": "haskelldb",
@@ -20278,6 +21911,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlQuote",
           "normalized": "SqlGenerator-\u003eString-\u003eString",
@@ -20293,6 +21927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlRestrict",
           "package": "haskelldb",
@@ -20302,6 +21937,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlRestrict",
           "normalized": "SqlGenerator-\u003ePrimExpr-\u003eSqlSelect-\u003eSqlSelect",
@@ -20317,6 +21953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlSpecial",
           "package": "haskelldb",
@@ -20326,6 +21963,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlSpecial",
           "normalized": "SqlGenerator-\u003eSpecialOp-\u003eSqlSelect-\u003eSqlSelect",
@@ -20341,6 +21979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlTable",
           "package": "haskelldb",
@@ -20350,6 +21989,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlTable",
           "normalized": "SqlGenerator-\u003eTableName-\u003eScheme-\u003eSqlSelect",
@@ -20365,6 +22005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlType",
           "package": "haskelldb",
@@ -20374,6 +22015,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlType",
           "normalized": "SqlGenerator-\u003eFieldType-\u003eSqlType",
@@ -20390,6 +22032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eSqlUpdate\u003c/a\u003e\u003c/code\u003e. Corresponds to the SQL statement\n UPDATE which updates data in a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlUpdate",
           "package": "haskelldb",
@@ -20399,6 +22042,7 @@
         "index": {
           "description": "Creates SqlUpdate Corresponds to the SQL statement UPDATE which updates data in table",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "defaultSqlUpdate",
           "normalized": "SqlGenerator-\u003eTableName-\u003e[PrimExpr]-\u003eAssoc-\u003eSqlUpdate",
@@ -20414,6 +22058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "mkSqlGenerator",
           "package": "haskelldb",
@@ -20423,6 +22068,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "mkSqlGenerator",
           "normalized": "SqlGenerator-\u003eSqlGenerator",
@@ -20439,6 +22085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake sure our SqlSelect statement is really a SqlSelect and not\n another constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "toSqlSelect",
           "package": "haskelldb",
@@ -20449,6 +22096,7 @@
         "index": {
           "description": "Make sure our SqlSelect statement is really SqlSelect and not another constructor",
           "hierarchy": "Database HaskellDB Sql Default",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Default",
           "name": "toSqlSelect",
           "normalized": "SqlSelect-\u003eSqlSelect",
@@ -20465,6 +22113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe type of SQL generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "Generate",
           "package": "haskelldb",
@@ -20474,6 +22123,7 @@
         "index": {
           "description": "The type of SQL generators",
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "Generate",
           "package": "haskelldb",
@@ -20487,6 +22137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "SqlGenerator",
           "package": "haskelldb",
@@ -20495,6 +22146,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "SqlGenerator",
           "package": "haskelldb",
@@ -20508,6 +22160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "SqlGenerator",
           "package": "haskelldb",
@@ -20517,6 +22170,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "SqlGenerator",
           "package": "haskelldb",
@@ -20530,6 +22184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlBinary",
           "package": "haskelldb",
@@ -20539,6 +22194,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlBinary",
           "normalized": "RelOp-\u003eSqlSelect-\u003eSqlSelect-\u003eSqlSelect",
@@ -20554,6 +22210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlCreateDB",
           "package": "haskelldb",
@@ -20563,6 +22220,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlCreateDB",
           "normalized": "String-\u003eSqlCreate",
@@ -20578,6 +22236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlCreateTable",
           "package": "haskelldb",
@@ -20587,6 +22246,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlCreateTable",
           "normalized": "TableName-\u003e[(Attribute,FieldDesc)]-\u003eSqlCreate",
@@ -20602,6 +22262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDelete",
           "package": "haskelldb",
@@ -20611,6 +22272,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDelete",
           "normalized": "TableName-\u003e[PrimExpr]-\u003eSqlDelete",
@@ -20626,6 +22288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDropDB",
           "package": "haskelldb",
@@ -20635,6 +22298,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDropDB",
           "normalized": "String-\u003eSqlDrop",
@@ -20650,6 +22314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDropTable",
           "package": "haskelldb",
@@ -20659,6 +22324,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlDropTable",
           "normalized": "TableName-\u003eSqlDrop",
@@ -20674,6 +22340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlEmpty",
           "package": "haskelldb",
@@ -20683,6 +22350,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlEmpty",
           "package": "haskelldb",
@@ -20696,6 +22364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlExpr",
           "package": "haskelldb",
@@ -20705,6 +22374,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlExpr",
           "normalized": "PrimExpr-\u003eSqlExpr",
@@ -20721,6 +22391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsures non-aggregate expressions in the select are included in\n group by clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlGroup",
           "package": "haskelldb",
@@ -20731,6 +22402,7 @@
         "index": {
           "description": "Ensures non-aggregate expressions in the select are included in group by clause",
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlGroup",
           "normalized": "Assoc-\u003eSqlSelect-\u003eSqlSelect",
@@ -20746,6 +22418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlInsert",
           "package": "haskelldb",
@@ -20755,6 +22428,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlInsert",
           "normalized": "TableName-\u003eAssoc-\u003eSqlInsert",
@@ -20770,6 +22444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlInsertQuery",
           "package": "haskelldb",
@@ -20779,6 +22454,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlInsertQuery",
           "normalized": "TableName-\u003ePrimQuery-\u003eSqlInsert",
@@ -20794,6 +22470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlLiteral",
           "package": "haskelldb",
@@ -20803,6 +22480,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlLiteral",
           "normalized": "Literal-\u003eString",
@@ -20818,6 +22496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlProject",
           "package": "haskelldb",
@@ -20827,6 +22506,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlProject",
           "normalized": "Assoc-\u003eSqlSelect-\u003eSqlSelect",
@@ -20842,6 +22522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlQuery",
           "package": "haskelldb",
@@ -20851,6 +22532,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlQuery",
           "normalized": "PrimQuery-\u003eSqlSelect",
@@ -20867,6 +22549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a string into a quoted string. Quote characters\n and any escaping are handled by this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlQuote",
           "package": "haskelldb",
@@ -20877,6 +22560,7 @@
         "index": {
           "description": "Turn string into quoted string Quote characters and any escaping are handled by this function",
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlQuote",
           "normalized": "String-\u003eString",
@@ -20892,6 +22576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlRestrict",
           "package": "haskelldb",
@@ -20901,6 +22586,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlRestrict",
           "normalized": "PrimExpr-\u003eSqlSelect-\u003eSqlSelect",
@@ -20916,6 +22602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlSpecial",
           "package": "haskelldb",
@@ -20925,6 +22612,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlSpecial",
           "normalized": "SpecialOp-\u003eSqlSelect-\u003eSqlSelect",
@@ -20940,6 +22628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlTable",
           "package": "haskelldb",
@@ -20949,6 +22638,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlTable",
           "normalized": "TableName-\u003eScheme-\u003eSqlSelect",
@@ -20964,6 +22654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlType",
           "package": "haskelldb",
@@ -20973,6 +22664,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlType",
           "normalized": "FieldType-\u003eSqlType",
@@ -20988,6 +22680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlUpdate",
           "package": "haskelldb",
@@ -20997,6 +22690,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Generate",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Generate",
           "name": "sqlUpdate",
           "normalized": "TableName-\u003e[PrimExpr]-\u003eAssoc-\u003eSqlUpdate",
@@ -21013,6 +22707,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL generation for MySQL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.MySQL",
           "name": "MySQL",
           "package": "haskelldb",
@@ -21022,6 +22717,7 @@
         "index": {
           "description": "SQL generation for MySQL",
           "hierarchy": "Database HaskellDB Sql MySQL",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.MySQL",
           "name": "MySQL",
           "package": "haskelldb",
@@ -21035,6 +22731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.MySQL",
           "name": "generator",
           "package": "haskelldb",
@@ -21044,6 +22741,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql MySQL",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.MySQL",
           "name": "generator",
           "package": "haskelldb",
@@ -21057,6 +22755,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL generation for PostgreSQL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.PostgreSQL",
           "name": "PostgreSQL",
           "package": "haskelldb",
@@ -21066,6 +22765,7 @@
         "index": {
           "description": "SQL generation for PostgreSQL",
           "hierarchy": "Database HaskellDB Sql PostgreSQL",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.PostgreSQL",
           "name": "PostgreSQL",
           "package": "haskelldb",
@@ -21079,6 +22779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.PostgreSQL",
           "name": "generator",
           "package": "haskelldb",
@@ -21088,6 +22789,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql PostgreSQL",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.PostgreSQL",
           "name": "generator",
           "package": "haskelldb",
@@ -21101,6 +22803,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-print SQL\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "Print",
           "package": "haskelldb",
@@ -21110,6 +22813,7 @@
         "index": {
           "description": "Pretty-print SQL",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "Print",
           "package": "haskelldb",
@@ -21124,6 +22828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlCreate\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppCreate",
           "package": "haskelldb",
@@ -21134,6 +22839,7 @@
         "index": {
           "description": "Pretty prints SqlCreate",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppCreate",
           "normalized": "SqlCreate-\u003eDoc",
@@ -21150,6 +22856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlDelete\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppDelete",
           "package": "haskelldb",
@@ -21160,6 +22867,7 @@
         "index": {
           "description": "Pretty prints SqlDelete",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppDelete",
           "normalized": "SqlDelete-\u003eDoc",
@@ -21176,6 +22884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlDrop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppDrop",
           "package": "haskelldb",
@@ -21186,6 +22895,7 @@
         "index": {
           "description": "Pretty prints SqlDrop",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppDrop",
           "normalized": "SqlDrop-\u003eDoc",
@@ -21201,6 +22911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppInsert",
           "package": "haskelldb",
@@ -21210,6 +22921,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppInsert",
           "normalized": "SqlInsert-\u003eDoc",
@@ -21226,6 +22938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlSelect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppSql",
           "package": "haskelldb",
@@ -21236,6 +22949,7 @@
         "index": {
           "description": "Pretty prints SqlSelect",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppSql",
           "normalized": "SqlSelect-\u003eDoc",
@@ -21252,6 +22966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlExpr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppSqlExpr",
           "package": "haskelldb",
@@ -21262,6 +22977,7 @@
         "index": {
           "description": "Pretty prints SqlExpr",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppSqlExpr",
           "normalized": "SqlExpr-\u003eDoc",
@@ -21278,6 +22994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints a \u003ccode\u003e\u003ca\u003eSqlUpdate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppUpdate",
           "package": "haskelldb",
@@ -21288,6 +23005,7 @@
         "index": {
           "description": "Pretty prints SqlUpdate",
           "hierarchy": "Database HaskellDB Sql Print",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.Print",
           "name": "ppUpdate",
           "normalized": "SqlUpdate-\u003eDoc",
@@ -21304,6 +23022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSQL generation for SQLite.\n See \u003ca\u003ehttp://www.sqlite.org/lang.html\u003c/a\u003e for documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.SQLite",
           "name": "SQLite",
           "package": "haskelldb",
@@ -21313,6 +23032,7 @@
         "index": {
           "description": "SQL generation for SQLite See http www.sqlite.org lang.html for documentation",
           "hierarchy": "Database HaskellDB Sql SQLite",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.SQLite",
           "name": "SQLite",
           "package": "haskelldb",
@@ -21326,6 +23046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql.SQLite",
           "name": "generator",
           "package": "haskelldb",
@@ -21335,6 +23056,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql SQLite",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql.SQLite",
           "name": "generator",
           "package": "haskelldb",
@@ -21348,6 +23070,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA data type for SQL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "Sql",
           "package": "haskelldb",
@@ -21357,6 +23080,7 @@
         "index": {
           "description": "data type for SQL",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "Sql",
           "package": "haskelldb",
@@ -21370,6 +23094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "Mark",
           "package": "haskelldb",
@@ -21378,6 +23103,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "Mark",
           "package": "haskelldb",
@@ -21391,6 +23117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlColumn",
           "package": "haskelldb",
@@ -21399,6 +23126,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlColumn",
           "package": "haskelldb",
@@ -21413,6 +23141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL CREATE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreate",
           "package": "haskelldb",
@@ -21422,6 +23151,7 @@
         "index": {
           "description": "Data type for SQL CREATE statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreate",
           "package": "haskelldb",
@@ -21436,6 +23166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL DELETE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDelete",
           "package": "haskelldb",
@@ -21445,6 +23176,7 @@
         "index": {
           "description": "Data type for SQL DELETE statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDelete",
           "package": "haskelldb",
@@ -21459,6 +23191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the SQL DROP statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDrop",
           "package": "haskelldb",
@@ -21468,6 +23201,7 @@
         "index": {
           "description": "Data type representing the SQL DROP statement",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDrop",
           "package": "haskelldb",
@@ -21482,6 +23216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions in SQL statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlExpr",
           "package": "haskelldb",
@@ -21491,6 +23226,7 @@
         "index": {
           "description": "Expressions in SQL statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlExpr",
           "package": "haskelldb",
@@ -21505,6 +23241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL INSERT statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsert",
           "package": "haskelldb",
@@ -21514,6 +23251,7 @@
         "index": {
           "description": "Data type for SQL INSERT statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsert",
           "package": "haskelldb",
@@ -21528,6 +23266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA valid SQL name for a parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlName",
           "package": "haskelldb",
@@ -21537,6 +23276,7 @@
         "index": {
           "description": "valid SQL name for parameter",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlName",
           "package": "haskelldb",
@@ -21550,6 +23290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlOrder",
           "package": "haskelldb",
@@ -21558,6 +23299,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlOrder",
           "package": "haskelldb",
@@ -21572,6 +23314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL SELECT statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlSelect",
           "package": "haskelldb",
@@ -21581,6 +23324,7 @@
         "index": {
           "description": "Data type for SQL SELECT statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlSelect",
           "package": "haskelldb",
@@ -21594,6 +23338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlTable",
           "package": "haskelldb",
@@ -21602,6 +23347,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlTable",
           "package": "haskelldb",
@@ -21615,6 +23361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType",
           "package": "haskelldb",
@@ -21623,6 +23370,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType",
           "package": "haskelldb",
@@ -21637,6 +23385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL UPDATE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlUpdate",
           "package": "haskelldb",
@@ -21646,6 +23395,7 @@
         "index": {
           "description": "Data type for SQL UPDATE statements",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlUpdate",
           "package": "haskelldb",
@@ -21660,6 +23410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAggregate functions separate from normal functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "AggrFunSqlExpr",
           "package": "haskelldb",
@@ -21670,6 +23421,7 @@
         "index": {
           "description": "Aggregate functions separate from normal functions",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "AggrFunSqlExpr",
           "normalized": "AggrFunSqlExpr String[SqlExpr]",
@@ -21685,6 +23437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "All",
           "package": "haskelldb",
@@ -21694,6 +23447,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "All",
           "package": "haskelldb",
@@ -21707,6 +23461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "BinSqlExpr",
           "package": "haskelldb",
@@ -21716,6 +23471,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "BinSqlExpr",
           "package": "haskelldb",
@@ -21729,6 +23485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "CaseSqlExpr",
           "package": "haskelldb",
@@ -21738,6 +23495,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "CaseSqlExpr",
           "normalized": "CaseSqlExpr[(SqlExpr,SqlExpr)]SqlExpr",
@@ -21753,6 +23511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "CastSqlExpr",
           "package": "haskelldb",
@@ -21762,6 +23521,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "CastSqlExpr",
           "package": "haskelldb",
@@ -21775,6 +23535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ColumnSqlExpr",
           "package": "haskelldb",
@@ -21784,6 +23545,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ColumnSqlExpr",
           "package": "haskelldb",
@@ -21797,6 +23559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "Columns",
           "package": "haskelldb",
@@ -21806,6 +23569,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "Columns",
           "normalized": "Columns[(SqlColumn,SqlExpr)]",
@@ -21821,6 +23585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ConstSqlExpr",
           "package": "haskelldb",
@@ -21830,6 +23595,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ConstSqlExpr",
           "package": "haskelldb",
@@ -21843,6 +23609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ExistsSqlExpr",
           "package": "haskelldb",
@@ -21852,6 +23619,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ExistsSqlExpr",
           "package": "haskelldb",
@@ -21865,6 +23633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "FunSqlExpr",
           "package": "haskelldb",
@@ -21874,6 +23643,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "FunSqlExpr",
           "normalized": "FunSqlExpr String[SqlExpr]",
@@ -21889,6 +23659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ListSqlExpr",
           "package": "haskelldb",
@@ -21898,6 +23669,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ListSqlExpr",
           "normalized": "ListSqlExpr[SqlExpr]",
@@ -21913,6 +23685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ParamSqlExpr",
           "package": "haskelldb",
@@ -21922,6 +23695,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ParamSqlExpr",
           "package": "haskelldb",
@@ -21935,6 +23709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "ParensSqlExpr",
           "package": "haskelldb",
@@ -21944,6 +23719,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "ParensSqlExpr",
           "package": "haskelldb",
@@ -21957,6 +23733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "PlaceHolderSqlExpr",
           "package": "haskelldb",
@@ -21966,6 +23743,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "PlaceHolderSqlExpr",
           "package": "haskelldb",
@@ -21979,6 +23757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "PostfixSqlExpr",
           "package": "haskelldb",
@@ -21988,6 +23767,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "PostfixSqlExpr",
           "package": "haskelldb",
@@ -22001,6 +23781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "PrefixSqlExpr",
           "package": "haskelldb",
@@ -22010,6 +23791,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "PrefixSqlExpr",
           "package": "haskelldb",
@@ -22023,6 +23805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlAsc",
           "package": "haskelldb",
@@ -22032,6 +23815,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlAsc",
           "package": "haskelldb",
@@ -22046,6 +23830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary relational operator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlBin",
           "package": "haskelldb",
@@ -22056,6 +23841,7 @@
         "index": {
           "description": "Binary relational operator",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlBin",
           "package": "haskelldb",
@@ -22070,6 +23856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreateDB",
           "package": "haskelldb",
@@ -22080,6 +23867,7 @@
         "index": {
           "description": "Create database",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreateDB",
           "package": "haskelldb",
@@ -22094,6 +23882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreateTable",
           "package": "haskelldb",
@@ -22104,6 +23893,7 @@
         "index": {
           "description": "Create table",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlCreateTable",
           "normalized": "SqlCreateTable SqlTable[(SqlColumn,(SqlType,Bool))]",
@@ -22119,6 +23909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDelete",
           "package": "haskelldb",
@@ -22128,6 +23919,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDelete",
           "normalized": "SqlDelete SqlTable[SqlExpr]",
@@ -22143,6 +23935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDesc",
           "package": "haskelldb",
@@ -22152,6 +23945,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDesc",
           "package": "haskelldb",
@@ -22166,6 +23960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDropDB",
           "package": "haskelldb",
@@ -22176,6 +23971,7 @@
         "index": {
           "description": "Delete database",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDropDB",
           "package": "haskelldb",
@@ -22190,6 +23986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a table named SqlTable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDropTable",
           "package": "haskelldb",
@@ -22200,6 +23997,7 @@
         "index": {
           "description": "Delete table named SqlTable",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlDropTable",
           "package": "haskelldb",
@@ -22214,6 +24012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty select.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlEmpty",
           "package": "haskelldb",
@@ -22224,6 +24023,7 @@
         "index": {
           "description": "Empty select",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlEmpty",
           "package": "haskelldb",
@@ -22237,6 +24037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsert",
           "package": "haskelldb",
@@ -22246,6 +24047,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsert",
           "normalized": "SqlInsert SqlTable[SqlColumn][SqlExpr]",
@@ -22261,6 +24063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsertQuery",
           "package": "haskelldb",
@@ -22270,6 +24073,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlInsertQuery",
           "normalized": "SqlInsertQuery SqlTable[SqlColumn]SqlSelect",
@@ -22285,6 +24089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlSelect",
           "package": "haskelldb",
@@ -22294,6 +24099,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlSelect",
           "package": "haskelldb",
@@ -22308,6 +24114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a whole table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlTable",
           "package": "haskelldb",
@@ -22318,6 +24125,7 @@
         "index": {
           "description": "Select whole table",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlTable",
           "package": "haskelldb",
@@ -22331,6 +24139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType",
           "package": "haskelldb",
@@ -22340,6 +24149,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType",
           "package": "haskelldb",
@@ -22353,6 +24163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType1",
           "package": "haskelldb",
@@ -22362,6 +24173,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType1",
           "package": "haskelldb",
@@ -22375,6 +24187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType2",
           "package": "haskelldb",
@@ -22384,6 +24197,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlType2",
           "package": "haskelldb",
@@ -22397,6 +24211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlUpdate",
           "package": "haskelldb",
@@ -22406,6 +24221,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "SqlUpdate",
           "normalized": "SqlUpdate SqlTable[(SqlColumn,SqlExpr)][SqlExpr]",
@@ -22422,6 +24238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "attrs",
           "package": "haskelldb",
@@ -22432,6 +24249,7 @@
         "index": {
           "description": "result",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "attrs",
           "normalized": "[(SqlColumn,SqlExpr)]",
@@ -22447,6 +24265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWHERE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "criteria",
           "package": "haskelldb",
@@ -22457,6 +24276,7 @@
         "index": {
           "description": "WHERE",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "criteria",
           "normalized": "[SqlExpr]",
@@ -22472,6 +24292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOP n, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "extra",
           "package": "haskelldb",
@@ -22482,6 +24303,7 @@
         "index": {
           "description": "TOP etc",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "extra",
           "normalized": "[String]",
@@ -22497,6 +24319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a SqlExpr value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "foldSqlExpr",
           "package": "haskelldb",
@@ -22507,6 +24330,7 @@
         "index": {
           "description": "Transform SqlExpr value",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "foldSqlExpr",
           "normalized": "(SqlColumn-\u003ea,String-\u003ea-\u003ea-\u003ea,String-\u003ea-\u003ea,String-\u003ea-\u003ea,String-\u003e[a]-\u003ea,String-\u003e[a]-\u003ea,String-\u003ea,[(a,a)]-\u003ea-\u003ea,[a]-\u003ea,SqlSelect-\u003ea,Maybe SqlName-\u003ea-\u003ea,a,a-\u003ea,String-\u003ea-\u003ea)-\u003eSqlExpr-\u003ea",
@@ -22523,6 +24347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a SqlSelect value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "foldSqlSelect",
           "package": "haskelldb",
@@ -22533,6 +24358,7 @@
         "index": {
           "description": "Transform SqlSelect value",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "foldSqlSelect",
           "normalized": "([String]-\u003e[(SqlColumn,SqlExpr)]-\u003e[(SqlTable,a)]-\u003e[SqlExpr]-\u003eMaybe Mark-\u003e[(SqlExpr,SqlOrder)]-\u003e[String]-\u003ea,String-\u003ea-\u003ea-\u003ea,SqlTable-\u003ea,a)-\u003eSqlSelect-\u003ea",
@@ -22549,6 +24375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGROUP BY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "groupby",
           "package": "haskelldb",
@@ -22559,6 +24386,7 @@
         "index": {
           "description": "GROUP BY",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "groupby",
           "package": "haskelldb",
@@ -22571,6 +24399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "newSelect",
           "package": "haskelldb",
@@ -22580,6 +24409,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "newSelect",
           "package": "haskelldb",
@@ -22594,6 +24424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDISTINCT, ALL etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "options",
           "package": "haskelldb",
@@ -22604,6 +24435,7 @@
         "index": {
           "description": "DISTINCT ALL etc",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "options",
           "normalized": "[String]",
@@ -22619,6 +24451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eORDER BY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "orderby",
           "package": "haskelldb",
@@ -22629,6 +24462,7 @@
         "index": {
           "description": "ORDER BY",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "orderby",
           "normalized": "[(SqlExpr,SqlOrder)]",
@@ -22644,6 +24478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFROM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Sql",
           "name": "tables",
           "package": "haskelldb",
@@ -22654,6 +24489,7 @@
         "index": {
           "description": "FROM",
           "hierarchy": "Database HaskellDB Sql",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Sql",
           "name": "tables",
           "normalized": "[(SqlTable,SqlSelect)]",
@@ -22668,6 +24504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Version",
           "name": "Version",
           "package": "haskelldb",
@@ -22676,6 +24513,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Version",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Version",
           "name": "Version",
           "package": "haskelldb",
@@ -22689,6 +24527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB.Version",
           "name": "version",
           "package": "haskelldb",
@@ -22698,6 +24537,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB Version",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB.Version",
           "name": "version",
           "package": "haskelldb",
@@ -22711,6 +24551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskellDB is a Haskell library for expressing database queries and\n operations in a type safe and declarative way. HaskellDB compiles a\n relational algebra-like syntax into SQL, submits the operations to the\n database for processing, and returns the results as ordinary Haskell\n values.\n\u003c/p\u003e\u003cp\u003eThis is the main module that the user should \n import. Beside this module, the user should import a\n particular database binding (ie. \u003ca\u003eDatabase.HaskellDB.HSQL.ODBC\u003c/a\u003e) \n and database definitions.\n\u003c/p\u003e\u003cp\u003eHaskellDB was originally written by Daan Leijen and it's \n design is described in the paper Domain Specific Embedded \n Compilers, Daan Leijen and Erik Meijer. 2nd USENIX \n Conference on Domain-Specific Languages (DSL), Austin, \n USA, October 1999 (\u003ca\u003ehttp://www.usenix.org/events/dsl99/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eThis new version of HaskellDB was produced as a student project at\n Chalmers University of Technology in Gothenburg, Sweden. The aim of the\n project was to make HaskellDB a practically useful database library.\n That work is described in \n Student Paper: HaskellDB Improved, \n Bj&#246;rn Bringert, Anders H&#246;ckersten, Conny Andersson, Martin Andersson, \n Mary Bergman, Victor Blomqvist and Torbj&#246;rn Martin. \n In Proceedings of the ACM SIGPLAN 2004 Haskell Workshop, Snowbird, Utah, \n USA, September 22, 2004.\n (\u003ca\u003ehttp://haskelldb.sourceforge.net/haskelldb.pdf\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "HaskellDB",
           "package": "haskelldb",
@@ -22720,6 +24561,7 @@
         "index": {
           "description": "HaskellDB is Haskell library for expressing database queries and operations in type safe and declarative way HaskellDB compiles relational algebra-like syntax into SQL submits the operations to the database for processing and returns the results as ordinary Haskell values This is the main module that the user should import Beside this module the user should import particular database binding ie Database.HaskellDB.HSQL.ODBC and database definitions HaskellDB was originally written by Daan Leijen and it design is described in the paper Domain Specific Embedded Compilers Daan Leijen and Erik Meijer nd USENIX Conference on Domain-Specific Languages DSL Austin USA October http www.usenix.org events dsl99 This new version of HaskellDB was produced as student project at Chalmers University of Technology in Gothenburg Sweden The aim of the project was to make HaskellDB practically useful database library That work is described in Student Paper HaskellDB Improved Bj rn Bringert Anders ckersten Conny Andersson Martin Andersson Mary Bergman Victor Blomqvist and Torbj rn Martin In Proceedings of the ACM SIGPLAN Haskell Workshop Snowbird Utah USA September http haskelldb.sourceforge.net haskelldb.pdf",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "HaskellDB",
           "package": "haskelldb",
@@ -22734,6 +24576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to implement variable length arguments to \u003ccode\u003efunc\u003c/code\u003e, below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Args",
           "package": "haskelldb",
@@ -22743,6 +24586,7 @@
         "index": {
           "description": "Used to implement variable length arguments to func below",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Args",
           "package": "haskelldb",
@@ -22757,6 +24601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Attr",
           "package": "haskelldb",
@@ -22766,6 +24611,7 @@
         "index": {
           "description": "Typed attributes",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Attr",
           "package": "haskelldb",
@@ -22779,6 +24625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Database",
           "package": "haskelldb",
@@ -22787,6 +24634,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Database",
           "package": "haskelldb",
@@ -22801,6 +24649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of normal expressions, contains the untyped PrimExpr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Expr",
           "package": "haskelldb",
@@ -22810,6 +24659,7 @@
         "index": {
           "description": "Type of normal expressions contains the untyped PrimExpr",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Expr",
           "package": "haskelldb",
@@ -22824,6 +24674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of aggregate expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -22833,6 +24684,7 @@
         "index": {
           "description": "Type of aggregate expressions",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "ExprAggr",
           "package": "haskelldb",
@@ -22847,6 +24699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe record \u003ccode\u003er\u003c/code\u003e has the field \u003ccode\u003ef\u003c/code\u003e if there is an instance of\n   \u003ccode\u003eHasField f r\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "HasField",
           "package": "haskelldb",
@@ -22856,6 +24709,7 @@
         "index": {
           "description": "The record has the field if there is an instance of HasField",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "HasField",
           "package": "haskelldb",
@@ -22869,6 +24723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -22877,6 +24732,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "OrderExpr",
           "package": "haskelldb",
@@ -22891,6 +24747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a query parameter. Left parameters are indexed\n by position, while right parameters are named.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Param",
           "package": "haskelldb",
@@ -22900,6 +24757,7 @@
         "index": {
           "description": "Represents query parameter Left parameters are indexed by position while right parameters are named",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Param",
           "package": "haskelldb",
@@ -22913,6 +24771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Query",
           "package": "haskelldb",
@@ -22921,6 +24780,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Query",
           "package": "haskelldb",
@@ -22935,6 +24795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type used for records. This is a function\n   that takes a \u003ccode\u003e\u003ca\u003eRecNil\u003c/a\u003e\u003c/code\u003e so that the user does not have to \n   put a \u003ccode\u003e\u003ca\u003eRecNil\u003c/a\u003e\u003c/code\u003e at the end of every record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Record",
           "package": "haskelldb",
@@ -22944,6 +24805,7 @@
         "index": {
           "description": "The type used for records This is function that takes RecNil so that the user does not have to put RecNil at the end of every record",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Record",
           "package": "haskelldb",
@@ -22958,6 +24820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of relations, contains the attributes\n   of the relation and an \u003ccode\u003eAlias\u003c/code\u003e to which the\n   attributes are renamed in the \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Rel",
           "package": "haskelldb",
@@ -22967,6 +24830,7 @@
         "index": {
           "description": "Type of relations contains the attributes of the relation and an Alias to which the attributes are renamed in the PrimQuery",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Rel",
           "package": "haskelldb",
@@ -22980,6 +24844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Select",
           "package": "haskelldb",
@@ -22988,6 +24853,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Select",
           "package": "haskelldb",
@@ -23002,6 +24868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic tables, contains table name and an\n   association from attributes to attribute\n   names in the real table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "Table",
           "package": "haskelldb",
@@ -23011,6 +24878,7 @@
         "index": {
           "description": "Basic tables contains table name and an association from attributes to attribute names in the real table",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "Table",
           "package": "haskelldb",
@@ -23025,6 +24893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField selection operator. It is overloaded so that\n   users (read HaskellDB) can redefine it for things\n   with phantom record types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "(!)",
           "package": "haskelldb",
@@ -23035,6 +24904,7 @@
         "index": {
           "description": "Field selection operator It is overloaded so that users read HaskellDB can redefine it for things with phantom record types",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "(!) !",
           "normalized": "a-\u003eb-\u003ec",
@@ -23050,6 +24920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet paramaters from a query in order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "queryParams",
           "package": "haskelldb",
@@ -23060,6 +24931,7 @@
         "index": {
           "description": "Get paramaters from query in order",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "queryParams",
           "normalized": "Query(Rel a)-\u003e[Param]",
@@ -23076,6 +24948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenates two records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "recCat",
           "package": "haskelldb",
@@ -23086,6 +24959,7 @@
         "index": {
           "description": "Concatenates two records",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "recCat",
           "normalized": "a-\u003ea-\u003ea",
@@ -23102,6 +24976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the optimized \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "showQuery",
           "package": "haskelldb",
@@ -23112,6 +24987,7 @@
         "index": {
           "description": "Shows the optimized PrimQuery",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "showQuery",
           "normalized": "Query(Rel a)-\u003eString",
@@ -23128,6 +25004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the unoptimized \u003ccode\u003e\u003ca\u003ePrimQuery\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "showQueryUnOpt",
           "package": "haskelldb",
@@ -23138,6 +25015,7 @@
         "index": {
           "description": "Shows the unoptimized PrimQuery",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "showQueryUnOpt",
           "normalized": "Query(Rel a)-\u003eString",
@@ -23154,6 +25032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the optimized SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "showSql",
           "package": "haskelldb",
@@ -23164,6 +25043,7 @@
         "index": {
           "description": "Shows the optimized SQL query",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "showSql",
           "normalized": "Query(Rel a)-\u003eString",
@@ -23180,6 +25060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShows the unoptimized SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:08 UTC 2014",
           "module": "Database.HaskellDB",
           "name": "showSqlUnOpt",
           "package": "haskelldb",
@@ -23190,6 +25071,7 @@
         "index": {
           "description": "Shows the unoptimized SQL query",
           "hierarchy": "Database HaskellDB",
+          "indexed": "2014-03-11T18:32:08",
           "module": "Database.HaskellDB",
           "name": "showSqlUnOpt",
           "normalized": "Query(Rel a)-\u003eString",

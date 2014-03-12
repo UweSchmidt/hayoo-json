@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "swift-lda"
+        "phrase": "swift-lda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA.UnboxedMaybeVector",
           "name": "UnboxedMaybeVector",
           "package": "swift-lda",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA UnboxedMaybeVector",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA.UnboxedMaybeVector",
           "name": "UnboxedMaybeVector",
           "package": "swift-lda",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLatent Dirichlet Allocation\n\u003c/p\u003e\u003cp\u003eImperative implementation of a collapsed Gibbs sampler for LDA. This\n library uses the topic modeling terminology (documents, words,\n topics), even though it is generic. For example if used for word\n class induction, replace documents with word types, words with\n features and topics with word classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "SwiftLDA",
           "package": "swift-lda",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Latent Dirichlet Allocation Imperative implementation of collapsed Gibbs sampler for LDA This library uses the topic modeling terminology documents words topics even though it is generic For example if used for word class induction replace documents with word types words with features and topics with word classes",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "SwiftLDA",
           "package": "swift-lda",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "D",
           "package": "swift-lda",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "D",
           "package": "swift-lda",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Doc",
           "package": "swift-lda",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Doc",
           "package": "swift-lda",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Finalized",
           "package": "swift-lda",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Finalized",
           "package": "swift-lda",
@@ -125,6 +135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type holding the settings and the state of the sampler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "LDA",
           "package": "swift-lda",
@@ -134,6 +145,7 @@
         "index": {
           "description": "Abstract type holding the settings and the state of the sampler",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "LDA",
           "package": "swift-lda",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Table1D",
           "package": "swift-lda",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Table1D",
           "package": "swift-lda",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Table2D",
           "package": "swift-lda",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Table2D",
           "package": "swift-lda",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "W",
           "package": "swift-lda",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "W",
           "package": "swift-lda",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Z",
           "package": "swift-lda",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Z",
           "package": "swift-lda",
@@ -229,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "Finalized",
           "package": "swift-lda",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "Finalized",
           "package": "swift-lda",
@@ -252,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealpha * K Dirichlet parameter (topic\n sparseness)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "alphasum",
           "package": "swift-lda",
@@ -262,6 +285,7 @@
         "index": {
           "description": "alpha Dirichlet parameter topic sparseness",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "alphasum",
           "package": "swift-lda",
@@ -275,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebeta Dirichlet parameter (word\n sparseness)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "beta",
           "package": "swift-lda",
@@ -285,6 +310,7 @@
         "index": {
           "description": "beta Dirichlet parameter word sparseness",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "beta",
           "package": "swift-lda",
@@ -298,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each document sum the topic counts              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "docCounts",
           "package": "swift-lda",
@@ -308,6 +335,7 @@
         "index": {
           "description": "For each document sum the topic counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "docCounts",
           "normalized": "Finalized-\u003eTable D",
@@ -324,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edocTopicWeights m doc\u003c/code\u003e returns unnormalized topic probabilities\n for document doc given LDA model \u003ccode\u003em\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "docTopicWeights",
           "package": "swift-lda",
@@ -334,6 +363,7 @@
         "index": {
           "description": "docTopicWeights doc returns unnormalized topic probabilities for document doc given LDA model",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "docTopicWeights",
           "normalized": "Finalized-\u003eDoc-\u003eVector Double",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "docTopicWeights_",
           "package": "swift-lda",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "docTopicWeights_",
           "normalized": "LDA a-\u003eDoc-\u003eST a(Vector Double)",
@@ -374,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "docTopics",
           "package": "swift-lda",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Document topic counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "docTopics",
           "package": "swift-lda",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLearning rate exponent \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "exponent",
           "package": "swift-lda",
@@ -408,6 +443,7 @@
         "index": {
           "description": "Learning rate exponent",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "exponent",
           "package": "swift-lda",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate transparent immutable object holding model information\n from opaque internal representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "finalize",
           "package": "swift-lda",
@@ -431,6 +468,7 @@
         "index": {
           "description": "Create transparent immutable object holding model information from opaque internal representation",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "finalize",
           "normalized": "LDA a-\u003eST a Finalized",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003einitial s k a b\u003c/code\u003e initializes model with \u003ccode\u003ek\u003c/code\u003e topics, \u003ccode\u003ea/k\u003c/code\u003e alpha\n hyperparameter, \u003ccode\u003eb\u003c/code\u003e beta hyperparameter and random seed \u003ccode\u003es\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "initial",
           "package": "swift-lda",
@@ -456,6 +495,7 @@
         "index": {
           "description": "initial initializes model with topics alpha hyperparameter beta hyperparameter and random seed",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "initial",
           "normalized": "Vector Word-\u003eInt-\u003eDouble-\u003eDouble-\u003eMaybe Double-\u003eST a(LDA a)",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epass batch\u003c/code\u003e runs one pass of Gibbs sampling on documents in \u003ccode\u003ebatch\u003c/code\u003e  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "pass",
           "package": "swift-lda",
@@ -481,6 +522,7 @@
         "index": {
           "description": "pass batch runs one pass of Gibbs sampling on documents in batch",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "pass",
           "normalized": "Int-\u003eLDA a-\u003eVector Doc-\u003eST a(Vector Doc)",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a pass on a single doc  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "passOne",
           "package": "swift-lda",
@@ -506,6 +549,7 @@
         "index": {
           "description": "Run pass on single doc",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "passOne",
           "normalized": "Int-\u003eLDA a-\u003eDoc-\u003eST a Doc",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "priorDocTopicWeights_",
           "package": "swift-lda",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "priorDocTopicWeights_",
           "normalized": "LDA a-\u003eD-\u003eST a(Vector Double)",
@@ -546,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse document-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "topicDocs",
           "package": "swift-lda",
@@ -556,6 +603,7 @@
         "index": {
           "description": "Inverse document-topic counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "topicDocs",
           "package": "swift-lda",
@@ -570,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of topics K\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "topicNum",
           "package": "swift-lda",
@@ -580,6 +629,7 @@
         "index": {
           "description": "Number of topics",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "topicNum",
           "package": "swift-lda",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse word-topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "topicWords",
           "package": "swift-lda",
@@ -604,6 +655,7 @@
         "index": {
           "description": "Inverse word-topic counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "topicWords",
           "package": "swift-lda",
@@ -618,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTopics counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "topics",
           "package": "swift-lda",
@@ -628,6 +681,7 @@
         "index": {
           "description": "Topics counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "topics",
           "package": "swift-lda",
@@ -641,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of unique words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "wSize",
           "package": "swift-lda",
@@ -651,6 +706,7 @@
         "index": {
           "description": "Number of unique words",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "wSize",
           "package": "swift-lda",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003etopicWeights m d w\u003c/code\u003e returns the unnormalized probabilities of\n topics for word \u003ccode\u003ew\u003c/code\u003e in document \u003ccode\u003ed\u003c/code\u003e given LDA model \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "wordTopicWeights",
           "package": "swift-lda",
@@ -675,6 +732,7 @@
         "index": {
           "description": "topicWeights returns the unnormalized probabilities of topics for word in document given LDA model",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "wordTopicWeights",
           "normalized": "Finalized-\u003eD-\u003eW-\u003eVector Double",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord topic counts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:25 UTC 2014",
           "module": "NLP.SwiftLDA",
           "name": "wordTopics",
           "package": "swift-lda",
@@ -701,6 +760,7 @@
         "index": {
           "description": "Word topic counts",
           "hierarchy": "NLP SwiftLDA",
+          "indexed": "2014-03-11T20:14:25",
           "module": "NLP.SwiftLDA",
           "name": "wordTopics",
           "package": "swift-lda",

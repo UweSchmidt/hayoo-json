@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cash"
+        "phrase": "cash",
+        "type": "phrase"
       },
       "type": "context"
     }

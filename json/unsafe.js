@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unsafe"
+        "phrase": "unsafe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "Unsafe",
           "package": "unsafe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "Unsafe",
           "package": "unsafe",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "coerce",
           "package": "unsafe",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "coerce",
           "normalized": "a-\u003eb",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "foreignPtrToPtr",
           "package": "unsafe",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "foreignPtrToPtr",
           "normalized": "ForeignPtr a-\u003ePtr a",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "interleaveIO",
           "package": "unsafe",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "interleaveIO",
           "normalized": "IO a-\u003eIO a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "interleaveST",
           "package": "unsafe",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "interleaveST",
           "normalized": "ST a b-\u003eST a b",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "ioToST",
           "package": "unsafe",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "ioToST",
           "normalized": "IO a-\u003eST b a",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "performIO",
           "package": "unsafe",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "performIO",
           "normalized": "IO a-\u003ea",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:06 UTC 2014",
           "module": "System.Unsafe",
           "name": "stToIO",
           "package": "unsafe",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "System Unsafe",
+          "indexed": "2014-03-11T20:31:06",
           "module": "System.Unsafe",
           "name": "stToIO",
           "normalized": "ST a b-\u003eIO b",

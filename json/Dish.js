@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Dish"
+        "phrase": "Dish",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a Haskell wrapper around the C port of MurmurHash3.\n\u003ca\u003ehttps://github.com/zcourts/murmur3\u003c/a\u003e\nMurmurHash3 is available at \n\u003ca\u003ehttps://code.google.com/p/smhasher/wiki/MurmurHash3\u003c/a\u003e\nThe hash functions are designed to work efficiently on x86 processors; \nin particular, they make some assumptions about the endianness of the processor, \nand about the speed of unaligned reads. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "Murmur3",
           "package": "Dish",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is Haskell wrapper around the port of MurmurHash3 https github.com zcourts murmur3 MurmurHash3 is available at https code.google.com smhasher wiki MurmurHash3 The hash functions are designed to work efficiently on x86 processors in particular they make some assumptions about the endianness of the processor and about the speed of unaligned reads",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "Murmur3",
           "package": "Dish",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "MHV",
           "package": "Dish",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "MHV",
           "package": "Dish",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides an interface for any value which is capable of being represented as a \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "Murmur3Hashable",
           "package": "Dish",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Provides an interface for any value which is capable of being represented as CString",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "Murmur3Hashable",
           "package": "Dish",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBecause String isn't a 'real' type :(\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "Str",
           "package": "Dish",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Because String isn real type",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "Str",
           "package": "Dish",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "Str",
           "package": "Dish",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "Str",
           "package": "Dish",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "X64_128",
           "package": "Dish",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "X64_128",
           "package": "Dish",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "X86_128",
           "package": "Dish",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "X86_128",
           "package": "Dish",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "X86_32",
           "package": "Dish",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "X86_32",
           "package": "Dish",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase function, which allows you to choose which \u003ccode\u003e\u003ca\u003eMHV\u003c/a\u003e\u003c/code\u003e to use        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3",
           "package": "Dish",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Base function which allows you to choose which MHV to use",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3",
           "normalized": "a-\u003eInt-\u003eMHV-\u003e[Int]",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3'",
           "package": "Dish",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3'",
           "normalized": "a-\u003eInt-\u003eMHV-\u003eIO[Int]",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehas the lowest throughput, but also the lowest latency. If you're making a \nhash table that usually has small keys, this is probably the one you want to use \non 32-bit machines. It has a 32-bit output. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Int",
           "package": "Dish",
@@ -249,6 +270,7 @@
         "index": {
           "description": "has the lowest throughput but also the lowest latency If you re making hash table that usually has small keys this is probably the one you want to use on bit machines It has bit output",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Int",
           "normalized": "a-\u003eInt-\u003eInt",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Int'",
           "package": "Dish",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Int'",
           "normalized": "a-\u003eInt-\u003eIO Int",
@@ -288,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a 128 bit hash from the given value, this function's implementation \n     is optimized for x64 architectures but works on any.\n     Its throughput is 250% higher than \u003ccode\u003e\u003ca\u003emurmur3IntegerX86\u003c/a\u003e\u003c/code\u003e, but it has roughly \n     the same latency. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX64",
           "package": "Dish",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Generate bit hash from the given value this function implementation is optimized for x64 architectures but works on any Its throughput is higher than murmur3IntegerX86 but it has roughly the same latency",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX64",
           "normalized": "a-\u003eInt-\u003eInteger",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX64'",
           "package": "Dish",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX64'",
           "normalized": "a-\u003eInt-\u003eIO Integer",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a 128 bit hash from the given value, this function's implementation \n     is optimized for 32 bit architectures but works on any.\n     Has about 30% higher throughput than \u003ccode\u003e\u003ca\u003emurmur3Int\u003c/a\u003e\u003c/code\u003e. Be warned, though, \n     that its latency for a single 16-byte key is about 86% longer!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX86",
           "package": "Dish",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Generate bit hash from the given value this function implementation is optimized for bit architectures but works on any Has about higher throughput than murmur3Int Be warned though that its latency for single byte key is about longer",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX86",
           "normalized": "a-\u003eInt-\u003eInteger",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX86'",
           "package": "Dish",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3IntegerX86'",
           "normalized": "a-\u003eInt-\u003eIO Integer",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall murmur functions use this and manipulate its response to return a different format  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Raw",
           "package": "Dish",
@@ -394,6 +427,7 @@
         "index": {
           "description": "all murmur functions use this and manipulate its response to return different format",
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "murmur3Raw",
           "normalized": "a-\u003eInt-\u003eMHV-\u003eIO[CUInt]",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "strCon",
           "package": "Dish",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "strCon",
           "package": "Dish",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:39:02 UTC 2014",
           "module": "Data.Dish.Murmur3",
           "name": "toCstring",
           "package": "Dish",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Dish Murmur3",
+          "indexed": "2014-03-11T16:39:02",
           "module": "Data.Dish.Murmur3",
           "name": "toCstring",
           "normalized": "a-\u003eIO CStringLen",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "htiled"
+        "phrase": "htiled",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Load",
           "name": "Load",
           "package": "htiled",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Load",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Load",
           "name": "Load",
           "package": "htiled",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a map from a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Load",
           "name": "loadMap",
           "package": "htiled",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Load map from string",
           "hierarchy": "Data Tiled Load",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Load",
           "name": "loadMap",
           "normalized": "String-\u003eIO TiledMap",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a map file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Load",
           "name": "loadMapFile",
           "package": "htiled",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Load map file",
           "hierarchy": "Data Tiled Load",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Load",
           "name": "loadMapFile",
           "normalized": "FilePath-\u003eIO TiledMap",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Types",
           "package": "htiled",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Types",
           "package": "htiled",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn image containing tiles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Image",
           "package": "htiled",
@@ -122,6 +131,7 @@
         "index": {
           "description": "An image containing tiles",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Image",
           "package": "htiled",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither a tile layer or an object layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Layer",
           "package": "htiled",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Either tile layer or an object layer",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Layer",
           "package": "htiled",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOrientations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "MapOrientation",
           "package": "htiled",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Orientations",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "MapOrientation",
           "package": "htiled",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn object, usable for stuff not repetitively aligned on a grid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Object",
           "package": "htiled",
@@ -191,6 +206,7 @@
         "index": {
           "description": "An object usable for stuff not repetitively aligned on grid",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Object",
           "package": "htiled",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polygon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Polygon",
           "package": "htiled",
@@ -214,6 +231,7 @@
         "index": {
           "description": "polygon",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Polygon",
           "package": "htiled",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA polyline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Polyline",
           "package": "htiled",
@@ -237,6 +256,7 @@
         "index": {
           "description": "polyline",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Polyline",
           "package": "htiled",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Properties",
           "package": "htiled",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Properties",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Properties",
           "package": "htiled",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single tile as is stored in a layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Tile",
           "package": "htiled",
@@ -283,6 +306,7 @@
         "index": {
           "description": "single tile as is stored in layer",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Tile",
           "package": "htiled",
@@ -297,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tiled map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "TiledMap",
           "package": "htiled",
@@ -306,6 +331,7 @@
         "index": {
           "description": "tiled map",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "TiledMap",
           "package": "htiled",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of tiles that can be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Tileset",
           "package": "htiled",
@@ -329,6 +356,7 @@
         "index": {
           "description": "set of tiles that can be used",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Tileset",
           "package": "htiled",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Image",
           "package": "htiled",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Image",
           "package": "htiled",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "ImageLayer",
           "package": "htiled",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "ImageLayer",
           "package": "htiled",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Isometric",
           "package": "htiled",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Isometric",
           "package": "htiled",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Layer",
           "package": "htiled",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Layer",
           "package": "htiled",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Object",
           "package": "htiled",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Object",
           "package": "htiled",
@@ -452,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "ObjectLayer",
           "package": "htiled",
@@ -461,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "ObjectLayer",
           "package": "htiled",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Orthogonal",
           "package": "htiled",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Orthogonal",
           "package": "htiled",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Polygon",
           "package": "htiled",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Polygon",
           "normalized": "Polygon[(Int,Int)]",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Polyline",
           "package": "htiled",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Polyline",
           "normalized": "Polyline[(Int,Int)]",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Tile",
           "package": "htiled",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Tile",
           "package": "htiled",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "TiledMap",
           "package": "htiled",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "TiledMap",
           "package": "htiled",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "Tileset",
           "package": "htiled",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "Tileset",
           "package": "htiled",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "iHeight",
           "package": "htiled",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "iHeight",
           "package": "htiled",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "iSource",
           "package": "htiled",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "iSource",
           "package": "htiled",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "iTrans",
           "package": "htiled",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "iTrans",
           "normalized": "Maybe(Word,Word,Word)",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "iWidth",
           "package": "htiled",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "iWidth",
           "package": "htiled",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerData",
           "package": "htiled",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerData",
           "normalized": "Map(Int,Int)Tile",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerImage",
           "package": "htiled",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerImage",
           "package": "htiled",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerIsVisible",
           "package": "htiled",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerIsVisible",
           "package": "htiled",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerName",
           "package": "htiled",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerName",
           "package": "htiled",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerObjects",
           "package": "htiled",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerObjects",
           "normalized": "[Object]",
@@ -814,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerOpacity",
           "package": "htiled",
@@ -823,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerOpacity",
           "package": "htiled",
@@ -836,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "layerProperties",
           "package": "htiled",
@@ -845,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "layerProperties",
           "package": "htiled",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapHeight",
           "package": "htiled",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapHeight",
           "package": "htiled",
@@ -880,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapLayers",
           "package": "htiled",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapLayers",
           "normalized": "[Layer]",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapOrientation",
           "package": "htiled",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapOrientation",
           "package": "htiled",
@@ -927,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file path of the map file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapPath",
           "package": "htiled",
@@ -937,6 +1018,7 @@
         "index": {
           "description": "The file path of the map file",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapPath",
           "package": "htiled",
@@ -950,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapProperties",
           "package": "htiled",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapProperties",
           "package": "htiled",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapTileHeight",
           "package": "htiled",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapTileHeight",
           "package": "htiled",
@@ -994,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapTileWidth",
           "package": "htiled",
@@ -1003,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapTileWidth",
           "package": "htiled",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapTilesets",
           "package": "htiled",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapTilesets",
           "normalized": "[Tileset]",
@@ -1040,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "mapWidth",
           "package": "htiled",
@@ -1049,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "mapWidth",
           "package": "htiled",
@@ -1062,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectGid",
           "package": "htiled",
@@ -1071,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectGid",
           "package": "htiled",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectHeight",
           "package": "htiled",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectHeight",
           "package": "htiled",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectName",
           "package": "htiled",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectName",
           "package": "htiled",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectPolygon",
           "package": "htiled",
@@ -1137,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectPolygon",
           "package": "htiled",
@@ -1150,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectPolyline",
           "package": "htiled",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectPolyline",
           "package": "htiled",
@@ -1172,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectProperties",
           "package": "htiled",
@@ -1181,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectProperties",
           "package": "htiled",
@@ -1194,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectType",
           "package": "htiled",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectType",
           "package": "htiled",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectWidth",
           "package": "htiled",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectWidth",
           "package": "htiled",
@@ -1238,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectX",
           "package": "htiled",
@@ -1247,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectX",
           "package": "htiled",
@@ -1259,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "objectY",
           "package": "htiled",
@@ -1268,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "objectY",
           "package": "htiled",
@@ -1280,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tileGid",
           "package": "htiled",
@@ -1289,6 +1402,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tileGid",
           "package": "htiled",
@@ -1302,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tileIsDiagFlipped",
           "package": "htiled",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tileIsDiagFlipped",
           "package": "htiled",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tileIsHFlipped",
           "package": "htiled",
@@ -1333,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tileIsHFlipped",
           "package": "htiled",
@@ -1346,6 +1464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tileIsVFlipped",
           "package": "htiled",
@@ -1355,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tileIsVFlipped",
           "package": "htiled",
@@ -1369,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple images not\n yet supported in tiled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsImages",
           "package": "htiled",
@@ -1379,6 +1500,7 @@
         "index": {
           "description": "Multiple images not yet supported in tiled",
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsImages",
           "normalized": "[Image]",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsInitialGid",
           "package": "htiled",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsInitialGid",
           "package": "htiled",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsMargin",
           "package": "htiled",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsMargin",
           "package": "htiled",
@@ -1438,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsName",
           "package": "htiled",
@@ -1447,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsName",
           "package": "htiled",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsSpacing",
           "package": "htiled",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsSpacing",
           "package": "htiled",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsTileHeight",
           "package": "htiled",
@@ -1491,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsTileHeight",
           "package": "htiled",
@@ -1504,6 +1636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsTileProperties",
           "package": "htiled",
@@ -1513,6 +1646,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsTileProperties",
           "normalized": "[(Word,Properties)]",
@@ -1528,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled.Types",
           "name": "tsTileWidth",
           "package": "htiled",
@@ -1537,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled Types",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled.Types",
           "name": "tsTileWidth",
           "package": "htiled",
@@ -1550,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:33 UTC 2014",
           "module": "Data.Tiled",
           "name": "Tiled",
           "package": "htiled",
@@ -1558,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Data Tiled",
+          "indexed": "2014-03-11T18:51:33",
           "module": "Data.Tiled",
           "name": "Tiled",
           "package": "htiled",

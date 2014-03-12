@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "splines"
+        "phrase": "splines",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "NURBS",
           "package": "splines",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "NURBS",
           "package": "splines",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "NURBS",
           "package": "splines",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "NURBS",
           "package": "splines",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "evalNURBS",
           "package": "splines",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "evalNURBS",
           "normalized": "NURBS a-\u003eb-\u003ea",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "nurbs",
           "package": "splines",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "nurbs",
           "normalized": "Knots(Scalar a)-\u003eVector(b,a)-\u003eNURBS a",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "nurbsControlPoints",
           "package": "splines",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "nurbsControlPoints",
           "normalized": "NURBS a-\u003eVector(Scalar a,a)",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "nurbsDegree",
           "package": "splines",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "nurbsDegree",
           "normalized": "NURBS a-\u003eInt",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domain of a NURBS - that is, the range of parameter values\n over which a spline with this degree and knot vector has a full basis set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "nurbsDomain",
           "package": "splines",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Returns the domain of NURBS that is the range of parameter values over which spline with this degree and knot vector has full basis set",
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "nurbsDomain",
           "normalized": "NURBS a-\u003eMaybe(Scalar a,Scalar a)",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "nurbsKnotVector",
           "package": "splines",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "nurbsKnotVector",
           "normalized": "NURBS a-\u003eKnots(Scalar a)",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "splitNURBS",
           "package": "splines",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "splitNURBS",
           "normalized": "NURBS a-\u003eScalar a-\u003eMaybe(NURBS a,NURBS a)",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.NURBS",
           "name": "toNURBS",
           "package": "splines",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Math NURBS",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.NURBS",
           "name": "toNURBS",
           "normalized": "a b-\u003eNURBS b",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReference implementation of B-Splines; very inefficient but \"obviously\"\n correct.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "Reference",
           "package": "splines",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Reference implementation of B-Splines very inefficient but obviously correct",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "Reference",
           "package": "splines",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe values of all the B-spline basis functions for the given knot vector at the given\n point, ordered by degree; \"b_{i,j}(x)\" is \u003ccode\u003ebases kts x !! i !! j\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "bases",
           "package": "splines",
@@ -287,6 +310,7 @@
         "index": {
           "description": "The values of all the B-spline basis functions for the given knot vector at the given point ordered by degree is bases kts",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "bases",
           "normalized": "Knots a-\u003ea-\u003e[[a]]",
@@ -302,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the B-spline basis functions for the given knot vector at the given\n point, ordered by degree; \"b_{i,j}\" is \u003ccode\u003ebasisFunctions kts x !! i !! j\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisFunctions",
           "package": "splines",
@@ -312,6 +337,7 @@
         "index": {
           "description": "All the B-spline basis functions for the given knot vector at the given point ordered by degree is basisFunctions kts",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisFunctions",
           "normalized": "Knots a-\u003e[[a-\u003ea]]",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the B-spline basis polynomials for the given knot vector, ordered first \n by knot span and then by degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisPolynomials",
           "package": "splines",
@@ -338,6 +365,7 @@
         "index": {
           "description": "All the B-spline basis polynomials for the given knot vector ordered first by knot span and then by degree",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisPolynomials",
           "normalized": "Knots a-\u003e[[[Poly a]]]",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll the B-spline basis polynomials for the given knot vector at the given\n point, ordered by degree; \"b_{i,j}\" is \u003ccode\u003ebasisPolynomialsAt kts x !! i !! j\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisPolynomialsAt",
           "package": "splines",
@@ -364,6 +393,7 @@
         "index": {
           "description": "All the B-spline basis polynomials for the given knot vector at the given point ordered by degree is basisPolynomialsAt kts",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "basisPolynomialsAt",
           "normalized": "Knots a-\u003ea-\u003e[[Poly a]]",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a fairly slow function which computes the value of a B-spline at a given point,\n using the mathematical definition of B-splines.  It is mainly for testing purposes, as a\n reference against which the other evaluation functions are checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "evalReferenceBSpline",
           "package": "splines",
@@ -390,6 +421,7 @@
         "index": {
           "description": "This is fairly slow function which computes the value of B-spline at given point using the mathematical definition of B-splines It is mainly for testing purposes as reference against which the other evaluation functions are checked",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "evalReferenceBSpline",
           "normalized": "BSpline a b-\u003eScalar b-\u003eb",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a fairly slow function which computes one polynomial segment of a B-spline (the \n one containing the given point), using the mathematical definition of B-splines.  It is \n mainly for testing purposes, as a reference against which the other evaluation functions\n are checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline.Reference",
           "name": "fitPolyToBSplineAt",
           "package": "splines",
@@ -416,6 +449,7 @@
         "index": {
           "description": "This is fairly slow function which computes one polynomial segment of B-spline the one containing the given point using the mathematical definition of B-splines It is mainly for testing purposes as reference against which the other evaluation functions are checked",
           "hierarchy": "Math Spline BSpline Reference",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline.Reference",
           "name": "fitPolyToBSplineAt",
           "normalized": "BSpline a b-\u003eb-\u003ePoly b",
@@ -431,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "BSpline",
           "package": "splines",
@@ -439,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "BSpline",
           "package": "splines",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA B-spline, defined by a knot vector (see \u003ccode\u003e\u003ca\u003eKnots\u003c/a\u003e\u003c/code\u003e) and a sequence of control points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "BSpline",
           "package": "splines",
@@ -462,6 +499,7 @@
         "index": {
           "description": "B-spline defined by knot vector see Knots and sequence of control points",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "BSpline",
           "package": "splines",
@@ -503,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe table from de Boor's algorithm, calculated for the entire spline.  If that is not necessary\n (for example, if you are only evaluating the spline), then use \u003ccode\u003eslice\u003c/code\u003e on the spline first.\n \u003ccode\u003esplitBSpline\u003c/code\u003e currently uses the whole table.  It is probably not necessary there, but it \n greatly simplifies the definition and makes the similarity to splitting Bezier curves very obvious.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "deBoor",
           "package": "splines",
@@ -513,6 +552,7 @@
         "index": {
           "description": "The table from de Boor algorithm calculated for the entire spline If that is not necessary for example if you are only evaluating the spline then use slice on the spline first splitBSpline currently uses the whole table It is probably not necessary there but it greatly simplifies the definition and makes the similarity to splitting Bezier curves very obvious",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "deBoor",
           "normalized": "BSpline a b-\u003eScalar b-\u003e[a b]",
@@ -528,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "differentiateBSpline",
           "package": "splines",
@@ -537,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "differentiateBSpline",
           "normalized": "BSpline a b-\u003eBSpline a b",
@@ -553,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a B-spline at the given point.  This uses a slightly modified version of \n de Boor's algorithm which is only strictly correct inside the domain of the spline.\n Unlike the standard algorithm, the basis functions always sum to 1, even outside the\n domain of the spline.  This is mainly useful for \"clamped\" splines - the values at\n or outside the endpoints will always be the value of the nearest control point.\n\u003c/p\u003e\u003cp\u003eFor a standard implementation of de Boor's algorithm, see \u003ccode\u003e\u003ca\u003eevalNaturalBSpline\u003c/a\u003e\u003c/code\u003e.\n For a (much slower) strictly mathematically correct evaluation, see \u003ccode\u003eevalReferenceBSpline\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "evalBSpline",
           "package": "splines",
@@ -563,6 +606,7 @@
         "index": {
           "description": "Evaluate B-spline at the given point This uses slightly modified version of de Boor algorithm which is only strictly correct inside the domain of the spline Unlike the standard algorithm the basis functions always sum to even outside the domain of the spline This is mainly useful for clamped splines the values at or outside the endpoints will always be the value of the nearest control point For standard implementation of de Boor algorithm see evalNaturalBSpline For much slower strictly mathematically correct evaluation see evalReferenceBSpline",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "evalBSpline",
           "normalized": "BSpline a b-\u003eScalar b-\u003eb",
@@ -579,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a B-spline at the given point.  This uses de Boor's algorithm, which is \n only strictly correct inside the domain of the spline.\n\u003c/p\u003e\u003cp\u003eFor a (much slower) strictly mathematically correct evaluation, see \u003ccode\u003eevalReferenceBSpline\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "evalNaturalBSpline",
           "package": "splines",
@@ -589,6 +634,7 @@
         "index": {
           "description": "Evaluate B-spline at the given point This uses de Boor algorithm which is only strictly correct inside the domain of the spline For much slower strictly mathematically correct evaluation see evalReferenceBSpline",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "evalNaturalBSpline",
           "normalized": "BSpline a b-\u003eScalar b-\u003eb",
@@ -605,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert one knot into a \u003ccode\u003e\u003ca\u003eBSpline\u003c/a\u003e\u003c/code\u003e without changing the spline's shape.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "insertKnot",
           "package": "splines",
@@ -615,6 +662,7 @@
         "index": {
           "description": "Insert one knot into BSpline without changing the spline shape",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "insertKnot",
           "normalized": "BSpline a b-\u003eScalar b-\u003eBSpline a b",
@@ -630,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "integrateBSpline",
           "package": "splines",
@@ -639,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "integrateBSpline",
           "normalized": "BSpline a b-\u003eBSpline a b",
@@ -655,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a B-spline at the specified point (which must be inside the spline's domain),\n returning two disjoint splines, the sum of which is equal to the original.  The domain\n of the first will be below the split point and the domain of the second will be above.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BSpline",
           "name": "splitBSpline",
           "package": "splines",
@@ -665,6 +716,7 @@
         "index": {
           "description": "Split B-spline at the specified point which must be inside the spline domain returning two disjoint splines the sum of which is equal to the original The domain of the first will be below the split point and the domain of the second will be above",
           "hierarchy": "Math Spline BSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BSpline",
           "name": "splitBSpline",
           "normalized": "BSpline a b-\u003eScalar b-\u003eMaybe(BSpline a b,BSpline a b)",
@@ -680,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BezierCurve",
           "name": "BezierCurve",
           "package": "splines",
@@ -688,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Math Spline BezierCurve",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BezierCurve",
           "name": "BezierCurve",
           "package": "splines",
@@ -702,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bezier curve on \u003ccode\u003e0 \u003c= x \u003c= 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BezierCurve",
           "name": "BezierCurve",
           "package": "splines",
@@ -711,6 +766,7 @@
         "index": {
           "description": "Bezier curve on",
           "hierarchy": "Math Spline BezierCurve",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BezierCurve",
           "name": "BezierCurve",
           "package": "splines",
@@ -777,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit and rescale a Bezier curve.  Given a \u003ccode\u003e\u003ca\u003eBezierCurve\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eb\u003c/code\u003e and a point \n \u003ccode\u003et\u003c/code\u003e, \u003ccode\u003esplitBezierCurve b t\u003c/code\u003e creates 2 curves \u003ccode\u003e(b1, b2)\u003c/code\u003e such that (up to \n reasonable numerical accuracy expectations):\n\u003c/p\u003e\u003cpre\u003e evalSpline b1  x    == evalSpline b (x * t)\n evalSpline b2 (x-t) == evalSpline b (x * (1-t))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.BezierCurve",
           "name": "splitBezierCurve",
           "package": "splines",
@@ -787,6 +844,7 @@
         "index": {
           "description": "Split and rescale Bezier curve Given BezierCurve and point splitBezierCurve creates curves b1 b2 such that up to reasonable numerical accuracy expectations evalSpline b1 evalSpline evalSpline b2 x-t evalSpline",
           "hierarchy": "Math Spline BezierCurve",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.BezierCurve",
           "name": "splitBezierCurve",
           "normalized": "BezierCurve a-\u003eScalar a-\u003e(BezierCurve a,BezierCurve a)",
@@ -802,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "Class",
           "package": "splines",
@@ -810,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "Class",
           "package": "splines",
@@ -823,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "ControlPoints",
           "package": "splines",
@@ -831,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "ControlPoints",
           "package": "splines",
@@ -845,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA spline is a piecewise polynomial vector-valued function.  The necessary\n and sufficient instance definition is \u003ccode\u003e\u003ca\u003etoBSpline\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "Spline",
           "package": "splines",
@@ -854,6 +917,7 @@
         "index": {
           "description": "spline is piecewise polynomial vector-valued function The necessary and sufficient instance definition is toBSpline",
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "Spline",
           "package": "splines",
@@ -867,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "controlPoints",
           "package": "splines",
@@ -876,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "controlPoints",
           "normalized": "a b-\u003eVector b",
@@ -891,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "evalSpline",
           "package": "splines",
@@ -900,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "evalSpline",
           "normalized": "a b-\u003eScalar b-\u003eb",
@@ -915,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "knotVector",
           "package": "splines",
@@ -924,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "knotVector",
           "normalized": "a b-\u003eKnots(Scalar b)",
@@ -939,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "splineDegree",
           "package": "splines",
@@ -948,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "splineDegree",
           "normalized": "a b-\u003eInt",
@@ -964,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domain of a spline.  In the case of B-splines, this is\n the domain on which a spline with this degree and knot vector has a \n full basis set.  In other cases, it should be no larger than \n \u003ccode\u003esplineDomain . toBSpline\u003c/code\u003e, but may be smaller.  Within this domain,\n \u003ccode\u003e\u003ca\u003eevalSpline\u003c/a\u003e\u003c/code\u003e should agree with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eevalSpline\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoBSpline\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (not \n necessarily exactly, but up to reasonable expectations of numerical \n accuracy).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "splineDomain",
           "package": "splines",
@@ -974,6 +1047,7 @@
         "index": {
           "description": "Returns the domain of spline In the case of B-splines this is the domain on which spline with this degree and knot vector has full basis set In other cases it should be no larger than splineDomain toBSpline but may be smaller Within this domain evalSpline should agree with evalSpline toBSpline not necessarily exactly but up to reasonable expectations of numerical accuracy",
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "splineDomain",
           "normalized": "a b-\u003eMaybe(Scalar b,Scalar b)",
@@ -989,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Class",
           "name": "toBSpline",
           "package": "splines",
@@ -998,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Class",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Class",
           "name": "toBSpline",
           "normalized": "a b-\u003eBSpline Vector b",
@@ -1013,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Hermite",
           "name": "Hermite",
           "package": "splines",
@@ -1021,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Hermite",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Hermite",
           "name": "Hermite",
           "package": "splines",
@@ -1035,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCubic Hermite splines.  These are cubic splines defined by a \n sequence of control points and derivatives at those points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Hermite",
           "name": "CSpline",
           "package": "splines",
@@ -1044,6 +1123,7 @@
         "index": {
           "description": "Cubic Hermite splines These are cubic splines defined by sequence of control points and derivatives at those points",
           "hierarchy": "Math Spline Hermite",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Hermite",
           "name": "CSpline",
           "package": "splines",
@@ -1084,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.ISpline",
           "name": "ISpline",
           "package": "splines",
@@ -1092,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Math Spline ISpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.ISpline",
           "name": "ISpline",
           "package": "splines",
@@ -1106,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe I-Spline basis functions are the integrals of the M-splines, or\n alternatively the integrals of the B-splines normalized to the range\n [0,1].  Every I-spline basis function increases monotonically from 0 to 1,\n thus it is useful as a basis for monotone functions.  An I-Spline curve\n is monotone if and only if every non-zero control point has the same sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.ISpline",
           "name": "ISpline",
           "package": "splines",
@@ -1115,6 +1198,7 @@
         "index": {
           "description": "The I-Spline basis functions are the integrals of the M-splines or alternatively the integrals of the B-splines normalized to the range Every I-spline basis function increases monotonically from to thus it is useful as basis for monotone functions An I-Spline curve is monotone if and only if every non-zero control point has the same sign",
           "hierarchy": "Math Spline ISpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.ISpline",
           "name": "ISpline",
           "package": "splines",
@@ -1180,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "Knots",
           "package": "splines",
@@ -1188,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "Knots",
           "package": "splines",
@@ -1202,6 +1288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnot vectors - multisets of points in a 1-dimensional space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "Knots",
           "package": "splines",
@@ -1211,6 +1298,7 @@
         "index": {
           "description": "Knot vectors multisets of points in dimensional space",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "Knots",
           "package": "splines",
@@ -1225,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all distinct knots of a knot vector in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "distinctKnots",
           "package": "splines",
@@ -1235,6 +1324,7 @@
         "index": {
           "description": "Returns list of all distinct knots of knot vector in ascending order",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "distinctKnots",
           "normalized": "Knots a-\u003e[a]",
@@ -1251,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eSet\u003c/a\u003e\u003c/code\u003e of all distinct knots of a knot vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "distinctKnotsSet",
           "package": "splines",
@@ -1261,6 +1352,7 @@
         "index": {
           "description": "Returns Set of all distinct knots of knot vector",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "distinctKnotsSet",
           "normalized": "Knots a-\u003eSet a",
@@ -1277,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a vector of all distinct knots of a knot vector in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "distinctKnotsVector",
           "package": "splines",
@@ -1287,6 +1380,7 @@
         "index": {
           "description": "Returns vector of all distinct knots of knot vector in ascending order",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "distinctKnotsVector",
           "normalized": "Knots a-\u003eVector a",
@@ -1302,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "dropDistinctKnots",
           "package": "splines",
@@ -1311,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "dropDistinctKnots",
           "normalized": "Int-\u003eKnots a-\u003eKnots a",
@@ -1326,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "dropKnots",
           "package": "splines",
@@ -1335,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "dropKnots",
           "normalized": "Int-\u003eKnots a-\u003eKnots a",
@@ -1351,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty knot vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "empty",
           "package": "splines",
@@ -1361,6 +1460,7 @@
         "index": {
           "description": "An empty knot vector",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "empty",
           "package": "splines",
@@ -1374,6 +1474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a knot vector consisting of all the knots and corresponding \n multiplicities in a list ordered by the knots' \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance.  The\n ordering precondition is not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "fromAscList",
           "package": "splines",
@@ -1384,6 +1485,7 @@
         "index": {
           "description": "Create knot vector consisting of all the knots and corresponding multiplicities in list ordered by the knots Ord instance The ordering precondition is not checked",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "fromAscList",
           "normalized": "[(a,Int)]-\u003eKnots a",
@@ -1400,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a knot vector consisting of all the knots and corresponding \n multiplicities in a list ordered by the knots' \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance with no\n duplicates.  The preconditions are not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "fromDistinctAscList",
           "package": "splines",
@@ -1410,6 +1513,7 @@
         "index": {
           "description": "Create knot vector consisting of all the knots and corresponding multiplicities in list ordered by the knots Ord instance with no duplicates The preconditions are not checked",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "fromDistinctAscList",
           "normalized": "[(a,Int)]-\u003eKnots a",
@@ -1426,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a knot vector consisting of all the knots and corresponding \n multiplicities in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "fromList",
           "package": "splines",
@@ -1436,6 +1541,7 @@
         "index": {
           "description": "Create knot vector consisting of all the knots and corresponding multiplicities in list",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "fromList",
           "normalized": "[(a,Int)]-\u003eKnots a",
@@ -1451,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "fromMap",
           "package": "splines",
@@ -1460,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "fromMap",
           "normalized": "Map a Int-\u003eKnots a",
@@ -1475,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "fromVector",
           "package": "splines",
@@ -1484,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "fromVector",
           "normalized": "Vector(a,Int)-\u003eKnots a",
@@ -1499,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "isEmpty",
           "package": "splines",
@@ -1508,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "isEmpty",
           "normalized": "Knots a-\u003eBool",
@@ -1524,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a knot vector consisting of one knot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knot",
           "package": "splines",
@@ -1534,6 +1647,7 @@
         "index": {
           "description": "Create knot vector consisting of one knot",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knot",
           "normalized": "a-\u003eKnots a",
@@ -1549,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eknotDomain kts p\u003c/code\u003e returns the domain of a B-spline or NURBS with knot\n vector \u003ccode\u003ekts\u003c/code\u003e and degree \u003ccode\u003ep\u003c/code\u003e.  This is the subrange spanned by all\n except the first and last \u003ccode\u003ep\u003c/code\u003e knots.  Outside this domain, the spline\n does not have a complete basis set.  De Boor's algorithm assumes that\n the basis functions sum to 1, which is only true on this range, and so\n this is also precisely the domain on which de Boor's algorithm is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotDomain",
           "package": "splines",
@@ -1559,6 +1674,7 @@
         "index": {
           "description": "knotDomain kts returns the domain of B-spline or NURBS with knot vector kts and degree This is the subrange spanned by all except the first and last knots Outside this domain the spline does not have complete basis set De Boor algorithm assumes that the basis functions sum to which is only true on this range and so this is also precisely the domain on which de Boor algorithm is valid",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotDomain",
           "normalized": "Knots a-\u003eInt-\u003eMaybe(a,a)",
@@ -1575,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up the multiplicity of a knot (which is 0 if the point is not a knot)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotMultiplicity",
           "package": "splines",
@@ -1585,6 +1702,7 @@
         "index": {
           "description": "Looks up the multiplicity of knot which is if the point is not knot",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotMultiplicity",
           "normalized": "a-\u003eKnots a-\u003eInt",
@@ -1601,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eknotSpan kts i j\u003c/code\u003e returns the knot span extending from the \u003ccode\u003ei\u003c/code\u003e'th knot\n to the \u003ccode\u003ej\u003c/code\u003e'th knot, if  \u003ccode\u003ei \u003c= j\u003c/code\u003e and both knots exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotSpan",
           "package": "splines",
@@ -1611,6 +1730,7 @@
         "index": {
           "description": "knotSpan kts returns the knot span extending from the th knot to the th knot if and both knots exist",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotSpan",
           "normalized": "Knots a-\u003eInt-\u003eInt-\u003eMaybe(a,a)",
@@ -1627,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eknotSpans kts width\u003c/code\u003e returns all knot spans of a given width in\n ascending order.\n\u003c/p\u003e\u003cp\u003eFor example, \u003ccode\u003eknotSpans (mkKnots [1..5]) 2\u003c/code\u003e yields \u003ccode\u003e[(1,3), (2,4), (3,5)]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotSpans",
           "package": "splines",
@@ -1637,6 +1758,7 @@
         "index": {
           "description": "knotSpans kts width returns all knot spans of given width in ascending order For example knotSpans mkKnots yields",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotSpans",
           "normalized": "Knots a-\u003eInt-\u003e[(a,a)]",
@@ -1679,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eknotsInSpan kts i j\u003c/code\u003e returns the knots in the knot span extending from\n the \u003ccode\u003ei\u003c/code\u003e'th knot to the \u003ccode\u003ej\u003c/code\u003e'th knot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotsInSpan",
           "package": "splines",
@@ -1689,6 +1812,7 @@
         "index": {
           "description": "knotsInSpan kts returns the knots in the knot span extending from the th knot to the th knot",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotsInSpan",
           "normalized": "Knots a-\u003eInt-\u003eInt-\u003eKnots a",
@@ -1705,6 +1829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a vector of all knots (not necessarily distinct) of a knot vector in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "knotsVector",
           "package": "splines",
@@ -1715,6 +1840,7 @@
         "index": {
           "description": "Returns vector of all knots not necessarily distinct of knot vector in ascending order",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "knotsVector",
           "normalized": "Knots a-\u003eVector a",
@@ -1730,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "lookupDistinctKnot",
           "package": "splines",
@@ -1739,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "lookupDistinctKnot",
           "normalized": "Int-\u003eKnots a-\u003eMaybe a",
@@ -1754,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "lookupKnot",
           "package": "splines",
@@ -1763,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "lookupKnot",
           "normalized": "Int-\u003eKnots a-\u003eMaybe a",
@@ -1778,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "maxKnot",
           "package": "splines",
@@ -1787,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "maxKnot",
           "normalized": "Knots a-\u003eMaybe(a,Int)",
@@ -1802,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "maxMultiplicity",
           "package": "splines",
@@ -1811,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "maxMultiplicity",
           "normalized": "Knots a-\u003eInt",
@@ -1826,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "minKnot",
           "package": "splines",
@@ -1835,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "minKnot",
           "normalized": "Knots a-\u003eMaybe(a,Int)",
@@ -1878,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a knot vector consisting of one knot with the specified multiplicity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "multipleKnot",
           "package": "splines",
@@ -1888,6 +2025,7 @@
         "index": {
           "description": "Create knot vector consisting of one knot with the specified multiplicity",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "multipleKnot",
           "normalized": "a-\u003eInt-\u003eKnots a",
@@ -1903,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "multiplicities",
           "package": "splines",
@@ -1912,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "multiplicities",
           "normalized": "Knots a-\u003e[Int]",
@@ -1926,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "multiplicitiesVector",
           "package": "splines",
@@ -1935,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "multiplicitiesVector",
           "normalized": "Knots a-\u003eVector Int",
@@ -1951,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of distinct knots in a knot vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "numDistinctKnots",
           "package": "splines",
@@ -1961,6 +2104,7 @@
         "index": {
           "description": "Returns the number of distinct knots in knot vector",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "numDistinctKnots",
           "normalized": "Knots a-\u003eInt",
@@ -1977,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of knots (not necessarily distinct) in a knot vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "numKnots",
           "package": "splines",
@@ -1987,6 +2132,7 @@
         "index": {
           "description": "Returns the number of knots not necessarily distinct in knot vector",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "numKnots",
           "normalized": "Knots a-\u003eInt",
@@ -2003,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a new knot vector with the given knot set to the specified \n multiplicity and all other knots unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "setKnotMultiplicity",
           "package": "splines",
@@ -2013,6 +2160,7 @@
         "index": {
           "description": "Returns new knot vector with the given knot set to the specified multiplicity and all other knots unchanged",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "setKnotMultiplicity",
           "normalized": "a-\u003eInt-\u003eKnots a-\u003eKnots a",
@@ -2028,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "splitDistinctKnotsAt",
           "package": "splines",
@@ -2037,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "splitDistinctKnotsAt",
           "normalized": "Int-\u003eKnots a-\u003e(Knots a,Knots a)",
@@ -2052,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "splitFind",
           "package": "splines",
@@ -2061,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "splitFind",
           "normalized": "a-\u003eKnots a-\u003e(Knots a,Knots a,Knots a)",
@@ -2076,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "splitKnotsAt",
           "package": "splines",
@@ -2085,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "splitKnotsAt",
           "normalized": "Int-\u003eKnots a-\u003e(Knots a,Knots a)",
@@ -2101,6 +2255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esplitLookup n kts\u003c/code\u003e: Split a knot vector \u003ccode\u003ekts\u003c/code\u003e into 3 parts \u003ccode\u003e(pre, mbKt, post)\u003c/code\u003e\n such that:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e All the keys in \u003ccode\u003epre\u003c/code\u003e, \u003ccode\u003embKt\u003c/code\u003e (viewed as a knot vector of either 0\n or 1 knot), and \u003ccode\u003epost\u003c/code\u003e are disjoint and ordered\n  * Putting the 3 parts back together yields exactly the original knot vector\n  * The \u003ccode\u003en\u003c/code\u003e'th knot, if one exists, will be in \u003ccode\u003embKt\u003c/code\u003e along with its multiplicity\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "splitLookup",
           "package": "splines",
@@ -2111,6 +2266,7 @@
         "index": {
           "description": "splitLookup kts Split knot vector kts into parts pre mbKt post such that All the keys in pre mbKt viewed as knot vector of either or knot and post are disjoint and ordered Putting the parts back together yields exactly the original knot vector The th knot if one exists will be in mbKt along with its multiplicity",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "splitLookup",
           "normalized": "Int-\u003eKnots a-\u003e(Knots a,Maybe a,Knots a)",
@@ -2126,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "takeDistinctKnots",
           "package": "splines",
@@ -2135,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "takeDistinctKnots",
           "normalized": "Int-\u003eKnots a-\u003eKnots a",
@@ -2150,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "takeKnots",
           "package": "splines",
@@ -2159,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "takeKnots",
           "normalized": "Int-\u003eKnots a-\u003eKnots a",
@@ -2175,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all distinct knots in ascending order along with\n their multiplicities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "toList",
           "package": "splines",
@@ -2185,6 +2346,7 @@
         "index": {
           "description": "Returns list of all distinct knots in ascending order along with their multiplicities",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "toList",
           "normalized": "Knots a-\u003e[(a,Int)]",
@@ -2200,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "toMap",
           "package": "splines",
@@ -2209,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "toMap",
           "normalized": "Knots a-\u003eMap a Int",
@@ -2224,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "toVector",
           "package": "splines",
@@ -2233,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "toVector",
           "normalized": "Knots a-\u003eVector(a,Int)",
@@ -2249,6 +2415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003euniform deg nPts (lo,hi)\u003c/code\u003e constructs a uniformly-spaced knot vector over\n the interval from \u003ccode\u003elo\u003c/code\u003e to \u003ccode\u003ehi\u003c/code\u003e which, when used to construct a B-spline \n with \u003ccode\u003enPts\u003c/code\u003e control points will yield a clamped spline with degree \u003ccode\u003edeg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "uniform",
           "package": "splines",
@@ -2259,6 +2426,7 @@
         "index": {
           "description": "uniform deg nPts lo hi constructs uniformly-spaced knot vector over the interval from lo to hi which when used to construct B-spline with nPts control points will yield clamped spline with degree deg",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "uniform",
           "normalized": "Int-\u003eInt-\u003e(a,a)-\u003eKnots a",
@@ -2274,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the internal consistency of a knot vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.Knots",
           "name": "valid",
           "package": "splines",
@@ -2284,6 +2453,7 @@
         "index": {
           "description": "Check the internal consistency of knot vector",
           "hierarchy": "Math Spline Knots",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.Knots",
           "name": "valid",
           "normalized": "Knots a-\u003eBool",
@@ -2298,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.MSpline",
           "name": "MSpline",
           "package": "splines",
@@ -2306,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Math Spline MSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.MSpline",
           "name": "MSpline",
           "package": "splines",
@@ -2320,6 +2492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eM-Splines are B-splines normalized so that the integral of each basis \n function over the spline domain is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline.MSpline",
           "name": "MSpline",
           "package": "splines",
@@ -2329,6 +2502,7 @@
         "index": {
           "description": "M-Splines are B-splines normalized so that the integral of each basis function over the spline domain is",
           "hierarchy": "Math Spline MSpline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline.MSpline",
           "name": "MSpline",
           "package": "splines",
@@ -2394,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "Spline",
           "package": "splines",
@@ -2402,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "Spline",
           "package": "splines",
@@ -2416,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA B-spline, defined by a knot vector (see \u003ccode\u003e\u003ca\u003eKnots\u003c/a\u003e\u003c/code\u003e) and a sequence of control points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "BSpline",
           "package": "splines",
@@ -2425,6 +2602,7 @@
         "index": {
           "description": "B-spline defined by knot vector see Knots and sequence of control points",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "BSpline",
           "package": "splines",
@@ -2439,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bezier curve on \u003ccode\u003e0 \u003c= x \u003c= 1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "BezierCurve",
           "package": "splines",
@@ -2448,6 +2627,7 @@
         "index": {
           "description": "Bezier curve on",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "BezierCurve",
           "package": "splines",
@@ -2462,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCubic Hermite splines.  These are cubic splines defined by a \n sequence of control points and derivatives at those points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "CSpline",
           "package": "splines",
@@ -2471,6 +2652,7 @@
         "index": {
           "description": "Cubic Hermite splines These are cubic splines defined by sequence of control points and derivatives at those points",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "CSpline",
           "package": "splines",
@@ -2484,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "ControlPoints",
           "package": "splines",
@@ -2492,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "ControlPoints",
           "package": "splines",
@@ -2506,6 +2690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe I-Spline basis functions are the integrals of the M-splines, or\n alternatively the integrals of the B-splines normalized to the range\n [0,1].  Every I-spline basis function increases monotonically from 0 to 1,\n thus it is useful as a basis for monotone functions.  An I-Spline curve\n is monotone if and only if every non-zero control point has the same sign.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "ISpline",
           "package": "splines",
@@ -2515,6 +2700,7 @@
         "index": {
           "description": "The I-Spline basis functions are the integrals of the M-splines or alternatively the integrals of the B-splines normalized to the range Every I-spline basis function increases monotonically from to thus it is useful as basis for monotone functions An I-Spline curve is monotone if and only if every non-zero control point has the same sign",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "ISpline",
           "package": "splines",
@@ -2529,6 +2715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKnot vectors - multisets of points in a 1-dimensional space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "Knots",
           "package": "splines",
@@ -2538,6 +2725,7 @@
         "index": {
           "description": "Knot vectors multisets of points in dimensional space",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "Knots",
           "package": "splines",
@@ -2552,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eM-Splines are B-splines normalized so that the integral of each basis \n function over the spline domain is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "MSpline",
           "package": "splines",
@@ -2561,6 +2750,7 @@
         "index": {
           "description": "M-Splines are B-splines normalized so that the integral of each basis function over the spline domain is",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "MSpline",
           "package": "splines",
@@ -2575,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA spline is a piecewise polynomial vector-valued function.  The necessary\n and sufficient instance definition is \u003ccode\u003e\u003ca\u003etoBSpline\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "Spline",
           "package": "splines",
@@ -2584,6 +2775,7 @@
         "index": {
           "description": "spline is piecewise polynomial vector-valued function The necessary and sufficient instance definition is toBSpline",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "Spline",
           "package": "splines",
@@ -2597,6 +2789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "controlPoints",
           "package": "splines",
@@ -2606,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "controlPoints",
           "normalized": "a b-\u003eVector b",
@@ -2621,6 +2815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "evalSpline",
           "package": "splines",
@@ -2630,6 +2825,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "evalSpline",
           "normalized": "a b-\u003eScalar b-\u003eb",
@@ -2645,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "knotVector",
           "package": "splines",
@@ -2654,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "knotVector",
           "normalized": "a b-\u003eKnots(Scalar b)",
@@ -2669,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "splineDegree",
           "package": "splines",
@@ -2678,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "splineDegree",
           "normalized": "a b-\u003eInt",
@@ -2694,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the domain of a spline.  In the case of B-splines, this is\n the domain on which a spline with this degree and knot vector has a \n full basis set.  In other cases, it should be no larger than \n \u003ccode\u003esplineDomain . toBSpline\u003c/code\u003e, but may be smaller.  Within this domain,\n \u003ccode\u003e\u003ca\u003eevalSpline\u003c/a\u003e\u003c/code\u003e should agree with \u003ccode\u003e\u003ccode\u003e\u003ca\u003eevalSpline\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003etoBSpline\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e (not \n necessarily exactly, but up to reasonable expectations of numerical \n accuracy).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "splineDomain",
           "package": "splines",
@@ -2704,6 +2905,7 @@
         "index": {
           "description": "Returns the domain of spline In the case of B-splines this is the domain on which spline with this degree and knot vector has full basis set In other cases it should be no larger than splineDomain toBSpline but may be smaller Within this domain evalSpline should agree with evalSpline toBSpline not necessarily exactly but up to reasonable expectations of numerical accuracy",
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "splineDomain",
           "normalized": "a b-\u003eMaybe(Scalar b,Scalar b)",
@@ -2719,6 +2921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:31 UTC 2014",
           "module": "Math.Spline",
           "name": "toBSpline",
           "package": "splines",
@@ -2728,6 +2931,7 @@
         },
         "index": {
           "hierarchy": "Math Spline",
+          "indexed": "2014-03-11T20:08:31",
           "module": "Math.Spline",
           "name": "toBSpline",
           "normalized": "a b-\u003eBSpline Vector b",

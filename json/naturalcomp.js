@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "naturalcomp"
+        "phrase": "naturalcomp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type class that have methods \u003ccode\u003euncons\u003c/code\u003e and \u003ccode\u003etoString\u003c/code\u003e, so that we\n   can handle them as String-like objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp.Stringy",
           "name": "Stringy",
           "package": "naturalcomp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type class that have methods uncons and toString so that we can handle them as String-like objects",
           "hierarchy": "Text NaturalComp Stringy",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp.Stringy",
           "name": "Stringy",
           "package": "naturalcomp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp.Stringy",
           "name": "Stringy",
           "package": "naturalcomp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text NaturalComp Stringy",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp.Stringy",
           "name": "Stringy",
           "package": "naturalcomp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp.Stringy",
           "name": "toString",
           "package": "naturalcomp",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text NaturalComp Stringy",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp.Stringy",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp.Stringy",
           "name": "uncons",
           "package": "naturalcomp",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text NaturalComp Stringy",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp.Stringy",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNatural order string comparison is needed when e.g. one wants to compare\n   file names or strings of software version.  It's aimed to be compatible\n   to glibc's strverscmp() function.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp",
           "name": "NaturalComp",
           "package": "naturalcomp",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Natural order string comparison is needed when e.g one wants to compare file names or strings of software version It aimed to be compatible to glibc strverscmp function",
           "hierarchy": "Text NaturalComp",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp",
           "name": "NaturalComp",
           "package": "naturalcomp",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enatural order and case-insensitive string comparison\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp",
           "name": "naturalCaseComp",
           "package": "naturalcomp",
@@ -143,6 +154,7 @@
         "index": {
           "description": "natural order and case-insensitive string comparison",
           "hierarchy": "Text NaturalComp",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp",
           "name": "naturalCaseComp",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enatural order string comparison, compatible to glibc's strverscmp()\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp",
           "name": "naturalComp",
           "package": "naturalcomp",
@@ -169,6 +182,7 @@
         "index": {
           "description": "natural order string comparison compatible to glibc strverscmp",
           "hierarchy": "Text NaturalComp",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp",
           "name": "naturalComp",
           "normalized": "a-\u003ea-\u003eOrdering",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enatural order string comparison, with user-specified function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:19 UTC 2014",
           "module": "Text.NaturalComp",
           "name": "naturalCompBy",
           "package": "naturalcomp",
@@ -195,6 +210,7 @@
         "index": {
           "description": "natural order string comparison with user-specified function",
           "hierarchy": "Text NaturalComp",
+          "indexed": "2014-03-11T19:26:19",
           "module": "Text.NaturalComp",
           "name": "naturalCompBy",
           "normalized": "(Char-\u003eChar-\u003eOrdering)-\u003ea-\u003ea-\u003eOrdering",

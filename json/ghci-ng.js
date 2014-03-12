@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ghci-ng"
+        "phrase": "ghci-ng",
+        "type": "phrase"
       },
       "type": "context"
     }

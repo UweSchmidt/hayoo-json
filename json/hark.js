@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hark"
+        "phrase": "hark",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TreeT"
+        "phrase": "TreeT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:48 UTC 2014",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control TreeT",
+          "indexed": "2014-03-11T17:02:48",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:48 UTC 2014",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control TreeT",
+          "indexed": "2014-03-11T17:02:48",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:48 UTC 2014",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control TreeT",
+          "indexed": "2014-03-11T17:02:48",
           "module": "Control.TreeT",
           "name": "TreeT",
           "package": "TreeT",

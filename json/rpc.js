@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rpc"
+        "phrase": "rpc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Data.Serialize.Send",
           "name": "Send",
           "package": "rpc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize Send",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Data.Serialize.Send",
           "name": "Send",
           "package": "rpc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserializes an object to the given handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Data.Serialize.Send",
           "name": "hDeserialize",
           "package": "rpc",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Deserializes an object to the given handle",
           "hierarchy": "Data Serialize Send",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Data.Serialize.Send",
           "name": "hDeserialize",
           "normalized": "Handle-\u003eIO a",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes an object to the given handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Data.Serialize.Send",
           "name": "hSerialize",
           "package": "rpc",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Serializes an object to the given handle",
           "hierarchy": "Data Serialize Send",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Data.Serialize.Send",
           "name": "hSerialize",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "Client",
           "package": "rpc",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "Client",
           "package": "rpc",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "Address",
           "package": "rpc",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "Address",
           "package": "rpc",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, either IPv4 or IPv6.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "IP",
           "package": "rpc",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Host name and port either IPv4 or IPv6",
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "IP",
           "package": "rpc",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, only IPv4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "IPv4",
           "package": "rpc",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Host name and port only IPv4",
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "IPv4",
           "package": "rpc",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name and port, only IPv6\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "IPv6",
           "package": "rpc",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Host name and port only IPv6",
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "IPv6",
           "package": "rpc",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal unix socket, not supported on Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "Unix",
           "package": "rpc",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Local unix socket not supported on Windows",
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "Unix",
           "package": "rpc",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplices in rpc calls to a given IP.  Function names and types will remain the same as\n on the server side, with the result encapsulated in the IO monad.  Usage:\n\u003c/p\u003e\u003cpre\u003e    $(fetch (IP \"127.0.0.1\" 9000))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Client",
           "name": "fetch",
           "package": "rpc",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Splices in rpc calls to given IP Function names and types will remain the same as on the server side with the result encapsulated in the IO monad Usage fetch IP",
           "hierarchy": "Network RPC Client",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Client",
           "name": "fetch",
           "normalized": "Address-\u003eQ[Dec]",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Server",
           "name": "Server",
           "package": "rpc",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Network RPC Server",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Server",
           "name": "Server",
           "package": "rpc",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate haskell magic to share a set of functions on a given port to be spliced into a main declaration.  \n This function never returns.  For example:\n\u003c/p\u003e\u003cpre\u003e    main = $(share 9000 [ 'fn1, 'fn2, 'fn3 ])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:29 UTC 2014",
           "module": "Network.RPC.Server",
           "name": "share",
           "package": "rpc",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Template haskell magic to share set of functions on given port to be spliced into main declaration This function never returns For example main share fn1 fn2 fn3",
           "hierarchy": "Network RPC Server",
+          "indexed": "2014-03-11T19:55:29",
           "module": "Network.RPC.Server",
           "name": "share",
           "normalized": "Int-\u003e[Name]-\u003eQ Exp",

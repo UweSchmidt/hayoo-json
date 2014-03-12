@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-cnc"
+        "phrase": "haskell-cnc",
+        "type": "phrase"
       },
       "type": "context"
     }

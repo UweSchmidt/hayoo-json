@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "treemap-html-tools"
+        "phrase": "treemap-html-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

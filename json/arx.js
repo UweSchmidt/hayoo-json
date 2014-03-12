@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arx"
+        "phrase": "arx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe CLTokens module describes non-overlapping classes of strings that are\n    useful for disambiguating arguments to command line programs. Many common\n    string formats -- environment variable assignments, URLs, option strings --\n    are recognized by this module's utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "CLTokens",
           "package": "arx",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The CLTokens module describes non-overlapping classes of strings that are useful for disambiguating arguments to command line programs Many common string formats environment variable assignments URLs option strings are recognized by this module utilities",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "CLTokens",
           "package": "arx",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-overlapping classes of command line argument strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Class",
           "package": "arx",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Non-overlapping classes of command line argument strings",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Class",
           "package": "arx",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDash\u003c/a\u003e\u003c/code\u003e is a single dash, \u003ccode\u003e-\u003c/code\u003e, commonly used\n   to indicate input from \u003ccode\u003estdin\u003c/code\u003e or output to\n   \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Dash",
           "package": "arx",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Dash is single dash commonly used to indicate input from stdin or output to stdout",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Dash",
           "package": "arx",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDashDash\u003c/a\u003e\u003c/code\u003e is a string of two dashes, \u003ccode\u003e--\u003c/code\u003e,\n   commonly used to indicate the end of options\n   processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "DashDash",
           "package": "arx",
@@ -99,6 +106,7 @@
         "index": {
           "description": "DashDash is string of two dashes commonly used to indicate the end of options processing",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "DashDash",
           "package": "arx",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eDecimalNum\u003c/a\u003e\u003c/code\u003e is a string of decimal digits:\n   \u003ccode\u003e123123\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "DecimalNum",
           "package": "arx",
@@ -123,6 +132,7 @@
         "index": {
           "description": "DecimalNum is string of decimal digits",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "DecimalNum",
           "package": "arx",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eEnvBinding\u003c/a\u003e\u003c/code\u003e has the form\n   \u003ccode\u003e\u003ca\u003evar name\u003c/a\u003e=\u003ca\u003estring\u003c/a\u003e\u003c/code\u003e. For example,\n   \u003ccode\u003eSENDIN=the_clowns\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "EnvBinding",
           "package": "arx",
@@ -147,6 +158,7 @@
         "index": {
           "description": "An EnvBinding has the form var name string For example SENDIN the clowns",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "EnvBinding",
           "package": "arx",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eHexNum\u003c/a\u003e\u003c/code\u003e is a sequence of hexadecimal\n   digits, upper or lower case, beginning with\n   \u003ccode\u003e0x\u003c/code\u003e; for example: \u003ccode\u003e0x01a3\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "HexNum",
           "package": "arx",
@@ -171,6 +184,7 @@
         "index": {
           "description": "HexNum is sequence of hexadecimal digits upper or lower case beginning with for example x01a3",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "HexNum",
           "package": "arx",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eLongOption\u003c/a\u003e\u003c/code\u003e is a string beginning with two\n   dashes and then at least one non-dash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "LongOption",
           "package": "arx",
@@ -195,6 +210,7 @@
         "index": {
           "description": "LongOption is string beginning with two dashes and then at least one non-dash",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "LongOption",
           "package": "arx",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eQualifiedPath\u003c/a\u003e\u003c/code\u003e is a file path starting with\n   \u003ccode\u003e\u003cem\u003e@, @.\u003c/em\u003e\u003c/code\u003e, or \u003ccode\u003e../\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "QualifiedPath",
           "package": "arx",
@@ -219,6 +236,7 @@
         "index": {
           "description": "QualifiedPath is file path starting with or",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "QualifiedPath",
           "package": "arx",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eShortOption\u003c/a\u003e\u003c/code\u003e is a beginning with a dash and\n   then at least one non-dash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "ShortOption",
           "package": "arx",
@@ -243,6 +262,7 @@
         "index": {
           "description": "ShortOption is beginning with dash and then at least one non-dash",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "ShortOption",
           "package": "arx",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSize\u003c/a\u003e\u003c/code\u003e is a decimal number followed by a\n   multiplicative suffix, in the manner of \u003ccode\u003edd\u003c/code\u003e\n   or \u003ccode\u003ehead\u003c/code\u003e. Note that counts in terms of bytes\n   require \u003ccode\u003eB\u003c/code\u003e (unlike \u003ccode\u003edd\u003c/code\u003e or \u003ccode\u003ehead\u003c/code\u003e). For a\n   full list of suffixes, see \u003ccode\u003e\u003ca\u003esizes\u003c/a\u003e\u003c/code\u003e below.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Size",
           "package": "arx",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Size is decimal number followed by multiplicative suffix in the manner of dd or head Note that counts in terms of bytes require unlike dd or head For full list of suffixes see sizes below",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "Size",
           "package": "arx",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eURL\u003c/a\u003e\u003c/code\u003e is a scheme, separated from the\n   resource, represented as an arbitrary string,\n   by \u003ccode\u003e:\u003cem/\u003e\u003c/code\u003e. The scheme consists of ASCII,\n   lower-case letters and digits, and may be\n   multi-part, with each part separated by a \u003ccode\u003e+\u003c/code\u003e\n   or \u003ccode\u003e/\u003c/code\u003e (for example, \u003ccode\u003egit+ssh\u003c/code\u003e). An example\n   URL: \u003ccode\u003ehttp:\u003cem/\u003eexample.com/?q=special\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "URL",
           "package": "arx",
@@ -291,6 +314,7 @@
         "index": {
           "description": "URL is scheme separated from the resource represented as an arbitrary string by The scheme consists of ASCII lower-case letters and digits and may be multi-part with each part separated by or for example git ssh An example URL http example.com special",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "URL",
           "package": "arx",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ByteString stand-in that demoes each token class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "exemplar",
           "package": "arx",
@@ -315,6 +340,7 @@
         "index": {
           "description": "ByteString stand-in that demoes each token class",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "exemplar",
           "normalized": "Class-\u003eByteString",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isHexDigit",
           "package": "arx",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isHexDigit",
           "normalized": "Char-\u003eBool",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isLongOptionChar",
           "package": "arx",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isLongOptionChar",
           "normalized": "Char-\u003eBool",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isSchemeChar",
           "package": "arx",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isSchemeChar",
           "normalized": "Char-\u003eBool",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isShortOptionChar",
           "package": "arx",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isShortOptionChar",
           "normalized": "Char-\u003eBool",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isURLSchemeChar",
           "package": "arx",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "isURLSchemeChar",
           "normalized": "Char-\u003eBool",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a particular \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e matches the given \u003ccode\u003e\u003ca\u003eClass\u003c/a\u003e\u003c/code\u003e of token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "match",
           "package": "arx",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Determine if particular ByteString matches the given Class of token",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "match",
           "normalized": "Class-\u003eByteString-\u003eBool",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if a particular \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e matches any \u003ccode\u003e\u003ca\u003eClass\u003c/a\u003e\u003c/code\u003e of token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "recognize",
           "package": "arx",
@@ -485,6 +524,7 @@
         "index": {
           "description": "Determine if particular ByteString matches any Class of token",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "recognize",
           "normalized": "ByteString-\u003eMaybe Class",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe recognizer appropriate to each token class. Parses successfully if a\n    the token class is recognized, returning '()'. Most token types are\n    defined in terms of a prefix of the input -- for example, \u003ccode\u003e\u003ca\u003eQualifiedPath\u003c/a\u003e\u003c/code\u003e\n    -- and the parsers for these tokens naturally return as soon as the prefix\n    is recognized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "recognizer",
           "package": "arx",
@@ -510,6 +551,7 @@
         "index": {
           "description": "The recognizer appropriate to each token class Parses successfully if the token class is recognized returning Most token types are defined in terms of prefix of the input for example QualifiedPath and the parsers for these tokens naturally return as soon as the prefix is recognized",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "recognizer",
           "normalized": "Class-\u003eParser()",
@@ -524,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "schemeSeparator",
           "package": "arx",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "schemeSeparator",
           "package": "arx",
@@ -547,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a size, consuming the entire input string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "size",
           "package": "arx",
@@ -557,6 +602,7 @@
         "index": {
           "description": "Parse size consuming the entire input string",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "size",
           "package": "arx",
@@ -570,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a size, consuming the entire input string, with the final result\n    bounded by the maximum of a \u003ccode\u003e\u003ca\u003eBounded\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "sizeBounded",
           "package": "arx",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Parse size consuming the entire input string with the final result bounded by the maximum of Bounded type",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "sizeBounded",
           "package": "arx",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from suffixes to sizes, following the conventions of command line\n    tools (GNU \u003ccode\u003edd\u003c/code\u003e or \u003ccode\u003ehead\u003c/code\u003e and many others) as well as the standard for\n    binary sizes established by the IEC.\n\u003ccode\u003e\n  B       =    1\n  K = KiB = 1024B   kB = 1000B\n  M = MiB = 1024K   MB = 1000kB\n  G = GiB = 1024M   GB = 1000MB\n  T = TiB = 1024G   TB = 1000GB\n  P = PiB = 1024T   PB = 1000TB\n  E = EiB = 1024P   EB = 1000PB\n  Z = ZiB = 1024E   ZB = 1000EB\n  Y = YiB = 1024Z   YB = 1000ZB\n\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "sizes",
           "package": "arx",
@@ -604,6 +653,7 @@
         "index": {
           "description": "map from suffixes to sizes following the conventions of command line tools GNU dd or head and many others as well as the standard for binary sizes established by the IEC KiB kB MiB MB kB GiB GB MB TiB TB GB PiB PB TB EiB EB PB ZiB ZB EB YiB YB ZB",
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "sizes",
           "package": "arx",
@@ -616,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "varBody",
           "package": "arx",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "varBody",
           "normalized": "Char-\u003eBool",
@@ -640,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "varFirst",
           "package": "arx",
@@ -649,6 +702,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI CLTokens",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.CLTokens",
           "name": "varFirst",
           "normalized": "Char-\u003eBool",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "Options",
           "package": "arx",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "Options",
           "package": "arx",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ArgsParser",
           "package": "arx",
@@ -693,6 +750,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ArgsParser",
           "package": "arx",
@@ -707,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source of bytes (no writing, only reading).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ByteSource",
           "package": "arx",
@@ -716,6 +775,7 @@
         "index": {
           "description": "source of bytes no writing only reading",
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ByteSource",
           "package": "arx",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA byte-oriented store that can be read from or written to in a streaming\n    fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "IOStream",
           "package": "arx",
@@ -739,6 +800,7 @@
         "index": {
           "description": "byte-oriented store that can be read from or written to in streaming fashion",
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "IOStream",
           "package": "arx",
@@ -752,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "(\u003c@\u003e)",
           "package": "arx",
@@ -761,6 +824,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "Parser a-\u003eArgsParser ByteString-\u003eArgsParser a",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ByteString",
           "package": "arx",
@@ -784,6 +849,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ByteString",
           "package": "arx",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "IOStream",
           "package": "arx",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "IOStream",
           "package": "arx",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "Path",
           "package": "arx",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "Path",
           "package": "arx",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "STDIO",
           "package": "arx",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "STDIO",
           "package": "arx",
@@ -863,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "anyArg",
           "package": "arx",
@@ -872,6 +945,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "anyArg",
           "package": "arx",
@@ -885,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "arg",
           "package": "arx",
@@ -894,6 +969,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "arg",
           "normalized": "ByteString-\u003eArgsParser ByteString",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "argPrim",
           "package": "arx",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "argPrim",
           "normalized": "(ByteString-\u003eMaybe a)-\u003eArgsParser a",
@@ -932,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "blockSize",
           "package": "arx",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "blockSize",
           "package": "arx",
@@ -954,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "cmd",
           "package": "arx",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "cmd",
           "normalized": "ByteString-\u003eArgsParser ByteSource",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "env",
           "package": "arx",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "env",
           "normalized": "ArgsParser(Var,Val)",
@@ -1000,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ioStream",
           "package": "arx",
@@ -1009,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "ioStream",
           "package": "arx",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "outputFile",
           "package": "arx",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "outputFile",
           "package": "arx",
@@ -1044,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "qPath",
           "package": "arx",
@@ -1053,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "qPath",
           "package": "arx",
@@ -1066,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "rm",
           "package": "arx",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "rm",
           "normalized": "ArgsParser(Bool,Bool)",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "satisfy",
           "package": "arx",
@@ -1098,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "satisfy",
           "normalized": "(ByteString-\u003eBool)-\u003eArgsParser ByteString",
@@ -1112,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "scriptToRun",
           "package": "arx",
@@ -1121,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "scriptToRun",
           "package": "arx",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "shdat",
           "package": "arx",
@@ -1143,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "shdat",
           "normalized": "ArgsParser([Word],[IOStream],[IOStream])",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "slashes",
           "package": "arx",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "slashes",
           "package": "arx",
@@ -1178,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "tmpx",
           "package": "arx",
@@ -1187,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "tmpx",
           "normalized": "ArgsParser([Word],[IOStream],[IOStream],[(Var,Val)],[(Bool,Bool)],[ByteSource])",
@@ -1201,6 +1303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "tokCL",
           "package": "arx",
@@ -1210,6 +1313,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI Options",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI.Options",
           "name": "tokCL",
           "normalized": "Class-\u003eArgsParser ByteString",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "CLI",
           "package": "arx",
@@ -1233,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "CLI",
           "package": "arx",
@@ -1246,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "ZOM",
           "package": "arx",
@@ -1254,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "ZOM",
           "package": "arx",
@@ -1267,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "Many",
           "package": "arx",
@@ -1276,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "Many",
           "normalized": "Many[ByteString]",
@@ -1291,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "One",
           "package": "arx",
@@ -1300,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "One",
           "package": "arx",
@@ -1313,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "Zero",
           "package": "arx",
@@ -1322,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "Zero",
           "package": "arx",
@@ -1335,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "arIOStream",
           "package": "arx",
@@ -1344,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "arIOStream",
           "normalized": "IOStream-\u003eIO(Maybe(Tar,ByteString))",
@@ -1359,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "blockMessage",
           "package": "arx",
@@ -1368,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "blockMessage",
           "normalized": "ByteString-\u003e[ByteString]-\u003eByteString-\u003eByteString",
@@ -1384,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBy default, we encode binary data to HERE docs 4MiB at a time. (The\n    encoded result may be up to 10% larger, though 1% is more likely.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "defaultBlock",
           "package": "arx",
@@ -1394,6 +1513,7 @@
         "index": {
           "description": "By default we encode binary data to HERE docs MiB at time The encoded result may be up to larger though is more likely",
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "defaultBlock",
           "package": "arx",
@@ -1408,6 +1528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default task is a no-op call to \u003ccode\u003e/bin/true\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "defaultTask",
           "package": "arx",
@@ -1418,6 +1539,7 @@
         "index": {
           "description": "The default task is no-op call to bin true",
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "defaultTask",
           "package": "arx",
@@ -1431,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "die",
           "package": "arx",
@@ -1440,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "die",
           "normalized": "ByteString-\u003eIO a",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "err",
           "package": "arx",
@@ -1463,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "err",
           "normalized": "ByteString-\u003eIO()",
@@ -1477,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "inIOStream",
           "package": "arx",
@@ -1486,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "inIOStream",
           "normalized": "IOStream-\u003eIO ByteString",
@@ -1502,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun CLI tool, processing arguments and options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "main",
           "package": "arx",
@@ -1512,6 +1641,7 @@
         "index": {
           "description": "Run CLI tool processing arguments and options",
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "main",
           "normalized": "IO()",
@@ -1526,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "openByteSource",
           "package": "arx",
@@ -1535,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "openByteSource",
           "normalized": "ByteSource-\u003eIO ByteString",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "outIOStream",
           "package": "arx",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "outIOStream",
           "normalized": "IOStream-\u003eByteString-\u003eIO()",
@@ -1574,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "shdatCheckStreams",
           "package": "arx",
@@ -1583,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "shdatCheckStreams",
           "normalized": "[IOStream]-\u003eMaybe ByteString",
@@ -1599,6 +1735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply defaulting and overrides appropriate to \u003ccode\u003e\u003ca\u003eSHDAT\u003c/a\u003e\u003c/code\u003e programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "shdatResolve",
           "package": "arx",
@@ -1609,6 +1746,7 @@
         "index": {
           "description": "Apply defaulting and overrides appropriate to SHDAT programs",
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "shdatResolve",
           "normalized": "([Word],[IOStream],[IOStream])-\u003e(Word,IOStream,[IOStream])",
@@ -1624,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "streamsMessage",
           "package": "arx",
@@ -1633,6 +1772,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "streamsMessage",
           "normalized": "[ZOM]-\u003eMaybe ByteString",
@@ -1648,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxCheckStreams",
           "package": "arx",
@@ -1657,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxCheckStreams",
           "normalized": "[IOStream]-\u003eByteSource-\u003eMaybe ByteString",
@@ -1672,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxOpen",
           "package": "arx",
@@ -1681,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxOpen",
           "normalized": "Word-\u003e[(Var,Val)]-\u003e(Bool,Bool)-\u003eByteSource-\u003eIO TMPX",
@@ -1697,6 +1841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply defaulting and overrides appropriate to \u003ccode\u003e\u003ca\u003eTMPX\u003c/a\u003e\u003c/code\u003e programs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxResolve",
           "package": "arx",
@@ -1707,6 +1852,7 @@
         "index": {
           "description": "Apply defaulting and overrides appropriate to TMPX programs",
           "hierarchy": "System Posix ARX CLI",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.CLI",
           "name": "tmpxResolve",
           "normalized": "([Word],[IOStream],[IOStream],[(Var,Val)],[(Bool,Bool)],[ByteSource])-\u003e(Word,IOStream,[IOStream],[(Var,Val)],(Bool,Bool),ByteSource)",
@@ -1723,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for encoding arbitrary data as Bourne shell fragments that\n    stream the data to standard output, using HERE documents and simple shell\n    decoders.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "HEREDat",
           "package": "arx",
@@ -1732,6 +1879,7 @@
         "index": {
           "description": "Utilities for encoding arbitrary data as Bourne shell fragments that stream the data to standard output using HERE documents and simple shell decoders",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "HEREDat",
           "package": "arx",
@@ -1746,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chunk describes a block of binary data ready for inclusion in a shell\n    script. For many data blocks, no encoding or decoding is necessary; these\n    are stored in a \u003ccode\u003e\u003ca\u003eSafeChunk\u003c/a\u003e\u003c/code\u003e. Those blocks needing byte-translation are\n    stored in an \u003ccode\u003e\u003ca\u003eEncodedChunk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "Chunk",
           "package": "arx",
@@ -1755,6 +1904,7 @@
         "index": {
           "description": "chunk describes block of binary data ready for inclusion in shell script For many data blocks no encoding or decoding is necessary these are stored in SafeChunk Those blocks needing byte-translation are stored in an EncodedChunk",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "Chunk",
           "package": "arx",
@@ -1768,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EscapeChar",
           "package": "arx",
@@ -1776,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EscapeChar",
           "package": "arx",
@@ -1789,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EncodedChunk",
           "package": "arx",
@@ -1798,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EncodedChunk",
           "package": "arx",
@@ -1811,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EscapeChar",
           "package": "arx",
@@ -1820,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "EscapeChar",
           "package": "arx",
@@ -1833,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "SafeChunk",
           "package": "arx",
@@ -1842,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "SafeChunk",
           "package": "arx",
@@ -1856,6 +2014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a string safe for inclusion in a shell HERE\n    document and annotates with information to construct a shell decoder for\n    that document, if necessary.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e with nulls is rewritten in a complicated way. Two escape\n    characters are chosen from a class of ASCII printable characters that look\n    like reasonable escape characters; the two that show up least frequently\n    in the document (including 0 times) become the null replacer and the\n    escaper. All instances of these two characters are rewritten to escape\n    sequences formed with the escaper, while nulls are rewritten to the null\n    replacer. Given the two characters thus chosen, a command line with \u003ccode\u003etr\u003c/code\u003e\n    and \u003ccode\u003esed\u003c/code\u003e in sequence can be constructed to decode the document.\n\u003c/p\u003e\u003cp\u003eThis encoding doubles the amount of space consumed by the escape\n    characters. In the worst case, where the data is made of all 20 potential\n    escapes, evenly distributed, and one null (so we can't punt on escaping),\n    the data will grow in size by 10 percent. For data that is more evenly\n    distributed over the bytes -- as we might expect of compressed tarballs --\n    we expect a size growth of two 256ths, or less than 0.8 percent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "chunk",
           "package": "arx",
@@ -1866,6 +2025,7 @@
         "index": {
           "description": "Converts ByteString into string safe for inclusion in shell HERE document and annotates with information to construct shell decoder for that document if necessary ByteString with nulls is rewritten in complicated way Two escape characters are chosen from class of ASCII printable characters that look like reasonable escape characters the two that show up least frequently in the document including times become the null replacer and the escaper All instances of these two characters are rewritten to escape sequences formed with the escaper while nulls are rewritten to the null replacer Given the two characters thus chosen command line with tr and sed in sequence can be constructed to decode the document This encoding doubles the amount of space consumed by the escape characters In the worst case where the data is made of all potential escapes evenly distributed and one null so we can punt on escaping the data will grow in size by percent For data that is more evenly distributed over the bytes as we might expect of compressed tarballs we expect size growth of two ths or less than percent",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "chunk",
           "normalized": "ByteString-\u003eChunk",
@@ -1881,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the byte used to replace nulls and the escape byte, undoes the result\n    of the encode operation -- rewriting null replacers to literal nulls and\n    escape patterns to the original bytes. This function is not intended to be\n    used in practice -- it will be shell commands that unpack the data -- but\n    serves to document the ideas behind decoding as well as offering a way to\n    check the encoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "decode",
           "package": "arx",
@@ -1891,6 +2052,7 @@
         "index": {
           "description": "Given the byte used to replace nulls and the escape byte undoes the result of the encode operation rewriting null replacers to literal nulls and escape patterns to the original bytes This function is not intended to be used in practice it will be shell commands that unpack the data but serves to document the ideas behind decoding as well as offering way to check the encoder",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "decode",
           "normalized": "Word-\u003eWord-\u003eByteString-\u003eByteString",
@@ -1906,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a byte to replace nulls and an escape byte, rewrites the data such\n    that nulls are mapped to the replace byte, replace bytes are mapped to a\n    pair of escape bytes and the escape byte is is mapped to an escape byte\n    followed by an underscore. For example, if the null replace byte is \u003ccode\u003e!\u003c/code\u003e\n    and the escape byte is \u003ccode\u003e#\u003c/code\u003e then all nulls become \u003ccode\u003e!\u003c/code\u003e, any \u003ccode\u003e!\u003c/code\u003e become\n    \u003ccode\u003e##\u003c/code\u003e and all \u003ccode\u003e#\u003c/code\u003e become \u003ccode\u003e#_\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis escaping scheme is dictated by the needs of our Sed decoder, which is\n    just two global substitions, one after another. If the escaping were such\n    that, with our characters above, \u003ccode\u003e#\u003c/code\u003e escaped to \u003ccode\u003e##\u003c/code\u003e and \u003ccode\u003e!\u003c/code\u003e to \u003ccode\u003e#_\u003c/code\u003e,\n    then \u003ccode\u003e#_\u003c/code\u003e in the input becomes \u003ccode\u003e##_\u003c/code\u003e. We want to run the subsitution\n    for \u003ccode\u003e#\u003c/code\u003e first, to catch this; it produces \u003ccode\u003e#_\u003c/code\u003e; then Sed feeds the input\n    to the second substitution which unfortunately renders \u003ccode\u003e!\u003c/code\u003e. In the\n    alternate scheme, the input is encoded \u003ccode\u003e#__\u003c/code\u003e, the \u003ccode\u003e!\u003c/code\u003e decoder runs first\n    and ignores it, then the \u003ccode\u003e#\u003c/code\u003e decoder runs and catches it. When using a\n    pipeline of stream processors to interpret escape sequences, it seems best\n    to ensure that only the very last processor inserts escape characters, to\n    prevent their further interpretation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "encode",
           "package": "arx",
@@ -1916,6 +2079,7 @@
         "index": {
           "description": "Given byte to replace nulls and an escape byte rewrites the data such that nulls are mapped to the replace byte replace bytes are mapped to pair of escape bytes and the escape byte is is mapped to an escape byte followed by an underscore For example if the null replace byte is and the escape byte is then all nulls become any become and all become This escaping scheme is dictated by the needs of our Sed decoder which is just two global substitions one after another If the escaping were such that with our characters above escaped to and to then in the input becomes We want to run the subsitution for first to catch this it produces then Sed feeds the input to the second substitution which unfortunately renders In the alternate scheme the input is encoded the decoder runs first and ignores it then the decoder runs and catches it When using pipeline of stream processors to interpret escape sequences it seems best to ensure that only the very last processor inserts escape characters to prevent their further interpretation",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "encode",
           "normalized": "Word-\u003eWord-\u003eByteString-\u003eByteString",
@@ -1931,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to determine whether data is represented as an encoded chunk or\n    is unencoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "encoded",
           "package": "arx",
@@ -1941,6 +2106,7 @@
         "index": {
           "description": "Predicate to determine whether data is represented as an encoded chunk or is unencoded",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "encoded",
           "normalized": "Chunk-\u003eBool",
@@ -1956,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe candidate escape characters, with the forms to be used in constructed\n    \u003ccode\u003etr\u003c/code\u003e and \u003ccode\u003esed\u003c/code\u003e commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "escapes",
           "package": "arx",
@@ -1966,6 +2133,7 @@
         "index": {
           "description": "The candidate escape characters with the forms to be used in constructed tr and sed commands",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "escapes",
           "normalized": "[EscapeChar]",
@@ -1981,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMany binary strings can be embedded as-is in a HEREDOC, without escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "safeForHereDoc",
           "package": "arx",
@@ -1991,6 +2160,7 @@
         "index": {
           "description": "Many binary strings can be embedded as-is in HEREDOC without escaping",
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "safeForHereDoc",
           "normalized": "ByteString-\u003eBool",
@@ -2006,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.HEREDat",
           "name": "script",
           "package": "arx",
@@ -2015,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX HEREDat",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.HEREDat",
           "name": "script",
           "normalized": "Chunk-\u003eBuilder",
@@ -2029,6 +2201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Programs",
           "name": "Programs",
           "package": "arx",
@@ -2037,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Programs",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Programs",
           "name": "Programs",
           "package": "arx",
@@ -2051,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARX subprograms process some input to produce a script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Programs",
           "name": "ARX",
           "package": "arx",
@@ -2060,6 +2235,7 @@
         "index": {
           "description": "ARX subprograms process some input to produce script",
           "hierarchy": "System Posix ARX Programs",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Programs",
           "name": "ARX",
           "package": "arx",
@@ -2074,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eSHDAT\u003c/a\u003e\u003c/code\u003e program processes byte streams with the specified chunking to\n    produce a script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Programs",
           "name": "SHDAT",
           "package": "arx",
@@ -2083,6 +2260,7 @@
         "index": {
           "description": "An SHDAT program processes byte streams with the specified chunking to produce script",
           "hierarchy": "System Posix ARX Programs",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Programs",
           "name": "SHDAT",
           "package": "arx",
@@ -2097,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTMPX\u003c/a\u003e\u003c/code\u003e program archives streams to produce a script that unpacks the\n    file data in a temporary location and runs the command with the attached\n    environment information in that location. The command may be any\n    executable file contents, modulo architectural compatibility. It is\n    written along side the temporary work location, to ensure it does not\n    collide with any files in the archive. The two boolean flags determine\n    when to delete the temporary directory. The first flag determines whether\n    or not to delete successful (exit code zero) runs; the second determines\n    whether or not to delete failed (exit code non-zero) runs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Programs",
           "name": "TMPX",
           "package": "arx",
@@ -2106,6 +2285,7 @@
         "index": {
           "description": "TMPX program archives streams to produce script that unpacks the file data in temporary location and runs the command with the attached environment information in that location The command may be any executable file contents modulo architectural compatibility It is written along side the temporary work location to ensure it does not collide with any files in the archive The two boolean flags determine when to delete the temporary directory The first flag determines whether or not to delete successful exit code zero runs the second determines whether or not to delete failed exit code non-zero runs",
           "hierarchy": "System Posix ARX Programs",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Programs",
           "name": "TMPX",
           "package": "arx",
@@ -2167,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Programs",
           "name": "interpret",
           "package": "arx",
@@ -2176,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Programs",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Programs",
           "name": "interpret",
           "normalized": "a-\u003eb-\u003eBuilder",
@@ -2191,6 +2373,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with shell script.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "Sh",
           "package": "arx",
@@ -2200,6 +2383,7 @@
         "index": {
           "description": "Utilities for working with shell script",
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "Sh",
           "package": "arx",
@@ -2213,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "Raw",
           "package": "arx",
@@ -2221,6 +2406,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "Raw",
           "package": "arx",
@@ -2234,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "Render",
           "package": "arx",
@@ -2242,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "Render",
           "package": "arx",
@@ -2256,6 +2444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid shell string values contain any byte but null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "Val",
           "package": "arx",
@@ -2265,6 +2454,7 @@
         "index": {
           "description": "Valid shell string values contain any byte but null",
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "Val",
           "package": "arx",
@@ -2279,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid shell variable names consist of a leading letter or underscore and\n    then any number of letters, underscores or digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "Var",
           "package": "arx",
@@ -2288,6 +2479,7 @@
         "index": {
           "description": "Valid shell variable names consist of leading letter or underscore and then any number of letters underscores or digits",
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "Var",
           "package": "arx",
@@ -2301,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "raw",
           "package": "arx",
@@ -2310,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "raw",
           "normalized": "a-\u003eByteString",
@@ -2324,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "render",
           "package": "arx",
@@ -2333,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "render",
           "normalized": "a-\u003eBuilder",
@@ -2347,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Sh",
           "name": "setEU",
           "package": "arx",
@@ -2356,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Sh",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Sh",
           "name": "setEU",
           "package": "arx",
@@ -2417,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "TMPXTools",
           "package": "arx",
@@ -2425,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "TMPXTools",
           "package": "arx",
@@ -2438,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "Template",
           "package": "arx",
@@ -2446,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "Template",
           "package": "arx",
@@ -2459,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "Template",
           "package": "arx",
@@ -2468,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "Template",
           "package": "arx",
@@ -2481,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "coalesce",
           "package": "arx",
@@ -2490,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "coalesce",
           "normalized": "[Maybe ByteString]-\u003e[ByteString]",
@@ -2505,6 +2711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData unpacking text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "dat",
           "package": "arx",
@@ -2515,6 +2722,7 @@
         "index": {
           "description": "Data unpacking text",
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "dat",
           "package": "arx",
@@ -2528,6 +2736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream for env text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "env",
           "package": "arx",
@@ -2538,6 +2747,7 @@
         "index": {
           "description": "Stream for env text",
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "env",
           "package": "arx",
@@ -2550,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "findChunks",
           "package": "arx",
@@ -2559,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "findChunks",
           "normalized": "ByteString-\u003e[ByteString]",
@@ -2574,6 +2786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "isHole",
           "package": "arx",
@@ -2583,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "isHole",
           "normalized": "ByteString-\u003eBool",
@@ -2598,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "markHoles",
           "package": "arx",
@@ -2607,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "markHoles",
           "normalized": "ByteString-\u003e[Maybe ByteString]",
@@ -2622,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "render",
           "package": "arx",
@@ -2631,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "render",
           "normalized": "Template-\u003eBuilder",
@@ -2646,6 +2864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove tmp on run success?    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "rm0",
           "package": "arx",
@@ -2656,6 +2875,7 @@
         "index": {
           "description": "Remove tmp on run success",
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "rm0",
           "package": "arx",
@@ -2669,6 +2889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove tmp on run error?      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "rm1",
           "package": "arx",
@@ -2679,6 +2900,7 @@
         "index": {
           "description": "Remove tmp on run error",
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "rm1",
           "package": "arx",
@@ -2692,6 +2914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream for run text. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "run",
           "package": "arx",
@@ -2702,6 +2925,7 @@
         "index": {
           "description": "Stream for run text",
           "hierarchy": "System Posix ARX TMPXTools",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.TMPXTools",
           "name": "run",
           "package": "arx",
@@ -2714,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Tar",
           "name": "Tar",
           "package": "arx",
@@ -2722,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Tar",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Tar",
           "name": "Tar",
           "package": "arx",
@@ -2736,6 +2962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandled styles of Tar archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Tar",
           "name": "Tar",
           "package": "arx",
@@ -2745,6 +2972,7 @@
         "index": {
           "description": "Handled styles of Tar archive",
           "hierarchy": "System Posix ARX Tar",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Tar",
           "name": "Tar",
           "package": "arx",
@@ -2827,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Tar",
           "name": "bzMagic",
           "package": "arx",
@@ -2836,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Tar",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Tar",
           "name": "bzMagic",
           "normalized": "ByteString-\u003eBool",
@@ -2851,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Tar",
           "name": "gzMagic",
           "package": "arx",
@@ -2860,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Tar",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Tar",
           "name": "gzMagic",
           "normalized": "ByteString-\u003eBool",
@@ -2901,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX.Tar",
           "name": "tarMagic",
           "package": "arx",
@@ -2910,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX Tar",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX.Tar",
           "name": "tarMagic",
           "normalized": "ByteString-\u003eBool",
@@ -2925,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "ARX",
           "package": "arx",
@@ -2933,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "ARX",
           "package": "arx",
@@ -2947,6 +3183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eARX subprograms process some input to produce a script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "ARX",
           "package": "arx",
@@ -2956,6 +3193,7 @@
         "index": {
           "description": "ARX subprograms process some input to produce script",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "ARX",
           "package": "arx",
@@ -2970,6 +3208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eSHDAT\u003c/a\u003e\u003c/code\u003e program processes byte streams with the specified chunking to\n    produce a script.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "SHDAT",
           "package": "arx",
@@ -2979,6 +3218,7 @@
         "index": {
           "description": "An SHDAT program processes byte streams with the specified chunking to produce script",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "SHDAT",
           "package": "arx",
@@ -2993,6 +3233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTMPX\u003c/a\u003e\u003c/code\u003e program archives streams to produce a script that unpacks the\n    file data in a temporary location and runs the command with the attached\n    environment information in that location. The command may be any\n    executable file contents, modulo architectural compatibility. It is\n    written along side the temporary work location, to ensure it does not\n    collide with any files in the archive. The two boolean flags determine\n    when to delete the temporary directory. The first flag determines whether\n    or not to delete successful (exit code zero) runs; the second determines\n    whether or not to delete failed (exit code non-zero) runs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "TMPX",
           "package": "arx",
@@ -3002,6 +3243,7 @@
         "index": {
           "description": "TMPX program archives streams to produce script that unpacks the file data in temporary location and runs the command with the attached environment information in that location The command may be any executable file contents modulo architectural compatibility It is written along side the temporary work location to ensure it does not collide with any files in the archive The two boolean flags determine when to delete the temporary directory The first flag determines whether or not to delete successful exit code zero runs the second determines whether or not to delete failed exit code non-zero runs",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "TMPX",
           "package": "arx",
@@ -3016,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandled styles of Tar archive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "Tar",
           "package": "arx",
@@ -3025,6 +3268,7 @@
         "index": {
           "description": "Handled styles of Tar archive",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "Tar",
           "package": "arx",
@@ -3039,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid shell string values contain any byte but null.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "Val",
           "package": "arx",
@@ -3048,6 +3293,7 @@
         "index": {
           "description": "Valid shell string values contain any byte but null",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "Val",
           "package": "arx",
@@ -3062,6 +3308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid shell variable names consist of a leading letter or underscore and\n    then any number of letters, underscores or digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "Var",
           "package": "arx",
@@ -3071,6 +3318,7 @@
         "index": {
           "description": "Valid shell variable names consist of leading letter or underscore and then any number of letters underscores or digits",
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "Var",
           "package": "arx",
@@ -3084,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:57 UTC 2014",
           "module": "System.Posix.ARX",
           "name": "interpret",
           "package": "arx",
@@ -3093,6 +3342,7 @@
         },
         "index": {
           "hierarchy": "System Posix ARX",
+          "indexed": "2014-03-11T17:12:57",
           "module": "System.Posix.ARX",
           "name": "interpret",
           "normalized": "a-\u003eb-\u003eBuilder",

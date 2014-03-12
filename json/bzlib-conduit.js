@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bzlib-conduit"
+        "phrase": "bzlib-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "BZlib",
           "package": "bzlib-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "BZlib",
           "package": "bzlib-conduit",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompression parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "CompressParams",
           "package": "bzlib-conduit",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Compression parameters",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "CompressParams",
           "package": "bzlib-conduit",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompression parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "DecompressParams",
           "package": "bzlib-conduit",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Decompression parameters",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "DecompressParams",
           "package": "bzlib-conduit",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "CompressParams",
           "package": "bzlib-conduit",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "CompressParams",
           "package": "bzlib-conduit",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "DecompressParams",
           "package": "bzlib-conduit",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "DecompressParams",
           "package": "bzlib-conduit",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebzip2 decompression with default parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "bunzip2",
           "package": "bzlib-conduit",
@@ -140,6 +151,7 @@
         "index": {
           "description": "bzip2 decompression with default parameters",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "bunzip2",
           "package": "bzlib-conduit",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebzip2 compression with default parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "bzip2",
           "package": "bzlib-conduit",
@@ -163,6 +176,7 @@
         "index": {
           "description": "bzip2 compression with default parameters",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "bzip2",
           "package": "bzlib-conduit",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress a stream of ByteStrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "compress",
           "package": "bzlib-conduit",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Compress stream of ByteStrings",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "compress",
           "normalized": "CompressParams-\u003eConduit ByteString a ByteString",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress level [1..9]. default is 9.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "cpBlockSize",
           "package": "bzlib-conduit",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Compress level default is",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "cpBlockSize",
           "package": "bzlib-conduit",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity mode [0..4]. default is 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "cpVerbosity",
           "package": "bzlib-conduit",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Verbosity mode default is",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "cpVerbosity",
           "package": "bzlib-conduit",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWork factor [0..250]. default is 30.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "cpWorkFactor",
           "package": "bzlib-conduit",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Work factor default is",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "cpWorkFactor",
           "package": "bzlib-conduit",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress a stream of ByteStrings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "decompress",
           "package": "bzlib-conduit",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Decompress stream of ByteStrings",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "decompress",
           "normalized": "DecompressParams-\u003eConduit ByteString a ByteString",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "def",
           "package": "bzlib-conduit",
@@ -305,6 +330,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "def",
           "package": "bzlib-conduit",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, use an algorithm uses less memory but slow. default is False\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "dpSmall",
           "package": "bzlib-conduit",
@@ -328,6 +355,7 @@
         "index": {
           "description": "If True use an algorithm uses less memory but slow default is False",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "dpSmall",
           "package": "bzlib-conduit",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerbosity mode [0..4]. default is 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:27:21 UTC 2014",
           "module": "Data.Conduit.BZlib",
           "name": "dpVerbosity",
           "package": "bzlib-conduit",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Verbosity mode default is",
           "hierarchy": "Data Conduit BZlib",
+          "indexed": "2014-03-11T17:27:21",
           "module": "Data.Conduit.BZlib",
           "name": "dpVerbosity",
           "package": "bzlib-conduit",

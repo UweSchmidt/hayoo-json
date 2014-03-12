@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3-plot"
+        "phrase": "hsc3-plot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "package": "hsc3-plot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot Histogram",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "package": "hsc3-plot",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "package": "hsc3-plot",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot Histogram",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "package": "hsc3-plot",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "package": "hsc3-plot",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot Histogram",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "Histogram",
           "normalized": "Histogram[a][a]",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003e\u003ca\u003eHistogram\u003c/a\u003e\u003c/code\u003e for number of bins \u003cem\u003en\u003c/em\u003e and sample data \u003cem\u003ex\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "histogram",
           "package": "hsc3-plot",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Calculate Histogram for number of bins and sample data",
           "hierarchy": "Sound SC3 Plot Histogram",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot.Histogram",
           "name": "histogram",
           "normalized": "Int-\u003e[Double]-\u003eHistogram Double",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "Plot",
           "package": "hsc3-plot",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "Plot",
           "package": "hsc3-plot",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "Coord",
           "package": "hsc3-plot",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "Coord",
           "package": "hsc3-plot",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "Path",
           "package": "hsc3-plot",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "Path",
           "package": "hsc3-plot",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "Table",
           "package": "hsc3-plot",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "Table",
           "package": "hsc3-plot",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "eps",
           "package": "hsc3-plot",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "eps",
           "package": "hsc3-plot",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "plotCoord",
           "package": "hsc3-plot",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "plotCoord",
           "normalized": "[Coord a]-\u003eIO()",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlot \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3\n plotEnvelope [envPerc 0.2 1,envSine 1 0.75]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "plotEnvelope",
           "package": "hsc3-plot",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Plot Envelope data import Sound.SC3 plotEnvelope envPerc envSine",
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "plotEnvelope",
           "normalized": "[Envelope a]-\u003eIO()",
@@ -265,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlot \u003ccode\u003e\u003ca\u003eHistogram\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e\u003cpre\u003e plotHistogram [histogram 3 [0,0,1,2,2,2]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "plotHistogram",
           "package": "hsc3-plot",
@@ -275,6 +298,7 @@
         "index": {
           "description": "Plot Histogram data plotHistogram histogram",
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "plotHistogram",
           "normalized": "[Histogram a]-\u003eIO()",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "plotPath",
           "package": "hsc3-plot",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "plotPath",
           "normalized": "Path a-\u003eIO()",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlot \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e data, ie. \u003cem\u003ey\u003c/em\u003e values at equal \u003cem\u003ex\u003c/em\u003e increments.\n\u003c/p\u003e\u003cpre\u003e plotTable [[0,2..12],[0..6],[0,4..12]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:47:03 UTC 2014",
           "module": "Sound.SC3.Plot",
           "name": "plotTable",
           "package": "hsc3-plot",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Plot Table data ie values at equal increments plotTable",
           "hierarchy": "Sound SC3 Plot",
+          "indexed": "2014-03-11T18:47:03",
           "module": "Sound.SC3.Plot",
           "name": "plotTable",
           "normalized": "[Table a]-\u003eIO()",

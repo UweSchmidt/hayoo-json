@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "readpyc"
+        "phrase": "readpyc",
+        "type": "phrase"
       },
       "type": "context"
     }

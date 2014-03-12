@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tables"
+        "phrase": "tables",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides tables with multiple indices that support a simple\n API based on the lenses and traversals from the \u003ccode\u003elens\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Table",
           "package": "tables",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides tables with multiple indices that support simple API based on the lenses and traversals from the lens package",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Table",
           "package": "tables",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used to store a single index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "AnIndex",
           "package": "tables",
@@ -51,6 +54,7 @@
         "index": {
           "description": "This is used to store single index",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "AnIndex",
           "package": "tables",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Auto",
           "package": "tables",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Auto",
           "package": "tables",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key type for values unique to each row, but that are\n  not \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Candidate",
           "package": "tables",
@@ -95,6 +102,7 @@
         "index": {
           "description": "key type for values unique to each row but that are not Primary",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Candidate",
           "package": "tables",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCandidateHash\u003c/a\u003e\u003c/code\u003e keys are like \u003ccode\u003e\u003ca\u003eCandidate\u003c/a\u003e\u003c/code\u003e keys but are backed by\n a \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. This makes them more performant\n on \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e and \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e lookups, but values at \u003ccode\u003e\u003ca\u003eCandidateHash\u003c/a\u003e\u003c/code\u003e keys\n must be instances of \u003ccode\u003e\u003ca\u003eHashable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateHash",
           "package": "tables",
@@ -118,6 +127,7 @@
         "index": {
           "description": "CandidateHash keys are like Candidate keys but are backed by HashMap rather than Map This makes them more performant on and lookups but values at CandidateHash keys must be instances of Hashable and Eq",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateHash",
           "package": "tables",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCandidateInt\u003c/a\u003e\u003c/code\u003e keys are like \u003ccode\u003e\u003ca\u003eCandidate\u003c/a\u003e\u003c/code\u003e keys but are backed by\n an \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. This makes them more performant,\n but values at \u003ccode\u003e\u003ca\u003eCandidateInt\u003c/a\u003e\u003c/code\u003e keys may only be \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateInt",
           "package": "tables",
@@ -141,6 +152,7 @@
         "index": {
           "description": "CandidateInt keys are like Candidate keys but are backed by an IntMap rather than Map This makes them more performant but values at CandidateInt keys may only be Int",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateInt",
           "package": "tables",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Group",
           "package": "tables",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Group",
           "package": "tables",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key type for inverse keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Inverted",
           "package": "tables",
@@ -185,6 +200,7 @@
         "index": {
           "description": "key type for inverse keys",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Inverted",
           "package": "tables",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedHash",
           "package": "tables",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedHash",
           "package": "tables",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedInt",
           "package": "tables",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedInt",
           "package": "tables",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "IsKeyType",
           "package": "tables",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "IsKeyType",
           "package": "tables",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue-level key types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "KeyType",
           "package": "tables",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Value-level key types",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "KeyType",
           "package": "tables",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe key type for the canonical, unique identifier attached to\n  every row. There should only be one \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Primary",
           "package": "tables",
@@ -294,6 +319,7 @@
         "index": {
           "description": "The key type for the canonical unique identifier attached to every row There should only be one Primary key",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Primary",
           "package": "tables",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key type for supplemental data attached to each row that we\n  still may want to index by. Values need not be unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Supplemental",
           "package": "tables",
@@ -317,6 +344,7 @@
         "index": {
           "description": "key type for supplemental data attached to each row that we still may want to index by Values need not be unique",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Supplemental",
           "package": "tables",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSupplementalHash\u003c/a\u003e\u003c/code\u003e keys are like \u003ccode\u003e\u003ca\u003eSupplemental\u003c/a\u003e\u003c/code\u003e keys but are backed by\n a \u003ccode\u003e\u003ca\u003eHashMap\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. This makes them more performant\n on \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e and \u003ccode\u003e(\u003ccode\u003e\u003ca\u003e/=\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e lookups, but values at \u003ccode\u003e\u003ca\u003eSupplementalHash\u003c/a\u003e\u003c/code\u003e keys\n must be instances of \u003ccode\u003e\u003ca\u003eHashable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalHash",
           "package": "tables",
@@ -340,6 +369,7 @@
         "index": {
           "description": "SupplementalHash keys are like Supplemental keys but are backed by HashMap rather than Map This makes them more performant on and lookups but values at SupplementalHash keys must be instances of Hashable and Eq",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalHash",
           "package": "tables",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSupplementalInt\u003c/a\u003e\u003c/code\u003e keys are like \u003ccode\u003e\u003ca\u003eSupplemental\u003c/a\u003e\u003c/code\u003e keys but are backed by\n an \u003ccode\u003e\u003ca\u003eIntMap\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. This makes them more performant,\n but values at \u003ccode\u003e\u003ca\u003eSupplementalInt\u003c/a\u003e\u003c/code\u003e keys may only be \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalInt",
           "package": "tables",
@@ -363,6 +394,7 @@
         "index": {
           "description": "SupplementalInt keys are like Supplemental keys but are backed by an IntMap rather than Map This makes them more performant but values at SupplementalInt keys may only be Int",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalInt",
           "package": "tables",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e has a \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ekey\u003c/code\u003e and may have \u003ccode\u003e\u003ca\u003eCandidate\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eSupplemental\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eInverted\u003c/a\u003e\u003c/code\u003e keys, plus their variants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Table",
           "package": "tables",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Every Table has Primary key and may have Candidate Supplemental or Inverted keys plus their variants",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Table",
           "package": "tables",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class describes how to index a user-defined data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Tabular",
           "package": "tables",
@@ -409,6 +444,7 @@
         "index": {
           "description": "This class describes how to index user-defined data type",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Tabular",
           "package": "tables",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "With",
           "package": "tables",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "With",
           "package": "tables",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch inverted indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Withal",
           "package": "tables",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Search inverted indices",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Withal",
           "package": "tables",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Auto",
           "package": "tables",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Auto",
           "package": "tables",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Candidate",
           "package": "tables",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Candidate",
           "package": "tables",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateHash",
           "package": "tables",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateHash",
           "package": "tables",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateHashMap",
           "package": "tables",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateHashMap",
           "normalized": "HashMap a b-\u003eAnIndex b CandidateHash a",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateInt",
           "package": "tables",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateInt",
           "package": "tables",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateIntMap",
           "package": "tables",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateIntMap",
           "normalized": "IntMap a-\u003eAnIndex a CandidateInt Int",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "CandidateMap",
           "package": "tables",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "CandidateMap",
           "normalized": "Map a b-\u003eAnIndex b Candidate a",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "EmptyTable",
           "package": "tables",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "EmptyTable",
           "package": "tables",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Inverted",
           "package": "tables",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Inverted",
           "package": "tables",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedHash",
           "package": "tables",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedHash",
           "package": "tables",
@@ -692,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedHashMap",
           "package": "tables",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedHashMap",
           "normalized": "HashMap a[b]-\u003eAnIndex b InvertedHash(HashSet a)",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedInt",
           "package": "tables",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedInt",
           "package": "tables",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedIntMap",
           "package": "tables",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedIntMap",
           "normalized": "IntMap[a]-\u003eAnIndex a InvertedInt IntSet",
@@ -762,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "InvertedMap",
           "package": "tables",
@@ -771,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "InvertedMap",
           "normalized": "Map a[b]-\u003eAnIndex b Inverted(Set a)",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Primary",
           "package": "tables",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Primary",
           "package": "tables",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "PrimaryMap",
           "package": "tables",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "PrimaryMap",
           "normalized": "Map(PKT a)a-\u003eAnIndex a Primary b",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Supplemental",
           "package": "tables",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Supplemental",
           "package": "tables",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalHash",
           "package": "tables",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalHash",
           "package": "tables",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalHashMap",
           "package": "tables",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalHashMap",
           "normalized": "HashMap a[b]-\u003eAnIndex b SupplementalHash a",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalInt",
           "package": "tables",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalInt",
           "package": "tables",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalIntMap",
           "package": "tables",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalIntMap",
           "normalized": "IntMap[a]-\u003eAnIndex a SupplementalInt Int",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "SupplementalMap",
           "package": "tables",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "SupplementalMap",
           "normalized": "Map a[b]-\u003eAnIndex b Supplemental a",
@@ -970,6 +1054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "Table",
           "package": "tables",
@@ -979,6 +1064,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "Table",
           "normalized": "Tab a(AnIndex a)-\u003eTable a",
@@ -995,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a row with an auto-incremented key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "auto",
           "package": "tables",
@@ -1005,6 +1092,7 @@
         "index": {
           "description": "Generate row with an auto-incremented key",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "auto",
           "normalized": "a-\u003eAuto a",
@@ -1020,6 +1108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis lets you define \u003ccode\u003e\u003ca\u003eautoKey\u003c/a\u003e\u003c/code\u003e to increment to 1 greater than the existing maximum key in a table.\n\u003c/p\u003e\u003cp\u003eIn order to support this you need a numeric primary key, and the ability to update the primary key in a record, indicated by a\n lens to the field.\n\u003c/p\u003e\u003cp\u003eTo enable auto-increment for a table with primary key \u003ccode\u003eprimaryKeyField\u003c/code\u003e, set:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eautoTab\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003eautoIncrement\u003c/a\u003e\u003c/code\u003e primaryKeyField\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "autoIncrement",
           "package": "tables",
@@ -1030,6 +1119,7 @@
         "index": {
           "description": "This lets you define autoKey to increment to greater than the existing maximum key in table In order to support this you need numeric primary key and the ability to update the primary key in record indicated by lens to the field To enable auto-increment for table with primary key primaryKeyField set autoTab autoIncrement primaryKeyField",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "autoIncrement",
           "normalized": "ALens' a(PKT a)-\u003ea-\u003eMaybe(Tab a(AnIndex a)-\u003ea)",
@@ -1045,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "autoKey",
           "package": "tables",
@@ -1054,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "autoKey",
           "package": "tables",
@@ -1068,6 +1160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust a record using meta-information about the table allowing for auto-increments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "autoTab",
           "package": "tables",
@@ -1078,6 +1171,7 @@
         "index": {
           "description": "Adjust record using meta-information about the table allowing for auto-increments",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "autoTab",
           "normalized": "a-\u003eMaybe(Tab a(AnIndex a)-\u003ea)",
@@ -1094,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a row count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "count",
           "package": "tables",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "Retrieve row count",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "count",
           "normalized": "Table a-\u003eInt",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete this row from the database. This will remove any row that collides with the specified\n row on any primary or candidate key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "delete",
           "package": "tables",
@@ -1129,6 +1226,7 @@
         "index": {
           "description": "Delete this row from the database This will remove any row that collides with the specified row on any primary or candidate key",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "delete",
           "normalized": "a-\u003eTable a-\u003eTable a",
@@ -1144,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete selected rows from a table\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003edeleteWith\u003c/a\u003e\u003c/code\u003e p cmp a t &#8801; \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003ewith\u003c/a\u003e\u003c/code\u003e p cmp a) \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e t\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "deleteWith",
           "package": "tables",
@@ -1154,6 +1253,7 @@
         "index": {
           "description": "Delete selected rows from table deleteWith cmp set with cmp empty",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "deleteWith",
           "normalized": "a-\u003ea-\u003eBool)-\u003eb-\u003eTable c-\u003eTable c",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "deleteWithAll",
           "package": "tables",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "deleteWithAll",
           "normalized": "a-\u003eb-\u003eTable c-\u003eTable c",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "deleteWithAny",
           "package": "tables",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "deleteWithAny",
           "normalized": "a-\u003eb-\u003eTable c-\u003eTable c",
@@ -1218,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the elements of the first table that do not share a key with an element of the second table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "difference",
           "package": "tables",
@@ -1228,6 +1333,7 @@
         "index": {
           "description": "Return the elements of the first table that do not share key with an element of the second table",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "difference",
           "normalized": "Table a-\u003eTable a-\u003eTable a",
@@ -1243,6 +1349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an empty relation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "empty",
           "package": "tables",
@@ -1253,6 +1360,7 @@
         "index": {
           "description": "Construct an empty relation",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "empty",
           "package": "tables",
@@ -1266,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the value of a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "fetch",
           "package": "tables",
@@ -1276,6 +1385,7 @@
         "index": {
           "description": "Extract the value of Key",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "fetch",
           "normalized": "Key a b c-\u003eb-\u003ec",
@@ -1291,6 +1401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop over each index in a \u003ccode\u003e\u003ca\u003eTab\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "forTab",
           "package": "tables",
@@ -1301,6 +1412,7 @@
         "index": {
           "description": "Loop over each index in Tab",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "forTab",
           "normalized": "Key a b c-\u003ed a c-\u003ee(f a c))-\u003ee(Tab b f)",
@@ -1317,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild up a table from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "fromList",
           "package": "tables",
@@ -1327,6 +1440,7 @@
         "index": {
           "description": "Build up table from list",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "fromList",
           "normalized": "[a]-\u003eTable a",
@@ -1343,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup by a given key or arbitrary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "group",
           "package": "tables",
@@ -1353,6 +1468,7 @@
         "index": {
           "description": "Group by given key or arbitrary function",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "group",
           "normalized": "a-\u003eIndexedLensLike' b c(Table d)(Table d)",
@@ -1368,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a row into a relation, removing collisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "insert",
           "package": "tables",
@@ -1378,6 +1495,7 @@
         "index": {
           "description": "Insert row into relation removing collisions",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "insert",
           "normalized": "a-\u003eTable a-\u003eTable a",
@@ -1393,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a row into a relation, removing collisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "insert'",
           "package": "tables",
@@ -1403,6 +1522,7 @@
         "index": {
           "description": "Insert row into relation removing collisions",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "insert'",
           "normalized": "a-\u003eTable a-\u003e(a,Table a)",
@@ -1418,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the elements of the first table that share a key with an element of the second table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "intersection",
           "package": "tables",
@@ -1428,6 +1549,7 @@
         "index": {
           "description": "Return the elements of the first table that share key with an element of the second table",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "intersection",
           "normalized": "Table a-\u003eTable a-\u003eTable a",
@@ -1443,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an index in a \u003ccode\u003e\u003ca\u003eTab\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "ixTab",
           "package": "tables",
@@ -1453,6 +1576,7 @@
         "index": {
           "description": "Lookup an index in Tab",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "ixTab",
           "normalized": "Tab a b-\u003eKey c a d-\u003eb c d",
@@ -1468,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "keyType",
           "package": "tables",
@@ -1477,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "keyType",
           "normalized": "Key a b c-\u003eKeyType a c",
@@ -1493,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a Tabular instance for a data type. Currently, this only\n works for types which have no type variables, and won't generate autoTab.\n\u003c/p\u003e\u003cpre\u003e\n data Foo = Foo { fooId :: Int, fooBar :: String, fooBaz :: Double }\n\nmakeTabular 'fooId [(''Candidate, 'fooBaz), (''Supplemental, 'fooBar)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "makeTabular",
           "package": "tables",
@@ -1503,6 +1630,7 @@
         "index": {
           "description": "Generate Tabular instance for data type Currently this only works for types which have no type variables and won generate autoTab data Foo Foo fooId Int fooBar String fooBaz Double makeTabular fooId Candidate fooBaz Supplemental fooBar",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "makeTabular",
           "normalized": "Name-\u003e[(Name,Name)]-\u003eQ[Dec]",
@@ -1519,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eTab\u003c/a\u003e\u003c/code\u003e given a function from key to index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "mkTab",
           "package": "tables",
@@ -1529,6 +1658,7 @@
         "index": {
           "description": "Construct Tab given function from key to index",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "mkTab",
           "normalized": "Key a b c-\u003ed(e a c))-\u003ed(Tab b e)",
@@ -1545,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if the relation is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "null",
           "package": "tables",
@@ -1555,6 +1686,7 @@
         "index": {
           "description": "Check to see if the relation is empty",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "null",
           "normalized": "Table a-\u003eBool",
@@ -1570,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... and so if you find one, it had better be that one!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "primarily",
           "package": "tables",
@@ -1580,6 +1713,7 @@
         "index": {
           "description": "and so if you find one it had better be that one",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "primarily",
           "normalized": "a)-\u003ea",
@@ -1595,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e has one \u003ccode\u003e\u003ca\u003ePrimary\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "primary",
           "package": "tables",
@@ -1605,6 +1740,7 @@
         "index": {
           "description": "Every Table has one Primary Key",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "primary",
           "package": "tables",
@@ -1618,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTraverse all of the rows in a table, potentially changing table types completely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "rows",
           "package": "tables",
@@ -1628,6 +1765,7 @@
         "index": {
           "description": "Traverse all of the rows in table potentially changing table types completely",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "rows",
           "package": "tables",
@@ -1641,6 +1779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a relation with a single row\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "singleton",
           "package": "tables",
@@ -1651,6 +1790,7 @@
         "index": {
           "description": "Construct relation with single row",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "singleton",
           "normalized": "a-\u003eTable a",
@@ -1666,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list to and from a \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe real isomorphism laws hold if the original list makes no use of the auto-increment\n functionality of the table, has no duplicates and is sorted according to the primary key.\n\u003c/p\u003e\u003cp\u003eHowever,\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003efrom\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etable\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003etable\u003c/a\u003e\u003c/code\u003e &#8801; \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e\u003cp\u003ealways holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "table",
           "package": "tables",
@@ -1676,6 +1817,7 @@
         "index": {
           "description": "Convert list to and from Table The real isomorphism laws hold if the original list makes no use of the auto-increment functionality of the table has no duplicates and is sorted according to the primary key However from table table id always holds",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "table",
           "normalized": "Iso'[a](Table a)",
@@ -1691,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-biased union of the two tables\n\u003c/p\u003e\u003cp\u003eThis is a synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "union",
           "package": "tables",
@@ -1701,6 +1844,7 @@
         "index": {
           "description": "Left-biased union of the two tables This is synonym for mappend",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "union",
           "normalized": "Table a-\u003eTable a-\u003eTable a",
@@ -1716,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild up a table from a list, without checking for collisions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "unsafeFromList",
           "package": "tables",
@@ -1726,6 +1871,7 @@
         "index": {
           "description": "Build up table from list without checking for collisions",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "unsafeFromList",
           "normalized": "[a]-\u003eTable a",
@@ -1742,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a row into a relation, ignoring collisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "unsafeInsert",
           "package": "tables",
@@ -1752,6 +1899,7 @@
         "index": {
           "description": "Insert row into relation ignoring collisions",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "unsafeInsert",
           "normalized": "a-\u003eTable a-\u003eTable a",
@@ -1768,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect a smaller, updateable subset of the rows of a table using an index or an arbitrary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "with",
           "package": "tables",
@@ -1778,6 +1927,7 @@
         "index": {
           "description": "Select smaller updateable subset of the rows of table using an index or an arbitrary function",
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "with",
           "normalized": "a-\u003ea-\u003eBool)-\u003eb-\u003eLens'(Table c)(Table c)",
@@ -1792,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "withAll",
           "package": "tables",
@@ -1801,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "withAll",
           "normalized": "a-\u003eb-\u003eLens'(Table c)(Table c)",
@@ -1816,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:08 UTC 2014",
           "module": "Data.Table",
           "name": "withAny",
           "package": "tables",
@@ -1825,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Data Table",
+          "indexed": "2014-03-11T20:16:08",
           "module": "Data.Table",
           "name": "withAny",
           "normalized": "a-\u003eb-\u003eLens'(Table c)(Table c)",

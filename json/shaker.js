@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shaker"
+        "phrase": "shaker",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Compile",
           "name": "Compile",
           "package": "shaker",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Compile",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Compile",
           "name": "Compile",
           "package": "shaker",
@@ -67,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun haskell compilation on given CompileInput list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Compile",
           "name": "runCompile",
           "package": "shaker",
@@ -77,6 +80,7 @@
         "index": {
           "description": "Run haskell compilation on given CompileInput list",
           "hierarchy": "Shaker Action Compile",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Compile",
           "name": "runCompile",
           "package": "shaker",
@@ -91,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun haskell compilation on all haskell files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Compile",
           "name": "runFullCompile",
           "package": "shaker",
@@ -101,6 +106,7 @@
         "index": {
           "description": "Run haskell compilation on all haskell files",
           "hierarchy": "Shaker Action Compile",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Compile",
           "name": "runFullCompile",
           "package": "shaker",
@@ -115,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard and simple actions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "Standard",
           "package": "shaker",
@@ -124,6 +131,7 @@
         "index": {
           "description": "Standard and simple actions",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "Standard",
           "package": "shaker",
@@ -138,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClean action is responsible to delete fileListenInfoDirectory containing temporary .o and .hi files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runClean",
           "package": "shaker",
@@ -148,6 +157,7 @@
         "index": {
           "description": "Clean action is responsible to delete fileListenInfoDirectory containing temporary and hi files",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runClean",
           "package": "shaker",
@@ -161,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runEmpty",
           "package": "shaker",
@@ -170,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runEmpty",
           "package": "shaker",
@@ -184,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint an end action notification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runEndAction",
           "package": "shaker",
@@ -194,6 +207,7 @@
         "index": {
           "description": "Print an end action notification",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runEndAction",
           "package": "shaker",
@@ -208,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint exit. The real exit management is made in conductor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runExit",
           "package": "shaker",
@@ -218,6 +233,7 @@
         "index": {
           "description": "Print exit The real exit management is made in conductor",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runExit",
           "package": "shaker",
@@ -232,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the list of available actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runHelp",
           "package": "shaker",
@@ -242,6 +259,7 @@
         "index": {
           "description": "Print the list of available actions",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runHelp",
           "package": "shaker",
@@ -255,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runInvalidAction",
           "package": "shaker",
@@ -264,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runInvalidAction",
           "package": "shaker",
@@ -278,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a begin action notification\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Standard",
           "name": "runStartAction",
           "package": "shaker",
@@ -288,6 +309,7 @@
         "index": {
           "description": "Print begin action notification",
           "hierarchy": "Shaker Action Standard",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Standard",
           "name": "runStartAction",
           "package": "shaker",
@@ -301,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "Test",
           "package": "shaker",
@@ -309,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "Test",
           "package": "shaker",
@@ -322,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "executeTest",
           "package": "shaker",
@@ -331,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "executeTest",
           "normalized": "[ModuleData]-\u003ePlugin",
@@ -346,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "getModulesWithFunctionFiltering",
           "package": "shaker",
@@ -355,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "getModulesWithFunctionFiltering",
           "normalized": "Shaker IO[ModuleData]",
@@ -370,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "getModulesWithModuleFiltering",
           "package": "shaker",
@@ -379,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "getModulesWithModuleFiltering",
           "normalized": "Shaker IO[ModuleData]",
@@ -394,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "processModuleDataList",
           "package": "shaker",
@@ -403,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "processModuleDataList",
           "normalized": "[[ModuleData]]-\u003ePlugin",
@@ -418,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "runModuleTestFramework",
           "package": "shaker",
@@ -427,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "runModuleTestFramework",
           "package": "shaker",
@@ -440,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Action.Test",
           "name": "runTestFramework",
           "package": "shaker",
@@ -449,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Shaker Action Test",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Action.Test",
           "name": "runTestFramework",
           "package": "shaker",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAllow to use cabal configuration (generated via the configure action of cabal).\n Source fileListenInfoDirectories and compilation options will be reused by Shaker.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInfo",
           "name": "CabalInfo",
           "package": "shaker",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Allow to use cabal configuration generated via the configure action of cabal Source fileListenInfoDirectories and compilation options will be reused by Shaker",
           "hierarchy": "Shaker CabalInfo",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInfo",
           "name": "CabalInfo",
           "package": "shaker",
@@ -511,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the build information from cabal and output a shakerInput from it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInfo",
           "name": "defaultCabalInput",
           "package": "shaker",
@@ -521,6 +560,7 @@
         "index": {
           "description": "Read the build information from cabal and output shakerInput from it",
           "hierarchy": "Shaker CabalInfo",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInfo",
           "name": "defaultCabalInput",
           "package": "shaker",
@@ -534,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInterface",
           "name": "CabalInterface",
           "package": "shaker",
@@ -542,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Shaker CabalInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInterface",
           "name": "CabalInterface",
           "package": "shaker",
@@ -555,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInterface",
           "name": "generateAutogenFiles",
           "package": "shaker",
@@ -564,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Shaker CabalInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInterface",
           "name": "generateAutogenFiles",
           "normalized": "LocalBuildInfo-\u003eIO()",
@@ -579,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInterface",
           "name": "getCompileFlagsForExecutable",
           "package": "shaker",
@@ -588,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Shaker CabalInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInterface",
           "name": "getCompileFlagsForExecutable",
           "normalized": "LocalBuildInfo-\u003eExecutable-\u003eComponentLocalBuildInfo-\u003e[String]",
@@ -603,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInterface",
           "name": "getCompileFlagsForLibrary",
           "package": "shaker",
@@ -612,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Shaker CabalInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInterface",
           "name": "getCompileFlagsForLibrary",
           "normalized": "LocalBuildInfo-\u003eLibrary-\u003eComponentLocalBuildInfo-\u003e[String]",
@@ -627,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CabalInterface",
           "name": "getPreprocessorDirectory",
           "package": "shaker",
@@ -636,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Shaker CabalInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CabalInterface",
           "name": "getPreprocessorDirectory",
           "normalized": "LocalBuildInfo-\u003eExecutable-\u003eFilePath",
@@ -652,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommand line manager\n This manager will listen to the standard input as soon as the MVar token is filled.\n Then, it will fill another MVar (input) with the parsed command.\n Autocompletion is supported throught haskeline configuration.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Cli",
           "name": "Cli",
           "package": "shaker",
@@ -661,6 +712,7 @@
         "index": {
           "description": "Command line manager This manager will listen to the standard input as soon as the MVar token is filled Then it will fill another MVar input with the parsed command Autocompletion is supported throught haskeline configuration",
           "hierarchy": "Shaker Cli",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Cli",
           "name": "Cli",
           "package": "shaker",
@@ -674,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Cli",
           "name": "InputState",
           "package": "shaker",
@@ -682,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Shaker Cli",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Cli",
           "name": "InputState",
           "package": "shaker",
@@ -719,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListen to keyboard input and parse command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Cli",
           "name": "getInput",
           "package": "shaker",
@@ -729,6 +784,7 @@
         "index": {
           "description": "Listen to keyboard input and parse command",
           "hierarchy": "Shaker Cli",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Cli",
           "name": "getInput",
           "normalized": "Shaker IO(IO())",
@@ -744,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Cli",
           "name": "listActions",
           "package": "shaker",
@@ -753,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Shaker Cli",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Cli",
           "name": "listActions",
           "normalized": "ShakerInput-\u003eString-\u003ea[Completion]",
@@ -816,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CommonUtil",
           "name": "CommonUtil",
           "package": "shaker",
@@ -824,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Shaker CommonUtil",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CommonUtil",
           "name": "CommonUtil",
           "package": "shaker",
@@ -837,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CommonUtil",
           "name": "separateEqual",
           "package": "shaker",
@@ -846,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Shaker CommonUtil",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CommonUtil",
           "name": "separateEqual",
           "normalized": "[a]-\u003e[[a]]",
@@ -861,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CommonUtil",
           "name": "separateEqual'",
           "package": "shaker",
@@ -870,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Shaker CommonUtil",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CommonUtil",
           "name": "separateEqual'",
           "normalized": "[[a]]-\u003ea-\u003e[[a]]",
@@ -885,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.CommonUtil",
           "name": "trimList",
           "package": "shaker",
@@ -894,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Shaker CommonUtil",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.CommonUtil",
           "name": "trimList",
           "normalized": "[String]-\u003e[String]",
@@ -910,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConductor is responsible to control the command-line listener,\n the listener manager and the action to execute\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Conductor",
           "name": "Conductor",
           "package": "shaker",
@@ -919,6 +986,7 @@
         "index": {
           "description": "Conductor is responsible to control the command-line listener the listener manager and the action to execute",
           "hierarchy": "Shaker Conductor",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Conductor",
           "name": "Conductor",
           "package": "shaker",
@@ -933,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute Given Command in a new thread\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Conductor",
           "name": "executeCommand",
           "package": "shaker",
@@ -943,6 +1012,7 @@
         "index": {
           "description": "Execute Given Command in new thread",
           "hierarchy": "Shaker Conductor",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Conductor",
           "name": "executeCommand",
           "normalized": "Maybe Command-\u003eShaker IO()",
@@ -959,6 +1029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the master thread\n Once quit is called, all threads are killed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Conductor",
           "name": "initThread",
           "package": "shaker",
@@ -969,6 +1040,7 @@
         "index": {
           "description": "Initialize the master thread Once quit is called all threads are killed",
           "hierarchy": "Shaker Conductor",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Conductor",
           "name": "initThread",
           "normalized": "Shaker IO()",
@@ -985,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains the default configuration of shaker\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Config",
           "name": "Config",
           "package": "shaker",
@@ -994,6 +1067,7 @@
         "index": {
           "description": "Contains the default configuration of shaker",
           "hierarchy": "Shaker Config",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Config",
           "name": "Config",
           "package": "shaker",
@@ -1007,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Config",
           "name": "defaultInput",
           "package": "shaker",
@@ -1016,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Shaker Config",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Config",
           "name": "defaultInput",
           "package": "shaker",
@@ -1029,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Config",
           "name": "defaultInputInitialized",
           "package": "shaker",
@@ -1038,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Shaker Config",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Config",
           "name": "defaultInputInitialized",
           "package": "shaker",
@@ -1051,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Config",
           "name": "defaultInputState",
           "package": "shaker",
@@ -1060,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Shaker Config",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Config",
           "name": "defaultInputState",
           "package": "shaker",
@@ -1073,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Config",
           "name": "defaultThreadData",
           "package": "shaker",
@@ -1082,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Shaker Config",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Config",
           "name": "defaultThreadData",
           "package": "shaker",
@@ -1095,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "GhcInterface",
           "package": "shaker",
@@ -1103,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "GhcInterface",
           "package": "shaker",
@@ -1116,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "addLibraryToDynFlags",
           "package": "shaker",
@@ -1125,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "addLibraryToDynFlags",
           "normalized": "[String]-\u003eDynFlags-\u003eDynFlags",
@@ -1140,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "fillModuleDataTest",
           "package": "shaker",
@@ -1149,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "fillModuleDataTest",
           "normalized": "[ModuleData]-\u003eShaker IO[[ModuleData]]",
@@ -1165,6 +1253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of unresolved import and\n unexposed yet needed packages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "getListNeededPackages",
           "package": "shaker",
@@ -1175,6 +1264,7 @@
         "index": {
           "description": "Get the list of unresolved import and unexposed yet needed packages",
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "getListNeededPackages",
           "normalized": "Shaker IO[String]",
@@ -1190,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "initializeGhc",
           "package": "shaker",
@@ -1199,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "initializeGhc",
           "normalized": "CompileInput-\u003ea()",
@@ -1214,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "installedPackageIdString",
           "package": "shaker",
@@ -1223,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "installedPackageIdString",
           "normalized": "InstalledPackageId-\u003eString",
@@ -1238,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.GhcInterface",
           "name": "searchInstalledPackageId",
           "package": "shaker",
@@ -1247,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Shaker GhcInterface",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.GhcInterface",
           "name": "searchInstalledPackageId",
           "normalized": "String-\u003eShaker IO(Maybe String)",
@@ -1262,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "HsHelper",
           "package": "shaker",
@@ -1270,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "HsHelper",
           "package": "shaker",
@@ -1283,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "abstractCollectFunctionWithUnqualifiedType",
           "package": "shaker",
@@ -1292,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "abstractCollectFunctionWithUnqualifiedType",
           "normalized": "(HsQualType-\u003eBool)-\u003eHsModule-\u003e[String]",
@@ -1307,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "filterSnd",
           "package": "shaker",
@@ -1316,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "filterSnd",
           "normalized": "(a-\u003eBool)-\u003e[(b,a)]-\u003e[(b,a)]",
@@ -1331,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getDecls",
           "package": "shaker",
@@ -1340,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getDecls",
           "normalized": "HsModule-\u003e[HsDecl]",
@@ -1355,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getFunBindName",
           "package": "shaker",
@@ -1364,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getFunBindName",
           "normalized": "HsDecl-\u003eMaybe String",
@@ -1379,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getIdentFromHsName",
           "package": "shaker",
@@ -1388,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getIdentFromHsName",
           "normalized": "HsName-\u003eString",
@@ -1403,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getListFunction",
           "package": "shaker",
@@ -1412,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getListFunction",
           "normalized": "HsModule-\u003e[String]",
@@ -1427,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getSignature",
           "package": "shaker",
@@ -1436,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getSignature",
           "normalized": "HsDecl-\u003eMaybe(String,HsQualType)",
@@ -1451,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "getTupleFunctionNameType",
           "package": "shaker",
@@ -1460,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "getTupleFunctionNameType",
           "normalized": "HsModule-\u003e[(String,HsQualType)]",
@@ -1475,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "hsModuleCollectProperties",
           "package": "shaker",
@@ -1484,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "hsModuleCollectProperties",
           "normalized": "HsModule-\u003e[String]",
@@ -1499,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "hsModuleFileName",
           "package": "shaker",
@@ -1508,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "hsModuleFileName",
           "normalized": "HsModule-\u003eString",
@@ -1523,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "hsModuleName",
           "package": "shaker",
@@ -1532,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "hsModuleName",
           "normalized": "HsModule-\u003eString",
@@ -1547,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "mapSnd",
           "package": "shaker",
@@ -1556,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "mapSnd",
           "normalized": "(a-\u003ea)-\u003e[(a,a)]-\u003e[(a,a)]",
@@ -1571,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "parseFileToHsModule",
           "package": "shaker",
@@ -1580,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "parseFileToHsModule",
           "normalized": "FilePath-\u003eIO(Maybe HsModule)",
@@ -1595,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.HsHelper",
           "name": "parseHsFiles",
           "package": "shaker",
@@ -1604,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Shaker HsHelper",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.HsHelper",
           "name": "parseHsFiles",
           "normalized": "[FileListenInfo]-\u003eIO[HsModule]",
@@ -1620,6 +1746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManage all file operations like listing files with fileListenInfoIncludes and exclude patterns\n and file filtering\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "Io",
           "package": "shaker",
@@ -1629,6 +1756,7 @@
         "index": {
           "description": "Manage all file operations like listing files with fileListenInfoIncludes and exclude patterns and file filtering",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "Io",
           "package": "shaker",
@@ -1697,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the build file (without extension) for the given file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "getCorrespondingBuildFile",
           "package": "shaker",
@@ -1707,6 +1836,7 @@
         "index": {
           "description": "Get the build file without extension for the given file",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "getCorrespondingBuildFile",
           "normalized": "FilePath-\u003eShaker IO FilePath",
@@ -1723,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of FileInfo of the given fileListenInfoDirectory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "getCurrentFpCl",
           "package": "shaker",
@@ -1733,6 +1864,7 @@
         "index": {
           "description": "Get the list of FileInfo of the given fileListenInfoDirectory",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "getCurrentFpCl",
           "normalized": "FileListenInfo-\u003eIO[FileInfo]",
@@ -1748,6 +1880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "handleActionInterrupt",
           "package": "shaker",
@@ -1757,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "handleActionInterrupt",
           "normalized": "IO()-\u003eIO()",
@@ -1772,6 +1906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "handleIOException",
           "package": "shaker",
@@ -1781,6 +1916,7 @@
         },
         "index": {
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "handleIOException",
           "normalized": "IO()-\u003eIO()",
@@ -1797,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList files in the given fileListenInfoDirectory \n Files matching one regexp in the fileListenInfoIgnore shakerArgument are excluded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "listFiles",
           "package": "shaker",
@@ -1807,6 +1944,7 @@
         "index": {
           "description": "List files in the given fileListenInfoDirectory Files matching one regexp in the fileListenInfoIgnore shakerArgument are excluded",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "listFiles",
           "normalized": "FileListenInfo-\u003eIO[FilePath]",
@@ -1823,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the tuples of (newFiles,modifiedFiles) from given list of fileListenInfoDirectory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "listModifiedAndCreatedFiles",
           "package": "shaker",
@@ -1833,6 +1972,7 @@
         "index": {
           "description": "Get the tuples of newFiles modifiedFiles from given list of fileListenInfoDirectory",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "listModifiedAndCreatedFiles",
           "normalized": "[FileListenInfo]-\u003e[FileInfo]-\u003eIO([FileInfo],[FileInfo])",
@@ -1848,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "mapImportToModules",
           "package": "shaker",
@@ -1857,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "mapImportToModules",
           "package": "shaker",
@@ -1871,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursively list all files\n All non matching files are excluded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "recurseListFiles",
           "package": "shaker",
@@ -1881,6 +2024,7 @@
         "index": {
           "description": "Recursively list all files All non matching files are excluded",
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "recurseListFiles",
           "normalized": "FileListenInfo-\u003eIO[FilePath]",
@@ -1896,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Io",
           "name": "recurseMultipleListFiles",
           "package": "shaker",
@@ -1905,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Shaker Io",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Io",
           "name": "recurseMultipleListFiles",
           "normalized": "[FileListenInfo]-\u003eIO[FilePath]",
@@ -1921,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManage file listener operation for continuous mode.\n All communication are made via MVars\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "Listener",
           "package": "shaker",
@@ -1930,6 +2077,7 @@
         "index": {
           "description": "Manage file listener operation for continuous mode All communication are made via MVars",
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "Listener",
           "package": "shaker",
@@ -1944,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAgregate all information of listener\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "ListenState",
           "package": "shaker",
@@ -1953,6 +2102,7 @@
         "index": {
           "description": "Agregate all information of listener",
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "ListenState",
           "package": "shaker",
@@ -2014,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "initializeListener",
           "package": "shaker",
@@ -2023,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "initializeListener",
           "package": "shaker",
@@ -2037,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elisten to the job box and process the job\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "listen",
           "package": "shaker",
@@ -2047,6 +2200,7 @@
         "index": {
           "description": "listen to the job box and process the job",
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "listen",
           "normalized": "CurrentFiles-\u003eMvModifiedFiles-\u003eJob-\u003eIO()",
@@ -2087,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emanage the job box. Fill it with a job every listenerInputDelay\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "schedule",
           "package": "shaker",
@@ -2097,6 +2252,7 @@
         "index": {
           "description": "manage the job box Fill it with job every listenerInputDelay",
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "schedule",
           "normalized": "ListenerInput-\u003eJob-\u003eIO()",
@@ -2139,6 +2295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the files status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Listener",
           "name": "updateFileStat",
           "package": "shaker",
@@ -2149,6 +2306,7 @@
         "index": {
           "description": "Update the files status",
           "hierarchy": "Shaker Listener",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Listener",
           "name": "updateFileStat",
           "normalized": "CurrentFiles-\u003eMvModifiedFiles-\u003e[FileInfo]-\u003e[FileInfo]-\u003eIO()",
@@ -2164,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "ModuleData",
           "package": "shaker",
@@ -2172,6 +2331,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "ModuleData",
           "package": "shaker",
@@ -2185,6 +2345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "constructModuleData",
           "package": "shaker",
@@ -2194,6 +2355,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "constructModuleData",
           "normalized": "HsModule-\u003eModuleData",
@@ -2209,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "convertModuleDataToFullCompileInput",
           "package": "shaker",
@@ -2218,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "convertModuleDataToFullCompileInput",
           "normalized": "Shaker IO[CompileInput]",
@@ -2233,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "fillModuleData",
           "package": "shaker",
@@ -2242,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "fillModuleData",
           "normalized": "ShakerInput-\u003eIO ShakerInput",
@@ -2257,6 +2423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "filterFunctionsWithPatterns",
           "package": "shaker",
@@ -2266,6 +2433,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "filterFunctionsWithPatterns",
           "normalized": "[ModuleData]-\u003e[String]-\u003e[ModuleData]",
@@ -2281,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "filterFunctionsWithPatterns'",
           "package": "shaker",
@@ -2290,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "filterFunctionsWithPatterns'",
           "normalized": "ModuleData-\u003e[String]-\u003eModuleData",
@@ -2306,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude only module matching the given pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "filterModulesWithPattern",
           "package": "shaker",
@@ -2316,6 +2487,7 @@
         "index": {
           "description": "Include only module matching the given pattern",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "filterModulesWithPattern",
           "normalized": "[ModuleData]-\u003eString-\u003e[ModuleData]",
@@ -2332,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the corresponding mdata file from the given source file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "getCorrespondingModuleDataFile",
           "package": "shaker",
@@ -2342,6 +2515,7 @@
         "index": {
           "description": "Get the corresponding mdata file from the given source file",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "getCorrespondingModuleDataFile",
           "normalized": "FilePath-\u003eShaker IO FilePath",
@@ -2357,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "getNonMainCompileInput",
           "package": "shaker",
@@ -2366,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "getNonMainCompileInput",
           "package": "shaker",
@@ -2379,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "groupByValidTargets",
           "package": "shaker",
@@ -2388,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "groupByValidTargets",
           "normalized": "[ModuleData]-\u003e[[ModuleData]]",
@@ -2403,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "hsModuleDataHasTest",
           "package": "shaker",
@@ -2412,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "hsModuleDataHasTest",
           "normalized": "ModuleData-\u003eBool",
@@ -2428,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse module data from all haskell sources. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "parseAllModuleData",
           "package": "shaker",
@@ -2438,6 +2619,7 @@
         "index": {
           "description": "Parse module data from all haskell sources",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "parseAllModuleData",
           "normalized": "Shaker IO[ModuleData]",
@@ -2454,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead Module data from the given haskell source. It tries to read serialized information beforehand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "parseModuleData",
           "package": "shaker",
@@ -2464,6 +2647,7 @@
         "index": {
           "description": "Read Module data from the given haskell source It tries to read serialized information beforehand",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "parseModuleData",
           "normalized": "FilePath-\u003eShaker IO(Maybe ModuleData)",
@@ -2480,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead Module data from the serialized data. It returns Nothing if the serialized data is absent or out-of-date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "parseModuleDataIfExist",
           "package": "shaker",
@@ -2490,6 +2675,7 @@
         "index": {
           "description": "Read Module data from the serialized data It returns Nothing if the serialized data is absent or out-of-date",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "parseModuleDataIfExist",
           "normalized": "FilePath-\u003eShaker IO(Maybe ModuleData)",
@@ -2505,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "removeNonTestModules",
           "package": "shaker",
@@ -2514,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "removeNonTestModules",
           "normalized": "[ModuleData]-\u003e[ModuleData]",
@@ -2530,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite given moduleData in dist directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.ModuleData",
           "name": "writeModuleData",
           "package": "shaker",
@@ -2540,6 +2729,7 @@
         "index": {
           "description": "Write given moduleData in dist directory",
           "hierarchy": "Shaker ModuleData",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.ModuleData",
           "name": "writeModuleData",
           "normalized": "ModuleData-\u003eShaker IO()",
@@ -2556,6 +2746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule responsible to parse a String into a Command\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Parser",
           "name": "Parser",
           "package": "shaker",
@@ -2565,6 +2756,7 @@
         "index": {
           "description": "Module responsible to parse String into Command",
           "hierarchy": "Shaker Parser",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Parser",
           "name": "Parser",
           "package": "shaker",
@@ -2579,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given string to a Command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Parser",
           "name": "parseCommand",
           "package": "shaker",
@@ -2589,6 +2782,7 @@
         "index": {
           "description": "Parse the given string to Command",
           "hierarchy": "Shaker Parser",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Parser",
           "name": "parseCommand",
           "normalized": "String-\u003eShakerInput-\u003eEither ParseError Command",
@@ -2605,6 +2799,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRegister available actions and how they will be called\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.PluginConfig",
           "name": "PluginConfig",
           "package": "shaker",
@@ -2614,6 +2809,7 @@
         "index": {
           "description": "Register available actions and how they will be called",
           "hierarchy": "Shaker PluginConfig",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.PluginConfig",
           "name": "PluginConfig",
           "package": "shaker",
@@ -2627,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.PluginConfig",
           "name": "defaultCommandMap",
           "package": "shaker",
@@ -2636,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Shaker PluginConfig",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.PluginConfig",
           "name": "defaultCommandMap",
           "package": "shaker",
@@ -2650,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default plugin map contains mapping for compile, help and exit action \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.PluginConfig",
           "name": "defaultPluginMap",
           "package": "shaker",
@@ -2660,6 +2859,7 @@
         "index": {
           "description": "The default plugin map contains mapping for compile help and exit action",
           "hierarchy": "Shaker PluginConfig",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.PluginConfig",
           "name": "defaultPluginMap",
           "package": "shaker",
@@ -2673,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "Reflexivite",
           "package": "shaker",
@@ -2681,6 +2882,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "Reflexivite",
           "package": "shaker",
@@ -2694,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "RunnableFunction",
           "package": "shaker",
@@ -2702,6 +2905,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "RunnableFunction",
           "package": "shaker",
@@ -2715,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "RunnableFunction",
           "package": "shaker",
@@ -2724,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "RunnableFunction",
           "package": "shaker",
@@ -2738,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile, load and run the given function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "runFunction",
           "package": "shaker",
@@ -2748,6 +2955,7 @@
         "index": {
           "description": "Compile load and run the given function",
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "runFunction",
           "normalized": "CompileInput-\u003eRunnableFunction-\u003eShaker IO()",
@@ -2763,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "runnableFunctionFunction",
           "package": "shaker",
@@ -2772,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "runnableFunctionFunction",
           "package": "shaker",
@@ -2785,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "runnableFunctionModule",
           "package": "shaker",
@@ -2794,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "runnableFunctionModule",
           "normalized": "[String]",
@@ -2809,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Reflexivite",
           "name": "runnableLibrairies",
           "package": "shaker",
@@ -2818,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Shaker Reflexivite",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Reflexivite",
           "name": "runnableLibrairies",
           "normalized": "[String]",
@@ -2834,6 +3048,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAllow to filter a list of string with fileListenInfoInclude and exclude patterns\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Regex",
           "name": "Regex",
           "package": "shaker",
@@ -2843,6 +3058,7 @@
         "index": {
           "description": "Allow to filter list of string with fileListenInfoInclude and exclude patterns",
           "hierarchy": "Shaker Regex",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Regex",
           "name": "Regex",
           "package": "shaker",
@@ -2857,6 +3073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter all elements matching fileListenInfoInclude patterns and \n remove all elements matching exclude patterns to the result.\n\u003c/p\u003e\u003cp\u003eIf no fileListenInfoInclude pattern is given, all elements are accepted minus those matching exclude patterns.\n\u003c/p\u003e\u003cp\u003eIf no exclude pattern is given, all elements matching fileListenInfoInclude patterns are taken.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Regex",
           "name": "processListWithRegexp",
           "package": "shaker",
@@ -2866,6 +3083,7 @@
         "index": {
           "description": "Filter all elements matching fileListenInfoInclude patterns and remove all elements matching exclude patterns to the result If no fileListenInfoInclude pattern is given all elements are accepted minus those matching exclude patterns If no exclude pattern is given all elements matching fileListenInfoInclude patterns are taken",
           "hierarchy": "Shaker Regex",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Regex",
           "name": "processListWithRegexp",
           "normalized": "[String]-\u003e[String]-\u003e[String]-\u003e[String]",
@@ -2882,6 +3100,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAllow to dynamically construct a list of \n quickcheck properties and Hunit test with template haskell\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "TestTH",
           "package": "shaker",
@@ -2891,6 +3110,7 @@
         "index": {
           "description": "Allow to dynamically construct list of quickcheck properties and Hunit test with template haskell",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "TestTH",
           "package": "shaker",
@@ -2904,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "convertHunitTestCaseToTuples",
           "package": "shaker",
@@ -2913,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "convertHunitTestCaseToTuples",
           "normalized": "[String]-\u003eExp",
@@ -2929,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an expression for a single hunit test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "getSingleFrameworkHunit",
           "package": "shaker",
@@ -2939,6 +3162,7 @@
         "index": {
           "description": "Generate an expression for single hunit test",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "getSingleFrameworkHunit",
           "normalized": "String-\u003eExp",
@@ -2955,6 +3179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an expression for a single quickcheck property\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "getSingleFrameworkQuickCheck",
           "package": "shaker",
@@ -2965,6 +3190,7 @@
         "index": {
           "description": "Generate an expression for single quickcheck property",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "getSingleFrameworkQuickCheck",
           "normalized": "String-\u003eExp",
@@ -2981,6 +3207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a test group for a given module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "getSingleTestFrameworkGroup",
           "package": "shaker",
@@ -2991,6 +3218,7 @@
         "index": {
           "description": "Generate test group for given module",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "getSingleTestFrameworkGroup",
           "normalized": "ModuleData-\u003eExp",
@@ -3007,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all test group of the project.\n see \u003ca\u003eShaker.TestTH\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "listAllTestFrameworkGroupList",
           "package": "shaker",
@@ -3017,6 +3246,7 @@
         "index": {
           "description": "List all test group of the project see Shaker.TestTH",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "listAllTestFrameworkGroupList",
           "normalized": "ShakerInput-\u003eExpQ",
@@ -3033,6 +3263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all test group for test-framework from the list of modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.TestTH",
           "name": "listTestFrameworkGroupList",
           "package": "shaker",
@@ -3043,6 +3274,7 @@
         "index": {
           "description": "List all test group for test-framework from the list of modules",
           "hierarchy": "Shaker TestTH",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.TestTH",
           "name": "listTestFrameworkGroupList",
           "normalized": "[ModuleData]-\u003eExpQ",
@@ -3059,6 +3291,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAggregate all types and data used through shaker\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Type",
           "package": "shaker",
@@ -3068,6 +3301,7 @@
         "index": {
           "description": "Aggregate all types and data used through shaker",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Type",
           "package": "shaker",
@@ -3082,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction represents the differents action with arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Action",
           "package": "shaker",
@@ -3091,6 +3326,7 @@
         "index": {
           "description": "Action represents the differents action with arguments",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Action",
           "package": "shaker",
@@ -3105,6 +3341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommand agregate a duration with an action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Command",
           "package": "shaker",
@@ -3114,6 +3351,7 @@
         "index": {
           "description": "Command agregate duration with an action",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Command",
           "package": "shaker",
@@ -3128,6 +3366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the mapping between the command-line input and the action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "CommandMap",
           "package": "shaker",
@@ -3137,6 +3376,7 @@
         "index": {
           "description": "Represents the mapping between the command-line input and the action",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "CommandMap",
           "package": "shaker",
@@ -3151,6 +3391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration flags to pass to the ghc compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "CompileInput",
           "package": "shaker",
@@ -3160,6 +3401,7 @@
         "index": {
           "description": "Configuration flags to pass to the ghc compiler",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "CompileInput",
           "package": "shaker",
@@ -3174,6 +3416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironnement for the project compilation\n This environnement can change depending on the compile \n action called\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "CompileM",
           "package": "shaker",
@@ -3183,6 +3426,7 @@
         "index": {
           "description": "Environnement for the project compilation This environnement can change depending on the compile action called",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "CompileM",
           "package": "shaker",
@@ -3196,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ConductorData",
           "package": "shaker",
@@ -3204,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ConductorData",
           "package": "shaker",
@@ -3218,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMVar used to store currentFiles listed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "CurrentFiles",
           "package": "shaker",
@@ -3227,6 +3474,7 @@
         "index": {
           "description": "MVar used to store currentFiles listed",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "CurrentFiles",
           "package": "shaker",
@@ -3241,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration define the life span of an action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Duration",
           "package": "shaker",
@@ -3250,6 +3499,7 @@
         "index": {
           "description": "Duration define the life span of an action",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Duration",
           "package": "shaker",
@@ -3264,6 +3514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAgregate a FilePath with its modification time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "FileInfo",
           "package": "shaker",
@@ -3273,6 +3524,7 @@
         "index": {
           "description": "Agregate FilePath with its modification time",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "FileInfo",
           "package": "shaker",
@@ -3287,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents fileListenInfoDirectory to listen \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "FileListenInfo",
           "package": "shaker",
@@ -3296,6 +3549,7 @@
         "index": {
           "description": "Represents fileListenInfoDirectory to listen",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "FileListenInfo",
           "package": "shaker",
@@ -3310,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe input mvar is used to push the parsed command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "InputCommand",
           "package": "shaker",
@@ -3319,6 +3574,7 @@
         "index": {
           "description": "The input mvar is used to push the parsed command",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "InputCommand",
           "package": "shaker",
@@ -3332,6 +3588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "InputState",
           "package": "shaker",
@@ -3340,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "InputState",
           "package": "shaker",
@@ -3354,6 +3612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMVar used to pass action to the fileListenInfoDirectory scanner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Job",
           "package": "shaker",
@@ -3363,6 +3622,7 @@
         "index": {
           "description": "MVar used to pass action to the fileListenInfoDirectory scanner",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Job",
           "package": "shaker",
@@ -3377,6 +3637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAgregate all information of listener\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ListenState",
           "package": "shaker",
@@ -3386,6 +3647,7 @@
         "index": {
           "description": "Agregate all information of listener",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ListenState",
           "package": "shaker",
@@ -3400,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration of the continuous listener\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ListenerInput",
           "package": "shaker",
@@ -3409,6 +3672,7 @@
         "index": {
           "description": "Configuration of the continuous listener",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ListenerInput",
           "package": "shaker",
@@ -3422,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "MapImportToModules",
           "package": "shaker",
@@ -3430,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "MapImportToModules",
           "package": "shaker",
@@ -3443,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ModuleData",
           "package": "shaker",
@@ -3451,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ModuleData",
           "package": "shaker",
@@ -3465,6 +3733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMVar used to store modifiedFiles since the last check\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "MvModifiedFiles",
           "package": "shaker",
@@ -3474,6 +3743,7 @@
         "index": {
           "description": "MVar used to store modifiedFiles since the last check",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "MvModifiedFiles",
           "package": "shaker",
@@ -3487,6 +3757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "PackageData",
           "package": "shaker",
@@ -3495,6 +3766,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "PackageData",
           "package": "shaker",
@@ -3509,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an action of shaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Plugin",
           "package": "shaker",
@@ -3518,6 +3791,7 @@
         "index": {
           "description": "Represents an action of shaker",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Plugin",
           "package": "shaker",
@@ -3532,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the mapping beetween an action and the function to execute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "PluginMap",
           "package": "shaker",
@@ -3541,6 +3816,7 @@
         "index": {
           "description": "Represents the mapping beetween an action and the function to execute",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "PluginMap",
           "package": "shaker",
@@ -3555,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironnement containing the project configuration.\n It is generated at startup and won't change\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Shaker",
           "package": "shaker",
@@ -3564,6 +3841,7 @@
         "index": {
           "description": "Environnement containing the project configuration It is generated at startup and won change",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Shaker",
           "package": "shaker",
@@ -3578,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShakerAction represents the differents actions realisable by shaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ShakerAction",
           "package": "shaker",
@@ -3587,6 +3866,7 @@
         "index": {
           "description": "ShakerAction represents the differents actions realisable by shaker",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ShakerAction",
           "package": "shaker",
@@ -3601,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents the global configuration of the system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ShakerInput",
           "package": "shaker",
@@ -3610,6 +3891,7 @@
         "index": {
           "description": "Represents the global configuration of the system",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ShakerInput",
           "package": "shaker",
@@ -3623,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ShakerR",
           "package": "shaker",
@@ -3631,6 +3914,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ShakerR",
           "package": "shaker",
@@ -3644,6 +3928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ThreadData",
           "package": "shaker",
@@ -3652,6 +3937,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ThreadData",
           "package": "shaker",
@@ -3665,6 +3951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ThreadIdList",
           "package": "shaker",
@@ -3673,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ThreadIdList",
           "package": "shaker",
@@ -3686,6 +3974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Token",
           "package": "shaker",
@@ -3694,6 +3983,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Token",
           "package": "shaker",
@@ -3707,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Verbosity",
           "package": "shaker",
@@ -3715,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Verbosity",
           "package": "shaker",
@@ -3728,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Action",
           "package": "shaker",
@@ -3737,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Action",
           "package": "shaker",
@@ -3750,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ActionWithArg",
           "package": "shaker",
@@ -3759,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ActionWithArg",
           "normalized": "ActionWithArg ShakerAction[String]",
@@ -3775,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete generated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Clean",
           "package": "shaker",
@@ -3785,6 +4082,7 @@
         "index": {
           "description": "Delete generated",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Clean",
           "package": "shaker",
@@ -3798,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Command",
           "package": "shaker",
@@ -3807,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Command",
           "normalized": "Command Duration[Action]",
@@ -3823,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile sources with ghc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Compile",
           "package": "shaker",
@@ -3833,6 +4134,7 @@
         "index": {
           "description": "Compile sources with ghc",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Compile",
           "package": "shaker",
@@ -3846,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "CompileInput",
           "package": "shaker",
@@ -3855,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "CompileInput",
           "package": "shaker",
@@ -3868,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ConductorData",
           "package": "shaker",
@@ -3877,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ConductorData",
           "normalized": "ConductorData ListenState([FileInfo]-\u003eIO())",
@@ -3893,6 +4199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the action when a source file modification is done until it is stopped\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Continuous",
           "package": "shaker",
@@ -3903,6 +4210,7 @@
         "index": {
           "description": "Execute the action when source file modification is done until it is stopped",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Continuous",
           "package": "shaker",
@@ -3916,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Debug",
           "package": "shaker",
@@ -3925,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Debug",
           "package": "shaker",
@@ -3939,6 +4249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNothing to execute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Empty",
           "package": "shaker",
@@ -3949,6 +4260,7 @@
         "index": {
           "description": "Nothing to execute",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Empty",
           "package": "shaker",
@@ -3963,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Execute",
           "package": "shaker",
@@ -3973,6 +4286,7 @@
         "index": {
           "description": "Execute command",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Execute",
           "package": "shaker",
@@ -3986,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "FileInfo",
           "package": "shaker",
@@ -3995,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "FileInfo",
           "package": "shaker",
@@ -4008,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "FileListenInfo",
           "package": "shaker",
@@ -4017,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "FileListenInfo",
           "package": "shaker",
@@ -4031,6 +4349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile all hs sources with ghc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "FullCompile",
           "package": "shaker",
@@ -4041,6 +4360,7 @@
         "index": {
           "description": "Compile all hs sources with ghc",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "FullCompile",
           "package": "shaker",
@@ -4054,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "GhcModuleData",
           "package": "shaker",
@@ -4063,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "GhcModuleData",
           "package": "shaker",
@@ -4077,6 +4399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the help\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Help",
           "package": "shaker",
@@ -4087,6 +4410,7 @@
         "index": {
           "description": "Display the help",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Help",
           "package": "shaker",
@@ -4101,6 +4425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute both quickcheck and hunit using test framework on recompiled modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "IntelligentModuleTestFramework",
           "package": "shaker",
@@ -4111,6 +4436,7 @@
         "index": {
           "description": "Execute both quickcheck and hunit using test framework on recompiled modules",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "IntelligentModuleTestFramework",
           "package": "shaker",
@@ -4125,6 +4451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute both quickcheck and hunit using test framework on recompiled modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "IntelligentTestFramework",
           "package": "shaker",
@@ -4135,6 +4462,7 @@
         "index": {
           "description": "Execute both quickcheck and hunit using test framework on recompiled modules",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "IntelligentTestFramework",
           "package": "shaker",
@@ -4149,6 +4477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an error when invalid action is inputed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "InvalidAction",
           "package": "shaker",
@@ -4159,6 +4488,7 @@
         "index": {
           "description": "Display an error when invalid action is inputed",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "InvalidAction",
           "package": "shaker",
@@ -4172,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ListenerInput",
           "package": "shaker",
@@ -4181,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ListenerInput",
           "package": "shaker",
@@ -4194,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ModuleData",
           "package": "shaker",
@@ -4203,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ModuleData",
           "package": "shaker",
@@ -4217,6 +4551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute both quickcheck and hunit using test framework with module filtering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ModuleTestFramework",
           "package": "shaker",
@@ -4227,6 +4562,7 @@
         "index": {
           "description": "Execute both quickcheck and hunit using test framework with module filtering",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ModuleTestFramework",
           "package": "shaker",
@@ -4241,6 +4577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the action and give back control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "OneShot",
           "package": "shaker",
@@ -4251,6 +4588,7 @@
         "index": {
           "description": "Execute the action and give back control",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "OneShot",
           "package": "shaker",
@@ -4264,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "PackageData",
           "package": "shaker",
@@ -4273,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "PackageData",
           "package": "shaker",
@@ -4287,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExit shaker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Quit",
           "package": "shaker",
@@ -4297,6 +4638,7 @@
         "index": {
           "description": "Exit shaker",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Quit",
           "package": "shaker",
@@ -4310,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ShakerInput",
           "package": "shaker",
@@ -4319,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ShakerInput",
           "package": "shaker",
@@ -4332,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "Silent",
           "package": "shaker",
@@ -4341,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "Silent",
           "package": "shaker",
@@ -4355,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute both quickcheck and hunit using test framework\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "TestFramework",
           "package": "shaker",
@@ -4365,6 +4712,7 @@
         "index": {
           "description": "Execute both quickcheck and hunit using test framework",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "TestFramework",
           "package": "shaker",
@@ -4378,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ThreadData",
           "package": "shaker",
@@ -4387,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ThreadData",
           "package": "shaker",
@@ -4401,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestination of .o and .hi files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "compileInputBuildDirectory",
           "package": "shaker",
@@ -4411,6 +4762,7 @@
         "index": {
           "description": "Destination of and hi files",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "compileInputBuildDirectory",
           "package": "shaker",
@@ -4425,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe command line to pass options to pass to the ghc compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "compileInputCommandLineFlags",
           "package": "shaker",
@@ -4435,6 +4788,7 @@
         "index": {
           "description": "The command line to pass options to pass to the ghc compiler",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "compileInputCommandLineFlags",
           "normalized": "[String]",
@@ -4451,6 +4805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA transform fonction wich will takes the DynFlags of the current ghc session and change some values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "compileInputDynFlags",
           "package": "shaker",
@@ -4461,6 +4816,7 @@
         "index": {
           "description": "transform fonction wich will takes the DynFlags of the current ghc session and change some values",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "compileInputDynFlags",
           "normalized": "DynFlags-\u003eDynFlags",
@@ -4477,6 +4833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSource fileListenInfoDirectory of haskell files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "compileInputSourceDirs",
           "package": "shaker",
@@ -4487,6 +4844,7 @@
         "index": {
           "description": "Source fileListenInfoDirectory of haskell files",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "compileInputSourceDirs",
           "normalized": "[String]",
@@ -4503,6 +4861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of files or list of modules to compile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "compileInputTargetFiles",
           "package": "shaker",
@@ -4513,6 +4872,7 @@
         "index": {
           "description": "List of files or list of modules to compile",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "compileInputTargetFiles",
           "normalized": "[String]",
@@ -4529,6 +4889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefault dynamics flags\n the sources are expected to be in src as described in \u003ca\u003ehttp://www.haskell.org/haskellwiki/structure_of_a_haskell_project\u003c/a\u003e\n the result of compilation (.o and .hi) are placed in the dist/shakerTarget\n there is no main linkage by default to allow faster compilation feedback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "defaultCompileFlags",
           "package": "shaker",
@@ -4539,6 +4900,7 @@
         "index": {
           "description": "default dynamics flags the sources are expected to be in src as described in http www.haskell.org haskellwiki structure of haskell project the result of compilation and hi are placed in the dist shakerTarget there is no main linkage by default to allow faster compilation feedback",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "defaultCompileFlags",
           "normalized": "DynFlags-\u003eDynFlags",
@@ -4554,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "defaultDistDir",
           "package": "shaker",
@@ -4563,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "defaultDistDir",
           "package": "shaker",
@@ -4576,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "emptyCommand",
           "package": "shaker",
@@ -4585,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "emptyCommand",
           "package": "shaker",
@@ -4598,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "exitCommand",
           "package": "shaker",
@@ -4607,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "exitCommand",
           "package": "shaker",
@@ -4620,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "fileInfoClockTime",
           "package": "shaker",
@@ -4629,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "fileInfoClockTime",
           "package": "shaker",
@@ -4642,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "fileInfoFilePath",
           "package": "shaker",
@@ -4651,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "fileInfoFilePath",
           "package": "shaker",
@@ -4665,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocation of the listened fileListenInfoDirectory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "fileListenInfoDir",
           "package": "shaker",
@@ -4675,6 +5048,7 @@
         "index": {
           "description": "location of the listened fileListenInfoDirectory",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "fileListenInfoDir",
           "package": "shaker",
@@ -4689,6 +5063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efileListenInfoIgnore patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "fileListenInfoIgnore",
           "package": "shaker",
@@ -4699,6 +5074,7 @@
         "index": {
           "description": "fileListenInfoIgnore patterns",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "fileListenInfoIgnore",
           "normalized": "[String]",
@@ -4715,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efileListenInfoInclude patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "fileListenInfoInclude",
           "package": "shaker",
@@ -4725,6 +5102,7 @@
         "index": {
           "description": "fileListenInfoInclude patterns",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "fileListenInfoInclude",
           "normalized": "[String]",
@@ -4740,6 +5118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "getListenThreadList",
           "package": "shaker",
@@ -4749,6 +5128,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "getListenThreadList",
           "normalized": "ShakerInput-\u003eThreadIdList",
@@ -4764,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "getModuleDataName",
           "package": "shaker",
@@ -4773,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "getModuleDataName",
           "normalized": "ModuleData-\u003eString",
@@ -4788,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "getModuleDataTests",
           "package": "shaker",
@@ -4797,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "getModuleDataTests",
           "normalized": "ModuleData-\u003e([String],[String],[String])",
@@ -4812,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ghcModuleDataAssertions",
           "package": "shaker",
@@ -4821,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ghcModuleDataAssertions",
           "normalized": "[String]",
@@ -4836,6 +5222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ghcModuleDataName",
           "package": "shaker",
@@ -4845,6 +5232,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ghcModuleDataName",
           "package": "shaker",
@@ -4858,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "ghcModuleDataTestCase",
           "package": "shaker",
@@ -4867,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "ghcModuleDataTestCase",
           "normalized": "[String]",
@@ -4882,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "listTestLibs",
           "package": "shaker",
@@ -4891,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "listTestLibs",
           "normalized": "[String]",
@@ -4907,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay beetween 2 check in microsecond\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "listenerInputDelay",
           "package": "shaker",
@@ -4917,6 +5310,7 @@
         "index": {
           "description": "Delay beetween check in microsecond",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "listenerInputDelay",
           "package": "shaker",
@@ -4931,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe files to listen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "listenerInputFiles",
           "package": "shaker",
@@ -4941,6 +5336,7 @@
         "index": {
           "description": "The files to listen",
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "listenerInputFiles",
           "normalized": "[FileListenInfo]",
@@ -4956,6 +5352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataAssertions",
           "package": "shaker",
@@ -4965,6 +5362,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataAssertions",
           "normalized": "[String]",
@@ -4980,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataExtension",
           "package": "shaker",
@@ -4989,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataExtension",
           "package": "shaker",
@@ -5002,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataFileName",
           "package": "shaker",
@@ -5011,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataFileName",
           "package": "shaker",
@@ -5024,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataHasMain",
           "package": "shaker",
@@ -5033,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataHasMain",
           "package": "shaker",
@@ -5046,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataName",
           "package": "shaker",
@@ -5055,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataName",
           "package": "shaker",
@@ -5068,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataProperties",
           "package": "shaker",
@@ -5077,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataProperties",
           "normalized": "[String]",
@@ -5092,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "moduleDataTestCase",
           "package": "shaker",
@@ -5101,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "moduleDataTestCase",
           "normalized": "[String]",
@@ -5116,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "packageDataListProjectModules",
           "package": "shaker",
@@ -5125,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "packageDataListProjectModules",
           "normalized": "[String]",
@@ -5140,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "packageDataMapImportToModules",
           "package": "shaker",
@@ -5149,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "packageDataMapImportToModules",
           "package": "shaker",
@@ -5162,6 +5576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerArgument",
           "package": "shaker",
@@ -5171,6 +5586,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerArgument",
           "normalized": "[String]",
@@ -5186,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerCommandMap",
           "package": "shaker",
@@ -5195,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerCommandMap",
           "package": "shaker",
@@ -5208,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerCompileInputs",
           "package": "shaker",
@@ -5217,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerCompileInputs",
           "normalized": "[CompileInput]",
@@ -5232,6 +5652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerInputState",
           "package": "shaker",
@@ -5241,6 +5662,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerInputState",
           "package": "shaker",
@@ -5254,6 +5676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerListenerInput",
           "package": "shaker",
@@ -5263,6 +5686,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerListenerInput",
           "package": "shaker",
@@ -5276,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerLocalBuildInfo",
           "package": "shaker",
@@ -5285,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerLocalBuildInfo",
           "package": "shaker",
@@ -5298,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerModifiedInfoFiles",
           "package": "shaker",
@@ -5307,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerModifiedInfoFiles",
           "normalized": "[FileInfo]",
@@ -5322,6 +5750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerModuleData",
           "package": "shaker",
@@ -5331,6 +5760,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerModuleData",
           "normalized": "[ModuleData]",
@@ -5346,6 +5776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerPackageIndex",
           "package": "shaker",
@@ -5355,6 +5786,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerPackageIndex",
           "package": "shaker",
@@ -5368,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerPluginMap",
           "package": "shaker",
@@ -5377,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerPluginMap",
           "package": "shaker",
@@ -5390,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerThreadData",
           "package": "shaker",
@@ -5399,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerThreadData",
           "package": "shaker",
@@ -5412,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "shakerVerbosity",
           "package": "shaker",
@@ -5421,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "shakerVerbosity",
           "package": "shaker",
@@ -5434,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "threadDataListenList",
           "package": "shaker",
@@ -5443,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "threadDataListenList",
           "package": "shaker",
@@ -5456,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "threadDataListenToken",
           "package": "shaker",
@@ -5465,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "threadDataListenToken",
           "package": "shaker",
@@ -5478,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "threadDataQuitList",
           "package": "shaker",
@@ -5487,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "threadDataQuitList",
           "package": "shaker",
@@ -5500,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:01:00 UTC 2014",
           "module": "Shaker.Type",
           "name": "threadDataQuitToken",
           "package": "shaker",
@@ -5509,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "Shaker Type",
+          "indexed": "2014-03-11T20:01:00",
           "module": "Shaker.Type",
           "name": "threadDataQuitToken",
           "package": "shaker",

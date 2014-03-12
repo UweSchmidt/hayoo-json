@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "darcs-buildpackage"
+        "phrase": "darcs-buildpackage",
+        "type": "phrase"
       },
       "type": "context"
     }

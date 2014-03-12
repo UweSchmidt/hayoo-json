@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "slice-cpp-gen"
+        "phrase": "slice-cpp-gen",
+        "type": "phrase"
       },
       "type": "context"
     }

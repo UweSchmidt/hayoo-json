@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hole"
+        "phrase": "hole",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Lazy",
           "name": "Lazy",
           "package": "hole",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Lazy",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Lazy",
           "name": "Lazy",
           "package": "hole",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Lazy",
           "name": "Hole",
           "package": "hole",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Lazy",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Lazy",
           "name": "Hole",
           "package": "hole",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Lazy",
           "name": "Hole",
           "package": "hole",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Lazy",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Lazy",
           "name": "Hole",
           "package": "hole",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Strict",
           "name": "Strict",
           "package": "hole",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Strict",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Strict",
           "name": "Strict",
           "package": "hole",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Strict",
           "name": "Hole",
           "package": "hole",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Strict",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Strict",
           "name": "Hole",
           "package": "hole",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole.Strict",
           "name": "Hole",
           "package": "hole",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Hole Strict",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole.Strict",
           "name": "Hole",
           "package": "hole",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:43:11 UTC 2014",
           "module": "Data.Hole",
           "name": "Hole",
           "package": "hole",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Hole",
+          "indexed": "2014-03-11T18:43:11",
           "module": "Data.Hole",
           "name": "Hole",
           "package": "hole",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-pitch-literal"
+        "phrase": "music-pitch-literal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides overloaded pitch literals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "Literal",
           "package": "music-pitch-literal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides overloaded pitch literals",
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "Literal",
           "package": "music-pitch-literal",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "IsPitch",
           "package": "music-pitch-literal",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "IsPitch",
           "package": "music-pitch-literal",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ePitchL\u003c/a\u003e\u003c/code\u003e types is used to encode a pitch literal. You don't need to\n think about this type unless you are implementing \u003ccode\u003e\u003ca\u003eIsPitch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIt is defined as \u003ccode\u003e(class, alteration, octave)\u003c/code\u003e, where\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eclass\u003c/code\u003e      is a pitch class number in \u003ccode\u003e[0..6]\u003c/code\u003e, starting from C.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ealteration\u003c/code\u003e is the number of semitones, i.e. 0 is natural, 1 for sharp 2 for double sharp, -1 for flat and -2 for double flat.\n       Alteration is in \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e because some pitch representations differ between explicit and explicit accidentals, i.e. a diatonic\n       pitch type may assume \u003ccode\u003e(0,Nothing,4)\u003c/code\u003e to mean C sharp rather than C.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003eoctave\u003c/code\u003e     is octave number in scientific pitch notation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMiddle C is represented by the pitch literal \u003ccode\u003e(0, Nothing, 4)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "PitchL",
           "package": "music-pitch-literal",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The PitchL types is used to encode pitch literal You don need to think about this type unless you are implementing IsPitch It is defined as class alteration octave where class is pitch class number in starting from alteration is the number of semitones i.e is natural for sharp for double sharp for flat and for double flat Alteration is in Maybe because some pitch representations differ between explicit and explicit accidentals i.e diatonic pitch type may assume Nothing to mean sharp rather than octave is octave number in scientific pitch notation Middle is represented by the pitch literal Nothing",
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "PitchL",
           "package": "music-pitch-literal",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "PitchL",
           "package": "music-pitch-literal",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "PitchL",
           "package": "music-pitch-literal",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "a",
           "package": "music-pitch-literal",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "a",
           "package": "music-pitch-literal",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "a'",
           "package": "music-pitch-literal",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "a'",
           "package": "music-pitch-literal",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "a''",
           "package": "music-pitch-literal",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "a''",
           "package": "music-pitch-literal",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "a_",
           "package": "music-pitch-literal",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "a_",
           "package": "music-pitch-literal",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "a__",
           "package": "music-pitch-literal",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "a__",
           "package": "music-pitch-literal",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ab",
           "package": "music-pitch-literal",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ab",
           "package": "music-pitch-literal",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ab'",
           "package": "music-pitch-literal",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ab'",
           "package": "music-pitch-literal",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ab''",
           "package": "music-pitch-literal",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ab''",
           "package": "music-pitch-literal",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ab_",
           "package": "music-pitch-literal",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ab_",
           "package": "music-pitch-literal",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ab__",
           "package": "music-pitch-literal",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ab__",
           "package": "music-pitch-literal",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "as",
           "package": "music-pitch-literal",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "as",
           "package": "music-pitch-literal",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "as'",
           "package": "music-pitch-literal",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "as'",
           "package": "music-pitch-literal",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "as''",
           "package": "music-pitch-literal",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "as''",
           "package": "music-pitch-literal",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "as_",
           "package": "music-pitch-literal",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "as_",
           "package": "music-pitch-literal",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "as__",
           "package": "music-pitch-literal",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "as__",
           "package": "music-pitch-literal",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "b",
           "package": "music-pitch-literal",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "b",
           "package": "music-pitch-literal",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "b'",
           "package": "music-pitch-literal",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "b'",
           "package": "music-pitch-literal",
@@ -464,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "b''",
           "package": "music-pitch-literal",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "b''",
           "package": "music-pitch-literal",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "b_",
           "package": "music-pitch-literal",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "b_",
           "package": "music-pitch-literal",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "b__",
           "package": "music-pitch-literal",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "b__",
           "package": "music-pitch-literal",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bb",
           "package": "music-pitch-literal",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bb",
           "package": "music-pitch-literal",
@@ -548,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bb'",
           "package": "music-pitch-literal",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bb'",
           "package": "music-pitch-literal",
@@ -569,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bb''",
           "package": "music-pitch-literal",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bb''",
           "package": "music-pitch-literal",
@@ -590,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bb_",
           "package": "music-pitch-literal",
@@ -599,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bb_",
           "package": "music-pitch-literal",
@@ -611,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bb__",
           "package": "music-pitch-literal",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bb__",
           "package": "music-pitch-literal",
@@ -632,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bs",
           "package": "music-pitch-literal",
@@ -641,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bs",
           "package": "music-pitch-literal",
@@ -653,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bs'",
           "package": "music-pitch-literal",
@@ -662,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bs'",
           "package": "music-pitch-literal",
@@ -674,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bs''",
           "package": "music-pitch-literal",
@@ -683,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bs''",
           "package": "music-pitch-literal",
@@ -695,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bs_",
           "package": "music-pitch-literal",
@@ -704,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bs_",
           "package": "music-pitch-literal",
@@ -716,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "bs__",
           "package": "music-pitch-literal",
@@ -725,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "bs__",
           "package": "music-pitch-literal",
@@ -737,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "c",
           "package": "music-pitch-literal",
@@ -746,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "c",
           "package": "music-pitch-literal",
@@ -758,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "c'",
           "package": "music-pitch-literal",
@@ -767,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "c'",
           "package": "music-pitch-literal",
@@ -779,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "c''",
           "package": "music-pitch-literal",
@@ -788,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "c''",
           "package": "music-pitch-literal",
@@ -800,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "c_",
           "package": "music-pitch-literal",
@@ -809,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "c_",
           "package": "music-pitch-literal",
@@ -821,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "c__",
           "package": "music-pitch-literal",
@@ -830,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "c__",
           "package": "music-pitch-literal",
@@ -842,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cb",
           "package": "music-pitch-literal",
@@ -851,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cb",
           "package": "music-pitch-literal",
@@ -863,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cb'",
           "package": "music-pitch-literal",
@@ -872,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cb'",
           "package": "music-pitch-literal",
@@ -884,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cb''",
           "package": "music-pitch-literal",
@@ -893,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cb''",
           "package": "music-pitch-literal",
@@ -905,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cb_",
           "package": "music-pitch-literal",
@@ -914,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cb_",
           "package": "music-pitch-literal",
@@ -926,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cb__",
           "package": "music-pitch-literal",
@@ -935,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cb__",
           "package": "music-pitch-literal",
@@ -947,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cs",
           "package": "music-pitch-literal",
@@ -956,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cs",
           "package": "music-pitch-literal",
@@ -968,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cs'",
           "package": "music-pitch-literal",
@@ -977,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cs'",
           "package": "music-pitch-literal",
@@ -989,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cs''",
           "package": "music-pitch-literal",
@@ -998,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cs''",
           "package": "music-pitch-literal",
@@ -1010,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cs_",
           "package": "music-pitch-literal",
@@ -1019,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cs_",
           "package": "music-pitch-literal",
@@ -1031,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "cs__",
           "package": "music-pitch-literal",
@@ -1040,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "cs__",
           "package": "music-pitch-literal",
@@ -1052,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "d",
           "package": "music-pitch-literal",
@@ -1061,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "d",
           "package": "music-pitch-literal",
@@ -1073,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "d'",
           "package": "music-pitch-literal",
@@ -1082,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "d'",
           "package": "music-pitch-literal",
@@ -1094,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "d''",
           "package": "music-pitch-literal",
@@ -1103,6 +1206,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "d''",
           "package": "music-pitch-literal",
@@ -1115,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "d_",
           "package": "music-pitch-literal",
@@ -1124,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "d_",
           "package": "music-pitch-literal",
@@ -1136,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "d__",
           "package": "music-pitch-literal",
@@ -1145,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "d__",
           "package": "music-pitch-literal",
@@ -1157,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "db",
           "package": "music-pitch-literal",
@@ -1166,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "db",
           "package": "music-pitch-literal",
@@ -1178,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "db'",
           "package": "music-pitch-literal",
@@ -1187,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "db'",
           "package": "music-pitch-literal",
@@ -1199,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "db''",
           "package": "music-pitch-literal",
@@ -1208,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "db''",
           "package": "music-pitch-literal",
@@ -1220,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "db_",
           "package": "music-pitch-literal",
@@ -1229,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "db_",
           "package": "music-pitch-literal",
@@ -1241,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "db__",
           "package": "music-pitch-literal",
@@ -1250,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "db__",
           "package": "music-pitch-literal",
@@ -1262,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ds",
           "package": "music-pitch-literal",
@@ -1271,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ds",
           "package": "music-pitch-literal",
@@ -1283,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ds'",
           "package": "music-pitch-literal",
@@ -1292,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ds'",
           "package": "music-pitch-literal",
@@ -1304,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ds''",
           "package": "music-pitch-literal",
@@ -1313,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ds''",
           "package": "music-pitch-literal",
@@ -1325,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ds_",
           "package": "music-pitch-literal",
@@ -1334,6 +1459,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ds_",
           "package": "music-pitch-literal",
@@ -1346,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "ds__",
           "package": "music-pitch-literal",
@@ -1355,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "ds__",
           "package": "music-pitch-literal",
@@ -1367,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "e",
           "package": "music-pitch-literal",
@@ -1376,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "e",
           "package": "music-pitch-literal",
@@ -1388,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "e'",
           "package": "music-pitch-literal",
@@ -1397,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "e'",
           "package": "music-pitch-literal",
@@ -1409,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "e''",
           "package": "music-pitch-literal",
@@ -1418,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "e''",
           "package": "music-pitch-literal",
@@ -1430,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "e_",
           "package": "music-pitch-literal",
@@ -1439,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "e_",
           "package": "music-pitch-literal",
@@ -1451,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "e__",
           "package": "music-pitch-literal",
@@ -1460,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "e__",
           "package": "music-pitch-literal",
@@ -1472,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "eb",
           "package": "music-pitch-literal",
@@ -1481,6 +1620,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "eb",
           "package": "music-pitch-literal",
@@ -1493,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "eb'",
           "package": "music-pitch-literal",
@@ -1502,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "eb'",
           "package": "music-pitch-literal",
@@ -1514,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "eb''",
           "package": "music-pitch-literal",
@@ -1523,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "eb''",
           "package": "music-pitch-literal",
@@ -1535,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "eb_",
           "package": "music-pitch-literal",
@@ -1544,6 +1689,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "eb_",
           "package": "music-pitch-literal",
@@ -1556,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "eb__",
           "package": "music-pitch-literal",
@@ -1565,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "eb__",
           "package": "music-pitch-literal",
@@ -1577,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "es",
           "package": "music-pitch-literal",
@@ -1586,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "es",
           "package": "music-pitch-literal",
@@ -1598,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "es'",
           "package": "music-pitch-literal",
@@ -1607,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "es'",
           "package": "music-pitch-literal",
@@ -1619,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "es''",
           "package": "music-pitch-literal",
@@ -1628,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "es''",
           "package": "music-pitch-literal",
@@ -1640,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "es_",
           "package": "music-pitch-literal",
@@ -1649,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "es_",
           "package": "music-pitch-literal",
@@ -1661,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "es__",
           "package": "music-pitch-literal",
@@ -1670,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "es__",
           "package": "music-pitch-literal",
@@ -1682,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "f",
           "package": "music-pitch-literal",
@@ -1691,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "f",
           "package": "music-pitch-literal",
@@ -1703,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "f'",
           "package": "music-pitch-literal",
@@ -1712,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "f'",
           "package": "music-pitch-literal",
@@ -1724,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "f''",
           "package": "music-pitch-literal",
@@ -1733,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "f''",
           "package": "music-pitch-literal",
@@ -1745,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "f_",
           "package": "music-pitch-literal",
@@ -1754,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "f_",
           "package": "music-pitch-literal",
@@ -1766,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "f__",
           "package": "music-pitch-literal",
@@ -1775,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "f__",
           "package": "music-pitch-literal",
@@ -1787,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fb",
           "package": "music-pitch-literal",
@@ -1796,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fb",
           "package": "music-pitch-literal",
@@ -1808,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fb'",
           "package": "music-pitch-literal",
@@ -1817,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fb'",
           "package": "music-pitch-literal",
@@ -1829,6 +2001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fb''",
           "package": "music-pitch-literal",
@@ -1838,6 +2011,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fb''",
           "package": "music-pitch-literal",
@@ -1850,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fb_",
           "package": "music-pitch-literal",
@@ -1859,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fb_",
           "package": "music-pitch-literal",
@@ -1871,6 +2047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fb__",
           "package": "music-pitch-literal",
@@ -1880,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fb__",
           "package": "music-pitch-literal",
@@ -1892,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fromPitch",
           "package": "music-pitch-literal",
@@ -1901,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fromPitch",
           "normalized": "PitchL-\u003ea",
@@ -1916,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fs",
           "package": "music-pitch-literal",
@@ -1925,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fs",
           "package": "music-pitch-literal",
@@ -1937,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fs'",
           "package": "music-pitch-literal",
@@ -1946,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fs'",
           "package": "music-pitch-literal",
@@ -1958,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fs''",
           "package": "music-pitch-literal",
@@ -1967,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fs''",
           "package": "music-pitch-literal",
@@ -1979,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fs_",
           "package": "music-pitch-literal",
@@ -1988,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fs_",
           "package": "music-pitch-literal",
@@ -2000,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "fs__",
           "package": "music-pitch-literal",
@@ -2009,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "fs__",
           "package": "music-pitch-literal",
@@ -2021,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "g",
           "package": "music-pitch-literal",
@@ -2030,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "g",
           "package": "music-pitch-literal",
@@ -2042,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "g'",
           "package": "music-pitch-literal",
@@ -2051,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "g'",
           "package": "music-pitch-literal",
@@ -2063,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "g''",
           "package": "music-pitch-literal",
@@ -2072,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "g''",
           "package": "music-pitch-literal",
@@ -2084,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "g_",
           "package": "music-pitch-literal",
@@ -2093,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "g_",
           "package": "music-pitch-literal",
@@ -2105,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "g__",
           "package": "music-pitch-literal",
@@ -2114,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "g__",
           "package": "music-pitch-literal",
@@ -2126,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gb",
           "package": "music-pitch-literal",
@@ -2135,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gb",
           "package": "music-pitch-literal",
@@ -2147,6 +2349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gb'",
           "package": "music-pitch-literal",
@@ -2156,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gb'",
           "package": "music-pitch-literal",
@@ -2168,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gb''",
           "package": "music-pitch-literal",
@@ -2177,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gb''",
           "package": "music-pitch-literal",
@@ -2189,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gb_",
           "package": "music-pitch-literal",
@@ -2198,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gb_",
           "package": "music-pitch-literal",
@@ -2210,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gb__",
           "package": "music-pitch-literal",
@@ -2219,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gb__",
           "package": "music-pitch-literal",
@@ -2231,6 +2441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "getPitchL",
           "package": "music-pitch-literal",
@@ -2240,6 +2451,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "getPitchL",
           "normalized": "(Int,Maybe Double,Int)",
@@ -2255,6 +2467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gs",
           "package": "music-pitch-literal",
@@ -2264,6 +2477,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gs",
           "package": "music-pitch-literal",
@@ -2276,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gs'",
           "package": "music-pitch-literal",
@@ -2285,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gs'",
           "package": "music-pitch-literal",
@@ -2297,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gs''",
           "package": "music-pitch-literal",
@@ -2306,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gs''",
           "package": "music-pitch-literal",
@@ -2318,6 +2536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gs_",
           "package": "music-pitch-literal",
@@ -2327,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gs_",
           "package": "music-pitch-literal",
@@ -2339,6 +2559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:38 UTC 2014",
           "module": "Music.Pitch.Literal",
           "name": "gs__",
           "package": "music-pitch-literal",
@@ -2348,6 +2569,7 @@
         },
         "index": {
           "hierarchy": "Music Pitch Literal",
+          "indexed": "2014-03-11T19:24:38",
           "module": "Music.Pitch.Literal",
           "name": "gs__",
           "package": "music-pitch-literal",

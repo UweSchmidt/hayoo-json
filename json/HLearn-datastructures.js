@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HLearn-datastructures"
+        "phrase": "HLearn-datastructures",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "Prunable",
           "package": "HLearn-datastructures",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "Prunable",
           "package": "HLearn-datastructures",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "DualFoldable",
           "package": "HLearn-datastructures",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "DualFoldable",
           "package": "HLearn-datastructures",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "Prunable",
           "package": "HLearn-datastructures",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "Prunable",
           "package": "HLearn-datastructures",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "TreeIndex",
           "package": "HLearn-datastructures",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "TreeIndex",
           "package": "HLearn-datastructures",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "TreeLeft",
           "package": "HLearn-datastructures",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "TreeLeft",
           "package": "HLearn-datastructures",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "TreeRight",
           "package": "HLearn-datastructures",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "TreeRight",
           "package": "HLearn-datastructures",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "dualfoldr",
           "package": "HLearn-datastructures",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "dualfoldr",
           "normalized": "((a,a)-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003ec a-\u003eb",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "Data.Prunable",
           "name": "prunefoldr",
           "package": "HLearn-datastructures",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Prunable",
+          "indexed": "2014-03-11T16:45:40",
           "module": "Data.Prunable",
           "name": "prunefoldr",
           "normalized": "(a-\u003eb c-\u003eIndexType(b c)-\u003eBool)-\u003e(c-\u003ea-\u003ea)-\u003ea-\u003eb c-\u003ea",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eSortedVector\u003c/a\u003e\u003c/code\u003e is a vector that maintains the invariant that all elements are sorted.  Whenever an element is added/removed, the vector is automatically adjusted.  Because element positions can be changed in this way, it does not make sense to index the vector by specific locations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "HLearn.DataStructures.SortedVector",
           "name": "SortedVector",
           "package": "HLearn-datastructures",
@@ -202,6 +219,7 @@
         "index": {
           "description": "SortedVector is vector that maintains the invariant that all elements are sorted Whenever an element is added removed the vector is automatically adjusted Because element positions can be changed in this way it does not make sense to index the vector by specific locations",
           "hierarchy": "HLearn DataStructures SortedVector",
+          "indexed": "2014-03-11T16:45:40",
           "module": "HLearn.DataStructures.SortedVector",
           "name": "SortedVector",
           "package": "HLearn-datastructures",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:40 UTC 2014",
           "module": "HLearn.DataStructures.SortedVector",
           "name": "SortedVector",
           "package": "HLearn-datastructures",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "HLearn DataStructures SortedVector",
+          "indexed": "2014-03-11T16:45:40",
           "module": "HLearn.DataStructures.SortedVector",
           "name": "SortedVector",
           "package": "HLearn-datastructures",

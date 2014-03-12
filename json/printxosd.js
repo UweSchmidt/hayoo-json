@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "printxosd"
+        "phrase": "printxosd",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagsoup"
+        "phrase": "tagsoup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module converts between HTML/XML entities (i.e. \u003ccode\u003e&amp;\u003c/code\u003e) and\n   the characters they represent.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "Entity",
           "package": "tagsoup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module converts between HTML XML entities i.e amp and the characters they represent",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "Entity",
           "package": "tagsoup",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape an XML string.\n\u003c/p\u003e\u003cpre\u003e escapeXML \"hello world\" == \"hello world\"\n escapeXML \"hello & world\" == \"hello &amp; world\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "escapeXML",
           "package": "tagsoup",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Escape an XML string escapeXML hello world hello world escapeXML hello world hello amp world",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "escapeXML",
           "normalized": "String-\u003eString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table mapping HTML entity names to resolved strings. Most resolved strings are a single character long,\n   but some (e.g. \u003ccode\u003e\u003ca\u003engeqq\u003c/a\u003e\u003c/code\u003e) are two characters long. The list is taken from\n   \u003ca\u003ehttp://www.w3.org/TR/html5/syntax.html#named-character-references\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "htmlEntities",
           "package": "tagsoup",
@@ -78,6 +83,7 @@
         "index": {
           "description": "table mapping HTML entity names to resolved strings Most resolved strings are single character long but some e.g ngeqq are two characters long The list is taken from http www.w3.org TR html5 syntax.html named-character-references",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "htmlEntities",
           "normalized": "[(String,String)]",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an entity, using \u003ccode\u003e\u003ca\u003elookupNumericEntity\u003c/a\u003e\u003c/code\u003e if it starts with\n   \u003ccode\u003e#\u003c/code\u003e and \u003ccode\u003e\u003ca\u003elookupNamedEntity\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupEntity",
           "package": "tagsoup",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Lookup an entity using lookupNumericEntity if it starts with and lookupNamedEntity otherwise",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupEntity",
           "normalized": "String-\u003eMaybe String",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a named entity, using \u003ccode\u003e\u003ca\u003ehtmlEntities\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e lookupNamedEntity \"amp\" == Just \"&\"\n lookupNamedEntity \"haskell\" == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupNamedEntity",
           "package": "tagsoup",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Lookup named entity using htmlEntities lookupNamedEntity amp Just lookupNamedEntity haskell Nothing",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupNamedEntity",
           "normalized": "String-\u003eMaybe String",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a numeric entity, the leading \u003ccode\u003e'#'\u003c/code\u003e must have already been removed.\n\u003c/p\u003e\u003cpre\u003e lookupNumericEntity \"65\" == Just \"A\"\n lookupNumericEntity \"x41\" == Just \"A\"\n lookupNumericEntity \"x4E\" === Just \"N\"\n lookupNumericEntity \"x4e\" === Just \"N\"\n lookupNumericEntity \"Haskell\" == Nothing\n lookupNumericEntity \"\" == Nothing\n lookupNumericEntity \"89439085908539082\" == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupNumericEntity",
           "package": "tagsoup",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Lookup numeric entity the leading must have already been removed lookupNumericEntity Just lookupNumericEntity x41 Just lookupNumericEntity x4E Just lookupNumericEntity x4e Just lookupNumericEntity Haskell Nothing lookupNumericEntity Nothing lookupNumericEntity Nothing",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "lookupNumericEntity",
           "normalized": "String-\u003eMaybe String",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table mapping XML entity names to resolved strings. All strings are a single character long.\n   Does \u003cem\u003enot\u003c/em\u003e include \u003ccode\u003eapos\u003c/code\u003e as Internet Explorer does not know about it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "xmlEntities",
           "package": "tagsoup",
@@ -182,6 +195,7 @@
         "index": {
           "description": "table mapping XML entity names to resolved strings All strings are single character long Does not include apos as Internet Explorer does not know about it",
           "hierarchy": "Text HTML TagSoup Entity",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Entity",
           "name": "xmlEntities",
           "normalized": "[(String,String)]",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators to match tags. Some people prefer to use \u003ccode\u003e(~==)\u003c/code\u003e from\n   \u003ca\u003eText.HTML.TagSoup\u003c/a\u003e, others prefer these more structured combinators.\n   Which you use is personal preference.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "Match",
           "package": "tagsoup",
@@ -207,6 +222,7 @@
         "index": {
           "description": "Combinators to match tags Some people prefer to use from Text.HTML.TagSoup others prefer these more structured combinators Which you use is personal preference",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "Match",
           "package": "tagsoup",
@@ -220,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttr",
           "package": "tagsoup",
@@ -229,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttr",
           "normalized": "((a,a)-\u003eBool)-\u003e[Attribute a]-\u003eBool",
@@ -244,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrLit",
           "package": "tagsoup",
@@ -253,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrLit",
           "normalized": "(a,a)-\u003e[Attribute a]-\u003eBool",
@@ -268,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrName",
           "package": "tagsoup",
@@ -277,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrName",
           "normalized": "(a-\u003eBool)-\u003e[Attribute a]-\u003eBool",
@@ -292,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrNameLit",
           "package": "tagsoup",
@@ -301,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrNameLit",
           "normalized": "a-\u003e[Attribute a]-\u003eBool",
@@ -316,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrValue",
           "package": "tagsoup",
@@ -325,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrValue",
           "normalized": "(a-\u003eBool)-\u003e[Attribute a]-\u003eBool",
@@ -340,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrValueLit",
           "package": "tagsoup",
@@ -349,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "anyAttrValueLit",
           "normalized": "a-\u003e[Attribute a]-\u003eBool",
@@ -364,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "getTagContent",
           "package": "tagsoup",
@@ -373,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "getTagContent",
           "normalized": "a-\u003e([Attribute a]-\u003eBool)-\u003e[Tag a]-\u003e[Tag a]",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch an closing tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagClose",
           "package": "tagsoup",
@@ -399,6 +430,7 @@
         "index": {
           "description": "match an closing tag",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagClose",
           "normalized": "(a-\u003eBool)-\u003eTag a-\u003eBool",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a closing tag's name literally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagCloseLit",
           "package": "tagsoup",
@@ -425,6 +458,7 @@
         "index": {
           "description": "match closing tag name literally",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagCloseLit",
           "normalized": "a-\u003eTag a-\u003eBool",
@@ -441,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the 'Tag str' is \u003ccode\u003e\u003ca\u003eTagClose\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagCloseNameLit",
           "package": "tagsoup",
@@ -451,6 +486,7 @@
         "index": {
           "description": "Check if the Tag str is TagClose and matches the given name",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagCloseNameLit",
           "normalized": "a-\u003eTag a-\u003eBool",
@@ -466,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagComment",
           "package": "tagsoup",
@@ -475,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagComment",
           "normalized": "(a-\u003eBool)-\u003eTag a-\u003eBool",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch an opening tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpen",
           "package": "tagsoup",
@@ -501,6 +540,7 @@
         "index": {
           "description": "match an opening tag",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpen",
           "normalized": "(a-\u003eBool)-\u003e([Attribute a]-\u003eBool)-\u003eTag a-\u003eBool",
@@ -516,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenAttrLit",
           "package": "tagsoup",
@@ -525,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenAttrLit",
           "normalized": "a-\u003eAttribute a-\u003eTag a-\u003eBool",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a tag with given name, that contains an attribute\nwith given name, that satisfies a predicate.\nIf an attribute occurs multiple times,\nall occurrences are checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenAttrNameLit",
           "package": "tagsoup",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Match tag with given name that contains an attribute with given name that satisfies predicate If an attribute occurs multiple times all occurrences are checked",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenAttrNameLit",
           "normalized": "a-\u003ea-\u003e(a-\u003eBool)-\u003eTag a-\u003eBool",
@@ -567,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a opening tag's name literally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenLit",
           "package": "tagsoup",
@@ -577,6 +622,7 @@
         "index": {
           "description": "match opening tag name literally",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenLit",
           "normalized": "a-\u003e([Attribute a]-\u003eBool)-\u003eTag a-\u003eBool",
@@ -593,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the 'Tag str' is \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenNameLit",
           "package": "tagsoup",
@@ -603,6 +650,7 @@
         "index": {
           "description": "Check if the Tag str is TagOpen and matches the given name",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagOpenNameLit",
           "normalized": "a-\u003eTag a-\u003eBool",
@@ -619,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematch a text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagText",
           "package": "tagsoup",
@@ -629,6 +678,7 @@
         "index": {
           "description": "match text",
           "hierarchy": "Text HTML TagSoup Match",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Match",
           "name": "tagText",
           "normalized": "(a-\u003eBool)-\u003eTag a-\u003eBool",
@@ -645,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eNOTE\u003c/em\u003e: This module is preliminary and may change at a future date.\n\u003c/p\u003e\u003cp\u003eThis module is intended to help converting a list of tags into a\n    tree of tags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "Tree",
           "package": "tagsoup",
@@ -654,6 +705,7 @@
         "index": {
           "description": "NOTE This module is preliminary and may change at future date This module is intended to help converting list of tags into tree of tags",
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "Tree",
           "package": "tagsoup",
@@ -667,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagTree",
           "package": "tagsoup",
@@ -675,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagTree",
           "package": "tagsoup",
@@ -688,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagBranch",
           "package": "tagsoup",
@@ -697,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagBranch",
           "normalized": "TagBranch a[Attribute a][TagTree a]",
@@ -712,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagLeaf",
           "package": "tagsoup",
@@ -721,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "TagLeaf",
           "package": "tagsoup",
@@ -734,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "flattenTree",
           "package": "tagsoup",
@@ -743,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "flattenTree",
           "normalized": "[TagTree a]-\u003e[Tag a]",
@@ -759,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a list of tags into a tree. This version is not lazy at\n   all, that is saved for version 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "tagTree",
           "package": "tagsoup",
@@ -769,6 +830,7 @@
         "index": {
           "description": "Convert list of tags into tree This version is not lazy at all that is saved for version",
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "tagTree",
           "normalized": "[Tag a]-\u003e[TagTree a]",
@@ -785,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operation is based on the Uniplate \u003ccode\u003etransform\u003c/code\u003e function. Given a\n   list of trees, it applies the function to every tree in a bottom-up\n   manner. This operation is useful for manipulating a tree - for example\n   to make all tag names upper case:\n\u003c/p\u003e\u003cpre\u003e upperCase = transformTree f\n   where f (TagBranch name atts inner) = [TagBranch (map toUpper name) atts inner]\n         f x = x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "transformTree",
           "package": "tagsoup",
@@ -795,6 +858,7 @@
         "index": {
           "description": "This operation is based on the Uniplate transform function Given list of trees it applies the function to every tree in bottom-up manner This operation is useful for manipulating tree for example to make all tag names upper case upperCase transformTree where TagBranch name atts inner TagBranch map toUpper name atts inner",
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "transformTree",
           "normalized": "(TagTree a-\u003e[TagTree a])-\u003e[TagTree a]-\u003e[TagTree a]",
@@ -811,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis operation is based on the Uniplate \u003ccode\u003euniverse\u003c/code\u003e function. Given a\n   list of trees, it returns those trees, and all the children trees at\n   any level. For example:\n\u003c/p\u003e\u003cpre\u003e universeTree\n    [TagBranch \"a\" [(\"href\",\"url\")] [TagBranch \"b\" [] [TagLeaf (TagText \"text\")]]]\n == [TagBranch \"a\" [(\"href\",\"url\")] [TagBranch \"b\" [] [TagLeaf (TagText \"text\")]]]\n    ,TagBranch \"b\" [] [TagLeaf (TagText \"text\")]]\n\u003c/pre\u003e\u003cp\u003eThis operation is particularly useful for queries. To collect all \u003ccode\u003e\"a\"\u003c/code\u003e\n   tags in a tree, simply do:\n\u003c/p\u003e\u003cpre\u003e [x | x@(TagTree \"a\" _ _) \u003c- universeTree tree]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "universeTree",
           "package": "tagsoup",
@@ -821,6 +886,7 @@
         "index": {
           "description": "This operation is based on the Uniplate universe function Given list of trees it returns those trees and all the children trees at any level For example universeTree TagBranch href url TagBranch TagLeaf TagText text TagBranch href url TagBranch TagLeaf TagText text TagBranch TagLeaf TagText text This operation is particularly useful for queries To collect all tags in tree simply do TagTree universeTree tree",
           "hierarchy": "Text HTML TagSoup Tree",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup.Tree",
           "name": "universeTree",
           "normalized": "[TagTree a]-\u003e[TagTree a]",
@@ -837,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is for working with HTML/XML. It deals with both well-formed XML and\n    malformed HTML from the web. It features:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A lazy parser, based on the HTML 5 specification - see \u003ccode\u003e\u003ca\u003eparseTags\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e A renderer that can write out HTML/XML - see \u003ccode\u003e\u003ca\u003erenderTags\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Utilities for extracting information from a document - see \u003ccode\u003e\u003ca\u003e~==\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esections\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003epartitions\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe standard practice is to parse a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e[\u003c/code\u003e\u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e]\u003c/code\u003e using \u003ccode\u003e\u003ca\u003eparseTags\u003c/a\u003e\u003c/code\u003e,\n    then operate upon it to extract the necessary information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagSoup",
           "package": "tagsoup",
@@ -846,6 +913,7 @@
         "index": {
           "description": "This module is for working with HTML XML It deals with both well-formed XML and malformed HTML from the web It features lazy parser based on the HTML specification see parseTags renderer that can write out HTML XML see renderTags Utilities for extracting information from document see sections and partitions The standard practice is to parse String to Tag String using parseTags then operate upon it to extract the necessary information",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagSoup",
           "package": "tagsoup",
@@ -860,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn HTML attribute \u003ccode\u003eid=\"name\"\u003c/code\u003e generates \u003ccode\u003e(\"id\",\"name\")\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "Attribute",
           "package": "tagsoup",
@@ -869,6 +938,7 @@
         "index": {
           "description": "An HTML attribute id name generates id name",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "Attribute",
           "package": "tagsoup",
@@ -883,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe column of a position, starting at 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "Column",
           "package": "tagsoup",
@@ -892,6 +963,7 @@
         "index": {
           "description": "The column of position starting at",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "Column",
           "package": "tagsoup",
@@ -906,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese options control how \u003ccode\u003eparseTags\u003c/code\u003e works. The \u003ccode\u003e\u003ca\u003eParseOptions\u003c/a\u003e\u003c/code\u003e type is usually generated by one of\n   \u003ccode\u003e\u003ca\u003eparseOptions\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eparseOptionsFast\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eparseOptionsEntities\u003c/a\u003e\u003c/code\u003e, then selected fields may be overriden.\n\u003c/p\u003e\u003cp\u003eThe options \u003ccode\u003e\u003ca\u003eoptTagPosition\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eoptTagWarning\u003c/a\u003e\u003c/code\u003e specify whether to generate\n   \u003ccode\u003e\u003ca\u003eTagPosition\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eTagWarning\u003c/a\u003e\u003c/code\u003e elements respectively. Usually these options should be set to \u003ccode\u003eFalse\u003c/code\u003e\n   to simplify future stages, unless you rely on position information or want to give malformed HTML\n   messages to the end user.\n\u003c/p\u003e\u003cp\u003eThe options \u003ccode\u003e\u003ca\u003eoptEntityData\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eoptEntityAttrib\u003c/a\u003e\u003c/code\u003e control how entities, for example \u003ccode\u003e&nbsp;\u003c/code\u003e are handled.\n   Both take a string, and a boolean, where \u003ccode\u003eTrue\u003c/code\u003e indicates that the entity ended with a semi-colon \u003ccode\u003e;\u003c/code\u003e.\n   Inside normal text \u003ccode\u003e\u003ca\u003eoptEntityData\u003c/a\u003e\u003c/code\u003e will be called, and the results will be inserted in the tag stream.\n   Inside a tag attribute \u003ccode\u003e\u003ca\u003eoptEntityAttrib\u003c/a\u003e\u003c/code\u003e will be called, and the first component of the result will be used\n   in the attribute, and the second component will be appended after the \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e value (usually the second\n   component is \u003ccode\u003e[]\u003c/code\u003e). As an example, to not decode any entities, pass:\n\u003c/p\u003e\u003cpre\u003e parseOptions\n     {optEntityData=\\(str,b) -\u003e [TagText $ \"&\" ++ str ++ [';' | b]]\n     ,optEntityAttrib\\(str,b) -\u003e (\"&\" ++ str ++ [';' | b], [])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "ParseOptions",
           "package": "tagsoup",
@@ -915,6 +988,7 @@
         "index": {
           "description": "These options control how parseTags works The ParseOptions type is usually generated by one of parseOptions parseOptionsFast or parseOptionsEntities then selected fields may be overriden The options optTagPosition and optTagWarning specify whether to generate TagPosition or TagWarning elements respectively Usually these options should be set to False to simplify future stages unless you rely on position information or want to give malformed HTML messages to the end user The options optEntityData and optEntityAttrib control how entities for example nbsp are handled Both take string and boolean where True indicates that the entity ended with semi-colon Inside normal text optEntityData will be called and the results will be inserted in the tag stream Inside tag attribute optEntityAttrib will be called and the first component of the result will be used in the attribute and the second component will be appended after the TagOpen value usually the second component is As an example to not decode any entities pass parseOptions optEntityData str TagText str optEntityAttrib str str",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "ParseOptions",
           "package": "tagsoup",
@@ -929,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThese options control how \u003ccode\u003e\u003ca\u003erenderTags\u003c/a\u003e\u003c/code\u003e works.\n\u003c/p\u003e\u003cp\u003eThe strange quirk of only minimizing \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tags is due to Internet Explorer treating\n   \u003ccode\u003e\u003cbr\u003e\u003c/br\u003e\u003c/code\u003e as \u003ccode\u003e\u003cbr\u003e\u003cbr\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "RenderOptions",
           "package": "tagsoup",
@@ -938,6 +1013,7 @@
         "index": {
           "description": "These options control how renderTags works The strange quirk of only minimizing br tags is due to Internet Explorer treating br br as br br",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "RenderOptions",
           "package": "tagsoup",
@@ -952,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe row/line of a position, starting at 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "Row",
           "package": "tagsoup",
@@ -961,6 +1038,7 @@
         "index": {
           "description": "The row line of position starting at",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "Row",
           "package": "tagsoup",
@@ -975,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single HTML element. A whole document is represented by a list of \u003ccode\u003eTag\u003c/code\u003e.\n   There is no requirement for \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTagClose\u003c/a\u003e\u003c/code\u003e to match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "Tag",
           "package": "tagsoup",
@@ -984,6 +1063,7 @@
         "index": {
           "description": "single HTML element whole document is represented by list of Tag There is no requirement for TagOpen and TagClose to match",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "Tag",
           "package": "tagsoup",
@@ -998,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a class to allow String's or Tag str's to be used as matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagRep",
           "package": "tagsoup",
@@ -1007,6 +1088,7 @@
         "index": {
           "description": "Define class to allow String or Tag str to be used as matches",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagRep",
           "package": "tagsoup",
@@ -1021,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation of \u003ccode\u003e\u003ca\u003e~==\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "(~/=)",
           "package": "tagsoup",
@@ -1031,6 +1114,7 @@
         "index": {
           "description": "Negation of",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "(~/=) ~/=",
           "normalized": "Tag a-\u003eb-\u003eBool",
@@ -1046,6 +1130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerforms an inexact match, the first item should be the thing to match.\n If the second item is a blank string, that is considered to match anything.\n For example:\n\u003c/p\u003e\u003cpre\u003e (TagText \"test\" ~== TagText \"\"    ) == True\n (TagText \"test\" ~== TagText \"test\") == True\n (TagText \"test\" ~== TagText \"soup\") == False\n\u003c/pre\u003e\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e missing attributes on the right are allowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "(~==)",
           "package": "tagsoup",
@@ -1056,6 +1141,7 @@
         "index": {
           "description": "Performs an inexact match the first item should be the thing to match If the second item is blank string that is considered to match anything For example TagText test TagText True TagText test TagText test True TagText test TagText soup False For TagOpen missing attributes on the right are allowed",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "(~==) ~==",
           "normalized": "Tag a-\u003eb-\u003eBool",
@@ -1070,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "ParseOptions",
           "package": "tagsoup",
@@ -1079,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "ParseOptions",
           "package": "tagsoup",
@@ -1092,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "RenderOptions",
           "package": "tagsoup",
@@ -1101,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "RenderOptions",
           "package": "tagsoup",
@@ -1115,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA closing tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagClose",
           "package": "tagsoup",
@@ -1125,6 +1216,7 @@
         "index": {
           "description": "closing tag",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagClose",
           "package": "tagsoup",
@@ -1139,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA comment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagComment",
           "package": "tagsoup",
@@ -1149,6 +1242,7 @@
         "index": {
           "description": "comment",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagComment",
           "package": "tagsoup",
@@ -1163,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn open tag with \u003ccode\u003e\u003ca\u003eAttribute\u003c/a\u003e\u003c/code\u003es in their original order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagOpen",
           "package": "tagsoup",
@@ -1173,6 +1268,7 @@
         "index": {
           "description": "An open tag with Attribute in their original order",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagOpen",
           "normalized": "TagOpen a[Attribute a]",
@@ -1189,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeta: The position of a parsed element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagPosition",
           "package": "tagsoup",
@@ -1199,6 +1296,7 @@
         "index": {
           "description": "Meta The position of parsed element",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagPosition",
           "package": "tagsoup",
@@ -1213,6 +1311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA text node, guaranteed not to be the empty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagText",
           "package": "tagsoup",
@@ -1223,6 +1322,7 @@
         "index": {
           "description": "text node guaranteed not to be the empty string",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagText",
           "package": "tagsoup",
@@ -1237,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeta: A syntax error in the input file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "TagWarning",
           "package": "tagsoup",
@@ -1247,6 +1348,7 @@
         "index": {
           "description": "Meta syntax error in the input file",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "TagWarning",
           "package": "tagsoup",
@@ -1261,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns all tag names and attributes to lower case and\n   converts DOCTYPE to upper case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "canonicalizeTags",
           "package": "tagsoup",
@@ -1271,6 +1374,7 @@
         "index": {
           "description": "Turns all tag names and attributes to lower case and converts DOCTYPE to upper case",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "canonicalizeTags",
           "normalized": "[Tag a]-\u003e[Tag a]",
@@ -1287,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the four characters \u003ccode\u003e&\"\u003c\u003e\u003c/code\u003e with their HTML entities (\u003ccode\u003e\u003ca\u003eescapeXML\u003c/a\u003e\u003c/code\u003e lifted to \u003ccode\u003e\u003ca\u003eStringLike\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "escapeHTML",
           "package": "tagsoup",
@@ -1297,6 +1402,7 @@
         "index": {
           "description": "Replace the four characters with their HTML entities escapeXML lifted to StringLike",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "escapeHTML",
           "normalized": "a-\u003ea",
@@ -1313,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an attribute, crashes if not a \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e.\n   Returns \u003ccode\u003e\"\"\u003c/code\u003e if no attribute present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "fromAttrib",
           "package": "tagsoup",
@@ -1323,6 +1430,7 @@
         "index": {
           "description": "Extract an attribute crashes if not TagOpen Returns if no attribute present",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "fromAttrib",
           "normalized": "a-\u003eTag a-\u003ea",
@@ -1339,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the string from within \u003ccode\u003e\u003ca\u003eTagText\u003c/a\u003e\u003c/code\u003e, crashes if not a \u003ccode\u003e\u003ca\u003eTagText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "fromTagText",
           "package": "tagsoup",
@@ -1349,6 +1458,7 @@
         "index": {
           "description": "Extract the string from within TagText crashes if not TagText",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "fromTagText",
           "normalized": "Tag a-\u003ea",
@@ -1365,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract all text content from tags (similar to Verbatim found in HaXml)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "innerText",
           "package": "tagsoup",
@@ -1375,6 +1486,7 @@
         "index": {
           "description": "Extract all text content from tags similar to Verbatim found in HaXml",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "innerText",
           "normalized": "[Tag a]-\u003ea",
@@ -1391,6 +1503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTagClose\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagClose",
           "package": "tagsoup",
@@ -1401,6 +1514,7 @@
         "index": {
           "description": "Test if Tag is TagClose",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagClose",
           "normalized": "Tag a-\u003eBool",
@@ -1417,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTagClose\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagCloseName",
           "package": "tagsoup",
@@ -1427,6 +1542,7 @@
         "index": {
           "description": "Returns True if the Tag is TagClose and matches the given name",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagCloseName",
           "normalized": "a-\u003eTag a-\u003eBool",
@@ -1443,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagOpen",
           "package": "tagsoup",
@@ -1453,6 +1570,7 @@
         "index": {
           "description": "Test if Tag is TagOpen",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagOpen",
           "normalized": "Tag a-\u003eBool",
@@ -1469,6 +1587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTagOpen\u003c/a\u003e\u003c/code\u003e and matches the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagOpenName",
           "package": "tagsoup",
@@ -1479,6 +1598,7 @@
         "index": {
           "description": "Returns True if the Tag is TagOpen and matches the given name",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagOpenName",
           "normalized": "a-\u003eTag a-\u003eBool",
@@ -1495,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTagPosition\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagPosition",
           "package": "tagsoup",
@@ -1505,6 +1626,7 @@
         "index": {
           "description": "Test if Tag is TagPosition",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagPosition",
           "normalized": "Tag a-\u003eBool",
@@ -1521,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTagText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagText",
           "package": "tagsoup",
@@ -1531,6 +1654,7 @@
         "index": {
           "description": "Test if Tag is TagText",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagText",
           "normalized": "Tag a-\u003eBool",
@@ -1547,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if a \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eTagWarning\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "isTagWarning",
           "package": "tagsoup",
@@ -1557,6 +1682,7 @@
         "index": {
           "description": "Test if Tag is TagWarning",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "isTagWarning",
           "normalized": "Tag a-\u003eBool",
@@ -1573,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the string from within \u003ccode\u003e\u003ca\u003eTagText\u003c/a\u003e\u003c/code\u003e, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "maybeTagText",
           "package": "tagsoup",
@@ -1583,6 +1710,7 @@
         "index": {
           "description": "Extract the string from within TagText otherwise Nothing",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "maybeTagText",
           "normalized": "Tag a-\u003eMaybe a",
@@ -1599,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the string from within \u003ccode\u003e\u003ca\u003eTagWarning\u003c/a\u003e\u003c/code\u003e, otherwise \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "maybeTagWarning",
           "package": "tagsoup",
@@ -1609,6 +1738,7 @@
         "index": {
           "description": "Extract the string from within TagWarning otherwise Nothing",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "maybeTagWarning",
           "normalized": "Tag a-\u003eMaybe a",
@@ -1625,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to lookup an entity in an attribute (Bool = has ending \u003ccode\u003e';'\u003c/code\u003e?)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optEntityAttrib",
           "package": "tagsoup",
@@ -1635,6 +1766,7 @@
         "index": {
           "description": "How to lookup an entity in an attribute Bool has ending",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optEntityAttrib",
           "normalized": "(a,Bool)-\u003e(a,[Tag a])",
@@ -1651,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow to lookup an entity (Bool = has ending \u003ccode\u003e';'\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optEntityData",
           "package": "tagsoup",
@@ -1661,6 +1794,7 @@
         "index": {
           "description": "How to lookup an entity Bool has ending",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optEntityData",
           "normalized": "(a,Bool)-\u003e[Tag a]",
@@ -1677,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a piece of text (default = escape the four characters \u003ccode\u003e&\"\u003c\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optEscape",
           "package": "tagsoup",
@@ -1687,6 +1822,7 @@
         "index": {
           "description": "Escape piece of text default escape the four characters",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optEscape",
           "normalized": "a-\u003ea",
@@ -1703,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimise \u003cb\u003e\u003c/b\u003e -\u003e \u003cb/\u003e (default = minimise only \u003ccode\u003e\u003cbr\u003e\u003c/code\u003e tags)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optMinimize",
           "package": "tagsoup",
@@ -1713,6 +1850,7 @@
         "index": {
           "description": "Minimise default minimise only br tags",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optMinimize",
           "normalized": "a-\u003eBool",
@@ -1729,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould a tag be output with no escaping (default = true only for \u003ccode\u003escript\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optRawTag",
           "package": "tagsoup",
@@ -1739,6 +1878,7 @@
         "index": {
           "description": "Should tag be output with no escaping default true only for script",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optRawTag",
           "normalized": "a-\u003eBool",
@@ -1755,6 +1895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould \u003ccode\u003e\u003ca\u003eTagPosition\u003c/a\u003e\u003c/code\u003e values be given before some items (default=False,fast=False).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optTagPosition",
           "package": "tagsoup",
@@ -1765,6 +1906,7 @@
         "index": {
           "description": "Should TagPosition values be given before some items default False fast False",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optTagPosition",
           "package": "tagsoup",
@@ -1779,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire no adjacent \u003ccode\u003e\u003ca\u003eTagText\u003c/a\u003e\u003c/code\u003e values (default=True,fast=False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optTagTextMerge",
           "package": "tagsoup",
@@ -1789,6 +1932,7 @@
         "index": {
           "description": "Require no adjacent TagText values default True fast False",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optTagTextMerge",
           "package": "tagsoup",
@@ -1803,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould \u003ccode\u003e\u003ca\u003eTagWarning\u003c/a\u003e\u003c/code\u003e values be given (default=False,fast=False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "optTagWarning",
           "package": "tagsoup",
@@ -1813,6 +1958,7 @@
         "index": {
           "description": "Should TagWarning values be given default False fast False",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "optTagWarning",
           "package": "tagsoup",
@@ -1827,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default parse options value, described in \u003ccode\u003e\u003ca\u003eParseOptions\u003c/a\u003e\u003c/code\u003e. Equivalent to\n   \u003ccode\u003e\u003ccode\u003e\u003ca\u003eparseOptionsEntities\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elookupEntity\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptions",
           "package": "tagsoup",
@@ -1837,6 +1984,7 @@
         "index": {
           "description": "The default parse options value described in ParseOptions Equivalent to parseOptionsEntities lookupEntity",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptions",
           "package": "tagsoup",
@@ -1851,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eParseOptions\u003c/a\u003e\u003c/code\u003e structure using a custom function to lookup attributes. Any attribute\n   that is not found will be left intact, and a \u003ccode\u003e\u003ca\u003eTagWarning\u003c/a\u003e\u003c/code\u003e given (if \u003ccode\u003e\u003ca\u003eoptTagWarning\u003c/a\u003e\u003c/code\u003e is set).\n\u003c/p\u003e\u003cp\u003eIf you do not want to resolve any entities, simpliy pass \u003ccode\u003econst Nothing\u003c/code\u003e for the lookup function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptionsEntities",
           "package": "tagsoup",
@@ -1861,6 +2010,7 @@
         "index": {
           "description": "ParseOptions structure using custom function to lookup attributes Any attribute that is not found will be left intact and TagWarning given if optTagWarning is set If you do not want to resolve any entities simpliy pass const Nothing for the lookup function",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptionsEntities",
           "normalized": "(a-\u003eMaybe a)-\u003eParseOptions a",
@@ -1877,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eParseOptions\u003c/a\u003e\u003c/code\u003e structure optimised for speed, following the fast options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptionsFast",
           "package": "tagsoup",
@@ -1887,6 +2038,7 @@
         "index": {
           "description": "ParseOptions structure optimised for speed following the fast options",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "parseOptionsFast",
           "package": "tagsoup",
@@ -1901,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string to a list of tags, using an HTML 5 compliant parser.\n\u003c/p\u003e\u003cpre\u003e parseTags \"\u003chello\u003emy&amp;\u003c/world\u003e\" == [TagOpen \"hello\" [],TagText \"my&\",TagClose \"world\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "parseTags",
           "package": "tagsoup",
@@ -1911,6 +2064,7 @@
         "index": {
           "description": "Parse string to list of tags using an HTML compliant parser parseTags hello my amp world TagOpen hello TagText my TagClose world",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "parseTags",
           "normalized": "a-\u003e[Tag a]",
@@ -1927,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a string to a list of tags, using settings supplied by the \u003ccode\u003e\u003ca\u003eParseOptions\u003c/a\u003e\u003c/code\u003e parameter,\n   eg. to output position information:\n\u003c/p\u003e\u003cpre\u003e parseTagsOptions parseOptions{optTagPosition = True} \"\u003chello\u003emy&amp;\u003c/world\u003e\" ==\n    [TagPosition 1 1,TagOpen \"hello\" [],TagPosition 1 8,TagText \"my&\",TagPosition 1 15,TagClose \"world\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "parseTagsOptions",
           "package": "tagsoup",
@@ -1937,6 +2092,7 @@
         "index": {
           "description": "Parse string to list of tags using settings supplied by the ParseOptions parameter eg to output position information parseTagsOptions parseOptions optTagPosition True hello my amp world TagPosition TagOpen hello TagPosition TagText my TagPosition TagClose world",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "parseTagsOptions",
           "normalized": "ParseOptions a-\u003ea-\u003e[Tag a]",
@@ -1953,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is similar to \u003ccode\u003e\u003ca\u003esections\u003c/a\u003e\u003c/code\u003e, but splits the list\n   so no element appears in any two partitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "partitions",
           "package": "tagsoup",
@@ -1963,6 +2120,7 @@
         "index": {
           "description": "This function is similar to sections but splits the list so no element appears in any two partitions",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "partitions",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -1978,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default render options value, described in \u003ccode\u003e\u003ca\u003eRenderOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "renderOptions",
           "package": "tagsoup",
@@ -1988,6 +2147,7 @@
         "index": {
           "description": "The default render options value described in RenderOptions",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "renderOptions",
           "package": "tagsoup",
@@ -2002,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a list of tags, as they might have been parsed, using the default settings given in\n   \u003ccode\u003e\u003ca\u003eRenderOptions\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e renderTags [TagOpen \"hello\" [],TagText \"my&\",TagClose \"world\"] == \"\u003chello\u003emy&amp;\u003c/world\u003e\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "renderTags",
           "package": "tagsoup",
@@ -2012,6 +2173,7 @@
         "index": {
           "description": "Show list of tags as they might have been parsed using the default settings given in RenderOptions renderTags TagOpen hello TagText my TagClose world hello my amp world",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "renderTags",
           "normalized": "[Tag a]-\u003ea",
@@ -2028,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a list of tags using settings supplied by the \u003ccode\u003e\u003ca\u003eRenderOptions\u003c/a\u003e\u003c/code\u003e parameter,\n   eg. to avoid escaping any characters one could do:\n\u003c/p\u003e\u003cpre\u003e renderTagsOptions renderOptions{optEscape = id} [TagText \"my&\"] == \"my&\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "renderTagsOptions",
           "package": "tagsoup",
@@ -2038,6 +2201,7 @@
         "index": {
           "description": "Show list of tags using settings supplied by the RenderOptions parameter eg to avoid escaping any characters one could do renderTagsOptions renderOptions optEscape id TagText my my",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "renderTagsOptions",
           "normalized": "RenderOptions a-\u003e[Tag a]-\u003ea",
@@ -2054,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function takes a list, and returns all suffixes whose\n   first item matches the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "sections",
           "package": "tagsoup",
@@ -2064,6 +2229,7 @@
         "index": {
           "description": "This function takes list and returns all suffixes whose first item matches the predicate",
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "sections",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -2078,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.HTML.TagSoup",
           "name": "toTagRep",
           "package": "tagsoup",
@@ -2087,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagSoup",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.HTML.TagSoup",
           "name": "toTagRep",
           "normalized": "a-\u003eTag b",
@@ -2103,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWARNING\u003c/em\u003e: This module is \u003cem\u003enot\u003c/em\u003e intended for use outside the TagSoup library.\n\u003c/p\u003e\u003cp\u003eThis module provides an abstraction for String's as used inside TagSoup. It allows\n   TagSoup to work with String (list of Char), ByteString.Char8, ByteString.Lazy.Char8,\n   Data.Text and Data.Text.Lazy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "StringLike",
           "package": "tagsoup",
@@ -2112,6 +2281,7 @@
         "index": {
           "description": "WARNING This module is not intended for use outside the TagSoup library This module provides an abstraction for String as used inside TagSoup It allows TagSoup to work with String list of Char ByteString.Char8 ByteString.Lazy.Char8 Data.Text and Data.Text.Lazy",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "StringLike",
           "package": "tagsoup",
@@ -2126,6 +2296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class to generalise TagSoup parsing over many types of string-like types.\n   Examples are given for the String type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "StringLike",
           "package": "tagsoup",
@@ -2135,6 +2306,7 @@
         "index": {
           "description": "class to generalise TagSoup parsing over many types of string-like types Examples are given for the String type",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "StringLike",
           "package": "tagsoup",
@@ -2149,6 +2321,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e append = (++)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "append",
           "package": "tagsoup",
@@ -2159,6 +2332,7 @@
         "index": {
           "description": "append",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -2174,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a String from one type to another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "castString",
           "package": "tagsoup",
@@ -2184,6 +2359,7 @@
         "index": {
           "description": "Convert String from one type to another",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "castString",
           "normalized": "a-\u003eb",
@@ -2200,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e cons = (:)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "cons",
           "package": "tagsoup",
@@ -2210,6 +2387,7 @@
         "index": {
           "description": "cons",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "cons",
           "normalized": "Char-\u003ea-\u003ea",
@@ -2225,6 +2403,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e empty = \"\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "empty",
           "package": "tagsoup",
@@ -2235,6 +2414,7 @@
         "index": {
           "description": "empty",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "empty",
           "package": "tagsoup",
@@ -2248,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e fromChar = return\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "fromChar",
           "package": "tagsoup",
@@ -2258,6 +2439,7 @@
         "index": {
           "description": "fromChar return",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "fromChar",
           "normalized": "Char-\u003ea",
@@ -2274,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e fromString = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "fromString",
           "package": "tagsoup",
@@ -2284,6 +2467,7 @@
         "index": {
           "description": "fromString id",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -2300,6 +2484,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e strConcat = concat\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "strConcat",
           "package": "tagsoup",
@@ -2310,6 +2495,7 @@
         "index": {
           "description": "strConcat concat",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "strConcat",
           "normalized": "[a]-\u003ea",
@@ -2326,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e strNull = null\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "strNull",
           "package": "tagsoup",
@@ -2336,6 +2523,7 @@
         "index": {
           "description": "strNull null",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "strNull",
           "normalized": "a-\u003eBool",
@@ -2352,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e toString = id\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "toString",
           "package": "tagsoup",
@@ -2362,6 +2551,7 @@
         "index": {
           "description": "toString id",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -2378,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e uncons []     = Nothing\n uncons (x:xs) = Just (x, xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:48 UTC 2014",
           "module": "Text.StringLike",
           "name": "uncons",
           "package": "tagsoup",
@@ -2388,6 +2579,7 @@
         "index": {
           "description": "uncons Nothing uncons xs Just xs",
           "hierarchy": "Text StringLike",
+          "indexed": "2014-03-11T20:16:48",
           "module": "Text.StringLike",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",

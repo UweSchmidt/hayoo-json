@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "delta-h"
+        "phrase": "delta-h",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "Algorithm",
           "package": "delta-h",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "Algorithm",
           "package": "delta-h",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "ClusterSet",
           "package": "delta-h",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "ClusterSet",
           "package": "delta-h",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "Count",
           "package": "delta-h",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "Count",
           "package": "delta-h",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "X",
           "package": "delta-h",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "X",
           "package": "delta-h",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "Y",
           "package": "delta-h",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "Y",
           "package": "delta-h",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "CS",
           "package": "delta-h",
@@ -130,6 +141,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "CS",
           "package": "delta-h",
@@ -143,6 +155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "cluster",
           "package": "delta-h",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "cluster",
           "normalized": "Bool-\u003eClusterSet(Int,String)-\u003e[X(Int,String)]-\u003eClusterSet(Int,String)",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "clusterBeam",
           "package": "delta-h",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "clusterBeam",
           "normalized": "Int-\u003eBool-\u003eClusterSet(Int,String)-\u003e[X(Int,String)]-\u003eClusterSet(Int,String)",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "clusterLabelToX0",
           "package": "delta-h",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "clusterLabelToX0",
           "normalized": "ClusterSet(Int,String)-\u003eY-\u003e[String]",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "clusterToken",
           "package": "delta-h",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "clusterToken",
           "normalized": "Bool-\u003eClusterSet(Int,String)-\u003eX(Int,String)-\u003e[(Y,ClusterSet(Int,String))]",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "clusterWords",
           "package": "delta-h",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "clusterWords",
           "normalized": "[Int]-\u003eClusterSet(Int,String)-\u003e[String]-\u003e[String]",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "countN",
           "package": "delta-h",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "countN",
           "package": "delta-h",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "countXY",
           "package": "delta-h",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "countXY",
           "package": "delta-h",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "countY",
           "package": "delta-h",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "countY",
           "package": "delta-h",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "defocus",
           "package": "delta-h",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "defocus",
           "normalized": "X(Int,String)-\u003eX(Int,String)",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "display",
           "package": "delta-h",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "display",
           "normalized": "(Y,Map(Int,String)Double)-\u003eString",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "empty",
           "package": "delta-h",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "empty",
           "package": "delta-h",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "examples",
           "package": "delta-h",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "examples",
           "normalized": "[Int]-\u003e[[Token]]-\u003e[[X(Int,String)]]",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "featIDs",
           "package": "delta-h",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "featIDs",
           "normalized": "ClusterSet(a,b)-\u003e[a]",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "getLabeler",
           "package": "delta-h",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "getLabeler",
           "normalized": "Bool-\u003eMaybe FilePath-\u003eFilePath-\u003eIO([String]-\u003e[String])",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "getX0",
           "package": "delta-h",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "getX0",
           "normalized": "X(Int,String)-\u003eString",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "hXY",
           "package": "delta-h",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "hXY",
           "package": "delta-h",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "hY",
           "package": "delta-h",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "hY",
           "package": "delta-h",
@@ -531,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elabelToken: output a single label (from a closed set) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "labelToken",
           "package": "delta-h",
@@ -541,6 +588,7 @@
         "index": {
           "description": "labelToken output single label from closed set",
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "labelToken",
           "normalized": "ClusterSet(Int,String)-\u003eX(Int,String)-\u003eY",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "lastID",
           "package": "delta-h",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "lastID",
           "package": "delta-h",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "makeClusterSet",
           "package": "delta-h",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "makeClusterSet",
           "normalized": "Map Y(Map a Count)-\u003eClusterSet a",
@@ -602,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "predictX0",
           "package": "delta-h",
@@ -611,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "predictX0",
           "normalized": "ClusterSet(Int,String)-\u003eX(Int,String)-\u003e[String]",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "predictX0Full",
           "package": "delta-h",
@@ -634,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "predictX0Full",
           "normalized": "ClusterSet(Int,String)-\u003eX(Int,String)-\u003e[String]",
@@ -649,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Algorithm",
           "name": "weightedhXY",
           "package": "delta-h",
@@ -658,6 +715,7 @@
         },
         "index": {
           "hierarchy": "Entropy Algorithm",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Algorithm",
           "name": "weightedhXY",
           "normalized": "ClusterSet a-\u003eDouble",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Features",
           "name": "Features",
           "package": "delta-h",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Entropy Features",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Features",
           "name": "Features",
           "package": "delta-h",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Features",
           "name": "X",
           "package": "delta-h",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Entropy Features",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Features",
           "name": "X",
           "package": "delta-h",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Entropy.Features",
           "name": "features",
           "package": "delta-h",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Entropy Features",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Entropy.Features",
           "name": "features",
           "normalized": "ListZipper String-\u003eX",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "ListZipper",
           "package": "delta-h",
@@ -745,6 +810,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "ListZipper",
           "package": "delta-h",
@@ -758,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "ListZipper",
           "package": "delta-h",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "ListZipper",
           "package": "delta-h",
@@ -779,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "LZ",
           "package": "delta-h",
@@ -788,6 +857,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "LZ",
           "normalized": "LZ[a](Maybe a)[a]",
@@ -803,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "at",
           "package": "delta-h",
@@ -812,6 +883,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "at",
           "normalized": "ListZipper a-\u003eInt-\u003ea",
@@ -826,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "atEnd",
           "package": "delta-h",
@@ -835,6 +908,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "atEnd",
           "normalized": "ListZipper a-\u003eBool",
@@ -850,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "focus",
           "package": "delta-h",
@@ -859,6 +934,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "focus",
           "normalized": "ListZipper a-\u003eMaybe a",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "fromList",
           "package": "delta-h",
@@ -882,6 +959,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "fromList",
           "normalized": "[a]-\u003eListZipper a",
@@ -897,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "left",
           "package": "delta-h",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "left",
           "normalized": "ListZipper a-\u003e[a]",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "next",
           "package": "delta-h",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "next",
           "normalized": "ListZipper a-\u003eListZipper a",
@@ -943,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "reset",
           "package": "delta-h",
@@ -952,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "reset",
           "normalized": "ListZipper a-\u003eListZipper a",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "right",
           "package": "delta-h",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "right",
           "normalized": "ListZipper a-\u003e[a]",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "ListZipper",
           "name": "toList",
           "package": "delta-h",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "ListZipper",
+          "indexed": "2014-03-11T17:52:49",
           "module": "ListZipper",
           "name": "toList",
           "normalized": "ListZipper a-\u003e[a]",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "Reader",
           "package": "delta-h",
@@ -1021,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "Reader",
           "package": "delta-h",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "Token",
           "package": "delta-h",
@@ -1042,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "Token",
           "package": "delta-h",
@@ -1055,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "format",
           "package": "delta-h",
@@ -1064,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "format",
           "normalized": "[[Token]]-\u003eString",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "formatCoNLL",
           "package": "delta-h",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "formatCoNLL",
           "normalized": "[[Token]]-\u003eString",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "readcorpus",
           "package": "delta-h",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "readcorpus",
           "normalized": "String-\u003e[[Token]]",
@@ -1125,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:52:49 UTC 2014",
           "module": "Reader",
           "name": "readcorpusCoNLL",
           "package": "delta-h",
@@ -1134,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Reader",
+          "indexed": "2014-03-11T17:52:49",
           "module": "Reader",
           "name": "readcorpusCoNLL",
           "normalized": "String-\u003e[[Token]]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nikepub"
+        "phrase": "nikepub",
+        "type": "phrase"
       },
       "type": "context"
     }

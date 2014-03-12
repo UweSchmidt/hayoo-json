@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "taglib-api"
+        "phrase": "taglib-api",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "Internal",
           "package": "taglib-api",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "Internal",
           "package": "taglib-api",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "AudioProperties",
           "package": "taglib-api",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "AudioProperties",
           "package": "taglib-api",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract C Types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "File",
           "package": "taglib-api",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Abstract Types",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "File",
           "package": "taglib-api",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for an open file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "FileId",
           "package": "taglib-api",
@@ -93,6 +100,7 @@
         "index": {
           "description": "handle for an open file",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "FileId",
           "package": "taglib-api",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "Tag",
           "package": "taglib-api",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "Tag",
           "package": "taglib-api",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for performing TagLib operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLib",
           "package": "taglib-api",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Monad for performing TagLib operations",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLib",
           "package": "taglib-api",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of open files, and a generator for unique file ID's\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibEnv",
           "package": "taglib-api",
@@ -160,6 +173,7 @@
         "index": {
           "description": "collection of open files and generator for unique file ID",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibEnv",
           "package": "taglib-api",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExceptions that might be thrown\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibException",
           "package": "taglib-api",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Exceptions that might be thrown",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibException",
           "package": "taglib-api",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal representation of an open file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibFile",
           "package": "taglib-api",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Internal representation of an open file",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibFile",
           "package": "taglib-api",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "FileClosed",
           "package": "taglib-api",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "FileClosed",
           "package": "taglib-api",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "FileId",
           "package": "taglib-api",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "FileId",
           "package": "taglib-api",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "InvalidFile",
           "package": "taglib-api",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "InvalidFile",
           "package": "taglib-api",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "NoSuchFileId",
           "package": "taglib-api",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "NoSuchFileId",
           "package": "taglib-api",
@@ -330,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibEnv",
           "package": "taglib-api",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibEnv",
           "package": "taglib-api",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibFile",
           "package": "taglib-api",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "TagLibFile",
           "package": "taglib-api",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "UnableToOpen",
           "package": "taglib-api",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "UnableToOpen",
           "package": "taglib-api",
@@ -397,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a new file into the Env\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "addNewFile",
           "package": "taglib-api",
@@ -407,6 +440,7 @@
         "index": {
           "description": "Put new file into the Env",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "addNewFile",
           "normalized": "FileId-\u003eTagLibFile-\u003eTagLib()",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "audioPropPtr",
           "package": "taglib-api",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "audioPropPtr",
           "package": "taglib-api",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_audioproperties",
           "package": "taglib-api",
@@ -453,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_audioproperties",
           "normalized": "Ptr File-\u003eIO(Ptr AudioProperties)",
@@ -467,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_free",
           "package": "taglib-api",
@@ -476,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_free",
           "normalized": "Ptr File-\u003eIO()",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_is_valid",
           "package": "taglib-api",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_is_valid",
           "normalized": "Ptr File-\u003eIO CInt",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_new",
           "package": "taglib-api",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_new",
           "normalized": "CString-\u003eIO(Ptr File)",
@@ -536,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_save",
           "package": "taglib-api",
@@ -545,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_save",
           "normalized": "Ptr File-\u003eIO()",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_tag",
           "package": "taglib-api",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_file_tag",
           "normalized": "Ptr File-\u003eIO(Ptr Tag)",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_free_strings",
           "package": "taglib-api",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "c_taglib_free_strings",
           "normalized": "IO()",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe base IO action necessary to deallocate all resources \n   associated with a single file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "cleanupFile",
           "package": "taglib-api",
@@ -616,6 +667,7 @@
         "index": {
           "description": "The base IO action necessary to deallocate all resources associated with single file",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "cleanupFile",
           "normalized": "Ptr File-\u003eIO()",
@@ -632,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave and close a file, in case you want to manage your own memory.\n   TagLib's strings are still freed by \u003ccode\u003etaglib\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "closeFile",
           "package": "taglib-api",
@@ -642,6 +695,7 @@
         "index": {
           "description": "Save and close file in case you want to manage your own memory TagLib strings are still freed by taglib",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "closeFile",
           "normalized": "FileId-\u003eTagLib()",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an unmanaged \u003ccode\u003eTagLib\u003c/code\u003e action, discarding the final Env.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "evalTagLib",
           "package": "taglib-api",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Run an unmanaged TagLib action discarding the final Env",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "evalTagLib",
           "normalized": "TagLibEnv-\u003eTagLib a-\u003eIO a",
@@ -683,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "filePtr",
           "package": "taglib-api",
@@ -692,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "filePtr",
           "package": "taglib-api",
@@ -706,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all the strings that TagLib has allocated.\n   Use only when handling your own memory.\n   Otherwise, \u003ccode\u003etaglib\u003c/code\u003e will take care of this for you.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "freeTagLibStrings",
           "package": "taglib-api",
@@ -716,6 +775,7 @@
         "index": {
           "description": "Free all the strings that TagLib has allocated Use only when handling your own memory Otherwise taglib will take care of this for you",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "freeTagLibStrings",
           "normalized": "IO()",
@@ -732,6 +792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function requiring the Env\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "fromEnv",
           "package": "taglib-api",
@@ -742,6 +803,7 @@
         "index": {
           "description": "Call function requiring the Env",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "fromEnv",
           "normalized": "(TagLibEnv-\u003ea)-\u003eTagLib a",
@@ -758,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function requiring a file.\n   Throws an exception should the FileId not point\n   to a currently open file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "fromFile",
           "package": "taglib-api",
@@ -768,6 +831,7 @@
         "index": {
           "description": "Call function requiring file Throws an exception should the FileId not point to currently open file",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "fromFile",
           "normalized": "(TagLibFile-\u003ea)-\u003eFileId-\u003eTagLib a",
@@ -784,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fresh Env\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "initialEnv",
           "package": "taglib-api",
@@ -794,6 +859,7 @@
         "index": {
           "description": "fresh Env",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "initialEnv",
           "package": "taglib-api",
@@ -834,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a fresh FileId, maintaining the internal generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "nextId",
           "package": "taglib-api",
@@ -844,6 +911,7 @@
         "index": {
           "description": "Get fresh FileId maintaining the internal generator",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "nextId",
           "package": "taglib-api",
@@ -858,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord modify for taglibFilesOpen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "onFilesOpen",
           "package": "taglib-api",
@@ -868,6 +937,7 @@
         "index": {
           "description": "Record modify for taglibFilesOpen",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "onFilesOpen",
           "normalized": "(Map FileId TagLibFile-\u003eMap FileId TagLibFile)-\u003eTagLibEnv-\u003eTagLibEnv",
@@ -884,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord modify for taglibNextId\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "onNextId",
           "package": "taglib-api",
@@ -894,6 +965,7 @@
         "index": {
           "description": "Record modify for taglibNextId",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "onNextId",
           "normalized": "(Integer-\u003eInteger)-\u003eTagLibEnv-\u003eTagLibEnv",
@@ -910,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of currently opened files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "openFilePtrs",
           "package": "taglib-api",
@@ -920,6 +993,7 @@
         "index": {
           "description": "Get the list of currently opened files",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "openFilePtrs",
           "normalized": "TagLib[Ptr File]",
@@ -936,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a file from the Env\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "removeFile",
           "package": "taglib-api",
@@ -946,6 +1021,7 @@
         "index": {
           "description": "Remove file from the Env",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "removeFile",
           "normalized": "FileId-\u003eTagLib()",
@@ -962,6 +1038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003eTagLib\u003c/code\u003e action without managing allocated resources.\n   Reading tags from a file will work regardless of whether\n   \u003ccode\u003e\u003ca\u003ecleanupFile\u003c/a\u003e\u003c/code\u003e is used, but writing tags will not.\n   TagLib's strings must still be freed if a memory leak is to\n   be avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "runTagLib",
           "package": "taglib-api",
@@ -972,6 +1049,7 @@
         "index": {
           "description": "Run TagLib action without managing allocated resources Reading tags from file will work regardless of whether cleanupFile is used but writing tags will not TagLib strings must still be freed if memory leak is to be avoided",
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "runTagLib",
           "normalized": "TagLibEnv-\u003eTagLib a-\u003eIO(a,TagLibEnv)",
@@ -987,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "tagPtr",
           "package": "taglib-api",
@@ -996,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "tagPtr",
           "package": "taglib-api",
@@ -1009,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "taglibFilesOpen",
           "package": "taglib-api",
@@ -1018,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "taglibFilesOpen",
           "package": "taglib-api",
@@ -1031,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib.Internal",
           "name": "taglibNextId",
           "package": "taglib-api",
@@ -1040,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib Internal",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib.Internal",
           "name": "taglibNextId",
           "package": "taglib-api",
@@ -1076,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "TagLib",
           "package": "taglib-api",
@@ -1084,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "TagLib",
           "package": "taglib-api",
@@ -1098,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handle for an open file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "FileId",
           "package": "taglib-api",
@@ -1107,6 +1194,7 @@
         "index": {
           "description": "handle for an open file",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "FileId",
           "package": "taglib-api",
@@ -1120,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "GetIntAP",
           "package": "taglib-api",
@@ -1128,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "GetIntAP",
           "package": "taglib-api",
@@ -1141,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "GetIntTag",
           "package": "taglib-api",
@@ -1149,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "GetIntTag",
           "package": "taglib-api",
@@ -1162,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "GetStringTag",
           "package": "taglib-api",
@@ -1170,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "GetStringTag",
           "package": "taglib-api",
@@ -1183,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "SetIntTag",
           "package": "taglib-api",
@@ -1191,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "SetIntTag",
           "package": "taglib-api",
@@ -1205,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFFI Type Synonyms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "SetStringTag",
           "package": "taglib-api",
@@ -1214,6 +1311,7 @@
         "index": {
           "description": "FFI Type Synonyms",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "SetStringTag",
           "package": "taglib-api",
@@ -1228,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for performing TagLib operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "TagLib",
           "package": "taglib-api",
@@ -1237,6 +1336,7 @@
         "index": {
           "description": "Monad for performing TagLib operations",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "TagLib",
           "package": "taglib-api",
@@ -1250,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_bitrate",
           "package": "taglib-api",
@@ -1259,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_bitrate",
           "package": "taglib-api",
@@ -1271,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_channels",
           "package": "taglib-api",
@@ -1280,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_channels",
           "package": "taglib-api",
@@ -1292,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_length",
           "package": "taglib-api",
@@ -1301,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_length",
           "package": "taglib-api",
@@ -1313,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_samplerate",
           "package": "taglib-api",
@@ -1322,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_audioproperties_samplerate",
           "package": "taglib-api",
@@ -1334,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_album",
           "package": "taglib-api",
@@ -1343,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_album",
           "package": "taglib-api",
@@ -1355,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_artist",
           "package": "taglib-api",
@@ -1364,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_artist",
           "package": "taglib-api",
@@ -1376,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_comment",
           "package": "taglib-api",
@@ -1385,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_comment",
           "package": "taglib-api",
@@ -1397,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_genre",
           "package": "taglib-api",
@@ -1406,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_genre",
           "package": "taglib-api",
@@ -1418,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_album",
           "package": "taglib-api",
@@ -1427,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_album",
           "package": "taglib-api",
@@ -1439,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_artist",
           "package": "taglib-api",
@@ -1448,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_artist",
           "package": "taglib-api",
@@ -1460,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_comment",
           "package": "taglib-api",
@@ -1469,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_comment",
           "package": "taglib-api",
@@ -1481,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_genre",
           "package": "taglib-api",
@@ -1490,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_genre",
           "package": "taglib-api",
@@ -1502,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_title",
           "package": "taglib-api",
@@ -1511,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_title",
           "package": "taglib-api",
@@ -1523,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_track",
           "package": "taglib-api",
@@ -1532,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_track",
           "package": "taglib-api",
@@ -1544,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_year",
           "package": "taglib-api",
@@ -1553,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_set_year",
           "package": "taglib-api",
@@ -1565,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_title",
           "package": "taglib-api",
@@ -1574,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_title",
           "package": "taglib-api",
@@ -1586,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_track",
           "package": "taglib-api",
@@ -1595,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_track",
           "package": "taglib-api",
@@ -1607,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_year",
           "package": "taglib-api",
@@ -1616,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "c_taglib_tag_year",
           "package": "taglib-api",
@@ -1629,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the album name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getAlbum",
           "package": "taglib-api",
@@ -1639,6 +1776,7 @@
         "index": {
           "description": "Get the album name",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getAlbum",
           "normalized": "FileId-\u003eTagLib Text",
@@ -1655,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the artist name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getArtist",
           "package": "taglib-api",
@@ -1665,6 +1804,7 @@
         "index": {
           "description": "Get the artist name",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getArtist",
           "normalized": "FileId-\u003eTagLib Text",
@@ -1681,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the bitrate of the given file, in kb/s.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getBitrate",
           "package": "taglib-api",
@@ -1691,6 +1832,7 @@
         "index": {
           "description": "Retrieves the bitrate of the given file in kb",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getBitrate",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1707,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the number of channels in the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getChannels",
           "package": "taglib-api",
@@ -1717,6 +1860,7 @@
         "index": {
           "description": "Retrieves the number of channels in the given file",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getChannels",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1733,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the contents of the comment field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getComment",
           "package": "taglib-api",
@@ -1743,6 +1888,7 @@
         "index": {
           "description": "Get the contents of the comment field",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getComment",
           "normalized": "FileId-\u003eTagLib Text",
@@ -1759,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the contents of the genre field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getGenre",
           "package": "taglib-api",
@@ -1769,6 +1916,7 @@
         "index": {
           "description": "Get the contents of the genre field",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getGenre",
           "normalized": "FileId-\u003eTagLib Text",
@@ -1785,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the duration of the given file, in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getLength",
           "package": "taglib-api",
@@ -1795,6 +1944,7 @@
         "index": {
           "description": "Retrieves the duration of the given file in seconds",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getLength",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1811,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the sample rate of the given file, in Hz.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getSampleRate",
           "package": "taglib-api",
@@ -1821,6 +1972,7 @@
         "index": {
           "description": "Retrieves the sample rate of the given file in Hz",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getSampleRate",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1837,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the track title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getTitle",
           "package": "taglib-api",
@@ -1847,6 +2000,7 @@
         "index": {
           "description": "Get the track title",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getTitle",
           "normalized": "FileId-\u003eTagLib Text",
@@ -1863,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the track number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getTrack",
           "package": "taglib-api",
@@ -1873,6 +2028,7 @@
         "index": {
           "description": "Get the track number",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getTrack",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1889,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the release year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "getYear",
           "package": "taglib-api",
@@ -1899,6 +2056,7 @@
         "index": {
           "description": "Get the release year",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "getYear",
           "normalized": "FileId-\u003eTagLib Int",
@@ -1915,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a file and return a corresponding \u003ccode\u003eFileId\u003c/code\u003e.\n   Internally, this grabs the Tag and AudioProperties\n   pointers to the TagLib_File.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "openFile",
           "package": "taglib-api",
@@ -1925,6 +2084,7 @@
         "index": {
           "description": "Open file and return corresponding FileId Internally this grabs the Tag and AudioProperties pointers to the TagLib File",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "openFile",
           "normalized": "FilePath-\u003eTagLib FileId",
@@ -1941,6 +2101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eIO\u003c/code\u003e action which expects a \u003ccode\u003eTag\u003c/code\u003e pointer and \u003ccode\u003eCInt\u003c/code\u003e,\n   lifts it into an \u003ccode\u003eTagLib\u003c/code\u003e action, expecting a \u003ccode\u003eInt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "packIntTag",
           "package": "taglib-api",
@@ -1951,6 +2112,7 @@
         "index": {
           "description": "Given IO action which expects Tag pointer and CInt lifts it into an TagLib action expecting Int",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "packIntTag",
           "normalized": "SetIntTag-\u003eFileId-\u003eInt-\u003eTagLib()",
@@ -1967,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eIO\u003c/code\u003e action which expects a \u003ccode\u003eTag\u003c/code\u003e pointer and \u003ccode\u003eCString\u003c/code\u003e,\n   lifts it into an \u003ccode\u003eTagLib\u003c/code\u003e action, expecting \u003ccode\u003eText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "packStringTag",
           "package": "taglib-api",
@@ -1977,6 +2140,7 @@
         "index": {
           "description": "Given IO action which expects Tag pointer and CString lifts it into an TagLib action expecting Text",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "packStringTag",
           "normalized": "SetStringTag-\u003eFileId-\u003eText-\u003eTagLib()",
@@ -1993,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the album name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setAlbum",
           "package": "taglib-api",
@@ -2003,6 +2168,7 @@
         "index": {
           "description": "Set the album name",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setAlbum",
           "normalized": "FileId-\u003eText-\u003eTagLib()",
@@ -2019,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the artist name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setArtist",
           "package": "taglib-api",
@@ -2029,6 +2196,7 @@
         "index": {
           "description": "Set the artist name",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setArtist",
           "normalized": "FileId-\u003eText-\u003eTagLib()",
@@ -2045,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the comment field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setComment",
           "package": "taglib-api",
@@ -2055,6 +2224,7 @@
         "index": {
           "description": "Set the comment field",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setComment",
           "normalized": "FileId-\u003eText-\u003eTagLib()",
@@ -2071,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the genre field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setGenre",
           "package": "taglib-api",
@@ -2081,6 +2252,7 @@
         "index": {
           "description": "Set the genre field",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setGenre",
           "normalized": "FileId-\u003eText-\u003eTagLib()",
@@ -2097,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the track title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setTitle",
           "package": "taglib-api",
@@ -2107,6 +2280,7 @@
         "index": {
           "description": "Set the track title",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setTitle",
           "normalized": "FileId-\u003eText-\u003eTagLib()",
@@ -2123,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the track number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setTrack",
           "package": "taglib-api",
@@ -2133,6 +2308,7 @@
         "index": {
           "description": "Set the track number",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setTrack",
           "normalized": "FileId-\u003eInt-\u003eTagLib()",
@@ -2149,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the release year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "setYear",
           "package": "taglib-api",
@@ -2159,6 +2336,7 @@
         "index": {
           "description": "Set the release year",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "setYear",
           "normalized": "FileId-\u003eInt-\u003eTagLib()",
@@ -2175,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003eTagLib\u003c/code\u003e block. Save and free any files\n   left open when the block is finished, and free\n   all strings produced by taglib.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "taglib",
           "package": "taglib-api",
@@ -2185,6 +2364,7 @@
         "index": {
           "description": "Run TagLib block Save and free any files left open when the block is finished and free all strings produced by taglib",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "taglib",
           "normalized": "TagLib a-\u003eIO a",
@@ -2200,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eIO\u003c/code\u003e action which expects a \u003ccode\u003eAudioProperties\u003c/code\u003e pointer and\n   results in a \u003ccode\u003eCInt\u003c/code\u003e, lifts it into a \u003ccode\u003eTagLib\u003c/code\u003e action,\n   resulting in \u003ccode\u003eInt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "unpackIntAP",
           "package": "taglib-api",
@@ -2210,6 +2391,7 @@
         "index": {
           "description": "Given IO action which expects AudioProperties pointer and results in CInt lifts it into TagLib action resulting in Int",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "unpackIntAP",
           "normalized": "GetIntAP-\u003eFileId-\u003eTagLib Int",
@@ -2226,6 +2408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eIO\u003c/code\u003e action which expects a \u003ccode\u003eTag\u003c/code\u003e pointer and\n   results in a \u003ccode\u003eCInt\u003c/code\u003e, lifts it into a \u003ccode\u003eTagLib\u003c/code\u003e action,\n   resulting in \u003ccode\u003eInt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "unpackIntTag",
           "package": "taglib-api",
@@ -2236,6 +2419,7 @@
         "index": {
           "description": "Given IO action which expects Tag pointer and results in CInt lifts it into TagLib action resulting in Int",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "unpackIntTag",
           "normalized": "GetIntTag-\u003eFileId-\u003eTagLib Int",
@@ -2252,6 +2436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003eIO\u003c/code\u003e action which expects a \u003ccode\u003eTag\u003c/code\u003e pointer and\n   results in a \u003ccode\u003eCString\u003c/code\u003e, lifts it into a \u003ccode\u003eTagLib\u003c/code\u003e action,\n   resulting in \u003ccode\u003eText\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:41 UTC 2014",
           "module": "Audio.TagLib",
           "name": "unpackStringTag",
           "package": "taglib-api",
@@ -2262,6 +2447,7 @@
         "index": {
           "description": "Given IO action which expects Tag pointer and results in CString lifts it into TagLib action resulting in Text",
           "hierarchy": "Audio TagLib",
+          "indexed": "2014-03-11T20:16:41",
           "module": "Audio.TagLib",
           "name": "unpackStringTag",
           "normalized": "GetStringTag-\u003eFileId-\u003eTagLib Text",

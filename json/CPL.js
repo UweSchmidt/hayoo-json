@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CPL"
+        "phrase": "CPL",
+        "type": "phrase"
       },
       "type": "context"
     }

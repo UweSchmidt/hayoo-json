@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epic"
+        "phrase": "epic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePublic interface for Epigram Supercombinator Compiler\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "Compiler",
           "package": "epic",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Public interface for Epigram Supercombinator Compiler",
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "Compiler",
           "package": "epic",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Debugging) options to give to compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "CompileOptions",
           "package": "epic",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Debugging options to give to compiler",
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "CompileOptions",
           "package": "epic",
@@ -340,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a source file in supercombinator language to a .o\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "compile",
           "package": "epic",
@@ -349,6 +354,7 @@
         "index": {
           "description": "Compile source file in supercombinator language to",
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "compile",
           "normalized": "FilePath-\u003eFilePath-\u003eMaybe FilePath-\u003eIO()",
@@ -363,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "compileDecls",
           "package": "epic",
@@ -371,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "compileDecls",
           "normalized": "FilePath-\u003eMaybe FilePath-\u003e[Decl]-\u003e[CompileOptions]-\u003eIO()",
@@ -386,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "compileOpts",
           "package": "epic",
@@ -394,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "compileOpts",
           "normalized": "FilePath-\u003eFilePath-\u003eMaybe FilePath-\u003e[CompileOptions]-\u003eIO()",
@@ -410,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink a collection of .o files into an executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Compiler",
           "name": "link",
           "package": "epic",
@@ -419,6 +430,7 @@
         "index": {
           "description": "Link collection of files into an executable",
           "hierarchy": "Epic Compiler",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Compiler",
           "name": "link",
           "normalized": "[FilePath]-\u003eFilePath-\u003e[CompileOptions]-\u003eIO()",
@@ -434,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for builing Epic programs\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Epic",
           "package": "epic",
@@ -443,6 +456,7 @@
         "index": {
           "description": "Combinators for builing Epic programs",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Epic",
           "package": "epic",
@@ -457,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a case alternative, with a name supply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Alternative",
           "package": "epic",
@@ -466,6 +481,7 @@
         "index": {
           "description": "Build case alternative with name supply",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Alternative",
           "package": "epic",
@@ -480,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Debugging) options to give to compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "CompileOptions",
           "package": "epic",
@@ -489,6 +506,7 @@
         "index": {
           "description": "Debugging options to give to compiler",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "CompileOptions",
           "package": "epic",
@@ -503,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop level declarations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "EpicDecl",
           "package": "epic",
@@ -512,6 +531,7 @@
         "index": {
           "description": "Top level declarations",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "EpicDecl",
           "package": "epic",
@@ -526,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild expressions, with a name supply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "EpicExpr",
           "package": "epic",
@@ -535,6 +556,7 @@
         "index": {
           "description": "Build expressions with name supply",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "EpicExpr",
           "package": "epic",
@@ -549,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a function definition, with a name supply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "EpicFn",
           "package": "epic",
@@ -558,6 +581,7 @@
         "index": {
           "description": "Build function definition with name supply",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "EpicFn",
           "package": "epic",
@@ -571,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Expr",
           "package": "epic",
@@ -579,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Expr",
           "package": "epic",
@@ -592,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Name",
           "package": "epic",
@@ -600,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Name",
           "package": "epic",
@@ -613,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Op",
           "package": "epic",
@@ -621,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Op",
           "package": "epic",
@@ -634,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Program",
           "package": "epic",
@@ -642,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Program",
           "package": "epic",
@@ -656,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sub-term, with a name supply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Term",
           "package": "epic",
@@ -665,6 +698,7 @@
         "index": {
           "description": "sub-term with name supply",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Term",
           "package": "epic",
@@ -678,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Type",
           "package": "epic",
@@ -686,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Type",
           "package": "epic",
@@ -700,6 +736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProject an argument from an expression which evaluates to\n constructor form. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "(!.)",
           "package": "epic",
@@ -709,6 +746,7 @@
         "index": {
           "description": "Project an argument from an expression which evaluates to constructor form",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "(!.) !.",
           "normalized": "a-\u003eInt-\u003eTerm",
@@ -724,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence terms --- evaluate the first then second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "(+\u003e)",
           "package": "epic",
@@ -734,6 +773,7 @@
         "index": {
           "description": "Sequence terms evaluate the first then second",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "(+\u003e) +\u003e",
           "normalized": "a-\u003eTerm-\u003eTerm",
@@ -749,6 +789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "(@@)",
           "package": "epic",
@@ -758,6 +799,7 @@
         "index": {
           "description": "Application",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "(@@) @@",
           "normalized": "a-\u003eb-\u003eTerm",
@@ -773,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport a C type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "CType",
           "package": "epic",
@@ -783,6 +826,7 @@
         "index": {
           "description": "Export type",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "CType",
           "package": "epic",
@@ -797,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpic function defined in a separate .o\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "EpicExt",
           "package": "epic",
@@ -807,6 +852,7 @@
         "index": {
           "description": "Epic function defined in separate",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "EpicExt",
           "package": "epic",
@@ -821,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "EpicFn",
           "package": "epic",
@@ -831,6 +878,7 @@
         "index": {
           "description": "Normal function",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "EpicFn",
           "package": "epic",
@@ -845,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInclude a C header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Include",
           "package": "epic",
@@ -855,6 +904,7 @@
         "index": {
           "description": "Include header",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Include",
           "package": "epic",
@@ -869,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to a C library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "Link",
           "package": "epic",
@@ -879,6 +930,7 @@
         "index": {
           "description": "Link to library",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "Link",
           "package": "epic",
@@ -893,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome default definitions: putStr, putStrLn, readStr, append, intToString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "basic_defs",
           "package": "epic",
@@ -903,6 +956,7 @@
         "index": {
           "description": "Some default definitions putStr putStrLn readStr append intToString",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "basic_defs",
           "normalized": "[EpicDecl]",
@@ -918,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant big integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "bigint",
           "package": "epic",
@@ -928,6 +983,7 @@
         "index": {
           "description": "Constant big integer",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "bigint",
           "normalized": "Integer-\u003eTerm",
@@ -943,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "bool",
           "package": "epic",
@@ -953,6 +1010,7 @@
         "index": {
           "description": "Constant bool",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "bool",
           "normalized": "Bool-\u003eTerm",
@@ -968,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a case expression with a list of alternatives\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "case_",
           "package": "epic",
@@ -978,6 +1037,7 @@
         "index": {
           "description": "Build case expression with list of alternatives",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "case_",
           "normalized": "a-\u003e[State Int CaseAlt]-\u003eTerm",
@@ -993,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "char",
           "package": "epic",
@@ -1003,6 +1064,7 @@
         "index": {
           "description": "Constant character",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "char",
           "normalized": "Char-\u003eTerm",
@@ -1018,6 +1080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a program to an executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "compile",
           "package": "epic",
@@ -1028,6 +1091,7 @@
         "index": {
           "description": "Compile program to an executable",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "compile",
           "normalized": "Program-\u003eFilePath-\u003eIO()",
@@ -1043,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a program to a .o\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "compileObj",
           "package": "epic",
@@ -1053,6 +1118,7 @@
         "index": {
           "description": "Compile program to",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "compileObj",
           "normalized": "Program-\u003eFilePath-\u003eIO()",
@@ -1069,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a program to a .o, with options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "compileObjWith",
           "package": "epic",
@@ -1079,6 +1146,7 @@
         "index": {
           "description": "Compile program to with options",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "compileObjWith",
           "normalized": "[CompileOptions]-\u003eProgram-\u003eFilePath-\u003eIO()",
@@ -1095,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a program to an executable, with options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "compileWith",
           "package": "epic",
@@ -1105,6 +1174,7 @@
         "index": {
           "description": "Compile program to an executable with options",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "compileWith",
           "normalized": "[CompileOptions]-\u003eProgram-\u003eFilePath-\u003eIO()",
@@ -1121,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase alternative for constructor with the given tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "con",
           "package": "epic",
@@ -1130,6 +1201,7 @@
         "index": {
           "description": "Case alternative for constructor with the given tag",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "con",
           "normalized": "Int-\u003ea-\u003eState Int CaseAlt",
@@ -1145,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a constructor with the given tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "con_",
           "package": "epic",
@@ -1154,6 +1227,7 @@
         "index": {
           "description": "Build constructor with the given tag",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "con_",
           "normalized": "Int-\u003eTerm",
@@ -1169,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase alternative for a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "constcase",
           "package": "epic",
@@ -1178,6 +1253,7 @@
         "index": {
           "description": "Case alternative for constant",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "constcase",
           "normalized": "Int-\u003ea-\u003eState Int CaseAlt",
@@ -1193,6 +1269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault case if no other branches apply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "defaultcase",
           "package": "epic",
@@ -1203,6 +1280,7 @@
         "index": {
           "description": "Default case if no other branches apply",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "defaultcase",
           "normalized": "a-\u003eState Int CaseAlt",
@@ -1217,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "divideF_",
           "package": "epic",
@@ -1226,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "divideF_",
           "package": "epic",
@@ -1238,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "divide_",
           "package": "epic",
@@ -1247,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "divide_",
           "package": "epic",
@@ -1260,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression but don't update the closure with the result.\n | Use this if the expression has a side effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "effect_",
           "package": "epic",
@@ -1270,6 +1353,7 @@
         "index": {
           "description": "Evaluate an expression but don update the closure with the result Use this if the expression has side effect",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "effect_",
           "normalized": "a-\u003eTerm",
@@ -1284,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "eqF_",
           "package": "epic",
@@ -1293,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "eqF_",
           "package": "epic",
@@ -1305,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "eq_",
           "package": "epic",
@@ -1314,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "eq_",
           "package": "epic",
@@ -1326,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "error_",
           "package": "epic",
@@ -1335,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "error_",
           "normalized": "String-\u003eTerm",
@@ -1349,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "evaluate",
           "package": "epic",
@@ -1358,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "evaluate",
           "normalized": "Program-\u003ea-\u003eExpr",
@@ -1373,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant float\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "float",
           "package": "epic",
@@ -1383,6 +1476,7 @@
         "index": {
           "description": "Constant float",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "float",
           "normalized": "Double-\u003eTerm",
@@ -1398,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a function name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "fn",
           "package": "epic",
@@ -1408,6 +1503,7 @@
         "index": {
           "description": "Reference to function name",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "fn",
           "normalized": "String-\u003eTerm",
@@ -1422,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "foreignConstL_",
           "package": "epic",
@@ -1431,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "foreignConstL_",
           "normalized": "Type-\u003eString-\u003eTerm",
@@ -1446,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "foreignConst_",
           "package": "epic",
@@ -1455,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "foreignConst_",
           "normalized": "Type-\u003eString-\u003eTerm",
@@ -1470,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "foreignL_",
           "package": "epic",
@@ -1479,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "foreignL_",
           "normalized": "Type-\u003eString-\u003e[(a,Type)]-\u003eTerm",
@@ -1493,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "foreign_",
           "package": "epic",
@@ -1502,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "foreign_",
           "normalized": "Type-\u003eString-\u003e[(a,Type)]-\u003eTerm",
@@ -1516,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "gtF_",
           "package": "epic",
@@ -1525,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "gtF_",
           "package": "epic",
@@ -1537,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "gt_",
           "package": "epic",
@@ -1546,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "gt_",
           "package": "epic",
@@ -1558,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "gteF_",
           "package": "epic",
@@ -1567,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "gteF_",
           "package": "epic",
@@ -1579,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "gte_",
           "package": "epic",
@@ -1588,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "gte_",
           "package": "epic",
@@ -1600,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "if_",
           "package": "epic",
@@ -1609,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "if_",
           "normalized": "a-\u003eb-\u003ec-\u003eTerm",
@@ -1624,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant integer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "int",
           "package": "epic",
@@ -1634,6 +1749,7 @@
         "index": {
           "description": "Constant integer",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "int",
           "normalized": "Int-\u003eTerm",
@@ -1649,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression lazily\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "lazy_",
           "package": "epic",
@@ -1659,6 +1776,7 @@
         "index": {
           "description": "Evaluate an expression lazily",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "lazy_",
           "normalized": "a-\u003eTerm",
@@ -1674,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLet bindings with an explicit name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "letN_",
           "package": "epic",
@@ -1684,6 +1803,7 @@
         "index": {
           "description": "Let bindings with an explicit name",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "letN_",
           "normalized": "Name-\u003ea-\u003eb-\u003eTerm",
@@ -1698,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "let_",
           "package": "epic",
@@ -1707,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "let_",
           "normalized": "a-\u003eb-\u003eState Int Expr",
@@ -1722,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink a collection of object files. By convention, the entry point is\n the function called \u003ccode\u003emain\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "link",
           "package": "epic",
@@ -1732,6 +1855,7 @@
         "index": {
           "description": "Link collection of object files By convention the entry point is the function called main",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "link",
           "normalized": "[FilePath]-\u003eFilePath-\u003eIO()",
@@ -1747,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink a collection of object files, with options. By convention, \n the entry point is the function called \u003ccode\u003emain\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "linkWith",
           "package": "epic",
@@ -1757,6 +1882,7 @@
         "index": {
           "description": "Link collection of object files with options By convention the entry point is the function called main",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "linkWith",
           "normalized": "[CompileOptions]-\u003e[FilePath]-\u003eFilePath-\u003eIO()",
@@ -1772,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "ltF_",
           "package": "epic",
@@ -1781,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "ltF_",
           "package": "epic",
@@ -1793,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "lt_",
           "package": "epic",
@@ -1802,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "lt_",
           "package": "epic",
@@ -1814,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "lteF_",
           "package": "epic",
@@ -1823,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "lteF_",
           "package": "epic",
@@ -1835,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "lte_",
           "package": "epic",
@@ -1844,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "lte_",
           "package": "epic",
@@ -1857,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression under garbage collected memory, and output\n how much was allocated during evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "mallocTrace_",
           "package": "epic",
@@ -1866,6 +2001,7 @@
         "index": {
           "description": "Evaluate an expression under garbage collected memory and output how much was allocated during evaluation",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "mallocTrace_",
           "normalized": "a-\u003eTerm",
@@ -1882,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate an expression under manually allocated memory. Creates a pool\n of memory. All allocation is from this pool, and there is no garbage\n collection. The pool is freed after evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "malloc_",
           "package": "epic",
@@ -1891,6 +2028,7 @@
         "index": {
           "description": "Evaluate an expression under manually allocated memory Creates pool of memory All allocation is from this pool and there is no garbage collection The pool is freed after evaluation",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "malloc_",
           "normalized": "a-\u003eb-\u003eTerm",
@@ -1905,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "minusF_",
           "package": "epic",
@@ -1914,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "minusF_",
           "package": "epic",
@@ -1926,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "minus_",
           "package": "epic",
@@ -1935,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "minus_",
           "package": "epic",
@@ -1947,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "mkProgram",
           "package": "epic",
@@ -1956,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "mkProgram",
           "normalized": "[EpicDecl]-\u003eProgram",
@@ -1971,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "name",
           "package": "epic",
@@ -1980,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "name",
           "normalized": "String-\u003eName",
@@ -1994,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "op_",
           "package": "epic",
@@ -2003,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "op_",
           "normalized": "Op-\u003ea-\u003eb-\u003eTerm",
@@ -2017,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "plusF_",
           "package": "epic",
@@ -2026,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "plusF_",
           "package": "epic",
@@ -2038,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "plus_",
           "package": "epic",
@@ -2047,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "plus_",
           "package": "epic",
@@ -2060,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference to a function name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "ref",
           "package": "epic",
@@ -2070,6 +2223,7 @@
         "index": {
           "description": "Reference to function name",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "ref",
           "normalized": "Name-\u003eTerm",
@@ -2084,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "run",
           "package": "epic",
@@ -2093,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "run",
           "normalized": "Program-\u003eIO()",
@@ -2107,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "shiftl_",
           "package": "epic",
@@ -2116,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "shiftl_",
           "package": "epic",
@@ -2128,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "shiftr_",
           "package": "epic",
@@ -2137,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "shiftr_",
           "package": "epic",
@@ -2150,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "str",
           "package": "epic",
@@ -2160,6 +2321,7 @@
         "index": {
           "description": "Constant string",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "str",
           "normalized": "String-\u003eTerm",
@@ -2174,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "term",
           "package": "epic",
@@ -2183,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "term",
           "normalized": "a-\u003eState Int Expr",
@@ -2197,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "timesF_",
           "package": "epic",
@@ -2206,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "timesF_",
           "package": "epic",
@@ -2218,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "times_",
           "package": "epic",
@@ -2227,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "times_",
           "package": "epic",
@@ -2240,6 +2408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase alternative for a tuple with the given tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tuple",
           "package": "epic",
@@ -2249,6 +2418,7 @@
         "index": {
           "description": "Case alternative for tuple with the given tag",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tuple",
           "normalized": "a-\u003eState Int CaseAlt",
@@ -2264,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a tuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tuple_",
           "package": "epic",
@@ -2274,6 +2445,7 @@
         "index": {
           "description": "Build tuple",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tuple_",
           "package": "epic",
@@ -2286,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyAny",
           "package": "epic",
@@ -2295,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyAny",
           "package": "epic",
@@ -2308,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyBigInt",
           "package": "epic",
@@ -2317,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyBigInt",
           "package": "epic",
@@ -2330,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyBool",
           "package": "epic",
@@ -2339,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyBool",
           "package": "epic",
@@ -2352,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyC",
           "package": "epic",
@@ -2361,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyC",
           "normalized": "String-\u003eType",
@@ -2375,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyChar",
           "package": "epic",
@@ -2384,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyChar",
           "package": "epic",
@@ -2397,6 +2579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyFloat",
           "package": "epic",
@@ -2406,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyFloat",
           "package": "epic",
@@ -2419,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyInt",
           "package": "epic",
@@ -2428,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyInt",
           "package": "epic",
@@ -2441,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyPtr",
           "package": "epic",
@@ -2450,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyPtr",
           "package": "epic",
@@ -2463,6 +2651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyString",
           "package": "epic",
@@ -2472,6 +2661,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyString",
           "package": "epic",
@@ -2485,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "tyUnit",
           "package": "epic",
@@ -2494,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "tyUnit",
           "package": "epic",
@@ -2508,6 +2700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor for the unit type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "unit_",
           "package": "epic",
@@ -2518,6 +2711,7 @@
         "index": {
           "description": "Constructor for the unit type",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "unit_",
           "package": "epic",
@@ -2531,6 +2725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a local variable (could be an explicit name or bound with\n a lambda, so we let it be an \u003ccode\u003e\u003ca\u003eExpr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "update_",
           "package": "epic",
@@ -2541,6 +2736,7 @@
         "index": {
           "description": "Update local variable could be an explicit name or bound with lambda so we let it be an Expr",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "update_",
           "normalized": "Expr-\u003ea-\u003eb-\u003eTerm",
@@ -2556,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile loop, with an accumulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "whileAcc_",
           "package": "epic",
@@ -2565,6 +2762,7 @@
         "index": {
           "description": "While loop with an accumulator",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "whileAcc_",
           "normalized": "a-\u003eb-\u003ec-\u003eTerm",
@@ -2581,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile loops (primitive, for efficiency).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:14 UTC 2014",
           "module": "Epic.Epic",
           "name": "while_",
           "package": "epic",
@@ -2590,6 +2789,7 @@
         "index": {
           "description": "While loops primitive for efficiency",
           "hierarchy": "Epic Epic",
+          "indexed": "2014-03-11T18:03:14",
           "module": "Epic.Epic",
           "name": "while_",
           "normalized": "a-\u003eb-\u003eTerm",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xournal-render"
+        "phrase": "xournal-render",
+        "type": "phrase"
       },
       "type": "context"
     }

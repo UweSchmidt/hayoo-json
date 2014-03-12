@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netcore"
+        "phrase": "netcore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions and types that heavily used by the Frenetic implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "Common",
           "package": "netcore",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions and types that heavily used by the Frenetic implementation",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "Common",
           "package": "netcore",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a Word8 vector, supporting many\n efficient operations.  A \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e contains 8-bit characters only.\n\u003c/p\u003e\u003cp\u003eInstances of Eq, Ord, Read, Show, Data, Typeable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "ByteString",
           "package": "netcore",
@@ -50,6 +53,7 @@
         "index": {
           "description": "space-efficient representation of Word8 vector supporting many efficient operations ByteString contains bit characters only Instances of Eq Ord Read Show Data Typeable",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "ByteString",
           "package": "netcore",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Map from keys \u003ccode\u003ek\u003c/code\u003e to values \u003ccode\u003ea\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "Map",
           "package": "netcore",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Map from keys to values",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "Map",
           "package": "netcore",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multiset of values \u003ccode\u003ea\u003c/code\u003e.\n   The same value can occur multiple times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "MultiSet",
           "package": "netcore",
@@ -94,6 +101,7 @@
         "index": {
           "description": "multiset of values The same value can occur multiple times",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "MultiSet",
           "package": "netcore",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of values \u003ccode\u003ea\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "Set",
           "package": "netcore",
@@ -116,6 +125,7 @@
         "index": {
           "description": "set of values",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "Set",
           "package": "netcore",
@@ -156,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ecatMaybes\u003c/a\u003e\u003c/code\u003e function takes a list of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003es and returns\n a list of all the \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Common",
           "name": "catMaybes",
           "package": "netcore",
@@ -165,6 +176,7 @@
         "index": {
           "description": "The catMaybes function takes list of Maybe and returns list of all the Just values",
           "hierarchy": "Frenetic Common",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Common",
           "name": "catMaybes",
           "normalized": "[Maybe a]-\u003e[a]",
@@ -206,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "Compat",
           "package": "netcore",
@@ -214,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "Compat",
           "package": "netcore",
@@ -228,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'FreneticImpl a' is a family of related abstract types that define a\n back-end for Frenetic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "FreneticImpl",
           "package": "netcore",
@@ -237,6 +252,7 @@
         "index": {
           "description": "FreneticImpl is family of related abstract types that define back-end for Frenetic",
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "FreneticImpl",
           "package": "netcore",
@@ -251,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackets' headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "Packet",
           "package": "netcore",
@@ -260,6 +277,7 @@
         "index": {
           "description": "Packets headers",
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "Packet",
           "package": "netcore",
@@ -274,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData that was sent. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "Transmission",
           "package": "netcore",
@@ -283,6 +302,7 @@
         "index": {
           "description": "Data that was sent",
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "Transmission",
           "package": "netcore",
@@ -319,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "Transmission",
           "package": "netcore",
@@ -328,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "Transmission",
           "package": "netcore",
@@ -341,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "actnController",
           "package": "netcore",
@@ -350,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "actnController",
           "package": "netcore",
@@ -363,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "actnControllerPart",
           "package": "netcore",
@@ -372,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "actnControllerPart",
           "normalized": "ActionImpl a-\u003eSwitch-\u003ePacketImpl a-\u003eIO()",
@@ -387,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "actnDefault",
           "package": "netcore",
@@ -396,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "actnDefault",
           "package": "netcore",
@@ -409,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "actnTranslate",
           "package": "netcore",
@@ -418,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "actnTranslate",
           "normalized": "Action-\u003eActionImpl a",
@@ -433,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "fromPattern",
           "package": "netcore",
@@ -442,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "fromPattern",
           "normalized": "Pattern-\u003ePatternImpl a",
@@ -758,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'ptrnMatchPkt pkt pat' is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003epat\u003c/code\u003e matches \u003ccode\u003epkt\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "ptrnMatchPkt",
           "package": "netcore",
@@ -768,6 +801,7 @@
         "index": {
           "description": "ptrnMatchPkt pkt pat is True if pat matches pkt",
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "ptrnMatchPkt",
           "normalized": "PacketImpl a-\u003ePatternImpl a-\u003eBool",
@@ -783,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "toPacket",
           "package": "netcore",
@@ -792,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "toPacket",
           "normalized": "PacketImpl a-\u003eMaybe Packet",
@@ -807,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "toPattern",
           "package": "netcore",
@@ -816,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "toPattern",
           "normalized": "PatternImpl a-\u003ePattern",
@@ -831,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "trPattern",
           "package": "netcore",
@@ -840,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "trPattern",
           "package": "netcore",
@@ -853,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "trPkt",
           "package": "netcore",
@@ -862,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "trPkt",
           "package": "netcore",
@@ -875,6 +917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "trSwitch",
           "package": "netcore",
@@ -884,6 +927,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "trSwitch",
           "package": "netcore",
@@ -897,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Compat",
           "name": "updatePacket",
           "package": "netcore",
@@ -906,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Compat",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Compat",
           "name": "updatePacket",
           "normalized": "PacketImpl a-\u003ePacket-\u003ePacketImpl a",
@@ -921,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -929,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -942,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -950,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -963,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -972,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -1008,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "ethernetAddress",
           "package": "netcore",
@@ -1017,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "ethernetAddress",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eWord-\u003eEthernetAddress",
@@ -1032,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "ethernetAddress64",
           "package": "netcore",
@@ -1041,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "ethernetAddress64",
           "normalized": "Word-\u003eEthernetAddress",
@@ -1056,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "unpackEth64",
           "package": "netcore",
@@ -1065,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "unpackEth64",
           "package": "netcore",
@@ -1078,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.EthernetAddress",
           "name": "unpackEthernetAddress",
           "package": "netcore",
@@ -1087,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Frenetic EthernetAddress",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.EthernetAddress",
           "name": "unpackEthernetAddress",
           "normalized": "EthernetAddress-\u003e(Word,Word,Word,Word,Word,Word)",
@@ -1103,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposes NetCore policies and predicates, and defines how these policies\n interpret abstract packets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Semantics",
           "name": "Semantics",
           "package": "netcore",
@@ -1112,6 +1173,7 @@
         "index": {
           "description": "Composes NetCore policies and predicates and defines how these policies interpret abstract packets",
           "hierarchy": "Frenetic NetCore Semantics",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Semantics",
           "name": "Semantics",
           "package": "netcore",
@@ -1126,6 +1188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements the denotation function for policies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Semantics",
           "name": "interpretPolicy",
           "package": "netcore",
@@ -1136,6 +1199,7 @@
         "index": {
           "description": "Implements the denotation function for policies",
           "hierarchy": "Frenetic NetCore Semantics",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Semantics",
           "name": "interpretPolicy",
           "normalized": "Policy-\u003eTransmission(PatternImpl a)(PacketImpl a)-\u003eAction",
@@ -1152,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements the denotation function for predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Semantics",
           "name": "interpretPredicate",
           "package": "netcore",
@@ -1162,6 +1227,7 @@
         "index": {
           "description": "Implements the denotation function for predicates",
           "hierarchy": "Frenetic NetCore Semantics",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Semantics",
           "name": "interpretPredicate",
           "normalized": "Predicate-\u003eTransmission(PatternImpl a)(PacketImpl a)-\u003eBool",
@@ -1177,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Short",
           "name": "Short",
           "package": "netcore",
@@ -1185,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Short",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Short",
           "name": "Short",
           "package": "netcore",
@@ -1199,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each fields with a value Just v, modify that field to be v.\n  If the field is Nothing then there is no modification of that field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Short",
           "name": "Modification",
           "package": "netcore",
@@ -1208,6 +1277,7 @@
         "index": {
           "description": "For each fields with value Just modify that field to be If the field is Nothing then there is no modification of that field",
           "hierarchy": "Frenetic NetCore Short",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Short",
           "name": "Modification",
           "package": "netcore",
@@ -2542,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Types",
           "package": "netcore",
@@ -2550,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Types",
           "package": "netcore",
@@ -2564,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions to perform on packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Action",
           "package": "netcore",
@@ -2573,6 +2646,7 @@
         "index": {
           "description": "Actions to perform on packets",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Action",
           "package": "netcore",
@@ -2586,6 +2660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Counter",
           "package": "netcore",
@@ -2594,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Counter",
           "package": "netcore",
@@ -2608,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLoc\u003c/a\u003e\u003c/code\u003e uniquely identifies a port at a switch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Loc",
           "package": "netcore",
@@ -2617,6 +2694,7 @@
         "index": {
           "description": "Loc uniquely identifies port at switch",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Loc",
           "package": "netcore",
@@ -2631,6 +2709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each fields with a value Just v, modify that field to be v.\n  If the field is Nothing then there is no modification of that field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Modification",
           "package": "netcore",
@@ -2640,6 +2719,7 @@
         "index": {
           "description": "For each fields with value Just modify that field to be If the field is Nothing then there is no modification of that field",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Modification",
           "package": "netcore",
@@ -2654,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackets' headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Packet",
           "package": "netcore",
@@ -2663,6 +2744,7 @@
         "index": {
           "description": "Packets headers",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Packet",
           "package": "netcore",
@@ -2677,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePatterns to match packets. Patterns translate directly to a single OpenFlow\n match rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Pattern",
           "package": "netcore",
@@ -2686,6 +2769,7 @@
         "index": {
           "description": "Patterns to match packets Patterns translate directly to single OpenFlow match rule",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Pattern",
           "package": "netcore",
@@ -2700,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolicies denote functions from (switch, packet) to packets. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Policy",
           "package": "netcore",
@@ -2709,6 +2794,7 @@
         "index": {
           "description": "Policies denote functions from switch packet to packets",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Policy",
           "package": "netcore",
@@ -2723,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of a physical port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Port",
           "package": "netcore",
@@ -2732,6 +2819,7 @@
         "index": {
           "description": "The number of physical port",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Port",
           "package": "netcore",
@@ -2746,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicates to match packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Predicate",
           "package": "netcore",
@@ -2755,6 +2844,7 @@
         "index": {
           "description": "Predicates to match packets",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Predicate",
           "package": "netcore",
@@ -2769,6 +2859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PseudoPort",
           "package": "netcore",
@@ -2778,6 +2869,7 @@
         "index": {
           "description": "Logical ports",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PseudoPort",
           "package": "netcore",
@@ -2791,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Query",
           "package": "netcore",
@@ -2799,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Query",
           "package": "netcore",
@@ -2813,6 +2907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA switch's unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Switch",
           "package": "netcore",
@@ -2822,6 +2917,7 @@
         "index": {
           "description": "switch unique identifier",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Switch",
           "package": "netcore",
@@ -2836,6 +2932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVLAN tags. Only the lower 12-bits are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Vlan",
           "package": "netcore",
@@ -2845,6 +2942,7 @@
         "index": {
           "description": "VLAN tags Only the lower bits are used",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Vlan",
           "package": "netcore",
@@ -2859,6 +2957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEthernet addresses are 48-bits wide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Word48",
           "package": "netcore",
@@ -2868,6 +2967,7 @@
         "index": {
           "description": "Ethernet addresses are bits wide",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Word48",
           "package": "netcore",
@@ -2881,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Action",
           "package": "netcore",
@@ -2890,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Action",
           "package": "netcore",
@@ -2903,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "AllPorts",
           "package": "netcore",
@@ -2912,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "AllPorts",
           "package": "netcore",
@@ -2925,6 +3029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "CountBytes",
           "package": "netcore",
@@ -2934,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "CountBytes",
           "package": "netcore",
@@ -2947,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "CountPackets",
           "package": "netcore",
@@ -2956,6 +3063,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "CountPackets",
           "package": "netcore",
@@ -2992,6 +3100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "NumPktQuery",
           "package": "netcore",
@@ -3001,6 +3110,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "NumPktQuery",
           "package": "netcore",
@@ -3014,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Pattern",
           "package": "netcore",
@@ -3023,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Pattern",
           "package": "netcore",
@@ -3036,6 +3148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "Physical",
           "package": "netcore",
@@ -3045,6 +3158,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "Physical",
           "package": "netcore",
@@ -3058,6 +3172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PktQuery",
           "package": "netcore",
@@ -3067,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PktQuery",
           "package": "netcore",
@@ -3156,6 +3272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch both predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PrIntersect",
           "package": "netcore",
@@ -3166,6 +3283,7 @@
         "index": {
           "description": "Match both predicates",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PrIntersect",
           "package": "netcore",
@@ -3180,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrNegate P matches packets that do not match P.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PrNegate",
           "package": "netcore",
@@ -3190,6 +3309,7 @@
         "index": {
           "description": "PrNegate matches packets that do not match",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PrNegate",
           "package": "netcore",
@@ -3204,6 +3324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch with a simple pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PrPattern",
           "package": "netcore",
@@ -3214,6 +3335,7 @@
         "index": {
           "description": "Match with simple pattern",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PrPattern",
           "package": "netcore",
@@ -3228,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only at this switch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PrTo",
           "package": "netcore",
@@ -3238,6 +3361,7 @@
         "index": {
           "description": "Match only at this switch",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PrTo",
           "package": "netcore",
@@ -3252,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch either predicates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "PrUnion",
           "package": "netcore",
@@ -3262,6 +3387,7 @@
         "index": {
           "description": "Match either predicates",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "PrUnion",
           "package": "netcore",
@@ -3275,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "actionForwards",
           "package": "netcore",
@@ -3284,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "actionForwards",
           "normalized": "MultiSet(PseudoPort,Modification)",
@@ -3299,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "actionForwardsTo",
           "package": "netcore",
@@ -3308,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "actionForwardsTo",
           "normalized": "Action-\u003eMultiSet PseudoPort",
@@ -3323,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "actionQueries",
           "package": "netcore",
@@ -3332,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "actionQueries",
           "package": "netcore",
@@ -3371,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "countField",
           "package": "netcore",
@@ -3380,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "countField",
           "package": "netcore",
@@ -3471,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "idOfQuery",
           "package": "netcore",
@@ -3480,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "idOfQuery",
           "package": "netcore",
@@ -3494,6 +3630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a list of the non-wildcarded patterns with sep between field and value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "interesting",
           "package": "netcore",
@@ -3504,6 +3641,7 @@
         "index": {
           "description": "Build list of the non-wildcarded patterns with sep between field and value",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "interesting",
           "normalized": "String-\u003ePattern-\u003e[String]",
@@ -3518,6 +3656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "isPktQuery",
           "package": "netcore",
@@ -3527,6 +3666,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "isPktQuery",
           "normalized": "Query-\u003eBool",
@@ -3542,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "lastVal",
           "package": "netcore",
@@ -3551,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "lastVal",
           "package": "netcore",
@@ -3564,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "modifiedFields",
           "package": "netcore",
@@ -3573,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "modifiedFields",
           "normalized": "Modification-\u003eSet Field",
@@ -3588,6 +3732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "numPktQueryChan",
           "package": "netcore",
@@ -3597,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "numPktQueryChan",
           "normalized": "Chan(Switch,Integer)",
@@ -3612,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "pktQueryChan",
           "package": "netcore",
@@ -3621,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "pktQueryChan",
           "normalized": "Chan(Switch,Packet)",
@@ -3637,6 +3785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a predicate that matches the domain of the policy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "poDom",
           "package": "netcore",
@@ -3647,6 +3796,7 @@
         "index": {
           "description": "Returns predicate that matches the domain of the policy",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "poDom",
           "normalized": "Policy-\u003ePredicate",
@@ -3663,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet back all basic policies in the union.  Does not return any unions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "poUnUnion",
           "package": "netcore",
@@ -3673,6 +3824,7 @@
         "index": {
           "description": "Get back all basic policies in the union Does not return any unions",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "poUnUnion",
           "normalized": "Policy-\u003e[Policy]",
@@ -3689,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet back all predicates in the intersection.  Does not return any naked\n intersections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "prUnIntersect",
           "package": "netcore",
@@ -3699,6 +3852,7 @@
         "index": {
           "description": "Get back all predicates in the intersection Does not return any naked intersections",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "prUnIntersect",
           "normalized": "Predicate-\u003e[Predicate]",
@@ -3715,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet back all predicates in the union.  Does not return any naked unions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "prUnUnion",
           "package": "netcore",
@@ -3725,6 +3880,7 @@
         "index": {
           "description": "Get back all predicates in the union Does not return any naked unions",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "prUnUnion",
           "normalized": "Predicate-\u003e[Predicate]",
@@ -3740,6 +3896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlDst",
           "package": "netcore",
@@ -3749,6 +3906,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlDst",
           "package": "netcore",
@@ -3762,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlSrc",
           "package": "netcore",
@@ -3771,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlSrc",
           "package": "netcore",
@@ -3784,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlTyp",
           "package": "netcore",
@@ -3793,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlTyp",
           "package": "netcore",
@@ -3806,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlVlan",
           "package": "netcore",
@@ -3815,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlVlan",
           "package": "netcore",
@@ -3828,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlVlanPcp",
           "package": "netcore",
@@ -3837,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnDlVlanPcp",
           "package": "netcore",
@@ -3850,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnInPort",
           "package": "netcore",
@@ -3859,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnInPort",
           "package": "netcore",
@@ -3872,6 +4040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwDst",
           "package": "netcore",
@@ -3881,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwDst",
           "package": "netcore",
@@ -3894,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwProto",
           "package": "netcore",
@@ -3903,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwProto",
           "package": "netcore",
@@ -3916,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwSrc",
           "package": "netcore",
@@ -3925,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwSrc",
           "package": "netcore",
@@ -3938,6 +4112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwTos",
           "package": "netcore",
@@ -3947,6 +4122,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnNwTos",
           "package": "netcore",
@@ -3960,6 +4136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnTpDst",
           "package": "netcore",
@@ -3969,6 +4146,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnTpDst",
           "package": "netcore",
@@ -3982,6 +4160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnTpSrc",
           "package": "netcore",
@@ -3991,6 +4170,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "ptrnTpSrc",
           "package": "netcore",
@@ -4004,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "queryInterval",
           "package": "netcore",
@@ -4013,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "queryInterval",
           "package": "netcore",
@@ -4027,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the approximate size of the policy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "size",
           "package": "netcore",
@@ -4037,6 +4220,7 @@
         "index": {
           "description": "Returns the approximate size of the policy",
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "size",
           "normalized": "Policy-\u003eInt",
@@ -4051,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore.Types",
           "name": "totalVal",
           "package": "netcore",
@@ -4060,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore Types",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore.Types",
           "name": "totalVal",
           "package": "netcore",
@@ -4074,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEverything necessary to build a controller atop NetCore, using Nettle as\n a backend.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "NetCore",
           "package": "netcore",
@@ -4083,6 +4270,7 @@
         "index": {
           "description": "Everything necessary to build controller atop NetCore using Nettle as backend",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "NetCore",
           "package": "netcore",
@@ -4097,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActions to perform on packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Action",
           "package": "netcore",
@@ -4106,6 +4295,7 @@
         "index": {
           "description": "Actions to perform on packets",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Action",
           "package": "netcore",
@@ -4119,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -4127,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "EthernetAddress",
           "package": "netcore",
@@ -4141,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLoc\u003c/a\u003e\u003c/code\u003e uniquely identifies a port at a switch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Loc",
           "package": "netcore",
@@ -4150,6 +4343,7 @@
         "index": {
           "description": "Loc uniquely identifies port at switch",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Loc",
           "package": "netcore",
@@ -4164,6 +4358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each fields with a value Just v, modify that field to be v.\n  If the field is Nothing then there is no modification of that field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Modification",
           "package": "netcore",
@@ -4173,6 +4368,7 @@
         "index": {
           "description": "For each fields with value Just modify that field to be If the field is Nothing then there is no modification of that field",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Modification",
           "package": "netcore",
@@ -4187,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePackets' headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Packet",
           "package": "netcore",
@@ -4196,6 +4393,7 @@
         "index": {
           "description": "Packets headers",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Packet",
           "package": "netcore",
@@ -4210,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolicies denote functions from (switch, packet) to packets. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Policy",
           "package": "netcore",
@@ -4219,6 +4418,7 @@
         "index": {
           "description": "Policies denote functions from switch packet to packets",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Policy",
           "package": "netcore",
@@ -4233,6 +4433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of a physical port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Port",
           "package": "netcore",
@@ -4242,6 +4443,7 @@
         "index": {
           "description": "The number of physical port",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Port",
           "package": "netcore",
@@ -4256,6 +4458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicates to match packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Predicate",
           "package": "netcore",
@@ -4265,6 +4468,7 @@
         "index": {
           "description": "Predicates to match packets",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Predicate",
           "package": "netcore",
@@ -4279,6 +4483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA slice represents a subgraph of the network for the purposes of isolating\n programs from each other.\n\u003c/p\u003e\u003cp\u003eThe interface to a slice has two components: a topology comprising switches,\n ports, and links; and a collection of predicates, one for each outward-facing\n edge port.\n\u003c/p\u003e\u003cp\u003eWe represent the topology as a collection of locations in the network, and\n the predicates as a mapping from locations to predicates.\n\u003c/p\u003e\u003cp\u003eIntuitively, packets may travel freely between internal locations, but must\n satisfy the associated predicate to enter the slice at an ingress location,\n or leave the slice at an egress location.  If an external port is not listed\n in the ingress or egress set, then no packets may enter or leave\n (respectively) on that port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Slice",
           "package": "netcore",
@@ -4288,6 +4493,7 @@
         "index": {
           "description": "slice represents subgraph of the network for the purposes of isolating programs from each other The interface to slice has two components topology comprising switches ports and links and collection of predicates one for each outward-facing edge port We represent the topology as collection of locations in the network and the predicates as mapping from locations to predicates Intuitively packets may travel freely between internal locations but must satisfy the associated predicate to enter the slice at an ingress location or leave the slice at an egress location If an external port is not listed in the ingress or egress set then no packets may enter or leave respectively on that port",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Slice",
           "package": "netcore",
@@ -4302,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA switch's unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Switch",
           "package": "netcore",
@@ -4311,6 +4518,7 @@
         "index": {
           "description": "switch unique identifier",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Switch",
           "package": "netcore",
@@ -4324,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Topo",
           "package": "netcore",
@@ -4332,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Topo",
           "package": "netcore",
@@ -4346,6 +4556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVLAN tags. Only the lower 12-bits are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Vlan",
           "package": "netcore",
@@ -4355,6 +4566,7 @@
         "index": {
           "description": "VLAN tags Only the lower bits are used",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Vlan",
           "package": "netcore",
@@ -4369,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEthernet addresses are 48-bits wide.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Word48",
           "package": "netcore",
@@ -4378,6 +4591,7 @@
         "index": {
           "description": "Ethernet addresses are bits wide",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Word48",
           "package": "netcore",
@@ -4391,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "Slice",
           "package": "netcore",
@@ -4400,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "Slice",
           "package": "netcore",
@@ -4414,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a graph from list of undirected edges labeled with their ports\n Ensures that the resulting graph is undirected-equivalent, and labels each\n \u003ca\u003edirected\u003c/a\u003e edge with the appropriate port to send a packet over that edge\n from the source switch.\n\u003c/p\u003e\u003cp\u003eBy convention, hosts have a single port 0, and non-hosts have any number of\n non-zero ports.  If 0 is in the ports of a node, it is considered to be a\n host regardless of other ports that may be present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "buildGraph",
           "package": "netcore",
@@ -4424,6 +4641,7 @@
         "index": {
           "description": "Build graph from list of undirected edges labeled with their ports Ensures that the resulting graph is undirected-equivalent and labels each directed edge with the appropriate port to send packet over that edge from the source switch By convention hosts have single port and non-hosts have any number of non-zero ports If is in the ports of node it is considered to be host regardless of other ports that may be present",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "buildGraph",
           "normalized": "[((Node,Port),(Node,Port))]-\u003eTopo",
@@ -4492,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a list of slices and dynamic policies as they change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "dynTransform",
           "package": "netcore",
@@ -4502,6 +4721,7 @@
         "index": {
           "description": "Compile list of slices and dynamic policies as they change",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "dynTransform",
           "normalized": "[(Slice,Chan Policy)]-\u003eIO(Chan Policy)",
@@ -4518,6 +4738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal ports, and restrictions on outbound packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "egress",
           "package": "netcore",
@@ -4528,6 +4749,7 @@
         "index": {
           "description": "External ports and restrictions on outbound packets",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "egress",
           "package": "netcore",
@@ -4541,6 +4763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal ports, and restrictions on inbound packets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "ingress",
           "package": "netcore",
@@ -4551,6 +4774,7 @@
         "index": {
           "description": "External ports and restrictions on inbound packets",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "ingress",
           "package": "netcore",
@@ -4564,6 +4788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePorts internal to the slice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "internal",
           "package": "netcore",
@@ -4574,6 +4799,7 @@
         "index": {
           "description": "Ports internal to the slice",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "internal",
           "package": "netcore",
@@ -4587,6 +4813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a slice that exactly covers the given topology, with no ingress or\n egress ports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "internalSlice",
           "package": "netcore",
@@ -4597,6 +4824,7 @@
         "index": {
           "description": "Produce slice that exactly covers the given topology with no ingress or egress ports",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "internalSlice",
           "normalized": "Topo-\u003eSlice",
@@ -4613,6 +4841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a slice with all the switches in topo, and predicate applied to all\n in- and out-bound connections to hosts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "simpleSlice",
           "package": "netcore",
@@ -4623,6 +4852,7 @@
         "index": {
           "description": "Produce slice with all the switches in topo and predicate applied to all in and out-bound connections to hosts",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "simpleSlice",
           "normalized": "Topo-\u003ePredicate-\u003eSlice",
@@ -4639,6 +4869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the combined policy by compiling a list of slices and policies with\n the vanilla compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "transform",
           "package": "netcore",
@@ -4649,6 +4880,7 @@
         "index": {
           "description": "Produce the combined policy by compiling list of slices and policies with the vanilla compiler",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "transform",
           "normalized": "[(Slice,Policy)]-\u003ePolicy",
@@ -4664,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce the combined policy by compiling a list of slices and policies with\n the edge compiler\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetCore",
           "name": "transformEdge",
           "package": "netcore",
@@ -4674,6 +4907,7 @@
         "index": {
           "description": "Produce the combined policy by compiling list of slices and policies with the edge compiler",
           "hierarchy": "Frenetic NetCore",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetCore",
           "name": "transformEdge",
           "normalized": "Topo-\u003e[(Slice,Policy)]-\u003ePolicy",
@@ -4689,6 +4923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetworkFrames",
           "name": "NetworkFrames",
           "package": "netcore",
@@ -4697,6 +4932,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetworkFrames",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetworkFrames",
           "name": "NetworkFrames",
           "package": "netcore",
@@ -4710,6 +4946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.NetworkFrames",
           "name": "arpReply",
           "package": "netcore",
@@ -4719,6 +4956,7 @@
         },
         "index": {
           "hierarchy": "Frenetic NetworkFrames",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.NetworkFrames",
           "name": "arpReply",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eByteString",
@@ -4734,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Pattern",
           "package": "netcore",
@@ -4742,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Pattern",
           "package": "netcore",
@@ -4756,6 +4996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types that compose similar to wildcards.\n\u003c/p\u003e\u003cp\u003eAll instances must satisfy the following:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003ematch\u003c/code\u003e defines a partial order; \u003ccode\u003etop\u003c/code\u003e is the top element of this order\n  and \u003ccode\u003eintersect\u003c/code\u003e is a meet.\n\u003c/li\u003e\u003cli\u003e Meets are exact: if \u003ccode\u003ematch x y\u003c/code\u003e and \u003ccode\u003ematch x z\u003c/code\u003e, then\n  \u003ccode\u003ematch x (fromJust (intersect y z))\u003c/code\u003e, if such a meet exists.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eMinimal complete definition: top and intersect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Matchable",
           "package": "netcore",
@@ -4765,6 +5006,7 @@
         "index": {
           "description": "class for types that compose similar to wildcards All instances must satisfy the following match defines partial order top is the top element of this order and intersect is meet Meets are exact if match and match then match fromJust intersect if such meet exists Minimal complete definition top and intersect",
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Matchable",
           "package": "netcore",
@@ -4778,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Prefix",
           "package": "netcore",
@@ -4786,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Prefix",
           "package": "netcore",
@@ -4799,6 +5043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Wildcard",
           "package": "netcore",
@@ -4807,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Wildcard",
           "package": "netcore",
@@ -4820,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Exact",
           "package": "netcore",
@@ -4829,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Exact",
           "package": "netcore",
@@ -4842,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Prefix",
           "package": "netcore",
@@ -4851,6 +5100,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Prefix",
           "package": "netcore",
@@ -4864,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "Wildcard",
           "package": "netcore",
@@ -4873,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "Wildcard",
           "package": "netcore",
@@ -4886,6 +5138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "disjoint",
           "package": "netcore",
@@ -4895,6 +5148,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "disjoint",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4909,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "intersect",
           "package": "netcore",
@@ -4918,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "intersect",
           "normalized": "a-\u003ea-\u003eMaybe a",
@@ -4932,6 +5188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "match",
           "package": "netcore",
@@ -4941,6 +5198,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "match",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4955,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "overlap",
           "package": "netcore",
@@ -4964,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "overlap",
           "normalized": "a-\u003ea-\u003eBool",
@@ -4978,6 +5238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "top",
           "package": "netcore",
@@ -4987,6 +5248,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "top",
           "package": "netcore",
@@ -4999,6 +5261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Pattern",
           "name": "wMatch",
           "package": "netcore",
@@ -5008,6 +5271,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Pattern",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Pattern",
           "name": "wMatch",
           "normalized": "a-\u003eWildcard a-\u003eBool",
@@ -5023,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:47 UTC 2014",
           "module": "Frenetic.Server",
           "name": "Server",
           "package": "netcore",
@@ -5031,6 +5296,7 @@
         },
         "index": {
           "hierarchy": "Frenetic Server",
+          "indexed": "2014-03-11T19:26:47",
           "module": "Frenetic.Server",
           "name": "Server",
           "package": "netcore",

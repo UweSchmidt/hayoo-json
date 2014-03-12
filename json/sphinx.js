@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sphinx"
+        "phrase": "sphinx",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Configuration",
           "name": "Configuration",
           "package": "sphinx",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Configuration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Configuration",
           "name": "Configuration",
           "package": "sphinx",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for a query\n\u003c/p\u003e\u003cp\u003eA note about encodings: The encoding specified here is used to encode\n every \u003ccode\u003eText\u003c/code\u003e value that is sent to the server, and it used to decode all\n of the server's answers, including error messages.\n\u003c/p\u003e\u003cp\u003eIf the specified encoding doesn't support characters sent to the server,\n they will silently be substituted with the byte value of \u003ccode\u003e'\\SUB' ::\n \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e before transmission.\n\u003c/p\u003e\u003cp\u003eIf the server sends a byte value back that the encoding doesn't understand,\n the affected bytes will be converted into special values as\n specified by that encoding. For example, when decoding invalid UTF-8,\n all invalid bytes are going to be substituted with \u003ccode\u003e'\\65533' ::\n \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Configuration",
           "name": "Configuration",
           "package": "sphinx",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The configuration for query note about encodings The encoding specified here is used to encode every Text value that is sent to the server and it used to decode all of the server answers including error messages If the specified encoding doesn support characters sent to the server they will silently be substituted with the byte value of SUB Char before transmission If the server sends byte value back that the encoding doesn understand the affected bytes will be converted into special values as specified by that encoding For example when decoding invalid UTF-8 all invalid bytes are going to be substituted with Char",
           "hierarchy": "Text Search Sphinx Configuration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Configuration",
           "name": "Configuration",
           "package": "sphinx",
@@ -732,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -740,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -753,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -761,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -774,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -783,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "ExcerptConfiguration",
           "package": "sphinx",
@@ -796,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "afterMatch",
           "package": "sphinx",
@@ -805,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "afterMatch",
           "package": "sphinx",
@@ -818,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "allowEmpty",
           "package": "sphinx",
@@ -827,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "allowEmpty",
           "package": "sphinx",
@@ -840,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "altConfig",
           "package": "sphinx",
@@ -849,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "altConfig",
           "package": "sphinx",
@@ -862,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "around",
           "package": "sphinx",
@@ -871,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "around",
           "package": "sphinx",
@@ -883,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "beforeMatch",
           "package": "sphinx",
@@ -892,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "beforeMatch",
           "package": "sphinx",
@@ -905,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "chunkSeparator",
           "package": "sphinx",
@@ -914,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "chunkSeparator",
           "package": "sphinx",
@@ -927,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "defaultConfig",
           "package": "sphinx",
@@ -936,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "defaultConfig",
           "package": "sphinx",
@@ -950,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncoding used to encode queries to the server, and decode server responses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "encoding",
           "package": "sphinx",
@@ -960,6 +985,7 @@
         "index": {
           "description": "Encoding used to encode queries to the server and decode server responses",
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "encoding",
           "package": "sphinx",
@@ -972,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "exactPhrase",
           "package": "sphinx",
@@ -981,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "exactPhrase",
           "package": "sphinx",
@@ -994,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "forceAllWords",
           "package": "sphinx",
@@ -1003,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "forceAllWords",
           "package": "sphinx",
@@ -1017,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe hostname of the Sphinx daemon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "host",
           "package": "sphinx",
@@ -1027,6 +1058,7 @@
         "index": {
           "description": "The hostname of the Sphinx daemon",
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "host",
           "package": "sphinx",
@@ -1039,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "htmlStripMode",
           "package": "sphinx",
@@ -1048,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "htmlStripMode",
           "package": "sphinx",
@@ -1061,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limit",
           "package": "sphinx",
@@ -1070,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limit",
           "package": "sphinx",
@@ -1082,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limitPassages",
           "package": "sphinx",
@@ -1091,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limitPassages",
           "package": "sphinx",
@@ -1104,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limitWords",
           "package": "sphinx",
@@ -1113,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "limitWords",
           "package": "sphinx",
@@ -1126,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "loadFiles",
           "package": "sphinx",
@@ -1135,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "loadFiles",
           "package": "sphinx",
@@ -1148,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "passageBoundary",
           "package": "sphinx",
@@ -1157,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "passageBoundary",
           "package": "sphinx",
@@ -1171,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe portnumber of the Sphinx daemon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "port",
           "package": "sphinx",
@@ -1181,6 +1226,7 @@
         "index": {
           "description": "The portnumber of the Sphinx daemon",
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "port",
           "package": "sphinx",
@@ -1194,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewarning! broken on 1.10-beta (keep to default of false). Fixed on trunk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "queryMode",
           "package": "sphinx",
@@ -1204,6 +1251,7 @@
         "index": {
           "description": "warning broken on beta keep to default of false Fixed on trunk",
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "queryMode",
           "package": "sphinx",
@@ -1217,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "singlePassage",
           "package": "sphinx",
@@ -1226,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "singlePassage",
           "package": "sphinx",
@@ -1239,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "startPassageId",
           "package": "sphinx",
@@ -1248,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "startPassageId",
           "package": "sphinx",
@@ -1261,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "useBoundaries",
           "package": "sphinx",
@@ -1270,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "useBoundaries",
           "package": "sphinx",
@@ -1283,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "weightOrder",
           "package": "sphinx",
@@ -1292,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx ExcerptConfiguration",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.ExcerptConfiguration",
           "name": "weightOrder",
           "package": "sphinx",
@@ -1305,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "Indexable",
           "package": "sphinx",
@@ -1313,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "Indexable",
           "package": "sphinx",
@@ -1326,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "Id",
           "package": "sphinx",
@@ -1334,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "Id",
           "package": "sphinx",
@@ -1347,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "SchemaType",
           "package": "sphinx",
@@ -1355,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "SchemaType",
           "package": "sphinx",
@@ -1368,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "SphinxSchema",
           "package": "sphinx",
@@ -1376,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "SphinxSchema",
           "package": "sphinx",
@@ -1389,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TAttribute",
           "package": "sphinx",
@@ -1398,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TAttribute",
           "package": "sphinx",
@@ -1411,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TField",
           "package": "sphinx",
@@ -1420,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TField",
           "package": "sphinx",
@@ -1433,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TFieldString",
           "package": "sphinx",
@@ -1442,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "TFieldString",
           "package": "sphinx",
@@ -1456,6 +1526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first parameter should be ignored, but is used to satisfy Haskell's type system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "schema",
           "package": "sphinx",
@@ -1466,6 +1537,7 @@
         "index": {
           "description": "The first parameter should be ignored but is used to satisfy Haskell type system",
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "schema",
           "normalized": "a-\u003e[(String,SchemaType)]",
@@ -1480,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "serialize",
           "package": "sphinx",
@@ -1489,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "serialize",
           "normalized": "[a]-\u003eElement",
@@ -1504,6 +1578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value of a to a document with a document id and some attributes and fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "toDocument",
           "package": "sphinx",
@@ -1514,6 +1589,7 @@
         "index": {
           "description": "Convert value of to document with document id and some attributes and fields",
           "hierarchy": "Text Search Sphinx Indexable",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Indexable",
           "name": "toDocument",
           "normalized": "a-\u003e(Id,[(String,Attr)])",
@@ -1529,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Types",
           "package": "sphinx",
@@ -1537,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Types",
           "package": "sphinx",
@@ -1550,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Attr",
           "package": "sphinx",
@@ -1558,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Attr",
           "package": "sphinx",
@@ -1572,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrT",
           "package": "sphinx",
@@ -1581,6 +1662,7 @@
         "index": {
           "description": "Attribute types",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrT",
           "package": "sphinx",
@@ -1595,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space-efficient representation of a Word8 vector, supporting many\n efficient operations.  A \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e contains 8-bit characters only.\n\u003c/p\u003e\u003cp\u003eInstances of Eq, Ord, Read, Show, Data, Typeable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ByteString",
           "package": "sphinx",
@@ -1603,6 +1686,7 @@
         "index": {
           "description": "space-efficient representation of Word8 vector supporting many efficient operations ByteString contains bit characters only Instances of Eq Ord Read Show Data Typeable",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ByteString",
           "package": "sphinx",
@@ -1617,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Filter",
           "package": "sphinx",
@@ -1626,6 +1711,7 @@
         "index": {
           "description": "Filter types",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Filter",
           "package": "sphinx",
@@ -1640,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrouping functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "GroupByFunction",
           "package": "sphinx",
@@ -1649,6 +1736,7 @@
         "index": {
           "description": "Grouping functions",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "GroupByFunction",
           "package": "sphinx",
@@ -1662,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Match",
           "package": "sphinx",
@@ -1670,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Match",
           "package": "sphinx",
@@ -1684,6 +1774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch modes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "MatchMode",
           "package": "sphinx",
@@ -1693,6 +1784,7 @@
         "index": {
           "description": "Match modes",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "MatchMode",
           "package": "sphinx",
@@ -1707,6 +1799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure representing one query. It can be sent with \u003ccode\u003erunQueries\u003c/code\u003e\n or \u003ccode\u003erunQueries'\u003c/code\u003e to the server in batch mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Query",
           "package": "sphinx",
@@ -1716,6 +1809,7 @@
         "index": {
           "description": "Data structure representing one query It can be sent with runQueries or runQueries to the server in batch mode",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Query",
           "package": "sphinx",
@@ -1730,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryResult",
           "package": "sphinx",
@@ -1739,6 +1834,7 @@
         "index": {
           "description": "The result of query",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryResult",
           "package": "sphinx",
@@ -1753,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatus from an individual query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryStatus",
           "package": "sphinx",
@@ -1762,6 +1859,7 @@
         "index": {
           "description": "status from an individual query",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryStatus",
           "package": "sphinx",
@@ -1776,6 +1874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRanking modes (ext2 only)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Rank",
           "package": "sphinx",
@@ -1785,6 +1884,7 @@
         "index": {
           "description": "Ranking modes ext2 only",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Rank",
           "package": "sphinx",
@@ -1799,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea result returned from searchd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Result",
           "package": "sphinx",
@@ -1808,6 +1909,7 @@
         "index": {
           "description": "result returned from searchd",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Result",
           "package": "sphinx",
@@ -1822,6 +1924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch commands\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "SearchdCommand",
           "package": "sphinx",
@@ -1831,6 +1934,7 @@
         "index": {
           "description": "Search commands",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "SearchdCommand",
           "package": "sphinx",
@@ -1845,6 +1949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea single query result, runQueries returns a list of these\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "SingleResult",
           "package": "sphinx",
@@ -1854,6 +1959,7 @@
         "index": {
           "description": "single query result runQueries returns list of these",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "SingleResult",
           "package": "sphinx",
@@ -1868,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort modes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Sort",
           "package": "sphinx",
@@ -1877,6 +1984,7 @@
         "index": {
           "description": "Sort modes",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Sort",
           "package": "sphinx",
@@ -1891,6 +1999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearchd status codes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Status",
           "package": "sphinx",
@@ -1900,6 +2009,7 @@
         "index": {
           "description": "Searchd status codes",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Status",
           "package": "sphinx",
@@ -1914,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent client-side command implementation versions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "VerCommand",
           "package": "sphinx",
@@ -1923,6 +2034,7 @@
         "index": {
           "description": "Current client-side command implementation versions",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "VerCommand",
           "package": "sphinx",
@@ -1936,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "All",
           "package": "sphinx",
@@ -1945,6 +2058,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "All",
           "package": "sphinx",
@@ -1958,6 +2072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Any",
           "package": "sphinx",
@@ -1967,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Any",
           "package": "sphinx",
@@ -1980,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Attr",
           "package": "sphinx",
@@ -1989,6 +2106,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Attr",
           "package": "sphinx",
@@ -2002,6 +2120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrAsc",
           "package": "sphinx",
@@ -2011,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrAsc",
           "package": "sphinx",
@@ -2024,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrBigInt",
           "package": "sphinx",
@@ -2033,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrBigInt",
           "package": "sphinx",
@@ -2046,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrDesc",
           "package": "sphinx",
@@ -2055,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrDesc",
           "package": "sphinx",
@@ -2068,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrFloat",
           "package": "sphinx",
@@ -2077,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrFloat",
           "package": "sphinx",
@@ -2090,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrMulti",
           "package": "sphinx",
@@ -2099,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrMulti",
           "normalized": "AttrMulti[Attr]",
@@ -2114,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrPair",
           "package": "sphinx",
@@ -2123,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrPair",
           "package": "sphinx",
@@ -2136,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrString",
           "package": "sphinx",
@@ -2145,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrString",
           "package": "sphinx",
@@ -2158,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTBigInt",
           "package": "sphinx",
@@ -2167,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTBigInt",
           "package": "sphinx",
@@ -2180,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTBool",
           "package": "sphinx",
@@ -2189,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTBool",
           "package": "sphinx",
@@ -2202,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTFloat",
           "package": "sphinx",
@@ -2211,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTFloat",
           "package": "sphinx",
@@ -2224,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTMulti",
           "package": "sphinx",
@@ -2233,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTMulti",
           "package": "sphinx",
@@ -2246,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTStr2Ordinal",
           "package": "sphinx",
@@ -2255,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTStr2Ordinal",
           "package": "sphinx",
@@ -2268,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTString",
           "package": "sphinx",
@@ -2277,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTString",
           "package": "sphinx",
@@ -2290,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTTimestamp",
           "package": "sphinx",
@@ -2299,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTTimestamp",
           "package": "sphinx",
@@ -2312,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTUInt",
           "package": "sphinx",
@@ -2321,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTUInt",
           "package": "sphinx",
@@ -2334,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTWordCount",
           "package": "sphinx",
@@ -2343,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrTWordCount",
           "package": "sphinx",
@@ -2356,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrUInt",
           "package": "sphinx",
@@ -2365,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "AttrUInt",
           "package": "sphinx",
@@ -2378,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Bm25",
           "package": "sphinx",
@@ -2387,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Bm25",
           "package": "sphinx",
@@ -2400,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Boolean",
           "package": "sphinx",
@@ -2409,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Boolean",
           "package": "sphinx",
@@ -2422,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Day",
           "package": "sphinx",
@@ -2431,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Day",
           "package": "sphinx",
@@ -2444,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ERROR",
           "package": "sphinx",
@@ -2453,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ERROR",
           "package": "sphinx",
@@ -2466,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Error",
           "package": "sphinx",
@@ -2475,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Error",
           "package": "sphinx",
@@ -2488,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ExclusionFilter",
           "package": "sphinx",
@@ -2497,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ExclusionFilter",
           "package": "sphinx",
@@ -2510,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Expr",
           "package": "sphinx",
@@ -2519,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Expr",
           "package": "sphinx",
@@ -2532,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Extended",
           "package": "sphinx",
@@ -2541,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Extended",
           "package": "sphinx",
@@ -2554,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Extended2",
           "package": "sphinx",
@@ -2563,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Extended2",
           "package": "sphinx",
@@ -2576,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Fieldmask",
           "package": "sphinx",
@@ -2585,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Fieldmask",
           "package": "sphinx",
@@ -2598,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "FilterRange",
           "package": "sphinx",
@@ -2607,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "FilterRange",
           "package": "sphinx",
@@ -2620,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "FilterValues",
           "package": "sphinx",
@@ -2629,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "FilterValues",
           "normalized": "FilterValues String[Int]",
@@ -2644,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Fullscan",
           "package": "sphinx",
@@ -2653,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Fullscan",
           "package": "sphinx",
@@ -2666,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Match",
           "package": "sphinx",
@@ -2675,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Match",
           "package": "sphinx",
@@ -2688,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "MatchAny",
           "package": "sphinx",
@@ -2697,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "MatchAny",
           "package": "sphinx",
@@ -2710,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Month",
           "package": "sphinx",
@@ -2719,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Month",
           "package": "sphinx",
@@ -2732,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "None",
           "package": "sphinx",
@@ -2741,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "None",
           "package": "sphinx",
@@ -2754,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "OK",
           "package": "sphinx",
@@ -2763,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "OK",
           "package": "sphinx",
@@ -2776,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Ok",
           "package": "sphinx",
@@ -2785,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Ok",
           "package": "sphinx",
@@ -2798,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Phrase",
           "package": "sphinx",
@@ -2807,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Phrase",
           "package": "sphinx",
@@ -2820,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Proximity",
           "package": "sphinx",
@@ -2829,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Proximity",
           "package": "sphinx",
@@ -2842,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ProximityBm25",
           "package": "sphinx",
@@ -2851,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ProximityBm25",
           "package": "sphinx",
@@ -2887,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryERROR",
           "package": "sphinx",
@@ -2896,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryERROR",
           "package": "sphinx",
@@ -2909,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryError",
           "package": "sphinx",
@@ -2918,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryError",
           "package": "sphinx",
@@ -2931,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryOK",
           "package": "sphinx",
@@ -2940,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryOK",
           "package": "sphinx",
@@ -2953,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryOk",
           "package": "sphinx",
@@ -2962,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryOk",
           "package": "sphinx",
@@ -2975,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryResult",
           "package": "sphinx",
@@ -2984,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryResult",
           "package": "sphinx",
@@ -2997,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryWARNING",
           "package": "sphinx",
@@ -3006,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryWARNING",
           "package": "sphinx",
@@ -3019,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryWarning",
           "package": "sphinx",
@@ -3028,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "QueryWarning",
           "package": "sphinx",
@@ -3041,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "RETRY",
           "package": "sphinx",
@@ -3050,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "RETRY",
           "package": "sphinx",
@@ -3063,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Relevance",
           "package": "sphinx",
@@ -3072,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Relevance",
           "package": "sphinx",
@@ -3085,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Retry",
           "package": "sphinx",
@@ -3094,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Retry",
           "package": "sphinx",
@@ -3107,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScExcerpt",
           "package": "sphinx",
@@ -3116,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScExcerpt",
           "package": "sphinx",
@@ -3129,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScKeywords",
           "package": "sphinx",
@@ -3138,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScKeywords",
           "package": "sphinx",
@@ -3151,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScSearch",
           "package": "sphinx",
@@ -3160,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScSearch",
           "package": "sphinx",
@@ -3173,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScUpdate",
           "package": "sphinx",
@@ -3182,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "ScUpdate",
           "package": "sphinx",
@@ -3195,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "SortExtended",
           "package": "sphinx",
@@ -3204,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "SortExtended",
           "package": "sphinx",
@@ -3217,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Sph04",
           "package": "sphinx",
@@ -3226,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Sph04",
           "package": "sphinx",
@@ -3239,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "TimeSegments",
           "package": "sphinx",
@@ -3248,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "TimeSegments",
           "package": "sphinx",
@@ -3261,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Total",
           "package": "sphinx",
@@ -3270,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Total",
           "package": "sphinx",
@@ -3283,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcExcerpt",
           "package": "sphinx",
@@ -3292,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcExcerpt",
           "package": "sphinx",
@@ -3305,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcKeywords",
           "package": "sphinx",
@@ -3314,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcKeywords",
           "package": "sphinx",
@@ -3327,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcSearch",
           "package": "sphinx",
@@ -3336,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcSearch",
           "package": "sphinx",
@@ -3349,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcUpdate",
           "package": "sphinx",
@@ -3358,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "VcUpdate",
           "package": "sphinx",
@@ -3371,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "WARNING",
           "package": "sphinx",
@@ -3380,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "WARNING",
           "package": "sphinx",
@@ -3393,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Warning",
           "package": "sphinx",
@@ -3402,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Warning",
           "package": "sphinx",
@@ -3415,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Week",
           "package": "sphinx",
@@ -3424,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Week",
           "package": "sphinx",
@@ -3437,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "WordCount",
           "package": "sphinx",
@@ -3446,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "WordCount",
           "package": "sphinx",
@@ -3459,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "Year",
           "package": "sphinx",
@@ -3468,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "Year",
           "package": "sphinx",
@@ -3481,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "attrMultiMask",
           "package": "sphinx",
@@ -3490,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "attrMultiMask",
           "package": "sphinx",
@@ -3503,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "attrT",
           "package": "sphinx",
@@ -3512,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "attrT",
           "normalized": "AttrT-\u003ea",
@@ -3527,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of attribute names returned in the result.\n | The Match will contain just the attribute values in the same order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "attributeNames",
           "package": "sphinx",
@@ -3537,6 +3792,7 @@
         "index": {
           "description": "List of attribute names returned in the result The Match will contain just the attribute values in the same order",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "attributeNames",
           "normalized": "[ByteString]",
@@ -3552,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "attributeValues",
           "package": "sphinx",
@@ -3561,6 +3818,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "attributeValues",
           "normalized": "[Attr]",
@@ -3576,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "documentId",
           "package": "sphinx",
@@ -3585,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "documentId",
           "package": "sphinx",
@@ -3598,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "documentWeight",
           "package": "sphinx",
@@ -3607,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "documentWeight",
           "package": "sphinx",
@@ -3621,6 +3883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshortcut for creating an exclusion filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "exclude",
           "package": "sphinx",
@@ -3631,6 +3894,7 @@
         "index": {
           "description": "shortcut for creating an exclusion filter",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "exclude",
           "normalized": "Filter-\u003eFilter",
@@ -3645,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "fromEnumFilter",
           "package": "sphinx",
@@ -3654,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "fromEnumFilter",
           "normalized": "Filter-\u003ea",
@@ -3670,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "matches",
           "package": "sphinx",
@@ -3680,6 +3947,7 @@
         "index": {
           "description": "The matches",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "matches",
           "normalized": "[Match]",
@@ -3769,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "searchdCommand",
           "package": "sphinx",
@@ -3778,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "searchdCommand",
           "normalized": "SearchdCommand-\u003eInt",
@@ -3793,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "toAttrT",
           "package": "sphinx",
@@ -3802,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "toAttrT",
           "normalized": "a-\u003eAttrT",
@@ -3817,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "toQueryStatus",
           "package": "sphinx",
@@ -3826,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "toQueryStatus",
           "normalized": "Int-\u003eQueryStatus",
@@ -3841,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "toStatus",
           "package": "sphinx",
@@ -3850,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "toStatus",
           "normalized": "Int-\u003eStatus",
@@ -3866,6 +4142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal amount of matches retrieved on server by this query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "total",
           "package": "sphinx",
@@ -3876,6 +4153,7 @@
         "index": {
           "description": "Total amount of matches retrieved on server by this query",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "total",
           "package": "sphinx",
@@ -3889,6 +4167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal amount of matching documents in index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "totalFound",
           "package": "sphinx",
@@ -3899,6 +4178,7 @@
         "index": {
           "description": "Total amount of matching documents in index",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "totalFound",
           "package": "sphinx",
@@ -3913,6 +4193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImportant! 2.0 compatible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "verCommand",
           "package": "sphinx",
@@ -3923,6 +4204,7 @@
         "index": {
           "description": "Important compatible",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "verCommand",
           "normalized": "VerCommand-\u003ea",
@@ -3939,6 +4221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprocessed words with the number of docs and the number of hits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx.Types",
           "name": "words",
           "package": "sphinx",
@@ -3949,6 +4232,7 @@
         "index": {
           "description": "processed words with the number of docs and the number of hits",
           "hierarchy": "Text Search Sphinx Types",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx.Types",
           "name": "words",
           "normalized": "[(Text,Int,Int)]",
@@ -3963,6 +4247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "Sphinx",
           "package": "sphinx",
@@ -3971,6 +4256,7 @@
         },
         "index": {
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "Sphinx",
           "package": "sphinx",
@@ -3985,6 +4271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe configuration for a query\n\u003c/p\u003e\u003cp\u003eA note about encodings: The encoding specified here is used to encode\n every \u003ccode\u003eText\u003c/code\u003e value that is sent to the server, and it used to decode all\n of the server's answers, including error messages.\n\u003c/p\u003e\u003cp\u003eIf the specified encoding doesn't support characters sent to the server,\n they will silently be substituted with the byte value of \u003ccode\u003e'\\SUB' ::\n \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e before transmission.\n\u003c/p\u003e\u003cp\u003eIf the server sends a byte value back that the encoding doesn't understand,\n the affected bytes will be converted into special values as\n specified by that encoding. For example, when decoding invalid UTF-8,\n all invalid bytes are going to be substituted with \u003ccode\u003e'\\65533' ::\n \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "Configuration",
           "package": "sphinx",
@@ -3994,6 +4281,7 @@
         "index": {
           "description": "The configuration for query note about encodings The encoding specified here is used to encode every Text value that is sent to the server and it used to decode all of the server answers including error messages If the specified encoding doesn support characters sent to the server they will silently be substituted with the byte value of SUB Char before transmission If the server sends byte value back that the encoding doesn understand the affected bytes will be converted into special values as specified by that encoding For example when decoding invalid UTF-8 all invalid bytes are going to be substituted with Char",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "Configuration",
           "package": "sphinx",
@@ -4008,6 +4296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure representing one query. It can be sent with \u003ccode\u003erunQueries\u003c/code\u003e\n or \u003ccode\u003erunQueries'\u003c/code\u003e to the server in batch mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "Query",
           "package": "sphinx",
@@ -4017,6 +4306,7 @@
         "index": {
           "description": "Data structure representing one query It can be sent with runQueries or runQueries to the server in batch mode",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "Query",
           "package": "sphinx",
@@ -4031,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO: add configuration options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "buildExcerpts",
           "package": "sphinx",
@@ -4040,6 +4331,7 @@
         "index": {
           "description": "TODO add configuration options",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "buildExcerpts",
           "normalized": "ExcerptConfiguration-\u003e[Text]-\u003eText-\u003eText-\u003eIO(Result[Text])",
@@ -4056,6 +4348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape all possible meta characters.\n   Most of these characters only need to be escaped in certain contexts\n   however, in normal searching they will all be ignored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "escapeText",
           "package": "sphinx",
@@ -4066,6 +4359,7 @@
         "index": {
           "description": "Escape all possible meta characters Most of these characters only need to be escaped in certain contexts however in normal searching they will all be ignored",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "escapeText",
           "normalized": "Text-\u003eText",
@@ -4082,6 +4376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexecutes \u003ccode\u003e\u003ca\u003erunQueries\u003c/a\u003e\u003c/code\u003e. Log warning and errors, automatically retry.\n Return a Nothing on error, otherwise a Just.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "maybeQueries",
           "package": "sphinx",
@@ -4092,6 +4387,7 @@
         "index": {
           "description": "executes runQueries Log warning and errors automatically retry Return Nothing on error otherwise Just",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "maybeQueries",
           "normalized": "(Text-\u003eIO())-\u003eConfiguration-\u003e[Query]-\u003eIO(Maybe[QueryResult])",
@@ -4108,6 +4404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003equery\u003c/a\u003e\u003c/code\u003e function runs a single query against the Sphinx daemon.\n   To pipeline multiple queries in a batch, use and \u003ccode\u003e\u003ca\u003erunQueries\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "query",
           "package": "sphinx",
@@ -4117,6 +4414,7 @@
         "index": {
           "description": "The query function runs single query against the Sphinx daemon To pipeline multiple queries in batch use and runQueries",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "query",
           "normalized": "Configuration-\u003eText-\u003eText-\u003eIO(Result QueryResult)",
@@ -4132,6 +4430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine results from \u003ccode\u003e\u003ca\u003erunQueries\u003c/a\u003e\u003c/code\u003e into matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "resultsToMatches",
           "package": "sphinx",
@@ -4142,6 +4441,7 @@
         "index": {
           "description": "Combine results from runQueries into matches",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "resultsToMatches",
           "normalized": "Int-\u003e[QueryResult]-\u003e[Match]",
@@ -4158,6 +4458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake multiple queries at once, using a list of \u003ccode\u003e\u003ca\u003eQuery\u003c/a\u003e\u003c/code\u003e.\n For a single query, just use the query method\n Easier handling of query result than runQueries'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "runQueries",
           "package": "sphinx",
@@ -4168,6 +4469,7 @@
         "index": {
           "description": "Make multiple queries at once using list of Query For single query just use the query method Easier handling of query result than runQueries",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "runQueries",
           "normalized": "Configuration-\u003e[Query]-\u003eIO(Result[QueryResult])",
@@ -4184,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower level- called by \u003ccode\u003e\u003ca\u003erunQueries\u003c/a\u003e\u003c/code\u003e.\n This may be useful for debugging problems- warning messages won't get compressed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "runQueries'",
           "package": "sphinx",
@@ -4194,6 +4497,7 @@
         "index": {
           "description": "Lower level called by runQueries This may be useful for debugging problems warning messages won get compressed",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "runQueries'",
           "normalized": "Configuration-\u003e[Query]-\u003eIO(Result[SingleResult])",
@@ -4210,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a convenience function which accepts a search string and\n builds a query for that string over all indexes without attaching\n comments to the queries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:18 UTC 2014",
           "module": "Text.Search.Sphinx",
           "name": "simpleQuery",
           "package": "sphinx",
@@ -4219,6 +4524,7 @@
         "index": {
           "description": "This is convenience function which accepts search string and builds query for that string over all indexes without attaching comments to the queries",
           "hierarchy": "Text Search Sphinx",
+          "indexed": "2014-03-11T20:08:18",
           "module": "Text.Search.Sphinx",
           "name": "simpleQuery",
           "normalized": "Text-\u003eQuery",

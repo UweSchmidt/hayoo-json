@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hOpenPGP"
+        "phrase": "hOpenPGP",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-pderiv"
+        "phrase": "regex-pderiv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "LeftToRight",
           "package": "regex-pderiv",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "LeftToRight",
           "package": "regex-pderiv",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -93,6 +100,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -161,6 +174,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -185,6 +200,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -289,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -299,6 +316,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -313,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n    newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n    character with no special meaning in either REs or strings.  With this flag,\n    inverted bracket expressions and . never match newline, a ^ anchor matches the\n    null string after any newline in the string in addition to its normal\n    function, and the $ anchor matches the null string before any newline in the\n    string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -323,6 +342,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -336,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -346,6 +367,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -383,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -393,6 +416,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRight",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRight",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -406,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "LeftToRightD",
           "package": "regex-pderiv",
@@ -414,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "LeftToRightD",
           "package": "regex-pderiv",
@@ -428,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -437,6 +464,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -450,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -458,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -472,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -481,6 +512,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv ByteString LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.LeftToRightD",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -689,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "Posix",
           "package": "regex-pderiv",
@@ -697,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "Posix",
           "package": "regex-pderiv",
@@ -711,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -720,6 +755,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -733,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -741,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -755,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n | the IntMap keeps track of the auxillary binder generated because of posix matching, i.e. all sub expressions need to be tag\n | the FollowBy keeps track of the order of the pattern binder \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -764,6 +803,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type the IntMap keeps track of the auxillary binder generated because of posix matching i.e all sub expressions need to be tag the FollowBy keeps track of the order of the pattern binder",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -777,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -786,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -799,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -808,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -822,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -832,6 +877,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -846,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -856,6 +903,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -870,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -880,6 +929,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -894,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n    newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n    character with no special meaning in either REs or strings.  With this flag,\n    inverted bracket expressions and . never match newline, a ^ anchor matches the\n    null string after any newline in the string in addition to its normal\n    function, and the $ anchor matches the null string before any newline in the\n    string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -904,6 +955,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -917,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Add the extended non-POSIX syntax described in \u003ca\u003eText.Regex.TDFA\u003c/a\u003e haddock documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -927,6 +980,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Add the extended non-POSIX syntax described in Text.Regex.TDFA haddock documentation",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -941,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -951,6 +1006,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString Posix",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.Posix",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -964,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "RightToLeft",
           "package": "regex-pderiv",
@@ -972,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "RightToLeft",
           "package": "regex-pderiv",
@@ -986,6 +1044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -995,6 +1054,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1008,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1016,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1030,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1039,6 +1102,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1052,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1061,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1074,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1083,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1097,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -1107,6 +1176,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -1121,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -1131,6 +1202,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -1145,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -1155,6 +1228,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -1169,6 +1243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n    newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n    character with no special meaning in either REs or strings.  With this flag,\n    inverted bracket expressions and . never match newline, a ^ anchor matches the\n    null string after any newline in the string in addition to its normal\n    function, and the $ anchor matches the null string before any newline in the\n    string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -1179,6 +1254,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -1192,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Add the extended non-POSIX syntax described in \u003ca\u003eText.Regex.TDFA\u003c/a\u003e haddock documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -1202,6 +1279,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Add the extended non-POSIX syntax described in Text.Regex.TDFA haddock documentation",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -1241,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -1251,6 +1330,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString RightToLeft",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.RightToLeft",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -1264,6 +1344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "TwoPasses",
           "package": "regex-pderiv",
@@ -1272,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "TwoPasses",
           "package": "regex-pderiv",
@@ -1286,6 +1368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1295,6 +1378,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1308,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1316,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1329,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1337,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1350,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1359,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1372,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1381,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1395,6 +1487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue by default.  Set to False to improve speed (and space).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -1405,6 +1498,7 @@
         "index": {
           "description": "True by default Set to False to improve speed and space",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "captureGroups",
           "package": "regex-pderiv",
@@ -1419,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -1429,6 +1524,7 @@
         "index": {
           "description": "True in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "caseSensitive",
           "package": "regex-pderiv",
@@ -1443,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse by default.  This is POSIX correct but it takes space and is slower.\n Setting this to true will improve performance, and should be done\n if you plan to set the captureGroups execoption to False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -1453,6 +1550,7 @@
         "index": {
           "description": "False by default This is POSIX correct but it takes space and is slower Setting this to true will improve performance and should be done if you plan to set the captureGroups execoption to False",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "lastStarGreedy",
           "package": "regex-pderiv",
@@ -1467,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Compile for\n    newline-sensitive matching.  \u003ca\u003eBy default, newline is a completely ordinary\n    character with no special meaning in either REs or strings.  With this flag,\n    inverted bracket expressions and . never match newline, a ^ anchor matches the\n    null string after any newline in the string in addition to its normal\n    function, and the $ anchor matches the null string before any newline in the\n    string in addition to its normal function.\u003c/a\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -1477,6 +1576,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Compile for newline-sensitive matching By default newline is completely ordinary character with no special meaning in either REs or strings With this flag inverted bracket expressions and never match newline anchor matches the null string after any newline in the string in addition to its normal function and the anchor matches the null string before any newline in the string in addition to its normal function",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "multiline",
           "package": "regex-pderiv",
@@ -1490,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFalse in blankCompOpt, True in defaultCompOpt. Add the extended non-POSIX syntax described in \u003ca\u003eText.Regex.TDFA\u003c/a\u003e haddock documentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -1500,6 +1601,7 @@
         "index": {
           "description": "False in blankCompOpt True in defaultCompOpt Add the extended non-POSIX syntax described in Text.Regex.TDFA haddock documentation",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "newSyntax",
           "package": "regex-pderiv",
@@ -1514,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue (and therefore Right associative) in blankCompOpt and defaultCompOpt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -1524,6 +1627,7 @@
         "index": {
           "description": "True and therefore Right associative in blankCompOpt and defaultCompOpt",
           "hierarchy": "Text Regex PDeriv ByteString TwoPasses",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString.TwoPasses",
           "name": "rightAssoc",
           "package": "regex-pderiv",
@@ -1537,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "ByteString",
           "package": "regex-pderiv",
@@ -1545,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "ByteString",
           "package": "regex-pderiv",
@@ -1559,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1568,6 +1675,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv ByteString",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -1581,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1589,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ByteString",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -1603,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1612,6 +1723,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv ByteString",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ByteString",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -1626,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ethis module contains the defs of common data types and type classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Common",
           "package": "regex-pderiv",
@@ -1635,6 +1748,7 @@
         "index": {
           "description": "this module contains the defs of common data types and type classes",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Common",
           "package": "regex-pderiv",
@@ -1649,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe greediness flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "GFlag",
           "package": "regex-pderiv",
@@ -1658,6 +1773,7 @@
         "index": {
           "description": "The greediness flag",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "GFlag",
           "package": "regex-pderiv",
@@ -1672,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for epsilon == a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsEpsilon",
           "package": "regex-pderiv",
@@ -1681,6 +1798,7 @@
         "index": {
           "description": "test for epsilon",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsEpsilon",
           "package": "regex-pderiv",
@@ -1694,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsGreedy",
           "package": "regex-pderiv",
@@ -1702,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsGreedy",
           "package": "regex-pderiv",
@@ -1716,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for phi == a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsPhi",
           "package": "regex-pderiv",
@@ -1725,6 +1846,7 @@
         "index": {
           "description": "test for phi",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "IsPhi",
           "package": "regex-pderiv",
@@ -1739,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea character and its index (position)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Letter",
           "package": "regex-pderiv",
@@ -1748,6 +1871,7 @@
         "index": {
           "description": "character and its index position",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Letter",
           "package": "regex-pderiv",
@@ -1762,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest for 'epsilon in a' epsilon-possession\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "PosEpsilon",
           "package": "regex-pderiv",
@@ -1771,6 +1896,7 @@
         "index": {
           "description": "test for epsilon in epsilon-possession",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "PosEpsilon",
           "package": "regex-pderiv",
@@ -1785,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(sub)words represent by range\n type Range  = (Int,Int)      \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Range",
           "package": "regex-pderiv",
@@ -1794,6 +1921,7 @@
         "index": {
           "description": "sub words represent by range type Range Int Int",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Range",
           "package": "regex-pderiv",
@@ -1807,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Simplifiable",
           "package": "regex-pderiv",
@@ -1815,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Simplifiable",
           "package": "regex-pderiv",
@@ -1829,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egreedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Greedy",
           "package": "regex-pderiv",
@@ -1839,6 +1970,7 @@
         "index": {
           "description": "greedy",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Greedy",
           "package": "regex-pderiv",
@@ -1853,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enot greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "NotGreedy",
           "package": "regex-pderiv",
@@ -1863,6 +1996,7 @@
         "index": {
           "description": "not greedy",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "NotGreedy",
           "package": "regex-pderiv",
@@ -1876,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Range",
           "package": "regex-pderiv",
@@ -1885,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "Range",
           "package": "regex-pderiv",
@@ -1898,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isEpsilon",
           "package": "regex-pderiv",
@@ -1907,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isEpsilon",
           "normalized": "a-\u003eBool",
@@ -1922,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isGreedy",
           "package": "regex-pderiv",
@@ -1931,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isGreedy",
           "normalized": "a-\u003eBool",
@@ -1946,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isPhi",
           "package": "regex-pderiv",
@@ -1955,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "isPhi",
           "normalized": "a-\u003eBool",
@@ -1970,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "mainBinder",
           "package": "regex-pderiv",
@@ -1979,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "mainBinder",
           "package": "regex-pderiv",
@@ -1992,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "maxRange",
           "package": "regex-pderiv",
@@ -2001,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "maxRange",
           "normalized": "(a,b)-\u003eb",
@@ -2016,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "minRange",
           "package": "regex-pderiv",
@@ -2025,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "minRange",
           "normalized": "(a,b)-\u003ea",
@@ -2040,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "my_hash",
           "package": "regex-pderiv",
@@ -2049,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "my_hash",
           "normalized": "Int-\u003eChar-\u003eInt",
@@ -2063,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "my_lookup",
           "package": "regex-pderiv",
@@ -2072,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "my_lookup",
           "normalized": "Int-\u003eChar-\u003eIntMap[Int]-\u003e[Int]",
@@ -2087,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove duplications in a list of pairs, using the first components as key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "nub2",
           "package": "regex-pderiv",
@@ -2097,6 +2250,7 @@
         "index": {
           "description": "remove duplications in list of pairs using the first components as key",
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "nub2",
           "normalized": "[(Int,a)]-\u003e[(Int,a)]",
@@ -2111,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "nub3",
           "package": "regex-pderiv",
@@ -2120,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "nub3",
           "normalized": "[(Int,a,Int)]-\u003e[(Int,a,Int)]",
@@ -2134,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "posEpsilon",
           "package": "regex-pderiv",
@@ -2143,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "posEpsilon",
           "normalized": "a-\u003eBool",
@@ -2158,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "preBinder",
           "package": "regex-pderiv",
@@ -2167,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "preBinder",
           "package": "regex-pderiv",
@@ -2180,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "preBinder_",
           "package": "regex-pderiv",
@@ -2189,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "preBinder_",
           "package": "regex-pderiv",
@@ -2202,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "range",
           "package": "regex-pderiv",
@@ -2211,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "range",
           "normalized": "Int-\u003eInt-\u003eRange",
@@ -2225,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "simplify",
           "package": "regex-pderiv",
@@ -2234,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -2248,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Common",
           "name": "subBinder",
           "package": "regex-pderiv",
@@ -2257,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Common",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Common",
           "name": "subBinder",
           "package": "regex-pderiv",
@@ -2271,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module that implements a dictionary/hash table\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2280,6 +2449,7 @@
         "index": {
           "description": "module that implements dictionary hash table",
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2293,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2301,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2314,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Key",
           "package": "regex-pderiv",
@@ -2322,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Key",
           "package": "regex-pderiv",
@@ -2335,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Trie",
           "package": "regex-pderiv",
@@ -2343,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Trie",
           "package": "regex-pderiv",
@@ -2356,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2365,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Dictionary",
           "package": "regex-pderiv",
@@ -2378,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Trie",
           "package": "regex-pderiv",
@@ -2387,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "Trie",
           "normalized": "Trie[a](IntMap(Trie a))",
@@ -2402,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "empty",
           "package": "regex-pderiv",
@@ -2411,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "empty",
           "package": "regex-pderiv",
@@ -2423,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "emptyTrie",
           "package": "regex-pderiv",
@@ -2432,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "emptyTrie",
           "package": "regex-pderiv",
@@ -2445,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "fromList",
           "package": "regex-pderiv",
@@ -2454,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eDictionary b",
@@ -2469,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "fromListNotOverwrite",
           "package": "regex-pderiv",
@@ -2478,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "fromListNotOverwrite",
           "normalized": "[(a,b)]-\u003eDictionary b",
@@ -2493,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "hash",
           "package": "regex-pderiv",
@@ -2502,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "hash",
           "normalized": "a-\u003e[Int]",
@@ -2516,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insert",
           "package": "regex-pderiv",
@@ -2525,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -2539,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insertNotOverwrite",
           "package": "regex-pderiv",
@@ -2548,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insertNotOverwrite",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -2563,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insertTrie",
           "package": "regex-pderiv",
@@ -2572,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "insertTrie",
           "normalized": "Bool-\u003e[Int]-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -2587,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "isIn",
           "package": "regex-pderiv",
@@ -2596,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "isIn",
           "normalized": "a-\u003eDictionary(a,b)-\u003eBool",
@@ -2611,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookup",
           "package": "regex-pderiv",
@@ -2620,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookup",
           "normalized": "a-\u003eDictionary b-\u003eMaybe b",
@@ -2634,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookupAll",
           "package": "regex-pderiv",
@@ -2643,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookupAll",
           "normalized": "a-\u003eDictionary b-\u003e[b]",
@@ -2658,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookupTrie",
           "package": "regex-pderiv",
@@ -2667,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "lookupTrie",
           "normalized": "[Int]-\u003eTrie a-\u003eMaybe(Trie a)",
@@ -2682,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "nub",
           "package": "regex-pderiv",
@@ -2691,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "nub",
           "normalized": "[a]-\u003e[a]",
@@ -2705,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "nubSub",
           "package": "regex-pderiv",
@@ -2714,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "nubSub",
           "normalized": "[a]-\u003eDictionary(a,())-\u003e[a]",
@@ -2729,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "primeL",
           "package": "regex-pderiv",
@@ -2738,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "primeL",
           "package": "regex-pderiv",
@@ -2750,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "primeR",
           "package": "regex-pderiv",
@@ -2759,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "primeR",
           "package": "regex-pderiv",
@@ -2772,6 +2984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe dictionary (k,a) version of elem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "update",
           "package": "regex-pderiv",
@@ -2782,6 +2995,7 @@
         "index": {
           "description": "the dictionary version of elem",
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "update",
           "normalized": "a-\u003eb-\u003eDictionary b-\u003eDictionary b",
@@ -2796,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "updateTrie",
           "package": "regex-pderiv",
@@ -2805,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Dictionary",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Dictionary",
           "name": "updateTrie",
           "normalized": "[Int]-\u003ea-\u003eTrie a-\u003eTrie a",
@@ -2820,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ExtPattern",
           "package": "regex-pderiv",
@@ -2828,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ExtPattern",
           "package": "regex-pderiv",
@@ -2842,6 +3060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe external pattern syntax (ERE syntax)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EPat",
           "package": "regex-pderiv",
@@ -2851,6 +3070,7 @@
         "index": {
           "description": "The external pattern syntax ERE syntax",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EPat",
           "package": "regex-pderiv",
@@ -2865,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe character class [ a-z ] \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EAny",
           "package": "regex-pderiv",
@@ -2875,6 +3096,7 @@
         "index": {
           "description": "the character class a-z",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EAny",
           "normalized": "EAny[Char]",
@@ -2891,6 +3113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ere{1:10}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EBound",
           "package": "regex-pderiv",
@@ -2901,6 +3124,7 @@
         "index": {
           "description": "re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EBound",
           "package": "regex-pderiv",
@@ -2915,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe ^ NOTE:shouldn't this must be top level?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ECarat",
           "package": "regex-pderiv",
@@ -2925,6 +3150,7 @@
         "index": {
           "description": "the NOTE shouldn this must be top level",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ECarat",
           "package": "regex-pderiv",
@@ -2939,6 +3165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe non-escaped char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EChar",
           "package": "regex-pderiv",
@@ -2949,6 +3176,7 @@
         "index": {
           "description": "the non-escaped char",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EChar",
           "package": "regex-pderiv",
@@ -2963,6 +3191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe concantenation rere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EConcat",
           "package": "regex-pderiv",
@@ -2973,6 +3202,7 @@
         "index": {
           "description": "the concantenation rere",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EConcat",
           "normalized": "EConcat[EPat]",
@@ -2989,6 +3219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe $\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EDollar",
           "package": "regex-pderiv",
@@ -2999,6 +3230,7 @@
         "index": {
           "description": "the",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EDollar",
           "package": "regex-pderiv",
@@ -3013,6 +3245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe any char .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EDot",
           "package": "regex-pderiv",
@@ -3023,6 +3256,7 @@
         "index": {
           "description": "the any char",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EDot",
           "package": "regex-pderiv",
@@ -3036,6 +3270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EEmpty",
           "package": "regex-pderiv",
@@ -3045,6 +3280,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EEmpty",
           "package": "regex-pderiv",
@@ -3059,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackslash char\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EEscape",
           "package": "regex-pderiv",
@@ -3069,6 +3306,7 @@
         "index": {
           "description": "backslash char",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EEscape",
           "package": "regex-pderiv",
@@ -3083,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe group ( re )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EGroup",
           "package": "regex-pderiv",
@@ -3093,6 +3332,7 @@
         "index": {
           "description": "the group re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EGroup",
           "package": "regex-pderiv",
@@ -3107,6 +3347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enon marking group (?: re )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EGroupNonMarking",
           "package": "regex-pderiv",
@@ -3117,6 +3358,7 @@
         "index": {
           "description": "non marking group re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EGroupNonMarking",
           "package": "regex-pderiv",
@@ -3131,6 +3373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe negative character class [^a-z]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ENoneOf",
           "package": "regex-pderiv",
@@ -3141,6 +3384,7 @@
         "index": {
           "description": "the negative character class a-z",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "ENoneOf",
           "normalized": "ENoneOf[Char]",
@@ -3157,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe option re?, the last boolean flag indicates whether it is greedy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EOpt",
           "package": "regex-pderiv",
@@ -3167,6 +3412,7 @@
         "index": {
           "description": "the option re the last boolean flag indicates whether it is greedy",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EOpt",
           "package": "regex-pderiv",
@@ -3181,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe union re|re\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EOr",
           "package": "regex-pderiv",
@@ -3191,6 +3438,7 @@
         "index": {
           "description": "the union re re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EOr",
           "normalized": "EOr[EPat]",
@@ -3207,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe plus re+\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EPlus",
           "package": "regex-pderiv",
@@ -3217,6 +3466,7 @@
         "index": {
           "description": "the plus re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EPlus",
           "package": "regex-pderiv",
@@ -3231,6 +3481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe star re*\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EStar",
           "package": "regex-pderiv",
@@ -3241,6 +3492,7 @@
         "index": {
           "description": "the star re",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "EStar",
           "package": "regex-pderiv",
@@ -3255,6 +3507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003ehasGroup\u003c/a\u003e\u003c/code\u003e tests whether an external pattern has ( ... ) (i.e. variable patterns in the internal pattern)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "hasGroup",
           "package": "regex-pderiv",
@@ -3265,6 +3518,7 @@
         "index": {
           "description": "Function hasGroup tests whether an external pattern has i.e variable patterns in the internal pattern",
           "hierarchy": "Text Regex PDeriv ExtPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.ExtPattern",
           "name": "hasGroup",
           "normalized": "EPat-\u003eBool",
@@ -3281,6 +3535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the data type of internal regular expression pattern, \n | as well as the partial derivative operations for regular expression patterns.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "IntPattern",
           "package": "regex-pderiv",
@@ -3290,6 +3545,7 @@
         "index": {
           "description": "This module defines the data type of internal regular expression pattern as well as the partial derivative operations for regular expression patterns",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "IntPattern",
           "package": "regex-pderiv",
@@ -3304,6 +3560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBinder\u003c/a\u003e\u003c/code\u003e type denotes a set of (pattern var * range) pairs\n type Binder = [(Int, [Range])]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "Binder",
           "package": "regex-pderiv",
@@ -3313,6 +3570,7 @@
         "index": {
           "description": "The Binder type denotes set of pattern var range pairs type Binder Int Range",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "Binder",
           "package": "regex-pderiv",
@@ -3327,6 +3585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregular expression patterns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "Pat",
           "package": "regex-pderiv",
@@ -3336,6 +3595,7 @@
         "index": {
           "description": "regular expression patterns",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "Pat",
           "package": "regex-pderiv",
@@ -3350,6 +3610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoice pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PChoice",
           "package": "regex-pderiv",
@@ -3360,6 +3621,7 @@
         "index": {
           "description": "choice pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PChoice",
           "package": "regex-pderiv",
@@ -3374,6 +3636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epattern without binder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PE",
           "package": "regex-pderiv",
@@ -3384,6 +3647,7 @@
         "index": {
           "description": "pattern without binder",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PE",
           "package": "regex-pderiv",
@@ -3398,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty pattern, it is used intermally to indicate that mkEmpty function has been applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PEmpty",
           "package": "regex-pderiv",
@@ -3408,6 +3673,7 @@
         "index": {
           "description": "empty pattern it is used intermally to indicate that mkEmpty function has been applied",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PEmpty",
           "package": "regex-pderiv",
@@ -3422,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epair pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PPair",
           "package": "regex-pderiv",
@@ -3432,6 +3699,7 @@
         "index": {
           "description": "pair pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PPair",
           "package": "regex-pderiv",
@@ -3446,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplus pattern, it is used internally to indicate that it is unrolled from a PStar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PPlus",
           "package": "regex-pderiv",
@@ -3456,6 +3725,7 @@
         "index": {
           "description": "plus pattern it is used internally to indicate that it is unrolled from PStar",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PPlus",
           "package": "regex-pderiv",
@@ -3470,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estar pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PStar",
           "package": "regex-pderiv",
@@ -3480,6 +3751,7 @@
         "index": {
           "description": "star pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PStar",
           "package": "regex-pderiv",
@@ -3494,6 +3766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evariable pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PVar",
           "package": "regex-pderiv",
@@ -3504,6 +3777,7 @@
         "index": {
           "description": "variable pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "PVar",
           "normalized": "PVar Int[Range]Pat",
@@ -3519,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "listifyBinder",
           "package": "regex-pderiv",
@@ -3528,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "listifyBinder",
           "normalized": "Binder-\u003e[(Int,[Range])]",
@@ -3543,6 +3819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "nub2",
           "package": "regex-pderiv",
@@ -3552,6 +3829,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "nub2",
           "normalized": "[(a,b)]-\u003e[(a,b)]",
@@ -3567,6 +3845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003epdPat\u003c/a\u003e\u003c/code\u003e computes the partial derivatives of a pattern w.r.t. a letter.\n     Integrating non-greedy operator with PStar\n     For p*, we need to unroll it into a special construct\n     say PPlus p' p* where p' in p/l.\n     When we push another label, say l' to PPlus p' p*, and\n     p' is emptiable, naively, we would do \n     [ PPlus p'' p* | p'' \u003c- p' \u003cem\u003e l ] ++ [ PPlus (mkE p') (PPlus p''' p*) | (PPlus p''' p*) \u003c- p*\u003c/em\u003el ]\n     Now the problem here is the shape of the pdpat are infinite, which \n     breaks the requirement of getting a compilation scheme.\n     The fix here is to simplify the second component, by combining the binding, of (mkE p') and p'''\n     since they share the same set of variables.\n     [ PPlus p'' p* | p'' \u003c- p' \u003cem\u003e l ] ++ [ PPlus p4 p* | (PPlus p''' p*) \u003c- p*\u003c/em\u003el ] \n     where p4 = combineBinding (mkE p') p'''\n     For pdPat0 approach, we do not need to do this explicitly, we simply drop \n     (mkE p') even in the PPair case. see the definitely of pdPat0 below\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat",
           "package": "regex-pderiv",
@@ -3577,6 +3856,7 @@
         "index": {
           "description": "function pdPat computes the partial derivatives of pattern w.r.t letter Integrating non-greedy operator with PStar For we need to unroll it into special construct say PPlus where in When we push another label say to PPlus and is emptiable naively we would do PPlus PPlus mkE PPlus PPlus Now the problem here is the shape of the pdpat are infinite which breaks the requirement of getting compilation scheme The fix here is to simplify the second component by combining the binding of mkE and since they share the same set of variables PPlus PPlus p4 PPlus where p4 combineBinding mkE For pdPat0 approach we do not need to do this explicitly we simply drop mkE even in the PPair case see the definitely of pdPat0 below",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat",
           "normalized": "Pat-\u003eLetter-\u003e[Pat]",
@@ -3593,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003epdPat0\u003c/a\u003e\u003c/code\u003e is the \u003ccode\u003eabstracted\u003c/code\u003e form of the \u003ccode\u003e\u003ca\u003epdPat\u003c/a\u003e\u003c/code\u003e function\n      It computes a set of pairs. Each pair consists a \u003ccode\u003eshape\u003c/code\u003e of the partial derivative, and\n      an update function which defines the change of the pattern bindings from the \u003ccode\u003esource\u003c/code\u003e pattern to \n      the resulting partial derivative. This is used in the compilation of the regular expression pattern \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat0",
           "package": "regex-pderiv",
@@ -3602,6 +3883,7 @@
         "index": {
           "description": "Function pdPat0 is the abstracted form of the pdPat function It computes set of pairs Each pair consists shape of the partial derivative and an update function which defines the change of the pattern bindings from the source pattern to the resulting partial derivative This is used in the compilation of the regular expression pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat0",
           "normalized": "Pat-\u003eLetter-\u003e[(Pat,Int-\u003eBinder-\u003eBinder)]",
@@ -3618,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003epdPat0Sim\u003c/a\u003e\u003c/code\u003e applies simplification to the results of \u003ccode\u003e\u003ca\u003epdPat0\u003c/a\u003e\u003c/code\u003e \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat0Sim",
           "package": "regex-pderiv",
@@ -3627,6 +3910,7 @@
         "index": {
           "description": "Function pdPat0Sim applies simplification to the results of pdPat0",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "pdPat0Sim",
           "normalized": "Pat-\u003eLetter-\u003e[(Pat,Int-\u003eBinder-\u003eBinder)]",
@@ -3643,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003estrip\u003c/a\u003e\u003c/code\u003e strips away the bindings from a pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "strip",
           "package": "regex-pderiv",
@@ -3653,6 +3938,7 @@
         "index": {
           "description": "function strip strips away the bindings from pattern",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "strip",
           "normalized": "Pat-\u003eRE",
@@ -3668,6 +3954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction \u003ccode\u003e\u003ca\u003etoBinder\u003c/a\u003e\u003c/code\u003e turns a pattern into a binder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "toBinder",
           "package": "regex-pderiv",
@@ -3678,6 +3965,7 @@
         "index": {
           "description": "Function toBinder turns pattern into binder",
           "hierarchy": "Text Regex PDeriv IntPattern",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.IntPattern",
           "name": "toBinder",
           "normalized": "Pat-\u003eBinder",
@@ -3694,6 +3982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines data types, type classes and instances for NFA\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "Nfa",
           "package": "regex-pderiv",
@@ -3703,6 +3992,7 @@
         "index": {
           "description": "This module defines data types type classes and instances for NFA",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "Nfa",
           "package": "regex-pderiv",
@@ -3717,6 +4007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe NFA data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "NFA",
           "package": "regex-pderiv",
@@ -3726,6 +4017,7 @@
         "index": {
           "description": "the NFA data type",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "NFA",
           "package": "regex-pderiv",
@@ -3740,6 +4032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type class of Nfa\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "Nfa",
           "package": "regex-pderiv",
@@ -3749,6 +4042,7 @@
         "index": {
           "description": "The type class of Nfa",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "Nfa",
           "package": "regex-pderiv",
@@ -3763,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe optimized NFA using Int to represent states, IntMap to represent delta\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "SNFA",
           "package": "regex-pderiv",
@@ -3772,6 +4067,7 @@
         "index": {
           "description": "the optimized NFA using Int to represent states IntMap to represent delta",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "SNFA",
           "package": "regex-pderiv",
@@ -3785,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "NFA",
           "package": "regex-pderiv",
@@ -3794,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "NFA",
           "package": "regex-pderiv",
@@ -3807,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "SNFA",
           "package": "regex-pderiv",
@@ -3816,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "SNFA",
           "package": "regex-pderiv",
@@ -3829,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "all_states",
           "package": "regex-pderiv",
@@ -3838,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "all_states",
           "normalized": "[a]",
@@ -3853,6 +4155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function that builds an NFA \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "buildNFA",
           "package": "regex-pderiv",
@@ -3863,6 +4166,7 @@
         "index": {
           "description": "function that builds an NFA",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "buildNFA",
           "normalized": "a-\u003eNFA a b",
@@ -3878,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "delta_states",
           "package": "regex-pderiv",
@@ -3887,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "delta_states",
           "normalized": "[(a,b,a)]",
@@ -3901,6 +4207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "empty",
           "package": "regex-pderiv",
@@ -3910,6 +4217,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "empty",
           "normalized": "a-\u003eBool",
@@ -3924,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "final_states",
           "package": "regex-pderiv",
@@ -3933,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "final_states",
           "normalized": "[a]",
@@ -3947,6 +4257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "init_states",
           "package": "regex-pderiv",
@@ -3956,6 +4267,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "init_states",
           "normalized": "[a]",
@@ -3970,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "mapping_states",
           "package": "regex-pderiv",
@@ -3979,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "mapping_states",
           "normalized": "a-\u003eInt",
@@ -3993,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofAllStates",
           "package": "regex-pderiv",
@@ -4002,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofAllStates",
           "normalized": "NFA a b-\u003eInt",
@@ -4017,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofDelta",
           "package": "regex-pderiv",
@@ -4026,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofDelta",
           "normalized": "NFA a a-\u003eInt",
@@ -4041,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofFinalStates",
           "package": "regex-pderiv",
@@ -4050,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofFinalStates",
           "normalized": "NFA a b-\u003eInt",
@@ -4065,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofInitStates",
           "package": "regex-pderiv",
@@ -4074,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "nofInitStates",
           "normalized": "NFA a b-\u003eInt",
@@ -4089,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "pDeriv",
           "package": "regex-pderiv",
@@ -4098,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "pDeriv",
           "normalized": "a-\u003eb-\u003e[a]",
@@ -4113,6 +4437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sall_states",
           "package": "regex-pderiv",
@@ -4122,6 +4447,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sall_states",
           "normalized": "[Int]",
@@ -4136,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sdelta_states",
           "package": "regex-pderiv",
@@ -4145,6 +4472,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sdelta_states",
           "normalized": "[(Int,a,Int)]",
@@ -4159,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sfinal_states",
           "package": "regex-pderiv",
@@ -4168,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sfinal_states",
           "normalized": "[Int]",
@@ -4182,6 +4512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sigma",
           "package": "regex-pderiv",
@@ -4191,6 +4522,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sigma",
           "normalized": "a-\u003e[b]",
@@ -4205,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sinit_states",
           "package": "regex-pderiv",
@@ -4214,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "sinit_states",
           "normalized": "[Int]",
@@ -4229,6 +4563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003etoSNFA\u003c/a\u003e\u003c/code\u003e converts from an NFA to an SNFA\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "toSNFA",
           "package": "regex-pderiv",
@@ -4239,6 +4574,7 @@
         "index": {
           "description": "The function toSNFA converts from an NFA to an SNFA",
           "hierarchy": "Text Regex PDeriv Nfa",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Nfa",
           "name": "toSNFA",
           "normalized": "NFA a b-\u003eSNFA a b",
@@ -4254,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Parse",
           "name": "Parse",
           "package": "regex-pderiv",
@@ -4262,6 +4599,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Parse",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Parse",
           "name": "Parse",
           "package": "regex-pderiv",
@@ -4275,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Parse",
           "name": "parsePatPosix",
           "package": "regex-pderiv",
@@ -4284,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Parse",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Parse",
           "name": "parsePatPosix",
           "normalized": "String-\u003eEither ParseError(Pat,IntMap())",
@@ -4299,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "Pretty",
           "package": "regex-pderiv",
@@ -4307,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Pretty",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "Pretty",
           "package": "regex-pderiv",
@@ -4320,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "Pretty",
           "package": "regex-pderiv",
@@ -4328,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Pretty",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "Pretty",
           "package": "regex-pderiv",
@@ -4341,6 +4685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "pretty",
           "package": "regex-pderiv",
@@ -4350,6 +4695,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Pretty",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -4364,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "RE",
           "package": "regex-pderiv",
@@ -4372,6 +4719,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "RE",
           "package": "regex-pderiv",
@@ -4386,6 +4734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type of the regular expresions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "RE",
           "package": "regex-pderiv",
@@ -4395,6 +4744,7 @@
         "index": {
           "description": "data type of the regular expresions",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "RE",
           "package": "regex-pderiv",
@@ -4409,6 +4759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Any",
           "package": "regex-pderiv",
@@ -4418,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Any",
           "package": "regex-pderiv",
@@ -4432,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea choice exp 'r1 + r2'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Choice",
           "package": "regex-pderiv",
@@ -4442,6 +4795,7 @@
         "index": {
           "description": "choice exp r1 r2",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Choice",
           "package": "regex-pderiv",
@@ -4456,6 +4810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean empty exp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Empty",
           "package": "regex-pderiv",
@@ -4466,6 +4821,7 @@
         "index": {
           "description": "an empty exp",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Empty",
           "package": "regex-pderiv",
@@ -4480,6 +4836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea literal / a character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "L",
           "package": "regex-pderiv",
@@ -4490,6 +4847,7 @@
         "index": {
           "description": "literal character",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "L",
           "package": "regex-pderiv",
@@ -4503,6 +4861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexcluding characters e.g. [^abc]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Not",
           "package": "regex-pderiv",
@@ -4513,6 +4872,7 @@
         "index": {
           "description": "excluding characters e.g abc",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Not",
           "normalized": "Not[Char]",
@@ -4528,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Phi",
           "package": "regex-pderiv",
@@ -4537,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Phi",
           "package": "regex-pderiv",
@@ -4551,6 +4913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea pair exp '(r1,r2)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Seq",
           "package": "regex-pderiv",
@@ -4561,6 +4924,7 @@
         "index": {
           "description": "pair exp r1 r2",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Seq",
           "package": "regex-pderiv",
@@ -4575,6 +4939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea kleene's star exp 'r*'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Star",
           "package": "regex-pderiv",
@@ -4585,6 +4950,7 @@
         "index": {
           "description": "kleene star exp",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "Star",
           "package": "regex-pderiv",
@@ -4599,6 +4965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003epartDeriv\u003c/a\u003e\u003c/code\u003e implements the partial derivative operations for regular expressions. We don't pay attention to the greediness flag here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "partDeriv",
           "package": "regex-pderiv",
@@ -4609,6 +4976,7 @@
         "index": {
           "description": "function partDeriv implements the partial derivative operations for regular expressions We don pay attention to the greediness flag here",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "partDeriv",
           "normalized": "RE-\u003eChar-\u003e[RE]",
@@ -4624,6 +4992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "partDerivSub",
           "package": "regex-pderiv",
@@ -4633,6 +5002,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "partDerivSub",
           "normalized": "RE-\u003eChar-\u003e[RE]",
@@ -4649,6 +5019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003eresToRE\u003c/a\u003e\u003c/code\u003e sums up a list of regular expressions with the choice operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "resToRE",
           "package": "regex-pderiv",
@@ -4659,6 +5030,7 @@
         "index": {
           "description": "function resToRE sums up list of regular expressions with the choice operation",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "resToRE",
           "normalized": "[RE]-\u003eRE",
@@ -4675,6 +5047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunction \u003ccode\u003e\u003ca\u003esigmaRE\u003c/a\u003e\u003c/code\u003e returns all characters appearing in a reg exp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "sigmaRE",
           "package": "regex-pderiv",
@@ -4685,6 +5058,7 @@
         "index": {
           "description": "function sigmaRE returns all characters appearing in reg exp",
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "sigmaRE",
           "normalized": "RE-\u003e[Char]",
@@ -4700,6 +5074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.RE",
           "name": "sigmaREsub",
           "package": "regex-pderiv",
@@ -4709,6 +5084,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv RE",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.RE",
           "name": "sigmaREsub",
           "normalized": "RE-\u003e[Char]",
@@ -4724,6 +5100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "LeftToRightD",
           "package": "regex-pderiv",
@@ -4732,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv String LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "LeftToRightD",
           "package": "regex-pderiv",
@@ -4746,6 +5124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -4755,6 +5134,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv String LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -4768,6 +5148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -4776,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv String LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -4790,6 +5172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -4799,6 +5182,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv String LeftToRightD",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String.LeftToRightD",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -5076,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String",
           "name": "String",
           "package": "regex-pderiv",
@@ -5084,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv String",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String",
           "name": "String",
           "package": "regex-pderiv",
@@ -5098,6 +5484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl whether the pattern is multiline or case-sensitive like Text.Regex and whether to\n capture the subgroups (1, 2, etc).  Controls enabling extra anchor syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -5107,6 +5494,7 @@
         "index": {
           "description": "Control whether the pattern is multiline or case-sensitive like Text.Regex and whether to capture the subgroups etc Controls enabling extra anchor syntax",
           "hierarchy": "Text Regex PDeriv String",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String",
           "name": "CompOption",
           "package": "regex-pderiv",
@@ -5120,6 +5508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -5128,6 +5517,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv String",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String",
           "name": "ExecOption",
           "package": "regex-pderiv",
@@ -5142,6 +5532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PDeriv backend spepcific \u003ccode\u003e\u003ca\u003eRegex\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.String",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -5151,6 +5542,7 @@
         "index": {
           "description": "The PDeriv backend spepcific Regex type",
           "hierarchy": "Text Regex PDeriv String",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.String",
           "name": "Regex",
           "package": "regex-pderiv",
@@ -5165,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA translation schema from the external syntax (ERE) to our interal syntax (xhaskell style pattern)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "Translate",
           "package": "regex-pderiv",
@@ -5174,6 +5567,7 @@
         "index": {
           "description": "translation schema from the external syntax ERE to our interal syntax xhaskell style pattern",
           "hierarchy": "Text Regex PDeriv Translate",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "Translate",
           "package": "regex-pderiv",
@@ -5188,6 +5582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslating external pattern to internal pattern\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "translate",
           "package": "regex-pderiv",
@@ -5198,6 +5593,7 @@
         "index": {
           "description": "Translating external pattern to internal pattern",
           "hierarchy": "Text Regex PDeriv Translate",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "translate",
           "normalized": "EPat-\u003ePat",
@@ -5213,6 +5609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor posix \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "translatePosix",
           "package": "regex-pderiv",
@@ -5223,6 +5620,7 @@
         "index": {
           "description": "for posix",
           "hierarchy": "Text Regex PDeriv Translate",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Translate",
           "name": "translatePosix",
           "normalized": "EPat-\u003e(Pat,IntMap())",
@@ -5238,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "Word",
           "package": "regex-pderiv",
@@ -5246,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "Word",
           "package": "regex-pderiv",
@@ -5260,6 +5660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe Word type class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "Word",
           "package": "regex-pderiv",
@@ -5269,6 +5670,7 @@
         "index": {
           "description": "the Word type class",
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "Word",
           "package": "regex-pderiv",
@@ -5282,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "append",
           "package": "regex-pderiv",
@@ -5291,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "append",
           "normalized": "a-\u003ea-\u003ea",
@@ -5305,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "drop",
           "package": "regex-pderiv",
@@ -5314,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "drop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -5328,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "empty",
           "package": "regex-pderiv",
@@ -5337,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "empty",
           "package": "regex-pderiv",
@@ -5349,6 +5757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "length",
           "package": "regex-pderiv",
@@ -5358,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -5372,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "reverse",
           "package": "regex-pderiv",
@@ -5381,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "reverse",
           "normalized": "a-\u003ea",
@@ -5395,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "take",
           "package": "regex-pderiv",
@@ -5404,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "take",
           "normalized": "Int-\u003ea-\u003ea",
@@ -5418,6 +5832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:51:19 UTC 2014",
           "module": "Text.Regex.PDeriv.Word",
           "name": "uncons",
           "package": "regex-pderiv",
@@ -5427,6 +5842,7 @@
         },
         "index": {
           "hierarchy": "Text Regex PDeriv Word",
+          "indexed": "2014-03-11T19:51:19",
           "module": "Text.Regex.PDeriv.Word",
           "name": "uncons",
           "normalized": "a-\u003eMaybe(Char,a)",

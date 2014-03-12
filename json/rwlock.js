@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rwlock"
+        "phrase": "rwlock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of a multiple-reader / single-writer lock, using\n \u003ca\u003eControl.Concurrent.STM\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLock",
           "package": "rwlock",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple implementation of multiple-reader single-writer lock using Control.Concurrent.STM",
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLock",
           "package": "rwlock",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLock",
           "package": "rwlock",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLock",
           "package": "rwlock",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representing the state of a lock: available, in use by a certain\n number of readers, or in use by a writer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLockState",
           "package": "rwlock",
@@ -72,6 +77,7 @@
         "index": {
           "description": "type representing the state of lock available in use by certain number of readers or in use by writer",
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "RWLockState",
           "package": "rwlock",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "Open",
           "package": "rwlock",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "Open",
           "package": "rwlock",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "Readers",
           "package": "rwlock",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "Readers",
           "package": "rwlock",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "Writing",
           "package": "rwlock",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "Writing",
           "package": "rwlock",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "newRWLock",
           "package": "rwlock",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "newRWLock",
           "package": "rwlock",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "newRWLockIO",
           "package": "rwlock",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "newRWLockIO",
           "package": "rwlock",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "putReadLock",
           "package": "rwlock",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "putReadLock",
           "normalized": "RWLock-\u003eSTM()",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "putReadLockIO",
           "package": "rwlock",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "putReadLockIO",
           "normalized": "RWLock-\u003eIO()",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "putWriteLock",
           "package": "rwlock",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "putWriteLock",
           "normalized": "RWLock-\u003eSTM()",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "putWriteLockIO",
           "package": "rwlock",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "putWriteLockIO",
           "normalized": "RWLock-\u003eIO()",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "readRWLock",
           "package": "rwlock",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "readRWLock",
           "normalized": "RWLock-\u003eSTM RWLockState",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "readRWLockIO",
           "package": "rwlock",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "readRWLockIO",
           "normalized": "RWLock-\u003eIO RWLockState",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "takeReadLock",
           "package": "rwlock",
@@ -348,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "takeReadLock",
           "normalized": "RWLock-\u003eSTM()",
@@ -363,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "takeReadLockIO",
           "package": "rwlock",
@@ -372,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "takeReadLockIO",
           "normalized": "RWLock-\u003eIO()",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "takeWriteLock",
           "package": "rwlock",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "takeWriteLock",
           "normalized": "RWLock-\u003eSTM()",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "takeWriteLockIO",
           "package": "rwlock",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "takeWriteLockIO",
           "normalized": "RWLock-\u003eIO()",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutReadLock",
           "package": "rwlock",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutReadLock",
           "normalized": "RWLock-\u003eSTM Bool",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutReadLockIO",
           "package": "rwlock",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutReadLockIO",
           "normalized": "RWLock-\u003eIO Bool",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutWriteLock",
           "package": "rwlock",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutWriteLock",
           "normalized": "RWLock-\u003eSTM Bool",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutWriteLockIO",
           "package": "rwlock",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryPutWriteLockIO",
           "normalized": "RWLock-\u003eIO Bool",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeReadLock",
           "package": "rwlock",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeReadLock",
           "normalized": "RWLock-\u003eSTM Bool",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeReadLockIO",
           "package": "rwlock",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeReadLockIO",
           "normalized": "RWLock-\u003eIO Bool",
@@ -579,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeWriteLock",
           "package": "rwlock",
@@ -588,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeWriteLock",
           "normalized": "RWLock-\u003eSTM Bool",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeWriteLockIO",
           "package": "rwlock",
@@ -612,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "tryTakeWriteLockIO",
           "normalized": "RWLock-\u003eIO Bool",
@@ -628,6 +680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire a lock in read mode, try to execute some action, and release the lock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "withReadLock",
           "package": "rwlock",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Acquire lock in read mode try to execute some action and release the lock",
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "withReadLock",
           "normalized": "RWLock-\u003eIO a-\u003eIO a",
@@ -654,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire a lock in write mode, try to execute some action, and release the lock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:08 UTC 2014",
           "module": "Control.Concurrent.RWLock",
           "name": "withWriteLock",
           "package": "rwlock",
@@ -664,6 +719,7 @@
         "index": {
           "description": "Acquire lock in write mode try to execute some action and release the lock",
           "hierarchy": "Control Concurrent RWLock",
+          "indexed": "2014-03-11T19:56:08",
           "module": "Control.Concurrent.RWLock",
           "name": "withWriteLock",
           "normalized": "RWLock-\u003eIO a-\u003eIO a",

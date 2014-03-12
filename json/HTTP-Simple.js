@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HTTP-Simple"
+        "phrase": "HTTP-Simple",
+        "type": "phrase"
       },
       "type": "context"
     }

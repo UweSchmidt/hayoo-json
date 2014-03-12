@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "var"
+        "phrase": "var",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "Unsafe",
           "package": "var",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "Unsafe",
           "package": "var",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "ByteArraySlice",
           "package": "var",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "ByteArraySlice",
           "package": "var",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "MonadPrim",
           "package": "var",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "MonadPrim",
           "package": "var",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "MutableByteArray",
           "package": "var",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "MutableByteArray",
           "package": "var",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "Prim",
           "package": "var",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "Prim",
           "package": "var",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "byteSizeOf",
           "package": "var",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "byteSizeOf",
           "normalized": "a-\u003eInt",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "plusByteSize",
           "package": "var",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "plusByteSize",
           "normalized": "Int-\u003ea b-\u003eInt",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "plusByteSizeDefault",
           "package": "var",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "plusByteSizeDefault",
           "normalized": "Int-\u003ea b-\u003eInt",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "prim",
           "package": "var",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "prim",
           "normalized": "(State #(World a)-\u003e(#State #(World a),b #))-\u003ea b",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "readByteOff",
           "package": "var",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "readByteOff",
           "normalized": "MutableByteArray a-\u003eInt-\u003ePrim a b",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "readByteOffDefault",
           "package": "var",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "readByteOffDefault",
           "normalized": "MutableByteArray a-\u003eInt-\u003ePrim a b",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "runPrim",
           "package": "var",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "runPrim",
           "normalized": "Prim(World a)b-\u003ea b",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "writeByteOff",
           "package": "var",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "writeByteOff",
           "normalized": "MutableByteArray a-\u003eInt-\u003eb-\u003ePrim a()",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "writeByteOffDefault",
           "package": "var",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice Unsafe",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice.Unsafe",
           "name": "writeByteOffDefault",
           "normalized": "MutableByteArray a-\u003eInt-\u003eb-\u003ePrim a()",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice",
           "name": "ByteArraySlice",
           "package": "var",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice",
           "name": "ByteArraySlice",
           "package": "var",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.ByteArraySlice",
           "name": "ByteArraySlice",
           "package": "var",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data ByteArraySlice",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.ByteArraySlice",
           "name": "ByteArraySlice",
           "package": "var",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.IO",
           "name": "IO",
           "package": "var",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.IO",
           "name": "IO",
           "package": "var",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.IO",
           "name": "ArraySlice",
           "package": "var",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.IO",
           "name": "ArraySlice",
           "package": "var",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.IO",
           "name": "IOTuple",
           "package": "var",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.IO",
           "name": "IOTuple",
           "package": "var",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.IO",
           "name": "IOUTuple",
           "package": "var",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.IO",
           "name": "IOUTuple",
           "package": "var",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "Lens",
           "package": "var",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "Lens",
           "package": "var",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_1",
           "package": "var",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_1",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_2",
           "package": "var",
@@ -515,6 +560,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_2",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_3",
           "package": "var",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_3",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_4",
           "package": "var",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_4",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_5",
           "package": "var",
@@ -581,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_5",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_6",
           "package": "var",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_6",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_7",
           "package": "var",
@@ -625,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_7",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_8",
           "package": "var",
@@ -647,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_8",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_9",
           "package": "var",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_9",
           "normalized": "(a-\u003eb c)-\u003ed-\u003eb e",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_head",
           "package": "var",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_head",
           "normalized": "(a-\u003eb c)-\u003eTuple(a d)-\u003eb(Tuple(c d))",
@@ -706,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_tail",
           "package": "var",
@@ -715,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "_tail",
           "normalized": "(Tuple a-\u003eb(Tuple c))-\u003eTuple(d a)-\u003eb(Tuple(d c))",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "tuple",
           "package": "var",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple Lens",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple.Lens",
           "name": "tuple",
           "normalized": "(Tuple(ListRep a)-\u003eb(Tuple(ListRep c)))-\u003ea-\u003eb c",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "ITuple",
           "package": "var",
@@ -760,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "ITuple",
           "package": "var",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field1",
           "package": "var",
@@ -781,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field1",
           "package": "var",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field2",
           "package": "var",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field2",
           "package": "var",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field3",
           "package": "var",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field3",
           "package": "var",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field4",
           "package": "var",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field4",
           "package": "var",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field5",
           "package": "var",
@@ -865,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field5",
           "package": "var",
@@ -878,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field6",
           "package": "var",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field6",
           "package": "var",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field7",
           "package": "var",
@@ -907,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field7",
           "package": "var",
@@ -920,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field8",
           "package": "var",
@@ -928,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field8",
           "package": "var",
@@ -941,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Field9",
           "package": "var",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Field9",
           "package": "var",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "ITuple",
           "package": "var",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "ITuple",
           "package": "var",
@@ -983,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "List",
           "package": "var",
@@ -991,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "List",
           "package": "var",
@@ -1004,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "ListRepDefault",
           "package": "var",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "ListRepDefault",
           "package": "var",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Tuple",
           "package": "var",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Tuple",
           "package": "var",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": ":|",
           "package": "var",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": ":|",
           "package": "var",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": ":*",
           "package": "var",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": ":*",
           "normalized": "a-\u003eTuple b-\u003eTuple(a b)",
@@ -1090,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "Nil",
           "package": "var",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "Nil",
           "package": "var",
@@ -1112,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "U",
           "package": "var",
@@ -1121,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "U",
           "package": "var",
@@ -1133,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "fromTuple",
           "package": "var",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "fromTuple",
           "normalized": "Tuple(ListRep a)-\u003ea",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "fromTupleDefault",
           "package": "var",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "fromTupleDefault",
           "normalized": "Tuple(ListRepDefault a)-\u003ea",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "toTuple",
           "package": "var",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "toTuple",
           "normalized": "a-\u003eTuple(ListRep a)",
@@ -1205,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ITuple",
           "name": "toTupleDefault",
           "package": "var",
@@ -1214,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ITuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ITuple",
           "name": "toTupleDefault",
           "normalized": "a-\u003eTuple(ListRepDefault a)",
@@ -1229,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MTuple",
           "package": "var",
@@ -1237,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MTuple",
           "package": "var",
@@ -1250,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField1",
           "package": "var",
@@ -1258,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField1",
           "package": "var",
@@ -1271,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField2",
           "package": "var",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField2",
           "package": "var",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField3",
           "package": "var",
@@ -1300,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField3",
           "package": "var",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField4",
           "package": "var",
@@ -1321,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField4",
           "package": "var",
@@ -1334,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField5",
           "package": "var",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField5",
           "package": "var",
@@ -1355,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField6",
           "package": "var",
@@ -1363,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField6",
           "package": "var",
@@ -1376,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField7",
           "package": "var",
@@ -1384,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField7",
           "package": "var",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField8",
           "package": "var",
@@ -1405,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField8",
           "package": "var",
@@ -1418,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MField9",
           "package": "var",
@@ -1426,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MField9",
           "package": "var",
@@ -1439,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "MTuple",
           "package": "var",
@@ -1447,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "MTuple",
           "package": "var",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "freezeTuple",
           "package": "var",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "freezeTuple",
           "normalized": "a b-\u003ec b",
@@ -1484,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify1",
           "package": "var",
@@ -1493,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify1",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1507,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify1'",
           "package": "var",
@@ -1516,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify1'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1530,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify2",
           "package": "var",
@@ -1539,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify2",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1553,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify2'",
           "package": "var",
@@ -1562,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify2'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1576,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify3",
           "package": "var",
@@ -1585,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify3",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1599,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify3'",
           "package": "var",
@@ -1608,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify3'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1622,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify4",
           "package": "var",
@@ -1631,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify4",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1645,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify4'",
           "package": "var",
@@ -1654,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify4'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1668,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify5",
           "package": "var",
@@ -1677,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify5",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1691,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify5'",
           "package": "var",
@@ -1700,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify5'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1714,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify6",
           "package": "var",
@@ -1723,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify6",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1737,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify6'",
           "package": "var",
@@ -1746,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify6'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1760,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify7",
           "package": "var",
@@ -1769,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify7",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1783,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify7'",
           "package": "var",
@@ -1792,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify7'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1806,6 +1968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify8",
           "package": "var",
@@ -1815,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify8",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1829,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify8'",
           "package": "var",
@@ -1838,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify8'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1852,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify9",
           "package": "var",
@@ -1861,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify9",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1875,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "modify9'",
           "package": "var",
@@ -1884,6 +2053,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "modify9'",
           "normalized": "a b-\u003e(Field b-\u003eField b)-\u003ec()",
@@ -1898,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read1",
           "package": "var",
@@ -1907,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read1",
           "normalized": "a b-\u003ec(Field b)",
@@ -1921,6 +2093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read2",
           "package": "var",
@@ -1930,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read2",
           "normalized": "a b-\u003ec(Field b)",
@@ -1944,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read3",
           "package": "var",
@@ -1953,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read3",
           "normalized": "a b-\u003ec(Field b)",
@@ -1967,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read4",
           "package": "var",
@@ -1976,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read4",
           "normalized": "a b-\u003ec(Field b)",
@@ -1990,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read5",
           "package": "var",
@@ -1999,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read5",
           "normalized": "a b-\u003ec(Field b)",
@@ -2013,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read6",
           "package": "var",
@@ -2022,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read6",
           "normalized": "a b-\u003ec(Field b)",
@@ -2036,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read7",
           "package": "var",
@@ -2045,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read7",
           "normalized": "a b-\u003ec(Field b)",
@@ -2059,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read8",
           "package": "var",
@@ -2068,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read8",
           "normalized": "a b-\u003ec(Field b)",
@@ -2082,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "read9",
           "package": "var",
@@ -2091,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "read9",
           "normalized": "a b-\u003ec(Field b)",
@@ -2105,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "thawTuple",
           "package": "var",
@@ -2114,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "thawTuple",
           "normalized": "a-\u003eb(c a)",
@@ -2129,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write1",
           "package": "var",
@@ -2138,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write1",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2152,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write2",
           "package": "var",
@@ -2161,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write2",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2175,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write3",
           "package": "var",
@@ -2184,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write3",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2198,6 +2394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write4",
           "package": "var",
@@ -2207,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write4",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2221,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write5",
           "package": "var",
@@ -2230,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write5",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2244,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write6",
           "package": "var",
@@ -2253,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write6",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2267,6 +2469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write7",
           "package": "var",
@@ -2276,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write7",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2290,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write8",
           "package": "var",
@@ -2299,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write8",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2313,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.MTuple",
           "name": "write9",
           "package": "var",
@@ -2322,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple MTuple",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.MTuple",
           "name": "write9",
           "normalized": "a b-\u003eField b-\u003ec()",
@@ -2336,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ST",
           "name": "ST",
           "package": "var",
@@ -2344,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ST",
           "name": "ST",
           "package": "var",
@@ -2357,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ST",
           "name": "ArraySlice",
           "package": "var",
@@ -2365,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ST",
           "name": "ArraySlice",
           "package": "var",
@@ -2378,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ST",
           "name": "STTuple",
           "package": "var",
@@ -2386,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ST",
           "name": "STTuple",
           "package": "var",
@@ -2399,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.ST",
           "name": "STUTuple",
           "package": "var",
@@ -2407,6 +2622,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.ST",
           "name": "STUTuple",
           "package": "var",
@@ -2420,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.Storable",
           "name": "Storable",
           "package": "var",
@@ -2428,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.Storable",
           "name": "Storable",
           "package": "var",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.Storable",
           "name": "StorableList",
           "package": "var",
@@ -2449,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.Storable",
           "name": "StorableList",
           "package": "var",
@@ -2462,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.Storable",
           "name": "StorableTuple",
           "package": "var",
@@ -2470,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.Storable",
           "name": "StorableTuple",
           "package": "var",
@@ -2483,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.Storable",
           "name": "touchStorableTuple",
           "package": "var",
@@ -2492,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.Storable",
           "name": "touchStorableTuple",
           "normalized": "StorableTuple a-\u003eIO()",
@@ -2507,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Tuple.Storable",
           "name": "withStorableTuple",
           "package": "var",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Tuple.Storable",
           "name": "withStorableTuple",
           "normalized": "StorableTuple a-\u003e(b c Ptr d-\u003eIO e)-\u003eIO e",
@@ -2531,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "Class",
           "package": "var",
@@ -2539,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "Class",
           "package": "var",
@@ -2552,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "Var",
           "package": "var",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "Var",
           "package": "var",
@@ -2573,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "modifyVar",
           "package": "var",
@@ -2582,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "modifyVar",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -2597,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "modifyVar'",
           "package": "var",
@@ -2606,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "modifyVar'",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -2621,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "newVar",
           "package": "var",
@@ -2630,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "newVar",
           "normalized": "a-\u003eb(c a)",
@@ -2645,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "readVar",
           "package": "var",
@@ -2654,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "readVar",
           "normalized": "a b-\u003ec b",
@@ -2669,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Class",
           "name": "writeVar",
           "package": "var",
@@ -2678,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Data Var Class",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Class",
           "name": "writeVar",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -2693,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.IO",
           "name": "IO",
           "package": "var",
@@ -2701,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Data Var IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.IO",
           "name": "IO",
           "package": "var",
@@ -2715,6 +2957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable containing an unboxed value of type \u003ccode\u003ea\u003c/code\u003e in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.IO",
           "name": "IOUVar",
           "package": "var",
@@ -2724,6 +2967,7 @@
         "index": {
           "description": "mutable variable containing an unboxed value of type in the IO monad",
           "hierarchy": "Data Var IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.IO",
           "name": "IOUVar",
           "package": "var",
@@ -2738,6 +2982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mutable variable in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.IO",
           "name": "IOVar",
           "package": "var",
@@ -2747,6 +2992,7 @@
         "index": {
           "description": "mutable variable in the IO monad",
           "hierarchy": "Data Var IO",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.IO",
           "name": "IOVar",
           "package": "var",
@@ -2760,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.ST",
           "name": "ST",
           "package": "var",
@@ -2768,6 +3015,7 @@
         },
         "index": {
           "hierarchy": "Data Var ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.ST",
           "name": "ST",
           "package": "var",
@@ -2782,6 +3030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSTUVar\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e is a mutable variable in state thread \u003ccode\u003es\u003c/code\u003e,\ncontaining an unboxed value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.ST",
           "name": "STUVar",
           "package": "var",
@@ -2791,6 +3040,7 @@
         "index": {
           "description": "value of type STUVar is mutable variable in state thread containing an unboxed value of type",
           "hierarchy": "Data Var ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.ST",
           "name": "STUVar",
           "package": "var",
@@ -2805,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea value of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eSTVar\u003c/a\u003e\u003c/code\u003e s a\u003c/code\u003e is a mutable variable in state thread \u003ccode\u003es\u003c/code\u003e,\ncontaining a value of type \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.ST",
           "name": "STVar",
           "package": "var",
@@ -2814,6 +3065,7 @@
         "index": {
           "description": "value of type STVar is mutable variable in state thread containing value of type",
           "hierarchy": "Data Var ST",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.ST",
           "name": "STVar",
           "package": "var",
@@ -2827,6 +3079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Storable",
           "name": "Storable",
           "package": "var",
@@ -2835,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Data Var Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Storable",
           "name": "Storable",
           "package": "var",
@@ -2848,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Storable",
           "name": "StorableVar",
           "package": "var",
@@ -2856,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Data Var Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Storable",
           "name": "StorableVar",
           "package": "var",
@@ -2869,6 +3125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Storable",
           "name": "touchStorableVar",
           "package": "var",
@@ -2878,6 +3135,7 @@
         },
         "index": {
           "hierarchy": "Data Var Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Storable",
           "name": "touchStorableVar",
           "normalized": "StorableVar a-\u003eIO()",
@@ -2893,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var.Storable",
           "name": "withStorableVar",
           "package": "var",
@@ -2902,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Data Var Storable",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var.Storable",
           "name": "withStorableVar",
           "normalized": "StorableVar a-\u003e(Ptr a-\u003eIO b)-\u003eIO b",
@@ -2917,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:22 UTC 2014",
           "module": "Data.Var",
           "name": "Var",
           "package": "var",
@@ -2925,6 +3186,7 @@
         },
         "index": {
           "hierarchy": "Data Var",
+          "indexed": "2014-03-11T20:33:22",
           "module": "Data.Var",
           "name": "Var",
           "package": "var",

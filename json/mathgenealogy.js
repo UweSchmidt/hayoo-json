@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mathgenealogy"
+        "phrase": "mathgenealogy",
+        "type": "phrase"
       },
       "type": "context"
     }

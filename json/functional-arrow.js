@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "functional-arrow"
+        "phrase": "functional-arrow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "Let",
           "package": "functional-arrow",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "Let",
           "package": "functional-arrow",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "Index",
           "package": "functional-arrow",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "Index",
           "package": "functional-arrow",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "(\u003c\u003c\u003c&)",
           "package": "functional-arrow",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "(\u003c\u003c\u003c&) \u003c\u003c\u003c&",
           "normalized": "a(b,c)d-\u003ea c b-\u003ea c d",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "c1",
           "package": "functional-arrow",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "c1",
           "normalized": "a(Int,())Bool",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "c2",
           "package": "functional-arrow",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "c2",
           "normalized": "a(Int,())Bool",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "f",
           "package": "functional-arrow",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "f",
           "normalized": "a(Int,())Char",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "g",
           "package": "functional-arrow",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "g",
           "normalized": "a(Char,(Int,()))Bool",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "input",
           "package": "functional-arrow",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "input",
           "normalized": "a()Int",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Let",
           "name": "ref",
           "package": "functional-arrow",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Let",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Let",
           "name": "ref",
           "normalized": "a b c-\u003ea d c",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is an attempt to simplify the use of arrow combinators.\nIf I have \u003ccode\u003ef :: arrow a b\u003c/code\u003e,\nthen subsequent arrows can only access the \u003ccode\u003eb\u003c/code\u003e,\nbut often I also want to access the \u003ccode\u003ea\u003c/code\u003e.\nThus I often write\n\u003c/p\u003e\u003cpre\u003e f &&& arr id :: arrow a (b,a)  .\n\u003c/pre\u003e\u003cp\u003eIf I repeat this, it yields\n\u003c/p\u003e\u003cpre\u003e g &&& arr id \u003c\u003c\u003c f &&& arr id :: arrow a (c,(b,a))\n h &&& arr id \u003c\u003c\u003c g &&& arr id \u003c\u003c\u003c f &&& arr id :: arrow a (d,(c,(b,a)))  .\n\u003c/pre\u003e\u003cp\u003eHowever accessing the particular inputs of type \u003ccode\u003ed\u003c/code\u003e, \u003ccode\u003ec\u003c/code\u003e, \u003ccode\u003eb\u003c/code\u003e\nfrom within \u003ccode\u003eh\u003c/code\u003e and \u003ccode\u003eg\u003c/code\u003e is cumbersome.\nThus I wrote a little support for this style of arrow programming.\nFirst I use \u003ccode\u003eHList\u003c/code\u003e instead of nested pairs.\nUsing type level Peano numbers and reverse \u003ccode\u003eHList\u003c/code\u003e index access\nI can use the same expression (say \u003ccode\u003elisten x\u003c/code\u003e) in both \u003ccode\u003eg\u003c/code\u003e and \u003ccode\u003eh\u003c/code\u003e\nalthough in both contexts they refer to different \u003ccode\u003eHLists\u003c/code\u003e.\nE.g. \u003ccode\u003eg\u003c/code\u003e expects the \u003ccode\u003eb\u003c/code\u003e input at the \u003ccode\u003eHList\u003c/code\u003e head,\nwhereas \u003ccode\u003eh\u003c/code\u003e gets it one position later.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Monad",
           "name": "Monad",
           "package": "functional-arrow",
@@ -231,6 +250,7 @@
         "index": {
           "description": "This module is an attempt to simplify the use of arrow combinators If have arrow then subsequent arrows can only access the but often also want to access the Thus often write arr id arrow If repeat this it yields arr id arr id arrow arr id arr id arr id arrow However accessing the particular inputs of type from within and is cumbersome Thus wrote little support for this style of arrow programming First use HList instead of nested pairs Using type level Peano numbers and reverse HList index access can use the same expression say listen in both and although in both contexts they refer to different HLists E.g expects the input at the HList head whereas gets it one position later",
           "hierarchy": "Control Arrow Monad",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Monad",
           "name": "Monad",
           "package": "functional-arrow",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Monad",
           "name": "HAdd",
           "package": "functional-arrow",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Monad",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Monad",
           "name": "HAdd",
           "package": "functional-arrow",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Monad",
           "name": "(=\u003c\u003c\u003c)",
           "package": "functional-arrow",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Monad",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Monad",
           "name": "(=\u003c\u003c\u003c) =\u003c\u003c\u003c",
           "normalized": "(a-\u003eb(HCons c d)e)-\u003eb d c-\u003eb d e",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis \u003ccode\u003ebind\u003c/code\u003e-like operator allows you to a share an interim arrow result\nbetween various following arrow inputs.\n\u003c/p\u003e\u003cp\u003eInstead of\n\u003c/p\u003e\u003cpre\u003e mix \u003c\u003c\u003c  id &&& delay  \u003c\u003c\u003c lowpass\n\u003c/pre\u003e\u003cp\u003eyou can write\n\u003c/p\u003e\u003cpre\u003e (\\x -\u003e HL.hCons x HL.hNil) ^\u003e\u003e\n ((HL.hHead ^\u003e\u003e lowpass) \u003e\u003e\u003e= \\x -\u003e\n      mix \u003c\u003c\u003c  listen x &&& (delay \u003c\u003c\u003c listen x))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Monad",
           "name": "(\u003e\u003e\u003e=)",
           "package": "functional-arrow",
@@ -299,6 +324,7 @@
         "index": {
           "description": "This bind like operator allows you to share an interim arrow result between various following arrow inputs Instead of mix id delay lowpass you can write HL.hCons HL.hNil HL.hHead lowpass mix listen delay listen",
           "hierarchy": "Control Arrow Monad",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Monad",
           "name": "(\u003e\u003e\u003e=) \u003e\u003e\u003e=",
           "normalized": "a b c-\u003e(d-\u003ea(HCons c b)e)-\u003ea b e",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:28 UTC 2014",
           "module": "Control.Arrow.Monad",
           "name": "listen",
           "package": "functional-arrow",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Monad",
+          "indexed": "2014-03-11T18:13:28",
           "module": "Control.Arrow.Monad",
           "name": "listen",
           "normalized": "a-\u003eb c d",

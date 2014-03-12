@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Focus"
+        "phrase": "Focus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "Focus",
           "package": "Focus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "Focus",
           "package": "Focus",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "Focus",
           "package": "Focus",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "Focus",
           "package": "Focus",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "contract",
           "package": "Focus",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "contract",
           "normalized": "Focus-\u003eInt-\u003eFocus",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehavior\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "focus",
           "package": "Focus",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Behavior",
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "focus",
           "normalized": "Focus-\u003eFocus-\u003eFocus",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "fromList",
           "package": "Focus",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "fromList",
           "normalized": "[Int]-\u003eFocus",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "fromString",
           "package": "Focus",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "fromString",
           "normalized": "String-\u003eMaybe Focus",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "isUnfocused",
           "package": "Focus",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "isUnfocused",
           "normalized": "Focus-\u003eBool",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "parse",
           "package": "Focus",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "parse",
           "package": "Focus",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "retract",
           "package": "Focus",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "retract",
           "normalized": "Focus-\u003eFocus",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "split",
           "package": "Focus",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "split",
           "normalized": "String-\u003e(Maybe Focus,String)",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "strip",
           "package": "Focus",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "strip",
           "normalized": "String-\u003eString",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "toList",
           "package": "Focus",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Creation",
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "toList",
           "normalized": "Focus-\u003e[Int]",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Focus",
           "name": "unfocused",
           "package": "Focus",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Focus",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Focus",
           "name": "unfocused",
           "package": "Focus",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "Scope",
           "package": "Focus",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "contains",
           "package": "Focus",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "contains",
           "normalized": "Scope-\u003eFocus-\u003eBool",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "everywhere",
           "package": "Focus",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "everywhere",
           "package": "Focus",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "fromTuple",
           "package": "Focus",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "fromTuple",
           "normalized": "(Focus,Focus)-\u003eScope",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "isEverywhere",
           "package": "Focus",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "isEverywhere",
           "normalized": "Scope-\u003eBool",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "lower",
           "package": "Focus",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "lower",
           "normalized": "Scope-\u003eFocus",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "toTuple",
           "package": "Focus",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "toTuple",
           "normalized": "Scope-\u003e(Focus,Focus)",
@@ -520,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:31 UTC 2014",
           "module": "Data.Scope",
           "name": "upper",
           "package": "Focus",
@@ -529,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Scope",
+          "indexed": "2014-03-11T16:41:31",
           "module": "Data.Scope",
           "name": "upper",
           "normalized": "Scope-\u003eFocus",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "asn1-data"
+        "phrase": "asn1-data",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRaw encoding of binary format (BER\u003cem\u003eDER\u003c/em\u003eCER)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "Raw",
           "package": "asn1-data",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Raw encoding of binary format BER DER CER",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "Raw",
           "package": "asn1-data",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Element class",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent one event from an asn1 data stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Event",
           "package": "asn1-data",
@@ -74,6 +79,7 @@
         "index": {
           "description": "represent one event from an asn1 data stream",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Event",
           "package": "asn1-data",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Header with the class, tag, constructed flag and length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Header",
           "package": "asn1-data",
@@ -97,6 +104,7 @@
         "index": {
           "description": "ASN1 Header with the class tag constructed flag and length",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Header",
           "package": "asn1-data",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Length with all different formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Length",
           "package": "asn1-data",
@@ -120,6 +129,7 @@
         "index": {
           "description": "ASN1 Length with all different formats",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Length",
           "package": "asn1-data",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -143,6 +154,7 @@
         "index": {
           "description": "ASN1 Tag",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -447,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one strict bytestring and returns on success all ASN1 events associated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "parseBS",
           "package": "asn1-data",
@@ -457,6 +470,7 @@
         "index": {
           "description": "Parse one strict bytestring and returns on success all ASN1 events associated",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "parseBS",
           "normalized": "ByteString-\u003eEither ASN Error[ASN Event]",
@@ -473,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse one lazy bytestring and returns on success all ASN1 events associated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "parseLBS",
           "package": "asn1-data",
@@ -483,6 +498,7 @@
         "index": {
           "description": "Parse one lazy bytestring and returns on success all ASN1 events associated",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "parseLBS",
           "normalized": "ByteString-\u003eEither ASN Error[ASN Event]",
@@ -499,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a list of ASN1 Events into a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "toByteString",
           "package": "asn1-data",
@@ -509,6 +526,7 @@
         "index": {
           "description": "transform list of ASN1 Events into strict bytestring",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "toByteString",
           "normalized": "[ASN Event]-\u003eByteString",
@@ -525,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform a list of ASN1 Events into a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "toLazyByteString",
           "package": "asn1-data",
@@ -535,6 +554,7 @@
         "index": {
           "description": "transform list of ASN1 Events into lazy bytestring",
           "hierarchy": "Data ASN1 BinaryEncoding Raw",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding.Raw",
           "name": "toLazyByteString",
           "normalized": "[ASN Event]-\u003eByteString",
@@ -551,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing ASN1 BER and DER specification encoding/decoding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BinaryEncoding",
           "package": "asn1-data",
@@ -560,6 +581,7 @@
         "index": {
           "description": "module containing ASN1 BER and DER specification encoding decoding",
           "hierarchy": "Data ASN1 BinaryEncoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BinaryEncoding",
           "package": "asn1-data",
@@ -574,6 +596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic Encoding Rules (BER)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BER",
           "package": "asn1-data",
@@ -583,6 +606,7 @@
         "index": {
           "description": "Basic Encoding Rules BER",
           "hierarchy": "Data ASN1 BinaryEncoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BER",
           "package": "asn1-data",
@@ -597,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistinguished Encoding Rules (DER)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "DER",
           "package": "asn1-data",
@@ -606,6 +631,7 @@
         "index": {
           "description": "Distinguished Encoding Rules DER",
           "hierarchy": "Data ASN1 BinaryEncoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "DER",
           "package": "asn1-data",
@@ -619,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BER",
           "package": "asn1-data",
@@ -628,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 BinaryEncoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "BER",
           "package": "asn1-data",
@@ -641,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "DER",
           "package": "asn1-data",
@@ -650,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 BinaryEncoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BinaryEncoding",
           "name": "DER",
           "package": "asn1-data",
@@ -663,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -671,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -685,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent a bitarray / bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -694,6 +727,7 @@
         "index": {
           "description": "represent bitarray bitmap",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -708,6 +742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethrowed in case of out of bounds in the bitarray.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "BitArrayOutOfBound",
           "package": "asn1-data",
@@ -717,6 +752,7 @@
         "index": {
           "description": "throwed in case of out of bounds in the bitarray",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "BitArrayOutOfBound",
           "package": "asn1-data",
@@ -730,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -739,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "BitArray",
           "package": "asn1-data",
@@ -752,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "BitArrayOutOfBound",
           "package": "asn1-data",
@@ -761,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "BitArrayOutOfBound",
           "package": "asn1-data",
@@ -775,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the nth bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayClearBit",
           "package": "asn1-data",
@@ -785,6 +826,7 @@
         "index": {
           "description": "clear the nth bits",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayClearBit",
           "normalized": "BitArray-\u003eWord-\u003eBitArray",
@@ -801,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the nth bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayGetBit",
           "package": "asn1-data",
@@ -811,6 +854,7 @@
         "index": {
           "description": "get the nth bits",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayGetBit",
           "normalized": "BitArray-\u003eWord-\u003eBool",
@@ -827,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget padded bytestring of the bitarray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayGetData",
           "package": "asn1-data",
@@ -837,6 +882,7 @@
         "index": {
           "description": "get padded bytestring of the bitarray",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayGetData",
           "normalized": "BitArray-\u003eByteString",
@@ -853,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns the length of bits in this bitarray\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayLength",
           "package": "asn1-data",
@@ -863,6 +910,7 @@
         "index": {
           "description": "returns the length of bits in this bitarray",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArrayLength",
           "normalized": "BitArray-\u003eWord",
@@ -879,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the nth bits\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArraySetBit",
           "package": "asn1-data",
@@ -889,6 +938,7 @@
         "index": {
           "description": "set the nth bits",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArraySetBit",
           "normalized": "BitArray-\u003eWord-\u003eBitArray",
@@ -905,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the nth bit to the value specified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "bitArraySetBitValue",
           "package": "asn1-data",
@@ -915,6 +966,7 @@
         "index": {
           "description": "set the nth bit to the value specified",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "bitArraySetBitValue",
           "normalized": "BitArray-\u003eWord-\u003eBool-\u003eBitArray",
@@ -931,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of bit to skip at the end (padding)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.BitArray",
           "name": "toBitArray",
           "package": "asn1-data",
@@ -941,6 +994,7 @@
         "index": {
           "description": "number of bit to skip at the end padding",
           "hierarchy": "Data ASN1 BitArray",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.BitArray",
           "name": "toBitArray",
           "normalized": "ByteString-\u003eInt-\u003eBitArray",
@@ -956,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "Encoding",
           "package": "asn1-data",
@@ -964,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "Encoding",
           "package": "asn1-data",
@@ -978,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe an ASN1 decoding, that transform a bytestream into an asn1stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1Decoding",
           "package": "asn1-data",
@@ -987,6 +1044,7 @@
         "index": {
           "description": "Describe an ASN1 decoding that transform bytestream into an asn1stream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1Decoding",
           "package": "asn1-data",
@@ -1001,6 +1059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransition class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1DecodingRepr",
           "package": "asn1-data",
@@ -1010,6 +1069,7 @@
         "index": {
           "description": "transition class",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1DecodingRepr",
           "package": "asn1-data",
@@ -1024,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribe an ASN1 encoding, that transform an asn1stream into a bytestream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1Encoding",
           "package": "asn1-data",
@@ -1033,6 +1094,7 @@
         "index": {
           "description": "Describe an ASN1 encoding that transform an asn1stream into bytestream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "ASN1Encoding",
           "package": "asn1-data",
@@ -1047,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode a lazy bytestring into an ASN1 stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1",
           "package": "asn1-data",
@@ -1057,6 +1120,7 @@
         "index": {
           "description": "decode lazy bytestring into an ASN1 stream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1",
           "normalized": "a-\u003eByteString-\u003eEither ASN Error[ASN]",
@@ -1073,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode a strict bytestring into an ASN1 stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1'",
           "package": "asn1-data",
@@ -1083,6 +1148,7 @@
         "index": {
           "description": "decode strict bytestring into an ASN1 stream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1'",
           "normalized": "a-\u003eByteString-\u003eEither ASN Error[ASN]",
@@ -1099,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode a lazy bytestring into an ASN1 stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1Repr",
           "package": "asn1-data",
@@ -1109,6 +1176,7 @@
         "index": {
           "description": "decode lazy bytestring into an ASN1 stream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1Repr",
           "normalized": "a-\u003eByteString-\u003eEither ASN Error[ASN Repr]",
@@ -1125,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edecode a strict bytestring into an ASN1Repr stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1Repr'",
           "package": "asn1-data",
@@ -1135,6 +1204,7 @@
         "index": {
           "description": "decode strict bytestring into an ASN1Repr stream",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "decodeASN1Repr'",
           "normalized": "a-\u003eByteString-\u003eEither ASN Error[ASN Repr]",
@@ -1151,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencode a stream into a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "encodeASN1",
           "package": "asn1-data",
@@ -1161,6 +1232,7 @@
         "index": {
           "description": "encode stream into lazy bytestring",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "encodeASN1",
           "normalized": "a-\u003e[ASN]-\u003eByteString",
@@ -1177,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencode a stream into a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Encoding",
           "name": "encodeASN1'",
           "package": "asn1-data",
@@ -1187,6 +1260,7 @@
         "index": {
           "description": "encode stream into strict bytestring",
           "hierarchy": "Data ASN1 Encoding",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Encoding",
           "name": "encodeASN1'",
           "normalized": "a-\u003e[ASN]-\u003eByteString",
@@ -1202,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Object",
           "name": "Object",
           "package": "asn1-data",
@@ -1210,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Object",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Object",
           "name": "Object",
           "package": "asn1-data",
@@ -1224,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean object that can be marshalled from and to ASN1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Object",
           "name": "ASN1Object",
           "package": "asn1-data",
@@ -1233,6 +1310,7 @@
         "index": {
           "description": "an object that can be marshalled from and to ASN1",
           "hierarchy": "Data ASN1 Object",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Object",
           "name": "ASN1Object",
           "package": "asn1-data",
@@ -1247,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns either an object along the remaining ASN1 stream,\n or an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Object",
           "name": "fromASN1",
           "package": "asn1-data",
@@ -1257,6 +1336,7 @@
         "index": {
           "description": "returns either an object along the remaining ASN1 stream or an error",
           "hierarchy": "Data ASN1 Object",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Object",
           "name": "fromASN1",
           "normalized": "[ASN]-\u003eEither String(a,[ASN])",
@@ -1273,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etransform an object into an ASN1 stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Object",
           "name": "toASN1",
           "package": "asn1-data",
@@ -1283,6 +1364,7 @@
         "index": {
           "description": "transform an object into an ASN1 stream",
           "hierarchy": "Data ASN1 Object",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Object",
           "name": "toASN1",
           "normalized": "a-\u003e[ASN]",
@@ -1298,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "Parse",
           "package": "asn1-data",
@@ -1306,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "Parse",
           "package": "asn1-data",
@@ -1320,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse ASN1 Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "ParseASN1",
           "package": "asn1-data",
@@ -1329,6 +1414,7 @@
         "index": {
           "description": "Parse ASN1 Monad",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "ParseASN1",
           "package": "asn1-data",
@@ -1343,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next element from the stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNext",
           "package": "asn1-data",
@@ -1353,6 +1440,7 @@
         "index": {
           "description": "get next element from the stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "getNext",
           "package": "asn1-data",
@@ -1367,6 +1455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget next container of specified type and return all its elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainer",
           "package": "asn1-data",
@@ -1377,6 +1466,7 @@
         "index": {
           "description": "get next container of specified type and return all its elements",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainer",
           "normalized": "ASN ConstructionType-\u003eParseASN[ASN]",
@@ -1393,6 +1483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust like getNextContainer, except it doesn't throw an error if the container doesn't exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainerMaybe",
           "package": "asn1-data",
@@ -1403,6 +1494,7 @@
         "index": {
           "description": "just like getNextContainer except it doesn throw an error if the container doesn exists",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "getNextContainerMaybe",
           "normalized": "ASN ConstructionType-\u003eParseASN(Maybe[ASN])",
@@ -1419,6 +1511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns if there's more elements in the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "hasNext",
           "package": "asn1-data",
@@ -1429,6 +1522,7 @@
         "index": {
           "description": "returns if there more elements in the stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "hasNext",
           "package": "asn1-data",
@@ -1443,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun a function of the next elements of a container of specified type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainer",
           "package": "asn1-data",
@@ -1453,6 +1548,7 @@
         "index": {
           "description": "run function of the next elements of container of specified type",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainer",
           "normalized": "ASN ConstructionType-\u003eParseASN a-\u003eParseASN a",
@@ -1469,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejust like onNextContainer, except it doens't throw an error if the container doesn't exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainerMaybe",
           "package": "asn1-data",
@@ -1479,6 +1576,7 @@
         "index": {
           "description": "just like onNextContainer except it doens throw an error if the container doesn exists",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "onNextContainerMaybe",
           "normalized": "ASN ConstructionType-\u003eParseASN a-\u003eParseASN(Maybe a)",
@@ -1495,6 +1593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the parse monad over a stream and returns the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1",
           "package": "asn1-data",
@@ -1505,6 +1604,7 @@
         "index": {
           "description": "run the parse monad over stream and returns the result",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1",
           "normalized": "ParseASN a-\u003e[ASN]-\u003eEither String a",
@@ -1521,6 +1621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erun the parse monad over a stream and returns the result and the remaining ASN1 Stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1State",
           "package": "asn1-data",
@@ -1531,6 +1632,7 @@
         "index": {
           "description": "run the parse monad over stream and returns the result and the remaining ASN1 Stream",
           "hierarchy": "Data ASN1 Parse",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Parse",
           "name": "runParseASN1State",
           "normalized": "ParseASN a-\u003e[ASN]-\u003eEither String(a,[ASN])",
@@ -1546,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Stream",
           "package": "asn1-data",
@@ -1554,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Stream",
           "package": "asn1-data",
@@ -1568,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine high level ASN1 object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "ASN1",
           "package": "asn1-data",
@@ -1577,6 +1682,7 @@
         "index": {
           "description": "Define high level ASN1 object",
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "ASN1",
           "package": "asn1-data",
@@ -1591,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -1600,6 +1707,7 @@
         "index": {
           "description": "Element class",
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -1614,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine the type of container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "ASN1ConstructionType",
           "package": "asn1-data",
@@ -1623,6 +1732,7 @@
         "index": {
           "description": "Define the type of container",
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "ASN1ConstructionType",
           "package": "asn1-data",
@@ -1636,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Repr",
           "package": "asn1-data",
@@ -1644,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Repr",
           "package": "asn1-data",
@@ -1658,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -1667,6 +1780,7 @@
         "index": {
           "description": "ASN1 Tag",
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -1680,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "BMPString",
           "package": "asn1-data",
@@ -1689,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "BMPString",
           "package": "asn1-data",
@@ -1702,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "BitString",
           "package": "asn1-data",
@@ -1711,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "BitString",
           "package": "asn1-data",
@@ -1724,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Boolean",
           "package": "asn1-data",
@@ -1733,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Boolean",
           "package": "asn1-data",
@@ -1746,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "CharacterString",
           "package": "asn1-data",
@@ -1755,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "CharacterString",
           "package": "asn1-data",
@@ -1768,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Container",
           "package": "asn1-data",
@@ -1777,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Container",
           "package": "asn1-data",
@@ -1790,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "End",
           "package": "asn1-data",
@@ -1799,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "End",
           "package": "asn1-data",
@@ -1812,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Enumerated",
           "package": "asn1-data",
@@ -1821,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Enumerated",
           "package": "asn1-data",
@@ -1834,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "GeneralString",
           "package": "asn1-data",
@@ -1843,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "GeneralString",
           "package": "asn1-data",
@@ -1856,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "GeneralizedTime",
           "package": "asn1-data",
@@ -1865,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "GeneralizedTime",
           "normalized": "GeneralizedTime(Int,Int,Int,Int,Int,Int,Bool)",
@@ -1880,6 +2012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "GraphicString",
           "package": "asn1-data",
@@ -1889,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "GraphicString",
           "package": "asn1-data",
@@ -1902,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "IA5String",
           "package": "asn1-data",
@@ -1911,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "IA5String",
           "package": "asn1-data",
@@ -1924,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "IntVal",
           "package": "asn1-data",
@@ -1933,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "IntVal",
           "package": "asn1-data",
@@ -1946,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Null",
           "package": "asn1-data",
@@ -1955,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Null",
           "package": "asn1-data",
@@ -1968,6 +2108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "NumericString",
           "package": "asn1-data",
@@ -1977,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "NumericString",
           "package": "asn1-data",
@@ -1990,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "OID",
           "package": "asn1-data",
@@ -1999,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "OID",
           "normalized": "OID[Integer]",
@@ -2014,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "OctetString",
           "package": "asn1-data",
@@ -2023,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "OctetString",
           "package": "asn1-data",
@@ -2036,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Other",
           "package": "asn1-data",
@@ -2045,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Other",
           "package": "asn1-data",
@@ -2058,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "PrintableString",
           "package": "asn1-data",
@@ -2067,6 +2216,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "PrintableString",
           "package": "asn1-data",
@@ -2080,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Real",
           "package": "asn1-data",
@@ -2089,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Real",
           "package": "asn1-data",
@@ -2102,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Sequence",
           "package": "asn1-data",
@@ -2111,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Sequence",
           "package": "asn1-data",
@@ -2124,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Set",
           "package": "asn1-data",
@@ -2133,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Set",
           "package": "asn1-data",
@@ -2146,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "Start",
           "package": "asn1-data",
@@ -2155,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "Start",
           "package": "asn1-data",
@@ -2168,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "T61String",
           "package": "asn1-data",
@@ -2177,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "T61String",
           "package": "asn1-data",
@@ -2190,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "UTCTime",
           "package": "asn1-data",
@@ -2199,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "UTCTime",
           "normalized": "UTCTime(Int,Int,Int,Int,Int,Int,Bool)",
@@ -2214,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "UTF8String",
           "package": "asn1-data",
@@ -2223,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "UTF8String",
           "package": "asn1-data",
@@ -2236,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "UniversalString",
           "package": "asn1-data",
@@ -2245,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "UniversalString",
           "package": "asn1-data",
@@ -2258,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "VideoTexString",
           "package": "asn1-data",
@@ -2267,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "VideoTexString",
           "package": "asn1-data",
@@ -2280,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "VisibleString",
           "package": "asn1-data",
@@ -2289,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "VisibleString",
           "package": "asn1-data",
@@ -2302,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "getConstructedEnd",
           "package": "asn1-data",
@@ -2311,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "getConstructedEnd",
           "normalized": "Int-\u003e[ASN]-\u003e([ASN],[ASN])",
@@ -2326,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Stream",
           "name": "getConstructedEndRepr",
           "package": "asn1-data",
@@ -2335,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Stream",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Stream",
           "name": "getConstructedEndRepr",
           "normalized": "[ASN Repr]-\u003e([ASN Repr],[ASN Repr])",
@@ -2350,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "Types",
           "package": "asn1-data",
@@ -2358,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "Types",
           "package": "asn1-data",
@@ -2372,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -2381,6 +2558,7 @@
         "index": {
           "description": "Element class",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Class",
           "package": "asn1-data",
@@ -2395,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible errors during parsing operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Error",
           "package": "asn1-data",
@@ -2404,6 +2583,7 @@
         "index": {
           "description": "Possible errors during parsing operations",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Error",
           "package": "asn1-data",
@@ -2418,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent one event from an asn1 data stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Event",
           "package": "asn1-data",
@@ -2427,6 +2608,7 @@
         "index": {
           "description": "represent one event from an asn1 data stream",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Event",
           "package": "asn1-data",
@@ -2441,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Header with the class, tag, constructed flag and length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Header",
           "package": "asn1-data",
@@ -2450,6 +2633,7 @@
         "index": {
           "description": "ASN1 Header with the class tag constructed flag and length",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Header",
           "package": "asn1-data",
@@ -2464,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Length with all different formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Length",
           "package": "asn1-data",
@@ -2473,6 +2658,7 @@
         "index": {
           "description": "ASN1 Length with all different formats",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Length",
           "package": "asn1-data",
@@ -2487,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eASN1 Tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -2496,6 +2683,7 @@
         "index": {
           "description": "ASN1 Tag",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ASN1Tag",
           "package": "asn1-data",
@@ -2510,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing an invalid header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ParsingHeaderFail",
           "package": "asn1-data",
@@ -2520,6 +2709,7 @@
         "index": {
           "description": "Parsing an invalid header",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ParsingHeaderFail",
           "package": "asn1-data",
@@ -2534,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing is not finished, there is construction unended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "ParsingPartial",
           "package": "asn1-data",
@@ -2544,6 +2735,7 @@
         "index": {
           "description": "Parsing is not finished there is construction unended",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "ParsingPartial",
           "package": "asn1-data",
@@ -2558,6 +2750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePolicy failed including the name of the policy and the reason.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "PolicyFailed",
           "package": "asn1-data",
@@ -2568,6 +2761,7 @@
         "index": {
           "description": "Policy failed including the name of the policy and the reason",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "PolicyFailed",
           "package": "asn1-data",
@@ -2582,6 +2776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA construction goes over the size specified in the header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "StreamConstructionWrongSize",
           "package": "asn1-data",
@@ -2592,6 +2787,7 @@
         "index": {
           "description": "construction goes over the size specified in the header",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "StreamConstructionWrongSize",
           "package": "asn1-data",
@@ -2606,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvalid primitive with infinite length in a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "StreamInfinitePrimitive",
           "package": "asn1-data",
@@ -2616,6 +2813,7 @@
         "index": {
           "description": "Invalid primitive with infinite length in stream",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "StreamInfinitePrimitive",
           "package": "asn1-data",
@@ -2630,6 +2828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnexpected EOC in the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "StreamUnexpectedEOC",
           "package": "asn1-data",
@@ -2640,6 +2839,7 @@
         "index": {
           "description": "Unexpected EOC in the stream",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "StreamUnexpectedEOC",
           "package": "asn1-data",
@@ -2654,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unexpected situation has come up parsing an ASN1 event stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "StreamUnexpectedSituation",
           "package": "asn1-data",
@@ -2664,6 +2865,7 @@
         "index": {
           "description": "An unexpected situation has come up parsing an ASN1 event stream",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "StreamUnexpectedSituation",
           "package": "asn1-data",
@@ -2678,6 +2880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding of a knowed type failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "TypeDecodingFailed",
           "package": "asn1-data",
@@ -2688,6 +2891,7 @@
         "index": {
           "description": "Decoding of knowed type failed",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "TypeDecodingFailed",
           "package": "asn1-data",
@@ -2702,6 +2906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoding of a type that is not implemented. Contribution welcome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:15 UTC 2014",
           "module": "Data.ASN1.Types",
           "name": "TypeNotImplemented",
           "package": "asn1-data",
@@ -2712,6 +2917,7 @@
         "index": {
           "description": "Decoding of type that is not implemented Contribution welcome",
           "hierarchy": "Data ASN1 Types",
+          "indexed": "2014-03-11T17:13:15",
           "module": "Data.ASN1.Types",
           "name": "TypeNotImplemented",
           "package": "asn1-data",

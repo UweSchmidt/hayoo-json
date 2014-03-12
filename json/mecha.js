@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mecha"
+        "phrase": "mecha",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA constructive solid geometry widget.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Examples.CSG",
           "name": "CSG",
           "package": "mecha",
@@ -28,6 +29,7 @@
         "index": {
           "description": "constructive solid geometry widget",
           "hierarchy": "Language Mecha Examples CSG",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Examples.CSG",
           "name": "CSG",
           "package": "mecha",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA CSG widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Examples.CSG",
           "name": "csg",
           "package": "mecha",
@@ -52,6 +55,7 @@
         "index": {
           "description": "CSG widget",
           "hierarchy": "Language Mecha Examples CSG",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Examples.CSG",
           "name": "csg",
           "package": "mecha",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExport model generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Export",
           "name": "Export",
           "package": "mecha",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Export model generation",
           "hierarchy": "Language Mecha Export",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Export",
           "name": "Export",
           "package": "mecha",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Export",
           "name": "openSCAD",
           "package": "mecha",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Export",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Export",
           "name": "openSCAD",
           "normalized": "Solid-\u003eString",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Export",
           "name": "povray",
           "package": "mecha",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Export",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Export",
           "name": "povray",
           "normalized": "Solid-\u003eString",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Solid",
           "package": "mecha",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Solid",
           "package": "mecha",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Primitive",
           "package": "mecha",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Primitive",
           "package": "mecha",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Solid",
           "package": "mecha",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Solid",
           "package": "mecha",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Transform",
           "package": "mecha",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Transform",
           "package": "mecha",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(x min, x max) (y min, ymax) (z min, z max).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Box",
           "package": "mecha",
@@ -229,6 +248,7 @@
         "index": {
           "description": "min max min ymax min max",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Box",
           "normalized": "Box(Double,Double)(Double,Double)(Double,Double)",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom diameter, top diameter, height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Cone",
           "package": "mecha",
@@ -255,6 +276,7 @@
         "index": {
           "description": "Bottom diameter top diameter height",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Cone",
           "package": "mecha",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Difference",
           "package": "mecha",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Difference",
           "package": "mecha",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Intersection",
           "package": "mecha",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Intersection",
           "package": "mecha",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Move",
           "package": "mecha",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Move",
           "package": "mecha",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Primitive",
           "package": "mecha",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Primitive",
           "normalized": "Primitive[Transform]Color Primitive",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "RotateX",
           "package": "mecha",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "RotateX",
           "package": "mecha",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "RotateY",
           "package": "mecha",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "RotateY",
           "package": "mecha",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "RotateZ",
           "package": "mecha",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "RotateZ",
           "package": "mecha",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Scale",
           "package": "mecha",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Scale",
           "package": "mecha",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Sphere",
           "package": "mecha",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Diameter",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Sphere",
           "package": "mecha",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMajor diameter, minor diameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Torus",
           "package": "mecha",
@@ -481,6 +522,7 @@
         "index": {
           "description": "Major diameter minor diameter",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Torus",
           "package": "mecha",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "Union",
           "package": "mecha",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "Union",
           "package": "mecha",
@@ -517,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA hollow cylinder with base at the origin, given outer diameter, inner diamter, and height.\n\u003c/p\u003e\u003cp\u003eA box with ranges or X, Y, and Z positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "box",
           "package": "mecha",
@@ -527,6 +572,7 @@
         "index": {
           "description": "hollow cylinder with base at the origin given outer diameter inner diamter and height box with ranges or and positions",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "box",
           "normalized": "(Double,Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eSolid",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cone with base at the origin, given base diameter, top diameter, and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "cone",
           "package": "mecha",
@@ -552,6 +599,7 @@
         "index": {
           "description": "cone with base at the origin given base diameter top diameter and height",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "cone",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eSolid",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cube with edge length, centered at origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "cube",
           "package": "mecha",
@@ -577,6 +626,7 @@
         "index": {
           "description": "cube with edge length centered at origin",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "cube",
           "normalized": "Double-\u003eSolid",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA cylinder with base at the origin, given diameter and height.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "cylinder",
           "package": "mecha",
@@ -602,6 +653,7 @@
         "index": {
           "description": "cylinder with base at the origin given diameter and height",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "cylinder",
           "normalized": "Double-\u003eDouble-\u003eSolid",
@@ -617,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as cylinder, but centered at the origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "cylinder'",
           "package": "mecha",
@@ -627,6 +680,7 @@
         "index": {
           "description": "Same as cylinder but centered at the origin",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "cylinder'",
           "normalized": "Double-\u003eDouble-\u003eSolid",
@@ -642,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArranges a solid in a radial pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "radial",
           "package": "mecha",
@@ -652,6 +707,7 @@
         "index": {
           "description": "Arranges solid in radial pattern",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "radial",
           "normalized": "(Double-\u003eSolid)-\u003eInt-\u003eSolid",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sphere with diameter, centered at origin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "sphere",
           "package": "mecha",
@@ -677,6 +734,7 @@
         "index": {
           "description": "sphere with diameter centered at origin",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "sphere",
           "normalized": "Double-\u003eSolid",
@@ -692,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA torus centered at the origin, aligned on the z-axis, with the major and minor diameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "torus",
           "package": "mecha",
@@ -702,6 +761,7 @@
         "index": {
           "description": "torus centered at the origin aligned on the z-axis with the major and minor diameters",
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "torus",
           "normalized": "Double-\u003eDouble-\u003eSolid",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Solid",
           "name": "tube",
           "package": "mecha",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Solid",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Solid",
           "name": "tube",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eSolid",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Types",
           "package": "mecha",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Types",
           "package": "mecha",
@@ -760,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Color",
           "package": "mecha",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Color",
           "package": "mecha",
@@ -781,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Colorable",
           "package": "mecha",
@@ -789,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Colorable",
           "package": "mecha",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Moveable",
           "package": "mecha",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Moveable",
           "package": "mecha",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Normal",
           "package": "mecha",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Normal",
           "package": "mecha",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Scaleable",
           "package": "mecha",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Scaleable",
           "package": "mecha",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Setable",
           "package": "mecha",
@@ -873,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Setable",
           "package": "mecha",
@@ -886,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Vector",
           "package": "mecha",
@@ -894,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Vector",
           "package": "mecha",
@@ -907,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "Vertex",
           "package": "mecha",
@@ -915,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "Vertex",
           "package": "mecha",
@@ -928,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "color",
           "package": "mecha",
@@ -937,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "color",
           "normalized": "Color-\u003ea-\u003ea",
@@ -951,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "difference",
           "package": "mecha",
@@ -960,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "difference",
           "normalized": "a-\u003ea-\u003ea",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "intersection",
           "package": "mecha",
@@ -983,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "intersection",
           "normalized": "a-\u003ea-\u003ea",
@@ -997,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "move",
           "package": "mecha",
@@ -1006,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "move",
           "normalized": "Vector-\u003ea-\u003ea",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "moveX",
           "package": "mecha",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "moveX",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1043,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "moveY",
           "package": "mecha",
@@ -1052,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "moveY",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1066,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "moveZ",
           "package": "mecha",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "moveZ",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1089,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "rotateX",
           "package": "mecha",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "rotateX",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "rotateY",
           "package": "mecha",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "rotateY",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "rotateZ",
           "package": "mecha",
@@ -1144,6 +1243,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "rotateZ",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1158,6 +1258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "scale",
           "package": "mecha",
@@ -1167,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "scale",
           "normalized": "Vector-\u003ea-\u003ea",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "scaleAll",
           "package": "mecha",
@@ -1190,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "scaleAll",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "scaleX",
           "package": "mecha",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "scaleX",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1228,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "scaleY",
           "package": "mecha",
@@ -1237,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "scaleY",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1251,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "scaleZ",
           "package": "mecha",
@@ -1260,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "scaleZ",
           "normalized": "Double-\u003ea-\u003ea",
@@ -1274,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "union",
           "package": "mecha",
@@ -1283,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "union",
           "normalized": "a-\u003ea-\u003ea",
@@ -1297,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha.Types",
           "name": "unions",
           "package": "mecha",
@@ -1306,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Language Mecha Types",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha.Types",
           "name": "unions",
           "normalized": "[a]-\u003ea",
@@ -1321,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMecha is a constructive solid modeling language.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:52 UTC 2014",
           "module": "Language.Mecha",
           "name": "Mecha",
           "package": "mecha",
@@ -1330,6 +1445,7 @@
         "index": {
           "description": "Mecha is constructive solid modeling language",
           "hierarchy": "Language Mecha",
+          "indexed": "2014-03-11T19:15:52",
           "module": "Language.Mecha",
           "name": "Mecha",
           "package": "mecha",

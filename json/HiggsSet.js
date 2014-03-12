@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HiggsSet"
+        "phrase": "HiggsSet",
+        "type": "phrase"
       },
       "type": "context"
     }

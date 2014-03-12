@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-Data"
+        "phrase": "HGamer3D-Data",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAngles as Degrees or Radians, based on Float datatype\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Angle",
           "package": "HGamer3D-Data",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Angles as Degrees or Radians based on Float datatype",
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Angle",
           "package": "HGamer3D-Data",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Angle",
           "package": "HGamer3D-Data",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Angle",
           "package": "HGamer3D-Data",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Degrees",
           "package": "HGamer3D-Data",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Degrees",
           "package": "HGamer3D-Data",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Radians",
           "package": "HGamer3D-Data",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Radians",
           "package": "HGamer3D-Data",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Deg",
           "package": "HGamer3D-Data",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Deg",
           "package": "HGamer3D-Data",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Degrees",
           "package": "HGamer3D-Data",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Degrees",
           "package": "HGamer3D-Data",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Rad",
           "package": "HGamer3D-Data",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Rad",
           "package": "HGamer3D-Data",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "Radians",
           "package": "HGamer3D-Data",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "Radians",
           "package": "HGamer3D-Data",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "acosA",
           "package": "HGamer3D-Data",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "acosA",
           "normalized": "Float-\u003eAngle",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "addA",
           "package": "HGamer3D-Data",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "addA",
           "normalized": "Angle-\u003eAngle-\u003eAngle",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "asinA",
           "package": "HGamer3D-Data",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "asinA",
           "normalized": "Float-\u003eAngle",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "atanA",
           "package": "HGamer3D-Data",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "atanA",
           "normalized": "Float-\u003eAngle",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "cosA",
           "package": "HGamer3D-Data",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "cosA",
           "normalized": "Angle-\u003eFloat",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "divA",
           "package": "HGamer3D-Data",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "divA",
           "normalized": "Angle-\u003eFloat-\u003eAngle",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "fromAngle",
           "package": "HGamer3D-Data",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "fromAngle",
           "normalized": "Angle-\u003ea",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "mulA",
           "package": "HGamer3D-Data",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "mulA",
           "normalized": "Angle-\u003eFloat-\u003eAngle",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "sinA",
           "package": "HGamer3D-Data",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "sinA",
           "normalized": "Angle-\u003eFloat",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "subA",
           "package": "HGamer3D-Data",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "subA",
           "normalized": "Angle-\u003eAngle-\u003eAngle",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Angle",
           "name": "tanA",
           "package": "HGamer3D-Data",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Angle",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Angle",
           "name": "tanA",
           "normalized": "Angle-\u003eFloat",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHGamer3D colour type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -456,6 +495,7 @@
         "index": {
           "description": "HGamer3D colour type",
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -469,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "Colour",
           "package": "HGamer3D-Data",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "cAlpha",
           "package": "HGamer3D-Data",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "cAlpha",
           "package": "HGamer3D-Data",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "cBlue",
           "package": "HGamer3D-Data",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "cBlue",
           "package": "HGamer3D-Data",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "cGreen",
           "package": "HGamer3D-Data",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "cGreen",
           "package": "HGamer3D-Data",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Colour",
           "name": "cRed",
           "package": "HGamer3D-Data",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data Colour",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Colour",
           "name": "cRed",
           "package": "HGamer3D-Data",
@@ -601,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility class to encapsulate class pointers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -610,6 +663,7 @@
         "index": {
           "description": "Utility class to encapsulate class pointers",
           "hierarchy": "HGamer3D Data HG3DClass",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data HG3DClass",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data HG3DClass",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "HG3DClass",
           "package": "HGamer3D-Data",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "ocFptr",
           "package": "HGamer3D-Data",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data HG3DClass",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "ocFptr",
           "normalized": "Ptr()",
@@ -690,6 +750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "ocPtr",
           "package": "HGamer3D-Data",
@@ -699,6 +760,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data HG3DClass",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.HG3DClass",
           "name": "ocPtr",
           "normalized": "Ptr()",
@@ -715,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypeclasses for basic 3D operations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Operation3D",
           "package": "HGamer3D-Data",
@@ -724,6 +787,7 @@
         "index": {
           "description": "Typeclasses for basic operations",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Operation3D",
           "package": "HGamer3D-Data",
@@ -738,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type with a Direction3D instance can be oriented towards a point (Camera for example)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Direction3D",
           "package": "HGamer3D-Data",
@@ -747,6 +812,7 @@
         "index": {
           "description": "type with Direction3D instance can be oriented towards point Camera for example",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Direction3D",
           "package": "HGamer3D-Data",
@@ -761,6 +827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type with an Orientation3D instance can be oriented in space\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Orientation3D",
           "package": "HGamer3D-Data",
@@ -770,6 +837,7 @@
         "index": {
           "description": "type with an Orientation3D instance can be oriented in space",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Orientation3D",
           "package": "HGamer3D-Data",
@@ -784,6 +852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type with a Position3D instance can be positioned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Position3D",
           "package": "HGamer3D-Data",
@@ -793,6 +862,7 @@
         "index": {
           "description": "type with Position3D instance can be positioned",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Position3D",
           "package": "HGamer3D-Data",
@@ -807,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea type with a Scale3D instance can be scaled\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Scale3D",
           "package": "HGamer3D-Data",
@@ -816,6 +887,7 @@
         "index": {
           "description": "type with Scale3D instance can be scaled",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "Scale3D",
           "package": "HGamer3D-Data",
@@ -830,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget direction function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "direction3D",
           "package": "HGamer3D-Data",
@@ -840,6 +913,7 @@
         "index": {
           "description": "get direction function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "direction3D",
           "normalized": "a-\u003eIO Vec",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset direction function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "directionTo3D",
           "package": "HGamer3D-Data",
@@ -865,6 +940,7 @@
         "index": {
           "description": "set direction function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "directionTo3D",
           "normalized": "a-\u003eVec-\u003eIO()",
@@ -881,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget orientation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "orientation3D",
           "package": "HGamer3D-Data",
@@ -891,6 +968,7 @@
         "index": {
           "description": "get orientation function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "orientation3D",
           "normalized": "a-\u003eIO UnitQuaternion",
@@ -906,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset orientation function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "orientationTo3D",
           "package": "HGamer3D-Data",
@@ -916,6 +995,7 @@
         "index": {
           "description": "set orientation function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "orientationTo3D",
           "normalized": "a-\u003eUnitQuaternion-\u003eIO()",
@@ -932,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erotate object on own axis (pitch) by angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "pitch3D",
           "package": "HGamer3D-Data",
@@ -942,6 +1023,7 @@
         "index": {
           "description": "rotate object on own axis pitch by angle",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "pitch3D",
           "normalized": "a-\u003eAngle-\u003eIO()",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget position function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "position3D",
           "package": "HGamer3D-Data",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "get position function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "position3D",
           "normalized": "a-\u003eIO Vec",
@@ -982,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset position function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "positionTo3D",
           "package": "HGamer3D-Data",
@@ -992,6 +1077,7 @@
         "index": {
           "description": "set position function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "positionTo3D",
           "normalized": "a-\u003eVec-\u003eIO()",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erotate object on own axis (roll) by angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "roll3D",
           "package": "HGamer3D-Data",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "rotate object on own axis roll by angle",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "roll3D",
           "normalized": "a-\u003eAngle-\u003eIO()",
@@ -1033,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget scale function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "scale3D",
           "package": "HGamer3D-Data",
@@ -1043,6 +1132,7 @@
         "index": {
           "description": "get scale function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "scale3D",
           "normalized": "a-\u003eIO Vec",
@@ -1058,6 +1148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset scale function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "scaleTo3D",
           "package": "HGamer3D-Data",
@@ -1068,6 +1159,7 @@
         "index": {
           "description": "set scale function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "scaleTo3D",
           "normalized": "a-\u003eVec-\u003eIO()",
@@ -1084,6 +1176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emove position function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "translate3D",
           "package": "HGamer3D-Data",
@@ -1094,6 +1187,7 @@
         "index": {
           "description": "move position function",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "translate3D",
           "normalized": "a-\u003eVec-\u003eIO()",
@@ -1109,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erotate object on own axis (yaw) by angle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Operation3D",
           "name": "yaw3D",
           "package": "HGamer3D-Data",
@@ -1119,6 +1214,7 @@
         "index": {
           "description": "rotate object on own axis yaw by angle",
           "hierarchy": "HGamer3D Data Operation3D",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Operation3D",
           "name": "yaw3D",
           "normalized": "a-\u003eAngle-\u003eIO()",
@@ -1134,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType definitions for 2D geometry and windows\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ScreenGeometry",
           "package": "HGamer3D-Data",
@@ -1143,6 +1240,7 @@
         "index": {
           "description": "Type definitions for geometry and windows",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ScreenGeometry",
           "package": "HGamer3D-Data",
@@ -1157,6 +1255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point has two coordinates an x and y one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Point",
           "package": "HGamer3D-Data",
@@ -1166,6 +1265,7 @@
         "index": {
           "description": "point has two coordinates an and one",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Point",
           "package": "HGamer3D-Data",
@@ -1180,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rectangle has an a position as x and y and widht and height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Rectangle",
           "package": "HGamer3D-Data",
@@ -1189,6 +1290,7 @@
         "index": {
           "description": "rectangle has an position as and and widht and height",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Rectangle",
           "package": "HGamer3D-Data",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA window is simply represented by it's window id, an unsigned C int\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Window",
           "package": "HGamer3D-Data",
@@ -1212,6 +1315,7 @@
         "index": {
           "description": "window is simply represented by it window id an unsigned int",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Window",
           "package": "HGamer3D-Data",
@@ -1225,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Point",
           "package": "HGamer3D-Data",
@@ -1234,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Point",
           "package": "HGamer3D-Data",
@@ -1247,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Rectangle",
           "package": "HGamer3D-Data",
@@ -1256,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Rectangle",
           "package": "HGamer3D-Data",
@@ -1269,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Window",
           "package": "HGamer3D-Data",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "Window",
           "package": "HGamer3D-Data",
@@ -1292,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget upper left and lower right point from a rect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "pointsFromRect",
           "package": "HGamer3D-Data",
@@ -1302,6 +1413,7 @@
         "index": {
           "description": "get upper left and lower right point from rect",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "pointsFromRect",
           "normalized": "Rectangle-\u003e(Point,Point)",
@@ -1317,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ptX",
           "package": "HGamer3D-Data",
@@ -1326,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ptX",
           "package": "HGamer3D-Data",
@@ -1338,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ptY",
           "package": "HGamer3D-Data",
@@ -1347,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "ptY",
           "package": "HGamer3D-Data",
@@ -1360,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ederive a rectangle from upper left and lower right points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectFromPoints",
           "package": "HGamer3D-Data",
@@ -1370,6 +1487,7 @@
         "index": {
           "description": "derive rectangle from upper left and lower right points",
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectFromPoints",
           "normalized": "Point-\u003ePoint-\u003eRectangle",
@@ -1385,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectHeight",
           "package": "HGamer3D-Data",
@@ -1394,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectHeight",
           "package": "HGamer3D-Data",
@@ -1407,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectWidth",
           "package": "HGamer3D-Data",
@@ -1416,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectWidth",
           "package": "HGamer3D-Data",
@@ -1429,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectX",
           "package": "HGamer3D-Data",
@@ -1438,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectX",
           "package": "HGamer3D-Data",
@@ -1450,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectY",
           "package": "HGamer3D-Data",
@@ -1459,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data ScreenGeometry",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.ScreenGeometry",
           "name": "rectY",
           "package": "HGamer3D-Data",
@@ -1472,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing the time type for HGamer3D\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1481,6 +1608,7 @@
         "index": {
           "description": "Module providing the time type for HGamer3D",
           "hierarchy": "HGamer3D Data TimeMS",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1495,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe time type of HGamer3D (in milliseconds)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1504,6 +1633,7 @@
         "index": {
           "description": "the time type of HGamer3D in milliseconds",
           "hierarchy": "HGamer3D Data TimeMS",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1517,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1526,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Data TimeMS",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.TimeMS",
           "name": "TimeMS",
           "package": "HGamer3D-Data",
@@ -1540,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIncludes the right pieces of the Vect libray of Balazs Komuves.\n see: \u003ca\u003ehttp://hackage.haskell.org/package/vect\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Vector.Instances",
           "name": "Instances",
           "package": "HGamer3D-Data",
@@ -1549,6 +1682,7 @@
         "index": {
           "description": "Includes the right pieces of the Vect libray of Balazs Komuves see http hackage.haskell.org package vect",
           "hierarchy": "HGamer3D Data Vector Instances",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Vector.Instances",
           "name": "Instances",
           "package": "HGamer3D-Data",
@@ -1563,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIncludes the right pieces of the Vect libray of Balazs Komuves.\n see: \u003ca\u003ehttp://hackage.haskell.org/package/vect\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data.Vector",
           "name": "Vector",
           "package": "HGamer3D-Data",
@@ -1572,6 +1707,7 @@
         "index": {
           "description": "Includes the right pieces of the Vect libray of Balazs Komuves see http hackage.haskell.org package vect",
           "hierarchy": "HGamer3D Data Vector",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data.Vector",
           "name": "Vector",
           "package": "HGamer3D-Data",
@@ -1586,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon data definitions for HGamer3D \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Data",
           "name": "Data",
           "package": "HGamer3D-Data",
@@ -1595,6 +1732,7 @@
         "index": {
           "description": "Common data definitions for HGamer3D",
           "hierarchy": "HGamer3D Data",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Data",
           "name": "Data",
           "package": "HGamer3D-Data",
@@ -1609,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility to provide file location information to other parts of HGamer3D\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "FileLocation",
           "package": "HGamer3D-Data",
@@ -1618,6 +1757,7 @@
         "index": {
           "description": "Utility to provide file location information to other parts of HGamer3D",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "FileLocation",
           "package": "HGamer3D-Data",
@@ -1632,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "createDir",
           "package": "HGamer3D-Data",
@@ -1642,6 +1783,7 @@
         "index": {
           "description": "create directory",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "createDir",
           "normalized": "FilePath-\u003eIO()",
@@ -1658,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efind a file by searching in multiple directories\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "findFileInDirs",
           "package": "HGamer3D-Data",
@@ -1668,6 +1811,7 @@
         "index": {
           "description": "find file by searching in multiple directories",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "findFileInDirs",
           "normalized": "[Char]-\u003e[[Char]]-\u003eIO(Maybe FilePath)",
@@ -1684,6 +1828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of configuration, relative to user app dir for HGamer3D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppConfigDirectory",
           "package": "HGamer3D-Data",
@@ -1694,6 +1839,7 @@
         "index": {
           "description": "path of configuration relative to user app dir for HGamer3D",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppConfigDirectory",
           "normalized": "IO[Char]",
@@ -1710,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of libraries, relative to user app dir for HGamer3D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppLibDirectory",
           "package": "HGamer3D-Data",
@@ -1720,6 +1867,7 @@
         "index": {
           "description": "path of libraries relative to user app dir for HGamer3D",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppLibDirectory",
           "normalized": "IO[Char]",
@@ -1736,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of media, relative to user app dir for HGamer3D\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppMediaDirectory",
           "package": "HGamer3D-Data",
@@ -1746,6 +1895,7 @@
         "index": {
           "description": "path of media relative to user app dir for HGamer3D",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getAppMediaDirectory",
           "normalized": "IO[Char]",
@@ -1762,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of configuration, relative to executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeConfigDirectory",
           "package": "HGamer3D-Data",
@@ -1772,6 +1923,7 @@
         "index": {
           "description": "path of configuration relative to executable",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeConfigDirectory",
           "normalized": "IO[Char]",
@@ -1788,6 +1940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of libraries, relative to executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeLibDirectory",
           "package": "HGamer3D-Data",
@@ -1798,6 +1951,7 @@
         "index": {
           "description": "path of libraries relative to executable",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeLibDirectory",
           "normalized": "IO[Char]",
@@ -1814,6 +1968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath of media, relative to executable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeMediaDirectory",
           "package": "HGamer3D-Data",
@@ -1824,6 +1979,7 @@
         "index": {
           "description": "path of media relative to executable",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "getExeMediaDirectory",
           "normalized": "IO[Char]",
@@ -1840,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epath separator for the filesystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.FileLocation",
           "name": "osSep",
           "package": "HGamer3D-Data",
@@ -1850,6 +2007,7 @@
         "index": {
           "description": "path separator for the filesystem",
           "hierarchy": "HGamer3D Util FileLocation",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.FileLocation",
           "name": "osSep",
           "normalized": "[Char]",
@@ -1866,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility to provide a unique name, carries internal state in a IORef\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.UniqueName",
           "name": "UniqueName",
           "package": "HGamer3D-Data",
@@ -1875,6 +2034,7 @@
         "index": {
           "description": "Utility to provide unique name carries internal state in IORef",
           "hierarchy": "HGamer3D Util UniqueName",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.UniqueName",
           "name": "UniqueName",
           "package": "HGamer3D-Data",
@@ -1888,6 +2048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.UniqueName",
           "name": "UniqueName",
           "package": "HGamer3D-Data",
@@ -1896,6 +2057,7 @@
         },
         "index": {
           "hierarchy": "HGamer3D Util UniqueName",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.UniqueName",
           "name": "UniqueName",
           "package": "HGamer3D-Data",
@@ -1910,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a unique name holder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.UniqueName",
           "name": "createUniqueName",
           "package": "HGamer3D-Data",
@@ -1920,6 +2083,7 @@
         "index": {
           "description": "creates unique name holder",
           "hierarchy": "HGamer3D Util UniqueName",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.UniqueName",
           "name": "createUniqueName",
           "normalized": "String-\u003eIO UniqueName",
@@ -1936,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelivers the next unique name from the name holder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util.UniqueName",
           "name": "nextUniqueName",
           "package": "HGamer3D-Data",
@@ -1946,6 +2111,7 @@
         "index": {
           "description": "delivers the next unique name from the name holder",
           "hierarchy": "HGamer3D Util UniqueName",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util.UniqueName",
           "name": "nextUniqueName",
           "normalized": "UniqueName-\u003eIO String",
@@ -1962,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon utilities for HGamer3D\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:09 UTC 2014",
           "module": "HGamer3D.Util",
           "name": "Util",
           "package": "HGamer3D-Data",
@@ -1971,6 +2138,7 @@
         "index": {
           "description": "Common utilities for HGamer3D",
           "hierarchy": "HGamer3D Util",
+          "indexed": "2014-03-11T16:45:09",
           "module": "HGamer3D.Util",
           "name": "Util",
           "package": "HGamer3D-Data",

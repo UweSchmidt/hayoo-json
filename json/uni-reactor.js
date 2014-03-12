@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-reactor"
+        "phrase": "uni-reactor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple semaphore\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "BSem",
           "package": "uni-reactor",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple semaphore",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "BSem",
           "package": "uni-reactor",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple lock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "BSem",
           "package": "uni-reactor",
@@ -51,6 +54,7 @@
         "index": {
           "description": "simple lock",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "BSem",
           "package": "uni-reactor",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new unlocked BSem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "newBSem",
           "package": "uni-reactor",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Create new unlocked BSem",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "newBSem",
           "package": "uni-reactor",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new locked BSem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "newLockedBSem",
           "package": "uni-reactor",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Create new locked BSem",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "newLockedBSem",
           "package": "uni-reactor",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etryAcquireBSems attempts to acquire a list of BSems.  If successful it\n returns the action to release them all again.  If unsuccessful it\n returns Nothing, and leaves all the BSems released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSems",
           "package": "uni-reactor",
@@ -123,6 +132,7 @@
         "index": {
           "description": "tryAcquireBSems attempts to acquire list of BSems If successful it returns the action to release them all again If unsuccessful it returns Nothing and leaves all the BSems released",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSems",
           "normalized": "[BSem]-\u003eIO(Maybe(IO()))",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etryAcquireBSemsWithError is a generalisation of tryAcquireBSems, which\n produces an error message\n\u003c/p\u003e\u003cp\u003eThe first argument extracts an object's BSem; the second gets a String to\n be used as a message if we can't get the object's lock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSemsWithError",
           "package": "uni-reactor",
@@ -149,6 +160,7 @@
         "index": {
           "description": "tryAcquireBSemsWithError is generalisation of tryAcquireBSems which produces an error message The first argument extracts an object BSem the second gets String to be used as message if we can get the object lock",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSemsWithError",
           "normalized": "(a-\u003eBSem)-\u003e(a-\u003eIO String)-\u003e[a]-\u003eIO(WithError(IO()))",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etryAcquireBSemsWithError1 toBSem getMessIfError objects\n attempts to acquire the BSems in (map toBSem objects).  In\n the event of a (toBSem object) already being acquired, it looks at\n the result of getMessIfError object.  If this is (Just mess)\n it returns an error condition with message (mess), first\n releasing all BSems it has already acquired; if it is (Nothing)\n it goes on to attempt to acquire the BSems for the remaining objects.\n If it gets to the end of the list it returns an action which can be\n used to release all the BSems it has acquired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSemsWithError1",
           "package": "uni-reactor",
@@ -175,6 +188,7 @@
         "index": {
           "description": "tryAcquireBSemsWithError1 toBSem getMessIfError objects attempts to acquire the BSems in map toBSem objects In the event of toBSem object already being acquired it looks at the result of getMessIfError object If this is Just mess it returns an error condition with message mess first releasing all BSems it has already acquired if it is Nothing it goes on to attempt to acquire the BSems for the remaining objects If it gets to the end of the list it returns an action which can be used to release all the BSems it has acquired",
           "hierarchy": "Reactor BSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.BSem",
           "name": "tryAcquireBSemsWithError1",
           "normalized": "(a-\u003eIO BSem)-\u003e(a-\u003eIO(Maybe String))-\u003e[a]-\u003eIO(WithError(IO()))",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInfoBus implements the \u003ccode\u003e\u003ca\u003eshutdown\u003c/a\u003e\u003c/code\u003e command.  This destroys all the\n things registered via \u003ccode\u003e\u003ca\u003eregisterTool\u003c/a\u003e\u003c/code\u003e and not\n subsequently registered via \u003ccode\u003e\u003ca\u003ederegisterTool\u003c/a\u003e\u003c/code\u003e.  Tools are identified\n by \u003ccode\u003eObjectId\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "InfoBus",
           "package": "uni-reactor",
@@ -200,6 +215,7 @@
         "index": {
           "description": "InfoBus implements the shutdown command This destroys all the things registered via registerTool and not subsequently registered via deregisterTool Tools are identified by ObjectId",
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "InfoBus",
           "package": "uni-reactor",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "deregisterTool",
           "package": "uni-reactor",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "deregisterTool",
           "normalized": "a-\u003eIO()",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eencapsulate an action such that shutdown waits for its termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "encapsulateWaitTermAct",
           "package": "uni-reactor",
@@ -248,6 +267,7 @@
         "index": {
           "description": "encapsulate an action such that shutdown waits for its termination",
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "encapsulateWaitTermAct",
           "normalized": "IO()-\u003eIO()",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eregister the given action to be done at shutdown.  The returned action\n cancels the registration (without performing the given action).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "registerDestroyAct",
           "package": "uni-reactor",
@@ -274,6 +295,7 @@
         "index": {
           "description": "register the given action to be done at shutdown The returned action cancels the registration without performing the given action",
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "registerDestroyAct",
           "normalized": "IO()-\u003eIO(IO())",
@@ -289,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "registerTool",
           "package": "uni-reactor",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "registerTool",
           "normalized": "a-\u003eIO()",
@@ -313,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "registerToolDebug",
           "package": "uni-reactor",
@@ -322,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "registerToolDebug",
           "normalized": "String-\u003ea-\u003eIO()",
@@ -337,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.InfoBus",
           "name": "shutdown",
           "package": "uni-reactor",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Reactor InfoBus",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.InfoBus",
           "name": "shutdown",
           "normalized": "IO()",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLock is an instance of a typical thing we synchronize with.\n One instance is \u003ccode\u003eBSem\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.Lock",
           "name": "Lock",
           "package": "uni-reactor",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Lock is an instance of typical thing we synchronize with One instance is BSem",
           "hierarchy": "Reactor Lock",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.Lock",
           "name": "Lock",
           "package": "uni-reactor",
@@ -383,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.Lock",
           "name": "Lock",
           "package": "uni-reactor",
@@ -391,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Reactor Lock",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.Lock",
           "name": "Lock",
           "package": "uni-reactor",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacquire a lock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.Lock",
           "name": "acquire",
           "package": "uni-reactor",
@@ -415,6 +448,7 @@
         "index": {
           "description": "acquire lock",
           "hierarchy": "Reactor Lock",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.Lock",
           "name": "acquire",
           "normalized": "a-\u003eIO()",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erelease a lock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.Lock",
           "name": "release",
           "package": "uni-reactor",
@@ -440,6 +475,7 @@
         "index": {
           "description": "release lock",
           "hierarchy": "Reactor Lock",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.Lock",
           "name": "release",
           "normalized": "a-\u003eIO()",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eacquire a lock and return True, if that can be done at once, otherwise\n return False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.Lock",
           "name": "tryAcquire",
           "package": "uni-reactor",
@@ -465,6 +502,7 @@
         "index": {
           "description": "acquire lock and return True if that can be done at once otherwise return False",
           "hierarchy": "Reactor Lock",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.Lock",
           "name": "tryAcquire",
           "normalized": "a-\u003eIO Bool",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a much simpler reimplementation of Einar's old Mutex semaphores.\n This is a lock which can be required by a thread which is already holding\n it.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eTSem\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.MSem",
           "name": "MSem",
           "package": "uni-reactor",
@@ -490,6 +529,7 @@
         "index": {
           "description": "This is much simpler reimplementation of Einar old Mutex semaphores This is lock which can be required by thread which is already holding it See also TSem",
           "hierarchy": "Reactor MSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.MSem",
           "name": "MSem",
           "package": "uni-reactor",
@@ -503,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.MSem",
           "name": "MSem",
           "package": "uni-reactor",
@@ -511,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Reactor MSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.MSem",
           "name": "MSem",
           "package": "uni-reactor",
@@ -524,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.MSem",
           "name": "newMSem",
           "package": "uni-reactor",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Reactor MSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.MSem",
           "name": "newMSem",
           "package": "uni-reactor",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.MSem",
           "name": "synchronizeWithChoice",
           "package": "uni-reactor",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Reactor MSem",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.MSem",
           "name": "synchronizeWithChoice",
           "normalized": "MSem-\u003e(Bool-\u003eIO a)-\u003eIO a",
@@ -571,6 +617,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cul\u003e\u003cli\u003e Reentrant, protected references: an IORef in an MVar, protected by\n - a reentrant monitor.\n -\n - The operations which change the value (setRef, changeRef, withRef)\n - are protected by the monitor, which additionally provides a reentrant\n - synchronize method.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "ReferenceVariables",
           "package": "uni-reactor",
@@ -580,6 +627,7 @@
         "index": {
           "description": "Reentrant protected references an IORef in an MVar protected by reentrant monitor The operations which change the value setRef changeRef withRef are protected by the monitor which additionally provides reentrant synchronize method",
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "ReferenceVariables",
           "package": "uni-reactor",
@@ -593,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "Ref",
           "package": "uni-reactor",
@@ -601,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "Ref",
           "package": "uni-reactor",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "changeRef",
           "package": "uni-reactor",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "changeRef",
           "normalized": "Ref a-\u003e(a-\u003ea)-\u003eIO()",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "changeRefM",
           "package": "uni-reactor",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "changeRefM",
           "normalized": "Ref a-\u003e(a-\u003eIO a)-\u003eIO()",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "getRef",
           "package": "uni-reactor",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "getRef",
           "normalized": "Ref a-\u003eIO a",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "newRef",
           "package": "uni-reactor",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "newRef",
           "normalized": "a-\u003eIO(Ref a)",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "setRef",
           "package": "uni-reactor",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "setRef",
           "normalized": "Ref a-\u003ea-\u003eIO()",
@@ -734,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.ReferenceVariables",
           "name": "withRef",
           "package": "uni-reactor",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Reactor ReferenceVariables",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.ReferenceVariables",
           "name": "withRef",
           "normalized": "Ref a-\u003e(a-\u003eb)-\u003eIO b",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA function for changing directories in a thread-safe way.\n\u003c/p\u003e\u003cp\u003eWe use an MSem to lock the current directory.  This means that\n withDir can be nested without deadlock (presumably the user knows what\n he's doing).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.WithDir",
           "name": "WithDir",
           "package": "uni-reactor",
@@ -768,6 +831,7 @@
         "index": {
           "description": "function for changing directories in thread-safe way We use an MSem to lock the current directory This means that withDir can be nested without deadlock presumably the user knows what he doing",
           "hierarchy": "Reactor WithDir",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.WithDir",
           "name": "WithDir",
           "package": "uni-reactor",
@@ -781,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:31 UTC 2014",
           "module": "Reactor.WithDir",
           "name": "withDir",
           "package": "uni-reactor",
@@ -790,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Reactor WithDir",
+          "indexed": "2014-03-11T20:29:31",
           "module": "Reactor.WithDir",
           "name": "withDir",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",

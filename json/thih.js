@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thih"
+        "phrase": "thih",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Assump",
           "name": "Assump",
           "package": "thih",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Assump",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Assump",
           "name": "Assump",
           "package": "thih",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Assump",
           "name": "Assump",
           "package": "thih",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Assump",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Assump",
           "name": "Assump",
           "package": "thih",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Assump",
           "name": ":\u003e:",
           "package": "thih",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Assump",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Assump",
           "name": ":\u003e:",
           "package": "thih",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Assump",
           "name": "find",
           "package": "thih",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Assump",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Assump",
           "name": "find",
           "normalized": "Id-\u003e[Assump]-\u003ea Scheme",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Debug",
           "name": "Debug",
           "package": "thih",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Debug",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Debug",
           "name": "Debug",
           "package": "thih",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Debug",
           "name": "debug",
           "package": "thih",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Debug",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Debug",
           "name": "debug",
           "normalized": "String-\u003ea-\u003eb-\u003eb",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellList",
           "name": "HaskellList",
           "package": "thih",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "HaskellList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellList",
           "name": "HaskellList",
           "package": "thih",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellMaybe",
           "name": "HaskellMaybe",
           "package": "thih",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "HaskellMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellMaybe",
           "name": "HaskellMaybe",
           "package": "thih",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellMonad",
           "name": "HaskellMonad",
           "package": "thih",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "HaskellMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellMonad",
           "name": "HaskellMonad",
           "package": "thih",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellPrelude",
           "name": "HaskellPrelude",
           "package": "thih",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "HaskellPrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellPrelude",
           "name": "HaskellPrelude",
           "package": "thih",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellPrims",
           "name": "HaskellPrims",
           "package": "thih",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "HaskellPrims",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellPrims",
           "name": "HaskellPrims",
           "package": "thih",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellTest",
           "name": "HaskellTest",
           "package": "thih",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "HaskellTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellTest",
           "name": "HaskellTest",
           "package": "thih",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "HaskellThih",
           "name": "HaskellThih",
           "package": "thih",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "HaskellThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "HaskellThih",
           "name": "HaskellThih",
           "package": "thih",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Id",
           "name": "Id",
           "package": "thih",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Id",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Id",
           "name": "Id",
           "package": "thih",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Id",
           "name": "Id",
           "package": "thih",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Id",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Id",
           "name": "Id",
           "package": "thih",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Id",
           "name": "enumId",
           "package": "thih",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Id",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Id",
           "name": "enumId",
           "normalized": "Int-\u003eId",
@@ -361,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Infer",
           "name": "Infer",
           "package": "thih",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Infer",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Infer",
           "name": "Infer",
           "package": "thih",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Infer",
           "name": "Infer",
           "package": "thih",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Infer",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Infer",
           "name": "Infer",
           "package": "thih",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Kind",
           "name": "Kind",
           "package": "thih",
@@ -411,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Kind",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Kind",
           "name": "Kind",
           "package": "thih",
@@ -424,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Kind",
           "name": "Kind",
           "package": "thih",
@@ -432,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Kind",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Kind",
           "name": "Kind",
           "package": "thih",
@@ -445,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Kind",
           "name": "Kfun",
           "package": "thih",
@@ -454,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Kind",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Kind",
           "name": "Kfun",
           "package": "thih",
@@ -467,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Kind",
           "name": "Star",
           "package": "thih",
@@ -476,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Kind",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Kind",
           "name": "Star",
           "package": "thih",
@@ -489,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Kind",
           "name": "ppkind",
           "package": "thih",
@@ -498,6 +543,7 @@
         },
         "index": {
           "hierarchy": "Kind",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Kind",
           "name": "ppkind",
           "normalized": "Int-\u003eKind-\u003eDoc",
@@ -512,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "Lit",
           "package": "thih",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "Lit",
           "package": "thih",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "Literal",
           "package": "thih",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "Literal",
           "package": "thih",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "LitChar",
           "package": "thih",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "LitChar",
           "package": "thih",
@@ -576,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "LitInt",
           "package": "thih",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "LitInt",
           "package": "thih",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "LitRat",
           "package": "thih",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "LitRat",
           "package": "thih",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "LitStr",
           "package": "thih",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "LitStr",
           "package": "thih",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Lit",
           "name": "tiLit",
           "package": "thih",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Lit",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Lit",
           "name": "tiLit",
           "normalized": "Literal-\u003eTI([Pred],Type)",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "PPrint",
           "package": "thih",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "PPrint",
           "package": "thih",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "PPrint",
           "package": "thih",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "PPrint",
           "package": "thih",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "parPprint",
           "package": "thih",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "parPprint",
           "normalized": "a-\u003eDoc",
@@ -732,6 +798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "ppParen",
           "package": "thih",
@@ -741,6 +808,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "ppParen",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "pplist",
           "package": "thih",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "pplist",
           "normalized": "[a]-\u003eDoc",
@@ -779,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "pprint",
           "package": "thih",
@@ -788,6 +859,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "pprint",
           "normalized": "a-\u003eDoc",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "PPrint",
           "name": "pretty",
           "package": "thih",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "PPrint",
+          "indexed": "2014-03-11T20:21:39",
           "module": "PPrint",
           "name": "pretty",
           "normalized": "a-\u003eString",
@@ -825,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "Pat",
           "package": "thih",
@@ -833,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "Pat",
           "package": "thih",
@@ -846,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "Pat",
           "package": "thih",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "Pat",
           "package": "thih",
@@ -867,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PAs",
           "package": "thih",
@@ -876,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PAs",
           "package": "thih",
@@ -889,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PCon",
           "package": "thih",
@@ -898,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PCon",
           "normalized": "PCon Assump[Pat]",
@@ -913,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PLazy",
           "package": "thih",
@@ -922,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PLazy",
           "package": "thih",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PLit",
           "package": "thih",
@@ -944,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PLit",
           "package": "thih",
@@ -957,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PNpk",
           "package": "thih",
@@ -966,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PNpk",
           "package": "thih",
@@ -979,6 +1067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PVar",
           "package": "thih",
@@ -988,6 +1077,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PVar",
           "package": "thih",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "PWildcard",
           "package": "thih",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "PWildcard",
           "package": "thih",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "tiPat",
           "package": "thih",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "tiPat",
           "normalized": "Pat-\u003eTI([Pred],[Assump],Type)",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pat",
           "name": "tiPats",
           "package": "thih",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Pat",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pat",
           "name": "tiPats",
           "normalized": "[Pat]-\u003eTI([Pred],[Assump],[Type])",
@@ -1071,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "Pred",
           "package": "thih",
@@ -1079,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "Pred",
           "package": "thih",
@@ -1092,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "Class",
           "package": "thih",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "Class",
           "package": "thih",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "ClassEnv",
           "package": "thih",
@@ -1121,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "ClassEnv",
           "package": "thih",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "EnvTransformer",
           "package": "thih",
@@ -1142,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "EnvTransformer",
           "package": "thih",
@@ -1155,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "Inst",
           "package": "thih",
@@ -1163,6 +1268,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "Inst",
           "package": "thih",
@@ -1176,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "Pred",
           "package": "thih",
@@ -1184,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "Pred",
           "package": "thih",
@@ -1197,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "Qual",
           "package": "thih",
@@ -1205,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "Qual",
           "package": "thih",
@@ -1218,6 +1328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "(\u003c:\u003e)",
           "package": "thih",
@@ -1227,6 +1338,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "(\u003c:\u003e) \u003c:\u003e",
           "normalized": "EnvTransformer-\u003eEnvTransformer-\u003eEnvTransformer",
@@ -1241,6 +1353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": ":=\u003e",
           "package": "thih",
@@ -1250,6 +1363,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": ":=\u003e",
           "package": "thih",
@@ -1262,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "ClassEnv",
           "package": "thih",
@@ -1271,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "ClassEnv",
           "package": "thih",
@@ -1284,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "IsIn",
           "package": "thih",
@@ -1293,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "IsIn",
           "normalized": "IsIn Id[Type]",
@@ -1308,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "addClass",
           "package": "thih",
@@ -1317,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "addClass",
           "normalized": "Id-\u003e[Tyvar]-\u003e[Pred]-\u003eEnvTransformer",
@@ -1332,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "addCoreClasses",
           "package": "thih",
@@ -1341,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "addCoreClasses",
           "package": "thih",
@@ -1354,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "addInst",
           "package": "thih",
@@ -1363,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "addInst",
           "normalized": "[Pred]-\u003ePred-\u003eEnvTransformer",
@@ -1378,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "addNumClasses",
           "package": "thih",
@@ -1387,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "addNumClasses",
           "package": "thih",
@@ -1400,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "addPreludeClasses",
           "package": "thih",
@@ -1409,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "addPreludeClasses",
           "package": "thih",
@@ -1422,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "byInst",
           "package": "thih",
@@ -1431,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "byInst",
           "normalized": "ClassEnv-\u003ePred-\u003eMaybe[Pred]",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "bySuper",
           "package": "thih",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "bySuper",
           "normalized": "ClassEnv-\u003ePred-\u003e[Pred]",
@@ -1470,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "classes",
           "package": "thih",
@@ -1479,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "classes",
           "normalized": "Id-\u003eMaybe Class",
@@ -1493,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "defaults",
           "package": "thih",
@@ -1502,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "defaults",
           "normalized": "[Type]",
@@ -1516,6 +1652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "defined",
           "package": "thih",
@@ -1525,6 +1662,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "defined",
           "normalized": "Maybe a-\u003eBool",
@@ -1539,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "elimTauts",
           "package": "thih",
@@ -1548,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "elimTauts",
           "normalized": "ClassEnv-\u003e[Pred]-\u003e[Pred]",
@@ -1563,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "entail",
           "package": "thih",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "entail",
           "normalized": "ClassEnv-\u003e[Pred]-\u003ePred-\u003eBool",
@@ -1586,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "exampleInsts",
           "package": "thih",
@@ -1595,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "exampleInsts",
           "package": "thih",
@@ -1608,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "initialEnv",
           "package": "thih",
@@ -1617,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "initialEnv",
           "package": "thih",
@@ -1630,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "insts",
           "package": "thih",
@@ -1639,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "insts",
           "normalized": "ClassEnv-\u003eId-\u003e[Inst]",
@@ -1653,6 +1801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "modify",
           "package": "thih",
@@ -1662,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "modify",
           "normalized": "ClassEnv-\u003eId-\u003eClass-\u003eClassEnv",
@@ -1676,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "overlap",
           "package": "thih",
@@ -1685,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "overlap",
           "normalized": "Pred-\u003ePred-\u003eBool",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "predHead",
           "package": "thih",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "predHead",
           "normalized": "Pred-\u003eId",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "reduce",
           "package": "thih",
@@ -1732,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "reduce",
           "normalized": "ClassEnv-\u003e[Pred]-\u003e[Pred]",
@@ -1746,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "scEntail",
           "package": "thih",
@@ -1755,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "scEntail",
           "normalized": "ClassEnv-\u003e[Pred]-\u003ePred-\u003eBool",
@@ -1770,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "sig",
           "package": "thih",
@@ -1779,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "sig",
           "normalized": "ClassEnv-\u003eId-\u003e[Tyvar]",
@@ -1793,6 +1953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "simplify",
           "package": "thih",
@@ -1802,6 +1963,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "simplify",
           "normalized": "([Pred]-\u003ePred-\u003eBool)-\u003e[Pred]-\u003e[Pred]",
@@ -1816,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Pred",
           "name": "super",
           "package": "thih",
@@ -1825,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Pred",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Pred",
           "name": "super",
           "normalized": "ClassEnv-\u003eId-\u003e[Pred]",
@@ -1839,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Scheme",
           "name": "Scheme",
           "package": "thih",
@@ -1847,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Scheme",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Scheme",
           "name": "Scheme",
           "package": "thih",
@@ -1860,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Scheme",
           "name": "Scheme",
           "package": "thih",
@@ -1868,6 +2035,7 @@
         },
         "index": {
           "hierarchy": "Scheme",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Scheme",
           "name": "Scheme",
           "package": "thih",
@@ -1881,6 +2049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Scheme",
           "name": "Forall",
           "package": "thih",
@@ -1890,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Scheme",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Scheme",
           "name": "Forall",
           "normalized": "Forall[Kind](Qual Type)",
@@ -1905,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Scheme",
           "name": "quantify",
           "package": "thih",
@@ -1914,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Scheme",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Scheme",
           "name": "quantify",
           "normalized": "[Tyvar]-\u003eQual Type-\u003eScheme",
@@ -1928,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Scheme",
           "name": "toScheme",
           "package": "thih",
@@ -1937,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Scheme",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Scheme",
           "name": "toScheme",
           "normalized": "Type-\u003eScheme",
@@ -1952,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceList",
           "name": "SourceList",
           "package": "thih",
@@ -1960,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "SourceList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceList",
           "name": "SourceList",
           "package": "thih",
@@ -1973,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceList",
           "name": "imports",
           "package": "thih",
@@ -1982,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "SourceList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceList",
           "name": "imports",
           "normalized": "[Assump]",
@@ -1996,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceList",
           "name": "listDefns",
           "package": "thih",
@@ -2005,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "SourceList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceList",
           "name": "listDefns",
           "normalized": "[BindGroup]",
@@ -2020,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceList",
           "name": "main",
           "package": "thih",
@@ -2029,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "SourceList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceList",
           "name": "main",
           "normalized": "IO()",
@@ -2043,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceList",
           "name": "saveList",
           "package": "thih",
@@ -2052,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "SourceList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceList",
           "name": "saveList",
           "normalized": "IO()",
@@ -2067,6 +2251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMaybe",
           "name": "SourceMaybe",
           "package": "thih",
@@ -2075,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "SourceMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMaybe",
           "name": "SourceMaybe",
           "package": "thih",
@@ -2088,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMaybe",
           "name": "imports",
           "package": "thih",
@@ -2097,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "SourceMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMaybe",
           "name": "imports",
           "normalized": "[Assump]",
@@ -2111,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMaybe",
           "name": "main",
           "package": "thih",
@@ -2120,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "SourceMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMaybe",
           "name": "main",
           "normalized": "IO()",
@@ -2134,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMaybe",
           "name": "maybeDefns",
           "package": "thih",
@@ -2143,6 +2334,7 @@
         },
         "index": {
           "hierarchy": "SourceMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMaybe",
           "name": "maybeDefns",
           "normalized": "[BindGroup]",
@@ -2158,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMaybe",
           "name": "saveMaybe",
           "package": "thih",
@@ -2167,6 +2360,7 @@
         },
         "index": {
           "hierarchy": "SourceMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMaybe",
           "name": "saveMaybe",
           "normalized": "IO()",
@@ -2182,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "SourceMonad",
           "package": "thih",
@@ -2190,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "SourceMonad",
           "package": "thih",
@@ -2203,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "imports",
           "package": "thih",
@@ -2212,6 +2409,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "imports",
           "normalized": "[Assump]",
@@ -2226,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "main",
           "package": "thih",
@@ -2235,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "main",
           "normalized": "IO()",
@@ -2249,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "monadDefns",
           "package": "thih",
@@ -2258,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "monadDefns",
           "normalized": "[BindGroup]",
@@ -2273,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "monadMems",
           "package": "thih",
@@ -2282,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "monadMems",
           "normalized": "[BindGroup]",
@@ -2297,6 +2501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceMonad",
           "name": "saveMonad",
           "package": "thih",
@@ -2306,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "SourceMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceMonad",
           "name": "saveMonad",
           "normalized": "IO()",
@@ -2321,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourcePrelude",
           "name": "SourcePrelude",
           "package": "thih",
@@ -2329,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "SourcePrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourcePrelude",
           "name": "SourcePrelude",
           "package": "thih",
@@ -2342,6 +2550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourcePrelude",
           "name": "hugsSpecific",
           "package": "thih",
@@ -2351,6 +2560,7 @@
         },
         "index": {
           "hierarchy": "SourcePrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourcePrelude",
           "name": "hugsSpecific",
           "normalized": "[BindGroup]",
@@ -2366,6 +2576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourcePrelude",
           "name": "preludeDefns",
           "package": "thih",
@@ -2375,6 +2586,7 @@
         },
         "index": {
           "hierarchy": "SourcePrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourcePrelude",
           "name": "preludeDefns",
           "normalized": "[BindGroup]",
@@ -2390,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourcePrelude",
           "name": "preludeMems",
           "package": "thih",
@@ -2399,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "SourcePrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourcePrelude",
           "name": "preludeMems",
           "normalized": "[BindGroup]",
@@ -2414,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourcePrelude",
           "name": "savePrelude",
           "package": "thih",
@@ -2423,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "SourcePrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourcePrelude",
           "name": "savePrelude",
           "normalized": "IO()",
@@ -2438,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceTest",
           "name": "SourceTest",
           "package": "thih",
@@ -2446,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "SourceTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceTest",
           "name": "SourceTest",
           "package": "thih",
@@ -2459,6 +2677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceTest",
           "name": "imports",
           "package": "thih",
@@ -2468,6 +2687,7 @@
         },
         "index": {
           "hierarchy": "SourceTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceTest",
           "name": "imports",
           "normalized": "[Assump]",
@@ -2482,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceTest",
           "name": "main",
           "package": "thih",
@@ -2491,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "SourceTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceTest",
           "name": "main",
           "normalized": "IO()",
@@ -2505,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceTest",
           "name": "saveTest",
           "package": "thih",
@@ -2514,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "SourceTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceTest",
           "name": "saveTest",
           "normalized": "IO()",
@@ -2529,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceTest",
           "name": "testDefns",
           "package": "thih",
@@ -2538,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "SourceTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceTest",
           "name": "testDefns",
           "normalized": "[BindGroup]",
@@ -2553,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "SourceThih",
           "package": "thih",
@@ -2561,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "SourceThih",
           "package": "thih",
@@ -2574,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "imports",
           "package": "thih",
@@ -2583,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "imports",
           "normalized": "[Assump]",
@@ -2597,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "main",
           "package": "thih",
@@ -2606,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "main",
           "normalized": "IO()",
@@ -2620,6 +2852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "saveThih",
           "package": "thih",
@@ -2629,6 +2862,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "saveThih",
           "normalized": "IO()",
@@ -2644,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "thihDefns",
           "package": "thih",
@@ -2653,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "thihDefns",
           "normalized": "[BindGroup]",
@@ -2668,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "SourceThih",
           "name": "thihMems",
           "package": "thih",
@@ -2677,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "SourceThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "SourceThih",
           "name": "thihMems",
           "normalized": "[BindGroup]",
@@ -2692,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Static",
           "name": "Static",
           "package": "thih",
@@ -2700,6 +2939,7 @@
         },
         "index": {
           "hierarchy": "Static",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Static",
           "name": "Static",
           "package": "thih",
@@ -2713,6 +2953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Static",
           "name": "instances",
           "package": "thih",
@@ -2722,6 +2963,7 @@
         },
         "index": {
           "hierarchy": "Static",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Static",
           "name": "instances",
           "normalized": "[Inst]-\u003eEnvTransformer",
@@ -2736,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Static",
           "name": "isIn1",
           "package": "thih",
@@ -2745,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Static",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Static",
           "name": "isIn1",
           "normalized": "Id-\u003eType-\u003ePred",
@@ -2760,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Static",
           "name": "mkInst",
           "package": "thih",
@@ -2769,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Static",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Static",
           "name": "mkInst",
           "normalized": "[Kind]-\u003ea-\u003ea",
@@ -2784,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticList",
           "name": "StaticList",
           "package": "thih",
@@ -2792,6 +3039,7 @@
         },
         "index": {
           "hierarchy": "StaticList",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticList",
           "name": "StaticList",
           "package": "thih",
@@ -2805,6 +3053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticMaybe",
           "name": "StaticMaybe",
           "package": "thih",
@@ -2813,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "StaticMaybe",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticMaybe",
           "name": "StaticMaybe",
           "package": "thih",
@@ -2826,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticMonad",
           "name": "StaticMonad",
           "package": "thih",
@@ -2834,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "StaticMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticMonad",
           "name": "StaticMonad",
           "package": "thih",
@@ -2847,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticPrelude",
           "name": "StaticPrelude",
           "package": "thih",
@@ -2855,6 +3108,7 @@
         },
         "index": {
           "hierarchy": "StaticPrelude",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticPrelude",
           "name": "StaticPrelude",
           "package": "thih",
@@ -2868,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticTest",
           "name": "StaticTest",
           "package": "thih",
@@ -2876,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "StaticTest",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticTest",
           "name": "StaticTest",
           "package": "thih",
@@ -2889,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "StaticThih",
           "package": "thih",
@@ -2897,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "StaticThih",
           "package": "thih",
@@ -2910,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "apCfun",
           "package": "thih",
@@ -2919,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "apCfun",
           "package": "thih",
@@ -2932,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "applyMfun",
           "package": "thih",
@@ -2941,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "applyMfun",
           "package": "thih",
@@ -2954,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "assumeCfun",
           "package": "thih",
@@ -2963,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "assumeCfun",
           "package": "thih",
@@ -2976,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "cHasKind",
           "package": "thih",
@@ -2985,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "cHasKind",
           "package": "thih",
@@ -2998,6 +3264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "cInstantiate",
           "package": "thih",
@@ -3007,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "cInstantiate",
           "package": "thih",
@@ -3020,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "cTypes",
           "package": "thih",
@@ -3029,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "cTypes",
           "package": "thih",
@@ -3042,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "classEnvCfun",
           "package": "thih",
@@ -3051,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "classEnvCfun",
           "package": "thih",
@@ -3064,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "classesSfun",
           "package": "thih",
@@ -3073,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "classesSfun",
           "package": "thih",
@@ -3086,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "constCfun",
           "package": "thih",
@@ -3095,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "constCfun",
           "package": "thih",
@@ -3108,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "defaultsSfun",
           "package": "thih",
@@ -3117,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "defaultsSfun",
           "package": "thih",
@@ -3130,6 +3408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "forallCfun",
           "package": "thih",
@@ -3139,6 +3418,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "forallCfun",
           "package": "thih",
@@ -3152,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "instMfun",
           "package": "thih",
@@ -3161,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "instMfun",
           "package": "thih",
@@ -3174,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "instsThih",
           "package": "thih",
@@ -3183,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "instsThih",
           "normalized": "[Qual Pred]",
@@ -3198,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "isInCfun",
           "package": "thih",
@@ -3207,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "isInCfun",
           "package": "thih",
@@ -3220,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "kfunCfun",
           "package": "thih",
@@ -3229,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "kfunCfun",
           "package": "thih",
@@ -3242,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "kindMfun",
           "package": "thih",
@@ -3251,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "kindMfun",
           "package": "thih",
@@ -3264,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "letCfun",
           "package": "thih",
@@ -3273,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "letCfun",
           "package": "thih",
@@ -3286,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "litCfun",
           "package": "thih",
@@ -3295,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "litCfun",
           "package": "thih",
@@ -3308,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "litCharCfun",
           "package": "thih",
@@ -3317,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "litCharCfun",
           "package": "thih",
@@ -3330,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "litIntCfun",
           "package": "thih",
@@ -3339,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "litIntCfun",
           "package": "thih",
@@ -3352,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "litRatCfun",
           "package": "thih",
@@ -3361,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "litRatCfun",
           "package": "thih",
@@ -3374,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "litStrCfun",
           "package": "thih",
@@ -3383,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "litStrCfun",
           "package": "thih",
@@ -3396,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pAsCfun",
           "package": "thih",
@@ -3405,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pAsCfun",
           "package": "thih",
@@ -3418,6 +3722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pConCfun",
           "package": "thih",
@@ -3427,6 +3732,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pConCfun",
           "package": "thih",
@@ -3440,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pLitCfun",
           "package": "thih",
@@ -3449,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pLitCfun",
           "package": "thih",
@@ -3462,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pNpkCfun",
           "package": "thih",
@@ -3471,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pNpkCfun",
           "package": "thih",
@@ -3484,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pVarCfun",
           "package": "thih",
@@ -3493,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pVarCfun",
           "package": "thih",
@@ -3506,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "pWildcardCfun",
           "package": "thih",
@@ -3515,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "pWildcardCfun",
           "package": "thih",
@@ -3528,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "qualifyCfun",
           "package": "thih",
@@ -3537,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "qualifyCfun",
           "package": "thih",
@@ -3550,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "starCfun",
           "package": "thih",
@@ -3559,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "starCfun",
           "package": "thih",
@@ -3572,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tAlt",
           "package": "thih",
@@ -3581,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tAlt",
           "package": "thih",
@@ -3594,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tAmbiguity",
           "package": "thih",
@@ -3603,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tAmbiguity",
           "package": "thih",
@@ -3616,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tApCfun",
           "package": "thih",
@@ -3625,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tApCfun",
           "package": "thih",
@@ -3638,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tAssump",
           "package": "thih",
@@ -3647,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tAssump",
           "package": "thih",
@@ -3660,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tBindGroup",
           "package": "thih",
@@ -3669,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tBindGroup",
           "package": "thih",
@@ -3682,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tClass",
           "package": "thih",
@@ -3691,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tClass",
           "package": "thih",
@@ -3704,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tClassEnv",
           "package": "thih",
@@ -3713,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tClassEnv",
           "package": "thih",
@@ -3726,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tConCfun",
           "package": "thih",
@@ -3735,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tConCfun",
           "package": "thih",
@@ -3748,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tEnvTransformer",
           "package": "thih",
@@ -3757,6 +4092,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tEnvTransformer",
           "package": "thih",
@@ -3770,6 +4106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tExpl",
           "package": "thih",
@@ -3779,6 +4116,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tExpl",
           "package": "thih",
@@ -3792,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tExpr",
           "package": "thih",
@@ -3801,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tExpr",
           "package": "thih",
@@ -3814,6 +4154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tGenCfun",
           "package": "thih",
@@ -3823,6 +4164,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tGenCfun",
           "package": "thih",
@@ -3836,6 +4178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tICfun",
           "package": "thih",
@@ -3845,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tICfun",
           "package": "thih",
@@ -3858,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tId",
           "package": "thih",
@@ -3867,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tId",
           "package": "thih",
@@ -3880,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tImpl",
           "package": "thih",
@@ -3889,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tImpl",
           "package": "thih",
@@ -3902,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tInfer",
           "package": "thih",
@@ -3911,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tInfer",
           "normalized": "Type-\u003eType-\u003eType",
@@ -3926,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tInst",
           "package": "thih",
@@ -3935,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tInst",
           "package": "thih",
@@ -3948,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tKind",
           "package": "thih",
@@ -3957,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tKind",
           "package": "thih",
@@ -3970,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tLiteral",
           "package": "thih",
@@ -3979,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tLiteral",
           "package": "thih",
@@ -3992,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tPat",
           "package": "thih",
@@ -4001,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tPat",
           "package": "thih",
@@ -4014,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tPred",
           "package": "thih",
@@ -4023,6 +4382,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tPred",
           "package": "thih",
@@ -4036,6 +4396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tProgram",
           "package": "thih",
@@ -4045,6 +4406,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tProgram",
           "package": "thih",
@@ -4058,6 +4420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tQual",
           "package": "thih",
@@ -4067,6 +4430,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tQual",
           "package": "thih",
@@ -4080,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tScheme",
           "package": "thih",
@@ -4089,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tScheme",
           "package": "thih",
@@ -4102,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tSubst",
           "package": "thih",
@@ -4111,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tSubst",
           "package": "thih",
@@ -4124,6 +4492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tTI",
           "package": "thih",
@@ -4133,6 +4502,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tTI",
           "package": "thih",
@@ -4146,6 +4516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tTycon",
           "package": "thih",
@@ -4155,6 +4526,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tTycon",
           "package": "thih",
@@ -4168,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tType",
           "package": "thih",
@@ -4177,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tType",
           "package": "thih",
@@ -4190,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tTyvar",
           "package": "thih",
@@ -4199,6 +4574,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tTyvar",
           "package": "thih",
@@ -4212,6 +4588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tVarCfun",
           "package": "thih",
@@ -4221,6 +4598,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tVarCfun",
           "package": "thih",
@@ -4234,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "thihClasses",
           "package": "thih",
@@ -4243,6 +4622,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "thihClasses",
           "normalized": "ClassEnv-\u003eMaybe ClassEnv",
@@ -4258,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tvMfun",
           "package": "thih",
@@ -4267,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tvMfun",
           "package": "thih",
@@ -4280,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tyconCfun",
           "package": "thih",
@@ -4289,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tyconCfun",
           "package": "thih",
@@ -4302,6 +4686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "tyvarCfun",
           "package": "thih",
@@ -4311,6 +4696,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "tyvarCfun",
           "package": "thih",
@@ -4324,6 +4710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "StaticThih",
           "name": "varCfun",
           "package": "thih",
@@ -4333,6 +4720,7 @@
         },
         "index": {
           "hierarchy": "StaticThih",
+          "indexed": "2014-03-11T20:21:39",
           "module": "StaticThih",
           "name": "varCfun",
           "package": "thih",
@@ -4346,6 +4734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "Subst",
           "package": "thih",
@@ -4354,6 +4743,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "Subst",
           "package": "thih",
@@ -4367,6 +4757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "Subst",
           "package": "thih",
@@ -4375,6 +4766,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "Subst",
           "package": "thih",
@@ -4388,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "Types",
           "package": "thih",
@@ -4396,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "Types",
           "package": "thih",
@@ -4409,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "(+-\u003e)",
           "package": "thih",
@@ -4418,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "(+-\u003e) +-\u003e",
           "normalized": "Tyvar-\u003eType-\u003eSubst",
@@ -4432,6 +4828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "(@@)",
           "package": "thih",
@@ -4441,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "(@@) @@",
           "normalized": "Subst-\u003eSubst-\u003eSubst",
@@ -4455,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "apply",
           "package": "thih",
@@ -4464,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "apply",
           "normalized": "Subst-\u003ea-\u003ea",
@@ -4478,6 +4878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "merge",
           "package": "thih",
@@ -4487,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "merge",
           "normalized": "Subst-\u003eSubst-\u003ea Subst",
@@ -4501,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "nullSubst",
           "package": "thih",
@@ -4510,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "nullSubst",
           "package": "thih",
@@ -4523,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Subst",
           "name": "tv",
           "package": "thih",
@@ -4532,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Subst",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Subst",
           "name": "tv",
           "normalized": "a-\u003e[Tyvar]",
@@ -4546,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "TIMain",
           "package": "thih",
@@ -4554,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "TIMain",
           "package": "thih",
@@ -4567,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Alt",
           "package": "thih",
@@ -4575,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Alt",
           "package": "thih",
@@ -4588,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Ambiguity",
           "package": "thih",
@@ -4596,6 +5007,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Ambiguity",
           "package": "thih",
@@ -4609,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "BindGroup",
           "package": "thih",
@@ -4617,6 +5030,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "BindGroup",
           "package": "thih",
@@ -4630,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Expl",
           "package": "thih",
@@ -4638,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Expl",
           "package": "thih",
@@ -4651,6 +5067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Expr",
           "package": "thih",
@@ -4659,6 +5076,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Expr",
           "package": "thih",
@@ -4672,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Impl",
           "package": "thih",
@@ -4680,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Impl",
           "package": "thih",
@@ -4693,6 +5113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Ap",
           "package": "thih",
@@ -4702,6 +5123,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Ap",
           "package": "thih",
@@ -4715,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Case",
           "package": "thih",
@@ -4724,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Case",
           "normalized": "Case Expr[(Pat,Expr)]",
@@ -4739,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Const",
           "package": "thih",
@@ -4748,6 +5173,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Const",
           "package": "thih",
@@ -4761,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "If",
           "package": "thih",
@@ -4770,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "If",
           "package": "thih",
@@ -4783,6 +5211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Lam",
           "package": "thih",
@@ -4792,6 +5221,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Lam",
           "package": "thih",
@@ -4805,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Let",
           "package": "thih",
@@ -4814,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Let",
           "package": "thih",
@@ -4827,6 +5259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Lit",
           "package": "thih",
@@ -4836,6 +5269,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Lit",
           "package": "thih",
@@ -4849,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "Var",
           "package": "thih",
@@ -4858,6 +5293,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "Var",
           "package": "thih",
@@ -4871,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "ambiguities",
           "package": "thih",
@@ -4880,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "ambiguities",
           "normalized": "ClassEnv-\u003e[Tyvar]-\u003e[Pred]-\u003e[Ambiguity]",
@@ -4894,6 +5332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "candidates",
           "package": "thih",
@@ -4903,6 +5342,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "candidates",
           "normalized": "ClassEnv-\u003eAmbiguity-\u003e[Type]",
@@ -4917,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "defaultSubst",
           "package": "thih",
@@ -4926,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "defaultSubst",
           "normalized": "ClassEnv-\u003e[Tyvar]-\u003e[Pred]-\u003ea Subst",
@@ -4941,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "defaultedPreds",
           "package": "thih",
@@ -4950,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "defaultedPreds",
           "normalized": "ClassEnv-\u003e[Tyvar]-\u003e[Pred]-\u003ea[Pred]",
@@ -4965,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "numClasses",
           "package": "thih",
@@ -4974,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "numClasses",
           "normalized": "[Id]",
@@ -4989,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "restricted",
           "package": "thih",
@@ -4998,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "restricted",
           "normalized": "[Impl]-\u003eBool",
@@ -5012,6 +5460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "split",
           "package": "thih",
@@ -5021,6 +5470,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "split",
           "normalized": "ClassEnv-\u003e[Tyvar]-\u003e[Tyvar]-\u003e[Pred]-\u003ea([Pred],[Pred])",
@@ -5035,6 +5485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "stdClasses",
           "package": "thih",
@@ -5044,6 +5495,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "stdClasses",
           "normalized": "[Id]",
@@ -5059,6 +5511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiAlt",
           "package": "thih",
@@ -5068,6 +5521,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiAlt",
           "package": "thih",
@@ -5081,6 +5535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiAlts",
           "package": "thih",
@@ -5090,6 +5545,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiAlts",
           "normalized": "ClassEnv-\u003e[Assump]-\u003e[Alt]-\u003eType-\u003eTI[Pred]",
@@ -5105,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiBindGroup",
           "package": "thih",
@@ -5114,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiBindGroup",
           "normalized": "Infer BindGroup[Assump]",
@@ -5129,6 +5587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiExpl",
           "package": "thih",
@@ -5138,6 +5597,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiExpl",
           "normalized": "ClassEnv-\u003e[Assump]-\u003eExpl-\u003eTI[Pred]",
@@ -5153,6 +5613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiExpr",
           "package": "thih",
@@ -5162,6 +5623,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiExpr",
           "package": "thih",
@@ -5175,6 +5637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiImpls",
           "package": "thih",
@@ -5184,6 +5647,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiImpls",
           "normalized": "Infer[Impl][Assump]",
@@ -5199,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "tiSeq",
           "package": "thih",
@@ -5208,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "tiSeq",
           "normalized": "Infer a[Assump]-\u003eInfer[a][Assump]",
@@ -5223,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "toBg",
           "package": "thih",
@@ -5232,6 +5699,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "toBg",
           "normalized": "[(Id,Maybe Scheme,[Alt])]-\u003eBindGroup",
@@ -5247,6 +5715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMain",
           "name": "withDefaults",
           "package": "thih",
@@ -5256,6 +5725,7 @@
         },
         "index": {
           "hierarchy": "TIMain",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMain",
           "name": "withDefaults",
           "normalized": "([Ambiguity]-\u003e[Type]-\u003ea)-\u003eClassEnv-\u003e[Tyvar]-\u003e[Pred]-\u003eb a",
@@ -5271,6 +5741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "TIMonad",
           "package": "thih",
@@ -5279,6 +5750,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "TIMonad",
           "package": "thih",
@@ -5292,6 +5764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "Instantiate",
           "package": "thih",
@@ -5300,6 +5773,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "Instantiate",
           "package": "thih",
@@ -5313,6 +5787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "TI",
           "package": "thih",
@@ -5321,6 +5796,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "TI",
           "package": "thih",
@@ -5334,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "TI",
           "package": "thih",
@@ -5343,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "TI",
           "normalized": "TI(Subst-\u003eInt-\u003e(Subst,Int,a))",
@@ -5358,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "extSubst",
           "package": "thih",
@@ -5367,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "extSubst",
           "normalized": "Subst-\u003eTI()",
@@ -5382,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "freshInst",
           "package": "thih",
@@ -5391,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "freshInst",
           "normalized": "Scheme-\u003eTI(Qual Type)",
@@ -5406,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "getSubst",
           "package": "thih",
@@ -5415,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "getSubst",
           "package": "thih",
@@ -5428,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "inst",
           "package": "thih",
@@ -5437,6 +5922,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "inst",
           "normalized": "[Type]-\u003ea-\u003ea",
@@ -5451,6 +5937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "newTVar",
           "package": "thih",
@@ -5460,6 +5947,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "newTVar",
           "normalized": "Kind-\u003eTI Type",
@@ -5475,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "runTI",
           "package": "thih",
@@ -5484,6 +5973,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "runTI",
           "normalized": "TI a-\u003ea",
@@ -5499,6 +5989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "trim",
           "package": "thih",
@@ -5508,6 +5999,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "trim",
           "normalized": "[Tyvar]-\u003eTI()",
@@ -5522,6 +6014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIMonad",
           "name": "unify",
           "package": "thih",
@@ -5531,6 +6024,7 @@
         },
         "index": {
           "hierarchy": "TIMonad",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIMonad",
           "name": "unify",
           "normalized": "Type-\u003eType-\u003eTI()",
@@ -5545,6 +6039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIProg",
           "name": "TIProg",
           "package": "thih",
@@ -5553,6 +6048,7 @@
         },
         "index": {
           "hierarchy": "TIProg",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIProg",
           "name": "TIProg",
           "package": "thih",
@@ -5566,6 +6062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIProg",
           "name": "Program",
           "package": "thih",
@@ -5574,6 +6071,7 @@
         },
         "index": {
           "hierarchy": "TIProg",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIProg",
           "name": "Program",
           "package": "thih",
@@ -5587,6 +6085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIProg",
           "name": "tiProgram",
           "package": "thih",
@@ -5596,6 +6095,7 @@
         },
         "index": {
           "hierarchy": "TIProg",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIProg",
           "name": "tiProgram",
           "normalized": "ClassEnv-\u003e[Assump]-\u003eProgram-\u003e[Assump]",
@@ -5611,6 +6111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "TIProg",
           "name": "tiProgram'",
           "package": "thih",
@@ -5620,6 +6121,7 @@
         },
         "index": {
           "hierarchy": "TIProg",
+          "indexed": "2014-03-11T20:21:39",
           "module": "TIProg",
           "name": "tiProgram'",
           "normalized": "ClassEnv-\u003e[Assump]-\u003eProgram-\u003e[Assump]",
@@ -5635,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Testbed",
           "name": "Testbed",
           "package": "thih",
@@ -5643,6 +6146,7 @@
         },
         "index": {
           "hierarchy": "Testbed",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Testbed",
           "name": "Testbed",
           "package": "thih",
@@ -5656,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Testbed",
           "name": "save",
           "package": "thih",
@@ -5665,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Testbed",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Testbed",
           "name": "save",
           "normalized": "String-\u003eClassEnv-\u003e[Assump]-\u003e[BindGroup]-\u003eIO()",
@@ -5679,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Testbed",
           "name": "test",
           "package": "thih",
@@ -5688,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Testbed",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Testbed",
           "name": "test",
           "normalized": "ClassEnv-\u003e[Assump]-\u003e[BindGroup]-\u003eIO()",
@@ -5702,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Type",
           "package": "thih",
@@ -5710,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Type",
           "package": "thih",
@@ -5723,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "HasKind",
           "package": "thih",
@@ -5731,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "HasKind",
           "package": "thih",
@@ -5744,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Tycon",
           "package": "thih",
@@ -5752,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Tycon",
           "package": "thih",
@@ -5765,6 +6279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Type",
           "package": "thih",
@@ -5773,6 +6288,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Type",
           "package": "thih",
@@ -5786,6 +6302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Tyvar",
           "package": "thih",
@@ -5794,6 +6311,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Tyvar",
           "package": "thih",
@@ -5807,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "TAp",
           "package": "thih",
@@ -5816,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "TAp",
           "package": "thih",
@@ -5829,6 +6349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "TCon",
           "package": "thih",
@@ -5838,6 +6359,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "TCon",
           "package": "thih",
@@ -5851,6 +6373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "TGen",
           "package": "thih",
@@ -5860,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "TGen",
           "package": "thih",
@@ -5873,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "TVar",
           "package": "thih",
@@ -5882,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "TVar",
           "package": "thih",
@@ -5895,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Tycon",
           "package": "thih",
@@ -5904,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Tycon",
           "package": "thih",
@@ -5917,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "Tyvar",
           "package": "thih",
@@ -5926,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "Tyvar",
           "package": "thih",
@@ -5939,6 +6469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "fn",
           "package": "thih",
@@ -5948,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "fn",
           "normalized": "Type-\u003eType-\u003eType",
@@ -5962,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "kind",
           "package": "thih",
@@ -5971,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "kind",
           "normalized": "a-\u003eKind",
@@ -5985,6 +6519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "list",
           "package": "thih",
@@ -5994,6 +6529,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "list",
           "normalized": "Type-\u003eType",
@@ -6008,6 +6544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "pair",
           "package": "thih",
@@ -6017,6 +6554,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "pair",
           "normalized": "Type-\u003eType-\u003eType",
@@ -6031,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Type",
           "name": "tString",
           "package": "thih",
@@ -6040,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Type",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Type",
           "name": "tString",
           "package": "thih",
@@ -6053,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "Unify",
           "package": "thih",
@@ -6061,6 +6602,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "Unify",
           "package": "thih",
@@ -6074,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "Match",
           "package": "thih",
@@ -6082,6 +6625,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "Match",
           "package": "thih",
@@ -6095,6 +6639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "Unify",
           "package": "thih",
@@ -6103,6 +6648,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "Unify",
           "package": "thih",
@@ -6116,6 +6662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "match",
           "package": "thih",
@@ -6125,6 +6672,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "match",
           "normalized": "a-\u003ea-\u003eb Subst",
@@ -6139,6 +6687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "mgu",
           "package": "thih",
@@ -6148,6 +6697,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "mgu",
           "normalized": "a-\u003ea-\u003eb Subst",
@@ -6162,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:21:39 UTC 2014",
           "module": "Unify",
           "name": "varBind",
           "package": "thih",
@@ -6171,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Unify",
+          "indexed": "2014-03-11T20:21:39",
           "module": "Unify",
           "name": "varBind",
           "normalized": "Tyvar-\u003eType-\u003ea Subst",

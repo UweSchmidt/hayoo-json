@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shplit"
+        "phrase": "shplit",
+        "type": "phrase"
       },
       "type": "context"
     }

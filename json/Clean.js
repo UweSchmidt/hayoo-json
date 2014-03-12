@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Clean"
+        "phrase": "Clean",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module describing applicative functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "Applicative",
           "package": "Clean",
@@ -28,6 +29,7 @@
         "index": {
           "description": "module describing applicative functors",
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "Applicative",
           "package": "Clean",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "Applicative",
           "package": "Clean",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "Applicative",
           "package": "Clean",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for applicative functors with actions executed in the reverse order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "Backwards",
           "package": "Clean",
@@ -72,6 +77,7 @@
         "index": {
           "description": "wrapper for applicative functors with actions executed in the reverse order",
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "Backwards",
           "package": "Clean",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for lists with zipping Applicative instances, such that\n\u003ccode\u003eZipList [f1,...,fn] \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e ZipList [x1,...,xn] == ZipList [f1 x1,...,fn xn]\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "ZipList",
           "package": "Clean",
@@ -95,6 +102,7 @@
         "index": {
           "description": "wrapper type for lists with zipping Applicative instances such that ZipList f1 fn ZipList x1 xn ZipList f1 x1 fn xn",
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "ZipList",
           "package": "Clean",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Tree equivalent to ZipList\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "ZipTree",
           "package": "Clean",
@@ -118,6 +127,7 @@
         "index": {
           "description": "The Tree equivalent to ZipList",
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "ZipTree",
           "package": "Clean",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "(*\u003e)",
           "package": "Clean",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "(*\u003e) *\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "(\u003c*)",
           "package": "Clean",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "(\u003c*) \u003c*",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "(\u003c*\u003e)",
           "package": "Clean",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "Backwards",
           "package": "Clean",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "Backwards",
           "package": "Clean",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "ZipList",
           "package": "Clean",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "ZipList",
           "package": "Clean",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "ZipTree",
           "package": "Clean",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "ZipTree",
           "package": "Clean",
@@ -266,6 +288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "ap",
           "package": "Clean",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "ap",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "forwards",
           "package": "Clean",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "forwards",
           "package": "Clean",
@@ -310,6 +336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "getZipList",
           "package": "Clean",
@@ -319,6 +346,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "getZipList",
           "normalized": "[a]",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "liftA",
           "package": "Clean",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "liftA",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "liftA2",
           "package": "Clean",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "liftA2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "liftA3",
           "package": "Clean",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "liftA3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "liftA4",
           "package": "Clean",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "liftA4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "plusA",
           "package": "Clean",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "plusA",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Applicative",
           "name": "zeroA",
           "package": "Clean",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Clean Applicative",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Applicative",
           "name": "zeroA",
           "package": "Clean",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "Arrow",
           "package": "Clean",
@@ -478,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "Arrow",
           "package": "Clean",
@@ -491,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "Apply",
           "package": "Clean",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "Apply",
           "package": "Clean",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "Arrow",
           "package": "Clean",
@@ -520,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "Arrow",
           "package": "Clean",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "Kleisli",
           "package": "Clean",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "Kleisli",
           "package": "Clean",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "(|||)",
           "package": "Clean",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "(|||) |||",
           "normalized": "a b b-\u003ea c c-\u003ea(b c)(Either b c)",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "(\u003c\u003c\u003c)",
           "package": "Clean",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "(\u003c\u003c\u003c) \u003c\u003c\u003c",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "(\u003e\u003e\u003e)",
           "package": "Clean",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a b c-\u003ea c d-\u003ea b d",
@@ -623,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "(\u003e\u003e^)",
           "package": "Clean",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "(\u003e\u003e^) \u003e\u003e^",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "(^\u003e\u003e)",
           "package": "Clean",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "(^\u003e\u003e) ^\u003e\u003e",
           "normalized": "(a-\u003ea)-\u003eb a c-\u003eb a c",
@@ -669,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "Kleisli",
           "package": "Clean",
@@ -678,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "Kleisli",
           "package": "Clean",
@@ -691,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "app",
           "package": "Clean",
@@ -700,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "app",
           "normalized": "a b c-\u003ea b c",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "apply",
           "package": "Clean",
@@ -723,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "apply",
           "normalized": "a(a b c,b)c",
@@ -737,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "arr",
           "package": "Clean",
@@ -746,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "arr",
           "normalized": "(a-\u003eb)-\u003ec a b",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Arrow",
           "name": "runKleisli",
           "package": "Clean",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Clean Arrow",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Arrow",
           "name": "runKleisli",
           "normalized": "a-\u003eb c",
@@ -784,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Core",
           "package": "Clean",
@@ -792,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Core",
           "package": "Clean",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": ":*:",
           "package": "Clean",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": ":*:",
           "package": "Clean",
@@ -825,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": ":+:",
           "package": "Clean",
@@ -833,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": ":+:",
           "package": "Clean",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Category",
           "package": "Clean",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Category",
           "package": "Clean",
@@ -866,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Choice",
           "package": "Clean",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Choice",
           "package": "Clean",
@@ -888,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of a monoid is the same as the original, with arguments reversed \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Dual",
           "package": "Clean",
@@ -897,6 +976,7 @@
         "index": {
           "description": "The dual of monoid is the same as the original with arguments reversed",
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Dual",
           "package": "Clean",
@@ -911,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid on category endomorphisms under composition \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Endo",
           "package": "Clean",
@@ -920,6 +1001,7 @@
         "index": {
           "description": "monoid on category endomorphisms under composition",
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Endo",
           "package": "Clean",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Interleave",
           "package": "Clean",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Interleave",
           "package": "Clean",
@@ -955,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monoid is a semigroup with a null element such that \u003ccode\u003ezero + a == a + zero == a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Monoid",
           "package": "Clean",
@@ -964,6 +1049,7 @@
         "index": {
           "description": "monoid is semigroup with null element such that zero zero",
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Monoid",
           "package": "Clean",
@@ -978,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordered list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "OrdList",
           "package": "Clean",
@@ -987,6 +1074,7 @@
         "index": {
           "description": "An ordered list",
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "OrdList",
           "package": "Clean",
@@ -1000,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Ring",
           "package": "Clean",
@@ -1008,6 +1097,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Ring",
           "package": "Clean",
@@ -1022,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of all types that have a binary operation. Note that the operation\nisn't necesarily commutative (in the case of lists, for example)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Semigroup",
           "package": "Clean",
@@ -1031,6 +1122,7 @@
         "index": {
           "description": "The class of all types that have binary operation Note that the operation isn necesarily commutative in the case of lists for example",
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Semigroup",
           "package": "Clean",
@@ -1044,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Split",
           "package": "Clean",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Split",
           "package": "Clean",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "SubSemi",
           "package": "Clean",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "SubSemi",
           "package": "Clean",
@@ -1086,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Unit",
           "package": "Clean",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Unit",
           "package": "Clean",
@@ -1107,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(&)",
           "package": "Clean",
@@ -1116,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(&) &",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(*)",
           "package": "Clean",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(*) *",
           "normalized": "a-\u003ea-\u003ea",
@@ -1153,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(+)",
           "package": "Clean",
@@ -1162,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(+) +",
           "normalized": "a-\u003ea-\u003ea",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(\u003c|\u003e)",
           "package": "Clean",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(\u003c|\u003e) \u003c|\u003e",
           "normalized": "a b c-\u003ea d c-\u003ea(b d)c",
@@ -1199,6 +1305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(\u003c#\u003e)",
           "package": "Clean",
@@ -1208,6 +1315,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(\u003c#\u003e) \u003c#\u003e",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "(.)",
           "package": "Clean",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "(.) .",
           "normalized": "a b c-\u003ea d b-\u003ea d c",
@@ -1245,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Dual",
           "package": "Clean",
@@ -1254,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Dual",
           "package": "Clean",
@@ -1267,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Endo",
           "package": "Clean",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Endo",
           "package": "Clean",
@@ -1289,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "Interleave",
           "package": "Clean",
@@ -1298,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "Interleave",
           "package": "Clean",
@@ -1311,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "OrdList",
           "package": "Clean",
@@ -1320,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "OrdList",
           "package": "Clean",
@@ -1333,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "const",
           "package": "Clean",
@@ -1342,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "const",
           "normalized": "a-\u003eb a",
@@ -1356,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "fail",
           "package": "Clean",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "fail",
           "normalized": "[Char]-\u003ea",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "first",
           "package": "Clean",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -1402,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "getDual",
           "package": "Clean",
@@ -1411,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "getDual",
           "package": "Clean",
@@ -1424,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "getOrdList",
           "package": "Clean",
@@ -1433,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "getOrdList",
           "normalized": "[a]",
@@ -1448,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "guard",
           "package": "Clean",
@@ -1457,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "guard",
           "normalized": "Bool-\u003ea()",
@@ -1471,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "id",
           "package": "Clean",
@@ -1480,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "id",
           "package": "Clean",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "ifThenElse",
           "package": "Clean",
@@ -1501,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "ifThenElse",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -1516,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "interleave",
           "package": "Clean",
@@ -1525,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "interleave",
           "normalized": "[a]",
@@ -1539,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "left",
           "package": "Clean",
@@ -1548,6 +1685,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "left",
           "normalized": "a b c-\u003ea(b c)c",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "one",
           "package": "Clean",
@@ -1571,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "one",
           "package": "Clean",
@@ -1583,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "pure",
           "package": "Clean",
@@ -1592,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "pure",
           "normalized": "a-\u003eb a",
@@ -1606,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "right",
           "package": "Clean",
@@ -1615,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "right",
           "normalized": "a b c-\u003ea(c b)c",
@@ -1629,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "runEndo",
           "package": "Clean",
@@ -1638,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "runEndo",
           "package": "Clean",
@@ -1651,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "second",
           "package": "Clean",
@@ -1660,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -1674,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "to",
           "package": "Clean",
@@ -1683,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "to",
           "normalized": "a-\u003eb",
@@ -1697,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Core",
           "name": "zero",
           "package": "Clean",
@@ -1706,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Clean Core",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Core",
           "name": "zero",
           "package": "Clean",
@@ -1718,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "Foldable",
           "package": "Clean",
@@ -1726,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "Foldable",
           "package": "Clean",
@@ -1739,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "Foldable",
           "package": "Clean",
@@ -1747,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "Foldable",
           "package": "Clean",
@@ -1760,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "concat",
           "package": "Clean",
@@ -1769,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "concat",
           "normalized": "a b-\u003eb",
@@ -1783,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "count",
           "package": "Clean",
@@ -1792,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "count",
           "normalized": "a b-\u003eb",
@@ -1806,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "filter",
           "package": "Clean",
@@ -1815,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003ec a",
@@ -1829,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "fold",
           "package": "Clean",
@@ -1838,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "fold",
           "normalized": "a b-\u003eb",
@@ -1852,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "foldMap",
           "package": "Clean",
@@ -1861,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -1876,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "foldl",
           "package": "Clean",
@@ -1885,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "foldl",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eb a-\u003ea",
@@ -1899,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "foldr",
           "package": "Clean",
@@ -1908,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "foldr",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eb a-\u003ea",
@@ -1922,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "length",
           "package": "Clean",
@@ -1931,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "length",
           "normalized": "[a]-\u003eb",
@@ -1945,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "partition",
           "package": "Clean",
@@ -1954,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003e(c a,c a)",
@@ -1968,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "split",
           "package": "Clean",
@@ -1977,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "split",
           "normalized": "(a-\u003eEither b b)-\u003eb a-\u003e(b,b)",
@@ -1991,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Foldable",
           "name": "sum",
           "package": "Clean",
@@ -2000,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Clean Foldable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Foldable",
           "name": "sum",
           "normalized": "a b-\u003eb",
@@ -2015,6 +2193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for functors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Functor",
           "package": "Clean",
@@ -2024,6 +2203,7 @@
         "index": {
           "description": "module for functors",
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Functor",
           "package": "Clean",
@@ -2037,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Bifunctor",
           "package": "Clean",
@@ -2045,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Bifunctor",
           "package": "Clean",
@@ -2058,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Cofunctor",
           "package": "Clean",
@@ -2066,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Cofunctor",
           "package": "Clean",
@@ -2080,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Composition functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Compose",
           "package": "Clean",
@@ -2089,6 +2274,7 @@
         "index": {
           "description": "The Composition functor",
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Compose",
           "package": "Clean",
@@ -2103,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Constant Functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Const",
           "package": "Clean",
@@ -2112,6 +2299,7 @@
         "index": {
           "description": "The Constant Functor",
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Const",
           "package": "Clean",
@@ -2126,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA motherflippin' functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Flip",
           "package": "Clean",
@@ -2135,6 +2324,7 @@
         "index": {
           "description": "motherflippin functor",
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Flip",
           "package": "Clean",
@@ -2148,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Functor",
           "package": "Clean",
@@ -2156,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Functor",
           "package": "Clean",
@@ -2170,6 +2362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Identity Functor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Id",
           "package": "Clean",
@@ -2179,6 +2372,7 @@
         "index": {
           "description": "The Identity Functor",
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Id",
           "package": "Clean",
@@ -2192,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "(\u003c$)",
           "package": "Clean",
@@ -2201,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "(\u003c$) \u003c$",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -2215,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "(\u003c$\u003e)",
           "package": "Clean",
@@ -2224,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2238,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "(\u003c&\u003e)",
           "package": "Clean",
@@ -2247,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "(\u003c&\u003e) \u003c&\u003e",
           "normalized": "a b-\u003e(b-\u003ec)-\u003ea c",
@@ -2261,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Compose",
           "package": "Clean",
@@ -2270,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Compose",
           "package": "Clean",
@@ -2283,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Const",
           "package": "Clean",
@@ -2292,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Const",
           "package": "Clean",
@@ -2305,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Flip",
           "package": "Clean",
@@ -2314,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Flip",
           "package": "Clean",
@@ -2327,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "Id",
           "package": "Clean",
@@ -2336,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "Id",
           "package": "Clean",
@@ -2349,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "comap",
           "package": "Clean",
@@ -2358,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "comap",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -2372,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "dimap",
           "package": "Clean",
@@ -2381,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "dimap",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003ee b c-\u003ee a d",
@@ -2395,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "getCompose",
           "package": "Clean",
@@ -2404,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "getCompose",
           "package": "Clean",
@@ -2417,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "getConst",
           "package": "Clean",
@@ -2426,6 +2641,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "getConst",
           "package": "Clean",
@@ -2439,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "getId",
           "package": "Clean",
@@ -2448,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "getId",
           "package": "Clean",
@@ -2461,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "map",
           "package": "Clean",
@@ -2470,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2484,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "promap",
           "package": "Clean",
@@ -2493,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "promap",
           "normalized": "(a-\u003ea)-\u003eb a c-\u003eb a c",
@@ -2507,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "unFlip",
           "package": "Clean",
@@ -2516,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "unFlip",
           "package": "Clean",
@@ -2529,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Functor",
           "name": "void",
           "package": "Clean",
@@ -2538,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Clean Functor",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Functor",
           "name": "void",
           "normalized": "a b-\u003ea()",
@@ -2553,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module providing simple Lens functionality  \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Lens",
           "package": "Clean",
@@ -2562,6 +2789,7 @@
         "index": {
           "description": "module providing simple Lens functionality",
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Lens",
           "package": "Clean",
@@ -2575,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Iso",
           "package": "Clean",
@@ -2583,6 +2812,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Iso",
           "package": "Clean",
@@ -2596,6 +2826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Iso'",
           "package": "Clean",
@@ -2604,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Iso'",
           "package": "Clean",
@@ -2617,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Lens",
           "package": "Clean",
@@ -2625,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Lens",
           "package": "Clean",
@@ -2638,6 +2872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Lens'",
           "package": "Clean",
@@ -2646,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Lens'",
           "package": "Clean",
@@ -2659,6 +2895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "LensLike",
           "package": "Clean",
@@ -2667,6 +2904,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "LensLike",
           "package": "Clean",
@@ -2680,6 +2918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "LensLike'",
           "package": "Clean",
@@ -2688,6 +2927,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "LensLike'",
           "package": "Clean",
@@ -2701,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "MkIso",
           "package": "Clean",
@@ -2709,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "MkIso",
           "package": "Clean",
@@ -2722,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Traversal",
           "package": "Clean",
@@ -2730,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Traversal",
           "package": "Clean",
@@ -2743,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Traversal'",
           "package": "Clean",
@@ -2751,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Traversal'",
           "package": "Clean",
@@ -2764,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "Wrapped",
           "package": "Clean",
@@ -2772,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "Wrapped",
           "package": "Clean",
@@ -2785,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "(%~)",
           "package": "Clean",
@@ -2794,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "(%~) %~",
           "normalized": "Traversal' a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -2808,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "(^.)",
           "package": "Clean",
@@ -2817,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "(^.) ^.",
           "normalized": "a-\u003eLens' a b-\u003eb",
@@ -2831,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "(.~)",
           "package": "Clean",
@@ -2840,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "(.~) .~",
           "normalized": "Traversal' a b-\u003eb-\u003ea-\u003ea",
@@ -2854,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "MkIso",
           "package": "Clean",
@@ -2863,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "MkIso",
           "normalized": "MkIso(a-\u003eb)(c-\u003ed)",
@@ -2878,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_1",
           "package": "Clean",
@@ -2887,6 +3144,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_1",
           "package": "Clean",
@@ -2899,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_2",
           "package": "Clean",
@@ -2908,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_2",
           "package": "Clean",
@@ -2920,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_both",
           "package": "Clean",
@@ -2929,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_both",
           "normalized": "Traversal a b(a,a)(b,b)",
@@ -2943,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_dropping",
           "package": "Clean",
@@ -2952,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_dropping",
           "normalized": "Int-\u003eTraversal'[a][a]",
@@ -2966,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_head",
           "package": "Clean",
@@ -2975,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_head",
           "normalized": "Traversal'[a]a",
@@ -2989,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_l",
           "package": "Clean",
@@ -2998,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_l",
           "package": "Clean",
@@ -3010,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_list",
           "package": "Clean",
@@ -3019,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_list",
           "normalized": "Iso'[a](()(a*[a]))",
@@ -3033,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_r",
           "package": "Clean",
@@ -3042,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_r",
           "package": "Clean",
@@ -3054,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "_tail",
           "package": "Clean",
@@ -3063,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "_tail",
           "normalized": "Traversal'[a][a]",
@@ -3077,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "from",
           "package": "Clean",
@@ -3086,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "from",
           "normalized": "MkIso a b c d-\u003eIso d c b a",
@@ -3100,6 +3376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "iso",
           "package": "Clean",
@@ -3109,6 +3386,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "iso",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed)-\u003eIso b c a d",
@@ -3123,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "lam",
           "package": "Clean",
@@ -3132,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "lam",
           "normalized": "(a-\u003eb)-\u003eLensLike c b d a a",
@@ -3146,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "lens",
           "package": "Clean",
@@ -3155,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ec-\u003ed)-\u003eLens b c a d",
@@ -3169,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "prism",
           "package": "Clean",
@@ -3178,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "prism",
           "normalized": "(a-\u003eb c)-\u003e(a-\u003ed-\u003eb)-\u003eTraversal c d a b",
@@ -3192,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "wrapped",
           "package": "Clean",
@@ -3201,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "wrapped",
           "package": "Clean",
@@ -3213,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Lens",
           "name": "wrapping",
           "package": "Clean",
@@ -3222,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "Clean Lens",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Lens",
           "name": "wrapping",
           "normalized": "(a-\u003eb)-\u003eIso' a b",
@@ -3236,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "Monad",
           "package": "Clean",
@@ -3244,6 +3533,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "Monad",
           "package": "Clean",
@@ -3257,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "Cont",
           "package": "Clean",
@@ -3265,6 +3556,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "Cont",
           "package": "Clean",
@@ -3278,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "ContT",
           "package": "Clean",
@@ -3286,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "ContT",
           "package": "Clean",
@@ -3299,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "Monad",
           "package": "Clean",
@@ -3307,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "Monad",
           "package": "Clean",
@@ -3321,6 +3617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple continuation monad implementation  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadCont",
           "package": "Clean",
@@ -3330,6 +3627,7 @@
         "index": {
           "description": "simple continuation monad implementation",
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadCont",
           "package": "Clean",
@@ -3343,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadFix",
           "package": "Clean",
@@ -3351,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadFix",
           "package": "Clean",
@@ -3364,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadReader",
           "package": "Clean",
@@ -3372,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadReader",
           "package": "Clean",
@@ -3385,6 +3687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadState",
           "package": "Clean",
@@ -3393,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadState",
           "package": "Clean",
@@ -3406,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadTrans",
           "package": "Clean",
@@ -3414,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadTrans",
           "package": "Clean",
@@ -3427,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "MonadWriter",
           "package": "Clean",
@@ -3435,6 +3742,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "MonadWriter",
           "package": "Clean",
@@ -3448,6 +3756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "Reader",
           "package": "Clean",
@@ -3456,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "Reader",
           "package": "Clean",
@@ -3470,6 +3780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Reader monad \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "ReaderT",
           "package": "Clean",
@@ -3479,6 +3790,7 @@
         "index": {
           "description": "simple Reader monad",
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "ReaderT",
           "package": "Clean",
@@ -3492,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "State",
           "package": "Clean",
@@ -3500,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "State",
           "package": "Clean",
@@ -3514,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple State Monad  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "StateT",
           "package": "Clean",
@@ -3523,6 +3838,7 @@
         "index": {
           "description": "simple State Monad",
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "StateT",
           "package": "Clean",
@@ -3536,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "Writer",
           "package": "Clean",
@@ -3544,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "Writer",
           "package": "Clean",
@@ -3558,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Writer monad \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "WriterT",
           "package": "Clean",
@@ -3567,6 +3886,7 @@
         "index": {
           "description": "simple Writer monad",
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "WriterT",
           "package": "Clean",
@@ -3580,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "(=\u003c\u003c)",
           "package": "Clean",
@@ -3589,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "(=\u003c\u003c) =\u003c\u003c",
           "normalized": "(a-\u003eb c)-\u003eb a-\u003eb c",
@@ -3603,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "(\u003e\u003e)",
           "package": "Clean",
@@ -3612,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3626,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "(\u003e\u003e=)",
           "package": "Clean",
@@ -3635,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -3649,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "ContT",
           "package": "Clean",
@@ -3658,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "ContT",
           "package": "Clean",
@@ -3671,6 +3999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "ReaderT",
           "package": "Clean",
@@ -3680,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "ReaderT",
           "package": "Clean",
@@ -3693,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "StateT",
           "package": "Clean",
@@ -3702,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "StateT",
           "package": "Clean",
@@ -3715,6 +4047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "WriterT",
           "package": "Clean",
@@ -3724,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "WriterT",
           "package": "Clean",
@@ -3737,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "ask",
           "package": "Clean",
@@ -3746,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "ask",
           "package": "Clean",
@@ -3758,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "callCC",
           "package": "Clean",
@@ -3767,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -3782,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "censor",
           "package": "Clean",
@@ -3791,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "censor",
           "normalized": "a(b,c-\u003ec)-\u003ea b",
@@ -3805,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "evalCont",
           "package": "Clean",
@@ -3814,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "evalCont",
           "normalized": "ContT a Id a-\u003ea",
@@ -3829,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "evalContT",
           "package": "Clean",
@@ -3838,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "evalContT",
           "normalized": "ContT a b a-\u003eb a",
@@ -3853,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "evalState",
           "package": "Clean",
@@ -3862,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "evalState",
           "normalized": "State a b-\u003ea-\u003eb",
@@ -3877,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "evalStateT",
           "package": "Clean",
@@ -3886,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "evalStateT",
           "normalized": "StateT a b c-\u003ea-\u003eb c",
@@ -3901,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "execState",
           "package": "Clean",
@@ -3910,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "execState",
           "normalized": "State a b-\u003ea-\u003ea",
@@ -3925,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "execStateT",
           "package": "Clean",
@@ -3934,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "execStateT",
           "normalized": "StateT a b a-\u003ea-\u003eb a",
@@ -3949,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "get",
           "package": "Clean",
@@ -3958,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "get",
           "package": "Clean",
@@ -3970,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "internal",
           "package": "Clean",
@@ -3979,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "internal",
           "normalized": "(a b c(d,e)-\u003ec(d,f))-\u003eg c e-\u003eg c f",
@@ -3993,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "join",
           "package": "Clean",
@@ -4002,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -4016,6 +4374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "lift",
           "package": "Clean",
@@ -4025,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -4039,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "listen",
           "package": "Clean",
@@ -4048,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "listen",
           "normalized": "a b-\u003ea(c,b)",
@@ -4062,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "local",
           "package": "Clean",
@@ -4071,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -4085,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "mfix",
           "package": "Clean",
@@ -4094,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "mfix",
           "normalized": "(a-\u003eb a)-\u003eb a",
@@ -4108,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "modify",
           "package": "Clean",
@@ -4117,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -4131,6 +4499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "put",
           "package": "Clean",
@@ -4140,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -4154,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "return",
           "package": "Clean",
@@ -4163,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -4177,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runContT",
           "package": "Clean",
@@ -4186,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eb c",
@@ -4201,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runReaderT",
           "package": "Clean",
@@ -4210,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runReaderT",
           "normalized": "a-\u003eb c",
@@ -4225,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runState",
           "package": "Clean",
@@ -4234,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runState",
           "normalized": "State a b-\u003ea-\u003e(a,b)",
@@ -4249,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runStateT",
           "package": "Clean",
@@ -4258,6 +4637,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runStateT",
           "normalized": "a-\u003eb(a,c)",
@@ -4273,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runWriter",
           "package": "Clean",
@@ -4282,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runWriter",
           "normalized": "WriterT a Id b-\u003e(a,b)",
@@ -4297,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "runWriterT",
           "package": "Clean",
@@ -4306,6 +4689,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "runWriterT",
           "normalized": "a(b,c)",
@@ -4321,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Monad",
           "name": "tell",
           "package": "Clean",
@@ -4330,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Clean Monad",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Monad",
           "name": "tell",
           "normalized": "a-\u003eb()",
@@ -4344,6 +4730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "Traversable",
           "package": "Clean",
@@ -4352,6 +4739,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "Traversable",
           "package": "Clean",
@@ -4365,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "Contravariant",
           "package": "Clean",
@@ -4373,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "Contravariant",
           "package": "Clean",
@@ -4386,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "Traversable",
           "package": "Clean",
@@ -4394,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "Traversable",
           "package": "Clean",
@@ -4407,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "collect",
           "package": "Clean",
@@ -4416,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "collect",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -4430,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "flip",
           "package": "Clean",
@@ -4439,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "flip",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -4453,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "foreach",
           "package": "Clean",
@@ -4462,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "foreach",
           "normalized": "a b-\u003e(b-\u003ec b)-\u003ec(a b)",
@@ -4476,6 +4874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "sequence",
           "package": "Clean",
@@ -4485,6 +4884,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "sequence",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -4499,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "transpose",
           "package": "Clean",
@@ -4508,6 +4909,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "transpose",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -4522,6 +4924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean.Traversable",
           "name": "traverse",
           "package": "Clean",
@@ -4531,6 +4934,7 @@
         },
         "index": {
           "hierarchy": "Clean Traversable",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean.Traversable",
           "name": "traverse",
           "normalized": "(a-\u003eb a)-\u003ec a-\u003eb(c a)",
@@ -4545,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:46 UTC 2014",
           "module": "Clean",
           "name": "Clean",
           "package": "Clean",
@@ -4553,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Clean",
+          "indexed": "2014-03-11T16:36:46",
           "module": "Clean",
           "name": "Clean",
           "package": "Clean",

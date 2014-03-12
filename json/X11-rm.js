@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "X11-rm"
+        "phrase": "X11-rm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote that \u003ccode\u003eXrmInitialize\u003c/code\u003e is already wrapped in the base X11\n library as \u003ccode\u003e\u003ca\u003ermInitialize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "XRM",
           "package": "X11-rm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Note that XrmInitialize is already wrapped in the base X11 library as rmInitialize",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "XRM",
           "package": "X11-rm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epointer to an X11 \u003ccode\u003eXrmDatabase\u003c/code\u003e structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "RMDatabase",
           "package": "X11-rm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "pointer to an X11 XrmDatabase structure",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "RMDatabase",
           "package": "X11-rm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecounterpart of an X11 \u003ccode\u003eXrmValue\u003c/code\u003e structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "RMValue",
           "package": "X11-rm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "counterpart of an X11 XrmValue structure",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "RMValue",
           "package": "X11-rm",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "RMValue",
           "package": "X11-rm",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "RMValue",
           "package": "X11-rm",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXGetDefault()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "getDefault",
           "package": "X11-rm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "interface to the X11 library function XGetDefault",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "getDefault",
           "normalized": "Display-\u003eString-\u003eString-\u003eIO(Maybe String)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXResourceManagerString()\u003c/code\u003e.\n The one in the X11 library (\u003ccode\u003e\u003ca\u003eDisplay\u003c/a\u003e\u003c/code\u003e) is unsafe,\n this one is safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "resourceManagerString",
           "package": "X11-rm",
@@ -146,6 +157,7 @@
         "index": {
           "description": "interface to the X11 library function XResourceManagerString The one in the X11 library Display is unsafe this one is safe",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "resourceManagerString",
           "normalized": "Display-\u003eIO(Maybe String)",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmCombineDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmCombineDatabase",
           "package": "X11-rm",
@@ -172,6 +185,7 @@
         "index": {
           "description": "interface to the X11 library function XrmCombineDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmCombineDatabase",
           "normalized": "RMDatabase-\u003eRMDatabase-\u003eBool-\u003eIO()",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmCombineFileDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmCombineFileDatabase",
           "package": "X11-rm",
@@ -198,6 +213,7 @@
         "index": {
           "description": "interface to the X11 library function XrmCombineFileDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmCombineFileDatabase",
           "normalized": "String-\u003eRMDatabase-\u003eBool-\u003eIO()",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmDestroyDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmDestroyDatabase",
           "package": "X11-rm",
@@ -224,6 +241,7 @@
         "index": {
           "description": "interface to the X11 library function XrmDestroyDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmDestroyDatabase",
           "normalized": "RMDatabase-\u003eIO()",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmGetDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmGetDatabase",
           "package": "X11-rm",
@@ -250,6 +269,7 @@
         "index": {
           "description": "interface to the X11 library function XrmGetDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmGetDatabase",
           "normalized": "Display-\u003eIO(Maybe RMDatabase)",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmGetFileDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmGetFileDatabase",
           "package": "X11-rm",
@@ -276,6 +297,7 @@
         "index": {
           "description": "interface to the X11 library function XrmGetFileDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmGetFileDatabase",
           "normalized": "String-\u003eIO(Maybe RMDatabase)",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmGetResource()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmGetResource",
           "package": "X11-rm",
@@ -302,6 +325,7 @@
         "index": {
           "description": "interface to the X11 library function XrmGetResource",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmGetResource",
           "normalized": "RMDatabase-\u003eString-\u003eString-\u003eIO(Maybe(String,RMValue))",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmGetStringDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmGetStringDatabase",
           "package": "X11-rm",
@@ -328,6 +353,7 @@
         "index": {
           "description": "interface to the X11 library function XrmGetStringDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmGetStringDatabase",
           "normalized": "String-\u003eIO(Maybe RMDatabase)",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmLocaleOfDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmLocaleOfDatabase",
           "package": "X11-rm",
@@ -354,6 +381,7 @@
         "index": {
           "description": "interface to the X11 library function XrmLocaleOfDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmLocaleOfDatabase",
           "normalized": "RMDatabase-\u003eIO String",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmMergeDatabases()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmMergeDatabases",
           "package": "X11-rm",
@@ -380,6 +409,7 @@
         "index": {
           "description": "interface to the X11 library function XrmMergeDatabases",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmMergeDatabases",
           "normalized": "RMDatabase-\u003eRMDatabase-\u003eIO()",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmPutFileDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmPutFileDatabase",
           "package": "X11-rm",
@@ -406,6 +437,7 @@
         "index": {
           "description": "interface to the X11 library function XrmPutFileDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmPutFileDatabase",
           "normalized": "RMDatabase-\u003eString-\u003eIO()",
@@ -422,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmPutLineResource()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmPutLineResource",
           "package": "X11-rm",
@@ -432,6 +465,7 @@
         "index": {
           "description": "interface to the X11 library function XrmPutLineResource",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmPutLineResource",
           "normalized": "RMDatabase-\u003eString-\u003eIO()",
@@ -448,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmPutResource()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmPutResource",
           "package": "X11-rm",
@@ -458,6 +493,7 @@
         "index": {
           "description": "interface to the X11 library function XrmPutResource",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmPutResource",
           "normalized": "RMDatabase-\u003eString-\u003eString-\u003eRMValue-\u003eIO()",
@@ -474,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmPutStringResource()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmPutStringResource",
           "package": "X11-rm",
@@ -484,6 +521,7 @@
         "index": {
           "description": "interface to the X11 library function XrmPutStringResource",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmPutStringResource",
           "normalized": "RMDatabase-\u003eString-\u003eString-\u003eIO()",
@@ -500,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einterface to the X11 library function \u003ccode\u003eXrmSetDatabase()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmSetDatabase",
           "package": "X11-rm",
@@ -510,6 +549,7 @@
         "index": {
           "description": "interface to the X11 library function XrmSetDatabase",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmSetDatabase",
           "normalized": "Display-\u003eRMDatabase-\u003eIO()",
@@ -526,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract string from RMValue structure.  Make sure the RMValue\n actually points at a null-terminated string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmValue",
           "package": "X11-rm",
@@ -536,6 +577,7 @@
         "index": {
           "description": "Extract string from RMValue structure Make sure the RMValue actually points at null-terminated string",
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmValue",
           "normalized": "RMValue-\u003eIO String",
@@ -551,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmvalue_addr",
           "package": "X11-rm",
@@ -560,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmvalue_addr",
           "package": "X11-rm",
@@ -572,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:05:14 UTC 2014",
           "module": "Graphics.X11.XRM",
           "name": "rmvalue_size",
           "package": "X11-rm",
@@ -581,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Graphics X11 XRM",
+          "indexed": "2014-03-11T17:05:14",
           "module": "Graphics.X11.XRM",
           "name": "rmvalue_size",
           "package": "X11-rm",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "foldl"
+        "phrase": "foldl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFolds for byte streams\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "ByteString",
           "package": "foldl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Folds for byte streams",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "ByteString",
           "package": "foldl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(all predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all bytes satisfy the predicate, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\n    otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "all",
           "package": "foldl",
@@ -52,6 +55,7 @@
         "index": {
           "description": "all predicate returns True if all bytes satisfy the predicate False otherwise",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "all",
           "normalized": "(Word-\u003eBool)-\u003eFold ByteString Bool",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(any predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any byte satisfies the predicate,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "any",
           "package": "foldl",
@@ -77,6 +82,7 @@
         "index": {
           "description": "any predicate returns True if any byte satisfies the predicate False otherwise",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "any",
           "normalized": "(Word-\u003eBool)-\u003eFold ByteString Bool",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elem w8)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the byte stream has a byte equal to \u003ccode\u003ew8\u003c/code\u003e,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "elem",
           "package": "foldl",
@@ -102,6 +109,7 @@
         "index": {
           "description": "elem w8 returns True if the byte stream has byte equal to w8 False otherwise",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "elem",
           "normalized": "Word-\u003eFold ByteString Bool",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elemIndex w8)\u003c/code\u003e returns the index of the first byte that equals \u003ccode\u003ew8\u003c/code\u003e, or\n    \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no byte matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "elemIndex",
           "package": "foldl",
@@ -127,6 +136,7 @@
         "index": {
           "description": "elemIndex w8 returns the index of the first byte that equals w8 or Nothing if no byte matches",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "elemIndex",
           "normalized": "Word-\u003eFold ByteString(Maybe a)",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(find predicate)\u003c/code\u003e returns the first byte that satisfies the predicate or\n    \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no byte satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "find",
           "package": "foldl",
@@ -153,6 +164,7 @@
         "index": {
           "description": "find predicate returns the first byte that satisfies the predicate or Nothing if no byte satisfies the predicate",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "find",
           "normalized": "(Word-\u003eBool)-\u003eFold ByteString(Maybe Word)",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(findIndex predicate)\u003c/code\u003e returns the index of the first byte that satisfies\n    the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no byte satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "findIndex",
           "package": "foldl",
@@ -178,6 +191,7 @@
         "index": {
           "description": "findIndex predicate returns the index of the first byte that satisfies the predicate or Nothing if no byte satisfies the predicate",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "findIndex",
           "normalized": "(Word-\u003eBool)-\u003eFold ByteString(Maybe a)",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppply a strict left \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e to a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "fold",
           "package": "foldl",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Appply strict left Fold to lazy bytestring",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "fold",
           "normalized": "Fold ByteString a-\u003eByteString-\u003ea",
@@ -219,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first byte of a byte stream or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream is\n    empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "head",
           "package": "foldl",
@@ -229,6 +246,7 @@
         "index": {
           "description": "Get the first byte of byte stream or return Nothing if the stream is empty",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "head",
           "package": "foldl",
@@ -242,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(index n)\u003c/code\u003e returns the \u003ccode\u003en\u003c/code\u003eth byte of the byte stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n    stream has an insufficient number of bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "index",
           "package": "foldl",
@@ -252,6 +271,7 @@
         "index": {
           "description": "index returns the th byte of the byte stream or Nothing if the stream has an insufficient number of bytes",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "index",
           "normalized": "a-\u003eFold ByteString(Maybe Word)",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last byte of a byte stream or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the byte stream is\n    empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "last",
           "package": "foldl",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Get the last byte of byte stream or return Nothing if the byte stream is empty",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "last",
           "package": "foldl",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of the byte stream in bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "length",
           "package": "foldl",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Return the length of the byte stream in bytes",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "length",
           "package": "foldl",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the maximum byte\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "maximum",
           "package": "foldl",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Computes the maximum byte",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "maximum",
           "package": "foldl",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the minimum byte\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "minimum",
           "package": "foldl",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Computes the minimum byte",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "minimum",
           "package": "foldl",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(notElem w8)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the byte stream has a byte equal to \u003ccode\u003ew8\u003c/code\u003e,\n    \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "notElem",
           "package": "foldl",
@@ -369,6 +398,7 @@
         "index": {
           "description": "notElem w8 returns False if the byte stream has byte equal to w8 True otherwise",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "notElem",
           "normalized": "Word-\u003eFold ByteString Bool",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the byte stream is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.ByteString",
           "name": "null",
           "package": "foldl",
@@ -395,6 +426,7 @@
         "index": {
           "description": "Returns True if the byte stream is empty False otherwise",
           "hierarchy": "Control Foldl ByteString",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.ByteString",
           "name": "null",
           "package": "foldl",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFolds for text streams\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "Text",
           "package": "foldl",
@@ -417,6 +450,7 @@
         "index": {
           "description": "Folds for text streams",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "Text",
           "package": "foldl",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(all predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all characters satisfy the predicate,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "all",
           "package": "foldl",
@@ -441,6 +476,7 @@
         "index": {
           "description": "all predicate returns True if all characters satisfy the predicate False otherwise",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eFold Text Bool",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(any predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any character satisfies the predicate,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "any",
           "package": "foldl",
@@ -466,6 +503,7 @@
         "index": {
           "description": "any predicate returns True if any character satisfies the predicate False otherwise",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eFold Text Bool",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elem c)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the text stream has a character equal to \u003ccode\u003ec\u003c/code\u003e,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "elem",
           "package": "foldl",
@@ -491,6 +530,7 @@
         "index": {
           "description": "elem returns True if the text stream has character equal to False otherwise",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "elem",
           "normalized": "Char-\u003eFold Text Bool",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elemIndex c)\u003c/code\u003e returns the index of the first character that equals \u003ccode\u003ec\u003c/code\u003e,\n    or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no character matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "elemIndex",
           "package": "foldl",
@@ -516,6 +557,7 @@
         "index": {
           "description": "elemIndex returns the index of the first character that equals or Nothing if no character matches",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "elemIndex",
           "normalized": "Char-\u003eFold Text(Maybe a)",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(find predicate)\u003c/code\u003e returns the first character that satisfies the predicate\n    or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no character satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "find",
           "package": "foldl",
@@ -542,6 +585,7 @@
         "index": {
           "description": "find predicate returns the first character that satisfies the predicate or Nothing if no character satisfies the predicate",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "find",
           "normalized": "(Char-\u003eBool)-\u003eFold Text(Maybe Char)",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(findIndex predicate)\u003c/code\u003e returns the index of the first character that\n    satisfies the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no character satisfies the\n    predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "findIndex",
           "package": "foldl",
@@ -567,6 +612,7 @@
         "index": {
           "description": "findIndex predicate returns the index of the first character that satisfies the predicate or Nothing if no character satisfies the predicate",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "findIndex",
           "normalized": "(Char-\u003eBool)-\u003eFold Text(Maybe a)",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a strict left \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e to lazy text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "fold",
           "package": "foldl",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Apply strict left Fold to lazy text",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "fold",
           "normalized": "Fold Text a-\u003eText-\u003ea",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first character of a text stream or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the stream\n    is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "head",
           "package": "foldl",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Get the first character of text stream or return Nothing if the stream is empty",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "head",
           "package": "foldl",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(index n)\u003c/code\u003e returns the \u003ccode\u003en\u003c/code\u003eth character of the text stream, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n    the stream has an insufficient number of characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "index",
           "package": "foldl",
@@ -641,6 +692,7 @@
         "index": {
           "description": "index returns the th character of the text stream or Nothing if the stream has an insufficient number of characters",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "index",
           "normalized": "a-\u003eFold Text(Maybe Char)",
@@ -656,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last character of a text stream or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the text\n    stream is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "last",
           "package": "foldl",
@@ -666,6 +719,7 @@
         "index": {
           "description": "Get the last character of text stream or return Nothing if the text stream is empty",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "last",
           "package": "foldl",
@@ -679,6 +733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of the text stream in characters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "length",
           "package": "foldl",
@@ -689,6 +744,7 @@
         "index": {
           "description": "Return the length of the text stream in characters",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "length",
           "package": "foldl",
@@ -702,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the maximum character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "maximum",
           "package": "foldl",
@@ -712,6 +769,7 @@
         "index": {
           "description": "Computes the maximum character",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "maximum",
           "package": "foldl",
@@ -725,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the minimum character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "minimum",
           "package": "foldl",
@@ -735,6 +794,7 @@
         "index": {
           "description": "Computes the minimum character",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "minimum",
           "package": "foldl",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(notElem c)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the text stream has a character equal to\n    \u003ccode\u003ec\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "notElem",
           "package": "foldl",
@@ -758,6 +819,7 @@
         "index": {
           "description": "notElem returns False if the text stream has character equal to True otherwise",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "notElem",
           "normalized": "Char-\u003eFold Text Bool",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the text stream is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl.Text",
           "name": "null",
           "package": "foldl",
@@ -784,6 +847,7 @@
         "index": {
           "description": "Returns True if the text stream is empty False otherwise",
           "hierarchy": "Control Foldl Text",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl.Text",
           "name": "null",
           "package": "foldl",
@@ -797,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides efficient and streaming left folds that you can combine\n    using \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e style.\n\u003c/p\u003e\u003cp\u003eImport this module qualified to avoid clashing with the Prelude:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport qualified Control.Foldl as L\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e to apply a \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e to a list:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.fold L.sum [1..100]\n\u003c/code\u003e\u003c/strong\u003e5050\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003es are \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003es, so you can combine them using \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e\n    combinators:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Control.Applicative\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet average = (/) \u003c$\u003e L.sum \u003c*\u003e L.genericLength\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eThese combined folds will still traverse the list only once, streaming\n    efficiently over the list in constant space without space leaks:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.fold average [1..10000000]\n\u003c/code\u003e\u003c/strong\u003e5000000.5\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eL.fold ((,) \u003c$\u003e L.minimum \u003c*\u003e L.maximum) [1..10000000]\n\u003c/code\u003e\u003c/strong\u003e(Just 1,Just 10000000)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "Foldl",
           "package": "foldl",
@@ -806,6 +871,7 @@
         "index": {
           "description": "This module provides efficient and streaming left folds that you can combine using Applicative style Import this module qualified to avoid clashing with the Prelude import qualified Control.Foldl as Use fold to apply Fold to list L.fold L.sum Fold are Applicative so you can combine them using Applicative combinators import Control.Applicative let average L.sum L.genericLength These combined folds will still traverse the list only once streaming efficiently over the list in constant space without space leaks L.fold average L.fold L.minimum L.maximum Just Just",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "Foldl",
           "package": "foldl",
@@ -820,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficient representation of a left fold that preserves the fold's step\n    function, initial accumulator, and extraction function\n\u003c/p\u003e\u003cp\u003eThis allows the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance to assemble derived folds that\n    traverse the container only once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "Fold",
           "package": "foldl",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Efficient representation of left fold that preserves the fold step function initial accumulator and extraction function This allows the Applicative instance to assemble derived folds that traverse the container only once",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "Fold",
           "package": "foldl",
@@ -843,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e, but monadic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "FoldM",
           "package": "foldl",
@@ -852,6 +921,7 @@
         "index": {
           "description": "Like Fold but monadic",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "FoldM",
           "package": "foldl",
@@ -865,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "Fold",
           "package": "foldl",
@@ -874,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "Fold",
           "normalized": "a b Fold(b-\u003ec-\u003eb)b(b-\u003ed)",
@@ -889,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "FoldM",
           "package": "foldl",
@@ -898,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "FoldM",
           "normalized": "a b FoldM(b-\u003ec-\u003ed b)(d b)(b-\u003ed e)",
@@ -914,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(all predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all elements satisfy the predicate,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "all",
           "package": "foldl",
@@ -924,6 +999,7 @@
         "index": {
           "description": "all predicate returns True if all elements satisfy the predicate False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eFold a Bool",
@@ -939,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all elements are \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "and",
           "package": "foldl",
@@ -949,6 +1026,7 @@
         "index": {
           "description": "Returns True if all elements are True False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "and",
           "package": "foldl",
@@ -962,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(any predicate)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any element satisfies the predicate,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "any",
           "package": "foldl",
@@ -972,6 +1051,7 @@
         "index": {
           "description": "any predicate returns True if any element satisfies the predicate False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eFold a Bool",
@@ -987,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elem a)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the container has an element equal to \u003ccode\u003ea\u003c/code\u003e,\n    \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "elem",
           "package": "foldl",
@@ -997,6 +1078,7 @@
         "index": {
           "description": "elem returns True if the container has an element equal to False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "elem",
           "normalized": "a-\u003eFold a Bool",
@@ -1012,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(elemIndex a)\u003c/code\u003e returns the index of the first element that equals \u003ccode\u003ea\u003c/code\u003e, or\n    \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no element matches\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "elemIndex",
           "package": "foldl",
@@ -1022,6 +1105,7 @@
         "index": {
           "description": "elemIndex returns the index of the first element that equals or Nothing if no element matches",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "elemIndex",
           "normalized": "a-\u003eFold a(Maybe Int)",
@@ -1038,6 +1122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(find predicate)\u003c/code\u003e returns the first element that satisfies the predicate or\n    \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no element satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "find",
           "package": "foldl",
@@ -1048,6 +1133,7 @@
         "index": {
           "description": "find predicate returns the first element that satisfies the predicate or Nothing if no element satisfies the predicate",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eFold a(Maybe a)",
@@ -1063,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(findIndex predicate)\u003c/code\u003e returns the index of the first element that\n    satisfies the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no element satisfies the predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "findIndex",
           "package": "foldl",
@@ -1073,6 +1160,7 @@
         "index": {
           "description": "findIndex predicate returns the index of the first element that satisfies the predicate or Nothing if no element satisfies the predicate",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "findIndex",
           "normalized": "(a-\u003eBool)-\u003eFold a(Maybe Int)",
@@ -1089,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a strict left \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "fold",
           "package": "foldl",
@@ -1099,6 +1188,7 @@
         "index": {
           "description": "Apply strict left Fold to Foldable container",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "fold",
           "normalized": "Fold a b-\u003ec a-\u003eb",
@@ -1114,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efold\u003c/a\u003e\u003c/code\u003e, but monadic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "foldM",
           "package": "foldl",
@@ -1124,6 +1215,7 @@
         "index": {
           "description": "Like fold but monadic",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "foldM",
           "normalized": "FoldM a b c-\u003ed b-\u003ea c",
@@ -1139,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \"\u003ccode\u003efoldMap\u003c/code\u003e\" to a \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "foldMap",
           "package": "foldl",
@@ -1149,6 +1242,7 @@
         "index": {
           "description": "Convert foldMap to Fold",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec)-\u003eFold a c",
@@ -1165,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e, except with a more general \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "genericIndex",
           "package": "foldl",
@@ -1175,6 +1270,7 @@
         "index": {
           "description": "Like index except with more general Integral argument",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "genericIndex",
           "normalized": "a-\u003eFold b(Maybe b)",
@@ -1191,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, except with a more general \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e return value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "genericLength",
           "package": "foldl",
@@ -1201,6 +1298,7 @@
         "index": {
           "description": "Like length except with more general Num return value",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "genericLength",
           "package": "foldl",
@@ -1215,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first element of a container or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the container is\n    empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "head",
           "package": "foldl",
@@ -1225,6 +1324,7 @@
         "index": {
           "description": "Get the first element of container or return Nothing if the container is empty",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "head",
           "package": "foldl",
@@ -1238,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpgrade a monadic fold to accept the \u003ccode\u003e\u003ca\u003eFoldM\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "impurely",
           "package": "foldl",
@@ -1248,6 +1349,7 @@
         "index": {
           "description": "Upgrade monadic fold to accept the FoldM type",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "impurely",
           "normalized": "(a b(c-\u003ed-\u003ee c)-\u003ee c-\u003e(c-\u003ee f)-\u003eg)-\u003eFoldM e d f-\u003eg",
@@ -1263,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(index n)\u003c/code\u003e returns the \u003ccode\u003en\u003c/code\u003eth element of the container, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n    container has an insufficient number of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "index",
           "package": "foldl",
@@ -1273,6 +1376,7 @@
         "index": {
           "description": "index returns the th element of the container or Nothing if the container has an insufficient number of elements",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "index",
           "normalized": "Int-\u003eFold a(Maybe a)",
@@ -1288,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last element of a container or return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the container is\n    empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "last",
           "package": "foldl",
@@ -1298,6 +1403,7 @@
         "index": {
           "description": "Get the last element of container or return Nothing if the container is empty",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "last",
           "package": "foldl",
@@ -1311,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the length of the container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "length",
           "package": "foldl",
@@ -1321,6 +1428,7 @@
         "index": {
           "description": "Return the length of the container",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "length",
           "package": "foldl",
@@ -1334,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold all values into a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "list",
           "package": "foldl",
@@ -1344,6 +1453,7 @@
         "index": {
           "description": "Fold all values into list",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "list",
           "normalized": "Fold a[a]",
@@ -1359,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the maximum element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "maximum",
           "package": "foldl",
@@ -1369,6 +1480,7 @@
         "index": {
           "description": "Computes the maximum element",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "maximum",
           "package": "foldl",
@@ -1382,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold all values within a container using \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "mconcat",
           "package": "foldl",
@@ -1392,6 +1505,7 @@
         "index": {
           "description": "Fold all values within container using mappend and mempty",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "mconcat",
           "package": "foldl",
@@ -1405,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the minimum element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "minimum",
           "package": "foldl",
@@ -1415,6 +1530,7 @@
         "index": {
           "description": "Computes the minimum element",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "minimum",
           "package": "foldl",
@@ -1428,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(notElem a)\u003c/code\u003e returns \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e if the container has an element equal to \u003ccode\u003ea\u003c/code\u003e,\n    \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "notElem",
           "package": "foldl",
@@ -1438,6 +1555,7 @@
         "index": {
           "description": "notElem returns False if the container has an element equal to True otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "notElem",
           "normalized": "a-\u003eFold a Bool",
@@ -1454,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the container is empty, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "null",
           "package": "foldl",
@@ -1464,6 +1583,7 @@
         "index": {
           "description": "Returns True if the container is empty False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "null",
           "package": "foldl",
@@ -1477,6 +1597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if any element is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "or",
           "package": "foldl",
@@ -1487,6 +1608,7 @@
         "index": {
           "description": "Returns True if any element is True False otherwise",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "or",
           "package": "foldl",
@@ -1500,6 +1622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e(premap f folder)\u003c/code\u003e returns a new \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e where f is applied at each step\n    \u003ccode\u003efold (premap f folder) list\u003c/code\u003e == \u003ccode\u003efold folder (map f list)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "premap",
           "package": "foldl",
@@ -1510,6 +1633,7 @@
         "index": {
           "description": "premap folder returns new Fold where is applied at each step fold premap folder list fold folder map list",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "premap",
           "normalized": "(a-\u003eb)-\u003eFold b c-\u003eFold a c",
@@ -1525,6 +1649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the product all elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "product",
           "package": "foldl",
@@ -1535,6 +1660,7 @@
         "index": {
           "description": "Computes the product all elements",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "product",
           "package": "foldl",
@@ -1548,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpgrade a fold to accept the \u003ccode\u003e\u003ca\u003eFold\u003c/a\u003e\u003c/code\u003e type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "purely",
           "package": "foldl",
@@ -1558,6 +1685,7 @@
         "index": {
           "description": "Upgrade fold to accept the Fold type",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "purely",
           "normalized": "(a b(c-\u003ed-\u003ec)-\u003ec-\u003e(c-\u003ee)-\u003ef)-\u003eFold d e-\u003ef",
@@ -1573,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes the sum of all elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "sum",
           "package": "foldl",
@@ -1583,6 +1712,7 @@
         "index": {
           "description": "Computes the sum of all elements",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "sum",
           "package": "foldl",
@@ -1596,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold all values into a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:03 UTC 2014",
           "module": "Control.Foldl",
           "name": "vector",
           "package": "foldl",
@@ -1606,6 +1737,7 @@
         "index": {
           "description": "Fold all values into vector",
           "hierarchy": "Control Foldl",
+          "indexed": "2014-03-11T18:11:03",
           "module": "Control.Foldl",
           "name": "vector",
           "package": "foldl",

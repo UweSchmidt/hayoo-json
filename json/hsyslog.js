@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsyslog"
+        "phrase": "hsyslog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFFI bindings to Unix's \u003ccode\u003esyslog(3)\u003c/code\u003e. Process this file\n   with \u003ccode\u003ehsc2hs\u003c/code\u003e to obtain a Haskell module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Syslog",
           "package": "hsyslog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "FFI bindings to Unix syslog Process this file with hsc2hs to obtain Haskell module",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Syslog",
           "package": "hsyslog",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyslog distinguishes various system facilities. Most\n applications should log in \u003ccode\u003e\u003ca\u003eUSER\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Facility",
           "package": "hsyslog",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Syslog distinguishes various system facilities Most applications should log in USER",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Facility",
           "package": "hsyslog",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for the syslog service. Set with \u003ccode\u003e\u003ca\u003ewithSyslog\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Option",
           "package": "hsyslog",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Options for the syslog service Set with withSyslog",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Option",
           "package": "hsyslog",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog messages are prioritized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Priority",
           "package": "hsyslog",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Log messages are prioritized",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Priority",
           "package": "hsyslog",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esecurity/authorization messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "AUTH",
           "package": "hsyslog",
@@ -121,6 +130,7 @@
         "index": {
           "description": "security authorization messages",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "AUTH",
           "package": "hsyslog",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esecurity/authorization messages (effectively equals \u003ccode\u003e\u003ca\u003eAUTH\u003c/a\u003e\u003c/code\u003e on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "AUTHPRIV",
           "package": "hsyslog",
@@ -145,6 +156,7 @@
         "index": {
           "description": "security authorization messages effectively equals AUTH on some systems",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "AUTHPRIV",
           "package": "hsyslog",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaction must be taken immediately\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Alert",
           "package": "hsyslog",
@@ -169,6 +182,7 @@
         "index": {
           "description": "action must be taken immediately",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Alert",
           "package": "hsyslog",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog on the console if errors in sending\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "CONS",
           "package": "hsyslog",
@@ -193,6 +208,7 @@
         "index": {
           "description": "log on the console if errors in sending",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "CONS",
           "package": "hsyslog",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclock daemon\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "CRON",
           "package": "hsyslog",
@@ -217,6 +234,7 @@
         "index": {
           "description": "clock daemon",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "CRON",
           "package": "hsyslog",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecritical conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Critical",
           "package": "hsyslog",
@@ -241,6 +260,7 @@
         "index": {
           "description": "critical conditions",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Critical",
           "package": "hsyslog",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem daemons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "DAEMON",
           "package": "hsyslog",
@@ -265,6 +286,7 @@
         "index": {
           "description": "system daemons",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "DAEMON",
           "package": "hsyslog",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edebug-level messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Debug",
           "package": "hsyslog",
@@ -289,6 +312,7 @@
         "index": {
           "description": "debug-level messages",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Debug",
           "package": "hsyslog",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esystem is unusable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Emergency",
           "package": "hsyslog",
@@ -313,6 +338,7 @@
         "index": {
           "description": "system is unusable",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Emergency",
           "package": "hsyslog",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Error",
           "package": "hsyslog",
@@ -337,6 +364,7 @@
         "index": {
           "description": "error conditions",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Error",
           "package": "hsyslog",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eftp daemon (effectively equals \u003ccode\u003e\u003ca\u003eDAEMON\u003c/a\u003e\u003c/code\u003e on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "FTP",
           "package": "hsyslog",
@@ -361,6 +390,7 @@
         "index": {
           "description": "ftp daemon effectively equals DAEMON on some systems",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "FTP",
           "package": "hsyslog",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformational\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Info",
           "package": "hsyslog",
@@ -385,6 +416,7 @@
         "index": {
           "description": "informational",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Info",
           "package": "hsyslog",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ekernel messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "KERN",
           "package": "hsyslog",
@@ -409,6 +442,7 @@
         "index": {
           "description": "kernel messages",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "KERN",
           "package": "hsyslog",
@@ -423,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL0",
           "package": "hsyslog",
@@ -433,6 +468,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL0",
           "package": "hsyslog",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL1",
           "package": "hsyslog",
@@ -457,6 +494,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL1",
           "package": "hsyslog",
@@ -471,6 +509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL2",
           "package": "hsyslog",
@@ -481,6 +520,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL2",
           "package": "hsyslog",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL3",
           "package": "hsyslog",
@@ -505,6 +546,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL3",
           "package": "hsyslog",
@@ -519,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL4",
           "package": "hsyslog",
@@ -529,6 +572,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL4",
           "package": "hsyslog",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL5",
           "package": "hsyslog",
@@ -553,6 +598,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL5",
           "package": "hsyslog",
@@ -567,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL6",
           "package": "hsyslog",
@@ -577,6 +624,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL6",
           "package": "hsyslog",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereserved for local use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LOCAL7",
           "package": "hsyslog",
@@ -601,6 +650,7 @@
         "index": {
           "description": "reserved for local use",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LOCAL7",
           "package": "hsyslog",
@@ -615,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eline printer subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "LPR",
           "package": "hsyslog",
@@ -625,6 +676,7 @@
         "index": {
           "description": "line printer subsystem",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "LPR",
           "package": "hsyslog",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003email system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "MAIL",
           "package": "hsyslog",
@@ -649,6 +702,7 @@
         "index": {
           "description": "mail system",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "MAIL",
           "package": "hsyslog",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't delay open\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "NDELAY",
           "package": "hsyslog",
@@ -673,6 +728,7 @@
         "index": {
           "description": "don delay open",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "NDELAY",
           "package": "hsyslog",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enetwork news subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "NEWS",
           "package": "hsyslog",
@@ -697,6 +754,7 @@
         "index": {
           "description": "network news subsystem",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "NEWS",
           "package": "hsyslog",
@@ -711,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edon't wait for console forks: DEPRECATED\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "NOWAIT",
           "package": "hsyslog",
@@ -721,6 +780,7 @@
         "index": {
           "description": "don wait for console forks DEPRECATED",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "NOWAIT",
           "package": "hsyslog",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormal but significant condition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Notice",
           "package": "hsyslog",
@@ -745,6 +806,7 @@
         "index": {
           "description": "normal but significant condition",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Notice",
           "package": "hsyslog",
@@ -759,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelay open until first \u003ccode\u003esyslog()\u003c/code\u003e (default)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "ODELAY",
           "package": "hsyslog",
@@ -769,6 +832,7 @@
         "index": {
           "description": "delay open until first syslog default",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "ODELAY",
           "package": "hsyslog",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog to \u003ccode\u003estderr\u003c/code\u003e as well (might be a no-op on some systems)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "PERROR",
           "package": "hsyslog",
@@ -793,6 +858,7 @@
         "index": {
           "description": "log to stderr as well might be no-op on some systems",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "PERROR",
           "package": "hsyslog",
@@ -807,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elog the pid with each message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "PID",
           "package": "hsyslog",
@@ -817,6 +884,7 @@
         "index": {
           "description": "log the pid with each message",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "PID",
           "package": "hsyslog",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emessages generated internally by syslogd\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "SYSLOG",
           "package": "hsyslog",
@@ -841,6 +910,7 @@
         "index": {
           "description": "messages generated internally by syslogd",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "SYSLOG",
           "package": "hsyslog",
@@ -855,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser-level messages (default unless set otherwise)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "USER",
           "package": "hsyslog",
@@ -865,6 +936,7 @@
         "index": {
           "description": "user-level messages default unless set otherwise",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "USER",
           "package": "hsyslog",
@@ -879,6 +951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUUCP subsystem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "UUCP",
           "package": "hsyslog",
@@ -889,6 +962,7 @@
         "index": {
           "description": "UUCP subsystem",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "UUCP",
           "package": "hsyslog",
@@ -903,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewarning conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "Warning",
           "package": "hsyslog",
@@ -913,6 +988,7 @@
         "index": {
           "description": "warning conditions",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "Warning",
           "package": "hsyslog",
@@ -926,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "_closelog",
           "package": "hsyslog",
@@ -935,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "_closelog",
           "normalized": "IO()",
@@ -949,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "_openlog",
           "package": "hsyslog",
@@ -958,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "_openlog",
           "normalized": "CString-\u003eCInt-\u003eCInt-\u003eIO()",
@@ -972,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "_setlogmask",
           "package": "hsyslog",
@@ -981,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "_setlogmask",
           "normalized": "CInt-\u003eIO CInt",
@@ -995,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "_syslog",
           "package": "hsyslog",
@@ -1004,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "_syslog",
           "normalized": "CInt-\u003eCString-\u003eIO()",
@@ -1019,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape any occurances of '\u003ccode\u003e%\u003c/code\u003e' in a string, so that it\n is safe to pass it to \u003ccode\u003e\u003ca\u003e_syslog\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003esyslog\u003c/a\u003e\u003c/code\u003e wrapper\n does this automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "safeMsg",
           "package": "hsyslog",
@@ -1029,6 +1114,7 @@
         "index": {
           "description": "Escape any occurances of in string so that it is safe to pass it to syslog The syslog wrapper does this automatically",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "safeMsg",
           "normalized": "String-\u003eString",
@@ -1045,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog a message with the given priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "syslog",
           "package": "hsyslog",
@@ -1055,6 +1142,7 @@
         "index": {
           "description": "Log message with the given priority",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "syslog",
           "normalized": "Priority-\u003eString-\u003eIO()",
@@ -1070,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003euseSyslog ident\u003c/code\u003e \u003ccode\u003e=\u003c/code\u003e \u003ccode\u003ewithSyslog ident [PID, PERROR] USER\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "useSyslog",
           "package": "hsyslog",
@@ -1080,6 +1169,7 @@
         "index": {
           "description": "useSyslog ident withSyslog ident PID PERROR USER",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "useSyslog",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -1096,6 +1186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e computation between calls to \u003ccode\u003e\u003ca\u003e_openlog\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003e_closelog\u003c/a\u003e\u003c/code\u003e. Since these settings are for the\n \u003cem\u003eprocess\u003c/em\u003e, multiple calls to this function will,\n unfortunately, overwrite each other.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e main = withSyslog \"my-ident\" [PID, PERROR] USER $ do\n          putStrLn \"huhu\"\n          syslog Debug \"huhu\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:51:25 UTC 2014",
           "module": "System.Posix.Syslog",
           "name": "withSyslog",
           "package": "hsyslog",
@@ -1106,6 +1197,7 @@
         "index": {
           "description": "Bracket an IO computation between calls to openlog and closelog Since these settings are for the process multiple calls to this function will unfortunately overwrite each other Example main withSyslog my-ident PID PERROR USER do putStrLn huhu syslog Debug huhu",
           "hierarchy": "System Posix Syslog",
+          "indexed": "2014-03-11T18:51:25",
           "module": "System.Posix.Syslog",
           "name": "withSyslog",
           "normalized": "String-\u003e[Option]-\u003eFacility-\u003eIO a-\u003eIO a",

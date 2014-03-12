@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graceful"
+        "phrase": "graceful",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides function to make process graceful.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "Graceful",
           "package": "graceful",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides function to make process graceful",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "Graceful",
           "package": "graceful",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer settings\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "GracefulSettings",
           "package": "graceful",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Server settings Since",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "GracefulSettings",
           "package": "graceful",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorker process settings\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "GracefulWorker",
           "package": "graceful",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Worker process settings Since",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "GracefulWorker",
           "package": "graceful",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "GracefulSettings",
           "package": "graceful",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "GracefulSettings",
           "package": "graceful",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "GracefulWorker",
           "package": "graceful",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "GracefulWorker",
           "package": "graceful",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake server application enable shutdown/restart gracefully\n\u003c/p\u003e\u003cp\u003eSince 0.1.0.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "graceful",
           "package": "graceful",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Make server application enable shutdown restart gracefully Since",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "graceful",
           "normalized": "GracefulSettings-\u003eGracefulWorker-\u003eIO()",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary file to upgrade\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsBinary",
           "package": "graceful",
@@ -167,6 +180,7 @@
         "index": {
           "description": "The binary file to upgrade",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsBinary",
           "package": "graceful",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListen socket\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsListen",
           "package": "graceful",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Listen socket",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsListen",
           "package": "graceful",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file to which the server records the process id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsPidFile",
           "package": "graceful",
@@ -215,6 +232,7 @@
         "index": {
           "description": "The file to which the server records the process id",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsPidFile",
           "package": "graceful",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnix domain socket file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsSockFile",
           "package": "graceful",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Unix domain socket file",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsSockFile",
           "package": "graceful",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefork worker count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsWorkerCount",
           "package": "graceful",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Prefork worker count",
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulSettingsWorkerCount",
           "package": "graceful",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerApplication",
           "package": "graceful",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerApplication",
           "normalized": "Socket-\u003ea-\u003eIO()",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerFinalize",
           "package": "graceful",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerFinalize",
           "normalized": "a-\u003eIO()",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:37 UTC 2014",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerInitialize",
           "package": "graceful",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "System Posix Graceful",
+          "indexed": "2014-03-11T18:19:37",
           "module": "System.Posix.Graceful",
           "name": "gracefulWorkerInitialize",
           "package": "graceful",

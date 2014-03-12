@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-sqlite"
+        "phrase": "language-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite.Tools",
           "name": "Tools",
           "package": "language-sqlite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite Tools",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite.Tools",
           "name": "Tools",
           "package": "language-sqlite",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite.Tools",
           "name": "changeTableSchema",
           "package": "language-sqlite",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite Tools",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite.Tools",
           "name": "changeTableSchema",
           "normalized": "CreateTable-\u003eCreateTable-\u003eMap UnqualifiedIdentifier Expression-\u003eStatementList",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SQLite",
           "package": "language-sqlite",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SQLite",
           "package": "language-sqlite",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eALTER TABLE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AlterTable",
           "package": "language-sqlite",
@@ -94,6 +101,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an ALTER TABLE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AlterTable",
           "package": "language-sqlite",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the body of an \u003ccode\u003e\u003ca\u003eAlterTable\u003c/a\u003e\u003c/code\u003e statement.\n   Used by \u003ccode\u003e\u003ca\u003eAlterTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AlterTableBody",
           "package": "language-sqlite",
@@ -117,6 +126,7 @@
         "index": {
           "description": "The AST node corresponding to the body of an AlterTable statement Used by AlterTable",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AlterTableBody",
           "package": "language-sqlite",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eANALYZE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Analyze",
           "package": "language-sqlite",
@@ -140,6 +151,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an ANALYZE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Analyze",
           "package": "language-sqlite",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to any statement.  Used by \u003ccode\u003e\u003ca\u003eStatementList\u003c/a\u003e\u003c/code\u003e.\n   Also useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AnyStatement",
           "package": "language-sqlite",
@@ -163,6 +176,7 @@
         "index": {
           "description": "The AST node corresponding to any statement Used by StatementList Also useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AnyStatement",
           "package": "language-sqlite",
@@ -177,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eATTACH\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Attach",
           "package": "language-sqlite",
@@ -186,6 +201,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an ATTACH statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Attach",
           "package": "language-sqlite",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eBEGIN\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Begin",
           "package": "language-sqlite",
@@ -209,6 +226,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to BEGIN statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Begin",
           "package": "language-sqlite",
@@ -223,6 +241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to each \u003ccode\u003eWHEN\u003c/code\u003e-\u003ccode\u003eTHEN\u003c/code\u003e pair of subexpressions in a\n   \u003ccode\u003eCASE\u003c/code\u003e expression.  Used by \u003ccode\u003e\u003ca\u003eExpressionCase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CasePair",
           "package": "language-sqlite",
@@ -232,6 +251,7 @@
         "index": {
           "description": "The AST node corresponding to each WHEN THEN pair of subexpressions in CASE expression Used by ExpressionCase",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CasePair",
           "package": "language-sqlite",
@@ -246,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a column constraint subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnDefinition\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnConstraint",
           "package": "language-sqlite",
@@ -255,6 +276,7 @@
         "index": {
           "description": "The AST node corresponding to column constraint subclause Used by ColumnDefinition",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnConstraint",
           "package": "language-sqlite",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a column-definition subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eAlterTableBody\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCreateTableBody\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefinition",
           "package": "language-sqlite",
@@ -278,6 +301,7 @@
         "index": {
           "description": "The AST node corresponding to column-definition subclause Used by AlterTableBody and CreateTableBody",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefinition",
           "package": "language-sqlite",
@@ -292,6 +316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCOMMIT\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Commit",
           "package": "language-sqlite",
@@ -301,6 +326,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to COMMIT statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Commit",
           "package": "language-sqlite",
@@ -315,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the head of a \u003ccode\u003eCOMMIT\u003c/code\u003e statement.  Used by\n   \u003ccode\u003e\u003ca\u003eCommit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CommitHead",
           "package": "language-sqlite",
@@ -324,6 +351,7 @@
         "index": {
           "description": "The AST node corresponding to the head of COMMIT statement Used by Commit",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CommitHead",
           "package": "language-sqlite",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a compound operator in a \u003ccode\u003eSELECT\u003c/code\u003e statement.\n   Used by \u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CompoundOperator",
           "package": "language-sqlite",
@@ -347,6 +376,7 @@
         "index": {
           "description": "The AST node corresponding to compound operator in SELECT statement Used by Select",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CompoundOperator",
           "package": "language-sqlite",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an \u003ccode\u003eON CONFLICT\u003c/code\u003e clause.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTableConstraint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ConflictClause",
           "package": "language-sqlite",
@@ -370,6 +401,7 @@
         "index": {
           "description": "The AST node corresponding to an ON CONFLICT clause Used by ColumnConstraint and TableConstraint",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ConflictClause",
           "package": "language-sqlite",
@@ -384,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCREATE INDEX\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateIndex",
           "package": "language-sqlite",
@@ -393,6 +426,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to CREATE INDEX statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateIndex",
           "package": "language-sqlite",
@@ -407,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCREATE TABLE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateTable",
           "package": "language-sqlite",
@@ -416,6 +451,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to CREATE TABLE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateTable",
           "package": "language-sqlite",
@@ -430,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a create-table body.  Used by \u003ccode\u003e\u003ca\u003eCreateTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateTableBody",
           "package": "language-sqlite",
@@ -439,6 +476,7 @@
         "index": {
           "description": "The AST node corresponding to create-table body Used by CreateTable",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateTableBody",
           "package": "language-sqlite",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCREATE TRIGGER\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateTrigger",
           "package": "language-sqlite",
@@ -462,6 +501,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to CREATE TRIGGER statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateTrigger",
           "package": "language-sqlite",
@@ -476,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCREATE VIEW\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateView",
           "package": "language-sqlite",
@@ -485,6 +526,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to CREATE VIEW statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateView",
           "package": "language-sqlite",
@@ -499,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eCREATE VIRTUAL TABLE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateVirtualTable",
           "package": "language-sqlite",
@@ -508,6 +551,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to CREATE VIRTUAL TABLE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateVirtualTable",
           "package": "language-sqlite",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a default-value subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValue",
           "package": "language-sqlite",
@@ -531,6 +576,7 @@
         "index": {
           "description": "The AST node corresponding to default-value subclause Used by ColumnConstraint",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValue",
           "package": "language-sqlite",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDELETE\u003c/code\u003e statement without a \u003ccode\u003eLIMIT\u003c/code\u003e clause.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Delete",
           "package": "language-sqlite",
@@ -554,6 +601,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DELETE statement without LIMIT clause Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Delete",
           "package": "language-sqlite",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDELETE\u003c/code\u003e statement with a \u003ccode\u003eLIMIT\u003c/code\u003e clause.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DeleteLimited",
           "package": "language-sqlite",
@@ -577,6 +626,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DELETE statement with LIMIT clause Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DeleteLimited",
           "package": "language-sqlite",
@@ -591,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDETACH\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Detach",
           "package": "language-sqlite",
@@ -600,6 +651,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DETACH statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Detach",
           "package": "language-sqlite",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eDISTINCT\u003c/code\u003e or \u003ccode\u003eALL\u003c/code\u003e qualifier.\n   Used by \u003ccode\u003e\u003ca\u003eSelectCore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Distinctness",
           "package": "language-sqlite",
@@ -623,6 +676,7 @@
         "index": {
           "description": "The AST node corresponding to an optional DISTINCT or ALL qualifier Used by SelectCore",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Distinctness",
           "package": "language-sqlite",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier which allows two levels of qualification.  This is typically a\n   column name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DoublyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -646,6 +701,7 @@
         "index": {
           "description": "An identifier which allows two levels of qualification This is typically column name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DoublyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -660,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDROP INDEX\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropIndex",
           "package": "language-sqlite",
@@ -669,6 +726,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DROP INDEX statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropIndex",
           "package": "language-sqlite",
@@ -683,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDROP TABLE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropTable",
           "package": "language-sqlite",
@@ -692,6 +751,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DROP TABLE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropTable",
           "package": "language-sqlite",
@@ -706,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDROP TRIGGER\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropTrigger",
           "package": "language-sqlite",
@@ -715,6 +776,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DROP TRIGGER statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropTrigger",
           "package": "language-sqlite",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eDROP VIEW\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropView",
           "package": "language-sqlite",
@@ -738,6 +801,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to DROP VIEW statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropView",
           "package": "language-sqlite",
@@ -752,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the optional \u003ccode\u003eELSE\u003c/code\u003e subclause in a \u003ccode\u003eCASE\u003c/code\u003e expression.\n   Used by \u003ccode\u003e\u003ca\u003eExpressionCase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Else",
           "package": "language-sqlite",
@@ -761,6 +826,7 @@
         "index": {
           "description": "The AST node corresponding to the optional ELSE subclause in CASE expression Used by ExpressionCase",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Else",
           "package": "language-sqlite",
@@ -775,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the \u003ccode\u003eESCAPE\u003c/code\u003e subclause of a textual comparison\n   expression.  Used by \u003ccode\u003e\u003ca\u003eExpressionLike\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Escape",
           "package": "language-sqlite",
@@ -784,6 +851,7 @@
         "index": {
           "description": "The AST node corresponding to the ESCAPE subclause of textual comparison expression Used by ExpressionLike",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Escape",
           "package": "language-sqlite",
@@ -798,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eEXPLAIN\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Explain",
           "package": "language-sqlite",
@@ -807,6 +876,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an EXPLAIN statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Explain",
           "package": "language-sqlite",
@@ -821,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eEXPLAIN QUERY PLAN\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExplainQueryPlan",
           "package": "language-sqlite",
@@ -830,6 +901,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an EXPLAIN QUERY PLAN statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExplainQueryPlan",
           "package": "language-sqlite",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExplainableStatement",
           "package": "language-sqlite",
@@ -851,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExplainableStatement",
           "package": "language-sqlite",
@@ -865,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an expression.  Used by \u003ccode\u003e\u003ca\u003eDefaultValue\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTableConstraint\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrderingTerm\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eInsertBody\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eMaybeHaving\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eResultColumn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eJoinConstraint\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWhereClause\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eWhenClause\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.  Also useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Expression",
           "package": "language-sqlite",
@@ -874,6 +949,7 @@
         "index": {
           "description": "The AST node corresponding to an expression Used by DefaultValue ColumnConstraint TableConstraint OrderingTerm InsertBody MaybeHaving ResultColumn JoinConstraint WhereClause WhenClause Update and UpdateLimited Also useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Expression",
           "package": "language-sqlite",
@@ -888,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eFOREIGN KEY\u003c/code\u003e clause.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eTableConstraint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClause",
           "package": "language-sqlite",
@@ -897,6 +974,7 @@
         "index": {
           "description": "The AST node corresponding to FOREIGN KEY clause Used by ColumnConstraint and TableConstraint",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClause",
           "package": "language-sqlite",
@@ -911,6 +989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the first partial body of a \u003ccode\u003eFOREIGN KEY\u003c/code\u003e clause.\n   Used by \u003ccode\u003e\u003ca\u003eForeignKeyClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClauseActionOrMatchPart",
           "package": "language-sqlite",
@@ -920,6 +999,7 @@
         "index": {
           "description": "The AST node corresponding to the first partial body of FOREIGN KEY clause Used by ForeignKeyClause",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClauseActionOrMatchPart",
           "package": "language-sqlite",
@@ -934,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an action subclause in the first partial body of\n   a \u003ccode\u003eFOREIGN KEY\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eForeignKeyClauseActionOrMatchPart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClauseActionPart",
           "package": "language-sqlite",
@@ -943,6 +1024,7 @@
         "index": {
           "description": "The AST node corresponding to an action subclause in the first partial body of FOREIGN KEY clause Used by ForeignKeyClauseActionOrMatchPart",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ForeignKeyClauseActionPart",
           "package": "language-sqlite",
@@ -957,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eFROM\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eSelectCore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "FromClause",
           "package": "language-sqlite",
@@ -966,6 +1049,7 @@
         "index": {
           "description": "The AST node corresponding to FROM clause Used by SelectCore",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "FromClause",
           "package": "language-sqlite",
@@ -980,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eGROUP BY\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eSelectCore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "GroupClause",
           "package": "language-sqlite",
@@ -989,6 +1074,7 @@
         "index": {
           "description": "The AST node corresponding to GROUP BY clause Used by SelectCore",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "GroupClause",
           "package": "language-sqlite",
@@ -1003,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class implemented by all identifiers regardless of how many levels of\n   qualification they allow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Identifier",
           "package": "language-sqlite",
@@ -1012,6 +1099,7 @@
         "index": {
           "description": "class implemented by all identifiers regardless of how many levels of qualification they allow",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Identifier",
           "package": "language-sqlite",
@@ -1026,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an indexed-column subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eTableConstraint\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCreateIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IndexedColumn",
           "package": "language-sqlite",
@@ -1035,6 +1124,7 @@
         "index": {
           "description": "The AST node corresponding to an indexed-column subclause Used by TableConstraint and CreateIndex",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IndexedColumn",
           "package": "language-sqlite",
@@ -1049,6 +1139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eINSERT\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Insert",
           "package": "language-sqlite",
@@ -1058,6 +1149,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an INSERT statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Insert",
           "package": "language-sqlite",
@@ -1072,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an insert body.  Used by \u003ccode\u003e\u003ca\u003eInsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertBody",
           "package": "language-sqlite",
@@ -1081,6 +1174,7 @@
         "index": {
           "description": "The AST node corresponding to an insert body Used by Insert",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertBody",
           "package": "language-sqlite",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an insert head.  Used by \u003ccode\u003e\u003ca\u003eInsert\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertHead",
           "package": "language-sqlite",
@@ -1104,6 +1199,7 @@
         "index": {
           "description": "The AST node corresponding to an insert head Used by Insert",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertHead",
           "package": "language-sqlite",
@@ -1118,6 +1214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a join constraint, a qualifier in the \u003ccode\u003eFROM\u003c/code\u003e\n   clause of a \u003ccode\u003eSELECT\u003c/code\u003e statement.  Used by \u003ccode\u003e\u003ca\u003eJoinSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "JoinConstraint",
           "package": "language-sqlite",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "The AST node corresponding to join constraint qualifier in the FROM clause of SELECT statement Used by JoinSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "JoinConstraint",
           "package": "language-sqlite",
@@ -1141,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a join operation, a conjunction in the \u003ccode\u003eFROM\u003c/code\u003e\n   clause of a \u003ccode\u003eSELECT\u003c/code\u003e statement.  Used by \u003ccode\u003e\u003ca\u003eJoinSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "JoinOperation",
           "package": "language-sqlite",
@@ -1150,6 +1249,7 @@
         "index": {
           "description": "The AST node corresponding to join operation conjunction in the FROM clause of SELECT statement Used by JoinSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "JoinOperation",
           "package": "language-sqlite",
@@ -1164,6 +1264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a source from which to join columns in a \u003ccode\u003eSELECT\u003c/code\u003e\n   statement, which may be the head of the statement's \u003ccode\u003eFROM\u003c/code\u003e clause, or, in the\n   case of a subjoin, only part of it.  Used by \u003ccode\u003e\u003ca\u003eFromClause\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSingleSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "JoinSource",
           "package": "language-sqlite",
@@ -1173,6 +1274,7 @@
         "index": {
           "description": "The AST node corresponding to source from which to join columns in SELECT statement which may be the head of the statement FROM clause or in the case of subjoin only part of it Used by FromClause and SingleSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "JoinSource",
           "package": "language-sqlite",
@@ -1187,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a textual comparison operator in an expression.\n   Used by \u003ccode\u003e\u003ca\u003eExpressionLike\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LikeType",
           "package": "language-sqlite",
@@ -1196,6 +1299,7 @@
         "index": {
           "description": "The AST node corresponding to textual comparison operator in an expression Used by ExpressionLike",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LikeType",
           "package": "language-sqlite",
@@ -1210,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eLIMIT\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eDeleteLimited\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LimitClause",
           "package": "language-sqlite",
@@ -1219,6 +1324,7 @@
         "index": {
           "description": "The AST node corresponding to LIMIT clause Used by Select DeleteLimited and UpdateLimited",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LimitClause",
           "package": "language-sqlite",
@@ -1233,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eAS\u003c/code\u003e subclause, possibly with the\n   actual keyword elided.  Used by \u003ccode\u003e\u003ca\u003eResultColumn\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eSingleSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAs",
           "package": "language-sqlite",
@@ -1242,6 +1349,7 @@
         "index": {
           "description": "The AST node corresponding to an optional AS subclause possibly with the actual keyword elided Used by ResultColumn and SingleSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAs",
           "package": "language-sqlite",
@@ -1256,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eASC\u003c/code\u003e or \u003ccode\u003eDESC\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eIndexedColumn\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eOrderingTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAscDesc",
           "package": "language-sqlite",
@@ -1265,6 +1374,7 @@
         "index": {
           "description": "The AST node corresponding to an optional ASC or DESC qualifier Used by IndexedColumn ColumnConstraint and OrderingTerm",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAscDesc",
           "package": "language-sqlite",
@@ -1279,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eAUTOINCREMENT\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAutoincrement",
           "package": "language-sqlite",
@@ -1288,6 +1399,7 @@
         "index": {
           "description": "The AST node corresponding to an optional AUTOINCREMENT qualifier Used by ColumnConstraint",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeAutoincrement",
           "package": "language-sqlite",
@@ -1302,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eCOLLATE\u003c/code\u003e subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eIndexedColumn\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrderingTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeCollation",
           "package": "language-sqlite",
@@ -1311,6 +1424,7 @@
         "index": {
           "description": "The AST node corresponding to an optional COLLATE subclause Used by IndexedColumn and OrderingTerm",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeCollation",
           "package": "language-sqlite",
@@ -1325,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eCOLUMN\u003c/code\u003e keyword.\n   Used by \u003ccode\u003e\u003ca\u003eAlterTableBody\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeColumn",
           "package": "language-sqlite",
@@ -1334,6 +1449,7 @@
         "index": {
           "description": "The AST node corresponding to an optional COLUMN keyword Used by AlterTableBody",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeColumn",
           "package": "language-sqlite",
@@ -1348,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional constraint name subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eColumnConstraint\u003c/a\u003e\u003c/code\u003e and 'Table Constraint'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeConstraintName",
           "package": "language-sqlite",
@@ -1357,6 +1474,7 @@
         "index": {
           "description": "The AST node corresponding to an optional constraint name subclause Used by ColumnConstraint and Table Constraint",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeConstraintName",
           "package": "language-sqlite",
@@ -1371,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eDATABASE\u003c/code\u003e keyword.  Used by\n   \u003ccode\u003e\u003ca\u003eAttach\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDetach\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeDatabase",
           "package": "language-sqlite",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "The AST node corresponding to an optional DATABASE keyword Used by Attach and Detach",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeDatabase",
           "package": "language-sqlite",
@@ -1394,6 +1514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eFOR EACH ROW\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeForEachRow",
           "package": "language-sqlite",
@@ -1403,6 +1524,7 @@
         "index": {
           "description": "The AST node corresponding to an optional FOR EACH ROW qualifier Used by CreateTrigger",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeForEachRow",
           "package": "language-sqlite",
@@ -1417,6 +1539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the second partial body of a \u003ccode\u003eFOREIGN KEY\u003c/code\u003e clause.\n   Used by \u003ccode\u003e\u003ca\u003eForeignKeyClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeForeignKeyClauseDeferrablePart",
           "package": "language-sqlite",
@@ -1426,6 +1549,7 @@
         "index": {
           "description": "The AST node corresponding to the second partial body of FOREIGN KEY clause Used by ForeignKeyClause",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeForeignKeyClauseDeferrablePart",
           "package": "language-sqlite",
@@ -1440,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eHAVING\u003c/code\u003e subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eGroupClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeHaving",
           "package": "language-sqlite",
@@ -1449,6 +1574,7 @@
         "index": {
           "description": "The AST node corresponding to an optional HAVING subclause Used by GroupClause",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeHaving",
           "package": "language-sqlite",
@@ -1463,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eIF EXISTS\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eDropIndex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDropTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDropTrigger\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eDropView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIfExists",
           "package": "language-sqlite",
@@ -1472,6 +1599,7 @@
         "index": {
           "description": "The AST node corresponding to an optional IF EXISTS qualifier Used by DropIndex DropTable DropTrigger and DropView",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIfExists",
           "package": "language-sqlite",
@@ -1486,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eIF NOT EXISTS\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eCreateIndex\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCreateTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eCreateView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIfNotExists",
           "package": "language-sqlite",
@@ -1495,6 +1624,7 @@
         "index": {
           "description": "The AST node corresponding to an optional IF NOT EXISTS qualifier Used by CreateIndex CreateTable CreateTrigger and CreateView",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIfNotExists",
           "package": "language-sqlite",
@@ -1509,6 +1639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eINDEXED BY\u003c/code\u003e or \u003ccode\u003eNOT INDEXED\u003c/code\u003e qualifier.\n   Used by \u003ccode\u003e\u003ca\u003eSingleSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIndexedBy",
           "package": "language-sqlite",
@@ -1518,6 +1649,7 @@
         "index": {
           "description": "The AST node corresponding to an optional INDEXED BY or NOT INDEXED qualifier Used by SingleSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeIndexedBy",
           "package": "language-sqlite",
@@ -1532,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eINITIALLY DEFERRED\u003c/code\u003e or\n   \u003ccode\u003eINITIALLY IMMEDIATE\u003c/code\u003e qualifier in a \u003ccode\u003eFOREIGN KEY\u003c/code\u003e clause.  Used by\n   \u003ccode\u003e\u003ca\u003eMaybeForeignKeyClauseDeferrablePart\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeInitialDeferralStatus",
           "package": "language-sqlite",
@@ -1541,6 +1674,7 @@
         "index": {
           "description": "The AST node corresponding to an optional INITIALLY DEFERRED or INITIALLY IMMEDIATE qualifier in FOREIGN KEY clause Used by MaybeForeignKeyClauseDeferrablePart",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeInitialDeferralStatus",
           "package": "language-sqlite",
@@ -1555,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eRELEASE SAVEPOINT\u003c/code\u003e qualifier.\n   Used by \u003ccode\u003e\u003ca\u003eRelease\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeReleaseSavepoint",
           "package": "language-sqlite",
@@ -1564,6 +1699,7 @@
         "index": {
           "description": "The AST node corresponding to an optional RELEASE SAVEPOINT qualifier Used by Release",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeReleaseSavepoint",
           "package": "language-sqlite",
@@ -1578,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eTO SAVEPOINT\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eRollback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSavepoint",
           "package": "language-sqlite",
@@ -1587,6 +1724,7 @@
         "index": {
           "description": "The AST node corresponding to an optional TO SAVEPOINT qualifier Used by Rollback",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSavepoint",
           "package": "language-sqlite",
@@ -1601,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003e+\u003c/code\u003e or \u003ccode\u003e-\u003c/code\u003e sign.  Used by\n   \u003ccode\u003e\u003ca\u003eTypeSizeField\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDefaultValue\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003ePragmaValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSign",
           "package": "language-sqlite",
@@ -1610,6 +1749,7 @@
         "index": {
           "description": "The AST node corresponding to an optional or sign Used by TypeSizeField DefaultValue and PragmaValue",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSign",
           "package": "language-sqlite",
@@ -1624,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the optional first subexpression in a \u003ccode\u003eCASE\u003c/code\u003e\n   expression.  Used by \u003ccode\u003e\u003ca\u003eExpressionCase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSwitchExpression",
           "package": "language-sqlite",
@@ -1633,6 +1774,7 @@
         "index": {
           "description": "The AST node corresponding to the optional first subexpression in CASE expression Used by ExpressionCase",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeSwitchExpression",
           "package": "language-sqlite",
@@ -1647,6 +1789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eTEMP\u003c/code\u003e or \u003ccode\u003eTEMPORARY\u003c/code\u003e qualifier.  Used\n   by \u003ccode\u003e\u003ca\u003eCreateTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eCreateView\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTemporary",
           "package": "language-sqlite",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "The AST node corresponding to an optional TEMP or TEMPORARY qualifier Used by CreateTable CreateTrigger and CreateView",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTemporary",
           "package": "language-sqlite",
@@ -1670,6 +1814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eTRASACTION\u003c/code\u003e keyword.  Used by\n   \u003ccode\u003e\u003ca\u003eBegin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eCommit\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eRollback\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTransaction",
           "package": "language-sqlite",
@@ -1679,6 +1824,7 @@
         "index": {
           "description": "The AST node corresponding to an optional TRASACTION keyword Used by Begin Commit and Rollback",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTransaction",
           "package": "language-sqlite",
@@ -1693,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional transaction-type qualifier.  Used\n   by \u003ccode\u003e\u003ca\u003eBegin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTransactionType",
           "package": "language-sqlite",
@@ -1702,6 +1849,7 @@
         "index": {
           "description": "The AST node corresponding to an optional transaction-type qualifier Used by Begin",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTransactionType",
           "package": "language-sqlite",
@@ -1716,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional column type.  Used by \u003ccode\u003e\u003ca\u003eColumnDefinition\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeType",
           "package": "language-sqlite",
@@ -1725,6 +1874,7 @@
         "index": {
           "description": "The AST node corresponding to an optional column type Used by ColumnDefinition",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeType",
           "package": "language-sqlite",
@@ -1738,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTypeName",
           "package": "language-sqlite",
@@ -1746,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTypeName",
           "package": "language-sqlite",
@@ -1760,6 +1912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional size annotation on a column or value\n   type.  Used by \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTypeSize",
           "package": "language-sqlite",
@@ -1769,6 +1922,7 @@
         "index": {
           "description": "The AST node corresponding to an optional size annotation on column or value type Used by Type",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeTypeSize",
           "package": "language-sqlite",
@@ -1783,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an optional \u003ccode\u003eUNIQUE\u003c/code\u003e qualifier.  Used by\n   \u003ccode\u003e\u003ca\u003eCreateIndex\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "MaybeUnique",
           "package": "language-sqlite",
@@ -1792,6 +1947,7 @@
         "index": {
           "description": "The AST node corresponding to an optional UNIQUE qualifier Used by CreateIndex",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "MaybeUnique",
           "package": "language-sqlite",
@@ -1806,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a module argument.  Used by \u003ccode\u003e\u003ca\u003eCreateVirtualTable\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgument",
           "package": "language-sqlite",
@@ -1815,6 +1972,7 @@
         "index": {
           "description": "The AST node corresponding to module argument Used by CreateVirtualTable",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgument",
           "package": "language-sqlite",
@@ -1829,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class with hidden implementation so as to enforce the constraint that\n   it is a nonnegative double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NonnegativeDouble",
           "package": "language-sqlite",
@@ -1838,6 +1997,7 @@
         "index": {
           "description": "class with hidden implementation so as to enforce the constraint that it is nonnegative double",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NonnegativeDouble",
           "package": "language-sqlite",
@@ -1852,6 +2012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class with hidden implementation so as to enforce the constraint that\n   it is a nonempty homogeneous list of items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OneOrMore",
           "package": "language-sqlite",
@@ -1861,6 +2022,7 @@
         "index": {
           "description": "class with hidden implementation so as to enforce the constraint that it is nonempty homogeneous list of items",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OneOrMore",
           "package": "language-sqlite",
@@ -1875,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an \u003ccode\u003eORDER BY\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eDeleteLimited\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OrderClause",
           "package": "language-sqlite",
@@ -1884,6 +2047,7 @@
         "index": {
           "description": "The AST node corresponding to an ORDER BY clause Used by Select DeleteLimited and UpdateLimited",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OrderClause",
           "package": "language-sqlite",
@@ -1898,6 +2062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an ordering term subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eGroupClause\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrderClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OrderingTerm",
           "package": "language-sqlite",
@@ -1907,6 +2072,7 @@
         "index": {
           "description": "The AST node corresponding to an ordering term subclause Used by GroupClause and OrderClause",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OrderingTerm",
           "package": "language-sqlite",
@@ -1920,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ParseError",
           "package": "language-sqlite",
@@ -1928,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ParseError",
           "package": "language-sqlite",
@@ -1942,6 +2110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003ePRAGMA\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Pragma",
           "package": "language-sqlite",
@@ -1951,6 +2120,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to PRAGMA statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Pragma",
           "package": "language-sqlite",
@@ -1965,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a pragma body.  Used by \u003ccode\u003e\u003ca\u003ePragma\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PragmaBody",
           "package": "language-sqlite",
@@ -1974,6 +2145,7 @@
         "index": {
           "description": "The AST node corresponding to pragma body Used by Pragma",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PragmaBody",
           "package": "language-sqlite",
@@ -1988,6 +2160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a pragma value subclause.  Used by \u003ccode\u003e\u003ca\u003ePragmaBody\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PragmaValue",
           "package": "language-sqlite",
@@ -1997,6 +2170,7 @@
         "index": {
           "description": "The AST node corresponding to pragma value subclause Used by PragmaBody",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PragmaValue",
           "package": "language-sqlite",
@@ -2011,6 +2185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a qualified table name subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eDelete\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDeleteLimited\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "QualifiedTableName",
           "package": "language-sqlite",
@@ -2020,6 +2195,7 @@
         "index": {
           "description": "The AST node corresponding to qualified table name subclause Used by Delete DeleteLimited Update and UpdateLimited",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "QualifiedTableName",
           "package": "language-sqlite",
@@ -2034,6 +2210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eREINDEX\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Reindex",
           "package": "language-sqlite",
@@ -2043,6 +2220,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to REINDEX statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Reindex",
           "package": "language-sqlite",
@@ -2057,6 +2235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eRELEASE\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Release",
           "package": "language-sqlite",
@@ -2066,6 +2245,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to RELEASE statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Release",
           "package": "language-sqlite",
@@ -2080,6 +2260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a result column in a \u003ccode\u003eSELECT\u003c/code\u003e statement.  Used by\n   \u003ccode\u003e\u003ca\u003eSelectCore\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ResultColumn",
           "package": "language-sqlite",
@@ -2089,6 +2270,7 @@
         "index": {
           "description": "The AST node corresponding to result column in SELECT statement Used by SelectCore",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ResultColumn",
           "package": "language-sqlite",
@@ -2103,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eROLLBACK\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Rollback",
           "package": "language-sqlite",
@@ -2112,6 +2295,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to ROLLBACK statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Rollback",
           "package": "language-sqlite",
@@ -2126,6 +2310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eSAVEPOINT\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Savepoint",
           "package": "language-sqlite",
@@ -2135,6 +2320,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to SAVEPOINT statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Savepoint",
           "package": "language-sqlite",
@@ -2149,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eSELECT\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Select",
           "package": "language-sqlite",
@@ -2158,6 +2345,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to SELECT statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Select",
           "package": "language-sqlite",
@@ -2172,6 +2360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the core part of a \u003ccode\u003eSELECT\u003c/code\u003e statement, which may\n   be the head of the overall statement, or, in the case of a compound \u003ccode\u003eSELECT\u003c/code\u003e,\n   only part of it.  Used by \u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SelectCore",
           "package": "language-sqlite",
@@ -2181,6 +2370,7 @@
         "index": {
           "description": "The AST node corresponding to the core part of SELECT statement which may be the head of the overall statement or in the case of compound SELECT only part of it Used by Select",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SelectCore",
           "package": "language-sqlite",
@@ -2195,6 +2385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class implemented by every node of the AST; converts the node and its\n   children into a list of tokens which correspond to the SQL representation\n   of the node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ShowTokens",
           "package": "language-sqlite",
@@ -2204,6 +2395,7 @@
         "index": {
           "description": "class implemented by every node of the AST converts the node and its children into list of tokens which correspond to the SQL representation of the node",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ShowTokens",
           "package": "language-sqlite",
@@ -2218,6 +2410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a primitive source from which to join columns in\n   a \u003ccode\u003eSELECT\u003c/code\u003e statement, which is a body of the statement's \u003ccode\u003eFROM\u003c/code\u003e clause.  Used by\n   \u003ccode\u003e\u003ca\u003eJoinSource\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SingleSource",
           "package": "language-sqlite",
@@ -2227,6 +2420,7 @@
         "index": {
           "description": "The AST node corresponding to primitive source from which to join columns in SELECT statement which is body of the statement FROM clause Used by JoinSource",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SingleSource",
           "package": "language-sqlite",
@@ -2241,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier which allows a single level of qualification.  This is typically\n   the name of a table or other database-level object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SinglyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -2250,6 +2445,7 @@
         "index": {
           "description": "An identifier which allows single level of qualification This is typically the name of table or other database-level object",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SinglyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -2264,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node which corresponds to a statement.  Not directly useful at\n   top level because it is a generalized algebraic datatype the type parameters\n   to which are not exported; instead, see the existentially qualified\n   types \u003ccode\u003e\u003ca\u003eAnyStatement\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eExplainableStatement\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eTriggerStatement\u003c/a\u003e\u003c/code\u003e, and the\n   type synonyms such as \u003ccode\u003e\u003ca\u003eSelect\u003c/a\u003e\u003c/code\u003e which correspond to individual statement types.\n\u003c/p\u003e\u003cp\u003eI apologize for the lack of documentation on these individual entries, but\n   Haddock won't let me do it!  At any rate, each of them is an AST node corresponding\n   to an individual statement type.\n\u003c/p\u003e\u003cp\u003eNote the distinctions between\n   \u003ccode\u003e\u003ca\u003eDelete\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDeleteLimited\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e:  The \u003ccode\u003eLimited\u003c/code\u003e ones\n   have \u003ccode\u003eLIMIT\u003c/code\u003e clauses and the others do not.  Because SQL imposes stricter\n   restrictions on where the ones with \u003ccode\u003eLIMIT\u003c/code\u003e clauses can occur, these are are\n   separate types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Statement",
           "package": "language-sqlite",
@@ -2273,6 +2470,7 @@
         "index": {
           "description": "The AST node which corresponds to statement Not directly useful at top level because it is generalized algebraic datatype the type parameters to which are not exported instead see the existentially qualified types AnyStatement ExplainableStatement and TriggerStatement and the type synonyms such as Select which correspond to individual statement types apologize for the lack of documentation on these individual entries but Haddock won let me do it At any rate each of them is an AST node corresponding to an individual statement type Note the distinctions between Delete and DeleteLimited and Update and UpdateLimited The Limited ones have LIMIT clauses and the others do not Because SQL imposes stricter restrictions on where the ones with LIMIT clauses can occur these are are separate types",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Statement",
           "package": "language-sqlite",
@@ -2287,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a semicolon-separated list of statements.\n   Used at the top level of an SQL file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "StatementList",
           "package": "language-sqlite",
@@ -2296,6 +2495,7 @@
         "index": {
           "description": "The AST node corresponding to semicolon-separated list of statements Used at the top level of an SQL file",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "StatementList",
           "package": "language-sqlite",
@@ -2310,6 +2510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a table-constraint subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eCreateTableBody\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableConstraint",
           "package": "language-sqlite",
@@ -2319,6 +2520,7 @@
         "index": {
           "description": "The AST node corresponding to table-constraint subclause Used by CreateTableBody",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableConstraint",
           "package": "language-sqlite",
@@ -2333,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot an AST node but a token which corresponds to a primitive of SQL syntax.\n   Has an instance of \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e which prints a list of them as syntactically-valid\n   SQL with no line wrapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Token",
           "package": "language-sqlite",
@@ -2342,6 +2545,7 @@
         "index": {
           "description": "Not an AST node but token which corresponds to primitive of SQL syntax Has an instance of Show which prints list of them as syntactically-valid SQL with no line wrapping",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Token",
           "package": "language-sqlite",
@@ -2356,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a trigger-condition subclause.  Used by\n   \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TriggerCondition",
           "package": "language-sqlite",
@@ -2365,6 +2570,7 @@
         "index": {
           "description": "The AST node corresponding to trigger-condition subclause Used by CreateTrigger",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TriggerCondition",
           "package": "language-sqlite",
@@ -2378,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TriggerStatement",
           "package": "language-sqlite",
@@ -2386,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TriggerStatement",
           "package": "language-sqlite",
@@ -2400,6 +2608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a trigger-time qualifier.  Used by \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TriggerTime",
           "package": "language-sqlite",
@@ -2409,6 +2618,7 @@
         "index": {
           "description": "The AST node corresponding to trigger-time qualifier Used by CreateTrigger",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TriggerTime",
           "package": "language-sqlite",
@@ -2423,6 +2633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a column or value type.  Used by\n   \u003ccode\u003e\u003ca\u003eMaybeType\u003c/a\u003e\u003c/code\u003e which is used by \u003ccode\u003e\u003ca\u003eColumnDefinition\u003c/a\u003e\u003c/code\u003e, and by \u003ccode\u003e\u003ca\u003eExpressionCast\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Type",
           "package": "language-sqlite",
@@ -2432,6 +2643,7 @@
         "index": {
           "description": "The AST node corresponding to column or value type Used by MaybeType which is used by ColumnDefinition and by ExpressionCast",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Type",
           "package": "language-sqlite",
@@ -2446,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to the affinity of a column or value type.\n   Used by \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinity",
           "package": "language-sqlite",
@@ -2455,6 +2668,7 @@
         "index": {
           "description": "The AST node corresponding to the affinity of column or value type Used by Type",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinity",
           "package": "language-sqlite",
@@ -2469,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to one of zero to two fields annotating a column or\n   value type with size limits.  Used by \u003ccode\u003e\u003ca\u003eMaybeTypeSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeSizeField",
           "package": "language-sqlite",
@@ -2478,6 +2693,7 @@
         "index": {
           "description": "The AST node corresponding to one of zero to two fields annotating column or value type with size limits Used by MaybeTypeSize",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeSizeField",
           "package": "language-sqlite",
@@ -2492,6 +2708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier which does not allow any levels of qualification.  This is typically\n   a database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UnqualifiedIdentifier",
           "package": "language-sqlite",
@@ -2501,6 +2718,7 @@
         "index": {
           "description": "An identifier which does not allow any levels of qualification This is typically database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UnqualifiedIdentifier",
           "package": "language-sqlite",
@@ -2515,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eUPDATE\u003c/code\u003e statement without a \u003ccode\u003eLIMIT\u003c/code\u003e clause.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Update",
           "package": "language-sqlite",
@@ -2524,6 +2743,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an UPDATE statement without LIMIT clause Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Update",
           "package": "language-sqlite",
@@ -2538,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to an update head.  Used by \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateHead",
           "package": "language-sqlite",
@@ -2547,6 +2768,7 @@
         "index": {
           "description": "The AST node corresponding to an update head Used by Update and UpdateLimited",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateHead",
           "package": "language-sqlite",
@@ -2561,6 +2783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   an \u003ccode\u003eUPDATE\u003c/code\u003e statement with a \u003ccode\u003eLIMIT\u003c/code\u003e clause.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateLimited",
           "package": "language-sqlite",
@@ -2570,6 +2793,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to an UPDATE statement with LIMIT clause Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateLimited",
           "package": "language-sqlite",
@@ -2584,6 +2808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type synonym which matches only the AST node corresponding to\n   a \u003ccode\u003eVACUUM\u003c/code\u003e statement.\n   Useful at top level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Vacuum",
           "package": "language-sqlite",
@@ -2593,6 +2818,7 @@
         "index": {
           "description": "type synonym which matches only the AST node corresponding to VACUUM statement Useful at top level",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Vacuum",
           "package": "language-sqlite",
@@ -2607,6 +2833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eWHEN\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eCreateTrigger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "WhenClause",
           "package": "language-sqlite",
@@ -2616,6 +2843,7 @@
         "index": {
           "description": "The AST node corresponding to WHEN clause Used by CreateTrigger",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "WhenClause",
           "package": "language-sqlite",
@@ -2630,6 +2858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe AST node corresponding to a \u003ccode\u003eWHERE\u003c/code\u003e clause.  Used by \u003ccode\u003e\u003ca\u003eSelectCore\u003c/a\u003e\u003c/code\u003e,\n   \u003ccode\u003e\u003ca\u003eDelete\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDeleteLimited\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eUpdate\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eUpdateLimited\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "WhereClause",
           "package": "language-sqlite",
@@ -2639,6 +2868,7 @@
         "index": {
           "description": "The AST node corresponding to WHERE clause Used by SelectCore Delete DeleteLimited Update and UpdateLimited",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "WhereClause",
           "package": "language-sqlite",
@@ -2652,6 +2882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AddColumn",
           "package": "language-sqlite",
@@ -2661,6 +2892,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AddColumn",
           "package": "language-sqlite",
@@ -2674,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "After",
           "package": "language-sqlite",
@@ -2683,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "After",
           "package": "language-sqlite",
@@ -2696,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "All",
           "package": "language-sqlite",
@@ -2705,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "All",
           "package": "language-sqlite",
@@ -2718,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AlterTable",
           "package": "language-sqlite",
@@ -2727,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AlterTable",
           "normalized": "SinglyQualifiedIdentifier-\u003eAlterTableBody-\u003eStatement L NT NS AlterTable'",
@@ -2742,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Analyze",
           "package": "language-sqlite",
@@ -2751,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Analyze",
           "normalized": "SinglyQualifiedIdentifier-\u003eStatement L NT NS Analyze'",
@@ -2766,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "As",
           "package": "language-sqlite",
@@ -2775,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "As",
           "package": "language-sqlite",
@@ -2788,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "AsSelect",
           "package": "language-sqlite",
@@ -2797,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "AsSelect",
           "package": "language-sqlite",
@@ -2810,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Asc",
           "package": "language-sqlite",
@@ -2819,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Asc",
           "package": "language-sqlite",
@@ -2832,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Attach",
           "package": "language-sqlite",
@@ -2841,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Attach",
           "normalized": "MaybeDatabase-\u003eString-\u003eUnqualifiedIdentifier-\u003eStatement L NT NS Attach'",
@@ -2856,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Autoincrement",
           "package": "language-sqlite",
@@ -2865,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Autoincrement",
           "package": "language-sqlite",
@@ -2878,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Before",
           "package": "language-sqlite",
@@ -2887,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Before",
           "package": "language-sqlite",
@@ -2900,6 +3152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Begin",
           "package": "language-sqlite",
@@ -2909,6 +3162,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Begin",
           "normalized": "MaybeTransactionType-\u003eMaybeTransaction-\u003eStatement L NT NS Begin'",
@@ -2924,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CallPragmaBody",
           "package": "language-sqlite",
@@ -2933,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CallPragmaBody",
           "package": "language-sqlite",
@@ -2946,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Cascade",
           "package": "language-sqlite",
@@ -2955,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Cascade",
           "package": "language-sqlite",
@@ -2968,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Collation",
           "package": "language-sqlite",
@@ -2977,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Collation",
           "package": "language-sqlite",
@@ -2990,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Column",
           "package": "language-sqlite",
@@ -2999,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Column",
           "package": "language-sqlite",
@@ -3012,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnCheck",
           "package": "language-sqlite",
@@ -3021,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnCheck",
           "package": "language-sqlite",
@@ -3034,6 +3298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnCollate",
           "package": "language-sqlite",
@@ -3043,6 +3308,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnCollate",
           "package": "language-sqlite",
@@ -3056,6 +3322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefault",
           "package": "language-sqlite",
@@ -3065,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefault",
           "package": "language-sqlite",
@@ -3078,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefinition",
           "package": "language-sqlite",
@@ -3087,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnDefinition",
           "normalized": "ColumnDefinition UnqualifiedIdentifier MaybeType[ColumnConstraint]",
@@ -3102,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnForeignKey",
           "package": "language-sqlite",
@@ -3111,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnForeignKey",
           "package": "language-sqlite",
@@ -3124,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnNotNull",
           "package": "language-sqlite",
@@ -3133,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnNotNull",
           "package": "language-sqlite",
@@ -3146,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnPrimaryKey",
           "package": "language-sqlite",
@@ -3155,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnPrimaryKey",
           "package": "language-sqlite",
@@ -3168,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnUnique",
           "package": "language-sqlite",
@@ -3177,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnUnique",
           "package": "language-sqlite",
@@ -3190,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ColumnsAndConstraints",
           "package": "language-sqlite",
@@ -3199,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ColumnsAndConstraints",
           "normalized": "ColumnsAndConstraints(OneOrMore ColumnDefinition)[TableConstraint]",
@@ -3214,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Comma",
           "package": "language-sqlite",
@@ -3223,6 +3504,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Comma",
           "package": "language-sqlite",
@@ -3236,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Commit",
           "package": "language-sqlite",
@@ -3245,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Commit",
           "normalized": "CommitHead-\u003eMaybeTransaction-\u003eStatement L NT NS Commit'",
@@ -3260,6 +3544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CommitCommit",
           "package": "language-sqlite",
@@ -3269,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CommitCommit",
           "package": "language-sqlite",
@@ -3282,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CommitEnd",
           "package": "language-sqlite",
@@ -3291,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CommitEnd",
           "package": "language-sqlite",
@@ -3304,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ConstraintName",
           "package": "language-sqlite",
@@ -3313,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ConstraintName",
           "package": "language-sqlite",
@@ -3326,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateIndex",
           "package": "language-sqlite",
@@ -3335,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateIndex",
           "normalized": "MaybeUnique-\u003eMaybeIfNotExists-\u003eSinglyQualifiedIdentifier-\u003eUnqualifiedIdentifier-\u003eOneOrMore IndexedColumn-\u003eStatement L NT NS CreateIndex'",
@@ -3350,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateTable",
           "package": "language-sqlite",
@@ -3359,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateTable",
           "normalized": "MaybeTemporary-\u003eMaybeIfNotExists-\u003eSinglyQualifiedIdentifier-\u003eCreateTableBody-\u003eStatement L NT NS CreateTable'",
@@ -3374,6 +3668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateTrigger",
           "package": "language-sqlite",
@@ -3383,6 +3678,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateTrigger",
           "normalized": "MaybeTemporary-\u003eMaybeIfNotExists-\u003eSinglyQualifiedIdentifier-\u003eTriggerTime-\u003eTriggerCondition-\u003eUnqualifiedIdentifier-\u003eMaybeForEachRow-\u003eMaybe WhenClause-\u003eOneOrMore TriggerStatement-\u003eStatement L NT NS CreateTrigger'",
@@ -3398,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateView",
           "package": "language-sqlite",
@@ -3407,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateView",
           "normalized": "MaybeTemporary-\u003eMaybeIfNotExists-\u003eSinglyQualifiedIdentifier-\u003eStatement L T S Select'-\u003eStatement L NT NS CreateView'",
@@ -3422,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CreateVirtualTable",
           "package": "language-sqlite",
@@ -3431,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CreateVirtualTable",
           "normalized": "SinglyQualifiedIdentifier-\u003eUnqualifiedIdentifier-\u003e[ModuleArgument]-\u003eStatement L NT NS CreateVirtualTable'",
@@ -3446,6 +3746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "CrossJoin",
           "package": "language-sqlite",
@@ -3455,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "CrossJoin",
           "package": "language-sqlite",
@@ -3468,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Database",
           "package": "language-sqlite",
@@ -3477,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Database",
           "package": "language-sqlite",
@@ -3490,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueExpression",
           "package": "language-sqlite",
@@ -3499,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueExpression",
           "package": "language-sqlite",
@@ -3512,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralBlob",
           "package": "language-sqlite",
@@ -3521,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralBlob",
           "package": "language-sqlite",
@@ -3534,6 +3842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentDate",
           "package": "language-sqlite",
@@ -3543,6 +3852,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentDate",
           "package": "language-sqlite",
@@ -3556,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentTime",
           "package": "language-sqlite",
@@ -3565,6 +3876,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentTime",
           "package": "language-sqlite",
@@ -3578,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentTimestamp",
           "package": "language-sqlite",
@@ -3587,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralCurrentTimestamp",
           "package": "language-sqlite",
@@ -3600,6 +3914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralNull",
           "package": "language-sqlite",
@@ -3609,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralNull",
           "package": "language-sqlite",
@@ -3622,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralString",
           "package": "language-sqlite",
@@ -3631,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueLiteralString",
           "package": "language-sqlite",
@@ -3644,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueSignedFloat",
           "package": "language-sqlite",
@@ -3653,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueSignedFloat",
           "package": "language-sqlite",
@@ -3666,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueSignedInteger",
           "package": "language-sqlite",
@@ -3675,6 +3996,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DefaultValueSignedInteger",
           "package": "language-sqlite",
@@ -3688,6 +4010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Deferrable",
           "package": "language-sqlite",
@@ -3697,6 +4020,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Deferrable",
           "package": "language-sqlite",
@@ -3710,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Deferred",
           "package": "language-sqlite",
@@ -3719,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Deferred",
           "package": "language-sqlite",
@@ -3732,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Delete",
           "package": "language-sqlite",
@@ -3741,6 +4068,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Delete",
           "normalized": "QualifiedTableName-\u003eMaybe WhereClause-\u003eStatement L T NS Delete'",
@@ -3756,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DeleteLimited",
           "package": "language-sqlite",
@@ -3765,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DeleteLimited",
           "normalized": "QualifiedTableName-\u003eMaybe WhereClause-\u003eMaybe OrderClause-\u003eLimitClause-\u003eStatement L NT NS DeleteLimited'",
@@ -3780,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DeleteOn",
           "package": "language-sqlite",
@@ -3789,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DeleteOn",
           "package": "language-sqlite",
@@ -3802,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Desc",
           "package": "language-sqlite",
@@ -3811,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Desc",
           "package": "language-sqlite",
@@ -3824,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Detach",
           "package": "language-sqlite",
@@ -3833,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Detach",
           "normalized": "MaybeDatabase-\u003eUnqualifiedIdentifier-\u003eStatement L NT NS Detach'",
@@ -3848,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Distinct",
           "package": "language-sqlite",
@@ -3857,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Distinct",
           "package": "language-sqlite",
@@ -3870,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DoubleSize",
           "package": "language-sqlite",
@@ -3879,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DoubleSize",
           "package": "language-sqlite",
@@ -3892,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DoublyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -3901,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DoublyQualifiedIdentifier",
           "normalized": "DoublyQualifiedIdentifier(Maybe(String,Maybe String))String",
@@ -3916,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropIndex",
           "package": "language-sqlite",
@@ -3925,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropIndex",
           "normalized": "MaybeIfExists-\u003eSinglyQualifiedIdentifier-\u003eStatement L NT NS DropIndex'",
@@ -3940,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropTable",
           "package": "language-sqlite",
@@ -3949,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropTable",
           "normalized": "MaybeIfExists-\u003eSinglyQualifiedIdentifier-\u003eStatement L NT NS DropTable'",
@@ -3964,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropTrigger",
           "package": "language-sqlite",
@@ -3973,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropTrigger",
           "normalized": "MaybeIfExists-\u003eSinglyQualifiedIdentifier-\u003eStatement L NT NS DropTrigger'",
@@ -3988,6 +4336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "DropView",
           "package": "language-sqlite",
@@ -3997,6 +4346,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "DropView",
           "normalized": "MaybeIfExists-\u003eSinglyQualifiedIdentifier-\u003eStatement L NT NS DropView'",
@@ -4012,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ElidedAs",
           "package": "language-sqlite",
@@ -4021,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ElidedAs",
           "package": "language-sqlite",
@@ -4034,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ElidedColumn",
           "package": "language-sqlite",
@@ -4043,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ElidedColumn",
           "package": "language-sqlite",
@@ -4056,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ElidedDatabase",
           "package": "language-sqlite",
@@ -4065,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ElidedDatabase",
           "package": "language-sqlite",
@@ -4078,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ElidedReleaseSavepoint",
           "package": "language-sqlite",
@@ -4087,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ElidedReleaseSavepoint",
           "package": "language-sqlite",
@@ -4100,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ElidedTransaction",
           "package": "language-sqlite",
@@ -4109,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ElidedTransaction",
           "package": "language-sqlite",
@@ -4122,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Else",
           "package": "language-sqlite",
@@ -4131,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Else",
           "package": "language-sqlite",
@@ -4144,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "EmptyPragmaBody",
           "package": "language-sqlite",
@@ -4153,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "EmptyPragmaBody",
           "package": "language-sqlite",
@@ -4166,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "EndOfInputToken",
           "package": "language-sqlite",
@@ -4175,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "EndOfInputToken",
           "package": "language-sqlite",
@@ -4188,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "EqualsPragmaBody",
           "package": "language-sqlite",
@@ -4197,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "EqualsPragmaBody",
           "package": "language-sqlite",
@@ -4210,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Escape",
           "package": "language-sqlite",
@@ -4219,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Escape",
           "package": "language-sqlite",
@@ -4232,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Except",
           "package": "language-sqlite",
@@ -4241,6 +4612,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Except",
           "package": "language-sqlite",
@@ -4254,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Exclusive",
           "package": "language-sqlite",
@@ -4263,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Exclusive",
           "package": "language-sqlite",
@@ -4276,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Explain",
           "package": "language-sqlite",
@@ -4285,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Explain",
           "normalized": "ExplainableStatement-\u003eStatement L NT NS Explain'",
@@ -4300,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExplainQueryPlan",
           "package": "language-sqlite",
@@ -4309,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExplainQueryPlan",
           "normalized": "ExplainableStatement-\u003eStatement L NT NS ExplainQueryPlan'",
@@ -4324,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExplainableStatement",
           "package": "language-sqlite",
@@ -4333,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExplainableStatement",
           "package": "language-sqlite",
@@ -4347,6 +4727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eBETWEEN\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBetween",
           "package": "language-sqlite",
@@ -4357,6 +4738,7 @@
         "index": {
           "description": "Represents BETWEEN expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBetween",
           "package": "language-sqlite",
@@ -4371,6 +4753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary addition expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryAdd",
           "package": "language-sqlite",
@@ -4381,6 +4764,7 @@
         "index": {
           "description": "Represents binary addition expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryAdd",
           "package": "language-sqlite",
@@ -4395,6 +4779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary bitwise-and expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryBitwiseAnd",
           "package": "language-sqlite",
@@ -4405,6 +4790,7 @@
         "index": {
           "description": "Represents binary bitwise-and expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryBitwiseAnd",
           "package": "language-sqlite",
@@ -4419,6 +4805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary bitwise-or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryBitwiseOr",
           "package": "language-sqlite",
@@ -4429,6 +4816,7 @@
         "index": {
           "description": "Represents binary bitwise-or expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryBitwiseOr",
           "package": "language-sqlite",
@@ -4443,6 +4831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary string-concatenation expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryConcatenate",
           "package": "language-sqlite",
@@ -4453,6 +4842,7 @@
         "index": {
           "description": "Represents binary string-concatenation expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryConcatenate",
           "package": "language-sqlite",
@@ -4467,6 +4857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary division expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryDivide",
           "package": "language-sqlite",
@@ -4477,6 +4868,7 @@
         "index": {
           "description": "Represents binary division expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryDivide",
           "package": "language-sqlite",
@@ -4491,6 +4883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary equal-to comparison expression, written in SQL\n   as \u003ccode\u003e=\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryEquals",
           "package": "language-sqlite",
@@ -4501,6 +4894,7 @@
         "index": {
           "description": "Represents binary equal-to comparison expression written in SQL as",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryEquals",
           "package": "language-sqlite",
@@ -4515,6 +4909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary equal-to comparison expression, written in SQL\n   as \u003ccode\u003e==\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryEqualsEquals",
           "package": "language-sqlite",
@@ -4525,6 +4920,7 @@
         "index": {
           "description": "Represents binary equal-to comparison expression written in SQL as",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryEqualsEquals",
           "package": "language-sqlite",
@@ -4539,6 +4935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary greater-than comparison expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryGreater",
           "package": "language-sqlite",
@@ -4549,6 +4946,7 @@
         "index": {
           "description": "Represents binary greater-than comparison expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryGreater",
           "package": "language-sqlite",
@@ -4563,6 +4961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary greater-than-or-equal-to comparison expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryGreaterEquals",
           "package": "language-sqlite",
@@ -4573,6 +4972,7 @@
         "index": {
           "description": "Represents binary greater-than-or-equal-to comparison expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryGreaterEquals",
           "package": "language-sqlite",
@@ -4587,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary left-shift expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLeftShift",
           "package": "language-sqlite",
@@ -4597,6 +4998,7 @@
         "index": {
           "description": "Represents binary left-shift expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLeftShift",
           "package": "language-sqlite",
@@ -4611,6 +5013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary less-than comparison expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLess",
           "package": "language-sqlite",
@@ -4621,6 +5024,7 @@
         "index": {
           "description": "Represents binary less-than comparison expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLess",
           "package": "language-sqlite",
@@ -4635,6 +5039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary less-than-or-equal-to comparison expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLessEquals",
           "package": "language-sqlite",
@@ -4645,6 +5050,7 @@
         "index": {
           "description": "Represents binary less-than-or-equal-to comparison expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLessEquals",
           "package": "language-sqlite",
@@ -4659,6 +5065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary not-equal-to comparison expression, written in\n   SQL as \u003ccode\u003e\u003ca/\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLessGreater",
           "package": "language-sqlite",
@@ -4669,6 +5076,7 @@
         "index": {
           "description": "Represents binary not-equal-to comparison expression written in SQL as",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLessGreater",
           "package": "language-sqlite",
@@ -4683,6 +5091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary logical-and expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLogicalAnd",
           "package": "language-sqlite",
@@ -4693,6 +5102,7 @@
         "index": {
           "description": "Represents binary logical-and expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLogicalAnd",
           "package": "language-sqlite",
@@ -4707,6 +5117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary logical-or expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLogicalOr",
           "package": "language-sqlite",
@@ -4717,6 +5128,7 @@
         "index": {
           "description": "Represents binary logical-or expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryLogicalOr",
           "package": "language-sqlite",
@@ -4731,6 +5143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary modulus expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryModulus",
           "package": "language-sqlite",
@@ -4741,6 +5154,7 @@
         "index": {
           "description": "Represents binary modulus expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryModulus",
           "package": "language-sqlite",
@@ -4755,6 +5169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary multiplication expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryMultiply",
           "package": "language-sqlite",
@@ -4765,6 +5180,7 @@
         "index": {
           "description": "Represents binary multiplication expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryMultiply",
           "package": "language-sqlite",
@@ -4779,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary not-equal-to comparison expression, written in\n   SQL as \u003ccode\u003e!=\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryNotEquals",
           "package": "language-sqlite",
@@ -4789,6 +5206,7 @@
         "index": {
           "description": "Represents binary not-equal-to comparison expression written in SQL as",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryNotEquals",
           "package": "language-sqlite",
@@ -4803,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary right-shift expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryRightShift",
           "package": "language-sqlite",
@@ -4813,6 +5232,7 @@
         "index": {
           "description": "Represents binary right-shift expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinaryRightShift",
           "package": "language-sqlite",
@@ -4827,6 +5247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a binary subtraction expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinarySubtract",
           "package": "language-sqlite",
@@ -4837,6 +5258,7 @@
         "index": {
           "description": "Represents binary subtraction expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionBinarySubtract",
           "package": "language-sqlite",
@@ -4851,6 +5273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eCASE\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCase",
           "package": "language-sqlite",
@@ -4861,6 +5284,7 @@
         "index": {
           "description": "Represents CASE expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCase",
           "package": "language-sqlite",
@@ -4875,6 +5299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a type-cast expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCast",
           "package": "language-sqlite",
@@ -4885,6 +5310,7 @@
         "index": {
           "description": "Represents type-cast expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCast",
           "package": "language-sqlite",
@@ -4899,6 +5325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eCOLLATE\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCollate",
           "package": "language-sqlite",
@@ -4909,6 +5336,7 @@
         "index": {
           "description": "Represents COLLATE expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionCollate",
           "package": "language-sqlite",
@@ -4923,6 +5351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a subquery \u003ccode\u003eSELECT\u003c/code\u003e expression with the \u003ccode\u003eEXISTS\u003c/code\u003e\n   qualifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionExistsSubquery",
           "package": "language-sqlite",
@@ -4933,6 +5362,7 @@
         "index": {
           "description": "Represents subquery SELECT expression with the EXISTS qualifier",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionExistsSubquery",
           "package": "language-sqlite",
@@ -4947,6 +5377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a call to a built-in function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCall",
           "package": "language-sqlite",
@@ -4957,6 +5388,7 @@
         "index": {
           "description": "Represents call to built-in function",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCall",
           "normalized": "ExpressionFunctionCall UnqualifiedIdentifier[Expression]",
@@ -4973,6 +5405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a call to a built-in function, with the \u003ccode\u003eDISTINCT\u003c/code\u003e\n   qualifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCallDistinct",
           "package": "language-sqlite",
@@ -4983,6 +5416,7 @@
         "index": {
           "description": "Represents call to built-in function with the DISTINCT qualifier",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCallDistinct",
           "package": "language-sqlite",
@@ -4997,6 +5431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a call to a built-in function, with \u003ccode\u003e*\u003c/code\u003e as \n   parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCallStar",
           "package": "language-sqlite",
@@ -5007,6 +5442,7 @@
         "index": {
           "description": "Represents call to built-in function with as parameter",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionFunctionCallStar",
           "package": "language-sqlite",
@@ -5021,6 +5457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a column-name expression, optionally qualified by a\n   table name and further by a database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIdentifier",
           "package": "language-sqlite",
@@ -5031,6 +5468,7 @@
         "index": {
           "description": "Represents column-name expression optionally qualified by table name and further by database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIdentifier",
           "package": "language-sqlite",
@@ -5045,6 +5483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eIN\u003c/code\u003e expression with the right-hand side being a\n   list of subexpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInList",
           "package": "language-sqlite",
@@ -5055,6 +5494,7 @@
         "index": {
           "description": "Represents an IN expression with the right-hand side being list of subexpressions",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInList",
           "normalized": "ExpressionInList Expression[Expression]",
@@ -5071,6 +5511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eIN\u003c/code\u003e expression with the right-hand side being a\n   \u003ccode\u003eSELECT\u003c/code\u003e statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInSelect",
           "package": "language-sqlite",
@@ -5081,6 +5522,7 @@
         "index": {
           "description": "Represents an IN expression with the right-hand side being SELECT statement",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInSelect",
           "package": "language-sqlite",
@@ -5095,6 +5537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eIN\u003c/code\u003e expression with the right-hand side being a\n   table name, optionally qualified by a database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInTable",
           "package": "language-sqlite",
@@ -5105,6 +5548,7 @@
         "index": {
           "description": "Represents an IN expression with the right-hand side being table name optionally qualified by database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionInTable",
           "package": "language-sqlite",
@@ -5119,6 +5563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eIS\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIs",
           "package": "language-sqlite",
@@ -5129,6 +5574,7 @@
         "index": {
           "description": "Represents an IS expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIs",
           "package": "language-sqlite",
@@ -5143,6 +5589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eIS NOT\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIsNot",
           "package": "language-sqlite",
@@ -5153,6 +5600,7 @@
         "index": {
           "description": "Represents an IS NOT expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIsNot",
           "package": "language-sqlite",
@@ -5167,6 +5615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an \u003ccode\u003eISNULL\u003c/code\u003e expression.  Not to be confused with an\n   \u003ccode\u003eIS\u003c/code\u003e expression with a literal \u003ccode\u003eNULL\u003c/code\u003e as its right side; the\n   meaning is the same but the parsing is different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIsnull",
           "package": "language-sqlite",
@@ -5177,6 +5626,7 @@
         "index": {
           "description": "Represents an ISNULL expression Not to be confused with an IS expression with literal NULL as its right side the meaning is the same but the parsing is different",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionIsnull",
           "package": "language-sqlite",
@@ -5191,6 +5641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a textual comparison expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLike",
           "package": "language-sqlite",
@@ -5201,6 +5652,7 @@
         "index": {
           "description": "Represents textual comparison expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLike",
           "package": "language-sqlite",
@@ -5215,6 +5667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal blob (binary large object) expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralBlob",
           "package": "language-sqlite",
@@ -5225,6 +5678,7 @@
         "index": {
           "description": "Represents literal blob binary large object expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralBlob",
           "package": "language-sqlite",
@@ -5239,6 +5693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal \u003ccode\u003ecurrent_date\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentDate",
           "package": "language-sqlite",
@@ -5249,6 +5704,7 @@
         "index": {
           "description": "Represents literal current date expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentDate",
           "package": "language-sqlite",
@@ -5263,6 +5719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal \u003ccode\u003ecurrent_time\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentTime",
           "package": "language-sqlite",
@@ -5273,6 +5730,7 @@
         "index": {
           "description": "Represents literal current time expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentTime",
           "package": "language-sqlite",
@@ -5287,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal \u003ccode\u003ecurrent_timestamp\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentTimestamp",
           "package": "language-sqlite",
@@ -5297,6 +5756,7 @@
         "index": {
           "description": "Represents literal current timestamp expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralCurrentTimestamp",
           "package": "language-sqlite",
@@ -5311,6 +5771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal floating-point expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralFloat",
           "package": "language-sqlite",
@@ -5321,6 +5782,7 @@
         "index": {
           "description": "Represents literal floating-point expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralFloat",
           "package": "language-sqlite",
@@ -5335,6 +5797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal integer expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralInteger",
           "package": "language-sqlite",
@@ -5345,6 +5808,7 @@
         "index": {
           "description": "Represents literal integer expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralInteger",
           "package": "language-sqlite",
@@ -5359,6 +5823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal \u003ccode\u003eNULL\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralNull",
           "package": "language-sqlite",
@@ -5369,6 +5834,7 @@
         "index": {
           "description": "Represents literal NULL expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralNull",
           "package": "language-sqlite",
@@ -5383,6 +5849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a literal string expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralString",
           "package": "language-sqlite",
@@ -5393,6 +5860,7 @@
         "index": {
           "description": "Represents literal string expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionLiteralString",
           "package": "language-sqlite",
@@ -5407,6 +5875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOT BETWEEN\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotBetween",
           "package": "language-sqlite",
@@ -5417,6 +5886,7 @@
         "index": {
           "description": "Represents NOT BETWEEN expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotBetween",
           "package": "language-sqlite",
@@ -5431,6 +5901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a subquery \u003ccode\u003eSELECT\u003c/code\u003e expression with the \u003ccode\u003eNOT EXISTS\u003c/code\u003e\n   qualifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotExistsSubquery",
           "package": "language-sqlite",
@@ -5441,6 +5912,7 @@
         "index": {
           "description": "Represents subquery SELECT expression with the NOT EXISTS qualifier",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotExistsSubquery",
           "package": "language-sqlite",
@@ -5455,6 +5927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOT IN\u003c/code\u003e expression with the right-hand side being a\n   list of subexpressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInList",
           "package": "language-sqlite",
@@ -5465,6 +5938,7 @@
         "index": {
           "description": "Represents NOT IN expression with the right-hand side being list of subexpressions",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInList",
           "normalized": "ExpressionNotInList Expression[Expression]",
@@ -5481,6 +5955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOT IN\u003c/code\u003e expression with the right-hand side being a\n   \u003ccode\u003eSELECT\u003c/code\u003e statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInSelect",
           "package": "language-sqlite",
@@ -5491,6 +5966,7 @@
         "index": {
           "description": "Represents NOT IN expression with the right-hand side being SELECT statement",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInSelect",
           "package": "language-sqlite",
@@ -5505,6 +5981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOT IN\u003c/code\u003e expression with the right-hand side being a\n   table name, optionally qualified by a database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInTable",
           "package": "language-sqlite",
@@ -5515,6 +5992,7 @@
         "index": {
           "description": "Represents NOT IN expression with the right-hand side being table name optionally qualified by database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotInTable",
           "package": "language-sqlite",
@@ -5529,6 +6007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOT NULL\u003c/code\u003e expression.  Not to be confused with a\n   \u003ccode\u003eNOTNULL\u003c/code\u003e expression; the meaning is the same but the parsing is\n   different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotNull",
           "package": "language-sqlite",
@@ -5539,6 +6018,7 @@
         "index": {
           "description": "Represents NOT NULL expression Not to be confused with NOTNULL expression the meaning is the same but the parsing is different",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotNull",
           "package": "language-sqlite",
@@ -5553,6 +6033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eNOTNULL\u003c/code\u003e expression.  Not to be confused with a\n   \u003ccode\u003eNOT NULL\u003c/code\u003e expression; the meaning is the same but the parsing is\n   different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotnull",
           "package": "language-sqlite",
@@ -5563,6 +6044,7 @@
         "index": {
           "description": "Represents NOTNULL expression Not to be confused with NOT NULL expression the meaning is the same but the parsing is different",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionNotnull",
           "package": "language-sqlite",
@@ -5577,6 +6059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a parenthesized subexpression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionParenthesized",
           "package": "language-sqlite",
@@ -5587,6 +6070,7 @@
         "index": {
           "description": "Represents parenthesized subexpression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionParenthesized",
           "package": "language-sqlite",
@@ -5601,6 +6085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eRAISE(ABORT, string)\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseAbort",
           "package": "language-sqlite",
@@ -5611,6 +6096,7 @@
         "index": {
           "description": "Represents RAISE ABORT string expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseAbort",
           "package": "language-sqlite",
@@ -5625,6 +6111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eRAISE(FAIL, string)\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseFail",
           "package": "language-sqlite",
@@ -5635,6 +6122,7 @@
         "index": {
           "description": "Represents RAISE FAIL string expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseFail",
           "package": "language-sqlite",
@@ -5649,6 +6137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eRAISE(IGNORE)\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseIgnore",
           "package": "language-sqlite",
@@ -5659,6 +6148,7 @@
         "index": {
           "description": "Represents RAISE IGNORE expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseIgnore",
           "package": "language-sqlite",
@@ -5673,6 +6163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a \u003ccode\u003eRAISE(ROLLBACK, string)\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseRollback",
           "package": "language-sqlite",
@@ -5683,6 +6174,7 @@
         "index": {
           "description": "Represents RAISE ROLLBACK string expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionRaiseRollback",
           "package": "language-sqlite",
@@ -5697,6 +6189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a subquery \u003ccode\u003eSELECT\u003c/code\u003e expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionSubquery",
           "package": "language-sqlite",
@@ -5707,6 +6200,7 @@
         "index": {
           "description": "Represents subquery SELECT expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionSubquery",
           "package": "language-sqlite",
@@ -5721,6 +6215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a unary bitwise negation expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryBitwiseNot",
           "package": "language-sqlite",
@@ -5731,6 +6226,7 @@
         "index": {
           "description": "Represents unary bitwise negation expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryBitwiseNot",
           "package": "language-sqlite",
@@ -5745,6 +6241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a unary logical negation expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryLogicalNot",
           "package": "language-sqlite",
@@ -5755,6 +6252,7 @@
         "index": {
           "description": "Represents unary logical negation expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryLogicalNot",
           "package": "language-sqlite",
@@ -5769,6 +6267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a unary negation expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryNegative",
           "package": "language-sqlite",
@@ -5779,6 +6278,7 @@
         "index": {
           "description": "Represents unary negation expression",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryNegative",
           "package": "language-sqlite",
@@ -5793,6 +6293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a unary positive-sign expression.  Yes, this is an nop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryPositive",
           "package": "language-sqlite",
@@ -5803,6 +6304,7 @@
         "index": {
           "description": "Represents unary positive-sign expression Yes this is an nop",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionUnaryPositive",
           "package": "language-sqlite",
@@ -5817,6 +6319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a positional-variable expression, written in SQL as \u003ccode\u003e?\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariable",
           "package": "language-sqlite",
@@ -5827,6 +6330,7 @@
         "index": {
           "description": "Represents positional-variable expression written in SQL as",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariable",
           "package": "language-sqlite",
@@ -5841,6 +6345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a numbered positional variable expression, written in\n   SQL as \u003ccode\u003e?nnn\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariableN",
           "package": "language-sqlite",
@@ -5851,6 +6356,7 @@
         "index": {
           "description": "Represents numbered positional variable expression written in SQL as nnn",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariableN",
           "package": "language-sqlite",
@@ -5865,6 +6371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a named positional variable expression, written in\n   SQL as \u003ccode\u003e:aaaa\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariableNamed",
           "package": "language-sqlite",
@@ -5875,6 +6382,7 @@
         "index": {
           "description": "Represents named positional variable expression written in SQL as aaaa",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ExpressionVariableNamed",
           "package": "language-sqlite",
@@ -5888,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ForEachRow",
           "package": "language-sqlite",
@@ -5897,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ForEachRow",
           "package": "language-sqlite",
@@ -5910,6 +6420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "From",
           "package": "language-sqlite",
@@ -5919,6 +6430,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "From",
           "package": "language-sqlite",
@@ -5932,6 +6444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Glob",
           "package": "language-sqlite",
@@ -5941,6 +6454,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Glob",
           "package": "language-sqlite",
@@ -5954,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "GroupBy",
           "package": "language-sqlite",
@@ -5963,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "GroupBy",
           "package": "language-sqlite",
@@ -5976,6 +6492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Having",
           "package": "language-sqlite",
@@ -5985,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Having",
           "package": "language-sqlite",
@@ -5998,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Identifier",
           "package": "language-sqlite",
@@ -6007,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Identifier",
           "package": "language-sqlite",
@@ -6020,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IfExists",
           "package": "language-sqlite",
@@ -6029,6 +6550,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IfExists",
           "package": "language-sqlite",
@@ -6042,6 +6564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IfNotExists",
           "package": "language-sqlite",
@@ -6051,6 +6574,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IfNotExists",
           "package": "language-sqlite",
@@ -6064,6 +6588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Immediate",
           "package": "language-sqlite",
@@ -6073,6 +6598,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Immediate",
           "package": "language-sqlite",
@@ -6086,6 +6612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IndexedBy",
           "package": "language-sqlite",
@@ -6095,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IndexedBy",
           "package": "language-sqlite",
@@ -6108,6 +6636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IndexedColumn",
           "package": "language-sqlite",
@@ -6117,6 +6646,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IndexedColumn",
           "package": "language-sqlite",
@@ -6130,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InitiallyDeferred",
           "package": "language-sqlite",
@@ -6139,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InitiallyDeferred",
           "package": "language-sqlite",
@@ -6152,6 +6684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InitiallyImmediate",
           "package": "language-sqlite",
@@ -6161,6 +6694,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InitiallyImmediate",
           "package": "language-sqlite",
@@ -6174,6 +6708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InnerJoin",
           "package": "language-sqlite",
@@ -6183,6 +6718,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InnerJoin",
           "package": "language-sqlite",
@@ -6196,6 +6732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Insert",
           "package": "language-sqlite",
@@ -6205,6 +6742,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Insert",
           "normalized": "InsertHead-\u003eSinglyQualifiedIdentifier-\u003eInsertBody-\u003eStatement L T NS Insert'",
@@ -6220,6 +6758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertDefaultValues",
           "package": "language-sqlite",
@@ -6229,6 +6768,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertDefaultValues",
           "package": "language-sqlite",
@@ -6242,6 +6782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertNoAlternative",
           "package": "language-sqlite",
@@ -6251,6 +6792,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertNoAlternative",
           "package": "language-sqlite",
@@ -6264,6 +6806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOn",
           "package": "language-sqlite",
@@ -6273,6 +6816,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOn",
           "package": "language-sqlite",
@@ -6286,6 +6830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrAbort",
           "package": "language-sqlite",
@@ -6295,6 +6840,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrAbort",
           "package": "language-sqlite",
@@ -6308,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrFail",
           "package": "language-sqlite",
@@ -6317,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrFail",
           "package": "language-sqlite",
@@ -6330,6 +6878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrIgnore",
           "package": "language-sqlite",
@@ -6339,6 +6888,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrIgnore",
           "package": "language-sqlite",
@@ -6352,6 +6902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrReplace",
           "package": "language-sqlite",
@@ -6361,6 +6912,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrReplace",
           "package": "language-sqlite",
@@ -6374,6 +6926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrRollback",
           "package": "language-sqlite",
@@ -6383,6 +6936,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertOrRollback",
           "package": "language-sqlite",
@@ -6396,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertSelect",
           "package": "language-sqlite",
@@ -6405,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertSelect",
           "normalized": "InsertSelect[UnqualifiedIdentifier]Select",
@@ -6420,6 +6976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsertValues",
           "package": "language-sqlite",
@@ -6429,6 +6986,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsertValues",
           "normalized": "InsertValues[UnqualifiedIdentifier](OneOrMore Expression)",
@@ -6444,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "InsteadOf",
           "package": "language-sqlite",
@@ -6453,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "InsteadOf",
           "package": "language-sqlite",
@@ -6466,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "IntegerSize",
           "package": "language-sqlite",
@@ -6475,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "IntegerSize",
           "package": "language-sqlite",
@@ -6488,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Intersect",
           "package": "language-sqlite",
@@ -6497,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Intersect",
           "package": "language-sqlite",
@@ -6510,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Join",
           "package": "language-sqlite",
@@ -6519,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Join",
           "package": "language-sqlite",
@@ -6532,6 +7098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "JoinSource",
           "package": "language-sqlite",
@@ -6541,6 +7108,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "JoinSource",
           "normalized": "JoinSource SingleSource[(JoinOperation,SingleSource,JoinConstraint)]",
@@ -6556,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "JustType",
           "package": "language-sqlite",
@@ -6565,6 +7134,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "JustType",
           "package": "language-sqlite",
@@ -6578,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAbort",
           "package": "language-sqlite",
@@ -6587,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAbort",
           "package": "language-sqlite",
@@ -6600,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAction",
           "package": "language-sqlite",
@@ -6609,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAction",
           "package": "language-sqlite",
@@ -6622,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAdd",
           "package": "language-sqlite",
@@ -6631,6 +7206,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAdd",
           "package": "language-sqlite",
@@ -6644,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAfter",
           "package": "language-sqlite",
@@ -6653,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAfter",
           "package": "language-sqlite",
@@ -6666,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAll",
           "package": "language-sqlite",
@@ -6675,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAll",
           "package": "language-sqlite",
@@ -6688,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAlter",
           "package": "language-sqlite",
@@ -6697,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAlter",
           "package": "language-sqlite",
@@ -6710,6 +7292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAnalyze",
           "package": "language-sqlite",
@@ -6719,6 +7302,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAnalyze",
           "package": "language-sqlite",
@@ -6732,6 +7316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAnd",
           "package": "language-sqlite",
@@ -6741,6 +7326,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAnd",
           "package": "language-sqlite",
@@ -6754,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAs",
           "package": "language-sqlite",
@@ -6763,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAs",
           "package": "language-sqlite",
@@ -6776,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAsc",
           "package": "language-sqlite",
@@ -6785,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAsc",
           "package": "language-sqlite",
@@ -6798,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAttach",
           "package": "language-sqlite",
@@ -6807,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAttach",
           "package": "language-sqlite",
@@ -6820,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAutoincrement",
           "package": "language-sqlite",
@@ -6829,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordAutoincrement",
           "package": "language-sqlite",
@@ -6842,6 +7436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBefore",
           "package": "language-sqlite",
@@ -6851,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBefore",
           "package": "language-sqlite",
@@ -6864,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBegin",
           "package": "language-sqlite",
@@ -6873,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBegin",
           "package": "language-sqlite",
@@ -6886,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBetween",
           "package": "language-sqlite",
@@ -6895,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBetween",
           "package": "language-sqlite",
@@ -6908,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBy",
           "package": "language-sqlite",
@@ -6917,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordBy",
           "package": "language-sqlite",
@@ -6930,6 +7532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCascade",
           "package": "language-sqlite",
@@ -6939,6 +7542,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCascade",
           "package": "language-sqlite",
@@ -6952,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCase",
           "package": "language-sqlite",
@@ -6961,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCase",
           "package": "language-sqlite",
@@ -6974,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCast",
           "package": "language-sqlite",
@@ -6983,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCast",
           "package": "language-sqlite",
@@ -6996,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCheck",
           "package": "language-sqlite",
@@ -7005,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCheck",
           "package": "language-sqlite",
@@ -7018,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCollate",
           "package": "language-sqlite",
@@ -7027,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCollate",
           "package": "language-sqlite",
@@ -7040,6 +7652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordColumn",
           "package": "language-sqlite",
@@ -7049,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordColumn",
           "package": "language-sqlite",
@@ -7062,6 +7676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCommit",
           "package": "language-sqlite",
@@ -7071,6 +7686,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCommit",
           "package": "language-sqlite",
@@ -7084,6 +7700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordConflict",
           "package": "language-sqlite",
@@ -7093,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordConflict",
           "package": "language-sqlite",
@@ -7106,6 +7724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordConstraint",
           "package": "language-sqlite",
@@ -7115,6 +7734,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordConstraint",
           "package": "language-sqlite",
@@ -7128,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCreate",
           "package": "language-sqlite",
@@ -7137,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCreate",
           "package": "language-sqlite",
@@ -7150,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCross",
           "package": "language-sqlite",
@@ -7159,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCross",
           "package": "language-sqlite",
@@ -7172,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentDate",
           "package": "language-sqlite",
@@ -7181,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentDate",
           "package": "language-sqlite",
@@ -7194,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentTime",
           "package": "language-sqlite",
@@ -7203,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentTime",
           "package": "language-sqlite",
@@ -7216,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentTimestamp",
           "package": "language-sqlite",
@@ -7225,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordCurrentTimestamp",
           "package": "language-sqlite",
@@ -7238,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDatabase",
           "package": "language-sqlite",
@@ -7247,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDatabase",
           "package": "language-sqlite",
@@ -7260,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDefault",
           "package": "language-sqlite",
@@ -7269,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDefault",
           "package": "language-sqlite",
@@ -7282,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDeferrable",
           "package": "language-sqlite",
@@ -7291,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDeferrable",
           "package": "language-sqlite",
@@ -7304,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDeferred",
           "package": "language-sqlite",
@@ -7313,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDeferred",
           "package": "language-sqlite",
@@ -7326,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDelete",
           "package": "language-sqlite",
@@ -7335,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDelete",
           "package": "language-sqlite",
@@ -7348,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDesc",
           "package": "language-sqlite",
@@ -7357,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDesc",
           "package": "language-sqlite",
@@ -7370,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDetach",
           "package": "language-sqlite",
@@ -7379,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDetach",
           "package": "language-sqlite",
@@ -7392,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDistinct",
           "package": "language-sqlite",
@@ -7401,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDistinct",
           "package": "language-sqlite",
@@ -7414,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDrop",
           "package": "language-sqlite",
@@ -7423,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordDrop",
           "package": "language-sqlite",
@@ -7436,6 +8084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEach",
           "package": "language-sqlite",
@@ -7445,6 +8094,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEach",
           "package": "language-sqlite",
@@ -7458,6 +8108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordElse",
           "package": "language-sqlite",
@@ -7467,6 +8118,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordElse",
           "package": "language-sqlite",
@@ -7480,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEnd",
           "package": "language-sqlite",
@@ -7489,6 +8142,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEnd",
           "package": "language-sqlite",
@@ -7502,6 +8156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEscape",
           "package": "language-sqlite",
@@ -7511,6 +8166,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordEscape",
           "package": "language-sqlite",
@@ -7524,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExcept",
           "package": "language-sqlite",
@@ -7533,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExcept",
           "package": "language-sqlite",
@@ -7546,6 +8204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExclusive",
           "package": "language-sqlite",
@@ -7555,6 +8214,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExclusive",
           "package": "language-sqlite",
@@ -7568,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExists",
           "package": "language-sqlite",
@@ -7577,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExists",
           "package": "language-sqlite",
@@ -7590,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExplain",
           "package": "language-sqlite",
@@ -7599,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordExplain",
           "package": "language-sqlite",
@@ -7612,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFail",
           "package": "language-sqlite",
@@ -7621,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFail",
           "package": "language-sqlite",
@@ -7634,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFor",
           "package": "language-sqlite",
@@ -7643,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFor",
           "package": "language-sqlite",
@@ -7656,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordForeign",
           "package": "language-sqlite",
@@ -7665,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordForeign",
           "package": "language-sqlite",
@@ -7678,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFrom",
           "package": "language-sqlite",
@@ -7687,6 +8358,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFrom",
           "package": "language-sqlite",
@@ -7700,6 +8372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFull",
           "package": "language-sqlite",
@@ -7709,6 +8382,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordFull",
           "package": "language-sqlite",
@@ -7722,6 +8396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordGlob",
           "package": "language-sqlite",
@@ -7731,6 +8406,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordGlob",
           "package": "language-sqlite",
@@ -7744,6 +8420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordGroup",
           "package": "language-sqlite",
@@ -7753,6 +8430,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordGroup",
           "package": "language-sqlite",
@@ -7766,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordHaving",
           "package": "language-sqlite",
@@ -7775,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordHaving",
           "package": "language-sqlite",
@@ -7788,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIf",
           "package": "language-sqlite",
@@ -7797,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIf",
           "package": "language-sqlite",
@@ -7810,6 +8492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIgnore",
           "package": "language-sqlite",
@@ -7819,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIgnore",
           "package": "language-sqlite",
@@ -7832,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordImmediate",
           "package": "language-sqlite",
@@ -7841,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordImmediate",
           "package": "language-sqlite",
@@ -7854,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIn",
           "package": "language-sqlite",
@@ -7863,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIn",
           "package": "language-sqlite",
@@ -7876,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIndex",
           "package": "language-sqlite",
@@ -7885,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIndex",
           "package": "language-sqlite",
@@ -7898,6 +8588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIndexed",
           "package": "language-sqlite",
@@ -7907,6 +8598,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIndexed",
           "package": "language-sqlite",
@@ -7920,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInitially",
           "package": "language-sqlite",
@@ -7929,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInitially",
           "package": "language-sqlite",
@@ -7942,6 +8636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInner",
           "package": "language-sqlite",
@@ -7951,6 +8646,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInner",
           "package": "language-sqlite",
@@ -7964,6 +8660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInsert",
           "package": "language-sqlite",
@@ -7973,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInsert",
           "package": "language-sqlite",
@@ -7986,6 +8684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInstead",
           "package": "language-sqlite",
@@ -7995,6 +8694,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInstead",
           "package": "language-sqlite",
@@ -8008,6 +8708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIntersect",
           "package": "language-sqlite",
@@ -8017,6 +8718,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIntersect",
           "package": "language-sqlite",
@@ -8030,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInto",
           "package": "language-sqlite",
@@ -8039,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordInto",
           "package": "language-sqlite",
@@ -8052,6 +8756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIs",
           "package": "language-sqlite",
@@ -8061,6 +8766,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIs",
           "package": "language-sqlite",
@@ -8074,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIsnull",
           "package": "language-sqlite",
@@ -8083,6 +8790,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordIsnull",
           "package": "language-sqlite",
@@ -8096,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordJoin",
           "package": "language-sqlite",
@@ -8105,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordJoin",
           "package": "language-sqlite",
@@ -8118,6 +8828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordKey",
           "package": "language-sqlite",
@@ -8127,6 +8838,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordKey",
           "package": "language-sqlite",
@@ -8140,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLeft",
           "package": "language-sqlite",
@@ -8149,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLeft",
           "package": "language-sqlite",
@@ -8162,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLike",
           "package": "language-sqlite",
@@ -8171,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLike",
           "package": "language-sqlite",
@@ -8184,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLimit",
           "package": "language-sqlite",
@@ -8193,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordLimit",
           "package": "language-sqlite",
@@ -8206,6 +8924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordMatch",
           "package": "language-sqlite",
@@ -8215,6 +8934,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordMatch",
           "package": "language-sqlite",
@@ -8228,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNatural",
           "package": "language-sqlite",
@@ -8237,6 +8958,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNatural",
           "package": "language-sqlite",
@@ -8250,6 +8972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNo",
           "package": "language-sqlite",
@@ -8259,6 +8982,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNo",
           "package": "language-sqlite",
@@ -8272,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNot",
           "package": "language-sqlite",
@@ -8281,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNot",
           "package": "language-sqlite",
@@ -8294,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNotnull",
           "package": "language-sqlite",
@@ -8303,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNotnull",
           "package": "language-sqlite",
@@ -8316,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNull",
           "package": "language-sqlite",
@@ -8325,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordNull",
           "package": "language-sqlite",
@@ -8338,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOf",
           "package": "language-sqlite",
@@ -8347,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOf",
           "package": "language-sqlite",
@@ -8360,6 +9092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOffset",
           "package": "language-sqlite",
@@ -8369,6 +9102,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOffset",
           "package": "language-sqlite",
@@ -8382,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOn",
           "package": "language-sqlite",
@@ -8391,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOn",
           "package": "language-sqlite",
@@ -8404,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOr",
           "package": "language-sqlite",
@@ -8413,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOr",
           "package": "language-sqlite",
@@ -8426,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOrder",
           "package": "language-sqlite",
@@ -8435,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOrder",
           "package": "language-sqlite",
@@ -8448,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOuter",
           "package": "language-sqlite",
@@ -8457,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordOuter",
           "package": "language-sqlite",
@@ -8470,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPlan",
           "package": "language-sqlite",
@@ -8479,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPlan",
           "package": "language-sqlite",
@@ -8492,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPragma",
           "package": "language-sqlite",
@@ -8501,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPragma",
           "package": "language-sqlite",
@@ -8514,6 +9260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPrimary",
           "package": "language-sqlite",
@@ -8523,6 +9270,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordPrimary",
           "package": "language-sqlite",
@@ -8536,6 +9284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordQuery",
           "package": "language-sqlite",
@@ -8545,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordQuery",
           "package": "language-sqlite",
@@ -8558,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRaise",
           "package": "language-sqlite",
@@ -8567,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRaise",
           "package": "language-sqlite",
@@ -8580,6 +9332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReferences",
           "package": "language-sqlite",
@@ -8589,6 +9342,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReferences",
           "package": "language-sqlite",
@@ -8602,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRegexp",
           "package": "language-sqlite",
@@ -8611,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRegexp",
           "package": "language-sqlite",
@@ -8624,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReindex",
           "package": "language-sqlite",
@@ -8633,6 +9390,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReindex",
           "package": "language-sqlite",
@@ -8646,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRelease",
           "package": "language-sqlite",
@@ -8655,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRelease",
           "package": "language-sqlite",
@@ -8668,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRename",
           "package": "language-sqlite",
@@ -8677,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRename",
           "package": "language-sqlite",
@@ -8690,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReplace",
           "package": "language-sqlite",
@@ -8699,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordReplace",
           "package": "language-sqlite",
@@ -8712,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRestrict",
           "package": "language-sqlite",
@@ -8721,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRestrict",
           "package": "language-sqlite",
@@ -8734,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRight",
           "package": "language-sqlite",
@@ -8743,6 +9510,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRight",
           "package": "language-sqlite",
@@ -8756,6 +9524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRollback",
           "package": "language-sqlite",
@@ -8765,6 +9534,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRollback",
           "package": "language-sqlite",
@@ -8778,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRow",
           "package": "language-sqlite",
@@ -8787,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordRow",
           "package": "language-sqlite",
@@ -8800,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSavepoint",
           "package": "language-sqlite",
@@ -8809,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSavepoint",
           "package": "language-sqlite",
@@ -8822,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSelect",
           "package": "language-sqlite",
@@ -8831,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSelect",
           "package": "language-sqlite",
@@ -8844,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSet",
           "package": "language-sqlite",
@@ -8853,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordSet",
           "package": "language-sqlite",
@@ -8866,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTable",
           "package": "language-sqlite",
@@ -8875,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTable",
           "package": "language-sqlite",
@@ -8888,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTemp",
           "package": "language-sqlite",
@@ -8897,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTemp",
           "package": "language-sqlite",
@@ -8910,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTemporary",
           "package": "language-sqlite",
@@ -8919,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTemporary",
           "package": "language-sqlite",
@@ -8932,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordThen",
           "package": "language-sqlite",
@@ -8941,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordThen",
           "package": "language-sqlite",
@@ -8954,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTo",
           "package": "language-sqlite",
@@ -8963,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTo",
           "package": "language-sqlite",
@@ -8976,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTransaction",
           "package": "language-sqlite",
@@ -8985,6 +9774,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTransaction",
           "package": "language-sqlite",
@@ -8998,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTrigger",
           "package": "language-sqlite",
@@ -9007,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordTrigger",
           "package": "language-sqlite",
@@ -9020,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUnion",
           "package": "language-sqlite",
@@ -9029,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUnion",
           "package": "language-sqlite",
@@ -9042,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUnique",
           "package": "language-sqlite",
@@ -9051,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUnique",
           "package": "language-sqlite",
@@ -9064,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUpdate",
           "package": "language-sqlite",
@@ -9073,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUpdate",
           "package": "language-sqlite",
@@ -9086,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUsing",
           "package": "language-sqlite",
@@ -9095,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordUsing",
           "package": "language-sqlite",
@@ -9108,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordVacuum",
           "package": "language-sqlite",
@@ -9117,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordVacuum",
           "package": "language-sqlite",
@@ -9130,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordValues",
           "package": "language-sqlite",
@@ -9139,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordValues",
           "package": "language-sqlite",
@@ -9152,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordView",
           "package": "language-sqlite",
@@ -9161,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordView",
           "package": "language-sqlite",
@@ -9174,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordVirtual",
           "package": "language-sqlite",
@@ -9183,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordVirtual",
           "package": "language-sqlite",
@@ -9196,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordWhen",
           "package": "language-sqlite",
@@ -9205,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordWhen",
           "package": "language-sqlite",
@@ -9218,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "KeywordWhere",
           "package": "language-sqlite",
@@ -9227,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "KeywordWhere",
           "package": "language-sqlite",
@@ -9240,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LeftJoin",
           "package": "language-sqlite",
@@ -9249,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LeftJoin",
           "package": "language-sqlite",
@@ -9262,6 +10076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LeftOuterJoin",
           "package": "language-sqlite",
@@ -9271,6 +10086,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LeftOuterJoin",
           "package": "language-sqlite",
@@ -9284,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Like",
           "package": "language-sqlite",
@@ -9293,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Like",
           "package": "language-sqlite",
@@ -9306,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Limit",
           "package": "language-sqlite",
@@ -9315,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Limit",
           "package": "language-sqlite",
@@ -9328,6 +10148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LimitComma",
           "package": "language-sqlite",
@@ -9337,6 +10158,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LimitComma",
           "package": "language-sqlite",
@@ -9350,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LimitOffset",
           "package": "language-sqlite",
@@ -9359,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LimitOffset",
           "package": "language-sqlite",
@@ -9372,6 +10196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LiteralBlob",
           "package": "language-sqlite",
@@ -9381,6 +10206,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LiteralBlob",
           "package": "language-sqlite",
@@ -9394,6 +10220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LiteralFloat",
           "package": "language-sqlite",
@@ -9403,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LiteralFloat",
           "package": "language-sqlite",
@@ -9416,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LiteralInteger",
           "package": "language-sqlite",
@@ -9425,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LiteralInteger",
           "package": "language-sqlite",
@@ -9438,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "LiteralString",
           "package": "language-sqlite",
@@ -9447,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "LiteralString",
           "package": "language-sqlite",
@@ -9460,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Match",
           "package": "language-sqlite",
@@ -9469,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Match",
           "package": "language-sqlite",
@@ -9482,6 +10316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgument",
           "package": "language-sqlite",
@@ -9491,6 +10326,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgument",
           "package": "language-sqlite",
@@ -9504,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgumentToken",
           "package": "language-sqlite",
@@ -9513,6 +10350,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ModuleArgumentToken",
           "package": "language-sqlite",
@@ -9526,6 +10364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NamePragmaValue",
           "package": "language-sqlite",
@@ -9535,6 +10374,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NamePragmaValue",
           "package": "language-sqlite",
@@ -9548,6 +10388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalCrossJoin",
           "package": "language-sqlite",
@@ -9557,6 +10398,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalCrossJoin",
           "package": "language-sqlite",
@@ -9570,6 +10412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalInnerJoin",
           "package": "language-sqlite",
@@ -9579,6 +10422,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalInnerJoin",
           "package": "language-sqlite",
@@ -9592,6 +10436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalJoin",
           "package": "language-sqlite",
@@ -9601,6 +10446,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalJoin",
           "package": "language-sqlite",
@@ -9614,6 +10460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalLeftJoin",
           "package": "language-sqlite",
@@ -9623,6 +10470,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalLeftJoin",
           "package": "language-sqlite",
@@ -9636,6 +10484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalLeftOuterJoin",
           "package": "language-sqlite",
@@ -9645,6 +10494,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalLeftOuterJoin",
           "package": "language-sqlite",
@@ -9658,6 +10508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NaturalOuterJoin",
           "package": "language-sqlite",
@@ -9667,6 +10518,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NaturalOuterJoin",
           "package": "language-sqlite",
@@ -9680,6 +10532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NegativeSign",
           "package": "language-sqlite",
@@ -9689,6 +10542,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NegativeSign",
           "package": "language-sqlite",
@@ -9702,6 +10556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoAction",
           "package": "language-sqlite",
@@ -9711,6 +10566,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoAction",
           "package": "language-sqlite",
@@ -9724,6 +10580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoAs",
           "package": "language-sqlite",
@@ -9733,6 +10590,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoAs",
           "package": "language-sqlite",
@@ -9746,6 +10604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoAscDesc",
           "package": "language-sqlite",
@@ -9755,6 +10614,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoAscDesc",
           "package": "language-sqlite",
@@ -9768,6 +10628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoAutoincrement",
           "package": "language-sqlite",
@@ -9777,6 +10638,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoAutoincrement",
           "package": "language-sqlite",
@@ -9790,6 +10652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoCollation",
           "package": "language-sqlite",
@@ -9799,6 +10662,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoCollation",
           "package": "language-sqlite",
@@ -9812,6 +10676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoConstraint",
           "package": "language-sqlite",
@@ -9821,6 +10686,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoConstraint",
           "package": "language-sqlite",
@@ -9834,6 +10700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoConstraintName",
           "package": "language-sqlite",
@@ -9843,6 +10710,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoConstraintName",
           "package": "language-sqlite",
@@ -9856,6 +10724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoDeferrablePart",
           "package": "language-sqlite",
@@ -9865,6 +10734,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoDeferrablePart",
           "package": "language-sqlite",
@@ -9878,6 +10748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoDistinctness",
           "package": "language-sqlite",
@@ -9887,6 +10758,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoDistinctness",
           "package": "language-sqlite",
@@ -9900,6 +10772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoElse",
           "package": "language-sqlite",
@@ -9909,6 +10782,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoElse",
           "package": "language-sqlite",
@@ -9922,6 +10796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoEscape",
           "package": "language-sqlite",
@@ -9931,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoEscape",
           "package": "language-sqlite",
@@ -9944,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoForEachRow",
           "package": "language-sqlite",
@@ -9953,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoForEachRow",
           "package": "language-sqlite",
@@ -9966,6 +10844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoHaving",
           "package": "language-sqlite",
@@ -9975,6 +10854,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoHaving",
           "package": "language-sqlite",
@@ -9988,6 +10868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoIfExists",
           "package": "language-sqlite",
@@ -9997,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoIfExists",
           "package": "language-sqlite",
@@ -10010,6 +10892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoIfNotExists",
           "package": "language-sqlite",
@@ -10019,6 +10902,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoIfNotExists",
           "package": "language-sqlite",
@@ -10032,6 +10916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoIndexedBy",
           "package": "language-sqlite",
@@ -10041,6 +10926,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoIndexedBy",
           "package": "language-sqlite",
@@ -10054,6 +10940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoInitialDeferralStatus",
           "package": "language-sqlite",
@@ -10063,6 +10950,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoInitialDeferralStatus",
           "package": "language-sqlite",
@@ -10076,6 +10964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoSavepoint",
           "package": "language-sqlite",
@@ -10085,6 +10974,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoSavepoint",
           "package": "language-sqlite",
@@ -10098,6 +10988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoSign",
           "package": "language-sqlite",
@@ -10107,6 +10998,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoSign",
           "package": "language-sqlite",
@@ -10120,6 +11012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoSwitch",
           "package": "language-sqlite",
@@ -10129,6 +11022,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoSwitch",
           "package": "language-sqlite",
@@ -10142,6 +11036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoTemporary",
           "package": "language-sqlite",
@@ -10151,6 +11046,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoTemporary",
           "package": "language-sqlite",
@@ -10164,6 +11060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoTransactionType",
           "package": "language-sqlite",
@@ -10173,6 +11070,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoTransactionType",
           "package": "language-sqlite",
@@ -10186,6 +11084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoType",
           "package": "language-sqlite",
@@ -10195,6 +11094,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoType",
           "package": "language-sqlite",
@@ -10208,6 +11108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoTypeName",
           "package": "language-sqlite",
@@ -10217,6 +11118,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoTypeName",
           "package": "language-sqlite",
@@ -10230,6 +11132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoTypeSize",
           "package": "language-sqlite",
@@ -10239,6 +11142,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoTypeSize",
           "package": "language-sqlite",
@@ -10252,6 +11156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NoUnique",
           "package": "language-sqlite",
@@ -10261,6 +11166,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NoUnique",
           "package": "language-sqlite",
@@ -10274,6 +11180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotDeferrable",
           "package": "language-sqlite",
@@ -10283,6 +11190,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotDeferrable",
           "package": "language-sqlite",
@@ -10296,6 +11204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotGlob",
           "package": "language-sqlite",
@@ -10305,6 +11214,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotGlob",
           "package": "language-sqlite",
@@ -10318,6 +11228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotIndexed",
           "package": "language-sqlite",
@@ -10327,6 +11238,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotIndexed",
           "package": "language-sqlite",
@@ -10340,6 +11252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotLike",
           "package": "language-sqlite",
@@ -10349,6 +11262,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotLike",
           "package": "language-sqlite",
@@ -10362,6 +11276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotMatch",
           "package": "language-sqlite",
@@ -10371,6 +11286,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotMatch",
           "package": "language-sqlite",
@@ -10384,6 +11300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "NotRegexp",
           "package": "language-sqlite",
@@ -10393,6 +11310,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "NotRegexp",
           "package": "language-sqlite",
@@ -10406,6 +11324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "On",
           "package": "language-sqlite",
@@ -10415,6 +11334,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "On",
           "package": "language-sqlite",
@@ -10428,6 +11348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictAbort",
           "package": "language-sqlite",
@@ -10437,6 +11358,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictAbort",
           "package": "language-sqlite",
@@ -10450,6 +11372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictFail",
           "package": "language-sqlite",
@@ -10459,6 +11382,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictFail",
           "package": "language-sqlite",
@@ -10472,6 +11396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictIgnore",
           "package": "language-sqlite",
@@ -10481,6 +11406,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictIgnore",
           "package": "language-sqlite",
@@ -10494,6 +11420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictReplace",
           "package": "language-sqlite",
@@ -10503,6 +11430,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictReplace",
           "package": "language-sqlite",
@@ -10516,6 +11444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictRollback",
           "package": "language-sqlite",
@@ -10525,6 +11454,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnConflictRollback",
           "package": "language-sqlite",
@@ -10538,6 +11468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnDelete",
           "package": "language-sqlite",
@@ -10547,6 +11478,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnDelete",
           "package": "language-sqlite",
@@ -10560,6 +11492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OnUpdate",
           "package": "language-sqlite",
@@ -10569,6 +11502,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OnUpdate",
           "package": "language-sqlite",
@@ -10582,6 +11516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OrderBy",
           "package": "language-sqlite",
@@ -10591,6 +11526,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OrderBy",
           "package": "language-sqlite",
@@ -10604,6 +11540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OrderingTerm",
           "package": "language-sqlite",
@@ -10613,6 +11550,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OrderingTerm",
           "package": "language-sqlite",
@@ -10626,6 +11564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "OuterJoin",
           "package": "language-sqlite",
@@ -10635,6 +11574,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "OuterJoin",
           "package": "language-sqlite",
@@ -10648,6 +11588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PositiveSign",
           "package": "language-sqlite",
@@ -10657,6 +11598,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PositiveSign",
           "package": "language-sqlite",
@@ -10670,6 +11612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Pragma",
           "package": "language-sqlite",
@@ -10679,6 +11622,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Pragma",
           "normalized": "SinglyQualifiedIdentifier-\u003ePragmaBody-\u003eStatement L NT NS Pragma'",
@@ -10694,6 +11638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationAmpersand",
           "package": "language-sqlite",
@@ -10703,6 +11648,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationAmpersand",
           "package": "language-sqlite",
@@ -10716,6 +11662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBangEquals",
           "package": "language-sqlite",
@@ -10725,6 +11672,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBangEquals",
           "package": "language-sqlite",
@@ -10738,6 +11686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBar",
           "package": "language-sqlite",
@@ -10747,6 +11696,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBar",
           "package": "language-sqlite",
@@ -10760,6 +11710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBarBar",
           "package": "language-sqlite",
@@ -10769,6 +11720,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationBarBar",
           "package": "language-sqlite",
@@ -10782,6 +11734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationComma",
           "package": "language-sqlite",
@@ -10791,6 +11744,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationComma",
           "package": "language-sqlite",
@@ -10804,6 +11758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationDot",
           "package": "language-sqlite",
@@ -10813,6 +11768,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationDot",
           "package": "language-sqlite",
@@ -10826,6 +11782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationEquals",
           "package": "language-sqlite",
@@ -10835,6 +11792,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationEquals",
           "package": "language-sqlite",
@@ -10848,6 +11806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationEqualsEquals",
           "package": "language-sqlite",
@@ -10857,6 +11816,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationEqualsEquals",
           "package": "language-sqlite",
@@ -10870,6 +11830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreater",
           "package": "language-sqlite",
@@ -10879,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreater",
           "package": "language-sqlite",
@@ -10892,6 +11854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreaterEquals",
           "package": "language-sqlite",
@@ -10901,6 +11864,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreaterEquals",
           "package": "language-sqlite",
@@ -10914,6 +11878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreaterGreater",
           "package": "language-sqlite",
@@ -10923,6 +11888,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationGreaterGreater",
           "package": "language-sqlite",
@@ -10936,6 +11902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLeftParenthesis",
           "package": "language-sqlite",
@@ -10945,6 +11912,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLeftParenthesis",
           "package": "language-sqlite",
@@ -10958,6 +11926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLess",
           "package": "language-sqlite",
@@ -10967,6 +11936,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLess",
           "package": "language-sqlite",
@@ -10980,6 +11950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessEquals",
           "package": "language-sqlite",
@@ -10989,6 +11960,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessEquals",
           "package": "language-sqlite",
@@ -11002,6 +11974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessGreater",
           "package": "language-sqlite",
@@ -11011,6 +11984,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessGreater",
           "package": "language-sqlite",
@@ -11024,6 +11998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessLess",
           "package": "language-sqlite",
@@ -11033,6 +12008,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationLessLess",
           "package": "language-sqlite",
@@ -11046,6 +12022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationMinus",
           "package": "language-sqlite",
@@ -11055,6 +12032,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationMinus",
           "package": "language-sqlite",
@@ -11068,6 +12046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationPercent",
           "package": "language-sqlite",
@@ -11077,6 +12056,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationPercent",
           "package": "language-sqlite",
@@ -11090,6 +12070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationPlus",
           "package": "language-sqlite",
@@ -11099,6 +12080,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationPlus",
           "package": "language-sqlite",
@@ -11112,6 +12094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationRightParenthesis",
           "package": "language-sqlite",
@@ -11121,6 +12104,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationRightParenthesis",
           "package": "language-sqlite",
@@ -11134,6 +12118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationSemicolon",
           "package": "language-sqlite",
@@ -11143,6 +12128,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationSemicolon",
           "package": "language-sqlite",
@@ -11156,6 +12142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationSlash",
           "package": "language-sqlite",
@@ -11165,6 +12152,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationSlash",
           "package": "language-sqlite",
@@ -11178,6 +12166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationStar",
           "package": "language-sqlite",
@@ -11187,6 +12176,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationStar",
           "package": "language-sqlite",
@@ -11200,6 +12190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationTilde",
           "package": "language-sqlite",
@@ -11209,6 +12200,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "PunctuationTilde",
           "package": "language-sqlite",
@@ -11222,6 +12214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "References",
           "package": "language-sqlite",
@@ -11231,6 +12224,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "References",
           "normalized": "References UnqualifiedIdentifier[UnqualifiedIdentifier][ForeignKeyClauseActionOrMatchPart]MaybeForeignKeyClauseDeferrablePart",
@@ -11246,6 +12240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ReferencesMatch",
           "package": "language-sqlite",
@@ -11255,6 +12250,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ReferencesMatch",
           "package": "language-sqlite",
@@ -11268,6 +12264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Regexp",
           "package": "language-sqlite",
@@ -11277,6 +12274,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Regexp",
           "package": "language-sqlite",
@@ -11290,6 +12288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Reindex",
           "package": "language-sqlite",
@@ -11299,6 +12298,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Reindex",
           "normalized": "SinglyQualifiedIdentifier-\u003eStatement L NT NS Reindex'",
@@ -11314,6 +12314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Release",
           "package": "language-sqlite",
@@ -11323,6 +12324,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Release",
           "normalized": "MaybeReleaseSavepoint-\u003eUnqualifiedIdentifier-\u003eStatement L NT NS Release'",
@@ -11338,6 +12340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ReleaseSavepoint",
           "package": "language-sqlite",
@@ -11347,6 +12350,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ReleaseSavepoint",
           "package": "language-sqlite",
@@ -11360,6 +12364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "RenameTo",
           "package": "language-sqlite",
@@ -11369,6 +12374,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "RenameTo",
           "package": "language-sqlite",
@@ -11382,6 +12388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Replace",
           "package": "language-sqlite",
@@ -11391,6 +12398,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Replace",
           "package": "language-sqlite",
@@ -11404,6 +12412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Restrict",
           "package": "language-sqlite",
@@ -11413,6 +12422,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Restrict",
           "package": "language-sqlite",
@@ -11426,6 +12436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Result",
           "package": "language-sqlite",
@@ -11435,6 +12446,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Result",
           "package": "language-sqlite",
@@ -11448,6 +12460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Rollback",
           "package": "language-sqlite",
@@ -11457,6 +12470,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Rollback",
           "normalized": "MaybeTransaction-\u003eMaybeSavepoint-\u003eStatement L NT NS Rollback'",
@@ -11472,6 +12486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Savepoint",
           "package": "language-sqlite",
@@ -11481,6 +12496,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Savepoint",
           "normalized": "UnqualifiedIdentifier-\u003eStatement L NT NS Savepoint'",
@@ -11496,6 +12512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Select",
           "package": "language-sqlite",
@@ -11505,6 +12522,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Select",
           "normalized": "SelectCore-\u003e[(CompoundOperator,SelectCore)]-\u003eMaybe OrderClause-\u003eMaybe LimitClause-\u003eStatement L T S Select'",
@@ -11520,6 +12538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SelectCore",
           "package": "language-sqlite",
@@ -11529,6 +12548,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SelectCore",
           "package": "language-sqlite",
@@ -11542,6 +12562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SelectSource",
           "package": "language-sqlite",
@@ -11551,6 +12572,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SelectSource",
           "package": "language-sqlite",
@@ -11564,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SetDefault",
           "package": "language-sqlite",
@@ -11573,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SetDefault",
           "package": "language-sqlite",
@@ -11586,6 +12610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SetNull",
           "package": "language-sqlite",
@@ -11595,6 +12620,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SetNull",
           "package": "language-sqlite",
@@ -11608,6 +12634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SignedFloatPragmaValue",
           "package": "language-sqlite",
@@ -11617,6 +12644,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SignedFloatPragmaValue",
           "package": "language-sqlite",
@@ -11630,6 +12658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SignedIntegerPragmaValue",
           "package": "language-sqlite",
@@ -11639,6 +12668,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SignedIntegerPragmaValue",
           "package": "language-sqlite",
@@ -11652,6 +12682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SinglyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -11661,6 +12692,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SinglyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -11674,6 +12706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Star",
           "package": "language-sqlite",
@@ -11683,6 +12716,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Star",
           "package": "language-sqlite",
@@ -11696,6 +12730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Statement",
           "package": "language-sqlite",
@@ -11705,6 +12740,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Statement",
           "package": "language-sqlite",
@@ -11718,6 +12754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "StatementList",
           "package": "language-sqlite",
@@ -11727,6 +12764,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "StatementList",
           "normalized": "StatementList[AnyStatement]",
@@ -11742,6 +12780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "StringPragmaValue",
           "package": "language-sqlite",
@@ -11751,6 +12790,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "StringPragmaValue",
           "package": "language-sqlite",
@@ -11764,6 +12804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "SubjoinSource",
           "package": "language-sqlite",
@@ -11773,6 +12814,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "SubjoinSource",
           "package": "language-sqlite",
@@ -11786,6 +12828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Switch",
           "package": "language-sqlite",
@@ -11795,6 +12838,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Switch",
           "package": "language-sqlite",
@@ -11808,6 +12852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableCheck",
           "package": "language-sqlite",
@@ -11817,6 +12862,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableCheck",
           "package": "language-sqlite",
@@ -11830,6 +12876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableForeignKey",
           "package": "language-sqlite",
@@ -11839,6 +12886,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableForeignKey",
           "package": "language-sqlite",
@@ -11852,6 +12900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableIndexedBy",
           "package": "language-sqlite",
@@ -11861,6 +12910,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableIndexedBy",
           "package": "language-sqlite",
@@ -11874,6 +12924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableNoIndexedBy",
           "package": "language-sqlite",
@@ -11883,6 +12934,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableNoIndexedBy",
           "package": "language-sqlite",
@@ -11896,6 +12948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableNotIndexed",
           "package": "language-sqlite",
@@ -11905,6 +12958,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableNotIndexed",
           "package": "language-sqlite",
@@ -11918,6 +12972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TablePrimaryKey",
           "package": "language-sqlite",
@@ -11927,6 +12982,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TablePrimaryKey",
           "package": "language-sqlite",
@@ -11940,6 +12996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableSource",
           "package": "language-sqlite",
@@ -11949,6 +13006,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableSource",
           "package": "language-sqlite",
@@ -11962,6 +13020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableStar",
           "package": "language-sqlite",
@@ -11971,6 +13030,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableStar",
           "package": "language-sqlite",
@@ -11984,6 +13044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TableUnique",
           "package": "language-sqlite",
@@ -11993,6 +13054,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TableUnique",
           "package": "language-sqlite",
@@ -12006,6 +13068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Temp",
           "package": "language-sqlite",
@@ -12015,6 +13078,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Temp",
           "package": "language-sqlite",
@@ -12028,6 +13092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Temporary",
           "package": "language-sqlite",
@@ -12037,6 +13102,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Temporary",
           "package": "language-sqlite",
@@ -12050,6 +13116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "To",
           "package": "language-sqlite",
@@ -12059,6 +13126,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "To",
           "package": "language-sqlite",
@@ -12072,6 +13140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "ToSavepoint",
           "package": "language-sqlite",
@@ -12081,6 +13150,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "ToSavepoint",
           "package": "language-sqlite",
@@ -12094,6 +13164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Transaction",
           "package": "language-sqlite",
@@ -12103,6 +13174,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Transaction",
           "package": "language-sqlite",
@@ -12116,6 +13188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TriggerStatement",
           "package": "language-sqlite",
@@ -12125,6 +13198,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TriggerStatement",
           "package": "language-sqlite",
@@ -12138,6 +13212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Type",
           "package": "language-sqlite",
@@ -12147,6 +13222,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Type",
           "package": "language-sqlite",
@@ -12160,6 +13236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityInteger",
           "package": "language-sqlite",
@@ -12169,6 +13246,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityInteger",
           "package": "language-sqlite",
@@ -12182,6 +13260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityNone",
           "package": "language-sqlite",
@@ -12191,6 +13270,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityNone",
           "package": "language-sqlite",
@@ -12204,6 +13284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityNumeric",
           "package": "language-sqlite",
@@ -12213,6 +13294,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityNumeric",
           "package": "language-sqlite",
@@ -12226,6 +13308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityReal",
           "package": "language-sqlite",
@@ -12235,6 +13318,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityReal",
           "package": "language-sqlite",
@@ -12248,6 +13332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityText",
           "package": "language-sqlite",
@@ -12257,6 +13342,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeAffinityText",
           "package": "language-sqlite",
@@ -12270,6 +13356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeMaximumSize",
           "package": "language-sqlite",
@@ -12279,6 +13366,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeMaximumSize",
           "package": "language-sqlite",
@@ -12292,6 +13380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeName",
           "package": "language-sqlite",
@@ -12301,6 +13390,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeName",
           "package": "language-sqlite",
@@ -12314,6 +13404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "TypeSize",
           "package": "language-sqlite",
@@ -12323,6 +13414,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "TypeSize",
           "package": "language-sqlite",
@@ -12336,6 +13428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Union",
           "package": "language-sqlite",
@@ -12345,6 +13438,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Union",
           "package": "language-sqlite",
@@ -12358,6 +13452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UnionAll",
           "package": "language-sqlite",
@@ -12367,6 +13462,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UnionAll",
           "package": "language-sqlite",
@@ -12380,6 +13476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Unique",
           "package": "language-sqlite",
@@ -12389,6 +13486,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Unique",
           "package": "language-sqlite",
@@ -12402,6 +13500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UnqualifiedIdentifier",
           "package": "language-sqlite",
@@ -12411,6 +13510,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UnqualifiedIdentifier",
           "package": "language-sqlite",
@@ -12424,6 +13524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Update",
           "package": "language-sqlite",
@@ -12433,6 +13534,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Update",
           "normalized": "UpdateHead-\u003eQualifiedTableName-\u003eOneOrMore(UnqualifiedIdentifier,Expression)-\u003eMaybe WhereClause-\u003eStatement L T NS Update'",
@@ -12448,6 +13550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateLimited",
           "package": "language-sqlite",
@@ -12457,6 +13560,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateLimited",
           "normalized": "UpdateHead-\u003eQualifiedTableName-\u003eOneOrMore(UnqualifiedIdentifier,Expression)-\u003eMaybe WhereClause-\u003eMaybe OrderClause-\u003eLimitClause-\u003eStatement L NT NS UpdateLimited'",
@@ -12472,6 +13576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateNoAlternative",
           "package": "language-sqlite",
@@ -12481,6 +13586,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateNoAlternative",
           "package": "language-sqlite",
@@ -12494,6 +13600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOn",
           "package": "language-sqlite",
@@ -12503,6 +13610,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOn",
           "normalized": "UpdateOn[UnqualifiedIdentifier]",
@@ -12518,6 +13626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrAbort",
           "package": "language-sqlite",
@@ -12527,6 +13636,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrAbort",
           "package": "language-sqlite",
@@ -12540,6 +13650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrFail",
           "package": "language-sqlite",
@@ -12549,6 +13660,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrFail",
           "package": "language-sqlite",
@@ -12562,6 +13674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrIgnore",
           "package": "language-sqlite",
@@ -12571,6 +13684,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrIgnore",
           "package": "language-sqlite",
@@ -12584,6 +13698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrReplace",
           "package": "language-sqlite",
@@ -12593,6 +13708,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrReplace",
           "package": "language-sqlite",
@@ -12606,6 +13722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrRollback",
           "package": "language-sqlite",
@@ -12615,6 +13732,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "UpdateOrRollback",
           "package": "language-sqlite",
@@ -12628,6 +13746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Using",
           "package": "language-sqlite",
@@ -12637,6 +13756,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Using",
           "package": "language-sqlite",
@@ -12650,6 +13770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Vacuum",
           "package": "language-sqlite",
@@ -12659,6 +13780,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Vacuum",
           "package": "language-sqlite",
@@ -12672,6 +13794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Variable",
           "package": "language-sqlite",
@@ -12681,6 +13804,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Variable",
           "package": "language-sqlite",
@@ -12694,6 +13818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "VariableN",
           "package": "language-sqlite",
@@ -12703,6 +13828,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "VariableN",
           "package": "language-sqlite",
@@ -12716,6 +13842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "VariableNamed",
           "package": "language-sqlite",
@@ -12725,6 +13852,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "VariableNamed",
           "package": "language-sqlite",
@@ -12738,6 +13866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "When",
           "package": "language-sqlite",
@@ -12747,6 +13876,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "When",
           "package": "language-sqlite",
@@ -12760,6 +13890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "WhenThen",
           "package": "language-sqlite",
@@ -12769,6 +13900,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "WhenThen",
           "package": "language-sqlite",
@@ -12782,6 +13914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "Where",
           "package": "language-sqlite",
@@ -12791,6 +13924,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "Where",
           "package": "language-sqlite",
@@ -12805,6 +13939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a \u003ccode\u003e\u003ca\u003eMaybeTypeName\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eTypeAffinity\u003c/a\u003e\u003c/code\u003e, as used in\n   \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "computeAffinityTypeName",
           "package": "language-sqlite",
@@ -12815,6 +13950,7 @@
         "index": {
           "description": "Computes MaybeTypeName from TypeAffinity as used in Type",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "computeAffinityTypeName",
           "normalized": "TypeAffinity-\u003eMaybeTypeName",
@@ -12831,6 +13967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a \u003ccode\u003e\u003ca\u003eTypeAffinity\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eMaybeTypeName\u003c/a\u003e\u003c/code\u003e, as used in\n   \u003ccode\u003e\u003ca\u003eType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "computeTypeNameAffinity",
           "package": "language-sqlite",
@@ -12841,6 +13978,7 @@
         "index": {
           "description": "Computes TypeAffinity from MaybeTypeName as used in Type",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "computeTypeNameAffinity",
           "normalized": "MaybeTypeName-\u003eTypeAffinity",
@@ -12856,6 +13994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "fromAnyStatement",
           "package": "language-sqlite",
@@ -12865,6 +14004,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "fromAnyStatement",
           "normalized": "AnyStatement-\u003ea",
@@ -12880,6 +14020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "fromExplainableStatement",
           "package": "language-sqlite",
@@ -12889,6 +14030,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "fromExplainableStatement",
           "normalized": "ExplainableStatement-\u003ea",
@@ -12905,6 +14047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe accessor for \u003ccode\u003e\u003ca\u003eNonnegativeDouble\u003c/a\u003e\u003c/code\u003e.  Returns a double.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "fromNonnegativeDouble",
           "package": "language-sqlite",
@@ -12915,6 +14058,7 @@
         "index": {
           "description": "The accessor for NonnegativeDouble Returns double",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "fromNonnegativeDouble",
           "normalized": "NonnegativeDouble-\u003eDouble",
@@ -12931,6 +14075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe accessor for \u003ccode\u003e\u003ca\u003eOneOrMore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e.  Returns \u003ccode\u003e[a]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "fromOneOrMore",
           "package": "language-sqlite",
@@ -12941,6 +14086,7 @@
         "index": {
           "description": "The accessor for OneOrMore Returns",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "fromOneOrMore",
           "normalized": "OneOrMore a-\u003e[a]",
@@ -12956,6 +14102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "fromTriggerStatement",
           "package": "language-sqlite",
@@ -12965,6 +14112,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "fromTriggerStatement",
           "normalized": "TriggerStatement-\u003ea",
@@ -12981,6 +14129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ca\u003egrandparent name\u003c/a\u003e component of an identifier, if it exists.  In\n   an identifier which names a column, this is the database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "identifierGrandparentName",
           "package": "language-sqlite",
@@ -12991,6 +14140,7 @@
         "index": {
           "description": "Returns the grandparent name component of an identifier if it exists In an identifier which names column this is the database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "identifierGrandparentName",
           "normalized": "a-\u003eMaybe String",
@@ -13007,6 +14157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the \u003ca\u003eparent name\u003c/a\u003e component of an identifier, if it exists.  In an\n   identifier which names a column, this is the table name.  In an identifier\n   which names a table or other database-level object, this is the database name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "identifierParentName",
           "package": "language-sqlite",
@@ -13017,6 +14168,7 @@
         "index": {
           "description": "Returns the parent name component of an identifier if it exists In an identifier which names column this is the table name In an identifier which names table or other database-level object this is the database name",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "identifierParentName",
           "normalized": "a-\u003eMaybe String",
@@ -13033,6 +14185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the final, \u003ca\u003eproper name\u003c/a\u003e component of an identifier.  In an identifier\n   which names a column, this is the column name.  In an identifier which names\n   a table, this is the table name.  All identifiers\n   have this component, so it is a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e and not a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "identifierProperName",
           "package": "language-sqlite",
@@ -13043,6 +14196,7 @@
         "index": {
           "description": "Returns the final proper name component of an identifier In an identifier which names column this is the column name In an identifier which names table this is the table name All identifiers have this component so it is String and not Maybe",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "identifierProperName",
           "normalized": "a-\u003eString",
@@ -13058,6 +14212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "lexModuleArgument",
           "package": "language-sqlite",
@@ -13067,6 +14222,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "lexModuleArgument",
           "normalized": "String-\u003eParse(Token,String)",
@@ -13083,6 +14239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constructor for \u003ccode\u003e\u003ca\u003eNonnegativeDouble\u003c/a\u003e\u003c/code\u003e.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the double it's\n   given is negative, or \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNonnegativeDouble\u003c/a\u003e\u003c/code\u003e if it is not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "mkNonnegativeDouble",
           "package": "language-sqlite",
@@ -13093,6 +14250,7 @@
         "index": {
           "description": "The constructor for NonnegativeDouble Returns Nothing if the double it given is negative or Just NonnegativeDouble if it is not",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "mkNonnegativeDouble",
           "normalized": "Double-\u003eMaybe NonnegativeDouble",
@@ -13109,6 +14267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe constructor for \u003ccode\u003e\u003ca\u003eOneOrMore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e.  Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the list it's\n   given is empty, or \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eOneOrMore\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e if it is not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "mkOneOrMore",
           "package": "language-sqlite",
@@ -13119,6 +14278,7 @@
         "index": {
           "description": "The constructor for OneOrMore Returns Nothing if the list it given is empty or Just OneOrMore if it is not",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "mkOneOrMore",
           "normalized": "[a]-\u003eMaybe(OneOrMore a)",
@@ -13134,6 +14294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readAlterTable",
           "package": "language-sqlite",
@@ -13143,6 +14304,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readAlterTable",
           "normalized": "String-\u003eEither ParseError AlterTable",
@@ -13158,6 +14320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readAlterTableBody",
           "package": "language-sqlite",
@@ -13167,6 +14330,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readAlterTableBody",
           "normalized": "String-\u003eEither ParseError AlterTableBody",
@@ -13182,6 +14346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readAnalyze",
           "package": "language-sqlite",
@@ -13191,6 +14356,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readAnalyze",
           "normalized": "String-\u003eEither ParseError Analyze",
@@ -13206,6 +14372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readAnyStatement",
           "package": "language-sqlite",
@@ -13215,6 +14382,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readAnyStatement",
           "normalized": "String-\u003eEither ParseError AnyStatement",
@@ -13230,6 +14398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readAttach",
           "package": "language-sqlite",
@@ -13239,6 +14408,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readAttach",
           "normalized": "String-\u003eEither ParseError Attach",
@@ -13254,6 +14424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readBegin",
           "package": "language-sqlite",
@@ -13263,6 +14434,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readBegin",
           "normalized": "String-\u003eEither ParseError Begin",
@@ -13278,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCasePair",
           "package": "language-sqlite",
@@ -13287,6 +14460,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCasePair",
           "normalized": "String-\u003eEither ParseError CasePair",
@@ -13302,6 +14476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readColumnConstraint",
           "package": "language-sqlite",
@@ -13311,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readColumnConstraint",
           "normalized": "String-\u003eEither ParseError ColumnConstraint",
@@ -13326,6 +14502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readColumnDefinition",
           "package": "language-sqlite",
@@ -13335,6 +14512,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readColumnDefinition",
           "normalized": "String-\u003eEither ParseError ColumnDefinition",
@@ -13350,6 +14528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCommit",
           "package": "language-sqlite",
@@ -13359,6 +14538,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCommit",
           "normalized": "String-\u003eEither ParseError Commit",
@@ -13374,6 +14554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCommitHead",
           "package": "language-sqlite",
@@ -13383,6 +14564,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCommitHead",
           "normalized": "String-\u003eEither ParseError CommitHead",
@@ -13398,6 +14580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCompoundOperator",
           "package": "language-sqlite",
@@ -13407,6 +14590,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCompoundOperator",
           "normalized": "String-\u003eEither ParseError CompoundOperator",
@@ -13422,6 +14606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readConflictClause",
           "package": "language-sqlite",
@@ -13431,6 +14616,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readConflictClause",
           "normalized": "String-\u003eEither ParseError ConflictClause",
@@ -13446,6 +14632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateIndex",
           "package": "language-sqlite",
@@ -13455,6 +14642,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateIndex",
           "normalized": "String-\u003eEither ParseError CreateIndex",
@@ -13470,6 +14658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTable",
           "package": "language-sqlite",
@@ -13479,6 +14668,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTable",
           "normalized": "String-\u003eEither ParseError CreateTable",
@@ -13494,6 +14684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTableBody",
           "package": "language-sqlite",
@@ -13503,6 +14694,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTableBody",
           "normalized": "String-\u003eEither ParseError CreateTableBody",
@@ -13518,6 +14710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTrigger",
           "package": "language-sqlite",
@@ -13527,6 +14720,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateTrigger",
           "normalized": "String-\u003eEither ParseError CreateTrigger",
@@ -13542,6 +14736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateView",
           "package": "language-sqlite",
@@ -13551,6 +14746,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateView",
           "normalized": "String-\u003eEither ParseError CreateView",
@@ -13566,6 +14762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readCreateVirtualTable",
           "package": "language-sqlite",
@@ -13575,6 +14772,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readCreateVirtualTable",
           "normalized": "String-\u003eEither ParseError CreateVirtualTable",
@@ -13590,6 +14788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDefaultValue",
           "package": "language-sqlite",
@@ -13599,6 +14798,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDefaultValue",
           "normalized": "String-\u003eEither ParseError DefaultValue",
@@ -13614,6 +14814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDelete",
           "package": "language-sqlite",
@@ -13623,6 +14824,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDelete",
           "normalized": "String-\u003eEither ParseError Delete",
@@ -13638,6 +14840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDeleteLimited",
           "package": "language-sqlite",
@@ -13647,6 +14850,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDeleteLimited",
           "normalized": "String-\u003eEither ParseError DeleteLimited",
@@ -13662,6 +14866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDeleteOrDeleteLimited",
           "package": "language-sqlite",
@@ -13671,6 +14876,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDeleteOrDeleteLimited",
           "normalized": "String-\u003eEither ParseError AnyStatement",
@@ -13686,6 +14892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDetach",
           "package": "language-sqlite",
@@ -13695,6 +14902,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDetach",
           "normalized": "String-\u003eEither ParseError Detach",
@@ -13710,6 +14918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDistinctness",
           "package": "language-sqlite",
@@ -13719,6 +14928,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDistinctness",
           "normalized": "String-\u003eEither ParseError Distinctness",
@@ -13734,6 +14944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDoublyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -13743,6 +14954,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDoublyQualifiedIdentifier",
           "normalized": "String-\u003eEither ParseError DoublyQualifiedIdentifier",
@@ -13758,6 +14970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDropIndex",
           "package": "language-sqlite",
@@ -13767,6 +14980,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDropIndex",
           "normalized": "String-\u003eEither ParseError DropIndex",
@@ -13782,6 +14996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDropTable",
           "package": "language-sqlite",
@@ -13791,6 +15006,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDropTable",
           "normalized": "String-\u003eEither ParseError DropTable",
@@ -13806,6 +15022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDropTrigger",
           "package": "language-sqlite",
@@ -13815,6 +15032,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDropTrigger",
           "normalized": "String-\u003eEither ParseError DropTrigger",
@@ -13830,6 +15048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readDropView",
           "package": "language-sqlite",
@@ -13839,6 +15058,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readDropView",
           "normalized": "String-\u003eEither ParseError DropView",
@@ -13854,6 +15074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readElse",
           "package": "language-sqlite",
@@ -13863,6 +15084,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readElse",
           "normalized": "String-\u003eEither ParseError Else",
@@ -13878,6 +15100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readEscape",
           "package": "language-sqlite",
@@ -13887,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readEscape",
           "normalized": "String-\u003eEither ParseError Escape",
@@ -13902,6 +15126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readExplain",
           "package": "language-sqlite",
@@ -13911,6 +15136,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readExplain",
           "normalized": "String-\u003eEither ParseError Explain",
@@ -13926,6 +15152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readExplainQueryPlan",
           "package": "language-sqlite",
@@ -13935,6 +15162,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readExplainQueryPlan",
           "normalized": "String-\u003eEither ParseError ExplainQueryPlan",
@@ -13950,6 +15178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readExplainableStatement",
           "package": "language-sqlite",
@@ -13959,6 +15188,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readExplainableStatement",
           "normalized": "String-\u003eEither ParseError ExplainableStatement",
@@ -13974,6 +15204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readExpression",
           "package": "language-sqlite",
@@ -13983,6 +15214,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readExpression",
           "normalized": "String-\u003eEither ParseError Expression",
@@ -13998,6 +15230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClause",
           "package": "language-sqlite",
@@ -14007,6 +15240,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClause",
           "normalized": "String-\u003eEither ParseError ForeignKeyClause",
@@ -14022,6 +15256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClauseActionOrMatchPart",
           "package": "language-sqlite",
@@ -14031,6 +15266,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClauseActionOrMatchPart",
           "normalized": "String-\u003eEither ParseError ForeignKeyClauseActionOrMatchPart",
@@ -14046,6 +15282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClauseActionPart",
           "package": "language-sqlite",
@@ -14055,6 +15292,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readForeignKeyClauseActionPart",
           "normalized": "String-\u003eEither ParseError ForeignKeyClauseActionPart",
@@ -14070,6 +15308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readFromClause",
           "package": "language-sqlite",
@@ -14079,6 +15318,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readFromClause",
           "normalized": "String-\u003eEither ParseError FromClause",
@@ -14094,6 +15334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readGroupClause",
           "package": "language-sqlite",
@@ -14103,6 +15344,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readGroupClause",
           "normalized": "String-\u003eEither ParseError GroupClause",
@@ -14118,6 +15360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readIndexedColumn",
           "package": "language-sqlite",
@@ -14127,6 +15370,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readIndexedColumn",
           "normalized": "String-\u003eEither ParseError IndexedColumn",
@@ -14142,6 +15386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readInsert",
           "package": "language-sqlite",
@@ -14151,6 +15396,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readInsert",
           "normalized": "String-\u003eEither ParseError Insert",
@@ -14166,6 +15412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readInsertBody",
           "package": "language-sqlite",
@@ -14175,6 +15422,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readInsertBody",
           "normalized": "String-\u003eEither ParseError InsertBody",
@@ -14190,6 +15438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readInsertHead",
           "package": "language-sqlite",
@@ -14199,6 +15448,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readInsertHead",
           "normalized": "String-\u003eEither ParseError InsertHead",
@@ -14214,6 +15464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readJoinConstraint",
           "package": "language-sqlite",
@@ -14223,6 +15474,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readJoinConstraint",
           "normalized": "String-\u003eEither ParseError JoinConstraint",
@@ -14238,6 +15490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readJoinOperation",
           "package": "language-sqlite",
@@ -14247,6 +15500,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readJoinOperation",
           "normalized": "String-\u003eEither ParseError JoinOperation",
@@ -14262,6 +15516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readJoinSource",
           "package": "language-sqlite",
@@ -14271,6 +15526,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readJoinSource",
           "normalized": "String-\u003eEither ParseError JoinSource",
@@ -14286,6 +15542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readLikeType",
           "package": "language-sqlite",
@@ -14295,6 +15552,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readLikeType",
           "normalized": "String-\u003eEither ParseError LikeType",
@@ -14310,6 +15568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readLimitClause",
           "package": "language-sqlite",
@@ -14319,6 +15578,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readLimitClause",
           "normalized": "String-\u003eEither ParseError LimitClause",
@@ -14334,6 +15594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAs",
           "package": "language-sqlite",
@@ -14343,6 +15604,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAs",
           "normalized": "String-\u003eEither ParseError MaybeAs",
@@ -14358,6 +15620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAscDesc",
           "package": "language-sqlite",
@@ -14367,6 +15630,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAscDesc",
           "normalized": "String-\u003eEither ParseError MaybeAscDesc",
@@ -14382,6 +15646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAutoincrement",
           "package": "language-sqlite",
@@ -14391,6 +15656,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeAutoincrement",
           "normalized": "String-\u003eEither ParseError MaybeAutoincrement",
@@ -14406,6 +15672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeCollation",
           "package": "language-sqlite",
@@ -14415,6 +15682,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeCollation",
           "normalized": "String-\u003eEither ParseError MaybeCollation",
@@ -14430,6 +15698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeColumn",
           "package": "language-sqlite",
@@ -14439,6 +15708,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeColumn",
           "normalized": "String-\u003eEither ParseError MaybeColumn",
@@ -14454,6 +15724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeConstraintName",
           "package": "language-sqlite",
@@ -14463,6 +15734,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeConstraintName",
           "normalized": "String-\u003eEither ParseError MaybeConstraintName",
@@ -14478,6 +15750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeDatabase",
           "package": "language-sqlite",
@@ -14487,6 +15760,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeDatabase",
           "normalized": "String-\u003eEither ParseError MaybeDatabase",
@@ -14502,6 +15776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeForEachRow",
           "package": "language-sqlite",
@@ -14511,6 +15786,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeForEachRow",
           "normalized": "String-\u003eEither ParseError MaybeForEachRow",
@@ -14526,6 +15802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeForeignKeyClauseDeferrablePart",
           "package": "language-sqlite",
@@ -14535,6 +15812,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeForeignKeyClauseDeferrablePart",
           "normalized": "String-\u003eEither ParseError MaybeForeignKeyClauseDeferrablePart",
@@ -14550,6 +15828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeHaving",
           "package": "language-sqlite",
@@ -14559,6 +15838,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeHaving",
           "normalized": "String-\u003eEither ParseError MaybeHaving",
@@ -14574,6 +15854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIfExists",
           "package": "language-sqlite",
@@ -14583,6 +15864,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIfExists",
           "normalized": "String-\u003eEither ParseError MaybeIfExists",
@@ -14598,6 +15880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIfNotExists",
           "package": "language-sqlite",
@@ -14607,6 +15890,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIfNotExists",
           "normalized": "String-\u003eEither ParseError MaybeIfNotExists",
@@ -14622,6 +15906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIndexedBy",
           "package": "language-sqlite",
@@ -14631,6 +15916,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeIndexedBy",
           "normalized": "String-\u003eEither ParseError MaybeIndexedBy",
@@ -14646,6 +15932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeInitialDeferralStatus",
           "package": "language-sqlite",
@@ -14655,6 +15942,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeInitialDeferralStatus",
           "normalized": "String-\u003eEither ParseError MaybeInitialDeferralStatus",
@@ -14670,6 +15958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeReleaseSavepoint",
           "package": "language-sqlite",
@@ -14679,6 +15968,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeReleaseSavepoint",
           "normalized": "String-\u003eEither ParseError MaybeReleaseSavepoint",
@@ -14694,6 +15984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSavepoint",
           "package": "language-sqlite",
@@ -14703,6 +15994,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSavepoint",
           "normalized": "String-\u003eEither ParseError MaybeSavepoint",
@@ -14718,6 +16010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSign",
           "package": "language-sqlite",
@@ -14727,6 +16020,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSign",
           "normalized": "String-\u003eEither ParseError MaybeSign",
@@ -14742,6 +16036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSwitchExpression",
           "package": "language-sqlite",
@@ -14751,6 +16046,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeSwitchExpression",
           "normalized": "String-\u003eEither ParseError MaybeSwitchExpression",
@@ -14766,6 +16062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTemporary",
           "package": "language-sqlite",
@@ -14775,6 +16072,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTemporary",
           "normalized": "String-\u003eEither ParseError MaybeTemporary",
@@ -14790,6 +16088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTransaction",
           "package": "language-sqlite",
@@ -14799,6 +16098,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTransaction",
           "normalized": "String-\u003eEither ParseError MaybeTransaction",
@@ -14814,6 +16114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTransactionType",
           "package": "language-sqlite",
@@ -14823,6 +16124,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTransactionType",
           "normalized": "String-\u003eEither ParseError MaybeTransactionType",
@@ -14838,6 +16140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeType",
           "package": "language-sqlite",
@@ -14847,6 +16150,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeType",
           "normalized": "String-\u003eEither ParseError MaybeType",
@@ -14862,6 +16166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTypeName",
           "package": "language-sqlite",
@@ -14871,6 +16176,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTypeName",
           "normalized": "String-\u003eEither ParseError MaybeTypeName",
@@ -14886,6 +16192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTypeSize",
           "package": "language-sqlite",
@@ -14895,6 +16202,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeTypeSize",
           "normalized": "String-\u003eEither ParseError MaybeTypeSize",
@@ -14910,6 +16218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeUnique",
           "package": "language-sqlite",
@@ -14919,6 +16228,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readMaybeUnique",
           "normalized": "String-\u003eEither ParseError MaybeUnique",
@@ -14934,6 +16244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readModuleArgument",
           "package": "language-sqlite",
@@ -14943,6 +16254,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readModuleArgument",
           "normalized": "String-\u003eEither ParseError ModuleArgument",
@@ -14958,6 +16270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readOrderClause",
           "package": "language-sqlite",
@@ -14967,6 +16280,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readOrderClause",
           "normalized": "String-\u003eEither ParseError OrderClause",
@@ -14982,6 +16296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readOrderingTerm",
           "package": "language-sqlite",
@@ -14991,6 +16306,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readOrderingTerm",
           "normalized": "String-\u003eEither ParseError OrderingTerm",
@@ -15006,6 +16322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readPragma",
           "package": "language-sqlite",
@@ -15015,6 +16332,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readPragma",
           "normalized": "String-\u003eEither ParseError Pragma",
@@ -15030,6 +16348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readPragmaBody",
           "package": "language-sqlite",
@@ -15039,6 +16358,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readPragmaBody",
           "normalized": "String-\u003eEither ParseError PragmaBody",
@@ -15054,6 +16374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readPragmaValue",
           "package": "language-sqlite",
@@ -15063,6 +16384,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readPragmaValue",
           "normalized": "String-\u003eEither ParseError PragmaValue",
@@ -15078,6 +16400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readQualifiedTableName",
           "package": "language-sqlite",
@@ -15087,6 +16410,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readQualifiedTableName",
           "normalized": "String-\u003eEither ParseError QualifiedTableName",
@@ -15102,6 +16426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readReindex",
           "package": "language-sqlite",
@@ -15111,6 +16436,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readReindex",
           "normalized": "String-\u003eEither ParseError Reindex",
@@ -15126,6 +16452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readRelease",
           "package": "language-sqlite",
@@ -15135,6 +16462,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readRelease",
           "normalized": "String-\u003eEither ParseError Release",
@@ -15150,6 +16478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readResultColumn",
           "package": "language-sqlite",
@@ -15159,6 +16488,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readResultColumn",
           "normalized": "String-\u003eEither ParseError ResultColumn",
@@ -15174,6 +16504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readRollback",
           "package": "language-sqlite",
@@ -15183,6 +16514,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readRollback",
           "normalized": "String-\u003eEither ParseError Rollback",
@@ -15198,6 +16530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readSavepoint",
           "package": "language-sqlite",
@@ -15207,6 +16540,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readSavepoint",
           "normalized": "String-\u003eEither ParseError Savepoint",
@@ -15222,6 +16556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readSelect",
           "package": "language-sqlite",
@@ -15231,6 +16566,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readSelect",
           "normalized": "String-\u003eEither ParseError Select",
@@ -15246,6 +16582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readSelectCore",
           "package": "language-sqlite",
@@ -15255,6 +16592,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readSelectCore",
           "normalized": "String-\u003eEither ParseError SelectCore",
@@ -15270,6 +16608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readSingleSource",
           "package": "language-sqlite",
@@ -15279,6 +16618,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readSingleSource",
           "normalized": "String-\u003eEither ParseError SingleSource",
@@ -15294,6 +16634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readSinglyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -15303,6 +16644,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readSinglyQualifiedIdentifier",
           "normalized": "String-\u003eEither ParseError SinglyQualifiedIdentifier",
@@ -15318,6 +16660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readStatementList",
           "package": "language-sqlite",
@@ -15327,6 +16670,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readStatementList",
           "normalized": "String-\u003eEither ParseError StatementList",
@@ -15342,6 +16686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readTableConstraint",
           "package": "language-sqlite",
@@ -15351,6 +16696,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readTableConstraint",
           "normalized": "String-\u003eEither ParseError TableConstraint",
@@ -15366,6 +16712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerCondition",
           "package": "language-sqlite",
@@ -15375,6 +16722,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerCondition",
           "normalized": "String-\u003eEither ParseError TriggerCondition",
@@ -15390,6 +16738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerStatement",
           "package": "language-sqlite",
@@ -15399,6 +16748,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerStatement",
           "normalized": "String-\u003eEither ParseError TriggerStatement",
@@ -15414,6 +16764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerTime",
           "package": "language-sqlite",
@@ -15423,6 +16774,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readTriggerTime",
           "normalized": "String-\u003eEither ParseError TriggerTime",
@@ -15438,6 +16790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readType",
           "package": "language-sqlite",
@@ -15447,6 +16800,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readType",
           "normalized": "String-\u003eEither ParseError Type",
@@ -15462,6 +16816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readTypeSizeField",
           "package": "language-sqlite",
@@ -15471,6 +16826,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readTypeSizeField",
           "normalized": "String-\u003eEither ParseError TypeSizeField",
@@ -15486,6 +16842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readUnqualifiedIdentifier",
           "package": "language-sqlite",
@@ -15495,6 +16852,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readUnqualifiedIdentifier",
           "normalized": "String-\u003eEither ParseError UnqualifiedIdentifier",
@@ -15510,6 +16868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readUpdate",
           "package": "language-sqlite",
@@ -15519,6 +16878,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readUpdate",
           "normalized": "String-\u003eEither ParseError Update",
@@ -15534,6 +16894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateHead",
           "package": "language-sqlite",
@@ -15543,6 +16904,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateHead",
           "normalized": "String-\u003eEither ParseError UpdateHead",
@@ -15558,6 +16920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateLimited",
           "package": "language-sqlite",
@@ -15567,6 +16930,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateLimited",
           "normalized": "String-\u003eEither ParseError UpdateLimited",
@@ -15582,6 +16946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateOrUpdateLimited",
           "package": "language-sqlite",
@@ -15591,6 +16956,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readUpdateOrUpdateLimited",
           "normalized": "String-\u003eEither ParseError AnyStatement",
@@ -15606,6 +16972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readVacuum",
           "package": "language-sqlite",
@@ -15615,6 +16982,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readVacuum",
           "normalized": "String-\u003eEither ParseError Vacuum",
@@ -15630,6 +16998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readWhenClause",
           "package": "language-sqlite",
@@ -15639,6 +17008,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readWhenClause",
           "normalized": "String-\u003eEither ParseError WhenClause",
@@ -15654,6 +17024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "readWhereClause",
           "package": "language-sqlite",
@@ -15663,6 +17034,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "readWhereClause",
           "normalized": "String-\u003eEither ParseError WhereClause",
@@ -15678,6 +17050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "showTokens",
           "package": "language-sqlite",
@@ -15687,6 +17060,7 @@
         },
         "index": {
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "showTokens",
           "normalized": "a-\u003e[Token]",
@@ -15703,6 +17077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an identifier to be doubly-qualified.  This does not actually synthesize\n   any missing components, merely provides \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:15 UTC 2014",
           "module": "Language.SQL.SQLite",
           "name": "toDoublyQualifiedIdentifier",
           "package": "language-sqlite",
@@ -15713,6 +17088,7 @@
         "index": {
           "description": "Converts an identifier to be doubly-qualified This does not actually synthesize any missing components merely provides Nothing for them",
           "hierarchy": "Language SQL SQLite",
+          "indexed": "2014-03-11T19:06:15",
           "module": "Language.SQL.SQLite",
           "name": "toDoublyQualifiedIdentifier",
           "normalized": "a-\u003eDoublyQualifiedIdentifier",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmidi"
+        "phrase": "hmidi",
+        "type": "phrase"
       },
       "type": "context"
     }

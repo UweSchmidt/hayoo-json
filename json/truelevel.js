@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "truelevel"
+        "phrase": "truelevel",
+        "type": "phrase"
       },
       "type": "context"
     }

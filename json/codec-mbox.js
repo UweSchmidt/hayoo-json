@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "codec-mbox"
+        "phrase": "codec-mbox",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Direction",
           "package": "codec-mbox",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Direction",
           "package": "codec-mbox",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMbox\u003c/a\u003e\u003c/code\u003e is a list of \u003ccode\u003e\u003ca\u003eMboxMessage\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -70,6 +75,7 @@
         "index": {
           "description": "An Mbox is list of MboxMessage",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eMboxMessage\u003c/a\u003e\u003c/code\u003e represent an mbox message, featuring\n the sender, the date-time, and the message body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "MboxMessage",
           "package": "codec-mbox",
@@ -93,6 +100,7 @@
         "index": {
           "description": "An MboxMessage represent an mbox message featuring the sender the date-time and the message body",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "MboxMessage",
           "package": "codec-mbox",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Month",
           "package": "codec-mbox",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Month",
           "package": "codec-mbox",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Apr",
           "package": "codec-mbox",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Apr",
           "package": "codec-mbox",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Aug",
           "package": "codec-mbox",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Aug",
           "package": "codec-mbox",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Backward",
           "package": "codec-mbox",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Backward",
           "package": "codec-mbox",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Dec",
           "package": "codec-mbox",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Dec",
           "package": "codec-mbox",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Feb",
           "package": "codec-mbox",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Feb",
           "package": "codec-mbox",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Forward",
           "package": "codec-mbox",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Forward",
           "package": "codec-mbox",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Jan",
           "package": "codec-mbox",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Jan",
           "package": "codec-mbox",
@@ -281,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Jul",
           "package": "codec-mbox",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Jul",
           "package": "codec-mbox",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Jun",
           "package": "codec-mbox",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Jun",
           "package": "codec-mbox",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Mar",
           "package": "codec-mbox",
@@ -334,6 +363,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Mar",
           "package": "codec-mbox",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "May",
           "package": "codec-mbox",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "May",
           "package": "codec-mbox",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Mbox",
           "package": "codec-mbox",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "MboxMessage",
           "package": "codec-mbox",
@@ -400,6 +435,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "MboxMessage",
           "package": "codec-mbox",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Nov",
           "package": "codec-mbox",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Nov",
           "package": "codec-mbox",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Oct",
           "package": "codec-mbox",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Oct",
           "package": "codec-mbox",
@@ -457,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "Sep",
           "package": "codec-mbox",
@@ -466,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "Sep",
           "package": "codec-mbox",
@@ -479,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "_mboxMsgBody",
           "package": "codec-mbox",
@@ -488,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "_mboxMsgBody",
           "package": "codec-mbox",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "_mboxMsgFile",
           "package": "codec-mbox",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "_mboxMsgFile",
           "package": "codec-mbox",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "_mboxMsgOffset",
           "package": "codec-mbox",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "_mboxMsgOffset",
           "package": "codec-mbox",
@@ -545,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "_mboxMsgSender",
           "package": "codec-mbox",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "_mboxMsgSender",
           "package": "codec-mbox",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "_mboxMsgTime",
           "package": "codec-mbox",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "_mboxMsgTime",
           "package": "codec-mbox",
@@ -590,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromQuoting f s\u003c/code\u003e returns \u003ccode\u003es\u003c/code\u003e where the quoting level\n of From_ lines has been updated using the \u003ccode\u003ef\u003c/code\u003e function.\n\u003c/p\u003e\u003cp\u003eThe From_ spefication, quoted from \u003ca\u003ehttp://qmail.org./man/man5/mbox.html\u003c/a\u003e:\n\u003c/p\u003e\u003cpre\u003e\n   \u003eFrom quoting ensures that the resulting\n   lines are not From_ lines:  the program prepends a \u003e to any\n   From_ line, \u003eFrom_ line, \u003e\u003eFrom_ line, \u003e\u003e\u003eFrom_ line, etc.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "fromQuoting",
           "package": "codec-mbox",
@@ -600,6 +653,7 @@
         "index": {
           "description": "fromQuoting returns where the quoting level of From lines has been updated using the function The From spefication quoted from http qmail.org man man5 mbox.html From quoting ensures that the resulting lines are not From lines the program prepends to any From line From line From line From line etc",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "fromQuoting",
           "normalized": "(Int-\u003eInt)-\u003eByteString-\u003eByteString",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMessages",
           "package": "codec-mbox",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMessages",
           "normalized": "[MboxMessage a]",
@@ -640,6 +696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage's body lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMsgBody",
           "package": "codec-mbox",
@@ -650,6 +707,7 @@
         "index": {
           "description": "Message body lens",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMsgBody",
           "normalized": "(a-\u003eb a)-\u003eMboxMessage a-\u003eb(MboxMessage a)",
@@ -666,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-class label to the file path of mbox's message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMsgFile",
           "package": "codec-mbox",
@@ -676,6 +735,7 @@
         "index": {
           "description": "First-class label to the file path of mbox message",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMsgFile",
           "normalized": "(FilePath-\u003ea FilePath)-\u003eMboxMessage b-\u003ea(MboxMessage b)",
@@ -692,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst-class label to the offset of the given message into the mbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMsgOffset",
           "package": "codec-mbox",
@@ -702,6 +763,7 @@
         "index": {
           "description": "First-class label to the offset of the given message into the mbox",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMsgOffset",
           "normalized": "(Int-\u003ea Int)-\u003eMboxMessage b-\u003ea(MboxMessage b)",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage's sender lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMsgSender",
           "package": "codec-mbox",
@@ -728,6 +791,7 @@
         "index": {
           "description": "Message sender lens",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMsgSender",
           "normalized": "(a-\u003eb a)-\u003eMboxMessage a-\u003eb(MboxMessage a)",
@@ -744,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage's time lens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "mboxMsgTime",
           "package": "codec-mbox",
@@ -754,6 +819,7 @@
         "index": {
           "description": "Message time lens",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "mboxMsgTime",
           "normalized": "(a-\u003eb a)-\u003eMboxMessage a-\u003eb(MboxMessage a)",
@@ -769,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "msgMonthYear",
           "package": "codec-mbox",
@@ -778,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "msgMonthYear",
           "normalized": "MboxMessage ByteString-\u003e(Month,Int)",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "msgYear",
           "package": "codec-mbox",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "msgYear",
           "normalized": "MboxMessage ByteString-\u003eInt",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "opposite",
           "package": "codec-mbox",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "opposite",
           "normalized": "Direction-\u003eDirection",
@@ -841,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eMbox\u003c/a\u003e\u003c/code\u003e by splitting on From_ lines and\n unquoting the '\u003e*From's of the message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "parseMbox",
           "package": "codec-mbox",
@@ -851,6 +924,7 @@
         "index": {
           "description": "Turns ByteString into an Mbox by splitting on From lines and unquoting the From of the message",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "parseMbox",
           "normalized": "ByteString-\u003eMbox ByteString",
@@ -867,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a mbox given a direction (forward/backward) and a file path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "parseMboxFile",
           "package": "codec-mbox",
@@ -877,6 +952,7 @@
         "index": {
           "description": "Returns mbox given direction forward backward and file path",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "parseMboxFile",
           "normalized": "Direction-\u003eFilePath-\u003eIO(Mbox ByteString)",
@@ -893,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a mbox list given a direction (forward/backward) and a list of file path.\n   Note that files are opened lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "parseMboxFiles",
           "package": "codec-mbox",
@@ -903,6 +980,7 @@
         "index": {
           "description": "Returns mbox list given direction forward backward and list of file path Note that files are opened lazily",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "parseMboxFiles",
           "normalized": "Direction-\u003e[FilePath]-\u003eIO[Mbox ByteString]",
@@ -919,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a file handle and an offset, \u003ccode\u003e\u003ca\u003eparseOneMboxMessage\u003c/a\u003e\u003c/code\u003e returns\n the message a this offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "parseOneMboxMessage",
           "package": "codec-mbox",
@@ -929,6 +1008,7 @@
         "index": {
           "description": "Given file handle and an offset parseOneMboxMessage returns the message this offset",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "parseOneMboxMessage",
           "normalized": "FilePath-\u003eHandle-\u003eInteger-\u003eIO(MboxMessage ByteString)",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseMbox\u003c/a\u003e\u003c/code\u003e but cat returns an error message.\n However only the line can cause an error message currently, so it's fine\n to dispatch on the either result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "safeParseMbox",
           "package": "codec-mbox",
@@ -955,6 +1036,7 @@
         "index": {
           "description": "Same as parseMbox but cat returns an error message However only the line can cause an error message currently so it fine to dispatch on the either result",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "safeParseMbox",
           "normalized": "FilePath-\u003eInt-\u003eByteString-\u003eEither String(Mbox ByteString)",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns an mbox into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "showMbox",
           "package": "codec-mbox",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Turns an mbox into ByteString",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "showMbox",
           "normalized": "Mbox ByteString-\u003eByteString",
@@ -997,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an header line in mbox format given an mbox message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "showMboxFromLine",
           "package": "codec-mbox",
@@ -1007,6 +1092,7 @@
         "index": {
           "description": "Returns an header line in mbox format given an mbox message",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "showMboxFromLine",
           "normalized": "MboxMessage ByteString-\u003eByteString",
@@ -1023,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e given an mbox message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:35:21 UTC 2014",
           "module": "Codec.Mbox",
           "name": "showMboxMessage",
           "package": "codec-mbox",
@@ -1033,6 +1120,7 @@
         "index": {
           "description": "Returns ByteString given an mbox message",
           "hierarchy": "Codec Mbox",
+          "indexed": "2014-03-11T17:35:21",
           "module": "Codec.Mbox",
           "name": "showMboxMessage",
           "normalized": "MboxMessage ByteString-\u003eByteString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsestar"
+        "phrase": "parsestar",
+        "type": "phrase"
       },
       "type": "context"
     }

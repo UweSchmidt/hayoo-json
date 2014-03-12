@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vector-buffer"
+        "phrase": "vector-buffer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA buffer that can be used as a vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "buffer that can be used as vector",
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "mapBufferM",
           "package": "vector-buffer",
@@ -73,6 +78,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "mapBufferM",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO(Vector b)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "mapBufferM_",
           "package": "vector-buffer",
@@ -99,6 +106,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "mapBufferM_",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO()",
@@ -141,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the next element to the buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "pushNextElement",
           "package": "vector-buffer",
@@ -151,6 +160,7 @@
         "index": {
           "description": "add the next element to the buffer",
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "pushNextElement",
           "normalized": "Buffer a-\u003ea-\u003eIO()",
@@ -167,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Buffer",
           "name": "toVector",
           "package": "vector-buffer",
@@ -177,6 +188,7 @@
         "index": {
           "description": "convert to vector",
           "hierarchy": "Data Vector Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Buffer",
           "name": "toVector",
           "normalized": "Buffer a-\u003eIO(Vector a)",
@@ -193,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA buffer that can be used as a vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -202,6 +215,7 @@
         "index": {
           "description": "buffer that can be used as vector",
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -215,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -223,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -237,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "mapBufferM",
           "package": "vector-buffer",
@@ -247,6 +264,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "mapBufferM",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO(Vector b)",
@@ -263,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "mapBufferM_",
           "package": "vector-buffer",
@@ -273,6 +292,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "mapBufferM_",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO()",
@@ -289,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the next element to the buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "pushNextElement",
           "package": "vector-buffer",
@@ -299,6 +320,7 @@
         "index": {
           "description": "add the next element to the buffer",
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "pushNextElement",
           "normalized": "Buffer a-\u003ea-\u003eIO()",
@@ -315,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "toVector",
           "package": "vector-buffer",
@@ -325,6 +348,7 @@
         "index": {
           "description": "convert to vector",
           "hierarchy": "Data Vector Primitive Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Primitive.Buffer",
           "name": "toVector",
           "normalized": "Buffer a-\u003eIO(Vector a)",
@@ -341,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA buffer that can be used as a vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -350,6 +375,7 @@
         "index": {
           "description": "buffer that can be used as vector",
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -363,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -371,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -385,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "mapBufferM",
           "package": "vector-buffer",
@@ -395,6 +424,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "mapBufferM",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO(Vector b)",
@@ -411,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "mapBufferM_",
           "package": "vector-buffer",
@@ -421,6 +452,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "mapBufferM_",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO()",
@@ -437,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the next element to the buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "pushNextElement",
           "package": "vector-buffer",
@@ -447,6 +480,7 @@
         "index": {
           "description": "add the next element to the buffer",
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "pushNextElement",
           "normalized": "Buffer a-\u003ea-\u003eIO()",
@@ -463,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Storable.Buffer",
           "name": "toVector",
           "package": "vector-buffer",
@@ -473,6 +508,7 @@
         "index": {
           "description": "convert to vector",
           "hierarchy": "Data Vector Storable Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Storable.Buffer",
           "name": "toVector",
           "normalized": "Buffer a-\u003eVector a",
@@ -489,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA buffer that can be used as a vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -498,6 +535,7 @@
         "index": {
           "description": "buffer that can be used as vector",
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -511,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -519,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "Buffer",
           "package": "vector-buffer",
@@ -533,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "mapBufferM",
           "package": "vector-buffer",
@@ -543,6 +584,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "mapBufferM",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO(Vector b)",
@@ -559,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over a buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "mapBufferM_",
           "package": "vector-buffer",
@@ -569,6 +612,7 @@
         "index": {
           "description": "monadic map over buffer",
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "mapBufferM_",
           "normalized": "(a-\u003eIO b)-\u003eBuffer a-\u003eIO()",
@@ -585,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd the next element to the buffer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "pushNextElement",
           "package": "vector-buffer",
@@ -595,6 +640,7 @@
         "index": {
           "description": "add the next element to the buffer",
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "pushNextElement",
           "normalized": "Buffer a-\u003ea-\u003eIO()",
@@ -611,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert to a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:34:05 UTC 2014",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "toVector",
           "package": "vector-buffer",
@@ -621,6 +668,7 @@
         "index": {
           "description": "convert to vector",
           "hierarchy": "Data Vector Unboxed Buffer",
+          "indexed": "2014-03-11T20:34:05",
           "module": "Data.Vector.Unboxed.Buffer",
           "name": "toVector",
           "normalized": "Buffer a-\u003eIO(Vector a)",

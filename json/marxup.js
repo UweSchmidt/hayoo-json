@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "marxup"
+        "phrase": "marxup",
+        "type": "phrase"
       },
       "type": "context"
     }

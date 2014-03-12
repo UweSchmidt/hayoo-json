@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prof2dot"
+        "phrase": "prof2dot",
+        "type": "phrase"
       },
       "type": "context"
     }

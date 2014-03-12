@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "feature-flags"
+        "phrase": "feature-flags",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA small utility module that provides a foundation for dynamically enabling and disabling features.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "FeatureFlag",
           "package": "feature-flags",
@@ -28,6 +29,7 @@
         "index": {
           "description": "small utility module that provides foundation for dynamically enabling and disabling features",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "FeatureFlag",
           "package": "feature-flags",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA union of different feature providers which maintains a currently active provider and facilities for changing providers.\n\u003c/p\u003e\u003cp\u003eUse this when you don't need to disable a feature, just to replace the implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "FeatureProvider",
           "package": "feature-flags",
@@ -51,6 +54,7 @@
         "index": {
           "description": "union of different feature providers which maintains currently active provider and facilities for changing providers Use this when you don need to disable feature just to replace the implementation",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "FeatureProvider",
           "package": "feature-flags",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple toggle for selectively enabling or disabling functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "FeatureToggle",
           "package": "feature-flags",
@@ -74,6 +79,7 @@
         "index": {
           "description": "simple toggle for selectively enabling or disabling functionality",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "FeatureToggle",
           "package": "feature-flags",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "Disabled",
           "package": "feature-flags",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "Disabled",
           "package": "feature-flags",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "Enabled",
           "package": "feature-flags",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "Enabled",
           "package": "feature-flags",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "FeatureProvider",
           "package": "feature-flags",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "FeatureProvider",
           "package": "feature-flags",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "availableProviders",
           "package": "feature-flags",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "availableProviders",
           "normalized": "[(Text,a)]",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "defaultProvider",
           "package": "feature-flags",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "defaultProvider",
           "package": "feature-flags",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable a feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "disable",
           "package": "feature-flags",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Disable feature",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "disable",
           "normalized": "FeatureToggle a-\u003eFeatureToggle a",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnable a feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "enable",
           "package": "feature-flags",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Enable feature",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "enable",
           "normalized": "FeatureToggle a-\u003eFeatureToggle a",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "enabledProvider",
           "package": "feature-flags",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "enabledProvider",
           "package": "feature-flags",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "enabledProviderName",
           "package": "feature-flags",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "enabledProviderName",
           "package": "feature-flags",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlip a toggle from enabled to disabled or vice versa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "toggle",
           "package": "feature-flags",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Flip toggle from enabled to disabled or vice versa",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "toggle",
           "normalized": "FeatureToggle a-\u003eFeatureToggle a",
@@ -319,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the current feature provider with another provider.\n Returns Left if the default provider is used due to a failed lookup.\n Returns Right if the lookup succeeded.\n\u003c/p\u003e\u003cp\u003eUse \"default\" as the lookup value if you want to explicitly load the default provider.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "use",
           "package": "feature-flags",
@@ -329,6 +356,7 @@
         "index": {
           "description": "Replace the current feature provider with another provider Returns Left if the default provider is used due to failed lookup Returns Right if the lookup succeeded Use default as the lookup value if you want to explicitly load the default provider",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "use",
           "normalized": "Text-\u003eFeatureProvider a-\u003eEither(FeatureProvider a)(FeatureProvider a)",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action only when the specified feature is disabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "whenDisabled",
           "package": "feature-flags",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Execute an action only when the specified feature is disabled",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "whenDisabled",
           "normalized": "FeatureToggle a-\u003eb c-\u003eb()",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action only when the specified feature is enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "whenEnabled",
           "package": "feature-flags",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Execute an action only when the specified feature is enabled",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "whenEnabled",
           "normalized": "FeatureToggle a-\u003eb c-\u003eb()",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function that takes a feature provided by a \u003ca\u003eFeatureProvider\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "withProvider",
           "package": "feature-flags",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Apply function that takes feature provided by FeatureProvider",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "withProvider",
           "normalized": "FeatureProvider a-\u003e(a-\u003eb)-\u003eb",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwitch on values depending on whether a toggle is enabled or disabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:16 UTC 2014",
           "module": "Control.FeatureFlag",
           "name": "withToggle",
           "package": "feature-flags",
@@ -432,6 +467,7 @@
         "index": {
           "description": "Switch on values depending on whether toggle is enabled or disabled",
           "hierarchy": "Control FeatureFlag",
+          "indexed": "2014-03-11T18:07:16",
           "module": "Control.FeatureFlag",
           "name": "withToggle",
           "normalized": "FeatureToggle a-\u003eb-\u003eb-\u003eb",

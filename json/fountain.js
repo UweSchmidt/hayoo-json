@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fountain"
+        "phrase": "fountain",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFountain codes are forward error correction codes for erasure channels.\n They are able to recover lost packets without needing a backchannel.\n As a rateless code, transmitters generate packets at random, on the fly.\n Receivers then listen to as many packets as needed to reconstruct the message.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "Fountain",
           "package": "fountain",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Fountain codes are forward error correction codes for erasure channels They are able to recover lost packets without needing backchannel As rateless code transmitters generate packets at random on the fly Receivers then listen to as many packets as needed to reconstruct the message",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "Fountain",
           "package": "fountain",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA decoder holds the state of the decoding process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "Decoder",
           "package": "fountain",
@@ -51,6 +54,7 @@
         "index": {
           "description": "decoder holds the state of the decoding process",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "Decoder",
           "package": "fountain",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message droplet is a set of message indices and the combined symbol.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "Droplet",
           "package": "fountain",
@@ -74,6 +79,7 @@
         "index": {
           "description": "message droplet is set of message indices and the combined symbol",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "Droplet",
           "package": "fountain",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA precoding matrix that appends extra symbols to a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "Precoding",
           "package": "fountain",
@@ -97,6 +104,7 @@
         "index": {
           "description": "precoding matrix that appends extra symbols to message",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "Precoding",
           "package": "fountain",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "Droplet",
           "package": "fountain",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "Droplet",
           "package": "fountain",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a \u003ccode\u003e\u003ca\u003eDecoder\u003c/a\u003e\u003c/code\u003e and a new \u003ccode\u003e\u003ca\u003eDroplet\u003c/a\u003e\u003c/code\u003e, returns either an updated \u003ccode\u003e\u003ca\u003eDecoder\u003c/a\u003e\u003c/code\u003e or the decoded message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "decode",
           "package": "fountain",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Given Decoder and new Droplet returns either an updated Decoder or the decoded message",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "decode",
           "normalized": "Decoder a-\u003eDroplet a-\u003e(Decoder a,Maybe[a])",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new decoder given a message length and the precoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "decoder",
           "package": "fountain",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Creates new decoder given message length and the precoding",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "decoder",
           "normalized": "Int-\u003ePrecoding-\u003eDecoder a",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA visual of \u003ccode\u003e\u003ca\u003eDecoder\u003c/a\u003e\u003c/code\u003e progress.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "decoderProgress",
           "package": "fountain",
@@ -193,6 +208,7 @@
         "index": {
           "description": "visual of Decoder progress",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "decoderProgress",
           "normalized": "Decoder a-\u003eString",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of droplets, given a seed, the max degree, precoding, and a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "droplets",
           "package": "fountain",
@@ -219,6 +236,7 @@
         "index": {
           "description": "An infinite list of droplets given seed the max degree precoding and message",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "droplets",
           "normalized": "Int-\u003eInt-\u003ePrecoding-\u003e[a]-\u003e[Droplet a]",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a random precoding matrix.\n\u003c/p\u003e\u003cpre\u003e precoding seed messageLength extraSymbols boundaries\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "precoding",
           "package": "fountain",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Generates random precoding matrix precoding seed messageLength extraSymbols boundaries",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "precoding",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003ePrecoding",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a test of a [Word8] message given the message length, max droplet degree, and a seed.\n   Returns the number of droplets that were needed to decode the message and if the message\n   was sucessfully decoded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "test",
           "package": "fountain",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Runs test of Word8 message given the message length max droplet degree and seed Returns the number of droplets that were needed to decode the message and if the message was sucessfully decoded",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "test",
           "normalized": "Int-\u003eInt-\u003ePrecoding-\u003eInt-\u003e(Int,Bool,[Decoder Word])",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a test with a randomly generated precoding.\n\u003c/p\u003e\u003cpre\u003e test' messageLength dropletMaxDegree extraSymbols (precodingMinDegree, precodingMaxDegree) seed\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:11:39 UTC 2014",
           "module": "Codec.Fountain",
           "name": "test'",
           "package": "fountain",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Runs test with randomly generated precoding test messageLength dropletMaxDegree extraSymbols precodingMinDegree precodingMaxDegree seed",
           "hierarchy": "Codec Fountain",
+          "indexed": "2014-03-11T18:11:39",
           "module": "Codec.Fountain",
           "name": "test'",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eInt-\u003e(Int,Bool,[Decoder Word])",

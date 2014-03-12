@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Condor"
+        "phrase": "Condor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContains basic data structures uses  by other modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "package": "Condor",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Contains basic data structures uses by other modules",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "package": "Condor",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "DocName",
           "package": "Condor",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Document name",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "DocName",
           "package": "Condor",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocument with name and contents \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "package": "Condor",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Document with name and contents",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "package": "Condor",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "package": "Condor",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "Document",
           "normalized": "Document DocName[Field]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate simple document with name and single field content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "docFromStrings",
           "package": "Condor",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Create simple document with name and single field content",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "docFromStrings",
           "normalized": "String-\u003eString-\u003eDocument",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet document name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "docName",
           "package": "Condor",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Get document name",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "docName",
           "normalized": "Document-\u003eText",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet text from all fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Commons.Document",
           "name": "docText",
           "package": "Condor",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Get text from all fields",
           "hierarchy": "Condor Commons Document",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Commons.Document",
           "name": "docText",
           "normalized": "Document-\u003eText",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReader for text files. Strict version.\nUses bang patters to force hGetContents to read the whole file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Reader.Text",
           "name": "Text",
           "package": "Condor",
@@ -199,6 +214,7 @@
         "index": {
           "description": "Reader for text files Strict version Uses bang patters to force hGetContents to read the whole file",
           "hierarchy": "Condor Reader Text",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Reader.Text",
           "name": "Text",
           "package": "Condor",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread text as UTF8 and return as document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Reader.Text",
           "name": "readDocument",
           "package": "Condor",
@@ -223,6 +240,7 @@
         "index": {
           "description": "read text as UTF8 and return as document",
           "hierarchy": "Condor Reader Text",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Reader.Text",
           "name": "readDocument",
           "normalized": "FilePath-\u003eIO Document",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMemory based index.\nThis module contains functions which create, update and search index. \nDefault implementation uses algorithms for english language (stemming, stop words etc.)\n\u003c/p\u003e\u003cp\u003eFunctions in this module (for performance reasons) are based on unicode strings from module Data.Text.\n\u003c/p\u003e\u003cp\u003eBasic usage:\n\u003c/p\u003e\u003cpre\u003e import Condor.Search.Index (addDocument, search)\n import Condor.Commons.Document (docFromStrings)\n\n let idx = addDocument emptyIndex $ docFromStrings \"My document 1\" \"This is a document content.\"\n search idx \"content\"\n [\"My document 1\"]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "Index",
           "package": "Condor",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Memory based index This module contains functions which create update and search index Default implementation uses algorithms for english language stemming stop words etc Functions in this module for performance reasons are based on unicode strings from module Data.Text Basic usage import Condor.Search.Index addDocument search import Condor.Commons.Document docFromStrings let idx addDocument emptyIndex docFromStrings My document This is document content search idx content My document",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "Index",
           "package": "Condor",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverted index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "Index",
           "package": "Condor",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Inverted index",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "Index",
           "package": "Condor",
@@ -285,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle term. Could be normalized word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "Term",
           "package": "Condor",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Single term Could be normalized word",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "Term",
           "package": "Condor",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd document to the index.\n This function should be used if document content should be splitted into terms\n with custom algorithms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "addDocTerms",
           "package": "Condor",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Add document to the index This function should be used if document content should be splitted into terms with custom algorithms",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "addDocTerms",
           "normalized": "DocName-\u003e[Term]-\u003eIndex-\u003eIndex",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd document to the index.\n This function uses algorithms for english language to split document content\n into index terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "addDocument",
           "package": "Condor",
@@ -344,6 +371,7 @@
         "index": {
           "description": "Add document to the index This function uses algorithms for english language to split document content into index terms",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "addDocument",
           "normalized": "Document-\u003eIndex-\u003eIndex",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of documents in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "docCount",
           "package": "Condor",
@@ -370,6 +399,7 @@
         "index": {
           "description": "Get the number of documents in the index",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "docCount",
           "normalized": "Index-\u003eInt",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate empty index. \n This index will be configured for english language.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "emptyIndex",
           "package": "Condor",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Create empty index This index will be configured for english language",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "emptyIndex",
           "package": "Condor",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch terms given as single string in the index\n This function uses algorithms for english language to split query into tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "search",
           "package": "Condor",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Search terms given as single string in the index This function uses algorithms for english language to split query into tokens",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "search",
           "normalized": "Index-\u003eText-\u003e[DocName]",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch terms given as array in the index.\n This function should be used if query should be splitted into terms\n with custom algorithms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "searchTerms",
           "package": "Condor",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Search terms given as array in the index This function should be used if query should be splitted into terms with custom algorithms",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "searchTerms",
           "normalized": "Index-\u003e[Term]-\u003e[DocName]",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of terms in the index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:04 UTC 2014",
           "module": "Condor.Search.Index",
           "name": "termCount",
           "package": "Condor",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Get the number of terms in the index",
           "hierarchy": "Condor Search Index",
+          "indexed": "2014-03-11T16:37:04",
           "module": "Condor.Search.Index",
           "name": "termCount",
           "normalized": "Index-\u003eInt",

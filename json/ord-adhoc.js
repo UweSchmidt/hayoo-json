@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ord-adhoc"
+        "phrase": "ord-adhoc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating Ord instance by a key function\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "package": "ord-adhoc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Creating Ord instance by key function",
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "package": "ord-adhoc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlso known as store comonad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "package": "ord-adhoc",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Also known as store comonad",
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "package": "ord-adhoc",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "package": "ord-adhoc",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "Ala",
           "normalized": "Ala(a-\u003eb,a)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the key from \u003ccode\u003e\u003ca\u003eAla\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "keyAla",
           "package": "ord-adhoc",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Extract the key from Ala",
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "keyAla",
           "normalized": "Ala a b-\u003ea",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "mapAla",
           "package": "ord-adhoc",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "mapAla",
           "normalized": "(a-\u003eb)-\u003eAla a c-\u003eAla b c",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance from the key function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "ordBy",
           "package": "ord-adhoc",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Make Ord instance from the key function",
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "ordBy",
           "normalized": "(a-\u003eb)-\u003ea-\u003eAla b a",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the original value from \u003ccode\u003e\u003ca\u003eAla\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Ala",
           "name": "unAla",
           "package": "ord-adhoc",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Extract the original value from Ala",
           "hierarchy": "Data Ord Ala",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Ala",
           "name": "unAla",
           "normalized": "Ala a b-\u003eb",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreating bounded value from any Ord instance\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "Bounded",
           "package": "ord-adhoc",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Creating bounded value from any Ord instance",
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "Bounded",
           "package": "ord-adhoc",
@@ -213,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "BoundedBoth",
           "package": "ord-adhoc",
@@ -221,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "BoundedBoth",
           "package": "ord-adhoc",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "BoundedMax",
           "package": "ord-adhoc",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "BoundedMax",
           "package": "ord-adhoc",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "BoundedMin",
           "package": "ord-adhoc",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "BoundedMin",
           "package": "ord-adhoc",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure that provides minimum/maximum to any value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "GBounded",
           "package": "ord-adhoc",
@@ -286,6 +309,7 @@
         "index": {
           "description": "structure that provides minimum maximum to any value",
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "GBounded",
           "package": "ord-adhoc",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided maximum value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "maximumBound",
           "package": "ord-adhoc",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Provided maximum value",
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "maximumBound",
           "normalized": "GBounded a()b",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided minimum value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:58 UTC 2014",
           "module": "Data.Ord.Bounded",
           "name": "minimumBound",
           "package": "ord-adhoc",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Provided minimum value",
           "hierarchy": "Data Ord Bounded",
+          "indexed": "2014-03-11T19:32:58",
           "module": "Data.Ord.Bounded",
           "name": "minimumBound",
           "normalized": "GBounded()a b",

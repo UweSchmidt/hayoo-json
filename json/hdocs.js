@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hdocs"
+        "phrase": "hdocs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "Base",
           "package": "hdocs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "Base",
           "package": "hdocs",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation in module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "ModuleDocMap",
           "package": "hdocs",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Documentation in module",
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "ModuleDocMap",
           "package": "hdocs",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfig GHC session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "configSession",
           "package": "hdocs",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Config GHC session",
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "configSession",
           "normalized": "[String]-\u003eIO DynFlags",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat documentation to plain text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "formatDoc",
           "package": "hdocs",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Format documentation to plain text",
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "formatDoc",
           "normalized": "Doc String-\u003eString",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat docs to plain text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "formatDocs",
           "package": "hdocs",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Format docs to plain text",
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "formatDocs",
           "normalized": "ModuleDocMap-\u003eMap String String",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action with initialized packages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Base",
           "name": "withInitializedPackages",
           "package": "hdocs",
@@ -151,6 +162,7 @@
         "index": {
           "description": "Run action with initialized packages",
           "hierarchy": "HDocs Base",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Base",
           "name": "withInitializedPackages",
           "normalized": "[String]-\u003e(DynFlags-\u003eIO a)-\u003eIO a",
@@ -166,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "Haddock",
           "package": "hdocs",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "Haddock",
           "package": "hdocs",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of haddock files in package db\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "haddockFiles",
           "package": "hdocs",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Get list of haddock files in package db",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "haddockFiles",
           "normalized": "[String]-\u003eErrorT String IO[FilePath]",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet docs for \u003ccode\u003e\u003ca\u003eInstalledInterface\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "installedInterfaceDocs",
           "package": "hdocs",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Get docs for InstalledInterface",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "installedInterfaceDocs",
           "normalized": "InstalledInterface-\u003e(String,ModuleDocMap)",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet docs for \u003ccode\u003e\u003ca\u003eInstalledInterface\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "installedInterfacesDocs",
           "package": "hdocs",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Get docs for InstalledInterface",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "installedInterfacesDocs",
           "normalized": "[InstalledInterface]-\u003eMap String ModuleDocMap",
@@ -266,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet docs for \u003ccode\u003e\u003ca\u003eInterface\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "interfaceDocs",
           "package": "hdocs",
@@ -276,6 +297,7 @@
         "index": {
           "description": "Get docs for Interface",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "interfaceDocs",
           "normalized": "Interface-\u003e(String,ModuleDocMap)",
@@ -292,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup doc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "lookupDoc",
           "package": "hdocs",
@@ -302,6 +325,7 @@
         "index": {
           "description": "Lookup doc",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "lookupDoc",
           "normalized": "String-\u003eString-\u003eMap String ModuleDocMap-\u003eMaybe(Doc String)",
@@ -318,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup doc for Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "lookupNameDoc",
           "package": "hdocs",
@@ -328,6 +353,7 @@
         "index": {
           "description": "Lookup doc for Name",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "lookupNameDoc",
           "normalized": "Name-\u003eMap String ModuleDocMap-\u003eMaybe(Doc String)",
@@ -344,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead docs from .haddock file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "readHaddock",
           "package": "hdocs",
@@ -354,6 +381,7 @@
         "index": {
           "description": "Read docs from haddock file",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "readHaddock",
           "normalized": "FilePath-\u003eErrorT String IO(Map String ModuleDocMap)",
@@ -370,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all installed docs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "readInstalledDocs",
           "package": "hdocs",
@@ -380,6 +409,7 @@
         "index": {
           "description": "Read all installed docs",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "readInstalledDocs",
           "normalized": "[String]-\u003eErrorT String IO(Map String ModuleDocMap)",
@@ -396,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead installed interface\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "readInstalledInterfaces",
           "package": "hdocs",
@@ -406,6 +437,7 @@
         "index": {
           "description": "Read installed interface",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "readInstalledInterfaces",
           "normalized": "FilePath-\u003eErrorT String IO[InstalledInterface]",
@@ -422,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead installed interfaces for package\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "readPackageInterfaces",
           "package": "hdocs",
@@ -432,6 +465,7 @@
         "index": {
           "description": "Read installed interfaces for package",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "readPackageInterfaces",
           "normalized": "PackageConfig-\u003eErrorT String IO[InstalledInterface]",
@@ -448,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead docs for haskell module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Haddock",
           "name": "readSource",
           "package": "hdocs",
@@ -458,6 +493,7 @@
         "index": {
           "description": "Read docs for haskell module",
           "hierarchy": "HDocs Haddock",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Haddock",
           "name": "readSource",
           "normalized": "[String]-\u003eFilePath-\u003eErrorT String IO(String,ModuleDocMap)",
@@ -473,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Module",
           "name": "Module",
           "package": "hdocs",
@@ -481,6 +518,7 @@
         },
         "index": {
           "hierarchy": "HDocs Module",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Module",
           "name": "Module",
           "package": "hdocs",
@@ -495,6 +533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet docs for \u003ccode\u003e\u003ca\u003eInstalledInterface\u003c/a\u003e\u003c/code\u003e with its exports docs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Module",
           "name": "exportsDocs",
           "package": "hdocs",
@@ -505,6 +544,7 @@
         "index": {
           "description": "Get docs for InstalledInterface with its exports docs",
           "hierarchy": "HDocs Module",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Module",
           "name": "exportsDocs",
           "normalized": "Map String ModuleDocMap-\u003eInstalledInterface-\u003e(String,ModuleDocMap)",
@@ -521,6 +561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad docs for all installed modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Module",
           "name": "installedDocs",
           "package": "hdocs",
@@ -531,6 +572,7 @@
         "index": {
           "description": "Load docs for all installed modules",
           "hierarchy": "HDocs Module",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Module",
           "name": "installedDocs",
           "normalized": "[String]-\u003eErrorT String IO(Map String ModuleDocMap)",
@@ -547,6 +589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad docs for all exported module symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:35:57 UTC 2014",
           "module": "HDocs.Module",
           "name": "moduleDocs",
           "package": "hdocs",
@@ -557,6 +600,7 @@
         "index": {
           "description": "Load docs for all exported module symbols",
           "hierarchy": "HDocs Module",
+          "indexed": "2014-03-11T18:35:57",
           "module": "HDocs.Module",
           "name": "moduleDocs",
           "normalized": "[String]-\u003eString-\u003eErrorT String IO ModuleDocMap",

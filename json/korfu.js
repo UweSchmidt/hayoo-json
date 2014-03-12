@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "korfu"
+        "phrase": "korfu",
+        "type": "phrase"
       },
       "type": "context"
     }

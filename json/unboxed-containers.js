@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unboxed-containers"
+        "phrase": "unboxed-containers",
+        "type": "phrase"
       },
       "type": "context"
     }

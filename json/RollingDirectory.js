@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "RollingDirectory"
+        "phrase": "RollingDirectory",
+        "type": "phrase"
       },
       "type": "context"
     }

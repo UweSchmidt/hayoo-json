@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "socketio"
+        "phrase": "socketio",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSocket.IO for Haskell folks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "SocketIO",
           "package": "socketio",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Socket.IO for Haskell folks",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "SocketIO",
           "package": "socketio",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapable of only sending events.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e if you wanna do some IO here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "CallbackM",
           "package": "socketio",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Capable of only sending events Use liftIO if you wanna do some IO here",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "CallbackM",
           "package": "socketio",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines behaviors of a Socket.IO server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Configuration",
           "package": "socketio",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Defines behaviors of Socket.IO server",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Configuration",
           "package": "socketio",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of an Event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "EventName",
           "package": "socketio",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Name of an Event",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "EventName",
           "package": "socketio",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapable of both sending and receiving events.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e if you wanna do some IO here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "HandlerM",
           "package": "socketio",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Capable of both sending and receiving events Use liftIO if you wanna do some IO here",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "HandlerM",
           "package": "socketio",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for \u003ccode\u003e\u003ca\u003eSessionID\u003c/a\u003e\u003c/code\u003e getter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "HasSessionID",
           "package": "socketio",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Class for SessionID getter",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "HasSessionID",
           "package": "socketio",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort number for a standalone Socket.IO server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Port",
           "package": "socketio",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Port number for standalone Socket.IO server",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Port",
           "package": "socketio",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Publisher",
           "package": "socketio",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Sends events",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Publisher",
           "package": "socketio",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "SessionID",
           "package": "socketio",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Session ID",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "SessionID",
           "package": "socketio",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Subscriber",
           "package": "socketio",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Receives events",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Subscriber",
           "package": "socketio",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNow only xhr-polling is supported. \u003ca\u003esocket.io-spec#transport-id\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Transport",
           "package": "socketio",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Now only xhr-polling is supported socket.io-spec transport-id",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Transport",
           "package": "socketio",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "Configuration",
           "package": "socketio",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "Configuration",
           "package": "socketio",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "XHRPolling",
           "package": "socketio",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "XHRPolling",
           "package": "socketio",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a message to everybody except for the socket that starts it.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003ebroadcast\u003c/a\u003e\u003c/code\u003e \"hide\" [\"nukes coming!\"] \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "broadcast",
           "package": "socketio",
@@ -326,6 +353,7 @@
         "index": {
           "description": "Sends message to everybody except for the socket that starts it broadcast hide nukes coming",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "broadcast",
           "package": "socketio",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "closeTimeout",
           "package": "socketio",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "closeTimeout",
           "package": "socketio",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault configuration.\n\u003c/p\u003e\u003cpre\u003e defaultConfig = Configuration\n    {   transports = [XHRPolling]\n    ,   logLevel = 2               \n    ,   logTo = stderr        \n    ,   header = [(\"Access-Control-Allow-Credentials\", \"true\")]      \n    ,   heartbeats = True\n    ,   closeTimeout = 60\n    ,   heartbeatTimeout = 60\n    ,   heartbeatInterval = 25\n    ,   pollingDuration = 20\n    }\n\u003c/pre\u003e\u003cp\u003eYou can override it like so:\n\u003c/p\u003e\u003cpre\u003e myConfig = defaultConfig { logLevel = 0 }\n\u003c/pre\u003e\u003cp\u003eUnless specified, the header will be modified to enable cross-origin resource sharing (CORS) like this.\n\u003c/p\u003e\u003cpre\u003e header = \n    [   (\"Access-Control-Allow-Origin\", \u003corigin-of-the-reqeust\u003e)]      \n    ,   (\"Access-Control-Allow-Credentials\", \"true\")\n    ]      \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "defaultConfig",
           "package": "socketio",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Default configuration defaultConfig Configuration transports XHRPolling logLevel logTo stderr header Access-Control-Allow-Credentials true heartbeats True closeTimeout heartbeatTimeout heartbeatInterval pollingDuration You can override it like so myConfig defaultConfig logLevel Unless specified the header will be modified to enable cross-origin resource sharing CORS like this header Access-Control-Allow-Origin origin-of-the-reqeust Access-Control-Allow-Credentials true",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "defaultConfig",
           "package": "socketio",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a message to the socket that starts it.\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eemit\u003c/a\u003e\u003c/code\u003e \"launch\" [\"missile\", \"nuke\"] \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "emit",
           "package": "socketio",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Sends message to the socket that starts it emit launch missile nuke",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "emit",
           "package": "socketio",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "getEventName",
           "package": "socketio",
@@ -418,6 +453,7 @@
         "index": {
           "description": "Name of the event",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "getEventName",
           "package": "socketio",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "getSessionID",
           "package": "socketio",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "getSessionID",
           "package": "socketio",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "header",
           "package": "socketio",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "header",
           "package": "socketio",
@@ -474,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "heartbeatInterval",
           "package": "socketio",
@@ -483,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "heartbeatInterval",
           "package": "socketio",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "heartbeatTimeout",
           "package": "socketio",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "heartbeatTimeout",
           "package": "socketio",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "heartbeats",
           "package": "socketio",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "heartbeats",
           "package": "socketio",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethere are 4 levels, from 0 to 3: Error, Warn, Info, Debug\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "logLevel",
           "package": "socketio",
@@ -550,6 +597,7 @@
         "index": {
           "description": "there are levels from to Error Warn Info Debug",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "logLevel",
           "package": "socketio",
@@ -563,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "logTo",
           "package": "socketio",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "logTo",
           "package": "socketio",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "on",
           "package": "socketio",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "on",
           "package": "socketio",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "pollingDuration",
           "package": "socketio",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "pollingDuration",
           "package": "socketio",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts payload carried by the event\n\u003c/p\u003e\u003cpre\u003e\n \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e \"echo\" $ do\n     payload \u003c- reply\n     liftIO $ print payload\n     emit \u003ca\u003eecho\u003c/a\u003e payload \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "reply",
           "package": "socketio",
@@ -639,6 +694,7 @@
         "index": {
           "description": "Extracts payload carried by the event on echo do payload reply liftIO print payload emit echo payload",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "reply",
           "normalized": "CallbackM[Text]",
@@ -654,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a socket.io application, build on top of Warp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "server",
           "package": "socketio",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Run socket.io application build on top of Warp",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "server",
           "normalized": "Port-\u003eHandlerM()-\u003eIO()",
@@ -679,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a socket.io application with configurations applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "serverConfig",
           "package": "socketio",
@@ -689,6 +748,7 @@
         "index": {
           "description": "Run socket.io application with configurations applied",
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "serverConfig",
           "normalized": "Port-\u003eConfiguration-\u003eHandlerM()-\u003eIO()",
@@ -704,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:07:00 UTC 2014",
           "module": "Web.SocketIO",
           "name": "transports",
           "package": "socketio",
@@ -713,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Web SocketIO",
+          "indexed": "2014-03-11T20:07:00",
           "module": "Web.SocketIO",
           "name": "transports",
           "normalized": "[Transport]",

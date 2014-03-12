@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-from-html"
+        "phrase": "blaze-from-html",
+        "type": "phrase"
       },
       "type": "context"
     }

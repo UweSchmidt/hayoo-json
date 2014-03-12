@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scrypt"
+        "phrase": "scrypt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScrypt is a sequential memory-hard key derivation function. This module\n  provides low-level bindings to the \u003ccode\u003e\u003ca\u003escrypt\u003c/a\u003e\u003c/code\u003e key derivation function as\n  well as a higher-level password-storage API. It is based on a fast C\n  implementation of scrypt, written by Colin Percival. For further\n  information see \u003ca\u003ehttp://www.tarsnap.com/scrypt.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "Scrypt",
           "package": "scrypt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Scrypt is sequential memory-hard key derivation function This module provides low-level bindings to the scrypt key derivation function as well as higher-level password-storage API It is based on fast implementation of scrypt written by Colin Percival For further information see http www.tarsnap.com scrypt.html",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "Scrypt",
           "package": "scrypt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "EncryptedPass",
           "package": "scrypt",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "EncryptedPass",
           "package": "scrypt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "Pass",
           "package": "scrypt",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "Pass",
           "package": "scrypt",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "PassHash",
           "package": "scrypt",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "PassHash",
           "package": "scrypt",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "Salt",
           "package": "scrypt",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "Salt",
           "package": "scrypt",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncapsulates the three tuning parameters to the \u003ccode\u003e\u003ca\u003escrypt\u003c/a\u003e\u003c/code\u003e function: \u003ccode\u003eN\u003c/code\u003e,\n \u003ccode\u003er\u003c/code\u003e and \u003ccode\u003ep\u003c/code\u003e (see above) as well es the length of the derived key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "ScryptParams",
           "package": "scrypt",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Encapsulates the three tuning parameters to the scrypt function and see above as well es the length of the derived key",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "ScryptParams",
           "package": "scrypt",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "EncryptedPass",
           "package": "scrypt",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "EncryptedPass",
           "package": "scrypt",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "Pass",
           "package": "scrypt",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "Pass",
           "package": "scrypt",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "PassHash",
           "package": "scrypt",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "PassHash",
           "package": "scrypt",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "Salt",
           "package": "scrypt",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "Salt",
           "package": "scrypt",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault parameters as recommended in the scrypt paper:\n\u003c/p\u003e\u003cpre\u003e   N = 2^14, r = 8, p = 1\n\u003c/pre\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003efromJust\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003escryptParams\u003c/a\u003e\u003c/code\u003e 14 8 1)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "defaultParams",
           "package": "scrypt",
@@ -247,6 +268,7 @@
         "index": {
           "description": "Default parameters as recommended in the scrypt paper Equivalent to fromJust scryptParams",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "defaultParams",
           "package": "scrypt",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt the password with the given parameters and salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "encryptPass",
           "package": "scrypt",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Encrypt the password with the given parameters and salt",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "encryptPass",
           "normalized": "ScryptParams-\u003eSalt-\u003ePass-\u003eEncryptedPass",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003eencryptPass defaultParams\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "encryptPass'",
           "package": "scrypt",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Equivalent to encryptPass defaultParams",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "encryptPass'",
           "normalized": "Salt-\u003ePass-\u003eEncryptedPass",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncrypt the password with the given parameters and a random 32-byte salt.\n The salt is read from \u003ccode\u003e/dev/urandom\u003c/code\u003e on Unix systems or \u003ccode\u003eCryptoAPI\u003c/code\u003e on\n Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "encryptPassIO",
           "package": "scrypt",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Encrypt the password with the given parameters and random byte salt The salt is read from dev urandom on Unix systems or CryptoAPI on Windows",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "encryptPassIO",
           "normalized": "ScryptParams-\u003ePass-\u003eIO EncryptedPass",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003eencryptPassIO defaultParams\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "encryptPassIO'",
           "package": "scrypt",
@@ -349,6 +378,7 @@
         "index": {
           "description": "Equivalent to encryptPassIO defaultParams",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "encryptPassIO'",
           "normalized": "Pass-\u003eIO EncryptedPass",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "getEncryptedPass",
           "package": "scrypt",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "getEncryptedPass",
           "package": "scrypt",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "getHash",
           "package": "scrypt",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "getHash",
           "package": "scrypt",
@@ -408,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "getPass",
           "package": "scrypt",
@@ -417,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "getPass",
           "package": "scrypt",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "getSalt",
           "package": "scrypt",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "getSalt",
           "package": "scrypt",
@@ -453,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a random 32-byte salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "newSalt",
           "package": "scrypt",
@@ -463,6 +502,7 @@
         "index": {
           "description": "Generate random byte salt",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "newSalt",
           "package": "scrypt",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates a hash from the given password, salt and parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "scrypt",
           "package": "scrypt",
@@ -487,6 +528,7 @@
         "index": {
           "description": "Calculates hash from the given password salt and parameters",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "scrypt",
           "normalized": "ScryptParams-\u003eSalt-\u003ePass-\u003ePassHash",
@@ -502,6 +544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote the prime symbol ('). Calls \u003ccode\u003e\u003ca\u003escrypt\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003edefaultParams\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "scrypt'",
           "package": "scrypt",
@@ -512,6 +555,7 @@
         "index": {
           "description": "Note the prime symbol Calls scrypt with defaultParams",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "scrypt'",
           "normalized": "Salt-\u003ePass-\u003ePassHash",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor function for \u003ccode\u003e\u003ca\u003eScryptParams\u003c/a\u003e\u003c/code\u003e with default derived-key-length of\n  64 bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "scryptParams",
           "package": "scrypt",
@@ -536,6 +581,7 @@
         "index": {
           "description": "Constructor function for ScryptParams with default derived-key-length of bytes",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "scryptParams",
           "normalized": "Integer-\u003eInteger-\u003eInteger-\u003eMaybe ScryptParams",
@@ -552,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor function for \u003ccode\u003e\u003ca\u003eScryptParams\u003c/a\u003e\u003c/code\u003e with an additional parameter to\n  control the length of the derived key. Only use this function if you are\n  sure you need control over the length of the derived key. Use \u003ccode\u003e\u003ca\u003escryptParams\u003c/a\u003e\u003c/code\u003e\n  instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "scryptParamsLen",
           "package": "scrypt",
@@ -561,6 +608,7 @@
         "index": {
           "description": "Constructor function for ScryptParams with an additional parameter to control the length of the derived key Only use this function if you are sure you need control over the length of the derived key Use scryptParams instead",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "scryptParamsLen",
           "normalized": "Integer-\u003eInteger-\u003eInteger-\u003eInteger-\u003eMaybe ScryptParams",
@@ -577,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e against an \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e. The function also takes\n  \u003ccode\u003e\u003ca\u003eScryptParams\u003c/a\u003e\u003c/code\u003e meeting your current security requirements. In case the\n  \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e was generated with different parameters, the function\n  returns an updated \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e, generated with the given \n  \u003ccode\u003e\u003ca\u003eScryptParams\u003c/a\u003e\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003eSalt\u003c/a\u003e\u003c/code\u003e is kept from the given \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "verifyPass",
           "package": "scrypt",
@@ -586,6 +635,7 @@
         "index": {
           "description": "Verify Pass against an EncryptedPass The function also takes ScryptParams meeting your current security requirements In case the EncryptedPass was generated with different parameters the function returns an updated EncryptedPass generated with the given ScryptParams The Salt is kept from the given EncryptedPass",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "verifyPass",
           "normalized": "ScryptParams-\u003ePass-\u003eEncryptedPass-\u003e(Bool,Maybe EncryptedPass)",
@@ -602,6 +652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the \u003ccode\u003e\u003ca\u003ePass\u003c/a\u003e\u003c/code\u003e against the \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e, using the \u003ccode\u003e\u003ca\u003eScryptParams\u003c/a\u003e\u003c/code\u003e\n  encapsulated in the \u003ccode\u003e\u003ca\u003eEncryptedPass\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:44 UTC 2014",
           "module": "Crypto.Scrypt",
           "name": "verifyPass'",
           "package": "scrypt",
@@ -612,6 +663,7 @@
         "index": {
           "description": "Check the Pass against the EncryptedPass using the ScryptParams encapsulated in the EncryptedPass",
           "hierarchy": "Crypto Scrypt",
+          "indexed": "2014-03-11T19:58:44",
           "module": "Crypto.Scrypt",
           "name": "verifyPass'",
           "normalized": "Pass-\u003eEncryptedPass-\u003eBool",

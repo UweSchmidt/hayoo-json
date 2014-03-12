@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-derive"
+        "phrase": "binary-derive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:46 UTC 2014",
           "module": "Data.Binary.Derive",
           "name": "Derive",
           "package": "binary-derive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Binary Derive",
+          "indexed": "2014-03-11T17:18:46",
           "module": "Data.Binary.Derive",
           "name": "Derive",
           "package": "binary-derive",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives a \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e value for an instance of Binary. Normally you won't use\n this from anywhere except that \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e value in your instance declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:46 UTC 2014",
           "module": "Data.Binary.Derive",
           "name": "deriveGet",
           "package": "binary-derive",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Derives get value for an instance of Binary Normally you won use this from anywhere except that get value in your instance declaration",
           "hierarchy": "Data Binary Derive",
+          "indexed": "2014-03-11T17:18:46",
           "module": "Data.Binary.Derive",
           "name": "deriveGet",
           "package": "binary-derive",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives a \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e function for an instance of Binary. Normally you won't\n call this from anywhere except that \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e function in your instance\n declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:46 UTC 2014",
           "module": "Data.Binary.Derive",
           "name": "derivePut",
           "package": "binary-derive",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Derives put function for an instance of Binary Normally you won call this from anywhere except that put function in your instance declaration",
           "hierarchy": "Data Binary Derive",
+          "indexed": "2014-03-11T17:18:46",
           "module": "Data.Binary.Derive",
           "name": "derivePut",
           "normalized": "a-\u003ePut",

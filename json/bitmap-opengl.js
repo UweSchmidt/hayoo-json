@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitmap-opengl"
+        "phrase": "bitmap-opengl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenGL support for Data.Bitmap\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:45 UTC 2014",
           "module": "Data.Bitmap.OpenGL",
           "name": "OpenGL",
           "package": "bitmap-opengl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "OpenGL support for Data.Bitmap",
           "hierarchy": "Data Bitmap OpenGL",
+          "indexed": "2014-03-11T17:22:45",
           "module": "Data.Bitmap.OpenGL",
           "name": "OpenGL",
           "package": "bitmap-opengl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function guesses the pixel format from the number of channels:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e 1 ~\u003e Alpha\n\u003c/li\u003e\u003cli\u003e 2 ~\u003e Luminance, Alpha\n\u003c/li\u003e\u003cli\u003e 3 ~\u003e RGB\n\u003c/li\u003e\u003cli\u003e 4 ~\u003e RGBA\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor more control, use \u003ccode\u003e\u003ca\u003emakeTextureFromBitmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:45 UTC 2014",
           "module": "Data.Bitmap.OpenGL",
           "name": "makeSimpleBitmapTexture",
           "package": "bitmap-opengl",
@@ -52,6 +55,7 @@
         "index": {
           "description": "This function guesses the pixel format from the number of channels Alpha Luminance Alpha RGB RGBA For more control use makeTextureFromBitmap",
           "hierarchy": "Data Bitmap OpenGL",
+          "indexed": "2014-03-11T17:22:45",
           "module": "Data.Bitmap.OpenGL",
           "name": "makeSimpleBitmapTexture",
           "normalized": "Bitmap a-\u003eIO TextureObject",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new OpenGL texture from a bitmap\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:45 UTC 2014",
           "module": "Data.Bitmap.OpenGL",
           "name": "makeTextureFromBitmap",
           "package": "bitmap-opengl",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Creates new OpenGL texture from bitmap",
           "hierarchy": "Data Bitmap OpenGL",
+          "indexed": "2014-03-11T17:22:45",
           "module": "Data.Bitmap.OpenGL",
           "name": "makeTextureFromBitmap",
           "normalized": "Bitmap a-\u003eMaybe CubeMapTarget-\u003eLevel-\u003ePixelFormat-\u003ePixelInternalFormat-\u003eBorder-\u003eIO TextureObject",
@@ -93,6 +99,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:45 UTC 2014",
           "module": "Data.Bitmap.OpenGL",
           "name": "texImageFromBitmap",
           "package": "bitmap-opengl",
@@ -102,6 +109,7 @@
         },
         "index": {
           "hierarchy": "Data Bitmap OpenGL",
+          "indexed": "2014-03-11T17:22:45",
           "module": "Data.Bitmap.OpenGL",
           "name": "texImageFromBitmap",
           "normalized": "Bitmap a-\u003eMaybe CubeMapTarget-\u003eLevel-\u003ePixelFormat-\u003ePixelInternalFormat-\u003eBorder-\u003eIO()",

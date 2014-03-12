@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "groundhog-sqlite"
+        "phrase": "groundhog-sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "Sqlite",
           "package": "groundhog-sqlite",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "createSqlitePool",
           "package": "groundhog-sqlite",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "createSqlitePool",
           "normalized": "String-\u003eInt-\u003ea(Pool Sqlite)",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns action within connection. It can handle a simple connection, a pool of them, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "runDbConn",
           "package": "groundhog-sqlite",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Runs action within connection It can handle simple connection pool of them etc",
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "runDbConn",
           "normalized": "DbPersist a(NoLoggingT b)c-\u003ed-\u003eb c",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "withSqliteConn",
           "package": "groundhog-sqlite",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "withSqliteConn",
           "normalized": "String-\u003e(Sqlite-\u003ea b)-\u003ea b",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:21:40 UTC 2014",
           "module": "Database.Groundhog.Sqlite",
           "name": "withSqlitePool",
           "package": "groundhog-sqlite",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Database Groundhog Sqlite",
+          "indexed": "2014-03-11T18:21:40",
           "module": "Database.Groundhog.Sqlite",
           "name": "withSqlitePool",
           "normalized": "String-\u003eInt-\u003e(Pool Sqlite-\u003ea b)-\u003ea b",

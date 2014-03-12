@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-markup"
+        "phrase": "blaze-markup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe BlazeMarkup core, consisting of functions that offer the power to\n generate custom markup elements. It also offers user-centric functions,\n which are exposed through \u003ccode\u003e\u003ca\u003eBlaze\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWhile this module is exported, usage of it is not recommended, unless you\n know what you are doing. This module might undergo changes at any time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Internal",
           "package": "blaze-markup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The BlazeMarkup core consisting of functions that offer the power to generate custom markup elements It also offers user-centric functions which are exposed through Blaze While this module is exported usage of it is not recommended unless you know what you are doing This module might undergo changes at any time",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Internal",
           "package": "blaze-markup",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for applying attributes. You should not define your own instances of\n this class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Attributable",
           "package": "blaze-markup",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Used for applying attributes You should not define your own instances of this class",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Attributable",
           "package": "blaze-markup",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Attribute",
           "package": "blaze-markup",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type for an attribute",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Attribute",
           "package": "blaze-markup",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for the value part of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "AttributeValue",
           "package": "blaze-markup",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The type for the value part of an attribute",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "AttributeValue",
           "package": "blaze-markup",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string denoting input from different string representations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "ChoiceString",
           "package": "blaze-markup",
@@ -120,6 +129,7 @@
         "index": {
           "description": "string denoting input from different string representations",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "ChoiceString",
           "package": "blaze-markup",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplification of the \u003ccode\u003e\u003ca\u003eMarkupM\u003c/a\u003e\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Markup",
           "package": "blaze-markup",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Simplification of the MarkupM datatype",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Markup",
           "package": "blaze-markup",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core Markup datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "MarkupM",
           "package": "blaze-markup",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The core Markup datatype",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "MarkupM",
           "package": "blaze-markup",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA static string that supports efficient output to all possible backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "StaticString",
           "package": "blaze-markup",
@@ -189,6 +204,7 @@
         "index": {
           "description": "static string that supports efficient output to all possible backends",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "StaticString",
           "package": "blaze-markup",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for an HTML tag. This can be seen as an internal string type used by\n BlazeMarkup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Tag",
           "package": "blaze-markup",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Type for an HTML tag This can be seen as an internal string type used by BlazeMarkup",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Tag",
           "package": "blaze-markup",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an attribute to an element.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e img ! src \"foo.png\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003cimg src=\"foo.png\" /\u003e\n\u003c/pre\u003e\u003cp\u003eThis can be used on nested elements as well.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e p ! style \"float: right\" $ \"Hello!\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003cp style=\"float: right\"\u003eHello!\u003c/p\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "(!)",
           "package": "blaze-markup",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Apply an attribute to an element Example img src foo.png Result img src foo.png This can be used on nested elements as well Example style float right Hello Result style float right Hello",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "(!) !",
           "normalized": "a-\u003eAttribute-\u003ea",
@@ -277,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an attribute to the inner HTML. Raw key, key, value, HTML to\n receive the attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "AddAttribute",
           "package": "blaze-markup",
@@ -287,6 +308,7 @@
         "index": {
           "description": "Add an attribute to the inner HTML Raw key key value HTML to receive the attribute",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "AddAttribute",
           "package": "blaze-markup",
@@ -301,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a custom attribute to the inner HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "AddCustomAttribute",
           "package": "blaze-markup",
@@ -311,6 +334,7 @@
         "index": {
           "description": "Add custom attribute to the inner HTML",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "AddCustomAttribute",
           "package": "blaze-markup",
@@ -325,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation of two HTML pieces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Append",
           "package": "blaze-markup",
@@ -335,6 +360,7 @@
         "index": {
           "description": "Concatenation of two HTML pieces",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Append",
           "package": "blaze-markup",
@@ -349,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "AppendChoiceString",
           "package": "blaze-markup",
@@ -359,6 +386,7 @@
         "index": {
           "description": "Concatenation",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "AppendChoiceString",
           "package": "blaze-markup",
@@ -373,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn encoded bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "ByteString",
           "package": "blaze-markup",
@@ -383,6 +412,7 @@
         "index": {
           "description": "An encoded bytestring",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "ByteString",
           "package": "blaze-markup",
@@ -397,6 +427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTML content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Content",
           "package": "blaze-markup",
@@ -407,6 +438,7 @@
         "index": {
           "description": "HTML content",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Content",
           "package": "blaze-markup",
@@ -421,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom leaf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "CustomLeaf",
           "package": "blaze-markup",
@@ -431,6 +464,7 @@
         "index": {
           "description": "Custom leaf",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "CustomLeaf",
           "package": "blaze-markup",
@@ -445,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCustom parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "CustomParent",
           "package": "blaze-markup",
@@ -455,6 +490,7 @@
         "index": {
           "description": "Custom parent",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "CustomParent",
           "package": "blaze-markup",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Empty",
           "package": "blaze-markup",
@@ -479,6 +516,7 @@
         "index": {
           "description": "Empty HTML",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Empty",
           "package": "blaze-markup",
@@ -493,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "EmptyChoiceString",
           "package": "blaze-markup",
@@ -503,6 +542,7 @@
         "index": {
           "description": "Empty string",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "EmptyChoiceString",
           "package": "blaze-markup",
@@ -517,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExternal data in style/script tags, should be checked for validity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "External",
           "package": "blaze-markup",
@@ -527,6 +568,7 @@
         "index": {
           "description": "External data in style script tags should be checked for validity",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "External",
           "package": "blaze-markup",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag, open tag, end tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Leaf",
           "package": "blaze-markup",
@@ -551,6 +594,7 @@
         "index": {
           "description": "Tag open tag end tag",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Leaf",
           "package": "blaze-markup",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag, open tag, end tag, content\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Parent",
           "package": "blaze-markup",
@@ -575,6 +620,7 @@
         "index": {
           "description": "Tag open tag end tag content",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Parent",
           "package": "blaze-markup",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pre-escaped string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "PreEscaped",
           "package": "blaze-markup",
@@ -599,6 +646,7 @@
         "index": {
           "description": "pre-escaped string",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "PreEscaped",
           "package": "blaze-markup",
@@ -613,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatic data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Static",
           "package": "blaze-markup",
@@ -623,6 +672,7 @@
         "index": {
           "description": "Static data",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Static",
           "package": "blaze-markup",
@@ -636,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "StaticString",
           "package": "blaze-markup",
@@ -645,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "StaticString",
           "package": "blaze-markup",
@@ -659,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "String",
           "package": "blaze-markup",
@@ -669,6 +722,7 @@
         "index": {
           "description": "Haskell String",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "String",
           "package": "blaze-markup",
@@ -683,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Text value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "Text",
           "package": "blaze-markup",
@@ -693,6 +748,7 @@
         "index": {
           "description": "Text value",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "Text",
           "package": "blaze-markup",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an HTML attribute that can be applied to an HTML element later using\n the \u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "attribute",
           "package": "blaze-markup",
@@ -716,6 +773,7 @@
         "index": {
           "description": "Create an HTML attribute that can be applied to an HTML element later using the operator",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "attribute",
           "normalized": "Tag-\u003eTag-\u003eAttributeValue-\u003eAttribute",
@@ -783,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a custom leaf element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "customLeaf",
           "package": "blaze-markup",
@@ -792,6 +851,7 @@
         "index": {
           "description": "Create custom leaf element",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "customLeaf",
           "normalized": "Tag-\u003eBool-\u003eMarkup",
@@ -808,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a custom parent element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "customParent",
           "package": "blaze-markup",
@@ -817,6 +878,7 @@
         "index": {
           "description": "Create custom parent element",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "customParent",
           "normalized": "Tag-\u003eMarkup-\u003eMarkup",
@@ -859,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark HTML as external data. External data can be:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e CSS data in a \u003ccode\u003e\u003ca\u003estyle\u003c/a\u003e\u003c/code\u003e tag;\n\u003c/li\u003e\u003cli\u003e Script data in a \u003ccode\u003e\u003ca\u003escript\u003c/a\u003e\u003c/code\u003e tag.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis function is applied automatically when using the \u003ccode\u003estyle\u003c/code\u003e or \u003ccode\u003escript\u003c/code\u003e\n combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "external",
           "package": "blaze-markup",
@@ -869,6 +932,7 @@
         "index": {
           "description": "Mark HTML as external data External data can be CSS data in style tag Script data in script tag This function is applied automatically when using the style or script combinators",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "external",
           "normalized": "MarkupM a-\u003eMarkupM a",
@@ -884,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAppending haskell string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "getString",
           "package": "blaze-markup",
@@ -894,6 +959,7 @@
         "index": {
           "description": "Appending haskell string",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "getString",
           "normalized": "String-\u003eString",
@@ -910,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "getText",
           "package": "blaze-markup",
@@ -920,6 +987,7 @@
         "index": {
           "description": "Text value",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "getText",
           "package": "blaze-markup",
@@ -934,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUTF-8 encoded bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "getUtf8ByteString",
           "package": "blaze-markup",
@@ -944,6 +1013,7 @@
         "index": {
           "description": "UTF-8 encoded bytestring",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "getUtf8ByteString",
           "package": "blaze-markup",
@@ -958,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "lazyText",
           "package": "blaze-markup",
@@ -967,6 +1038,7 @@
         "index": {
           "description": "variant of text for lazy Text",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "lazyText",
           "normalized": "Text-\u003eMarkup",
@@ -983,6 +1055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003etextValue\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "lazyTextValue",
           "package": "blaze-markup",
@@ -992,6 +1065,7 @@
         "index": {
           "description": "variant of textValue for lazy Text",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "lazyTextValue",
           "normalized": "Text-\u003eAttributeValue",
@@ -1008,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003epreEscapedText\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedLazyText",
           "package": "blaze-markup",
@@ -1017,6 +1092,7 @@
         "index": {
           "description": "variant of preEscapedText for lazy Text",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedLazyText",
           "normalized": "Text-\u003eMarkup",
@@ -1033,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variant of \u003ccode\u003e\u003ca\u003epreEscapedTextValue\u003c/a\u003e\u003c/code\u003e for lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedLazyTextValue",
           "package": "blaze-markup",
@@ -1042,6 +1119,7 @@
         "index": {
           "description": "variant of preEscapedTextValue for lazy Text",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedLazyTextValue",
           "normalized": "Text-\u003eAttributeValue",
@@ -1058,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an HTML snippet from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e without escaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedString",
           "package": "blaze-markup",
@@ -1067,6 +1146,7 @@
         "index": {
           "description": "Create an HTML snippet from String without escaping",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedString",
           "normalized": "String-\u003eMarkup",
@@ -1083,6 +1163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an attribute value from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e without escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedStringValue",
           "package": "blaze-markup",
@@ -1093,6 +1174,7 @@
         "index": {
           "description": "Create an attribute value from String without escaping",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedStringValue",
           "normalized": "String-\u003eAttributeValue",
@@ -1109,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender text without escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedText",
           "package": "blaze-markup",
@@ -1118,6 +1201,7 @@
         "index": {
           "description": "Render text without escaping",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedText",
           "normalized": "Text-\u003eMarkup",
@@ -1134,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an attribute value from \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e without escaping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedTextValue",
           "package": "blaze-markup",
@@ -1143,6 +1228,7 @@
         "index": {
           "description": "Render an attribute value from Text without escaping",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "preEscapedTextValue",
           "normalized": "Text-\u003eAttributeValue",
@@ -1159,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an HTML snippet from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "string",
           "package": "blaze-markup",
@@ -1168,6 +1255,7 @@
         "index": {
           "description": "Create an HTML snippet from String",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "string",
           "normalized": "String-\u003eMarkup",
@@ -1209,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an attribute value from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "stringValue",
           "package": "blaze-markup",
@@ -1219,6 +1308,7 @@
         "index": {
           "description": "Create an attribute value from String",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "stringValue",
           "normalized": "String-\u003eAttributeValue",
@@ -1235,6 +1325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender text. Functions like these can be used to supply content in HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "text",
           "package": "blaze-markup",
@@ -1244,6 +1335,7 @@
         "index": {
           "description": "Render text Functions like these can be used to supply content in HTML",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "text",
           "normalized": "Text-\u003eMarkup",
@@ -1285,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an attribute value from \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Internal",
           "name": "textValue",
           "package": "blaze-markup",
@@ -1294,6 +1387,7 @@
         "index": {
           "description": "Render an attribute value from Text",
           "hierarchy": "Text Blaze Internal",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Internal",
           "name": "textValue",
           "normalized": "Text-\u003eAttributeValue",
@@ -1414,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA renderer that produces pretty HTML, mostly meant for debugging purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "Pretty",
           "package": "blaze-markup",
@@ -1423,6 +1518,7 @@
         "index": {
           "description": "renderer that produces pretty HTML mostly meant for debugging purposes",
           "hierarchy": "Text Blaze Renderer Pretty",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "Pretty",
           "package": "blaze-markup",
@@ -1437,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtml from Text.Blaze.Html.Renderer.Pretty instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "renderHtml",
           "package": "blaze-markup",
@@ -1447,6 +1544,7 @@
         "index": {
           "description": "Deprecated Use renderHtml from Text.Blaze.Html.Renderer.Pretty instead",
           "hierarchy": "Text Blaze Renderer Pretty",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "renderHtml",
           "normalized": "Markup-\u003eString",
@@ -1463,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender markup to a lazy \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. The result is prettified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "renderMarkup",
           "package": "blaze-markup",
@@ -1473,6 +1572,7 @@
         "index": {
           "description": "Render markup to lazy String The result is prettified",
           "hierarchy": "Text Blaze Renderer Pretty",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Pretty",
           "name": "renderMarkup",
           "normalized": "Markup-\u003eString",
@@ -1489,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA renderer that produces a native Haskell \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e, mostly meant for\n debugging purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.String",
           "name": "String",
           "package": "blaze-markup",
@@ -1498,6 +1599,7 @@
         "index": {
           "description": "renderer that produces native Haskell String mostly meant for debugging purposes",
           "hierarchy": "Text Blaze Renderer String",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.String",
           "name": "String",
           "package": "blaze-markup",
@@ -1512,6 +1614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eChoiceString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.String",
           "name": "fromChoiceString",
           "package": "blaze-markup",
@@ -1521,6 +1624,7 @@
         "index": {
           "description": "Render ChoiceString",
           "hierarchy": "Text Blaze Renderer String",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.String",
           "name": "fromChoiceString",
           "normalized": "ChoiceString-\u003eString-\u003eString",
@@ -1537,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtml from Text.Blaze.Html.Renderer.String instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.String",
           "name": "renderHtml",
           "package": "blaze-markup",
@@ -1547,6 +1652,7 @@
         "index": {
           "description": "Deprecated Use renderHtml from Text.Blaze.Html.Renderer.String instead",
           "hierarchy": "Text Blaze Renderer String",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.String",
           "name": "renderHtml",
           "normalized": "Markup-\u003eString",
@@ -1563,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender markup to a lazy \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.String",
           "name": "renderMarkup",
           "package": "blaze-markup",
@@ -1573,6 +1680,7 @@
         "index": {
           "description": "Render markup to lazy String",
           "hierarchy": "Text Blaze Renderer String",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.String",
           "name": "renderMarkup",
           "normalized": "Markup-\u003eString",
@@ -1589,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA renderer that produces a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value, using the Text Builder.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "Text",
           "package": "blaze-markup",
@@ -1598,6 +1707,7 @@
         "index": {
           "description": "renderer that produces lazy Text value using the Text Builder",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "Text",
           "package": "blaze-markup",
@@ -1612,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtml from Text.Blaze.Html.Renderer.Text instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtml",
           "package": "blaze-markup",
@@ -1622,6 +1733,7 @@
         "index": {
           "description": "Deprecated Use renderHtml from Text.Blaze.Html.Renderer.Text instead",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtml",
           "normalized": "Markup-\u003eText",
@@ -1638,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtmlBuilder from Text.Blaze.Html.Renderer.Text instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlBuilder",
           "package": "blaze-markup",
@@ -1648,6 +1761,7 @@
         "index": {
           "description": "Deprecated Use renderHtmlBuilder from Text.Blaze.Html.Renderer.Text instead",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlBuilder",
           "normalized": "Markup-\u003eBuilder",
@@ -1664,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtmlBuilderWith from Text.Blaze.Html.Renderer.Text instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlBuilderWith",
           "package": "blaze-markup",
@@ -1673,6 +1788,7 @@
         "index": {
           "description": "Deprecated Use renderHtmlBuilderWith from Text.Blaze.Html.Renderer.Text instead",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlBuilderWith",
           "normalized": "(ByteString-\u003eText)-\u003eMarkup-\u003eBuilder",
@@ -1689,6 +1805,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtmlWith from Text.Blaze.Html.Renderer.Text instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlWith",
           "package": "blaze-markup",
@@ -1698,6 +1815,7 @@
         "index": {
           "description": "Deprecated Use renderHtmlWith from Text.Blaze.Html.Renderer.Text instead",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderHtmlWith",
           "normalized": "(ByteString-\u003eText)-\u003eMarkup-\u003eText",
@@ -1714,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender markup to a lazy Text value. If there are any ByteString's in the\n input markup, this function will consider them as UTF-8 encoded values and\n decode them that way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkup",
           "package": "blaze-markup",
@@ -1724,6 +1843,7 @@
         "index": {
           "description": "Render markup to lazy Text value If there are any ByteString in the input markup this function will consider them as UTF-8 encoded values and decode them that way",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkup",
           "normalized": "Markup-\u003eText",
@@ -1740,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender markup to a text builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupBuilder",
           "package": "blaze-markup",
@@ -1750,6 +1871,7 @@
         "index": {
           "description": "Render markup to text builder",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupBuilder",
           "normalized": "Markup-\u003eBuilder",
@@ -1766,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender some \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e to a Text \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupBuilderWith",
           "package": "blaze-markup",
@@ -1775,6 +1898,7 @@
         "index": {
           "description": "Render some Markup to Text Builder",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupBuilderWith",
           "normalized": "(ByteString-\u003eText)-\u003eMarkup-\u003eBuilder",
@@ -1791,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender markup to a lazy Text value. This function allows you to specify what\n should happen with ByteString's in the input HTML. You can decode them or\n drop them, this depends on the application...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupWith",
           "package": "blaze-markup",
@@ -1800,6 +1925,7 @@
         "index": {
           "description": "Render markup to lazy Text value This function allows you to specify what should happen with ByteString in the input HTML You can decode them or drop them this depends on the application",
           "hierarchy": "Text Blaze Renderer Text",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Text",
           "name": "renderMarkupWith",
           "normalized": "(ByteString-\u003eText)-\u003eMarkup-\u003eText",
@@ -1815,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "Utf8",
           "package": "blaze-markup",
@@ -1823,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "Utf8",
           "package": "blaze-markup",
@@ -1837,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtml from Text.Blaze.Html.Renderer.Utf8 instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRender HTML to a lazy UTF-8 encoded 'L.ByteString.'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtml",
           "package": "blaze-markup",
@@ -1846,6 +1975,7 @@
         "index": {
           "description": "Deprecated Use renderHtml from Text.Blaze.Html.Renderer.Utf8 instead Render HTML to lazy UTF-8 encoded L.ByteString",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtml",
           "normalized": "Markup-\u003eByteString",
@@ -1862,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderHtmlBuilder from Text.Blaze.Html.Renderer.Utf8 instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRender some \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtmlBuilder",
           "package": "blaze-markup",
@@ -1871,6 +2002,7 @@
         "index": {
           "description": "Deprecated Use renderHtmlBuilder from Text.Blaze.Html.Renderer.Utf8 instead Render some Markup to Builder",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtmlBuilder",
           "normalized": "Markup-\u003eBuilder",
@@ -1887,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use renderMarkupToByteStringIO from Text.Blaze.Html.Renderer.Utf8 instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eRepeatedly render HTML to a buffer and process this buffer using the given\n IO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtmlToByteStringIO",
           "package": "blaze-markup",
@@ -1896,6 +2029,7 @@
         "index": {
           "description": "Deprecated Use renderMarkupToByteStringIO from Text.Blaze.Html.Renderer.Utf8 instead Repeatedly render HTML to buffer and process this buffer using the given IO action",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderHtmlToByteStringIO",
           "normalized": "(ByteString-\u003eIO())-\u003eMarkup-\u003eIO()",
@@ -1912,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender HTML to a lazy UTF-8 encoded 'L.ByteString.'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkup",
           "package": "blaze-markup",
@@ -1921,6 +2056,7 @@
         "index": {
           "description": "Render HTML to lazy UTF-8 encoded L.ByteString",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkup",
           "normalized": "Markup-\u003eByteString",
@@ -1937,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender some \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkupBuilder",
           "package": "blaze-markup",
@@ -1946,6 +2083,7 @@
         "index": {
           "description": "Render some Markup to Builder",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkupBuilder",
           "normalized": "Markup-\u003eBuilder",
@@ -1962,6 +2100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeatedly render HTML to a buffer and process this buffer using the given\n IO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkupToByteStringIO",
           "package": "blaze-markup",
@@ -1971,6 +2110,7 @@
         "index": {
           "description": "Repeatedly render HTML to buffer and process this buffer using the given IO action",
           "hierarchy": "Text Blaze Renderer Utf8",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze.Renderer.Utf8",
           "name": "renderMarkupToByteStringIO",
           "normalized": "(ByteString-\u003eIO())-\u003eMarkup-\u003eIO()",
@@ -1987,6 +2127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBlazeMarkup is a markup combinator library. It provides a way to embed\n markup languages like HTML and SVG in Haskell in an efficient and convenient\n way, with a light-weight syntax.\n\u003c/p\u003e\u003cp\u003eTo use the library, one needs to import a set of combinators. For example,\n you can use HTML 4 Strict from BlazeHtml package.\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n import Prelude hiding (head, id, div)\n import Text.Blaze.Html4.Strict hiding (map)\n import Text.Blaze.Html4.Strict.Attributes hiding (title)\n\u003c/pre\u003e\u003cp\u003eTo render the page later on, you need a so called Renderer. The recommended\n renderer is an UTF-8 renderer which produces a lazy bytestring.\n\u003c/p\u003e\u003cpre\u003e import Text.Blaze.Renderer.Utf8 (renderMarkup)\n\u003c/pre\u003e\u003cp\u003eNow, you can describe pages using the imported combinators.\n\u003c/p\u003e\u003cpre\u003e page1 :: Markup\n page1 = html $ do\n     head $ do\n         title \"Introduction page.\"\n         link ! rel \"stylesheet\" ! type_ \"text/css\" ! href \"screen.css\"\n     body $ do\n         div ! id \"header\" $ \"Syntax\"\n         p \"This is an example of BlazeMarkup syntax.\"\n         ul $ mapM_ (li . toMarkup . show) [1, 2, 3]\n\u003c/pre\u003e\u003cp\u003eThe resulting HTML can now be extracted using:\n\u003c/p\u003e\u003cpre\u003e renderMarkup page1\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "Blaze",
           "package": "blaze-markup",
@@ -1996,6 +2137,7 @@
         "index": {
           "description": "BlazeMarkup is markup combinator library It provides way to embed markup languages like HTML and SVG in Haskell in an efficient and convenient way with light-weight syntax To use the library one needs to import set of combinators For example you can use HTML Strict from BlazeHtml package LANGUAGE OverloadedStrings import Prelude hiding head id div import Text.Blaze.Html4.Strict hiding map import Text.Blaze.Html4.Strict.Attributes hiding title To render the page later on you need so called Renderer The recommended renderer is an UTF-8 renderer which produces lazy bytestring import Text.Blaze.Renderer.Utf8 renderMarkup Now you can describe pages using the imported combinators page1 Markup page1 html do head do title Introduction page link rel stylesheet type text css href screen.css body do div id header Syntax This is an example of BlazeMarkup syntax ul mapM li toMarkup show The resulting HTML can now be extracted using renderMarkup page1",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "Blaze",
           "package": "blaze-markup",
@@ -2010,6 +2152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "Attribute",
           "package": "blaze-markup",
@@ -2019,6 +2162,7 @@
         "index": {
           "description": "Type for an attribute",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "Attribute",
           "package": "blaze-markup",
@@ -2033,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for the value part of an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "AttributeValue",
           "package": "blaze-markup",
@@ -2042,6 +2187,7 @@
         "index": {
           "description": "The type for the value part of an attribute",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "AttributeValue",
           "package": "blaze-markup",
@@ -2056,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplification of the \u003ccode\u003e\u003ca\u003eMarkupM\u003c/a\u003e\u003c/code\u003e datatype.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "Markup",
           "package": "blaze-markup",
@@ -2065,6 +2212,7 @@
         "index": {
           "description": "Simplification of the MarkupM datatype",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "Markup",
           "package": "blaze-markup",
@@ -2079,6 +2227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for an HTML tag. This can be seen as an internal string type used by\n BlazeMarkup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "Tag",
           "package": "blaze-markup",
@@ -2088,6 +2237,7 @@
         "index": {
           "description": "Type for an HTML tag This can be seen as an internal string type used by BlazeMarkup",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "Tag",
           "package": "blaze-markup",
@@ -2102,6 +2252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass allowing us to use a single function for Markup values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "ToMarkup",
           "package": "blaze-markup",
@@ -2111,6 +2262,7 @@
         "index": {
           "description": "Class allowing us to use single function for Markup values",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "ToMarkup",
           "package": "blaze-markup",
@@ -2125,6 +2277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass allowing us to use a single function for attribute values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "ToValue",
           "package": "blaze-markup",
@@ -2134,6 +2287,7 @@
         "index": {
           "description": "Class allowing us to use single function for attribute values",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "ToValue",
           "package": "blaze-markup",
@@ -2148,6 +2302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an attribute to an element.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e img ! src \"foo.png\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003cimg src=\"foo.png\" /\u003e\n\u003c/pre\u003e\u003cp\u003eThis can be used on nested elements as well.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e p ! style \"float: right\" $ \"Hello!\"\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e \u003cp style=\"float: right\"\u003eHello!\u003c/p\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "(!)",
           "package": "blaze-markup",
@@ -2158,6 +2313,7 @@
         "index": {
           "description": "Apply an attribute to an element Example img src foo.png Result img src foo.png This can be used on nested elements as well Example style float right Hello Result style float right Hello",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "(!) !",
           "normalized": "a-\u003eAttribute-\u003ea",
@@ -2173,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to Markup without escaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "preEscapedToMarkup",
           "package": "blaze-markup",
@@ -2183,6 +2340,7 @@
         "index": {
           "description": "Convert value to Markup without escaping",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "preEscapedToMarkup",
           "normalized": "a-\u003eMarkup",
@@ -2199,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to an attribute value without escaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "preEscapedToValue",
           "package": "blaze-markup",
@@ -2209,6 +2368,7 @@
         "index": {
           "description": "Convert value to an attribute value without escaping",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "preEscapedToValue",
           "normalized": "a-\u003eAttributeValue",
@@ -2225,6 +2385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to Markup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "toMarkup",
           "package": "blaze-markup",
@@ -2235,6 +2396,7 @@
         "index": {
           "description": "Convert value to Markup",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "toMarkup",
           "normalized": "a-\u003eMarkup",
@@ -2251,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to an attribute value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:11 UTC 2014",
           "module": "Text.Blaze",
           "name": "toValue",
           "package": "blaze-markup",
@@ -2261,6 +2424,7 @@
         "index": {
           "description": "Convert value to an attribute value",
           "hierarchy": "Text Blaze",
+          "indexed": "2014-03-11T17:24:11",
           "module": "Text.Blaze",
           "name": "toValue",
           "normalized": "a-\u003eAttributeValue",

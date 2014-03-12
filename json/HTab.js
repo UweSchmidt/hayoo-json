@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HTab"
+        "phrase": "HTab",
+        "type": "phrase"
       },
       "type": "context"
     }

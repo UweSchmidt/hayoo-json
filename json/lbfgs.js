@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lbfgs"
+        "phrase": "lbfgs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "Raw",
           "package": "lbfgs",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "Raw",
           "package": "lbfgs",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CEvaluateFun",
           "package": "lbfgs",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CEvaluateFun",
           "package": "lbfgs",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSParameter",
           "package": "lbfgs",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSParameter",
           "package": "lbfgs",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSResult",
           "package": "lbfgs",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSResult",
           "package": "lbfgs",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLineSearchAlgorithm",
           "package": "lbfgs",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLineSearchAlgorithm",
           "package": "lbfgs",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CProgressFun",
           "package": "lbfgs",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CProgressFun",
           "package": "lbfgs",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSParameter",
           "package": "lbfgs",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSParameter",
           "package": "lbfgs",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSResult",
           "package": "lbfgs",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "CLBFGSResult",
           "package": "lbfgs",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtracking",
           "package": "lbfgs",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtracking",
           "package": "lbfgs",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingArmijo",
           "package": "lbfgs",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingArmijo",
           "package": "lbfgs",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingStrongWolfe",
           "package": "lbfgs",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingStrongWolfe",
           "package": "lbfgs",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingWolfe",
           "package": "lbfgs",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "backtrackingWolfe",
           "package": "lbfgs",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs",
           "package": "lbfgs",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs",
           "normalized": "CInt-\u003ePtr CDouble-\u003ePtr CDouble-\u003eFunPtr(CEvaluateFun a)-\u003eFunPtr(CProgressFun a)-\u003eStablePtr a-\u003ePtr CLBFGSParameter-\u003eIO CInt",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_evaluate_t_wrap",
           "package": "lbfgs",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_evaluate_t_wrap",
           "normalized": "CEvaluateFun a-\u003eIO(FunPtr(CEvaluateFun a))",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_free",
           "package": "lbfgs",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_free",
           "normalized": "Ptr CDouble-\u003eIO()",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_malloc",
           "package": "lbfgs",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_malloc",
           "normalized": "CInt-\u003eIO(Ptr CDouble)",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_progress_t_wrap",
           "package": "lbfgs",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "c_lbfgs_progress_t_wrap",
           "normalized": "CProgressFun a-\u003eIO(FunPtr(CProgressFun a))",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "defaultCParam",
           "package": "lbfgs",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "defaultCParam",
           "package": "lbfgs",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "defaultLineSearch",
           "package": "lbfgs",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "defaultLineSearch",
           "package": "lbfgs",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "delta",
           "package": "lbfgs",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "delta",
           "package": "lbfgs",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "epsilon",
           "package": "lbfgs",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "epsilon",
           "package": "lbfgs",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "ftol",
           "package": "lbfgs",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "ftol",
           "package": "lbfgs",
@@ -497,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "gtol",
           "package": "lbfgs",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "gtol",
           "package": "lbfgs",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsAlreadyMinimized",
           "package": "lbfgs",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsAlreadyMinimized",
           "package": "lbfgs",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsConvergence",
           "package": "lbfgs",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsConvergence",
           "package": "lbfgs",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsStop",
           "package": "lbfgs",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsStop",
           "package": "lbfgs",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsSuccess",
           "package": "lbfgs",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgsSuccess",
           "package": "lbfgs",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrCanceled",
           "package": "lbfgs",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrCanceled",
           "package": "lbfgs",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrIncorrectTminmax",
           "package": "lbfgs",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrIncorrectTminmax",
           "package": "lbfgs",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrIncreasegradient",
           "package": "lbfgs",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrIncreasegradient",
           "package": "lbfgs",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidDelta",
           "package": "lbfgs",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidDelta",
           "package": "lbfgs",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidEpsilon",
           "package": "lbfgs",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidEpsilon",
           "package": "lbfgs",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidFtol",
           "package": "lbfgs",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidFtol",
           "package": "lbfgs",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidGtol",
           "package": "lbfgs",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidGtol",
           "package": "lbfgs",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidLinesearch",
           "package": "lbfgs",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidLinesearch",
           "package": "lbfgs",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMaxlinesearch",
           "package": "lbfgs",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMaxlinesearch",
           "package": "lbfgs",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMaxstep",
           "package": "lbfgs",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMaxstep",
           "package": "lbfgs",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMinstep",
           "package": "lbfgs",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidMinstep",
           "package": "lbfgs",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidN",
           "package": "lbfgs",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidN",
           "package": "lbfgs",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidNSse",
           "package": "lbfgs",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidNSse",
           "package": "lbfgs",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwise",
           "package": "lbfgs",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwise",
           "package": "lbfgs",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwiseEnd",
           "package": "lbfgs",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwiseEnd",
           "package": "lbfgs",
@@ -936,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwiseStart",
           "package": "lbfgs",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidOrthantwiseStart",
           "package": "lbfgs",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidTestperiod",
           "package": "lbfgs",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidTestperiod",
           "package": "lbfgs",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidWolfe",
           "package": "lbfgs",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidWolfe",
           "package": "lbfgs",
@@ -1002,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidXSse",
           "package": "lbfgs",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidXSse",
           "package": "lbfgs",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidXtol",
           "package": "lbfgs",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidXtol",
           "package": "lbfgs",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidparameters",
           "package": "lbfgs",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrInvalidparameters",
           "package": "lbfgs",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrLogicerror",
           "package": "lbfgs",
@@ -1077,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrLogicerror",
           "package": "lbfgs",
@@ -1090,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumiteration",
           "package": "lbfgs",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumiteration",
           "package": "lbfgs",
@@ -1112,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumlinesearch",
           "package": "lbfgs",
@@ -1121,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumlinesearch",
           "package": "lbfgs",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumstep",
           "package": "lbfgs",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMaximumstep",
           "package": "lbfgs",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMinimumstep",
           "package": "lbfgs",
@@ -1165,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrMinimumstep",
           "package": "lbfgs",
@@ -1178,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrOutofinterval",
           "package": "lbfgs",
@@ -1187,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrOutofinterval",
           "package": "lbfgs",
@@ -1200,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrOutofmemory",
           "package": "lbfgs",
@@ -1209,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrOutofmemory",
           "package": "lbfgs",
@@ -1222,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrRoundingError",
           "package": "lbfgs",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrRoundingError",
           "package": "lbfgs",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrUnknownerror",
           "package": "lbfgs",
@@ -1253,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrUnknownerror",
           "package": "lbfgs",
@@ -1266,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrWidthtoosmall",
           "package": "lbfgs",
@@ -1275,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "lbfgserrWidthtoosmall",
           "package": "lbfgs",
@@ -1288,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "linesearch",
           "package": "lbfgs",
@@ -1297,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "linesearch",
           "package": "lbfgs",
@@ -1309,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "m",
           "package": "lbfgs",
@@ -1318,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "m",
           "package": "lbfgs",
@@ -1330,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_iterations",
           "package": "lbfgs",
@@ -1339,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_iterations",
           "package": "lbfgs",
@@ -1351,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_linesearch",
           "package": "lbfgs",
@@ -1360,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_linesearch",
           "package": "lbfgs",
@@ -1372,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_step",
           "package": "lbfgs",
@@ -1381,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "max_step",
           "package": "lbfgs",
@@ -1393,6 +1519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "min_step",
           "package": "lbfgs",
@@ -1402,6 +1529,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "min_step",
           "package": "lbfgs",
@@ -1414,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "moreThuente",
           "package": "lbfgs",
@@ -1423,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "moreThuente",
           "package": "lbfgs",
@@ -1436,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_c",
           "package": "lbfgs",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_c",
           "package": "lbfgs",
@@ -1457,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_end",
           "package": "lbfgs",
@@ -1466,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_end",
           "package": "lbfgs",
@@ -1478,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_start",
           "package": "lbfgs",
@@ -1487,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "orthantwise_start",
           "package": "lbfgs",
@@ -1499,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "past",
           "package": "lbfgs",
@@ -1508,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "past",
           "package": "lbfgs",
@@ -1520,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "unCLBFGSResult",
           "package": "lbfgs",
@@ -1529,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "unCLBFGSResult",
           "package": "lbfgs",
@@ -1542,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "wolfe",
           "package": "lbfgs",
@@ -1551,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "wolfe",
           "package": "lbfgs",
@@ -1563,6 +1705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS.Raw",
           "name": "xtol",
           "package": "lbfgs",
@@ -1572,6 +1715,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS Raw",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS.Raw",
           "name": "xtol",
           "package": "lbfgs",
@@ -1585,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinding for the liblbfgs library, much implements the Limited-memory\n Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) method for solving\n unconstrained minimization problems. The original C library is\n available from:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.chokkan.org/software/liblbfgs/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "LBFGS",
           "package": "lbfgs",
@@ -1594,6 +1739,7 @@
         "index": {
           "description": "Binding for the liblbfgs library much implements the Limited-memory Broyden-Fletcher-Goldfarb-Shanno L-BFGS method for solving unconstrained minimization problems The original library is available from http www.chokkan.org software liblbfgs",
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "LBFGS",
           "package": "lbfgs",
@@ -1608,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType signature for the objective function and gradient evaluations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "EvaluateFun",
           "package": "lbfgs",
@@ -1617,6 +1764,7 @@
         "index": {
           "description": "Type signature for the objective function and gradient evaluations",
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "EvaluateFun",
           "package": "lbfgs",
@@ -1630,6 +1778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "LBFGSResult",
           "package": "lbfgs",
@@ -1638,6 +1787,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "LBFGSResult",
           "package": "lbfgs",
@@ -1652,6 +1802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVarious line search algorithms. Wolfe backtracking algorithms require\n a coefficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "LineSearchAlgorithm",
           "package": "lbfgs",
@@ -1661,6 +1812,7 @@
         "index": {
           "description": "Various line search algorithms Wolfe backtracking algorithms require coefficient",
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "LineSearchAlgorithm",
           "package": "lbfgs",
@@ -1675,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType signature for a function reporting on the progress of the\n optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "ProgressFun",
           "package": "lbfgs",
@@ -1684,6 +1837,7 @@
         "index": {
           "description": "Type signature for function reporting on the progress of the optimization",
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "ProgressFun",
           "package": "lbfgs",
@@ -1697,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "Backtracking",
           "package": "lbfgs",
@@ -1706,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "Backtracking",
           "package": "lbfgs",
@@ -1719,6 +1875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingArmijo",
           "package": "lbfgs",
@@ -1728,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingArmijo",
           "package": "lbfgs",
@@ -1741,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingStrongWolfe",
           "package": "lbfgs",
@@ -1750,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingStrongWolfe",
           "package": "lbfgs",
@@ -1763,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingWolfe",
           "package": "lbfgs",
@@ -1772,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "BacktrackingWolfe",
           "package": "lbfgs",
@@ -1785,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "DefaultLineSearch",
           "package": "lbfgs",
@@ -1794,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "DefaultLineSearch",
           "package": "lbfgs",
@@ -1807,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "MoreThuente",
           "package": "lbfgs",
@@ -1816,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "MoreThuente",
           "package": "lbfgs",
@@ -1829,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "coeff",
           "package": "lbfgs",
@@ -1838,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "coeff",
           "package": "lbfgs",
@@ -1851,6 +2019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart a L-BFGS optimization. The initial variables should be\n provided as a list of doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:06:55 UTC 2014",
           "module": "Numeric.LBFGS",
           "name": "lbfgs",
           "package": "lbfgs",
@@ -1860,6 +2029,7 @@
         "index": {
           "description": "Start L-BFGS optimization The initial variables should be provided as list of doubles",
           "hierarchy": "Numeric LBFGS",
+          "indexed": "2014-03-11T19:06:55",
           "module": "Numeric.LBFGS",
           "name": "lbfgs",
           "normalized": "LineSearchAlgorithm-\u003eEvaluateFun a-\u003eProgressFun a-\u003ea-\u003e[Double]-\u003eIO(LBFGSResult,[Double])",

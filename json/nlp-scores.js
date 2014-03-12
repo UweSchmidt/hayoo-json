@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nlp-scores"
+        "phrase": "nlp-scores",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "Internals",
           "package": "nlp-scores",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "Internals",
           "package": "nlp-scores",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "Count",
           "package": "nlp-scores",
@@ -49,6 +52,7 @@
         "index": {
           "description": "count",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "Count",
           "package": "nlp-scores",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "Counts",
           "package": "nlp-scores",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Count table",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "Counts",
           "package": "nlp-scores",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "P",
           "package": "nlp-scores",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "P",
           "package": "nlp-scores",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "Counts",
           "package": "nlp-scores",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "Counts",
           "package": "nlp-scores",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "P",
           "package": "nlp-scores",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "P",
           "package": "nlp-scores",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty count table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "empty",
           "package": "nlp-scores",
@@ -159,6 +172,7 @@
         "index": {
           "description": "The empty count table",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "empty",
           "package": "nlp-scores",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts of both components\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "joint",
           "package": "nlp-scores",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Counts of both components",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "joint",
           "package": "nlp-scores",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts of the first component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "marginalFst",
           "package": "nlp-scores",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Counts of the first component",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "marginalFst",
           "package": "nlp-scores",
@@ -219,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts of the second component\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "marginalSnd",
           "package": "nlp-scores",
@@ -229,6 +248,7 @@
         "index": {
           "description": "Counts of the second component",
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "marginalSnd",
           "package": "nlp-scores",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores.Internals",
           "name": "unionPlus",
           "package": "nlp-scores",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "NLP Scores Internals",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores.Internals",
           "name": "unionPlus",
           "normalized": "Map a b-\u003eMap a b-\u003eMap a b",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eScoring functions commonly used for evaluation of NLP\n systems. Most functions in this module work on sequences which are\n instances of \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e, but some take a precomputed table of\n \u003ccode\u003e\u003ca\u003eCounts\u003c/a\u003e\u003c/code\u003e. This will give a speedup if you want to compute multiple\n scores on the same data. For example to compute the Mutual\n Information, Variation of Information and the Adjusted Rand Index\n on the same pair of clusterings:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet cs = counts \"abcabc\" \"abaaba\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003emapM_ (print . ($ cs)) [mi, ari, vi]\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.9182958340544894\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.4444444444444445\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e0.6666666666666663\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "Scores",
           "package": "nlp-scores",
@@ -276,6 +299,7 @@
         "index": {
           "description": "Scoring functions commonly used for evaluation of NLP systems Most functions in this module work on sequences which are instances of Foldable but some take precomputed table of Counts This will give speedup if you want to compute multiple scores on the same data For example to compute the Mutual Information Variation of Information and the Adjusted Rand Index on the same pair of clusterings let cs counts abcabc abaaba mapM print cs mi ari vi",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "Scores",
           "package": "nlp-scores",
@@ -290,6 +314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "Count",
           "package": "nlp-scores",
@@ -299,6 +324,7 @@
         "index": {
           "description": "count",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "Count",
           "package": "nlp-scores",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "Counts",
           "package": "nlp-scores",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Count table",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "Counts",
           "package": "nlp-scores",
@@ -336,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccuracy: the proportion of elements in the first sequence equal\n to elements at corresponding positions in second\n sequence. Sequences should be of equal lengths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "accuracy",
           "package": "nlp-scores",
@@ -346,6 +375,7 @@
         "index": {
           "description": "Accuracy the proportion of elements in the first sequence equal to elements at corresponding positions in second sequence Sequences should be of equal lengths",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "accuracy",
           "normalized": "a b-\u003ec b-\u003ed",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjusted Rand Index: \u003ca\u003ehttp://en.wikipedia.org/wiki/Rand_index\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "ari",
           "package": "nlp-scores",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Adjusted Rand Index http en.wikipedia.org wiki Rand index",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "ari",
           "normalized": "Counts a b-\u003eDouble",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage precision. \n \u003ca\u003ehttp://en.wikipedia.org/wiki/Information_retrieval#Average_precision\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "avgPrecision",
           "package": "nlp-scores",
@@ -396,6 +429,7 @@
         "index": {
           "description": "Average precision http en.wikipedia.org wiki Information retrieval Average precision",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "avgPrecision",
           "normalized": "Set a-\u003eb a-\u003ec",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount of first element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "countFst",
           "package": "nlp-scores",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Count of first element",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "countFst",
           "normalized": "a-\u003eCounts a b-\u003eCount",
@@ -438,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoint count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "countJoint",
           "package": "nlp-scores",
@@ -448,6 +485,7 @@
         "index": {
           "description": "Joint count",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "countJoint",
           "normalized": "a-\u003eb-\u003eCounts a b-\u003eCount",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount of second element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "countSnd",
           "package": "nlp-scores",
@@ -474,6 +513,7 @@
         "index": {
           "description": "Count of second element",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "countSnd",
           "normalized": "a-\u003eCounts b a-\u003eCount",
@@ -490,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates count table \u003ccode\u003e\u003ca\u003eCounts\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "counts",
           "package": "nlp-scores",
@@ -500,6 +541,7 @@
         "index": {
           "description": "Creates count table Counts",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "counts",
           "normalized": "a b-\u003ec d-\u003eCounts b d",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEntropy: H(X) = -SUM_i P(X=i) log_2(P(X=i)). \u003ccode\u003eentropy xs\u003c/code\u003e is the\n entropy of the random variable represented by the sequence \u003ccode\u003exs\u003c/code\u003e,\n where each element of \u003ccode\u003exs\u003c/code\u003e is the count of the one particular \n value the random variable can take. If you need to compute the \n entropy from a sequence of outcomes, the following will work:\n\u003c/p\u003e\u003cpre\u003e entropy . elems . histogram\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "entropy",
           "package": "nlp-scores",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Entropy SUM log entropy xs is the entropy of the random variable represented by the sequence xs where each element of xs is the count of the one particular value the random variable can take If you need to compute the entropy from sequence of outcomes the following will work entropy elems histogram",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "entropy",
           "normalized": "a b-\u003eb",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of values of first element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "fstElems",
           "package": "nlp-scores",
@@ -550,6 +595,7 @@
         "index": {
           "description": "List of values of first element",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "fstElems",
           "normalized": "Counts a b-\u003e[a]",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehistogram xs\u003c/code\u003e is returns the map of the frequency counts of the\n elements in sequence \u003ccode\u003exs\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "histogram",
           "package": "nlp-scores",
@@ -576,6 +623,7 @@
         "index": {
           "description": "histogram xs is returns the map of the frequency counts of the elements in sequence xs",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "histogram",
           "normalized": "a b-\u003eMap b c",
@@ -591,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJaccard coefficient\n J(A,B) = |AB| / |A union B|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "jaccard",
           "package": "nlp-scores",
@@ -601,6 +650,7 @@
         "index": {
           "description": "Jaccard coefficient AB union",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "jaccard",
           "normalized": "Set a-\u003eSet a-\u003eb",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJensen-Shannon divergence: JS(X,Y) = 1\u003cem\u003e2 KL(X,(X+Y)\u003c/em\u003e2) + 1\u003cem\u003e2 KL(Y,(X+Y)\u003c/em\u003e2).\n The distributions can be unnormalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "jensenShannon",
           "package": "nlp-scores",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Jensen-Shannon divergence JS KL KL The distributions can be unnormalized",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "jensenShannon",
           "normalized": "a b-\u003ec b-\u003eb",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKullback-Leibler divergence: KL(X,Y) = SUM_i P(X=i) log_2(P(X=i)/P(Y=i)). \n The distributions can be unnormalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "kullbackLeibler",
           "package": "nlp-scores",
@@ -652,6 +705,7 @@
         "index": {
           "description": "Kullback-Leibler divergence KL SUM log The distributions can be unnormalized",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "kullbackLeibler",
           "normalized": "a b-\u003ec b-\u003eb",
@@ -668,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe mean of a sequence of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "mean",
           "package": "nlp-scores",
@@ -678,6 +733,7 @@
         "index": {
           "description": "The mean of sequence of numbers",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "mean",
           "normalized": "a b-\u003ec",
@@ -693,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutual information: MI(X,Y) = H(X) - H(X|Y) = H(Y) - H(Y|X). Also\n known as information gain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "mi",
           "package": "nlp-scores",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Mutual information MI Also known as information gain",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "mi",
           "normalized": "Counts a b-\u003eDouble",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReciprocal rank: the reciprocal of the rank at which the first arguments\n occurs in the sequence given as the second argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "recipRank",
           "package": "nlp-scores",
@@ -728,6 +787,7 @@
         "index": {
           "description": "Reciprocal rank the reciprocal of the rank at which the first arguments occurs in the sequence given as the second argument",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "recipRank",
           "normalized": "a-\u003eb a-\u003ec",
@@ -744,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of values of second element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "sndElems",
           "package": "nlp-scores",
@@ -754,6 +815,7 @@
         "index": {
           "description": "List of values of second element",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "sndElems",
           "normalized": "Counts a b-\u003e[b]",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of a sequence of numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "sum",
           "package": "nlp-scores",
@@ -780,6 +843,7 @@
         "index": {
           "description": "The sum of sequence of numbers",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "sum",
           "normalized": "a b-\u003eb",
@@ -795,6 +859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariation of information: VI(X,Y) = H(X) + H(Y) - 2 MI(X,Y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:29:22 UTC 2014",
           "module": "NLP.Scores",
           "name": "vi",
           "package": "nlp-scores",
@@ -805,6 +870,7 @@
         "index": {
           "description": "Variation of information VI MI",
           "hierarchy": "NLP Scores",
+          "indexed": "2014-03-11T19:29:22",
           "module": "NLP.Scores",
           "name": "vi",
           "normalized": "Counts a b-\u003eDouble",

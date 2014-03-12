@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LambdaShell"
+        "phrase": "LambdaShell",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xdg-basedir"
+        "phrase": "xdg-basedir",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "BaseDir",
           "package": "xdg-basedir",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "BaseDir",
           "package": "xdg-basedir",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all configuration directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllConfigDirs",
           "package": "xdg-basedir",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Get list of all configuration directories",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllConfigDirs",
           "normalized": "String-\u003eIO[FilePath]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all paths for a specific configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllConfigFiles",
           "package": "xdg-basedir",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Get list of all paths for specific configuration file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllConfigFiles",
           "normalized": "String-\u003eString-\u003eIO[FilePath]",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all data directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllDataDirs",
           "package": "xdg-basedir",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Get list of all data directories",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllDataDirs",
           "normalized": "String-\u003eIO[FilePath]",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all paths for a specific data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllDataFiles",
           "package": "xdg-basedir",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Get list of all paths for specific data file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getAllDataFiles",
           "normalized": "String-\u003eString-\u003eIO[FilePath]",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the system-wide configuration directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemConfigDirs",
           "package": "xdg-basedir",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Get list of the system-wide configuration directories",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemConfigDirs",
           "normalized": "String-\u003eIO[FilePath]",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all paths for a specific system configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemConfigFiles",
           "package": "xdg-basedir",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Get list of all paths for specific system configuration file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemConfigFiles",
           "normalized": "String-\u003eString-\u003eIO[FilePath]",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of the system-wide data directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemDataDirs",
           "package": "xdg-basedir",
@@ -206,6 +221,7 @@
         "index": {
           "description": "Get list of the system-wide data directories",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemDataDirs",
           "normalized": "String-\u003eIO[FilePath]",
@@ -222,6 +238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of all paths for a specific system data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemDataFiles",
           "package": "xdg-basedir",
@@ -232,6 +249,7 @@
         "index": {
           "description": "Get list of all paths for specific system data file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getSystemDataFiles",
           "normalized": "String-\u003eString-\u003eIO[FilePath]",
@@ -248,6 +266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the directory for user-specific cache files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserCacheDir",
           "package": "xdg-basedir",
@@ -258,6 +277,7 @@
         "index": {
           "description": "Get the directory for user-specific cache files",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserCacheDir",
           "normalized": "String-\u003eIO FilePath",
@@ -274,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path to a specific user cache file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserCacheFile",
           "package": "xdg-basedir",
@@ -284,6 +305,7 @@
         "index": {
           "description": "Get the path to specific user cache file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserCacheFile",
           "normalized": "String-\u003eString-\u003eIO FilePath",
@@ -300,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the directory for user-specific configuration files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserConfigDir",
           "package": "xdg-basedir",
@@ -310,6 +333,7 @@
         "index": {
           "description": "Get the directory for user-specific configuration files",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserConfigDir",
           "normalized": "String-\u003eIO FilePath",
@@ -326,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path to a specific user configuration file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserConfigFile",
           "package": "xdg-basedir",
@@ -336,6 +361,7 @@
         "index": {
           "description": "Get the path to specific user configuration file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserConfigFile",
           "normalized": "String-\u003eString-\u003eIO FilePath",
@@ -352,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the directory for user-specific data files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserDataDir",
           "package": "xdg-basedir",
@@ -362,6 +389,7 @@
         "index": {
           "description": "Get the directory for user-specific data files",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserDataDir",
           "normalized": "String-\u003eIO FilePath",
@@ -378,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path to a specific user data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:41:09 UTC 2014",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserDataFile",
           "package": "xdg-basedir",
@@ -388,6 +417,7 @@
         "index": {
           "description": "Get the path to specific user data file",
           "hierarchy": "System Environment XDG BaseDir",
+          "indexed": "2014-03-11T20:41:09",
           "module": "System.Environment.XDG.BaseDir",
           "name": "getUserDataFile",
           "normalized": "String-\u003eString-\u003eIO FilePath",

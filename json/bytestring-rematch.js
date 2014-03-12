@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-rematch"
+        "phrase": "bytestring-rematch",
+        "type": "phrase"
       },
       "type": "context"
     }

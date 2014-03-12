@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "webidl"
+        "phrase": "webidl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Lexer",
           "name": "Token",
           "package": "webidl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Lexer",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Lexer",
           "name": "Token",
           "package": "webidl",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "Tokenize the standard input.\n",
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Lexer",
           "name": "lexStdin",
           "package": "webidl",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Tokenize the standard input",
           "hierarchy": "Language WebIDL Lexer",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Lexer",
           "name": "lexStdin",
           "normalized": "IO[Token]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "Get a token from the lexer. Upon EOF, token with tag 0 will be returned.\n",
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Lexer",
           "name": "pickToken",
           "package": "webidl",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Get token from the lexer Upon EOF token with tag will be returned",
           "hierarchy": "Language WebIDL Lexer",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Lexer",
           "name": "pickToken",
           "package": "webidl",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "Run the parser, return IDL definitions.\n",
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Parser",
           "name": "parseIDL",
           "package": "webidl",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Run the parser return IDL definitions",
           "hierarchy": "Language WebIDL Parser",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Parser",
           "name": "parseIDL",
           "normalized": "[Token]-\u003eEither ParseError IDLSpecification",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "Pretty print a parsed IDL specification.\n",
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.PrettyPrint",
           "name": "prettyPrint",
           "package": "webidl",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Pretty print parsed IDL specification",
           "hierarchy": "Language WebIDL PrettyPrint",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.PrettyPrint",
           "name": "prettyPrint",
           "normalized": "IDLSpecification-\u003eString",
@@ -141,6 +151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLArrayDeclarator",
           "package": "webidl",
@@ -149,6 +160,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLArrayDeclarator",
           "package": "webidl",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLAttrDcl",
           "package": "webidl",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLAttrDcl",
           "package": "webidl",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLBaseTypeSpec",
           "package": "webidl",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLBaseTypeSpec",
           "package": "webidl",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLBinaryOp",
           "package": "webidl",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLBinaryOp",
           "package": "webidl",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstDcl",
           "package": "webidl",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstDcl",
           "package": "webidl",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstExp",
           "package": "webidl",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstExp",
           "package": "webidl",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstType",
           "package": "webidl",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLConstType",
           "package": "webidl",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDeclarator",
           "package": "webidl",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDeclarator",
           "package": "webidl",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDef",
           "package": "webidl",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDef",
           "package": "webidl",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDefinition",
           "package": "webidl",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLDefinition",
           "package": "webidl",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExceptDcl",
           "package": "webidl",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExceptDcl",
           "package": "webidl",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExp",
           "package": "webidl",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExp",
           "package": "webidl",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExport",
           "package": "webidl",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExport",
           "package": "webidl",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExtAttr",
           "package": "webidl",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExtAttr",
           "package": "webidl",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExtAttrDetails",
           "package": "webidl",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLExtAttrDetails",
           "package": "webidl",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLFixedType",
           "package": "webidl",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLFixedType",
           "package": "webidl",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLFloatingType",
           "package": "webidl",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLFloatingType",
           "package": "webidl",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLInteger",
           "package": "webidl",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLInteger",
           "package": "webidl",
@@ -519,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLIntegerType",
           "package": "webidl",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLIntegerType",
           "package": "webidl",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLInterfaceBody",
           "package": "webidl",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLInterfaceBody",
           "package": "webidl",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLLiteral",
           "package": "webidl",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLLiteral",
           "package": "webidl",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLMember",
           "package": "webidl",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLMember",
           "package": "webidl",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLOpAttr",
           "package": "webidl",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLOpAttr",
           "package": "webidl",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLOpDcl",
           "package": "webidl",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLOpDcl",
           "package": "webidl",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamAttr",
           "package": "webidl",
@@ -653,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamAttr",
           "package": "webidl",
@@ -666,6 +726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamDcl",
           "package": "webidl",
@@ -674,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamDcl",
           "package": "webidl",
@@ -687,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamTypeSpec",
           "package": "webidl",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLParamTypeSpec",
           "package": "webidl",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLScopedName",
           "package": "webidl",
@@ -716,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLScopedName",
           "package": "webidl",
@@ -729,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSequenceType",
           "package": "webidl",
@@ -737,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSequenceType",
           "package": "webidl",
@@ -750,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSimpleTypeSpec",
           "package": "webidl",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSimpleTypeSpec",
           "package": "webidl",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSpecification",
           "package": "webidl",
@@ -779,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLSpecification",
           "package": "webidl",
@@ -792,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLStringType",
           "package": "webidl",
@@ -800,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLStringType",
           "package": "webidl",
@@ -813,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLStructType",
           "package": "webidl",
@@ -821,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLStructType",
           "package": "webidl",
@@ -834,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTemplateTypeSpec",
           "package": "webidl",
@@ -842,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTemplateTypeSpec",
           "package": "webidl",
@@ -855,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTypeDcl",
           "package": "webidl",
@@ -863,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTypeDcl",
           "package": "webidl",
@@ -876,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTypeSpec",
           "package": "webidl",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLTypeSpec",
           "package": "webidl",
@@ -897,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLUnaryOp",
           "package": "webidl",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "IDLUnaryOp",
           "package": "webidl",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "module": "Language.WebIDL.Syntax",
           "name": "JavaDoc",
           "package": "webidl",
@@ -926,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "Language WebIDL Syntax",
+          "indexed": "2014-03-11T20:38:15",
           "module": "Language.WebIDL.Syntax",
           "name": "JavaDoc",
           "package": "webidl",
@@ -940,11 +1026,13 @@
       "document": {
         "description": {
           "description": "Re-export commonly used modules.\n",
+          "indexed": "Tue Mar 11 20:38:15 UTC 2014",
           "source": "http://hackage.haskell.org/package/webidl/docs/Language-WebIDL.html",
           "type": "unknown"
         },
         "index": {
           "description": "Re-export commonly used modules",
+          "indexed": "2014-03-11T20:38:15",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/webidl/docs/Language-WebIDL.html"

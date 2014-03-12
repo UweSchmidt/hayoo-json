@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "boolexpr"
+        "phrase": "boolexpr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "Parser",
           "package": "boolexpr",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "Parser",
           "package": "boolexpr",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003eidentifier\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elexer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "identifier",
           "package": "boolexpr",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Shorthand for identifier lexer",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "identifier",
           "package": "boolexpr",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic language definition for search queries.\n Reserved names are \u003ccode\u003e\"AND\"\u003c/code\u003e \u003ccode\u003e\"OR\"\u003c/code\u003e and \u003ccode\u003e\"-\"\u003c/code\u003e.\n Identifiers accepts almost every ASCII sequences without blanks nor \u003ccode\u003e'-'\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "languageDef",
           "package": "boolexpr",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Basic language definition for search queries Reserved names are AND OR and Identifiers accepts almost every ASCII sequences without blanks nor",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "languageDef",
           "package": "boolexpr",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnderlying lexer of \u003ccode\u003e\u003ca\u003elanguageDef\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "lexer",
           "package": "boolexpr",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Underlying lexer of languageDef",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "lexer",
           "package": "boolexpr",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a search query as a boolean tree using the following grammar.\n     Note that this parser is parameterized over the parser of query simple\n     terms (const).\n\u003c/p\u003e\u003cpre\u003e\n  bt ::= bt AND bt\n        | bt bt -- same as AND\n        | bt OR bt\n        | - bt\n        | ( bt )\n        | const\n   const ::= \u003cgiven as argument\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "parseBoolExpr",
           "package": "boolexpr",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Parse search query as boolean tree using the following grammar Note that this parser is parameterized over the parser of query simple terms const bt bt AND bt bt bt same as AND bt OR bt bt bt const const given as argument",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "parseBoolExpr",
           "normalized": "CharParser a b-\u003eCharParser a(BoolExpr b)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003esymbol\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elexer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "symbol",
           "package": "boolexpr",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Shorthand for symbol lexer",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "symbol",
           "normalized": "String-\u003eCharParser a String",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShorthand for \u003ccode\u003e\u003ca\u003ewhiteSpace\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003elexer\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr.Parser",
           "name": "whiteSpace",
           "package": "boolexpr",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Shorthand for whiteSpace lexer",
           "hierarchy": "Data BoolExpr Parser",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr.Parser",
           "name": "whiteSpace",
           "normalized": "CharParser a()",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BoolExpr",
           "package": "boolexpr",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BoolExpr",
           "package": "boolexpr",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyntax of boolean expressions parameterized over a\n set of leaves, named constants.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BoolExpr",
           "package": "boolexpr",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Syntax of boolean expressions parameterized over set of leaves named constants",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BoolExpr",
           "package": "boolexpr",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA boolean type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Boolean",
           "package": "boolexpr",
@@ -240,6 +259,7 @@
         "index": {
           "description": "boolean type class",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Boolean",
           "package": "boolexpr",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "CNF",
           "package": "boolexpr",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "CNF",
           "package": "boolexpr",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Conj",
           "package": "boolexpr",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Conj",
           "package": "boolexpr",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "DNF",
           "package": "boolexpr",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "DNF",
           "package": "boolexpr",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Disj",
           "package": "boolexpr",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Disj",
           "package": "boolexpr",
@@ -338,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSigned values are either positive of negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Signed",
           "package": "boolexpr",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Signed values are either positive of negative",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Signed",
           "package": "boolexpr",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "(/\\)",
           "package": "boolexpr",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "(/\\) /\\",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "(\\/)",
           "package": "boolexpr",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "(\\/) \\/",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BAnd",
           "package": "boolexpr",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BAnd",
           "package": "boolexpr",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BConst",
           "package": "boolexpr",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BConst",
           "package": "boolexpr",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BFalse",
           "package": "boolexpr",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BFalse",
           "package": "boolexpr",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BNot",
           "package": "boolexpr",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BNot",
           "package": "boolexpr",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BOr",
           "package": "boolexpr",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BOr",
           "package": "boolexpr",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "BTrue",
           "package": "boolexpr",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "BTrue",
           "package": "boolexpr",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "CNF",
           "package": "boolexpr",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "CNF",
           "package": "boolexpr",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Conj",
           "package": "boolexpr",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Conj",
           "package": "boolexpr",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "DNF",
           "package": "boolexpr",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "DNF",
           "package": "boolexpr",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Disj",
           "package": "boolexpr",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Disj",
           "package": "boolexpr",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Negative",
           "package": "boolexpr",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Negative",
           "package": "boolexpr",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "Positive",
           "package": "boolexpr",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "Positive",
           "package": "boolexpr",
@@ -670,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "bConst",
           "package": "boolexpr",
@@ -679,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "bConst",
           "normalized": "a-\u003eb a",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "bFalse",
           "package": "boolexpr",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "bFalse",
           "package": "boolexpr",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "bNot",
           "package": "boolexpr",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "bNot",
           "normalized": "a b-\u003ea b",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "bTrue",
           "package": "boolexpr",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "bTrue",
           "package": "boolexpr",
@@ -763,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a boolean tree to a conjunctive normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "boolTreeToCNF",
           "package": "boolexpr",
@@ -773,6 +840,7 @@
         "index": {
           "description": "Convert boolean tree to conjunctive normal form",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "boolTreeToCNF",
           "normalized": "NegateConstant a-\u003eBoolExpr a-\u003eCNF a",
@@ -789,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a boolean tree to a disjunctive normal form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "boolTreeToDNF",
           "package": "boolexpr",
@@ -799,6 +868,7 @@
         "index": {
           "description": "Convert boolean tree to disjunctive normal form",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "boolTreeToDNF",
           "normalized": "(a-\u003eBoolExpr a)-\u003eBoolExpr a-\u003eDNF a",
@@ -815,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns constants used in a given boolean tree, these\n constants are returned signed depending one how many\n negations stands over a given constant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "constants",
           "package": "boolexpr",
@@ -825,6 +896,7 @@
         "index": {
           "description": "Returns constants used in given boolean tree these constants are returned signed depending one how many negations stands over given constant",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "constants",
           "normalized": "BoolExpr a-\u003e[Signed a]",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "dualize",
           "package": "boolexpr",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "dualize",
           "normalized": "NegateConstant a-\u003eBoolExpr a-\u003eBoolExpr a",
@@ -862,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "evalBoolExpr",
           "package": "boolexpr",
@@ -871,6 +946,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "evalBoolExpr",
           "normalized": "(a-\u003eBool)-\u003eBoolExpr a-\u003eBool",
@@ -887,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePush the negations inwards as much as possible.\n The resulting boolean tree no longer use negations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "pushNotInwards",
           "package": "boolexpr",
@@ -897,6 +974,7 @@
         "index": {
           "description": "Push the negations inwards as much as possible The resulting boolean tree no longer use negations",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "pushNotInwards",
           "normalized": "NegateConstant a-\u003eBoolExpr a-\u003eBoolExpr a",
@@ -913,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a boolean tree annotated by booleans to a single boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "reduceBoolExpr",
           "package": "boolexpr",
@@ -923,6 +1002,7 @@
         "index": {
           "description": "Reduce boolean tree annotated by booleans to single boolean",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "reduceBoolExpr",
           "normalized": "BoolExpr Bool-\u003eBool",
@@ -939,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a boolean expression in conjunctive normal form to a single\n boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "reduceCNF",
           "package": "boolexpr",
@@ -949,6 +1030,7 @@
         "index": {
           "description": "Reduce boolean expression in conjunctive normal form to single boolean",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "reduceCNF",
           "normalized": "CNF Bool-\u003eBool",
@@ -965,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a boolean expression in disjunctive normal form to a single\n boolean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "reduceDNF",
           "package": "boolexpr",
@@ -975,6 +1058,7 @@
         "index": {
           "description": "Reduce boolean expression in disjunctive normal form to single boolean",
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "reduceDNF",
           "normalized": "DNF Bool-\u003eBool",
@@ -990,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "unCNF",
           "package": "boolexpr",
@@ -999,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "unCNF",
           "package": "boolexpr",
@@ -1012,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "unConj",
           "package": "boolexpr",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "unConj",
           "normalized": "[a]",
@@ -1036,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "unDNF",
           "package": "boolexpr",
@@ -1045,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "unDNF",
           "package": "boolexpr",
@@ -1058,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:54 UTC 2014",
           "module": "Data.BoolExpr",
           "name": "unDisj",
           "package": "boolexpr",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Data BoolExpr",
+          "indexed": "2014-03-11T17:24:54",
           "module": "Data.BoolExpr",
           "name": "unDisj",
           "normalized": "[a]",

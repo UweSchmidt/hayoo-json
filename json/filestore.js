@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "filestore"
+        "phrase": "filestore",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA versioned filestore implemented using darcs.\n   Normally this module should not be imported: import\n   \u003ca\u003eData.FileStore\u003c/a\u003e instead. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Darcs",
           "name": "Darcs",
           "package": "filestore",
@@ -28,6 +29,7 @@
         "index": {
           "description": "versioned filestore implemented using darcs Normally this module should not be imported import Data.FileStore instead",
           "hierarchy": "Data FileStore Darcs",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Darcs",
           "name": "Darcs",
           "package": "filestore",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a filestore implemented using the Darcs distributed revision control system\n (\u003ca\u003ehttp://darcs.net/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Darcs",
           "name": "darcsFileStore",
           "package": "filestore",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Return filestore implemented using the Darcs distributed revision control system http darcs.net",
           "hierarchy": "Data FileStore Darcs",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Darcs",
           "name": "darcsFileStore",
           "normalized": "FilePath-\u003eFileStore",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric utility functions for working with filestores.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "Generic",
           "package": "filestore",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Generic utility functions for working with filestores",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "Generic",
           "package": "filestore",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value is either from the \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e list, the \u003ccode\u003e\u003ca\u003eSecond\u003c/a\u003e\u003c/code\u003e or from \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e.\n \u003ccode\u003e\u003ca\u003eBoth\u003c/a\u003e\u003c/code\u003e contains both the left and right values, in case you are using a form\n of equality that doesn't check all data (for example, if you are using a\n newtype to only perform equality on side of a tuple).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "Diff",
           "package": "filestore",
@@ -99,6 +106,7 @@
         "index": {
           "description": "value is either from the First list the Second or from Both Both contains both the left and right values in case you are using form of equality that doesn check all data for example if you are using newtype to only perform equality on side of tuple",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "Diff",
           "package": "filestore",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "Both",
           "package": "filestore",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "Both",
           "package": "filestore",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "First",
           "package": "filestore",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "First",
           "package": "filestore",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "Second",
           "package": "filestore",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "Second",
           "package": "filestore",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike save, but first verify that the resource name is new.  If not, throws a \u003ccode\u003e\u003ca\u003eResourceExists\u003c/a\u003e\u003c/code\u003e\n error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "create",
           "package": "filestore",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Like save but first verify that the resource name is new If not throws ResourceExists error",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "create",
           "normalized": "FileStore-\u003eFilePath-\u003eAuthor-\u003eDescription-\u003ea-\u003eIO()",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a unified diff of two revisions of a named resource.\n Format of the diff is a list \u003ccode\u003e[(Diff, [String])]\u003c/code\u003e, where\n \u003ccode\u003eDI\u003c/code\u003e is \u003ccode\u003eF\u003c/code\u003e (in first document only), \u003ccode\u003eS\u003c/code\u003e (in second only),\n or \u003ccode\u003eB\u003c/code\u003e (in both), and the list is a list of lines (without\n newlines at the end).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "diff",
           "package": "filestore",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Return unified diff of two revisions of named resource Format of the diff is list Diff String where DI is in first document only in second only or in both and the list is list of lines without newlines at the end",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "diff",
           "normalized": "FileStore-\u003eFilePath-\u003eMaybe RevisionId-\u003eMaybe RevisionId-\u003eIO[Diff[String]]",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a named resource in the filestore.  Like save, except that a revision ID\n must be specified.  If the resource has been modified since the specified revision,\n \u003ccode\u003eLeft\u003c/code\u003e merge information is returned.  Otherwise, \u003ccode\u003eRight\u003c/code\u003e the new contents are saved.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "modify",
           "package": "filestore",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Modify named resource in the filestore Like save except that revision ID must be specified If the resource has been modified since the specified revision Left merge information is returned Otherwise Right the new contents are saved",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "modify",
           "normalized": "FileStore-\u003eFilePath-\u003eRevisionId-\u003eAuthor-\u003eDescription-\u003ea-\u003eIO(Either MergeInfo())",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003edirectory\u003c/a\u003e\u003c/code\u003e, but returns information about the latest revision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "richDirectory",
           "package": "filestore",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Like directory but returns information about the latest revision",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "richDirectory",
           "normalized": "FileStore-\u003eFilePath-\u003eIO[(Resource,Either String Revision)]",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of all revisions that are saved with the given\n description or with a part of this description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "searchRevisions",
           "package": "filestore",
@@ -283,6 +306,7 @@
         "index": {
           "description": "Return list of all revisions that are saved with the given description or with part of this description",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "searchRevisions",
           "normalized": "FileStore-\u003eBool-\u003eFilePath-\u003eDescription-\u003eIO[Revision]",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry to retrieve a resource from the repository by name and possibly a\n revision identifier. When retrieving a resource by revision identifier fails\n this function will try to fetch the latest revision for which the\n description matches the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Generic",
           "name": "smartRetrieve",
           "package": "filestore",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Try to retrieve resource from the repository by name and possibly revision identifier When retrieving resource by revision identifier fails this function will try to fetch the latest revision for which the description matches the given string",
           "hierarchy": "Data FileStore Generic",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Generic",
           "name": "smartRetrieve",
           "normalized": "FileStore-\u003eBool-\u003eFilePath-\u003eMaybe String-\u003eIO a",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA versioned filestore implemented using git.\n   Normally this module should not be imported: import\n   \u003ca\u003eData.FileStore\u003c/a\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Git",
           "name": "Git",
           "package": "filestore",
@@ -333,6 +360,7 @@
         "index": {
           "description": "versioned filestore implemented using git Normally this module should not be imported import Data.FileStore instead",
           "hierarchy": "Data FileStore Git",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Git",
           "name": "Git",
           "package": "filestore",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a filestore implemented using the git distributed revision control system\n (\u003ca\u003ehttp://git-scm.com/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Git",
           "name": "gitFileStore",
           "package": "filestore",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Return filestore implemented using the git distributed revision control system http git-scm.com",
           "hierarchy": "Data FileStore Git",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Git",
           "name": "gitFileStore",
           "normalized": "FilePath-\u003eFileStore",
@@ -373,6 +403,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA versioned filestore implemented using mercurial.\n   Normally this module should not be imported: import\n   \u003ca\u003eData.FileStore\u003c/a\u003e instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Mercurial",
           "name": "Mercurial",
           "package": "filestore",
@@ -382,6 +413,7 @@
         "index": {
           "description": "versioned filestore implemented using mercurial Normally this module should not be imported import Data.FileStore instead",
           "hierarchy": "Data FileStore Mercurial",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Mercurial",
           "name": "Mercurial",
           "package": "filestore",
@@ -396,6 +428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a filestore implemented using the mercurial distributed revision control system\n (\u003ca\u003ehttp://mercurial.selenic.com/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Mercurial",
           "name": "mercurialFileStore",
           "package": "filestore",
@@ -406,6 +439,7 @@
         "index": {
           "description": "Return filestore implemented using the mercurial distributed revision control system http mercurial.selenic.com",
           "hierarchy": "Data FileStore Mercurial",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Mercurial",
           "name": "mercurialFileStore",
           "normalized": "FilePath-\u003eFileStore",
@@ -422,6 +456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType definitions for \u003ca\u003eData.FileStore\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Types",
           "package": "filestore",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Type definitions for Data.FileStore",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Types",
           "package": "filestore",
@@ -444,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Author",
           "package": "filestore",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Author",
           "package": "filestore",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Change",
           "package": "filestore",
@@ -473,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Change",
           "package": "filestore",
@@ -486,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Contents",
           "package": "filestore",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Contents",
           "package": "filestore",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Description",
           "package": "filestore",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Description",
           "package": "filestore",
@@ -529,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA versioning filestore, which can be implemented using the\n file system, a database, or revision-control software.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "FileStore",
           "package": "filestore",
@@ -538,6 +583,7 @@
         "index": {
           "description": "versioning filestore which can be implemented using the file system database or revision-control software",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "FileStore",
           "package": "filestore",
@@ -551,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "FileStoreError",
           "package": "filestore",
@@ -559,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "FileStoreError",
           "package": "filestore",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "MergeInfo",
           "package": "filestore",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "MergeInfo",
           "package": "filestore",
@@ -593,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Resource",
           "package": "filestore",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Resource",
           "package": "filestore",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Revision",
           "package": "filestore",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Revision",
           "package": "filestore",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "RevisionId",
           "package": "filestore",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "RevisionId",
           "package": "filestore",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "SearchMatch",
           "package": "filestore",
@@ -664,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "SearchMatch",
           "package": "filestore",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "SearchQuery",
           "package": "filestore",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "SearchQuery",
           "package": "filestore",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "TimeRange",
           "package": "filestore",
@@ -706,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "TimeRange",
           "package": "filestore",
@@ -720,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the simplest representation of UTC.\n It consists of the day number, and a time offset from midnight.\n Note that if a day has a leap second added to it, it will have 86401 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "UTCTime",
           "package": "filestore",
@@ -728,6 +791,7 @@
         "index": {
           "description": "This is the simplest representation of UTC It consists of the day number and time offset from midnight Note that if day has leap second added to it it will have seconds",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "UTCTime",
           "package": "filestore",
@@ -741,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Added",
           "package": "filestore",
@@ -750,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Added",
           "package": "filestore",
@@ -763,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Author",
           "package": "filestore",
@@ -772,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Author",
           "package": "filestore",
@@ -785,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Deleted",
           "package": "filestore",
@@ -794,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Deleted",
           "package": "filestore",
@@ -807,6 +877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "FSDirectory",
           "package": "filestore",
@@ -816,6 +887,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "FSDirectory",
           "package": "filestore",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "FSFile",
           "package": "filestore",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "FSFile",
           "package": "filestore",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "FileStore",
           "package": "filestore",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "FileStore",
           "package": "filestore",
@@ -874,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe specified resource name is illegal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "IllegalResourceName",
           "package": "filestore",
@@ -884,6 +961,7 @@
         "index": {
           "description": "The specified resource name is illegal",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "IllegalResourceName",
           "package": "filestore",
@@ -897,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "MergeInfo",
           "package": "filestore",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "MergeInfo",
           "package": "filestore",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Modified",
           "package": "filestore",
@@ -928,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Modified",
           "package": "filestore",
@@ -942,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe darcs version used does not support\n   --max-count\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "NoMaxCount",
           "package": "filestore",
@@ -952,6 +1035,7 @@
         "index": {
           "description": "The darcs version used does not support max-count",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "NoMaxCount",
           "package": "filestore",
@@ -966,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequested resource was not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "NotFound",
           "package": "filestore",
@@ -976,6 +1061,7 @@
         "index": {
           "description": "Requested resource was not found",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "NotFound",
           "package": "filestore",
@@ -990,6 +1076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTried to initialize a repo that exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "RepositoryExists",
           "package": "filestore",
@@ -1000,6 +1087,7 @@
         "index": {
           "description": "Tried to initialize repo that exists",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "RepositoryExists",
           "package": "filestore",
@@ -1014,6 +1102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTried to create a resource that exists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "ResourceExists",
           "package": "filestore",
@@ -1024,6 +1113,7 @@
         "index": {
           "description": "Tried to create resource that exists",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "ResourceExists",
           "package": "filestore",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Revision",
           "package": "filestore",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Revision",
           "package": "filestore",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "SearchMatch",
           "package": "filestore",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "SearchMatch",
           "package": "filestore",
@@ -1081,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "SearchQuery",
           "package": "filestore",
@@ -1090,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "SearchQuery",
           "package": "filestore",
@@ -1103,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "TimeRange",
           "package": "filestore",
@@ -1112,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "TimeRange",
           "package": "filestore",
@@ -1126,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe resource was not modified,\n   because the contents were unchanged\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "Unchanged",
           "package": "filestore",
@@ -1136,6 +1235,7 @@
         "index": {
           "description": "The resource was not modified because the contents were unchanged",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "Unchanged",
           "package": "filestore",
@@ -1149,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "UnknownError",
           "package": "filestore",
@@ -1158,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "UnknownError",
           "package": "filestore",
@@ -1171,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "UnsupportedOperation",
           "package": "filestore",
@@ -1180,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "UnsupportedOperation",
           "package": "filestore",
@@ -1193,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "authorEmail",
           "package": "filestore",
@@ -1202,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "authorEmail",
           "package": "filestore",
@@ -1215,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "authorName",
           "package": "filestore",
@@ -1224,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "authorName",
           "package": "filestore",
@@ -1237,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "defaultSearchQuery",
           "package": "filestore",
@@ -1246,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "defaultSearchQuery",
           "package": "filestore",
@@ -1260,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a named resource, providing author and log message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "delete",
           "package": "filestore",
@@ -1270,6 +1381,7 @@
         "index": {
           "description": "Delete named resource providing author and log message",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "delete",
           "normalized": "FilePath-\u003eAuthor-\u003eDescription-\u003eIO()",
@@ -1285,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of resources in a directory of the filestore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "directory",
           "package": "filestore",
@@ -1295,6 +1408,7 @@
         "index": {
           "description": "Return list of resources in directory of the filestore",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "directory",
           "normalized": "FilePath-\u003eIO[Resource]",
@@ -1309,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "fromByteString",
           "package": "filestore",
@@ -1318,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "fromByteString",
           "normalized": "ByteString-\u003ea",
@@ -1334,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet history for a list of named resources in a (possibly openended)\n time range. If the list is empty, history for all resources will\n be returned. If the TimeRange is 2 Nothings, history for all dates will be returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "history",
           "package": "filestore",
@@ -1344,6 +1461,7 @@
         "index": {
           "description": "Get history for list of named resources in possibly openended time range If the list is empty history for all resources will be returned If the TimeRange is Nothings history for all dates will be returned",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "history",
           "normalized": "[FilePath]-\u003eTimeRange-\u003eMaybe Int-\u003eIO[Revision]",
@@ -1359,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if the revision IDs match, in the sense that the\n can be treated as specifying the same revision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "idsMatch",
           "package": "filestore",
@@ -1369,6 +1488,7 @@
         "index": {
           "description": "True if the revision IDs match in the sense that the can be treated as specifying the same revision",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "idsMatch",
           "normalized": "RevisionId-\u003eRevisionId-\u003eBool",
@@ -1385,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of resources in the filestore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "index",
           "package": "filestore",
@@ -1395,6 +1516,7 @@
         "index": {
           "description": "Return list of resources in the filestore",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "index",
           "normalized": "IO[FilePath]",
@@ -1410,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a new filestore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "initialize",
           "package": "filestore",
@@ -1420,6 +1543,7 @@
         "index": {
           "description": "Initialize new filestore",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "initialize",
           "normalized": "IO()",
@@ -1435,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the revision ID of the latest change for a resource.\n Raises \u003ccode\u003e\u003ca\u003eNotFound\u003c/a\u003e\u003c/code\u003e if the resource is not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "latest",
           "package": "filestore",
@@ -1445,6 +1570,7 @@
         "index": {
           "description": "Return the revision ID of the latest change for resource Raises NotFound if the resource is not found",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "latest",
           "normalized": "FilePath-\u003eIO RevisionId",
@@ -1459,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "matchLine",
           "package": "filestore",
@@ -1468,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "matchLine",
           "package": "filestore",
@@ -1481,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "matchLineNumber",
           "package": "filestore",
@@ -1490,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "matchLineNumber",
           "package": "filestore",
@@ -1503,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "matchResourceName",
           "package": "filestore",
@@ -1512,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "matchResourceName",
           "package": "filestore",
@@ -1526,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if there were merge conflicts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "mergeConflicts",
           "package": "filestore",
@@ -1536,6 +1669,7 @@
         "index": {
           "description": "True if there were merge conflicts",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "mergeConflicts",
           "package": "filestore",
@@ -1550,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe revision w/ which changes were merged\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "mergeRevision",
           "package": "filestore",
@@ -1560,6 +1695,7 @@
         "index": {
           "description": "The revision which changes were merged",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "mergeRevision",
           "package": "filestore",
@@ -1574,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe merged text, w/ conflict markers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "mergeText",
           "package": "filestore",
@@ -1584,6 +1721,7 @@
         "index": {
           "description": "The merged text conflict markers",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "mergeText",
           "package": "filestore",
@@ -1598,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake matches case-insensitive?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "queryIgnoreCase",
           "package": "filestore",
@@ -1608,6 +1747,7 @@
         "index": {
           "description": "Make matches case-insensitive",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "queryIgnoreCase",
           "package": "filestore",
@@ -1622,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn matches only from files in which\n   all patterns match?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "queryMatchAll",
           "package": "filestore",
@@ -1632,6 +1773,7 @@
         "index": {
           "description": "Return matches only from files in which all patterns match",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "queryMatchAll",
           "package": "filestore",
@@ -1646,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePatterns to match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "queryPatterns",
           "package": "filestore",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "Patterns to match",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "queryPatterns",
           "normalized": "[String]",
@@ -1672,6 +1816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch patterns only with whole words?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "queryWholeWords",
           "package": "filestore",
@@ -1682,6 +1827,7 @@
         "index": {
           "description": "Match patterns only with whole words",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "queryWholeWords",
           "package": "filestore",
@@ -1696,6 +1842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename a resource, providing author and log message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "rename",
           "package": "filestore",
@@ -1706,6 +1853,7 @@
         "index": {
           "description": "Rename resource providing author and log message",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "rename",
           "normalized": "FilePath-\u003eFilePath-\u003eAuthor-\u003eDescription-\u003eIO()",
@@ -1721,6 +1869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the contents of the named resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "retrieve",
           "package": "filestore",
@@ -1731,6 +1880,7 @@
         "index": {
           "description": "Retrieve the contents of the named resource",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "retrieve",
           "normalized": "FilePath-\u003eMaybe RevisionId-\u003eIO a",
@@ -1745,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revAuthor",
           "package": "filestore",
@@ -1754,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revAuthor",
           "package": "filestore",
@@ -1767,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revChanges",
           "package": "filestore",
@@ -1776,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revChanges",
           "normalized": "[Change]",
@@ -1791,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revDateTime",
           "package": "filestore",
@@ -1800,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revDateTime",
           "package": "filestore",
@@ -1813,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revDescription",
           "package": "filestore",
@@ -1822,6 +1979,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revDescription",
           "package": "filestore",
@@ -1835,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revId",
           "package": "filestore",
@@ -1844,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revId",
           "package": "filestore",
@@ -1858,6 +2018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn information about a revision, given the ID.\n Raises \u003ccode\u003e\u003ca\u003eNotFound\u003c/a\u003e\u003c/code\u003e if there is no such revision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "revision",
           "package": "filestore",
@@ -1868,6 +2029,7 @@
         "index": {
           "description": "Return information about revision given the ID Raises NotFound if there is no such revision",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "revision",
           "normalized": "RevisionId-\u003eIO Revision",
@@ -1883,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave contents in the filestore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "save",
           "package": "filestore",
@@ -1893,6 +2056,7 @@
         "index": {
           "description": "Save contents in the filestore",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "save",
           "normalized": "FilePath-\u003eAuthor-\u003eDescription-\u003ea-\u003eIO()",
@@ -1908,6 +2072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch the filestore for patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "search",
           "package": "filestore",
@@ -1918,6 +2083,7 @@
         "index": {
           "description": "Search the filestore for patterns",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "search",
           "normalized": "SearchQuery-\u003eIO[SearchMatch]",
@@ -1933,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e means no lower bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "timeFrom",
           "package": "filestore",
@@ -1943,6 +2110,7 @@
         "index": {
           "description": "Nothing means no lower bound",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "timeFrom",
           "package": "filestore",
@@ -1957,6 +2125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNothing\u003c/code\u003e means no upper bound\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "timeTo",
           "package": "filestore",
@@ -1967,6 +2136,7 @@
         "index": {
           "description": "Nothing means no upper bound",
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "timeTo",
           "package": "filestore",
@@ -1980,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Types",
           "name": "toByteString",
           "package": "filestore",
@@ -1989,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Types",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Types",
           "name": "toByteString",
           "normalized": "a-\u003eByteString",
@@ -2005,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions for running external processes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "Utils",
           "package": "filestore",
@@ -2014,6 +2187,7 @@
         "index": {
           "description": "Utility functions for running external processes",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "Utils",
           "package": "filestore",
@@ -2028,6 +2202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode argument for raw command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "encodeArg",
           "package": "filestore",
@@ -2038,6 +2213,7 @@
         "index": {
           "description": "Encode argument for raw command",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "encodeArg",
           "normalized": "String-\u003eString",
@@ -2054,6 +2230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf name doesn't exist in repo or is not a file, throw \u003ccode\u003e\u003ca\u003eNotFound\u003c/a\u003e\u003c/code\u003e exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "ensureFileExists",
           "package": "filestore",
@@ -2064,6 +2241,7 @@
         "index": {
           "description": "If name doesn exist in repo or is not file throw NotFound exception",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "ensureFileExists",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "escapeRegexSpecialChars",
           "package": "filestore",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "escapeRegexSpecialChars",
           "normalized": "String-\u003eString",
@@ -2104,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses grep to search a file-based repository. Note that this calls out to grep; and so\n   is generic over repos like git or darcs-based repos. (The git FileStore instance doesn't\n   use this because git has builtin grep functionality.)\n   Expected usage is to specialize this function with a particular backend's \u003ccode\u003eindex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "grepSearchRepo",
           "package": "filestore",
@@ -2114,6 +2295,7 @@
         "index": {
           "description": "Uses grep to search file-based repository Note that this calls out to grep and so is generic over repos like git or darcs-based repos The git FileStore instance doesn use this because git has builtin grep functionality Expected usage is to specialize this function with particular backend index",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "grepSearchRepo",
           "normalized": "(FilePath-\u003eIO[String])-\u003eFilePath-\u003eSearchQuery-\u003eIO[SearchMatch]",
@@ -2130,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA number of VCS systems uniquely identify a particular revision or change via a\n   cryptographic hash of some sort. These hashs can be very long, and so systems like\n   Git and Darcs don't require the entire hash - a *unique prefix*. Thus a definition\n   of hash equality is \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e, certainly, but also simply whether either is a prefix of the\n   other. If both are reasonably long, then the likelihood the shorter one is not a unique\n   prefix of the longer (that is, clashes with another hash) is small.\n   The burden of proof is on the caller to not pass a uselessly short short-hash like '1', however.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "hashsMatch",
           "package": "filestore",
@@ -2140,6 +2323,7 @@
         "index": {
           "description": "number of VCS systems uniquely identify particular revision or change via cryptographic hash of some sort These hashs can be very long and so systems like Git and Darcs don require the entire hash unique prefix Thus definition of hash equality is certainly but also simply whether either is prefix of the other If both are reasonably long then the likelihood the shorter one is not unique prefix of the longer that is clashes with another hash is small The burden of proof is on the caller to not pass uselessly short short-hash like however",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "hashsMatch",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -2156,6 +2340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo a three way merge, using either git merge-file or RCS merge.  Assumes\n that either \u003ccode\u003egit\u003c/code\u003e or \u003ccode\u003emerge\u003c/code\u003e is in the system path.  Assumes UTF-8 locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "mergeContents",
           "package": "filestore",
@@ -2165,6 +2350,7 @@
         "index": {
           "description": "Do three way merge using either git merge-file or RCS merge Assumes that either git or merge is in the system path Assumes UTF-8 locale",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "mergeContents",
           "normalized": "(String,ByteString)-\u003e(String,ByteString)-\u003e(String,ByteString)-\u003eIO(Bool,String)",
@@ -2181,6 +2367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parser function. This is intended for use on strings which are output by grep programs\n   or programs which mimic the standard grep output - which uses colons as delimiters and has\n   3 fields: the filename, the line number, and then the matching line itself. Note that this \n   is for use on only strings meeting that format - if it goes \u003ca\u003efile:match\u003c/a\u003e, this will throw\n   a pattern-match exception.\n\u003c/p\u003e\u003cpre\u003e parseMatchLine \"foo:10:bar baz quux\" ~\u003e \n SearchMatch {matchResourceName = \"foo\", matchLineNumber = 10, matchLine = \"bar baz quux\"}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "parseMatchLine",
           "package": "filestore",
@@ -2191,6 +2378,7 @@
         "index": {
           "description": "parser function This is intended for use on strings which are output by grep programs or programs which mimic the standard grep output which uses colons as delimiters and has fields the filename the line number and then the matching line itself Note that this is for use on only strings meeting that format if it goes file match this will throw pattern-match exception parseMatchLine foo bar baz quux SearchMatch matchResourceName foo matchLineNumber matchLine bar baz quux",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "parseMatchLine",
           "normalized": "String-\u003eSearchMatch",
@@ -2207,6 +2395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch multiple files with a single regexp.\n   This calls out to grep, and so supports the regular expressions grep does.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "regSearchFiles",
           "package": "filestore",
@@ -2217,6 +2406,7 @@
         "index": {
           "description": "Search multiple files with single regexp This calls out to grep and so supports the regular expressions grep does",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "regSearchFiles",
           "normalized": "FilePath-\u003e[String]-\u003eString-\u003eIO[String]",
@@ -2233,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a single file with multiple regexps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "regsSearchFile",
           "package": "filestore",
@@ -2243,6 +2434,7 @@
         "index": {
           "description": "Search single file with multiple regexps",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "regsSearchFile",
           "normalized": "[String]-\u003eFilePath-\u003e[String]-\u003eString-\u003eIO[String]",
@@ -2259,6 +2451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun shell command and return error status, standard output, and error output.  Assumes\n UTF-8 locale. Note that this does not actually go through /bin/sh!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "runShellCommand",
           "package": "filestore",
@@ -2268,6 +2461,7 @@
         "index": {
           "description": "Run shell command and return error status standard output and error output Assumes UTF-8 locale Note that this does not actually go through bin sh",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "runShellCommand",
           "normalized": "FilePath-\u003eMaybe[(String,String)]-\u003eString-\u003e[String]-\u003eIO(ExitCode,ByteString,ByteString)",
@@ -2284,6 +2478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur policy is: if the input is clearly a \u003ca\u003ename \u003ce@mail.com\u003e\u003c/a\u003e input, then we return \u003ca\u003e(Just Address, Name)\u003c/a\u003e\n   If there is no \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e in the input, then it clearly can't be of that format, and so we just return \u003ca\u003e(Nothing, Name)\u003c/a\u003e\n\u003c/p\u003e\u003cpre\u003e splitEmailAuthor \"foo bar baz@gmail.com\" ~\u003e (Nothing,\"foo bar baz@gmail.com\")\n splitEmailAuthor \"foo bar \u003cbaz@gmail.com\u003e\" ~\u003e (Just \"baz@gmail.com\",\"foo bar\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "splitEmailAuthor",
           "package": "filestore",
@@ -2294,6 +2489,7 @@
         "index": {
           "description": "Our policy is if the input is clearly name e@mail.com input then we return Just Address Name If there is no in the input then it clearly can be of that format and so we just return Nothing Name splitEmailAuthor foo bar baz@gmail.com Nothing foo bar baz@gmail.com splitEmailAuthor foo bar baz@gmail.com Just baz@gmail.com foo bar",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "splitEmailAuthor",
           "normalized": "String-\u003e(Maybe String,String)",
@@ -2310,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that the filename/location is within the given repo, and not inside\n any of the (relative) paths in \u003ccode\u003eexcludes\u003c/code\u003e.  Create the directory if needed.\n If everything checks out, then perform the specified action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "withSanityCheck",
           "package": "filestore",
@@ -2320,6 +2517,7 @@
         "index": {
           "description": "Check that the filename location is within the given repo and not inside any of the relative paths in excludes Create the directory if needed If everything checks out then perform the specified action",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "withSanityCheck",
           "normalized": "FilePath-\u003e[FilePath]-\u003eFilePath-\u003eIO a-\u003eIO a",
@@ -2336,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewe don't actually need the contents, just want to check that the directory exists and we have enough permissions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore.Utils",
           "name": "withVerifyDir",
           "package": "filestore",
@@ -2346,6 +2545,7 @@
         "index": {
           "description": "we don actually need the contents just want to check that the directory exists and we have enough permissions",
           "hierarchy": "Data FileStore Utils",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore.Utils",
           "name": "withVerifyDir",
           "normalized": "FilePath-\u003eIO a-\u003eIO a",
@@ -2362,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAbstract interface to a versioned file store, which can be\n   implemented using a revision-control system or database.\n\u003c/p\u003e\u003cp\u003eBased on ideas from Sebastiaan Visser's \u003ca\u003eNetwork.Orchid.Core.Backend\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:05 UTC 2014",
           "module": "Data.FileStore",
           "name": "FileStore",
           "package": "filestore",
@@ -2371,6 +2572,7 @@
         "index": {
           "description": "Abstract interface to versioned file store which can be implemented using revision-control system or database Based on ideas from Sebastiaan Visser Network.Orchid.Core.Backend",
           "hierarchy": "Data FileStore",
+          "indexed": "2014-03-11T18:09:05",
           "module": "Data.FileStore",
           "name": "FileStore",
           "package": "filestore",

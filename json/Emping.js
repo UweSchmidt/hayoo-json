@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Emping"
+        "phrase": "Emping",
+        "type": "phrase"
       },
       "type": "context"
     }

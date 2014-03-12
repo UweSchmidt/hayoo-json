@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "geek-server"
+        "phrase": "geek-server",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:31 UTC 2014",
           "module": "Web.Geek.MarkupEngine.Markdown",
           "name": "Markdown",
           "package": "geek-server",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Geek MarkupEngine Markdown",
+          "indexed": "2014-03-11T18:14:31",
           "module": "Web.Geek.MarkupEngine.Markdown",
           "name": "Markdown",
           "package": "geek-server",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:31 UTC 2014",
           "module": "Web.Geek.MarkupEngine.Markdown",
           "name": "markdown",
           "package": "geek-server",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Web Geek MarkupEngine Markdown",
+          "indexed": "2014-03-11T18:14:31",
           "module": "Web.Geek.MarkupEngine.Markdown",
           "name": "markdown",
           "package": "geek-server",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:31 UTC 2014",
           "module": "Web.Geek.ServeWithSnapServer",
           "name": "ServeWithSnapServer",
           "package": "geek-server",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Web Geek ServeWithSnapServer",
+          "indexed": "2014-03-11T18:14:31",
           "module": "Web.Geek.ServeWithSnapServer",
           "name": "ServeWithSnapServer",
           "package": "geek-server",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:31 UTC 2014",
           "module": "Web.Geek.ServeWithSnapServer",
           "name": "serve_with_snap_server",
           "package": "geek-server",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Web Geek ServeWithSnapServer",
+          "indexed": "2014-03-11T18:14:31",
           "module": "Web.Geek.ServeWithSnapServer",
           "name": "serve_with_snap_server",
           "normalized": "[MarkupEngine]-\u003eIO()",

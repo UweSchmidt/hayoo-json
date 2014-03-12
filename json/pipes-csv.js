@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pipes-csv"
+        "phrase": "pipes-csv",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a couple functions copied from Data.Csv.Encoding\n    that weren't exported. This file can be removed once they are.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv.Encoding",
           "name": "Encoding",
           "package": "pipes-csv",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains couple functions copied from Data.Csv.Encoding that weren exported This file can be removed once they are",
           "hierarchy": "Pipes Csv Encoding",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv.Encoding",
           "name": "Encoding",
           "package": "pipes-csv",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv.Encoding",
           "name": "encodeRecord",
           "package": "pipes-csv",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Pipes Csv Encoding",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv.Encoding",
           "name": "encodeRecord",
           "normalized": "Word-\u003eRecord-\u003eBuilder",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv.Encoding",
           "name": "namedRecordToRecord",
           "package": "pipes-csv",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Pipes Csv Encoding",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv.Encoding",
           "name": "namedRecordToRecord",
           "normalized": "Header-\u003eNamedRecord-\u003eRecord",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module allows constant-space CSV parsing.\n\u003c/p\u003e\u003cp\u003eIt feeds \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es into cassavas incremental CSV parser to attain true\n    constant-space record streaming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "Csv",
           "package": "pipes-csv",
@@ -99,6 +106,7 @@
         "index": {
           "description": "This module allows constant-space CSV parsing It feeds ByteString into cassavas incremental CSV parser to attain true constant-space record streaming",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "Csv",
           "package": "pipes-csv",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultDecodeOptions\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "decode",
           "package": "pipes-csv",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Equivalent to decodeWith defaultDecodeOptions",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "decode",
           "normalized": "Bool-\u003eProducer ByteString a()-\u003eProducer(Either String b)a()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003edecodeByNameWith\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edefaultDecodeOptions\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "decodeByName",
           "package": "pipes-csv",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Equivalent to decodeByNameWith defaultDecodeOptions",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "decodeByName",
           "normalized": "Producer ByteString a()-\u003eProducer(Either String b)a()",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e that takes a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e as input,\n producing either errors or \u003ccode\u003e\u003ca\u003eFromNamedRecord\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "decodeByNameWith",
           "package": "pipes-csv",
@@ -174,6 +187,7 @@
         "index": {
           "description": "Create Producer that takes ByteString Producer as input producing either errors or FromNamedRecord",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "decodeByNameWith",
           "normalized": "DecodeOptions-\u003eProducer ByteString a()-\u003eProducer(Either String b)a()",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e that takes a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e as input,\n producing either errors or \u003ccode\u003e\u003ca\u003eFromRecord\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "decodeWith",
           "package": "pipes-csv",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Create Producer that takes ByteString Producer as input producing either errors or FromRecord",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "decodeWith",
           "normalized": "DecodeOptions-\u003eBool-\u003eProducer ByteString a()-\u003eProducer(Either String b)a()",
@@ -216,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode records as strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "encode",
           "package": "pipes-csv",
@@ -226,6 +243,7 @@
         "index": {
           "description": "Encode records as strict ByteString",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "encode",
           "package": "pipes-csv",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode named records as strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "encodeByName",
           "package": "pipes-csv",
@@ -249,6 +268,7 @@
         "index": {
           "description": "Encode named records as strict ByteString",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "encodeByName",
           "normalized": "Header-\u003ea b Pipe c ByteString d e",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode named records as strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "encodeByNameWith",
           "package": "pipes-csv",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Encode named records as strict ByteString",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "encodeByNameWith",
           "normalized": "EncodeOptions-\u003eHeader-\u003ea b Pipe c ByteString d e",
@@ -291,6 +313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode records as strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "encodeWith",
           "package": "pipes-csv",
@@ -301,6 +324,7 @@
         "index": {
           "description": "Encode records as strict ByteString",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "encodeWith",
           "normalized": "EncodeOptions-\u003ea b Pipe c ByteString d e",
@@ -317,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a NamedRecord \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e by feeding \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es into a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "feedHeaderParser",
           "package": "pipes-csv",
@@ -327,6 +352,7 @@
         "index": {
           "description": "Create NamedRecord Producer by feeding ByteString into Parser",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "feedHeaderParser",
           "normalized": "HeaderParser(Parser a)-\u003eProducer ByteString b()-\u003eProducer(Either String a)b()",
@@ -343,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Record \u003ccode\u003e\u003ca\u003eProducer\u003c/a\u003e\u003c/code\u003e by feeding \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es into a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:39:11 UTC 2014",
           "module": "Pipes.Csv",
           "name": "feedParser",
           "package": "pipes-csv",
@@ -353,6 +380,7 @@
         "index": {
           "description": "Create Record Producer by feeding ByteString into Parser",
           "hierarchy": "Pipes Csv",
+          "indexed": "2014-03-11T19:39:11",
           "module": "Pipes.Csv",
           "name": "feedParser",
           "normalized": "Parser a-\u003eProducer ByteString b()-\u003eProducer(Either String a)b()",

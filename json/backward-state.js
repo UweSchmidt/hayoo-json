@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "backward-state"
+        "phrase": "backward-state",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBackward state monad and transformer, in which \u003ccode\u003em \u003e\u003e n\u003c/code\u003e passes the incoming\n state to n, then passes \u003ccode\u003en\u003c/code\u003e's resulting state to \u003ccode\u003em\u003c/code\u003e.  This can only work\n lazily.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardState",
           "package": "backward-state",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Backward state monad and transformer in which passes the incoming state to then passes resulting state to This can only work lazily",
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardState",
           "package": "backward-state",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardState",
           "package": "backward-state",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardState",
           "package": "backward-state",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardStateT",
           "package": "backward-state",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardStateT",
           "package": "backward-state",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardStateT",
           "package": "backward-state",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "BackwardStateT",
           "package": "backward-state",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "evalBackwardState",
           "package": "backward-state",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "evalBackwardState",
           "normalized": "BackwardState a b-\u003ea-\u003eb",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "evalBackwardStateT",
           "package": "backward-state",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "evalBackwardStateT",
           "normalized": "BackwardStateT a b c-\u003ea-\u003eb c",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "execBackwardState",
           "package": "backward-state",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "execBackwardState",
           "normalized": "BackwardState a b-\u003ea-\u003ea",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "execBackwardStateT",
           "package": "backward-state",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "execBackwardStateT",
           "normalized": "BackwardStateT a b c-\u003ea-\u003eb a",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "get",
           "package": "backward-state",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "get",
           "package": "backward-state",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "modify",
           "package": "backward-state",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eBackwardStateT a b()",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "put",
           "package": "backward-state",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "put",
           "normalized": "a-\u003eBackwardStateT a b()",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "runBackwardState",
           "package": "backward-state",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "runBackwardState",
           "normalized": "BackwardState a b-\u003ea-\u003e(b,a)",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:10 UTC 2014",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "runBackwardStateT",
           "package": "backward-state",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans BackwardState",
+          "indexed": "2014-03-11T17:16:10",
           "module": "Control.Monad.Trans.BackwardState",
           "name": "runBackwardStateT",
           "normalized": "a-\u003eb(c,a)",

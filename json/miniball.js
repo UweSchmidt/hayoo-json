@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "miniball"
+        "phrase": "miniball",
+        "type": "phrase"
       },
       "type": "context"
     }

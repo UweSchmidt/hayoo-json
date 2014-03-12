@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hellnet"
+        "phrase": "hellnet",
+        "type": "phrase"
       },
       "type": "context"
     }

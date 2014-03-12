@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libvorbis"
+        "phrase": "libvorbis",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh level API for decoding Ogg-Vorbis files or streams.\n This module is intended to be imported qualified, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Codec.Audio.Vorbis.File as V\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "File",
           "package": "libvorbis",
@@ -28,6 +29,7 @@
         "index": {
           "description": "High level API for decoding Ogg-Vorbis files or streams This module is intended to be imported qualified e.g import qualified Codec.Audio.Vorbis.File as",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "File",
           "package": "libvorbis",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Channels",
           "package": "libvorbis",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Channels",
           "package": "libvorbis",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent the CPU endianness\n\u003c/p\u003e\u003cp\u003eBig endian system stores bytes with the MSB as the first byte.\n Little endian system stores bytes with the LSB as the first byte.\n\u003c/p\u003e\u003cp\u003emiddle endian is purposely avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Endianness",
           "package": "libvorbis",
@@ -71,6 +76,7 @@
         "index": {
           "description": "represent the CPU endianness Big endian system stores bytes with the MSB as the first byte Little endian system stores bytes with the LSB as the first byte middle endian is purposely avoided",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Endianness",
           "package": "libvorbis",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "File",
           "package": "libvorbis",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "File",
           "package": "libvorbis",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Info",
           "package": "libvorbis",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Info",
           "package": "libvorbis",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Signedness",
           "package": "libvorbis",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Signedness",
           "package": "libvorbis",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "WordSize",
           "package": "libvorbis",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "WordSize",
           "package": "libvorbis",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "BigEndian",
           "package": "libvorbis",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "BigEndian",
           "package": "libvorbis",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "EightBit",
           "package": "libvorbis",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "EightBit",
           "package": "libvorbis",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Info",
           "package": "libvorbis",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Info",
           "package": "libvorbis",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "LittleEndian",
           "package": "libvorbis",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "LittleEndian",
           "package": "libvorbis",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Mono",
           "package": "libvorbis",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Mono",
           "package": "libvorbis",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Signed",
           "package": "libvorbis",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Signed",
           "package": "libvorbis",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "SixteenBit",
           "package": "libvorbis",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "SixteenBit",
           "package": "libvorbis",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Stereo",
           "package": "libvorbis",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Stereo",
           "package": "libvorbis",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Unsigned",
           "package": "libvorbis",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "Unsigned",
           "package": "libvorbis",
@@ -365,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the file once we've finished with it. Must be used with the handles returned\n by \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eopenCallbacks\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "close",
           "package": "libvorbis",
@@ -375,6 +408,7 @@
         "index": {
           "description": "Close the file once we ve finished with it Must be used with the handles returned by openFile and openCallbacks",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "close",
           "normalized": "File-\u003eIO()",
@@ -390,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the system endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "getSystemEndianness",
           "package": "libvorbis",
@@ -399,6 +434,7 @@
         "index": {
           "description": "return the system endianness",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "getSystemEndianness",
           "package": "libvorbis",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inChannels",
           "package": "libvorbis",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inChannels",
           "package": "libvorbis",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inRate",
           "package": "libvorbis",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inRate",
           "package": "libvorbis",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inVersion",
           "package": "libvorbis",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "inVersion",
           "package": "libvorbis",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "info",
           "package": "libvorbis",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "info",
           "normalized": "File-\u003eIO Info",
@@ -502,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode Ogg-Vorbis using the specified callbacks to do the back-end I/O.\n Seek and tell functions are optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "openCallbacks",
           "package": "libvorbis",
@@ -511,6 +556,7 @@
         "index": {
           "description": "Decode Ogg-Vorbis using the specified callbacks to do the back-end Seek and tell functions are optional",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "openCallbacks",
           "normalized": "(Int-\u003eInt-\u003eIO ByteString)-\u003eIO()-\u003eMaybe(SeekMode-\u003eInteger-\u003eIO(),IO Integer)-\u003eIO File",
@@ -527,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the specified Ogg-Vorbis file for decoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "openFile",
           "package": "libvorbis",
@@ -537,6 +584,7 @@
         "index": {
           "description": "Open the specified Ogg-Vorbis file for decoding",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "openFile",
           "normalized": "FilePath-\u003eIO File",
@@ -553,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead data from the file. Returns the data block and the number of the current\n logical bitstream. \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e for end of file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "read",
           "package": "libvorbis",
@@ -562,6 +611,7 @@
         "index": {
           "description": "Read data from the file Returns the data block and the number of the current logical bitstream Nothing for end of file",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "read",
           "normalized": "File-\u003eInt-\u003eEndianness-\u003eWordSize-\u003eSignedness-\u003eIO(Maybe(ByteString,Int))",
@@ -577,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode Ogg-Vorbis using the specified callbacks to do the back-end I/O.\n Seek and tell functions are optional.\n\u003c/p\u003e\u003cp\u003eOpens it using the loan pattern: Guaranteed to call \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e for you on\n completion (exception safe), so you must not call \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "withCallbacks",
           "package": "libvorbis",
@@ -586,6 +637,7 @@
         "index": {
           "description": "Decode Ogg-Vorbis using the specified callbacks to do the back-end Seek and tell functions are optional Opens it using the loan pattern Guaranteed to call close for you on completion exception safe so you must not call close explicitly",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "withCallbacks",
           "normalized": "(Int-\u003eInt-\u003eIO ByteString)-\u003eIO()-\u003eMaybe(SeekMode-\u003eInteger-\u003eIO(),IO Integer)-\u003e(File-\u003eIO a)-\u003eIO a",
@@ -602,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen the specified Ogg-Vorbis file for decoding.\n\u003c/p\u003e\u003cp\u003eOpens it using the loan pattern: Guaranteed to call \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e for you on\n completion (exception safe), so you must not call \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e explicitly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:10 UTC 2014",
           "module": "Codec.Audio.Vorbis.File",
           "name": "withFile",
           "package": "libvorbis",
@@ -612,6 +665,7 @@
         "index": {
           "description": "Open the specified Ogg-Vorbis file for decoding Opens it using the loan pattern Guaranteed to call close for you on completion exception safe so you must not call close explicitly",
           "hierarchy": "Codec Audio Vorbis File",
+          "indexed": "2014-03-11T19:09:10",
           "module": "Codec.Audio.Vorbis.File",
           "name": "withFile",
           "normalized": "FilePath-\u003e(File-\u003eIO a)-\u003eIO a",

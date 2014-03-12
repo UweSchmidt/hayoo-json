@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitspeak"
+        "phrase": "bitspeak",
+        "type": "phrase"
       },
       "type": "context"
     }

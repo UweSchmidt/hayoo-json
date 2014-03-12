@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smallpt-hs"
+        "phrase": "smallpt-hs",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "safer-file-handles-bytestring"
+        "phrase": "safer-file-handles-bytestring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the bytestring IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module lifts the bytestring IO operations into the region monad",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGet",
           "package": "safer-file-handles-bytestring",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGet",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGet",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-bytestring",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetContents",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed ByteString",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetLine",
           "package": "safer-file-handles-bytestring",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetLine",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetLine",
           "normalized": "a b c-\u003ed ByteString",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetNonBlocking",
           "package": "safer-file-handles-bytestring",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetNonBlocking",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hGetNonBlocking",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPut",
           "package": "safer-file-handles-bytestring",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPut",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPut",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPutStr",
           "package": "safer-file-handles-bytestring",
@@ -182,6 +195,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPutStr",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPutStr",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPutStrLn\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPutStrLn",
           "package": "safer-file-handles-bytestring",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPutStrLn",
           "hierarchy": "Data ByteString Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Char8.SaferFileHandles",
           "name": "hPutStrLn",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the bytestring IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -233,6 +250,7 @@
         "index": {
           "description": "This module lifts the bytestring IO operations into the region monad",
           "hierarchy": "Data ByteString Lazy Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -247,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGet",
           "package": "safer-file-handles-bytestring",
@@ -257,6 +276,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGet",
           "hierarchy": "Data ByteString Lazy Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGet",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -273,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-bytestring",
@@ -283,6 +304,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetContents",
           "hierarchy": "Data ByteString Lazy Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed ByteString",
@@ -299,6 +321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGetNonBlocking",
           "package": "safer-file-handles-bytestring",
@@ -309,6 +332,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetNonBlocking",
           "hierarchy": "Data ByteString Lazy Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hGetNonBlocking",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -325,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hPut",
           "package": "safer-file-handles-bytestring",
@@ -335,6 +360,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPut",
           "hierarchy": "Data ByteString Lazy Char8 SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.Char8.SaferFileHandles",
           "name": "hPut",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -351,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the bytestring IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -360,6 +387,7 @@
         "index": {
           "description": "This module lifts the bytestring IO operations into the region monad",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -374,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGet",
           "package": "safer-file-handles-bytestring",
@@ -384,6 +413,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGet",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGet",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -400,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-bytestring",
@@ -410,6 +441,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetContents",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed ByteString",
@@ -426,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGetNonBlocking",
           "package": "safer-file-handles-bytestring",
@@ -436,6 +469,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetNonBlocking",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hGetNonBlocking",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -452,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hPut",
           "package": "safer-file-handles-bytestring",
@@ -462,6 +497,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPut",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hPut",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -478,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hPutStr",
           "package": "safer-file-handles-bytestring",
@@ -488,6 +525,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPutStr",
           "hierarchy": "Data ByteString Lazy SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.Lazy.SaferFileHandles",
           "name": "hPutStr",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -504,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module lifts the bytestring IO operations into the region monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -513,6 +552,7 @@
         "index": {
           "description": "This module lifts the bytestring IO operations into the region monad",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "SaferFileHandles",
           "package": "safer-file-handles-bytestring",
@@ -527,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGet\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGet",
           "package": "safer-file-handles-bytestring",
@@ -537,6 +578,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGet",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGet",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -553,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetContents\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetContents",
           "package": "safer-file-handles-bytestring",
@@ -563,6 +606,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetContents",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetContents",
           "normalized": "a b c-\u003ed ByteString",
@@ -579,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetLine\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetLine",
           "package": "safer-file-handles-bytestring",
@@ -589,6 +634,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetLine",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetLine",
           "normalized": "a b c-\u003ed ByteString",
@@ -605,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehGetNonBlocking\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetNonBlocking",
           "package": "safer-file-handles-bytestring",
@@ -615,6 +662,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetNonBlocking",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetNonBlocking",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -631,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.ByteString.\u003c/code\u003e\u003ccode\u003e\u003ca\u003ehGetSome\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetSome",
           "package": "safer-file-handles-bytestring",
@@ -641,6 +690,7 @@
         "index": {
           "description": "Wraps Data.ByteString hGetSome",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hGetSome",
           "normalized": "a b c-\u003eInt-\u003ed ByteString",
@@ -657,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPut\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPut",
           "package": "safer-file-handles-bytestring",
@@ -667,6 +718,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPut",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPut",
           "normalized": "a b c-\u003eByteString-\u003ed()",
@@ -683,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps \u003ccode\u003eData.ByteString.\u003c/code\u003e\u003ccode\u003e\u003ca\u003ehPutNonBlocking\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPutNonBlocking",
           "package": "safer-file-handles-bytestring",
@@ -693,6 +746,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPutNonBlocking",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPutNonBlocking",
           "normalized": "a b c-\u003eByteString-\u003ed ByteString",
@@ -709,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps: \u003ccode\u003eData.ByteString.\u003ccode\u003e\u003ca\u003ehPutStr\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:56:37 UTC 2014",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPutStr",
           "package": "safer-file-handles-bytestring",
@@ -719,6 +774,7 @@
         "index": {
           "description": "Wraps Data.ByteString hPutStr",
           "hierarchy": "Data ByteString SaferFileHandles",
+          "indexed": "2014-03-11T19:56:37",
           "module": "Data.ByteString.SaferFileHandles",
           "name": "hPutStr",
           "normalized": "a b c-\u003eByteString-\u003ed()",

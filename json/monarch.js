@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monarch"
+        "phrase": "monarch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide TokyoTyrant mock.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch.Mock",
           "name": "Mock",
           "package": "monarch",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provide TokyoTyrant mock",
           "hierarchy": "Database Monarch Mock",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch.Mock",
           "name": "Mock",
           "package": "monarch",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection with TokyoTyrant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch.Mock",
           "name": "MockDB",
           "package": "monarch",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Connection with TokyoTyrant",
           "hierarchy": "Database Monarch Mock",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch.Mock",
           "name": "MockDB",
           "package": "monarch",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Mock monad transformer to provide TokyoTyrant access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch.Mock",
           "name": "MockT",
           "package": "monarch",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The Mock monad transformer to provide TokyoTyrant access",
           "hierarchy": "Database Monarch Mock",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch.Mock",
           "name": "MockT",
           "package": "monarch",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate mock DB\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch.Mock",
           "name": "newMockDB",
           "package": "monarch",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Create mock DB",
           "hierarchy": "Database Monarch Mock",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch.Mock",
           "name": "newMockDB",
           "package": "monarch",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun Mock with TokyoTyrant at target host and port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch.Mock",
           "name": "runMock",
           "package": "monarch",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Run Mock with TokyoTyrant at target host and port",
           "hierarchy": "Database Monarch Mock",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch.Mock",
           "name": "runMock",
           "normalized": "MockT a b-\u003eTVar MockDB-\u003ea(Either Code b)",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide TokyoTyrant monadic access interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "Monarch",
           "package": "monarch",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Provide TokyoTyrant monadic access interface",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "Monarch",
           "package": "monarch",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "Code",
           "package": "monarch",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Error code",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "Code",
           "package": "monarch",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection with TokyoTyrant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "Connection",
           "package": "monarch",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Connection with TokyoTyrant",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "Connection",
           "package": "monarch",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection pool with TokyoTyrant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ConnectionPool",
           "package": "monarch",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Connection pool with TokyoTyrant",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ConnectionPool",
           "package": "monarch",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for scripting extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ExtOption",
           "package": "monarch",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Options for scripting extension",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ExtOption",
           "package": "monarch",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for miscellaneous operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "MiscOption",
           "package": "monarch",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Options for miscellaneous operation",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "MiscOption",
           "package": "monarch",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad Monarch interfaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "MonadMonarch",
           "package": "monarch",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Monad Monarch interfaces",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "MonadMonarch",
           "package": "monarch",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIO Specialized\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "Monarch",
           "package": "monarch",
@@ -308,6 +333,7 @@
         "index": {
           "description": "IO Specialized",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "Monarch",
           "package": "monarch",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Monarch monad transformer to provide TokyoTyrant access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "MonarchT",
           "package": "monarch",
@@ -331,6 +358,7 @@
         "index": {
           "description": "The Monarch monad transformer to provide TokyoTyrant access",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "MonarchT",
           "package": "monarch",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for restore\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "RestoreOption",
           "package": "monarch",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Options for restore",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "RestoreOption",
           "package": "monarch",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ConnectionRefused",
           "package": "monarch",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ConnectionRefused",
           "package": "monarch",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econsistency checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ConsistencyChecking",
           "package": "monarch",
@@ -400,6 +433,7 @@
         "index": {
           "description": "consistency checking",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ConsistencyChecking",
           "package": "monarch",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ExistingRecord",
           "package": "monarch",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ExistingRecord",
           "package": "monarch",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eglobal locking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "GlobalLocking",
           "package": "monarch",
@@ -446,6 +483,7 @@
         "index": {
           "description": "global locking",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "GlobalLocking",
           "package": "monarch",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "HostNotFound",
           "package": "monarch",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "HostNotFound",
           "package": "monarch",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "InvalidOperation",
           "package": "monarch",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "InvalidOperation",
           "package": "monarch",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "MiscellaneousError",
           "package": "monarch",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "MiscellaneousError",
           "package": "monarch",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "NoRecordFound",
           "package": "monarch",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "NoRecordFound",
           "package": "monarch",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eomission of update log\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "NoUpdateLog",
           "package": "monarch",
@@ -558,6 +605,7 @@
         "index": {
           "description": "omission of update log",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "NoUpdateLog",
           "package": "monarch",
@@ -571,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ReceiveError",
           "package": "monarch",
@@ -580,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ReceiveError",
           "package": "monarch",
@@ -594,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord locking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "RecordLocking",
           "package": "monarch",
@@ -604,6 +655,7 @@
         "index": {
           "description": "record locking",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "RecordLocking",
           "package": "monarch",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "SendError",
           "package": "monarch",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "SendError",
           "package": "monarch",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "Success",
           "package": "monarch",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "Success",
           "package": "monarch",
@@ -662,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a real number to a record.\n   If the corresponding record exists, the value is treated as a real number and is added to.\n   If no record corresponds, a new record of the additional value is stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "addDouble",
           "package": "monarch",
@@ -672,6 +729,7 @@
         "index": {
           "description": "Add real number to record If the corresponding record exists the value is treated as real number and is added to If no record corresponds new record of the additional value is stored",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "addDouble",
           "package": "monarch",
@@ -686,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an integer to a record.\n   If the corresponding record exists, the value is treated as an integer and is added to.\n   If no record corresponds, a new record of the additional value is stored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "addInt",
           "package": "monarch",
@@ -696,6 +755,7 @@
         "index": {
           "description": "Add an integer to record If the corresponding record exists the value is treated as an integer and is added to If no record corresponds new record of the additional value is stored",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "addInt",
           "package": "monarch",
@@ -710,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy the database file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "copy",
           "package": "monarch",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Copy the database file",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "copy",
           "package": "monarch",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a function of the script language extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "ext",
           "package": "monarch",
@@ -743,6 +806,7 @@
         "index": {
           "description": "Call function of the script language extension",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "ext",
           "package": "monarch",
@@ -756,6 +820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet forward matching keys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "forwardMatchingKeys",
           "package": "monarch",
@@ -766,6 +831,7 @@
         "index": {
           "description": "Get forward matching keys",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "forwardMatchingKeys",
           "package": "monarch",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "get",
           "package": "monarch",
@@ -790,6 +857,7 @@
         "index": {
           "description": "Retrieve record",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "get",
           "package": "monarch",
@@ -803,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the iterator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "iterInit",
           "package": "monarch",
@@ -813,6 +882,7 @@
         "index": {
           "description": "Initialize the iterator",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "iterInit",
           "normalized": "a()",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next key of the iterator.\n   The iterator can be updated by multiple connections and then it is not assured that every record is traversed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "iterNext",
           "package": "monarch",
@@ -839,6 +910,7 @@
         "index": {
           "description": "Get the next key of the iterator The iterator can be updated by multiple connections and then it is not assured that every record is traversed",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "iterNext",
           "package": "monarch",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a versatile function for miscellaneous operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "misc",
           "package": "monarch",
@@ -863,6 +936,7 @@
         "index": {
           "description": "Call versatile function for miscellaneous operations",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "misc",
           "package": "monarch",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "multipleGet",
           "package": "monarch",
@@ -886,6 +961,7 @@
         "index": {
           "description": "Retrieve records",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "multipleGet",
           "package": "monarch",
@@ -900,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "multipleOut",
           "package": "monarch",
@@ -910,6 +987,7 @@
         "index": {
           "description": "Remove records",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "multipleOut",
           "package": "monarch",
@@ -924,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore records.\n   If a record with the same key exists in the database,\n   it is overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "multiplePut",
           "package": "monarch",
@@ -934,6 +1013,7 @@
         "index": {
           "description": "Store records If record with the same key exists in the database it is overwritten",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "multiplePut",
           "package": "monarch",
@@ -948,6 +1028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimize the storage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "optimize",
           "package": "monarch",
@@ -958,6 +1039,7 @@
         "index": {
           "description": "Optimize the storage",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "optimize",
           "package": "monarch",
@@ -971,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "out",
           "package": "monarch",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Remove record",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "out",
           "package": "monarch",
@@ -994,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record.\n   If a record with the same key exists in the database,\n   it is overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "put",
           "package": "monarch",
@@ -1004,6 +1089,7 @@
         "index": {
           "description": "Store record If record with the same key exists in the database it is overwritten",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "put",
           "package": "monarch",
@@ -1017,6 +1103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record.\n   If there is no corresponding record, a new record is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "putCat",
           "package": "monarch",
@@ -1027,6 +1114,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record If there is no corresponding record new record is created",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "putCat",
           "package": "monarch",
@@ -1041,6 +1129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a new record.\n   If a record with the same key exists in the database,\n   this function has no effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "putKeep",
           "package": "monarch",
@@ -1051,6 +1140,7 @@
         "index": {
           "description": "Store new record If record with the same key exists in the database this function has no effect",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "putKeep",
           "package": "monarch",
@@ -1065,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore a record without response.\n   If a record with the same key exists in the database, it is overwritten.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "putNoResponse",
           "package": "monarch",
@@ -1075,6 +1166,7 @@
         "index": {
           "description": "Store record without response If record with the same key exists in the database it is overwritten",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "putNoResponse",
           "package": "monarch",
@@ -1089,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a value at the end of the existing record and shift it to the left.\n   If there is no corresponding record, a new record is created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "putShiftLeft",
           "package": "monarch",
@@ -1099,6 +1192,7 @@
         "index": {
           "description": "Concatenate value at the end of the existing record and shift it to the left If there is no corresponding record new record is created",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "putShiftLeft",
           "package": "monarch",
@@ -1113,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "recordNum",
           "package": "monarch",
@@ -1123,6 +1218,7 @@
         "index": {
           "description": "Get the number of records",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "recordNum",
           "package": "monarch",
@@ -1137,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestore the database file from the update log.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "restore",
           "package": "monarch",
@@ -1147,6 +1244,7 @@
         "index": {
           "description": "Restore the database file from the update log",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "restore",
           "package": "monarch",
@@ -1160,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action with a connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "runMonarchConn",
           "package": "monarch",
@@ -1169,6 +1268,7 @@
         "index": {
           "description": "Run action with connection",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "runMonarchConn",
           "normalized": "MonarchT a b-\u003eConnection-\u003ea(Either Code b)",
@@ -1185,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun action with a unused connection from the pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "runMonarchPool",
           "package": "monarch",
@@ -1194,6 +1295,7 @@
         "index": {
           "description": "Run action with unused connection from the pool",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "runMonarchPool",
           "normalized": "MonarchT a b-\u003eConnectionPool-\u003ea(Either Code b)",
@@ -1210,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the replication master.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "setMaster",
           "package": "monarch",
@@ -1220,6 +1323,7 @@
         "index": {
           "description": "Set the replication master",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "setMaster",
           "package": "monarch",
@@ -1234,6 +1338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "size",
           "package": "monarch",
@@ -1244,6 +1349,7 @@
         "index": {
           "description": "Get the size of the database",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "size",
           "package": "monarch",
@@ -1257,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the status string of the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "status",
           "package": "monarch",
@@ -1267,6 +1374,7 @@
         "index": {
           "description": "Get the status string of the database",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "status",
           "package": "monarch",
@@ -1280,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronize updated contents with the file and the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "sync",
           "package": "monarch",
@@ -1290,6 +1399,7 @@
         "index": {
           "description": "Synchronize updated contents with the file and the device",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "sync",
           "normalized": "a()",
@@ -1305,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the size of the value of a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "valueSize",
           "package": "monarch",
@@ -1315,6 +1426,7 @@
         "index": {
           "description": "Get the size of the value of record",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "valueSize",
           "package": "monarch",
@@ -1329,6 +1441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "vanish",
           "package": "monarch",
@@ -1339,6 +1452,7 @@
         "index": {
           "description": "Remove all records",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "vanish",
           "normalized": "a()",
@@ -1354,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a TokyoTyrant connection and run the given action.\n Don't use the given \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e outside the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "withMonarchConn",
           "package": "monarch",
@@ -1363,6 +1478,7 @@
         "index": {
           "description": "Create TokyoTyrant connection and run the given action Don use the given Connection outside the action",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "withMonarchConn",
           "normalized": "String-\u003eInt-\u003e(Connection-\u003ea b)-\u003ea b",
@@ -1379,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a TokyoTyrant connection pool and run the given action.\n Don't use the given \u003ccode\u003e\u003ca\u003eConnectionPool\u003c/a\u003e\u003c/code\u003e outside the action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:51 UTC 2014",
           "module": "Database.Monarch",
           "name": "withMonarchPool",
           "package": "monarch",
@@ -1388,6 +1505,7 @@
         "index": {
           "description": "Create TokyoTyrant connection pool and run the given action Don use the given ConnectionPool outside the action",
           "hierarchy": "Database Monarch",
+          "indexed": "2014-03-11T19:21:51",
           "module": "Database.Monarch",
           "name": "withMonarchPool",
           "normalized": "String-\u003eInt-\u003eInt-\u003e(ConnectionPool-\u003ea b)-\u003ea b",

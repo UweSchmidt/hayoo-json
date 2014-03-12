@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mpretty"
+        "phrase": "mpretty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "IsPretty",
           "package": "mpretty",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "IsPretty",
           "package": "mpretty",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "IsPretty",
           "package": "mpretty",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "IsPretty",
           "package": "mpretty",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "ipPrint",
           "package": "mpretty",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "ipPrint",
           "normalized": "a-\u003eIO()",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "ipPrintLn",
           "package": "mpretty",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "ipPrintLn",
           "normalized": "a-\u003eIO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "pretty",
           "package": "mpretty",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "pretty",
           "normalized": "a-\u003eb()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyDropIndent",
           "package": "mpretty",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyDropIndent",
           "normalized": "a-\u003eb()",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyDropIndentList",
           "package": "mpretty",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyDropIndentList",
           "normalized": "[a]-\u003eb()",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyList",
           "package": "mpretty",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyList",
           "normalized": "[a]-\u003eb()",
@@ -203,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyMapping",
           "package": "mpretty",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "prettyMapping",
           "normalized": "(a,b)-\u003ec()",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.IsPretty",
           "name": "showFromPretty",
           "package": "mpretty",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty IsPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.IsPretty",
           "name": "showFromPretty",
           "normalized": "a-\u003eString",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "MonadPretty",
           "package": "mpretty",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "MonadPretty",
           "package": "mpretty",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "align",
           "package": "mpretty",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "align",
           "normalized": "a b-\u003ea b",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "binder",
           "package": "mpretty",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "binder",
           "normalized": "a b-\u003ea b",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "blinkSpeed",
           "package": "mpretty",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "blinkSpeed",
           "normalized": "BlinkSpeed-\u003ea b-\u003ea b",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "buffer",
           "package": "mpretty",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "buffer",
           "normalized": "a b-\u003ea b",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "buffering",
           "package": "mpretty",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "buffering",
           "normalized": "Buffering-\u003ea b-\u003ea b",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "classifier",
           "package": "mpretty",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "classifier",
           "normalized": "a b-\u003ea b",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "closedPrecedence",
           "package": "mpretty",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "closedPrecedence",
           "normalized": "Int-\u003e(Precedence,Precedence)",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "color",
           "package": "mpretty",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "color",
           "normalized": "ColorIntensity-\u003eColor-\u003ea b-\u003ea b",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "console",
           "package": "mpretty",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "console",
           "normalized": "a b-\u003ea b",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "doConsole",
           "package": "mpretty",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "doConsole",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "dropIndent",
           "package": "mpretty",
@@ -514,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "dropIndent",
           "normalized": "a()-\u003ea()",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "emitConsoleStateCodes",
           "package": "mpretty",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "emitConsoleStateCodes",
           "normalized": "a()",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSep",
           "package": "mpretty",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSep",
           "normalized": "a-\u003ea-\u003ea-\u003e[b()]-\u003eb()",
@@ -577,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepDropIndent",
           "package": "mpretty",
@@ -586,6 +635,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepDropIndent",
           "normalized": "a-\u003ea-\u003ea-\u003e[b()]-\u003eb()",
@@ -601,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepIndent",
           "package": "mpretty",
@@ -610,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepIndent",
           "normalized": "a-\u003ea-\u003ea-\u003e[b()]-\u003eb()",
@@ -625,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepPost",
           "package": "mpretty",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepPost",
           "normalized": "a-\u003ea-\u003ea-\u003e[b()]-\u003eb()",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepPre",
           "package": "mpretty",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "encloseSepPre",
           "normalized": "a-\u003ea-\u003ea-\u003eBool-\u003e[b()]-\u003eb()",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "flatFail",
           "package": "mpretty",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "flatFail",
           "normalized": "a b-\u003ea b",
@@ -697,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "gcolor",
           "package": "mpretty",
@@ -706,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "gcolor",
           "normalized": "ConsoleLayer-\u003eColorIntensity-\u003eColor-\u003ea b-\u003ea b",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "getBuff",
           "package": "mpretty",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "getBuff",
           "package": "mpretty",
@@ -742,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "group",
           "package": "mpretty",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "group",
           "normalized": "a b-\u003ea b",
@@ -765,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "hang",
           "package": "mpretty",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "hang",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -788,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "hardLine",
           "package": "mpretty",
@@ -797,6 +864,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "hardLine",
           "normalized": "a()",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "hsep",
           "package": "mpretty",
@@ -821,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "hsep",
           "normalized": "[a()]-\u003ea()",
@@ -835,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "indentWidth",
           "package": "mpretty",
@@ -844,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "indentWidth",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -859,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "infixOp",
           "package": "mpretty",
@@ -868,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "infixOp",
           "normalized": "Direction-\u003eInt-\u003eBuffering-\u003ea()-\u003ea()-\u003ea()-\u003ea()",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "intensity",
           "package": "mpretty",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "intensity",
           "normalized": "ConsoleIntensity-\u003ea b-\u003ea b",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "italicized",
           "package": "mpretty",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "italicized",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "keyword",
           "package": "mpretty",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "keyword",
           "normalized": "a b-\u003ea b",
@@ -952,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "layoutWidth",
           "package": "mpretty",
@@ -961,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "layoutWidth",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "literal",
           "package": "mpretty",
@@ -985,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "literal",
           "normalized": "a b-\u003ea b",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "localConsole",
           "package": "mpretty",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "localConsole",
           "normalized": "(ConsoleState-\u003eConsoleState)-\u003ea b-\u003ea b",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "localStyle",
           "package": "mpretty",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "localStyle",
           "normalized": "Lens Palette ConsoleState-\u003ea b-\u003ea b",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "nest",
           "package": "mpretty",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "nest",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -1070,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "noBuffer",
           "package": "mpretty",
@@ -1079,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "noBuffer",
           "normalized": "a b-\u003ea b",
@@ -1094,6 +1186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "noConsole",
           "package": "mpretty",
@@ -1103,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "noConsole",
           "normalized": "a b-\u003ea b",
@@ -1118,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "parenthesize",
           "package": "mpretty",
@@ -1127,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "parenthesize",
           "normalized": "a()-\u003ea()",
@@ -1141,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "precedence",
           "package": "mpretty",
@@ -1150,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "precedence",
           "normalized": "(Precedence,Precedence)-\u003ea b-\u003ea b",
@@ -1164,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "punctuation",
           "package": "mpretty",
@@ -1173,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "punctuation",
           "normalized": "a b-\u003ea b",
@@ -1187,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "sexpList",
           "package": "mpretty",
@@ -1196,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "sexpList",
           "normalized": "[a()]-\u003ea()",
@@ -1211,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "sexpListCons",
           "package": "mpretty",
@@ -1220,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "sexpListCons",
           "normalized": "[a()]-\u003eMaybe(a())-\u003ea()",
@@ -1235,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "showStyle",
           "package": "mpretty",
@@ -1244,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "showStyle",
           "normalized": "a b-\u003ea b",
@@ -1259,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "space",
           "package": "mpretty",
@@ -1268,6 +1375,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "space",
           "normalized": "Int-\u003ea()",
@@ -1282,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "string",
           "package": "mpretty",
@@ -1291,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "string",
           "normalized": "String-\u003ea()",
@@ -1305,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "style",
           "package": "mpretty",
@@ -1314,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "style",
           "normalized": "Style-\u003ea b-\u003ea b",
@@ -1328,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "styleVariants",
           "package": "mpretty",
@@ -1337,6 +1450,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "styleVariants",
           "normalized": "a()-\u003ea()",
@@ -1352,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "swapFgBg",
           "package": "mpretty",
@@ -1361,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "swapFgBg",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -1376,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "text",
           "package": "mpretty",
@@ -1385,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "text",
           "normalized": "a-\u003eb()",
@@ -1399,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "tryFlat",
           "package": "mpretty",
@@ -1408,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "tryFlat",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1423,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "underlining",
           "package": "mpretty",
@@ -1432,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "underlining",
           "normalized": "Underlining-\u003ea b-\u003ea b",
@@ -1446,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "visible",
           "package": "mpretty",
@@ -1455,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "visible",
           "normalized": "Bool-\u003ea b-\u003ea b",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.MonadPretty",
           "name": "vsep",
           "package": "mpretty",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty MonadPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.MonadPretty",
           "name": "vsep",
           "normalized": "[a()]-\u003ea()",
@@ -1492,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1500,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1521,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1534,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1543,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "Pretty",
           "package": "mpretty",
@@ -1556,6 +1688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "execPretty",
           "package": "mpretty",
@@ -1565,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "execPretty",
           "normalized": "Pretty()-\u003eText",
@@ -1580,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "runPretty",
           "package": "mpretty",
@@ -1589,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "runPretty",
           "normalized": "Pretty a-\u003ePrettyEnv-\u003ePrettyState-\u003e[(a,PrettyState,Text)]",
@@ -1604,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.Pretty",
           "name": "unPretty",
           "package": "mpretty",
@@ -1613,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty Pretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.Pretty",
           "name": "unPretty",
           "normalized": "RWST PrettyEnv Text PrettyState[]a",
@@ -1628,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "StateSpace",
           "package": "mpretty",
@@ -1636,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "StateSpace",
           "package": "mpretty",
@@ -1649,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Buffering",
           "package": "mpretty",
@@ -1657,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Buffering",
           "package": "mpretty",
@@ -1670,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Direction",
           "package": "mpretty",
@@ -1678,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Direction",
           "package": "mpretty",
@@ -1691,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Failure",
           "package": "mpretty",
@@ -1699,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Failure",
           "package": "mpretty",
@@ -1712,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Layout",
           "package": "mpretty",
@@ -1720,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Layout",
           "package": "mpretty",
@@ -1733,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "MonadPretty",
           "package": "mpretty",
@@ -1741,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "MonadPretty",
           "package": "mpretty",
@@ -1754,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "MonadRWS",
           "package": "mpretty",
@@ -1762,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "MonadRWS",
           "package": "mpretty",
@@ -1775,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Palette",
           "package": "mpretty",
@@ -1783,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Palette",
           "package": "mpretty",
@@ -1796,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Precedence",
           "package": "mpretty",
@@ -1804,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Precedence",
           "package": "mpretty",
@@ -1817,6 +1973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyEnv",
           "package": "mpretty",
@@ -1825,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyEnv",
           "package": "mpretty",
@@ -1838,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyOutput",
           "package": "mpretty",
@@ -1846,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyOutput",
           "package": "mpretty",
@@ -1859,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyState",
           "package": "mpretty",
@@ -1867,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyState",
           "package": "mpretty",
@@ -1880,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Style",
           "package": "mpretty",
@@ -1888,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Style",
           "package": "mpretty",
@@ -1901,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "StyleOptions",
           "package": "mpretty",
@@ -1909,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "StyleOptions",
           "package": "mpretty",
@@ -1922,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Break",
           "package": "mpretty",
@@ -1931,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Break",
           "package": "mpretty",
@@ -1944,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Buffer",
           "package": "mpretty",
@@ -1953,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Buffer",
           "package": "mpretty",
@@ -1966,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Fail",
           "package": "mpretty",
@@ -1975,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Fail",
           "package": "mpretty",
@@ -1988,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Flat",
           "package": "mpretty",
@@ -1997,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Flat",
           "package": "mpretty",
@@ -2010,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "IndentStyle",
           "package": "mpretty",
@@ -2019,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "IndentStyle",
           "package": "mpretty",
@@ -2032,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "LeftD",
           "package": "mpretty",
@@ -2041,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "LeftD",
           "package": "mpretty",
@@ -2054,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "NoBuffer",
           "package": "mpretty",
@@ -2063,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "NoBuffer",
           "package": "mpretty",
@@ -2076,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "NoD",
           "package": "mpretty",
@@ -2085,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "NoD",
           "package": "mpretty",
@@ -2098,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "NoFail",
           "package": "mpretty",
@@ -2107,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "NoFail",
           "package": "mpretty",
@@ -2120,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Palette",
           "package": "mpretty",
@@ -2129,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Palette",
           "package": "mpretty",
@@ -2142,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PostStyle",
           "package": "mpretty",
@@ -2151,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PostStyle",
           "package": "mpretty",
@@ -2164,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PreAlignStyle",
           "package": "mpretty",
@@ -2173,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PreAlignStyle",
           "package": "mpretty",
@@ -2186,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PreSnugStyle",
           "package": "mpretty",
@@ -2195,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PreSnugStyle",
           "package": "mpretty",
@@ -2208,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "Precedence",
           "package": "mpretty",
@@ -2217,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "Precedence",
           "package": "mpretty",
@@ -2230,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyEnv",
           "package": "mpretty",
@@ -2239,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyEnv",
           "package": "mpretty",
@@ -2252,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyState",
           "package": "mpretty",
@@ -2261,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "PrettyState",
           "package": "mpretty",
@@ -2274,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "RightD",
           "package": "mpretty",
@@ -2283,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "RightD",
           "package": "mpretty",
@@ -2296,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "StyleOptions",
           "package": "mpretty",
@@ -2305,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "StyleOptions",
           "package": "mpretty",
@@ -2318,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_binderColorL",
           "package": "mpretty",
@@ -2327,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_binderColorL",
           "package": "mpretty",
@@ -2340,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_bufferingL",
           "package": "mpretty",
@@ -2349,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_bufferingL",
           "package": "mpretty",
@@ -2361,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_classifierColorL",
           "package": "mpretty",
@@ -2370,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_classifierColorL",
           "package": "mpretty",
@@ -2383,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_columnL",
           "package": "mpretty",
@@ -2392,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_columnL",
           "package": "mpretty",
@@ -2404,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_consoleStateL",
           "package": "mpretty",
@@ -2413,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_consoleStateL",
           "package": "mpretty",
@@ -2426,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_doConsoleL",
           "package": "mpretty",
@@ -2435,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_doConsoleL",
           "package": "mpretty",
@@ -2448,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_failureL",
           "package": "mpretty",
@@ -2457,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_failureL",
           "package": "mpretty",
@@ -2469,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_indentWidthL",
           "package": "mpretty",
@@ -2478,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_indentWidthL",
           "package": "mpretty",
@@ -2491,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_keywordColorL",
           "package": "mpretty",
@@ -2500,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_keywordColorL",
           "package": "mpretty",
@@ -2513,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_layoutL",
           "package": "mpretty",
@@ -2522,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_layoutL",
           "package": "mpretty",
@@ -2534,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_layoutWidthL",
           "package": "mpretty",
@@ -2543,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_layoutWidthL",
           "package": "mpretty",
@@ -2556,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_literalColorL",
           "package": "mpretty",
@@ -2565,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_literalColorL",
           "package": "mpretty",
@@ -2578,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_nestingL",
           "package": "mpretty",
@@ -2587,6 +2814,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_nestingL",
           "package": "mpretty",
@@ -2599,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_paletteL",
           "package": "mpretty",
@@ -2608,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_paletteL",
           "package": "mpretty",
@@ -2620,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_precedenceL",
           "package": "mpretty",
@@ -2629,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_precedenceL",
           "normalized": "(Precedence,Precedence)",
@@ -2643,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_punctuationColorL",
           "package": "mpretty",
@@ -2652,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_punctuationColorL",
           "package": "mpretty",
@@ -2665,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_ribbonL",
           "package": "mpretty",
@@ -2674,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_ribbonL",
           "package": "mpretty",
@@ -2686,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_ribbonRatioL",
           "package": "mpretty",
@@ -2695,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_ribbonRatioL",
           "package": "mpretty",
@@ -2708,6 +2946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_styleL",
           "package": "mpretty",
@@ -2717,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_styleL",
           "package": "mpretty",
@@ -2729,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "_styleOptionsL",
           "package": "mpretty",
@@ -2738,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "_styleOptionsL",
           "package": "mpretty",
@@ -2751,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "binderColorL",
           "package": "mpretty",
@@ -2760,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "binderColorL",
           "package": "mpretty",
@@ -2773,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "bufferingL",
           "package": "mpretty",
@@ -2782,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "bufferingL",
           "package": "mpretty",
@@ -2794,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "classifierColorL",
           "package": "mpretty",
@@ -2803,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "classifierColorL",
           "package": "mpretty",
@@ -2816,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "columnL",
           "package": "mpretty",
@@ -2825,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "columnL",
           "package": "mpretty",
@@ -2837,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "consoleStateL",
           "package": "mpretty",
@@ -2846,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "consoleStateL",
           "package": "mpretty",
@@ -2859,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultIndentStyle",
           "package": "mpretty",
@@ -2868,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultIndentStyle",
           "package": "mpretty",
@@ -2881,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPalette",
           "package": "mpretty",
@@ -2890,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPalette",
           "package": "mpretty",
@@ -2903,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPostOptions",
           "package": "mpretty",
@@ -2912,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPostOptions",
           "package": "mpretty",
@@ -2925,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPreOptions",
           "package": "mpretty",
@@ -2934,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPreOptions",
           "package": "mpretty",
@@ -2947,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPrettyEnv",
           "package": "mpretty",
@@ -2956,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPrettyEnv",
           "package": "mpretty",
@@ -2969,6 +3231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPrettyState",
           "package": "mpretty",
@@ -2978,6 +3241,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "defaultPrettyState",
           "package": "mpretty",
@@ -2991,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "doConsoleL",
           "package": "mpretty",
@@ -3000,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "doConsoleL",
           "package": "mpretty",
@@ -3013,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "failureL",
           "package": "mpretty",
@@ -3022,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "failureL",
           "package": "mpretty",
@@ -3034,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "indentWidthL",
           "package": "mpretty",
@@ -3043,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "indentWidthL",
           "package": "mpretty",
@@ -3056,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "keywordColorL",
           "package": "mpretty",
@@ -3065,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "keywordColorL",
           "package": "mpretty",
@@ -3078,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "layoutL",
           "package": "mpretty",
@@ -3087,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "layoutL",
           "package": "mpretty",
@@ -3099,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "layoutWidthL",
           "package": "mpretty",
@@ -3108,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "layoutWidthL",
           "package": "mpretty",
@@ -3121,6 +3397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "literalColorL",
           "package": "mpretty",
@@ -3130,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "literalColorL",
           "package": "mpretty",
@@ -3143,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "nestingL",
           "package": "mpretty",
@@ -3152,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "nestingL",
           "package": "mpretty",
@@ -3164,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "pFoldl",
           "package": "mpretty",
@@ -3173,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "pFoldl",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eb-\u003ea",
@@ -3188,6 +3470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "pLength",
           "package": "mpretty",
@@ -3197,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "pLength",
           "normalized": "a-\u003eInt",
@@ -3212,6 +3496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "pString",
           "package": "mpretty",
@@ -3221,6 +3506,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "pString",
           "normalized": "String-\u003ea",
@@ -3236,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "paletteL",
           "package": "mpretty",
@@ -3245,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "paletteL",
           "package": "mpretty",
@@ -3257,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "pbump",
           "package": "mpretty",
@@ -3266,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "pbump",
           "normalized": "Precedence-\u003ePrecedence",
@@ -3280,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "precedenceL",
           "package": "mpretty",
@@ -3289,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "precedenceL",
           "normalized": "Lens PrettyEnv(Precedence,Precedence)",
@@ -3303,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "punctuationColorL",
           "package": "mpretty",
@@ -3312,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "punctuationColorL",
           "package": "mpretty",
@@ -3325,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "ribbonL",
           "package": "mpretty",
@@ -3334,6 +3629,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "ribbonL",
           "package": "mpretty",
@@ -3346,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "ribbonRatioL",
           "package": "mpretty",
@@ -3355,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "ribbonRatioL",
           "package": "mpretty",
@@ -3368,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "styleL",
           "package": "mpretty",
@@ -3377,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "styleL",
           "package": "mpretty",
@@ -3389,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty.StateSpace",
           "name": "styleOptionsL",
           "package": "mpretty",
@@ -3398,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty StateSpace",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty.StateSpace",
           "name": "styleOptionsL",
           "package": "mpretty",
@@ -3411,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:54 UTC 2014",
           "module": "Text.MPretty",
           "name": "MPretty",
           "package": "mpretty",
@@ -3419,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Text MPretty",
+          "indexed": "2014-03-11T19:22:54",
           "module": "Text.MPretty",
           "name": "MPretty",
           "package": "mpretty",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dwarf"
+        "phrase": "dwarf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParses the DWARF 2 and DWARF 3 specifications at http:\u003cem/\u003ewww.dwarfstd.org given\n the debug sections in ByteString form.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "Dwarf",
           "package": "dwarf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parses the DWARF and DWARF specifications at http www.dwarfstd.org given the debug sections in ByteString form",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "Dwarf",
           "package": "dwarf",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dwarf information entries form a graph of nodes tagged with attributes. Please refer to the DWARF specification\n for semantics. Although it looks like a tree, there can be attributes which have adjacency information which will\n introduce cross-branch edges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DIE",
           "package": "dwarf",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The dwarf information entries form graph of nodes tagged with attributes Please refer to the DWARF specification for semantics Although it looks like tree there can be attributes which have adjacency information which will introduce cross-branch edges",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DIE",
           "package": "dwarf",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS",
           "package": "dwarf",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS",
           "package": "dwarf",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT",
           "package": "dwarf",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT",
           "package": "dwarf",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE",
           "package": "dwarf",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE",
           "package": "dwarf",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL",
           "package": "dwarf",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL",
           "package": "dwarf",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CC",
           "package": "dwarf",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CC",
           "package": "dwarf",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA",
           "package": "dwarf",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA",
           "package": "dwarf",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CIEFDE",
           "package": "dwarf",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CIEFDE",
           "package": "dwarf",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS",
           "package": "dwarf",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS",
           "package": "dwarf",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DSC",
           "package": "dwarf",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DSC",
           "package": "dwarf",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_END",
           "package": "dwarf",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_END",
           "package": "dwarf",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ID",
           "package": "dwarf",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ID",
           "package": "dwarf",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_INL",
           "package": "dwarf",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_INL",
           "package": "dwarf",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG",
           "package": "dwarf",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG",
           "package": "dwarf",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LNE",
           "package": "dwarf",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LNE",
           "package": "dwarf",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO",
           "package": "dwarf",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO",
           "package": "dwarf",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP",
           "package": "dwarf",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP",
           "package": "dwarf",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ORD",
           "package": "dwarf",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ORD",
           "package": "dwarf",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG",
           "package": "dwarf",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG",
           "package": "dwarf",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY",
           "package": "dwarf",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY",
           "package": "dwarf",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIS",
           "package": "dwarf",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIS",
           "package": "dwarf",
@@ -485,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType containing functions and data needed for decoding DWARF information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DwarfReader",
           "package": "dwarf",
@@ -494,6 +539,7 @@
         "index": {
           "description": "Type containing functions and data needed for decoding DWARF information",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DwarfReader",
           "package": "dwarf",
@@ -508,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function for retrieving the list of values for a specified attribute from a DWARF information entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "(!?)",
           "package": "dwarf",
@@ -518,6 +565,7 @@
         "index": {
           "description": "Utility function for retrieving the list of values for specified attribute from DWARF information entry",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "(!?) !?",
           "normalized": "DIE-\u003eDW_AT-\u003e[DW_ATVAL]",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DIE",
           "package": "dwarf",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DIE",
           "package": "dwarf",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_private",
           "package": "dwarf",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_private",
           "package": "dwarf",
@@ -576,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_protected",
           "package": "dwarf",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_protected",
           "package": "dwarf",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_public",
           "package": "dwarf",
@@ -607,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ACCESS_public",
           "package": "dwarf",
@@ -620,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_address",
           "package": "dwarf",
@@ -629,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_address",
           "package": "dwarf",
@@ -642,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_boolean",
           "package": "dwarf",
@@ -651,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_boolean",
           "package": "dwarf",
@@ -664,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_complex_float",
           "package": "dwarf",
@@ -673,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_complex_float",
           "package": "dwarf",
@@ -686,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_decimal_float",
           "package": "dwarf",
@@ -695,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_decimal_float",
           "package": "dwarf",
@@ -708,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_edited",
           "package": "dwarf",
@@ -717,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_edited",
           "package": "dwarf",
@@ -730,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_float",
           "package": "dwarf",
@@ -739,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_float",
           "package": "dwarf",
@@ -752,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_imaginary_float",
           "package": "dwarf",
@@ -761,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_imaginary_float",
           "package": "dwarf",
@@ -774,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_numeric_string",
           "package": "dwarf",
@@ -783,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_numeric_string",
           "package": "dwarf",
@@ -796,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_packed_decimal",
           "package": "dwarf",
@@ -805,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_packed_decimal",
           "package": "dwarf",
@@ -818,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed",
           "package": "dwarf",
@@ -827,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed",
           "package": "dwarf",
@@ -840,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed_char",
           "package": "dwarf",
@@ -849,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed_char",
           "package": "dwarf",
@@ -862,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed_fixed",
           "package": "dwarf",
@@ -871,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_signed_fixed",
           "package": "dwarf",
@@ -884,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned",
           "package": "dwarf",
@@ -893,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned",
           "package": "dwarf",
@@ -906,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned_char",
           "package": "dwarf",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned_char",
           "package": "dwarf",
@@ -928,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned_fixed",
           "package": "dwarf",
@@ -937,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATE_unsigned_fixed",
           "package": "dwarf",
@@ -950,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_BLOB",
           "package": "dwarf",
@@ -959,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_BLOB",
           "package": "dwarf",
@@ -972,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_BOOL",
           "package": "dwarf",
@@ -981,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_BOOL",
           "package": "dwarf",
@@ -994,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_INT",
           "package": "dwarf",
@@ -1003,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_INT",
           "package": "dwarf",
@@ -1016,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_STRING",
           "package": "dwarf",
@@ -1025,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_STRING",
           "package": "dwarf",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_UINT",
           "package": "dwarf",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ATVAL_UINT",
           "package": "dwarf",
@@ -1061,6 +1157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_abstract_origin",
           "package": "dwarf",
@@ -1071,6 +1168,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_abstract_origin",
           "package": "dwarf",
@@ -1085,6 +1183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_accessibility",
           "package": "dwarf",
@@ -1095,6 +1194,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_accessibility",
           "package": "dwarf",
@@ -1109,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_address_class",
           "package": "dwarf",
@@ -1119,6 +1220,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_address_class",
           "package": "dwarf",
@@ -1133,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_allocated",
           "package": "dwarf",
@@ -1143,6 +1246,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_allocated",
           "package": "dwarf",
@@ -1157,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_artificial",
           "package": "dwarf",
@@ -1167,6 +1272,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_artificial",
           "package": "dwarf",
@@ -1181,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_associated",
           "package": "dwarf",
@@ -1191,6 +1298,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_associated",
           "package": "dwarf",
@@ -1205,6 +1313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_base_types",
           "package": "dwarf",
@@ -1215,6 +1324,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_base_types",
           "package": "dwarf",
@@ -1229,6 +1339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_binary_scale",
           "package": "dwarf",
@@ -1239,6 +1350,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_binary_scale",
           "package": "dwarf",
@@ -1253,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_offset",
           "package": "dwarf",
@@ -1263,6 +1376,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_offset",
           "package": "dwarf",
@@ -1277,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_size",
           "package": "dwarf",
@@ -1287,6 +1402,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_size",
           "package": "dwarf",
@@ -1301,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_stride",
           "package": "dwarf",
@@ -1311,6 +1428,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_bit_stride",
           "package": "dwarf",
@@ -1325,6 +1443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_byte_size",
           "package": "dwarf",
@@ -1335,6 +1454,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_byte_size",
           "package": "dwarf",
@@ -1349,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_byte_stride",
           "package": "dwarf",
@@ -1359,6 +1480,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_byte_stride",
           "package": "dwarf",
@@ -1373,6 +1495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_column",
           "package": "dwarf",
@@ -1383,6 +1506,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_column",
           "package": "dwarf",
@@ -1397,6 +1521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_file",
           "package": "dwarf",
@@ -1407,6 +1532,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_file",
           "package": "dwarf",
@@ -1421,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_line",
           "package": "dwarf",
@@ -1431,6 +1558,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_call_line",
           "package": "dwarf",
@@ -1445,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_calling_convention",
           "package": "dwarf",
@@ -1455,6 +1584,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_calling_convention",
           "package": "dwarf",
@@ -1469,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_common_reference",
           "package": "dwarf",
@@ -1479,6 +1610,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_common_reference",
           "package": "dwarf",
@@ -1493,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_comp_dir",
           "package": "dwarf",
@@ -1503,6 +1636,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_comp_dir",
           "package": "dwarf",
@@ -1517,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_const_value",
           "package": "dwarf",
@@ -1527,6 +1662,7 @@
         "index": {
           "description": "block constant string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_const_value",
           "package": "dwarf",
@@ -1541,6 +1677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_containing_type",
           "package": "dwarf",
@@ -1551,6 +1688,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_containing_type",
           "package": "dwarf",
@@ -1565,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_count",
           "package": "dwarf",
@@ -1575,6 +1714,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_count",
           "package": "dwarf",
@@ -1589,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_data_location",
           "package": "dwarf",
@@ -1599,6 +1740,7 @@
         "index": {
           "description": "block",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_data_location",
           "package": "dwarf",
@@ -1613,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_data_member_location",
           "package": "dwarf",
@@ -1623,6 +1766,7 @@
         "index": {
           "description": "block constant loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_data_member_location",
           "package": "dwarf",
@@ -1637,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_decimal_scale",
           "package": "dwarf",
@@ -1647,6 +1792,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_decimal_scale",
           "package": "dwarf",
@@ -1661,6 +1807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_decimal_sign",
           "package": "dwarf",
@@ -1671,6 +1818,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_decimal_sign",
           "package": "dwarf",
@@ -1685,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_column",
           "package": "dwarf",
@@ -1695,6 +1844,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_column",
           "package": "dwarf",
@@ -1709,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_file",
           "package": "dwarf",
@@ -1719,6 +1870,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_file",
           "package": "dwarf",
@@ -1733,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_line",
           "package": "dwarf",
@@ -1743,6 +1896,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_decl_line",
           "package": "dwarf",
@@ -1757,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_declaration",
           "package": "dwarf",
@@ -1767,6 +1922,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_declaration",
           "package": "dwarf",
@@ -1781,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_default_value",
           "package": "dwarf",
@@ -1791,6 +1948,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_default_value",
           "package": "dwarf",
@@ -1805,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_description",
           "package": "dwarf",
@@ -1815,6 +1974,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_description",
           "package": "dwarf",
@@ -1829,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_digit_count",
           "package": "dwarf",
@@ -1839,6 +2000,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_digit_count",
           "package": "dwarf",
@@ -1853,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr",
           "package": "dwarf",
@@ -1863,6 +2026,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr",
           "package": "dwarf",
@@ -1877,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr_list",
           "package": "dwarf",
@@ -1887,6 +2052,7 @@
         "index": {
           "description": "block",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr_list",
           "package": "dwarf",
@@ -1901,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr_value",
           "package": "dwarf",
@@ -1911,6 +2078,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_discr_value",
           "package": "dwarf",
@@ -1925,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_elemental",
           "package": "dwarf",
@@ -1935,6 +2104,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_elemental",
           "package": "dwarf",
@@ -1949,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_encoding",
           "package": "dwarf",
@@ -1959,6 +2130,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_encoding",
           "package": "dwarf",
@@ -1973,6 +2145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_endianity",
           "package": "dwarf",
@@ -1983,6 +2156,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_endianity",
           "package": "dwarf",
@@ -1997,6 +2171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_entry_pc",
           "package": "dwarf",
@@ -2007,6 +2182,7 @@
         "index": {
           "description": "address",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_entry_pc",
           "package": "dwarf",
@@ -2021,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_explicit",
           "package": "dwarf",
@@ -2031,6 +2208,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_explicit",
           "package": "dwarf",
@@ -2045,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_extension",
           "package": "dwarf",
@@ -2055,6 +2234,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_extension",
           "package": "dwarf",
@@ -2069,6 +2249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_external",
           "package": "dwarf",
@@ -2079,6 +2260,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_external",
           "package": "dwarf",
@@ -2093,6 +2275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_frame_base",
           "package": "dwarf",
@@ -2103,6 +2286,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_frame_base",
           "package": "dwarf",
@@ -2117,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_friend",
           "package": "dwarf",
@@ -2127,6 +2312,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_friend",
           "package": "dwarf",
@@ -2141,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_high_pc",
           "package": "dwarf",
@@ -2151,6 +2338,7 @@
         "index": {
           "description": "address",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_high_pc",
           "package": "dwarf",
@@ -2165,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_identifier_case",
           "package": "dwarf",
@@ -2175,6 +2364,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_identifier_case",
           "package": "dwarf",
@@ -2189,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_import",
           "package": "dwarf",
@@ -2199,6 +2390,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_import",
           "package": "dwarf",
@@ -2213,6 +2405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_inline",
           "package": "dwarf",
@@ -2223,6 +2416,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_inline",
           "package": "dwarf",
@@ -2237,6 +2431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_is_optional",
           "package": "dwarf",
@@ -2247,6 +2442,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_is_optional",
           "package": "dwarf",
@@ -2261,6 +2457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_language",
           "package": "dwarf",
@@ -2271,6 +2468,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_language",
           "package": "dwarf",
@@ -2285,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_location",
           "package": "dwarf",
@@ -2295,6 +2494,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_location",
           "package": "dwarf",
@@ -2309,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_low_pc",
           "package": "dwarf",
@@ -2319,6 +2520,7 @@
         "index": {
           "description": "address",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_low_pc",
           "package": "dwarf",
@@ -2333,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_lower_bound",
           "package": "dwarf",
@@ -2343,6 +2546,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_lower_bound",
           "package": "dwarf",
@@ -2357,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emacptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_macro_info",
           "package": "dwarf",
@@ -2367,6 +2572,7 @@
         "index": {
           "description": "macptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_macro_info",
           "package": "dwarf",
@@ -2381,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_mutable",
           "package": "dwarf",
@@ -2391,6 +2598,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_mutable",
           "package": "dwarf",
@@ -2405,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_name",
           "package": "dwarf",
@@ -2415,6 +2624,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_name",
           "package": "dwarf",
@@ -2429,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_namelist_item",
           "package": "dwarf",
@@ -2439,6 +2650,7 @@
         "index": {
           "description": "block",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_namelist_item",
           "package": "dwarf",
@@ -2453,6 +2665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_object_pointer",
           "package": "dwarf",
@@ -2463,6 +2676,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_object_pointer",
           "package": "dwarf",
@@ -2477,6 +2691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_ordering",
           "package": "dwarf",
@@ -2487,6 +2702,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_ordering",
           "package": "dwarf",
@@ -2501,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_picture_string",
           "package": "dwarf",
@@ -2511,6 +2728,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_picture_string",
           "package": "dwarf",
@@ -2525,6 +2743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_priority",
           "package": "dwarf",
@@ -2535,6 +2754,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_priority",
           "package": "dwarf",
@@ -2549,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_producer",
           "package": "dwarf",
@@ -2559,6 +2780,7 @@
         "index": {
           "description": "string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_producer",
           "package": "dwarf",
@@ -2573,6 +2795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_prototyped",
           "package": "dwarf",
@@ -2583,6 +2806,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_prototyped",
           "package": "dwarf",
@@ -2597,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_pure",
           "package": "dwarf",
@@ -2607,6 +2832,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_pure",
           "package": "dwarf",
@@ -2621,6 +2847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erangelistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_ranges",
           "package": "dwarf",
@@ -2631,6 +2858,7 @@
         "index": {
           "description": "rangelistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_ranges",
           "package": "dwarf",
@@ -2645,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_recursive",
           "package": "dwarf",
@@ -2655,6 +2884,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_recursive",
           "package": "dwarf",
@@ -2669,6 +2899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_return_addr",
           "package": "dwarf",
@@ -2679,6 +2910,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_return_addr",
           "package": "dwarf",
@@ -2693,6 +2925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_segment",
           "package": "dwarf",
@@ -2703,6 +2936,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_segment",
           "package": "dwarf",
@@ -2717,6 +2951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_sibling",
           "package": "dwarf",
@@ -2727,6 +2962,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_sibling",
           "package": "dwarf",
@@ -2741,6 +2977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_small",
           "package": "dwarf",
@@ -2751,6 +2988,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_small",
           "package": "dwarf",
@@ -2765,6 +3003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_specification",
           "package": "dwarf",
@@ -2775,6 +3014,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_specification",
           "package": "dwarf",
@@ -2789,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_start_scope",
           "package": "dwarf",
@@ -2799,6 +3040,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_start_scope",
           "package": "dwarf",
@@ -2813,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_static_link",
           "package": "dwarf",
@@ -2823,6 +3066,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_static_link",
           "package": "dwarf",
@@ -2837,6 +3081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elineptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_stmt_list",
           "package": "dwarf",
@@ -2847,6 +3092,7 @@
         "index": {
           "description": "lineptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_stmt_list",
           "package": "dwarf",
@@ -2861,6 +3107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_string_length",
           "package": "dwarf",
@@ -2871,6 +3118,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_string_length",
           "package": "dwarf",
@@ -2885,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_threads_scaled",
           "package": "dwarf",
@@ -2895,6 +3144,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_threads_scaled",
           "package": "dwarf",
@@ -2909,6 +3159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaddress, flag, reference, string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_trampoline",
           "package": "dwarf",
@@ -2919,6 +3170,7 @@
         "index": {
           "description": "address flag reference string",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_trampoline",
           "package": "dwarf",
@@ -2933,6 +3185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_type",
           "package": "dwarf",
@@ -2943,6 +3196,7 @@
         "index": {
           "description": "reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_type",
           "package": "dwarf",
@@ -2957,6 +3211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, constant, reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_upper_bound",
           "package": "dwarf",
@@ -2967,6 +3222,7 @@
         "index": {
           "description": "block constant reference",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_upper_bound",
           "package": "dwarf",
@@ -2981,6 +3237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_use_UTF8",
           "package": "dwarf",
@@ -2991,6 +3248,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_use_UTF8",
           "package": "dwarf",
@@ -3005,6 +3263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_use_location",
           "package": "dwarf",
@@ -3015,6 +3274,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_use_location",
           "package": "dwarf",
@@ -3029,6 +3289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser extension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_user",
           "package": "dwarf",
@@ -3039,6 +3300,7 @@
         "index": {
           "description": "user extension",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_user",
           "package": "dwarf",
@@ -3053,6 +3315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_variable_parameter",
           "package": "dwarf",
@@ -3063,6 +3326,7 @@
         "index": {
           "description": "flag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_variable_parameter",
           "package": "dwarf",
@@ -3077,6 +3341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_virtuality",
           "package": "dwarf",
@@ -3087,6 +3352,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_virtuality",
           "package": "dwarf",
@@ -3101,6 +3367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_visibility",
           "package": "dwarf",
@@ -3111,6 +3378,7 @@
         "index": {
           "description": "constant",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_visibility",
           "package": "dwarf",
@@ -3125,6 +3393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblock, loclistptr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_AT_vtable_elem_location",
           "package": "dwarf",
@@ -3135,6 +3404,7 @@
         "index": {
           "description": "block loclistptr",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_AT_vtable_elem_location",
           "package": "dwarf",
@@ -3148,6 +3418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CC_nocall",
           "package": "dwarf",
@@ -3157,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CC_nocall",
           "package": "dwarf",
@@ -3170,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CC_normal",
           "package": "dwarf",
@@ -3179,6 +3452,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CC_normal",
           "package": "dwarf",
@@ -3192,6 +3466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CC_program",
           "package": "dwarf",
@@ -3201,6 +3476,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CC_program",
           "package": "dwarf",
@@ -3214,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc",
           "package": "dwarf",
@@ -3223,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc",
           "package": "dwarf",
@@ -3236,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc1",
           "package": "dwarf",
@@ -3245,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc1",
           "package": "dwarf",
@@ -3258,6 +3538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc2",
           "package": "dwarf",
@@ -3267,6 +3548,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc2",
           "package": "dwarf",
@@ -3280,6 +3562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc4",
           "package": "dwarf",
@@ -3289,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_advance_loc4",
           "package": "dwarf",
@@ -3302,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa",
           "package": "dwarf",
@@ -3311,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa",
           "package": "dwarf",
@@ -3324,6 +3610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_expression",
           "package": "dwarf",
@@ -3333,6 +3620,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_expression",
           "package": "dwarf",
@@ -3346,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_offset",
           "package": "dwarf",
@@ -3355,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_offset",
           "package": "dwarf",
@@ -3368,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_offset_sf",
           "package": "dwarf",
@@ -3377,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_offset_sf",
           "package": "dwarf",
@@ -3390,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_register",
           "package": "dwarf",
@@ -3399,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_register",
           "package": "dwarf",
@@ -3412,6 +3706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_sf",
           "package": "dwarf",
@@ -3421,6 +3716,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_def_cfa_sf",
           "package": "dwarf",
@@ -3434,6 +3730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_expression",
           "package": "dwarf",
@@ -3443,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_expression",
           "package": "dwarf",
@@ -3456,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_nop",
           "package": "dwarf",
@@ -3465,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_nop",
           "package": "dwarf",
@@ -3478,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset",
           "package": "dwarf",
@@ -3487,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset",
           "package": "dwarf",
@@ -3500,6 +3802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset_extended",
           "package": "dwarf",
@@ -3509,6 +3812,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset_extended",
           "package": "dwarf",
@@ -3522,6 +3826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset_extended_sf",
           "package": "dwarf",
@@ -3531,6 +3836,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_offset_extended_sf",
           "package": "dwarf",
@@ -3544,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_register",
           "package": "dwarf",
@@ -3553,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_register",
           "package": "dwarf",
@@ -3566,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_remember_state",
           "package": "dwarf",
@@ -3575,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_remember_state",
           "package": "dwarf",
@@ -3588,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore",
           "package": "dwarf",
@@ -3597,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore",
           "package": "dwarf",
@@ -3610,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore_extended",
           "package": "dwarf",
@@ -3619,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore_extended",
           "package": "dwarf",
@@ -3632,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore_state",
           "package": "dwarf",
@@ -3641,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_restore_state",
           "package": "dwarf",
@@ -3654,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_same_value",
           "package": "dwarf",
@@ -3663,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_same_value",
           "package": "dwarf",
@@ -3676,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_set_loc",
           "package": "dwarf",
@@ -3685,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_set_loc",
           "package": "dwarf",
@@ -3698,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_undefined",
           "package": "dwarf",
@@ -3707,6 +4028,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_undefined",
           "package": "dwarf",
@@ -3720,6 +4042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_expression",
           "package": "dwarf",
@@ -3729,6 +4052,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_expression",
           "package": "dwarf",
@@ -3742,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_offset",
           "package": "dwarf",
@@ -3751,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_offset",
           "package": "dwarf",
@@ -3764,6 +4090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_offset_sf",
           "package": "dwarf",
@@ -3773,6 +4100,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CFA_val_offset_sf",
           "package": "dwarf",
@@ -3786,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_CIE",
           "package": "dwarf",
@@ -3795,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_CIE",
           "package": "dwarf",
@@ -3808,6 +4138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DSC_label",
           "package": "dwarf",
@@ -3817,6 +4148,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DSC_label",
           "package": "dwarf",
@@ -3830,6 +4162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DSC_range",
           "package": "dwarf",
@@ -3839,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DSC_range",
           "package": "dwarf",
@@ -3852,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS_leading_overpunch",
           "package": "dwarf",
@@ -3861,6 +4196,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS_leading_overpunch",
           "package": "dwarf",
@@ -3874,6 +4210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS_leading_separate",
           "package": "dwarf",
@@ -3883,6 +4220,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS_leading_separate",
           "package": "dwarf",
@@ -3896,6 +4234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS_trailing_overpunch",
           "package": "dwarf",
@@ -3905,6 +4244,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS_trailing_overpunch",
           "package": "dwarf",
@@ -3918,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS_trailing_separate",
           "package": "dwarf",
@@ -3927,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS_trailing_separate",
           "package": "dwarf",
@@ -3940,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_DS_unsigned",
           "package": "dwarf",
@@ -3949,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_DS_unsigned",
           "package": "dwarf",
@@ -3962,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_END_big",
           "package": "dwarf",
@@ -3971,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_END_big",
           "package": "dwarf",
@@ -3984,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_END_default",
           "package": "dwarf",
@@ -3993,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_END_default",
           "package": "dwarf",
@@ -4006,6 +4354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_END_little",
           "package": "dwarf",
@@ -4015,6 +4364,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_END_little",
           "package": "dwarf",
@@ -4028,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_FDE",
           "package": "dwarf",
@@ -4037,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_FDE",
           "package": "dwarf",
@@ -4050,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ID_case_insensitive",
           "package": "dwarf",
@@ -4059,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ID_case_insensitive",
           "package": "dwarf",
@@ -4072,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ID_case_sensitive",
           "package": "dwarf",
@@ -4081,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ID_case_sensitive",
           "package": "dwarf",
@@ -4094,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ID_down_case",
           "package": "dwarf",
@@ -4103,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ID_down_case",
           "package": "dwarf",
@@ -4116,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ID_up_case",
           "package": "dwarf",
@@ -4125,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ID_up_case",
           "package": "dwarf",
@@ -4138,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_INL_declared_inlined",
           "package": "dwarf",
@@ -4147,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_INL_declared_inlined",
           "package": "dwarf",
@@ -4160,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_INL_declared_not_inlined",
           "package": "dwarf",
@@ -4169,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_INL_declared_not_inlined",
           "package": "dwarf",
@@ -4182,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_INL_inlined",
           "package": "dwarf",
@@ -4191,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_INL_inlined",
           "package": "dwarf",
@@ -4204,6 +4570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_INL_not_inlined",
           "package": "dwarf",
@@ -4213,6 +4580,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_INL_not_inlined",
           "package": "dwarf",
@@ -4226,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Ada83",
           "package": "dwarf",
@@ -4235,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Ada83",
           "package": "dwarf",
@@ -4248,6 +4618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Ada95",
           "package": "dwarf",
@@ -4257,6 +4628,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Ada95",
           "package": "dwarf",
@@ -4270,6 +4642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C",
           "package": "dwarf",
@@ -4279,6 +4652,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C",
           "package": "dwarf",
@@ -4292,6 +4666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C89",
           "package": "dwarf",
@@ -4301,6 +4676,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C89",
           "package": "dwarf",
@@ -4314,6 +4690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C99",
           "package": "dwarf",
@@ -4323,6 +4700,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C99",
           "package": "dwarf",
@@ -4336,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C_plus_plus",
           "package": "dwarf",
@@ -4345,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_C_plus_plus",
           "package": "dwarf",
@@ -4358,6 +4738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Cobol74",
           "package": "dwarf",
@@ -4367,6 +4748,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Cobol74",
           "package": "dwarf",
@@ -4380,6 +4762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Cobol85",
           "package": "dwarf",
@@ -4389,6 +4772,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Cobol85",
           "package": "dwarf",
@@ -4402,6 +4786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_D",
           "package": "dwarf",
@@ -4411,6 +4796,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_D",
           "package": "dwarf",
@@ -4424,6 +4810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran77",
           "package": "dwarf",
@@ -4433,6 +4820,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran77",
           "package": "dwarf",
@@ -4446,6 +4834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran90",
           "package": "dwarf",
@@ -4455,6 +4844,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran90",
           "package": "dwarf",
@@ -4468,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran95",
           "package": "dwarf",
@@ -4477,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Fortran95",
           "package": "dwarf",
@@ -4490,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Java",
           "package": "dwarf",
@@ -4499,6 +4892,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Java",
           "package": "dwarf",
@@ -4512,6 +4906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Modula2",
           "package": "dwarf",
@@ -4521,6 +4916,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Modula2",
           "package": "dwarf",
@@ -4534,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_ObjC",
           "package": "dwarf",
@@ -4543,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_ObjC",
           "package": "dwarf",
@@ -4556,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_ObjC_plus_plus",
           "package": "dwarf",
@@ -4565,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_ObjC_plus_plus",
           "package": "dwarf",
@@ -4578,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_PLI",
           "package": "dwarf",
@@ -4587,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_PLI",
           "package": "dwarf",
@@ -4600,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Pascal83",
           "package": "dwarf",
@@ -4609,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_Pascal83",
           "package": "dwarf",
@@ -4622,6 +5026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LANG_UPC",
           "package": "dwarf",
@@ -4631,6 +5036,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LANG_UPC",
           "package": "dwarf",
@@ -4644,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_LNE",
           "package": "dwarf",
@@ -4653,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_LNE",
           "package": "dwarf",
@@ -4667,6 +5075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine number and defined symbol with definition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_define",
           "package": "dwarf",
@@ -4677,6 +5086,7 @@
         "index": {
           "description": "Line number and defined symbol with definition",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_define",
           "package": "dwarf",
@@ -4691,6 +5101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks end of file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_end_file",
           "package": "dwarf",
@@ -4701,6 +5112,7 @@
         "index": {
           "description": "Marks end of file",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_end_file",
           "package": "dwarf",
@@ -4715,6 +5127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks start of file with the line where the file was included from and a source file index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_start_file",
           "package": "dwarf",
@@ -4725,6 +5138,7 @@
         "index": {
           "description": "Marks start of file with the line where the file was included from and source file index",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_start_file",
           "package": "dwarf",
@@ -4739,6 +5153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine number and undefined symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_undef",
           "package": "dwarf",
@@ -4749,6 +5164,7 @@
         "index": {
           "description": "Line number and undefined symbol",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_undef",
           "package": "dwarf",
@@ -4763,6 +5179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementation defined\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_vendor_ext",
           "package": "dwarf",
@@ -4773,6 +5190,7 @@
         "index": {
           "description": "Implementation defined",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_MACINFO_vendor_ext",
           "package": "dwarf",
@@ -4786,6 +5204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_abs",
           "package": "dwarf",
@@ -4795,6 +5214,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_abs",
           "package": "dwarf",
@@ -4808,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_addr",
           "package": "dwarf",
@@ -4817,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_addr",
           "package": "dwarf",
@@ -4830,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_and",
           "package": "dwarf",
@@ -4839,6 +5262,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_and",
           "package": "dwarf",
@@ -4852,6 +5276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_bit_piece",
           "package": "dwarf",
@@ -4861,6 +5286,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_bit_piece",
           "package": "dwarf",
@@ -4874,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_bra",
           "package": "dwarf",
@@ -4883,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_bra",
           "package": "dwarf",
@@ -4896,6 +5324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg0",
           "package": "dwarf",
@@ -4905,6 +5334,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg0",
           "package": "dwarf",
@@ -4918,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg1",
           "package": "dwarf",
@@ -4927,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg1",
           "package": "dwarf",
@@ -4940,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg10",
           "package": "dwarf",
@@ -4949,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg10",
           "package": "dwarf",
@@ -4962,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg11",
           "package": "dwarf",
@@ -4971,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg11",
           "package": "dwarf",
@@ -4984,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg12",
           "package": "dwarf",
@@ -4993,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg12",
           "package": "dwarf",
@@ -5006,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg13",
           "package": "dwarf",
@@ -5015,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg13",
           "package": "dwarf",
@@ -5028,6 +5468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg14",
           "package": "dwarf",
@@ -5037,6 +5478,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg14",
           "package": "dwarf",
@@ -5050,6 +5492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg15",
           "package": "dwarf",
@@ -5059,6 +5502,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg15",
           "package": "dwarf",
@@ -5072,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg16",
           "package": "dwarf",
@@ -5081,6 +5526,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg16",
           "package": "dwarf",
@@ -5094,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg17",
           "package": "dwarf",
@@ -5103,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg17",
           "package": "dwarf",
@@ -5116,6 +5564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg18",
           "package": "dwarf",
@@ -5125,6 +5574,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg18",
           "package": "dwarf",
@@ -5138,6 +5588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg19",
           "package": "dwarf",
@@ -5147,6 +5598,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg19",
           "package": "dwarf",
@@ -5160,6 +5612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg2",
           "package": "dwarf",
@@ -5169,6 +5622,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg2",
           "package": "dwarf",
@@ -5182,6 +5636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg20",
           "package": "dwarf",
@@ -5191,6 +5646,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg20",
           "package": "dwarf",
@@ -5204,6 +5660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg21",
           "package": "dwarf",
@@ -5213,6 +5670,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg21",
           "package": "dwarf",
@@ -5226,6 +5684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg22",
           "package": "dwarf",
@@ -5235,6 +5694,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg22",
           "package": "dwarf",
@@ -5248,6 +5708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg23",
           "package": "dwarf",
@@ -5257,6 +5718,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg23",
           "package": "dwarf",
@@ -5270,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg24",
           "package": "dwarf",
@@ -5279,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg24",
           "package": "dwarf",
@@ -5292,6 +5756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg25",
           "package": "dwarf",
@@ -5301,6 +5766,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg25",
           "package": "dwarf",
@@ -5314,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg26",
           "package": "dwarf",
@@ -5323,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg26",
           "package": "dwarf",
@@ -5336,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg27",
           "package": "dwarf",
@@ -5345,6 +5814,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg27",
           "package": "dwarf",
@@ -5358,6 +5828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg28",
           "package": "dwarf",
@@ -5367,6 +5838,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg28",
           "package": "dwarf",
@@ -5380,6 +5852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg29",
           "package": "dwarf",
@@ -5389,6 +5862,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg29",
           "package": "dwarf",
@@ -5402,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg3",
           "package": "dwarf",
@@ -5411,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg3",
           "package": "dwarf",
@@ -5424,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg30",
           "package": "dwarf",
@@ -5433,6 +5910,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg30",
           "package": "dwarf",
@@ -5446,6 +5924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg31",
           "package": "dwarf",
@@ -5455,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg31",
           "package": "dwarf",
@@ -5468,6 +5948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg4",
           "package": "dwarf",
@@ -5477,6 +5958,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg4",
           "package": "dwarf",
@@ -5490,6 +5972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg5",
           "package": "dwarf",
@@ -5499,6 +5982,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg5",
           "package": "dwarf",
@@ -5512,6 +5996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg6",
           "package": "dwarf",
@@ -5521,6 +6006,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg6",
           "package": "dwarf",
@@ -5534,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg7",
           "package": "dwarf",
@@ -5543,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg7",
           "package": "dwarf",
@@ -5556,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg8",
           "package": "dwarf",
@@ -5565,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg8",
           "package": "dwarf",
@@ -5578,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg9",
           "package": "dwarf",
@@ -5587,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_breg9",
           "package": "dwarf",
@@ -5600,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_bregx",
           "package": "dwarf",
@@ -5609,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_bregx",
           "package": "dwarf",
@@ -5622,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_call2",
           "package": "dwarf",
@@ -5631,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_call2",
           "package": "dwarf",
@@ -5644,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_call4",
           "package": "dwarf",
@@ -5653,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_call4",
           "package": "dwarf",
@@ -5666,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_call_frame_cfa",
           "package": "dwarf",
@@ -5675,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_call_frame_cfa",
           "package": "dwarf",
@@ -5688,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_call_ref",
           "package": "dwarf",
@@ -5697,6 +6198,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_call_ref",
           "package": "dwarf",
@@ -5710,6 +6212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const1s",
           "package": "dwarf",
@@ -5719,6 +6222,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const1s",
           "package": "dwarf",
@@ -5732,6 +6236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const1u",
           "package": "dwarf",
@@ -5741,6 +6246,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const1u",
           "package": "dwarf",
@@ -5754,6 +6260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const2s",
           "package": "dwarf",
@@ -5763,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const2s",
           "package": "dwarf",
@@ -5776,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const2u",
           "package": "dwarf",
@@ -5785,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const2u",
           "package": "dwarf",
@@ -5798,6 +6308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const4s",
           "package": "dwarf",
@@ -5807,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const4s",
           "package": "dwarf",
@@ -5820,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const4u",
           "package": "dwarf",
@@ -5829,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const4u",
           "package": "dwarf",
@@ -5842,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const8s",
           "package": "dwarf",
@@ -5851,6 +6366,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const8s",
           "package": "dwarf",
@@ -5864,6 +6380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_const8u",
           "package": "dwarf",
@@ -5873,6 +6390,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_const8u",
           "package": "dwarf",
@@ -5886,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_consts",
           "package": "dwarf",
@@ -5895,6 +6414,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_consts",
           "package": "dwarf",
@@ -5908,6 +6428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_constu",
           "package": "dwarf",
@@ -5917,6 +6438,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_constu",
           "package": "dwarf",
@@ -5930,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_deref",
           "package": "dwarf",
@@ -5939,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_deref",
           "package": "dwarf",
@@ -5952,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_deref_size",
           "package": "dwarf",
@@ -5961,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_deref_size",
           "package": "dwarf",
@@ -5974,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_div",
           "package": "dwarf",
@@ -5983,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_div",
           "package": "dwarf",
@@ -5996,6 +6524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_drop",
           "package": "dwarf",
@@ -6005,6 +6534,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_drop",
           "package": "dwarf",
@@ -6018,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_dup",
           "package": "dwarf",
@@ -6027,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_dup",
           "package": "dwarf",
@@ -6040,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_eq",
           "package": "dwarf",
@@ -6049,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_eq",
           "package": "dwarf",
@@ -6062,6 +6596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_fbreg",
           "package": "dwarf",
@@ -6071,6 +6606,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_fbreg",
           "package": "dwarf",
@@ -6084,6 +6620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_form_tls_address",
           "package": "dwarf",
@@ -6093,6 +6630,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_form_tls_address",
           "package": "dwarf",
@@ -6106,6 +6644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_ge",
           "package": "dwarf",
@@ -6115,6 +6654,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_ge",
           "package": "dwarf",
@@ -6128,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_gt",
           "package": "dwarf",
@@ -6137,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_gt",
           "package": "dwarf",
@@ -6150,6 +6692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_le",
           "package": "dwarf",
@@ -6159,6 +6702,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_le",
           "package": "dwarf",
@@ -6172,6 +6716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit0",
           "package": "dwarf",
@@ -6181,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit0",
           "package": "dwarf",
@@ -6194,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit1",
           "package": "dwarf",
@@ -6203,6 +6750,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit1",
           "package": "dwarf",
@@ -6216,6 +6764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit10",
           "package": "dwarf",
@@ -6225,6 +6774,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit10",
           "package": "dwarf",
@@ -6238,6 +6788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit11",
           "package": "dwarf",
@@ -6247,6 +6798,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit11",
           "package": "dwarf",
@@ -6260,6 +6812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit12",
           "package": "dwarf",
@@ -6269,6 +6822,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit12",
           "package": "dwarf",
@@ -6282,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit13",
           "package": "dwarf",
@@ -6291,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit13",
           "package": "dwarf",
@@ -6304,6 +6860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit14",
           "package": "dwarf",
@@ -6313,6 +6870,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit14",
           "package": "dwarf",
@@ -6326,6 +6884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit15",
           "package": "dwarf",
@@ -6335,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit15",
           "package": "dwarf",
@@ -6348,6 +6908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit16",
           "package": "dwarf",
@@ -6357,6 +6918,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit16",
           "package": "dwarf",
@@ -6370,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit17",
           "package": "dwarf",
@@ -6379,6 +6942,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit17",
           "package": "dwarf",
@@ -6392,6 +6956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit18",
           "package": "dwarf",
@@ -6401,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit18",
           "package": "dwarf",
@@ -6414,6 +6980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit19",
           "package": "dwarf",
@@ -6423,6 +6990,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit19",
           "package": "dwarf",
@@ -6436,6 +7004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit2",
           "package": "dwarf",
@@ -6445,6 +7014,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit2",
           "package": "dwarf",
@@ -6458,6 +7028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit20",
           "package": "dwarf",
@@ -6467,6 +7038,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit20",
           "package": "dwarf",
@@ -6480,6 +7052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit21",
           "package": "dwarf",
@@ -6489,6 +7062,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit21",
           "package": "dwarf",
@@ -6502,6 +7076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit22",
           "package": "dwarf",
@@ -6511,6 +7086,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit22",
           "package": "dwarf",
@@ -6524,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit23",
           "package": "dwarf",
@@ -6533,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit23",
           "package": "dwarf",
@@ -6546,6 +7124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit24",
           "package": "dwarf",
@@ -6555,6 +7134,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit24",
           "package": "dwarf",
@@ -6568,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit25",
           "package": "dwarf",
@@ -6577,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit25",
           "package": "dwarf",
@@ -6590,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit26",
           "package": "dwarf",
@@ -6599,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit26",
           "package": "dwarf",
@@ -6612,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit27",
           "package": "dwarf",
@@ -6621,6 +7206,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit27",
           "package": "dwarf",
@@ -6634,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit28",
           "package": "dwarf",
@@ -6643,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit28",
           "package": "dwarf",
@@ -6656,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit29",
           "package": "dwarf",
@@ -6665,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit29",
           "package": "dwarf",
@@ -6678,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit3",
           "package": "dwarf",
@@ -6687,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit3",
           "package": "dwarf",
@@ -6700,6 +7292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit30",
           "package": "dwarf",
@@ -6709,6 +7302,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit30",
           "package": "dwarf",
@@ -6722,6 +7316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit31",
           "package": "dwarf",
@@ -6731,6 +7326,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit31",
           "package": "dwarf",
@@ -6744,6 +7340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit4",
           "package": "dwarf",
@@ -6753,6 +7350,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit4",
           "package": "dwarf",
@@ -6766,6 +7364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit5",
           "package": "dwarf",
@@ -6775,6 +7374,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit5",
           "package": "dwarf",
@@ -6788,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit6",
           "package": "dwarf",
@@ -6797,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit6",
           "package": "dwarf",
@@ -6810,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit7",
           "package": "dwarf",
@@ -6819,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit7",
           "package": "dwarf",
@@ -6832,6 +7436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit8",
           "package": "dwarf",
@@ -6841,6 +7446,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit8",
           "package": "dwarf",
@@ -6854,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit9",
           "package": "dwarf",
@@ -6863,6 +7470,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lit9",
           "package": "dwarf",
@@ -6876,6 +7484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_lt",
           "package": "dwarf",
@@ -6885,6 +7494,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_lt",
           "package": "dwarf",
@@ -6898,6 +7508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_minus",
           "package": "dwarf",
@@ -6907,6 +7518,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_minus",
           "package": "dwarf",
@@ -6920,6 +7532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_mod",
           "package": "dwarf",
@@ -6929,6 +7542,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_mod",
           "package": "dwarf",
@@ -6942,6 +7556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_mul",
           "package": "dwarf",
@@ -6951,6 +7566,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_mul",
           "package": "dwarf",
@@ -6964,6 +7580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_ne",
           "package": "dwarf",
@@ -6973,6 +7590,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_ne",
           "package": "dwarf",
@@ -6986,6 +7604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_neg",
           "package": "dwarf",
@@ -6995,6 +7614,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_neg",
           "package": "dwarf",
@@ -7008,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_nop",
           "package": "dwarf",
@@ -7017,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_nop",
           "package": "dwarf",
@@ -7030,6 +7652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_not",
           "package": "dwarf",
@@ -7039,6 +7662,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_not",
           "package": "dwarf",
@@ -7052,6 +7676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_or",
           "package": "dwarf",
@@ -7061,6 +7686,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_or",
           "package": "dwarf",
@@ -7074,6 +7700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_over",
           "package": "dwarf",
@@ -7083,6 +7710,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_over",
           "package": "dwarf",
@@ -7096,6 +7724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_pick",
           "package": "dwarf",
@@ -7105,6 +7734,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_pick",
           "package": "dwarf",
@@ -7118,6 +7748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_piece",
           "package": "dwarf",
@@ -7127,6 +7758,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_piece",
           "package": "dwarf",
@@ -7140,6 +7772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_plus",
           "package": "dwarf",
@@ -7149,6 +7782,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_plus",
           "package": "dwarf",
@@ -7162,6 +7796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_plus_uconst",
           "package": "dwarf",
@@ -7171,6 +7806,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_plus_uconst",
           "package": "dwarf",
@@ -7184,6 +7820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_push_object_address",
           "package": "dwarf",
@@ -7193,6 +7830,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_push_object_address",
           "package": "dwarf",
@@ -7206,6 +7844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg0",
           "package": "dwarf",
@@ -7215,6 +7854,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg0",
           "package": "dwarf",
@@ -7228,6 +7868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg1",
           "package": "dwarf",
@@ -7237,6 +7878,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg1",
           "package": "dwarf",
@@ -7250,6 +7892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg10",
           "package": "dwarf",
@@ -7259,6 +7902,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg10",
           "package": "dwarf",
@@ -7272,6 +7916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg11",
           "package": "dwarf",
@@ -7281,6 +7926,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg11",
           "package": "dwarf",
@@ -7294,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg12",
           "package": "dwarf",
@@ -7303,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg12",
           "package": "dwarf",
@@ -7316,6 +7964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg13",
           "package": "dwarf",
@@ -7325,6 +7974,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg13",
           "package": "dwarf",
@@ -7338,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg14",
           "package": "dwarf",
@@ -7347,6 +7998,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg14",
           "package": "dwarf",
@@ -7360,6 +8012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg15",
           "package": "dwarf",
@@ -7369,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg15",
           "package": "dwarf",
@@ -7382,6 +8036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg16",
           "package": "dwarf",
@@ -7391,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg16",
           "package": "dwarf",
@@ -7404,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg17",
           "package": "dwarf",
@@ -7413,6 +8070,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg17",
           "package": "dwarf",
@@ -7426,6 +8084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg18",
           "package": "dwarf",
@@ -7435,6 +8094,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg18",
           "package": "dwarf",
@@ -7448,6 +8108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg19",
           "package": "dwarf",
@@ -7457,6 +8118,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg19",
           "package": "dwarf",
@@ -7470,6 +8132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg2",
           "package": "dwarf",
@@ -7479,6 +8142,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg2",
           "package": "dwarf",
@@ -7492,6 +8156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg20",
           "package": "dwarf",
@@ -7501,6 +8166,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg20",
           "package": "dwarf",
@@ -7514,6 +8180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg21",
           "package": "dwarf",
@@ -7523,6 +8190,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg21",
           "package": "dwarf",
@@ -7536,6 +8204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg22",
           "package": "dwarf",
@@ -7545,6 +8214,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg22",
           "package": "dwarf",
@@ -7558,6 +8228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg23",
           "package": "dwarf",
@@ -7567,6 +8238,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg23",
           "package": "dwarf",
@@ -7580,6 +8252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg24",
           "package": "dwarf",
@@ -7589,6 +8262,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg24",
           "package": "dwarf",
@@ -7602,6 +8276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg25",
           "package": "dwarf",
@@ -7611,6 +8286,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg25",
           "package": "dwarf",
@@ -7624,6 +8300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg26",
           "package": "dwarf",
@@ -7633,6 +8310,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg26",
           "package": "dwarf",
@@ -7646,6 +8324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg27",
           "package": "dwarf",
@@ -7655,6 +8334,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg27",
           "package": "dwarf",
@@ -7668,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg28",
           "package": "dwarf",
@@ -7677,6 +8358,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg28",
           "package": "dwarf",
@@ -7690,6 +8372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg29",
           "package": "dwarf",
@@ -7699,6 +8382,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg29",
           "package": "dwarf",
@@ -7712,6 +8396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg3",
           "package": "dwarf",
@@ -7721,6 +8406,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg3",
           "package": "dwarf",
@@ -7734,6 +8420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg30",
           "package": "dwarf",
@@ -7743,6 +8430,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg30",
           "package": "dwarf",
@@ -7756,6 +8444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg31",
           "package": "dwarf",
@@ -7765,6 +8454,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg31",
           "package": "dwarf",
@@ -7778,6 +8468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg4",
           "package": "dwarf",
@@ -7787,6 +8478,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg4",
           "package": "dwarf",
@@ -7800,6 +8492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg5",
           "package": "dwarf",
@@ -7809,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg5",
           "package": "dwarf",
@@ -7822,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg6",
           "package": "dwarf",
@@ -7831,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg6",
           "package": "dwarf",
@@ -7844,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg7",
           "package": "dwarf",
@@ -7853,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg7",
           "package": "dwarf",
@@ -7866,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg8",
           "package": "dwarf",
@@ -7875,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg8",
           "package": "dwarf",
@@ -7888,6 +8588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg9",
           "package": "dwarf",
@@ -7897,6 +8598,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_reg9",
           "package": "dwarf",
@@ -7910,6 +8612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_regx",
           "package": "dwarf",
@@ -7919,6 +8622,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_regx",
           "package": "dwarf",
@@ -7932,6 +8636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_rot",
           "package": "dwarf",
@@ -7941,6 +8646,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_rot",
           "package": "dwarf",
@@ -7954,6 +8660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_shl",
           "package": "dwarf",
@@ -7963,6 +8670,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_shl",
           "package": "dwarf",
@@ -7976,6 +8684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_shr",
           "package": "dwarf",
@@ -7985,6 +8694,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_shr",
           "package": "dwarf",
@@ -7998,6 +8708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_shra",
           "package": "dwarf",
@@ -8007,6 +8718,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_shra",
           "package": "dwarf",
@@ -8020,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_skip",
           "package": "dwarf",
@@ -8029,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_skip",
           "package": "dwarf",
@@ -8042,6 +8756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_swap",
           "package": "dwarf",
@@ -8051,6 +8766,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_swap",
           "package": "dwarf",
@@ -8064,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_xderef",
           "package": "dwarf",
@@ -8073,6 +8790,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_xderef",
           "package": "dwarf",
@@ -8086,6 +8804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_xderef_size",
           "package": "dwarf",
@@ -8095,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_xderef_size",
           "package": "dwarf",
@@ -8108,6 +8828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_OP_xor",
           "package": "dwarf",
@@ -8117,6 +8838,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_OP_xor",
           "package": "dwarf",
@@ -8130,6 +8852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ORD_col_major",
           "package": "dwarf",
@@ -8139,6 +8862,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ORD_col_major",
           "package": "dwarf",
@@ -8152,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_ORD_row_major",
           "package": "dwarf",
@@ -8161,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_ORD_row_major",
           "package": "dwarf",
@@ -8174,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_access_declaration",
           "package": "dwarf",
@@ -8183,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_access_declaration",
           "package": "dwarf",
@@ -8196,6 +8924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_array_type",
           "package": "dwarf",
@@ -8205,6 +8934,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_array_type",
           "package": "dwarf",
@@ -8218,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_base_type",
           "package": "dwarf",
@@ -8227,6 +8958,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_base_type",
           "package": "dwarf",
@@ -8240,6 +8972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_catch_block",
           "package": "dwarf",
@@ -8249,6 +8982,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_catch_block",
           "package": "dwarf",
@@ -8262,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_class_type",
           "package": "dwarf",
@@ -8271,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_class_type",
           "package": "dwarf",
@@ -8284,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_common_block",
           "package": "dwarf",
@@ -8293,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_common_block",
           "package": "dwarf",
@@ -8306,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_common_inclusion",
           "package": "dwarf",
@@ -8315,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_common_inclusion",
           "package": "dwarf",
@@ -8328,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_compile_unit",
           "package": "dwarf",
@@ -8337,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_compile_unit",
           "package": "dwarf",
@@ -8350,6 +9092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_condition",
           "package": "dwarf",
@@ -8359,6 +9102,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_condition",
           "package": "dwarf",
@@ -8372,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_const_type",
           "package": "dwarf",
@@ -8381,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_const_type",
           "package": "dwarf",
@@ -8394,6 +9140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_constant",
           "package": "dwarf",
@@ -8403,6 +9150,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_constant",
           "package": "dwarf",
@@ -8416,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_dwarf_procedure",
           "package": "dwarf",
@@ -8425,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_dwarf_procedure",
           "package": "dwarf",
@@ -8438,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_entry_point",
           "package": "dwarf",
@@ -8447,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_entry_point",
           "package": "dwarf",
@@ -8460,6 +9212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_enumeration_type",
           "package": "dwarf",
@@ -8469,6 +9222,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_enumeration_type",
           "package": "dwarf",
@@ -8482,6 +9236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_enumerator",
           "package": "dwarf",
@@ -8491,6 +9246,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_enumerator",
           "package": "dwarf",
@@ -8504,6 +9260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_file_type",
           "package": "dwarf",
@@ -8513,6 +9270,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_file_type",
           "package": "dwarf",
@@ -8526,6 +9284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_formal_parameter",
           "package": "dwarf",
@@ -8535,6 +9294,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_formal_parameter",
           "package": "dwarf",
@@ -8548,6 +9308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_friend",
           "package": "dwarf",
@@ -8557,6 +9318,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_friend",
           "package": "dwarf",
@@ -8570,6 +9332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_declaration",
           "package": "dwarf",
@@ -8579,6 +9342,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_declaration",
           "package": "dwarf",
@@ -8592,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_module",
           "package": "dwarf",
@@ -8601,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_module",
           "package": "dwarf",
@@ -8614,6 +9380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_unit",
           "package": "dwarf",
@@ -8623,6 +9390,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_imported_unit",
           "package": "dwarf",
@@ -8636,6 +9404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_inheritance",
           "package": "dwarf",
@@ -8645,6 +9414,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_inheritance",
           "package": "dwarf",
@@ -8658,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_inlined_subroutine",
           "package": "dwarf",
@@ -8667,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_inlined_subroutine",
           "package": "dwarf",
@@ -8680,6 +9452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_interface_type",
           "package": "dwarf",
@@ -8689,6 +9462,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_interface_type",
           "package": "dwarf",
@@ -8702,6 +9476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_label",
           "package": "dwarf",
@@ -8711,6 +9486,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_label",
           "package": "dwarf",
@@ -8724,6 +9500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_lexical_block",
           "package": "dwarf",
@@ -8733,6 +9510,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_lexical_block",
           "package": "dwarf",
@@ -8746,6 +9524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_member",
           "package": "dwarf",
@@ -8755,6 +9534,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_member",
           "package": "dwarf",
@@ -8768,6 +9548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_module",
           "package": "dwarf",
@@ -8777,6 +9558,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_module",
           "package": "dwarf",
@@ -8790,6 +9572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namelist",
           "package": "dwarf",
@@ -8799,6 +9582,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namelist",
           "package": "dwarf",
@@ -8812,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namelist_item",
           "package": "dwarf",
@@ -8821,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namelist_item",
           "package": "dwarf",
@@ -8834,6 +9620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namespace",
           "package": "dwarf",
@@ -8843,6 +9630,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_namespace",
           "package": "dwarf",
@@ -8856,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_packed_type",
           "package": "dwarf",
@@ -8865,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_packed_type",
           "package": "dwarf",
@@ -8878,6 +9668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_partial_unit",
           "package": "dwarf",
@@ -8887,6 +9678,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_partial_unit",
           "package": "dwarf",
@@ -8900,6 +9692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_pointer_type",
           "package": "dwarf",
@@ -8909,6 +9702,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_pointer_type",
           "package": "dwarf",
@@ -8922,6 +9716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_ptr_to_member_type",
           "package": "dwarf",
@@ -8931,6 +9726,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_ptr_to_member_type",
           "package": "dwarf",
@@ -8944,6 +9740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_reference_type",
           "package": "dwarf",
@@ -8953,6 +9750,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_reference_type",
           "package": "dwarf",
@@ -8966,6 +9764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_restrict_type",
           "package": "dwarf",
@@ -8975,6 +9774,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_restrict_type",
           "package": "dwarf",
@@ -8988,6 +9788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_set_type",
           "package": "dwarf",
@@ -8997,6 +9798,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_set_type",
           "package": "dwarf",
@@ -9010,6 +9812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_shared_type",
           "package": "dwarf",
@@ -9019,6 +9822,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_shared_type",
           "package": "dwarf",
@@ -9032,6 +9836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_string_type",
           "package": "dwarf",
@@ -9041,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_string_type",
           "package": "dwarf",
@@ -9054,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_structure_type",
           "package": "dwarf",
@@ -9063,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_structure_type",
           "package": "dwarf",
@@ -9076,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subprogram",
           "package": "dwarf",
@@ -9085,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subprogram",
           "package": "dwarf",
@@ -9098,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subrange_type",
           "package": "dwarf",
@@ -9107,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subrange_type",
           "package": "dwarf",
@@ -9120,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subroutine_type",
           "package": "dwarf",
@@ -9129,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_subroutine_type",
           "package": "dwarf",
@@ -9142,6 +9956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_template_type_parameter",
           "package": "dwarf",
@@ -9151,6 +9966,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_template_type_parameter",
           "package": "dwarf",
@@ -9164,6 +9980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_template_value_parameter",
           "package": "dwarf",
@@ -9173,6 +9990,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_template_value_parameter",
           "package": "dwarf",
@@ -9186,6 +10004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_thrown_type",
           "package": "dwarf",
@@ -9195,6 +10014,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_thrown_type",
           "package": "dwarf",
@@ -9208,6 +10028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_try_block",
           "package": "dwarf",
@@ -9217,6 +10038,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_try_block",
           "package": "dwarf",
@@ -9230,6 +10052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_typedef",
           "package": "dwarf",
@@ -9239,6 +10062,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_typedef",
           "package": "dwarf",
@@ -9252,6 +10076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_union_type",
           "package": "dwarf",
@@ -9261,6 +10086,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_union_type",
           "package": "dwarf",
@@ -9274,6 +10100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_unspecified_parameters",
           "package": "dwarf",
@@ -9283,6 +10110,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_unspecified_parameters",
           "package": "dwarf",
@@ -9296,6 +10124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_unspecified_type",
           "package": "dwarf",
@@ -9305,6 +10134,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_unspecified_type",
           "package": "dwarf",
@@ -9318,6 +10148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variable",
           "package": "dwarf",
@@ -9327,6 +10158,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variable",
           "package": "dwarf",
@@ -9340,6 +10172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variant",
           "package": "dwarf",
@@ -9349,6 +10182,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variant",
           "package": "dwarf",
@@ -9362,6 +10196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variant_part",
           "package": "dwarf",
@@ -9371,6 +10206,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_variant_part",
           "package": "dwarf",
@@ -9384,6 +10220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_volatile_type",
           "package": "dwarf",
@@ -9393,6 +10230,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_volatile_type",
           "package": "dwarf",
@@ -9406,6 +10244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_TAG_with_stmt",
           "package": "dwarf",
@@ -9415,6 +10254,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_TAG_with_stmt",
           "package": "dwarf",
@@ -9428,6 +10268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_none",
           "package": "dwarf",
@@ -9437,6 +10278,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_none",
           "package": "dwarf",
@@ -9450,6 +10292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_pure_virtual",
           "package": "dwarf",
@@ -9459,6 +10302,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_pure_virtual",
           "package": "dwarf",
@@ -9472,6 +10316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_virtual",
           "package": "dwarf",
@@ -9481,6 +10326,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIRTUALITY_virtual",
           "package": "dwarf",
@@ -9494,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIS_exported",
           "package": "dwarf",
@@ -9503,6 +10350,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIS_exported",
           "package": "dwarf",
@@ -9516,6 +10364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIS_local",
           "package": "dwarf",
@@ -9525,6 +10374,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIS_local",
           "package": "dwarf",
@@ -9538,6 +10388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DW_VIS_qualified",
           "package": "dwarf",
@@ -9547,6 +10398,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DW_VIS_qualified",
           "package": "dwarf",
@@ -9560,6 +10412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "DwarfReader",
           "package": "dwarf",
@@ -9569,6 +10422,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "DwarfReader",
           "package": "dwarf",
@@ -9582,6 +10436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "cieAugmentation",
           "package": "dwarf",
@@ -9591,6 +10446,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "cieAugmentation",
           "package": "dwarf",
@@ -9604,6 +10460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "cieCodeAlignmentFactor",
           "package": "dwarf",
@@ -9613,6 +10470,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "cieCodeAlignmentFactor",
           "package": "dwarf",
@@ -9626,6 +10484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "cieDataAlignmentFactor",
           "package": "dwarf",
@@ -9635,6 +10494,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "cieDataAlignmentFactor",
           "package": "dwarf",
@@ -9648,6 +10508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "cieInitialInstructions",
           "package": "dwarf",
@@ -9657,6 +10518,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "cieInitialInstructions",
           "normalized": "[DW_CFA]",
@@ -9672,6 +10534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "cieReturnAddressRegister",
           "package": "dwarf",
@@ -9681,6 +10544,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "cieReturnAddressRegister",
           "package": "dwarf",
@@ -9695,6 +10559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute tag and value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieAttributes",
           "package": "dwarf",
@@ -9705,6 +10570,7 @@
         "index": {
           "description": "Attribute tag and value pairs",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieAttributes",
           "normalized": "[(DW_AT,DW_ATVAL)]",
@@ -9721,6 +10587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifiers of this entry's children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieChildren",
           "package": "dwarf",
@@ -9731,6 +10598,7 @@
         "index": {
           "description": "Unique identifiers of this entry children",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieChildren",
           "normalized": "[Word]",
@@ -9747,6 +10615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier for this entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieId",
           "package": "dwarf",
@@ -9757,6 +10626,7 @@
         "index": {
           "description": "Unique identifier for this entry",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieId",
           "package": "dwarf",
@@ -9771,6 +10641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier of this entry's parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieParent",
           "package": "dwarf",
@@ -9781,6 +10652,7 @@
         "index": {
           "description": "Unique identifier of this entry parent",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieParent",
           "package": "dwarf",
@@ -9795,6 +10667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecoder used to decode this entry. May be needed to further parse attribute values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieReader",
           "package": "dwarf",
@@ -9805,6 +10678,7 @@
         "index": {
           "description": "Decoder used to decode this entry May be needed to further parse attribute values",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieReader",
           "package": "dwarf",
@@ -9819,6 +10693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier of the left sibling in the DIE tree, if one exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieSiblingLeft",
           "package": "dwarf",
@@ -9829,6 +10704,7 @@
         "index": {
           "description": "Unique identifier of the left sibling in the DIE tree if one exists",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieSiblingLeft",
           "package": "dwarf",
@@ -9843,6 +10719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique identifier of the right sibling in the DIE tree, if one exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieSiblingRight",
           "package": "dwarf",
@@ -9853,6 +10730,7 @@
         "index": {
           "description": "Unique identifier of the right sibling in the DIE tree if one exists",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieSiblingRight",
           "package": "dwarf",
@@ -9867,6 +10745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dieTag",
           "package": "dwarf",
@@ -9877,6 +10756,7 @@
         "index": {
           "description": "Type tag",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dieTag",
           "package": "dwarf",
@@ -9890,6 +10770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_access",
           "package": "dwarf",
@@ -9899,6 +10780,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_access",
           "normalized": "a-\u003eDW_ACCESS",
@@ -9913,6 +10795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_ate",
           "package": "dwarf",
@@ -9922,6 +10805,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_ate",
           "normalized": "a-\u003eDW_ATE",
@@ -9936,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_cc",
           "package": "dwarf",
@@ -9945,6 +10830,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_cc",
           "normalized": "a-\u003eDW_CC",
@@ -9959,6 +10845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_ds",
           "package": "dwarf",
@@ -9968,6 +10855,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_ds",
           "normalized": "a-\u003eDW_DS",
@@ -9982,6 +10870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_dsc",
           "package": "dwarf",
@@ -9991,6 +10880,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_dsc",
           "normalized": "a-\u003eDW_DSC",
@@ -10005,6 +10895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_end",
           "package": "dwarf",
@@ -10014,6 +10905,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_end",
           "normalized": "a-\u003eDW_END",
@@ -10028,6 +10920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_inl",
           "package": "dwarf",
@@ -10037,6 +10930,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_inl",
           "normalized": "a-\u003eDW_INL",
@@ -10051,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_lang",
           "package": "dwarf",
@@ -10060,6 +10955,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_lang",
           "normalized": "a-\u003eDW_LANG",
@@ -10074,6 +10970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_ord",
           "package": "dwarf",
@@ -10083,6 +10980,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_ord",
           "normalized": "a-\u003eDW_ORD",
@@ -10097,6 +10995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_virtuality",
           "package": "dwarf",
@@ -10106,6 +11005,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_virtuality",
           "normalized": "a-\u003eDW_VIRTUALITY",
@@ -10120,6 +11020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dw_vis",
           "package": "dwarf",
@@ -10129,6 +11030,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dw_vis",
           "normalized": "a-\u003eDW_VIS",
@@ -10144,6 +11046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for 64-bit DWARF encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "dwarf64",
           "package": "dwarf",
@@ -10154,6 +11057,7 @@
         "index": {
           "description": "True for bit DWARF encoding",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "dwarf64",
           "package": "dwarf",
@@ -10166,6 +11070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "fdeAddressRange",
           "package": "dwarf",
@@ -10175,6 +11080,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "fdeAddressRange",
           "package": "dwarf",
@@ -10188,6 +11094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "fdeCiePointer",
           "package": "dwarf",
@@ -10197,6 +11104,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "fdeCiePointer",
           "package": "dwarf",
@@ -10210,6 +11118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "fdeInitialLocation",
           "package": "dwarf",
@@ -10219,6 +11128,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "fdeInitialLocation",
           "package": "dwarf",
@@ -10232,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "fdeInstructions",
           "package": "dwarf",
@@ -10241,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "fdeInstructions",
           "normalized": "[DW_CFA]",
@@ -10257,6 +11169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction for reading a offset for the DWARF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "getDwarfOffset",
           "package": "dwarf",
@@ -10267,6 +11180,7 @@
         "index": {
           "description": "Action for reading offset for the DWARF file",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "getDwarfOffset",
           "package": "dwarf",
@@ -10281,6 +11195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction for reading a pointer for the target machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "getDwarfTargetAddress",
           "package": "dwarf",
@@ -10291,6 +11206,7 @@
         "index": {
           "description": "Action for reading pointer for the target machine",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "getDwarfTargetAddress",
           "package": "dwarf",
@@ -10305,6 +11221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction for reading a 16-bit word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "getWord16",
           "package": "dwarf",
@@ -10315,6 +11232,7 @@
         "index": {
           "description": "Action for reading bit word",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "getWord16",
           "package": "dwarf",
@@ -10329,6 +11247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction for reading a 32-bit word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "getWord32",
           "package": "dwarf",
@@ -10339,6 +11258,7 @@
         "index": {
           "description": "Action for reading bit word",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "getWord32",
           "package": "dwarf",
@@ -10353,6 +11273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAction for reading a 64-bit word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "getWord64",
           "package": "dwarf",
@@ -10363,6 +11284,7 @@
         "index": {
           "description": "Action for reading bit word",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "getWord64",
           "package": "dwarf",
@@ -10377,6 +11299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns compilation unit id given the header offset into .debug_info\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "infoCompileUnit",
           "package": "dwarf",
@@ -10386,6 +11309,7 @@
         "index": {
           "description": "Returns compilation unit id given the header offset into debug info",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "infoCompileUnit",
           "normalized": "ByteString-\u003eWord-\u003eWord",
@@ -10402,6 +11326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLargest permissible file offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "largestOffset",
           "package": "dwarf",
@@ -10412,6 +11337,7 @@
         "index": {
           "description": "Largest permissible file offset",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "largestOffset",
           "package": "dwarf",
@@ -10426,6 +11352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLargest permissible target address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "largestTargetAddress",
           "package": "dwarf",
@@ -10436,6 +11363,7 @@
         "index": {
           "description": "Largest permissible target address",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "largestTargetAddress",
           "package": "dwarf",
@@ -10450,6 +11378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for little endian encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "littleEndian",
           "package": "dwarf",
@@ -10460,6 +11389,7 @@
         "index": {
           "description": "True for little endian encoding",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "littleEndian",
           "package": "dwarf",
@@ -10473,6 +11403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmAddress",
           "package": "dwarf",
@@ -10482,6 +11413,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmAddress",
           "package": "dwarf",
@@ -10495,6 +11427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmBasicBlock",
           "package": "dwarf",
@@ -10504,6 +11437,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmBasicBlock",
           "package": "dwarf",
@@ -10517,6 +11451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmColumn",
           "package": "dwarf",
@@ -10526,6 +11461,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmColumn",
           "package": "dwarf",
@@ -10539,6 +11475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmEndSequence",
           "package": "dwarf",
@@ -10548,6 +11485,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmEndSequence",
           "package": "dwarf",
@@ -10561,6 +11499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmEpilogueBegin",
           "package": "dwarf",
@@ -10570,6 +11509,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmEpilogueBegin",
           "package": "dwarf",
@@ -10583,6 +11523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmFile",
           "package": "dwarf",
@@ -10592,6 +11533,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmFile",
           "package": "dwarf",
@@ -10605,6 +11547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmFiles",
           "package": "dwarf",
@@ -10614,6 +11557,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmFiles",
           "normalized": "[(String,Word,Word,Word)]",
@@ -10629,6 +11573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmISA",
           "package": "dwarf",
@@ -10638,6 +11583,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmISA",
           "package": "dwarf",
@@ -10651,6 +11597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmLine",
           "package": "dwarf",
@@ -10660,6 +11607,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmLine",
           "package": "dwarf",
@@ -10673,6 +11621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmPrologueEnd",
           "package": "dwarf",
@@ -10682,6 +11631,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmPrologueEnd",
           "package": "dwarf",
@@ -10695,6 +11645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "lnmStatement",
           "package": "dwarf",
@@ -10704,6 +11655,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "lnmStatement",
           "package": "dwarf",
@@ -10718,6 +11670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a ByteString into a DWARF opcode. This will be needed for further decoding of DIE attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDW_OP",
           "package": "dwarf",
@@ -10728,6 +11681,7 @@
         "index": {
           "description": "Parse ByteString into DWARF opcode This will be needed for further decoding of DIE attributes",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDW_OP",
           "normalized": "DwarfReader-\u003eByteString-\u003eDW_OP",
@@ -10744,6 +11698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses  the .debug_aranges section (as ByteString) into a map from an address range to a debug info id that indexes the DwarfInfo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfAranges",
           "package": "dwarf",
@@ -10754,6 +11709,7 @@
         "index": {
           "description": "Parses the debug aranges section as ByteString into map from an address range to debug info id that indexes the DwarfInfo",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfAranges",
           "normalized": "Bool-\u003eBool-\u003eByteString-\u003e[([(Word,Word)],Word)]",
@@ -10770,6 +11726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the .debug_frame section into a list of DW_CIEFDE records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfFrame",
           "package": "dwarf",
@@ -10779,6 +11736,7 @@
         "index": {
           "description": "Parse the debug frame section into list of DW CIEFDE records",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfFrame",
           "normalized": "Bool-\u003eBool-\u003eByteString-\u003e[DW_CIEFDE]",
@@ -10795,6 +11753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the .debug_info section (as ByteString) using the .debug_abbrev and .debug_str sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfInfo",
           "package": "dwarf",
@@ -10804,6 +11763,7 @@
         "index": {
           "description": "Parses the debug info section as ByteString using the debug abbrev and debug str sections",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfInfo",
           "normalized": "Bool-\u003eByteString-\u003eByteString-\u003eByteString-\u003eMap Word DIE",
@@ -10820,6 +11780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the line information for a DIE from a given substring of the .debug_line section. The offset\n into the .debug_line section is obtained from the DW_AT_stmt_list attribute of a DIE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfLine",
           "package": "dwarf",
@@ -10830,6 +11791,7 @@
         "index": {
           "description": "Retrieves the line information for DIE from given substring of the debug line section The offset into the debug line section is obtained from the DW AT stmt list attribute of DIE",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfLine",
           "normalized": "Bool-\u003eBool-\u003eByteString-\u003e([String],[DW_LNE])",
@@ -10846,6 +11808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the location list expressions from a given substring of the .debug_loc section. The offset\n into the .debug_loc section is obtained from an attribute of class loclistptr for a given DIE.\n Left results are base address entries. Right results are address ranges and a location expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfLoc",
           "package": "dwarf",
@@ -10856,6 +11819,7 @@
         "index": {
           "description": "Retrieves the location list expressions from given substring of the debug loc section The offset into the debug loc section is obtained from an attribute of class loclistptr for given DIE Left results are base address entries Right results are address ranges and location expression",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfLoc",
           "normalized": "DwarfReader-\u003eByteString-\u003e[Either Word(Word,Word,ByteString)]",
@@ -10872,6 +11836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the macro information for a compilation unit from a given substring of the .debug_macinfo section. The offset\n into the .debug_macinfo section is obtained from the DW_AT_macro_info attribute of a compilation unit DIE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfMacInfo",
           "package": "dwarf",
@@ -10882,6 +11847,7 @@
         "index": {
           "description": "Retrieves the macro information for compilation unit from given substring of the debug macinfo section The offset into the debug macinfo section is obtained from the DW AT macro info attribute of compilation unit DIE",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfMacInfo",
           "normalized": "ByteString-\u003e[DW_MACINFO]",
@@ -10898,6 +11864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the .debug_pubnames section (as ByteString) into a map from a value name to a debug info id in the DwarfInfo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfPubnames",
           "package": "dwarf",
@@ -10908,6 +11875,7 @@
         "index": {
           "description": "Parses the debug pubnames section as ByteString into map from value name to debug info id in the DwarfInfo",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfPubnames",
           "normalized": "Bool-\u003eBool-\u003eByteString-\u003eMap String[Word]",
@@ -10924,6 +11892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the .debug_pubtypes section (as ByteString) into a map from a type name to a debug info id in the DwarfInfo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfPubtypes",
           "package": "dwarf",
@@ -10934,6 +11903,7 @@
         "index": {
           "description": "Parses the debug pubtypes section as ByteString into map from type name to debug info id in the DwarfInfo",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfPubtypes",
           "normalized": "Bool-\u003eBool-\u003eByteString-\u003eMap String[Word]",
@@ -10950,6 +11920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the non-contiguous address ranges for a compilation unit from a given substring of the .debug_ranges section. The offset\n into the .debug_ranges section is obtained from the DW_AT_ranges attribute of a compilation unit DIE.\n Left results are base address entries. Right results are address ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "parseDwarfRanges",
           "package": "dwarf",
@@ -10960,6 +11931,7 @@
         "index": {
           "description": "Retrieves the non-contiguous address ranges for compilation unit from given substring of the debug ranges section The offset into the debug ranges section is obtained from the DW AT ranges attribute of compilation unit DIE Left results are base address entries Right results are address ranges",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "parseDwarfRanges",
           "normalized": "DwarfReader-\u003eByteString-\u003e[Either Word(Word,Word)]",
@@ -10976,6 +11948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue for 64-bit pointers on target machine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:42 UTC 2014",
           "module": "Data.Dwarf",
           "name": "target64",
           "package": "dwarf",
@@ -10986,6 +11959,7 @@
         "index": {
           "description": "True for bit pointers on target machine",
           "hierarchy": "Data Dwarf",
+          "indexed": "2014-03-11T17:59:42",
           "module": "Data.Dwarf",
           "name": "target64",
           "package": "dwarf",

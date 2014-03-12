@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stmcontrol"
+        "phrase": "stmcontrol",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "STMC",
           "package": "stmcontrol",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "STMC",
           "package": "stmcontrol",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "STMC",
           "package": "stmcontrol",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "STMC",
           "package": "stmcontrol",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "atomicallyC",
           "package": "stmcontrol",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "atomicallyC",
           "normalized": "STMC a b-\u003eIO b",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "newTVarC",
           "package": "stmcontrol",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "newTVarC",
           "normalized": "a-\u003eSTMC b(TVar a)",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "orElseC",
           "package": "stmcontrol",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "orElseC",
           "normalized": "STMC a b-\u003e(a-\u003eSTMC a b)-\u003eSTMC a b",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "readTVarC",
           "package": "stmcontrol",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "readTVarC",
           "normalized": "TVar a-\u003eSTMC b a",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "retryC",
           "package": "stmcontrol",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "retryC",
           "normalized": "a-\u003eSTMC a b",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:25 UTC 2014",
           "module": "STMControl.STMC",
           "name": "writeTVarC",
           "package": "stmcontrol",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "STMControl STMC",
+          "indexed": "2014-03-11T20:11:25",
           "module": "STMControl.STMC",
           "name": "writeTVarC",
           "normalized": "TVar a-\u003ea-\u003eSTMC b()",

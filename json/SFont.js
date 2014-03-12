@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SFont"
+        "phrase": "SFont",
+        "type": "phrase"
       },
       "type": "context"
     }

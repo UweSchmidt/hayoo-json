@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binembed-example"
+        "phrase": "binembed-example",
+        "type": "phrase"
       },
       "type": "context"
     }

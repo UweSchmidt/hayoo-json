@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MusicBrainz"
+        "phrase": "MusicBrainz",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "WebService",
           "package": "MusicBrainz",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz JSON WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "WebService",
           "package": "MusicBrainz",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "getRecordingById",
           "package": "MusicBrainz",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz JSON WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "getRecordingById",
           "normalized": "MBID-\u003ea(Either String Recording)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "getReleaseById",
           "package": "MusicBrainz",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz JSON WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "getReleaseById",
           "normalized": "MBID-\u003ea(Either String Release)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "searchReleasesByArtistAndRelease",
           "package": "MusicBrainz",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz JSON WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.JSON.WebService",
           "name": "searchReleasesByArtistAndRelease",
           "normalized": "Text-\u003eText-\u003eMaybe Int-\u003eMaybe Int-\u003ea(Either String[(Int,Release)])",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Types",
           "package": "MusicBrainz",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Types",
           "package": "MusicBrainz",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Area",
           "package": "MusicBrainz",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Area",
           "package": "MusicBrainz",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Artist",
           "package": "MusicBrainz",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Artist",
           "package": "MusicBrainz",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ArtistCredit",
           "package": "MusicBrainz",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ArtistCredit",
           "package": "MusicBrainz",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "CoverArtArchive",
           "package": "MusicBrainz",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "CoverArtArchive",
           "package": "MusicBrainz",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ISO3166Code",
           "package": "MusicBrainz",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ISO3166Code",
           "package": "MusicBrainz",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Label",
           "package": "MusicBrainz",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Label",
           "package": "MusicBrainz",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "LabelInfo",
           "package": "MusicBrainz",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "LabelInfo",
           "package": "MusicBrainz",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "MBID",
           "package": "MusicBrainz",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "MBID",
           "package": "MusicBrainz",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Medium",
           "package": "MusicBrainz",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Medium",
           "package": "MusicBrainz",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Recording",
           "package": "MusicBrainz",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Recording",
           "package": "MusicBrainz",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Release",
           "package": "MusicBrainz",
@@ -350,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Release",
           "package": "MusicBrainz",
@@ -363,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseEvent",
           "package": "MusicBrainz",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseEvent",
           "package": "MusicBrainz",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseGroup",
           "package": "MusicBrainz",
@@ -392,6 +427,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseGroup",
           "package": "MusicBrainz",
@@ -405,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "TextRepresentation",
           "package": "MusicBrainz",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "TextRepresentation",
           "package": "MusicBrainz",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Track",
           "package": "MusicBrainz",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Track",
           "package": "MusicBrainz",
@@ -447,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Area",
           "package": "MusicBrainz",
@@ -456,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Area",
           "package": "MusicBrainz",
@@ -469,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Artist",
           "package": "MusicBrainz",
@@ -478,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Artist",
           "package": "MusicBrainz",
@@ -491,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ArtistCredit",
           "package": "MusicBrainz",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ArtistCredit",
           "package": "MusicBrainz",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "CoverArtArchive",
           "package": "MusicBrainz",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "CoverArtArchive",
           "package": "MusicBrainz",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ISO3166Code",
           "package": "MusicBrainz",
@@ -544,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ISO3166Code",
           "package": "MusicBrainz",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Label",
           "package": "MusicBrainz",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Label",
           "package": "MusicBrainz",
@@ -579,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "LabelInfo",
           "package": "MusicBrainz",
@@ -588,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "LabelInfo",
           "package": "MusicBrainz",
@@ -601,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "MBID",
           "package": "MusicBrainz",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "MBID",
           "package": "MusicBrainz",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Medium",
           "package": "MusicBrainz",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Medium",
           "package": "MusicBrainz",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Recording",
           "package": "MusicBrainz",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Recording",
           "package": "MusicBrainz",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Release",
           "package": "MusicBrainz",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Release",
           "package": "MusicBrainz",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseEvent",
           "package": "MusicBrainz",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseEvent",
           "package": "MusicBrainz",
@@ -711,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseGroup",
           "package": "MusicBrainz",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "ReleaseGroup",
           "package": "MusicBrainz",
@@ -733,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "TextRepresentation",
           "package": "MusicBrainz",
@@ -742,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "TextRepresentation",
           "package": "MusicBrainz",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Track",
           "package": "MusicBrainz",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "Track",
           "package": "MusicBrainz",
@@ -777,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_1Codes",
           "package": "MusicBrainz",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_1Codes",
           "normalized": "[ISO Code]",
@@ -801,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_2Codes",
           "package": "MusicBrainz",
@@ -810,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_2Codes",
           "normalized": "[ISO Code]",
@@ -825,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_3Codes",
           "package": "MusicBrainz",
@@ -834,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaISO3166_3Codes",
           "normalized": "[ISO Code]",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaId",
           "package": "MusicBrainz",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaId",
           "package": "MusicBrainz",
@@ -871,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaName",
           "package": "MusicBrainz",
@@ -880,6 +959,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaName",
           "package": "MusicBrainz",
@@ -893,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaSortName",
           "package": "MusicBrainz",
@@ -902,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_areaSortName",
           "package": "MusicBrainz",
@@ -915,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditArtist",
           "package": "MusicBrainz",
@@ -924,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditArtist",
           "package": "MusicBrainz",
@@ -937,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditJoinPhrase",
           "package": "MusicBrainz",
@@ -946,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditJoinPhrase",
           "package": "MusicBrainz",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditName",
           "package": "MusicBrainz",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistCreditName",
           "package": "MusicBrainz",
@@ -981,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistDisambiguation",
           "package": "MusicBrainz",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistDisambiguation",
           "package": "MusicBrainz",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistId",
           "package": "MusicBrainz",
@@ -1012,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistId",
           "package": "MusicBrainz",
@@ -1025,6 +1117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistName",
           "package": "MusicBrainz",
@@ -1034,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistName",
           "package": "MusicBrainz",
@@ -1047,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistSortName",
           "package": "MusicBrainz",
@@ -1056,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_artistSortName",
           "package": "MusicBrainz",
@@ -1069,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveArtwork",
           "package": "MusicBrainz",
@@ -1078,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveArtwork",
           "package": "MusicBrainz",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveBack",
           "package": "MusicBrainz",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveBack",
           "package": "MusicBrainz",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveCount",
           "package": "MusicBrainz",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveCount",
           "package": "MusicBrainz",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveFront",
           "package": "MusicBrainz",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_coverArtArchiveFront",
           "package": "MusicBrainz",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelId",
           "package": "MusicBrainz",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelId",
           "package": "MusicBrainz",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelInfoCatalogNumber",
           "package": "MusicBrainz",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelInfoCatalogNumber",
           "package": "MusicBrainz",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelInfoLabel",
           "package": "MusicBrainz",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelInfoLabel",
           "package": "MusicBrainz",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelLabelCode",
           "package": "MusicBrainz",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelLabelCode",
           "package": "MusicBrainz",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelName",
           "package": "MusicBrainz",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelName",
           "package": "MusicBrainz",
@@ -1267,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelSortName",
           "package": "MusicBrainz",
@@ -1276,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_labelSortName",
           "package": "MusicBrainz",
@@ -1289,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumFormat",
           "package": "MusicBrainz",
@@ -1298,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumFormat",
           "package": "MusicBrainz",
@@ -1311,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumPosition",
           "package": "MusicBrainz",
@@ -1320,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumPosition",
           "package": "MusicBrainz",
@@ -1333,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTitle",
           "package": "MusicBrainz",
@@ -1342,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTitle",
           "package": "MusicBrainz",
@@ -1355,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackCount",
           "package": "MusicBrainz",
@@ -1364,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackCount",
           "package": "MusicBrainz",
@@ -1377,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackList",
           "package": "MusicBrainz",
@@ -1386,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackList",
           "normalized": "Maybe[Track]",
@@ -1401,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackOffset",
           "package": "MusicBrainz",
@@ -1410,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_mediumTrackOffset",
           "package": "MusicBrainz",
@@ -1423,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingArtistCredit",
           "package": "MusicBrainz",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingArtistCredit",
           "normalized": "[ArtistCredit]",
@@ -1447,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingId",
           "package": "MusicBrainz",
@@ -1456,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingId",
           "package": "MusicBrainz",
@@ -1469,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingLength",
           "package": "MusicBrainz",
@@ -1478,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingLength",
           "package": "MusicBrainz",
@@ -1491,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingTitle",
           "package": "MusicBrainz",
@@ -1500,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_recordingTitle",
           "package": "MusicBrainz",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseASIN",
           "package": "MusicBrainz",
@@ -1522,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseASIN",
           "package": "MusicBrainz",
@@ -1535,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseArtistCredit",
           "package": "MusicBrainz",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseArtistCredit",
           "normalized": "[ArtistCredit]",
@@ -1559,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseBarcode",
           "package": "MusicBrainz",
@@ -1568,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseBarcode",
           "package": "MusicBrainz",
@@ -1581,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseCountry",
           "package": "MusicBrainz",
@@ -1590,6 +1733,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseCountry",
           "package": "MusicBrainz",
@@ -1603,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseCoverArtArchive",
           "package": "MusicBrainz",
@@ -1612,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseCoverArtArchive",
           "package": "MusicBrainz",
@@ -1625,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseDate",
           "package": "MusicBrainz",
@@ -1634,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseDate",
           "package": "MusicBrainz",
@@ -1647,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEventArea",
           "package": "MusicBrainz",
@@ -1656,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEventArea",
           "package": "MusicBrainz",
@@ -1669,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEventDate",
           "package": "MusicBrainz",
@@ -1678,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEventDate",
           "package": "MusicBrainz",
@@ -1691,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEvents",
           "package": "MusicBrainz",
@@ -1700,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseEvents",
           "normalized": "[ReleaseEvent]",
@@ -1715,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupArtistCredit",
           "package": "MusicBrainz",
@@ -1724,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupArtistCredit",
           "normalized": "[ArtistCredit]",
@@ -1739,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupFirstReleaseDate",
           "package": "MusicBrainz",
@@ -1748,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupFirstReleaseDate",
           "package": "MusicBrainz",
@@ -1761,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupId",
           "package": "MusicBrainz",
@@ -1770,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupId",
           "package": "MusicBrainz",
@@ -1783,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupPrimaryType",
           "package": "MusicBrainz",
@@ -1792,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupPrimaryType",
           "package": "MusicBrainz",
@@ -1805,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupTitle",
           "package": "MusicBrainz",
@@ -1814,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupTitle",
           "package": "MusicBrainz",
@@ -1827,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupType",
           "package": "MusicBrainz",
@@ -1836,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseGroupType",
           "package": "MusicBrainz",
@@ -1849,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseId",
           "package": "MusicBrainz",
@@ -1858,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseId",
           "package": "MusicBrainz",
@@ -1871,6 +2039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseMedia",
           "package": "MusicBrainz",
@@ -1880,6 +2049,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseMedia",
           "package": "MusicBrainz",
@@ -1893,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releasePackaging",
           "package": "MusicBrainz",
@@ -1902,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releasePackaging",
           "package": "MusicBrainz",
@@ -1915,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseQuality",
           "package": "MusicBrainz",
@@ -1924,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseQuality",
           "package": "MusicBrainz",
@@ -1937,6 +2111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseStatus",
           "package": "MusicBrainz",
@@ -1946,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseStatus",
           "package": "MusicBrainz",
@@ -1959,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseTextRepresentation",
           "package": "MusicBrainz",
@@ -1968,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseTextRepresentation",
           "package": "MusicBrainz",
@@ -1981,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseTitle",
           "package": "MusicBrainz",
@@ -1990,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_releaseTitle",
           "package": "MusicBrainz",
@@ -2003,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_textRepLanguage",
           "package": "MusicBrainz",
@@ -2012,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_textRepLanguage",
           "package": "MusicBrainz",
@@ -2025,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_textRepScript",
           "package": "MusicBrainz",
@@ -2034,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_textRepScript",
           "package": "MusicBrainz",
@@ -2047,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackArtistCredit",
           "package": "MusicBrainz",
@@ -2056,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackArtistCredit",
           "normalized": "[ArtistCredit]",
@@ -2071,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackId",
           "package": "MusicBrainz",
@@ -2080,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackId",
           "package": "MusicBrainz",
@@ -2093,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackLength",
           "package": "MusicBrainz",
@@ -2102,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackLength",
           "package": "MusicBrainz",
@@ -2115,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackNumber",
           "package": "MusicBrainz",
@@ -2124,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackNumber",
           "package": "MusicBrainz",
@@ -2137,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackPosition",
           "package": "MusicBrainz",
@@ -2146,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackPosition",
           "package": "MusicBrainz",
@@ -2159,6 +2353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackRecording",
           "package": "MusicBrainz",
@@ -2168,6 +2363,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "_trackRecording",
           "package": "MusicBrainz",
@@ -2181,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "unISO3166Code",
           "package": "MusicBrainz",
@@ -2190,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "unISO3166Code",
           "package": "MusicBrainz",
@@ -2203,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "unMBID",
           "package": "MusicBrainz",
@@ -2212,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Types",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Types",
           "name": "unMBID",
           "package": "MusicBrainz",
@@ -2225,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "Utils",
           "package": "MusicBrainz",
@@ -2233,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Utils",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "Utils",
           "package": "MusicBrainz",
@@ -2246,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "nameCreditsToArtistName",
           "package": "MusicBrainz",
@@ -2255,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Utils",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "nameCreditsToArtistName",
           "normalized": "[ArtistCredit]-\u003eText",
@@ -2270,6 +2474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "nameCreditsToArtistSortName",
           "package": "MusicBrainz",
@@ -2279,6 +2484,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz Utils",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.Utils",
           "name": "nameCreditsToArtistSortName",
           "normalized": "[ArtistCredit]-\u003eText",
@@ -2294,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "WebService",
           "package": "MusicBrainz",
@@ -2302,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz XML2 WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "WebService",
           "package": "MusicBrainz",
@@ -2315,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "getRecordingById",
           "package": "MusicBrainz",
@@ -2324,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz XML2 WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "getRecordingById",
           "normalized": "MBID-\u003ea Recording",
@@ -2339,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "getReleaseById",
           "package": "MusicBrainz",
@@ -2348,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz XML2 WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "getReleaseById",
           "normalized": "MBID-\u003ea Release",
@@ -2363,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:42 UTC 2014",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "searchReleasesByArtistAndRelease",
           "package": "MusicBrainz",
@@ -2372,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol MusicBrainz XML2 WebService",
+          "indexed": "2014-03-11T16:53:42",
           "module": "Network.Protocol.MusicBrainz.XML2.WebService",
           "name": "searchReleasesByArtistAndRelease",
           "normalized": "Text-\u003eText-\u003eMaybe Int-\u003eMaybe Int-\u003ea[(Int,Release)]",

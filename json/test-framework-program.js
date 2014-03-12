@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "test-framework-program"
+        "phrase": "test-framework-program",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:19:13 UTC 2014",
           "module": "Test.Framework.Providers.Program",
           "name": "Program",
           "package": "test-framework-program",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers Program",
+          "indexed": "2014-03-11T20:19:13",
           "module": "Test.Framework.Providers.Program",
           "name": "Program",
           "package": "test-framework-program",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA shorthand for a possible function checking an output stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:13 UTC 2014",
           "module": "Test.Framework.Providers.Program",
           "name": "Checker",
           "package": "test-framework-program",
@@ -49,6 +52,7 @@
         "index": {
           "description": "shorthand for possible function checking an output stream",
           "hierarchy": "Test Framework Providers Program",
+          "indexed": "2014-03-11T20:19:13",
           "module": "Test.Framework.Providers.Program",
           "name": "Checker",
           "package": "test-framework-program",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that a given program runs correctly (exits successfully), and that\n its stdout / stderr are acceptable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:13 UTC 2014",
           "module": "Test.Framework.Providers.Program",
           "name": "testProgramOutput",
           "package": "test-framework-program",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Test that given program runs correctly exits successfully and that its stdout stderr are acceptable",
           "hierarchy": "Test Framework Providers Program",
+          "indexed": "2014-03-11T20:19:13",
           "module": "Test.Framework.Providers.Program",
           "name": "testProgramOutput",
           "normalized": "String-\u003eFilePath-\u003e[String]-\u003eChecker-\u003eChecker-\u003eTest",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest that a given program runs correctly with the given arguments. 'Runs\n correctly' is defined as running and exiting with a successful (0) error\n code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:19:13 UTC 2014",
           "module": "Test.Framework.Providers.Program",
           "name": "testProgramRuns",
           "package": "test-framework-program",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Test that given program runs correctly with the given arguments Runs correctly is defined as running and exiting with successful error code",
           "hierarchy": "Test Framework Providers Program",
+          "indexed": "2014-03-11T20:19:13",
           "module": "Test.Framework.Providers.Program",
           "name": "testProgramRuns",
           "normalized": "String-\u003eFilePath-\u003e[String]-\u003eTest",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "relacion"
+        "phrase": "relacion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEl contenedor Relacin modela asociaciones dos elementos.\n    Ofrece bsqueda eficiente por cualquiera de los dos elementos. \n\u003c/p\u003e\u003cp\u003eEs similar a Data.Map en que asocia llaves (k) con valores (v).\n\u003c/p\u003e\u003cp\u003eA diferencia del contenedor Data.Map, un elemento \n    puede estar asociado ms de una vez.   \n\u003c/p\u003e\u003cp\u003eLos dos propsito fundamentales de esta estructura son\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Asociar elementos.\n    2. Ofrecer eficiencia en bsquedas por cualquiera de los \n       dos elementos.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eComo no estn implementados ni map ni fold, debe convertir\n    la estructura en una lista para procesarla secuencialmente.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "Relacion",
           "package": "relacion",
@@ -28,6 +29,7 @@
         "index": {
           "description": "El contenedor Relacin modela asociaciones dos elementos Ofrece bsqueda eficiente por cualquiera de los dos elementos Es similar Data.Map en que asocia llaves con valores diferencia del contenedor Data.Map un elemento puede estar asociado ms de una vez Los dos propsito fundamentales de esta estructura son Asociar elementos Ofrecer eficiencia en bsquedas por cualquiera de los dos elementos Como no estn implementados ni map ni fold debe convertir la estructura en una lista para procesarla secuencialmente",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "Relacion",
           "package": "relacion",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "Relación",
           "package": "relacion",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "Relación",
           "package": "relacion",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "(|$\u003e)",
           "package": "relacion",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "(|$\u003e) |$\u003e",
           "normalized": "Set a-\u003eSet b-\u003eRelación a b-\u003eSet b",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestriccin de rango para una relacin. Modelado como en z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "(|\u003e)",
           "package": "relacion",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Restriccin de rango para una relacin Modelado como en",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "(|\u003e) |\u003e",
           "normalized": "Relación a b-\u003eSet b-\u003eRelación a b",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestriccin de dominio para una relacin. Modelado como en z.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "(\u003c|)",
           "package": "relacion",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Restriccin de dominio para una relacin Modelado como en",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "(\u003c|) \u003c|",
           "normalized": "Set a-\u003eRelación a b-\u003eRelación a b",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplementacin primitiva para el operador de \n     seleccin a la izquierda o a la derecha. \n\u003c/p\u003e\u003cp\u003ePICA provee dos operadores |\u003e y \u003c|,\n     respectivamente |$\u003e y \u003c$| en esta biblioteca, que trabajan\n     sobre una Relacin y OIS's. PICA expone los operadores\n     definidos ac, para no romper con la abstraccin del\n     tipo de datos Relacin y porque teniendo acceso a los\n     componentes escondidos de Relacin, es ms eficiente\n     la implementacin de la operacin de restriccin.\n\u003c/p\u003e\u003cp\u003e(a \u003c$| b) r \n\u003c/p\u003e\u003cp\u003ese lee: por cada elemento \u003ccode\u003eb\u003c/code\u003e del conjunto \u003ccode\u003eB\u003c/code\u003e,\n              seleccione un elemento \u003ccode\u003ea\u003c/code\u003e del conjunto \u003ccode\u003eA\u003c/code\u003e\n              si \u003ccode\u003ea\u003c/code\u003e est relacionado con \u003ccode\u003eb\u003c/code\u003e en la relacin \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e(a |$\u003e b) r\n\u003c/p\u003e\u003cp\u003ese lee: por cada elemento \u003ccode\u003ea\u003c/code\u003e del conjunto \u003ccode\u003eA\u003c/code\u003e, \n              seleccione un elemento \u003ccode\u003eb\u003c/code\u003e del conjunto \u003ccode\u003eB\u003c/code\u003e\n              si \u003ccode\u003ea\u003c/code\u003e est relacionado con \u003ccode\u003eb\u003c/code\u003e en la relacin \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCon respecto a los operadores de restriccin de dominio\n    y restriccin de rango del lenguaje Z que devuelven una relacin,\n    los descritos son diferentes y devuelven el dominio o el rango.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "(\u003c$|)",
           "package": "relacion",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Implementacin primitiva para el operador de seleccin la izquierda la derecha PICA provee dos operadores respectivamente en esta biblioteca que trabajan sobre una Relacin OIS PICA expone los operadores definidos ac para no romper con la abstraccin del tipo de datos Relacin porque teniendo acceso los componentes escondidos de Relacin es ms eficiente la implementacin de la operacin de restriccin se lee por cada elemento del conjunto seleccione un elemento del conjunto si est relacionado con en la relacin se lee por cada elemento del conjunto seleccione un elemento del conjunto si est relacionado con en la relacin Con respecto los operadores de restriccin de dominio restriccin de rango del lenguaje que devuelven una relacin los descritos son diferentes devuelven el dominio el rango",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "(\u003c$|) \u003c$|",
           "normalized": "Set a-\u003eSet b-\u003eRelación a b-\u003eSet a",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompacta un conjunto de conjuntos cuyos valores que pueden ser \n    \u003ccode\u003eJust (Set x)\u003c/code\u003e o \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eLos casos \u003ccode\u003eNothing\u003c/code\u003e son purgados.\n\u003c/p\u003e\u003cp\u003eEs similar a \u003ccode\u003econcat\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "compactarSet",
           "package": "relacion",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Compacta un conjunto de conjuntos cuyos valores que pueden ser Just Set Nothing Los casos Nothing son purgados Es similar concat",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "compactarSet",
           "normalized": "Set(Maybe(Set a))-\u003eSet a",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemueve una asociacin de la relacin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "delete",
           "package": "relacion",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Remueve una asociacin de la relacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "delete",
           "normalized": "a-\u003eb-\u003eRelación a b-\u003eRelación a b",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevuelve el dominio de la relacin como un conjunto.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "dom",
           "package": "relacion",
@@ -222,6 +239,7 @@
         "index": {
           "description": "Devuelve el dominio de la relacin como un conjunto",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "dom",
           "normalized": "Relación a b-\u003eSet a",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruye una relacin sin elementos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "empty",
           "package": "relacion",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Construye una relacin sin elementos",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "empty",
           "package": "relacion",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLa lista debe tener formato [(k1, v1), (k2, v2),..,(kn, vn)].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "fromList",
           "package": "relacion",
@@ -270,6 +291,7 @@
         "index": {
           "description": "La lista debe tener formato k1 v1 k2 v2 kn vn",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eRelación a b",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInserta la asociacin entre \u003ccode\u003e x \u003c/code\u003e y \u003ccode\u003e y \u003c/code\u003e en la relacin \u003ccode\u003e r \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "insert",
           "package": "relacion",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Inserta la asociacin entre en la relacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eRelación a b-\u003eRelación a b",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEl conjunto de valores asociados a un valor del dominio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "lookupDom",
           "package": "relacion",
@@ -321,6 +346,7 @@
         "index": {
           "description": "El conjunto de valores asociados un valor del dominio",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "lookupDom",
           "normalized": "a-\u003eRelación a b-\u003eMaybe(Set b)",
@@ -337,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEl conjunto de valores asociados a un valor del rango.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "lookupRan",
           "package": "relacion",
@@ -347,6 +374,7 @@
         "index": {
           "description": "El conjunto de valores asociados un valor del rango",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "lookupRan",
           "normalized": "a-\u003eRelación b a-\u003eMaybe(Set b)",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue si la relacin contiene la asociacin \u003ccode\u003ex\u003c/code\u003e y \u003ccode\u003ey\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "member",
           "package": "relacion",
@@ -373,6 +402,7 @@
         "index": {
           "description": "True si la relacin contiene la asociacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "member",
           "normalized": "a-\u003eb-\u003eRelación a b-\u003eBool",
@@ -388,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue si el elemento \u003ccode\u003e x \u003c/code\u003e pertenece al dominio de \u003ccode\u003e r \u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "memberDom",
           "package": "relacion",
@@ -398,6 +429,7 @@
         "index": {
           "description": "True si el elemento pertenece al dominio de",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "memberDom",
           "normalized": "a-\u003eRelación a b-\u003eBool",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue si el elemento pertenece al rango.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "memberRan",
           "package": "relacion",
@@ -424,6 +457,7 @@
         "index": {
           "description": "True si el elemento pertenece al rango",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "memberRan",
           "normalized": "a-\u003eRelación b a-\u003eBool",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue si un par no pertenece a la relacin\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "notMember",
           "package": "relacion",
@@ -450,6 +485,7 @@
         "index": {
           "description": "True si un par no pertenece la relacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "notMember",
           "normalized": "a-\u003eb-\u003eRelación a b-\u003eBool",
@@ -466,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue si la relacin est vaca.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "null",
           "package": "relacion",
@@ -476,6 +513,7 @@
         "index": {
           "description": "True si la relacin est vaca",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "null",
           "normalized": "Relación a b-\u003eBool",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevuelve el rango de la relacin como un conjunto.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "ran",
           "package": "relacion",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Devuelve el rango de la relacin como un conjunto",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "ran",
           "normalized": "Relación a b-\u003eSet b",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruye una relacin compuesta por la asociacin de \u003ccode\u003ex\u003c/code\u003e y \u003ccode\u003ey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "singleton",
           "package": "relacion",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Construye una relacin compuesta por la asociacin de",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eRelación a b",
@@ -541,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003esize r\u003c/code\u003e devuelve la cantidad de tuplas en la relacin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "size",
           "package": "relacion",
@@ -551,6 +594,7 @@
         "index": {
           "description": "size devuelve la cantidad de tuplas en la relacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "size",
           "normalized": "Relación a b-\u003eInt",
@@ -565,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "toList",
           "package": "relacion",
@@ -574,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "toList",
           "normalized": "Relación a b-\u003e[(a,b)]",
@@ -590,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLa relacin que resulta de unir dos relaciones \u003ccode\u003er\u003c/code\u003e y \u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "union",
           "package": "relacion",
@@ -600,6 +647,7 @@
         "index": {
           "description": "La relacin que resulta de unir dos relaciones",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "union",
           "normalized": "Relación a b-\u003eRelación a b-\u003eRelación a b",
@@ -615,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatena una lista de relaciones en una sola relacin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:52:30 UTC 2014",
           "module": "Data.Relacion",
           "name": "unions",
           "package": "relacion",
@@ -625,6 +674,7 @@
         "index": {
           "description": "Concatena una lista de relaciones en una sola relacin",
           "hierarchy": "Data Relacion",
+          "indexed": "2014-03-11T19:52:30",
           "module": "Data.Relacion",
           "name": "unions",
           "normalized": "[Relación a b]-\u003eRelación a b",

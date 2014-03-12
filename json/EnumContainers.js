@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "EnumContainers"
+        "phrase": "EnumContainers",
+        "type": "phrase"
       },
       "type": "context"
     }

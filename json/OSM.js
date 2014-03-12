@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OSM"
+        "phrase": "OSM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eapi\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Api",
           "name": "Api",
           "package": "OSM",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The api element of OSM file",
           "hierarchy": "Data Geo OSM Api",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Api",
           "name": "Api",
           "package": "OSM",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eapi\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Api",
           "name": "Api",
           "package": "OSM",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The api element of OSM file",
           "hierarchy": "Data Geo OSM Api",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Api",
           "name": "Api",
           "package": "OSM",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003eapi\u003c/code\u003e with version, area, tracepoints and waynodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Api",
           "name": "api",
           "package": "OSM",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Constructs api with version area tracepoints and waynodes",
           "hierarchy": "Data Geo OSM Api",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Api",
           "name": "api",
           "normalized": "Version-\u003eArea-\u003eTracepoints-\u003eWaynodes-\u003eApi",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003earea\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Area",
           "name": "Area",
           "package": "OSM",
@@ -98,6 +105,7 @@
         "index": {
           "description": "The area element of OSM file",
           "hierarchy": "Data Geo OSM Area",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Area",
           "name": "Area",
           "package": "OSM",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003earea\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Area",
           "name": "Area",
           "package": "OSM",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The area element of OSM file",
           "hierarchy": "Data Geo OSM Area",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Area",
           "name": "Area",
           "package": "OSM",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003earea\u003c/code\u003e with maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Area",
           "name": "area",
           "package": "OSM",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Constructs area with maximum",
           "hierarchy": "Data Geo OSM Area",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Area",
           "name": "area",
           "normalized": "String-\u003eArea",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003ebound\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bound",
           "name": "Bound",
           "package": "OSM",
@@ -168,6 +181,7 @@
         "index": {
           "description": "The bound element of OSM file",
           "hierarchy": "Data Geo OSM Bound",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bound",
           "name": "Bound",
           "package": "OSM",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ebound\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bound",
           "name": "Bound",
           "package": "OSM",
@@ -191,6 +206,7 @@
         "index": {
           "description": "The bound element of OSM file",
           "hierarchy": "Data Geo OSM Bound",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bound",
           "name": "Bound",
           "package": "OSM",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a bound with a box and origin attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bound",
           "name": "bound",
           "package": "OSM",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Constructs bound with box and origin attributes",
           "hierarchy": "Data Geo OSM Bound",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bound",
           "name": "bound",
           "normalized": "String-\u003eMaybe String-\u003eBound",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bound-option is either a \u003ccode\u003eBound\u003c/code\u003e, \u003ccode\u003eBounds\u003c/code\u003e or empty.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "BoundOption",
           "package": "OSM",
@@ -238,6 +257,7 @@
         "index": {
           "description": "bound-option is either Bound Bounds or empty",
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "BoundOption",
           "package": "OSM",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "BoundOption",
           "package": "OSM",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "BoundOption",
           "package": "OSM",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "foldBoundOption",
           "package": "OSM",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "foldBoundOption",
           "normalized": "(Bound-\u003ea)-\u003e(Bounds-\u003ea)-\u003ea-\u003eBoundOption-\u003ea",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionBound",
           "package": "OSM",
@@ -305,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionBound",
           "normalized": "Bound-\u003eBoundOption",
@@ -320,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionBounds",
           "package": "OSM",
@@ -329,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionBounds",
           "normalized": "Bounds-\u003eBoundOption",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionEmptyBound",
           "package": "OSM",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM BoundOption",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.BoundOption",
           "name": "optionEmptyBound",
           "package": "OSM",
@@ -367,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003ebounds\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bounds",
           "name": "Bounds",
           "package": "OSM",
@@ -376,6 +407,7 @@
         "index": {
           "description": "The bounds element of OSM file",
           "hierarchy": "Data Geo OSM Bounds",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bounds",
           "name": "Bounds",
           "package": "OSM",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ebounds\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bounds",
           "name": "Bounds",
           "package": "OSM",
@@ -399,6 +432,7 @@
         "index": {
           "description": "The bounds element of OSM file",
           "hierarchy": "Data Geo OSM Bounds",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bounds",
           "name": "Bounds",
           "package": "OSM",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a bounds with a minlat, minlon, maxlat, maxlon and origin attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Bounds",
           "name": "bounds",
           "package": "OSM",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Constructs bounds with minlat minlon maxlat maxlon and origin attributes",
           "hierarchy": "Data Geo OSM Bounds",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Bounds",
           "name": "bounds",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eMaybe String-\u003eBounds",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003echangeset\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Changeset",
           "name": "Changeset",
           "package": "OSM",
@@ -446,6 +483,7 @@
         "index": {
           "description": "The changeset element of OSM file",
           "hierarchy": "Data Geo OSM Changeset",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Changeset",
           "name": "Changeset",
           "package": "OSM",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003echangeset\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Changeset",
           "name": "Changeset",
           "package": "OSM",
@@ -469,6 +508,7 @@
         "index": {
           "description": "The changeset element of OSM file",
           "hierarchy": "Data Geo OSM Changeset",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Changeset",
           "name": "Changeset",
           "package": "OSM",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003echangeset\u003c/code\u003e with tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Changeset",
           "name": "changeset",
           "package": "OSM",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Constructs changeset with tags",
           "hierarchy": "Data Geo OSM Changeset",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Changeset",
           "name": "changeset",
           "normalized": "[Tag]-\u003eChangeset",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe children elements of the \u003ccode\u003eosm\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "Children",
           "package": "OSM",
@@ -516,6 +559,7 @@
         "index": {
           "description": "The children elements of the osm element of OSM file",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "Children",
           "package": "OSM",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe children elements of the \u003ccode\u003eosm\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "Children",
           "package": "OSM",
@@ -539,6 +584,7 @@
         "index": {
           "description": "The children elements of the osm element of OSM file",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "Children",
           "package": "OSM",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolds OSM child elements (catamorphism).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "foldChildren",
           "package": "OSM",
@@ -562,6 +609,7 @@
         "index": {
           "description": "Folds OSM child elements catamorphism",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "foldChildren",
           "normalized": "(User-\u003ea)-\u003e(Preferences-\u003ea)-\u003e(GpxFile-\u003ea)-\u003e(Api-\u003ea)-\u003e(Changeset-\u003ea)-\u003e([NodeWayRelation]-\u003ea)-\u003eChildren-\u003ea",
@@ -578,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eapi\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "osmApi",
           "package": "OSM",
@@ -588,6 +637,7 @@
         "index": {
           "description": "api element",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "osmApi",
           "normalized": "Api-\u003eChildren",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003echangeset\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "osmChangeset",
           "package": "OSM",
@@ -614,6 +665,7 @@
         "index": {
           "description": "changeset element",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "osmChangeset",
           "normalized": "Changeset-\u003eChildren",
@@ -630,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003egpx_file\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "osmGpxFile",
           "package": "OSM",
@@ -640,6 +693,7 @@
         "index": {
           "description": "gpx file element",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "osmGpxFile",
           "normalized": "GpxFile-\u003eChildren",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e or \u003ccode\u003erelation\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "osmNodeWayRelation",
           "package": "OSM",
@@ -666,6 +721,7 @@
         "index": {
           "description": "list of node way or relation elements",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "osmNodeWayRelation",
           "normalized": "[NodeWayRelation]-\u003eChildren",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003euser\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Children",
           "name": "osmUser",
           "package": "OSM",
@@ -692,6 +749,7 @@
         "index": {
           "description": "user element",
           "hierarchy": "Data Geo OSM Children",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Children",
           "name": "osmUser",
           "normalized": "User-\u003eChildren",
@@ -708,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003egpx_file\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "GpxFile",
           "package": "OSM",
@@ -717,6 +776,7 @@
         "index": {
           "description": "The gpx file element of OSM file",
           "hierarchy": "Data Geo OSM GpxFile",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "GpxFile",
           "package": "OSM",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003egpx_file\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "GpxFile",
           "package": "OSM",
@@ -740,6 +801,7 @@
         "index": {
           "description": "The gpx file element of OSM file",
           "hierarchy": "Data Geo OSM GpxFile",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "GpxFile",
           "package": "OSM",
@@ -754,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003egpx_file\u003c/code\u003e with an id, name, lat, lon, user, public, pending and timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "gpxFile",
           "package": "OSM",
@@ -763,6 +826,7 @@
         "index": {
           "description": "Constructs gpx file with an id name lat lon user public pending and timestamp",
           "hierarchy": "Data Geo OSM GpxFile",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.GpxFile",
           "name": "gpxFile",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eString-\u003eBool-\u003eBool-\u003eString-\u003eGpxFile",
@@ -779,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003ehome\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Home",
           "name": "Home",
           "package": "OSM",
@@ -788,6 +853,7 @@
         "index": {
           "description": "The home element of OSM file",
           "hierarchy": "Data Geo OSM Home",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Home",
           "name": "Home",
           "package": "OSM",
@@ -802,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ehome\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Home",
           "name": "Home",
           "package": "OSM",
@@ -811,6 +878,7 @@
         "index": {
           "description": "The home element of OSM file",
           "hierarchy": "Data Geo OSM Home",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Home",
           "name": "Home",
           "package": "OSM",
@@ -825,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003ehome\u003c/code\u003e with lat, lon and zoom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Home",
           "name": "home",
           "package": "OSM",
@@ -834,6 +903,7 @@
         "index": {
           "description": "Constructs home with lat lon and zoom",
           "hierarchy": "Data Geo OSM Home",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Home",
           "name": "home",
           "normalized": "String-\u003eString-\u003eString-\u003eHome",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eaccount_created\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "AccountCreatedL",
           "package": "OSM",
@@ -858,6 +929,7 @@
         "index": {
           "description": "Values with account created string accessor",
           "hierarchy": "Data Geo OSM Lens AccountCreatedL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "AccountCreatedL",
           "package": "OSM",
@@ -871,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "AccountCreatedL",
           "package": "OSM",
@@ -879,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens AccountCreatedL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "AccountCreatedL",
           "package": "OSM",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "accountCreatedL",
           "package": "OSM",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens AccountCreatedL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AccountCreatedL",
           "name": "accountCreatedL",
           "package": "OSM",
@@ -915,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003earea\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "AreaL",
           "package": "OSM",
@@ -924,6 +1001,7 @@
         "index": {
           "description": "Values with area string accessor",
           "hierarchy": "Data Geo OSM Lens AreaL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "AreaL",
           "package": "OSM",
@@ -937,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "AreaL",
           "package": "OSM",
@@ -945,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens AreaL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "AreaL",
           "package": "OSM",
@@ -958,6 +1038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "areaL",
           "package": "OSM",
@@ -967,6 +1048,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens AreaL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.AreaL",
           "name": "areaL",
           "package": "OSM",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ebounds\u003c/code\u003e accessor which is either empty, a \u003ccode\u003eBound\u003c/code\u003e or a \u003ccode\u003eBounds\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "BoundsL",
           "package": "OSM",
@@ -989,6 +1072,7 @@
         "index": {
           "description": "Values with bounds accessor which is either empty Bound or Bounds",
           "hierarchy": "Data Geo OSM Lens BoundsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "BoundsL",
           "package": "OSM",
@@ -1002,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "BoundsL",
           "package": "OSM",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens BoundsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "BoundsL",
           "package": "OSM",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "boundsL",
           "package": "OSM",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens BoundsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoundsL",
           "name": "boundsL",
           "package": "OSM",
@@ -1045,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ebox\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "BoxL",
           "package": "OSM",
@@ -1054,6 +1143,7 @@
         "index": {
           "description": "Values with box string accessor",
           "hierarchy": "Data Geo OSM Lens BoxL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "BoxL",
           "package": "OSM",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "BoxL",
           "package": "OSM",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens BoxL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "BoxL",
           "package": "OSM",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "boxL",
           "package": "OSM",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens BoxL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.BoxL",
           "name": "boxL",
           "package": "OSM",
@@ -1110,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003echangeset\u003c/code\u003e optional string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "ChangesetL",
           "package": "OSM",
@@ -1119,6 +1214,7 @@
         "index": {
           "description": "Values with changeset optional string accessor",
           "hierarchy": "Data Geo OSM Lens ChangesetL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "ChangesetL",
           "package": "OSM",
@@ -1132,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "ChangesetL",
           "package": "OSM",
@@ -1140,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ChangesetL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "ChangesetL",
           "package": "OSM",
@@ -1153,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "changesetL",
           "package": "OSM",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ChangesetL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChangesetL",
           "name": "changesetL",
           "package": "OSM",
@@ -1175,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with node, way or relation children accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "ChildrenL",
           "package": "OSM",
@@ -1184,6 +1285,7 @@
         "index": {
           "description": "Values with node way or relation children accessor",
           "hierarchy": "Data Geo OSM Lens ChildrenL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "ChildrenL",
           "package": "OSM",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "ChildrenL",
           "package": "OSM",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ChildrenL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "ChildrenL",
           "package": "OSM",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "childrenL",
           "package": "OSM",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ChildrenL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ChildrenL",
           "name": "childrenL",
           "package": "OSM",
@@ -1240,6 +1346,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003edisplay_name\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "DisplayNameL",
           "package": "OSM",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "Values with display name string accessor",
           "hierarchy": "Data Geo OSM Lens DisplayNameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "DisplayNameL",
           "package": "OSM",
@@ -1262,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "DisplayNameL",
           "package": "OSM",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens DisplayNameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "DisplayNameL",
           "package": "OSM",
@@ -1283,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "displayNameL",
           "package": "OSM",
@@ -1292,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens DisplayNameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.DisplayNameL",
           "name": "displayNameL",
           "package": "OSM",
@@ -1306,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003egenerator\u003c/code\u003e optional string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "GeneratorL",
           "package": "OSM",
@@ -1315,6 +1428,7 @@
         "index": {
           "description": "Values with generator optional string accessor",
           "hierarchy": "Data Geo OSM Lens GeneratorL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "GeneratorL",
           "package": "OSM",
@@ -1328,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "GeneratorL",
           "package": "OSM",
@@ -1336,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens GeneratorL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "GeneratorL",
           "package": "OSM",
@@ -1349,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "generatorL",
           "package": "OSM",
@@ -1358,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens GeneratorL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.GeneratorL",
           "name": "generatorL",
           "package": "OSM",
@@ -1371,6 +1489,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ehome\u003c/code\u003e optional string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "HomeL",
           "package": "OSM",
@@ -1380,6 +1499,7 @@
         "index": {
           "description": "Values with home optional string accessor",
           "hierarchy": "Data Geo OSM Lens HomeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "HomeL",
           "package": "OSM",
@@ -1393,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "HomeL",
           "package": "OSM",
@@ -1401,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens HomeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "HomeL",
           "package": "OSM",
@@ -1414,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "homeL",
           "package": "OSM",
@@ -1423,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens HomeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.HomeL",
           "name": "homeL",
           "package": "OSM",
@@ -1436,6 +1560,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eid\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "IdL",
           "package": "OSM",
@@ -1445,6 +1570,7 @@
         "index": {
           "description": "Values with id string accessor",
           "hierarchy": "Data Geo OSM Lens IdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "IdL",
           "package": "OSM",
@@ -1458,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "IdL",
           "package": "OSM",
@@ -1466,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens IdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "IdL",
           "package": "OSM",
@@ -1479,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "idL",
           "package": "OSM",
@@ -1488,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens IdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.IdL",
           "name": "idL",
           "package": "OSM",
@@ -1501,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ek\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "KL",
           "package": "OSM",
@@ -1510,6 +1641,7 @@
         "index": {
           "description": "Values with string accessor",
           "hierarchy": "Data Geo OSM Lens KL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "KL",
           "package": "OSM",
@@ -1523,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "KL",
           "package": "OSM",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens KL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "KL",
           "package": "OSM",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "kL",
           "package": "OSM",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens KL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.KL",
           "name": "kL",
           "package": "OSM",
@@ -1566,6 +1702,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003elat\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "LatL",
           "package": "OSM",
@@ -1575,6 +1712,7 @@
         "index": {
           "description": "Values with lat string accessor",
           "hierarchy": "Data Geo OSM Lens LatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "LatL",
           "package": "OSM",
@@ -1588,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "LatL",
           "package": "OSM",
@@ -1596,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens LatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "LatL",
           "package": "OSM",
@@ -1609,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "latL",
           "package": "OSM",
@@ -1618,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens LatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LatL",
           "name": "latL",
           "package": "OSM",
@@ -1631,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003elon\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "LonL",
           "package": "OSM",
@@ -1640,6 +1783,7 @@
         "index": {
           "description": "Values with lon string accessor",
           "hierarchy": "Data Geo OSM Lens LonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "LonL",
           "package": "OSM",
@@ -1653,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "LonL",
           "package": "OSM",
@@ -1661,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens LonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "LonL",
           "package": "OSM",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "lonL",
           "package": "OSM",
@@ -1683,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens LonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.LonL",
           "name": "lonL",
           "package": "OSM",
@@ -1696,6 +1844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003emaximum\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "MaximumL",
           "package": "OSM",
@@ -1705,6 +1854,7 @@
         "index": {
           "description": "Values with maximum string accessor",
           "hierarchy": "Data Geo OSM Lens MaximumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "MaximumL",
           "package": "OSM",
@@ -1718,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "MaximumL",
           "package": "OSM",
@@ -1726,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaximumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "MaximumL",
           "package": "OSM",
@@ -1739,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "maximumL",
           "package": "OSM",
@@ -1748,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaximumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaximumL",
           "name": "maximumL",
           "package": "OSM",
@@ -1761,6 +1915,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003emaxlat\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "OSM",
@@ -1770,6 +1925,7 @@
         "index": {
           "description": "Values with maxlat string accessor",
           "hierarchy": "Data Geo OSM Lens MaxlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "OSM",
@@ -1783,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "OSM",
@@ -1791,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaxlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "MaxlatL",
           "package": "OSM",
@@ -1804,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "maxlatL",
           "package": "OSM",
@@ -1813,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaxlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlatL",
           "name": "maxlatL",
           "package": "OSM",
@@ -1825,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "OSM",
@@ -1833,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaxlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "OSM",
@@ -1846,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "OSM",
@@ -1854,6 +2017,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaxlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "MaxlonL",
           "package": "OSM",
@@ -1867,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "maxlonL",
           "package": "OSM",
@@ -1876,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MaxlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MaxlonL",
           "name": "maxlonL",
           "package": "OSM",
@@ -1889,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003emember\u003c/code\u003e accessor that is a list of \u003ccode\u003eMember\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "MemberL",
           "package": "OSM",
@@ -1898,6 +2065,7 @@
         "index": {
           "description": "Values with member accessor that is list of Member",
           "hierarchy": "Data Geo OSM Lens MemberL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "MemberL",
           "package": "OSM",
@@ -1911,6 +2079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "MemberL",
           "package": "OSM",
@@ -1919,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MemberL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "MemberL",
           "package": "OSM",
@@ -1932,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "memberL",
           "package": "OSM",
@@ -1941,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MemberL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MemberL",
           "name": "memberL",
           "normalized": "Lens a[Member]",
@@ -1956,6 +2128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eminimum\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "MinimumL",
           "package": "OSM",
@@ -1965,6 +2138,7 @@
         "index": {
           "description": "Values with minimum string accessor",
           "hierarchy": "Data Geo OSM Lens MinimumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "MinimumL",
           "package": "OSM",
@@ -1978,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "MinimumL",
           "package": "OSM",
@@ -1986,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinimumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "MinimumL",
           "package": "OSM",
@@ -1999,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "minimumL",
           "package": "OSM",
@@ -2008,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinimumL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinimumL",
           "name": "minimumL",
           "package": "OSM",
@@ -2021,6 +2199,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eminlat\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "MinlatL",
           "package": "OSM",
@@ -2030,6 +2209,7 @@
         "index": {
           "description": "Values with minlat string accessor",
           "hierarchy": "Data Geo OSM Lens MinlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "MinlatL",
           "package": "OSM",
@@ -2043,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "MinlatL",
           "package": "OSM",
@@ -2051,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "MinlatL",
           "package": "OSM",
@@ -2064,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "minlatL",
           "package": "OSM",
@@ -2073,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinlatL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlatL",
           "name": "minlatL",
           "package": "OSM",
@@ -2086,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eminlon\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "MinlonL",
           "package": "OSM",
@@ -2095,6 +2280,7 @@
         "index": {
           "description": "Values with minlon string accessor",
           "hierarchy": "Data Geo OSM Lens MinlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "MinlonL",
           "package": "OSM",
@@ -2108,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "MinlonL",
           "package": "OSM",
@@ -2116,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "MinlonL",
           "package": "OSM",
@@ -2129,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "minlonL",
           "package": "OSM",
@@ -2138,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens MinlonL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.MinlonL",
           "name": "minlonL",
           "package": "OSM",
@@ -2150,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "NameL",
           "package": "OSM",
@@ -2158,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens NameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "NameL",
           "package": "OSM",
@@ -2171,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "NameL",
           "package": "OSM",
@@ -2179,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens NameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "NameL",
           "package": "OSM",
@@ -2192,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "nameL",
           "package": "OSM",
@@ -2201,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens NameL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NameL",
           "name": "nameL",
           "package": "OSM",
@@ -2214,6 +2410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003end\u003c/code\u003e accessor that is a list of \u003ccode\u003eNd\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "NdL",
           "package": "OSM",
@@ -2223,6 +2420,7 @@
         "index": {
           "description": "Values with nd accessor that is list of Nd",
           "hierarchy": "Data Geo OSM Lens NdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "NdL",
           "package": "OSM",
@@ -2236,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "NdL",
           "package": "OSM",
@@ -2244,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens NdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "NdL",
           "package": "OSM",
@@ -2257,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "ndL",
           "package": "OSM",
@@ -2266,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens NdL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.NdL",
           "name": "ndL",
           "normalized": "Lens a[Nd]",
@@ -2281,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eorigin\u003c/code\u003e optional string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "OriginL",
           "package": "OSM",
@@ -2290,6 +2493,7 @@
         "index": {
           "description": "Values with origin optional string accessor",
           "hierarchy": "Data Geo OSM Lens OriginL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "OriginL",
           "package": "OSM",
@@ -2303,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "OriginL",
           "package": "OSM",
@@ -2311,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens OriginL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "OriginL",
           "package": "OSM",
@@ -2324,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "originL",
           "package": "OSM",
@@ -2333,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens OriginL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.OriginL",
           "name": "originL",
           "package": "OSM",
@@ -2346,6 +2554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003epending\u003c/code\u003e boolean accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "PendingL",
           "package": "OSM",
@@ -2355,6 +2564,7 @@
         "index": {
           "description": "Values with pending boolean accessor",
           "hierarchy": "Data Geo OSM Lens PendingL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "PendingL",
           "package": "OSM",
@@ -2368,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "PendingL",
           "package": "OSM",
@@ -2376,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PendingL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "PendingL",
           "package": "OSM",
@@ -2389,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "pendingL",
           "package": "OSM",
@@ -2398,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PendingL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PendingL",
           "name": "pendingL",
           "package": "OSM",
@@ -2411,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eper_page\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "PerPageL",
           "package": "OSM",
@@ -2420,6 +2635,7 @@
         "index": {
           "description": "Values with per page string accessor",
           "hierarchy": "Data Geo OSM Lens PerPageL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "PerPageL",
           "package": "OSM",
@@ -2433,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "PerPageL",
           "package": "OSM",
@@ -2441,6 +2658,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PerPageL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "PerPageL",
           "package": "OSM",
@@ -2454,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "perPageL",
           "package": "OSM",
@@ -2463,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PerPageL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PerPageL",
           "name": "perPageL",
           "package": "OSM",
@@ -2476,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "PublicL",
           "package": "OSM",
@@ -2484,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PublicL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "PublicL",
           "package": "OSM",
@@ -2497,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "PublicL",
           "package": "OSM",
@@ -2505,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PublicL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "PublicL",
           "package": "OSM",
@@ -2518,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "publicL",
           "package": "OSM",
@@ -2527,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens PublicL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.PublicL",
           "name": "publicL",
           "package": "OSM",
@@ -2540,6 +2766,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eref\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "RefL",
           "package": "OSM",
@@ -2549,6 +2776,7 @@
         "index": {
           "description": "Values with ref string accessor",
           "hierarchy": "Data Geo OSM Lens RefL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "RefL",
           "package": "OSM",
@@ -2562,6 +2790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "RefL",
           "package": "OSM",
@@ -2570,6 +2799,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens RefL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "RefL",
           "package": "OSM",
@@ -2583,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "refL",
           "package": "OSM",
@@ -2592,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens RefL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RefL",
           "name": "refL",
           "package": "OSM",
@@ -2605,6 +2837,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003erole\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "RoleL",
           "package": "OSM",
@@ -2614,6 +2847,7 @@
         "index": {
           "description": "Values with role string accessor",
           "hierarchy": "Data Geo OSM Lens RoleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "RoleL",
           "package": "OSM",
@@ -2627,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "RoleL",
           "package": "OSM",
@@ -2635,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens RoleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "RoleL",
           "package": "OSM",
@@ -2648,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "roleL",
           "package": "OSM",
@@ -2657,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens RoleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.RoleL",
           "name": "roleL",
           "package": "OSM",
@@ -2670,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003etags\u003c/code\u003e accessor that is a list of tags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "TagsL",
           "package": "OSM",
@@ -2679,6 +2918,7 @@
         "index": {
           "description": "Values with tags accessor that is list of tags",
           "hierarchy": "Data Geo OSM Lens TagsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "TagsL",
           "package": "OSM",
@@ -2692,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "TagsL",
           "package": "OSM",
@@ -2700,6 +2941,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TagsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "TagsL",
           "package": "OSM",
@@ -2713,6 +2955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "tagsL",
           "package": "OSM",
@@ -2722,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TagsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TagsL",
           "name": "tagsL",
           "normalized": "Lens a[Tag]",
@@ -2737,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003etimestamp\u003c/code\u003e accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "TimestampL",
           "package": "OSM",
@@ -2746,6 +2991,7 @@
         "index": {
           "description": "Values with timestamp accessor",
           "hierarchy": "Data Geo OSM Lens TimestampL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "TimestampL",
           "package": "OSM",
@@ -2759,6 +3005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "TimestampL",
           "package": "OSM",
@@ -2767,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TimestampL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "TimestampL",
           "package": "OSM",
@@ -2780,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "timestampL",
           "package": "OSM",
@@ -2789,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TimestampL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TimestampL",
           "name": "timestampL",
           "package": "OSM",
@@ -2802,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003etracepoints\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "TracepointsL",
           "package": "OSM",
@@ -2811,6 +3062,7 @@
         "index": {
           "description": "Values with tracepoints string accessor",
           "hierarchy": "Data Geo OSM Lens TracepointsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "TracepointsL",
           "package": "OSM",
@@ -2824,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "TracepointsL",
           "package": "OSM",
@@ -2832,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TracepointsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "TracepointsL",
           "package": "OSM",
@@ -2845,6 +3099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "tracepointsL",
           "package": "OSM",
@@ -2854,6 +3109,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TracepointsL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TracepointsL",
           "name": "tracepointsL",
           "package": "OSM",
@@ -2867,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003etype\u003c/code\u003e accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "TypeL",
           "package": "OSM",
@@ -2876,6 +3133,7 @@
         "index": {
           "description": "Values with type accessor",
           "hierarchy": "Data Geo OSM Lens TypeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "TypeL",
           "package": "OSM",
@@ -2889,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "TypeL",
           "package": "OSM",
@@ -2897,6 +3156,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TypeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "TypeL",
           "package": "OSM",
@@ -2910,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "typeL",
           "package": "OSM",
@@ -2919,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens TypeL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.TypeL",
           "name": "typeL",
           "package": "OSM",
@@ -2932,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003euid\u003c/code\u003e optional string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "UidL",
           "package": "OSM",
@@ -2941,6 +3204,7 @@
         "index": {
           "description": "Values with uid optional string accessor",
           "hierarchy": "Data Geo OSM Lens UidL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "UidL",
           "package": "OSM",
@@ -2954,6 +3218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "UidL",
           "package": "OSM",
@@ -2962,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens UidL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "UidL",
           "package": "OSM",
@@ -2975,6 +3241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "uidL",
           "package": "OSM",
@@ -2984,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens UidL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UidL",
           "name": "uidL",
           "package": "OSM",
@@ -2997,6 +3265,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003euser\u003c/code\u003e accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "UserL",
           "package": "OSM",
@@ -3006,6 +3275,7 @@
         "index": {
           "description": "Values with user accessor",
           "hierarchy": "Data Geo OSM Lens UserL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "UserL",
           "package": "OSM",
@@ -3019,6 +3289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "UserL",
           "package": "OSM",
@@ -3027,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens UserL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "UserL",
           "package": "OSM",
@@ -3040,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "userL",
           "package": "OSM",
@@ -3049,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens UserL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.UserL",
           "name": "userL",
           "package": "OSM",
@@ -3062,6 +3336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ev\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "VL",
           "package": "OSM",
@@ -3071,6 +3346,7 @@
         "index": {
           "description": "Values with string accessor",
           "hierarchy": "Data Geo OSM Lens VL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "VL",
           "package": "OSM",
@@ -3084,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "VL",
           "package": "OSM",
@@ -3092,6 +3369,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "VL",
           "package": "OSM",
@@ -3105,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "vL",
           "package": "OSM",
@@ -3114,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VL",
           "name": "vL",
           "package": "OSM",
@@ -3127,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003eversion\u003c/code\u003e accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "VersionL",
           "package": "OSM",
@@ -3136,6 +3417,7 @@
         "index": {
           "description": "Values with version accessor",
           "hierarchy": "Data Geo OSM Lens VersionL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "VersionL",
           "package": "OSM",
@@ -3149,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "VersionL",
           "package": "OSM",
@@ -3157,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VersionL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "VersionL",
           "package": "OSM",
@@ -3170,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "versionL",
           "package": "OSM",
@@ -3179,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VersionL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VersionL",
           "name": "versionL",
           "package": "OSM",
@@ -3192,6 +3478,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003evisible\u003c/code\u003e boolean accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "VisibleL",
           "package": "OSM",
@@ -3201,6 +3488,7 @@
         "index": {
           "description": "Values with visible boolean accessor",
           "hierarchy": "Data Geo OSM Lens VisibleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "VisibleL",
           "package": "OSM",
@@ -3214,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "VisibleL",
           "package": "OSM",
@@ -3222,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VisibleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "VisibleL",
           "package": "OSM",
@@ -3235,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "visibleL",
           "package": "OSM",
@@ -3244,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens VisibleL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.VisibleL",
           "name": "visibleL",
           "package": "OSM",
@@ -3257,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ewaynodes\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "WaynodesL",
           "package": "OSM",
@@ -3266,6 +3559,7 @@
         "index": {
           "description": "Values with waynodes string accessor",
           "hierarchy": "Data Geo OSM Lens WaynodesL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "WaynodesL",
           "package": "OSM",
@@ -3279,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "WaynodesL",
           "package": "OSM",
@@ -3287,6 +3582,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens WaynodesL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "WaynodesL",
           "package": "OSM",
@@ -3300,6 +3596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "waynodesL",
           "package": "OSM",
@@ -3309,6 +3606,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens WaynodesL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.WaynodesL",
           "name": "waynodesL",
           "package": "OSM",
@@ -3322,6 +3620,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValues with a \u003ccode\u003ezoom\u003c/code\u003e string accessor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "ZoomL",
           "package": "OSM",
@@ -3331,6 +3630,7 @@
         "index": {
           "description": "Values with zoom string accessor",
           "hierarchy": "Data Geo OSM Lens ZoomL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "ZoomL",
           "package": "OSM",
@@ -3344,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "ZoomL",
           "package": "OSM",
@@ -3352,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ZoomL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "ZoomL",
           "package": "OSM",
@@ -3365,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "zoomL",
           "package": "OSM",
@@ -3374,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens ZoomL",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens.ZoomL",
           "name": "zoomL",
           "package": "OSM",
@@ -3386,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Lens",
           "name": "Lens",
           "package": "OSM",
@@ -3394,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Data Geo OSM Lens",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Lens",
           "name": "Lens",
           "package": "OSM",
@@ -3408,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emember\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Member",
           "name": "Member",
           "package": "OSM",
@@ -3417,6 +3724,7 @@
         "index": {
           "description": "The member element of OSM file",
           "hierarchy": "Data Geo OSM Member",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Member",
           "name": "Member",
           "package": "OSM",
@@ -3431,6 +3739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003emember\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Member",
           "name": "Member",
           "package": "OSM",
@@ -3440,6 +3749,7 @@
         "index": {
           "description": "The member element of OSM file",
           "hierarchy": "Data Geo OSM Member",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Member",
           "name": "Member",
           "package": "OSM",
@@ -3454,6 +3764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a member with a type, ref and role.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Member",
           "name": "member",
           "package": "OSM",
@@ -3463,6 +3774,7 @@
         "index": {
           "description": "Constructs member with type ref and role",
           "hierarchy": "Data Geo OSM Member",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Member",
           "name": "member",
           "normalized": "MemberType-\u003eString-\u003eString-\u003eMember",
@@ -3478,6 +3790,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003etype\u003c/code\u003e attribute of a \u003ccode\u003emember\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "MemberType",
           "package": "OSM",
@@ -3487,6 +3800,7 @@
         "index": {
           "description": "The type attribute of member element of OSM file",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "MemberType",
           "package": "OSM",
@@ -3501,6 +3815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003etype\u003c/code\u003e attribute of a \u003ccode\u003emember\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "MemberType",
           "package": "OSM",
@@ -3510,6 +3825,7 @@
         "index": {
           "description": "The type attribute of member element of OSM file",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "MemberType",
           "package": "OSM",
@@ -3524,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolds a member-type (catamorphism).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "foldMemberType",
           "package": "OSM",
@@ -3533,6 +3850,7 @@
         "index": {
           "description": "Folds member-type catamorphism",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "foldMemberType",
           "normalized": "MemberType-\u003ea-\u003ea-\u003ea-\u003ea",
@@ -3549,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a member-type that is a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "nodeType",
           "package": "OSM",
@@ -3559,6 +3878,7 @@
         "index": {
           "description": "Constructs member-type that is node",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "nodeType",
           "package": "OSM",
@@ -3573,6 +3893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a member-type that is a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "relationType",
           "package": "OSM",
@@ -3583,6 +3904,7 @@
         "index": {
           "description": "Constructs member-type that is relation",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "relationType",
           "package": "OSM",
@@ -3597,6 +3919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a member-type that is a way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.MemberType",
           "name": "wayType",
           "package": "OSM",
@@ -3607,6 +3930,7 @@
         "index": {
           "description": "Constructs member-type that is way",
           "hierarchy": "Data Geo OSM MemberType",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.MemberType",
           "name": "wayType",
           "package": "OSM",
@@ -3621,6 +3945,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe common attributes between the \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e and \u003ccode\u003erelation\u003c/code\u003e elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "NWRCommon",
           "package": "OSM",
@@ -3630,6 +3955,7 @@
         "index": {
           "description": "The common attributes between the node way and relation elements",
           "hierarchy": "Data Geo OSM NWRCommon",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "NWRCommon",
           "package": "OSM",
@@ -3644,6 +3970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe common attributes between the \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e and \u003ccode\u003erelation\u003c/code\u003e elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "NWRCommon",
           "package": "OSM",
@@ -3653,6 +3980,7 @@
         "index": {
           "description": "The common attributes between the node way and relation elements",
           "hierarchy": "Data Geo OSM NWRCommon",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "NWRCommon",
           "package": "OSM",
@@ -3667,6 +3995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs with id, list of tags, changeset, visible, user&uid and timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "nwrCommon",
           "package": "OSM",
@@ -3676,6 +4005,7 @@
         "index": {
           "description": "Constructs with id list of tags changeset visible user uid and timestamp",
           "hierarchy": "Data Geo OSM NWRCommon",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NWRCommon",
           "name": "nwrCommon",
           "normalized": "String-\u003e[Tag]-\u003eMaybe String-\u003eBool-\u003e(Maybe String,Maybe String)-\u003eMaybe String-\u003eNWRCommon",
@@ -3692,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003end\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Nd",
           "name": "Nd",
           "package": "OSM",
@@ -3701,6 +4032,7 @@
         "index": {
           "description": "The nd element of OSM file",
           "hierarchy": "Data Geo OSM Nd",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Nd",
           "name": "Nd",
           "package": "OSM",
@@ -3715,6 +4047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003end\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Nd",
           "name": "Nd",
           "package": "OSM",
@@ -3724,6 +4057,7 @@
         "index": {
           "description": "The nd element of OSM file",
           "hierarchy": "Data Geo OSM Nd",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Nd",
           "name": "Nd",
           "package": "OSM",
@@ -3738,6 +4072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a nd with a ref.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Nd",
           "name": "nd",
           "package": "OSM",
@@ -3747,6 +4082,7 @@
         "index": {
           "description": "Constructs nd with ref",
           "hierarchy": "Data Geo OSM Nd",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Nd",
           "name": "nd",
           "normalized": "String-\u003eNd",
@@ -3762,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003enode\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Node",
           "name": "Node",
           "package": "OSM",
@@ -3771,6 +4108,7 @@
         "index": {
           "description": "The node element of OSM file",
           "hierarchy": "Data Geo OSM Node",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Node",
           "name": "Node",
           "package": "OSM",
@@ -3785,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003enode\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Node",
           "name": "Node",
           "package": "OSM",
@@ -3794,6 +4133,7 @@
         "index": {
           "description": "The node element of OSM file",
           "hierarchy": "Data Geo OSM Node",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Node",
           "name": "Node",
           "package": "OSM",
@@ -3808,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a node with a lat, lon, id, list of tags, changeset, visible, user&uid and timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Node",
           "name": "node",
           "package": "OSM",
@@ -3817,6 +4158,7 @@
         "index": {
           "description": "Constructs node with lat lon id list of tags changeset visible user uid and timestamp",
           "hierarchy": "Data Geo OSM Node",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Node",
           "name": "node",
           "normalized": "String-\u003eString-\u003eString-\u003e[Tag]-\u003eMaybe String-\u003eBool-\u003e(Maybe String,Maybe String)-\u003eMaybe String-\u003eNode",
@@ -3832,6 +4174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e, or \u003ccode\u003erelation\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "NodeWayRelation",
           "package": "OSM",
@@ -3841,6 +4184,7 @@
         "index": {
           "description": "The node way or relation element of OSM file",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "NodeWayRelation",
           "package": "OSM",
@@ -3855,6 +4199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e, or \u003ccode\u003erelation\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "NodeWayRelation",
           "package": "OSM",
@@ -3864,6 +4209,7 @@
         "index": {
           "description": "The node way or relation element of OSM file",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "NodeWayRelation",
           "package": "OSM",
@@ -3878,6 +4224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFolds a node-way-relation (catamorphism).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "foldNodeWayRelation",
           "package": "OSM",
@@ -3887,6 +4234,7 @@
         "index": {
           "description": "Folds node-way-relation catamorphism",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "foldNodeWayRelation",
           "normalized": "NodeWayRelation-\u003e(Node-\u003ea)-\u003e(Way-\u003ea)-\u003e(Relation-\u003ea)-\u003ea",
@@ -3903,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e or \u003ccode\u003erelation\u003c/code\u003e element is a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isNode",
           "package": "OSM",
@@ -3913,6 +4262,7 @@
         "index": {
           "description": "Returns whether the node way or relation element is node",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isNode",
           "normalized": "NodeWayRelation-\u003eBool",
@@ -3929,6 +4279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e or \u003ccode\u003erelation\u003c/code\u003e element is a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isRelation",
           "package": "OSM",
@@ -3939,6 +4290,7 @@
         "index": {
           "description": "Returns whether the node way or relation element is relation",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isRelation",
           "normalized": "NodeWayRelation-\u003eBool",
@@ -3955,6 +4307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns whether the \u003ccode\u003enode\u003c/code\u003e, \u003ccode\u003eway\u003c/code\u003e or \u003ccode\u003erelation\u003c/code\u003e element is a way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isWay",
           "package": "OSM",
@@ -3965,6 +4318,7 @@
         "index": {
           "description": "Returns whether the node way or relation element is way",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "isWay",
           "normalized": "NodeWayRelation-\u003eBool",
@@ -3981,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003enode\u003c/code\u003e element value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "node'",
           "package": "OSM",
@@ -3991,6 +4346,7 @@
         "index": {
           "description": "Construct node element value",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "node'",
           "normalized": "Node-\u003eNodeWayRelation",
@@ -4006,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003erelation\u003c/code\u003e element value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "relation'",
           "package": "OSM",
@@ -4016,6 +4373,7 @@
         "index": {
           "description": "Construct relation element value",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "relation'",
           "normalized": "Relation-\u003eNodeWayRelation",
@@ -4031,6 +4389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003eway\u003c/code\u003e element value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "way'",
           "package": "OSM",
@@ -4041,6 +4400,7 @@
         "index": {
           "description": "Construct way element value",
           "hierarchy": "Data Geo OSM NodeWayRelation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.NodeWayRelation",
           "name": "way'",
           "normalized": "Way-\u003eNodeWayRelation",
@@ -4056,6 +4416,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eosm\u003c/code\u003e element of a OSM file, which is the root element. \u003ca\u003ehttp://wiki.openstreetmap.org/wiki/API_v0.6/DTD\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "OSM",
           "package": "OSM",
@@ -4065,6 +4426,7 @@
         "index": {
           "description": "The osm element of OSM file which is the root element http wiki.openstreetmap.org wiki API v0.6 DTD",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "OSM",
           "package": "OSM",
@@ -4079,6 +4441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eosm\u003c/code\u003e element of a OSM file, which is the root element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "OSM",
           "package": "OSM",
@@ -4088,6 +4451,7 @@
         "index": {
           "description": "The osm element of OSM file which is the root element",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "OSM",
           "package": "OSM",
@@ -4102,6 +4466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file removing whitespace, executes the given function on the XML, then writes the given file with indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSM",
           "package": "OSM",
@@ -4111,6 +4476,7 @@
         "index": {
           "description": "Reads OSM file removing whitespace executes the given function on the XML then writes the given file with indentation",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSM",
           "normalized": "(OSM-\u003eOSM)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -4127,6 +4493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file, executes the given function on the XML, then writes the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSM'",
           "package": "OSM",
@@ -4136,6 +4503,7 @@
         "index": {
           "description": "Reads OSM file executes the given function on the XML then writes the given file",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSM'",
           "normalized": "(OSM-\u003eOSM)-\u003eSysConfigList-\u003eFilePath-\u003eSysConfigList-\u003eFilePath-\u003eIO()",
@@ -4152,6 +4520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file removing whitespace, executes the given function on the XML, then writes the given file with indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSMIO",
           "package": "OSM",
@@ -4161,6 +4530,7 @@
         "index": {
           "description": "Reads OSM file removing whitespace executes the given function on the XML then writes the given file with indentation",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSMIO",
           "normalized": "(OSM-\u003eIO OSM)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -4177,6 +4547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file, executes the given function on the XML, then writes the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSMIO'",
           "package": "OSM",
@@ -4186,6 +4557,7 @@
         "index": {
           "description": "Reads OSM file executes the given function on the XML then writes the given file",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactOSMIO'",
           "normalized": "(OSM-\u003eIO OSM)-\u003eSysConfigList-\u003eFilePath-\u003eSysConfigList-\u003eFilePath-\u003eIO()",
@@ -4202,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file removing whitespace, executes the given functions on the XML, then writes the given file with indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSM",
           "package": "OSM",
@@ -4211,6 +4584,7 @@
         "index": {
           "description": "Reads OSM file removing whitespace executes the given functions on the XML then writes the given file with indentation",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSM",
           "normalized": "a(OSM-\u003eOSM)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -4227,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file, executes the given functions on the XML, then writes the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSM'",
           "package": "OSM",
@@ -4236,6 +4611,7 @@
         "index": {
           "description": "Reads OSM file executes the given functions on the XML then writes the given file",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSM'",
           "normalized": "a(OSM-\u003eOSM)-\u003eSysConfigList-\u003eFilePath-\u003eSysConfigList-\u003eFilePath-\u003eIO()",
@@ -4252,6 +4628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file removing whitespace, executes the given functions on the XML, then writes the given file with indentation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSMIO",
           "package": "OSM",
@@ -4261,6 +4638,7 @@
         "index": {
           "description": "Reads OSM file removing whitespace executes the given functions on the XML then writes the given file with indentation",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSMIO",
           "normalized": "a(OSM-\u003eIO OSM)-\u003eFilePath-\u003eFilePath-\u003eIO()",
@@ -4277,6 +4655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a OSM file, executes the given functions on the XML, then writes the given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSMIO'",
           "package": "OSM",
@@ -4286,6 +4665,7 @@
         "index": {
           "description": "Reads OSM file executes the given functions on the XML then writes the given file",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "interactsOSMIO'",
           "normalized": "a(OSM-\u003eIO OSM)-\u003eSysConfigList-\u003eFilePath-\u003eSysConfigList-\u003eFilePath-\u003eIO()",
@@ -4302,6 +4682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a osm with a version, bound or bounds, and node attributes and way or relation elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "osm",
           "package": "OSM",
@@ -4311,6 +4692,7 @@
         "index": {
           "description": "Constructs osm with version bound or bounds and node attributes and way or relation elements",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "osm",
           "normalized": "String-\u003eMaybe String-\u003eMaybe(Either Bound Bounds)-\u003eChildren-\u003eOSM",
@@ -4326,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an OSM file into a list of \u003ccode\u003eOSM\u003c/code\u003e values removing whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "readOsmFile",
           "package": "OSM",
@@ -4336,6 +4719,7 @@
         "index": {
           "description": "Reads an OSM file into list of OSM values removing whitespace",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "readOsmFile",
           "normalized": "FilePath-\u003eIO[OSM]",
@@ -4352,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads 0 or more OSM files into a list of \u003ccode\u003eOSM\u003c/code\u003e values removing whitespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.OSM",
           "name": "readOsmFiles",
           "package": "OSM",
@@ -4362,6 +4747,7 @@
         "index": {
           "description": "Reads or more OSM files into list of OSM values removing whitespace",
           "hierarchy": "Data Geo OSM OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.OSM",
           "name": "readOsmFiles",
           "normalized": "[FilePath]-\u003eIO[OSM]",
@@ -4378,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003epreferences\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Preferences",
           "name": "Preferences",
           "package": "OSM",
@@ -4387,6 +4774,7 @@
         "index": {
           "description": "The preferences element of OSM file",
           "hierarchy": "Data Geo OSM Preferences",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Preferences",
           "name": "Preferences",
           "package": "OSM",
@@ -4401,6 +4789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003epreferences\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Preferences",
           "name": "Preferences",
           "package": "OSM",
@@ -4410,6 +4799,7 @@
         "index": {
           "description": "The preferences element of OSM file",
           "hierarchy": "Data Geo OSM Preferences",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Preferences",
           "name": "Preferences",
           "package": "OSM",
@@ -4424,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003epreferences\u003c/code\u003e with tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Preferences",
           "name": "preferences",
           "package": "OSM",
@@ -4433,6 +4824,7 @@
         "index": {
           "description": "Constructs preferences with tags",
           "hierarchy": "Data Geo OSM Preferences",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Preferences",
           "name": "preferences",
           "normalized": "[Tag]-\u003ePreferences",
@@ -4448,6 +4840,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003erelation\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Relation",
           "name": "Relation",
           "package": "OSM",
@@ -4457,6 +4850,7 @@
         "index": {
           "description": "The relation element of OSM file",
           "hierarchy": "Data Geo OSM Relation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Relation",
           "name": "Relation",
           "package": "OSM",
@@ -4471,6 +4865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003erelation\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Relation",
           "name": "Relation",
           "package": "OSM",
@@ -4480,6 +4875,7 @@
         "index": {
           "description": "The relation element of OSM file",
           "hierarchy": "Data Geo OSM Relation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Relation",
           "name": "Relation",
           "package": "OSM",
@@ -4494,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a relation with a list of members, id, list of tags, changeset, visible, user&uid and timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Relation",
           "name": "relation",
           "package": "OSM",
@@ -4503,6 +4900,7 @@
         "index": {
           "description": "Constructs relation with list of members id list of tags changeset visible user uid and timestamp",
           "hierarchy": "Data Geo OSM Relation",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Relation",
           "name": "relation",
           "normalized": "[Member]-\u003eString-\u003e[Tag]-\u003eMaybe String-\u003eBool-\u003e(Maybe String,Maybe String)-\u003eMaybe String-\u003eRelation",
@@ -4518,6 +4916,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003etag\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tag",
           "name": "Tag",
           "package": "OSM",
@@ -4527,6 +4926,7 @@
         "index": {
           "description": "The tag element of OSM file",
           "hierarchy": "Data Geo OSM Tag",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tag",
           "name": "Tag",
           "package": "OSM",
@@ -4541,6 +4941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003etag\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tag",
           "name": "Tag",
           "package": "OSM",
@@ -4550,6 +4951,7 @@
         "index": {
           "description": "The tag element of OSM file",
           "hierarchy": "Data Geo OSM Tag",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tag",
           "name": "Tag",
           "package": "OSM",
@@ -4564,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a tag with a key and value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tag",
           "name": "tag",
           "package": "OSM",
@@ -4573,6 +4976,7 @@
         "index": {
           "description": "Constructs tag with key and value",
           "hierarchy": "Data Geo OSM Tag",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tag",
           "name": "tag",
           "normalized": "String-\u003eString-\u003eTag",
@@ -4588,6 +4992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003etracepoints\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "Tracepoints",
           "package": "OSM",
@@ -4597,6 +5002,7 @@
         "index": {
           "description": "The tracepoints element of OSM file",
           "hierarchy": "Data Geo OSM Tracepoints",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "Tracepoints",
           "package": "OSM",
@@ -4611,6 +5017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003etracepoints\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "Tracepoints",
           "package": "OSM",
@@ -4620,6 +5027,7 @@
         "index": {
           "description": "The tracepoints element of OSM file",
           "hierarchy": "Data Geo OSM Tracepoints",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "Tracepoints",
           "package": "OSM",
@@ -4634,6 +5042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003etracepoints\u003c/code\u003e with per_page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "tracepoints",
           "package": "OSM",
@@ -4643,6 +5052,7 @@
         "index": {
           "description": "Constructs tracepoints with per page",
           "hierarchy": "Data Geo OSM Tracepoints",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Tracepoints",
           "name": "tracepoints",
           "normalized": "String-\u003eTracepoints",
@@ -4658,6 +5068,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003euser\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.User",
           "name": "User",
           "package": "OSM",
@@ -4667,6 +5078,7 @@
         "index": {
           "description": "The user element of OSM file",
           "hierarchy": "Data Geo OSM User",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.User",
           "name": "User",
           "package": "OSM",
@@ -4681,6 +5093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003euser\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.User",
           "name": "User",
           "package": "OSM",
@@ -4690,6 +5103,7 @@
         "index": {
           "description": "The user element of OSM file",
           "hierarchy": "Data Geo OSM User",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.User",
           "name": "User",
           "package": "OSM",
@@ -4704,6 +5118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003euser\u003c/code\u003e with an optional home, display_name and account_created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.User",
           "name": "user",
           "package": "OSM",
@@ -4713,6 +5128,7 @@
         "index": {
           "description": "Constructs user with an optional home display name and account created",
           "hierarchy": "Data Geo OSM User",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.User",
           "name": "user",
           "normalized": "Maybe Home-\u003eString-\u003eString-\u003eUser",
@@ -4728,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eversion\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Version",
           "name": "Version",
           "package": "OSM",
@@ -4737,6 +5154,7 @@
         "index": {
           "description": "The version element of OSM file",
           "hierarchy": "Data Geo OSM Version",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Version",
           "name": "Version",
           "package": "OSM",
@@ -4751,6 +5169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eversion\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Version",
           "name": "Version",
           "package": "OSM",
@@ -4760,6 +5179,7 @@
         "index": {
           "description": "The version element of OSM file",
           "hierarchy": "Data Geo OSM Version",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Version",
           "name": "Version",
           "package": "OSM",
@@ -4774,6 +5194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003eversion\u003c/code\u003e with minimum and maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Version",
           "name": "version",
           "package": "OSM",
@@ -4783,6 +5204,7 @@
         "index": {
           "description": "Constructs version with minimum and maximum",
           "hierarchy": "Data Geo OSM Version",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Version",
           "name": "version",
           "normalized": "String-\u003eString-\u003eVersion",
@@ -4798,6 +5220,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003eway\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Way",
           "name": "Way",
           "package": "OSM",
@@ -4807,6 +5230,7 @@
         "index": {
           "description": "The way element of OSM file",
           "hierarchy": "Data Geo OSM Way",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Way",
           "name": "Way",
           "package": "OSM",
@@ -4821,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eway\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Way",
           "name": "Way",
           "package": "OSM",
@@ -4830,6 +5255,7 @@
         "index": {
           "description": "The way element of OSM file",
           "hierarchy": "Data Geo OSM Way",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Way",
           "name": "Way",
           "package": "OSM",
@@ -4844,6 +5270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a way with a list of nds, id, list of tags, changeset, visible, user&uid and timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Way",
           "name": "way",
           "package": "OSM",
@@ -4853,6 +5280,7 @@
         "index": {
           "description": "Constructs way with list of nds id list of tags changeset visible user uid and timestamp",
           "hierarchy": "Data Geo OSM Way",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Way",
           "name": "way",
           "normalized": "[Nd]-\u003eString-\u003e[Tag]-\u003eMaybe String-\u003eBool-\u003e(Maybe String,Maybe String)-\u003eMaybe String-\u003eWay",
@@ -4868,6 +5296,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003ewaynodes\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "Waynodes",
           "package": "OSM",
@@ -4877,6 +5306,7 @@
         "index": {
           "description": "The waynodes element of OSM file",
           "hierarchy": "Data Geo OSM Waynodes",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "Waynodes",
           "package": "OSM",
@@ -4891,6 +5321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003ewaynodes\u003c/code\u003e element of a OSM file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "Waynodes",
           "package": "OSM",
@@ -4900,6 +5331,7 @@
         "index": {
           "description": "The waynodes element of OSM file",
           "hierarchy": "Data Geo OSM Waynodes",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "Waynodes",
           "package": "OSM",
@@ -4914,6 +5346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a \u003ccode\u003ewaynodes\u003c/code\u003e with maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "waynodes",
           "package": "OSM",
@@ -4923,6 +5356,7 @@
         "index": {
           "description": "Constructs waynodes with maximum",
           "hierarchy": "Data Geo OSM Waynodes",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM.Waynodes",
           "name": "waynodes",
           "normalized": "String-\u003eWaynodes",
@@ -4938,6 +5372,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpenStreetMap API v0.6 DTD \u003ca\u003ehttp://wiki.openstreetmap.org/wiki/API_v0.6/DTD\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:55 UTC 2014",
           "module": "Data.Geo.OSM",
           "name": "OSM",
           "package": "OSM",
@@ -4947,6 +5382,7 @@
         "index": {
           "description": "OpenStreetMap API v0.6 DTD http wiki.openstreetmap.org wiki API v0.6 DTD",
           "hierarchy": "Data Geo OSM",
+          "indexed": "2014-03-11T16:54:55",
           "module": "Data.Geo.OSM",
           "name": "OSM",
           "package": "OSM",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaLeX"
+        "phrase": "HaLeX",
+        "type": "phrase"
       },
       "type": "context"
     }

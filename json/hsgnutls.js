@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsgnutls"
+        "phrase": "hsgnutls",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "Ciphers",
           "package": "hsgnutls",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "Ciphers",
           "package": "hsgnutls",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "Cipher3DES",
           "package": "hsgnutls",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "Cipher3DES",
           "package": "hsgnutls",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES",
           "package": "hsgnutls",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES",
           "package": "hsgnutls",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES128",
           "package": "hsgnutls",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES128",
           "package": "hsgnutls",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES192",
           "package": "hsgnutls",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES192",
           "package": "hsgnutls",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES256",
           "package": "hsgnutls",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES256",
           "package": "hsgnutls",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherArcfour",
           "package": "hsgnutls",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherArcfour",
           "package": "hsgnutls",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherBlowfish",
           "package": "hsgnutls",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherBlowfish",
           "package": "hsgnutls",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherCast5",
           "package": "hsgnutls",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherCast5",
           "package": "hsgnutls",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherDES",
           "package": "hsgnutls",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherDES",
           "package": "hsgnutls",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherFlag",
           "package": "hsgnutls",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherFlag",
           "package": "hsgnutls",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherIDEA",
           "package": "hsgnutls",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherIDEA",
           "package": "hsgnutls",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherMode",
           "package": "hsgnutls",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherMode",
           "package": "hsgnutls",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL",
           "package": "hsgnutls",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL",
           "package": "hsgnutls",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL128",
           "package": "hsgnutls",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL128",
           "package": "hsgnutls",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL192",
           "package": "hsgnutls",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL192",
           "package": "hsgnutls",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL256",
           "package": "hsgnutls",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL256",
           "package": "hsgnutls",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish",
           "package": "hsgnutls",
@@ -383,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish",
           "package": "hsgnutls",
@@ -396,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish128",
           "package": "hsgnutls",
@@ -404,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish128",
           "package": "hsgnutls",
@@ -417,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherType",
           "package": "hsgnutls",
@@ -425,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherType",
           "package": "hsgnutls",
@@ -438,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCBC",
           "package": "hsgnutls",
@@ -446,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCBC",
           "package": "hsgnutls",
@@ -459,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCFB",
           "package": "hsgnutls",
@@ -467,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCFB",
           "package": "hsgnutls",
@@ -480,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCTR",
           "package": "hsgnutls",
@@ -488,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCTR",
           "package": "hsgnutls",
@@ -501,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeECB",
           "package": "hsgnutls",
@@ -509,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeECB",
           "package": "hsgnutls",
@@ -522,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeNone",
           "package": "hsgnutls",
@@ -530,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeNone",
           "package": "hsgnutls",
@@ -543,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeOFB",
           "package": "hsgnutls",
@@ -551,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeOFB",
           "package": "hsgnutls",
@@ -564,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeStream",
           "package": "hsgnutls",
@@ -572,6 +625,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeStream",
           "package": "hsgnutls",
@@ -585,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CBC_CTS",
           "package": "hsgnutls",
@@ -594,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CBC_CTS",
           "package": "hsgnutls",
@@ -607,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CBC_MAC",
           "package": "hsgnutls",
@@ -616,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CBC_MAC",
           "package": "hsgnutls",
@@ -629,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "Cipher3DES",
           "package": "hsgnutls",
@@ -638,6 +697,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "Cipher3DES",
           "package": "hsgnutls",
@@ -651,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES",
           "package": "hsgnutls",
@@ -660,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES",
           "package": "hsgnutls",
@@ -673,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES128",
           "package": "hsgnutls",
@@ -682,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES128",
           "package": "hsgnutls",
@@ -695,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES192",
           "package": "hsgnutls",
@@ -704,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES192",
           "package": "hsgnutls",
@@ -717,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES256",
           "package": "hsgnutls",
@@ -726,6 +793,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherAES256",
           "package": "hsgnutls",
@@ -739,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherArcfour",
           "package": "hsgnutls",
@@ -748,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherArcfour",
           "package": "hsgnutls",
@@ -761,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherBlowfish",
           "package": "hsgnutls",
@@ -770,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherBlowfish",
           "package": "hsgnutls",
@@ -783,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherCast5",
           "package": "hsgnutls",
@@ -792,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherCast5",
           "package": "hsgnutls",
@@ -805,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherDES",
           "package": "hsgnutls",
@@ -814,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherDES",
           "package": "hsgnutls",
@@ -827,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherIDEA",
           "package": "hsgnutls",
@@ -836,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherIDEA",
           "package": "hsgnutls",
@@ -849,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJDNDAEL",
           "package": "hsgnutls",
@@ -858,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJDNDAEL",
           "package": "hsgnutls",
@@ -871,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL128",
           "package": "hsgnutls",
@@ -880,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL128",
           "package": "hsgnutls",
@@ -893,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL192",
           "package": "hsgnutls",
@@ -902,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL192",
           "package": "hsgnutls",
@@ -915,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL256",
           "package": "hsgnutls",
@@ -924,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherRIJNDAEL256",
           "package": "hsgnutls",
@@ -937,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish",
           "package": "hsgnutls",
@@ -946,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish",
           "package": "hsgnutls",
@@ -959,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish128",
           "package": "hsgnutls",
@@ -968,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "CipherTwofish128",
           "package": "hsgnutls",
@@ -981,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "EnableSync",
           "package": "hsgnutls",
@@ -990,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "EnableSync",
           "package": "hsgnutls",
@@ -1003,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCBC",
           "package": "hsgnutls",
@@ -1012,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCBC",
           "package": "hsgnutls",
@@ -1025,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCFB",
           "package": "hsgnutls",
@@ -1034,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCFB",
           "package": "hsgnutls",
@@ -1047,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCTR",
           "package": "hsgnutls",
@@ -1056,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeCTR",
           "package": "hsgnutls",
@@ -1069,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeECB",
           "package": "hsgnutls",
@@ -1078,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeECB",
           "package": "hsgnutls",
@@ -1091,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeNone",
           "package": "hsgnutls",
@@ -1100,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeNone",
           "package": "hsgnutls",
@@ -1113,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeOFB",
           "package": "hsgnutls",
@@ -1122,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeOFB",
           "package": "hsgnutls",
@@ -1135,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeStream",
           "package": "hsgnutls",
@@ -1144,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "ModeStream",
           "package": "hsgnutls",
@@ -1157,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "Secure",
           "package": "hsgnutls",
@@ -1166,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "Secure",
           "package": "hsgnutls",
@@ -1179,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "cipherModeToC",
           "package": "hsgnutls",
@@ -1188,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "cipherModeToC",
           "normalized": "a-\u003eCInt",
@@ -1203,6 +1313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "cipherTypeToC",
           "package": "hsgnutls",
@@ -1212,6 +1323,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "cipherTypeToC",
           "normalized": "a-\u003eCInt",
@@ -1227,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption.Ciphers",
           "name": "flagToC",
           "package": "hsgnutls",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption Ciphers",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption.Ciphers",
           "name": "flagToC",
           "normalized": "CipherFlag-\u003eCUInt",
@@ -1251,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Encryption",
           "package": "hsgnutls",
@@ -1259,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Encryption",
           "package": "hsgnutls",
@@ -1272,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Cipher",
           "package": "hsgnutls",
@@ -1280,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Cipher",
           "package": "hsgnutls",
@@ -1293,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Word128",
           "package": "hsgnutls",
@@ -1301,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Word128",
           "package": "hsgnutls",
@@ -1314,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Word192",
           "package": "hsgnutls",
@@ -1322,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Word192",
           "package": "hsgnutls",
@@ -1335,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Word128",
           "package": "hsgnutls",
@@ -1344,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Word128",
           "package": "hsgnutls",
@@ -1357,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "Word192",
           "package": "hsgnutls",
@@ -1366,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "Word192",
           "package": "hsgnutls",
@@ -1379,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "decrypt",
           "package": "hsgnutls",
@@ -1388,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "decrypt",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eByteString-\u003eMaybe ByteString",
@@ -1402,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "encrypt",
           "package": "hsgnutls",
@@ -1411,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "encrypt",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eByteString-\u003eByteString",
@@ -1425,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "pkcs5",
           "package": "hsgnutls",
@@ -1434,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "pkcs5",
           "normalized": "ByteString-\u003eByteString",
@@ -1448,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Codec.Encryption",
           "name": "unpkcs5",
           "package": "hsgnutls",
@@ -1457,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Codec.Encryption",
           "name": "unpkcs5",
           "normalized": "ByteString-\u003eMaybe ByteString",
@@ -1472,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAttributes interface\n\u003c/p\u003e\u003cp\u003eAttributes of an object can be get and set. Getting the value of an\nobject's attribute is straingtforward. As an example consider a \u003ccode\u003ebutton\u003c/code\u003e\nwidget and an attribute called \u003ccode\u003ebuttonLabel\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e value \u003c- get button buttonLabel\n\u003c/pre\u003e\u003cp\u003eThe syntax for setting or updating an attribute is only slightly more\ncomplex. At the simplest level it is just:\n\u003c/p\u003e\u003cpre\u003e set button [ buttonLabel := value ]\n\u003c/pre\u003e\u003cp\u003eHowever as the list notation would indicate, you can set or update multiple\nattributes of the same object in one go:\n\u003c/p\u003e\u003cpre\u003e set button [ buttonLabel := value, buttonFocusOnClick := False ]\n\u003c/pre\u003e\u003cp\u003eYou are not limited to setting the value of an attribute, you can also\napply an update function to an attribute's value. That is the function\nreceives the current value of the attribute and returns the new value.\n\u003c/p\u003e\u003cpre\u003e set spinButton [ spinButtonValue :~ (+1) ]\n\u003c/pre\u003e\u003cp\u003eThere are other variants of these operators, (see \u003ccode\u003e\u003ca\u003eAttrOp\u003c/a\u003e\u003c/code\u003e). \u003ccode\u003e\u003ca\u003e:=\u003e\u003c/a\u003e\u003c/code\u003e and\n\u003ccode\u003e\u003ca\u003e:~\u003e\u003c/a\u003e\u003c/code\u003e and like \u003ccode\u003e\u003ca\u003e:=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e:~\u003c/a\u003e\u003c/code\u003e but operate in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad rather\nthan being pure. There is also \u003ccode\u003e\u003ca\u003e::=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e::~\u003c/a\u003e\u003c/code\u003e which take the object\nas an extra parameter.\n\u003c/p\u003e\u003cp\u003eAttributes can be read only, write only or both read/write. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "Attributes",
           "package": "hsgnutls",
@@ -1481,6 +1616,7 @@
         "index": {
           "description": "Attributes interface Attributes of an object can be get and set Getting the value of an object attribute is straingtforward As an example consider button widget and an attribute called buttonLabel value get button buttonLabel The syntax for setting or updating an attribute is only slightly more complex At the simplest level it is just set button buttonLabel value However as the list notation would indicate you can set or update multiple attributes of the same object in one go set button buttonLabel value buttonFocusOnClick False You are not limited to setting the value of an attribute you can also apply an update function to an attribute value That is the function receives the current value of the attribute and returns the new value set spinButton spinButtonValue There are other variants of these operators see AttrOp and and like and but operate in the IO monad rather than being pure There is also and which take the object as an extra parameter Attributes can be read only write only or both read write",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "Attributes",
           "package": "hsgnutls",
@@ -1495,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordinary attribute. Most attributes have the same get and set types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "Attr",
           "package": "hsgnutls",
@@ -1504,6 +1641,7 @@
         "index": {
           "description": "An ordinary attribute Most attributes have the same get and set types",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "Attr",
           "package": "hsgnutls",
@@ -1518,6 +1656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set or update operation on an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "AttrOp",
           "package": "hsgnutls",
@@ -1527,6 +1666,7 @@
         "index": {
           "description": "set or update operation on an attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "AttrOp",
           "package": "hsgnutls",
@@ -1541,6 +1681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "ReadAttr",
           "package": "hsgnutls",
@@ -1550,6 +1691,7 @@
         "index": {
           "description": "read-only attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "ReadAttr",
           "package": "hsgnutls",
@@ -1564,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalised attribute with independent get and set types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "ReadWriteAttr",
           "package": "hsgnutls",
@@ -1573,6 +1716,7 @@
         "index": {
           "description": "generalised attribute with independent get and set types",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "ReadWriteAttr",
           "package": "hsgnutls",
@@ -1587,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA write-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "WriteAttr",
           "package": "hsgnutls",
@@ -1596,6 +1741,7 @@
         "index": {
           "description": "write-only attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "WriteAttr",
           "package": "hsgnutls",
@@ -1610,6 +1756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an update function to\n   an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": ":~",
           "package": "hsgnutls",
@@ -1620,6 +1767,7 @@
         "index": {
           "description": "Apply an update function to an attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": ":~",
           "normalized": "a b c(ReadWriteAttr d b c)(b-\u003ec)",
@@ -1635,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a IO update function\n   to an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": ":~\u003e",
           "package": "hsgnutls",
@@ -1645,6 +1794,7 @@
         "index": {
           "description": "Apply IO update function to an attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": ":~\u003e",
           "normalized": "a b c(ReadWriteAttr d b c)(b-\u003eIO c)",
@@ -1660,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a value to an\n   attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": ":=",
           "package": "hsgnutls",
@@ -1670,6 +1821,7 @@
         "index": {
           "description": "Assign value to an attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": ":=",
           "package": "hsgnutls",
@@ -1683,6 +1835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign the result of an IO\n   action to an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": ":=\u003e",
           "package": "hsgnutls",
@@ -1693,6 +1846,7 @@
         "index": {
           "description": "Assign the result of an IO action to an attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": ":=\u003e",
           "package": "hsgnutls",
@@ -1706,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an update function to\n   an attribute with the object\n   as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "::~",
           "package": "hsgnutls",
@@ -1716,6 +1871,7 @@
         "index": {
           "description": "Apply an update function to an attribute with the object as an argument",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "::~",
           "normalized": "(a-\u003eb-\u003ec)",
@@ -1731,6 +1887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a value to an\n   attribute with the object as\n   an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "::=",
           "package": "hsgnutls",
@@ -1741,6 +1898,7 @@
         "index": {
           "description": "Assign value to an attribute with the object as an argument",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "::=",
           "normalized": "(a-\u003eb)",
@@ -1756,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an Attr of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "get",
           "package": "hsgnutls",
@@ -1766,6 +1925,7 @@
         "index": {
           "description": "Get an Attr of an object",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "get",
           "normalized": "a-\u003eReadWriteAttr a b c-\u003eIO b",
@@ -1781,6 +1941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new attribute with a getter and setter function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "newAttr",
           "package": "hsgnutls",
@@ -1791,6 +1952,7 @@
         "index": {
           "description": "Create new attribute with getter and setter function",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "newAttr",
           "normalized": "(a-\u003eIO b)-\u003e(a-\u003ec-\u003eIO())-\u003eReadWriteAttr a b c",
@@ -1807,6 +1969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new read-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "readAttr",
           "package": "hsgnutls",
@@ -1817,6 +1980,7 @@
         "index": {
           "description": "Create new read-only attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "readAttr",
           "normalized": "(a-\u003eIO b)-\u003eReadAttr a b",
@@ -1833,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a number of properties for some object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "set",
           "package": "hsgnutls",
@@ -1843,6 +2008,7 @@
         "index": {
           "description": "Set number of properties for some object",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "set",
           "normalized": "a-\u003e[AttrOp a]-\u003eIO()",
@@ -1858,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new write-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Attributes",
           "name": "writeAttr",
           "package": "hsgnutls",
@@ -1868,6 +2035,7 @@
         "index": {
           "description": "Create new write-only attribute",
           "hierarchy": "Network GnuTLS Attributes",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Attributes",
           "name": "writeAttr",
           "normalized": "(a-\u003eb-\u003eIO())-\u003eWriteAttr a b",
@@ -1883,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Errors",
           "name": "Errors",
           "package": "hsgnutls",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS Errors",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Errors",
           "name": "Errors",
           "package": "hsgnutls",
@@ -1904,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.Errors",
           "name": "errorShortMemory",
           "package": "hsgnutls",
@@ -1913,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS Errors",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.Errors",
           "name": "errorShortMemory",
           "package": "hsgnutls",
@@ -1926,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSMonad",
           "package": "hsgnutls",
@@ -1934,6 +2107,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSMonad",
           "package": "hsgnutls",
@@ -1947,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSError",
           "package": "hsgnutls",
@@ -1955,6 +2130,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSError",
           "package": "hsgnutls",
@@ -1968,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSMonad",
           "package": "hsgnutls",
@@ -1976,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSMonad",
           "package": "hsgnutls",
@@ -1989,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSError",
           "package": "hsgnutls",
@@ -1998,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "GnuTLSError",
           "package": "hsgnutls",
@@ -2011,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "checkError",
           "package": "hsgnutls",
@@ -2020,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "checkError",
           "normalized": "CInt-\u003eGnuTLSMonad()",
@@ -2035,6 +2217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "getDescription",
           "package": "hsgnutls",
@@ -2044,6 +2227,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "getDescription",
           "normalized": "GnuTLSError-\u003eString",
@@ -2059,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "gnuTLSCheckBool",
           "package": "hsgnutls",
@@ -2068,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "gnuTLSCheckBool",
           "normalized": "CInt-\u003eGnuTLSMonad Bool",
@@ -2083,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "withGnuTLS",
           "package": "hsgnutls",
@@ -2092,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS GnuTLSMonad",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.GnuTLSMonad",
           "name": "withGnuTLS",
           "normalized": "IO a-\u003eIO a",
@@ -2107,6 +2295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "OID",
           "package": "hsgnutls",
@@ -2115,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "OID",
           "package": "hsgnutls",
@@ -2128,6 +2318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "OID",
           "package": "hsgnutls",
@@ -2136,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "OID",
           "package": "hsgnutls",
@@ -2149,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidPKCS9Email",
           "package": "hsgnutls",
@@ -2158,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidPKCS9Email",
           "package": "hsgnutls",
@@ -2171,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX509v3SubjectKeyIdentifier",
           "package": "hsgnutls",
@@ -2180,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX509v3SubjectKeyIdentifier",
           "package": "hsgnutls",
@@ -2193,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520CommonName",
           "package": "hsgnutls",
@@ -2202,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520CommonName",
           "package": "hsgnutls",
@@ -2215,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520CountryName",
           "package": "hsgnutls",
@@ -2224,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520CountryName",
           "package": "hsgnutls",
@@ -2237,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520GenerationQualifier",
           "package": "hsgnutls",
@@ -2246,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520GenerationQualifier",
           "package": "hsgnutls",
@@ -2259,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520GivenName",
           "package": "hsgnutls",
@@ -2268,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520GivenName",
           "package": "hsgnutls",
@@ -2281,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Initials",
           "package": "hsgnutls",
@@ -2290,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Initials",
           "package": "hsgnutls",
@@ -2303,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520LocalityName",
           "package": "hsgnutls",
@@ -2312,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520LocalityName",
           "package": "hsgnutls",
@@ -2325,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520OrganizationName",
           "package": "hsgnutls",
@@ -2334,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520OrganizationName",
           "package": "hsgnutls",
@@ -2347,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520OrganizationalUnitName",
           "package": "hsgnutls",
@@ -2356,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520OrganizationalUnitName",
           "package": "hsgnutls",
@@ -2369,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520StateOrProvinceName",
           "package": "hsgnutls",
@@ -2378,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520StateOrProvinceName",
           "package": "hsgnutls",
@@ -2391,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Surname",
           "package": "hsgnutls",
@@ -2400,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Surname",
           "package": "hsgnutls",
@@ -2413,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Title",
           "package": "hsgnutls",
@@ -2422,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS OID",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.OID",
           "name": "oidX520Title",
           "package": "hsgnutls",
@@ -2435,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "X509",
           "package": "hsgnutls",
@@ -2443,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "X509",
           "package": "hsgnutls",
@@ -2455,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "Certificate",
           "package": "hsgnutls",
@@ -2463,6 +2684,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "Certificate",
           "package": "hsgnutls",
@@ -2476,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "PrivateKey",
           "package": "hsgnutls",
@@ -2484,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "PrivateKey",
           "package": "hsgnutls",
@@ -2497,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "certificateGetKeyId",
           "package": "hsgnutls",
@@ -2506,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "certificateGetKeyId",
           "normalized": "Certificate-\u003eGnuTLSMonad ByteString",
@@ -2521,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "certificateRSAParameters",
           "package": "hsgnutls",
@@ -2530,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "certificateRSAParameters",
           "normalized": "Certificate-\u003eGnuTLSMonad(ByteString,ByteString)",
@@ -2546,6 +2774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the certicate hostname matches the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "checkHostname",
           "package": "hsgnutls",
@@ -2556,6 +2785,7 @@
         "index": {
           "description": "Check whether the certicate hostname matches the given name",
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "checkHostname",
           "normalized": "Certificate-\u003eString-\u003eGnuTLSMonad Bool",
@@ -2572,6 +2802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the second certificate issued the first one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "checkIssuer",
           "package": "hsgnutls",
@@ -2582,6 +2813,7 @@
         "index": {
           "description": "Check if the second certificate issued the first one",
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "checkIssuer",
           "normalized": "Certificate-\u003eCertificate-\u003eGnuTLSMonad Bool",
@@ -2597,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "exportCertificate",
           "package": "hsgnutls",
@@ -2606,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "exportCertificate",
           "normalized": "Certificate-\u003eX CertificateFormat-\u003eGnuTLSMonad ByteString",
@@ -2621,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "exportPrivateKey",
           "package": "hsgnutls",
@@ -2630,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "exportPrivateKey",
           "normalized": "PrivateKey-\u003eX CertificateFormat-\u003eGnuTLSMonad ByteString",
@@ -2646,6 +2882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a field by it's Object Identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "getDnByOid",
           "package": "hsgnutls",
@@ -2655,6 +2892,7 @@
         "index": {
           "description": "Retrieves field by it Object Identifier",
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "getDnByOid",
           "normalized": "Certificate-\u003eOID-\u003eInt-\u003eGnuTLSMonad(Maybe ByteString)",
@@ -2670,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "getExtensionByOid",
           "package": "hsgnutls",
@@ -2679,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "getExtensionByOid",
           "normalized": "Certificate-\u003eOID-\u003eInt-\u003eGnuTLSMonad(Maybe(ByteString,Bool))",
@@ -2694,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "getIssuerDnByOid",
           "package": "hsgnutls",
@@ -2703,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "getIssuerDnByOid",
           "normalized": "Certificate-\u003eOID-\u003eInt-\u003eGnuTLSMonad(Maybe ByteString)",
@@ -2719,6 +2961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImport an encoded certificate to the native format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "importCertificate",
           "package": "hsgnutls",
@@ -2729,6 +2972,7 @@
         "index": {
           "description": "Import an encoded certificate to the native format",
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "importCertificate",
           "normalized": "a-\u003eX CertificateFormat-\u003eGnuTLSMonad Certificate",
@@ -2744,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "importPrivateKey",
           "package": "hsgnutls",
@@ -2753,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "importPrivateKey",
           "normalized": "a-\u003eX CertificateFormat-\u003eGnuTLSMonad PrivateKey",
@@ -2768,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "privateKeyGetKeyId",
           "package": "hsgnutls",
@@ -2777,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "privateKeyGetKeyId",
           "normalized": "PrivateKey-\u003eGnuTLSMonad ByteString",
@@ -2792,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "privateKeyRSAParameters",
           "package": "hsgnutls",
@@ -2801,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "privateKeyRSAParameters",
           "normalized": "PrivateKey-\u003eGnuTLSMonad(ByteString,ByteString,ByteString,ByteString,ByteString,ByteString)",
@@ -2816,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "signData",
           "package": "hsgnutls",
@@ -2825,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "signData",
           "normalized": "PrivateKey-\u003eDigestAlgorithm-\u003ea-\u003eGnuTLSMonad ByteString",
@@ -2840,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS.X509",
           "name": "verifySignature",
           "package": "hsgnutls",
@@ -2849,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS X509",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS.X509",
           "name": "verifySignature",
           "normalized": "Certificate-\u003ea-\u003eb-\u003eGnuTLSMonad Bool",
@@ -2864,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "GnuTLS",
           "package": "hsgnutls",
@@ -2872,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "GnuTLS",
           "package": "hsgnutls",
@@ -2885,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AlertDescription",
           "package": "hsgnutls",
@@ -2893,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AlertDescription",
           "package": "hsgnutls",
@@ -2906,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AlertLevel",
           "package": "hsgnutls",
@@ -2914,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AlertLevel",
           "package": "hsgnutls",
@@ -2927,6 +3187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AnonymousClientCredentials",
           "package": "hsgnutls",
@@ -2935,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AnonymousClientCredentials",
           "package": "hsgnutls",
@@ -2948,6 +3210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AnonymousServerCredentials",
           "package": "hsgnutls",
@@ -2956,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AnonymousServerCredentials",
           "package": "hsgnutls",
@@ -2969,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertificateCredentials",
           "package": "hsgnutls",
@@ -2977,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertificateCredentials",
           "package": "hsgnutls",
@@ -2990,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertificateRequest",
           "package": "hsgnutls",
@@ -2998,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertificateRequest",
           "package": "hsgnutls",
@@ -3011,6 +3279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertificateStatus",
           "package": "hsgnutls",
@@ -3019,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertificateStatus",
           "package": "hsgnutls",
@@ -3032,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertificateType",
           "package": "hsgnutls",
@@ -3040,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertificateType",
           "package": "hsgnutls",
@@ -3053,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAlgorithm",
           "package": "hsgnutls",
@@ -3061,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAlgorithm",
           "package": "hsgnutls",
@@ -3075,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to clear all credentials associated with a session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Clear",
           "package": "hsgnutls",
@@ -3084,6 +3359,7 @@
         "index": {
           "description": "Used to clear all credentials associated with session",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Clear",
           "package": "hsgnutls",
@@ -3097,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Client",
           "package": "hsgnutls",
@@ -3105,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Client",
           "package": "hsgnutls",
@@ -3118,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CloseRequest",
           "package": "hsgnutls",
@@ -3126,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CloseRequest",
           "package": "hsgnutls",
@@ -3139,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CompressionMethod",
           "package": "hsgnutls",
@@ -3147,6 +3428,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CompressionMethod",
           "package": "hsgnutls",
@@ -3160,6 +3442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ConnectionEnd",
           "package": "hsgnutls",
@@ -3168,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ConnectionEnd",
           "package": "hsgnutls",
@@ -3181,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CredParameter",
           "package": "hsgnutls",
@@ -3189,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CredParameter",
           "package": "hsgnutls",
@@ -3202,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CredentialsType",
           "package": "hsgnutls",
@@ -3210,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CredentialsType",
           "package": "hsgnutls",
@@ -3223,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DH",
           "package": "hsgnutls",
@@ -3231,6 +3520,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DH",
           "package": "hsgnutls",
@@ -3244,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Datum",
           "package": "hsgnutls",
@@ -3252,6 +3543,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Datum",
           "package": "hsgnutls",
@@ -3265,6 +3557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigestAlgorithm",
           "package": "hsgnutls",
@@ -3273,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigestAlgorithm",
           "package": "hsgnutls",
@@ -3286,6 +3580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeDescription",
           "package": "hsgnutls",
@@ -3294,6 +3589,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeDescription",
           "package": "hsgnutls",
@@ -3307,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxAlgorithm",
           "package": "hsgnutls",
@@ -3315,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxAlgorithm",
           "package": "hsgnutls",
@@ -3328,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacAlgorithm",
           "package": "hsgnutls",
@@ -3336,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacAlgorithm",
           "package": "hsgnutls",
@@ -3349,6 +3649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ParamsType",
           "package": "hsgnutls",
@@ -3357,6 +3658,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ParamsType",
           "package": "hsgnutls",
@@ -3370,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "PkAlgorithm",
           "package": "hsgnutls",
@@ -3378,6 +3681,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "PkAlgorithm",
           "package": "hsgnutls",
@@ -3391,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Protocol",
           "package": "hsgnutls",
@@ -3399,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Protocol",
           "package": "hsgnutls",
@@ -3412,6 +3718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "RSA",
           "package": "hsgnutls",
@@ -3420,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "RSA",
           "package": "hsgnutls",
@@ -3433,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Server",
           "package": "hsgnutls",
@@ -3441,6 +3750,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Server",
           "package": "hsgnutls",
@@ -3454,6 +3764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Session",
           "package": "hsgnutls",
@@ -3462,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Session",
           "package": "hsgnutls",
@@ -3476,6 +3788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the credentials associated with a session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SetCredentials",
           "package": "hsgnutls",
@@ -3485,6 +3798,7 @@
         "index": {
           "description": "Set the credentials associated with session",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SetCredentials",
           "package": "hsgnutls",
@@ -3498,6 +3812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SetDHParams",
           "package": "hsgnutls",
@@ -3506,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SetDHParams",
           "package": "hsgnutls",
@@ -3520,6 +3836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the priority of the specified category.\n On servers this means the set of acceptable values,\n on clients it sets the priorities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SetPriority",
           "package": "hsgnutls",
@@ -3529,6 +3846,7 @@
         "index": {
           "description": "Set the priority of the specified category On servers this means the set of acceptable values on clients it sets the priorities",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SetPriority",
           "package": "hsgnutls",
@@ -3542,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignAlgorithm",
           "package": "hsgnutls",
@@ -3550,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignAlgorithm",
           "package": "hsgnutls",
@@ -3563,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Transport",
           "package": "hsgnutls",
@@ -3571,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Transport",
           "package": "hsgnutls",
@@ -3584,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "X509CertificateFormat",
           "package": "hsgnutls",
@@ -3592,6 +3915,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "X509CertificateFormat",
           "package": "hsgnutls",
@@ -3605,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AAccessDenied",
           "package": "hsgnutls",
@@ -3614,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AAccessDenied",
           "package": "hsgnutls",
@@ -3627,6 +3953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ABadCertificate",
           "package": "hsgnutls",
@@ -3636,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ABadCertificate",
           "package": "hsgnutls",
@@ -3649,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ABadRecordMac",
           "package": "hsgnutls",
@@ -3658,6 +3987,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ABadRecordMac",
           "package": "hsgnutls",
@@ -3671,6 +4001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ACertificateExpired",
           "package": "hsgnutls",
@@ -3680,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ACertificateExpired",
           "package": "hsgnutls",
@@ -3693,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ACertificateRevoked",
           "package": "hsgnutls",
@@ -3702,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ACertificateRevoked",
           "package": "hsgnutls",
@@ -3715,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ACertificateUnknown",
           "package": "hsgnutls",
@@ -3724,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ACertificateUnknown",
           "package": "hsgnutls",
@@ -3737,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ACertificateUnobtainable",
           "package": "hsgnutls",
@@ -3746,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ACertificateUnobtainable",
           "package": "hsgnutls",
@@ -3759,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ACloseNotify",
           "package": "hsgnutls",
@@ -3768,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ACloseNotify",
           "package": "hsgnutls",
@@ -3781,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ADecodeError",
           "package": "hsgnutls",
@@ -3790,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ADecodeError",
           "package": "hsgnutls",
@@ -3803,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ADecompressionFailure",
           "package": "hsgnutls",
@@ -3812,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ADecompressionFailure",
           "package": "hsgnutls",
@@ -3825,6 +4169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ADecryptError",
           "package": "hsgnutls",
@@ -3834,6 +4179,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ADecryptError",
           "package": "hsgnutls",
@@ -3847,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ADecryptionFailed",
           "package": "hsgnutls",
@@ -3856,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ADecryptionFailed",
           "package": "hsgnutls",
@@ -3869,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AExportRestriction",
           "package": "hsgnutls",
@@ -3878,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AExportRestriction",
           "package": "hsgnutls",
@@ -3891,6 +4241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AHandshakeFailure",
           "package": "hsgnutls",
@@ -3900,6 +4251,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AHandshakeFailure",
           "package": "hsgnutls",
@@ -3913,6 +4265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AIllegalParameter",
           "package": "hsgnutls",
@@ -3922,6 +4275,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AIllegalParameter",
           "package": "hsgnutls",
@@ -3935,6 +4289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AInnerApplicationFailure",
           "package": "hsgnutls",
@@ -3944,6 +4299,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AInnerApplicationFailure",
           "package": "hsgnutls",
@@ -3957,6 +4313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AInnerApplicationVerification",
           "package": "hsgnutls",
@@ -3966,6 +4323,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AInnerApplicationVerification",
           "package": "hsgnutls",
@@ -3979,6 +4337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AInsufficientSecurity",
           "package": "hsgnutls",
@@ -3988,6 +4347,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AInsufficientSecurity",
           "package": "hsgnutls",
@@ -4001,6 +4361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AInternalError",
           "package": "hsgnutls",
@@ -4010,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AInternalError",
           "package": "hsgnutls",
@@ -4023,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ANoRenegotiation",
           "package": "hsgnutls",
@@ -4032,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ANoRenegotiation",
           "package": "hsgnutls",
@@ -4045,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AProtocolVersion",
           "package": "hsgnutls",
@@ -4054,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AProtocolVersion",
           "package": "hsgnutls",
@@ -4067,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ARecordOverflow",
           "package": "hsgnutls",
@@ -4076,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ARecordOverflow",
           "package": "hsgnutls",
@@ -4089,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ASsl3NoCertificate",
           "package": "hsgnutls",
@@ -4098,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ASsl3NoCertificate",
           "package": "hsgnutls",
@@ -4111,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnexpectedMessage",
           "package": "hsgnutls",
@@ -4120,6 +4491,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnexpectedMessage",
           "package": "hsgnutls",
@@ -4133,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnknownCa",
           "package": "hsgnutls",
@@ -4142,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnknownCa",
           "package": "hsgnutls",
@@ -4155,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnknownPskIdentity",
           "package": "hsgnutls",
@@ -4164,6 +4539,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnknownPskIdentity",
           "package": "hsgnutls",
@@ -4177,6 +4553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnrecognizedName",
           "package": "hsgnutls",
@@ -4186,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnrecognizedName",
           "package": "hsgnutls",
@@ -4199,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnsupportedCertificate",
           "package": "hsgnutls",
@@ -4208,6 +4587,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnsupportedCertificate",
           "package": "hsgnutls",
@@ -4221,6 +4601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUnsupportedExtension",
           "package": "hsgnutls",
@@ -4230,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUnsupportedExtension",
           "package": "hsgnutls",
@@ -4243,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AUserCanceled",
           "package": "hsgnutls",
@@ -4252,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AUserCanceled",
           "package": "hsgnutls",
@@ -4265,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AlFatal",
           "package": "hsgnutls",
@@ -4274,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AlFatal",
           "package": "hsgnutls",
@@ -4287,6 +4673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "AlWarning",
           "package": "hsgnutls",
@@ -4296,6 +4683,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "AlWarning",
           "package": "hsgnutls",
@@ -4309,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertExpired",
           "package": "hsgnutls",
@@ -4318,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertExpired",
           "package": "hsgnutls",
@@ -4331,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertIgnore",
           "package": "hsgnutls",
@@ -4340,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertIgnore",
           "package": "hsgnutls",
@@ -4353,6 +4745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertInsecureAlgorithm",
           "package": "hsgnutls",
@@ -4362,6 +4755,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertInsecureAlgorithm",
           "package": "hsgnutls",
@@ -4375,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertInvalid",
           "package": "hsgnutls",
@@ -4384,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertInvalid",
           "package": "hsgnutls",
@@ -4397,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertNotActivated",
           "package": "hsgnutls",
@@ -4406,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertNotActivated",
           "package": "hsgnutls",
@@ -4419,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertRequest",
           "package": "hsgnutls",
@@ -4428,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertRequest",
           "package": "hsgnutls",
@@ -4441,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertRequire",
           "package": "hsgnutls",
@@ -4450,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertRequire",
           "package": "hsgnutls",
@@ -4463,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertRevoked",
           "package": "hsgnutls",
@@ -4472,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertRevoked",
           "package": "hsgnutls",
@@ -4485,6 +4889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertSignerNotCa",
           "package": "hsgnutls",
@@ -4494,6 +4899,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertSignerNotCa",
           "package": "hsgnutls",
@@ -4507,6 +4913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CertSignerNotFound",
           "package": "hsgnutls",
@@ -4516,6 +4923,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CertSignerNotFound",
           "package": "hsgnutls",
@@ -4529,6 +4937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Cipher3desCbc",
           "package": "hsgnutls",
@@ -4538,6 +4947,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Cipher3desCbc",
           "package": "hsgnutls",
@@ -4551,6 +4961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Cipher3desPgpCfb",
           "package": "hsgnutls",
@@ -4560,6 +4971,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Cipher3desPgpCfb",
           "package": "hsgnutls",
@@ -4573,6 +4985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAes128Cbc",
           "package": "hsgnutls",
@@ -4582,6 +4995,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAes128Cbc",
           "package": "hsgnutls",
@@ -4595,6 +5009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAes128PgpCfb",
           "package": "hsgnutls",
@@ -4604,6 +5019,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAes128PgpCfb",
           "package": "hsgnutls",
@@ -4617,6 +5033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAes192PgpCfb",
           "package": "hsgnutls",
@@ -4626,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAes192PgpCfb",
           "package": "hsgnutls",
@@ -4639,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAes256Cbc",
           "package": "hsgnutls",
@@ -4648,6 +5067,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAes256Cbc",
           "package": "hsgnutls",
@@ -4661,6 +5081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherAes256PgpCfb",
           "package": "hsgnutls",
@@ -4670,6 +5091,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherAes256PgpCfb",
           "package": "hsgnutls",
@@ -4683,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherArcfour128",
           "package": "hsgnutls",
@@ -4692,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherArcfour128",
           "package": "hsgnutls",
@@ -4705,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherArcfour40",
           "package": "hsgnutls",
@@ -4714,6 +5139,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherArcfour40",
           "package": "hsgnutls",
@@ -4727,6 +5153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherBlowfishPgpCfb",
           "package": "hsgnutls",
@@ -4736,6 +5163,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherBlowfishPgpCfb",
           "package": "hsgnutls",
@@ -4749,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherCamellia128Cbc",
           "package": "hsgnutls",
@@ -4758,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherCamellia128Cbc",
           "package": "hsgnutls",
@@ -4771,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherCamellia256Cbc",
           "package": "hsgnutls",
@@ -4780,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherCamellia256Cbc",
           "package": "hsgnutls",
@@ -4793,6 +5225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherCast5PgpCfb",
           "package": "hsgnutls",
@@ -4802,6 +5235,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherCast5PgpCfb",
           "package": "hsgnutls",
@@ -4815,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherDesCbc",
           "package": "hsgnutls",
@@ -4824,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherDesCbc",
           "package": "hsgnutls",
@@ -4837,6 +5273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherIdeaPgpCfb",
           "package": "hsgnutls",
@@ -4846,6 +5283,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherIdeaPgpCfb",
           "package": "hsgnutls",
@@ -4859,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherNull",
           "package": "hsgnutls",
@@ -4868,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherNull",
           "package": "hsgnutls",
@@ -4881,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherRc240Cbc",
           "package": "hsgnutls",
@@ -4890,6 +5331,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherRc240Cbc",
           "package": "hsgnutls",
@@ -4903,6 +5345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherSaferSk128PgpCfb",
           "package": "hsgnutls",
@@ -4912,6 +5355,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherSaferSk128PgpCfb",
           "package": "hsgnutls",
@@ -4925,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherTwofishPgpCfb",
           "package": "hsgnutls",
@@ -4934,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherTwofishPgpCfb",
           "package": "hsgnutls",
@@ -4947,6 +5393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CipherUnknown",
           "package": "hsgnutls",
@@ -4956,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CipherUnknown",
           "package": "hsgnutls",
@@ -4969,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Clear",
           "package": "hsgnutls",
@@ -4978,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Clear",
           "package": "hsgnutls",
@@ -4991,6 +5441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Client",
           "package": "hsgnutls",
@@ -5000,6 +5451,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Client",
           "package": "hsgnutls",
@@ -5013,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CompDeflate",
           "package": "hsgnutls",
@@ -5022,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CompDeflate",
           "package": "hsgnutls",
@@ -5035,6 +5489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CompLzo",
           "package": "hsgnutls",
@@ -5044,6 +5499,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CompLzo",
           "package": "hsgnutls",
@@ -5057,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CompNull",
           "package": "hsgnutls",
@@ -5066,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CompNull",
           "package": "hsgnutls",
@@ -5079,6 +5537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CompUnknown",
           "package": "hsgnutls",
@@ -5088,6 +5547,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CompUnknown",
           "package": "hsgnutls",
@@ -5101,6 +5561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrdAnon",
           "package": "hsgnutls",
@@ -5110,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrdAnon",
           "package": "hsgnutls",
@@ -5123,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrdCertificate",
           "package": "hsgnutls",
@@ -5132,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrdCertificate",
           "package": "hsgnutls",
@@ -5145,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrdIa",
           "package": "hsgnutls",
@@ -5154,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrdIa",
           "package": "hsgnutls",
@@ -5167,6 +5633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrdPsk",
           "package": "hsgnutls",
@@ -5176,6 +5643,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrdPsk",
           "package": "hsgnutls",
@@ -5189,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrdSrp",
           "package": "hsgnutls",
@@ -5198,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrdSrp",
           "package": "hsgnutls",
@@ -5211,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrtOpenpgp",
           "package": "hsgnutls",
@@ -5220,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrtOpenpgp",
           "package": "hsgnutls",
@@ -5233,6 +5705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrtUnknown",
           "package": "hsgnutls",
@@ -5242,6 +5715,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrtUnknown",
           "package": "hsgnutls",
@@ -5255,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "CrtX509",
           "package": "hsgnutls",
@@ -5264,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "CrtX509",
           "package": "hsgnutls",
@@ -5277,6 +5753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigMd2",
           "package": "hsgnutls",
@@ -5286,6 +5763,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigMd2",
           "package": "hsgnutls",
@@ -5299,6 +5777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigMd5",
           "package": "hsgnutls",
@@ -5308,6 +5787,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigMd5",
           "package": "hsgnutls",
@@ -5321,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigNull",
           "package": "hsgnutls",
@@ -5330,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigNull",
           "package": "hsgnutls",
@@ -5343,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigRmd160",
           "package": "hsgnutls",
@@ -5352,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigRmd160",
           "package": "hsgnutls",
@@ -5365,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigSha1",
           "package": "hsgnutls",
@@ -5374,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigSha1",
           "package": "hsgnutls",
@@ -5387,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigSha224",
           "package": "hsgnutls",
@@ -5396,6 +5883,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigSha224",
           "package": "hsgnutls",
@@ -5409,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigSha256",
           "package": "hsgnutls",
@@ -5418,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigSha256",
           "package": "hsgnutls",
@@ -5431,6 +5921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigSha384",
           "package": "hsgnutls",
@@ -5440,6 +5931,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigSha384",
           "package": "hsgnutls",
@@ -5453,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "DigSha512",
           "package": "hsgnutls",
@@ -5462,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "DigSha512",
           "package": "hsgnutls",
@@ -5475,6 +5969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificatePkt",
           "package": "hsgnutls",
@@ -5484,6 +5979,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificatePkt",
           "package": "hsgnutls",
@@ -5497,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificateRequest",
           "package": "hsgnutls",
@@ -5506,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificateRequest",
           "package": "hsgnutls",
@@ -5519,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificateVerify",
           "package": "hsgnutls",
@@ -5528,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeCertificateVerify",
           "package": "hsgnutls",
@@ -5541,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeClientHello",
           "package": "hsgnutls",
@@ -5550,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeClientHello",
           "package": "hsgnutls",
@@ -5563,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeClientKeyExchange",
           "package": "hsgnutls",
@@ -5572,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeClientKeyExchange",
           "package": "hsgnutls",
@@ -5585,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeFinished",
           "package": "hsgnutls",
@@ -5594,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeFinished",
           "package": "hsgnutls",
@@ -5607,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeHelloRequest",
           "package": "hsgnutls",
@@ -5616,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeHelloRequest",
           "package": "hsgnutls",
@@ -5629,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerHello",
           "package": "hsgnutls",
@@ -5638,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerHello",
           "package": "hsgnutls",
@@ -5651,6 +6161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerHelloDone",
           "package": "hsgnutls",
@@ -5660,6 +6171,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerHelloDone",
           "package": "hsgnutls",
@@ -5673,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerKeyExchange",
           "package": "hsgnutls",
@@ -5682,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeServerKeyExchange",
           "package": "hsgnutls",
@@ -5695,6 +6209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "HandshakeSupplemental",
           "package": "hsgnutls",
@@ -5704,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "HandshakeSupplemental",
           "package": "hsgnutls",
@@ -5717,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxAnonDh",
           "package": "hsgnutls",
@@ -5726,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxAnonDh",
           "package": "hsgnutls",
@@ -5739,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxDheDss",
           "package": "hsgnutls",
@@ -5748,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxDheDss",
           "package": "hsgnutls",
@@ -5761,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxDhePsk",
           "package": "hsgnutls",
@@ -5770,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxDhePsk",
           "package": "hsgnutls",
@@ -5783,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxDheRsa",
           "package": "hsgnutls",
@@ -5792,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxDheRsa",
           "package": "hsgnutls",
@@ -5805,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxPsk",
           "package": "hsgnutls",
@@ -5814,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxPsk",
           "package": "hsgnutls",
@@ -5827,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxRsa",
           "package": "hsgnutls",
@@ -5836,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxRsa",
           "package": "hsgnutls",
@@ -5849,6 +6377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxRsaExport",
           "package": "hsgnutls",
@@ -5858,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxRsaExport",
           "package": "hsgnutls",
@@ -5871,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxSrp",
           "package": "hsgnutls",
@@ -5880,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxSrp",
           "package": "hsgnutls",
@@ -5893,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxSrpDss",
           "package": "hsgnutls",
@@ -5902,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxSrpDss",
           "package": "hsgnutls",
@@ -5915,6 +6449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxSrpRsa",
           "package": "hsgnutls",
@@ -5924,6 +6459,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxSrpRsa",
           "package": "hsgnutls",
@@ -5937,6 +6473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "KxUnknown",
           "package": "hsgnutls",
@@ -5946,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "KxUnknown",
           "package": "hsgnutls",
@@ -5959,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacMd2",
           "package": "hsgnutls",
@@ -5968,6 +6507,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacMd2",
           "package": "hsgnutls",
@@ -5981,6 +6521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacMd5",
           "package": "hsgnutls",
@@ -5990,6 +6531,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacMd5",
           "package": "hsgnutls",
@@ -6003,6 +6545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacNull",
           "package": "hsgnutls",
@@ -6012,6 +6555,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacNull",
           "package": "hsgnutls",
@@ -6025,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacRmd160",
           "package": "hsgnutls",
@@ -6034,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacRmd160",
           "package": "hsgnutls",
@@ -6047,6 +6593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacSha1",
           "package": "hsgnutls",
@@ -6056,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacSha1",
           "package": "hsgnutls",
@@ -6069,6 +6617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacSha256",
           "package": "hsgnutls",
@@ -6078,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacSha256",
           "package": "hsgnutls",
@@ -6091,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacSha384",
           "package": "hsgnutls",
@@ -6100,6 +6651,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacSha384",
           "package": "hsgnutls",
@@ -6113,6 +6665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacSha512",
           "package": "hsgnutls",
@@ -6122,6 +6675,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacSha512",
           "package": "hsgnutls",
@@ -6135,6 +6689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "MacUnknown",
           "package": "hsgnutls",
@@ -6144,6 +6699,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "MacUnknown",
           "package": "hsgnutls",
@@ -6157,6 +6713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ParamsDh",
           "package": "hsgnutls",
@@ -6166,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ParamsDh",
           "package": "hsgnutls",
@@ -6179,6 +6737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ParamsRsaExport",
           "package": "hsgnutls",
@@ -6188,6 +6747,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ParamsRsaExport",
           "package": "hsgnutls",
@@ -6201,6 +6761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "PkDsa",
           "package": "hsgnutls",
@@ -6210,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "PkDsa",
           "package": "hsgnutls",
@@ -6223,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "PkRsa",
           "package": "hsgnutls",
@@ -6232,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "PkRsa",
           "package": "hsgnutls",
@@ -6245,6 +6809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "PkUnknown",
           "package": "hsgnutls",
@@ -6254,6 +6819,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "PkUnknown",
           "package": "hsgnutls",
@@ -6267,6 +6833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Server",
           "package": "hsgnutls",
@@ -6276,6 +6843,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Server",
           "package": "hsgnutls",
@@ -6289,6 +6857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ShutRdwr",
           "package": "hsgnutls",
@@ -6298,6 +6867,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ShutRdwr",
           "package": "hsgnutls",
@@ -6311,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "ShutWr",
           "package": "hsgnutls",
@@ -6320,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "ShutWr",
           "package": "hsgnutls",
@@ -6333,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignDsaSha1",
           "package": "hsgnutls",
@@ -6342,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignDsaSha1",
           "package": "hsgnutls",
@@ -6355,6 +6929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaMd2",
           "package": "hsgnutls",
@@ -6364,6 +6939,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaMd2",
           "package": "hsgnutls",
@@ -6377,6 +6953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaMd5",
           "package": "hsgnutls",
@@ -6386,6 +6963,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaMd5",
           "package": "hsgnutls",
@@ -6399,6 +6977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaRmd160",
           "package": "hsgnutls",
@@ -6408,6 +6987,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaRmd160",
           "package": "hsgnutls",
@@ -6421,6 +7001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha1",
           "package": "hsgnutls",
@@ -6430,6 +7011,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha1",
           "package": "hsgnutls",
@@ -6443,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha224",
           "package": "hsgnutls",
@@ -6452,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha224",
           "package": "hsgnutls",
@@ -6465,6 +7049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha256",
           "package": "hsgnutls",
@@ -6474,6 +7059,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha256",
           "package": "hsgnutls",
@@ -6487,6 +7073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha384",
           "package": "hsgnutls",
@@ -6496,6 +7083,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha384",
           "package": "hsgnutls",
@@ -6509,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha512",
           "package": "hsgnutls",
@@ -6518,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignRsaSha512",
           "package": "hsgnutls",
@@ -6531,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "SignUnknown",
           "package": "hsgnutls",
@@ -6540,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "SignUnknown",
           "package": "hsgnutls",
@@ -6553,6 +7145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Ssl3",
           "package": "hsgnutls",
@@ -6562,6 +7155,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Ssl3",
           "package": "hsgnutls",
@@ -6575,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Tls10",
           "package": "hsgnutls",
@@ -6584,6 +7179,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Tls10",
           "package": "hsgnutls",
@@ -6597,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Tls11",
           "package": "hsgnutls",
@@ -6606,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Tls11",
           "package": "hsgnutls",
@@ -6619,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "Tls12",
           "package": "hsgnutls",
@@ -6628,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "Tls12",
           "package": "hsgnutls",
@@ -6641,6 +7241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "VersionUnknown",
           "package": "hsgnutls",
@@ -6650,6 +7251,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "VersionUnknown",
           "package": "hsgnutls",
@@ -6663,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "X509FmtDer",
           "package": "hsgnutls",
@@ -6672,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "X509FmtDer",
           "package": "hsgnutls",
@@ -6685,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "X509FmtPem",
           "package": "hsgnutls",
@@ -6694,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "X509FmtPem",
           "package": "hsgnutls",
@@ -6707,6 +7313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "anonymousClientCredentials",
           "package": "hsgnutls",
@@ -6716,6 +7323,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "anonymousClientCredentials",
           "package": "hsgnutls",
@@ -6729,6 +7337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "anonymousServerCredentials",
           "package": "hsgnutls",
@@ -6738,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "anonymousServerCredentials",
           "package": "hsgnutls",
@@ -6752,6 +7362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerminates the current TLS connection, which has been succesfully established\n with \u003ccode\u003e\u003ca\u003ehandshake\u003c/a\u003e\u003c/code\u003e. Notifies the peer with an alert that the connection is closing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "bye",
           "package": "hsgnutls",
@@ -6762,6 +7373,7 @@
         "index": {
           "description": "Terminates the current TLS connection which has been succesfully established with handshake Notifies the peer with an alert that the connection is closing",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "bye",
           "normalized": "Session a-\u003eCloseRequest-\u003eIO()",
@@ -6776,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "certificateCredentials",
           "package": "hsgnutls",
@@ -6785,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "certificateCredentials",
           "package": "hsgnutls",
@@ -6798,6 +7412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "certificateCrlFile",
           "package": "hsgnutls",
@@ -6807,6 +7422,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "certificateCrlFile",
           "normalized": "CertificateCredentials-\u003eFilePath-\u003eX CertificateFormat-\u003eIO Int",
@@ -6822,6 +7438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "certificateKeyFile",
           "package": "hsgnutls",
@@ -6831,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "certificateKeyFile",
           "normalized": "CertificateCredentials-\u003eFilePath-\u003eFilePath-\u003eX CertificateFormat-\u003eIO Int",
@@ -6846,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "certificateTrustFile",
           "package": "hsgnutls",
@@ -6855,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "certificateTrustFile",
           "normalized": "CertificateCredentials-\u003eFilePath-\u003eX CertificateFormat-\u003eIO Int",
@@ -6871,6 +7491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the cipher's key size in bytes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "cipherKeySize",
           "package": "hsgnutls",
@@ -6881,6 +7502,7 @@
         "index": {
           "description": "Return the cipher key size in bytes",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "cipherKeySize",
           "normalized": "CipherAlgorithm-\u003eInt",
@@ -6897,6 +7519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the name of the ciphersuite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "cipherSuiteName",
           "package": "hsgnutls",
@@ -6907,6 +7530,7 @@
         "index": {
           "description": "Return the name of the ciphersuite",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "cipherSuiteName",
           "normalized": "KxAlgorithm-\u003eCipherAlgorithm-\u003eMacAlgorithm-\u003eString",
@@ -6923,6 +7547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet whether we want to do client authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "clientCert",
           "package": "hsgnutls",
@@ -6933,6 +7558,7 @@
         "index": {
           "description": "Set whether we want to do client authentication",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "clientCert",
           "package": "hsgnutls",
@@ -6946,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "credentials",
           "package": "hsgnutls",
@@ -6955,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "credentials",
           "package": "hsgnutls",
@@ -6967,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "dhPrimeBits",
           "package": "hsgnutls",
@@ -6976,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "dhPrimeBits",
           "package": "hsgnutls",
@@ -6989,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "freeCaNames",
           "package": "hsgnutls",
@@ -6998,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "freeCaNames",
           "normalized": "CertificateCredentials-\u003eIO()",
@@ -7013,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "freeCas",
           "package": "hsgnutls",
@@ -7022,6 +7655,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "freeCas",
           "normalized": "CertificateCredentials-\u003eIO()",
@@ -7037,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "freeCrls",
           "package": "hsgnutls",
@@ -7046,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "freeCrls",
           "normalized": "CertificateCredentials-\u003eIO()",
@@ -7061,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "freeKeys",
           "package": "hsgnutls",
@@ -7070,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "freeKeys",
           "normalized": "CertificateCredentials-\u003eIO()",
@@ -7086,6 +7724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a new key with the given number of bits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "generate",
           "package": "hsgnutls",
@@ -7096,6 +7735,7 @@
         "index": {
           "description": "Generate new key with the given number of bits",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "generate",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -7111,6 +7751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the value of the last alert received - undefined if no alert has been received.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getAlert",
           "package": "hsgnutls",
@@ -7121,6 +7762,7 @@
         "index": {
           "description": "Return the value of the last alert received undefined if no alert has been received",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getAlert",
           "normalized": "Session a-\u003eIO AlertDescription",
@@ -7137,6 +7779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the currently used certificate type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getCertificateType",
           "package": "hsgnutls",
@@ -7147,6 +7790,7 @@
         "index": {
           "description": "Return the currently used certificate type",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getCertificateType",
           "normalized": "Session a-\u003eIO CertificateType",
@@ -7163,6 +7807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the currently used cipher.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getCipher",
           "package": "hsgnutls",
@@ -7173,6 +7818,7 @@
         "index": {
           "description": "Return the currently used cipher",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getCipher",
           "normalized": "Session a-\u003eIO CipherAlgorithm",
@@ -7189,6 +7835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the type of credentials used for authenticating the client. Available with GnuTLS 1.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getClientCredentialsType",
           "package": "hsgnutls",
@@ -7199,6 +7846,7 @@
         "index": {
           "description": "Return the type of credentials used for authenticating the client Available with GnuTLS",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getClientCredentialsType",
           "normalized": "Session a-\u003eIO CredentialsType",
@@ -7215,6 +7863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the compression method currently used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getCompression",
           "package": "hsgnutls",
@@ -7225,6 +7874,7 @@
         "index": {
           "description": "Return the compression method currently used",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getCompression",
           "normalized": "Session a-\u003eIO CompressionMethod",
@@ -7241,6 +7891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn type of credentials for the current authentication schema.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getCredentialsType",
           "package": "hsgnutls",
@@ -7251,6 +7902,7 @@
         "index": {
           "description": "Return type of credentials for the current authentication schema",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getCredentialsType",
           "normalized": "Session a-\u003eIO CredentialsType",
@@ -7267,6 +7919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the key exchange algorithm used in the last handshake.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getKx",
           "package": "hsgnutls",
@@ -7277,6 +7930,7 @@
         "index": {
           "description": "Return the key exchange algorithm used in the last handshake",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getKx",
           "normalized": "Session a-\u003eIO KxAlgorithm",
@@ -7293,6 +7947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the mac algorithm currently used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getMac",
           "package": "hsgnutls",
@@ -7303,6 +7958,7 @@
         "index": {
           "description": "Return the mac algorithm currently used",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getMac",
           "normalized": "Session a-\u003eIO MacAlgorithm",
@@ -7319,6 +7975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the certificate chain of the peer. \n In the case of X509 will return DER encoded certificate list\n beginning with the peers key and continuing in the issuer chain.\n With OpenPGP a single key will be returned in the raw format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getPeersCertificatesRaw",
           "package": "hsgnutls",
@@ -7329,6 +7986,7 @@
         "index": {
           "description": "Get the certificate chain of the peer In the case of X509 will return DER encoded certificate list beginning with the peers key and continuing in the issuer chain With OpenPGP single key will be returned in the raw format",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getPeersCertificatesRaw",
           "normalized": "Session a-\u003eIO[(Ptr CChar,Int)]",
@@ -7345,6 +8003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the currently used protocol version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getProtocol",
           "package": "hsgnutls",
@@ -7355,6 +8014,7 @@
         "index": {
           "description": "Return the currently used protocol version",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getProtocol",
           "normalized": "Session a-\u003eIO Protocol",
@@ -7371,6 +8031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the type of credentials used for authenticating the server. Available with GnuTLS 1.2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "getServerCredentialsType",
           "package": "hsgnutls",
@@ -7381,6 +8042,7 @@
         "index": {
           "description": "Return the type of credentials used for authenticating the server Available with GnuTLS",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "getServerCredentialsType",
           "normalized": "Session a-\u003eIO CredentialsType",
@@ -7396,6 +8058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "gnutlsGlobalInit",
           "package": "hsgnutls",
@@ -7405,6 +8068,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "gnutlsGlobalInit",
           "normalized": "IO()",
@@ -7420,6 +8084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "handle",
           "package": "hsgnutls",
@@ -7429,6 +8094,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "handle",
           "package": "hsgnutls",
@@ -7442,6 +8108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a handshake with the peer and initialize a TLS/SSL connection.\n Note that after the handshake completes applications \u003cem\u003emust\u003c/em\u003e check \n whether a high enough level of confidentiality was established.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "handshake",
           "package": "hsgnutls",
@@ -7452,6 +8119,7 @@
         "index": {
           "description": "Perform handshake with the peer and initialize TLS SSL connection Note that after the handshake completes applications must check whether high enough level of confidentiality was established",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "handshake",
           "normalized": "Session a-\u003eIO()",
@@ -7467,6 +8135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether this session is a resumed one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "isResumed",
           "package": "hsgnutls",
@@ -7477,6 +8146,7 @@
         "index": {
           "description": "Test whether this session is resumed one",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "isResumed",
           "normalized": "Session a-\u003eIO Bool",
@@ -7492,6 +8162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "newDH",
           "package": "hsgnutls",
@@ -7501,6 +8172,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "newDH",
           "package": "hsgnutls",
@@ -7514,6 +8186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "newRSA",
           "package": "hsgnutls",
@@ -7523,6 +8196,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "newRSA",
           "package": "hsgnutls",
@@ -7536,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "priorities",
           "package": "hsgnutls",
@@ -7545,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "priorities",
           "normalized": "WriteAttr(Session a)[b]",
@@ -7560,6 +8236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTells the client that we want to renogotiate the handshake. If the function\n succeeds then \u003ccode\u003e\u003ca\u003ehandshake\u003c/a\u003e\u003c/code\u003e can be called again on the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "rehandshake",
           "package": "hsgnutls",
@@ -7570,6 +8247,7 @@
         "index": {
           "description": "Tells the client that we want to renogotiate the handshake If the function succeeds then handshake can be called again on the connection",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "rehandshake",
           "normalized": "Session Server-\u003eIO()",
@@ -7584,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "serverWantedAuth",
           "package": "hsgnutls",
@@ -7593,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "serverWantedAuth",
           "normalized": "Session Client-\u003eIO Bool",
@@ -7608,6 +8288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setCredentials",
           "package": "hsgnutls",
@@ -7617,6 +8298,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setCredentials",
           "normalized": "Session a-\u003eb-\u003eIO()",
@@ -7632,6 +8314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setDHParams",
           "package": "hsgnutls",
@@ -7641,6 +8324,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setDHParams",
           "normalized": "a-\u003eDH-\u003eIO()",
@@ -7657,6 +8341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet default priorities conforming with various export regulations.\n \u003cem\u003eIncludes weak algorithms.\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setDefaultExportPriority",
           "package": "hsgnutls",
@@ -7667,6 +8352,7 @@
         "index": {
           "description": "Set default priorities conforming with various export regulations Includes weak algorithms",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setDefaultExportPriority",
           "normalized": "Session a-\u003eIO()",
@@ -7683,6 +8369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet default priorities. This is called whenever a new \u003ccode\u003e\u003ca\u003eSession\u003c/a\u003e\u003c/code\u003e is created to \n ensure sensible defaults. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setDefaultPriority",
           "package": "hsgnutls",
@@ -7693,6 +8380,7 @@
         "index": {
           "description": "Set default priorities This is called whenever new Session is created to ensure sensible defaults",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setDefaultPriority",
           "normalized": "Session a-\u003eIO()",
@@ -7709,6 +8397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the maximum size of a handshake request. Larger requests are ignored.\n Defaults to 16kb which should be large enough.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setMaxHandshakePacketLength",
           "package": "hsgnutls",
@@ -7719,6 +8408,7 @@
         "index": {
           "description": "Set the maximum size of handshake request Larger requests are ignored Defaults to kb which should be large enough",
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setMaxHandshakePacketLength",
           "normalized": "Session a-\u003eInt-\u003eIO()",
@@ -7734,6 +8424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "setPriority",
           "package": "hsgnutls",
@@ -7743,6 +8434,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "setPriority",
           "normalized": "Session a-\u003e[b]-\u003eIO()",
@@ -7758,6 +8450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsCheckPending",
           "package": "hsgnutls",
@@ -7767,6 +8460,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsCheckPending",
           "normalized": "Session a-\u003eIO Int",
@@ -7782,6 +8476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsClient",
           "package": "hsgnutls",
@@ -7791,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsClient",
           "normalized": "[AttrOp(Session Client)]-\u003eIO(Session Client)",
@@ -7806,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsRecv",
           "package": "hsgnutls",
@@ -7815,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsRecv",
           "normalized": "Session a-\u003ePtr b-\u003eInt-\u003eIO Int",
@@ -7830,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsRecvString",
           "package": "hsgnutls",
@@ -7839,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsRecvString",
           "normalized": "Session a-\u003eIO String",
@@ -7854,6 +8554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsSend",
           "package": "hsgnutls",
@@ -7863,6 +8564,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsSend",
           "normalized": "Session a-\u003ePtr b-\u003eInt-\u003eIO Int",
@@ -7878,6 +8580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsSendString",
           "package": "hsgnutls",
@@ -7887,6 +8590,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsSendString",
           "normalized": "Session a-\u003eString-\u003eIO()",
@@ -7902,6 +8606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "tlsServer",
           "package": "hsgnutls",
@@ -7911,6 +8616,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "tlsServer",
           "normalized": "[AttrOp(Session Server)]-\u003eIO(Session Server)",
@@ -7926,6 +8632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "transport",
           "package": "hsgnutls",
@@ -7935,6 +8642,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "transport",
           "normalized": "ReadWriteAttr(Session a)(Transport,Transport)(Transport,Transport)",
@@ -7949,6 +8657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "verifyPeer",
           "package": "hsgnutls",
@@ -7958,6 +8667,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "verifyPeer",
           "normalized": "Session a-\u003eIO[CertificateStatus]",
@@ -7973,6 +8683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "version",
           "package": "hsgnutls",
@@ -7982,6 +8693,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "version",
           "package": "hsgnutls",
@@ -7994,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:32 UTC 2014",
           "module": "Network.GnuTLS",
           "name": "withDatum",
           "package": "hsgnutls",
@@ -8003,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "Network GnuTLS",
+          "indexed": "2014-03-11T18:48:32",
           "module": "Network.GnuTLS",
           "name": "withDatum",
           "normalized": "a-\u003e(Ptr()-\u003eIO b)-\u003eIO b",

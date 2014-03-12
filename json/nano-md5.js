@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nano-md5"
+        "phrase": "nano-md5",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:49 UTC 2014",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "MD5",
           "package": "nano-md5",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL MD5",
+          "indexed": "2014-03-11T19:25:49",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "MD5",
           "package": "nano-md5",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:49 UTC 2014",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "c_md5",
           "package": "nano-md5",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL MD5",
+          "indexed": "2014-03-11T19:25:49",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "c_md5",
           "normalized": "Ptr CChar-\u003eCULong-\u003ePtr CChar-\u003eIO(Ptr Word)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:25:49 UTC 2014",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "md5_digest_length",
           "package": "nano-md5",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Digest OpenSSL MD5",
+          "indexed": "2014-03-11T19:25:49",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "md5_digest_length",
           "package": "nano-md5",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast md5 using OpenSSL. The md5 hash should be referentially transparent..\n The ByteString is guaranteed not to be copied.\n\u003c/p\u003e\u003cp\u003eThe result string should be identical to the output of MD5(1).\n That is:\n\u003c/p\u003e\u003cpre\u003e $ md5 /usr/share/dict/words \n MD5 (/usr/share/dict/words) = e5c152147e93b81424c13772330e74b3\n\u003c/pre\u003e\u003cp\u003eWhile this md5sum binding will return:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:25:49 UTC 2014",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "md5sum",
           "package": "nano-md5",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Fast md5 using OpenSSL The md5 hash should be referentially transparent The ByteString is guaranteed not to be copied The result string should be identical to the output of MD5 That is md5 usr share dict words MD5 usr share dict words e5c152147e93b81424c13772330e74b3 While this md5sum binding will return",
           "hierarchy": "Data Digest OpenSSL MD5",
+          "indexed": "2014-03-11T19:25:49",
           "module": "Data.Digest.OpenSSL.MD5",
           "name": "md5sum",
           "normalized": "ByteString-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "science-constants"
+        "phrase": "science-constants",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "Short",
           "package": "science-constants",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "Short",
           "package": "science-constants",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "_h",
           "package": "science-constants",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "_h",
           "package": "science-constants",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "amu",
           "package": "science-constants",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "amu",
           "package": "science-constants",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "e",
           "package": "science-constants",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "e",
           "package": "science-constants",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "e_0",
           "package": "science-constants",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "e_0",
           "package": "science-constants",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "g",
           "package": "science-constants",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "g",
           "package": "science-constants",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "h",
           "package": "science-constants",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "h",
           "package": "science-constants",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "k_b",
           "package": "science-constants",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "k_b",
           "package": "science-constants",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "k_e",
           "package": "science-constants",
@@ -195,6 +212,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "k_e",
           "package": "science-constants",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "m_e",
           "package": "science-constants",
@@ -216,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "m_e",
           "package": "science-constants",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "m_p",
           "package": "science-constants",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "m_p",
           "package": "science-constants",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "q_e",
           "package": "science-constants",
@@ -258,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "q_e",
           "package": "science-constants",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants.Short",
           "name": "q_p",
           "package": "science-constants",
@@ -279,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Science Constants Short",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants.Short",
           "name": "q_p",
           "package": "science-constants",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "Constants",
           "package": "science-constants",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "Constants",
           "package": "science-constants",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "aperyConstant",
           "package": "science-constants",
@@ -321,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "aperyConstant",
           "package": "science-constants",
@@ -334,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "aperysConstant",
           "package": "science-constants",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "aperysConstant",
           "package": "science-constants",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "atomicMassConstant",
           "package": "science-constants",
@@ -365,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "atomicMassConstant",
           "package": "science-constants",
@@ -378,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "atomicMassUnit",
           "package": "science-constants",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "atomicMassUnit",
           "package": "science-constants",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "avogadroConstant",
           "package": "science-constants",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "avogadroConstant",
           "package": "science-constants",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "bigG",
           "package": "science-constants",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "bigG",
           "package": "science-constants",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "boltzmannConstant",
           "package": "science-constants",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "boltzmannConstant",
           "package": "science-constants",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "boltzmannsConstant",
           "package": "science-constants",
@@ -474,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "boltzmannsConstant",
           "package": "science-constants",
@@ -487,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "chargeOfElectron",
           "package": "science-constants",
@@ -496,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "chargeOfElectron",
           "package": "science-constants",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "chargeOfProton",
           "package": "science-constants",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "chargeOfProton",
           "package": "science-constants",
@@ -531,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "coloumbConstant",
           "package": "science-constants",
@@ -540,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "coloumbConstant",
           "package": "science-constants",
@@ -553,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "coloumbsConstant",
           "package": "science-constants",
@@ -562,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "coloumbsConstant",
           "package": "science-constants",
@@ -575,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "dalton",
           "package": "science-constants",
@@ -584,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "dalton",
           "package": "science-constants",
@@ -596,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "earthAccelerationOfGravity",
           "package": "science-constants",
@@ -605,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "earthAccelerationOfGravity",
           "package": "science-constants",
@@ -618,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "electricConstant",
           "package": "science-constants",
@@ -627,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "electricConstant",
           "package": "science-constants",
@@ -640,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "electricForceConstant",
           "package": "science-constants",
@@ -649,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "electricForceConstant",
           "package": "science-constants",
@@ -662,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "electronMolarMass",
           "package": "science-constants",
@@ -671,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "electronMolarMass",
           "package": "science-constants",
@@ -684,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "electrostaticConstant",
           "package": "science-constants",
@@ -693,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "electrostaticConstant",
           "package": "science-constants",
@@ -706,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "elementaryCharge",
           "package": "science-constants",
@@ -715,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "elementaryCharge",
           "package": "science-constants",
@@ -728,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "eps_0",
           "package": "science-constants",
@@ -737,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "eps_0",
           "package": "science-constants",
@@ -749,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "eulerGamma",
           "package": "science-constants",
@@ -758,6 +827,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "eulerGamma",
           "package": "science-constants",
@@ -771,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "eulerMascheroniConstant",
           "package": "science-constants",
@@ -780,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "eulerMascheroniConstant",
           "package": "science-constants",
@@ -793,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "eulerNumber",
           "package": "science-constants",
@@ -802,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "eulerNumber",
           "package": "science-constants",
@@ -815,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "eulersNumber",
           "package": "science-constants",
@@ -824,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "eulersNumber",
           "package": "science-constants",
@@ -837,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "fineStructureConstant",
           "package": "science-constants",
@@ -846,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "fineStructureConstant",
           "package": "science-constants",
@@ -859,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "goldenRatio",
           "package": "science-constants",
@@ -868,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "goldenRatio",
           "package": "science-constants",
@@ -881,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "gravitationalConstant",
           "package": "science-constants",
@@ -890,6 +971,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "gravitationalConstant",
           "package": "science-constants",
@@ -903,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "hbar",
           "package": "science-constants",
@@ -912,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "hbar",
           "package": "science-constants",
@@ -924,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "hslash",
           "package": "science-constants",
@@ -933,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "hslash",
           "package": "science-constants",
@@ -945,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "idealGasConstant",
           "package": "science-constants",
@@ -954,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "idealGasConstant",
           "package": "science-constants",
@@ -967,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "inverseFineStructureConstant",
           "package": "science-constants",
@@ -976,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "inverseFineStructureConstant",
           "package": "science-constants",
@@ -989,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "magneticConstant",
           "package": "science-constants",
@@ -998,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "magneticConstant",
           "package": "science-constants",
@@ -1011,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "massOfElectron",
           "package": "science-constants",
@@ -1020,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "massOfElectron",
           "package": "science-constants",
@@ -1033,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "massOfProton",
           "package": "science-constants",
@@ -1042,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "massOfProton",
           "package": "science-constants",
@@ -1055,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "molarGasConstant",
           "package": "science-constants",
@@ -1064,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "molarGasConstant",
           "package": "science-constants",
@@ -1077,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "molarMassConstant",
           "package": "science-constants",
@@ -1086,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "molarMassConstant",
           "package": "science-constants",
@@ -1099,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "molarMassOfElectron",
           "package": "science-constants",
@@ -1108,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "molarMassOfElectron",
           "package": "science-constants",
@@ -1121,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "mu_0",
           "package": "science-constants",
@@ -1130,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "mu_0",
           "package": "science-constants",
@@ -1142,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "napierConstant",
           "package": "science-constants",
@@ -1151,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "napierConstant",
           "package": "science-constants",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "napiersConstant",
           "package": "science-constants",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "napiersConstant",
           "package": "science-constants",
@@ -1186,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "newtonConstant",
           "package": "science-constants",
@@ -1195,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "newtonConstant",
           "package": "science-constants",
@@ -1208,6 +1318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "newtonsConstant",
           "package": "science-constants",
@@ -1217,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "newtonsConstant",
           "package": "science-constants",
@@ -1230,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "permeabilityOfFreeSpace",
           "package": "science-constants",
@@ -1239,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "permeabilityOfFreeSpace",
           "package": "science-constants",
@@ -1252,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "planckConstant",
           "package": "science-constants",
@@ -1261,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "planckConstant",
           "package": "science-constants",
@@ -1274,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "planckConstantOver2Pi",
           "package": "science-constants",
@@ -1283,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "planckConstantOver2Pi",
           "package": "science-constants",
@@ -1296,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "plancksConstant",
           "package": "science-constants",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "plancksConstant",
           "package": "science-constants",
@@ -1318,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "plancksConstantOver2Pi",
           "package": "science-constants",
@@ -1327,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "plancksConstantOver2Pi",
           "package": "science-constants",
@@ -1340,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "reducedPlanckConstant",
           "package": "science-constants",
@@ -1349,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "reducedPlanckConstant",
           "package": "science-constants",
@@ -1362,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "reducedPlancksConstant",
           "package": "science-constants",
@@ -1371,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "reducedPlancksConstant",
           "package": "science-constants",
@@ -1384,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "rydbergConstant",
           "package": "science-constants",
@@ -1393,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "rydbergConstant",
           "package": "science-constants",
@@ -1406,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "rydbergsConstant",
           "package": "science-constants",
@@ -1415,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "rydbergsConstant",
           "package": "science-constants",
@@ -1428,6 +1558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "silverRatio",
           "package": "science-constants",
@@ -1437,6 +1568,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "silverRatio",
           "package": "science-constants",
@@ -1450,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "speedOfLight",
           "package": "science-constants",
@@ -1459,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "speedOfLight",
           "package": "science-constants",
@@ -1472,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "standardAccelerationOfGravity",
           "package": "science-constants",
@@ -1481,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "standardAccelerationOfGravity",
           "package": "science-constants",
@@ -1494,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "universalGasConstant",
           "package": "science-constants",
@@ -1503,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "universalGasConstant",
           "package": "science-constants",
@@ -1516,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "vacuumPermeability",
           "package": "science-constants",
@@ -1525,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "vacuumPermeability",
           "package": "science-constants",
@@ -1538,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:06 UTC 2014",
           "module": "Science.Constants",
           "name": "vacuumPermittivity",
           "package": "science-constants",
@@ -1547,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Science Constants",
+          "indexed": "2014-03-11T19:58:06",
           "module": "Science.Constants",
           "name": "vacuumPermittivity",
           "package": "science-constants",

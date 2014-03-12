@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flexible-unlit"
+        "phrase": "flexible-unlit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Unlit",
           "package": "flexible-unlit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Unlit",
           "package": "flexible-unlit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Active",
           "package": "flexible-unlit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Active",
           "package": "flexible-unlit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Classified",
           "package": "flexible-unlit",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Classified",
           "package": "flexible-unlit",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "NeedHug",
           "package": "flexible-unlit",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "NeedHug",
           "package": "flexible-unlit",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Parser",
           "package": "flexible-unlit",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Parser",
           "package": "flexible-unlit",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "UnlitError",
           "package": "flexible-unlit",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "UnlitError",
           "package": "flexible-unlit",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn active line of code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Active",
           "package": "flexible-unlit",
@@ -155,6 +168,7 @@
         "index": {
           "description": "An active line of code",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Active",
           "package": "flexible-unlit",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlank lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Blank",
           "package": "flexible-unlit",
@@ -179,6 +194,7 @@
         "index": {
           "description": "Blank lines",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Blank",
           "package": "flexible-unlit",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComment lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Comment",
           "package": "flexible-unlit",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Comment lines",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Comment",
           "package": "flexible-unlit",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn inactive line of code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Inactive",
           "package": "flexible-unlit",
@@ -227,6 +246,7 @@
         "index": {
           "description": "An inactive line of code",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Inactive",
           "package": "flexible-unlit",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence of program lines needs blank lines around it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "NeedHug",
           "package": "flexible-unlit",
@@ -251,6 +272,7 @@
         "index": {
           "description": "sequence of program lines needs blank lines around it",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "NeedHug",
           "package": "flexible-unlit",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "NotFollowedByBlank",
           "package": "flexible-unlit",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "NotFollowedByBlank",
           "package": "flexible-unlit",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "NotPrecededByBlank",
           "package": "flexible-unlit",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "NotPrecededByBlank",
           "package": "flexible-unlit",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Parser",
           "package": "flexible-unlit",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Parser",
           "normalized": "Parser(a-\u003e[a]-\u003eMaybe([Classified a],Maybe[a]))",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Program",
           "package": "flexible-unlit",
@@ -343,6 +372,7 @@
         "index": {
           "description": "Program lines",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Program",
           "package": "flexible-unlit",
@@ -357,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis line doesn't care about adjacent lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "Whatever",
           "package": "flexible-unlit",
@@ -367,6 +398,7 @@
         "index": {
           "description": "This line doesn care about adjacent lines",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "Whatever",
           "package": "flexible-unlit",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for blocks of code prefixed by \u003ccode\u003e\u003e\u003c/code\u003e or \u003ccode\u003e\u003c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "birdParser",
           "package": "flexible-unlit",
@@ -391,6 +424,7 @@
         "index": {
           "description": "Parser for blocks of code prefixed by or",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "birdParser",
           "package": "flexible-unlit",
@@ -405,6 +439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for lines prefixed by \u003ccode\u003e#\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "cppParser",
           "package": "flexible-unlit",
@@ -415,6 +450,7 @@
         "index": {
           "description": "Parser for lines prefixed by",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "cppParser",
           "package": "flexible-unlit",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default parsers used by GHC (\u003ccode\u003e\u003ca\u003elatexParser\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ebirdParser\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003ecppParser\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "ghcParsers",
           "package": "flexible-unlit",
@@ -439,6 +476,7 @@
         "index": {
           "description": "The default parsers used by GHC latexParser birdParser and cppParser",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "ghcParsers",
           "normalized": "[Parser Text]",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for blocks of code delimited by \u003ccode\u003e\\begin{code}\u003c/code\u003e and \u003ccode\u003e\\end{code}\u003c/code\u003e\n   or \u003ccode\u003e\\begin{pseudocode}\u003c/code\u003e and \u003ccode\u003e\\end{pseudocode}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "latexParser",
           "package": "flexible-unlit",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Parser for blocks of code delimited by begin code and end code or begin pseudocode and end pseudocode",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "latexParser",
           "package": "flexible-unlit",
@@ -479,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreaks a \u003ccode\u003eText\u003c/code\u003e up into a list of \u003ccode\u003eText\u003c/code\u003es at newline sequences.\n   The resulting strings do not contain newline sequences.\n\u003c/p\u003e\u003cp\u003eThis function accepts \u003ccode\u003e'\\r\\n'\u003c/code\u003e, \u003ccode\u003e'\\r'\u003c/code\u003e and \u003ccode\u003e'\\n'\u003c/code\u003e as newline sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "lines",
           "package": "flexible-unlit",
@@ -489,6 +530,7 @@
         "index": {
           "description": "Breaks Text up into list of Text at newline sequences The resulting strings do not contain newline sequences This function accepts and as newline sequences",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "lines",
           "normalized": "Text-\u003e[Text]",
@@ -504,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParser for lines fenced by backticks or tildes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "pandocMarkdownParser",
           "package": "flexible-unlit",
@@ -514,6 +557,7 @@
         "index": {
           "description": "Parser for lines fenced by backticks or tildes",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "pandocMarkdownParser",
           "normalized": "(Text-\u003eActive)-\u003eParser Text",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoins lines of \u003ccode\u003eText\u003c/code\u003e. In the resulting string, lines are terminated\n   with a single newline character (\u003ccode\u003e'\\n'\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlines",
           "package": "flexible-unlit",
@@ -540,6 +585,7 @@
         "index": {
           "description": "Joins lines of Text In the resulting string lines are terminated with single newline character",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlines",
           "normalized": "[Text]-\u003eText",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns \u003ccode\u003e\u003ca\u003eunlitWith\u003c/a\u003e\u003c/code\u003e, using the default parsers of GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlit",
           "package": "flexible-unlit",
@@ -565,6 +612,7 @@
         "index": {
           "description": "Runs unlitWith using the default parsers of GHC",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlit",
           "normalized": "Text-\u003e([UnlitError],Text)",
@@ -580,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a list of lines, given a sequence of parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlitLinesWith",
           "package": "flexible-unlit",
@@ -590,6 +639,7 @@
         "index": {
           "description": "Parse list of lines given sequence of parsers",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlitLinesWith",
           "normalized": "[Parser Text]-\u003e[Text]-\u003e([UnlitError],[Text])",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns \u003ccode\u003e\u003ca\u003eunlitLinesWith\u003c/a\u003e\u003c/code\u003e, with the provided \u003ccode\u003eText\u003c/code\u003e split into lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:23 UTC 2014",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlitWith",
           "package": "flexible-unlit",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Runs unlitLinesWith with the provided Text split into lines",
           "hierarchy": "Language Preprocessor Unlit",
+          "indexed": "2014-03-11T18:10:23",
           "module": "Language.Preprocessor.Unlit",
           "name": "unlitWith",
           "normalized": "[Parser Text]-\u003eText-\u003e([UnlitError],Text)",

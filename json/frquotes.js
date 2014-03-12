@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "frquotes"
+        "phrase": "frquotes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:44 UTC 2014",
           "module": "Text.FrQuotes",
           "name": "FrQuotes",
           "package": "frquotes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text FrQuotes",
+          "indexed": "2014-03-11T18:12:44",
           "module": "Text.FrQuotes",
           "name": "FrQuotes",
           "package": "frquotes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:44 UTC 2014",
           "module": "Text.FrQuotes",
           "name": "frQuotes",
           "package": "frquotes",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text FrQuotes",
+          "indexed": "2014-03-11T18:12:44",
           "module": "Text.FrQuotes",
           "name": "frQuotes",
           "normalized": "String-\u003eString",

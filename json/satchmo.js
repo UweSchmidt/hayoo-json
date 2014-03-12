@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "satchmo"
+        "phrase": "satchmo",
+        "type": "phrase"
       },
       "type": "context"
     }

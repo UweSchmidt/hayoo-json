@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hVOIDP"
+        "phrase": "hVOIDP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Dynamic",
           "name": "Dynamic",
           "package": "hVOIDP",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Dynamic",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Dynamic",
           "name": "Dynamic",
           "package": "hVOIDP",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Dynamic",
           "name": "dynamic",
           "package": "hVOIDP",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Dynamic",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Dynamic",
           "name": "dynamic",
           "normalized": "(Table a b-\u003eb-\u003ea)-\u003e(b,b)-\u003eTable a b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Table",
           "name": "Table",
           "package": "hVOIDP",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Table",
           "name": "Table",
           "package": "hVOIDP",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Table",
           "name": "Table",
           "package": "hVOIDP",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Table",
           "name": "Table",
           "package": "hVOIDP",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Table",
           "name": "findTable",
           "package": "hVOIDP",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Table",
           "name": "findTable",
           "normalized": "Table a b-\u003eb-\u003ea",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Table",
           "name": "newTable",
           "package": "hVOIDP",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Table",
           "name": "newTable",
           "normalized": "[(a,b)]-\u003eTable b a",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:24:52 UTC 2014",
           "module": "Table",
           "name": "updTable",
           "package": "hVOIDP",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Table",
+          "indexed": "2014-03-11T18:24:52",
           "module": "Table",
           "name": "updTable",
           "normalized": "(a,b)-\u003eTable b a-\u003eTable b a",

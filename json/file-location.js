@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "file-location"
+        "phrase": "file-location",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "Control.Exception.FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Exception FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "Control.Exception.FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -111,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003efunctions that help you with debugging.\n Most would make sense in the Debug.Trace module\n There are Template Haskell versions that show you file locaiton information\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "Debug.FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -120,6 +123,7 @@
         "index": {
           "description": "functions that help you with debugging Most would make sense in the Debug.Trace module There are Template Haskell versions that show you file locaiton information",
           "hierarchy": "Debug FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "Debug.FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -393,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions that help you with debugging.\n Most would make sense in the Debug.Trace module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "Debug.Util",
           "name": "Util",
           "package": "file-location",
@@ -402,6 +407,7 @@
         "index": {
           "description": "Functions that help you with debugging Most would make sense in the Debug.Trace module",
           "hierarchy": "Debug Util",
+          "indexed": "2014-03-11T18:08:51",
           "module": "Debug.Util",
           "name": "Util",
           "package": "file-location",
@@ -442,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation.LocationString",
           "name": "LocationString",
           "package": "file-location",
@@ -450,6 +457,7 @@
         },
         "index": {
           "hierarchy": "FileLocation LocationString",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation.LocationString",
           "name": "LocationString",
           "package": "file-location",
@@ -489,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003esee Debug.FileLocation module for more definitions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -498,6 +507,7 @@
         "index": {
           "description": "see Debug.FileLocation module for more definitions",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "FileLocation",
           "package": "file-location",
@@ -512,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike Prelude.error, but gives the file location.\n\u003c/p\u003e\u003cpre\u003e $(err \"OH NO!\")\n main:Main main.hs:4:10 OH NO!\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "err",
           "package": "file-location",
@@ -522,6 +533,7 @@
         "index": {
           "description": "Like Prelude.error but gives the file location err OH NO main Main main.hs OH NO",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "err",
           "normalized": "String-\u003eQ Exp",
@@ -537,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eerr\u003c/a\u003e\u003c/code\u003e, but the error message (to be appended to the location) is an argument of the generated expression.\n\u003c/p\u003e\u003cpre\u003e $(err) \"OH NO!\"\n main:Main main.hs:4:10 OH NO!\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "err'",
           "package": "file-location",
@@ -547,6 +560,7 @@
         "index": {
           "description": "Like err but the error message to be appended to the location is an argument of the generated expression err OH NO main Main main.hs OH NO",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "err'",
           "package": "file-location",
@@ -560,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003efromJust\u003c/code\u003e, but also shows the file location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "fromJst",
           "package": "file-location",
@@ -570,6 +585,7 @@
         "index": {
           "description": "Like fromJust but also shows the file location",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "fromJst",
           "package": "file-location",
@@ -584,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003efromRight\u003c/code\u003e, but also show the file location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "fromRht",
           "package": "file-location",
@@ -594,6 +611,7 @@
         "index": {
           "description": "Like fromRight but also show the file location",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "fromRht",
           "package": "file-location",
@@ -608,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e(flip (\u003ccode\u003e\u003ca\u003e!\u003c/a\u003e\u003c/code\u003e)\u003c/code\u003e, but also shows the file location in case the element isn't found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "indx",
           "package": "file-location",
@@ -618,6 +637,7 @@
         "index": {
           "description": "Like flip but also shows the file location in case the element isn found",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "indx",
           "package": "file-location",
@@ -631,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eindx\u003c/a\u003e\u003c/code\u003e, but also \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003es the looked-up element in case it isn't found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "indxShow",
           "package": "file-location",
@@ -641,6 +662,7 @@
         "index": {
           "description": "Like indx but also show the looked-up element in case it isn found",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "indxShow",
           "package": "file-location",
@@ -655,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike Prelude.undefined, but gives the file location.\n\u003c/p\u003e\u003cp\u003eUses trace to output the location (this way we still use undefined instead of calling error).\n\u003c/p\u003e\u003cpre\u003e $(undef)\n main:Main main.hs:4:10 undefined\n err: Prelude.undefined\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:08:51 UTC 2014",
           "module": "FileLocation",
           "name": "undef",
           "package": "file-location",
@@ -665,6 +688,7 @@
         "index": {
           "description": "Like Prelude.undefined but gives the file location Uses trace to output the location this way we still use undefined instead of calling error undef main Main main.hs undefined err Prelude.undefined",
           "hierarchy": "FileLocation",
+          "indexed": "2014-03-11T18:08:51",
           "module": "FileLocation",
           "name": "undef",
           "package": "file-location",

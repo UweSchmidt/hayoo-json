@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmt-diagrams"
+        "phrase": "hmt-diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for drawing grid and table structure common in music\n theory and in compositions such as Morton Feldman's durational\n \u003cem\u003egrid\u003c/em\u003e music of the 1950's.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for drawing grid and table structure common in music theory and in compositions such as Morton Feldman durational grid music of the",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Build_F",
           "package": "hmt-diagrams",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Build_F",
           "package": "hmt-diagrams",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRed, green and blue colour triple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "C",
           "package": "hmt-diagrams",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Red green and blue colour triple",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "C",
           "package": "hmt-diagrams",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Caption",
           "package": "hmt-diagrams",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Caption",
           "package": "hmt-diagrams",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCell\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Cell",
           "package": "hmt-diagrams",
@@ -115,6 +124,7 @@
         "index": {
           "description": "Cell",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Cell",
           "package": "hmt-diagrams",
@@ -129,6 +139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -138,6 +149,7 @@
         "index": {
           "description": "Grid",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCell location as row and column indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "L",
           "package": "hmt-diagrams",
@@ -161,6 +174,7 @@
         "index": {
           "description": "Cell location as row and column indices",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "L",
           "package": "hmt-diagrams",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint given as pair of \u003ccode\u003e\u003ca\u003eR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "P",
           "package": "hmt-diagrams",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Point given as pair of",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "P",
           "package": "hmt-diagrams",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal number, synonym for \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "R",
           "package": "hmt-diagrams",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Real number synonym for Double",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "R",
           "package": "hmt-diagrams",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of row order \u003ccode\u003e\u003ca\u003eTable_Cell\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table",
           "package": "hmt-diagrams",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Table of row order Table Cell",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table",
           "package": "hmt-diagrams",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table cell is an \u003ccode\u003e\u003ca\u003eAttr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e duple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table_Cell",
           "package": "hmt-diagrams",
@@ -250,6 +271,7 @@
         "index": {
           "description": "table cell is an Attr and Content duple",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table_Cell",
           "package": "hmt-diagrams",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of related tables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table_Set",
           "package": "hmt-diagrams",
@@ -273,6 +296,7 @@
         "index": {
           "description": "set of related tables",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "Table_Set",
           "package": "hmt-diagrams",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a table of \u003ccode\u003e(rows,columns)\u003c/code\u003e dimensions given a function\n from \u003ccode\u003e(row,column)\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eTable_Cell\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "build_table",
           "package": "hmt-diagrams",
@@ -297,6 +322,7 @@
         "index": {
           "description": "Build table of rows columns dimensions given function from row column to Table Cell",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "build_table",
           "normalized": "Caption-\u003e(Int,Int)-\u003e((Int,Int)-\u003eTable_Cell)-\u003eTable",
@@ -312,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a table of \u003ccode\u003e(rows,columns)\u003c/code\u003e dimensions given a function\n from \u003ccode\u003e(row,column)\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTable_Cell\u003c/a\u003e\u003c/code\u003e.  If the function is\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e the cell is skipped, becase another cell has claimed it's\n locations with \u003ccode\u003e\u003ca\u003ecolspan\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003erowspan\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "build_table_m",
           "package": "hmt-diagrams",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Build table of rows columns dimensions given function from row column to Maybe Table Cell If the function is Nothing the cell is skipped becase another cell has claimed it locations with colspan or rowspan",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "build_table_m",
           "normalized": "Caption-\u003e(Int,Int)-\u003eBuild_F-\u003eTable",
@@ -337,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplace \u003ccode\u003e\u003ca\u003eP\u003c/a\u003e\u003c/code\u003e (pointwise addition).\n\u003c/p\u003e\u003cpre\u003e displace (2,3) (1,1) == (3,4)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "displace",
           "package": "hmt-diagrams",
@@ -347,6 +376,7 @@
         "index": {
           "description": "Displace pointwise addition displace",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "displace",
           "normalized": "(R,R)-\u003eP-\u003eP",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003cem\u003e(x,y)\u003c/em\u003e upper-left co-ordinate of grid, \u003cem\u003e(w,h)\u003c/em\u003e cell\n dimensions, and \u003cem\u003e(r,c)\u003c/em\u003e grid dimensions, make list of upper-left\n co-ordinates of cells.\n\u003c/p\u003e\u003cpre\u003e grid (10,10) (50,10) (2,2) == [(10,10),(60,10),(10,20),(60,20)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "grid",
           "package": "hmt-diagrams",
@@ -372,6 +403,7 @@
         "index": {
           "description": "Given upper-left co-ordinate of grid cell dimensions and grid dimensions make list of upper-left co-ordinates of cells grid",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "grid",
           "normalized": "P-\u003e(R,R)-\u003e(Int,Int)-\u003e[P]",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003egrid\u003c/a\u003e\u003c/code\u003e that constructs a single point.\n\u003c/p\u003e\u003cpre\u003e map (grid_pt (10,10) (50,10)) [(0,0),(1,1)] == [(10,10),(60,20)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "grid_pt",
           "package": "hmt-diagrams",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Variant on grid that constructs single point map grid pt",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "grid_pt",
           "normalized": "(R,R)-\u003e(R,R)-\u003eL-\u003eP",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a bounding box from \u003cem\u003erow\u003c/em\u003e and \u003cem\u003ecolumn\u003c/em\u003e dimensions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "mk_bbox",
           "package": "hmt-diagrams",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Make bounding box from row and column dimensions",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "mk_bbox",
           "normalized": "(Int,Int)-\u003e(R,R)",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender set of \u003ccode\u003e\u003ca\u003eTable_Set\u003c/a\u003e\u003c/code\u003es as \u003ccode\u003eHTML\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "page",
           "package": "hmt-diagrams",
@@ -447,6 +484,7 @@
         "index": {
           "description": "Render set of Table Set as HTML",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "page",
           "normalized": "Maybe FilePath-\u003e[Table_Set]-\u003eString",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e with one \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e per cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "simple_table",
           "package": "hmt-diagrams",
@@ -472,6 +511,7 @@
         "index": {
           "description": "Construct Table with one Content per cell",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "simple_table",
           "normalized": "Caption-\u003e[[Content]]-\u003eTable",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e with one \u003ccode\u003e\u003ca\u003eContent\u003c/a\u003e\u003c/code\u003e per cell, and an\n associated class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "simple_table_class",
           "package": "hmt-diagrams",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Construct Table with one Content per cell and an associated class",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "simple_table_class",
           "normalized": "Caption-\u003e[[(String,Content)]]-\u003eTable",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eTable\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003eHTML\u003c/code\u003e table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "table",
           "package": "hmt-diagrams",
@@ -522,6 +565,7 @@
         "index": {
           "description": "Render Table as HTML table",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "table",
           "normalized": "Table-\u003eContent",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eTable_Set\u003c/a\u003e\u003c/code\u003es in a \u003ccode\u003ediv\u003c/code\u003e with class \u003ccode\u003etable-set\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "table_set",
           "package": "hmt-diagrams",
@@ -547,6 +592,7 @@
         "index": {
           "description": "Render Table Set in div with class table-set",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "table_set",
           "normalized": "Table_Set-\u003eContent",
@@ -562,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite set of \u003ccode\u003e\u003ca\u003eTable_Set\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003eHTML\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Grid",
           "name": "to_html",
           "package": "hmt-diagrams",
@@ -572,6 +619,7 @@
         "index": {
           "description": "Write set of Table Set to HTML file",
           "hierarchy": "Music Theory Diagram Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Grid",
           "name": "to_html",
           "normalized": "FilePath-\u003eMaybe FilePath-\u003e[Table_Set]-\u003eIO()",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to make \u003cem\u003epath diagrams\u003c/em\u003e such as those in Fig. VIII-11\n on I.Xenakis \u003cem\u003eFormalized Music\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -596,6 +645,7 @@
         "index": {
           "description": "Functions to make path diagrams such as those in Fig VIII-11 on I.Xenakis Formalized Music",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -610,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es indicating collisions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Collision_Table",
           "package": "hmt-diagrams",
@@ -619,6 +670,7 @@
         "index": {
           "description": "Table of Ln indicating collisions",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Collision_Table",
           "package": "hmt-diagrams",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of \u003ccode\u003e\u003ca\u003eVertical\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHorizontal\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDiagonal\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Orientation",
           "package": "hmt-diagrams",
@@ -642,6 +695,7 @@
         "index": {
           "description": "Enumeration of Vertical Horizontal and Diagonal",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Orientation",
           "package": "hmt-diagrams",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA diagram given as a set of \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Path_Diagram",
           "package": "hmt-diagrams",
@@ -665,6 +720,7 @@
         "index": {
           "description": "diagram given as set of Int pairs",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Path_Diagram",
           "package": "hmt-diagrams",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e set pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Shift_Map",
           "package": "hmt-diagrams",
@@ -688,6 +745,7 @@
         "index": {
           "description": "table Pt and Orientation set pairs",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Shift_Map",
           "package": "hmt-diagrams",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA table of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Shift_Table",
           "package": "hmt-diagrams",
@@ -711,6 +770,7 @@
         "index": {
           "description": "table of Pt pairs",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Shift_Table",
           "package": "hmt-diagrams",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Diagonal",
           "package": "hmt-diagrams",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Diagonal",
           "package": "hmt-diagrams",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Horizontal",
           "package": "hmt-diagrams",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Horizontal",
           "package": "hmt-diagrams",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "Vertical",
           "package": "hmt-diagrams",
@@ -777,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "Vertical",
           "package": "hmt-diagrams",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003e\u003ca\u003eShift_Table\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eCollision_Table\u003c/a\u003e\u003c/code\u003e and shift all \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "collision_table_rewrite",
           "package": "hmt-diagrams",
@@ -801,6 +868,7 @@
         "index": {
           "description": "Construct Shift Table from Collision Table and shift all Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "collision_table_rewrite",
           "normalized": "Collision_Table-\u003e[Ln R]",
@@ -816,6 +884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGather elements with equal keys.\n\u003c/p\u003e\u003cpre\u003e gather (zip \"abcba\" [0..]) == [('a',[0,4]),('b',[1,3]),('c',[2])]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "gather",
           "package": "hmt-diagrams",
@@ -826,6 +895,7 @@
         "index": {
           "description": "Gather elements with equal keys gather zip abcba",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "gather",
           "normalized": "[(a,b)]-\u003e[(a,[b])]",
@@ -841,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo both points of the \u003cem\u003erhs\u003c/em\u003e \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e lie on the \u003cem\u003elhs\u003c/em\u003e \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "includes",
           "package": "hmt-diagrams",
@@ -851,6 +922,7 @@
         "index": {
           "description": "Do both points of the rhs Ln lie on the lhs Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "includes",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -866,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eincludes\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "is_included",
           "package": "hmt-diagrams",
@@ -876,6 +949,7 @@
         "index": {
           "description": "flip includes",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "is_included",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -891,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e to \u003cem\u003estart\u003c/em\u003e and \u003cem\u003eend\u003c/em\u003e \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e duple of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_fn",
           "package": "hmt-diagrams",
@@ -901,6 +976,7 @@
         "index": {
           "description": "Apply to start and end Pt duple of Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_fn",
           "normalized": "((Pt a,Pt a)-\u003eb)-\u003eLn a-\u003eb",
@@ -916,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes either endpoint of the \u003cem\u003elhs\u003c/em\u003e \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e lie on the \u003cem\u003erhs\u003c/em\u003e \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e ln_on (ln' (1/2,1/2) (1/2,1)) (ln' (0,0) (1,1)) == True\n ln_on (ln' (1/2,0) (1/2,1)) (ln' (0,0) (1,1)) == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_on",
           "package": "hmt-diagrams",
@@ -926,6 +1003,7 @@
         "index": {
           "description": "Does either endpoint of the lhs Ln lie on the rhs Ln ln on ln ln True ln on ln ln False",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_on",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -941,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e to \u003cem\u003estart\u003c/em\u003e and \u003cem\u003eend\u003c/em\u003e \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003es of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e and construct \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_pt_fn",
           "package": "hmt-diagrams",
@@ -951,6 +1030,7 @@
         "index": {
           "description": "Apply to start and end Pt of Ln and construct Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "ln_pt_fn",
           "normalized": "(Pt a-\u003ePt b)-\u003eLn a-\u003eLn b",
@@ -966,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003e\u003ca\u003eCollision_Table\u003c/a\u003e\u003c/code\u003e for a set of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_collision_table",
           "package": "hmt-diagrams",
@@ -976,6 +1057,7 @@
         "index": {
           "description": "Construct Collision Table for set of Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_collision_table",
           "normalized": "[Ln R]-\u003eCollision_Table",
@@ -991,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCollision_Table\u003c/a\u003e\u003c/code\u003e based resolution of \u003ccode\u003e\u003ca\u003ePath_Diagram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_path_ct",
           "package": "hmt-diagrams",
@@ -1001,6 +1084,7 @@
         "index": {
           "description": "Collision Table based resolution of Path Diagram",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_path_ct",
           "normalized": "Path_Diagram-\u003e[Ln R]",
@@ -1016,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eShift_Map\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003emk_path_ct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_path_sm",
           "package": "hmt-diagrams",
@@ -1026,6 +1111,7 @@
         "index": {
           "description": "Shift Map variant of mk path ct",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_path_sm",
           "normalized": "Path_Diagram-\u003e[Ln R]",
@@ -1041,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eShift_Map\u003c/a\u003e\u003c/code\u003e from a set of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_map",
           "package": "hmt-diagrams",
@@ -1051,6 +1138,7 @@
         "index": {
           "description": "Construct Shift Map from set of Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_map",
           "normalized": "[Ln R]-\u003eShift_Map R",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake complete \u003ccode\u003e\u003ca\u003eShift_Table\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_tbl",
           "package": "hmt-diagrams",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "Make complete Shift Table",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_tbl",
           "normalized": "Collision_Table-\u003eShift_Table R",
@@ -1091,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake element of \u003ccode\u003e\u003ca\u003eShift_Table\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_tbl_m",
           "package": "hmt-diagrams",
@@ -1101,6 +1192,7 @@
         "index": {
           "description": "Make element of Shift Table",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "mk_shift_tbl_m",
           "normalized": "(Ln R,Bool)-\u003eMaybe(Shift_Table R)",
@@ -1116,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate \u003ccode\u003e\u003ca\u003eOrientation\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e orientation (ln' (0,0) (0,1)) == Vertical\n orientation (ln' (0,0) (1,0)) == Horizontal\n orientation (ln' (0,0) (1,1)) == Diagonal 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "orientation",
           "package": "hmt-diagrams",
@@ -1126,6 +1219,7 @@
         "index": {
           "description": "Calculate Orientation of Ln orientation ln Vertical orientation ln Horizontal orientation ln Diagonal",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "orientation",
           "normalized": "Ln a-\u003eOrientation a",
@@ -1141,6 +1235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003es overlap in the particular sense of being \u003ccode\u003e\u003ca\u003eln_parallel\u003c/a\u003e\u003c/code\u003e\n and at least one endpoint of one line lying on the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "overlap",
           "package": "hmt-diagrams",
@@ -1151,6 +1246,7 @@
         "index": {
           "description": "Do Ln overlap in the particular sense of being ln parallel and at least one endpoint of one line lying on the other",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "overlap",
           "normalized": "Ln R-\u003eLn R-\u003eBool",
@@ -1166,6 +1262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of all \u003cem\u003e(pre,element,post)\u003c/em\u003e triples of a sequence.\n\u003c/p\u003e\u003cpre\u003e parts \"abc\" == [(\"\",'a',\"bc\"),(\"a\",'b',\"c\"),(\"ab\",'c',\"\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "parts",
           "package": "hmt-diagrams",
@@ -1176,6 +1273,7 @@
         "index": {
           "description": "Set of all pre element post triples of sequence parts abc bc ab",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "parts",
           "normalized": "[a]-\u003e[([a],a,[a])]",
@@ -1191,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll \u003cem\u003e(element,remainder)\u003c/em\u003e pairs for a sequence.\n\u003c/p\u003e\u003cpre\u003e parts' \"abc\" == [('a',\"bc\"),('b',\"ac\"),('c',\"ab\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "parts'",
           "package": "hmt-diagrams",
@@ -1201,6 +1300,7 @@
         "index": {
           "description": "All element remainder pairs for sequence parts abc bc ac ab",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "parts'",
           "normalized": "[a]-\u003e[(a,[a])]",
@@ -1216,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct set of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003ePath_Diagram\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "path_diagram_ln",
           "package": "hmt-diagrams",
@@ -1226,6 +1327,7 @@
         "index": {
           "description": "Construct set of Ln from Path Diagram",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "path_diagram_ln",
           "normalized": "Path_Diagram-\u003e[Ln R]",
@@ -1241,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e to \u003cem\u003ex\u003c/em\u003e and \u003cem\u003ey\u003c/em\u003e duple of \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "pt_fn",
           "package": "hmt-diagrams",
@@ -1251,6 +1354,7 @@
         "index": {
           "description": "Apply to and duple of Pt",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "pt_fn",
           "normalized": "((a,a)-\u003eb)-\u003ePt a-\u003eb",
@@ -1266,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003e\u003ca\u003eShift_Map\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_map_ln",
           "package": "hmt-diagrams",
@@ -1276,6 +1381,7 @@
         "index": {
           "description": "Apply Shift Map to Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_map_ln",
           "normalized": "Shift_Map R-\u003eLn R-\u003eLn R",
@@ -1291,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003e\u003ca\u003eShift_Map\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003ePt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_map_pt",
           "package": "hmt-diagrams",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "Apply Shift Map to Pt",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_map_pt",
           "normalized": "Shift_Map R-\u003ePt R-\u003ePt R",
@@ -1316,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003ccode\u003e\u003ca\u003eShift_Table\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_table_ln",
           "package": "hmt-diagrams",
@@ -1326,6 +1435,7 @@
         "index": {
           "description": "Apply Shift Table to Ln",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "shift_table_ln",
           "normalized": "Shift_Table R-\u003eLn R-\u003eLn R",
@@ -1341,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale set of \u003ccode\u003e\u003ca\u003eLn\u003c/a\u003e\u003c/code\u003e to lie in area given by \u003cem\u003e(0,n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Path",
           "name": "to_unit",
           "package": "hmt-diagrams",
@@ -1351,6 +1462,7 @@
         "index": {
           "description": "Scale set of Ln to lie in area given by",
           "hierarchy": "Music Theory Diagram Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Path",
           "name": "to_unit",
           "normalized": "R-\u003e[Ln R]-\u003e[Ln R]",
@@ -1366,6 +1478,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for circular representations of Zn structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "Circular",
           "package": "hmt-diagrams",
@@ -1375,6 +1488,7 @@
         "index": {
           "description": "Functions for circular representations of Zn structures",
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "Circular",
           "package": "hmt-diagrams",
@@ -1388,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "P",
           "package": "hmt-diagrams",
@@ -1396,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "P",
           "package": "hmt-diagrams",
@@ -1408,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "Text_F",
           "package": "hmt-diagrams",
@@ -1416,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "Text_F",
           "package": "hmt-diagrams",
@@ -1429,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_diagram",
           "package": "hmt-diagrams",
@@ -1438,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_diagram",
           "normalized": "Int-\u003eText_F-\u003e[Int]-\u003eRender()",
@@ -1452,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_diagram_set",
           "package": "hmt-diagrams",
@@ -1461,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_diagram_set",
           "normalized": "Int-\u003eText_F-\u003e[[Int]]-\u003eRender()",
@@ -1475,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_marks",
           "package": "hmt-diagrams",
@@ -1484,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_marks",
           "normalized": "R-\u003eInt-\u003eCa-\u003e[Int]-\u003eRender()",
@@ -1498,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_polygon",
           "package": "hmt-diagrams",
@@ -1507,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_polygon",
           "normalized": "R-\u003eInt-\u003eCa-\u003e[Int]-\u003eRender()",
@@ -1521,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_s",
           "package": "hmt-diagrams",
@@ -1530,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "circle_s",
           "normalized": "Ca-\u003eP-\u003eR-\u003eRender()",
@@ -1545,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrame, circle at \u003ccode\u003e(0,0)\u003c/code\u003e with radius \u003cem\u003er\u003c/em\u003e and \u003cem\u003en\u003c/em\u003e marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "frame",
           "package": "hmt-diagrams",
@@ -1555,6 +1684,7 @@
         "index": {
           "description": "Frame circle at with radius and marks",
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "frame",
           "normalized": "R-\u003eInt-\u003eText_F-\u003eRender()",
@@ -1569,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "lw",
           "package": "hmt-diagrams",
@@ -1578,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "lw",
           "package": "hmt-diagrams",
@@ -1590,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "marks",
           "package": "hmt-diagrams",
@@ -1599,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "marks",
           "normalized": "R-\u003eInt-\u003e[R]",
@@ -1613,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "marks_p",
           "package": "hmt-diagrams",
@@ -1622,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "marks_p",
           "normalized": "R-\u003eR-\u003eInt-\u003e[P]",
@@ -1637,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erender_to_file\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let s = [[0..11],[0,2..10],[0,3..9],[0,4,8]\n         ,[0,5,10,3,8,1,6,11,4,9,2,7]]\n in to_file F_SVG \"/tmp/circular\" (circle_diagram_set 12 (Just show) s)\n\u003c/pre\u003e\u003cpre\u003e let s = [[0,5,6,7],[1,2,3,8],[4,9,10,11]]\n in to_file F_SVG \"/tmp/circular\" (circle_diagram_set 12 (Just show) s)\n\u003c/pre\u003e\u003cpre\u003e let {s = [0,1,5,6,12,25,29,36,42,48,49,53]\n     ;t = [0,8,16,18,26,34]\n     ;z = map (\\i -\u003e map ((`mod` 72) . (+ i)) s) t}\n in to_file F_SVG \"/tmp/circular\" (circle_diagram_set 72 (Just show) z)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "to_file",
           "package": "hmt-diagrams",
@@ -1647,6 +1784,7 @@
         "index": {
           "description": "Variant of render to file let in to file SVG tmp circular circle diagram set Just show let in to file SVG tmp circular circle diagram set Just show let map map mod in to file SVG tmp circular circle diagram set Just show",
           "hierarchy": "Music Theory Diagram Render Circular",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Circular",
           "name": "to_file",
           "normalized": "File_Type-\u003eFilePath-\u003eRender()-\u003eIO()",
@@ -1662,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eContour contact sheets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "WT",
           "package": "hmt-diagrams",
@@ -1671,6 +1810,7 @@
         "index": {
           "description": "Contour contact sheets",
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "WT",
           "package": "hmt-diagrams",
@@ -1684,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "CN",
           "package": "hmt-diagrams",
@@ -1692,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "CN",
           "package": "hmt-diagrams",
@@ -1705,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "PP",
           "package": "hmt-diagrams",
@@ -1713,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "PP",
           "package": "hmt-diagrams",
@@ -1726,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "Setup",
           "package": "hmt-diagrams",
@@ -1734,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "Setup",
           "package": "hmt-diagrams",
@@ -1747,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "Setup",
           "package": "hmt-diagrams",
@@ -1756,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "Setup",
           "package": "hmt-diagrams",
@@ -1770,6 +1918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate number of rows (nr) given number of columns (nc) and\n number of entries (ne).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "calc_nr",
           "package": "hmt-diagrams",
@@ -1780,6 +1929,7 @@
         "index": {
           "description": "Calculate number of rows nr given number of columns nc and number of entries ne",
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "calc_nr",
           "normalized": "a-\u003ea-\u003ea",
@@ -1795,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect format from extension (ie. \u003ccode\u003e.pdf\u003c/code\u003e or \u003ccode\u003e.svg\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw",
           "package": "hmt-diagrams",
@@ -1805,6 +1956,7 @@
         "index": {
           "description": "Select format from extension ie pdf or svg",
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw",
           "normalized": "FilePath-\u003eSetup-\u003e[PP]-\u003eIO()",
@@ -1819,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_border",
           "package": "hmt-diagrams",
@@ -1828,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_border",
           "normalized": "Pt R-\u003e(Int,Int)-\u003eRender()",
@@ -1842,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_contour",
           "package": "hmt-diagrams",
@@ -1851,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_contour",
           "normalized": "Pt R-\u003eBool-\u003e[Int]-\u003eRender()",
@@ -1865,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_img",
           "package": "hmt-diagrams",
@@ -1874,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_img",
           "normalized": "Pt R-\u003e(Int,Int)-\u003eCN-\u003eRender()",
@@ -1888,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_wt",
           "package": "hmt-diagrams",
@@ -1897,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "draw_wt",
           "normalized": "Setup-\u003ePP-\u003eRender()",
@@ -1911,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "fi",
           "package": "hmt-diagrams",
@@ -1920,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "fi",
           "normalized": "a-\u003eR",
@@ -1935,6 +2097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate grid points.\n l=left, u=upper, r=rows, c=columns, w=width, h=height\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "grid",
           "package": "hmt-diagrams",
@@ -1945,6 +2108,7 @@
         "index": {
           "description": "Generate grid points left upper rows columns width height",
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "grid",
           "normalized": "(R,R)-\u003e(Int,Int)-\u003e(R,R)-\u003e(R,R)-\u003e[Pt R]",
@@ -1960,6 +2124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCairo co-ordinates are \u003cem\u003ey\u003c/em\u003e descending.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "invert",
           "package": "hmt-diagrams",
@@ -1970,6 +2135,7 @@
         "index": {
           "description": "Cairo co-ordinates are descending",
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "invert",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -1984,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "ipt",
           "package": "hmt-diagrams",
@@ -1993,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "ipt",
           "normalized": "a-\u003ea-\u003ePt R",
@@ -2007,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_dimensions",
           "package": "hmt-diagrams",
@@ -2016,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_dimensions",
           "normalized": "(Int,Int)",
@@ -2030,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_nc",
           "package": "hmt-diagrams",
@@ -2039,6 +2210,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_nc",
           "package": "hmt-diagrams",
@@ -2051,6 +2223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_scalar",
           "package": "hmt-diagrams",
@@ -2060,6 +2233,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_scalar",
           "package": "hmt-diagrams",
@@ -2072,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_spacers",
           "package": "hmt-diagrams",
@@ -2081,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Diagram Render Contour WT",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Contour.WT",
           "name": "wt_spacers",
           "normalized": "(R,R)",
@@ -2096,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for drawing grid and table structure common in music\n theory and in compositions such as Morton Feldman's durational\n \u003cem\u003egrid\u003c/em\u003e music of the 1950's.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -2105,6 +2282,7 @@
         "index": {
           "description": "Functions for drawing grid and table structure common in music theory and in compositions such as Morton Feldman durational grid music of the",
           "hierarchy": "Music Theory Diagram Render Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "Grid",
           "package": "hmt-diagrams",
@@ -2119,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003eGrid\u003c/code\u003e of \u003cem\u003e(rows,columns)\u003c/em\u003e with displacement \u003cem\u003e(dx,dy)\u003c/em\u003e in\n indicated font size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "mk_grid",
           "package": "hmt-diagrams",
@@ -2129,6 +2308,7 @@
         "index": {
           "description": "Render Grid of rows columns with displacement dx dy in indicated font size",
           "hierarchy": "Music Theory Diagram Render Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "mk_grid",
           "normalized": "(Int,Int)-\u003e(R,R)-\u003eR-\u003eGrid-\u003eRender()",
@@ -2144,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun render to \u003ccode\u003ePDF\u003c/code\u003e file.\n\u003c/p\u003e\u003cpre\u003e let g = [((0,0),(1,0,0),\"a\"),((2,2),(0,0,1),\"b\")]\n in to_pdf \"/tmp/grid.pdf\" (60,60) (mk_grid (4,4) (2,8) 9 g)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "to_pdf",
           "package": "hmt-diagrams",
@@ -2154,6 +2335,7 @@
         "index": {
           "description": "Run render to PDF file let in to pdf tmp grid.pdf mk grid",
           "hierarchy": "Music Theory Diagram Render Grid",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Grid",
           "name": "to_pdf",
           "normalized": "FilePath-\u003e(R,R)-\u003eRender()-\u003eIO()",
@@ -2169,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to make \u003cem\u003epath diagrams\u003c/em\u003e such as those in Fig. VIII-11\n on I.Xenakis \u003cem\u003eFormalized Music\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -2178,6 +2361,7 @@
         "index": {
           "description": "Functions to make path diagrams such as those in Fig VIII-11 on I.Xenakis Formalized Music",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -2192,6 +2376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of \u003ccode\u003e\u003ca\u003eCa\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eLs\u003c/a\u003e\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -2201,6 +2386,7 @@
         "index": {
           "description": "set of Ca and Ls pairs",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "Path",
           "package": "hmt-diagrams",
@@ -2215,6 +2401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw \u003ccode\u003e\u003ca\u003ePath\u003c/a\u003e\u003c/code\u003e with mid-point arrows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "draw_path",
           "package": "hmt-diagrams",
@@ -2225,6 +2412,7 @@
         "index": {
           "description": "Draw Path with mid-point arrows",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "draw_path",
           "normalized": "Path-\u003eRender()",
@@ -2240,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emapM_\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edraw_path\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "draw_paths",
           "package": "hmt-diagrams",
@@ -2250,6 +2439,7 @@
         "index": {
           "description": "mapM draw path",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "draw_paths",
           "normalized": "[Path]-\u003eRender()",
@@ -2265,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite \u003ccode\u003ePDF\u003c/code\u003e of a set of \u003ccode\u003e\u003ca\u003ePath_Diagram\u003c/a\u003e\u003c/code\u003es to named file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "path_diagram",
           "package": "hmt-diagrams",
@@ -2275,6 +2466,7 @@
         "index": {
           "description": "Write PDF of set of Path Diagram to named file",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "path_diagram",
           "normalized": "FilePath-\u003e[Path_Diagram]-\u003eIO()",
@@ -2290,6 +2482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edraw_paths\u003c/a\u003e\u003c/code\u003e to named \u003ccode\u003ePDF\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "write_pdf",
           "package": "hmt-diagrams",
@@ -2300,6 +2493,7 @@
         "index": {
           "description": "draw paths to named PDF file",
           "hierarchy": "Music Theory Diagram Render Path",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Diagram.Render.Path",
           "name": "write_pdf",
           "normalized": "FilePath-\u003e[Path]-\u003eIO()",
@@ -2315,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTuning tables\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "Table",
           "package": "hmt-diagrams",
@@ -2324,6 +2519,7 @@
         "index": {
           "description": "Tuning tables",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "Table",
           "package": "hmt-diagrams",
@@ -2338,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple indicating nearest \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e to \u003cem\u003efrequency\u003c/em\u003e with \u003ccode\u003eET\u003c/code\u003e\n frequency, and deviation in hertz and \u003ccode\u003e\u003ca\u003eCents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "HS_R",
           "package": "hmt-diagrams",
@@ -2347,6 +2544,7 @@
         "index": {
           "description": "Tuple indicating nearest Pitch to frequency with ET frequency and deviation in hertz and Cents",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "HS_R",
           "package": "hmt-diagrams",
@@ -2361,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebounds_et_table\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003etbl_12et\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map bounds_12et_tone (hsn 17 55)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "bounds_12et_tone",
           "package": "hmt-diagrams",
@@ -2371,6 +2570,7 @@
         "index": {
           "description": "bounds et table of tbl et map bounds et tone hsn",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "bounds_12et_tone",
           "normalized": "Double-\u003eMaybe((Pitch,Double),(Pitch,Double))",
@@ -2386,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven an \u003ccode\u003eET\u003c/code\u003e table (or like) find bounds of frequency.\n\u003c/p\u003e\u003cpre\u003e let r = Just (at_pair octpc_to_pitch_cps ((3,11),(4,0)))\n in bounds_et_table tbl_12et 256 == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "bounds_et_table",
           "package": "hmt-diagrams",
@@ -2396,6 +2597,7 @@
         "index": {
           "description": "Given an ET table or like find bounds of frequency let Just at pair octpc to pitch cps in bounds et table tbl et",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "bounds_et_table",
           "normalized": "[(a,b)]-\u003eb-\u003eMaybe((a,b),(a,b))",
@@ -2411,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTable_Cell\u003c/a\u003e\u003c/code\u003e from set of \u003ccode\u003e\u003ca\u003eHS_R\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "hs_r_cell",
           "package": "hmt-diagrams",
@@ -2421,6 +2624,7 @@
         "index": {
           "description": "Table Cell from set of HS",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "hs_r_cell",
           "normalized": "Int-\u003e(Int-\u003eString)-\u003e[HS_R]-\u003e(Int,Int)-\u003eTable_Cell",
@@ -2436,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003en\u003c/em\u003e-decimal places.\n\u003c/p\u003e\u003cpre\u003e ndp 3 (1/3) == \"0.333\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "ndp",
           "package": "hmt-diagrams",
@@ -2446,6 +2651,7 @@
         "index": {
           "description": "decimal places ndp",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "ndp",
           "normalized": "Int-\u003eDouble-\u003eString",
@@ -2460,6 +2666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_12et_tone",
           "package": "hmt-diagrams",
@@ -2469,6 +2676,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_12et_tone",
           "normalized": "Double-\u003eHS_R",
@@ -2483,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_24et_tone",
           "package": "hmt-diagrams",
@@ -2492,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_24et_tone",
           "normalized": "Double-\u003eHS_R",
@@ -2507,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForm \u003ccode\u003e\u003ca\u003eHS_R\u003c/a\u003e\u003c/code\u003e for \u003cem\u003efrequency\u003c/em\u003e by consulting table.\n\u003c/p\u003e\u003cpre\u003e let {f = 256\n     ;f' = octpc_to_cps (4,0)\n     ;r = (f,Pitch C Natural 4,f',f-f',to_cents (f/f'))}\n in nearest_et_table_tone tbl_12et 256 == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_et_table_tone",
           "package": "hmt-diagrams",
@@ -2517,6 +2728,7 @@
         "index": {
           "description": "Form HS for frequency by consulting table let octpc to cps Pitch Natural f-f to cents in nearest et table tone tbl et",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "nearest_et_table_tone",
           "normalized": "[(Pitch,Double)]-\u003eDouble-\u003eHS_R",
@@ -2532,6 +2744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoctpc_to_pitch\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eoctpc_to_cps\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "octpc_to_pitch_cps",
           "package": "hmt-diagrams",
@@ -2542,6 +2755,7 @@
         "index": {
           "description": "octpc to pitch and octpc to cps",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "octpc_to_pitch_cps",
           "normalized": "OctPC-\u003e(Pitch,a)",
@@ -2557,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e12-tone equal temperament table equating \u003ccode\u003e\u003ca\u003ePitch\u003c/a\u003e\u003c/code\u003e and frequency\n over range of human hearing, where \u003ccode\u003eA4\u003c/code\u003e = \u003ccode\u003e440\u003c/code\u003ehz.\n\u003c/p\u003e\u003cpre\u003e length tbl_12et == 132\n min_max (map (round . snd) tbl_12et) == (16,31609)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "tbl_12et",
           "package": "hmt-diagrams",
@@ -2567,6 +2782,7 @@
         "index": {
           "description": "tone equal temperament table equating Pitch and frequency over range of human hearing where A4 hz length tbl et min max map round snd tbl et",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "tbl_12et",
           "normalized": "[(Pitch,Double)]",
@@ -2582,6 +2798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e24-tone equal temperament variant of \u003ccode\u003e\u003ca\u003etbl_12et\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e length tbl_24et == 264\n min_max (map (round . snd) tbl_24et) == (16,32535)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:42:35 UTC 2014",
           "module": "Music.Theory.Tuning.Table",
           "name": "tbl_24et",
           "package": "hmt-diagrams",
@@ -2592,6 +2809,7 @@
         "index": {
           "description": "tone equal temperament variant of tbl et length tbl et min max map round snd tbl et",
           "hierarchy": "Music Theory Tuning Table",
+          "indexed": "2014-03-11T18:42:35",
           "module": "Music.Theory.Tuning.Table",
           "name": "tbl_24et",
           "normalized": "[(Pitch,Double)]",

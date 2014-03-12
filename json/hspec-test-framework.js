@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-test-framework"
+        "phrase": "hspec-test-framework",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.API",
           "name": "API",
           "package": "hspec-test-framework",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers API",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.API",
           "name": "API",
           "package": "hspec-test-framework",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.API",
           "name": "Test",
           "package": "hspec-test-framework",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers API",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.API",
           "name": "Test",
           "package": "hspec-test-framework",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.API",
           "name": "TestName",
           "package": "hspec-test-framework",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers API",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.API",
           "name": "TestName",
           "package": "hspec-test-framework",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.HUnit",
           "name": "HUnit",
           "package": "hspec-test-framework",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers HUnit",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.HUnit",
           "name": "HUnit",
           "package": "hspec-test-framework",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.HUnit",
           "name": "hUnitTestToTests",
           "package": "hspec-test-framework",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers HUnit",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.HUnit",
           "name": "hUnitTestToTests",
           "normalized": "Test-\u003e[Test]",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.HUnit",
           "name": "testCase",
           "package": "hspec-test-framework",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers HUnit",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.HUnit",
           "name": "testCase",
           "normalized": "TestName-\u003eAssertion-\u003eTest",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.QuickCheck2",
           "name": "QuickCheck2",
           "package": "hspec-test-framework",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers QuickCheck2",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.QuickCheck2",
           "name": "QuickCheck2",
           "package": "hspec-test-framework",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework.Providers.QuickCheck2",
           "name": "testProperty",
           "package": "hspec-test-framework",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Test Framework Providers QuickCheck2",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework.Providers.QuickCheck2",
           "name": "testProperty",
           "normalized": "TestName-\u003ea-\u003eTest",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework",
           "name": "Framework",
           "package": "hspec-test-framework",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Test Framework",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework",
           "name": "Framework",
           "package": "hspec-test-framework",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework",
           "name": "defaultMain",
           "package": "hspec-test-framework",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Test Framework",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework",
           "name": "defaultMain",
           "normalized": "[Test]-\u003eIO()",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:11 UTC 2014",
           "module": "Test.Framework",
           "name": "testGroup",
           "package": "hspec-test-framework",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Test Framework",
+          "indexed": "2014-03-11T18:50:11",
           "module": "Test.Framework",
           "name": "testGroup",
           "normalized": "TestName-\u003e[Test]-\u003eTest",

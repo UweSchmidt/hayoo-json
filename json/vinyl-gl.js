@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vinyl-gl"
+        "phrase": "vinyl-gl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReflection utilities for vinyl records.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "Reflect",
           "package": "vinyl-gl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Reflection utilities for vinyl records",
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "Reflect",
           "package": "vinyl-gl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the dimensionality of each field in a record. This is\n primarily useful for things like the small finite vector types\n provided by \u003ca\u003eLinear\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldDims",
           "package": "vinyl-gl",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Compute the dimensionality of each field in record This is primarily useful for things like the small finite vector types provided by Linear",
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldDims",
           "package": "vinyl-gl",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all field names in a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldNames",
           "package": "vinyl-gl",
@@ -74,6 +79,7 @@
         "index": {
           "description": "List all field names in record",
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldNames",
           "package": "vinyl-gl",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the size in bytes of of each field in a record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldSizes",
           "package": "vinyl-gl",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Compute the size in bytes of of each field in record",
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "HasFieldSizes",
           "package": "vinyl-gl",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldDims",
           "package": "vinyl-gl",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldDims",
           "normalized": "a-\u003e[Int]",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldNames",
           "package": "vinyl-gl",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldNames",
           "normalized": "a-\u003e[String]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldSizes",
           "package": "vinyl-gl",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data Vinyl Reflect",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Data.Vinyl.Reflect",
           "name": "fieldSizes",
           "normalized": "a-\u003e[Int]",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for binding vinyl records to GLSL program uniform\n parameters. The most common usage is to use the \u003ccode\u003e\u003ca\u003esetUniforms\u003c/a\u003e\u003c/code\u003e\n function to set each field of a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e to the GLSL uniform\n parameter with the same name. This verifies that each field of the\n record corresponds to a uniform parameter of the given shader\n program, and that the types all agree.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "Uniforms",
           "package": "vinyl-gl",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Tools for binding vinyl records to GLSL program uniform parameters The most common usage is to use the setUniforms function to set each field of PlainRec to the GLSL uniform parameter with the same name This verifies that each field of the record corresponds to uniform parameter of the given shader program and that the types all agree",
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "Uniforms",
           "package": "vinyl-gl",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide the \u003ccode\u003e\u003ca\u003eVariableType\u003c/a\u003e\u003c/code\u003e of each field in a \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e. The list\n of types has the same order as the fields of the \u003ccode\u003e\u003ca\u003eRec\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "HasFieldGLTypes",
           "package": "vinyl-gl",
@@ -215,6 +232,7 @@
         "index": {
           "description": "Provide the VariableType of each field in Rec The list of types has the same order as the fields of the Rec",
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "HasFieldGLTypes",
           "package": "vinyl-gl",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "SetUniformFields",
           "package": "vinyl-gl",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "SetUniformFields",
           "package": "vinyl-gl",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "fieldGLTypes",
           "package": "vinyl-gl",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "fieldGLTypes",
           "normalized": "a-\u003e[VariableType]",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet GLSL uniform parameters from a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e. A check is\n performed to verify that \u003cem\u003eall\u003c/em\u003e uniforms used by a program are\n represented by the record type. In other words, the record is a\n superset of the parameters used by the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setAllUniforms",
           "package": "vinyl-gl",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Set GLSL uniform parameters from PlainRec check is performed to verify that all uniforms used by program are represented by the record type In other words the record is superset of the parameters used by the program",
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setAllUniforms",
           "normalized": "ShaderProgram-\u003ePlainRec a-\u003eIO()",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet GLSL uniform parameters from those fields of a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e\n whose names correspond to uniform parameters used by a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setSomeUniforms",
           "package": "vinyl-gl",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Set GLSL uniform parameters from those fields of PlainRec whose names correspond to uniform parameters used by program",
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setSomeUniforms",
           "normalized": "ShaderProgram-\u003ePlainRec a-\u003eIO()",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet GLSL uniform parameters from a \u003ccode\u003e\u003ca\u003ePlainRec\u003c/a\u003e\u003c/code\u003e representing a\n subset of all uniform parameters used by a program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setUniforms",
           "package": "vinyl-gl",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Set GLSL uniform parameters from PlainRec representing subset of all uniform parameters used by program",
           "hierarchy": "Graphics VinylGL Uniforms",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Uniforms",
           "name": "setUniforms",
           "normalized": "ShaderProgram-\u003ePlainRec a-\u003eIO()",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities for working with vertex buffer objects (VBOs) filled\n with vertices represented as vinyl records.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "Vertex",
           "package": "vinyl-gl",
@@ -361,6 +390,7 @@
         "index": {
           "description": "Utilities for working with vertex buffer objects VBOs filled with vertices represented as vinyl records",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "Vertex",
           "package": "vinyl-gl",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of a VBO whose type describes the vertices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "BufferedVertices",
           "package": "vinyl-gl",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Representation of VBO whose type describes the vertices",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "BufferedVertices",
           "package": "vinyl-gl",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "BufferedVertices",
           "package": "vinyl-gl",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "BufferedVertices",
           "package": "vinyl-gl",
@@ -420,6 +454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind previously-buffered vertex data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "bindVertices",
           "package": "vinyl-gl",
@@ -430,6 +465,7 @@
         "index": {
           "description": "Bind previously-buffered vertex data",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "bindVertices",
           "normalized": "BufferedVertices a-\u003eIO()",
@@ -446,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad vertex data into a GPU-accessible buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "bufferVertices",
           "package": "vinyl-gl",
@@ -456,6 +493,7 @@
         "index": {
           "description": "Load vertex data into GPU-accessible buffer",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "bufferVertices",
           "normalized": "a(PlainRec b)-\u003eIO(BufferedVertices b)",
@@ -472,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the object name associated with \u003ccode\u003e\u003ca\u003eBufferedVertices\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "deleteVertices",
           "package": "vinyl-gl",
@@ -482,6 +521,7 @@
         "index": {
           "description": "Delete the object name associated with BufferedVertices",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "deleteVertices",
           "normalized": "BufferedVertices a-\u003eIO()",
@@ -498,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind some of a shader's attribute inputs to a vertex record. This\n is useful when the inputs of a shader are split across multiple\n arrays.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertexFields",
           "package": "vinyl-gl",
@@ -508,6 +549,7 @@
         "index": {
           "description": "Bind some of shader attribute inputs to vertex record This is useful when the inputs of shader are split across multiple arrays",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertexFields",
           "normalized": "ShaderProgram-\u003ea b-\u003eIO()",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine up a shader's attribute inputs with a vertex record. This\n maps vertex fields to GLSL attributes on the basis of record field\n names on the Haskell side, and variable names on the GLSL side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertices",
           "package": "vinyl-gl",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Line up shader attribute inputs with vertex record This maps vertex fields to GLSL attributes on the basis of record field names on the Haskell side and variable names on the GLSL side",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertices",
           "normalized": "ShaderProgram-\u003ea b-\u003eIO(Maybe String)",
@@ -550,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehaves like \u003ccode\u003e\u003ca\u003eenableVertices\u003c/a\u003e\u003c/code\u003e, but raises an exception if the\n supplied vertex record does not include a field required by the\n shader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertices'",
           "package": "vinyl-gl",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Behaves like enableVertices but raises an exception if the supplied vertex record does not include field required by the shader",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "enableVertices'",
           "normalized": "ShaderProgram-\u003ea b-\u003eIO()",
@@ -576,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a \u003ccode\u003e\u003ca\u003eVertexArrayDescriptor\u003c/a\u003e\u003c/code\u003e for a particular field of a\n vertex record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "fieldToVAD",
           "package": "vinyl-gl",
@@ -586,6 +633,7 @@
         "index": {
           "description": "Produce VertexArrayDescriptor for particular field of vertex record",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "fieldToVAD",
           "normalized": "a-\u003eProxy(PlainRec b)-\u003eVertexArrayDescriptor c",
@@ -601,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "getVertexBuffer",
           "package": "vinyl-gl",
@@ -610,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "getVertexBuffer",
           "package": "vinyl-gl",
@@ -624,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReload \u003ccode\u003e\u003ca\u003eBufferedVertices\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e of new vertex data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL.Vertex",
           "name": "reloadVertices",
           "package": "vinyl-gl",
@@ -634,6 +685,7 @@
         "index": {
           "description": "Reload BufferedVertices with Vector of new vertex data",
           "hierarchy": "Graphics VinylGL Vertex",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL.Vertex",
           "name": "reloadVertices",
           "normalized": "BufferedVertices a-\u003eVector(PlainRec a)-\u003eIO()",
@@ -649,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:35:14 UTC 2014",
           "module": "Graphics.VinylGL",
           "name": "VinylGL",
           "package": "vinyl-gl",
@@ -657,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Graphics VinylGL",
+          "indexed": "2014-03-11T20:35:14",
           "module": "Graphics.VinylGL",
           "name": "VinylGL",
           "package": "vinyl-gl",

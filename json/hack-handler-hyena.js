@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-handler-hyena"
+        "phrase": "hack-handler-hyena",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "Hyena",
           "package": "hack-handler-hyena",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "Hyena",
           "package": "hack-handler-hyena",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "ServerConf",
           "package": "hack-handler-hyena",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "ServerConf",
           "package": "hack-handler-hyena",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "ServerConf",
           "package": "hack-handler-hyena",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "ServerConf",
           "package": "hack-handler-hyena",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "port",
           "package": "hack-handler-hyena",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "port",
           "package": "hack-handler-hyena",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "run",
           "package": "hack-handler-hyena",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "run",
           "normalized": "Application-\u003eIO()",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "runWithConfig",
           "package": "hack-handler-hyena",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "runWithConfig",
           "normalized": "ServerConf-\u003eApplication-\u003eIO()",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:25:27 UTC 2014",
           "module": "Hack.Handler.Hyena",
           "name": "serverName",
           "package": "hack-handler-hyena",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Hack Handler Hyena",
+          "indexed": "2014-03-11T18:25:27",
           "module": "Hack.Handler.Hyena",
           "name": "serverName",
           "package": "hack-handler-hyena",

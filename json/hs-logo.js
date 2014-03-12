@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-logo"
+        "phrase": "hs-logo",
+        "type": "phrase"
       },
       "type": "context"
     }

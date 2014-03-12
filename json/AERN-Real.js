@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AERN-Real"
+        "phrase": "AERN-Real",
+        "type": "phrase"
       },
       "type": "context"
     }

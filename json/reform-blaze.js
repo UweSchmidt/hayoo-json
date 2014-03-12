@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reform-blaze"
+        "phrase": "reform-blaze",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "Common",
           "package": "reform-blaze",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "Common",
           "package": "reform-blaze",
@@ -119,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "buttonSubmit",
           "package": "reform-blaze",
@@ -129,6 +132,7 @@
         "index": {
           "description": "Create button type submit element",
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "buttonSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003ed-\u003eForm e a b Html()(Maybe c)",
@@ -249,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputButton",
           "package": "reform-blaze",
@@ -258,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputButton",
           "normalized": "a-\u003eForm b c d Html()()",
@@ -352,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputHidden",
           "package": "reform-blaze",
@@ -361,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputHidden",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b Html()c",
@@ -376,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputPassword",
           "package": "reform-blaze",
@@ -385,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputPassword",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b Html()c",
@@ -426,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputReset",
           "package": "reform-blaze",
@@ -435,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputReset",
           "normalized": "a-\u003eForm b c d Html()()",
@@ -450,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputSubmit",
           "package": "reform-blaze",
@@ -459,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputSubmit",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b Html()(Maybe c)",
@@ -474,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputText",
           "package": "reform-blaze",
@@ -483,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "inputText",
           "normalized": "(a-\u003eEither b c)-\u003ec-\u003eForm d a b Html()c",
@@ -628,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an attribute to the \u003ccode\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/code\u003e for a form element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "setAttr",
           "package": "reform-blaze",
@@ -638,6 +655,7 @@
         "index": {
           "description": "add an attribute to the Html for form element",
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "setAttr",
           "normalized": "Form a b c Html d e-\u003eAttribute-\u003eForm a b c Html d e",
@@ -653,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Common",
           "name": "textarea",
           "package": "reform-blaze",
@@ -661,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Text Reform Blaze Common",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Common",
           "name": "textarea",
           "normalized": "(a-\u003eEither b c)-\u003eInt-\u003eInt-\u003ec-\u003eForm d a b Html()c",
@@ -702,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using blaze-html markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.Blaze.Text\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "String",
           "package": "reform-blaze",
@@ -711,6 +732,7 @@
         "index": {
           "description": "This module provides functions creating Reform using blaze-html markup This module assumes that you wish for text based controls such as inputText and textarea to using String values If you prefer Text see Text.Reform.Blaze.Text",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "String",
           "package": "reform-blaze",
@@ -725,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "buttonSubmit",
           "package": "reform-blaze",
@@ -734,6 +757,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "buttonSubmit",
           "normalized": "String-\u003ea-\u003eForm b c d Html()(Maybe String)",
@@ -750,6 +774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputButton",
           "package": "reform-blaze",
@@ -759,6 +784,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputButton",
           "normalized": "String-\u003eForm a b c Html()()",
@@ -775,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputHidden",
           "package": "reform-blaze",
@@ -784,6 +811,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputHidden",
           "normalized": "String-\u003eForm a b c Html()String",
@@ -800,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputPassword",
           "package": "reform-blaze",
@@ -810,6 +839,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputPassword",
           "normalized": "Form a b c Html()String",
@@ -826,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputReset",
           "package": "reform-blaze",
@@ -835,6 +866,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputReset",
           "normalized": "String-\u003eForm a b c Html()()",
@@ -851,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputSubmit",
           "package": "reform-blaze",
@@ -860,6 +893,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputSubmit",
           "normalized": "String-\u003eForm a b c Html()(Maybe String)",
@@ -876,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "inputText",
           "package": "reform-blaze",
@@ -885,6 +920,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "inputText",
           "normalized": "String-\u003eForm a b c Html()String",
@@ -901,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.String",
           "name": "textarea",
           "package": "reform-blaze",
@@ -910,6 +947,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform Blaze String",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.String",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eString-\u003eForm a b c Html()String",
@@ -925,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions creating Reform using blaze-html markup.\n\u003c/p\u003e\u003cp\u003eThis module assumes that you wish for text based controls such as \u003ccode\u003e\u003ca\u003einputText\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etextarea\u003c/a\u003e\u003c/code\u003e to using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values. If you prefer \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e see \u003ca\u003eText.Reform.Blaze.String\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "Text",
           "package": "reform-blaze",
@@ -934,6 +973,7 @@
         "index": {
           "description": "This module provides functions creating Reform using blaze-html markup This module assumes that you wish for text based controls such as inputText and textarea to using Text values If you prefer String see Text.Reform.Blaze.String",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "Text",
           "package": "reform-blaze",
@@ -948,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a  \u003ccode\u003e\u003cbutton type=\"submit\"\u003e\u003c/button\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "buttonSubmit",
           "package": "reform-blaze",
@@ -957,6 +998,7 @@
         "index": {
           "description": "create button type submit button element",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "buttonSubmit",
           "normalized": "Text-\u003ea-\u003eForm b c d Html()(Maybe Text)",
@@ -973,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"button\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThe element is a push button with a text label. The button does nothing by default, but actions can be added using javascript. This element does not add any data to the form data set.\n\u003c/p\u003e\u003cp\u003esee also: \u003ccode\u003e\u003ca\u003ebutton\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputButton",
           "package": "reform-blaze",
@@ -982,6 +1025,7 @@
         "index": {
           "description": "Create an input type button element The element is push button with text label The button does nothing by default but actions can be added using javascript This element does not add any data to the form data set see also button",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputButton",
           "normalized": "Text-\u003eForm a b c Html()()",
@@ -998,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"hidden\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputHidden",
           "package": "reform-blaze",
@@ -1007,6 +1052,7 @@
         "index": {
           "description": "Create an input type hidden element",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputHidden",
           "normalized": "Text-\u003eForm a b c Html()Text",
@@ -1023,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"password\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputPassword",
           "package": "reform-blaze",
@@ -1033,6 +1080,7 @@
         "index": {
           "description": "Create an input type password element",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputPassword",
           "normalized": "Form a b c Html()Text",
@@ -1049,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"reset\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003eThis element does not add any data to the form data set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputReset",
           "package": "reform-blaze",
@@ -1058,6 +1107,7 @@
         "index": {
           "description": "Create an input type reset element This element does not add any data to the form data set",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputReset",
           "normalized": "Text-\u003eForm a b c Html()()",
@@ -1074,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"submit\"\u003e\u003c/code\u003e element\n\u003c/p\u003e\u003cp\u003ereturns:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eJust\u003c/code\u003e \u003cem\u003evalue\u003c/em\u003e\u003c/dt\u003e\u003cdd\u003e if this button was used to submit the form.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eNothing\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e    if this button was not used to submit the form.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputSubmit",
           "package": "reform-blaze",
@@ -1083,6 +1134,7 @@
         "index": {
           "description": "Create an input type submit element returns Just value if this button was used to submit the form Nothing if this button was not used to submit the form",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputSubmit",
           "normalized": "Text-\u003eForm a b c Html()(Maybe Text)",
@@ -1099,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003cinput type=\"text\"\u003e\u003c/code\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputText",
           "package": "reform-blaze",
@@ -1108,6 +1161,7 @@
         "index": {
           "description": "Create an input type text element",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "inputText",
           "normalized": "Text-\u003eForm a b c Html()Text",
@@ -1124,6 +1178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ctextarea\u003e\u003c/textarea\u003e element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:43 UTC 2014",
           "module": "Text.Reform.Blaze.Text",
           "name": "textarea",
           "package": "reform-blaze",
@@ -1133,6 +1188,7 @@
         "index": {
           "description": "Create textarea textarea element",
           "hierarchy": "Text Reform Blaze Text",
+          "indexed": "2014-03-11T19:50:43",
           "module": "Text.Reform.Blaze.Text",
           "name": "textarea",
           "normalized": "Int-\u003eInt-\u003eText-\u003eForm a b c Html()Text",

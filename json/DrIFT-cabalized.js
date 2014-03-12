@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DrIFT-cabalized"
+        "phrase": "DrIFT-cabalized",
+        "type": "phrase"
       },
       "type": "context"
     }

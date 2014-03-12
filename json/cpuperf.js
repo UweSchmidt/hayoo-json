@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpuperf"
+        "phrase": "cpuperf",
+        "type": "phrase"
       },
       "type": "context"
     }

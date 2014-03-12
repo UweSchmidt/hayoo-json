@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flowdock-api"
+        "phrase": "flowdock-api",
+        "type": "phrase"
       },
       "type": "context"
     }

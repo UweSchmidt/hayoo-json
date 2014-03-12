@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GeoIp"
+        "phrase": "GeoIp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module loads the MaxMind's GeoIp City database.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:02 UTC 2014",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "GeoCityIp",
           "package": "GeoIp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module loads the MaxMind GeoIp City database",
           "hierarchy": "Network GeoIp GeoCityIp",
+          "indexed": "2014-03-11T16:43:02",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "GeoCityIp",
           "package": "GeoIp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:02 UTC 2014",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "GeoCityDB",
           "package": "GeoIp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network GeoIp GeoCityIp",
+          "indexed": "2014-03-11T16:43:02",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "GeoCityDB",
           "package": "GeoIp",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the location of an IP address. The tuple returned is \u003ccode\u003e(latitude, longitude)\u003c/code\u003e.\n   The result is monadic, in most cases you will want to use the Maybe monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:02 UTC 2014",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "findLocation",
           "package": "GeoIp",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Find the location of an IP address The tuple returned is latitude longitude The result is monadic in most cases you will want to use the Maybe monad",
           "hierarchy": "Network GeoIp GeoCityIp",
+          "indexed": "2014-03-11T16:43:02",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "findLocation",
           "normalized": "GeoCityDB-\u003eInteger-\u003ea(Double,Double)",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the IP range that the IP address is in.  The result is monadic.\n   In most cases you will want to use the Maybe monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:02 UTC 2014",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "findRange",
           "package": "GeoIp",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Find the IP range that the IP address is in The result is monadic In most cases you will want to use the Maybe monad",
           "hierarchy": "Network GeoIp GeoCityIp",
+          "indexed": "2014-03-11T16:43:02",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "findRange",
           "normalized": "GeoCityDB-\u003eInteger-\u003ea(Integer,Integer)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the city database.  If an error is triggered then\n   Left is returned with an error string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:02 UTC 2014",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "load",
           "package": "GeoIp",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Load the city database If an error is triggered then Left is returned with an error string",
           "hierarchy": "Network GeoIp GeoCityIp",
+          "indexed": "2014-03-11T16:43:02",
           "module": "Network.GeoIp.GeoCityIp",
           "name": "load",
           "normalized": "FilePath-\u003eIO(Either String GeoCityDB)",

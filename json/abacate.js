@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "abacate"
+        "phrase": "abacate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Types",
           "package": "abacate",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Types",
           "package": "abacate",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Abacate file contains exactly one feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Abacate",
           "package": "abacate",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An Abacate file contains exactly one feature",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Abacate",
           "package": "abacate",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eBackground\u003c/a\u003e\u003c/code\u003e is basically a \u003ccode\u003e\u003ca\u003eScenario\u003c/a\u003e\u003c/code\u003e without \u003ccode\u003e\u003ca\u003eTags\u003c/a\u003e\u003c/code\u003e.  It's used to\n create a context for the other \u003ccode\u003e\u003ca\u003eScenario\u003c/a\u003e\u003c/code\u003es to run, and a \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003e can only\n have one \u003ccode\u003e\u003ca\u003eBackground\u003c/a\u003e\u003c/code\u003e.  For more information on the \u003ccode\u003e\u003ca\u003eBackground\u003c/a\u003e\u003c/code\u003e check\n \u003ca\u003ehttps://github.com/cucumber/cucumber/wiki/Background\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Background",
           "package": "abacate",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The Background is basically Scenario without Tags It used to create context for the other Scenario to run and Feature can only have one Background For more information on the Background check https github.com cucumber cucumber wiki Background",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Background",
           "package": "abacate",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the basic type for \u003ccode\u003e\u003ca\u003eScenario\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eScenarioOutline\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBackground\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "BasicScenario",
           "package": "abacate",
@@ -95,6 +102,7 @@
         "index": {
           "description": "This is the basic type for Scenario ScenarioOutline and Background",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "BasicScenario",
           "package": "abacate",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Cell",
           "package": "abacate",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Cell",
           "package": "abacate",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Comment",
           "package": "abacate",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Comment",
           "package": "abacate",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eExamples\u003c/a\u003e\u003c/code\u003e are used to fill the value of placeholders on\n \u003ccode\u003e\u003ca\u003eScenarioOutline\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Examples",
           "package": "abacate",
@@ -160,6 +173,7 @@
         "index": {
           "description": "The Examples are used to fill the value of placeholders on ScenarioOutline",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Examples",
           "package": "abacate",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "ExamplesSection",
           "package": "abacate",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "ExamplesSection",
           "package": "abacate",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a more detailed description of features, check\n \u003ca\u003ehttps://github.com/cucumber/cucumber/wiki/Feature-Introduction\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Feature",
           "package": "abacate",
@@ -204,6 +221,7 @@
         "index": {
           "description": "For more detailed description of features check https github.com cucumber cucumber wiki Feature-Introduction",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Feature",
           "package": "abacate",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFeatureElement\u003c/a\u003e\u003c/code\u003e is simply a \u003ccode\u003e\u003ca\u003eScenario\u003c/a\u003e\u003c/code\u003e or a \u003ccode\u003e\u003ca\u003eScenarioOutline\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "FeatureElement",
           "package": "abacate",
@@ -227,6 +246,7 @@
         "index": {
           "description": "FeatureElement is simply Scenario or ScenarioOutline",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "FeatureElement",
           "package": "abacate",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "FeatureElements",
           "package": "abacate",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "FeatureElements",
           "package": "abacate",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eHeader\u003c/a\u003e\u003c/code\u003e contains the title and description of the \u003ccode\u003e\u003ca\u003eFeature\u003c/a\u003e\u003c/code\u003e.  It is\n usually on the format:\n\u003c/p\u003e\u003cpre\u003e\n Feature: TITLE\n   DESCRIPTION LINE 1\n   DESCRIPTION LINE 2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Header",
           "package": "abacate",
@@ -271,6 +294,7 @@
         "index": {
           "description": "The Header contains the title and description of the Feature It is usually on the format Feature TITLE DESCRIPTION LINE DESCRIPTION LINE",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Header",
           "package": "abacate",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eSteps\u003c/a\u003e\u003c/code\u003e can have multi-line arguments.  For more information check\n \u003ca\u003ehttps://github.com/cucumber/cucumber/wiki/Multiline-Step-Arguments\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "MultilineArg",
           "package": "abacate",
@@ -294,6 +319,7 @@
         "index": {
           "description": "Steps can have multi-line arguments For more information check https github.com cucumber cucumber wiki Multiline-Step-Arguments",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "MultilineArg",
           "package": "abacate",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "PyString",
           "package": "abacate",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "PyString",
           "package": "abacate",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Row",
           "package": "abacate",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Row",
           "package": "abacate",
@@ -350,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eScenario\u003c/a\u003e\u003c/code\u003e contains a list of \u003ccode\u003e\u003ca\u003eSteps\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Scenario",
           "package": "abacate",
@@ -359,6 +390,7 @@
         "index": {
           "description": "The Scenario contains list of Steps",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Scenario",
           "package": "abacate",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eSteps\u003c/a\u003e\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eScenarioOutline\u003c/a\u003e\u003c/code\u003e can contain placeholders which are\n substituted by the fields of the \u003ccode\u003e\u003ca\u003eExamplesSection\u003c/a\u003e\u003c/code\u003e.  For more information on\n the \u003ccode\u003e\u003ca\u003eScenarioOutline\u003c/a\u003e\u003c/code\u003e check\n \u003ca\u003ehttps://github.com/cucumber/cucumber/wiki/Scenario-outlines\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "ScenarioOutline",
           "package": "abacate",
@@ -382,6 +415,7 @@
         "index": {
           "description": "The Steps of the ScenarioOutline can contain placeholders which are substituted by the fields of the ExamplesSection For more information on the ScenarioOutline check https github.com cucumber cucumber wiki Scenario-outlines",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "ScenarioOutline",
           "package": "abacate",
@@ -396,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor more information on \u003ccode\u003e\u003ca\u003eSteps\u003c/a\u003e\u003c/code\u003e check\n \u003ca\u003ehttps://github.com/cucumber/cucumber/wiki/Given-When-Then\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Step",
           "package": "abacate",
@@ -405,6 +440,7 @@
         "index": {
           "description": "For more information on Steps check https github.com cucumber cucumber wiki Given-When-Then",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Step",
           "package": "abacate",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "StepKeyword",
           "package": "abacate",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "StepKeyword",
           "package": "abacate",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Steps",
           "package": "abacate",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Steps",
           "package": "abacate",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Table",
           "package": "abacate",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Table",
           "package": "abacate",
@@ -482,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTag\u003c/a\u003e\u003c/code\u003e is a textual element started with @.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Tag",
           "package": "abacate",
@@ -491,6 +534,7 @@
         "index": {
           "description": "Tag is textual element started with",
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Tag",
           "package": "abacate",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Tags",
           "package": "abacate",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Tags",
           "package": "abacate",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "And",
           "package": "abacate",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "And",
           "package": "abacate",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "BasicScenario",
           "package": "abacate",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "BasicScenario",
           "package": "abacate",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "But",
           "package": "abacate",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "But",
           "package": "abacate",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Examples",
           "package": "abacate",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Examples",
           "package": "abacate",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "FES",
           "package": "abacate",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "FES",
           "package": "abacate",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "FESO",
           "package": "abacate",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "FESO",
           "package": "abacate",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Feature",
           "package": "abacate",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Feature",
           "package": "abacate",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Given",
           "package": "abacate",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Given",
           "package": "abacate",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "MAPS",
           "package": "abacate",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "MAPS",
           "package": "abacate",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "MAT",
           "package": "abacate",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "MAT",
           "package": "abacate",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Scenario",
           "package": "abacate",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Scenario",
           "package": "abacate",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "ScenarioOutline",
           "package": "abacate",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "ScenarioOutline",
           "package": "abacate",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Step",
           "package": "abacate",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Step",
           "package": "abacate",
@@ -811,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "Then",
           "package": "abacate",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "Then",
           "package": "abacate",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "When",
           "package": "abacate",
@@ -842,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "When",
           "package": "abacate",
@@ -855,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "bsComment",
           "package": "abacate",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "bsComment",
           "package": "abacate",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "bsName",
           "package": "abacate",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "bsName",
           "package": "abacate",
@@ -899,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "bsSteps",
           "package": "abacate",
@@ -908,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "bsSteps",
           "package": "abacate",
@@ -921,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "eComment",
           "package": "abacate",
@@ -930,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "eComment",
           "package": "abacate",
@@ -943,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "eName",
           "package": "abacate",
@@ -952,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "eName",
           "package": "abacate",
@@ -965,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "eTable",
           "package": "abacate",
@@ -974,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "eTable",
           "package": "abacate",
@@ -987,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fBackground",
           "package": "abacate",
@@ -996,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fBackground",
           "package": "abacate",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fBegComment",
           "package": "abacate",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fBegComment",
           "package": "abacate",
@@ -1031,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fEndComment",
           "package": "abacate",
@@ -1040,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fEndComment",
           "package": "abacate",
@@ -1053,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fFeatureElements",
           "package": "abacate",
@@ -1062,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fFeatureElements",
           "package": "abacate",
@@ -1075,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fHeader",
           "package": "abacate",
@@ -1084,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fHeader",
           "package": "abacate",
@@ -1097,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "fTags",
           "package": "abacate",
@@ -1106,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "fTags",
           "package": "abacate",
@@ -1119,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "scBasicScenario",
           "package": "abacate",
@@ -1128,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "scBasicScenario",
           "package": "abacate",
@@ -1141,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "scTags",
           "package": "abacate",
@@ -1150,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "scTags",
           "package": "abacate",
@@ -1163,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "soExamplesSection",
           "package": "abacate",
@@ -1172,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "soExamplesSection",
           "package": "abacate",
@@ -1185,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "soScenario",
           "package": "abacate",
@@ -1194,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "soScenario",
           "package": "abacate",
@@ -1207,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "stBody",
           "package": "abacate",
@@ -1216,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "stBody",
           "package": "abacate",
@@ -1229,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "stComment",
           "package": "abacate",
@@ -1238,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "stComment",
           "package": "abacate",
@@ -1251,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "stMultilineArg",
           "package": "abacate",
@@ -1260,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "stMultilineArg",
           "package": "abacate",
@@ -1273,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate.Types",
           "name": "stStepKeyword",
           "package": "abacate",
@@ -1282,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Language Abacate Types",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate.Types",
           "name": "stStepKeyword",
           "package": "abacate",
@@ -1296,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGherkin is the language used by the Cucumber system for Behaviour Driven\n Development.  This package contains a parser to it, based on its BNF with\n minor changes.  For more information on Cucumber, check \u003ca\u003ehttp://cukes.info\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eAccording to\n \u003ca\u003ehttps://github.com/cucumber/gherkin/wiki/BNF/cf8696092b0e6841ba0c3cf4e2f0d3c964b9c144\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate",
           "name": "Abacate",
           "package": "abacate",
@@ -1305,6 +1422,7 @@
         "index": {
           "description": "Gherkin is the language used by the Cucumber system for Behaviour Driven Development This package contains parser to it based on its BNF with minor changes For more information on Cucumber check http cukes.info According to https github.com cucumber gherkin wiki BNF cf8696092b0e6841ba0c3cf4e2f0d3c964b9c144",
           "hierarchy": "Language Abacate",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate",
           "name": "Abacate",
           "package": "abacate",
@@ -1319,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string with \u003ccode\u003e\u003ca\u003eAbacate\u003c/a\u003e\u003c/code\u003e code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate",
           "name": "parseAbacate",
           "package": "abacate",
@@ -1329,6 +1448,7 @@
         "index": {
           "description": "Parses string with Abacate code",
           "hierarchy": "Language Abacate",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate",
           "name": "parseAbacate",
           "normalized": "Text-\u003eEither ParseError Abacate",
@@ -1345,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a file with \u003ccode\u003e\u003ca\u003eAbacate\u003c/a\u003e\u003c/code\u003e code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:06:20 UTC 2014",
           "module": "Language.Abacate",
           "name": "parseFile",
           "package": "abacate",
@@ -1355,6 +1476,7 @@
         "index": {
           "description": "Parses file with Abacate code",
           "hierarchy": "Language Abacate",
+          "indexed": "2014-03-11T17:06:20",
           "module": "Language.Abacate",
           "name": "parseFile",
           "normalized": "FilePath-\u003eIO(Either ParseError Abacate)",

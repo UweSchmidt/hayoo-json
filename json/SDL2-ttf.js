@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "SDL2-ttf"
+        "phrase": "SDL2-ttf",
+        "type": "phrase"
       },
       "type": "context"
     }

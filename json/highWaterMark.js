@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "highWaterMark"
+        "phrase": "highWaterMark",
+        "type": "phrase"
       },
       "type": "context"
     }

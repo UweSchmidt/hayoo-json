@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imapget"
+        "phrase": "imapget",
+        "type": "phrase"
       },
       "type": "context"
     }

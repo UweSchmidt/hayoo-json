@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-ppdev"
+        "phrase": "bindings-ppdev",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "PpDev",
           "package": "bindings-ppdev",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "PpDev",
           "package": "bindings-ppdev",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPCLAIM",
           "package": "bindings-ppdev",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPCLAIM",
           "package": "bindings-ppdev",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPDATADIR",
           "package": "bindings-ppdev",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPDATADIR",
           "package": "bindings-ppdev",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegister device exclusively (must be before PPCLAIM).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPEXCL",
           "package": "bindings-ppdev",
@@ -112,6 +121,7 @@
         "index": {
           "description": "Register device exclusively must be before PPCLAIM",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPEXCL",
           "package": "bindings-ppdev",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODE",
           "package": "bindings-ppdev",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODE",
           "package": "bindings-ppdev",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODES",
           "package": "bindings-ppdev",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODES",
           "package": "bindings-ppdev",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETTIME",
           "package": "bindings-ppdev",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETTIME",
           "package": "bindings-ppdev",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPNEGOT",
           "package": "bindings-ppdev",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPNEGOT",
           "package": "bindings-ppdev",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRDATA",
           "package": "bindings-ppdev",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRDATA",
           "package": "bindings-ppdev",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRELEASE",
           "package": "bindings-ppdev",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRELEASE",
           "package": "bindings-ppdev",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETMODE",
           "package": "bindings-ppdev",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETMODE",
           "package": "bindings-ppdev",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETTIME",
           "package": "bindings-ppdev",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETTIME",
           "package": "bindings-ppdev",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -469,6 +512,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -482,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWDATA",
           "package": "bindings-ppdev",
@@ -490,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWDATA",
           "package": "bindings-ppdev",
@@ -503,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPYIELD",
           "package": "bindings-ppdev",
@@ -511,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPYIELD",
           "package": "bindings-ppdev",
@@ -524,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'ppdev_frob_struct",
           "package": "bindings-ppdev",
@@ -532,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'ppdev_frob_struct",
           "package": "bindings-ppdev",
@@ -545,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'timeval",
           "package": "bindings-ppdev",
@@ -553,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'timeval",
           "package": "bindings-ppdev",
@@ -566,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPCLAIM",
           "package": "bindings-ppdev",
@@ -575,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPCLAIM",
           "package": "bindings-ppdev",
@@ -588,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -597,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -610,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPDATADIR",
           "package": "bindings-ppdev",
@@ -619,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPDATADIR",
           "package": "bindings-ppdev",
@@ -632,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPEXCL",
           "package": "bindings-ppdev",
@@ -641,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPEXCL",
           "package": "bindings-ppdev",
@@ -654,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -663,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -676,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -685,6 +748,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -698,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODE",
           "package": "bindings-ppdev",
@@ -707,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODE",
           "package": "bindings-ppdev",
@@ -720,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODES",
           "package": "bindings-ppdev",
@@ -729,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETMODES",
           "package": "bindings-ppdev",
@@ -742,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -751,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -764,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPGETTIME",
           "package": "bindings-ppdev",
@@ -773,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPGETTIME",
           "package": "bindings-ppdev",
@@ -786,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPNEGOT",
           "package": "bindings-ppdev",
@@ -795,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPNEGOT",
           "package": "bindings-ppdev",
@@ -808,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -817,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -830,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRDATA",
           "package": "bindings-ppdev",
@@ -839,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRDATA",
           "package": "bindings-ppdev",
@@ -852,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRELEASE",
           "package": "bindings-ppdev",
@@ -861,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRELEASE",
           "package": "bindings-ppdev",
@@ -874,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -883,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -896,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -905,6 +988,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -918,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETMODE",
           "package": "bindings-ppdev",
@@ -927,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETMODE",
           "package": "bindings-ppdev",
@@ -940,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -949,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -962,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPSETTIME",
           "package": "bindings-ppdev",
@@ -971,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPSETTIME",
           "package": "bindings-ppdev",
@@ -984,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -993,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -1006,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -1015,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -1028,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPWDATA",
           "package": "bindings-ppdev",
@@ -1037,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPWDATA",
           "package": "bindings-ppdev",
@@ -1050,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'PPYIELD",
           "package": "bindings-ppdev",
@@ -1059,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'PPYIELD",
           "package": "bindings-ppdev",
@@ -1072,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'ppdev_frob_struct",
           "package": "bindings-ppdev",
@@ -1081,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'ppdev_frob_struct",
           "package": "bindings-ppdev",
@@ -1094,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "C'timeval",
           "package": "bindings-ppdev",
@@ -1103,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "C'timeval",
           "package": "bindings-ppdev",
@@ -1117,6 +1219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClaim the port to start using it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPCLAIM",
           "package": "bindings-ppdev",
@@ -1127,6 +1230,7 @@
         "index": {
           "description": "Claim the port to start using it",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPCLAIM",
           "package": "bindings-ppdev",
@@ -1141,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear (and return) interrupt count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -1151,6 +1256,7 @@
         "index": {
           "description": "Clear and return interrupt count",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPCLRIRQ",
           "package": "bindings-ppdev",
@@ -1165,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData line direction: non-zero for input mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPDATADIR",
           "package": "bindings-ppdev",
@@ -1175,6 +1282,7 @@
         "index": {
           "description": "Data line direction non-zero for input mode",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPDATADIR",
           "package": "bindings-ppdev",
@@ -1188,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPEXCL",
           "package": "bindings-ppdev",
@@ -1197,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPEXCL",
           "package": "bindings-ppdev",
@@ -1210,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -1219,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPFCONTROL",
           "package": "bindings-ppdev",
@@ -1233,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget/set flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -1243,6 +1356,7 @@
         "index": {
           "description": "get set flags",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPGETFLAGS",
           "package": "bindings-ppdev",
@@ -1257,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current mode and phaze\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPGETMODE",
           "package": "bindings-ppdev",
@@ -1267,6 +1382,7 @@
         "index": {
           "description": "Get the current mode and phaze",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPGETMODE",
           "package": "bindings-ppdev",
@@ -1281,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet available modes (what the hardware can do)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPGETMODES",
           "package": "bindings-ppdev",
@@ -1291,6 +1408,7 @@
         "index": {
           "description": "Get available modes what the hardware can do",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPGETMODES",
           "package": "bindings-ppdev",
@@ -1304,6 +1422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -1313,6 +1432,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPGETPHASE",
           "package": "bindings-ppdev",
@@ -1327,6 +1447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet and get port timeout (struct timeval's)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPGETTIME",
           "package": "bindings-ppdev",
@@ -1337,6 +1458,7 @@
         "index": {
           "description": "Set and get port timeout struct timeval",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPGETTIME",
           "package": "bindings-ppdev",
@@ -1351,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegotiate a particular IEEE 1284 mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPNEGOT",
           "package": "bindings-ppdev",
@@ -1361,6 +1484,7 @@
         "index": {
           "description": "Negotiate particular IEEE mode",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPNEGOT",
           "package": "bindings-ppdev",
@@ -1375,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead/write control\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -1385,6 +1510,7 @@
         "index": {
           "description": "Read write control",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPRCONTROL",
           "package": "bindings-ppdev",
@@ -1399,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead/write data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPRDATA",
           "package": "bindings-ppdev",
@@ -1409,6 +1536,7 @@
         "index": {
           "description": "Read write data",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPRDATA",
           "package": "bindings-ppdev",
@@ -1423,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease the port when you aren't using it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPRELEASE",
           "package": "bindings-ppdev",
@@ -1433,6 +1562,7 @@
         "index": {
           "description": "Release the port when you aren using it",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPRELEASE",
           "package": "bindings-ppdev",
@@ -1447,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead status\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -1457,6 +1588,7 @@
         "index": {
           "description": "Read status",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPRSTATUS",
           "package": "bindings-ppdev",
@@ -1470,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -1479,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPSETFLAGS",
           "package": "bindings-ppdev",
@@ -1493,6 +1627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet mode for read/write (e.g. IEEE1284_MODE_EPP)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPSETMODE",
           "package": "bindings-ppdev",
@@ -1503,6 +1638,7 @@
         "index": {
           "description": "Set mode for read write e.g IEEE1284 MODE EPP",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPSETMODE",
           "package": "bindings-ppdev",
@@ -1517,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the IEEE 1284 phase that we're in (e.g. IEEE1284_PH_FWD_IDLE)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -1527,6 +1664,7 @@
         "index": {
           "description": "Set the IEEE phase that we re in e.g IEEE1284 PH FWD IDLE",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPSETPHASE",
           "package": "bindings-ppdev",
@@ -1540,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPSETTIME",
           "package": "bindings-ppdev",
@@ -1549,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPSETTIME",
           "package": "bindings-ppdev",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -1571,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPWCONTROL",
           "package": "bindings-ppdev",
@@ -1585,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet control lines when an interrupt occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -1595,6 +1738,7 @@
         "index": {
           "description": "Set control lines when an interrupt occurs",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPWCTLONIRQ",
           "package": "bindings-ppdev",
@@ -1608,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPWDATA",
           "package": "bindings-ppdev",
@@ -1617,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPWDATA",
           "package": "bindings-ppdev",
@@ -1631,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield the port (release it if another driver is waiting,\n   then reclaim)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PPYIELD",
           "package": "bindings-ppdev",
@@ -1641,6 +1788,7 @@
         "index": {
           "description": "Yield the port release it if another driver is waiting then reclaim",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PPYIELD",
           "package": "bindings-ppdev",
@@ -1654,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PP_FASTREAD",
           "package": "bindings-ppdev",
@@ -1663,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PP_FASTREAD",
           "package": "bindings-ppdev",
@@ -1677,6 +1827,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eflags visible to the world\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PP_FASTWRITE",
           "package": "bindings-ppdev",
@@ -1687,6 +1838,7 @@
         "index": {
           "description": "flags visible to the world",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PP_FASTWRITE",
           "package": "bindings-ppdev",
@@ -1701,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eonly masks user-visible flags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PP_FLAGMASK",
           "package": "bindings-ppdev",
@@ -1711,6 +1864,7 @@
         "index": {
           "description": "only masks user-visible flags",
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PP_FLAGMASK",
           "package": "bindings-ppdev",
@@ -1724,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PP_IOCTL",
           "package": "bindings-ppdev",
@@ -1733,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PP_IOCTL",
           "package": "bindings-ppdev",
@@ -1746,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'PP_W91284PIC",
           "package": "bindings-ppdev",
@@ -1755,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'PP_W91284PIC",
           "package": "bindings-ppdev",
@@ -1768,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'ppdev_frob_struct'mask",
           "package": "bindings-ppdev",
@@ -1777,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'ppdev_frob_struct'mask",
           "package": "bindings-ppdev",
@@ -1789,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'ppdev_frob_struct'val",
           "package": "bindings-ppdev",
@@ -1798,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'ppdev_frob_struct'val",
           "package": "bindings-ppdev",
@@ -1810,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'timeval'tv_sec",
           "package": "bindings-ppdev",
@@ -1819,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'timeval'tv_sec",
           "package": "bindings-ppdev",
@@ -1831,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:21:36 UTC 2014",
           "module": "Bindings.PpDev",
           "name": "c'timeval'tv_usec",
           "package": "bindings-ppdev",
@@ -1840,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Bindings PpDev",
+          "indexed": "2014-03-11T17:21:36",
           "module": "Bindings.PpDev",
           "name": "c'timeval'tv_usec",
           "package": "bindings-ppdev",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-vector-binary"
+        "phrase": "fixed-vector-binary",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule with binary instances for data types defined in fixed\n   vector\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:09:58 UTC 2014",
           "module": "Data.Vector.Fixed.Instances.Binary",
           "name": "Binary",
           "package": "fixed-vector-binary",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module with binary instances for data types defined in fixed vector",
           "hierarchy": "Data Vector Fixed Instances Binary",
+          "indexed": "2014-03-11T18:09:58",
           "module": "Data.Vector.Fixed.Instances.Binary",
           "name": "Binary",
           "package": "fixed-vector-binary",

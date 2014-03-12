@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cedict"
+        "phrase": "cedict",
+        "type": "phrase"
       },
       "type": "context"
     }

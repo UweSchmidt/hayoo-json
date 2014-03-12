@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "securemem"
+        "phrase": "securemem",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "SecureMem",
           "package": "securemem",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "SecureMem",
           "package": "securemem",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecureMem is a memory chunk which have the properties of:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Being scrubbed after its goes out of scope.\n * A Show instance that doesn't actually show any content\n * A Eq instance that is constant time\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "SecureMem",
           "package": "securemem",
@@ -49,6 +52,7 @@
         "index": {
           "description": "SecureMem is memory chunk which have the properties of Being scrubbed after its goes out of scope Show instance that doesn actually show any content Eq instance that is constant time",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "SecureMem",
           "package": "securemem",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes that can be converted to a secure mem object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "ToSecureMem",
           "package": "securemem",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Types that can be converted to secure mem object",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "ToSecureMem",
           "package": "securemem",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a new SecureMem\n\u003c/p\u003e\u003cp\u003eThe memory is allocated on the haskell heap, and will be scrubed\n before being released.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "allocateSecureMem",
           "package": "securemem",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Allocate new SecureMem The memory is allocated on the haskell heap and will be scrubed before being released",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "allocateSecureMem",
           "normalized": "Int-\u003eIO SecureMem",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new secure mem and running an initializer function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "createSecureMem",
           "package": "securemem",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Create new secure mem and running an initializer function",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "createSecureMem",
           "normalized": "Int-\u003e(Ptr Word-\u003eIO())-\u003eIO SecureMem",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinalize a SecureMem early\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "finalizeSecureMem",
           "package": "securemem",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Finalize SecureMem early",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "finalizeSecureMem",
           "normalized": "SecureMem-\u003eIO()",
@@ -163,6 +175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "secureMemCopy",
           "package": "securemem",
@@ -172,6 +185,7 @@
         },
         "index": {
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "secureMemCopy",
           "normalized": "SecureMem-\u003eIO SecureMem",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a SecureMem from a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "secureMemFromByteString",
           "package": "securemem",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Create SecureMem from bytestring",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "secureMemFromByteString",
           "normalized": "ByteString-\u003eSecureMem",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the size of the memory allocated by this secure mem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "secureMemGetSize",
           "package": "securemem",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Return the size of the memory allocated by this secure mem",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "secureMemGetSize",
           "normalized": "SecureMem-\u003eInt",
@@ -239,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "toSecureMem",
           "package": "securemem",
@@ -248,6 +267,7 @@
         },
         "index": {
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "toSecureMem",
           "normalized": "a-\u003eSecureMem",
@@ -264,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new secure mem using inline perform IO to create a pure\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "unsafeCreateSecureMem",
           "package": "securemem",
@@ -274,6 +295,7 @@
         "index": {
           "description": "Create new secure mem using inline perform IO to create pure result",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "unsafeCreateSecureMem",
           "normalized": "Int-\u003e(Ptr Word-\u003eIO())-\u003eSecureMem",
@@ -289,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "withSecureMemCopy",
           "package": "securemem",
@@ -298,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "withSecureMemCopy",
           "normalized": "SecureMem-\u003e(Ptr Word-\u003eIO())-\u003eIO SecureMem",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a way to look at the pointer living inside a foreign object. This\n function takes a function which is applied to that pointer. The resulting IO\n action is then executed\n\u003c/p\u003e\u003cp\u003ethis is similary to withForeignPtr for a ForeignPtr\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "withSecureMemPtr",
           "package": "securemem",
@@ -324,6 +349,7 @@
         "index": {
           "description": "This is way to look at the pointer living inside foreign object This function takes function which is applied to that pointer The resulting IO action is then executed this is similary to withForeignPtr for ForeignPtr",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "withSecureMemPtr",
           "normalized": "SecureMem-\u003e(Ptr Word-\u003eIO a)-\u003eIO a",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to withSecureMem but also include the size of the pointed memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:12 UTC 2014",
           "module": "Data.SecureMem",
           "name": "withSecureMemPtrSz",
           "package": "securemem",
@@ -350,6 +377,7 @@
         "index": {
           "description": "similar to withSecureMem but also include the size of the pointed memory",
           "hierarchy": "Data SecureMem",
+          "indexed": "2014-03-11T19:59:12",
           "module": "Data.SecureMem",
           "name": "withSecureMemPtrSz",
           "normalized": "SecureMem-\u003e(Int-\u003ePtr Word-\u003eIO a)-\u003eIO a",

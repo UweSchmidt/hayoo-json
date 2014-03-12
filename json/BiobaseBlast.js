@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseBlast"
+        "phrase": "BiobaseBlast",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix.Import",
           "name": "Import",
           "package": "BiobaseBlast",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix Import",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix.Import",
           "name": "Import",
           "package": "BiobaseBlast",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix.Import",
           "name": "fromFile",
           "package": "BiobaseBlast",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix Import",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix.Import",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO SubstMatrix",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "SubstMatrix",
           "package": "BiobaseBlast",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "SubstMatrix",
           "package": "BiobaseBlast",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc1SubstMatrix",
           "package": "BiobaseBlast",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc1SubstMatrix",
           "package": "BiobaseBlast",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc2SubstMatrix",
           "package": "BiobaseBlast",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc2SubstMatrix",
           "package": "BiobaseBlast",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution from three DNA nucleotides to an amino acid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc3SubstMatrix",
           "package": "BiobaseBlast",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Substitution from three DNA nucleotides to an amino acid",
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "Nuc3SubstMatrix",
           "package": "BiobaseBlast",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubstitution table for one amino acid with another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "SubstMatrix",
           "package": "BiobaseBlast",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Substitution table for one amino acid with another",
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "SubstMatrix",
           "package": "BiobaseBlast",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc1SubstMatrix",
           "package": "BiobaseBlast",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc1SubstMatrix",
           "normalized": "(Int-\u003eInt-\u003eInt)-\u003e(Int-\u003eInt)-\u003eSubstMatrix-\u003eNuc SubstMatrix",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc2SubstMatrix",
           "package": "BiobaseBlast",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc2SubstMatrix",
           "normalized": "(Int-\u003eInt-\u003eInt)-\u003e(Int-\u003eInt)-\u003eSubstMatrix-\u003eNuc SubstMatrix",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:18 UTC 2014",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc3SubstMatrix",
           "package": "BiobaseBlast",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Biobase SubstMatrix",
+          "indexed": "2014-03-11T16:34:18",
           "module": "Biobase.SubstMatrix",
           "name": "mkNuc3SubstMatrix",
           "normalized": "SubstMatrix-\u003eNuc SubstMatrix",

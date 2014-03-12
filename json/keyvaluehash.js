@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "keyvaluehash"
+        "phrase": "keyvaluehash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "KeyValueHash",
           "package": "keyvaluehash",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "KeyValueHash",
           "package": "keyvaluehash",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "Database",
           "package": "keyvaluehash",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "Database",
           "package": "keyvaluehash",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "HashFunction",
           "package": "keyvaluehash",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "HashFunction",
           "package": "keyvaluehash",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "Key",
           "package": "keyvaluehash",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "Key",
           "package": "keyvaluehash",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "Size",
           "package": "keyvaluehash",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "Size",
           "package": "keyvaluehash",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "Value",
           "package": "keyvaluehash",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "Value",
           "package": "keyvaluehash",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "closeDatabase",
           "package": "keyvaluehash",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "closeDatabase",
           "normalized": "Database-\u003eIO()",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "createDatabase",
           "package": "keyvaluehash",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "createDatabase",
           "normalized": "FilePath-\u003eHashFunction-\u003eSize-\u003eIO Database",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "deleteKey",
           "package": "keyvaluehash",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "deleteKey",
           "normalized": "Database-\u003eKey-\u003eIO()",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "mkHashFunc",
           "package": "keyvaluehash",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "mkHashFunc",
           "normalized": "String-\u003e(Key-\u003eWord)-\u003eHashFunction",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "mkSize",
           "package": "keyvaluehash",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "mkSize",
           "normalized": "Word-\u003eSize",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "msync",
           "package": "keyvaluehash",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "msync",
           "normalized": "Database-\u003eIO()",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "openDatabase",
           "package": "keyvaluehash",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "openDatabase",
           "normalized": "FilePath-\u003eHashFunction-\u003eSize-\u003eIO Database",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "readKey",
           "package": "keyvaluehash",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "readKey",
           "normalized": "Database-\u003eKey-\u003eIO(Maybe Value)",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "sizeLinear",
           "package": "keyvaluehash",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "sizeLinear",
           "normalized": "Size-\u003eWord",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "stdHash",
           "package": "keyvaluehash",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "stdHash",
           "package": "keyvaluehash",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "withCreateDatabase",
           "package": "keyvaluehash",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "withCreateDatabase",
           "normalized": "FilePath-\u003eHashFunction-\u003eSize-\u003e(Database-\u003eIO a)-\u003eIO a",
@@ -405,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "withOpenDatabase",
           "package": "keyvaluehash",
@@ -414,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "withOpenDatabase",
           "normalized": "FilePath-\u003eHashFunction-\u003eSize-\u003e(Database-\u003eIO a)-\u003eIO a",
@@ -429,6 +465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:58 UTC 2014",
           "module": "Database.KeyValueHash",
           "name": "writeKey",
           "package": "keyvaluehash",
@@ -438,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Database KeyValueHash",
+          "indexed": "2014-03-11T19:02:58",
           "module": "Database.KeyValueHash",
           "name": "writeKey",
           "normalized": "Database-\u003eKey-\u003eValue-\u003eIO()",

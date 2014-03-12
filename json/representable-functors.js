@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "representable-functors"
+        "phrase": "representable-functors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generalized Store comonad, parameterized by a Representable functor.\n The representation of that functor serves as the index of the store.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "representable-functors",
@@ -28,6 +29,7 @@
         "index": {
           "description": "generalized Store comonad parameterized by Representable functor The representation of that functor serves as the index of the store",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "representable-functors",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memoized store comonad parameterized by a representable functor \u003ccode\u003eg\u003c/code\u003e, where\n the representatation of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eKey g\u003c/code\u003e is the index of the store.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "representable-functors",
@@ -51,6 +54,7 @@
         "index": {
           "description": "memoized store comonad parameterized by representable functor where the representatation of Key is the index of the store",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "Store",
           "package": "representable-functors",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA store transformer comonad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eg\u003c/code\u003e - A representable functor used to memoize results for an index \u003ccode\u003eKey g\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003ew\u003c/code\u003e - The inner comonad.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "representable-functors",
@@ -74,6 +79,7 @@
         "index": {
           "description": "store transformer comonad parameterized by representable functor used to memoize results for an index Key The inner comonad",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "representable-functors",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "representable-functors",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "StoreT",
           "package": "representable-functors",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "peek",
           "package": "representable-functors",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "peek",
           "normalized": "a b c-\u003ed e-\u003ee",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "peeks",
           "package": "representable-functors",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "peeks",
           "normalized": "a b(c-\u003ec)-\u003ed e-\u003ee",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "pos",
           "package": "representable-functors",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "pos",
           "normalized": "a b c d-\u003ee",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a state monad computation as a function.\n (The inverse of \u003ccode\u003estate\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStore",
           "package": "representable-functors",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Unwrap state monad computation as function The inverse of state",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStore",
           "normalized": "Store a b-\u003e(Key a-\u003eb,Key a)",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStoreT",
           "package": "representable-functors",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "runStoreT",
           "normalized": "StoreT a b c-\u003e(b(Key a-\u003ec),Key a)",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "seek",
           "package": "representable-functors",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "seek",
           "normalized": "a b c-\u003ed e-\u003ed e",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "seeks",
           "package": "representable-functors",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "seeks",
           "normalized": "a b(c-\u003ec)-\u003ed e-\u003ed e",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a store comonad computation from a function and a current index.\n (The inverse of \u003ccode\u003e\u003ca\u003erunStore\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "store",
           "package": "representable-functors",
@@ -278,6 +301,7 @@
         "index": {
           "description": "Construct store comonad computation from function and current index The inverse of runStore",
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "store",
           "normalized": "(Key a-\u003eb)-\u003eKey a-\u003eStore a b",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Comonad.Representable.Store",
           "name": "storeT",
           "package": "representable-functors",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Control Comonad Representable Store",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Comonad.Representable.Store",
           "name": "storeT",
           "normalized": "a(Key b-\u003ec)-\u003eKey b-\u003eStoreT b a c",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable functors on Hask all monads, being isomorphic to\n a reader monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "representable-functors",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Representable functors on Hask all monads being isomorphic to reader monad",
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "representable-functors",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "representable-functors",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "Reader",
           "package": "representable-functors",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "representable-functors",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "representable-functors",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "representable-functors",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "ReaderT",
           "package": "representable-functors",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "ask",
           "package": "representable-functors",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "ask",
           "package": "representable-functors",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "getReaderT",
           "package": "representable-functors",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "getReaderT",
           "package": "representable-functors",
@@ -444,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "local",
           "package": "representable-functors",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "local",
           "normalized": "a b(c-\u003ec)-\u003ed e-\u003ed e",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "readerT",
           "package": "representable-functors",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "readerT",
           "normalized": "(Key a-\u003eb c)-\u003eReaderT a b c",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReader",
           "package": "representable-functors",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReader",
           "normalized": "Reader a b-\u003eKey a-\u003eb",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReaderT",
           "package": "representable-functors",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable Reader",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.Reader",
           "name": "runReaderT",
           "normalized": "ReaderT a b c-\u003eKey a-\u003eb c",
@@ -538,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA generalized State monad, parameterized by a Representable functor.\n The representation of that functor serves as the state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "representable-functors",
@@ -547,6 +594,7 @@
         "index": {
           "description": "generalized State monad parameterized by Representable functor The representation of that functor serves as the state",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "representable-functors",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA memoized state monad parameterized by a representable functor \u003ccode\u003eg\u003c/code\u003e, where\n the representatation of \u003ccode\u003eg\u003c/code\u003e, \u003ccode\u003eKey g\u003c/code\u003e is the state to carry.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "representable-functors",
@@ -570,6 +619,7 @@
         "index": {
           "description": "memoized state monad parameterized by representable functor where the representatation of Key is the state to carry The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "State",
           "package": "representable-functors",
@@ -584,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state transformer monad parameterized by:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003eg\u003c/code\u003e - A representable functor used to memoize results for a state \u003ccode\u003eKey g\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003em\u003c/code\u003e - The inner monad.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "representable-functors",
@@ -593,6 +644,7 @@
         "index": {
           "description": "state transformer monad parameterized by representable functor used to memoize results for state Key The inner monad The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "representable-functors",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "representable-functors",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "StateT",
           "package": "representable-functors",
@@ -629,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final value, discarding the final state.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eevalState\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "evalState",
           "package": "representable-functors",
@@ -638,6 +693,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final value discarding the final state evalState fst runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "evalState",
           "normalized": "State a b-\u003eKey a-\u003eb",
@@ -654,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final value, discarding the final state.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eevalStateT\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003efst\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunStateT\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "evalStateT",
           "package": "representable-functors",
@@ -664,6 +721,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final value discarding the final state evalStateT liftM fst runStateT",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "evalStateT",
           "normalized": "StateT a b c-\u003eKey a-\u003eb c",
@@ -680,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final state, discarding the final value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eexecState\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "execState",
           "package": "representable-functors",
@@ -689,6 +748,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final state discarding the final value execState snd runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "execState",
           "normalized": "State a b-\u003eKey a-\u003eKey a",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a state computation with the given initial state\n and return the final state, discarding the final value.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003eexecStateT\u003c/a\u003e\u003c/code\u003e m s = \u003ccode\u003e\u003ca\u003eliftM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erunStateT\u003c/a\u003e\u003c/code\u003e m s)\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "execStateT",
           "package": "representable-functors",
@@ -715,6 +776,7 @@
         "index": {
           "description": "Evaluate state computation with the given initial state and return the final state discarding the final value execStateT liftM snd runStateT",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "execStateT",
           "normalized": "StateT a b c-\u003eKey a-\u003eb(Key a)",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "get",
           "package": "representable-functors",
@@ -738,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "get",
           "package": "representable-functors",
@@ -750,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "getStateT",
           "package": "representable-functors",
@@ -759,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "getStateT",
           "normalized": "a(b(c,Key a))",
@@ -774,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "gets",
           "package": "representable-functors",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -797,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n This version rolls back to the original state on entering the\n continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC",
           "package": "representable-functors",
@@ -807,6 +876,7 @@
         "index": {
           "description": "Uniform lifting of callCC operation to the new monad This version rolls back to the original state on entering the continuation",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC",
           "normalized": "((((a,Key b)-\u003ec(d,Key b))-\u003ec(a,Key b))-\u003ec(a,Key b))-\u003e((a-\u003eStateT b c d)-\u003eStateT b c a)-\u003eStateT b c a",
@@ -823,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn-situ lifting of a \u003ccode\u003ecallCC\u003c/code\u003e operation to the new monad.\n This version uses the current state on entering the continuation.\n It does not satisfy the laws of a monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC'",
           "package": "representable-functors",
@@ -833,6 +904,7 @@
         "index": {
           "description": "In-situ lifting of callCC operation to the new monad This version uses the current state on entering the continuation It does not satisfy the laws of monad transformer",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "liftCallCC'",
           "normalized": "((((a,Key b)-\u003ec(d,Key b))-\u003ec(a,Key b))-\u003ec(a,Key b))-\u003e((a-\u003eStateT b c d)-\u003eStateT b c a)-\u003eStateT b c a",
@@ -849,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap both the return value and final state of a computation using\n the given function.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003emapState\u003c/a\u003e\u003c/code\u003e f m) = f . \u003ccode\u003e\u003ca\u003erunState\u003c/a\u003e\u003c/code\u003e m\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "mapState",
           "package": "representable-functors",
@@ -859,6 +932,7 @@
         "index": {
           "description": "Map both the return value and final state of computation using the given function runState mapState runState",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "mapState",
           "normalized": "((a,Key b)-\u003e(c,Key b))-\u003eState b a-\u003eState b c",
@@ -874,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "mapStateT",
           "package": "representable-functors",
@@ -883,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "mapStateT",
           "normalized": "(a(b,Key c)-\u003ed(e,Key c))-\u003eStateT c a b-\u003eStateT c d e",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "modify",
           "package": "representable-functors",
@@ -906,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "put",
           "package": "representable-functors",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -943,6 +1023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwrap a state monad computation as a function.\n (The inverse of \u003ccode\u003estate\u003c/code\u003e.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "runState",
           "package": "representable-functors",
@@ -952,6 +1033,7 @@
         "index": {
           "description": "Unwrap state monad computation as function The inverse of state",
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "runState",
           "normalized": "State a b-\u003eKey a-\u003e(b,Key a)",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "runStateT",
           "package": "representable-functors",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "runStateT",
           "normalized": "StateT a b c-\u003eKey a-\u003eb(c,Key a)",
@@ -991,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Control.Monad.Representable.State",
           "name": "stateT",
           "package": "representable-functors",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Representable State",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Control.Monad.Representable.State",
           "name": "stateT",
           "normalized": "(Key a-\u003eb(c,Key a))-\u003eStateT a b c",
@@ -1015,6 +1101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable contravariant endofunctors over the category of Haskell\n types are isomorphic to \u003ccode\u003e(_ -\u003e r)\u003c/code\u003e and resemble mappings to a\n fixed range.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1024,6 +1111,7 @@
         "index": {
           "description": "Representable contravariant endofunctors over the category of Haskell types are isomorphic to and resemble mappings to fixed range",
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1038,6 +1126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual to \u003ccode\u003eIndexed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Coindexed",
           "package": "representable-functors",
@@ -1047,6 +1136,7 @@
         "index": {
           "description": "Dual to Indexed",
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Coindexed",
           "package": "representable-functors",
@@ -1061,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eContravariant\u003c/a\u003e\u003c/code\u003e functor \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003econtrarep\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecoindex\u003c/a\u003e\u003c/code\u003e witness an isomorphism to \u003ccode\u003e(_ -\u003e Value f)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1070,6 +1161,7 @@
         "index": {
           "description": "Contravariant functor is Representable if contrarep and coindex witness an isomorphism to Value",
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Value",
           "package": "representable-functors",
@@ -1091,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Value",
           "package": "representable-functors",
@@ -1105,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDual to \u003ccode\u003eKeyed\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Valued",
           "package": "representable-functors",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Dual to Keyed",
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "Valued",
           "package": "representable-functors",
@@ -1127,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "coindex",
           "package": "representable-functors",
@@ -1136,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "coindex",
           "normalized": "a b-\u003eb-\u003eValue a",
@@ -1150,6 +1248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapDefault",
           "package": "representable-functors",
@@ -1159,6 +1258,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapDefault",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -1174,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapWithValue",
           "package": "representable-functors",
@@ -1183,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapWithValue",
           "normalized": "(a-\u003eEither b(Value c))-\u003ec b-\u003ec a",
@@ -1198,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapWithValueDefault",
           "package": "representable-functors",
@@ -1207,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contramapWithValueDefault",
           "normalized": "(a-\u003eEither b(Value c))-\u003ec b-\u003ec a",
@@ -1223,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e contramap f (contrarep g) = contrarep (g . f)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contrarep",
           "package": "representable-functors",
@@ -1233,6 +1338,7 @@
         "index": {
           "description": "contramap contrarep contrarep",
           "hierarchy": "Data Functor Contravariant Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Contravariant.Representable",
           "name": "contrarep",
           "normalized": "(a-\u003eValue b)-\u003eb a",
@@ -1248,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentable endofunctors over the category of Haskell types are\n isomorphic to the reader monad and so inherit a very large number\n of properties for free.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1257,6 +1364,7 @@
         "index": {
           "description": "Representable endofunctors over the category of Haskell types are isomorphic to the reader monad and so inherit very large number of properties for free",
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1270,6 +1378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "Rep",
           "package": "representable-functors",
@@ -1278,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "Rep",
           "package": "representable-functors",
@@ -1292,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eRepresentable\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003etabulate\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eindex\u003c/a\u003e\u003c/code\u003e witness an isomorphism to \u003ccode\u003e(-\u003e) x\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e tabulate . index = id\n index . tabulate = id\n tabulate . return f = return f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1301,6 +1412,7 @@
         "index": {
           "description": "Functor is Representable if tabulate and index witness an isomorphism to tabulate index id index tabulate id tabulate return return",
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "Representable",
           "package": "representable-functors",
@@ -1314,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "Rep",
           "package": "representable-functors",
@@ -1323,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "Rep",
           "package": "representable-functors",
@@ -1336,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "apRep",
           "package": "representable-functors",
@@ -1345,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "apRep",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -1360,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "askRep",
           "package": "representable-functors",
@@ -1369,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "askRep",
           "package": "representable-functors",
@@ -1382,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "bindRep",
           "package": "representable-functors",
@@ -1391,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "bindRep",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -1406,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "bindWithKeyRep",
           "package": "representable-functors",
@@ -1415,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "bindWithKeyRep",
           "normalized": "a b-\u003e(Key a-\u003eb-\u003ea c)-\u003ea c",
@@ -1430,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "distributeRep",
           "package": "representable-functors",
@@ -1439,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "distributeRep",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1454,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "duplicateRep",
           "package": "representable-functors",
@@ -1463,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "duplicateRep",
           "normalized": "a b-\u003ea(a b)",
@@ -1478,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "duplicatedRep",
           "package": "representable-functors",
@@ -1487,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "duplicatedRep",
           "normalized": "a b-\u003ea(a b)",
@@ -1502,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "extendRep",
           "package": "representable-functors",
@@ -1511,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "extendRep",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -1526,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "extendedRep",
           "package": "representable-functors",
@@ -1535,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "extendedRep",
           "normalized": "(a b-\u003ec)-\u003ea b-\u003ea c",
@@ -1550,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "extractRep",
           "package": "representable-functors",
@@ -1559,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "extractRep",
           "normalized": "a b-\u003eb",
@@ -1574,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "fmapRep",
           "package": "representable-functors",
@@ -1583,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "fmapRep",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1598,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "liftR2",
           "package": "representable-functors",
@@ -1607,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "liftR2",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -1621,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "liftR3",
           "package": "representable-functors",
@@ -1630,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "liftR3",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee a-\u003ee b-\u003ee c-\u003ee d",
@@ -1644,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "localRep",
           "package": "representable-functors",
@@ -1653,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "localRep",
           "normalized": "(Key a-\u003eKey a)-\u003ea b-\u003ea b",
@@ -1668,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "mapWithKeyRep",
           "package": "representable-functors",
@@ -1677,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "mapWithKeyRep",
           "normalized": "(Key a-\u003eb-\u003ec)-\u003ea b-\u003ea c",
@@ -1692,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "pureRep",
           "package": "representable-functors",
@@ -1701,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "pureRep",
           "normalized": "a-\u003eb a",
@@ -1717,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e fmap f . tabulate = tabulate . fmap f\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "tabulate",
           "package": "representable-functors",
@@ -1727,6 +1874,7 @@
         "index": {
           "description": "fmap tabulate tabulate fmap",
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "tabulate",
           "normalized": "(Key a-\u003eb)-\u003ea b",
@@ -1741,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "unrep",
           "package": "representable-functors",
@@ -1750,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "unrep",
           "package": "representable-functors",
@@ -1762,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "zipWithKeyRep",
           "package": "representable-functors",
@@ -1771,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "zipWithKeyRep",
           "normalized": "(Key a-\u003eb-\u003ec-\u003ed)-\u003ea b-\u003ea c-\u003ea d",
@@ -1786,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:53:26 UTC 2014",
           "module": "Data.Functor.Representable",
           "name": "zipWithRep",
           "package": "representable-functors",
@@ -1795,6 +1948,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Representable",
+          "indexed": "2014-03-11T19:53:26",
           "module": "Data.Functor.Representable",
           "name": "zipWithRep",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",

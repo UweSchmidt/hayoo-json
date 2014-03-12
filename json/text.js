@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "text"
+        "phrase": "text",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePacked, unboxed, heap-resident arrays.  Suitable for performance\n critical use, both in terms of large data quantities and high\n speed.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.Text.Array as A\n\u003c/pre\u003e\u003cp\u003eThe names in this module resemble those in the \u003ccode\u003e\u003ca\u003eArray\u003c/a\u003e\u003c/code\u003e family\n of modules, but are shorter due to the assumption of qualifid\n naming.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "Array",
           "package": "text",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Packed unboxed heap-resident arrays Suitable for performance critical use both in terms of large data quantities and high speed This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import qualified Data.Text.Array as The names in this module resemble those in the Array family of modules but are shorter due to the assumption of qualifid naming",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "Array",
           "package": "text",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImmutable array type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "Array",
           "package": "text",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Immutable array type",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "Array",
           "package": "text",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMutable array type, for use in the ST monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "MArray",
           "package": "text",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Mutable array type for use in the ST monad",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "MArray",
           "package": "text",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy some elements of an immutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "copyI",
           "package": "text",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Copy some elements of an immutable array",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "copyI",
           "normalized": "MArray a-\u003eInt-\u003eArray-\u003eInt-\u003eInt-\u003eST a()",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy some elements of a mutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "copyM",
           "package": "text",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Copy some elements of mutable array",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "copyM",
           "normalized": "MArray a-\u003eInt-\u003eMArray a-\u003eInt-\u003eInt-\u003eST a()",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty immutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "empty",
           "package": "text",
@@ -146,6 +157,7 @@
         "index": {
           "description": "An empty immutable array",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "empty",
           "package": "text",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare portions of two arrays for equality.  No bounds checking\n is performed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "equal",
           "package": "text",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Compare portions of two arrays for equality No bounds checking is performed",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "equal",
           "normalized": "Array-\u003eInt-\u003eArray-\u003eInt-\u003eInt-\u003eBool",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an uninitialized mutable array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "new",
           "package": "text",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Create an uninitialized mutable array",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "new",
           "normalized": "a b Int-\u003eST c(MArray c)",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action in the ST monad and return an immutable array of\n its result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "run",
           "package": "text",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Run an action in the ST monad and return an immutable array of its result",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "run",
           "normalized": "(a b ST c(MArray c))-\u003eArray",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action in the ST monad and return an immutable array of\n its result paired with whatever else the action returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "run2",
           "package": "text",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Run an action in the ST monad and return an immutable array of its result paired with whatever else the action returns",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "run2",
           "normalized": "(a b ST c(MArray c,d))-\u003e(Array,d)",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an immutable array to a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "toList",
           "package": "text",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Convert an immutable array to list",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "toList",
           "normalized": "Array-\u003eInt-\u003eInt-\u003e[Word]",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeze a mutable array. Do not mutate the \u003ccode\u003e\u003ca\u003eMArray\u003c/a\u003e\u003c/code\u003e afterwards!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "unsafeFreeze",
           "package": "text",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Freeze mutable array Do not mutate the MArray afterwards",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "unsafeFreeze",
           "normalized": "MArray a-\u003eST a Array",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnchecked read of an immutable array.  May return garbage or\n crash on an out-of-bounds access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "unsafeIndex",
           "package": "text",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Unchecked read of an immutable array May return garbage or crash on an out-of-bounds access",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "unsafeIndex",
           "normalized": "Array-\u003eInt-\u003eWord",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnchecked write of a mutable array.  May return garbage or crash\n on an out-of-bounds access.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Array",
           "name": "unsafeWrite",
           "package": "text",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Unchecked write of mutable array May return garbage or crash on an out-of-bounds access",
           "hierarchy": "Data Text Array",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Array",
           "name": "unsafeWrite",
           "normalized": "MArray a-\u003eInt-\u003eWord-\u003eST a()",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for dealing with encoding and decoding errors\n in Unicode text.\n\u003c/p\u003e\u003cp\u003eThe standard functions for encoding and decoding text are strict,\n which is to say that they throw exceptions on invalid input.  This\n is often unhelpful on real world input, so alternative functions\n exist that accept custom handlers for dealing with invalid inputs.\n These \u003ccode\u003e\u003ca\u003eOnError\u003c/a\u003e\u003c/code\u003e handlers are normal Haskell functions.  You can use\n one of the presupplied functions in this module, or you can write a\n custom handler of your own.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "Error",
           "package": "text",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Types and functions for dealing with encoding and decoding errors in Unicode text The standard functions for encoding and decoding text are strict which is to say that they throw exceptions on invalid input This is often unhelpful on real world input so alternative functions exist that accept custom handlers for dealing with invalid inputs These OnError handlers are normal Haskell functions You can use one of the presupplied functions in this module or you can write custom handler of your own",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "Error",
           "package": "text",
@@ -385,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler for a decoding error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "OnDecodeError",
           "package": "text",
@@ -394,6 +425,7 @@
         "index": {
           "description": "handler for decoding error",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "OnDecodeError",
           "package": "text",
@@ -408,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA handler for an encoding error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "OnEncodeError",
           "package": "text",
@@ -417,6 +450,7 @@
         "index": {
           "description": "handler for an encoding error",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "OnEncodeError",
           "package": "text",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction type for handling a coding error.  It is supplied with\n two inputs:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e that describes the error.\n\u003c/li\u003e\u003cli\u003e The input value that caused the error.  If the error arose\n   because the end of input was reached or could not be identified\n   precisely, this value will be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf the handler returns a value wrapped with \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, that value will\n be used in the output as the replacement for the invalid input.  If\n it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, no value will be used in the output.\n\u003c/p\u003e\u003cp\u003eShould the handler need to abort processing, it should use \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e an exception (preferably a \u003ccode\u003e\u003ca\u003eUnicodeException\u003c/a\u003e\u003c/code\u003e).  It may\n use the description provided to construct a more helpful error\n report.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "OnError",
           "package": "text",
@@ -440,6 +475,7 @@
         "index": {
           "description": "Function type for handling coding error It is supplied with two inputs String that describes the error The input value that caused the error If the error arose because the end of input was reached or could not be identified precisely this value will be Nothing If the handler returns value wrapped with Just that value will be used in the output as the replacement for the invalid input If it returns Nothing no value will be used in the output Should the handler need to abort processing it should use error or throw an exception preferably UnicodeException It may use the description provided to construct more helpful error report",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "OnError",
           "package": "text",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception type for representing Unicode encoding errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "UnicodeException",
           "package": "text",
@@ -463,6 +500,7 @@
         "index": {
           "description": "An exception type for representing Unicode encoding errors",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "UnicodeException",
           "package": "text",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCould not decode a byte sequence because it was invalid under\n the given encoding, or ran out of input in mid-decode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "DecodeError",
           "package": "text",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Could not decode byte sequence because it was invalid under the given encoding or ran out of input in mid-decode",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "DecodeError",
           "package": "text",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTried to encode a character that could not be represented\n under the given encoding, or ran out of input in mid-encode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "EncodeError",
           "package": "text",
@@ -511,6 +552,7 @@
         "index": {
           "description": "Tried to encode character that could not be represented under the given encoding or ran out of input in mid-encode",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "EncodeError",
           "package": "text",
@@ -525,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore an invalid input, substituting nothing in the output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "ignore",
           "package": "text",
@@ -535,6 +578,7 @@
         "index": {
           "description": "Ignore an invalid input substituting nothing in the output",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "ignore",
           "package": "text",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace an invalid input byte with the Unicode replacement\n character U+FFFD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "lenientDecode",
           "package": "text",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Replace an invalid input byte with the Unicode replacement character FFFD",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "lenientDecode",
           "package": "text",
@@ -572,6 +618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace an invalid input with a valid output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "replace",
           "package": "text",
@@ -582,6 +629,7 @@
         "index": {
           "description": "Replace an invalid input with valid output",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "replace",
           "normalized": "a-\u003eOnError b a",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow a \u003ccode\u003e\u003ca\u003eUnicodeException\u003c/a\u003e\u003c/code\u003e if decoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "strictDecode",
           "package": "text",
@@ -607,6 +656,7 @@
         "index": {
           "description": "Throw UnicodeException if decoding fails",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "strictDecode",
           "package": "text",
@@ -621,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow a \u003ccode\u003e\u003ca\u003eUnicodeException\u003c/a\u003e\u003c/code\u003e if encoding fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding.Error",
           "name": "strictEncode",
           "package": "text",
@@ -631,6 +682,7 @@
         "index": {
           "description": "Throw UnicodeException if encoding fails",
           "hierarchy": "Data Text Encoding Error",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding.Error",
           "name": "strictEncode",
           "package": "text",
@@ -645,6 +697,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values to and from \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n using several standard encodings.\n\u003c/p\u003e\u003cp\u003eTo gain access to a much larger family of encodings, use the\n \u003ccode\u003etext-icu\u003c/code\u003e package: \u003ca\u003ehttp://hackage.haskell.org/package/text-icu\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "Encoding",
           "package": "text",
@@ -654,6 +707,7 @@
         "index": {
           "description": "Functions for converting Text values to and from ByteString using several standard encodings To gain access to much larger family of encodings use the text-icu package http hackage.haskell.org package text-icu",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "Encoding",
           "package": "text",
@@ -668,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stream oriented decoding result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "Decoding",
           "package": "text",
@@ -677,6 +732,7 @@
         "index": {
           "description": "stream oriented decoding result",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "Decoding",
           "package": "text",
@@ -690,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "Some",
           "package": "text",
@@ -699,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "Some",
           "normalized": "Some Text ByteString(ByteString-\u003eDecoding)",
@@ -715,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use decodeUtf8 instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003e\u003cem\u003eDeprecated\u003c/em\u003e.  Decode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing 7-bit ASCII\n encoded text.\n\u003c/p\u003e\u003cp\u003eThis function is deprecated.  Use \u003ccode\u003e\u003ca\u003edecodeLatin1\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeASCII",
           "package": "text",
@@ -725,6 +784,7 @@
         "index": {
           "description": "Deprecated Use decodeUtf8 instead Deprecated Decode ByteString containing bit ASCII encoded text This function is deprecated Use decodeLatin1 instead",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeASCII",
           "normalized": "ByteString-\u003eText",
@@ -741,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing Latin-1 (aka ISO-8859-1) encoded text.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003edecodeLatin1\u003c/a\u003e\u003c/code\u003e is semantically equivalent to\n  \u003ccode\u003eData.Text.pack . Data.ByteString.Char8.unpack\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeLatin1",
           "package": "text",
@@ -751,6 +812,7 @@
         "index": {
           "description": "Decode ByteString containing Latin-1 aka ISO-8859-1 encoded text decodeLatin1 is semantically equivalent to Data.Text.pack Data.ByteString.Char8.unpack",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeLatin1",
           "normalized": "ByteString-\u003eText",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-16 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid big endian UTF-16 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf16BEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16BE",
           "package": "text",
@@ -777,6 +840,7 @@
         "index": {
           "description": "Decode text from big endian UTF-16 encoding If the input contains any invalid big endian UTF-16 data an exception will be thrown For more control over the handling of invalid data use decodeUtf16BEWith",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16BE",
           "normalized": "ByteString-\u003eText",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16BEWith",
           "package": "text",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Decode text from big endian UTF-16 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16BEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-16 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid little endian UTF-16 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf16LEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16LE",
           "package": "text",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Decode text from little endian UTF-16 encoding If the input contains any invalid little endian UTF-16 data an exception will be thrown For more control over the handling of invalid data use decodeUtf16LEWith",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16LE",
           "normalized": "ByteString-\u003eText",
@@ -845,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16LEWith",
           "package": "text",
@@ -855,6 +924,7 @@
         "index": {
           "description": "Decode text from little endian UTF-16 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf16LEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -871,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-32 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid big endian UTF-32 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf32BEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32BE",
           "package": "text",
@@ -881,6 +952,7 @@
         "index": {
           "description": "Decode text from big endian UTF-32 encoding If the input contains any invalid big endian UTF-32 data an exception will be thrown For more control over the handling of invalid data use decodeUtf32BEWith",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32BE",
           "normalized": "ByteString-\u003eText",
@@ -897,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32BEWith",
           "package": "text",
@@ -907,6 +980,7 @@
         "index": {
           "description": "Decode text from big endian UTF-32 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32BEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -923,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-32 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid little endian UTF-32 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf32LEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32LE",
           "package": "text",
@@ -933,6 +1008,7 @@
         "index": {
           "description": "Decode text from little endian UTF-32 encoding If the input contains any invalid little endian UTF-32 data an exception will be thrown For more control over the handling of invalid data use decodeUtf32LEWith",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32LE",
           "normalized": "ByteString-\u003eText",
@@ -949,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32LEWith",
           "package": "text",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "Decode text from little endian UTF-32 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf32LEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -975,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF-8 encoded text that is known\n to be valid.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid UTF-8 data, an exception will be\n thrown that cannot be caught in pure code.  For more control over\n the handling of invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf8'\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003edecodeUtf8With\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8",
           "package": "text",
@@ -985,6 +1064,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text that is known to be valid If the input contains any invalid UTF-8 data an exception will be thrown that cannot be caught in pure code For more control over the handling of invalid data use decodeUtf8 or decodeUtf8With",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8",
           "normalized": "ByteString-\u003eText",
@@ -1001,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF-8 encoded text.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid UTF-8 data, the relevant\n exception will be returned, otherwise the decoded text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8'",
           "package": "text",
@@ -1011,6 +1092,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text If the input contains any invalid UTF-8 data the relevant exception will be returned otherwise the decoded text",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8'",
           "normalized": "ByteString-\u003eEither UnicodeException Text",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF-8 encoded text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8With",
           "package": "text",
@@ -1037,6 +1120,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "decodeUtf8With",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -1053,6 +1137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using big endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf16BE",
           "package": "text",
@@ -1063,6 +1148,7 @@
         "index": {
           "description": "Encode text using big endian UTF-16 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf16BE",
           "normalized": "Text-\u003eByteString",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using little endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf16LE",
           "package": "text",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Encode text using little endian UTF-16 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf16LE",
           "normalized": "Text-\u003eByteString",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using big endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf32BE",
           "package": "text",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "Encode text using big endian UTF-32 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf32BE",
           "normalized": "Text-\u003eByteString",
@@ -1131,6 +1221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using little endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf32LE",
           "package": "text",
@@ -1141,6 +1232,7 @@
         "index": {
           "description": "Encode text using little endian UTF-32 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf32LE",
           "normalized": "Text-\u003eByteString",
@@ -1157,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf8",
           "package": "text",
@@ -1167,6 +1260,7 @@
         "index": {
           "description": "Encode text using UTF-8 encoding",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "encodeUtf8",
           "normalized": "Text-\u003eByteString",
@@ -1183,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode, in a stream oriented way, a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF-8\n encoded text that is known to be valid.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid UTF-8 data, an exception will be\n thrown (either by this function or a continuation) that cannot be\n caught in pure code.  For more control over the handling of invalid\n data, use \u003ccode\u003e\u003ca\u003estreamDecodeUtf8With\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "streamDecodeUtf8",
           "package": "text",
@@ -1193,6 +1288,7 @@
         "index": {
           "description": "Decode in stream oriented way ByteString containing UTF-8 encoded text that is known to be valid If the input contains any invalid UTF-8 data an exception will be thrown either by this function or continuation that cannot be caught in pure code For more control over the handling of invalid data use streamDecodeUtf8With",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "streamDecodeUtf8",
           "normalized": "ByteString-\u003eDecoding",
@@ -1209,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode, in a stream oriented way, a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e containing UTF-8\n encoded text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Encoding",
           "name": "streamDecodeUtf8With",
           "package": "text",
@@ -1219,6 +1316,7 @@
         "index": {
           "description": "Decode in stream oriented way ByteString containing UTF-8 encoded text",
           "hierarchy": "Data Text Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Encoding",
           "name": "streamDecodeUtf8With",
           "normalized": "OnDecodeError-\u003eByteString-\u003eDecoding",
@@ -1235,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSupport for using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e data with native code via the Haskell\n foreign function interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "Foreign",
           "package": "text",
@@ -1244,6 +1343,7 @@
         "index": {
           "description": "Support for using Text data with native code via the Haskell foreign function interface",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "Foreign",
           "package": "text",
@@ -1258,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type representing a number of UTF-16 code units.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "I16",
           "package": "text",
@@ -1267,6 +1368,7 @@
         "index": {
           "description": "type representing number of UTF-16 code units",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "I16",
           "package": "text",
@@ -1280,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Make a mutable copy of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "asForeignPtr",
           "package": "text",
@@ -1290,6 +1393,7 @@
         "index": {
           "description": "Make mutable copy of Text",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "asForeignPtr",
           "normalized": "Text-\u003eIO(ForeignPtr Word,I)",
@@ -1306,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Return the suffix of the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, with \u003ccode\u003en\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e units\n dropped from its beginning.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003en\u003c/code\u003e would cause the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to begin inside a surrogate pair, the\n beginning of the suffix will be advanced by one additional \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e\n unit to maintain its validity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "dropWord16",
           "package": "text",
@@ -1316,6 +1421,7 @@
         "index": {
           "description": "Return the suffix of the Text with Word16 units dropped from its beginning If would cause the Text to begin inside surrogate pair the beginning of the suffix will be advanced by one additional Word16 unit to maintain its validity",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "dropWord16",
           "normalized": "I-\u003eText-\u003eText",
@@ -1332,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Create a new \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003ePtr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e by copying the\n contents of the array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "fromPtr",
           "package": "text",
@@ -1341,6 +1448,7 @@
         "index": {
           "description": "Create new Text from Ptr Word16 by copying the contents of the array",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "fromPtr",
           "normalized": "Ptr Word-\u003eI-\u003eIO Text",
@@ -1384,6 +1492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Decode a C string with explicit length, which is assumed\n to have been encoded as UTF-8. If decoding fails, a\n \u003ccode\u003eUnicodeException\u003c/code\u003e is thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "peekCStringLen",
           "package": "text",
@@ -1394,6 +1503,7 @@
         "index": {
           "description": "Decode string with explicit length which is assumed to have been encoded as UTF-8 If decoding fails UnicodeException is thrown",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "peekCStringLen",
           "normalized": "CStringLen-\u003eIO Text",
@@ -1410,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Return the prefix of the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003en\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e units in\n length.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003en\u003c/code\u003e would cause the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to end inside a surrogate pair, the\n end of the prefix will be advanced by one additional \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003e unit\n to maintain its validity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "takeWord16",
           "package": "text",
@@ -1420,6 +1531,7 @@
         "index": {
           "description": "Return the prefix of the Text of Word16 units in length If would cause the Text to end inside surrogate pair the end of the prefix will be advanced by one additional Word16 unit to maintain its validity",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "takeWord16",
           "normalized": "I-\u003eText-\u003eText",
@@ -1436,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Copy a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to an array.  The array is assumed to be big\n enough to hold the contents of the entire \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "unsafeCopyToPtr",
           "package": "text",
@@ -1446,6 +1559,7 @@
         "index": {
           "description": "Copy Text to an array The array is assumed to be big enough to hold the contents of the entire Text",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "unsafeCopyToPtr",
           "normalized": "Text-\u003ePtr Word-\u003eIO()",
@@ -1462,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Perform an action on a temporary, mutable copy of a\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  The copy is freed as soon as the action returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "useAsPtr",
           "package": "text",
@@ -1472,6 +1587,7 @@
         "index": {
           "description": "Perform an action on temporary mutable copy of Text The copy is freed as soon as the action returns",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "useAsPtr",
           "normalized": "Text-\u003e(Ptr Word-\u003eI-\u003eIO a)-\u003eIO a",
@@ -1488,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarshal a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a C string encoded as UTF-8 in temporary\n storage, with explicit length information. The encoded string may\n contain NUL bytes, and is not followed by a trailing NUL byte.\n\u003c/p\u003e\u003cp\u003eThe temporary storage is freed when the subcomputation terminates\n (either normally or via an exception), so the pointer to the\n temporary storage must \u003cem\u003enot\u003c/em\u003e be used after this function returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Foreign",
           "name": "withCStringLen",
           "package": "text",
@@ -1498,6 +1615,7 @@
         "index": {
           "description": "Marshal Text into string encoded as UTF-8 in temporary storage with explicit length information The encoded string may contain NUL bytes and is not followed by trailing NUL byte The temporary storage is freed when the subcomputation terminates either normally or via an exception so the pointer to the temporary storage must not be used after this function returns",
           "hierarchy": "Data Text Foreign",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Foreign",
           "name": "withCStringLen",
           "normalized": "Text-\u003e(CStringLen-\u003eIO a)-\u003eIO a",
@@ -1514,6 +1632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient locale-sensitive support for text I/O.\n\u003c/p\u003e\u003cp\u003eSkip past the synopsis for some important notes on performance and\n portability across different versions of GHC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "IO",
           "package": "text",
@@ -1523,6 +1642,7 @@
         "index": {
           "description": "Efficient locale-sensitive support for text Skip past the synopsis for some important notes on performance and portability across different versions of GHC",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "IO",
           "package": "text",
@@ -1537,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string the end of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "appendFile",
           "package": "text",
@@ -1547,6 +1668,7 @@
         "index": {
           "description": "Write string the end of file",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "appendFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -1563,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead all user input on \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e as a single string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "getContents",
           "package": "text",
@@ -1573,6 +1696,7 @@
         "index": {
           "description": "Read all user input on stdin as single string",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "getContents",
           "package": "text",
@@ -1587,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line of user input from \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "getLine",
           "package": "text",
@@ -1597,6 +1722,7 @@
         "index": {
           "description": "Read single line of user input from stdin",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "getLine",
           "package": "text",
@@ -1611,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eExperimental.\u003c/em\u003e Read a single chunk of strict text from a\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e. The size of the chunk depends on the amount of input\n currently buffered.\n\u003c/p\u003e\u003cp\u003eThis function blocks only if there is no data available, and EOF\n has not yet been reached. Once EOF is reached, this function\n returns an empty string instead of throwing an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "hGetChunk",
           "package": "text",
@@ -1621,6 +1748,7 @@
         "index": {
           "description": "Experimental Read single chunk of strict text from Handle The size of the chunk depends on the amount of input currently buffered This function blocks only if there is no data available and EOF has not yet been reached Once EOF is reached this function returns an empty string instead of throwing an exception",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "hGetChunk",
           "normalized": "Handle-\u003eIO Text",
@@ -1637,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the remaining contents of a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e as a string.  The\n \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e is closed once the contents have been read, or if an\n exception is thrown.\n\u003c/p\u003e\u003cp\u003eInternally, this function reads a chunk at a time from the\n lower-level buffering abstraction, and concatenates the chunks into\n a single string once the entire file has been read.\n\u003c/p\u003e\u003cp\u003eAs a result, it requires approximately twice as much memory as its\n result to construct its result.  For files more than a half of\n available RAM in size, this may result in memory exhaustion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "hGetContents",
           "package": "text",
@@ -1647,6 +1776,7 @@
         "index": {
           "description": "Read the remaining contents of Handle as string The Handle is closed once the contents have been read or if an exception is thrown Internally this function reads chunk at time from the lower-level buffering abstraction and concatenates the chunks into single string once the entire file has been read As result it requires approximately twice as much memory as its result to construct its result For files more than half of available RAM in size this may result in memory exhaustion",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO Text",
@@ -1663,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line from a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "hGetLine",
           "package": "text",
@@ -1673,6 +1804,7 @@
         "index": {
           "description": "Read single line from handle",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "hGetLine",
           "normalized": "Handle-\u003eIO Text",
@@ -1689,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "hPutStr",
           "package": "text",
@@ -1699,6 +1832,7 @@
         "index": {
           "description": "Write string to handle",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "hPutStr",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -1715,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle, followed by a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "hPutStrLn",
           "package": "text",
@@ -1725,6 +1860,7 @@
         "index": {
           "description": "Write string to handle followed by newline",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -1741,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e function takes a function of type \u003ccode\u003eText -\u003e Text\u003c/code\u003e\n as its argument. The entire input from the standard input device is\n passed to this function as its argument, and the resulting string\n is output on the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "interact",
           "package": "text",
@@ -1751,6 +1888,7 @@
         "index": {
           "description": "The interact function takes function of type Text Text as its argument The entire input from the standard input device is passed to this function as its argument and the resulting string is output on the standard output device",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "interact",
           "normalized": "(Text-\u003eText)-\u003eIO()",
@@ -1766,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "putStr",
           "package": "text",
@@ -1776,6 +1915,7 @@
         "index": {
           "description": "Write string to stdout",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "putStr",
           "normalized": "Text-\u003eIO()",
@@ -1792,6 +1932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e, followed by a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "putStrLn",
           "package": "text",
@@ -1802,6 +1943,7 @@
         "index": {
           "description": "Write string to stdout followed by newline",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "putStrLn",
           "normalized": "Text-\u003eIO()",
@@ -1818,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e function reads a file and returns the contents of\n the file as a string.  The entire file is read strictly, as with\n \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "readFile",
           "package": "text",
@@ -1828,6 +1971,7 @@
         "index": {
           "description": "The readFile function reads file and returns the contents of the file as string The entire file is read strictly as with getContents",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Text",
@@ -1844,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a file.  The file is truncated to zero length\n before writing begins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.IO",
           "name": "writeFile",
           "package": "text",
@@ -1854,6 +1999,7 @@
         "index": {
           "description": "Write string to file The file is truncated to zero length before writing begins",
           "hierarchy": "Data Text IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.IO",
           "name": "writeFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -1870,6 +2016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eUseful functions and combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "Functions",
           "package": "text",
@@ -1879,6 +2026,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Useful functions and combinators",
           "hierarchy": "Data Text Internal Builder Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "Functions",
           "package": "text",
@@ -1893,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe normal \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e function with right associativity instead of\n left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "(\u003c\u003e)",
           "package": "text",
@@ -1903,6 +2052,7 @@
         "index": {
           "description": "The normal mappend function with right associativity instead of left",
           "hierarchy": "Data Text Internal Builder Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Builder-\u003eBuilder-\u003eBuilder",
@@ -1918,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsafe conversion for decimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "i2d",
           "package": "text",
@@ -1928,6 +2079,7 @@
         "index": {
           "description": "Unsafe conversion for decimal digits",
           "hierarchy": "Data Text Internal Builder Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.Functions",
           "name": "i2d",
           "normalized": "Int-\u003eChar",
@@ -1942,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.Int.Digits",
           "name": "Digits",
           "package": "text",
@@ -1950,6 +2103,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Builder Int Digits",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.Int.Digits",
           "name": "Digits",
           "package": "text",
@@ -1963,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.Int.Digits",
           "name": "digits",
           "package": "text",
@@ -1972,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Builder Int Digits",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.Int.Digits",
           "name": "digits",
           "package": "text",
@@ -1985,6 +2141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.RealFloat.Functions",
           "name": "Functions",
           "package": "text",
@@ -1994,6 +2151,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk",
           "hierarchy": "Data Text Internal Builder RealFloat Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.RealFloat.Functions",
           "name": "Functions",
           "package": "text",
@@ -2007,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder.RealFloat.Functions",
           "name": "roundTo",
           "package": "text",
@@ -2016,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Builder RealFloat Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder.RealFloat.Functions",
           "name": "roundTo",
           "normalized": "Int-\u003e[Int]-\u003e(Int,[Int])",
@@ -2032,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eEfficient construction of lazy \u003ccode\u003eText\u003c/code\u003e values.  The principal\n operations on a \u003ccode\u003eBuilder\u003c/code\u003e are \u003ccode\u003esingleton\u003c/code\u003e, \u003ccode\u003efromText\u003c/code\u003e, and\n \u003ccode\u003efromLazyText\u003c/code\u003e, which construct new builders, and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e, which\n concatenates two builders.\n\u003c/p\u003e\u003cp\u003eTo get maximum performance when building lazy \u003ccode\u003eText\u003c/code\u003e values using a\n builder, associate \u003ccode\u003emappend\u003c/code\u003e calls to the right.  For example,\n prefer\n\u003c/p\u003e\u003cpre\u003e singleton 'a' `mappend` (singleton 'b' `mappend` singleton 'c')\n\u003c/pre\u003e\u003cp\u003eto\n\u003c/p\u003e\u003cpre\u003e singleton 'a' `mappend` singleton 'b' `mappend` singleton 'c'\n\u003c/pre\u003e\u003cp\u003eas the latter associates \u003ccode\u003emappend\u003c/code\u003e to the left.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder",
           "name": "Builder",
           "package": "text",
@@ -2041,6 +2202,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Efficient construction of lazy Text values The principal operations on Builder are singleton fromText and fromLazyText which construct new builders and mappend which concatenates two builders To get maximum performance when building lazy Text values using builder associate mappend calls to the right For example prefer singleton mappend singleton mappend singleton to singleton mappend singleton mappend singleton as the latter associates mappend to the left",
           "hierarchy": "Data Text Internal Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder",
           "name": "Builder",
           "package": "text",
@@ -2055,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eBuilder\u003c/code\u003e is an efficient way to build lazy \u003ccode\u003eText\u003c/code\u003e values.\n There are several functions for constructing builders, but only one\n to inspect them: to extract any data, you have to turn them into\n lazy \u003ccode\u003eText\u003c/code\u003e values using \u003ccode\u003etoLazyText\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally, a builder constructs a lazy \u003ccode\u003eText\u003c/code\u003e by filling arrays\n piece by piece.  As each buffer is filled, it is 'popped' off, to\n become a new chunk of the resulting lazy \u003ccode\u003eText\u003c/code\u003e.  All this is\n hidden from the user of the \u003ccode\u003eBuilder\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder",
           "name": "Builder",
           "package": "text",
@@ -2064,6 +2227,7 @@
         "index": {
           "description": "Builder is an efficient way to build lazy Text values There are several functions for constructing builders but only one to inspect them to extract any data you have to turn them into lazy Text values using toLazyText Internally builder constructs lazy Text by filling arrays piece by piece As each buffer is filled it is popped off to become new chunk of the resulting lazy Text All this is hidden from the user of the Builder",
           "hierarchy": "Data Text Internal Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder",
           "name": "Builder",
           "package": "text",
@@ -2077,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder",
           "name": "append'",
           "package": "text",
@@ -2086,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder",
           "name": "append'",
           "normalized": "Builder-\u003eBuilder-\u003eBuilder",
@@ -2101,6 +2267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that there are at least \u003ccode\u003en\u003c/code\u003e many elements available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder",
           "name": "ensureFree",
           "package": "text",
@@ -2111,6 +2278,7 @@
         "index": {
           "description": "Ensure that there are at least many elements available",
           "hierarchy": "Data Text Internal Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder",
           "name": "ensureFree",
           "normalized": "Int-\u003eBuilder",
@@ -2312,6 +2480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that \u003ccode\u003en\u003c/code\u003e many elements are available, and then use \u003ccode\u003ef\u003c/code\u003e to\n write some elements into the memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Builder",
           "name": "writeN",
           "package": "text",
@@ -2322,6 +2491,7 @@
         "index": {
           "description": "Ensure that many elements are available and then use to write some elements into the memory",
           "hierarchy": "Data Text Internal Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Builder",
           "name": "writeN",
           "normalized": "Int-\u003e(a b MArray c-\u003eInt-\u003eST c())-\u003eBuilder",
@@ -2337,6 +2507,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFusible \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e-oriented functions for converting between \u003ccode\u003eText\u003c/code\u003e\n and several common encodings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "Common",
           "package": "text",
@@ -2346,6 +2517,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Use at your own risk Fusible Stream oriented functions for converting between Text and several common encodings",
           "hierarchy": "Data Text Internal Encoding Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "Common",
           "package": "text",
@@ -2359,6 +2531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf16BE",
           "package": "text",
@@ -2368,6 +2541,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf16BE",
           "normalized": "Stream Char-\u003eStream Word",
@@ -2383,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf16LE",
           "package": "text",
@@ -2392,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf16LE",
           "normalized": "Stream Char-\u003eStream Word",
@@ -2407,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf32BE",
           "package": "text",
@@ -2416,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf32BE",
           "normalized": "Stream Char-\u003eStream Word",
@@ -2431,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf32LE",
           "package": "text",
@@ -2440,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion.Common",
           "name": "restreamUtf32LE",
           "normalized": "Stream Char-\u003eStream Word",
@@ -2456,6 +2636,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFusible \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e-oriented functions for converting between \u003ccode\u003eText\u003c/code\u003e\n and several common encodings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -2465,6 +2646,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Fusible Stream oriented functions for converting between Text and several common encodings",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -2479,6 +2661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Do not use this function\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamASCII",
           "package": "text",
@@ -2489,6 +2672,7 @@
         "index": {
           "description": "Deprecated Do not use this function",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamASCII",
           "normalized": "ByteString-\u003eStream Char",
@@ -2505,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using big\n endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf16BE",
           "package": "text",
@@ -2515,6 +2700,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using big endian UTF-16 encoding",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf16BE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -2531,6 +2717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using little\n endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf16LE",
           "package": "text",
@@ -2541,6 +2728,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using little endian UTF-16 encoding",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf16LE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -2557,6 +2745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using big\n endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf32BE",
           "package": "text",
@@ -2567,6 +2756,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using big endian UTF-32 encoding",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf32BE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -2583,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using little\n endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf32LE",
           "package": "text",
@@ -2593,6 +2784,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using little endian UTF-32 encoding",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf32LE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -2609,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using UTF-8\n encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf8",
           "package": "text",
@@ -2619,6 +2812,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using UTF-8 encoding",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "streamUtf8",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -2635,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "unstream",
           "package": "text",
@@ -2645,6 +2840,7 @@
         "index": {
           "description": "Convert Stream Word8 to ByteString",
           "hierarchy": "Data Text Internal Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Fusion",
           "name": "unstream",
           "normalized": "Stream Word-\u003eByteString",
@@ -2660,6 +2856,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eBasic UTF-16 validation and character manipulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "Utf16",
           "package": "text",
@@ -2669,6 +2866,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Basic UTF-16 validation and character manipulation",
           "hierarchy": "Data Text Internal Encoding Utf16",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "Utf16",
           "package": "text",
@@ -2682,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "chr2",
           "package": "text",
@@ -2691,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf16",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "chr2",
           "normalized": "Word-\u003eWord-\u003eChar",
@@ -2705,6 +2905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "validate1",
           "package": "text",
@@ -2714,6 +2915,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf16",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "validate1",
           "normalized": "Word-\u003eBool",
@@ -2728,6 +2930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "validate2",
           "package": "text",
@@ -2737,6 +2940,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf16",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf16",
           "name": "validate2",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -2752,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eBasic UTF-32 validation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf32",
           "name": "Utf32",
           "package": "text",
@@ -2761,6 +2966,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Basic UTF-32 validation",
           "hierarchy": "Data Text Internal Encoding Utf32",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf32",
           "name": "Utf32",
           "package": "text",
@@ -2774,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf32",
           "name": "validate",
           "package": "text",
@@ -2783,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf32",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf32",
           "name": "validate",
           "normalized": "Word-\u003eBool",
@@ -2798,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eBasic UTF-8 validation and character manipulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "Utf8",
           "package": "text",
@@ -2807,6 +3016,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Basic UTF-8 validation and character manipulation",
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "Utf8",
           "package": "text",
@@ -2820,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr2",
           "package": "text",
@@ -2829,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr2",
           "normalized": "Word-\u003eWord-\u003eChar",
@@ -2843,6 +3055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr3",
           "package": "text",
@@ -2852,6 +3065,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr3",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eChar",
@@ -2866,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr4",
           "package": "text",
@@ -2875,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "chr4",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eChar",
@@ -2889,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord2",
           "package": "text",
@@ -2898,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord2",
           "normalized": "Char-\u003e(Word,Word)",
@@ -2912,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord3",
           "package": "text",
@@ -2921,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord3",
           "normalized": "Char-\u003e(Word,Word,Word)",
@@ -2935,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord4",
           "package": "text",
@@ -2944,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "ord4",
           "normalized": "Char-\u003e(Word,Word,Word,Word)",
@@ -2958,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate1",
           "package": "text",
@@ -2967,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate1",
           "normalized": "Word-\u003eBool",
@@ -2981,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate2",
           "package": "text",
@@ -2990,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate2",
           "normalized": "Word-\u003eWord-\u003eBool",
@@ -3004,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate3",
           "package": "text",
@@ -3013,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate3",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eBool",
@@ -3027,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate4",
           "package": "text",
@@ -3036,6 +3265,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Encoding Utf8",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Encoding.Utf8",
           "name": "validate4",
           "normalized": "Word-\u003eWord-\u003eWord-\u003eWord-\u003eBool",
@@ -3051,6 +3281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eUseful functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Functions",
           "name": "Functions",
           "package": "text",
@@ -3060,6 +3291,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Useful functions",
           "hierarchy": "Data Text Internal Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Functions",
           "name": "Functions",
           "package": "text",
@@ -3074,6 +3306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lazier version of Data.List.intersperse.  The other version\n causes space leaks!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Functions",
           "name": "intersperse",
           "package": "text",
@@ -3084,6 +3317,7 @@
         "index": {
           "description": "lazier version of Data.List.intersperse The other version causes space leaks",
           "hierarchy": "Data Text Internal Functions",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Functions",
           "name": "intersperse",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -3098,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "CaseMapping",
           "package": "text",
@@ -3106,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion CaseMapping",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "CaseMapping",
           "package": "text",
@@ -3119,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "foldMapping",
           "package": "text",
@@ -3128,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion CaseMapping",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "foldMapping",
           "normalized": "a b Char-\u003ec-\u003eStep(CC c)Char",
@@ -3143,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "lowerMapping",
           "package": "text",
@@ -3152,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion CaseMapping",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "lowerMapping",
           "normalized": "a b Char-\u003ec-\u003eStep(CC c)Char",
@@ -3167,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "titleMapping",
           "package": "text",
@@ -3176,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion CaseMapping",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "titleMapping",
           "normalized": "a b Char-\u003ec-\u003eStep(CC c)Char",
@@ -3191,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "upperMapping",
           "package": "text",
@@ -3200,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion CaseMapping",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.CaseMapping",
           "name": "upperMapping",
           "normalized": "a b Char-\u003ec-\u003eStep(CC c)Char",
@@ -3216,6 +3460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eCommon stream fusion functionality for text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "Common",
           "package": "text",
@@ -3225,6 +3470,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Common stream fusion functionality for text",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "Common",
           "package": "text",
@@ -3239,6 +3485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e all \u003ccode\u003ep \u003c/code\u003exs determines if all characters in the \u003ccode\u003eText\u003c/code\u003e\n \u003ccode\u003exs\u003c/code\u003e satisify the predicate \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "all",
           "package": "text",
@@ -3249,6 +3496,7 @@
         "index": {
           "description": "all xs determines if all characters in the Text xs satisify the predicate",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eBool",
@@ -3264,6 +3512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e any \u003ccode\u003ep \u003c/code\u003exs determines if any character in the stream\n \u003ccode\u003exs\u003c/code\u003e satisifes the predicate \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "any",
           "package": "text",
@@ -3274,6 +3523,7 @@
         "index": {
           "description": "any xs determines if any character in the stream xs satisifes the predicate",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eBool",
@@ -3289,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Appends one Stream to the other.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "append",
           "package": "text",
@@ -3299,6 +3550,7 @@
         "index": {
           "description": "Appends one Stream to the other",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "append",
           "normalized": "Stream Char-\u003eStream Char-\u003eStream Char",
@@ -3314,6 +3566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compares the count of characters in a string to a number.\n Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThis function gives the same answer as comparing against the result\n of \u003ccode\u003e\u003ca\u003elengthI\u003c/a\u003e\u003c/code\u003e, but can short circuit if the count of characters is\n greater than the number, and hence be more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "compareLengthI",
           "package": "text",
@@ -3324,6 +3577,7 @@
         "index": {
           "description": "Compares the count of characters in string to number Subject to fusion This function gives the same answer as comparing against the result of lengthI but can short circuit if the count of characters is greater than the number and hence be more efficient",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "compareLengthI",
           "normalized": "Stream Char-\u003ea-\u003eOrdering",
@@ -3340,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Concatenate a list of streams. Subject to array fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "concat",
           "package": "text",
@@ -3350,6 +3605,7 @@
         "index": {
           "description": "Concatenate list of streams Subject to array fusion",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "concat",
           "normalized": "[Stream Char]-\u003eStream Char",
@@ -3365,6 +3621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over a stream that results in a stream and concatenate the\n results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "concatMap",
           "package": "text",
@@ -3375,6 +3632,7 @@
         "index": {
           "description": "Map function over stream that results in stream and concatenate the results",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "concatMap",
           "normalized": "(Char-\u003eStream Char)-\u003eStream Char-\u003eStream Char",
@@ -3391,6 +3649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the front of a Stream Char.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "cons",
           "package": "text",
@@ -3401,6 +3660,7 @@
         "index": {
           "description": "Adds character to the front of Stream Char",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "cons",
           "normalized": "Char-\u003eStream Char-\u003eStream Char",
@@ -3416,6 +3676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003ecountCharI\u003c/a\u003e\u003c/code\u003e function returns the number of times the\n query element appears in the given stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "countCharI",
           "package": "text",
@@ -3426,6 +3687,7 @@
         "index": {
           "description": "The countCharI function returns the number of times the query element appears in the given stream",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "countCharI",
           "normalized": "Char-\u003eStream Char-\u003ea",
@@ -3442,6 +3704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e drop n, applied to a stream, returns the suffix of the\n stream after the first \u003ccode\u003en\u003c/code\u003e characters, or the empty stream if \u003ccode\u003en\u003c/code\u003e\n is greater than the length of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "drop",
           "package": "text",
@@ -3452,6 +3715,7 @@
         "index": {
           "description": "drop applied to stream returns the suffix of the stream after the first characters or the empty stream if is greater than the length of the stream",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "drop",
           "normalized": "a-\u003eStream Char-\u003eStream Char",
@@ -3467,6 +3731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edropWhile \u003ccode\u003ep \u003c/code\u003exs returns the suffix remaining after takeWhile \u003ccode\u003ep \u003c/code\u003exs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "dropWhile",
           "package": "text",
@@ -3477,6 +3742,7 @@
         "index": {
           "description": "dropWhile xs returns the suffix remaining after takeWhile xs",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eStream Char",
@@ -3493,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e elem is the stream membership predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "elem",
           "package": "text",
@@ -3503,6 +3770,7 @@
         "index": {
           "description": "elem is the stream membership predicate",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "elem",
           "normalized": "Char-\u003eStream Char-\u003eBool",
@@ -3518,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e, applied to a predicate and a stream,\n returns a stream containing those characters that satisfy the\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "filter",
           "package": "text",
@@ -3528,6 +3797,7 @@
         "index": {
           "description": "filter applied to predicate and stream returns stream containing those characters that satisfy the predicate",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eStream Char",
@@ -3543,6 +3813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003efindBy\u003c/a\u003e\u003c/code\u003e function takes a predicate and a stream,\n and returns the first element in matching the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "findBy",
           "package": "text",
@@ -3553,6 +3824,7 @@
         "index": {
           "description": "The findBy function takes predicate and stream and returns the first element in matching the predicate or Nothing if there is no such element",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "findBy",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eMaybe Char",
@@ -3569,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efindIndexI\u003c/a\u003e\u003c/code\u003e function takes a predicate and a stream and\n returns the index of the first element in the stream satisfying the\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "findIndexI",
           "package": "text",
@@ -3579,6 +3852,7 @@
         "index": {
           "description": "The findIndexI function takes predicate and stream and returns the index of the first element in the stream satisfying the predicate",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "findIndexI",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eMaybe a",
@@ -3595,6 +3869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efoldl, applied to a binary operator, a starting value (typically the\n left-identity of the operator), and a Stream, reduces the Stream using the\n binary operator, from left to right.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl",
           "package": "text",
@@ -3605,6 +3880,7 @@
         "index": {
           "description": "foldl applied to binary operator starting value typically the left-identity of the operator and Stream reduces the Stream using the binary operator from left to right",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eStream Char-\u003ea",
@@ -3620,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of foldl.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl'",
           "package": "text",
@@ -3630,6 +3907,7 @@
         "index": {
           "description": "strict version of foldl",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl'",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eStream Char-\u003ea",
@@ -3645,6 +3923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efoldl1 is a variant of foldl that has no starting value argument,\n and thus must be applied to non-empty Streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl1",
           "package": "text",
@@ -3655,6 +3934,7 @@
         "index": {
           "description": "foldl1 is variant of foldl that has no starting value argument and thus must be applied to non-empty Streams",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eStream Char-\u003eChar",
@@ -3670,6 +3950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA strict version of foldl1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl1'",
           "package": "text",
@@ -3680,6 +3961,7 @@
         "index": {
           "description": "strict version of foldl1",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldl1'",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eStream Char-\u003eChar",
@@ -3695,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e, applied to a binary operator, a starting value (typically the\n right-identity of the operator), and a stream, reduces the stream using the\n binary operator, from right to left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldr",
           "package": "text",
@@ -3705,6 +3988,7 @@
         "index": {
           "description": "foldr applied to binary operator starting value typically the right-identity of the operator and stream reduces the stream using the binary operator from right to left",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldr",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eStream Char-\u003ea",
@@ -3720,6 +4004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efoldr1 is a variant of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e that has no starting value argument,\n and thus must be applied to non-empty streams.\n Subject to array fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldr1",
           "package": "text",
@@ -3730,6 +4015,7 @@
         "index": {
           "description": "foldr1 is variant of foldr that has no starting value argument and thus must be applied to non-empty streams Subject to array fusion",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "foldr1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eStream Char-\u003eChar",
@@ -3745,6 +4031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character of a Text, which must be non-empty.\n Subject to array fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "head",
           "package": "text",
@@ -3755,6 +4042,7 @@
         "index": {
           "description": "Returns the first character of Text which must be non-empty Subject to array fusion",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "head",
           "normalized": "Stream Char-\u003eChar",
@@ -3770,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Stream index (subscript) operator, starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "indexI",
           "package": "text",
@@ -3780,6 +4069,7 @@
         "index": {
           "description": "Stream index subscript operator starting from",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "indexI",
           "normalized": "Stream Char-\u003ea-\u003eChar",
@@ -3795,6 +4085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all but the last character of a Stream Char, which\n must be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "init",
           "package": "text",
@@ -3805,6 +4096,7 @@
         "index": {
           "description": "Returns all but the last character of Stream Char which must be non-empty",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "init",
           "normalized": "Stream Char-\u003eStream Char",
@@ -3819,6 +4111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "intercalate",
           "package": "text",
@@ -3828,6 +4121,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "intercalate",
           "normalized": "Stream Char-\u003e[Stream Char]-\u003eStream Char",
@@ -3843,6 +4137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Take a character and place it between each of the\n characters of a 'Stream Char'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "intersperse",
           "package": "text",
@@ -3853,6 +4148,7 @@
         "index": {
           "description": "Take character and place it between each of the characters of Stream Char",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "intersperse",
           "normalized": "Char-\u003eStream Char-\u003eStream Char",
@@ -3868,6 +4164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisPrefixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is a prefix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "isPrefixOf",
           "package": "text",
@@ -3878,6 +4175,7 @@
         "index": {
           "description": "The isPrefixOf function takes two Stream and returns True iff the first is prefix of the second",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "isPrefixOf",
           "normalized": "Stream a-\u003eStream a-\u003eBool",
@@ -3894,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Indicate whether a string contains exactly one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "isSingleton",
           "package": "text",
@@ -3904,6 +4203,7 @@
         "index": {
           "description": "Indicate whether string contains exactly one element",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "isSingleton",
           "normalized": "Stream Char-\u003eBool",
@@ -3919,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "justifyLeftI",
           "package": "text",
@@ -3928,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "justifyLeftI",
           "normalized": "a-\u003eChar-\u003eStream Char-\u003eStream Char",
@@ -3944,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Returns the last character of a 'Stream Char', which must\n be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "last",
           "package": "text",
@@ -3954,6 +4257,7 @@
         "index": {
           "description": "Returns the last character of Stream Char which must be non-empty",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "last",
           "normalized": "Stream Char-\u003eChar",
@@ -3969,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Returns the number of characters in a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "lengthI",
           "package": "text",
@@ -3979,6 +4284,7 @@
         "index": {
           "description": "Returns the number of characters in string",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "lengthI",
           "normalized": "Stream Char-\u003ea",
@@ -3994,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef \u003c/code\u003exs is the Stream Char obtained by applying \u003ccode\u003ef\u003c/code\u003e\n to each element of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "map",
           "package": "text",
@@ -4004,6 +4311,7 @@
         "index": {
           "description": "map xs is the Stream Char obtained by applying to each element of xs",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eStream Char-\u003eStream Char",
@@ -4019,6 +4327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e maximum returns the maximum value from a stream, which must be\n non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "maximum",
           "package": "text",
@@ -4029,6 +4338,7 @@
         "index": {
           "description": "maximum returns the maximum value from stream which must be non-empty",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "maximum",
           "normalized": "Stream Char-\u003eChar",
@@ -4044,6 +4354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e minimum returns the minimum value from a \u003ccode\u003eText\u003c/code\u003e, which must be\n non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "minimum",
           "package": "text",
@@ -4054,6 +4365,7 @@
         "index": {
           "description": "minimum returns the minimum value from Text which must be non-empty",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "minimum",
           "normalized": "Stream Char-\u003eChar",
@@ -4069,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Tests whether a Stream Char is empty or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "null",
           "package": "text",
@@ -4079,6 +4392,7 @@
         "index": {
           "description": "Tests whether Stream Char is empty or not",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "null",
           "normalized": "Stream Char-\u003eBool",
@@ -4093,6 +4407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "replicateCharI",
           "package": "text",
@@ -4102,6 +4417,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "replicateCharI",
           "normalized": "a-\u003eChar-\u003eStream Char",
@@ -4117,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "replicateI",
           "package": "text",
@@ -4126,6 +4443,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "replicateI",
           "normalized": "Int-\u003eStream Char-\u003eStream Char",
@@ -4140,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "scanl",
           "package": "text",
@@ -4149,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "scanl",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eStream Char-\u003eStream Char",
@@ -4163,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "singleton",
           "package": "text",
@@ -4172,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "singleton",
           "normalized": "Char-\u003eStream Char",
@@ -4187,6 +4509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the end of a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "snoc",
           "package": "text",
@@ -4197,6 +4520,7 @@
         "index": {
           "description": "Adds character to the end of stream",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "snoc",
           "normalized": "Stream Char-\u003eChar-\u003eStream Char",
@@ -4212,6 +4536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream the UTF-8-like packed encoding used by GHC to represent\n constant strings in generated code.\n\u003c/p\u003e\u003cp\u003eThis encoding uses the byte sequence \u003ca\u003exc0x80\u003c/a\u003e to represent NUL,\n and the string is NUL-terminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "streamCString#",
           "package": "text",
@@ -4222,6 +4547,7 @@
         "index": {
           "description": "Stream the UTF-8-like packed encoding used by GHC to represent constant strings in generated code This encoding uses the byte sequence xc0x80 to represent NUL and the string is NUL-terminated",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "streamCString#",
           "normalized": "Addr #-\u003eStream Char",
@@ -4237,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "streamList",
           "package": "text",
@@ -4246,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "streamList",
           "normalized": "[a]-\u003eStream a",
@@ -4262,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all characters after the head of a Stream Char, which must\n be non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "tail",
           "package": "text",
@@ -4272,6 +4601,7 @@
         "index": {
           "description": "Returns all characters after the head of Stream Char which must be non-empty",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "tail",
           "normalized": "Stream Char-\u003eStream Char",
@@ -4287,6 +4617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e take n, applied to a stream, returns the prefix of the\n stream of length \u003ccode\u003en\u003c/code\u003e, or the stream itself if \u003ccode\u003en\u003c/code\u003e is greater than the\n length of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "take",
           "package": "text",
@@ -4297,6 +4628,7 @@
         "index": {
           "description": "take applied to stream returns the prefix of the stream of length or the stream itself if is greater than the length of the stream",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "take",
           "normalized": "a-\u003eStream Char-\u003eStream Char",
@@ -4312,6 +4644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etakeWhile, applied to a predicate \u003ccode\u003ep\u003c/code\u003e and a stream, returns the\n longest prefix (possibly empty) of elements that satisfy p.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "takeWhile",
           "package": "text",
@@ -4322,6 +4655,7 @@
         "index": {
           "description": "takeWhile applied to predicate and stream returns the longest prefix possibly empty of elements that satisfy",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eStream Char",
@@ -4338,6 +4672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to folded case.  This function is mainly\n useful for performing caseless (or case insensitive) string\n comparisons.\n\u003c/p\u003e\u003cp\u003eA string \u003ccode\u003ex\u003c/code\u003e is a caseless match for a string \u003ccode\u003ey\u003c/code\u003e if and only if:\n\u003c/p\u003e\u003cpre\u003etoCaseFold x == toCaseFold y\u003c/pre\u003e\u003cp\u003eThe result string may be longer than the input string, and may\n differ from applying \u003ccode\u003e\u003ca\u003etoLower\u003c/a\u003e\u003c/code\u003e to the input string.  For instance,\n the Armenian small ligature men now (U+FB13) is case folded to the\n bigram men now (U+0574 U+0576), while the micro sign (U+00B5) is\n case folded to the Greek small letter letter mu (U+03BC) instead of\n itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toCaseFold",
           "package": "text",
@@ -4348,6 +4683,7 @@
         "index": {
           "description": "Convert string to folded case This function is mainly useful for performing caseless or case insensitive string comparisons string is caseless match for string if and only if toCaseFold toCaseFold The result string may be longer than the input string and may differ from applying toLower to the input string For instance the Armenian small ligature men now FB13 is case folded to the bigram men now while the micro sign B5 is case folded to the Greek small letter letter mu BC instead of itself",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toCaseFold",
           "normalized": "Stream Char-\u003eStream Char",
@@ -4364,6 +4700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to lower case, using simple case\n conversion.  The result string may be longer than the input string.\n For instance, the Latin capital letter I with dot above (U+0130)\n maps to the sequence Latin small letter i (U+0069) followed by\n combining dot above (U+0307).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toLower",
           "package": "text",
@@ -4374,6 +4711,7 @@
         "index": {
           "description": "Convert string to lower case using simple case conversion The result string may be longer than the input string For instance the Latin capital letter with dot above maps to the sequence Latin small letter followed by combining dot above",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toLower",
           "normalized": "Stream Char-\u003eStream Char",
@@ -4390,6 +4728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to title case, using simple case\n conversion.\n\u003c/p\u003e\u003cp\u003eThe first letter of the input is converted to title case, as is\n every subsequent letter that immediately follows a non-letter.\n Every letter that immediately follows another letter is converted\n to lower case.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string. For example,\n the Latin small ligature &#64258; (U+FB02) is converted to the\n sequence Latin capital letter F (U+0046) followed by Latin small\n letter l (U+006C).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this function does not take language or culture specific\n rules into account. For instance, in English, different style\n guides disagree on whether the book name \"The Hill of the Red\n Fox\" is correctly title cased&#8212;but this function will\n capitalize \u003cem\u003eevery\u003c/em\u003e word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toTitle",
           "package": "text",
@@ -4400,6 +4739,7 @@
         "index": {
           "description": "Convert string to title case using simple case conversion The first letter of the input is converted to title case as is every subsequent letter that immediately follows non-letter Every letter that immediately follows another letter is converted to lower case The result string may be longer than the input string For example the Latin small ligature FB02 is converted to the sequence Latin capital letter followed by Latin small letter Note this function does not take language or culture specific rules into account For instance in English different style guides disagree on whether the book name The Hill of the Red Fox is correctly title cased but this function will capitalize every word",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toTitle",
           "normalized": "Stream Char-\u003eStream Char",
@@ -4416,6 +4756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to upper case, using simple case\n conversion.  The result string may be longer than the input string.\n For instance, the German eszett (U+00DF) maps to the two-letter\n sequence SS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toUpper",
           "package": "text",
@@ -4426,6 +4767,7 @@
         "index": {
           "description": "Convert string to upper case using simple case conversion The result string may be longer than the input string For instance the German eszett DF maps to the two-letter sequence SS",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "toUpper",
           "normalized": "Stream Char-\u003eStream Char",
@@ -4442,6 +4784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character and remainder of a 'Stream\n Char', or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if empty.  Subject to array fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "uncons",
           "package": "text",
@@ -4452,6 +4795,7 @@
         "index": {
           "description": "Returns the first character and remainder of Stream Char or Nothing if empty Subject to array fusion",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "uncons",
           "normalized": "Stream Char-\u003eMaybe(Char,Stream Char)",
@@ -4467,6 +4811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e, where \u003ccode\u003en\u003c/code\u003e is the length of the result. The unfoldr function\n is analogous to the List \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e. unfoldr builds a stream\n from a seed value. The function takes the element and returns\n Nothing if it is done producing the stream or returns Just\n (a,b), in which case, a is the next Char in the string, and b is\n the seed value for further production.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unfoldr",
           "package": "text",
@@ -4477,6 +4822,7 @@
         "index": {
           "description": "where is the length of the result The unfoldr function is analogous to the List unfoldr unfoldr builds stream from seed value The function takes the element and returns Nothing if it is done producing the stream or returns Just in which case is the next Char in the string and is the seed value for further production",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(Char,a))-\u003ea-\u003eStream Char",
@@ -4492,6 +4838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunfoldrNI\u003c/a\u003e\u003c/code\u003e builds a stream from a seed\n value. However, the length of the result is limited by the\n first argument to \u003ccode\u003e\u003ca\u003eunfoldrNI\u003c/a\u003e\u003c/code\u003e. This function is more efficient than\n \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e when the length of the result is known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unfoldrNI",
           "package": "text",
@@ -4502,6 +4849,7 @@
         "index": {
           "description": "Like unfoldr unfoldrNI builds stream from seed value However the length of the result is limited by the first argument to unfoldrNI This function is more efficient than unfoldr when the length of the result is known",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unfoldrNI",
           "normalized": "a-\u003e(b-\u003eMaybe(Char,b))-\u003eb-\u003eStream Char",
@@ -4517,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unstreamList",
           "package": "text",
@@ -4526,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "unstreamList",
           "normalized": "Stream a-\u003e[a]",
@@ -4542,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezipWith generalises \u003ccode\u003ezip\u003c/code\u003e by zipping with the function given as\n the first argument, instead of a tupling function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "zipWith",
           "package": "text",
@@ -4552,6 +4903,7 @@
         "index": {
           "description": "zipWith generalises zip by zipping with the function given as the first argument instead of tupling function",
           "hierarchy": "Data Text Internal Fusion Common",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Common",
           "name": "zipWith",
           "normalized": "(a-\u003ea-\u003eb)-\u003eStream a-\u003eStream a-\u003eStream b",
@@ -4568,6 +4920,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eSize hints.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "Size",
           "package": "text",
@@ -4577,6 +4930,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Size hints",
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "Size",
           "package": "text",
@@ -4590,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "Size",
           "package": "text",
@@ -4598,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "Size",
           "package": "text",
@@ -4611,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "exactSize",
           "package": "text",
@@ -4620,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "exactSize",
           "normalized": "Int-\u003eSize",
@@ -4635,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "exactly",
           "package": "text",
@@ -4644,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "exactly",
           "normalized": "Size-\u003eMaybe Int",
@@ -4658,6 +5018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "isEmpty",
           "package": "text",
@@ -4667,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "isEmpty",
           "normalized": "Size-\u003eBool",
@@ -4683,6 +5045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum of two size hints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "larger",
           "package": "text",
@@ -4693,6 +5056,7 @@
         "index": {
           "description": "Maximum of two size hints",
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "larger",
           "normalized": "Size-\u003eSize-\u003eSize",
@@ -4707,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "maxSize",
           "package": "text",
@@ -4716,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "maxSize",
           "normalized": "Int-\u003eSize",
@@ -4732,6 +5098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum of two size hints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "smaller",
           "package": "text",
@@ -4742,6 +5109,7 @@
         "index": {
           "description": "Minimum of two size hints",
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "smaller",
           "normalized": "Size-\u003eSize-\u003eSize",
@@ -4756,6 +5124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "unknownSize",
           "package": "text",
@@ -4765,6 +5134,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "unknownSize",
           "package": "text",
@@ -4779,6 +5149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the maximum size from a size hint, if possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "upperBound",
           "package": "text",
@@ -4789,6 +5160,7 @@
         "index": {
           "description": "Compute the maximum size from size hint if possible",
           "hierarchy": "Data Text Internal Fusion Size",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Size",
           "name": "upperBound",
           "normalized": "Int-\u003eSize-\u003eInt",
@@ -4805,6 +5177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eCore stream fusion functionality for text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Types",
           "package": "text",
@@ -4814,6 +5187,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Core stream fusion functionality for text",
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Types",
           "package": "text",
@@ -4828,6 +5202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialised tuple for case conversion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "CC",
           "package": "text",
@@ -4837,6 +5212,7 @@
         "index": {
           "description": "Specialised tuple for case conversion",
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "CC",
           "package": "text",
@@ -4851,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialised, strict Maybe-like type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "M",
           "package": "text",
@@ -4860,6 +5237,7 @@
         "index": {
           "description": "Specialised strict Maybe-like type",
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "M",
           "package": "text",
@@ -4872,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "M8",
           "package": "text",
@@ -4880,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "M8",
           "package": "text",
@@ -4892,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "PairS",
           "package": "text",
@@ -4900,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "PairS",
           "package": "text",
@@ -4913,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS",
           "package": "text",
@@ -4921,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS",
           "package": "text",
@@ -4934,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Step",
           "package": "text",
@@ -4942,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Step",
           "package": "text",
@@ -4955,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Stream",
           "package": "text",
@@ -4963,6 +5350,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Stream",
           "package": "text",
@@ -4977,6 +5365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllow a function over a stream to switch between two states.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Switch",
           "package": "text",
@@ -4986,6 +5375,7 @@
         "index": {
           "description": "Allow function over stream to switch between two states",
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "Switch",
           "package": "text",
@@ -4999,6 +5389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": ":*:",
           "package": "text",
@@ -5008,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": ":*:",
           "package": "text",
@@ -5020,6 +5412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "CC",
           "package": "text",
@@ -5029,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "CC",
           "package": "text",
@@ -5065,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "J",
           "package": "text",
@@ -5074,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "J",
           "package": "text",
@@ -5086,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "N",
           "package": "text",
@@ -5095,6 +5492,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "N",
           "package": "text",
@@ -5107,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS0",
           "package": "text",
@@ -5116,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS0",
           "package": "text",
@@ -5129,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS1",
           "package": "text",
@@ -5138,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS1",
           "package": "text",
@@ -5151,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS2",
           "package": "text",
@@ -5160,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS2",
           "package": "text",
@@ -5173,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS3",
           "package": "text",
@@ -5182,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "RS3",
           "package": "text",
@@ -5195,6 +5601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "S1",
           "package": "text",
@@ -5204,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "S1",
           "package": "text",
@@ -5216,6 +5624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "S2",
           "package": "text",
@@ -5225,6 +5634,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "S2",
           "package": "text",
@@ -5309,6 +5719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "empty",
           "package": "text",
@@ -5319,6 +5730,7 @@
         "index": {
           "description": "The empty stream",
           "hierarchy": "Data Text Internal Fusion Types",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion.Types",
           "name": "empty",
           "package": "text",
@@ -5332,6 +5744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eText manipulation functions represented as fusible operations over\n streams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5341,6 +5754,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Text manipulation functions represented as fusible operations over streams",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5354,6 +5768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "Step",
           "package": "text",
@@ -5362,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "Step",
           "package": "text",
@@ -5375,6 +5791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "Stream",
           "package": "text",
@@ -5383,6 +5800,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "Stream",
           "package": "text",
@@ -5397,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003ecount\u003c/code\u003e function returns the number of times the query\n element appears in the given stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "countChar",
           "package": "text",
@@ -5407,6 +5826,7 @@
         "index": {
           "description": "The count function returns the number of times the query element appears in the given stream",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "countChar",
           "normalized": "Char-\u003eStream Char-\u003eInt",
@@ -5423,6 +5843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e function takes a predicate and a stream and\n returns the index of the first element in the stream\n satisfying the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "findIndex",
           "package": "text",
@@ -5433,6 +5854,7 @@
         "index": {
           "description": "The findIndex function takes predicate and stream and returns the index of the first element in the stream satisfying the predicate",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "findIndex",
           "normalized": "(Char-\u003eBool)-\u003eStream Char-\u003eMaybe Int",
@@ -5449,6 +5871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e stream index (subscript) operator, starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "index",
           "package": "text",
@@ -5459,6 +5882,7 @@
         "index": {
           "description": "stream index subscript operator starting from",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "index",
           "normalized": "Stream Char-\u003eInt-\u003eChar",
@@ -5473,6 +5897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "length",
           "package": "text",
@@ -5482,6 +5907,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "length",
           "normalized": "Stream Char-\u003eInt",
@@ -5497,6 +5923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like a combination of \u003ccode\u003emap\u003c/code\u003e and \u003ccode\u003efoldl'\u003c/code\u003e. Applies a\n function to each element of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, passing an accumulating\n parameter from left to right, and returns a final \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "mapAccumL",
           "package": "text",
@@ -5507,6 +5934,7 @@
         "index": {
           "description": "Like combination of map and foldl Applies function to each element of Text passing an accumulating parameter from left to right and returns final Text",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "mapAccumL",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eStream Char-\u003e(a,Text)",
@@ -5523,6 +5951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reverse the characters of a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverse",
           "package": "text",
@@ -5533,6 +5962,7 @@
         "index": {
           "description": "Reverse the characters of string",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverse",
           "normalized": "Stream Char-\u003eText",
@@ -5548,6 +5978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Perform the equivalent of \u003ccode\u003escanr\u003c/code\u003e over a list, only with\n the input and result reversed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverseScanr",
           "package": "text",
@@ -5558,6 +5989,7 @@
         "index": {
           "description": "Perform the equivalent of scanr over list only with the input and result reversed",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverseScanr",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eStream Char-\u003eStream Char",
@@ -5574,6 +6006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', but iterate\n backwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverseStream",
           "package": "text",
@@ -5584,6 +6017,7 @@
         "index": {
           "description": "Convert Text into Stream Char but iterate backwards",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "reverseStream",
           "normalized": "Text-\u003eStream Char",
@@ -5600,6 +6034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a 'Stream Char'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "stream",
           "package": "text",
@@ -5610,6 +6045,7 @@
         "index": {
           "description": "Convert Text into Stream Char",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "stream",
           "normalized": "Text-\u003eStream Char",
@@ -5625,6 +6061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003eunfoldr\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e builds a stream from a seed\n value. However, the length of the result is limited by the\n first argument to \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e. This function is more efficient than\n \u003ccode\u003eunfoldr\u003c/code\u003e when the length of the result is known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "unfoldrN",
           "package": "text",
@@ -5635,6 +6072,7 @@
         "index": {
           "description": "Like unfoldr unfoldrN builds stream from seed value However the length of the result is limited by the first argument to unfoldrN This function is more efficient than unfoldr when the length of the result is known",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "unfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(Char,a))-\u003ea-\u003eStream Char",
@@ -5650,6 +6088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a 'Stream Char' into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Fusion",
           "name": "unstream",
           "package": "text",
@@ -5660,6 +6099,7 @@
         "index": {
           "description": "Convert Stream Char into Text",
           "hierarchy": "Data Text Internal Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Fusion",
           "name": "unstream",
           "normalized": "Stream Char-\u003eText",
@@ -5675,6 +6115,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eLow-level support for text I/O.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.IO",
           "name": "IO",
           "package": "text",
@@ -5684,6 +6125,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Low-level support for text",
           "hierarchy": "Data Text Internal IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.IO",
           "name": "IO",
           "package": "text",
@@ -5698,6 +6140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line of input from a handle, constructing a list of\n decoded chunks as we go.  When we're done, transform them into the\n destination type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.IO",
           "name": "hGetLineWith",
           "package": "text",
@@ -5708,6 +6151,7 @@
         "index": {
           "description": "Read single line of input from handle constructing list of decoded chunks as we go When we re done transform them into the destination type",
           "hierarchy": "Data Text Internal IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.IO",
           "name": "hGetLineWith",
           "normalized": "([Text]-\u003ea)-\u003eHandle-\u003eIO a",
@@ -5724,6 +6168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single chunk of strict text from a buffer. Used by both\n the strict and lazy implementations of hGetContents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.IO",
           "name": "readChunk",
           "package": "text",
@@ -5734,6 +6179,7 @@
         "index": {
           "description": "Read single chunk of strict text from buffer Used by both the strict and lazy implementations of hGetContents",
           "hierarchy": "Data Text Internal IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.IO",
           "name": "readChunk",
           "normalized": "Handle__-\u003eCharBuffer-\u003eIO Text",
@@ -5750,6 +6196,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFusible \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e-oriented functions for converting between lazy\n \u003ccode\u003eText\u003c/code\u003e and several common encodings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5759,6 +6206,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Fusible Stream oriented functions for converting between lazy Text and several common encodings",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5773,6 +6221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using big\n endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf16BE",
           "package": "text",
@@ -5783,6 +6232,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using big endian UTF-16 encoding",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf16BE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -5799,6 +6249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using little\n endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf16LE",
           "package": "text",
@@ -5809,6 +6260,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using little endian UTF-16 encoding",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf16LE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -5825,6 +6277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using big\n endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf32BE",
           "package": "text",
@@ -5835,6 +6288,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using big endian UTF-32 encoding",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf32BE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -5851,6 +6305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using little\n endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf32LE",
           "package": "text",
@@ -5861,6 +6316,7 @@
         "index": {
           "description": "Convert ByteString into Stream Char using little endian UTF-32 encoding",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf32LE",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -5877,6 +6333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a 'Stream Char', using\n UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf8",
           "package": "text",
@@ -5887,6 +6344,7 @@
         "index": {
           "description": "Convert lazy ByteString into Stream Char using UTF-8 encoding",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "streamUtf8",
           "normalized": "OnDecodeError-\u003eByteString-\u003eStream Char",
@@ -5903,6 +6361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e to a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "unstream",
           "package": "text",
@@ -5913,6 +6372,7 @@
         "index": {
           "description": "Convert Stream Word8 to lazy ByteString",
           "hierarchy": "Data Text Internal Lazy Encoding Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Encoding.Fusion",
           "name": "unstream",
           "normalized": "Stream Word-\u003eByteString",
@@ -5928,6 +6388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eCore stream fusion functionality for text.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5937,6 +6398,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Core stream fusion functionality for text",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "Fusion",
           "package": "text",
@@ -5951,6 +6413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003ecount\u003c/code\u003e function returns the number of times the query\n element appears in the given stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "countChar",
           "package": "text",
@@ -5961,6 +6424,7 @@
         "index": {
           "description": "The count function returns the number of times the query element appears in the given stream",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "countChar",
           "normalized": "Char-\u003eStream Char-\u003eInt",
@@ -5977,6 +6441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e stream index (subscript) operator, starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "index",
           "package": "text",
@@ -5987,6 +6452,7 @@
         "index": {
           "description": "stream index subscript operator starting from",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "index",
           "normalized": "Stream Char-\u003eInt-\u003eChar",
@@ -6002,6 +6468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Returns the number of characters in a text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "length",
           "package": "text",
@@ -6012,6 +6479,7 @@
         "index": {
           "description": "Returns the number of characters in text",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "length",
           "normalized": "Stream Char-\u003eInt",
@@ -6027,6 +6495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a 'Stream Char'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "stream",
           "package": "text",
@@ -6037,6 +6506,7 @@
         "index": {
           "description": "Convert Text into Stream Char",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "stream",
           "normalized": "Text-\u003eStream Char",
@@ -6052,6 +6522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003eunfoldr\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e builds a stream from a seed\n value. However, the length of the result is limited by the\n first argument to \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e. This function is more efficient than\n \u003ccode\u003eunfoldr\u003c/code\u003e when the length of the result is known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unfoldrN",
           "package": "text",
@@ -6062,6 +6533,7 @@
         "index": {
           "description": "Like unfoldr unfoldrN builds stream from seed value However the length of the result is limited by the first argument to unfoldrN This function is more efficient than unfoldr when the length of the result is known",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(Char,a))-\u003ea-\u003eStream Char",
@@ -6077,6 +6549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a 'Stream Char' into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, using\n \u003ccode\u003e\u003ca\u003edefaultChunkSize\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unstream",
           "package": "text",
@@ -6087,6 +6560,7 @@
         "index": {
           "description": "Convert Stream Char into Text using defaultChunkSize",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unstream",
           "normalized": "Stream Char-\u003eText",
@@ -6102,6 +6576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a 'Stream Char' into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, using the given\n chunk size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unstreamChunks",
           "package": "text",
@@ -6112,6 +6587,7 @@
         "index": {
           "description": "Convert Stream Char into Text using the given chunk size",
           "hierarchy": "Data Text Internal Lazy Fusion",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Fusion",
           "name": "unstreamChunks",
           "normalized": "Int-\u003eStream Char-\u003eText",
@@ -6128,6 +6604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFast substring search for lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, based on work by Boyer,\n Moore, Horspool, Sunday, and Lundh.  Adapted from the strict\n implementation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Search",
           "name": "Search",
           "package": "text",
@@ -6137,6 +6614,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Fast substring search for lazy Text based on work by Boyer Moore Horspool Sunday and Lundh Adapted from the strict implementation",
           "hierarchy": "Data Text Internal Lazy Search",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Search",
           "name": "Search",
           "package": "text",
@@ -6151,6 +6629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find the offsets of all non-overlapping indices of\n \u003ccode\u003eneedle\u003c/code\u003e within \u003ccode\u003ehaystack\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis function is strict in \u003ccode\u003eneedle\u003c/code\u003e, and lazy (as far as possible)\n in the chunks of \u003ccode\u003ehaystack\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this algorithm's complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy.Search",
           "name": "indices",
           "package": "text",
@@ -6160,6 +6639,7 @@
         "index": {
           "description": "Find the offsets of all non-overlapping indices of needle within haystack This function is strict in needle and lazy as far as possible in the chunks of haystack In unlikely bad cases this algorithm complexity degrades towards",
           "hierarchy": "Data Text Internal Lazy Search",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy.Search",
           "name": "indices",
           "normalized": "Text-\u003eText-\u003e[Int]",
@@ -6175,6 +6655,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eA module containing private \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e internals. This exposes the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e representation and low level construction functions.\n Modules which extend the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e system may need to use this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "Lazy",
           "package": "text",
@@ -6184,6 +6665,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk module containing private Text internals This exposes the Text representation and low level construction functions Modules which extend the Text system may need to use this module",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "Lazy",
           "package": "text",
@@ -6197,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "Text",
           "package": "text",
@@ -6205,6 +6688,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "Text",
           "package": "text",
@@ -6218,6 +6702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "Chunk",
           "package": "text",
@@ -6227,6 +6712,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "Chunk",
           "package": "text",
@@ -6240,6 +6726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "Empty",
           "package": "text",
@@ -6249,6 +6736,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "Empty",
           "package": "text",
@@ -6263,6 +6751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor for \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e. Guarantees the data type invariant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "chunk",
           "package": "text",
@@ -6273,6 +6762,7 @@
         "index": {
           "description": "Smart constructor for Chunk Guarantees the data type invariant",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "chunk",
           "normalized": "Text-\u003eText-\u003eText",
@@ -6288,6 +6778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe memory management overhead. Currently this is tuned for GHC only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "chunkOverhead",
           "package": "text",
@@ -6298,6 +6789,7 @@
         "index": {
           "description": "The memory management overhead Currently this is tuned for GHC only",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "chunkOverhead",
           "package": "text",
@@ -6312,6 +6804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently set to 16 KiB, less the memory management overhead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "defaultChunkSize",
           "package": "text",
@@ -6322,6 +6815,7 @@
         "index": {
           "description": "Currently set to KiB less the memory management overhead",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "defaultChunkSize",
           "package": "text",
@@ -6414,6 +6908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the invariant lazily.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "lazyInvariant",
           "package": "text",
@@ -6424,6 +6919,7 @@
         "index": {
           "description": "Check the invariant lazily",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "lazyInvariant",
           "normalized": "Text-\u003eText",
@@ -6440,6 +6936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay the internal structure of a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "showStructure",
           "package": "text",
@@ -6450,6 +6947,7 @@
         "index": {
           "description": "Display the internal structure of lazy Text",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "showStructure",
           "normalized": "Text-\u003eString",
@@ -6466,6 +6964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently set to 128 bytes, less the memory management overhead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "smallChunkSize",
           "package": "text",
@@ -6476,6 +6975,7 @@
         "index": {
           "description": "Currently set to bytes less the memory management overhead",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "smallChunkSize",
           "package": "text",
@@ -6490,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the invariant strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Lazy",
           "name": "strictInvariant",
           "package": "text",
@@ -6500,6 +7001,7 @@
         "index": {
           "description": "Check the invariant strictly",
           "hierarchy": "Data Text Internal Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Lazy",
           "name": "strictInvariant",
           "normalized": "Text-\u003eBool",
@@ -6515,6 +7017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Private",
           "name": "Private",
           "package": "text",
@@ -6523,6 +7026,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Private",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Private",
           "name": "Private",
           "package": "text",
@@ -6536,6 +7040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Private",
           "name": "runText",
           "package": "text",
@@ -6545,6 +7050,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Private",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Private",
           "name": "runText",
           "normalized": "(a b(MArray c-\u003eInt-\u003eST c Text)-\u003eST c Text)-\u003eText",
@@ -6560,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Private",
           "name": "span_",
           "package": "text",
@@ -6569,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Private",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Private",
           "name": "span_",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(#Text,Text #)",
@@ -6584,6 +7092,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFast substring search for \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, based on work by Boyer, Moore,\n Horspool, Sunday, and Lundh.\n\u003c/p\u003e\u003cp\u003eReferences:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e R. S. Boyer, J. S. Moore: A Fast String Searching Algorithm.\n   Communications of the ACM, 20, 10, 762-772 (1977)\n\u003c/li\u003e\u003cli\u003e R. N. Horspool: Practical Fast Searching in Strings.  Software -\n   Practice and Experience 10, 501-506 (1980)\n\u003c/li\u003e\u003cli\u003e D. M. Sunday: A Very Fast Substring Search Algorithm.\n   Communications of the ACM, 33, 8, 132-142 (1990)\n\u003c/li\u003e\u003cli\u003e F. Lundh: The Fast Search Algorithm.\n   \u003ca\u003ehttp://effbot.org/zone/stringlib.htm\u003c/a\u003e (2006)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Search",
           "name": "Search",
           "package": "text",
@@ -6593,6 +7102,7 @@
         "index": {
           "description": "Fast substring search for Text based on work by Boyer Moore Horspool Sunday and Lundh References Boyer Moore Fast String Searching Algorithm Communications of the ACM Horspool Practical Fast Searching in Strings Software Practice and Experience Sunday Very Fast Substring Search Algorithm Communications of the ACM Lundh The Fast Search Algorithm http effbot.org zone stringlib.htm",
           "hierarchy": "Data Text Internal Search",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Search",
           "name": "Search",
           "package": "text",
@@ -6607,6 +7117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find the offsets of all non-overlapping indices of\n \u003ccode\u003eneedle\u003c/code\u003e within \u003ccode\u003ehaystack\u003c/code\u003e.  The offsets returned represent\n uncorrected indices in the low-level \"needle\" array, to which its\n offset must be added.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this algorithm's complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Search",
           "name": "indices",
           "package": "text",
@@ -6616,6 +7127,7 @@
         "index": {
           "description": "Find the offsets of all non-overlapping indices of needle within haystack The offsets returned represent uncorrected indices in the low-level needle array to which its offset must be added In unlikely bad cases this algorithm complexity degrades towards",
           "hierarchy": "Data Text Internal Search",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Search",
           "name": "indices",
           "normalized": "Text-\u003eText-\u003e[Int]",
@@ -6631,6 +7143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFast character manipulation functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "Char",
           "package": "text",
@@ -6640,6 +7153,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Fast character manipulation functions",
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "Char",
           "package": "text",
@@ -6653,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "ord",
           "package": "text",
@@ -6662,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "ord",
           "normalized": "Char-\u003eInt",
@@ -6676,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr",
           "package": "text",
@@ -6685,6 +7202,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr",
           "normalized": "Word-\u003eChar",
@@ -6700,6 +7218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr32",
           "package": "text",
@@ -6709,6 +7228,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr32",
           "normalized": "Word-\u003eChar",
@@ -6724,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr8",
           "package": "text",
@@ -6733,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeChr8",
           "normalized": "Word-\u003eChar",
@@ -6749,6 +7271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a character into the array at the given offset.  Returns\n the number of \u003ccode\u003e\u003ca\u003eWord16\u003c/a\u003e\u003c/code\u003es written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeWrite",
           "package": "text",
@@ -6759,6 +7282,7 @@
         "index": {
           "description": "Write character into the array at the given offset Returns the number of Word16 written",
           "hierarchy": "Data Text Internal Unsafe Char",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Char",
           "name": "unsafeWrite",
           "normalized": "MArray a-\u003eInt-\u003eChar-\u003eST a Int",
@@ -6775,6 +7299,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eFast, unchecked bit shifting functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "Shift",
           "package": "text",
@@ -6784,6 +7309,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk Fast unchecked bit shifting functions",
           "hierarchy": "Data Text Internal Unsafe Shift",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "Shift",
           "package": "text",
@@ -6798,6 +7324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a workaround for poor optimisation in GHC 6.8.2.  It\n fails to notice constant-width shifts, and adds a test and branch\n to every shift.  This imposes about a 10% performance hit.\n\u003c/p\u003e\u003cp\u003eThese functions are undefined when the amount being shifted by is\n greater than the size in bits of a machine Int#.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "UnsafeShift",
           "package": "text",
@@ -6807,6 +7334,7 @@
         "index": {
           "description": "This is workaround for poor optimisation in GHC It fails to notice constant-width shifts and adds test and branch to every shift This imposes about performance hit These functions are undefined when the amount being shifted by is greater than the size in bits of machine Int",
           "hierarchy": "Data Text Internal Unsafe Shift",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "UnsafeShift",
           "package": "text",
@@ -6820,6 +7348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "shiftL",
           "package": "text",
@@ -6829,6 +7358,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Shift",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "shiftL",
           "normalized": "a-\u003eInt-\u003ea",
@@ -6843,6 +7373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "shiftR",
           "package": "text",
@@ -6852,6 +7383,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal Unsafe Shift",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe.Shift",
           "name": "shiftR",
           "normalized": "a-\u003eInt-\u003ea",
@@ -6867,6 +7399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eWarning\u003c/em\u003e: this is an internal module, and does not have a stable\n API or name. Functions in this module may not check or enforce\n preconditions expected by public modules. Use at your own risk!\n\u003c/p\u003e\u003cp\u003eA module containing \u003cem\u003eunsafe\u003c/em\u003e operations, for \u003cem\u003every very careful\u003c/em\u003e use\n in \u003cem\u003eheavily tested\u003c/em\u003e code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal.Unsafe",
           "name": "Unsafe",
           "package": "text",
@@ -6876,6 +7409,7 @@
         "index": {
           "description": "Warning this is an internal module and does not have stable API or name Functions in this module may not check or enforce preconditions expected by public modules Use at your own risk module containing unsafe operations for very very careful use in heavily tested code",
           "hierarchy": "Data Text Internal Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal.Unsafe",
           "name": "Unsafe",
           "package": "text",
@@ -6944,6 +7478,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing private \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e internals. This exposes the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e representation and low level construction functions.\n Modules which extend the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e system may need to use this module.\n\u003c/p\u003e\u003cp\u003eYou should not use this module unless you are determined to monkey\n with the internals, as the functions here do just about nothing to\n preserve data invariants.  You have been warned!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "Internal",
           "package": "text",
@@ -6953,6 +7488,7 @@
         "index": {
           "description": "module containing private Text internals This exposes the Text representation and low level construction functions Modules which extend the Text system may need to use this module You should not use this module unless you are determined to monkey with the internals as the functions here do just about nothing to preserve data invariants You have been warned",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "Internal",
           "package": "text",
@@ -6967,6 +7503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "Text",
           "package": "text",
@@ -6976,6 +7513,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "Text",
           "package": "text",
@@ -6989,6 +7527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "Text",
           "package": "text",
@@ -6998,6 +7537,7 @@
         },
         "index": {
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "Text",
           "package": "text",
@@ -7036,6 +7576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the first element of an optional pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "firstf",
           "package": "text",
@@ -7046,6 +7587,7 @@
         "index": {
           "description": "Apply function to the first element of an optional pair",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "firstf",
           "normalized": "(a-\u003eb)-\u003eMaybe(a,c)-\u003eMaybe(b,c)",
@@ -7061,6 +7603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e-safe value.\n\u003c/p\u003e\u003cp\u003eUTF-16 surrogate code points are not included in the set of Unicode\n scalar values, but are unfortunately admitted as valid \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e\n values by Haskell.  They cannot be represented in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  This\n function remaps those code points to the Unicode replacement\n character (U+FFFD, '&#65533;'), and leaves other code points\n unchanged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "safe",
           "package": "text",
@@ -7071,6 +7614,7 @@
         "index": {
           "description": "Map Char to Text safe value UTF-16 surrogate code points are not included in the set of Unicode scalar values but are unfortunately admitted as valid Char values by Haskell They cannot be represented in Text This function remaps those code points to the Unicode replacement character FFFD and leaves other code points unchanged",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "safe",
           "normalized": "Char-\u003eChar",
@@ -7086,6 +7630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA useful \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e-like function for debugging purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "showText",
           "package": "text",
@@ -7096,6 +7641,7 @@
         "index": {
           "description": "useful show like function for debugging purposes",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "showText",
           "normalized": "Text-\u003eString",
@@ -7112,6 +7658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmart constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "text",
           "package": "text",
@@ -7122,6 +7669,7 @@
         "index": {
           "description": "Smart constructor",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "text",
           "normalized": "Array-\u003eInt-\u003eInt-\u003eText",
@@ -7137,6 +7685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e without invisibly pinning its byte array in\n memory if its length has dwindled to zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Internal",
           "name": "textP",
           "package": "text",
@@ -7147,6 +7696,7 @@
         "index": {
           "description": "Construct Text without invisibly pinning its byte array in memory if its length has dwindled to zero",
           "hierarchy": "Data Text Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Internal",
           "name": "textP",
           "normalized": "Array-\u003eInt-\u003eInt-\u003eText",
@@ -7161,6 +7711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "Int",
           "package": "text",
@@ -7169,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy Builder Int",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "Int",
           "package": "text",
@@ -7182,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "decimal",
           "package": "text",
@@ -7191,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy Builder Int",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "decimal",
           "normalized": "a-\u003eBuilder",
@@ -7205,6 +7759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "hexadecimal",
           "package": "text",
@@ -7214,6 +7769,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy Builder Int",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.Int",
           "name": "hexadecimal",
           "normalized": "a-\u003eBuilder",
@@ -7229,6 +7785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWrite a floating point value to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "RealFloat",
           "package": "text",
@@ -7238,6 +7795,7 @@
         "index": {
           "description": "Write floating point value to Builder",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "RealFloat",
           "package": "text",
@@ -7252,6 +7810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl the rendering of floating point numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "FPFormat",
           "package": "text",
@@ -7261,6 +7820,7 @@
         "index": {
           "description": "Control the rendering of floating point numbers",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "FPFormat",
           "package": "text",
@@ -7275,6 +7835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScientific notation (e.g. \u003ccode\u003e2.3e123\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Exponent",
           "package": "text",
@@ -7285,6 +7846,7 @@
         "index": {
           "description": "Scientific notation e.g e123",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Exponent",
           "package": "text",
@@ -7299,6 +7861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard decimal notation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Fixed",
           "package": "text",
@@ -7309,6 +7872,7 @@
         "index": {
           "description": "Standard decimal notation",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Fixed",
           "package": "text",
@@ -7323,6 +7887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse decimal notation for values between \u003ccode\u003e0.1\u003c/code\u003e and\n \u003ccode\u003e9,999,999\u003c/code\u003e, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Generic",
           "package": "text",
@@ -7333,6 +7898,7 @@
         "index": {
           "description": "Use decimal notation for values between and and scientific notation otherwise",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "Generic",
           "package": "text",
@@ -7346,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "formatRealFloat",
           "package": "text",
@@ -7354,6 +7921,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "formatRealFloat",
           "normalized": "FPFormat-\u003eMaybe Int-\u003ea-\u003eBuilder",
@@ -7370,6 +7938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a signed \u003ccode\u003e\u003ca\u003eRealFloat\u003c/a\u003e\u003c/code\u003e value to full precision,\n using standard decimal notation for arguments whose absolute value lies\n between \u003ccode\u003e0.1\u003c/code\u003e and \u003ccode\u003e9,999,999\u003c/code\u003e, and scientific notation otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "realFloat",
           "package": "text",
@@ -7380,6 +7949,7 @@
         "index": {
           "description": "Show signed RealFloat value to full precision using standard decimal notation for arguments whose absolute value lies between and and scientific notation otherwise",
           "hierarchy": "Data Text Lazy Builder RealFloat",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder.RealFloat",
           "name": "realFloat",
           "normalized": "a-\u003eBuilder",
@@ -7396,6 +7966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient construction of lazy \u003ccode\u003eText\u003c/code\u003e values.  The principal\n operations on a \u003ccode\u003eBuilder\u003c/code\u003e are \u003ccode\u003esingleton\u003c/code\u003e, \u003ccode\u003efromText\u003c/code\u003e, and\n \u003ccode\u003efromLazyText\u003c/code\u003e, which construct new builders, and \u003ccode\u003emappend\u003c/code\u003e, which\n concatenates two builders.\n\u003c/p\u003e\u003cp\u003eTo get maximum performance when building lazy \u003ccode\u003eText\u003c/code\u003e values using a\n builder, associate \u003ccode\u003emappend\u003c/code\u003e calls to the right.  For example,\n prefer\n\u003c/p\u003e\u003cpre\u003e singleton 'a' `mappend` (singleton 'b' `mappend` singleton 'c')\n\u003c/pre\u003e\u003cp\u003eto\n\u003c/p\u003e\u003cpre\u003e singleton 'a' `mappend` singleton 'b' `mappend` singleton 'c'\n\u003c/pre\u003e\u003cp\u003eas the latter associates \u003ccode\u003emappend\u003c/code\u003e to the left. Or, equivalently,\n prefer\n\u003c/p\u003e\u003cpre\u003e singleton 'a' \u003c\u003e singleton 'b' \u003c\u003e singleton 'c'\n\u003c/pre\u003e\u003cp\u003esince the \u003ccode\u003e\u003c\u003e\u003c/code\u003e from recent versions of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e associates\n to the right.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder",
           "name": "Builder",
           "package": "text",
@@ -7405,6 +7976,7 @@
         "index": {
           "description": "Efficient construction of lazy Text values The principal operations on Builder are singleton fromText and fromLazyText which construct new builders and mappend which concatenates two builders To get maximum performance when building lazy Text values using builder associate mappend calls to the right For example prefer singleton mappend singleton mappend singleton to singleton mappend singleton mappend singleton as the latter associates mappend to the left Or equivalently prefer singleton singleton singleton since the from recent versions of Monoid associates to the right",
           "hierarchy": "Data Text Lazy Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder",
           "name": "Builder",
           "package": "text",
@@ -7419,6 +7991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eBuilder\u003c/code\u003e is an efficient way to build lazy \u003ccode\u003eText\u003c/code\u003e values.\n There are several functions for constructing builders, but only one\n to inspect them: to extract any data, you have to turn them into\n lazy \u003ccode\u003eText\u003c/code\u003e values using \u003ccode\u003etoLazyText\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInternally, a builder constructs a lazy \u003ccode\u003eText\u003c/code\u003e by filling arrays\n piece by piece.  As each buffer is filled, it is 'popped' off, to\n become a new chunk of the resulting lazy \u003ccode\u003eText\u003c/code\u003e.  All this is\n hidden from the user of the \u003ccode\u003eBuilder\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Builder",
           "name": "Builder",
           "package": "text",
@@ -7428,6 +8001,7 @@
         "index": {
           "description": "Builder is an efficient way to build lazy Text values There are several functions for constructing builders but only one to inspect them to extract any data you have to turn them into lazy Text values using toLazyText Internally builder constructs lazy Text by filling arrays piece by piece As each buffer is filled it is popped off to become new chunk of the resulting lazy Text All this is hidden from the user of the Builder",
           "hierarchy": "Data Text Lazy Builder",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Builder",
           "name": "Builder",
           "package": "text",
@@ -7442,6 +8016,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for converting lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e values to and from lazy\n \u003ccode\u003eByteString\u003c/code\u003e, using several standard encodings.\n\u003c/p\u003e\u003cp\u003eTo gain access to a much larger variety of encodings, use the\n \u003ccode\u003etext-icu\u003c/code\u003e package: \u003ca\u003ehttp://hackage.haskell.org/package/text-icu\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "Encoding",
           "package": "text",
@@ -7451,6 +8026,7 @@
         "index": {
           "description": "Functions for converting lazy Text values to and from lazy ByteString using several standard encodings To gain access to much larger variety of encodings use the text-icu package http hackage.haskell.org package text-icu",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "Encoding",
           "package": "text",
@@ -7465,6 +8041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use decodeUtf8 instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003e\u003cem\u003eDeprecated\u003c/em\u003e.  Decode a \u003ccode\u003eByteString\u003c/code\u003e containing 7-bit ASCII\n encoded text.\n\u003c/p\u003e\u003cp\u003eThis function is deprecated.  Use \u003ccode\u003e\u003ca\u003edecodeLatin1\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeASCII",
           "package": "text",
@@ -7475,6 +8052,7 @@
         "index": {
           "description": "Deprecated Use decodeUtf8 instead Deprecated Decode ByteString containing bit ASCII encoded text This function is deprecated Use decodeLatin1 instead",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeASCII",
           "normalized": "ByteString-\u003eText",
@@ -7491,6 +8069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003eByteString\u003c/code\u003e containing Latin-1 (aka ISO-8859-1) encoded text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeLatin1",
           "package": "text",
@@ -7501,6 +8080,7 @@
         "index": {
           "description": "Decode ByteString containing Latin-1 aka ISO-8859-1 encoded text",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeLatin1",
           "normalized": "ByteString-\u003eText",
@@ -7517,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-16 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid big endian UTF-16 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf16BEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16BE",
           "package": "text",
@@ -7527,6 +8108,7 @@
         "index": {
           "description": "Decode text from big endian UTF-16 encoding If the input contains any invalid big endian UTF-16 data an exception will be thrown For more control over the handling of invalid data use decodeUtf16BEWith",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16BE",
           "normalized": "ByteString-\u003eText",
@@ -7543,6 +8125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16BEWith",
           "package": "text",
@@ -7553,6 +8136,7 @@
         "index": {
           "description": "Decode text from big endian UTF-16 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16BEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -7569,6 +8153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-16 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid little endian UTF-16 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf16LEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16LE",
           "package": "text",
@@ -7579,6 +8164,7 @@
         "index": {
           "description": "Decode text from little endian UTF-16 encoding If the input contains any invalid little endian UTF-16 data an exception will be thrown For more control over the handling of invalid data use decodeUtf16LEWith",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16LE",
           "normalized": "ByteString-\u003eText",
@@ -7595,6 +8181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16LEWith",
           "package": "text",
@@ -7605,6 +8192,7 @@
         "index": {
           "description": "Decode text from little endian UTF-16 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf16LEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -7621,6 +8209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-32 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid big endian UTF-32 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf32BEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32BE",
           "package": "text",
@@ -7631,6 +8220,7 @@
         "index": {
           "description": "Decode text from big endian UTF-32 encoding If the input contains any invalid big endian UTF-32 data an exception will be thrown For more control over the handling of invalid data use decodeUtf32BEWith",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32BE",
           "normalized": "ByteString-\u003eText",
@@ -7647,6 +8237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from big endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32BEWith",
           "package": "text",
@@ -7657,6 +8248,7 @@
         "index": {
           "description": "Decode text from big endian UTF-32 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32BEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -7673,6 +8265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-32 encoding.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid little endian UTF-32 data, an\n exception will be thrown.  For more control over the handling of\n invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf32LEWith\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32LE",
           "package": "text",
@@ -7683,6 +8276,7 @@
         "index": {
           "description": "Decode text from little endian UTF-32 encoding If the input contains any invalid little endian UTF-32 data an exception will be thrown For more control over the handling of invalid data use decodeUtf32LEWith",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32LE",
           "normalized": "ByteString-\u003eText",
@@ -7699,6 +8293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode text from little endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32LEWith",
           "package": "text",
@@ -7709,6 +8304,7 @@
         "index": {
           "description": "Decode text from little endian UTF-32 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf32LEWith",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -7725,6 +8321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003eByteString\u003c/code\u003e containing UTF-8 encoded text that is known\n to be valid.\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid UTF-8 data, an exception will be\n thrown that cannot be caught in pure code.  For more control over\n the handling of invalid data, use \u003ccode\u003e\u003ca\u003edecodeUtf8'\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003edecodeUtf8With\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8",
           "package": "text",
@@ -7735,6 +8332,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text that is known to be valid If the input contains any invalid UTF-8 data an exception will be thrown that cannot be caught in pure code For more control over the handling of invalid data use decodeUtf8 or decodeUtf8With",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8",
           "normalized": "ByteString-\u003eText",
@@ -7751,6 +8349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003eByteString\u003c/code\u003e containing UTF-8 encoded text..\n\u003c/p\u003e\u003cp\u003eIf the input contains any invalid UTF-8 data, the relevant\n exception will be returned, otherwise the decoded text.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this function is \u003cem\u003enot\u003c/em\u003e lazy, as it must decode its entire\n input before it can return a result.  If you need lazy (streaming)\n decoding, use \u003ccode\u003e\u003ca\u003edecodeUtf8With\u003c/a\u003e\u003c/code\u003e in lenient mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8'",
           "package": "text",
@@ -7761,6 +8360,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text If the input contains any invalid UTF-8 data the relevant exception will be returned otherwise the decoded text Note this function is not lazy as it must decode its entire input before it can return result If you need lazy streaming decoding use decodeUtf8With in lenient mode",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8'",
           "normalized": "ByteString-\u003eEither UnicodeException Text",
@@ -7777,6 +8377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a \u003ccode\u003eByteString\u003c/code\u003e containing UTF-8 encoded text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8With",
           "package": "text",
@@ -7787,6 +8388,7 @@
         "index": {
           "description": "Decode ByteString containing UTF-8 encoded text",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "decodeUtf8With",
           "normalized": "OnDecodeError-\u003eByteString-\u003eText",
@@ -7803,6 +8405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using big endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf16BE",
           "package": "text",
@@ -7813,6 +8416,7 @@
         "index": {
           "description": "Encode text using big endian UTF-16 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf16BE",
           "normalized": "Text-\u003eByteString",
@@ -7829,6 +8433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using little endian UTF-16 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf16LE",
           "package": "text",
@@ -7839,6 +8444,7 @@
         "index": {
           "description": "Encode text using little endian UTF-16 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf16LE",
           "normalized": "Text-\u003eByteString",
@@ -7855,6 +8461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using big endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf32BE",
           "package": "text",
@@ -7865,6 +8472,7 @@
         "index": {
           "description": "Encode text using big endian UTF-32 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf32BE",
           "normalized": "Text-\u003eByteString",
@@ -7881,6 +8489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode text using little endian UTF-32 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf32LE",
           "package": "text",
@@ -7891,6 +8500,7 @@
         "index": {
           "description": "Encode text using little endian UTF-32 encoding",
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf32LE",
           "normalized": "Text-\u003eByteString",
@@ -7906,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf8",
           "package": "text",
@@ -7915,6 +8526,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy Encoding",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Encoding",
           "name": "encodeUtf8",
           "normalized": "Text-\u003eByteString",
@@ -7931,6 +8543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficient locale-sensitive support for lazy text I/O.\n\u003c/p\u003e\u003cp\u003eSkip past the synopsis for some important notes on performance and\n portability across different versions of GHC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "IO",
           "package": "text",
@@ -7940,6 +8553,7 @@
         "index": {
           "description": "Efficient locale-sensitive support for lazy text Skip past the synopsis for some important notes on performance and portability across different versions of GHC",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "IO",
           "package": "text",
@@ -7954,6 +8568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string the end of a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "appendFile",
           "package": "text",
@@ -7964,6 +8579,7 @@
         "index": {
           "description": "Write string the end of file",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "appendFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -7980,6 +8596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily read all user input on \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e as a single string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "getContents",
           "package": "text",
@@ -7990,6 +8607,7 @@
         "index": {
           "description": "Lazily read all user input on stdin as single string",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "getContents",
           "package": "text",
@@ -8004,6 +8622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line of user input from \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "getLine",
           "package": "text",
@@ -8014,6 +8633,7 @@
         "index": {
           "description": "Read single line of user input from stdin",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "getLine",
           "package": "text",
@@ -8028,6 +8648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily read the remaining contents of a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e\n will be closed after the read completes, or on error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "hGetContents",
           "package": "text",
@@ -8038,6 +8659,7 @@
         "index": {
           "description": "Lazily read the remaining contents of Handle The Handle will be closed after the read completes or on error",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "hGetContents",
           "normalized": "Handle-\u003eIO Text",
@@ -8054,6 +8676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a single line from a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "hGetLine",
           "package": "text",
@@ -8064,6 +8687,7 @@
         "index": {
           "description": "Read single line from handle",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "hGetLine",
           "normalized": "Handle-\u003eIO Text",
@@ -8080,6 +8704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "hPutStr",
           "package": "text",
@@ -8090,6 +8715,7 @@
         "index": {
           "description": "Write string to handle",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "hPutStr",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -8106,6 +8732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a handle, followed by a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "hPutStrLn",
           "package": "text",
@@ -8116,6 +8743,7 @@
         "index": {
           "description": "Write string to handle followed by newline",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "hPutStrLn",
           "normalized": "Handle-\u003eText-\u003eIO()",
@@ -8132,6 +8760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einteract\u003c/a\u003e\u003c/code\u003e function takes a function of type \u003ccode\u003eText -\u003e Text\u003c/code\u003e\n as its argument. The entire input from the standard input device is\n passed (lazily) to this function as its argument, and the resulting\n string is output on the standard output device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "interact",
           "package": "text",
@@ -8142,6 +8771,7 @@
         "index": {
           "description": "The interact function takes function of type Text Text as its argument The entire input from the standard input device is passed lazily to this function as its argument and the resulting string is output on the standard output device",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "interact",
           "normalized": "(Text-\u003eText)-\u003eIO()",
@@ -8157,6 +8787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "putStr",
           "package": "text",
@@ -8167,6 +8798,7 @@
         "index": {
           "description": "Write string to stdout",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "putStr",
           "normalized": "Text-\u003eIO()",
@@ -8183,6 +8815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e, followed by a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "putStrLn",
           "package": "text",
@@ -8193,6 +8826,7 @@
         "index": {
           "description": "Write string to stdout followed by newline",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "putStrLn",
           "normalized": "Text-\u003eIO()",
@@ -8209,6 +8843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a file and return its contents as a string.  The file is\n read lazily, as with \u003ccode\u003e\u003ca\u003egetContents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "readFile",
           "package": "text",
@@ -8219,6 +8854,7 @@
         "index": {
           "description": "Read file and return its contents as string The file is read lazily as with getContents",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "readFile",
           "normalized": "FilePath-\u003eIO Text",
@@ -8235,6 +8871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string to a file.  The file is truncated to zero length\n before writing begins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.IO",
           "name": "writeFile",
           "package": "text",
@@ -8245,6 +8882,7 @@
         "index": {
           "description": "Write string to file The file is truncated to zero length before writing begins",
           "hierarchy": "Data Text Lazy IO",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.IO",
           "name": "writeFile",
           "normalized": "FilePath-\u003eText-\u003eIO()",
@@ -8261,6 +8899,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Data.Text.Internal.Lazy instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis module has been renamed to \u003ccode\u003e\u003ca\u003eLazy\u003c/a\u003e\u003c/code\u003e. This\n name for the module will be removed in the next major release.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Internal",
           "name": "Internal",
           "package": "text",
@@ -8270,6 +8909,7 @@
         "index": {
           "description": "Deprecated Use Data.Text.Internal.Lazy instead This module has been renamed to Lazy This name for the module will be removed in the next major release",
           "hierarchy": "Data Text Lazy Internal",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Internal",
           "name": "Internal",
           "package": "text",
@@ -8284,6 +8924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions used frequently when reading textual data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "Read",
           "package": "text",
@@ -8293,6 +8934,7 @@
         "index": {
           "description": "Functions used frequently when reading textual data",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "Read",
           "package": "text",
@@ -8307,6 +8949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead some text.  If the read succeeds, return its value and the\n remaining text, otherwise an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "Reader",
           "package": "text",
@@ -8316,6 +8959,7 @@
         "index": {
           "description": "Read some text If the read succeeds return its value and the remaining text otherwise an error message",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "Reader",
           "package": "text",
@@ -8330,6 +8974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a decimal integer.  The input must begin with at least one\n decimal digit, and is consumed until a non-digit or end of string\n is reached.\n\u003c/p\u003e\u003cp\u003eThis function does not handle leading sign characters.  If you need\n to handle signed input, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003esigned\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edecimal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: For fixed-width integer types, this function does not\n attempt to detect overflow, so a sufficiently long input may give\n incorrect results.  If you are worried about overflow, use\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e for your result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "decimal",
           "package": "text",
@@ -8340,6 +8985,7 @@
         "index": {
           "description": "Read decimal integer The input must begin with at least one decimal digit and is consumed until non-digit or end of string is reached This function does not handle leading sign characters If you need to handle signed input use signed decimal Note For fixed-width integer types this function does not attempt to detect overflow so sufficiently long input may give incorrect results If you are worried about overflow use Integer for your result type",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "decimal",
           "package": "text",
@@ -8353,6 +8999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a rational number.\n\u003c/p\u003e\u003cp\u003eThe syntax accepted by this function is the same as for \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: This function is almost ten times faster than \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e,\n but is slightly less accurate.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e type supports about 16 decimal places of accuracy.\n For 94.2% of numbers, this function and \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e give identical\n results, but for the remaining 5.8%, this function loses precision\n around the 15th decimal place.  For 0.001% of numbers, this\n function will lose precision at the 13th or 14th decimal place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "double",
           "package": "text",
@@ -8363,6 +9010,7 @@
         "index": {
           "description": "Read rational number The syntax accepted by this function is the same as for rational Note This function is almost ten times faster than rational but is slightly less accurate The Double type supports about decimal places of accuracy For of numbers this function and rational give identical results but for the remaining this function loses precision around the th decimal place For of numbers this function will lose precision at the th or th decimal place",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "double",
           "package": "text",
@@ -8376,6 +9024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a hexadecimal integer, consisting of an optional leading\n \u003ccode\u003e\"0x\"\u003c/code\u003e followed by at least one decimal digit. Input is consumed\n until a non-hex-digit or end of string is reached.  This function\n is case insensitive.\n\u003c/p\u003e\u003cp\u003eThis function does not handle leading sign characters.  If you need\n to handle signed input, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003esigned\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ehexadecimal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: For fixed-width integer types, this function does not\n attempt to detect overflow, so a sufficiently long input may give\n incorrect results.  If you are worried about overflow, use\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e for your result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "hexadecimal",
           "package": "text",
@@ -8386,6 +9035,7 @@
         "index": {
           "description": "Read hexadecimal integer consisting of an optional leading followed by at least one decimal digit Input is consumed until non-hex-digit or end of string is reached This function is case insensitive This function does not handle leading sign characters If you need to handle signed input use signed hexadecimal Note For fixed-width integer types this function does not attempt to detect overflow so sufficiently long input may give incorrect results If you are worried about overflow use Integer for your result type",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "hexadecimal",
           "package": "text",
@@ -8399,6 +9049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a rational number.\n\u003c/p\u003e\u003cp\u003eThis function accepts an optional leading sign character, followed\n by at least one decimal digit.  The syntax similar to that accepted\n by the \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e function, with the exception that a trailing \u003ccode\u003e'.'\u003c/code\u003e\n or \u003ccode\u003e'e'\u003c/code\u003e \u003cem\u003enot\u003c/em\u003e followed by a number is not consumed.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003erational \"3\"     == Right (3.0, \"\")\nrational \"3.1\"   == Right (3.1, \"\")\nrational \"3e4\"   == Right (30000.0, \"\")\nrational \"3.1e4\" == Right (31000.0, \"\")\nrational \".3\"    == Left \"input does not start with a digit\"\nrational \"e3\"    == Left \"input does not start with a digit\"\n\u003c/pre\u003e\u003cp\u003eExamples of differences from \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003erational \"3.foo\" == Right (3.0, \".foo\")\nrational \"3e\"    == Right (3.0, \"e\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "rational",
           "package": "text",
@@ -8409,6 +9060,7 @@
         "index": {
           "description": "Read rational number This function accepts an optional leading sign character followed by at least one decimal digit The syntax similar to that accepted by the read function with the exception that trailing or not followed by number is not consumed Examples rational Right rational Right rational e4 Right rational e4 Right rational Left input does not start with digit rational e3 Left input does not start with digit Examples of differences from read rational foo Right foo rational Right",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "rational",
           "package": "text",
@@ -8422,6 +9074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an optional leading sign character (\u003ccode\u003e'-'\u003c/code\u003e or \u003ccode\u003e'+'\u003c/code\u003e) and\n apply it to the result of applying the given reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy.Read",
           "name": "signed",
           "package": "text",
@@ -8432,6 +9085,7 @@
         "index": {
           "description": "Read an optional leading sign character or and apply it to the result of applying the given reader",
           "hierarchy": "Data Text Lazy Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy.Read",
           "name": "signed",
           "normalized": "Reader a-\u003eReader a",
@@ -8447,6 +9101,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA time and space-efficient implementation of Unicode text using\n lists of packed arrays.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Read below the synopsis for important notes on the use of\n this module.\n\u003c/p\u003e\u003cp\u003eThe representation used by this module is suitable for high\n performance use and for streaming large quantities of data.  It\n provides a means to manipulate a large body of text without\n requiring that the entire content be resident in memory.\n\u003c/p\u003e\u003cp\u003eSome operations, such as \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eappend\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ereverse\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003econs\u003c/a\u003e\u003c/code\u003e,\n have better time complexity than their \u003ca\u003eData.Text\u003c/a\u003e equivalents, due\n to the underlying representation being a list of chunks. For other\n operations, lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es are usually within a few percent of strict\n ones, but often with better heap usage if used in a streaming\n fashion. For data larger than available memory, or if you have\n tight memory constraints, this module will be the only option.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions.  eg.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.Text.Lazy as L\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "Lazy",
           "package": "text",
@@ -8456,6 +9111,7 @@
         "index": {
           "description": "time and space-efficient implementation of Unicode text using lists of packed arrays Note Read below the synopsis for important notes on the use of this module The representation used by this module is suitable for high performance use and for streaming large quantities of data It provides means to manipulate large body of text without requiring that the entire content be resident in memory Some operations such as concat append reverse and cons have better time complexity than their Data.Text equivalents due to the underlying representation being list of chunks For other operations lazy Text are usually within few percent of strict ones but often with better heap usage if used in streaming fashion For data larger than available memory or if you have tight memory constraints this module will be the only option This module is intended to be imported qualified to avoid name clashes with Prelude functions eg import qualified Data.Text.Lazy as",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "Lazy",
           "package": "text",
@@ -8469,6 +9125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "Text",
           "package": "text",
@@ -8477,6 +9134,7 @@
         },
         "index": {
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "Text",
           "package": "text",
@@ -8491,6 +9149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e determines whether all characters in the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e satisify the predicate \u003ccode\u003ep\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "all",
           "package": "text",
@@ -8501,6 +9160,7 @@
         "index": {
           "description": "all determines whether all characters in the Text satisify the predicate Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -8516,6 +9176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e determines whether any character in the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e satisifes the predicate \u003ccode\u003ep\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "any",
           "package": "text",
@@ -8526,6 +9187,7 @@
         "index": {
           "description": "any determines whether any character in the Text satisifes the predicate Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -8541,6 +9203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n\\\u003c/em\u003ec)/ Appends one \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to another.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "append",
           "package": "text",
@@ -8551,6 +9214,7 @@
         "index": {
           "description": "Appends one Text to another Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "append",
           "normalized": "Text-\u003eText-\u003eText",
@@ -8566,6 +9230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ebreak\u003c/a\u003e\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e, but the prefix returned is over\n elements that fail the predicate \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "break",
           "package": "text",
@@ -8576,6 +9241,7 @@
         "index": {
           "description": "break is like span but the prefix returned is over elements that fail the predicate",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -8591,6 +9257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find the first instance of \u003ccode\u003eneedle\u003c/code\u003e (which must be\n non-\u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e) in \u003ccode\u003ehaystack\u003c/code\u003e.  The first element of the returned tuple\n is the prefix of \u003ccode\u003ehaystack\u003c/code\u003e before \u003ccode\u003eneedle\u003c/code\u003e is matched.  The second\n is the remainder of \u003ccode\u003ehaystack\u003c/code\u003e, starting with the match.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e breakOn \"::\" \"a::b::c\" ==\u003e (\"a\", \"::b::c\")\n breakOn \"/\" \"foobar\"   ==\u003e (\"foobar\", \"\")\n\u003c/pre\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e append prefix match == haystack\n   where (prefix, match) = breakOn needle haystack\n\u003c/pre\u003e\u003cp\u003eIf you need to break a string by a substring repeatedly (e.g. you\n want to break on every instance of a substring), use \u003ccode\u003e\u003ca\u003ebreakOnAll\u003c/a\u003e\u003c/code\u003e\n instead, as it has lower startup overhead.\n\u003c/p\u003e\u003cp\u003eThis function is strict in its first argument, and lazy in its\n second.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "breakOn",
           "package": "text",
@@ -8601,6 +9268,7 @@
         "index": {
           "description": "Find the first instance of needle which must be non null in haystack The first element of the returned tuple is the prefix of haystack before needle is matched The second is the remainder of haystack starting with the match Examples breakOn breakOn foobar foobar Laws append prefix match haystack where prefix match breakOn needle haystack If you need to break string by substring repeatedly e.g you want to break on every instance of substring use breakOnAll instead as it has lower startup overhead This function is strict in its first argument and lazy in its second In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "breakOn",
           "normalized": "Text-\u003eText-\u003e(Text,Text)",
@@ -8617,6 +9285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find all non-overlapping instances of \u003ccode\u003eneedle\u003c/code\u003e in\n \u003ccode\u003ehaystack\u003c/code\u003e.  Each element of the returned list consists of a pair:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The entire string prior to the \u003cem\u003ek\u003c/em\u003eth match (i.e. the prefix)\n\u003c/li\u003e\u003cli\u003e The \u003cem\u003ek\u003c/em\u003eth match, followed by the remainder of the string\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e breakOnAll \"::\" \"\"\n ==\u003e []\n breakOnAll \"/\" \"a/b/c/\"\n ==\u003e [(\"a\", \"/b/c/\"), (\"a/b\", \"/c/\"), (\"a/b/c\", \"/\")]\n\u003c/pre\u003e\u003cp\u003eThis function is strict in its first argument, and lazy in its\n second.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eneedle\u003c/code\u003e parameter may not be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "breakOnAll",
           "package": "text",
@@ -8626,6 +9295,7 @@
         "index": {
           "description": "Find all non-overlapping instances of needle in haystack Each element of the returned list consists of pair The entire string prior to the th match i.e the prefix The th match followed by the remainder of the string Examples breakOnAll breakOnAll This function is strict in its first argument and lazy in its second In unlikely bad cases this function time complexity degrades towards The needle parameter may not be empty",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "breakOnAll",
           "normalized": "Text-\u003eText-\u003e[(Text,Text)]",
@@ -8642,6 +9312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Similar to \u003ccode\u003e\u003ca\u003ebreakOn\u003c/a\u003e\u003c/code\u003e, but searches from the end of the string.\n\u003c/p\u003e\u003cp\u003eThe first element of the returned tuple is the prefix of \u003ccode\u003ehaystack\u003c/code\u003e\n up to and including the last match of \u003ccode\u003eneedle\u003c/code\u003e.  The second is the\n remainder of \u003ccode\u003ehaystack\u003c/code\u003e, following the match.\n\u003c/p\u003e\u003cpre\u003e breakOnEnd \"::\" \"a::b::c\" ==\u003e (\"a::b::\", \"c\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "breakOnEnd",
           "package": "text",
@@ -8652,6 +9323,7 @@
         "index": {
           "description": "Similar to breakOn but searches from the end of the string The first element of the returned tuple is the prefix of haystack up to and including the last match of needle The second is the remainder of haystack following the match breakOnEnd",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "breakOnEnd",
           "normalized": "Text-\u003eText-\u003e(Text,Text)",
@@ -8668,6 +9340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Center a string to the given length, using the specified\n fill character on either side.  Performs replacement on invalid\n scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e center 8 'x' \"HS\" = \"xxxHSxxx\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "center",
           "package": "text",
@@ -8678,6 +9351,7 @@
         "index": {
           "description": "Center string to the given length using the specified fill character on either side Performs replacement on invalid scalar values Examples center HS xxxHSxxx",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "center",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -8693,6 +9367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Splits a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into components of length \u003ccode\u003ek\u003c/code\u003e.  The last\n element may be shorter than the other chunks, depending on the\n length of the input. Examples:\n\u003c/p\u003e\u003cpre\u003e chunksOf 3 \"foobarbaz\"   == [\"foo\",\"bar\",\"baz\"]\n chunksOf 4 \"haskell.org\" == [\"hask\",\"ell.\",\"org\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "chunksOf",
           "package": "text",
@@ -8703,6 +9378,7 @@
         "index": {
           "description": "Splits Text into components of length The last element may be shorter than the other chunks depending on the length of the input Examples chunksOf foobarbaz foo bar baz chunksOf haskell.org hask ell org",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "chunksOf",
           "normalized": "Int-\u003eText-\u003e[Text]",
@@ -8719,6 +9395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Find the longest non-empty common prefix of two strings\n and return it, along with the suffixes of each string at which they\n no longer match.\n\u003c/p\u003e\u003cp\u003eIf the strings do not have a common prefix or either one is empty,\n this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e commonPrefixes \"foobar\" \"fooquux\" == Just (\"foo\",\"bar\",\"quux\")\n commonPrefixes \"veeble\" \"fetzer\"  == Nothing\n commonPrefixes \"\" \"baz\"           == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "commonPrefixes",
           "package": "text",
@@ -8729,6 +9406,7 @@
         "index": {
           "description": "Find the longest non-empty common prefix of two strings and return it along with the suffixes of each string at which they no longer match If the strings do not have common prefix or either one is empty this function returns Nothing Examples commonPrefixes foobar fooquux Just foo bar quux commonPrefixes veeble fetzer Nothing commonPrefixes baz Nothing",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "commonPrefixes",
           "normalized": "Text-\u003eText-\u003eMaybe(Text,Text,Text)",
@@ -8745,6 +9423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compare the count of characters in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to a number.\n Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThis function gives the same answer as comparing against the result\n of \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, but can short circuit if the count of characters is\n greater than the number, and hence be more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "compareLength",
           "package": "text",
@@ -8755,6 +9434,7 @@
         "index": {
           "description": "Compare the count of characters in Text to number Subject to fusion This function gives the same answer as comparing against the result of length but can short circuit if the count of characters is greater than the number and hence be more efficient",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "compareLength",
           "normalized": "Text-\u003eInt-\u003eOrdering",
@@ -8771,6 +9451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Concatenate a list of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "concat",
           "package": "text",
@@ -8781,6 +9462,7 @@
         "index": {
           "description": "Concatenate list of Text",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "concat",
           "normalized": "[Text]-\u003eText",
@@ -8796,6 +9478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Map a function over a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e that results in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, and\n concatenate the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "concatMap",
           "package": "text",
@@ -8806,6 +9489,7 @@
         "index": {
           "description": "Map function over Text that results in Text and concatenate the results",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "concatMap",
           "normalized": "(Char-\u003eText)-\u003eText-\u003eText",
@@ -8822,6 +9506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the front of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  This function\n is more costly than its \u003ccode\u003eList\u003c/code\u003e counterpart because it requires\n copying a new array.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "cons",
           "package": "text",
@@ -8832,6 +9517,7 @@
         "index": {
           "description": "Adds character to the front of Text This function is more costly than its List counterpart because it requires copying new array Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "cons",
           "normalized": "Char-\u003eText-\u003eText",
@@ -8847,6 +9533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003ecount\u003c/a\u003e\u003c/code\u003e function returns the number of times the\n query string appears in the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. An empty query string is\n invalid, and will cause an error to be raised.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "count",
           "package": "text",
@@ -8857,6 +9544,7 @@
         "index": {
           "description": "The count function returns the number of times the query string appears in the given Text An empty query string is invalid and will cause an error to be raised In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "count",
           "normalized": "Text-\u003eText-\u003eInt",
@@ -8872,6 +9560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e, applied to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, returns the suffix of the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e after the first \u003ccode\u003en\u003c/code\u003e characters, or the empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003en\u003c/code\u003e\n is greater than the length of the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "drop",
           "package": "text",
@@ -8882,6 +9571,7 @@
         "index": {
           "description": "drop applied to Text returns the suffix of the Text after the first characters or the empty Text if is greater than the length of the Text Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "drop",
           "normalized": "Int-\u003eText-\u003eText",
@@ -8897,6 +9587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropAround\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the substring remaining after\n dropping characters that fail the predicate \u003ccode\u003ep\u003c/code\u003e from both the\n beginning and end of \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "dropAround",
           "package": "text",
@@ -8907,6 +9598,7 @@
         "index": {
           "description": "dropAround returns the substring remaining after dropping characters that fail the predicate from both the beginning and end of Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "dropAround",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -8923,6 +9615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the suffix remaining after\n \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "dropWhile",
           "package": "text",
@@ -8933,6 +9626,7 @@
         "index": {
           "description": "dropWhile returns the suffix remaining after takeWhile Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -8949,6 +9643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropWhileEnd\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the prefix remaining after\n dropping characters that fail the predicate \u003ccode\u003ep\u003c/code\u003e from the end of\n \u003ccode\u003et\u003c/code\u003e.\n Examples:\n\u003c/p\u003e\u003cpre\u003e dropWhileEnd (=='.') \"foo...\" == \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "dropWhileEnd",
           "package": "text",
@@ -8959,6 +9654,7 @@
         "index": {
           "description": "dropWhileEnd returns the prefix remaining after dropping characters that fail the predicate from the end of Examples dropWhileEnd foo foo",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "dropWhileEnd",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -8975,6 +9671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e, applied to a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n returns a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e containing those characters that satisfy the\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "filter",
           "package": "text",
@@ -8985,6 +9682,7 @@
         "index": {
           "description": "filter applied to predicate and Text returns Text containing those characters that satisfy the predicate",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -9000,6 +9698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e function takes a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, and\n returns the first element in matching the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "find",
           "package": "text",
@@ -9010,6 +9709,7 @@
         "index": {
           "description": "The find function takes predicate and Text and returns the first element in matching the predicate or Nothing if there is no such element",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "find",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eMaybe Char",
@@ -9025,6 +9725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, applied to a binary operator, a starting value\n (typically the left-identity of the operator), and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n reduces the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using the binary operator, from left to right.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldl",
           "package": "text",
@@ -9035,6 +9736,7 @@
         "index": {
           "description": "foldl applied to binary operator starting value typically the left-identity of the operator and Text reduces the Text using the binary operator from left to right Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldl",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -9050,6 +9752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A strict version of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldl'",
           "package": "text",
@@ -9060,6 +9763,7 @@
         "index": {
           "description": "strict version of foldl Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldl'",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -9075,6 +9779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e that has no starting value argument,\n and thus must be applied to a non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldl1",
           "package": "text",
@@ -9085,6 +9790,7 @@
         "index": {
           "description": "variant of foldl that has no starting value argument and thus must be applied to non-empty Text Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldl1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -9100,6 +9806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A strict version of \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldl1'",
           "package": "text",
@@ -9110,6 +9817,7 @@
         "index": {
           "description": "strict version of foldl1 Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldl1'",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -9125,6 +9833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e, applied to a binary operator, a starting value\n (typically the right-identity of the operator), and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n reduces the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using the binary operator, from right to left.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldr",
           "package": "text",
@@ -9135,6 +9844,7 @@
         "index": {
           "description": "foldr applied to binary operator starting value typically the right-identity of the operator and Text reduces the Text using the binary operator from right to left Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldr",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -9150,6 +9860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e that has no starting value argument,\n and thus must be applied to a non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to\n fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "foldr1",
           "package": "text",
@@ -9160,6 +9871,7 @@
         "index": {
           "description": "variant of foldr that has no starting value argument and thus must be applied to non-empty Text Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "foldr1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -9175,6 +9887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(c)\u003c/em\u003e Convert a list of strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es into a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "fromChunks",
           "package": "text",
@@ -9185,6 +9898,7 @@
         "index": {
           "description": "Convert list of strict Text into lazy Text",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "fromChunks",
           "normalized": "[Text]-\u003eText",
@@ -9201,6 +9915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(c)\u003c/em\u003e Convert a strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "fromStrict",
           "package": "text",
@@ -9211,6 +9926,7 @@
         "index": {
           "description": "Convert strict Text into lazy Text",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "fromStrict",
           "normalized": "Text-\u003eText",
@@ -9227,6 +9943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e function takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and returns a list of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es\n such that the concatenation of the result is equal to the argument.\n Moreover, each sublist in the result contains only equal elements.\n For example,\n\u003c/p\u003e\u003cpre\u003e group \"Mississippi\" = [\"M\",\"i\",\"ss\",\"i\",\"ss\",\"i\",\"pp\",\"i\"]\n\u003c/pre\u003e\u003cp\u003eIt is a special case of \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own equality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "group",
           "package": "text",
@@ -9237,6 +9954,7 @@
         "index": {
           "description": "The group function takes Text and returns list of Text such that the concatenation of the result is equal to the argument Moreover each sublist in the result contains only equal elements For example group Mississippi ss ss pp It is special case of groupBy which allows the programmer to supply their own equality test",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "group",
           "normalized": "Text-\u003e[Text]",
@@ -9252,6 +9970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e function is the non-overloaded version of \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "groupBy",
           "package": "text",
@@ -9262,6 +9981,7 @@
         "index": {
           "description": "The groupBy function is the non-overloaded version of group",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "groupBy",
           "normalized": "(Char-\u003eChar-\u003eBool)-\u003eText-\u003e[Text]",
@@ -9278,6 +9998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must be\n non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "head",
           "package": "text",
@@ -9288,6 +10009,7 @@
         "index": {
           "description": "Returns the first character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "head",
           "normalized": "Text-\u003eChar",
@@ -9303,6 +10025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e index (subscript) operator, starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "index",
           "package": "text",
@@ -9313,6 +10036,7 @@
         "index": {
           "description": "Text index subscript operator starting from",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "index",
           "normalized": "Text-\u003eInt-\u003eChar",
@@ -9328,6 +10052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all but the last character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must\n be non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "init",
           "package": "text",
@@ -9338,6 +10063,7 @@
         "index": {
           "description": "Returns all but the last character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "init",
           "normalized": "Text-\u003eText",
@@ -9353,6 +10079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return all initial segments of the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n shortest first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "inits",
           "package": "text",
@@ -9363,6 +10090,7 @@
         "index": {
           "description": "Return all initial segments of the given Text shortest first",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "inits",
           "normalized": "Text-\u003e[Text]",
@@ -9378,6 +10106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eintercalate\u003c/a\u003e\u003c/code\u003e function takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and a list of\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and concatenates the list after interspersing the first\n argument between each element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "intercalate",
           "package": "text",
@@ -9388,6 +10117,7 @@
         "index": {
           "description": "The intercalate function takes Text and list of Text and concatenates the list after interspersing the first argument between each element of the list",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "intercalate",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -9403,6 +10133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e function takes a character and places it\n between the characters of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "intersperse",
           "package": "text",
@@ -9413,6 +10144,7 @@
         "index": {
           "description": "The intersperse function takes character and places it between the characters of Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "intersperse",
           "normalized": "Char-\u003eText-\u003eText",
@@ -9428,6 +10160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisInfixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is contained, wholly and intact, anywhere\n within the second.\n\u003c/p\u003e\u003cp\u003eThis function is strict in its first argument, and lazy in its\n second.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "isInfixOf",
           "package": "text",
@@ -9438,6 +10171,7 @@
         "index": {
           "description": "The isInfixOf function takes two Text and returns True iff the first is contained wholly and intact anywhere within the second This function is strict in its first argument and lazy in its second In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "isInfixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -9454,6 +10188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisPrefixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is a prefix of the second.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "isPrefixOf",
           "package": "text",
@@ -9464,6 +10199,7 @@
         "index": {
           "description": "The isPrefixOf function takes two Text and returns True iff the first is prefix of the second Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "isPrefixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -9480,6 +10216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisSuffixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is a suffix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "isSuffixOf",
           "package": "text",
@@ -9490,6 +10227,7 @@
         "index": {
           "description": "The isSuffixOf function takes two Text and returns True iff the first is suffix of the second",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "isSuffixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -9506,6 +10244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Left-justify a string to the given length, using the\n specified fill character on the right. Subject to fusion.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e justifyLeft 7 'x' \"foo\"    == \"fooxxxx\"\n justifyLeft 3 'x' \"foobar\" == \"foobar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "justifyLeft",
           "package": "text",
@@ -9516,6 +10255,7 @@
         "index": {
           "description": "Left-justify string to the given length using the specified fill character on the right Subject to fusion Performs replacement on invalid scalar values Examples justifyLeft foo fooxxxx justifyLeft foobar foobar",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "justifyLeft",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -9532,6 +10272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Right-justify a string to the given length, using the\n specified fill character on the left.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e justifyRight 7 'x' \"bar\"    == \"xxxxbar\"\n justifyRight 3 'x' \"foobar\" == \"foobar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "justifyRight",
           "package": "text",
@@ -9542,6 +10283,7 @@
         "index": {
           "description": "Right-justify string to the given length using the specified fill character on the left Performs replacement on invalid scalar values Examples justifyRight bar xxxxbar justifyRight foobar foobar",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "justifyRight",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -9558,6 +10300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the last character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must be\n non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "last",
           "package": "text",
@@ -9568,6 +10311,7 @@
         "index": {
           "description": "Returns the last character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "last",
           "normalized": "Text-\u003eChar",
@@ -9583,6 +10327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Returns the number of characters in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "length",
           "package": "text",
@@ -9593,6 +10338,7 @@
         "index": {
           "description": "Returns the number of characters in Text Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "length",
           "normalized": "Text-\u003eInt",
@@ -9608,6 +10354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Breaks a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e up into a list of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es at\n newline \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es. The resulting strings do not contain newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "lines",
           "package": "text",
@@ -9618,6 +10365,7 @@
         "index": {
           "description": "Breaks Text up into list of Text at newline Char The resulting strings do not contain newlines",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "lines",
           "normalized": "Text-\u003e[Text]",
@@ -9633,6 +10381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e obtained by applying \u003ccode\u003ef\u003c/code\u003e to\n each element of \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "map",
           "package": "text",
@@ -9643,6 +10392,7 @@
         "index": {
           "description": "map is the Text obtained by applying to each element of Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eText-\u003eText",
@@ -9658,6 +10408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efoldl'\u003c/a\u003e\u003c/code\u003e. Applies a\n function to each element of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, passing an accumulating\n parameter from left to right, and returns a final \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "mapAccumL",
           "package": "text",
@@ -9668,6 +10419,7 @@
         "index": {
           "description": "Like combination of map and foldl Applies function to each element of Text passing an accumulating parameter from left to right and returns final Text Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "mapAccumL",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eText-\u003e(a,Text)",
@@ -9684,6 +10436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumR\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and\n a strict \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, passing an accumulating parameter from right to left, and\n returning a final value of this accumulator together with the new\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "mapAccumR",
           "package": "text",
@@ -9694,6 +10447,7 @@
         "index": {
           "description": "The mapAccumR function behaves like combination of map and strict foldr it applies function to each element of Text passing an accumulating parameter from right to left and returning final value of this accumulator together with the new Text Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "mapAccumR",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eText-\u003e(a,Text)",
@@ -9710,6 +10464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e returns the maximum value from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "maximum",
           "package": "text",
@@ -9720,6 +10475,7 @@
         "index": {
           "description": "maximum returns the maximum value from Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "maximum",
           "normalized": "Text-\u003eChar",
@@ -9735,6 +10491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e returns the minimum value from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "minimum",
           "package": "text",
@@ -9745,6 +10502,7 @@
         "index": {
           "description": "minimum returns the minimum value from Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "minimum",
           "normalized": "Text-\u003eChar",
@@ -9760,6 +10518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Tests whether a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is empty or not.  Subject to\n fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "null",
           "package": "text",
@@ -9770,6 +10529,7 @@
         "index": {
           "description": "Tests whether Text is empty or not Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "null",
           "normalized": "Text-\u003eBool",
@@ -9785,6 +10545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSubject to fusion.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "pack",
           "package": "text",
@@ -9795,6 +10556,7 @@
         "index": {
           "description": "Convert String into Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "pack",
           "normalized": "String-\u003eText",
@@ -9810,6 +10572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e function takes a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n and returns the pair of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es with elements which do and do not\n satisfy the predicate, respectively; i.e.\n\u003c/p\u003e\u003cpre\u003e partition p t == (filter p t, filter (not . p) t)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "partition",
           "package": "text",
@@ -9820,6 +10583,7 @@
         "index": {
           "description": "The partition function takes predicate and Text and returns the pair of Text with elements which do and do not satisfy the predicate respectively i.e partition filter filter not",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "partition",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -9835,6 +10599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(m+n)\u003c/em\u003e Replace every occurrence of one substring with another.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "replace",
           "package": "text",
@@ -9844,6 +10609,7 @@
         "index": {
           "description": "Replace every occurrence of one substring with another In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "replace",
           "normalized": "Text-\u003eText-\u003eText-\u003eText",
@@ -9859,6 +10625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*m)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e consisting of the input\n \u003ccode\u003et\u003c/code\u003e repeated \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "replicate",
           "package": "text",
@@ -9869,6 +10636,7 @@
         "index": {
           "description": "replicate is Text consisting of the input repeated times",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "replicate",
           "normalized": "Int-\u003eText-\u003eText",
@@ -9884,6 +10652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ereverse\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the elements of \u003ccode\u003et\u003c/code\u003e in reverse order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "reverse",
           "package": "text",
@@ -9894,6 +10663,7 @@
         "index": {
           "description": "reverse returns the elements of in reverse order",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "reverse",
           "normalized": "Text-\u003eText",
@@ -9909,6 +10679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, but returns a list of\n successive reduced values from the left. Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanl f z [x1, x2, ...] == [z, z `f` x1, (z `f` x1) `f` x2, ...]\n\u003c/pre\u003e\u003cp\u003eNote that\n\u003c/p\u003e\u003cpre\u003e last (scanl f z xs) == foldl f z xs.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "scanl",
           "package": "text",
@@ -9919,6 +10690,7 @@
         "index": {
           "description": "scanl is similar to foldl but returns list of successive reduced values from the left Subject to fusion Performs replacement on invalid scalar values scanl x1 x2 x1 x1 x2 Note that last scanl xs foldl xs",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "scanl",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eText-\u003eText",
@@ -9934,6 +10706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e that has no starting\n value argument.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanl1 f [x1, x2, ...] == [x1, x1 `f` x2, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "scanl1",
           "package": "text",
@@ -9944,6 +10717,7 @@
         "index": {
           "description": "scanl1 is variant of scanl that has no starting value argument Subject to fusion Performs replacement on invalid scalar values scanl1 x1 x2 x1 x1 x2",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "scanl1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText",
@@ -9959,6 +10733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e is the right-to-left dual of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanr f v == reverse . scanl (flip f) v . reverse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "scanr",
           "package": "text",
@@ -9969,6 +10744,7 @@
         "index": {
           "description": "scanr is the right-to-left dual of scanl Performs replacement on invalid scalar values scanr reverse scanl flip reverse",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "scanr",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eText-\u003eText",
@@ -9984,6 +10760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanr1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e that has no starting\n value argument.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "scanr1",
           "package": "text",
@@ -9994,6 +10771,7 @@
         "index": {
           "description": "scanr1 is variant of scanr that has no starting value argument Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "scanr1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText",
@@ -10009,6 +10787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a character into a Text.  Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "singleton",
           "package": "text",
@@ -10019,6 +10798,7 @@
         "index": {
           "description": "Convert character into Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "singleton",
           "normalized": "Char-\u003eText",
@@ -10034,6 +10814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the end of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  This copies the\n entire array in the process, unless fused.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "snoc",
           "package": "text",
@@ -10044,6 +10825,7 @@
         "index": {
           "description": "Adds character to the end of Text This copies the entire array in the process unless fused Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "snoc",
           "normalized": "Text-\u003eChar-\u003eText",
@@ -10059,6 +10841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e, applied to a predicate \u003ccode\u003ep\u003c/code\u003e and text \u003ccode\u003et\u003c/code\u003e, returns\n a pair whose first element is the longest prefix (possibly empty)\n of \u003ccode\u003et\u003c/code\u003e of elements that satisfy \u003ccode\u003ep\u003c/code\u003e, and whose second is the\n remainder of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "span",
           "package": "text",
@@ -10069,6 +10852,7 @@
         "index": {
           "description": "span applied to predicate and text returns pair whose first element is the longest prefix possibly empty of of elements that satisfy and whose second is the remainder of the list",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -10084,6 +10868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Splits a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into components delimited by separators,\n where the predicate returns True for a separator element.  The\n resulting components do not contain the separators.  Two adjacent\n separators result in an empty component in the output.  eg.\n\u003c/p\u003e\u003cpre\u003e split (=='a') \"aabbaca\" == [\"\",\"\",\"bb\",\"c\",\"\"]\n split (=='a') []        == [\"\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "split",
           "package": "text",
@@ -10094,6 +10879,7 @@
         "index": {
           "description": "Splits Text into components delimited by separators where the predicate returns True for separator element The resulting components do not contain the separators Two adjacent separators result in an empty component in the output eg split aabbaca bb split",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "split",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e[Text]",
@@ -10109,6 +10895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en t\u003c/code\u003e returns a pair whose first element is a\n prefix of \u003ccode\u003et\u003c/code\u003e of length \u003ccode\u003en\u003c/code\u003e, and whose second is the remainder of\n the string. It is equivalent to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n t, \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n t)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "splitAt",
           "package": "text",
@@ -10119,6 +10906,7 @@
         "index": {
           "description": "splitAt returns pair whose first element is prefix of of length and whose second is the remainder of the string It is equivalent to take drop",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "splitAt",
           "normalized": "Int-\u003eText-\u003e(Text,Text)",
@@ -10135,6 +10923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(m+n)\u003c/em\u003e Break a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into pieces separated by the first\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e argument, consuming the delimiter. An empty delimiter is\n invalid, and will cause an error to be raised.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e splitOn \"\\r\\n\" \"a\\r\\nb\\r\\nd\\r\\ne\" == [\"a\",\"b\",\"d\",\"e\"]\n splitOn \"aaa\"  \"aaaXaaaXaaaXaaa\"  == [\"\",\"X\",\"X\",\"X\",\"\"]\n splitOn \"x\"    \"x\"                == [\"\",\"\"]\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e intercalate s . splitOn s         == id\n splitOn (singleton c)             == split (==c)\n\u003c/pre\u003e\u003cp\u003eThis function is strict in its first argument, and lazy in its\n second.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "splitOn",
           "package": "text",
@@ -10144,6 +10933,7 @@
         "index": {
           "description": "Break Text into pieces separated by the first Text argument consuming the delimiter An empty delimiter is invalid and will cause an error to be raised Examples splitOn nb nd ne splitOn aaa aaaXaaaXaaaXaaa splitOn and intercalate splitOn id splitOn singleton split This function is strict in its first argument and lazy in its second In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "splitOn",
           "normalized": "Text-\u003eText-\u003e[Text]",
@@ -10160,6 +10950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove leading and trailing white space from a string.\n Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropAround isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "strip",
           "package": "text",
@@ -10170,6 +10961,7 @@
         "index": {
           "description": "Remove leading and trailing white space from string Equivalent to dropAround isSpace",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "strip",
           "normalized": "Text-\u003eText",
@@ -10185,6 +10977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove trailing white space from a string.  Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropWhileEnd isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "stripEnd",
           "package": "text",
@@ -10195,6 +10988,7 @@
         "index": {
           "description": "Remove trailing white space from string Equivalent to dropWhileEnd isSpace",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "stripEnd",
           "normalized": "Text-\u003eText",
@@ -10211,6 +11005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return the suffix of the second string if its prefix\n matches the entire first string.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e stripPrefix \"foo\" \"foobar\" == Just \"bar\"\n stripPrefix \"\"    \"baz\"    == Just \"baz\"\n stripPrefix \"foo\" \"quux\"   == Nothing\n\u003c/pre\u003e\u003cp\u003eThis is particularly useful with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension to\n GHC, as follows:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE ViewPatterns #-}\n import Data.Text.Lazy as T\n\n fnordLength :: Text -\u003e Int\n fnordLength (stripPrefix \"fnord\" -\u003e Just suf) = T.length suf\n fnordLength _                                 = -1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "stripPrefix",
           "package": "text",
@@ -10221,6 +11016,7 @@
         "index": {
           "description": "Return the suffix of the second string if its prefix matches the entire first string Examples stripPrefix foo foobar Just bar stripPrefix baz Just baz stripPrefix foo quux Nothing This is particularly useful with the ViewPatterns extension to GHC as follows LANGUAGE ViewPatterns import Data.Text.Lazy as fnordLength Text Int fnordLength stripPrefix fnord Just suf T.length suf fnordLength",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "stripPrefix",
           "normalized": "Text-\u003eText-\u003eMaybe Text",
@@ -10237,6 +11033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove leading white space from a string.  Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropWhile isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "stripStart",
           "package": "text",
@@ -10247,6 +11044,7 @@
         "index": {
           "description": "Remove leading white space from string Equivalent to dropWhile isSpace",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "stripStart",
           "normalized": "Text-\u003eText",
@@ -10263,6 +11061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return the prefix of the second string if its suffix\n matches the entire first string.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e stripSuffix \"bar\" \"foobar\" == Just \"foo\"\n stripSuffix \"\"    \"baz\"    == Just \"baz\"\n stripSuffix \"foo\" \"quux\"   == Nothing\n\u003c/pre\u003e\u003cp\u003eThis is particularly useful with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension to\n GHC, as follows:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE ViewPatterns #-}\n import Data.Text.Lazy as T\n\n quuxLength :: Text -\u003e Int\n quuxLength (stripSuffix \"quux\" -\u003e Just pre) = T.length pre\n quuxLength _                                = -1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "stripSuffix",
           "package": "text",
@@ -10273,6 +11072,7 @@
         "index": {
           "description": "Return the prefix of the second string if its suffix matches the entire first string Examples stripSuffix bar foobar Just foo stripSuffix baz Just baz stripSuffix foo quux Nothing This is particularly useful with the ViewPatterns extension to GHC as follows LANGUAGE ViewPatterns import Data.Text.Lazy as quuxLength Text Int quuxLength stripSuffix quux Just pre T.length pre quuxLength",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "stripSuffix",
           "normalized": "Text-\u003eText-\u003eMaybe Text",
@@ -10289,6 +11089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all characters after the head of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "tail",
           "package": "text",
@@ -10299,6 +11100,7 @@
         "index": {
           "description": "Returns all characters after the head of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "tail",
           "normalized": "Text-\u003eText",
@@ -10314,6 +11116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return all final segments of the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, longest\n first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "tails",
           "package": "text",
@@ -10324,6 +11127,7 @@
         "index": {
           "description": "Return all final segments of the given Text longest first",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "tails",
           "normalized": "Text-\u003e[Text]",
@@ -10339,6 +11143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e, applied to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, returns the prefix of the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e of length \u003ccode\u003en\u003c/code\u003e, or the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e itself if \u003ccode\u003en\u003c/code\u003e is greater than\n the length of the Text. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "take",
           "package": "text",
@@ -10349,6 +11154,7 @@
         "index": {
           "description": "take applied to Text returns the prefix of the Text of length or the Text itself if is greater than the length of the Text Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "take",
           "normalized": "Int-\u003eText-\u003eText",
@@ -10364,6 +11170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e, applied to a predicate \u003ccode\u003ep\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n returns the longest prefix (possibly empty) of elements that\n satisfy \u003ccode\u003ep\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "takeWhile",
           "package": "text",
@@ -10374,6 +11181,7 @@
         "index": {
           "description": "takeWhile applied to predicate and Text returns the longest prefix possibly empty of elements that satisfy Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -10390,6 +11198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to folded case.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThis function is mainly useful for performing caseless (or case\n insensitive) string comparisons.\n\u003c/p\u003e\u003cp\u003eA string \u003ccode\u003ex\u003c/code\u003e is a caseless match for a string \u003ccode\u003ey\u003c/code\u003e if and only if:\n\u003c/p\u003e\u003cpre\u003etoCaseFold x == toCaseFold y\u003c/pre\u003e\u003cp\u003eThe result string may be longer than the input string, and may\n differ from applying \u003ccode\u003e\u003ca\u003etoLower\u003c/a\u003e\u003c/code\u003e to the input string.  For instance,\n the Armenian small ligature men now (U+FB13) is case folded to the\n bigram men now (U+0574 U+0576), while the micro sign (U+00B5) is\n case folded to the Greek small letter letter mu (U+03BC) instead of\n itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toCaseFold",
           "package": "text",
@@ -10400,6 +11209,7 @@
         "index": {
           "description": "Convert string to folded case Subject to fusion This function is mainly useful for performing caseless or case insensitive string comparisons string is caseless match for string if and only if toCaseFold toCaseFold The result string may be longer than the input string and may differ from applying toLower to the input string For instance the Armenian small ligature men now FB13 is case folded to the bigram men now while the micro sign B5 is case folded to the Greek small letter letter mu BC instead of itself",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toCaseFold",
           "normalized": "Text-\u003eText",
@@ -10416,6 +11226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a list of strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toChunks",
           "package": "text",
@@ -10426,6 +11237,7 @@
         "index": {
           "description": "Convert lazy Text into list of strict Text",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toChunks",
           "normalized": "Text-\u003e[Text]",
@@ -10442,6 +11254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to lower case, using simple case\n conversion.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string.  For\n instance, the Latin capital letter I with dot above (U+0130) maps\n to the sequence Latin small letter i (U+0069) followed by combining\n dot above (U+0307).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toLower",
           "package": "text",
@@ -10452,6 +11265,7 @@
         "index": {
           "description": "Convert string to lower case using simple case conversion Subject to fusion The result string may be longer than the input string For instance the Latin capital letter with dot above maps to the sequence Latin small letter followed by combining dot above",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toLower",
           "normalized": "Text-\u003eText",
@@ -10468,6 +11282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a lazy \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a strict \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toStrict",
           "package": "text",
@@ -10478,6 +11293,7 @@
         "index": {
           "description": "Convert lazy Text into strict Text",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toStrict",
           "normalized": "Text-\u003eText",
@@ -10494,6 +11310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to title case, using simple case\n conversion.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe first letter of the input is converted to title case, as is\n every subsequent letter that immediately follows a non-letter.\n Every letter that immediately follows another letter is converted\n to lower case.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string. For example,\n the Latin small ligature &#64258; (U+FB02) is converted to the\n sequence Latin capital letter F (U+0046) followed by Latin small\n letter l (U+006C).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this function does not take language or culture specific\n rules into account. For instance, in English, different style\n guides disagree on whether the book name \"The Hill of the Red\n Fox\" is correctly title cased&#8212;but this function will\n capitalize \u003cem\u003eevery\u003c/em\u003e word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toTitle",
           "package": "text",
@@ -10504,6 +11321,7 @@
         "index": {
           "description": "Convert string to title case using simple case conversion Subject to fusion The first letter of the input is converted to title case as is every subsequent letter that immediately follows non-letter Every letter that immediately follows another letter is converted to lower case The result string may be longer than the input string For example the Latin small ligature FB02 is converted to the sequence Latin capital letter followed by Latin small letter Note this function does not take language or culture specific rules into account For instance in English different style guides disagree on whether the book name The Hill of the Red Fox is correctly title cased but this function will capitalize every word",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toTitle",
           "normalized": "Text-\u003eText",
@@ -10520,6 +11338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to upper case, using simple case\n conversion.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string.  For\n instance, the German eszett (U+00DF) maps to the two-letter\n sequence SS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "toUpper",
           "package": "text",
@@ -10530,6 +11349,7 @@
         "index": {
           "description": "Convert string to upper case using simple case conversion Subject to fusion The result string may be longer than the input string For instance the German eszett DF maps to the two-letter sequence SS",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "toUpper",
           "normalized": "Text-\u003eText",
@@ -10546,6 +11366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns\n of its \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e argument.  Note that this function uses \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e, and the list version of transpose, and is thus not very\n efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "transpose",
           "package": "text",
@@ -10556,6 +11377,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its Text argument Note that this function uses pack unpack and the list version of transpose and is thus not very efficient",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "transpose",
           "normalized": "[Text]-\u003e[Text]",
@@ -10571,6 +11393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character and rest of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "uncons",
           "package": "text",
@@ -10581,6 +11404,7 @@
         "index": {
           "description": "Returns the first character and rest of Text or Nothing if empty Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "uncons",
           "normalized": "Text-\u003eMaybe(Char,Text)",
@@ -10596,6 +11420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e, where \u003ccode\u003en\u003c/code\u003e is the length of the result. The \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e\n function is analogous to the List \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e builds a\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from a seed value. The function takes the element and\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it is done producing the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, otherwise\n \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(a,b)\u003c/code\u003e.  In this case, \u003ccode\u003ea\u003c/code\u003e is the next \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e in the\n string, and \u003ccode\u003eb\u003c/code\u003e is the seed value for further production.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "unfoldr",
           "package": "text",
@@ -10606,6 +11431,7 @@
         "index": {
           "description": "where is the length of the result The unfoldr function is analogous to the List unfoldr unfoldr builds Text from seed value The function takes the element and returns Nothing if it is done producing the Text otherwise Just In this case is the next Char in the string and is the seed value for further production Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(Char,a))-\u003ea-\u003eText",
@@ -10621,6 +11447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e builds a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from a seed\n value. However, the length of the result should be limited by the\n first argument to \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e. This function is more efficient than\n \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e when the maximum length of the result is known and\n correct, otherwise its performance is similar to \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "unfoldrN",
           "package": "text",
@@ -10631,6 +11458,7 @@
         "index": {
           "description": "Like unfoldr unfoldrN builds Text from seed value However the length of the result should be limited by the first argument to unfoldrN This function is more efficient than unfoldr when the maximum length of the result is known and correct otherwise its performance is similar to unfoldr Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "unfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(Char,a))-\u003ea-\u003eText",
@@ -10646,6 +11474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Joins lines, after appending a terminating newline to\n each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "unlines",
           "package": "text",
@@ -10656,6 +11485,7 @@
         "index": {
           "description": "Joins lines after appending terminating newline to each",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "unlines",
           "normalized": "[Text]-\u003eText",
@@ -10671,6 +11501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "unpack",
           "package": "text",
@@ -10681,6 +11512,7 @@
         "index": {
           "description": "Convert Text into String Subject to fusion",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "unpack",
           "normalized": "Text-\u003eString",
@@ -10696,6 +11528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Joins words using single space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "unwords",
           "package": "text",
@@ -10706,6 +11539,7 @@
         "index": {
           "description": "Joins words using single space characters",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "unwords",
           "normalized": "[Text]-\u003eText",
@@ -10721,6 +11555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Breaks a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e up into a list of words, delimited by \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es\n representing white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "words",
           "package": "text",
@@ -10731,6 +11566,7 @@
         "index": {
           "description": "Breaks Text up into list of words delimited by Char representing white space",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "words",
           "normalized": "Text-\u003e[Text]",
@@ -10746,6 +11582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns a list of\n corresponding pairs of bytes. If one input \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is short,\n excess elements of the longer \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e are discarded. This is\n equivalent to a pair of \u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "zip",
           "package": "text",
@@ -10756,6 +11593,7 @@
         "index": {
           "description": "zip takes two Text and returns list of corresponding pairs of bytes If one input Text is short excess elements of the longer Text are discarded This is equivalent to pair of unpack operations",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "zip",
           "normalized": "Text-\u003eText-\u003e[(Char,Char)]",
@@ -10771,6 +11609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e generalises \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e by zipping with the function\n given as the first argument, instead of a tupling function.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Lazy",
           "name": "zipWith",
           "package": "text",
@@ -10781,6 +11620,7 @@
         "index": {
           "description": "zipWith generalises zip by zipping with the function given as the first argument instead of tupling function Performs replacement on invalid scalar values",
           "hierarchy": "Data Text Lazy",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Lazy",
           "name": "zipWith",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText-\u003eText",
@@ -10797,6 +11637,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions used frequently when reading textual data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "Read",
           "package": "text",
@@ -10806,6 +11647,7 @@
         "index": {
           "description": "Functions used frequently when reading textual data",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "Read",
           "package": "text",
@@ -10820,6 +11662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead some text.  If the read succeeds, return its value and the\n remaining text, otherwise an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "Reader",
           "package": "text",
@@ -10829,6 +11672,7 @@
         "index": {
           "description": "Read some text If the read succeeds return its value and the remaining text otherwise an error message",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "Reader",
           "package": "text",
@@ -10843,6 +11687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a decimal integer.  The input must begin with at least one\n decimal digit, and is consumed until a non-digit or end of string\n is reached.\n\u003c/p\u003e\u003cp\u003eThis function does not handle leading sign characters.  If you need\n to handle signed input, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003esigned\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003edecimal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: For fixed-width integer types, this function does not\n attempt to detect overflow, so a sufficiently long input may give\n incorrect results.  If you are worried about overflow, use\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e for your result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "decimal",
           "package": "text",
@@ -10853,6 +11698,7 @@
         "index": {
           "description": "Read decimal integer The input must begin with at least one decimal digit and is consumed until non-digit or end of string is reached This function does not handle leading sign characters If you need to handle signed input use signed decimal Note For fixed-width integer types this function does not attempt to detect overflow so sufficiently long input may give incorrect results If you are worried about overflow use Integer for your result type",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "decimal",
           "package": "text",
@@ -10866,6 +11712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a rational number.\n\u003c/p\u003e\u003cp\u003eThe syntax accepted by this function is the same as for \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: This function is almost ten times faster than \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e,\n but is slightly less accurate.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e type supports about 16 decimal places of accuracy.\n For 94.2% of numbers, this function and \u003ccode\u003e\u003ca\u003erational\u003c/a\u003e\u003c/code\u003e give identical\n results, but for the remaining 5.8%, this function loses precision\n around the 15th decimal place.  For 0.001% of numbers, this\n function will lose precision at the 13th or 14th decimal place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "double",
           "package": "text",
@@ -10876,6 +11723,7 @@
         "index": {
           "description": "Read rational number The syntax accepted by this function is the same as for rational Note This function is almost ten times faster than rational but is slightly less accurate The Double type supports about decimal places of accuracy For of numbers this function and rational give identical results but for the remaining this function loses precision around the th decimal place For of numbers this function will lose precision at the th or th decimal place",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "double",
           "package": "text",
@@ -10889,6 +11737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a hexadecimal integer, consisting of an optional leading\n \u003ccode\u003e\"0x\"\u003c/code\u003e followed by at least one decimal digit. Input is consumed\n until a non-hex-digit or end of string is reached.  This function\n is case insensitive.\n\u003c/p\u003e\u003cp\u003eThis function does not handle leading sign characters.  If you need\n to handle signed input, use \u003ccode\u003e\u003ccode\u003e\u003ca\u003esigned\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ehexadecimal\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: For fixed-width integer types, this function does not\n attempt to detect overflow, so a sufficiently long input may give\n incorrect results.  If you are worried about overflow, use\n \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e for your result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "hexadecimal",
           "package": "text",
@@ -10899,6 +11748,7 @@
         "index": {
           "description": "Read hexadecimal integer consisting of an optional leading followed by at least one decimal digit Input is consumed until non-hex-digit or end of string is reached This function is case insensitive This function does not handle leading sign characters If you need to handle signed input use signed hexadecimal Note For fixed-width integer types this function does not attempt to detect overflow so sufficiently long input may give incorrect results If you are worried about overflow use Integer for your result type",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "hexadecimal",
           "package": "text",
@@ -10912,6 +11762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a rational number.\n\u003c/p\u003e\u003cp\u003eThis function accepts an optional leading sign character, followed\n by at least one decimal digit.  The syntax similar to that accepted\n by the \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e function, with the exception that a trailing \u003ccode\u003e'.'\u003c/code\u003e\n or \u003ccode\u003e'e'\u003c/code\u003e \u003cem\u003enot\u003c/em\u003e followed by a number is not consumed.\n\u003c/p\u003e\u003cp\u003eExamples (with behaviour identical to \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e):\n\u003c/p\u003e\u003cpre\u003erational \"3\"     == Right (3.0, \"\")\nrational \"3.1\"   == Right (3.1, \"\")\nrational \"3e4\"   == Right (30000.0, \"\")\nrational \"3.1e4\" == Right (31000.0, \"\")\nrational \".3\"    == Left \"input does not start with a digit\"\nrational \"e3\"    == Left \"input does not start with a digit\"\n\u003c/pre\u003e\u003cp\u003eExamples of differences from \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003erational \"3.foo\" == Right (3.0, \".foo\")\nrational \"3e\"    == Right (3.0, \"e\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "rational",
           "package": "text",
@@ -10922,6 +11773,7 @@
         "index": {
           "description": "Read rational number This function accepts an optional leading sign character followed by at least one decimal digit The syntax similar to that accepted by the read function with the exception that trailing or not followed by number is not consumed Examples with behaviour identical to read rational Right rational Right rational e4 Right rational e4 Right rational Left input does not start with digit rational e3 Left input does not start with digit Examples of differences from read rational foo Right foo rational Right",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "rational",
           "package": "text",
@@ -10935,6 +11787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an optional leading sign character (\u003ccode\u003e'-'\u003c/code\u003e or \u003ccode\u003e'+'\u003c/code\u003e) and\n apply it to the result of applying the given reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Read",
           "name": "signed",
           "package": "text",
@@ -10945,6 +11798,7 @@
         "index": {
           "description": "Read an optional leading sign character or and apply it to the result of applying the given reader",
           "hierarchy": "Data Text Read",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Read",
           "name": "signed",
           "normalized": "Reader a-\u003eReader a",
@@ -10960,6 +11814,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module containing unsafe \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e operations, for very very careful\n use in heavily tested code.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "Unsafe",
           "package": "text",
@@ -10969,6 +11824,7 @@
         "index": {
           "description": "module containing unsafe Text operations for very very careful use in heavily tested code",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "Unsafe",
           "package": "text",
@@ -10982,6 +11838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "Iter",
           "package": "text",
@@ -10990,6 +11847,7 @@
         },
         "index": {
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "Iter",
           "package": "text",
@@ -11003,6 +11861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "Iter",
           "package": "text",
@@ -11012,6 +11871,7 @@
         },
         "index": {
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "Iter",
           "package": "text",
@@ -11026,6 +11886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Unchecked drop of \u003ccode\u003ek\u003c/code\u003e \u003ccode\u003eWord16\u003c/code\u003es from the front of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "dropWord16",
           "package": "text",
@@ -11036,6 +11897,7 @@
         "index": {
           "description": "Unchecked drop of Word16 from the front of Text",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "dropWord16",
           "normalized": "Int-\u003eText-\u003eText",
@@ -11052,6 +11914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Iterate (unsafely) one step forwards through a UTF-16\n array, returning the current character and the delta to add to give\n the next offset to iterate at.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "iter",
           "package": "text",
@@ -11062,6 +11925,7 @@
         "index": {
           "description": "Iterate unsafely one step forwards through UTF-16 array returning the current character and the delta to add to give the next offset to iterate at",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "iter",
           "normalized": "Text-\u003eInt-\u003eIter",
@@ -11077,6 +11941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Iterate one step through a UTF-16 array, returning the\n delta to add to give the next offset to iterate at.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "iter_",
           "package": "text",
@@ -11087,6 +11952,7 @@
         "index": {
           "description": "Iterate one step through UTF-16 array returning the delta to add to give the next offset to iterate at",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "iter_",
           "normalized": "Text-\u003eInt-\u003eInt",
@@ -11102,6 +11968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Iterate one step backwards through a UTF-16 array,\n returning the current character and the delta to add (i.e. a\n negative number) to give the next offset to iterate at.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "reverseIter",
           "package": "text",
@@ -11112,6 +11979,7 @@
         "index": {
           "description": "Iterate one step backwards through UTF-16 array returning the current character and the delta to add i.e negative number to give the next offset to iterate at",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "reverseIter",
           "normalized": "Text-\u003eInt-\u003e(Char,Int)",
@@ -11128,6 +11996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Unchecked take of \u003ccode\u003ek\u003c/code\u003e \u003ccode\u003eWord16\u003c/code\u003es from the front of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "takeWord16",
           "package": "text",
@@ -11138,6 +12007,7 @@
         "index": {
           "description": "Unchecked take of Word16 from the front of Text",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "takeWord16",
           "normalized": "Int-\u003eText-\u003eText",
@@ -11154,6 +12024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis version of \u003ccode\u003e\u003ca\u003eunsafePerformIO\u003c/a\u003e\u003c/code\u003e is more efficient\nbecause it omits the check that the IO is only being performed by a\nsingle thread.  Hence, when you use \u003ccode\u003e\u003ca\u003eunsafeDupablePerformIO\u003c/a\u003e\u003c/code\u003e,\nthere is a possibility that the IO action may be performed multiple\ntimes (on a multiprocessor), and you should therefore ensure that\nit gives the same results each time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "unsafeDupablePerformIO",
           "package": "text",
@@ -11163,6 +12034,7 @@
         "index": {
           "description": "This version of unsafePerformIO is more efficient because it omits the check that the IO is only being performed by single thread Hence when you use unsafeDupablePerformIO there is possibility that the IO action may be performed multiple times on multiprocessor and you should therefore ensure that it gives the same results each time",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "unsafeDupablePerformIO",
           "normalized": "IO a-\u003ea",
@@ -11179,6 +12051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e for non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eunsafeHead\u003c/a\u003e\u003c/code\u003e\n omits the check for the empty case, so there is an obligation on\n the programmer to provide a proof that the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "unsafeHead",
           "package": "text",
@@ -11189,6 +12062,7 @@
         "index": {
           "description": "variant of head for non-empty Text unsafeHead omits the check for the empty case so there is an obligation on the programmer to provide proof that the Text is non-empty",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "unsafeHead",
           "normalized": "Text-\u003eChar",
@@ -11205,6 +12079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e for non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eunsafeTail\u003c/a\u003e\u003c/code\u003e\n omits the check for the empty case, so there is an obligation on\n the programmer to provide a proof that the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text.Unsafe",
           "name": "unsafeTail",
           "package": "text",
@@ -11215,6 +12090,7 @@
         "index": {
           "description": "variant of tail for non-empty Text unsafeTail omits the check for the empty case so there is an obligation on the programmer to provide proof that the Text is non-empty",
           "hierarchy": "Data Text Unsafe",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text.Unsafe",
           "name": "unsafeTail",
           "normalized": "Text-\u003eText",
@@ -11231,6 +12107,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA time and space-efficient implementation of Unicode text.\n Suitable for performance critical use, both in terms of large data\n quantities and high speed.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Read below the synopsis for important notes on the use of\n this module.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import qualified Data.Text as T\n\u003c/pre\u003e\u003cp\u003eTo use an extended and very rich family of functions for working\n with Unicode text (including normalization, regular expressions,\n non-standard encodings, text breaking, and locales), see the\n \u003ccode\u003etext-icu\u003c/code\u003e package: \u003ca\u003ehttp://hackage.haskell.org/package/text-icu\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "Text",
           "package": "text",
@@ -11240,6 +12117,7 @@
         "index": {
           "description": "time and space-efficient implementation of Unicode text Suitable for performance critical use both in terms of large data quantities and high speed Note Read below the synopsis for important notes on the use of this module This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import qualified Data.Text as To use an extended and very rich family of functions for working with Unicode text including normalization regular expressions non-standard encodings text breaking and locales see the text-icu package http hackage.haskell.org package text-icu",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "Text",
           "package": "text",
@@ -11254,6 +12132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA space efficient, packed, unboxed Unicode text type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "Text",
           "package": "text",
@@ -11263,6 +12142,7 @@
         "index": {
           "description": "space efficient packed unboxed Unicode text type",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "Text",
           "package": "text",
@@ -11277,6 +12157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eall\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e determines whether all characters in the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e satisify the predicate \u003ccode\u003ep\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "all",
           "package": "text",
@@ -11287,6 +12168,7 @@
         "index": {
           "description": "all determines whether all characters in the Text satisify the predicate Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "all",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -11302,6 +12184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eany\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e determines whether any character in the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e satisifes the predicate \u003ccode\u003ep\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "any",
           "package": "text",
@@ -11312,6 +12195,7 @@
         "index": {
           "description": "any determines whether any character in the Text satisifes the predicate Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "any",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eBool",
@@ -11327,6 +12211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Appends one \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to the other by copying both of them\n into a new \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "append",
           "package": "text",
@@ -11337,6 +12222,7 @@
         "index": {
           "description": "Appends one Text to the other by copying both of them into new Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "append",
           "normalized": "Text-\u003eText-\u003eText",
@@ -11352,6 +12238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ebreak\u003c/a\u003e\u003c/code\u003e is like \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e, but the prefix returned is\n over elements that fail the predicate \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "break",
           "package": "text",
@@ -11362,6 +12249,7 @@
         "index": {
           "description": "break is like span but the prefix returned is over elements that fail the predicate",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "break",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -11377,6 +12265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find the first instance of \u003ccode\u003eneedle\u003c/code\u003e (which must be\n non-\u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e) in \u003ccode\u003ehaystack\u003c/code\u003e.  The first element of the returned tuple\n is the prefix of \u003ccode\u003ehaystack\u003c/code\u003e before \u003ccode\u003eneedle\u003c/code\u003e is matched.  The second\n is the remainder of \u003ccode\u003ehaystack\u003c/code\u003e, starting with the match.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e breakOn \"::\" \"a::b::c\" ==\u003e (\"a\", \"::b::c\")\n breakOn \"/\" \"foobar\"   ==\u003e (\"foobar\", \"\")\n\u003c/pre\u003e\u003cp\u003eLaws:\n\u003c/p\u003e\u003cpre\u003e append prefix match == haystack\n   where (prefix, match) = breakOn needle haystack\n\u003c/pre\u003e\u003cp\u003eIf you need to break a string by a substring repeatedly (e.g. you\n want to break on every instance of a substring), use \u003ccode\u003e\u003ca\u003ebreakOnAll\u003c/a\u003e\u003c/code\u003e\n instead, as it has lower startup overhead.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "breakOn",
           "package": "text",
@@ -11387,6 +12276,7 @@
         "index": {
           "description": "Find the first instance of needle which must be non null in haystack The first element of the returned tuple is the prefix of haystack before needle is matched The second is the remainder of haystack starting with the match Examples breakOn breakOn foobar foobar Laws append prefix match haystack where prefix match breakOn needle haystack If you need to break string by substring repeatedly e.g you want to break on every instance of substring use breakOnAll instead as it has lower startup overhead In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "breakOn",
           "normalized": "Text-\u003eText-\u003e(Text,Text)",
@@ -11403,6 +12293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Find all non-overlapping instances of \u003ccode\u003eneedle\u003c/code\u003e in\n \u003ccode\u003ehaystack\u003c/code\u003e.  Each element of the returned list consists of a pair:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The entire string prior to the \u003cem\u003ek\u003c/em\u003eth match (i.e. the prefix)\n\u003c/li\u003e\u003cli\u003e The \u003cem\u003ek\u003c/em\u003eth match, followed by the remainder of the string\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e breakOnAll \"::\" \"\"\n ==\u003e []\n breakOnAll \"/\" \"a/b/c/\"\n ==\u003e [(\"a\", \"/b/c/\"), (\"a/b\", \"/c/\"), (\"a/b/c\", \"/\")]\n\u003c/pre\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003eneedle\u003c/code\u003e parameter may not be empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "breakOnAll",
           "package": "text",
@@ -11412,6 +12303,7 @@
         "index": {
           "description": "Find all non-overlapping instances of needle in haystack Each element of the returned list consists of pair The entire string prior to the th match i.e the prefix The th match followed by the remainder of the string Examples breakOnAll breakOnAll In unlikely bad cases this function time complexity degrades towards The needle parameter may not be empty",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "breakOnAll",
           "normalized": "Text-\u003eText-\u003e[(Text,Text)]",
@@ -11428,6 +12320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e Similar to \u003ccode\u003e\u003ca\u003ebreakOn\u003c/a\u003e\u003c/code\u003e, but searches from the end of the\n string.\n\u003c/p\u003e\u003cp\u003eThe first element of the returned tuple is the prefix of \u003ccode\u003ehaystack\u003c/code\u003e\n up to and including the last match of \u003ccode\u003eneedle\u003c/code\u003e.  The second is the\n remainder of \u003ccode\u003ehaystack\u003c/code\u003e, following the match.\n\u003c/p\u003e\u003cpre\u003e breakOnEnd \"::\" \"a::b::c\" ==\u003e (\"a::b::\", \"c\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "breakOnEnd",
           "package": "text",
@@ -11438,6 +12331,7 @@
         "index": {
           "description": "Similar to breakOn but searches from the end of the string The first element of the returned tuple is the prefix of haystack up to and including the last match of needle The second is the remainder of haystack following the match breakOnEnd",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "breakOnEnd",
           "normalized": "Text-\u003eText-\u003e(Text,Text)",
@@ -11454,6 +12348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Center a string to the given length, using the specified\n fill character on either side.  Performs replacement on invalid\n scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e center 8 'x' \"HS\" = \"xxxHSxxx\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "center",
           "package": "text",
@@ -11464,6 +12359,7 @@
         "index": {
           "description": "Center string to the given length using the specified fill character on either side Performs replacement on invalid scalar values Examples center HS xxxHSxxx",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "center",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -11479,6 +12375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Splits a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into components of length \u003ccode\u003ek\u003c/code\u003e.  The last\n element may be shorter than the other chunks, depending on the\n length of the input. Examples:\n\u003c/p\u003e\u003cpre\u003e chunksOf 3 \"foobarbaz\"   == [\"foo\",\"bar\",\"baz\"]\n chunksOf 4 \"haskell.org\" == [\"hask\",\"ell.\",\"org\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "chunksOf",
           "package": "text",
@@ -11489,6 +12386,7 @@
         "index": {
           "description": "Splits Text into components of length The last element may be shorter than the other chunks depending on the length of the input Examples chunksOf foobarbaz foo bar baz chunksOf haskell.org hask ell org",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "chunksOf",
           "normalized": "Int-\u003eText-\u003e[Text]",
@@ -11505,6 +12403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Find the longest non-empty common prefix of two strings\n and return it, along with the suffixes of each string at which they\n no longer match.\n\u003c/p\u003e\u003cp\u003eIf the strings do not have a common prefix or either one is empty,\n this function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e commonPrefixes \"foobar\" \"fooquux\" == Just (\"foo\",\"bar\",\"quux\")\n commonPrefixes \"veeble\" \"fetzer\"  == Nothing\n commonPrefixes \"\" \"baz\"           == Nothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "commonPrefixes",
           "package": "text",
@@ -11515,6 +12414,7 @@
         "index": {
           "description": "Find the longest non-empty common prefix of two strings and return it along with the suffixes of each string at which they no longer match If the strings do not have common prefix or either one is empty this function returns Nothing Examples commonPrefixes foobar fooquux Just foo bar quux commonPrefixes veeble fetzer Nothing commonPrefixes baz Nothing",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "commonPrefixes",
           "normalized": "Text-\u003eText-\u003eMaybe(Text,Text,Text)",
@@ -11531,6 +12431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compare the count of characters in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e to a number.\n Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThis function gives the same answer as comparing against the result\n of \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, but can short circuit if the count of characters is\n greater than the number, and hence be more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "compareLength",
           "package": "text",
@@ -11541,6 +12442,7 @@
         "index": {
           "description": "Compare the count of characters in Text to number Subject to fusion This function gives the same answer as comparing against the result of length but can short circuit if the count of characters is greater than the number and hence be more efficient",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "compareLength",
           "normalized": "Text-\u003eInt-\u003eOrdering",
@@ -11557,6 +12459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Concatenate a list of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "concat",
           "package": "text",
@@ -11567,6 +12470,7 @@
         "index": {
           "description": "Concatenate list of Text",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "concat",
           "normalized": "[Text]-\u003eText",
@@ -11582,6 +12486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Map a function over a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e that results in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, and\n concatenate the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "concatMap",
           "package": "text",
@@ -11592,6 +12497,7 @@
         "index": {
           "description": "Map function over Text that results in Text and concatenate the results",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "concatMap",
           "normalized": "(Char-\u003eText)-\u003eText-\u003eText",
@@ -11608,6 +12514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the front of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  This function\n is more costly than its \u003ccode\u003eList\u003c/code\u003e counterpart because it requires\n copying a new array.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "cons",
           "package": "text",
@@ -11618,6 +12525,7 @@
         "index": {
           "description": "Adds character to the front of Text This function is more costly than its List counterpart because it requires copying new array Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "cons",
           "normalized": "Char-\u003eText-\u003eText",
@@ -11633,6 +12541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Make a distinct copy of the given string, sharing no\n storage with the original string.\n\u003c/p\u003e\u003cp\u003eAs an example, suppose you read a large string, of which you need\n only a small portion.  If you do not use \u003ccode\u003e\u003ca\u003ecopy\u003c/a\u003e\u003c/code\u003e, the entire original\n array will be kept alive in memory by the smaller string. Making a\n copy \"breaks the link\" to the original array, allowing it to be\n garbage collected if there are no other live references to it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "copy",
           "package": "text",
@@ -11643,6 +12552,7 @@
         "index": {
           "description": "Make distinct copy of the given string sharing no storage with the original string As an example suppose you read large string of which you need only small portion If you do not use copy the entire original array will be kept alive in memory by the smaller string Making copy breaks the link to the original array allowing it to be garbage collected if there are no other live references to it",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "copy",
           "normalized": "Text-\u003eText",
@@ -11658,6 +12568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003ecount\u003c/a\u003e\u003c/code\u003e function returns the number of times the\n query string appears in the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. An empty query string is\n invalid, and will cause an error to be raised.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "count",
           "package": "text",
@@ -11668,6 +12579,7 @@
         "index": {
           "description": "The count function returns the number of times the query string appears in the given Text An empty query string is invalid and will cause an error to be raised In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "count",
           "normalized": "Text-\u003eText-\u003eInt",
@@ -11683,6 +12595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e, applied to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, returns the suffix of the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e after the first \u003ccode\u003en\u003c/code\u003e characters, or the empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003en\u003c/code\u003e\n is greater than the length of the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "drop",
           "package": "text",
@@ -11693,6 +12606,7 @@
         "index": {
           "description": "drop applied to Text returns the suffix of the Text after the first characters or the empty Text if is greater than the length of the Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "drop",
           "normalized": "Int-\u003eText-\u003eText",
@@ -11708,6 +12622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropAround\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the substring remaining after\n dropping characters that fail the predicate \u003ccode\u003ep\u003c/code\u003e from both the\n beginning and end of \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "dropAround",
           "package": "text",
@@ -11718,6 +12633,7 @@
         "index": {
           "description": "dropAround returns the substring remaining after dropping characters that fail the predicate from both the beginning and end of Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "dropAround",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -11734,6 +12650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the suffix remaining after\n \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "dropWhile",
           "package": "text",
@@ -11744,6 +12661,7 @@
         "index": {
           "description": "dropWhile returns the suffix remaining after takeWhile Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "dropWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -11760,6 +12678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003edropWhileEnd\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e returns the prefix remaining after\n dropping characters that fail the predicate \u003ccode\u003ep\u003c/code\u003e from the end of\n \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.\n Examples:\n\u003c/p\u003e\u003cpre\u003e dropWhileEnd (=='.') \"foo...\" == \"foo\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "dropWhileEnd",
           "package": "text",
@@ -11770,6 +12689,7 @@
         "index": {
           "description": "dropWhileEnd returns the prefix remaining after dropping characters that fail the predicate from the end of Subject to fusion Examples dropWhileEnd foo foo",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "dropWhileEnd",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -11786,6 +12706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e, applied to a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n returns a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e containing those characters that satisfy the\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "filter",
           "package": "text",
@@ -11796,6 +12717,7 @@
         "index": {
           "description": "filter applied to predicate and Text returns Text containing those characters that satisfy the predicate",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "filter",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -11811,6 +12733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003efind\u003c/a\u003e\u003c/code\u003e function takes a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, and\n returns the first element matching the predicate, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n there is no such element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "find",
           "package": "text",
@@ -11821,6 +12744,7 @@
         "index": {
           "description": "The find function takes predicate and Text and returns the first element matching the predicate or Nothing if there is no such element",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "find",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eMaybe Char",
@@ -11836,6 +12760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003efindIndex\u003c/a\u003e\u003c/code\u003e function takes a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e\n and returns the index of the first element in the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e satisfying\n the predicate. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "findIndex",
           "package": "text",
@@ -11846,6 +12771,7 @@
         "index": {
           "description": "The findIndex function takes predicate and Text and returns the index of the first element in the Text satisfying the predicate Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "findIndex",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eMaybe Int",
@@ -11862,6 +12788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, applied to a binary operator, a starting value\n (typically the left-identity of the operator), and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n reduces the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using the binary operator, from left to right.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldl",
           "package": "text",
@@ -11872,6 +12799,7 @@
         "index": {
           "description": "foldl applied to binary operator starting value typically the left-identity of the operator and Text reduces the Text using the binary operator from left to right Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldl",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -11887,6 +12815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A strict version of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldl'",
           "package": "text",
@@ -11897,6 +12826,7 @@
         "index": {
           "description": "strict version of foldl Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldl'",
           "normalized": "(a-\u003eChar-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -11912,6 +12842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e that has no starting value argument,\n and thus must be applied to a non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldl1",
           "package": "text",
@@ -11922,6 +12853,7 @@
         "index": {
           "description": "variant of foldl that has no starting value argument and thus must be applied to non-empty Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldl1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -11937,6 +12869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A strict version of \u003ccode\u003e\u003ca\u003efoldl1\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldl1'",
           "package": "text",
@@ -11947,6 +12880,7 @@
         "index": {
           "description": "strict version of foldl1 Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldl1'",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -11962,6 +12896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e, applied to a binary operator, a starting value\n (typically the right-identity of the operator), and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n reduces the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e using the binary operator, from right to left.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldr",
           "package": "text",
@@ -11972,6 +12907,7 @@
         "index": {
           "description": "foldr applied to binary operator starting value typically the right-identity of the operator and Text reduces the Text using the binary operator from right to left Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldr",
           "normalized": "(Char-\u003ea-\u003ea)-\u003ea-\u003eText-\u003ea",
@@ -11987,6 +12923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e A variant of \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e that has no starting value argument,\n and thus must be applied to a non-empty \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to\n fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "foldr1",
           "package": "text",
@@ -11997,6 +12934,7 @@
         "index": {
           "description": "variant of foldr that has no starting value argument and thus must be applied to non-empty Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "foldr1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eChar",
@@ -12012,6 +12950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Group characters in a string by equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "group",
           "package": "text",
@@ -12022,6 +12961,7 @@
         "index": {
           "description": "Group characters in string by equality",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "group",
           "normalized": "Text-\u003e[Text]",
@@ -12037,6 +12977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Group characters in a string according to a predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "groupBy",
           "package": "text",
@@ -12047,6 +12988,7 @@
         "index": {
           "description": "Group characters in string according to predicate",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "groupBy",
           "normalized": "(Char-\u003eChar-\u003eBool)-\u003eText-\u003e[Text]",
@@ -12063,6 +13005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must be\n non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "head",
           "package": "text",
@@ -12073,6 +13016,7 @@
         "index": {
           "description": "Returns the first character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "head",
           "normalized": "Text-\u003eChar",
@@ -12088,6 +13032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e index (subscript) operator, starting from 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "index",
           "package": "text",
@@ -12098,6 +13043,7 @@
         "index": {
           "description": "Text index subscript operator starting from",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "index",
           "normalized": "Text-\u003eInt-\u003eChar",
@@ -12113,6 +13059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all but the last character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must\n be non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "init",
           "package": "text",
@@ -12123,6 +13070,7 @@
         "index": {
           "description": "Returns all but the last character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "init",
           "normalized": "Text-\u003eText",
@@ -12138,6 +13086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return all initial segments of the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, shortest\n first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "inits",
           "package": "text",
@@ -12148,6 +13097,7 @@
         "index": {
           "description": "Return all initial segments of the given Text shortest first",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "inits",
           "normalized": "Text-\u003e[Text]",
@@ -12163,6 +13113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eintercalate\u003c/a\u003e\u003c/code\u003e function takes a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e and a list of\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and concatenates the list after interspersing the first\n argument between each element of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "intercalate",
           "package": "text",
@@ -12173,6 +13124,7 @@
         "index": {
           "description": "The intercalate function takes Text and list of Text and concatenates the list after interspersing the first argument between each element of the list",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "intercalate",
           "normalized": "Text-\u003e[Text]-\u003eText",
@@ -12188,6 +13140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eintersperse\u003c/a\u003e\u003c/code\u003e function takes a character and places it\n between the characters of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "intersperse",
           "package": "text",
@@ -12198,6 +13151,7 @@
         "index": {
           "description": "The intersperse function takes character and places it between the characters of Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "intersperse",
           "normalized": "Char-\u003eText-\u003eText",
@@ -12213,6 +13167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n+m)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisInfixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is contained, wholly and intact, anywhere\n within the second.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "isInfixOf",
           "package": "text",
@@ -12223,6 +13178,7 @@
         "index": {
           "description": "The isInfixOf function takes two Text and returns True iff the first is contained wholly and intact anywhere within the second In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "isInfixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -12239,6 +13195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisPrefixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is a prefix of the second.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "isPrefixOf",
           "package": "text",
@@ -12249,6 +13206,7 @@
         "index": {
           "description": "The isPrefixOf function takes two Text and returns True iff the first is prefix of the second Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "isPrefixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -12265,6 +13223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003eisSuffixOf\u003c/a\u003e\u003c/code\u003e function takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff the first is a suffix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "isSuffixOf",
           "package": "text",
@@ -12275,6 +13234,7 @@
         "index": {
           "description": "The isSuffixOf function takes two Text and returns True iff the first is suffix of the second",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "isSuffixOf",
           "normalized": "Text-\u003eText-\u003eBool",
@@ -12291,6 +13251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Left-justify a string to the given length, using the\n specified fill character on the right. Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e justifyLeft 7 'x' \"foo\"    == \"fooxxxx\"\n justifyLeft 3 'x' \"foobar\" == \"foobar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "justifyLeft",
           "package": "text",
@@ -12301,6 +13262,7 @@
         "index": {
           "description": "Left-justify string to the given length using the specified fill character on the right Subject to fusion Performs replacement on invalid scalar values Examples justifyLeft foo fooxxxx justifyLeft foobar foobar",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "justifyLeft",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -12317,6 +13279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Right-justify a string to the given length, using the\n specified fill character on the left.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e justifyRight 7 'x' \"bar\"    == \"xxxxbar\"\n justifyRight 3 'x' \"foobar\" == \"foobar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "justifyRight",
           "package": "text",
@@ -12327,6 +13290,7 @@
         "index": {
           "description": "Right-justify string to the given length using the specified fill character on the left Performs replacement on invalid scalar values Examples justifyRight bar xxxxbar justifyRight foobar foobar",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "justifyRight",
           "normalized": "Int-\u003eChar-\u003eText-\u003eText",
@@ -12343,6 +13307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the last character of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which must be\n non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "last",
           "package": "text",
@@ -12353,6 +13318,7 @@
         "index": {
           "description": "Returns the last character of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "last",
           "normalized": "Text-\u003eChar",
@@ -12368,6 +13334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Returns the number of characters in a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "length",
           "package": "text",
@@ -12378,6 +13345,7 @@
         "index": {
           "description": "Returns the number of characters in Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "length",
           "normalized": "Text-\u003eInt",
@@ -12393,6 +13361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Breaks a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e up into a list of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es at\n newline \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es. The resulting strings do not contain newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "lines",
           "package": "text",
@@ -12403,6 +13372,7 @@
         "index": {
           "description": "Breaks Text up into list of Text at newline Char The resulting strings do not contain newlines",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "lines",
           "normalized": "Text-\u003e[Text]",
@@ -12418,6 +13388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ef\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e is the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e obtained by applying \u003ccode\u003ef\u003c/code\u003e to\n each element of \u003ccode\u003et\u003c/code\u003e.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "map",
           "package": "text",
@@ -12428,6 +13399,7 @@
         "index": {
           "description": "map is the Text obtained by applying to each element of Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "map",
           "normalized": "(Char-\u003eChar)-\u003eText-\u003eText",
@@ -12443,6 +13415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003efoldl'\u003c/a\u003e\u003c/code\u003e. Applies a\n function to each element of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, passing an accumulating\n parameter from left to right, and returns a final \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "mapAccumL",
           "package": "text",
@@ -12453,6 +13426,7 @@
         "index": {
           "description": "Like combination of map and foldl Applies function to each element of Text passing an accumulating parameter from left to right and returns final Text Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "mapAccumL",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eText-\u003e(a,Text)",
@@ -12469,6 +13443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emapAccumR\u003c/a\u003e\u003c/code\u003e function behaves like a combination of \u003ccode\u003e\u003ca\u003emap\u003c/a\u003e\u003c/code\u003e and\n a strict \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e; it applies a function to each element of a\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, passing an accumulating parameter from right to left, and\n returning a final value of this accumulator together with the new\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "mapAccumR",
           "package": "text",
@@ -12479,6 +13454,7 @@
         "index": {
           "description": "The mapAccumR function behaves like combination of map and strict foldr it applies function to each element of Text passing an accumulating parameter from right to left and returning final value of this accumulator together with the new Text Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "mapAccumR",
           "normalized": "(a-\u003eChar-\u003e(a,Char))-\u003ea-\u003eText-\u003e(a,Text)",
@@ -12495,6 +13471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003emaximum\u003c/a\u003e\u003c/code\u003e returns the maximum value from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "maximum",
           "package": "text",
@@ -12505,6 +13482,7 @@
         "index": {
           "description": "maximum returns the maximum value from Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "maximum",
           "normalized": "Text-\u003eChar",
@@ -12520,6 +13498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003eminimum\u003c/a\u003e\u003c/code\u003e returns the minimum value from a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "minimum",
           "package": "text",
@@ -12530,6 +13509,7 @@
         "index": {
           "description": "minimum returns the minimum value from Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "minimum",
           "normalized": "Text-\u003eChar",
@@ -12545,6 +13525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Tests whether a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is empty or not.  Subject to\n fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "null",
           "package": "text",
@@ -12555,6 +13536,7 @@
         "index": {
           "description": "Tests whether Text is empty or not Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "null",
           "normalized": "Text-\u003eBool",
@@ -12570,6 +13552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  Subject to\n fusion.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "pack",
           "package": "text",
@@ -12580,6 +13563,7 @@
         "index": {
           "description": "Convert String into Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "pack",
           "normalized": "String-\u003eText",
@@ -12595,6 +13579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e function takes a predicate and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n and returns the pair of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es with elements which do and do not\n satisfy the predicate, respectively; i.e.\n\u003c/p\u003e\u003cpre\u003e partition p t == (filter p t, filter (not . p) t)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "partition",
           "package": "text",
@@ -12605,6 +13590,7 @@
         "index": {
           "description": "The partition function takes predicate and Text and returns the pair of Text with elements which do and do not satisfy the predicate respectively i.e partition filter filter not",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "partition",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -12620,6 +13606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(m+n)\u003c/em\u003e Replace every occurrence of one substring with another.\n\u003c/p\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "replace",
           "package": "text",
@@ -12630,6 +13617,7 @@
         "index": {
           "description": "Replace every occurrence of one substring with another In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "replace",
           "normalized": "Text-\u003eText-\u003eText-\u003eText",
@@ -12645,6 +13633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n*m)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e \u003ccode\u003et\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e consisting of the input\n \u003ccode\u003et\u003c/code\u003e repeated \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "replicate",
           "package": "text",
@@ -12655,6 +13644,7 @@
         "index": {
           "description": "replicate is Text consisting of the input repeated times",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "replicate",
           "normalized": "Int-\u003eText-\u003eText",
@@ -12670,6 +13660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reverse the characters of a string. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "reverse",
           "package": "text",
@@ -12680,6 +13671,7 @@
         "index": {
           "description": "Reverse the characters of string Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "reverse",
           "normalized": "Text-\u003eText",
@@ -12695,6 +13687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, but returns a list of\n successive reduced values from the left. Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanl f z [x1, x2, ...] == [z, z `f` x1, (z `f` x1) `f` x2, ...]\n\u003c/pre\u003e\u003cp\u003eNote that\n\u003c/p\u003e\u003cpre\u003e last (scanl f z xs) == foldl f z xs.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "scanl",
           "package": "text",
@@ -12705,6 +13698,7 @@
         "index": {
           "description": "scanl is similar to foldl but returns list of successive reduced values from the left Subject to fusion Performs replacement on invalid scalar values scanl x1 x2 x1 x1 x2 Note that last scanl xs foldl xs",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "scanl",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eText-\u003eText",
@@ -12720,6 +13714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e that has no starting\n value argument.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanl1 f [x1, x2, ...] == [x1, x1 `f` x2, ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "scanl1",
           "package": "text",
@@ -12730,6 +13725,7 @@
         "index": {
           "description": "scanl1 is variant of scanl that has no starting value argument Subject to fusion Performs replacement on invalid scalar values scanl1 x1 x2 x1 x1 x2",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "scanl1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText",
@@ -12745,6 +13741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e is the right-to-left dual of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e.  Performs\n replacement on invalid scalar values.\n\u003c/p\u003e\u003cpre\u003e scanr f v == reverse . scanl (flip f) v . reverse\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "scanr",
           "package": "text",
@@ -12755,6 +13752,7 @@
         "index": {
           "description": "scanr is the right-to-left dual of scanl Performs replacement on invalid scalar values scanr reverse scanl flip reverse",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "scanr",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eChar-\u003eText-\u003eText",
@@ -12770,6 +13768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003escanr1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e that has no starting\n value argument.  Subject to fusion.  Performs replacement on\n invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "scanr1",
           "package": "text",
@@ -12780,6 +13779,7 @@
         "index": {
           "description": "scanr1 is variant of scanr that has no starting value argument Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "scanr1",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText",
@@ -12795,6 +13795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Convert a character into a Text.  Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "singleton",
           "package": "text",
@@ -12805,6 +13806,7 @@
         "index": {
           "description": "Convert character into Text Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "singleton",
           "normalized": "Char-\u003eText",
@@ -12820,6 +13822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Adds a character to the end of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e.  This copies the\n entire array in the process, unless fused.  Subject to fusion.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "snoc",
           "package": "text",
@@ -12830,6 +13833,7 @@
         "index": {
           "description": "Adds character to the end of Text This copies the entire array in the process unless fused Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "snoc",
           "normalized": "Text-\u003eChar-\u003eText",
@@ -12845,6 +13849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e, applied to a predicate \u003ccode\u003ep\u003c/code\u003e and text \u003ccode\u003et\u003c/code\u003e, returns\n a pair whose first element is the longest prefix (possibly empty)\n of \u003ccode\u003et\u003c/code\u003e of elements that satisfy \u003ccode\u003ep\u003c/code\u003e, and whose second is the\n remainder of the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "span",
           "package": "text",
@@ -12855,6 +13860,7 @@
         "index": {
           "description": "span applied to predicate and text returns pair whose first element is the longest prefix possibly empty of of elements that satisfy and whose second is the remainder of the list",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "span",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e(Text,Text)",
@@ -12870,6 +13876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Splits a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into components delimited by separators,\n where the predicate returns True for a separator element.  The\n resulting components do not contain the separators.  Two adjacent\n separators result in an empty component in the output.  eg.\n\u003c/p\u003e\u003cpre\u003e split (=='a') \"aabbaca\" == [\"\",\"\",\"bb\",\"c\",\"\"]\n split (=='a') \"\"        == [\"\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "split",
           "package": "text",
@@ -12880,6 +13887,7 @@
         "index": {
           "description": "Splits Text into components delimited by separators where the predicate returns True for separator element The resulting components do not contain the separators Two adjacent separators result in an empty component in the output eg split aabbaca bb split",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "split",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003e[Text]",
@@ -12895,6 +13903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en t\u003c/code\u003e returns a pair whose first element is a\n prefix of \u003ccode\u003et\u003c/code\u003e of length \u003ccode\u003en\u003c/code\u003e, and whose second is the remainder of\n the string. It is equivalent to \u003ccode\u003e(\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n t, \u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n t)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "splitAt",
           "package": "text",
@@ -12905,6 +13914,7 @@
         "index": {
           "description": "splitAt returns pair whose first element is prefix of of length and whose second is the remainder of the string It is equivalent to take drop",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "splitAt",
           "normalized": "Int-\u003eText-\u003e(Text,Text)",
@@ -12921,6 +13931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(m+n)\u003c/em\u003e Break a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into pieces separated by the first\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e argument, consuming the delimiter. An empty delimiter is\n invalid, and will cause an error to be raised.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e splitOn \"\\r\\n\" \"a\\r\\nb\\r\\nd\\r\\ne\" == [\"a\",\"b\",\"d\",\"e\"]\n splitOn \"aaa\"  \"aaaXaaaXaaaXaaa\"  == [\"\",\"X\",\"X\",\"X\",\"\"]\n splitOn \"x\"    \"x\"                == [\"\",\"\"]\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e intercalate s . splitOn s         == id\n splitOn (singleton c)             == split (==c)\n\u003c/pre\u003e\u003cp\u003eIn (unlikely) bad cases, this function's time complexity degrades\n towards \u003cem\u003eO(n*m)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "splitOn",
           "package": "text",
@@ -12931,6 +13942,7 @@
         "index": {
           "description": "Break Text into pieces separated by the first Text argument consuming the delimiter An empty delimiter is invalid and will cause an error to be raised Examples splitOn nb nd ne splitOn aaa aaaXaaaXaaaXaaa splitOn and intercalate splitOn id splitOn singleton split In unlikely bad cases this function time complexity degrades towards",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "splitOn",
           "normalized": "Text-\u003eText-\u003e[Text]",
@@ -12947,6 +13959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove leading and trailing white space from a string.\n Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropAround isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "strip",
           "package": "text",
@@ -12957,6 +13970,7 @@
         "index": {
           "description": "Remove leading and trailing white space from string Equivalent to dropAround isSpace",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "strip",
           "normalized": "Text-\u003eText",
@@ -12972,6 +13986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove trailing white space from a string.  Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropWhileEnd isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "stripEnd",
           "package": "text",
@@ -12982,6 +13997,7 @@
         "index": {
           "description": "Remove trailing white space from string Equivalent to dropWhileEnd isSpace",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "stripEnd",
           "normalized": "Text-\u003eText",
@@ -12998,6 +14014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return the suffix of the second string if its prefix\n matches the entire first string.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e stripPrefix \"foo\" \"foobar\" == Just \"bar\"\n stripPrefix \"\"    \"baz\"    == Just \"baz\"\n stripPrefix \"foo\" \"quux\"   == Nothing\n\u003c/pre\u003e\u003cp\u003eThis is particularly useful with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension to\n GHC, as follows:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE ViewPatterns #-}\n import Data.Text as T\n\n fnordLength :: Text -\u003e Int\n fnordLength (stripPrefix \"fnord\" -\u003e Just suf) = T.length suf\n fnordLength _                                 = -1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "stripPrefix",
           "package": "text",
@@ -13008,6 +14025,7 @@
         "index": {
           "description": "Return the suffix of the second string if its prefix matches the entire first string Examples stripPrefix foo foobar Just bar stripPrefix baz Just baz stripPrefix foo quux Nothing This is particularly useful with the ViewPatterns extension to GHC as follows LANGUAGE ViewPatterns import Data.Text as fnordLength Text Int fnordLength stripPrefix fnord Just suf T.length suf fnordLength",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "stripPrefix",
           "normalized": "Text-\u003eText-\u003eMaybe Text",
@@ -13024,6 +14042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Remove leading white space from a string.  Equivalent to:\n\u003c/p\u003e\u003cpre\u003e dropWhile isSpace\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "stripStart",
           "package": "text",
@@ -13034,6 +14053,7 @@
         "index": {
           "description": "Remove leading white space from string Equivalent to dropWhile isSpace",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "stripStart",
           "normalized": "Text-\u003eText",
@@ -13050,6 +14070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return the prefix of the second string if its suffix\n matches the entire first string.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e stripSuffix \"bar\" \"foobar\" == Just \"foo\"\n stripSuffix \"\"    \"baz\"    == Just \"baz\"\n stripSuffix \"foo\" \"quux\"   == Nothing\n\u003c/pre\u003e\u003cp\u003eThis is particularly useful with the \u003ccode\u003eViewPatterns\u003c/code\u003e extension to\n GHC, as follows:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE ViewPatterns #-}\n import Data.Text as T\n\n quuxLength :: Text -\u003e Int\n quuxLength (stripSuffix \"quux\" -\u003e Just pre) = T.length pre\n quuxLength _                                = -1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "stripSuffix",
           "package": "text",
@@ -13060,6 +14081,7 @@
         "index": {
           "description": "Return the prefix of the second string if its suffix matches the entire first string Examples stripSuffix bar foobar Just foo stripSuffix baz Just baz stripSuffix foo quux Nothing This is particularly useful with the ViewPatterns extension to GHC as follows LANGUAGE ViewPatterns import Data.Text as quuxLength Text Int quuxLength stripSuffix quux Just pre T.length pre quuxLength",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "stripSuffix",
           "normalized": "Text-\u003eText-\u003eMaybe Text",
@@ -13076,6 +14098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns all characters after the head of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, which\n must be non-empty.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "tail",
           "package": "text",
@@ -13086,6 +14109,7 @@
         "index": {
           "description": "Returns all characters after the head of Text which must be non-empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "tail",
           "normalized": "Text-\u003eText",
@@ -13101,6 +14125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Return all final segments of the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, longest\n first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "tails",
           "package": "text",
@@ -13111,6 +14136,7 @@
         "index": {
           "description": "Return all final segments of the given Text longest first",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "tails",
           "normalized": "Text-\u003e[Text]",
@@ -13126,6 +14152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e \u003ccode\u003en\u003c/code\u003e, applied to a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, returns the prefix of the\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e of length \u003ccode\u003en\u003c/code\u003e, or the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e itself if \u003ccode\u003en\u003c/code\u003e is greater than\n the length of the Text. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "take",
           "package": "text",
@@ -13136,6 +14163,7 @@
         "index": {
           "description": "take applied to Text returns the prefix of the Text of length or the Text itself if is greater than the length of the Text Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "take",
           "normalized": "Int-\u003eText-\u003eText",
@@ -13151,6 +14179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e, applied to a predicate \u003ccode\u003ep\u003c/code\u003e and a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e,\n returns the longest prefix (possibly empty) of elements that\n satisfy \u003ccode\u003ep\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "takeWhile",
           "package": "text",
@@ -13161,6 +14190,7 @@
         "index": {
           "description": "takeWhile applied to predicate and Text returns the longest prefix possibly empty of elements that satisfy Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "takeWhile",
           "normalized": "(Char-\u003eBool)-\u003eText-\u003eText",
@@ -13177,6 +14207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to folded case.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThis function is mainly useful for performing caseless (also known\n as case insensitive) string comparisons.\n\u003c/p\u003e\u003cp\u003eA string \u003ccode\u003ex\u003c/code\u003e is a caseless match for a string \u003ccode\u003ey\u003c/code\u003e if and only if:\n\u003c/p\u003e\u003cpre\u003etoCaseFold x == toCaseFold y\u003c/pre\u003e\u003cp\u003eThe result string may be longer than the input string, and may\n differ from applying \u003ccode\u003e\u003ca\u003etoLower\u003c/a\u003e\u003c/code\u003e to the input string.  For instance,\n the Armenian small ligature \"&#64275;\" (men now, U+FB13) is case\n folded to the sequence \"&#1396;\" (men, U+0574) followed by\n \"&#1398;\" (now, U+0576), while the Greek \"&#181;\" (micro sign,\n U+00B5) is case folded to \"&#956;\" (small letter mu, U+03BC)\n instead of itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "toCaseFold",
           "package": "text",
@@ -13187,6 +14218,7 @@
         "index": {
           "description": "Convert string to folded case Subject to fusion This function is mainly useful for performing caseless also known as case insensitive string comparisons string is caseless match for string if and only if toCaseFold toCaseFold The result string may be longer than the input string and may differ from applying toLower to the input string For instance the Armenian small ligature men now FB13 is case folded to the sequence men followed by now while the Greek micro sign B5 is case folded to small letter mu BC instead of itself",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "toCaseFold",
           "normalized": "Text-\u003eText",
@@ -13203,6 +14235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to lower case, using simple case\n conversion.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string.  For\n instance, \"&#304;\" (Latin capital letter I with dot above,\n U+0130) maps to the sequence \"i\" (Latin small letter i, U+0069)\n followed by \" &#775;\" (combining dot above, U+0307).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "toLower",
           "package": "text",
@@ -13213,6 +14246,7 @@
         "index": {
           "description": "Convert string to lower case using simple case conversion Subject to fusion The result string may be longer than the input string For instance Latin capital letter with dot above maps to the sequence Latin small letter followed by combining dot above",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "toLower",
           "normalized": "Text-\u003eText",
@@ -13229,6 +14263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to title case, using simple case\n conversion. Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe first letter of the input is converted to title case, as is\n every subsequent letter that immediately follows a non-letter.\n Every letter that immediately follows another letter is converted\n to lower case.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string. For example,\n the Latin small ligature &#64258; (U+FB02) is converted to the\n sequence Latin capital letter F (U+0046) followed by Latin small\n letter l (U+006C).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: this function does not take language or culture specific\n rules into account. For instance, in English, different style\n guides disagree on whether the book name \"The Hill of the Red\n Fox\" is correctly title cased&#8212;but this function will\n capitalize \u003cem\u003eevery\u003c/em\u003e word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "toTitle",
           "package": "text",
@@ -13239,6 +14274,7 @@
         "index": {
           "description": "Convert string to title case using simple case conversion Subject to fusion The first letter of the input is converted to title case as is every subsequent letter that immediately follows non-letter Every letter that immediately follows another letter is converted to lower case The result string may be longer than the input string For example the Latin small ligature FB02 is converted to the sequence Latin capital letter followed by Latin small letter Note this function does not take language or culture specific rules into account For instance in English different style guides disagree on whether the book name The Hill of the Red Fox is correctly title cased but this function will capitalize every word",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "toTitle",
           "normalized": "Text-\u003eText",
@@ -13255,6 +14291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a string to upper case, using simple case\n conversion.  Subject to fusion.\n\u003c/p\u003e\u003cp\u003eThe result string may be longer than the input string.  For\n instance, the German \"&#223;\" (eszett, U+00DF) maps to the\n two-letter sequence \"SS\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "toUpper",
           "package": "text",
@@ -13265,6 +14302,7 @@
         "index": {
           "description": "Convert string to upper case using simple case conversion Subject to fusion The result string may be longer than the input string For instance the German eszett DF maps to the two-letter sequence SS",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "toUpper",
           "normalized": "Text-\u003eText",
@@ -13281,6 +14319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e The \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns\n of its \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e argument.  Note that this function uses \u003ccode\u003e\u003ca\u003epack\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e, and the list version of transpose, and is thus not very\n efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "transpose",
           "package": "text",
@@ -13291,6 +14330,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its Text argument Note that this function uses pack unpack and the list version of transpose and is thus not very efficient",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "transpose",
           "normalized": "[Text]-\u003e[Text]",
@@ -13306,6 +14346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Returns the first character and rest of a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if empty. Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "uncons",
           "package": "text",
@@ -13316,6 +14357,7 @@
         "index": {
           "description": "Returns the first character and rest of Text or Nothing if empty Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "uncons",
           "normalized": "Text-\u003eMaybe(Char,Text)",
@@ -13331,6 +14373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e, where \u003ccode\u003en\u003c/code\u003e is the length of the result. The \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e\n function is analogous to the List \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e builds a\n \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from a seed value. The function takes the element and\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it is done producing the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e, otherwise\n \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(a,b)\u003c/code\u003e.  In this case, \u003ccode\u003ea\u003c/code\u003e is the next \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e in the\n string, and \u003ccode\u003eb\u003c/code\u003e is the seed value for further production. Subject\n to fusion.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "unfoldr",
           "package": "text",
@@ -13341,6 +14384,7 @@
         "index": {
           "description": "where is the length of the result The unfoldr function is analogous to the List unfoldr unfoldr builds Text from seed value The function takes the element and returns Nothing if it is done producing the Text otherwise Just In this case is the next Char in the string and is the seed value for further production Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "unfoldr",
           "normalized": "(a-\u003eMaybe(Char,a))-\u003ea-\u003eText",
@@ -13356,6 +14400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Like \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e builds a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e from a seed\n value. However, the length of the result should be limited by the\n first argument to \u003ccode\u003e\u003ca\u003eunfoldrN\u003c/a\u003e\u003c/code\u003e. This function is more efficient than\n \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e when the maximum length of the result is known and\n correct, otherwise its performance is similar to \u003ccode\u003e\u003ca\u003eunfoldr\u003c/a\u003e\u003c/code\u003e. Subject\n to fusion.  Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "unfoldrN",
           "package": "text",
@@ -13366,6 +14411,7 @@
         "index": {
           "description": "Like unfoldr unfoldrN builds Text from seed value However the length of the result should be limited by the first argument to unfoldrN This function is more efficient than unfoldr when the maximum length of the result is known and correct otherwise its performance is similar to unfoldr Subject to fusion Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "unfoldrN",
           "normalized": "Int-\u003e(a-\u003eMaybe(Char,a))-\u003ea-\u003eText",
@@ -13381,6 +14427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Joins lines, after appending a terminating newline to\n each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "unlines",
           "package": "text",
@@ -13391,6 +14438,7 @@
         "index": {
           "description": "Joins lines after appending terminating newline to each",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "unlines",
           "normalized": "[Text]-\u003eText",
@@ -13406,6 +14454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Convert a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.  Subject to fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "unpack",
           "package": "text",
@@ -13416,6 +14465,7 @@
         "index": {
           "description": "Convert Text into String Subject to fusion",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "unpack",
           "normalized": "Text-\u003eString",
@@ -13431,6 +14481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Joins words using single space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "unwords",
           "package": "text",
@@ -13441,6 +14492,7 @@
         "index": {
           "description": "Joins words using single space characters",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "unwords",
           "normalized": "[Text]-\u003eText",
@@ -13456,6 +14508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Breaks a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e up into a list of words, delimited by \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003es\n representing white space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "words",
           "package": "text",
@@ -13466,6 +14519,7 @@
         "index": {
           "description": "Breaks Text up into list of words delimited by Char representing white space",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "words",
           "normalized": "Text-\u003e[Text]",
@@ -13481,6 +14535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e takes two \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003es and returns a list of\n corresponding pairs of bytes. If one input \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e is short,\n excess elements of the longer \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e are discarded. This is\n equivalent to a pair of \u003ccode\u003e\u003ca\u003eunpack\u003c/a\u003e\u003c/code\u003e operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "zip",
           "package": "text",
@@ -13491,6 +14546,7 @@
         "index": {
           "description": "zip takes two Text and returns list of corresponding pairs of bytes If one input Text is short excess elements of the longer Text are discarded This is equivalent to pair of unpack operations",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "zip",
           "normalized": "Text-\u003eText-\u003e[(Char,Char)]",
@@ -13506,6 +14562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e generalises \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e by zipping with the function\n given as the first argument, instead of a tupling function.\n Performs replacement on invalid scalar values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:20:08 UTC 2014",
           "module": "Data.Text",
           "name": "zipWith",
           "package": "text",
@@ -13516,6 +14573,7 @@
         "index": {
           "description": "zipWith generalises zip by zipping with the function given as the first argument instead of tupling function Performs replacement on invalid scalar values",
           "hierarchy": "Data Text",
+          "indexed": "2014-03-11T20:20:08",
           "module": "Data.Text",
           "name": "zipWith",
           "normalized": "(Char-\u003eChar-\u003eChar)-\u003eText-\u003eText-\u003eText",

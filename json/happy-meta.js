@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happy-meta"
+        "phrase": "happy-meta",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "Quote",
           "package": "happy-meta",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "Quote",
           "package": "happy-meta",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "HappyInfo",
           "package": "happy-meta",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "HappyInfo",
           "package": "happy-meta",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "HappyStk",
           "package": "happy-meta",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "HappyStk",
           "package": "happy-meta",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "HappyStk",
           "package": "happy-meta",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "HappyStk",
           "package": "happy-meta",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "compileHappy",
           "package": "happy-meta",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "compileHappy",
           "normalized": "Happy-\u003eQ[Dec]",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "happy",
           "package": "happy-meta",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "happy",
           "package": "happy-meta",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "happyWarn",
           "package": "happy-meta",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "happyWarn",
           "normalized": "HappyInfo-\u003eQ()",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "parseHappy",
           "package": "happy-meta",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "parseHappy",
           "normalized": "String-\u003eHappy",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:29:23 UTC 2014",
           "module": "Text.Happy.Quote",
           "name": "parseHappyInfo",
           "package": "happy-meta",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Text Happy Quote",
+          "indexed": "2014-03-11T18:29:23",
           "module": "Text.Happy.Quote",
           "name": "parseHappyInfo",
           "normalized": "String-\u003e(Happy,HappyInfo)",

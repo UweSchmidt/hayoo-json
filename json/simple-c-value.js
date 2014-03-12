@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "simple-c-value"
+        "phrase": "simple-c-value",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "CValue",
           "package": "simple-c-value",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "CValue",
           "package": "simple-c-value",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic C value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "CValue",
           "package": "simple-c-value",
@@ -49,6 +52,7 @@
         "index": {
           "description": "generic value",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "CValue",
           "package": "simple-c-value",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive from this to convert from a CValue to Haskell type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "FromCValue",
           "package": "simple-c-value",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Derive from this to convert from CValue to Haskell type",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "FromCValue",
           "package": "simple-c-value",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitive C values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PrimitiveValue",
           "package": "simple-c-value",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Primitive values",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PrimitiveValue",
           "package": "simple-c-value",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA step in union path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "Side",
           "package": "simple-c-value",
@@ -118,6 +127,7 @@
         "index": {
           "description": "step in union path",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "Side",
           "package": "simple-c-value",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToCValue Class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "ToCValue",
           "package": "simple-c-value",
@@ -141,6 +152,7 @@
         "index": {
           "description": "ToCValue Class",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "ToCValue",
           "package": "simple-c-value",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used for the conversion from a CValue back to Haskell type. Ideally it should be\n   and index, but unforunately this does not work with the way Generics creates its :+: binary tree.\n   I'm leaving it here for now, but I might find a more elegant way to handle this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "UnionPath",
           "package": "simple-c-value",
@@ -164,6 +177,7 @@
         "index": {
           "description": "This is used for the conversion from CValue back to Haskell type Ideally it should be and index but unforunately this does not work with the way Generics creates its binary tree leaving it here for now but might find more elegant way to handle this",
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "UnionPath",
           "package": "simple-c-value",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "Lft",
           "package": "simple-c-value",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "Lft",
           "package": "simple-c-value",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PChar",
           "package": "simple-c-value",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PChar",
           "package": "simple-c-value",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PClock",
           "package": "simple-c-value",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PClock",
           "package": "simple-c-value",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PDouble",
           "package": "simple-c-value",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PDouble",
           "package": "simple-c-value",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PFloat",
           "package": "simple-c-value",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PFloat",
           "package": "simple-c-value",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PInt",
           "package": "simple-c-value",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PInt",
           "package": "simple-c-value",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PIntMax",
           "package": "simple-c-value",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PIntMax",
           "package": "simple-c-value",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PIntPtr",
           "package": "simple-c-value",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PIntPtr",
           "package": "simple-c-value",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PLLong",
           "package": "simple-c-value",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PLLong",
           "package": "simple-c-value",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PLong",
           "package": "simple-c-value",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PLong",
           "package": "simple-c-value",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PPtrdiff",
           "package": "simple-c-value",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PPtrdiff",
           "package": "simple-c-value",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PSChar",
           "package": "simple-c-value",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PSChar",
           "package": "simple-c-value",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PSUSeconds",
           "package": "simple-c-value",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PSUSeconds",
           "package": "simple-c-value",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PShort",
           "package": "simple-c-value",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PShort",
           "package": "simple-c-value",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PSigAtomic",
           "package": "simple-c-value",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PSigAtomic",
           "package": "simple-c-value",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PSize",
           "package": "simple-c-value",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PSize",
           "package": "simple-c-value",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PTime",
           "package": "simple-c-value",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PTime",
           "package": "simple-c-value",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUChar",
           "package": "simple-c-value",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUChar",
           "package": "simple-c-value",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUInt",
           "package": "simple-c-value",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUInt",
           "package": "simple-c-value",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUIntMax",
           "package": "simple-c-value",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUIntMax",
           "package": "simple-c-value",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUIntPtr",
           "package": "simple-c-value",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUIntPtr",
           "package": "simple-c-value",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PULLong",
           "package": "simple-c-value",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PULLong",
           "package": "simple-c-value",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PULong",
           "package": "simple-c-value",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PULong",
           "package": "simple-c-value",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUSeconds",
           "package": "simple-c-value",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUSeconds",
           "package": "simple-c-value",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PUShort",
           "package": "simple-c-value",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PUShort",
           "package": "simple-c-value",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "PWchar",
           "package": "simple-c-value",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "PWchar",
           "package": "simple-c-value",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "Rght",
           "package": "simple-c-value",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "Rght",
           "package": "simple-c-value",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "VArray",
           "package": "simple-c-value",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "VArray",
           "normalized": "VArray[CValue]",
@@ -795,6 +865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "VMember",
           "package": "simple-c-value",
@@ -804,6 +875,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "VMember",
           "package": "simple-c-value",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "VPrimitive",
           "package": "simple-c-value",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "VPrimitive",
           "package": "simple-c-value",
@@ -839,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "VStruct",
           "package": "simple-c-value",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "VStruct",
           "normalized": "VStruct[CValue]",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "VUnion",
           "package": "simple-c-value",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "VUnion",
           "package": "simple-c-value",
@@ -885,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "Void",
           "package": "simple-c-value",
@@ -894,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "Void",
           "package": "simple-c-value",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "fromCValue",
           "package": "simple-c-value",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "fromCValue",
           "normalized": "CValue-\u003eEither String a",
@@ -931,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:02:31 UTC 2014",
           "module": "Language.C.Simple.CValue",
           "name": "toCValue",
           "package": "simple-c-value",
@@ -940,6 +1023,7 @@
         },
         "index": {
           "hierarchy": "Language C Simple CValue",
+          "indexed": "2014-03-11T20:02:31",
           "module": "Language.C.Simple.CValue",
           "name": "toCValue",
           "normalized": "a-\u003eCValue",

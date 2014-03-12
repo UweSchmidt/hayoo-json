@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hecc"
+        "phrase": "hecc",
+        "type": "phrase"
       },
       "type": "context"
     }

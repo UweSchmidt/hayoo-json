@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llvm-data-interop"
+        "phrase": "llvm-data-interop",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module converts the C form of the LLVM IR into a fully\n referential Haskell version of the IR.  The translation is slightly\n lossy around integral types in some cases, as Haskell Ints do not\n have the same range as C ints.  In the vast majority of cases this\n should not really be an issue, but it is possible to lose\n information.  If it is an issue it can be changed.\n\u003c/p\u003e\u003cp\u003eNote that this uses BasicHashTables as mappings.  Switching to\n LinearHashTable has less space overhead but makes performance tank.\n Don't be tempted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "Parse",
           "package": "llvm-data-interop",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module converts the form of the LLVM IR into fully referential Haskell version of the IR The translation is slightly lossy around integral types in some cases as Haskell Ints do not have the same range as ints In the vast majority of cases this should not really be an issue but it is possible to lose information If it is an issue it can be changed Note that this uses BasicHashTables as mappings Switching to LinearHashTable has less space overhead but makes performance tank Don be tempted",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "Parse",
           "package": "llvm-data-interop",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions controlling how \u003ccode\u003eModule\u003c/code\u003es are constructed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "ParserOptions",
           "package": "llvm-data-interop",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Options controlling how Module are constructed",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "ParserOptions",
           "package": "llvm-data-interop",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines the level of precision of position information in the\n metadata.  LLVM gives very precise information, but tracking all of\n it can consume excessive amounts of space.  This option allows it\n to be selectively discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "PositionPrecision",
           "package": "llvm-data-interop",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Defines the level of precision of position information in the metadata LLVM gives very precise information but tracking all of it can consume excessive amounts of space This option allows it to be selectively discarded",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "PositionPrecision",
           "package": "llvm-data-interop",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "TranslationException",
           "package": "llvm-data-interop",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "TranslationException",
           "package": "llvm-data-interop",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidAliasInTranslateValue",
           "package": "llvm-data-interop",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidAliasInTranslateValue",
           "package": "llvm-data-interop",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidBinaryOp",
           "package": "llvm-data-interop",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidBinaryOp",
           "package": "llvm-data-interop",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidBlockAddressBlock",
           "package": "llvm-data-interop",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidBlockAddressBlock",
           "package": "llvm-data-interop",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidBlockAddressFunction",
           "package": "llvm-data-interop",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidBlockAddressFunction",
           "package": "llvm-data-interop",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidBranchInst",
           "package": "llvm-data-interop",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidBranchInst",
           "package": "llvm-data-interop",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidBranchTarget",
           "package": "llvm-data-interop",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidBranchTarget",
           "package": "llvm-data-interop",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidDataLayout",
           "package": "llvm-data-interop",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidDataLayout",
           "package": "llvm-data-interop",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidExtractElementInst",
           "package": "llvm-data-interop",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidExtractElementInst",
           "package": "llvm-data-interop",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidExtractValueInst",
           "package": "llvm-data-interop",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidExtractValueInst",
           "package": "llvm-data-interop",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidFunctionInTranslateValue",
           "package": "llvm-data-interop",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidFunctionInTranslateValue",
           "package": "llvm-data-interop",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidGEPInst",
           "package": "llvm-data-interop",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidGEPInst",
           "package": "llvm-data-interop",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidGlobalVarInTranslateValue",
           "package": "llvm-data-interop",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidGlobalVarInTranslateValue",
           "package": "llvm-data-interop",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidIndirectBranchOperands",
           "package": "llvm-data-interop",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidIndirectBranchOperands",
           "package": "llvm-data-interop",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidInsertElementInst",
           "package": "llvm-data-interop",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidInsertElementInst",
           "package": "llvm-data-interop",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidInsertValueInst",
           "package": "llvm-data-interop",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidInsertValueInst",
           "package": "llvm-data-interop",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidResumeInst",
           "package": "llvm-data-interop",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidResumeInst",
           "package": "llvm-data-interop",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidSelectArgs",
           "package": "llvm-data-interop",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidSelectArgs",
           "package": "llvm-data-interop",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidShuffleVectorInst",
           "package": "llvm-data-interop",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidShuffleVectorInst",
           "package": "llvm-data-interop",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidSwitchLayout",
           "package": "llvm-data-interop",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidSwitchLayout",
           "package": "llvm-data-interop",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidSwitchTarget",
           "package": "llvm-data-interop",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidSwitchTarget",
           "package": "llvm-data-interop",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidTag",
           "package": "llvm-data-interop",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidTag",
           "package": "llvm-data-interop",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidUnaryOp",
           "package": "llvm-data-interop",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidUnaryOp",
           "package": "llvm-data-interop",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "InvalidUnconditionalBranchTarget",
           "package": "llvm-data-interop",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "InvalidUnconditionalBranchTarget",
           "package": "llvm-data-interop",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "KnotTyingFailure",
           "package": "llvm-data-interop",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "KnotTyingFailure",
           "package": "llvm-data-interop",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "MetaKnotFailure",
           "package": "llvm-data-interop",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "MetaKnotFailure",
           "package": "llvm-data-interop",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "NoModule",
           "package": "llvm-data-interop",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "NoModule",
           "package": "llvm-data-interop",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "NonConstantTag",
           "package": "llvm-data-interop",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "NonConstantTag",
           "package": "llvm-data-interop",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "NonInstructionTag",
           "package": "llvm-data-interop",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "NonInstructionTag",
           "package": "llvm-data-interop",
@@ -724,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "ParserOptions",
           "package": "llvm-data-interop",
@@ -733,6 +798,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "ParserOptions",
           "package": "llvm-data-interop",
@@ -747,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscard all position information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "PositionNone",
           "package": "llvm-data-interop",
@@ -757,6 +824,7 @@
         "index": {
           "description": "Discard all position information",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "PositionNone",
           "package": "llvm-data-interop",
@@ -771,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreserve all information from LLVM (line\n and column numbers)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "PositionPrecise",
           "package": "llvm-data-interop",
@@ -781,6 +850,7 @@
         "index": {
           "description": "Preserve all information from LLVM line and column numbers",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "PositionPrecise",
           "package": "llvm-data-interop",
@@ -794,6 +864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "TooManyReturnValues",
           "package": "llvm-data-interop",
@@ -803,6 +874,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "TooManyReturnValues",
           "package": "llvm-data-interop",
@@ -816,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "TypeKnotTyingFailure",
           "package": "llvm-data-interop",
@@ -825,6 +898,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "TypeKnotTyingFailure",
           "package": "llvm-data-interop",
@@ -838,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "UnparsableBitcode",
           "package": "llvm-data-interop",
@@ -847,6 +922,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "UnparsableBitcode",
           "package": "llvm-data-interop",
@@ -861,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReasonable default parsing options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "defaultParserOptions",
           "package": "llvm-data-interop",
@@ -871,6 +948,7 @@
         "index": {
           "description": "Reasonable default parsing options",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "defaultParserOptions",
           "package": "llvm-data-interop",
@@ -885,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse LLVM IR from a Handle into a \u003ccode\u003eModule\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "hParseLLVM",
           "package": "llvm-data-interop",
@@ -895,6 +974,7 @@
         "index": {
           "description": "Parse LLVM IR from Handle into Module",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "hParseLLVM",
           "normalized": "ParserOptions-\u003eHandle-\u003eIO Module",
@@ -910,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "metaPositionPrecision",
           "package": "llvm-data-interop",
@@ -919,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "metaPositionPrecision",
           "package": "llvm-data-interop",
@@ -933,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the LLVM IR (either assembly or bitcode) from a lazy ByteString\n into a \u003ccode\u003eModule\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "parseLLVM",
           "package": "llvm-data-interop",
@@ -943,6 +1026,7 @@
         "index": {
           "description": "Parse the LLVM IR either assembly or bitcode from lazy ByteString into Module",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "parseLLVM",
           "normalized": "ParserOptions-\u003eByteString-\u003eIO Module",
@@ -959,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the named LLVM file into the LLVM form of the IR (a\n \u003ccode\u003eModule\u003c/code\u003e).  In the case of an error, a descriptive string will be\n returned.  The input file can be either LLVM assembly or bitcode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:11:18 UTC 2014",
           "module": "LLVM.Parse",
           "name": "parseLLVMFile",
           "package": "llvm-data-interop",
@@ -969,6 +1054,7 @@
         "index": {
           "description": "Parse the named LLVM file into the LLVM form of the IR Module In the case of an error descriptive string will be returned The input file can be either LLVM assembly or bitcode",
           "hierarchy": "LLVM Parse",
+          "indexed": "2014-03-11T19:11:18",
           "module": "LLVM.Parse",
           "name": "parseLLVMFile",
           "normalized": "ParserOptions-\u003eFilePath-\u003eIO Module",

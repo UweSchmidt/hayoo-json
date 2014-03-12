@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-event"
+        "phrase": "control-event",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module uses Haskell concurrency libraries to build an extremely simple\n event system that should perform better than the Control.Event module\n but does not provide features such as STM action scheduling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Relative",
           "name": "Relative",
           "package": "control-event",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module uses Haskell concurrency libraries to build an extremely simple event system that should perform better than the Control.Event module but does not provide features such as STM action scheduling",
           "hierarchy": "Control Event Relative",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Relative",
           "name": "Relative",
           "package": "control-event",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Relative",
           "name": "EventId",
           "package": "control-event",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Event Relative",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Relative",
           "name": "EventId",
           "package": "control-event",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'addEvent delay action' will delay\n for \u003ccode\u003edelay\u003c/code\u003e microseconds then execute \u003ccode\u003eaction\u003c/code\u003e. An EventId\n is returned, allowing the event to be canceled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Relative",
           "name": "addEvent",
           "package": "control-event",
@@ -73,6 +78,7 @@
         "index": {
           "description": "addEvent delay action will delay for delay microseconds then execute action An EventId is returned allowing the event to be canceled",
           "hierarchy": "Control Event Relative",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Relative",
           "name": "addEvent",
           "normalized": "Int-\u003eIO()-\u003eIO EventId",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'delEvent eid' deletes the event and returns\n \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the event was deleted.  If \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e is returned\n then the time elapsed and the action was forked off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Relative",
           "name": "delEvent",
           "package": "control-event",
@@ -99,6 +106,7 @@
         "index": {
           "description": "delEvent eid deletes the event and returns True if the event was deleted If False is returned then the time elapsed and the action was forked off",
           "hierarchy": "Control Event Relative",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Relative",
           "name": "delEvent",
           "normalized": "EventId-\u003eIO Bool",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is a shim, providing the control-timeout api using\n control-event to run the show.  See the control-timeout package\n for documentation.  If you do not need compatability with\n the control-timeout api then do not use this module!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Timeout",
           "name": "Timeout",
           "package": "control-event",
@@ -124,6 +133,7 @@
         "index": {
           "description": "This module is shim providing the control-timeout api using control-event to run the show See the control-timeout package for documentation If you do not need compatability with the control-timeout api then do not use this module",
           "hierarchy": "Control Event Timeout",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Timeout",
           "name": "Timeout",
           "package": "control-event",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Timeout",
           "name": "TimeoutTag",
           "package": "control-event",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Control Event Timeout",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Timeout",
           "name": "TimeoutTag",
           "package": "control-event",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Timeout",
           "name": "addTimeout",
           "package": "control-event",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Control Event Timeout",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Timeout",
           "name": "addTimeout",
           "normalized": "Float-\u003eIO()-\u003eIO TimeoutTag",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Timeout",
           "name": "addTimeoutAtomic",
           "package": "control-event",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Control Event Timeout",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Timeout",
           "name": "addTimeoutAtomic",
           "normalized": "Float-\u003eIO(IO()-\u003eIO(STM TimeoutTag))",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event.Timeout",
           "name": "cancelTimeout",
           "package": "control-event",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Control Event Timeout",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event.Timeout",
           "name": "cancelTimeout",
           "normalized": "TimeoutTag-\u003eSTM Bool",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module can execute events at specified time.  It uses a two thread \n system that allows the STM adding and deleting of new threads without\n requiring later IO actions.  For a simpler system that uses relative times\n see Control.Event.Relative\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "Event",
           "package": "control-event",
@@ -240,6 +259,7 @@
         "index": {
           "description": "This module can execute events at specified time It uses two thread system that allows the STM adding and deleting of new threads without requiring later IO actions For simpler system that uses relative times see Control.Event.Relative",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "Event",
           "package": "control-event",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIDs useful for canceling previously scheduled events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "EventId",
           "package": "control-event",
@@ -263,6 +284,7 @@
         "index": {
           "description": "IDs useful for canceling previously scheduled events",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "EventId",
           "package": "control-event",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event system must be initilized using initEventSystem.\n More than one event system can be instantiated at once\n (eg. for non-interference).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "EventSystem",
           "package": "control-event",
@@ -286,6 +309,7 @@
         "index": {
           "description": "The event system must be initilized using initEventSystem More than one event system can be instantiated at once eg for non-interference",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "EventSystem",
           "package": "control-event",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an *action* to be performed at *time* by *system*.  Returns a unique ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "addEvent",
           "package": "control-event",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Add an action to be performed at time by system Returns unique ID",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "addEvent",
           "normalized": "EventSystem-\u003eUTCTime-\u003eIO()-\u003eIO EventId",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic version of addEvent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "addEventSTM",
           "package": "control-event",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Atomic version of addEvent",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "addEventSTM",
           "normalized": "EventSystem-\u003eUTCTime-\u003eIO()-\u003eSTM EventId",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCancel an event from the system, returning True on success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "cancelEvent",
           "package": "control-event",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Cancel an event from the system returning True on success",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "cancelEvent",
           "normalized": "EventSystem-\u003eEventId-\u003eIO Bool",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAtomic version of cancelEvent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "cancelEventSTM",
           "package": "control-event",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Atomic version of cancelEvent",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "cancelEventSTM",
           "normalized": "EventSystem-\u003eEventId-\u003eSTM Bool",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the number of pending events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "evtSystemSize",
           "package": "control-event",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Returns the number of pending events",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "evtSystemSize",
           "normalized": "EventSystem-\u003eSTM Int",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe only way to get an event system is to initilize one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "initEventSystem",
           "package": "control-event",
@@ -440,6 +475,7 @@
         "index": {
           "description": "The only way to get an event system is to initilize one",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "initEventSystem",
           "package": "control-event",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value indicating there is no such event.\n Canceling this event returns True and has no other effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:55 UTC 2014",
           "module": "Control.Event",
           "name": "noEvent",
           "package": "control-event",
@@ -464,6 +501,7 @@
         "index": {
           "description": "value indicating there is no such event Canceling this event returns True and has no other effect",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T17:39:55",
           "module": "Control.Event",
           "name": "noEvent",
           "package": "control-event",

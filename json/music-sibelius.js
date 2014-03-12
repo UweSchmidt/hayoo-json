@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-sibelius"
+        "phrase": "music-sibelius",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Score.Import.Sibelius",
           "name": "Sibelius",
           "package": "music-sibelius",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Music Score Import Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Score.Import.Sibelius",
           "name": "Sibelius",
           "package": "music-sibelius",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Score.Import.Sibelius",
           "name": "IsSibelius",
           "package": "music-sibelius",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Music Score Import Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Score.Import.Sibelius",
           "name": "IsSibelius",
           "package": "music-sibelius",
@@ -160,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Sibelius",
           "package": "music-sibelius",
@@ -168,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Sibelius",
           "package": "music-sibelius",
@@ -181,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "IsSibelius",
           "package": "music-sibelius",
@@ -189,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "IsSibelius",
           "package": "music-sibelius",
@@ -202,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibArticulation",
           "package": "music-sibelius",
@@ -210,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibArticulation",
           "package": "music-sibelius",
@@ -223,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibBar",
           "package": "music-sibelius",
@@ -231,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibBar",
           "package": "music-sibelius",
@@ -244,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibChord",
           "package": "music-sibelius",
@@ -252,6 +265,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibChord",
           "package": "music-sibelius",
@@ -265,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibClef",
           "package": "music-sibelius",
@@ -273,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibClef",
           "package": "music-sibelius",
@@ -286,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibCrescendoLine",
           "package": "music-sibelius",
@@ -294,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibCrescendoLine",
           "package": "music-sibelius",
@@ -307,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibDiminuendoLine",
           "package": "music-sibelius",
@@ -315,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibDiminuendoLine",
           "package": "music-sibelius",
@@ -328,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElement",
           "package": "music-sibelius",
@@ -336,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElement",
           "package": "music-sibelius",
@@ -349,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibKeySignature",
           "package": "music-sibelius",
@@ -357,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibKeySignature",
           "package": "music-sibelius",
@@ -370,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibNote",
           "package": "music-sibelius",
@@ -378,6 +403,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibNote",
           "package": "music-sibelius",
@@ -391,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibScore",
           "package": "music-sibelius",
@@ -399,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibScore",
           "package": "music-sibelius",
@@ -412,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibSlur",
           "package": "music-sibelius",
@@ -420,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibSlur",
           "package": "music-sibelius",
@@ -433,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibStaff",
           "package": "music-sibelius",
@@ -441,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibStaff",
           "package": "music-sibelius",
@@ -454,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibText",
           "package": "music-sibelius",
@@ -462,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibText",
           "package": "music-sibelius",
@@ -475,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibTimeSignature",
           "package": "music-sibelius",
@@ -483,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibTimeSignature",
           "package": "music-sibelius",
@@ -496,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibTuplet",
           "package": "music-sibelius",
@@ -504,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibTuplet",
           "package": "music-sibelius",
@@ -517,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Accent",
           "package": "music-sibelius",
@@ -526,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Accent",
           "package": "music-sibelius",
@@ -539,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "DownBow",
           "package": "music-sibelius",
@@ -548,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "DownBow",
           "package": "music-sibelius",
@@ -561,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Harmonic",
           "package": "music-sibelius",
@@ -570,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Harmonic",
           "package": "music-sibelius",
@@ -583,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Marcato",
           "package": "music-sibelius",
@@ -592,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Marcato",
           "package": "music-sibelius",
@@ -605,6 +651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Plus",
           "package": "music-sibelius",
@@ -614,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Plus",
           "package": "music-sibelius",
@@ -627,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibBar",
           "package": "music-sibelius",
@@ -636,6 +685,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibBar",
           "package": "music-sibelius",
@@ -649,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibChord",
           "package": "music-sibelius",
@@ -658,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibChord",
           "package": "music-sibelius",
@@ -671,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibClef",
           "package": "music-sibelius",
@@ -680,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibClef",
           "package": "music-sibelius",
@@ -693,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibCrescendoLine",
           "package": "music-sibelius",
@@ -702,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibCrescendoLine",
           "package": "music-sibelius",
@@ -715,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibDiminuendoLine",
           "package": "music-sibelius",
@@ -724,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibDiminuendoLine",
           "package": "music-sibelius",
@@ -737,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementChord",
           "package": "music-sibelius",
@@ -746,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementChord",
           "package": "music-sibelius",
@@ -759,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementClef",
           "package": "music-sibelius",
@@ -768,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementClef",
           "package": "music-sibelius",
@@ -781,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementCrescendoLine",
           "package": "music-sibelius",
@@ -790,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementCrescendoLine",
           "package": "music-sibelius",
@@ -803,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementDiminuendoLine",
           "package": "music-sibelius",
@@ -812,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementDiminuendoLine",
           "package": "music-sibelius",
@@ -825,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementKeySignature",
           "package": "music-sibelius",
@@ -834,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementKeySignature",
           "package": "music-sibelius",
@@ -847,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementSlur",
           "package": "music-sibelius",
@@ -856,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementSlur",
           "package": "music-sibelius",
@@ -869,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementText",
           "package": "music-sibelius",
@@ -878,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementText",
           "package": "music-sibelius",
@@ -891,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementTimeSignature",
           "package": "music-sibelius",
@@ -900,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementTimeSignature",
           "package": "music-sibelius",
@@ -913,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibElementTuplet",
           "package": "music-sibelius",
@@ -922,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibElementTuplet",
           "package": "music-sibelius",
@@ -935,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibKeySignature",
           "package": "music-sibelius",
@@ -944,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibKeySignature",
           "package": "music-sibelius",
@@ -957,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibNote",
           "package": "music-sibelius",
@@ -966,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibNote",
           "package": "music-sibelius",
@@ -979,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibScore",
           "package": "music-sibelius",
@@ -988,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibScore",
           "package": "music-sibelius",
@@ -1001,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibSlur",
           "package": "music-sibelius",
@@ -1010,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibSlur",
           "package": "music-sibelius",
@@ -1023,6 +1107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibStaff",
           "package": "music-sibelius",
@@ -1032,6 +1117,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibStaff",
           "package": "music-sibelius",
@@ -1045,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibText",
           "package": "music-sibelius",
@@ -1054,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibText",
           "package": "music-sibelius",
@@ -1067,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibTimeSignature",
           "package": "music-sibelius",
@@ -1076,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibTimeSignature",
           "package": "music-sibelius",
@@ -1089,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "SibTuplet",
           "package": "music-sibelius",
@@ -1098,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "SibTuplet",
           "package": "music-sibelius",
@@ -1111,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Staccatissimo",
           "package": "music-sibelius",
@@ -1120,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Staccatissimo",
           "package": "music-sibelius",
@@ -1133,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Staccato",
           "package": "music-sibelius",
@@ -1142,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Staccato",
           "package": "music-sibelius",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Tenuto",
           "package": "music-sibelius",
@@ -1164,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Tenuto",
           "package": "music-sibelius",
@@ -1177,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "UpBow",
           "package": "music-sibelius",
@@ -1186,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "UpBow",
           "package": "music-sibelius",
@@ -1199,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "Wedge",
           "package": "music-sibelius",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "Wedge",
           "package": "music-sibelius",
@@ -1221,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "barElements",
           "package": "music-sibelius",
@@ -1230,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "barElements",
           "normalized": "[SibElement]",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordAcciaccatura",
           "package": "music-sibelius",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordAcciaccatura",
           "package": "music-sibelius",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordAppoggiatura",
           "package": "music-sibelius",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordAppoggiatura",
           "package": "music-sibelius",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordArticulations",
           "package": "music-sibelius",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordArticulations",
           "normalized": "[SibArticulation]",
@@ -1313,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordDoubleTremolos",
           "package": "music-sibelius",
@@ -1322,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordDoubleTremolos",
           "package": "music-sibelius",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordDuration",
           "package": "music-sibelius",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordDuration",
           "package": "music-sibelius",
@@ -1357,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordNotes",
           "package": "music-sibelius",
@@ -1366,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordNotes",
           "normalized": "[SibNote]",
@@ -1381,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordPosition",
           "package": "music-sibelius",
@@ -1390,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordPosition",
           "package": "music-sibelius",
@@ -1403,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordSingleTremolos",
           "package": "music-sibelius",
@@ -1412,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordSingleTremolos",
           "package": "music-sibelius",
@@ -1425,6 +1545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "chordVoice",
           "package": "music-sibelius",
@@ -1434,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "chordVoice",
           "package": "music-sibelius",
@@ -1447,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "clefPosition",
           "package": "music-sibelius",
@@ -1456,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "clefPosition",
           "package": "music-sibelius",
@@ -1469,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "clefStyle",
           "package": "music-sibelius",
@@ -1478,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "clefStyle",
           "package": "music-sibelius",
@@ -1491,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "clefVoice",
           "package": "music-sibelius",
@@ -1500,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "clefVoice",
           "package": "music-sibelius",
@@ -1513,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "crescDuration",
           "package": "music-sibelius",
@@ -1522,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "crescDuration",
           "package": "music-sibelius",
@@ -1535,6 +1665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "crescPosition",
           "package": "music-sibelius",
@@ -1544,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "crescPosition",
           "package": "music-sibelius",
@@ -1557,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "crescStyle",
           "package": "music-sibelius",
@@ -1566,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "crescStyle",
           "package": "music-sibelius",
@@ -1579,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "crescVoice",
           "package": "music-sibelius",
@@ -1588,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "crescVoice",
           "package": "music-sibelius",
@@ -1601,6 +1737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "dimDuration",
           "package": "music-sibelius",
@@ -1610,6 +1747,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "dimDuration",
           "package": "music-sibelius",
@@ -1623,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "dimPosition",
           "package": "music-sibelius",
@@ -1632,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "dimPosition",
           "package": "music-sibelius",
@@ -1645,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "dimStyle",
           "package": "music-sibelius",
@@ -1654,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "dimStyle",
           "package": "music-sibelius",
@@ -1667,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "dimVoice",
           "package": "music-sibelius",
@@ -1676,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "dimVoice",
           "package": "music-sibelius",
@@ -1689,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "doThing",
           "package": "music-sibelius",
@@ -1698,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "doThing",
           "normalized": "a[String]-\u003ea[SibArticulation]",
@@ -1713,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "every",
           "package": "music-sibelius",
@@ -1722,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "every",
           "normalized": "(a-\u003eb-\u003eb)-\u003e[a]-\u003eb-\u003eb",
@@ -1736,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromJust",
           "package": "music-sibelius",
@@ -1745,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromJust",
           "normalized": "Maybe a-\u003ea",
@@ -1760,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromSibBar",
           "package": "music-sibelius",
@@ -1769,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromSibBar",
           "normalized": "SibBar-\u003eScore(Maybe a)",
@@ -1784,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromSibChord",
           "package": "music-sibelius",
@@ -1793,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromSibChord",
           "normalized": "SibChord-\u003eScore a",
@@ -1808,6 +1962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromSibElem",
           "package": "music-sibelius",
@@ -1817,6 +1972,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromSibElem",
           "normalized": "SibElement-\u003eScore a",
@@ -1832,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromSibNote",
           "package": "music-sibelius",
@@ -1841,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromSibNote",
           "normalized": "SibNote-\u003eScore a",
@@ -1856,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "fromSibStaff",
           "package": "music-sibelius",
@@ -1865,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "fromSibStaff",
           "normalized": "SibStaff-\u003eScore a",
@@ -1880,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "keyIsOpen",
           "package": "music-sibelius",
@@ -1889,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "keyIsOpen",
           "package": "music-sibelius",
@@ -1902,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "keyMajor",
           "package": "music-sibelius",
@@ -1911,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "keyMajor",
           "package": "music-sibelius",
@@ -1924,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "keyPosition",
           "package": "music-sibelius",
@@ -1933,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "keyPosition",
           "package": "music-sibelius",
@@ -1946,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "keySharps",
           "package": "music-sibelius",
@@ -1955,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "keySharps",
           "package": "music-sibelius",
@@ -1968,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "keyVoice",
           "package": "music-sibelius",
@@ -1977,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "keyVoice",
           "package": "music-sibelius",
@@ -1990,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "main",
           "package": "music-sibelius",
@@ -1999,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "main",
           "normalized": "IO()",
@@ -2013,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "noteAccidental",
           "package": "music-sibelius",
@@ -2022,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "noteAccidental",
           "package": "music-sibelius",
@@ -2035,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "noteDiatonicPitch",
           "package": "music-sibelius",
@@ -2044,6 +2219,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "noteDiatonicPitch",
           "package": "music-sibelius",
@@ -2057,6 +2233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "notePitch",
           "package": "music-sibelius",
@@ -2066,6 +2243,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "notePitch",
           "package": "music-sibelius",
@@ -2079,6 +2257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "noteStyle",
           "package": "music-sibelius",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "noteStyle",
           "package": "music-sibelius",
@@ -2101,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "noteTied",
           "package": "music-sibelius",
@@ -2110,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "noteTied",
           "package": "music-sibelius",
@@ -2123,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "readSibArticulation",
           "package": "music-sibelius",
@@ -2132,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "readSibArticulation",
           "normalized": "String-\u003eMaybe SibArticulation",
@@ -2147,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "returnMaybe",
           "package": "music-sibelius",
@@ -2156,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "returnMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003ea-\u003ec b",
@@ -2171,6 +2357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreComposer",
           "package": "music-sibelius",
@@ -2180,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreComposer",
           "package": "music-sibelius",
@@ -2193,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreInformation",
           "package": "music-sibelius",
@@ -2202,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreInformation",
           "package": "music-sibelius",
@@ -2215,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreStaffHeight",
           "package": "music-sibelius",
@@ -2224,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreStaffHeight",
           "package": "music-sibelius",
@@ -2237,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreStaves",
           "package": "music-sibelius",
@@ -2246,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreStaves",
           "normalized": "[SibStaff]",
@@ -2261,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreSystemStaff",
           "package": "music-sibelius",
@@ -2270,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreSystemStaff",
           "normalized": "()",
@@ -2285,6 +2481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreTitle",
           "package": "music-sibelius",
@@ -2294,6 +2491,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreTitle",
           "package": "music-sibelius",
@@ -2307,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "scoreTransposing",
           "package": "music-sibelius",
@@ -2316,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "scoreTransposing",
           "package": "music-sibelius",
@@ -2329,6 +2529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "setComposer",
           "package": "music-sibelius",
@@ -2338,6 +2539,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "setComposer",
           "normalized": "String-\u003eScore a-\u003eScore a",
@@ -2353,6 +2555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "setInformation",
           "package": "music-sibelius",
@@ -2362,6 +2565,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "setInformation",
           "normalized": "String-\u003eScore a-\u003eScore a",
@@ -2377,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "setMeta",
           "package": "music-sibelius",
@@ -2386,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "setMeta",
           "normalized": "String-\u003eString-\u003eScore a-\u003eScore a",
@@ -2401,6 +2607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "setTitle",
           "package": "music-sibelius",
@@ -2410,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "setTitle",
           "normalized": "String-\u003eScore a-\u003eScore a",
@@ -2425,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "slurDuration",
           "package": "music-sibelius",
@@ -2434,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "slurDuration",
           "package": "music-sibelius",
@@ -2447,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "slurPosition",
           "package": "music-sibelius",
@@ -2456,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "slurPosition",
           "package": "music-sibelius",
@@ -2469,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "slurStyle",
           "package": "music-sibelius",
@@ -2478,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "slurStyle",
           "package": "music-sibelius",
@@ -2491,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "slurVoice",
           "package": "music-sibelius",
@@ -2500,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "slurVoice",
           "package": "music-sibelius",
@@ -2513,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "staffBars",
           "package": "music-sibelius",
@@ -2522,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "staffBars",
           "normalized": "[SibBar]",
@@ -2537,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "staffName",
           "package": "music-sibelius",
@@ -2546,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "staffName",
           "package": "music-sibelius",
@@ -2559,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "staffShortName",
           "package": "music-sibelius",
@@ -2568,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "staffShortName",
           "package": "music-sibelius",
@@ -2581,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "textPosition",
           "package": "music-sibelius",
@@ -2590,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "textPosition",
           "package": "music-sibelius",
@@ -2603,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "textStyle",
           "package": "music-sibelius",
@@ -2612,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "textStyle",
           "package": "music-sibelius",
@@ -2625,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "textText",
           "package": "music-sibelius",
@@ -2634,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "textText",
           "package": "music-sibelius",
@@ -2647,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "textVoice",
           "package": "music-sibelius",
@@ -2656,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "textVoice",
           "package": "music-sibelius",
@@ -2669,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "timeIsAllaBreve",
           "package": "music-sibelius",
@@ -2678,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "timeIsAllaBreve",
           "package": "music-sibelius",
@@ -2691,6 +2923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "timeIsCommon",
           "package": "music-sibelius",
@@ -2700,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "timeIsCommon",
           "package": "music-sibelius",
@@ -2713,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "timePosition",
           "package": "music-sibelius",
@@ -2722,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "timePosition",
           "package": "music-sibelius",
@@ -2735,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "timeValue",
           "package": "music-sibelius",
@@ -2744,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "timeValue",
           "package": "music-sibelius",
@@ -2757,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "timeVoice",
           "package": "music-sibelius",
@@ -2766,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "timeVoice",
           "package": "music-sibelius",
@@ -2779,6 +3019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "tupletDuration",
           "package": "music-sibelius",
@@ -2788,6 +3029,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "tupletDuration",
           "package": "music-sibelius",
@@ -2801,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "tupletPlayedDuration",
           "package": "music-sibelius",
@@ -2810,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "tupletPlayedDuration",
           "package": "music-sibelius",
@@ -2823,6 +3067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "tupletPosition",
           "package": "music-sibelius",
@@ -2832,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "tupletPosition",
           "package": "music-sibelius",
@@ -2845,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "tupletValue",
           "package": "music-sibelius",
@@ -2854,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "tupletValue",
           "package": "music-sibelius",
@@ -2867,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:47 UTC 2014",
           "module": "Music.Sibelius",
           "name": "tupletVoice",
           "package": "music-sibelius",
@@ -2876,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Music Sibelius",
+          "indexed": "2014-03-11T19:24:47",
           "module": "Music.Sibelius",
           "name": "tupletVoice",
           "package": "music-sibelius",

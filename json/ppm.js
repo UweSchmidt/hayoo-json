@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ppm"
+        "phrase": "ppm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExample: \n      main = \n        writeFile \u003ca\u003etest.ppm\u003c/a\u003e $\n          ppm [ [ (255, 0, 0)\n                , (0, 255, 0)\n                , (0, 0, 255)\n                ]\n              , [ (255, 255, 0)\n                , (255, 255, 255)\n                , (0, 0, 0)\n                ]\n              ]\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:44 UTC 2014",
           "module": "Codec.Image.PPM",
           "name": "PPM",
           "package": "ppm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Example main writeFile test.ppm ppm",
           "hierarchy": "Codec Image PPM",
+          "indexed": "2014-03-11T19:42:44",
           "module": "Codec.Image.PPM",
           "name": "PPM",
           "package": "ppm",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:44 UTC 2014",
           "module": "Codec.Image.PPM",
           "name": "Color",
           "package": "ppm",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PPM",
+          "indexed": "2014-03-11T19:42:44",
           "module": "Codec.Image.PPM",
           "name": "Color",
           "package": "ppm",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:44 UTC 2014",
           "module": "Codec.Image.PPM",
           "name": "ColorArray",
           "package": "ppm",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Codec Image PPM",
+          "indexed": "2014-03-11T19:42:44",
           "module": "Codec.Image.PPM",
           "name": "ColorArray",
           "package": "ppm",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput a human readable ppm string, i.e. in p3 format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:44 UTC 2014",
           "module": "Codec.Image.PPM",
           "name": "ppm",
           "package": "ppm",
@@ -94,6 +101,7 @@
         "index": {
           "description": "output human readable ppm string i.e in p3 format",
           "hierarchy": "Codec Image PPM",
+          "indexed": "2014-03-11T19:42:44",
           "module": "Codec.Image.PPM",
           "name": "ppm",
           "normalized": "[ColorArray]-\u003eString",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput a compact ppm string, i.e. in p6 format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:44 UTC 2014",
           "module": "Codec.Image.PPM",
           "name": "ppm_p6",
           "package": "ppm",
@@ -119,6 +128,7 @@
         "index": {
           "description": "output compact ppm string i.e in p6 format",
           "hierarchy": "Codec Image PPM",
+          "indexed": "2014-03-11T19:42:44",
           "module": "Codec.Image.PPM",
           "name": "ppm_p6",
           "normalized": "[ColorArray]-\u003eString",

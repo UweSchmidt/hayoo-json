@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adaptive-tuple"
+        "phrase": "adaptive-tuple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdaptive tuples with non-strict elements.  It is usually not\n necessary to import this module unless you need to construct\n custom reification functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "Lazy",
           "package": "adaptive-tuple",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Adaptive tuples with non-strict elements It is usually not necessary to import this module unless you need to construct custom reification functions",
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "Lazy",
           "package": "adaptive-tuple",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -301,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -314,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -322,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -335,6 +365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -343,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -356,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -364,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -377,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -385,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -406,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -419,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -427,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -440,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -448,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -461,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -470,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple1",
           "normalized": "ATuple a[b c]",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -494,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple10",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -509,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -518,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple11",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -533,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple12",
           "normalized": "ATuple a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]a[b B]",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple13",
           "normalized": "ATuple a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]a[b D]",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -590,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple14",
           "normalized": "ATuple a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]a[b F]",
@@ -605,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -614,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple15",
           "normalized": "ATuple a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]a[b H]",
@@ -629,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -638,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple16",
           "normalized": "ATuple a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]a[b J]",
@@ -653,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -662,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple17",
           "normalized": "ATuple a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]a[b L]",
@@ -677,6 +737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple18",
           "normalized": "ATuple a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]a[b N]",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple19",
           "normalized": "ATuple a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]a[b P]",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple2",
           "normalized": "ATuple a[b c]a[b c]",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple20",
           "normalized": "ATuple a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]a[b R]",
@@ -773,6 +841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -782,6 +851,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple3",
           "normalized": "ATuple a[b c]a[b c]a[b c]",
@@ -797,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple4",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple5",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -845,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -854,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple6",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -869,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -878,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple7",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -893,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple8",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "ATuple9",
           "normalized": "ATuple a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]a[b c]",
@@ -941,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple12",
           "package": "adaptive-tuple",
@@ -950,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple12",
           "normalized": "a[b]c[d]e[f]-\u003eg[h])-\u003eg[h]",
@@ -965,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple16",
           "package": "adaptive-tuple",
@@ -974,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple16",
           "normalized": "a[b]c[d]e[f]-\u003eg[h])-\u003eg[h]",
@@ -989,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple20",
           "package": "adaptive-tuple",
@@ -998,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple20",
           "normalized": "a[b]c[b]d[e]-\u003ef[g])-\u003ef[g]",
@@ -1013,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple4",
           "package": "adaptive-tuple",
@@ -1022,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple4",
           "normalized": "a[b]c[d]e[f]-\u003eg[h])-\u003eg[h]",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple8",
           "package": "adaptive-tuple",
@@ -1046,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Lazy",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Lazy",
           "name": "reifyTuple8",
           "normalized": "a[b]c[d]e[f]-\u003eg[h])-\u003eg[h]",
@@ -1062,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAdaptive Tuples with strict fields and unboxed elements.  The equivalent\n of \u003ccode\u003edata ATuple1 s n = ATuple1 !n\u003c/code\u003e compiled with \u003ccode\u003e-funbox-strict-fields\u003c/code\u003e.\n It is usually not necessary to import this module except to make custom\n reification functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "Strict",
           "package": "adaptive-tuple",
@@ -1071,6 +1164,7 @@
         "index": {
           "description": "Adaptive Tuples with strict fields and unboxed elements The equivalent of data ATuple1 ATuple1 compiled with funbox-strict-fields It is usually not necessary to import this module except to make custom reification functions",
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "Strict",
           "package": "adaptive-tuple",
@@ -1084,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -1113,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -1126,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -1134,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -1147,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -1155,6 +1256,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -1168,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -1176,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -1189,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -1197,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -1210,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -1231,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -1273,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -1281,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -1294,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -1302,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -1315,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -1323,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -1336,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -1344,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -1357,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -1365,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -1378,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -1386,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -1399,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -1420,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -1428,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -1441,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -1449,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -1462,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -1470,6 +1601,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -1483,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -1491,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -1504,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple1",
           "package": "adaptive-tuple",
@@ -1513,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple1",
           "normalized": "ATuple a[a b]",
@@ -1528,6 +1664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple10",
           "package": "adaptive-tuple",
@@ -1537,6 +1674,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple10",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1552,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple11",
           "package": "adaptive-tuple",
@@ -1561,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple11",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple12",
           "package": "adaptive-tuple",
@@ -1585,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple12",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1600,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple13",
           "package": "adaptive-tuple",
@@ -1609,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple13",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1624,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple14",
           "package": "adaptive-tuple",
@@ -1633,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple14",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1648,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple15",
           "package": "adaptive-tuple",
@@ -1657,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple15",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1672,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple16",
           "package": "adaptive-tuple",
@@ -1681,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple16",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1696,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple17",
           "package": "adaptive-tuple",
@@ -1705,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple17",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1720,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple18",
           "package": "adaptive-tuple",
@@ -1729,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple18",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1744,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple19",
           "package": "adaptive-tuple",
@@ -1753,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple19",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1768,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple2",
           "package": "adaptive-tuple",
@@ -1777,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple2",
           "normalized": "ATuple a[a b]a[a b]",
@@ -1792,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple20",
           "package": "adaptive-tuple",
@@ -1801,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple20",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1816,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple3",
           "package": "adaptive-tuple",
@@ -1825,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple3",
           "normalized": "ATuple a[a b]a[a b]a[a b]",
@@ -1840,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple4",
           "package": "adaptive-tuple",
@@ -1849,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple4",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]",
@@ -1864,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple5",
           "package": "adaptive-tuple",
@@ -1873,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple5",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1888,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple6",
           "package": "adaptive-tuple",
@@ -1897,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple6",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1912,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple7",
           "package": "adaptive-tuple",
@@ -1921,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple7",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1936,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple8",
           "package": "adaptive-tuple",
@@ -1945,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple8",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1960,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple9",
           "package": "adaptive-tuple",
@@ -1969,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "ATuple9",
           "normalized": "ATuple a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]a[a b]",
@@ -1984,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple12",
           "package": "adaptive-tuple",
@@ -1993,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple12",
           "normalized": "a[b c]d[b c]e[b c Z]-\u003ef[b c])-\u003ef[b c]",
@@ -2008,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple16",
           "package": "adaptive-tuple",
@@ -2017,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple16",
           "normalized": "a[b c]d[b e]f[b g]-\u003eh[b i])-\u003eh[b i]",
@@ -2032,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple20",
           "package": "adaptive-tuple",
@@ -2041,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple20",
           "normalized": "a[b c]d[b e]f[b g]-\u003eh[b i])-\u003eh[b i]",
@@ -2056,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple4",
           "package": "adaptive-tuple",
@@ -2065,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple4",
           "normalized": "a[b c F]d[b c G]e[b c D]-\u003ef[b c E])-\u003ef[b c E]",
@@ -2080,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple8",
           "package": "adaptive-tuple",
@@ -2089,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple Reps Strict",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple.Reps.Strict",
           "name": "reifyTuple8",
           "normalized": "a[b c Y]d[b c Z]e[b c W]-\u003ef[b c X])-\u003ef[b c X]",
@@ -2105,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides support for adaptive tuples.\n An \u003ccode\u003e\u003ca\u003eAdaptiveTuple\u003c/a\u003e\u003c/code\u003e is a tuple type with the size chosen at run-time and\n minimal overhead.  All elements must be of the same type.  Calculations\n are generated by combining adaptive tuples, which are then given an\n initial input with the \u003ccode\u003e\u003ca\u003ereifyTuple\u003c/a\u003e\u003c/code\u003e function or its strict variant.\n\u003c/p\u003e\u003cp\u003eExample: suppose you have a list of numbers that is either a single list\n or multiple interleaved lists.  You wish to determine the maximum value\n of the single list or maximums of all interleaved lists.\n\u003c/p\u003e\u003cpre\u003e  -- |The second  argument is a dummy argument to fix the type of c s ()\n  -- so this function can be used directly with reifyTuple\n  deinterleave :: AdaptiveTuple c s =\u003e [Int] -\u003e c s () -\u003e [c s Int]\n  deinterleave [] _ = []\n  deinterleave xs n = let (h, rest) = splitAt (tupLength n) xs\n                      in toATuple h : deinterleave n rest\n\n  maxVals :: AdaptiveTuple c s =\u003e [c s Int] -\u003e c s Int\n  maxVals = foldl' (\\a b -\u003e max \u003c$\u003e a \u003c*\u003e b) (pure 0)\n\n  runner :: Int -\u003e [Int] -\u003e [Int]\n  runner n xs = reifyStrictTuple n (repeat ())\n                  (fromATuple . maxVals . deinterleave xs)\n\u003c/pre\u003e\u003cp\u003eusing AdaptiveTuple is similar to the \u003ccode\u003e\u003ca\u003eZipList\u003c/a\u003e\u003c/code\u003e applicative instance, except\n without the overhead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTuple",
           "package": "adaptive-tuple",
@@ -2114,6 +2299,7 @@
         "index": {
           "description": "This module provides support for adaptive tuples An AdaptiveTuple is tuple type with the size chosen at run-time and minimal overhead All elements must be of the same type Calculations are generated by combining adaptive tuples which are then given an initial input with the reifyTuple function or its strict variant Example suppose you have list of numbers that is either single list or multiple interleaved lists You wish to determine the maximum value of the single list or maximums of all interleaved lists The second argument is dummy argument to fix the type of so this function can be used directly with reifyTuple deinterleave AdaptiveTuple Int Int deinterleave deinterleave xs let rest splitAt tupLength xs in toATuple deinterleave rest maxVals AdaptiveTuple Int Int maxVals foldl max pure runner Int Int Int runner xs reifyStrictTuple repeat fromATuple maxVals deinterleave xs using AdaptiveTuple is similar to the ZipList applicative instance except without the overhead",
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTuple",
           "package": "adaptive-tuple",
@@ -2128,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdaptive tuples: unboxed tuples of varying size.\n \u003ccode\u003es\u003c/code\u003e is a type-level indicator of the number of elements in the container.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTuple",
           "package": "adaptive-tuple",
@@ -2137,6 +2324,7 @@
         "index": {
           "description": "Adaptive tuples unboxed tuples of varying size is type-level indicator of the number of elements in the container",
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTuple",
           "package": "adaptive-tuple",
@@ -2150,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTupleException",
           "package": "adaptive-tuple",
@@ -2158,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "AdaptiveTupleException",
           "package": "adaptive-tuple",
@@ -2171,6 +2361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "ATupleIndexOutOfBounds",
           "package": "adaptive-tuple",
@@ -2180,6 +2371,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "ATupleIndexOutOfBounds",
           "package": "adaptive-tuple",
@@ -2193,6 +2385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "ATupleInsufficientInput",
           "package": "adaptive-tuple",
@@ -2202,6 +2395,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "ATupleInsufficientInput",
           "package": "adaptive-tuple",
@@ -2215,6 +2409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "fromATuple",
           "package": "adaptive-tuple",
@@ -2224,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "fromATuple",
           "normalized": "a b c-\u003e[c]",
@@ -2239,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "getIndex",
           "package": "adaptive-tuple",
@@ -2248,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "getIndex",
           "normalized": "a b c-\u003eInt-\u003ec",
@@ -2264,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazily convert a list of AdaptiveTuples into an AdaptiveTuple of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "invert",
           "package": "adaptive-tuple",
@@ -2274,6 +2473,7 @@
         "index": {
           "description": "Lazily convert list of AdaptiveTuples into an AdaptiveTuple of lists",
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "invert",
           "normalized": "[a b c]-\u003ea b[c]",
@@ -2288,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "mapIndex",
           "package": "adaptive-tuple",
@@ -2297,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "mapIndex",
           "normalized": "(a-\u003ea)-\u003eInt-\u003eb c a-\u003eb c a",
@@ -2313,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a 0-indexed function over an AdaptiveTuple\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "mapIndexed",
           "package": "adaptive-tuple",
@@ -2323,6 +2526,7 @@
         "index": {
           "description": "Map indexed function over an AdaptiveTuple",
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "mapIndexed",
           "normalized": "(Int-\u003ea-\u003eb)-\u003ec d a-\u003ec d b",
@@ -2338,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "reifyStrictTuple",
           "package": "adaptive-tuple",
@@ -2347,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "reifyStrictTuple",
           "normalized": "a b c-\u003ed)-\u003ed",
@@ -2362,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "reifyTuple",
           "package": "adaptive-tuple",
@@ -2371,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "reifyTuple",
           "normalized": "a b c-\u003ed)-\u003ed",
@@ -2386,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "sequenceAT",
           "package": "adaptive-tuple",
@@ -2395,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "sequenceAT",
           "normalized": "a b(c d)-\u003ec(a b d)",
@@ -2410,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "setIndex",
           "package": "adaptive-tuple",
@@ -2419,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "setIndex",
           "normalized": "Int-\u003ea-\u003eb c a-\u003eb c a",
@@ -2434,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "toATuple",
           "package": "adaptive-tuple",
@@ -2443,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "toATuple",
           "normalized": "[a]-\u003eb c a",
@@ -2458,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:07 UTC 2014",
           "module": "Data.AdaptiveTuple",
           "name": "tupLength",
           "package": "adaptive-tuple",
@@ -2467,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "Data AdaptiveTuple",
+          "indexed": "2014-03-11T17:08:07",
           "module": "Data.AdaptiveTuple",
           "name": "tupLength",
           "normalized": "a b c-\u003eInt",

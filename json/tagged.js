@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagged"
+        "phrase": "tagged",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Proxy",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Proxy",
           "name": "Proxy",
           "package": "tagged",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easProxyTypeOf\u003c/a\u003e\u003c/code\u003e is a type-restricted version of \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e.\n It is usually used as an infix operator, and its typing forces its first\n argument (which is usually overloaded) to have the same type as the tag\n of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Proxy",
           "name": "asProxyTypeOf",
           "package": "tagged",
@@ -93,6 +100,7 @@
         "index": {
           "description": "asProxyTypeOf is type-restricted version of const It is usually used as an infix operator and its typing forces its first argument which is usually overloaded to have the same type as the tag of the second",
           "hierarchy": "Data Proxy",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Proxy",
           "name": "asProxyTypeOf",
           "normalized": "a-\u003eb a-\u003ea",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome times you need to change the proxy you have lying around.\n Idiomatic usage is to make a new combinator for the relationship\n between the proxies that you want to enforce, and define that\n combinator using \u003ccode\u003e\u003ca\u003ereproxy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e data Succ n\n reproxySucc :: proxy n -\u003e Proxy (Succ n)\n reproxySucc = reproxy\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Proxy",
           "name": "reproxy",
           "package": "tagged",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Some times you need to change the proxy you have lying around Idiomatic usage is to make new combinator for the relationship between the proxies that you want to enforce and define that combinator using reproxy data Succ reproxySucc proxy Proxy Succ reproxySucc reproxy",
           "hierarchy": "Data Proxy",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Proxy",
           "name": "reproxy",
           "normalized": "a b-\u003eProxy c",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e s b\u003c/code\u003e value is a value \u003ccode\u003eb\u003c/code\u003e with an attached phantom type \u003ccode\u003es\u003c/code\u003e.\n This can be used in place of the more traditional but less safe idiom of\n passing in an undefined value with the type, because unlike an \u003ccode\u003e(s -\u003e b)\u003c/code\u003e,\n a \u003ccode\u003e\u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e s b\u003c/code\u003e can't try to use the argument \u003ccode\u003es\u003c/code\u003e as a real value.\n\u003c/p\u003e\u003cp\u003eMoreover, you don't have to rely on the compiler to inline away the extra\n argument, because the newtype is \"free\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Tagged value is value with an attached phantom type This can be used in place of the more traditional but less safe idiom of passing in an undefined value with the type because unlike an Tagged can try to use the argument as real value Moreover you don have to rely on the compiler to inline away the extra argument because the newtype is free",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "Tagged",
           "package": "tagged",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003easTaggedTypeOf\u003c/a\u003e\u003c/code\u003e is a type-restricted version of \u003ccode\u003e\u003ca\u003econst\u003c/a\u003e\u003c/code\u003e. It is usually used as an infix operator, and its typing forces its first argument (which is usually overloaded) to have the same type as the tag of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "asTaggedTypeOf",
           "package": "tagged",
@@ -210,6 +227,7 @@
         "index": {
           "description": "asTaggedTypeOf is type-restricted version of const It is usually used as an infix operator and its typing forces its first argument which is usually overloaded to have the same type as the tag of the second",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "asTaggedTypeOf",
           "normalized": "a-\u003eb a c-\u003ea",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a \u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e representation to a representation\n based on a \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "proxy",
           "package": "tagged",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Convert from Tagged representation to representation based on Proxy",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "proxy",
           "normalized": "Tagged a b-\u003ec a-\u003eb",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome times you need to change the tag you have lying around.\n Idiomatic usage is to make a new combinator for the relationship between the\n tags that you want to enforce, and define that combinator using \u003ccode\u003e\u003ca\u003eretag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\n data Succ n\n retagSucc :: \u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e n a -\u003e \u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e (Succ n) a\n retagSucc = \u003ccode\u003e\u003ca\u003eretag\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "retag",
           "package": "tagged",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Some times you need to change the tag you have lying around Idiomatic usage is to make new combinator for the relationship between the tags that you want to enforce and define that combinator using retag data Succ retagSucc Tagged Tagged Succ retagSucc retag",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "retag",
           "normalized": "Tagged a b-\u003eTagged c b",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTag a value with its own type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "tagSelf",
           "package": "tagged",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Tag value with its own type",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "tagSelf",
           "normalized": "a-\u003eTagged a a",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "unTagged",
           "package": "tagged",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "unTagged",
           "package": "tagged",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a representation based on a \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eTagged\u003c/a\u003e\u003c/code\u003e\n representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "unproxy",
           "package": "tagged",
@@ -334,6 +361,7 @@
         "index": {
           "description": "Convert from representation based on Proxy to Tagged representation",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "unproxy",
           "normalized": "(Proxy a-\u003eb)-\u003eTagged a b",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003eunTagged\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "untag",
           "package": "tagged",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Alias for unTagged",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "untag",
           "normalized": "Tagged a b-\u003eb",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euntagSelf\u003c/a\u003e\u003c/code\u003e is a type-restricted version of \u003ccode\u003e\u003ca\u003euntag\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "untagSelf",
           "package": "tagged",
@@ -384,6 +415,7 @@
         "index": {
           "description": "untagSelf is type-restricted version of untag",
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "untagSelf",
           "normalized": "Tagged a a-\u003ea",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:27 UTC 2014",
           "module": "Data.Tagged",
           "name": "witness",
           "package": "tagged",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data Tagged",
+          "indexed": "2014-03-11T20:16:27",
           "module": "Data.Tagged",
           "name": "witness",
           "normalized": "Tagged a b-\u003ea-\u003eb",

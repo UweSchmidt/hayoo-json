@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty"
+        "phrase": "scotty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIt should be noted that most of the code snippets below depend on the\n OverloadedStrings language pragma.\n\u003c/p\u003e\u003cp\u003eThe functions in this module allow an arbitrary monad to be embedded\n in Scotty's monad transformer stack in order that Scotty be combined\n with other DSLs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "Trans",
           "package": "scotty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "It should be noted that most of the code snippets below depend on the OverloadedStrings language pragma The functions in this module allow an arbitrary monad to be embedded in Scotty monad transformer stack in order that Scotty be combined with other DSLs",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "Trans",
           "package": "scotty",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "ActionT",
           "package": "scotty",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "ActionT",
           "package": "scotty",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "File",
           "package": "scotty",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "File",
           "package": "scotty",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "Options",
           "package": "scotty",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "Options",
           "package": "scotty",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "Param",
           "package": "scotty",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "Param",
           "package": "scotty",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum implemention: \u003ccode\u003e\u003ca\u003eparseParam\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "Parsable",
           "package": "scotty",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Minimum implemention parseParam",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "Parsable",
           "package": "scotty",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "RoutePattern",
           "package": "scotty",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "RoutePattern",
           "package": "scotty",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn order to use a custom exception type (aside from \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e), you must\n define an instance of \u003ccode\u003e\u003ca\u003eScottyError\u003c/a\u003e\u003c/code\u003e for that type. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "ScottyError",
           "package": "scotty",
@@ -179,6 +194,7 @@
         "index": {
           "description": "In order to use custom exception type aside from Text you must define an instance of ScottyError for that type",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "ScottyError",
           "package": "scotty",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "ScottyT",
           "package": "scotty",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "ScottyT",
           "package": "scotty",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd to the response headers. Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "addHeader",
           "package": "scotty",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Add to the response headers Header names are case-insensitive",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "addHeader",
           "normalized": "Text-\u003eText-\u003eActionT a b()",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a route with a \u003ccode\u003e\u003ca\u003eStdMethod\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value representing the path spec,\n and a body (\u003ccode\u003eAction\u003c/code\u003e) which modifies the response.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/\" $ text \"beam me up!\"\n\u003c/pre\u003e\u003cp\u003eThe path spec can include values starting with a colon, which are interpreted\n as \u003cem\u003ecaptures\u003c/em\u003e. These are named wildcards that can be looked up with \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/foo/:bar\" $ do\n     v \u003c- param \"bar\"\n     text v\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/foo/something\n\u003c/code\u003e\u003c/strong\u003esomething\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "addroute",
           "package": "scotty",
@@ -273,6 +294,7 @@
         "index": {
           "description": "Define route with StdMethod Text value representing the path spec and body Action which modifies the response addroute GET text beam me up The path spec can include values starting with colon which are interpreted as captures These are named wildcards that can be looked up with param addroute GET foo bar do param bar text curl http localhost foo something something",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "addroute",
           "normalized": "StdMethod-\u003eRoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "body",
           "package": "scotty",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Get the request body",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "body",
           "package": "scotty",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Sinatra-style route. Named captures are prepended with colons.\n   This is the default route type generated by OverloadedString routes. i.e.\n\u003c/p\u003e\u003cpre\u003e get (capture \"/foo/:bar\") $ ...\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n ...\n get \"/foo/:bar\" $ ...\n\u003c/pre\u003e\u003cp\u003eare equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "capture",
           "package": "scotty",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Standard Sinatra-style route Named captures are prepended with colons This is the default route type generated by OverloadedString routes i.e get capture foo bar and LANGUAGE OverloadedStrings get foo bar are equivalent",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "capture",
           "normalized": "String-\u003eRoutePattern",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal handler for uncaught exceptions. \n\u003c/p\u003e\u003cp\u003eUncaught exceptions normally become 500 responses. \n You can use this to selectively override that behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "defaultHandler",
           "package": "scotty",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Global handler for uncaught exceptions Uncaught exceptions normally become responses You can use this to selectively override that behavior",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "defaultHandler",
           "normalized": "(a-\u003eActionT a b())-\u003eScottyT a b()",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDELETE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "delete",
           "package": "scotty",
@@ -372,6 +401,7 @@
         "index": {
           "description": "delete addroute DELETE",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "delete",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file as the response. Doesn't set the \"Content-Type\" header, so you probably\n want to do that on your own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "file",
           "package": "scotty",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Send file as the response Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "file",
           "normalized": "FilePath-\u003eActionT a b()",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of uploaded files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "files",
           "package": "scotty",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Get list of uploaded files",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "files",
           "normalized": "ActionT a b[File]",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a route based on a function which can match using the entire \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n   \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates the route does not match. A \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value indicates\n   a successful match, optionally returning a list of key-value pairs accessible\n   by \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e get (function $ \\req -\u003e Just [(\"version\", T.pack $ show $ httpVersion req)]) $ do\n     v \u003c- param \"version\"\n     text v\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/\n\u003c/code\u003e\u003c/strong\u003eHTTP/1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "function",
           "package": "scotty",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Build route based on function which can match using the entire Request object Nothing indicates the route does not match Just value indicates successful match optionally returning list of key-value pairs accessible by param get function req Just version T.pack show httpVersion req do param version text curl http localhost HTTP",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "function",
           "normalized": "(Request-\u003eMaybe[Param])-\u003eRoutePattern",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eGET\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "get",
           "package": "scotty",
@@ -472,6 +509,7 @@
         "index": {
           "description": "get addroute GET",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "get",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/html\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "html",
           "package": "scotty",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text html",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "html",
           "normalized": "Text-\u003eActionT a b()",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the JSON encoding of the given value. Also sets \"Content-Type\"\n header to \"application/json\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "json",
           "package": "scotty",
@@ -522,6 +563,7 @@
         "index": {
           "description": "Set the body of the response to the JSON encoding of the given value Also sets Content-Type header to application json",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "json",
           "normalized": "a-\u003eActionT b c()",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the request body as a JSON object and return it. Raises an exception if parse is unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "jsonData",
           "package": "scotty",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Parse the request body as JSON object and return it Raises an exception if parse is unsuccessful",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "jsonData",
           "package": "scotty",
@@ -561,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a route that requires the requested path match exactly, without captures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "literal",
           "package": "scotty",
@@ -571,6 +616,7 @@
         "index": {
           "description": "Build route that requires the requested path match exactly without captures",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "literal",
           "normalized": "String-\u003eRoutePattern",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a route that matches regardless of the HTTP verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "matchAny",
           "package": "scotty",
@@ -596,6 +643,7 @@
         "index": {
           "description": "Add route that matches regardless of the HTTP verb",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "matchAny",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -612,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse given middleware. Middleware is nested such that the first declared\n is the outermost middleware (it has first dibs on the request and last action\n on the response). Every middleware is run on each request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "middleware",
           "package": "scotty",
@@ -622,6 +671,7 @@
         "index": {
           "description": "Use given middleware Middleware is nested such that the first declared is the outermost middleware it has first dibs on the request and last action on the response Every middleware is run on each request",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "middleware",
           "normalized": "Middleware-\u003eScottyT a b()",
@@ -637,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort execution of this action and continue pattern matching routes.\n Like an exception, any code after \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is not executed.\n\u003c/p\u003e\u003cp\u003eAs an example, these two routes overlap. The only way the second one will\n ever run is if the first one calls \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e get \"/foo/:bar\" $ do\n   w :: Text \u003c- param \"bar\"\n   unless (w == \"special\") next\n   text \"You made a request to /foo/special\"\n\n get \"/foo/:baz\" $ do\n   w \u003c- param \"baz\"\n   text $ \"You made a request to: \" \u003c\u003e w\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "next",
           "package": "scotty",
@@ -647,6 +698,7 @@
         "index": {
           "description": "Abort execution of this action and continue pattern matching routes Like an exception any code after next is not executed As an example these two routes overlap The only way the second one will ever run is if the first one calls next get foo bar do Text param bar unless special next text You made request to foo special get foo baz do param baz text You made request to",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "next",
           "package": "scotty",
@@ -660,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify an action to take if nothing else is found. Note: this _always_ matches,\n so should generally be the last route specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "notFound",
           "package": "scotty",
@@ -670,6 +723,7 @@
         "index": {
           "description": "Specify an action to take if nothing else is found Note this always matches so should generally be the last route specified",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "notFound",
           "normalized": "ActionT a b()-\u003eScottyT a b()",
@@ -686,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a parameter. First looks in captures, then form data, then query parameters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Raises an exception which can be caught by \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e if parameter is not found.\n\u003c/li\u003e\u003cli\u003e If parameter is found, but \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e fails to parse to the correct type, \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is called.\n   This means captures are somewhat typed, in that a route won't match if a correctly typed\n   capture cannot be parsed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "param",
           "package": "scotty",
@@ -696,6 +751,7 @@
         "index": {
           "description": "Get parameter First looks in captures then form data then query parameters Raises an exception which can be caught by rescue if parameter is not found If parameter is found but read fails to parse to the correct type next is called This means captures are somewhat typed in that route won match if correctly typed capture cannot be parsed",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "param",
           "normalized": "Text-\u003eActionT a b c",
@@ -711,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all parameters from capture, form and query (in that order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "params",
           "package": "scotty",
@@ -721,6 +778,7 @@
         "index": {
           "description": "Get all parameters from capture form and query in that order",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "params",
           "normalized": "ActionT a b[Param]",
@@ -736,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value and parse it as \u003ccode\u003ea\u003c/code\u003e, or fail with a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "parseParam",
           "package": "scotty",
@@ -746,6 +805,7 @@
         "index": {
           "description": "Take Text value and parse it as or fail with message",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "parseParam",
           "normalized": "Text-\u003eEither Text a",
@@ -762,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation parses comma-delimited lists.\n\u003c/p\u003e\u003cpre\u003e parseParamList t = mapM parseParam (T.split (== ',') t)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "parseParamList",
           "package": "scotty",
@@ -772,6 +833,7 @@
         "index": {
           "description": "Default implementation parses comma-delimited lists parseParamList mapM parseParam T.split",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "parseParamList",
           "normalized": "Text-\u003eEither Text[a]",
@@ -788,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epatch = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePATCH\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "patch",
           "package": "scotty",
@@ -798,6 +861,7 @@
         "index": {
           "description": "patch addroute PATCH",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "patch",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -813,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epost = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePOST\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "post",
           "package": "scotty",
@@ -823,6 +888,7 @@
         "index": {
           "description": "post addroute POST",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "post",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -838,6 +904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePUT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "put",
           "package": "scotty",
@@ -848,6 +915,7 @@
         "index": {
           "description": "put addroute PUT",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "put",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -863,6 +931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception, which can be caught with \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e. Uncaught exceptions\n turn into HTTP 500 responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "raise",
           "package": "scotty",
@@ -873,6 +942,7 @@
         "index": {
           "description": "Throw an exception which can be caught with rescue Uncaught exceptions turn into HTTP responses",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "raise",
           "normalized": "a-\u003eActionT a b c",
@@ -888,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e value. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your\n own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "raw",
           "package": "scotty",
@@ -898,6 +969,7 @@
         "index": {
           "description": "Set the body of the response to the given ByteString value Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "raw",
           "normalized": "ByteString-\u003eActionT a b()",
@@ -940,6 +1012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to given URL. Like throwing an uncatchable exception. Any code after the call to redirect\n will not be run.\n\u003c/p\u003e\u003cpre\u003e redirect \"http://www.google.com\"\n\u003c/pre\u003e\u003cp\u003eOR\n\u003c/p\u003e\u003cpre\u003e redirect \"/foo/bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "redirect",
           "package": "scotty",
@@ -950,6 +1023,7 @@
         "index": {
           "description": "Redirect to given URL Like throwing an uncatchable exception Any code after the call to redirect will not be run redirect http www.google.com OR redirect foo bar",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "redirect",
           "normalized": "Text-\u003eActionT a b c",
@@ -965,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch requests using a regular expression.\n   Named captures are not yet supported.\n\u003c/p\u003e\u003cpre\u003e get (regex \"^/f(.*)r$\") $ do\n    path \u003c- param \"0\"\n    cap \u003c- param \"1\"\n    text $ mconcat [\"Path: \", path, \"\\nCapture: \", cap]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/foo/bar\n\u003c/code\u003e\u003c/strong\u003ePath: /foo/bar\nCapture: oo/ba\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "regex",
           "package": "scotty",
@@ -975,6 +1050,7 @@
         "index": {
           "description": "Match requests using regular expression Named captures are not yet supported get regex do path param cap param text mconcat Path path nCapture cap curl http localhost foo bar Path foo bar Capture oo ba",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "regex",
           "normalized": "String-\u003eRoutePattern",
@@ -990,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a request header. Header name is case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "reqHeader",
           "package": "scotty",
@@ -1000,6 +1077,7 @@
         "index": {
           "description": "Get request header Header name is case-insensitive",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "reqHeader",
           "normalized": "Text-\u003eActionT a b(Maybe Text)",
@@ -1016,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "request",
           "package": "scotty",
@@ -1026,6 +1105,7 @@
         "index": {
           "description": "Get the Request object",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "request",
           "package": "scotty",
@@ -1039,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an exception thrown by \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e raise \"just kidding\" `rescue` (\\msg -\u003e text msg)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "rescue",
           "package": "scotty",
@@ -1049,6 +1130,7 @@
         "index": {
           "description": "Catch an exception thrown by raise raise just kidding rescue msg text msg",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "rescue",
           "normalized": "ActionT a b c-\u003e(a-\u003eActionT a b c)-\u003eActionT a b c",
@@ -1064,6 +1146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a scotty application into a WAI \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e, which can be\n run with any WAI handler.\n NB: \u003ccode\u003escottyApp\u003c/code\u003e === 'scottyAppT id id'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "scottyAppT",
           "package": "scotty",
@@ -1073,6 +1156,7 @@
         "index": {
           "description": "Turn scotty application into WAI Application which can be run with any WAI handler NB scottyApp scottyAppT id id",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "scottyAppT",
           "normalized": "(a b c d-\u003ee d)-\u003e(c Response-\u003eIO Response)-\u003eScottyT f c()-\u003ee Application",
@@ -1089,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a scotty application using the warp server, passing extra options.\n NB: 'scottyOpts opts' === 'scottyOptsT opts id id'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "scottyOptsT",
           "package": "scotty",
@@ -1098,6 +1183,7 @@
         "index": {
           "description": "Run scotty application using the warp server passing extra options NB scottyOpts opts scottyOptsT opts id id",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "scottyOptsT",
           "normalized": "Options-\u003e(a b c d-\u003ee d)-\u003e(c Response-\u003eIO Response)-\u003eScottyT f c()-\u003ee()",
@@ -1114,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a scotty application using the warp server.\n NB: 'scotty p' === 'scottyT p id id'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "scottyT",
           "package": "scotty",
@@ -1123,6 +1210,7 @@
         "index": {
           "description": "Run scotty application using the warp server NB scotty scottyT id id",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "scottyT",
           "normalized": "Port-\u003e(a b c d-\u003ee d)-\u003e(c Response-\u003eIO Response)-\u003eScottyT f c()-\u003ee()",
@@ -1138,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one of the response headers. Will override any previously set value for that header.\n Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "setHeader",
           "package": "scotty",
@@ -1148,6 +1237,7 @@
         "index": {
           "description": "Set one of the response headers Will override any previously set value for that header Header names are case-insensitive",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "setHeader",
           "normalized": "Text-\u003eText-\u003eActionT a b()",
@@ -1187,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "showError",
           "package": "scotty",
@@ -1196,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "showError",
           "normalized": "a-\u003eText",
@@ -1212,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to a Source. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your\n own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "source",
           "package": "scotty",
@@ -1222,6 +1315,7 @@
         "index": {
           "description": "Set the body of the response to Source Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "source",
           "normalized": "Source IO(Flush Builder)-\u003eActionT a b()",
@@ -1237,6 +1331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the HTTP response status. Default is 200.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "status",
           "package": "scotty",
@@ -1247,6 +1342,7 @@
         "index": {
           "description": "Set the HTTP response status Default is",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "status",
           "normalized": "Status-\u003eActionT a b()",
@@ -1261,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "stringError",
           "package": "scotty",
@@ -1270,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "stringError",
           "normalized": "String-\u003ea",
@@ -1286,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/plain\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty.Trans",
           "name": "text",
           "package": "scotty",
@@ -1296,6 +1395,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text plain",
           "hierarchy": "Web Scotty Trans",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty.Trans",
           "name": "text",
           "normalized": "Text-\u003eActionT a b()",
@@ -1335,6 +1435,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIt should be noted that most of the code snippets below depend on the\n OverloadedStrings language pragma.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "Scotty",
           "package": "scotty",
@@ -1344,6 +1445,7 @@
         "index": {
           "description": "It should be noted that most of the code snippets below depend on the OverloadedStrings language pragma",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "Scotty",
           "package": "scotty",
@@ -1357,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "ActionM",
           "package": "scotty",
@@ -1365,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "ActionM",
           "package": "scotty",
@@ -1378,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "File",
           "package": "scotty",
@@ -1386,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "File",
           "package": "scotty",
@@ -1399,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "Options",
           "package": "scotty",
@@ -1407,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "Options",
           "package": "scotty",
@@ -1420,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "Param",
           "package": "scotty",
@@ -1428,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "Param",
           "package": "scotty",
@@ -1442,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum implemention: \u003ccode\u003e\u003ca\u003eparseParam\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "Parsable",
           "package": "scotty",
@@ -1451,6 +1562,7 @@
         "index": {
           "description": "Minimum implemention parseParam",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "Parsable",
           "package": "scotty",
@@ -1464,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "RoutePattern",
           "package": "scotty",
@@ -1472,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "RoutePattern",
           "package": "scotty",
@@ -1485,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "ScottyM",
           "package": "scotty",
@@ -1493,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "ScottyM",
           "package": "scotty",
@@ -1507,6 +1623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd to the response headers. Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "addHeader",
           "package": "scotty",
@@ -1517,6 +1634,7 @@
         "index": {
           "description": "Add to the response headers Header names are case-insensitive",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "addHeader",
           "normalized": "Text-\u003eText-\u003eActionM()",
@@ -1533,6 +1651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a route with a \u003ccode\u003e\u003ca\u003eStdMethod\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value representing the path spec,\n and a body (\u003ccode\u003eAction\u003c/code\u003e) which modifies the response.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/\" $ text \"beam me up!\"\n\u003c/pre\u003e\u003cp\u003eThe path spec can include values starting with a colon, which are interpreted\n as \u003cem\u003ecaptures\u003c/em\u003e. These are named wildcards that can be looked up with \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/foo/:bar\" $ do\n     v \u003c- param \"bar\"\n     text v\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/foo/something\n\u003c/code\u003e\u003c/strong\u003esomething\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "addroute",
           "package": "scotty",
@@ -1543,6 +1662,7 @@
         "index": {
           "description": "Define route with StdMethod Text value representing the path spec and body Action which modifies the response addroute GET text beam me up The path spec can include values starting with colon which are interpreted as captures These are named wildcards that can be looked up with param addroute GET foo bar do param bar text curl http localhost foo something something",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "addroute",
           "normalized": "StdMethod-\u003eRoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -1558,6 +1678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "body",
           "package": "scotty",
@@ -1568,6 +1689,7 @@
         "index": {
           "description": "Get the request body",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "body",
           "package": "scotty",
@@ -1581,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard Sinatra-style route. Named captures are prepended with colons.\n   This is the default route type generated by OverloadedString routes. i.e.\n\u003c/p\u003e\u003cpre\u003e get (capture \"/foo/:bar\") $ ...\n\u003c/pre\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n ...\n get \"/foo/:bar\" $ ...\n\u003c/pre\u003e\u003cp\u003eare equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "capture",
           "package": "scotty",
@@ -1591,6 +1714,7 @@
         "index": {
           "description": "Standard Sinatra-style route Named captures are prepended with colons This is the default route type generated by OverloadedString routes i.e get capture foo bar and LANGUAGE OverloadedStrings get foo bar are equivalent",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "capture",
           "normalized": "String-\u003eRoutePattern",
@@ -1606,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal handler for uncaught exceptions. \n\u003c/p\u003e\u003cp\u003eUncaught exceptions normally become 500 responses. \n You can use this to selectively override that behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "defaultHandler",
           "package": "scotty",
@@ -1616,6 +1741,7 @@
         "index": {
           "description": "Global handler for uncaught exceptions Uncaught exceptions normally become responses You can use this to selectively override that behavior",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "defaultHandler",
           "normalized": "(Text-\u003eActionM())-\u003eScottyM()",
@@ -1632,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eDELETE\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "delete",
           "package": "scotty",
@@ -1642,6 +1769,7 @@
         "index": {
           "description": "delete addroute DELETE",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "delete",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -1657,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file as the response. Doesn't set the \"Content-Type\" header, so you probably\n want to do that on your own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "file",
           "package": "scotty",
@@ -1667,6 +1796,7 @@
         "index": {
           "description": "Send file as the response Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "file",
           "normalized": "FilePath-\u003eActionM()",
@@ -1682,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of uploaded files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "files",
           "package": "scotty",
@@ -1692,6 +1823,7 @@
         "index": {
           "description": "Get list of uploaded files",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "files",
           "normalized": "ActionM[File]",
@@ -1707,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a route based on a function which can match using the entire \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n   \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e indicates the route does not match. A \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value indicates\n   a successful match, optionally returning a list of key-value pairs accessible\n   by \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e get (function $ \\req -\u003e Just [(\"version\", pack $ show $ httpVersion req)]) $ do\n     v \u003c- param \"version\"\n     text v\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/\n\u003c/code\u003e\u003c/strong\u003eHTTP/1.1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "function",
           "package": "scotty",
@@ -1717,6 +1850,7 @@
         "index": {
           "description": "Build route based on function which can match using the entire Request object Nothing indicates the route does not match Just value indicates successful match optionally returning list of key-value pairs accessible by param get function req Just version pack show httpVersion req do param version text curl http localhost HTTP",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "function",
           "normalized": "(Request-\u003eMaybe[Param])-\u003eRoutePattern",
@@ -1732,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eGET\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "get",
           "package": "scotty",
@@ -1742,6 +1877,7 @@
         "index": {
           "description": "get addroute GET",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "get",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -1757,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/html\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "html",
           "package": "scotty",
@@ -1767,6 +1904,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text html",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "html",
           "normalized": "Text-\u003eActionM()",
@@ -1782,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the JSON encoding of the given value. Also sets \"Content-Type\"\n header to \"application/json\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "json",
           "package": "scotty",
@@ -1792,6 +1931,7 @@
         "index": {
           "description": "Set the body of the response to the JSON encoding of the given value Also sets Content-Type header to application json",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "json",
           "normalized": "a-\u003eActionM()",
@@ -1807,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the request body as a JSON object and return it. Raises an exception if parse is unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "jsonData",
           "package": "scotty",
@@ -1817,6 +1958,7 @@
         "index": {
           "description": "Parse the request body as JSON object and return it Raises an exception if parse is unsuccessful",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "jsonData",
           "package": "scotty",
@@ -1831,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a route that requires the requested path match exactly, without captures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "literal",
           "package": "scotty",
@@ -1841,6 +1984,7 @@
         "index": {
           "description": "Build route that requires the requested path match exactly without captures",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "literal",
           "normalized": "String-\u003eRoutePattern",
@@ -1856,6 +2000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a route that matches regardless of the HTTP verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "matchAny",
           "package": "scotty",
@@ -1866,6 +2011,7 @@
         "index": {
           "description": "Add route that matches regardless of the HTTP verb",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "matchAny",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -1882,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse given middleware. Middleware is nested such that the first declared\n is the outermost middleware (it has first dibs on the request and last action\n on the response). Every middleware is run on each request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "middleware",
           "package": "scotty",
@@ -1892,6 +2039,7 @@
         "index": {
           "description": "Use given middleware Middleware is nested such that the first declared is the outermost middleware it has first dibs on the request and last action on the response Every middleware is run on each request",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "middleware",
           "normalized": "Middleware-\u003eScottyM()",
@@ -1907,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort execution of this action and continue pattern matching routes.\n Like an exception, any code after \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is not executed.\n\u003c/p\u003e\u003cp\u003eAs an example, these two routes overlap. The only way the second one will\n ever run is if the first one calls \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e get \"/foo/:bar\" $ do\n   w :: Text \u003c- param \"bar\"\n   unless (w == \"special\") next\n   text \"You made a request to /foo/special\"\n\n get \"/foo/:baz\" $ do\n   w \u003c- param \"baz\"\n   text $ \"You made a request to: \" \u003c\u003e w\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "next",
           "package": "scotty",
@@ -1917,6 +2066,7 @@
         "index": {
           "description": "Abort execution of this action and continue pattern matching routes Like an exception any code after next is not executed As an example these two routes overlap The only way the second one will ever run is if the first one calls next get foo bar do Text param bar unless special next text You made request to foo special get foo baz do param baz text You made request to",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "next",
           "package": "scotty",
@@ -1930,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify an action to take if nothing else is found. Note: this _always_ matches,\n so should generally be the last route specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "notFound",
           "package": "scotty",
@@ -1940,6 +2091,7 @@
         "index": {
           "description": "Specify an action to take if nothing else is found Note this always matches so should generally be the last route specified",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "notFound",
           "normalized": "ActionM()-\u003eScottyM()",
@@ -1956,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a parameter. First looks in captures, then form data, then query parameters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Raises an exception which can be caught by \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e if parameter is not found.\n\u003c/li\u003e\u003cli\u003e If parameter is found, but \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e fails to parse to the correct type, \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is called.\n   This means captures are somewhat typed, in that a route won't match if a correctly typed\n   capture cannot be parsed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "param",
           "package": "scotty",
@@ -1966,6 +2119,7 @@
         "index": {
           "description": "Get parameter First looks in captures then form data then query parameters Raises an exception which can be caught by rescue if parameter is not found If parameter is found but read fails to parse to the correct type next is called This means captures are somewhat typed in that route won match if correctly typed capture cannot be parsed",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "param",
           "normalized": "Text-\u003eActionM a",
@@ -1981,6 +2135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all parameters from capture, form and query (in that order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "params",
           "package": "scotty",
@@ -1991,6 +2146,7 @@
         "index": {
           "description": "Get all parameters from capture form and query in that order",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "params",
           "normalized": "ActionM[Param]",
@@ -2006,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value and parse it as \u003ccode\u003ea\u003c/code\u003e, or fail with a message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "parseParam",
           "package": "scotty",
@@ -2016,6 +2173,7 @@
         "index": {
           "description": "Take Text value and parse it as or fail with message",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "parseParam",
           "normalized": "Text-\u003eEither Text a",
@@ -2032,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault implementation parses comma-delimited lists.\n\u003c/p\u003e\u003cpre\u003e parseParamList t = mapM parseParam (T.split (== ',') t)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "parseParamList",
           "package": "scotty",
@@ -2042,6 +2201,7 @@
         "index": {
           "description": "Default implementation parses comma-delimited lists parseParamList mapM parseParam T.split",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "parseParamList",
           "normalized": "Text-\u003eEither Text[a]",
@@ -2058,6 +2218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epatch = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ePATCH\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "patch",
           "package": "scotty",
@@ -2068,6 +2229,7 @@
         "index": {
           "description": "patch addroute PATCH",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "patch",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -2083,6 +2245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epost = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ePOST\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "post",
           "package": "scotty",
@@ -2093,6 +2256,7 @@
         "index": {
           "description": "post addroute POST",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "post",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -2108,6 +2272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ePUT\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "put",
           "package": "scotty",
@@ -2118,6 +2283,7 @@
         "index": {
           "description": "put addroute PUT",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "put",
           "normalized": "RoutePattern-\u003eActionM()-\u003eScottyM()",
@@ -2133,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception, which can be caught with \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e. Uncaught exceptions\n turn into HTTP 500 responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "raise",
           "package": "scotty",
@@ -2143,6 +2310,7 @@
         "index": {
           "description": "Throw an exception which can be caught with rescue Uncaught exceptions turn into HTTP responses",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "raise",
           "normalized": "Text-\u003eActionM a",
@@ -2158,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e value. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "raw",
           "package": "scotty",
@@ -2168,6 +2337,7 @@
         "index": {
           "description": "Set the body of the response to the given ByteString value Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "raw",
           "normalized": "ByteString-\u003eActionM()",
@@ -2183,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to given URL. Like throwing an uncatchable exception. Any code after the call to redirect\n will not be run.\n\u003c/p\u003e\u003cpre\u003e redirect \"http://www.google.com\"\n\u003c/pre\u003e\u003cp\u003eOR\n\u003c/p\u003e\u003cpre\u003e redirect \"/foo/bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "redirect",
           "package": "scotty",
@@ -2193,6 +2364,7 @@
         "index": {
           "description": "Redirect to given URL Like throwing an uncatchable exception Any code after the call to redirect will not be run redirect http www.google.com OR redirect foo bar",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "redirect",
           "normalized": "Text-\u003eActionM a",
@@ -2208,6 +2380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch requests using a regular expression.\n   Named captures are not yet supported.\n\u003c/p\u003e\u003cpre\u003e get (regex \"^/f(.*)r$\") $ do\n    path \u003c- param \"0\"\n    cap \u003c- param \"1\"\n    text $ mconcat [\"Path: \", path, \"\\nCapture: \", cap]\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/foo/bar\n\u003c/code\u003e\u003c/strong\u003ePath: /foo/bar\nCapture: oo/ba\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "regex",
           "package": "scotty",
@@ -2218,6 +2391,7 @@
         "index": {
           "description": "Match requests using regular expression Named captures are not yet supported get regex do path param cap param text mconcat Path path nCapture cap curl http localhost foo bar Path foo bar Capture oo ba",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "regex",
           "normalized": "String-\u003eRoutePattern",
@@ -2233,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a request header. Header name is case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "reqHeader",
           "package": "scotty",
@@ -2243,6 +2418,7 @@
         "index": {
           "description": "Get request header Header name is case-insensitive",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "reqHeader",
           "normalized": "Text-\u003eActionM(Maybe Text)",
@@ -2259,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "request",
           "package": "scotty",
@@ -2269,6 +2446,7 @@
         "index": {
           "description": "Get the Request object",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "request",
           "package": "scotty",
@@ -2282,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an exception thrown by \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e raise \"just kidding\" `rescue` (\\msg -\u003e text msg)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "rescue",
           "package": "scotty",
@@ -2292,6 +2471,7 @@
         "index": {
           "description": "Catch an exception thrown by raise raise just kidding rescue msg text msg",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "rescue",
           "normalized": "ActionM a-\u003e(Text-\u003eActionM a)-\u003eActionM a",
@@ -2307,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a scotty application using the warp server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "scotty",
           "package": "scotty",
@@ -2317,6 +2498,7 @@
         "index": {
           "description": "Run scotty application using the warp server",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "scotty",
           "normalized": "Port-\u003eScottyM()-\u003eIO()",
@@ -2332,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn a scotty application into a WAI \u003ccode\u003e\u003ca\u003eApplication\u003c/a\u003e\u003c/code\u003e, which can be\n run with any WAI handler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "scottyApp",
           "package": "scotty",
@@ -2342,6 +2525,7 @@
         "index": {
           "description": "Turn scotty application into WAI Application which can be run with any WAI handler",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "scottyApp",
           "normalized": "ScottyM()-\u003eIO Application",
@@ -2358,6 +2542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a scotty application using the warp server, passing extra options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "scottyOpts",
           "package": "scotty",
@@ -2368,6 +2553,7 @@
         "index": {
           "description": "Run scotty application using the warp server passing extra options",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "scottyOpts",
           "normalized": "Options-\u003eScottyM()-\u003eIO()",
@@ -2384,6 +2570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one of the response headers. Will override any previously set value for that header.\n Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "setHeader",
           "package": "scotty",
@@ -2394,6 +2581,7 @@
         "index": {
           "description": "Set one of the response headers Will override any previously set value for that header Header names are case-insensitive",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "setHeader",
           "normalized": "Text-\u003eText-\u003eActionM()",
@@ -2410,6 +2598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to a Source. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your\n own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "source",
           "package": "scotty",
@@ -2420,6 +2609,7 @@
         "index": {
           "description": "Set the body of the response to Source Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "source",
           "normalized": "Source IO(Flush Builder)-\u003eActionM()",
@@ -2435,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the HTTP response status. Default is 200.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "status",
           "package": "scotty",
@@ -2445,6 +2636,7 @@
         "index": {
           "description": "Set the HTTP response status Default is",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "status",
           "normalized": "Status-\u003eActionM()",
@@ -2460,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/plain\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:23 UTC 2014",
           "module": "Web.Scotty",
           "name": "text",
           "package": "scotty",
@@ -2470,6 +2663,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text plain",
           "hierarchy": "Web Scotty",
+          "indexed": "2014-03-11T19:58:23",
           "module": "Web.Scotty",
           "name": "text",
           "normalized": "Text-\u003eActionM()",

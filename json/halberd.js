@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "halberd"
+        "phrase": "halberd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "ChosenImports",
           "package": "halberd",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "insertChoice",
           "package": "halberd",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "insertChoice",
           "normalized": "QName a-\u003eModuleName-\u003eChosenImports-\u003eChosenImports",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "insertQualified",
           "package": "halberd",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "insertQualified",
           "normalized": "ModuleName()-\u003eModuleName-\u003eChosenImports-\u003eChosenImports",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "insertUnqualified",
           "package": "halberd",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "insertUnqualified",
           "normalized": "ModuleName-\u003eName()-\u003eChosenImports-\u003eChosenImports",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "isEmpty",
           "package": "halberd",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "isEmpty",
           "normalized": "ChosenImports-\u003eBool",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "lookupQualified",
           "package": "halberd",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "lookupQualified",
           "normalized": "ModuleName()-\u003eChosenImports-\u003eMaybe ModuleName",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "qualifieds",
           "package": "halberd",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "qualifieds",
           "normalized": "Map(ModuleName())ModuleName",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "showChosenImports",
           "package": "halberd",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "showChosenImports",
           "normalized": "ChosenImports-\u003e[String]",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "showQualified",
           "package": "halberd",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "showQualified",
           "normalized": "ModuleName()-\u003eModuleName-\u003eString",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "showQualifieds",
           "package": "halberd",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "showQualifieds",
           "normalized": "Map(ModuleName())ModuleName-\u003e[String]",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "showUnqualified",
           "package": "halberd",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "showUnqualified",
           "normalized": "ModuleName-\u003e[Name()]-\u003eString",
@@ -321,6 +347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "showUnqualifieds",
           "package": "halberd",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "showUnqualifieds",
           "normalized": "Map ModuleName[Name()]-\u003e[String]",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.ChosenImports",
           "name": "unqualifieds",
           "package": "halberd",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Halberd ChosenImports",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.ChosenImports",
           "name": "unqualifieds",
           "normalized": "Map ModuleName[Name()]",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.CollectNames",
           "name": "CollectNames",
           "package": "halberd",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Halberd CollectNames",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.CollectNames",
           "name": "CollectNames",
           "package": "halberd",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.CollectNames",
           "name": "collectUnboundNames",
           "package": "halberd",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Halberd CollectNames",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.CollectNames",
           "name": "collectUnboundNames",
           "normalized": "Module(Scoped SrcSpan)-\u003e([QName(Scoped SrcSpan)],[QName(Scoped SrcSpan)])",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.LookupTable",
           "name": "LookupTable",
           "package": "halberd",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Halberd LookupTable",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.LookupTable",
           "name": "LookupTable",
           "package": "halberd",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.LookupTable",
           "name": "LookupTable",
           "package": "halberd",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Halberd LookupTable",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.LookupTable",
           "name": "LookupTable",
           "package": "halberd",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.LookupTable",
           "name": "lookupDefinitions",
           "package": "halberd",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Halberd LookupTable",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.LookupTable",
           "name": "lookupDefinitions",
           "normalized": "LookupTable-\u003eQName(Scoped SrcSpan)-\u003e[CanonicalSymbol]",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.LookupTable",
           "name": "mkLookupTables",
           "package": "halberd",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Halberd LookupTable",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.LookupTable",
           "name": "mkLookupTables",
           "normalized": "ModuleT Symbols IO(LookupTable,LookupTable)",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.LookupTable",
           "name": "toLookupTable",
           "package": "halberd",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Halberd LookupTable",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.LookupTable",
           "name": "toLookupTable",
           "normalized": "(a-\u003eb)-\u003eSet a-\u003eMap b[a]",
@@ -527,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "Suggestions",
           "package": "halberd",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "Suggestions",
           "package": "halberd",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "ChooseExternal",
           "package": "halberd",
@@ -556,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "ChooseExternal",
           "package": "halberd",
@@ -569,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "Suggestion",
           "package": "halberd",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "Suggestion",
           "package": "halberd",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "findUnbound",
           "package": "halberd",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "findUnbound",
           "normalized": "Module SrcSpanInfo-\u003eModuleT Symbols IO([QName(Scoped SrcSpan)],[QName(Scoped SrcSpan)])",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "resolveAllSuggestions",
           "package": "halberd",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "resolveAllSuggestions",
           "normalized": "ChooseExternal a-\u003e[Suggestion]-\u003ea ChosenImports",
@@ -638,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "resolveSuggestions",
           "package": "halberd",
@@ -647,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "resolveSuggestions",
           "normalized": "[Suggestion]-\u003ea[Suggestion]",
@@ -662,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "resolveSuggestionsOnePass",
           "package": "halberd",
@@ -671,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "resolveSuggestionsOnePass",
           "normalized": "[Suggestion]-\u003ea[Suggestion]",
@@ -686,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Suggestions",
           "name": "suggestedImports",
           "package": "halberd",
@@ -695,6 +754,7 @@
         },
         "index": {
           "hierarchy": "Halberd Suggestions",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Suggestions",
           "name": "suggestedImports",
           "normalized": "Module SrcSpanInfo-\u003eModuleT Symbols IO[Suggestion]",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "Types",
           "package": "halberd",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "Types",
           "package": "halberd",
@@ -731,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "CanonicalSymbol",
           "package": "halberd",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "CanonicalSymbol",
           "package": "halberd",
@@ -752,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "PackageRef",
           "package": "halberd",
@@ -760,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "PackageRef",
           "package": "halberd",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "PackageRef",
           "package": "halberd",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "PackageRef",
           "package": "halberd",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "installedPackageId",
           "package": "halberd",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "installedPackageId",
           "package": "halberd",
@@ -817,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "sourcePackageId",
           "package": "halberd",
@@ -826,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "sourcePackageId",
           "package": "halberd",
@@ -839,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:23 UTC 2014",
           "module": "Halberd.Types",
           "name": "toPackageRef",
           "package": "halberd",
@@ -848,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Halberd Types",
+          "indexed": "2014-03-11T18:27:23",
           "module": "Halberd.Types",
           "name": "toPackageRef",
           "normalized": "InstalledPackageInfo_ a-\u003ePackageRef",

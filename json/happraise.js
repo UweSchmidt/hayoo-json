@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happraise"
+        "phrase": "happraise",
+        "type": "phrase"
       },
       "type": "context"
     }

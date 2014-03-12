@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Barracuda"
+        "phrase": "Barracuda",
+        "type": "phrase"
       },
       "type": "context"
     }

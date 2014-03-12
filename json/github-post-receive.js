@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "github-post-receive"
+        "phrase": "github-post-receive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Server",
           "name": "Server",
           "package": "github-post-receive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Server",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Server",
           "name": "Server",
           "package": "github-post-receive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Server",
           "name": "start",
           "package": "github-post-receive",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Server",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Server",
           "name": "start",
           "normalized": "Port-\u003e(Payload-\u003eIO())-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Types",
           "package": "github-post-receive",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Types",
           "package": "github-post-receive",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Commit",
           "package": "github-post-receive",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Commit",
           "package": "github-post-receive",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an email address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "EmailAddress",
           "package": "github-post-receive",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Represents an email address",
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "EmailAddress",
           "package": "github-post-receive",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Payload",
           "package": "github-post-receive",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Payload",
           "package": "github-post-receive",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Repository",
           "package": "github-post-receive",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Repository",
           "package": "github-post-receive",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "User",
           "package": "github-post-receive",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "User",
           "package": "github-post-receive",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Commit",
           "package": "github-post-receive",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Commit",
           "package": "github-post-receive",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Payload",
           "package": "github-post-receive",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Payload",
           "package": "github-post-receive",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "Repository",
           "package": "github-post-receive",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "Repository",
           "package": "github-post-receive",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "User",
           "package": "github-post-receive",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "User",
           "package": "github-post-receive",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitAdded",
           "package": "github-post-receive",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitAdded",
           "normalized": "[FilePath]",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitAuthor",
           "package": "github-post-receive",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitAuthor",
           "package": "github-post-receive",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitCommitter",
           "package": "github-post-receive",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitCommitter",
           "package": "github-post-receive",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitDistinct",
           "package": "github-post-receive",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitDistinct",
           "package": "github-post-receive",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitId",
           "package": "github-post-receive",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitId",
           "package": "github-post-receive",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitMessage",
           "package": "github-post-receive",
@@ -398,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitMessage",
           "package": "github-post-receive",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitModified",
           "package": "github-post-receive",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitModified",
           "normalized": "[FilePath]",
@@ -435,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitRemoved",
           "package": "github-post-receive",
@@ -444,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitRemoved",
           "normalized": "[FilePath]",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitTimestamp",
           "package": "github-post-receive",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitTimestamp",
           "package": "github-post-receive",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "commitUrl",
           "package": "github-post-receive",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "commitUrl",
           "package": "github-post-receive",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadAfter",
           "package": "github-post-receive",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadAfter",
           "package": "github-post-receive",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadBefore",
           "package": "github-post-receive",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadBefore",
           "package": "github-post-receive",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadCommits",
           "package": "github-post-receive",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadCommits",
           "normalized": "[Commit]",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadCompare",
           "package": "github-post-receive",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadCompare",
           "package": "github-post-receive",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadCreated",
           "package": "github-post-receive",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadCreated",
           "package": "github-post-receive",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadDeleted",
           "package": "github-post-receive",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadDeleted",
           "package": "github-post-receive",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadForced",
           "package": "github-post-receive",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadForced",
           "package": "github-post-receive",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadHeadCommit",
           "package": "github-post-receive",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadHeadCommit",
           "package": "github-post-receive",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadPusher",
           "package": "github-post-receive",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadPusher",
           "package": "github-post-receive",
@@ -703,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadRef",
           "package": "github-post-receive",
@@ -712,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadRef",
           "package": "github-post-receive",
@@ -725,6 +789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "payloadRepository",
           "package": "github-post-receive",
@@ -734,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "payloadRepository",
           "package": "github-post-receive",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoCreatedAt",
           "package": "github-post-receive",
@@ -756,6 +823,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoCreatedAt",
           "package": "github-post-receive",
@@ -769,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoDescription",
           "package": "github-post-receive",
@@ -778,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoDescription",
           "package": "github-post-receive",
@@ -791,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoFork",
           "package": "github-post-receive",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoFork",
           "package": "github-post-receive",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoForks",
           "package": "github-post-receive",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoForks",
           "package": "github-post-receive",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoHasDownloads",
           "package": "github-post-receive",
@@ -844,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoHasDownloads",
           "package": "github-post-receive",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoHasIssues",
           "package": "github-post-receive",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoHasIssues",
           "package": "github-post-receive",
@@ -879,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoHasWiki",
           "package": "github-post-receive",
@@ -888,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoHasWiki",
           "package": "github-post-receive",
@@ -901,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoHomepage",
           "package": "github-post-receive",
@@ -910,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoHomepage",
           "package": "github-post-receive",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoId",
           "package": "github-post-receive",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoId",
           "package": "github-post-receive",
@@ -945,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoLanguage",
           "package": "github-post-receive",
@@ -954,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoLanguage",
           "package": "github-post-receive",
@@ -967,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoMasterBranch",
           "package": "github-post-receive",
@@ -976,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoMasterBranch",
           "package": "github-post-receive",
@@ -989,6 +1077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoName",
           "package": "github-post-receive",
@@ -998,6 +1087,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoName",
           "package": "github-post-receive",
@@ -1011,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoOpenIssues",
           "package": "github-post-receive",
@@ -1020,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoOpenIssues",
           "package": "github-post-receive",
@@ -1033,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoOwner",
           "package": "github-post-receive",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoOwner",
           "package": "github-post-receive",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoPrivate",
           "package": "github-post-receive",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoPrivate",
           "package": "github-post-receive",
@@ -1077,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoPushedAt",
           "package": "github-post-receive",
@@ -1086,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoPushedAt",
           "package": "github-post-receive",
@@ -1099,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoSize",
           "package": "github-post-receive",
@@ -1108,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoSize",
           "package": "github-post-receive",
@@ -1121,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoStargazers",
           "package": "github-post-receive",
@@ -1130,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoStargazers",
           "package": "github-post-receive",
@@ -1143,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoUrl",
           "package": "github-post-receive",
@@ -1152,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoUrl",
           "package": "github-post-receive",
@@ -1165,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "repoWatchers",
           "package": "github-post-receive",
@@ -1174,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "repoWatchers",
           "package": "github-post-receive",
@@ -1187,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "userEmail",
           "package": "github-post-receive",
@@ -1196,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "userEmail",
           "package": "github-post-receive",
@@ -1209,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "userName",
           "package": "github-post-receive",
@@ -1218,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "userName",
           "package": "github-post-receive",
@@ -1231,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive.Types",
           "name": "userUsername",
           "package": "github-post-receive",
@@ -1240,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive Types",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive.Types",
           "name": "userUsername",
           "package": "github-post-receive",
@@ -1253,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:22 UTC 2014",
           "module": "Github.PostReceive",
           "name": "PostReceive",
           "package": "github-post-receive",
@@ -1261,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Github PostReceive",
+          "indexed": "2014-03-11T18:17:22",
           "module": "Github.PostReceive",
           "name": "PostReceive",
           "package": "github-post-receive",

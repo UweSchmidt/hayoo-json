@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "QuickCheck"
+        "phrase": "QuickCheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExperimental features using Template Haskell.\n You need to have a \u003ccode\u003e{-# LANGUAGE TemplateHaskell #-}\u003c/code\u003e pragma in\n your module for any of these to work.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "All",
           "package": "QuickCheck",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Experimental features using Template Haskell You need to have LANGUAGE TemplateHaskell pragma in your module for any of these to work",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "All",
           "package": "QuickCheck",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest all properties in the current module, using a custom\n \u003ccode\u003e\u003ca\u003equickCheck\u003c/a\u003e\u003c/code\u003e function. The same caveats as with \u003ccode\u003e\u003ca\u003equickCheckAll\u003c/a\u003e\u003c/code\u003e\n apply.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e$\u003ccode\u003e\u003ca\u003eforAllProperties\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e has type \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eProperty\u003c/a\u003e\u003c/code\u003e -\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e) -\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n An example invocation is \u003ccode\u003e$\u003ccode\u003e\u003ca\u003eforAllProperties\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003equickCheckResult\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n which does the same thing as \u003ccode\u003e$\u003ccode\u003e\u003ca\u003equickCheckAll\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "forAllProperties",
           "package": "QuickCheck",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Test all properties in the current module using custom quickCheck function The same caveats as with quickCheckAll apply forAllProperties has type Property IO Result IO Bool An example invocation is forAllProperties quickCheckResult which does the same thing as quickCheckAll",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "forAllProperties",
           "package": "QuickCheck",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonomorphise an arbitrary name by defaulting all type variables to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, if \u003ccode\u003ef\u003c/code\u003e has type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e a =\u003e [a] -\u003e [a]\u003c/code\u003e\n then \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003emono\u003c/a\u003e\u003c/code\u003e 'f)\u003c/code\u003e has type \u003ccode\u003e[\u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e] -\u003e [\u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "mono",
           "package": "QuickCheck",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Monomorphise an arbitrary name by defaulting all type variables to Integer For example if has type Ord then mono has type Integer Integer",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "mono",
           "normalized": "Name-\u003eExpQ",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a polymorphic property, defaulting all type variables to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eInvoke as \u003ccode\u003e$(\u003ccode\u003e\u003ca\u003epolyQuickCheck\u003c/a\u003e\u003c/code\u003e 'prop)\u003c/code\u003e, where \u003ccode\u003eprop\u003c/code\u003e is a property.\n Note that just evaluating \u003ccode\u003e\u003ccode\u003e\u003ca\u003equickCheck\u003c/a\u003e\u003c/code\u003e prop\u003c/code\u003e in GHCi will seem to\n work, but will silently default all type variables to \u003ccode\u003e()\u003c/code\u003e!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "polyQuickCheck",
           "package": "QuickCheck",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Test polymorphic property defaulting all type variables to Integer Invoke as polyQuickCheck prop where prop is property Note that just evaluating quickCheck prop in GHCi will seem to work but will silently default all type variables to",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "polyQuickCheck",
           "normalized": "Name-\u003eExpQ",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a polymorphic property, defaulting all type variables to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n This is just a convenience function that combines \u003ccode\u003e\u003ca\u003epolyQuickCheck\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003everbose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "polyVerboseCheck",
           "package": "QuickCheck",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Test polymorphic property defaulting all type variables to Integer This is just convenience function that combines polyQuickCheck and verbose",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "polyVerboseCheck",
           "normalized": "Name-\u003eExpQ",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest all properties in the current module.\n The name of the property must begin with \u003ccode\u003eprop_\u003c/code\u003e.\n Polymorphic properties will be defaulted to \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n Returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if all tests succeeded, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e\u003cp\u003eUsing \u003ccode\u003e\u003ca\u003equickCheckAll\u003c/a\u003e\u003c/code\u003e interactively doesn't work.\n Instead, add a definition to your module along the lines of\n\u003c/p\u003e\u003cpre\u003e runTests = $quickCheckAll\n\u003c/pre\u003e\u003cp\u003eand then execute \u003ccode\u003erunTests\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "quickCheckAll",
           "package": "QuickCheck",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Test all properties in the current module The name of the property must begin with prop Polymorphic properties will be defaulted to Integer Returns True if all tests succeeded False otherwise Using quickCheckAll interactively doesn work Instead add definition to your module along the lines of runTests quickCheckAll and then execute runTests",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "quickCheckAll",
           "package": "QuickCheck",
@@ -167,6 +179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest all properties in the current module.\n This is just a convenience function that combines \u003ccode\u003e\u003ca\u003equickCheckAll\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003everbose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.All",
           "name": "verboseCheckAll",
           "package": "QuickCheck",
@@ -177,6 +190,7 @@
         "index": {
           "description": "Test all properties in the current module This is just convenience function that combines quickCheckAll and verbose",
           "hierarchy": "Test QuickCheck All",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.All",
           "name": "verboseCheckAll",
           "package": "QuickCheck",
@@ -190,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -198,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom generation and shrinking of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Random generation and shrinking of values",
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -235,6 +253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for random generation of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "CoArbitrary",
           "package": "QuickCheck",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Used for random generation of functions",
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "CoArbitrary",
           "package": "QuickCheck",
@@ -284,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator for values of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "arbitrary",
           "package": "QuickCheck",
@@ -294,6 +315,7 @@
         "index": {
           "description": "generator for values of the given type",
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "arbitrary",
           "package": "QuickCheck",
@@ -457,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to generate a function of type \u003ccode\u003ea -\u003e c\u003c/code\u003e. The implementation\n should use the first argument to perturb the random generator\n given as the second argument. the returned generator\n is then used to generate the function result.\n You can often use \u003ccode\u003e\u003ca\u003evariant\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e to implement\n \u003ccode\u003e\u003ca\u003ecoarbitrary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "coarbitrary",
           "package": "QuickCheck",
@@ -467,6 +490,7 @@
         "index": {
           "description": "Used to generate function of type The implementation should use the first argument to perturb the random generator given as the second argument the returned generator is then used to generate the function result You can often use variant and to implement coarbitrary",
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "coarbitrary",
           "normalized": "a-\u003eGen b-\u003eGen b",
@@ -617,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a (possibly) empty list of all the possible\n immediate shrinks of the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "shrink",
           "package": "QuickCheck",
@@ -627,6 +652,7 @@
         "index": {
           "description": "Produces possibly empty list of all the possible immediate shrinks of the given value",
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "shrink",
           "normalized": "a-\u003e[a]",
@@ -668,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "shrinkList",
           "package": "QuickCheck",
@@ -677,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Arbitrary",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Arbitrary",
           "name": "shrinkList",
           "normalized": "(a-\u003e[a])-\u003e[a]-\u003e[[a]]",
@@ -773,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneration of random shrinkable, showable functions.\n Not really documented at the moment!\n\u003c/p\u003e\u003cp\u003eExample of use:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:{\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet prop :: Fun String Integer -\u003e Bool\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eprop (Fun _ f) = f \"monkey\" == f \"banana\" || f \"banana\" == f \"elephant\"\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:}\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003equickCheck prop\n\u003c/code\u003e\u003c/strong\u003e*** Failed! Falsifiable (after 3 tests and 134 shrinks):\n{\"elephant\"-\u003e1, \"monkey\"-\u003e1, _-\u003e0}\n\u003c/pre\u003e\u003cp\u003eTo generate random values of type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFun\u003c/a\u003e\u003c/code\u003e a b\u003c/code\u003e,\n you must have an instance \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e a\u003c/code\u003e.\n If your type has a \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance, you can use \u003ccode\u003e\u003ca\u003efunctionShow\u003c/a\u003e\u003c/code\u003e to write the instance; otherwise,\n use \u003ccode\u003e\u003ca\u003efunctionMap\u003c/a\u003e\u003c/code\u003e to give a bijection between your type and a type that is already an instance of \u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e.\n See the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eFunction\u003c/a\u003e\u003c/code\u003e [a]\u003c/code\u003e instance for an example of the latter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "Function",
           "package": "QuickCheck",
@@ -782,6 +811,7 @@
         "index": {
           "description": "Generation of random shrinkable showable functions Not really documented at the moment Example of use let prop Fun String Integer Bool prop Fun monkey banana banana elephant quickCheck prop Failed Falsifiable after tests and shrinks elephant monkey To generate random values of type Fun you must have an instance Function If your type has Show instance you can use functionShow to write the instance otherwise use functionMap to give bijection between your type and type that is already an instance of Function See the Function instance for an example of the latter",
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "Function",
           "package": "QuickCheck",
@@ -795,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": ":-\u003e",
           "package": "QuickCheck",
@@ -803,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": ":-\u003e",
           "package": "QuickCheck",
@@ -815,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "Fun",
           "package": "QuickCheck",
@@ -823,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "Fun",
           "package": "QuickCheck",
@@ -836,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "Function",
           "package": "QuickCheck",
@@ -844,6 +879,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "Function",
           "package": "QuickCheck",
@@ -857,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "Fun",
           "package": "QuickCheck",
@@ -866,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "Fun",
           "normalized": "Fun(a-\u003eb,b)(a-\u003eb)",
@@ -881,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "apply",
           "package": "QuickCheck",
@@ -890,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "apply",
           "normalized": "Fun a b-\u003ea-\u003eb",
@@ -904,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "function",
           "package": "QuickCheck",
@@ -913,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "function",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -927,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "functionMap",
           "package": "QuickCheck",
@@ -936,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "functionMap",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003e(a-\u003ec)-\u003ea-\u003ec",
@@ -951,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Function",
           "name": "functionShow",
           "package": "QuickCheck",
@@ -960,6 +1005,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Function",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Function",
           "name": "functionShow",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -976,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTest case generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Gen",
           "name": "Gen",
           "package": "QuickCheck",
@@ -985,6 +1032,7 @@
         "index": {
           "description": "Test case generation",
           "hierarchy": "Test QuickCheck Gen",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Gen",
           "name": "Gen",
           "package": "QuickCheck",
@@ -998,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Gen",
           "name": "Gen",
           "package": "QuickCheck",
@@ -1006,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Gen",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Gen",
           "name": "Gen",
           "package": "QuickCheck",
@@ -1019,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Gen",
           "name": "MkGen",
           "package": "QuickCheck",
@@ -1028,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Gen",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Gen",
           "name": "MkGen",
           "package": "QuickCheck",
@@ -1410,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Gen",
           "name": "unGen",
           "package": "QuickCheck",
@@ -1419,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Gen",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Gen",
           "name": "unGen",
           "normalized": "StdGen-\u003eInt-\u003ea",
@@ -1488,6 +1542,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModifiers for test data.\n\u003c/p\u003e\u003cp\u003eThese types do things such as restricting the kind of test data that can be generated.\n They can be pattern-matched on in properties as a stylistic\n alternative to using explicit quantification.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e\n -- Functions cannot be shown (but see \u003ca\u003eTest.QuickCheck.Function\u003c/a\u003e)\n prop_TakeDropWhile (\u003ccode\u003e\u003ca\u003eBlind\u003c/a\u003e\u003c/code\u003e p) (xs :: [\u003ccode\u003eA\u003c/code\u003e]) =\n   takeWhile p xs ++ dropWhile p xs == xs\n\u003c/pre\u003e\u003cpre\u003e\n prop_TakeDrop (\u003ccode\u003e\u003ca\u003eNonNegative\u003c/a\u003e\u003c/code\u003e n) (xs :: [\u003ccode\u003eA\u003c/code\u003e]) =\n   take n xs ++ drop n xs == xs\n\u003c/pre\u003e\u003cpre\u003e\n -- cycle does not work for empty lists\n prop_Cycle (\u003ccode\u003e\u003ca\u003eNonNegative\u003c/a\u003e\u003c/code\u003e n) (\u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e (xs :: [\u003ccode\u003eA\u003c/code\u003e])) =\n   take n (cycle xs) == take n (xs ++ cycle xs)\n\u003c/pre\u003e\u003cpre\u003e\n -- Instead of \u003ccode\u003eforAll\u003c/code\u003e \u003ccode\u003e\u003ca\u003eorderedList\u003c/a\u003e\u003c/code\u003e\n prop_Sort (\u003ccode\u003e\u003ca\u003eOrdered\u003c/a\u003e\u003c/code\u003e (xs :: [\u003ccode\u003eOrdA\u003c/code\u003e])) =\n   sort xs == xs\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Modifiers",
           "package": "QuickCheck",
@@ -1497,6 +1552,7 @@
         "index": {
           "description": "Modifiers for test data These types do things such as restricting the kind of test data that can be generated They can be pattern-matched on in properties as stylistic alternative to using explicit quantification Examples Functions cannot be shown but see Test.QuickCheck.Function prop TakeDropWhile Blind xs takeWhile xs dropWhile xs xs prop TakeDrop NonNegative xs take xs drop xs xs cycle does not work for empty lists prop Cycle NonNegative NonEmpty xs take cycle xs take xs cycle xs Instead of forAll orderedList prop Sort Ordered xs OrdA sort xs xs",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Modifiers",
           "package": "QuickCheck",
@@ -1511,6 +1567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eBlind x\u003c/code\u003e: as x, but x does not have to be in the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Blind",
           "package": "QuickCheck",
@@ -1520,6 +1577,7 @@
         "index": {
           "description": "Blind as but does not have to be in the Show class",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Blind",
           "package": "QuickCheck",
@@ -1534,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFixed x\u003c/code\u003e: as x, but will not be shrunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Fixed",
           "package": "QuickCheck",
@@ -1543,6 +1602,7 @@
         "index": {
           "description": "Fixed as but will not be shrunk",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Fixed",
           "package": "QuickCheck",
@@ -1557,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonEmpty xs\u003c/code\u003e: guarantees that xs is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonEmptyList",
           "package": "QuickCheck",
@@ -1566,6 +1627,7 @@
         "index": {
           "description": "NonEmpty xs guarantees that xs is non-empty",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonEmptyList",
           "package": "QuickCheck",
@@ -1580,6 +1642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonNegative x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonNegative",
           "package": "QuickCheck",
@@ -1589,6 +1652,7 @@
         "index": {
           "description": "NonNegative guarantees that",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonNegative",
           "package": "QuickCheck",
@@ -1603,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonZero x\u003c/code\u003e: guarantees that \u003ccode\u003ex /= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonZero",
           "package": "QuickCheck",
@@ -1612,6 +1677,7 @@
         "index": {
           "description": "NonZero guarantees that",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "NonZero",
           "package": "QuickCheck",
@@ -1626,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eOrdered xs\u003c/code\u003e: guarantees that xs is ordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "OrderedList",
           "package": "QuickCheck",
@@ -1635,6 +1702,7 @@
         "index": {
           "description": "Ordered xs guarantees that xs is ordered",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "OrderedList",
           "package": "QuickCheck",
@@ -1649,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePositive x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Positive",
           "package": "QuickCheck",
@@ -1658,6 +1727,7 @@
         "index": {
           "description": "Positive guarantees that",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Positive",
           "package": "QuickCheck",
@@ -1672,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eShrink2 x\u003c/code\u003e: allows 2 shrinking steps at the same time when shrinking x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Shrink2",
           "package": "QuickCheck",
@@ -1681,6 +1752,7 @@
         "index": {
           "description": "Shrink2 allows shrinking steps at the same time when shrinking",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Shrink2",
           "package": "QuickCheck",
@@ -1694,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "ShrinkState",
           "package": "QuickCheck",
@@ -1702,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "ShrinkState",
           "package": "QuickCheck",
@@ -1716,6 +1790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eShrinking _ x\u003c/code\u003e: allows for maintaining a state during shrinking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Shrinking",
           "package": "QuickCheck",
@@ -1725,6 +1800,7 @@
         "index": {
           "description": "Shrinking allows for maintaining state during shrinking",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Shrinking",
           "package": "QuickCheck",
@@ -1739,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSmart _ x\u003c/code\u003e: tries a different order when shrinking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Smart",
           "package": "QuickCheck",
@@ -1748,6 +1825,7 @@
         "index": {
           "description": "Smart tries different order when shrinking",
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "Smart",
           "package": "QuickCheck",
@@ -2110,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "shrinkInit",
           "package": "QuickCheck",
@@ -2119,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "shrinkInit",
           "normalized": "a-\u003eb",
@@ -2134,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Modifiers",
           "name": "shrinkState",
           "package": "QuickCheck",
@@ -2143,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Modifiers",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Modifiers",
           "name": "shrinkState",
           "normalized": "a-\u003eb-\u003e[(a,b)]",
@@ -2159,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAllows testing of monadic values.\n See the paper \"Testing Monadic Code with QuickCheck\":\n \u003ca\u003ehttp://www.cse.chalmers.se/~rjmh/Papers/QuickCheckST.ps\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "Monadic",
           "package": "QuickCheck",
@@ -2168,6 +2251,7 @@
         "index": {
           "description": "Allows testing of monadic values See the paper Testing Monadic Code with QuickCheck http www.cse.chalmers.se rjmh Papers QuickCheckST.ps",
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "Monadic",
           "package": "QuickCheck",
@@ -2181,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "PropertyM",
           "package": "QuickCheck",
@@ -2189,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "PropertyM",
           "package": "QuickCheck",
@@ -2202,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "MkPropertyM",
           "package": "QuickCheck",
@@ -2211,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "MkPropertyM",
           "package": "QuickCheck",
@@ -2224,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "assert",
           "package": "QuickCheck",
@@ -2233,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "assert",
           "normalized": "Bool-\u003ePropertyM a()",
@@ -2247,6 +2337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "forAllM",
           "package": "QuickCheck",
@@ -2256,6 +2347,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "forAllM",
           "normalized": "Gen a-\u003e(a-\u003ePropertyM b c)-\u003ePropertyM b c",
@@ -2271,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadic",
           "package": "QuickCheck",
@@ -2280,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadic",
           "normalized": "(a Property-\u003eProperty)-\u003ePropertyM a b-\u003eProperty",
@@ -2294,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadic'",
           "package": "QuickCheck",
@@ -2303,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadic'",
           "normalized": "PropertyM a b-\u003eGen(a Property)",
@@ -2317,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadicIO",
           "package": "QuickCheck",
@@ -2326,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadicIO",
           "normalized": "PropertyM IO a-\u003eProperty",
@@ -2341,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadicST",
           "package": "QuickCheck",
@@ -2350,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "monadicST",
           "normalized": "(a b PropertyM(ST c)d)-\u003eProperty",
@@ -2365,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "monitor",
           "package": "QuickCheck",
@@ -2374,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "monitor",
           "normalized": "(Property-\u003eProperty)-\u003ePropertyM a()",
@@ -2388,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "pick",
           "package": "QuickCheck",
@@ -2397,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "pick",
           "normalized": "Gen a-\u003ePropertyM b a",
@@ -2411,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "pre",
           "package": "QuickCheck",
@@ -2420,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "pre",
           "normalized": "Bool-\u003ePropertyM a()",
@@ -2434,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "run",
           "package": "QuickCheck",
@@ -2443,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "run",
           "normalized": "a b-\u003ePropertyM a b",
@@ -2457,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "runSTGen",
           "package": "QuickCheck",
@@ -2466,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "runSTGen",
           "normalized": "(a b Gen(ST c d))-\u003eGen d",
@@ -2481,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "stop",
           "package": "QuickCheck",
@@ -2490,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "stop",
           "normalized": "a-\u003ePropertyM b c",
@@ -2504,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "unPropertyM",
           "package": "QuickCheck",
@@ -2513,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "unPropertyM",
           "normalized": "(a-\u003eGen(b Property))-\u003eGen(b Property)",
@@ -2528,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Monadic",
           "name": "wp",
           "package": "QuickCheck",
@@ -2537,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Monadic",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Monadic",
           "name": "wp",
           "normalized": "a b-\u003e(b-\u003ePropertyM a c)-\u003ePropertyM a c",
@@ -2552,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes to help with testing polymorphic properties.\n\u003c/p\u003e\u003cp\u003eTypes \u003ccode\u003e\u003ca\u003eA\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eB\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eC\u003c/a\u003e\u003c/code\u003e are \u003ccode\u003enewtype\u003c/code\u003e wrappers around \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e that\n implement \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eArbitrary\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCoArbitrary\u003c/a\u003e\u003c/code\u003e. Types\n \u003ccode\u003e\u003ca\u003eOrdA\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrdB\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eOrdC\u003c/a\u003e\u003c/code\u003e also implement \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eTest.QuickCheck.All\u003c/a\u003e for an experimental way of testing\n polymorphic properties.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "Poly",
           "package": "QuickCheck",
@@ -2561,6 +2678,7 @@
         "index": {
           "description": "Types to help with testing polymorphic properties Types and are newtype wrappers around Integer that implement Eq Show Arbitrary and CoArbitrary Types OrdA OrdB and OrdC also implement Ord and Num See also Test.QuickCheck.All for an experimental way of testing polymorphic properties",
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "Poly",
           "package": "QuickCheck",
@@ -2574,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "A",
           "package": "QuickCheck",
@@ -2582,6 +2701,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "A",
           "package": "QuickCheck",
@@ -2594,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "B",
           "package": "QuickCheck",
@@ -2602,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "B",
           "package": "QuickCheck",
@@ -2614,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "C",
           "package": "QuickCheck",
@@ -2622,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "C",
           "package": "QuickCheck",
@@ -2634,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdA",
           "package": "QuickCheck",
@@ -2642,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdA",
           "package": "QuickCheck",
@@ -2655,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdB",
           "package": "QuickCheck",
@@ -2663,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdB",
           "package": "QuickCheck",
@@ -2676,6 +2804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdC",
           "package": "QuickCheck",
@@ -2684,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdC",
           "package": "QuickCheck",
@@ -2697,6 +2827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "A",
           "package": "QuickCheck",
@@ -2706,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "A",
           "package": "QuickCheck",
@@ -2718,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "B",
           "package": "QuickCheck",
@@ -2727,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "B",
           "package": "QuickCheck",
@@ -2739,6 +2873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "C",
           "package": "QuickCheck",
@@ -2748,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "C",
           "package": "QuickCheck",
@@ -2760,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdA",
           "package": "QuickCheck",
@@ -2769,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdA",
           "package": "QuickCheck",
@@ -2782,6 +2920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdB",
           "package": "QuickCheck",
@@ -2791,6 +2930,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdB",
           "package": "QuickCheck",
@@ -2804,6 +2944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdC",
           "package": "QuickCheck",
@@ -2813,6 +2954,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "OrdC",
           "package": "QuickCheck",
@@ -2826,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unA",
           "package": "QuickCheck",
@@ -2835,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unA",
           "package": "QuickCheck",
@@ -2847,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unB",
           "package": "QuickCheck",
@@ -2856,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unB",
           "package": "QuickCheck",
@@ -2868,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unC",
           "package": "QuickCheck",
@@ -2877,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unC",
           "package": "QuickCheck",
@@ -2889,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdA",
           "package": "QuickCheck",
@@ -2898,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdA",
           "package": "QuickCheck",
@@ -2911,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdB",
           "package": "QuickCheck",
@@ -2920,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdB",
           "package": "QuickCheck",
@@ -2933,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdC",
           "package": "QuickCheck",
@@ -2942,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Poly",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Poly",
           "name": "unOrdC",
           "package": "QuickCheck",
@@ -2955,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Property",
           "package": "QuickCheck",
@@ -2963,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Property",
           "package": "QuickCheck",
@@ -2977,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent kinds of callbacks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Callback",
           "package": "QuickCheck",
@@ -2986,6 +3143,7 @@
         "index": {
           "description": "Different kinds of callbacks",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Callback",
           "package": "QuickCheck",
@@ -2999,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "CallbackKind",
           "package": "QuickCheck",
@@ -3007,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "CallbackKind",
           "package": "QuickCheck",
@@ -3020,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Prop",
           "package": "QuickCheck",
@@ -3028,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Prop",
           "package": "QuickCheck",
@@ -3041,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Property",
           "package": "QuickCheck",
@@ -3049,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Property",
           "package": "QuickCheck",
@@ -3063,6 +3227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a single test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Result",
           "package": "QuickCheck",
@@ -3072,6 +3237,7 @@
         "index": {
           "description": "The result of single test",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Result",
           "package": "QuickCheck",
@@ -3085,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Rose",
           "package": "QuickCheck",
@@ -3093,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Rose",
           "package": "QuickCheck",
@@ -3107,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things which can be tested, i.e. turned into a property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Testable",
           "package": "QuickCheck",
@@ -3116,6 +3285,7 @@
         "index": {
           "description": "The class of things which can be tested i.e turned into property",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Testable",
           "package": "QuickCheck",
@@ -3234,6 +3404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAffected by the \u003ccode\u003e\u003ca\u003everbose\u003c/a\u003e\u003c/code\u003e combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "Counterexample",
           "package": "QuickCheck",
@@ -3244,6 +3415,7 @@
         "index": {
           "description": "Affected by the verbose combinator",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "Counterexample",
           "package": "QuickCheck",
@@ -3257,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "IORose",
           "package": "QuickCheck",
@@ -3266,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "IORose",
           "package": "QuickCheck",
@@ -3279,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "MkProp",
           "package": "QuickCheck",
@@ -3288,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "MkProp",
           "package": "QuickCheck",
@@ -3301,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "MkResult",
           "package": "QuickCheck",
@@ -3310,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "MkResult",
           "package": "QuickCheck",
@@ -3323,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "MkRose",
           "package": "QuickCheck",
@@ -3332,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "MkRose",
           "normalized": "MkRose a[Rose a]",
@@ -3348,6 +3528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot affected by the \u003ccode\u003e\u003ca\u003everbose\u003c/a\u003e\u003c/code\u003e combinator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "NotCounterexample",
           "package": "QuickCheck",
@@ -3358,6 +3539,7 @@
         "index": {
           "description": "Not affected by the verbose combinator",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "NotCounterexample",
           "package": "QuickCheck",
@@ -3372,6 +3554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled with the final failing test-case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "PostFinalFailure",
           "package": "QuickCheck",
@@ -3382,6 +3565,7 @@
         "index": {
           "description": "Called with the final failing test-case",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "PostFinalFailure",
           "normalized": "PostFinalFailure CallbackKind(State-\u003eResult-\u003eIO())",
@@ -3398,6 +3582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalled just after a test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "PostTest",
           "package": "QuickCheck",
@@ -3408,6 +3593,7 @@
         "index": {
           "description": "Called just after test",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "PostTest",
           "normalized": "PostTest CallbackKind(State-\u003eResult-\u003eIO())",
@@ -3424,6 +3610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif True, the test should not be repeated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "abort",
           "package": "QuickCheck",
@@ -3434,6 +3621,7 @@
         "index": {
           "description": "if True the test should not be repeated",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "abort",
           "package": "QuickCheck",
@@ -3447,6 +3635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a callback\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "callback",
           "package": "QuickCheck",
@@ -3457,6 +3646,7 @@
         "index": {
           "description": "Adds callback",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "callback",
           "normalized": "Callback-\u003ea-\u003eProperty",
@@ -3472,6 +3662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe callbacks for this test case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "callbacks",
           "package": "QuickCheck",
@@ -3482,6 +3673,7 @@
         "index": {
           "description": "the callbacks for this test case",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "callbacks",
           "normalized": "[Callback]",
@@ -3624,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "exception",
           "package": "QuickCheck",
@@ -3633,6 +3826,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "exception",
           "normalized": "String-\u003eAnException-\u003eResult",
@@ -3647,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "exhaustive",
           "package": "QuickCheck",
@@ -3656,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "exhaustive",
           "normalized": "a-\u003eBool",
@@ -3671,6 +3867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates what the expected result of the property is\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "expect",
           "package": "QuickCheck",
@@ -3681,6 +3878,7 @@
         "index": {
           "description": "indicates what the expected result of the property is",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "expect",
           "package": "QuickCheck",
@@ -3720,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "failed",
           "package": "QuickCheck",
@@ -3729,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "failed",
           "package": "QuickCheck",
@@ -3795,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "formatException",
           "package": "QuickCheck",
@@ -3804,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "formatException",
           "normalized": "String-\u003eAnException-\u003eString",
@@ -3820,6 +4022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates if the test case was cancelled by pressing ^C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "interrupted",
           "package": "QuickCheck",
@@ -3830,6 +4033,7 @@
         "index": {
           "description": "indicates if the test case was cancelled by pressing",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "interrupted",
           "package": "QuickCheck",
@@ -3842,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "ioRose",
           "package": "QuickCheck",
@@ -3851,6 +4056,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "ioRose",
           "normalized": "IO(Rose Result)-\u003eRose Result",
@@ -3866,6 +4072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "joinRose",
           "package": "QuickCheck",
@@ -3875,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "joinRose",
           "normalized": "Rose(Rose a)-\u003eRose a",
@@ -3916,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "liftBool",
           "package": "QuickCheck",
@@ -3925,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "liftBool",
           "normalized": "Bool-\u003eResult",
@@ -3940,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "mapProp",
           "package": "QuickCheck",
@@ -3949,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "mapProp",
           "normalized": "(Prop-\u003eProp)-\u003ea-\u003eProperty",
@@ -3964,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "mapResult",
           "package": "QuickCheck",
@@ -3973,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "mapResult",
           "normalized": "(Result-\u003eResult)-\u003ea-\u003eProperty",
@@ -3988,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "mapRoseResult",
           "package": "QuickCheck",
@@ -3997,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "mapRoseResult",
           "normalized": "(Rose Result-\u003eRose Result)-\u003ea-\u003eProperty",
@@ -4039,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "mapTotalResult",
           "package": "QuickCheck",
@@ -4048,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "mapTotalResult",
           "normalized": "(Result-\u003eResult)-\u003ea-\u003eProperty",
@@ -4064,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDo I/O inside a property. This can obviously lead to unrepeatable\n testcases, so use with care.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "morallyDubiousIOProperty",
           "package": "QuickCheck",
@@ -4074,6 +4293,7 @@
         "index": {
           "description": "Do inside property This can obviously lead to unrepeatable testcases so use with care",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "morallyDubiousIOProperty",
           "normalized": "IO a-\u003eProperty",
@@ -4090,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisables shrinking for a property altogether.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "noShrinking",
           "package": "QuickCheck",
@@ -4100,6 +4321,7 @@
         "index": {
           "description": "Disables shrinking for property altogether",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "noShrinking",
           "normalized": "a-\u003eProperty",
@@ -4116,6 +4338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eresult of the test case; Nothing = discard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "ok",
           "package": "QuickCheck",
@@ -4126,6 +4349,7 @@
         "index": {
           "description": "result of the test case Nothing discard",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "ok",
           "package": "QuickCheck",
@@ -4138,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "onRose",
           "package": "QuickCheck",
@@ -4147,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "onRose",
           "normalized": "(a-\u003e[Rose a]-\u003eRose a)-\u003eRose a-\u003eRose a",
@@ -4215,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "property",
           "package": "QuickCheck",
@@ -4224,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "property",
           "normalized": "a-\u003eProperty",
@@ -4238,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "protect",
           "package": "QuickCheck",
@@ -4247,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "protect",
           "normalized": "(AnException-\u003ea)-\u003eIO a-\u003eIO a",
@@ -4261,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "protectResult",
           "package": "QuickCheck",
@@ -4270,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "protectResult",
           "normalized": "IO Result-\u003eIO Result",
@@ -4285,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "protectResults",
           "package": "QuickCheck",
@@ -4294,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "protectResults",
           "normalized": "Rose Result-\u003eRose Result",
@@ -4309,6 +4543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "protectRose",
           "package": "QuickCheck",
@@ -4318,6 +4553,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "protectRose",
           "normalized": "IO(Rose Result)-\u003eIO(Rose Result)",
@@ -4334,6 +4570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea message indicating what went wrong\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "reason",
           "package": "QuickCheck",
@@ -4344,6 +4581,7 @@
         "index": {
           "description": "message indicating what went wrong",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "reason",
           "package": "QuickCheck",
@@ -4356,6 +4594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "reduceRose",
           "package": "QuickCheck",
@@ -4365,6 +4604,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "reduceRose",
           "normalized": "Rose Result-\u003eIO(Rose Result)",
@@ -4380,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "rejected",
           "package": "QuickCheck",
@@ -4389,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "rejected",
           "package": "QuickCheck",
@@ -4401,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "result",
           "package": "QuickCheck",
@@ -4410,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "result",
           "package": "QuickCheck",
@@ -4448,6 +4692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe collected values for this test case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "stamp",
           "package": "QuickCheck",
@@ -4458,6 +4703,7 @@
         "index": {
           "description": "the collected values for this test case",
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "stamp",
           "normalized": "[(String,Int)]",
@@ -4472,6 +4718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "succeeded",
           "package": "QuickCheck",
@@ -4481,6 +4728,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "succeeded",
           "package": "QuickCheck",
@@ -4493,6 +4741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Property",
           "name": "unProp",
           "package": "QuickCheck",
@@ -4502,6 +4751,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Property",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Property",
           "name": "unProp",
           "package": "QuickCheck",
@@ -4621,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "State",
           "package": "QuickCheck",
@@ -4629,6 +4880,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "State",
           "package": "QuickCheck",
@@ -4643,6 +4895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState represents QuickCheck's internal state while testing a property.\n The state is made visible to callback functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "State",
           "package": "QuickCheck",
@@ -4652,6 +4905,7 @@
         "index": {
           "description": "State represents QuickCheck internal state while testing property The state is made visible to callback functions",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "State",
           "package": "QuickCheck",
@@ -4665,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "MkState",
           "package": "QuickCheck",
@@ -4674,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "MkState",
           "package": "QuickCheck",
@@ -4688,6 +4944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall labels that have been collected so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "collected",
           "package": "QuickCheck",
@@ -4698,6 +4955,7 @@
         "index": {
           "description": "all labels that have been collected so far",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "collected",
           "normalized": "[[(String,Int)]]",
@@ -4713,6 +4971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehow to compute the size of test cases from\n \u003ca name=\"tests and \"/\u003ediscarded tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "computeSize",
           "package": "QuickCheck",
@@ -4723,6 +4982,7 @@
         "index": {
           "description": "how to compute the size of test cases from discarded tests",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "computeSize",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -4739,6 +4999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates if the property is expected to fail\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "expectedFailure",
           "package": "QuickCheck",
@@ -4749,6 +5010,7 @@
         "index": {
           "description": "indicates if the property is expected to fail",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "expectedFailure",
           "package": "QuickCheck",
@@ -4763,6 +5025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum number of tests that can be discarded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "maxDiscardedTests",
           "package": "QuickCheck",
@@ -4773,6 +5036,7 @@
         "index": {
           "description": "maximum number of tests that can be discarded",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "maxDiscardedTests",
           "package": "QuickCheck",
@@ -4787,6 +5051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaximum number of successful tests needed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "maxSuccessTests",
           "package": "QuickCheck",
@@ -4797,6 +5062,7 @@
         "index": {
           "description": "maximum number of successful tests needed",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "maxSuccessTests",
           "package": "QuickCheck",
@@ -4811,6 +5077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current number of discarded tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numDiscardedTests",
           "package": "QuickCheck",
@@ -4821,6 +5088,7 @@
         "index": {
           "description": "the current number of discarded tests",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numDiscardedTests",
           "package": "QuickCheck",
@@ -4835,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe number of discarded tests since the last successful test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numRecentlyDiscardedTests",
           "package": "QuickCheck",
@@ -4845,6 +5114,7 @@
         "index": {
           "description": "the number of discarded tests since the last successful test",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numRecentlyDiscardedTests",
           "package": "QuickCheck",
@@ -4859,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of successful shrinking steps so far\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numSuccessShrinks",
           "package": "QuickCheck",
@@ -4869,6 +5140,7 @@
         "index": {
           "description": "number of successful shrinking steps so far",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numSuccessShrinks",
           "package": "QuickCheck",
@@ -4883,6 +5155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current number of tests that have succeeded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numSuccessTests",
           "package": "QuickCheck",
@@ -4893,6 +5166,7 @@
         "index": {
           "description": "the current number of tests that have succeeded",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numSuccessTests",
           "package": "QuickCheck",
@@ -4907,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etotal number of failed shrinking steps\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numTotTryShrinks",
           "package": "QuickCheck",
@@ -4917,6 +5192,7 @@
         "index": {
           "description": "total number of failed shrinking steps",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numTotTryShrinks",
           "package": "QuickCheck",
@@ -4931,6 +5207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enumber of failed shrinking steps since the last successful shrink\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "numTryShrinks",
           "package": "QuickCheck",
@@ -4941,6 +5218,7 @@
         "index": {
           "description": "number of failed shrinking steps since the last successful shrink",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "numTryShrinks",
           "package": "QuickCheck",
@@ -4955,6 +5233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current random seed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "randomSeed",
           "package": "QuickCheck",
@@ -4965,6 +5244,7 @@
         "index": {
           "description": "the current random seed",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "randomSeed",
           "package": "QuickCheck",
@@ -4979,6 +5259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current terminal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.State",
           "name": "terminal",
           "package": "QuickCheck",
@@ -4989,6 +5270,7 @@
         "index": {
           "description": "the current terminal",
           "hierarchy": "Test QuickCheck State",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.State",
           "name": "terminal",
           "package": "QuickCheck",
@@ -5001,6 +5283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "Test",
           "package": "QuickCheck",
@@ -5009,6 +5292,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "Test",
           "package": "QuickCheck",
@@ -5023,6 +5307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgs specifies arguments to the QuickCheck driver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "Args",
           "package": "QuickCheck",
@@ -5032,6 +5317,7 @@
         "index": {
           "description": "Args specifies arguments to the QuickCheck driver",
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "Args",
           "package": "QuickCheck",
@@ -5046,6 +5332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult represents the test result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "Result",
           "package": "QuickCheck",
@@ -5055,6 +5342,7 @@
         "index": {
           "description": "Result represents the test result",
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "Result",
           "package": "QuickCheck",
@@ -5183,6 +5471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "callbackPostFinalFailure",
           "package": "QuickCheck",
@@ -5192,6 +5481,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "callbackPostFinalFailure",
           "normalized": "State-\u003eResult-\u003eIO()",
@@ -5207,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "callbackPostTest",
           "package": "QuickCheck",
@@ -5216,6 +5507,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "callbackPostTest",
           "normalized": "State-\u003eResult-\u003eIO()",
@@ -5255,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "doneTesting",
           "package": "QuickCheck",
@@ -5264,6 +5557,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "doneTesting",
           "normalized": "State-\u003e(StdGen-\u003eInt-\u003eProp)-\u003eIO Result",
@@ -5279,6 +5573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "foundFailure",
           "package": "QuickCheck",
@@ -5288,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "foundFailure",
           "normalized": "State-\u003eResult-\u003e[Rose Result]-\u003eIO Int",
@@ -5303,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "giveUp",
           "package": "QuickCheck",
@@ -5312,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "giveUp",
           "normalized": "State-\u003e(StdGen-\u003eInt-\u003eProp)-\u003eIO Result",
@@ -5352,6 +5650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eisSuccess checks if the test run result was a success\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "isSuccess",
           "package": "QuickCheck",
@@ -5362,6 +5661,7 @@
         "index": {
           "description": "isSuccess checks if the test run result was success",
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "isSuccess",
           "normalized": "Result-\u003eBool",
@@ -5403,6 +5703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "localMin",
           "package": "QuickCheck",
@@ -5412,6 +5713,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "localMin",
           "normalized": "State-\u003eResult-\u003e[Rose Result]-\u003eIO Int",
@@ -5427,6 +5729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "localMin'",
           "package": "QuickCheck",
@@ -5436,6 +5739,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "localMin'",
           "normalized": "State-\u003eResult-\u003e[Rose Result]-\u003eIO Int",
@@ -5451,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "localMinFound",
           "package": "QuickCheck",
@@ -5460,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "localMinFound",
           "normalized": "State-\u003eResult-\u003eIO Int",
@@ -5782,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "runATest",
           "package": "QuickCheck",
@@ -5791,6 +6098,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "runATest",
           "normalized": "State-\u003e(StdGen-\u003eInt-\u003eProp)-\u003eIO Result",
@@ -5806,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "safely",
           "package": "QuickCheck",
@@ -5815,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "safely",
           "normalized": "State-\u003eIO()-\u003eIO()",
@@ -5854,6 +6164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "success",
           "package": "QuickCheck",
@@ -5863,6 +6174,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "success",
           "normalized": "State-\u003eIO()",
@@ -5877,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "summary",
           "package": "QuickCheck",
@@ -5886,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "summary",
           "normalized": "State-\u003e[(String,Int)]",
@@ -5900,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Test",
           "name": "test",
           "package": "QuickCheck",
@@ -5909,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Test",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Test",
           "name": "test",
           "normalized": "State-\u003e(StdGen-\u003eInt-\u003eProp)-\u003eIO Result",
@@ -6081,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "Text",
           "package": "QuickCheck",
@@ -6089,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "Text",
           "package": "QuickCheck",
@@ -6102,6 +6420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "Str",
           "package": "QuickCheck",
@@ -6110,6 +6429,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "Str",
           "package": "QuickCheck",
@@ -6123,6 +6443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "Terminal",
           "package": "QuickCheck",
@@ -6131,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "Terminal",
           "package": "QuickCheck",
@@ -6167,6 +6489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "bold",
           "package": "QuickCheck",
@@ -6176,6 +6499,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "bold",
           "normalized": "String-\u003eString",
@@ -6190,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "handle",
           "package": "QuickCheck",
@@ -6199,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "handle",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -6213,6 +6539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "isOneLine",
           "package": "QuickCheck",
@@ -6222,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "isOneLine",
           "normalized": "String-\u003eBool",
@@ -6237,6 +6565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "newTerminal",
           "package": "QuickCheck",
@@ -6246,6 +6575,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "newTerminal",
           "normalized": "Output-\u003eOutput-\u003eIO Terminal",
@@ -6261,6 +6591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "number",
           "package": "QuickCheck",
@@ -6270,6 +6601,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "number",
           "normalized": "Int-\u003eString-\u003eString",
@@ -6284,6 +6616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "oneLine",
           "package": "QuickCheck",
@@ -6293,6 +6626,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "oneLine",
           "normalized": "String-\u003eString",
@@ -6308,6 +6642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "putLine",
           "package": "QuickCheck",
@@ -6317,6 +6652,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "putLine",
           "normalized": "Terminal-\u003eString-\u003eIO()",
@@ -6332,6 +6668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "putPart",
           "package": "QuickCheck",
@@ -6341,6 +6678,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "putPart",
           "normalized": "Terminal-\u003eString-\u003eIO()",
@@ -6356,6 +6694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "putTemp",
           "package": "QuickCheck",
@@ -6365,6 +6704,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "putTemp",
           "normalized": "Terminal-\u003eString-\u003eIO()",
@@ -6404,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "short",
           "package": "QuickCheck",
@@ -6413,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "short",
           "normalized": "Int-\u003eString-\u003eString",
@@ -6427,6 +6769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "showErr",
           "package": "QuickCheck",
@@ -6436,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "showErr",
           "normalized": "a-\u003eString",
@@ -6451,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "terminalOutput",
           "package": "QuickCheck",
@@ -6460,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "terminalOutput",
           "normalized": "Terminal-\u003eIO String",
@@ -6475,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "withNullTerminal",
           "package": "QuickCheck",
@@ -6484,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "withNullTerminal",
           "normalized": "(Terminal-\u003eIO a)-\u003eIO a",
@@ -6499,6 +6847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck.Text",
           "name": "withStdioTerminal",
           "package": "QuickCheck",
@@ -6508,6 +6857,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Text",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck.Text",
           "name": "withStdioTerminal",
           "normalized": "(Terminal-\u003eIO a)-\u003eIO a",
@@ -6523,6 +6873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "QuickCheck",
           "package": "QuickCheck",
@@ -6531,6 +6882,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "QuickCheck",
           "package": "QuickCheck",
@@ -6545,6 +6897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom generation and shrinking of values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -6554,6 +6907,7 @@
         "index": {
           "description": "Random generation and shrinking of values",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Arbitrary",
           "package": "QuickCheck",
@@ -6568,6 +6922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArgs specifies arguments to the QuickCheck driver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Args",
           "package": "QuickCheck",
@@ -6577,6 +6932,7 @@
         "index": {
           "description": "Args specifies arguments to the QuickCheck driver",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Args",
           "package": "QuickCheck",
@@ -6591,6 +6947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eBlind x\u003c/code\u003e: as x, but x does not have to be in the \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Blind",
           "package": "QuickCheck",
@@ -6600,6 +6957,7 @@
         "index": {
           "description": "Blind as but does not have to be in the Show class",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Blind",
           "package": "QuickCheck",
@@ -6614,6 +6972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed for random generation of functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "CoArbitrary",
           "package": "QuickCheck",
@@ -6623,6 +6982,7 @@
         "index": {
           "description": "Used for random generation of functions",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "CoArbitrary",
           "package": "QuickCheck",
@@ -6637,6 +6997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFixed x\u003c/code\u003e: as x, but will not be shrunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Fixed",
           "package": "QuickCheck",
@@ -6646,6 +7007,7 @@
         "index": {
           "description": "Fixed as but will not be shrunk",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Fixed",
           "package": "QuickCheck",
@@ -6659,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Gen",
           "package": "QuickCheck",
@@ -6667,6 +7030,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Gen",
           "package": "QuickCheck",
@@ -6681,6 +7045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonEmpty xs\u003c/code\u003e: guarantees that xs is non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "NonEmptyList",
           "package": "QuickCheck",
@@ -6690,6 +7055,7 @@
         "index": {
           "description": "NonEmpty xs guarantees that xs is non-empty",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "NonEmptyList",
           "package": "QuickCheck",
@@ -6704,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonNegative x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "NonNegative",
           "package": "QuickCheck",
@@ -6713,6 +7080,7 @@
         "index": {
           "description": "NonNegative guarantees that",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "NonNegative",
           "package": "QuickCheck",
@@ -6727,6 +7095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eNonZero x\u003c/code\u003e: guarantees that \u003ccode\u003ex /= 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "NonZero",
           "package": "QuickCheck",
@@ -6736,6 +7105,7 @@
         "index": {
           "description": "NonZero guarantees that",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "NonZero",
           "package": "QuickCheck",
@@ -6750,6 +7120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eOrdered xs\u003c/code\u003e: guarantees that xs is ordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "OrderedList",
           "package": "QuickCheck",
@@ -6759,6 +7130,7 @@
         "index": {
           "description": "Ordered xs guarantees that xs is ordered",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "OrderedList",
           "package": "QuickCheck",
@@ -6773,6 +7145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePositive x\u003c/code\u003e: guarantees that \u003ccode\u003ex \u003e 0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Positive",
           "package": "QuickCheck",
@@ -6782,6 +7155,7 @@
         "index": {
           "description": "Positive guarantees that",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Positive",
           "package": "QuickCheck",
@@ -6795,6 +7169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Prop",
           "package": "QuickCheck",
@@ -6803,6 +7178,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Prop",
           "package": "QuickCheck",
@@ -6816,6 +7192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Property",
           "package": "QuickCheck",
@@ -6824,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Property",
           "package": "QuickCheck",
@@ -6838,6 +7216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult represents the test result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Result",
           "package": "QuickCheck",
@@ -6847,6 +7226,7 @@
         "index": {
           "description": "Result represents the test result",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Result",
           "package": "QuickCheck",
@@ -6861,6 +7241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eShrink2 x\u003c/code\u003e: allows 2 shrinking steps at the same time when shrinking x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Shrink2",
           "package": "QuickCheck",
@@ -6870,6 +7251,7 @@
         "index": {
           "description": "Shrink2 allows shrinking steps at the same time when shrinking",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Shrink2",
           "package": "QuickCheck",
@@ -6883,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "ShrinkState",
           "package": "QuickCheck",
@@ -6891,6 +7274,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "ShrinkState",
           "package": "QuickCheck",
@@ -6905,6 +7289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eShrinking _ x\u003c/code\u003e: allows for maintaining a state during shrinking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Shrinking",
           "package": "QuickCheck",
@@ -6914,6 +7299,7 @@
         "index": {
           "description": "Shrinking allows for maintaining state during shrinking",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Shrinking",
           "package": "QuickCheck",
@@ -6928,6 +7314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eSmart _ x\u003c/code\u003e: tries a different order when shrinking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Smart",
           "package": "QuickCheck",
@@ -6937,6 +7324,7 @@
         "index": {
           "description": "Smart tries different order when shrinking",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Smart",
           "package": "QuickCheck",
@@ -6950,6 +7338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Str",
           "package": "QuickCheck",
@@ -6958,6 +7347,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Str",
           "package": "QuickCheck",
@@ -6972,6 +7362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of things which can be tested, i.e. turned into a property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "Testable",
           "package": "QuickCheck",
@@ -6981,6 +7372,7 @@
         "index": {
           "description": "The class of things which can be tested i.e turned into property",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "Testable",
           "package": "QuickCheck",
@@ -6995,6 +7387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generator for values of the given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "arbitrary",
           "package": "QuickCheck",
@@ -7005,6 +7398,7 @@
         "index": {
           "description": "generator for values of the given type",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "arbitrary",
           "package": "QuickCheck",
@@ -7018,6 +7412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to generate a function of type \u003ccode\u003ea -\u003e c\u003c/code\u003e. The implementation\n should use the first argument to perturb the random generator\n given as the second argument. the returned generator\n is then used to generate the function result.\n You can often use \u003ccode\u003e\u003ca\u003evariant\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e\u003e\u003c\u003c/a\u003e\u003c/code\u003e to implement\n \u003ccode\u003e\u003ca\u003ecoarbitrary\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "coarbitrary",
           "package": "QuickCheck",
@@ -7028,6 +7423,7 @@
         "index": {
           "description": "Used to generate function of type The implementation should use the first argument to perturb the random generator given as the second argument the returned generator is then used to generate the function result You can often use variant and to implement coarbitrary",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "coarbitrary",
           "normalized": "a-\u003eGen b-\u003eGen b",
@@ -7043,6 +7439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special exception that makes QuickCheck discard the test case.\n Normally you should use \u003ccode\u003e==\u003e\u003c/code\u003e, but if for some reason this isn't\n possible (e.g. you are deep inside a generator), use \u003ccode\u003e\u003ca\u003ediscard\u003c/a\u003e\u003c/code\u003e\n instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "discard",
           "package": "QuickCheck",
@@ -7053,6 +7450,7 @@
         "index": {
           "description": "special exception that makes QuickCheck discard the test case Normally you should use but if for some reason this isn possible e.g you are deep inside generator use discard instead",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "discard",
           "package": "QuickCheck",
@@ -7065,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "exhaustive",
           "package": "QuickCheck",
@@ -7074,6 +7473,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "exhaustive",
           "normalized": "a-\u003eBool",
@@ -7088,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "property",
           "package": "QuickCheck",
@@ -7097,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "property",
           "normalized": "a-\u003eProperty",
@@ -7112,6 +7514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduces a (possibly) empty list of all the possible\n immediate shrinks of the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "shrink",
           "package": "QuickCheck",
@@ -7122,6 +7525,7 @@
         "index": {
           "description": "Produces possibly empty list of all the possible immediate shrinks of the given value",
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "shrink",
           "normalized": "a-\u003e[a]",
@@ -7136,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "shrinkInit",
           "package": "QuickCheck",
@@ -7145,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "shrinkInit",
           "normalized": "a-\u003eb",
@@ -7160,6 +7566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:57:58 UTC 2014",
           "module": "Test.QuickCheck",
           "name": "shrinkState",
           "package": "QuickCheck",
@@ -7169,6 +7576,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck",
+          "indexed": "2014-03-11T16:57:58",
           "module": "Test.QuickCheck",
           "name": "shrinkState",
           "normalized": "a-\u003eb-\u003e[(a,b)]",

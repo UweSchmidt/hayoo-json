@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xml-lens"
+        "phrase": "xml-lens",
+        "type": "phrase"
       },
       "type": "context"
     }

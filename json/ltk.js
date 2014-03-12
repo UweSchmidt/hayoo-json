@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ltk"
+        "phrase": "ltk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple event mechanism\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "Event",
           "package": "ltk",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple event mechanism",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "Event",
           "package": "ltk",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery event needs to know its selector and its source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "Event",
           "package": "ltk",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Every event needs to know its selector and its source",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "Event",
           "package": "ltk",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery event needs a selector, which should identify the type of event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "EventSelector",
           "package": "ltk",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Every event needs selector which should identify the type of event",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "EventSelector",
           "package": "ltk",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEverything which is an event source needs this\n alpha is the Notifier\n beta is the event\n gamma is the monad\n delta is the event selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "EventSource",
           "package": "ltk",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Everything which is an event source needs this alpha is the Notifier beta is the event gamma is the monad delta is the event selector",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "EventSource",
           "package": "ltk",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis shows the implementation of the event mechnism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "Handlers",
           "package": "ltk",
@@ -120,6 +129,7 @@
         "index": {
           "description": "This shows the implementation of the event mechnism",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "Handlers",
           "package": "ltk",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReimplement this in instances to make triggering of events possible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "canTriggerEvent",
           "package": "ltk",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Reimplement this in instances to make triggering of events possible",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "canTriggerEvent",
           "normalized": "a-\u003eb-\u003eBool",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "getHandlers",
           "package": "ltk",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "getHandlers",
           "normalized": "a-\u003eb(Handlers c b d)",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "getSelector",
           "package": "ltk",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "getSelector",
           "normalized": "a-\u003eb",
@@ -207,6 +223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "myUnique",
           "package": "ltk",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "myUnique",
           "normalized": "a-\u003eb Unique",
@@ -231,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "registerEvent",
           "package": "ltk",
@@ -240,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "registerEvent",
           "normalized": "a-\u003eb-\u003e(c-\u003ed c)-\u003ed(Maybe Unique)",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "registerEvents",
           "package": "ltk",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "registerEvents",
           "normalized": "a-\u003e[b]-\u003e(c-\u003ed c)-\u003ed[Unique]",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "setHandlers",
           "package": "ltk",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "setHandlers",
           "normalized": "a-\u003eHandlers b c d-\u003ec()",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the event, so that you may get values back from an event\n Args: Notifier, Event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "triggerEvent",
           "package": "ltk",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Returns the event so that you may get values back from an event Args Notifier Event",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "triggerEvent",
           "normalized": "a-\u003eb-\u003ec b",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euse Left to register and Right to unregister\n Args: Notifier, EventSelector, Unique\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Control.Event",
           "name": "unregisterEvent",
           "package": "ltk",
@@ -340,6 +367,7 @@
         "index": {
           "description": "use Left to register and Right to unregister Args Notifier EventSelector Unique",
           "hierarchy": "Control Event",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Control.Event",
           "name": "unregisterEvent",
           "normalized": "a-\u003eb-\u003eUnique-\u003ec()",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for default values of a data type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Default",
           "name": "Default",
           "package": "ltk",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Module for default values of data type",
           "hierarchy": "Default",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Default",
           "name": "Default",
           "package": "ltk",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for providing default values for certain types of editors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Default",
           "name": "Default",
           "package": "ltk",
@@ -388,6 +419,7 @@
         "index": {
           "description": "class for providing default values for certain types of editors",
           "hierarchy": "Default",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Default",
           "name": "Default",
           "package": "ltk",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Default",
           "name": "getDefault",
           "package": "ltk",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Default",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Default",
           "name": "getDefault",
           "package": "ltk",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for the basiscs of composing GUIs from editors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Basics",
           "package": "ltk",
@@ -433,6 +468,7 @@
         "index": {
           "description": "Module for the basiscs of composing GUIs from editors",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Basics",
           "package": "ltk",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for the application of a value to be reflected in the GUI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Applicator",
           "package": "ltk",
@@ -456,6 +493,7 @@
         "index": {
           "description": "type for the application of value to be reflected in the GUI",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Applicator",
           "package": "ltk",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal handlers for the different pane types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Connection",
           "package": "ltk",
@@ -479,6 +518,7 @@
         "index": {
           "description": "Signal handlers for the different pane types",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Connection",
           "package": "ltk",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Connections",
           "package": "ltk",
@@ -500,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Connections",
           "package": "ltk",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to describe an editor.\n alpha is the type of the individual field of the record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Editor",
           "package": "ltk",
@@ -523,6 +566,7 @@
         "index": {
           "description": "type to describe an editor alpha is the type of the individual field of the record",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Editor",
           "package": "ltk",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for extracting a value from an editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Extractor",
           "package": "ltk",
@@ -546,6 +591,7 @@
         "index": {
           "description": "type for extracting value from an editor",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Extractor",
           "package": "ltk",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for an event in the GUI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEvent",
           "package": "ltk",
@@ -569,6 +616,7 @@
         "index": {
           "description": "type for an event in the GUI",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEvent",
           "package": "ltk",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEventSelector",
           "package": "ltk",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEventSelector",
           "package": "ltk",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for getting a field of a record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Getter",
           "package": "ltk",
@@ -613,6 +664,7 @@
         "index": {
           "description": "type for getting field of record",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Getter",
           "package": "ltk",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GtkHandler",
           "package": "ltk",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GtkHandler",
           "package": "ltk",
@@ -648,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for a function to register a gtk event\n |\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GtkRegFunc",
           "package": "ltk",
@@ -657,6 +712,7 @@
         "index": {
           "description": "type for function to register gtk event",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GtkRegFunc",
           "package": "ltk",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for injecting a value into an editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Injector",
           "package": "ltk",
@@ -680,6 +737,7 @@
         "index": {
           "description": "type for injecting value into an editor",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Injector",
           "package": "ltk",
@@ -694,6 +752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe event source in the gtk editor context\n If the second argument is Left Handler the handler gets registered\n If the second argument is Right Unique the handler will be removed\n The returned unique value must be used for unregistering an event\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Notifier",
           "package": "ltk",
@@ -703,6 +762,7 @@
         "index": {
           "description": "The event source in the gtk editor context If the second argument is Left Handler the handler gets registered If the second argument is Right Unique the handler will be removed The returned unique value must be used for unregistering an event",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Notifier",
           "package": "ltk",
@@ -717,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for setting the field of a record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Setter",
           "package": "ltk",
@@ -726,6 +787,7 @@
         "index": {
           "description": "type for setting the field of record",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Setter",
           "package": "ltk",
@@ -740,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric, a mouse key has been pressed and released, while the widget has the focus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "ButtonPressed",
           "package": "ltk",
@@ -750,6 +813,7 @@
         "index": {
           "description": "generic mouse key has been pressed and released while the widget has the focus",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "ButtonPressed",
           "package": "ltk",
@@ -764,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebutton specific, the button has been pressed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Clicked",
           "package": "ltk",
@@ -774,6 +839,7 @@
         "index": {
           "description": "button specific the button has been pressed",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Clicked",
           "package": "ltk",
@@ -811,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric, the widget gets the focus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "FocusIn",
           "package": "ltk",
@@ -821,6 +888,7 @@
         "index": {
           "description": "generic the widget gets the focus",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "FocusIn",
           "package": "ltk",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric, the widget looses the focus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "FocusOut",
           "package": "ltk",
@@ -845,6 +914,7 @@
         "index": {
           "description": "generic the widget looses the focus",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "FocusOut",
           "package": "ltk",
@@ -858,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEvent",
           "package": "ltk",
@@ -867,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "GUIEvent",
           "package": "ltk",
@@ -881,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric, a keyboard key has been pressed and released, while the widget has the focus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "KeyPressed",
           "package": "ltk",
@@ -891,6 +964,7 @@
         "index": {
           "description": "generic keyboard key has been pressed and released while the widget has the focus",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "KeyPressed",
           "package": "ltk",
@@ -905,6 +979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric, no gui event, the contents of the widget may have changed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "MayHaveChanged",
           "package": "ltk",
@@ -915,6 +990,7 @@
         "index": {
           "description": "generic no gui event the contents of the widget may have changed",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "MayHaveChanged",
           "package": "ltk",
@@ -928,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Noti",
           "package": "ltk",
@@ -937,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "Noti",
           "normalized": "Noti(IORef(Handlers GUIEvent IO GUIEventSelector,Map GUIEventSelector GUIEventReg))",
@@ -953,6 +1031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalidation of a contents has failed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "ValidationError",
           "package": "ltk",
@@ -963,6 +1042,7 @@
         "index": {
           "description": "validation of contents has failed",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "ValidationError",
           "package": "ltk",
@@ -977,6 +1057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivate the event after the event has been declared and the\n widget has been constructed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "activateEvent",
           "package": "ltk",
@@ -987,6 +1068,7 @@
         "index": {
           "description": "Activate the event after the event has been declared and the widget has been constructed",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "activateEvent",
           "normalized": "a-\u003eNotifier-\u003eMaybe(a-\u003eGtkHandler-\u003eIO Connection)-\u003eGUIEventSelector-\u003eIO()",
@@ -1002,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "allGUIEvents",
           "package": "ltk",
@@ -1011,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "allGUIEvents",
           "normalized": "[GUIEventSelector]",
@@ -1026,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "emptyNotifier",
           "package": "ltk",
@@ -1035,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "emptyNotifier",
           "package": "ltk",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "eventText",
           "package": "ltk",
@@ -1057,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "eventText",
           "package": "ltk",
@@ -1070,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "genericGUIEvents",
           "package": "ltk",
@@ -1079,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "genericGUIEvents",
           "normalized": "[GUIEventSelector]",
@@ -1095,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convinence method for not repeating this over and over again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "getStandardRegFunction",
           "package": "ltk",
@@ -1105,6 +1196,7 @@
         "index": {
           "description": "convinence method for not repeating this over and over again",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "getStandardRegFunction",
           "normalized": "GUIEventSelector-\u003eGtkRegFunc",
@@ -1120,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "gtkEvent",
           "package": "ltk",
@@ -1129,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "gtkEvent",
           "package": "ltk",
@@ -1143,6 +1237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue means that the event has been completely handled,\n  gtk shoudn't do any further action about it (Often not\n  a good idea\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "gtkReturn",
           "package": "ltk",
@@ -1153,6 +1248,7 @@
         "index": {
           "description": "True means that the event has been completely handled gtk shoudn do any further action about it Often not good idea",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "gtkReturn",
           "package": "ltk",
@@ -1166,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "propagateAsChanged",
           "package": "ltk",
@@ -1175,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "propagateAsChanged",
           "normalized": "a-\u003e[GUIEventSelector]-\u003eb()",
@@ -1191,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagate the event with the selector from notifier to eventSource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "propagateEvent",
           "package": "ltk",
@@ -1201,6 +1300,7 @@
         "index": {
           "description": "Propagate the event with the selector from notifier to eventSource",
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "propagateEvent",
           "normalized": "Notifier-\u003e[Notifier]-\u003eGUIEventSelector-\u003eIO()",
@@ -1216,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Basics",
           "name": "selector",
           "package": "ltk",
@@ -1225,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Basics",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Basics",
           "name": "selector",
           "package": "ltk",
@@ -1238,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for making composite editors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "Composite",
           "package": "ltk",
@@ -1247,6 +1350,7 @@
         "index": {
           "description": "Module for making composite editors",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "Composite",
           "package": "ltk",
@@ -1260,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "ColumnDescr",
           "package": "ltk",
@@ -1268,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "ColumnDescr",
           "package": "ltk",
@@ -1281,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "ColumnDescr",
           "package": "ltk",
@@ -1290,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "ColumnDescr",
           "normalized": "ColumnDescr Bool[(String,a-\u003e[AttrOp CellRendererText])]",
@@ -1305,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "dependenciesEditor",
           "package": "ltk",
@@ -1314,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "dependenciesEditor",
           "normalized": "[PackageIdentifier]-\u003eEditor[Dependency]",
@@ -1329,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "dependencyEditor",
           "package": "ltk",
@@ -1338,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "dependencyEditor",
           "normalized": "[PackageIdentifier]-\u003eEditor Dependency",
@@ -1354,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor with a subeditor which gets active, when a checkbox is selected\n or grayed out (if the positive Argument is False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "disableEditor",
           "package": "ltk",
@@ -1364,6 +1477,7 @@
         "index": {
           "description": "An editor with subeditor which gets active when checkbox is selected or grayed out if the positive Argument is False",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "disableEditor",
           "normalized": "(Editor a,Parameters)-\u003eBool-\u003eString-\u003eEditor(Bool,a)",
@@ -1380,6 +1494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor with a subeditor which gets active, when a checkbox is selected\n or deselected (if the positive Argument is False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "eitherOrEditor",
           "package": "ltk",
@@ -1390,6 +1505,7 @@
         "index": {
           "description": "An editor with subeditor which gets active when checkbox is selected or deselected if the positive Argument is False",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "eitherOrEditor",
           "normalized": "(Editor a,Parameters)-\u003e(Editor b,Parameters)-\u003eString-\u003eEditor(Either a b)",
@@ -1405,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "filesEditor",
           "package": "ltk",
@@ -1414,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "filesEditor",
           "normalized": "Maybe FilePath-\u003eFileChooserAction-\u003eString-\u003eEditor[FilePath]",
@@ -1430,6 +1548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor with a subeditor which gets active, when a checkbox is selected\n or deselected (if the positive Argument is False)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "maybeEditor",
           "package": "ltk",
@@ -1440,6 +1559,7 @@
         "index": {
           "description": "An editor with subeditor which gets active when checkbox is selected or deselected if the positive Argument is False",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "maybeEditor",
           "normalized": "(Editor a,Parameters)-\u003eBool-\u003eString-\u003eEditor(Maybe a)",
@@ -1456,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor with a subeditor, of which a list of items can be selected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "multisetEditor",
           "package": "ltk",
@@ -1465,6 +1586,7 @@
         "index": {
           "description": "An editor with subeditor of which list of items can be selected",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "multisetEditor",
           "normalized": "ColumnDescr a-\u003e(Editor a,Parameters)-\u003eMaybe([a]-\u003e[a])-\u003eMaybe(a-\u003ea-\u003eBool)-\u003eEditor[a]",
@@ -1481,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor which composes two subeditors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "pairEditor",
           "package": "ltk",
@@ -1491,6 +1614,7 @@
         "index": {
           "description": "An editor which composes two subeditors",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "pairEditor",
           "normalized": "(Editor a,Parameters)-\u003e(Editor b,Parameters)-\u003eEditor(a,b)",
@@ -1507,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike a pair editor, but with a moveable split\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "splitEditor",
           "package": "ltk",
@@ -1517,6 +1642,7 @@
         "index": {
           "description": "Like pair editor but with moveable split",
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "splitEditor",
           "normalized": "(Editor a,Parameters)-\u003e(Editor b,Parameters)-\u003eEditor(a,b)",
@@ -1532,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "stringsEditor",
           "package": "ltk",
@@ -1541,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "stringsEditor",
           "normalized": "(String-\u003eBool)-\u003eBool-\u003eEditor[String]",
@@ -1556,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "tupel3Editor",
           "package": "ltk",
@@ -1565,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "tupel3Editor",
           "normalized": "(Editor a,Parameters)-\u003e(Editor b,Parameters)-\u003e(Editor c,Parameters)-\u003eEditor(a,b,c)",
@@ -1580,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "versionEditor",
           "package": "ltk",
@@ -1589,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "versionEditor",
           "package": "ltk",
@@ -1602,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Composite",
           "name": "versionRangeEditor",
           "package": "ltk",
@@ -1611,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Composite",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Composite",
           "name": "versionRangeEditor",
           "package": "ltk",
@@ -1625,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDescription of a editor with additional fileds for printing and parsing\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "DescriptionPP",
           "package": "ltk",
@@ -1634,6 +1769,7 @@
         "index": {
           "description": "Description of editor with additional fileds for printing and parsing",
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "DescriptionPP",
           "package": "ltk",
@@ -1648,6 +1784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for the application of a value to be reflected in the GUI\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "Applicator",
           "package": "ltk",
@@ -1657,6 +1794,7 @@
         "index": {
           "description": "type for the application of value to be reflected in the GUI",
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "Applicator",
           "package": "ltk",
@@ -1670,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "FieldDescriptionPP",
           "package": "ltk",
@@ -1678,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "FieldDescriptionPP",
           "package": "ltk",
@@ -1691,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "FDPP",
           "package": "ltk",
@@ -1700,6 +1841,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "FDPP",
           "package": "ltk",
@@ -1713,6 +1855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "HFDPP",
           "package": "ltk",
@@ -1722,6 +1865,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "HFDPP",
           "normalized": "HFDPP Parameters[FieldDescriptionPP a b]",
@@ -1737,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "NFDPP",
           "package": "ltk",
@@ -1746,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "NFDPP",
           "normalized": "NFDPP[(String,FieldDescriptionPP a b)]",
@@ -1761,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "VFDPP",
           "package": "ltk",
@@ -1770,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "VFDPP",
           "normalized": "VFDPP Parameters[FieldDescriptionPP a b]",
@@ -1785,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "applicator",
           "package": "ltk",
@@ -1794,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "applicator",
           "normalized": "a-\u003ea-\u003eb()",
@@ -1808,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "extractFieldDescription",
           "package": "ltk",
@@ -1817,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "extractFieldDescription",
           "normalized": "FieldDescriptionPP a b-\u003eFieldDescription a",
@@ -1832,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldEditor",
           "package": "ltk",
@@ -1841,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldEditor",
           "normalized": "a-\u003eIO(Widget,Injector a,a-\u003eExtractor a,Notifier)",
@@ -1856,6 +2010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldParser",
           "package": "ltk",
@@ -1865,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldParser",
           "normalized": "a-\u003eCharParser()a",
@@ -1880,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldPrinter",
           "package": "ltk",
@@ -1889,6 +2046,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "fieldPrinter",
           "normalized": "a-\u003eDoc",
@@ -1904,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "flattenFieldDescriptionPP",
           "package": "ltk",
@@ -1913,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "flattenFieldDescriptionPP",
           "normalized": "FieldDescriptionPP a b-\u003e[FieldDescriptionPP a b]",
@@ -1928,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "flattenFieldDescriptionPPToS",
           "package": "ltk",
@@ -1937,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "flattenFieldDescriptionPPToS",
           "normalized": "FieldDescriptionPP a b-\u003e[FieldDescriptionS a]",
@@ -1952,6 +2114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "mkFieldPP",
           "package": "ltk",
@@ -1961,6 +2124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "mkFieldPP",
           "package": "ltk",
@@ -1974,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "parameters",
           "package": "ltk",
@@ -1983,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor DescriptionPP",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.DescriptionPP",
           "name": "parameters",
           "package": "ltk",
@@ -1996,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for making editors out of descriptions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "MakeEditor",
           "package": "ltk",
@@ -2005,6 +2172,7 @@
         "index": {
           "description": "Module for making editors out of descriptions",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "MakeEditor",
           "package": "ltk",
@@ -2019,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type to describe a field of a record, which can be edited\n | alpha is the type of the individual field of the record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "FieldDescription",
           "package": "ltk",
@@ -2028,6 +2197,7 @@
         "index": {
           "description": "type to describe field of record which can be edited alpha is the type of the individual field of the record",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "FieldDescription",
           "package": "ltk",
@@ -2042,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA constructor type for a field desciption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "MkFieldDescription",
           "package": "ltk",
@@ -2051,6 +2222,7 @@
         "index": {
           "description": "constructor type for field desciption",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "MkFieldDescription",
           "package": "ltk",
@@ -2064,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "FD",
           "package": "ltk",
@@ -2073,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "FD",
           "normalized": "FD Parameters(a-\u003eIO(Widget,Injector a,a-\u003eExtractor a,Notifier))",
@@ -2088,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "HFD",
           "package": "ltk",
@@ -2097,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "HFD",
           "normalized": "HFD Parameters[FieldDescription a]",
@@ -2112,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "NFD",
           "package": "ltk",
@@ -2121,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "NFD",
           "normalized": "NFD[(String,FieldDescription a)]",
@@ -2136,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "VFD",
           "package": "ltk",
@@ -2145,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "VFD",
           "normalized": "VFD Parameters[FieldDescription a]",
@@ -2160,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "buildEditor",
           "package": "ltk",
@@ -2169,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "buildEditor",
           "normalized": "FieldDescription a-\u003ea-\u003eIO(Widget,Injector a,a-\u003eExtractor a,Notifier)",
@@ -2184,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "extract",
           "package": "ltk",
@@ -2193,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "extract",
           "normalized": "a-\u003e[a-\u003eExtractor a]-\u003eIO(Maybe a)",
@@ -2208,6 +2392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience method to validate and extract fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "extractAndValidate",
           "package": "ltk",
@@ -2218,6 +2403,7 @@
         "index": {
           "description": "Convenience method to validate and extract fields",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "extractAndValidate",
           "normalized": "a-\u003e[a-\u003eExtractor a]-\u003e[String]-\u003eNotifier-\u003eIO(Maybe a)",
@@ -2233,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "flattenFieldDescription",
           "package": "ltk",
@@ -2242,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "flattenFieldDescription",
           "normalized": "FieldDescription a-\u003e[FieldDescription a]",
@@ -2258,6 +2446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget through outerAlignment, frame, innerAlignment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "getRealWidget",
           "package": "ltk",
@@ -2268,6 +2457,7 @@
         "index": {
           "description": "get through outerAlignment frame innerAlignment",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "getRealWidget",
           "normalized": "Widget-\u003eIO(Maybe Widget)",
@@ -2284,6 +2474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to construct an editor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "mkEditor",
           "package": "ltk",
@@ -2294,6 +2485,7 @@
         "index": {
           "description": "Function to construct an editor",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "mkEditor",
           "normalized": "(Container-\u003eInjector a)-\u003eExtractor a-\u003eEditor a",
@@ -2310,6 +2502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to construct a field description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "mkField",
           "package": "ltk",
@@ -2320,6 +2513,7 @@
         "index": {
           "description": "Function to construct field description",
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "mkField",
           "package": "ltk",
@@ -2333,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "parameters",
           "package": "ltk",
@@ -2342,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor MakeEditor",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.MakeEditor",
           "name": "parameters",
           "normalized": "FieldDescription a-\u003eParameters",
@@ -2357,6 +2553,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for parameters for editors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameters",
           "package": "ltk",
@@ -2366,6 +2563,7 @@
         "index": {
           "description": "Module for parameters for editors",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameters",
           "package": "ltk",
@@ -2380,6 +2578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe direction of a split\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Direction",
           "package": "ltk",
@@ -2389,6 +2588,7 @@
         "index": {
           "description": "The direction of split",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Direction",
           "package": "ltk",
@@ -2402,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "HorizontalAlign",
           "package": "ltk",
@@ -2410,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "HorizontalAlign",
           "package": "ltk",
@@ -2423,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameter",
           "package": "ltk",
@@ -2431,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameter",
           "package": "ltk",
@@ -2445,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type for parameters for editors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameters",
           "package": "ltk",
@@ -2454,6 +2659,7 @@
         "index": {
           "description": "type for parameters for editors",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Parameters",
           "package": "ltk",
@@ -2467,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "(\u003c\u003c\u003c-)",
           "package": "ltk",
@@ -2476,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "(\u003c\u003c\u003c-) \u003c\u003c\u003c-",
           "normalized": "(Parameter-\u003eMaybe a)-\u003eParameter-\u003eParameters-\u003eParameters",
@@ -2490,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Horizontal",
           "package": "ltk",
@@ -2499,6 +2708,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Horizontal",
           "package": "ltk",
@@ -2512,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Keep",
           "package": "ltk",
@@ -2521,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Keep",
           "package": "ltk",
@@ -2534,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaDirection",
           "package": "ltk",
@@ -2543,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaDirection",
           "package": "ltk",
@@ -2556,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaHorizontal",
           "package": "ltk",
@@ -2565,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaHorizontal",
           "package": "ltk",
@@ -2578,6 +2794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaInnerAlignment",
           "package": "ltk",
@@ -2587,6 +2804,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaInnerAlignment",
           "normalized": "ParaInnerAlignment(Float,Float,Float,Float)",
@@ -2603,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exalign yalign xscale yscale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaInnerPadding",
           "package": "ltk",
@@ -2613,6 +2832,7 @@
         "index": {
           "description": "xalign yalign xscale yscale",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaInnerPadding",
           "normalized": "ParaInnerPadding(Int,Int,Int,Int)",
@@ -2628,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaMinSize",
           "package": "ltk",
@@ -2637,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaMinSize",
           "normalized": "ParaMinSize(Int,Int)",
@@ -2652,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaMultiSel",
           "package": "ltk",
@@ -2661,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaMultiSel",
           "package": "ltk",
@@ -2674,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaName",
           "package": "ltk",
@@ -2683,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaName",
           "package": "ltk",
@@ -2696,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaOuterAlignment",
           "package": "ltk",
@@ -2705,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaOuterAlignment",
           "normalized": "ParaOuterAlignment(Float,Float,Float,Float)",
@@ -2721,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exalign yalign xscale yscale\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaOuterPadding",
           "package": "ltk",
@@ -2731,6 +2960,7 @@
         "index": {
           "description": "xalign yalign xscale yscale",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaOuterPadding",
           "normalized": "ParaOuterPadding(Int,Int,Int,Int)",
@@ -2746,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaPack",
           "package": "ltk",
@@ -2755,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaPack",
           "package": "ltk",
@@ -2768,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaShadow",
           "package": "ltk",
@@ -2777,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaShadow",
           "package": "ltk",
@@ -2790,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaShowLabel",
           "package": "ltk",
@@ -2799,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaShowLabel",
           "package": "ltk",
@@ -2812,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaStockId",
           "package": "ltk",
@@ -2821,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaStockId",
           "package": "ltk",
@@ -2834,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaSynopsis",
           "package": "ltk",
@@ -2843,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "ParaSynopsis",
           "package": "ltk",
@@ -2856,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "StartHorizontal",
           "package": "ltk",
@@ -2865,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "StartHorizontal",
           "package": "ltk",
@@ -2878,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "StopHorizontal",
           "package": "ltk",
@@ -2887,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "StopHorizontal",
           "package": "ltk",
@@ -2900,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Vertical",
           "package": "ltk",
@@ -2909,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "Vertical",
           "package": "ltk",
@@ -2922,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "emptyParams",
           "package": "ltk",
@@ -2931,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "emptyParams",
           "normalized": "[Parameter]",
@@ -2947,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience method to get a parameter, or if not set the default parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "getParameter",
           "package": "ltk",
@@ -2957,6 +3206,7 @@
         "index": {
           "description": "Convenience method to get parameter or if not set the default parameter",
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "getParameter",
           "normalized": "(Parameter-\u003eMaybe a)-\u003eParameters-\u003ea",
@@ -2972,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "getParameterPrim",
           "package": "ltk",
@@ -2981,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "getParameterPrim",
           "normalized": "(Parameter-\u003eMaybe a)-\u003eParameters-\u003eMaybe a",
@@ -2996,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraDirection",
           "package": "ltk",
@@ -3005,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraDirection",
           "normalized": "Parameter-\u003eMaybe Direction",
@@ -3020,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraHorizontal",
           "package": "ltk",
@@ -3029,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraHorizontal",
           "normalized": "Parameter-\u003eMaybe HorizontalAlign",
@@ -3044,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraInnerAlignment",
           "package": "ltk",
@@ -3053,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraInnerAlignment",
           "normalized": "Parameter-\u003eMaybe(Float,Float,Float,Float)",
@@ -3068,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraInnerPadding",
           "package": "ltk",
@@ -3077,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraInnerPadding",
           "normalized": "Parameter-\u003eMaybe(Int,Int,Int,Int)",
@@ -3092,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraMinSize",
           "package": "ltk",
@@ -3101,6 +3362,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraMinSize",
           "normalized": "Parameter-\u003eMaybe(Int,Int)",
@@ -3116,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraMultiSel",
           "package": "ltk",
@@ -3125,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraMultiSel",
           "normalized": "Parameter-\u003eMaybe Bool",
@@ -3140,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraName",
           "package": "ltk",
@@ -3149,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraName",
           "normalized": "Parameter-\u003eMaybe String",
@@ -3164,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraOuterAlignment",
           "package": "ltk",
@@ -3173,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraOuterAlignment",
           "normalized": "Parameter-\u003eMaybe(Float,Float,Float,Float)",
@@ -3188,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraOuterPadding",
           "package": "ltk",
@@ -3197,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraOuterPadding",
           "normalized": "Parameter-\u003eMaybe(Int,Int,Int,Int)",
@@ -3212,6 +3482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraPack",
           "package": "ltk",
@@ -3221,6 +3492,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraPack",
           "normalized": "Parameter-\u003eMaybe Packing",
@@ -3236,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraShadow",
           "package": "ltk",
@@ -3245,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraShadow",
           "normalized": "Parameter-\u003eMaybe ShadowType",
@@ -3260,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraShowLabel",
           "package": "ltk",
@@ -3269,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraShowLabel",
           "normalized": "Parameter-\u003eMaybe Bool",
@@ -3284,6 +3560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraStockId",
           "package": "ltk",
@@ -3293,6 +3570,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraStockId",
           "normalized": "Parameter-\u003eMaybe String",
@@ -3308,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraSynopsis",
           "package": "ltk",
@@ -3317,6 +3596,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Parameters",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Parameters",
           "name": "paraSynopsis",
           "normalized": "Parameter-\u003eMaybe String",
@@ -3333,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for making simple editors\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "Simple",
           "package": "ltk",
@@ -3342,6 +3623,7 @@
         "index": {
           "description": "Module for making simple editors",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "Simple",
           "package": "ltk",
@@ -3356,6 +3638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for a boolean value in the form of a check button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "boolEditor",
           "package": "ltk",
@@ -3366,6 +3649,7 @@
         "index": {
           "description": "Editor for boolean value in the form of check button",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "boolEditor",
           "package": "ltk",
@@ -3380,6 +3664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for a boolean value in the form of two radio buttons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "boolEditor2",
           "package": "ltk",
@@ -3390,6 +3675,7 @@
         "index": {
           "description": "Editor for boolean value in the form of two radio buttons",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "boolEditor2",
           "normalized": "String-\u003eEditor Bool",
@@ -3406,6 +3692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Editor for nothing (which may report a click) in the form of a button\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "clickEditor",
           "package": "ltk",
@@ -3416,6 +3703,7 @@
         "index": {
           "description": "An Editor for nothing which may report click in the form of button",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "clickEditor",
           "normalized": "Bool-\u003eEditor()",
@@ -3432,6 +3720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for color selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "colorEditor",
           "package": "ltk",
@@ -3442,6 +3731,7 @@
         "index": {
           "description": "Editor for color selection",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "colorEditor",
           "package": "ltk",
@@ -3456,6 +3746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for the selection of some element from a static list of elements in the\n | form of a combo box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "comboSelectionEditor",
           "package": "ltk",
@@ -3466,6 +3757,7 @@
         "index": {
           "description": "Editor for the selection of some element from static list of elements in the form of combo box",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "comboSelectionEditor",
           "normalized": "[a]-\u003e(a-\u003eString)-\u003eEditor a",
@@ -3482,6 +3774,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for an enum value in the form of n radio buttons\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "enumEditor",
           "package": "ltk",
@@ -3492,6 +3785,7 @@
         "index": {
           "description": "Editor for an enum value in the form of radio buttons",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "enumEditor",
           "normalized": "[String]-\u003eEditor a",
@@ -3508,6 +3802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for the selection of a file path in the form of a text entry and a button,\n | which opens a gtk file chooser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "fileEditor",
           "package": "ltk",
@@ -3518,6 +3813,7 @@
         "index": {
           "description": "Editor for the selection of file path in the form of text entry and button which opens gtk file chooser",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "fileEditor",
           "normalized": "Maybe FilePath-\u003eFileChooserAction-\u003eString-\u003eEditor FilePath",
@@ -3534,6 +3830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for a font selection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "fontEditor",
           "package": "ltk",
@@ -3544,6 +3841,7 @@
         "index": {
           "description": "Editor for font selection",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "fontEditor",
           "package": "ltk",
@@ -3558,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for for any value which is an instance of Read and Show in the form of a\n | text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "genericEditor",
           "package": "ltk",
@@ -3568,6 +3867,7 @@
         "index": {
           "description": "Editor for for any value which is an instance of Read and Show in the form of text entry",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "genericEditor",
           "package": "ltk",
@@ -3582,6 +3882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Editor to display an image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "imageEditor",
           "package": "ltk",
@@ -3592,6 +3893,7 @@
         "index": {
           "description": "An Editor to display an image",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "imageEditor",
           "package": "ltk",
@@ -3606,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for an integer in the form of a spin entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "intEditor",
           "package": "ltk",
@@ -3616,6 +3919,7 @@
         "index": {
           "description": "Editor for an integer in the form of spin entry",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "intEditor",
           "normalized": "(Double,Double,Double)-\u003eEditor Int",
@@ -3632,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for a multiline string in the form of a multiline text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "multilineStringEditor",
           "package": "ltk",
@@ -3642,6 +3947,7 @@
         "index": {
           "description": "Editor for multiline string in the form of multiline text entry",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "multilineStringEditor",
           "package": "ltk",
@@ -3656,6 +3962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for the selection of some elements from a list of elements in the\n | form of a list box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "multiselectionEditor",
           "package": "ltk",
@@ -3666,6 +3973,7 @@
         "index": {
           "description": "Editor for the selection of some elements from list of elements in the form of list box",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "multiselectionEditor",
           "normalized": "Editor[a]",
@@ -3682,6 +3990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn invisible editor without any effect\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "noEditor",
           "package": "ltk",
@@ -3692,6 +4001,7 @@
         "index": {
           "description": "An invisible editor without any effect",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "noEditor",
           "normalized": "a-\u003eEditor a",
@@ -3707,6 +4017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "okCancelFields",
           "package": "ltk",
@@ -3716,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "okCancelFields",
           "normalized": "FieldDescription()",
@@ -3732,6 +4044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn editor, which opens another editor\n   You have to inject a value before the button can be clicked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "otherEditor",
           "package": "ltk",
@@ -3742,6 +4055,7 @@
         "index": {
           "description": "An editor which opens another editor You have to inject value before the button can be clicked",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "otherEditor",
           "normalized": "(a-\u003eString-\u003eIO(Maybe a))-\u003eEditor a",
@@ -3758,6 +4072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for the selection of some elements from a static list of elements in the\n | form of a list box\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "staticListEditor",
           "package": "ltk",
@@ -3768,6 +4083,7 @@
         "index": {
           "description": "Editor for the selection of some elements from static list of elements in the form of list box",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "staticListEditor",
           "normalized": "[a]-\u003e(a-\u003eString)-\u003eEditor a",
@@ -3784,6 +4100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for the selection of some elements from a static list of elements in the\n | form of a list box with toggle elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "staticListMultiEditor",
           "package": "ltk",
@@ -3794,6 +4111,7 @@
         "index": {
           "description": "Editor for the selection of some elements from static list of elements in the form of list box with toggle elements",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "staticListMultiEditor",
           "normalized": "[a]-\u003e(a-\u003eString)-\u003eEditor[a]",
@@ -3810,6 +4128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEditor for a string in the form of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Editor.Simple",
           "name": "stringEditor",
           "package": "ltk",
@@ -3820,6 +4139,7 @@
         "index": {
           "description": "Editor for string in the form of text entry",
           "hierarchy": "Graphics UI Editor Simple",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Editor.Simple",
           "name": "stringEditor",
           "normalized": "(String-\u003eBool)-\u003eBool-\u003eEditor String",
@@ -3836,6 +4156,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe basic definitions for all panes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Panes",
           "package": "ltk",
@@ -3845,6 +4166,7 @@
         "index": {
           "description": "The basic definitions for all panes",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Panes",
           "package": "ltk",
@@ -3859,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignal handlers for the different pane types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Connection",
           "package": "ltk",
@@ -3868,6 +4191,7 @@
         "index": {
           "description": "Signal handlers for the different pane types",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Connection",
           "package": "ltk",
@@ -3881,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Connections",
           "package": "ltk",
@@ -3889,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Connections",
           "package": "ltk",
@@ -3902,6 +4228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "FrameState",
           "package": "ltk",
@@ -3910,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "FrameState",
           "package": "ltk",
@@ -3923,6 +4251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "IDEPane",
           "package": "ltk",
@@ -3931,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "IDEPane",
           "package": "ltk",
@@ -3945,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll kinds of panes are instances of pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Pane",
           "package": "ltk",
@@ -3954,6 +4285,7 @@
         "index": {
           "description": "All kinds of panes are instances of pane",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "Pane",
           "package": "ltk",
@@ -3968,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe relative direction to a pane from the parent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneDirection",
           "package": "ltk",
@@ -3977,6 +4310,7 @@
         "index": {
           "description": "The relative direction to pane from the parent",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneDirection",
           "package": "ltk",
@@ -3991,6 +4325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of a window layout\n Horizontal: top bottom Vertical: left right\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneLayout",
           "package": "ltk",
@@ -4000,6 +4335,7 @@
         "index": {
           "description": "Description of window layout Horizontal top bottom Vertical left right",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneLayout",
           "package": "ltk",
@@ -4013,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneMonad",
           "package": "ltk",
@@ -4021,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneMonad",
           "package": "ltk",
@@ -4034,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneName",
           "package": "ltk",
@@ -4042,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneName",
           "package": "ltk",
@@ -4056,6 +4396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA path to a pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PanePath",
           "package": "ltk",
@@ -4065,6 +4406,7 @@
         "index": {
           "description": "path to pane",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PanePath",
           "package": "ltk",
@@ -4079,6 +4421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn element of a path to a pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PanePathElement",
           "package": "ltk",
@@ -4088,6 +4431,7 @@
         "index": {
           "description": "An element of path to pane",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PanePathElement",
           "package": "ltk",
@@ -4101,6 +4445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "RecoverablePane",
           "package": "ltk",
@@ -4109,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "RecoverablePane",
           "package": "ltk",
@@ -4122,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "StandardPath",
           "package": "ltk",
@@ -4130,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "StandardPath",
           "package": "ltk",
@@ -4143,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "BottomP",
           "package": "ltk",
@@ -4152,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "BottomP",
           "package": "ltk",
@@ -4165,6 +4515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "FrameState",
           "package": "ltk",
@@ -4174,6 +4525,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "FrameState",
           "package": "ltk",
@@ -4187,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "GroupP",
           "package": "ltk",
@@ -4196,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "GroupP",
           "package": "ltk",
@@ -4209,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "HorizontalP",
           "package": "ltk",
@@ -4218,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "HorizontalP",
           "package": "ltk",
@@ -4231,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "LeftP",
           "package": "ltk",
@@ -4240,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "LeftP",
           "package": "ltk",
@@ -4253,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneC",
           "package": "ltk",
@@ -4262,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "PaneC",
           "package": "ltk",
@@ -4275,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "RightP",
           "package": "ltk",
@@ -4284,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "RightP",
           "package": "ltk",
@@ -4297,6 +4659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "SplitP",
           "package": "ltk",
@@ -4306,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "SplitP",
           "package": "ltk",
@@ -4319,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "TerminalP",
           "package": "ltk",
@@ -4328,6 +4693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "TerminalP",
           "package": "ltk",
@@ -4341,6 +4707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "TopP",
           "package": "ltk",
@@ -4350,6 +4717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "TopP",
           "package": "ltk",
@@ -4363,6 +4731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "VerticalP",
           "package": "ltk",
@@ -4372,6 +4741,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "VerticalP",
           "package": "ltk",
@@ -4385,6 +4755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "activateThisPane",
           "package": "ltk",
@@ -4394,6 +4765,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "activateThisPane",
           "normalized": "a-\u003eConnections-\u003eb()",
@@ -4409,6 +4781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "activePane",
           "package": "ltk",
@@ -4418,6 +4791,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "activePane",
           "normalized": "Maybe(PaneName,Connections)",
@@ -4433,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "buildPane",
           "package": "ltk",
@@ -4442,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "buildPane",
           "normalized": "PanePath-\u003eNotebook-\u003e(PanePath-\u003eNotebook-\u003eWindow-\u003ea(Maybe b,Connections))-\u003ea(Maybe b)",
@@ -4457,6 +4833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "buildThisPane",
           "package": "ltk",
@@ -4466,6 +4843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "buildThisPane",
           "normalized": "PanePath-\u003eNotebook-\u003e(PanePath-\u003eNotebook-\u003eWindow-\u003ea(Maybe b,Connections))-\u003ea(Maybe b)",
@@ -4481,6 +4859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "builder",
           "package": "ltk",
@@ -4490,6 +4869,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "builder",
           "normalized": "PanePath-\u003eNotebook-\u003eWindow-\u003ea(Maybe b,Connections)",
@@ -4504,6 +4884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "closePane",
           "package": "ltk",
@@ -4513,6 +4894,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "closePane",
           "normalized": "a-\u003eb Bool",
@@ -4528,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "closeThisPane",
           "package": "ltk",
@@ -4537,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "closeThisPane",
           "normalized": "a-\u003eb Bool",
@@ -4552,6 +4936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "currentPage",
           "package": "ltk",
@@ -4561,6 +4946,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "currentPage",
           "package": "ltk",
@@ -4574,6 +4960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "detachedId",
           "package": "ltk",
@@ -4583,6 +4970,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "detachedId",
           "package": "ltk",
@@ -4596,6 +4984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "detachedSize",
           "package": "ltk",
@@ -4605,6 +4994,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "detachedSize",
           "normalized": "Maybe(Int,Int)",
@@ -4620,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "displayPane",
           "package": "ltk",
@@ -4629,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "displayPane",
           "normalized": "a-\u003eBool-\u003eb()",
@@ -4644,6 +5036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "displayThisPane",
           "package": "ltk",
@@ -4653,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "displayThisPane",
           "normalized": "a-\u003eBool-\u003eb()",
@@ -4668,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "forceGetPane",
           "package": "ltk",
@@ -4677,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "forceGetPane",
           "normalized": "Either PanePath String-\u003ea b",
@@ -4692,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getAddedIndex",
           "package": "ltk",
@@ -4701,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getAddedIndex",
           "normalized": "a-\u003eInt",
@@ -4716,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getAndDisplayPane",
           "package": "ltk",
@@ -4725,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getAndDisplayPane",
           "normalized": "Either PanePath String-\u003eBool-\u003ea(Maybe b)",
@@ -4740,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getFrameState",
           "package": "ltk",
@@ -4749,6 +5150,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getFrameState",
           "package": "ltk",
@@ -4762,6 +5164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getOrBuildPane",
           "package": "ltk",
@@ -4771,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getOrBuildPane",
           "normalized": "Either PanePath String-\u003ea(Maybe b)",
@@ -4786,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getOrBuildThisPane",
           "package": "ltk",
@@ -4795,6 +5200,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getOrBuildThisPane",
           "normalized": "Either PanePath String-\u003ea(Maybe b)",
@@ -4810,6 +5216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getPane",
           "package": "ltk",
@@ -4819,6 +5226,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getPane",
           "package": "ltk",
@@ -4832,6 +5240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getThisPane",
           "package": "ltk",
@@ -4841,6 +5250,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getThisPane",
           "package": "ltk",
@@ -4855,6 +5265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egets the top Widget of this pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getTopWidget",
           "package": "ltk",
@@ -4865,6 +5276,7 @@
         "index": {
           "description": "gets the top Widget of this pane",
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "getTopWidget",
           "normalized": "a-\u003eWidget",
@@ -4880,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "layout",
           "package": "ltk",
@@ -4889,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "layout",
           "package": "ltk",
@@ -4901,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "makeActive",
           "package": "ltk",
@@ -4910,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "makeActive",
           "normalized": "a-\u003eb()",
@@ -4925,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneGroups",
           "package": "ltk",
@@ -4934,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneGroups",
           "package": "ltk",
@@ -4947,6 +5365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneId",
           "package": "ltk",
@@ -4956,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneId",
           "normalized": "a-\u003eString",
@@ -4971,6 +5391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneMap",
           "package": "ltk",
@@ -4980,6 +5401,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneMap",
           "normalized": "Map PaneName(PanePath,Connections)",
@@ -4995,6 +5417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneName",
           "package": "ltk",
@@ -5004,6 +5427,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneName",
           "normalized": "a-\u003ePaneName",
@@ -5019,6 +5443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panePathForGroup",
           "package": "ltk",
@@ -5028,6 +5453,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panePathForGroup",
           "normalized": "String-\u003ea PanePath",
@@ -5043,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panePathFromNB",
           "package": "ltk",
@@ -5052,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panePathFromNB",
           "package": "ltk",
@@ -5065,6 +5493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneTabs",
           "package": "ltk",
@@ -5074,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "paneTabs",
           "package": "ltk",
@@ -5087,6 +5517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panes",
           "package": "ltk",
@@ -5096,6 +5527,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "panes",
           "package": "ltk",
@@ -5108,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "primPaneName",
           "package": "ltk",
@@ -5117,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "primPaneName",
           "normalized": "a-\u003eString",
@@ -5132,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "recoverState",
           "package": "ltk",
@@ -5141,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "recoverState",
           "normalized": "PanePath-\u003ea-\u003eb(Maybe c)",
@@ -5156,6 +5592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "runInIO",
           "package": "ltk",
@@ -5165,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "runInIO",
           "normalized": "a b c(d-\u003ee b)-\u003ee(d-\u003eIO b)",
@@ -5180,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "saveState",
           "package": "ltk",
@@ -5189,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "saveState",
           "normalized": "a-\u003eb(Maybe c)",
@@ -5204,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "setFrameState",
           "package": "ltk",
@@ -5213,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "setFrameState",
           "normalized": "FrameState a-\u003ea()",
@@ -5228,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "signalDisconnectAll",
           "package": "ltk",
@@ -5237,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "signalDisconnectAll",
           "normalized": "Connections-\u003eIO()",
@@ -5252,6 +5696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "uiManager",
           "package": "ltk",
@@ -5261,6 +5706,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "uiManager",
           "package": "ltk",
@@ -5274,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.Panes",
           "name": "windows",
           "package": "ltk",
@@ -5283,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame Panes",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.Panes",
           "name": "windows",
           "normalized": "[Window]",
@@ -5298,6 +5746,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSplittable panes containing notebooks with any widgets\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "ViewFrame",
           "package": "ltk",
@@ -5307,6 +5756,7 @@
         "index": {
           "description": "Splittable panes containing notebooks with any widgets",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "ViewFrame",
           "package": "ltk",
@@ -5320,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "addPaneAdmin",
           "package": "ltk",
@@ -5329,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "addPaneAdmin",
           "normalized": "a-\u003eConnections-\u003ePanePath-\u003eb Bool",
@@ -5344,6 +5796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "allGroupNames",
           "package": "ltk",
@@ -5353,6 +5806,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "allGroupNames",
           "normalized": "PaneLayout-\u003eSet String",
@@ -5368,6 +5822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "bringGroupToFront",
           "package": "ltk",
@@ -5377,6 +5832,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "bringGroupToFront",
           "normalized": "String-\u003ea(Maybe PanePath)",
@@ -5393,6 +5849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBring the pane to the front position in its notebook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "bringPaneToFront",
           "package": "ltk",
@@ -5403,6 +5860,7 @@
         "index": {
           "description": "Bring the pane to the front position in its notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "bringPaneToFront",
           "normalized": "a-\u003eIO()",
@@ -5418,6 +5876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "closeGroup",
           "package": "ltk",
@@ -5427,6 +5886,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "closeGroup",
           "normalized": "String-\u003ea()",
@@ -5443,6 +5903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a unique pane name, which is an index and a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "figureOutPaneName",
           "package": "ltk",
@@ -5453,6 +5914,7 @@
         "index": {
           "description": "Constructs unique pane name which is an index and string",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "figureOutPaneName",
           "normalized": "String-\u003eInt-\u003ea(Int,String)",
@@ -5469,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the active notebook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActiveNotebook",
           "package": "ltk",
@@ -5479,6 +5942,7 @@
         "index": {
           "description": "Get the active notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActiveNotebook",
           "package": "ltk",
@@ -5492,6 +5956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePane",
           "package": "ltk",
@@ -5501,6 +5966,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePane",
           "normalized": "a(Maybe(PaneName,Connections))",
@@ -5517,6 +5983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path to the active pane\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePanePath",
           "package": "ltk",
@@ -5527,6 +5994,7 @@
         "index": {
           "description": "Get the path to the active pane",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePanePath",
           "package": "ltk",
@@ -5540,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePanePathOrStandard",
           "package": "ltk",
@@ -5549,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getActivePanePathOrStandard",
           "normalized": "StandardPath-\u003ea PanePath",
@@ -5565,6 +6035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a valid panePath from a standard path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getBestPanePath",
           "package": "ltk",
@@ -5575,6 +6046,7 @@
         "index": {
           "description": "Get valid panePath from standard path",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getBestPanePath",
           "normalized": "StandardPath-\u003ePaneLayout-\u003ePanePath",
@@ -5591,6 +6063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a standard path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getBestPathForId",
           "package": "ltk",
@@ -5601,6 +6074,7 @@
         "index": {
           "description": "Get standard path",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getBestPathForId",
           "normalized": "String-\u003ea PanePath",
@@ -5616,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getLayout",
           "package": "ltk",
@@ -5625,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getLayout",
           "package": "ltk",
@@ -5638,6 +6114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getMainWindow",
           "package": "ltk",
@@ -5647,6 +6124,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getMainWindow",
           "package": "ltk",
@@ -5661,6 +6139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the notebook widget for the given pane path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getNotebook",
           "package": "ltk",
@@ -5671,6 +6150,7 @@
         "index": {
           "description": "Get the notebook widget for the given pane path",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getNotebook",
           "normalized": "PanePath-\u003ea Notebook",
@@ -5686,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPaneMapSt",
           "package": "ltk",
@@ -5695,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPaneMapSt",
           "normalized": "a(Map PaneName(PanePath,Connections))",
@@ -5710,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanePrim",
           "package": "ltk",
@@ -5719,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanePrim",
           "package": "ltk",
@@ -5733,6 +6217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the (gtk) Paned widget for a given path\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPaned",
           "package": "ltk",
@@ -5743,6 +6228,7 @@
         "index": {
           "description": "Get the gtk Paned widget for given path",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPaned",
           "normalized": "PanePath-\u003ea Paned",
@@ -5758,6 +6244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanes",
           "package": "ltk",
@@ -5767,6 +6254,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanes",
           "normalized": "a[b]",
@@ -5782,6 +6270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanesSt",
           "package": "ltk",
@@ -5791,6 +6280,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getPanesSt",
           "package": "ltk",
@@ -5804,6 +6294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getUIAction",
           "package": "ltk",
@@ -5813,6 +6304,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getUIAction",
           "normalized": "String-\u003e(Action-\u003ea)-\u003eb a",
@@ -5828,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getUiManager",
           "package": "ltk",
@@ -5837,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getUiManager",
           "package": "ltk",
@@ -5850,6 +6344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getWindows",
           "package": "ltk",
@@ -5859,6 +6354,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "getWindows",
           "normalized": "a[Window]",
@@ -5874,6 +6370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "guiPropertiesFromName",
           "package": "ltk",
@@ -5883,6 +6380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "guiPropertiesFromName",
           "normalized": "PaneName-\u003ea(PanePath,Connections)",
@@ -5898,6 +6396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "handleNotebookSwitch",
           "package": "ltk",
@@ -5907,6 +6406,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "handleNotebookSwitch",
           "normalized": "Notebook-\u003eInt-\u003ea()",
@@ -5922,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "initGtkRc",
           "package": "ltk",
@@ -5931,6 +6432,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "initGtkRc",
           "normalized": "IO()",
@@ -5947,6 +6449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the change mark or removes it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "markLabel",
           "package": "ltk",
@@ -5957,6 +6460,7 @@
         "index": {
           "description": "Add the change mark or removes it",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "markLabel",
           "normalized": "a-\u003eb-\u003eBool-\u003eIO()",
@@ -5972,6 +6476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "mbPaneFromName",
           "package": "ltk",
@@ -5981,6 +6486,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "mbPaneFromName",
           "normalized": "PaneName-\u003ea(Maybe(IDEPane a))",
@@ -5996,6 +6502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newGroupOrBringToFront",
           "package": "ltk",
@@ -6005,6 +6512,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newGroupOrBringToFront",
           "normalized": "String-\u003ePanePath-\u003ea(Maybe PanePath,Bool)",
@@ -6021,6 +6529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new notebook,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newNotebook",
           "package": "ltk",
@@ -6031,6 +6540,7 @@
         "index": {
           "description": "Construct new notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newNotebook",
           "normalized": "PanePath-\u003ea Notebook",
@@ -6047,6 +6557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new notebook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newNotebook'",
           "package": "ltk",
@@ -6057,6 +6568,7 @@
         "index": {
           "description": "Construct new notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "newNotebook'",
           "package": "ltk",
@@ -6070,6 +6582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "notebookInsertOrdered",
           "package": "ltk",
@@ -6079,6 +6592,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "notebookInsertOrdered",
           "normalized": "a-\u003eb-\u003eString-\u003eMaybe Label-\u003eBool-\u003ec()",
@@ -6094,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "paneDirectionToPosType",
           "package": "ltk",
@@ -6103,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "paneDirectionToPosType",
           "normalized": "PaneDirection-\u003ePositionType",
@@ -6118,6 +6634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "paneFromName",
           "package": "ltk",
@@ -6127,6 +6644,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "paneFromName",
           "normalized": "PaneName-\u003ea(IDEPane a)",
@@ -6142,6 +6660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "posTypeToPaneDirection",
           "package": "ltk",
@@ -6151,6 +6670,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "posTypeToPaneDirection",
           "normalized": "PositionType-\u003ePaneDirection",
@@ -6166,6 +6686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "removePaneAdmin",
           "package": "ltk",
@@ -6175,6 +6696,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "removePaneAdmin",
           "normalized": "a-\u003eb()",
@@ -6190,6 +6712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "setActivePane",
           "package": "ltk",
@@ -6199,6 +6722,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "setActivePane",
           "normalized": "Maybe(PaneName,Connections)-\u003ea()",
@@ -6215,6 +6739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo notebooks can be collapsed to one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewCollapse",
           "package": "ltk",
@@ -6225,6 +6750,7 @@
         "index": {
           "description": "Two notebooks can be collapsed to one",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewCollapse",
           "normalized": "a()",
@@ -6240,6 +6766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewCollapse'",
           "package": "ltk",
@@ -6249,6 +6776,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewCollapse'",
           "normalized": "PanePath-\u003ea()",
@@ -6264,6 +6792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewDetach",
           "package": "ltk",
@@ -6273,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewDetach",
           "normalized": "a(Maybe(Window,Widget))",
@@ -6288,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewDetach'",
           "package": "ltk",
@@ -6297,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewDetach'",
           "normalized": "PanePath-\u003eString-\u003ea(Maybe(Window,Widget))",
@@ -6313,6 +6845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoves the activePane in the given direction, if possible\n | If their are many possibilities choose the leftmost and topmost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewMove",
           "package": "ltk",
@@ -6323,6 +6856,7 @@
         "index": {
           "description": "Moves the activePane in the given direction if possible If their are many possibilities choose the leftmost and topmost",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewMove",
           "normalized": "PaneDirection-\u003ea()",
@@ -6338,6 +6872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNest",
           "package": "ltk",
@@ -6347,6 +6882,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNest",
           "normalized": "String-\u003ea()",
@@ -6362,6 +6898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNest'",
           "package": "ltk",
@@ -6371,6 +6908,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNest'",
           "normalized": "PanePath-\u003eString-\u003ea()",
@@ -6386,6 +6924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNewGroup",
           "package": "ltk",
@@ -6395,6 +6934,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewNewGroup",
           "normalized": "a()",
@@ -6410,6 +6950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplit'",
           "package": "ltk",
@@ -6419,6 +6960,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplit'",
           "normalized": "PanePath-\u003eDirection-\u003ea()",
@@ -6435,6 +6977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the currently active pane in horizontal direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplitHorizontal",
           "package": "ltk",
@@ -6445,6 +6988,7 @@
         "index": {
           "description": "Split the currently active pane in horizontal direction",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplitHorizontal",
           "normalized": "a()",
@@ -6461,6 +7005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the currently active pane in vertical direction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplitVertical",
           "package": "ltk",
@@ -6471,6 +7016,7 @@
         "index": {
           "description": "Split the currently active pane in vertical direction",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSplitVertical",
           "normalized": "a()",
@@ -6487,6 +7033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle the tabs of the current notebook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSwitchTabs",
           "package": "ltk",
@@ -6497,6 +7044,7 @@
         "index": {
           "description": "Toggle the tabs of the current notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewSwitchTabs",
           "normalized": "a()",
@@ -6513,6 +7061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the tab position in the current notebook\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewTabsPos",
           "package": "ltk",
@@ -6523,6 +7072,7 @@
         "index": {
           "description": "Sets the tab position in the current notebook",
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "viewTabsPos",
           "normalized": "PositionType-\u003ea()",
@@ -6538,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "widgetGet",
           "package": "ltk",
@@ -6547,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI Frame ViewFrame",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Graphics.UI.Frame.ViewFrame",
           "name": "widgetGet",
           "normalized": "[String]-\u003e(Widget-\u003ea)-\u003eb a",
@@ -6563,6 +7115,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for missing base functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "MyMissing",
           "package": "ltk",
@@ -6572,6 +7125,7 @@
         "index": {
           "description": "Module for missing base functions",
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "MyMissing",
           "package": "ltk",
@@ -6585,6 +7139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "allOf",
           "package": "ltk",
@@ -6594,6 +7149,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "allOf",
           "normalized": "[a]",
@@ -6609,6 +7165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "forceHead",
           "package": "ltk",
@@ -6618,6 +7175,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "forceHead",
           "normalized": "[a]-\u003eString-\u003ea",
@@ -6633,6 +7191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "forceJust",
           "package": "ltk",
@@ -6642,6 +7201,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "forceJust",
           "normalized": "Maybe a-\u003eString-\u003ea",
@@ -6657,6 +7217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "nonEmptyLines",
           "package": "ltk",
@@ -6666,6 +7227,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "nonEmptyLines",
           "normalized": "String-\u003e[String]",
@@ -6681,6 +7243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "replace",
           "package": "ltk",
@@ -6690,6 +7253,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "replace",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003e[a]",
@@ -6704,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "split",
           "package": "ltk",
@@ -6713,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "split",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -6728,6 +7294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove leading and trailing spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "MyMissing",
           "name": "trim",
           "package": "ltk",
@@ -6738,6 +7305,7 @@
         "index": {
           "description": "remove leading and trailing spaces",
           "hierarchy": "MyMissing",
+          "indexed": "2014-03-11T19:12:44",
           "module": "MyMissing",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -6753,6 +7321,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for saving and restoring preferences and settings\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "PrinterParser",
           "package": "ltk",
@@ -6762,6 +7331,7 @@
         "index": {
           "description": "Module for saving and restoring preferences and settings",
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "PrinterParser",
           "package": "ltk",
@@ -6775,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "FieldDescriptionS",
           "package": "ltk",
@@ -6783,6 +7354,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "FieldDescriptionS",
           "package": "ltk",
@@ -6796,6 +7368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "MkFieldDescriptionS",
           "package": "ltk",
@@ -6804,6 +7377,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "MkFieldDescriptionS",
           "package": "ltk",
@@ -6817,6 +7391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "Parser",
           "package": "ltk",
@@ -6825,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "Parser",
           "package": "ltk",
@@ -6839,6 +7415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThings that can be pretty-printed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "Pretty",
           "package": "ltk",
@@ -6848,6 +7425,7 @@
         "index": {
           "description": "Things that can be pretty-printed",
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "Pretty",
           "package": "ltk",
@@ -6861,6 +7439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "Printer",
           "package": "ltk",
@@ -6869,6 +7448,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "Printer",
           "package": "ltk",
@@ -6882,6 +7462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "FDS",
           "package": "ltk",
@@ -6891,6 +7472,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "FDS",
           "package": "ltk",
@@ -6904,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "applyFieldParsers",
           "package": "ltk",
@@ -6913,6 +7496,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "applyFieldParsers",
           "normalized": "a-\u003e[a-\u003eCharParser()a]-\u003eCharParser()a",
@@ -6928,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "boolParser",
           "package": "ltk",
@@ -6937,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "boolParser",
           "normalized": "CharParser()Bool",
@@ -6952,6 +7538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "colon",
           "package": "ltk",
@@ -6961,6 +7548,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "colon",
           "package": "ltk",
@@ -6973,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "colorParser",
           "package": "ltk",
@@ -6982,6 +7571,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "colorParser",
           "normalized": "CharParser()Color",
@@ -6997,6 +7587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "emptyParser",
           "package": "ltk",
@@ -7006,6 +7597,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "emptyParser",
           "normalized": "CharParser()()",
@@ -7021,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "emptyPrinter",
           "package": "ltk",
@@ -7030,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "emptyPrinter",
           "normalized": "()-\u003eDoc",
@@ -7045,6 +7639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "fieldParser",
           "package": "ltk",
@@ -7054,6 +7649,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "fieldParser",
           "normalized": "a-\u003eCharParser()a",
@@ -7069,6 +7665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "fieldPrinter",
           "package": "ltk",
@@ -7078,6 +7675,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "fieldPrinter",
           "normalized": "a-\u003eDoc",
@@ -7093,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "identifier",
           "package": "ltk",
@@ -7102,6 +7701,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "identifier",
           "package": "ltk",
@@ -7114,6 +7714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "intParser",
           "package": "ltk",
@@ -7123,6 +7724,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "intParser",
           "normalized": "CharParser()Int",
@@ -7138,6 +7740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "lineParser",
           "package": "ltk",
@@ -7147,6 +7750,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "lineParser",
           "normalized": "CharParser()String",
@@ -7162,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "maybePP",
           "package": "ltk",
@@ -7171,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "maybePP",
           "normalized": "(a-\u003eDoc)-\u003eMaybe a-\u003eDoc",
@@ -7186,6 +7792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "mkFieldS",
           "package": "ltk",
@@ -7195,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "mkFieldS",
           "package": "ltk",
@@ -7208,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "pairParser",
           "package": "ltk",
@@ -7217,6 +7826,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "pairParser",
           "normalized": "CharParser()a-\u003eCharParser()(a,a)",
@@ -7232,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "parameters",
           "package": "ltk",
@@ -7241,6 +7852,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "parameters",
           "package": "ltk",
@@ -7253,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "parseFields",
           "package": "ltk",
@@ -7262,6 +7875,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "parseFields",
           "normalized": "a-\u003e[FieldDescriptionS a]-\u003eCharParser()a",
@@ -7278,6 +7892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print something in isolation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "pretty",
           "package": "ltk",
@@ -7288,6 +7903,7 @@
         "index": {
           "description": "Pretty-print something in isolation",
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -7303,6 +7919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print something in a precedence context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "prettyPrec",
           "package": "ltk",
@@ -7313,6 +7930,7 @@
         "index": {
           "description": "Pretty-print something in precedence context",
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "prettyPrec",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -7329,6 +7947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epretty-print with the default style and \u003ccode\u003edefaultMode\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "prettyPrint",
           "package": "ltk",
@@ -7339,6 +7958,7 @@
         "index": {
           "description": "pretty-print with the default style and defaultMode",
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "prettyPrint",
           "normalized": "a-\u003eString",
@@ -7354,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "readFields",
           "package": "ltk",
@@ -7363,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "readFields",
           "normalized": "FilePath-\u003e[FieldDescriptionS a]-\u003ea-\u003eIO a",
@@ -7378,6 +8000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "readParser",
           "package": "ltk",
@@ -7387,6 +8010,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "readParser",
           "normalized": "CharParser()a",
@@ -7402,6 +8026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "showFields",
           "package": "ltk",
@@ -7411,6 +8036,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "showFields",
           "normalized": "a-\u003e[FieldDescriptionS a]-\u003eString",
@@ -7426,6 +8052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "stringParser",
           "package": "ltk",
@@ -7435,6 +8062,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "stringParser",
           "normalized": "CharParser()String",
@@ -7450,6 +8078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "symbol",
           "package": "ltk",
@@ -7459,6 +8088,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "symbol",
           "normalized": "String-\u003eCharParser a String",
@@ -7473,6 +8103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "whiteSpace",
           "package": "ltk",
@@ -7482,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "whiteSpace",
           "normalized": "CharParser a()",
@@ -7497,6 +8129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:12:44 UTC 2014",
           "module": "Text.PrinterParser",
           "name": "writeFields",
           "package": "ltk",
@@ -7506,6 +8139,7 @@
         },
         "index": {
           "hierarchy": "Text PrinterParser",
+          "indexed": "2014-03-11T19:12:44",
           "module": "Text.PrinterParser",
           "name": "writeFields",
           "normalized": "FilePath-\u003ea-\u003e[FieldDescriptionS a]-\u003eIO()",

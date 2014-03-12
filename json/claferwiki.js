@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "claferwiki"
+        "phrase": "claferwiki",
+        "type": "phrase"
       },
       "type": "context"
     }

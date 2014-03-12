@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hakyll-blaze-templates"
+        "phrase": "hakyll-blaze-templates",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "Blaze",
           "package": "hakyll-blaze-templates",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "Blaze",
           "package": "hakyll-blaze-templates",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "Template",
           "package": "hakyll-blaze-templates",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "Template",
           "package": "hakyll-blaze-templates",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplate",
           "package": "hakyll-blaze-templates",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplate",
           "normalized": "Template Compiler String-\u003eContext String-\u003eItem String-\u003eCompiler(Item String)",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplateList",
           "package": "hakyll-blaze-templates",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplateList",
           "normalized": "Template Compiler String-\u003eContext String-\u003e[Item String]-\u003eCompiler String",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplateListWith",
           "package": "hakyll-blaze-templates",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "applyTemplateListWith",
           "normalized": "String-\u003eTemplate Compiler String-\u003eContext String-\u003e[Item String]-\u003eCompiler String",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an HTML snippet from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e without escaping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "preEscapedString",
           "package": "hakyll-blaze-templates",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Create an HTML snippet from String without escaping",
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "preEscapedString",
           "normalized": "String-\u003eMarkup",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epreEscapedToHtml specialised to String\n Also safeToHtml sounds better than preEscapedToHtml\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "safeToHtml",
           "package": "hakyll-blaze-templates",
@@ -166,6 +179,7 @@
         "index": {
           "description": "preEscapedToHtml specialised to String Also safeToHtml sounds better than preEscapedToHtml",
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "safeToHtml",
           "normalized": "String-\u003eHtml",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an HTML snippet from a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "string",
           "package": "hakyll-blaze-templates",
@@ -191,6 +206,7 @@
         "index": {
           "description": "Create an HTML snippet from String",
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "string",
           "normalized": "String-\u003eMarkup",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoHtml specialised to String.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:27:10 UTC 2014",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "toHtml",
           "package": "hakyll-blaze-templates",
@@ -216,6 +233,7 @@
         "index": {
           "description": "toHtml specialised to String",
           "hierarchy": "Hakyll Web Template Blaze",
+          "indexed": "2014-03-11T18:27:10",
           "module": "Hakyll.Web.Template.Blaze",
           "name": "toHtml",
           "normalized": "String-\u003eHtml",

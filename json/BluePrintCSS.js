@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BluePrintCSS"
+        "phrase": "BluePrintCSS",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attr",
           "package": "BluePrintCSS",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attr",
           "package": "BluePrintCSS",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attr",
           "package": "BluePrintCSS",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attr",
           "package": "BluePrintCSS",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attrs",
           "package": "BluePrintCSS",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Attrs",
           "package": "BluePrintCSS",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "BoxStyle",
           "package": "BluePrintCSS",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "BoxStyle",
           "package": "BluePrintCSS",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Append",
           "package": "BluePrintCSS",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Append",
           "package": "BluePrintCSS",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Box",
           "package": "BluePrintCSS",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Box",
           "package": "BluePrintCSS",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "ColBorder",
           "package": "BluePrintCSS",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "ColBorder",
           "package": "BluePrintCSS",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Decoration",
           "package": "BluePrintCSS",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Decoration",
           "package": "BluePrintCSS",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Error",
           "package": "BluePrintCSS",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Error",
           "package": "BluePrintCSS",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Notice",
           "package": "BluePrintCSS",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Notice",
           "package": "BluePrintCSS",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Prepend",
           "package": "BluePrintCSS",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Prepend",
           "package": "BluePrintCSS",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "ShowGrid",
           "package": "BluePrintCSS",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "ShowGrid",
           "package": "BluePrintCSS",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Success",
           "package": "BluePrintCSS",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "Success",
           "package": "BluePrintCSS",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "margin",
           "package": "BluePrintCSS",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "margin",
           "normalized": "Attr-\u003eInt",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Attr",
           "name": "toCssClass",
           "package": "BluePrintCSS",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Attr",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Attr",
           "name": "toCssClass",
           "normalized": "Attr-\u003eString",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Base",
           "package": "BluePrintCSS",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Base",
           "package": "BluePrintCSS",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Align",
           "package": "BluePrintCSS",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Align",
           "package": "BluePrintCSS",
@@ -389,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsCssClass",
           "package": "BluePrintCSS",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsCssClass",
           "package": "BluePrintCSS",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsMargin",
           "package": "BluePrintCSS",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsMargin",
           "package": "BluePrintCSS",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsSection",
           "package": "BluePrintCSS",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "AsSection",
           "package": "BluePrintCSS",
@@ -453,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser can specify fixed of `greater than` width of section.\n Width is measured in blueprint css units (see official manual)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Layout",
           "package": "BluePrintCSS",
@@ -462,6 +503,7 @@
         "index": {
           "description": "User can specify fixed of greater than width of section Width is measured in blueprint css units see official manual",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Layout",
           "package": "BluePrintCSS",
@@ -476,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines Html section tree from blueprint's point of view.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Tag",
           "package": "BluePrintCSS",
@@ -485,6 +528,7 @@
         "index": {
           "description": "Defines Html section tree from blueprint point of view",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Tag",
           "package": "BluePrintCSS",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Content",
           "package": "BluePrintCSS",
@@ -507,6 +552,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Content",
           "package": "BluePrintCSS",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "HSet",
           "package": "BluePrintCSS",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "HSet",
           "package": "BluePrintCSS",
@@ -542,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "LEQ",
           "package": "BluePrintCSS",
@@ -551,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "LEQ",
           "package": "BluePrintCSS",
@@ -564,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "LGE",
           "package": "BluePrintCSS",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "LGE",
           "package": "BluePrintCSS",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "Tag",
           "package": "BluePrintCSS",
@@ -595,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "Tag",
           "normalized": "Tag Align[Tuple a b]",
@@ -610,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "VSet",
           "package": "BluePrintCSS",
@@ -619,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "VSet",
           "package": "BluePrintCSS",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "asCssClass",
           "package": "BluePrintCSS",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "asCssClass",
           "normalized": "a-\u003e[String]",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "asRootSection",
           "package": "BluePrintCSS",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "asRootSection",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "asSection",
           "package": "BluePrintCSS",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "asSection",
           "normalized": "a-\u003eInt-\u003eBool-\u003e[b]-\u003eb",
@@ -705,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines html content of fixed width.\n First argument is a width allowed for this content (in blueprintcss units, see manual).\n Second argument - html data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "equal",
           "package": "BluePrintCSS",
@@ -715,6 +778,7 @@
         "index": {
           "description": "Defines html content of fixed width First argument is width allowed for this content in blueprintcss units see manual Second argument html data type",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "equal",
           "normalized": "Int-\u003ea-\u003eTuple b a",
@@ -730,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributed version of \u003ccode\u003e\u003ca\u003eequal\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "equalA",
           "package": "BluePrintCSS",
@@ -740,6 +805,7 @@
         "index": {
           "description": "Attributed version of equal",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "equalA",
           "normalized": "a-\u003eInt-\u003eb-\u003eTuple a b",
@@ -755,6 +821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines html content with any width (same as \u003ccode\u003e\u003ca\u003egreater\u003c/a\u003e\u003c/code\u003e with arg1 = 0) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "float",
           "package": "BluePrintCSS",
@@ -765,6 +832,7 @@
         "index": {
           "description": "Defines html content with any width same as greater with arg1",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "float",
           "normalized": "a-\u003eTuple b a",
@@ -780,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributed version of \u003ccode\u003e\u003ca\u003efloat\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "floatA",
           "package": "BluePrintCSS",
@@ -790,6 +859,7 @@
         "index": {
           "description": "Attributed version of float",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "floatA",
           "normalized": "a-\u003eb-\u003eTuple a b",
@@ -805,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines html content with width in range [arg1 .. max).\n First argument is a minimal width allowed (in blueprintcss units, see manual).\n Second argument - html data type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "greater",
           "package": "BluePrintCSS",
@@ -815,6 +886,7 @@
         "index": {
           "description": "Defines html content with width in range arg1 max First argument is minimal width allowed in blueprintcss units see manual Second argument html data type",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "greater",
           "normalized": "Int-\u003ea-\u003eTuple b a",
@@ -830,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributed version of \u003ccode\u003e\u003ca\u003egreater\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "greaterA",
           "package": "BluePrintCSS",
@@ -840,6 +913,7 @@
         "index": {
           "description": "Attributed version of greater",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "greaterA",
           "normalized": "a-\u003eInt-\u003eb-\u003eTuple a b",
@@ -855,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts horisontally aligned sectionlist\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "hsection",
           "package": "BluePrintCSS",
@@ -865,6 +940,7 @@
         "index": {
           "description": "Starts horisontally aligned sectionlist",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "hsection",
           "normalized": "[Tuple a b]-\u003eTuple a b",
@@ -880,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributed version of hsection.\n First argument is a attribute list which allows to tweak `class` of html tag.\n Standard blueprint library contains a set of pre-defined classes like\n \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003enotify\u003c/code\u003e, \u003ccode\u003ebox\u003c/code\u003e, `append-`, `prepend-`.\n Some of them, like `pull-` and `push-` are not supported.\n See \u003ccode\u003eAttr\u003c/code\u003e for details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "hsectionA",
           "package": "BluePrintCSS",
@@ -890,6 +967,7 @@
         "index": {
           "description": "Attributed version of hsection First argument is attribute list which allows to tweak class of html tag Standard blueprint library contains set of pre-defined classes like error notify box append prepend Some of them like pull and push are not supported See Attr for details",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "hsectionA",
           "normalized": "a-\u003e[Tuple a b]-\u003eTuple a b",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "makeCssClass",
           "package": "BluePrintCSS",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "makeCssClass",
           "normalized": "a-\u003eInt-\u003eBool-\u003e[String]",
@@ -929,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most important function. Renders structure into solid html.\n First argument is total width of your css grid (see blueprintcss manual).\n Typical value is 24.\n Second argument is the document skeleton as returned by one of *section functions.\n Use it like this (HSX html generator is assumed):\n\u003c/p\u003e\u003cpre\u003e render 24 $ vsection [ \n   float $ \u003ch1\u003e The header \u003c/h1\u003e,\n   floatA [Box \"Error\"] $ \u003cp\u003ePassword incorrect\u003c/p\u003e,\n   hsection [ \n     equal 3 $ \u003cdiv\u003e Column of width 3 \u003c/div\u003e,\n     float   $ \u003cdiv\u003e Column of width (max - 3) \u003c/div\u003e\n   ] \n ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "render",
           "package": "BluePrintCSS",
@@ -939,6 +1020,7 @@
         "index": {
           "description": "The most important function Renders structure into solid html First argument is total width of your css grid see blueprintcss manual Typical value is Second argument is the document skeleton as returned by one of section functions Use it like this HSX html generator is assumed render vsection float h1 The header h1 floatA Box Error Password incorrect hsection equal div Column of width div float div Column of width max div",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "render",
           "normalized": "Int-\u003eTuple a b-\u003eEither String b",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "section",
           "package": "BluePrintCSS",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "section",
           "normalized": "a-\u003eb-\u003ec-\u003e(a,b,c)",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "smargin",
           "package": "BluePrintCSS",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "smargin",
           "normalized": "a-\u003eInt",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts vertically aligned section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "vsection",
           "package": "BluePrintCSS",
@@ -1010,6 +1097,7 @@
         "index": {
           "description": "Starts vertically aligned section",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "vsection",
           "normalized": "[Tuple a b]-\u003eTuple a b",
@@ -1025,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributed version of \u003ccode\u003e\u003ca\u003evsection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS.Base",
           "name": "vsectionA",
           "package": "BluePrintCSS",
@@ -1035,6 +1124,7 @@
         "index": {
           "description": "Attributed version of vsection",
           "hierarchy": "Text BluePrintCSS Base",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS.Base",
           "name": "vsectionA",
           "normalized": "a-\u003e[Tuple a b]-\u003eTuple a b",
@@ -1049,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:35:00 UTC 2014",
           "module": "Text.BluePrintCSS",
           "name": "BluePrintCSS",
           "package": "BluePrintCSS",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Text BluePrintCSS",
+          "indexed": "2014-03-11T16:35:00",
           "module": "Text.BluePrintCSS",
           "name": "BluePrintCSS",
           "package": "BluePrintCSS",

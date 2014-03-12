@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsConfigure"
+        "phrase": "hsConfigure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:25 UTC 2014",
           "module": "HsConfigure",
           "name": "HsConfigure",
           "package": "hsConfigure",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HsConfigure",
+          "indexed": "2014-03-11T18:46:25",
           "module": "HsConfigure",
           "name": "HsConfigure",
           "package": "hsConfigure",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:25 UTC 2014",
           "module": "HsConfigure",
           "name": "runUsersEx",
           "package": "hsConfigure",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "HsConfigure",
+          "indexed": "2014-03-11T18:46:25",
           "module": "HsConfigure",
           "name": "runUsersEx",
           "normalized": "String-\u003eMaybe Version-\u003eMaybe FilePath-\u003eIO()-\u003eIO()",

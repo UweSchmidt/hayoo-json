@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "c0parser"
+        "phrase": "c0parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "C0Parser",
           "package": "c0parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "C0Parser",
           "package": "c0parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "checkIdent",
           "package": "c0parser",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "checkIdent",
           "normalized": "String-\u003eCharParser[String]()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "isKeyword",
           "package": "c0parser",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "isKeyword",
           "normalized": "String-\u003eBool",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "keywords",
           "package": "c0parser",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "keywords",
           "normalized": "[String]",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pAssignment",
           "package": "c0parser",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pAssignment",
           "normalized": "CharParser[String]Statement",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pBlock",
           "package": "c0parser",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pBlock",
           "normalized": "CharParser[String]Block",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pBoolExpression",
           "package": "c0parser",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pBoolExpression",
           "normalized": "CharParser[String]BoolExpression",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pFactor",
           "package": "c0parser",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pFactor",
           "normalized": "CharParser[String]Factor",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pIdent",
           "package": "c0parser",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pIdent",
           "normalized": "CharParser[String]String",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pIfStatement",
           "package": "c0parser",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pIfStatement",
           "normalized": "CharParser[String]Statement",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pMoreFactors",
           "package": "c0parser",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pMoreFactors",
           "normalized": "CharParser[String][(OpMulDivMod,Factor)]",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pMoreTerms",
           "package": "c0parser",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pMoreTerms",
           "normalized": "CharParser[String][(OpAddSub,Term)]",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pNumber",
           "package": "c0parser",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pNumber",
           "normalized": "CharParser[String]Int",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pOpAddSub",
           "package": "c0parser",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pOpAddSub",
           "normalized": "CharParser[String]OpAddSub",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pOpMulDivMod",
           "package": "c0parser",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pOpMulDivMod",
           "normalized": "CharParser[String]OpMulDivMod",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pPrintf",
           "package": "c0parser",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pPrintf",
           "normalized": "CharParser[String]Statement",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pProgram",
           "package": "c0parser",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pProgram",
           "normalized": "CharParser[Ident]Program",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pRelation",
           "package": "c0parser",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pRelation",
           "normalized": "CharParser[String]Relation",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pScanf",
           "package": "c0parser",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pScanf",
           "normalized": "CharParser[String]Statement",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pSimpleExpression",
           "package": "c0parser",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pSimpleExpression",
           "normalized": "CharParser[String]SimpleExpression",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pStatement",
           "package": "c0parser",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pStatement",
           "normalized": "CharParser[String]Statement",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pStatementSequence",
           "package": "c0parser",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pStatementSequence",
           "normalized": "CharParser[String]StatementSequence",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pTerm",
           "package": "c0parser",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pTerm",
           "normalized": "CharParser[String]Term",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pVariableDeclaration",
           "package": "c0parser",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pVariableDeclaration",
           "normalized": "CharParser[String]VariableDeclaration",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pWhileStatement",
           "package": "c0parser",
@@ -599,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pWhileStatement",
           "normalized": "CharParser[String]Statement",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pYesNo",
           "package": "c0parser",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "pYesNo",
           "normalized": "ParsecT[Char][Ident]Identity Bool",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "parseProg",
           "package": "c0parser",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "parseProg",
           "normalized": "String-\u003eEither ParseError Program",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "trace",
           "package": "c0parser",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "trace",
           "normalized": "a-\u003ea-\u003ea",
@@ -685,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "wsOrCmts",
           "package": "c0parser",
@@ -694,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "wsOrCmts",
           "normalized": "CharParser[String]()",
@@ -709,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Parser.C0Parser",
           "name": "yesNo",
           "package": "c0parser",
@@ -718,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Parser C0Parser",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Parser.C0Parser",
           "name": "yesNo",
           "normalized": "String-\u003eBool",
@@ -733,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "C0Types",
           "package": "c0parser",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "C0Types",
           "package": "c0parser",
@@ -754,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Assignment",
           "package": "c0parser",
@@ -762,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Assignment",
           "package": "c0parser",
@@ -775,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Block",
           "package": "c0parser",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Block",
           "package": "c0parser",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "BoolExpression",
           "package": "c0parser",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "BoolExpression",
           "package": "c0parser",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Factor",
           "package": "c0parser",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Factor",
           "package": "c0parser",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Ident",
           "package": "c0parser",
@@ -846,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Ident",
           "package": "c0parser",
@@ -859,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "IfStatement",
           "package": "c0parser",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "IfStatement",
           "package": "c0parser",
@@ -880,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Number",
           "package": "c0parser",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Number",
           "package": "c0parser",
@@ -901,6 +977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "OpAddSub",
           "package": "c0parser",
@@ -909,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "OpAddSub",
           "package": "c0parser",
@@ -922,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "OpMulDivMod",
           "package": "c0parser",
@@ -930,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "OpMulDivMod",
           "package": "c0parser",
@@ -943,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Program",
           "package": "c0parser",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Program",
           "package": "c0parser",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Relation",
           "package": "c0parser",
@@ -972,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Relation",
           "package": "c0parser",
@@ -985,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SimpleExpression",
           "package": "c0parser",
@@ -993,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SimpleExpression",
           "package": "c0parser",
@@ -1006,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Statement",
           "package": "c0parser",
@@ -1014,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Statement",
           "package": "c0parser",
@@ -1027,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "StatementSequence",
           "package": "c0parser",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "StatementSequence",
           "package": "c0parser",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Term",
           "package": "c0parser",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Term",
           "package": "c0parser",
@@ -1069,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "VariableDeclaration",
           "package": "c0parser",
@@ -1077,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "VariableDeclaration",
           "package": "c0parser",
@@ -1090,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "WhileStatement",
           "package": "c0parser",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "WhileStatement",
           "package": "c0parser",
@@ -1111,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "A",
           "package": "c0parser",
@@ -1120,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "A",
           "package": "c0parser",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Add",
           "package": "c0parser",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Add",
           "package": "c0parser",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "B",
           "package": "c0parser",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "B",
           "package": "c0parser",
@@ -1175,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Bool",
           "package": "c0parser",
@@ -1184,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Bool",
           "package": "c0parser",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Div",
           "package": "c0parser",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Div",
           "package": "c0parser",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "EQ",
           "package": "c0parser",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "EQ",
           "package": "c0parser",
@@ -1241,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "FI",
           "package": "c0parser",
@@ -1250,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "FI",
           "package": "c0parser",
@@ -1263,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "FN",
           "package": "c0parser",
@@ -1272,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "FN",
           "package": "c0parser",
@@ -1285,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "FS",
           "package": "c0parser",
@@ -1294,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "FS",
           "package": "c0parser",
@@ -1307,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "GE",
           "package": "c0parser",
@@ -1316,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "GE",
           "package": "c0parser",
@@ -1329,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "GT",
           "package": "c0parser",
@@ -1338,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "GT",
           "package": "c0parser",
@@ -1351,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "I",
           "package": "c0parser",
@@ -1360,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "I",
           "package": "c0parser",
@@ -1372,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "LE",
           "package": "c0parser",
@@ -1381,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "LE",
           "package": "c0parser",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "LT",
           "package": "c0parser",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "LT",
           "package": "c0parser",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Mod",
           "package": "c0parser",
@@ -1425,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Mod",
           "package": "c0parser",
@@ -1438,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Mul",
           "package": "c0parser",
@@ -1447,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Mul",
           "package": "c0parser",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "NE",
           "package": "c0parser",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "NE",
           "package": "c0parser",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "P",
           "package": "c0parser",
@@ -1491,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "P",
           "package": "c0parser",
@@ -1503,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "S",
           "package": "c0parser",
@@ -1512,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "S",
           "normalized": "S[Statement]",
@@ -1526,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SA",
           "package": "c0parser",
@@ -1535,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SA",
           "package": "c0parser",
@@ -1548,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SI",
           "package": "c0parser",
@@ -1557,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SI",
           "package": "c0parser",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SP",
           "package": "c0parser",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SP",
           "package": "c0parser",
@@ -1592,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SS",
           "package": "c0parser",
@@ -1601,6 +1742,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SS",
           "package": "c0parser",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SSS",
           "package": "c0parser",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SSS",
           "package": "c0parser",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "SW",
           "package": "c0parser",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "SW",
           "package": "c0parser",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Simple",
           "package": "c0parser",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Simple",
           "normalized": "Simple Term[(OpAddSub,Term)]",
@@ -1682,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "Sub",
           "package": "c0parser",
@@ -1691,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "Sub",
           "package": "c0parser",
@@ -1704,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "T",
           "package": "c0parser",
@@ -1713,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "T",
           "normalized": "T Factor[(OpMulDivMod,Factor)]",
@@ -1727,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "V",
           "package": "c0parser",
@@ -1736,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "V",
           "normalized": "V[Ident]",
@@ -1750,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:27:30 UTC 2014",
           "module": "Language.C0.Types.C0Types",
           "name": "W",
           "package": "c0parser",
@@ -1759,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Language C0 Types C0Types",
+          "indexed": "2014-03-11T17:27:30",
           "module": "Language.C0.Types.C0Types",
           "name": "W",
           "package": "c0parser",

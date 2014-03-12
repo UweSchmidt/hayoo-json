@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "JSONb"
+        "phrase": "JSONb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSON.Escape",
           "name": "Escape",
           "package": "JSONb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Escape",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSON.Escape",
           "name": "Escape",
           "package": "JSONb",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of JSON escapable text. The solidus (\u003ccode\u003e/\u003c/code\u003e) is always escaped, as are\n    all ASCII control characters. Non-ASCII control characters and Unicode\n    printable characters above ASCII are left as is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSON.Escape",
           "name": "Escape",
           "package": "JSONb",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Class of JSON escapable text The solidus is always escaped as are all ASCII control characters Non-ASCII control characters and Unicode printable characters above ASCII are left as is",
           "hierarchy": "Text JSON Escape",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSON.Escape",
           "name": "Escape",
           "package": "JSONb",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscapes an individual character for embedding in a JSON string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSON.Escape",
           "name": "esc",
           "package": "JSONb",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Escapes an individual character for embedding in JSON string",
           "hierarchy": "Text JSON Escape",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSON.Escape",
           "name": "esc",
           "normalized": "Char-\u003eString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSON.Escape",
           "name": "escape",
           "package": "JSONb",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text JSON Escape",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSON.Escape",
           "name": "escape",
           "normalized": "a-\u003ea",
@@ -135,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse UTF-8 JSON into native Haskell types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "Decode",
           "package": "JSONb",
@@ -144,6 +153,7 @@
         "index": {
           "description": "Parse UTF-8 JSON into native Haskell types",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "Decode",
           "package": "JSONb",
@@ -158,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "array",
           "package": "JSONb",
@@ -168,6 +179,7 @@
         "index": {
           "description": "Parse JSON array",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "array",
           "package": "JSONb",
@@ -181,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON Boolean literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "boolean",
           "package": "JSONb",
@@ -191,6 +204,7 @@
         "index": {
           "description": "Parse JSON Boolean literal",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "boolean",
           "package": "JSONb",
@@ -256,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to parse any JSON literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "json",
           "package": "JSONb",
@@ -266,6 +281,7 @@
         "index": {
           "description": "Tries to parse any JSON literal",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "json",
           "package": "JSONb",
@@ -279,6 +295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON null literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "null",
           "package": "JSONb",
@@ -289,6 +306,7 @@
         "index": {
           "description": "Parse JSON null literal",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "null",
           "package": "JSONb",
@@ -302,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a numeric literal to a \u003ccode\u003eRational\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "number",
           "package": "JSONb",
@@ -312,6 +331,7 @@
         "index": {
           "description": "Parses numeric literal to Rational",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "number",
           "package": "JSONb",
@@ -325,6 +345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON object (dictionary).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "object",
           "package": "JSONb",
@@ -335,6 +356,7 @@
         "index": {
           "description": "Parse JSON object dictionary",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "object",
           "package": "JSONb",
@@ -347,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "s_as_b",
           "package": "JSONb",
@@ -356,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "s_as_b",
           "normalized": "String-\u003eParser ByteString",
@@ -371,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string literal, unescaping as it goes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "string",
           "package": "JSONb",
@@ -381,6 +406,7 @@
         "index": {
           "description": "Parses string literal unescaping as it goes",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "string",
           "package": "JSONb",
@@ -394,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a JSON string literal and unescape it but don't wrap it in a string\n    constructor (we might wrap it as a dict key instead).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "string_literal",
           "package": "JSONb",
@@ -404,6 +431,7 @@
         "index": {
           "description": "Parse JSON string literal and unescape it but don wrap it in string constructor we might wrap it as dict key instead",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "string_literal",
           "package": "JSONb",
@@ -417,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePer RFC 4627, section 2 \u003ca\u003eJSON Grammar\u003c/a\u003e, only a limited set of whitespace\n    characters actually count as insignificant whitespace. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Decode",
           "name": "whitespace",
           "package": "JSONb",
@@ -427,6 +456,7 @@
         "index": {
           "description": "Per RFC section JSON Grammar only limited set of whitespace characters actually count as insignificant whitespace",
           "hierarchy": "Text JSONb Decode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Decode",
           "name": "whitespace",
           "normalized": "Parser()",
@@ -441,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Encode",
           "name": "Encode",
           "package": "JSONb",
@@ -449,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Encode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Encode",
           "name": "Encode",
           "package": "JSONb",
@@ -463,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of serialization. Compact is the only one that is implemented at\n    present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Encode",
           "name": "Style",
           "package": "JSONb",
@@ -472,6 +505,7 @@
         "index": {
           "description": "Style of serialization Compact is the only one that is implemented at present",
           "hierarchy": "Text JSONb Encode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Encode",
           "name": "Style",
           "package": "JSONb",
@@ -535,6 +569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEscape a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e representing a JSON string and wrap it in quote\n    marks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Encode",
           "name": "stringify",
           "package": "JSONb",
@@ -545,6 +580,7 @@
         "index": {
           "description": "Escape ByteString representing JSON string and wrap it in quote marks",
           "hierarchy": "Text JSONb Encode",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Encode",
           "name": "stringify",
           "normalized": "ByteString-\u003eByteString",
@@ -559,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "Display",
           "package": "JSONb",
@@ -567,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "Display",
           "package": "JSONb",
@@ -580,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "Display",
           "package": "JSONb",
@@ -588,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "Display",
           "package": "JSONb",
@@ -601,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "broken",
           "package": "JSONb",
@@ -610,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "broken",
           "normalized": "[ByteString]-\u003eBool",
@@ -625,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a formatted \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for the displayable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "bytes",
           "package": "JSONb",
@@ -635,6 +678,7 @@
         "index": {
           "description": "Provide formatted ByteString for the displayable",
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "bytes",
           "normalized": "a-\u003eByteString",
@@ -649,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "dent",
           "package": "JSONb",
@@ -658,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "dent",
           "normalized": "Int-\u003eByteString-\u003eByteString",
@@ -672,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "len",
           "package": "JSONb",
@@ -681,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "len",
           "package": "JSONb",
@@ -693,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "longest_key_len",
           "package": "JSONb",
@@ -702,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "longest_key_len",
           "normalized": "Trie a-\u003eInt",
@@ -716,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "must_be_multiline",
           "package": "JSONb",
@@ -725,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "must_be_multiline",
           "normalized": "Int-\u003e[ByteString]-\u003eBool",
@@ -739,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "space",
           "package": "JSONb",
@@ -748,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "space",
           "package": "JSONb",
@@ -760,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema.Display",
           "name": "too_long",
           "package": "JSONb",
@@ -769,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema Display",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema.Display",
           "name": "too_long",
           "normalized": "Int-\u003e[ByteString]-\u003eBool",
@@ -783,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Schema",
           "package": "JSONb",
@@ -791,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Schema",
           "package": "JSONb",
@@ -805,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA well-ordered semigroup has a minimal element and an associative\n    operation. These are used to provide measures for schema. At present, we\n    allow three measures: whether there is one or more of a schema (measured\n    with '()'), whether there is one or more than one of an item (measured with\n    \u003ccode\u003e\u003ca\u003eOneMany\u003c/a\u003e\u003c/code\u003e) and positive counts of items (measured with \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Counter",
           "package": "JSONb",
@@ -814,6 +873,7 @@
         "index": {
           "description": "well-ordered semigroup has minimal element and an associative operation These are used to provide measures for schema At present we allow three measures whether there is one or more of schema measured with whether there is one or more than one of an item measured with OneMany and positive counts of items measured with Word",
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Counter",
           "package": "JSONb",
@@ -827,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Elements",
           "package": "JSONb",
@@ -835,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Elements",
           "package": "JSONb",
@@ -848,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "OneMany",
           "package": "JSONb",
@@ -856,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "OneMany",
           "package": "JSONb",
@@ -869,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Props",
           "package": "JSONb",
@@ -877,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Props",
           "package": "JSONb",
@@ -891,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of JSON schemas. We treat the atomic types simply whereas objects\n    and arrays are treated specially.\n\u003c/p\u003e\u003cp\u003eObjects are treated as maps of keys to sets of schema types. Say a certain\n    type of object sometimes has a string at a certain key and sometimes has a\n    null at that key; we should merge them and say the schema of that key is a\n    union of string and null.\n\u003c/p\u003e\u003cp\u003eArrays admit measure in the sense of how many elements there are of a\n    certain kind. We support three measures at present: any, one or more and\n    individual counts. We expect the \u003ca\u003eany\u003c/a\u003e measure to prevail practice. Arrays\n    are also ordered; so one can distinguish an array that interleaves strings\n    and ints from one that is all strings and then all ints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Schema",
           "package": "JSONb",
@@ -900,6 +967,7 @@
         "index": {
           "description": "The type of JSON schemas We treat the atomic types simply whereas objects and arrays are treated specially Objects are treated as maps of keys to sets of schema types Say certain type of object sometimes has string at certain key and sometimes has null at that key we should merge them and say the schema of that key is union of string and null Arrays admit measure in the sense of how many elements there are of certain kind We support three measures at present any one or more and individual counts We expect the any measure to prevail practice Arrays are also ordered so one can distinguish an array that interleaves strings and ints from one that is all strings and then all ints",
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Schema",
           "package": "JSONb",
@@ -913,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Arr",
           "package": "JSONb",
@@ -922,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Arr",
           "package": "JSONb",
@@ -935,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Bool",
           "package": "JSONb",
@@ -944,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Bool",
           "package": "JSONb",
@@ -957,6 +1029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Elements",
           "package": "JSONb",
@@ -966,6 +1039,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Elements",
           "normalized": "Elements[(a,Schema a)]",
@@ -1004,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Null",
           "package": "JSONb",
@@ -1013,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Null",
           "package": "JSONb",
@@ -1026,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Num",
           "package": "JSONb",
@@ -1035,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Num",
           "package": "JSONb",
@@ -1048,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Obj",
           "package": "JSONb",
@@ -1057,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Obj",
           "package": "JSONb",
@@ -1093,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Props",
           "package": "JSONb",
@@ -1102,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Props",
           "package": "JSONb",
@@ -1115,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "Str",
           "package": "JSONb",
@@ -1124,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "Str",
           "package": "JSONb",
@@ -1137,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "bottom",
           "package": "JSONb",
@@ -1146,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "bottom",
           "package": "JSONb",
@@ -1159,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollate a list of counted schemas. Alike counted schemas that are adjacent\n    are replaced by a counted schema with an incremented counter. This\n    operation is mutually recursive with \u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e, in order to merge comaptible\n    object definitions before collating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "collate",
           "package": "JSONb",
@@ -1169,6 +1256,7 @@
         "index": {
           "description": "Collate list of counted schemas Alike counted schemas that are adjacent are replaced by counted schema with an incremented counter This operation is mutually recursive with merge in order to merge comaptible object definitions before collating",
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "collate",
           "normalized": "(a,Schema b)-\u003e[(a,Schema b)]-\u003e[(a,Schema b)]",
@@ -1183,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "match",
           "package": "JSONb",
@@ -1192,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "match",
           "normalized": "Props a-\u003eProps a-\u003eBool",
@@ -1207,6 +1297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two property sets. This operation is mutually recursive with our\n    \u003ccode\u003e\u003ca\u003ecollate\u003c/a\u003e\u003c/code\u003e and relies on polymorphic recusion in \u003ccode\u003e\u003ca\u003ecollate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "merge",
           "package": "JSONb",
@@ -1217,6 +1308,7 @@
         "index": {
           "description": "Merge two property sets This operation is mutually recursive with our collate and relies on polymorphic recusion in collate",
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "merge",
           "normalized": "Props a-\u003eProps a-\u003eProps a",
@@ -1231,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "plus",
           "package": "JSONb",
@@ -1240,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "plus",
           "normalized": "a-\u003ea-\u003ea",
@@ -1254,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Schema",
           "name": "props",
           "package": "JSONb",
@@ -1263,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb Schema",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Schema",
           "name": "props",
           "normalized": "Trie JSON-\u003eProps a",
@@ -1330,6 +1426,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJSON datatype definition.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Simple",
           "name": "Simple",
           "package": "JSONb",
@@ -1339,6 +1436,7 @@
         "index": {
           "description": "JSON datatype definition",
           "hierarchy": "Text JSONb Simple",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Simple",
           "name": "Simple",
           "package": "JSONb",
@@ -1353,6 +1451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monomorphic JSON datatype, backed with \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e, strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n    and \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrie\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb.Simple",
           "name": "JSON",
           "package": "JSONb",
@@ -1362,6 +1461,7 @@
         "index": {
           "description": "monomorphic JSON datatype backed with Rational strict ByteString and ByteString Trie",
           "hierarchy": "Text JSONb Simple",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb.Simple",
           "name": "JSON",
           "package": "JSONb",
@@ -1516,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eByteString parser for a simple, monomorphic JSON datatype.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "JSONb",
           "package": "JSONb",
@@ -1525,6 +1626,7 @@
         "index": {
           "description": "ByteString parser for simple monomorphic JSON datatype",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "JSONb",
           "package": "JSONb",
@@ -1538,6 +1640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "Display",
           "package": "JSONb",
@@ -1546,6 +1649,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "Display",
           "package": "JSONb",
@@ -1560,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of JSON escapable text. The solidus (\u003ccode\u003e/\u003c/code\u003e) is always escaped, as are\n    all ASCII control characters. Non-ASCII control characters and Unicode\n    printable characters above ASCII are left as is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "Escape",
           "package": "JSONb",
@@ -1569,6 +1674,7 @@
         "index": {
           "description": "Class of JSON escapable text The solidus is always escaped as are all ASCII control characters Non-ASCII control characters and Unicode printable characters above ASCII are left as is",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "Escape",
           "package": "JSONb",
@@ -1583,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monomorphic JSON datatype, backed with \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e, strict \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n    and \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrie\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "JSON",
           "package": "JSONb",
@@ -1592,6 +1699,7 @@
         "index": {
           "description": "monomorphic JSON datatype backed with Rational strict ByteString and ByteString Trie",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "JSON",
           "package": "JSONb",
@@ -1605,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "OneMany",
           "package": "JSONb",
@@ -1613,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "OneMany",
           "package": "JSONb",
@@ -1627,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of JSON schemas. We treat the atomic types simply whereas objects\n    and arrays are treated specially.\n\u003c/p\u003e\u003cp\u003eObjects are treated as maps of keys to sets of schema types. Say a certain\n    type of object sometimes has a string at a certain key and sometimes has a\n    null at that key; we should merge them and say the schema of that key is a\n    union of string and null.\n\u003c/p\u003e\u003cp\u003eArrays admit measure in the sense of how many elements there are of a\n    certain kind. We support three measures at present: any, one or more and\n    individual counts. We expect the \u003ca\u003eany\u003c/a\u003e measure to prevail practice. Arrays\n    are also ordered; so one can distinguish an array that interleaves strings\n    and ints from one that is all strings and then all ints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "Schema",
           "package": "JSONb",
@@ -1636,6 +1747,7 @@
         "index": {
           "description": "The type of JSON schemas We treat the atomic types simply whereas objects and arrays are treated specially Objects are treated as maps of keys to sets of schema types Say certain type of object sometimes has string at certain key and sometimes has null at that key we should merge them and say the schema of that key is union of string and null Arrays admit measure in the sense of how many elements there are of certain kind We support three measures at present any one or more and individual counts We expect the any measure to prevail practice Arrays are also ordered so one can distinguish an array that interleaves strings and ints from one that is all strings and then all ints",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "Schema",
           "package": "JSONb",
@@ -1650,6 +1762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle of serialization. Compact is the only one that is implemented at\n    present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "Style",
           "package": "JSONb",
@@ -1659,6 +1772,7 @@
         "index": {
           "description": "Style of serialization Compact is the only one that is implemented at present",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "Style",
           "package": "JSONb",
@@ -1673,6 +1787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a formatted \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e for the displayable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "bytes",
           "package": "JSONb",
@@ -1683,6 +1798,7 @@
         "index": {
           "description": "Provide formatted ByteString for the displayable",
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "bytes",
           "normalized": "a-\u003eByteString",
@@ -1697,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:50:11 UTC 2014",
           "module": "Text.JSONb",
           "name": "escape",
           "package": "JSONb",
@@ -1706,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Text JSONb",
+          "indexed": "2014-03-11T16:50:11",
           "module": "Text.JSONb",
           "name": "escape",
           "normalized": "a-\u003ea",

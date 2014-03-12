@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "asil"
+        "phrase": "asil",
+        "type": "phrase"
       },
       "type": "context"
     }

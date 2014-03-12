@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mastermind"
+        "phrase": "mastermind",
+        "type": "phrase"
       },
       "type": "context"
     }

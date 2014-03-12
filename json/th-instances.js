@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "th-instances"
+        "phrase": "th-instances",
+        "type": "phrase"
       },
       "type": "context"
     }

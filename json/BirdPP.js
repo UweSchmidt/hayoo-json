@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BirdPP"
+        "phrase": "BirdPP",
+        "type": "phrase"
       },
       "type": "context"
     }

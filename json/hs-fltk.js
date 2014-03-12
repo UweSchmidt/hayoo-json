@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hs-fltk"
+        "phrase": "hs-fltk",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "Ask",
           "package": "hs-fltk",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "Ask",
           "package": "hs-fltk",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk a simple question with Ok and Cancel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "ask",
           "package": "hs-fltk",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Ask simple question with Ok and Cancel",
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "ask",
           "normalized": "String-\u003eIO Bool",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a directory. The first argument is the dialog title and the second one the initial location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "dirChooser",
           "package": "hs-fltk",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Choose directory The first argument is the dialog title and the second one the initial location",
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "dirChooser",
           "normalized": "String-\u003eFilePath-\u003eIO FilePath",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a file. This first argument is the dialog title. The second one is filename patterns in the format like \"Haskell (*.{hs,lhs})\\tC (*.c)\". The final argument is the start location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "fileChooser",
           "package": "hs-fltk",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Choose file This first argument is the dialog title The second one is filename patterns in the format like Haskell hs lhs tC The final argument is the start location",
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "fileChooser",
           "normalized": "String-\u003eString-\u003eFilePath-\u003eIO FilePath",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a message with a single line input and return the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "input",
           "package": "hs-fltk",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Display message with single line input and return the result",
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "input",
           "normalized": "String-\u003eIO String",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a messagebox.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "message",
           "package": "hs-fltk",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Display messagebox",
           "hierarchy": "Graphics UI FLTK Ask",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Ask",
           "name": "message",
           "normalized": "String-\u003eIO()",
@@ -166,6 +178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser",
           "package": "hs-fltk",
@@ -174,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser",
           "package": "hs-fltk",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for Browsers, which is a subtype of Widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser",
           "package": "hs-fltk",
@@ -197,6 +212,7 @@
         "index": {
           "description": "The type for Browsers which is subtype of Widget",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser",
           "package": "hs-fltk",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for Browsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser_C",
           "package": "hs-fltk",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Class for Browsers",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "Browser_C",
           "package": "hs-fltk",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "_browser",
           "package": "hs-fltk",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "_browser",
           "normalized": "a-\u003ePtr Browser",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new row to the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "add",
           "package": "hs-fltk",
@@ -267,6 +288,7 @@
         "index": {
           "description": "Add new row to the browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "add",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "bottomline",
           "package": "hs-fltk",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "bottomline",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all rows from the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "clear",
           "package": "hs-fltk",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Delete all rows from the browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "clear",
           "normalized": "a-\u003eIO()",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "columnChar",
           "package": "hs-fltk",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "columnChar",
           "package": "hs-fltk",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColumn-separator character. The default is '\\t'.\n\u003c/p\u003e\u003cp\u003eFormat character. The default is '@'.\n\u003c/p\u003e\u003cp\u003eColumn widths as pixels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "columnWidths",
           "package": "hs-fltk",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Column-separator character The default is Format character The default is Column widths as pixels",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "columnWidths",
           "normalized": "Attr a[Int]",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "formatChar",
           "package": "hs-fltk",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "formatChar",
           "package": "hs-fltk",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new row at the specified position. Indeces start at 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "insert",
           "package": "hs-fltk",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Insert new row at the specified position Indeces start at",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "insert",
           "normalized": "a-\u003eInt-\u003eString-\u003eIO()",
@@ -424,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "middleline",
           "package": "hs-fltk",
@@ -433,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "middleline",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -448,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a row in the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "move",
           "package": "hs-fltk",
@@ -458,6 +495,7 @@
         "index": {
           "description": "Move row in the browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "move",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO()",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "newBrowser",
           "package": "hs-fltk",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Create new browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "newBrowser",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Browser]-\u003eIO Browser",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a row in the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "remove",
           "package": "hs-fltk",
@@ -509,6 +550,7 @@
         "index": {
           "description": "Remove row in the browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "remove",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of rows in the browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "size",
           "package": "hs-fltk",
@@ -534,6 +577,7 @@
         "index": {
           "description": "Return the number of rows in the browser",
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "size",
           "normalized": "a-\u003eIO Int",
@@ -548,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "topline",
           "package": "hs-fltk",
@@ -557,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Browser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Browser",
           "name": "topline",
           "normalized": "a-\u003eInt-\u003eIO()",
@@ -571,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "Button",
           "package": "hs-fltk",
@@ -579,6 +626,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "Button",
           "package": "hs-fltk",
@@ -593,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Button type is used for all buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "Button",
           "package": "hs-fltk",
@@ -602,6 +651,7 @@
         "index": {
           "description": "The Button type is used for all buttons",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "Button",
           "package": "hs-fltk",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new normal button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newButton",
           "package": "hs-fltk",
@@ -626,6 +677,7 @@
         "index": {
           "description": "Create new normal button",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -642,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new checkbox\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newCheckButton",
           "package": "hs-fltk",
@@ -652,6 +705,7 @@
         "index": {
           "description": "Create new checkbox",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newCheckButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -668,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new button with a light showing the current state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newLightButton",
           "package": "hs-fltk",
@@ -678,6 +733,7 @@
         "index": {
           "description": "Create new button with light showing the current state",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newLightButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -694,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a button that sends the callback in a repeated fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newRepeatButton",
           "package": "hs-fltk",
@@ -704,6 +761,7 @@
         "index": {
           "description": "Create button that sends the callback in repeated fashion",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newRepeatButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new button with a \"Return\" symbol on it (for Ok buttons).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newReturnButton",
           "package": "hs-fltk",
@@ -730,6 +789,7 @@
         "index": {
           "description": "Create new button with Return symbol on it for Ok buttons",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newReturnButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -746,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new radiobutton.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newRoundButton",
           "package": "hs-fltk",
@@ -756,6 +817,7 @@
         "index": {
           "description": "Create new radiobutton",
           "hierarchy": "Graphics UI FLTK Button",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Button",
           "name": "newRoundButton",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Button]-\u003eIO Button",
@@ -771,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group",
           "package": "hs-fltk",
@@ -779,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group",
           "package": "hs-fltk",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGroup widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group",
           "package": "hs-fltk",
@@ -802,6 +867,7 @@
         "index": {
           "description": "Group widgets",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group",
           "package": "hs-fltk",
@@ -816,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for Groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group_C",
           "package": "hs-fltk",
@@ -825,6 +892,7 @@
         "index": {
           "description": "Class for Groups",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Group_C",
           "package": "hs-fltk",
@@ -839,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTabs Group allows one to display several tabs of widgets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Tabs",
           "package": "hs-fltk",
@@ -848,6 +917,7 @@
         "index": {
           "description": "Tabs Group allows one to display several tabs of widgets",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "Tabs",
           "package": "hs-fltk",
@@ -861,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "_group",
           "package": "hs-fltk",
@@ -870,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "_group",
           "normalized": "a-\u003ePtr Group",
@@ -885,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin a group for layout. FIXME not thread safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "begin",
           "package": "hs-fltk",
@@ -895,6 +968,7 @@
         "index": {
           "description": "Begin group for layout FIXME not thread safe",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "begin",
           "normalized": "a-\u003eIO()",
@@ -910,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd a group for layout. FIXME not thread safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "end",
           "package": "hs-fltk",
@@ -920,6 +995,7 @@
         "index": {
           "description": "End group for layout FIXME not thread safe",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "end",
           "normalized": "a-\u003eIO()",
@@ -935,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Group widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "newGroup",
           "package": "hs-fltk",
@@ -945,6 +1022,7 @@
         "index": {
           "description": "Create new Group widget",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "newGroup",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Group]-\u003eIO Group",
@@ -961,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new Tabs widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "newTabs",
           "package": "hs-fltk",
@@ -971,6 +1050,7 @@
         "index": {
           "description": "Create new Tabs widget",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "newTabs",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Tabs]-\u003eIO Tabs",
@@ -987,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark a widget resizable in the group. Fixme =\u003e accessor?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Group",
           "name": "resizable",
           "package": "hs-fltk",
@@ -997,6 +1078,7 @@
         "index": {
           "description": "Mark widget resizable in the group Fixme accessor",
           "hierarchy": "Graphics UI FLTK Group",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Group",
           "name": "resizable",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -1011,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "Image",
           "package": "hs-fltk",
@@ -1019,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "Image",
           "package": "hs-fltk",
@@ -1033,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for images.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "Image",
           "package": "hs-fltk",
@@ -1042,6 +1127,7 @@
         "index": {
           "description": "Type for images",
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "Image",
           "package": "hs-fltk",
@@ -1056,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage for deactived widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "deimage",
           "package": "hs-fltk",
@@ -1066,6 +1153,7 @@
         "index": {
           "description": "Image for deactived widget",
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "deimage",
           "package": "hs-fltk",
@@ -1078,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "height",
           "package": "hs-fltk",
@@ -1087,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "height",
           "normalized": "Image-\u003eIO Int",
@@ -1102,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage for actived widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "image",
           "package": "hs-fltk",
@@ -1112,6 +1203,7 @@
         "index": {
           "description": "Image for actived widget",
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "image",
           "package": "hs-fltk",
@@ -1125,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad new image from a file. Supports bmp, png, jpeg, gif and xpm...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "newImage",
           "package": "hs-fltk",
@@ -1135,6 +1228,7 @@
         "index": {
           "description": "Load new image from file Supports bmp png jpeg gif and xpm",
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "newImage",
           "normalized": "FilePath-\u003eIO Image",
@@ -1150,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Image",
           "name": "width",
           "package": "hs-fltk",
@@ -1159,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Image",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Image",
           "name": "width",
           "normalized": "Image-\u003eIO Int",
@@ -1173,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "Input",
           "package": "hs-fltk",
@@ -1181,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "Input",
           "package": "hs-fltk",
@@ -1194,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "Input",
           "package": "hs-fltk",
@@ -1202,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "Input",
           "package": "hs-fltk",
@@ -1216,6 +1316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew file input field. Graphics.UI.FLTK.ASK's file_chooser is better...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newFileInput",
           "package": "hs-fltk",
@@ -1226,6 +1327,7 @@
         "index": {
           "description": "New file input field Graphics.UI.FLTK.ASK file chooser is better",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newFileInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1242,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew float input field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newFloatInput",
           "package": "hs-fltk",
@@ -1252,6 +1355,7 @@
         "index": {
           "description": "New float input field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newFloatInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1268,6 +1372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew text input field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newInput",
           "package": "hs-fltk",
@@ -1278,6 +1383,7 @@
         "index": {
           "description": "New text input field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1294,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew int input field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newIntInput",
           "package": "hs-fltk",
@@ -1304,6 +1411,7 @@
         "index": {
           "description": "New int input field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newIntInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1320,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew multiline input field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newMultiInput",
           "package": "hs-fltk",
@@ -1330,6 +1439,7 @@
         "index": {
           "description": "New multiline input field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newMultiInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1346,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew multiline output field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newMultiOutput",
           "package": "hs-fltk",
@@ -1356,6 +1467,7 @@
         "index": {
           "description": "New multiline output field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newMultiOutput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1372,6 +1484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew simple output field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newOutput",
           "package": "hs-fltk",
@@ -1382,6 +1495,7 @@
         "index": {
           "description": "New simple output field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newOutput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1398,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew password input field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newSecretInput",
           "package": "hs-fltk",
@@ -1408,6 +1523,7 @@
         "index": {
           "description": "New password input field",
           "hierarchy": "Graphics UI FLTK Input",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Input",
           "name": "newSecretInput",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Input]-\u003eIO Input",
@@ -1423,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "Menu",
           "package": "hs-fltk",
@@ -1431,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "Menu",
           "package": "hs-fltk",
@@ -1444,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "MenuBar",
           "package": "hs-fltk",
@@ -1452,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "MenuBar",
           "package": "hs-fltk",
@@ -1465,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "MenuType",
           "package": "hs-fltk",
@@ -1473,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "MenuType",
           "package": "hs-fltk",
@@ -1486,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addC",
           "package": "hs-fltk",
@@ -1495,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addC",
           "normalized": "MenuBar-\u003eString-\u003eString-\u003eAct MenuBar-\u003eMenuType-\u003eIO()",
@@ -1509,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addL",
           "package": "hs-fltk",
@@ -1518,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addL",
           "normalized": "MenuBar-\u003e[(String,Act MenuBar)]-\u003eIO()",
@@ -1532,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addM",
           "package": "hs-fltk",
@@ -1541,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "addM",
           "normalized": "MenuBar-\u003eString-\u003eAct MenuBar-\u003eIO()",
@@ -1555,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mDefault",
           "package": "hs-fltk",
@@ -1564,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mDefault",
           "package": "hs-fltk",
@@ -1577,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mDivider",
           "package": "hs-fltk",
@@ -1586,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mDivider",
           "package": "hs-fltk",
@@ -1599,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mInactive",
           "package": "hs-fltk",
@@ -1608,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mInactive",
           "package": "hs-fltk",
@@ -1621,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mInvisible",
           "package": "hs-fltk",
@@ -1630,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mInvisible",
           "package": "hs-fltk",
@@ -1643,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mRadio",
           "package": "hs-fltk",
@@ -1652,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mRadio",
           "package": "hs-fltk",
@@ -1665,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mToggle",
           "package": "hs-fltk",
@@ -1674,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mToggle",
           "package": "hs-fltk",
@@ -1687,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mValue",
           "package": "hs-fltk",
@@ -1696,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "mValue",
           "package": "hs-fltk",
@@ -1710,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new menu bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "newMenuBar",
           "package": "hs-fltk",
@@ -1720,6 +1863,7 @@
         "index": {
           "description": "Create new menu bar",
           "hierarchy": "Graphics UI FLTK Menu",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Menu",
           "name": "newMenuBar",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop MenuBar]-\u003eIO MenuBar",
@@ -1735,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "MultiBrowser",
           "package": "hs-fltk",
@@ -1743,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK MultiBrowser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "MultiBrowser",
           "package": "hs-fltk",
@@ -1757,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for MultiBrowsers, which is a subtype of Browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "MultiBrowser",
           "package": "hs-fltk",
@@ -1766,6 +1913,7 @@
         "index": {
           "description": "The type for MultiBrowsers which is subtype of Browser",
           "hierarchy": "Graphics UI FLTK MultiBrowser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "MultiBrowser",
           "package": "hs-fltk",
@@ -1779,6 +1927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "deselect",
           "package": "hs-fltk",
@@ -1788,6 +1937,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK MultiBrowser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "deselect",
           "normalized": "MultiBrowser-\u003eIO()",
@@ -1803,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new browser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "newMultiBrowser",
           "package": "hs-fltk",
@@ -1813,6 +1964,7 @@
         "index": {
           "description": "Create new browser",
           "hierarchy": "Graphics UI FLTK MultiBrowser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "newMultiBrowser",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop MultiBrowser]-\u003eIO MultiBrowser",
@@ -1829,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle whether the specified row is selected or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "select",
           "package": "hs-fltk",
@@ -1839,6 +1992,7 @@
         "index": {
           "description": "Toggle whether the specified row is selected or not",
           "hierarchy": "Graphics UI FLTK MultiBrowser",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.MultiBrowser",
           "name": "select",
           "normalized": "Int-\u003eAttr MultiBrowser Bool",
@@ -1853,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget",
           "package": "hs-fltk",
@@ -1861,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget",
           "package": "hs-fltk",
@@ -1875,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Act",
           "package": "hs-fltk",
@@ -1884,6 +2041,7 @@
         "index": {
           "description": "The type for actions",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Act",
           "package": "hs-fltk",
@@ -1897,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Align",
           "package": "hs-fltk",
@@ -1905,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Align",
           "package": "hs-fltk",
@@ -1919,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn attribute is just a getter and a setter function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Attr",
           "package": "hs-fltk",
@@ -1928,6 +2089,7 @@
         "index": {
           "description": "An attribute is just getter and setter function",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Attr",
           "package": "hs-fltk",
@@ -1941,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "CFlag",
           "package": "hs-fltk",
@@ -1949,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "CFlag",
           "package": "hs-fltk",
@@ -1962,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Color",
           "package": "hs-fltk",
@@ -1970,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Color",
           "package": "hs-fltk",
@@ -1984,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties are the heart of the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Prop",
           "package": "hs-fltk",
@@ -1993,6 +2160,7 @@
         "index": {
           "description": "Properties are the heart of the system",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Prop",
           "package": "hs-fltk",
@@ -2007,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction class to get and set the value of a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Value_FC",
           "package": "hs-fltk",
@@ -2016,6 +2185,7 @@
         "index": {
           "description": "Function class to get and set the value of widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Value_FC",
           "package": "hs-fltk",
@@ -2030,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen are actions fired?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "When",
           "package": "hs-fltk",
@@ -2039,6 +2210,7 @@
         "index": {
           "description": "When are actions fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "When",
           "package": "hs-fltk",
@@ -2053,6 +2225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for widgets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget",
           "package": "hs-fltk",
@@ -2062,6 +2235,7 @@
         "index": {
           "description": "Type for widgets",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget",
           "package": "hs-fltk",
@@ -2076,6 +2250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for widgets\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget_C",
           "package": "hs-fltk",
@@ -2085,6 +2260,7 @@
         "index": {
           "description": "Class for widgets",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Widget_C",
           "package": "hs-fltk",
@@ -2098,6 +2274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "(+|+)",
           "package": "hs-fltk",
@@ -2107,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "(+|+) +|+",
           "normalized": "a-\u003ea-\u003ea",
@@ -2121,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": ":=",
           "package": "hs-fltk",
@@ -2130,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": ":=",
           "package": "hs-fltk",
@@ -2142,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": ":=\u003e",
           "package": "hs-fltk",
@@ -2151,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": ":=\u003e",
           "normalized": "(a-\u003ea)",
@@ -2165,6 +2347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "::=",
           "package": "hs-fltk",
@@ -2174,6 +2357,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "::=",
           "package": "hs-fltk",
@@ -2186,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "::=\u003e",
           "package": "hs-fltk",
@@ -2195,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "::=\u003e",
           "normalized": "(a-\u003eIO a)",
@@ -2209,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Attr",
           "package": "hs-fltk",
@@ -2218,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "Attr",
           "normalized": "Attr(a-\u003eIO b)(a-\u003eb-\u003eIO())",
@@ -2233,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "_widget",
           "package": "hs-fltk",
@@ -2242,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "_widget",
           "normalized": "a-\u003ePtr Widget",
@@ -2256,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aBottom",
           "package": "hs-fltk",
@@ -2265,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aBottom",
           "package": "hs-fltk",
@@ -2278,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aCenter",
           "package": "hs-fltk",
@@ -2287,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aCenter",
           "package": "hs-fltk",
@@ -2300,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aClip",
           "package": "hs-fltk",
@@ -2309,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aClip",
           "package": "hs-fltk",
@@ -2322,6 +2518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aInside",
           "package": "hs-fltk",
@@ -2331,6 +2528,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aInside",
           "package": "hs-fltk",
@@ -2344,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aLeft",
           "package": "hs-fltk",
@@ -2353,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aLeft",
           "package": "hs-fltk",
@@ -2366,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aRight",
           "package": "hs-fltk",
@@ -2375,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aRight",
           "package": "hs-fltk",
@@ -2388,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aTextOverImage",
           "package": "hs-fltk",
@@ -2397,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aTextOverImage",
           "package": "hs-fltk",
@@ -2410,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aTop",
           "package": "hs-fltk",
@@ -2419,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aTop",
           "package": "hs-fltk",
@@ -2432,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aWrap",
           "package": "hs-fltk",
@@ -2441,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "aWrap",
           "package": "hs-fltk",
@@ -2454,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "action",
           "package": "hs-fltk",
@@ -2463,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "action",
           "package": "hs-fltk",
@@ -2476,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange Align the action is fired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "align",
           "package": "hs-fltk",
@@ -2486,6 +2697,7 @@
         "index": {
           "description": "Change Align the action is fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "align",
           "package": "hs-fltk",
@@ -2498,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "black",
           "package": "hs-fltk",
@@ -2507,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "black",
           "package": "hs-fltk",
@@ -2519,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "blue",
           "package": "hs-fltk",
@@ -2528,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "blue",
           "package": "hs-fltk",
@@ -2541,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas the widget changed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "changed",
           "package": "hs-fltk",
@@ -2551,6 +2768,7 @@
         "index": {
           "description": "Has the widget changed",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "changed",
           "package": "hs-fltk",
@@ -2564,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange Color the action is fired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "color",
           "package": "hs-fltk",
@@ -2574,6 +2793,7 @@
         "index": {
           "description": "Change Color the action is fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "color",
           "package": "hs-fltk",
@@ -2587,6 +2807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoordinates (x,y,width,heigth) of a widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "coords",
           "package": "hs-fltk",
@@ -2597,6 +2818,7 @@
         "index": {
           "description": "Coordinates width heigth of widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "coords",
           "normalized": "Attr a(Int,Int,Int,Int)",
@@ -2611,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "cyan",
           "package": "hs-fltk",
@@ -2620,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "cyan",
           "package": "hs-fltk",
@@ -2633,6 +2857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy a widget\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "destroy",
           "package": "hs-fltk",
@@ -2643,6 +2868,7 @@
         "index": {
           "description": "Destroy widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "destroy",
           "normalized": "a-\u003eIO()",
@@ -2658,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an Attr of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "get",
           "package": "hs-fltk",
@@ -2668,6 +2895,7 @@
         "index": {
           "description": "Get an Attr of an object",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "get",
           "normalized": "a-\u003eAttr a b-\u003eIO b",
@@ -2682,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "green",
           "package": "hs-fltk",
@@ -2691,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "green",
           "package": "hs-fltk",
@@ -2704,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe label of the widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "label",
           "package": "hs-fltk",
@@ -2714,6 +2945,7 @@
         "index": {
           "description": "The label of the widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "label",
           "package": "hs-fltk",
@@ -2727,6 +2959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange Color the action is fired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "labelColor",
           "package": "hs-fltk",
@@ -2737,6 +2970,7 @@
         "index": {
           "description": "Change Color the action is fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "labelColor",
           "package": "hs-fltk",
@@ -2751,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of label in pt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "labelSize",
           "package": "hs-fltk",
@@ -2761,6 +2996,7 @@
         "index": {
           "description": "Size of label in pt",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "labelSize",
           "package": "hs-fltk",
@@ -2774,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "magenta",
           "package": "hs-fltk",
@@ -2783,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "magenta",
           "package": "hs-fltk",
@@ -2795,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "red",
           "package": "hs-fltk",
@@ -2804,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "red",
           "package": "hs-fltk",
@@ -2817,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedraw a widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "redraw",
           "package": "hs-fltk",
@@ -2827,6 +3068,7 @@
         "index": {
           "description": "Redraw widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "redraw",
           "normalized": "a-\u003eIO()",
@@ -2842,6 +3084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedraw a widget label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "redrawLabel",
           "package": "hs-fltk",
@@ -2852,6 +3095,7 @@
         "index": {
           "description": "Redraw widget label",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "redrawLabel",
           "normalized": "a-\u003eIO()",
@@ -2867,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "rgb",
           "package": "hs-fltk",
@@ -2876,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "rgb",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eColor",
@@ -2891,6 +3137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange Color the action is fired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "selectionColor",
           "package": "hs-fltk",
@@ -2901,6 +3148,7 @@
         "index": {
           "description": "Change Color the action is fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "selectionColor",
           "package": "hs-fltk",
@@ -2915,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a number of properties for some object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "set",
           "package": "hs-fltk",
@@ -2925,6 +3174,7 @@
         "index": {
           "description": "Set number of properties for some object",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "set",
           "normalized": "a-\u003e[Prop a]-\u003eIO()",
@@ -2940,6 +3190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tooltip of the widget.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "tooltip",
           "package": "hs-fltk",
@@ -2950,6 +3201,7 @@
         "index": {
           "description": "The tooltip of the widget",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "tooltip",
           "package": "hs-fltk",
@@ -2962,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "value",
           "package": "hs-fltk",
@@ -2971,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "value",
           "package": "hs-fltk",
@@ -2983,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wChanged",
           "package": "hs-fltk",
@@ -2992,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wChanged",
           "package": "hs-fltk",
@@ -3005,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnter",
           "package": "hs-fltk",
@@ -3014,6 +3271,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnter",
           "package": "hs-fltk",
@@ -3027,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnterAllways",
           "package": "hs-fltk",
@@ -3036,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnterAllways",
           "package": "hs-fltk",
@@ -3049,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnterChanged",
           "package": "hs-fltk",
@@ -3058,6 +3319,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wEnterChanged",
           "package": "hs-fltk",
@@ -3071,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wNever",
           "package": "hs-fltk",
@@ -3080,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wNever",
           "package": "hs-fltk",
@@ -3093,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wNotChanged",
           "package": "hs-fltk",
@@ -3102,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wNotChanged",
           "package": "hs-fltk",
@@ -3115,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wRelease",
           "package": "hs-fltk",
@@ -3124,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wRelease",
           "package": "hs-fltk",
@@ -3137,6 +3405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wReleaseAllways",
           "package": "hs-fltk",
@@ -3146,6 +3415,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wReleaseAllways",
           "package": "hs-fltk",
@@ -3159,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wait",
           "package": "hs-fltk",
@@ -3168,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "wait",
           "normalized": "IO()",
@@ -3183,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange when the action is fired.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "when",
           "package": "hs-fltk",
@@ -3193,6 +3466,7 @@
         "index": {
           "description": "Change when the action is fired",
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "when",
           "package": "hs-fltk",
@@ -3205,6 +3479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "white",
           "package": "hs-fltk",
@@ -3214,6 +3489,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "white",
           "package": "hs-fltk",
@@ -3226,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "yellow",
           "package": "hs-fltk",
@@ -3235,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Widget",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Widget",
           "name": "yellow",
           "package": "hs-fltk",
@@ -3247,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "WidgetMisc",
           "package": "hs-fltk",
@@ -3255,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "WidgetMisc",
           "package": "hs-fltk",
@@ -3269,6 +3549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack multiple widgets with layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "Pack",
           "package": "hs-fltk",
@@ -3278,6 +3559,7 @@
         "index": {
           "description": "Pack multiple widgets with layout",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "Pack",
           "package": "hs-fltk",
@@ -3292,6 +3574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for progress bars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "Progress",
           "package": "hs-fltk",
@@ -3301,6 +3584,7 @@
         "index": {
           "description": "Type for progress bars",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "Progress",
           "package": "hs-fltk",
@@ -3315,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum value for the progress bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "maxValue",
           "package": "hs-fltk",
@@ -3325,6 +3610,7 @@
         "index": {
           "description": "Maximum value for the progress bar",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "maxValue",
           "package": "hs-fltk",
@@ -3339,6 +3625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinumum value for the progress bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "minValue",
           "package": "hs-fltk",
@@ -3349,6 +3636,7 @@
         "index": {
           "description": "Minumum value for the progress bar",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "minValue",
           "package": "hs-fltk",
@@ -3363,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enew Pack for managing multiple widgets with layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "newPack",
           "package": "hs-fltk",
@@ -3373,6 +3662,7 @@
         "index": {
           "description": "new Pack for managing multiple widgets with layout",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "newPack",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Pack]-\u003eIO Pack",
@@ -3389,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew progress bar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "newProgress",
           "package": "hs-fltk",
@@ -3399,6 +3690,7 @@
         "index": {
           "description": "New progress bar",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "newProgress",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Progress]-\u003eIO Progress",
@@ -3415,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpacing between widgets in a Pack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "spacing",
           "package": "hs-fltk",
@@ -3425,6 +3718,7 @@
         "index": {
           "description": "Spacing between widgets in Pack",
           "hierarchy": "Graphics UI FLTK WidgetMisc",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.WidgetMisc",
           "name": "spacing",
           "package": "hs-fltk",
@@ -3437,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Window",
           "name": "Window",
           "package": "hs-fltk",
@@ -3445,6 +3740,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Window",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Window",
           "name": "Window",
           "package": "hs-fltk",
@@ -3459,6 +3755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for top level windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Window",
           "name": "Window",
           "package": "hs-fltk",
@@ -3468,6 +3765,7 @@
         "index": {
           "description": "Type for top level windows",
           "hierarchy": "Graphics UI FLTK Window",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Window",
           "name": "Window",
           "package": "hs-fltk",
@@ -3482,6 +3780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new top level window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Window",
           "name": "newWindow",
           "package": "hs-fltk",
@@ -3492,6 +3791,7 @@
         "index": {
           "description": "Create new top level window",
           "hierarchy": "Graphics UI FLTK Window",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Window",
           "name": "newWindow",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003e[Prop Window]-\u003eIO Window",
@@ -3507,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Window",
           "name": "run",
           "package": "hs-fltk",
@@ -3516,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK Window",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Window",
           "name": "run",
           "normalized": "a-\u003eIO()",
@@ -3531,6 +3833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle a whether a window is shown or hidden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK.Window",
           "name": "shown",
           "package": "hs-fltk",
@@ -3541,6 +3844,7 @@
         "index": {
           "description": "Toggle whether window is shown or hidden",
           "hierarchy": "Graphics UI FLTK Window",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK.Window",
           "name": "shown",
           "package": "hs-fltk",
@@ -3553,6 +3857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:53 UTC 2014",
           "module": "Graphics.UI.FLTK",
           "name": "FLTK",
           "package": "hs-fltk",
@@ -3561,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Graphics UI FLTK",
+          "indexed": "2014-03-11T18:45:53",
           "module": "Graphics.UI.FLTK",
           "name": "FLTK",
           "package": "hs-fltk",

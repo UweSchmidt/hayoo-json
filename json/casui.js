@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "casui"
+        "phrase": "casui",
+        "type": "phrase"
       },
       "type": "context"
     }

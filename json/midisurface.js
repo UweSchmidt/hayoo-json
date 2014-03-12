@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "midisurface"
+        "phrase": "midisurface",
+        "type": "phrase"
       },
       "type": "context"
     }

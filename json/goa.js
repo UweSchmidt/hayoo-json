@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "goa"
+        "phrase": "goa",
+        "type": "phrase"
       },
       "type": "context"
     }

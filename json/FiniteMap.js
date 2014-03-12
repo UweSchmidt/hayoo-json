@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FiniteMap"
+        "phrase": "FiniteMap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "FiniteMap",
           "package": "FiniteMap",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "FiniteMap",
           "package": "FiniteMap",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "FiniteMap",
           "package": "FiniteMap",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "FiniteMap",
           "package": "FiniteMap",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "addListToFM",
           "package": "FiniteMap",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "addListToFM",
           "normalized": "FiniteMap a b-\u003e[(a,b)]-\u003eFiniteMap a b",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "addListToFM_C",
           "package": "FiniteMap",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "addListToFM_C",
           "normalized": "(a-\u003ea-\u003ea)-\u003eFiniteMap b a-\u003e[(b,a)]-\u003eFiniteMap b a",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "addToFM",
           "package": "FiniteMap",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "addToFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eb-\u003eFiniteMap a b",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "addToFM_C",
           "package": "FiniteMap",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "addToFM_C",
           "normalized": "(a-\u003ea-\u003ea)-\u003eFiniteMap b a-\u003eb-\u003ea-\u003eFiniteMap b a",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "delFromFM",
           "package": "FiniteMap",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "delFromFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eFiniteMap a b",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "delListFromFM",
           "package": "FiniteMap",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "delListFromFM",
           "normalized": "FiniteMap a b-\u003e[a]-\u003eFiniteMap a b",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "elemFM",
           "package": "FiniteMap",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "elemFM",
           "normalized": "a-\u003eFiniteMap a b-\u003eBool",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "eltsFM",
           "package": "FiniteMap",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "eltsFM",
           "normalized": "FiniteMap a b-\u003e[b]",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "emptyFM",
           "package": "FiniteMap",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "emptyFM",
           "package": "FiniteMap",
@@ -274,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "filterFM",
           "package": "FiniteMap",
@@ -283,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "filterFM",
           "normalized": "(a-\u003eb-\u003eBool)-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -298,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "fmToList",
           "package": "FiniteMap",
@@ -307,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "fmToList",
           "normalized": "FiniteMap a b-\u003e[(a,b)]",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "foldFM",
           "package": "FiniteMap",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "foldFM",
           "normalized": "(a-\u003eb-\u003ec-\u003ec)-\u003ec-\u003eFiniteMap a b-\u003ec",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "intersectFM",
           "package": "FiniteMap",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "intersectFM",
           "normalized": "FiniteMap a b-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -370,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "intersectFM_C",
           "package": "FiniteMap",
@@ -379,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "intersectFM_C",
           "normalized": "(a-\u003ea-\u003ea)-\u003eFiniteMap b a-\u003eFiniteMap b a-\u003eFiniteMap b a",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "isEmptyFM",
           "package": "FiniteMap",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "isEmptyFM",
           "normalized": "FiniteMap a b-\u003eBool",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "keysFM",
           "package": "FiniteMap",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "keysFM",
           "normalized": "FiniteMap a b-\u003e[a]",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "listToFM",
           "package": "FiniteMap",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "listToFM",
           "normalized": "[(a,b)]-\u003eFiniteMap a b",
@@ -466,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "lookupFM",
           "package": "FiniteMap",
@@ -475,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "lookupFM",
           "normalized": "FiniteMap a b-\u003ea-\u003eMaybe b",
@@ -490,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "lookupWithDefaultFM",
           "package": "FiniteMap",
@@ -499,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "lookupWithDefaultFM",
           "normalized": "FiniteMap a b-\u003eb-\u003ea-\u003eb",
@@ -514,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "mapFM",
           "package": "FiniteMap",
@@ -523,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "mapFM",
           "normalized": "(a-\u003eb-\u003eb)-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "mapMaybeFM",
           "package": "FiniteMap",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "mapMaybeFM",
           "normalized": "(a-\u003eb-\u003eMaybe b)-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "minusFM",
           "package": "FiniteMap",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "minusFM",
           "normalized": "FiniteMap a b-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "plusFM",
           "package": "FiniteMap",
@@ -595,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "plusFM",
           "normalized": "FiniteMap a b-\u003eFiniteMap a b-\u003eFiniteMap a b",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "plusFM_C",
           "package": "FiniteMap",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "plusFM_C",
           "normalized": "(a-\u003ea-\u003ea)-\u003eFiniteMap b a-\u003eFiniteMap b a-\u003eFiniteMap b a",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "sizeFM",
           "package": "FiniteMap",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "sizeFM",
           "normalized": "FiniteMap a b-\u003eInt",
@@ -658,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:41:23 UTC 2014",
           "module": "Data.FiniteMap",
           "name": "unitFM",
           "package": "FiniteMap",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Data FiniteMap",
+          "indexed": "2014-03-11T16:41:23",
           "module": "Data.FiniteMap",
           "name": "unitFM",
           "normalized": "a-\u003eb-\u003eFiniteMap a b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "heukarya"
+        "phrase": "heukarya",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "memexml"
+        "phrase": "memexml",
+        "type": "phrase"
       },
       "type": "context"
     }

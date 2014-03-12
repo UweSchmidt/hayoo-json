@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HList"
+        "phrase": "HList",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003eThis module re-exports everything needed to use HList.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "CommonMain",
           "package": "HList",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The HList library This module re-exports everything needed to use HList",
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "CommonMain",
           "package": "HList",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "ErrReqdArgNotFound",
           "package": "HList",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "ErrReqdArgNotFound",
           "package": "HList",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "ErrUnexpectedKW",
           "package": "HList",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "ErrUnexpectedKW",
           "package": "HList",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll our keywords must be registered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "IsKeyFN",
           "package": "HList",
@@ -93,6 +100,7 @@
         "index": {
           "description": "All our keywords must be registered",
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "IsKeyFN",
           "package": "HList",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "K",
           "package": "HList",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "K",
           "package": "HList",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ekw\u003c/code\u003e takes a \u003ccode\u003e\u003ca\u003eHList\u003c/a\u003e\u003c/code\u003e whose first element is a function, and the rest\nof the elements are default values.\nA useful trick is to have a final argument \u003ccode\u003e()\u003c/code\u003e which is not\neaten up by a label (A only takes 1 argument). That way when you supply\nthe () it knows there are no more arguments (?).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edata A = A\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einstance IsKeyFN (A -\u003e a -\u003e b) True\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet f A a () = a + 1\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet f' = f .*. A .*. 1 .*. HNil\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ekw f' A 0 ()\n\u003c/code\u003e\u003c/strong\u003e1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ekw f' ()\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "Kw",
           "package": "HList",
@@ -136,6 +147,7 @@
         "index": {
           "description": "kw takes HList whose first element is function and the rest of the elements are default values useful trick is to have final argument which is not eaten up by label only takes argument That way when you supply the it knows there are no more arguments data instance IsKeyFN True let let HNil kw kw",
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "Kw",
           "package": "HList",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.CommonMain",
           "name": "kw",
           "package": "HList",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data HList CommonMain",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.CommonMain",
           "name": "kw",
           "normalized": "HList(a b)-\u003ec",
@@ -200,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e instances for \u003ccode\u003e\u003ca\u003eHListFlat\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e which pretend\nto be flat data structures. The \u003ccode\u003eData\u003c/code\u003e instance for \u003ccode\u003e\u003ca\u003eHList\u003c/a\u003e\u003c/code\u003e gives a nested\nstructure.\n\u003c/p\u003e\u003cp\u003eNOTE: these instances do not work with ghc-7.8 because of\n\u003ca\u003ehttp://ghc.haskell.org/trac/ghc/ticket/8486\u003c/a\u003e\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eHList\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe data instance for\n\u003c/p\u003e\u003cpre\u003e a :: HList '[Int, Double, b]\n\u003c/pre\u003e\u003cp\u003eLooks like the same instance for\n\u003c/p\u003e\u003cpre\u003e type T b = (Int, (Double, (b, ())))\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eHListFlat\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThe Data instance for\n\u003c/p\u003e\u003cpre\u003e a :: Data b =\u003e HListFlat '[Int,Double,b]\n\u003c/pre\u003e\u003cp\u003ewill look like the Data instance for:\n\u003c/p\u003e\u003cpre\u003e data A b = A Int Double b\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eRecord\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eRecord\u003c/a\u003e\u003c/code\u003e similar ideas apply. An\n\u003c/p\u003e\u003cpre\u003e a :: Record '[ LVPair \"x\" Int, LVPair \"y\" Double ]\n\u003c/pre\u003e\u003cp\u003eshould behave like a:\n\u003c/p\u003e\u003cpre\u003e data A = A { x :: Int, y :: Double } deriving (Data)\n\u003c/pre\u003e\u003cp\u003eMany unsafecoerces are necessary here because the Data class includes type\nparameters \u003ccode\u003ec\u003c/code\u003e that cannot be used in the class context for the instance.\nPerhaps there is another way.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "Data",
           "package": "HList",
@@ -209,6 +224,7 @@
         "index": {
           "description": "Data instances for HListFlat and Record which pretend to be flat data structures The Data instance for HList gives nested structure NOTE these instances do not work with ghc-7.8 because of http ghc.haskell.org trac ghc ticket HList The data instance for HList Int Double Looks like the same instance for type Int Double HListFlat The Data instance for Data HListFlat Int Double will look like the Data instance for data Int Double Record For Record similar ideas apply An Record LVPair Int LVPair Double should behave like data Int Double deriving Data Many unsafecoerces are necessary here because the Data class includes type parameters that cannot be used in the class context for the instance Perhaps there is another way",
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "Data",
           "package": "HList",
@@ -222,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "DataHListFlatCxt",
           "package": "HList",
@@ -230,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "DataHListFlatCxt",
           "package": "HList",
@@ -243,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "DataRecordCxt",
           "package": "HList",
@@ -251,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "DataRecordCxt",
           "package": "HList",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewraps up the first argument to \u003ccode\u003e\u003ca\u003egfoldl\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "GfoldlK",
           "package": "HList",
@@ -274,6 +295,7 @@
         "index": {
           "description": "wraps up the first argument to gfoldl",
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "GfoldlK",
           "package": "HList",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "GunfoldK",
           "package": "HList",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "GunfoldK",
           "package": "HList",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis data type only exists to have Data instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "HListFlat",
           "package": "HList",
@@ -318,6 +343,7 @@
         "index": {
           "description": "this data type only exists to have Data instance",
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "HListFlat",
           "package": "HList",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "RecordLabelsStr",
           "package": "HList",
@@ -339,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "RecordLabelsStr",
           "package": "HList",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "TypeRepsList",
           "package": "HList",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "TypeRepsList",
           "package": "HList",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "GfoldlK",
           "package": "HList",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "GfoldlK",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003eGfoldlK a",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "GunfoldK",
           "package": "HList",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "GunfoldK",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003eGunfoldK a",
@@ -421,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "HListFlat",
           "package": "HList",
@@ -430,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "HListFlat",
           "package": "HList",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Data",
           "name": "recordLabelsStr",
           "package": "HList",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data HList Data",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Data",
           "name": "recordLabelsStr",
           "normalized": "Record a-\u003e[String]",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eSome very basic technology for faking dependent types in Haskell.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "FakePrelude",
           "package": "HList",
@@ -477,6 +516,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Some very basic technology for faking dependent types in Haskell",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "FakePrelude",
           "package": "HList",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimpler/weaker version where type information only propagates forward\n with this one. \u003ccode\u003eapp\u003c/code\u003e defined below, is more complicated / verbose to define,\n but it offers better type inference. Most uses have been converted to\n \u003ccode\u003eapp\u003c/code\u003e, so there is not much that can be done with \u003ccode\u003e\u003ca\u003eApply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Apply",
           "package": "HList",
@@ -500,6 +541,7 @@
         "index": {
           "description": "simpler weaker version where type information only propagates forward with this one app defined below is more complicated verbose to define but it offers better type inference Most uses have been converted to app so there is not much that can be done with Apply",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Apply",
           "package": "HList",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo constraints on result and argument types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "ApplyAB",
           "package": "HList",
@@ -523,6 +566,7 @@
         "index": {
           "description": "No constraints on result and argument types",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "ApplyAB",
           "package": "HList",
@@ -537,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eapp Comp (f,g) = g . f\u003c/code\u003e. Works like:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eapplyAB Comp (succ, pred) 'a'\n\u003c/code\u003e\u003c/strong\u003e'a'\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eapplyAB Comp (toEnum :: Int -\u003e Char, fromEnum) 10\n\u003c/code\u003e\u003c/strong\u003e10\n\u003c/pre\u003e\u003cp\u003eNote that defaulting will sometimes give you the wrong thing\n\u003c/p\u003e\u003cpre\u003e used to work (with associated types calculating result/argument types)\n \u003e\u003e\u003e applyAB Comp (fromEnum, toEnum) 'a'\n *** Exception: Prelude.Enum.().toEnum: bad argument\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Comp",
           "package": "HList",
@@ -546,6 +591,7 @@
         "index": {
           "description": "app Comp Works like applyAB Comp succ pred applyAB Comp toEnum Int Char fromEnum Note that defaulting will sometimes give you the wrong thing used to work with associated types calculating result argument types applyAB Comp fromEnum toEnum Exception Prelude.Enum toEnum bad argument",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Comp",
           "package": "HList",
@@ -560,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class without instances for explicit failure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Fail",
           "package": "HList",
@@ -569,6 +616,7 @@
         "index": {
           "description": "class without instances for explicit failure",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Fail",
           "package": "HList",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Fun",
           "package": "HList",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Fun",
           "package": "HList",
@@ -604,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esee \u003ccode\u003e\u003ca\u003eFun\u003c/a\u003e\u003c/code\u003e. The only difference here is that the argument\ntype is calculated from the result type.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet rd = Fun' read :: Fun' Read String\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t applyAB rd\n\u003c/code\u003e\u003c/strong\u003eapplyAB rd :: Read b =\u003e [Char] -\u003e b\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet fromJust' = Fun' (\\(Just a) -\u003e a) :: Fun' '[] Maybe\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t applyAB fromJust'\n\u003c/code\u003e\u003c/strong\u003eapplyAB fromJust' :: Maybe b -\u003e b\n\u003c/pre\u003e\u003cp\u003eNote this use of Fun' means we don't have to get the b out of \u003ccode\u003eMaybe b\u003c/code\u003e,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Fun'",
           "package": "HList",
@@ -613,6 +664,7 @@
         "index": {
           "description": "see Fun The only difference here is that the argument type is calculated from the result type let rd Fun read Fun Read String applyAB rd applyAB rd Read Char let fromJust Fun Just Fun Maybe applyAB fromJust applyAB fromJust Maybe Note this use of Fun means we don have to get the out of Maybe",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Fun'",
           "package": "HList",
@@ -626,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "FunApp",
           "package": "HList",
@@ -634,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "FunApp",
           "package": "HList",
@@ -647,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "FunCxt",
           "package": "HList",
@@ -655,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "FunCxt",
           "package": "HList",
@@ -668,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HAnd",
           "package": "HList",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HAnd",
           "package": "HList",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HBoolEQ",
           "package": "HList",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HBoolEQ",
           "package": "HList",
@@ -711,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two instances of \u003ccode\u003e\u003ca\u003eApplyAB\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eapplyAB (HComp HRead HShow) (5::Double) :: Double\n\u003c/code\u003e\u003c/strong\u003e5.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HComp",
           "package": "HList",
@@ -720,6 +781,7 @@
         "index": {
           "description": "Compose two instances of ApplyAB applyAB HComp HRead HShow Double Double",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HComp",
           "package": "HList",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HCond",
           "package": "HList",
@@ -741,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HCond",
           "package": "HList",
@@ -755,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe have to use Functional dependencies for now,\n for the sake of the generic equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HEq",
           "package": "HList",
@@ -764,6 +829,7 @@
         "index": {
           "description": "We have to use Functional dependencies for now for the sake of the generic equality",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HEq",
           "package": "HList",
@@ -778,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HFlip",
           "package": "HList",
@@ -787,6 +854,7 @@
         "index": {
           "description": "flip",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HFlip",
           "package": "HList",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HJust",
           "package": "HList",
@@ -808,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HJust",
           "package": "HList",
@@ -822,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HLt",
           "package": "HList",
@@ -831,6 +902,7 @@
         "index": {
           "description": "Less than",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HLt",
           "package": "HList",
@@ -845,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type to be lifted to the type level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HNat",
           "package": "HList",
@@ -854,6 +927,7 @@
         "index": {
           "description": "The data type to be lifted to the type level",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HNat",
           "package": "HList",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HNat2Integral",
           "package": "HList",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HNat2Integral",
           "package": "HList",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality on natural numbers\n (eventually to be subsumed by the universal polykinded HEq)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HNatEq",
           "package": "HList",
@@ -898,6 +975,7 @@
         "index": {
           "description": "Equality on natural numbers eventually to be subsumed by the universal polykinded HEq",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HNatEq",
           "package": "HList",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HNothing",
           "package": "HList",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HNothing",
           "package": "HList",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HOr",
           "package": "HList",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HOr",
           "package": "HList",
@@ -954,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprint. An alternative implementation could be:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet hPrint = Fun print :: Fun Show (IO ())\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eThis produces:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t applyAB hPrint\n\u003c/code\u003e\u003c/strong\u003eapplyAB hPrint :: Show a =\u003e a -\u003e IO ()\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HPrint",
           "package": "HList",
@@ -963,6 +1046,7 @@
         "index": {
           "description": "print An alternative implementation could be let hPrint Fun print Fun Show IO This produces applyAB hPrint applyAB hPrint Show IO",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HPrint",
           "package": "HList",
@@ -977,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eapplyAB HRead \"5.0\" :: Double\n\u003c/code\u003e\u003c/strong\u003e5.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HRead",
           "package": "HList",
@@ -986,6 +1071,7 @@
         "index": {
           "description": "read applyAB HRead Double",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HRead",
           "package": "HList",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e((a,b) -\u003e f a \u003e\u003e b)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HSeq",
           "package": "HList",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HSeq",
           "package": "HList",
@@ -1022,6 +1110,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HShow",
           "package": "HList",
@@ -1031,6 +1120,7 @@
         "index": {
           "description": "show",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HShow",
           "package": "HList",
@@ -1045,6 +1135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA special \u003ccode\u003e\u003ca\u003eProxy\u003c/a\u003e\u003c/code\u003e for record labels, polykinded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Label",
           "package": "HList",
@@ -1054,6 +1145,7 @@
         "index": {
           "description": "special Proxy for record labels polykinded",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Label",
           "package": "HList",
@@ -1067,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "ShowLabel",
           "package": "HList",
@@ -1075,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "ShowLabel",
           "package": "HList",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Comp",
           "package": "HList",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Comp",
           "package": "HList",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Fun",
           "package": "HList",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Fun",
           "normalized": "a-\u003eFunApp b a)",
@@ -1134,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Fun'",
           "package": "HList",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Fun'",
           "normalized": "FunApp a b-\u003eb)",
@@ -1159,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eg . f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HComp",
           "package": "HList",
@@ -1168,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HComp",
           "package": "HList",
@@ -1181,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HFlip",
           "package": "HList",
@@ -1190,6 +1293,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HFlip",
           "package": "HList",
@@ -1203,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HJust",
           "package": "HList",
@@ -1212,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HJust",
           "package": "HList",
@@ -1225,6 +1331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HNothing",
           "package": "HList",
@@ -1234,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HNothing",
           "package": "HList",
@@ -1247,6 +1355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HPrint",
           "package": "HList",
@@ -1256,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HPrint",
           "package": "HList",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HRead",
           "package": "HList",
@@ -1278,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HRead",
           "package": "HList",
@@ -1291,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HSeq",
           "package": "HList",
@@ -1300,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HSeq",
           "package": "HList",
@@ -1313,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HShow",
           "package": "HList",
@@ -1322,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HShow",
           "package": "HList",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HSucc",
           "package": "HList",
@@ -1344,6 +1461,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HSucc",
           "package": "HList",
@@ -1357,6 +1475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "HZero",
           "package": "HList",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "HZero",
           "package": "HList",
@@ -1379,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "Label",
           "package": "HList",
@@ -1388,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "Label",
           "package": "HList",
@@ -1401,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "apply",
           "package": "HList",
@@ -1410,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "apply",
           "normalized": "a-\u003eb-\u003eApplyR a b",
@@ -1424,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "applyAB",
           "package": "HList",
@@ -1433,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "applyAB",
           "normalized": "a-\u003eb-\u003ec",
@@ -1449,6 +1575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edemote\u003c/code\u003e to values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hAnd",
           "package": "HList",
@@ -1459,6 +1586,7 @@
         "index": {
           "description": "demote to values",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hAnd",
           "normalized": "Proxy a-\u003eProxy a-\u003eProxy(HAnd a a)",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hCond",
           "package": "HList",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hCond",
           "normalized": "Proxy a-\u003eb-\u003ec-\u003ed",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hEq",
           "package": "HList",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hEq",
           "normalized": "a-\u003eb-\u003eProxy c",
@@ -1522,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hFalse",
           "package": "HList",
@@ -1531,6 +1664,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hFalse",
           "package": "HList",
@@ -1544,6 +1678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hLt",
           "package": "HList",
@@ -1553,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hLt",
           "normalized": "Proxy a-\u003eProxy b-\u003eProxy(HLt a b)",
@@ -1568,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hNat2Integral",
           "package": "HList",
@@ -1577,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hNat2Integral",
           "normalized": "Proxy a-\u003eb",
@@ -1593,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003edemote\u003c/code\u003e to values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hOr",
           "package": "HList",
@@ -1603,6 +1742,7 @@
         "index": {
           "description": "demote to values",
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hOr",
           "normalized": "Proxy a-\u003eProxy a-\u003eProxy(HOr a a)",
@@ -1618,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hPred",
           "package": "HList",
@@ -1627,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hPred",
           "normalized": "Proxy(HSucc a)-\u003eProxy a",
@@ -1642,6 +1784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hSucc",
           "package": "HList",
@@ -1651,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hSucc",
           "normalized": "HNat)-\u003eProxy(HSucc a)",
@@ -1666,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hTrue",
           "package": "HList",
@@ -1675,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hTrue",
           "package": "HList",
@@ -1688,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "hZero",
           "package": "HList",
@@ -1697,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "hZero",
           "package": "HList",
@@ -1710,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "labelToProxy",
           "package": "HList",
@@ -1719,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "labelToProxy",
           "normalized": "Label a-\u003eProxy a",
@@ -1734,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.FakePrelude",
           "name": "showLabel",
           "package": "HList",
@@ -1743,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Data HList FakePrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.FakePrelude",
           "name": "showLabel",
           "normalized": "Label a-\u003eString",
@@ -1759,6 +1911,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eArray-like access to HLists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HArray",
           "package": "HList",
@@ -1768,6 +1921,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Array-like access to HLists",
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HArray",
           "package": "HList",
@@ -1781,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "FHLookupByHNat",
           "package": "HList",
@@ -1789,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "FHLookupByHNat",
           "package": "HList",
@@ -1802,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "FHUProj",
           "package": "HList",
@@ -1810,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "FHUProj",
           "package": "HList",
@@ -1823,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HDeleteAtHNat",
           "package": "HList",
@@ -1831,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HDeleteAtHNat",
           "package": "HList",
@@ -1844,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HLookupByHNat",
           "package": "HList",
@@ -1852,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HLookupByHNat",
           "package": "HList",
@@ -1865,6 +2027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HProjectAwayByHNatsCtx",
           "package": "HList",
@@ -1873,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HProjectAwayByHNatsCtx",
           "package": "HList",
@@ -1886,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HProjectAwayByHNatsR",
           "package": "HList",
@@ -1894,6 +2059,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HProjectAwayByHNatsR",
           "package": "HList",
@@ -1907,6 +2073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HProjectByHNatsCtx",
           "package": "HList",
@@ -1915,6 +2082,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HProjectByHNatsCtx",
           "package": "HList",
@@ -1928,6 +2096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HProjectByHNatsR",
           "package": "HList",
@@ -1936,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HProjectByHNatsR",
           "package": "HList",
@@ -1949,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "HUpdateAtHNat",
           "package": "HList",
@@ -1957,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "HUpdateAtHNat",
           "package": "HList",
@@ -1970,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "KMember",
           "package": "HList",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "KMember",
           "package": "HList",
@@ -1991,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "FHLookupByHNat",
           "package": "HList",
@@ -2000,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "FHLookupByHNat",
           "package": "HList",
@@ -2013,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "FHUProj",
           "package": "HList",
@@ -2022,6 +2199,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "FHUProj",
           "package": "HList",
@@ -2035,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hDeleteAtHNat",
           "package": "HList",
@@ -2044,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hDeleteAtHNat",
           "normalized": "Proxy a-\u003eHList b-\u003eHList(HDeleteAtHNatR a b)",
@@ -2059,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hLookupByHNat",
           "package": "HList",
@@ -2068,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hLookupByHNat",
           "normalized": "Proxy a-\u003eHList b-\u003eHLookupByHNatR a b",
@@ -2083,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hProjectAwayByHNats",
           "package": "HList",
@@ -2092,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hProjectAwayByHNats",
           "normalized": "Proxy[HNat]a-\u003eb-\u003eHList(HUnfold(FHUProj False a)(b,Proxy HNat HZero))",
@@ -2107,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hProjectByHNats",
           "package": "HList",
@@ -2116,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hProjectByHNats",
           "normalized": "Proxy[HNat]a-\u003eb-\u003eHList(HUnfold(FHUProj True a)(b,Proxy HNat HZero))",
@@ -2131,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hProjectByHNats'",
           "package": "HList",
@@ -2140,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hProjectByHNats'",
           "normalized": "HList a-\u003eHList b-\u003eHList c",
@@ -2156,6 +2344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplitting an array according to indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hSplitByHNats",
           "package": "HList",
@@ -2166,6 +2355,7 @@
         "index": {
           "description": "Splitting an array according to indices",
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hSplitByHNats",
           "normalized": "Proxy[HNat]a-\u003eb-\u003e(HList(HUnfold(FHUProj True a)(b,Proxy HNat HZero)),HList(HUnfold(FHUProj False a)(b,Proxy HNat HZero)))",
@@ -2181,6 +2371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HArray",
           "name": "hUpdateAtHNat",
           "package": "HList",
@@ -2190,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Data HList HArray",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HArray",
           "name": "hUpdateAtHNat",
           "normalized": "Proxy a-\u003eb-\u003eHList c-\u003eHList(HUpdateAtHNatR a b c)",
@@ -2206,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eBasic declarations for typeful heterogeneous lists.\n\u003c/p\u003e\u003cp\u003eExcuse the unstructured haddocks: while there are many declarations here\n   some are alternative implementations should be grouped, and the definitions\n   here are analgous to many list functions in the \u003ca\u003ePrelude\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HList",
           "package": "HList",
@@ -2215,6 +2408,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Basic declarations for typeful heterogeneous lists Excuse the unstructured haddocks while there are many declarations here some are alternative implementations should be grouped and the definitions here are analgous to many list functions in the Prelude",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HList",
           "package": "HList",
@@ -2229,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econversion between GADT (\u003ccode\u003e\u003ca\u003eHList\u003c/a\u003e\u003c/code\u003e) and ADT (\u003ccode\u003e\u003ca\u003eHNil'\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eHCons'\u003c/a\u003e\u003c/code\u003e)\n representations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "ConvHList",
           "package": "HList",
@@ -2238,6 +2433,7 @@
         "index": {
           "description": "conversion between GADT HList and ADT HNil HCons representations",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "ConvHList",
           "package": "HList",
@@ -2251,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "FHCons",
           "package": "HList",
@@ -2259,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "FHCons",
           "package": "HList",
@@ -2272,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "FromHJust",
           "package": "HList",
@@ -2280,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "FromHJust",
           "package": "HList",
@@ -2293,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HAddTag",
           "package": "HList",
@@ -2301,6 +2502,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HAddTag",
           "package": "HList",
@@ -2314,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HAppendList",
           "package": "HList",
@@ -2322,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HAppendList",
           "package": "HList",
@@ -2335,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HBuild'",
           "package": "HList",
@@ -2343,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HBuild'",
           "package": "HList",
@@ -2357,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e but for HLists of HLists.\n\u003c/p\u003e\u003cp\u003eWorks in ghci... puzzling as what is different in doctest (it isn't\n\u003ccode\u003e-XExtendedDefaultRules\u003c/code\u003e)\n\u003c/p\u003e\u003cpre\u003e hConcat $ hBuild (hBuild 1 2 3) (hBuild 'a' \"abc\")\n\u003c/pre\u003e\u003cp\u003eH[1, 2, 3, \u003ccode\u003ea\u003c/code\u003e, \u003ca\u003eabc\u003c/a\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HConcat",
           "package": "HList",
@@ -2366,6 +2573,7 @@
         "index": {
           "description": "Like concat but for HLists of HLists Works in ghci puzzling as what is different in doctest it isn XExtendedDefaultRules hConcat hBuild hBuild hBuild abc abc",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HConcat",
           "package": "HList",
@@ -2379,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HCons'",
           "package": "HList",
@@ -2387,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HCons'",
           "package": "HList",
@@ -2401,6 +2611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is a pure type-level operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFind",
           "package": "HList",
@@ -2410,6 +2621,7 @@
         "index": {
           "description": "It is pure type-level operation",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFind",
           "package": "HList",
@@ -2423,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFind'",
           "package": "HList",
@@ -2431,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFind'",
           "package": "HList",
@@ -2445,6 +2659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehFoldl (uncurry $ flip (:)) [] (1 `HCons` 2 `HCons` HNil)\n\u003c/code\u003e\u003c/strong\u003e[2,1]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFoldl",
           "package": "HList",
@@ -2454,6 +2669,7 @@
         "index": {
           "description": "like foldl hFoldl uncurry flip HCons HCons HNil",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFoldl",
           "package": "HList",
@@ -2467,6 +2683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFoldr",
           "package": "HList",
@@ -2475,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFoldr",
           "package": "HList",
@@ -2488,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFoldr1",
           "package": "HList",
@@ -2496,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFoldr1",
           "package": "HList",
@@ -2509,6 +2729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFromJust",
           "package": "HList",
@@ -2517,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFromJust",
           "package": "HList",
@@ -2531,6 +2753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLength\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HLength",
           "package": "HList",
@@ -2540,6 +2763,7 @@
         "index": {
           "description": "Length",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HLength",
           "package": "HList",
@@ -2553,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HList",
           "package": "HList",
@@ -2561,6 +2786,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HList",
           "package": "HList",
@@ -2575,6 +2801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003ehMapOut Id\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HList2List",
           "package": "HList",
@@ -2584,6 +2811,7 @@
         "index": {
           "description": "Same as hMapOut Id",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HList2List",
           "package": "HList",
@@ -2597,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMap",
           "package": "HList",
@@ -2605,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMap",
           "package": "HList",
@@ -2618,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMapAux",
           "package": "HList",
@@ -2626,6 +2857,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMapAux",
           "package": "HList",
@@ -2639,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMapCxt",
           "package": "HList",
@@ -2647,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMapCxt",
           "package": "HList",
@@ -2660,6 +2894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMapOut",
           "package": "HList",
@@ -2668,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMapOut",
           "package": "HList",
@@ -2682,6 +2918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if an HList contains an element with a given type\n This is a type-level only test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMember",
           "package": "HList",
@@ -2691,6 +2928,7 @@
         "index": {
           "description": "Check to see if an HList contains an element with given type This is type-level only test",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMember",
           "package": "HList",
@@ -2704,6 +2942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMember'",
           "package": "HList",
@@ -2712,6 +2951,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMember'",
           "package": "HList",
@@ -2726,6 +2966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck to see if an element e occurs in a list l\n If not, return 'Nothing\n If the element does occur, return 'Just l1\n where l1 is a type-level list without e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMemberM",
           "package": "HList",
@@ -2735,6 +2976,7 @@
         "index": {
           "description": "Check to see if an element occurs in list If not return Nothing If the element does occur return Just l1 where l1 is type-level list without",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMemberM",
           "package": "HList",
@@ -2748,6 +2990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMemberM1",
           "package": "HList",
@@ -2756,6 +2999,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMemberM1",
           "package": "HList",
@@ -2769,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMemberM2",
           "package": "HList",
@@ -2777,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMemberM2",
           "package": "HList",
@@ -2790,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMemberP",
           "package": "HList",
@@ -2798,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMemberP",
           "package": "HList",
@@ -2811,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMemberP'",
           "package": "HList",
@@ -2819,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMemberP'",
           "package": "HList",
@@ -2833,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe do so constructively, converting the HList whose elements\n are Proxy HNat to [HNat]. The latter kind is unpopulated and\n is present only at the type level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HNats",
           "package": "HList",
@@ -2842,6 +3093,7 @@
         "index": {
           "description": "We do so constructively converting the HList whose elements are Proxy HNat to HNat The latter kind is unpopulated and is present only at the type level",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HNats",
           "package": "HList",
@@ -2855,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HNil'",
           "package": "HList",
@@ -2863,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HNil'",
           "package": "HList",
@@ -2876,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HReplicate",
           "package": "HList",
@@ -2884,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HReplicate",
           "package": "HList",
@@ -2898,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewould be associated with \u003ccode\u003e\u003ca\u003eHReplicate\u003c/a\u003e\u003c/code\u003e except we want\n it to work with \u003ccode\u003ee\u003c/code\u003e of any kind, not just \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e that you can\n put into a HList. An \"inverse\" of \u003ccode\u003e\u003ca\u003eHLength\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HReplicateR",
           "package": "HList",
@@ -2907,6 +3164,7 @@
         "index": {
           "description": "would be associated with HReplicate except we want it to work with of any kind not just that you can put into HList An inverse of HLength",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HReplicateR",
           "package": "HList",
@@ -2920,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HRevApp",
           "package": "HList",
@@ -2928,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HRevApp",
           "package": "HList",
@@ -2941,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HRmTag",
           "package": "HList",
@@ -2949,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HRmTag",
           "package": "HList",
@@ -2962,6 +3224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HScanr",
           "package": "HList",
@@ -2970,6 +3233,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HScanr",
           "package": "HList",
@@ -2984,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA heterogeneous version of\n\u003c/p\u003e\u003cpre\u003e sequenceA :: (Applicative m) =\u003e [m a] -\u003e m [a]\n\u003c/pre\u003e\u003cp\u003eOnly now we operate on heterogeneous lists, where different elements\n   may have different types \u003ccode\u003ea\u003c/code\u003e.\n   In the argument list of monadic values (m a_i),\n   although a_i may differ, the monad \u003ccode\u003em\u003c/code\u003e must be the same for all\n   elements. That's why we needed \u003ca\u003eData.HList.TypeCastGeneric2\u003c/a\u003e (currently (~)).\n   The typechecker will complain\n   if we attempt to use hSequence on a HList of monadic values with different\n   monads.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ehSequence\u003c/a\u003e\u003c/code\u003e problem was posed by Matthias Fischmann\n   in his message on the Haskell-Cafe list on Oct 8, 2006\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.haskell.org/pipermail/haskell-cafe/2006-October/018708.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.haskell.org/pipermail/haskell-cafe/2006-October/018784.html\u003c/a\u003e\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eMaybe\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehSequence $ Just (1 :: Integer) `HCons` (Just 'c') `HCons` HNil\n\u003c/code\u003e\u003c/strong\u003eJust H[1, 'c']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehSequence $  return 1 `HCons` Just  'c' `HCons` HNil\n\u003c/code\u003e\u003c/strong\u003eJust H[1, 'c']\n\u003c/pre\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eList\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehSequence $ [1] `HCons` ['c'] `HCons` HNil\n\u003c/code\u003e\u003c/strong\u003e[H[1, 'c']]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HSequence",
           "package": "HList",
@@ -2993,6 +3258,7 @@
         "index": {
           "description": "heterogeneous version of sequenceA Applicative Only now we operate on heterogeneous lists where different elements may have different types In the argument list of monadic values although may differ the monad must be the same for all elements That why we needed Data.HList.TypeCastGeneric2 currently The typechecker will complain if we attempt to use hSequence on HList of monadic values with different monads The hSequence problem was posed by Matthias Fischmann in his message on the Haskell-Cafe list on Oct http www.haskell.org pipermail haskell-cafe October html http www.haskell.org pipermail haskell-cafe October html Maybe hSequence Just Integer HCons Just HCons HNil Just hSequence return HCons Just HCons HNil Just List hSequence HCons HCons HNil",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HSequence",
           "package": "HList",
@@ -3007,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogus to Data.List.\u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003esnd\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehSplit $ (2,hTrue) .*. (3,hTrue) .*. (1,hFalse) .*. HNil\n\u003c/code\u003e\u003c/strong\u003e(H[2, 3],H[1])\n\u003c/pre\u003e\u003cp\u003eit might make more sense to instead have \u003ccode\u003eLVPair Bool e\u003c/code\u003e\n instead of \u003ccode\u003e(e, Proxy Bool)\u003c/code\u003e since the former has the same\n runtime representation as \u003ccode\u003ee\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HSplit",
           "package": "HList",
@@ -3016,6 +3283,7 @@
         "index": {
           "description": "Analogus to Data.List partition snd hSplit hTrue hTrue hFalse HNil it might make more sense to instead have LVPair Bool instead of Proxy Bool since the former has the same runtime representation as",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HSplit",
           "package": "HList",
@@ -3029,6 +3297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HTIntersect",
           "package": "HList",
@@ -3037,6 +3306,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HTIntersect",
           "package": "HList",
@@ -3050,6 +3320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HTIntersectBool",
           "package": "HList",
@@ -3058,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HTIntersectBool",
           "package": "HList",
@@ -3072,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecould be an associated type if HEq had one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HTMember",
           "package": "HList",
@@ -3081,6 +3354,7 @@
         "index": {
           "description": "could be an associated type if HEq had one",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HTMember",
           "package": "HList",
@@ -3094,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HUnfold",
           "package": "HList",
@@ -3102,6 +3377,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HUnfold",
           "package": "HList",
@@ -3115,6 +3391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HUnfold'",
           "package": "HList",
@@ -3123,6 +3400,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HUnfold'",
           "package": "HList",
@@ -3136,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "LiftA2",
           "package": "HList",
@@ -3144,6 +3423,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "LiftA2",
           "package": "HList",
@@ -3157,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "MapCar",
           "package": "HList",
@@ -3165,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "MapCar",
           "package": "HList",
@@ -3178,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "Mapcar",
           "package": "HList",
@@ -3186,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "Mapcar",
           "package": "HList",
@@ -3200,6 +3484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esymmetrical version of \u003ccode\u003e\u003ca\u003eSameLength'\u003c/a\u003e\u003c/code\u003e. Written as a class instead of\n\u003c/p\u003e\u003cpre\u003e type SameLength a b = (SameLength' a b, SameLength' b a)\n\u003c/pre\u003e\u003cp\u003esince ghc expands type synonyms, but not classes (and it seems to have the same\nresult)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "SameLength",
           "package": "HList",
@@ -3209,6 +3494,7 @@
         "index": {
           "description": "symmetrical version of SameLength Written as class instead of type SameLength SameLength SameLength since ghc expands type synonyms but not classes and it seems to have the same result",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "SameLength",
           "package": "HList",
@@ -3223,6 +3509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure two lists have the same length. We do case analysis on the\n first one (hence the type must be known to the type checker).\n In contrast, the second list may be a type variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "SameLength'",
           "package": "HList",
@@ -3232,6 +3519,7 @@
         "index": {
           "description": "Ensure two lists have the same length We do case analysis on the first one hence the type must be known to the type checker In contrast the second list may be type variable",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "SameLength'",
           "package": "HList",
@@ -3246,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same as \u003ccode\u003emap Just\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoHJust (2 .*. 'a' .*. HNil)\n\u003c/code\u003e\u003c/strong\u003eH[HJust 2, HJust 'a']\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003etoHJust2 (2 .*. 'a' .*. HNil)\n\u003c/code\u003e\u003c/strong\u003eH[HJust 2, HJust 'a']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "ToHJust",
           "package": "HList",
@@ -3255,6 +3544,7 @@
         "index": {
           "description": "the same as map Just toHJust HNil HJust HJust toHJust2 HNil HJust HJust",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "ToHJust",
           "package": "HList",
@@ -3268,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "UnHList",
           "package": "HList",
@@ -3276,6 +3567,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "UnHList",
           "package": "HList",
@@ -3289,6 +3581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "FHCons",
           "package": "HList",
@@ -3298,6 +3591,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "FHCons",
           "package": "HList",
@@ -3311,6 +3605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HAddTag",
           "package": "HList",
@@ -3320,6 +3615,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HAddTag",
           "package": "HList",
@@ -3333,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HCons",
           "package": "HList",
@@ -3342,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HCons",
           "normalized": "a-\u003eHList b-\u003eHList(a b)",
@@ -3357,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HCons'",
           "package": "HList",
@@ -3366,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HCons'",
           "package": "HList",
@@ -3379,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HFromJust",
           "package": "HList",
@@ -3388,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HFromJust",
           "package": "HList",
@@ -3401,6 +3703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HMap",
           "package": "HList",
@@ -3410,6 +3713,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HMap",
           "package": "HList",
@@ -3423,6 +3727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HNil",
           "package": "HList",
@@ -3432,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HNil",
           "normalized": "HList[]",
@@ -3447,6 +3753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HNil'",
           "package": "HList",
@@ -3456,6 +3763,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HNil'",
           "package": "HList",
@@ -3469,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "HRmTag",
           "package": "HList",
@@ -3478,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "HRmTag",
           "package": "HList",
@@ -3491,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "LiftA2",
           "package": "HList",
@@ -3500,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "LiftA2",
           "package": "HList",
@@ -3513,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "MapCar",
           "package": "HList",
@@ -3522,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "MapCar",
           "package": "HList",
@@ -3535,6 +3849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "Mapcar",
           "package": "HList",
@@ -3544,6 +3859,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "Mapcar",
           "package": "HList",
@@ -3558,6 +3874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehAppend'\u003c/a\u003e\u003c/code\u003e below is implemented using the same idea\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "append'",
           "package": "HList",
@@ -3568,6 +3885,7 @@
         "index": {
           "description": "hAppend below is implemented using the same idea",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "append'",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -3582,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "fromHJust",
           "package": "HList",
@@ -3591,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "fromHJust",
           "normalized": "HList a-\u003eHList(FromHJustR a)",
@@ -3607,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA longer type could be inferred.\n fromHJust2 :: (HMap' HFromJust a b) =\u003e HList a -\u003e HList b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "fromHJust2",
           "package": "HList",
@@ -3617,6 +3938,7 @@
         "index": {
           "description": "longer type could be inferred fromHJust2 HMap HFromJust HList HList",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "fromHJust2",
           "normalized": "HList a-\u003eHList b",
@@ -3632,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hAddTag",
           "package": "HList",
@@ -3641,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hAddTag",
           "normalized": "a-\u003eHList b-\u003eHList c",
@@ -3657,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative implementation of \u003ccode\u003e\u003ca\u003ehAppend\u003c/a\u003e\u003c/code\u003e. Demonstrates \u003ccode\u003e\u003ca\u003eHFoldr\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hAppend'",
           "package": "HList",
@@ -3667,6 +3992,7 @@
         "index": {
           "description": "Alternative implementation of hAppend Demonstrates HFoldr",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hAppend'",
           "normalized": "HList a-\u003eb-\u003ec",
@@ -3683,6 +4009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe same as \u003ccode\u003e\u003ca\u003ehAppend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hAppendList",
           "package": "HList",
@@ -3693,6 +4020,7 @@
         "index": {
           "description": "the same as hAppend",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hAppendList",
           "normalized": "HList a-\u003eHList a-\u003eHList(HAppendList a a)",
@@ -3709,6 +4037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilding lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hBuild",
           "package": "HList",
@@ -3719,6 +4048,7 @@
         "index": {
           "description": "Building lists",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hBuild",
           "package": "HList",
@@ -3732,6 +4062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hBuild'",
           "package": "HList",
@@ -3741,6 +4072,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hBuild'",
           "normalized": "HList a-\u003eb",
@@ -3757,6 +4089,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet xs = length .*. (+1) .*. (*2) .*. HNil\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehComposeList xs \"abc\"\n\u003c/code\u003e\u003c/strong\u003e8\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hComposeList",
           "package": "HList",
@@ -3767,6 +4100,7 @@
         "index": {
           "description": "let xs length HNil hComposeList xs abc",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hComposeList",
           "normalized": "HList a-\u003eb-\u003ec",
@@ -3782,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hConcat",
           "package": "HList",
@@ -3791,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hConcat",
           "normalized": "HList a-\u003eHList(HConcatR a)",
@@ -3807,6 +4143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ex :: HList a\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e means: \u003ccode\u003eforall a. x :: HList a\u003c/code\u003e\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ehEnd x\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e means: \u003ccode\u003eexists a. x :: HList a\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eList termination\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hEnd",
           "package": "HList",
@@ -3817,6 +4154,7 @@
         "index": {
           "description": "Note HList means forall HList hEnd means exists HList List termination",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hEnd",
           "normalized": "HList a-\u003eHList a",
@@ -3833,6 +4171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate list with a type-level Boolean\n hFlag :: HMap' (HAddTag (Proxy True)) l r =\u003e HList l -\u003e HList r\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hFlag",
           "package": "HList",
@@ -3843,6 +4182,7 @@
         "index": {
           "description": "Annotate list with type-level Boolean hFlag HMap HAddTag Proxy True HList HList",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hFlag",
           "normalized": "HList a-\u003eHList b",
@@ -3858,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hFoldl",
           "package": "HList",
@@ -3867,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hFoldl",
           "normalized": "a-\u003eb-\u003eHList c-\u003ed",
@@ -3882,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hFoldr",
           "package": "HList",
@@ -3891,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hFoldr",
           "normalized": "a-\u003eb-\u003eHList c-\u003ed",
@@ -3906,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hFoldr1",
           "package": "HList",
@@ -3915,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hFoldr1",
           "normalized": "a-\u003eHList b-\u003ec",
@@ -3931,6 +4277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hHead",
           "package": "HList",
@@ -3941,6 +4288,7 @@
         "index": {
           "description": "head",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hHead",
           "normalized": "HList(a b)-\u003ea",
@@ -3956,6 +4304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hLength",
           "package": "HList",
@@ -3965,6 +4314,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hLength",
           "normalized": "HList a-\u003eProxy(HLength a)",
@@ -3980,6 +4330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hList2List",
           "package": "HList",
@@ -3989,6 +4340,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hList2List",
           "normalized": "HList a-\u003e[b]",
@@ -4005,6 +4357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehMap is written such that the length of the result list\ncan be determined from the length of the argument list (and\nthe other way around). Similarly, the type of the elements\nof the list is propagated in both directions too.\n\u003c/p\u003e\u003cp\u003eExcuse the ugly types printed. Unfortunately ghc (still?)\nshows types like \u003ccode\u003e'[a,b]\u003c/code\u003e using the actual constructors involved\n\u003ccode\u003e(':) a ((':) b '[])\u003c/code\u003e (or even worse when the kind variables are printed).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:set -XNoMonomorphismRestriction\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet xs = 1 .*. 'c' .*. HNil\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t hMap (HJust ()) xs\n\u003c/code\u003e\u003c/strong\u003ehMap (HJust ()) xs\n  :: Num y =\u003e HList ((':) * (HJust y) ((':) * (HJust Char) ('[] *)))\n\u003c/pre\u003e\u003cp\u003eThese 4 examples show that the constraint on the length (2 in this cae)\ncan be applied before or after the \u003ccode\u003e\u003ca\u003ehMap\u003c/a\u003e\u003c/code\u003e. That inference is independent of the\ndirection that type information is propagated for the individual elements.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet asLen2 xs = xs `asTypeOf` (undefined :: HList '[a,b])\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet lr xs = asLen2 (applyAB (HMap HRead) xs)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet ls xs = asLen2 (applyAB (HMap HShow) xs)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet rl xs = applyAB (HMap HRead) (asLen2 xs)\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet sl xs = applyAB (HMap HShow) (asLen2 xs)\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t lr\n\u003c/code\u003e\u003c/strong\u003elr\n  :: (Read y, Read y1) =\u003e\n     HList ((':) * String ((':) * String ('[] *)))\n     -\u003e HList ((':) * y ((':) * y1 ('[] *)))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t rl\n\u003c/code\u003e\u003c/strong\u003erl\n  :: (Read y, Read y1) =\u003e\n     HList ((':) * String ((':) * String ('[] *)))\n     -\u003e HList ((':) * y ((':) * y1 ('[] *)))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t ls\n\u003c/code\u003e\u003c/strong\u003els\n  :: (Show y, Show y1) =\u003e\n     HList ((':) * y ((':) * y1 ('[] *)))\n     -\u003e HList ((':) * String ((':) * String ('[] *)))\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t sl\n\u003c/code\u003e\u003c/strong\u003esl\n  :: (Show y, Show y1) =\u003e\n     HList ((':) * y ((':) * y1 ('[] *)))\n     -\u003e HList ((':) * String ((':) * String ('[] *)))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMap",
           "package": "HList",
@@ -4015,6 +4368,7 @@
         "index": {
           "description": "hMap is written such that the length of the result list can be determined from the length of the argument list and the other way around Similarly the type of the elements of the list is propagated in both directions too Excuse the ugly types printed Unfortunately ghc still shows types like using the actual constructors involved or even worse when the kind variables are printed set XNoMonomorphismRestriction let xs HNil hMap HJust xs hMap HJust xs Num HList HJust HJust Char These examples show that the constraint on the length in this cae can be applied before or after the hMap That inference is independent of the direction that type information is propagated for the individual elements let asLen2 xs xs asTypeOf undefined HList let lr xs asLen2 applyAB HMap HRead xs let ls xs asLen2 applyAB HMap HShow xs let rl xs applyAB HMap HRead asLen2 xs let sl xs applyAB HMap HShow asLen2 xs lr lr Read Read y1 HList String String HList y1 rl rl Read Read y1 HList String String HList y1 ls ls Show Show y1 HList y1 HList String String sl sl Show Show y1 HList y1 HList String String",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMap",
           "normalized": "a-\u003eHList b-\u003eHList c",
@@ -4030,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMapAux",
           "package": "HList",
@@ -4039,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMapAux",
           "normalized": "a-\u003eHList b-\u003eHList c",
@@ -4055,6 +4411,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e mapM :: forall b m a. (Monad m) =\u003e (a -\u003e m b) -\u003e [a] -\u003e m [b]\n\u003c/pre\u003e\u003cp\u003eLikewise for mapM_.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003e\u003ca\u003ehSequence\u003c/a\u003e\u003c/code\u003e if the result list should also be heterogenous.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMapM",
           "package": "HList",
@@ -4065,6 +4422,7 @@
         "index": {
           "description": "mapM forall Monad Likewise for mapM See hSequence if the result list should also be heterogenous",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMapM",
           "normalized": "a-\u003eHList b-\u003e[c d]",
@@ -4081,6 +4439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGHC doesn't like its own type.\n hMapM_  :: forall m a f e. (Monad m, HMapOut f a (m e)) =\u003e f -\u003e a -\u003e m ()\n Without explicit type signature, it's Ok. Sigh.\n Anyway, Hugs does insist on a better type. So we restrict as follows:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMapM_",
           "package": "HList",
@@ -4091,6 +4450,7 @@
         "index": {
           "description": "GHC doesn like its own type hMapM forall Monad HMapOut Without explicit type signature it Ok Sigh Anyway Hugs does insist on better type So we restrict as follows",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMapM_",
           "normalized": "a-\u003eHList b-\u003ec()",
@@ -4107,6 +4467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ehMap\u003c/a\u003e\u003c/code\u003e only a different implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMapMapCar",
           "package": "HList",
@@ -4117,6 +4478,7 @@
         "index": {
           "description": "Same as hMap only different implementation",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMapMapCar",
           "normalized": "a-\u003eHList b-\u003ec",
@@ -4132,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMapOut",
           "package": "HList",
@@ -4141,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMapOut",
           "normalized": "a-\u003eHList b-\u003e[c]",
@@ -4156,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hMember",
           "package": "HList",
@@ -4165,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hMember",
           "normalized": "Proxy a-\u003eProxy b-\u003eProxy c",
@@ -4180,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hNats",
           "package": "HList",
@@ -4189,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hNats",
           "normalized": "HList a-\u003eProxy(HNats a)",
@@ -4204,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hReplicate",
           "package": "HList",
@@ -4213,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hReplicate",
           "normalized": "Proxy a-\u003eb-\u003eHList(HReplicateR a b)",
@@ -4228,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hRevApp",
           "package": "HList",
@@ -4237,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hRevApp",
           "normalized": "HList a-\u003eHList a-\u003eHList(HRevApp a a)",
@@ -4252,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hReverse",
           "package": "HList",
@@ -4261,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hReverse",
           "normalized": "HList a-\u003eHList(HRevApp*a([]*))",
@@ -4276,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hRmTag",
           "package": "HList",
@@ -4285,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hRmTag",
           "normalized": "HList a-\u003eHList b",
@@ -4300,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hScanr",
           "package": "HList",
@@ -4309,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hScanr",
           "normalized": "a-\u003eb-\u003eHList c-\u003eHList d",
@@ -4324,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hSequence",
           "package": "HList",
@@ -4333,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hSequence",
           "normalized": "HList a-\u003eb(HList c)",
@@ -4348,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hSplit",
           "package": "HList",
@@ -4357,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hSplit",
           "normalized": "HList a-\u003e(HList(HSplitT a),HList(HSplitF a))",
@@ -4373,6 +4755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eintersect\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hTIntersect",
           "package": "HList",
@@ -4383,6 +4766,7 @@
         "index": {
           "description": "Like intersect",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hTIntersect",
           "normalized": "HList a-\u003eHList a-\u003eHList a",
@@ -4398,6 +4782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hTIntersectBool",
           "package": "HList",
@@ -4407,6 +4792,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hTIntersectBool",
           "normalized": "Proxy a-\u003eb-\u003eHList c-\u003eHList d-\u003eHList d",
@@ -4422,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hTMember",
           "package": "HList",
@@ -4431,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hTMember",
           "normalized": "a-\u003eHList b-\u003eProxy c",
@@ -4447,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hTail",
           "package": "HList",
@@ -4457,6 +4846,7 @@
         "index": {
           "description": "tail",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hTail",
           "normalized": "HList(a b)-\u003eHList b",
@@ -4472,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hUnfold",
           "package": "HList",
@@ -4481,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hUnfold",
           "normalized": "a-\u003eb-\u003eHList(HUnfold a b)",
@@ -4496,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "hUnfold'",
           "package": "HList",
@@ -4505,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "hUnfold'",
           "normalized": "a-\u003eb-\u003eHList(HUnfoldR a b)",
@@ -4520,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "prime",
           "package": "HList",
@@ -4529,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "prime",
           "normalized": "HList a-\u003ePrime a",
@@ -4543,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "toHJust",
           "package": "HList",
@@ -4552,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "toHJust",
           "normalized": "HList a-\u003eHList b",
@@ -4568,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealternative implementation. The Apply instance is in \u003ca\u003eData.HList.FakePrelude\u003c/a\u003e.\n A longer type could be inferred.\n toHJust2 :: (HMap' (HJust ()) a b) =\u003e HList a -\u003e HList b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "toHJust2",
           "package": "HList",
@@ -4578,6 +4977,7 @@
         "index": {
           "description": "alternative implementation The Apply instance is in Data.HList.FakePrelude longer type could be inferred toHJust2 HMap HJust HList HList",
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "toHJust2",
           "normalized": "HList a-\u003eHList b",
@@ -4593,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HList",
           "name": "unPrime",
           "package": "HList",
@@ -4602,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Data HList HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HList",
           "name": "unPrime",
           "normalized": "Prime a-\u003eHList a",
@@ -4618,6 +5020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eDeclarations for various classes and functions that\n   apply for the whole range of heterogeneous collections\n   (HList, TIP, records, etc).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HListPrelude",
           "package": "HList",
@@ -4627,6 +5030,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Declarations for various classes and functions that apply for the whole range of heterogeneous collections HList TIP records etc",
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HListPrelude",
           "package": "HList",
@@ -4640,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HAppend",
           "package": "HList",
@@ -4648,6 +5053,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HAppend",
           "package": "HList",
@@ -4662,6 +5068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epoly-kinded, but \u003ccode\u003e\u003ca\u003ehAppend\u003c/a\u003e\u003c/code\u003e only works in cases where the kind variable\n \u003ccode\u003ek\u003c/code\u003e is \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HAppendR",
           "package": "HList",
@@ -4671,6 +5078,7 @@
         "index": {
           "description": "poly-kinded but hAppend only works in cases where the kind variable is",
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HAppendR",
           "package": "HList",
@@ -4685,6 +5093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all elements with the type-level key e from the\n collection l. Since the key is type-level, it is represented\n by a Proxy.\n (polykinded)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HDeleteMany",
           "package": "HList",
@@ -4694,6 +5103,7 @@
         "index": {
           "description": "Delete all elements with the type-level key from the collection Since the key is type-level it is represented by Proxy polykinded",
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HDeleteMany",
           "package": "HList",
@@ -4707,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HExtend",
           "package": "HList",
@@ -4715,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HExtend",
           "package": "HList",
@@ -4728,6 +5140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HOccurs",
           "package": "HList",
@@ -4736,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HOccurs",
           "package": "HList",
@@ -4749,6 +5163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HOccursNot",
           "package": "HList",
@@ -4757,6 +5172,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HOccursNot",
           "package": "HList",
@@ -4770,6 +5186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HProject",
           "package": "HList",
@@ -4778,6 +5195,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HProject",
           "package": "HList",
@@ -4792,6 +5210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a type (key) to a natural (index) within the collection\n This is a purely type-level computation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HType2HNat",
           "package": "HList",
@@ -4801,6 +5220,7 @@
         "index": {
           "description": "Map type key to natural index within the collection This is purely type-level computation",
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HType2HNat",
           "package": "HList",
@@ -4814,6 +5234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "HTypes2HNats",
           "package": "HList",
@@ -4822,6 +5243,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "HTypes2HNats",
           "package": "HList",
@@ -4835,6 +5257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "SubType",
           "package": "HList",
@@ -4843,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "SubType",
           "package": "HList",
@@ -4856,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "(.*.)",
           "package": "HList",
@@ -4865,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "(.*.) .*.",
           "normalized": "a-\u003eb-\u003eHExtendR a b",
@@ -4879,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "hAppend",
           "package": "HList",
@@ -4888,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "hAppend",
           "normalized": "a-\u003ea-\u003eHAppendR a a",
@@ -4903,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "hDeleteMany",
           "package": "HList",
@@ -4912,6 +5341,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "hDeleteMany",
           "normalized": "Proxy a-\u003eb-\u003ec",
@@ -4927,6 +5357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "hOccurs",
           "package": "HList",
@@ -4936,6 +5367,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "hOccurs",
           "normalized": "a-\u003eb",
@@ -4951,6 +5383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HListPrelude",
           "name": "hProject",
           "package": "HList",
@@ -4960,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "Data HList HListPrelude",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HListPrelude",
           "name": "hProject",
           "normalized": "a-\u003eb",
@@ -4976,6 +5410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eResult-type-driven operations on typeful heterogeneous lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccurs",
           "package": "HList",
@@ -4985,6 +5420,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Result-type-driven operations on typeful heterogeneous lists",
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccurs",
           "package": "HList",
@@ -4998,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccurrence",
           "package": "HList",
@@ -5006,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccurrence",
           "package": "HList",
@@ -5019,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccurrence'",
           "package": "HList",
@@ -5027,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccurrence'",
           "package": "HList",
@@ -5040,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccurs'",
           "package": "HList",
@@ -5048,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccurs'",
           "package": "HList",
@@ -5061,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccursMany",
           "package": "HList",
@@ -5069,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccursMany",
           "package": "HList",
@@ -5082,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccursMany'",
           "package": "HList",
@@ -5090,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccursMany'",
           "package": "HList",
@@ -5103,6 +5549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccursNot'",
           "package": "HList",
@@ -5111,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccursNot'",
           "package": "HList",
@@ -5124,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "HOccursOpt'",
           "package": "HList",
@@ -5132,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "HOccursOpt'",
           "package": "HList",
@@ -5145,6 +5595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "TypeFound",
           "package": "HList",
@@ -5153,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "TypeFound",
           "package": "HList",
@@ -5166,6 +5618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "TypeNotFound",
           "package": "HList",
@@ -5174,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "TypeNotFound",
           "package": "HList",
@@ -5187,6 +5641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccurrence",
           "package": "HList",
@@ -5196,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccurrence",
           "normalized": "a-\u003eHList b-\u003eHList c",
@@ -5211,6 +5667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccurrence'",
           "package": "HList",
@@ -5220,6 +5677,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccurrence'",
           "normalized": "Proxy a-\u003eb-\u003eHList c-\u003eHList d",
@@ -5235,6 +5693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccurs'",
           "package": "HList",
@@ -5244,6 +5703,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccurs'",
           "normalized": "HList a-\u003eb",
@@ -5259,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursFst",
           "package": "HList",
@@ -5268,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursFst",
           "normalized": "HList a-\u003eb",
@@ -5283,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany",
           "package": "HList",
@@ -5292,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany",
           "normalized": "HList a-\u003e[b]",
@@ -5307,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany'",
           "package": "HList",
@@ -5316,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany'",
           "normalized": "HList a-\u003e[b]",
@@ -5331,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany1",
           "package": "HList",
@@ -5340,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursMany1",
           "normalized": "HList a-\u003e(b,[b])",
@@ -5355,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursOpt",
           "package": "HList",
@@ -5364,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursOpt",
           "normalized": "HList a-\u003eMaybe b",
@@ -5379,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HOccurs",
           "name": "hOccursOpt'",
           "package": "HList",
@@ -5388,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Data HList HOccurs",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HOccurs",
           "name": "hOccursOpt'",
           "normalized": "HList a-\u003eMaybe b",
@@ -5404,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eType-indexed operations on typeful heterogeneous lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "HTypeIndexed",
           "package": "HList",
@@ -5413,6 +5886,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Type-indexed operations on typeful heterogeneous lists",
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "HTypeIndexed",
           "package": "HList",
@@ -5426,6 +5900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "HDeleteManyCase",
           "package": "HList",
@@ -5434,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "HDeleteManyCase",
           "package": "HList",
@@ -5448,6 +5924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "HType2HNatCase",
           "package": "HList",
@@ -5457,6 +5934,7 @@
         "index": {
           "description": "Helper class",
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "HType2HNatCase",
           "package": "HList",
@@ -5470,6 +5948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hDeleteAt",
           "package": "HList",
@@ -5479,6 +5958,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hDeleteAt",
           "normalized": "Proxy a-\u003eHList b-\u003eHList(HDeleteAtHNatR c b)",
@@ -5494,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hDeleteManyCase",
           "package": "HList",
@@ -5503,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hDeleteManyCase",
           "normalized": "Proxy a-\u003eProxy b-\u003eb-\u003eHList c-\u003eHList c",
@@ -5518,6 +6000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hProjectBy",
           "package": "HList",
@@ -5527,6 +6010,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hProjectBy",
           "normalized": "Proxy a-\u003eHList b-\u003eHList a",
@@ -5542,6 +6026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hSplitBy",
           "package": "HList",
@@ -5551,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hSplitBy",
           "normalized": "Proxy a-\u003eHList b-\u003e(HList(HProjectByHNatsR c b),HList(HProjectAwayByHNatsR c b))",
@@ -5566,6 +6052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hType2HNat",
           "package": "HList",
@@ -5575,6 +6062,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hType2HNat",
           "normalized": "Proxy a-\u003eb-\u003eProxy c",
@@ -5590,6 +6078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hTypes2HNats",
           "package": "HList",
@@ -5599,6 +6088,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hTypes2HNats",
           "normalized": "[HNat])",
@@ -5614,6 +6104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HTypeIndexed",
           "name": "hUpdateAt",
           "package": "HList",
@@ -5623,6 +6114,7 @@
         },
         "index": {
           "hierarchy": "Data HList HTypeIndexed",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HTypeIndexed",
           "name": "hUpdateAt",
           "normalized": "a-\u003eHList b-\u003eHList(HUpdateAtHNatR c a b)",
@@ -5639,6 +6131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eZipping and unzipping for (conceptually) lists of pairs.\n\u003c/p\u003e\u003cp\u003eProvides two alternative implementations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZip",
           "package": "HList",
@@ -5648,6 +6141,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Zipping and unzipping for conceptually lists of pairs Provides two alternative implementations",
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZip",
           "package": "HList",
@@ -5661,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "Fst",
           "package": "HList",
@@ -5669,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "Fst",
           "package": "HList",
@@ -5683,6 +6179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHZipR in the superclass constraint doesn't hurt, but it doesn't seem to be\n necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HUnZip",
           "package": "HList",
@@ -5692,6 +6189,7 @@
         "index": {
           "description": "HZipR in the superclass constraint doesn hurt but it doesn seem to be necessary",
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HUnZip",
           "package": "HList",
@@ -5705,6 +6203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZip",
           "package": "HList",
@@ -5713,6 +6212,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZip",
           "package": "HList",
@@ -5727,6 +6227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as \u003ccode\u003e\u003ca\u003eHZip\u003c/a\u003e\u003c/code\u003e but HCons the elements of x onto y. This might be doable as\n a \u003ccode\u003ehMap f (hZip x y)\u003c/code\u003e, but that one doesn't propagate types as easily it\n seems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZip3",
           "package": "HList",
@@ -5736,6 +6237,7 @@
         "index": {
           "description": "same as HZip but HCons the elements of onto This might be doable as hMap hZip but that one doesn propagate types as easily it seems",
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZip3",
           "package": "HList",
@@ -5749,6 +6251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZipF",
           "package": "HList",
@@ -5757,6 +6260,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZipF",
           "package": "HList",
@@ -5771,6 +6275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecalculates something like:\n\u003c/p\u003e\u003cpre\u003e [a] -\u003e [b] -\u003e [(a,b)]\n\u003c/pre\u003e\u003cp\u003ecan be used to give another type for \u003ccode\u003e\u003ca\u003ehZip2\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e hZip2 :: HList a -\u003e HList b -\u003e HList (HZipR a b)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZipR",
           "package": "HList",
@@ -5780,6 +6285,7 @@
         "index": {
           "description": "calculates something like can be used to give another type for hZip2 hZip2 HList HList HList HZipR",
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZipR",
           "package": "HList",
@@ -5793,6 +6299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "Snd",
           "package": "HList",
@@ -5801,6 +6308,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "Snd",
           "package": "HList",
@@ -5814,6 +6322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "HZipF",
           "package": "HList",
@@ -5823,6 +6332,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "HZipF",
           "package": "HList",
@@ -5837,6 +6347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis transpose requires equal-length HLists inside a HList:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eimport Data.HList.HListPrelude\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet ex = (1 .*. 2 .*. HNil) .*. ('a' .*. 'b' .*. HNil) .*. ( 3 .*. 5 .*. HNil) .*. HNil\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cp\u003eThe original list:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eex\n\u003c/code\u003e\u003c/strong\u003eH[H[1, 2], H['a', 'b'], H[3, 5]]\n\u003c/pre\u003e\u003cp\u003eAnd transposed:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehTranspose ex\n\u003c/code\u003e\u003c/strong\u003eH[H[1, 'a', 3], H[2, 'b', 5]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hTranspose",
           "package": "HList",
@@ -5847,6 +6358,7 @@
         "index": {
           "description": "this transpose requires equal-length HLists inside HList import Data.HList.HListPrelude let ex HNil HNil HNil HNil The original list ex And transposed hTranspose ex",
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hTranspose",
           "normalized": "HList(*(HList a)b)-\u003eHList c",
@@ -5862,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hUnzip",
           "package": "HList",
@@ -5871,6 +6384,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hUnzip",
           "normalized": "HList a-\u003e(HList b,HList c)",
@@ -5886,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hUnzip2",
           "package": "HList",
@@ -5895,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hUnzip2",
           "normalized": "HList a-\u003e(HList(MapFst a),HList(MapSnd a))",
@@ -5910,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hZip",
           "package": "HList",
@@ -5919,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hZip",
           "normalized": "HList a-\u003eHList b-\u003eHList c",
@@ -5934,6 +6452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hZip2",
           "package": "HList",
@@ -5943,6 +6462,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hZip2",
           "normalized": "HList(MapFst a)-\u003eHList(MapSnd a)-\u003eHList a",
@@ -5958,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.HZip",
           "name": "hZip3",
           "package": "HList",
@@ -5967,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Data HList HZip",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.HZip",
           "name": "hZip3",
           "normalized": "HList a-\u003eHList b-\u003eHList c",
@@ -5983,6 +6505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ekeyword functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "Keyword",
           "package": "HList",
@@ -5992,6 +6515,7 @@
         "index": {
           "description": "keyword functions",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "Keyword",
           "package": "HList",
@@ -6006,6 +6530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe datatype Arg below is to maintain the state of keyword\naccumulation: which keywords we need, and which keyword and values we\nhave already got.\narg_types is the phantom HList of keywords that are yet to be satisfied.\narg_values is the \u003ccode\u003eHList (kw .*. kw_value .*. etc)\u003c/code\u003e\nof already found keywords and their values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "Arg",
           "package": "HList",
@@ -6015,6 +6540,7 @@
         "index": {
           "description": "The datatype Arg below is to maintain the state of keyword accumulation which keywords we need and which keyword and values we have already got arg types is the phantom HList of keywords that are yet to be satisfied arg values is the HList kw kw value etc of already found keywords and their values",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "Arg",
           "package": "HList",
@@ -6028,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "ErrReqdArgNotFound",
           "package": "HList",
@@ -6036,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "ErrReqdArgNotFound",
           "package": "HList",
@@ -6049,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "ErrUnexpectedKW",
           "package": "HList",
@@ -6057,6 +6586,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "ErrUnexpectedKW",
           "package": "HList",
@@ -6071,6 +6601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete e from l to yield l' The element e must occur in l\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "HDelete",
           "package": "HList",
@@ -6080,6 +6611,7 @@
         "index": {
           "description": "Delete from to yield The element must occur in",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "HDelete",
           "package": "HList",
@@ -6093,6 +6625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "HDelete'",
           "package": "HList",
@@ -6101,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "HDelete'",
           "package": "HList",
@@ -6115,6 +6649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll our keywords must be registered\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "IsKeyFN",
           "package": "HList",
@@ -6124,6 +6659,7 @@
         "index": {
           "description": "All our keywords must be registered",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "IsKeyFN",
           "package": "HList",
@@ -6137,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "K",
           "package": "HList",
@@ -6145,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "K",
           "package": "HList",
@@ -6158,6 +6696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main class: collect and apply the keyword arguments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KW",
           "package": "HList",
@@ -6167,6 +6706,7 @@
         "index": {
           "description": "The main class collect and apply the keyword arguments",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KW",
           "package": "HList",
@@ -6180,6 +6720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KW'",
           "package": "HList",
@@ -6188,6 +6729,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KW'",
           "package": "HList",
@@ -6202,6 +6744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the real argument to the Arg structure, and continue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWAcc",
           "package": "HList",
@@ -6211,6 +6754,7 @@
         "index": {
           "description": "Add the real argument to the Arg structure and continue",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWAcc",
           "package": "HList",
@@ -6224,6 +6768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWApply",
           "package": "HList",
@@ -6232,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWApply",
           "package": "HList",
@@ -6245,6 +6791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWApply'",
           "package": "HList",
@@ -6253,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWApply'",
           "package": "HList",
@@ -6267,6 +6815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the needed arguments from arg_def to arg_values and continue\nwith kwapply.\n\u003c/p\u003e\u003cp\u003eThat is, we try to satisfy the missing arguments from the defaults.\nIt will be a type error if some required arguments are missing \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWMerge",
           "package": "HList",
@@ -6276,6 +6825,7 @@
         "index": {
           "description": "Add the needed arguments from arg def to arg values and continue with kwapply That is we try to satisfy the missing arguments from the defaults It will be type error if some required arguments are missing",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWMerge",
           "package": "HList",
@@ -6289,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWMerge'",
           "package": "HList",
@@ -6297,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWMerge'",
           "package": "HList",
@@ -6310,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "KWMerge''",
           "package": "HList",
@@ -6318,6 +6871,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "KWMerge''",
           "package": "HList",
@@ -6332,6 +6886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ekw\u003c/code\u003e takes a \u003ccode\u003e\u003ca\u003eHList\u003c/a\u003e\u003c/code\u003e whose first element is a function, and the rest\nof the elements are default values.\nA useful trick is to have a final argument \u003ccode\u003e()\u003c/code\u003e which is not\neaten up by a label (A only takes 1 argument). That way when you supply\nthe () it knows there are no more arguments (?).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003edata A = A\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003einstance IsKeyFN (A -\u003e a -\u003e b) True\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet f A a () = a + 1\n\u003c/code\u003e\u003c/strong\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003elet f' = f .*. A .*. 1 .*. HNil\n\u003c/code\u003e\u003c/strong\u003e\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ekw f' A 0 ()\n\u003c/code\u003e\u003c/strong\u003e1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ekw f' ()\n\u003c/code\u003e\u003c/strong\u003e2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "Kw",
           "package": "HList",
@@ -6341,6 +6896,7 @@
         "index": {
           "description": "kw takes HList whose first element is function and the rest of the elements are default values useful trick is to have final argument which is not eaten up by label only takes argument That way when you supply the it knows there are no more arguments data instance IsKeyFN True let let HNil kw kw",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "Kw",
           "package": "HList",
@@ -6355,6 +6911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflection on a function:\nGiven a function, return the type list of its keywords\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t reflect_fk (undefined::Size-\u003eInt-\u003eColor-\u003eCommonColor-\u003eString)\n\u003c/code\u003e\u003c/strong\u003ereflect_fk (undefined::Size-\u003eInt-\u003eColor-\u003eCommonColor-\u003eString)\n  :: Arg [*] ((':) * Size ((':) * Color ('[] *))) ('[] *)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:t reflect_fk (undefined::Size-\u003eInt-\u003e()-\u003eInt)\n\u003c/code\u003e\u003c/strong\u003ereflect_fk (undefined::Size-\u003eInt-\u003e()-\u003eInt)\n  :: Arg [*] ((':) * Size ('[] *)) ('[] *)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "ReflectFK",
           "package": "HList",
@@ -6364,6 +6921,7 @@
         "index": {
           "description": "Reflection on function Given function return the type list of its keywords reflect fk undefined Size Int Color CommonColor String reflect fk undefined Size Int Color CommonColor String Arg Size Color reflect fk undefined Size Int Int reflect fk undefined Size Int Int Arg Size",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "ReflectFK",
           "package": "HList",
@@ -6377,6 +6935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "ReflectFK'",
           "package": "HList",
@@ -6385,6 +6944,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "ReflectFK'",
           "package": "HList",
@@ -6398,6 +6958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "Arg",
           "package": "HList",
@@ -6407,6 +6968,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "Arg",
           "package": "HList",
@@ -6420,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "K",
           "package": "HList",
@@ -6429,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "K",
           "package": "HList",
@@ -6441,6 +7005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kw",
           "package": "HList",
@@ -6450,6 +7015,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kw",
           "normalized": "HList(a b)-\u003ec",
@@ -6464,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kw'",
           "package": "HList",
@@ -6473,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kw'",
           "normalized": "Proxy a-\u003eb-\u003ec-\u003eHList d-\u003ee",
@@ -6487,6 +7055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwaccum",
           "package": "HList",
@@ -6496,6 +7065,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwaccum",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003eHList e-\u003ef",
@@ -6510,6 +7080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwapply",
           "package": "HList",
@@ -6519,6 +7090,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwapply",
           "normalized": "a-\u003eHList b-\u003ec",
@@ -6533,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwapply'",
           "package": "HList",
@@ -6542,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwapply'",
           "normalized": "Proxy a-\u003eb-\u003eHList c-\u003ed",
@@ -6556,6 +7130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwdo",
           "package": "HList",
@@ -6565,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwdo",
           "normalized": "a-\u003eb-\u003eHList c-\u003ed",
@@ -6579,6 +7155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwmerge",
           "package": "HList",
@@ -6588,6 +7165,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwmerge",
           "normalized": "Arg a b-\u003eHList c-\u003ed-\u003ee",
@@ -6602,6 +7180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwmerge'",
           "package": "HList",
@@ -6611,6 +7190,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwmerge'",
           "normalized": "a-\u003eHList b-\u003eArg c d-\u003eHList e-\u003ef-\u003eg",
@@ -6625,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "kwmerge''",
           "package": "HList",
@@ -6634,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "kwmerge''",
           "normalized": "Proxy a-\u003eb-\u003eHList c-\u003eArg d e-\u003eHList f-\u003eg-\u003eh",
@@ -6649,6 +7231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethat reflects on a user-supplied function. It converts the *type* of a\nuser function to a collection of keywords required by that\nfunction. This and the previous contraptions may be used to define an\n\u003ccode\u003eextended\u003c/code\u003e version of some user function that takes more arguments --\nwithout the need to enumerate all arguments of the original\nfunction. We thus infringe on the area of object and module systems.\n\u003c/p\u003e\u003cp\u003eThe rest of the implementation is just to convert `kw fn defaults'\ninto the application of kwapply.\n\u003c/p\u003e\u003cp\u003eAnother key contraption is\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Keyword",
           "name": "reflect_fk",
           "package": "HList",
@@ -6659,6 +7242,7 @@
         "index": {
           "description": "that reflects on user-supplied function It converts the type of user function to collection of keywords required by that function This and the previous contraptions may be used to define an extended version of some user function that takes more arguments without the need to enumerate all arguments of the original function We thus infringe on the area of object and module systems The rest of the implementation is just to convert kw fn defaults into the application of kwapply Another key contraption is",
           "hierarchy": "Data HList Keyword",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Keyword",
           "name": "reflect_fk",
           "normalized": "a-\u003eArg b[]",
@@ -6674,6 +7258,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004-2006, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eA model of labels as needed for extensible records. As before,\n   all the information about labels is recorded in their type, so\n   the labels of records may be purely phantom. In general,\n   Labels are exclusively type-level entities and have no run-time\n   representation.\n\u003c/p\u003e\u003cp\u003eRecord labels are triplets of type-level naturals, namespace,\n   and description. The namespace part helps avoid confusions between\n   labels from different Haskell modules. The description is\n   an arbitrary nullary type constructor.\n\u003c/p\u003e\u003cp\u003eFor the sake of printing, the description is required to be the\n   instance of Show. One must make sure that the show functions does\n   not examine the value, as descr is purely phantom. Here's an\n   example of the good Label description:\n\u003c/p\u003e\u003cpre\u003e     data MyLabelDescr; instance Show MyLabelDescr where show _ = \"descr\"\n\u003c/pre\u003e\u003cp\u003ewhich are automated by makeLabels3 from \u003ca\u003eData.HList.MakeLabel\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThis model even allows the labels in a record to belong to different\n   namespaces. To this end, the model employs the predicate for type\n   equality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Label3",
           "name": "Label3",
           "package": "HList",
@@ -6683,6 +7268,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke model of labels as needed for extensible records As before all the information about labels is recorded in their type so the labels of records may be purely phantom In general Labels are exclusively type-level entities and have no run-time representation Record labels are triplets of type-level naturals namespace and description The namespace part helps avoid confusions between labels from different Haskell modules The description is an arbitrary nullary type constructor For the sake of printing the description is required to be the instance of Show One must make sure that the show functions does not examine the value as descr is purely phantom Here an example of the good Label description data MyLabelDescr instance Show MyLabelDescr where show descr which are automated by makeLabels3 from Data.HList.MakeLabel This model even allows the labels in record to belong to different namespaces To this end the model employs the predicate for type equality",
           "hierarchy": "Data HList Label3",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Label3",
           "name": "Label3",
           "package": "HList",
@@ -6696,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Label3",
           "name": "Lbl",
           "package": "HList",
@@ -6704,6 +7291,7 @@
         },
         "index": {
           "hierarchy": "Data HList Label3",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Label3",
           "name": "Lbl",
           "package": "HList",
@@ -6718,6 +7306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the first label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Label3",
           "name": "firstLabel",
           "package": "HList",
@@ -6728,6 +7317,7 @@
         "index": {
           "description": "Construct the first label",
           "hierarchy": "Data HList Label3",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Label3",
           "name": "firstLabel",
           "normalized": "a-\u003eb-\u003eLabel(Lbl HZero a b)",
@@ -6744,6 +7334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the next label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Label3",
           "name": "nextLabel",
           "package": "HList",
@@ -6754,6 +7345,7 @@
         "index": {
           "description": "Construct the next label",
           "hierarchy": "Data HList Label3",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Label3",
           "name": "nextLabel",
           "normalized": "Label(Lbl a b c)-\u003ed-\u003eLabel(Lbl(HSucc a)b d)",
@@ -6770,6 +7362,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eYet another model of labels.\n\u003c/p\u003e\u003cp\u003eLabels are promoted Strings or Integers \u003ca\u003eGHC.TypeLits\u003c/a\u003e inside the\n   \u003ccode\u003e\u003ca\u003eLabel\u003c/a\u003e\u003c/code\u003e. Needs ghc7.6 or higher.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003eData.HList.CommonMain\u003c/a\u003e for an example.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Label6",
           "name": "Label6",
           "package": "HList",
@@ -6779,6 +7372,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Yet another model of labels Labels are promoted Strings or Integers GHC.TypeLits inside the Label Needs ghc7.6 or higher See Data.HList.CommonMain for an example",
           "hierarchy": "Data HList Label6",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Label6",
           "name": "Label6",
           "package": "HList",
@@ -6793,6 +7387,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple problem is being solved here, but unfortunately it\nis a bit involved. The idea is to use the same haskell identifier \nfor a lens and for other purposes. In other words, get the same\nbehavior as:\n\u003c/p\u003e\u003cpre\u003e x = hLens (Label :: Label \"x\")\n r ^. x\n\u003c/pre\u003e\u003cp\u003eWhile still being able to extract the symbol \"x\" from x, so that things\nlike \u003ccode\u003ex .=. 123\u003c/code\u003e could be acceptable. In this case we don't overload \u003ccode\u003e\u003ca\u003e.=.\u003c/a\u003e\u003c/code\u003e,\nso instead you have to write \u003ccode\u003ex .==. 123\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eElaboration of some ideas from edwardk.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "Labelable",
           "package": "HList",
@@ -6802,6 +7397,7 @@
         "index": {
           "description": "simple problem is being solved here but unfortunately it is bit involved The idea is to use the same haskell identifier for lens and for other purposes In other words get the same behavior as hLens Label Label While still being able to extract the symbol from so that things like could be acceptable In this case we don overload so instead you have to write Elaboration of some ideas from edwardk",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "Labelable",
           "package": "HList",
@@ -6816,6 +7412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity functor and monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "Identity",
           "package": "HList",
@@ -6824,6 +7421,7 @@
         "index": {
           "description": "Identity functor and monad",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "Identity",
           "package": "HList",
@@ -6838,6 +7436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef s t a b\u003c/code\u003e type parameters are the same as those that make\n\u003ca\u003eControl.Lens\u003c/a\u003e work.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003en\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the index in the HList at which the value will be found\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003el\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is the label for the field (tends to be \u003ccode\u003e\u003ca\u003eSymbol\u003c/a\u003e\u003c/code\u003e)\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ep\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e is \u003ccode\u003e-\u003e\u003c/code\u003e when the result is used as a lens, or \u003ccode\u003e\u003ca\u003eLabeled\u003c/a\u003e\u003c/code\u003e when used\n      as an argument to \u003ccode\u003e\u003ca\u003e.==.\u003c/a\u003e\u003c/code\u003e\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "Labelable",
           "package": "HList",
@@ -6847,6 +7446,7 @@
         "index": {
           "description": "type parameters are the same as those that make Control.Lens work is the index in the HList at which the value will be found is the label for the field tends to be Symbol is when the result is used as lens or Labeled when used as an argument to",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "Labelable",
           "package": "HList",
@@ -6860,6 +7460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "Labeled",
           "package": "HList",
@@ -6868,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "Labeled",
           "package": "HList",
@@ -6882,6 +7484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the type that is actually the label in \u003ccode\u003ea\u003c/code\u003e and puts it in \u003ccode\u003eb\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "ToSym",
           "package": "HList",
@@ -6891,6 +7494,7 @@
         "index": {
           "description": "extracts the type that is actually the label in and puts it in",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "ToSym",
           "package": "HList",
@@ -6905,6 +7509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodification of \u003ccode\u003e\u003ca\u003e.=.\u003c/a\u003e\u003c/code\u003e which works with the labels from this module,\n and those from \u003ca\u003eData.HList.Label6\u003c/a\u003e. Note that this is not strictly a\n generalization of \u003ccode\u003e\u003ca\u003e.=.\u003c/a\u003e\u003c/code\u003e, since it does not work with labels like\n \u003ca\u003eData.HList.Label3\u003c/a\u003e which have the wrong kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "(.==.)",
           "package": "HList",
@@ -6915,6 +7520,7 @@
         "index": {
           "description": "modification of which works with the labels from this module and those from Data.HList.Label6 Note that this is not strictly generalization of since it does not work with labels like Data.HList.Label3 which have the wrong kind",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "(.==.) .==.",
           "normalized": "a-\u003eb-\u003eTagged Symbol c b",
@@ -6929,6 +7535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "Labeled",
           "package": "HList",
@@ -6938,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "Labeled",
           "package": "HList",
@@ -6951,6 +7559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "hLens'",
           "package": "HList",
@@ -6960,6 +7569,7 @@
         },
         "index": {
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "hLens'",
           "normalized": "Label a-\u003eb(c-\u003ed e)(Record f-\u003ed(Record g))",
@@ -6976,6 +7586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emakeLabelable \"x y z\"\u003c/code\u003e will generate haskell identifiers that work with \u003ccode\u003e\u003ca\u003e.==.\u003c/a\u003e\u003c/code\u003e and\nare also lenses.\n\u003c/p\u003e\u003cpre\u003e x = hLens' (Label :: Label \"x\")\n y = hLens' (Label :: Label \"y\")\n z = hLens' (Label :: Label \"z\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "makeLabelable",
           "package": "HList",
@@ -6986,6 +7597,7 @@
         "index": {
           "description": "makeLabelable will generate haskell identifiers that work with and are also lenses hLens Label Label hLens Label Label hLens Label Label",
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "makeLabelable",
           "normalized": "String-\u003eQ[Dec]",
@@ -7001,6 +7613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Labelable",
           "name": "toLabel",
           "package": "HList",
@@ -7010,6 +7623,7 @@
         },
         "index": {
           "hierarchy": "Data HList Labelable",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Labelable",
           "name": "toLabel",
           "package": "HList",
@@ -7023,6 +7637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.MakeLabels",
           "name": "MakeLabels",
           "package": "HList",
@@ -7031,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "Data HList MakeLabels",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.MakeLabels",
           "name": "MakeLabels",
           "package": "HList",
@@ -7045,6 +7661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels like \u003ca\u003eData.HList.Label4\u003c/a\u003e used to provide (only no Typeable).\n\u003c/p\u003e\u003cp\u003eThe following TH declaration splice should be placed at top-level, before the\n created values are used. Enable \u003ccode\u003e-XTemplateHaskell\u003c/code\u003e too.\n\u003c/p\u003e\u003cpre\u003e  makeLabels [\"getX\",\"getY\",\"draw\",\"X\"]\n\u003c/pre\u003e\u003cp\u003eshould expand into the following declarations\n\u003c/p\u003e\u003cpre\u003e data LabelGetX\n data LabelGetY\n data LabelDraw\n data LabelX\n\u003c/pre\u003e\u003cpre\u003e getX = Label :: Label LabelGetX\n getY = Label :: Label LabelGetY\n draw = Label :: Label LabelDraw\n x    = Label :: Label LabelX\n\u003c/pre\u003e\u003cpre\u003e instance ShowLabel LabelGetX where showLabel = \\_ -\u003e \"getX\"\n instance ShowLabel LabelGetY where showLabel = \\_ -\u003e \"getY\"\n instance ShowLabel LabelDraw where showLabel = \\_ -\u003e \"draw\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels",
           "package": "HList",
@@ -7055,6 +7672,7 @@
         "index": {
           "description": "Labels like Data.HList.Label4 used to provide only no Typeable The following TH declaration splice should be placed at top-level before the created values are used Enable XTemplateHaskell too makeLabels getX getY draw should expand into the following declarations data LabelGetX data LabelGetY data LabelDraw data LabelX getX Label Label LabelGetX getY Label Label LabelGetY draw Label Label LabelDraw Label Label LabelX instance ShowLabel LabelGetX where showLabel getX instance ShowLabel LabelGetY where showLabel getY instance ShowLabel LabelDraw where showLabel draw",
           "hierarchy": "Data HList MakeLabels",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels",
           "normalized": "[String]-\u003eQ[Dec]",
@@ -7071,6 +7689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor \u003ca\u003eData.HList.Label3\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels3",
           "package": "HList",
@@ -7080,6 +7699,7 @@
         "index": {
           "description": "for Data.HList.Label3",
           "hierarchy": "Data HList MakeLabels",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels3",
           "normalized": "String-\u003e[String]-\u003eQ[Dec]",
@@ -7096,6 +7716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor \u003ca\u003eData.HList.Label6\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels6",
           "package": "HList",
@@ -7106,6 +7727,7 @@
         "index": {
           "description": "for Data.HList.Label6",
           "hierarchy": "Data HList MakeLabels",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.MakeLabels",
           "name": "makeLabels6",
           "normalized": "[String]-\u003eQ[Dec]",
@@ -7122,6 +7744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004-2006, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eExtensible records\n\u003c/p\u003e\u003cp\u003eThe three-ish models of labels that go with this module;\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.HList.Label3\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.HList.MakeLabels\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThese used to work:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eData.HList.Label1\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.HList.Label2\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.HList.Label4\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eData.HList.Label5\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7131,6 +7754,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Extensible records The three-ish models of labels that go with this module Data.HList.Label3 Data.HList.MakeLabels These used to work Data.HList.Label1 Data.HList.Label2 Data.HList.Label4 Data.HList.Label5",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7145,6 +7769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropery of a proper label set for a record: no duplication of labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "DuplicatedLabel",
           "package": "HList",
@@ -7154,6 +7779,7 @@
         "index": {
           "description": "Propery of proper label set for record no duplication of labels",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "DuplicatedLabel",
           "package": "HList",
@@ -7167,6 +7793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "ExtraField",
           "package": "HList",
@@ -7175,6 +7802,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "ExtraField",
           "package": "HList",
@@ -7188,6 +7816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "FieldNotFound",
           "package": "HList",
@@ -7196,6 +7825,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "FieldNotFound",
           "package": "HList",
@@ -7210,6 +7840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eInvariant\u003c/em\u003e:\n\u003c/p\u003e\u003cpre\u003e r === rin `disjoint-union` rout\n labels rin === ls\n     where (rin,rout) = hProjectByLabels ls r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "H2ProjectByLabels",
           "package": "HList",
@@ -7219,6 +7850,7 @@
         "index": {
           "description": "Invariant rin disjoint-union rout labels rin ls where rin rout hProjectByLabels ls",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "H2ProjectByLabels",
           "package": "HList",
@@ -7232,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "H2ProjectByLabels'",
           "package": "HList",
@@ -7240,6 +7873,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "H2ProjectByLabels'",
           "package": "HList",
@@ -7254,6 +7888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelation between HLabelSet and HRLabelSet\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HLabelSet",
           "package": "HList",
@@ -7263,6 +7898,7 @@
         "index": {
           "description": "Relation between HLabelSet and HRLabelSet",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HLabelSet",
           "package": "HList",
@@ -7276,6 +7912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HLabelSet'",
           "package": "HList",
@@ -7284,6 +7921,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HLabelSet'",
           "package": "HList",
@@ -7297,6 +7935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HLeftUnion",
           "package": "HList",
@@ -7305,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HLeftUnion",
           "package": "HList",
@@ -7318,6 +7958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HLeftUnionBool",
           "package": "HList",
@@ -7326,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HLeftUnionBool",
           "package": "HList",
@@ -7339,6 +7981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HRLabelSet",
           "package": "HList",
@@ -7347,6 +7990,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HRLabelSet",
           "package": "HList",
@@ -7360,6 +8004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HRLabelSet'",
           "package": "HList",
@@ -7368,6 +8013,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HRLabelSet'",
           "package": "HList",
@@ -7382,6 +8028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class for \u003ccode\u003e\u003ca\u003ehRearrange\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HRearrange",
           "package": "HList",
@@ -7391,6 +8038,7 @@
         "index": {
           "description": "Helper class for hRearrange",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HRearrange",
           "package": "HList",
@@ -7405,6 +8053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper class 2 for \u003ccode\u003e\u003ca\u003ehRearrange\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HRearrange'",
           "package": "HList",
@@ -7414,6 +8063,7 @@
         "index": {
           "description": "Helper class for hRearrange",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HRearrange'",
           "package": "HList",
@@ -7428,6 +8078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a baseline implementation.\n We use a helper class, HasField, to abstract from the implementation.\n\u003c/p\u003e\u003cp\u003eBecause \u003ccode\u003e\u003ca\u003ehLookupByLabel\u003c/a\u003e\u003c/code\u003e is so frequent and important, we implement\n it separately, more efficiently. The algorithm is familiar assq, only\n the comparison operation is done at compile-time\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HasField",
           "package": "HList",
@@ -7437,6 +8088,7 @@
         "index": {
           "description": "This is baseline implementation We use helper class HasField to abstract from the implementation Because hLookupByLabel is so frequent and important we implement it separately more efficiently The algorithm is familiar assq only the comparison operation is done at compile-time",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HasField",
           "package": "HList",
@@ -7450,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "HasField'",
           "package": "HList",
@@ -7458,6 +8111,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "HasField'",
           "package": "HList",
@@ -7472,6 +8126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaking this ls::[*] and [k] breaks the MainGhcGeneric1.hs...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "LabelsOf",
           "package": "HList",
@@ -7481,6 +8136,7 @@
         "index": {
           "description": "Making this ls and breaks the MainGhcGeneric1.hs",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "LabelsOf",
           "package": "HList",
@@ -7494,6 +8150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7502,6 +8159,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7516,6 +8174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the (phantom) list of labels of the record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "RecordLabels",
           "package": "HList",
@@ -7525,6 +8184,7 @@
         "index": {
           "description": "Construct the phantom list of labels of the record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "RecordLabels",
           "package": "HList",
@@ -7539,6 +8199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct the HList of values of the record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "RecordValues",
           "package": "HList",
@@ -7548,6 +8209,7 @@
         "index": {
           "description": "Construct the HList of values of the record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "RecordValues",
           "package": "HList",
@@ -7561,6 +8223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "ShowComponents",
           "package": "HList",
@@ -7569,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "ShowComponents",
           "package": "HList",
@@ -7582,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "ShowLabel",
           "package": "HList",
@@ -7590,6 +8255,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "ShowLabel",
           "package": "HList",
@@ -7603,6 +8269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "UnionSymRec",
           "package": "HList",
@@ -7611,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "UnionSymRec",
           "package": "HList",
@@ -7624,6 +8292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "UnionSymRec'",
           "package": "HList",
@@ -7632,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "UnionSymRec'",
           "package": "HList",
@@ -7646,6 +8316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a value in a record by its label. Analagous to (!!), the\n  list indexing operation. Highest fixity, like (\u003ccode\u003e\u003ca\u003e!!\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:{\n\u003c/code\u003e\u003c/strong\u003elet record1 = x .=. 3 .*.\n              y .=. 'y' .*.\n              emptyRecord\n:}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erecord1 .!. x\n\u003c/code\u003e\u003c/strong\u003e3\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003erecord1 .!. y\n\u003c/code\u003e\u003c/strong\u003e'y'\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e:{\n\u003c/code\u003e\u003c/strong\u003elet r2 = y .=. record1 .!. x .*.\n         z .=. record1 .!. y .*.\n         emptyRecord\n:}\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003er2\n\u003c/code\u003e\u003c/strong\u003eRecord{y=3,z='y'}\n\u003c/pre\u003e\u003cp\u003eNote that labels made following \u003ca\u003eData.HList.Labelable\u003c/a\u003e allow\n  using \u003ca\u003eControl.Lens.^.\u003c/a\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.!.)",
           "package": "HList",
@@ -7656,6 +8327,7 @@
         "index": {
           "description": "Lookup value in record by its label Analagous to the list indexing operation Highest fixity like let record1 emptyRecord record1 record1 let r2 record1 record1 emptyRecord r2 Record Note that labels made following Data.HList.Labelable allow using Control.Lens instead",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.!.) .!.",
           "normalized": "a-\u003eLabel b-\u003ec",
@@ -7670,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.*.)",
           "package": "HList",
@@ -7679,6 +8352,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.*.) .*.",
           "normalized": "a-\u003eb-\u003eHExtendR a b",
@@ -7694,6 +8368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a field from a record. At the same\n  level as other record modification options (\u003ccode\u003e\u003ca\u003e.*.\u003c/a\u003e\u003c/code\u003e). Analagous\n  to (\u003ccode\u003e\\\\\u003c/code\u003e) in lists.\n\u003c/p\u003e\u003cpre\u003e record1 .-. label1\n\u003c/pre\u003e\u003cpre\u003e label1 .=. value1 .*.\n label2 .=. value2 .-.\n label2 .*.\n emptyRecord\n\u003c/pre\u003e\u003cpre\u003e label1 .=. value1 .-.\n label1 .*.\n label2 .=. value2 .*.\n emptyRecord\n\u003c/pre\u003e\u003cpre\u003e record1 .*. label1 .=. record2 .!. label1\n         .*. label2 .=. record2 .!. label2\n         .-. label1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.-.)",
           "package": "HList",
@@ -7704,6 +8379,7 @@
         "index": {
           "description": "Remove field from record At the same level as other record modification options Analagous to in lists record1 label1 label1 value1 label2 value2 label2 emptyRecord label1 value1 label1 label2 value2 emptyRecord record1 label1 record2 label1 label2 record2 label2 label1",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.-.) .-.",
           "normalized": "Record a-\u003eLabel b-\u003eRecord c",
@@ -7719,6 +8395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to list append, so give this slightly lower fixity than\n  (.*.), so we can write:\n\u003c/p\u003e\u003cpre\u003e field1 .=. value .*. record1 .\u003c++. record2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.\u003c++.)",
           "package": "HList",
@@ -7729,6 +8406,7 @@
         "index": {
           "description": "Similar to list append so give this slightly lower fixity than so we can write field1 value record1 record2",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.\u003c++.) .\u003c++.",
           "normalized": "Record a-\u003eRecord b-\u003eRecord c",
@@ -7744,6 +8422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003e.@.\u003c/a\u003e\u003c/code\u003e, except type preserving. It has the same fixity as (.@.).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.\u003c.)",
           "package": "HList",
@@ -7754,6 +8433,7 @@
         "index": {
           "description": "The same as except type preserving It has the same fixity as",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.\u003c.) .\u003c.",
           "normalized": "Tagged a b c-\u003eRecord d-\u003eRecord(HUpdateAtHNatR e(Tagged a b c)d)",
@@ -7769,6 +8449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a value with the given label. Analagous to a data\n  constructor such as \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e. Higher fixity\n  than record-modification operations like (\u003ccode\u003e\u003ca\u003e.*.\u003c/a\u003e\u003c/code\u003e), (\u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e), etc. to\n  support expression like the below w/o parentheses:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ex .=. \"v1\" .*. y .=. '2' .*. emptyRecord\n\u003c/code\u003e\u003c/strong\u003eRecord{x=\"v1\",y='2'}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.=.)",
           "package": "HList",
@@ -7779,6 +8460,7 @@
         "index": {
           "description": "Create value with the given label Analagous to data constructor such as Just Left or Right Higher fixity than record-modification operations like etc to support expression like the below parentheses v1 emptyRecord Record v1",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.=.) .=.",
           "normalized": "Label a-\u003eb-\u003eTagged a b",
@@ -7794,6 +8476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a field with a particular value.\n  Same fixity as (.*.) so that extensions and updates can be chained.\n  There is no real list analogue, since there is no Prelude defined\n  update.\n\u003c/p\u003e\u003cpre\u003e label1 .=. value1 .@. record1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "(.@.)",
           "package": "HList",
@@ -7804,6 +8487,7 @@
         "index": {
           "description": "Update field with particular value Same fixity as so that extensions and updates can be chained There is no real list analogue since there is no Prelude defined update label1 value1 record1",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "(.@.) .@.",
           "normalized": "Tagged a b c-\u003eRecord d-\u003eRecord(HUpdateAtHNatR e(Tagged a b c)d)",
@@ -7818,6 +8502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "ExtraField",
           "package": "HList",
@@ -7827,6 +8512,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "ExtraField",
           "package": "HList",
@@ -7840,6 +8526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "FieldNotFound",
           "package": "HList",
@@ -7849,6 +8536,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "FieldNotFound",
           "package": "HList",
@@ -7862,6 +8550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7871,6 +8560,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "Record",
           "package": "HList",
@@ -7885,6 +8575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an empty record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "emptyRecord",
           "package": "HList",
@@ -7895,6 +8586,7 @@
         "index": {
           "description": "Build an empty record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "emptyRecord",
           "normalized": "Record[]",
@@ -7910,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "h2projectByLabels",
           "package": "HList",
@@ -7919,6 +8612,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "h2projectByLabels",
           "normalized": "Proxy a-\u003eHList b-\u003e(HList c,HList d)",
@@ -7934,6 +8628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "h2projectByLabels'",
           "package": "HList",
@@ -7943,6 +8638,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "h2projectByLabels'",
           "normalized": "Proxy a-\u003eProxy b-\u003eHList c-\u003e(HList d,HList e)",
@@ -7958,6 +8654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hDeleteAtLabel",
           "package": "HList",
@@ -7967,6 +8664,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hDeleteAtLabel",
           "normalized": "Label a-\u003eRecord b-\u003eRecord b",
@@ -7982,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLabels",
           "package": "HList",
@@ -7991,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLabels",
           "normalized": "HList a-\u003eProxy(LabelsOf a)",
@@ -8006,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLeftUnion",
           "package": "HList",
@@ -8015,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLeftUnion",
           "normalized": "Record a-\u003eRecord b-\u003eRecord c",
@@ -8030,6 +8732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLeftUnionBool",
           "package": "HList",
@@ -8039,6 +8742,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLeftUnionBool",
           "normalized": "Proxy a-\u003eRecord b-\u003ec-\u003eRecord d",
@@ -8054,6 +8758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLens",
           "package": "HList",
@@ -8063,6 +8768,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLens",
           "normalized": "Label a b-\u003e(c-\u003ed c)-\u003eRecord e-\u003ed(Record(HUpdateAtHNatR f(Tagged a b c)e))",
@@ -8078,6 +8784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLookupByLabel",
           "package": "HList",
@@ -8087,6 +8794,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLookupByLabel",
           "normalized": "Label a-\u003eb-\u003ec",
@@ -8102,6 +8810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hLookupByLabel'",
           "package": "HList",
@@ -8111,6 +8820,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hLookupByLabel'",
           "normalized": "Proxy a-\u003eLabel b-\u003eHList c-\u003ed",
@@ -8127,6 +8837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ehProjectByLabels ls r\u003c/code\u003e returns \u003ccode\u003er\u003c/code\u003e with only the labels in \u003ccode\u003els\u003c/code\u003e remaining\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hProjectByLabels",
           "package": "HList",
@@ -8137,6 +8848,7 @@
         "index": {
           "description": "hProjectByLabels ls returns with only the labels in ls remaining",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hProjectByLabels",
           "normalized": "Proxy a-\u003eRecord b-\u003eRecord c",
@@ -8153,6 +8865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eH2ProjectByLabels\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hProjectByLabels2",
           "package": "HList",
@@ -8163,6 +8876,7 @@
         "index": {
           "description": "See H2ProjectByLabels",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hProjectByLabels2",
           "normalized": "Proxy a-\u003eRecord b-\u003e(Record b,Record b)",
@@ -8179,6 +8893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRearranges a record by labels. Returns the record r, rearranged such that\n the labels are in the order given by ls. (recordLabels r) must be a\n permutation of ls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hRearrange",
           "package": "HList",
@@ -8189,6 +8904,7 @@
         "index": {
           "description": "Rearranges record by labels Returns the record rearranged such that the labels are in the order given by ls recordLabels must be permutation of ls",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hRearrange",
           "normalized": "Proxy a-\u003eRecord b-\u003eRecord c",
@@ -8204,6 +8920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hRearrange2",
           "package": "HList",
@@ -8213,6 +8930,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hRearrange2",
           "normalized": "Proxy a-\u003eHList b-\u003ec",
@@ -8228,6 +8946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hRearrange2'",
           "package": "HList",
@@ -8237,6 +8956,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hRearrange2'",
           "normalized": "Proxy a-\u003eProxy b-\u003eHList c-\u003eHList d-\u003ee",
@@ -8253,6 +8973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the label of record\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ehRenameLabel x y (x .=. () .*. emptyRecord)\n\u003c/code\u003e\u003c/strong\u003eRecord{y=()}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hRenameLabel",
           "package": "HList",
@@ -8263,6 +8984,7 @@
         "index": {
           "description": "Rename the label of record hRenameLabel emptyRecord Record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hRenameLabel",
           "normalized": "Label a b-\u003eLabel a b-\u003eRecord c-\u003eRecord(*(Tagged a b d)c)",
@@ -8279,6 +9001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variation on \u003ccode\u003e\u003ca\u003ehUpdateAtLabel\u003c/a\u003e\u003c/code\u003e: type-preserving update.\n\u003c/p\u003e\u003cp\u003eWe could also say:\n\u003c/p\u003e\u003cpre\u003e hTPupdateAtLabel l v r = hUpdateAtLabel l v r `asTypeOf` r\n\u003c/pre\u003e\u003cp\u003eThen we were taking a dependency on Haskell's type equivalence.\nThis would also constrain the actual implementation of hUpdateAtLabel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hTPupdateAtLabel",
           "package": "HList",
@@ -8289,6 +9012,7 @@
         "index": {
           "description": "variation on hUpdateAtLabel type-preserving update We could also say hTPupdateAtLabel hUpdateAtLabel asTypeOf Then we were taking dependency on Haskell type equivalence This would also constrain the actual implementation of hUpdateAtLabel",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hTPupdateAtLabel",
           "normalized": "Label a b-\u003ec-\u003eRecord d-\u003eRecord(HUpdateAtHNatR e(Tagged a b c)d)",
@@ -8305,6 +9029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehUpdateAtLabel\u003c/a\u003e\u003c/code\u003e \u003ccode\u003elabel value record\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "hUpdateAtLabel",
           "package": "HList",
@@ -8315,6 +9040,7 @@
         "index": {
           "description": "hUpdateAtLabel label value record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "hUpdateAtLabel",
           "normalized": "Label a-\u003eb-\u003eRecord c-\u003eRecord(HUpdateAtHNatR d(Tagged a b)c)",
@@ -8331,6 +9057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "labelLVPair",
           "package": "HList",
@@ -8341,6 +9068,7 @@
         "index": {
           "description": "Label accessor",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "labelLVPair",
           "normalized": "Tagged a b-\u003eLabel a",
@@ -8357,6 +9085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "mkRecord",
           "package": "HList",
@@ -8367,6 +9096,7 @@
         "index": {
           "description": "Build record",
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "mkRecord",
           "normalized": "HList a-\u003eRecord a",
@@ -8382,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "newLVPair",
           "package": "HList",
@@ -8391,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "newLVPair",
           "normalized": "Label a-\u003eb-\u003eTagged a b",
@@ -8406,6 +9138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "recordLabels",
           "package": "HList",
@@ -8415,6 +9148,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "recordLabels",
           "normalized": "Record a-\u003eProxy(RecordLabels a)",
@@ -8430,6 +9164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "recordValues",
           "package": "HList",
@@ -8439,6 +9174,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "recordValues",
           "normalized": "Record a-\u003eHList(RecordValuesR a)",
@@ -8454,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "recordValues'",
           "package": "HList",
@@ -8463,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "recordValues'",
           "normalized": "HList a-\u003eHList(RecordValuesR a)",
@@ -8478,6 +9216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "showComponents",
           "package": "HList",
@@ -8487,6 +9226,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "showComponents",
           "normalized": "String-\u003eHList a-\u003eString",
@@ -8502,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "showLabel",
           "package": "HList",
@@ -8511,6 +9252,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "showLabel",
           "normalized": "Label a-\u003eString",
@@ -8526,6 +9268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "unionSR",
           "package": "HList",
@@ -8535,6 +9278,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "unionSR",
           "normalized": "Record a-\u003eRecord a-\u003e(Record b,Record b)",
@@ -8550,6 +9294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Record",
           "name": "unionSR'",
           "package": "HList",
@@ -8559,6 +9304,7 @@
         },
         "index": {
           "hierarchy": "Data HList Record",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Record",
           "name": "unionSR'",
           "normalized": "Proxy a-\u003eRecord b-\u003ec-\u003eRecord b-\u003e(Record d,Record d)",
@@ -8574,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.RecordPuns",
           "name": "RecordPuns",
           "package": "HList",
@@ -8582,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Data HList RecordPuns",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.RecordPuns",
           "name": "RecordPuns",
           "package": "HList",
@@ -8596,6 +9344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequires the use of \u003ca\u003eData.HList.Label6\u003c/a\u003e (ie. the label for foo is \u003ccode\u003eLabel :: Label \"foo\"\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.RecordPuns",
           "name": "pun",
           "package": "HList",
@@ -8606,6 +9355,7 @@
         "index": {
           "description": "requires the use of Data.HList.Label6 ie the label for foo is Label Label foo",
           "hierarchy": "Data HList RecordPuns",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.RecordPuns",
           "name": "pun",
           "package": "HList",
@@ -8619,6 +9369,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eType-indexed co-products.\n\u003c/p\u003e\u003cp\u003e(There are other ways: see ConsUnion.hs, for example)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8628,6 +9379,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Type-indexed co-products There are other ways see ConsUnion.hs for example",
           "hierarchy": "Data HList TIC",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8642,6 +9394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA datatype for type-indexed co-products\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8651,6 +9404,7 @@
         "index": {
           "description": "datatype for type-indexed co-products",
           "hierarchy": "Data HList TIC",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8664,6 +9418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8673,6 +9428,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIC",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIC",
           "name": "TIC",
           "package": "HList",
@@ -8687,6 +9443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic constructor (or, open union's injection function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIC",
           "name": "mkTIC",
           "package": "HList",
@@ -8697,6 +9454,7 @@
         "index": {
           "description": "Public constructor or open union injection function",
           "hierarchy": "Data HList TIC",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIC",
           "name": "mkTIC",
           "normalized": "a-\u003eTIC b",
@@ -8713,6 +9471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic destructor (or, open union's projection function)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIC",
           "name": "unTIC",
           "package": "HList",
@@ -8723,6 +9482,7 @@
         "index": {
           "description": "Public destructor or open union projection function",
           "hierarchy": "Data HList TIC",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIC",
           "name": "unTIC",
           "normalized": "TIC a-\u003eMaybe b",
@@ -8739,6 +9499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eType-indexed products.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8748,6 +9509,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Type-indexed products",
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8761,6 +9523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "HTypeIndexed",
           "package": "HList",
@@ -8769,6 +9532,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "HTypeIndexed",
           "package": "HList",
@@ -8782,6 +9546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8790,6 +9555,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8803,6 +9569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8812,6 +9579,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "TIP",
           "package": "HList",
@@ -8825,6 +9593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "emptyTIP",
           "package": "HList",
@@ -8834,6 +9603,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "emptyTIP",
           "normalized": "TIP[]",
@@ -8849,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "mkTIP",
           "package": "HList",
@@ -8858,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "mkTIP",
           "normalized": "HList a-\u003eTIP a",
@@ -8873,6 +9645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "onTIP",
           "package": "HList",
@@ -8882,6 +9655,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "onTIP",
           "normalized": "(HList a-\u003eHList b)-\u003eTIP a-\u003eTIP b",
@@ -8897,6 +9671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "tipyDelete",
           "package": "HList",
@@ -8906,6 +9681,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "tipyDelete",
           "normalized": "Proxy a b-\u003eTIP c-\u003eTIP(HDeleteAtHNatR d c)",
@@ -8921,6 +9697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "tipyProject",
           "package": "HList",
@@ -8930,6 +9707,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "tipyProject",
           "normalized": "Proxy[*](HProjectByHNatsR a b)-\u003eTIP b-\u003eTIP(HProjectByHNatsR a b)",
@@ -8946,6 +9724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit produces two TIPs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "tipySplit",
           "package": "HList",
@@ -8956,6 +9735,7 @@
         "index": {
           "description": "Split produces two TIPs",
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "tipySplit",
           "normalized": "Proxy[*]a-\u003eTIP b-\u003e(TIP(HProjectByHNatsR c b),TIP(HProjectAwayByHNatsR c b))",
@@ -8971,6 +9751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "tipyUpdate",
           "package": "HList",
@@ -8980,6 +9761,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "tipyUpdate",
           "normalized": "a-\u003eTIP b-\u003eTIP(HUpdateAtHNatR c a b)",
@@ -8995,6 +9777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TIP",
           "name": "unTIP",
           "package": "HList",
@@ -9004,6 +9787,7 @@
         },
         "index": {
           "hierarchy": "Data HList TIP",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TIP",
           "name": "unTIP",
           "package": "HList",
@@ -9018,6 +9802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eGeneric type equality predicate: \n   The implementation based on overlapping instances\n   The only place where overlapping instances are really used\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TypeEqO",
           "name": "TypeEqO",
           "package": "HList",
@@ -9027,6 +9812,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Generic type equality predicate The implementation based on overlapping instances The only place where overlapping instances are really used",
           "hierarchy": "Data HList TypeEqO",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TypeEqO",
           "name": "TypeEqO",
           "package": "HList",
@@ -9040,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.TypeEqO",
           "name": "TupleType",
           "package": "HList",
@@ -9048,6 +9835,7 @@
         },
         "index": {
           "hierarchy": "Data HList TypeEqO",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.TypeEqO",
           "name": "TupleType",
           "package": "HList",
@@ -9062,6 +9850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HList library\n\u003c/p\u003e\u003cp\u003e(C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eVariants, i.e., labelled sums.\n\u003c/p\u003e\u003cp\u003eOne approach to their implementation would be to consider both\n   the favoured label and the corresponding value as dynamics upon\n   variant construction. Since we are too lazy to programme some\n   Typeable instances for non-ghc systems (NB: in GHC, Typeable\n   is derivable), we rather model variants as (opaque) records\n   with maybies for the values. Only one value will actually hold\n   non-Nothing, as guaranteed by the constructor.\n\u003c/p\u003e\u003cp\u003eSee VariantP.hs for a different approach to open sums.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9071,6 +9860,7 @@
         "index": {
           "description": "The HList library Oleg Kiselyov Ralf Laemmel Keean Schupke Variants i.e labelled sums One approach to their implementation would be to consider both the favoured label and the corresponding value as dynamics upon variant construction Since we are too lazy to programme some Typeable instances for non-ghc systems NB in GHC Typeable is derivable we rather model variants as opaque records with maybies for the values Only one value will actually hold non-Nothing as guaranteed by the constructor See VariantP.hs for different approach to open sums",
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9085,6 +9875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn proxy sequence into sequence of Nothings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "HMaybeF",
           "package": "HList",
@@ -9094,6 +9885,7 @@
         "index": {
           "description": "Turn proxy sequence into sequence of Nothings",
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "HMaybeF",
           "package": "HList",
@@ -9108,6 +9900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant types on the basis of label-maybe pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9117,6 +9910,7 @@
         "index": {
           "description": "Variant types on the basis of label-maybe pairs",
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9130,6 +9924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "HMaybeF",
           "package": "HList",
@@ -9139,6 +9934,7 @@
         },
         "index": {
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "HMaybeF",
           "package": "HList",
@@ -9152,6 +9948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9161,6 +9958,7 @@
         },
         "index": {
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "Variant",
           "package": "HList",
@@ -9174,6 +9972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "hMaybied",
           "package": "HList",
@@ -9183,6 +9982,7 @@
         },
         "index": {
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "hMaybied",
           "normalized": "HList a-\u003eHList b",
@@ -9199,6 +9999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic constructor\n it seems we can blame \u003ccode\u003e\u003ca\u003ehUpdateAtLabel\u003c/a\u003e\u003c/code\u003e (not \u003ccode\u003e\u003ca\u003eHMap\u003c/a\u003e\u003c/code\u003e) for needing the asTypeOf?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "mkVariant",
           "package": "HList",
@@ -9209,6 +10010,7 @@
         "index": {
           "description": "Public constructor it seems we can blame hUpdateAtLabel not HMap for needing the asTypeOf",
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "mkVariant",
           "normalized": "Label a b-\u003ec-\u003eRecord d-\u003eVariant(HList e)",
@@ -9225,6 +10027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic destructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList.Variant",
           "name": "unVariant",
           "package": "HList",
@@ -9235,6 +10038,7 @@
         "index": {
           "description": "Public destructor",
           "hierarchy": "Data HList Variant",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList.Variant",
           "name": "unVariant",
           "normalized": "Label a b-\u003eVariant(HList c)-\u003ed",
@@ -9251,6 +10055,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOOHaskell (C) 2004, Oleg Kiselyov, Ralf Laemmel, Keean Schupke\n\u003c/p\u003e\u003cp\u003eThis module gathers the API that we need for OOP in Haskell.  We\nbasically select a certain configuration of the HList library, and we\nalso import modules that are needed for mutable data and monads. Note\non overlapping: Needed for the chosen model of labels. Other models\ncan be used instead, but the chosen look better in types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList",
           "name": "HList",
           "package": "HList",
@@ -9260,6 +10065,7 @@
         "index": {
           "description": "OOHaskell Oleg Kiselyov Ralf Laemmel Keean Schupke This module gathers the API that we need for OOP in Haskell We basically select certain configuration of the HList library and we also import modules that are needed for mutable data and monads Note on overlapping Needed for the chosen model of labels Other models can be used instead but the chosen look better in types",
           "hierarchy": "Data HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList",
           "name": "HList",
           "package": "HList",
@@ -9273,6 +10079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList",
           "name": "(#)",
           "package": "HList",
@@ -9282,6 +10089,7 @@
         },
         "index": {
           "hierarchy": "Data HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList",
           "name": "(#) #",
           "normalized": "a-\u003eLabel b-\u003ec",
@@ -9296,6 +10104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:47 UTC 2014",
           "module": "Data.HList",
           "name": "concrete",
           "package": "HList",
@@ -9305,6 +10114,7 @@
         },
         "index": {
           "hierarchy": "Data HList",
+          "indexed": "2014-03-11T16:45:47",
           "module": "Data.HList",
           "name": "concrete",
           "normalized": "(a-\u003eb a)-\u003ea-\u003eb a",

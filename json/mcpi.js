@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mcpi"
+        "phrase": "mcpi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBlock handling.\n\u003c/p\u003e\u003cp\u003eIt probably makes sense for the block types in\n \u003ca\u003eData.MineCraft.Pi.Types\u003c/a\u003e - namely \u003ccode\u003e\u003ca\u003eBlockType\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eBlockData\u003c/a\u003e\u003c/code\u003e\n to be moved into this module.\n\u003c/p\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.minecraftwiki.net/wiki/Data_values_(Pocket_Edition)\u003c/a\u003e and\n \u003ca\u003ehttp://www.minecraftwiki.net/wiki/Pi_Edition_version_history\u003c/a\u003e, although I\n have not cross-matched and verified all this information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "Block",
           "package": "mcpi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Block handling It probably makes sense for the block types in Data.MineCraft.Pi.Types namely BlockType and BlockData to be moved into this module See http www.minecraftwiki.net wiki Data values Pocket Edition and http www.minecraftwiki.net wiki Pi Edition version history although have not cross-matched and verified all this information",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "Block",
           "package": "mcpi",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "air",
           "package": "mcpi",
@@ -52,6 +55,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "air",
           "package": "mcpi",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bed",
           "package": "mcpi",
@@ -75,6 +80,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bed",
           "package": "mcpi",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bedrock",
           "package": "mcpi",
@@ -98,6 +105,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bedrock",
           "package": "mcpi",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bedrockInvisible",
           "package": "mcpi",
@@ -121,6 +130,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bedrockInvisible",
           "package": "mcpi",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bookshelf",
           "package": "mcpi",
@@ -145,6 +156,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "bookshelf",
           "package": "mcpi",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "brickBlock",
           "package": "mcpi",
@@ -168,6 +181,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "brickBlock",
           "package": "mcpi",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cactus",
           "package": "mcpi",
@@ -192,6 +207,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cactus",
           "package": "mcpi",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "chest",
           "package": "mcpi",
@@ -215,6 +232,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "chest",
           "package": "mcpi",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "clay",
           "package": "mcpi",
@@ -238,6 +257,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "clay",
           "package": "mcpi",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "coalOre",
           "package": "mcpi",
@@ -261,6 +282,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "coalOre",
           "package": "mcpi",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cobblestone",
           "package": "mcpi",
@@ -285,6 +308,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cobblestone",
           "package": "mcpi",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cobweb",
           "package": "mcpi",
@@ -308,6 +333,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "cobweb",
           "package": "mcpi",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "craftingTable",
           "package": "mcpi",
@@ -331,6 +358,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "craftingTable",
           "package": "mcpi",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "diamondBlock",
           "package": "mcpi",
@@ -355,6 +384,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "diamondBlock",
           "package": "mcpi",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "diamondOre",
           "package": "mcpi",
@@ -379,6 +410,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "diamondOre",
           "package": "mcpi",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "dirt",
           "package": "mcpi",
@@ -403,6 +436,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "dirt",
           "package": "mcpi",
@@ -416,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "doorIron",
           "package": "mcpi",
@@ -426,6 +461,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "doorIron",
           "package": "mcpi",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "doorWood",
           "package": "mcpi",
@@ -450,6 +487,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "doorWood",
           "package": "mcpi",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "farmland",
           "package": "mcpi",
@@ -474,6 +513,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "farmland",
           "package": "mcpi",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fence",
           "package": "mcpi",
@@ -497,6 +538,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fence",
           "package": "mcpi",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fenceGate",
           "package": "mcpi",
@@ -520,6 +563,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fenceGate",
           "package": "mcpi",
@@ -534,6 +578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fire",
           "package": "mcpi",
@@ -544,6 +589,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "fire",
           "package": "mcpi",
@@ -557,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "flowerCyan",
           "package": "mcpi",
@@ -567,6 +614,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "flowerCyan",
           "package": "mcpi",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "flowerYellow",
           "package": "mcpi",
@@ -591,6 +640,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "flowerYellow",
           "package": "mcpi",
@@ -605,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "furnaceActive",
           "package": "mcpi",
@@ -615,6 +666,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "furnaceActive",
           "package": "mcpi",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "furnaceInactive",
           "package": "mcpi",
@@ -639,6 +692,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "furnaceInactive",
           "package": "mcpi",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat is the block at this position? See also \u003ccode\u003e\u003ca\u003egetBlockData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlock",
           "package": "mcpi",
@@ -663,6 +718,7 @@
         "index": {
           "description": "What is the block at this position See also getBlockData",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlock",
           "normalized": "IPos-\u003eMCPI BlockType",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat is the block at this position? See also \u003ccode\u003e\u003ca\u003egetBlock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlockData",
           "package": "mcpi",
@@ -689,6 +746,7 @@
         "index": {
           "description": "What is the block at this position See also getBlock",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlockData",
           "normalized": "IPos-\u003eMCPI(BlockType,BlockData)",
@@ -705,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the blocks in the cuboid defined by the start and end positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlocks",
           "package": "mcpi",
@@ -714,6 +773,7 @@
         "index": {
           "description": "Get the blocks in the cuboid defined by the start and end positions",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "getBlocks",
           "normalized": "IPos-\u003eIPos-\u003eMCPI[BlockType]",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glass",
           "package": "mcpi",
@@ -740,6 +801,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glass",
           "package": "mcpi",
@@ -753,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glassPane",
           "package": "mcpi",
@@ -763,6 +826,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glassPane",
           "package": "mcpi",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glowingObsidian",
           "package": "mcpi",
@@ -787,6 +852,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glowingObsidian",
           "package": "mcpi",
@@ -801,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glowstoneBlock",
           "package": "mcpi",
@@ -811,6 +878,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "glowstoneBlock",
           "package": "mcpi",
@@ -825,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "goldBlock",
           "package": "mcpi",
@@ -835,6 +904,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "goldBlock",
           "package": "mcpi",
@@ -849,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "goldOre",
           "package": "mcpi",
@@ -859,6 +930,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "goldOre",
           "package": "mcpi",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "grass",
           "package": "mcpi",
@@ -883,6 +956,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "grass",
           "package": "mcpi",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "grassTall",
           "package": "mcpi",
@@ -906,6 +981,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "grassTall",
           "package": "mcpi",
@@ -920,6 +996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "gravel",
           "package": "mcpi",
@@ -930,6 +1007,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "gravel",
           "package": "mcpi",
@@ -943,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ice",
           "package": "mcpi",
@@ -953,6 +1032,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ice",
           "package": "mcpi",
@@ -966,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ironBlock",
           "package": "mcpi",
@@ -976,6 +1057,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ironBlock",
           "package": "mcpi",
@@ -990,6 +1072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ironOre",
           "package": "mcpi",
@@ -1000,6 +1083,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ironOre",
           "package": "mcpi",
@@ -1014,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ladder",
           "package": "mcpi",
@@ -1024,6 +1109,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "ladder",
           "package": "mcpi",
@@ -1037,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lapisLazuliBlock",
           "package": "mcpi",
@@ -1047,6 +1134,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lapisLazuliBlock",
           "package": "mcpi",
@@ -1061,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lapisLazuliOre",
           "package": "mcpi",
@@ -1071,6 +1160,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lapisLazuliOre",
           "package": "mcpi",
@@ -1085,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lava",
           "package": "mcpi",
@@ -1095,6 +1186,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lava",
           "package": "mcpi",
@@ -1108,6 +1200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lavaStationary",
           "package": "mcpi",
@@ -1118,6 +1211,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "lavaStationary",
           "package": "mcpi",
@@ -1132,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "leaves",
           "package": "mcpi",
@@ -1142,6 +1237,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "leaves",
           "package": "mcpi",
@@ -1155,6 +1251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "melon",
           "package": "mcpi",
@@ -1165,6 +1262,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "melon",
           "package": "mcpi",
@@ -1178,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mossStone",
           "package": "mcpi",
@@ -1188,6 +1287,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mossStone",
           "package": "mcpi",
@@ -1202,6 +1302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mushroomBrown",
           "package": "mcpi",
@@ -1212,6 +1313,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mushroomBrown",
           "package": "mcpi",
@@ -1226,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mushroomRed",
           "package": "mcpi",
@@ -1236,6 +1339,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "mushroomRed",
           "package": "mcpi",
@@ -1250,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "netherReactorCore",
           "package": "mcpi",
@@ -1260,6 +1365,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "netherReactorCore",
           "package": "mcpi",
@@ -1274,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "obsidian",
           "package": "mcpi",
@@ -1284,6 +1391,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "obsidian",
           "package": "mcpi",
@@ -1297,6 +1405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "redstoneOre",
           "package": "mcpi",
@@ -1307,6 +1416,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "redstoneOre",
           "package": "mcpi",
@@ -1321,6 +1431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sand",
           "package": "mcpi",
@@ -1331,6 +1442,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sand",
           "package": "mcpi",
@@ -1344,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sandstone",
           "package": "mcpi",
@@ -1354,6 +1467,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sandstone",
           "package": "mcpi",
@@ -1367,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sapling",
           "package": "mcpi",
@@ -1377,6 +1492,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sapling",
           "package": "mcpi",
@@ -1390,6 +1506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the block at the position. See also \u003ccode\u003e\u003ca\u003esetBlockData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlock",
           "package": "mcpi",
@@ -1400,6 +1517,7 @@
         "index": {
           "description": "Change the block at the position See also setBlockData",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlock",
           "normalized": "IPos-\u003eBlockType-\u003eMCPI()",
@@ -1416,6 +1534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the block at the position. See also \u003ccode\u003e\u003ca\u003esetBlock\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlockData",
           "package": "mcpi",
@@ -1426,6 +1545,7 @@
         "index": {
           "description": "Change the block at the position See also setBlock",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlockData",
           "normalized": "IPos-\u003e(BlockType,BlockData)-\u003eMCPI()",
@@ -1442,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all the blocks in the cuboid to the same type. See also\n   \u003ccode\u003e\u003ca\u003esetBlocksData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlocks",
           "package": "mcpi",
@@ -1452,6 +1573,7 @@
         "index": {
           "description": "Set all the blocks in the cuboid to the same type See also setBlocksData",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlocks",
           "normalized": "IPos-\u003eIPos-\u003eBlockType-\u003eMCPI()",
@@ -1468,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all the blocks in the cuboid to the same type. See also\n   \u003ccode\u003e\u003ca\u003esetBlocks\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlocksData",
           "package": "mcpi",
@@ -1478,6 +1601,7 @@
         "index": {
           "description": "Set all the blocks in the cuboid to the same type See also setBlocks",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "setBlocksData",
           "normalized": "IPos-\u003eIPos-\u003e(BlockType,BlockData)-\u003eMCPI()",
@@ -1493,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "showBlock",
           "package": "mcpi",
@@ -1502,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "showBlock",
           "normalized": "BlockType-\u003eString",
@@ -1518,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "snow",
           "package": "mcpi",
@@ -1528,6 +1655,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "snow",
           "package": "mcpi",
@@ -1541,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "snowBlock",
           "package": "mcpi",
@@ -1551,6 +1680,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "snowBlock",
           "package": "mcpi",
@@ -1565,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stairsCobblestone",
           "package": "mcpi",
@@ -1575,6 +1706,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stairsCobblestone",
           "package": "mcpi",
@@ -1589,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stairsWood",
           "package": "mcpi",
@@ -1599,6 +1732,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stairsWood",
           "package": "mcpi",
@@ -1613,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stone",
           "package": "mcpi",
@@ -1623,6 +1758,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stone",
           "package": "mcpi",
@@ -1636,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneBrick",
           "package": "mcpi",
@@ -1646,6 +1783,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneBrick",
           "package": "mcpi",
@@ -1660,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneSlab",
           "package": "mcpi",
@@ -1670,6 +1809,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneSlab",
           "package": "mcpi",
@@ -1684,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneSlabDouble",
           "package": "mcpi",
@@ -1694,6 +1835,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "stoneSlabDouble",
           "package": "mcpi",
@@ -1708,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sugarCane",
           "package": "mcpi",
@@ -1718,6 +1861,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "sugarCane",
           "package": "mcpi",
@@ -1732,6 +1876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "tnt",
           "package": "mcpi",
@@ -1742,6 +1887,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "tnt",
           "package": "mcpi",
@@ -1755,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "torch",
           "package": "mcpi",
@@ -1765,6 +1912,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "torch",
           "package": "mcpi",
@@ -1778,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "water",
           "package": "mcpi",
@@ -1788,6 +1937,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "water",
           "package": "mcpi",
@@ -1801,6 +1951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "waterStationary",
           "package": "mcpi",
@@ -1811,6 +1962,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "waterStationary",
           "package": "mcpi",
@@ -1825,6 +1977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "wood",
           "package": "mcpi",
@@ -1835,6 +1988,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "wood",
           "package": "mcpi",
@@ -1848,6 +2002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "woodPlanks",
           "package": "mcpi",
@@ -1858,6 +2013,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "woodPlanks",
           "package": "mcpi",
@@ -1872,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type of a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Block",
           "name": "wool",
           "package": "mcpi",
@@ -1882,6 +2039,7 @@
         "index": {
           "description": "type of block",
           "hierarchy": "Data MineCraft Pi Block",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Block",
           "name": "wool",
           "package": "mcpi",
@@ -1895,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandle the camera position.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e At present this module does not handle multiple users.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "Camera",
           "package": "mcpi",
@@ -1904,6 +2063,7 @@
         "index": {
           "description": "Handle the camera position Note At present this module does not handle multiple users",
           "hierarchy": "Data MineCraft Pi Camera",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "Camera",
           "package": "mcpi",
@@ -1917,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraFixed",
           "package": "mcpi",
@@ -1926,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Camera",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraFixed",
           "normalized": "MCPI()",
@@ -1941,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraNormal",
           "package": "mcpi",
@@ -1950,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Camera",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraNormal",
           "normalized": "MCPI()",
@@ -1966,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the position of the camera.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraPos",
           "package": "mcpi",
@@ -1976,6 +2141,7 @@
         "index": {
           "description": "Change the position of the camera",
           "hierarchy": "Data MineCraft Pi Camera",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraPos",
           "normalized": "IPos-\u003eMCPI()",
@@ -1991,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraThirdPerson",
           "package": "mcpi",
@@ -2000,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Camera",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Camera",
           "name": "setCameraThirdPerson",
           "normalized": "MCPI()",
@@ -2016,6 +2184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA mixture of routines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Other",
           "name": "Other",
           "package": "mcpi",
@@ -2025,6 +2194,7 @@
         "index": {
           "description": "mixture of routines",
           "hierarchy": "Data MineCraft Pi Other",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Other",
           "name": "Other",
           "package": "mcpi",
@@ -2039,6 +2209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a message to MineCraft for it to display.\n\u003c/p\u003e\u003cp\u003eThere is no attempt to remove or replace invalid characters. The\n   MineCraft server API uses ASCII and it is likely that new lines\n   are not allowed in the message, although this is not specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Other",
           "name": "chatPost",
           "package": "mcpi",
@@ -2049,6 +2220,7 @@
         "index": {
           "description": "Send message to MineCraft for it to display There is no attempt to remove or replace invalid characters The MineCraft server API uses ASCII and it is likely that new lines are not allowed in the message although this is not specified",
           "hierarchy": "Data MineCraft Pi Other",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Other",
           "name": "chatPost",
           "normalized": "String-\u003eMCPI()",
@@ -2065,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the height of the world at this position. The spec says\n   that the input uses the \u003ccode\u003e(x,z)\u003c/code\u003e coordinates, but I am assuming this\n   is a typo and am using \u003ccode\u003e(x,y)\u003c/code\u003e instead.\n\u003c/p\u003e\u003cp\u003eIt would be easy to test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Other",
           "name": "getHeight",
           "package": "mcpi",
@@ -2075,6 +2248,7 @@
         "index": {
           "description": "Return the height of the world at this position The spec says that the input uses the coordinates but am assuming this is typo and am using instead It would be easy to test",
           "hierarchy": "Data MineCraft Pi Other",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Other",
           "name": "getHeight",
           "normalized": "IPos-\u003eMCPI Int",
@@ -2091,6 +2265,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlayers in MineCraft.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e This module currently does not support multiple players.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Player",
           "name": "Player",
           "package": "mcpi",
@@ -2100,6 +2275,7 @@
         "index": {
           "description": "Players in MineCraft Note This module currently does not support multiple players",
           "hierarchy": "Data MineCraft Pi Player",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Player",
           "name": "Player",
           "package": "mcpi",
@@ -2114,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere is the user? See also \u003ccode\u003e\u003ca\u003egetPlayerTile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Player",
           "name": "getPlayerPos",
           "package": "mcpi",
@@ -2124,6 +2301,7 @@
         "index": {
           "description": "Where is the user See also getPlayerTile",
           "hierarchy": "Data MineCraft Pi Player",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Player",
           "name": "getPlayerPos",
           "package": "mcpi",
@@ -2138,6 +2316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere is the user? See also \u003ccode\u003e\u003ca\u003egetPlayerPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Player",
           "name": "getPlayerTile",
           "package": "mcpi",
@@ -2148,6 +2327,7 @@
         "index": {
           "description": "Where is the user See also getPlayerPos",
           "hierarchy": "Data MineCraft Pi Player",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Player",
           "name": "getPlayerTile",
           "package": "mcpi",
@@ -2162,6 +2342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the user. See also \u003ccode\u003e\u003ca\u003esetPlayerTile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Player",
           "name": "setPlayerPos",
           "package": "mcpi",
@@ -2172,6 +2353,7 @@
         "index": {
           "description": "Move the user See also setPlayerTile",
           "hierarchy": "Data MineCraft Pi Player",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Player",
           "name": "setPlayerPos",
           "normalized": "FPos-\u003eMCPI()",
@@ -2188,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove the user. See also \u003ccode\u003e\u003ca\u003esetPlayerPos\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Player",
           "name": "setPlayerTile",
           "package": "mcpi",
@@ -2198,6 +2381,7 @@
         "index": {
           "description": "Move the user See also setPlayerPos",
           "hierarchy": "Data MineCraft Pi Player",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Player",
           "name": "setPlayerTile",
           "normalized": "IPos-\u003eMCPI()",
@@ -2214,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful data types. The block types should probably move to\n \u003ca\u003eData.MineCraft.Pi.Block\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Types",
           "package": "mcpi",
@@ -2223,6 +2408,7 @@
         "index": {
           "description": "Useful data types The block types should probably move to Data.MineCraft.Pi.Block",
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Types",
           "package": "mcpi",
@@ -2237,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData on a block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockData",
           "package": "mcpi",
@@ -2246,6 +2433,7 @@
         "index": {
           "description": "Data on block",
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockData",
           "package": "mcpi",
@@ -2260,6 +2448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a block.\n\u003c/p\u003e\u003cp\u003eWe should probably combine \u003ccode\u003e\u003ca\u003eBlockType\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eBlockData\u003c/a\u003e\u003c/code\u003e.\n   I have not looked to see whether it is worth using\n   an integer (as I currently do) or just an enumerated\n   type (e.g. if there are large ranges of the range 0 to 1023\n   that do not represent a valid block).\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eshowBlock\u003c/a\u003e\u003c/code\u003e for a more readable\n   way to convert to a \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockType",
           "package": "mcpi",
@@ -2269,6 +2458,7 @@
         "index": {
           "description": "Represent block We should probably combine BlockType and BlockData have not looked to see whether it is worth using an integer as currently do or just an enumerated type e.g if there are large ranges of the range to that do not represent valid block Use showBlock for more readable way to convert to String",
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockType",
           "package": "mcpi",
@@ -2282,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "FPos",
           "package": "mcpi",
@@ -2290,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "FPos",
           "package": "mcpi",
@@ -2303,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "IPos",
           "package": "mcpi",
@@ -2311,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "IPos",
           "package": "mcpi",
@@ -2325,6 +2519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent the position of an entity. Note that we use\n   \u003ccode\u003e(X,Y,Z)\u003c/code\u003e order rather than \u003ccode\u003e(X,Z,Y)\u003c/code\u003e used by the MineCraft API.\n\u003c/p\u003e\u003cp\u003eThis *should* be replaced by one of the \"standard\" Haskell\n   3D vector types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Pos",
           "package": "mcpi",
@@ -2334,6 +2529,7 @@
         "index": {
           "description": "Represent the position of an entity Note that we use order rather than used by the MineCraft API This should be replaced by one of the standard Haskell vector types",
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Pos",
           "package": "mcpi",
@@ -2347,6 +2543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockData",
           "package": "mcpi",
@@ -2356,6 +2553,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockData",
           "package": "mcpi",
@@ -2369,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockType",
           "package": "mcpi",
@@ -2378,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "BlockType",
           "package": "mcpi",
@@ -2391,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Pos",
           "package": "mcpi",
@@ -2400,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "Pos",
           "package": "mcpi",
@@ -2413,6 +2615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_x",
           "package": "mcpi",
@@ -2422,6 +2625,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_x",
           "package": "mcpi",
@@ -2434,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_y",
           "package": "mcpi",
@@ -2443,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_y",
           "package": "mcpi",
@@ -2455,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_z",
           "package": "mcpi",
@@ -2464,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Data MineCraft Pi Types",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Data.MineCraft.Pi.Types",
           "name": "_z",
           "package": "mcpi",
@@ -2477,6 +2685,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal types for connecting to the Raspberry-PI version\n of MineCraft. Most users are expected to use \u003ca\u003eNetwork.MineCraft.Pi.Client\u003c/a\u003e\n rather than this module, but it is provided in case the former\n is not sufficient.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "Internal",
           "package": "mcpi",
@@ -2486,6 +2695,7 @@
         "index": {
           "description": "Internal types for connecting to the Raspberry-PI version of MineCraft Most users are expected to use Network.MineCraft.Pi.Client rather than this module but it is provided in case the former is not sufficient",
           "hierarchy": "Network MineCraft Pi Client Internal",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "Internal",
           "package": "mcpi",
@@ -2500,6 +2710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a program that communicates with a MineCraft PI\n   server.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e run a computation without automatically opening\n         and closing the handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "MCPI",
           "package": "mcpi",
@@ -2509,6 +2720,7 @@
         "index": {
           "description": "Represent program that communicates with MineCraft PI server TODO run computation without automatically opening and closing the handle",
           "hierarchy": "Network MineCraft Pi Client Internal",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "MCPI",
           "package": "mcpi",
@@ -2523,6 +2735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a MineCraft command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "command",
           "package": "mcpi",
@@ -2533,6 +2746,7 @@
         "index": {
           "description": "Run MineCraft command",
           "hierarchy": "Network MineCraft Pi Client Internal",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "command",
           "normalized": "Command-\u003e[Argument]-\u003eMCPI()",
@@ -2548,6 +2762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a MineCraft query, returning the response. An\n   \u003ccode\u003eIOError\u003c/code\u003e is raised if the response is \u003ccode\u003eFail\u003c/code\u003e (this\n   might be due to a previous command failing, depending\n   on the time taken by MineCraft to respond).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "query",
           "package": "mcpi",
@@ -2558,6 +2773,7 @@
         "index": {
           "description": "Run MineCraft query returning the response An IOError is raised if the response is Fail this might be due to previous command failing depending on the time taken by MineCraft to respond",
           "hierarchy": "Network MineCraft Pi Client Internal",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "query",
           "normalized": "Query-\u003e[Argument]-\u003eMCPI String",
@@ -2600,6 +2816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a Raspberry-PI program. The flag determines whether the\n   messages sent to, and received from, the server, are\n   printed to \u003ccode\u003estderr\u003c/code\u003e as a diagnostic.\n\u003c/p\u003e\u003cp\u003eAn exception is raised if the server is not running, or\n   can not be contacted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "runMCPI'",
           "package": "mcpi",
@@ -2610,6 +2827,7 @@
         "index": {
           "description": "Run Raspberry-PI program The flag determines whether the messages sent to and received from the server are printed to stderr as diagnostic An exception is raised if the server is not running or can not be contacted",
           "hierarchy": "Network MineCraft Pi Client Internal",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client.Internal",
           "name": "runMCPI'",
           "normalized": "Bool-\u003eMCPI a-\u003eIO a",
@@ -2626,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main interface for connecting to the Raspberry-PI version\n of MineCraft. The \u003ca\u003eNetwork.MineCraft.Pi.Client.Internal\u003c/a\u003e module\n provides lower-level access in case this module in insufficient.\n\u003c/p\u003e\u003cp\u003eThere are two types of calls to MineCraft: \"command\" and \"query\".\n Commands change the state of the server and do not return anything,\n queries return information from the server, and presumably does not\n change the server state. This terminology may change. At present\n there is no check that the call succeeded.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cp\u003eIn this example we move the player 10 tiles in the X direction,\n as long as the tile is empty (there is \u003cem\u003eno\u003c/em\u003e check that there\n is anything to stand on).\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE RecordWildCards #-}\n\n module Main where\n\n import Control.Monad (when)\n\n import Data.MineCraft.Pi.Block \n import Data.MineCraft.Pi.Player\n import Data.MineCraft.Pi.Other\n import Data.MineCraft.Pi.Types\n\n import Network.MineCraft.Pi.Client\n\n -- | Move the player by 10 tiles in the X direction,\n --   if it is not filled.\n movePlayer :: MCPI ()\n movePlayer = do\n     Pos {..} \u003c- getPlayerTile\n     let newPos = Pos (_x+10) _y _z\n     bType \u003c- getBlock newPos\n     when (bType == air) $ do\n       setPlayerTile newPos\n       chatPost \"*jump*\"\n\n main :: IO ()\n main = runMCPI movePlayer\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "Client",
           "package": "mcpi",
@@ -2635,6 +2854,7 @@
         "index": {
           "description": "The main interface for connecting to the Raspberry-PI version of MineCraft The Network.MineCraft.Pi.Client.Internal module provides lower-level access in case this module in insufficient There are two types of calls to MineCraft command and query Commands change the state of the server and do not return anything queries return information from the server and presumably does not change the server state This terminology may change At present there is no check that the call succeeded Example In this example we move the player tiles in the direction as long as the tile is empty there is no check that there is anything to stand on LANGUAGE RecordWildCards module Main where import Control.Monad when import Data.MineCraft.Pi.Block import Data.MineCraft.Pi.Player import Data.MineCraft.Pi.Other import Data.MineCraft.Pi.Types import Network.MineCraft.Pi.Client Move the player by tiles in the direction if it is not filled movePlayer MCPI movePlayer do Pos getPlayerTile let newPos Pos bType getBlock newPos when bType air do setPlayerTile newPos chatPost jump main IO main runMCPI movePlayer",
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "Client",
           "package": "mcpi",
@@ -2649,6 +2869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the return value from MineCraft into\n   a Haskell type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "FromMineCraft",
           "package": "mcpi",
@@ -2658,6 +2879,7 @@
         "index": {
           "description": "Convert the return value from MineCraft into Haskell type",
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "FromMineCraft",
           "package": "mcpi",
@@ -2672,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a program that communicates with a MineCraft PI\n   server.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eTODO:\u003c/em\u003e run a computation without automatically opening\n         and closing the handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "MCPI",
           "package": "mcpi",
@@ -2681,6 +2904,7 @@
         "index": {
           "description": "Represent program that communicates with MineCraft PI server TODO run computation without automatically opening and closing the handle",
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "MCPI",
           "package": "mcpi",
@@ -2695,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value into a form that can be sent to MineCraft.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "ToMineCraft",
           "package": "mcpi",
@@ -2704,6 +2929,7 @@
         "index": {
           "description": "Convert value into form that can be sent to MineCraft",
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "ToMineCraft",
           "package": "mcpi",
@@ -2718,6 +2944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value, but error out if it can not be\n   converted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "eRead",
           "package": "mcpi",
@@ -2728,6 +2955,7 @@
         "index": {
           "description": "Convert value but error out if it can not be converted",
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "eRead",
           "normalized": "String-\u003ea",
@@ -2743,6 +2971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "fromMC",
           "package": "mcpi",
@@ -2752,6 +2981,7 @@
         },
         "index": {
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "fromMC",
           "normalized": "String-\u003ea",
@@ -2767,6 +2997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:45 UTC 2014",
           "module": "Network.MineCraft.Pi.Client",
           "name": "toMC",
           "package": "mcpi",
@@ -2776,6 +3007,7 @@
         },
         "index": {
           "hierarchy": "Network MineCraft Pi Client",
+          "indexed": "2014-03-11T19:15:45",
           "module": "Network.MineCraft.Pi.Client",
           "name": "toMC",
           "normalized": "a-\u003eString",

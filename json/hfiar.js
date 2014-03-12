@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hfiar"
+        "phrase": "hfiar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines the HFiaR monad and all the actions you can perform in it\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "HFiaR",
           "package": "hfiar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines the HFiaR monad and all the actions you can perform in it",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "HFiaR",
           "package": "hfiar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGame description\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Game",
           "package": "hfiar",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Game description",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Game",
           "package": "hfiar",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic HFiaR type - ready to \u003cem\u003ejust\u003c/em\u003e play HFiaR actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "HFiaR",
           "package": "hfiar",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Basic HFiaR type ready to just play HFiaR actions",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "HFiaR",
           "package": "hfiar",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosible errors in the HFiaR Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "HFiaRError",
           "package": "hfiar",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Posible errors in the HFiaR Monad",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "HFiaRError",
           "package": "hfiar",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosible results for the game\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "HFiaRResult",
           "package": "hfiar",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Posible results for the game",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "HFiaRResult",
           "package": "hfiar",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric HFiaRT type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "HFiaRT",
           "package": "hfiar",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Generic HFiaRT type",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "HFiaRT",
           "package": "hfiar",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosible players (each one with his tile colour)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Player",
           "package": "hfiar",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Posible players each one with his tile colour",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Player",
           "package": "hfiar",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePosible tiles (just green or red ones)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Tile",
           "package": "hfiar",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Posible tiles just green or red ones",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Tile",
           "package": "hfiar",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Ended",
           "package": "hfiar",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Ended",
           "package": "hfiar",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "FullColumn",
           "package": "hfiar",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "FullColumn",
           "package": "hfiar",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "GameEnded",
           "package": "hfiar",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "GameEnded",
           "package": "hfiar",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "GameNotEnded",
           "package": "hfiar",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "GameNotEnded",
           "package": "hfiar",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Green",
           "package": "hfiar",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Green",
           "package": "hfiar",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "InvalidColumn",
           "package": "hfiar",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "InvalidColumn",
           "package": "hfiar",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "OnCourse",
           "package": "hfiar",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "OnCourse",
           "package": "hfiar",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Pl",
           "package": "hfiar",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Pl",
           "package": "hfiar",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Red",
           "package": "hfiar",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Red",
           "package": "hfiar",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "Tie",
           "package": "hfiar",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "Tie",
           "package": "hfiar",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "WonBy",
           "package": "hfiar",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "WonBy",
           "package": "hfiar",
@@ -445,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent board distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "board",
           "package": "hfiar",
@@ -455,6 +494,7 @@
         "index": {
           "description": "Current board distribution",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "board",
           "normalized": "HFiaRT a[[Tile]]",
@@ -470,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop a tile in a column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "dropIn",
           "package": "hfiar",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Drop tile in column",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "dropIn",
           "normalized": "Int-\u003eHFiaRT a(Either HFiaRError())",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a game, run the \u003cem\u003eHFiaRT\u003c/em\u003e actions and returns the result of the last one wrapped up in the \u003cem\u003em\u003c/em\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "eval",
           "package": "hfiar",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Starts game run the HFiaRT actions and returns the result of the last one wrapped up in the monad",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "eval",
           "normalized": "HFiaRT a b-\u003ea b",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "gameBoard",
           "package": "hfiar",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "gameBoard",
           "normalized": "[[Tile]]",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "gamePlayer",
           "package": "hfiar",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "gamePlayer",
           "package": "hfiar",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "gameResult",
           "package": "hfiar",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "gameResult",
           "package": "hfiar",
@@ -588,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a game, run the \u003cem\u003eHFiaRT\u003c/em\u003e actions and returns the result of the last one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "justEval",
           "package": "hfiar",
@@ -598,6 +649,7 @@
         "index": {
           "description": "Starts game run the HFiaRT actions and returns the result of the last one",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "justEval",
           "normalized": "HFiaR a-\u003eIO a",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a game, run the \u003cem\u003eHFiaRT\u003c/em\u003e actions and returns the game\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "justPlay",
           "package": "hfiar",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Starts game run the HFiaRT actions and returns the game",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "justPlay",
           "normalized": "HFiaR a-\u003eIO Game",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a game, run the \u003cem\u003eHFiaRT\u003c/em\u003e actions and returns the game wrapped up in the \u003cem\u003em\u003c/em\u003e monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "play",
           "package": "hfiar",
@@ -650,6 +705,7 @@
         "index": {
           "description": "Starts game run the HFiaRT actions and returns the game wrapped up in the monad",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "play",
           "normalized": "HFiaRT a b-\u003ea Game",
@@ -665,6 +721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlayer who's supposed to play the next tile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "player",
           "package": "hfiar",
@@ -675,6 +732,7 @@
         "index": {
           "description": "Player who supposed to play the next tile",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "player",
           "package": "hfiar",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the game ended, returns the result of it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "result",
           "package": "hfiar",
@@ -698,6 +757,7 @@
         "index": {
           "description": "If the game ended returns the result of it",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "result",
           "package": "hfiar",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "tiles",
           "package": "hfiar",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "tiles",
           "package": "hfiar",
@@ -732,6 +794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry (i.e. without actually doing it, returns the result of) dropping a tile in a column\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:38:01 UTC 2014",
           "module": "HFiaR",
           "name": "tryDropIn",
           "package": "hfiar",
@@ -742,6 +805,7 @@
         "index": {
           "description": "Try i.e without actually doing it returns the result of dropping tile in column",
           "hierarchy": "HFiaR",
+          "indexed": "2014-03-11T18:38:01",
           "module": "HFiaR",
           "name": "tryDropIn",
           "normalized": "[Int]-\u003eHFiaRT a(Either HFiaRError Game)",

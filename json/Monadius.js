@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Monadius"
+        "phrase": "Monadius",
+        "type": "phrase"
       },
       "type": "context"
     }

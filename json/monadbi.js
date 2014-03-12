@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadbi"
+        "phrase": "monadbi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadBi represents the relationship between monads that can be transformed into each other (atleast partially).\n\u003c/p\u003e\u003cp\u003eMonadBi acts as a superset of MonadTrans, and provides \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e analogous to \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e, which lifts underlying monads\ninto the transformer. It also provides \u003ccode\u003e\u003ca\u003elower\u003c/a\u003e\u003c/code\u003e which is the opposite of \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e, and extracts underlying monads\nfrom monad transformers.\n\u003c/p\u003e\u003cp\u003eNatural instances are provided for many Monad Transformers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "Bi",
           "package": "monadbi",
@@ -28,6 +29,7 @@
         "index": {
           "description": "MonadBi represents the relationship between monads that can be transformed into each other atleast partially MonadBi acts as superset of MonadTrans and provides raise analogous to lift which lifts underlying monads into the transformer It also provides lower which is the opposite of lift and extracts underlying monads from monad transformers Natural instances are provided for many Monad Transformers",
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "Bi",
           "package": "monadbi",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "MonadBi",
           "package": "monadbi",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "MonadBi",
           "package": "monadbi",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "collect",
           "package": "monadbi",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "collect",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea[c]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "collectN",
           "package": "monadbi",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "collectN",
           "normalized": "Int-\u003ea b-\u003e(b-\u003ea c)-\u003ea[c]",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "lazyIO",
           "package": "monadbi",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "lazyIO",
           "normalized": "a b-\u003ea b",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "lower",
           "package": "monadbi",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "lower",
           "normalized": "a b-\u003ea(a b)",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:14 UTC 2014",
           "module": "Control.Monad.Bi",
           "name": "raise",
           "package": "monadbi",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Bi",
+          "indexed": "2014-03-11T19:21:14",
           "module": "Control.Monad.Bi",
           "name": "raise",
           "normalized": "a b-\u003ea b",

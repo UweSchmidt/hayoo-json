@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-equality-check"
+        "phrase": "type-equality-check",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:13 UTC 2014",
           "module": "Data.TypeEq",
           "name": "TypeEq",
           "package": "type-equality-check",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data TypeEq",
+          "indexed": "2014-03-11T20:27:13",
           "module": "Data.TypeEq",
           "name": "TypeEq",
           "package": "type-equality-check",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:13 UTC 2014",
           "module": "Data.TypeEq",
           "name": "TypeEq",
           "package": "type-equality-check",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data TypeEq",
+          "indexed": "2014-03-11T20:27:13",
           "module": "Data.TypeEq",
           "name": "TypeEq",
           "package": "type-equality-check",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:13 UTC 2014",
           "module": "Data.TypeEq",
           "name": "typeEq",
           "package": "type-equality-check",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data TypeEq",
+          "indexed": "2014-03-11T20:27:13",
           "module": "Data.TypeEq",
           "name": "typeEq",
           "normalized": "a-\u003ea-\u003eb",

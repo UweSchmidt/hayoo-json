@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sarasvati"
+        "phrase": "sarasvati",
+        "type": "phrase"
       },
       "type": "context"
     }

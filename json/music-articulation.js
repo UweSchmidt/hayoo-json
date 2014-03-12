@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-articulation"
+        "phrase": "music-articulation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides abstract musical articulations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:23 UTC 2014",
           "module": "Music.Articulation",
           "name": "Articulation",
           "package": "music-articulation",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides abstract musical articulations",
           "hierarchy": "Music Articulation",
+          "indexed": "2014-03-11T19:24:23",
           "module": "Music.Articulation",
           "name": "Articulation",
           "package": "music-articulation",

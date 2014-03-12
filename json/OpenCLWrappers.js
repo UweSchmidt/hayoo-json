@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "OpenCLWrappers"
+        "phrase": "OpenCLWrappers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "CommandQueue",
           "package": "OpenCLWrappers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "CommandQueue",
           "package": "OpenCLWrappers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clCreateCommandQueue",
           "package": "OpenCLWrappers",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clCreateCommandQueue",
           "normalized": "Context-\u003eDeviceID-\u003e[CommandQueueProperties]-\u003eIO(Either ErrorCode CommandQueue)",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clGetCommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clGetCommandQueueInfo",
           "normalized": "CommandQueue-\u003eCommandQueueInfo-\u003eIO(Either ErrorCode CLCommandQueueInfoRetval)",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clReleaseCommandQueue",
           "package": "OpenCLWrappers",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clReleaseCommandQueue",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clRetainCommandQueue",
           "package": "OpenCLWrappers",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clRetainCommandQueue",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Deprecated in C api\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clSetCommandQueueProperty",
           "package": "OpenCLWrappers",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Deprecated Deprecated in api",
           "hierarchy": "System OpenCL Wrappers CommandQueue",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.CommandQueue",
           "name": "clSetCommandQueueProperty",
           "normalized": "CommandQueue-\u003eCommandQueueProperties-\u003eBool-\u003eIO(Either ErrorCode CommandQueueProperties)",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "Context",
           "package": "OpenCLWrappers",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "Context",
           "package": "OpenCLWrappers",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clCreateContext",
           "package": "OpenCLWrappers",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clCreateContext",
           "normalized": "[ContextProperties]-\u003e[DeviceID]-\u003eMaybe ContextCallback-\u003ePtr()-\u003eIO(Either ErrorCode Context)",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clCreateContextFromType",
           "package": "OpenCLWrappers",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clCreateContextFromType",
           "normalized": "[ContextProperties]-\u003eDeviceType-\u003eMaybe ContextCallback-\u003ePtr()-\u003eIO(Either ErrorCode Context)",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clGetContextInfo",
           "package": "OpenCLWrappers",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clGetContextInfo",
           "normalized": "Context-\u003eContextInfo-\u003eIO(Either ErrorCode CLContextInfoRetval)",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clReleaseContext",
           "package": "OpenCLWrappers",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clReleaseContext",
           "normalized": "Context-\u003eIO(Maybe ErrorCode)",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clRetainContext",
           "package": "OpenCLWrappers",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Context",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Context",
           "name": "clRetainContext",
           "normalized": "Context-\u003eIO(Maybe ErrorCode)",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers DeviceInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "clGetDeviceIDs",
           "package": "OpenCLWrappers",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers DeviceInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "clGetDeviceIDs",
           "normalized": "PlatformID-\u003eDeviceType-\u003eIO(Either ErrorCode[DeviceID])",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "clGetDeviceInfo",
           "package": "OpenCLWrappers",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers DeviceInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.DeviceInfo",
           "name": "clGetDeviceInfo",
           "normalized": "DeviceID-\u003eDeviceInfo-\u003eIO(Either ErrorCode CLDeviceInfoRetval)",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA collection of all the error codes that OpenCL functions return \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "Errors",
           "package": "OpenCLWrappers",
@@ -381,6 +412,7 @@
         "index": {
           "description": "collection of all the error codes that OpenCL functions return",
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "Errors",
           "package": "OpenCLWrappers",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clBuildProgramFailure",
           "package": "OpenCLWrappers",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clBuildProgramFailure",
           "package": "OpenCLWrappers",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clCompilerNotAvailable",
           "package": "OpenCLWrappers",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clCompilerNotAvailable",
           "package": "OpenCLWrappers",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clDeviceNotAvailable",
           "package": "OpenCLWrappers",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clDeviceNotAvailable",
           "package": "OpenCLWrappers",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clDeviceNotFound",
           "package": "OpenCLWrappers",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clDeviceNotFound",
           "package": "OpenCLWrappers",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clImageFormatMismatch",
           "package": "OpenCLWrappers",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clImageFormatMismatch",
           "package": "OpenCLWrappers",
@@ -504,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clImageFormatNotSupported",
           "package": "OpenCLWrappers",
@@ -513,6 +556,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clImageFormatNotSupported",
           "package": "OpenCLWrappers",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgIndex",
           "package": "OpenCLWrappers",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgIndex",
           "package": "OpenCLWrappers",
@@ -548,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgSize",
           "package": "OpenCLWrappers",
@@ -557,6 +604,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgSize",
           "package": "OpenCLWrappers",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgValue",
           "package": "OpenCLWrappers",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidArgValue",
           "package": "OpenCLWrappers",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBinary",
           "package": "OpenCLWrappers",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBinary",
           "package": "OpenCLWrappers",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBufferSize",
           "package": "OpenCLWrappers",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBufferSize",
           "package": "OpenCLWrappers",
@@ -636,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBuildOptions",
           "package": "OpenCLWrappers",
@@ -645,6 +700,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidBuildOptions",
           "package": "OpenCLWrappers",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidCommandQueue",
           "package": "OpenCLWrappers",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidCommandQueue",
           "package": "OpenCLWrappers",
@@ -680,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidContext",
           "package": "OpenCLWrappers",
@@ -689,6 +748,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidContext",
           "package": "OpenCLWrappers",
@@ -702,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidDevice",
           "package": "OpenCLWrappers",
@@ -711,6 +772,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidDevice",
           "package": "OpenCLWrappers",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidDeviceType",
           "package": "OpenCLWrappers",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidDeviceType",
           "package": "OpenCLWrappers",
@@ -746,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidEvent",
           "package": "OpenCLWrappers",
@@ -755,6 +820,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidEvent",
           "package": "OpenCLWrappers",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidEventWaitList",
           "package": "OpenCLWrappers",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidEventWaitList",
           "package": "OpenCLWrappers",
@@ -790,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidGLObject",
           "package": "OpenCLWrappers",
@@ -799,6 +868,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidGLObject",
           "package": "OpenCLWrappers",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidGlobalOffset",
           "package": "OpenCLWrappers",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidGlobalOffset",
           "package": "OpenCLWrappers",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidHostPtr",
           "package": "OpenCLWrappers",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidHostPtr",
           "package": "OpenCLWrappers",
@@ -856,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidImageFormatDescriptor",
           "package": "OpenCLWrappers",
@@ -865,6 +940,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidImageFormatDescriptor",
           "package": "OpenCLWrappers",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidImageSize",
           "package": "OpenCLWrappers",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidImageSize",
           "package": "OpenCLWrappers",
@@ -900,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernel",
           "package": "OpenCLWrappers",
@@ -909,6 +988,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernel",
           "package": "OpenCLWrappers",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelArgs",
           "package": "OpenCLWrappers",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelArgs",
           "package": "OpenCLWrappers",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelDefinition",
           "package": "OpenCLWrappers",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelDefinition",
           "package": "OpenCLWrappers",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelName",
           "package": "OpenCLWrappers",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidKernelName",
           "package": "OpenCLWrappers",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidMemObject",
           "package": "OpenCLWrappers",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidMemObject",
           "package": "OpenCLWrappers",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidMipLevel",
           "package": "OpenCLWrappers",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidMipLevel",
           "package": "OpenCLWrappers",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidOperation",
           "package": "OpenCLWrappers",
@@ -1041,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidOperation",
           "package": "OpenCLWrappers",
@@ -1054,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidPlatform",
           "package": "OpenCLWrappers",
@@ -1063,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidPlatform",
           "package": "OpenCLWrappers",
@@ -1076,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidProgram",
           "package": "OpenCLWrappers",
@@ -1085,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidProgram",
           "package": "OpenCLWrappers",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidProgramExecutable",
           "package": "OpenCLWrappers",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidProgramExecutable",
           "package": "OpenCLWrappers",
@@ -1120,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidQueueProperties",
           "package": "OpenCLWrappers",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidQueueProperties",
           "package": "OpenCLWrappers",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidSampler",
           "package": "OpenCLWrappers",
@@ -1151,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidSampler",
           "package": "OpenCLWrappers",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidValue",
           "package": "OpenCLWrappers",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidValue",
           "package": "OpenCLWrappers",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkDimension",
           "package": "OpenCLWrappers",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkDimension",
           "package": "OpenCLWrappers",
@@ -1208,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -1217,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -1230,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkItemSize",
           "package": "OpenCLWrappers",
@@ -1239,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clInvalidWorkItemSize",
           "package": "OpenCLWrappers",
@@ -1252,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMapFailure",
           "package": "OpenCLWrappers",
@@ -1261,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMapFailure",
           "package": "OpenCLWrappers",
@@ -1274,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMemCopyOverlap",
           "package": "OpenCLWrappers",
@@ -1283,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMemCopyOverlap",
           "package": "OpenCLWrappers",
@@ -1296,6 +1410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMemObjectAllocationFailure",
           "package": "OpenCLWrappers",
@@ -1305,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clMemObjectAllocationFailure",
           "package": "OpenCLWrappers",
@@ -1318,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clOutOfHostMemory",
           "package": "OpenCLWrappers",
@@ -1327,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clOutOfHostMemory",
           "package": "OpenCLWrappers",
@@ -1340,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clOutOfResources",
           "package": "OpenCLWrappers",
@@ -1349,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clOutOfResources",
           "package": "OpenCLWrappers",
@@ -1362,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clProfilingInfoNotAvailable",
           "package": "OpenCLWrappers",
@@ -1371,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clProfilingInfoNotAvailable",
           "package": "OpenCLWrappers",
@@ -1384,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clSuccess",
           "package": "OpenCLWrappers",
@@ -1393,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Errors",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Errors",
           "name": "clSuccess",
           "package": "OpenCLWrappers",
@@ -1407,6 +1531,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for querying extensions \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Etc",
           "name": "Etc",
           "package": "OpenCLWrappers",
@@ -1416,6 +1541,7 @@
         "index": {
           "description": "Module for querying extensions",
           "hierarchy": "System OpenCL Wrappers Etc",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Etc",
           "name": "Etc",
           "package": "OpenCLWrappers",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Etc",
           "name": "clGetExtensionFunctionAddress",
           "package": "OpenCLWrappers",
@@ -1438,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Etc",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Etc",
           "name": "clGetExtensionFunctionAddress",
           "normalized": "String-\u003eIO(Ptr())",
@@ -1453,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "EventObject",
           "package": "OpenCLWrappers",
@@ -1461,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "EventObject",
           "package": "OpenCLWrappers",
@@ -1474,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clGetEventInfo",
           "package": "OpenCLWrappers",
@@ -1483,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clGetEventInfo",
           "normalized": "Event-\u003eEventInfo-\u003eIO(Either ErrorCode CLEventInfoRetval)",
@@ -1498,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clGetEventProfilingInfo",
           "package": "OpenCLWrappers",
@@ -1507,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clGetEventProfilingInfo",
           "normalized": "Event-\u003eProfilingInfo-\u003eIO(Either ErrorCode CLEventProfilingInfoRetval)",
@@ -1522,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clReleaseEvent",
           "package": "OpenCLWrappers",
@@ -1531,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clReleaseEvent",
           "normalized": "Event-\u003eIO(Maybe ErrorCode)",
@@ -1546,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clRetainEvent",
           "package": "OpenCLWrappers",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clRetainEvent",
           "normalized": "Event-\u003eIO(Maybe ErrorCode)",
@@ -1570,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clWaitForEvents",
           "package": "OpenCLWrappers",
@@ -1579,6 +1718,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers EventObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.EventObject",
           "name": "clWaitForEvents",
           "normalized": "[Event]-\u003eIO(Maybe ErrorCode)",
@@ -1594,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "FlushFinish",
           "package": "OpenCLWrappers",
@@ -1602,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers FlushFinish",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "FlushFinish",
           "package": "OpenCLWrappers",
@@ -1615,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "clFinish",
           "package": "OpenCLWrappers",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers FlushFinish",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "clFinish",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -1639,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "clFlush",
           "package": "OpenCLWrappers",
@@ -1648,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers FlushFinish",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.FlushFinish",
           "name": "clFlush",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -1664,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome helper functions that may or may not be useful to anyone. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "Helpers",
           "package": "OpenCLWrappers",
@@ -1673,6 +1820,7 @@
         "index": {
           "description": "Some helper functions that may or may not be useful to anyone",
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "Helpers",
           "package": "OpenCLWrappers",
@@ -1686,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "KernelParameter",
           "package": "OpenCLWrappers",
@@ -1694,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "KernelParameter",
           "package": "OpenCLWrappers",
@@ -1707,6 +1857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "KParam",
           "package": "OpenCLWrappers",
@@ -1716,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "KParam",
           "package": "OpenCLWrappers",
@@ -1729,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "buildProgram",
           "package": "OpenCLWrappers",
@@ -1738,6 +1891,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "buildProgram",
           "normalized": "String-\u003eString-\u003eContext-\u003eDeviceID-\u003eIO(Either(ErrorCode,String)Program)",
@@ -1753,6 +1907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "createAsyncKernelWithParams",
           "package": "OpenCLWrappers",
@@ -1762,6 +1917,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "createAsyncKernelWithParams",
           "normalized": "Program-\u003eCommandQueue-\u003eString-\u003e[Int]-\u003e[Int]-\u003e[KernelParameter]-\u003eIO(Either ErrorCode([Event]-\u003eIO(Either ErrorCode Event)))",
@@ -1777,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "createSyncKernel",
           "package": "OpenCLWrappers",
@@ -1786,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "createSyncKernel",
           "normalized": "Program-\u003eCommandQueue-\u003eString-\u003e[Int]-\u003e[Int]-\u003eIO(Either ErrorCode([KernelParameter]-\u003eIO(Maybe ErrorCode)))",
@@ -1801,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "errorCodeToString",
           "package": "OpenCLWrappers",
@@ -1810,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "errorCodeToString",
           "normalized": "ErrorCode-\u003eString",
@@ -1825,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "pushKernelParams",
           "package": "OpenCLWrappers",
@@ -1834,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Helpers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Helpers",
           "name": "pushKernelParams",
           "normalized": "Kernel-\u003eCLuint-\u003e[KernelParameter]-\u003eIO(Maybe ErrorCode)",
@@ -1849,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "Kernel",
           "package": "OpenCLWrappers",
@@ -1857,6 +2020,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "Kernel",
           "package": "OpenCLWrappers",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clCreateKernel",
           "package": "OpenCLWrappers",
@@ -1879,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clCreateKernel",
           "normalized": "Program-\u003eString-\u003eIO(Either ErrorCode Kernel)",
@@ -1894,6 +2060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clCreateKernelsInProgram",
           "package": "OpenCLWrappers",
@@ -1903,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clCreateKernelsInProgram",
           "normalized": "Program-\u003eCLuint-\u003eIO(Either ErrorCode[Kernel])",
@@ -1918,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueNDRangeKernel",
           "package": "OpenCLWrappers",
@@ -1927,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueNDRangeKernel",
           "normalized": "CommandQueue-\u003eKernel-\u003e[CLsizei]-\u003e[CLsizei]-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1942,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueNativeKernel",
           "package": "OpenCLWrappers",
@@ -1951,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueNativeKernel",
           "normalized": "NativeKernelCallback-\u003ePtr()-\u003eCLsizei-\u003e[Mem]-\u003e[Ptr()]-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1966,6 +2138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueTask",
           "package": "OpenCLWrappers",
@@ -1975,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clEnqueueTask",
           "normalized": "CommandQueue-\u003eKernel-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -1990,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clGetKernelInfo",
           "package": "OpenCLWrappers",
@@ -1999,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clGetKernelInfo",
           "normalized": "Kernel-\u003eKernelInfo-\u003eIO(Either ErrorCode CLKernelInfoRetval)",
@@ -2014,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clGetKernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clGetKernelWorkGroupInfo",
           "normalized": "Kernel-\u003eDeviceID-\u003eKernelWorkGroupInfo-\u003eIO(Either ErrorCode CLKernelWorkGroupInfoRetval)",
@@ -2038,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clReleaseKernel",
           "package": "OpenCLWrappers",
@@ -2047,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clReleaseKernel",
           "normalized": "Kernel-\u003eIO(Maybe ErrorCode)",
@@ -2062,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clRetainKernel",
           "package": "OpenCLWrappers",
@@ -2071,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clRetainKernel",
           "normalized": "Kernel-\u003eIO(Maybe ErrorCode)",
@@ -2086,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clSetKernelArg",
           "package": "OpenCLWrappers",
@@ -2095,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Kernel",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Kernel",
           "name": "clSetKernelArg",
           "normalized": "Kernel-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003eIO(Maybe ErrorCode)",
@@ -2110,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "MemoryObject",
           "package": "OpenCLWrappers",
@@ -2118,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "MemoryObject",
           "package": "OpenCLWrappers",
@@ -2131,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateBuffer",
           "package": "OpenCLWrappers",
@@ -2140,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateBuffer",
           "normalized": "Context-\u003eMemFlags-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -2155,6 +2343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateImage2D",
           "package": "OpenCLWrappers",
@@ -2164,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateImage2D",
           "normalized": "Context-\u003eMemFlags-\u003eImageFormat-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -2179,6 +2369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateImage3D",
           "package": "OpenCLWrappers",
@@ -2188,6 +2379,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clCreateImage3D",
           "normalized": "Context-\u003eMemFlags-\u003eImageFormat-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eIO(Either ErrorCode Mem)",
@@ -2203,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyBuffer",
           "package": "OpenCLWrappers",
@@ -2212,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyBuffer",
           "normalized": "Mem-\u003eMem-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2227,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyBufferToImage",
           "package": "OpenCLWrappers",
@@ -2236,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyBufferToImage",
           "normalized": "Mem-\u003eMem-\u003eCLsizei-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2251,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyImage",
           "package": "OpenCLWrappers",
@@ -2260,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyImage",
           "normalized": "Mem-\u003eMem-\u003eImageDims-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2275,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyImageToBuffer",
           "package": "OpenCLWrappers",
@@ -2284,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueCopyImageToBuffer",
           "normalized": "Mem-\u003eMem-\u003eImageDims-\u003eImageDims-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2299,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueMapBuffer",
           "package": "OpenCLWrappers",
@@ -2308,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueMapBuffer",
           "normalized": "Mem-\u003eBool-\u003eMapFlags-\u003eCLsizei-\u003eCLsizei-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode(Ptr(),Event))",
@@ -2323,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueMapImage",
           "package": "OpenCLWrappers",
@@ -2332,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueMapImage",
           "normalized": "Mem-\u003eBool-\u003eMapFlags-\u003eImageDims-\u003eImageDims-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode(Ptr(),CLsizei,CLsizei,Event))",
@@ -2347,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueReadBuffer",
           "package": "OpenCLWrappers",
@@ -2356,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueReadBuffer",
           "normalized": "Mem-\u003eBool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2371,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueReadImage",
           "package": "OpenCLWrappers",
@@ -2380,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueReadImage",
           "normalized": "Mem-\u003eBool-\u003e(CLsizei,CLsizei,CLsizei)-\u003e(CLsizei,CLsizei,CLsizei)-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2395,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueUnmapMemObject",
           "package": "OpenCLWrappers",
@@ -2404,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueUnmapMemObject",
           "normalized": "Mem-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2419,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueWriteBuffer",
           "package": "OpenCLWrappers",
@@ -2428,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueWriteBuffer",
           "normalized": "Mem-\u003eBool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2443,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueWriteImage",
           "package": "OpenCLWrappers",
@@ -2452,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clEnqueueWriteImage",
           "normalized": "Mem-\u003eBool-\u003e(CLsizei,CLsizei,CLsizei)-\u003e(CLsizei,CLsizei,CLsizei)-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCommandQueue-\u003e[Event]-\u003eIO(Either ErrorCode Event)",
@@ -2467,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetImageInfo",
           "package": "OpenCLWrappers",
@@ -2476,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetImageInfo",
           "normalized": "Mem-\u003eMemInfo-\u003eIO(Either ErrorCode CLImageInfoRetval)",
@@ -2491,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetMemObjectInfo",
           "package": "OpenCLWrappers",
@@ -2500,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetMemObjectInfo",
           "normalized": "Mem-\u003eMemInfo-\u003eIO(Either ErrorCode CLMemObjectInfoRetval)",
@@ -2515,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetSupportedImageFormats",
           "package": "OpenCLWrappers",
@@ -2524,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clGetSupportedImageFormats",
           "normalized": "Context-\u003eMemFlags-\u003eMemObjectType-\u003eIO(Either ErrorCode[ImageFormat])",
@@ -2539,6 +2759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clReleaseMemObject",
           "package": "OpenCLWrappers",
@@ -2548,6 +2769,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clReleaseMemObject",
           "normalized": "Mem-\u003eIO(Maybe ErrorCode)",
@@ -2563,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clRetainMemObject",
           "package": "OpenCLWrappers",
@@ -2572,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers MemoryObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.MemoryObject",
           "name": "clRetainMemObject",
           "normalized": "Mem-\u003eIO(Maybe ErrorCode)",
@@ -2587,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "OutOfOrder",
           "package": "OpenCLWrappers",
@@ -2595,6 +2820,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers OutOfOrder",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "OutOfOrder",
           "package": "OpenCLWrappers",
@@ -2608,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueBarrier",
           "package": "OpenCLWrappers",
@@ -2617,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers OutOfOrder",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueBarrier",
           "normalized": "CommandQueue-\u003eIO(Maybe ErrorCode)",
@@ -2632,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueMarker",
           "package": "OpenCLWrappers",
@@ -2641,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers OutOfOrder",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueMarker",
           "normalized": "CommandQueue-\u003eIO(Either ErrorCode Event)",
@@ -2656,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueWaitForEvents",
           "package": "OpenCLWrappers",
@@ -2665,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers OutOfOrder",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.OutOfOrder",
           "name": "clEnqueueWaitForEvents",
           "normalized": "CommandQueue-\u003e[Event]-\u003eIO(Maybe ErrorCode)",
@@ -2680,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -2688,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers PlatformInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -2701,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "clGetPlatformIDs",
           "package": "OpenCLWrappers",
@@ -2710,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers PlatformInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "clGetPlatformIDs",
           "normalized": "IO(Either ErrorCode[PlatformID])",
@@ -2725,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "clGetPlatformInfo",
           "package": "OpenCLWrappers",
@@ -2734,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers PlatformInfo",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.PlatformInfo",
           "name": "clGetPlatformInfo",
           "normalized": "PlatformID-\u003ePlatformInfo-\u003eIO(Either ErrorCode CLPlatformInfoRetval)",
@@ -2749,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "ProgramObject",
           "package": "OpenCLWrappers",
@@ -2757,6 +2996,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "ProgramObject",
           "package": "OpenCLWrappers",
@@ -2770,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clBuildProgram",
           "package": "OpenCLWrappers",
@@ -2779,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clBuildProgram",
           "normalized": "Program-\u003e[DeviceID]-\u003eString-\u003eMaybe BuildProgramCallback-\u003ePtr()-\u003eIO(Maybe ErrorCode)",
@@ -2794,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clCreateProgramWithBinary",
           "package": "OpenCLWrappers",
@@ -2803,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clCreateProgramWithBinary",
           "normalized": "Context-\u003e[(DeviceID,ByteString)]-\u003eIO(Either ErrorCode Program)",
@@ -2818,6 +3062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clCreateProgramWithSource",
           "package": "OpenCLWrappers",
@@ -2827,6 +3072,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clCreateProgramWithSource",
           "normalized": "Context-\u003eString-\u003eIO(Either ErrorCode Program)",
@@ -2842,6 +3088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clGetProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -2851,6 +3098,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clGetProgramBuildInfo",
           "normalized": "Program-\u003eDeviceID-\u003eProgramBuildInfo-\u003eIO(Either ErrorCode CLProgramBuildInfoRetval)",
@@ -2866,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clGetProgramInfo",
           "package": "OpenCLWrappers",
@@ -2875,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clGetProgramInfo",
           "normalized": "Program-\u003eProgramInfo-\u003eIO(Either ErrorCode CLProgramInfoRetval)",
@@ -2890,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clReleaseProgram",
           "package": "OpenCLWrappers",
@@ -2899,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clReleaseProgram",
           "normalized": "Program-\u003eIO(Maybe ErrorCode)",
@@ -2914,6 +3166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clRetainProgram",
           "package": "OpenCLWrappers",
@@ -2923,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clRetainProgram",
           "normalized": "Program-\u003eIO(Maybe ErrorCode)",
@@ -2938,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clUnloadCompiler",
           "package": "OpenCLWrappers",
@@ -2947,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers ProgramObject",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.ProgramObject",
           "name": "clUnloadCompiler",
           "package": "OpenCLWrappers",
@@ -2960,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "Raw",
           "package": "OpenCLWrappers",
@@ -2968,6 +3225,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "Raw",
           "package": "OpenCLWrappers",
@@ -2981,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clBuildProgram",
           "package": "OpenCLWrappers",
@@ -2990,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clBuildProgram",
           "normalized": "Program-\u003eCLuint-\u003ePtr DeviceID-\u003eCString-\u003eFunPtr BuildProgramCallback-\u003ePtr()-\u003eIO CLint",
@@ -3005,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateBuffer",
           "package": "OpenCLWrappers",
@@ -3014,6 +3275,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateBuffer",
           "normalized": "Context-\u003eCLbitfield-\u003eCLsizei-\u003ePtr()-\u003ePtr CLint-\u003eIO Mem",
@@ -3029,6 +3291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateCommandQueue",
           "package": "OpenCLWrappers",
@@ -3038,6 +3301,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateCommandQueue",
           "normalized": "Context-\u003eDeviceID-\u003eCLbitfield-\u003ePtr CLint-\u003eIO CommandQueue",
@@ -3053,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateContext",
           "package": "OpenCLWrappers",
@@ -3062,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateContext",
           "normalized": "Ptr ContextProperties-\u003eCLuint-\u003ePtr DeviceID-\u003eFunPtr ContextCallback-\u003ePtr()-\u003ePtr CLint-\u003eIO Context",
@@ -3077,6 +3343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateContextFromType",
           "package": "OpenCLWrappers",
@@ -3086,6 +3353,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateContextFromType",
           "normalized": "Ptr ContextProperties-\u003eCLbitfield-\u003eFunPtr ContextCallback-\u003ePtr a-\u003ePtr CLint-\u003eIO Context",
@@ -3101,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateImage2D",
           "package": "OpenCLWrappers",
@@ -3110,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateImage2D",
           "normalized": "Context-\u003eCLbitfield-\u003ePtr CLuint-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003ePtr CLint-\u003eIO Mem",
@@ -3125,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateImage3D",
           "package": "OpenCLWrappers",
@@ -3134,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateImage3D",
           "normalized": "Context-\u003eCLbitfield-\u003ePtr CLuint-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003ePtr CLint-\u003eIO Mem",
@@ -3149,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateKernel",
           "package": "OpenCLWrappers",
@@ -3158,6 +3431,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateKernel",
           "normalized": "Program-\u003eCString-\u003ePtr CLint-\u003eIO Kernel",
@@ -3173,6 +3447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateKernelsInProgram",
           "package": "OpenCLWrappers",
@@ -3182,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateKernelsInProgram",
           "normalized": "Program-\u003eCLuint-\u003ePtr Kernel-\u003ePtr CLuint-\u003eIO CLint",
@@ -3197,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateProgramWithBinary",
           "package": "OpenCLWrappers",
@@ -3206,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateProgramWithBinary",
           "normalized": "Context-\u003eCLuint-\u003ePtr DeviceID-\u003ePtr CLsizei-\u003ePtr(Ptr Word)-\u003ePtr CLint-\u003ePtr CLint-\u003eIO Program",
@@ -3221,6 +3499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateProgramWithSource",
           "package": "OpenCLWrappers",
@@ -3230,6 +3509,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateProgramWithSource",
           "normalized": "Context-\u003eCLuint-\u003ePtr CString-\u003ePtr CLsizei-\u003ePtr CLint-\u003eIO Program",
@@ -3245,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateSampler",
           "package": "OpenCLWrappers",
@@ -3254,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clCreateSampler",
           "normalized": "Context-\u003eCLbool-\u003eCLuint-\u003eCLuint-\u003ePtr CLint-\u003eIO Sampler",
@@ -3269,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueBarrier",
           "package": "OpenCLWrappers",
@@ -3278,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueBarrier",
           "normalized": "CommandQueue-\u003eIO CLint",
@@ -3293,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyBuffer",
           "package": "OpenCLWrappers",
@@ -3302,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyBuffer",
           "normalized": "CommandQueue-\u003eMem-\u003eMem-\u003eCLsizei-\u003eCLsizei-\u003eCLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3317,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyBufferToImage",
           "package": "OpenCLWrappers",
@@ -3326,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyBufferToImage",
           "normalized": "CommandQueue-\u003eMem-\u003eMem-\u003eCLsizei-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3341,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyImage",
           "package": "OpenCLWrappers",
@@ -3350,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyImage",
           "normalized": "CommandQueue-\u003eMem-\u003eMem-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3365,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyImageToBuffer",
           "package": "OpenCLWrappers",
@@ -3374,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueCopyImageToBuffer",
           "normalized": "CommandQueue-\u003eMem-\u003eMem-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3389,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMapBuffer",
           "package": "OpenCLWrappers",
@@ -3398,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMapBuffer",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003eCLbitfield-\u003eCLsizei-\u003eCLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003ePtr CLint-\u003eIO(Ptr())",
@@ -3413,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMapImage",
           "package": "OpenCLWrappers",
@@ -3422,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMapImage",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003eCLbitfield-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003ePtr CLint-\u003eIO(Ptr())",
@@ -3437,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMarker",
           "package": "OpenCLWrappers",
@@ -3446,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueMarker",
           "normalized": "CommandQueue-\u003ePtr Event-\u003eIO CLint",
@@ -3461,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueNDRangeKernel",
           "package": "OpenCLWrappers",
@@ -3470,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueNDRangeKernel",
           "normalized": "CommandQueue-\u003eKernel-\u003eCLuint-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3485,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueNativeKernel",
           "package": "OpenCLWrappers",
@@ -3494,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueNativeKernel",
           "normalized": "FunPtr NativeKernelCallback-\u003ePtr()-\u003eCLsizei-\u003eCLuint-\u003ePtr Mem-\u003ePtr(Ptr())-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3509,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueReadBuffer",
           "package": "OpenCLWrappers",
@@ -3518,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueReadBuffer",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3533,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueReadImage",
           "package": "OpenCLWrappers",
@@ -3542,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueReadImage",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3557,6 +3863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueTask",
           "package": "OpenCLWrappers",
@@ -3566,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueTask",
           "normalized": "CommandQueue-\u003eKernel-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3581,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueUnmapMemObject",
           "package": "OpenCLWrappers",
@@ -3590,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueUnmapMemObject",
           "normalized": "CommandQueue-\u003eMem-\u003ePtr()-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3605,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWaitForEvents",
           "package": "OpenCLWrappers",
@@ -3614,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWaitForEvents",
           "normalized": "CommandQueue-\u003eCLuint-\u003ePtr Event-\u003eIO CLint",
@@ -3629,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWriteBuffer",
           "package": "OpenCLWrappers",
@@ -3638,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWriteBuffer",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3653,6 +3967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWriteImage",
           "package": "OpenCLWrappers",
@@ -3662,6 +3977,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clEnqueueWriteImage",
           "normalized": "CommandQueue-\u003eMem-\u003eCLbool-\u003ePtr CLsizei-\u003ePtr CLsizei-\u003eCLsizei-\u003eCLsizei-\u003ePtr()-\u003eCLuint-\u003ePtr Event-\u003ePtr Event-\u003eIO CLint",
@@ -3677,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clFinish",
           "package": "OpenCLWrappers",
@@ -3686,6 +4003,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clFinish",
           "normalized": "CommandQueue-\u003eIO CLint",
@@ -3701,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clFlush",
           "package": "OpenCLWrappers",
@@ -3710,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clFlush",
           "normalized": "CommandQueue-\u003eIO CLint",
@@ -3725,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetCommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -3734,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetCommandQueueInfo",
           "normalized": "CommandQueue-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3749,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetContextInfo",
           "package": "OpenCLWrappers",
@@ -3758,6 +4081,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetContextInfo",
           "normalized": "Context-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3773,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetDeviceIDs",
           "package": "OpenCLWrappers",
@@ -3782,6 +4107,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetDeviceIDs",
           "normalized": "PlatformID-\u003eCLbitfield-\u003eCLuint-\u003ePtr DeviceID-\u003ePtr CLuint-\u003eIO CLint",
@@ -3797,6 +4123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetDeviceInfo",
           "package": "OpenCLWrappers",
@@ -3806,6 +4133,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetDeviceInfo",
           "normalized": "DeviceID-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3821,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetEventInfo",
           "package": "OpenCLWrappers",
@@ -3830,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetEventInfo",
           "normalized": "Event-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3845,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetEventProfilingInfo",
           "package": "OpenCLWrappers",
@@ -3854,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetEventProfilingInfo",
           "normalized": "Event-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3869,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetExtensionFunctionAddress",
           "package": "OpenCLWrappers",
@@ -3878,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetExtensionFunctionAddress",
           "normalized": "CString-\u003eIO(Ptr())",
@@ -3893,6 +4227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetImageInfo",
           "package": "OpenCLWrappers",
@@ -3902,6 +4237,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetImageInfo",
           "normalized": "Mem-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3917,6 +4253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetKernelInfo",
           "package": "OpenCLWrappers",
@@ -3926,6 +4263,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetKernelInfo",
           "normalized": "Kernel-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3941,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetKernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -3950,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetKernelWorkGroupInfo",
           "normalized": "Kernel-\u003eDeviceID-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3965,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetMemObjectInfo",
           "package": "OpenCLWrappers",
@@ -3974,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetMemObjectInfo",
           "normalized": "Mem-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -3989,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetPlatformIDs",
           "package": "OpenCLWrappers",
@@ -3998,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetPlatformIDs",
           "normalized": "CLuint-\u003ePtr PlatformID-\u003ePtr CLuint-\u003eIO CLint",
@@ -4013,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetPlatformInfo",
           "package": "OpenCLWrappers",
@@ -4022,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetPlatformInfo",
           "normalized": "PlatformID-\u003eCLuint-\u003eCSize-\u003ePtr()-\u003ePtr CSize-\u003eIO CLint",
@@ -4037,6 +4383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -4046,6 +4393,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetProgramBuildInfo",
           "normalized": "Program-\u003eDeviceID-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -4061,6 +4409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetProgramInfo",
           "package": "OpenCLWrappers",
@@ -4070,6 +4419,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetProgramInfo",
           "normalized": "Program-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -4085,6 +4435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetSamplerInfo",
           "package": "OpenCLWrappers",
@@ -4094,6 +4445,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetSamplerInfo",
           "normalized": "Sampler-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003ePtr CLsizei-\u003eIO CLint",
@@ -4109,6 +4461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetSupportedImageFormats",
           "package": "OpenCLWrappers",
@@ -4118,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clGetSupportedImageFormats",
           "normalized": "Context-\u003eCLbitfield-\u003eCLuint-\u003eCLuint-\u003ePtr CLuint-\u003ePtr CLuint-\u003eIO CLint",
@@ -4133,6 +4487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseCommandQueue",
           "package": "OpenCLWrappers",
@@ -4142,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseCommandQueue",
           "normalized": "CommandQueue-\u003eIO CLint",
@@ -4157,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseContext",
           "package": "OpenCLWrappers",
@@ -4166,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseContext",
           "normalized": "Context-\u003eIO CLint",
@@ -4181,6 +4539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseEvent",
           "package": "OpenCLWrappers",
@@ -4190,6 +4549,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseEvent",
           "normalized": "Event-\u003eIO CLint",
@@ -4205,6 +4565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseKernel",
           "package": "OpenCLWrappers",
@@ -4214,6 +4575,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseKernel",
           "normalized": "Kernel-\u003eIO CLint",
@@ -4229,6 +4591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseMemObject",
           "package": "OpenCLWrappers",
@@ -4238,6 +4601,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseMemObject",
           "normalized": "Mem-\u003eIO CLint",
@@ -4253,6 +4617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseProgram",
           "package": "OpenCLWrappers",
@@ -4262,6 +4627,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseProgram",
           "normalized": "Program-\u003eIO CLint",
@@ -4277,6 +4643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseSampler",
           "package": "OpenCLWrappers",
@@ -4286,6 +4653,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clReleaseSampler",
           "normalized": "Sampler-\u003eIO CLint",
@@ -4301,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainCommandQueue",
           "package": "OpenCLWrappers",
@@ -4310,6 +4679,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainCommandQueue",
           "normalized": "CommandQueue-\u003eIO CLint",
@@ -4325,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainContext",
           "package": "OpenCLWrappers",
@@ -4334,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainContext",
           "normalized": "Context-\u003eIO CLint",
@@ -4349,6 +4721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainEvent",
           "package": "OpenCLWrappers",
@@ -4358,6 +4731,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainEvent",
           "normalized": "Event-\u003eIO CLint",
@@ -4373,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainKernel",
           "package": "OpenCLWrappers",
@@ -4382,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainKernel",
           "normalized": "Kernel-\u003eIO CLint",
@@ -4397,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainMemObject",
           "package": "OpenCLWrappers",
@@ -4406,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainMemObject",
           "normalized": "Mem-\u003eIO CLint",
@@ -4421,6 +4799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainProgram",
           "package": "OpenCLWrappers",
@@ -4430,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainProgram",
           "normalized": "Program-\u003eIO CLint",
@@ -4445,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainSampler",
           "package": "OpenCLWrappers",
@@ -4454,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clRetainSampler",
           "normalized": "Sampler-\u003eIO CLint",
@@ -4469,6 +4851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clSetCommandQueueProperty",
           "package": "OpenCLWrappers",
@@ -4478,6 +4861,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clSetCommandQueueProperty",
           "normalized": "CommandQueue-\u003eCLbitfield-\u003eCLbool-\u003ePtr CLbitfield-\u003eIO CLint",
@@ -4493,6 +4877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clSetKernelArg",
           "package": "OpenCLWrappers",
@@ -4502,6 +4887,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clSetKernelArg",
           "normalized": "Kernel-\u003eCLuint-\u003eCLsizei-\u003ePtr()-\u003eIO CLint",
@@ -4517,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clUnloadCompiler",
           "package": "OpenCLWrappers",
@@ -4526,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clUnloadCompiler",
           "package": "OpenCLWrappers",
@@ -4539,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clWaitForEvents",
           "package": "OpenCLWrappers",
@@ -4548,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "raw_clWaitForEvents",
           "normalized": "CLuint-\u003ePtr Event-\u003eIO CLint",
@@ -4563,6 +4953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapBuildProgramCallback",
           "package": "OpenCLWrappers",
@@ -4572,6 +4963,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapBuildProgramCallback",
           "normalized": "BuildProgramCallback-\u003eIO(FunPtr BuildProgramCallback)",
@@ -4587,6 +4979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapContextCallback",
           "package": "OpenCLWrappers",
@@ -4596,6 +4989,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapContextCallback",
           "normalized": "ContextCallback-\u003eIO(FunPtr ContextCallback)",
@@ -4611,6 +5005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapNativeKernelCallback",
           "package": "OpenCLWrappers",
@@ -4620,6 +5015,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Raw",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Raw",
           "name": "wrapNativeKernelCallback",
           "normalized": "NativeKernelCallback-\u003eIO(FunPtr NativeKernelCallback)",
@@ -4635,6 +5031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "Sampler",
           "package": "OpenCLWrappers",
@@ -4643,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Sampler",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "Sampler",
           "package": "OpenCLWrappers",
@@ -4656,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clCreateSampler",
           "package": "OpenCLWrappers",
@@ -4665,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Sampler",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clCreateSampler",
           "normalized": "Context-\u003eBool-\u003eAddressingMode-\u003eFilterMode-\u003eIO(Either ErrorCode Sampler)",
@@ -4680,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clGetSamplerInfo",
           "package": "OpenCLWrappers",
@@ -4689,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Sampler",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clGetSamplerInfo",
           "normalized": "Sampler-\u003eSamplerInfo-\u003eIO(Either ErrorCode CLSamplerInfoRetval)",
@@ -4704,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clReleaseSampler",
           "package": "OpenCLWrappers",
@@ -4713,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Sampler",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clReleaseSampler",
           "normalized": "Sampler-\u003eIO(Maybe ErrorCode)",
@@ -4728,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clRetainSampler",
           "package": "OpenCLWrappers",
@@ -4737,6 +5142,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Sampler",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Sampler",
           "name": "clRetainSampler",
           "normalized": "Sampler-\u003eIO(Maybe ErrorCode)",
@@ -4753,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclaration of types, bounds and constants \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Types",
           "package": "OpenCLWrappers",
@@ -4762,6 +5169,7 @@
         "index": {
           "description": "Declaration of types bounds and constants",
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Types",
           "package": "OpenCLWrappers",
@@ -4775,6 +5183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "AddressingMode",
           "package": "OpenCLWrappers",
@@ -4783,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "AddressingMode",
           "package": "OpenCLWrappers",
@@ -4796,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildProgramCallback",
           "package": "OpenCLWrappers",
@@ -4804,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildProgramCallback",
           "package": "OpenCLWrappers",
@@ -4817,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildStatus",
           "package": "OpenCLWrappers",
@@ -4825,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildStatus",
           "package": "OpenCLWrappers",
@@ -4838,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLCommandQueueInfoRetval",
           "package": "OpenCLWrappers",
@@ -4846,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLCommandQueueInfoRetval",
           "package": "OpenCLWrappers",
@@ -4859,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLContextInfoRetval",
           "package": "OpenCLWrappers",
@@ -4867,6 +5284,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLContextInfoRetval",
           "package": "OpenCLWrappers",
@@ -4880,6 +5298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLDeviceInfoRetval",
           "package": "OpenCLWrappers",
@@ -4888,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLDeviceInfoRetval",
           "package": "OpenCLWrappers",
@@ -4901,6 +5321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLEventInfoRetval",
           "package": "OpenCLWrappers",
@@ -4909,6 +5330,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLEventInfoRetval",
           "package": "OpenCLWrappers",
@@ -4922,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLEventProfilingInfoRetval",
           "package": "OpenCLWrappers",
@@ -4930,6 +5353,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLEventProfilingInfoRetval",
           "package": "OpenCLWrappers",
@@ -4943,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLImageInfoRetval",
           "package": "OpenCLWrappers",
@@ -4951,6 +5376,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLImageInfoRetval",
           "package": "OpenCLWrappers",
@@ -4964,6 +5390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLKernelInfoRetval",
           "package": "OpenCLWrappers",
@@ -4972,6 +5399,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLKernelInfoRetval",
           "package": "OpenCLWrappers",
@@ -4985,6 +5413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLKernelWorkGroupInfoRetval",
           "package": "OpenCLWrappers",
@@ -4993,6 +5422,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLKernelWorkGroupInfoRetval",
           "package": "OpenCLWrappers",
@@ -5006,6 +5436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLMemObjectInfoRetval",
           "package": "OpenCLWrappers",
@@ -5014,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLMemObjectInfoRetval",
           "package": "OpenCLWrappers",
@@ -5027,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLPlatformInfoRetval",
           "package": "OpenCLWrappers",
@@ -5035,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLPlatformInfoRetval",
           "package": "OpenCLWrappers",
@@ -5048,6 +5482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLProgramBuildInfoRetval",
           "package": "OpenCLWrappers",
@@ -5056,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLProgramBuildInfoRetval",
           "package": "OpenCLWrappers",
@@ -5069,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLProgramInfoRetval",
           "package": "OpenCLWrappers",
@@ -5077,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLProgramInfoRetval",
           "package": "OpenCLWrappers",
@@ -5090,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLSamplerInfoRetval",
           "package": "OpenCLWrappers",
@@ -5098,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLSamplerInfoRetval",
           "package": "OpenCLWrappers",
@@ -5111,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLbitfield",
           "package": "OpenCLWrappers",
@@ -5119,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLbitfield",
           "package": "OpenCLWrappers",
@@ -5132,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLbool",
           "package": "OpenCLWrappers",
@@ -5140,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLbool",
           "package": "OpenCLWrappers",
@@ -5153,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLint",
           "package": "OpenCLWrappers",
@@ -5161,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLint",
           "package": "OpenCLWrappers",
@@ -5174,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLsizei",
           "package": "OpenCLWrappers",
@@ -5182,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLsizei",
           "package": "OpenCLWrappers",
@@ -5195,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLuint",
           "package": "OpenCLWrappers",
@@ -5203,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLuint",
           "package": "OpenCLWrappers",
@@ -5216,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLulong",
           "package": "OpenCLWrappers",
@@ -5224,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CLulong",
           "package": "OpenCLWrappers",
@@ -5237,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelOrder",
           "package": "OpenCLWrappers",
@@ -5245,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelOrder",
           "package": "OpenCLWrappers",
@@ -5258,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelType",
           "package": "OpenCLWrappers",
@@ -5266,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelType",
           "package": "OpenCLWrappers",
@@ -5279,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueue",
           "package": "OpenCLWrappers",
@@ -5287,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueue",
           "package": "OpenCLWrappers",
@@ -5300,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -5308,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -5321,6 +5781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -5329,6 +5790,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -5342,6 +5804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueuec",
           "package": "OpenCLWrappers",
@@ -5350,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueuec",
           "package": "OpenCLWrappers",
@@ -5363,6 +5827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandType",
           "package": "OpenCLWrappers",
@@ -5371,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandType",
           "package": "OpenCLWrappers",
@@ -5384,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Context",
           "package": "OpenCLWrappers",
@@ -5392,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Context",
           "package": "OpenCLWrappers",
@@ -5405,6 +5873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextCallback",
           "package": "OpenCLWrappers",
@@ -5413,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextCallback",
           "package": "OpenCLWrappers",
@@ -5426,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfo",
           "package": "OpenCLWrappers",
@@ -5434,6 +5905,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfo",
           "package": "OpenCLWrappers",
@@ -5447,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextProperties",
           "package": "OpenCLWrappers",
@@ -5455,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextProperties",
           "package": "OpenCLWrappers",
@@ -5468,6 +5942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Contextc",
           "package": "OpenCLWrappers",
@@ -5476,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Contextc",
           "package": "OpenCLWrappers",
@@ -5489,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -5497,6 +5974,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -5510,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -5518,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -5531,6 +6011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceID",
           "package": "OpenCLWrappers",
@@ -5539,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceID",
           "package": "OpenCLWrappers",
@@ -5552,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceIDc",
           "package": "OpenCLWrappers",
@@ -5560,6 +6043,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceIDc",
           "package": "OpenCLWrappers",
@@ -5573,6 +6057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -5581,6 +6066,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -5594,6 +6080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -5602,6 +6089,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -5615,6 +6103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -5623,6 +6112,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -5636,6 +6126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceType",
           "package": "OpenCLWrappers",
@@ -5644,6 +6135,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceType",
           "package": "OpenCLWrappers",
@@ -5657,6 +6149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ErrorCode",
           "package": "OpenCLWrappers",
@@ -5665,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ErrorCode",
           "package": "OpenCLWrappers",
@@ -5678,6 +6172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Event",
           "package": "OpenCLWrappers",
@@ -5686,6 +6181,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Event",
           "package": "OpenCLWrappers",
@@ -5699,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfo",
           "package": "OpenCLWrappers",
@@ -5707,6 +6204,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfo",
           "package": "OpenCLWrappers",
@@ -5720,6 +6218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Eventc",
           "package": "OpenCLWrappers",
@@ -5728,6 +6227,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Eventc",
           "package": "OpenCLWrappers",
@@ -5741,6 +6241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "FilterMode",
           "package": "OpenCLWrappers",
@@ -5749,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "FilterMode",
           "package": "OpenCLWrappers",
@@ -5762,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageDims",
           "package": "OpenCLWrappers",
@@ -5770,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageDims",
           "package": "OpenCLWrappers",
@@ -5783,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormat",
           "package": "OpenCLWrappers",
@@ -5791,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormat",
           "package": "OpenCLWrappers",
@@ -5804,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatc",
           "package": "OpenCLWrappers",
@@ -5812,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatc",
           "package": "OpenCLWrappers",
@@ -5825,6 +6333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatp",
           "package": "OpenCLWrappers",
@@ -5833,6 +6342,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatp",
           "package": "OpenCLWrappers",
@@ -5846,6 +6356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernel",
           "package": "OpenCLWrappers",
@@ -5854,6 +6365,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernel",
           "package": "OpenCLWrappers",
@@ -5867,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfo",
           "package": "OpenCLWrappers",
@@ -5875,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfo",
           "package": "OpenCLWrappers",
@@ -5888,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -5896,6 +6411,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -5909,6 +6425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernelc",
           "package": "OpenCLWrappers",
@@ -5917,6 +6434,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernelc",
           "package": "OpenCLWrappers",
@@ -5930,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MapFlags",
           "package": "OpenCLWrappers",
@@ -5938,6 +6457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MapFlags",
           "package": "OpenCLWrappers",
@@ -5951,6 +6471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Mem",
           "package": "OpenCLWrappers",
@@ -5959,6 +6480,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Mem",
           "package": "OpenCLWrappers",
@@ -5972,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemFlags",
           "package": "OpenCLWrappers",
@@ -5980,6 +6503,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemFlags",
           "package": "OpenCLWrappers",
@@ -5993,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemInfo",
           "package": "OpenCLWrappers",
@@ -6001,6 +6526,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemInfo",
           "package": "OpenCLWrappers",
@@ -6014,6 +6540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectType",
           "package": "OpenCLWrappers",
@@ -6022,6 +6549,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectType",
           "package": "OpenCLWrappers",
@@ -6035,6 +6563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Memc",
           "package": "OpenCLWrappers",
@@ -6043,6 +6572,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Memc",
           "package": "OpenCLWrappers",
@@ -6056,6 +6586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "NativeKernelCallback",
           "package": "OpenCLWrappers",
@@ -6064,6 +6595,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "NativeKernelCallback",
           "package": "OpenCLWrappers",
@@ -6077,6 +6609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformID",
           "package": "OpenCLWrappers",
@@ -6085,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformID",
           "package": "OpenCLWrappers",
@@ -6098,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformIDc",
           "package": "OpenCLWrappers",
@@ -6106,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformIDc",
           "package": "OpenCLWrappers",
@@ -6119,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -6127,6 +6664,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -6140,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLWrappers",
@@ -6148,6 +6687,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLWrappers",
@@ -6161,6 +6701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Program",
           "package": "OpenCLWrappers",
@@ -6169,6 +6710,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Program",
           "package": "OpenCLWrappers",
@@ -6182,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -6190,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -6203,6 +6747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfo",
           "package": "OpenCLWrappers",
@@ -6211,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfo",
           "package": "OpenCLWrappers",
@@ -6224,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Programc",
           "package": "OpenCLWrappers",
@@ -6232,6 +6779,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Programc",
           "package": "OpenCLWrappers",
@@ -6245,6 +6793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Sampler",
           "package": "OpenCLWrappers",
@@ -6253,6 +6802,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Sampler",
           "package": "OpenCLWrappers",
@@ -6266,6 +6816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfo",
           "package": "OpenCLWrappers",
@@ -6274,6 +6825,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfo",
           "package": "OpenCLWrappers",
@@ -6287,6 +6839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Samplerc",
           "package": "OpenCLWrappers",
@@ -6295,6 +6848,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Samplerc",
           "package": "OpenCLWrappers",
@@ -6308,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "AddressingMode",
           "package": "OpenCLWrappers",
@@ -6317,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "AddressingMode",
           "package": "OpenCLWrappers",
@@ -6330,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildStatus",
           "package": "OpenCLWrappers",
@@ -6339,6 +6896,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "BuildStatus",
           "package": "OpenCLWrappers",
@@ -6352,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelOrder",
           "package": "OpenCLWrappers",
@@ -6361,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelOrder",
           "package": "OpenCLWrappers",
@@ -6374,6 +6934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelType",
           "package": "OpenCLWrappers",
@@ -6383,6 +6944,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ChannelType",
           "package": "OpenCLWrappers",
@@ -6396,6 +6958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -6405,6 +6968,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfo",
           "package": "OpenCLWrappers",
@@ -6418,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6427,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6440,6 +7006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalCommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6449,6 +7016,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalCommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6462,6 +7030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -6471,6 +7040,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -6484,6 +7054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalDeviceID",
           "package": "OpenCLWrappers",
@@ -6493,6 +7064,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueInfoRetvalDeviceID",
           "package": "OpenCLWrappers",
@@ -6506,6 +7078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6515,6 +7088,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6528,6 +7102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueuec",
           "package": "OpenCLWrappers",
@@ -6537,6 +7112,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandQueuec",
           "package": "OpenCLWrappers",
@@ -6550,6 +7126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandType",
           "package": "OpenCLWrappers",
@@ -6559,6 +7136,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "CommandType",
           "package": "OpenCLWrappers",
@@ -6572,6 +7150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfo",
           "package": "OpenCLWrappers",
@@ -6581,6 +7160,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfo",
           "package": "OpenCLWrappers",
@@ -6594,6 +7174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6603,6 +7184,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6616,6 +7198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalContextPropertiesList",
           "package": "OpenCLWrappers",
@@ -6625,6 +7208,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalContextPropertiesList",
           "normalized": "ContextInfoRetvalContextPropertiesList[ContextProperties]",
@@ -6640,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalDeviceIDList",
           "package": "OpenCLWrappers",
@@ -6649,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextInfoRetvalDeviceIDList",
           "normalized": "ContextInfoRetvalDeviceIDList[DeviceID]",
@@ -6664,6 +7250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextProperties",
           "package": "OpenCLWrappers",
@@ -6673,6 +7260,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ContextProperties",
           "package": "OpenCLWrappers",
@@ -6686,6 +7274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Contextc",
           "package": "OpenCLWrappers",
@@ -6695,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Contextc",
           "package": "OpenCLWrappers",
@@ -6708,6 +7298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -6717,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -6730,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -6739,6 +7332,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -6752,6 +7346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceIDc",
           "package": "OpenCLWrappers",
@@ -6761,6 +7356,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceIDc",
           "package": "OpenCLWrappers",
@@ -6774,6 +7370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -6783,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfo",
           "package": "OpenCLWrappers",
@@ -6796,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLbool",
           "package": "OpenCLWrappers",
@@ -6805,6 +7404,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLbool",
           "package": "OpenCLWrappers",
@@ -6818,6 +7418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -6827,6 +7428,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -6840,6 +7442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLsizeiList",
           "package": "OpenCLWrappers",
@@ -6849,6 +7452,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLsizeiList",
           "normalized": "DeviceInfoRetvalCLsizeiList[CLsizei]",
@@ -6864,6 +7468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6873,6 +7478,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -6886,6 +7492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -6895,6 +7502,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -6908,6 +7516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6917,6 +7526,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalCommandQueueProperties",
           "package": "OpenCLWrappers",
@@ -6930,6 +7540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -6939,6 +7550,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceExecCapabilities",
           "package": "OpenCLWrappers",
@@ -6952,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -6961,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceFPConfig",
           "package": "OpenCLWrappers",
@@ -6974,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -6983,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -6996,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -7005,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -7018,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceType",
           "package": "OpenCLWrappers",
@@ -7027,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalDeviceType",
           "package": "OpenCLWrappers",
@@ -7040,6 +7660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalPlatformID",
           "package": "OpenCLWrappers",
@@ -7049,6 +7670,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalPlatformID",
           "package": "OpenCLWrappers",
@@ -7062,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -7071,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -7084,6 +7708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -7093,6 +7718,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -7106,6 +7732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -7115,6 +7742,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceMemCacheType",
           "package": "OpenCLWrappers",
@@ -7128,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceType",
           "package": "OpenCLWrappers",
@@ -7137,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "DeviceType",
           "package": "OpenCLWrappers",
@@ -7150,6 +7780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ErrorCode",
           "package": "OpenCLWrappers",
@@ -7159,6 +7790,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ErrorCode",
           "package": "OpenCLWrappers",
@@ -7172,6 +7804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfo",
           "package": "OpenCLWrappers",
@@ -7181,6 +7814,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfo",
           "package": "OpenCLWrappers",
@@ -7194,6 +7828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCLint",
           "package": "OpenCLWrappers",
@@ -7203,6 +7838,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCLint",
           "package": "OpenCLWrappers",
@@ -7216,6 +7852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7225,6 +7862,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7238,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCommandQueue",
           "package": "OpenCLWrappers",
@@ -7247,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCommandQueue",
           "package": "OpenCLWrappers",
@@ -7260,6 +7900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCommandType",
           "package": "OpenCLWrappers",
@@ -7269,6 +7910,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalCommandType",
           "package": "OpenCLWrappers",
@@ -7282,6 +7924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7291,6 +7934,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7304,6 +7948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventProfilingInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -7313,6 +7958,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "EventProfilingInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -7326,6 +7972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Eventc",
           "package": "OpenCLWrappers",
@@ -7335,6 +7982,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Eventc",
           "package": "OpenCLWrappers",
@@ -7348,6 +7996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "FilterMode",
           "package": "OpenCLWrappers",
@@ -7357,6 +8006,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "FilterMode",
           "package": "OpenCLWrappers",
@@ -7370,6 +8020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatc",
           "package": "OpenCLWrappers",
@@ -7379,6 +8030,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageFormatc",
           "package": "OpenCLWrappers",
@@ -7392,6 +8044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7401,6 +8054,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7414,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalImageFormat",
           "package": "OpenCLWrappers",
@@ -7423,6 +8078,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalImageFormat",
           "package": "OpenCLWrappers",
@@ -7436,6 +8092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalPtr",
           "package": "OpenCLWrappers",
@@ -7445,6 +8102,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ImageInfoRetvalPtr",
           "normalized": "ImageInfoRetvalPtr(Ptr())",
@@ -7460,6 +8118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfo",
           "package": "OpenCLWrappers",
@@ -7469,6 +8128,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfo",
           "package": "OpenCLWrappers",
@@ -7482,6 +8142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7491,6 +8152,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7504,6 +8166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7513,6 +8176,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7526,6 +8190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalProgram",
           "package": "OpenCLWrappers",
@@ -7535,6 +8200,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalProgram",
           "package": "OpenCLWrappers",
@@ -7548,6 +8214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -7557,6 +8224,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -7570,6 +8238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -7579,6 +8248,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfo",
           "package": "OpenCLWrappers",
@@ -7592,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7601,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7614,6 +8286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLsizeiList",
           "package": "OpenCLWrappers",
@@ -7623,6 +8296,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLsizeiList",
           "normalized": "KernelWorkGroupInfoRetvalCLsizeiList[CLsizei]",
@@ -7638,6 +8312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -7647,6 +8322,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "KernelWorkGroupInfoRetvalCLulong",
           "package": "OpenCLWrappers",
@@ -7660,6 +8336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernelc",
           "package": "OpenCLWrappers",
@@ -7669,6 +8346,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Kernelc",
           "package": "OpenCLWrappers",
@@ -7682,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MapFlags",
           "package": "OpenCLWrappers",
@@ -7691,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MapFlags",
           "package": "OpenCLWrappers",
@@ -7704,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemFlags",
           "package": "OpenCLWrappers",
@@ -7713,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemFlags",
           "package": "OpenCLWrappers",
@@ -7726,6 +8408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemInfo",
           "package": "OpenCLWrappers",
@@ -7735,6 +8418,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemInfo",
           "package": "OpenCLWrappers",
@@ -7748,6 +8432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7757,6 +8442,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalCLsizei",
           "package": "OpenCLWrappers",
@@ -7770,6 +8456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7779,6 +8466,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -7792,6 +8480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7801,6 +8490,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -7814,6 +8504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMem",
           "package": "OpenCLWrappers",
@@ -7823,6 +8514,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMem",
           "package": "OpenCLWrappers",
@@ -7836,6 +8528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMemFlags",
           "package": "OpenCLWrappers",
@@ -7845,6 +8538,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMemFlags",
           "package": "OpenCLWrappers",
@@ -7858,6 +8552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMemObjectType",
           "package": "OpenCLWrappers",
@@ -7867,6 +8562,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalMemObjectType",
           "package": "OpenCLWrappers",
@@ -7880,6 +8576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalPtr",
           "package": "OpenCLWrappers",
@@ -7889,6 +8586,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectInfoRetvalPtr",
           "normalized": "MemObjectInfoRetvalPtr(Ptr())",
@@ -7904,6 +8602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectType",
           "package": "OpenCLWrappers",
@@ -7913,6 +8612,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "MemObjectType",
           "package": "OpenCLWrappers",
@@ -7926,6 +8626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Memc",
           "package": "OpenCLWrappers",
@@ -7935,6 +8636,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Memc",
           "package": "OpenCLWrappers",
@@ -7948,6 +8650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformIDc",
           "package": "OpenCLWrappers",
@@ -7957,6 +8660,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformIDc",
           "package": "OpenCLWrappers",
@@ -7970,6 +8674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -7979,6 +8684,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfo",
           "package": "OpenCLWrappers",
@@ -7992,6 +8698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8001,6 +8708,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "PlatformInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8014,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLWrappers",
@@ -8023,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProfilingInfo",
           "package": "OpenCLWrappers",
@@ -8036,6 +8746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -8045,6 +8756,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfo",
           "package": "OpenCLWrappers",
@@ -8058,6 +8770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfoRetvalBuildStatus",
           "package": "OpenCLWrappers",
@@ -8067,6 +8780,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfoRetvalBuildStatus",
           "package": "OpenCLWrappers",
@@ -8080,6 +8794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8089,6 +8804,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramBuildInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8102,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfo",
           "package": "OpenCLWrappers",
@@ -8111,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfo",
           "package": "OpenCLWrappers",
@@ -8124,6 +8842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalCLUint",
           "package": "OpenCLWrappers",
@@ -8133,6 +8852,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalCLUint",
           "package": "OpenCLWrappers",
@@ -8146,6 +8866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalCLsizeiList",
           "package": "OpenCLWrappers",
@@ -8155,6 +8876,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalCLsizeiList",
           "normalized": "ProgramInfoRetvalCLsizeiList[CLsizei]",
@@ -8170,6 +8892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -8179,6 +8902,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -8192,6 +8916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalDeviceIDList",
           "package": "OpenCLWrappers",
@@ -8201,6 +8926,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalDeviceIDList",
           "normalized": "ProgramInfoRetvalDeviceIDList[DeviceID]",
@@ -8216,6 +8942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalPtrList",
           "package": "OpenCLWrappers",
@@ -8225,6 +8952,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalPtrList",
           "normalized": "ProgramInfoRetvalPtrList[Ptr()]",
@@ -8240,6 +8968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8249,6 +8978,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "ProgramInfoRetvalString",
           "package": "OpenCLWrappers",
@@ -8262,6 +8992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Programc",
           "package": "OpenCLWrappers",
@@ -8271,6 +9002,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Programc",
           "package": "OpenCLWrappers",
@@ -8284,6 +9016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfo",
           "package": "OpenCLWrappers",
@@ -8293,6 +9026,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfo",
           "package": "OpenCLWrappers",
@@ -8306,6 +9040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalAddressingMode",
           "package": "OpenCLWrappers",
@@ -8315,6 +9050,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalAddressingMode",
           "package": "OpenCLWrappers",
@@ -8328,6 +9064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalCLbool",
           "package": "OpenCLWrappers",
@@ -8337,6 +9074,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalCLbool",
           "package": "OpenCLWrappers",
@@ -8350,6 +9088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -8359,6 +9098,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalCLuint",
           "package": "OpenCLWrappers",
@@ -8372,6 +9112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -8381,6 +9122,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalContext",
           "package": "OpenCLWrappers",
@@ -8394,6 +9136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalFilterMode",
           "package": "OpenCLWrappers",
@@ -8403,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "SamplerInfoRetvalFilterMode",
           "package": "OpenCLWrappers",
@@ -8416,6 +9160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Samplerc",
           "package": "OpenCLWrappers",
@@ -8425,6 +9170,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "Samplerc",
           "package": "OpenCLWrappers",
@@ -8438,6 +9184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clA",
           "package": "OpenCLWrappers",
@@ -8447,6 +9194,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clA",
           "package": "OpenCLWrappers",
@@ -8459,6 +9207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clARGB",
           "package": "OpenCLWrappers",
@@ -8468,6 +9217,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clARGB",
           "package": "OpenCLWrappers",
@@ -8481,6 +9231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressClamp",
           "package": "OpenCLWrappers",
@@ -8490,6 +9241,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressClamp",
           "package": "OpenCLWrappers",
@@ -8503,6 +9255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressClampToEdge",
           "package": "OpenCLWrappers",
@@ -8512,6 +9265,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressClampToEdge",
           "package": "OpenCLWrappers",
@@ -8525,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressNone",
           "package": "OpenCLWrappers",
@@ -8534,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressNone",
           "package": "OpenCLWrappers",
@@ -8547,6 +9303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressRepeat",
           "package": "OpenCLWrappers",
@@ -8556,6 +9313,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clAddressRepeat",
           "package": "OpenCLWrappers",
@@ -8569,6 +9327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBGRA",
           "package": "OpenCLWrappers",
@@ -8578,6 +9337,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBGRA",
           "package": "OpenCLWrappers",
@@ -8591,6 +9351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildError",
           "package": "OpenCLWrappers",
@@ -8600,6 +9361,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildError",
           "package": "OpenCLWrappers",
@@ -8613,6 +9375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildInProgress",
           "package": "OpenCLWrappers",
@@ -8622,6 +9385,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildInProgress",
           "package": "OpenCLWrappers",
@@ -8635,6 +9399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildNone",
           "package": "OpenCLWrappers",
@@ -8644,6 +9409,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildNone",
           "package": "OpenCLWrappers",
@@ -8657,6 +9423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildSuccess",
           "package": "OpenCLWrappers",
@@ -8666,6 +9433,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clBuildSuccess",
           "package": "OpenCLWrappers",
@@ -8679,6 +9447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextDevices",
           "package": "OpenCLWrappers",
@@ -8688,6 +9457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextDevices",
           "package": "OpenCLWrappers",
@@ -8701,6 +9471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextPlatform",
           "package": "OpenCLWrappers",
@@ -8710,6 +9481,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextPlatform",
           "package": "OpenCLWrappers",
@@ -8723,6 +9495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextProperties",
           "package": "OpenCLWrappers",
@@ -8732,6 +9505,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextProperties",
           "package": "OpenCLWrappers",
@@ -8745,6 +9519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextReferenceCount",
           "package": "OpenCLWrappers",
@@ -8754,6 +9529,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clContextReferenceCount",
           "package": "OpenCLWrappers",
@@ -8767,6 +9543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceAddressBits",
           "package": "OpenCLWrappers",
@@ -8776,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceAddressBits",
           "package": "OpenCLWrappers",
@@ -8789,6 +9567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceAvailable",
           "package": "OpenCLWrappers",
@@ -8798,6 +9577,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceAvailable",
           "package": "OpenCLWrappers",
@@ -8811,6 +9591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceCompilerAvailable",
           "package": "OpenCLWrappers",
@@ -8820,6 +9601,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceCompilerAvailable",
           "package": "OpenCLWrappers",
@@ -8833,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceDoubleFPConfig",
           "package": "OpenCLWrappers",
@@ -8842,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceDoubleFPConfig",
           "package": "OpenCLWrappers",
@@ -8855,6 +9639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceEndianLittle",
           "package": "OpenCLWrappers",
@@ -8864,6 +9649,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceEndianLittle",
           "package": "OpenCLWrappers",
@@ -8877,6 +9663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceErrorCorrectionSupport",
           "package": "OpenCLWrappers",
@@ -8886,6 +9673,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceErrorCorrectionSupport",
           "package": "OpenCLWrappers",
@@ -8899,6 +9687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceExecutionCapabilities",
           "package": "OpenCLWrappers",
@@ -8908,6 +9697,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceExecutionCapabilities",
           "package": "OpenCLWrappers",
@@ -8921,6 +9711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceExtensions",
           "package": "OpenCLWrappers",
@@ -8930,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceExtensions",
           "package": "OpenCLWrappers",
@@ -8943,6 +9735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheLineSize",
           "package": "OpenCLWrappers",
@@ -8952,6 +9745,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheLineSize",
           "package": "OpenCLWrappers",
@@ -8965,6 +9759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheSize",
           "package": "OpenCLWrappers",
@@ -8974,6 +9769,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheSize",
           "package": "OpenCLWrappers",
@@ -8987,6 +9783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheType",
           "package": "OpenCLWrappers",
@@ -8996,6 +9793,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemCacheType",
           "package": "OpenCLWrappers",
@@ -9009,6 +9807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemSize",
           "package": "OpenCLWrappers",
@@ -9018,6 +9817,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceGlobalMemSize",
           "package": "OpenCLWrappers",
@@ -9031,6 +9831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceHalfFPConfig",
           "package": "OpenCLWrappers",
@@ -9040,6 +9841,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceHalfFPConfig",
           "package": "OpenCLWrappers",
@@ -9053,6 +9855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage2DMaxHeight",
           "package": "OpenCLWrappers",
@@ -9062,6 +9865,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage2DMaxHeight",
           "package": "OpenCLWrappers",
@@ -9075,6 +9879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage2DMaxWidth",
           "package": "OpenCLWrappers",
@@ -9084,6 +9889,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage2DMaxWidth",
           "package": "OpenCLWrappers",
@@ -9097,6 +9903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxDepth",
           "package": "OpenCLWrappers",
@@ -9106,6 +9913,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxDepth",
           "package": "OpenCLWrappers",
@@ -9119,6 +9927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxHeight",
           "package": "OpenCLWrappers",
@@ -9128,6 +9937,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxHeight",
           "package": "OpenCLWrappers",
@@ -9141,6 +9951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxWidth",
           "package": "OpenCLWrappers",
@@ -9150,6 +9961,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImage3DMaxWidth",
           "package": "OpenCLWrappers",
@@ -9163,6 +9975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImageSupport",
           "package": "OpenCLWrappers",
@@ -9172,6 +9985,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceImageSupport",
           "package": "OpenCLWrappers",
@@ -9185,6 +9999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceLocalMemSize",
           "package": "OpenCLWrappers",
@@ -9194,6 +10009,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceLocalMemSize",
           "package": "OpenCLWrappers",
@@ -9207,6 +10023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -9216,6 +10033,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceLocalMemType",
           "package": "OpenCLWrappers",
@@ -9229,6 +10047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxClockFrequency",
           "package": "OpenCLWrappers",
@@ -9238,6 +10057,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxClockFrequency",
           "package": "OpenCLWrappers",
@@ -9251,6 +10071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxComputeUnits",
           "package": "OpenCLWrappers",
@@ -9260,6 +10081,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxComputeUnits",
           "package": "OpenCLWrappers",
@@ -9273,6 +10095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxConstantArgs",
           "package": "OpenCLWrappers",
@@ -9282,6 +10105,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxConstantArgs",
           "package": "OpenCLWrappers",
@@ -9295,6 +10119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxConstantBufferSize",
           "package": "OpenCLWrappers",
@@ -9304,6 +10129,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxConstantBufferSize",
           "package": "OpenCLWrappers",
@@ -9317,6 +10143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxMemAllocSize",
           "package": "OpenCLWrappers",
@@ -9326,6 +10153,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxMemAllocSize",
           "package": "OpenCLWrappers",
@@ -9339,6 +10167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxParameterSize",
           "package": "OpenCLWrappers",
@@ -9348,6 +10177,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxParameterSize",
           "package": "OpenCLWrappers",
@@ -9361,6 +10191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxReadImageArgs",
           "package": "OpenCLWrappers",
@@ -9370,6 +10201,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxReadImageArgs",
           "package": "OpenCLWrappers",
@@ -9383,6 +10215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxSamplers",
           "package": "OpenCLWrappers",
@@ -9392,6 +10225,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxSamplers",
           "package": "OpenCLWrappers",
@@ -9405,6 +10239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -9414,6 +10249,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -9427,6 +10263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkItemDimensions",
           "package": "OpenCLWrappers",
@@ -9436,6 +10273,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkItemDimensions",
           "package": "OpenCLWrappers",
@@ -9449,6 +10287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkItemSizes",
           "package": "OpenCLWrappers",
@@ -9458,6 +10297,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWorkItemSizes",
           "package": "OpenCLWrappers",
@@ -9471,6 +10311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWriteImageArgs",
           "package": "OpenCLWrappers",
@@ -9480,6 +10321,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMaxWriteImageArgs",
           "package": "OpenCLWrappers",
@@ -9493,6 +10335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMemBaseAddrAlign",
           "package": "OpenCLWrappers",
@@ -9502,6 +10345,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMemBaseAddrAlign",
           "package": "OpenCLWrappers",
@@ -9515,6 +10359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMinDataTypeAlignSize",
           "package": "OpenCLWrappers",
@@ -9524,6 +10369,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceMinDataTypeAlignSize",
           "package": "OpenCLWrappers",
@@ -9537,6 +10383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceName",
           "package": "OpenCLWrappers",
@@ -9546,6 +10393,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceName",
           "package": "OpenCLWrappers",
@@ -9559,6 +10407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePlatform",
           "package": "OpenCLWrappers",
@@ -9568,6 +10417,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePlatform",
           "package": "OpenCLWrappers",
@@ -9581,6 +10431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthChar",
           "package": "OpenCLWrappers",
@@ -9590,6 +10441,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthChar",
           "package": "OpenCLWrappers",
@@ -9603,6 +10455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthDouble",
           "package": "OpenCLWrappers",
@@ -9612,6 +10465,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthDouble",
           "package": "OpenCLWrappers",
@@ -9625,6 +10479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthFloat",
           "package": "OpenCLWrappers",
@@ -9634,6 +10489,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthFloat",
           "package": "OpenCLWrappers",
@@ -9647,6 +10503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthInt",
           "package": "OpenCLWrappers",
@@ -9656,6 +10513,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthInt",
           "package": "OpenCLWrappers",
@@ -9669,6 +10527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthLong",
           "package": "OpenCLWrappers",
@@ -9678,6 +10537,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthLong",
           "package": "OpenCLWrappers",
@@ -9691,6 +10551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthShort",
           "package": "OpenCLWrappers",
@@ -9700,6 +10561,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDevicePreferredVectorWidthShort",
           "package": "OpenCLWrappers",
@@ -9713,6 +10575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceProfile",
           "package": "OpenCLWrappers",
@@ -9722,6 +10585,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceProfile",
           "package": "OpenCLWrappers",
@@ -9735,6 +10599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceProfilingTimerResolution",
           "package": "OpenCLWrappers",
@@ -9744,6 +10609,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceProfilingTimerResolution",
           "package": "OpenCLWrappers",
@@ -9757,6 +10623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceQueueProperties",
           "package": "OpenCLWrappers",
@@ -9766,6 +10633,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceQueueProperties",
           "package": "OpenCLWrappers",
@@ -9779,6 +10647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceSingleFPConfig",
           "package": "OpenCLWrappers",
@@ -9788,6 +10657,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceSingleFPConfig",
           "package": "OpenCLWrappers",
@@ -9801,6 +10671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceType",
           "package": "OpenCLWrappers",
@@ -9810,6 +10681,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceType",
           "package": "OpenCLWrappers",
@@ -9823,6 +10695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeAccelerator",
           "package": "OpenCLWrappers",
@@ -9832,6 +10705,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeAccelerator",
           "package": "OpenCLWrappers",
@@ -9845,6 +10719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeAll",
           "package": "OpenCLWrappers",
@@ -9854,6 +10729,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeAll",
           "package": "OpenCLWrappers",
@@ -9867,6 +10743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeCPU",
           "package": "OpenCLWrappers",
@@ -9876,6 +10753,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeCPU",
           "package": "OpenCLWrappers",
@@ -9889,6 +10767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeDefault",
           "package": "OpenCLWrappers",
@@ -9898,6 +10777,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeDefault",
           "package": "OpenCLWrappers",
@@ -9911,6 +10791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeGPU",
           "package": "OpenCLWrappers",
@@ -9920,6 +10801,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceTypeGPU",
           "package": "OpenCLWrappers",
@@ -9933,6 +10815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVendor",
           "package": "OpenCLWrappers",
@@ -9942,6 +10825,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVendor",
           "package": "OpenCLWrappers",
@@ -9955,6 +10839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVendorID",
           "package": "OpenCLWrappers",
@@ -9964,6 +10849,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVendorID",
           "package": "OpenCLWrappers",
@@ -9977,6 +10863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVersion",
           "package": "OpenCLWrappers",
@@ -9986,6 +10873,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDeviceVersion",
           "package": "OpenCLWrappers",
@@ -9999,6 +10887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDriverVersion",
           "package": "OpenCLWrappers",
@@ -10008,6 +10897,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clDriverVersion",
           "package": "OpenCLWrappers",
@@ -10021,6 +10911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandExecutionStatus",
           "package": "OpenCLWrappers",
@@ -10030,6 +10921,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandExecutionStatus",
           "package": "OpenCLWrappers",
@@ -10043,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandQueue",
           "package": "OpenCLWrappers",
@@ -10052,6 +10945,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandQueue",
           "package": "OpenCLWrappers",
@@ -10065,6 +10959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandType",
           "package": "OpenCLWrappers",
@@ -10074,6 +10969,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventCommandType",
           "package": "OpenCLWrappers",
@@ -10087,6 +10983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventReferenceCount",
           "package": "OpenCLWrappers",
@@ -10096,6 +10993,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clEventReferenceCount",
           "package": "OpenCLWrappers",
@@ -10109,6 +11007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPDenorm",
           "package": "OpenCLWrappers",
@@ -10118,6 +11017,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPDenorm",
           "package": "OpenCLWrappers",
@@ -10131,6 +11031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPFMA",
           "package": "OpenCLWrappers",
@@ -10140,6 +11041,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPFMA",
           "package": "OpenCLWrappers",
@@ -10153,6 +11055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPInfNan",
           "package": "OpenCLWrappers",
@@ -10162,6 +11065,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPInfNan",
           "package": "OpenCLWrappers",
@@ -10175,6 +11079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToInf",
           "package": "OpenCLWrappers",
@@ -10184,6 +11089,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToInf",
           "package": "OpenCLWrappers",
@@ -10197,6 +11103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToNearest",
           "package": "OpenCLWrappers",
@@ -10206,6 +11113,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToNearest",
           "package": "OpenCLWrappers",
@@ -10219,6 +11127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToZero",
           "package": "OpenCLWrappers",
@@ -10228,6 +11137,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFPRoundToZero",
           "package": "OpenCLWrappers",
@@ -10241,6 +11151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFalse",
           "package": "OpenCLWrappers",
@@ -10250,6 +11161,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFalse",
           "package": "OpenCLWrappers",
@@ -10263,6 +11175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFilterLinear",
           "package": "OpenCLWrappers",
@@ -10272,6 +11185,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFilterLinear",
           "package": "OpenCLWrappers",
@@ -10285,6 +11199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFilterNearest",
           "package": "OpenCLWrappers",
@@ -10294,6 +11209,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFilterNearest",
           "package": "OpenCLWrappers",
@@ -10307,6 +11223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFloat",
           "package": "OpenCLWrappers",
@@ -10316,6 +11233,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clFloat",
           "package": "OpenCLWrappers",
@@ -10329,6 +11247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clHalfFloat",
           "package": "OpenCLWrappers",
@@ -10338,6 +11257,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clHalfFloat",
           "package": "OpenCLWrappers",
@@ -10351,6 +11271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageDepth",
           "package": "OpenCLWrappers",
@@ -10360,6 +11281,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageDepth",
           "package": "OpenCLWrappers",
@@ -10373,6 +11295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageElementSize",
           "package": "OpenCLWrappers",
@@ -10382,6 +11305,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageElementSize",
           "package": "OpenCLWrappers",
@@ -10395,6 +11319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageFormat",
           "package": "OpenCLWrappers",
@@ -10404,6 +11329,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageFormat",
           "package": "OpenCLWrappers",
@@ -10417,6 +11343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageHeight",
           "package": "OpenCLWrappers",
@@ -10426,6 +11353,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageHeight",
           "package": "OpenCLWrappers",
@@ -10439,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageRowPitch",
           "package": "OpenCLWrappers",
@@ -10448,6 +11377,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageRowPitch",
           "package": "OpenCLWrappers",
@@ -10461,6 +11391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageSlicePitch",
           "package": "OpenCLWrappers",
@@ -10470,6 +11401,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageSlicePitch",
           "package": "OpenCLWrappers",
@@ -10483,6 +11415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageWidth",
           "package": "OpenCLWrappers",
@@ -10492,6 +11425,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clImageWidth",
           "package": "OpenCLWrappers",
@@ -10505,6 +11439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clIntensity",
           "package": "OpenCLWrappers",
@@ -10514,6 +11449,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clIntensity",
           "package": "OpenCLWrappers",
@@ -10527,6 +11463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelCompileWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -10536,6 +11473,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelCompileWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -10549,6 +11487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelContext",
           "package": "OpenCLWrappers",
@@ -10558,6 +11497,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelContext",
           "package": "OpenCLWrappers",
@@ -10571,6 +11511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelFunctionName",
           "package": "OpenCLWrappers",
@@ -10580,6 +11521,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelFunctionName",
           "package": "OpenCLWrappers",
@@ -10593,6 +11535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelLocalMemSize",
           "package": "OpenCLWrappers",
@@ -10602,6 +11545,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelLocalMemSize",
           "package": "OpenCLWrappers",
@@ -10615,6 +11559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelNumArgs",
           "package": "OpenCLWrappers",
@@ -10624,6 +11569,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelNumArgs",
           "package": "OpenCLWrappers",
@@ -10637,6 +11583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelProgram",
           "package": "OpenCLWrappers",
@@ -10646,6 +11593,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelProgram",
           "package": "OpenCLWrappers",
@@ -10659,6 +11607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelReferenceCount",
           "package": "OpenCLWrappers",
@@ -10668,6 +11617,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelReferenceCount",
           "package": "OpenCLWrappers",
@@ -10681,6 +11631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -10690,6 +11641,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clKernelWorkGroupSize",
           "package": "OpenCLWrappers",
@@ -10703,6 +11655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clLuminance",
           "package": "OpenCLWrappers",
@@ -10712,6 +11665,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clLuminance",
           "package": "OpenCLWrappers",
@@ -10725,6 +11679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMapRead",
           "package": "OpenCLWrappers",
@@ -10734,6 +11689,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMapRead",
           "package": "OpenCLWrappers",
@@ -10747,6 +11703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMapWrite",
           "package": "OpenCLWrappers",
@@ -10756,6 +11713,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMapWrite",
           "package": "OpenCLWrappers",
@@ -10769,6 +11727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemAllocHostPtr",
           "package": "OpenCLWrappers",
@@ -10778,6 +11737,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemAllocHostPtr",
           "package": "OpenCLWrappers",
@@ -10791,6 +11751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemContext",
           "package": "OpenCLWrappers",
@@ -10800,6 +11761,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemContext",
           "package": "OpenCLWrappers",
@@ -10813,6 +11775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemCopyHostPtr",
           "package": "OpenCLWrappers",
@@ -10822,6 +11785,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemCopyHostPtr",
           "package": "OpenCLWrappers",
@@ -10835,6 +11799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemFlags",
           "package": "OpenCLWrappers",
@@ -10844,6 +11809,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemFlags",
           "package": "OpenCLWrappers",
@@ -10857,6 +11823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemHostPtr",
           "package": "OpenCLWrappers",
@@ -10866,6 +11833,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemHostPtr",
           "package": "OpenCLWrappers",
@@ -10879,6 +11847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemMapCount",
           "package": "OpenCLWrappers",
@@ -10888,6 +11857,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemMapCount",
           "package": "OpenCLWrappers",
@@ -10901,6 +11871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectBuffer",
           "package": "OpenCLWrappers",
@@ -10910,6 +11881,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectBuffer",
           "package": "OpenCLWrappers",
@@ -10923,6 +11895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectImage2D",
           "package": "OpenCLWrappers",
@@ -10932,6 +11905,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectImage2D",
           "package": "OpenCLWrappers",
@@ -10945,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectImage3D",
           "package": "OpenCLWrappers",
@@ -10954,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemObjectImage3D",
           "package": "OpenCLWrappers",
@@ -10967,6 +11943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReadOnly",
           "package": "OpenCLWrappers",
@@ -10976,6 +11953,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReadOnly",
           "package": "OpenCLWrappers",
@@ -10989,6 +11967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReadWrite",
           "package": "OpenCLWrappers",
@@ -10998,6 +11977,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReadWrite",
           "package": "OpenCLWrappers",
@@ -11011,6 +11991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReferenceCount",
           "package": "OpenCLWrappers",
@@ -11020,6 +12001,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemReferenceCount",
           "package": "OpenCLWrappers",
@@ -11033,6 +12015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemSize",
           "package": "OpenCLWrappers",
@@ -11042,6 +12025,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemSize",
           "package": "OpenCLWrappers",
@@ -11055,6 +12039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemType",
           "package": "OpenCLWrappers",
@@ -11064,6 +12049,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemType",
           "package": "OpenCLWrappers",
@@ -11077,6 +12063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemUseHostPtr",
           "package": "OpenCLWrappers",
@@ -11086,6 +12073,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemUseHostPtr",
           "package": "OpenCLWrappers",
@@ -11099,6 +12087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemWriteOnly",
           "package": "OpenCLWrappers",
@@ -11108,6 +12097,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clMemWriteOnly",
           "package": "OpenCLWrappers",
@@ -11121,6 +12111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformExtensions",
           "package": "OpenCLWrappers",
@@ -11130,6 +12121,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformExtensions",
           "package": "OpenCLWrappers",
@@ -11143,6 +12135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformName",
           "package": "OpenCLWrappers",
@@ -11152,6 +12145,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformName",
           "package": "OpenCLWrappers",
@@ -11165,6 +12159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformProfile",
           "package": "OpenCLWrappers",
@@ -11174,6 +12169,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformProfile",
           "package": "OpenCLWrappers",
@@ -11187,6 +12183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformVendor",
           "package": "OpenCLWrappers",
@@ -11196,6 +12193,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformVendor",
           "package": "OpenCLWrappers",
@@ -11209,6 +12207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformVersion",
           "package": "OpenCLWrappers",
@@ -11218,6 +12217,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clPlatformVersion",
           "package": "OpenCLWrappers",
@@ -11231,6 +12231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandEnd",
           "package": "OpenCLWrappers",
@@ -11240,6 +12241,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandEnd",
           "package": "OpenCLWrappers",
@@ -11253,6 +12255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandQueued",
           "package": "OpenCLWrappers",
@@ -11262,6 +12265,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandQueued",
           "package": "OpenCLWrappers",
@@ -11275,6 +12279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandStart",
           "package": "OpenCLWrappers",
@@ -11284,6 +12289,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandStart",
           "package": "OpenCLWrappers",
@@ -11297,6 +12303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandSubmit",
           "package": "OpenCLWrappers",
@@ -11306,6 +12313,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProfilingCommandSubmit",
           "package": "OpenCLWrappers",
@@ -11319,6 +12327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBinaries",
           "package": "OpenCLWrappers",
@@ -11328,6 +12337,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBinaries",
           "package": "OpenCLWrappers",
@@ -11341,6 +12351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBinarySizes",
           "package": "OpenCLWrappers",
@@ -11350,6 +12361,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBinarySizes",
           "package": "OpenCLWrappers",
@@ -11363,6 +12375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildLog",
           "package": "OpenCLWrappers",
@@ -11372,6 +12385,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildLog",
           "package": "OpenCLWrappers",
@@ -11385,6 +12399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildOptions",
           "package": "OpenCLWrappers",
@@ -11394,6 +12409,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildOptions",
           "package": "OpenCLWrappers",
@@ -11407,6 +12423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildStatus",
           "package": "OpenCLWrappers",
@@ -11416,6 +12433,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramBuildStatus",
           "package": "OpenCLWrappers",
@@ -11429,6 +12447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramContext",
           "package": "OpenCLWrappers",
@@ -11438,6 +12457,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramContext",
           "package": "OpenCLWrappers",
@@ -11451,6 +12471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramDevices",
           "package": "OpenCLWrappers",
@@ -11460,6 +12481,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramDevices",
           "package": "OpenCLWrappers",
@@ -11473,6 +12495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramNumDevices",
           "package": "OpenCLWrappers",
@@ -11482,6 +12505,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramNumDevices",
           "package": "OpenCLWrappers",
@@ -11495,6 +12519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramReferenceCount",
           "package": "OpenCLWrappers",
@@ -11504,6 +12529,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramReferenceCount",
           "package": "OpenCLWrappers",
@@ -11517,6 +12543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramSource",
           "package": "OpenCLWrappers",
@@ -11526,6 +12553,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clProgramSource",
           "package": "OpenCLWrappers",
@@ -11539,6 +12567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueContext",
           "package": "OpenCLWrappers",
@@ -11548,6 +12577,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueContext",
           "package": "OpenCLWrappers",
@@ -11561,6 +12591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueDevice",
           "package": "OpenCLWrappers",
@@ -11570,6 +12601,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueDevice",
           "package": "OpenCLWrappers",
@@ -11583,6 +12615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueOutOfOrderExecModeEnable",
           "package": "OpenCLWrappers",
@@ -11592,6 +12625,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueOutOfOrderExecModeEnable",
           "package": "OpenCLWrappers",
@@ -11605,6 +12639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueProfilingEnable",
           "package": "OpenCLWrappers",
@@ -11614,6 +12649,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueProfilingEnable",
           "package": "OpenCLWrappers",
@@ -11627,6 +12663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueProperties",
           "package": "OpenCLWrappers",
@@ -11636,6 +12673,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueProperties",
           "package": "OpenCLWrappers",
@@ -11649,6 +12687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueReferenceCount",
           "package": "OpenCLWrappers",
@@ -11658,6 +12697,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clQueueReferenceCount",
           "package": "OpenCLWrappers",
@@ -11671,6 +12711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clR",
           "package": "OpenCLWrappers",
@@ -11680,6 +12721,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clR",
           "package": "OpenCLWrappers",
@@ -11692,6 +12734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRA",
           "package": "OpenCLWrappers",
@@ -11701,6 +12744,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRA",
           "package": "OpenCLWrappers",
@@ -11714,6 +12758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRG",
           "package": "OpenCLWrappers",
@@ -11723,6 +12768,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRG",
           "package": "OpenCLWrappers",
@@ -11736,6 +12782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRGB",
           "package": "OpenCLWrappers",
@@ -11745,6 +12792,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRGB",
           "package": "OpenCLWrappers",
@@ -11758,6 +12806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRGBA",
           "package": "OpenCLWrappers",
@@ -11767,6 +12816,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clRGBA",
           "package": "OpenCLWrappers",
@@ -11780,6 +12830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSNormInt16",
           "package": "OpenCLWrappers",
@@ -11789,6 +12840,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSNormInt16",
           "package": "OpenCLWrappers",
@@ -11802,6 +12854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSNormInt8",
           "package": "OpenCLWrappers",
@@ -11811,6 +12864,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSNormInt8",
           "package": "OpenCLWrappers",
@@ -11824,6 +12878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerAddressingMode",
           "package": "OpenCLWrappers",
@@ -11833,6 +12888,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerAddressingMode",
           "package": "OpenCLWrappers",
@@ -11846,6 +12902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerContext",
           "package": "OpenCLWrappers",
@@ -11855,6 +12912,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerContext",
           "package": "OpenCLWrappers",
@@ -11868,6 +12926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerFilterMode",
           "package": "OpenCLWrappers",
@@ -11877,6 +12936,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerFilterMode",
           "package": "OpenCLWrappers",
@@ -11890,6 +12950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerNormalizedCoords",
           "package": "OpenCLWrappers",
@@ -11899,6 +12960,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerNormalizedCoords",
           "package": "OpenCLWrappers",
@@ -11912,6 +12974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerReferenceCount",
           "package": "OpenCLWrappers",
@@ -11921,6 +12984,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSamplerReferenceCount",
           "package": "OpenCLWrappers",
@@ -11934,6 +12998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt16",
           "package": "OpenCLWrappers",
@@ -11943,6 +13008,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt16",
           "package": "OpenCLWrappers",
@@ -11956,6 +13022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt32",
           "package": "OpenCLWrappers",
@@ -11965,6 +13032,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt32",
           "package": "OpenCLWrappers",
@@ -11978,6 +13046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt8",
           "package": "OpenCLWrappers",
@@ -11987,6 +13056,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clSignedInt8",
           "package": "OpenCLWrappers",
@@ -12000,6 +13070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clTrue",
           "package": "OpenCLWrappers",
@@ -12009,6 +13080,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clTrue",
           "package": "OpenCLWrappers",
@@ -12022,6 +13094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt101010",
           "package": "OpenCLWrappers",
@@ -12031,6 +13104,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt101010",
           "package": "OpenCLWrappers",
@@ -12044,6 +13118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt16",
           "package": "OpenCLWrappers",
@@ -12053,6 +13128,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt16",
           "package": "OpenCLWrappers",
@@ -12066,6 +13142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt8",
           "package": "OpenCLWrappers",
@@ -12075,6 +13152,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormInt8",
           "package": "OpenCLWrappers",
@@ -12088,6 +13166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormShort555",
           "package": "OpenCLWrappers",
@@ -12097,6 +13176,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormShort555",
           "package": "OpenCLWrappers",
@@ -12110,6 +13190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormShort565",
           "package": "OpenCLWrappers",
@@ -12119,6 +13200,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUNormShort565",
           "package": "OpenCLWrappers",
@@ -12132,6 +13214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt16",
           "package": "OpenCLWrappers",
@@ -12141,6 +13224,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt16",
           "package": "OpenCLWrappers",
@@ -12154,6 +13238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt32",
           "package": "OpenCLWrappers",
@@ -12163,6 +13248,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt32",
           "package": "OpenCLWrappers",
@@ -12176,6 +13262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt8",
           "package": "OpenCLWrappers",
@@ -12185,6 +13272,7 @@
         },
         "index": {
           "hierarchy": "System OpenCL Wrappers Types",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers.Types",
           "name": "clUnsignedInt8",
           "package": "OpenCLWrappers",
@@ -12199,6 +13287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe OpenCL system for open heterogenous data parallel supercomputing.\n\u003c/p\u003e\u003cp\u003eA fork of the FFI wrapper OpenCLRaw by Jeff Heard of the Renaissance Computing Institute.\n\u003c/p\u003e\u003cp\u003eFrom the introduction: \n\u003c/p\u003e\u003cp\u003eOpenCL (Open Computing Language) is an open royalty-free standard for general purpose \n    parallel programming across CPUs, GPUs and other processors, giving software developers \n    portable and efficient access to the power of these heterogeneous processing platforms.   \n\u003c/p\u003e\u003cp\u003eOpenCL supports a wide range of applications, ranging from embedded and consumer software \n    to HPC solutions, through a low-level, high-performance, portable abstraction.  By creating an \n    efficient, close-to-the-metal programming interface, OpenCL will form the foundation layer of a \n    parallel computing ecosystem of platform-independent tools, middleware and applications.  \n    OpenCL is particularly suited to play an increasingly significant role in emerging interactive \n    graphics applications that combine general parallel compute algorithms with graphics rendering \n    pipelines. \n\u003c/p\u003e\u003cp\u003eOpenCL consists of an API for coordinating parallel computation across\n    heterogeneous processors; and a cross-platform programming language with a well- \n    specified computation environment.  The OpenCL standard: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Supports both data- and task-based parallel programming models \n\u003c/li\u003e\u003cli\u003e Utilizes a subset of ISO C99 with extensions for parallelism \n\u003c/li\u003e\u003cli\u003e Defines consistent numerical requirements based on IEEE 754 \n\u003c/li\u003e\u003cli\u003e Defines a configuration profile for handheld and embedded devices \n\u003c/li\u003e\u003cli\u003e Efficiently interoperates with OpenGL, OpenGL ES and other graphics APIs\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e_General Notes on the differences between Haskell and the OpenCL-C implementation_\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Side-effectful procedures capable of returning an error code only return a Maybe ErrorCode, with Nothing returned upon success\n\u003c/li\u003e\u003cli\u003e Procedures which follow the pattern of returning a pointer to an object and taking a final parameter as an error code instead\n      return Either ErrorCode \u003ccode\u003eObjectType\u003c/code\u003e \n\u003c/li\u003e\u003cli\u003e Enumerations and constants are replaced by newtypes for the sake of type-safety.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:55:34 UTC 2014",
           "module": "System.OpenCL.Wrappers",
           "name": "Wrappers",
           "package": "OpenCLWrappers",
@@ -12208,6 +13297,7 @@
         "index": {
           "description": "The OpenCL system for open heterogenous data parallel supercomputing fork of the FFI wrapper OpenCLRaw by Jeff Heard of the Renaissance Computing Institute From the introduction OpenCL Open Computing Language is an open royalty-free standard for general purpose parallel programming across CPUs GPUs and other processors giving software developers portable and efficient access to the power of these heterogeneous processing platforms OpenCL supports wide range of applications ranging from embedded and consumer software to HPC solutions through low-level high-performance portable abstraction By creating an efficient close-to-the-metal programming interface OpenCL will form the foundation layer of parallel computing ecosystem of platform-independent tools middleware and applications OpenCL is particularly suited to play an increasingly significant role in emerging interactive graphics applications that combine general parallel compute algorithms with graphics rendering pipelines OpenCL consists of an API for coordinating parallel computation across heterogeneous processors and cross-platform programming language with well specified computation environment The OpenCL standard Supports both data and task-based parallel programming models Utilizes subset of ISO C99 with extensions for parallelism Defines consistent numerical requirements based on IEEE Defines configuration profile for handheld and embedded devices Efficiently interoperates with OpenGL OpenGL ES and other graphics APIs General Notes on the differences between Haskell and the OpenCL-C implementation Side-effectful procedures capable of returning an error code only return Maybe ErrorCode with Nothing returned upon success Procedures which follow the pattern of returning pointer to an object and taking final parameter as an error code instead return Either ErrorCode ObjectType Enumerations and constants are replaced by newtypes for the sake of type-safety",
           "hierarchy": "System OpenCL Wrappers",
+          "indexed": "2014-03-11T16:55:34",
           "module": "System.OpenCL.Wrappers",
           "name": "Wrappers",
           "package": "OpenCLWrappers",

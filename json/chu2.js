@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "chu2"
+        "phrase": "chu2",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "FFI",
           "package": "chu2",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "FFI",
           "package": "chu2",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Chu2Errors",
           "package": "chu2",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Chu2Errors",
           "package": "chu2",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Chu2UrlSchemeData",
           "package": "chu2",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Chu2UrlSchemeData",
           "package": "chu2",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "EnvData",
           "package": "chu2",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "EnvData",
           "package": "chu2",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Field",
           "package": "chu2",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Field",
           "package": "chu2",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Header",
           "package": "chu2",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Header",
           "package": "chu2",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Headers",
           "package": "chu2",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Headers",
           "package": "chu2",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "RequestMethodData",
           "package": "chu2",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "RequestMethodData",
           "package": "chu2",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "ResponseData",
           "package": "chu2",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "ResponseData",
           "package": "chu2",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "StatusData",
           "package": "chu2",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "StatusData",
           "package": "chu2",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Accepted",
           "package": "chu2",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Accepted",
           "package": "chu2",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "BadRequest",
           "package": "chu2",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "BadRequest",
           "package": "chu2",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "CONNECT",
           "package": "chu2",
@@ -281,6 +306,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "CONNECT",
           "package": "chu2",
@@ -294,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Conflict",
           "package": "chu2",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Conflict",
           "package": "chu2",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Created",
           "package": "chu2",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Created",
           "package": "chu2",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "DELETE",
           "package": "chu2",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "DELETE",
           "package": "chu2",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "EnvData",
           "package": "chu2",
@@ -369,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "EnvData",
           "package": "chu2",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Forbidden",
           "package": "chu2",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Forbidden",
           "package": "chu2",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "GET",
           "package": "chu2",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "GET",
           "package": "chu2",
@@ -426,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Gone",
           "package": "chu2",
@@ -435,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Gone",
           "package": "chu2",
@@ -448,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "HEAD",
           "package": "chu2",
@@ -457,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "HEAD",
           "package": "chu2",
@@ -470,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "HTTP",
           "package": "chu2",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "HTTP",
           "package": "chu2",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "HTTPS",
           "package": "chu2",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "HTTPS",
           "package": "chu2",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "MethodNotAllowed",
           "package": "chu2",
@@ -523,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "MethodNotAllowed",
           "package": "chu2",
@@ -536,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "MovedPermanently",
           "package": "chu2",
@@ -545,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "MovedPermanently",
           "package": "chu2",
@@ -558,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "MovedTemporarily",
           "package": "chu2",
@@ -567,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "MovedTemporarily",
           "package": "chu2",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "MultipleChoices",
           "package": "chu2",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "MultipleChoices",
           "package": "chu2",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "NoContent",
           "package": "chu2",
@@ -611,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "NoContent",
           "package": "chu2",
@@ -624,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "NotAcceptable",
           "package": "chu2",
@@ -633,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "NotAcceptable",
           "package": "chu2",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "NotFound",
           "package": "chu2",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "NotFound",
           "package": "chu2",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "NotImplemented",
           "package": "chu2",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "NotImplemented",
           "package": "chu2",
@@ -690,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "NotModified",
           "package": "chu2",
@@ -699,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "NotModified",
           "package": "chu2",
@@ -712,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "OK",
           "package": "chu2",
@@ -721,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "OK",
           "package": "chu2",
@@ -734,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "OPTIONS",
           "package": "chu2",
@@ -743,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "OPTIONS",
           "package": "chu2",
@@ -756,6 +824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "POST",
           "package": "chu2",
@@ -765,6 +834,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "POST",
           "package": "chu2",
@@ -778,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "PUT",
           "package": "chu2",
@@ -787,6 +858,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "PUT",
           "package": "chu2",
@@ -800,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "PreconditionFailed",
           "package": "chu2",
@@ -809,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "PreconditionFailed",
           "package": "chu2",
@@ -822,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "RequestEntityTooLarge",
           "package": "chu2",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "RequestEntityTooLarge",
           "package": "chu2",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "RequestURItooLong",
           "package": "chu2",
@@ -853,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "RequestURItooLong",
           "package": "chu2",
@@ -866,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "ResponseData",
           "package": "chu2",
@@ -875,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "ResponseData",
           "package": "chu2",
@@ -888,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "SeeOther",
           "package": "chu2",
@@ -897,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "SeeOther",
           "package": "chu2",
@@ -910,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "ServiceUnavailable",
           "package": "chu2",
@@ -919,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "ServiceUnavailable",
           "package": "chu2",
@@ -932,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "TRACE",
           "package": "chu2",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "TRACE",
           "package": "chu2",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "Unauthorized",
           "package": "chu2",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "Unauthorized",
           "package": "chu2",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "UnsupportedMediaType",
           "package": "chu2",
@@ -985,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "UnsupportedMediaType",
           "package": "chu2",
@@ -998,6 +1088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "body",
           "package": "chu2",
@@ -1007,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "body",
           "package": "chu2",
@@ -1019,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "chu2Headers",
           "package": "chu2",
@@ -1028,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "chu2Headers",
           "package": "chu2",
@@ -1041,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "chu2Input",
           "package": "chu2",
@@ -1050,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "chu2Input",
           "package": "chu2",
@@ -1063,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "chu2UrlScheme",
           "package": "chu2",
@@ -1072,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "chu2UrlScheme",
           "package": "chu2",
@@ -1085,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "headers",
           "package": "chu2",
@@ -1094,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "headers",
           "package": "chu2",
@@ -1106,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "httpHeaders",
           "package": "chu2",
@@ -1115,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "httpHeaders",
           "package": "chu2",
@@ -1128,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "pathInfo",
           "package": "chu2",
@@ -1137,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "pathInfo",
           "package": "chu2",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "queryString",
           "package": "chu2",
@@ -1159,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "queryString",
           "package": "chu2",
@@ -1172,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "requestMethod",
           "package": "chu2",
@@ -1181,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "requestMethod",
           "package": "chu2",
@@ -1194,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "scriptName",
           "package": "chu2",
@@ -1203,6 +1312,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "scriptName",
           "package": "chu2",
@@ -1216,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "serverName",
           "package": "chu2",
@@ -1225,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "serverName",
           "package": "chu2",
@@ -1238,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "serverPort",
           "package": "chu2",
@@ -1247,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "serverPort",
           "package": "chu2",
@@ -1260,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.FFI",
           "name": "status",
           "package": "chu2",
@@ -1269,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Chu2 FFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.FFI",
           "name": "status",
           "package": "chu2",
@@ -1281,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Handler.SnapServerFFI",
           "name": "SnapServerFFI",
           "package": "chu2",
@@ -1289,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Handler SnapServerFFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Handler.SnapServerFFI",
           "name": "SnapServerFFI",
           "package": "chu2",
@@ -1302,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Handler.SnapServerFFI",
           "name": "onPort_run",
           "package": "chu2",
@@ -1311,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Handler SnapServerFFI",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Handler.SnapServerFFI",
           "name": "onPort_run",
           "normalized": "Integer-\u003eApplication-\u003eIO()",
@@ -1326,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "Hack2",
           "package": "chu2",
@@ -1334,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "Hack2",
           "package": "chu2",
@@ -1347,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "Application",
           "package": "chu2",
@@ -1355,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "Application",
           "package": "chu2",
@@ -1368,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "Middleware",
           "package": "chu2",
@@ -1376,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "Middleware",
           "package": "chu2",
@@ -1389,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "b2f",
           "package": "chu2",
@@ -1398,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "b2f",
           "normalized": "ByteString-\u003eField",
@@ -1412,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "b2f_Utf8Encoding",
           "package": "chu2",
@@ -1421,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "b2f_Utf8Encoding",
           "normalized": "ByteString-\u003eField",
@@ -1436,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2ApplicationToHack2Application",
           "package": "chu2",
@@ -1445,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2ApplicationToHack2Application",
           "normalized": "Application-\u003eApplication",
@@ -1460,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2EnvToHack2Env",
           "package": "chu2",
@@ -1469,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2EnvToHack2Env",
           "normalized": "EnvData-\u003eEnv",
@@ -1484,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2RequestMethodToHack2RequestMethod",
           "package": "chu2",
@@ -1493,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2RequestMethodToHack2RequestMethod",
           "normalized": "RequestMethodData-\u003eRequestMethod",
@@ -1508,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2ResponseToHack2Response",
           "package": "chu2",
@@ -1517,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2ResponseToHack2Response",
           "normalized": "ResponseData-\u003eResponse",
@@ -1532,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2UrlSchemeToHack2UrlScheme",
           "package": "chu2",
@@ -1541,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "chu2UrlSchemeToHack2UrlScheme",
           "normalized": "Chu UrlSchemeData-\u003eHackUrlScheme",
@@ -1556,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "f2b",
           "package": "chu2",
@@ -1565,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "f2b",
           "normalized": "Field-\u003eByteString",
@@ -1579,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "f2b_Utf8Encoding",
           "package": "chu2",
@@ -1588,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "f2b_Utf8Encoding",
           "normalized": "Field-\u003eByteString",
@@ -1603,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2ApplicationToChu2Application",
           "package": "chu2",
@@ -1612,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2ApplicationToChu2Application",
           "normalized": "Application-\u003eApplication",
@@ -1627,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2EnvToChu2Env",
           "package": "chu2",
@@ -1636,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2EnvToChu2Env",
           "normalized": "Env-\u003eEnvData",
@@ -1651,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2MiddlewareToChu2Middleware",
           "package": "chu2",
@@ -1660,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2MiddlewareToChu2Middleware",
           "normalized": "Middleware-\u003eMiddleware",
@@ -1675,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2RequestMethodToChu2RequestMethod",
           "package": "chu2",
@@ -1684,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2RequestMethodToChu2RequestMethod",
           "normalized": "RequestMethod-\u003eRequestMethodData",
@@ -1699,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2ResponseToHack2Response",
           "package": "chu2",
@@ -1708,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2ResponseToHack2Response",
           "normalized": "Response-\u003eResponseData",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2UrlSchemeToChu2UrlScheme",
           "package": "chu2",
@@ -1732,6 +1887,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "hack2UrlSchemeToChu2UrlScheme",
           "normalized": "HackUrlScheme-\u003eChu UrlSchemeData",
@@ -1747,6 +1903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "mapTuple",
           "package": "chu2",
@@ -1756,6 +1913,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "mapTuple",
           "normalized": "(a-\u003eb)-\u003e[(a,a)]-\u003e[(b,b)]",
@@ -1771,6 +1929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "readStatus",
           "package": "chu2",
@@ -1780,6 +1939,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "readStatus",
           "normalized": "Int-\u003eStatusData",
@@ -1795,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:32:27 UTC 2014",
           "module": "Chu2.Interface.Hack2",
           "name": "showStatus",
           "package": "chu2",
@@ -1804,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Chu2 Interface Hack2",
+          "indexed": "2014-03-11T17:32:27",
           "module": "Chu2.Interface.Hack2",
           "name": "showStatus",
           "normalized": "StatusData-\u003eInt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HNM"
+        "phrase": "HNM",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWLAN Commands\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -28,6 +29,7 @@
         "index": {
           "description": "WLAN Commands",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "AP",
           "package": "HNM",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "AP",
           "package": "HNM",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "CWLAN",
           "package": "HNM",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "CWLAN",
           "package": "HNM",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Cell",
           "package": "HNM",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Cell",
           "package": "HNM",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "ConnectionSetting",
           "package": "HNM",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "ConnectionSetting",
           "package": "HNM",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "ConnectionStatus",
           "package": "HNM",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "ConnectionStatus",
           "package": "HNM",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Driver",
           "package": "HNM",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Driver",
           "package": "HNM",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWLAN encryption values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Encryption",
           "package": "HNM",
@@ -177,6 +192,7 @@
         "index": {
           "description": "WLAN encryption values",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Encryption",
           "package": "HNM",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "IP",
           "package": "HNM",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "IP",
           "package": "HNM",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Interface",
           "package": "HNM",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Interface",
           "package": "HNM",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Key",
           "package": "HNM",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Key",
           "package": "HNM",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "MAC",
           "package": "HNM",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "MAC",
           "package": "HNM",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Quality",
           "package": "HNM",
@@ -282,6 +307,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Quality",
           "package": "HNM",
@@ -295,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "SSID",
           "package": "HNM",
@@ -303,6 +330,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "SSID",
           "package": "HNM",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Unit",
           "package": "HNM",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Unit",
           "package": "HNM",
@@ -338,6 +368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWPA version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Version",
           "package": "HNM",
@@ -347,6 +378,7 @@
         "index": {
           "description": "WPA version",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Version",
           "package": "HNM",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "CWLAN",
           "package": "HNM",
@@ -390,6 +425,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "CWLAN",
           "package": "HNM",
@@ -403,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Connected",
           "package": "HNM",
@@ -412,6 +449,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Connected",
           "package": "HNM",
@@ -426,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eno  encryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "None",
           "package": "HNM",
@@ -436,6 +475,7 @@
         "index": {
           "description": "no encryption",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "None",
           "package": "HNM",
@@ -449,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "NotConnected",
           "package": "HNM",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "NotConnected",
           "package": "HNM",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "One",
           "package": "HNM",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "One",
           "package": "HNM",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Two",
           "package": "HNM",
@@ -502,6 +547,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Two",
           "package": "HNM",
@@ -516,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWEP encryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "WEP",
           "package": "HNM",
@@ -526,6 +573,7 @@
         "index": {
           "description": "WEP encryption",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "WEP",
           "package": "HNM",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "WLAN",
           "package": "HNM",
@@ -562,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWPA encryption\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "WPA",
           "package": "HNM",
@@ -572,6 +623,7 @@
         "index": {
           "description": "WPA encryption",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "WPA",
           "package": "HNM",
@@ -585,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "Wireless",
           "package": "HNM",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "Wireless",
           "normalized": "Wireless SSID(Maybe(Encryption,Key))",
@@ -609,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "activate",
           "package": "HNM",
@@ -618,6 +673,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "activate",
           "normalized": "Driver-\u003eInterface-\u003eIO()",
@@ -632,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "assu",
           "package": "HNM",
@@ -641,6 +698,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "assu",
           "normalized": "IO a-\u003eIO a-\u003eIO a",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "ccell",
           "package": "HNM",
@@ -664,6 +723,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "ccell",
           "normalized": "[Unit]",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "cellToWLAN",
           "package": "HNM",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "cellToWLAN",
           "normalized": "Cell-\u003eWLAN",
@@ -702,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "cencrypt",
           "package": "HNM",
@@ -711,6 +774,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "cencrypt",
           "package": "HNM",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "cessid",
           "package": "HNM",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "cessid",
           "package": "HNM",
@@ -744,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "compact",
           "package": "HNM",
@@ -753,6 +820,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "compact",
           "normalized": "[WLAN]-\u003e[CWLAN]",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "connect",
           "package": "HNM",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "connect",
           "normalized": "Interface-\u003eConnectionSetting-\u003eIO()",
@@ -790,6 +860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "connectFree",
           "package": "HNM",
@@ -799,6 +870,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "connectFree",
           "normalized": "Interface-\u003eSSID-\u003eIO()",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "deactivate",
           "package": "HNM",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "deactivate",
           "normalized": "Driver-\u003eInterface-\u003eIO()",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "debug",
           "package": "HNM",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "debug",
           "normalized": "a-\u003ea",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "dhclient",
           "package": "HNM",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "dhclient",
           "normalized": "[String]-\u003eIO()",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "disconnect",
           "package": "HNM",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "disconnect",
           "normalized": "Interface-\u003eIO()",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "encryption",
           "package": "HNM",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "encryption",
           "package": "HNM",
@@ -927,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "essid",
           "package": "HNM",
@@ -936,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "essid",
           "package": "HNM",
@@ -948,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "exec",
           "package": "HNM",
@@ -957,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "exec",
           "normalized": "String-\u003eIO()",
@@ -971,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getAP",
           "package": "HNM",
@@ -980,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getAP",
           "normalized": "Interface-\u003eIO AP",
@@ -995,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getCells",
           "package": "HNM",
@@ -1004,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getCells",
           "normalized": "String-\u003e[Cell]",
@@ -1019,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getConnectionStatus",
           "package": "HNM",
@@ -1028,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getConnectionStatus",
           "normalized": "Interface-\u003eIO ConnectionStatus",
@@ -1043,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getDefaultInterface",
           "package": "HNM",
@@ -1052,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getDefaultInterface",
           "package": "HNM",
@@ -1065,6 +1159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getESSID",
           "package": "HNM",
@@ -1074,6 +1169,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getESSID",
           "normalized": "Interface-\u003eIO SSID",
@@ -1089,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getInterfaces",
           "package": "HNM",
@@ -1098,6 +1195,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getInterfaces",
           "normalized": "IO[Interface]",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getLocalIP",
           "package": "HNM",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getLocalIP",
           "normalized": "Interface-\u003eIO IP",
@@ -1138,6 +1238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egiven an interface, returns a list of wireless lans \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "getWLANs",
           "package": "HNM",
@@ -1148,6 +1249,7 @@
         "index": {
           "description": "given an interface returns list of wireless lans",
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "getWLANs",
           "normalized": "Interface-\u003eIO[WLAN]",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "ifconfig",
           "package": "HNM",
@@ -1172,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "ifconfig",
           "normalized": "[String]-\u003eIO()",
@@ -1186,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "ignore",
           "package": "HNM",
@@ -1195,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "ignore",
           "normalized": "a b-\u003ea()",
@@ -1209,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "initHardware",
           "package": "HNM",
@@ -1218,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "initHardware",
           "normalized": "Driver-\u003eInterface-\u003eIO()",
@@ -1233,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "iwconfig",
           "package": "HNM",
@@ -1242,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "iwconfig",
           "normalized": "[String]-\u003eIO()",
@@ -1256,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "mac",
           "package": "HNM",
@@ -1265,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "mac",
           "package": "HNM",
@@ -1277,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "matching",
           "package": "HNM",
@@ -1286,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "matching",
           "normalized": "String-\u003eString-\u003eString",
@@ -1300,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "mean",
           "package": "HNM",
@@ -1309,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "mean",
           "normalized": "[a]-\u003ea",
@@ -1323,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "meanQuality",
           "package": "HNM",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "meanQuality",
           "normalized": "[Quality]-\u003eQuality",
@@ -1347,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "modprobe",
           "package": "HNM",
@@ -1356,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "modprobe",
           "normalized": "[String]-\u003eIO()",
@@ -1370,6 +1490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "pcom",
           "package": "HNM",
@@ -1379,6 +1500,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "pcom",
           "normalized": "String-\u003e[String]-\u003eIO()",
@@ -1393,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "quality",
           "package": "HNM",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "quality",
           "package": "HNM",
@@ -1414,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "run",
           "package": "HNM",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "run",
           "normalized": "String-\u003eIO String",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "scan",
           "package": "HNM",
@@ -1446,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "scan",
           "normalized": "Interface-\u003eIO[Cell]",
@@ -1460,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "userIsRoot",
           "package": "HNM",
@@ -1469,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "userIsRoot",
           "package": "HNM",
@@ -1482,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "wpa_supplicant",
           "package": "HNM",
@@ -1491,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "wpa_supplicant",
           "normalized": "[String]-\u003eIO()",
@@ -1505,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "wpa_temp",
           "package": "HNM",
@@ -1514,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "wpa_temp",
           "package": "HNM",
@@ -1526,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:55 UTC 2014",
           "module": "HNM.WLAN",
           "name": "wpaconfig",
           "package": "HNM",
@@ -1535,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "HNM WLAN",
+          "indexed": "2014-03-11T16:45:55",
           "module": "HNM.WLAN",
           "name": "wpaconfig",
           "normalized": "[String]-\u003eIO()",

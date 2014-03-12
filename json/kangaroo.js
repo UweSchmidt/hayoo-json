@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kangaroo"
+        "phrase": "kangaroo",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary parser combinators with random access\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Binary parser combinators with random access",
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegionCoda\u003c/a\u003e\u003c/code\u003e - represents three useful final positions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e dalpunto  - 'from the point'      \n - Run the parser within a region and return to where you came\n   from.\n\u003c/li\u003e\u003cli\u003e alfermata - 'to the stop'    \n - Run the parser within a region, the cursor remains wherever \n   the parse finished.\n\u003c/li\u003e\u003cli\u003e alfine    - 'to the end'     \n - Run the parser within a region and jump to the right-end of \n   the region after the parse.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -93,6 +100,7 @@
         "index": {
           "description": "RegionCoda represents three useful final positions dalpunto from the point Run the parser within region and return to where you came from alfermata to the stop Run the parser within region the cursor remains wherever the parse finished alfine to the end Run the parser within region and jump to the right-end of the region after the parse",
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "RegionName",
           "package": "kangaroo",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "RegionName",
           "package": "kangaroo",
@@ -903,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "parse",
           "package": "kangaroo",
@@ -912,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "parse",
           "normalized": "Kangaroo a-\u003eFilePath-\u003eIO(Either ParseErr a)",
@@ -1183,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "runKangaroo",
           "package": "kangaroo",
@@ -1192,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators Kangaroo",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.Kangaroo",
           "name": "runKangaroo",
           "normalized": "Kangaroo a-\u003eFilePath-\u003eIO(Either ParseErr a)",
@@ -1581,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKangaroo parse monad with user env, logging and state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "KangarooRWS",
           "package": "kangaroo",
@@ -1590,6 +1605,7 @@
         "index": {
           "description": "Kangaroo parse monad with user env logging and state",
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "KangarooRWS",
           "package": "kangaroo",
@@ -1603,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -1611,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -1624,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -1632,6 +1651,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -1646,6 +1666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegionCoda\u003c/a\u003e\u003c/code\u003e - represents three useful final positions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e dalpunto  - 'from the point'      \n - Run the parser within a region and return to where you came\n   from.\n\u003c/li\u003e\u003cli\u003e alfermata - 'to the stop'    \n - Run the parser within a region, the cursor remains wherever \n   the parse finished.\n\u003c/li\u003e\u003cli\u003e alfine    - 'to the end'     \n - Run the parser within a region and jump to the right-end of \n   the region after the parse.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -1655,6 +1676,7 @@
         "index": {
           "description": "RegionCoda represents three useful final positions dalpunto from the point Run the parser within region and return to where you came from alfermata to the stop Run the parser within region the cursor remains wherever the parse finished alfine to the end Run the parser within region and jump to the right-end of the region after the parse",
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -1668,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "RegionName",
           "package": "kangaroo",
@@ -1676,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "RegionName",
           "package": "kangaroo",
@@ -1690,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "ask",
           "package": "kangaroo",
@@ -1700,6 +1725,7 @@
         "index": {
           "description": "Retrieve the environment",
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "ask",
           "package": "kangaroo",
@@ -1712,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "asks",
           "package": "kangaroo",
@@ -1721,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003eKangaroo a c d b",
@@ -1735,6 +1763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "evalKangaroo",
           "package": "kangaroo",
@@ -1744,6 +1773,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "evalKangaroo",
           "normalized": "Kangaroo a b c d-\u003ea-\u003ec-\u003eFilePath-\u003eIO(Either ParseErr d,b)",
@@ -1759,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "execKangaroo",
           "package": "kangaroo",
@@ -1768,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "execKangaroo",
           "normalized": "Kangaroo a b c d-\u003ea-\u003ec-\u003eFilePath-\u003eIO c",
@@ -1783,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "get",
           "package": "kangaroo",
@@ -1792,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "get",
           "package": "kangaroo",
@@ -1804,6 +1838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "gets",
           "package": "kangaroo",
@@ -1813,6 +1848,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003eKangaroo c d a b",
@@ -1828,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "local",
           "package": "kangaroo",
@@ -1838,6 +1875,7 @@
         "index": {
           "description": "Execute computation in modified environment",
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eKangaroo a b c d-\u003eKangaroo a b c d",
@@ -1852,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "modify",
           "package": "kangaroo",
@@ -1861,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eKangaroo b c a()",
@@ -1875,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "parse",
           "package": "kangaroo",
@@ -1884,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "parse",
           "normalized": "Kangaroo a b c d-\u003ea-\u003ec-\u003eFilePath-\u003eIO(Either ParseErr d)",
@@ -1898,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "put",
           "package": "kangaroo",
@@ -1907,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "put",
           "normalized": "a-\u003eKangaroo b c a()",
@@ -1921,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "runKangaroo",
           "package": "kangaroo",
@@ -1930,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "runKangaroo",
           "normalized": "Kangaroo a b c d-\u003ea-\u003ec-\u003eFilePath-\u003eIO(Either ParseErr d,b,c)",
@@ -1945,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "tell",
           "package": "kangaroo",
@@ -1954,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooRWS",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooRWS",
           "name": "tell",
           "normalized": "a-\u003eKangaroo b a c()",
@@ -1969,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKangaroo parse monad with env.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "KangarooReader",
           "package": "kangaroo",
@@ -1978,6 +2027,7 @@
         "index": {
           "description": "Kangaroo parse monad with env",
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "KangarooReader",
           "package": "kangaroo",
@@ -1991,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -1999,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -2012,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2020,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2034,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegionCoda\u003c/a\u003e\u003c/code\u003e - represents three useful final positions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e dalpunto  - 'from the point'      \n - Run the parser within a region and return to where you came\n   from.\n\u003c/li\u003e\u003cli\u003e alfermata - 'to the stop'    \n - Run the parser within a region, the cursor remains wherever \n   the parse finished.\n\u003c/li\u003e\u003cli\u003e alfine    - 'to the end'     \n - Run the parser within a region and jump to the right-end of \n   the region after the parse.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2043,6 +2098,7 @@
         "index": {
           "description": "RegionCoda represents three useful final positions dalpunto from the point Run the parser within region and return to where you came from alfermata to the stop Run the parser within region the cursor remains wherever the parse finished alfine to the end Run the parser within region and jump to the right-end of the region after the parse",
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2056,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2064,6 +2121,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2078,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "ask",
           "package": "kangaroo",
@@ -2088,6 +2147,7 @@
         "index": {
           "description": "Retrieve the environment",
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "ask",
           "package": "kangaroo",
@@ -2100,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "asks",
           "package": "kangaroo",
@@ -2109,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003eKangaroo a b",
@@ -2124,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation in a modified environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "local",
           "package": "kangaroo",
@@ -2134,6 +2197,7 @@
         "index": {
           "description": "Execute computation in modified environment",
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eKangaroo a b-\u003eKangaroo a b",
@@ -2148,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "parse",
           "package": "kangaroo",
@@ -2157,6 +2222,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "parse",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO(Either ParseErr b)",
@@ -2171,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "runKangaroo",
           "package": "kangaroo",
@@ -2180,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooReader",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooReader",
           "name": "runKangaroo",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO(Either ParseErr b)",
@@ -2196,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKangaroo parse monad with user state.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "KangarooState",
           "package": "kangaroo",
@@ -2205,6 +2274,7 @@
         "index": {
           "description": "Kangaroo parse monad with user state",
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "KangarooState",
           "package": "kangaroo",
@@ -2218,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -2226,6 +2297,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -2239,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2247,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2261,6 +2335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegionCoda\u003c/a\u003e\u003c/code\u003e - represents three useful final positions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e dalpunto  - 'from the point'      \n - Run the parser within a region and return to where you came\n   from.\n\u003c/li\u003e\u003cli\u003e alfermata - 'to the stop'    \n - Run the parser within a region, the cursor remains wherever \n   the parse finished.\n\u003c/li\u003e\u003cli\u003e alfine    - 'to the end'     \n - Run the parser within a region and jump to the right-end of \n   the region after the parse.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2270,6 +2345,7 @@
         "index": {
           "description": "RegionCoda represents three useful final positions dalpunto from the point Run the parser within region and return to where you came from alfermata to the stop Run the parser within region the cursor remains wherever the parse finished alfine to the end Run the parser within region and jump to the right-end of the region after the parse",
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2283,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2291,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2304,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "evalKangaroo",
           "package": "kangaroo",
@@ -2313,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "evalKangaroo",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO(Either ParseErr b)",
@@ -2328,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "execKangaroo",
           "package": "kangaroo",
@@ -2337,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "execKangaroo",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO a",
@@ -2352,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "get",
           "package": "kangaroo",
@@ -2361,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "get",
           "package": "kangaroo",
@@ -2373,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "gets",
           "package": "kangaroo",
@@ -2382,6 +2467,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003eKangaroo a b",
@@ -2396,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "modify",
           "package": "kangaroo",
@@ -2405,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "modify",
           "normalized": "(a-\u003ea)-\u003eKangaroo a()",
@@ -2419,6 +2507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "parse",
           "package": "kangaroo",
@@ -2428,6 +2517,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "parse",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO(Either ParseErr b)",
@@ -2442,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "put",
           "package": "kangaroo",
@@ -2451,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "put",
           "normalized": "a-\u003eKangaroo a()",
@@ -2465,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "runKangaroo",
           "package": "kangaroo",
@@ -2474,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooState",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooState",
           "name": "runKangaroo",
           "normalized": "Kangaroo a b-\u003ea-\u003eFilePath-\u003eIO(Either ParseErr b,a)",
@@ -2490,6 +2584,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKangaroo parse monad with logging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "KangarooWriter",
           "package": "kangaroo",
@@ -2499,6 +2594,7 @@
         "index": {
           "description": "Kangaroo parse monad with logging",
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "KangarooWriter",
           "package": "kangaroo",
@@ -2512,6 +2608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -2520,6 +2617,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "Kangaroo",
           "package": "kangaroo",
@@ -2533,6 +2631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2541,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "ParseErr",
           "package": "kangaroo",
@@ -2555,6 +2655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRegionCoda\u003c/a\u003e\u003c/code\u003e - represents three useful final positions:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e dalpunto  - 'from the point'      \n - Run the parser within a region and return to where you came\n   from.\n\u003c/li\u003e\u003cli\u003e alfermata - 'to the stop'    \n - Run the parser within a region, the cursor remains wherever \n   the parse finished.\n\u003c/li\u003e\u003cli\u003e alfine    - 'to the end'     \n - Run the parser within a region and jump to the right-end of \n   the region after the parse.\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2564,6 +2665,7 @@
         "index": {
           "description": "RegionCoda represents three useful final positions dalpunto from the point Run the parser within region and return to where you came from alfermata to the stop Run the parser within region the cursor remains wherever the parse finished alfine to the end Run the parser within region and jump to the right-end of the region after the parse",
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "RegionCoda",
           "package": "kangaroo",
@@ -2577,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2585,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "RegionName",
           "package": "kangaroo",
@@ -2598,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "parse",
           "package": "kangaroo",
@@ -2607,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "parse",
           "normalized": "Kangaroo a b-\u003eFilePath-\u003eIO(Either ParseErr b,a)",
@@ -2621,6 +2727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "runKangaroo",
           "package": "kangaroo",
@@ -2630,6 +2737,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "runKangaroo",
           "normalized": "Kangaroo a b-\u003eFilePath-\u003eIO(Either ParseErr b,a)",
@@ -2645,6 +2753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "tell",
           "package": "kangaroo",
@@ -2654,6 +2763,7 @@
         },
         "index": {
           "hierarchy": "Data ParserCombinators KangarooWriter",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Data.ParserCombinators.KangarooWriter",
           "name": "tell",
           "normalized": "a-\u003eKangaroo a()",
@@ -2669,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePrinting with \u003cem\u003ejoin-strings\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eNote - JoinPrint is just a formatter and not a 'pretty printer'. \n No line fitting takes place - lines are printed exactly as \n they are specified. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "JoinPrint",
           "package": "kangaroo",
@@ -2678,6 +2789,7 @@
         "index": {
           "description": "Printing with join-strings Note JoinPrint is just formatter and not pretty printer No line fitting takes place lines are printed exactly as they are specified",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "JoinPrint",
           "package": "kangaroo",
@@ -2692,6 +2804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoc is the abstract data type respresenting single line \n documents.\n\u003c/p\u003e\u003cp\u003eJoinPrint ditinguishes between single-line and multi-line \n documents. Single-line, horizontal documents support some \n operations not multi-line documents, e.g. padding, see \u003ccode\u003e\u003ca\u003epadl\u003c/a\u003e\u003c/code\u003e \n and \u003ccode\u003e\u003ca\u003epadr\u003c/a\u003e\u003c/code\u003e and truncating \u003ccode\u003e\u003ca\u003etruncl\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003etruncr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "Doc",
           "package": "kangaroo",
@@ -2701,6 +2814,7 @@
         "index": {
           "description": "Doc is the abstract data type respresenting single line documents JoinPrint ditinguishes between single-line and multi-line documents Single-line horizontal documents support some operations not multi-line documents e.g padding see padl and padr and truncating truncl and truncr",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "Doc",
           "package": "kangaroo",
@@ -2715,6 +2829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVDoc is the abstract data type respresenting multi-line \n documents.\n\u003c/p\u003e\u003cp\u003eMulti-line documents have a limited set of operations \n (basically concatenation with or without a blank line \n inbetween) compared to single line docs which support e.g. \n padding and truncating. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "VDoc",
           "package": "kangaroo",
@@ -2724,6 +2839,7 @@
         "index": {
           "description": "VDoc is the abstract data type respresenting multi-line documents Multi-line documents have limited set of operations basically concatenation with or without blank line inbetween compared to single line docs which support e.g padding and truncating",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "VDoc",
           "package": "kangaroo",
@@ -2738,6 +2854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontally concatenate two documents with a single space \n between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "(\u003c+\u003e)",
           "package": "kangaroo",
@@ -2748,6 +2865,7 @@
         "index": {
           "description": "Horizontally concatenate two documents with single space between them",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -2763,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontally concatenate two documents with no space \n between them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "(\u003c\u003e)",
           "package": "kangaroo",
@@ -2773,6 +2892,7 @@
         "index": {
           "description": "Horizontally concatenate two documents with no space between them",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -2788,6 +2908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within angle brackets \u003ccode\u003e\u003c\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "angles",
           "package": "kangaroo",
@@ -2798,6 +2919,7 @@
         "index": {
           "description": "Enclose the Doc within angle brackets",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "angles",
           "normalized": "Doc-\u003eDoc",
@@ -2813,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within curly braces \u003ccode\u003e{}\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "braces",
           "package": "kangaroo",
@@ -2823,6 +2946,7 @@
         "index": {
           "description": "Enclose the Doc within curly braces",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "braces",
           "normalized": "Doc-\u003eDoc",
@@ -2838,6 +2962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within square brackets \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "brackets",
           "package": "kangaroo",
@@ -2848,6 +2973,7 @@
         "index": {
           "description": "Enclose the Doc within square brackets",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "brackets",
           "normalized": "Doc-\u003eDoc",
@@ -2863,6 +2989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document from a literal character.\n\u003c/p\u003e\u003cp\u003eThe char should not be a tab or newline. See \u003ccode\u003e\u003ca\u003etext\u003c/a\u003e\u003c/code\u003e for the\n rational.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "char",
           "package": "kangaroo",
@@ -2873,6 +3000,7 @@
         "index": {
           "description": "Create document from literal character The char should not be tab or newline See text for the rational",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "char",
           "normalized": "Char-\u003eDoc",
@@ -2888,6 +3016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a comma, \",\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "comma",
           "package": "kangaroo",
@@ -2898,6 +3027,7 @@
         "index": {
           "description": "Create Doc containing comma",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "comma",
           "package": "kangaroo",
@@ -2911,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a two-space characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "dblspace",
           "package": "kangaroo",
@@ -2921,6 +3052,7 @@
         "index": {
           "description": "Create Doc containing two-space characters",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "dblspace",
           "package": "kangaroo",
@@ -2934,6 +3066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the Double as a Doc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "double",
           "package": "kangaroo",
@@ -2944,6 +3077,7 @@
         "index": {
           "description": "Show the Double as Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "double",
           "normalized": "Double-\u003eDoc",
@@ -2959,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within double quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "dquotes",
           "package": "kangaroo",
@@ -2969,6 +3104,7 @@
         "index": {
           "description": "Enclose the Doc within double quotes",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "dquotes",
           "normalized": "Doc-\u003eDoc",
@@ -2984,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty, zero length document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "empty",
           "package": "kangaroo",
@@ -2994,6 +3131,7 @@
         "index": {
           "description": "Create an empty zero length document",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "empty",
           "package": "kangaroo",
@@ -3007,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the final Doc within the first two.\n\u003c/p\u003e\u003cp\u003eThere are no spaces between the documents:\n\u003c/p\u003e\u003cpre\u003e enclose l r d = l \u003c\u003e d \u003c\u003e r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "enclose",
           "package": "kangaroo",
@@ -3017,6 +3156,7 @@
         "index": {
           "description": "Enclose the final Doc within the first two There are no spaces between the documents enclose",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "enclose",
           "normalized": "Doc-\u003eDoc-\u003eDoc-\u003eDoc",
@@ -3032,6 +3172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the Float as a Doc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "float",
           "package": "kangaroo",
@@ -3042,6 +3183,7 @@
         "index": {
           "description": "Show the Float as Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "float",
           "normalized": "Double-\u003eDoc",
@@ -3057,6 +3199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontally concatenate a list of documents with \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hcat",
           "package": "kangaroo",
@@ -3067,6 +3210,7 @@
         "index": {
           "description": "Horizontally concatenate list of documents with",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hcat",
           "normalized": "[Doc]-\u003eDoc",
@@ -3082,6 +3226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehex\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003ei -\u003e Doc\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ePrint \u003ccode\u003ei\u003c/code\u003e as hexadecimal, no zero padding. \n\u003c/p\u003e\u003cp\u003eNegative numbers are printed as a string of asterisks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex",
           "package": "kangaroo",
@@ -3092,6 +3237,7 @@
         "index": {
           "description": "hex Doc Print as hexadecimal no zero padding Negative numbers are printed as string of asterisks",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex",
           "normalized": "a-\u003eDoc",
@@ -3107,6 +3253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word8 as a 2-digit hex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex2",
           "package": "kangaroo",
@@ -3117,6 +3264,7 @@
         "index": {
           "description": "Print Word8 as digit hex number",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex2",
           "normalized": "Word-\u003eDoc",
@@ -3132,6 +3280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word16 as a 4-digit hex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex4",
           "package": "kangaroo",
@@ -3142,6 +3291,7 @@
         "index": {
           "description": "Print Word16 as digit hex number",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex4",
           "normalized": "Word-\u003eDoc",
@@ -3157,6 +3307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word32 as a 8-digit hex number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex8",
           "package": "kangaroo",
@@ -3167,6 +3318,7 @@
         "index": {
           "description": "Print Word32 as digit hex number",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hex8",
           "normalized": "Word-\u003eDoc",
@@ -3181,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hexdump",
           "package": "kangaroo",
@@ -3190,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hexdump",
           "normalized": "Int-\u003eInt-\u003e[Word]-\u003eVDoc",
@@ -3204,6 +3358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hexdumpA",
           "package": "kangaroo",
@@ -3213,6 +3368,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hexdumpA",
           "normalized": "Int-\u003eInt-\u003eIOUArray Int Word-\u003eIO VDoc",
@@ -3228,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHorizontally concatenate a list of documents with \u003ccode\u003e(\u003c+\u003e)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hsep",
           "package": "kangaroo",
@@ -3238,6 +3395,7 @@
         "index": {
           "description": "Horizontally concatenate list of documents with",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "hsep",
           "normalized": "[Doc]-\u003eDoc",
@@ -3253,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the Int as a Doc.\n\u003c/p\u003e\u003cpre\u003e int  = text . show\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "int",
           "package": "kangaroo",
@@ -3263,6 +3422,7 @@
         "index": {
           "description": "Show the Int as Doc int text show",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "int",
           "normalized": "Int-\u003eDoc",
@@ -3278,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the Integer as a Doc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "integer",
           "package": "kangaroo",
@@ -3288,6 +3449,7 @@
         "index": {
           "description": "Show the Integer as Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "integer",
           "normalized": "Integer-\u003eDoc",
@@ -3303,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow an \"integral value\" as a Doc via \u003ccode\u003e\u003ca\u003efromIntegral\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "integral",
           "package": "kangaroo",
@@ -3313,6 +3476,7 @@
         "index": {
           "description": "Show an integral value as Doc via fromIntegral",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "integral",
           "normalized": "a-\u003eDoc",
@@ -3328,6 +3492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a left angle bracket, '\u003c'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "langle",
           "package": "kangaroo",
@@ -3338,6 +3503,7 @@
         "index": {
           "description": "Create Doc containing left angle bracket",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "langle",
           "package": "kangaroo",
@@ -3351,6 +3517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a left curly brace, '{'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lbrace",
           "package": "kangaroo",
@@ -3361,6 +3528,7 @@
         "index": {
           "description": "Create Doc containing left curly brace",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lbrace",
           "package": "kangaroo",
@@ -3374,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a left square bracket, '['.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lbracket",
           "package": "kangaroo",
@@ -3384,6 +3553,7 @@
         "index": {
           "description": "Create Doc containing left square bracket",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lbracket",
           "package": "kangaroo",
@@ -3397,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the length of the Doc. \n\u003c/p\u003e\u003cp\u003eLength is cached in the document's  data type so this \n operation is O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "length",
           "package": "kangaroo",
@@ -3407,6 +3578,7 @@
         "index": {
           "description": "Get the length of the Doc Length is cached in the document data type so this operation is",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "length",
           "normalized": "Doc-\u003eInt",
@@ -3422,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a left paren, '('.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lparen",
           "package": "kangaroo",
@@ -3432,6 +3605,7 @@
         "index": {
           "description": "Create Doc containing left paren",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "lparen",
           "package": "kangaroo",
@@ -3445,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest if the doc is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "null",
           "package": "kangaroo",
@@ -3455,6 +3630,7 @@
         "index": {
           "description": "Test if the doc is empty",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "null",
           "normalized": "Doc-\u003eBool",
@@ -3470,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eoxhex\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003epad-length * i -\u003e Doc\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ePrint \u003ccode\u003ei\u003c/code\u003e in hexadecimal, padding with '0' to the supplied \n \u003ccode\u003epad-length\u003c/code\u003e and prefixing with \"0x\".\n\u003c/p\u003e\u003cp\u003eNegative numbers are printed as a string of asterisks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex",
           "package": "kangaroo",
@@ -3480,6 +3657,7 @@
         "index": {
           "description": "oxhex pad-length Doc Print in hexadecimal padding with to the supplied pad-length and prefixing with Negative numbers are printed as string of asterisks",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex",
           "normalized": "Int-\u003ea-\u003eDoc",
@@ -3495,6 +3673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word8 as a 2-digit hex number prefixed with \"0x\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex2",
           "package": "kangaroo",
@@ -3505,6 +3684,7 @@
         "index": {
           "description": "Print Word8 as digit hex number prefixed with",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex2",
           "normalized": "Word-\u003eDoc",
@@ -3520,6 +3700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word16 as a 4-digit hex number prefixed with \"0x\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex4",
           "package": "kangaroo",
@@ -3530,6 +3711,7 @@
         "index": {
           "description": "Print Word16 as digit hex number prefixed with",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex4",
           "normalized": "Word-\u003eDoc",
@@ -3545,6 +3727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint a Word32 as a 8-digit hex number prefixed with \"0x\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex8",
           "package": "kangaroo",
@@ -3555,6 +3738,7 @@
         "index": {
           "description": "Print Word32 as digit hex number prefixed with",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "oxhex8",
           "normalized": "Word-\u003eDoc",
@@ -3570,6 +3754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epadl\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e width * ch * doc -\u003e Doc \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ePad the supplied Doc to fit \u003ccode\u003ewidth\u003c/code\u003e using the char \u003ccode\u003ech\u003c/code\u003e.\n Padding is performed at the left, right-justifying the Doc. \n\u003c/p\u003e\u003cp\u003eIf the doc is already wider than supplied width it is returned \n as-is (no truncation takes place).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "padl",
           "package": "kangaroo",
@@ -3580,6 +3765,7 @@
         "index": {
           "description": "padl width ch doc Doc Pad the supplied Doc to fit width using the char ch Padding is performed at the left right-justifying the Doc If the doc is already wider than supplied width it is returned as-is no truncation takes place",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "padl",
           "normalized": "Int-\u003eChar-\u003eDoc-\u003eDoc",
@@ -3595,6 +3781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003epadr\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e width * ch * doc -\u003e Doc \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003ePad the supplied Doc to fit \u003ccode\u003ewidth\u003c/code\u003e using the char \u003ccode\u003ech\u003c/code\u003e.\n Padding is performed at the right, left-justifying the Doc. \n\u003c/p\u003e\u003cp\u003eIf the doc is already wider than supplied width it is returned\n as-is (no truncation takes place).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "padr",
           "package": "kangaroo",
@@ -3605,6 +3792,7 @@
         "index": {
           "description": "padr width ch doc Doc Pad the supplied Doc to fit width using the char ch Padding is performed at the right left-justifying the Doc If the doc is already wider than supplied width it is returned as-is no truncation takes place",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "padr",
           "normalized": "Int-\u003eChar-\u003eDoc-\u003eDoc",
@@ -3620,6 +3808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within parens \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "parens",
           "package": "kangaroo",
@@ -3630,6 +3819,7 @@
         "index": {
           "description": "Enclose the Doc within parens",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "parens",
           "normalized": "Doc-\u003eDoc",
@@ -3645,6 +3835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePunctuate the Doc list with the separator, producing a Doc. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "punctuate",
           "package": "kangaroo",
@@ -3655,6 +3846,7 @@
         "index": {
           "description": "Punctuate the Doc list with the separator producing Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "punctuate",
           "normalized": "Doc-\u003e[Doc]-\u003eDoc",
@@ -3670,6 +3862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a right angle bracket, '\u003e'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rangle",
           "package": "kangaroo",
@@ -3680,6 +3873,7 @@
         "index": {
           "description": "Create Doc containing right angle bracket",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rangle",
           "package": "kangaroo",
@@ -3693,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a right curly brace, '}'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rbrace",
           "package": "kangaroo",
@@ -3703,6 +3898,7 @@
         "index": {
           "description": "Create Doc containing right curly brace",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rbrace",
           "package": "kangaroo",
@@ -3716,6 +3912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a right square bracket, ']'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rbracket",
           "package": "kangaroo",
@@ -3726,6 +3923,7 @@
         "index": {
           "description": "Create Doc containing right square bracket",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rbracket",
           "package": "kangaroo",
@@ -3739,6 +3937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering the Doc to a String. This is the same as using \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "render",
           "package": "kangaroo",
@@ -3749,6 +3948,7 @@
         "index": {
           "description": "Rendering the Doc to String This is the same as using show",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "render",
           "normalized": "Doc-\u003eString",
@@ -3764,6 +3964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the Doc.\n\u003c/p\u003e\u003cpre\u003e renderIO = putStrLn . render\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "renderIO",
           "package": "kangaroo",
@@ -3774,6 +3975,7 @@
         "index": {
           "description": "Print the Doc renderIO putStrLn render",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "renderIO",
           "normalized": "Doc-\u003eIO()",
@@ -3790,6 +3992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereplicateChar\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003e n * ch -\u003e Doc\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eRepeat the supplied char (\u003ccode\u003ech\u003c/code\u003e), \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "replicateChar",
           "package": "kangaroo",
@@ -3800,6 +4003,7 @@
         "index": {
           "description": "replicateChar ch Doc Repeat the supplied char ch times",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "replicateChar",
           "normalized": "Int-\u003eChar-\u003eDoc",
@@ -3816,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a right paren, ')'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rparen",
           "package": "kangaroo",
@@ -3826,6 +4031,7 @@
         "index": {
           "description": "Create Doc containing right paren",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "rparen",
           "package": "kangaroo",
@@ -3839,6 +4045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a semi colon, \";\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "semicolon",
           "package": "kangaroo",
@@ -3849,6 +4056,7 @@
         "index": {
           "description": "Create Doc containing semi colon",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "semicolon",
           "package": "kangaroo",
@@ -3862,6 +4070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Doc containing a single space character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "sglspace",
           "package": "kangaroo",
@@ -3872,6 +4081,7 @@
         "index": {
           "description": "Create Doc containing single space character",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "sglspace",
           "package": "kangaroo",
@@ -3885,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of space characters of length \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "spacer",
           "package": "kangaroo",
@@ -3895,6 +4106,7 @@
         "index": {
           "description": "Create list of space characters of length",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "spacer",
           "normalized": "Int-\u003eDoc",
@@ -3910,6 +4122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnclose the Doc within single quotes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "squotes",
           "package": "kangaroo",
@@ -3920,6 +4133,7 @@
         "index": {
           "description": "Enclose the Doc within single quotes",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "squotes",
           "normalized": "Doc-\u003eDoc",
@@ -3935,6 +4149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a document from a literal string.\n\u003c/p\u003e\u003cp\u003eThe string should not contain tabs or newlines (though this\n is not enforced). To allow padding and truncating the \n horizontal width of a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e is cached in the datatype, \n building a Doc containing tabs or newlines leads to \n unspecified behaviour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "text",
           "package": "kangaroo",
@@ -3945,6 +4160,7 @@
         "index": {
           "description": "Create document from literal string The string should not contain tabs or newlines though this is not enforced To allow padding and truncating the horizontal width of Doc is cached in the datatype building Doc containing tabs or newlines leads to unspecified behaviour",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "text",
           "normalized": "String-\u003eDoc",
@@ -3960,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etruncl\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003ewidth * doc -\u003e Doc\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTruncate a doc to the supplied \u003ccode\u003ewidth\u003c/code\u003e. Characters are dropped\n from the left until the document fits. If the document is \n shorter than the supplied width it is returned as is (no \n padding takes place).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "truncl",
           "package": "kangaroo",
@@ -3970,6 +4187,7 @@
         "index": {
           "description": "truncl width doc Doc Truncate doc to the supplied width Characters are dropped from the left until the document fits If the document is shorter than the supplied width it is returned as is no padding takes place",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "truncl",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -3985,6 +4203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etruncr\u003c/a\u003e\u003c/code\u003e : \u003ccode\u003ewidth * doc -\u003e Doc\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eTruncate a doc to the supplied \u003ccode\u003ewidth\u003c/code\u003e. Characters are dropped\n from the right until the document fits. If the document is \n shorter than the supplied width it is returned as is (no \n padding takes place).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "truncr",
           "package": "kangaroo",
@@ -3995,6 +4214,7 @@
         "index": {
           "description": "truncr width doc Doc Truncate doc to the supplied width Characters are dropped from the right until the document fits If the document is shorter than the supplied width it is returned as is no padding takes place",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "truncr",
           "normalized": "Int-\u003eDoc-\u003eDoc",
@@ -4010,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically concatenate a list of documents, one doc per \n line.\n\u003c/p\u003e\u003cp\u003eNote - this function produces a \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vcat",
           "package": "kangaroo",
@@ -4020,6 +4241,7 @@
         "index": {
           "description": "Vertically concatenate list of documents one doc per line Note this function produces VDoc rather than Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vcat",
           "normalized": "[Doc]-\u003eVDoc",
@@ -4035,6 +4257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vconcat",
           "package": "kangaroo",
@@ -4045,6 +4268,7 @@
         "index": {
           "description": "Concatenate list of VDoc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vconcat",
           "normalized": "[VDoc]-\u003eVDoc",
@@ -4060,6 +4284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenate a list of \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e with a blank line separating \n them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vconcatSep",
           "package": "kangaroo",
@@ -4070,6 +4295,7 @@
         "index": {
           "description": "Concatenate list of VDoc with blank line separating them",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vconcatSep",
           "normalized": "[VDoc]-\u003eVDoc",
@@ -4086,6 +4312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrefix the \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e to the start of the \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vcons",
           "package": "kangaroo",
@@ -4096,6 +4323,7 @@
         "index": {
           "description": "Prefix the Doc to the start of the VDoc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vcons",
           "normalized": "Doc-\u003eVDoc-\u003eVDoc",
@@ -4111,6 +4339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVertically concatenate a list of documents, one doc per \n line with a blank line inbetween.\n\u003c/p\u003e\u003cp\u003eNote - this function produces a \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e rather than a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vsep",
           "package": "kangaroo",
@@ -4121,6 +4350,7 @@
         "index": {
           "description": "Vertically concatenate list of documents one doc per line with blank line inbetween Note this function produces VDoc rather than Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vsep",
           "normalized": "[Doc]-\u003eVDoc",
@@ -4136,6 +4366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuffix the \u003ccode\u003e\u003ca\u003eVDoc\u003c/a\u003e\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:33 UTC 2014",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vsnoc",
           "package": "kangaroo",
@@ -4146,6 +4377,7 @@
         "index": {
           "description": "Suffix the VDoc with the Doc",
           "hierarchy": "Text PrettyPrint JoinPrint",
+          "indexed": "2014-03-11T19:02:33",
           "module": "Text.PrettyPrint.JoinPrint",
           "name": "vsnoc",
           "normalized": "VDoc-\u003eDoc-\u003eVDoc",

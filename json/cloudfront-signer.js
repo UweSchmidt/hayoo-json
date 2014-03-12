@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cloudfront-signer"
+        "phrase": "cloudfront-signer",
+        "type": "phrase"
       },
       "type": "context"
     }

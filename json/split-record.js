@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "split-record"
+        "phrase": "split-record",
+        "type": "phrase"
       },
       "type": "context"
     }

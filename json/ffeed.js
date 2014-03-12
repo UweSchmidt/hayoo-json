@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ffeed"
+        "phrase": "ffeed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eToplevel FriendFeed API module, including re-exports\n of modules required to work with FriendFeed from other\n modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.API",
           "name": "API",
           "package": "ffeed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Toplevel FriendFeed API module including re-exports of modules required to work with FriendFeed from other modules",
           "hierarchy": "FriendFeed API",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.API",
           "name": "API",
           "package": "ffeed",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEntry-specific FriendFeed API calls.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "Entry",
           "package": "ffeed",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Entry-specific FriendFeed API calls",
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "Entry",
           "package": "ffeed",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "getDomainEntries",
           "package": "ffeed",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "getDomainEntries",
           "normalized": "[String]-\u003eBool-\u003eBool-\u003eFFm[Entry]",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the entries the authenticated user would see on their \n FriendFeed homepage - all of their subscriptions and \n friend-of-a-friend entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "getFriendEntries",
           "package": "ffeed",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Returns the entries the authenticated user would see on their FriendFeed homepage all of their subscriptions and friend-of-a-friend entries",
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "getFriendEntries",
           "normalized": "FFm[Entry]",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "getIdEntries",
           "package": "ffeed",
@@ -123,6 +132,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "getIdEntries",
           "normalized": "[UUID]-\u003eFFm[Entry]",
@@ -138,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "getIdEntry",
           "package": "ffeed",
@@ -147,6 +158,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "getIdEntry",
           "normalized": "UUID-\u003eFFm Entry",
@@ -162,6 +174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Entry",
           "name": "getURLEntries",
           "package": "ffeed",
@@ -171,6 +184,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Entry",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Entry",
           "name": "getURLEntries",
           "normalized": "URLString-\u003eFFm[Entry]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActions for fetching info regarding a user's FriendFeed lists.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.List",
           "name": "List",
           "package": "ffeed",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Actions for fetching info regarding user FriendFeed lists",
           "hierarchy": "FriendFeed List",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.List",
           "name": "List",
           "package": "ffeed",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns entries from the authenticated users \n list with the given nickname:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.List",
           "name": "getListEntries",
           "package": "ffeed",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Returns entries from the authenticated users list with the given nickname",
           "hierarchy": "FriendFeed List",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.List",
           "name": "getListEntries",
           "normalized": "ListName-\u003eFFm[Entry]",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all of the list's members \n and the url associated with the list\n (Authentication required): \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.List",
           "name": "getListProfile",
           "package": "ffeed",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Returns list of all of the list members and the url associated with the list Authentication required",
           "hierarchy": "FriendFeed List",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.List",
           "name": "getListProfile",
           "normalized": "ListName-\u003eFFm List",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic layer for handling calls and processing of FriendFeed API\n interaction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "Monad",
           "package": "ffeed",
@@ -271,6 +292,7 @@
         "index": {
           "description": "Monadic layer for handling calls and processing of FriendFeed API interaction",
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "Monad",
           "package": "ffeed",
@@ -284,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "AuthUser",
           "package": "ffeed",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "AuthUser",
           "package": "ffeed",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ErrM",
           "package": "ffeed",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ErrM",
           "package": "ffeed",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFeedErr",
           "package": "ffeed",
@@ -334,6 +361,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFeedErr",
           "package": "ffeed",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFm",
           "package": "ffeed",
@@ -355,6 +384,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFm",
           "package": "ffeed",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFmEnv",
           "package": "ffeed",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFmEnv",
           "package": "ffeed",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "SomeFFeedException",
           "package": "ffeed",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "SomeFFeedException",
           "package": "ffeed",
@@ -410,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "AuthUser",
           "package": "ffeed",
@@ -419,6 +454,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "AuthUser",
           "package": "ffeed",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFeedErr",
           "package": "ffeed",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFeedErr",
           "package": "ffeed",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFm",
           "package": "ffeed",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFm",
           "normalized": "FFm(FFmEnv-\u003eIO a)",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "FFmEnv",
           "package": "ffeed",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "FFmEnv",
           "package": "ffeed",
@@ -500,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "SomeFFeedException",
           "package": "ffeed",
@@ -509,6 +552,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "SomeFFeedException",
           "package": "ffeed",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "api_base",
           "package": "ffeed",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "api_base",
           "package": "ffeed",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "authCall",
           "package": "ffeed",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "authCall",
           "normalized": "FFm a-\u003eFFm a",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "authUserKey",
           "package": "ffeed",
@@ -576,6 +625,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "authUserKey",
           "package": "ffeed",
@@ -589,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "authUserName",
           "package": "ffeed",
@@ -598,6 +649,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "authUserName",
           "package": "ffeed",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "catchFFeed",
           "package": "ffeed",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "catchFFeed",
           "normalized": "FFm a-\u003e(FFeedErr-\u003eFFm a)-\u003eFFm a",
@@ -635,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "checkResponse",
           "package": "ffeed",
@@ -644,6 +699,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "checkResponse",
           "normalized": "String-\u003eErrM String",
@@ -659,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffErrorCode",
           "package": "ffeed",
@@ -668,6 +725,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffErrorCode",
           "package": "ffeed",
@@ -681,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffErrorLoc",
           "package": "ffeed",
@@ -690,6 +749,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffErrorLoc",
           "package": "ffeed",
@@ -703,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffErrorSource",
           "package": "ffeed",
@@ -712,6 +773,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffErrorSource",
           "package": "ffeed",
@@ -725,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedCall",
           "package": "ffeed",
@@ -734,6 +797,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedCall",
           "normalized": "[String]-\u003e[(String,String)]-\u003eFFm String",
@@ -749,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedCall_",
           "package": "ffeed",
@@ -758,6 +823,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedCall_",
           "normalized": "[String]-\u003e[(String,String)]-\u003eFFm()",
@@ -773,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedError",
           "package": "ffeed",
@@ -782,6 +849,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedError",
           "package": "ffeed",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedFromException",
           "package": "ffeed",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedFromException",
           "normalized": "SomeException-\u003eMaybe a",
@@ -819,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedToException",
           "package": "ffeed",
@@ -828,6 +899,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedToException",
           "normalized": "a-\u003eSomeException",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslate",
           "package": "ffeed",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslate",
           "normalized": "FFm String-\u003eFFm a",
@@ -867,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslateLs",
           "package": "ffeed",
@@ -876,6 +951,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslateLs",
           "normalized": "String-\u003eFFm String-\u003eFFm[a]",
@@ -891,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslateSub",
           "package": "ffeed",
@@ -900,6 +977,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeedTranslateSub",
           "normalized": "String-\u003eFFm String-\u003eFFm a",
@@ -915,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffeed_base",
           "package": "ffeed",
@@ -924,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffeed_base",
           "package": "ffeed",
@@ -936,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_auth_user",
           "package": "ffeed",
@@ -945,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_auth_user",
           "package": "ffeed",
@@ -957,6 +1039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_base",
           "package": "ffeed",
@@ -966,6 +1049,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_base",
           "package": "ffeed",
@@ -978,6 +1062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_entry_start",
           "package": "ffeed",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_entry_start",
           "package": "ffeed",
@@ -999,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_is_post",
           "package": "ffeed",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_is_post",
           "package": "ffeed",
@@ -1020,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_page_size",
           "package": "ffeed",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_page_size",
           "package": "ffeed",
@@ -1041,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "ffm_services_filter",
           "package": "ffeed",
@@ -1050,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "ffm_services_filter",
           "normalized": "[String]",
@@ -1064,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "forService",
           "package": "ffeed",
@@ -1073,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "forService",
           "normalized": "String-\u003eFFm a-\u003eFFm a",
@@ -1088,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "handleFFeed",
           "package": "ffeed",
@@ -1097,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "handleFFeed",
           "normalized": "(FFeedErr-\u003eFFm a)-\u003eFFm a-\u003eFFm a",
@@ -1112,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "liftIO",
           "package": "ffeed",
@@ -1121,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "liftIO",
           "normalized": "IO a-\u003eFFm a",
@@ -1136,6 +1234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "lsArg",
           "package": "ffeed",
@@ -1145,6 +1244,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "lsArg",
           "normalized": "String-\u003eString-\u003e[String]-\u003e[String]",
@@ -1160,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "mbArg",
           "package": "ffeed",
@@ -1169,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "mbArg",
           "normalized": "String-\u003eMaybe String-\u003e[String]-\u003e[String]",
@@ -1184,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "mbArg2",
           "package": "ffeed",
@@ -1193,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "mbArg2",
           "normalized": "String-\u003eMaybe String-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -1208,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "nullFFmEnv",
           "package": "ffeed",
@@ -1217,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "nullFFmEnv",
           "normalized": "AuthUser-\u003eFFmEnv",
@@ -1232,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "onSuccess",
           "package": "ffeed",
@@ -1241,6 +1348,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "onSuccess",
           "normalized": "FFm()-\u003eFFm Bool",
@@ -1256,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "postMethod",
           "package": "ffeed",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "postMethod",
           "normalized": "FFm a-\u003eFFm a",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "runFF",
           "package": "ffeed",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "runFF",
           "normalized": "String-\u003eString-\u003eFFm a-\u003eIO a",
@@ -1304,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "startIndex",
           "package": "ffeed",
@@ -1313,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "startIndex",
           "normalized": "Int-\u003eFFm a-\u003eFFm a",
@@ -1328,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "throwFFeedErr",
           "package": "ffeed",
@@ -1337,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "throwFFeedErr",
           "normalized": "FFeedErr-\u003eFFm a",
@@ -1352,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "tryFFeed",
           "package": "ffeed",
@@ -1361,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "tryFFeed",
           "normalized": "FFm a-\u003eFFm(Either FFeedErr a)",
@@ -1376,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "withBase",
           "package": "ffeed",
@@ -1385,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "withBase",
           "normalized": "URLString-\u003eFFm a-\u003eFFm a",
@@ -1400,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "withEnv",
           "package": "ffeed",
@@ -1409,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "withEnv",
           "normalized": "(FFmEnv-\u003eFFmEnv)-\u003eFFm a-\u003eFFm a",
@@ -1424,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "withPageSize",
           "package": "ffeed",
@@ -1433,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "withPageSize",
           "normalized": "Int-\u003eFFm a-\u003eFFm a",
@@ -1448,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Monad",
           "name": "withUser",
           "package": "ffeed",
@@ -1457,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Monad",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Monad",
           "name": "withUser",
           "normalized": "String-\u003eString-\u003eFFm a-\u003eFFm a",
@@ -1473,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActions for publishing entries, comments, likes etc. to FriendFeed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "Publish",
           "package": "ffeed",
@@ -1482,6 +1609,7 @@
         "index": {
           "description": "Actions for publishing entries comments likes etc to FriendFeed",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "Publish",
           "package": "ffeed",
@@ -1496,6 +1624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a comment or edit an existing comment on a FriendFeed entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "addComment",
           "package": "ffeed",
@@ -1506,6 +1635,7 @@
         "index": {
           "description": "Add comment or edit an existing comment on FriendFeed entry",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "addComment",
           "normalized": "EntryID-\u003eString-\u003eFFm CommentID",
@@ -1522,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a \u003ca\u003eLike\u003c/a\u003e to a FriendFeed entry for the authenticated user. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "addLike",
           "package": "ffeed",
@@ -1532,6 +1663,7 @@
         "index": {
           "description": "add Like to FriendFeed entry for the authenticated user",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "addLike",
           "normalized": "EntryID-\u003eFFm()",
@@ -1548,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete an existing comment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "deleteComment",
           "package": "ffeed",
@@ -1558,6 +1691,7 @@
         "index": {
           "description": "delete an existing comment",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "deleteComment",
           "normalized": "EntryID-\u003eCommentID-\u003eFFm()",
@@ -1574,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete an existing entry, but un-delete if 2nd arg is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "deleteEntry",
           "package": "ffeed",
@@ -1584,6 +1719,7 @@
         "index": {
           "description": "Delete an existing entry but un-delete if nd arg is True",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "deleteEntry",
           "normalized": "EntryID-\u003eBool-\u003eFFm()",
@@ -1600,6 +1736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete an existing \u003ccode\u003e\u003ca\u003eLike\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "deleteLike",
           "package": "ffeed",
@@ -1610,6 +1747,7 @@
         "index": {
           "description": "delete an existing Like",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "deleteLike",
           "normalized": "EntryID-\u003eFFm()",
@@ -1626,6 +1764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a comment or edit an existing comment on a FriendFeed entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "editComment",
           "package": "ffeed",
@@ -1636,6 +1775,7 @@
         "index": {
           "description": "add comment or edit an existing comment on FriendFeed entry",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "editComment",
           "normalized": "EntryID-\u003eString-\u003eCommentID-\u003eFFm()",
@@ -1652,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHide an entry, but un-hide/expose if 2nd arg is \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "hideEntry",
           "package": "ffeed",
@@ -1662,6 +1803,7 @@
         "index": {
           "description": "Hide an entry but un-hide expose if nd arg is True",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "hideEntry",
           "normalized": "EntryID-\u003eBool-\u003eFFm()",
@@ -1678,6 +1820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublish a new entry on the authenticated user's feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Publish",
           "name": "publishLink",
           "package": "ffeed",
@@ -1688,6 +1831,7 @@
         "index": {
           "description": "Publish new entry on the authenticated user feed",
           "hierarchy": "FriendFeed Publish",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Publish",
           "name": "publishLink",
           "normalized": "String-\u003eURLString-\u003eMaybe String-\u003eFFm()",
@@ -1704,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActions for fetching info on and entries from a room.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Room",
           "name": "Room",
           "package": "ffeed",
@@ -1713,6 +1858,7 @@
         "index": {
           "description": "Actions for fetching info on and entries from room",
           "hierarchy": "FriendFeed Room",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Room",
           "name": "Room",
           "package": "ffeed",
@@ -1727,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most recent entries in the room with the given nickname.\n If the room is private, authentication is required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Room",
           "name": "getRoomEntries",
           "package": "ffeed",
@@ -1737,6 +1884,7 @@
         "index": {
           "description": "Returns the most recent entries in the room with the given nickname If the room is private authentication is required",
           "hierarchy": "FriendFeed Room",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Room",
           "name": "getRoomEntries",
           "normalized": "RoomName-\u003eFFm[Entry]",
@@ -1753,6 +1901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of all of the room's members \n and the url associated with the room \n (Authentication required for private rooms).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Room",
           "name": "getRoomProfile",
           "package": "ffeed",
@@ -1763,6 +1912,7 @@
         "index": {
           "description": "Returns list of all of the room members and the url associated with the room Authentication required for private rooms",
           "hierarchy": "FriendFeed Room",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Room",
           "name": "getRoomProfile",
           "normalized": "RoomName-\u003eFFm Room",
@@ -1779,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the entries the authenticated user \n would see on their Rooms page - entries from all \n of the rooms they are members of.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Room",
           "name": "getRoomsFeeds",
           "package": "ffeed",
@@ -1789,6 +1940,7 @@
         "index": {
           "description": "Returns the entries the authenticated user would see on their Rooms page entries from all of the rooms they are members of",
           "hierarchy": "FriendFeed Room",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Room",
           "name": "getRoomsFeeds",
           "normalized": "FFm[Entry]",
@@ -1805,6 +1957,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActions for publishing entries, comments, likes etc. to FriendFeed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Search",
           "name": "Search",
           "package": "ffeed",
@@ -1814,6 +1967,7 @@
         "index": {
           "description": "Actions for publishing entries comments likes etc to FriendFeed",
           "hierarchy": "FriendFeed Search",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Search",
           "name": "Search",
           "package": "ffeed",
@@ -1828,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes a search over the entries in FriendFeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Search",
           "name": "searchEntries",
           "package": "ffeed",
@@ -1838,6 +1993,7 @@
         "index": {
           "description": "Executes search over the entries in FriendFeed",
           "hierarchy": "FriendFeed Search",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Search",
           "name": "searchEntries",
           "normalized": "String-\u003eMaybe UserName-\u003eMaybe ServiceName-\u003eFFm[Entry]",
@@ -1854,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAction for fetching the current services supported by FriendFeed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Service",
           "name": "Service",
           "package": "ffeed",
@@ -1863,6 +2020,7 @@
         "index": {
           "description": "Action for fetching the current services supported by FriendFeed",
           "hierarchy": "FriendFeed Service",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Service",
           "name": "Service",
           "package": "ffeed",
@@ -1877,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all services currently supported by FriendFeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Service",
           "name": "getServices",
           "package": "ffeed",
@@ -1887,6 +2046,7 @@
         "index": {
           "description": "Lists all services currently supported by FriendFeed",
           "hierarchy": "FriendFeed Service",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Service",
           "name": "getServices",
           "normalized": "FFm[Service]",
@@ -1903,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinding to FriendFeed API controlling subscriptions to rooms\n and other users.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Subscribe",
           "name": "Subscribe",
           "package": "ffeed",
@@ -1912,6 +2073,7 @@
         "index": {
           "description": "Binding to FriendFeed API controlling subscriptions to rooms and other users",
           "hierarchy": "FriendFeed Subscribe",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Subscribe",
           "name": "Subscribe",
           "package": "ffeed",
@@ -1925,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Subscribe",
           "name": "subscribeRoom",
           "package": "ffeed",
@@ -1934,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Subscribe",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Subscribe",
           "name": "subscribeRoom",
           "normalized": "RoomName-\u003eFFm()",
@@ -1949,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Subscribe",
           "name": "subscribeUser",
           "package": "ffeed",
@@ -1958,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Subscribe",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Subscribe",
           "name": "subscribeUser",
           "normalized": "UserName-\u003eFFm()",
@@ -1973,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Subscribe",
           "name": "unsubscribeRoom",
           "package": "ffeed",
@@ -1982,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Subscribe",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Subscribe",
           "name": "unsubscribeRoom",
           "normalized": "RoomName-\u003eFFm()",
@@ -1997,6 +2165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Subscribe",
           "name": "unsubscribeUser",
           "package": "ffeed",
@@ -2006,6 +2175,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Subscribe",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Subscribe",
           "name": "unsubscribeUser",
           "normalized": "UserName-\u003eFFm()",
@@ -2022,6 +2192,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e(De)serializing JSON values representing FriendFeed API data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "Import",
           "package": "ffeed",
@@ -2031,6 +2202,7 @@
         "index": {
           "description": "De serializing JSON values representing FriendFeed API data types",
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "Import",
           "package": "ffeed",
@@ -2044,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "JM",
           "package": "ffeed",
@@ -2052,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "JM",
           "package": "ffeed",
@@ -2065,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "(-=\u003e)",
           "package": "ffeed",
@@ -2074,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "(-=\u003e) -=\u003e",
           "normalized": "a-\u003eb-\u003e(a,b)",
@@ -2088,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "JM",
           "package": "ffeed",
@@ -2097,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "JM",
           "normalized": "JM(String-\u003e[(String,JSValue)]-\u003eResult a)",
@@ -2112,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "get",
           "package": "ffeed",
@@ -2121,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "get",
           "normalized": "String-\u003eJM String",
@@ -2135,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getB",
           "package": "ffeed",
@@ -2144,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getB",
           "normalized": "String-\u003eJM Bool",
@@ -2158,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getInt",
           "package": "ffeed",
@@ -2167,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getInt",
           "normalized": "String-\u003eJM Integer",
@@ -2182,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getJSON",
           "package": "ffeed",
@@ -2191,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getJSON",
           "normalized": "String-\u003eJM JSValue",
@@ -2206,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getLoc",
           "package": "ffeed",
@@ -2215,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getLoc",
           "package": "ffeed",
@@ -2228,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getMb",
           "package": "ffeed",
@@ -2237,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getMb",
           "normalized": "String-\u003eJM(Maybe JSValue)",
@@ -2252,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "getMbS",
           "package": "ffeed",
@@ -2261,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "getMbS",
           "normalized": "String-\u003eJM(Maybe String)",
@@ -2276,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "liftR",
           "package": "ffeed",
@@ -2285,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "liftR",
           "normalized": "Result a-\u003eJM a",
@@ -2299,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readComment",
           "package": "ffeed",
@@ -2308,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readComment",
           "package": "ffeed",
@@ -2321,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readContent",
           "package": "ffeed",
@@ -2330,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readContent",
           "package": "ffeed",
@@ -2343,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readEnclosure",
           "package": "ffeed",
@@ -2352,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readEnclosure",
           "package": "ffeed",
@@ -2365,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readEntry",
           "package": "ffeed",
@@ -2374,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readEntry",
           "package": "ffeed",
@@ -2387,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readFFList",
           "package": "ffeed",
@@ -2396,6 +2599,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readFFList",
           "package": "ffeed",
@@ -2409,6 +2613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readJS",
           "package": "ffeed",
@@ -2418,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readJS",
           "normalized": "String-\u003ea-\u003eJM a-\u003eJSValue-\u003eResult a",
@@ -2433,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readJSONs",
           "package": "ffeed",
@@ -2442,6 +2649,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readJSONs",
           "normalized": "JSValue-\u003eResult[a]",
@@ -2457,6 +2665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readLike",
           "package": "ffeed",
@@ -2466,6 +2675,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readLike",
           "package": "ffeed",
@@ -2479,6 +2689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readMedia",
           "package": "ffeed",
@@ -2488,6 +2699,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readMedia",
           "package": "ffeed",
@@ -2501,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readResource",
           "package": "ffeed",
@@ -2510,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readResource",
           "package": "ffeed",
@@ -2523,6 +2737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readRoom",
           "package": "ffeed",
@@ -2532,6 +2747,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readRoom",
           "package": "ffeed",
@@ -2545,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readService",
           "package": "ffeed",
@@ -2554,6 +2771,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readService",
           "package": "ffeed",
@@ -2567,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readThumbnail",
           "package": "ffeed",
@@ -2576,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readThumbnail",
           "package": "ffeed",
@@ -2589,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readUpdateInfo",
           "package": "ffeed",
@@ -2598,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readUpdateInfo",
           "package": "ffeed",
@@ -2611,6 +2833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readUser",
           "package": "ffeed",
@@ -2620,6 +2843,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readUser",
           "package": "ffeed",
@@ -2633,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "readVia",
           "package": "ffeed",
@@ -2642,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "readVia",
           "normalized": "JSValue-\u003eResult Via",
@@ -2657,6 +2883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "runJM",
           "package": "ffeed",
@@ -2666,6 +2893,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "runJM",
           "normalized": "String-\u003e[(String,JSValue)]-\u003eJM a-\u003eResult a",
@@ -2681,6 +2909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showComment",
           "package": "ffeed",
@@ -2690,6 +2919,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showComment",
           "normalized": "Comment-\u003e[(String,JSValue)]",
@@ -2705,6 +2935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showContent",
           "package": "ffeed",
@@ -2714,6 +2945,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showContent",
           "normalized": "Content-\u003e[(String,JSValue)]",
@@ -2729,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showEnclosure",
           "package": "ffeed",
@@ -2738,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showEnclosure",
           "normalized": "Enclosure-\u003e[(String,JSValue)]",
@@ -2753,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showEntry",
           "package": "ffeed",
@@ -2762,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showEntry",
           "normalized": "Entry-\u003e[(String,JSValue)]",
@@ -2777,6 +3013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showFFList",
           "package": "ffeed",
@@ -2786,6 +3023,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showFFList",
           "normalized": "List-\u003e[(String,JSValue)]",
@@ -2801,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showJS",
           "package": "ffeed",
@@ -2810,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showJS",
           "normalized": "(a-\u003e[(String,JSValue)])-\u003ea-\u003eJSValue",
@@ -2825,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showLike",
           "package": "ffeed",
@@ -2834,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showLike",
           "normalized": "Like-\u003e[(String,JSValue)]",
@@ -2849,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showMedia",
           "package": "ffeed",
@@ -2858,6 +3101,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showMedia",
           "normalized": "Media-\u003e[(String,JSValue)]",
@@ -2873,6 +3117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showResource",
           "package": "ffeed",
@@ -2882,6 +3127,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showResource",
           "normalized": "Resource a-\u003e[(String,JSValue)]",
@@ -2897,6 +3143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showRoom",
           "package": "ffeed",
@@ -2906,6 +3153,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showRoom",
           "normalized": "Room-\u003e[(String,JSValue)]",
@@ -2921,6 +3169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showService",
           "package": "ffeed",
@@ -2930,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showService",
           "normalized": "Service-\u003e[(String,JSValue)]",
@@ -2945,6 +3195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showStr",
           "package": "ffeed",
@@ -2954,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showStr",
           "normalized": "String-\u003eJSValue",
@@ -2969,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showThumbnail",
           "package": "ffeed",
@@ -2978,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showThumbnail",
           "normalized": "Thumbnail-\u003e[(String,JSValue)]",
@@ -2993,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showUpdateInfo",
           "package": "ffeed",
@@ -3002,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showUpdateInfo",
           "normalized": "UpdateInfo-\u003e[(String,JSValue)]",
@@ -3017,6 +3273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showUser",
           "package": "ffeed",
@@ -3026,6 +3283,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showUser",
           "normalized": "User-\u003e[(String,JSValue)]",
@@ -3041,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "showVia",
           "package": "ffeed",
@@ -3050,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "showVia",
           "normalized": "Via-\u003e[(String,JSValue)]",
@@ -3065,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "toEntry",
           "package": "ffeed",
@@ -3074,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "toEntry",
           "normalized": "String-\u003eResult Entry",
@@ -3089,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types.Import",
           "name": "toList",
           "package": "ffeed",
@@ -3098,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types Import",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types.Import",
           "name": "toList",
           "normalized": "String-\u003eResult List",
@@ -3114,6 +3378,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinition of types that the FriendFeed API uses in its\n responses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Types",
           "package": "ffeed",
@@ -3123,6 +3388,7 @@
         "index": {
           "description": "Definition of types that the FriendFeed API uses in its responses",
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Types",
           "package": "ffeed",
@@ -3136,6 +3402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Comment",
           "package": "ffeed",
@@ -3144,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Comment",
           "package": "ffeed",
@@ -3157,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "CommentID",
           "package": "ffeed",
@@ -3165,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "CommentID",
           "package": "ffeed",
@@ -3178,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Content",
           "package": "ffeed",
@@ -3186,6 +3457,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Content",
           "package": "ffeed",
@@ -3199,6 +3471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "DateString",
           "package": "ffeed",
@@ -3207,6 +3480,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "DateString",
           "package": "ffeed",
@@ -3220,6 +3494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Enclosure",
           "package": "ffeed",
@@ -3228,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Enclosure",
           "package": "ffeed",
@@ -3241,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Entry",
           "package": "ffeed",
@@ -3249,6 +3526,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Entry",
           "package": "ffeed",
@@ -3262,6 +3540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "EntryID",
           "package": "ffeed",
@@ -3270,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "EntryID",
           "package": "ffeed",
@@ -3283,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Like",
           "package": "ffeed",
@@ -3291,6 +3572,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Like",
           "package": "ffeed",
@@ -3304,6 +3586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "List",
           "package": "ffeed",
@@ -3312,6 +3595,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "List",
           "package": "ffeed",
@@ -3325,6 +3609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "ListID",
           "package": "ffeed",
@@ -3333,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "ListID",
           "package": "ffeed",
@@ -3346,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "ListName",
           "package": "ffeed",
@@ -3354,6 +3641,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "ListName",
           "package": "ffeed",
@@ -3367,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Media",
           "package": "ffeed",
@@ -3375,6 +3664,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Media",
           "package": "ffeed",
@@ -3388,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Resource",
           "package": "ffeed",
@@ -3396,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Resource",
           "package": "ffeed",
@@ -3409,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Room",
           "package": "ffeed",
@@ -3417,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Room",
           "package": "ffeed",
@@ -3430,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "RoomID",
           "package": "ffeed",
@@ -3438,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "RoomID",
           "package": "ffeed",
@@ -3451,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "RoomName",
           "package": "ffeed",
@@ -3459,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "RoomName",
           "package": "ffeed",
@@ -3472,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Service",
           "package": "ffeed",
@@ -3480,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Service",
           "package": "ffeed",
@@ -3493,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "ServiceID",
           "package": "ffeed",
@@ -3501,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "ServiceID",
           "package": "ffeed",
@@ -3514,6 +3816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "ServiceName",
           "package": "ffeed",
@@ -3522,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "ServiceName",
           "package": "ffeed",
@@ -3535,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Subscription",
           "package": "ffeed",
@@ -3543,6 +3848,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Subscription",
           "package": "ffeed",
@@ -3556,6 +3862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Thumbnail",
           "package": "ffeed",
@@ -3564,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Thumbnail",
           "package": "ffeed",
@@ -3577,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "URLString",
           "package": "ffeed",
@@ -3585,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "URLString",
           "package": "ffeed",
@@ -3598,6 +3908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UUID",
           "package": "ffeed",
@@ -3606,6 +3917,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UUID",
           "package": "ffeed",
@@ -3619,6 +3931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UpdateInfo",
           "package": "ffeed",
@@ -3627,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UpdateInfo",
           "package": "ffeed",
@@ -3640,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UpdateToken",
           "package": "ffeed",
@@ -3648,6 +3963,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UpdateToken",
           "package": "ffeed",
@@ -3661,6 +3977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "User",
           "package": "ffeed",
@@ -3669,6 +3986,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "User",
           "package": "ffeed",
@@ -3682,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UserID",
           "package": "ffeed",
@@ -3690,6 +4009,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UserID",
           "package": "ffeed",
@@ -3703,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UserName",
           "package": "ffeed",
@@ -3711,6 +4032,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UserName",
           "package": "ffeed",
@@ -3724,6 +4046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Via",
           "package": "ffeed",
@@ -3732,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Via",
           "package": "ffeed",
@@ -3745,6 +4069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Comment",
           "package": "ffeed",
@@ -3754,6 +4079,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Comment",
           "package": "ffeed",
@@ -3767,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Content",
           "package": "ffeed",
@@ -3776,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Content",
           "package": "ffeed",
@@ -3789,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Enclosure",
           "package": "ffeed",
@@ -3798,6 +4127,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Enclosure",
           "package": "ffeed",
@@ -3811,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Entry",
           "package": "ffeed",
@@ -3820,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Entry",
           "package": "ffeed",
@@ -3833,6 +4165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Like",
           "package": "ffeed",
@@ -3842,6 +4175,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Like",
           "package": "ffeed",
@@ -3855,6 +4189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "List",
           "package": "ffeed",
@@ -3864,6 +4199,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "List",
           "package": "ffeed",
@@ -3877,6 +4213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Media",
           "package": "ffeed",
@@ -3886,6 +4223,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Media",
           "package": "ffeed",
@@ -3899,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Resource",
           "package": "ffeed",
@@ -3908,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Resource",
           "package": "ffeed",
@@ -3921,6 +4261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Room",
           "package": "ffeed",
@@ -3930,6 +4271,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Room",
           "package": "ffeed",
@@ -3943,6 +4285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Service",
           "package": "ffeed",
@@ -3952,6 +4295,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Service",
           "package": "ffeed",
@@ -3965,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Subscription_",
           "package": "ffeed",
@@ -3974,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Subscription_",
           "package": "ffeed",
@@ -3987,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "Thumbnail",
           "package": "ffeed",
@@ -3996,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "Thumbnail",
           "package": "ffeed",
@@ -4009,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "UpdateInfo",
           "package": "ffeed",
@@ -4018,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "UpdateInfo",
           "package": "ffeed",
@@ -4031,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "User",
           "package": "ffeed",
@@ -4040,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "User",
           "package": "ffeed",
@@ -4053,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "commentBody",
           "package": "ffeed",
@@ -4062,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "commentBody",
           "package": "ffeed",
@@ -4075,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "commentDate",
           "package": "ffeed",
@@ -4084,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "commentDate",
           "package": "ffeed",
@@ -4097,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "commentUser",
           "package": "ffeed",
@@ -4106,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "commentUser",
           "normalized": "[Resource User]",
@@ -4121,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "contentHeight",
           "package": "ffeed",
@@ -4130,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "contentHeight",
           "package": "ffeed",
@@ -4143,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "contentType",
           "package": "ffeed",
@@ -4152,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "contentType",
           "package": "ffeed",
@@ -4165,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "contentUrl",
           "package": "ffeed",
@@ -4174,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "contentUrl",
           "package": "ffeed",
@@ -4187,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "contentWidth",
           "package": "ffeed",
@@ -4196,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "contentWidth",
           "package": "ffeed",
@@ -4209,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "enclosureLength",
           "package": "ffeed",
@@ -4218,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "enclosureLength",
           "package": "ffeed",
@@ -4232,6 +4600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMIME type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "enclosureType",
           "package": "ffeed",
@@ -4242,6 +4611,7 @@
         "index": {
           "description": "MIME type",
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "enclosureType",
           "package": "ffeed",
@@ -4255,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "enclosureUrl",
           "package": "ffeed",
@@ -4264,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "enclosureUrl",
           "package": "ffeed",
@@ -4277,6 +4649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryComments",
           "package": "ffeed",
@@ -4286,6 +4659,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryComments",
           "normalized": "[Comment]",
@@ -4301,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryId",
           "package": "ffeed",
@@ -4310,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryId",
           "package": "ffeed",
@@ -4323,6 +4699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryIsAnon",
           "package": "ffeed",
@@ -4332,6 +4709,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryIsAnon",
           "package": "ffeed",
@@ -4345,6 +4723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryIsHidden",
           "package": "ffeed",
@@ -4354,6 +4733,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryIsHidden",
           "package": "ffeed",
@@ -4367,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryLikes",
           "package": "ffeed",
@@ -4376,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryLikes",
           "normalized": "[Like]",
@@ -4391,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryLink",
           "package": "ffeed",
@@ -4400,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryLink",
           "package": "ffeed",
@@ -4413,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryMedia",
           "package": "ffeed",
@@ -4422,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryMedia",
           "normalized": "[Media]",
@@ -4437,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryPublished",
           "package": "ffeed",
@@ -4446,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryPublished",
           "package": "ffeed",
@@ -4459,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryRoom",
           "package": "ffeed",
@@ -4468,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryRoom",
           "package": "ffeed",
@@ -4481,6 +4871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryService",
           "package": "ffeed",
@@ -4490,6 +4881,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryService",
           "package": "ffeed",
@@ -4503,6 +4895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryTitle",
           "package": "ffeed",
@@ -4512,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryTitle",
           "package": "ffeed",
@@ -4525,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryUpdated",
           "package": "ffeed",
@@ -4534,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryUpdated",
           "package": "ffeed",
@@ -4547,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryUser",
           "package": "ffeed",
@@ -4556,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryUser",
           "package": "ffeed",
@@ -4569,6 +4967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "entryVia",
           "package": "ffeed",
@@ -4578,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "entryVia",
           "package": "ffeed",
@@ -4591,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "likeDate",
           "package": "ffeed",
@@ -4600,6 +5001,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "likeDate",
           "package": "ffeed",
@@ -4613,6 +5015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "likeUser",
           "package": "ffeed",
@@ -4622,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "likeUser",
           "package": "ffeed",
@@ -4635,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listId",
           "package": "ffeed",
@@ -4644,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listId",
           "package": "ffeed",
@@ -4657,6 +5063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listName",
           "package": "ffeed",
@@ -4666,6 +5073,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listName",
           "package": "ffeed",
@@ -4679,6 +5087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listNickname",
           "package": "ffeed",
@@ -4688,6 +5097,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listNickname",
           "package": "ffeed",
@@ -4701,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listRooms",
           "package": "ffeed",
@@ -4710,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listRooms",
           "normalized": "[Resource Room]",
@@ -4725,6 +5137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listURL",
           "package": "ffeed",
@@ -4734,6 +5147,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listURL",
           "package": "ffeed",
@@ -4747,6 +5161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "listUsers",
           "package": "ffeed",
@@ -4756,6 +5171,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "listUsers",
           "normalized": "[Resource User]",
@@ -4771,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaContent",
           "package": "ffeed",
@@ -4780,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaContent",
           "normalized": "[Content]",
@@ -4795,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaEnclosure",
           "package": "ffeed",
@@ -4804,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaEnclosure",
           "normalized": "[Enclosure]",
@@ -4819,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaLink",
           "package": "ffeed",
@@ -4828,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaLink",
           "package": "ffeed",
@@ -4841,6 +5263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaPlayer",
           "package": "ffeed",
@@ -4850,6 +5273,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaPlayer",
           "package": "ffeed",
@@ -4863,6 +5287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaThumbs",
           "package": "ffeed",
@@ -4872,6 +5297,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaThumbs",
           "normalized": "[Thumbnail]",
@@ -4887,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "mediaTitle",
           "package": "ffeed",
@@ -4896,6 +5323,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "mediaTitle",
           "package": "ffeed",
@@ -4909,6 +5337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullComment",
           "package": "ffeed",
@@ -4918,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullComment",
           "package": "ffeed",
@@ -4931,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullContent",
           "package": "ffeed",
@@ -4940,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullContent",
           "package": "ffeed",
@@ -4953,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullEnclosure",
           "package": "ffeed",
@@ -4962,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullEnclosure",
           "package": "ffeed",
@@ -4975,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullEntry",
           "package": "ffeed",
@@ -4984,6 +5419,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullEntry",
           "package": "ffeed",
@@ -4997,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullLike",
           "package": "ffeed",
@@ -5006,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullLike",
           "package": "ffeed",
@@ -5019,6 +5457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullList",
           "package": "ffeed",
@@ -5028,6 +5467,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullList",
           "package": "ffeed",
@@ -5041,6 +5481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullMedia",
           "package": "ffeed",
@@ -5050,6 +5491,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullMedia",
           "package": "ffeed",
@@ -5063,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullResource",
           "package": "ffeed",
@@ -5072,6 +5515,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullResource",
           "package": "ffeed",
@@ -5085,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullRoom",
           "package": "ffeed",
@@ -5094,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullRoom",
           "package": "ffeed",
@@ -5107,6 +5553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullService",
           "package": "ffeed",
@@ -5116,6 +5563,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullService",
           "package": "ffeed",
@@ -5129,6 +5577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullThumbnail",
           "package": "ffeed",
@@ -5138,6 +5587,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullThumbnail",
           "package": "ffeed",
@@ -5151,6 +5601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullUUID",
           "package": "ffeed",
@@ -5160,6 +5611,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullUUID",
           "package": "ffeed",
@@ -5173,6 +5625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullUpdateInfo",
           "package": "ffeed",
@@ -5182,6 +5635,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullUpdateInfo",
           "package": "ffeed",
@@ -5195,6 +5649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullUser",
           "package": "ffeed",
@@ -5204,6 +5659,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullUser",
           "package": "ffeed",
@@ -5217,6 +5673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "nullVia",
           "package": "ffeed",
@@ -5226,6 +5683,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "nullVia",
           "package": "ffeed",
@@ -5239,6 +5697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "resourceId",
           "package": "ffeed",
@@ -5248,6 +5707,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "resourceId",
           "package": "ffeed",
@@ -5261,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "resourceName",
           "package": "ffeed",
@@ -5270,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "resourceName",
           "package": "ffeed",
@@ -5283,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "resourceNickname",
           "package": "ffeed",
@@ -5292,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "resourceNickname",
           "package": "ffeed",
@@ -5305,6 +5769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "resourceUrl",
           "package": "ffeed",
@@ -5314,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "resourceUrl",
           "package": "ffeed",
@@ -5327,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomAdmins",
           "package": "ffeed",
@@ -5336,6 +5803,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomAdmins",
           "normalized": "[Resource User]",
@@ -5351,6 +5819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomDescription",
           "package": "ffeed",
@@ -5360,6 +5829,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomDescription",
           "package": "ffeed",
@@ -5373,6 +5843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomId",
           "package": "ffeed",
@@ -5382,6 +5853,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomId",
           "package": "ffeed",
@@ -5395,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomMember",
           "package": "ffeed",
@@ -5404,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomMember",
           "normalized": "[Resource User]",
@@ -5419,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomName",
           "package": "ffeed",
@@ -5428,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomName",
           "package": "ffeed",
@@ -5441,6 +5917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomNickname",
           "package": "ffeed",
@@ -5450,6 +5927,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomNickname",
           "package": "ffeed",
@@ -5464,6 +5942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estatic or public\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomStatus",
           "package": "ffeed",
@@ -5474,6 +5953,7 @@
         "index": {
           "description": "static or public",
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomStatus",
           "package": "ffeed",
@@ -5487,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "roomUrl",
           "package": "ffeed",
@@ -5496,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "roomUrl",
           "package": "ffeed",
@@ -5509,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "serviceIconUrl",
           "package": "ffeed",
@@ -5518,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "serviceIconUrl",
           "package": "ffeed",
@@ -5531,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "serviceId",
           "package": "ffeed",
@@ -5540,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "serviceId",
           "package": "ffeed",
@@ -5553,6 +6039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "serviceName",
           "package": "ffeed",
@@ -5562,6 +6049,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "serviceName",
           "package": "ffeed",
@@ -5575,6 +6063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "serviceUrl",
           "package": "ffeed",
@@ -5584,6 +6073,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "serviceUrl",
           "package": "ffeed",
@@ -5597,6 +6087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "thumbHeight",
           "package": "ffeed",
@@ -5606,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "thumbHeight",
           "package": "ffeed",
@@ -5619,6 +6111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "thumbUrl",
           "package": "ffeed",
@@ -5628,6 +6121,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "thumbUrl",
           "package": "ffeed",
@@ -5641,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "thumbWidth",
           "package": "ffeed",
@@ -5650,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "thumbWidth",
           "package": "ffeed",
@@ -5663,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "updIncomplete",
           "package": "ffeed",
@@ -5672,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "updIncomplete",
           "package": "ffeed",
@@ -5685,6 +6183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "updInterval",
           "package": "ffeed",
@@ -5694,6 +6193,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "updInterval",
           "package": "ffeed",
@@ -5707,6 +6207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "updToken",
           "package": "ffeed",
@@ -5716,6 +6217,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "updToken",
           "package": "ffeed",
@@ -5729,6 +6231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userId",
           "package": "ffeed",
@@ -5738,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userId",
           "package": "ffeed",
@@ -5751,6 +6255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userLists",
           "package": "ffeed",
@@ -5760,6 +6265,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userLists",
           "normalized": "[Resource List]",
@@ -5775,6 +6281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userName",
           "package": "ffeed",
@@ -5784,6 +6291,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userName",
           "package": "ffeed",
@@ -5797,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userNickname",
           "package": "ffeed",
@@ -5806,6 +6315,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userNickname",
           "package": "ffeed",
@@ -5819,6 +6329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userProfileURL",
           "package": "ffeed",
@@ -5828,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userProfileURL",
           "package": "ffeed",
@@ -5841,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userRooms",
           "package": "ffeed",
@@ -5850,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userRooms",
           "normalized": "[Resource Room]",
@@ -5865,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userServices",
           "package": "ffeed",
@@ -5874,6 +6389,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userServices",
           "normalized": "[Service]",
@@ -5889,6 +6405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userStatus",
           "package": "ffeed",
@@ -5898,6 +6415,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userStatus",
           "package": "ffeed",
@@ -5911,6 +6429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Types",
           "name": "userSubscriptions",
           "package": "ffeed",
@@ -5920,6 +6439,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Types",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Types",
           "name": "userSubscriptions",
           "normalized": "[Resource Subscription]",
@@ -5935,6 +6455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "Updates",
           "package": "ffeed",
@@ -5943,6 +6464,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "Updates",
           "package": "ffeed",
@@ -5956,6 +6478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "getUpdateInfo",
           "package": "ffeed",
@@ -5965,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "getUpdateInfo",
           "package": "ffeed",
@@ -5979,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns updates to a user's friends. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesFriends",
           "package": "ffeed",
@@ -5989,6 +6514,7 @@
         "index": {
           "description": "Returns updates to user friends",
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesFriends",
           "normalized": "UserName-\u003eUpdateToken-\u003eMaybe Int-\u003eFFm[Entry]",
@@ -6005,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns updates to the users home feed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesHome",
           "package": "ffeed",
@@ -6015,6 +6542,7 @@
         "index": {
           "description": "Returns updates to the users home feed",
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesHome",
           "normalized": "UpdateToken-\u003eMaybe Int-\u003eFFm[Entry]",
@@ -6031,6 +6559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns updates to the authenticated user's list with the given nickname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesList",
           "package": "ffeed",
@@ -6041,6 +6570,7 @@
         "index": {
           "description": "Returns updates to the authenticated user list with the given nickname",
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesList",
           "normalized": "ListName-\u003eUpdateToken-\u003eMaybe Int-\u003eFFm[Entry]",
@@ -6057,6 +6587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns updates to the room with the given nickname. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesRoom",
           "package": "ffeed",
@@ -6067,6 +6598,7 @@
         "index": {
           "description": "Returns updates to the room with the given nickname",
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "getUpdatesRoom",
           "normalized": "RoomName-\u003eUpdateToken-\u003eMaybe Int-\u003eFFm[Entry]",
@@ -6082,6 +6614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "upd_base",
           "package": "ffeed",
@@ -6091,6 +6624,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "upd_base",
           "package": "ffeed",
@@ -6103,6 +6637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.Updates",
           "name": "upd_base2",
           "package": "ffeed",
@@ -6112,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed Updates",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.Updates",
           "name": "upd_base2",
           "package": "ffeed",
@@ -6125,6 +6661,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActions for fetching entries,comments etc. for one or\n more users/friends.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "User",
           "package": "ffeed",
@@ -6134,6 +6671,7 @@
         "index": {
           "description": "Actions for fetching entries comments etc for one or more users friends",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "User",
           "package": "ffeed",
@@ -6148,6 +6686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns entries from a user's friends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getFriendEntries",
           "package": "ffeed",
@@ -6158,6 +6697,7 @@
         "index": {
           "description": "Returns entries from user friends",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getFriendEntries",
           "normalized": "UserName-\u003eFFm[Entry]",
@@ -6174,6 +6714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most recent public entries on FriendFeed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getPublicEntries",
           "package": "ffeed",
@@ -6184,6 +6725,7 @@
         "index": {
           "description": "Returns the most recent public entries on FriendFeed",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getPublicEntries",
           "normalized": "FFm[Entry]",
@@ -6199,6 +6741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserComments",
           "package": "ffeed",
@@ -6208,6 +6751,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserComments",
           "normalized": "UserName-\u003eFFm[Entry]",
@@ -6224,6 +6768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most recent entries the user has commented \n on or \u003ca\u003eliked\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserDiscussion",
           "package": "ffeed",
@@ -6234,6 +6779,7 @@
         "index": {
           "description": "Returns the most recent entries the user has commented on or liked",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserDiscussion",
           "normalized": "UserName-\u003eFFm[Entry]",
@@ -6249,6 +6795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserEntries",
           "package": "ffeed",
@@ -6258,6 +6805,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserEntries",
           "normalized": "UserName-\u003eFFm[Entry]",
@@ -6273,6 +6821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserLikes",
           "package": "ffeed",
@@ -6282,6 +6831,7 @@
         },
         "index": {
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserLikes",
           "normalized": "UserName-\u003eFFm[Entry]",
@@ -6298,6 +6848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a user's profile picture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserPicture",
           "package": "ffeed",
@@ -6308,6 +6859,7 @@
         "index": {
           "description": "Get user profile picture",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserPicture",
           "normalized": "UserName-\u003eString-\u003eFFm URLString",
@@ -6324,6 +6876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns list of all of the user's subscriptions\n (people) and services connected to their account\n (Authentication required for private users): \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUserProfile",
           "package": "ffeed",
@@ -6334,6 +6887,7 @@
         "index": {
           "description": "Returns list of all of the user subscriptions people and services connected to their account Authentication required for private users",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUserProfile",
           "normalized": "UserName-\u003eFFm User",
@@ -6350,6 +6904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the most recent entries from a list of users, \n specified by nickname.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "getUsersEntries",
           "package": "ffeed",
@@ -6360,6 +6915,7 @@
         "index": {
           "description": "Returns the most recent entries from list of users specified by nickname",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "getUsersEntries",
           "normalized": "[UserName]-\u003eFFm[Entry]",
@@ -6376,6 +6932,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValidates the user's remote key. If the HTTP Basic \n Authentication nickname and remote key are valid, we \n return a HTTP 200 status code. Otherwise, we return an \n HTTP 401 status code. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "FriendFeed.User",
           "name": "validateUserKey",
           "package": "ffeed",
@@ -6386,6 +6943,7 @@
         "index": {
           "description": "Validates the user remote key If the HTTP Basic Authentication nickname and remote key are valid we return HTTP status code Otherwise we return an HTTP status code",
           "hierarchy": "FriendFeed User",
+          "indexed": "2014-03-11T18:08:13",
           "module": "FriendFeed.User",
           "name": "validateUserKey",
           "package": "ffeed",
@@ -6400,6 +6958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense     : See the file LICENSE\n\u003c/p\u003e\u003cp\u003eStatus      : Coded\n\u003c/p\u003e\u003cp\u003eCodec for de/encoding URI strings via percent encodings\n (cf. RFC 3986.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "Percent",
           "package": "ffeed",
@@ -6409,6 +6968,7 @@
         "index": {
           "description": "License See the file LICENSE Status Coded Codec for de encoding URI strings via percent encodings cf RFC",
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.Percent",
           "name": "Percent",
           "package": "ffeed",
@@ -6422,6 +6982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getDecodedChar",
           "package": "ffeed",
@@ -6431,6 +6992,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.Percent",
           "name": "getDecodedChar",
           "normalized": "String-\u003eMaybe(Char,String)",
@@ -6446,6 +7008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getDecodedString",
           "package": "ffeed",
@@ -6455,6 +7018,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.Percent",
           "name": "getDecodedString",
           "normalized": "String-\u003eString",
@@ -6470,6 +7034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getEncodedChar",
           "package": "ffeed",
@@ -6479,6 +7044,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.Percent",
           "name": "getEncodedChar",
           "normalized": "Char-\u003eMaybe String",
@@ -6494,6 +7060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.Percent",
           "name": "getEncodedString",
           "package": "ffeed",
@@ -6503,6 +7070,7 @@
         },
         "index": {
           "hierarchy": "Util Codec Percent",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.Percent",
           "name": "getEncodedString",
           "normalized": "String-\u003eString",
@@ -6518,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "ffeed",
@@ -6526,6 +7095,7 @@
         },
         "index": {
           "hierarchy": "Util Codec URLEncoder",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "ffeed",
@@ -6539,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.URLEncoder",
           "name": "decodeString",
           "package": "ffeed",
@@ -6548,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Util Codec URLEncoder",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.URLEncoder",
           "name": "decodeString",
           "normalized": "String-\u003eString",
@@ -6563,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Codec.URLEncoder",
           "name": "encodeString",
           "package": "ffeed",
@@ -6572,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "Util Codec URLEncoder",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Codec.URLEncoder",
           "name": "encodeString",
           "normalized": "String-\u003eString",
@@ -6588,6 +7162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple GET/de-ref of URLs; abstracting out networking backend/package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "Fetch",
           "package": "ffeed",
@@ -6597,6 +7172,7 @@
         "index": {
           "description": "Simple GET de-ref of URLs abstracting out networking backend package",
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "Fetch",
           "package": "ffeed",
@@ -6610,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "URLString",
           "package": "ffeed",
@@ -6618,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "URLString",
           "package": "ffeed",
@@ -6631,6 +7209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "User",
           "package": "ffeed",
@@ -6639,6 +7218,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "User",
           "package": "ffeed",
@@ -6652,6 +7232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "User",
           "package": "ffeed",
@@ -6661,6 +7242,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "User",
           "package": "ffeed",
@@ -6674,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "postContentsURL",
           "package": "ffeed",
@@ -6683,6 +7266,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "postContentsURL",
           "normalized": "Maybe User-\u003eURLString-\u003e[(String,String)]-\u003eString-\u003eIO String",
@@ -6698,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "readContentsURL",
           "package": "ffeed",
@@ -6707,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "readContentsURL",
           "normalized": "URLString-\u003eIO String",
@@ -6722,6 +7308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "readUserContentsURL",
           "package": "ffeed",
@@ -6731,6 +7318,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "readUserContentsURL",
           "normalized": "User-\u003eURLString-\u003eIO String",
@@ -6746,6 +7334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "userName",
           "package": "ffeed",
@@ -6755,6 +7344,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "userName",
           "package": "ffeed",
@@ -6768,6 +7358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:08:13 UTC 2014",
           "module": "Util.Fetch",
           "name": "userPass",
           "package": "ffeed",
@@ -6777,6 +7368,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:08:13",
           "module": "Util.Fetch",
           "name": "userPass",
           "package": "ffeed",

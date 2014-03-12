@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scion"
+        "phrase": "scion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Configure",
           "name": "ConfigException",
           "package": "scion",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Scion Configure",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Configure",
           "name": "ConfigException",
           "package": "scion",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "Path to .cabal file.  TODO: ATM, we only need the\n directory\nCommand line arguments.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Configure",
           "name": "cabalSetupWithArgs",
           "package": "scion",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Path to cabal file TODO ATM we only need the directory Command line arguments",
           "hierarchy": "Scion Configure",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Configure",
           "name": "cabalSetupWithArgs",
           "normalized": "FilePath-\u003e[String]-\u003eScionM Bool",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "The project root.  (Where the .cabal file resides)\ndist dir, i.e., directory where to put generated files.\ncommand line arguments to \u003ca\u003econfigure\u003c/a\u003e. [XXX: currently\n ignored!]\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Configure",
           "name": "configureCabalProject",
           "package": "scion",
@@ -76,6 +81,7 @@
         "index": {
           "description": "The project root Where the cabal file resides dist dir i.e directory where to put generated files command line arguments to configure XXX currently ignored",
           "hierarchy": "Scion Configure",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Configure",
           "name": "configureCabalProject",
           "normalized": "FilePath-\u003eFilePath-\u003e[String]-\u003eScionM()",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "The project root.  (Where the .cabal file resides)\ndist dir, i.e., directory where to put generated files.\ncommand line arguments to \u003ca\u003econfigure\u003c/a\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Configure",
           "name": "openOrConfigureCabalProject",
           "package": "scion",
@@ -102,6 +109,7 @@
         "index": {
           "description": "The project root Where the cabal file resides dist dir i.e directory where to put generated files command line arguments to configure",
           "hierarchy": "Scion Configure",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Configure",
           "name": "openOrConfigureCabalProject",
           "normalized": "FilePath-\u003eFilePath-\u003e[String]-\u003eScionM()",
@@ -117,6 +125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "addToDB",
           "package": "scion",
@@ -126,6 +135,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect DefinitionSite",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "addToDB",
           "normalized": "String-\u003eLocation-\u003eTyThing-\u003eDefSiteDB-\u003eDefSiteDB",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "Dump a definition site DB to stdout. (For debugging purposes.)\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "dumpDefSiteDB",
           "package": "scion",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Dump definition site DB to stdout For debugging purposes",
           "hierarchy": "Scion Inspect DefinitionSite",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "dumpDefSiteDB",
           "normalized": "DefSiteDB-\u003eString",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "Construct a SiteDB from a base directory and a list of \u003ctt\u003e\u003ca\u003eTyThing\u003c/a\u003e\u003c/tt\u003es.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "mkSiteDB",
           "package": "scion",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Construct SiteDB from base directory and list of TyThing",
           "hierarchy": "Scion Inspect DefinitionSite",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "mkSiteDB",
           "normalized": "FilePath-\u003e[TyThing]-\u003eDefSiteDB",
@@ -194,6 +208,7 @@
       "document": {
         "description": {
           "description": "Base path (see \u003ctt\u003e\u003ca\u003eghcSpanToLocation\u003c/a\u003e\u003c/tt\u003e)\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "moduleGraphDefSiteDB",
           "package": "scion",
@@ -204,6 +219,7 @@
         "index": {
           "description": "Base path see ghcSpanToLocation",
           "hierarchy": "Scion Inspect DefinitionSite",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "moduleGraphDefSiteDB",
           "normalized": "FilePath-\u003eModuleGraph-\u003eScionM DefSiteDB",
@@ -220,6 +236,7 @@
       "document": {
         "description": {
           "description": "Base path (see \u003ctt\u003e\u003ca\u003eghcSpanToLocation\u003c/a\u003e\u003c/tt\u003e) and module.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "moduleSiteDB",
           "package": "scion",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Base path see ghcSpanToLocation and module",
           "hierarchy": "Scion Inspect DefinitionSite",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.DefinitionSite",
           "name": "moduleSiteDB",
           "normalized": "(FilePath,Module)-\u003eScionM DefSiteDB",
@@ -245,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "PosForest",
           "package": "scion",
@@ -253,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "PosForest",
           "package": "scion",
@@ -266,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "PosTree",
           "package": "scion",
@@ -274,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "PosTree",
           "package": "scion",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "SearchResult",
           "package": "scion",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "SearchResult",
           "package": "scion",
@@ -308,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "SearchResults",
           "package": "scion",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "SearchResults",
           "package": "scion",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "deepestLeaf",
           "package": "scion",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "deepestLeaf",
           "normalized": "PosTree a-\u003ea",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "Lookup all the things in a certain region.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "findHsThing",
           "package": "scion",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Lookup all the things in certain region",
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "findHsThing",
           "normalized": "(SrcSpan-\u003eBool)-\u003ea-\u003eSearchResults b",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "overlaps",
           "package": "scion",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "overlaps",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eBool",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "Returns the deepest leaf, together with the path to this leaf.  For\n example, for the following tree with root \u003ctt\u003eA\u003c/tt\u003e:\n \u003ctt\u003e\n     A -+- B --- C\n        '- D --- E --- F\n \u003c/tt\u003e\n this function will return:\n \u003ctt\u003e\n    (F, [E, D, A])\n \u003c/tt\u003e\n If \u003ctt\u003eF\u003c/tt\u003e were missing the result is either \u003ctt\u003e(C, [B,A])\u003c/tt\u003e or \u003ctt\u003e(E, [D,A])\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "pathToDeepest",
           "package": "scion",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Returns the deepest leaf together with the path to this leaf For example for the following tree with root this function will return If were missing the result is either or",
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "pathToDeepest",
           "normalized": "PosForest a-\u003eMaybe(a,[a])",
@@ -428,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.Find",
           "name": "surrounds",
           "package": "scion",
@@ -437,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect Find",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.Find",
           "name": "surrounds",
           "normalized": "SrcSpan-\u003eSrcSpan-\u003eBool",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "Reduce a top-level type application if possible.  That is, we perform the\n following simplification step:\n \u003ctt\u003e\n     (forall v . t) t'   ==\u003e   t [t'/v]\n \u003c/tt\u003e\n where \u003ctt\u003e[t'/v]\u003c/tt\u003e is the substitution of \u003ctt\u003et'\u003c/tt\u003e for \u003ctt\u003ev\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.TypeOf",
           "name": "reduce_type",
           "package": "scion",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Reduce top-level type application if possible That is we perform the following simplification step forall where is the substitution of for",
           "hierarchy": "Scion Inspect TypeOf",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.TypeOf",
           "name": "reduce_type",
           "normalized": "Type-\u003eType",
@@ -476,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.TypeOf",
           "name": "subst_type",
           "package": "scion",
@@ -485,6 +524,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect TypeOf",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.TypeOf",
           "name": "subst_type",
           "normalized": "TyVar-\u003eType-\u003eType-\u003eType",
@@ -499,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect.TypeOf",
           "name": "typeOf",
           "package": "scion",
@@ -508,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect TypeOf",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect.TypeOf",
           "name": "typeOf",
           "normalized": "(SearchResult Id,[SearchResult Id])-\u003eMaybe Type",
@@ -523,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "classDecls",
           "package": "scion",
@@ -532,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "classDecls",
           "normalized": "RenamedSource-\u003e[LTyClDecl Name]",
@@ -547,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "familyDecls",
           "package": "scion",
@@ -556,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "familyDecls",
           "normalized": "RenamedSource-\u003e[LTyClDecl Name]",
@@ -571,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "prettyResult",
           "package": "scion",
@@ -580,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "prettyResult",
           "normalized": "SearchResult a-\u003eSDoc",
@@ -595,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "toplevelNames",
           "package": "scion",
@@ -604,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "toplevelNames",
           "normalized": "a-\u003e[Name]",
@@ -619,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "typeDecls",
           "package": "scion",
@@ -628,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "typeDecls",
           "normalized": "a-\u003e[LTyClDecl Name]",
@@ -643,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Inspect",
           "name": "typeOfResult",
           "package": "scion",
@@ -652,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Scion Inspect",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Inspect",
           "name": "typeOfResult",
           "normalized": "SearchResult Id-\u003eMaybe Type",
@@ -667,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "CannotOpenCabalProject",
           "package": "scion",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "CannotOpenCabalProject",
           "package": "scion",
@@ -688,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "ComponentDoesNotExist",
           "package": "scion",
@@ -696,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "ComponentDoesNotExist",
           "package": "scion",
@@ -709,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "NoCurrentCabalProject",
           "package": "scion",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "NoCurrentCabalProject",
           "package": "scion",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses the list of Strings as command line arguments and sets the\n \u003ctt\u003e\u003ca\u003eDynFlags\u003c/a\u003e\u003c/tt\u003e accordingly.\n\u003c/p\u003e\u003cp\u003eDoes not set the flags if a parse error occurs.  XXX: There's currently\n no way to find out if there was an error from inside the program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "addCmdLineFlags",
           "package": "scion",
@@ -741,6 +802,7 @@
         "index": {
           "description": "Parses the list of Strings as command line arguments and sets the DynFlags accordingly Does not set the flags if parse error occurs XXX There currently no way to find out if there was an error from inside the program",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "addCmdLineFlags",
           "normalized": "[String]-\u003eScionM[PackageId]",
@@ -757,6 +819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all components in the current cabal project.\n\u003c/p\u003e\u003cp\u003eThis can be used to present the user a list of possible items to load.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "availableComponents",
           "package": "scion",
@@ -767,6 +830,7 @@
         "index": {
           "description": "List all components in the current cabal project This can be used to present the user list of possible items to load Throws NoCurrentCabalProject if there is no current Cabal project",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "availableComponents",
           "normalized": "ScionM[Component]",
@@ -783,6 +847,7 @@
       "document": {
         "description": {
           "description": "First element is \u003ctt\u003eFalse\u003c/tt\u003e \u003ca\u003e=\u003c/a\u003e step 1 above failed.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "backgroundTypecheckFile",
           "package": "scion",
@@ -793,6 +858,7 @@
         "index": {
           "description": "First element is False step above failed",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "backgroundTypecheckFile",
           "normalized": "FilePath-\u003eScionM(Either String CompilationResult)",
@@ -809,6 +875,7 @@
       "document": {
         "description": {
           "description": "The .cabal file\none of \u003ca\u003edist\u003c/a\u003e \u003ca\u003econfig\u003c/a\u003e \u003ca\u003eall\u003c/a\u003e\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "cabalConfigurations",
           "package": "scion",
@@ -819,6 +886,7 @@
         "index": {
           "description": "The cabal file one of dist config all",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "cabalConfigurations",
           "normalized": "FilePath-\u003eString-\u003eBool-\u003eScionM[CabalConfiguration]",
@@ -834,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "cabalModuleNameToTarget",
           "package": "scion",
@@ -843,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "cabalModuleNameToTarget",
           "normalized": "ModuleName-\u003eTarget",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "The .cabal file\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "cabalProjectComponents",
           "package": "scion",
@@ -869,6 +940,7 @@
         "index": {
           "description": "The cabal file",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "cabalProjectComponents",
           "normalized": "FilePath-\u003eScionM[Component]",
@@ -884,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "cabalProjectRoot",
           "package": "scion",
@@ -893,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "cabalProjectRoot",
           "package": "scion",
@@ -907,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn path to the .cabal file of the current Cabal package.\n\u003c/p\u003e\u003cp\u003eThis is useful to identify the project when communicating with Scion from\n foreign code, because this does not require serialising the local build\n info.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project or the\n    current project has no .cabal file.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "currentCabalFile",
           "package": "scion",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Return path to the cabal file of the current Cabal package This is useful to identify the project when communicating with Scion from foreign code because this does not require serialising the local build info Throws NoCurrentCabalProject if there is no current Cabal project or the current project has no cabal file",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "currentCabalFile",
           "package": "scion",
@@ -931,6 +1007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the (configured) package description of the current Cabal project.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "currentCabalPackage",
           "package": "scion",
@@ -941,6 +1018,7 @@
         "index": {
           "description": "Return the configured package description of the current Cabal project Throws NoCurrentCabalProject if there is no current Cabal project",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "currentCabalPackage",
           "package": "scion",
@@ -954,6 +1032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "filePathToProjectModule",
           "package": "scion",
@@ -963,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "filePathToProjectModule",
           "normalized": "FilePath-\u003eScionM(Maybe ModSummary)",
@@ -979,6 +1059,7 @@
       "document": {
         "description": {
           "description": "Return the currently active component.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "getActiveComponent",
           "package": "scion",
@@ -989,6 +1070,7 @@
         "index": {
           "description": "Return the currently active component",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "getActiveComponent",
           "package": "scion",
@@ -1003,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current \u003ctt\u003e\u003ca\u003eLocalBuildInfo\u003c/a\u003e\u003c/tt\u003e.\n\u003c/p\u003e\u003cp\u003eThe \u003ctt\u003e\u003ca\u003eLocalBuildInfo\u003c/a\u003e\u003c/tt\u003e is the result of configuring a Cabal project,\n therefore requires that we have a current Cabal project.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "getLocalBuildInfo",
           "package": "scion",
@@ -1013,6 +1096,7 @@
         "index": {
           "description": "Return the current LocalBuildInfo The LocalBuildInfo is the result of configuring Cabal project therefore requires that we have current Cabal project Throws NoCurrentCabalProject if there is no current Cabal project",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "getLocalBuildInfo",
           "package": "scion",
@@ -1026,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "initialScionDynFlags",
           "package": "scion",
@@ -1035,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "initialScionDynFlags",
           "normalized": "DynFlags-\u003eDynFlags",
@@ -1050,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "isPartOfProject",
           "package": "scion",
@@ -1059,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "isPartOfProject",
           "normalized": "FilePath-\u003eScionM Bool",
@@ -1075,6 +1163,7 @@
       "document": {
         "description": {
           "description": "Return whether the filepath refers to a file inside the current project\n   root.  Return \u003ctt\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/tt\u003e if there is no current project.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "isRelativeToProjectRoot",
           "package": "scion",
@@ -1085,6 +1174,7 @@
         "index": {
           "description": "Return whether the filepath refers to file inside the current project root Return False if there is no current project",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "isRelativeToProjectRoot",
           "normalized": "FilePath-\u003eScionM Bool",
@@ -1101,6 +1191,7 @@
       "document": {
         "description": {
           "description": "Wrapper for GHC.load.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "load",
           "package": "scion",
@@ -1111,6 +1202,7 @@
         "index": {
           "description": "Wrapper for GHC.load",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "load",
           "normalized": "LoadHowMuch-\u003eScionM CompilationResult",
@@ -1126,6 +1218,7 @@
       "document": {
         "description": {
           "description": "The compilation result.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "loadComponent",
           "package": "scion",
@@ -1136,6 +1229,7 @@
         "index": {
           "description": "The compilation result",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "loadComponent",
           "normalized": "Component-\u003eScionM CompilationResult",
@@ -1152,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the \u003ctt\u003e\u003ca\u003eModSummary\u003c/a\u003e\u003c/tt\u003e that refers to the source file.\n\u003c/p\u003e\u003cp\u003eAssumes that there is exactly one such \u003ctt\u003e\u003ca\u003eModSummary\u003c/a\u003e\u003c/tt\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "modSummaryForFile",
           "package": "scion",
@@ -1162,6 +1257,7 @@
         "index": {
           "description": "Return the ModSummary that refers to the source file Assumes that there is exactly one such ModSummary",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "modSummaryForFile",
           "normalized": "FilePath-\u003eModuleGraph-\u003eModSummary",
@@ -1177,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "noExeError",
           "package": "scion",
@@ -1186,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "noExeError",
           "normalized": "String-\u003eScionM a",
@@ -1201,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "noLibError",
           "package": "scion",
@@ -1210,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "noLibError",
           "package": "scion",
@@ -1224,6 +1324,7 @@
       "document": {
         "description": {
           "description": "Project root directroy\nProject dist directory (relative)\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "openCabalProject",
           "package": "scion",
@@ -1234,6 +1335,7 @@
         "index": {
           "description": "Project root directroy Project dist directory relative",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "openCabalProject",
           "normalized": "FilePath-\u003eFilePath-\u003eScionM()",
@@ -1250,6 +1352,7 @@
       "document": {
         "description": {
           "description": "Run the steps that Cabal would call before building.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "preprocessPackage",
           "package": "scion",
@@ -1260,6 +1363,7 @@
         "index": {
           "description": "Run the steps that Cabal would call before building",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "preprocessPackage",
           "normalized": "FilePath-\u003eScionM()",
@@ -1276,6 +1380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot directory of the current Cabal project.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "projectRootDir",
           "package": "scion",
@@ -1286,6 +1391,7 @@
         "index": {
           "description": "Root directory of the current Cabal project Throws NoCurrentCabalProject if there is no current Cabal project",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "projectRootDir",
           "package": "scion",
@@ -1299,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "removeMessagesForFile",
           "package": "scion",
@@ -1308,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "removeMessagesForFile",
           "normalized": "AbsFilePath-\u003eCompilationResult-\u003eScionM CompilationResult",
@@ -1324,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReset the state of the session to a defined default state.\n\u003c/p\u003e\u003cp\u003eDue to some bugs in GHC this isn't completely possible.  For example, GHC\n retains instance declarations which can lead to problems when you load a\n new module which defines a different instance.  (You'll get a conflicting\n instance error, which can only be resolved by re-starting GHC.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "resetSessionState",
           "package": "scion",
@@ -1334,6 +1443,7 @@
         "index": {
           "description": "Reset the state of the session to defined default state Due to some bugs in GHC this isn completely possible For example GHC retains instance declarations which can lead to problems when you load new module which defines different instance You ll get conflicting instance error which can only be resolved by re-starting GHC",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "resetSessionState",
           "normalized": "ScionM()",
@@ -1350,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the specified component the active one.  Sets the DynFlags to\n  those specified for the given component.  Unloads the possible\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eComponentDoesNotExist\u003c/a\u003e\u003c/tt\u003e if the current Cabal project does not contain\n    the specified component.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setActiveComponent",
           "package": "scion",
@@ -1360,6 +1471,7 @@
         "index": {
           "description": "Make the specified component the active one Sets the DynFlags to those specified for the given component Unloads the possible Throws NoCurrentCabalProject if there is no current Cabal project ComponentDoesNotExist if the current Cabal project does not contain the specified component",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setActiveComponent",
           "normalized": "Component-\u003eScionM()",
@@ -1376,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of packages that need to be loaded.  This corresponds to the\n build-depends of the loaded component.\n\u003c/p\u003e\u003cp\u003eTODO: do something with this depending on Scion mode?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setComponentDynFlags",
           "package": "scion",
@@ -1386,6 +1499,7 @@
         "index": {
           "description": "List of packages that need to be loaded This corresponds to the build-depends of the loaded component TODO do something with this depending on Scion mode",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setComponentDynFlags",
           "normalized": "Component-\u003eScionM[PackageId]",
@@ -1402,6 +1516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the targets for a GHC.load command from the meta data of the\n   current Cabal project.\n\u003c/p\u003e\u003cp\u003eThrows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eNoCurrentCabalProject\u003c/a\u003e\u003c/tt\u003e if there is no current Cabal project.\n\u003c/li\u003e\u003cli\u003e \u003ctt\u003e\u003ca\u003eComponentDoesNotExist\u003c/a\u003e\u003c/tt\u003e if the current Cabal project does not contain\n    the specified component.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setComponentTargets",
           "package": "scion",
@@ -1412,6 +1527,7 @@
         "index": {
           "description": "Set the targets for GHC.load command from the meta data of the current Cabal project Throws NoCurrentCabalProject if there is no current Cabal project ComponentDoesNotExist if the current Cabal project does not contain the specified component",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setComponentTargets",
           "normalized": "Component-\u003eScionM()",
@@ -1428,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that all dependencies of the module are already loaded.\n\u003c/p\u003e\u003cp\u003eSets \u003ctt\u003e\u003ca\u003efocusedModule\u003c/a\u003e\u003c/tt\u003e if it was successful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setContextForBGTC",
           "package": "scion",
@@ -1438,6 +1555,7 @@
         "index": {
           "description": "Ensure that all dependencies of the module are already loaded Sets focusedModule if it was successful",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setContextForBGTC",
           "normalized": "ModSummary-\u003eScionM(Maybe ModuleName,CompilationResult)",
@@ -1454,6 +1572,7 @@
       "document": {
         "description": {
           "description": "Set the verbosity of the GHC API.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setGHCVerbosity",
           "package": "scion",
@@ -1464,6 +1583,7 @@
         "index": {
           "description": "Set the verbosity of the GHC API",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setGHCVerbosity",
           "normalized": "Int-\u003eScionM()",
@@ -1480,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the current working directory and notifies GHC about the change.\n\u003c/p\u003e\u003cp\u003eTODO: do we want to adjust certain flags automatically?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "setWorkingDir",
           "package": "scion",
@@ -1490,6 +1611,7 @@
         "index": {
           "description": "Sets the current working directory and notifies GHC about the change TODO do we want to adjust certain flags automatically",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "setWorkingDir",
           "normalized": "FilePath-\u003eScionM()",
@@ -1506,6 +1628,7 @@
       "document": {
         "description": {
           "description": "Unload whatever is currently loaded.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Session",
           "name": "unload",
           "package": "scion",
@@ -1516,6 +1639,7 @@
         "index": {
           "description": "Unload whatever is currently loaded",
           "hierarchy": "Scion Session",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Session",
           "name": "unload",
           "normalized": "ScionM()",
@@ -1530,6 +1654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "AbsFilePath",
           "package": "scion",
@@ -1538,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "AbsFilePath",
           "package": "scion",
@@ -1551,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "LocSource",
           "package": "scion",
@@ -1559,6 +1686,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "LocSource",
           "package": "scion",
@@ -1572,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "Location",
           "package": "scion",
@@ -1580,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "Location",
           "package": "scion",
@@ -1593,6 +1723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "Note",
           "package": "scion",
@@ -1601,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "Note",
           "package": "scion",
@@ -1614,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "NoteKind",
           "package": "scion",
@@ -1622,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "NoteKind",
           "package": "scion",
@@ -1635,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "Notes",
           "package": "scion",
@@ -1643,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "Notes",
           "package": "scion",
@@ -1656,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "ghcErrMsgToNote",
           "package": "scion",
@@ -1665,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "ghcErrMsgToNote",
           "normalized": "FilePath-\u003eErrMsg-\u003eNote",
@@ -1681,6 +1819,7 @@
       "document": {
         "description": {
           "description": "Base path for normalising paths.\n See \u003ctt\u003e\u003ca\u003emkAbsFilePath\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "ghcMessagesToNotes",
           "package": "scion",
@@ -1691,6 +1830,7 @@
         "index": {
           "description": "Base path for normalising paths See mkAbsFilePath",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "ghcMessagesToNotes",
           "normalized": "FilePath-\u003eMessages-\u003eNotes",
@@ -1707,6 +1847,7 @@
       "document": {
         "description": {
           "description": "Base directory\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "ghcSpanToLocation",
           "package": "scion",
@@ -1717,6 +1858,7 @@
         "index": {
           "description": "Base directory",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "ghcSpanToLocation",
           "normalized": "FilePath-\u003eSrcSpan-\u003eLocation",
@@ -1732,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "ghcWarnMsgToNote",
           "package": "scion",
@@ -1741,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "ghcWarnMsgToNote",
           "normalized": "FilePath-\u003eWarnMsg-\u003eNote",
@@ -1757,6 +1901,7 @@
       "document": {
         "description": {
           "description": "Test whether a location is valid, i.e., not constructed with \u003ctt\u003e\u003ca\u003emkNoLoc\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "isValidLoc",
           "package": "scion",
@@ -1767,6 +1912,7 @@
         "index": {
           "description": "Test whether location is valid i.e not constructed with mkNoLoc",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "isValidLoc",
           "normalized": "Location-\u003eBool",
@@ -1783,6 +1929,7 @@
       "document": {
         "description": {
           "description": "Return the end column.  Only defined on valid locations.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "locEndCol",
           "package": "scion",
@@ -1793,6 +1940,7 @@
         "index": {
           "description": "Return the end column Only defined on valid locations",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "locEndCol",
           "normalized": "Location-\u003eInt",
@@ -1809,6 +1957,7 @@
       "document": {
         "description": {
           "description": "Return the end line.  Only defined on valid locations.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "locEndLine",
           "package": "scion",
@@ -1819,6 +1968,7 @@
         "index": {
           "description": "Return the end line Only defined on valid locations",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "locEndLine",
           "normalized": "Location-\u003eInt",
@@ -1834,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "locSource",
           "package": "scion",
@@ -1843,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "locSource",
           "normalized": "Location-\u003eLocSource",
@@ -1859,6 +2011,7 @@
       "document": {
         "description": {
           "description": "Return the start column.  Only defined on valid locations.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "locStartCol",
           "package": "scion",
@@ -1869,6 +2022,7 @@
         "index": {
           "description": "Return the start column Only defined on valid locations",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "locStartCol",
           "normalized": "Location-\u003eInt",
@@ -1885,6 +2039,7 @@
       "document": {
         "description": {
           "description": "Return the start line.  Only defined on valid locations.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "locStartLine",
           "package": "scion",
@@ -1895,6 +2050,7 @@
         "index": {
           "description": "Return the start line Only defined on valid locations",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "locStartLine",
           "normalized": "Location-\u003eInt",
@@ -1911,6 +2067,7 @@
       "document": {
         "description": {
           "description": "base directory (must be absolute)\nabsolute or relative \n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "mkAbsFilePath",
           "package": "scion",
@@ -1921,6 +2078,7 @@
         "index": {
           "description": "base directory must be absolute absolute or relative",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "mkAbsFilePath",
           "normalized": "FilePath-\u003eFilePath-\u003eAbsFilePath",
@@ -1937,6 +2095,7 @@
       "document": {
         "description": {
           "description": "start line\nstart column\nend line\nend column\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "mkLocation",
           "package": "scion",
@@ -1947,6 +2106,7 @@
         "index": {
           "description": "start line start column end line end column",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "mkLocation",
           "normalized": "LocSource-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eLocation",
@@ -1963,6 +2123,7 @@
       "document": {
         "description": {
           "description": "Construct a source location that does not specify a region.  The\n argument can be used to give some hint as to why there is no location\n available.  (E.g., \"File not found\").\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "mkNoLoc",
           "package": "scion",
@@ -1973,6 +2134,7 @@
         "index": {
           "description": "Construct source location that does not specify region The argument can be used to give some hint as to why there is no location available E.g File not found",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "mkNoLoc",
           "normalized": "String-\u003eLocation",
@@ -1988,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "noLocText",
           "package": "scion",
@@ -1997,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "noLocText",
           "normalized": "Location-\u003eString",
@@ -2013,6 +2177,7 @@
       "document": {
         "description": {
           "description": "source, start line, start column, end line, end column.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types.Notes",
           "name": "viewLoc",
           "package": "scion",
@@ -2023,6 +2188,7 @@
         "index": {
           "description": "source start line start column end line end column",
           "hierarchy": "Scion Types Notes",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types.Notes",
           "name": "viewLoc",
           "normalized": "Location-\u003e(LocSource,Int,Int,Int,Int)",
@@ -2038,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "BgTcCache",
           "package": "scion",
@@ -2046,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "BgTcCache",
           "package": "scion",
@@ -2059,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "CabalConfiguration",
           "package": "scion",
@@ -2067,6 +2236,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "CabalConfiguration",
           "package": "scion",
@@ -2080,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "CompilationResult",
           "package": "scion",
@@ -2088,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "CompilationResult",
           "package": "scion",
@@ -2101,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "Component",
           "package": "scion",
@@ -2109,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "Component",
           "package": "scion",
@@ -2122,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "DefSiteDB",
           "package": "scion",
@@ -2130,6 +2305,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "DefSiteDB",
           "package": "scion",
@@ -2143,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "FileComponentConfiguration",
           "package": "scion",
@@ -2151,6 +2328,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "FileComponentConfiguration",
           "package": "scion",
@@ -2164,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "ScionError",
           "package": "scion",
@@ -2172,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "ScionError",
           "package": "scion",
@@ -2185,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "ScionM",
           "package": "scion",
@@ -2193,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "ScionM",
           "package": "scion",
@@ -2206,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "ScionProjectConfig",
           "package": "scion",
@@ -2214,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "ScionProjectConfig",
           "package": "scion",
@@ -2227,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "SessionState",
           "package": "scion",
@@ -2235,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "SessionState",
           "package": "scion",
@@ -2248,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "SomeScionException",
           "package": "scion",
@@ -2256,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "SomeScionException",
           "package": "scion",
@@ -2269,6 +2457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "Verbosity",
           "package": "scion",
@@ -2277,6 +2466,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "Verbosity",
           "package": "scion",
@@ -2291,6 +2481,7 @@
       "document": {
         "description": {
           "description": "Shorthand for \u003ctt\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "__",
           "package": "scion",
@@ -2301,6 +2492,7 @@
         "index": {
           "description": "Shorthand for undefined",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "__",
           "package": "scion",
@@ -2313,6 +2505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "deafening",
           "package": "scion",
@@ -2322,6 +2515,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "deafening",
           "package": "scion",
@@ -2335,6 +2529,7 @@
       "document": {
         "description": {
           "description": "Return the list of defined names (the domain) of the \u003ctt\u003e\u003ca\u003eDefSiteDB\u003c/a\u003e\u003c/tt\u003e.\n The result is, in fact, ordered.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "definedNames",
           "package": "scion",
@@ -2345,6 +2540,7 @@
         "index": {
           "description": "Return the list of defined names the domain of the DefSiteDB The result is in fact ordered",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "definedNames",
           "normalized": "DefSiteDB-\u003e[String]",
@@ -2361,6 +2557,7 @@
       "document": {
         "description": {
           "description": "A fatal error.  Like \u003ctt\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/tt\u003e but suggests submitting a bug report.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "dieHard",
           "package": "scion",
@@ -2371,6 +2568,7 @@
         "index": {
           "description": "fatal error Like error but suggests submitting bug report",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "dieHard",
           "normalized": "String-\u003ea",
@@ -2387,6 +2585,7 @@
       "document": {
         "description": {
           "description": "The empty \u003ctt\u003e\u003ca\u003eDefSiteDB\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "emptyDefSiteDB",
           "package": "scion",
@@ -2397,6 +2596,7 @@
         "index": {
           "description": "The empty DefSiteDB",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "emptyDefSiteDB",
           "package": "scion",
@@ -2410,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "emptyScionProjectConfig",
           "package": "scion",
@@ -2419,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "emptyScionProjectConfig",
           "package": "scion",
@@ -2432,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "getSessionState",
           "package": "scion",
@@ -2441,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "getSessionState",
           "package": "scion",
@@ -2454,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "getVerbosity",
           "package": "scion",
@@ -2463,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "getVerbosity",
           "package": "scion",
@@ -2476,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "gets",
           "package": "scion",
@@ -2485,6 +2692,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "gets",
           "normalized": "(SessionState-\u003ea)-\u003eScionM a",
@@ -2499,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "intToVerbosity",
           "package": "scion",
@@ -2508,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "intToVerbosity",
           "normalized": "Int-\u003eVerbosity",
@@ -2523,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "liftScionM",
           "package": "scion",
@@ -2532,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "liftScionM",
           "normalized": "Ghc a-\u003eScionM a",
@@ -2548,6 +2760,7 @@
       "document": {
         "description": {
           "description": "Returns all the entities that the given name may refer to.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "lookupDefSite",
           "package": "scion",
@@ -2558,6 +2771,7 @@
         "index": {
           "description": "Returns all the entities that the given name may refer to",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "lookupDefSite",
           "normalized": "DefSiteDB-\u003eString-\u003e[(Location,TyThing)]",
@@ -2573,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "message",
           "package": "scion",
@@ -2582,6 +2797,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "message",
           "normalized": "Verbosity-\u003eString-\u003eScionM()",
@@ -2596,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "mkSessionState",
           "package": "scion",
@@ -2605,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "mkSessionState",
           "normalized": "DynFlags-\u003eIO(IORef SessionState)",
@@ -2620,6 +2838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "modifySessionState",
           "package": "scion",
@@ -2629,6 +2848,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "modifySessionState",
           "normalized": "(SessionState-\u003eSessionState)-\u003eScionM()",
@@ -2644,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "normal",
           "package": "scion",
@@ -2653,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "normal",
           "package": "scion",
@@ -2666,6 +2888,7 @@
       "document": {
         "description": {
           "description": "Reflect a computation in the \u003ctt\u003e\u003ca\u003eScionM\u003c/a\u003e\u003c/tt\u003e monad into the \u003ctt\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/tt\u003e monad.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "reflectScionM",
           "package": "scion",
@@ -2676,6 +2899,7 @@
         "index": {
           "description": "Reflect computation in the ScionM monad into the IO monad",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "reflectScionM",
           "normalized": "ScionM a-\u003e(IORef SessionState,Session)-\u003eIO a",
@@ -2692,6 +2916,7 @@
       "document": {
         "description": {
           "description": "Dual to \u003ctt\u003e\u003ca\u003ereflectScionM\u003c/a\u003e\u003c/tt\u003e.  See its documentation.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "reifyScionM",
           "package": "scion",
@@ -2702,6 +2927,7 @@
         "index": {
           "description": "Dual to reflectScionM See its documentation",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "reifyScionM",
           "normalized": "((IORef SessionState,Session)-\u003eIO a)-\u003eScionM a",
@@ -2717,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "scionError",
           "package": "scion",
@@ -2726,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "scionError",
           "normalized": "String-\u003eScionM a",
@@ -2741,6 +2969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "scionFromException",
           "package": "scion",
@@ -2750,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "scionFromException",
           "normalized": "SomeException-\u003eMaybe a",
@@ -2765,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "scionToException",
           "package": "scion",
@@ -2774,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "scionToException",
           "normalized": "a-\u003eSomeException",
@@ -2789,6 +3021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "setSessionState",
           "package": "scion",
@@ -2798,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "setSessionState",
           "normalized": "SessionState-\u003eScionM()",
@@ -2813,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "setVerbosity",
           "package": "scion",
@@ -2822,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "setVerbosity",
           "normalized": "Verbosity-\u003eScionM()",
@@ -2837,6 +3073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "silent",
           "package": "scion",
@@ -2846,6 +3083,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "silent",
           "package": "scion",
@@ -2859,6 +3097,7 @@
       "document": {
         "description": {
           "description": "Combine two \u003ctt\u003e\u003ca\u003eDefSiteDB\u003c/a\u003e\u003c/tt\u003es.   XXX: check for duplicates?\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "unionDefSiteDB",
           "package": "scion",
@@ -2869,6 +3108,7 @@
         "index": {
           "description": "Combine two DefSiteDB XXX check for duplicates",
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "unionDefSiteDB",
           "normalized": "DefSiteDB-\u003eDefSiteDB-\u003eDefSiteDB",
@@ -2884,6 +3124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "verbose",
           "package": "scion",
@@ -2893,6 +3134,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "verbose",
           "package": "scion",
@@ -2905,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Types",
           "name": "verbosityToInt",
           "package": "scion",
@@ -2914,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "Scion Types",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Types",
           "name": "verbosityToInt",
           "normalized": "Verbosity-\u003eInt",
@@ -2929,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "ScionDefaultCabalConfig",
           "package": "scion",
@@ -2937,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "ScionDefaultCabalConfig",
           "package": "scion",
@@ -2950,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "camelCaseMatch",
           "package": "scion",
@@ -2959,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "camelCaseMatch",
           "normalized": "String-\u003eString-\u003eBool",
@@ -2974,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "expectJust",
           "package": "scion",
@@ -2983,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "expectJust",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -2998,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "foldModSummaries",
           "package": "scion",
@@ -3007,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "foldModSummaries",
           "normalized": "(a-\u003eModSummary-\u003eb a)-\u003ea-\u003eb a",
@@ -3022,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "ifM",
           "package": "scion",
@@ -3031,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "ifM",
           "normalized": "a Bool-\u003ea b-\u003ea b-\u003ea b",
@@ -3045,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "lookupKey",
           "package": "scion",
@@ -3054,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "lookupKey",
           "normalized": "JSObject JSValue-\u003eString-\u003eResult a",
@@ -3069,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "makeObject",
           "package": "scion",
@@ -3078,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "makeObject",
           "normalized": "[(String,JSValue)]-\u003eJSValue",
@@ -3093,6 +3351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "modulesInDepOrder",
           "package": "scion",
@@ -3102,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "modulesInDepOrder",
           "normalized": "a[ModSummary]",
@@ -3117,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "parseScionProjectConfig",
           "package": "scion",
@@ -3126,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "parseScionProjectConfig",
           "normalized": "FilePath-\u003eScionM ScionProjectConfig",
@@ -3141,6 +3403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "projectConfigFileFromDir",
           "package": "scion",
@@ -3150,6 +3413,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "projectConfigFileFromDir",
           "normalized": "FilePath-\u003eFilePath",
@@ -3165,6 +3429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "projectConfigFromDir",
           "package": "scion",
@@ -3174,6 +3439,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "projectConfigFromDir",
           "normalized": "FilePath-\u003eScionM ScionProjectConfig",
@@ -3189,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "readFileComponentConfig",
           "package": "scion",
@@ -3198,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "readFileComponentConfig",
           "normalized": "JSValue-\u003eResult(String,[String])",
@@ -3213,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "second",
           "package": "scion",
@@ -3222,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "second",
           "normalized": "(a-\u003eb)-\u003e(c,a)-\u003e(c,b)",
@@ -3236,6 +3506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "thingsAroundPoint",
           "package": "scion",
@@ -3245,6 +3516,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "thingsAroundPoint",
           "normalized": "(Int,Int)-\u003e[Located a]-\u003e[Located a]",
@@ -3260,6 +3532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "unqualifiedForModule",
           "package": "scion",
@@ -3269,6 +3542,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "unqualifiedForModule",
           "normalized": "a-\u003eScionM PrintUnqualified",
@@ -3284,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion.Utils",
           "name": "writeSampleConfig",
           "package": "scion",
@@ -3293,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Scion Utils",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion.Utils",
           "name": "writeSampleConfig",
           "normalized": "FilePath-\u003eIO()",
@@ -3308,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion",
           "name": "ScionM",
           "package": "scion",
@@ -3316,6 +3593,7 @@
         },
         "index": {
           "hierarchy": "Scion",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion",
           "name": "ScionM",
           "package": "scion",
@@ -3330,6 +3608,7 @@
       "document": {
         "description": {
           "description": "Run the \u003ctt\u003e\u003ca\u003eScionM\u003c/a\u003e\u003c/tt\u003e monad.\n",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion",
           "name": "runScion",
           "package": "scion",
@@ -3340,6 +3619,7 @@
         "index": {
           "description": "Run the ScionM monad",
           "hierarchy": "Scion",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion",
           "name": "runScion",
           "normalized": "ScionM a-\u003eIO a",
@@ -3356,6 +3636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the session with the given static flags.\n\u003c/p\u003e\u003cp\u003eStatic flags cannot be changed during a session and can only be set once\n per \u003cem\u003eprocess\u003c/em\u003e.  That is, any session running in the same process\n (i.e. program) must not attempt to set the static flags again.\n\u003c/p\u003e\u003cp\u003eWhich flags are static flags depends on the version of GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:11 UTC 2014",
           "module": "Scion",
           "name": "runScion'",
           "package": "scion",
@@ -3366,6 +3647,7 @@
         "index": {
           "description": "Run the session with the given static flags Static flags cannot be changed during session and can only be set once per process That is any session running in the same process i.e program must not attempt to set the static flags again Which flags are static flags depends on the version of GHC",
           "hierarchy": "Scion",
+          "indexed": "2014-03-11T19:58:11",
           "module": "Scion",
           "name": "runScion'",
           "normalized": "[String]-\u003eScionM a-\u003eIO a",

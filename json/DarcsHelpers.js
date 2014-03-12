@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DarcsHelpers"
+        "phrase": "DarcsHelpers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatch",
           "package": "DarcsHelpers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatch",
           "package": "DarcsHelpers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchAuthor",
           "package": "DarcsHelpers",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchAuthor",
           "package": "DarcsHelpers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchContents",
           "package": "DarcsHelpers",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchContents",
           "package": "DarcsHelpers",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchDate",
           "package": "DarcsHelpers",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchDate",
           "package": "DarcsHelpers",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchHash",
           "package": "DarcsHelpers",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchHash",
           "package": "DarcsHelpers",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchInverted",
           "package": "DarcsHelpers",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchInverted",
           "package": "DarcsHelpers",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchLocalDate",
           "package": "DarcsHelpers",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3APatchLocalDate",
           "package": "DarcsHelpers",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3AprsPatch",
           "package": "DarcsHelpers",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3AprsPatch",
           "package": "DarcsHelpers",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:23 UTC 2014",
           "module": "Darcs.Helpers.Parse",
           "name": "3AxmlParseTidy",
           "package": "DarcsHelpers",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Darcs Helpers Parse",
+          "indexed": "2014-03-11T16:38:23",
           "module": "Darcs.Helpers.Parse",
           "name": "3AxmlParseTidy",
           "normalized": "[Char]-\u003eEither String(Document Posn)",

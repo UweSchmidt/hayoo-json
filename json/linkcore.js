@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linkcore"
+        "phrase": "linkcore",
+        "type": "phrase"
       },
       "type": "context"
     }

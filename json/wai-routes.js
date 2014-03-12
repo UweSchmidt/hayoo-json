@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-routes"
+        "phrase": "wai-routes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines the commonly used content types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "ContentTypes",
           "package": "wai-routes",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Defines the commonly used content types",
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "ContentTypes",
           "package": "wai-routes",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a content type header\n Ready to be passed to \u003ccode\u003eresponseLBS\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "contentType",
           "package": "wai-routes",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Creates content type header Ready to be passed to responseLBS",
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "contentType",
           "normalized": "ByteString-\u003e(HeaderName,ByteString)",
@@ -67,6 +71,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeAtom",
           "package": "wai-routes",
@@ -76,6 +81,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeAtom",
           "package": "wai-routes",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeCss",
           "package": "wai-routes",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeCss",
           "package": "wai-routes",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeFlv",
           "package": "wai-routes",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeFlv",
           "package": "wai-routes",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeGif",
           "package": "wai-routes",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeGif",
           "package": "wai-routes",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeHtml",
           "package": "wai-routes",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeHtml",
           "package": "wai-routes",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJavascript",
           "package": "wai-routes",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJavascript",
           "package": "wai-routes",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJpeg",
           "package": "wai-routes",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJpeg",
           "package": "wai-routes",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJson",
           "package": "wai-routes",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeJson",
           "package": "wai-routes",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeOctet",
           "package": "wai-routes",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeOctet",
           "package": "wai-routes",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeOgv",
           "package": "wai-routes",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeOgv",
           "package": "wai-routes",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typePlain",
           "package": "wai-routes",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typePlain",
           "package": "wai-routes",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typePng",
           "package": "wai-routes",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typePng",
           "package": "wai-routes",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeRss",
           "package": "wai-routes",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeRss",
           "package": "wai-routes",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeSvg",
           "package": "wai-routes",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeSvg",
           "package": "wai-routes",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeXml",
           "package": "wai-routes",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes ContentTypes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.ContentTypes",
           "name": "typeXml",
           "package": "wai-routes",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a HandlerM Monad that makes it easy to build Handlers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Handler",
           "name": "Handler",
           "package": "wai-routes",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Provides HandlerM Monad that makes it easy to build Handlers",
           "hierarchy": "Network Wai Middleware Routes Handler",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Handler",
           "name": "Handler",
           "package": "wai-routes",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HandlerM Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Handler",
           "name": "HandlerM",
           "package": "wai-routes",
@@ -430,6 +467,7 @@
         "index": {
           "description": "The HandlerM Monad",
           "hierarchy": "Network Wai Middleware Routes Handler",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Handler",
           "name": "HandlerM",
           "package": "wai-routes",
@@ -543,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a Routing Monad that provides easy composition of Routes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Monad",
           "name": "Monad",
           "package": "wai-routes",
@@ -552,6 +591,7 @@
         "index": {
           "description": "Defines Routing Monad that provides easy composition of Routes",
           "hierarchy": "Network Wai Middleware Routes Monad",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Monad",
           "name": "Monad",
           "package": "wai-routes",
@@ -566,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Route Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Monad",
           "name": "RouteM",
           "package": "wai-routes",
@@ -575,6 +616,7 @@
         "index": {
           "description": "The Route Monad",
           "hierarchy": "Network Wai Middleware Routes Monad",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Monad",
           "name": "RouteM",
           "package": "wai-routes",
@@ -695,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides typesafe URLs for Wai applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Routes",
           "package": "wai-routes",
@@ -704,6 +747,7 @@
         "index": {
           "description": "This package provides typesafe URLs for Wai applications",
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Routes",
           "package": "wai-routes",
@@ -718,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e generates an App from the master datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Handler",
           "package": "wai-routes",
@@ -727,6 +772,7 @@
         "index": {
           "description": "Handler generates an App from the master datatype",
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Handler",
           "package": "wai-routes",
@@ -740,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "ParseRoute",
           "package": "wai-routes",
@@ -747,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "ParseRoute",
           "package": "wai-routes",
@@ -760,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RenderRoute",
           "package": "wai-routes",
@@ -767,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RenderRoute",
           "package": "wai-routes",
@@ -780,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RequestData",
           "package": "wai-routes",
@@ -788,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RequestData",
           "package": "wai-routes",
@@ -802,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRoutable\u003c/a\u003e\u003c/code\u003e instance can be used in dispatching.\n   An appropriate instance for your site datatype is\n   automatically generated by \u003ccode\u003e\u003ca\u003emkRoute\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Routable",
           "package": "wai-routes",
@@ -811,6 +864,7 @@
         "index": {
           "description": "Routable instance can be used in dispatching An appropriate instance for your site datatype is automatically generated by mkRoute",
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "Routable",
           "package": "wai-routes",
@@ -824,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RouteAttrs",
           "package": "wai-routes",
@@ -831,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "RouteAttrs",
           "package": "wai-routes",
@@ -844,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "dispatcher",
           "package": "wai-routes",
@@ -853,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "dispatcher",
           "package": "wai-routes",
@@ -917,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "parseRoute",
           "package": "wai-routes",
@@ -925,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "parseRoute",
           "normalized": "([Text],[(Text,Text)])-\u003eMaybe(Route a)",
@@ -1063,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "renderRoute",
           "package": "wai-routes",
@@ -1071,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "renderRoute",
           "normalized": "Route a-\u003e([Text],[(Text,Text)])",
@@ -1086,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "routeAttrs",
           "package": "wai-routes",
@@ -1094,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes.Routes",
           "name": "routeAttrs",
           "normalized": "Route a-\u003eSet Text",
@@ -1216,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides typesafe URLs for Wai applications.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Routes",
           "package": "wai-routes",
@@ -1225,6 +1290,7 @@
         "index": {
           "description": "This package provides typesafe URLs for Wai applications",
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Routes",
           "package": "wai-routes",
@@ -1239,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eHandler\u003c/a\u003e\u003c/code\u003e generates an App from the master datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Handler",
           "package": "wai-routes",
@@ -1248,6 +1315,7 @@
         "index": {
           "description": "Handler generates an App from the master datatype",
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Handler",
           "package": "wai-routes",
@@ -1262,6 +1330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HandlerM Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "HandlerM",
           "package": "wai-routes",
@@ -1271,6 +1340,7 @@
         "index": {
           "description": "The HandlerM Monad",
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "HandlerM",
           "package": "wai-routes",
@@ -1284,6 +1354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "ParseRoute",
           "package": "wai-routes",
@@ -1291,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "ParseRoute",
           "package": "wai-routes",
@@ -1304,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RenderRoute",
           "package": "wai-routes",
@@ -1311,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RenderRoute",
           "package": "wai-routes",
@@ -1324,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RequestData",
           "package": "wai-routes",
@@ -1332,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RequestData",
           "package": "wai-routes",
@@ -1346,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRoutable\u003c/a\u003e\u003c/code\u003e instance can be used in dispatching.\n   An appropriate instance for your site datatype is\n   automatically generated by \u003ccode\u003e\u003ca\u003emkRoute\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Routable",
           "package": "wai-routes",
@@ -1355,6 +1432,7 @@
         "index": {
           "description": "Routable instance can be used in dispatching An appropriate instance for your site datatype is automatically generated by mkRoute",
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "Routable",
           "package": "wai-routes",
@@ -1368,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RouteAttrs",
           "package": "wai-routes",
@@ -1375,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RouteAttrs",
           "package": "wai-routes",
@@ -1389,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Route Monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RouteM",
           "package": "wai-routes",
@@ -1398,6 +1479,7 @@
         "index": {
           "description": "The Route Monad",
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "RouteM",
           "package": "wai-routes",
@@ -1411,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "dispatcher",
           "package": "wai-routes",
@@ -1420,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "dispatcher",
           "package": "wai-routes",
@@ -1432,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "parseRoute",
           "package": "wai-routes",
@@ -1440,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "parseRoute",
           "normalized": "([Text],[(Text,Text)])-\u003eMaybe(Route a)",
@@ -1455,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "renderRoute",
           "package": "wai-routes",
@@ -1463,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "renderRoute",
           "normalized": "Route a-\u003e([Text],[(Text,Text)])",
@@ -1478,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:36:49 UTC 2014",
           "module": "Network.Wai.Middleware.Routes",
           "name": "routeAttrs",
           "package": "wai-routes",
@@ -1486,6 +1575,7 @@
         },
         "index": {
           "hierarchy": "Network Wai Middleware Routes",
+          "indexed": "2014-03-11T20:36:49",
           "module": "Network.Wai.Middleware.Routes",
           "name": "routeAttrs",
           "normalized": "Route a-\u003eSet Text",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diophantine"
+        "phrase": "diophantine",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWARNING: The internal workings of solve. These functions use error, and\n should only be called directly if you know the type of the equation ahead of\n time. For example, solveLinear will try to resolve a GeneralEquation into a\n linear one if possible, but if you pass a GeneralEquation of a parabolic\n form, then it will error.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "Internal",
           "package": "diophantine",
@@ -28,6 +29,7 @@
         "index": {
           "description": "WARNING The internal workings of solve These functions use error and should only be called directly if you know the type of the equation ahead of time For example solveLinear will try to resolve GeneralEquation into linear one if possible but if you pass GeneralEquation of parabolic form then it will error",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "Internal",
           "package": "diophantine",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to setup an equation in the form of:\n\u003c/p\u003e\u003cpre\u003e ax^2 + bxy + cy^2 + dx + ey + f = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "Equation",
           "package": "diophantine",
@@ -51,6 +54,7 @@
         "index": {
           "description": "way to setup an equation in the form of ax bxy cy dx ey",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "Equation",
           "package": "diophantine",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe results of attempting to solve an \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "Solution",
           "package": "diophantine",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The results of attempting to solve an Equation",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "Solution",
           "package": "diophantine",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, used to shorten type signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "Z",
           "package": "diophantine",
@@ -97,6 +104,7 @@
         "index": {
           "description": "An alias for Integer used to shorten type signatures",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "Z",
           "package": "diophantine",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEliptical equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "ElipticalEquation",
           "package": "diophantine",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Eliptical equations",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "ElipticalEquation",
           "package": "diophantine",
@@ -159,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHyperbolic equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "HyperbolicEquation",
           "package": "diophantine",
@@ -169,6 +180,7 @@
         "index": {
           "description": "Hyperbolic equations",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "HyperbolicEquation",
           "package": "diophantine",
@@ -183,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edx + ey + f = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "LinearEquation",
           "package": "diophantine",
@@ -193,6 +206,7 @@
         "index": {
           "description": "dx ey",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "LinearEquation",
           "package": "diophantine",
@@ -232,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParabolic equations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "ParabolicEquation",
           "package": "diophantine",
@@ -242,6 +257,7 @@
         "index": {
           "description": "Parabolic equations",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "ParabolicEquation",
           "package": "diophantine",
@@ -256,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebxy + dx +ey + f = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "SimpleHyperbolicEquation",
           "package": "diophantine",
@@ -266,6 +283,7 @@
         "index": {
           "description": "bxy dx ey",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "SimpleHyperbolicEquation",
           "package": "diophantine",
@@ -359,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves for \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003es in the form of ax^2 + bxy + cy^2 + dx + ey + f = 0\n when b^2 - 4ac \u003c 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "solveEliptical",
           "package": "diophantine",
@@ -369,6 +388,7 @@
         "index": {
           "description": "Solves for Equation in the form of ax bxy cy dx ey when ac",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "solveEliptical",
           "normalized": "Equation-\u003eSolution",
@@ -385,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves for \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003es in the form of dx + ey + f = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "solveLinear",
           "package": "diophantine",
@@ -395,6 +416,7 @@
         "index": {
           "description": "Solves for Equation in the form of dx ey",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "solveLinear",
           "normalized": "Equation-\u003eSolution",
@@ -411,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves for \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003es in the form of ax^2 + bxy + cy^2  + dx + ey + f = 0\n when b^2 - 4ac = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "solveParabolic",
           "package": "diophantine",
@@ -421,6 +444,7 @@
         "index": {
           "description": "Solves for Equation in the form of ax bxy cy dx ey when ac",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "solveParabolic",
           "normalized": "Equation-\u003eSolution",
@@ -437,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves for \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003es in the form of bxy + dx + ey + f = 0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine.Internal",
           "name": "solveSimpleHyperbolic",
           "package": "diophantine",
@@ -447,6 +472,7 @@
         "index": {
           "description": "Solves for Equation in the form of bxy dx ey",
           "hierarchy": "Math Diophantine Internal",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine.Internal",
           "name": "solveSimpleHyperbolic",
           "normalized": "Equation-\u003eSolution",
@@ -490,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA module for solving quadratic diophantine equations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "Diophantine",
           "package": "diophantine",
@@ -499,6 +526,7 @@
         "index": {
           "description": "module for solving quadratic diophantine equations",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "Diophantine",
           "package": "diophantine",
@@ -513,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to setup an equation in the form of:\n\u003c/p\u003e\u003cpre\u003e ax^2 + bxy + cy^2 + dx + ey + f = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "Equation",
           "package": "diophantine",
@@ -522,6 +551,7 @@
         "index": {
           "description": "way to setup an equation in the form of ax bxy cy dx ey",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "Equation",
           "package": "diophantine",
@@ -536,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe results of attempting to solve an \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "Solution",
           "package": "diophantine",
@@ -545,6 +576,7 @@
         "index": {
           "description": "The results of attempting to solve an Equation",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "Solution",
           "package": "diophantine",
@@ -559,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA way to report an error in solving.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "SolveError",
           "package": "diophantine",
@@ -568,6 +601,7 @@
         "index": {
           "description": "way to report an error in solving",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "SolveError",
           "package": "diophantine",
@@ -582,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alias for \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e, used to shorten type signatures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "Z",
           "package": "diophantine",
@@ -591,6 +626,7 @@
         "index": {
           "description": "An alias for Integer used to shorten type signatures",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "Z",
           "package": "diophantine",
@@ -604,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe error when you try to solve a\n hyperbolic equation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "HyperbolicError",
           "package": "diophantine",
@@ -614,6 +651,7 @@
         "index": {
           "description": "The error when you try to solve hyperbolic equation",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "HyperbolicError",
           "package": "diophantine",
@@ -628,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a read error when reading\n the equation from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "SolveError",
           "package": "diophantine",
@@ -638,6 +677,7 @@
         "index": {
           "description": "Represents read error when reading the equation from string",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "SolveError",
           "package": "diophantine",
@@ -652,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads an \u003ccode\u003e\u003ca\u003eEquation\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e. Equations must be set equal to 0.\n Order of the terms does not matter expect for constant term, and \u003ca\u003e = 0\u003c/a\u003e,\n which should come last if given. Returns 'Either ReadError Equation'\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereadEquation \"-5y + 2x - 3xy + 2\"\n\u003c/code\u003e\u003c/strong\u003e-3xy + 2x + -5y + 2 = 0\n\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ereadEquation  \"2xy + x + 1 = 0\"\n\u003c/code\u003e\u003c/strong\u003e2xy + x + 1 = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "readEquation",
           "package": "diophantine",
@@ -662,6 +703,7 @@
         "index": {
           "description": "Reads an Equation as String Equations must be set equal to Order of the terms does not matter expect for constant term and which should come last if given Returns Either ReadError Equation readEquation xy xy readEquation xy xy",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "readEquation",
           "normalized": "String-\u003eEither ReadError Equation",
@@ -678,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermines what type of equation to solve for, and then calls the\n appropriate solve function. Example:\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003esolve (GeneralEquation 1 2 3 3 5 0)\n\u003c/code\u003e\u003c/strong\u003e[(-3,0),(-2,-1),(0,0),(1,-1)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "solve",
           "package": "diophantine",
@@ -688,6 +731,7 @@
         "index": {
           "description": "Determines what type of equation to solve for and then calls the appropriate solve function Example solve GeneralEquation",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "solve",
           "normalized": "Equation-\u003eEither SolveError Solution",
@@ -703,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the list of solution pairs from a \u003ccode\u003e\u003ca\u003eSolution\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:55:57 UTC 2014",
           "module": "Math.Diophantine",
           "name": "toMaybeList",
           "package": "diophantine",
@@ -713,6 +758,7 @@
         "index": {
           "description": "Extracts the list of solution pairs from Solution",
           "hierarchy": "Math Diophantine",
+          "indexed": "2014-03-11T17:55:57",
           "module": "Math.Diophantine",
           "name": "toMaybeList",
           "normalized": "Solution-\u003eMaybe[(Z,Z)]",

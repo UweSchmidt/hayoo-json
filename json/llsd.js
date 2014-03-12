@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "llsd"
+        "phrase": "llsd",
+        "type": "phrase"
       },
       "type": "context"
     }

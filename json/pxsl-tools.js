@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pxsl-tools"
+        "phrase": "pxsl-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bf-cata"
+        "phrase": "bf-cata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome combinators to express breadth-first evaluation of catamorphisms,\n which allows you to stepwise evaluate the results of children. If,\n during the evaluation of an alternative, a choice needs to be made between taking\n the results of its children, with these combinators, you can stepwise\n evaluate the children in parallel, until a choice can be made.\n Until a choice is made, evaluation proceeds strictly; after a choice\n is made, evaluation proceeds lazily.\n What constitutes to be a step is determined by the callee.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Cata",
           "package": "bf-cata",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Some combinators to express breadth-first evaluation of catamorphisms which allows you to stepwise evaluate the results of children If during the evaluation of an alternative choice needs to be made between taking the results of its children with these combinators you can stepwise evaluate the children in parallel until choice can be made Until choice is made evaluation proceeds strictly after choice is made evaluation proceeds lazily What constitutes to be step is determined by the callee",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Cata",
           "package": "bf-cata",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemantics of a child of type \u003ccode\u003en\u003c/code\u003e as a function from inherited\n attributes (\u003ccode\u003eInh n\u003c/code\u003e) to a computation \u003ccode\u003eComp i n\u003c/code\u003e of synthesized attributes (\u003ccode\u003eSyn n\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Child",
           "package": "bf-cata",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Semantics of child of type as function from inherited attributes Inh to computation Comp of synthesized attributes Syn",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Child",
           "package": "bf-cata",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation of synthesized attributes of nonterminal of type \u003ccode\u003en\u003c/code\u003e.\n It is a trace of \u003ccode\u003eInfo\u003c/code\u003e-effects, that keeps track of the intermediate\n states of the tree (using \u003ccode\u003ePending\u003c/code\u003e), ending ultimately in the\n synthesized values (using \u003ccode\u003eFinal\u003c/code\u003e).\n Operationally, we lift \u003ccode\u003eInfo\u003c/code\u003e-values over \u003ccode\u003ePending\u003c/code\u003e-values, thereby\n gradually rewriting the latter, until it results in a \u003ccode\u003eFinal\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Comp",
           "package": "bf-cata",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Computation of synthesized attributes of nonterminal of type It is trace of Info effects that keeps track of the intermediate states of the tree using Pending ending ultimately in the synthesized values using Final Operationally we lift Info values over Pending values thereby gradually rewriting the latter until it results in Final",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Comp",
           "package": "bf-cata",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Inh",
           "package": "bf-cata",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Inh",
           "package": "bf-cata",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInjection of steps as conventional call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Inject",
           "package": "bf-cata",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Injection of steps as conventional call",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Inject",
           "package": "bf-cata",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of one step evaluation: either the final result\n or an updated computation. What constitutes to a step\n depends on the application: evaluation proceeds until\n an outcome can be given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Outcome",
           "package": "bf-cata",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Result of one step evaluation either the final result or an updated computation What constitutes to step depends on the application evaluation proceeds until an outcome can be given",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Outcome",
           "package": "bf-cata",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Syn",
           "package": "bf-cata",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Syn",
           "package": "bf-cata",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Child",
           "package": "bf-cata",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Child",
           "normalized": "Child(Inh a-\u003eComp b a)",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Fin",
           "package": "bf-cata",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Fin",
           "package": "bf-cata",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Step",
           "package": "bf-cata",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "Step",
           "package": "bf-cata",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "final",
           "package": "bf-cata",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Wrapper for final result",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "final",
           "normalized": "Syn a-\u003eComp b a",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper for an effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "info",
           "package": "bf-cata",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Wrapper for an effect",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "info",
           "normalized": "a-\u003eComp a b-\u003eComp a b",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "inject",
           "package": "bf-cata",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "inject",
           "normalized": "a-\u003eComp a Inject",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwraps a \u003ccode\u003eChild\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "invoke",
           "package": "bf-cata",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Unwraps Child",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "invoke",
           "normalized": "Child a b-\u003eInh b-\u003eComp a b",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLazy evaluation of a computation.\n Note: we cannot inspect the effect-trace, as it would sequentialize\n the evaluation of children.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "lazyEval",
           "package": "bf-cata",
@@ -352,6 +381,7 @@
         "index": {
           "description": "Lazy evaluation of computation Note we cannot inspect the effect-trace as it would sequentialize the evaluation of children",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "lazyEval",
           "normalized": "Comp a b-\u003eSyn b",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne step strict evaluation. Reduction proceeds until\n the computation is either finished or yields an \u003ccode\u003eInfo\u003c/code\u003e-effect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "oneStep",
           "package": "bf-cata",
@@ -378,6 +409,7 @@
         "index": {
           "description": "One step strict evaluation Reduction proceeds until the computation is either finished or yields an Info effect",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "oneStep",
           "normalized": "Comp a b-\u003eOutcome a b",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a |Pending| computation that waits for the given computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "resume",
           "package": "bf-cata",
@@ -404,6 +437,7 @@
         "index": {
           "description": "Create Pending computation that waits for the given computation",
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "resume",
           "normalized": "Comp a b-\u003e(Syn b-\u003eComp a c)-\u003eComp a c",
@@ -418,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:18:02 UTC 2014",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "sem_Inject",
           "package": "bf-cata",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data BreadthFirstCata Cata",
+          "indexed": "2014-03-11T17:18:02",
           "module": "Data.BreadthFirstCata.Cata",
           "name": "sem_Inject",
           "package": "bf-cata",

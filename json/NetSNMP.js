@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NetSNMP"
+        "phrase": "NetSNMP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a binding to Net-SNMP version 5, \u003ca\u003ehttp://www.net-snmp.org/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "NetSNMP",
           "package": "NetSNMP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is binding to Net-SNMP version http www.net-snmp.org",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "NetSNMP",
           "package": "NetSNMP",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped representation of atomic ASN.1 data types.  Some types are\n     returned in more than one format for different uses.  Some\n     include a descriptive string built by the underlying C library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "ASNValue",
           "package": "NetSNMP",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Typed representation of atomic ASN.1 data types Some types are returned in more than one format for different uses Some include descriptive string built by the underlying library",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "ASNValue",
           "package": "NetSNMP",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Community",
           "package": "NetSNMP",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Community",
           "package": "NetSNMP",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Hostname",
           "package": "NetSNMP",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Hostname",
           "package": "NetSNMP",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe net-snmp C library on 64-bit OS X systems still uses 32-bit oid parts in\n    the responses. Please make sure that the library produces sane\n    results on your system by cloning the source code and running `make test`.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "OIDpart",
           "package": "NetSNMP",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The net-snmp library on bit OS systems still uses bit oid parts in the responses Please make sure that the library produces sane results on your system by cloning the source code and running make test",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "OIDpart",
           "package": "NetSNMP",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "RawOID",
           "package": "NetSNMP",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "RawOID",
           "package": "NetSNMP",
@@ -151,6 +163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn SNMP value together with its OID.  Returned by the query\n     routines \u003ccode\u003e\u003ca\u003esnmpGet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esnmpNext\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003esnmpWalk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpResult",
           "package": "NetSNMP",
@@ -160,6 +173,7 @@
         "index": {
           "description": "An SNMP value together with its OID Returned by the query routines snmpGet snmpNext and snmpWalk",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpResult",
           "package": "NetSNMP",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSNMP Protocol version.  It is recommended to use the constants\n \u003ccode\u003e\u003ca\u003esnmp_version_1\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003esnmp_version_2c\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003esnmp_version_3\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpVersion",
           "package": "NetSNMP",
@@ -183,6 +198,7 @@
         "index": {
           "description": "SNMP Protocol version It is recommended to use the constants snmp version snmp version and snmp version",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpVersion",
           "package": "NetSNMP",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_BOOLEAN\u003c/code\u003e Unimplemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Boolean",
           "package": "NetSNMP",
@@ -207,6 +224,7 @@
         "index": {
           "description": "ASN BOOLEAN Unimplemented",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Boolean",
           "package": "NetSNMP",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_COUNTER\u003c/code\u003e 32bit nondecreasing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Counter32",
           "package": "NetSNMP",
@@ -231,6 +250,7 @@
         "index": {
           "description": "ASN COUNTER bit nondecreasing",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Counter32",
           "package": "NetSNMP",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_COUNTER64\u003c/code\u003e 64bit nondecreasing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Counter64",
           "package": "NetSNMP",
@@ -255,6 +276,7 @@
         "index": {
           "description": "ASN COUNTER64 bit nondecreasing",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Counter64",
           "package": "NetSNMP",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_GAUGE\u003c/code\u003e 32bit signed with min and max\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Gauge32",
           "package": "NetSNMP",
@@ -279,6 +302,7 @@
         "index": {
           "description": "ASN GAUGE bit signed with min and max",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Gauge32",
           "package": "NetSNMP",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_DOUBLE\u003c/code\u003e IEEE double. Unimplemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "IEEEDouble",
           "package": "NetSNMP",
@@ -303,6 +328,7 @@
         "index": {
           "description": "ASN DOUBLE IEEE double Unimplemented",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "IEEEDouble",
           "package": "NetSNMP",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_FLOAT\u003c/code\u003e IEEE float. Unimplemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "IEEEFloat",
           "package": "NetSNMP",
@@ -327,6 +354,7 @@
         "index": {
           "description": "ASN FLOAT IEEE float Unimplemented",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "IEEEFloat",
           "package": "NetSNMP",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_INTEGER\u003c/code\u003e  32bit signed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Integer32",
           "package": "NetSNMP",
@@ -351,6 +380,7 @@
         "index": {
           "description": "ASN INTEGER bit signed",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Integer32",
           "package": "NetSNMP",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_INTEGER64\u003c/code\u003e  64bit signed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Integer64",
           "package": "NetSNMP",
@@ -375,6 +406,7 @@
         "index": {
           "description": "ASN INTEGER64 bit signed",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Integer64",
           "package": "NetSNMP",
@@ -389,6 +421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_IPADDRESS\u003c/code\u003e IP address in string\n     and numeric form. Example:\n     (IpAddress \"1.2.3.4\" [1,2,3,4])\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "IpAddress",
           "package": "NetSNMP",
@@ -399,6 +432,7 @@
         "index": {
           "description": "ASN IPADDRESS IP address in string and numeric form Example IpAddress",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "IpAddress",
           "normalized": "IpAddress ByteString[Word]",
@@ -415,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_NULL\u003c/code\u003e Null value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Null",
           "package": "NetSNMP",
@@ -425,6 +460,7 @@
         "index": {
           "description": "ASN NULL Null value",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Null",
           "package": "NetSNMP",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_OBJECT_ID\u003c/code\u003e Returned as the C library's\n     description, a dotted-decimal string, and\n     a numeric list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "OID",
           "package": "NetSNMP",
@@ -449,6 +486,7 @@
         "index": {
           "description": "ASN OBJECT ID Returned as the library description dotted-decimal string and numeric list",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "OID",
           "normalized": "OID ByteString ByteString[Word]",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_OCTET_STR\u003c/code\u003e Returned as a character\n     string, and as opaque data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "OctetString",
           "package": "NetSNMP",
@@ -475,6 +514,7 @@
         "index": {
           "description": "ASN OCTET STR Returned as character string and as opaque data",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "OctetString",
           "normalized": "OctetString ByteString[Word]",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_OPAQUE\u003c/code\u003e (Deprecated) application\n     specific data.  Use OctetString instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Opaque",
           "package": "NetSNMP",
@@ -501,6 +542,7 @@
         "index": {
           "description": "ASN OPAQUE Deprecated application specific data Use OctetString instead",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Opaque",
           "normalized": "Opaque[Word]",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpResult",
           "package": "NetSNMP",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpResult",
           "package": "NetSNMP",
@@ -538,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpVersion",
           "package": "NetSNMP",
@@ -547,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "SnmpVersion",
           "package": "NetSNMP",
@@ -561,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_TIMETICKS\u003c/code\u003e Time interval in 1/100 sec\n     ticks.  The C library's description is\n     returned along with the raw value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "TimeTicks",
           "package": "NetSNMP",
@@ -571,6 +618,7 @@
         "index": {
           "description": "ASN TIMETICKS Time interval in sec ticks The library description is returned along with the raw value",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "TimeTicks",
           "package": "NetSNMP",
@@ -585,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_UNSIGNED\u003c/code\u003e 32bit unsigned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsigned32",
           "package": "NetSNMP",
@@ -595,6 +644,7 @@
         "index": {
           "description": "ASN UNSIGNED bit unsigned",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsigned32",
           "package": "NetSNMP",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eASN_UNSIGNED64\u003c/code\u003e 64bit unsigned\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsigned64",
           "package": "NetSNMP",
@@ -619,6 +670,7 @@
         "index": {
           "description": "ASN UNSIGNED64 bit unsigned",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsigned64",
           "package": "NetSNMP",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnsupported type from an agent.  Returns\n     the numeric type and the C library's\n     description of the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsupported",
           "package": "NetSNMP",
@@ -643,6 +696,7 @@
         "index": {
           "description": "Unsupported type from an agent Returns the numeric type and the library description of the value",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "Unsupported",
           "package": "NetSNMP",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize the Net-SNMP library.  This must be called before any\n other NetSNMP functions, and before starting extra threads, as the\n mib compiler is not thread-safe.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "initialize",
           "package": "NetSNMP",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Initialize the Net-SNMP library This must be called before any other NetSNMP functions and before starting extra threads as the mib compiler is not thread-safe",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "initialize",
           "normalized": "IO()",
@@ -682,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDotted-decimal ObjectId of the value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "oid",
           "package": "NetSNMP",
@@ -692,6 +749,7 @@
         "index": {
           "description": "Dotted-decimal ObjectId of the value",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "oid",
           "package": "NetSNMP",
@@ -705,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow ASNValue contents in a simple string, losing type differentiation.\n     Callers should not rely on the format of the message returned,\n     and this function may disappear in a future version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "showASNValue",
           "package": "NetSNMP",
@@ -715,6 +774,7 @@
         "index": {
           "description": "Show ASNValue contents in simple string losing type differentiation Callers should not rely on the format of the message returned and this function may disappear in future version",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "showASNValue",
           "normalized": "ASNValue-\u003eString",
@@ -731,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as snmpWalk but implemented with bulk requests\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e snmpBulkWalk \"localhost\" \"public\" [1,3,6,1,2,1,1]\n\u003c/li\u003e\u003cli\u003e snmpBulkWalk \"tcp:localhost:5161\" \"mypassword\" [1,3,6,1,2,1,1]\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpBulkWalk",
           "package": "NetSNMP",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Same as snmpWalk but implemented with bulk requests Examples snmpBulkWalk localhost public snmpBulkWalk tcp localhost mypassword",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpBulkWalk",
           "normalized": "Hostname-\u003eCommunity-\u003eRawOID-\u003eIO(Either String[SnmpResult])",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple community-authenticated SNMP get.  Returns the object\n     queried, or a descriptive error message.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e snmpGet \"localhost\" \"public\" [1,3,6,1,2,1,1,1,0]\n\u003c/li\u003e\u003cli\u003e snmpGet \"tcp:localhost:5161\" \"mypassword\" [1,3,6,1,2,1,1,1,0]\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpGet",
           "package": "NetSNMP",
@@ -765,6 +828,7 @@
         "index": {
           "description": "Simple community-authenticated SNMP get Returns the object queried or descriptive error message Examples snmpGet localhost public snmpGet tcp localhost mypassword",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpGet",
           "normalized": "SnmpVersion-\u003eHostname-\u003eCommunity-\u003eRawOID-\u003eIO(Either String SnmpResult)",
@@ -781,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple community-authenticated SNMP getnext.  Returns the first object\n     after the OID queried, or a descriptive error message.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e snmpNext \"localhost\" \"public\" [1,3,6,1,2,1,1,1,0]\n\u003c/li\u003e\u003cli\u003e snmpNext \"tcp:localhost:5161\" \"mypassword\" [1,3,6,1,2,1,1,1,0]\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpNext",
           "package": "NetSNMP",
@@ -790,6 +855,7 @@
         "index": {
           "description": "Simple community-authenticated SNMP getnext Returns the first object after the OID queried or descriptive error message Examples snmpNext localhost public snmpNext tcp localhost mypassword",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpNext",
           "normalized": "SnmpVersion-\u003eHostname-\u003eCommunity-\u003eRawOID-\u003eIO(Either String SnmpResult)",
@@ -806,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple community-authenticated SNMP walk.  Returns a list of objects,\n     starting with the object after the OID queried, and continuing\n     through all objects underneath that OID in the mib tree.\n     On failure, returns a descriptive error message.\n\u003c/p\u003e\u003cp\u003eThis implementation uses a series of next operations and is not very\n ressource friendly. Consider using snmpBulkWalk for better performance\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e snmpWalk snmp_version_2c \"localhost\" \"public\" [1,3,6,1,2,1,1]\n\u003c/li\u003e\u003cli\u003e snmpWalk snmp_version_2c \"tcp:localhost:5161\" \"mypassword\" [1,3,6,1,2,1,1]\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpWalk",
           "package": "NetSNMP",
@@ -815,6 +882,7 @@
         "index": {
           "description": "Simple community-authenticated SNMP walk Returns list of objects starting with the object after the OID queried and continuing through all objects underneath that OID in the mib tree On failure returns descriptive error message This implementation uses series of next operations and is not very ressource friendly Consider using snmpBulkWalk for better performance Examples snmpWalk snmp version localhost public snmpWalk snmp version tcp localhost mypassword",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmpWalk",
           "normalized": "SnmpVersion-\u003eHostname-\u003eCommunity-\u003eRawOID-\u003eIO(Either String[SnmpResult])",
@@ -831,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSNMPv1. The first SNMP standard, using cleartext passwords\n     (\"communities\")\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_1",
           "package": "NetSNMP",
@@ -841,6 +910,7 @@
         "index": {
           "description": "SNMPv1 The first SNMP standard using cleartext passwords communities",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_1",
           "package": "NetSNMP",
@@ -854,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSNMPv2c. Updated SMI and wire protocol, but still uses communities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_2c",
           "package": "NetSNMP",
@@ -864,6 +935,7 @@
         "index": {
           "description": "SNMPv2c Updated SMI and wire protocol but still uses communities",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_2c",
           "package": "NetSNMP",
@@ -877,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSNMPv3. Same SMI and protocol as SNMPv2c; stronger authentication.\n     Unimplemented.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_3",
           "package": "NetSNMP",
@@ -887,6 +960,7 @@
         "index": {
           "description": "SNMPv3 Same SMI and protocol as SNMPv2c stronger authentication Unimplemented",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "snmp_version_3",
           "package": "NetSNMP",
@@ -900,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric version.  Generally unneeded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "unSnmpVersion",
           "package": "NetSNMP",
@@ -910,6 +985,7 @@
         "index": {
           "description": "Numeric version Generally unneeded",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "unSnmpVersion",
           "package": "NetSNMP",
@@ -924,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTyped representation of the value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:03 UTC 2014",
           "module": "Network.Protocol.NetSNMP",
           "name": "value",
           "package": "NetSNMP",
@@ -934,6 +1011,7 @@
         "index": {
           "description": "Typed representation of the value",
           "hierarchy": "Network Protocol NetSNMP",
+          "indexed": "2014-03-11T16:54:03",
           "module": "Network.Protocol.NetSNMP",
           "name": "value",
           "package": "NetSNMP",

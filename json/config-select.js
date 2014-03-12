@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "config-select"
+        "phrase": "config-select",
+        "type": "phrase"
       },
       "type": "context"
     }

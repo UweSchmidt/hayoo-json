@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libgit"
+        "phrase": "libgit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Index",
           "name": "Index",
           "package": "libgit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Index",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Index",
           "name": "Index",
           "package": "libgit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Index",
           "name": "indexCheckout",
           "package": "libgit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Index",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Index",
           "name": "indexCheckout",
           "normalized": "[FilePath]-\u003eBool-\u003eGitCtx()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Index",
           "name": "indexCheckoutAll",
           "package": "libgit",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Index",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Index",
           "name": "indexCheckoutAll",
           "normalized": "Bool-\u003eGitCtx()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Index",
           "name": "indexList",
           "package": "libgit",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Index",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Index",
           "name": "indexList",
           "package": "libgit",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate index with the list of file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Index",
           "name": "indexUpdate",
           "package": "libgit",
@@ -120,6 +129,7 @@
         "index": {
           "description": "update index with the list of file",
           "hierarchy": "Lib Git Index",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Index",
           "name": "indexUpdate",
           "normalized": "[FilePath]-\u003eGitCtx()",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "Lowlevel",
           "package": "libgit",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "Lowlevel",
           "package": "libgit",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecat a blob objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "catBlob",
           "package": "libgit",
@@ -167,6 +180,7 @@
         "index": {
           "description": "cat blob objects",
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "catBlob",
           "normalized": "BlobID-\u003eGitCtx String",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "catCommit",
           "package": "libgit",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "catCommit",
           "normalized": "CommitID-\u003eGitCtx Commitent",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecat a tag objects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "catTag",
           "package": "libgit",
@@ -217,6 +234,7 @@
         "index": {
           "description": "cat tag objects",
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "catTag",
           "normalized": "TagID-\u003eGitCtx String",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "catTree",
           "package": "libgit",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "catTree",
           "normalized": "TreeID-\u003eGitCtx Treeent",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a commit list in reverse chronological order l \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "revlist",
           "package": "libgit",
@@ -267,6 +288,7 @@
         "index": {
           "description": "return commit list in reverse chronological order",
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "revlist",
           "normalized": "Maybe Int-\u003eMaybe CommitID-\u003e[FilePath]-\u003eGitCtx[CommitID]",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a tag\u003cem\u003ebranch-name\u003c/em\u003ecommit into a commit if it exists \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Lowlevel",
           "name": "revparse",
           "package": "libgit",
@@ -292,6 +315,7 @@
         "index": {
           "description": "parse tag branch-name commit into commit if it exists",
           "hierarchy": "Lib Git Lowlevel",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Lowlevel",
           "name": "revparse",
           "normalized": "String-\u003eGitCtx(Maybe CommitID)",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Tree",
           "name": "Tree",
           "package": "libgit",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Tree",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Tree",
           "name": "Tree",
           "package": "libgit",
@@ -327,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Tree",
           "name": "Perms",
           "package": "libgit",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Tree",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Tree",
           "name": "Perms",
           "package": "libgit",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Tree",
           "name": "Treeent",
           "package": "libgit",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Tree",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Tree",
           "name": "Treeent",
           "package": "libgit",
@@ -369,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Tree",
           "name": "permsOfString",
           "package": "libgit",
@@ -378,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Tree",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Tree",
           "name": "permsOfString",
           "normalized": "String-\u003ePerms",
@@ -394,6 +426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn a tree entity from a commitid\n if commitid is ommitted, it uses HEAD.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Tree",
           "name": "treeList",
           "package": "libgit",
@@ -404,6 +437,7 @@
         "index": {
           "description": "return tree entity from commitid if commitid is ommitted it uses HEAD",
           "hierarchy": "Lib Git Tree",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Tree",
           "name": "treeList",
           "normalized": "Maybe CommitID-\u003eGitCtx Treeent",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Type",
           "package": "libgit",
@@ -427,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Type",
           "package": "libgit",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea blob ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "BlobID",
           "package": "libgit",
@@ -450,6 +487,7 @@
         "index": {
           "description": "blob ID",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "BlobID",
           "package": "libgit",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea commit ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "CommitID",
           "package": "libgit",
@@ -473,6 +512,7 @@
         "index": {
           "description": "commit ID",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "CommitID",
           "package": "libgit",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit entity representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Commitent",
           "package": "libgit",
@@ -496,6 +537,7 @@
         "index": {
           "description": "Commit entity representation",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Commitent",
           "package": "libgit",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent a repository \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Config",
           "package": "libgit",
@@ -519,6 +562,7 @@
         "index": {
           "description": "Represent repository",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Config",
           "package": "libgit",
@@ -532,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "GitCtx",
           "package": "libgit",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "GitCtx",
           "package": "libgit",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "GitFailure",
           "package": "libgit",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "GitFailure",
           "package": "libgit",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eany ID (git SHA1 string)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ID",
           "package": "libgit",
@@ -584,6 +633,7 @@
         "index": {
           "description": "any ID git SHA1 string",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ID",
           "package": "libgit",
@@ -598,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTagged ID of all possible types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Object",
           "package": "libgit",
@@ -607,6 +658,7 @@
         "index": {
           "description": "Tagged ID of all possible types",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Object",
           "package": "libgit",
@@ -621,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit object author/commiter representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Person",
           "package": "libgit",
@@ -630,6 +683,7 @@
         "index": {
           "description": "Commit object author commiter representation",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Person",
           "package": "libgit",
@@ -644,6 +698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea tag ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "TagID",
           "package": "libgit",
@@ -653,6 +708,7 @@
         "index": {
           "description": "tag ID",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "TagID",
           "package": "libgit",
@@ -667,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea tree ID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "TreeID",
           "package": "libgit",
@@ -676,6 +733,7 @@
         "index": {
           "description": "tree ID",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "TreeID",
           "package": "libgit",
@@ -689,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Blob",
           "package": "libgit",
@@ -698,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Blob",
           "package": "libgit",
@@ -711,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Commit",
           "package": "libgit",
@@ -720,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Commit",
           "package": "libgit",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Commitent",
           "package": "libgit",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Commitent",
           "package": "libgit",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Config",
           "package": "libgit",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Config",
           "package": "libgit",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Person",
           "package": "libgit",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Person",
           "package": "libgit",
@@ -799,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Tag",
           "package": "libgit",
@@ -808,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Tag",
           "package": "libgit",
@@ -821,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "Tree",
           "package": "libgit",
@@ -830,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "Tree",
           "package": "libgit",
@@ -843,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceAuthor",
           "package": "libgit",
@@ -852,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceAuthor",
           "package": "libgit",
@@ -865,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceAuthorTime",
           "package": "libgit",
@@ -874,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceAuthorTime",
           "package": "libgit",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceCommitMsg",
           "package": "libgit",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceCommitMsg",
           "package": "libgit",
@@ -909,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceCommitter",
           "package": "libgit",
@@ -918,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceCommitter",
           "package": "libgit",
@@ -931,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceCommitterTime",
           "package": "libgit",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceCommitterTime",
           "package": "libgit",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceParents",
           "package": "libgit",
@@ -962,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceParents",
           "normalized": "[CommitID]",
@@ -977,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "ceTree",
           "package": "libgit",
@@ -986,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "ceTree",
           "package": "libgit",
@@ -1000,6 +1086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePath to the repository .git\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "configCwd",
           "package": "libgit",
@@ -1010,6 +1097,7 @@
         "index": {
           "description": "Path to the repository git",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "configCwd",
           "package": "libgit",
@@ -1024,6 +1112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional path to the git executable (otherwise resolved from $PATH)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "configGitPath",
           "package": "libgit",
@@ -1034,6 +1123,7 @@
         "index": {
           "description": "Optional path to the git executable otherwise resolved from PATH",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "configGitPath",
           "package": "libgit",
@@ -1048,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal function to call on failure to make a friendly error message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "gitError",
           "package": "libgit",
@@ -1058,6 +1149,7 @@
         "index": {
           "description": "internal function to call on failure to make friendly error message",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "gitError",
           "normalized": "GitFailure-\u003eString-\u003ea",
@@ -1074,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal function to execute a git command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "gitExec",
           "package": "libgit",
@@ -1084,6 +1177,7 @@
         "index": {
           "description": "internal function to execute git command",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "gitExec",
           "normalized": "String-\u003e[String]-\u003e[(String,String)]-\u003eGitCtx(Either GitFailure String)",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "makeConfig",
           "package": "libgit",
@@ -1108,6 +1203,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "makeConfig",
           "normalized": "FilePath-\u003eMaybe FilePath-\u003eConfig",
@@ -1123,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "objOfString",
           "package": "libgit",
@@ -1132,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "objOfString",
           "normalized": "String-\u003eID-\u003eMaybe Object",
@@ -1147,6 +1245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "objToID",
           "package": "libgit",
@@ -1156,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "objToID",
           "normalized": "Object-\u003eID",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "personEmail",
           "package": "libgit",
@@ -1180,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "personEmail",
           "package": "libgit",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "personName",
           "package": "libgit",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "personName",
           "package": "libgit",
@@ -1216,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a git context from a config and returns the result\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "runGit",
           "package": "libgit",
@@ -1226,6 +1331,7 @@
         "index": {
           "description": "Run git context from config and returns the result",
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "runGit",
           "normalized": "Config-\u003eGitCtx a-\u003eIO a",
@@ -1241,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git.Type",
           "name": "toID",
           "package": "libgit",
@@ -1250,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Lib Git Type",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git.Type",
           "name": "toID",
           "normalized": "String-\u003eID",
@@ -1266,6 +1374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePortabily   : haven't tested\n\u003c/p\u003e\u003cp\u003eThis module provide Git functionality exec'ing the git binary.\n\u003c/p\u003e\u003cp\u003egive simple access to commit, tree, tag, blob objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "Git",
           "package": "libgit",
@@ -1275,6 +1384,7 @@
         "index": {
           "description": "Portabily haven tested This module provide Git functionality exec ing the git binary give simple access to commit tree tag blob objects",
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "Git",
           "package": "libgit",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "add",
           "package": "libgit",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "add",
           "normalized": "[FilePath]-\u003eGitCtx()",
@@ -1311,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "checkout",
           "package": "libgit",
@@ -1320,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "checkout",
           "normalized": "Maybe CommitID-\u003eMaybe String-\u003eGitCtx()",
@@ -1334,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "commit",
           "package": "libgit",
@@ -1343,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "commit",
           "normalized": "[FilePath]-\u003eString-\u003eString-\u003eString-\u003e[String]-\u003eGitCtx()",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "hasDiff",
           "package": "libgit",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "hasDiff",
           "package": "libgit",
@@ -1379,6 +1497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "initDB",
           "package": "libgit",
@@ -1388,6 +1507,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "initDB",
           "normalized": "Bool-\u003eGitCtx()",
@@ -1403,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "resolveFilePath",
           "package": "libgit",
@@ -1412,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "resolveFilePath",
           "normalized": "Commitent-\u003eFilePath-\u003eGitCtx[(FilePath,Object)]",
@@ -1427,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "rm",
           "package": "libgit",
@@ -1436,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "rm",
           "normalized": "[FilePath]-\u003eGitCtx()",
@@ -1450,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:27 UTC 2014",
           "module": "Lib.Git",
           "name": "taglist",
           "package": "libgit",
@@ -1459,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Lib Git",
+          "indexed": "2014-03-11T19:08:27",
           "module": "Lib.Git",
           "name": "taglist",
           "normalized": "GitCtx[TagID]",

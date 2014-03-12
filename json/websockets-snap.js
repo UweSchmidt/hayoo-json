@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "websockets-snap"
+        "phrase": "websockets-snap",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSnap integration for the WebSockets library\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:38:41 UTC 2014",
           "module": "Network.WebSockets.Snap",
           "name": "Snap",
           "package": "websockets-snap",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Snap integration for the WebSockets library",
           "hierarchy": "Network WebSockets Snap",
+          "indexed": "2014-03-11T20:38:41",
           "module": "Network.WebSockets.Snap",
           "name": "Snap",
           "package": "websockets-snap",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe following function escapes from the current \u003ccode\u003e\u003ca\u003eSnap\u003c/a\u003e\u003c/code\u003e handler, and\n continues processing the \u003ccode\u003e\u003ca\u003eWebSockets\u003c/a\u003e\u003c/code\u003e action. The action to be executed\n takes the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e as a parameter, because snap has already read this\n from the socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:41 UTC 2014",
           "module": "Network.WebSockets.Snap",
           "name": "runWebSocketsSnap",
           "package": "websockets-snap",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The following function escapes from the current Snap handler and continues processing the WebSockets action The action to be executed takes the Request as parameter because snap has already read this from the socket",
           "hierarchy": "Network WebSockets Snap",
+          "indexed": "2014-03-11T20:38:41",
           "module": "Network.WebSockets.Snap",
           "name": "runWebSocketsSnap",
           "normalized": "ServerApp-\u003ea()",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003erunWebSocketsSnap\u003c/a\u003e\u003c/code\u003e which allows custom options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:38:41 UTC 2014",
           "module": "Network.WebSockets.Snap",
           "name": "runWebSocketsSnapWith",
           "package": "websockets-snap",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Variant of runWebSocketsSnap which allows custom options",
           "hierarchy": "Network WebSockets Snap",
+          "indexed": "2014-03-11T20:38:41",
           "module": "Network.WebSockets.Snap",
           "name": "runWebSocketsSnapWith",
           "normalized": "ConnectionOptions-\u003eServerApp-\u003ea()",

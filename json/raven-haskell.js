@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "raven-haskell"
+        "phrase": "raven-haskell",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStructured data interfaces from Sentry core:\n   \u003ca\u003ehttp://sentry.readthedocs.org/en/latest/developer/interfaces/index.html#provided-interfaces\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "Interfaces",
           "package": "raven-haskell",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Structured data interfaces from Sentry core http sentry.readthedocs.org en latest developer interfaces index.html provided-interfaces",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "Interfaces",
           "package": "raven-haskell",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional and optionally parsed HTTP query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "HttpArgs",
           "package": "raven-haskell",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Optional and optionally parsed HTTP query",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "HttpArgs",
           "package": "raven-haskell",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA mandatory field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "(.=:)",
           "package": "raven-haskell",
@@ -75,6 +80,7 @@
         "index": {
           "description": "mandatory field",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "(.=:) .=:",
           "normalized": "String-\u003ea-\u003e[(String,Value)]",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "EmptyArgs",
           "package": "raven-haskell",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "EmptyArgs",
           "package": "raven-haskell",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "QueryArgs",
           "package": "raven-haskell",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "QueryArgs",
           "normalized": "QueryArgs[(String,String)]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "RawArgs",
           "package": "raven-haskell",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "RawArgs",
           "package": "raven-haskell",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sentry.interfaces.Exception':\n   A standard exception with a mandatory value argument,\n   and optional type and``module`` argument describing\n   the exception class type and module namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "exception",
           "package": "raven-haskell",
@@ -167,6 +180,7 @@
         "index": {
           "description": "sentry.interfaces.Exception standard exception with mandatory value argument and optional type and module argument describing the exception class type and module namespace",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "exception",
           "normalized": "String-\u003eMaybe String-\u003eMaybe String-\u003eSentryRecord-\u003eSentryRecord",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON object with optional fields removed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "fields",
           "package": "raven-haskell",
@@ -192,6 +207,7 @@
         "index": {
           "description": "JSON object with optional fields removed",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "fields",
           "normalized": "[[(String,Value)]]-\u003eHashMap String Value",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional dict-like field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "fromAssoc",
           "package": "raven-haskell",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Optional dict-like field",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "fromAssoc",
           "normalized": "String-\u003e[(String,String)]-\u003e[(String,Value)]",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional simple field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "fromMaybe",
           "package": "raven-haskell",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Optional simple field",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "fromMaybe",
           "normalized": "String-\u003eMaybe a-\u003e[(String,Value)]",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sentry.interfaces.Http':\n   The Request information is stored in the Http interface.\n\u003c/p\u003e\u003cp\u003eSentry will explicitly look for REMOTE_ADDR in env for things\n   which require an IP address.\n\u003c/p\u003e\u003cp\u003eThe data variable should only contain the request body\n   (not the query string). It can either be a dictionary\n   (for standard HTTP requests) or a raw request body.\n\u003c/p\u003e\u003cpre\u003e import System.Log.RavenInterfaces as SI\n let upd = SI.http\n             \"http://absolute.uri/foo\"\n             \"POST\"\n             (SI.QueryArgs [(\"foo\", \"bar\")])\n             (Just \"hello=world\")\n             (Just \"foo=bar\")\n             [(\"Content-Type\", \"text/html\")]\n             [(\"REMOTE_ADDR\", \"127.1.0.1\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "http",
           "package": "raven-haskell",
@@ -268,6 +289,7 @@
         "index": {
           "description": "sentry.interfaces.Http The Request information is stored in the Http interface Sentry will explicitly look for REMOTE ADDR in env for things which require an IP address The data variable should only contain the request body not the query string It can either be dictionary for standard HTTP requests or raw request body import System.Log.RavenInterfaces as SI let upd SI.http http absolute.uri foo POST SI.QueryArgs foo bar Just hello world Just foo bar Content-Type text html REMOTE ADDR",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "http",
           "normalized": "String-\u003eString-\u003eHttpArgs-\u003eMaybe String-\u003eMaybe String-\u003e[(String,String)]-\u003e[(String,String)]-\u003eSentryRecord-\u003eSentryRecord",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric interface helper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "interface",
           "package": "raven-haskell",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Generic interface helper",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "interface",
           "normalized": "String-\u003ea-\u003eSentryRecord-\u003eSentryRecord",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sentry.interfaces.Message':\n   A standard message consisting of a message arg, and an optional params\n   arg for formatting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "message",
           "package": "raven-haskell",
@@ -317,6 +342,7 @@
         "index": {
           "description": "sentry.interfaces.Message standard message consisting of message arg and an optional params arg for formatting",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "message",
           "normalized": "String-\u003e[Value]-\u003eSentryRecord-\u003eSentryRecord",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sentry.interfaces.Query':\n   A SQL query with an optional string describing the SQL driver, engine.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "query",
           "package": "raven-haskell",
@@ -341,6 +368,7 @@
         "index": {
           "description": "sentry.interfaces.Query SQL query with an optional string describing the SQL driver engine",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "query",
           "normalized": "Maybe String-\u003eString-\u003eSentryRecord-\u003eSentryRecord",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sentry.interfaces.User':\n   An interface which describes the authenticated User for a request.\n\u003c/p\u003e\u003cpre\u003e let upd = SI.user \"unique_id\" [ (\"username\", \"my_user\")\n                               , (\"email\", \"foo@example.com\") ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Interfaces",
           "name": "user",
           "package": "raven-haskell",
@@ -365,6 +394,7 @@
         "index": {
           "description": "sentry.interfaces.User An interface which describes the authenticated User for request let upd SI.user unique id username my user email foo@example.com",
           "hierarchy": "System Log Raven Interfaces",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Interfaces",
           "name": "user",
           "normalized": "String-\u003e[(String,String)]-\u003eSentryRecord-\u003eSentryRecord",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDummy &#171;transports&#187; for debugging purposes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "Debug",
           "package": "raven-haskell",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Dummy transports for debugging purposes",
           "hierarchy": "System Log Raven Transport Debug",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "Debug",
           "package": "raven-haskell",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog-like output with very few data shown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "briefRecord",
           "package": "raven-haskell",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Log-like output with very few data shown",
           "hierarchy": "System Log Raven Transport Debug",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "briefRecord",
           "normalized": "SentrySettings-\u003eSentryRecord-\u003eIO()",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch event record into an *empty* \u003ccode\u003e\u003ca\u003eMVar\u003c/a\u003e\u003c/code\u003e.\n   Make sure you take it's contents before next message!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "catchRecord",
           "package": "raven-haskell",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Catch event record into an empty MVar Make sure you take it contents before next message",
           "hierarchy": "System Log Raven Transport Debug",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "catchRecord",
           "normalized": "MVar SentryRecord-\u003eSentrySettings-\u003eSentryRecord-\u003eIO()",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump all glory details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "dumpRecord",
           "package": "raven-haskell",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Dump all glory details",
           "hierarchy": "System Log Raven Transport Debug",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.Debug",
           "name": "dumpRecord",
           "normalized": "SentrySettings-\u003eSentryRecord-\u003eIO()",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTTPS-capable transport using http-conduit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.HttpConduit",
           "name": "HttpConduit",
           "package": "raven-haskell",
@@ -490,6 +529,7 @@
         "index": {
           "description": "HTTPS-capable transport using http-conduit",
           "hierarchy": "System Log Raven Transport HttpConduit",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.HttpConduit",
           "name": "HttpConduit",
           "package": "raven-haskell",
@@ -503,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Transport.HttpConduit",
           "name": "sendRecord",
           "package": "raven-haskell",
@@ -512,6 +553,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Transport HttpConduit",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Transport.HttpConduit",
           "name": "sendRecord",
           "normalized": "SentrySettings-\u003eSentryRecord-\u003eIO()",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInternal representation of event record and related facilities.\n   Keep this under a pillow when writing custom wrappers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Types",
           "package": "raven-haskell",
@@ -537,6 +580,7 @@
         "index": {
           "description": "Internal representation of event record and related facilities Keep this under pillow when writing custom wrappers",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Types",
           "package": "raven-haskell",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentry log levels. Custom levels should be configured in Sentry or sending messages will fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryLevel",
           "package": "raven-haskell",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Sentry log levels Custom levels should be configured in Sentry or sending messages will fail",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryLevel",
           "package": "raven-haskell",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent packet to be sent. See detailed field descriptions in\n   \u003ca\u003ehttp://sentry.readthedocs.org/en/latest/developer/client/index.html#building-the-json-packet\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryRecord",
           "package": "raven-haskell",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Event packet to be sent See detailed field descriptions in http sentry.readthedocs.org en latest developer client index.html building-the-json-packet",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryRecord",
           "package": "raven-haskell",
@@ -597,6 +645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMisc settings packaged for easier operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryService",
           "package": "raven-haskell",
@@ -606,6 +655,7 @@
         "index": {
           "description": "Misc settings packaged for easier operations",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryService",
           "package": "raven-haskell",
@@ -620,6 +670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSentry client settings parsed from a DSN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentrySettings",
           "package": "raven-haskell",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Sentry client settings parsed from DSN",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentrySettings",
           "package": "raven-haskell",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Custom",
           "package": "raven-haskell",
@@ -651,6 +704,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Custom",
           "package": "raven-haskell",
@@ -664,6 +718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Debug",
           "package": "raven-haskell",
@@ -673,6 +728,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Debug",
           "package": "raven-haskell",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Error",
           "package": "raven-haskell",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Error",
           "package": "raven-haskell",
@@ -708,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Fatal",
           "package": "raven-haskell",
@@ -717,6 +776,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Fatal",
           "package": "raven-haskell",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Info",
           "package": "raven-haskell",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Info",
           "package": "raven-haskell",
@@ -752,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryDisabled",
           "package": "raven-haskell",
@@ -761,6 +824,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryDisabled",
           "package": "raven-haskell",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryRecord",
           "package": "raven-haskell",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryRecord",
           "package": "raven-haskell",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentryService",
           "package": "raven-haskell",
@@ -805,6 +872,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentryService",
           "package": "raven-haskell",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "SentrySettings",
           "package": "raven-haskell",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "SentrySettings",
           "package": "raven-haskell",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "Warning",
           "package": "raven-haskell",
@@ -849,6 +920,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "Warning",
           "package": "raven-haskell",
@@ -863,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssemble http endpoint URL from settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "endpointURL",
           "package": "raven-haskell",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Assemble http endpoint URL from settings",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "endpointURL",
           "normalized": "SentrySettings-\u003eMaybe String",
@@ -889,6 +963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a service DSN into a settings. Format is:\n\u003c/p\u003e\u003cpre\u003e {PROTOCOL}://{PUBLIC_KEY}:{SECRET_KEY}@{HOST}{PATH}/{PROJECT_ID}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "fromDSN",
           "package": "raven-haskell",
@@ -899,6 +974,7 @@
         "index": {
           "description": "Transforms service DSN into settings Format is PROTOCOL PUBLIC KEY SECRET KEY HOST PATH PROJECT ID",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "fromDSN",
           "normalized": "String-\u003eSentrySettings",
@@ -915,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize a record with all required fields filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "newRecord",
           "package": "raven-haskell",
@@ -925,6 +1002,7 @@
         "index": {
           "description": "Initialize record with all required fields filled in",
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "newRecord",
           "normalized": "String-\u003eString-\u003eString-\u003eSentryLevel-\u003eString-\u003eSentryRecord",
@@ -940,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "sentryPrivateKey",
           "package": "raven-haskell",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "sentryPrivateKey",
           "package": "raven-haskell",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "sentryProjectId",
           "package": "raven-haskell",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "sentryProjectId",
           "package": "raven-haskell",
@@ -984,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "sentryPublicKey",
           "package": "raven-haskell",
@@ -993,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "sentryPublicKey",
           "package": "raven-haskell",
@@ -1006,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "sentryURI",
           "package": "raven-haskell",
@@ -1015,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "sentryURI",
           "package": "raven-haskell",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "serviceDefaults",
           "package": "raven-haskell",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "serviceDefaults",
           "normalized": "SentryRecord-\u003eSentryRecord",
@@ -1052,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "serviceFallback",
           "package": "raven-haskell",
@@ -1061,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "serviceFallback",
           "normalized": "SentryRecord-\u003eIO()",
@@ -1076,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "serviceSettings",
           "package": "raven-haskell",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "serviceSettings",
           "package": "raven-haskell",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "serviceTransport",
           "package": "raven-haskell",
@@ -1107,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "serviceTransport",
           "normalized": "SentrySettings-\u003eSentryRecord-\u003eIO()",
@@ -1122,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srCulprit",
           "package": "raven-haskell",
@@ -1131,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srCulprit",
           "package": "raven-haskell",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srEventId",
           "package": "raven-haskell",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srEventId",
           "package": "raven-haskell",
@@ -1166,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srExtra",
           "package": "raven-haskell",
@@ -1175,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srExtra",
           "package": "raven-haskell",
@@ -1188,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srInterfaces",
           "package": "raven-haskell",
@@ -1197,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srInterfaces",
           "package": "raven-haskell",
@@ -1210,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srLevel",
           "package": "raven-haskell",
@@ -1219,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srLevel",
           "package": "raven-haskell",
@@ -1232,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srLogger",
           "package": "raven-haskell",
@@ -1241,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srLogger",
           "package": "raven-haskell",
@@ -1254,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srMessage",
           "package": "raven-haskell",
@@ -1263,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srMessage",
           "package": "raven-haskell",
@@ -1276,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srModules",
           "package": "raven-haskell",
@@ -1285,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srModules",
           "package": "raven-haskell",
@@ -1298,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srPlatform",
           "package": "raven-haskell",
@@ -1307,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srPlatform",
           "package": "raven-haskell",
@@ -1320,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srServerName",
           "package": "raven-haskell",
@@ -1329,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srServerName",
           "package": "raven-haskell",
@@ -1342,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srTags",
           "package": "raven-haskell",
@@ -1351,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srTags",
           "package": "raven-haskell",
@@ -1364,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven.Types",
           "name": "srTimestamp",
           "package": "raven-haskell",
@@ -1373,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "System Log Raven Types",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven.Types",
           "name": "srTimestamp",
           "package": "raven-haskell",
@@ -1387,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRaven is a client for Sentry event server (\u003ca\u003ehttps://www.getsentry.com/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003eStart by initializing the raven \u003ccode\u003eService\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e l \u003c- initRaven\n          \"https://pub:priv@sentry.hostname.tld:8443/sentry/example_project\"\n          id\n          sendRecord\n          stderrFallback\n\u003c/pre\u003e\u003cp\u003eSend events using \u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003e function:\n\u003c/p\u003e\u003cpre\u003e register l \"my.logger.name\" Debug \"Hi there!\" id\n\u003c/pre\u003e\u003cp\u003eTags and stuff can be added using register update functions.\n\u003c/p\u003e\u003cpre\u003e import Data.HashMap.Strict as HM\n let tags r = r { srTags = HM.insert \"spam\" \"sausage\"\n                         . HM.insert \"eggs\" \"bacon\"\n                         . srTags r }\n lt \u003c- initRaven dsn tags sendRecord stderrFallback\n\n let culprit r = r { srCulprit = \"my.module.function.name\" }\n register lt \"test.culprit\" Error \"It's a trap!\" culprit\n let extra r = r { srExtra = HM.insert \"fnord\" \"42\" $ srExtra r }\n register lt \"test.extra\" Info \"Test with tags and extra, please ignore.\"\n\u003c/pre\u003e\u003cp\u003eThe core package provides only general interface for sending events which\n   could be wrapped to adapt it to your needs.\n\u003c/p\u003e\u003cpre\u003e let debug msg = forkIO $ register l \"my.logger.name\" Debug msg (culprit . extra)\n debug \"Async stuff too.\"\n\u003c/pre\u003e\u003cp\u003eThere are some little helpers to compose your own updaters.\n   You can use them both in \u003ccode\u003e\u003ca\u003einitRaven\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eregister\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e l \u003c- initRaven dsn ( tags [ (\"spam\", \"sausage\"\n                           , (\"eggs\", \"bacon\") ]\n                    . extra [ (\"more\", \"stuff\") ]\n                    )\n                    sendRecord stderrFallback\n\n register l \"test.helpers\" Info \"yup, i'm here.\" $ culprit \"java.lang.NotReally\"\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "Raven",
           "package": "raven-haskell",
@@ -1396,6 +1515,7 @@
         "index": {
           "description": "Raven is client for Sentry event server https www.getsentry.com Start by initializing the raven Service initRaven https pub priv@sentry.hostname.tld sentry example project id sendRecord stderrFallback Send events using register function register my.logger.name Debug Hi there id Tags and stuff can be added using register update functions import Data.HashMap.Strict as HM let tags srTags HM.insert spam sausage HM.insert eggs bacon srTags lt initRaven dsn tags sendRecord stderrFallback let culprit srCulprit my.module.function.name register lt test.culprit Error It trap culprit let extra srExtra HM.insert fnord srExtra register lt test.extra Info Test with tags and extra please ignore The core package provides only general interface for sending events which could be wrapped to adapt it to your needs let debug msg forkIO register my.logger.name Debug msg culprit extra debug Async stuff too There are some little helpers to compose your own updaters You can use them both in initRaven and register initRaven dsn tags spam sausage eggs bacon extra more stuff sendRecord stderrFallback register test.helpers Info yup here culprit java.lang.NotReally",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "Raven",
           "package": "raven-haskell",
@@ -1410,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet culprit field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "culprit",
           "package": "raven-haskell",
@@ -1420,6 +1541,7 @@
         "index": {
           "description": "Set culprit field",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "culprit",
           "normalized": "String-\u003eSentryRecord-\u003eSentryRecord",
@@ -1435,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisabled service that ignores incoming events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "disabledRaven",
           "package": "raven-haskell",
@@ -1445,6 +1568,7 @@
         "index": {
           "description": "Disabled service that ignores incoming events",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "disabledRaven",
           "package": "raven-haskell",
@@ -1459,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrash and burn with record data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "errorFallback",
           "package": "raven-haskell",
@@ -1469,6 +1594,7 @@
         "index": {
           "description": "Crash and burn with record data",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "errorFallback",
           "normalized": "SentryRecord-\u003eIO()",
@@ -1485,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd record extra information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "extra",
           "package": "raven-haskell",
@@ -1495,6 +1622,7 @@
         "index": {
           "description": "Add record extra information",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "extra",
           "normalized": "[(String,String)]-\u003eSentryRecord-\u003eSentryRecord",
@@ -1510,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize event service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "initRaven",
           "package": "raven-haskell",
@@ -1519,6 +1648,7 @@
         "index": {
           "description": "Initialize event service",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "initRaven",
           "normalized": "String-\u003e(SentryRecord-\u003eSentryRecord)-\u003e(SentrySettings-\u003eSentryRecord-\u003eIO())-\u003e(SentryRecord-\u003eIO())-\u003eIO SentryService",
@@ -1535,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord an event using logging service.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "record",
           "package": "raven-haskell",
@@ -1544,6 +1675,7 @@
         "index": {
           "description": "Record an event using logging service",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "record",
           "normalized": "String-\u003eSentryLevel-\u003eString-\u003e(SentryRecord-\u003eSentryRecord)-\u003eIO SentryRecord",
@@ -1559,6 +1691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON-encode record data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "recordLBS",
           "package": "raven-haskell",
@@ -1569,6 +1702,7 @@
         "index": {
           "description": "JSON-encode record data",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "recordLBS",
           "normalized": "SentryRecord-\u003eByteString",
@@ -1585,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk service to store an event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "register",
           "package": "raven-haskell",
@@ -1594,6 +1729,7 @@
         "index": {
           "description": "Ask service to store an event",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "register",
           "normalized": "SentryService-\u003eString-\u003eSentryLevel-\u003eString-\u003e(SentryRecord-\u003eSentryRecord)-\u003eIO()",
@@ -1609,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIgnore recording errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "silentFallback",
           "package": "raven-haskell",
@@ -1619,6 +1756,7 @@
         "index": {
           "description": "Ignore recording errors",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "silentFallback",
           "normalized": "SentryRecord-\u003eIO()",
@@ -1635,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow basic message on stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "stderrFallback",
           "package": "raven-haskell",
@@ -1645,6 +1784,7 @@
         "index": {
           "description": "Show basic message on stderr",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "stderrFallback",
           "normalized": "SentryRecord-\u003eIO()",
@@ -1661,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd record tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:48:44 UTC 2014",
           "module": "System.Log.Raven",
           "name": "tags",
           "package": "raven-haskell",
@@ -1671,6 +1812,7 @@
         "index": {
           "description": "Add record tags",
           "hierarchy": "System Log Raven",
+          "indexed": "2014-03-11T19:48:44",
           "module": "System.Log.Raven",
           "name": "tags",
           "normalized": "[(String,String)]-\u003eSentryRecord-\u003eSentryRecord",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hgalib"
+        "phrase": "hgalib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "An Artificial Neural Network\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "ANN",
           "package": "hgalib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An Artificial Neural Network",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "ANN",
           "package": "hgalib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "A layer of nodes in an ANN\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "Layer",
           "package": "hgalib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "layer of nodes in an ANN",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "Layer",
           "package": "hgalib",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "A node in an ANN. The head of the list is the bias weight. The tail is the weights for the previous layer\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "Node",
           "package": "hgalib",
@@ -74,6 +79,7 @@
         "index": {
           "description": "node in an ANN The head of the list is the bias weight The tail is the weights for the previous layer",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "Node",
           "package": "hgalib",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "Crossover between two ANN's by averaging weights\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "averageCross",
           "package": "hgalib",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Crossover between two ANN by averaging weights",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "averageCross",
           "normalized": "ANN-\u003eANN-\u003eGAState a b(ANN,ANN)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "Computes the mean square error for a list of examples\n The examples are a list of tuples of (input, output)\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "averageMSE",
           "package": "hgalib",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Computes the mean square error for list of examples The examples are list of tuples of input output",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "averageMSE",
           "normalized": "ANN-\u003e[([Double],[Double])]-\u003eDouble",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "Returns the number of examples correct within the tolerance. The examples are a list of tuples of (input, output)\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "correctExamples",
           "package": "hgalib",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Returns the number of examples correct within the tolerance The examples are list of tuples of input output",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "correctExamples",
           "normalized": "[([Double],[Double])]-\u003eDouble-\u003eANN-\u003eDouble",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "Evaluates an ANN with a given input\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "eval",
           "package": "hgalib",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Evaluates an ANN with given input",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "eval",
           "normalized": "[Double]-\u003eANN-\u003e[Double]",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "Computes the fitness based on the mean square error for a list of examples\n The examples are a list of tuples of (input, output)\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "fitnessMSE",
           "package": "hgalib",
@@ -201,6 +216,7 @@
         "index": {
           "description": "Computes the fitness based on the mean square error for list of examples The examples are list of tuples of input output",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "fitnessMSE",
           "normalized": "[([Double],[Double])]-\u003eANN-\u003eDouble",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "Mutates an ANN by randomly settings weights to +/- range\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "mutateRandomize",
           "package": "hgalib",
@@ -227,6 +244,7 @@
         "index": {
           "description": "Mutates an ANN by randomly settings weights to range",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "mutateRandomize",
           "normalized": "Double-\u003eDouble-\u003eANN-\u003eGAState ANN a ANN",
@@ -243,6 +261,7 @@
       "document": {
         "description": {
           "description": "Mutates an ANN by randomly shifting weights by +/- range\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "mutateShift",
           "package": "hgalib",
@@ -253,6 +272,7 @@
         "index": {
           "description": "Mutates an ANN by randomly shifting weights by range",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "mutateShift",
           "normalized": "Double-\u003eDouble-\u003eANN-\u003eGAState ANN a ANN",
@@ -269,6 +289,7 @@
       "document": {
         "description": {
           "description": "Generates a random ANN with a given number of input nodes, a list of number of hidden nodes per layer, and the weight range\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "randomANN",
           "package": "hgalib",
@@ -279,6 +300,7 @@
         "index": {
           "description": "Generates random ANN with given number of input nodes list of number of hidden nodes per layer and the weight range",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "randomANN",
           "normalized": "Int-\u003e[Int]-\u003eDouble-\u003eGAState a b ANN",
@@ -295,6 +317,7 @@
       "document": {
         "description": {
           "description": "Crossover between two ANN's by exchanging weights\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.ANN",
           "name": "uniformCross",
           "package": "hgalib",
@@ -305,6 +328,7 @@
         "index": {
           "description": "Crossover between two ANN by exchanging weights",
           "hierarchy": "Chromosome ANN",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.ANN",
           "name": "uniformCross",
           "normalized": "ANN-\u003eANN-\u003eGAState a b(ANN,ANN)",
@@ -321,6 +345,7 @@
       "document": {
         "description": {
           "description": "Converts a list of Bool's to it's integer representation\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.Bits",
           "name": "bits2int",
           "package": "hgalib",
@@ -331,6 +356,7 @@
         "index": {
           "description": "Converts list of Bool to it integer representation",
           "hierarchy": "Chromosome Bits",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.Bits",
           "name": "bits2int",
           "normalized": "[Bool]-\u003eInt",
@@ -346,6 +372,7 @@
       "document": {
         "description": {
           "description": "The config for a chromosome of a list of bits. User must defined fitness and mutate.\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.Bits",
           "name": "config",
           "package": "hgalib",
@@ -356,6 +383,7 @@
         "index": {
           "description": "The config for chromosome of list of bits User must defined fitness and mutate",
           "hierarchy": "Chromosome Bits",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.Bits",
           "name": "config",
           "normalized": "ChromosomeConfig[a]b",
@@ -371,6 +399,7 @@
       "document": {
         "description": {
           "description": "Randomly flips fits with a specified probability\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.Bits",
           "name": "mutateBits",
           "package": "hgalib",
@@ -381,6 +410,7 @@
         "index": {
           "description": "Randomly flips fits with specified probability",
           "hierarchy": "Chromosome Bits",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.Bits",
           "name": "mutateBits",
           "normalized": "Double-\u003e[Bool]-\u003eGAState a b[Bool]",
@@ -397,6 +427,7 @@
       "document": {
         "description": {
           "description": "Single point cross at a random location\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.Bits",
           "name": "pointCross",
           "package": "hgalib",
@@ -407,6 +438,7 @@
         "index": {
           "description": "Single point cross at random location",
           "hierarchy": "Chromosome Bits",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.Bits",
           "name": "pointCross",
           "normalized": "[a]-\u003e[a]-\u003eGAState b c([a],[a])",
@@ -423,6 +455,7 @@
       "document": {
         "description": {
           "description": "Generates i random bits\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.Bits",
           "name": "randomBits",
           "package": "hgalib",
@@ -433,6 +466,7 @@
         "index": {
           "description": "Generates random bits",
           "hierarchy": "Chromosome Bits",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.Bits",
           "name": "randomBits",
           "normalized": "Int-\u003eGAState a b[Bool]",
@@ -448,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.GP",
           "name": "Node",
           "package": "hgalib",
@@ -456,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Chromosome GP",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.GP",
           "name": "Node",
           "package": "hgalib",
@@ -469,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.GP",
           "name": "Op",
           "package": "hgalib",
@@ -477,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Chromosome GP",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.GP",
           "name": "Op",
           "package": "hgalib",
@@ -491,6 +529,7 @@
       "document": {
         "description": {
           "description": "Statefully evaluates a given GP\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.GP",
           "name": "eval",
           "package": "hgalib",
@@ -501,6 +540,7 @@
         "index": {
           "description": "Statefully evaluates given GP",
           "hierarchy": "Chromosome GP",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.GP",
           "name": "eval",
           "normalized": "Node a b-\u003eState b a",
@@ -516,6 +556,7 @@
       "document": {
         "description": {
           "description": "Calculates fitness based on the mean square error across a list of examples\n The examples are a list of tuples of (inputs state, correct output)\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Chromosome.GP",
           "name": "mseFitness",
           "package": "hgalib",
@@ -526,6 +567,7 @@
         "index": {
           "description": "Calculates fitness based on the mean square error across list of examples The examples are list of tuples of inputs state correct output",
           "hierarchy": "Chromosome GP",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Chromosome.GP",
           "name": "mseFitness",
           "normalized": "[(a,b)]-\u003eNode b a-\u003eb",
@@ -541,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "ChromosomeConfig",
           "package": "hgalib",
@@ -549,6 +592,7 @@
         },
         "index": {
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "ChromosomeConfig",
           "package": "hgalib",
@@ -562,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "Config",
           "package": "hgalib",
@@ -570,6 +615,7 @@
         },
         "index": {
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "Config",
           "package": "hgalib",
@@ -583,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "GAState",
           "package": "hgalib",
@@ -591,6 +638,7 @@
         },
         "index": {
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "GAState",
           "package": "hgalib",
@@ -604,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "PopulationConfig",
           "package": "hgalib",
@@ -612,6 +661,7 @@
         },
         "index": {
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "PopulationConfig",
           "package": "hgalib",
@@ -626,6 +676,7 @@
       "document": {
         "description": {
           "description": "Wrapper function which returns the best chromosome of a population\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "bestChromosome",
           "package": "hgalib",
@@ -636,6 +687,7 @@
         "index": {
           "description": "Wrapper function which returns the best chromosome of population",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "bestChromosome",
           "normalized": "a-\u003eGAState b a b",
@@ -652,6 +704,7 @@
       "document": {
         "description": {
           "description": "A wrapper function for use in newPopulation for applying crossover to the population\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "crossM",
           "package": "hgalib",
@@ -662,6 +715,7 @@
         "index": {
           "description": "wrapper function for use in newPopulation for applying crossover to the population",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "crossM",
           "normalized": "a-\u003eGAState b a a",
@@ -677,6 +731,7 @@
       "document": {
         "description": {
           "description": "defaultConfig acts as a blank slate for genetic algorithms.\n cConfig, pConfig, gen, and maxFitness or maxGeneration must be defined\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "defaultConfig",
           "package": "hgalib",
@@ -687,6 +742,7 @@
         "index": {
           "description": "defaultConfig acts as blank slate for genetic algorithms cConfig pConfig gen and maxFitness or maxGeneration must be defined",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "defaultConfig",
           "package": "hgalib",
@@ -701,6 +757,7 @@
       "document": {
         "description": {
           "description": "Generates a random number which updating the random number generator for the config\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "gaRand",
           "package": "hgalib",
@@ -711,6 +768,7 @@
         "index": {
           "description": "Generates random number which updating the random number generator for the config",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "gaRand",
           "normalized": "(a,a)-\u003eGAState b c a",
@@ -727,6 +785,7 @@
       "document": {
         "description": {
           "description": "Returns true if the given population satisfies the termination condition for the GA config\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "isDone",
           "package": "hgalib",
@@ -737,6 +796,7 @@
         "index": {
           "description": "Returns true if the given population satisfies the termination condition for the GA config",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "isDone",
           "normalized": "a-\u003eGAState b a Bool",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "A wrapper function for use in newPopulation for mutating the population\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "mutateM",
           "package": "hgalib",
@@ -763,6 +824,7 @@
         "index": {
           "description": "wrapper function for use in newPopulation for mutating the population",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "mutateM",
           "normalized": "a-\u003eGAState b a a",
@@ -778,6 +840,7 @@
       "document": {
         "description": {
           "description": "A wrapper function for use in newPopulation for roulette selection\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "rouletteM",
           "package": "hgalib",
@@ -788,6 +851,7 @@
         "index": {
           "description": "wrapper function for use in newPopulation for roulette selection",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "rouletteM",
           "normalized": "a-\u003eGAState b a a",
@@ -803,6 +867,7 @@
       "document": {
         "description": {
           "description": "Runs the specified GA config until the termination condition is reached\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "run",
           "package": "hgalib",
@@ -813,6 +878,7 @@
         "index": {
           "description": "Runs the specified GA config until the termination condition is reached",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "run",
           "normalized": "a-\u003eGAState b a a",
@@ -828,6 +894,7 @@
       "document": {
         "description": {
           "description": "A wrapper function for use in newPopulation for tournament selection\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "GA",
           "name": "tournamentM",
           "package": "hgalib",
@@ -838,6 +905,7 @@
         "index": {
           "description": "wrapper function for use in newPopulation for tournament selection",
           "hierarchy": "GA",
+          "indexed": "2014-03-11T18:38:22",
           "module": "GA",
           "name": "tournamentM",
           "normalized": "a-\u003eGAState b a a",
@@ -853,6 +921,7 @@
       "document": {
         "description": {
           "description": "Population config for arrays\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Population.Array",
           "name": "config",
           "package": "hgalib",
@@ -863,6 +932,7 @@
         "index": {
           "description": "Population config for arrays",
           "hierarchy": "Population Array",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Population.Array",
           "name": "config",
           "package": "hgalib",
@@ -876,6 +946,7 @@
       "document": {
         "description": {
           "description": "Config for use of lists as the population model. Lists are deprecated in favor of arrays.\n",
+          "indexed": "Tue Mar 11 18:38:22 UTC 2014",
           "module": "Population.List",
           "name": "config",
           "package": "hgalib",
@@ -886,6 +957,7 @@
         "index": {
           "description": "Config for use of lists as the population model Lists are deprecated in favor of arrays",
           "hierarchy": "Population List",
+          "indexed": "2014-03-11T18:38:22",
           "module": "Population.List",
           "name": "config",
           "normalized": "PopulationConfig a[a]",

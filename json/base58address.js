@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "base58address"
+        "phrase": "base58address",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:08 UTC 2014",
           "module": "Data.Base58Address",
           "name": "Base58Address",
           "package": "base58address",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Base58Address",
+          "indexed": "2014-03-11T17:17:08",
           "module": "Data.Base58Address",
           "name": "Base58Address",
           "package": "base58address",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:08 UTC 2014",
           "module": "Data.Base58Address",
           "name": "BitcoinAddress",
           "package": "base58address",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Base58Address",
+          "indexed": "2014-03-11T17:17:08",
           "module": "Data.Base58Address",
           "name": "BitcoinAddress",
           "package": "base58address",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:08 UTC 2014",
           "module": "Data.Base58Address",
           "name": "RippleAddress",
           "package": "base58address",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Base58Address",
+          "indexed": "2014-03-11T17:17:08",
           "module": "Data.Base58Address",
           "name": "RippleAddress",
           "package": "base58address",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:08 UTC 2014",
           "module": "Data.Base58Address",
           "name": "bitcoinAddressPayload",
           "package": "base58address",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Base58Address",
+          "indexed": "2014-03-11T17:17:08",
           "module": "Data.Base58Address",
           "name": "bitcoinAddressPayload",
           "normalized": "BitcoinAddress-\u003eInteger",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:08 UTC 2014",
           "module": "Data.Base58Address",
           "name": "rippleAddressPayload",
           "package": "base58address",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Base58Address",
+          "indexed": "2014-03-11T17:17:08",
           "module": "Data.Base58Address",
           "name": "rippleAddressPayload",
           "normalized": "RippleAddress-\u003eInteger",

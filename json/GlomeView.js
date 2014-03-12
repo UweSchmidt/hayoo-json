@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GlomeView"
+        "phrase": "GlomeView",
+        "type": "phrase"
       },
       "type": "context"
     }

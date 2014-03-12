@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "abstract-par-accelerate"
+        "phrase": "abstract-par-accelerate",
+        "type": "phrase"
       },
       "type": "context"
     }

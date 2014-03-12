@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "free-theorems"
+        "phrase": "free-theorems",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclares the basic syntax of a Haskell98 subset enriched with \n   higher-ranked functions. Additionally, it defines small convenience\n   functions. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "BasicSyntax",
           "package": "free-theorems",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Declares the basic syntax of Haskell98 subset enriched with higher-ranked functions Additionally it defines small convenience functions",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "BasicSyntax",
           "package": "free-theorems",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether in an algebraic data type declaration a strictness\n   annotation is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "BangTypeExpression",
           "package": "free-theorems",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Indicates whether in an algebraic data type declaration strictness annotation is used",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "BangTypeExpression",
           "package": "free-theorems",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eclass\u003c/code\u003e declaration for a type class.\n\u003c/p\u003e\u003cp\u003eNote that, except of type signatures of class methods, all other\n   declarations inside the class are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "ClassDeclaration",
           "package": "free-theorems",
@@ -74,6 +79,7 @@
         "index": {
           "description": "class declaration for type class Note that except of type signatures of class methods all other declarations inside the class are ignored",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "ClassDeclaration",
           "package": "free-theorems",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data constructor declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "DataConstructorDeclaration",
           "package": "free-theorems",
@@ -97,6 +104,7 @@
         "index": {
           "description": "data constructor declaration",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "DataConstructorDeclaration",
           "package": "free-theorems",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003edata\u003c/code\u003e declaration for an algebraic data type.\n\u003c/p\u003e\u003cp\u003eNote that the context and the deriving parts of a \u003ccode\u003edata\u003c/code\u003e declaration are\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "DataDeclaration",
           "package": "free-theorems",
@@ -120,6 +129,7 @@
         "index": {
           "description": "data declaration for an algebraic data type Note that the context and the deriving parts of data declaration are ignored",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "DataDeclaration",
           "package": "free-theorems",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell declaration which corresponds to a \u003ccode\u003etype\u003c/code\u003e, \u003ccode\u003edata\u003c/code\u003e, \u003ccode\u003enewtype\u003c/code\u003e,\n   \u003ccode\u003eclass\u003c/code\u003e or type signature declaration.\n\u003c/p\u003e\u003cp\u003eIn type expressions, type variables must not be applied to type\n   expressions. Thus, for example, the functions of the \u003ccode\u003eMonad\u003c/code\u003e class are not\n   expressible.\n   However, in extension to Haskell98, higher-rank types can be expressed.\n\u003c/p\u003e\u003cp\u003eThis data type does not reflect all information of a declaration. Only the\n   aspects needed by the FreeTheorems library are covered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Declaration",
           "package": "free-theorems",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Haskell declaration which corresponds to type data newtype class or type signature declaration In type expressions type variables must not be applied to type expressions Thus for example the functions of the Monad class are not expressible However in extension to Haskell98 higher-rank types can be expressed This data type does not reflect all information of declaration Only the aspects needed by the FreeTheorems library are covered",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Declaration",
           "package": "free-theorems",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an abbreviation for some fixed type expression.\n   It does not occur in Haskell98 source code, but it can occur in generated\n   theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "FixedTypeExpression",
           "package": "free-theorems",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Represents an abbreviation for some fixed type expression It does not occur in Haskell98 source code but it can occur in generated theorems",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "FixedTypeExpression",
           "package": "free-theorems",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier.\n   This data type tags every \u003ccode\u003eString\u003c/code\u003e occurring in a declaration or a type\n   expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Identifier",
           "package": "free-theorems",
@@ -189,6 +204,7 @@
         "index": {
           "description": "An identifier This data type tags every String occurring in declaration or type expression",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Identifier",
           "package": "free-theorems",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003enewtype\u003c/code\u003e declaration for a type renaming.\n\u003c/p\u003e\u003cp\u003eNote that the context and the deriving parts of a \u003ccode\u003enewtype\u003c/code\u003e declaration are\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "NewtypeDeclaration",
           "package": "free-theorems",
@@ -212,6 +229,7 @@
         "index": {
           "description": "newtype declaration for type renaming Note that the context and the deriving parts of newtype declaration are ignored",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "NewtypeDeclaration",
           "package": "free-theorems",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Signature",
           "package": "free-theorems",
@@ -235,6 +254,7 @@
         "index": {
           "description": "type signature",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "Signature",
           "package": "free-theorems",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a Haskell type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeClass",
           "package": "free-theorems",
@@ -258,6 +279,7 @@
         "index": {
           "description": "Identifies Haskell type class",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeClass",
           "package": "free-theorems",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type for type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeConstructor",
           "package": "free-theorems",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The data type for type constructors",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeConstructor",
           "package": "free-theorems",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003etype\u003c/code\u003e declaration for a type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeDeclaration",
           "package": "free-theorems",
@@ -304,6 +329,7 @@
         "index": {
           "description": "type declaration for type synonym",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeDeclaration",
           "package": "free-theorems",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell type expression. This data type supports also higher-rank\n   functions. Unlike in Haskell98, a type variable must not be applied to\n   type expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeExpression",
           "package": "free-theorems",
@@ -327,6 +354,7 @@
         "index": {
           "description": "Haskell type expression This data type supports also higher-rank functions Unlike in Haskell98 type variable must not be applied to type expressions",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeExpression",
           "package": "free-theorems",
@@ -341,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a Haskell type variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeVariable",
           "package": "free-theorems",
@@ -350,6 +379,7 @@
         "index": {
           "description": "Identifies Haskell type variable",
           "hierarchy": "Language Haskell FreeTheorems BasicSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.BasicSyntax",
           "name": "TypeVariable",
           "package": "free-theorems",
@@ -1739,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions to generate new variable names of different kinds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "NameStores",
           "package": "free-theorems",
@@ -1748,6 +1779,7 @@
         "index": {
           "description": "Provides functions to generate new variable names of different kinds",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "NameStores",
           "package": "free-theorems",
@@ -1762,6 +1794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of names for function variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "functionNameStore1",
           "package": "free-theorems",
@@ -1772,6 +1805,7 @@
         "index": {
           "description": "An infinite list of names for function variables",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "functionNameStore1",
           "normalized": "[String]",
@@ -1788,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother infinite list of names for function variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "functionNameStore2",
           "package": "free-theorems",
@@ -1798,6 +1833,7 @@
         "index": {
           "description": "Another infinite list of names for function variables",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "functionNameStore2",
           "normalized": "[String]",
@@ -1814,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of names for relation variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "relationNameStore",
           "package": "free-theorems",
@@ -1824,6 +1861,7 @@
         "index": {
           "description": "An infinite list of names for relation variables",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "relationNameStore",
           "normalized": "[String]",
@@ -1840,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of names for type expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "typeExpressionNameStore",
           "package": "free-theorems",
@@ -1850,6 +1889,7 @@
         "index": {
           "description": "An infinite list of names for type expressions",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "typeExpressionNameStore",
           "normalized": "[String]",
@@ -1866,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of names for type variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "typeNameStore",
           "package": "free-theorems",
@@ -1876,6 +1917,7 @@
         "index": {
           "description": "An infinite list of names for type variables",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "typeNameStore",
           "normalized": "[String]",
@@ -1892,6 +1934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infinite list of names for term variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "variableNameStore",
           "package": "free-theorems",
@@ -1902,6 +1945,7 @@
         "index": {
           "description": "An infinite list of names for term variables",
           "hierarchy": "Language Haskell FreeTheorems NameStores",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.NameStores",
           "name": "variableNameStore",
           "normalized": "[String]",
@@ -1918,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines a function to parse a string into a list of declarations.\n   This module is based on the 'haskell-src' package most probably included\n   with every Haskell compiler.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Parser.Haskell98",
           "name": "Haskell98",
           "package": "free-theorems",
@@ -1927,6 +1972,7 @@
         "index": {
           "description": "Defines function to parse string into list of declarations This module is based on the haskell-src package most probably included with every Haskell compiler",
           "hierarchy": "Language Haskell FreeTheorems Parser Haskell98",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Parser.Haskell98",
           "name": "Haskell98",
           "package": "free-theorems",
@@ -1941,6 +1987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string to a list of declarations.\n   The string should contain a Haskell module.\n\u003c/p\u003e\u003cp\u003eThis function is based on the Haskell98 parser of the 'haskell-src'\n   package, i.e. the module 'Language.Haskell.Parser'.\n   That parser supports only Haskell98 and a few extensions. Especially, it\n   does not support explicit quantification of type variables and thus no \n   higher-rank functions.\n\u003c/p\u003e\u003cp\u003eThe declarations returned by \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e include only \u003ccode\u003etype\u003c/code\u003e, \u003ccode\u003edata\u003c/code\u003e, \n   \u003ccode\u003enewtype\u003c/code\u003e, \u003ccode\u003eclass\u003c/code\u003e and type signature declarations.\n   All other declarations and syntactical elements in the input are ignored.\n\u003c/p\u003e\u003cp\u003eFurthermore, the following restrictions apply:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Multi-parameter type classes are not allowed and therefore ignored. When\n     declaring a type class, the argument to the type class name must be a\n     single type variable.\n\u003c/li\u003e\u003cli\u003e A type variable must not be applied to any type. That means, for\n     example, that the type \u003ccode\u003em a\u003c/code\u003e is not accepted.\n\u003c/li\u003e\u003cli\u003e Contexts and \u003ccode\u003ederiving\u003c/code\u003e parts in \u003ccode\u003edata\u003c/code\u003e and \u003ccode\u003enewtype\u003c/code\u003e declarations\n     are ignored.\n\u003c/li\u003e\u003cli\u003e The module names are ignored. If any identifier was given qualified, the\n     module part of a qualified name is ignored.\n\u003c/li\u003e\u003cli\u003e Special Haskell constructors (unit, list function) are not allowed as\n     identifiers.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf a parser error occurs, as suitable error message is returned in the\n   second component of the returned tuple and the first component will be the\n   empty list.\n   However, if parsing was successful, but the parsed structures could not\n   be completely transformed into \u003ccode\u003eDeclaration\u003c/code\u003es, suitable transformation\n   error messages are returned in the second component while the first\n   components contains all declarations which could be transformed\n   successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Parser.Haskell98",
           "name": "parse",
           "package": "free-theorems",
@@ -1951,6 +1998,7 @@
         "index": {
           "description": "Parses string to list of declarations The string should contain Haskell module This function is based on the Haskell98 parser of the haskell-src package i.e the module Language.Haskell.Parser That parser supports only Haskell98 and few extensions Especially it does not support explicit quantification of type variables and thus no higher-rank functions The declarations returned by parse include only type data newtype class and type signature declarations All other declarations and syntactical elements in the input are ignored Furthermore the following restrictions apply Multi-parameter type classes are not allowed and therefore ignored When declaring type class the argument to the type class name must be single type variable type variable must not be applied to any type That means for example that the type is not accepted Contexts and deriving parts in data and newtype declarations are ignored The module names are ignored If any identifier was given qualified the module part of qualified name is ignored Special Haskell constructors unit list function are not allowed as identifiers If parser error occurs as suitable error message is returned in the second component of the returned tuple and the first component will be the empty list However if parsing was successful but the parsed structures could not be completely transformed into Declaration suitable transformation error messages are returned in the second component while the first components contains all declarations which could be transformed successfully",
           "hierarchy": "Language Haskell FreeTheorems Parser Haskell98",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Parser.Haskell98",
           "name": "parse",
           "normalized": "String-\u003eParsed[Declaration]",
@@ -1965,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Parser.Hsx",
           "name": "Hsx",
           "package": "free-theorems",
@@ -1973,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Parser Hsx",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Parser.Hsx",
           "name": "Hsx",
           "package": "free-theorems",
@@ -1987,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a string to a list of declarations.\n   The string should contain a Haskell module.\n\u003c/p\u003e\u003cp\u003eThis function is based on the extended Haskell parser of the \n   'haskell-src-exts' package.\n\u003c/p\u003e\u003cp\u003eThe declarations returned by \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e include only \u003ccode\u003etype\u003c/code\u003e, \u003ccode\u003edata\u003c/code\u003e, \n   \u003ccode\u003enewtype\u003c/code\u003e, \u003ccode\u003eclass\u003c/code\u003e and type signature declarations.\n   All other declarations and syntactical elements in the input are ignored.\n\u003c/p\u003e\u003cp\u003eFurthermore, the following restrictions apply:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Multi-parameter type classes are not allowed and therefore ignored. When\n     declaring a type class, the argument to the type class name must be a\n     single type variable.\n\u003c/li\u003e\u003cli\u003e Only type variables can be constrained by type classes. That means, for\n     example, the type \u003ccode\u003eEq [a] =\u003e [a]\u003c/code\u003e is not accepted.\n\u003c/li\u003e\u003cli\u003e A type variable must not be applied to any type. That means, for\n     example, that the type \u003ccode\u003em a\u003c/code\u003e is not accepted.\n\u003c/li\u003e\u003cli\u003e Contexts and \u003ccode\u003ederiving\u003c/code\u003e parts in \u003ccode\u003edata\u003c/code\u003e and \u003ccode\u003enewtype\u003c/code\u003e declarations\n     are ignored.\n\u003c/li\u003e\u003cli\u003e The module names are ignored. If any identifier was given qualified, the\n     module part of a qualified name is ignored.\n\u003c/li\u003e\u003cli\u003e Special Haskell constructors (unit, list function) are not allowed as\n     identifiers.\n\u003c/li\u003e\u003cli\u003e Further extensions over Haskell98 allowed by the underlying parser are\n     also forbidden, namely generalised algebraic data types and unboxed \n     tuples.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf a parser error occurs, as suitable error message is returned in the\n   second component of the returned tuple and the first component will be the\n   empty list.\n   However, if parsing was successful, but the parsed structures could not\n   be completely transformed into \u003ccode\u003eDeclaration\u003c/code\u003es, suitable transformation\n   error messages are returned in the second component while the first\n   components contains all declarations which could be transformed\n   successfully.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Parser.Hsx",
           "name": "parse",
           "package": "free-theorems",
@@ -1997,6 +2048,7 @@
         "index": {
           "description": "Parses string to list of declarations The string should contain Haskell module This function is based on the extended Haskell parser of the haskell-src-exts package The declarations returned by parse include only type data newtype class and type signature declarations All other declarations and syntactical elements in the input are ignored Furthermore the following restrictions apply Multi-parameter type classes are not allowed and therefore ignored When declaring type class the argument to the type class name must be single type variable Only type variables can be constrained by type classes That means for example the type Eq is not accepted type variable must not be applied to any type That means for example that the type is not accepted Contexts and deriving parts in data and newtype declarations are ignored The module names are ignored If any identifier was given qualified the module part of qualified name is ignored Special Haskell constructors unit list function are not allowed as identifiers Further extensions over Haskell98 allowed by the underlying parser are also forbidden namely generalised algebraic data types and unboxed tuples If parser error occurs as suitable error message is returned in the second component of the returned tuple and the first component will be the empty list However if parsing was successful but the parsed structures could not be completely transformed into Declaration suitable transformation error messages are returned in the second component while the first components contains all declarations which could be transformed successfully",
           "hierarchy": "Language Haskell FreeTheorems Parser Hsx",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Parser.Hsx",
           "name": "parse",
           "normalized": "String-\u003eParsed[Declaration]",
@@ -2012,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclars data types describing the abstract syntax of a subset of Haskell\n   in the FreeTheorems library. Only declarations and type expressions are\n   covered by these data types.\n\u003c/p\u003e\u003cp\u003eNote that the data types of this module do not reflect Haskell98.\n   This is because they are able to express higher-rank functions which are\n   not part of Haskell98.\n   Also, in type expressions, a type variable must not be applied to any type\n   expression. Thus, for example, the type \u003ccode\u003em a\u003c/code\u003e, as occuring in the functions\n   of the \u003ccode\u003eMonad\u003c/code\u003e type class, is not expressable.\n   The reason for this restriction is that the FreeTheorems library cannot\n   handle such types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Syntax",
           "package": "free-theorems",
@@ -2021,6 +2074,7 @@
         "index": {
           "description": "Declars data types describing the abstract syntax of subset of Haskell in the FreeTheorems library Only declarations and type expressions are covered by these data types Note that the data types of this module do not reflect Haskell98 This is because they are able to express higher-rank functions which are not part of Haskell98 Also in type expressions type variable must not be applied to any type expression Thus for example the type as occuring in the functions of the Monad type class is not expressable The reason for this restriction is that the FreeTheorems library cannot handle such types",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Syntax",
           "package": "free-theorems",
@@ -2035,6 +2089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether in an algebraic data type declaration a strictness\n   annotation is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "BangTypeExpression",
           "package": "free-theorems",
@@ -2044,6 +2099,7 @@
         "index": {
           "description": "Indicates whether in an algebraic data type declaration strictness annotation is used",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "BangTypeExpression",
           "package": "free-theorems",
@@ -2058,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eclass\u003c/code\u003e declaration for a type class.\n\u003c/p\u003e\u003cp\u003eNote that, except of type signatures of class methods, all other\n   declarations inside the class are ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "ClassDeclaration",
           "package": "free-theorems",
@@ -2067,6 +2124,7 @@
         "index": {
           "description": "class declaration for type class Note that except of type signatures of class methods all other declarations inside the class are ignored",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "ClassDeclaration",
           "package": "free-theorems",
@@ -2081,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data constructor declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "DataConstructorDeclaration",
           "package": "free-theorems",
@@ -2090,6 +2149,7 @@
         "index": {
           "description": "data constructor declaration",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "DataConstructorDeclaration",
           "package": "free-theorems",
@@ -2104,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003edata\u003c/code\u003e declaration for an algebraic data type.\n\u003c/p\u003e\u003cp\u003eNote that the context and the deriving parts of a \u003ccode\u003edata\u003c/code\u003e declaration are\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "DataDeclaration",
           "package": "free-theorems",
@@ -2113,6 +2174,7 @@
         "index": {
           "description": "data declaration for an algebraic data type Note that the context and the deriving parts of data declaration are ignored",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "DataDeclaration",
           "package": "free-theorems",
@@ -2127,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell declaration which corresponds to a \u003ccode\u003etype\u003c/code\u003e, \u003ccode\u003edata\u003c/code\u003e, \u003ccode\u003enewtype\u003c/code\u003e,\n   \u003ccode\u003eclass\u003c/code\u003e or type signature declaration.\n\u003c/p\u003e\u003cp\u003eIn type expressions, type variables must not be applied to type\n   expressions. Thus, for example, the functions of the \u003ccode\u003eMonad\u003c/code\u003e class are not\n   expressible.\n   However, in extension to Haskell98, higher-rank types can be expressed.\n\u003c/p\u003e\u003cp\u003eThis data type does not reflect all information of a declaration. Only the\n   aspects needed by the FreeTheorems library are covered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Declaration",
           "package": "free-theorems",
@@ -2136,6 +2199,7 @@
         "index": {
           "description": "Haskell declaration which corresponds to type data newtype class or type signature declaration In type expressions type variables must not be applied to type expressions Thus for example the functions of the Monad class are not expressible However in extension to Haskell98 higher-rank types can be expressed This data type does not reflect all information of declaration Only the aspects needed by the FreeTheorems library are covered",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Declaration",
           "package": "free-theorems",
@@ -2150,6 +2214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an abbreviation for some fixed type expression.\n   It does not occur in Haskell98 source code, but it can occur in generated\n   theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "FixedTypeExpression",
           "package": "free-theorems",
@@ -2159,6 +2224,7 @@
         "index": {
           "description": "Represents an abbreviation for some fixed type expression It does not occur in Haskell98 source code but it can occur in generated theorems",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "FixedTypeExpression",
           "package": "free-theorems",
@@ -2173,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn identifier.\n   This data type tags every \u003ccode\u003eString\u003c/code\u003e occurring in a declaration or a type\n   expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Identifier",
           "package": "free-theorems",
@@ -2182,6 +2249,7 @@
         "index": {
           "description": "An identifier This data type tags every String occurring in declaration or type expression",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Identifier",
           "package": "free-theorems",
@@ -2196,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003enewtype\u003c/code\u003e declaration for a type renaming.\n\u003c/p\u003e\u003cp\u003eNote that the context and the deriving parts of a \u003ccode\u003enewtype\u003c/code\u003e declaration are\n   ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "NewtypeDeclaration",
           "package": "free-theorems",
@@ -2205,6 +2274,7 @@
         "index": {
           "description": "newtype declaration for type renaming Note that the context and the deriving parts of newtype declaration are ignored",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "NewtypeDeclaration",
           "package": "free-theorems",
@@ -2219,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Signature",
           "package": "free-theorems",
@@ -2228,6 +2299,7 @@
         "index": {
           "description": "type signature",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "Signature",
           "package": "free-theorems",
@@ -2242,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a Haskell type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeClass",
           "package": "free-theorems",
@@ -2251,6 +2324,7 @@
         "index": {
           "description": "Identifies Haskell type class",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeClass",
           "package": "free-theorems",
@@ -2265,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type for type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeConstructor",
           "package": "free-theorems",
@@ -2274,6 +2349,7 @@
         "index": {
           "description": "The data type for type constructors",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeConstructor",
           "package": "free-theorems",
@@ -2288,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003etype\u003c/code\u003e declaration for a type synonym.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeDeclaration",
           "package": "free-theorems",
@@ -2297,6 +2374,7 @@
         "index": {
           "description": "type declaration for type synonym",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeDeclaration",
           "package": "free-theorems",
@@ -2311,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Haskell type expression. This data type supports also higher-rank\n   functions. Unlike in Haskell98, a type variable must not be applied to\n   type expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeExpression",
           "package": "free-theorems",
@@ -2320,6 +2399,7 @@
         "index": {
           "description": "Haskell type expression This data type supports also higher-rank functions Unlike in Haskell98 type variable must not be applied to type expressions",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeExpression",
           "package": "free-theorems",
@@ -2334,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies a Haskell type variable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeVariable",
           "package": "free-theorems",
@@ -2343,6 +2424,7 @@
         "index": {
           "description": "Identifies Haskell type variable",
           "hierarchy": "Language Haskell FreeTheorems Syntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Syntax",
           "name": "TypeVariable",
           "package": "free-theorems",
@@ -2357,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures to describe theorems generated from types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Theorems",
           "package": "free-theorems",
@@ -2366,6 +2449,7 @@
         "index": {
           "description": "Data structures to describe theorems generated from types",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Theorems",
           "package": "free-theorems",
@@ -2380,6 +2464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DataConstructor",
           "package": "free-theorems",
@@ -2389,6 +2474,7 @@
         "index": {
           "description": "Data constructors",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DataConstructor",
           "package": "free-theorems",
@@ -2403,6 +2489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical formula constituting automatically generated theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Formula",
           "package": "free-theorems",
@@ -2412,6 +2499,7 @@
         "index": {
           "description": "Logical formula constituting automatically generated theorems",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Formula",
           "package": "free-theorems",
@@ -2426,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicates occurring in formulas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Predicate",
           "package": "free-theorems",
@@ -2435,6 +2524,7 @@
         "index": {
           "description": "Predicates occurring in formulas",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Predicate",
           "package": "free-theorems",
@@ -2449,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelations are the foundations of free theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Relation",
           "package": "free-theorems",
@@ -2458,6 +2549,7 @@
         "index": {
           "description": "Relations are the foundations of free theorems",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Relation",
           "package": "free-theorems",
@@ -2472,6 +2564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe relation information stored with every relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationInfo",
           "package": "free-theorems",
@@ -2481,6 +2574,7 @@
         "index": {
           "description": "The relation information stored with every relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationInfo",
           "package": "free-theorems",
@@ -2495,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationVariable",
           "package": "free-theorems",
@@ -2504,6 +2599,7 @@
         "index": {
           "description": "relation variable",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationVariable",
           "package": "free-theorems",
@@ -2518,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrictions on functions and relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Restriction",
           "package": "free-theorems",
@@ -2527,6 +2624,7 @@
         "index": {
           "description": "Restrictions on functions and relations",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Restriction",
           "package": "free-theorems",
@@ -2541,6 +2639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTerms consisting of variables, applications and instantiations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Term",
           "package": "free-theorems",
@@ -2550,6 +2649,7 @@
         "index": {
           "description": "Terms consisting of variables applications and instantiations",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Term",
           "package": "free-theorems",
@@ -2564,6 +2664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariables occurring in terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermVariable",
           "package": "free-theorems",
@@ -2573,6 +2674,7 @@
         "index": {
           "description": "Variables occurring in terms",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermVariable",
           "package": "free-theorems",
@@ -2587,6 +2689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA theorem which is generated from a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Theorem",
           "package": "free-theorems",
@@ -2596,6 +2699,7 @@
         "index": {
           "description": "theorem which is generated from type signature",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Theorem",
           "package": "free-theorems",
@@ -2610,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relational description of a class declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedClass",
           "package": "free-theorems",
@@ -2619,6 +2724,7 @@
         "index": {
           "description": "relational description of class declaration",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedClass",
           "package": "free-theorems",
@@ -2633,6 +2739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relational descriptions of a data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedDataCon",
           "package": "free-theorems",
@@ -2642,6 +2749,7 @@
         "index": {
           "description": "relational descriptions of data constructor",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedDataCon",
           "package": "free-theorems",
@@ -2656,6 +2764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes unfolded lift relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedLift",
           "package": "free-theorems",
@@ -2665,6 +2774,7 @@
         "index": {
           "description": "Describes unfolded lift relations",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedLift",
           "package": "free-theorems",
@@ -2678,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "BotPair",
           "package": "free-theorems",
@@ -2687,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "BotPair",
           "package": "free-theorems",
@@ -2700,6 +2812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "BottomReflecting",
           "package": "free-theorems",
@@ -2709,6 +2822,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "BottomReflecting",
           "package": "free-theorems",
@@ -2722,6 +2836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ConMore",
           "package": "free-theorems",
@@ -2731,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ConMore",
           "normalized": "ConMore DataConstructor[TermVariable][TermVariable]Formula",
@@ -2746,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ConPair",
           "package": "free-theorems",
@@ -2755,6 +2872,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ConPair",
           "package": "free-theorems",
@@ -2769,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first formula and the second formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Conjunction",
           "package": "free-theorems",
@@ -2779,6 +2898,7 @@
         "index": {
           "description": "The first formula and the second formula",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Conjunction",
           "package": "free-theorems",
@@ -2792,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Continuous",
           "package": "free-theorems",
@@ -2801,6 +2922,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Continuous",
           "package": "free-theorems",
@@ -2815,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny other data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DCon",
           "package": "free-theorems",
@@ -2825,6 +2948,7 @@
         "index": {
           "description": "Any other data constructor",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DCon",
           "package": "free-theorems",
@@ -2839,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binary data constructor \u003ccode\u003e:\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConConsList",
           "package": "free-theorems",
@@ -2849,6 +2974,7 @@
         "index": {
           "description": "The binary data constructor",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConConsList",
           "package": "free-theorems",
@@ -2863,6 +2989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nullary data constructor \u003ccode\u003e[]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConEmptyList",
           "package": "free-theorems",
@@ -2873,6 +3000,7 @@
         "index": {
           "description": "The nullary data constructor",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConEmptyList",
           "package": "free-theorems",
@@ -2887,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe n-ary tuple data constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConTuple",
           "package": "free-theorems",
@@ -2897,6 +3026,7 @@
         "index": {
           "description": "The n-ary tuple data constructor",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "DConTuple",
           "package": "free-theorems",
@@ -2911,6 +3041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo formulas are equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Equivalence",
           "package": "free-theorems",
@@ -2921,6 +3052,7 @@
         "index": {
           "description": "Two formulas are equivalent",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Equivalence",
           "package": "free-theorems",
@@ -2935,6 +3067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifies a function variable and two type expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallFunctions",
           "package": "free-theorems",
@@ -2945,6 +3078,7 @@
         "index": {
           "description": "Quantifies function variable and two type expressions",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallFunctions",
           "normalized": "ForallFunctions(Either TermVariable TermVariable)(TypeExpression,TypeExpression)[Restriction]Formula",
@@ -2961,6 +3095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifies two term variables taken from a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallPairs",
           "package": "free-theorems",
@@ -2971,6 +3106,7 @@
         "index": {
           "description": "Quantifies two term variables taken from relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallPairs",
           "normalized": "ForallPairs(TermVariable,TermVariable)Relation Formula",
@@ -2987,6 +3123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifies a relation variable and two type expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallRelations",
           "package": "free-theorems",
@@ -2997,6 +3134,7 @@
         "index": {
           "description": "Quantifies relation variable and two type expressions",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallRelations",
           "normalized": "ForallRelations RelationVariable(TypeExpression,TypeExpression)[Restriction]Formula",
@@ -3013,6 +3151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuantifies a term variable of a certain type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallVariables",
           "package": "free-theorems",
@@ -3023,6 +3162,7 @@
         "index": {
           "description": "Quantifies term variable of certain type",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "ForallVariables",
           "package": "free-theorems",
@@ -3037,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantified function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "FunAbs",
           "package": "free-theorems",
@@ -3047,6 +3188,7 @@
         "index": {
           "description": "quantified function",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "FunAbs",
           "normalized": "FunAbs RelationInfo(Either TermVariable TermVariable)(TypeExpression,TypeExpression)[Restriction]Relation",
@@ -3063,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function variable.\n   It might be either a function to be applied on the left side (in\n   equational and inequational cases) or on the right side (in \n   inequational cases only).\n   In inequational cases, the term is additionally composed with the\n   semantic approximation partial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "FunVar",
           "package": "free-theorems",
@@ -3073,6 +3216,7 @@
         "index": {
           "description": "function variable It might be either function to be applied on the left side in equational and inequational cases or on the right side in inequational cases only In inequational cases the term is additionally composed with the semantic approximation partial order",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "FunVar",
           "package": "free-theorems",
@@ -3087,6 +3231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first formula implies the second formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Implication",
           "package": "free-theorems",
@@ -3097,6 +3242,7 @@
         "index": {
           "description": "The first formula implies the second formula",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Implication",
           "package": "free-theorems",
@@ -3111,6 +3257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo terms are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsEqual",
           "package": "free-theorems",
@@ -3121,6 +3268,7 @@
         "index": {
           "description": "Two terms are equal",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsEqual",
           "package": "free-theorems",
@@ -3135,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first term is less defined than the second one, based on the\n   semantical approximation order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsLessEq",
           "package": "free-theorems",
@@ -3145,6 +3294,7 @@
         "index": {
           "description": "The first term is less defined than the second one based on the semantical approximation order",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsLessEq",
           "package": "free-theorems",
@@ -3159,6 +3309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe pair of two terms is contained in a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsMember",
           "package": "free-theorems",
@@ -3169,6 +3320,7 @@
         "index": {
           "description": "The pair of two terms is contained in relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsMember",
           "package": "free-theorems",
@@ -3183,6 +3335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe term is not equal to \u003ccode\u003e_|_\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsNotBot",
           "package": "free-theorems",
@@ -3193,6 +3346,7 @@
         "index": {
           "description": "The term is not equal to",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsNotBot",
           "package": "free-theorems",
@@ -3207,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant True Predicate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsTrue",
           "package": "free-theorems",
@@ -3217,6 +3372,7 @@
         "index": {
           "description": "Constant True Predicate",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "IsTrue",
           "package": "free-theorems",
@@ -3230,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "LeftClosed",
           "package": "free-theorems",
@@ -3239,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "LeftClosed",
           "package": "free-theorems",
@@ -3253,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Predicate",
           "package": "free-theorems",
@@ -3263,6 +3422,7 @@
         "index": {
           "description": "basic formula",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Predicate",
           "package": "free-theorems",
@@ -3276,6 +3436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RVar",
           "package": "free-theorems",
@@ -3285,6 +3446,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RVar",
           "package": "free-theorems",
@@ -3299,6 +3461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation corresponding to a type abstraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelAbs",
           "package": "free-theorems",
@@ -3309,6 +3472,7 @@
         "index": {
           "description": "relation corresponding to type abstraction",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelAbs",
           "normalized": "RelAbs RelationInfo RelationVariable(TypeExpression,TypeExpression)[Restriction]Relation",
@@ -3325,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic relation corresponding to a nullary type constructor.\n   Depending on the theorem type, this can be either an equivalence\n   relation or the semantic approximation partial order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelBasic",
           "package": "free-theorems",
@@ -3335,6 +3500,7 @@
         "index": {
           "description": "basic relation corresponding to nullary type constructor Depending on the theorem type this can be either an equivalence relation or the semantic approximation partial order",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelBasic",
           "package": "free-theorems",
@@ -3349,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation corresponding to a function type constructor.\n   The semantics of this relation differs with the language subset:\n   In the equational subset with seq, this relation is explicitly\n   requiring bottom-reflectiveness of its members.\n   In the inequational subset with seq, this relation is explicitly\n   requiring totality of its members.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelFun",
           "package": "free-theorems",
@@ -3359,6 +3526,7 @@
         "index": {
           "description": "relation corresponding to function type constructor The semantics of this relation differs with the language subset In the equational subset with seq this relation is explicitly requiring bottom-reflectiveness of its members In the inequational subset with seq this relation is explicitly requiring totality of its members",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelFun",
           "package": "free-theorems",
@@ -3373,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation corresponding to a function type constructor.\n   The semantics of this relation differs with the language subset:\n   Apart from the equational subset with seq, it is equal to RelFun.\n   In the equational subset with Seq, this relation is _not_ \n   explicitly requiring bottom-reflectiveness of its members.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelFunLab",
           "package": "free-theorems",
@@ -3383,6 +3552,7 @@
         "index": {
           "description": "relation corresponding to function type constructor The semantics of this relation differs with the language subset Apart from the equational subset with seq it is equal to RelFun In the equational subset with Seq this relation is not explicitly requiring bottom-reflectiveness of its members",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelFunLab",
           "package": "free-theorems",
@@ -3397,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lifted relation for any nonnullary type constructor.\n   The semantics of lifted relations is differs with the language\n   subset:\n   In inequational subsets lifted relations explicitly require\n   left-closedness by composition with the semantic approximation \n   partial order.\n   In equational subsets with fix or seq, this relation requires\n   strictness explicitly by relating the undefined value with itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelLift",
           "package": "free-theorems",
@@ -3407,6 +3578,7 @@
         "index": {
           "description": "lifted relation for any nonnullary type constructor The semantics of lifted relations is differs with the language subset In inequational subsets lifted relations explicitly require left-closedness by composition with the semantic approximation partial order In equational subsets with fix or seq this relation requires strictness explicitly by relating the undefined value with itself",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelLift",
           "normalized": "RelLift RelationInfo TypeConstructor[Relation]",
@@ -3423,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA relation variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelVar",
           "package": "free-theorems",
@@ -3433,6 +3606,7 @@
         "index": {
           "description": "relation variable",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelVar",
           "package": "free-theorems",
@@ -3446,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationInfo",
           "package": "free-theorems",
@@ -3455,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RelationInfo",
           "package": "free-theorems",
@@ -3468,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RespectsClasses",
           "package": "free-theorems",
@@ -3477,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "RespectsClasses",
           "normalized": "RespectsClasses[TypeClass]",
@@ -3492,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Strict",
           "package": "free-theorems",
@@ -3501,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Strict",
           "package": "free-theorems",
@@ -3514,6 +3694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TVar",
           "package": "free-theorems",
@@ -3523,6 +3704,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TVar",
           "package": "free-theorems",
@@ -3537,6 +3719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplication of a term to a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermApp",
           "package": "free-theorems",
@@ -3547,6 +3730,7 @@
         "index": {
           "description": "Application of term to term",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermApp",
           "package": "free-theorems",
@@ -3561,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComposition of function terms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermComp",
           "package": "free-theorems",
@@ -3571,6 +3756,7 @@
         "index": {
           "description": "Composition of function terms",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermComp",
           "normalized": "TermComp[Term]",
@@ -3587,6 +3773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstantiation of a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermIns",
           "package": "free-theorems",
@@ -3597,6 +3784,7 @@
         "index": {
           "description": "Instantiation of term",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermIns",
           "package": "free-theorems",
@@ -3611,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA term variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermVar",
           "package": "free-theorems",
@@ -3621,6 +3810,7 @@
         "index": {
           "description": "term variable",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "TermVar",
           "package": "free-theorems",
@@ -3634,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Total",
           "package": "free-theorems",
@@ -3643,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "Total",
           "package": "free-theorems",
@@ -3656,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedClass",
           "package": "free-theorems",
@@ -3665,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedClass",
           "normalized": "UnfoldedClass[TypeClass]TypeClass(Either RelationVariable TermVariable)[Formula]",
@@ -3680,6 +3874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedLift",
           "package": "free-theorems",
@@ -3689,6 +3884,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "UnfoldedLift",
           "normalized": "UnfoldedLift Relation[UnfoldedDataCon]",
@@ -3705,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the relation information from a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationInfo",
           "package": "free-theorems",
@@ -3715,6 +3912,7 @@
         "index": {
           "description": "Extracts the relation information from relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationInfo",
           "normalized": "Relation-\u003eRelationInfo",
@@ -3731,6 +3929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe language subset in which a relation was generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationLanguageSubset",
           "package": "free-theorems",
@@ -3741,6 +3940,7 @@
         "index": {
           "description": "The language subset in which relation was generated",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationLanguageSubset",
           "package": "free-theorems",
@@ -3755,6 +3955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the first components of pairs contained in a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationLeftType",
           "package": "free-theorems",
@@ -3765,6 +3966,7 @@
         "index": {
           "description": "The type of the first components of pairs contained in relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationLeftType",
           "package": "free-theorems",
@@ -3779,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the second components of pairs contained in a \n   relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationRightType",
           "package": "free-theorems",
@@ -3789,6 +3992,7 @@
         "index": {
           "description": "The type of the second components of pairs contained in relation",
           "hierarchy": "Language Haskell FreeTheorems Theorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.Theorems",
           "name": "relationRightType",
           "package": "free-theorems",
@@ -3803,6 +4007,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDeclares data types which describe valid declarations and valid type \n   signatures. A declaration or type signature is valid when all checks (see\n   \u003ca\u003eLanguage.Haskell.FreeTheorems.Frontend\u003c/a\u003e) were passed successfully.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSyntax",
           "package": "free-theorems",
@@ -3812,6 +4017,7 @@
         "index": {
           "description": "Declares data types which describe valid declarations and valid type signatures declaration or type signature is valid when all checks see Language.Haskell.FreeTheorems.Frontend were passed successfully",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSyntax",
           "package": "free-theorems",
@@ -3826,6 +4032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks a valid declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -3835,6 +4042,7 @@
         "index": {
           "description": "Marks valid declaration",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -3849,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks a valid type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -3858,6 +4067,7 @@
         "index": {
           "description": "Marks valid type signature",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -3871,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -3880,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -3893,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -3902,6 +4115,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -3943,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates whether the declarations declares or depends on an \n   algebraic data type with strictness flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "isStrictDeclaration",
           "package": "free-theorems",
@@ -3953,6 +4168,7 @@
         "index": {
           "description": "Indicates whether the declarations declares or depends on an algebraic data type with strictness flag",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "isStrictDeclaration",
           "package": "free-theorems",
@@ -3967,6 +4183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the declaration structure hidden in a valid declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "rawDeclaration",
           "package": "free-theorems",
@@ -3977,6 +4194,7 @@
         "index": {
           "description": "Returns the declaration structure hidden in valid declaration",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "rawDeclaration",
           "package": "free-theorems",
@@ -3991,6 +4209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the signature structure hidden in a valid type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "rawSignature",
           "package": "free-theorems",
@@ -4001,6 +4220,7 @@
         "index": {
           "description": "Returns the signature structure hidden in valid type signature",
           "hierarchy": "Language Haskell FreeTheorems ValidSyntax",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems.ValidSyntax",
           "name": "rawSignature",
           "package": "free-theorems",
@@ -4015,6 +4235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData structures and functions to automatically generate free theorems.\n\u003c/p\u003e\u003cp\u003eThis library is based on the following papers:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003cem\u003eTheorems For Free!\u003c/em\u003e, Philip Wadler, in Functional Programming Languages\n     and Computer Architecture Proceedings, 1989.\n     \u003ca\u003ehttp://homepages.inf.ed.ac.uk/wadler/papers/free/free.ps\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003cem\u003eThe Impact of seq on Free Theorems-Based Program Transformations\u003c/em\u003e,\n     Patricia Johann and Janis Voigtl&#228;nder, Fundamenta Informaticae,\n     2006. \u003ca\u003ehttp://www.orchid.inf.tu-dresden.de/~voigt/seqFinal.pdf\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe intended usage of this library is as follows.\n\u003c/p\u003e\u003col\u003e\u003cli\u003e Parse a list of declarations using one of two parsers \n       (\u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e or \n       \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e) or any other\n       suitable parser.\n       Use \u003ccode\u003e\u003ca\u003echeck\u003c/a\u003e\u003c/code\u003e to obtain a list of valid declarations.\n\u003c/li\u003e\u003cli\u003e Optional:\n       Parse more declarations and validate them against the previously \n       loaded list of valid declarations with \u003ccode\u003e\u003ca\u003echeckAgainst\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Extract all valid signatures from a list of valid declarations by\n       \u003ccode\u003e\u003ca\u003efilterSignatures\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Interpret a signature (\u003ccode\u003e\u003ca\u003einterpret\u003c/a\u003e\u003c/code\u003e), transform it to a theorem\n       (\u003ccode\u003e\u003ca\u003easTheorem\u003c/a\u003e\u003c/code\u003e) and pretty-print it (\u003ccode\u003e\u003ca\u003eprettyTheorem\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Optional: Specialise relation variables to functions \n       (\u003ccode\u003e\u003ca\u003erelationVariables\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003especialise\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Optional: Extract lifted relations to show their definition\n       (\u003ccode\u003e\u003ca\u003eunfoldLifts\u003c/a\u003e\u003c/code\u003e) and pretty-print them (\u003ccode\u003e\u003ca\u003eprettyUnfoldedLift\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Optional: Extract class constraints to show their definition\n       (\u003ccode\u003e\u003ca\u003eunfoldClasses\u003c/a\u003e\u003c/code\u003e) and pretty-print them (\u003ccode\u003e\u003ca\u003eprettyUnfoldedClass\u003c/a\u003e\u003c/code\u003e).\n\u003c/li\u003e\u003cli\u003e Optional: Further simplify the Formulas (\u003ccode\u003e\u003ca\u003esimplify\u003c/a\u003e\u003c/code\u003e) or UnfoldedLift\n       (\u003ccode\u003e\u003ca\u003esimplifyUnfoldedLift\u003c/a\u003e\u003c/code\u003e) by syntactic transformations.\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "FreeTheorems",
           "package": "free-theorems",
@@ -4024,6 +4245,7 @@
         "index": {
           "description": "Data structures and functions to automatically generate free theorems This library is based on the following papers Theorems For Free Philip Wadler in Functional Programming Languages and Computer Architecture Proceedings http homepages.inf.ed.ac.uk wadler papers free free.ps The Impact of seq on Free Theorems-Based Program Transformations Patricia Johann and Janis Voigtl nder Fundamenta Informaticae http www.orchid.inf.tu-dresden.de voigt seqFinal.pdf The intended usage of this library is as follows Parse list of declarations using one of two parsers parse or parse or any other suitable parser Use check to obtain list of valid declarations Optional Parse more declarations and validate them against the previously loaded list of valid declarations with checkAgainst Extract all valid signatures from list of valid declarations by filterSignatures Interpret signature interpret transform it to theorem asTheorem and pretty-print it prettyTheorem Optional Specialise relation variables to functions relationVariables and specialise Optional Extract lifted relations to show their definition unfoldLifts and pretty-print them prettyUnfoldedLift Optional Extract class constraints to show their definition unfoldClasses and pretty-print them prettyUnfoldedClass Optional Further simplify the Formulas simplify or UnfoldedLift simplifyUnfoldedLift by syntactic transformations",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "FreeTheorems",
           "package": "free-theorems",
@@ -4038,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for a \u003ccode\u003eWriter\u003c/code\u003e which stores pretty-printable documents along\n   with checked values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Checked",
           "package": "free-theorems",
@@ -4047,6 +4270,7 @@
         "index": {
           "description": "wrapper type for Writer which stores pretty-printable documents along with checked values",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Checked",
           "package": "free-theorems",
@@ -4061,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA structure describing the intermediate result of interpreting a type\n   expression as a relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Intermediate",
           "package": "free-theorems",
@@ -4070,6 +4295,7 @@
         "index": {
           "description": "structure describing the intermediate result of interpreting type expression as relation",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Intermediate",
           "package": "free-theorems",
@@ -4084,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescriptions of the Haskell language subsets for which free theorems can\n   be generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "LanguageSubset",
           "package": "free-theorems",
@@ -4093,6 +4320,7 @@
         "index": {
           "description": "Descriptions of the Haskell language subsets for which free theorems can be generated",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "LanguageSubset",
           "package": "free-theorems",
@@ -4107,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for \u003ccode\u003eWriter\u003c/code\u003e which stores pretty-printable documents along\n   with parsed values.\n   This type is provided as standard return type for parsers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Parsed",
           "package": "free-theorems",
@@ -4116,6 +4345,7 @@
         "index": {
           "description": "wrapper type for Writer which stores pretty-printable documents along with parsed values This type is provided as standard return type for parsers",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "Parsed",
           "package": "free-theorems",
@@ -4130,6 +4360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible options for pretty-printing theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "PrettyTheoremOption",
           "package": "free-theorems",
@@ -4139,6 +4370,7 @@
         "index": {
           "description": "Possible options for pretty-printing theorems",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "PrettyTheoremOption",
           "package": "free-theorems",
@@ -4153,6 +4385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result type for generating free theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "TheoremType",
           "package": "free-theorems",
@@ -4162,6 +4395,7 @@
         "index": {
           "description": "The result type for generating free theorems",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "TheoremType",
           "package": "free-theorems",
@@ -4176,6 +4410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks a valid declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -4185,6 +4420,7 @@
         "index": {
           "description": "Marks valid declaration",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "ValidDeclaration",
           "package": "free-theorems",
@@ -4199,6 +4435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks a valid type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -4208,6 +4445,7 @@
         "index": {
           "description": "Marks valid type signature",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "ValidSignature",
           "package": "free-theorems",
@@ -4222,6 +4460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis subset describes only terms in which no undefinedness may.\n   This excludes terms defined using general recursion or selective\n   strictness (as offered by \u003ccode\u003eseq\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "BasicSubset",
           "package": "free-theorems",
@@ -4232,6 +4471,7 @@
         "index": {
           "description": "This subset describes only terms in which no undefinedness may This excludes terms defined using general recursion or selective strictness as offered by seq",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "BasicSubset",
           "package": "free-theorems",
@@ -4246,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn equational free theorem should be generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "EquationalTheorem",
           "package": "free-theorems",
@@ -4256,6 +4497,7 @@
         "index": {
           "description": "An equational free theorem should be generated",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "EquationalTheorem",
           "package": "free-theorems",
@@ -4270,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo inequational free theorems should be generated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "InequationalTheorem",
           "package": "free-theorems",
@@ -4280,6 +4523,7 @@
         "index": {
           "description": "Two inequational free theorems should be generated",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "InequationalTheorem",
           "package": "free-theorems",
@@ -4294,6 +4538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOmit mentioning language subsets explicitly for certain relations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "OmitLanguageSubsets",
           "package": "free-theorems",
@@ -4304,6 +4549,7 @@
         "index": {
           "description": "Omit mentioning language subsets explicitly for certain relations",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "OmitLanguageSubsets",
           "package": "free-theorems",
@@ -4318,6 +4564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOmits all instantiations of types. This option makes theorems \n   usually better readable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "OmitTypeInstantiations",
           "package": "free-theorems",
@@ -4328,6 +4575,7 @@
         "index": {
           "description": "Omits all instantiations of types This option makes theorems usually better readable",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "OmitTypeInstantiations",
           "package": "free-theorems",
@@ -4342,6 +4590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis subset describes terms in which undefined values may occur\n   such as introduced by a fixpoint combinator or possibly failing\n   pattern matches (if not all cases are covered).\n   This excludes any term based on \u003ccode\u003eseq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "SubsetWithFix",
           "package": "free-theorems",
@@ -4352,6 +4601,7 @@
         "index": {
           "description": "This subset describes terms in which undefined values may occur such as introduced by fixpoint combinator or possibly failing pattern matches if not all cases are covered This excludes any term based on seq",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "SubsetWithFix",
           "package": "free-theorems",
@@ -4366,6 +4616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditionally to the fix subset, this subset allows terms to\n   be defined using \u003ccode\u003eseq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "SubsetWithSeq",
           "package": "free-theorems",
@@ -4376,6 +4627,7 @@
         "index": {
           "description": "Additionally to the fix subset this subset allows terms to be defined using seq",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "SubsetWithSeq",
           "package": "free-theorems",
@@ -4390,6 +4642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfolds an intermediate structure to a theorem with _all_ restrictions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "asCompleteTheorem",
           "package": "free-theorems",
@@ -4400,6 +4653,7 @@
         "index": {
           "description": "Unfolds an intermediate structure to theorem with all restrictions",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "asCompleteTheorem",
           "normalized": "Intermediate-\u003eTheorem",
@@ -4416,6 +4670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfolds an intermediate structure to a theorem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "asTheorem",
           "package": "free-theorems",
@@ -4426,6 +4681,7 @@
         "index": {
           "description": "Unfolds an intermediate structure to theorem",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "asTheorem",
           "normalized": "Intermediate-\u003eTheorem",
@@ -4442,6 +4698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks a list of declarations.\n   It returns a list of all declarations which are valid and an error message\n   for all those declarations which are not valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "check",
           "package": "free-theorems",
@@ -4452,6 +4709,7 @@
         "index": {
           "description": "Checks list of declarations It returns list of all declarations which are valid and an error message for all those declarations which are not valid",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "check",
           "normalized": "[Declaration]-\u003eChecked[ValidDeclaration]",
@@ -4467,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks a list of declarations against a given list of valid\n   declarations.\n   It returns a list of all declarations from the second argument which are\n   valid. Moreover, the result contains an error message for all those\n   declarations which are not valid.\n\u003c/p\u003e\u003cp\u003eThe declarations given in the second argument may be based on those of the\n   first argument. For example, if the first argument contains a valid\n   declaration of a type \"Foo\" and if the second argument contains the\n   following declaration\n\u003c/p\u003e\u003cpre\u003e type Bar = Foo\n\u003c/pre\u003e\u003cp\u003ethen also the declaration of \"Bar\" is valid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "checkAgainst",
           "package": "free-theorems",
@@ -4477,6 +4736,7 @@
         "index": {
           "description": "Checks list of declarations against given list of valid declarations It returns list of all declarations from the second argument which are valid Moreover the result contains an error message for all those declarations which are not valid The declarations given in the second argument may be based on those of the first argument For example if the first argument contains valid declaration of type Foo and if the second argument contains the following declaration type Bar Foo then also the declaration of Bar is valid",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "checkAgainst",
           "normalized": "[ValidDeclaration]-\u003e[Declaration]-\u003eChecked[ValidDeclaration]",
@@ -4493,6 +4753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterprets a valid signature as a relation. This is the key point for\n   generating free theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "interpret",
           "package": "free-theorems",
@@ -4503,6 +4764,7 @@
         "index": {
           "description": "Interprets valid signature as relation This is the key point for generating free theorems",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "interpret",
           "normalized": "[ValidDeclaration]-\u003eLanguageSubset-\u003eValidSignature-\u003eMaybe Intermediate",
@@ -4518,6 +4780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints a declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyDeclaration",
           "package": "free-theorems",
@@ -4528,6 +4791,7 @@
         "index": {
           "description": "Pretty-prints declaration",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyDeclaration",
           "normalized": "Declaration-\u003eDoc",
@@ -4544,6 +4808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints a relation variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyRelationVariable",
           "package": "free-theorems",
@@ -4554,6 +4819,7 @@
         "index": {
           "description": "Pretty-prints relation variable",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyRelationVariable",
           "normalized": "RelationVariable-\u003eDoc",
@@ -4570,6 +4836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints a type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettySignature",
           "package": "free-theorems",
@@ -4580,6 +4847,7 @@
         "index": {
           "description": "Pretty-prints type signature",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettySignature",
           "normalized": "Signature-\u003eDoc",
@@ -4596,6 +4864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints a theorem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyTheorem",
           "package": "free-theorems",
@@ -4606,6 +4875,7 @@
         "index": {
           "description": "Pretty-prints theorem",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyTheorem",
           "normalized": "[PrettyTheoremOption]-\u003eTheorem-\u003eDoc",
@@ -4622,6 +4892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints an unfolded type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyUnfoldedClass",
           "package": "free-theorems",
@@ -4632,6 +4903,7 @@
         "index": {
           "description": "Pretty-prints an unfolded type class",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyUnfoldedClass",
           "normalized": "[PrettyTheoremOption]-\u003eUnfoldedClass-\u003eDoc",
@@ -4648,6 +4920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-prints an unfolded lift relation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyUnfoldedLift",
           "package": "free-theorems",
@@ -4658,6 +4931,7 @@
         "index": {
           "description": "Pretty-prints an unfolded lift relation",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "prettyUnfoldedLift",
           "normalized": "[PrettyTheoremOption]-\u003eUnfoldedLift-\u003eDoc",
@@ -4674,6 +4948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the declaration structure hidden in a valid declaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "rawDeclaration",
           "package": "free-theorems",
@@ -4684,6 +4959,7 @@
         "index": {
           "description": "Returns the declaration structure hidden in valid declaration",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "rawDeclaration",
           "normalized": "ValidDeclaration-\u003eDeclaration",
@@ -4700,6 +4976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the signature structure hidden in a valid type signature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "rawSignature",
           "package": "free-theorems",
@@ -4710,6 +4987,7 @@
         "index": {
           "description": "Returns the signature structure hidden in valid type signature",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "rawSignature",
           "normalized": "ValidSignature-\u003eSignature",
@@ -4726,6 +5004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of all bound relation variables in an intermediate\n   structure, which can be specialised to a function. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "relationVariables",
           "package": "free-theorems",
@@ -4736,6 +5015,7 @@
         "index": {
           "description": "Creates list of all bound relation variables in an intermediate structure which can be specialised to function",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "relationVariables",
           "normalized": "Intermediate-\u003e[RelationVariable]",
@@ -4752,6 +5032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper function for \u003ccode\u003erunWriter\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "runChecks",
           "package": "free-theorems",
@@ -4762,6 +5043,7 @@
         "index": {
           "description": "wrapper function for runWriter",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "runChecks",
           "normalized": "Checked a-\u003e(a,[Doc])",
@@ -4777,6 +5059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "simplify",
           "package": "free-theorems",
@@ -4786,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "simplify",
           "normalized": "Formula-\u003eFormula",
@@ -4800,6 +5084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "simplifyUnfoldedLift",
           "package": "free-theorems",
@@ -4809,6 +5094,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "simplifyUnfoldedLift",
           "normalized": "UnfoldedLift-\u003eUnfoldedLift",
@@ -4825,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialises a relation variable to a function variable in an intermediate\n   structure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "specialise",
           "package": "free-theorems",
@@ -4835,6 +5122,7 @@
         "index": {
           "description": "Specialises relation variable to function variable in an intermediate structure",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "specialise",
           "normalized": "Intermediate-\u003eRelationVariable-\u003eIntermediate",
@@ -4850,6 +5138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialises a relation variable to an inverse function variable.\n   This function does not modify intermediate structures in subsets with\n   equational theorems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "specialiseInverse",
           "package": "free-theorems",
@@ -4860,6 +5149,7 @@
         "index": {
           "description": "Specialises relation variable to an inverse function variable This function does not modify intermediate structures in subsets with equational theorems",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "specialiseInverse",
           "normalized": "Intermediate-\u003eRelationVariable-\u003eIntermediate",
@@ -4876,6 +5166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts all class constraints and returns their definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "unfoldClasses",
           "package": "free-theorems",
@@ -4886,6 +5177,7 @@
         "index": {
           "description": "Extracts all class constraints and returns their definition",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "unfoldClasses",
           "normalized": "[ValidDeclaration]-\u003eIntermediate-\u003e[UnfoldedClass]",
@@ -4902,6 +5194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts all lift relations and returns their definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:12:15 UTC 2014",
           "module": "Language.Haskell.FreeTheorems",
           "name": "unfoldLifts",
           "package": "free-theorems",
@@ -4912,6 +5205,7 @@
         "index": {
           "description": "Extracts all lift relations and returns their definition",
           "hierarchy": "Language Haskell FreeTheorems",
+          "indexed": "2014-03-11T18:12:15",
           "module": "Language.Haskell.FreeTheorems",
           "name": "unfoldLifts",
           "normalized": "[ValidDeclaration]-\u003eIntermediate-\u003e[UnfoldedLift]",

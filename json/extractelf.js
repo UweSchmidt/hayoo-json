@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "extractelf"
+        "phrase": "extractelf",
+        "type": "phrase"
       },
       "type": "context"
     }

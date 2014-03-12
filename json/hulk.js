@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hulk"
+        "phrase": "hulk",
+        "type": "phrase"
       },
       "type": "context"
     }

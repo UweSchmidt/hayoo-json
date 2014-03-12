@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-query"
+        "phrase": "cabal-query",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:19 UTC 2014",
           "module": "Distribution.Query",
           "name": "Query",
           "package": "cabal-query",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Distribution Query",
+          "indexed": "2014-03-11T17:28:19",
           "module": "Distribution.Query",
           "name": "Query",
           "package": "cabal-query",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "All files must be read as lazy ByteStrings\nReturns a list of package descriptions which satisfy the query\n",
+          "indexed": "Tue Mar 11 17:28:19 UTC 2014",
           "module": "Distribution.Query",
           "name": "queryFiles",
           "package": "cabal-query",
@@ -50,6 +53,7 @@
         "index": {
           "description": "All files must be read as lazy ByteStrings Returns list of package descriptions which satisfy the query",
           "hierarchy": "Distribution Query",
+          "indexed": "2014-03-11T17:28:19",
           "module": "Distribution.Query",
           "name": "queryFiles",
           "normalized": "Query-\u003e[ByteString]-\u003e[PackageDescription]",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "The index file must be read as lazy ByteString\nReturns a list of package descriptions which satisfy the query\n",
+          "indexed": "Tue Mar 11 17:28:19 UTC 2014",
           "module": "Distribution.Query",
           "name": "queryIndex",
           "package": "cabal-query",
@@ -76,6 +81,7 @@
         "index": {
           "description": "The index file must be read as lazy ByteString Returns list of package descriptions which satisfy the query",
           "hierarchy": "Distribution Query",
+          "indexed": "2014-03-11T17:28:19",
           "module": "Distribution.Query",
           "name": "queryIndex",
           "normalized": "Query-\u003eByteString-\u003e[PackageDescription]",

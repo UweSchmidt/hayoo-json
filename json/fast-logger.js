@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fast-logger"
+        "phrase": "fast-logger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "File",
           "package": "fast-logger",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "File",
           "package": "fast-logger",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe spec for logging files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "FileLogSpec",
           "package": "fast-logger",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The spec for logging files",
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "FileLogSpec",
           "package": "fast-logger",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "FileLogSpec",
           "package": "fast-logger",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "FileLogSpec",
           "package": "fast-logger",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecking if a log file can be written.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "check",
           "package": "fast-logger",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Checking if log file can be written",
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "check",
           "normalized": "FileLogSpec-\u003eIO()",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "log_backup_number",
           "package": "fast-logger",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "log_backup_number",
           "package": "fast-logger",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "log_file",
           "package": "fast-logger",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "log_file",
           "package": "fast-logger",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "log_file_size",
           "package": "fast-logger",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "log_file_size",
           "package": "fast-logger",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotating log files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger.File",
           "name": "rotate",
           "package": "fast-logger",
@@ -183,6 +198,7 @@
         "index": {
           "description": "Rotating log files",
           "hierarchy": "System Log FastLogger File",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger.File",
           "name": "rotate",
           "normalized": "FileLogSpec-\u003eIO()",
@@ -198,6 +214,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides a fast logging system which\n   scales on multicore environments (i.e. +RTS -N\u003cx\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "FastLogger",
           "package": "fast-logger",
@@ -207,6 +224,7 @@
         "index": {
           "description": "This module provides fast logging system which scales on multicore environments i.e RTS",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "FastLogger",
           "package": "fast-logger",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type for buffer size of each core.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "BufSize",
           "package": "fast-logger",
@@ -230,6 +249,7 @@
         "index": {
           "description": "The type for buffer size of each core",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "BufSize",
           "package": "fast-logger",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog message builder. Use (\u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e) to append two LogStr in O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "LogStr",
           "package": "fast-logger",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Log message builder Use to append two LogStr in",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "LogStr",
           "package": "fast-logger",
@@ -267,6 +289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of loggers.\n   The number of loggers is the capabilities of GHC RTS.\n   You can specify it with \"+RTS -N\u003cx\u003e\".\n   A buffer is prepared for each capability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "LoggerSet",
           "package": "fast-logger",
@@ -276,6 +299,7 @@
         "index": {
           "description": "set of loggers The number of loggers is the capabilities of GHC RTS You can specify it with RTS buffer is prepared for each capability",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "LoggerSet",
           "package": "fast-logger",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "ToLogStr",
           "package": "fast-logger",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "ToLogStr",
           "package": "fast-logger",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default buffer size (4,096 bytes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "defaultBufSize",
           "package": "fast-logger",
@@ -321,6 +348,7 @@
         "index": {
           "description": "The default buffer size bytes",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "defaultBufSize",
           "package": "fast-logger",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlushing log messages in buffers.\n   This function must be called explicitly when the program is\n   being terminated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "flushLogStr",
           "package": "fast-logger",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Flushing log messages in buffers This function must be called explicitly when the program is being terminated",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "flushLogStr",
           "normalized": "LoggerSet-\u003eIO()",
@@ -361,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverting \u003ccode\u003e\u003ca\u003eLogStr\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "fromLogStr",
           "package": "fast-logger",
@@ -371,6 +402,7 @@
         "index": {
           "description": "Converting LogStr to ByteString",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "fromLogStr",
           "normalized": "LogStr-\u003eByteString",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtaining the length of \u003ccode\u003e\u003ca\u003eLogStr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "logStrLength",
           "package": "fast-logger",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Obtaining the length of LogStr",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "logStrLength",
           "normalized": "LogStr-\u003eInt",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eLoggerSet\u003c/a\u003e\u003c/code\u003e using a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "newFileLoggerSet",
           "package": "fast-logger",
@@ -423,6 +458,7 @@
         "index": {
           "description": "Creating new LoggerSet using file",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "newFileLoggerSet",
           "normalized": "BufSize-\u003eFilePath-\u003eIO LoggerSet",
@@ -439,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use newFileLoggerSet etc instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eLoggerSet\u003c/a\u003e\u003c/code\u003e.\n   If \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e is specified to the second argument,\n   stdout is used.\n   Please note that the minimum \u003ccode\u003e\u003ca\u003eBufSize\u003c/a\u003e\u003c/code\u003e is 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "newLoggerSet",
           "package": "fast-logger",
@@ -449,6 +486,7 @@
         "index": {
           "description": "Deprecated Use newFileLoggerSet etc instead Creating new LoggerSet If Nothing is specified to the second argument stdout is used Please note that the minimum BufSize is",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "newLoggerSet",
           "normalized": "BufSize-\u003eMaybe FilePath-\u003eIO LoggerSet",
@@ -465,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eLoggerSet\u003c/a\u003e\u003c/code\u003e using stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "newStderrLoggerSet",
           "package": "fast-logger",
@@ -475,6 +514,7 @@
         "index": {
           "description": "Creating new LoggerSet using stderr",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "newStderrLoggerSet",
           "normalized": "BufSize-\u003eIO LoggerSet",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreating a new \u003ccode\u003e\u003ca\u003eLoggerSet\u003c/a\u003e\u003c/code\u003e using stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "newStdoutLoggerSet",
           "package": "fast-logger",
@@ -501,6 +542,7 @@
         "index": {
           "description": "Creating new LoggerSet using stdout",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "newStdoutLoggerSet",
           "normalized": "BufSize-\u003eIO LoggerSet",
@@ -517,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWriting a log message to the corresponding buffer.\n   If the buffer becomes full, the log messages in the buffer\n   are written to its corresponding file, stdout, or stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "pushLogStr",
           "package": "fast-logger",
@@ -527,6 +570,7 @@
         "index": {
           "description": "Writing log message to the corresponding buffer If the buffer becomes full the log messages in the buffer are written to its corresponding file stdout or stderr",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "pushLogStr",
           "normalized": "LoggerSet-\u003eLogStr-\u003eIO()",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRenewing the internal file information in \u003ccode\u003e\u003ca\u003eLoggerSet\u003c/a\u003e\u003c/code\u003e.\n   This does nothing for stdout and stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "renewLoggerSet",
           "package": "fast-logger",
@@ -553,6 +598,7 @@
         "index": {
           "description": "Renewing the internal file information in LoggerSet This does nothing for stdout and stderr",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "renewLoggerSet",
           "normalized": "LoggerSet-\u003eIO()",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlushing the buffers, closing the internal file information\n   and freeing the buffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "rmLoggerSet",
           "package": "fast-logger",
@@ -579,6 +626,7 @@
         "index": {
           "description": "Flushing the buffers closing the internal file information and freeing the buffers",
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "rmLoggerSet",
           "normalized": "LoggerSet-\u003eIO()",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:06:26 UTC 2014",
           "module": "System.Log.FastLogger",
           "name": "toLogStr",
           "package": "fast-logger",
@@ -603,6 +652,7 @@
         },
         "index": {
           "hierarchy": "System Log FastLogger",
+          "indexed": "2014-03-11T18:06:26",
           "module": "System.Log.FastLogger",
           "name": "toLogStr",
           "normalized": "a-\u003eLogStr",

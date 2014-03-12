@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hack-middleware-clientsession"
+        "phrase": "hack-middleware-clientsession",
+        "type": "phrase"
       },
       "type": "context"
     }

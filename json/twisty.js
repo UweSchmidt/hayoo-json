@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "twisty"
+        "phrase": "twisty",
+        "type": "phrase"
       },
       "type": "context"
     }

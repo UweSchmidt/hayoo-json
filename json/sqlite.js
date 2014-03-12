@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sqlite"
+        "phrase": "sqlite",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNote: the quary part of this modules was imported (with modifications)\n from the lowest layer of abstraction of HaskellDB.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Types",
           "package": "sqlite",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Note the quary part of this modules was imported with modifications from the lowest layer of abstraction of HaskellDB",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Types",
           "package": "sqlite",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "BlobType",
           "package": "sqlite",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "BlobType",
           "package": "sqlite",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Clause",
           "package": "sqlite",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Clause",
           "package": "sqlite",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe parameterize over column type, since SQL engines\n do tend to provide their own set of supported datatypes\n (which may or may not map onto SQL99's set of types.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Column",
           "package": "sqlite",
@@ -93,6 +100,7 @@
         "index": {
           "description": "We parameterize over column type since SQL engines do tend to provide their own set of supported datatypes which may or may not map onto SQL99 set of types",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Column",
           "package": "sqlite",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ColumnName",
           "package": "sqlite",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ColumnName",
           "package": "sqlite",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Constraint",
           "package": "sqlite",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Constraint",
           "package": "sqlite",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DatabaseName",
           "package": "sqlite",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DatabaseName",
           "package": "sqlite",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DateTimeType",
           "package": "sqlite",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DateTimeType",
           "package": "sqlite",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Deferment",
           "package": "sqlite",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Deferment",
           "package": "sqlite",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ForeignUpdateAction",
           "package": "sqlite",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ForeignUpdateAction",
           "package": "sqlite",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ForeignUpdateCondition",
           "package": "sqlite",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ForeignUpdateCondition",
           "package": "sqlite",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "IntType",
           "package": "sqlite",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "IntType",
           "package": "sqlite",
@@ -275,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoin with another table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Join",
           "package": "sqlite",
@@ -284,6 +309,7 @@
         "index": {
           "description": "Join with another table",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Join",
           "package": "sqlite",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "OpName",
           "package": "sqlite",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "OpName",
           "package": "sqlite",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "PrettySQL",
           "package": "sqlite",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "PrettySQL",
           "package": "sqlite",
@@ -340,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL CREATE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLCreate",
           "package": "sqlite",
@@ -349,6 +380,7 @@
         "index": {
           "description": "Data type for SQL CREATE statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLCreate",
           "package": "sqlite",
@@ -363,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL DELETE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDelete",
           "package": "sqlite",
@@ -372,6 +405,7 @@
         "index": {
           "description": "Data type for SQL DELETE statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDelete",
           "package": "sqlite",
@@ -386,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type representing the SQL DROP statement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDrop",
           "package": "sqlite",
@@ -395,6 +430,7 @@
         "index": {
           "description": "Data type representing the SQL DROP statement",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDrop",
           "package": "sqlite",
@@ -409,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpressions in SQL statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLExpr",
           "package": "sqlite",
@@ -418,6 +455,7 @@
         "index": {
           "description": "Expressions in SQL statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLExpr",
           "package": "sqlite",
@@ -432,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL INSERT statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLInsert",
           "package": "sqlite",
@@ -441,6 +480,7 @@
         "index": {
           "description": "Data type for SQL INSERT statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLInsert",
           "package": "sqlite",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLOrder",
           "package": "sqlite",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLOrder",
           "package": "sqlite",
@@ -476,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL SELECT statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLSelect",
           "package": "sqlite",
@@ -485,6 +528,7 @@
         "index": {
           "description": "Data type for SQL SELECT statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLSelect",
           "package": "sqlite",
@@ -498,6 +542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLTable",
           "package": "sqlite",
@@ -506,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLTable",
           "package": "sqlite",
@@ -520,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMySQL slanted, but also SQLite friendly if you don't get\n too fancy..\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLType",
           "package": "sqlite",
@@ -529,6 +576,7 @@
         "index": {
           "description": "MySQL slanted but also SQLite friendly if you don get too fancy",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLType",
           "package": "sqlite",
@@ -543,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for SQL UPDATE statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLUpdate",
           "package": "sqlite",
@@ -552,6 +601,7 @@
         "index": {
           "description": "Data type for SQL UPDATE statements",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLUpdate",
           "package": "sqlite",
@@ -565,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SelectSource",
           "package": "sqlite",
@@ -573,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SelectSource",
           "package": "sqlite",
@@ -586,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Table",
           "package": "sqlite",
@@ -594,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Table",
           "package": "sqlite",
@@ -607,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TableName",
           "package": "sqlite",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TableName",
           "package": "sqlite",
@@ -629,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse empty string for no alias.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TableSource",
           "package": "sqlite",
@@ -638,6 +695,7 @@
         "index": {
           "description": "Use empty string for no alias",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TableSource",
           "package": "sqlite",
@@ -651,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "BIG",
           "package": "sqlite",
@@ -660,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "BIG",
           "package": "sqlite",
@@ -673,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "BinSQLExpr",
           "package": "sqlite",
@@ -682,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "BinSQLExpr",
           "package": "sqlite",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Cascade",
           "package": "sqlite",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Cascade",
           "package": "sqlite",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "CaseSQLExpr",
           "package": "sqlite",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "CaseSQLExpr",
           "normalized": "CaseSQLExpr[(SQLExpr,SQLExpr)]SQLExpr",
@@ -741,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Clustered",
           "package": "sqlite",
@@ -750,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Clustered",
           "package": "sqlite",
@@ -763,6 +831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Column",
           "package": "sqlite",
@@ -772,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Column",
           "package": "sqlite",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ColumnSQLExpr",
           "package": "sqlite",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ColumnSQLExpr",
           "package": "sqlite",
@@ -807,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ConstSQLExpr",
           "package": "sqlite",
@@ -816,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ConstSQLExpr",
           "package": "sqlite",
@@ -829,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DATE",
           "package": "sqlite",
@@ -838,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DATE",
           "package": "sqlite",
@@ -851,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DATETIME",
           "package": "sqlite",
@@ -860,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DATETIME",
           "package": "sqlite",
@@ -873,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DefaultValue",
           "package": "sqlite",
@@ -882,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DefaultValue",
           "package": "sqlite",
@@ -895,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Deferrable",
           "package": "sqlite",
@@ -904,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Deferrable",
           "package": "sqlite",
@@ -917,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DeferrableInitiallyDeferred",
           "package": "sqlite",
@@ -926,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DeferrableInitiallyDeferred",
           "package": "sqlite",
@@ -939,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "DeferrableInitiallyImmediate",
           "package": "sqlite",
@@ -948,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "DeferrableInitiallyImmediate",
           "package": "sqlite",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ForeignKey",
           "package": "sqlite",
@@ -970,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ForeignKey",
           "normalized": "ForeignKey TableName[ColumnName][ForeignUpdateCondition](Maybe Deferment)",
@@ -985,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "From",
           "package": "sqlite",
@@ -994,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "From",
           "normalized": "From TableSource[Join]",
@@ -1009,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "FunSQLExpr",
           "package": "sqlite",
@@ -1018,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "FunSQLExpr",
           "normalized": "FunSQLExpr OpName[SQLExpr]",
@@ -1033,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "IsNullable",
           "package": "sqlite",
@@ -1042,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "IsNullable",
           "package": "sqlite",
@@ -1055,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Join",
           "package": "sqlite",
@@ -1064,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Join",
           "normalized": "Join OpName TableSource(Maybe(OpName,SQLExpr))",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "ListSQLExpr",
           "package": "sqlite",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "ListSQLExpr",
           "normalized": "ListSQLExpr[SQLExpr]",
@@ -1103,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "LongBlob",
           "package": "sqlite",
@@ -1112,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "LongBlob",
           "package": "sqlite",
@@ -1125,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "MEDIUM",
           "package": "sqlite",
@@ -1134,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "MEDIUM",
           "package": "sqlite",
@@ -1147,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Match",
           "package": "sqlite",
@@ -1156,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Match",
           "package": "sqlite",
@@ -1169,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "MediumBlob",
           "package": "sqlite",
@@ -1178,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "MediumBlob",
           "package": "sqlite",
@@ -1191,6 +1297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NORMAL",
           "package": "sqlite",
@@ -1200,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NORMAL",
           "package": "sqlite",
@@ -1213,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NoAction",
           "package": "sqlite",
@@ -1222,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NoAction",
           "package": "sqlite",
@@ -1235,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NormalBlob",
           "package": "sqlite",
@@ -1244,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NormalBlob",
           "package": "sqlite",
@@ -1257,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NotDeferrable",
           "package": "sqlite",
@@ -1266,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NotDeferrable",
           "package": "sqlite",
@@ -1279,6 +1393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NotDeferrableInitiallyDeferred",
           "package": "sqlite",
@@ -1288,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NotDeferrableInitiallyDeferred",
           "package": "sqlite",
@@ -1301,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "NotDeferrableInitiallyImmediate",
           "package": "sqlite",
@@ -1310,6 +1427,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "NotDeferrableInitiallyImmediate",
           "package": "sqlite",
@@ -1323,6 +1441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "OnDelete",
           "package": "sqlite",
@@ -1332,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "OnDelete",
           "package": "sqlite",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "OnUpdate",
           "package": "sqlite",
@@ -1354,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "OnUpdate",
           "package": "sqlite",
@@ -1367,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "PostfixSQLExpr",
           "package": "sqlite",
@@ -1376,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "PostfixSQLExpr",
           "package": "sqlite",
@@ -1389,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "PrefixSQLExpr",
           "package": "sqlite",
@@ -1398,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "PrefixSQLExpr",
           "package": "sqlite",
@@ -1412,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuto-increment?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "PrimaryKey",
           "package": "sqlite",
@@ -1422,6 +1549,7 @@
         "index": {
           "description": "Auto-increment",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "PrimaryKey",
           "package": "sqlite",
@@ -1435,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Restrict",
           "package": "sqlite",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Restrict",
           "package": "sqlite",
@@ -1457,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SMALL",
           "package": "sqlite",
@@ -1466,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SMALL",
           "package": "sqlite",
@@ -1479,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLAsc",
           "package": "sqlite",
@@ -1488,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLAsc",
           "package": "sqlite",
@@ -1502,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUNION, etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLBin",
           "package": "sqlite",
@@ -1512,6 +1647,7 @@
         "index": {
           "description": "UNION etc",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLBin",
           "package": "sqlite",
@@ -1525,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLBlob",
           "package": "sqlite",
@@ -1534,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLBlob",
           "package": "sqlite",
@@ -1547,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLBoolean",
           "package": "sqlite",
@@ -1556,6 +1695,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLBoolean",
           "package": "sqlite",
@@ -1569,6 +1709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLChar",
           "package": "sqlite",
@@ -1578,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLChar",
           "package": "sqlite",
@@ -1592,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLCreateDB",
           "package": "sqlite",
@@ -1602,6 +1745,7 @@
         "index": {
           "description": "Create database",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLCreateDB",
           "package": "sqlite",
@@ -1616,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a table\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLCreateTable",
           "package": "sqlite",
@@ -1626,6 +1771,7 @@
         "index": {
           "description": "Create table",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLCreateTable",
           "package": "sqlite",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDateTime",
           "package": "sqlite",
@@ -1648,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDateTime",
           "package": "sqlite",
@@ -1661,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDecimal",
           "package": "sqlite",
@@ -1670,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDecimal",
           "package": "sqlite",
@@ -1683,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDelete",
           "package": "sqlite",
@@ -1692,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDelete",
           "normalized": "SQLDelete TableName[SQLExpr]",
@@ -1707,6 +1859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDesc",
           "package": "sqlite",
@@ -1716,6 +1869,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDesc",
           "package": "sqlite",
@@ -1730,6 +1884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDropDB",
           "package": "sqlite",
@@ -1740,6 +1895,7 @@
         "index": {
           "description": "Delete database",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDropDB",
           "package": "sqlite",
@@ -1754,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a table named SQLTable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLDropTable",
           "package": "sqlite",
@@ -1764,6 +1921,7 @@
         "index": {
           "description": "Delete table named SQLTable",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLDropTable",
           "package": "sqlite",
@@ -1777,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLFloat",
           "package": "sqlite",
@@ -1786,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLFloat",
           "package": "sqlite",
@@ -1799,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLInsert",
           "package": "sqlite",
@@ -1808,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLInsert",
           "normalized": "SQLInsert TableName[ColumnName][SQLExpr]",
@@ -1823,6 +1985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLInsertQuery",
           "package": "sqlite",
@@ -1832,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLInsertQuery",
           "normalized": "SQLInsertQuery TableName[ColumnName]SQLSelect",
@@ -1847,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLInt",
           "package": "sqlite",
@@ -1856,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLInt",
           "package": "sqlite",
@@ -1869,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLSelect",
           "package": "sqlite",
@@ -1878,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLSelect",
           "package": "sqlite",
@@ -1891,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLUpdate",
           "package": "sqlite",
@@ -1900,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLUpdate",
           "normalized": "SQLUpdate TableName[(ColumnName,SQLExpr)][SQLExpr]",
@@ -1915,6 +2085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SQLVarChar",
           "package": "sqlite",
@@ -1924,6 +2095,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SQLVarChar",
           "package": "sqlite",
@@ -1937,6 +2109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SetDefault",
           "package": "sqlite",
@@ -1946,6 +2119,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SetDefault",
           "package": "sqlite",
@@ -1959,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SetNull",
           "package": "sqlite",
@@ -1968,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SetNull",
           "package": "sqlite",
@@ -1981,6 +2157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SrcSelect",
           "package": "sqlite",
@@ -1990,6 +2167,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SrcSelect",
           "package": "sqlite",
@@ -2003,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "SrcTable",
           "package": "sqlite",
@@ -2012,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "SrcTable",
           "package": "sqlite",
@@ -2025,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TIME",
           "package": "sqlite",
@@ -2034,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TIME",
           "package": "sqlite",
@@ -2047,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TIMESTAMP",
           "package": "sqlite",
@@ -2056,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TIMESTAMP",
           "package": "sqlite",
@@ -2069,6 +2253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TINY",
           "package": "sqlite",
@@ -2078,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TINY",
           "package": "sqlite",
@@ -2091,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Table",
           "package": "sqlite",
@@ -2100,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Table",
           "package": "sqlite",
@@ -2113,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TableCheck",
           "package": "sqlite",
@@ -2122,6 +2311,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TableCheck",
           "package": "sqlite",
@@ -2135,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TablePrimaryKey",
           "package": "sqlite",
@@ -2144,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TablePrimaryKey",
           "normalized": "TablePrimaryKey[ColumnName]",
@@ -2159,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TableUnique",
           "package": "sqlite",
@@ -2168,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TableUnique",
           "normalized": "TableUnique[ColumnName]",
@@ -2183,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "TinyBlob",
           "package": "sqlite",
@@ -2192,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "TinyBlob",
           "package": "sqlite",
@@ -2205,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "Unique",
           "package": "sqlite",
@@ -2214,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "Unique",
           "package": "sqlite",
@@ -2227,6 +2425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "VirtualTable",
           "package": "sqlite",
@@ -2236,6 +2435,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "VirtualTable",
           "package": "sqlite",
@@ -2249,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "YEAR",
           "package": "sqlite",
@@ -2258,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "YEAR",
           "package": "sqlite",
@@ -2271,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "attrs",
           "package": "sqlite",
@@ -2280,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "attrs",
           "normalized": "[(SQLExpr,String)]",
@@ -2294,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "colClauses",
           "package": "sqlite",
@@ -2303,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "colClauses",
           "normalized": "[Clause]",
@@ -2318,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "colName",
           "package": "sqlite",
@@ -2327,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "colName",
           "package": "sqlite",
@@ -2340,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "colType",
           "package": "sqlite",
@@ -2349,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "colType",
           "package": "sqlite",
@@ -2363,6 +2573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWHERE\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "criteria",
           "package": "sqlite",
@@ -2373,6 +2584,7 @@
         "index": {
           "description": "WHERE",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "criteria",
           "normalized": "[SQLExpr]",
@@ -2387,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "export_sql",
           "package": "sqlite",
@@ -2396,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "export_sql",
           "normalized": "a-\u003eString",
@@ -2411,6 +2625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTOP n, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "extra",
           "package": "sqlite",
@@ -2421,6 +2636,7 @@
         "index": {
           "description": "TOP etc",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "extra",
           "normalized": "[String]",
@@ -2436,6 +2652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGROUP BY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "groupby",
           "package": "sqlite",
@@ -2446,6 +2663,7 @@
         "index": {
           "description": "GROUP BY",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "groupby",
           "normalized": "[SQLExpr]",
@@ -2461,6 +2679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDISTINCT, ALL etc.\n | result, alias.  Empty list means \u003ca\u003eselect all\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "options",
           "package": "sqlite",
@@ -2471,6 +2690,7 @@
         "index": {
           "description": "DISTINCT ALL etc result alias Empty list means select all",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "options",
           "normalized": "[String]",
@@ -2486,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eORDER BY\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "orderby",
           "package": "sqlite",
@@ -2496,6 +2717,7 @@
         "index": {
           "description": "ORDER BY",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "orderby",
           "normalized": "[(SQLExpr,SQLOrder)]",
@@ -2510,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "pp_sql",
           "package": "sqlite",
@@ -2519,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "pp_sql",
           "normalized": "a-\u003eDoc",
@@ -2533,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "select_all",
           "package": "sqlite",
@@ -2542,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "select_all",
           "normalized": "SelectSource-\u003eSQLSelect",
@@ -2556,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "showClause",
           "package": "sqlite",
@@ -2565,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "showClause",
           "normalized": "Clause-\u003eString",
@@ -2580,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "showType",
           "package": "sqlite",
@@ -2589,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "showType",
           "normalized": "SQLType-\u003eString",
@@ -2604,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "tabColumns",
           "package": "sqlite",
@@ -2613,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "tabColumns",
           "normalized": "[Column a]",
@@ -2628,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "tabConstraints",
           "package": "sqlite",
@@ -2637,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "tabConstraints",
           "normalized": "[Constraint]",
@@ -2652,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "tabName",
           "package": "sqlite",
@@ -2661,6 +2896,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "tabName",
           "package": "sqlite",
@@ -2674,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "tabUsing",
           "package": "sqlite",
@@ -2683,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "tabUsing",
           "package": "sqlite",
@@ -2697,6 +2935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFROM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "tables",
           "package": "sqlite",
@@ -2707,6 +2946,7 @@
         "index": {
           "description": "FROM",
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "tables",
           "package": "sqlite",
@@ -2719,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL.Types",
           "name": "toSQLString",
           "package": "sqlite",
@@ -2728,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Database SQL Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL.Types",
           "name": "toSQLString",
           "normalized": "String-\u003eString",
@@ -2743,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL",
           "name": "SQL",
           "package": "sqlite",
@@ -2751,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Database SQL",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL",
           "name": "SQL",
           "package": "sqlite",
@@ -2764,6 +3008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQL",
           "name": "sqlInsert",
           "package": "sqlite",
@@ -2773,6 +3018,7 @@
         },
         "index": {
           "hierarchy": "Database SQL",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQL",
           "name": "sqlInsert",
           "normalized": "TableName-\u003e[(ColumnName,SQLExpr)]-\u003eSQLInsert",
@@ -2789,6 +3035,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe documentation for these functions is at:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/funclist.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "Base",
           "package": "sqlite",
@@ -2798,6 +3045,7 @@
         "index": {
           "description": "The documentation for these functions is at http www.sqlite.org c3ref funclist.html",
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "Base",
           "package": "sqlite",
@@ -2811,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "CollationHandler",
           "package": "sqlite",
@@ -2819,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "CollationHandler",
           "package": "sqlite",
@@ -2832,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "CollationHandler16",
           "package": "sqlite",
@@ -2840,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "CollationHandler16",
           "package": "sqlite",
@@ -2853,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "CompareHandler",
           "package": "sqlite",
@@ -2861,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "CompareHandler",
           "package": "sqlite",
@@ -2874,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "ExecHandler",
           "package": "sqlite",
@@ -2882,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "ExecHandler",
           "package": "sqlite",
@@ -2895,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "FilterHandler",
           "package": "sqlite",
@@ -2903,6 +3160,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "FilterHandler",
           "package": "sqlite",
@@ -2916,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "FinalizeContextHandler",
           "package": "sqlite",
@@ -2924,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "FinalizeContextHandler",
           "package": "sqlite",
@@ -2937,6 +3197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "FreeHandler",
           "package": "sqlite",
@@ -2945,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "FreeHandler",
           "package": "sqlite",
@@ -2958,6 +3220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "StepHandler",
           "package": "sqlite",
@@ -2966,6 +3229,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "StepHandler",
           "package": "sqlite",
@@ -2979,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "UpdateHook",
           "package": "sqlite",
@@ -2987,6 +3252,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "UpdateHook",
           "package": "sqlite",
@@ -3000,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkCollationHandler",
           "package": "sqlite",
@@ -3009,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkCollationHandler",
           "normalized": "CollationHandler-\u003eIO(SQLiteCallback CollationHandler)",
@@ -3024,6 +3292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkCollationHandler16",
           "package": "sqlite",
@@ -3033,6 +3302,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkCollationHandler16",
           "normalized": "CollationHandler-\u003eIO(SQLiteCallback CollationHandler)",
@@ -3048,6 +3318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkCompareHandler",
           "package": "sqlite",
@@ -3057,6 +3328,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkCompareHandler",
           "normalized": "CompareHandler-\u003eIO(SQLiteCallback CompareHandler)",
@@ -3072,6 +3344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkExecHandler",
           "package": "sqlite",
@@ -3081,6 +3354,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkExecHandler",
           "normalized": "ExecHandler-\u003eIO(SQLiteCallback ExecHandler)",
@@ -3096,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkFilterHandler",
           "package": "sqlite",
@@ -3105,6 +3380,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkFilterHandler",
           "normalized": "FilterHandler-\u003eIO(SQLiteCallback FilterHandler)",
@@ -3120,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkFinalizeContextHandler",
           "package": "sqlite",
@@ -3129,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkFinalizeContextHandler",
           "normalized": "FinalizeContextHandler-\u003eIO(SQLiteCallback FinalizeContextHandler)",
@@ -3144,6 +3422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkFreeHandler",
           "package": "sqlite",
@@ -3153,6 +3432,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkFreeHandler",
           "normalized": "FreeHandler-\u003eIO(SQLiteCallback FreeHandler)",
@@ -3168,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkStepHandler",
           "package": "sqlite",
@@ -3177,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkStepHandler",
           "normalized": "StepHandler-\u003eIO(SQLiteCallback StepHandler)",
@@ -3192,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "mkUpdateHook",
           "package": "sqlite",
@@ -3201,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "mkUpdateHook",
           "normalized": "UpdateHook-\u003eIO(SQLiteCallback UpdateHook)",
@@ -3216,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_aggregate_context",
           "package": "sqlite",
@@ -3225,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_aggregate_context",
           "normalized": "SQLiteContext-\u003eCInt-\u003eIO SQLiteContextBuffer",
@@ -3239,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_blob",
           "package": "sqlite",
@@ -3248,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_blob",
           "normalized": "SQLiteStmt-\u003eCInt-\u003ePtr()-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO Status",
@@ -3262,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_double",
           "package": "sqlite",
@@ -3271,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_double",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eDouble-\u003eIO Status",
@@ -3285,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_int",
           "package": "sqlite",
@@ -3294,6 +3585,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_int",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eCInt-\u003eIO Status",
@@ -3308,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_int64",
           "package": "sqlite",
@@ -3317,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_int64",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eSQLiteInt-\u003eIO Status",
@@ -3331,6 +3625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_null",
           "package": "sqlite",
@@ -3340,6 +3635,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_null",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO Status",
@@ -3354,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_count",
           "package": "sqlite",
@@ -3363,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_count",
           "normalized": "SQLiteStmt-\u003eIO CInt",
@@ -3377,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_index",
           "package": "sqlite",
@@ -3386,6 +3685,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_index",
           "normalized": "SQLiteStmt-\u003eCString-\u003eIO CInt",
@@ -3400,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_name",
           "package": "sqlite",
@@ -3409,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_parameter_name",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CString",
@@ -3423,6 +3725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_text",
           "package": "sqlite",
@@ -3432,6 +3735,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_text",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eCString-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO())-\u003eIO Status",
@@ -3446,6 +3750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_value",
           "package": "sqlite",
@@ -3455,6 +3760,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_value",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eSQLiteValue-\u003eIO Status",
@@ -3469,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_zeroblob",
           "package": "sqlite",
@@ -3478,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_bind_zeroblob",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eCInt-\u003eIO Status",
@@ -3492,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_bytes",
           "package": "sqlite",
@@ -3501,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_bytes",
           "normalized": "SQLiteBLOB-\u003eIO CInt",
@@ -3515,6 +3825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_close",
           "package": "sqlite",
@@ -3524,6 +3835,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_close",
           "normalized": "SQLiteBLOB-\u003eIO Status",
@@ -3538,6 +3850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_open",
           "package": "sqlite",
@@ -3547,6 +3860,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_open",
           "normalized": "SQLite-\u003eCString-\u003eCString-\u003eCString-\u003eSQLiteInt-\u003eBool-\u003ePtr SQLiteBLOB-\u003eIO Status",
@@ -3561,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_read",
           "package": "sqlite",
@@ -3570,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_read",
           "normalized": "SQLiteBLOB-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO Status",
@@ -3584,6 +3900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_write",
           "package": "sqlite",
@@ -3593,6 +3910,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_blob_write",
           "normalized": "SQLiteBLOB-\u003ePtr()-\u003eCInt-\u003eCInt-\u003eIO Status",
@@ -3607,6 +3925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_busy_handler",
           "package": "sqlite",
@@ -3616,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_busy_handler",
           "normalized": "SQLite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eIO CInt)-\u003ePtr()-\u003eIO Status",
@@ -3630,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_busy_timeout",
           "package": "sqlite",
@@ -3639,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_busy_timeout",
           "normalized": "SQLite-\u003eCInt-\u003eIO Status",
@@ -3653,6 +3975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_changes",
           "package": "sqlite",
@@ -3662,6 +3985,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_changes",
           "normalized": "SQLite-\u003eIO CInt",
@@ -3676,6 +4000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_clear_bindings",
           "package": "sqlite",
@@ -3685,6 +4010,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_clear_bindings",
           "normalized": "SQLiteStmt-\u003eIO Status",
@@ -3699,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_close",
           "package": "sqlite",
@@ -3708,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_close",
           "normalized": "SQLite-\u003eIO Status",
@@ -3722,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_collation_needed",
           "package": "sqlite",
@@ -3731,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_collation_needed",
           "normalized": "SQLite-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback CollationHandler-\u003eIO Status",
@@ -3745,6 +4075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_collation_needed16",
           "package": "sqlite",
@@ -3754,6 +4085,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_collation_needed16",
           "normalized": "SQLite-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback CollationHandler-\u003eIO Status",
@@ -3768,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_blob",
           "package": "sqlite",
@@ -3777,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_blob",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO(Ptr())",
@@ -3791,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_bytes",
           "package": "sqlite",
@@ -3800,6 +4135,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_bytes",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CInt",
@@ -3814,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_bytes16",
           "package": "sqlite",
@@ -3823,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_bytes16",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CInt",
@@ -3837,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_count",
           "package": "sqlite",
@@ -3846,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_count",
           "normalized": "SQLiteStmt-\u003eIO CInt",
@@ -3860,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_decltype",
           "package": "sqlite",
@@ -3869,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_decltype",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CString",
@@ -3883,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_double",
           "package": "sqlite",
@@ -3892,6 +4235,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_double",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO Double",
@@ -3906,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_int",
           "package": "sqlite",
@@ -3915,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_int",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CInt",
@@ -3929,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_int64",
           "package": "sqlite",
@@ -3938,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_int64",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO SQLiteInt",
@@ -3952,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_name",
           "package": "sqlite",
@@ -3961,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_name",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CString",
@@ -3975,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_text",
           "package": "sqlite",
@@ -3984,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_text",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CString",
@@ -3998,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_text16",
           "package": "sqlite",
@@ -4007,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_text16",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO SQLiteUTF",
@@ -4021,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_type",
           "package": "sqlite",
@@ -4030,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_type",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO CInt",
@@ -4044,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_value",
           "package": "sqlite",
@@ -4053,6 +4410,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_column_value",
           "normalized": "SQLiteStmt-\u003eCInt-\u003eIO SQLiteValue",
@@ -4067,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_commit_hook",
           "package": "sqlite",
@@ -4076,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_commit_hook",
           "normalized": "SQLite-\u003eSQLiteCallback FilterHandler-\u003eSQLiteCallbackUserData-\u003eIO(SQLiteCallback FilterHandler)",
@@ -4090,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_complete",
           "package": "sqlite",
@@ -4099,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_complete",
           "normalized": "CString-\u003eIO Bool",
@@ -4113,6 +4475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_complete16",
           "package": "sqlite",
@@ -4122,6 +4485,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_complete16",
           "normalized": "SQLiteUTF-\u003eIO Bool",
@@ -4136,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation",
           "package": "sqlite",
@@ -4145,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation",
           "normalized": "SQLite-\u003eCString-\u003eTextEncodeFlag-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback CompareHandler-\u003eIO Status",
@@ -4159,6 +4525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation16",
           "package": "sqlite",
@@ -4168,6 +4535,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation16",
           "normalized": "SQLite-\u003eSQLiteUTF-\u003eTextEncodeFlag-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback CompareHandler-\u003eIO Status",
@@ -4182,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation_v2",
           "package": "sqlite",
@@ -4191,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_collation_v2",
           "normalized": "SQLite-\u003eCString-\u003eTextEncodeFlag-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback CompareHandler-\u003eSQLiteCallback FreeHandler-\u003eIO Status",
@@ -4205,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_function",
           "package": "sqlite",
@@ -4214,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_create_function",
           "normalized": "SQLite-\u003eCString-\u003eCInt-\u003eTextEncodeFlag-\u003eSQLiteCallbackUserData-\u003eSQLiteCallback StepHandler-\u003eSQLiteCallback StepHandler-\u003eSQLiteCallback FinalizeContextHandler-\u003eIO CInt",
@@ -4228,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_data_count",
           "package": "sqlite",
@@ -4237,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_data_count",
           "normalized": "SQLiteStmt-\u003eIO Status",
@@ -4251,6 +4625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_db_handle",
           "package": "sqlite",
@@ -4260,6 +4635,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_db_handle",
           "normalized": "SQLiteStmt-\u003eIO SQLite",
@@ -4274,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_enable_shared_cache",
           "package": "sqlite",
@@ -4283,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_enable_shared_cache",
           "normalized": "CInt-\u003eIO CInt",
@@ -4297,6 +4675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_errcode",
           "package": "sqlite",
@@ -4306,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_errcode",
           "normalized": "SQLite-\u003eIO Status",
@@ -4320,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_errmsg",
           "package": "sqlite",
@@ -4329,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_errmsg",
           "normalized": "SQLite-\u003eIO CString",
@@ -4343,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_exec",
           "package": "sqlite",
@@ -4352,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_exec",
           "normalized": "SQLite-\u003eCString-\u003eSQLiteCallback ExecHandler-\u003eSQLiteCallbackUserData-\u003ePtr CString-\u003eIO Status",
@@ -4366,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_extended_result_codes",
           "package": "sqlite",
@@ -4375,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_extended_result_codes",
           "normalized": "SQLite-\u003eBool-\u003eIO Status",
@@ -4389,6 +4775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_finalize",
           "package": "sqlite",
@@ -4398,6 +4785,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_finalize",
           "normalized": "SQLiteStmt-\u003eIO Status",
@@ -4412,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_free",
           "package": "sqlite",
@@ -4421,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_free",
           "normalized": "Ptr()-\u003eIO()",
@@ -4435,6 +4825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_free_table",
           "package": "sqlite",
@@ -4444,6 +4835,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_free_table",
           "normalized": "Ptr(Ptr CString)-\u003eIO()",
@@ -4458,6 +4850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_autocommit",
           "package": "sqlite",
@@ -4467,6 +4860,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_autocommit",
           "normalized": "SQLite-\u003eIO Bool",
@@ -4481,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_auxdata",
           "package": "sqlite",
@@ -4490,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_auxdata",
           "normalized": "SQLiteContext-\u003eCInt-\u003eIO(Ptr())",
@@ -4504,6 +4900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_table",
           "package": "sqlite",
@@ -4513,6 +4910,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_table",
           "normalized": "SQLite-\u003eCString-\u003ePtr(Ptr CString)-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr(Ptr CString)-\u003eIO Status",
@@ -4527,6 +4925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_temp_directory",
           "package": "sqlite",
@@ -4536,6 +4935,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_get_temp_directory",
           "package": "sqlite",
@@ -4548,6 +4948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_interrupt",
           "package": "sqlite",
@@ -4557,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_interrupt",
           "normalized": "SQLite-\u003eIO()",
@@ -4571,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_last_insert_rowid",
           "package": "sqlite",
@@ -4580,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_last_insert_rowid",
           "normalized": "SQLite-\u003eIO SQLiteInt",
@@ -4594,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_libversion",
           "package": "sqlite",
@@ -4603,6 +5008,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_libversion",
           "package": "sqlite",
@@ -4615,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_libversion_number",
           "package": "sqlite",
@@ -4624,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_libversion_number",
           "package": "sqlite",
@@ -4636,6 +5044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_malloc",
           "package": "sqlite",
@@ -4645,6 +5054,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_malloc",
           "normalized": "CInt-\u003eIO(Ptr())",
@@ -4659,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open",
           "package": "sqlite",
@@ -4668,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open",
           "normalized": "CString-\u003ePtr SQLite-\u003eIO Status",
@@ -4682,6 +5094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open16",
           "package": "sqlite",
@@ -4691,6 +5104,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open16",
           "normalized": "SQLiteUTF-\u003ePtr SQLite-\u003eIO Status",
@@ -4705,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open_v2",
           "package": "sqlite",
@@ -4714,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_open_v2",
           "normalized": "CString-\u003ePtr SQLite-\u003eOpenFlags-\u003eCString-\u003eIO Status",
@@ -4728,6 +5144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_prepare",
           "package": "sqlite",
@@ -4737,6 +5154,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_prepare",
           "normalized": "SQLite-\u003eCString-\u003eCInt-\u003ePtr SQLiteStmt-\u003ePtr CString-\u003eIO Status",
@@ -4751,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_profile",
           "package": "sqlite",
@@ -4760,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_profile",
           "normalized": "SQLite-\u003eFunPtr(Ptr()-\u003eCString-\u003eSQLiteInt-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -4774,6 +5194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_progress_handler",
           "package": "sqlite",
@@ -4783,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_progress_handler",
           "normalized": "SQLite-\u003eCInt-\u003eFunPtr(Ptr()-\u003eIO CInt)-\u003ePtr()-\u003eIO()",
@@ -4797,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_realloc",
           "package": "sqlite",
@@ -4806,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_realloc",
           "normalized": "Ptr()-\u003eCInt-\u003eIO(Ptr())",
@@ -4820,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_blob",
           "package": "sqlite",
@@ -4829,6 +5254,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_blob",
           "normalized": "SQLiteContext-\u003ePtr()-\u003eCInt-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -4843,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_double",
           "package": "sqlite",
@@ -4852,6 +5279,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_double",
           "normalized": "SQLiteContext-\u003eDouble-\u003eIO()",
@@ -4866,6 +5294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error",
           "package": "sqlite",
@@ -4875,6 +5304,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error",
           "normalized": "SQLiteContext-\u003eCString-\u003eCInt-\u003eIO()",
@@ -4889,6 +5319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error16",
           "package": "sqlite",
@@ -4898,6 +5329,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error16",
           "normalized": "SQLiteContext-\u003eSQLiteUTF-\u003eCInt-\u003eIO()",
@@ -4912,6 +5344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error_toobig",
           "package": "sqlite",
@@ -4921,6 +5354,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_error_toobig",
           "normalized": "SQLiteContext-\u003eIO()",
@@ -4935,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_int",
           "package": "sqlite",
@@ -4944,6 +5379,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_int",
           "normalized": "SQLiteContext-\u003eCInt-\u003eIO()",
@@ -4958,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_int64",
           "package": "sqlite",
@@ -4967,6 +5404,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_int64",
           "normalized": "SQLiteContext-\u003eSQLiteInt-\u003eIO()",
@@ -4981,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_null",
           "package": "sqlite",
@@ -4990,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_null",
           "normalized": "SQLiteContext-\u003eIO()",
@@ -5004,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text",
           "package": "sqlite",
@@ -5013,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text",
           "normalized": "SQLiteContext-\u003eCString-\u003eCInt-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -5027,6 +5469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16",
           "package": "sqlite",
@@ -5036,6 +5479,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16",
           "normalized": "SQLiteContext-\u003eSQLiteUTF-\u003eCInt-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -5050,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16be",
           "package": "sqlite",
@@ -5059,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16be",
           "normalized": "SQLiteContext-\u003eSQLiteUTF-\u003eCInt-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -5073,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16le",
           "package": "sqlite",
@@ -5082,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_text16le",
           "normalized": "SQLiteContext-\u003eSQLiteUTF-\u003eCInt-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -5096,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_value",
           "package": "sqlite",
@@ -5105,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_value",
           "normalized": "SQLiteContext-\u003eSQLiteValue-\u003eIO()",
@@ -5119,6 +5569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_zeroblob",
           "package": "sqlite",
@@ -5128,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_result_zeroblob",
           "normalized": "SQLiteContext-\u003eCInt-\u003eIO()",
@@ -5142,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_rollback_hook",
           "package": "sqlite",
@@ -5151,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_rollback_hook",
           "normalized": "SQLite-\u003eSQLiteCallback FreeHandler-\u003eSQLiteCallbackUserData-\u003eIO(SQLiteCallback FreeHandler)",
@@ -5165,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_authorizer",
           "package": "sqlite",
@@ -5174,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_authorizer",
           "normalized": "SQLite-\u003eFunPtr(Ptr()-\u003eCInt-\u003eCString-\u003eCString-\u003eCString-\u003eCString-\u003eIO Status)-\u003ePtr()-\u003eIO Status",
@@ -5188,6 +5644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_auxdata",
           "package": "sqlite",
@@ -5197,6 +5654,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_auxdata",
           "normalized": "SQLiteContext-\u003eCInt-\u003ePtr()-\u003eSQLiteCallback FreeHandler-\u003eIO()",
@@ -5211,6 +5669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_temp_directory",
           "package": "sqlite",
@@ -5220,6 +5679,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_set_temp_directory",
           "normalized": "CString-\u003eIO()",
@@ -5234,6 +5694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_sleep",
           "package": "sqlite",
@@ -5243,6 +5704,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_sleep",
           "normalized": "CInt-\u003eIO Status",
@@ -5257,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_static_destructor",
           "package": "sqlite",
@@ -5266,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_static_destructor",
           "package": "sqlite",
@@ -5278,6 +5742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_step",
           "package": "sqlite",
@@ -5287,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_step",
           "normalized": "SQLiteStmt-\u003eIO Status",
@@ -5301,6 +5767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_total_changes",
           "package": "sqlite",
@@ -5310,6 +5777,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_total_changes",
           "normalized": "SQLite-\u003eIO CInt",
@@ -5324,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_trace",
           "package": "sqlite",
@@ -5333,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_trace",
           "normalized": "SQLite-\u003eFunPtr(Ptr()-\u003eCString-\u003eIO())-\u003ePtr()-\u003eIO(Ptr())",
@@ -5347,6 +5817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_transient_destructor",
           "package": "sqlite",
@@ -5356,6 +5827,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_transient_destructor",
           "package": "sqlite",
@@ -5368,6 +5840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_update_hook",
           "package": "sqlite",
@@ -5377,6 +5850,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_update_hook",
           "normalized": "SQLite-\u003eSQLiteCallback UpdateHook-\u003eSQLiteCallbackUserData-\u003eIO(SQLiteCallback FreeHandler)",
@@ -5391,6 +5865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_user_data",
           "package": "sqlite",
@@ -5400,6 +5875,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_user_data",
           "normalized": "SQLiteContext-\u003eIO(Ptr())",
@@ -5414,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_blob",
           "package": "sqlite",
@@ -5423,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_blob",
           "normalized": "SQLiteValue-\u003eIO SQLiteBLOB",
@@ -5437,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_bytes",
           "package": "sqlite",
@@ -5446,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_bytes",
           "normalized": "SQLiteValue-\u003eIO CInt",
@@ -5460,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_bytes16",
           "package": "sqlite",
@@ -5469,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_bytes16",
           "normalized": "SQLiteValue-\u003eIO CInt",
@@ -5483,6 +5965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_double",
           "package": "sqlite",
@@ -5492,6 +5975,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_double",
           "normalized": "SQLiteValue-\u003eIO Double",
@@ -5506,6 +5990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_int",
           "package": "sqlite",
@@ -5515,6 +6000,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_int",
           "normalized": "SQLiteValue-\u003eIO CInt",
@@ -5529,6 +6015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_int64",
           "package": "sqlite",
@@ -5538,6 +6025,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_int64",
           "normalized": "SQLiteValue-\u003eIO SQLiteInt",
@@ -5552,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_numeric_type",
           "package": "sqlite",
@@ -5561,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_numeric_type",
           "normalized": "SQLiteValue-\u003eIO CInt",
@@ -5575,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text",
           "package": "sqlite",
@@ -5584,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text",
           "normalized": "SQLiteValue-\u003eIO CString",
@@ -5598,6 +6090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16",
           "package": "sqlite",
@@ -5607,6 +6100,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16",
           "normalized": "SQLiteValue-\u003eIO SQLiteUTF",
@@ -5621,6 +6115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16be",
           "package": "sqlite",
@@ -5630,6 +6125,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16be",
           "normalized": "SQLiteValue-\u003eIO SQLiteUTF",
@@ -5644,6 +6140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16le",
           "package": "sqlite",
@@ -5653,6 +6150,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_text16le",
           "normalized": "SQLiteValue-\u003eIO SQLiteUTF",
@@ -5667,6 +6165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_type",
           "package": "sqlite",
@@ -5676,6 +6175,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Base",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Base",
           "name": "sqlite3_value_type",
           "normalized": "SQLiteValue-\u003eIO FundamentalDatatype",
@@ -5691,6 +6191,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eObjects, types and constants used in the sqlite3 binding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "Types",
           "package": "sqlite",
@@ -5700,6 +6201,7 @@
         "index": {
           "description": "Objects types and constants used in the sqlite3 binding",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "Types",
           "package": "sqlite",
@@ -5713,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "AccessFlag",
           "package": "sqlite",
@@ -5721,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "AccessFlag",
           "package": "sqlite",
@@ -5734,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "AuthCode",
           "package": "sqlite",
@@ -5742,6 +6247,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "AuthCode",
           "package": "sqlite",
@@ -5755,6 +6261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "FundamentalDatatype",
           "package": "sqlite",
@@ -5763,6 +6270,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "FundamentalDatatype",
           "package": "sqlite",
@@ -5776,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "IOCap",
           "package": "sqlite",
@@ -5784,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "IOCap",
           "package": "sqlite",
@@ -5797,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "LockFlag",
           "package": "sqlite",
@@ -5805,6 +6316,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "LockFlag",
           "package": "sqlite",
@@ -5818,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "OpenFlags",
           "package": "sqlite",
@@ -5826,6 +6339,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "OpenFlags",
           "package": "sqlite",
@@ -5840,6 +6354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn open SQLite database object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLite",
           "package": "sqlite",
@@ -5849,6 +6364,7 @@
         "index": {
           "description": "An open SQLite database object",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLite",
           "package": "sqlite",
@@ -5863,6 +6379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BLOB handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBLOB",
           "package": "sqlite",
@@ -5872,6 +6389,7 @@
         "index": {
           "description": "BLOB handle",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBLOB",
           "package": "sqlite",
@@ -5885,6 +6403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallback",
           "package": "sqlite",
@@ -5893,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallback",
           "package": "sqlite",
@@ -5906,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallbackUserData",
           "package": "sqlite",
@@ -5914,6 +6435,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallbackUserData",
           "package": "sqlite",
@@ -5928,6 +6450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe context in which an SQL function executes is stored in an\n sqlite3_context object. A pointer to an sqlite3_context object is\n always first parameter to application-defined SQL functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContext",
           "package": "sqlite",
@@ -5937,6 +6460,7 @@
         "index": {
           "description": "The context in which an SQL function executes is stored in an sqlite3 context object pointer to an sqlite3 context object is always first parameter to application-defined SQL functions",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContext",
           "package": "sqlite",
@@ -5950,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContextBuffer",
           "package": "sqlite",
@@ -5958,6 +6483,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContextBuffer",
           "package": "sqlite",
@@ -5971,6 +6497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteInt64",
           "package": "sqlite",
@@ -5979,6 +6506,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteInt64",
           "package": "sqlite",
@@ -5993,6 +6521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn instance of this object represent single SQL statements. This\n object is variously known as a \u003ca\u003eprepared statement\u003c/a\u003e or a \u003ca\u003ecompiled\n SQL statement\u003c/a\u003e or simply as a \u003ca\u003estatement\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteStmt",
           "package": "sqlite",
@@ -6002,6 +6531,7 @@
         "index": {
           "description": "An instance of this object represent single SQL statements This object is variously known as prepared statement or compiled SQL statement or simply as statement",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteStmt",
           "package": "sqlite",
@@ -6016,6 +6546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteType",
           "package": "sqlite",
@@ -6025,6 +6556,7 @@
         "index": {
           "description": "SQLite types",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteType",
           "package": "sqlite",
@@ -6038,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteUTF16",
           "package": "sqlite",
@@ -6046,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteUTF16",
           "package": "sqlite",
@@ -6060,6 +6594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite uses the sqlite3_value object to represent all values that\n are or can be stored in a database table. SQLite uses dynamic typing\n for the values it stores. Values stored in sqlite3_value objects can\n be be integers, floating point values, strings, BLOBs, or NULL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteValue",
           "package": "sqlite",
@@ -6069,6 +6604,7 @@
         "index": {
           "description": "SQLite uses the sqlite3 value object to represent all values that are or can be stored in database table SQLite uses dynamic typing for the values it stores Values stored in sqlite3 value objects can be be integers floating point values strings BLOBs or NULL",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteValue",
           "package": "sqlite",
@@ -6082,6 +6618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteWord64",
           "package": "sqlite",
@@ -6090,6 +6627,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteWord64",
           "package": "sqlite",
@@ -6103,6 +6641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "Status",
           "package": "sqlite",
@@ -6111,6 +6650,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "Status",
           "package": "sqlite",
@@ -6124,6 +6664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SyncFlag",
           "package": "sqlite",
@@ -6132,6 +6673,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SyncFlag",
           "package": "sqlite",
@@ -6145,6 +6687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "TextEncodeFlag",
           "package": "sqlite",
@@ -6153,6 +6696,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "TextEncodeFlag",
           "package": "sqlite",
@@ -6166,6 +6710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLite",
           "package": "sqlite",
@@ -6175,6 +6720,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLite",
           "normalized": "SQLite(Ptr())",
@@ -6190,6 +6736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBLOB",
           "package": "sqlite",
@@ -6199,6 +6746,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBLOB",
           "normalized": "SQLiteBLOB(Ptr())",
@@ -6214,6 +6762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBlob",
           "package": "sqlite",
@@ -6223,6 +6772,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteBlob",
           "package": "sqlite",
@@ -6236,6 +6786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallback",
           "package": "sqlite",
@@ -6245,6 +6796,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteCallback",
           "package": "sqlite",
@@ -6258,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContext",
           "package": "sqlite",
@@ -6267,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContext",
           "normalized": "SQLiteContext(Ptr())",
@@ -6282,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContextBuffer",
           "package": "sqlite",
@@ -6291,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteContextBuffer",
           "normalized": "SQLiteContextBuffer(Ptr())",
@@ -6306,6 +6862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteFloat",
           "package": "sqlite",
@@ -6315,6 +6872,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteFloat",
           "package": "sqlite",
@@ -6328,6 +6886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteInt",
           "package": "sqlite",
@@ -6337,6 +6896,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteInt",
           "package": "sqlite",
@@ -6350,6 +6910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteNull",
           "package": "sqlite",
@@ -6359,6 +6920,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteNull",
           "package": "sqlite",
@@ -6372,6 +6934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteStmt",
           "package": "sqlite",
@@ -6381,6 +6944,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteStmt",
           "normalized": "SQLiteStmt(Ptr())",
@@ -6396,6 +6960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteText",
           "package": "sqlite",
@@ -6405,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteText",
           "package": "sqlite",
@@ -6418,6 +6984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteUTF16",
           "package": "sqlite",
@@ -6427,6 +6994,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteUTF16",
           "normalized": "SQLiteUTF(Ptr())",
@@ -6442,6 +7010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "SQLiteValue",
           "package": "sqlite",
@@ -6451,6 +7020,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "SQLiteValue",
           "normalized": "SQLiteValue(Ptr())",
@@ -6466,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "freeCallback",
           "package": "sqlite",
@@ -6475,6 +7046,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "freeCallback",
           "normalized": "SQLiteCallback a-\u003eIO()",
@@ -6490,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "isNullStmt",
           "package": "sqlite",
@@ -6499,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "isNullStmt",
           "normalized": "SQLiteStmt-\u003eBool",
@@ -6514,6 +7088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "noCallback",
           "package": "sqlite",
@@ -6523,6 +7098,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "noCallback",
           "package": "sqlite",
@@ -6536,6 +7112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ABORT",
           "package": "sqlite",
@@ -6545,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ABORT",
           "package": "sqlite",
@@ -6559,6 +7137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003exAccess methods\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_access_exists.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_EXISTS",
           "package": "sqlite",
@@ -6569,6 +7148,7 @@
         "index": {
           "description": "xAccess methods http www.sqlite.org c3ref access exists.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_EXISTS",
           "package": "sqlite",
@@ -6582,6 +7162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_READ",
           "package": "sqlite",
@@ -6591,6 +7172,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_READ",
           "package": "sqlite",
@@ -6604,6 +7186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_READWRITE",
           "package": "sqlite",
@@ -6613,6 +7196,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ACCESS_READWRITE",
           "package": "sqlite",
@@ -6626,6 +7210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ALTER_TABLE",
           "package": "sqlite",
@@ -6635,6 +7220,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ALTER_TABLE",
           "package": "sqlite",
@@ -6648,6 +7234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ANALYZE",
           "package": "sqlite",
@@ -6657,6 +7244,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ANALYZE",
           "package": "sqlite",
@@ -6670,6 +7258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ANY",
           "package": "sqlite",
@@ -6679,6 +7268,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ANY",
           "package": "sqlite",
@@ -6692,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ATTACH",
           "package": "sqlite",
@@ -6701,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ATTACH",
           "package": "sqlite",
@@ -6714,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_AUTH",
           "package": "sqlite",
@@ -6723,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_AUTH",
           "package": "sqlite",
@@ -6736,6 +7330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_BLOB",
           "package": "sqlite",
@@ -6745,6 +7340,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_BLOB",
           "package": "sqlite",
@@ -6758,6 +7354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_BUSY",
           "package": "sqlite",
@@ -6767,6 +7364,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_BUSY",
           "package": "sqlite",
@@ -6780,6 +7378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CANTOPEN",
           "package": "sqlite",
@@ -6789,6 +7388,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CANTOPEN",
           "package": "sqlite",
@@ -6802,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CONSTRAINT",
           "package": "sqlite",
@@ -6811,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CONSTRAINT",
           "package": "sqlite",
@@ -6825,6 +7427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthorizer Action Codes\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_alter_table.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_COPY",
           "package": "sqlite",
@@ -6835,6 +7438,7 @@
         "index": {
           "description": "Authorizer Action Codes http www.sqlite.org c3ref alter table.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_COPY",
           "package": "sqlite",
@@ -6848,6 +7452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CORRUPT",
           "package": "sqlite",
@@ -6857,6 +7462,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CORRUPT",
           "package": "sqlite",
@@ -6870,6 +7476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_INDEX",
           "package": "sqlite",
@@ -6879,6 +7486,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_INDEX",
           "package": "sqlite",
@@ -6892,6 +7500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TABLE",
           "package": "sqlite",
@@ -6901,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TABLE",
           "package": "sqlite",
@@ -6914,6 +7524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_INDEX",
           "package": "sqlite",
@@ -6923,6 +7534,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_INDEX",
           "package": "sqlite",
@@ -6936,6 +7548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_TABLE",
           "package": "sqlite",
@@ -6945,6 +7558,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_TABLE",
           "package": "sqlite",
@@ -6958,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_TRIGGER",
           "package": "sqlite",
@@ -6967,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_TRIGGER",
           "package": "sqlite",
@@ -6980,6 +7596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_VIEW",
           "package": "sqlite",
@@ -6989,6 +7606,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TEMP_VIEW",
           "package": "sqlite",
@@ -7002,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TRIGGER",
           "package": "sqlite",
@@ -7011,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_TRIGGER",
           "package": "sqlite",
@@ -7024,6 +7644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_VIEW",
           "package": "sqlite",
@@ -7033,6 +7654,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_VIEW",
           "package": "sqlite",
@@ -7046,6 +7668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_VTABLE",
           "package": "sqlite",
@@ -7055,6 +7678,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_CREATE_VTABLE",
           "package": "sqlite",
@@ -7068,6 +7692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DELETE",
           "package": "sqlite",
@@ -7077,6 +7702,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DELETE",
           "package": "sqlite",
@@ -7090,6 +7716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DETACH",
           "package": "sqlite",
@@ -7099,6 +7726,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DETACH",
           "package": "sqlite",
@@ -7112,6 +7740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DONE",
           "package": "sqlite",
@@ -7121,6 +7750,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DONE",
           "package": "sqlite",
@@ -7134,6 +7764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_INDEX",
           "package": "sqlite",
@@ -7143,6 +7774,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_INDEX",
           "package": "sqlite",
@@ -7156,6 +7788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TABLE",
           "package": "sqlite",
@@ -7165,6 +7798,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TABLE",
           "package": "sqlite",
@@ -7178,6 +7812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_INDEX",
           "package": "sqlite",
@@ -7187,6 +7822,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_INDEX",
           "package": "sqlite",
@@ -7200,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_TABLE",
           "package": "sqlite",
@@ -7209,6 +7846,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_TABLE",
           "package": "sqlite",
@@ -7222,6 +7860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_TRIGGER",
           "package": "sqlite",
@@ -7231,6 +7870,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_TRIGGER",
           "package": "sqlite",
@@ -7244,6 +7884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_VIEW",
           "package": "sqlite",
@@ -7253,6 +7894,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TEMP_VIEW",
           "package": "sqlite",
@@ -7266,6 +7908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TRIGGER",
           "package": "sqlite",
@@ -7275,6 +7918,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_TRIGGER",
           "package": "sqlite",
@@ -7288,6 +7932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_VIEW",
           "package": "sqlite",
@@ -7297,6 +7942,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_VIEW",
           "package": "sqlite",
@@ -7310,6 +7956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_VTABLE",
           "package": "sqlite",
@@ -7319,6 +7966,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_DROP_VTABLE",
           "package": "sqlite",
@@ -7332,6 +7980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_EMPTY",
           "package": "sqlite",
@@ -7341,6 +7990,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_EMPTY",
           "package": "sqlite",
@@ -7354,6 +8004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ERROR",
           "package": "sqlite",
@@ -7363,6 +8014,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ERROR",
           "package": "sqlite",
@@ -7376,6 +8028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FLOAT",
           "package": "sqlite",
@@ -7385,6 +8038,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FLOAT",
           "package": "sqlite",
@@ -7398,6 +8052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FORMAT",
           "package": "sqlite",
@@ -7407,6 +8062,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FORMAT",
           "package": "sqlite",
@@ -7420,6 +8076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FULL",
           "package": "sqlite",
@@ -7429,6 +8086,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FULL",
           "package": "sqlite",
@@ -7442,6 +8100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FUNCTION",
           "package": "sqlite",
@@ -7451,6 +8110,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_FUNCTION",
           "package": "sqlite",
@@ -7464,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INSERT",
           "package": "sqlite",
@@ -7473,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INSERT",
           "package": "sqlite",
@@ -7487,6 +8149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFundamental datatypes\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_blob.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTEGER",
           "package": "sqlite",
@@ -7497,6 +8160,7 @@
         "index": {
           "description": "Fundamental datatypes http www.sqlite.org c3ref blob.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTEGER",
           "package": "sqlite",
@@ -7510,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTERNAL",
           "package": "sqlite",
@@ -7519,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTERNAL",
           "package": "sqlite",
@@ -7532,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTERRUPT",
           "package": "sqlite",
@@ -7541,6 +8208,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_INTERRUPT",
           "package": "sqlite",
@@ -7555,6 +8223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice characteristics\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_iocap_atomic.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC",
           "package": "sqlite",
@@ -7565,6 +8234,7 @@
         "index": {
           "description": "Device characteristics http www.sqlite.org c3ref iocap atomic.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC",
           "package": "sqlite",
@@ -7578,6 +8248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC16K",
           "package": "sqlite",
@@ -7587,6 +8258,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC16K",
           "package": "sqlite",
@@ -7600,6 +8272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC1K",
           "package": "sqlite",
@@ -7609,6 +8282,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC1K",
           "package": "sqlite",
@@ -7622,6 +8296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC2K",
           "package": "sqlite",
@@ -7631,6 +8306,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC2K",
           "package": "sqlite",
@@ -7644,6 +8320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC32K",
           "package": "sqlite",
@@ -7653,6 +8330,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC32K",
           "package": "sqlite",
@@ -7666,6 +8344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC4K",
           "package": "sqlite",
@@ -7675,6 +8354,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC4K",
           "package": "sqlite",
@@ -7688,6 +8368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC512",
           "package": "sqlite",
@@ -7697,6 +8378,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC512",
           "package": "sqlite",
@@ -7710,6 +8392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC64K",
           "package": "sqlite",
@@ -7719,6 +8402,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC64K",
           "package": "sqlite",
@@ -7732,6 +8416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC8K",
           "package": "sqlite",
@@ -7741,6 +8426,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_ATOMIC8K",
           "package": "sqlite",
@@ -7754,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_SAFE_APPEND",
           "package": "sqlite",
@@ -7763,6 +8450,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_SAFE_APPEND",
           "package": "sqlite",
@@ -7776,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_SEQUENTIAL",
           "package": "sqlite",
@@ -7785,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOCAP_SEQUENTIAL",
           "package": "sqlite",
@@ -7798,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR",
           "package": "sqlite",
@@ -7807,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR",
           "package": "sqlite",
@@ -7820,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_BLOCKED",
           "package": "sqlite",
@@ -7829,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_BLOCKED",
           "package": "sqlite",
@@ -7842,6 +8536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_DELETE",
           "package": "sqlite",
@@ -7851,6 +8546,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_DELETE",
           "package": "sqlite",
@@ -7864,6 +8560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_DIR_FSYNC",
           "package": "sqlite",
@@ -7873,6 +8570,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_DIR_FSYNC",
           "package": "sqlite",
@@ -7886,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_FSTAT",
           "package": "sqlite",
@@ -7895,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_FSTAT",
           "package": "sqlite",
@@ -7908,6 +8608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_FSYNC",
           "package": "sqlite",
@@ -7917,6 +8618,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_FSYNC",
           "package": "sqlite",
@@ -7930,6 +8632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_NOMEM",
           "package": "sqlite",
@@ -7939,6 +8642,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_NOMEM",
           "package": "sqlite",
@@ -7952,6 +8656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_RDLOCK",
           "package": "sqlite",
@@ -7961,6 +8666,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_RDLOCK",
           "package": "sqlite",
@@ -7975,6 +8681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite extended result codes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_ioerr_blocked.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_READ",
           "package": "sqlite",
@@ -7985,6 +8692,7 @@
         "index": {
           "description": "SQLite extended result codes http www.sqlite.org c3ref ioerr blocked.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_READ",
           "package": "sqlite",
@@ -7998,6 +8706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_SHORT_READ",
           "package": "sqlite",
@@ -8007,6 +8716,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_SHORT_READ",
           "package": "sqlite",
@@ -8020,6 +8730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_TRUNCATE",
           "package": "sqlite",
@@ -8029,6 +8740,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_TRUNCATE",
           "package": "sqlite",
@@ -8042,6 +8754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_UNLOCK",
           "package": "sqlite",
@@ -8051,6 +8764,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_UNLOCK",
           "package": "sqlite",
@@ -8064,6 +8778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_WRITE",
           "package": "sqlite",
@@ -8073,6 +8788,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_IOERR_WRITE",
           "package": "sqlite",
@@ -8086,6 +8802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCKED",
           "package": "sqlite",
@@ -8095,6 +8812,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCKED",
           "package": "sqlite",
@@ -8108,6 +8826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_EXCLUSIVE",
           "package": "sqlite",
@@ -8117,6 +8836,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_EXCLUSIVE",
           "package": "sqlite",
@@ -8131,6 +8851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFile locking levels\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_lock_exclusive.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_NONE",
           "package": "sqlite",
@@ -8141,6 +8862,7 @@
         "index": {
           "description": "File locking levels http www.sqlite.org c3ref lock exclusive.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_NONE",
           "package": "sqlite",
@@ -8154,6 +8876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_PENDING",
           "package": "sqlite",
@@ -8163,6 +8886,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_PENDING",
           "package": "sqlite",
@@ -8176,6 +8900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_RESERVED",
           "package": "sqlite",
@@ -8185,6 +8910,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_RESERVED",
           "package": "sqlite",
@@ -8198,6 +8924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_SHARED",
           "package": "sqlite",
@@ -8207,6 +8934,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_LOCK_SHARED",
           "package": "sqlite",
@@ -8220,6 +8948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_MISMATCH",
           "package": "sqlite",
@@ -8229,6 +8958,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_MISMATCH",
           "package": "sqlite",
@@ -8242,6 +8972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_MISUSE",
           "package": "sqlite",
@@ -8251,6 +8982,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_MISUSE",
           "package": "sqlite",
@@ -8264,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOLFS",
           "package": "sqlite",
@@ -8273,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOLFS",
           "package": "sqlite",
@@ -8286,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOMEM",
           "package": "sqlite",
@@ -8295,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOMEM",
           "package": "sqlite",
@@ -8308,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOTADB",
           "package": "sqlite",
@@ -8317,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOTADB",
           "package": "sqlite",
@@ -8330,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOTFOUND",
           "package": "sqlite",
@@ -8339,6 +9078,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NOTFOUND",
           "package": "sqlite",
@@ -8352,6 +9092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NULL",
           "package": "sqlite",
@@ -8361,6 +9102,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_NULL",
           "package": "sqlite",
@@ -8375,6 +9117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite C status codes.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_abort.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OK",
           "package": "sqlite",
@@ -8385,6 +9128,7 @@
         "index": {
           "description": "SQLite status codes http www.sqlite.org c3ref abort.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OK",
           "package": "sqlite",
@@ -8398,6 +9142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_CREATE",
           "package": "sqlite",
@@ -8407,6 +9152,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_CREATE",
           "package": "sqlite",
@@ -8420,6 +9166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_DELETEONCLOSE",
           "package": "sqlite",
@@ -8429,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_DELETEONCLOSE",
           "package": "sqlite",
@@ -8442,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_EXCLUSIVE",
           "package": "sqlite",
@@ -8451,6 +9200,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_EXCLUSIVE",
           "package": "sqlite",
@@ -8464,6 +9214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MAIN_DB",
           "package": "sqlite",
@@ -8473,6 +9224,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MAIN_DB",
           "package": "sqlite",
@@ -8486,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MAIN_JOURNAL",
           "package": "sqlite",
@@ -8495,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MAIN_JOURNAL",
           "package": "sqlite",
@@ -8508,6 +9262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MASTER_JOURNAL",
           "package": "sqlite",
@@ -8517,6 +9272,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_MASTER_JOURNAL",
           "package": "sqlite",
@@ -8531,6 +9287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSQLite flags for open operations.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_open_create.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_READONLY",
           "package": "sqlite",
@@ -8541,6 +9298,7 @@
         "index": {
           "description": "SQLite flags for open operations http www.sqlite.org c3ref open create.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_READONLY",
           "package": "sqlite",
@@ -8554,6 +9312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_READWRITE",
           "package": "sqlite",
@@ -8563,6 +9322,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_READWRITE",
           "package": "sqlite",
@@ -8576,6 +9336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_SUBJOURNAL",
           "package": "sqlite",
@@ -8585,6 +9346,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_SUBJOURNAL",
           "package": "sqlite",
@@ -8598,6 +9360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TEMP_DB",
           "package": "sqlite",
@@ -8607,6 +9370,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TEMP_DB",
           "package": "sqlite",
@@ -8620,6 +9384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TEMP_JOURNAL",
           "package": "sqlite",
@@ -8629,6 +9394,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TEMP_JOURNAL",
           "package": "sqlite",
@@ -8642,6 +9408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TRANSIENT_DB",
           "package": "sqlite",
@@ -8651,6 +9418,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_OPEN_TRANSIENT_DB",
           "package": "sqlite",
@@ -8664,6 +9432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PERM",
           "package": "sqlite",
@@ -8673,6 +9442,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PERM",
           "package": "sqlite",
@@ -8686,6 +9456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PRAGMA",
           "package": "sqlite",
@@ -8695,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PRAGMA",
           "package": "sqlite",
@@ -8708,6 +9480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PROTOCOL",
           "package": "sqlite",
@@ -8717,6 +9490,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_PROTOCOL",
           "package": "sqlite",
@@ -8730,6 +9504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_RANGE",
           "package": "sqlite",
@@ -8739,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_RANGE",
           "package": "sqlite",
@@ -8752,6 +9528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_READ",
           "package": "sqlite",
@@ -8761,6 +9538,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_READ",
           "package": "sqlite",
@@ -8774,6 +9552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_READONLY",
           "package": "sqlite",
@@ -8783,6 +9562,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_READONLY",
           "package": "sqlite",
@@ -8796,6 +9576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_REINDEX",
           "package": "sqlite",
@@ -8805,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_REINDEX",
           "package": "sqlite",
@@ -8818,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ROW",
           "package": "sqlite",
@@ -8827,6 +9610,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_ROW",
           "package": "sqlite",
@@ -8840,6 +9624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SCHEMA",
           "package": "sqlite",
@@ -8849,6 +9634,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SCHEMA",
           "package": "sqlite",
@@ -8862,6 +9648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SELECT",
           "package": "sqlite",
@@ -8871,6 +9658,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SELECT",
           "package": "sqlite",
@@ -8884,6 +9672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_DATAONLY",
           "package": "sqlite",
@@ -8893,6 +9682,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_DATAONLY",
           "package": "sqlite",
@@ -8906,6 +9696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_FULL",
           "package": "sqlite",
@@ -8915,6 +9706,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_FULL",
           "package": "sqlite",
@@ -8929,6 +9721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronization flags\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_sync_dataonly.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_NORMAL",
           "package": "sqlite",
@@ -8939,6 +9732,7 @@
         "index": {
           "description": "Synchronization flags http www.sqlite.org c3ref sync dataonly.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_SYNC_NORMAL",
           "package": "sqlite",
@@ -8952,6 +9746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TEXT",
           "package": "sqlite",
@@ -8961,6 +9756,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TEXT",
           "package": "sqlite",
@@ -8974,6 +9770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TOOBIG",
           "package": "sqlite",
@@ -8983,6 +9780,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TOOBIG",
           "package": "sqlite",
@@ -8996,6 +9794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TRANSACTION",
           "package": "sqlite",
@@ -9005,6 +9804,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_TRANSACTION",
           "package": "sqlite",
@@ -9018,6 +9818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UPDATE",
           "package": "sqlite",
@@ -9027,6 +9828,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UPDATE",
           "package": "sqlite",
@@ -9040,6 +9842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16",
           "package": "sqlite",
@@ -9049,6 +9852,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16",
           "package": "sqlite",
@@ -9062,6 +9866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16BE",
           "package": "sqlite",
@@ -9071,6 +9876,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16BE",
           "package": "sqlite",
@@ -9084,6 +9890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16LE",
           "package": "sqlite",
@@ -9093,6 +9900,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16LE",
           "package": "sqlite",
@@ -9106,6 +9914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16_ALIGNED",
           "package": "sqlite",
@@ -9115,6 +9924,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF16_ALIGNED",
           "package": "sqlite",
@@ -9129,6 +9939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eText encodings\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/c_any.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF8",
           "package": "sqlite",
@@ -9139,6 +9950,7 @@
         "index": {
           "description": "Text encodings http www.sqlite.org c3ref any.html",
           "hierarchy": "Database SQLite Types",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite.Types",
           "name": "sQLITE_UTF8",
           "package": "sqlite",
@@ -9153,6 +9965,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding to the sqlite3 database.\n See:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003efor more information.\n\u003c/p\u003e\u003cp\u003eThe api is documented at:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://www.sqlite.org/c3ref/funclist.html\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "SQLite",
           "package": "sqlite",
@@ -9162,6 +9975,7 @@
         "index": {
           "description": "Haskell binding to the sqlite3 database See http www.sqlite.org for more information The api is documented at http www.sqlite.org c3ref funclist.html",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "SQLite",
           "package": "sqlite",
@@ -9175,6 +9989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "IsFunctionHandler",
           "package": "sqlite",
@@ -9183,6 +9998,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "IsFunctionHandler",
           "package": "sqlite",
@@ -9196,6 +10012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "IsValue",
           "package": "sqlite",
@@ -9204,6 +10021,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "IsValue",
           "package": "sqlite",
@@ -9218,6 +10036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the type of the function supported by the \u003ccode\u003e\u003ca\u003eaddRegexpSupport\u003c/a\u003e\u003c/code\u003e\n   function. The first argument is the regular expression to match with\n   and the second argument is the string to match. The result shall be\n   \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e for successful match and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "RegexpHandler",
           "package": "sqlite",
@@ -9227,6 +10046,7 @@
         "index": {
           "description": "This is the type of the function supported by the addRegexpSupport function The first argument is the regular expression to match with and the second argument is the string to match The result shall be True for successful match and False otherwise",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "RegexpHandler",
           "package": "sqlite",
@@ -9240,6 +10060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Row",
           "package": "sqlite",
@@ -9248,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Row",
           "package": "sqlite",
@@ -9261,6 +10083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "SQLiteHandle",
           "package": "sqlite",
@@ -9269,6 +10092,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "SQLiteHandle",
           "package": "sqlite",
@@ -9282,6 +10106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "SQLiteResult",
           "package": "sqlite",
@@ -9290,6 +10115,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "SQLiteResult",
           "package": "sqlite",
@@ -9303,6 +10129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Value",
           "package": "sqlite",
@@ -9311,6 +10138,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Value",
           "package": "sqlite",
@@ -9324,6 +10152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Blob",
           "package": "sqlite",
@@ -9333,6 +10162,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Blob",
           "package": "sqlite",
@@ -9346,6 +10176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Double",
           "package": "sqlite",
@@ -9355,6 +10186,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Double",
           "package": "sqlite",
@@ -9368,6 +10200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Int",
           "package": "sqlite",
@@ -9377,6 +10210,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Int",
           "package": "sqlite",
@@ -9390,6 +10224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Null",
           "package": "sqlite",
@@ -9399,6 +10234,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Null",
           "package": "sqlite",
@@ -9412,6 +10248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "Text",
           "package": "sqlite",
@@ -9421,6 +10258,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "Text",
           "package": "sqlite",
@@ -9435,6 +10273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function registers a \u003ccode\u003e\u003ca\u003eRegexpHandler\u003c/a\u003e\u003c/code\u003e to be called when\n   REGEXP(regexp,str) is used in an SQL query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "addRegexpSupport",
           "package": "sqlite",
@@ -9445,6 +10284,7 @@
         "index": {
           "description": "This function registers RegexpHandler to be called when REGEXP regexp str is used in an SQL query",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "addRegexpSupport",
           "normalized": "SQLiteHandle-\u003eRegexpHandler-\u003eIO()",
@@ -9461,6 +10301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose a database connection.\n Destroys the SQLite value associated with a database, closes\n all open files relating to the database, and releases all resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "closeConnection",
           "package": "sqlite",
@@ -9471,6 +10312,7 @@
         "index": {
           "description": "Close database connection Destroys the SQLite value associated with database closes all open files relating to the database and releases all resources",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "closeConnection",
           "normalized": "SQLiteHandle-\u003eIO()",
@@ -9486,6 +10328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "createAggregatePrim",
           "package": "sqlite",
@@ -9495,6 +10338,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "createAggregatePrim",
           "normalized": "SQLiteHandle-\u003eFunctionName-\u003eArity-\u003e(a-\u003e[b]-\u003eIO a)-\u003ea-\u003e(a-\u003eIO c)-\u003eIO()",
@@ -9510,6 +10354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "createFunction",
           "package": "sqlite",
@@ -9519,6 +10364,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "createFunction",
           "normalized": "SQLiteHandle-\u003eFunctionName-\u003ea-\u003eIO()",
@@ -9534,6 +10380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "createFunctionPrim",
           "package": "sqlite",
@@ -9543,6 +10390,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "createFunctionPrim",
           "normalized": "SQLiteHandle-\u003eFunctionName-\u003eArity-\u003eFunctionHandler-\u003eIO()",
@@ -9559,6 +10407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a new table, populated from \u003ccode\u003etab\u003c/code\u003e in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "defineTable",
           "package": "sqlite",
@@ -9569,6 +10418,7 @@
         "index": {
           "description": "Define new table populated from tab in the database",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "defineTable",
           "normalized": "SQLiteHandle-\u003eSQLTable-\u003eIO(Maybe String)",
@@ -9584,6 +10434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "defineTableOpt",
           "package": "sqlite",
@@ -9593,6 +10444,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "defineTableOpt",
           "normalized": "SQLiteHandle-\u003eBool-\u003eSQLTable-\u003eIO(Maybe String)",
@@ -9609,6 +10461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare and execute a parameterized statment.\n Statement parameter names start with a colon (for example, \u003ccode\u003e:col_id\u003c/code\u003e).\n Note that for the moment, column names should not contain 0\n characters because that part of the column name will be ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "execParamStatement",
           "package": "sqlite",
@@ -9619,6 +10472,7 @@
         "index": {
           "description": "Prepare and execute parameterized statment Statement parameter names start with colon for example col id Note that for the moment column names should not contain characters because that part of the column name will be ignored",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "execParamStatement",
           "normalized": "SQLiteHandle-\u003eString-\u003e[(String,Value)]-\u003eIO(Either String[[Row a]])",
@@ -9635,6 +10489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare and execute a parameterized statment, ignoring the result.\n See also \u003ccode\u003e\u003ca\u003eexecParamStatement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "execParamStatement_",
           "package": "sqlite",
@@ -9645,6 +10500,7 @@
         "index": {
           "description": "Prepare and execute parameterized statment ignoring the result See also execParamStatement",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "execParamStatement_",
           "normalized": "SQLiteHandle-\u003eString-\u003e[(String,Value)]-\u003eIO(Maybe String)",
@@ -9661,6 +10517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate the SQL statement specified by \u003ccode\u003esqlStmt\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "execStatement",
           "package": "sqlite",
@@ -9671,6 +10528,7 @@
         "index": {
           "description": "Evaluate the SQL statement specified by sqlStmt",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "execStatement",
           "normalized": "SQLiteHandle-\u003eString-\u003eIO(Either String[[Row a]])",
@@ -9687,6 +10545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns an error, or \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if everything was OK.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "execStatement_",
           "package": "sqlite",
@@ -9697,6 +10556,7 @@
         "index": {
           "description": "Returns an error or Nothing if everything was OK",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "execStatement_",
           "normalized": "SQLiteHandle-\u003eString-\u003eIO(Maybe String)",
@@ -9712,6 +10572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "fromSQLiteValue",
           "package": "sqlite",
@@ -9721,6 +10582,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "fromSQLiteValue",
           "normalized": "SQLiteValue-\u003eIO a",
@@ -9736,6 +10598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "funcArity",
           "package": "sqlite",
@@ -9745,6 +10608,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "funcArity",
           "normalized": "a-\u003eArity",
@@ -9760,6 +10624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "funcHandler",
           "package": "sqlite",
@@ -9769,6 +10634,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "funcHandler",
           "normalized": "a-\u003eFunctionHandler",
@@ -9785,6 +10651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the rowid (as an Integer) of the most recent\n successful INSERT into the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "getLastRowID",
           "package": "sqlite",
@@ -9795,6 +10662,7 @@
         "index": {
           "description": "Return the rowid as an Integer of the most recent successful INSERT into the database",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "getLastRowID",
           "normalized": "SQLiteHandle-\u003eIO Integer",
@@ -9811,6 +10679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a row into the table \u003ccode\u003etab\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "insertRow",
           "package": "sqlite",
@@ -9821,6 +10690,7 @@
         "index": {
           "description": "Insert row into the table tab",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "insertRow",
           "normalized": "SQLiteHandle-\u003eTableName-\u003eRow String-\u003eIO(Maybe String)",
@@ -9836,6 +10706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "newSQLiteHandle",
           "package": "sqlite",
@@ -9845,6 +10716,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "newSQLiteHandle",
           "normalized": "SQLite-\u003eIO SQLiteHandle",
@@ -9861,6 +10733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new database connection, whose name is given\n by the \u003ccode\u003edbName\u003c/code\u003e argument. A sqlite3 handle is returned.\n\u003c/p\u003e\u003cp\u003eAn exception is thrown if the database could not be opened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "openConnection",
           "package": "sqlite",
@@ -9871,6 +10744,7 @@
         "index": {
           "description": "Open new database connection whose name is given by the dbName argument sqlite3 handle is returned An exception is thrown if the database could not be opened",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "openConnection",
           "normalized": "String-\u003eIO SQLiteHandle",
@@ -9887,6 +10761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a new database connection read-only, whose name is given\n by the \u003ccode\u003edbName\u003c/code\u003e argument. A sqlite3 handle is returned.\n\u003c/p\u003e\u003cp\u003eAn exception is thrown if the database does not exist, \n or could not be opened.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "openReadonlyConnection",
           "package": "sqlite",
@@ -9897,6 +10772,7 @@
         "index": {
           "description": "Open new database connection read-only whose name is given by the dbName argument sqlite3 handle is returned An exception is thrown if the database does not exist or could not be opened",
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "openReadonlyConnection",
           "normalized": "String-\u003eIO SQLiteHandle",
@@ -9912,6 +10788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "returnSQLiteValue",
           "package": "sqlite",
@@ -9921,6 +10798,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "returnSQLiteValue",
           "normalized": "SQLiteContext-\u003ea-\u003eIO()",
@@ -9936,6 +10814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:00 UTC 2014",
           "module": "Database.SQLite",
           "name": "withPrim",
           "package": "sqlite",
@@ -9945,6 +10824,7 @@
         },
         "index": {
           "hierarchy": "Database SQLite",
+          "indexed": "2014-03-11T20:09:00",
           "module": "Database.SQLite",
           "name": "withPrim",
           "normalized": "SQLiteHandle-\u003e(SQLite-\u003eIO a)-\u003eIO a",

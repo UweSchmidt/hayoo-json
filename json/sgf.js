@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sgf"
+        "phrase": "sgf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Parse",
           "package": "sgf",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Parse",
           "package": "sgf",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Error",
           "package": "sgf",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Error",
           "package": "sgf",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ErrorType",
           "package": "sgf",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ErrorType",
           "package": "sgf",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Property",
           "package": "sgf",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Property",
           "package": "sgf",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of properties, as given in the SGF specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "PropertyType",
           "package": "sgf",
@@ -112,6 +121,7 @@
         "index": {
           "description": "Types of properties as given in the SGF specification",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "PropertyType",
           "package": "sgf",
@@ -126,6 +136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarnings signify recoverable errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Warning",
           "package": "sgf",
@@ -135,6 +146,7 @@
         "index": {
           "description": "Warnings signify recoverable errors",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Warning",
           "package": "sgf",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "AmbiguousEncoding",
           "package": "sgf",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "AmbiguousEncoding",
           "package": "sgf",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "AnnotationWithNoMoveOmitted",
           "package": "sgf",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "AnnotationWithNoMoveOmitted",
           "package": "sgf",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "BadlyEncodedValue",
           "package": "sgf",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "BadlyEncodedValue",
           "package": "sgf",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "BadlyFormattedValue",
           "package": "sgf",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "BadlyFormattedValue",
           "package": "sgf",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentAnnotations",
           "package": "sgf",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentAnnotations",
           "package": "sgf",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentBlackAndWhiteMove",
           "package": "sgf",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentBlackAndWhiteMove",
           "package": "sgf",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentMoveAndSetup",
           "package": "sgf",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ConcurrentMoveAndSetup",
           "package": "sgf",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DanglingEscapeCharacterOmitted",
           "package": "sgf",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DanglingEscapeCharacterOmitted",
           "package": "sgf",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DuplicateLabelOmitted",
           "package": "sgf",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DuplicateLabelOmitted",
           "normalized": "DuplicateLabelOmitted(Point,String)",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DuplicateMarkupOmitted",
           "package": "sgf",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DuplicateMarkupOmitted",
           "normalized": "DuplicateMarkupOmitted(Mark,Point)",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DuplicatePointsOmitted",
           "package": "sgf",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DuplicatePointsOmitted",
           "normalized": "DuplicatePointsOmitted Property[Point]",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DuplicatePropertyOmitted",
           "package": "sgf",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DuplicatePropertyOmitted",
           "package": "sgf",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "DuplicateSetupOperationsOmitted",
           "package": "sgf",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "DuplicateSetupOperationsOmitted",
           "normalized": "DuplicateSetupOperationsOmitted[Point]",
@@ -442,6 +480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ExtraGameInfoOmitted",
           "package": "sgf",
@@ -451,6 +490,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ExtraGameInfoOmitted",
           "package": "sgf",
@@ -464,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ExtraMoveAnnotations",
           "package": "sgf",
@@ -473,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ExtraMoveAnnotations",
           "package": "sgf",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ExtraPositionalJudgmentOmitted",
           "package": "sgf",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ExtraPositionalJudgmentOmitted",
           "normalized": "ExtraPositionalJudgmentOmitted(Judgment,Emphasis)",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "ExtraPropertyValuesOmitted",
           "package": "sgf",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "ExtraPropertyValuesOmitted",
           "package": "sgf",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "FormatUnsupported",
           "package": "sgf",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "FormatUnsupported",
           "package": "sgf",
@@ -554,6 +602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "GameInfo",
           "package": "sgf",
@@ -563,6 +612,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "GameInfo",
           "package": "sgf",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "GameUnsupported",
           "package": "sgf",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "GameUnsupported",
           "package": "sgf",
@@ -599,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTechnically, these properties have type \"none\" and\n \u003cem\u003eattribute\u003c/em\u003e \"inherit\", but the property index lists them as\n properties of type \"inherit\" with no attributes, so we\n follow that lead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Inherit",
           "package": "sgf",
@@ -609,6 +662,7 @@
         "index": {
           "description": "Technically these properties have type none and attribute inherit but the property index lists them as properties of type inherit with no attributes so we follow that lead",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Inherit",
           "package": "sgf",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "InvalidDatesClipped",
           "package": "sgf",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "InvalidDatesClipped",
           "package": "sgf",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "KnownError",
           "package": "sgf",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "KnownError",
           "package": "sgf",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Move",
           "package": "sgf",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Move",
           "package": "sgf",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "MovelessAnnotationOmitted",
           "package": "sgf",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "MovelessAnnotationOmitted",
           "package": "sgf",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "NestedRootPropertyOmitted",
           "package": "sgf",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "NestedRootPropertyOmitted",
           "package": "sgf",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "None",
           "package": "sgf",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "None",
           "package": "sgf",
@@ -754,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "OutOfBounds",
           "package": "sgf",
@@ -763,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "OutOfBounds",
           "package": "sgf",
@@ -776,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "PointSpecifiedAsPointRange",
           "package": "sgf",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "PointSpecifiedAsPointRange",
           "package": "sgf",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "PropValueForNonePropertyOmitted",
           "package": "sgf",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "PropValueForNonePropertyOmitted",
           "package": "sgf",
@@ -820,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Property",
           "package": "sgf",
@@ -829,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Property",
           "package": "sgf",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Root",
           "package": "sgf",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Root",
           "package": "sgf",
@@ -864,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "Setup",
           "package": "sgf",
@@ -873,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "Setup",
           "package": "sgf",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "SquareSizeSpecifiedAsRectangle",
           "package": "sgf",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "SquareSizeSpecifiedAsRectangle",
           "package": "sgf",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "UnknownEncoding",
           "package": "sgf",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "UnknownEncoding",
           "package": "sgf",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "UnknownError",
           "package": "sgf",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "UnknownError",
           "package": "sgf",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "UnknownNumberingIgnored",
           "package": "sgf",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "UnknownNumberingIgnored",
           "package": "sgf",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "UnknownPropertyPreserved",
           "package": "sgf",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "UnknownPropertyPreserved",
           "package": "sgf",
@@ -997,6 +1085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip to a valid, representable date.  Years are clipped to the 0000-9999\n range; months are clipped to the 1-12 range, and days are clipped to the\n 1-\u003cnumber of days in the given month\u003e range (accounting for leap years in\n the case of February).\n\u003c/p\u003e\u003cp\u003eIf a parsed date is changed by this function, a warning is emitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "clipDate",
           "package": "sgf",
@@ -1007,6 +1096,7 @@
         "index": {
           "description": "Clip to valid representable date Years are clipped to the range months are clipped to the range and days are clipped to the number of days in the given month range accounting for leap years in the case of February If parsed date is changed by this function warning is emitted",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "clipDate",
           "normalized": "PartialDate-\u003ePartialDate",
@@ -1023,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e stream into an SGF collection.  A collection is a list of\n games; the documentation for \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e has more details.  There are generally\n two kinds of errors in SGF files: recoverable ones (which will be\n accumulated in the [\u003ccode\u003e\u003ca\u003eWarning\u003c/a\u003e\u003c/code\u003e] return) and unrecoverable ones (which will\n result in parse errors).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "collection",
           "package": "sgf",
@@ -1033,6 +1124,7 @@
         "index": {
           "description": "Parse Word8 stream into an SGF collection collection is list of games the documentation for Game has more details There are generally two kinds of errors in SGF files recoverable ones which will be accumulated in the Warning return and unrecoverable ones which will result in parse errors",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "collection",
           "normalized": "ParsecT a b c(Collection,[Warning])",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "errorDescription",
           "package": "sgf",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "errorDescription",
           "package": "sgf",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "errorPosition",
           "package": "sgf",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "errorPosition",
           "package": "sgf",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "errorType",
           "package": "sgf",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "errorType",
           "package": "sgf",
@@ -1114,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJust the properties associated with specific games.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "extraProperties",
           "package": "sgf",
@@ -1124,6 +1223,7 @@
         "index": {
           "description": "Just the properties associated with specific games",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "extraProperties",
           "normalized": "GameType-\u003ePropertyType-\u003e[String]",
@@ -1140,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe literal name of the property.  This is\n guaranteed to be a non-empty string of\n upper-case ASCII characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "name",
           "package": "sgf",
@@ -1150,6 +1251,7 @@
         "index": {
           "description": "The literal name of the property This is guaranteed to be non-empty string of upper-case ASCII characters",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "name",
           "package": "sgf",
@@ -1163,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrently, this is pretty lame: it doesn't track\n line number and character number, only byte\n offset from the beginning of the file.  This is\n because I don't really understand how to\n correctly track line number and character number\n properly in the face of dynamically changing\n encodings, whereas byte number is a totally\n braindead statistic to track.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "position",
           "package": "sgf",
@@ -1173,6 +1276,7 @@
         "index": {
           "description": "Currently this is pretty lame it doesn track line number and character number only byte offset from the beginning of the file This is because don really understand how to correctly track line number and character number properly in the face of dynamically changing encodings whereas byte number is totally braindead statistic to track",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "position",
           "package": "sgf",
@@ -1186,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll properties of each type listed in the SGF specification.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "properties",
           "package": "sgf",
@@ -1196,6 +1301,7 @@
         "index": {
           "description": "All properties of each type listed in the SGF specification",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "properties",
           "normalized": "GameType-\u003ePropertyType-\u003e[String]",
@@ -1211,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arguments to the property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Parse",
           "name": "values",
           "package": "sgf",
@@ -1221,6 +1328,7 @@
         "index": {
           "description": "The arguments to the property",
           "hierarchy": "Data SGF Parse",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Parse",
           "name": "values",
           "normalized": "[[Word]]",
@@ -1236,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes used to represent an SGF tree.  Whenever a data type is used by\n exactly one other data type, there will be a \"see also\" link to its\n containing type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Types",
           "package": "sgf",
@@ -1245,6 +1354,7 @@
         "index": {
           "description": "Types used to represent an SGF tree Whenever data type is used by exactly one other data type there will be see also link to its containing type",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Types",
           "package": "sgf",
@@ -1259,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Annotation",
           "package": "sgf",
@@ -1268,6 +1379,7 @@
         "index": {
           "description": "See also GameNode",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Annotation",
           "package": "sgf",
@@ -1282,6 +1394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeGo\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherAnnotation\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e.  This\n specifies which points are considered territory for each player.  See also\n the TB and TW properties at \u003ca\u003ehttp://red-bean.com/sgf/go.html#TB\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "AnnotationGo",
           "package": "sgf",
@@ -1291,6 +1404,7 @@
         "index": {
           "description": "See also NodeGo and the otherAnnotation field of Annotation This specifies which points are considered territory for each player See also the TB and TW properties at http red-bean.com sgf go.html TB",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "AnnotationGo",
           "package": "sgf",
@@ -1305,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Application",
           "package": "sgf",
@@ -1314,6 +1429,7 @@
         "index": {
           "description": "See also Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Application",
           "package": "sgf",
@@ -1328,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "AutoMarkup",
           "package": "sgf",
@@ -1337,6 +1454,7 @@
         "index": {
           "description": "See also Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "AutoMarkup",
           "package": "sgf",
@@ -1351,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Certainty",
           "package": "sgf",
@@ -1360,6 +1479,7 @@
         "index": {
           "description": "See also Rank",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Certainty",
           "package": "sgf",
@@ -1373,6 +1493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Collection",
           "package": "sgf",
@@ -1381,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Collection",
           "package": "sgf",
@@ -1394,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Color",
           "package": "sgf",
@@ -1402,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Color",
           "package": "sgf",
@@ -1415,6 +1539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Emphasis",
           "package": "sgf",
@@ -1423,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Emphasis",
           "package": "sgf",
@@ -1437,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Figure",
           "package": "sgf",
@@ -1446,6 +1573,7 @@
         "index": {
           "description": "See also Markup",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Figure",
           "package": "sgf",
@@ -1460,6 +1588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "FigureFlag",
           "package": "sgf",
@@ -1469,6 +1598,7 @@
         "index": {
           "description": "See also Figure",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "FigureFlag",
           "package": "sgf",
@@ -1483,6 +1613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eMove\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "FuzzyBool",
           "package": "sgf",
@@ -1492,6 +1623,7 @@
         "index": {
           "description": "See also Move",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "FuzzyBool",
           "package": "sgf",
@@ -1506,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eCollection\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Game",
           "package": "sgf",
@@ -1515,6 +1648,7 @@
         "index": {
           "description": "See also Collection",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Game",
           "package": "sgf",
@@ -1529,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameNode\u003c/a\u003e\u003c/code\u003e.  Each individual game may have at most one node with\n associated game info.  If it has such a node, it must occur at the first node\n where that game is distinguishable from all of the other games in the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfo",
           "package": "sgf",
@@ -1538,6 +1673,7 @@
         "index": {
           "description": "See also GameNode Each individual game may have at most one node with associated game info If it has such node it must occur at the first node where that game is distinguishable from all of the other games in the tree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfo",
           "package": "sgf",
@@ -1552,6 +1688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeBackgammon\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherGameInfo\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.  An\n empty list indicates that no match information was specified.  The order of\n the list is not significant, and there should be only one value of any given\n kind of \u003ccode\u003e\u003ca\u003eMatchInfo\u003c/a\u003e\u003c/code\u003e.  See also \u003ca\u003ehttp://red-bean.com/sgf/backgammon.html#MI\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoBackgammon",
           "package": "sgf",
@@ -1561,6 +1698,7 @@
         "index": {
           "description": "See also NodeBackgammon and the otherGameInfo field of GameInfo An empty list indicates that no match information was specified The order of the list is not significant and there should be only one value of any given kind of MatchInfo See also http red-bean.com sgf backgammon.html MI",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoBackgammon",
           "package": "sgf",
@@ -1575,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeGo\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherGameInfo\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoGo",
           "package": "sgf",
@@ -1584,6 +1723,7 @@
         "index": {
           "description": "See also NodeGo and the otherGameInfo field of GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoGo",
           "package": "sgf",
@@ -1598,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeHex\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherGameInfo\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.  The\n specification says that trees representing Hex games will mark which\n position the viewer should initially show by setting this field to \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n I think this is probably an error in the specification; there is an obvious\n conflict between the requirement to put all game information at the first\n node where a game is uniquely identifiable and the requirement to have a\n game-information property at the location you want to view first (whenever\n these two nodes are not the same node, of course).  For this reason, Hex\n game trees may have paths containing two nodes whose game information is not\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/hex.html#IP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoHex",
           "package": "sgf",
@@ -1607,6 +1748,7 @@
         "index": {
           "description": "See also NodeHex and the otherGameInfo field of GameInfo The specification says that trees representing Hex games will mark which position the viewer should initially show by setting this field to True think this is probably an error in the specification there is an obvious conflict between the requirement to put all game information at the first node where game is uniquely identifiable and the requirement to have game-information property at the location you want to view first whenever these two nodes are not the same node of course For this reason Hex game trees may have paths containing two nodes whose game information is not Nothing See also http www.red-bean.com sgf hex.html IP",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoHex",
           "package": "sgf",
@@ -1621,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeLinesOfAction\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherGameInfo\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoLinesOfAction",
           "package": "sgf",
@@ -1630,6 +1773,7 @@
         "index": {
           "description": "See also NodeLinesOfAction and the otherGameInfo field of GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoLinesOfAction",
           "package": "sgf",
@@ -1644,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeOcti\u003c/a\u003e\u003c/code\u003e and the \u003ccode\u003e\u003ca\u003eotherGameInfo\u003c/a\u003e\u003c/code\u003e field of \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoOcti",
           "package": "sgf",
@@ -1653,6 +1798,7 @@
         "index": {
           "description": "See also NodeOcti and the otherGameInfo field of GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoOcti",
           "package": "sgf",
@@ -1667,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e, especially the \u003ccode\u003e\u003ca\u003efreeform\u003c/a\u003e\u003c/code\u003e field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoType",
           "package": "sgf",
@@ -1676,6 +1823,7 @@
         "index": {
           "description": "See also GameInfo especially the freeform field",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoType",
           "package": "sgf",
@@ -1690,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameNode",
           "package": "sgf",
@@ -1699,6 +1848,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameNode",
           "package": "sgf",
@@ -1713,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameResult",
           "package": "sgf",
@@ -1722,6 +1873,7 @@
         "index": {
           "description": "See also GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameResult",
           "package": "sgf",
@@ -1736,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameTree",
           "package": "sgf",
@@ -1745,6 +1898,7 @@
         "index": {
           "description": "See also Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameTree",
           "package": "sgf",
@@ -1759,6 +1913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.  This enumeration is used for the GM property (see\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#GM\u003c/a\u003e).  The Enum instance\n converts to and from the numeric game codes listed there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameType",
           "package": "sgf",
@@ -1768,6 +1923,7 @@
         "index": {
           "description": "See also GameTree This enumeration is used for the GM property see http www.red-bean.com sgf properties.html GM The Enum instance converts to and from the numeric game codes listed there",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameType",
           "package": "sgf",
@@ -1782,6 +1938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfoLinesOfAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "InitialPlacement",
           "package": "sgf",
@@ -1791,6 +1948,7 @@
         "index": {
           "description": "See also GameInfoLinesOfAction",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "InitialPlacement",
           "package": "sgf",
@@ -1805,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfoLinesOfAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "InitialPosition",
           "package": "sgf",
@@ -1814,6 +1973,7 @@
         "index": {
           "description": "See also GameInfoLinesOfAction",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "InitialPosition",
           "package": "sgf",
@@ -1828,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Judgment",
           "package": "sgf",
@@ -1837,6 +1998,7 @@
         "index": {
           "description": "See also Annotation",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Judgment",
           "package": "sgf",
@@ -1851,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRuleSetOcti\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "MajorVariation",
           "package": "sgf",
@@ -1860,6 +2023,7 @@
         "index": {
           "description": "See also RuleSetOcti",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "MajorVariation",
           "package": "sgf",
@@ -1874,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e.  With the exception of \u003ccode\u003e\u003ca\u003eSelected\u003c/a\u003e\u003c/code\u003e, the constructor\n names describe a shape whose outline should be shown over the given point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Mark",
           "package": "sgf",
@@ -1883,6 +2048,7 @@
         "index": {
           "description": "See also Markup With the exception of Selected the constructor names describe shape whose outline should be shown over the given point",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Mark",
           "package": "sgf",
@@ -1897,6 +2063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameNode\u003c/a\u003e\u003c/code\u003e.  Presumably, no arrow in the \u003ccode\u003earrows\u003c/code\u003e field should\n exactly overlap a line specified in the \u003ccode\u003elines\u003c/code\u003e field; however, this is not\n explicitly made illegal by the SGF spec.  Note that some fields are marked\n \"inherit\".  These inheritances are not explicitly tracked; \u003ccode\u003eNothing\u003c/code\u003e values\n indicate that the correct interpretation depends on the node's ancestors, or\n on the default if no ancestor has a \u003ccode\u003eJust\u003c/code\u003e value in this field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Markup",
           "package": "sgf",
@@ -1906,6 +2073,7 @@
         "index": {
           "description": "See also GameNode Presumably no arrow in the arrows field should exactly overlap line specified in the lines field however this is not explicitly made illegal by the SGF spec Note that some fields are marked inherit These inheritances are not explicitly tracked Nothing values indicate that the correct interpretation depends on the node ancestors or on the default if no ancestor has Just value in this field",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Markup",
           "package": "sgf",
@@ -1920,6 +2088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfoBackgammon\u003c/a\u003e\u003c/code\u003e and\n \u003ca\u003ehttp://red-bean.com/sgf/backgammon.html#MI\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "MatchInfo",
           "package": "sgf",
@@ -1929,6 +2098,7 @@
         "index": {
           "description": "See also GameInfoBackgammon and http red-bean.com sgf backgammon.html MI",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "MatchInfo",
           "package": "sgf",
@@ -1943,6 +2113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRuleSetOcti\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "MinorVariation",
           "package": "sgf",
@@ -1952,6 +2123,7 @@
         "index": {
           "description": "See also RuleSetOcti",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "MinorVariation",
           "package": "sgf",
@@ -1966,6 +2138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Move",
           "package": "sgf",
@@ -1975,6 +2148,7 @@
         "index": {
           "description": "See also GameNode",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Move",
           "package": "sgf",
@@ -1989,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eNodeGo\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "MoveGo",
           "package": "sgf",
@@ -1998,6 +2173,7 @@
         "index": {
           "description": "See also NodeGo and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "MoveGo",
           "package": "sgf",
@@ -2012,6 +2188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeBackgammon\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeBackgammon",
           "package": "sgf",
@@ -2021,6 +2198,7 @@
         "index": {
           "description": "See also TreeBackgammon and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeBackgammon",
           "package": "sgf",
@@ -2035,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeGo\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeGo",
           "package": "sgf",
@@ -2044,6 +2223,7 @@
         "index": {
           "description": "See also TreeGo and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeGo",
           "package": "sgf",
@@ -2058,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeHex\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeHex",
           "package": "sgf",
@@ -2067,6 +2248,7 @@
         "index": {
           "description": "See also TreeHex and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeHex",
           "package": "sgf",
@@ -2081,6 +2263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeLinesOfAction\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeLinesOfAction",
           "package": "sgf",
@@ -2090,6 +2273,7 @@
         "index": {
           "description": "See also TreeLinesOfAction and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeLinesOfAction",
           "package": "sgf",
@@ -2104,6 +2288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeOcti\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeOcti",
           "package": "sgf",
@@ -2113,6 +2298,7 @@
         "index": {
           "description": "See also TreeOcti and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeOcti",
           "package": "sgf",
@@ -2127,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eTreeOther\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NodeOther",
           "package": "sgf",
@@ -2136,6 +2323,7 @@
         "index": {
           "description": "See also TreeOther and Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NodeOther",
           "package": "sgf",
@@ -2150,6 +2338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eMarkup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Numbering",
           "package": "sgf",
@@ -2159,6 +2348,7 @@
         "index": {
           "description": "See also Markup",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Numbering",
           "package": "sgf",
@@ -2173,6 +2363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "PartialDate",
           "package": "sgf",
@@ -2182,6 +2373,7 @@
         "index": {
           "description": "See also GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "PartialDate",
           "package": "sgf",
@@ -2196,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e0-indexed x/y coordinates that start at the top left\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Point",
           "package": "sgf",
@@ -2205,6 +2398,7 @@
         "index": {
           "description": "indexed coordinates that start at the top left",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Point",
           "package": "sgf",
@@ -2219,6 +2413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eMove\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Quality",
           "package": "sgf",
@@ -2228,6 +2423,7 @@
         "index": {
           "description": "See also Move",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Quality",
           "package": "sgf",
@@ -2242,6 +2438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e, especially the \u003ccode\u003e\u003ca\u003erankBlack\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003erankWhite\u003c/a\u003e\u003c/code\u003e fields.\n The \u003ccode\u003eEq\u003c/code\u003e and \u003ccode\u003eOrd\u003c/code\u003e instances are the derived ones, and should not be mistaken\n for semantic equality or ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Rank",
           "package": "sgf",
@@ -2251,6 +2448,7 @@
         "index": {
           "description": "See also GameInfo especially the rankBlack and rankWhite fields The Eq and Ord instances are the derived ones and should not be mistaken for semantic equality or ordering",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Rank",
           "package": "sgf",
@@ -2265,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRank\u003c/a\u003e\u003c/code\u003e.  In addition to the standard \"kyu\" and \"dan\" ranks,\n this also supports the non-standard (but common) \"pro\" ranks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RankScale",
           "package": "sgf",
@@ -2274,6 +2473,7 @@
         "index": {
           "description": "See also Rank In addition to the standard kyu and dan ranks this also supports the non-standard but common pro ranks",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RankScale",
           "package": "sgf",
@@ -2288,6 +2488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Round",
           "package": "sgf",
@@ -2297,6 +2498,7 @@
         "index": {
           "description": "See also GameInfo",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Round",
           "package": "sgf",
@@ -2311,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e.  Typical values for the \u003ccode\u003ea\u003c/code\u003e type variable are\n \u003ccode\u003e\u003ca\u003eRuleSetGo\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRuleSetBackgammon\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eRuleSetOcti\u003c/a\u003e\u003c/code\u003e.  For games where the\n valid values of the ruleset field is not specified, the \u003ccode\u003ea\u003c/code\u003e type variable\n will be \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e to ensure that all rulesets are specified as a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RuleSet",
           "package": "sgf",
@@ -2320,6 +2523,7 @@
         "index": {
           "description": "See also GameInfo Typical values for the type variable are RuleSetGo RuleSetBackgammon and RuleSetOcti For games where the valid values of the ruleset field is not specified the type variable will be Void to ensure that all rulesets are specified as String",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RuleSet",
           "package": "sgf",
@@ -2334,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRuleSet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e, and\n \u003ca\u003ehttp://red-bean.com/sgf/backgammon.html#RU\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RuleSetBackgammon",
           "package": "sgf",
@@ -2343,6 +2548,7 @@
         "index": {
           "description": "See also RuleSet GameInfo and http red-bean.com sgf backgammon.html RU",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RuleSetBackgammon",
           "package": "sgf",
@@ -2357,6 +2563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRuleSet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e, and\n \u003ca\u003ehttp://red-bean.com/sgf/properties.html#RU\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RuleSetGo",
           "package": "sgf",
@@ -2366,6 +2573,7 @@
         "index": {
           "description": "See also RuleSet GameInfo and http red-bean.com sgf properties.html RU",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RuleSetGo",
           "package": "sgf",
@@ -2380,6 +2588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eRuleSet\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eGameInfo\u003c/a\u003e\u003c/code\u003e, and \u003ca\u003ehttp://red-bean.com/sgf/octi.html#RU\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RuleSetOcti",
           "package": "sgf",
@@ -2389,6 +2598,7 @@
         "index": {
           "description": "See also RuleSet GameInfo and http red-bean.com sgf octi.html RU",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RuleSetOcti",
           "package": "sgf",
@@ -2403,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameNode\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003e\u003ca\u003eSetup\u003c/a\u003e\u003c/code\u003e nodes are distinct from \u003ccode\u003e\u003ca\u003eMove\u003c/a\u003e\u003c/code\u003e nodes in that\n they need not correspond to any natural part of the game, and game rules\n (e.g. for capture) are not applied after executing \u003ccode\u003e\u003ca\u003eSetup\u003c/a\u003e\u003c/code\u003e nodes.  They can\n be used for any non-standard changes to the game board or to create illegal\n board positions.  The locations specified in the \u003ccode\u003eaddBlack\u003c/code\u003e, \u003ccode\u003eaddWhite\u003c/code\u003e, and\n \u003ccode\u003eremove\u003c/code\u003e fields must be pairwise disjoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Setup",
           "package": "sgf",
@@ -2412,6 +2623,7 @@
         "index": {
           "description": "See also GameNode Setup nodes are distinct from Move nodes in that they need not correspond to any natural part of the game and game rules e.g for capture are not applied after executing Setup nodes They can be used for any non-standard changes to the game board or to create illegal board positions The locations specified in the addBlack addWhite and remove fields must be pairwise disjoint",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Setup",
           "package": "sgf",
@@ -2426,6 +2638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeBackgammon",
           "package": "sgf",
@@ -2435,6 +2648,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeBackgammon",
           "package": "sgf",
@@ -2449,6 +2663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeGo",
           "package": "sgf",
@@ -2458,6 +2673,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeGo",
           "package": "sgf",
@@ -2472,6 +2688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeHex",
           "package": "sgf",
@@ -2481,6 +2698,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeHex",
           "package": "sgf",
@@ -2495,6 +2713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeLinesOfAction",
           "package": "sgf",
@@ -2504,6 +2723,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeLinesOfAction",
           "package": "sgf",
@@ -2518,6 +2738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeOcti",
           "package": "sgf",
@@ -2527,6 +2748,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeOcti",
           "package": "sgf",
@@ -2541,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeOther",
           "package": "sgf",
@@ -2550,6 +2773,7 @@
         "index": {
           "description": "See also GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeOther",
           "package": "sgf",
@@ -2564,6 +2788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "VariationType",
           "package": "sgf",
@@ -2573,6 +2798,7 @@
         "index": {
           "description": "See also Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "VariationType",
           "package": "sgf",
@@ -2587,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGame\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Version",
           "package": "sgf",
@@ -2596,6 +2823,7 @@
         "index": {
           "description": "See also Game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Version",
           "package": "sgf",
@@ -2610,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e and \u003ca\u003ehttp://www.red-bean.com/sgf/hex.html#IS\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "ViewerSetting",
           "package": "sgf",
@@ -2619,6 +2848,7 @@
         "index": {
           "description": "See also GameTree and http www.red-bean.com sgf hex.html IS",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "ViewerSetting",
           "package": "sgf",
@@ -2633,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type with no constructors used merely to indicate a lack of data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Void",
           "package": "sgf",
@@ -2642,6 +2873,7 @@
         "index": {
           "description": "type with no constructors used merely to indicate lack of data",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Void",
           "package": "sgf",
@@ -2656,6 +2888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ccode\u003e\u003ca\u003eGameResult\u003c/a\u003e\u003c/code\u003e.  Games that end normally use \u003ccode\u003eScore\u003c/code\u003e if there is a\n natural concept of score differential for that game and \u003ccode\u003eOtherWinType\u003c/code\u003e if\n not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "WinType",
           "package": "sgf",
@@ -2665,6 +2898,7 @@
         "index": {
           "description": "See also GameResult Games that end normally use Score if there is natural concept of score differential for that game and OtherWinType if not",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "WinType",
           "package": "sgf",
@@ -2679,6 +2913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmerican Go Association rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "AGA",
           "package": "sgf",
@@ -2689,6 +2924,7 @@
         "index": {
           "description": "American Go Association rules",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "AGA",
           "package": "sgf",
@@ -2702,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Amazons",
           "package": "sgf",
@@ -2711,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Amazons",
           "package": "sgf",
@@ -2724,6 +2962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Annotation",
           "package": "sgf",
@@ -2733,6 +2972,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Annotation",
           "package": "sgf",
@@ -2747,6 +2987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the person who annotated the game.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AN\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Annotator",
           "package": "sgf",
@@ -2757,6 +2998,7 @@
         "index": {
           "description": "The name of the person who annotated the game See also http www.red-bean.com sgf properties.html AN",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Annotator",
           "package": "sgf",
@@ -2770,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Ataxx",
           "package": "sgf",
@@ -2779,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Ataxx",
           "package": "sgf",
@@ -2792,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Backgammon",
           "package": "sgf",
@@ -2801,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Backgammon",
           "package": "sgf",
@@ -2814,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Bad",
           "package": "sgf",
@@ -2823,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Bad",
           "package": "sgf",
@@ -2836,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Beginning",
           "package": "sgf",
@@ -2845,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Beginning",
           "package": "sgf",
@@ -2858,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Black",
           "package": "sgf",
@@ -2867,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Black",
           "package": "sgf",
@@ -2880,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Byte",
           "package": "sgf",
@@ -2889,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Byte",
           "package": "sgf",
@@ -2902,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Certain",
           "package": "sgf",
@@ -2911,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Certain",
           "package": "sgf",
@@ -2924,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Chase",
           "package": "sgf",
@@ -2933,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Chase",
           "package": "sgf",
@@ -2946,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Chess",
           "package": "sgf",
@@ -2955,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Chess",
           "package": "sgf",
@@ -2969,6 +3229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariations are stored in child nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Children",
           "package": "sgf",
@@ -2979,6 +3240,7 @@
         "index": {
           "description": "Variations are stored in child nodes",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Children",
           "package": "sgf",
@@ -2992,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Chinese",
           "package": "sgf",
@@ -3001,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Chinese",
           "package": "sgf",
@@ -3014,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "ChineseChess",
           "package": "sgf",
@@ -3023,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "ChineseChess",
           "package": "sgf",
@@ -3036,6 +3302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Circle",
           "package": "sgf",
@@ -3045,6 +3312,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Circle",
           "package": "sgf",
@@ -3059,6 +3327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackground information or a summary of the game.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#GC\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Context",
           "package": "sgf",
@@ -3069,6 +3338,7 @@
         "index": {
           "description": "Background information or summary of the game See also http www.red-bean.com sgf properties.html GC",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Context",
           "package": "sgf",
@@ -3083,6 +3353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow coordinates around the edges of the board.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Coordinates",
           "package": "sgf",
@@ -3093,6 +3364,7 @@
         "index": {
           "description": "Show coordinates around the edges of the board",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Coordinates",
           "package": "sgf",
@@ -3107,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#CP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Copyright",
           "package": "sgf",
@@ -3117,6 +3390,7 @@
         "index": {
           "description": "See also http www.red-bean.com sgf properties.html CP",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Copyright",
           "package": "sgf",
@@ -3131,6 +3405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Crawford rule is being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Crawford",
           "package": "sgf",
@@ -3141,6 +3416,7 @@
         "index": {
           "description": "The Crawford rule is being used",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Crawford",
           "package": "sgf",
@@ -3155,6 +3431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis game \u003cem\u003eis\u003c/em\u003e the Crawford game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "CrawfordGame",
           "package": "sgf",
@@ -3165,6 +3442,7 @@
         "index": {
           "description": "This game is the Crawford game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "CrawfordGame",
           "package": "sgf",
@@ -3178,6 +3456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Custom",
           "package": "sgf",
@@ -3187,6 +3466,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Custom",
           "package": "sgf",
@@ -3200,6 +3480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Dan",
           "package": "sgf",
@@ -3209,6 +3490,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Dan",
           "package": "sgf",
@@ -3222,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Day",
           "package": "sgf",
@@ -3231,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Day",
           "package": "sgf",
@@ -3245,6 +3529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnnamed figure using the application default settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "DefaultFigure",
           "package": "sgf",
@@ -3255,6 +3540,7 @@
         "index": {
           "description": "Unnamed figure using the application default settings",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "DefaultFigure",
           "package": "sgf",
@@ -3268,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Definitely",
           "package": "sgf",
@@ -3277,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Definitely",
           "package": "sgf",
@@ -3290,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Doubtful",
           "package": "sgf",
@@ -3299,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Doubtful",
           "package": "sgf",
@@ -3312,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Draw",
           "package": "sgf",
@@ -3321,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Draw",
           "package": "sgf",
@@ -3334,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Dvonn",
           "package": "sgf",
@@ -3343,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Dvonn",
           "package": "sgf",
@@ -3356,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Edgeless",
           "package": "sgf",
@@ -3365,6 +3660,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Edgeless",
           "package": "sgf",
@@ -3378,6 +3674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "End",
           "package": "sgf",
@@ -3387,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "End",
           "package": "sgf",
@@ -3400,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Even",
           "package": "sgf",
@@ -3409,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Even",
           "package": "sgf",
@@ -3423,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the event or tournament at which the game occurred.\n Additional information about the game (e.g. that it was in the finals)\n should appear in the \u003ccode\u003e\u003ca\u003eround\u003c/a\u003e\u003c/code\u003e field, not here.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#EV\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Event",
           "package": "sgf",
@@ -3433,6 +3734,7 @@
         "index": {
           "description": "The name of the event or tournament at which the game occurred Additional information about the game e.g that it was in the finals should appear in the round field not here See also http www.red-bean.com sgf properties.html EV",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Event",
           "package": "sgf",
@@ -3446,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Exxit",
           "package": "sgf",
@@ -3455,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Exxit",
           "package": "sgf",
@@ -3468,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Fast",
           "package": "sgf",
@@ -3477,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Fast",
           "package": "sgf",
@@ -3490,6 +3796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Focus",
           "package": "sgf",
@@ -3499,6 +3806,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Focus",
           "package": "sgf",
@@ -3512,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Forfeit",
           "package": "sgf",
@@ -3521,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Forfeit",
           "package": "sgf",
@@ -3535,6 +3845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoth a round number and a type, like \"final\", \"playoff\", or\n \"league\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "FormattedRound",
           "package": "sgf",
@@ -3545,6 +3856,7 @@
         "index": {
           "description": "Both round number and type like final playoff or league",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "FormattedRound",
           "package": "sgf",
@@ -3558,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Full",
           "package": "sgf",
@@ -3567,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Full",
           "package": "sgf",
@@ -3581,6 +3895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIng rules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GOE",
           "package": "sgf",
@@ -3591,6 +3906,7 @@
         "index": {
           "description": "Ing rules",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GOE",
           "package": "sgf",
@@ -3604,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Game",
           "package": "sgf",
@@ -3613,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Game",
           "package": "sgf",
@@ -3626,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfo",
           "package": "sgf",
@@ -3635,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfo",
           "package": "sgf",
@@ -3648,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoGo",
           "package": "sgf",
@@ -3657,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoGo",
           "package": "sgf",
@@ -3670,6 +3992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoLinesOfAction",
           "package": "sgf",
@@ -3679,6 +4002,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoLinesOfAction",
           "package": "sgf",
@@ -3692,6 +4016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameInfoOcti",
           "package": "sgf",
@@ -3701,6 +4026,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameInfoOcti",
           "package": "sgf",
@@ -3715,6 +4041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn easily-remembered moniker for the game.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#GN\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameName",
           "package": "sgf",
@@ -3725,6 +4052,7 @@
         "index": {
           "description": "An easily-remembered moniker for the game See also http www.red-bean.com sgf properties.html GN",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameName",
           "package": "sgf",
@@ -3738,6 +4066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameNode",
           "package": "sgf",
@@ -3747,6 +4076,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameNode",
           "package": "sgf",
@@ -3761,6 +4091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe (1-indexed) number of the game within this match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GameNumber",
           "package": "sgf",
@@ -3771,6 +4102,7 @@
         "index": {
           "description": "The indexed number of the game within this match",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GameNumber",
           "package": "sgf",
@@ -3784,6 +4116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Gemma",
           "package": "sgf",
@@ -3793,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Gemma",
           "package": "sgf",
@@ -3806,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Gess",
           "package": "sgf",
@@ -3815,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Gess",
           "package": "sgf",
@@ -3828,6 +4164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Gipf",
           "package": "sgf",
@@ -3837,6 +4174,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Gipf",
           "package": "sgf",
@@ -3850,6 +4188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Go",
           "package": "sgf",
@@ -3859,6 +4198,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Go",
           "package": "sgf",
@@ -3872,6 +4212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Gobblet",
           "package": "sgf",
@@ -3881,6 +4222,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Gobblet",
           "package": "sgf",
@@ -3894,6 +4236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Gomoku",
           "package": "sgf",
@@ -3903,6 +4246,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Gomoku",
           "package": "sgf",
@@ -3916,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Good",
           "package": "sgf",
@@ -3925,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Good",
           "package": "sgf",
@@ -3938,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GoodForBlack",
           "package": "sgf",
@@ -3947,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GoodForBlack",
           "package": "sgf",
@@ -3960,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "GoodForWhite",
           "package": "sgf",
@@ -3969,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "GoodForWhite",
           "package": "sgf",
@@ -3983,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay column/row headings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Headings",
           "package": "sgf",
@@ -3993,6 +4344,7 @@
         "index": {
           "description": "Display column row headings",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Headings",
           "package": "sgf",
@@ -4006,6 +4358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Hex",
           "package": "sgf",
@@ -4015,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Hex",
           "package": "sgf",
@@ -4029,6 +4383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList moves that can't be shown in the diagram as text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "HiddenMoves",
           "package": "sgf",
@@ -4039,6 +4394,7 @@
         "index": {
           "description": "List moves that can be shown in the diagram as text",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "HiddenMoves",
           "package": "sgf",
@@ -4052,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Hive",
           "package": "sgf",
@@ -4061,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Hive",
           "package": "sgf",
@@ -4074,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Hnefatal",
           "package": "sgf",
@@ -4083,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Hnefatal",
           "package": "sgf",
@@ -4097,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow hoshi dots.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Hoshi",
           "package": "sgf",
@@ -4107,6 +4468,7 @@
         "index": {
           "description": "Show hoshi dots",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Hoshi",
           "package": "sgf",
@@ -4120,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Interesting",
           "package": "sgf",
@@ -4129,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Interesting",
           "package": "sgf",
@@ -4143,6 +4507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Jacoby rule is being used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Jacoby",
           "package": "sgf",
@@ -4153,6 +4518,7 @@
         "index": {
           "description": "The Jacoby rule is being used",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Jacoby",
           "package": "sgf",
@@ -4166,6 +4532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Japanese",
           "package": "sgf",
@@ -4175,6 +4542,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Japanese",
           "package": "sgf",
@@ -4188,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Jungle",
           "package": "sgf",
@@ -4197,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Jungle",
           "package": "sgf",
@@ -4210,6 +4580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Kids",
           "package": "sgf",
@@ -4219,6 +4590,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Kids",
           "package": "sgf",
@@ -4232,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Known",
           "package": "sgf",
@@ -4241,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Known",
           "package": "sgf",
@@ -4254,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Kropki",
           "package": "sgf",
@@ -4263,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Kropki",
           "package": "sgf",
@@ -4276,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Kuba",
           "package": "sgf",
@@ -4285,6 +4662,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Kuba",
           "package": "sgf",
@@ -4298,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Kyu",
           "package": "sgf",
@@ -4307,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Kyu",
           "package": "sgf",
@@ -4321,6 +4701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentify the last cell played?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "LastMove",
           "package": "sgf",
@@ -4331,6 +4712,7 @@
         "index": {
           "description": "Identify the last cell played",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "LastMove",
           "package": "sgf",
@@ -4345,6 +4727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of points in this match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Length",
           "package": "sgf",
@@ -4355,6 +4738,7 @@
         "index": {
           "description": "The number of points in this match",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Length",
           "package": "sgf",
@@ -4368,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "LinesOfAction",
           "package": "sgf",
@@ -4377,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "LinesOfAction",
           "package": "sgf",
@@ -4391,6 +4777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere the game was played.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#PC\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Location",
           "package": "sgf",
@@ -4401,6 +4788,7 @@
         "index": {
           "description": "Where the game was played See also http www.red-bean.com sgf properties.html PC",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Location",
           "package": "sgf",
@@ -4415,6 +4803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLock the game against new moves?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Lock",
           "package": "sgf",
@@ -4425,6 +4814,7 @@
         "index": {
           "description": "Lock the game against new moves",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Lock",
           "package": "sgf",
@@ -4439,6 +4829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow good/bad move markings?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Marked",
           "package": "sgf",
@@ -4449,6 +4840,7 @@
         "index": {
           "description": "Show good bad move markings",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Marked",
           "package": "sgf",
@@ -4462,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Markup",
           "package": "sgf",
@@ -4471,6 +4864,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Markup",
           "package": "sgf",
@@ -4485,6 +4879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtract enough multiples of 100 from each move\n number that the first labeled move is below 100.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Modulo100",
           "package": "sgf",
@@ -4495,6 +4890,7 @@
         "index": {
           "description": "Subtract enough multiples of from each move number that the first labeled move is below",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Modulo100",
           "package": "sgf",
@@ -4508,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Month",
           "package": "sgf",
@@ -4517,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Month",
           "package": "sgf",
@@ -4530,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Move",
           "package": "sgf",
@@ -4539,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Move",
           "package": "sgf",
@@ -4553,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the diagram's name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Name",
           "package": "sgf",
@@ -4563,6 +4964,7 @@
         "index": {
           "description": "Show the diagram name",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Name",
           "package": "sgf",
@@ -4577,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed figure using the application default settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NamedDefaultFigure",
           "package": "sgf",
@@ -4587,6 +4990,7 @@
         "index": {
           "description": "Named figure using the application default settings",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NamedDefaultFigure",
           "package": "sgf",
@@ -4601,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed figure that overrides the application's figure settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NamedFigure",
           "package": "sgf",
@@ -4611,6 +5016,7 @@
         "index": {
           "description": "Named figure that overrides the application figure settings",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NamedFigure",
           "normalized": "NamedFigure String(FigureFlag-\u003eBool)",
@@ -4626,6 +5032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Neutron",
           "package": "sgf",
@@ -4635,6 +5042,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Neutron",
           "package": "sgf",
@@ -4648,6 +5056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NewZealand",
           "package": "sgf",
@@ -4657,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NewZealand",
           "package": "sgf",
@@ -4670,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "NineMen'sMorris",
           "package": "sgf",
@@ -4679,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "NineMen'sMorris",
           "package": "sgf",
@@ -4692,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Normal",
           "package": "sgf",
@@ -4701,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Normal",
           "package": "sgf",
@@ -4715,6 +5129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint move numbers as they are.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Numbered",
           "package": "sgf",
@@ -4725,6 +5140,7 @@
         "index": {
           "description": "Print move numbers as they are",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Numbered",
           "package": "sgf",
@@ -4738,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Octi",
           "package": "sgf",
@@ -4747,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Octi",
           "package": "sgf",
@@ -4760,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OctiRuleSet",
           "package": "sgf",
@@ -4769,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OctiRuleSet",
           "package": "sgf",
@@ -4783,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA description of the opening moves using the game's vernacular.  See\n also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#ON\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Opening",
           "package": "sgf",
@@ -4793,6 +5214,7 @@
         "index": {
           "description": "description of the opening moves using the game vernacular See also http www.red-bean.com sgf properties.html ON",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Opening",
           "package": "sgf",
@@ -4806,6 +5228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Othello",
           "package": "sgf",
@@ -4815,6 +5238,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Othello",
           "package": "sgf",
@@ -4829,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn unknown piece of match information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherMatchInfo",
           "package": "sgf",
@@ -4839,6 +5264,7 @@
         "index": {
           "description": "An unknown piece of match information",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherMatchInfo",
           "package": "sgf",
@@ -4852,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherMinorVariation",
           "package": "sgf",
@@ -4861,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherMinorVariation",
           "package": "sgf",
@@ -4875,6 +5303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny rank that does not fall in the standard categories.  This field\n must not contain newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherRank",
           "package": "sgf",
@@ -4885,6 +5314,7 @@
         "index": {
           "description": "Any rank that does not fall in the standard categories This field must not contain newlines",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherRank",
           "package": "sgf",
@@ -4899,6 +5329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRound information in an unknown format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherRound",
           "package": "sgf",
@@ -4909,6 +5340,7 @@
         "index": {
           "description": "Round information in an unknown format",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherRound",
           "package": "sgf",
@@ -4922,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherRuleSet",
           "package": "sgf",
@@ -4931,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherRuleSet",
           "package": "sgf",
@@ -4944,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "OtherWinType",
           "package": "sgf",
@@ -4953,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "OtherWinType",
           "package": "sgf",
@@ -4967,6 +5403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe overtime rules.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#OT\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Overtime",
           "package": "sgf",
@@ -4977,6 +5414,7 @@
         "index": {
           "description": "The overtime rules See also http www.red-bean.com sgf properties.html OT",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Overtime",
           "package": "sgf",
@@ -4990,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Parachute",
           "package": "sgf",
@@ -4999,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Parachute",
           "package": "sgf",
@@ -5012,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Pass",
           "package": "sgf",
@@ -5021,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Pass",
           "package": "sgf",
@@ -5034,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Philosopher'sFootball",
           "package": "sgf",
@@ -5043,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Philosopher'sFootball",
           "package": "sgf",
@@ -5056,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Plateau",
           "package": "sgf",
@@ -5065,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Plateau",
           "package": "sgf",
@@ -5078,6 +5524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Play",
           "package": "sgf",
@@ -5087,6 +5534,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Play",
           "package": "sgf",
@@ -5101,6 +5549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also the PB and PW properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#PB\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "PlayerName",
           "package": "sgf",
@@ -5111,6 +5560,7 @@
         "index": {
           "description": "See also the PB and PW properties at http www.red-bean.com sgf properties.html PB",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "PlayerName",
           "package": "sgf",
@@ -5124,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Possibly",
           "package": "sgf",
@@ -5133,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Possibly",
           "package": "sgf",
@@ -5146,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Pro",
           "package": "sgf",
@@ -5155,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Pro",
           "package": "sgf",
@@ -5168,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Punct",
           "package": "sgf",
@@ -5177,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Punct",
           "package": "sgf",
@@ -5190,6 +5646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Quadrature",
           "package": "sgf",
@@ -5199,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Quadrature",
           "package": "sgf",
@@ -5213,6 +5671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRanked in one of the standard ways.  Most SGF generators specify\n the certainty only when it is \u003ccode\u003eUncertain\u003c/code\u003e.  Therefore, it may be\n reasonable to treat \u003ccode\u003eNothing\u003c/code\u003e and \u003ccode\u003eJust Certain\u003c/code\u003e identically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Ranked",
           "package": "sgf",
@@ -5223,6 +5682,7 @@
         "index": {
           "description": "Ranked in one of the standard ways Most SGF generators specify the certainty only when it is Uncertain Therefore it may be reasonable to treat Nothing and Just Certain identically",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Ranked",
           "package": "sgf",
@@ -5237,6 +5697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove captured stones from the diagram.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "RemoveCaptures",
           "package": "sgf",
@@ -5247,6 +5708,7 @@
         "index": {
           "description": "Remove captured stones from the diagram",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "RemoveCaptures",
           "package": "sgf",
@@ -5260,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Resign",
           "package": "sgf",
@@ -5269,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Resign",
           "package": "sgf",
@@ -5282,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Sahara",
           "package": "sgf",
@@ -5291,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Sahara",
           "package": "sgf",
@@ -5304,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Score",
           "package": "sgf",
@@ -5313,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Score",
           "package": "sgf",
@@ -5326,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "ScrambledEggs",
           "package": "sgf",
@@ -5335,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "ScrambledEggs",
           "package": "sgf",
@@ -5349,6 +5819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exact appearance of this kind of markup is not specified, though\n suggestions include darkening the colors on these points or inverting\n the colors on these points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Selected",
           "package": "sgf",
@@ -5359,6 +5830,7 @@
         "index": {
           "description": "The exact appearance of this kind of markup is not specified though suggestions include darkening the colors on these points or inverting the colors on these points",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Selected",
           "package": "sgf",
@@ -5372,6 +5844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Setup",
           "package": "sgf",
@@ -5381,6 +5854,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Setup",
           "package": "sgf",
@@ -5394,6 +5868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Shogi",
           "package": "sgf",
@@ -5403,6 +5878,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Shogi",
           "package": "sgf",
@@ -5417,6 +5893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariations are stored in sibling nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Siblings",
           "package": "sgf",
@@ -5427,6 +5904,7 @@
         "index": {
           "description": "Variations are stored in sibling nodes",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Siblings",
           "package": "sgf",
@@ -5441,6 +5919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly a round number is given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "SimpleRound",
           "package": "sgf",
@@ -5451,6 +5930,7 @@
         "index": {
           "description": "Only round number is given",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "SimpleRound",
           "package": "sgf",
@@ -5465,6 +5945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the source, e.g. the title of the book this game came from.\n See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#SO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Source",
           "package": "sgf",
@@ -5475,6 +5956,7 @@
         "index": {
           "description": "The name of the source e.g the title of the book this game came from See also http www.red-bean.com sgf properties.html SO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Source",
           "package": "sgf",
@@ -5488,6 +5970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Square",
           "package": "sgf",
@@ -5497,6 +5980,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Square",
           "package": "sgf",
@@ -5510,6 +5994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Standard",
           "package": "sgf",
@@ -5519,6 +6004,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Standard",
           "package": "sgf",
@@ -5533,6 +6019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe score at the beginning of the game.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "StartScore",
           "package": "sgf",
@@ -5543,6 +6030,7 @@
         "index": {
           "description": "The score at the beginning of the game",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "StartScore",
           "package": "sgf",
@@ -5556,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Strong",
           "package": "sgf",
@@ -5565,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Strong",
           "package": "sgf",
@@ -5578,6 +6068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Superprong",
           "package": "sgf",
@@ -5587,6 +6078,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Superprong",
           "package": "sgf",
@@ -5600,6 +6092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Tamsk",
           "package": "sgf",
@@ -5609,6 +6102,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Tamsk",
           "package": "sgf",
@@ -5622,6 +6116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Tantrix",
           "package": "sgf",
@@ -5631,6 +6126,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Tantrix",
           "package": "sgf",
@@ -5645,6 +6141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also the BT and WT properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#BT\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TeamName",
           "package": "sgf",
@@ -5655,6 +6152,7 @@
         "index": {
           "description": "See also the BT and WT properties at http www.red-bean.com sgf properties.html BT",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TeamName",
           "package": "sgf",
@@ -5668,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Time",
           "package": "sgf",
@@ -5677,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Time",
           "package": "sgf",
@@ -5690,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Trax",
           "package": "sgf",
@@ -5699,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Trax",
           "package": "sgf",
@@ -5712,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeBackgammon",
           "package": "sgf",
@@ -5721,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeBackgammon",
           "package": "sgf",
@@ -5734,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeGo",
           "package": "sgf",
@@ -5743,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeGo",
           "package": "sgf",
@@ -5757,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplications can store and read settings in the first argument\n here.  This got totally shoehorned into the spec by some particular\n viewer, I'm sure, but it's in the spec now, so there we go.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/hex.html#IS\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeHex",
           "package": "sgf",
@@ -5767,6 +6274,7 @@
         "index": {
           "description": "Applications can store and read settings in the first argument here This got totally shoehorned into the spec by some particular viewer sure but it in the spec now so there we go See also http www.red-bean.com sgf hex.html IS",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeHex",
           "normalized": "TreeHex[(ViewerSetting,Bool)]TreeHex",
@@ -5782,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeLinesOfAction",
           "package": "sgf",
@@ -5791,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeLinesOfAction",
           "package": "sgf",
@@ -5804,6 +6314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeOcti",
           "package": "sgf",
@@ -5813,6 +6324,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeOcti",
           "package": "sgf",
@@ -5826,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TreeOther",
           "package": "sgf",
@@ -5835,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TreeOther",
           "package": "sgf",
@@ -5848,6 +6362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Triangle",
           "package": "sgf",
@@ -5857,6 +6372,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Triangle",
           "package": "sgf",
@@ -5871,6 +6387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentify future moves that have been tried?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Tried",
           "package": "sgf",
@@ -5881,6 +6398,7 @@
         "index": {
           "description": "Identify future moves that have been tried",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Tried",
           "package": "sgf",
@@ -5894,6 +6412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Tripples",
           "package": "sgf",
@@ -5903,6 +6422,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Tripples",
           "package": "sgf",
@@ -5916,6 +6436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "TumblingDown",
           "package": "sgf",
@@ -5925,6 +6446,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "TumblingDown",
           "package": "sgf",
@@ -5938,6 +6460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Twixt",
           "package": "sgf",
@@ -5947,6 +6470,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Twixt",
           "package": "sgf",
@@ -5960,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Uncertain",
           "package": "sgf",
@@ -5969,6 +6494,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Uncertain",
           "package": "sgf",
@@ -5982,6 +6508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Unclear",
           "package": "sgf",
@@ -5991,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Unclear",
           "package": "sgf",
@@ -6004,6 +6532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Unknown",
           "package": "sgf",
@@ -6013,6 +6542,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Unknown",
           "package": "sgf",
@@ -6027,6 +6557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDon't print move numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Unnumbered",
           "package": "sgf",
@@ -6037,6 +6568,7 @@
         "index": {
           "description": "Don print move numbers",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Unnumbered",
           "package": "sgf",
@@ -6051,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the person or program who entered the game.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#US\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "User",
           "package": "sgf",
@@ -6061,6 +6594,7 @@
         "index": {
           "description": "The name of the person or program who entered the game See also http www.red-bean.com sgf properties.html US",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "User",
           "package": "sgf",
@@ -6074,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Void",
           "package": "sgf",
@@ -6083,6 +6618,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Void",
           "package": "sgf",
@@ -6096,6 +6632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "White",
           "package": "sgf",
@@ -6105,6 +6642,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "White",
           "package": "sgf",
@@ -6119,6 +6657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument is the color of the winner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Win",
           "package": "sgf",
@@ -6129,6 +6668,7 @@
         "index": {
           "description": "The first argument is the color of the winner",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Win",
           "package": "sgf",
@@ -6142,6 +6682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "X",
           "package": "sgf",
@@ -6151,6 +6692,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "X",
           "package": "sgf",
@@ -6163,6 +6705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Year",
           "package": "sgf",
@@ -6172,6 +6715,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Year",
           "package": "sgf",
@@ -6185,6 +6729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Yinsh",
           "package": "sgf",
@@ -6194,6 +6739,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Yinsh",
           "package": "sgf",
@@ -6207,6 +6753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "Zertz",
           "package": "sgf",
@@ -6216,6 +6763,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "Zertz",
           "package": "sgf",
@@ -6230,6 +6778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll properties with propertytype setup or move.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "action",
           "package": "sgf",
@@ -6240,6 +6789,7 @@
         "index": {
           "description": "All properties with propertytype setup or move",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "action",
           "package": "sgf",
@@ -6253,6 +6803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis node adds the given black pieces to the board; if the board\n before this setup node had any pieces at the locations given by this\n field, they are overridden.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AB\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "addBlack",
           "package": "sgf",
@@ -6263,6 +6814,7 @@
         "index": {
           "description": "This node adds the given black pieces to the board if the board before this setup node had any pieces at the locations given by this field they are overridden See also http www.red-bean.com sgf properties.html AB",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "addBlack",
           "package": "sgf",
@@ -6277,6 +6829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis node adds the given white pieces to the board; if the board\n before this setup node had any pieces at the locations given by this\n field, they are overridden.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AW\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "addWhite",
           "package": "sgf",
@@ -6287,6 +6840,7 @@
         "index": {
           "description": "This node adds the given white pieces to the board if the board before this setup node had any pieces at the locations given by this field they are overridden See also http www.red-bean.com sgf properties.html AW",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "addWhite",
           "package": "sgf",
@@ -6301,6 +6855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePositional judgments and comments (as opposed to judgments of\n particular moves).  All properties covered in the \"Node annotation\"\n section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "annotation",
           "package": "sgf",
@@ -6311,6 +6866,7 @@
         "index": {
           "description": "Positional judgments and comments as opposed to judgments of particular moves All properties covered in the Node annotation section",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "annotation",
           "package": "sgf",
@@ -6324,6 +6880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name and version number of the application used to create this\n game.  The version number must be in a format that allows ordinary\n string comparison to tell which version is higher or lower. Neither\n the application name nor the version number may have newlines.  See\n also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "application",
           "package": "sgf",
@@ -6334,6 +6891,7 @@
         "index": {
           "description": "The name and version number of the application used to create this game The version number must be in format that allows ordinary string comparison to tell which version is higher or lower Neither the application name nor the version number may have newlines See also http www.red-bean.com sgf properties.html AP",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "application",
           "normalized": "Maybe(Application,Version)",
@@ -6349,6 +6907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrows must not start and end at the same point.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AR\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "arrows",
           "package": "sgf",
@@ -6359,6 +6918,7 @@
         "index": {
           "description": "Arrows must not start and end at the same point See also http www.red-bean.com sgf properties.html AR",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "arrows",
           "normalized": "Set(Point,Point)",
@@ -6374,6 +6934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree-form text describing the current node.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#C\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "comment",
           "package": "sgf",
@@ -6384,6 +6945,7 @@
         "index": {
           "description": "Free-form text describing the current node See also http www.red-bean.com sgf properties.html",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "comment",
           "package": "sgf",
@@ -6397,6 +6959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen the game was played.  An empty set indicates that no date\n information is available.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#DT\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "date",
           "package": "sgf",
@@ -6407,6 +6970,7 @@
         "index": {
           "description": "When the game was played An empty set indicates that no date information is available See also http www.red-bean.com sgf properties.html DT",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "date",
           "package": "sgf",
@@ -6419,6 +6983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "day",
           "package": "sgf",
@@ -6428,6 +6993,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "day",
           "package": "sgf",
@@ -6441,6 +7007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShade out (exactly) the given points.  This property is inherited,\n defaulting to \u003ccode\u003eSet.empty\u003c/code\u003e.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#DD\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "dim",
           "package": "sgf",
@@ -6451,6 +7018,7 @@
         "index": {
           "description": "Shade out exactly the given points This property is inherited defaulting to Set.empty See also http www.red-bean.com sgf properties.html DD",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "dim",
           "package": "sgf",
@@ -6463,6 +7031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptyAnnotation",
           "package": "sgf",
@@ -6472,6 +7041,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptyAnnotation",
           "normalized": "Annotation()",
@@ -6487,6 +7057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptyGameInfo",
           "package": "sgf",
@@ -6496,6 +7067,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptyGameInfo",
           "normalized": "GameInfo a()",
@@ -6511,6 +7083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptyGameNode",
           "package": "sgf",
@@ -6520,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptyGameNode",
           "normalized": "GameNode a b c d()",
@@ -6535,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptyMarkup",
           "package": "sgf",
@@ -6544,6 +7119,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptyMarkup",
           "package": "sgf",
@@ -6557,6 +7133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptyMove",
           "package": "sgf",
@@ -6566,6 +7143,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptyMove",
           "package": "sgf",
@@ -6579,6 +7157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "emptySetup",
           "package": "sgf",
@@ -6588,6 +7167,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "emptySetup",
           "package": "sgf",
@@ -6602,6 +7182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen \u003ccode\u003eJust\u003c/code\u003e, a new diagram should begin at this move.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#FG\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "figure",
           "package": "sgf",
@@ -6612,6 +7193,7 @@
         "index": {
           "description": "When Just new diagram should begin at this move See also http www.red-bean.com sgf properties.html FG",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "figure",
           "package": "sgf",
@@ -6625,6 +7207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMiscellaneous properties with no prescribed format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "freeform",
           "package": "sgf",
@@ -6635,6 +7218,7 @@
         "index": {
           "description": "Miscellaneous properties with no prescribed format",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "freeform",
           "package": "sgf",
@@ -6648,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll properties with propertytype game-info.  There must be only one\n \u003ccode\u003eJust\u003c/code\u003e on any path within a \u003ccode\u003e\u003ca\u003eGameTree\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "gameInfo",
           "package": "sgf",
@@ -6658,6 +7243,7 @@
         "index": {
           "description": "All properties with propertytype game-info There must be only one Just on any path within GameTree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "gameInfo",
           "package": "sgf",
@@ -6672,6 +7258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecifying this does not automatically add stones to the board; a\n \u003ccode\u003e\u003ca\u003eSetup\u003c/a\u003e\u003c/code\u003e node with a non-empty \u003ccode\u003e\u003ca\u003eaddBlack\u003c/a\u003e\u003c/code\u003e field should be specified before\n any \u003ccode\u003e\u003ca\u003eMove\u003c/a\u003e\u003c/code\u003e nodes.  See also \u003ca\u003ehttp://red-bean.com/sgf/go.html#HA\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "handicap",
           "package": "sgf",
@@ -6682,6 +7269,7 @@
         "index": {
           "description": "Specifying this does not automatically add stones to the board Setup node with non-empty addBlack field should be specified before any Move nodes See also http red-bean.com sgf go.html HA",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "handicap",
           "package": "sgf",
@@ -6695,6 +7283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen \u003ccode\u003eJust\u003c/code\u003e, this node contains something interesting.  Viewers\n should show a message.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#HO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "hotspot",
           "package": "sgf",
@@ -6705,6 +7294,7 @@
         "index": {
           "description": "When Just this node contains something interesting Viewers should show message See also http www.red-bean.com sgf properties.html HO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "hotspot",
           "package": "sgf",
@@ -6718,6 +7308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen set to \u003ccode\u003e\u003ca\u003eDefinitely\u003c/a\u003e\u003c/code\u003e, the current move is acknowledged to be\n illegal.  When set to \u003ccode\u003e\u003ca\u003ePossibly\u003c/a\u003e\u003c/code\u003e, the move may be legal or illegal.\n See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#KO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "illegal",
           "package": "sgf",
@@ -6728,6 +7319,7 @@
         "index": {
           "description": "When set to Definitely the current move is acknowledged to be illegal When set to Possibly the move may be legal or illegal See also http www.red-bean.com sgf properties.html KO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "illegal",
           "package": "sgf",
@@ -6741,6 +7333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial placement of pieces and rule variation.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/loa.html#SU\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "initialPlacement",
           "package": "sgf",
@@ -6751,6 +7344,7 @@
         "index": {
           "description": "The initial placement of pieces and rule variation See also http www.red-bean.com sgf loa.html SU",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "initialPlacement",
           "package": "sgf",
@@ -6765,6 +7359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this field is \u003ccode\u003e\u003ca\u003eBeginning\u003c/a\u003e\u003c/code\u003e, the viewer should initially show the\n board position after setup but before any moves.  (When \u003ccode\u003e\u003ca\u003eEnd\u003c/a\u003e\u003c/code\u003e, the\n viewer should display the final position.)  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/loa.html#IP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "initialPositionLOA",
           "package": "sgf",
@@ -6775,6 +7370,7 @@
         "index": {
           "description": "When this field is Beginning the viewer should initially show the board position after setup but before any moves When End the viewer should display the final position See also http www.red-bean.com sgf loa.html IP",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "initialPositionLOA",
           "package": "sgf",
@@ -6789,6 +7385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen this field is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, the board should be displayed with numbers\n increasing from the bottom to the top of the screen.  (When \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e, the\n numbers should be decreasing.)  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/loa.html#IY\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "invertYAxis",
           "package": "sgf",
@@ -6799,6 +7396,7 @@
         "index": {
           "description": "When this field is True the board should be displayed with numbers increasing from the bottom to the top of the screen When False the numbers should be decreasing See also http www.red-bean.com sgf loa.html IY",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "invertYAxis",
           "package": "sgf",
@@ -6813,6 +7411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA qualitative full-board positional judgment.  See also the GB, GW,\n DM, and UC properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#DM\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "judgment",
           "package": "sgf",
@@ -6823,6 +7422,7 @@
         "index": {
           "description": "qualitative full-board positional judgment See also the GB GW DM and UC properties at http www.red-bean.com sgf properties.html DM",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "judgment",
           "normalized": "Maybe(Judgment,Emphasis)",
@@ -6838,6 +7438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also \u003ca\u003ehttp://red-bean.com/sgf/go.html#KM\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "komi",
           "package": "sgf",
@@ -6848,6 +7449,7 @@
         "index": {
           "description": "See also http red-bean.com sgf go.html KM",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "komi",
           "package": "sgf",
@@ -6861,6 +7463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypically, the \u003ccode\u003eString\u003c/code\u003es will be single letters, but that is not\n guaranteed.  Labels must not contain newlines.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#LB\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "labels",
           "package": "sgf",
@@ -6871,6 +7474,7 @@
         "index": {
           "description": "Typically the String will be single letters but that is not guaranteed Labels must not contain newlines See also http www.red-bean.com sgf properties.html LB",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "labels",
           "package": "sgf",
@@ -6884,6 +7488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLines must not start and end at the same point.  Lines must not be\n repeated; the parser guarantees this by only including pairs \u003ccode\u003e(p, q)\u003c/code\u003e\n in which \u003ccode\u003ep \u003c q\u003c/code\u003e.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#LN\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "lines",
           "package": "sgf",
@@ -6894,6 +7499,7 @@
         "index": {
           "description": "Lines must not start and end at the same point Lines must not be repeated the parser guarantees this by only including pairs in which See also http www.red-bean.com sgf properties.html LN",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "lines",
           "normalized": "Set(Point,Point)",
@@ -6909,6 +7515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee also the CR, MA, SL, SQ, and TR properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#CR\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "marks",
           "package": "sgf",
@@ -6919,6 +7526,7 @@
         "index": {
           "description": "See also the CR MA SL SQ and TR properties at http www.red-bean.com sgf properties.html CR",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "marks",
           "package": "sgf",
@@ -6932,6 +7540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow a node should be displayed.  All properties covered in the\n \"Markup\" and \"Miscellaneous\" sections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "markup",
           "package": "sgf",
@@ -6942,6 +7551,7 @@
         "index": {
           "description": "How node should be displayed All properties covered in the Markup and Miscellaneous sections",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "markup",
           "package": "sgf",
@@ -6954,6 +7564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "month",
           "package": "sgf",
@@ -6963,6 +7574,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "month",
           "package": "sgf",
@@ -6976,6 +7588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe given move should be executed, whether it is illegal or not.\n See also the B and W properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#B\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "move",
           "package": "sgf",
@@ -6986,6 +7599,7 @@
         "index": {
           "description": "The given move should be executed whether it is illegal or not See also the and properties at http www.red-bean.com sgf properties.html",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "move",
           "normalized": "Maybe(Color,a)",
@@ -7001,6 +7615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA very short description of the node.  Must not contain newlines.\n See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#N\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "name",
           "package": "sgf",
@@ -7011,6 +7626,7 @@
         "index": {
           "description": "very short description of the node Must not contain newlines See also http www.red-bean.com sgf properties.html",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "name",
           "package": "sgf",
@@ -7024,6 +7640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen \u003ccode\u003eJust\u003c/code\u003e, set the current move number.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#MN\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "number",
           "package": "sgf",
@@ -7034,6 +7651,7 @@
         "index": {
           "description": "When Just set the current move number See also http www.red-bean.com sgf properties.html MN",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "number",
           "package": "sgf",
@@ -7047,6 +7665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow move numbers should be printed on the board.  This property is\n inherited, defaulting to \u003ccode\u003eNumbered\u003c/code\u003e.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#PM\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "numbering",
           "package": "sgf",
@@ -7057,6 +7676,7 @@
         "index": {
           "description": "How move numbers should be printed on the board This property is inherited defaulting to Numbered See also http www.red-bean.com sgf properties.html PM",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "numbering",
           "package": "sgf",
@@ -7070,6 +7690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGame-specific annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "otherAnnotation",
           "package": "sgf",
@@ -7080,6 +7701,7 @@
         "index": {
           "description": "Game-specific annotations",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "otherAnnotation",
           "package": "sgf",
@@ -7094,6 +7716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCertain game types specify additional informational properties, which\n are stored here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "otherGameInfo",
           "package": "sgf",
@@ -7104,6 +7727,7 @@
         "index": {
           "description": "Certain game types specify additional informational properties which are stored here",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "otherGameInfo",
           "package": "sgf",
@@ -7118,6 +7742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of overtime moves left for the black player after this move\n was made.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#OB\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "overtimeMovesBlack",
           "package": "sgf",
@@ -7128,6 +7753,7 @@
         "index": {
           "description": "Number of overtime moves left for the black player after this move was made See also http www.red-bean.com sgf properties.html OB",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "overtimeMovesBlack",
           "package": "sgf",
@@ -7142,6 +7768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of overtime moves left for the white player after this move\n was made.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#OW\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "overtimeMovesWhite",
           "package": "sgf",
@@ -7152,6 +7779,7 @@
         "index": {
           "description": "Number of overtime moves left for the white player after this move was made See also http www.red-bean.com sgf properties.html OW",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "overtimeMovesWhite",
           "package": "sgf",
@@ -7166,6 +7794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many prongs each player starts with.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/octi.html#NP\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "prongs",
           "package": "sgf",
@@ -7176,6 +7805,7 @@
         "index": {
           "description": "How many prongs each player starts with See also http www.red-bean.com sgf octi.html NP",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "prongs",
           "package": "sgf",
@@ -7189,6 +7819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn annotation telling the quality of the current move.  This\n annotation makes no bigger-picture positional judgments; for those,\n see \u003ccode\u003e\u003ca\u003eAnnotation\u003c/a\u003e\u003c/code\u003e.  See also the BM, DO, IT, and TE properties at\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#BM\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "quality",
           "package": "sgf",
@@ -7199,6 +7830,7 @@
         "index": {
           "description": "An annotation telling the quality of the current move This annotation makes no bigger-picture positional judgments for those see Annotation See also the BM DO IT and TE properties at http www.red-bean.com sgf properties.html BM",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "quality",
           "package": "sgf",
@@ -7212,6 +7844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strength of the black player.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#BR\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "rankBlack",
           "package": "sgf",
@@ -7222,6 +7855,7 @@
         "index": {
           "description": "The strength of the black player See also http www.red-bean.com sgf properties.html BR",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "rankBlack",
           "package": "sgf",
@@ -7236,6 +7870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe strength of the white player.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#WR\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "rankWhite",
           "package": "sgf",
@@ -7246,6 +7881,7 @@
         "index": {
           "description": "The strength of the white player See also http www.red-bean.com sgf properties.html WR",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "rankWhite",
           "package": "sgf",
@@ -7260,6 +7896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis node specifies locations of the board to clear.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#AE\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "remove",
           "package": "sgf",
@@ -7270,6 +7907,7 @@
         "index": {
           "description": "This node specifies locations of the board to clear See also http www.red-bean.com sgf properties.html AE",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "remove",
           "package": "sgf",
@@ -7283,6 +7921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many pods each player has in reserve to start with.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/octi.html#NR\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "reserve",
           "package": "sgf",
@@ -7293,6 +7932,7 @@
         "index": {
           "description": "How many pods each player has in reserve to start with See also http www.red-bean.com sgf octi.html NR",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "reserve",
           "package": "sgf",
@@ -7306,6 +7946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow the game ended.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#RE\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "result",
           "package": "sgf",
@@ -7316,6 +7957,7 @@
         "index": {
           "description": "How the game ended See also http www.red-bean.com sgf properties.html RE",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "result",
           "package": "sgf",
@@ -7329,6 +7971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe round number (for games played in a tournament).  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#RO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "round",
           "package": "sgf",
@@ -7339,6 +7982,7 @@
         "index": {
           "description": "The round number for games played in tournament See also http www.red-bean.com sgf properties.html RO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "round",
           "package": "sgf",
@@ -7352,6 +7996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ruleset used for this game.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#RU\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "ruleSet",
           "package": "sgf",
@@ -7362,6 +8007,7 @@
         "index": {
           "description": "The ruleset used for this game See also http www.red-bean.com sgf properties.html RU",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "ruleSet",
           "package": "sgf",
@@ -7376,6 +8022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the board.  For games with a default board size, this\n is guaranteed to be a \u003ccode\u003eJust\u003c/code\u003e.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#SZ\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "size",
           "package": "sgf",
@@ -7386,6 +8033,7 @@
         "index": {
           "description": "The size of the board For games with default board size this is guaranteed to be Just See also http www.red-bean.com sgf properties.html SZ",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "size",
           "normalized": "Maybe(Integer,Integer)",
@@ -7401,6 +8049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite should be set up with one empty pod on each of these points.  An\n empty set indicates that this property was not specified.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/octi.html#WO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "squaresBlack",
           "package": "sgf",
@@ -7411,6 +8060,7 @@
         "index": {
           "description": "White should be set up with one empty pod on each of these points An empty set indicates that this property was not specified See also http www.red-bean.com sgf octi.html WO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "squaresBlack",
           "package": "sgf",
@@ -7425,6 +8075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlack should be set up with one empty pod on each of these points.  An\n empty set indicates that this property was not specified.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/octi.html#BO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "squaresWhite",
           "package": "sgf",
@@ -7435,6 +8086,7 @@
         "index": {
           "description": "Black should be set up with one empty pod on each of these points An empty set indicates that this property was not specified See also http www.red-bean.com sgf octi.html BO",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "squaresWhite",
           "package": "sgf",
@@ -7449,6 +8101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow many superprongs each player starts with.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/octi.html#NS\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "superProngs",
           "package": "sgf",
@@ -7459,6 +8112,7 @@
         "index": {
           "description": "How many superprongs each player starts with See also http www.red-bean.com sgf octi.html NS",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "superProngs",
           "package": "sgf",
@@ -7473,6 +8127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime remaining, in seconds, for the black player after this move\n was made.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#BL\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "timeBlack",
           "package": "sgf",
@@ -7483,6 +8138,7 @@
         "index": {
           "description": "Time remaining in seconds for the black player after this move was made See also http www.red-bean.com sgf properties.html BL",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "timeBlack",
           "package": "sgf",
@@ -7497,6 +8153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe time limit of the game in seconds.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#TM\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "timeLimit",
           "package": "sgf",
@@ -7507,6 +8164,7 @@
         "index": {
           "description": "The time limit of the game in seconds See also http www.red-bean.com sgf properties.html TM",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "timeLimit",
           "package": "sgf",
@@ -7521,6 +8179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime remaining, in seconds, for the white player after this move\n was made.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#WL\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "timeWhite",
           "package": "sgf",
@@ -7531,6 +8190,7 @@
         "index": {
           "description": "Time remaining in seconds for the white player after this move was made See also http www.red-bean.com sgf properties.html WL",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "timeWhite",
           "package": "sgf",
@@ -7545,6 +8205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify which player should move next.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#PL\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "toPlay",
           "package": "sgf",
@@ -7555,6 +8216,7 @@
         "index": {
           "description": "Specify which player should move next See also http www.red-bean.com sgf properties.html PL",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "toPlay",
           "package": "sgf",
@@ -7569,6 +8231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe actual game tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "tree",
           "package": "sgf",
@@ -7579,6 +8242,7 @@
         "index": {
           "description": "The actual game tree",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "tree",
           "package": "sgf",
@@ -7592,6 +8256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnspecified properties.  The keys in the map must contain only\n the characters A-Z (and must be upper-case).  The values in the map\n may be more or less arbitrary, but any occurrence of the ASCII byte\n ']' must be preceded by an odd number of copies of the ASCII byte\n '\\'.  See also \u003ca\u003ehttp://www.red-bean.com/sgf/sgf4.html#2.2\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "unknown",
           "package": "sgf",
@@ -7602,6 +8267,7 @@
         "index": {
           "description": "Unspecified properties The keys in the map must contain only the characters A-Z and must be upper-case The values in the map may be more or less arbitrary but any occurrence of the ASCII byte must be preceded by an odd number of copies of the ASCII byte See also http www.red-bean.com sgf sgf4.html",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "unknown",
           "normalized": "Map String[[Word]]",
@@ -7617,6 +8283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quantitative full-board positional judgment.  Positive values are\n good for black, negative for white.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#V\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "value",
           "package": "sgf",
@@ -7627,6 +8294,7 @@
         "index": {
           "description": "quantitative full-board positional judgment Positive values are good for black negative for white See also http www.red-bean.com sgf properties.html",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "value",
           "package": "sgf",
@@ -7640,6 +8308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first argument tells whether children (False) or siblings\n (True) are variations; the second argument tells whether or not to\n show board markup when variations are available.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#ST\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "variationType",
           "package": "sgf",
@@ -7650,6 +8319,7 @@
         "index": {
           "description": "The first argument tells whether children False or siblings True are variations the second argument tells whether or not to show board markup when variations are available See also http www.red-bean.com sgf properties.html ST",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "variationType",
           "normalized": "Maybe(VariationType,AutoMarkup)",
@@ -7666,6 +8336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake (exactly) the given points visible; do not draw any of the\n other points.  This property is inherited, defaulting to the entire\n board, and \u003ccode\u003eSet.empty\u003c/code\u003e resets to the default.  See also\n \u003ca\u003ehttp://www.red-bean.com/sgf/properties.html#VW\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "visible",
           "package": "sgf",
@@ -7676,6 +8347,7 @@
         "index": {
           "description": "Make exactly the given points visible do not draw any of the other points This property is inherited defaulting to the entire board and Set.empty resets to the default See also http www.red-bean.com sgf properties.html VW",
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "visible",
           "package": "sgf",
@@ -7688,6 +8360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF.Types",
           "name": "year",
           "package": "sgf",
@@ -7697,6 +8370,7 @@
         },
         "index": {
           "hierarchy": "Data SGF Types",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF.Types",
           "name": "year",
           "package": "sgf",
@@ -7710,6 +8384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a parser for the go/igo/weiqi/baduk fragment of the SGF format.\nEncodings latin-1, utf-8, and ascii are supported, and the parser strives to be\nrobust to minor errors, especially those made by the most common SGF editors.\nThere are plans to support other games and pretty-printing in future releases.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:00:42 UTC 2014",
           "module": "Data.SGF",
           "name": "SGF",
           "package": "sgf",
@@ -7719,6 +8394,7 @@
         "index": {
           "description": "This is parser for the go igo weiqi baduk fragment of the SGF format Encodings latin-1 utf-8 and ascii are supported and the parser strives to be robust to minor errors especially those made by the most common SGF editors There are plans to support other games and pretty-printing in future releases",
           "hierarchy": "Data SGF",
+          "indexed": "2014-03-11T20:00:42",
           "module": "Data.SGF",
           "name": "SGF",
           "package": "sgf",

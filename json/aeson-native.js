@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "aeson-native"
+        "phrase": "aeson-native",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficiently serialize a JSON value as a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e,\n encoded as UTF-8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Encode",
           "name": "Encode",
           "package": "aeson-native",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Efficiently serialize JSON value as lazy ByteString encoded as UTF-8",
           "hierarchy": "Data Aeson Encode",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Encode",
           "name": "Encode",
           "package": "aeson-native",
@@ -68,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a JSON value to a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Encode",
           "name": "fromValue",
           "package": "aeson-native",
@@ -78,6 +81,7 @@
         "index": {
           "description": "Encode JSON value to Builder",
           "hierarchy": "Data Aeson Encode",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Encode",
           "name": "fromValue",
           "normalized": "Value-\u003eBuilder",
@@ -94,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJSON handling using \u003ccode\u003eData.Generics\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is based on the \u003ccode\u003eText.JSON.Generic\u003c/code\u003e package originally written\n by Lennart Augustsson.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "Generic",
           "package": "aeson-native",
@@ -103,6 +108,7 @@
         "index": {
           "description": "JSON handling using Data.Generics This is based on the Text.JSON.Generic package originally written by Lennart Augustsson",
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Generic",
           "name": "Generic",
           "package": "aeson-native",
@@ -116,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "fromJSON",
           "package": "aeson-native",
@@ -125,6 +132,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Generic",
           "name": "fromJSON",
           "normalized": "Value-\u003eResult a",
@@ -140,6 +148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Generic",
           "name": "toJSON",
           "package": "aeson-native",
@@ -149,6 +158,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Generic",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Generic",
           "name": "toJSON",
           "normalized": "a-\u003eValue",
@@ -165,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEfficiently and correctly parse a JSON string.  The string must be\n encoded as UTF-8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "Parser",
           "package": "aeson-native",
@@ -174,6 +185,7 @@
         "index": {
           "description": "Efficiently and correctly parse JSON string The string must be encoded as UTF-8",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Parser",
           "name": "Parser",
           "package": "aeson-native",
@@ -212,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse any JSON value.  Use \u003ccode\u003e\u003ca\u003ejson\u003c/a\u003e\u003c/code\u003e in preference to this function\n if you are parsing data from an untrusted source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Parser",
           "name": "value",
           "package": "aeson-native",
@@ -222,6 +235,7 @@
         "index": {
           "description": "Parse any JSON value Use json in preference to this function if you are parsing data from an untrusted source",
           "hierarchy": "Data Aeson Parser",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Parser",
           "name": "value",
           "package": "aeson-native",
@@ -235,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for working with JSON data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Types",
           "package": "aeson-native",
@@ -244,6 +259,7 @@
         "index": {
           "description": "Types for working with JSON data",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Types",
           "package": "aeson-native",
@@ -258,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"array\" (sequence).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Array",
           "package": "aeson-native",
@@ -267,6 +284,7 @@
         "index": {
           "description": "JSON array sequence",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Array",
           "package": "aeson-native",
@@ -281,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that uses the same non-standard\n serialization format as Microsoft .NET, whose \u003ccode\u003eSystem.DateTime\u003c/code\u003e\n type is by default serialized to JSON as in the following example:\n\u003c/p\u003e\u003cpre\u003e /Date(1302547608878)/\n\u003c/pre\u003e\u003cp\u003eThe number represents milliseconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "DotNetTime",
           "package": "aeson-native",
@@ -290,6 +309,7 @@
         "index": {
           "description": "newtype wrapper for UTCTime that uses the same non-standard serialization format as Microsoft NET whose System.DateTime type is by default serialized to JSON as in the following example Date The number represents milliseconds since the Unix epoch",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "DotNetTime",
           "package": "aeson-native",
@@ -304,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e\n                         v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"x\" \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n                         v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "FromJSON",
           "package": "aeson-native",
@@ -313,6 +334,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "FromJSON",
           "package": "aeson-native",
@@ -327,6 +349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"object\" (key/value map).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Object",
           "package": "aeson-native",
@@ -336,6 +359,7 @@
         "index": {
           "description": "JSON object key value map",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Object",
           "package": "aeson-native",
@@ -350,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key/value pair for an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Pair",
           "package": "aeson-native",
@@ -359,6 +384,7 @@
         "index": {
           "description": "key value pair for an Object",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Pair",
           "package": "aeson-native",
@@ -373,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation-based parser type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Parser",
           "package": "aeson-native",
@@ -382,6 +409,7 @@
         "index": {
           "description": "continuation-based parser type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Parser",
           "package": "aeson-native",
@@ -396,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Result",
           "package": "aeson-native",
@@ -405,6 +434,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Result",
           "package": "aeson-native",
@@ -419,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance ToJSON Coord where\n   toJSON (Coord x y) = \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e [\"x\" \u003ccode\u003e\u003ca\u003e.=\u003c/a\u003e\u003c/code\u003e x, \"y\" \u003ccode\u003e\u003ca\u003e.=\u003c/a\u003e\u003c/code\u003e y]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "ToJSON",
           "package": "aeson-native",
@@ -428,6 +459,7 @@
         "index": {
           "description": "type that can be converted to JSON An example type and instance data Coord Double Double instance ToJSON Coord where toJSON Coord object",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "ToJSON",
           "package": "aeson-native",
@@ -442,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "Value",
           "package": "aeson-native",
@@ -451,6 +484,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "Value",
           "package": "aeson-native",
@@ -750,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "emptyArray",
           "package": "aeson-native",
@@ -760,6 +795,7 @@
         "index": {
           "description": "The empty array",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "emptyArray",
           "package": "aeson-native",
@@ -774,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "emptyObject",
           "package": "aeson-native",
@@ -784,6 +821,7 @@
         "index": {
           "description": "The empty object",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "emptyObject",
           "package": "aeson-native",
@@ -874,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parse",
           "package": "aeson-native",
@@ -884,6 +923,7 @@
         "index": {
           "description": "Run Parser",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "parse",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eResult b",
@@ -899,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseEither",
           "package": "aeson-native",
@@ -909,6 +950,7 @@
         "index": {
           "description": "Run Parser with an Either result type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "parseEither",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eEither String b",
@@ -924,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseJSON",
           "package": "aeson-native",
@@ -933,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -949,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e result type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "parseMaybe",
           "package": "aeson-native",
@@ -959,6 +1004,7 @@
         "index": {
           "description": "Run Parser with Maybe result type",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "parseMaybe",
           "normalized": "(a-\u003eParser b)-\u003ea-\u003eMaybe b",
@@ -974,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "toJSON",
           "package": "aeson-native",
@@ -983,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "toJSON",
           "normalized": "a-\u003eValue",
@@ -999,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFail parsing due to a type mismatch, with a descriptive message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson.Types",
           "name": "typeMismatch",
           "package": "aeson-native",
@@ -1008,6 +1057,7 @@
         "index": {
           "description": "Fail parsing due to type mismatch with descriptive message",
           "hierarchy": "Data Aeson Types",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson.Types",
           "name": "typeMismatch",
           "normalized": "String-\u003eValue-\u003eParser a",
@@ -1024,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes and functions for working efficiently with JSON data.\n\u003c/p\u003e\u003cp\u003e(A note on naming: in Greek mythology, Aeson was the father of Jason.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "Aeson",
           "package": "aeson-native",
@@ -1033,6 +1084,7 @@
         "index": {
           "description": "Types and functions for working efficiently with JSON data note on naming in Greek mythology Aeson was the father of Jason",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "Aeson",
           "package": "aeson-native",
@@ -1047,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"array\" (sequence).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "Array",
           "package": "aeson-native",
@@ -1056,6 +1109,7 @@
         "index": {
           "description": "JSON array sequence",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "Array",
           "package": "aeson-native",
@@ -1070,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that uses the same non-standard\n serialization format as Microsoft .NET, whose \u003ccode\u003eSystem.DateTime\u003c/code\u003e\n type is by default serialized to JSON as in the following example:\n\u003c/p\u003e\u003cpre\u003e /Date(1302547608878)/\n\u003c/pre\u003e\u003cp\u003eThe number represents milliseconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "DotNetTime",
           "package": "aeson-native",
@@ -1079,6 +1134,7 @@
         "index": {
           "description": "newtype wrapper for UTCTime that uses the same non-standard serialization format as Microsoft NET whose System.DateTime type is by default serialized to JSON as in the following example Date The number represents milliseconds since the Unix epoch",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "DotNetTime",
           "package": "aeson-native",
@@ -1093,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted from JSON, with the possibility of\n failure.\n\u003c/p\u003e\u003cp\u003eWhen writing an instance, use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003efail\u003c/a\u003e\u003c/code\u003e to make a\n conversion fail, e.g. if an \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e is missing a required key, or\n the value is of the wrong type.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance FromJSON Coord where\n   parseJSON (\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e v) = Coord \u003ccode\u003e\u003ca\u003e\u003c$\u003e\u003c/a\u003e\u003c/code\u003e\n                         v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"x\" \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e\n                         v \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e \"y\"\n\n-- A non-\u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e value is of the wrong type, so use \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e to fail.\n   parseJSON _          = \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "FromJSON",
           "package": "aeson-native",
@@ -1102,6 +1159,7 @@
         "index": {
           "description": "type that can be converted from JSON with the possibility of failure When writing an instance use mzero or fail to make conversion fail e.g if an Object is missing required key or the value is of the wrong type An example type and instance data Coord Double Double instance FromJSON Coord where parseJSON Object Coord non Object value is of the wrong type so use mzero to fail parseJSON mzero",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "FromJSON",
           "package": "aeson-native",
@@ -1116,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON \"object\" (key/value map).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "Object",
           "package": "aeson-native",
@@ -1125,6 +1184,7 @@
         "index": {
           "description": "JSON object key value map",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "Object",
           "package": "aeson-native",
@@ -1139,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of running a \u003ccode\u003e\u003ca\u003eParser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "Result",
           "package": "aeson-native",
@@ -1148,6 +1209,7 @@
         "index": {
           "description": "The result of running Parser",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "Result",
           "package": "aeson-native",
@@ -1162,6 +1224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that can be converted to JSON.\n\u003c/p\u003e\u003cp\u003eAn example type and instance:\n\u003c/p\u003e\u003cpre\u003edata Coord { x :: Double, y :: Double }\n\ninstance ToJSON Coord where\n   toJSON (Coord x y) = \u003ccode\u003e\u003ca\u003eobject\u003c/a\u003e\u003c/code\u003e [\"x\" \u003ccode\u003e\u003ca\u003e.=\u003c/a\u003e\u003c/code\u003e x, \"y\" \u003ccode\u003e\u003ca\u003e.=\u003c/a\u003e\u003c/code\u003e y]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "ToJSON",
           "package": "aeson-native",
@@ -1171,6 +1234,7 @@
         "index": {
           "description": "type that can be converted to JSON An example type and instance data Coord Double Double instance ToJSON Coord where toJSON Coord object",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "ToJSON",
           "package": "aeson-native",
@@ -1185,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA JSON value represented as a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "Value",
           "package": "aeson-native",
@@ -1194,6 +1259,7 @@
         "index": {
           "description": "JSON value represented as Haskell value",
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "Value",
           "package": "aeson-native",
@@ -1207,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "parseJSON",
           "package": "aeson-native",
@@ -1216,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "parseJSON",
           "normalized": "Value-\u003eParser a",
@@ -1231,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:44 UTC 2014",
           "module": "Data.Aeson",
           "name": "toJSON",
           "package": "aeson-native",
@@ -1240,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Aeson",
+          "indexed": "2014-03-11T17:08:44",
           "module": "Data.Aeson",
           "name": "toJSON",
           "normalized": "a-\u003eValue",

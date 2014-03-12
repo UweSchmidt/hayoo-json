@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-default"
+        "phrase": "data-default",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:47:48 UTC 2014",
           "module": "Data.Default",
           "name": "Default",
           "package": "data-default",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Default",
+          "indexed": "2014-03-11T17:47:48",
           "module": "Data.Default",
           "name": "Default",
           "package": "data-default",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types with a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:48 UTC 2014",
           "module": "Data.Default",
           "name": "Default",
           "package": "data-default",
@@ -48,6 +51,7 @@
         "index": {
           "description": "class for types with default value",
           "hierarchy": "Data Default",
+          "indexed": "2014-03-11T17:47:48",
           "module": "Data.Default",
           "name": "Default",
           "package": "data-default",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:47:48 UTC 2014",
           "module": "Data.Default",
           "name": "def",
           "package": "data-default",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Data Default",
+          "indexed": "2014-03-11T17:47:48",
           "module": "Data.Default",
           "name": "def",
           "package": "data-default",

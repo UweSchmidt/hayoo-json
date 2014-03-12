@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "kansas-lava-cores"
+        "phrase": "kansas-lava-cores",
+        "type": "phrase"
       },
       "type": "context"
     }

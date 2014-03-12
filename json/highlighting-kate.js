@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "highlighting-kate"
+        "phrase": "highlighting-kate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatters that convert a list of annotated source lines to HTML.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "HTML",
           "package": "highlighting-kate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Formatters that convert list of annotated source lines to HTML",
           "hierarchy": "Text Highlighting Kate Format HTML",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "HTML",
           "package": "highlighting-kate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat tokens as an HTML \u003ccode\u003epre\u003c/code\u003e block. If line numbering is\n selected, this is put into a table row with line numbers in the\n left cell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "formatHtmlBlock",
           "package": "highlighting-kate",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Format tokens as an HTML pre block If line numbering is selected this is put into table row with line numbers in the left cell",
           "hierarchy": "Text Highlighting Kate Format HTML",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "formatHtmlBlock",
           "normalized": "FormatOptions-\u003e[SourceLine]-\u003eHtml",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat tokens using HTML spans inside \u003ccode\u003ecode\u003c/code\u003e tags. For example,\n A \u003ccode\u003eKeywordTok\u003c/code\u003e is rendered as a span with class \u003ccode\u003ekw\u003c/code\u003e.\n Short class names correspond to \u003ccode\u003e\u003ca\u003eTokenType\u003c/a\u003e\u003c/code\u003es as follows:\n \u003ccode\u003e\u003ca\u003eKeywordTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003ekw\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eDataTypeTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003edt\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eDecValTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003edv\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBaseNTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003ebn\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFloatTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003efl\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eCharTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003ech\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eStringTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003est\u003c/code\u003e, \u003ccode\u003eCommontTok\u003c/code\u003e = \u003ccode\u003eco\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eOtherTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003eot\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eAlertTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003eal\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFunctionTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003efu\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eRegionMarkerTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003ere\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eErrorTok\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003eer\u003c/code\u003e. A \u003ccode\u003e\u003ca\u003eNormalTok\u003c/a\u003e\u003c/code\u003e\n is not marked up at all.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "formatHtmlInline",
           "package": "highlighting-kate",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Format tokens using HTML spans inside code tags For example KeywordTok is rendered as span with class kw Short class names correspond to TokenType as follows KeywordTok kw DataTypeTok dt DecValTok dv BaseNTok bn FloatTok fl CharTok ch StringTok st CommontTok co OtherTok ot AlertTok al FunctionTok fu RegionMarkerTok re ErrorTok er NormalTok is not marked up at all",
           "hierarchy": "Text Highlighting Kate Format HTML",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "formatHtmlInline",
           "normalized": "FormatOptions-\u003e[SourceLine]-\u003eHtml",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns CSS for styling highlighted code according to the given style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "styleToCss",
           "package": "highlighting-kate",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Returns CSS for styling highlighted code according to the given style",
           "hierarchy": "Text Highlighting Kate Format HTML",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.HTML",
           "name": "styleToCss",
           "normalized": "Style-\u003eString",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFormatters that convert a list of annotated source lines to LaTeX.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "LaTeX",
           "package": "highlighting-kate",
@@ -129,6 +138,7 @@
         "index": {
           "description": "Formatters that convert list of annotated source lines to LaTeX",
           "hierarchy": "Text Highlighting Kate Format LaTeX",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "LaTeX",
           "package": "highlighting-kate",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat tokens as a LaTeX \u003ccode\u003eHighlighting\u003c/code\u003e environment inside a\n \u003ccode\u003eShaded\u003c/code\u003e environment.  \u003ccode\u003eHighlighting\u003c/code\u003e and \u003ccode\u003eShaded\u003c/code\u003e are\n defined by the macros produced by \u003ccode\u003e\u003ca\u003estyleToLaTeX\u003c/a\u003e\u003c/code\u003e.  \u003ccode\u003eHighlighting\u003c/code\u003e\n is a verbatim environment using \u003ccode\u003efancyvrb\u003c/code\u003e; \u003ccode\u003e\\\u003c/code\u003e, \u003ccode\u003e{\u003c/code\u003e, and \u003ccode\u003e}\u003c/code\u003e\n have their normal meanings inside this environment, so that\n formatting commands work.  \u003ccode\u003eShaded\u003c/code\u003e is either nothing\n (if the style's background color is default) or a \u003ccode\u003esnugshade\u003c/code\u003e\n environment from \u003ccode\u003eframed\u003c/code\u003e, providing a background color\n for the whole code block, even if it spans multiple pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "formatLaTeXBlock",
           "package": "highlighting-kate",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Format tokens as LaTeX Highlighting environment inside Shaded environment Highlighting and Shaded are defined by the macros produced by styleToLaTeX Highlighting is verbatim environment using fancyvrb and have their normal meanings inside this environment so that formatting commands work Shaded is either nothing if the style background color is default or snugshade environment from framed providing background color for the whole code block even if it spans multiple pages",
           "hierarchy": "Text Highlighting Kate Format LaTeX",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "formatLaTeXBlock",
           "normalized": "FormatOptions-\u003e[SourceLine]-\u003eString",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormats tokens as LaTeX using custom commands inside\n \u003ccode\u003e|\u003c/code\u003e characters. Assumes that \u003ccode\u003e|\u003c/code\u003e is defined as a short verbatim\n command by the macros produced by \u003ccode\u003e\u003ca\u003estyleToLaTeX\u003c/a\u003e\u003c/code\u003e.\n A \u003ccode\u003eKeywordTok\u003c/code\u003e is rendered using \u003ccode\u003e\\KeywordTok{..}\u003c/code\u003e, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "formatLaTeXInline",
           "package": "highlighting-kate",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Formats tokens as LaTeX using custom commands inside characters Assumes that is defined as short verbatim command by the macros produced by styleToLaTeX KeywordTok is rendered using KeywordTok and so on",
           "hierarchy": "Text Highlighting Kate Format LaTeX",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "formatLaTeXInline",
           "normalized": "FormatOptions-\u003e[SourceLine]-\u003eString",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003e\u003ca\u003eStyle\u003c/a\u003e\u003c/code\u003e to a set of LaTeX macro definitions,\n which should be placed in the document's preamble.\n Note: default LaTeX setup doesn't allow boldface typewriter font.\n To make boldface work in styles, you need to use a different typewriter\n font. This will work for computer modern:\n\u003c/p\u003e\u003cpre\u003e \\DeclareFontShape{OT1}{cmtt}{bx}{n}{\u003c5\u003e\u003c6\u003e\u003c7\u003e\u003c8\u003e\u003c9\u003e\u003c10\u003e\u003c10.95\u003e\u003c12\u003e\u003c14.4\u003e\u003c17.28\u003e\u003c20.74\u003e\u003c24.88\u003ecmttb10}{}\n\u003c/pre\u003e\u003cp\u003eOr, with xelatex:\n\u003c/p\u003e\u003cpre\u003e \\usepackage{fontspec}\n \\setmainfont[SmallCapsFont={* Caps}]{Latin Modern Roman}\n \\setsansfont{Latin Modern Sans}\n \\setmonofont[SmallCapsFont={Latin Modern Mono Caps}]{Latin Modern Mono Light}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "styleToLaTeX",
           "package": "highlighting-kate",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Converts Style to set of LaTeX macro definitions which should be placed in the document preamble Note default LaTeX setup doesn allow boldface typewriter font To make boldface work in styles you need to use different typewriter font This will work for computer modern DeclareFontShape OT1 cmtt bx cmttb10 Or with xelatex usepackage fontspec setmainfont SmallCapsFont Caps Latin Modern Roman setsansfont Latin Modern Sans setmonofont SmallCapsFont Latin Modern Mono Caps Latin Modern Mono Light",
           "hierarchy": "Text Highlighting Kate Format LaTeX",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Format.LaTeX",
           "name": "styleToLaTeX",
           "normalized": "Style-\u003eString",
@@ -221,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStyles for rendering annotated source lines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "Styles",
           "package": "highlighting-kate",
@@ -230,6 +247,7 @@
         "index": {
           "description": "Styles for rendering annotated source lines",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "Styles",
           "package": "highlighting-kate",
@@ -244,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on ultraviolet's espresso_libre.css (dark background).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "espresso",
           "package": "highlighting-kate",
@@ -254,6 +273,7 @@
         "index": {
           "description": "Style based on ultraviolet espresso libre.css dark background",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "espresso",
           "package": "highlighting-kate",
@@ -267,6 +287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on haddock's source highlighting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "haddock",
           "package": "highlighting-kate",
@@ -277,6 +298,7 @@
         "index": {
           "description": "Style based on haddock source highlighting",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "haddock",
           "package": "highlighting-kate",
@@ -290,6 +312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on kate's default colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "kate",
           "package": "highlighting-kate",
@@ -300,6 +323,7 @@
         "index": {
           "description": "Style based on kate default colors",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "kate",
           "package": "highlighting-kate",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle with no colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "monochrome",
           "package": "highlighting-kate",
@@ -323,6 +348,7 @@
         "index": {
           "description": "Style with no colors",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "monochrome",
           "package": "highlighting-kate",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on pygments's default colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "pygments",
           "package": "highlighting-kate",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Style based on pygments default colors",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "pygments",
           "package": "highlighting-kate",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on pygments's tango colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "tango",
           "package": "highlighting-kate",
@@ -369,6 +398,7 @@
         "index": {
           "description": "Style based on pygments tango colors",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "tango",
           "package": "highlighting-kate",
@@ -382,6 +412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle based on the popular zenburn vim color scheme\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "zenburn",
           "package": "highlighting-kate",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Style based on the popular zenburn vim color scheme",
           "hierarchy": "Text Highlighting Kate Styles",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Styles",
           "name": "zenburn",
           "package": "highlighting-kate",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eToken lexer for various languages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Syntax",
           "name": "Syntax",
           "package": "highlighting-kate",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Token lexer for various languages",
           "hierarchy": "Text Highlighting Kate Syntax",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Syntax",
           "name": "Syntax",
           "package": "highlighting-kate",
@@ -534,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefinitions for data structures needed by highlighting-kate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Types",
           "package": "highlighting-kate",
@@ -543,6 +578,7 @@
         "index": {
           "description": "Definitions for data structures needed by highlighting-kate",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Types",
           "package": "highlighting-kate",
@@ -556,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Color",
           "package": "highlighting-kate",
@@ -564,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Color",
           "package": "highlighting-kate",
@@ -578,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA context: pair of syntax name and context name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Context",
           "package": "highlighting-kate",
@@ -587,6 +626,7 @@
         "index": {
           "description": "context pair of syntax name and context name",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Context",
           "package": "highlighting-kate",
@@ -601,6 +641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA stack of contexts.  (Language-specific context\n stacks must be maintained because of IncludeRules.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ContextStack",
           "package": "highlighting-kate",
@@ -610,6 +651,7 @@
         "index": {
           "description": "stack of contexts Language-specific context stacks must be maintained because of IncludeRules",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ContextStack",
           "package": "highlighting-kate",
@@ -624,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions for formatting source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FormatOptions",
           "package": "highlighting-kate",
@@ -633,6 +676,7 @@
         "index": {
           "description": "Options for formatting source code",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FormatOptions",
           "package": "highlighting-kate",
@@ -646,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FromColor",
           "package": "highlighting-kate",
@@ -654,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FromColor",
           "package": "highlighting-kate",
@@ -667,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "KateParser",
           "package": "highlighting-kate",
@@ -675,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "KateParser",
           "package": "highlighting-kate",
@@ -689,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA line of source, list of labeled source items.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SourceLine",
           "package": "highlighting-kate",
@@ -698,6 +747,7 @@
         "index": {
           "description": "line of source list of labeled source items",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SourceLine",
           "package": "highlighting-kate",
@@ -711,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Style",
           "package": "highlighting-kate",
@@ -719,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Style",
           "package": "highlighting-kate",
@@ -733,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState for syntax parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SyntaxState",
           "package": "highlighting-kate",
@@ -742,6 +795,7 @@
         "index": {
           "description": "State for syntax parser",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SyntaxState",
           "package": "highlighting-kate",
@@ -755,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ToColor",
           "package": "highlighting-kate",
@@ -763,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ToColor",
           "package": "highlighting-kate",
@@ -777,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair consisting of a list of attributes and some text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Token",
           "package": "highlighting-kate",
@@ -786,6 +843,7 @@
         "index": {
           "description": "pair consisting of list of attributes and some text",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Token",
           "package": "highlighting-kate",
@@ -799,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenStyle",
           "package": "highlighting-kate",
@@ -807,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenStyle",
           "package": "highlighting-kate",
@@ -820,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenType",
           "package": "highlighting-kate",
@@ -828,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenType",
           "package": "highlighting-kate",
@@ -841,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "AlertTok",
           "package": "highlighting-kate",
@@ -850,6 +913,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "AlertTok",
           "package": "highlighting-kate",
@@ -863,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "BaseNTok",
           "package": "highlighting-kate",
@@ -872,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "BaseNTok",
           "package": "highlighting-kate",
@@ -885,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "CharTok",
           "package": "highlighting-kate",
@@ -894,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "CharTok",
           "package": "highlighting-kate",
@@ -907,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "CommentTok",
           "package": "highlighting-kate",
@@ -916,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "CommentTok",
           "package": "highlighting-kate",
@@ -929,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "DataTypeTok",
           "package": "highlighting-kate",
@@ -938,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "DataTypeTok",
           "package": "highlighting-kate",
@@ -951,6 +1023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "DecValTok",
           "package": "highlighting-kate",
@@ -960,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "DecValTok",
           "package": "highlighting-kate",
@@ -973,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ErrorTok",
           "package": "highlighting-kate",
@@ -982,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "ErrorTok",
           "package": "highlighting-kate",
@@ -995,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FloatTok",
           "package": "highlighting-kate",
@@ -1004,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FloatTok",
           "package": "highlighting-kate",
@@ -1017,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FormatOptions",
           "package": "highlighting-kate",
@@ -1026,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FormatOptions",
           "package": "highlighting-kate",
@@ -1039,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FunctionTok",
           "package": "highlighting-kate",
@@ -1048,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "FunctionTok",
           "package": "highlighting-kate",
@@ -1061,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "KeywordTok",
           "package": "highlighting-kate",
@@ -1070,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "KeywordTok",
           "package": "highlighting-kate",
@@ -1083,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "NormalTok",
           "package": "highlighting-kate",
@@ -1092,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "NormalTok",
           "package": "highlighting-kate",
@@ -1105,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "OtherTok",
           "package": "highlighting-kate",
@@ -1114,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "OtherTok",
           "package": "highlighting-kate",
@@ -1127,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "RGB",
           "package": "highlighting-kate",
@@ -1136,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "RGB",
           "package": "highlighting-kate",
@@ -1149,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "RegionMarkerTok",
           "package": "highlighting-kate",
@@ -1158,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "RegionMarkerTok",
           "package": "highlighting-kate",
@@ -1171,6 +1263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "StringTok",
           "package": "highlighting-kate",
@@ -1180,6 +1273,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "StringTok",
           "package": "highlighting-kate",
@@ -1193,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Style",
           "package": "highlighting-kate",
@@ -1202,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "Style",
           "package": "highlighting-kate",
@@ -1215,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SyntaxState",
           "package": "highlighting-kate",
@@ -1224,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "SyntaxState",
           "package": "highlighting-kate",
@@ -1237,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenStyle",
           "package": "highlighting-kate",
@@ -1246,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "TokenStyle",
           "package": "highlighting-kate",
@@ -1259,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "backgroundColor",
           "package": "highlighting-kate",
@@ -1268,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "backgroundColor",
           "package": "highlighting-kate",
@@ -1282,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional classes for Html code tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "codeClasses",
           "package": "highlighting-kate",
@@ -1292,6 +1395,7 @@
         "index": {
           "description": "Additional classes for Html code tag",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "codeClasses",
           "normalized": "[String]",
@@ -1308,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional classes for Html container tag\n   (pre or table depending on numberLines)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "containerClasses",
           "package": "highlighting-kate",
@@ -1318,6 +1423,7 @@
         "index": {
           "description": "Additional classes for Html container tag pre or table depending on numberLines",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "containerClasses",
           "normalized": "[String]",
@@ -1333,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defStyle",
           "package": "highlighting-kate",
@@ -1342,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defStyle",
           "package": "highlighting-kate",
@@ -1355,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defaultColor",
           "package": "highlighting-kate",
@@ -1364,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defaultColor",
           "package": "highlighting-kate",
@@ -1377,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defaultFormatOpts",
           "package": "highlighting-kate",
@@ -1386,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "defaultFormatOpts",
           "package": "highlighting-kate",
@@ -1399,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "fromColor",
           "package": "highlighting-kate",
@@ -1408,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "fromColor",
           "normalized": "Color-\u003ea",
@@ -1424,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnchors on each line number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineAnchors",
           "package": "highlighting-kate",
@@ -1434,6 +1549,7 @@
         "index": {
           "description": "Anchors on each line number",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineAnchors",
           "package": "highlighting-kate",
@@ -1447,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineNumberBackgroundColor",
           "package": "highlighting-kate",
@@ -1456,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineNumberBackgroundColor",
           "package": "highlighting-kate",
@@ -1469,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineNumberColor",
           "package": "highlighting-kate",
@@ -1478,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "lineNumberColor",
           "package": "highlighting-kate",
@@ -1492,6 +1612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "numberLines",
           "package": "highlighting-kate",
@@ -1502,6 +1623,7 @@
         "index": {
           "description": "Number lines",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "numberLines",
           "package": "highlighting-kate",
@@ -1516,6 +1638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of first line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "startNumber",
           "package": "highlighting-kate",
@@ -1526,6 +1649,7 @@
         "index": {
           "description": "Number of first line",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "startNumber",
           "package": "highlighting-kate",
@@ -1540,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of regex captures from\n   last capturing match\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStCaptures",
           "package": "highlighting-kate",
@@ -1550,6 +1675,7 @@
         "index": {
           "description": "List of regex captures from last capturing match",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStCaptures",
           "normalized": "[String]",
@@ -1566,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLanguage is case-sensitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStCaseSensitive",
           "package": "highlighting-kate",
@@ -1576,6 +1703,7 @@
         "index": {
           "description": "Language is case-sensitive",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStCaseSensitive",
           "package": "highlighting-kate",
@@ -1590,6 +1718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStack of contexts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStContexts",
           "package": "highlighting-kate",
@@ -1600,6 +1729,7 @@
         "index": {
           "description": "Stack of contexts",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStContexts",
           "package": "highlighting-kate",
@@ -1614,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeywords are case-sensitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStKeywordCaseSensitive",
           "package": "highlighting-kate",
@@ -1624,6 +1755,7 @@
         "index": {
           "description": "Keywords are case-sensitive",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStKeywordCaseSensitive",
           "package": "highlighting-kate",
@@ -1638,6 +1770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of current line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStLineNumber",
           "package": "highlighting-kate",
@@ -1648,6 +1781,7 @@
         "index": {
           "description": "Number of current line",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStLineNumber",
           "package": "highlighting-kate",
@@ -1662,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast character parsed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStPrevChar",
           "package": "highlighting-kate",
@@ -1672,6 +1807,7 @@
         "index": {
           "description": "Last character parsed",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStPrevChar",
           "package": "highlighting-kate",
@@ -1686,6 +1822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if we've parsed a nonspace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStPrevNonspace",
           "package": "highlighting-kate",
@@ -1696,6 +1833,7 @@
         "index": {
           "description": "True if we ve parsed nonspace",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "synStPrevNonspace",
           "package": "highlighting-kate",
@@ -1710,6 +1848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHtml titles with token types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "titleAttributes",
           "package": "highlighting-kate",
@@ -1720,6 +1859,7 @@
         "index": {
           "description": "Html titles with token types",
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "titleAttributes",
           "package": "highlighting-kate",
@@ -1733,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "toColor",
           "package": "highlighting-kate",
@@ -1742,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "toColor",
           "normalized": "a-\u003eMaybe Color",
@@ -1757,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenBackground",
           "package": "highlighting-kate",
@@ -1766,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenBackground",
           "package": "highlighting-kate",
@@ -1779,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenBold",
           "package": "highlighting-kate",
@@ -1788,6 +1933,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenBold",
           "package": "highlighting-kate",
@@ -1801,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenColor",
           "package": "highlighting-kate",
@@ -1810,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenColor",
           "package": "highlighting-kate",
@@ -1823,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenItalic",
           "package": "highlighting-kate",
@@ -1832,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenItalic",
           "package": "highlighting-kate",
@@ -1845,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenStyles",
           "package": "highlighting-kate",
@@ -1854,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenStyles",
           "normalized": "[(TokenType,TokenStyle)]",
@@ -1869,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenUnderline",
           "package": "highlighting-kate",
@@ -1878,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate Types",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate.Types",
           "name": "tokenUnderline",
           "package": "highlighting-kate",
@@ -1892,6 +2046,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis helper module exports the main highlighting and formatting\nfunctions.\n\u003c/p\u003e\u003cp\u003eA typical application will combine a highlighter and a formatter.\nThis one reads ruby code from stdin and writes HTML:\n\u003c/p\u003e\u003cpre\u003e import Text.Highlighting.Kate\n import Text.Blaze.Html.Renderer.String (renderHtml)\n import Text.Blaze.Html (toHtml)\n import Text.Blaze.Html5 as H\n import Text.Blaze.Html5.Attributes as A\n\n main = do\n   code \u003c- getContents\n   putStrLn $ renderHtml\n            $ do H.head $ H.style ! A.type_ (toValue \"text/css\")\n                        $ toHtml $ styleToCss tango\n                 H.body $ toHtml\n                        $ formatHtmlBlock defaultFormatOpts\n                        $ highlightAs \"ruby\" code\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate",
           "name": "Kate",
           "package": "highlighting-kate",
@@ -1901,6 +2056,7 @@
         "index": {
           "description": "This helper module exports the main highlighting and formatting functions typical application will combine highlighter and formatter This one reads ruby code from stdin and writes HTML import Text.Highlighting.Kate import Text.Blaze.Html.Renderer.String renderHtml import Text.Blaze.Html toHtml import Text.Blaze.Html5 as import Text.Blaze.Html5.Attributes as main do code getContents putStrLn renderHtml do H.head H.style A.type toValue text css toHtml styleToCss tango H.body toHtml formatHtmlBlock defaultFormatOpts highlightAs ruby code",
           "hierarchy": "Text Highlighting Kate",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate",
           "name": "Kate",
           "package": "highlighting-kate",
@@ -1914,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:21 UTC 2014",
           "module": "Text.Highlighting.Kate",
           "name": "highlightingKateVersion",
           "package": "highlighting-kate",
@@ -1923,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Kate",
+          "indexed": "2014-03-11T18:39:21",
           "module": "Text.Highlighting.Kate",
           "name": "highlightingKateVersion",
           "package": "highlighting-kate",

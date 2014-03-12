@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "acme-now"
+        "phrase": "acme-now",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:07:23 UTC 2014",
           "module": "Acme.Time.Now",
           "name": "Now",
           "package": "acme-now",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Acme Time Now",
+          "indexed": "2014-03-11T17:07:23",
           "module": "Acme.Time.Now",
           "name": "Now",
           "package": "acme-now",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unchanging \"now\". If you get any errors or unexpecting results from using\n   this value, it's because your assumptions about the nature of time are wrong.\n   I have a proof of this, but the margin isn't large enough to contain it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:07:23 UTC 2014",
           "module": "Acme.Time.Now",
           "name": "now",
           "package": "acme-now",
@@ -50,6 +53,7 @@
         "index": {
           "description": "The unchanging now If you get any errors or unexpecting results from using this value it because your assumptions about the nature of time are wrong have proof of this but the margin isn large enough to contain it",
           "hierarchy": "Acme Time Now",
+          "indexed": "2014-03-11T17:07:23",
           "module": "Acme.Time.Now",
           "name": "now",
           "package": "acme-now",

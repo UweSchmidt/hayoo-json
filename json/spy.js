@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spy"
+        "phrase": "spy",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bytestring-handle"
+        "phrase": "bytestring-handle",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:46 UTC 2014",
           "module": "Data.ByteString.Handle",
           "name": "Handle",
           "package": "bytestring-handle",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Handle",
+          "indexed": "2014-03-11T17:26:46",
           "module": "Data.ByteString.Handle",
           "name": "Handle",
           "package": "bytestring-handle",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:46 UTC 2014",
           "module": "Data.ByteString.Handle",
           "name": "readHandle",
           "package": "bytestring-handle",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Handle",
+          "indexed": "2014-03-11T17:26:46",
           "module": "Data.ByteString.Handle",
           "name": "readHandle",
           "normalized": "Bool-\u003eByteString-\u003eIO Handle",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:26:46 UTC 2014",
           "module": "Data.ByteString.Handle",
           "name": "writeHandle",
           "package": "bytestring-handle",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data ByteString Handle",
+          "indexed": "2014-03-11T17:26:46",
           "module": "Data.ByteString.Handle",
           "name": "writeHandle",
           "normalized": "Bool-\u003e(Handle-\u003eIO a)-\u003eIO(ByteString,a)",

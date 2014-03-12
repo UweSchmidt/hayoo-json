@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Geodetic"
+        "phrase": "Geodetic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Azi",
           "name": "Azi",
           "package": "Geodetic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Azi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Azi",
           "name": "Azi",
           "package": "Geodetic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Azi",
           "name": "Azi",
           "package": "Geodetic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Azi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Azi",
           "name": "Azi",
           "package": "Geodetic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Azi",
           "name": "azi",
           "package": "Geodetic",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Azi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Azi",
           "name": "azi",
           "normalized": "a-\u003eAzimuth",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "Coordinate",
           "package": "Geodetic",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Coordinate",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "Coordinate",
           "package": "Geodetic",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "Coordinate",
           "package": "Geodetic",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Coordinate",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "Coordinate",
           "package": "Geodetic",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "coordinate",
           "package": "Geodetic",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Coordinate",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Coordinate",
           "name": "coordinate",
           "normalized": "a-\u003eCoord",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Curve",
           "name": "Curve",
           "package": "Geodetic",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Curve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Curve",
           "name": "Curve",
           "package": "Geodetic",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Curve",
           "name": "Curve",
           "package": "Geodetic",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Curve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Curve",
           "name": "Curve",
           "package": "Geodetic",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Curve",
           "name": "curve",
           "package": "Geodetic",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Curve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Curve",
           "name": "curve",
           "normalized": "a-\u003eGeodeticCurve",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Ele",
           "name": "Ele",
           "package": "Geodetic",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Ele",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Ele",
           "name": "Ele",
           "package": "Geodetic",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Ele",
           "name": "Ele",
           "package": "Geodetic",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Ele",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Ele",
           "name": "Ele",
           "package": "Geodetic",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Ele",
           "name": "ele",
           "package": "Geodetic",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Ele",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Ele",
           "name": "ele",
           "normalized": "a-\u003eElevation",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "EllipsoidalDistance",
           "package": "Geodetic",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor EllipsoidalDistance",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "EllipsoidalDistance",
           "package": "Geodetic",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "EllipsoidalDistance",
           "package": "Geodetic",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor EllipsoidalDistance",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "EllipsoidalDistance",
           "package": "Geodetic",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "ellipsoidalDistance",
           "package": "Geodetic",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor EllipsoidalDistance",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.EllipsoidalDistance",
           "name": "ellipsoidalDistance",
           "normalized": "a-\u003eDouble",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lat",
           "name": "Lat",
           "package": "Geodetic",
@@ -352,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lat",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lat",
           "name": "Lat",
           "package": "Geodetic",
@@ -365,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lat",
           "name": "Lat",
           "package": "Geodetic",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lat",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lat",
           "name": "Lat",
           "package": "Geodetic",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lat",
           "name": "lat",
           "package": "Geodetic",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lat",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lat",
           "name": "lat",
           "normalized": "a-\u003eLatitude",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lon",
           "name": "Lon",
           "package": "Geodetic",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lon",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lon",
           "name": "Lon",
           "package": "Geodetic",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lon",
           "name": "Lon",
           "package": "Geodetic",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lon",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lon",
           "name": "Lon",
           "package": "Geodetic",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Lon",
           "name": "lon",
           "package": "Geodetic",
@@ -460,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Lon",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Lon",
           "name": "lon",
           "normalized": "a-\u003eLongitude",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "ReverseAzi",
           "package": "Geodetic",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor ReverseAzi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "ReverseAzi",
           "package": "Geodetic",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "ReverseAzi",
           "package": "Geodetic",
@@ -503,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor ReverseAzi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "ReverseAzi",
           "package": "Geodetic",
@@ -516,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "reverseAzi",
           "package": "Geodetic",
@@ -525,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor ReverseAzi",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.ReverseAzi",
           "name": "reverseAzi",
           "normalized": "a-\u003eAzimuth",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Value",
           "name": "Value",
           "package": "Geodetic",
@@ -548,6 +597,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Value",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Value",
           "name": "Value",
           "package": "Geodetic",
@@ -561,6 +611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Value",
           "name": "Value",
           "package": "Geodetic",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Value",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Value",
           "name": "Value",
           "package": "Geodetic",
@@ -582,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Accessor.Value",
           "name": "value",
           "package": "Geodetic",
@@ -591,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Accessor Value",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Accessor.Value",
           "name": "value",
           "normalized": "a-\u003eb",
@@ -606,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn azimuth in degrees between 0 and 360).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Azimuth",
           "name": "Azimuth",
           "package": "Geodetic",
@@ -615,6 +670,7 @@
         "index": {
           "description": "An azimuth in degrees between and",
           "hierarchy": "Data Geo Azimuth",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Azimuth",
           "name": "Azimuth",
           "package": "Geodetic",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Azimuth",
           "name": "Azimuth",
           "package": "Geodetic",
@@ -636,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Azimuth",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Azimuth",
           "name": "Azimuth",
           "package": "Geodetic",
@@ -650,6 +708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an azimuth with the number of degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Azimuth",
           "name": "azimuth",
           "package": "Geodetic",
@@ -660,6 +719,7 @@
         "index": {
           "description": "Construct an azimuth with the number of degrees",
           "hierarchy": "Data Geo Azimuth",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Azimuth",
           "name": "azimuth",
           "normalized": "Double-\u003eAzimuth",
@@ -675,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA bearing in a degrees between 0 and 360.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Bearing",
           "name": "Bearing",
           "package": "Geodetic",
@@ -684,6 +745,7 @@
         "index": {
           "description": "bearing in degrees between and",
           "hierarchy": "Data Geo Bearing",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Bearing",
           "name": "Bearing",
           "package": "Geodetic",
@@ -697,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Bearing",
           "name": "Bearing",
           "package": "Geodetic",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Bearing",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Bearing",
           "name": "Bearing",
           "package": "Geodetic",
@@ -719,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a bearing with the number of degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Bearing",
           "name": "bearing",
           "package": "Geodetic",
@@ -729,6 +794,7 @@
         "index": {
           "description": "Construct bearing with the number of degrees",
           "hierarchy": "Data Geo Bearing",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Bearing",
           "name": "bearing",
           "normalized": "Double-\u003eBearing",
@@ -744,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA coordinate on earth with a latitude and longitude.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "Coord",
           "package": "Geodetic",
@@ -753,6 +820,7 @@
         "index": {
           "description": "coordinate on earth with latitude and longitude",
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "Coord",
           "package": "Geodetic",
@@ -766,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "Coord",
           "package": "Geodetic",
@@ -774,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "Coord",
           "package": "Geodetic",
@@ -788,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a coordinate with the given latitude and longitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "(|.|)",
           "package": "Geodetic",
@@ -798,6 +869,7 @@
         "index": {
           "description": "Construct coordinate with the given latitude and longitude",
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "(|.|) |.|",
           "normalized": "Latitude-\u003eLongitude-\u003eCoord",
@@ -813,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e- | Construct a coordinate with the given latitude and longitude in radians.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "(|..|)",
           "package": "Geodetic",
@@ -823,6 +896,7 @@
         "index": {
           "description": "Construct coordinate with the given latitude and longitude in radians",
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "(|..|) |..|",
           "normalized": "Double-\u003eDouble-\u003eCoord",
@@ -838,6 +912,7 @@
       "document": {
         "description": {
           "description": "\u003cul\u003e\u003cli\u003e- | Construct a coordinate with the given latitude and longitude in degrees.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "(!.!)",
           "package": "Geodetic",
@@ -848,6 +923,7 @@
         "index": {
           "description": "Construct coordinate with the given latitude and longitude in degrees",
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "(!.!) !.!",
           "normalized": "Double-\u003eDouble-\u003eCoord",
@@ -863,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the latitude and longitude of the given coordinate to radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Coord",
           "name": "radians'",
           "package": "Geodetic",
@@ -873,6 +950,7 @@
         "index": {
           "description": "Convert the latitude and longitude of the given coordinate to radians",
           "hierarchy": "Data Geo Coord",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Coord",
           "name": "radians'",
           "normalized": "Coord-\u003e(Double,Double)",
@@ -888,6 +966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresent a value in degrees, minutes and seconds.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "DMS",
           "package": "Geodetic",
@@ -897,6 +976,7 @@
         "index": {
           "description": "Represent value in degrees minutes and seconds",
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "DMS",
           "package": "Geodetic",
@@ -911,6 +991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe structure of a type convertible to degrees, minutes and seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "DMS",
           "package": "Geodetic",
@@ -920,6 +1001,7 @@
         "index": {
           "description": "The structure of type convertible to degrees minutes and seconds",
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "DMS",
           "package": "Geodetic",
@@ -933,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "DMSable",
           "package": "Geodetic",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "DMSable",
           "package": "Geodetic",
@@ -955,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a coordinate in degrees, minutes and seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "coordDMS",
           "package": "Geodetic",
@@ -965,6 +1050,7 @@
         "index": {
           "description": "Show coordinate in degrees minutes and seconds",
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "coordDMS",
           "normalized": "Coord-\u003eString",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "degrees",
           "package": "Geodetic",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "degrees",
           "normalized": "DMS-\u003eInt",
@@ -1004,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a value of degrees, minutes and seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "dms",
           "package": "Geodetic",
@@ -1014,6 +1103,7 @@
         "index": {
           "description": "Construct value of degrees minutes and seconds",
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "dms",
           "normalized": "Bool-\u003eInt-\u003eInt-\u003eDouble-\u003eDMS",
@@ -1028,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "fromDMS",
           "package": "Geodetic",
@@ -1037,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "fromDMS",
           "normalized": "DMS-\u003ea",
@@ -1052,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "minutes",
           "package": "Geodetic",
@@ -1061,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "minutes",
           "normalized": "DMS-\u003eInt",
@@ -1075,6 +1169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "positive",
           "package": "Geodetic",
@@ -1084,6 +1179,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "positive",
           "normalized": "DMS-\u003eBool",
@@ -1098,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "seconds",
           "package": "Geodetic",
@@ -1107,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "seconds",
           "normalized": "DMS-\u003eDouble",
@@ -1122,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a value in degrees, minutes and seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "showDMS",
           "package": "Geodetic",
@@ -1132,6 +1231,7 @@
         "index": {
           "description": "Show value in degrees minutes and seconds",
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "showDMS",
           "normalized": "a-\u003eString",
@@ -1147,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "showNegPos",
           "package": "Geodetic",
@@ -1156,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "showNegPos",
           "normalized": "a-\u003eString",
@@ -1171,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.DMS",
           "name": "toDMS",
           "package": "Geodetic",
@@ -1180,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Geo DMS",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.DMS",
           "name": "toDMS",
           "normalized": "a-\u003eDMS",
@@ -1196,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn elevated curve is a geodetic curve with an elevation in metres.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.ElevatedCurve",
           "name": "ElevatedCurve",
           "package": "Geodetic",
@@ -1205,6 +1310,7 @@
         "index": {
           "description": "An elevated curve is geodetic curve with an elevation in metres",
           "hierarchy": "Data Geo ElevatedCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.ElevatedCurve",
           "name": "ElevatedCurve",
           "package": "Geodetic",
@@ -1218,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.ElevatedCurve",
           "name": "ElevatedCurve",
           "package": "Geodetic",
@@ -1226,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Data Geo ElevatedCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.ElevatedCurve",
           "name": "ElevatedCurve",
           "package": "Geodetic",
@@ -1240,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the length of an elevated curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.ElevatedCurve",
           "name": "curveLength",
           "package": "Geodetic",
@@ -1250,6 +1359,7 @@
         "index": {
           "description": "Compute the length of an elevated curve",
           "hierarchy": "Data Geo ElevatedCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.ElevatedCurve",
           "name": "curveLength",
           "normalized": "ElevatedCurve-\u003eDouble",
@@ -1266,6 +1376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an elevated curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.ElevatedCurve",
           "name": "elevatedCurve",
           "package": "Geodetic",
@@ -1276,6 +1387,7 @@
         "index": {
           "description": "Construct an elevated curve",
           "hierarchy": "Data Geo ElevatedCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.ElevatedCurve",
           "name": "elevatedCurve",
           "normalized": "GeodeticCurve-\u003eElevation-\u003eElevatedCurve",
@@ -1292,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn elevation in metres, above 0.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Elevation",
           "name": "Elevation",
           "package": "Geodetic",
@@ -1301,6 +1414,7 @@
         "index": {
           "description": "An elevation in metres above",
           "hierarchy": "Data Geo Elevation",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Elevation",
           "name": "Elevation",
           "package": "Geodetic",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Elevation",
           "name": "Elevation",
           "package": "Geodetic",
@@ -1322,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Elevation",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Elevation",
           "name": "Elevation",
           "package": "Geodetic",
@@ -1336,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an elevation with the given number of metres.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Elevation",
           "name": "elevation",
           "package": "Geodetic",
@@ -1346,6 +1463,7 @@
         "index": {
           "description": "Construct an elevation with the given number of metres",
           "hierarchy": "Data Geo Elevation",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Elevation",
           "name": "elevation",
           "normalized": "Double-\u003eElevation",
@@ -1361,6 +1479,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn ellipsoid with parameters such as flattening.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "Ellipsoid",
           "package": "Geodetic",
@@ -1370,6 +1489,7 @@
         "index": {
           "description": "An ellipsoid with parameters such as flattening",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "Ellipsoid",
           "package": "Geodetic",
@@ -1384,6 +1504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEllipsoidal parameters. Some are derivable from others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "Ellipsoid",
           "package": "Geodetic",
@@ -1393,6 +1514,7 @@
         "index": {
           "description": "Ellipsoidal parameters Some are derivable from others",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "Ellipsoid",
           "package": "Geodetic",
@@ -1406,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "airy1830",
           "package": "Geodetic",
@@ -1415,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "airy1830",
           "package": "Geodetic",
@@ -1427,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "ans",
           "package": "Geodetic",
@@ -1436,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "ans",
           "package": "Geodetic",
@@ -1448,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "au1965",
           "package": "Geodetic",
@@ -1457,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "au1965",
           "package": "Geodetic",
@@ -1469,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "bessel1841",
           "package": "Geodetic",
@@ -1478,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "bessel1841",
           "package": "Geodetic",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1858",
           "package": "Geodetic",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1858",
           "package": "Geodetic",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1866",
           "package": "Geodetic",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1866",
           "package": "Geodetic",
@@ -1532,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1880",
           "package": "Geodetic",
@@ -1541,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "clarke1880",
           "package": "Geodetic",
@@ -1554,6 +1690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an ellipsoid with the given parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "ellipsoid",
           "package": "Geodetic",
@@ -1563,6 +1700,7 @@
         "index": {
           "description": "Construct an ellipsoid with the given parameters",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "ellipsoid",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eEllipsoid",
@@ -1577,6 +1715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "everest1830",
           "package": "Geodetic",
@@ -1586,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "everest1830",
           "package": "Geodetic",
@@ -1599,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ellipsoidal flattening.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "flattening",
           "package": "Geodetic",
@@ -1609,6 +1750,7 @@
         "index": {
           "description": "The ellipsoidal flattening",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "flattening",
           "normalized": "Ellipsoid-\u003eDouble",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "grs67",
           "package": "Geodetic",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "grs67",
           "package": "Geodetic",
@@ -1644,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "grs80",
           "package": "Geodetic",
@@ -1653,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "grs80",
           "package": "Geodetic",
@@ -1665,6 +1811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "hayford1909",
           "package": "Geodetic",
@@ -1674,6 +1821,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "hayford1909",
           "package": "Geodetic",
@@ -1686,6 +1834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "international1924",
           "package": "Geodetic",
@@ -1695,6 +1844,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "international1924",
           "package": "Geodetic",
@@ -1708,6 +1858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of the ellipsoidal flattening.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "inverseFlattening",
           "package": "Geodetic",
@@ -1718,6 +1869,7 @@
         "index": {
           "description": "The inverse of the ellipsoidal flattening",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "inverseFlattening",
           "normalized": "Ellipsoid-\u003eDouble",
@@ -1733,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "krasovsky1940",
           "package": "Geodetic",
@@ -1742,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "krasovsky1940",
           "package": "Geodetic",
@@ -1755,6 +1909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semi major axis in metres.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajor",
           "package": "Geodetic",
@@ -1765,6 +1920,7 @@
         "index": {
           "description": "The semi major axis in metres",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajor",
           "normalized": "Ellipsoid-\u003eDouble",
@@ -1781,6 +1937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an ellipsoid using only a semi major axis and flattening. Other parameters are computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajorFlattening",
           "package": "Geodetic",
@@ -1790,6 +1947,7 @@
         "index": {
           "description": "Construct an ellipsoid using only semi major axis and flattening Other parameters are computed",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajorFlattening",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -1806,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an ellipsoid using only a semi major axis and inverse flattening. Other parameters are computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajorInverseF",
           "package": "Geodetic",
@@ -1815,6 +1974,7 @@
         "index": {
           "description": "Construct an ellipsoid using only semi major axis and inverse flattening Other parameters are computed",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMajorInverseF",
           "normalized": "Double-\u003eDouble-\u003eEllipsoid",
@@ -1831,6 +1991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semi minor axis in metres.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMinor",
           "package": "Geodetic",
@@ -1841,6 +2002,7 @@
         "index": {
           "description": "The semi minor axis in metres",
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "semiMinor",
           "normalized": "Ellipsoid-\u003eDouble",
@@ -1856,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "wgs72",
           "package": "Geodetic",
@@ -1865,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "wgs72",
           "package": "Geodetic",
@@ -1877,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Ellipsoid",
           "name": "wgs84",
           "package": "Geodetic",
@@ -1886,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Ellipsoid",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Ellipsoid",
           "name": "wgs84",
           "package": "Geodetic",
@@ -1899,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA geodetic curve is made of a distance in metres, an azimuth and a reverse azimuth.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.GeodeticCurve",
           "name": "GeodeticCurve",
           "package": "Geodetic",
@@ -1908,6 +2075,7 @@
         "index": {
           "description": "geodetic curve is made of distance in metres an azimuth and reverse azimuth",
           "hierarchy": "Data Geo GeodeticCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.GeodeticCurve",
           "name": "GeodeticCurve",
           "package": "Geodetic",
@@ -1921,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.GeodeticCurve",
           "name": "GeodeticCurve",
           "package": "Geodetic",
@@ -1929,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GeodeticCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.GeodeticCurve",
           "name": "GeodeticCurve",
           "package": "Geodetic",
@@ -1943,6 +2113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a geodetic curve with the given parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.GeodeticCurve",
           "name": "geodeticCurve",
           "package": "Geodetic",
@@ -1952,6 +2123,7 @@
         "index": {
           "description": "Construct geodetic curve with the given parameters",
           "hierarchy": "Data Geo GeodeticCurve",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.GeodeticCurve",
           "name": "geodeticCurve",
           "normalized": "Double-\u003eAzimuth-\u003eAzimuth-\u003eGeodeticCurve",
@@ -1967,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.GreatCircle",
           "name": "GreatCircle",
           "package": "Geodetic",
@@ -1975,6 +2148,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GreatCircle",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.GreatCircle",
           "name": "GreatCircle",
           "package": "Geodetic",
@@ -1988,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.GreatCircle",
           "name": "sphericalLaw",
           "package": "Geodetic",
@@ -1997,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Data Geo GreatCircle",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.GreatCircle",
           "name": "sphericalLaw",
           "normalized": "Sphere-\u003eCoord-\u003eCoord-\u003eDouble",
@@ -2012,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Haversine",
           "name": "Haversine",
           "package": "Geodetic",
@@ -2020,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Haversine",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Haversine",
           "name": "Haversine",
           "package": "Geodetic",
@@ -2033,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Haversine",
           "name": "haversine",
           "package": "Geodetic",
@@ -2042,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Haversine",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Haversine",
           "name": "haversine",
           "normalized": "Sphere-\u003eCoord-\u003eCoord-\u003eDouble",
@@ -2057,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA latitude on earth in degrees.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Latitude",
           "name": "Latitude",
           "package": "Geodetic",
@@ -2066,6 +2247,7 @@
         "index": {
           "description": "latitude on earth in degrees",
           "hierarchy": "Data Geo Latitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Latitude",
           "name": "Latitude",
           "package": "Geodetic",
@@ -2079,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Latitude",
           "name": "Latitude",
           "package": "Geodetic",
@@ -2087,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Latitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Latitude",
           "name": "Latitude",
           "package": "Geodetic",
@@ -2101,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a latitude using the given number of degrees between -90 and 90.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Latitude",
           "name": "latitude",
           "package": "Geodetic",
@@ -2111,6 +2296,7 @@
         "index": {
           "description": "Construct latitude using the given number of degrees between and",
           "hierarchy": "Data Geo Latitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Latitude",
           "name": "latitude",
           "normalized": "Double-\u003eLatitude",
@@ -2126,6 +2312,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA longitude on earth in degrees.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Longitude",
           "name": "Longitude",
           "package": "Geodetic",
@@ -2135,6 +2322,7 @@
         "index": {
           "description": "longitude on earth in degrees",
           "hierarchy": "Data Geo Longitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Longitude",
           "name": "Longitude",
           "package": "Geodetic",
@@ -2148,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Longitude",
           "name": "Longitude",
           "package": "Geodetic",
@@ -2156,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Longitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Longitude",
           "name": "Longitude",
           "package": "Geodetic",
@@ -2170,6 +2360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a longitude using the given number of degrees between -180 and 180.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Longitude",
           "name": "longitude",
           "package": "Geodetic",
@@ -2180,6 +2371,7 @@
         "index": {
           "description": "Construct longitude using the given number of degrees between and",
           "hierarchy": "Data Geo Longitude",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Longitude",
           "name": "longitude",
           "normalized": "Double-\u003eLongitude",
@@ -2195,6 +2387,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA coordinate on earth with an elevation in metres.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Position",
           "name": "Position",
           "package": "Geodetic",
@@ -2204,6 +2397,7 @@
         "index": {
           "description": "coordinate on earth with an elevation in metres",
           "hierarchy": "Data Geo Position",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Position",
           "name": "Position",
           "package": "Geodetic",
@@ -2217,6 +2411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Position",
           "name": "Position",
           "package": "Geodetic",
@@ -2225,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Position",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Position",
           "name": "Position",
           "package": "Geodetic",
@@ -2239,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a position with the given coordinate and elevation in metres.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Position",
           "name": "(|*|)",
           "package": "Geodetic",
@@ -2248,6 +2445,7 @@
         "index": {
           "description": "Construct position with the given coordinate and elevation in metres",
           "hierarchy": "Data Geo Position",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Position",
           "name": "(|*|) |*|",
           "normalized": "Coord-\u003eElevation-\u003ePosition",
@@ -2263,6 +2461,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert types to and from radians/degrees.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Radians",
           "name": "Radians",
           "package": "Geodetic",
@@ -2272,6 +2471,7 @@
         "index": {
           "description": "Convert types to and from radians degrees",
           "hierarchy": "Data Geo Radians",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Radians",
           "name": "Radians",
           "package": "Geodetic",
@@ -2285,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Radians",
           "name": "Radians",
           "package": "Geodetic",
@@ -2293,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Radians",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Radians",
           "name": "Radians",
           "package": "Geodetic",
@@ -2306,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Radians",
           "name": "fromRadians",
           "package": "Geodetic",
@@ -2315,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Radians",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Radians",
           "name": "fromRadians",
           "normalized": "Double-\u003ea",
@@ -2331,6 +2535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert two values to radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Radians",
           "name": "radians",
           "package": "Geodetic",
@@ -2341,6 +2546,7 @@
         "index": {
           "description": "Convert two values to radians",
           "hierarchy": "Data Geo Radians",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Radians",
           "name": "radians",
           "normalized": "a-\u003eb-\u003e(Double,Double)",
@@ -2355,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Radians",
           "name": "toRadians",
           "package": "Geodetic",
@@ -2364,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Radians",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Radians",
           "name": "toRadians",
           "normalized": "a-\u003eDouble",
@@ -2379,6 +2587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Sphere",
           "name": "Sphere",
           "package": "Geodetic",
@@ -2387,6 +2596,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Sphere",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Sphere",
           "name": "Sphere",
           "package": "Geodetic",
@@ -2400,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Sphere",
           "name": "Sphere",
           "package": "Geodetic",
@@ -2408,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Sphere",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Sphere",
           "name": "Sphere",
           "package": "Geodetic",
@@ -2421,6 +2633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Sphere",
           "name": "earthMean",
           "package": "Geodetic",
@@ -2430,6 +2643,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Sphere",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Sphere",
           "name": "earthMean",
           "package": "Geodetic",
@@ -2443,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Sphere",
           "name": "sphere",
           "package": "Geodetic",
@@ -2452,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Sphere",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Sphere",
           "name": "sphere",
           "normalized": "Double-\u003eSphere",
@@ -2467,6 +2683,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn implementation of Thaddeus Vincenty's direct and inverse geodetic algorithms. \u003ca\u003ehttp://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "Vincenty",
           "package": "Geodetic",
@@ -2476,6 +2693,7 @@
         "index": {
           "description": "An implementation of Thaddeus Vincenty direct and inverse geodetic algorithms http www.ngs.noaa.gov PUBS LIB inverse.pdf",
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "Vincenty",
           "package": "Geodetic",
@@ -2489,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "VincentyDirect",
           "package": "Geodetic",
@@ -2497,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "VincentyDirect",
           "package": "Geodetic",
@@ -2510,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "VincentyInverse",
           "package": "Geodetic",
@@ -2518,6 +2739,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "VincentyInverse",
           "package": "Geodetic",
@@ -2532,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn acceptable convergence value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "convergence",
           "package": "Geodetic",
@@ -2542,6 +2765,7 @@
         "index": {
           "description": "An acceptable convergence value",
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "convergence",
           "package": "Geodetic",
@@ -2554,6 +2778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "direct",
           "package": "Geodetic",
@@ -2563,6 +2788,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "direct",
           "normalized": "a-\u003eCoord-\u003eBearing-\u003eDouble-\u003e(Coord,Bearing)",
@@ -2577,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo.Vincenty",
           "name": "inverse",
           "package": "Geodetic",
@@ -2586,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Data Geo Vincenty",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo.Vincenty",
           "name": "inverse",
           "normalized": "a-\u003eCoord-\u003eCoord-\u003eGeodeticCurve",
@@ -2600,6 +2828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:43:04 UTC 2014",
           "module": "Data.Geo",
           "name": "Geo",
           "package": "Geodetic",
@@ -2608,6 +2837,7 @@
         },
         "index": {
           "hierarchy": "Data Geo",
+          "indexed": "2014-03-11T16:43:04",
           "module": "Data.Geo",
           "name": "Geo",
           "package": "Geodetic",

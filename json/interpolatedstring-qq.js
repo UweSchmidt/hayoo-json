@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "interpolatedstring-qq"
+        "phrase": "interpolatedstring-qq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuasiQuoter for interpolated strings using Ruby syntax. Expressions inside #{} will have\n \u003ccode\u003e\u003ca\u003eshow\u003c/a\u003e\u003c/code\u003e called. Multi-line strings are supported. Escaping of '#' and '{' is done with backslash.\n\u003c/p\u003e\u003cpre\u003e\n v :: String\n v = [$istr| well #{\"hello\" ++ \" there\"} #{6*7}]\n\u003c/pre\u003e\u003cp\u003ev will have the value \" well hello there 42\"\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:43 UTC 2014",
           "module": "Text.InterpolatedString.QQ",
           "name": "QQ",
           "package": "interpolatedstring-qq",
@@ -28,6 +29,7 @@
         "index": {
           "description": "QuasiQuoter for interpolated strings using Ruby syntax Expressions inside will have show called Multi-line strings are supported Escaping of and is done with backslash String istr well hello there will have the value well hello there",
           "hierarchy": "Text InterpolatedString QQ",
+          "indexed": "2014-03-11T18:58:43",
           "module": "Text.InterpolatedString.QQ",
           "name": "QQ",
           "package": "interpolatedstring-qq",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuasiQuoter for interpolating Haskell values into a string literal. The pattern portion is undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:43 UTC 2014",
           "module": "Text.InterpolatedString.QQ",
           "name": "istr",
           "package": "interpolatedstring-qq",
@@ -52,6 +55,7 @@
         "index": {
           "description": "QuasiQuoter for interpolating Haskell values into string literal The pattern portion is undefined",
           "hierarchy": "Text InterpolatedString QQ",
+          "indexed": "2014-03-11T18:58:43",
           "module": "Text.InterpolatedString.QQ",
           "name": "istr",
           "package": "interpolatedstring-qq",

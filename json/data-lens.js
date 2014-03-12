@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-lens"
+        "phrase": "data-lens",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Control.Category.Product",
           "name": "Product",
           "package": "data-lens",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Category Product",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Control.Category.Product",
           "name": "Product",
           "package": "data-lens",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Control.Category.Product",
           "name": "Tensor",
           "package": "data-lens",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Category Product",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Control.Category.Product",
           "name": "Tensor",
           "package": "data-lens",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Control.Category.Product",
           "name": "(***)",
           "package": "data-lens",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Category Product",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Control.Category.Product",
           "name": "(***) ***",
           "normalized": "a b c-\u003ea d e-\u003ea(b,d)(c,e)",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Control.Category.Product",
           "name": "first",
           "package": "data-lens",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Control Category Product",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Control.Category.Product",
           "name": "first",
           "normalized": "a b c-\u003ea(b,d)(c,d)",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Control.Category.Product",
           "name": "second",
           "package": "data-lens",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Control Category Product",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Control.Category.Product",
           "name": "second",
           "normalized": "a b c-\u003ea(d,b)(d,c)",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "Common",
           "package": "data-lens",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "Common",
           "package": "data-lens",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "Lens",
           "package": "data-lens",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "Lens",
           "package": "data-lens",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctional getter, which acts like a field accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!)",
           "package": "data-lens",
@@ -182,6 +197,7 @@
         "index": {
           "description": "functional getter which acts like field accessor",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!) ^!",
           "normalized": "a-\u003eLens a b-\u003eb",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctional modify\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!%=)",
           "package": "data-lens",
@@ -207,6 +224,7 @@
         "index": {
           "description": "functional modify",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!%=) ^!%=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!*=)",
           "package": "data-lens",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!*=) ^!*=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!+=)",
           "package": "data-lens",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!+=) ^!+=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!-=)",
           "package": "data-lens",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!-=) ^!-=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!/=)",
           "package": "data-lens",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!/=) ^!/=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^!=)",
           "package": "data-lens",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^!=) ^!=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^$)",
           "package": "data-lens",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^$) ^$",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^$!)",
           "package": "data-lens",
@@ -368,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^$!) ^$!",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctorial modify\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^%%=)",
           "package": "data-lens",
@@ -393,6 +426,7 @@
         "index": {
           "description": "functorial modify",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^%%=) ^%%=",
           "normalized": "Lens a b-\u003e(b-\u003ec b)-\u003ea-\u003ec a",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctional modify\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^%=)",
           "package": "data-lens",
@@ -418,6 +453,7 @@
         "index": {
           "description": "functional modify",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^%=) ^%=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^*=)",
           "package": "data-lens",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^*=) ^*=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^+=)",
           "package": "data-lens",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^+=) ^+=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^-=)",
           "package": "data-lens",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^-=) ^-=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^/=)",
           "package": "data-lens",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^/=) ^/=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -524,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^=)",
           "package": "data-lens",
@@ -533,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^=) ^=",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efunctional getter, which acts like a field accessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "(^.)",
           "package": "data-lens",
@@ -558,6 +605,7 @@
         "index": {
           "description": "functional getter which acts like field accessor",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "(^.) ^.",
           "normalized": "a-\u003eLens a b-\u003eb",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "Lens",
           "package": "data-lens",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "Lens",
           "package": "data-lens",
@@ -594,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "fstLens",
           "package": "data-lens",
@@ -603,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "fstLens",
           "normalized": "Lens(a,b)a",
@@ -619,6 +671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the getter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "getL",
           "package": "data-lens",
@@ -629,6 +682,7 @@
         "index": {
           "description": "Gets the getter function from lens",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "getL",
           "normalized": "Lens a b-\u003ea-\u003eb",
@@ -643,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "intMapLens",
           "package": "data-lens",
@@ -652,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "intMapLens",
           "normalized": "Int-\u003eLens(IntMap a)(Maybe a)",
@@ -667,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "intSetLens",
           "package": "data-lens",
@@ -676,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "intSetLens",
           "normalized": "Int-\u003eLens IntSet Bool",
@@ -692,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a lens out of an isomorphism\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "iso",
           "package": "data-lens",
@@ -702,6 +761,7 @@
         "index": {
           "description": "build lens out of an isomorphism",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "iso",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eLens a b",
@@ -717,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebuild a lens out of a getter and setter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "lens",
           "package": "data-lens",
@@ -727,6 +788,7 @@
         "index": {
           "description": "build lens out of getter and setter",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "lens",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea-\u003ea)-\u003eLens a b",
@@ -741,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "mapLens",
           "package": "data-lens",
@@ -750,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "mapLens",
           "normalized": "a-\u003eLens(Map a b)(Maybe b)",
@@ -765,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "mergeL",
           "package": "data-lens",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "mergeL",
           "normalized": "Lens a b-\u003eLens c b-\u003eLens(Either a c)b",
@@ -789,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the modifier function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "modL",
           "package": "data-lens",
@@ -799,6 +866,7 @@
         "index": {
           "description": "Gets the modifier function from lens",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "modL",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -813,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "runLens",
           "package": "data-lens",
@@ -822,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "runLens",
           "normalized": "a-\u003eStore b a",
@@ -838,6 +908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the setter function from a lens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "setL",
           "package": "data-lens",
@@ -848,6 +919,7 @@
         "index": {
           "description": "Gets the setter function from lens",
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "setL",
           "normalized": "Lens a b-\u003eb-\u003ea-\u003ea",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "setLens",
           "package": "data-lens",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "setLens",
           "normalized": "a-\u003eLens(Set a)Bool",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Common",
           "name": "sndLens",
           "package": "data-lens",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Common",
           "name": "sndLens",
           "normalized": "Lens(a,b)b",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "Lazy",
           "package": "data-lens",
@@ -918,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "Lazy",
           "package": "data-lens",
@@ -931,6 +1009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(||=)",
           "package": "data-lens",
@@ -940,6 +1019,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(||=) ||=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a value using a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(~=)",
           "package": "data-lens",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "set value using lens into state",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(~=) ~=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!||=)",
           "package": "data-lens",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!||=) !||=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -1003,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification of a value through a lens into state\n with a supplemental response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!%%=)",
           "package": "data-lens",
@@ -1013,6 +1098,7 @@
         "index": {
           "description": "infix modification of value through lens into state with supplemental response",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!%%=) !%%=",
           "normalized": "Lens a b-\u003e(b-\u003e(c,b))-\u003eStateT a d c",
@@ -1028,6 +1114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification a value through a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!%=)",
           "package": "data-lens",
@@ -1038,6 +1125,7 @@
         "index": {
           "description": "infix modification value through lens into state",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!%=) !%=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -1052,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!&&=)",
           "package": "data-lens",
@@ -1061,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!&&=) !&&=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -1075,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!*=)",
           "package": "data-lens",
@@ -1084,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!*=) !*=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1098,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!+=)",
           "package": "data-lens",
@@ -1107,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!+=) !+=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1121,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!-=)",
           "package": "data-lens",
@@ -1130,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!-=) !-=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1144,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!/=)",
           "package": "data-lens",
@@ -1153,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!/=) !/=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1168,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a value using a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(!=)",
           "package": "data-lens",
@@ -1178,6 +1277,7 @@
         "index": {
           "description": "set value using lens into state",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(!=) !=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1193,6 +1293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification of a value through a lens into state\n with a supplemental response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(%%=)",
           "package": "data-lens",
@@ -1203,6 +1304,7 @@
         "index": {
           "description": "infix modification of value through lens into state with supplemental response",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(%%=) %%=",
           "normalized": "Lens a b-\u003e(b-\u003e(c,b))-\u003eStateT a d c",
@@ -1218,6 +1320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification a value through a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(%=)",
           "package": "data-lens",
@@ -1228,6 +1331,7 @@
         "index": {
           "description": "infix modification value through lens into state",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(%=) %=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -1242,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(&&=)",
           "package": "data-lens",
@@ -1251,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(&&=) &&=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -1265,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(*=)",
           "package": "data-lens",
@@ -1274,6 +1381,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(*=) *=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1288,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(+=)",
           "package": "data-lens",
@@ -1297,6 +1406,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(+=) +=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(-=)",
           "package": "data-lens",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(-=) -=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "(//=)",
           "package": "data-lens",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "(//=) //=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -1358,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the value of a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "access",
           "package": "data-lens",
@@ -1368,6 +1483,7 @@
         "index": {
           "description": "get the value of lens into state",
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "access",
           "normalized": "Lens a b-\u003eStateT a c b",
@@ -1382,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Lazy",
           "name": "focus",
           "package": "data-lens",
@@ -1391,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Lazy",
           "name": "focus",
           "normalized": "Lens a b-\u003eStateT b c d-\u003eStateT a c d",
@@ -1405,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "Common",
           "package": "data-lens",
@@ -1413,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "Common",
           "package": "data-lens",
@@ -1426,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "PartialLens",
           "package": "data-lens",
@@ -1434,6 +1555,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "PartialLens",
           "package": "data-lens",
@@ -1447,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^$)",
           "package": "data-lens",
@@ -1456,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^$) ^$",
           "normalized": "PartialLens a b-\u003ea-\u003eMaybe b",
@@ -1471,6 +1595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplicative modify\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^%%=)",
           "package": "data-lens",
@@ -1481,6 +1606,7 @@
         "index": {
           "description": "applicative modify",
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^%%=) ^%%=",
           "normalized": "PartialLens a b-\u003e(b-\u003ec b)-\u003ea-\u003ec a",
@@ -1495,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^%=)",
           "package": "data-lens",
@@ -1504,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^%=) ^%=",
           "normalized": "PartialLens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -1518,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^*=)",
           "package": "data-lens",
@@ -1527,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^*=) ^*=",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -1541,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^+=)",
           "package": "data-lens",
@@ -1550,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^+=) ^+=",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -1564,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^-=)",
           "package": "data-lens",
@@ -1573,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^-=) ^-=",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -1587,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^/=)",
           "package": "data-lens",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^/=) ^/=",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -1610,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^=)",
           "package": "data-lens",
@@ -1619,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^=) ^=",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -1633,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "(^.)",
           "package": "data-lens",
@@ -1642,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "(^.) ^.",
           "normalized": "a-\u003ePartialLens a b-\u003eMaybe b",
@@ -1656,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "PLens",
           "package": "data-lens",
@@ -1665,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "PLens",
           "normalized": "PLens(a-\u003eMaybe(Store b a))",
@@ -1680,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "allPL",
           "package": "data-lens",
@@ -1689,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "allPL",
           "normalized": "PartialLens a b-\u003e(b-\u003eBool)-\u003ea-\u003eBool",
@@ -1704,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "anyPL",
           "package": "data-lens",
@@ -1713,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "anyPL",
           "normalized": "PartialLens a b-\u003e(b-\u003eBool)-\u003ea-\u003eBool",
@@ -1728,6 +1874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "getPL",
           "package": "data-lens",
@@ -1737,6 +1884,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "getPL",
           "normalized": "PartialLens a b-\u003ea-\u003eMaybe b",
@@ -1752,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "getorAPL",
           "package": "data-lens",
@@ -1761,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "getorAPL",
           "normalized": "PartialLens a b-\u003ec b-\u003ea-\u003ec b",
@@ -1776,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "getorEmptyPL",
           "package": "data-lens",
@@ -1785,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "getorEmptyPL",
           "normalized": "PartialLens a b-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -1800,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "getorPL",
           "package": "data-lens",
@@ -1809,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "getorPL",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003eb",
@@ -1824,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "headLens",
           "package": "data-lens",
@@ -1833,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "headLens",
           "normalized": "PartialLens[a]a",
@@ -1848,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "justLens",
           "package": "data-lens",
@@ -1857,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "justLens",
           "package": "data-lens",
@@ -1870,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "leftLens",
           "package": "data-lens",
@@ -1879,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "leftLens",
           "package": "data-lens",
@@ -1892,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "mergePL",
           "package": "data-lens",
@@ -1901,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "mergePL",
           "normalized": "PartialLens a b-\u003ePartialLens c b-\u003ePartialLens(Either a c)b",
@@ -1916,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "modPL",
           "package": "data-lens",
@@ -1925,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "modPL",
           "normalized": "PartialLens a b-\u003e(b-\u003eb)-\u003ea-\u003ea",
@@ -1940,6 +2104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "null",
           "package": "data-lens",
@@ -1949,6 +2114,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "null",
           "package": "data-lens",
@@ -1961,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "nullPL",
           "package": "data-lens",
@@ -1970,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "nullPL",
           "normalized": "PartialLens a b-\u003ea-\u003eBool",
@@ -1985,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "productPL",
           "package": "data-lens",
@@ -1994,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "productPL",
           "normalized": "PartialLens a b-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -2009,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "rightLens",
           "package": "data-lens",
@@ -2018,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "rightLens",
           "package": "data-lens",
@@ -2031,6 +2203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "runPLens",
           "package": "data-lens",
@@ -2040,6 +2213,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "runPLens",
           "normalized": "PartialLens a b-\u003ea-\u003eCoproduct Identity(Store b)a",
@@ -2055,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "setPL",
           "package": "data-lens",
@@ -2064,6 +2239,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "setPL",
           "normalized": "PartialLens a b-\u003eb-\u003ea-\u003ea",
@@ -2079,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "sumPL",
           "package": "data-lens",
@@ -2088,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "sumPL",
           "normalized": "PartialLens a b-\u003e(b-\u003ec)-\u003ea-\u003ec",
@@ -2103,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "tailLens",
           "package": "data-lens",
@@ -2112,6 +2291,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "tailLens",
           "normalized": "PartialLens[a][a]",
@@ -2127,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "totalLens",
           "package": "data-lens",
@@ -2136,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "totalLens",
           "normalized": "Lens a b-\u003ePartialLens a b",
@@ -2151,6 +2333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Common",
           "name": "trySetPL",
           "package": "data-lens",
@@ -2160,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Common",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Common",
           "name": "trySetPL",
           "normalized": "PartialLens a b-\u003ea-\u003eMaybe(b-\u003ea)",
@@ -2175,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "Lazy",
           "package": "data-lens",
@@ -2183,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "Lazy",
           "package": "data-lens",
@@ -2196,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(||=)",
           "package": "data-lens",
@@ -2205,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(||=) ||=",
           "normalized": "PartialLens a Bool-\u003eBool-\u003eStateT a b(Maybe Bool)",
@@ -2220,6 +2408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a value using a partial lens into state\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in case of a null reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(~=)",
           "package": "data-lens",
@@ -2230,6 +2419,7 @@
         "index": {
           "description": "set value using partial lens into state returns Nothing in case of null reference",
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(~=) ~=",
           "normalized": "PartialLens a b-\u003eb-\u003eStateT a c(Maybe b)",
@@ -2245,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification of a value through a partial lens into state\n with a supplemental response.\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in case of a null reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(%%=)",
           "package": "data-lens",
@@ -2255,6 +2446,7 @@
         "index": {
           "description": "infix modification of value through partial lens into state with supplemental response returns Nothing in case of null reference",
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(%%=) %%=",
           "normalized": "PartialLens a b-\u003e(b-\u003e(c,b))-\u003eStateT a d(Maybe c)",
@@ -2270,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification a value through a partial lens into state\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e in case of a null reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(%=)",
           "package": "data-lens",
@@ -2280,6 +2473,7 @@
         "index": {
           "description": "infix modification value through partial lens into state returns Nothing in case of null reference",
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(%=) %=",
           "normalized": "PartialLens a b-\u003e(b-\u003eb)-\u003eStateT a c(Maybe b)",
@@ -2294,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(&&=)",
           "package": "data-lens",
@@ -2303,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(&&=) &&=",
           "normalized": "PartialLens a Bool-\u003eBool-\u003eStateT a b(Maybe Bool)",
@@ -2317,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(*=)",
           "package": "data-lens",
@@ -2326,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(*=) *=",
           "normalized": "PartialLens a b-\u003eb-\u003eStateT a c(Maybe b)",
@@ -2340,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(+=)",
           "package": "data-lens",
@@ -2349,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(+=) +=",
           "normalized": "PartialLens a b-\u003eb-\u003eStateT a c(Maybe b)",
@@ -2363,6 +2563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(-=)",
           "package": "data-lens",
@@ -2372,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(-=) -=",
           "normalized": "PartialLens a b-\u003eb-\u003eStateT a c(Maybe b)",
@@ -2386,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(//=)",
           "package": "data-lens",
@@ -2395,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "(//=) //=",
           "normalized": "PartialLens a b-\u003eb-\u003eStateT a c(Maybe b)",
@@ -2410,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the value of a partial lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "access",
           "package": "data-lens",
@@ -2420,6 +2625,7 @@
         "index": {
           "description": "get the value of partial lens into state",
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "access",
           "normalized": "PartialLens a b-\u003eStateT a c(Maybe b)",
@@ -2435,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns mzero in case of a null reference\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "accessPlus",
           "package": "data-lens",
@@ -2445,6 +2652,7 @@
         "index": {
           "description": "returns mzero in case of null reference",
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "accessPlus",
           "normalized": "PartialLens a b-\u003eStateT a c b",
@@ -2460,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "joinMaybe",
           "package": "data-lens",
@@ -2469,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "joinMaybe",
           "normalized": "a(Maybe b)-\u003ea b",
@@ -2484,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Partial.Lazy",
           "name": "maybeZero",
           "package": "data-lens",
@@ -2493,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Partial Lazy",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Partial.Lazy",
           "name": "maybeZero",
           "normalized": "Maybe a-\u003eb a",
@@ -2508,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "Strict",
           "package": "data-lens",
@@ -2516,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "Strict",
           "package": "data-lens",
@@ -2529,6 +2743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(||=)",
           "package": "data-lens",
@@ -2538,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(||=) ||=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -2553,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a value using a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(~=)",
           "package": "data-lens",
@@ -2563,6 +2780,7 @@
         "index": {
           "description": "set value using lens into state",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(~=) ~=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2577,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!||=)",
           "package": "data-lens",
@@ -2586,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!||=) !||=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -2601,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification of a value through a lens into state\n with a supplemental response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!%%=)",
           "package": "data-lens",
@@ -2611,6 +2832,7 @@
         "index": {
           "description": "infix modification of value through lens into state with supplemental response",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!%%=) !%%=",
           "normalized": "Lens a b-\u003e(b-\u003e(c,b))-\u003eStateT a d c",
@@ -2626,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification a value through a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!%=)",
           "package": "data-lens",
@@ -2636,6 +2859,7 @@
         "index": {
           "description": "infix modification value through lens into state",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!%=) !%=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -2650,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!&&=)",
           "package": "data-lens",
@@ -2659,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!&&=) !&&=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -2673,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!*=)",
           "package": "data-lens",
@@ -2682,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!*=) !*=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2696,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!+=)",
           "package": "data-lens",
@@ -2705,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!+=) !+=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2719,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!-=)",
           "package": "data-lens",
@@ -2728,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!-=) !-=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2742,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!/=)",
           "package": "data-lens",
@@ -2751,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!/=) !/=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2766,6 +3000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset a value using a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(!=)",
           "package": "data-lens",
@@ -2776,6 +3011,7 @@
         "index": {
           "description": "set value using lens into state",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(!=) !=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2791,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification of a value through a lens into state\n with a supplemental response\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(%%=)",
           "package": "data-lens",
@@ -2801,6 +3038,7 @@
         "index": {
           "description": "infix modification of value through lens into state with supplemental response",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(%%=) %%=",
           "normalized": "Lens a b-\u003e(b-\u003e(c,b))-\u003eStateT a d c",
@@ -2816,6 +3054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einfix modification a value through a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(%=)",
           "package": "data-lens",
@@ -2826,6 +3065,7 @@
         "index": {
           "description": "infix modification value through lens into state",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(%=) %=",
           "normalized": "Lens a b-\u003e(b-\u003eb)-\u003eStateT a c b",
@@ -2840,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(&&=)",
           "package": "data-lens",
@@ -2849,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(&&=) &&=",
           "normalized": "Lens a Bool-\u003eBool-\u003eStateT a b Bool",
@@ -2863,6 +3105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(*=)",
           "package": "data-lens",
@@ -2872,6 +3115,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(*=) *=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2886,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(+=)",
           "package": "data-lens",
@@ -2895,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(+=) +=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2909,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(-=)",
           "package": "data-lens",
@@ -2918,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(-=) -=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2932,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "(//=)",
           "package": "data-lens",
@@ -2941,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "(//=) //=",
           "normalized": "Lens a b-\u003eb-\u003eStateT a c b",
@@ -2956,6 +3206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the value of a lens into state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "access",
           "package": "data-lens",
@@ -2966,6 +3217,7 @@
         "index": {
           "description": "get the value of lens into state",
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "access",
           "normalized": "Lens a b-\u003eStateT a c b",
@@ -2980,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:48:51 UTC 2014",
           "module": "Data.Lens.Strict",
           "name": "focus",
           "package": "data-lens",
@@ -2989,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Data Lens Strict",
+          "indexed": "2014-03-11T17:48:51",
           "module": "Data.Lens.Strict",
           "name": "focus",
           "normalized": "Lens a b-\u003eStateT b c d-\u003eStateT a c d",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jack-bindings"
+        "phrase": "jack-bindings",
+        "type": "phrase"
       },
       "type": "context"
     }

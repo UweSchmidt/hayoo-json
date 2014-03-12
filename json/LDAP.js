@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "LDAP"
+        "phrase": "LDAP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eLDAP constants for use in your programs\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "Constants",
           "package": "LDAP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable LDAP constants for use in your programs Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "Constants",
           "package": "LDAP",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapApiInfoVersion",
           "package": "LDAP",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapApiInfoVersion",
           "package": "LDAP",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapApiVersion",
           "package": "LDAP",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapApiVersion",
           "package": "LDAP",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlManagedsait",
           "package": "LDAP",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlManagedsait",
           "package": "LDAP",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlNoop",
           "package": "LDAP",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlNoop",
           "package": "LDAP",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlProxyAuthz",
           "package": "LDAP",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlProxyAuthz",
           "package": "LDAP",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlSortrequest",
           "package": "LDAP",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlSortrequest",
           "package": "LDAP",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlSortresponse",
           "package": "LDAP",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlSortresponse",
           "package": "LDAP",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlSubentries",
           "package": "LDAP",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlSubentries",
           "package": "LDAP",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlValuesreturnfilter",
           "package": "LDAP",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlValuesreturnfilter",
           "package": "LDAP",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlVlvrequest",
           "package": "LDAP",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlVlvrequest",
           "package": "LDAP",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapControlVlvresponse",
           "package": "LDAP",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapControlVlvresponse",
           "package": "LDAP",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFeatureInfoVersion",
           "package": "LDAP",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFeatureInfoVersion",
           "package": "LDAP",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterAnd",
           "package": "LDAP",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterAnd",
           "package": "LDAP",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterApprox",
           "package": "LDAP",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterApprox",
           "package": "LDAP",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterEquality",
           "package": "LDAP",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterEquality",
           "package": "LDAP",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterExt",
           "package": "LDAP",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterExt",
           "package": "LDAP",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtDnattrs",
           "package": "LDAP",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtDnattrs",
           "package": "LDAP",
@@ -415,6 +451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtOid",
           "package": "LDAP",
@@ -424,6 +461,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtOid",
           "package": "LDAP",
@@ -437,6 +475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtType",
           "package": "LDAP",
@@ -446,6 +485,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtType",
           "package": "LDAP",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtValue",
           "package": "LDAP",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterExtValue",
           "package": "LDAP",
@@ -481,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterGe",
           "package": "LDAP",
@@ -490,6 +533,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterGe",
           "package": "LDAP",
@@ -503,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterLe",
           "package": "LDAP",
@@ -512,6 +557,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterLe",
           "package": "LDAP",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterNot",
           "package": "LDAP",
@@ -534,6 +581,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterNot",
           "package": "LDAP",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterOr",
           "package": "LDAP",
@@ -556,6 +605,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterOr",
           "package": "LDAP",
@@ -569,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterPresent",
           "package": "LDAP",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterPresent",
           "package": "LDAP",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapFilterSubstrings",
           "package": "LDAP",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapFilterSubstrings",
           "package": "LDAP",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapNoticeDisconnect",
           "package": "LDAP",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapNoticeDisconnect",
           "package": "LDAP",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapNoticeOfDisconnection",
           "package": "LDAP",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapNoticeOfDisconnection",
           "package": "LDAP",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapPort",
           "package": "LDAP",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapPort",
           "package": "LDAP",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapSubstringAny",
           "package": "LDAP",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapSubstringAny",
           "package": "LDAP",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapSubstringFinal",
           "package": "LDAP",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapSubstringFinal",
           "package": "LDAP",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapSubstringInitial",
           "package": "LDAP",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapSubstringInitial",
           "package": "LDAP",
@@ -745,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapVendorName",
           "package": "LDAP",
@@ -754,6 +821,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapVendorName",
           "package": "LDAP",
@@ -767,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Constants",
           "name": "ldapsPort",
           "package": "LDAP",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "LDAP Constants",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Constants",
           "name": "ldapsPort",
           "package": "LDAP",
@@ -790,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eHaskell types for LDAP constants\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "Data",
           "package": "LDAP",
@@ -799,6 +870,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Haskell types for LDAP constants Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "Data",
           "package": "LDAP",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LDAPModOp",
           "package": "LDAP",
@@ -820,6 +893,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LDAPModOp",
           "package": "LDAP",
@@ -833,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LDAPOptionCode",
           "package": "LDAP",
@@ -841,6 +916,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LDAPOptionCode",
           "package": "LDAP",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LDAPReturnCode",
           "package": "LDAP",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LDAPReturnCode",
           "package": "LDAP",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LDAPScope",
           "package": "LDAP",
@@ -883,6 +962,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LDAPScope",
           "package": "LDAP",
@@ -896,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAdminlimitExceeded",
           "package": "LDAP",
@@ -905,6 +986,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAdminlimitExceeded",
           "package": "LDAP",
@@ -918,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAffectsMultipleDsas",
           "package": "LDAP",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAffectsMultipleDsas",
           "package": "LDAP",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAliasDerefProblem",
           "package": "LDAP",
@@ -949,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAliasDerefProblem",
           "package": "LDAP",
@@ -962,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAliasProblem",
           "package": "LDAP",
@@ -971,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAliasProblem",
           "package": "LDAP",
@@ -984,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAlreadyExists",
           "package": "LDAP",
@@ -993,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAlreadyExists",
           "package": "LDAP",
@@ -1006,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAuthMethodNotSupported",
           "package": "LDAP",
@@ -1015,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAuthMethodNotSupported",
           "package": "LDAP",
@@ -1028,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapAuthUnknown",
           "package": "LDAP",
@@ -1037,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapAuthUnknown",
           "package": "LDAP",
@@ -1050,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapBusy",
           "package": "LDAP",
@@ -1059,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapBusy",
           "package": "LDAP",
@@ -1072,6 +1168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapClientLoop",
           "package": "LDAP",
@@ -1081,6 +1178,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapClientLoop",
           "package": "LDAP",
@@ -1094,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapCompareFalse",
           "package": "LDAP",
@@ -1103,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapCompareFalse",
           "package": "LDAP",
@@ -1116,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapCompareTrue",
           "package": "LDAP",
@@ -1125,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapCompareTrue",
           "package": "LDAP",
@@ -1138,6 +1240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapConfidentialityRequired",
           "package": "LDAP",
@@ -1147,6 +1250,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapConfidentialityRequired",
           "package": "LDAP",
@@ -1160,6 +1264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapConnectError",
           "package": "LDAP",
@@ -1169,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapConnectError",
           "package": "LDAP",
@@ -1182,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapConstraintViolation",
           "package": "LDAP",
@@ -1191,6 +1298,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapConstraintViolation",
           "package": "LDAP",
@@ -1204,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapControlNotFound",
           "package": "LDAP",
@@ -1213,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapControlNotFound",
           "package": "LDAP",
@@ -1226,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapDecodingError",
           "package": "LDAP",
@@ -1235,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapDecodingError",
           "package": "LDAP",
@@ -1248,6 +1360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapEncodingError",
           "package": "LDAP",
@@ -1257,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapEncodingError",
           "package": "LDAP",
@@ -1270,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapFilterError",
           "package": "LDAP",
@@ -1279,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapFilterError",
           "package": "LDAP",
@@ -1292,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInappropriateAuth",
           "package": "LDAP",
@@ -1301,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInappropriateAuth",
           "package": "LDAP",
@@ -1314,6 +1432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInappropriateMatching",
           "package": "LDAP",
@@ -1323,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInappropriateMatching",
           "package": "LDAP",
@@ -1336,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInsufficientAccess",
           "package": "LDAP",
@@ -1345,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInsufficientAccess",
           "package": "LDAP",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInvalidCredentials",
           "package": "LDAP",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInvalidCredentials",
           "package": "LDAP",
@@ -1380,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInvalidDnSyntax",
           "package": "LDAP",
@@ -1389,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInvalidDnSyntax",
           "package": "LDAP",
@@ -1402,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapInvalidSyntax",
           "package": "LDAP",
@@ -1411,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapInvalidSyntax",
           "package": "LDAP",
@@ -1424,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapIsLeaf",
           "package": "LDAP",
@@ -1433,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapIsLeaf",
           "package": "LDAP",
@@ -1446,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapLocalError",
           "package": "LDAP",
@@ -1455,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapLocalError",
           "package": "LDAP",
@@ -1468,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapLoopDetect",
           "package": "LDAP",
@@ -1477,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapLoopDetect",
           "package": "LDAP",
@@ -1559,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapMoreResultsToReturn",
           "package": "LDAP",
@@ -1568,6 +1703,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapMoreResultsToReturn",
           "package": "LDAP",
@@ -1581,6 +1717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNamingViolation",
           "package": "LDAP",
@@ -1590,6 +1727,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNamingViolation",
           "package": "LDAP",
@@ -1603,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNoMemory",
           "package": "LDAP",
@@ -1612,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNoMemory",
           "package": "LDAP",
@@ -1625,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNoObjectClassMods",
           "package": "LDAP",
@@ -1634,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNoObjectClassMods",
           "package": "LDAP",
@@ -1647,6 +1789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNoResultsReturned",
           "package": "LDAP",
@@ -1656,6 +1799,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNoResultsReturned",
           "package": "LDAP",
@@ -1669,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNoSuchAttribute",
           "package": "LDAP",
@@ -1678,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNoSuchAttribute",
           "package": "LDAP",
@@ -1691,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNoSuchObject",
           "package": "LDAP",
@@ -1700,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNoSuchObject",
           "package": "LDAP",
@@ -1713,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNotAllowedOnNonleaf",
           "package": "LDAP",
@@ -1722,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNotAllowedOnNonleaf",
           "package": "LDAP",
@@ -1735,6 +1885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNotAllowedOnRdn",
           "package": "LDAP",
@@ -1744,6 +1895,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNotAllowedOnRdn",
           "package": "LDAP",
@@ -1757,6 +1909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapNotSupported",
           "package": "LDAP",
@@ -1766,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapNotSupported",
           "package": "LDAP",
@@ -1779,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapObjectClassViolation",
           "package": "LDAP",
@@ -1788,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapObjectClassViolation",
           "package": "LDAP",
@@ -1801,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOperationsError",
           "package": "LDAP",
@@ -1810,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOperationsError",
           "package": "LDAP",
@@ -1823,6 +1981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptApiFeatureInfo",
           "package": "LDAP",
@@ -1832,6 +1991,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptApiFeatureInfo",
           "package": "LDAP",
@@ -1845,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptApiInfo",
           "package": "LDAP",
@@ -1854,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptApiInfo",
           "package": "LDAP",
@@ -1867,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptClientControls",
           "package": "LDAP",
@@ -1876,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptClientControls",
           "package": "LDAP",
@@ -1889,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptDeref",
           "package": "LDAP",
@@ -1898,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptDeref",
           "package": "LDAP",
@@ -1911,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptDesc",
           "package": "LDAP",
@@ -1920,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptDesc",
           "package": "LDAP",
@@ -1933,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptError",
           "package": "LDAP",
@@ -1942,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptError",
           "package": "LDAP",
@@ -1955,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptErrorNumber",
           "package": "LDAP",
@@ -1964,6 +2135,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptErrorNumber",
           "package": "LDAP",
@@ -1977,6 +2149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptErrorString",
           "package": "LDAP",
@@ -1986,6 +2159,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptErrorString",
           "package": "LDAP",
@@ -1999,6 +2173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptHostName",
           "package": "LDAP",
@@ -2008,6 +2183,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptHostName",
           "package": "LDAP",
@@ -2021,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptMatchedDn",
           "package": "LDAP",
@@ -2030,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptMatchedDn",
           "package": "LDAP",
@@ -2043,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptProtocolVersion",
           "package": "LDAP",
@@ -2052,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptProtocolVersion",
           "package": "LDAP",
@@ -2065,6 +2245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptReferrals",
           "package": "LDAP",
@@ -2074,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptReferrals",
           "package": "LDAP",
@@ -2087,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptRestart",
           "package": "LDAP",
@@ -2096,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptRestart",
           "package": "LDAP",
@@ -2109,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptServerControls",
           "package": "LDAP",
@@ -2118,6 +2303,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptServerControls",
           "package": "LDAP",
@@ -2131,6 +2317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptSizelimit",
           "package": "LDAP",
@@ -2140,6 +2327,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptSizelimit",
           "package": "LDAP",
@@ -2153,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptSuccess",
           "package": "LDAP",
@@ -2162,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptSuccess",
           "package": "LDAP",
@@ -2175,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOptTimelimit",
           "package": "LDAP",
@@ -2184,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOptTimelimit",
           "package": "LDAP",
@@ -2197,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapOther",
           "package": "LDAP",
@@ -2206,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapOther",
           "package": "LDAP",
@@ -2219,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapParamError",
           "package": "LDAP",
@@ -2228,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapParamError",
           "package": "LDAP",
@@ -2241,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapPartialResults",
           "package": "LDAP",
@@ -2250,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapPartialResults",
           "package": "LDAP",
@@ -2263,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapProtocolError",
           "package": "LDAP",
@@ -2272,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapProtocolError",
           "package": "LDAP",
@@ -2285,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapProxyAuthzFailure",
           "package": "LDAP",
@@ -2294,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapProxyAuthzFailure",
           "package": "LDAP",
@@ -2307,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapReferral",
           "package": "LDAP",
@@ -2316,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapReferral",
           "package": "LDAP",
@@ -2329,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapReferralLimitExceeded",
           "package": "LDAP",
@@ -2338,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapReferralLimitExceeded",
           "package": "LDAP",
@@ -2351,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapResultsTooLarge",
           "package": "LDAP",
@@ -2360,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapResultsTooLarge",
           "package": "LDAP",
@@ -2373,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapSaslBindInProgress",
           "package": "LDAP",
@@ -2382,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapSaslBindInProgress",
           "package": "LDAP",
@@ -2487,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapServerDown",
           "package": "LDAP",
@@ -2496,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapServerDown",
           "package": "LDAP",
@@ -2509,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapSizelimitExceeded",
           "package": "LDAP",
@@ -2518,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapSizelimitExceeded",
           "package": "LDAP",
@@ -2531,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapStrongAuthNotSupported",
           "package": "LDAP",
@@ -2540,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapStrongAuthNotSupported",
           "package": "LDAP",
@@ -2553,6 +2769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapStrongAuthRequired",
           "package": "LDAP",
@@ -2562,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapStrongAuthRequired",
           "package": "LDAP",
@@ -2575,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapSuccess",
           "package": "LDAP",
@@ -2584,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapSuccess",
           "package": "LDAP",
@@ -2597,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapTimelimitExceeded",
           "package": "LDAP",
@@ -2606,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapTimelimitExceeded",
           "package": "LDAP",
@@ -2619,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapTimeout",
           "package": "LDAP",
@@ -2628,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapTimeout",
           "package": "LDAP",
@@ -2641,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapTypeOrValueExists",
           "package": "LDAP",
@@ -2650,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapTypeOrValueExists",
           "package": "LDAP",
@@ -2663,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapUnavailable",
           "package": "LDAP",
@@ -2672,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapUnavailable",
           "package": "LDAP",
@@ -2685,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapUnavailableCriticalExtension",
           "package": "LDAP",
@@ -2694,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapUnavailableCriticalExtension",
           "package": "LDAP",
@@ -2707,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapUndefinedType",
           "package": "LDAP",
@@ -2716,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapUndefinedType",
           "package": "LDAP",
@@ -2729,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapUnwillingToPerform",
           "package": "LDAP",
@@ -2738,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapUnwillingToPerform",
           "package": "LDAP",
@@ -2751,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "LdapUserCancelled",
           "package": "LDAP",
@@ -2760,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "LdapUserCancelled",
           "package": "LDAP",
@@ -2796,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "UnknownLDAPOptionCode",
           "package": "LDAP",
@@ -2805,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "UnknownLDAPOptionCode",
           "package": "LDAP",
@@ -2818,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Data",
           "name": "UnknownLDAPReturnCode",
           "package": "LDAP",
@@ -2827,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "LDAP Data",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Data",
           "name": "UnknownLDAPReturnCode",
           "package": "LDAP",
@@ -2864,6 +3104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eHandling LDAP Exceptions\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "Exceptions",
           "package": "LDAP",
@@ -2873,6 +3114,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Handling LDAP Exceptions Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "Exceptions",
           "package": "LDAP",
@@ -2887,6 +3129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe basic type of LDAP exceptions.  These are raised when an operation\ndoes not indicate success. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "LDAPException",
           "package": "LDAP",
@@ -2896,6 +3139,7 @@
         "index": {
           "description": "The basic type of LDAP exceptions These are raised when an operation does not indicate success",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "LDAPException",
           "package": "LDAP",
@@ -2909,6 +3153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "LDAPException",
           "package": "LDAP",
@@ -2918,6 +3163,7 @@
         },
         "index": {
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "LDAPException",
           "package": "LDAP",
@@ -2932,6 +3178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalling function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "caller",
           "package": "LDAP",
@@ -2942,6 +3189,7 @@
         "index": {
           "description": "Calling function",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "caller",
           "package": "LDAP",
@@ -2955,6 +3203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the given IO action.\n\u003c/p\u003e\u003cp\u003eIf it raises a \u003ccode\u003e\u003ca\u003eLDAPException\u003c/a\u003e\u003c/code\u003e, then execute the supplied handler and return\nits return value.  Otherwise, process as normal. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "catchLDAP",
           "package": "LDAP",
@@ -2965,6 +3214,7 @@
         "index": {
           "description": "Execute the given IO action If it raises LDAPException then execute the supplied handler and return its return value Otherwise process as normal",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "catchLDAP",
           "normalized": "IO a-\u003e(LDAPException-\u003eIO a)-\u003eIO a",
@@ -2981,6 +3231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric error code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "code",
           "package": "LDAP",
@@ -2991,6 +3242,7 @@
         "index": {
           "description": "Numeric error code",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "code",
           "package": "LDAP",
@@ -3004,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescription of error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "description",
           "package": "LDAP",
@@ -3014,6 +3267,7 @@
         "index": {
           "description": "Description of error",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "description",
           "package": "LDAP",
@@ -3027,6 +3281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatches LDAP errors, and re-raises them as IO errors with fail.\nUseful if you don't care to catch LDAP errors, but want to see a sane\nerror message if one happens.  One would often use this as a high-level\nwrapper around LDAP calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "failLDAP",
           "package": "LDAP",
@@ -3037,6 +3292,7 @@
         "index": {
           "description": "Catches LDAP errors and re-raises them as IO errors with fail Useful if you don care to catch LDAP errors but want to see sane error message if one happens One would often use this as high-level wrapper around LDAP calls",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "failLDAP",
           "normalized": "IO a-\u003eIO a",
@@ -3053,6 +3309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecatchLDAP\u003c/a\u003e\u003c/code\u003e, with the order of arguments reversed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "handleLDAP",
           "package": "LDAP",
@@ -3063,6 +3320,7 @@
         "index": {
           "description": "Like catchLDAP with the order of arguments reversed",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "handleLDAP",
           "normalized": "(LDAPException-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -3079,6 +3337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA utility function to throw an \u003ccode\u003e\u003ca\u003eLDAPException\u003c/a\u003e\u003c/code\u003e.  The mechanics of throwing\nsuch a thing differ between GHC 6.8.x, Hugs, and GHC 6.10.  This function\ntakes care of the special cases to make it simpler.\n\u003c/p\u003e\u003cp\u003eWith GHC 6.10, it is a type-restricted alias for throw.  On all other systems,\nit is a type-restricted alias for throwDyn. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Exceptions",
           "name": "throwLDAP",
           "package": "LDAP",
@@ -3089,6 +3348,7 @@
         "index": {
           "description": "utility function to throw an LDAPException The mechanics of throwing such thing differ between GHC Hugs and GHC This function takes care of the special cases to make it simpler With GHC it is type-restricted alias for throw On all other systems it is type-restricted alias for throwDyn",
           "hierarchy": "LDAP Exceptions",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Exceptions",
           "name": "throwLDAP",
           "normalized": "LDAPException-\u003eIO a",
@@ -3105,6 +3365,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eInitialization and shutdown for LDAP programs\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Init",
           "name": "Init",
           "package": "LDAP",
@@ -3114,6 +3375,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Initialization and shutdown for LDAP programs Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Init",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Init",
           "name": "Init",
           "package": "LDAP",
@@ -3128,6 +3390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePreferred way to initialize a LDAP connection. \nThe default port is given in \u003ccode\u003e\u003ca\u003eldapPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eCould throw IOError on failure. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Init",
           "name": "ldapInit",
           "package": "LDAP",
@@ -3137,6 +3400,7 @@
         "index": {
           "description": "Preferred way to initialize LDAP connection The default port is given in ldapPort Could throw IOError on failure",
           "hierarchy": "LDAP Init",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Init",
           "name": "ldapInit",
           "normalized": "String-\u003eLDAPInt-\u003eIO LDAP",
@@ -3153,6 +3417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eldapInit\u003c/a\u003e\u003c/code\u003e, but accepts a URI (or whitespace/comma separated\nlist of URIs) which can contain a schema, a host and a port.  Besides\nldap, valid schemas are ldaps (LDAP over TLS), ldapi (LDAP over IPC),\nand cldap (connectionless LDAP). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Init",
           "name": "ldapInitialize",
           "package": "LDAP",
@@ -3162,6 +3427,7 @@
         "index": {
           "description": "Like ldapInit but accepts URI or whitespace comma separated list of URIs which can contain schema host and port Besides ldap valid schemas are ldaps LDAP over TLS ldapi LDAP over IPC and cldap connectionless LDAP",
           "hierarchy": "LDAP Init",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Init",
           "name": "ldapInitialize",
           "normalized": "String-\u003eIO LDAP",
@@ -3178,6 +3444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eldapInit\u003c/a\u003e\u003c/code\u003e, but establish network connection immediately. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Init",
           "name": "ldapOpen",
           "package": "LDAP",
@@ -3187,6 +3454,7 @@
         "index": {
           "description": "Like ldapInit but establish network connection immediately",
           "hierarchy": "LDAP Init",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Init",
           "name": "ldapOpen",
           "normalized": "String-\u003eLDAPInt-\u003eIO LDAP",
@@ -3203,6 +3471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBind to the remote server. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Init",
           "name": "ldapSimpleBind",
           "package": "LDAP",
@@ -3212,6 +3481,7 @@
         "index": {
           "description": "Bind to the remote server",
           "hierarchy": "LDAP Init",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Init",
           "name": "ldapSimpleBind",
           "normalized": "LDAP-\u003eString-\u003eString-\u003eIO()",
@@ -3228,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eLDAP changes\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "Modify",
           "package": "LDAP",
@@ -3237,6 +3508,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable LDAP changes Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "Modify",
           "package": "LDAP",
@@ -3250,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "LDAPMod",
           "package": "LDAP",
@@ -3258,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "LDAPMod",
           "package": "LDAP",
@@ -3271,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "LDAPModOp",
           "package": "LDAP",
@@ -3279,6 +3554,7 @@
         },
         "index": {
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "LDAPModOp",
           "package": "LDAP",
@@ -3292,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "LDAPMod",
           "package": "LDAP",
@@ -3301,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "LDAPMod",
           "package": "LDAP",
@@ -3314,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "ldapAdd",
           "package": "LDAP",
@@ -3322,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "ldapAdd",
           "normalized": "LDAP-\u003eString-\u003e[LDAPMod]-\u003eIO()",
@@ -3338,6 +3618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the specified DN \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "ldapDelete",
           "package": "LDAP",
@@ -3348,6 +3629,7 @@
         "index": {
           "description": "Delete the specified DN",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "ldapDelete",
           "normalized": "LDAP-\u003eString-\u003eIO()",
@@ -3363,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "ldapModify",
           "package": "LDAP",
@@ -3371,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "ldapModify",
           "normalized": "LDAP-\u003eString-\u003e[LDAPMod]-\u003eIO()",
@@ -3387,6 +3671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of name/value points and converts them to LDAPMod\nentries.  Each item will have the specified \u003ccode\u003e\u003ca\u003eLDAPModOp\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "list2ldm",
           "package": "LDAP",
@@ -3397,6 +3682,7 @@
         "index": {
           "description": "Takes list of name value points and converts them to LDAPMod entries Each item will have the specified LDAPModOp",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "list2ldm",
           "normalized": "LDAPModOp-\u003e[(String,[String])]-\u003e[LDAPMod]",
@@ -3412,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of operation to perform\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "modOp",
           "package": "LDAP",
@@ -3422,6 +3709,7 @@
         "index": {
           "description": "Type of operation to perform",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "modOp",
           "package": "LDAP",
@@ -3436,6 +3724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of attribute to edit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "modType",
           "package": "LDAP",
@@ -3446,6 +3735,7 @@
         "index": {
           "description": "Name of attribute to edit",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "modType",
           "package": "LDAP",
@@ -3460,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "modVals",
           "package": "LDAP",
@@ -3470,6 +3761,7 @@
         "index": {
           "description": "New values",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "modVals",
           "normalized": "[String]",
@@ -3486,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to list2ldm, but handles pairs with only one value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Modify",
           "name": "pairs2ldm",
           "package": "LDAP",
@@ -3496,6 +3789,7 @@
         "index": {
           "description": "Similar to list2ldm but handles pairs with only one value",
           "hierarchy": "LDAP Modify",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Modify",
           "name": "pairs2ldm",
           "normalized": "LDAPModOp-\u003e[(String,String)]-\u003e[LDAPMod]",
@@ -3511,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eLDAP Searching\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "Search",
           "package": "LDAP",
@@ -3520,6 +3815,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable LDAP Searching Written by John Goerzen jgoerzen@complete.org",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "Search",
           "package": "LDAP",
@@ -3533,6 +3829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPEntry",
           "package": "LDAP",
@@ -3541,6 +3838,7 @@
         },
         "index": {
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPEntry",
           "package": "LDAP",
@@ -3554,6 +3852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPScope",
           "package": "LDAP",
@@ -3562,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPScope",
           "package": "LDAP",
@@ -3576,6 +3876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefines what attributes to return with the search result. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "SearchAttributes",
           "package": "LDAP",
@@ -3585,6 +3886,7 @@
         "index": {
           "description": "Defines what attributes to return with the search result",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "SearchAttributes",
           "package": "LDAP",
@@ -3599,6 +3901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser attributes only\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPAllUserAttrs",
           "package": "LDAP",
@@ -3609,6 +3912,7 @@
         "index": {
           "description": "User attributes only",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPAllUserAttrs",
           "package": "LDAP",
@@ -3623,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUser-specified list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPAttrList",
           "package": "LDAP",
@@ -3633,6 +3938,7 @@
         "index": {
           "description": "User-specified list",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPAttrList",
           "normalized": "LDAPAttrList[String]",
@@ -3648,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPEntry",
           "package": "LDAP",
@@ -3657,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPEntry",
           "package": "LDAP",
@@ -3671,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "LDAPNoAttrs",
           "package": "LDAP",
@@ -3681,6 +3990,7 @@
         "index": {
           "description": "No attributes",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "LDAPNoAttrs",
           "package": "LDAP",
@@ -3694,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "ldapSearch",
           "package": "LDAP",
@@ -3702,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "ldapSearch",
           "normalized": "LDAP-\u003eMaybe String-\u003eLDAPScope-\u003eMaybe String-\u003eSearchAttributes-\u003eBool-\u003eIO[LDAPEntry]",
@@ -3718,6 +4030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping from attribute name to values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "leattrs",
           "package": "LDAP",
@@ -3728,6 +4041,7 @@
         "index": {
           "description": "Mapping from attribute name to values",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "leattrs",
           "normalized": "[(String,[String])]",
@@ -3743,6 +4057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistinguished Name of this object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Search",
           "name": "ledn",
           "package": "LDAP",
@@ -3753,6 +4068,7 @@
         "index": {
           "description": "Distinguished Name of this object",
           "hierarchy": "LDAP Search",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Search",
           "name": "ledn",
           "package": "LDAP",
@@ -3766,6 +4082,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eBasic types for LDAP programs.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eLDAP.Data\u003c/a\u003e for types relating to return codes, option codes, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "Types",
           "package": "LDAP",
@@ -3775,6 +4092,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Basic types for LDAP programs Written by John Goerzen jgoerzen@complete.org See also LDAP.Data for types relating to return codes option codes etc",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "Types",
           "package": "LDAP",
@@ -3789,6 +4107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBER int type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "BERInt",
           "package": "LDAP",
@@ -3798,6 +4117,7 @@
         "index": {
           "description": "BER int type",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "BERInt",
           "package": "LDAP",
@@ -3812,6 +4132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBER length type \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "BERLen",
           "package": "LDAP",
@@ -3821,6 +4142,7 @@
         "index": {
           "description": "BER length type",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "BERLen",
           "package": "LDAP",
@@ -3835,6 +4157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBER type tag \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "BERTag",
           "package": "LDAP",
@@ -3844,6 +4167,7 @@
         "index": {
           "description": "BER type tag",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "BERTag",
           "package": "LDAP",
@@ -3858,6 +4182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain LDAP object type.\n\u003c/p\u003e\u003cp\u003eLDAP objects are automatically unbound (and memory freed) when they are\ngarbage-collected by Haskell. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "LDAP",
           "package": "LDAP",
@@ -3867,6 +4192,7 @@
         "index": {
           "description": "Main LDAP object type LDAP objects are automatically unbound and memory freed when they are garbage-collected by Haskell",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "LDAP",
           "package": "LDAP",
@@ -3881,6 +4207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience type so we use the correct ints for the LDAP library. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP.Types",
           "name": "LDAPInt",
           "package": "LDAP",
@@ -3890,6 +4217,7 @@
         "index": {
           "description": "Convenience type so we use the correct ints for the LDAP library",
           "hierarchy": "LDAP Types",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP.Types",
           "name": "LDAPInt",
           "package": "LDAP",
@@ -3904,6 +4232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMaintainer : jgoerzen@complete.org\n   Stability  : provisional\n   Portability: portable\n\u003c/p\u003e\u003cp\u003eTop-level LDAP module.\n\u003c/p\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eWelcome to the LDAP interface for Haskell.  Please see one of the sections\nbelow for more information.\n\u003c/p\u003e\u003cp\u003eThis package comes from:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://software.complete.org/ldap-haskell\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:51:04 UTC 2014",
           "module": "LDAP",
           "name": "LDAP",
           "package": "LDAP",
@@ -3913,6 +4242,7 @@
         "index": {
           "description": "Maintainer jgoerzen@complete.org Stability provisional Portability portable Top-level LDAP module Written by John Goerzen jgoerzen@complete.org Welcome to the LDAP interface for Haskell Please see one of the sections below for more information This package comes from http software.complete.org ldap-haskell",
           "hierarchy": "LDAP",
+          "indexed": "2014-03-11T16:51:04",
           "module": "LDAP",
           "name": "LDAP",
           "package": "LDAP",

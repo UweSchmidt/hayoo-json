@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HODE"
+        "phrase": "HODE",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "Body",
           "package": "HODE",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "Body",
           "package": "HODE",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "addForce",
           "package": "HODE",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "addForce",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "addTorque",
           "package": "HODE",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "addTorque",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "create",
           "package": "HODE",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "create",
           "normalized": "World-\u003eIO Body",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "destroyBody",
           "package": "HODE",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "destroyBody",
           "normalized": "Body-\u003eIO()",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "disableBody",
           "package": "HODE",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "disableBody",
           "normalized": "Body-\u003eIO()",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "enableBody",
           "package": "HODE",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "enableBody",
           "normalized": "Body-\u003eIO()",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getAngularVel",
           "package": "HODE",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getAngularVel",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getBodyData",
           "package": "HODE",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getBodyData",
           "normalized": "Body-\u003eIO a",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getBodyPosition",
           "package": "HODE",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getBodyPosition",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getBodyQuaternion",
           "package": "HODE",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getBodyQuaternion",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal,ODEreal)",
@@ -278,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getBodyRotation",
           "package": "HODE",
@@ -287,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getBodyRotation",
           "normalized": "Body-\u003eIO Matrix",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getFiniteRotationMode",
           "package": "HODE",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getFiniteRotationMode",
           "normalized": "Body-\u003eIO RotationMode",
@@ -326,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getForce",
           "package": "HODE",
@@ -335,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getForce",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -350,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getGravityMode",
           "package": "HODE",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getGravityMode",
           "normalized": "Body-\u003eIO Bool",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getJoint",
           "package": "HODE",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getJoint",
           "normalized": "Body-\u003eInt-\u003eIO Joint",
@@ -398,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getLinearVel",
           "package": "HODE",
@@ -407,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getLinearVel",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getMass",
           "package": "HODE",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getMass",
           "normalized": "Body-\u003eIO Mass",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getNumJoints",
           "package": "HODE",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getNumJoints",
           "normalized": "Body-\u003eIO Int",
@@ -470,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getRawBodyData",
           "package": "HODE",
@@ -479,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getRawBodyData",
           "normalized": "Ptr BodyStruct-\u003eIO(Ptr a)",
@@ -494,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getSafeBodyData",
           "package": "HODE",
@@ -503,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getSafeBodyData",
           "normalized": "Body-\u003eIO a",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "getTorque",
           "package": "HODE",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "getTorque",
           "normalized": "Body-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -542,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "isBodyEnabled",
           "package": "HODE",
@@ -551,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "isBodyEnabled",
           "normalized": "Body-\u003eIO Bool",
@@ -566,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setAngularVel",
           "package": "HODE",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setAngularVel",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -590,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setBodyData",
           "package": "HODE",
@@ -599,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setBodyData",
           "normalized": "Body-\u003ea-\u003eIO()",
@@ -614,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setBodyPosition",
           "package": "HODE",
@@ -623,6 +674,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setBodyPosition",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setBodyQuaternion",
           "package": "HODE",
@@ -647,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setBodyQuaternion",
           "normalized": "Body-\u003e(ODEreal,ODEreal,ODEreal,ODEreal)-\u003eIO()",
@@ -662,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setBodyRotation",
           "package": "HODE",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setBodyRotation",
           "normalized": "Body-\u003eMatrix-\u003eIO()",
@@ -686,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setFiniteRotationMode",
           "package": "HODE",
@@ -695,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setFiniteRotationMode",
           "normalized": "Body-\u003eRotationMode-\u003eIO()",
@@ -710,6 +768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setForce",
           "package": "HODE",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setForce",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -734,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setGravityMode",
           "package": "HODE",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setGravityMode",
           "normalized": "Body-\u003eBool-\u003eIO()",
@@ -758,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setLinearVel",
           "package": "HODE",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setLinearVel",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -782,6 +846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setMass",
           "package": "HODE",
@@ -791,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setMass",
           "normalized": "Body-\u003eMass-\u003eIO()",
@@ -806,6 +872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setRawBodyData",
           "package": "HODE",
@@ -815,6 +882,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setRawBodyData",
           "normalized": "Ptr BodyStruct-\u003ePtr a-\u003eIO()",
@@ -830,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setSafeBodyData",
           "package": "HODE",
@@ -839,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setSafeBodyData",
           "normalized": "Body-\u003ea-\u003eIO()",
@@ -854,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "setTorque",
           "package": "HODE",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "setTorque",
           "normalized": "Body-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -878,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Body",
           "name": "tryGetSafeBodyData",
           "package": "HODE",
@@ -887,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Body",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Body",
           "name": "tryGetSafeBodyData",
           "normalized": "Body-\u003eIO(Maybe a)",
@@ -902,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Collision",
           "name": "Collision",
           "package": "HODE",
@@ -910,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Collision",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Collision",
           "name": "Collision",
           "package": "HODE",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Collision",
           "name": "collide",
           "package": "HODE",
@@ -932,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Collision",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Collision",
           "name": "collide",
           "normalized": "Geom-\u003eGeom-\u003eInt-\u003eIO[ContactInfo]",
@@ -946,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Collision",
           "name": "spaceCollide",
           "package": "HODE",
@@ -955,6 +1034,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Collision",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Collision",
           "name": "spaceCollide",
           "normalized": "Space-\u003eCallback-\u003eIO()",
@@ -970,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "Geom",
           "package": "HODE",
@@ -978,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "Geom",
           "package": "HODE",
@@ -991,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "destroyGeom",
           "package": "HODE",
@@ -1000,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "destroyGeom",
           "normalized": "Geom-\u003eIO()",
@@ -1015,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "disableGeom",
           "package": "HODE",
@@ -1024,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "disableGeom",
           "normalized": "Geom-\u003eIO()",
@@ -1039,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "enableGeom",
           "package": "HODE",
@@ -1048,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "enableGeom",
           "normalized": "Geom-\u003eIO()",
@@ -1063,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getBody",
           "package": "HODE",
@@ -1072,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getBody",
           "normalized": "Geom-\u003eIO(Maybe Body)",
@@ -1087,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getBodyUnsafe",
           "package": "HODE",
@@ -1096,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getBodyUnsafe",
           "normalized": "Geom-\u003eIO Body",
@@ -1111,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getClass",
           "package": "HODE",
@@ -1120,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getClass",
           "normalized": "Geom-\u003eIO GeomClass",
@@ -1135,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getGeomData",
           "package": "HODE",
@@ -1144,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getGeomData",
           "normalized": "Geom-\u003eIO a",
@@ -1159,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getGeomPosition",
           "package": "HODE",
@@ -1168,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getGeomPosition",
           "normalized": "Geom-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -1183,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getGeomQuaternion",
           "package": "HODE",
@@ -1192,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getGeomQuaternion",
           "normalized": "Geom-\u003eIO(ODEreal,ODEreal,ODEreal,ODEreal)",
@@ -1207,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getGeomRotation",
           "package": "HODE",
@@ -1216,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getGeomRotation",
           "normalized": "Geom-\u003eIO Matrix",
@@ -1231,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getRawGeomData",
           "package": "HODE",
@@ -1240,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getRawGeomData",
           "normalized": "Ptr GeomStruct-\u003eIO(Ptr a)",
@@ -1255,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getSafeGeomData",
           "package": "HODE",
@@ -1264,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getSafeGeomData",
           "normalized": "Geom-\u003eIO a",
@@ -1279,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "getSpace",
           "package": "HODE",
@@ -1288,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "getSpace",
           "normalized": "Geom-\u003eIO(Maybe Space)",
@@ -1303,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "isGeomEnabled",
           "package": "HODE",
@@ -1312,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "isGeomEnabled",
           "normalized": "Geom-\u003eIO Bool",
@@ -1327,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "isSpace",
           "package": "HODE",
@@ -1336,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "isSpace",
           "normalized": "Geom-\u003eIO Bool",
@@ -1351,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setBody",
           "package": "HODE",
@@ -1360,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setBody",
           "normalized": "Geom-\u003eMaybe Body-\u003eIO()",
@@ -1375,6 +1489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setGeomData",
           "package": "HODE",
@@ -1384,6 +1499,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setGeomData",
           "normalized": "Geom-\u003ea-\u003eIO()",
@@ -1399,6 +1515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setGeomPosition",
           "package": "HODE",
@@ -1408,6 +1525,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setGeomPosition",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -1423,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setGeomQuaternion",
           "package": "HODE",
@@ -1432,6 +1551,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setGeomQuaternion",
           "normalized": "Geom-\u003e(ODEreal,ODEreal,ODEreal,ODEreal)-\u003eIO()",
@@ -1447,6 +1567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setGeomRotation",
           "package": "HODE",
@@ -1456,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setGeomRotation",
           "normalized": "Geom-\u003eMatrix-\u003eIO()",
@@ -1471,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setRawGeomData",
           "package": "HODE",
@@ -1480,6 +1603,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setRawGeomData",
           "normalized": "Ptr GeomStruct-\u003ePtr a-\u003eIO()",
@@ -1495,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "setSafeGeomData",
           "package": "HODE",
@@ -1504,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "setSafeGeomData",
           "normalized": "Geom-\u003ea-\u003eIO()",
@@ -1519,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Geom",
           "name": "tryGetSafeGeomData",
           "package": "HODE",
@@ -1528,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Geom",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Geom",
           "name": "tryGetSafeGeomData",
           "normalized": "Geom-\u003eIO(Maybe a)",
@@ -1543,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "Joint",
           "package": "HODE",
@@ -1551,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "Joint",
           "package": "HODE",
@@ -1564,6 +1694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "areConnected",
           "package": "HODE",
@@ -1573,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "areConnected",
           "normalized": "Body-\u003eBody-\u003eIO Bool",
@@ -1588,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "areConnectedExcluding",
           "package": "HODE",
@@ -1597,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "areConnectedExcluding",
           "normalized": "Body-\u003eBody-\u003eJointType-\u003eIO Bool",
@@ -1612,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "attach",
           "package": "HODE",
@@ -1621,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "attach",
           "normalized": "Joint-\u003eMaybe Body-\u003eMaybe Body-\u003eIO()",
@@ -1635,6 +1771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "createBall",
           "package": "HODE",
@@ -1644,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "createBall",
           "normalized": "World-\u003eMaybe JointGroup-\u003eIO Joint",
@@ -1659,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "createContact",
           "package": "HODE",
@@ -1668,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "createContact",
           "normalized": "World-\u003eMaybe JointGroup-\u003eContactInfo-\u003eIO Joint",
@@ -1683,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "createGroup",
           "package": "HODE",
@@ -1692,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "createGroup",
           "package": "HODE",
@@ -1705,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "createHinge",
           "package": "HODE",
@@ -1714,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "createHinge",
           "normalized": "World-\u003eMaybe JointGroup-\u003eIO Joint",
@@ -1729,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "createSlider",
           "package": "HODE",
@@ -1738,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "createSlider",
           "normalized": "World-\u003eMaybe JointGroup-\u003eIO Joint",
@@ -1753,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "destroyGroup",
           "package": "HODE",
@@ -1762,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "destroyGroup",
           "normalized": "JointGroup-\u003eIO()",
@@ -1777,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "destroyJoint",
           "package": "HODE",
@@ -1786,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "destroyJoint",
           "normalized": "Joint-\u003eIO()",
@@ -1801,6 +1951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "emptyGroup",
           "package": "HODE",
@@ -1810,6 +1961,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "emptyGroup",
           "normalized": "JointGroup-\u003eIO()",
@@ -1825,6 +1977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getBallAnchor",
           "package": "HODE",
@@ -1834,6 +1987,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getBallAnchor",
           "normalized": "Joint-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -1849,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getBody",
           "package": "HODE",
@@ -1858,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getBody",
           "normalized": "Joint-\u003eBodyIndex-\u003eIO Body",
@@ -1873,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getJointData",
           "package": "HODE",
@@ -1882,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getJointData",
           "normalized": "Joint-\u003eIO a",
@@ -1897,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getRawJointData",
           "package": "HODE",
@@ -1906,6 +2065,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getRawJointData",
           "normalized": "Ptr JointStruct-\u003eIO(Ptr a)",
@@ -1921,6 +2081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getSafeJointData",
           "package": "HODE",
@@ -1930,6 +2091,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getSafeJointData",
           "normalized": "Joint-\u003eIO a",
@@ -1945,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "getType",
           "package": "HODE",
@@ -1954,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "getType",
           "normalized": "Joint-\u003eIO JointType",
@@ -1969,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setBallAnchor",
           "package": "HODE",
@@ -1978,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setBallAnchor",
           "normalized": "Joint-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -1993,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setHingeAnchor",
           "package": "HODE",
@@ -2002,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setHingeAnchor",
           "normalized": "Joint-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -2017,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setHingeAxis",
           "package": "HODE",
@@ -2026,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setHingeAxis",
           "normalized": "Joint-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -2041,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setJointData",
           "package": "HODE",
@@ -2050,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setJointData",
           "normalized": "Joint-\u003ea-\u003eIO()",
@@ -2065,6 +2237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setRawJointData",
           "package": "HODE",
@@ -2074,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setRawJointData",
           "normalized": "Ptr JointStruct-\u003ePtr a-\u003eIO()",
@@ -2089,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "setSafeJointData",
           "package": "HODE",
@@ -2098,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "setSafeJointData",
           "normalized": "Joint-\u003ea-\u003eIO()",
@@ -2113,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Joint",
           "name": "tryGetSafeJointData",
           "package": "HODE",
@@ -2122,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Joint",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Joint",
           "name": "tryGetSafeJointData",
           "normalized": "Joint-\u003eIO(Maybe a)",
@@ -2137,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "Mass",
           "package": "HODE",
@@ -2145,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "Mass",
           "package": "HODE",
@@ -2158,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "adjust",
           "package": "HODE",
@@ -2167,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "adjust",
           "normalized": "Mass-\u003eODEreal-\u003eIO()",
@@ -2181,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "create",
           "package": "HODE",
@@ -2190,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "create",
           "package": "HODE",
@@ -2202,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "destroyMass",
           "package": "HODE",
@@ -2211,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "destroyMass",
           "normalized": "Mass-\u003eIO()",
@@ -2226,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "mass",
           "package": "HODE",
@@ -2235,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "mass",
           "normalized": "Mass-\u003eIO ODEreal",
@@ -2249,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Mass",
           "name": "setZero",
           "package": "HODE",
@@ -2258,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Mass",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Mass",
           "name": "setZero",
           "normalized": "Mass-\u003eIO()",
@@ -2273,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "Objects",
           "package": "HODE",
@@ -2281,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "Objects",
           "package": "HODE",
@@ -2294,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "boxGetLengths",
           "package": "HODE",
@@ -2303,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "boxGetLengths",
           "normalized": "Geom-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -2318,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "boxPointDepth",
           "package": "HODE",
@@ -2327,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "boxPointDepth",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO ODEreal",
@@ -2342,6 +2538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "boxSetLengths",
           "package": "HODE",
@@ -2351,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "boxSetLengths",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -2366,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "createBox",
           "package": "HODE",
@@ -2375,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "createBox",
           "normalized": "Maybe Space-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO Geom",
@@ -2390,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "createPlane",
           "package": "HODE",
@@ -2399,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "createPlane",
           "normalized": "Maybe Space-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO Geom",
@@ -2414,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "createSphere",
           "package": "HODE",
@@ -2423,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "createSphere",
           "normalized": "Maybe Space-\u003eODEreal-\u003eIO Geom",
@@ -2438,6 +2642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "planeGetParams",
           "package": "HODE",
@@ -2447,6 +2652,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "planeGetParams",
           "normalized": "Geom-\u003eIO(ODEreal,ODEreal,ODEreal,ODEreal)",
@@ -2462,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "planePointDepth",
           "package": "HODE",
@@ -2471,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "planePointDepth",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO ODEreal",
@@ -2486,6 +2694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "planeSetParams",
           "package": "HODE",
@@ -2495,6 +2704,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "planeSetParams",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -2510,6 +2720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "sphereGetRadius",
           "package": "HODE",
@@ -2519,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "sphereGetRadius",
           "normalized": "Geom-\u003eIO ODEreal",
@@ -2534,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "spherePointDepth",
           "package": "HODE",
@@ -2543,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "spherePointDepth",
           "normalized": "Geom-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO ODEreal",
@@ -2558,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Objects",
           "name": "sphereSetRadius",
           "package": "HODE",
@@ -2567,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Objects",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Objects",
           "name": "sphereSetRadius",
           "normalized": "Geom-\u003eODEreal-\u003eIO()",
@@ -2582,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "Overloading",
           "package": "HODE",
@@ -2590,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "Overloading",
           "package": "HODE",
@@ -2603,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "HasData",
           "package": "HODE",
@@ -2611,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "HasData",
           "package": "HODE",
@@ -2624,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "HasDestroy",
           "package": "HODE",
@@ -2632,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "HasDestroy",
           "package": "HODE",
@@ -2645,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "HasEnable",
           "package": "HODE",
@@ -2653,6 +2876,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "HasEnable",
           "package": "HODE",
@@ -2666,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "IsPlaceable",
           "package": "HODE",
@@ -2674,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "IsPlaceable",
           "package": "HODE",
@@ -2687,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "destroy",
           "package": "HODE",
@@ -2696,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "destroy",
           "normalized": "a-\u003eIO()",
@@ -2710,6 +2938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "disable",
           "package": "HODE",
@@ -2719,6 +2948,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "disable",
           "normalized": "a-\u003eIO()",
@@ -2733,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "enable",
           "package": "HODE",
@@ -2742,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "enable",
           "normalized": "a-\u003eIO()",
@@ -2756,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getData",
           "package": "HODE",
@@ -2765,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getData",
           "normalized": "a-\u003eIO b",
@@ -2780,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getPosition",
           "package": "HODE",
@@ -2789,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getPosition",
           "normalized": "a-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -2804,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getQuaternion",
           "package": "HODE",
@@ -2813,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getQuaternion",
           "normalized": "a-\u003eIO(ODEreal,ODEreal,ODEreal,ODEreal)",
@@ -2828,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getRawData",
           "package": "HODE",
@@ -2837,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getRawData",
           "normalized": "a-\u003eIO(Ptr b)",
@@ -2852,6 +3092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getRotation",
           "package": "HODE",
@@ -2861,6 +3102,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getRotation",
           "normalized": "a-\u003eIO Matrix",
@@ -2876,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "getSafeData",
           "package": "HODE",
@@ -2885,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "getSafeData",
           "normalized": "a-\u003eIO b",
@@ -2900,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "isEnabled",
           "package": "HODE",
@@ -2909,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "isEnabled",
           "normalized": "a-\u003eIO Bool",
@@ -2924,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setData",
           "package": "HODE",
@@ -2933,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setData",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -2948,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setPosition",
           "package": "HODE",
@@ -2957,6 +3206,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setPosition",
           "normalized": "a-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -2972,6 +3222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setQuaternion",
           "package": "HODE",
@@ -2981,6 +3232,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setQuaternion",
           "normalized": "a-\u003e(ODEreal,ODEreal,ODEreal,ODEreal)-\u003eIO()",
@@ -2996,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setRawData",
           "package": "HODE",
@@ -3005,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setRawData",
           "normalized": "a-\u003ePtr b-\u003eIO()",
@@ -3020,6 +3274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setRotation",
           "package": "HODE",
@@ -3029,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setRotation",
           "normalized": "a-\u003eMatrix-\u003eIO()",
@@ -3044,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "setSafeData",
           "package": "HODE",
@@ -3053,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "setSafeData",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -3068,6 +3326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Overloading",
           "name": "tryGetSafeData",
           "package": "HODE",
@@ -3077,6 +3336,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Overloading",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Overloading",
           "name": "tryGetSafeData",
           "normalized": "a-\u003eIO(Maybe b)",
@@ -3092,6 +3352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "Rotation",
           "package": "HODE",
@@ -3100,6 +3361,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "Rotation",
           "package": "HODE",
@@ -3113,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "createMatrix3",
           "package": "HODE",
@@ -3122,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "createMatrix3",
           "package": "HODE",
@@ -3135,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "fromAxisAndAngle",
           "package": "HODE",
@@ -3144,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "fromAxisAndAngle",
           "normalized": "Matrix-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -3159,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "fromEulerAngles",
           "package": "HODE",
@@ -3168,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "fromEulerAngles",
           "normalized": "Matrix-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -3183,6 +3451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "peekMatrix3",
           "package": "HODE",
@@ -3192,6 +3461,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "peekMatrix3",
           "normalized": "Matrix-\u003eIO[ODEreal]",
@@ -3207,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Rotation",
           "name": "setIdentity",
           "package": "HODE",
@@ -3216,6 +3487,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Rotation",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Rotation",
           "name": "setIdentity",
           "normalized": "Matrix-\u003eIO()",
@@ -3231,6 +3503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "Space",
           "package": "HODE",
@@ -3239,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "Space",
           "package": "HODE",
@@ -3252,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "add",
           "package": "HODE",
@@ -3261,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "add",
           "normalized": "Space-\u003eGeom-\u003eIO()",
@@ -3275,6 +3551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "createHash",
           "package": "HODE",
@@ -3284,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "createHash",
           "normalized": "Maybe Space-\u003eIO Space",
@@ -3299,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "createSimple",
           "package": "HODE",
@@ -3308,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "createSimple",
           "normalized": "Maybe Space-\u003eIO Space",
@@ -3323,6 +3603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "destroySpace",
           "package": "HODE",
@@ -3332,6 +3613,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "destroySpace",
           "normalized": "Space-\u003eIO()",
@@ -3347,6 +3629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "getCleanup",
           "package": "HODE",
@@ -3356,6 +3639,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "getCleanup",
           "normalized": "Space-\u003eIO Bool",
@@ -3371,6 +3655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "getGeom",
           "package": "HODE",
@@ -3380,6 +3665,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "getGeom",
           "normalized": "Space-\u003eInt-\u003eIO Geom",
@@ -3395,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "getGeomUnsafe",
           "package": "HODE",
@@ -3404,6 +3691,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "getGeomUnsafe",
           "normalized": "Space-\u003eInt-\u003eIO Geom",
@@ -3419,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "getLevels",
           "package": "HODE",
@@ -3428,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "getLevels",
           "normalized": "Space-\u003eIO(Int,Int)",
@@ -3443,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "getNumGeoms",
           "package": "HODE",
@@ -3452,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "getNumGeoms",
           "normalized": "Space-\u003eIO Int",
@@ -3467,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "query",
           "package": "HODE",
@@ -3476,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "query",
           "normalized": "Space-\u003eGeom-\u003eIO Bool",
@@ -3490,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "remove",
           "package": "HODE",
@@ -3499,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "remove",
           "normalized": "Space-\u003eGeom-\u003eIO()",
@@ -3513,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "setCleanup",
           "package": "HODE",
@@ -3522,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "setCleanup",
           "normalized": "Space-\u003eBool-\u003eIO()",
@@ -3537,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "setLevels",
           "package": "HODE",
@@ -3546,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "setLevels",
           "normalized": "Space-\u003eInt-\u003eInt-\u003eIO()",
@@ -3561,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Space",
           "name": "tryGetGeom",
           "package": "HODE",
@@ -3570,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Space",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Space",
           "name": "tryGetGeom",
           "normalized": "Space-\u003eInt-\u003eIO(Maybe Geom)",
@@ -3585,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Types",
           "package": "HODE",
@@ -3593,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Types",
           "package": "HODE",
@@ -3606,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Body",
           "package": "HODE",
@@ -3614,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Body",
           "package": "HODE",
@@ -3627,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "BodyIndex",
           "package": "HODE",
@@ -3635,6 +3942,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "BodyIndex",
           "package": "HODE",
@@ -3648,6 +3956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "BodyStruct",
           "package": "HODE",
@@ -3656,6 +3965,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "BodyStruct",
           "package": "HODE",
@@ -3669,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "ContactGeom",
           "package": "HODE",
@@ -3677,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "ContactGeom",
           "package": "HODE",
@@ -3690,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "ContactInfo",
           "package": "HODE",
@@ -3698,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "ContactInfo",
           "package": "HODE",
@@ -3711,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Geom",
           "package": "HODE",
@@ -3719,6 +4034,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Geom",
           "package": "HODE",
@@ -3732,6 +4048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "GeomClass",
           "package": "HODE",
@@ -3740,6 +4057,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "GeomClass",
           "package": "HODE",
@@ -3753,6 +4071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "GeomStruct",
           "package": "HODE",
@@ -3761,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "GeomStruct",
           "package": "HODE",
@@ -3774,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Joint",
           "package": "HODE",
@@ -3782,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Joint",
           "package": "HODE",
@@ -3795,6 +4117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "JointGroup",
           "package": "HODE",
@@ -3803,6 +4126,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "JointGroup",
           "package": "HODE",
@@ -3816,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "JointGroupStruct",
           "package": "HODE",
@@ -3824,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "JointGroupStruct",
           "package": "HODE",
@@ -3837,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "JointStruct",
           "package": "HODE",
@@ -3845,6 +4172,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "JointStruct",
           "package": "HODE",
@@ -3858,6 +4186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "JointType",
           "package": "HODE",
@@ -3866,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "JointType",
           "package": "HODE",
@@ -3879,6 +4209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Mass",
           "package": "HODE",
@@ -3887,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Mass",
           "package": "HODE",
@@ -3900,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "MassStruct",
           "package": "HODE",
@@ -3908,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "MassStruct",
           "package": "HODE",
@@ -3921,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Matrix3",
           "package": "HODE",
@@ -3929,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Matrix3",
           "package": "HODE",
@@ -3942,6 +4278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "ODEreal",
           "package": "HODE",
@@ -3950,6 +4287,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "ODEreal",
           "package": "HODE",
@@ -3963,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Quaternion",
           "package": "HODE",
@@ -3971,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Quaternion",
           "package": "HODE",
@@ -3984,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "RotationMode",
           "package": "HODE",
@@ -3992,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "RotationMode",
           "package": "HODE",
@@ -4005,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Space",
           "package": "HODE",
@@ -4013,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Space",
           "package": "HODE",
@@ -4026,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "SpaceStruct",
           "package": "HODE",
@@ -4034,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "SpaceStruct",
           "package": "HODE",
@@ -4047,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Surface",
           "package": "HODE",
@@ -4055,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Surface",
           "package": "HODE",
@@ -4068,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "SurfaceMode",
           "package": "HODE",
@@ -4076,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "SurfaceMode",
           "package": "HODE",
@@ -4089,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "World",
           "package": "HODE",
@@ -4097,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "World",
           "package": "HODE",
@@ -4110,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "WorldStruct",
           "package": "HODE",
@@ -4118,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "WorldStruct",
           "package": "HODE",
@@ -4131,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "AMotor",
           "package": "HODE",
@@ -4140,6 +4495,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "AMotor",
           "package": "HODE",
@@ -4153,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Ball",
           "package": "HODE",
@@ -4162,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Ball",
           "package": "HODE",
@@ -4175,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Box",
           "package": "HODE",
@@ -4184,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Box",
           "package": "HODE",
@@ -4197,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "CappedCylinder",
           "package": "HODE",
@@ -4206,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "CappedCylinder",
           "package": "HODE",
@@ -4219,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Contact",
           "package": "HODE",
@@ -4228,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Contact",
           "package": "HODE",
@@ -4241,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "ContactGeom",
           "package": "HODE",
@@ -4250,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "ContactGeom",
           "package": "HODE",
@@ -4263,6 +4629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "ContactInfo",
           "package": "HODE",
@@ -4272,6 +4639,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "ContactInfo",
           "package": "HODE",
@@ -4285,6 +4653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Cylinder",
           "package": "HODE",
@@ -4294,6 +4663,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Cylinder",
           "package": "HODE",
@@ -4307,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Finite",
           "package": "HODE",
@@ -4316,6 +4687,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Finite",
           "package": "HODE",
@@ -4329,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "First",
           "package": "HODE",
@@ -4338,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "First",
           "package": "HODE",
@@ -4351,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Fixed",
           "package": "HODE",
@@ -4360,6 +4735,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Fixed",
           "package": "HODE",
@@ -4373,6 +4749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "GeomTransform",
           "package": "HODE",
@@ -4382,6 +4759,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "GeomTransform",
           "package": "HODE",
@@ -4395,6 +4773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HashSpace",
           "package": "HODE",
@@ -4404,6 +4783,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HashSpace",
           "package": "HODE",
@@ -4417,6 +4797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveApprox11",
           "package": "HODE",
@@ -4426,6 +4807,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveApprox11",
           "package": "HODE",
@@ -4439,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveApprox12",
           "package": "HODE",
@@ -4448,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveApprox12",
           "package": "HODE",
@@ -4461,6 +4845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveBounce",
           "package": "HODE",
@@ -4470,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveBounce",
           "package": "HODE",
@@ -4483,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveFDir1",
           "package": "HODE",
@@ -4492,6 +4879,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveFDir1",
           "package": "HODE",
@@ -4505,6 +4893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveMotion1",
           "package": "HODE",
@@ -4514,6 +4903,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveMotion1",
           "package": "HODE",
@@ -4527,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveMotion2",
           "package": "HODE",
@@ -4536,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveMotion2",
           "package": "HODE",
@@ -4549,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveMu2",
           "package": "HODE",
@@ -4558,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveMu2",
           "package": "HODE",
@@ -4571,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveSlip1",
           "package": "HODE",
@@ -4580,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveSlip1",
           "package": "HODE",
@@ -4593,6 +4989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveSlip2",
           "package": "HODE",
@@ -4602,6 +4999,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveSlip2",
           "package": "HODE",
@@ -4615,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveSoftCFM",
           "package": "HODE",
@@ -4624,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveSoftCFM",
           "package": "HODE",
@@ -4637,6 +5037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "HaveSoftERP",
           "package": "HODE",
@@ -4646,6 +5047,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "HaveSoftERP",
           "package": "HODE",
@@ -4659,6 +5061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Hinge",
           "package": "HODE",
@@ -4668,6 +5071,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Hinge",
           "package": "HODE",
@@ -4681,6 +5085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Hinge2",
           "package": "HODE",
@@ -4690,6 +5095,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Hinge2",
           "package": "HODE",
@@ -4703,6 +5109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Infinitesimal",
           "package": "HODE",
@@ -4712,6 +5119,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Infinitesimal",
           "package": "HODE",
@@ -4725,6 +5133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Plane",
           "package": "HODE",
@@ -4734,6 +5143,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Plane",
           "package": "HODE",
@@ -4747,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Ray",
           "package": "HODE",
@@ -4756,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Ray",
           "package": "HODE",
@@ -4769,6 +5181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Second",
           "package": "HODE",
@@ -4778,6 +5191,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Second",
           "package": "HODE",
@@ -4791,6 +5205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "SimpleSpace",
           "package": "HODE",
@@ -4800,6 +5215,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "SimpleSpace",
           "package": "HODE",
@@ -4813,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Slider",
           "package": "HODE",
@@ -4822,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Slider",
           "package": "HODE",
@@ -4835,6 +5253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Sphere",
           "package": "HODE",
@@ -4844,6 +5263,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Sphere",
           "package": "HODE",
@@ -4857,6 +5277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Surface",
           "package": "HODE",
@@ -4866,6 +5287,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Surface",
           "package": "HODE",
@@ -4879,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "TriangleMesh",
           "package": "HODE",
@@ -4888,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "TriangleMesh",
           "package": "HODE",
@@ -4901,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "Universal",
           "package": "HODE",
@@ -4910,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "Universal",
           "package": "HODE",
@@ -4923,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactDepth",
           "package": "HODE",
@@ -4932,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactDepth",
           "package": "HODE",
@@ -4945,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactFDir1",
           "package": "HODE",
@@ -4954,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactFDir1",
           "normalized": "(ODEreal,ODEreal,ODEreal)",
@@ -4969,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactGeom",
           "package": "HODE",
@@ -4978,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactGeom",
           "package": "HODE",
@@ -4991,6 +5423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactNormal",
           "package": "HODE",
@@ -5000,6 +5433,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactNormal",
           "normalized": "(ODEreal,ODEreal,ODEreal)",
@@ -5015,6 +5449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactObjects",
           "package": "HODE",
@@ -5024,6 +5459,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactObjects",
           "normalized": "(Geom,Geom)",
@@ -5039,6 +5475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactPos",
           "package": "HODE",
@@ -5048,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactPos",
           "normalized": "(ODEreal,ODEreal,ODEreal)",
@@ -5063,6 +5501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "contactSurface",
           "package": "HODE",
@@ -5072,6 +5511,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "contactSurface",
           "package": "HODE",
@@ -5085,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceBounce",
           "package": "HODE",
@@ -5094,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceBounce",
           "normalized": "Maybe(ODEreal,ODEreal)",
@@ -5109,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceMotion1",
           "package": "HODE",
@@ -5118,6 +5561,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceMotion1",
           "package": "HODE",
@@ -5131,6 +5575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceMotion2",
           "package": "HODE",
@@ -5140,6 +5585,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceMotion2",
           "package": "HODE",
@@ -5153,6 +5599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceMu",
           "package": "HODE",
@@ -5162,6 +5609,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceMu",
           "package": "HODE",
@@ -5175,6 +5623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceMu2",
           "package": "HODE",
@@ -5184,6 +5633,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceMu2",
           "package": "HODE",
@@ -5197,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceSlip1",
           "package": "HODE",
@@ -5206,6 +5657,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceSlip1",
           "package": "HODE",
@@ -5219,6 +5671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceSlip2",
           "package": "HODE",
@@ -5228,6 +5681,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceSlip2",
           "package": "HODE",
@@ -5241,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceSoftCFM",
           "package": "HODE",
@@ -5250,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceSoftCFM",
           "package": "HODE",
@@ -5263,6 +5719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.Types",
           "name": "surfaceSoftERP",
           "package": "HODE",
@@ -5272,6 +5729,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE Types",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.Types",
           "name": "surfaceSoftERP",
           "package": "HODE",
@@ -5285,6 +5743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "World",
           "package": "HODE",
@@ -5293,6 +5752,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "World",
           "package": "HODE",
@@ -5306,6 +5766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "closeODE",
           "package": "HODE",
@@ -5315,6 +5776,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "closeODE",
           "normalized": "IO()",
@@ -5330,6 +5792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "create",
           "package": "HODE",
@@ -5339,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "create",
           "package": "HODE",
@@ -5351,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "destroyWorld",
           "package": "HODE",
@@ -5360,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "destroyWorld",
           "normalized": "World-\u003eIO()",
@@ -5375,6 +5841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "getContactSurfaceLayer",
           "package": "HODE",
@@ -5384,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "getContactSurfaceLayer",
           "normalized": "World-\u003eIO ODEreal",
@@ -5399,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "getGravity",
           "package": "HODE",
@@ -5408,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "getGravity",
           "normalized": "World-\u003eIO(ODEreal,ODEreal,ODEreal)",
@@ -5423,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "quickStep",
           "package": "HODE",
@@ -5432,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "quickStep",
           "normalized": "World-\u003eODEreal-\u003eIO()",
@@ -5447,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "setContactSurfaceLayer",
           "package": "HODE",
@@ -5456,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "setContactSurfaceLayer",
           "normalized": "World-\u003eODEreal-\u003eIO()",
@@ -5471,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "setGravity",
           "package": "HODE",
@@ -5480,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "setGravity",
           "normalized": "World-\u003eODEreal-\u003eODEreal-\u003eODEreal-\u003eIO()",
@@ -5495,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE.World",
           "name": "step",
           "package": "HODE",
@@ -5504,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE World",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE.World",
           "name": "step",
           "normalized": "World-\u003eODEreal-\u003eIO()",
@@ -5518,6 +5996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:45:57 UTC 2014",
           "module": "Physics.ODE",
           "name": "ODE",
           "package": "HODE",
@@ -5526,6 +6005,7 @@
         },
         "index": {
           "hierarchy": "Physics ODE",
+          "indexed": "2014-03-11T16:45:57",
           "module": "Physics.ODE",
           "name": "ODE",
           "package": "HODE",

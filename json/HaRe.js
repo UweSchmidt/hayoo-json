@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaRe"
+        "phrase": "HaRe",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Case",
           "name": "Case",
           "package": "HaRe",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Case",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Case",
           "name": "Case",
           "package": "HaRe",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an if expression to a case expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Case",
           "name": "ifToCase",
           "package": "HaRe",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Convert an if expression to case expression",
           "hierarchy": "Language Haskell Refact Case",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Case",
           "name": "ifToCase",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eSimpPos-\u003eSimpPos-\u003eIO[FilePath]",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.DupDef",
           "name": "DupDef",
           "package": "HaRe",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact DupDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.DupDef",
           "name": "DupDef",
           "package": "HaRe",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis refactoring duplicates a definition (function binding or\n simple pattern binding) at the same level with a new name provided by\n the user. The new name should not cause name clash/capture.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.DupDef",
           "name": "duplicateDef",
           "package": "HaRe",
@@ -97,6 +104,7 @@
         "index": {
           "description": "This refactoring duplicates definition function binding or simple pattern binding at the same level with new name provided by the user The new name should not cause name clash capture",
           "hierarchy": "Language Haskell Refact DupDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.DupDef",
           "name": "duplicateDef",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eString-\u003eSimpPos-\u003eIO[FilePath]",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "MoveDef",
           "package": "HaRe",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact MoveDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "MoveDef",
           "package": "HaRe",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a definition one level down\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "demote",
           "package": "HaRe",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Move definition one level down",
           "hierarchy": "Language Haskell Refact MoveDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "demote",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eSimpPos-\u003eIO[FilePath]",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a definition one level up from where it is now\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "liftOneLevel",
           "package": "HaRe",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Move definition one level up from where it is now",
           "hierarchy": "Language Haskell Refact MoveDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "liftOneLevel",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eSimpPos-\u003eIO[FilePath]",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a definition to the top level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "liftToTopLevel",
           "package": "HaRe",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Lift definition to the top level",
           "hierarchy": "Language Haskell Refact MoveDef",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.MoveDef",
           "name": "liftToTopLevel",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eSimpPos-\u003eIO[FilePath]",
@@ -210,6 +226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Renaming",
           "name": "Renaming",
           "package": "HaRe",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Renaming",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Renaming",
           "name": "Renaming",
           "package": "HaRe",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename the given identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Renaming",
           "name": "rename",
           "package": "HaRe",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Rename the given identifier",
           "hierarchy": "Language Haskell Refact Renaming",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Renaming",
           "name": "rename",
           "normalized": "RefactSettings-\u003eCradle-\u003eFilePath-\u003eString-\u003eSimpPos-\u003eIO[FilePath]",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.SwapArgs",
           "name": "SwapArgs",
           "package": "HaRe",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact SwapArgs",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.SwapArgs",
           "name": "SwapArgs",
           "package": "HaRe",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.SwapArgs",
           "name": "swapArgs",
           "package": "HaRe",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact SwapArgs",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.SwapArgs",
           "name": "swapArgs",
           "normalized": "RefactSettings-\u003eCradle-\u003e[String]-\u003eIO[FilePath]",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "DualTree",
           "package": "HaRe",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "DualTree",
           "package": "HaRe",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Line",
           "package": "HaRe",
@@ -330,6 +357,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Line",
           "package": "HaRe",
@@ -343,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Source",
           "package": "HaRe",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Source",
           "package": "HaRe",
@@ -365,6 +395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main data structure for this module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SourceTree",
           "package": "HaRe",
@@ -374,6 +405,7 @@
         "index": {
           "description": "The main data structure for this module",
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SourceTree",
           "package": "HaRe",
@@ -387,6 +419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Line",
           "package": "HaRe",
@@ -396,6 +429,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "Line",
           "normalized": "Line Row Col RowOffset Source LineOpt[PosToken]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SAdded",
           "package": "HaRe",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SAdded",
           "package": "HaRe",
@@ -433,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SOriginal",
           "package": "HaRe",
@@ -442,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SOriginal",
           "package": "HaRe",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SWasAdded",
           "package": "HaRe",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "SWasAdded",
           "package": "HaRe",
@@ -477,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "layoutTreeToSourceTree",
           "package": "HaRe",
@@ -486,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "layoutTreeToSourceTree",
           "normalized": "LayoutTree-\u003eSourceTree",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderLines",
           "package": "HaRe",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderLines",
           "normalized": "[Line]-\u003eString",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderLinesFromLayoutTree",
           "package": "HaRe",
@@ -534,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderLinesFromLayoutTree",
           "normalized": "LayoutTree-\u003eString",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderSourceTree",
           "package": "HaRe",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "renderSourceTree",
           "normalized": "SourceTree-\u003eString",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "retrieveLines",
           "package": "HaRe",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "retrieveLines",
           "normalized": "SourceTree-\u003e[Line]",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "retrieveLinesFromLayoutTree",
           "package": "HaRe",
@@ -606,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils DualTree",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.DualTree",
           "name": "retrieveLinesFromLayoutTree",
           "normalized": "LayoutTree-\u003e[Line]",
@@ -622,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide workarounds for bugs detected in GHC, until they are\n fixed in a later version\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "GhcBugWorkArounds",
           "package": "HaRe",
@@ -631,6 +684,7 @@
         "index": {
           "description": "Provide workarounds for bugs detected in GHC until they are fixed in later version",
           "hierarchy": "Language Haskell Refact Utils GhcBugWorkArounds",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "GhcBugWorkArounds",
           "package": "HaRe",
@@ -644,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "bypassGHCBug7351",
           "package": "HaRe",
@@ -653,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcBugWorkArounds",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "bypassGHCBug7351",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -669,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplacement for original \u003ccode\u003egetRichTokenStream\u003c/code\u003e which will return\n the tokens for a file processed by CPP.\n See bug \u003ca\u003ehttp://ghc.haskell.org/trac/ghc/ticket/8265\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "getRichTokenStreamWA",
           "package": "HaRe",
@@ -679,6 +736,7 @@
         "index": {
           "description": "Replacement for original getRichTokenStream which will return the tokens for file processed by CPP See bug http ghc.haskell.org trac ghc ticket",
           "hierarchy": "Language Haskell Refact Utils GhcBugWorkArounds",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcBugWorkArounds",
           "name": "getRichTokenStreamWA",
           "normalized": "Module-\u003ea[(Located Token,String)]",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "GhcModuleGraph",
           "package": "HaRe",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcModuleGraph",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "GhcModuleGraph",
           "package": "HaRe",
@@ -715,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "getModulesAsGraph",
           "package": "HaRe",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcModuleGraph",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "getModulesAsGraph",
           "normalized": "Bool-\u003e[ModSummary]-\u003eMaybe ModuleName-\u003eGraph SummaryNode",
@@ -739,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "summaryNodeSummary",
           "package": "HaRe",
@@ -748,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcModuleGraph",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcModuleGraph",
           "name": "summaryNodeSummary",
           "normalized": "SummaryNode-\u003eModSummary",
@@ -764,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains routines used to perform generic traversals of\nthe GHC AST, avoiding the traps resulting from certain fields being\npopulated with values defined to trigger an error if ever evaluated.\n\u003c/p\u003e\u003cp\u003eThis is a useful feature for tracking down bugs in GHC, but makes use\nof the GHC library problematic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "GhcUtils",
           "package": "HaRe",
@@ -773,6 +838,7 @@
         "index": {
           "description": "This module contains routines used to perform generic traversals of the GHC AST avoiding the traps resulting from certain fields being populated with values defined to trigger an error if ever evaluated This is useful feature for tracking down bugs in GHC but makes use of the GHC library problematic",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "GhcUtils",
           "package": "HaRe",
@@ -786,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "allTUGhc",
           "package": "HaRe",
@@ -795,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "allTUGhc",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eTU a b-\u003eTU a b",
@@ -810,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "allTUGhc'",
           "package": "HaRe",
@@ -819,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "allTUGhc'",
           "normalized": "TU a b-\u003eTU a b",
@@ -834,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemRenamer",
           "package": "HaRe",
@@ -843,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemRenamer",
           "normalized": "a-\u003eBool",
@@ -858,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemRenamer'",
           "package": "HaRe",
@@ -867,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemRenamer'",
           "normalized": "TU()a",
@@ -882,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemStage'",
           "package": "HaRe",
@@ -891,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkItemStage'",
           "normalized": "Stage-\u003eTU()a",
@@ -906,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkZipperStaged",
           "package": "HaRe",
@@ -915,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "checkZipperStaged",
           "normalized": "Stage-\u003eZipper a-\u003eBool",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everythingButStaged",
           "package": "HaRe",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everythingButStaged",
           "normalized": "Stage-\u003e(a-\u003ea-\u003ea)-\u003ea-\u003eGenericQ(a,Bool)-\u003eGenericQ a",
@@ -955,6 +1035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStaged variation of SYB.everything\n The stage must be provided to avoid trying to modify elements which\n may not be present at all stages of AST processing.\n Note: Top-down order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everythingStaged",
           "package": "HaRe",
@@ -965,6 +1046,7 @@
         "index": {
           "description": "Staged variation of SYB.everything The stage must be provided to avoid trying to modify elements which may not be present at all stages of AST processing Note Top-down order",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everythingStaged",
           "normalized": "Stage-\u003e(a-\u003ea-\u003ea)-\u003ea-\u003eGenericQ a-\u003eGenericQ a",
@@ -981,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variation on everywhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereMStaged",
           "package": "HaRe",
@@ -991,6 +1074,7 @@
         "index": {
           "description": "Monadic variation on everywhere",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereMStaged",
           "normalized": "Stage-\u003eGenericM a-\u003eGenericM a",
@@ -1007,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variation on everywhere'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereMStaged'",
           "package": "HaRe",
@@ -1017,6 +1102,7 @@
         "index": {
           "description": "Monadic variation on everywhere",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereMStaged'",
           "normalized": "Stage-\u003eGenericM a-\u003eGenericM a",
@@ -1033,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom-up transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereStaged",
           "package": "HaRe",
@@ -1043,6 +1130,7 @@
         "index": {
           "description": "Bottom-up transformation",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereStaged",
           "normalized": "a-\u003ea",
@@ -1059,6 +1147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down version of everywhereStaged\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereStaged'",
           "package": "HaRe",
@@ -1069,6 +1158,7 @@
         "index": {
           "description": "Top-down version of everywhereStaged",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "everywhereStaged'",
           "normalized": "a-\u003ea",
@@ -1085,6 +1175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUp the zipper until a predicate holds, and then return the zipper\n hole\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "findAbove",
           "package": "HaRe",
@@ -1095,6 +1186,7 @@
         "index": {
           "description": "Up the zipper until predicate holds and then return the zipper hole",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "findAbove",
           "normalized": "(a-\u003eBool)-\u003eZipper a-\u003eMaybe a",
@@ -1111,6 +1203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull type-unifying traversal in top-down order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "full_tdTUGhc",
           "package": "HaRe",
@@ -1121,6 +1214,7 @@
         "index": {
           "description": "Full type-unifying traversal in top-down order",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "full_tdTUGhc",
           "normalized": "TU a b-\u003eTU a b",
@@ -1137,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStaged variation of SYB.listify\n The stage must be provided to avoid trying to modify elements which\n may not be present at all stages of AST processing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "listifyStaged",
           "package": "HaRe",
@@ -1147,6 +1242,7 @@
         "index": {
           "description": "Staged variation of SYB.listify The stage must be provided to avoid trying to modify elements which may not be present at all stages of AST processing",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "listifyStaged",
           "normalized": "Stage-\u003e(a-\u003eBool)-\u003ea-\u003e[a]",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBottom-up type-preserving traversal that performs its argument\n   strategy at most once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "once_buTPGhc",
           "package": "HaRe",
@@ -1173,6 +1270,7 @@
         "index": {
           "description": "Bottom-up type-preserving traversal that performs its argument strategy at most once",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "once_buTPGhc",
           "normalized": "TP a-\u003eTP a",
@@ -1189,6 +1287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down type-preserving traversal that performs its argument\n   strategy at most once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "once_tdTPGhc",
           "package": "HaRe",
@@ -1199,6 +1298,7 @@
         "index": {
           "description": "Top-down type-preserving traversal that performs its argument strategy at most once",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "once_tdTPGhc",
           "normalized": "TP a-\u003eTP a",
@@ -1214,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "oneTPGhc",
           "package": "HaRe",
@@ -1223,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "oneTPGhc",
           "normalized": "TP a-\u003eTP a",
@@ -1239,6 +1341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a subterm by means of a maybe-typed filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somethingStaged",
           "package": "HaRe",
@@ -1249,6 +1352,7 @@
         "index": {
           "description": "Look up subterm by means of maybe-typed filter",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somethingStaged",
           "normalized": "Stage-\u003eMaybe a-\u003eGenericQ(Maybe a)-\u003eGenericQ(Maybe a)",
@@ -1265,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic transformation at least somewhere\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somewhereMStaged",
           "package": "HaRe",
@@ -1275,6 +1380,7 @@
         "index": {
           "description": "Apply monadic transformation at least somewhere",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somewhereMStaged",
           "normalized": "Stage-\u003eGenericM a-\u003eGenericM a",
@@ -1291,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a monadic transformation at least somewhere, in bottom up order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somewhereMStagedBu",
           "package": "HaRe",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "Apply monadic transformation at least somewhere in bottom up order",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "somewhereMStagedBu",
           "normalized": "Stage-\u003eGenericM a-\u003eGenericM a",
@@ -1317,6 +1425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTop-down type-unifying traversal that is cut of below nodes\n   where the argument strategy succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "stop_tdTUGhc",
           "package": "HaRe",
@@ -1327,6 +1436,7 @@
         "index": {
           "description": "Top-down type-unifying traversal that is cut of below nodes where the argument strategy succeeds",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "stop_tdTUGhc",
           "normalized": "TU a b-\u003eTU a b",
@@ -1343,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a zipper opened with a given generic query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "transZ",
           "package": "HaRe",
@@ -1353,6 +1464,7 @@
         "index": {
           "description": "Transform zipper opened with given generic query",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "transZ",
           "normalized": "Stage-\u003eGenericQ Bool-\u003e(Stage-\u003eZipper a-\u003eZipper a)-\u003eZipper a-\u003eZipper a",
@@ -1368,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic transform of a zipper opened with a given generic query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "transZM",
           "package": "HaRe",
@@ -1378,6 +1491,7 @@
         "index": {
           "description": "Monadic transform of zipper opened with given generic query",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "transZM",
           "normalized": "Stage-\u003eGenericQ Bool-\u003e(Stage-\u003eZipper a-\u003eb(Zipper a))-\u003eZipper a-\u003eb(Zipper a)",
@@ -1394,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClimb the tree until a predicate holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "upUntil",
           "package": "HaRe",
@@ -1404,6 +1519,7 @@
         "index": {
           "description": "Climb the tree until predicate holds",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "upUntil",
           "normalized": "GenericQ Bool-\u003eZipper a-\u003eMaybe(Zipper a)",
@@ -1420,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a generic transformation everywhere in a bottom-up manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zeverywhereStaged",
           "package": "HaRe",
@@ -1430,6 +1547,7 @@
         "index": {
           "description": "Apply generic transformation everywhere in bottom-up manner",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zeverywhereStaged",
           "normalized": "Stage-\u003eGenericT-\u003eZipper a-\u003eZipper a",
@@ -1446,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper to the point where the Geneneric query passes.\n returns the original zipper if the query does not pass (check this)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zopenStaged",
           "package": "HaRe",
@@ -1456,6 +1575,7 @@
         "index": {
           "description": "Open zipper to the point where the Geneneric query passes returns the original zipper if the query does not pass check this",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zopenStaged",
           "normalized": "Stage-\u003eGenericQ Bool-\u003eZipper a-\u003e[Zipper a]",
@@ -1472,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper to the point where the Generic query passes,\n returning the zipper and a value from the specific part of the\n GenericQ that matched. This allows the components of the query to\n return a specific transformation routine, to apply to the returned zipper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zopenStaged'",
           "package": "HaRe",
@@ -1482,6 +1603,7 @@
         "index": {
           "description": "Open zipper to the point where the Generic query passes returning the zipper and value from the specific part of the GenericQ that matched This allows the components of the query to return specific transformation routine to apply to the returned zipper",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zopenStaged'",
           "normalized": "Stage-\u003eGenericQ(Maybe a)-\u003eZipper b-\u003e[(Zipper b,a)]",
@@ -1498,6 +1620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a generic monadic transformation once at the topmost\n leftmost successful location, avoiding holes in the GHC structures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zsomewhereStaged",
           "package": "HaRe",
@@ -1508,6 +1631,7 @@
         "index": {
           "description": "Apply generic monadic transformation once at the topmost leftmost successful location avoiding holes in the GHC structures",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "zsomewhereStaged",
           "normalized": "Stage-\u003eGenericM a-\u003eZipper b-\u003ea(Zipper b)",
@@ -1524,6 +1648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper to the point where the Generic query passes,\n and apply the transformation returned from the specific part of the\n GenericQ that matched.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "ztransformStagedM",
           "package": "HaRe",
@@ -1534,6 +1659,7 @@
         "index": {
           "description": "Open zipper to the point where the Generic query passes and apply the transformation returned from the specific part of the GenericQ that matched",
           "hierarchy": "Language Haskell Refact Utils GhcUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcUtils",
           "name": "ztransformStagedM",
           "normalized": "Stage-\u003eGenericQ(Maybe(Stage-\u003eZipper a-\u003eb(Zipper a)))-\u003eZipper a-\u003eb(Zipper a)",
@@ -1550,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains all the code that depends on a specific\n version of GHC, and should be the only one requiring CPP\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "GhcVersionSpecific",
           "package": "HaRe",
@@ -1559,6 +1686,7 @@
         "index": {
           "description": "This module contains all the code that depends on specific version of GHC and should be the only one requiring CPP",
           "hierarchy": "Language Haskell Refact Utils GhcVersionSpecific",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "GhcVersionSpecific",
           "package": "HaRe",
@@ -1572,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "getDataConstructors",
           "package": "HaRe",
@@ -1581,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcVersionSpecific",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "getDataConstructors",
           "normalized": "LHsDecl a-\u003e[LConDecl a]",
@@ -1669,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "setGhcContext",
           "package": "HaRe",
@@ -1678,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils GhcVersionSpecific",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "setGhcContext",
           "normalized": "ModSummary-\u003ea()",
@@ -1694,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a GHC API structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "showGhc",
           "package": "HaRe",
@@ -1704,6 +1837,7 @@
         "index": {
           "description": "Show GHC API structure",
           "hierarchy": "Language Haskell Refact Utils GhcVersionSpecific",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.GhcVersionSpecific",
           "name": "showGhc",
           "normalized": "a-\u003eString",
@@ -1719,6 +1853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "Layout",
           "package": "HaRe",
@@ -1727,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "Layout",
           "package": "HaRe",
@@ -1740,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "addEndOffsets",
           "package": "HaRe",
@@ -1749,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "addEndOffsets",
           "normalized": "LayoutTree-\u003e[PosToken]-\u003eLayoutTree",
@@ -1764,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "allocTokens",
           "package": "HaRe",
@@ -1773,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "allocTokens",
           "normalized": "ParsedSource-\u003e[PosToken]-\u003eLayoutTree",
@@ -1788,6 +1928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "getLoc",
           "package": "HaRe",
@@ -1797,6 +1938,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "getLoc",
           "normalized": "LayoutTree-\u003eForestSpan",
@@ -1812,6 +1954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "initTokenLayout",
           "package": "HaRe",
@@ -1821,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "initTokenLayout",
           "normalized": "ParsedSource-\u003e[PosToken]-\u003eLayoutTree",
@@ -1836,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "nullTokenLayout",
           "package": "HaRe",
@@ -1845,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "nullTokenLayout",
           "package": "HaRe",
@@ -1858,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "retrieveTokens",
           "package": "HaRe",
@@ -1867,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Layout",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Layout",
           "name": "retrieveTokens",
           "normalized": "LayoutTree-\u003e[PosToken]",
@@ -1882,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "LayoutTypes",
           "package": "HaRe",
@@ -1890,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "LayoutTypes",
           "package": "HaRe",
@@ -1903,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "Label",
           "package": "HaRe",
@@ -1911,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "Label",
           "package": "HaRe",
@@ -1924,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "LayoutTree",
           "package": "HaRe",
@@ -1932,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "LayoutTree",
           "package": "HaRe",
@@ -1945,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "TokenLayout",
           "package": "HaRe",
@@ -1953,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "TokenLayout",
           "package": "HaRe",
@@ -1966,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "Label",
           "package": "HaRe",
@@ -1975,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "Label",
           "normalized": "Label SrcSpan Layout[PosToken]",
@@ -1990,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "TL",
           "package": "HaRe",
@@ -1999,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutTypes",
           "name": "TL",
           "package": "HaRe",
@@ -2012,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutUtils",
           "name": "LayoutUtils",
           "package": "HaRe",
@@ -2020,6 +2181,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutUtils",
           "name": "LayoutUtils",
           "package": "HaRe",
@@ -2033,6 +2195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LayoutUtils",
           "name": "showLTOne",
           "package": "HaRe",
@@ -2042,6 +2205,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LayoutUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LayoutUtils",
           "name": "showLTOne",
           "normalized": "LayoutTree-\u003eString",
@@ -2057,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "LocUtils",
           "package": "HaRe",
@@ -2065,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "LocUtils",
           "package": "HaRe",
@@ -2078,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "SimpPos",
           "package": "HaRe",
@@ -2086,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "SimpPos",
           "package": "HaRe",
@@ -2099,6 +2267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "addLocInfo",
           "package": "HaRe",
@@ -2108,6 +2277,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "addLocInfo",
           "normalized": "(LHsBind Name,[PosToken])-\u003eRefactGhc(LHsBind Name,[PosToken])",
@@ -2124,6 +2294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a constant line and column offset to a span of tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "addOffsetToToks",
           "package": "HaRe",
@@ -2134,6 +2305,7 @@
         "index": {
           "description": "Add constant line and column offset to span of tokens",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "addOffsetToToks",
           "normalized": "SimpPos-\u003e[PosToken]-\u003e[PosToken]",
@@ -2150,6 +2322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string into a set of Haskell tokens. It has default\n position and offset, since it will be stitched into place in TokenUtils\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "basicTokenise",
           "package": "HaRe",
@@ -2160,6 +2333,7 @@
         "index": {
           "description": "Convert string into set of Haskell tokens It has default position and offset since it will be stitched into place in TokenUtils",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "basicTokenise",
           "normalized": "String-\u003eIO[PosToken]",
@@ -2176,6 +2350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the following extra empty lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "compressEndNewLns",
           "package": "HaRe",
@@ -2186,6 +2361,7 @@
         "index": {
           "description": "Remove the following extra empty lines",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "compressEndNewLns",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -2202,6 +2378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the extra preceding  empty lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "compressPreNewLns",
           "package": "HaRe",
@@ -2212,6 +2389,7 @@
         "index": {
           "description": "Remove the extra preceding empty lines",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "compressPreNewLns",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -2228,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a sequence of tokens specified by the start position and\n end position from the token stream, then adjust the remaining token\n stream to preserve layout\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "deleteToks",
           "package": "HaRe",
@@ -2238,6 +2417,7 @@
         "index": {
           "description": "Delete sequence of tokens specified by the start position and end position from the token stream then adjust the remaining token stream to preserve layout",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "deleteToks",
           "normalized": "[PosToken]-\u003eSimpPos-\u003eSimpPos-\u003e[PosToken]",
@@ -2254,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a set of comment tokens into the ones that belong with the startLine\n and those that belong with the endLine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "divideComments",
           "package": "HaRe",
@@ -2264,6 +2445,7 @@
         "index": {
           "description": "Split set of comment tokens into the ones that belong with the startLine and those that belong with the endLine",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "divideComments",
           "normalized": "Int-\u003eInt-\u003e[PosToken]-\u003e([PosToken],[PosToken])",
@@ -2280,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eremove at most n white space tokens from the beginning of ts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "doRmWhites",
           "package": "HaRe",
@@ -2290,6 +2473,7 @@
         "index": {
           "description": "remove at most white space tokens from the beginning of ts",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "doRmWhites",
           "normalized": "Int-\u003e[PosToken]-\u003e[PosToken]",
@@ -2306,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet around lack of instance Eq when simply testing for empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "emptyList",
           "package": "HaRe",
@@ -2316,6 +2501,7 @@
         "index": {
           "description": "Get around lack of instance Eq when simply testing for empty list",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "emptyList",
           "normalized": "[a]-\u003eBool",
@@ -2332,6 +2518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the token ends with '\\n'\n ++AZ++: is this meaningful?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "endsWithNewLn",
           "package": "HaRe",
@@ -2342,6 +2529,7 @@
         "index": {
           "description": "Returns True if the token ends with AZ is this meaningful",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "endsWithNewLn",
           "normalized": "PosToken-\u003eBool",
@@ -2358,6 +2546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the given position backwards to the front of the file while\n the supplied condition holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "extendBackwards",
           "package": "HaRe",
@@ -2368,6 +2557,7 @@
         "index": {
           "description": "Extend the given position backwards to the front of the file while the supplied condition holds",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "extendBackwards",
           "normalized": "[PosToken]-\u003e(SimpPos,SimpPos)-\u003e(PosToken-\u003eBool)-\u003e(SimpPos,SimpPos)",
@@ -2384,6 +2574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the given position forwards to the end of the file while\n the supplied condition holds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "extendForwards",
           "package": "HaRe",
@@ -2394,6 +2585,7 @@
         "index": {
           "description": "Extend the given position forwards to the end of the file while the supplied condition holds",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "extendForwards",
           "normalized": "[PosToken]-\u003e(SimpPos,SimpPos)-\u003e(PosToken-\u003eBool)-\u003e(SimpPos,SimpPos)",
@@ -2435,6 +2627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all the source locations in a given syntax fragment\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getAllSrcLocs",
           "package": "HaRe",
@@ -2445,6 +2638,7 @@
         "index": {
           "description": "Get all the source locations in given syntax fragment",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getAllSrcLocs",
           "normalized": "a-\u003e[(SimpPos,SimpPos)]",
@@ -2460,6 +2654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getBiggestStartEndLoc",
           "package": "HaRe",
@@ -2469,6 +2664,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getBiggestStartEndLoc",
           "normalized": "a-\u003e(SimpPos,SimpPos)",
@@ -2484,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getGhcLoc",
           "package": "HaRe",
@@ -2493,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getGhcLoc",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -2508,6 +2706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getGhcLocEnd",
           "package": "HaRe",
@@ -2517,6 +2716,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getGhcLocEnd",
           "normalized": "SrcSpan-\u003e(Int,Int)",
@@ -2533,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the indent of the line before, taking into account in-line\n 'where', 'let', 'in' and 'do' tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getIndentOffset",
           "package": "HaRe",
@@ -2543,6 +2744,7 @@
         "index": {
           "description": "Get the indent of the line before taking into account in-line where let in and do tokens",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getIndentOffset",
           "normalized": "[PosToken]-\u003eSimpPos-\u003eInt",
@@ -2559,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the start of the line before the pos,\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLineOffset",
           "package": "HaRe",
@@ -2569,6 +2772,7 @@
         "index": {
           "description": "Get the start of the line before the pos",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLineOffset",
           "normalized": "[PosToken]-\u003eSimpPos-\u003eInt",
@@ -2584,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLocatedEnd",
           "package": "HaRe",
@@ -2593,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLocatedEnd",
           "normalized": "GenLocated SrcSpan a-\u003e(Int,Int)",
@@ -2608,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLocatedStart",
           "package": "HaRe",
@@ -2617,6 +2824,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getLocatedStart",
           "normalized": "GenLocated SrcSpan a-\u003e(Int,Int)",
@@ -2633,6 +2841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first SrcSpan found, in top down traversal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getSrcSpan",
           "package": "HaRe",
@@ -2643,6 +2852,7 @@
         "index": {
           "description": "Get the first SrcSpan found in top down traversal",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getSrcSpan",
           "normalized": "a-\u003eMaybe SrcSpan",
@@ -2658,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getStartEndLoc",
           "package": "HaRe",
@@ -2667,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getStartEndLoc",
           "normalized": "a-\u003e(SimpPos,SimpPos)",
@@ -2683,6 +2895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget a token stream specified by the start and end position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getToks",
           "package": "HaRe",
@@ -2693,6 +2906,7 @@
         "index": {
           "description": "get token stream specified by the start and end position",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "getToks",
           "normalized": "(SimpPos,SimpPos)-\u003e[PosToken]-\u003e[PosToken]",
@@ -2708,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "groupTokensByLine",
           "package": "HaRe",
@@ -2717,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "groupTokensByLine",
           "normalized": "[PosToken]-\u003e[[PosToken]]",
@@ -2732,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "hasNewLn",
           "package": "HaRe",
@@ -2741,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "hasNewLn",
           "normalized": "PosToken-\u003eBool",
@@ -2756,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "increaseSrcSpan",
           "package": "HaRe",
@@ -2765,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "increaseSrcSpan",
           "normalized": "SimpPos-\u003ePosToken-\u003ePosToken",
@@ -2780,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isBar",
           "package": "HaRe",
@@ -2789,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isBar",
           "normalized": "PosToken-\u003eBool",
@@ -2804,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isCloseSquareBracket",
           "package": "HaRe",
@@ -2813,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isCloseSquareBracket",
           "normalized": "PosToken-\u003eBool",
@@ -2828,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isComma",
           "package": "HaRe",
@@ -2837,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isComma",
           "normalized": "PosToken-\u003eBool",
@@ -2852,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isComment",
           "package": "HaRe",
@@ -2861,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isComment",
           "normalized": "PosToken-\u003eBool",
@@ -2876,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isDo",
           "package": "HaRe",
@@ -2885,6 +3114,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isDo",
           "normalized": "PosToken-\u003eBool",
@@ -2900,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isDoubleColon",
           "package": "HaRe",
@@ -2909,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isDoubleColon",
           "normalized": "PosToken-\u003eBool",
@@ -2924,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isElse",
           "package": "HaRe",
@@ -2933,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isElse",
           "normalized": "PosToken-\u003eBool",
@@ -2948,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isEmpty",
           "package": "HaRe",
@@ -2957,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isEmpty",
           "normalized": "PosToken-\u003eBool",
@@ -2972,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIgnored",
           "package": "HaRe",
@@ -2981,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIgnored",
           "normalized": "PosToken-\u003eBool",
@@ -2997,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTokens that are ignored when determining the first non-comment\n token in a span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIgnoredNonComment",
           "package": "HaRe",
@@ -3007,6 +3246,7 @@
         "index": {
           "description": "Tokens that are ignored when determining the first non-comment token in span",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIgnoredNonComment",
           "normalized": "PosToken-\u003eBool",
@@ -3022,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIn",
           "package": "HaRe",
@@ -3031,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isIn",
           "normalized": "PosToken-\u003eBool",
@@ -3046,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isLet",
           "package": "HaRe",
@@ -3055,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isLet",
           "normalized": "PosToken-\u003eBool",
@@ -3071,6 +3315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a token have the file mark in it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isMarked",
           "package": "HaRe",
@@ -3081,6 +3326,7 @@
         "index": {
           "description": "Does token have the file mark in it",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isMarked",
           "normalized": "PosToken-\u003eBool",
@@ -3096,6 +3342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isMultiLineComment",
           "package": "HaRe",
@@ -3105,6 +3352,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isMultiLineComment",
           "normalized": "PosToken-\u003eBool",
@@ -3120,6 +3368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isOf",
           "package": "HaRe",
@@ -3129,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isOf",
           "normalized": "PosToken-\u003eBool",
@@ -3144,6 +3394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isOpenSquareBracket",
           "package": "HaRe",
@@ -3153,6 +3404,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isOpenSquareBracket",
           "normalized": "PosToken-\u003eBool",
@@ -3168,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isThen",
           "package": "HaRe",
@@ -3177,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isThen",
           "normalized": "PosToken-\u003eBool",
@@ -3192,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhere",
           "package": "HaRe",
@@ -3201,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhere",
           "normalized": "PosToken-\u003eBool",
@@ -3216,6 +3472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhereOrLet",
           "package": "HaRe",
@@ -3225,6 +3482,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhereOrLet",
           "normalized": "PosToken-\u003eBool",
@@ -3240,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhite",
           "package": "HaRe",
@@ -3249,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhite",
           "normalized": "PosToken-\u003eBool",
@@ -3264,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhiteSpace",
           "package": "HaRe",
@@ -3273,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhiteSpace",
           "normalized": "PosToken-\u003eBool",
@@ -3288,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhiteSpaceOrIgnored",
           "package": "HaRe",
@@ -3297,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "isWhiteSpaceOrIgnored",
           "normalized": "PosToken-\u003eBool",
@@ -3313,6 +3577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a token stream covering multi-lines, calculate the length of the last line\n AZ: should be the last token start col, plus length of token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "lengthOfLastLine",
           "package": "HaRe",
@@ -3323,6 +3588,7 @@
         "index": {
           "description": "Given token stream covering multi-lines calculate the length of the last line AZ should be the last token start col plus length of token",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "lengthOfLastLine",
           "normalized": "[PosToken]-\u003eInt",
@@ -3339,6 +3605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMark a token so that it can be use to trigger layout checking\n later when the toks are retrieved\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "markToken",
           "package": "HaRe",
@@ -3349,6 +3616,7 @@
         "index": {
           "description": "Mark token so that it can be use to trigger layout checking later when the toks are retrieved",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "markToken",
           "normalized": "PosToken-\u003ePosToken",
@@ -3365,6 +3633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransfer the location information from the first param to the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "matchTokenPos",
           "package": "HaRe",
@@ -3375,6 +3644,7 @@
         "index": {
           "description": "Transfer the location information from the first param to the second",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "matchTokenPos",
           "normalized": "PosToken-\u003ePosToken-\u003ePosToken",
@@ -3391,6 +3661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a new token using the given arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "mkToken",
           "package": "HaRe",
@@ -3401,6 +3672,7 @@
         "index": {
           "description": "Compose new token using the given arguments",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "mkToken",
           "normalized": "Token-\u003eSimpPos-\u003eString-\u003ePosToken",
@@ -3416,6 +3688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "mkZeroToken",
           "package": "HaRe",
@@ -3425,6 +3698,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "mkZeroToken",
           "package": "HaRe",
@@ -3438,6 +3712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "modified",
           "package": "HaRe",
@@ -3447,6 +3722,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "modified",
           "package": "HaRe",
@@ -3460,6 +3736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esort out line numbering so that they are always monotonically\n increasing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "monotonicLineToks",
           "package": "HaRe",
@@ -3470,6 +3747,7 @@
         "index": {
           "description": "sort out line numbering so that they are always monotonically increasing",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "monotonicLineToks",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -3485,6 +3763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "newLinesToken",
           "package": "HaRe",
@@ -3494,6 +3773,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "newLinesToken",
           "normalized": "Int-\u003ePosToken-\u003ePosToken",
@@ -3509,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "newLnToken",
           "package": "HaRe",
@@ -3518,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "newLnToken",
           "normalized": "PosToken-\u003ePosToken",
@@ -3533,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "nonEmptyList",
           "package": "HaRe",
@@ -3542,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "nonEmptyList",
           "normalized": "[a]-\u003eBool",
@@ -3557,6 +3841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "notWhite",
           "package": "HaRe",
@@ -3566,6 +3851,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "notWhite",
           "normalized": "PosToken-\u003eBool",
@@ -3581,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "notWhiteSpace",
           "package": "HaRe",
@@ -3590,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "notWhiteSpace",
           "normalized": "PosToken-\u003eBool",
@@ -3605,6 +3893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "nullSrcSpan",
           "package": "HaRe",
@@ -3614,6 +3903,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "nullSrcSpan",
           "package": "HaRe",
@@ -3627,6 +3917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "prettyprintPatList",
           "package": "HaRe",
@@ -3636,6 +3927,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "prettyprintPatList",
           "normalized": "(a-\u003eString)-\u003eBool-\u003e[a]-\u003eString",
@@ -3652,6 +3944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust token stream to cater for changes in token length due to\n token renaming\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "reSequenceToks",
           "package": "HaRe",
@@ -3662,6 +3955,7 @@
         "index": {
           "description": "Adjust token stream to cater for changes in token length due to token renaming",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "reSequenceToks",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -3677,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "realSrcLocEndTok",
           "package": "HaRe",
@@ -3686,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "realSrcLocEndTok",
           "normalized": "PosToken-\u003eRealSrcLoc",
@@ -3701,6 +3997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "realSrcLocFromTok",
           "package": "HaRe",
@@ -3710,6 +4007,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "realSrcLocFromTok",
           "normalized": "PosToken-\u003eRealSrcLoc",
@@ -3726,6 +4024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a single token in the token stream by a new token, without\n adjusting the layout.\n Note1: does not re-align, else other later replacements may fail.\n Note2: must keep original end col, to know what the inter-token gap\n        was when re-aligning\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "replaceTokNoReAlign",
           "package": "HaRe",
@@ -3736,6 +4035,7 @@
         "index": {
           "description": "Replace single token in the token stream by new token without adjusting the layout Note1 does not re-align else other later replacements may fail Note2 must keep original end col to know what the inter-token gap was when re-aligning",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "replaceTokNoReAlign",
           "normalized": "[PosToken]-\u003eSimpPos-\u003ePosToken-\u003e[PosToken]",
@@ -3751,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "showToks",
           "package": "HaRe",
@@ -3760,6 +4061,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "showToks",
           "normalized": "[PosToken]-\u003eString",
@@ -3775,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "simpPos0",
           "package": "HaRe",
@@ -3784,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "simpPos0",
           "normalized": "(Int,Int)",
@@ -3799,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "splitOnNewLn",
           "package": "HaRe",
@@ -3808,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "splitOnNewLn",
           "normalized": "[PosToken]-\u003e([PosToken],[PosToken])",
@@ -3824,6 +4130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit the token stream into three parts: the tokens before the\n startPos, the tokens between startPos and endPos, and the tokens\n after endPos.\n Note: The startPos and endPos refer to the startPos of a token only.\n       So a single token will have the same startPos and endPos\n    NO^^^^\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "splitToks",
           "package": "HaRe",
@@ -3834,6 +4141,7 @@
         "index": {
           "description": "Split the token stream into three parts the tokens before the startPos the tokens between startPos and endPos and the tokens after endPos Note The startPos and endPos refer to the startPos of token only So single token will have the same startPos and endPos NO",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "splitToks",
           "normalized": "(SimpPos,SimpPos)-\u003e[PosToken]-\u003e([PosToken],[PosToken],[PosToken])",
@@ -3850,6 +4158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget all the source locations (use locations) in an AST phrase t\n according the the occurrence order of identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "srcLocs",
           "package": "HaRe",
@@ -3860,6 +4169,7 @@
         "index": {
           "description": "get all the source locations use locations in an AST phrase according the the occurrence order of identifiers",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "srcLocs",
           "normalized": "a-\u003e[SimpPos]",
@@ -3875,6 +4185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocGhc",
           "package": "HaRe",
@@ -3884,6 +4195,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocGhc",
           "normalized": "Located a-\u003e(SimpPos,SimpPos)",
@@ -3900,6 +4212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the start&end location of t in the token stream, then extend\n the start and end location to cover the preceding and following\n comments.\n\u003c/p\u003e\u003cp\u003eIn this routine, 'then','else','do' and 'in' are treated as comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncComments",
           "package": "HaRe",
@@ -3910,6 +4223,7 @@
         "index": {
           "description": "Get the start end location of in the token stream then extend the start and end location to cover the preceding and following comments In this routine then else do and in are treated as comments",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncComments",
           "normalized": "[PosToken]-\u003ea-\u003e(SimpPos,SimpPos)",
@@ -3925,6 +4239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncComments'",
           "package": "HaRe",
@@ -3934,6 +4249,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncComments'",
           "normalized": "[PosToken]-\u003e(SimpPos,SimpPos)-\u003e(SimpPos,SimpPos)",
@@ -3950,6 +4266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the start&end location of syntax phrase t, then extend the end\n location to cover the comment/white spaces or new line which starts\n in the same line as the end location\n TODO: deprecate this in favour of startEndLocIncComments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncFowComment",
           "package": "HaRe",
@@ -3960,6 +4277,7 @@
         "index": {
           "description": "Get the start end location of syntax phrase then extend the end location to cover the comment white spaces or new line which starts in the same line as the end location TODO deprecate this in favour of startEndLocIncComments",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startEndLocIncFowComment",
           "normalized": "[PosToken]-\u003ea-\u003e(SimpPos,SimpPos)",
@@ -3976,6 +4294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if the token starts with `\\n`.\n ++AZ++: is this meaningful?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startsWithNewLn",
           "package": "HaRe",
@@ -3986,6 +4305,7 @@
         "index": {
           "description": "Returns True if the token starts with AZ is this meaningful",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "startsWithNewLn",
           "normalized": "PosToken-\u003eBool",
@@ -4001,6 +4321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenCol",
           "package": "HaRe",
@@ -4010,6 +4331,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenCol",
           "normalized": "PosToken-\u003eInt",
@@ -4025,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenColEnd",
           "package": "HaRe",
@@ -4034,6 +4357,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenColEnd",
           "normalized": "PosToken-\u003eInt",
@@ -4049,6 +4373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenCon",
           "package": "HaRe",
@@ -4058,6 +4383,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenCon",
           "normalized": "PosToken-\u003eString",
@@ -4073,6 +4399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenLen",
           "package": "HaRe",
@@ -4082,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenLen",
           "normalized": "PosToken-\u003eInt",
@@ -4097,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenPos",
           "package": "HaRe",
@@ -4106,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenPos",
           "normalized": "(GenLocated SrcSpan a,a)-\u003eSimpPos",
@@ -4121,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenPosEnd",
           "package": "HaRe",
@@ -4130,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenPosEnd",
           "normalized": "(GenLocated SrcSpan a,a)-\u003eSimpPos",
@@ -4145,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenRow",
           "package": "HaRe",
@@ -4154,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenRow",
           "normalized": "PosToken-\u003eInt",
@@ -4169,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenSrcSpan",
           "package": "HaRe",
@@ -4178,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenSrcSpan",
           "normalized": "(Located a,a)-\u003eSrcSpan",
@@ -4194,6 +4530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string into a set of Haskell tokens, following the\n given position, with each line indented by a given column offset if\n required\n TODO: replace 'colOffset withFirstLineIndent' with a Maybe Int ++AZ++\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenise",
           "package": "HaRe",
@@ -4204,6 +4541,7 @@
         "index": {
           "description": "Convert string into set of Haskell tokens following the given position with each line indented by given column offset if required TODO replace colOffset withFirstLineIndent with Maybe Int AZ",
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "tokenise",
           "normalized": "RealSrcLoc-\u003eInt-\u003eBool-\u003eString-\u003eIO[PosToken]",
@@ -4218,6 +4556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "toksOnSameLine",
           "package": "HaRe",
@@ -4227,6 +4566,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "toksOnSameLine",
           "normalized": "PosToken-\u003ePosToken-\u003eBool",
@@ -4242,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "unmodified",
           "package": "HaRe",
@@ -4251,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "unmodified",
           "package": "HaRe",
@@ -4263,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "whiteSpaceTokens",
           "package": "HaRe",
@@ -4272,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils LocUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.LocUtils",
           "name": "whiteSpaceTokens",
           "normalized": "(Int,Int)-\u003eInt-\u003e[PosToken]",
@@ -4287,6 +4631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Monad",
           "package": "HaRe",
@@ -4295,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Monad",
           "package": "HaRe",
@@ -4309,6 +4655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of parsing a Haskell source file. It is simply the\n TypeCheckedModule produced by GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "ParseResult",
           "package": "HaRe",
@@ -4318,6 +4665,7 @@
         "index": {
           "description": "Result of parsing Haskell source file It is simply the TypeCheckedModule produced by GHC",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "ParseResult",
           "package": "HaRe",
@@ -4331,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactFlags",
           "package": "HaRe",
@@ -4339,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactFlags",
           "package": "HaRe",
@@ -4352,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactGhc",
           "package": "HaRe",
@@ -4360,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactGhc",
           "package": "HaRe",
@@ -4373,6 +4725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactModule",
           "package": "HaRe",
@@ -4381,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactModule",
           "package": "HaRe",
@@ -4394,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactSettings",
           "package": "HaRe",
@@ -4402,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactSettings",
           "package": "HaRe",
@@ -4415,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactStashId",
           "package": "HaRe",
@@ -4423,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactStashId",
           "package": "HaRe",
@@ -4437,6 +4795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState for refactoring a single file. Holds/hides the token\n stream, which gets updated transparently at key points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactState",
           "package": "HaRe",
@@ -4446,6 +4805,7 @@
         "index": {
           "description": "State for refactoring single file Holds hides the token stream which gets updated transparently at key points",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefactState",
           "package": "HaRe",
@@ -4460,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide some temporary storage while the refactoring is taking\n place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StateStorage",
           "package": "HaRe",
@@ -4469,6 +4830,7 @@
         "index": {
           "description": "Provide some temporary storage while the refactoring is taking place",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StateStorage",
           "package": "HaRe",
@@ -4482,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "TargetModule",
           "package": "HaRe",
@@ -4490,6 +4853,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "TargetModule",
           "package": "HaRe",
@@ -4503,6 +4867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "VerboseLevel",
           "package": "HaRe",
@@ -4511,6 +4876,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "VerboseLevel",
           "package": "HaRe",
@@ -4524,6 +4890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Debug",
           "package": "HaRe",
@@ -4533,6 +4900,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Debug",
           "package": "HaRe",
@@ -4546,6 +4914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Normal",
           "package": "HaRe",
@@ -4555,6 +4924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Normal",
           "package": "HaRe",
@@ -4568,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Off",
           "package": "HaRe",
@@ -4577,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Off",
           "package": "HaRe",
@@ -4590,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefFlags",
           "package": "HaRe",
@@ -4599,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefFlags",
           "package": "HaRe",
@@ -4612,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefMod",
           "package": "HaRe",
@@ -4621,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefMod",
           "package": "HaRe",
@@ -4634,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefSet",
           "package": "HaRe",
@@ -4643,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefSet",
           "package": "HaRe",
@@ -4656,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefSt",
           "package": "HaRe",
@@ -4665,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "RefSt",
           "package": "HaRe",
@@ -4678,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Stash",
           "package": "HaRe",
@@ -4687,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "Stash",
           "package": "HaRe",
@@ -4700,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageBind",
           "package": "HaRe",
@@ -4709,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageBind",
           "package": "HaRe",
@@ -4722,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageNone",
           "package": "HaRe",
@@ -4731,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageNone",
           "package": "HaRe",
@@ -4744,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageSig",
           "package": "HaRe",
@@ -4753,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "StorageSig",
           "package": "HaRe",
@@ -4766,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "canonicalizeGraph",
           "package": "HaRe",
@@ -4775,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "canonicalizeGraph",
           "normalized": "[ModSummary]-\u003eIO[(Maybe FilePath,ModSummary)]",
@@ -4790,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "defaultSettings",
           "package": "HaRe",
@@ -4799,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "defaultSettings",
           "package": "HaRe",
@@ -4813,6 +5205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake sure the given file is the currently loaded target, and load\n it if not. Assumes that all the module graphs had been generated\n before, so these are not updated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "ensureTargetLoaded",
           "package": "HaRe",
@@ -4823,6 +5216,7 @@
         "index": {
           "description": "Make sure the given file is the currently loaded target and load it if not Assumes that all the module graphs had been generated before so these are not updated",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "ensureTargetLoaded",
           "normalized": "TargetModule-\u003eRefactGhc ModSummary",
@@ -4838,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "getRefacSettings",
           "package": "HaRe",
@@ -4847,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "getRefacSettings",
           "package": "HaRe",
@@ -4861,6 +5257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialise the GHC session, when starting a refactoring.\n   This should never be called directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "initGhcSession",
           "package": "HaRe",
@@ -4871,6 +5268,7 @@
         "index": {
           "description": "Initialise the GHC session when starting refactoring This should never be called directly",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "initGhcSession",
           "normalized": "Cradle-\u003e[FilePath]-\u003eRefactGhc()",
@@ -4887,6 +5285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a module graph into the GHC session, starting from main\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "loadModuleGraphGhc",
           "package": "HaRe",
@@ -4897,6 +5296,7 @@
         "index": {
           "description": "Load module graph into the GHC session starting from main",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "loadModuleGraphGhc",
           "normalized": "Maybe[FilePath]-\u003eRefactGhc()",
@@ -4912,6 +5312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "logSettings",
           "package": "HaRe",
@@ -4921,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "logSettings",
           "package": "HaRe",
@@ -4934,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "logm",
           "package": "HaRe",
@@ -4943,6 +5346,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "logm",
           "normalized": "String-\u003eRefactGhc()",
@@ -4957,6 +5361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsCurrentTarget",
           "package": "HaRe",
@@ -4966,6 +5371,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsCurrentTarget",
           "normalized": "Maybe[FilePath]",
@@ -4982,6 +5388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent traversal has already made a change\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsDone",
           "package": "HaRe",
@@ -4992,6 +5399,7 @@
         "index": {
           "description": "Current traversal has already made change",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsDone",
           "package": "HaRe",
@@ -5006,6 +5414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags for controlling generic traversals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsFlags",
           "package": "HaRe",
@@ -5016,6 +5425,7 @@
         "index": {
           "description": "Flags for controlling generic traversals",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsFlags",
           "package": "HaRe",
@@ -5029,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsGraph",
           "package": "HaRe",
@@ -5038,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsGraph",
           "normalized": "[TargetGraph]",
@@ -5054,6 +5466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current module being refactored\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsModule",
           "package": "HaRe",
@@ -5064,6 +5477,7 @@
         "index": {
           "description": "The current module being refactored",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsModule",
           "package": "HaRe",
@@ -5077,6 +5491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsModuleGraph",
           "package": "HaRe",
@@ -5086,6 +5501,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsModuleGraph",
           "normalized": "[([FilePath],ModuleGraph)]",
@@ -5102,6 +5518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal Token stream for the current module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsOrigTokenStream",
           "package": "HaRe",
@@ -5112,6 +5529,7 @@
         "index": {
           "description": "Original Token stream for the current module",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsOrigTokenStream",
           "normalized": "[PosToken]",
@@ -5128,6 +5546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSession level settings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsSettings",
           "package": "HaRe",
@@ -5138,6 +5557,7 @@
         "index": {
           "description": "Session level settings",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsSettings",
           "package": "HaRe",
@@ -5152,6 +5572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporary storage of values\n while refactoring takes place\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsStorage",
           "package": "HaRe",
@@ -5162,6 +5583,7 @@
         "index": {
           "description": "Temporary storage of values while refactoring takes place",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsStorage",
           "package": "HaRe",
@@ -5176,6 +5598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecurrent module has updated the token stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsStreamModified",
           "package": "HaRe",
@@ -5186,6 +5609,7 @@
         "index": {
           "description": "current module has updated the token stream",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsStreamModified",
           "package": "HaRe",
@@ -5200,6 +5624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken stream for the current module, maybe modified, in SrcSpan tree form\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsTokenCache",
           "package": "HaRe",
@@ -5210,6 +5635,7 @@
         "index": {
           "description": "Token stream for the current module maybe modified in SrcSpan tree form",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsTokenCache",
           "package": "HaRe",
@@ -5223,6 +5649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsTypecheckedMod",
           "package": "HaRe",
@@ -5232,6 +5659,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsTypecheckedMod",
           "package": "HaRe",
@@ -5246,6 +5674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCurrent Unique creator value, incremented every time it is used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsUniqState",
           "package": "HaRe",
@@ -5256,6 +5685,7 @@
         "index": {
           "description": "Current Unique creator value incremented every time it is used",
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsUniqState",
           "package": "HaRe",
@@ -5269,6 +5699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetCheckTokenUtilsInvariant",
           "package": "HaRe",
@@ -5278,6 +5709,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetCheckTokenUtilsInvariant",
           "package": "HaRe",
@@ -5291,6 +5723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetEnabledTargets",
           "package": "HaRe",
@@ -5300,6 +5733,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetEnabledTargets",
           "normalized": "(Bool,Bool,Bool,Bool)",
@@ -5315,6 +5749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetExpandSplice",
           "package": "HaRe",
@@ -5324,6 +5759,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetExpandSplice",
           "package": "HaRe",
@@ -5337,6 +5773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetGhcOpts",
           "package": "HaRe",
@@ -5346,6 +5783,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetGhcOpts",
           "normalized": "[String]",
@@ -5361,6 +5799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetImportPaths",
           "package": "HaRe",
@@ -5370,6 +5809,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetImportPaths",
           "normalized": "[FilePath]",
@@ -5385,6 +5825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetLineSeparator",
           "package": "HaRe",
@@ -5394,6 +5835,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetLineSeparator",
           "package": "HaRe",
@@ -5407,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetMainFile",
           "package": "HaRe",
@@ -5416,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetMainFile",
           "normalized": "Maybe[FilePath]",
@@ -5431,6 +5875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetVerboseLevel",
           "package": "HaRe",
@@ -5440,6 +5885,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "rsetVerboseLevel",
           "package": "HaRe",
@@ -5453,6 +5899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "runRefactGhc",
           "package": "HaRe",
@@ -5462,6 +5909,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils Monad",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.Monad",
           "name": "runRefactGhc",
           "normalized": "RefactGhc a-\u003eRefactState-\u003eIO(a,RefactState)",
@@ -5477,6 +5925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "MonadFunctions",
           "package": "HaRe",
@@ -5485,6 +5934,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "MonadFunctions",
           "package": "HaRe",
@@ -5498,6 +5948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "clearParsedModule",
           "package": "HaRe",
@@ -5507,6 +5958,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "clearParsedModule",
           "normalized": "RefactGhc()",
@@ -5522,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "clearRefactDone",
           "package": "HaRe",
@@ -5531,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "clearRefactDone",
           "normalized": "RefactGhc()",
@@ -5547,6 +6001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint the Token Tree for debug purposes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "drawTokenTree",
           "package": "HaRe",
@@ -5557,6 +6012,7 @@
         "index": {
           "description": "Print the Token Tree for debug purposes",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "drawTokenTree",
           "normalized": "String-\u003eRefactGhc()",
@@ -5573,6 +6029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint detailed Token Tree for debug purposes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "drawTokenTreeDetailed",
           "package": "HaRe",
@@ -5583,6 +6040,7 @@
         "index": {
           "description": "Print detailed Token Tree for debug purposes",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "drawTokenTreeDetailed",
           "normalized": "String-\u003eRefactGhc()",
@@ -5599,6 +6057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch the final tokens in Ppr format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchLinesFinal",
           "package": "HaRe",
@@ -5609,6 +6068,7 @@
         "index": {
           "description": "fetch the final tokens in Ppr format",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchLinesFinal",
           "normalized": "RefactGhc[Line]",
@@ -5625,6 +6085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch the pristine token stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchOrigToks",
           "package": "HaRe",
@@ -5635,6 +6096,7 @@
         "index": {
           "description": "fetch the pristine token stream",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchOrigToks",
           "normalized": "RefactGhc[PosToken]",
@@ -5651,6 +6113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch the possibly modified tokens. Deprecated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchToks",
           "package": "HaRe",
@@ -5661,6 +6124,7 @@
         "index": {
           "description": "fetch the possibly modified tokens Deprecated",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchToks",
           "normalized": "RefactGhc[PosToken]",
@@ -5677,6 +6141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efetch the final tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchToksFinal",
           "package": "HaRe",
@@ -5687,6 +6152,7 @@
         "index": {
           "description": "fetch the final tokens",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "fetchToksFinal",
           "normalized": "RefactGhc[PosToken]",
@@ -5702,6 +6168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactDone",
           "package": "HaRe",
@@ -5711,6 +6178,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactDone",
           "package": "HaRe",
@@ -5724,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactFileName",
           "package": "HaRe",
@@ -5733,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactFileName",
           "package": "HaRe",
@@ -5746,6 +6216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactInscopes",
           "package": "HaRe",
@@ -5755,6 +6226,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactInscopes",
           "package": "HaRe",
@@ -5768,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactParsed",
           "package": "HaRe",
@@ -5777,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactParsed",
           "package": "HaRe",
@@ -5790,6 +6264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactRenamed",
           "package": "HaRe",
@@ -5799,6 +6274,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactRenamed",
           "package": "HaRe",
@@ -5812,6 +6288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactStreamModified",
           "package": "HaRe",
@@ -5821,6 +6298,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getRefactStreamModified",
           "package": "HaRe",
@@ -5834,6 +6312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getStateStorage",
           "package": "HaRe",
@@ -5843,6 +6322,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getStateStorage",
           "package": "HaRe",
@@ -5857,6 +6337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the Token Tree for debug purposes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getTokenTree",
           "package": "HaRe",
@@ -5867,6 +6348,7 @@
         "index": {
           "description": "Get the Token Tree for debug purposes",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getTokenTree",
           "package": "HaRe",
@@ -5881,6 +6363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current tokens preceding a given GHC.SrcSpan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksBeforeSpan",
           "package": "HaRe",
@@ -5891,6 +6374,7 @@
         "index": {
           "description": "Get the current tokens preceding given GHC.SrcSpan",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksBeforeSpan",
           "normalized": "SrcSpan-\u003eRefactGhc ReversedToks",
@@ -5907,6 +6391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current tokens for a given GHC.SrcSpan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpan",
           "package": "HaRe",
@@ -5917,6 +6402,7 @@
         "index": {
           "description": "Get the current tokens for given GHC.SrcSpan",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpan",
           "normalized": "SrcSpan-\u003eRefactGhc[PosToken]",
@@ -5933,6 +6419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current tokens for a given GHC.SrcSpan, without checking\n the invariant.\n TODO: this should not be necessary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpanNoInv",
           "package": "HaRe",
@@ -5943,6 +6430,7 @@
         "index": {
           "description": "Get the current tokens for given GHC.SrcSpan without checking the invariant TODO this should not be necessary",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpanNoInv",
           "normalized": "SrcSpan-\u003eRefactGhc[PosToken]",
@@ -5959,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current tokens for a given GHC.SrcSpan, leaving out any\n leading 'then', 'else', 'of', 'do' or 'in' tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpanWithIntros",
           "package": "HaRe",
@@ -5969,6 +6458,7 @@
         "index": {
           "description": "Get the current tokens for given GHC.SrcSpan leaving out any leading then else of do or in tokens",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getToksForSpanWithIntros",
           "normalized": "SrcSpan-\u003eRefactGhc[PosToken]",
@@ -5984,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getTypecheckedModule",
           "package": "HaRe",
@@ -5993,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "getTypecheckedModule",
           "package": "HaRe",
@@ -6007,6 +6499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndent an AST fragment and its associated tokens by a set amount\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "indentDeclAndToks",
           "package": "HaRe",
@@ -6017,6 +6510,7 @@
         "index": {
           "description": "Indent an AST fragment and its associated tokens by set amount",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "indentDeclAndToks",
           "normalized": "Located a-\u003eInt-\u003eRefactGhc(Located a)",
@@ -6032,6 +6526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "initRefactModule",
           "package": "HaRe",
@@ -6041,6 +6536,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "initRefactModule",
           "normalized": "TypecheckedModule-\u003e[PosToken]-\u003eMaybe RefactModule",
@@ -6057,6 +6553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd tokens after a designated GHC.SrcSpan, and update the AST\n fragment to reflect it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putDeclToksAfterSpan",
           "package": "HaRe",
@@ -6067,6 +6564,7 @@
         "index": {
           "description": "Add tokens after designated GHC.SrcSpan and update the AST fragment to reflect it",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putDeclToksAfterSpan",
           "normalized": "SrcSpan-\u003eLocated a-\u003ePositioning-\u003e[PosToken]-\u003eRefactGhc(Located a)",
@@ -6082,6 +6580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putParsedModule",
           "package": "HaRe",
@@ -6091,6 +6590,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putParsedModule",
           "normalized": "TypecheckedModule-\u003e[PosToken]-\u003eRefactGhc()",
@@ -6106,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putRefactRenamed",
           "package": "HaRe",
@@ -6115,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putRefactRenamed",
           "normalized": "RenamedSource-\u003eRefactGhc()",
@@ -6131,6 +6633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd tokens after a designated position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksAfterPos",
           "package": "HaRe",
@@ -6141,6 +6644,7 @@
         "index": {
           "description": "Add tokens after designated position",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksAfterPos",
           "normalized": "(SimpPos,SimpPos)-\u003ePositioning-\u003e[PosToken]-\u003eRefactGhc SrcSpan",
@@ -6157,6 +6661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd tokens after a designated GHC.SrcSpan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksAfterSpan",
           "package": "HaRe",
@@ -6167,6 +6672,7 @@
         "index": {
           "description": "Add tokens after designated GHC.SrcSpan",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksAfterSpan",
           "normalized": "SrcSpan-\u003ePositioning-\u003e[PosToken]-\u003eRefactGhc SrcSpan",
@@ -6183,6 +6689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the tokens for a given GHC.SrcSpan, return GHC.SrcSpan\n they are placed in\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksForPos",
           "package": "HaRe",
@@ -6193,6 +6700,7 @@
         "index": {
           "description": "Replace the tokens for given GHC.SrcSpan return GHC.SrcSpan they are placed in",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksForPos",
           "normalized": "(SimpPos,SimpPos)-\u003e[PosToken]-\u003eRefactGhc SrcSpan",
@@ -6209,6 +6717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the tokens for a given GHC.SrcSpan, return new GHC.SrcSpan\n delimiting new tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksForSpan",
           "package": "HaRe",
@@ -6219,6 +6728,7 @@
         "index": {
           "description": "Replace the tokens for given GHC.SrcSpan return new GHC.SrcSpan delimiting new tokens",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "putToksForSpan",
           "normalized": "SrcSpan-\u003e[PosToken]-\u003eRefactGhc SrcSpan",
@@ -6235,6 +6745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a GHC.SrcSpan and its associated tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "removeToksForPos",
           "package": "HaRe",
@@ -6245,6 +6756,7 @@
         "index": {
           "description": "Remove GHC.SrcSpan and its associated tokens",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "removeToksForPos",
           "normalized": "(SimpPos,SimpPos)-\u003eRefactGhc()",
@@ -6261,6 +6773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a GHC.SrcSpan and its associated tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "removeToksForSpan",
           "package": "HaRe",
@@ -6271,6 +6784,7 @@
         "index": {
           "description": "Remove GHC.SrcSpan and its associated tokens",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "removeToksForSpan",
           "normalized": "SrcSpan-\u003eRefactGhc()",
@@ -6287,6 +6801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a token occurring in a given GHC.SrcSpan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "replaceToken",
           "package": "HaRe",
@@ -6297,6 +6812,7 @@
         "index": {
           "description": "Replace token occurring in given GHC.SrcSpan",
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "replaceToken",
           "normalized": "SrcSpan-\u003ePosToken-\u003eRefactGhc()",
@@ -6312,6 +6828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "setRefactDone",
           "package": "HaRe",
@@ -6321,6 +6838,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "setRefactDone",
           "normalized": "RefactGhc()",
@@ -6336,6 +6854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "setStateStorage",
           "package": "HaRe",
@@ -6345,6 +6864,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "setStateStorage",
           "normalized": "StateStorage-\u003eRefactGhc()",
@@ -6360,6 +6880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "showLinesDebug",
           "package": "HaRe",
@@ -6369,6 +6890,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "showLinesDebug",
           "normalized": "String-\u003eRefactGhc()",
@@ -6384,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "syncDeclToLatestStash",
           "package": "HaRe",
@@ -6393,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "syncDeclToLatestStash",
           "normalized": "Located a-\u003eRefactGhc(Located a)",
@@ -6408,6 +6932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "updateToks",
           "package": "HaRe",
@@ -6416,6 +6941,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "updateToks",
           "normalized": "Located a-\u003eLocated a-\u003e(Located a-\u003e[Char])-\u003eBool-\u003eRefactGhc()",
@@ -6431,6 +6957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "updateToksWithPos",
           "package": "HaRe",
@@ -6439,6 +6966,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils MonadFunctions",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.MonadFunctions",
           "name": "updateToksWithPos",
           "normalized": "(SimpPos,SimpPos)-\u003ea-\u003e(a-\u003e[Char])-\u003eBool-\u003eRefactGhc()",
@@ -6455,6 +6983,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains utilities that operate on the GHC RenamedSource\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.RenamedSourceUtils",
           "name": "RenamedSourceUtils",
           "package": "HaRe",
@@ -6464,6 +6993,7 @@
         "index": {
           "description": "This module contains utilities that operate on the GHC RenamedSource",
           "hierarchy": "Language Haskell Refact Utils RenamedSourceUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.RenamedSourceUtils",
           "name": "RenamedSourceUtils",
           "package": "HaRe",
@@ -6477,6 +7007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.RenamedSourceUtils",
           "name": "getFreeVariables",
           "package": "HaRe",
@@ -6486,6 +7017,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils RenamedSourceUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.RenamedSourceUtils",
           "name": "getFreeVariables",
           "normalized": "a-\u003e[NameSet]",
@@ -6502,6 +7034,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains an API to manage a token stream.\n\u003c/p\u003e\u003cp\u003eThis API is used internally by MonadFunctions and the other utility\n modules, it should probably never be used directly in a refactoring.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "TokenUtils",
           "package": "HaRe",
@@ -6511,6 +7044,7 @@
         "index": {
           "description": "This module contains an API to manage token stream This API is used internally by MonadFunctions and the other utility modules it should probably never be used directly in refactoring",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "TokenUtils",
           "package": "HaRe",
@@ -6525,6 +7059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow new SrcSpans should be inserted in the Token tree, relative to\n the prior span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "Positioning",
           "package": "HaRe",
@@ -6534,6 +7069,7 @@
         "index": {
           "description": "How new SrcSpans should be inserted in the Token tree relative to the prior span",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "Positioning",
           "package": "HaRe",
@@ -6548,6 +7084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep track of when tokens are reversed, to avoid confusion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ReversedToks",
           "package": "HaRe",
@@ -6557,6 +7094,7 @@
         "index": {
           "description": "Keep track of when tokens are reversed to avoid confusion",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ReversedToks",
           "package": "HaRe",
@@ -6571,6 +7109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine offset and\n absolute Col. Mainly\n for forcing start at\n left margin, number\n of lines to add at\n the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAbsCol",
           "package": "HaRe",
@@ -6581,6 +7120,7 @@
         "index": {
           "description": "Line offset and absolute Col Mainly for forcing start at left margin number of lines to add at the end",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAbsCol",
           "package": "HaRe",
@@ -6595,6 +7135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart at the specified\n line and col\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAbsolute",
           "package": "HaRe",
@@ -6605,6 +7146,7 @@
         "index": {
           "description": "Start at the specified line and col",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAbsolute",
           "package": "HaRe",
@@ -6619,6 +7161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly a single space between the\n end of the prior span and the new one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAdjacent",
           "package": "HaRe",
@@ -6629,6 +7172,7 @@
         "index": {
           "description": "Only single space between the end of the prior span and the new one",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceAdjacent",
           "package": "HaRe",
@@ -6643,6 +7187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine and Col offset for\n start, num lines to add at the end\n relative to the indent level of the prior line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceIndent",
           "package": "HaRe",
@@ -6653,6 +7198,7 @@
         "index": {
           "description": "Line and Col offset for start num lines to add at the end relative to the indent level of the prior line",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceIndent",
           "package": "HaRe",
@@ -6667,6 +7213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine and Col offset for\n start, num lines to add at the end\n relative to the indent level of the prior span\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceOffset",
           "package": "HaRe",
@@ -6677,6 +7224,7 @@
         "index": {
           "description": "Line and Col offset for start num lines to add at the end relative to the indent level of the prior span",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "PlaceOffset",
           "package": "HaRe",
@@ -6690,6 +7238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "RT",
           "package": "HaRe",
@@ -6699,6 +7248,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "RT",
           "normalized": "RT[PosToken]",
@@ -6715,6 +7265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd new tokens belonging to an AST fragment after a given SrcSpan,\n and re-sync the AST fragment to match the new location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addDeclToksAfterSrcSpan",
           "package": "HaRe",
@@ -6724,6 +7275,7 @@
         "index": {
           "description": "Add new tokens belonging to an AST fragment after given SrcSpan and re-sync the AST fragment to match the new location",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addDeclToksAfterSrcSpan",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003ePositioning-\u003e[PosToken]-\u003eLocated a-\u003e(Tree Entry,SrcSpan,Located a)",
@@ -6740,6 +7292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new SrcSpan and Tokens after a given one in the token stream\n and forest. This will be given a unique SrcSpan in return, which\n specifically indexes into the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addNewSrcSpanAndToksAfter",
           "package": "HaRe",
@@ -6749,6 +7302,7 @@
         "index": {
           "description": "Add new SrcSpan and Tokens after given one in the token stream and forest This will be given unique SrcSpan in return which specifically indexes into the forest",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addNewSrcSpanAndToksAfter",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003eSrcSpan-\u003ePositioning-\u003e[PosToken]-\u003e(Tree Entry,SrcSpan)",
@@ -6765,6 +7319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd new tokens after the given SrcSpan, constructing a new SrcSpan\n in the process\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addToksAfterSrcSpan",
           "package": "HaRe",
@@ -6774,6 +7329,7 @@
         "index": {
           "description": "Add new tokens after the given SrcSpan constructing new SrcSpan in the process",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "addToksAfterSrcSpan",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003ePositioning-\u003e[PosToken]-\u003e(Tree Entry,SrcSpan)",
@@ -6789,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "adjustLinesForDeleted",
           "package": "HaRe",
@@ -6798,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "adjustLinesForDeleted",
           "normalized": "Tree Entry-\u003eTree Entry",
@@ -6814,6 +7372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a span about to be deleted, calculate the gap between the end\n of the span being deleted and the start of the next one, at a token\n level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "calcEndGap",
           "package": "HaRe",
@@ -6824,6 +7383,7 @@
         "index": {
           "description": "For span about to be deleted calculate the gap between the end of the span being deleted and the start of the next one at token level",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "calcEndGap",
           "normalized": "Tree Entry-\u003eForestSpan-\u003eSimpPos",
@@ -6840,6 +7400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForestSpan version of GHC combineSrcSpans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "combineSpans",
           "package": "HaRe",
@@ -6850,6 +7411,7 @@
         "index": {
           "description": "ForestSpan version of GHC combineSrcSpans",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "combineSpans",
           "normalized": "ForestSpan-\u003eForestSpan-\u003eForestSpan",
@@ -6866,6 +7428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the end of the second param lies in the span of the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsEnd",
           "package": "HaRe",
@@ -6876,6 +7439,7 @@
         "index": {
           "description": "True if the end of the second param lies in the span of the first",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsEnd",
           "normalized": "ForestSpan-\u003eForestSpan-\u003eBool",
@@ -6892,6 +7456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the start of the second param lies before the first, and\n ends after or on the second\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsMiddle",
           "package": "HaRe",
@@ -6902,6 +7467,7 @@
         "index": {
           "description": "True if the start of the second param lies before the first and ends after or on the second",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsMiddle",
           "normalized": "ForestSpan-\u003eForestSpan-\u003eBool",
@@ -6918,6 +7484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the start of the second param lies in the span of the first\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsStart",
           "package": "HaRe",
@@ -6928,6 +7495,7 @@
         "index": {
           "description": "True if the start of the second param lies in the span of the first",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "containsStart",
           "normalized": "ForestSpan-\u003eForestSpan-\u003eBool",
@@ -6944,6 +7512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the leaf nodes of a tree to remove all deleted spans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "deleteGapsToks",
           "package": "HaRe",
@@ -6954,6 +7523,7 @@
         "index": {
           "description": "Process the leaf nodes of tree to remove all deleted spans",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "deleteGapsToks",
           "normalized": "[Entry]-\u003e[PosToken]",
@@ -6969,6 +7539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "doSplitTree",
           "package": "HaRe",
@@ -6978,6 +7549,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "doSplitTree",
           "normalized": "Tree Entry-\u003eForestSpan-\u003e([Tree Entry],[Tree Entry],[Tree Entry])",
@@ -6993,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawEntry",
           "package": "HaRe",
@@ -7002,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawEntry",
           "normalized": "Tree Entry-\u003e[String]",
@@ -7018,6 +7592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeat 2-dimensional drawing of a forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawForestEntry",
           "package": "HaRe",
@@ -7028,6 +7603,7 @@
         "index": {
           "description": "Neat dimensional drawing of forest",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawForestEntry",
           "normalized": "Forest Entry-\u003eString",
@@ -7044,6 +7620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall drawTreeEntry on the entire token cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTokenCache",
           "package": "HaRe",
@@ -7054,6 +7631,7 @@
         "index": {
           "description": "Call drawTreeEntry on the entire token cache",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTokenCache",
           "normalized": "TokenCache-\u003eString",
@@ -7070,6 +7648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall drawTreeEntry on the entire token cache\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTokenCacheDetailed",
           "package": "HaRe",
@@ -7080,6 +7659,7 @@
         "index": {
           "description": "Call drawTreeEntry on the entire token cache",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTokenCacheDetailed",
           "normalized": "TokenCache-\u003eString",
@@ -7095,6 +7675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTreeCompact",
           "package": "HaRe",
@@ -7104,6 +7685,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTreeCompact",
           "normalized": "Tree Entry-\u003eString",
@@ -7120,6 +7702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNeat 2-dimensional drawing of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTreeEntry",
           "package": "HaRe",
@@ -7130,6 +7713,7 @@
         "index": {
           "description": "Neat dimensional drawing of tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "drawTreeEntry",
           "normalized": "Tree Entry-\u003eString",
@@ -7145,6 +7729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestLineToGhcLine",
           "package": "HaRe",
@@ -7154,6 +7739,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestLineToGhcLine",
           "normalized": "ForestLine-\u003eInt",
@@ -7170,6 +7756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the version is zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestPosVersionNotSet",
           "package": "HaRe",
@@ -7180,6 +7767,7 @@
         "index": {
           "description": "Checks if the version is zero",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestPosVersionNotSet",
           "normalized": "ForestPos-\u003eBool",
@@ -7196,6 +7784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the version is non-zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestPosVersionSet",
           "package": "HaRe",
@@ -7206,6 +7795,7 @@
         "index": {
           "description": "Checks if the version is non-zero",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestPosVersionSet",
           "normalized": "ForestPos-\u003eBool",
@@ -7221,6 +7811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanFromEntry",
           "package": "HaRe",
@@ -7230,6 +7821,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanFromEntry",
           "normalized": "Entry-\u003eForestSpan",
@@ -7245,6 +7837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanLenChanged",
           "package": "HaRe",
@@ -7254,6 +7847,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanLenChanged",
           "normalized": "ForestSpan-\u003eBool",
@@ -7270,6 +7864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip out the version markers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToGhcPos",
           "package": "HaRe",
@@ -7280,6 +7875,7 @@
         "index": {
           "description": "Strip out the version markers",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToGhcPos",
           "normalized": "ForestSpan-\u003e(SimpPos,SimpPos)",
@@ -7296,6 +7892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip out the version markers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToSimpPos",
           "package": "HaRe",
@@ -7306,6 +7903,7 @@
         "index": {
           "description": "Strip out the version markers",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToSimpPos",
           "normalized": "ForestSpan-\u003e(SimpPos,SimpPos)",
@@ -7321,6 +7919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToSrcSpan",
           "package": "HaRe",
@@ -7330,6 +7929,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanToSrcSpan",
           "normalized": "ForestSpan-\u003eSrcSpan",
@@ -7346,6 +7946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the version is zero in both positions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersionNotSet",
           "package": "HaRe",
@@ -7356,6 +7957,7 @@
         "index": {
           "description": "Checks if the version is zero in both positions",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersionNotSet",
           "normalized": "ForestSpan-\u003eBool",
@@ -7372,6 +7974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks if the version is non-zero in either position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersionSet",
           "package": "HaRe",
@@ -7382,6 +7985,7 @@
         "index": {
           "description": "Checks if the version is non-zero in either position",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersionSet",
           "normalized": "ForestSpan-\u003eBool",
@@ -7398,6 +8002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the version numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersions",
           "package": "HaRe",
@@ -7408,6 +8013,7 @@
         "index": {
           "description": "Gets the version numbers",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "forestSpanVersions",
           "normalized": "ForestSpan-\u003e(Int,Int)",
@@ -7423,6 +8029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "fs",
           "package": "HaRe",
@@ -7432,6 +8039,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "fs",
           "normalized": "ForestSpan-\u003eSrcSpan",
@@ -7447,6 +8055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a path to the tree containing a ForestSpan from the forest,\n inserting it if not already present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getSrcSpanFor",
           "package": "HaRe",
@@ -7457,6 +8066,7 @@
         "index": {
           "description": "Retrieve path to the tree containing ForestSpan from the forest inserting it if not already present",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getSrcSpanFor",
           "normalized": "Tree Entry-\u003eForestSpan-\u003e(Tree Entry,Tree Entry)",
@@ -7473,6 +8083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve a path to the tree containing a ForestSpan from the forest,\n inserting it if not already present.\n In the case where there is a nested series of spans as in an\n \u003ccode\u003e\u003ca\u003eAbove\u003c/a\u003e\u003c/code\u003e layout, return the deepest one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getSrcSpanForDeep",
           "package": "HaRe",
@@ -7483,6 +8094,7 @@
         "index": {
           "description": "Retrieve path to the tree containing ForestSpan from the forest inserting it if not already present In the case where there is nested series of spans as in an Above layout return the deepest one",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getSrcSpanForDeep",
           "normalized": "Tree Entry-\u003eForestSpan-\u003e(Tree Entry,Tree Entry)",
@@ -7499,6 +8111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the tokens preceding a given \u003ccode\u003eSrcSpan\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensBefore",
           "package": "HaRe",
@@ -7509,6 +8122,7 @@
         "index": {
           "description": "Get the tokens preceding given SrcSpan",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensBefore",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003e(Tree Entry,ReversedToks)",
@@ -7525,6 +8139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the (possible cached) tokens for a given source span, and\n cache their being fetched.\n NOTE: The SrcSpan may be one introduced by HaRe, rather than GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensFor",
           "package": "HaRe",
@@ -7535,6 +8150,7 @@
         "index": {
           "description": "Get the possible cached tokens for given source span and cache their being fetched NOTE The SrcSpan may be one introduced by HaRe rather than GHC",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensFor",
           "normalized": "Bool-\u003eTree Entry-\u003eSrcSpan-\u003e(Tree Entry,[PosToken])",
@@ -7551,6 +8167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the (possible cached) tokens for a given source span, and\n cache their being fetched.\n NOTE: The SrcSpan may be one introduced by HaRe, rather than GHC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensForNoIntros",
           "package": "HaRe",
@@ -7561,6 +8178,7 @@
         "index": {
           "description": "Get the possible cached tokens for given source span and cache their being fetched NOTE The SrcSpan may be one introduced by HaRe rather than GHC",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTokensForNoIntros",
           "normalized": "Bool-\u003eTree Entry-\u003eSrcSpan-\u003e(Tree Entry,[PosToken])",
@@ -7576,6 +8194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTreeFromCache",
           "package": "HaRe",
@@ -7585,6 +8204,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTreeFromCache",
           "normalized": "SrcSpan-\u003eTokenCache-\u003eTree Entry",
@@ -7600,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTreeSpansAsList",
           "package": "HaRe",
@@ -7609,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "getTreeSpansAsList",
           "normalized": "Tree Entry-\u003e[(Int,ForestSpan)]",
@@ -7625,6 +8247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract an encoded ForestLine from a GHC line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ghcLineToForestLine",
           "package": "HaRe",
@@ -7635,6 +8258,7 @@
         "index": {
           "description": "Extract an encoded ForestLine from GHC line",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ghcLineToForestLine",
           "normalized": "Int-\u003eForestLine",
@@ -7650,6 +8274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ghcSpanStartEnd",
           "package": "HaRe",
@@ -7659,6 +8284,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "ghcSpanStartEnd",
           "normalized": "SrcSpan-\u003e((Int,Int),(Int,Int))",
@@ -7675,6 +8301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindent the tree and tokens by the given offset, and sync the AST\n to the tree too.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "indentDeclToks",
           "package": "HaRe",
@@ -7684,6 +8311,7 @@
         "index": {
           "description": "indent the tree and tokens by the given offset and sync the AST to the tree too",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "indentDeclToks",
           "normalized": "Located a-\u003eTree Entry-\u003eInt-\u003e(Located a,Tree Entry)",
@@ -7699,6 +8327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "initTokenCache",
           "package": "HaRe",
@@ -7708,6 +8337,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "initTokenCache",
           "normalized": "[PosToken]-\u003eTokenCache",
@@ -7723,6 +8353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "initTokenCacheLayout",
           "package": "HaRe",
@@ -7732,6 +8363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "initTokenCacheLayout",
           "normalized": "Tree Entry-\u003eTokenCache",
@@ -7748,6 +8380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace any ForestLine flags already in a SrcSpan with the given ones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertForestLineInSrcSpan",
           "package": "HaRe",
@@ -7758,6 +8391,7 @@
         "index": {
           "description": "Replace any ForestLine flags already in SrcSpan with the given ones",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertForestLineInSrcSpan",
           "normalized": "ForestLine-\u003eSrcSpan-\u003eSrcSpan",
@@ -7773,6 +8407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertLenChangedInSrcSpan",
           "package": "HaRe",
@@ -7782,6 +8417,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertLenChangedInSrcSpan",
           "normalized": "Bool-\u003eBool-\u003eSrcSpan-\u003eSrcSpan",
@@ -7798,6 +8434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a new node after the designated one in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertNodeAfter",
           "package": "HaRe",
@@ -7808,6 +8445,7 @@
         "index": {
           "description": "Insert new node after the designated one in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertNodeAfter",
           "normalized": "Tree Entry-\u003eTree Entry-\u003eTree Entry-\u003eTree Entry",
@@ -7824,6 +8462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a ForestSpan into the forest, if it is not there already.\n Assumes the forest was populated with the tokens containing the\n ForestSpan already\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertSrcSpan",
           "package": "HaRe",
@@ -7834,6 +8473,7 @@
         "index": {
           "description": "Insert ForestSpan into the forest if it is not there already Assumes the forest was populated with the tokens containing the ForestSpan already",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertSrcSpan",
           "normalized": "Tree Entry-\u003eForestSpan-\u003eTree Entry",
@@ -7849,6 +8489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertVersionsInSrcSpan",
           "package": "HaRe",
@@ -7858,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "insertVersionsInSrcSpan",
           "normalized": "Int-\u003eInt-\u003eSrcSpan-\u003eSrcSpan",
@@ -7874,6 +8516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck the invariant for the token cache. Returns list of any errors found.\n Invariants:\n   1. For each tree, either the rootLabel has a SrcSpan only, or the subForest /= [].\n   2a. The trees making up the subForest of a given node fully include the parent SrcSpan.\n        i.e. the leaves contain all the tokens for a given SrcSpan.\n   2b. The subForest is in SrcSpan order\n   3. A given SrcSpan can only appear (or be included) in a single tree of the forest.\n   4. The parent link for all sub-trees does exist, and actually points to the parent. \n   5. There are no nullSpan entries in the tree\n NOTE: the tokens may extend before or after the SrcSpan, due to comments only\n NOTE2: this will have to be revisited when edits to the tokens are made\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "invariant",
           "package": "HaRe",
@@ -7884,6 +8527,7 @@
         "index": {
           "description": "Check the invariant for the token cache Returns list of any errors found Invariants For each tree either the rootLabel has SrcSpan only or the subForest The trees making up the subForest of given node fully include the parent SrcSpan i.e the leaves contain all the tokens for given SrcSpan The subForest is in SrcSpan order given SrcSpan can only appear or be included in single tree of the forest The parent link for all sub-trees does exist and actually points to the parent There are no nullSpan entries in the tree NOTE the tokens may extend before or after the SrcSpan due to comments only NOTE2 this will have to be revisited when edits to the tokens are made",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "invariant",
           "normalized": "Tree Entry-\u003e[String]",
@@ -7899,6 +8543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility function to either return True or throw an error to report the problem\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "invariantOk",
           "package": "HaRe",
@@ -7909,6 +8554,7 @@
         "index": {
           "description": "Utility function to either return True or throw an error to report the problem",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "invariantOk",
           "normalized": "Tree Entry-\u003eBool",
@@ -7924,6 +8570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "limitPrevToks",
           "package": "HaRe",
@@ -7933,6 +8580,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "limitPrevToks",
           "normalized": "ReversedToks-\u003eSrcSpan-\u003eReversedToks",
@@ -7949,6 +8597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a tree representing a particular set of tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "mkTreeFromSpanTokens",
           "package": "HaRe",
@@ -7959,6 +8608,7 @@
         "index": {
           "description": "Make tree representing particular set of tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "mkTreeFromSpanTokens",
           "normalized": "ForestSpan-\u003e[PosToken]-\u003eTree Entry",
@@ -7975,6 +8625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a tree representing a particular set of tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "mkTreeFromTokens",
           "package": "HaRe",
@@ -7985,6 +8636,7 @@
         "index": {
           "description": "Make tree representing particular set of tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "mkTreeFromTokens",
           "normalized": "[PosToken]-\u003eTree Entry",
@@ -8001,6 +8653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the start and end position of a span, without any leading\n or trailing comments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nonCommentSpan",
           "package": "HaRe",
@@ -8011,6 +8664,7 @@
         "index": {
           "description": "Extract the start and end position of span without any leading or trailing comments",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nonCommentSpan",
           "normalized": "[PosToken]-\u003e(SimpPos,SimpPos)",
@@ -8026,6 +8680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nullPos",
           "package": "HaRe",
@@ -8035,6 +8690,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nullPos",
           "package": "HaRe",
@@ -8048,6 +8704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nullSpan",
           "package": "HaRe",
@@ -8057,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "nullSpan",
           "package": "HaRe",
@@ -8071,6 +8729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper so that its focus is the given node\n  NOTE: the node must already be in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToNode",
           "package": "HaRe",
@@ -8081,6 +8740,7 @@
         "index": {
           "description": "Open zipper so that its focus is the given node NOTE the node must already be in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToNode",
           "normalized": "Tree Entry-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8097,6 +8757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper so that its focus is the given node\n  NOTE: the node must already be in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToNodeDeep",
           "package": "HaRe",
@@ -8107,6 +8768,7 @@
         "index": {
           "description": "Open zipper so that its focus is the given node NOTE the node must already be in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToNodeDeep",
           "normalized": "Tree Entry-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8123,6 +8785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper so that its focus has the given SrcSpan in its\n subtree, or the location where the SrcSpan should go, if it is not\n in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpan",
           "package": "HaRe",
@@ -8133,6 +8796,7 @@
         "index": {
           "description": "Open zipper so that its focus has the given SrcSpan in its subtree or the location where the SrcSpan should go if it is not in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpan",
           "normalized": "ForestSpan-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8149,6 +8813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper to a SrcSpan that has been added in the tree, and\n thus does not necessarily fall in the logical hierarchy of the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanAdded",
           "package": "HaRe",
@@ -8159,6 +8824,7 @@
         "index": {
           "description": "Open zipper to SrcSpan that has been added in the tree and thus does not necessarily fall in the logical hierarchy of the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanAdded",
           "normalized": "ForestSpan-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8175,6 +8841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper so that its focus has the given SrcSpan in its\n subtree, or the location where the SrcSpan should go, if it is not\n in the tree.\n In the case of an \u003ccode\u003e\u003ca\u003eAbove\u003c/a\u003e\u003c/code\u003e layout with the same SrcSpan below,\n return that instead\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanDeep",
           "package": "HaRe",
@@ -8185,6 +8852,7 @@
         "index": {
           "description": "Open zipper so that its focus has the given SrcSpan in its subtree or the location where the SrcSpan should go if it is not in the tree In the case of an Above layout with the same SrcSpan below return that instead",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanDeep",
           "normalized": "ForestSpan-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8201,6 +8869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a zipper so that its focus has the given SrcSpan in its\n subtree, or the location where the SrcSpan should go, if it is not\n in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanOrig",
           "package": "HaRe",
@@ -8211,6 +8880,7 @@
         "index": {
           "description": "Open zipper so that its focus has the given SrcSpan in its subtree or the location where the SrcSpan should go if it is not in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "openZipperToSpanOrig",
           "normalized": "ForestSpan-\u003eTreePos Full Entry-\u003eTreePos Full Entry",
@@ -8226,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "placeToksForSpan",
           "package": "HaRe",
@@ -8235,6 +8906,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "placeToksForSpan",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003eTree Entry-\u003ePositioning-\u003e[PosToken]-\u003e[PosToken]",
@@ -8251,6 +8923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a simple (start,end) position to a SrcSpan belonging to\n the file in the tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "posToSrcSpan",
           "package": "HaRe",
@@ -8261,6 +8934,7 @@
         "index": {
           "description": "Convert simple start end position to SrcSpan belonging to the file in the tree",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "posToSrcSpan",
           "normalized": "Tree Entry-\u003e(SimpPos,SimpPos)-\u003eSrcSpan",
@@ -8277,6 +8951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a simple (start,end) position to a SrcSpan belonging to\n the file in the given token\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "posToSrcSpanTok",
           "package": "HaRe",
@@ -8287,6 +8962,7 @@
         "index": {
           "description": "Convert simple start end position to SrcSpan belonging to the file in the given token",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "posToSrcSpanTok",
           "normalized": "PosToken-\u003e(SimpPos,SimpPos)-\u003eSrcSpan",
@@ -8302,6 +8978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "putToksInCache",
           "package": "HaRe",
@@ -8311,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "putToksInCache",
           "normalized": "TokenCache-\u003eSrcSpan-\u003e[PosToken]-\u003e(TokenCache,SrcSpan)",
@@ -8326,6 +9004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignMarked",
           "package": "HaRe",
@@ -8335,6 +9014,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignMarked",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -8351,6 +9031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome tokens are marked if they belong to identifiers which have\n been renamed. When the renaming takes place, no layout adjustment\n is done. This function adjusts the spacing for the rest of the line\n to match as far as possible the original spacing, except for the\n name change.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignOneLine",
           "package": "HaRe",
@@ -8361,6 +9042,7 @@
         "index": {
           "description": "Some tokens are marked if they belong to identifiers which have been renamed When the renaming takes place no layout adjustment is done This function adjusts the spacing for the rest of the line to match as far as possible the original spacing except for the name change",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignOneLine",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -8376,6 +9058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignToks",
           "package": "HaRe",
@@ -8385,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reAlignToks",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -8400,6 +9084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reIndentToks",
           "package": "HaRe",
@@ -8409,6 +9094,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reIndentToks",
           "normalized": "Positioning-\u003e[PosToken]-\u003e[PosToken]-\u003e[PosToken]",
@@ -8425,6 +9111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a ForestSpan and its tokens from the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "removeSrcSpan",
           "package": "HaRe",
@@ -8434,6 +9121,7 @@
         "index": {
           "description": "Removes ForestSpan and its tokens from the forest",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "removeSrcSpan",
           "normalized": "Tree Entry-\u003eForestSpan-\u003e(Tree Entry,Tree Entry)",
@@ -8449,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "removeToksFromCache",
           "package": "HaRe",
@@ -8458,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "removeToksFromCache",
           "normalized": "TokenCache-\u003eSrcSpan-\u003eTokenCache",
@@ -8474,6 +9164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a single token in a token tree, without changing the\n structure of the tree\n NOTE: the GHC.SrcSpan may have been used to select the appropriate\n forest in the first place, and is required to select the correct\n span in the tree, due to the ForestLine annotations that may be present\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTokenForSrcSpan",
           "package": "HaRe",
@@ -8484,6 +9175,7 @@
         "index": {
           "description": "Replace single token in token tree without changing the structure of the tree NOTE the GHC.SrcSpan may have been used to select the appropriate forest in the first place and is required to select the correct span in the tree due to the ForestLine annotations that may be present",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTokenForSrcSpan",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003ePosToken-\u003eTree Entry",
@@ -8499,6 +9191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTokenInCache",
           "package": "HaRe",
@@ -8508,6 +9201,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTokenInCache",
           "normalized": "TokenCache-\u003eSrcSpan-\u003ePosToken-\u003eTokenCache",
@@ -8523,6 +9217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTreeInCache",
           "package": "HaRe",
@@ -8532,6 +9227,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "replaceTreeInCache",
           "normalized": "SrcSpan-\u003eTree Entry-\u003eTokenCache-\u003eTokenCache",
@@ -8548,6 +9244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarting from a point in the zipper, retrieve all tokens backwards\n until the line changes for a non-comment/non-empty token or\n beginning of file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrievePrevLineToks",
           "package": "HaRe",
@@ -8558,6 +9255,7 @@
         "index": {
           "description": "Starting from point in the zipper retrieve all tokens backwards until the line changes for non-comment non-empty token or beginning of file",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrievePrevLineToks",
           "normalized": "TreePos Full Entry-\u003eReversedToks",
@@ -8573,6 +9271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokens'",
           "package": "HaRe",
@@ -8582,6 +9281,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokens'",
           "normalized": "Tree Entry-\u003e[Entry]",
@@ -8598,6 +9298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all the tokens at the leaves of the tree, in order.\n Marked tokens are re-aligned, and gaps are closed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokensFinal",
           "package": "HaRe",
@@ -8608,6 +9309,7 @@
         "index": {
           "description": "Retrieve all the tokens at the leaves of the tree in order Marked tokens are re-aligned and gaps are closed",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokensFinal",
           "normalized": "Tree Entry-\u003e[PosToken]",
@@ -8624,6 +9326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve all the tokens at the leaves of the tree, in order. No\n adjustments are made to address gaps or re-alignment of the tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokensInterim",
           "package": "HaRe",
@@ -8634,6 +9337,7 @@
         "index": {
           "description": "Retrieve all the tokens at the leaves of the tree in order No adjustments are made to address gaps or re-alignment of the tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "retrieveTokensInterim",
           "normalized": "Tree Entry-\u003e[PosToken]",
@@ -8649,6 +9353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reverseToks",
           "package": "HaRe",
@@ -8658,6 +9363,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reverseToks",
           "normalized": "[PosToken]-\u003eReversedToks",
@@ -8673,6 +9379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reversedToks",
           "package": "HaRe",
@@ -8682,6 +9389,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "reversedToks",
           "normalized": "ReversedToks-\u003e[PosToken]",
@@ -8697,6 +9405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "sf",
           "package": "HaRe",
@@ -8706,6 +9415,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "sf",
           "normalized": "SrcSpan-\u003eForestSpan",
@@ -8720,6 +9430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showForest",
           "package": "HaRe",
@@ -8729,6 +9440,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showForest",
           "normalized": "[Tree Entry]-\u003e[String]",
@@ -8744,6 +9456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showForestSpan",
           "package": "HaRe",
@@ -8753,6 +9466,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showForestSpan",
           "normalized": "ForestSpan-\u003eString",
@@ -8768,6 +9482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showSrcSpan",
           "package": "HaRe",
@@ -8777,6 +9492,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showSrcSpan",
           "normalized": "SrcSpan-\u003eString",
@@ -8792,6 +9508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showSrcSpanF",
           "package": "HaRe",
@@ -8801,6 +9518,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showSrcSpanF",
           "normalized": "SrcSpan-\u003eString",
@@ -8816,6 +9534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showTree",
           "package": "HaRe",
@@ -8825,6 +9544,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "showTree",
           "normalized": "Tree Entry-\u003eString",
@@ -8840,6 +9560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "simpPosToForestSpan",
           "package": "HaRe",
@@ -8849,6 +9570,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "simpPosToForestSpan",
           "normalized": "(SimpPos,SimpPos)-\u003eForestSpan",
@@ -8865,6 +9587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes the first span contain the second? Takes cognisance of the\n various flags a ForestSpan can have.\n NOTE: This function relies on the Eq instance for ForestLine\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "spanContains",
           "package": "HaRe",
@@ -8875,6 +9598,7 @@
         "index": {
           "description": "Does the first span contain the second Takes cognisance of the various flags ForestSpan can have NOTE This function relies on the Eq instance for ForestLine",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "spanContains",
           "normalized": "ForestSpan-\u003eForestSpan-\u003eBool",
@@ -8891,6 +9615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the start and end position of a SrcSpan\n spanStartEnd :: GHC.SrcSpan -\u003e (SimpPos,SimpPos)\n spanStartEnd sspan = (getGhcLoc sspan,getGhcLocEnd sspan)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "spanStartEnd",
           "package": "HaRe",
@@ -8901,6 +9626,7 @@
         "index": {
           "description": "Get the start and end position of SrcSpan spanStartEnd GHC.SrcSpan SimpPos SimpPos spanStartEnd sspan getGhcLoc sspan getGhcLocEnd sspan",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "spanStartEnd",
           "normalized": "SrcSpan-\u003eForestSpan",
@@ -8917,6 +9643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a forest of trees into a (begin,middle,end) according to a\n ForestSpan, such that no tokens are included in begin or end belonging\n to the ForestSpan, and all of middle has some part of the ForestSpan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitForestOnSpan",
           "package": "HaRe",
@@ -8927,6 +9654,7 @@
         "index": {
           "description": "Split forest of trees into begin middle end according to ForestSpan such that no tokens are included in begin or end belonging to the ForestSpan and all of middle has some part of the ForestSpan",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitForestOnSpan",
           "normalized": "Forest Entry-\u003eForestSpan-\u003e([Tree Entry],[Tree Entry],[Tree Entry])",
@@ -8942,6 +9670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitSubToks",
           "package": "HaRe",
@@ -8951,6 +9680,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitSubToks",
           "normalized": "Tree Entry-\u003e(ForestPos,ForestPos)-\u003e([Tree Entry],[Tree Entry],[Tree Entry])",
@@ -8967,6 +9697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a given tree into a possibly empty part that lies before the\n srcspan, the part that is wholly included in the srcspan and the\n part the lies outside of it at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitSubtree",
           "package": "HaRe",
@@ -8977,6 +9708,7 @@
         "index": {
           "description": "Split given tree into possibly empty part that lies before the srcspan the part that is wholly included in the srcspan and the part the lies outside of it at the end",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "splitSubtree",
           "normalized": "Tree Entry-\u003eForestSpan-\u003e([Tree Entry],[Tree Entry],[Tree Entry])",
@@ -8992,6 +9724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "srcPosToSimpPos",
           "package": "HaRe",
@@ -9001,6 +9734,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "srcPosToSimpPos",
           "normalized": "(Int,Int)-\u003e(Int,Int)",
@@ -9016,6 +9750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "srcSpanToForestSpan",
           "package": "HaRe",
@@ -9025,6 +9760,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "srcSpanToForestSpan",
           "normalized": "SrcSpan-\u003eForestSpan",
@@ -9040,6 +9776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "stripForestLines",
           "package": "HaRe",
@@ -9049,6 +9786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "stripForestLines",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -9065,6 +9803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynchronise a located AST fragment to use a newly created SrcSpan\n in the token tree.\n TODO: Should this indent the tokens as well?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "syncAST",
           "package": "HaRe",
@@ -9074,6 +9813,7 @@
         "index": {
           "description": "Synchronise located AST fragment to use newly created SrcSpan in the token tree TODO Should this indent the tokens as well",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "syncAST",
           "normalized": "Located a-\u003eSrcSpan-\u003eTree Entry-\u003e(Located a,Tree Entry)",
@@ -9090,6 +9830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssuming most recent operation has stashed the old tokens, sync\n the given AST to the most recent stash entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "syncAstToLatestCache",
           "package": "HaRe",
@@ -9100,6 +9841,7 @@
         "index": {
           "description": "Assuming most recent operation has stashed the old tokens sync the given AST to the most recent stash entry",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "syncAstToLatestCache",
           "normalized": "TokenCache-\u003eLocated a-\u003eLocated a",
@@ -9115,6 +9857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "treeIdFromForestSpan",
           "package": "HaRe",
@@ -9124,6 +9867,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "treeIdFromForestSpan",
           "normalized": "ForestSpan-\u003eTreeId",
@@ -9140,6 +9884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the start and end position of a Tree\n treeStartEnd :: Tree Entry -\u003e (SimpPos,SimpPos)\n treeStartEnd (Node (Entry sspan _) _) = (getGhcLoc sspan,getGhcLocEnd sspan)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "treeStartEnd",
           "package": "HaRe",
@@ -9150,6 +9895,7 @@
         "index": {
           "description": "Get the start and end position of Tree treeStartEnd Tree Entry SimpPos SimpPos treeStartEnd Node Entry sspan getGhcLoc sspan getGhcLocEnd sspan",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "treeStartEnd",
           "normalized": "Tree Entry-\u003eForestSpan",
@@ -9165,6 +9911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "unReverseToks",
           "package": "HaRe",
@@ -9174,6 +9921,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "unReverseToks",
           "normalized": "ReversedToks-\u003e[PosToken]",
@@ -9190,6 +9938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the tokens for a given SrcSpan with new ones. The SrcSpan\n will be inserted into the tree if it is not already there.\n If the SrcSpan changes size, replace the SrcSpan with a new one\n (marked), and return it, as well as the old one\n TODO: What about trailing comments? Preserve or replace?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "updateTokensForSrcSpan",
           "package": "HaRe",
@@ -9200,6 +9949,7 @@
         "index": {
           "description": "Replace the tokens for given SrcSpan with new ones The SrcSpan will be inserted into the tree if it is not already there If the SrcSpan changes size replace the SrcSpan with new one marked and return it as well as the old one TODO What about trailing comments Preserve or replace",
           "hierarchy": "Language Haskell Refact Utils TokenUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtils",
           "name": "updateTokensForSrcSpan",
           "normalized": "Tree Entry-\u003eSrcSpan-\u003e[PosToken]-\u003e(Tree Entry,SrcSpan,Tree Entry)",
@@ -9216,6 +9966,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains types shared between TokenUtils and Monad, and\n exists to break import cycles\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TokenUtilsTypes",
           "package": "HaRe",
@@ -9225,6 +9976,7 @@
         "index": {
           "description": "This module contains types shared between TokenUtils and Monad and exists to break import cycles",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TokenUtilsTypes",
           "package": "HaRe",
@@ -9238,6 +9990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Col",
           "package": "HaRe",
@@ -9246,6 +9999,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Col",
           "package": "HaRe",
@@ -9259,6 +10013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ColOffset",
           "package": "HaRe",
@@ -9267,6 +10022,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ColOffset",
           "package": "HaRe",
@@ -9280,6 +10036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "EndOffset",
           "package": "HaRe",
@@ -9288,6 +10045,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "EndOffset",
           "package": "HaRe",
@@ -9302,6 +10060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn entry in the data structure for a particular srcspan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Entry",
           "package": "HaRe",
@@ -9311,6 +10070,7 @@
         "index": {
           "description": "An entry in the data structure for particular srcspan",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Entry",
           "package": "HaRe",
@@ -9324,6 +10084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestLine",
           "package": "HaRe",
@@ -9332,6 +10093,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestLine",
           "package": "HaRe",
@@ -9345,6 +10107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestPos",
           "package": "HaRe",
@@ -9353,6 +10116,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestPos",
           "package": "HaRe",
@@ -9367,6 +10131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a SrcSpan, using a ForestLine as the marker\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestSpan",
           "package": "HaRe",
@@ -9376,6 +10141,7 @@
         "index": {
           "description": "Match SrcSpan using ForestLine as the marker",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestSpan",
           "package": "HaRe",
@@ -9389,6 +10155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Layout",
           "package": "HaRe",
@@ -9397,6 +10164,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Layout",
           "package": "HaRe",
@@ -9411,6 +10179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA data structure to make the ppr process visible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Ppr",
           "package": "HaRe",
@@ -9420,6 +10189,7 @@
         "index": {
           "description": "data structure to make the ppr process visible",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Ppr",
           "package": "HaRe",
@@ -9433,6 +10203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprOrigin",
           "package": "HaRe",
@@ -9441,6 +10212,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprOrigin",
           "package": "HaRe",
@@ -9454,6 +10226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Row",
           "package": "HaRe",
@@ -9462,6 +10235,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Row",
           "package": "HaRe",
@@ -9475,6 +10249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "RowOffset",
           "package": "HaRe",
@@ -9483,6 +10258,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "RowOffset",
           "package": "HaRe",
@@ -9496,6 +10272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TokenCache",
           "package": "HaRe",
@@ -9504,6 +10281,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TokenCache",
           "package": "HaRe",
@@ -9517,6 +10295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TreeId",
           "package": "HaRe",
@@ -9525,6 +10304,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TreeId",
           "package": "HaRe",
@@ -9539,6 +10319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitial offset from token before the\n stacked list of items, the (r,c) of the first\n non-comment token, the (r,c) of the end of the last non-comment\n token in the stacked list to be able to calculate the\n (RowOffset,ColOffset) between the last token and the\n start of the next item.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Above",
           "package": "HaRe",
@@ -9549,6 +10330,7 @@
         "index": {
           "description": "Initial offset from token before the stacked list of items the of the first non-comment token the of the end of the last non-comment token in the stacked list to be able to calculate the RowOffset ColOffset between the last token and the start of the next item",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Above",
           "normalized": "Above EndOffset(Row,Col)(Row,Col)EndOffset",
@@ -9565,6 +10347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdded tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Added",
           "package": "HaRe",
@@ -9575,6 +10358,7 @@
         "index": {
           "description": "Added tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Added",
           "package": "HaRe",
@@ -9589,6 +10373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gap between this span end and\n  the start of the next in the\n  fringe of the tree.\n             deriving (Show)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Deleted",
           "package": "HaRe",
@@ -9599,6 +10384,7 @@
         "index": {
           "description": "The gap between this span end and the start of the next in the fringe of the tree deriving Show",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Deleted",
           "package": "HaRe",
@@ -9613,6 +10399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tokens for the SrcSpan if\n  subtree is empty\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Entry",
           "package": "HaRe",
@@ -9623,6 +10410,7 @@
         "index": {
           "description": "The tokens for the SrcSpan if subtree is empty",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Entry",
           "normalized": "Entry ForestSpan Layout[PosToken]",
@@ -9638,6 +10426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestLine",
           "package": "HaRe",
@@ -9647,6 +10436,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "ForestLine",
           "package": "HaRe",
@@ -9660,6 +10450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "FromAlignCol",
           "package": "HaRe",
@@ -9669,6 +10460,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "FromAlignCol",
           "normalized": "FromAlignCol(RowOffset,ColOffset)",
@@ -9684,6 +10476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "NoChange",
           "package": "HaRe",
@@ -9693,6 +10486,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "NoChange",
           "package": "HaRe",
@@ -9706,6 +10500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "None",
           "package": "HaRe",
@@ -9715,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "None",
           "package": "HaRe",
@@ -9729,6 +10525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Original",
           "package": "HaRe",
@@ -9739,6 +10536,7 @@
         "index": {
           "description": "Original tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "Original",
           "package": "HaRe",
@@ -9753,6 +10551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset of start of embedded parts, coords of last token,\n offset to start of next part, relative to the column of\n the start\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprAbove",
           "package": "HaRe",
@@ -9763,6 +10562,7 @@
         "index": {
           "description": "Offset of start of embedded parts coords of last token offset to start of next part relative to the column of the start",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprAbove",
           "normalized": "PprAbove EndOffset(Row,Col)EndOffset[Ppr]",
@@ -9779,6 +10579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMarks lines that have been deleted together with the\n original gap before, how many lines were originally\n included, and gap after.\n And a note field for debugging\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprDeleted",
           "package": "HaRe",
@@ -9789,6 +10590,7 @@
         "index": {
           "description": "Marks lines that have been deleted together with the original gap before how many lines were originally included and gap after And note field for debugging",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprDeleted",
           "package": "HaRe",
@@ -9803,6 +10605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal row and col of the tokens making up the string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprText",
           "package": "HaRe",
@@ -9813,6 +10616,7 @@
         "index": {
           "description": "Original row and col of the tokens making up the string",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "PprText",
           "package": "HaRe",
@@ -9826,6 +10630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "SameLine",
           "package": "HaRe",
@@ -9835,6 +10640,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "SameLine",
           "package": "HaRe",
@@ -9848,6 +10654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TId",
           "package": "HaRe",
@@ -9857,6 +10664,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TId",
           "package": "HaRe",
@@ -9870,6 +10678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TK",
           "package": "HaRe",
@@ -9879,6 +10688,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "TK",
           "package": "HaRe",
@@ -9892,6 +10702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flInsertVersion",
           "package": "HaRe",
@@ -9901,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flInsertVersion",
           "package": "HaRe",
@@ -9914,6 +10726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flLine",
           "package": "HaRe",
@@ -9923,6 +10736,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flLine",
           "package": "HaRe",
@@ -9937,6 +10751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe length of the\n span may have\n changed due to\n updated tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flSpanLengthChanged",
           "package": "HaRe",
@@ -9947,6 +10762,7 @@
         "index": {
           "description": "The length of the span may have changed due to updated tokens",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flSpanLengthChanged",
           "package": "HaRe",
@@ -9960,6 +10776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flTreeSelector",
           "package": "HaRe",
@@ -9969,6 +10786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "flTreeSelector",
           "package": "HaRe",
@@ -9983,6 +10801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentifies the tree carrying the main tokens, not any work in\n progress or deleted ones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "mainTid",
           "package": "HaRe",
@@ -9993,6 +10812,7 @@
         "index": {
           "description": "Identifies the tree carrying the main tokens not any work in progress or deleted ones",
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "mainTid",
           "package": "HaRe",
@@ -10006,6 +10826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "tkCache",
           "package": "HaRe",
@@ -10015,6 +10836,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "tkCache",
           "package": "HaRe",
@@ -10028,6 +10850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "tkLastTreeId",
           "package": "HaRe",
@@ -10037,6 +10860,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TokenUtilsTypes",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TokenUtilsTypes",
           "name": "tkLastTreeId",
           "package": "HaRe",
@@ -10051,6 +10875,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a legacy module from the pre-GHC HaRe, and will disappear\n eventually.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "TypeSyn",
           "package": "HaRe",
@@ -10060,6 +10885,7 @@
         "index": {
           "description": "This is legacy module from the pre-GHC HaRe and will disappear eventually",
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "TypeSyn",
           "package": "HaRe",
@@ -10073,6 +10899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "Export",
           "package": "HaRe",
@@ -10081,6 +10908,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "Export",
           "package": "HaRe",
@@ -10094,6 +10922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsDeclP",
           "package": "HaRe",
@@ -10102,6 +10931,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsDeclP",
           "package": "HaRe",
@@ -10115,6 +10945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsDeclsP",
           "package": "HaRe",
@@ -10123,6 +10954,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsDeclsP",
           "package": "HaRe",
@@ -10136,6 +10968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsExpP",
           "package": "HaRe",
@@ -10144,6 +10977,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsExpP",
           "package": "HaRe",
@@ -10157,6 +10991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsModuleP",
           "package": "HaRe",
@@ -10165,6 +11000,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsModuleP",
           "package": "HaRe",
@@ -10179,6 +11015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHsName is a name as it is found in the source\n This seems to be quite a close correlation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsName",
           "package": "HaRe",
@@ -10188,6 +11025,7 @@
         "index": {
           "description": "HsName is name as it is found in the source This seems to be quite close correlation",
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsName",
           "package": "HaRe",
@@ -10201,6 +11039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsPatP",
           "package": "HaRe",
@@ -10209,6 +11048,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "HsPatP",
           "package": "HaRe",
@@ -10222,6 +11062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "InScopes",
           "package": "HaRe",
@@ -10230,6 +11071,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "InScopes",
           "package": "HaRe",
@@ -10244,6 +11086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe PN is the name as it occurs to the parser, and\n corresponds with the GHC.RdrName\n type PN     = GHC.RdrName\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PName",
           "package": "HaRe",
@@ -10253,6 +11096,7 @@
         "index": {
           "description": "The PN is the name as it occurs to the parser and corresponds with the GHC.RdrName type PN GHC.RdrName",
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PName",
           "package": "HaRe",
@@ -10266,6 +11110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PosToken",
           "package": "HaRe",
@@ -10274,6 +11119,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PosToken",
           "package": "HaRe",
@@ -10287,6 +11133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "SimpPos",
           "package": "HaRe",
@@ -10295,6 +11142,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "SimpPos",
           "package": "HaRe",
@@ -10308,6 +11156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PN",
           "package": "HaRe",
@@ -10317,6 +11166,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "PN",
           "package": "HaRe",
@@ -10330,6 +11180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "gfromJust",
           "package": "HaRe",
@@ -10339,6 +11190,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "gfromJust",
           "normalized": "[Char]-\u003eMaybe a-\u003ea",
@@ -10354,6 +11206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "ghead",
           "package": "HaRe",
@@ -10363,6 +11216,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "ghead",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -10377,6 +11231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "glast",
           "package": "HaRe",
@@ -10386,6 +11241,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "glast",
           "normalized": "String-\u003e[a]-\u003ea",
@@ -10400,6 +11256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "gtail",
           "package": "HaRe",
@@ -10409,6 +11266,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeSyn",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeSyn",
           "name": "gtail",
           "normalized": "String-\u003e[a]-\u003e[a]",
@@ -10424,6 +11282,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a collection of program analysis and\n transformation functions (the API) that work over the Type\n Decorated AST. Most of the functions defined in the module are\n taken directly from the API, but in some cases are modified to work\n with the type decorated AST.\n\u003c/p\u003e\u003cp\u003eIn particular some new functions have been added to make type\n decorated AST traversals easier.\n\u003c/p\u003e\u003cp\u003eIn HaRe, in order to preserve the comments and layout of refactored\n programs, a refactoring modifies not only the AST but also the\n token stream, and the program source after the refactoring is\n extracted from the token stream rather than the AST, for the\n comments and layout information is kept in the token steam instead\n of the AST. As a consequence, a program transformation function\n from this API modifies both the AST and the token stream (unless\n explicitly stated). So when you build your own program\n transformations, try to use the API to do the transformation, as\n this can liberate you from caring about the token stream.\n\u003c/p\u003e\u003cp\u003eThis type decorated API is still in development. Any suggestions\n and comments are very much welcome.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "TypeUtils",
           "package": "HaRe",
@@ -10433,6 +11292,7 @@
         "index": {
           "description": "This module contains collection of program analysis and transformation functions the API that work over the Type Decorated AST Most of the functions defined in the module are taken directly from the API but in some cases are modified to work with the type decorated AST In particular some new functions have been added to make type decorated AST traversals easier In HaRe in order to preserve the comments and layout of refactored programs refactoring modifies not only the AST but also the token stream and the program source after the refactoring is extracted from the token stream rather than the AST for the comments and layout information is kept in the token steam instead of the AST As consequence program transformation function from this API modifies both the AST and the token stream unless explicitly stated So when you build your own program transformations try to use the API to do the transformation as this can liberate you from caring about the token stream This type decorated API is still in development Any suggestions and comments are very much welcome",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "TypeUtils",
           "package": "HaRe",
@@ -10446,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "HsValBinds",
           "package": "HaRe",
@@ -10454,6 +11315,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "HsValBinds",
           "package": "HaRe",
@@ -10467,6 +11329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "UsedByRhs",
           "package": "HaRe",
@@ -10475,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "UsedByRhs",
           "package": "HaRe",
@@ -10488,6 +11352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addActualParamsToRhs",
           "package": "HaRe",
@@ -10497,6 +11362,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addActualParamsToRhs",
           "normalized": "Bool-\u003eName-\u003e[Name]-\u003ea-\u003eRefactGhc a",
@@ -10513,6 +11379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdding a declaration to the declaration list of the given syntax\n phrase. If the second argument is Nothing, then the declaration\n will be added to the beginning of the declaration list, but after\n the data type declarations is there is any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addDecl",
           "package": "HaRe",
@@ -10522,6 +11389,7 @@
         "index": {
           "description": "Adding declaration to the declaration list of the given syntax phrase If the second argument is Nothing then the declaration will be added to the beginning of the declaration list but after the data type declarations is there is any",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addDecl",
           "normalized": "a-\u003eMaybe Name-\u003e(LHsBind Name,[LSig Name],Maybe[PosToken])-\u003eBool-\u003eRefactGhc a",
@@ -10538,6 +11406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd items to the hiding list of an import declaration which\n imports the specified module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addHiding",
           "package": "HaRe",
@@ -10547,6 +11416,7 @@
         "index": {
           "description": "add items to the hiding list of an import declaration which imports the specified module",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addHiding",
           "normalized": "ModuleName-\u003eRenamedSource-\u003e[Name]-\u003eRefactGhc RenamedSource",
@@ -10563,6 +11433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd identifiers to the export list of a module. If the second argument is like: Just p, then do the adding only if p occurs\n in the export list, and the new identifiers are added right after p in the export list. Otherwise the new identifiers are add\n to the beginning of the export list. In the case that the export list is emport, then if the third argument is True, then create\n an explict export list to contain only the new identifiers, otherwise do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addImportDecl",
           "package": "HaRe",
@@ -10572,6 +11443,7 @@
         "index": {
           "description": "Add identifiers to the export list of module If the second argument is like Just then do the adding only if occurs in the export list and the new identifiers are added right after in the export list Otherwise the new identifiers are add to the beginning of the export list In the case that the export list is emport then if the third argument is True then create an explict export list to contain only the new identifiers otherwise do nothing",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addImportDecl",
           "normalized": "RenamedSource-\u003eModuleName-\u003eMaybe FastString-\u003eBool-\u003eBool-\u003eBool-\u003eMaybe String-\u003eBool-\u003e[Name]-\u003eRefactGhc RenamedSource",
@@ -10588,6 +11460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd identifiers (given by the third argument) to the explicit entity list in the declaration importing the\n   specified module name. This function does nothing if the import declaration does not have an explicit entity list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addItemsToImport",
           "package": "HaRe",
@@ -10597,6 +11470,7 @@
         "index": {
           "description": "Add identifiers given by the third argument to the explicit entity list in the declaration importing the specified module name This function does nothing if the import declaration does not have an explicit entity list",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addItemsToImport",
           "normalized": "ModuleName-\u003eRenamedSource-\u003e[Name]-\u003eRefactGhc RenamedSource",
@@ -10612,6 +11486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addParamsToDecls",
           "package": "HaRe",
@@ -10620,6 +11495,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "addParamsToDecls",
           "normalized": "[LHsBind Name]-\u003eName-\u003e[Name]-\u003eBool-\u003eRefactGhc[LHsBind Name]",
@@ -10636,6 +11512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all Located Names in the given Syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "allNames",
           "package": "HaRe",
@@ -10645,6 +11522,7 @@
         "index": {
           "description": "Find all Located Names in the given Syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "allNames",
           "normalized": "a-\u003e[Located Name]",
@@ -10661,6 +11539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the specified identifier is declared in the given syntax phrase t,\n if so, rename the identifier by creating a new name automatically. If the Bool parameter \n is True, the token stream will be modified, otherwise only the AST is modified. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "autoRenameLocalVar",
           "package": "HaRe",
@@ -10670,6 +11549,7 @@
         "index": {
           "description": "Check whether the specified identifier is declared in the given syntax phrase if so rename the identifier by creating new name automatically If the Bool parameter is True the token stream will be modified otherwise only the AST is modified",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "autoRenameLocalVar",
           "normalized": "Bool-\u003eName-\u003ea-\u003eRefactGhc a",
@@ -10686,6 +11566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the proposed new name will conflict with an existing export\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "causeNameClashInExports",
           "package": "HaRe",
@@ -10695,6 +11576,7 @@
         "index": {
           "description": "Check if the proposed new name will conflict with an existing export",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "causeNameClashInExports",
           "normalized": "Name-\u003eName-\u003eModuleName-\u003eRenamedSource-\u003eBool",
@@ -10711,6 +11593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultExp",
           "package": "HaRe",
@@ -10721,6 +11604,7 @@
         "index": {
           "description": "Default expression",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultExp",
           "package": "HaRe",
@@ -10734,6 +11618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultName",
           "package": "HaRe",
@@ -10743,6 +11628,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultName",
           "package": "HaRe",
@@ -10756,6 +11642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultPN",
           "package": "HaRe",
@@ -10765,6 +11652,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defaultPN",
           "package": "HaRe",
@@ -10779,6 +11667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the identifier's defining location.\n defineLoc::PNT-\u003eSrcLoc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defineLoc",
           "package": "HaRe",
@@ -10789,6 +11678,7 @@
         "index": {
           "description": "Return the identifier defining location defineLoc PNT SrcLoc",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defineLoc",
           "normalized": "Located Name-\u003eSrcLoc",
@@ -10805,6 +11695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the list of identifiers (in PName format) defined by a function/pattern binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definedPNs",
           "package": "HaRe",
@@ -10815,6 +11706,7 @@
         "index": {
           "description": "Return the list of identifiers in PName format defined by function pattern binding",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definedPNs",
           "normalized": "LHsBind Name-\u003e[Name]",
@@ -10831,6 +11723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the function/pattern binding defines the\n specified identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defines",
           "package": "HaRe",
@@ -10841,6 +11734,7 @@
         "index": {
           "description": "Return True if the function pattern binding defines the specified identifier",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "defines",
           "normalized": "Name-\u003eLHsBind Name-\u003eBool",
@@ -10855,6 +11749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definesP",
           "package": "HaRe",
@@ -10864,6 +11759,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definesP",
           "normalized": "PName-\u003eHsDeclP-\u003eBool",
@@ -10879,6 +11775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the declaration defines the type signature of the\n specified identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definesTypeSig",
           "package": "HaRe",
@@ -10889,6 +11786,7 @@
         "index": {
           "description": "Return True if the declaration defines the type signature of the specified identifier",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definesTypeSig",
           "normalized": "Name-\u003eLSig Name-\u003eBool",
@@ -10905,6 +11803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind those declarations(function/pattern binding) which define\n the specified GHC.Names. incTypeSig indicates whether the\n corresponding type signature will be included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingDeclsNames",
           "package": "HaRe",
@@ -10914,6 +11813,7 @@
         "index": {
           "description": "Find those declarations function pattern binding which define the specified GHC.Names incTypeSig indicates whether the corresponding type signature will be included",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingDeclsNames",
           "normalized": "[Name]-\u003e[LHsBind Name]-\u003eBool-\u003eBool-\u003e[LHsBind Name]",
@@ -10930,6 +11830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind those declarations(function/pattern binding) which define\n the specified GHC.Names. incTypeSig indicates whether the\n corresponding type signature will be included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingDeclsNames'",
           "package": "HaRe",
@@ -10939,6 +11840,7 @@
         "index": {
           "description": "Find those declarations function pattern binding which define the specified GHC.Names incTypeSig indicates whether the corresponding type signature will be included",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingDeclsNames'",
           "normalized": "[Name]-\u003ea-\u003e[LHsBind Name]",
@@ -10955,6 +11857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind those type signatures for the specified GHC.Names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingSigsNames",
           "package": "HaRe",
@@ -10964,6 +11867,7 @@
         "index": {
           "description": "Find those type signatures for the specified GHC.Names",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "definingSigsNames",
           "normalized": "[Name]-\u003ea-\u003e[LSig Name]",
@@ -10980,6 +11884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove those specified items from the entity list in the import declaration.\n\u003c/p\u003e\u003cp\u003eRemove the specified entities from the module's exports. The entities can be specified in either of two formats:\n i.e. either specify the module names and identifier names to be removed, so just given the exact AST for these entities.\n\u003c/p\u003e\u003cp\u003eDuplicate a function/pattern binding declaration under a new name\n right after the original one. Also updates the token stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "duplicateDecl",
           "package": "HaRe",
@@ -10989,6 +11894,7 @@
         "index": {
           "description": "Remove those specified items from the entity list in the import declaration Remove the specified entities from the module exports The entities can be specified in either of two formats i.e either specify the module names and identifier names to be removed so just given the exact AST for these entities Duplicate function pattern binding declaration under new name right after the original one Also updates the token stream",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "duplicateDecl",
           "normalized": "[LHsBind Name]-\u003ea-\u003eName-\u003eName-\u003eRefactGhc[LHsBind Name]",
@@ -11005,6 +11911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an expression consists of only one identifier then return this\n identifier in the GHC.Name format, otherwise return the default Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "expToName",
           "package": "HaRe",
@@ -11015,6 +11922,7 @@
         "index": {
           "description": "If an expression consists of only one identifier then return this identifier in the GHC.Name format otherwise return the default Name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "expToName",
           "normalized": "Located(HsExpr Name)-\u003eName",
@@ -11031,6 +11939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind all occurrences with location of the given name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findAllNameOccurences",
           "package": "HaRe",
@@ -11041,6 +11950,7 @@
         "index": {
           "description": "Find all occurrences with location of the given name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findAllNameOccurences",
           "normalized": "Name-\u003ea-\u003e[Located Name]",
@@ -11057,6 +11967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True is a syntax phrase, say a, is part of another\n syntax phrase, say b.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findEntity",
           "package": "HaRe",
@@ -11067,6 +11978,7 @@
         "index": {
           "description": "Returns True is syntax phrase say is part of another syntax phrase say",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findEntity",
           "normalized": "a-\u003eb-\u003eBool",
@@ -11082,6 +11994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findEntity'",
           "package": "HaRe",
@@ -11091,6 +12004,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findEntity'",
           "normalized": "a-\u003eb-\u003eMaybe(SimpPos,SimpPos)",
@@ -11107,6 +12021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier occurs in the given syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPN",
           "package": "HaRe",
@@ -11117,6 +12032,7 @@
         "index": {
           "description": "Return True if the identifier occurs in the given syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPN",
           "normalized": "Name-\u003ea-\u003eBool",
@@ -11133,6 +12049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier occurs in the given syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPNT",
           "package": "HaRe",
@@ -11143,6 +12060,7 @@
         "index": {
           "description": "Return True if the identifier occurs in the given syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPNT",
           "normalized": "Located Name-\u003ea-\u003eBool",
@@ -11159,6 +12077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if any of the specified PNames ocuur in the given syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPNs",
           "package": "HaRe",
@@ -11169,6 +12088,7 @@
         "index": {
           "description": "Return True if any of the specified PNames ocuur in the given syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "findPNs",
           "normalized": "[Name]-\u003ea-\u003eBool",
@@ -11184,6 +12104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getDeclAndToks",
           "package": "HaRe",
@@ -11193,6 +12114,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getDeclAndToks",
           "normalized": "Name-\u003eBool-\u003e[PosToken]-\u003ea-\u003e([LHsBind Name],[PosToken])",
@@ -11208,6 +12130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getDeclaredVars",
           "package": "HaRe",
@@ -11217,6 +12140,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getDeclaredVars",
           "normalized": "[LHsBind Name]-\u003e[Name]",
@@ -11232,6 +12156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getFreeVars",
           "package": "HaRe",
@@ -11241,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getFreeVars",
           "normalized": "[LHsBind Name]-\u003e[Name]",
@@ -11257,6 +12183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExperiment with GHC fvs stuff\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getFvs",
           "package": "HaRe",
@@ -11267,6 +12194,7 @@
         "index": {
           "description": "Experiment with GHC fvs stuff",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getFvs",
           "normalized": "[LHsBind Name]-\u003e[([Name],NameSet)]",
@@ -11282,6 +12210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getModule",
           "package": "HaRe",
@@ -11291,6 +12220,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getModule",
           "package": "HaRe",
@@ -11305,6 +12235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the identifier with the given name. This looks through the\n given syntax phrase for the first GHC.Name which matches. Because\n it is Renamed source, the GHC.Name will include its defining\n location. Returns Nothing if the name is not found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getName",
           "package": "HaRe",
@@ -11314,6 +12245,7 @@
         "index": {
           "description": "Find the identifier with the given name This looks through the given syntax phrase for the first GHC.Name which matches Because it is Renamed source the GHC.Name will include its defining location Returns Nothing if the name is not found",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getName",
           "normalized": "String-\u003ea-\u003eMaybe Name",
@@ -11330,6 +12262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the signature and tokens for a declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getSigAndToks",
           "package": "HaRe",
@@ -11340,6 +12273,7 @@
         "index": {
           "description": "Get the signature and tokens for declaration",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getSigAndToks",
           "normalized": "Name-\u003ea-\u003e[PosToken]-\u003eMaybe(LSig Name,[PosToken])",
@@ -11355,6 +12289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getToksForDecl",
           "package": "HaRe",
@@ -11364,6 +12299,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "getToksForDecl",
           "normalized": "a-\u003e[PosToken]-\u003e[PosToken]",
@@ -11379,6 +12315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "ghcToPN",
           "package": "HaRe",
@@ -11388,6 +12325,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "ghcToPN",
           "normalized": "RdrName-\u003ePName",
@@ -11403,6 +12341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsBinds",
           "package": "HaRe",
@@ -11412,6 +12351,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsBinds",
           "normalized": "a-\u003e[LHsBind Name]",
@@ -11428,6 +12368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003ehsFDsFromInside\u003c/a\u003e\u003c/code\u003e except that the returned variables\n are in the String format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFDNamesFromInside",
           "package": "HaRe",
@@ -11438,6 +12379,7 @@
         "index": {
           "description": "The same as hsFDsFromInside except that the returned variables are in the String format",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFDNamesFromInside",
           "normalized": "a-\u003eRefactGhc([String],[String])",
@@ -11454,6 +12396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehsFDsFromInside\u003c/a\u003e\u003c/code\u003e is different from \u003ccode\u003e\u003ca\u003ehsFreeAndDeclaredPNs\u003c/a\u003e\u003c/code\u003e in\n that: given an syntax phrase t, \u003ccode\u003e\u003ca\u003ehsFDsFromInside\u003c/a\u003e\u003c/code\u003e returns not only\n the declared variables that are visible from outside of t, but also\n those declared variables that are visible to the main expression\n inside t.\n NOTE: Expects to be given RenamedSource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFDsFromInside",
           "package": "HaRe",
@@ -11464,6 +12407,7 @@
         "index": {
           "description": "hsFDsFromInside is different from hsFreeAndDeclaredPNs in that given an syntax phrase hsFDsFromInside returns not only the declared variables that are visible from outside of but also those declared variables that are visible to the main expression inside NOTE Expects to be given RenamedSource",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFDsFromInside",
           "normalized": "a-\u003e([Name],[Name])",
@@ -11480,6 +12424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as \u003ccode\u003e\u003ca\u003ehsFreeAndDeclaredPNs\u003c/a\u003e\u003c/code\u003e except that the returned\n variables are in the String format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFreeAndDeclaredNames",
           "package": "HaRe",
@@ -11490,6 +12435,7 @@
         "index": {
           "description": "The same as hsFreeAndDeclaredPNs except that the returned variables are in the String format",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFreeAndDeclaredNames",
           "normalized": "a-\u003e([String],[String])",
@@ -11506,6 +12452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the free and declared variables (in the GHC.Name format)\n in a given syntax phrase t. In the result, the first list contains\n the free variables, and the second list contains the declared\n variables.\n Expects RenamedSource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFreeAndDeclaredPNs",
           "package": "HaRe",
@@ -11516,6 +12463,7 @@
         "index": {
           "description": "Collect the free and declared variables in the GHC.Name format in given syntax phrase In the result the first list contains the free variables and the second list contains the declared variables Expects RenamedSource",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsFreeAndDeclaredPNs",
           "normalized": "a-\u003e([Name],[Name])",
@@ -11532,6 +12480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the identifiers (in PName format) in a given syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsPNs",
           "package": "HaRe",
@@ -11542,6 +12491,7 @@
         "index": {
           "description": "Collect the identifiers in PName format in given syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsPNs",
           "normalized": "a-\u003e[PName]",
@@ -11558,6 +12508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the binds that are directly enclosed in the\n given syntax phrase.\n hsValBinds :: t -\u003e [GHC.LHsBind GHC.Name]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsValBinds",
           "package": "HaRe",
@@ -11568,6 +12519,7 @@
         "index": {
           "description": "Return the binds that are directly enclosed in the given syntax phrase hsValBinds GHC.LHsBind GHC.Name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsValBinds",
           "normalized": "a-\u003eHsValBinds Name",
@@ -11584,6 +12536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ehsVisiblePNs\u003c/a\u003e\u003c/code\u003e except that the returned identifiers are\n in String format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsVisibleNames",
           "package": "HaRe",
@@ -11594,6 +12547,7 @@
         "index": {
           "description": "Same as hsVisiblePNs except that the returned identifiers are in String format",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsVisibleNames",
           "normalized": "a-\u003ea-\u003e[String]",
@@ -11610,6 +12564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven syntax phrases e and t, if e occurs in t, then return those\n variables which are declared in t and accessible to e, otherwise\n return [].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsVisiblePNs",
           "package": "HaRe",
@@ -11620,6 +12575,7 @@
         "index": {
           "description": "Given syntax phrases and if occurs in then return those variables which are declared in and accessible to otherwise return",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "hsVisiblePNs",
           "normalized": "a-\u003eb-\u003e[Name]",
@@ -11636,6 +12592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcess the inscope relation returned from the parsing and module\n analysis pass, and return a list of four-element tuples. Each tuple\n contains an identifier name, the identifier's namespace info, the\n identifier's defining module name and its qualifier name.\n\u003c/p\u003e\u003cp\u003eThe same identifier may have multiple entries in the result because\n it may have different qualifiers. This makes it easier to decide\n whether the identifier can be used unqualifiedly by just checking\n whether there is an entry for it with the qualifier field being\n Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "inScopeInfo",
           "package": "HaRe",
@@ -11645,6 +12602,7 @@
         "index": {
           "description": "Process the inscope relation returned from the parsing and module analysis pass and return list of four-element tuples Each tuple contains an identifier name the identifier namespace info the identifier defining module name and its qualifier name The same identifier may have multiple entries in the result because it may have different qualifiers This makes it easier to decide whether the identifier can be used unqualifiedly by just checking whether there is an entry for it with the qualifier field being Nothing",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "inScopeInfo",
           "normalized": "InScopes-\u003e[(String,NameSpace,ModuleName,Maybe ModuleName)]",
@@ -11660,6 +12618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "inScopeNames",
           "package": "HaRe",
@@ -11668,6 +12627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "inScopeNames",
           "normalized": "String-\u003eRefactGhc[Name]",
@@ -11684,6 +12644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the name is a field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isClassName",
           "package": "HaRe",
@@ -11694,6 +12655,7 @@
         "index": {
           "description": "True if the name is field name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isClassName",
           "normalized": "Name-\u003eBool",
@@ -11710,6 +12672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a pattern binding but not a simple one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isComplexPatBind",
           "package": "HaRe",
@@ -11720,6 +12683,7 @@
         "index": {
           "description": "Return True if declaration is pattern binding but not simple one",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isComplexPatBind",
           "normalized": "LHsBind Name-\u003eBool",
@@ -11736,6 +12700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a string is a lexically valid constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isConId",
           "package": "HaRe",
@@ -11746,6 +12711,7 @@
         "index": {
           "description": "Return True if string is lexically valid constructor name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isConId",
           "normalized": "String-\u003eBool",
@@ -11761,6 +12727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isDeclaredIn",
           "package": "HaRe",
@@ -11770,6 +12737,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isDeclaredIn",
           "normalized": "Name-\u003ea-\u003eBool",
@@ -11786,6 +12754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if an identifier is explicitly exported by the module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isExplicitlyExported",
           "package": "HaRe",
@@ -11795,6 +12764,7 @@
         "index": {
           "description": "Return True if an identifier is explicitly exported by the module",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isExplicitlyExported",
           "normalized": "Name-\u003eRenamedSource-\u003eBool",
@@ -11811,6 +12781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if an identifier is exported by the module currently\n being refactored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isExported",
           "package": "HaRe",
@@ -11821,6 +12792,7 @@
         "index": {
           "description": "Return True if an identifier is exported by the module currently being refactored",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isExported",
           "normalized": "Name-\u003eRefactGhc Bool",
@@ -11837,6 +12809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the name is a field name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFieldName",
           "package": "HaRe",
@@ -11847,6 +12820,7 @@
         "index": {
           "description": "True if the name is field name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFieldName",
           "normalized": "Name-\u003eBool",
@@ -11863,6 +12837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a function definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunBindP",
           "package": "HaRe",
@@ -11873,6 +12848,7 @@
         "index": {
           "description": "Return True if declaration is function definition",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunBindP",
           "normalized": "HsDeclP-\u003eBool",
@@ -11888,6 +12864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunBindR",
           "package": "HaRe",
@@ -11897,6 +12874,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunBindR",
           "normalized": "LHsBind a-\u003eBool",
@@ -11913,6 +12891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a function/pattern definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatBindP",
           "package": "HaRe",
@@ -11923,6 +12902,7 @@
         "index": {
           "description": "Return True if declaration is function pattern definition",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatBindP",
           "normalized": "HsDeclP-\u003eBool",
@@ -11939,6 +12919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a function/pattern definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatBindR",
           "package": "HaRe",
@@ -11949,6 +12930,7 @@
         "index": {
           "description": "Return True if declaration is function pattern definition",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatBindR",
           "normalized": "LHsBind a-\u003eBool",
@@ -11965,6 +12947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a PName is a function/pattern name defined in t.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatName",
           "package": "HaRe",
@@ -11975,6 +12958,7 @@
         "index": {
           "description": "Return True if PName is function pattern name defined in",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isFunOrPatName",
           "normalized": "Name-\u003ea-\u003eBool",
@@ -11991,6 +12975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier is inscope and can be used without\n a qualifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInScopeAndUnqualified",
           "package": "HaRe",
@@ -12000,6 +12985,7 @@
         "index": {
           "description": "Return True if the identifier is inscope and can be used without qualifier",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInScopeAndUnqualified",
           "normalized": "String-\u003eInScopes-\u003eBool",
@@ -12016,6 +13002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier is inscope and can be used without\n a qualifier. The identifier name string may have a qualifier\n already\n NOTE: may require qualification based on name clash with an\n existing identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInScopeAndUnqualifiedGhc",
           "package": "HaRe",
@@ -12025,6 +13012,7 @@
         "index": {
           "description": "Return True if the identifier is inscope and can be used without qualifier The identifier name string may have qualifier already NOTE may require qualification based on name clash with an existing identifier",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInScopeAndUnqualifiedGhc",
           "normalized": "String-\u003eMaybe Name-\u003eRefactGhc Bool",
@@ -12041,6 +13029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the name is a class instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInstanceName",
           "package": "HaRe",
@@ -12051,6 +13040,7 @@
         "index": {
           "description": "True if the name is class instance",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isInstanceName",
           "normalized": "Name-\u003eBool",
@@ -12067,6 +13057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a PName is a local PName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isLocalPN",
           "package": "HaRe",
@@ -12077,6 +13068,7 @@
         "index": {
           "description": "Return True if PName is local PName",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isLocalPN",
           "normalized": "Name-\u003eBool",
@@ -12092,6 +13084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isMainModule",
           "package": "HaRe",
@@ -12101,6 +13094,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isMainModule",
           "normalized": "Module-\u003eBool",
@@ -12117,6 +13111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a string is a lexically valid operator name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isOperator",
           "package": "HaRe",
@@ -12127,6 +13122,7 @@
         "index": {
           "description": "Return True if string is lexically valid operator name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isOperator",
           "normalized": "String-\u003eBool",
@@ -12143,6 +13139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if a declaration is a pattern binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isPatBindP",
           "package": "HaRe",
@@ -12153,6 +13150,7 @@
         "index": {
           "description": "Returns True if declaration is pattern binding",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isPatBindP",
           "normalized": "HsDeclP-\u003eBool",
@@ -12168,6 +13166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isPatBindR",
           "package": "HaRe",
@@ -12177,6 +13176,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isPatBindR",
           "normalized": "LHsBind a-\u003eBool",
@@ -12193,6 +13193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a PName is a qualified PName.\n  AZ:NOTE: this tests the use instance, the underlying name may be qualified.\n           e.g. used name is zip, GHC.List.zip\n     NOTE2: not sure if this gives a meaningful result for a GHC.Name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isQualifiedPN",
           "package": "HaRe",
@@ -12203,6 +13204,7 @@
         "index": {
           "description": "Return True if PName is qualified PName AZ NOTE this tests the use instance the underlying name may be qualified e.g used name is zip GHC.List.zip NOTE2 not sure if this gives meaningful result for GHC.Name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isQualifiedPN",
           "normalized": "Name-\u003eRefactGhc Bool",
@@ -12219,6 +13221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a pattern binding which only\n defines a variable value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isSimplePatBind",
           "package": "HaRe",
@@ -12229,6 +13232,7 @@
         "index": {
           "description": "Return True if declaration is pattern binding which only defines variable value",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isSimplePatBind",
           "normalized": "LHsBind a-\u003eBool",
@@ -12245,6 +13249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a PName is a toplevel PName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isTopLevelPN",
           "package": "HaRe",
@@ -12255,6 +13260,7 @@
         "index": {
           "description": "Return True if PName is toplevel PName",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isTopLevelPN",
           "normalized": "Name-\u003eRefactGhc Bool",
@@ -12271,6 +13277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a declaration is a type signature declaration.\n isTypeSig ::HsDeclP-\u003eBool\n isTypeSig (TiDecorate.Dec (HsTypeSig loc is c tp))=True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isTypeSig",
           "package": "HaRe",
@@ -12281,6 +13288,7 @@
         "index": {
           "description": "Return True if declaration is type signature declaration isTypeSig HsDeclP Bool isTypeSig TiDecorate.Dec HsTypeSig loc is tp True",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isTypeSig",
           "normalized": "Located(Sig a)-\u003eBool",
@@ -12297,6 +13305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier is used in the RHS if a\n function/pattern binding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isUsedInRhs",
           "package": "HaRe",
@@ -12307,6 +13316,7 @@
         "index": {
           "description": "Return True if the identifier is used in the RHS if function pattern binding",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isUsedInRhs",
           "normalized": "Located Name-\u003ea-\u003eBool",
@@ -12323,6 +13333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if a string is a lexically  valid variable name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isVarId",
           "package": "HaRe",
@@ -12333,6 +13344,7 @@
         "index": {
           "description": "Return True if string is lexically valid variable name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "isVarId",
           "normalized": "String-\u003eBool",
@@ -12348,6 +13360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "lghcToPN",
           "package": "HaRe",
@@ -12357,6 +13370,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "lghcToPN",
           "normalized": "Located RdrName-\u003ePName",
@@ -12373,6 +13387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the syntax phrase, find the largest-leftmost expression\n contained in the region specified by the start and end position, if\n found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToExp",
           "package": "HaRe",
@@ -12382,6 +13397,7 @@
         "index": {
           "description": "Given the syntax phrase find the largest-leftmost expression contained in the region specified by the start and end position if found",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToExp",
           "normalized": "SimpPos-\u003eSimpPos-\u003ea-\u003eMaybe(Located(HsExpr b))",
@@ -12398,6 +13414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the identifier(in GHC.Name format) whose start position is\n (row,col) in the file specified by the fileName, and returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if such an identifier does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToName",
           "package": "HaRe",
@@ -12407,6 +13424,7 @@
         "index": {
           "description": "Find the identifier in GHC.Name format whose start position is row col in the file specified by the fileName and returns Nothing if such an identifier does not exist",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToName",
           "normalized": "SimpPos-\u003ea-\u003eMaybe(Located Name)",
@@ -12423,6 +13441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the identifier(in GHC.RdrName format) whose start position is\n (row,col) in the file specified by the fileName, and returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if such an identifier does not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToRdrName",
           "package": "HaRe",
@@ -12432,6 +13451,7 @@
         "index": {
           "description": "Find the identifier in GHC.RdrName format whose start position is row col in the file specified by the fileName and returns Nothing if such an identifier does not exist",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "locToRdrName",
           "normalized": "SimpPos-\u003ea-\u003eMaybe(Located RdrName)",
@@ -12448,6 +13468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a new GHC.Name, using the Unique Int sequence stored in the\n RefactState.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewGhcName",
           "package": "HaRe",
@@ -12458,6 +13479,7 @@
         "index": {
           "description": "Make new GHC.Name using the Unique Int sequence stored in the RefactState",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewGhcName",
           "normalized": "Maybe Module-\u003eString-\u003eRefactGhc Name",
@@ -12474,6 +13496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new name base on the old name. Suppose the old name is \u003ccode\u003ef\u003c/code\u003e, then\n  the new name would be like \u003ccode\u003ef_i\u003c/code\u003e where \u003ccode\u003ei\u003c/code\u003e is an integer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewName",
           "package": "HaRe",
@@ -12483,6 +13506,7 @@
         "index": {
           "description": "Create new name base on the old name Suppose the old name is then the new name would be like where is an integer",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewName",
           "normalized": "String-\u003e[String]-\u003eInt-\u003eString",
@@ -12498,6 +13522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewToplevelName",
           "package": "HaRe",
@@ -12507,6 +13532,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkNewToplevelName",
           "normalized": "Module-\u003eString-\u003eSrcSpan-\u003eRefactGhc Name",
@@ -12522,6 +13548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkRdrName",
           "package": "HaRe",
@@ -12531,6 +13558,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "mkRdrName",
           "normalized": "String-\u003eRdrName",
@@ -12547,6 +13575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the current module is exported either by default\n or by specifying the module name in the export.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "modIsExported",
           "package": "HaRe",
@@ -12556,6 +13585,7 @@
         "index": {
           "description": "Return True if the current module is exported either by default or by specifying the module name in the export",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "modIsExported",
           "normalized": "ModuleName-\u003eRenamedSource-\u003eBool",
@@ -12571,6 +13601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "nameToString",
           "package": "HaRe",
@@ -12580,6 +13611,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "nameToString",
           "normalized": "Name-\u003eString",
@@ -12596,6 +13628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new name token. If \u003ccode\u003euseQual\u003c/code\u003e then use the qualified\n name, if it exists.\n The end position is not changed, so the eventual realignment can\n know what the difference in length in the token is\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "newNameTok",
           "package": "HaRe",
@@ -12606,6 +13639,7 @@
         "index": {
           "description": "Create new name token If useQual then use the qualified name if it exists The end position is not changed so the eventual realignment can know what the difference in length in the token is",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "newNameTok",
           "normalized": "Bool-\u003eSrcSpan-\u003eName-\u003ePosToken",
@@ -12622,6 +13656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a pattern from a pName.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "pNtoPat",
           "package": "HaRe",
@@ -12632,6 +13667,7 @@
         "index": {
           "description": "Compose pattern from pName",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "pNtoPat",
           "normalized": "Name-\u003ePat Name",
@@ -12648,6 +13684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a pattern consists of only one identifier then return this\n identifier, otherwise return Nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "patToPNT",
           "package": "HaRe",
@@ -12658,6 +13695,7 @@
         "index": {
           "description": "If pattern consists of only one identifier then return this identifier otherwise return Nothing",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "patToPNT",
           "normalized": "LPat Name-\u003eMaybe Name",
@@ -12674,6 +13712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all occurences of a top level GHC.Name with a qualified version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "qualifyToplevelName",
           "package": "HaRe",
@@ -12684,6 +13723,7 @@
         "index": {
           "description": "Replace all occurences of top level GHC.Name with qualified version",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "qualifyToplevelName",
           "normalized": "Name-\u003eRefactGhc()",
@@ -12700,6 +13740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove at most \u003ccode\u003eoffset\u003c/code\u003e whitespaces from each line in the tokens\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "removeOffset",
           "package": "HaRe",
@@ -12710,6 +13751,7 @@
         "index": {
           "description": "Remove at most offset whitespaces from each line in the tokens",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "removeOffset",
           "normalized": "Int-\u003e[PosToken]-\u003e[PosToken]",
@@ -12726,6 +13768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalise a set of tokens to start at the offset of the first one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "removeToksOffset",
           "package": "HaRe",
@@ -12736,6 +13779,7 @@
         "index": {
           "description": "Normalise set of tokens to start at the offset of the first one",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "removeToksOffset",
           "normalized": "[PosToken]-\u003e[PosToken]",
@@ -12752,6 +13796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRename each occurrences of the identifier in the given syntax\n phrase with the new name. If the Bool parameter is True, then\n modify both the AST and the token stream, otherwise only modify the\n AST.\n TODO: the syntax phrase is required to be GHC.Located, not sure how\n to specify this without breaking the everywhereMStaged call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "renamePN",
           "package": "HaRe",
@@ -12761,6 +13806,7 @@
         "index": {
           "description": "Rename each occurrences of the identifier in the given syntax phrase with the new name If the Bool parameter is True then modify both the AST and the token stream otherwise only modify the AST TODO the syntax phrase is required to be GHC.Located not sure how to specify this without breaking the everywhereMStaged call",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "renamePN",
           "normalized": "Name-\u003eName-\u003eBool-\u003eBool-\u003ea-\u003eRefactGhc a",
@@ -12776,6 +13822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "replaceBinds",
           "package": "HaRe",
@@ -12785,6 +13832,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "replaceBinds",
           "normalized": "a-\u003e[LHsBind Name]-\u003ea",
@@ -12801,6 +13849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the directly enclosed bind list by the given\n  bind list. Note: This function does not modify the\n  token stream.\n replaceBinds :: t -\u003e [GHC.LHsBind GHC.Name] -\u003e t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "replaceValBinds",
           "package": "HaRe",
@@ -12811,6 +13860,7 @@
         "index": {
           "description": "Replace the directly enclosed bind list by the given bind list Note This function does not modify the token stream replaceBinds GHC.LHsBind GHC.Name",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "replaceValBinds",
           "normalized": "a-\u003eHsValBinds Name-\u003ea",
@@ -12827,6 +13877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the declaration (and the type signature is the second\n parameter is True) that defines the given identifier from the\n declaration list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmDecl",
           "package": "HaRe",
@@ -12836,6 +13887,7 @@
         "index": {
           "description": "Remove the declaration and the type signature is the second parameter is True that defines the given identifier from the declaration list",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmDecl",
           "normalized": "Name-\u003eBool-\u003ea-\u003eRefactGhc(a,LHsBind Name,Maybe(LSig Name))",
@@ -12852,6 +13904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the qualifier from the given identifiers in the given syntax phrase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmQualifier",
           "package": "HaRe",
@@ -12861,6 +13914,7 @@
         "index": {
           "description": "Remove the qualifier from the given identifiers in the given syntax phrase",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmQualifier",
           "normalized": "[Name]-\u003ea-\u003eRefactGhc a",
@@ -12877,6 +13931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the type signature that defines the given identifier's\n type from the declaration list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmTypeSig",
           "package": "HaRe",
@@ -12886,6 +13941,7 @@
         "index": {
           "description": "Remove the type signature that defines the given identifier type from the declaration list",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmTypeSig",
           "normalized": "Name-\u003ea-\u003eRefactGhc(a,Maybe(LSig Name))",
@@ -12902,6 +13958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove multiple type signatures\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmTypeSigs",
           "package": "HaRe",
@@ -12911,6 +13968,7 @@
         "index": {
           "description": "Remove multiple type signatures",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "rmTypeSigs",
           "normalized": "[Name]-\u003ea-\u003eRefactGhc(a,[LSig Name])",
@@ -12926,6 +13984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "sameBind",
           "package": "HaRe",
@@ -12935,6 +13994,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "sameBind",
           "normalized": "LHsBind Name-\u003eLHsBind Name-\u003eBool",
@@ -12978,6 +14038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a list of entities, the parameter f is a function that\n specifies how to format an entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "showEntities",
           "package": "HaRe",
@@ -12988,6 +14049,7 @@
         "index": {
           "description": "Show list of entities the parameter is function that specifies how to format an entity",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "showEntities",
           "normalized": "(a-\u003eString)-\u003e[a]-\u003eString",
@@ -13004,6 +14066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a PName in a format like: \u003ccode\u003epn\u003c/code\u003e(at row:r, col: c).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "showPNwithLoc",
           "package": "HaRe",
@@ -13014,6 +14077,7 @@
         "index": {
           "description": "Show PName in format like pn at row col",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "showPNwithLoc",
           "normalized": "Located Name-\u003eString",
@@ -13030,6 +14094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake a list of strings and return a list with the longest prefix\n of spaces removed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "stripLeadingSpaces",
           "package": "HaRe",
@@ -13040,6 +14105,7 @@
         "index": {
           "description": "Take list of strings and return list with the longest prefix of spaces removed",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "stripLeadingSpaces",
           "normalized": "[String]-\u003e[String]",
@@ -13056,6 +14122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the identifier's source location.\n useLoc::PNT-\u003eSrcLoc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "useLoc",
           "package": "HaRe",
@@ -13066,6 +14133,7 @@
         "index": {
           "description": "Return the identifier source location useLoc PNT SrcLoc",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "useLoc",
           "normalized": "Located Name-\u003eSrcLoc",
@@ -13082,6 +14150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if any of the GHC.Name's appear in the given\n syntax element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "usedByRhs",
           "package": "HaRe",
@@ -13092,6 +14161,7 @@
         "index": {
           "description": "Return True if any of the GHC.Name appear in the given syntax element",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "usedByRhs",
           "normalized": "a-\u003e[Name]-\u003eBool",
@@ -13108,6 +14178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn True if the identifier is unqualifiedly used in the given\n syntax phrase.\n usedWithoutQualR :: GHC.Name -\u003e GHC.ParsedSource -\u003e Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "usedWithoutQualR",
           "package": "HaRe",
@@ -13118,6 +14189,7 @@
         "index": {
           "description": "Return True if the identifier is unqualifiedly used in the given syntax phrase usedWithoutQualR GHC.Name GHC.ParsedSource Bool",
           "hierarchy": "Language Haskell Refact Utils TypeUtils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils.TypeUtils",
           "name": "usedWithoutQualR",
           "normalized": "Name-\u003ea-\u003eBool",
@@ -13133,6 +14205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "Utils",
           "package": "HaRe",
@@ -13141,6 +14214,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "Utils",
           "package": "HaRe",
@@ -13155,6 +14229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of a refactoring is the file, a flag as to whether it\n was modified, the updated token stream, and the updated AST\n type ApplyRefacResult = ((FilePath, Bool), ([Ppr],[PosToken], GHC.RenamedSource))\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "ApplyRefacResult",
           "package": "HaRe",
@@ -13164,6 +14239,7 @@
         "index": {
           "description": "The result of refactoring is the file flag as to whether it was modified the updated token stream and the updated AST type ApplyRefacResult FilePath Bool Ppr PosToken GHC.RenamedSource",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "ApplyRefacResult",
           "package": "HaRe",
@@ -13177,6 +14253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RefacSource",
           "package": "HaRe",
@@ -13185,6 +14262,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RefacSource",
           "package": "HaRe",
@@ -13198,6 +14276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSAlreadyLoaded",
           "package": "HaRe",
@@ -13207,6 +14286,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSAlreadyLoaded",
           "package": "HaRe",
@@ -13220,6 +14300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSFile",
           "package": "HaRe",
@@ -13229,6 +14310,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSFile",
           "package": "HaRe",
@@ -13242,6 +14324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSMod",
           "package": "HaRe",
@@ -13251,6 +14334,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "RSMod",
           "package": "HaRe",
@@ -13265,6 +14349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the existing GHC session, put the requested TypeCheckedModule\n into the RefactGhc Monad, after ensuring that its originating\n target is the currently loaded one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "activateModule",
           "package": "HaRe",
@@ -13275,6 +14360,7 @@
         "index": {
           "description": "In the existing GHC session put the requested TypeCheckedModule into the RefactGhc Monad after ensuring that its originating target is the currently loaded one",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "activateModule",
           "normalized": "TargetModule-\u003eRefactGhc ModSummary",
@@ -13291,6 +14377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a refactoring (or part of a refactoring) to a single module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "applyRefac",
           "package": "HaRe",
@@ -13300,6 +14387,7 @@
         "index": {
           "description": "Apply refactoring or part of refactoring to single module",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "applyRefac",
           "normalized": "RefactGhc a-\u003eRefacSource-\u003eRefactGhc(ApplyRefacResult,a)",
@@ -13316,6 +14404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the client modules and file names. The client modules of\n module, say m, are those modules which directly or indirectly\n import module m.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "clientModsAndFiles",
           "package": "HaRe",
@@ -13326,6 +14415,7 @@
         "index": {
           "description": "Return the client modules and file names The client modules of module say are those modules which directly or indirectly import module",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "clientModsAndFiles",
           "normalized": "ModuleName-\u003eRefactGhc[([FilePath],ModSummary)]",
@@ -13341,6 +14431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "fileNameFromModSummary",
           "package": "HaRe",
@@ -13350,6 +14441,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "fileNameFromModSummary",
           "normalized": "ModSummary-\u003eFilePath",
@@ -13366,6 +14458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom file name to module name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "fileNameToModName",
           "package": "HaRe",
@@ -13376,6 +14469,7 @@
         "index": {
           "description": "From file name to module name",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "fileNameToModName",
           "normalized": "FilePath-\u003eRefactGhc ModuleName",
@@ -13392,6 +14486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn the existing GHC session, put the requested TypeCheckedModule\n into the RefactGhc monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleDetails",
           "package": "HaRe",
@@ -13402,6 +14497,7 @@
         "index": {
           "description": "In the existing GHC session put the requested TypeCheckedModule into the RefactGhc monad",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleDetails",
           "normalized": "ModSummary-\u003eRefactGhc()",
@@ -13418,6 +14514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnce the module graph has been loaded, load the given module into\n the RefactGhc monad\n TODO: relax the equality test, if the file is loaded via cabal it\n may have a full filesystem path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleGhc",
           "package": "HaRe",
@@ -13428,6 +14525,7 @@
         "index": {
           "description": "Once the module graph has been loaded load the given module into the RefactGhc monad TODO relax the equality test if the file is loaded via cabal it may have full filesystem path",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleGhc",
           "normalized": "FilePath-\u003eRefactGhc()",
@@ -13444,6 +14542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the module name from the parsed source, if there is one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleName",
           "package": "HaRe",
@@ -13454,6 +14553,7 @@
         "index": {
           "description": "Extract the module name from the parsed source if there is one",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "getModuleName",
           "normalized": "ParsedSource-\u003eMaybe(ModuleName,String)",
@@ -13470,6 +14570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a single source file into a GHC session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "parseSourceFileGhc",
           "package": "HaRe",
@@ -13480,6 +14581,7 @@
         "index": {
           "description": "Parse single source file into GHC session",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "parseSourceFileGhc",
           "normalized": "FilePath-\u003eRefactGhc()",
@@ -13496,6 +14598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns True if any of the results has its modified flag set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "refactDone",
           "package": "HaRe",
@@ -13506,6 +14609,7 @@
         "index": {
           "description": "Returns True if any of the results has its modified flag set",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "refactDone",
           "normalized": "[ApplyRefacResult]-\u003eBool",
@@ -13522,6 +14626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eManage a whole refactor session. Initialise the monad, load the\n whole project if required, and then apply the individual\n refactorings, and write out the resulting files.\n\u003c/p\u003e\u003cp\u003eIt is intended that this forms the umbrella function, in which\n applyRefac is called\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "runRefacSession",
           "package": "HaRe",
@@ -13531,6 +14636,7 @@
         "index": {
           "description": "Manage whole refactor session Initialise the monad load the whole project if required and then apply the individual refactorings and write out the resulting files It is intended that this forms the umbrella function in which applyRefac is called",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "runRefacSession",
           "normalized": "RefactSettings-\u003eCradle-\u003eRefactGhc[ApplyRefacResult]-\u003eIO[FilePath]",
@@ -13547,6 +14653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the server module and file names. The server modules of\n module, say m, are those modules which are directly or indirectly\n imported by module m. This can only be called in a live GHC session\n TODO: make sure this works with multiple targets. Is that needed? No?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "serverModsAndFiles",
           "package": "HaRe",
@@ -13557,6 +14664,7 @@
         "index": {
           "description": "Return the server module and file names The server modules of module say are those modules which are directly or indirectly imported by module This can only be called in live GHC session TODO make sure this works with multiple targets Is that needed No",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "serverModsAndFiles",
           "normalized": "ModuleName-\u003ea[ModSummary]",
@@ -13573,6 +14681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the occurrence of one syntax phrase in a given scope by\n another syntax phrase of the same type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Language.Haskell.Refact.Utils",
           "name": "update",
           "package": "HaRe",
@@ -13582,6 +14691,7 @@
         "index": {
           "description": "Update the occurrence of one syntax phrase in given scope by another syntax phrase of the same type",
           "hierarchy": "Language Haskell Refact Utils",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Language.Haskell.Refact.Utils",
           "name": "update",
           "normalized": "a-\u003ea-\u003ea-\u003eRefactGhc a",
@@ -13596,6 +14706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "Paths_HaRe",
           "package": "HaRe",
@@ -13604,6 +14715,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "Paths_HaRe",
           "package": "HaRe",
@@ -13617,6 +14729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getBinDir",
           "package": "HaRe",
@@ -13626,6 +14739,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getBinDir",
           "package": "HaRe",
@@ -13639,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getDataDir",
           "package": "HaRe",
@@ -13648,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getDataDir",
           "package": "HaRe",
@@ -13661,6 +14777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getDataFileName",
           "package": "HaRe",
@@ -13670,6 +14787,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getDataFileName",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -13685,6 +14803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getLibDir",
           "package": "HaRe",
@@ -13694,6 +14813,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getLibDir",
           "package": "HaRe",
@@ -13707,6 +14827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getLibexecDir",
           "package": "HaRe",
@@ -13716,6 +14837,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getLibexecDir",
           "package": "HaRe",
@@ -13729,6 +14851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "getSysconfDir",
           "package": "HaRe",
@@ -13738,6 +14861,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "getSysconfDir",
           "package": "HaRe",
@@ -13751,6 +14875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:10 UTC 2014",
           "module": "Paths_HaRe",
           "name": "version",
           "package": "HaRe",
@@ -13760,6 +14885,7 @@
         },
         "index": {
           "hierarchy": "Paths_HaRe",
+          "indexed": "2014-03-11T16:47:10",
           "module": "Paths_HaRe",
           "name": "version",
           "package": "HaRe",

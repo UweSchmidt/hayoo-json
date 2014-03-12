@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fixed-point-vector-space"
+        "phrase": "fixed-point-vector-space",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:09:48 UTC 2014",
           "module": "Data.Fixed.Binary.VectorSpace",
           "name": "VectorSpace",
           "package": "fixed-point-vector-space",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Fixed Binary VectorSpace",
+          "indexed": "2014-03-11T18:09:48",
           "module": "Data.Fixed.Binary.VectorSpace",
           "name": "VectorSpace",
           "package": "fixed-point-vector-space",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "steeloverseer"
+        "phrase": "steeloverseer",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "statistics"
+        "phrase": "statistics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for computing autocovariance and autocorrelation of a\n sample.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Autocorrelation",
           "name": "Autocorrelation",
           "package": "statistics",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for computing autocovariance and autocorrelation of sample",
           "hierarchy": "Statistics Autocorrelation",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Autocorrelation",
           "name": "Autocorrelation",
           "package": "statistics",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the autocorrelation function of a sample, and the upper\n and lower bounds of confidence intervals for each element.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: The calculation of the 95% confidence interval assumes a\n stationary Gaussian process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Autocorrelation",
           "name": "autocorrelation",
           "package": "statistics",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Compute the autocorrelation function of sample and the upper and lower bounds of confidence intervals for each element Note The calculation of the confidence interval assumes stationary Gaussian process",
           "hierarchy": "Statistics Autocorrelation",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Autocorrelation",
           "name": "autocorrelation",
           "normalized": "a Double-\u003e(a Double,a Double,a Double)",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the autocovariance of a sample, i.e. the covariance of\n the sample against a shifted version of itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Autocorrelation",
           "name": "autocovariance",
           "package": "statistics",
@@ -77,6 +82,7 @@
         "index": {
           "description": "Compute the autocovariance of sample i.e the covariance of the sample against shifted version of itself",
           "hierarchy": "Statistics Autocorrelation",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Autocorrelation",
           "name": "autocovariance",
           "normalized": "a Double-\u003ea Double",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use module Numeric.MathFunctions.Constants from math-functions\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eConstant values common to much statistics code.\n\u003c/p\u003e\u003cp\u003eDEPRECATED: use module \u003ccode\u003e\u003ca\u003eConstants\u003c/a\u003e\u003c/code\u003e from\n math-functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Constants",
           "name": "Constants",
           "package": "statistics",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Deprecated use module Numeric.MathFunctions.Constants from math-functions Constant values common to much statistics code DEPRECATED use module Constants from math-functions",
           "hierarchy": "Statistics Constants",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Constants",
           "name": "Constants",
           "package": "statistics",
@@ -114,6 +122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "Beta",
           "package": "statistics",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "Beta",
           "package": "statistics",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe beta distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "BetaDistribution",
           "package": "statistics",
@@ -145,6 +156,7 @@
         "index": {
           "description": "The beta distribution",
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "BetaDistribution",
           "package": "statistics",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlpha shape parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "bdAlpha",
           "package": "statistics",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Alpha shape parameter",
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "bdAlpha",
           "normalized": "BetaDistribution-\u003eDouble",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBeta shape parameter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "bdBeta",
           "package": "statistics",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Beta shape parameter",
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "bdBeta",
           "normalized": "BetaDistribution-\u003eDouble",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate beta distribution. Both shape parameters must be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "betaDistr",
           "package": "statistics",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Create beta distribution Both shape parameters must be positive",
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "betaDistr",
           "normalized": "Double-\u003eDouble-\u003eBetaDistribution",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate beta distribution. This construtor doesn't check parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Beta",
           "name": "improperBetaDistr",
           "package": "statistics",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Create beta distribution This construtor doesn check parameters",
           "hierarchy": "Statistics Distribution Beta",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Beta",
           "name": "improperBetaDistr",
           "normalized": "Double-\u003eDouble-\u003eBetaDistribution",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe binomial distribution.  This is the discrete probability\n distribution of the number of successes in a sequence of \u003cem\u003en\u003c/em\u003e\n independent yes/no experiments, each of which yields success with\n probability \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Binomial",
           "name": "Binomial",
           "package": "statistics",
@@ -270,6 +291,7 @@
         "index": {
           "description": "The binomial distribution This is the discrete probability distribution of the number of successes in sequence of independent yes no experiments each of which yields success with probability",
           "hierarchy": "Statistics Distribution Binomial",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Binomial",
           "name": "Binomial",
           "package": "statistics",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe binomial distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Binomial",
           "name": "BinomialDistribution",
           "package": "statistics",
@@ -293,6 +316,7 @@
         "index": {
           "description": "The binomial distribution",
           "hierarchy": "Statistics Distribution Binomial",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Binomial",
           "name": "BinomialDistribution",
           "package": "statistics",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Binomial",
           "name": "bdProbability",
           "package": "statistics",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Probability",
           "hierarchy": "Statistics Distribution Binomial",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Binomial",
           "name": "bdProbability",
           "normalized": "BinomialDistribution-\u003eDouble",
@@ -333,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of trials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Binomial",
           "name": "bdTrials",
           "package": "statistics",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Number of trials",
           "hierarchy": "Statistics Distribution Binomial",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Binomial",
           "name": "bdTrials",
           "normalized": "BinomialDistribution-\u003eInt",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct binomial distribution. Number of trials must be\n   non-negative and probability must be in [0,1] range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Binomial",
           "name": "binomial",
           "package": "statistics",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Construct binomial distribution Number of trials must be non-negative and probability must be in range",
           "hierarchy": "Statistics Distribution Binomial",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Binomial",
           "name": "binomial",
           "normalized": "Int-\u003eDouble-\u003eBinomialDistribution",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Cauchy-Lorentz distribution. It's also known as Lorentz\n distribution or Breit&#8211;Wigner distribution.\n\u003c/p\u003e\u003cp\u003eIt doesn't have mean and variance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "CauchyLorentz",
           "package": "statistics",
@@ -392,6 +423,7 @@
         "index": {
           "description": "The Cauchy-Lorentz distribution It also known as Lorentz distribution or Breit Wigner distribution It doesn have mean and variance",
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "CauchyLorentz",
           "package": "statistics",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCauchy-Lorentz distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "CauchyDistribution",
           "package": "statistics",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Cauchy-Lorentz distribution",
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "CauchyDistribution",
           "package": "statistics",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCentral value of Cauchy-Lorentz distribution which is its\n   mode and median. Distribution doesn't have mean so function\n   is named after median.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribMedian",
           "package": "statistics",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Central value of Cauchy-Lorentz distribution which is its mode and median Distribution doesn have mean so function is named after median",
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribMedian",
           "normalized": "CauchyDistribution-\u003eDouble",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale parameter of Cauchy-Lorentz distribution. It's\n   different from variance and specify half width at half\n   maximum (HWHM).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribScale",
           "package": "statistics",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Scale parameter of Cauchy-Lorentz distribution It different from variance and specify half width at half maximum HWHM",
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribScale",
           "normalized": "CauchyDistribution-\u003eDouble",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCauchy distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribution",
           "package": "statistics",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Cauchy distribution",
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "cauchyDistribution",
           "normalized": "Double-\u003eDouble-\u003eCauchyDistribution",
@@ -505,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "standardCauchy",
           "package": "statistics",
@@ -514,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution CauchyLorentz",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.CauchyLorentz",
           "name": "standardCauchy",
           "package": "statistics",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe chi-squared distribution. This is a continuous probability\n distribution of sum of squares of k independent standard normal\n distributions. It's commonly used in statistical tests\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -537,6 +580,7 @@
         "index": {
           "description": "The chi-squared distribution This is continuous probability distribution of sum of squares of independent standard normal distributions It commonly used in statistical tests",
           "hierarchy": "Statistics Distribution ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -551,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChi-squared distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -560,6 +605,7 @@
         "index": {
           "description": "Chi-squared distribution",
           "hierarchy": "Statistics Distribution ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -574,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct chi-squared distribution. Number of degrees of freedom\n   must be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "chiSquared",
           "package": "statistics",
@@ -584,6 +631,7 @@
         "index": {
           "description": "Construct chi-squared distribution Number of degrees of freedom must be positive",
           "hierarchy": "Statistics Distribution ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "chiSquared",
           "normalized": "Int-\u003eChiSquared",
@@ -600,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet number of degrees of freedom\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "chiSquaredNDF",
           "package": "statistics",
@@ -610,6 +659,7 @@
         "index": {
           "description": "Get number of degrees of freedom",
           "hierarchy": "Statistics Distribution ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.ChiSquared",
           "name": "chiSquaredNDF",
           "normalized": "ChiSquared-\u003eInt",
@@ -626,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe exponential distribution.  This is the continunous probability\n distribution of the times between events in a poisson process, in\n which events occur continuously and independently at a constant\n average rate.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Exponential",
           "name": "Exponential",
           "package": "statistics",
@@ -635,6 +686,7 @@
         "index": {
           "description": "The exponential distribution This is the continunous probability distribution of the times between events in poisson process in which events occur continuously and independently at constant average rate",
           "hierarchy": "Statistics Distribution Exponential",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Exponential",
           "name": "Exponential",
           "package": "statistics",
@@ -648,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Exponential",
           "name": "ExponentialDistribution",
           "package": "statistics",
@@ -656,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Exponential",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Exponential",
           "name": "ExponentialDistribution",
           "package": "statistics",
@@ -669,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Exponential",
           "name": "edLambda",
           "package": "statistics",
@@ -678,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Exponential",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Exponential",
           "name": "edLambda",
           "normalized": "ExponentialDistribution-\u003eDouble",
@@ -694,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an exponential distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Exponential",
           "name": "exponential",
           "package": "statistics",
@@ -703,6 +760,7 @@
         "index": {
           "description": "Create an exponential distribution",
           "hierarchy": "Statistics Distribution Exponential",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Exponential",
           "name": "exponential",
           "normalized": "Double-\u003eExponentialDistribution",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate exponential distribution from sample. No tests are made to\n check whether it truly is exponential.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Exponential",
           "name": "exponentialFromSample",
           "package": "statistics",
@@ -728,6 +787,7 @@
         "index": {
           "description": "Create exponential distribution from sample No tests are made to check whether it truly is exponential",
           "hierarchy": "Statistics Distribution Exponential",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Exponential",
           "name": "exponentialFromSample",
           "normalized": "Sample-\u003eExponentialDistribution",
@@ -744,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFisher F distribution\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.FDistribution",
           "name": "FDistribution",
           "package": "statistics",
@@ -753,6 +814,7 @@
         "index": {
           "description": "Fisher distribution",
           "hierarchy": "Statistics Distribution FDistribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.FDistribution",
           "name": "FDistribution",
           "package": "statistics",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eF distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.FDistribution",
           "name": "FDistribution",
           "package": "statistics",
@@ -776,6 +839,7 @@
         "index": {
           "description": "distribution",
           "hierarchy": "Statistics Distribution FDistribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.FDistribution",
           "name": "FDistribution",
           "package": "statistics",
@@ -789,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistribution",
           "package": "statistics",
@@ -798,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution FDistribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistribution",
           "normalized": "Int-\u003eInt-\u003eFDistribution",
@@ -813,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistributionNDF1",
           "package": "statistics",
@@ -822,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution FDistribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistributionNDF1",
           "normalized": "FDistribution-\u003eDouble",
@@ -837,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistributionNDF2",
           "package": "statistics",
@@ -846,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution FDistribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.FDistribution",
           "name": "fDistributionNDF2",
           "normalized": "FDistribution-\u003eDouble",
@@ -862,6 +932,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe gamma distribution.  This is a continuous probability\n distribution with two parameters, \u003cem\u003ek\u003c/em\u003e and &#977;. If \u003cem\u003ek\u003c/em\u003e is\n integral, the distribution represents the sum of \u003cem\u003ek\u003c/em\u003e independent\n exponentially distributed random variables, each of which has a\n mean of &#977;.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "Gamma",
           "package": "statistics",
@@ -871,6 +942,7 @@
         "index": {
           "description": "The gamma distribution This is continuous probability distribution with two parameters and If is integral the distribution represents the sum of independent exponentially distributed random variables each of which has mean of",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "Gamma",
           "package": "statistics",
@@ -885,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe gamma distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "GammaDistribution",
           "package": "statistics",
@@ -894,6 +967,7 @@
         "index": {
           "description": "The gamma distribution",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "GammaDistribution",
           "package": "statistics",
@@ -908,6 +982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate gamma distribution. Both shape and scale parameters must\n be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "gammaDistr",
           "package": "statistics",
@@ -917,6 +992,7 @@
         "index": {
           "description": "Create gamma distribution Both shape and scale parameters must be positive",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "gammaDistr",
           "normalized": "Double-\u003eDouble-\u003eGammaDistribution",
@@ -933,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale parameter, &#977;.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "gdScale",
           "package": "statistics",
@@ -943,6 +1020,7 @@
         "index": {
           "description": "Scale parameter",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "gdScale",
           "normalized": "GammaDistribution-\u003eDouble",
@@ -959,6 +1037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShape parameter, \u003cem\u003ek\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "gdShape",
           "package": "statistics",
@@ -969,6 +1048,7 @@
         "index": {
           "description": "Shape parameter",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "gdShape",
           "normalized": "GammaDistribution-\u003eDouble",
@@ -985,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate gamma distribution. This constructor do not check whether\n   parameters are valid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Gamma",
           "name": "improperGammaDistr",
           "package": "statistics",
@@ -994,6 +1075,7 @@
         "index": {
           "description": "Create gamma distribution This constructor do not check whether parameters are valid",
           "hierarchy": "Statistics Distribution Gamma",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Gamma",
           "name": "improperGammaDistr",
           "normalized": "Double-\u003eDouble-\u003eGammaDistribution",
@@ -1010,6 +1092,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Geometric distribution. There are two variants of\n distribution. First is the probability distribution of the number\n of Bernoulli trials needed to get one success, supported on the set\n [1,2..] (\u003ccode\u003e\u003ca\u003eGeometricDistribution\u003c/a\u003e\u003c/code\u003e). Sometimes it's referred to as\n the \u003cem\u003eshifted\u003c/em\u003e geometric distribution to distinguish from another\n one.\n\u003c/p\u003e\u003cp\u003eSecond variant is probability distribution of the number of\n failures before first success, defined over the set [0,1..]\n (\u003ccode\u003e\u003ca\u003eGeometricDistribution0\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "Geometric",
           "package": "statistics",
@@ -1019,6 +1102,7 @@
         "index": {
           "description": "The Geometric distribution There are two variants of distribution First is the probability distribution of the number of Bernoulli trials needed to get one success supported on the set GeometricDistribution Sometimes it referred to as the shifted geometric distribution to distinguish from another one Second variant is probability distribution of the number of failures before first success defined over the set GeometricDistribution0",
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "Geometric",
           "package": "statistics",
@@ -1032,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "GeometricDistribution",
           "package": "statistics",
@@ -1040,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "GeometricDistribution",
           "package": "statistics",
@@ -1053,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "GeometricDistribution0",
           "package": "statistics",
@@ -1061,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "GeometricDistribution0",
           "package": "statistics",
@@ -1074,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "gdSuccess",
           "package": "statistics",
@@ -1083,6 +1172,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "gdSuccess",
           "normalized": "GeometricDistribution-\u003eDouble",
@@ -1098,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "gdSuccess0",
           "package": "statistics",
@@ -1107,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "gdSuccess0",
           "normalized": "GeometricDistribution-\u003eDouble",
@@ -1123,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate geometric distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "geometric",
           "package": "statistics",
@@ -1132,6 +1225,7 @@
         "index": {
           "description": "Create geometric distribution",
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "geometric",
           "normalized": "Double-\u003eGeometricDistribution",
@@ -1147,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate geometric distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Geometric",
           "name": "geometric0",
           "package": "statistics",
@@ -1156,6 +1251,7 @@
         "index": {
           "description": "Create geometric distribution",
           "hierarchy": "Statistics Distribution Geometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Geometric",
           "name": "geometric0",
           "normalized": "Double-\u003eGeometricDistribution",
@@ -1171,6 +1267,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Hypergeometric distribution.  This is the discrete probability\n distribution that measures the probability of \u003cem\u003ek\u003c/em\u003e successes in \u003cem\u003el\u003c/em\u003e\n trials, without replacement, from a finite population.\n\u003c/p\u003e\u003cp\u003eThe parameters of the distribution describe \u003cem\u003ek\u003c/em\u003e elements chosen\n from a population of \u003cem\u003el\u003c/em\u003e, with \u003cem\u003em\u003c/em\u003e elements of one type, and\n \u003cem\u003el\u003c/em\u003e-\u003cem\u003em\u003c/em\u003e of the other (all are positive integers).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "Hypergeometric",
           "package": "statistics",
@@ -1180,6 +1277,7 @@
         "index": {
           "description": "The Hypergeometric distribution This is the discrete probability distribution that measures the probability of successes in trials without replacement from finite population The parameters of the distribution describe elements chosen from population of with elements of one type and of the other all are positive integers",
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "Hypergeometric",
           "package": "statistics",
@@ -1193,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "HypergeometricDistribution",
           "package": "statistics",
@@ -1201,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "HypergeometricDistribution",
           "package": "statistics",
@@ -1214,6 +1314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdK",
           "package": "statistics",
@@ -1223,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdK",
           "normalized": "HypergeometricDistribution-\u003eInt",
@@ -1237,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdL",
           "package": "statistics",
@@ -1246,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdL",
           "normalized": "HypergeometricDistribution-\u003eInt",
@@ -1260,6 +1364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdM",
           "package": "statistics",
@@ -1269,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hdM",
           "normalized": "HypergeometricDistribution-\u003eInt",
@@ -1283,6 +1389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hypergeometric",
           "package": "statistics",
@@ -1291,6 +1398,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Hypergeometric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Hypergeometric",
           "name": "hypergeometric",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eHypergeometricDistribution",
@@ -1306,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe normal distribution.  This is a continuous probability\n distribution that describes data that cluster around a mean.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Normal",
           "name": "Normal",
           "package": "statistics",
@@ -1315,6 +1424,7 @@
         "index": {
           "description": "The normal distribution This is continuous probability distribution that describes data that cluster around mean",
           "hierarchy": "Statistics Distribution Normal",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Normal",
           "name": "Normal",
           "package": "statistics",
@@ -1329,6 +1439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe normal distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Normal",
           "name": "NormalDistribution",
           "package": "statistics",
@@ -1338,6 +1449,7 @@
         "index": {
           "description": "The normal distribution",
           "hierarchy": "Statistics Distribution Normal",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Normal",
           "name": "NormalDistribution",
           "package": "statistics",
@@ -1352,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate normal distribution from parameters.\n\u003c/p\u003e\u003cp\u003eIMPORTANT: prior to 0.10 release second parameter was variance not\n standard deviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Normal",
           "name": "normalDistr",
           "package": "statistics",
@@ -1361,6 +1474,7 @@
         "index": {
           "description": "Create normal distribution from parameters IMPORTANT prior to release second parameter was variance not standard deviation",
           "hierarchy": "Statistics Distribution Normal",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Normal",
           "name": "normalDistr",
           "normalized": "Double-\u003eDouble-\u003eNormalDistribution",
@@ -1377,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate distribution using parameters estimated from\n   sample. Variance is estimated using maximum likelihood method\n   (biased estimation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Normal",
           "name": "normalFromSample",
           "package": "statistics",
@@ -1387,6 +1502,7 @@
         "index": {
           "description": "Create distribution using parameters estimated from sample Variance is estimated using maximum likelihood method biased estimation",
           "hierarchy": "Statistics Distribution Normal",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Normal",
           "name": "normalFromSample",
           "normalized": "Sample-\u003eNormalDistribution",
@@ -1403,6 +1519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard normal distribution with mean equal to 0 and variance equal to 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Normal",
           "name": "standard",
           "package": "statistics",
@@ -1413,6 +1530,7 @@
         "index": {
           "description": "Standard normal distribution with mean equal to and variance equal to",
           "hierarchy": "Statistics Distribution Normal",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Normal",
           "name": "standard",
           "package": "statistics",
@@ -1426,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Poisson distribution.  This is the discrete probability\n distribution of a number of events occurring in a fixed interval if\n these events occur with a known average rate, and occur\n independently from each other within that interval.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Poisson",
           "name": "Poisson",
           "package": "statistics",
@@ -1435,6 +1554,7 @@
         "index": {
           "description": "The Poisson distribution This is the discrete probability distribution of number of events occurring in fixed interval if these events occur with known average rate and occur independently from each other within that interval",
           "hierarchy": "Statistics Distribution Poisson",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Poisson",
           "name": "Poisson",
           "package": "statistics",
@@ -1448,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Poisson",
           "name": "PoissonDistribution",
           "package": "statistics",
@@ -1456,6 +1577,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Poisson",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Poisson",
           "name": "PoissonDistribution",
           "package": "statistics",
@@ -1470,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate Poisson distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Poisson",
           "name": "poisson",
           "package": "statistics",
@@ -1480,6 +1603,7 @@
         "index": {
           "description": "Create Poisson distribution",
           "hierarchy": "Statistics Distribution Poisson",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Poisson",
           "name": "poisson",
           "normalized": "Double-\u003ePoissonDistribution",
@@ -1494,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Poisson",
           "name": "poissonLambda",
           "package": "statistics",
@@ -1503,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Poisson",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Poisson",
           "name": "poissonLambda",
           "normalized": "PoissonDistribution-\u003eDouble",
@@ -1519,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStudent-T distribution\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.StudentT",
           "name": "StudentT",
           "package": "statistics",
@@ -1528,6 +1655,7 @@
         "index": {
           "description": "Student-T distribution",
           "hierarchy": "Statistics Distribution StudentT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.StudentT",
           "name": "StudentT",
           "package": "statistics",
@@ -1542,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStudent-T distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.StudentT",
           "name": "StudentT",
           "package": "statistics",
@@ -1551,6 +1680,7 @@
         "index": {
           "description": "Student-T distribution",
           "hierarchy": "Statistics Distribution StudentT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.StudentT",
           "name": "StudentT",
           "package": "statistics",
@@ -1565,6 +1695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate Student-T distribution. Number of parameters must be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentT",
           "package": "statistics",
@@ -1575,6 +1706,7 @@
         "index": {
           "description": "Create Student-T distribution Number of parameters must be positive",
           "hierarchy": "Statistics Distribution StudentT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentT",
           "normalized": "Double-\u003eStudentT",
@@ -1590,6 +1722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an unstandardized Student-t distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentTUnstandardized",
           "package": "statistics",
@@ -1599,6 +1732,7 @@
         "index": {
           "description": "Create an unstandardized Student-t distribution",
           "hierarchy": "Statistics Distribution StudentT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentTUnstandardized",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eLinearTransform StudentT",
@@ -1614,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentTndf",
           "package": "statistics",
@@ -1623,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution StudentT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.StudentT",
           "name": "studentTndf",
           "normalized": "StudentT-\u003eDouble",
@@ -1639,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformations over distributions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "Transform",
           "package": "statistics",
@@ -1648,6 +1785,7 @@
         "index": {
           "description": "Transformations over distributions",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "Transform",
           "package": "statistics",
@@ -1662,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear transformation applied to distribution.\n\u003c/p\u003e\u003cpre\u003e LinearTransform &#956; &#963; _ x' = &#956; + &#963;&#183;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "LinearTransform",
           "package": "statistics",
@@ -1671,6 +1810,7 @@
         "index": {
           "description": "Linear transformation applied to distribution LinearTransform",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "LinearTransform",
           "package": "statistics",
@@ -1684,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "LinearTransform",
           "package": "statistics",
@@ -1693,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "LinearTransform",
           "package": "statistics",
@@ -1707,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistribution being transformed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransDistr",
           "package": "statistics",
@@ -1717,6 +1860,7 @@
         "index": {
           "description": "Distribution being transformed",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransDistr",
           "package": "statistics",
@@ -1731,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet fixed point of linear transformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransFixedPoint",
           "package": "statistics",
@@ -1741,6 +1886,7 @@
         "index": {
           "description": "Get fixed point of linear transformation",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransFixedPoint",
           "normalized": "LinearTransform a-\u003eDouble",
@@ -1757,6 +1903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocation parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransLocation",
           "package": "statistics",
@@ -1767,6 +1914,7 @@
         "index": {
           "description": "Location parameter",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransLocation",
           "package": "statistics",
@@ -1781,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransScale",
           "package": "statistics",
@@ -1791,6 +1940,7 @@
         "index": {
           "description": "Scale parameter",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "linTransScale",
           "package": "statistics",
@@ -1805,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply linear transformation to distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Transform",
           "name": "scaleAround",
           "package": "statistics",
@@ -1814,6 +1965,7 @@
         "index": {
           "description": "Apply linear transformation to distribution",
           "hierarchy": "Statistics Distribution Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Transform",
           "name": "scaleAround",
           "normalized": "Double-\u003eDouble-\u003ea-\u003eLinearTransform a",
@@ -1830,6 +1982,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariate distributed uniformly in the interval.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Uniform",
           "name": "Uniform",
           "package": "statistics",
@@ -1839,6 +1992,7 @@
         "index": {
           "description": "Variate distributed uniformly in the interval",
           "hierarchy": "Statistics Distribution Uniform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Uniform",
           "name": "Uniform",
           "package": "statistics",
@@ -1853,6 +2007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUniform distribution from A to B\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Uniform",
           "name": "UniformDistribution",
           "package": "statistics",
@@ -1862,6 +2017,7 @@
         "index": {
           "description": "Uniform distribution from to",
           "hierarchy": "Statistics Distribution Uniform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Uniform",
           "name": "UniformDistribution",
           "package": "statistics",
@@ -1876,6 +2032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLow boundary of distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformA",
           "package": "statistics",
@@ -1886,6 +2043,7 @@
         "index": {
           "description": "Low boundary of distribution",
           "hierarchy": "Statistics Distribution Uniform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformA",
           "normalized": "UniformDistribution-\u003eDouble",
@@ -1901,6 +2059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper boundary of distribution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformB",
           "package": "statistics",
@@ -1911,6 +2070,7 @@
         "index": {
           "description": "Upper boundary of distribution",
           "hierarchy": "Statistics Distribution Uniform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformB",
           "normalized": "UniformDistribution-\u003eDouble",
@@ -1926,6 +2086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformDistr",
           "package": "statistics",
@@ -1936,6 +2097,7 @@
         "index": {
           "description": "Create uniform distribution",
           "hierarchy": "Statistics Distribution Uniform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution.Uniform",
           "name": "uniformDistr",
           "normalized": "Double-\u003eDouble-\u003eUniformDistribution",
@@ -1952,6 +2114,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes classes for probability distrubutions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "Distribution",
           "package": "statistics",
@@ -1961,6 +2124,7 @@
         "index": {
           "description": "Types classes for probability distrubutions",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "Distribution",
           "package": "statistics",
@@ -1975,6 +2139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContinuous probability distributuion.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition is \u003ccode\u003e\u003ca\u003equantile\u003c/a\u003e\u003c/code\u003e and either \u003ccode\u003e\u003ca\u003edensity\u003c/a\u003e\u003c/code\u003e or\n   \u003ccode\u003e\u003ca\u003elogDensity\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "ContDistr",
           "package": "statistics",
@@ -1984,6 +2149,7 @@
         "index": {
           "description": "Continuous probability distributuion Minimal complete definition is quantile and either density or logDensity",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "ContDistr",
           "package": "statistics",
@@ -1998,6 +2164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate discrete random variates which have given\n   distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "ContGen",
           "package": "statistics",
@@ -2007,6 +2174,7 @@
         "index": {
           "description": "Generate discrete random variates which have given distribution",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "ContGen",
           "package": "statistics",
@@ -2021,6 +2189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete probability distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "DiscreteDistr",
           "package": "statistics",
@@ -2030,6 +2199,7 @@
         "index": {
           "description": "Discrete probability distribution",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "DiscreteDistr",
           "package": "statistics",
@@ -2044,6 +2214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate discrete random variates which have given\n   distribution. \u003ccode\u003e\u003ca\u003eContGen\u003c/a\u003e\u003c/code\u003e is superclass because it's always possible\n   to generate real-valued variates from integer values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "DiscreteGen",
           "package": "statistics",
@@ -2053,6 +2224,7 @@
         "index": {
           "description": "Generate discrete random variates which have given distribution ContGen is superclass because it always possible to generate real-valued variates from integer values",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "DiscreteGen",
           "package": "statistics",
@@ -2067,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class common to all distributions. Only c.d.f. could be\n defined for both discrete and continous distributions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "Distribution",
           "package": "statistics",
@@ -2076,6 +2249,7 @@
         "index": {
           "description": "Type class common to all distributions Only c.d.f could be defined for both discrete and continous distributions",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "Distribution",
           "package": "statistics",
@@ -2090,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with entropy, meaning Shannon\n   entropy in the case of a discrete distribution, or differential\n   entropy in the case of a continuous one.  If the distribution has\n   well-defined entropy for all valid parameter values then it\n   should be an instance of this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "Entropy",
           "package": "statistics",
@@ -2099,6 +2274,7 @@
         "index": {
           "description": "Type class for distributions with entropy meaning Shannon entropy in the case of discrete distribution or differential entropy in the case of continuous one If the distribution has well-defined entropy for all valid parameter values then it should be an instance of this type class",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "Entropy",
           "package": "statistics",
@@ -2113,6 +2289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with entropy, meaning Shannon entropy\n   in the case of a discrete distribution, or differential entropy in the\n   case of a continuous one.  \u003ccode\u003e\u003ca\u003emaybeEntropy\u003c/a\u003e\u003c/code\u003e should return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n   entropy is undefined for the chosen parameter values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "MaybeEntropy",
           "package": "statistics",
@@ -2122,6 +2299,7 @@
         "index": {
           "description": "Type class for distributions with entropy meaning Shannon entropy in the case of discrete distribution or differential entropy in the case of continuous one maybeEntropy should return Nothing if entropy is undefined for the chosen parameter values",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "MaybeEntropy",
           "package": "statistics",
@@ -2136,6 +2314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with mean. \u003ccode\u003e\u003ca\u003emaybeMean\u003c/a\u003e\u003c/code\u003e should return\n   \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if it's undefined for current value of data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "MaybeMean",
           "package": "statistics",
@@ -2145,6 +2324,7 @@
         "index": {
           "description": "Type class for distributions with mean maybeMean should return Nothing if it undefined for current value of data",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "MaybeMean",
           "package": "statistics",
@@ -2159,6 +2339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with variance. If variance is\n   undefined for some parameter values both \u003ccode\u003e\u003ca\u003emaybeVariance\u003c/a\u003e\u003c/code\u003e and\n   \u003ccode\u003e\u003ca\u003emaybeStdDev\u003c/a\u003e\u003c/code\u003e should return Nothing.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition is \u003ccode\u003e\u003ca\u003emaybeVariance\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003emaybeStdDev\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "MaybeVariance",
           "package": "statistics",
@@ -2168,6 +2349,7 @@
         "index": {
           "description": "Type class for distributions with variance If variance is undefined for some parameter values both maybeVariance and maybeStdDev should return Nothing Minimal complete definition is maybeVariance or maybeStdDev",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "MaybeVariance",
           "package": "statistics",
@@ -2182,6 +2364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with mean. If distribution have\n   finite mean for all valid values of parameters it should be\n   instance of this type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "Mean",
           "package": "statistics",
@@ -2191,6 +2374,7 @@
         "index": {
           "description": "Type class for distributions with mean If distribution have finite mean for all valid values of parameters it should be instance of this type class",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "Mean",
           "package": "statistics",
@@ -2205,6 +2389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for distributions with variance. If distibution have\n   finite variance for all valid parameter values it should be\n   instance of this type class.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition is \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003estdDev\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "Variance",
           "package": "statistics",
@@ -2214,6 +2399,7 @@
         "index": {
           "description": "Type class for distributions with variance If distibution have finite variance for all valid parameter values it should be instance of this type class Minimal complete definition is variance or stdDev",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "Variance",
           "package": "statistics",
@@ -2228,6 +2414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne's complement of cumulative distibution:\n\u003c/p\u003e\u003cpre\u003e complCumulative d x = 1 - cumulative d x\n\u003c/pre\u003e\u003cp\u003eIt's useful when one is interested in P(\u003cem\u003eX\u003c/em\u003e\u003c\u003cem\u003ex\u003c/em\u003e) and\n expression on the right side begin to lose precision. This\n function have default implementation but implementors are\n encouraged to provide more precise implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "complCumulative",
           "package": "statistics",
@@ -2238,6 +2425,7 @@
         "index": {
           "description": "One complement of cumulative distibution complCumulative cumulative It useful when one is interested in and expression on the right side begin to lose precision This function have default implementation but implementors are encouraged to provide more precise implementation",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "complCumulative",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -2254,6 +2442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCumulative distribution function.  The probability that a\n random variable \u003cem\u003eX\u003c/em\u003e is less or equal than \u003cem\u003ex\u003c/em\u003e,\n i.e. P(\u003cem\u003eX\u003c/em\u003e&#8804;\u003cem\u003ex\u003c/em\u003e). Cumulative should be defined for\n infinities as well:\n\u003c/p\u003e\u003cpre\u003e cumulative d +&#8734; = 1\n cumulative d -&#8734; = 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "cumulative",
           "package": "statistics",
@@ -2264,6 +2453,7 @@
         "index": {
           "description": "Cumulative distribution function The probability that random variable is less or equal than i.e Cumulative should be defined for infinities as well cumulative cumulative",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "cumulative",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -2279,6 +2469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability density function. Probability that random\n variable \u003cem\u003eX\u003c/em\u003e lies in the infinitesimal interval\n [\u003cem\u003ex\u003c/em\u003e,\u003cem\u003ex+\u003c/em\u003e&#948;\u003cem\u003ex\u003c/em\u003e) equal to \u003cem\u003edensity(x)\u003c/em\u003e&#8901;&#948;\u003cem\u003ex\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "density",
           "package": "statistics",
@@ -2289,6 +2480,7 @@
         "index": {
           "description": "Probability density function Probability that random variable lies in the infinitesimal interval equal to density",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "density",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -2304,6 +2496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the entropy of a distribution, in nats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "entropy",
           "package": "statistics",
@@ -2314,6 +2507,7 @@
         "index": {
           "description": "Returns the entropy of distribution in nats",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "entropy",
           "normalized": "a-\u003eDouble",
@@ -2329,6 +2523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate the value of \u003cem\u003eX\u003c/em\u003e for which P(\u003cem\u003ex\u003c/em\u003e\u003e\u003cem\u003eX\u003c/em\u003e)=\u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e\u003cp\u003eThis method uses a combination of Newton-Raphson iteration and\n bisection with the given guess as a starting point.  The upper and\n lower bounds specify the interval in which the probability\n distribution reaches the value \u003cem\u003ep\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "findRoot",
           "package": "statistics",
@@ -2338,6 +2533,7 @@
         "index": {
           "description": "Approximate the value of for which This method uses combination of Newton-Raphson iteration and bisection with the given guess as starting point The upper and lower bounds specify the interval in which the probability distribution reaches the value",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "findRoot",
           "normalized": "a-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble-\u003eDouble",
@@ -2353,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "genContVar",
           "package": "statistics",
@@ -2362,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "genContVar",
           "normalized": "a-\u003eGen(PrimState b)-\u003eb Double",
@@ -2378,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate variates from continous distribution using inverse\n   transform rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "genContinous",
           "package": "statistics",
@@ -2388,6 +2587,7 @@
         "index": {
           "description": "Generate variates from continous distribution using inverse transform rule",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "genContinous",
           "normalized": "a-\u003eGen(PrimState b)-\u003eb Double",
@@ -2403,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "genDiscreteVar",
           "package": "statistics",
@@ -2412,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "genDiscreteVar",
           "normalized": "a-\u003eGen(PrimState b)-\u003eb Int",
@@ -2428,6 +2630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural logarithm of density.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "logDensity",
           "package": "statistics",
@@ -2438,6 +2641,7 @@
         "index": {
           "description": "Natural logarithm of density",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "logDensity",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -2454,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogarithm of probability of n-th outcome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "logProbability",
           "package": "statistics",
@@ -2464,6 +2669,7 @@
         "index": {
           "description": "Logarithm of probability of n-th outcome",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "logProbability",
           "normalized": "a-\u003eInt-\u003eDouble",
@@ -2480,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the entropy of a distribution, in nats, if such is defined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "maybeEntropy",
           "package": "statistics",
@@ -2490,6 +2697,7 @@
         "index": {
           "description": "Returns the entropy of distribution in nats if such is defined",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "maybeEntropy",
           "normalized": "a-\u003eMaybe Double",
@@ -2505,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "maybeMean",
           "package": "statistics",
@@ -2514,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "maybeMean",
           "normalized": "a-\u003eMaybe Double",
@@ -2529,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "maybeStdDev",
           "package": "statistics",
@@ -2538,6 +2749,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "maybeStdDev",
           "normalized": "a-\u003eMaybe Double",
@@ -2553,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "maybeVariance",
           "package": "statistics",
@@ -2562,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "maybeVariance",
           "normalized": "a-\u003eMaybe Double",
@@ -2577,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "mean",
           "package": "statistics",
@@ -2586,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "mean",
           "normalized": "a-\u003eDouble",
@@ -2601,6 +2817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbability of n-th outcome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "probability",
           "package": "statistics",
@@ -2611,6 +2828,7 @@
         "index": {
           "description": "Probability of n-th outcome",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "probability",
           "normalized": "a-\u003eInt-\u003eDouble",
@@ -2626,6 +2844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of the cumulative distribution function. The value\n \u003cem\u003ex\u003c/em\u003e for which P(\u003cem\u003eX\u003c/em\u003e&#8804;\u003cem\u003ex\u003c/em\u003e) = \u003cem\u003ep\u003c/em\u003e. If probability is outside\n of [0,1] range function should call \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "quantile",
           "package": "statistics",
@@ -2636,6 +2855,7 @@
         "index": {
           "description": "Inverse of the cumulative distribution function The value for which If probability is outside of range function should call error",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "quantile",
           "normalized": "a-\u003eDouble-\u003eDouble",
@@ -2650,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "stdDev",
           "package": "statistics",
@@ -2659,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "stdDev",
           "normalized": "a-\u003eDouble",
@@ -2675,6 +2897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSum probabilities in inclusive interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "sumProbabilities",
           "package": "statistics",
@@ -2685,6 +2908,7 @@
         "index": {
           "description": "Sum probabilities in inclusive interval",
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "sumProbabilities",
           "normalized": "a-\u003eInt-\u003eInt-\u003eDouble",
@@ -2700,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Distribution",
           "name": "variance",
           "package": "statistics",
@@ -2709,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Statistics Distribution",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Distribution",
           "name": "variance",
           "normalized": "a-\u003eDouble",
@@ -2724,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "Function",
           "package": "statistics",
@@ -2733,6 +2960,7 @@
         "index": {
           "description": "Useful functions",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "Function",
           "package": "statistics",
@@ -2747,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZip a vector with its indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "indexed",
           "package": "statistics",
@@ -2757,6 +2986,7 @@
         "index": {
           "description": "Zip vector with its indices",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "indexed",
           "normalized": "a b-\u003ea(Int,b)",
@@ -2772,6 +3002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the indices of a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "indices",
           "package": "statistics",
@@ -2782,6 +3013,7 @@
         "index": {
           "description": "Return the indices of vector",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "indices",
           "normalized": "a b-\u003ea Int",
@@ -2797,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the minimum and maximum of a vector in one pass.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "minMax",
           "package": "statistics",
@@ -2807,6 +3040,7 @@
         "index": {
           "description": "Compute the minimum and maximum of vector in one pass",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "minMax",
           "normalized": "a Double-\u003e(Double,Double)",
@@ -2823,6 +3057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEfficiently compute the next highest power of two for a\n non-negative integer.  If the given value is already a power of\n two, it is returned unchanged.  If negative, zero is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "nextHighestPowerOfTwo",
           "package": "statistics",
@@ -2833,6 +3068,7 @@
         "index": {
           "description": "Efficiently compute the next highest power of two for non-negative integer If the given value is already power of two it is returned unchanged If negative zero is returned",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "nextHighestPowerOfTwo",
           "normalized": "Int-\u003eInt",
@@ -2849,6 +3085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartially sort a vector, such that the least \u003cem\u003ek\u003c/em\u003e elements will be\n at the front.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "partialSort",
           "package": "statistics",
@@ -2858,6 +3095,7 @@
         "index": {
           "description": "Partially sort vector such that the least elements will be at the front",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "partialSort",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -2874,6 +3112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "sort",
           "package": "statistics",
@@ -2884,6 +3123,7 @@
         "index": {
           "description": "Sort vector",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "sort",
           "normalized": "a b-\u003ea b",
@@ -2899,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a vector using a custom ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "sortBy",
           "package": "statistics",
@@ -2909,6 +3150,7 @@
         "index": {
           "description": "Sort vector using custom ordering",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "sortBy",
           "normalized": "Comparison a-\u003eb a-\u003eb a",
@@ -2925,6 +3167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare two \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e values for approximate equality, using\n Dawson's method.\n\u003c/p\u003e\u003cp\u003eThe required accuracy is specified in ULPs (units of least\n precision).  If the two numbers differ by the given number of ULPs\n or less, this function returns \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Function",
           "name": "within",
           "package": "statistics",
@@ -2934,6 +3177,7 @@
         "index": {
           "description": "Compare two Double values for approximate equality using Dawson method The required accuracy is specified in ULPs units of least precision If the two numbers differ by the given number of ULPs or less this function returns True",
           "hierarchy": "Statistics Function",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Function",
           "name": "within",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eBool",
@@ -2949,6 +3193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell functions for finding the roots of mathematical functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "RootFinding",
           "package": "statistics",
@@ -2958,6 +3203,7 @@
         "index": {
           "description": "Haskell functions for finding the roots of mathematical functions",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "RootFinding",
           "package": "statistics",
@@ -2972,6 +3218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe result of searching for a root of a mathematical function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "Root",
           "package": "statistics",
@@ -2981,6 +3228,7 @@
         "index": {
           "description": "The result of searching for root of mathematical function",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "Root",
           "package": "statistics",
@@ -2995,6 +3243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function does not have opposite signs when\n evaluated at the lower and upper bounds of the search.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "NotBracketed",
           "package": "statistics",
@@ -3005,6 +3254,7 @@
         "index": {
           "description": "The function does not have opposite signs when evaluated at the lower and upper bounds of the search",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "NotBracketed",
           "package": "statistics",
@@ -3019,6 +3269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA root was successfully found.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "Root",
           "package": "statistics",
@@ -3029,6 +3280,7 @@
         "index": {
           "description": "root was successfully found",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "Root",
           "package": "statistics",
@@ -3043,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe search failed to converge to within the given\n error tolerance after the given number of iterations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "SearchFailed",
           "package": "statistics",
@@ -3053,6 +3306,7 @@
         "index": {
           "description": "The search failed to converge to within the given error tolerance after the given number of iterations",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "SearchFailed",
           "package": "statistics",
@@ -3067,6 +3321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns either the result of a search for a root, or the default\n value if the search failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "fromRoot",
           "package": "statistics",
@@ -3076,6 +3331,7 @@
         "index": {
           "description": "Returns either the result of search for root or the default value if the search failed",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "fromRoot",
           "normalized": "a-\u003eRoot a-\u003ea",
@@ -3092,6 +3348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the method of Ridders to compute a root of a function.\n\u003c/p\u003e\u003cp\u003eThe function must have opposite signs when evaluated at the lower\n and upper bounds of the search (i.e. the root must be bracketed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math.RootFinding",
           "name": "ridders",
           "package": "statistics",
@@ -3101,6 +3358,7 @@
         "index": {
           "description": "Use the method of Ridders to compute root of function The function must have opposite signs when evaluated at the lower and upper bounds of the search i.e the root must be bracketed",
           "hierarchy": "Statistics Math RootFinding",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math.RootFinding",
           "name": "ridders",
           "normalized": "Double-\u003e(Double,Double)-\u003e(Double-\u003eDouble)-\u003eRoot Double",
@@ -3116,6 +3374,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use package math-function\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eMathematical functions for statistics.\n\u003c/p\u003e\u003cp\u003eDEPRECATED. Use package math-functions instead. This module is just\n reexports functions from \u003ccode\u003e\u003ca\u003eSpecFunctions\u003c/a\u003e\u003c/code\u003e,\n \u003ccode\u003e\u003ca\u003eExtra\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eChebyshev\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Math",
           "name": "Math",
           "package": "statistics",
@@ -3125,6 +3384,7 @@
         "index": {
           "description": "Deprecated Use package math-function Mathematical functions for statistics DEPRECATED Use package math-functions instead This module is just reexports functions from SpecFunctions Extra and Chebyshev",
           "hierarchy": "Statistics Math",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Math",
           "name": "Math",
           "package": "statistics",
@@ -3139,6 +3399,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for approximating quantiles, i.e. points taken at regular\n intervals from the cumulative distribution function of a random\n variable.\n\u003c/p\u003e\u003cp\u003eThe number of quantiles is described below by the variable \u003cem\u003eq\u003c/em\u003e, so\n with \u003cem\u003eq\u003c/em\u003e=4, a 4-quantile (also known as a \u003cem\u003equartile\u003c/em\u003e) has 4\n intervals, and contains 5 points.  The parameter \u003cem\u003ek\u003c/em\u003e describes the\n desired point, where 0 &#8804; \u003cem\u003ek\u003c/em\u003e &#8804; \u003cem\u003eq\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "Quantile",
           "package": "statistics",
@@ -3148,6 +3409,7 @@
         "index": {
           "description": "Functions for approximating quantiles i.e points taken at regular intervals from the cumulative distribution function of random variable The number of quantiles is described below by the variable so with quantile also known as quartile has intervals and contains points The parameter describes the desired point where",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "Quantile",
           "package": "statistics",
@@ -3162,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e to the \u003ccode\u003e\u003ca\u003econtinuousBy\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "ContParam",
           "package": "statistics",
@@ -3171,6 +3434,7 @@
         "index": {
           "description": "Parameters and to the continuousBy function",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "ContParam",
           "package": "statistics",
@@ -3184,6 +3448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "ContParam",
           "package": "statistics",
@@ -3193,6 +3458,7 @@
         },
         "index": {
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "ContParam",
           "package": "statistics",
@@ -3207,6 +3473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalifornia Department of Public Works definition, \u003cem\u003ea\u003c/em\u003e=0, \u003cem\u003eb\u003c/em\u003e=1.\n Gives a linear interpolation of the empirical CDF.  This\n corresponds to method 4 in R and Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "cadpw",
           "package": "statistics",
@@ -3217,6 +3484,7 @@
         "index": {
           "description": "California Department of Public Works definition Gives linear interpolation of the empirical CDF This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "cadpw",
           "package": "statistics",
@@ -3230,6 +3498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(\u003cem\u003en\u003c/em\u003e log \u003cem\u003en\u003c/em\u003e). Estimate the \u003cem\u003ek\u003c/em\u003eth \u003cem\u003eq\u003c/em\u003e-quantile of a sample \u003cem\u003ex\u003c/em\u003e,\n using the continuous sample method with the given parameters.  This\n is the method used by most statistical software, such as R,\n Mathematica, SPSS, and S.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "continuousBy",
           "package": "statistics",
@@ -3239,6 +3508,7 @@
         "index": {
           "description": "log Estimate the th quantile of sample using the continuous sample method with the given parameters This is the method used by most statistical software such as Mathematica SPSS and",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "continuousBy",
           "normalized": "ContParam-\u003eInt-\u003eInt-\u003ea Double-\u003eDouble",
@@ -3255,6 +3525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHazen's definition, \u003cem\u003ea\u003c/em\u003e=0.5, \u003cem\u003eb\u003c/em\u003e=0.5.  This is claimed to be\n popular among hydrologists.  This corresponds to method 5 in R and\n Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "hazen",
           "package": "statistics",
@@ -3265,6 +3536,7 @@
         "index": {
           "description": "Hazen definition This is claimed to be popular among hydrologists This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "hazen",
           "package": "statistics",
@@ -3278,6 +3550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedian unbiased definition, \u003cem\u003ea\u003c/em\u003e=1/3, \u003cem\u003eb\u003c/em\u003e=1/3. The resulting\n quantile estimates are approximately median unbiased regardless of\n the distribution of \u003cem\u003ex\u003c/em\u003e.  This corresponds to method 8 in R and\n Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "medianUnbiased",
           "package": "statistics",
@@ -3288,6 +3561,7 @@
         "index": {
           "description": "Median unbiased definition The resulting quantile estimates are approximately median unbiased regardless of the distribution of This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "medianUnbiased",
           "package": "statistics",
@@ -3302,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(\u003cem\u003en\u003c/em\u003e log \u003cem\u003en\u003c/em\u003e). Estimate the range between \u003cem\u003eq\u003c/em\u003e-quantiles 1 and\n \u003cem\u003eq\u003c/em\u003e-1 of a sample \u003cem\u003ex\u003c/em\u003e, using the continuous sample method with the\n given parameters.\n\u003c/p\u003e\u003cp\u003eFor instance, the interquartile range (IQR) can be estimated as\n follows:\n\u003c/p\u003e\u003cpre\u003e midspread medianUnbiased 4 (U.fromList [1,1,2,2,3])\n ==\u003e 1.333333\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "midspread",
           "package": "statistics",
@@ -3311,6 +3586,7 @@
         "index": {
           "description": "log Estimate the range between quantiles and of sample using the continuous sample method with the given parameters For instance the interquartile range IQR can be estimated as follows midspread medianUnbiased U.fromList",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "midspread",
           "normalized": "ContParam-\u003eInt-\u003ea Double-\u003eDouble",
@@ -3326,6 +3602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal unbiased definition, \u003cem\u003ea\u003c/em\u003e=3/8, \u003cem\u003eb\u003c/em\u003e=3/8.  An approximately\n unbiased estimate if the empirical distribution approximates the\n normal distribution.  This corresponds to method 9 in R and\n Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "normalUnbiased",
           "package": "statistics",
@@ -3336,6 +3613,7 @@
         "index": {
           "description": "Normal unbiased definition An approximately unbiased estimate if the empirical distribution approximates the normal distribution This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "normalUnbiased",
           "package": "statistics",
@@ -3350,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition used by the S statistics application, with \u003cem\u003ea\u003c/em\u003e=1,\n \u003cem\u003eb\u003c/em\u003e=1.  The interpolation points divide the sample range into \u003ccode\u003en-1\u003c/code\u003e\n intervals.  This corresponds to method 7 in R and Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "s",
           "package": "statistics",
@@ -3360,6 +3639,7 @@
         "index": {
           "description": "Definition used by the statistics application with The interpolation points divide the sample range into n-1 intervals This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "s",
           "package": "statistics",
@@ -3373,6 +3653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefinition used by the SPSS statistics application, with \u003cem\u003ea\u003c/em\u003e=0,\n \u003cem\u003eb\u003c/em\u003e=0 (also known as Weibull's definition).  This corresponds to\n method 6 in R and Mathematica.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "spss",
           "package": "statistics",
@@ -3383,6 +3664,7 @@
         "index": {
           "description": "Definition used by the SPSS statistics application with also known as Weibull definition This corresponds to method in and Mathematica",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "spss",
           "package": "statistics",
@@ -3396,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(\u003cem\u003en\u003c/em\u003e log \u003cem\u003en\u003c/em\u003e). Estimate the \u003cem\u003ek\u003c/em\u003eth \u003cem\u003eq\u003c/em\u003e-quantile of a sample,\n using the weighted average method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Quantile",
           "name": "weightedAvg",
           "package": "statistics",
@@ -3405,6 +3688,7 @@
         "index": {
           "description": "log Estimate the th quantile of sample using the weighted average method",
           "hierarchy": "Statistics Quantile",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Quantile",
           "name": "weightedAvg",
           "normalized": "Int-\u003eInt-\u003ea Double-\u003eDouble",
@@ -3421,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe bootstrap method for statistical inference.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Bootstrap",
           "package": "statistics",
@@ -3430,6 +3715,7 @@
         "index": {
           "description": "The bootstrap method for statistical inference",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Bootstrap",
           "package": "statistics",
@@ -3444,6 +3730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA point and interval estimate computed via an \u003ccode\u003e\u003ca\u003eEstimator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Estimate",
           "package": "statistics",
@@ -3453,6 +3740,7 @@
         "index": {
           "description": "point and interval estimate computed via an Estimator",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Estimate",
           "package": "statistics",
@@ -3466,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Estimate",
           "package": "statistics",
@@ -3475,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "Estimate",
           "package": "statistics",
@@ -3489,6 +3779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBias-corrected accelerated (BCA) bootstrap. This adjusts for both\n bias and skewness in the resampled distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "bootstrapBCA",
           "package": "statistics",
@@ -3498,6 +3789,7 @@
         "index": {
           "description": "Bias-corrected accelerated BCA bootstrap This adjusts for both bias and skewness in the resampled distribution",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "bootstrapBCA",
           "normalized": "Double-\u003eSample-\u003e[Estimator]-\u003e[Resample]-\u003e[Estimate]",
@@ -3514,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfidence level of the confidence intervals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estConfidenceLevel",
           "package": "statistics",
@@ -3524,6 +3817,7 @@
         "index": {
           "description": "Confidence level of the confidence intervals",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estConfidenceLevel",
           "package": "statistics",
@@ -3538,6 +3832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower bound of the estimate interval (i.e. the lower bound of\n the confidence interval).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estLowerBound",
           "package": "statistics",
@@ -3548,6 +3843,7 @@
         "index": {
           "description": "Lower bound of the estimate interval i.e the lower bound of the confidence interval",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estLowerBound",
           "package": "statistics",
@@ -3562,6 +3858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoint estimate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estPoint",
           "package": "statistics",
@@ -3572,6 +3869,7 @@
         "index": {
           "description": "Point estimate",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estPoint",
           "package": "statistics",
@@ -3586,6 +3884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper bound of the estimate interval (i.e. the upper bound of\n the confidence interval).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estUpperBound",
           "package": "statistics",
@@ -3596,6 +3895,7 @@
         "index": {
           "description": "Upper bound of the estimate interval i.e the upper bound of the confidence interval",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "estUpperBound",
           "package": "statistics",
@@ -3610,6 +3910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply the point, lower bound, and upper bound in an \u003ccode\u003e\u003ca\u003eEstimate\u003c/a\u003e\u003c/code\u003e\n by the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "scale",
           "package": "statistics",
@@ -3619,6 +3920,7 @@
         "index": {
           "description": "Multiply the point lower bound and upper bound in an Estimate by the given value",
           "hierarchy": "Statistics Resampling Bootstrap",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling.Bootstrap",
           "name": "scale",
           "normalized": "Double-\u003eEstimate-\u003eEstimate",
@@ -3634,6 +3936,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eResampling statistics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "Resampling",
           "package": "statistics",
@@ -3643,6 +3946,7 @@
         "index": {
           "description": "Resampling statistics",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "Resampling",
           "package": "statistics",
@@ -3657,6 +3961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA resample drawn randomly, with replacement, from a set of data\n points.  Distinct from a normal array to make it harder for your\n humble author's brain to go wrong.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "Resample",
           "package": "statistics",
@@ -3666,6 +3971,7 @@
         "index": {
           "description": "resample drawn randomly with replacement from set of data points Distinct from normal array to make it harder for your humble author brain to go wrong",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "Resample",
           "package": "statistics",
@@ -3679,6 +3985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "Resample",
           "package": "statistics",
@@ -3688,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "Resample",
           "package": "statistics",
@@ -3702,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an \u003ccode\u003e\u003ca\u003eEstimator\u003c/a\u003e\u003c/code\u003e over a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "estimate",
           "package": "statistics",
@@ -3712,6 +4021,7 @@
         "index": {
           "description": "Run an Estimator over sample",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "estimate",
           "normalized": "Estimator-\u003eSample-\u003eDouble",
@@ -3726,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "fromResample",
           "package": "statistics",
@@ -3735,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "fromResample",
           "package": "statistics",
@@ -3749,6 +4061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n) or O(n^2)\u003c/em\u003e Compute a statistical estimate repeatedly over a\n sample, each time omitting a successive element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "jackknife",
           "package": "statistics",
@@ -3759,6 +4072,7 @@
         "index": {
           "description": "or Compute statistical estimate repeatedly over sample each time omitting successive element",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "jackknife",
           "normalized": "Estimator-\u003eSample-\u003eVector Double",
@@ -3774,6 +4088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute the jackknife mean of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "jackknifeMean",
           "package": "statistics",
@@ -3784,6 +4099,7 @@
         "index": {
           "description": "Compute the jackknife mean of sample",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "jackknifeMean",
           "normalized": "Sample-\u003eVector Double",
@@ -3800,6 +4116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute the jackknife standard deviation of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "jackknifeStdDev",
           "package": "statistics",
@@ -3810,6 +4127,7 @@
         "index": {
           "description": "Compute the jackknife standard deviation of sample",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "jackknifeStdDev",
           "normalized": "Sample-\u003eVector Double",
@@ -3826,6 +4144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute the jackknife variance of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "jackknifeVariance",
           "package": "statistics",
@@ -3836,6 +4155,7 @@
         "index": {
           "description": "Compute the jackknife variance of sample",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "jackknifeVariance",
           "normalized": "Sample-\u003eVector Double",
@@ -3852,6 +4172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute the unbiased jackknife variance of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "jackknifeVarianceUnb",
           "package": "statistics",
@@ -3862,6 +4183,7 @@
         "index": {
           "description": "Compute the unbiased jackknife variance of sample",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "jackknifeVarianceUnb",
           "normalized": "Sample-\u003eVector Double",
@@ -3878,6 +4200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(e*r*s)\u003c/em\u003e Resample a data set repeatedly, with replacement,\n computing each estimate over the resampled data.\n\u003c/p\u003e\u003cp\u003eThis function is expensive; it has to do work proportional to\n \u003cem\u003ee*r*s\u003c/em\u003e, where \u003cem\u003ee\u003c/em\u003e is the number of estimation functions, \u003cem\u003er\u003c/em\u003e is\n the number of resamples to compute, and \u003cem\u003es\u003c/em\u003e is the number of\n original samples.\n\u003c/p\u003e\u003cp\u003eTo improve performance, this function will make use of all\n available CPUs.  At least with GHC 7.0, parallel performance seems\n best if the parallel garbage collector is disabled (RTS option\n \u003ccode\u003e-qg\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Resampling",
           "name": "resample",
           "package": "statistics",
@@ -3887,6 +4210,7 @@
         "index": {
           "description": "Resample data set repeatedly with replacement computing each estimate over the resampled data This function is expensive it has to do work proportional to where is the number of estimation functions is the number of resamples to compute and is the number of original samples To improve performance this function will make use of all available CPUs At least with GHC parallel performance seems best if the parallel garbage collector is disabled RTS option qg",
           "hierarchy": "Statistics Resampling",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Resampling",
           "name": "resample",
           "normalized": "Gen(PrimState IO)-\u003e[Estimator]-\u003eInt-\u003eSample-\u003eIO[Resample]",
@@ -3902,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for computing histograms of sample data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Histogram",
           "name": "Histogram",
           "package": "statistics",
@@ -3911,6 +4236,7 @@
         "index": {
           "description": "Functions for computing histograms of sample data",
           "hierarchy": "Statistics Sample Histogram",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Histogram",
           "name": "Histogram",
           "package": "statistics",
@@ -3925,6 +4251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute a histogram over a data set.\n\u003c/p\u003e\u003cp\u003eThe result consists of a pair of vectors:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The lower bound of each interval.\n\u003c/li\u003e\u003cli\u003e The number of samples within the interval.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eInterval (bin) sizes are uniform, and the upper and lower bounds\n are chosen automatically using the \u003ccode\u003e\u003ca\u003erange\u003c/a\u003e\u003c/code\u003e function.  To specify\n these parameters directly, use the \u003ccode\u003e\u003ca\u003ehistogram_\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Histogram",
           "name": "histogram",
           "package": "statistics",
@@ -3934,6 +4261,7 @@
         "index": {
           "description": "Compute histogram over data set The result consists of pair of vectors The lower bound of each interval The number of samples within the interval Interval bin sizes are uniform and the upper and lower bounds are chosen automatically using the range function To specify these parameters directly use the histogram function",
           "hierarchy": "Statistics Sample Histogram",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Histogram",
           "name": "histogram",
           "normalized": "Int-\u003ea Double-\u003e(a Double,a b)",
@@ -3949,6 +4277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute a histogram over a data set.\n\u003c/p\u003e\u003cp\u003eInterval (bin) sizes are uniform, based on the supplied upper\n and lower bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Histogram",
           "name": "histogram_",
           "package": "statistics",
@@ -3958,6 +4287,7 @@
         "index": {
           "description": "Compute histogram over data set Interval bin sizes are uniform based on the supplied upper and lower bounds",
           "hierarchy": "Statistics Sample Histogram",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Histogram",
           "name": "histogram_",
           "normalized": "Int-\u003ea-\u003ea-\u003eb a-\u003eb c",
@@ -3973,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Compute decent defaults for the lower and upper bounds of\n a histogram, based on the desired number of bins and the range of\n the sample data.\n\u003c/p\u003e\u003cp\u003eThe upper and lower bounds used are \u003ccode\u003e(lo-d, hi+d)\u003c/code\u003e, where\n\u003c/p\u003e\u003cpre\u003ed = (maximum sample - minimum sample) / ((bins - 1) * 2)\u003c/pre\u003e\u003cp\u003eIf all elements in the sample are the same and equal to \u003ccode\u003ex\u003c/code\u003e range\n is set to \u003ccode\u003e(x - |x|\u003cem\u003e10, x + |x|\u003c/em\u003e10)\u003c/code\u003e. And if \u003ccode\u003ex\u003c/code\u003e is equal to 0 range\n is set to \u003ccode\u003e(-1,1)\u003c/code\u003e. This is needed to avoid creating histogram with\n zero bin size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Histogram",
           "name": "range",
           "package": "statistics",
@@ -3982,6 +4313,7 @@
         "index": {
           "description": "Compute decent defaults for the lower and upper bounds of histogram based on the desired number of bins and the range of the sample data The upper and lower bounds used are lo-d hi where maximum sample minimum sample bins If all elements in the sample are the same and equal to range is set to And if is equal to range is set to This is needed to avoid creating histogram with zero bin size",
           "hierarchy": "Statistics Sample Histogram",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Histogram",
           "name": "range",
           "normalized": "Int-\u003ea Double-\u003e(Double,Double)",
@@ -3997,6 +4329,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use Statistics.Sample.KernelDensity instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eKernel density estimation code, providing non-parametric ways to\n estimate the probability density function of a sample.\n\u003c/p\u003e\u003cp\u003eThe techniques used by functions in this module are relatively\n fast, but they generally give inferior results to the KDE function\n in the main \u003ccode\u003e\u003ca\u003eKernelDensity\u003c/a\u003e\u003c/code\u003e module (due to the\n oversmoothing documented for \u003ccode\u003e\u003ca\u003ebandwidth\u003c/a\u003e\u003c/code\u003e below).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Simple",
           "package": "statistics",
@@ -4006,6 +4339,7 @@
         "index": {
           "description": "Deprecated Use Statistics.Sample.KernelDensity instead Kernel density estimation code providing non-parametric ways to estimate the probability density function of sample The techniques used by functions in this module are relatively fast but they generally give inferior results to the KDE function in the main KernelDensity module due to the oversmoothing documented for bandwidth below",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Simple",
           "package": "statistics",
@@ -4020,6 +4354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe width of the convolution kernel used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Bandwidth",
           "package": "statistics",
@@ -4029,6 +4364,7 @@
         "index": {
           "description": "The width of the convolution kernel used",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Bandwidth",
           "package": "statistics",
@@ -4043,6 +4379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe convolution kernel.  Its parameters are as follows:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Scaling factor, 1/\u003cem\u003enh\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e Bandwidth, \u003cem\u003eh\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e A point at which to sample the input, \u003cem\u003ep\u003c/em\u003e\n\u003c/li\u003e\u003cli\u003e One sample value, \u003cem\u003ev\u003c/em\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Kernel",
           "package": "statistics",
@@ -4052,6 +4389,7 @@
         "index": {
           "description": "The convolution kernel Its parameters are as follows Scaling factor nh Bandwidth point at which to sample the input One sample value",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Kernel",
           "package": "statistics",
@@ -4066,6 +4404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoints from the range of a \u003ccode\u003eSample\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Points",
           "package": "statistics",
@@ -4075,6 +4414,7 @@
         "index": {
           "description": "Points from the range of Sample",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Points",
           "package": "statistics",
@@ -4088,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Points",
           "package": "statistics",
@@ -4097,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "Points",
           "package": "statistics",
@@ -4111,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the optimal bandwidth from the observed data for the\n given kernel.\n\u003c/p\u003e\u003cp\u003eThis function uses an estimate based on the standard deviation of a\n sample (due to Deheuvels), which performs reasonably well for\n unimodal distributions but leads to oversmoothing for more complex\n ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "bandwidth",
           "package": "statistics",
@@ -4121,6 +4464,7 @@
         "index": {
           "description": "Compute the optimal bandwidth from the observed data for the given kernel This function uses an estimate based on the standard deviation of sample due to Deheuvels which performs reasonably well for unimodal distributions but leads to oversmoothing for more complex ones",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "bandwidth",
           "normalized": "(Double-\u003eBandwidth)-\u003ea Double-\u003eBandwidth",
@@ -4136,6 +4480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose a uniform range of points at which to estimate a sample's\n probability density function.\n\u003c/p\u003e\u003cp\u003eIf you are using a Gaussian kernel, multiply the sample's bandwidth\n by 3 before passing it to this function.\n\u003c/p\u003e\u003cp\u003eIf this function is passed an empty vector, it returns values of\n positive and negative infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "choosePoints",
           "package": "statistics",
@@ -4145,6 +4490,7 @@
         "index": {
           "description": "Choose uniform range of points at which to estimate sample probability density function If you are using Gaussian kernel multiply the sample bandwidth by before passing it to this function If this function is passed an empty vector it returns values of positive and negative infinity",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "choosePoints",
           "normalized": "Int-\u003eDouble-\u003ea Double-\u003ePoints",
@@ -4161,6 +4507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBandwidth estimator for an Epanechnikov kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovBW",
           "package": "statistics",
@@ -4171,6 +4518,7 @@
         "index": {
           "description": "Bandwidth estimator for an Epanechnikov kernel",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovBW",
           "normalized": "Double-\u003eBandwidth",
@@ -4187,6 +4535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpanechnikov kernel for probability density function estimation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovKernel",
           "package": "statistics",
@@ -4197,6 +4546,7 @@
         "index": {
           "description": "Epanechnikov kernel for probability density function estimation",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovKernel",
           "package": "statistics",
@@ -4211,6 +4561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple Epanechnikov kernel density estimator.  Returns the\n uniformly spaced points from the sample range at which the density\n function was estimated, and the estimates at those points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovPDF",
           "package": "statistics",
@@ -4220,6 +4571,7 @@
         "index": {
           "description": "Simple Epanechnikov kernel density estimator Returns the uniformly spaced points from the sample range at which the density function was estimated and the estimates at those points",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "epanechnikovPDF",
           "normalized": "Int-\u003ea Double-\u003e(Points,Vector Double)",
@@ -4236,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKernel density estimator, providing a non-parametric way of\n estimating the PDF of a random variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "estimatePDF",
           "package": "statistics",
@@ -4245,6 +4598,7 @@
         "index": {
           "description": "Kernel density estimator providing non-parametric way of estimating the PDF of random variable",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "estimatePDF",
           "normalized": "Kernel-\u003eBandwidth-\u003ea Double-\u003ePoints-\u003eVector Double",
@@ -4260,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "fromPoints",
           "package": "statistics",
@@ -4269,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "fromPoints",
           "package": "statistics",
@@ -4283,6 +4639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBandwidth estimator for a Gaussian kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianBW",
           "package": "statistics",
@@ -4293,6 +4650,7 @@
         "index": {
           "description": "Bandwidth estimator for Gaussian kernel",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianBW",
           "normalized": "Double-\u003eBandwidth",
@@ -4309,6 +4667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaussian kernel for probability density function estimation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianKernel",
           "package": "statistics",
@@ -4319,6 +4678,7 @@
         "index": {
           "description": "Gaussian kernel for probability density function estimation",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianKernel",
           "package": "statistics",
@@ -4333,6 +4693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple Gaussian kernel density estimator.  Returns the uniformly\n spaced points from the sample range at which the density function\n was estimated, and the estimates at those points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianPDF",
           "package": "statistics",
@@ -4342,6 +4703,7 @@
         "index": {
           "description": "Simple Gaussian kernel density estimator Returns the uniformly spaced points from the sample range at which the density function was estimated and the estimates at those points",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "gaussianPDF",
           "normalized": "Int-\u003ea Double-\u003e(Points,Vector Double)",
@@ -4358,6 +4720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper for creating a simple kernel density estimation function\n with automatically chosen bandwidth and estimation points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "simplePDF",
           "package": "statistics",
@@ -4367,6 +4730,7 @@
         "index": {
           "description": "helper for creating simple kernel density estimation function with automatically chosen bandwidth and estimation points",
           "hierarchy": "Statistics Sample KernelDensity Simple",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity.Simple",
           "name": "simplePDF",
           "normalized": "(Double-\u003eDouble)-\u003eKernel-\u003eDouble-\u003eInt-\u003ea Double-\u003e(Points,Vector Double)",
@@ -4383,6 +4747,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKernel density estimation.  This module provides a fast, robust,\n non-parametric way to estimate the probability density function of\n a sample.\n\u003c/p\u003e\u003cp\u003eThis estimator does not use the commonly employed \"Gaussian rule\n of thumb\".  As a result, it outperforms many plug-in methods on\n multimodal samples with widely separated modes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity",
           "name": "KernelDensity",
           "package": "statistics",
@@ -4392,6 +4757,7 @@
         "index": {
           "description": "Kernel density estimation This module provides fast robust non-parametric way to estimate the probability density function of sample This estimator does not use the commonly employed Gaussian rule of thumb As result it outperforms many plug-in methods on multimodal samples with widely separated modes",
           "hierarchy": "Statistics Sample KernelDensity",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity",
           "name": "KernelDensity",
           "package": "statistics",
@@ -4406,6 +4772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaussian kernel density estimator for one-dimensional data, using\n the method of Botev et al.\n\u003c/p\u003e\u003cp\u003eThe result is a pair of vectors, containing:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The coordinates of each mesh point.  The mesh interval is chosen\n   to be 20% larger than the range of the sample.  (To specify the\n   mesh interval, use \u003ccode\u003e\u003ca\u003ekde_\u003c/a\u003e\u003c/code\u003e.)\n\u003c/li\u003e\u003cli\u003e Density estimates at each mesh point.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity",
           "name": "kde",
           "package": "statistics",
@@ -4415,6 +4782,7 @@
         "index": {
           "description": "Gaussian kernel density estimator for one-dimensional data using the method of Botev et al The result is pair of vectors containing The coordinates of each mesh point The mesh interval is chosen to be larger than the range of the sample To specify the mesh interval use kde Density estimates at each mesh point",
           "hierarchy": "Statistics Sample KernelDensity",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity",
           "name": "kde",
           "normalized": "Int-\u003eVector Double-\u003e(Vector Double,Vector Double)",
@@ -4430,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaussian kernel density estimator for one-dimensional data, using\n the method of Botev et al.\n\u003c/p\u003e\u003cp\u003eThe result is a pair of vectors, containing:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The coordinates of each mesh point.\n\u003c/li\u003e\u003cli\u003e Density estimates at each mesh point.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.KernelDensity",
           "name": "kde_",
           "package": "statistics",
@@ -4439,6 +4808,7 @@
         "index": {
           "description": "Gaussian kernel density estimator for one-dimensional data using the method of Botev et al The result is pair of vectors containing The coordinates of each mesh point Density estimates at each mesh point",
           "hierarchy": "Statistics Sample KernelDensity",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.KernelDensity",
           "name": "kde_",
           "normalized": "Int-\u003eDouble-\u003eDouble-\u003eVector Double-\u003e(Vector Double,Vector Double)",
@@ -4454,6 +4824,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVery fast statistics over simple powers of a sample.  These can all\n be computed efficiently in just a single pass over a sample, with\n that pass subject to stream fusion.\n\u003c/p\u003e\u003cp\u003eThe tradeoff is that some of these functions are less numerically\n robust than their counterparts in the \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e module.\n Where this is the case, the alternatives are noted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "Powers",
           "package": "statistics",
@@ -4463,6 +4834,7 @@
         "index": {
           "description": "Very fast statistics over simple powers of sample These can all be computed efficiently in just single pass over sample with that pass subject to stream fusion The tradeoff is that some of these functions are less numerically robust than their counterparts in the Sample module Where this is the case the alternatives are noted",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "Powers",
           "package": "statistics",
@@ -4476,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "Powers",
           "package": "statistics",
@@ -4484,6 +4857,7 @@
         },
         "index": {
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "Powers",
           "package": "statistics",
@@ -4498,6 +4872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \u003cem\u003ek\u003c/em\u003eth central moment of a sample.  The central\n moment is also known as the moment about the mean.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "centralMoment",
           "package": "statistics",
@@ -4508,6 +4883,7 @@
         "index": {
           "description": "Compute the th central moment of sample The central moment is also known as the moment about the mean",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "centralMoment",
           "normalized": "Int-\u003ePowers-\u003eDouble",
@@ -4524,6 +4900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe number of elements in the original \u003ccode\u003eSample\u003c/code\u003e.  This is the\n sample's zeroth simple power.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "count",
           "package": "statistics",
@@ -4534,6 +4911,7 @@
         "index": {
           "description": "The number of elements in the original Sample This is the sample zeroth simple power",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "count",
           "normalized": "Powers-\u003eInt",
@@ -4549,6 +4927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the excess kurtosis of a sample.  This is a measure of\n the \"peakedness\" of its distribution.  A high kurtosis indicates\n that the sample's variance is due more to infrequent severe\n deviations than to frequent modest deviations.\n\u003c/p\u003e\u003cp\u003eA sample's excess kurtosis is not defined if its \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e is\n zero.\n\u003c/p\u003e\u003cp\u003eRequires \u003ccode\u003e\u003ca\u003ePowers\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eorder\u003c/a\u003e\u003c/code\u003e at least 4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "kurtosis",
           "package": "statistics",
@@ -4559,6 +4938,7 @@
         "index": {
           "description": "Compute the excess kurtosis of sample This is measure of the peakedness of its distribution high kurtosis indicates that the sample variance is due more to infrequent severe deviations than to frequent modest deviations sample excess kurtosis is not defined if its variance is zero Requires Powers with order at least",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "kurtosis",
           "normalized": "Powers-\u003eDouble",
@@ -4574,6 +4954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe arithmetic mean of elements in the original \u003ccode\u003eSample\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is less numerically robust than the mean function in the\n \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e module, but the number is essentially free to\n compute if you have already collected a sample's simple powers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "mean",
           "package": "statistics",
@@ -4584,6 +4965,7 @@
         "index": {
           "description": "The arithmetic mean of elements in the original Sample This is less numerically robust than the mean function in the Sample module but the number is essentially free to compute if you have already collected sample simple powers",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "mean",
           "normalized": "Powers-\u003eDouble",
@@ -4599,6 +4981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe order (number) of simple powers collected from a \u003ccode\u003esample\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "order",
           "package": "statistics",
@@ -4609,6 +4992,7 @@
         "index": {
           "description": "The order number of simple powers collected from sample",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "order",
           "normalized": "Powers-\u003eInt",
@@ -4624,6 +5008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(\u003cem\u003en\u003c/em\u003e) Collect the \u003cem\u003en\u003c/em\u003e simple powers of a sample.\n\u003c/p\u003e\u003cp\u003eFunctions computed over a sample's simple powers require at least a\n certain number (or \u003cem\u003eorder\u003c/em\u003e) of powers to be collected.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e To compute the \u003cem\u003ek\u003c/em\u003eth \u003ccode\u003e\u003ca\u003ecentralMoment\u003c/a\u003e\u003c/code\u003e, at least \u003cem\u003ek\u003c/em\u003e simple powers\n   must be collected.\n\u003c/li\u003e\u003cli\u003e For the \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e, at least 2 simple powers are needed.\n\u003c/li\u003e\u003cli\u003e For \u003ccode\u003e\u003ca\u003eskewness\u003c/a\u003e\u003c/code\u003e, we need at least 3 simple powers.\n\u003c/li\u003e\u003cli\u003e For \u003ccode\u003e\u003ca\u003ekurtosis\u003c/a\u003e\u003c/code\u003e, at least 4 simple powers are required.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThis function is subject to stream fusion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "powers",
           "package": "statistics",
@@ -4633,6 +5018,7 @@
         "index": {
           "description": "Collect the simple powers of sample Functions computed over sample simple powers require at least certain number or order of powers to be collected To compute the th centralMoment at least simple powers must be collected For the variance at least simple powers are needed For skewness we need at least simple powers For kurtosis at least simple powers are required This function is subject to stream fusion",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "powers",
           "normalized": "Int-\u003ea Double-\u003ePowers",
@@ -4648,6 +5034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the skewness of a sample. This is a measure of the\n asymmetry of its distribution.\n\u003c/p\u003e\u003cp\u003eA sample with negative skew is said to be \u003cem\u003eleft-skewed\u003c/em\u003e.  Most of\n its mass is on the right of the distribution, with the tail on the\n left.\n\u003c/p\u003e\u003cpre\u003e skewness . powers 3 $ U.to [1,100,101,102,103]\n ==\u003e -1.497681449918257\n\u003c/pre\u003e\u003cp\u003eA sample with positive skew is said to be \u003cem\u003eright-skewed\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e skewness . powers 3 $ U.to [1,2,3,4,100]\n ==\u003e 1.4975367033335198\n\u003c/pre\u003e\u003cp\u003eA sample's skewness is not defined if its \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e is zero.\n\u003c/p\u003e\u003cp\u003eRequires \u003ccode\u003e\u003ca\u003ePowers\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eorder\u003c/a\u003e\u003c/code\u003e at least 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "skewness",
           "package": "statistics",
@@ -4658,6 +5045,7 @@
         "index": {
           "description": "Compute the skewness of sample This is measure of the asymmetry of its distribution sample with negative skew is said to be left-skewed Most of its mass is on the right of the distribution with the tail on the left skewness powers U.to sample with positive skew is said to be right-skewed skewness powers U.to sample skewness is not defined if its variance is zero Requires Powers with order at least",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "skewness",
           "normalized": "Powers-\u003eDouble",
@@ -4673,6 +5061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation.  This is simply the square root of the\n maximum likelihood estimate of the variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "stdDev",
           "package": "statistics",
@@ -4683,6 +5072,7 @@
         "index": {
           "description": "Standard deviation This is simply the square root of the maximum likelihood estimate of the variance",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "stdDev",
           "normalized": "Powers-\u003eDouble",
@@ -4699,6 +5089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe sum of elements in the original \u003ccode\u003eSample\u003c/code\u003e.  This is the\n sample's first simple power.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "sum",
           "package": "statistics",
@@ -4709,6 +5100,7 @@
         "index": {
           "description": "The sum of elements in the original Sample This is the sample first simple power",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "sum",
           "normalized": "Powers-\u003eDouble",
@@ -4724,6 +5116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum likelihood estimate of a sample's variance.  Also known\n as the population variance, where the denominator is \u003cem\u003en\u003c/em\u003e.  This is\n the second central moment of the sample.\n\u003c/p\u003e\u003cp\u003eThis is less numerically robust than the variance function in the\n \u003ccode\u003e\u003ca\u003eSample\u003c/a\u003e\u003c/code\u003e module, but the number is essentially free to\n compute if you have already collected a sample's simple powers.\n\u003c/p\u003e\u003cp\u003eRequires \u003ccode\u003e\u003ca\u003ePowers\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eorder\u003c/a\u003e\u003c/code\u003e at least 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "variance",
           "package": "statistics",
@@ -4734,6 +5127,7 @@
         "index": {
           "description": "Maximum likelihood estimate of sample variance Also known as the population variance where the denominator is This is the second central moment of the sample This is less numerically robust than the variance function in the Sample module but the number is essentially free to compute if you have already collected sample simple powers Requires Powers with order at least",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "variance",
           "normalized": "Powers-\u003eDouble",
@@ -4749,6 +5143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnbiased estimate of a sample's variance.  Also known as the\n sample variance, where the denominator is \u003cem\u003en\u003c/em\u003e-1.\n\u003c/p\u003e\u003cp\u003eRequires \u003ccode\u003e\u003ca\u003ePowers\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eorder\u003c/a\u003e\u003c/code\u003e at least 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample.Powers",
           "name": "varianceUnbiased",
           "package": "statistics",
@@ -4759,6 +5154,7 @@
         "index": {
           "description": "Unbiased estimate of sample variance Also known as the sample variance where the denominator is Requires Powers with order at least",
           "hierarchy": "Statistics Sample Powers",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample.Powers",
           "name": "varianceUnbiased",
           "normalized": "Powers-\u003eDouble",
@@ -4775,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommonly used sample statistics, also known as descriptive\n statistics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "Sample",
           "package": "statistics",
@@ -4784,6 +5181,7 @@
         "index": {
           "description": "Commonly used sample statistics also known as descriptive statistics",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "Sample",
           "package": "statistics",
@@ -4798,6 +5196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "Sample",
           "package": "statistics",
@@ -4807,6 +5206,7 @@
         "index": {
           "description": "Sample data",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "Sample",
           "package": "statistics",
@@ -4821,6 +5221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample with weights. First element of sample is data, second is weight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "WeightedSample",
           "package": "statistics",
@@ -4830,6 +5231,7 @@
         "index": {
           "description": "Sample with weights First element of sample is data second is weight",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "WeightedSample",
           "package": "statistics",
@@ -4844,6 +5246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \u003cem\u003ek\u003c/em\u003eth central moment of a sample.  The central moment\n is also known as the moment about the mean.\n\u003c/p\u003e\u003cp\u003eThis function performs two passes over the sample, so is not subject\n to stream fusion.\n\u003c/p\u003e\u003cp\u003eFor samples containing many values very close to the mean, this\n function is subject to inaccuracy due to catastrophic cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "centralMoment",
           "package": "statistics",
@@ -4854,6 +5257,7 @@
         "index": {
           "description": "Compute the th central moment of sample The central moment is also known as the moment about the mean This function performs two passes over the sample so is not subject to stream fusion For samples containing many values very close to the mean this function is subject to inaccuracy due to catastrophic cancellation",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "centralMoment",
           "normalized": "Int-\u003ea Double-\u003eDouble",
@@ -4870,6 +5274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the \u003cem\u003ek\u003c/em\u003eth and \u003cem\u003ej\u003c/em\u003eth central moments of a sample.\n\u003c/p\u003e\u003cp\u003eThis function performs two passes over the sample, so is not subject\n to stream fusion.\n\u003c/p\u003e\u003cp\u003eFor samples containing many values very close to the mean, this\n function is subject to inaccuracy due to catastrophic cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "centralMoments",
           "package": "statistics",
@@ -4880,6 +5285,7 @@
         "index": {
           "description": "Compute the th and th central moments of sample This function performs two passes over the sample so is not subject to stream fusion For samples containing many values very close to the mean this function is subject to inaccuracy due to catastrophic cancellation",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "centralMoments",
           "normalized": "Int-\u003eInt-\u003ea Double-\u003e(Double,Double)",
@@ -4896,6 +5302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation.  This is simply the square root of the\n maximum likelihood estimate of the variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "fastStdDev",
           "package": "statistics",
@@ -4906,6 +5313,7 @@
         "index": {
           "description": "Standard deviation This is simply the square root of the maximum likelihood estimate of the variance",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "fastStdDev",
           "normalized": "a Double-\u003eDouble",
@@ -4922,6 +5330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum likelihood estimate of a sample's variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "fastVariance",
           "package": "statistics",
@@ -4932,6 +5341,7 @@
         "index": {
           "description": "Maximum likelihood estimate of sample variance",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "fastVariance",
           "normalized": "a Double-\u003eDouble",
@@ -4948,6 +5358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnbiased estimate of a sample's variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "fastVarianceUnbiased",
           "package": "statistics",
@@ -4958,6 +5369,7 @@
         "index": {
           "description": "Unbiased estimate of sample variance",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "fastVarianceUnbiased",
           "normalized": "a Double-\u003eDouble",
@@ -4974,6 +5386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Geometric mean of a sample containing no negative values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "geometricMean",
           "package": "statistics",
@@ -4984,6 +5397,7 @@
         "index": {
           "description": "Geometric mean of sample containing no negative values",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "geometricMean",
           "normalized": "a Double-\u003eDouble",
@@ -5000,6 +5414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Harmonic mean.  This algorithm performs a single pass over\n the sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "harmonicMean",
           "package": "statistics",
@@ -5010,6 +5425,7 @@
         "index": {
           "description": "Harmonic mean This algorithm performs single pass over the sample",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "harmonicMean",
           "normalized": "a Double-\u003eDouble",
@@ -5026,6 +5442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the excess kurtosis of a sample.  This is a measure of\n the \"peakedness\" of its distribution.  A high kurtosis indicates\n that more of the sample's variance is due to infrequent severe\n deviations, rather than more frequent modest deviations.\n\u003c/p\u003e\u003cp\u003eA sample's excess kurtosis is not defined if its \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e is\n zero.\n\u003c/p\u003e\u003cp\u003eThis function performs two passes over the sample, so is not subject\n to stream fusion.\n\u003c/p\u003e\u003cp\u003eFor samples containing many values very close to the mean, this\n function is subject to inaccuracy due to catastrophic cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "kurtosis",
           "package": "statistics",
@@ -5036,6 +5453,7 @@
         "index": {
           "description": "Compute the excess kurtosis of sample This is measure of the peakedness of its distribution high kurtosis indicates that more of the sample variance is due to infrequent severe deviations rather than more frequent modest deviations sample excess kurtosis is not defined if its variance is zero This function performs two passes over the sample so is not subject to stream fusion For samples containing many values very close to the mean this function is subject to inaccuracy due to catastrophic cancellation",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "kurtosis",
           "normalized": "a Double-\u003eDouble",
@@ -5051,6 +5469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Arithmetic mean.  This uses Kahan-Babu&#353;ka-Neumaier\n summation, so is more accurate than \u003ccode\u003e\u003ca\u003ewelfordMean\u003c/a\u003e\u003c/code\u003e unless the input\n values are very large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "mean",
           "package": "statistics",
@@ -5061,6 +5480,7 @@
         "index": {
           "description": "Arithmetic mean This uses Kahan-Babu ka-Neumaier summation so is more accurate than welfordMean unless the input values are very large",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "mean",
           "normalized": "a Double-\u003eDouble",
@@ -5076,6 +5496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate mean and maximum likelihood estimate of variance. This\n function should be used if both mean and variance are required\n since it will calculate mean only once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "meanVariance",
           "package": "statistics",
@@ -5086,6 +5507,7 @@
         "index": {
           "description": "Calculate mean and maximum likelihood estimate of variance This function should be used if both mean and variance are required since it will calculate mean only once",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "meanVariance",
           "normalized": "a Double-\u003e(Double,Double)",
@@ -5102,6 +5524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate mean and unbiased estimate of variance. This\n function should be used if both mean and variance are required\n since it will calculate mean only once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "meanVarianceUnb",
           "package": "statistics",
@@ -5112,6 +5535,7 @@
         "index": {
           "description": "Calculate mean and unbiased estimate of variance This function should be used if both mean and variance are required since it will calculate mean only once",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "meanVarianceUnb",
           "normalized": "a Double-\u003e(Double,Double)",
@@ -5128,6 +5552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Arithmetic mean for weighted sample. It uses a single-pass\n algorithm analogous to the one used by \u003ccode\u003e\u003ca\u003ewelfordMean\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "meanWeighted",
           "package": "statistics",
@@ -5138,6 +5563,7 @@
         "index": {
           "description": "Arithmetic mean for weighted sample It uses single-pass algorithm analogous to the one used by welfordMean",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "meanWeighted",
           "normalized": "a(Double,Double)-\u003eDouble",
@@ -5154,6 +5580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Range. The difference between the largest and smallest\n elements of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "range",
           "package": "statistics",
@@ -5164,6 +5591,7 @@
         "index": {
           "description": "Range The difference between the largest and smallest elements of sample",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "range",
           "normalized": "a Double-\u003eDouble",
@@ -5179,6 +5607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the skewness of a sample. This is a measure of the\n asymmetry of its distribution.\n\u003c/p\u003e\u003cp\u003eA sample with negative skew is said to be \u003cem\u003eleft-skewed\u003c/em\u003e.  Most of\n its mass is on the right of the distribution, with the tail on the\n left.\n\u003c/p\u003e\u003cpre\u003e skewness $ U.to [1,100,101,102,103]\n ==\u003e -1.497681449918257\n\u003c/pre\u003e\u003cp\u003eA sample with positive skew is said to be \u003cem\u003eright-skewed\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e skewness $ U.to [1,2,3,4,100]\n ==\u003e 1.4975367033335198\n\u003c/pre\u003e\u003cp\u003eA sample's skewness is not defined if its \u003ccode\u003e\u003ca\u003evariance\u003c/a\u003e\u003c/code\u003e is zero.\n\u003c/p\u003e\u003cp\u003eThis function performs two passes over the sample, so is not subject\n to stream fusion.\n\u003c/p\u003e\u003cp\u003eFor samples containing many values very close to the mean, this\n function is subject to inaccuracy due to catastrophic cancellation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "skewness",
           "package": "statistics",
@@ -5189,6 +5618,7 @@
         "index": {
           "description": "Compute the skewness of sample This is measure of the asymmetry of its distribution sample with negative skew is said to be left-skewed Most of its mass is on the right of the distribution with the tail on the left skewness U.to sample with positive skew is said to be right-skewed skewness U.to sample skewness is not defined if its variance is zero This function performs two passes over the sample so is not subject to stream fusion For samples containing many values very close to the mean this function is subject to inaccuracy due to catastrophic cancellation",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "skewness",
           "normalized": "a Double-\u003eDouble",
@@ -5204,6 +5634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard deviation.  This is simply the square root of the\n unbiased estimate of the variance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "stdDev",
           "package": "statistics",
@@ -5214,6 +5645,7 @@
         "index": {
           "description": "Standard deviation This is simply the square root of the unbiased estimate of the variance",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "stdDev",
           "normalized": "a Double-\u003eDouble",
@@ -5230,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum likelihood estimate of a sample's variance.  Also known\n as the population variance, where the denominator is \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "variance",
           "package": "statistics",
@@ -5240,6 +5673,7 @@
         "index": {
           "description": "Maximum likelihood estimate of sample variance Also known as the population variance where the denominator is",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "variance",
           "normalized": "a Double-\u003eDouble",
@@ -5255,6 +5689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnbiased estimate of a sample's variance.  Also known as the\n sample variance, where the denominator is \u003cem\u003en\u003c/em\u003e-1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "varianceUnbiased",
           "package": "statistics",
@@ -5265,6 +5700,7 @@
         "index": {
           "description": "Unbiased estimate of sample variance Also known as the sample variance where the denominator is",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "varianceUnbiased",
           "normalized": "a Double-\u003eDouble",
@@ -5281,6 +5717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeighted variance. This is biased estimation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "varianceWeighted",
           "package": "statistics",
@@ -5291,6 +5728,7 @@
         "index": {
           "description": "Weighted variance This is biased estimation",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "varianceWeighted",
           "normalized": "a(Double,Double)-\u003eDouble",
@@ -5307,6 +5745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Arithmetic mean.  This uses Welford's algorithm to provide\n numerical stability, using a single pass over the sample data.\n\u003c/p\u003e\u003cp\u003eCompared to \u003ccode\u003e\u003ca\u003emean\u003c/a\u003e\u003c/code\u003e, this loses a surprising amount of precision\n unless the inputs are very large.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Sample",
           "name": "welfordMean",
           "package": "statistics",
@@ -5317,6 +5756,7 @@
         "index": {
           "description": "Arithmetic mean This uses Welford algorithm to provide numerical stability using single pass over the sample data Compared to mean this loses surprising amount of precision unless the inputs are very large",
           "hierarchy": "Statistics Sample",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Sample",
           "name": "welfordMean",
           "normalized": "a Double-\u003eDouble",
@@ -5333,6 +5773,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePearson's chi squared test.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -5342,6 +5783,7 @@
         "index": {
           "description": "Pearson chi squared test",
           "hierarchy": "Statistics Test ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.ChiSquared",
           "name": "ChiSquared",
           "package": "statistics",
@@ -5356,6 +5798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of hypothesis testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.ChiSquared",
           "name": "TestResult",
           "package": "statistics",
@@ -5365,6 +5808,7 @@
         "index": {
           "description": "Result of hypothesis testing",
           "hierarchy": "Statistics Test ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.ChiSquared",
           "name": "TestResult",
           "package": "statistics",
@@ -5379,6 +5823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest type. Exact meaning depends on a specific test. But\n generally it's tested whether some statistics is too big (small)\n for \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e or whether it too big or too small for \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.ChiSquared",
           "name": "TestType",
           "package": "statistics",
@@ -5388,6 +5833,7 @@
         "index": {
           "description": "Test type Exact meaning depends on specific test But generally it tested whether some statistics is too big small for OneTailed or whether it too big or too small for TwoTailed",
           "hierarchy": "Statistics Test ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.ChiSquared",
           "name": "TestType",
           "package": "statistics",
@@ -5498,6 +5944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric form of Pearson chi squared tests for binned data. Data\n   sample is supplied in form of tuples (observed quantity,\n   expected number of events). Both must be positive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.ChiSquared",
           "name": "chi2test",
           "package": "statistics",
@@ -5507,6 +5954,7 @@
         "index": {
           "description": "Generic form of Pearson chi squared tests for binned data Data sample is supplied in form of tuples observed quantity expected number of events Both must be positive",
           "hierarchy": "Statistics Test ChiSquared",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.ChiSquared",
           "name": "chi2test",
           "normalized": "Double-\u003eInt-\u003ea(Int,Double)-\u003eTestResult",
@@ -5522,6 +5970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eKolmogov-Smirnov tests are non-parametric tests for assesing\n whether given sample could be described by distribution or whether\n two samples have the same distribution. It's only applicable to\n continous distributions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "KolmogorovSmirnov",
           "package": "statistics",
@@ -5531,6 +5980,7 @@
         "index": {
           "description": "Kolmogov-Smirnov tests are non-parametric tests for assesing whether given sample could be described by distribution or whether two samples have the same distribution It only applicable to continous distributions",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "KolmogorovSmirnov",
           "package": "statistics",
@@ -5545,6 +5995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of hypothesis testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "TestResult",
           "package": "statistics",
@@ -5554,6 +6005,7 @@
         "index": {
           "description": "Result of hypothesis testing",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "TestResult",
           "package": "statistics",
@@ -5568,6 +6020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest type. Exact meaning depends on a specific test. But\n generally it's tested whether some statistics is too big (small)\n for \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e or whether it too big or too small for \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "TestType",
           "package": "statistics",
@@ -5577,6 +6030,7 @@
         "index": {
           "description": "Test type Exact meaning depends on specific test But generally it tested whether some statistics is too big small for OneTailed or whether it too big or too small for TwoTailed",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "TestType",
           "package": "statistics",
@@ -5591,6 +6045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate Kolmogorov's statistic \u003cem\u003eD\u003c/em\u003e for two data samples. If\n   either of samples is empty returns 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnov2D",
           "package": "statistics",
@@ -5600,6 +6055,7 @@
         "index": {
           "description": "Calculate Kolmogorov statistic for two data samples If either of samples is empty returns",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnov2D",
           "normalized": "Sample-\u003eSample-\u003eDouble",
@@ -5616,6 +6072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate Kolmogorov's statistic \u003cem\u003eD\u003c/em\u003e for given cumulative\n   distribution function (CDF) and data sample. If sample is empty\n   returns 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovCdfD",
           "package": "statistics",
@@ -5625,6 +6082,7 @@
         "index": {
           "description": "Calculate Kolmogorov statistic for given cumulative distribution function CDF and data sample If sample is empty returns",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovCdfD",
           "normalized": "(Double-\u003eDouble)-\u003eSample-\u003eDouble",
@@ -5641,6 +6099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate Kolmogorov's statistic \u003cem\u003eD\u003c/em\u003e for given cumulative\n   distribution function (CDF) and data sample. If sample is empty\n   returns 0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovD",
           "package": "statistics",
@@ -5650,6 +6109,7 @@
         "index": {
           "description": "Calculate Kolmogorov statistic for given cumulative distribution function CDF and data sample If sample is empty returns",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovD",
           "normalized": "a-\u003eSample-\u003eDouble",
@@ -5666,6 +6126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate cumulative probability function for Kolmogorov's\n   distribution with \u003cem\u003en\u003c/em\u003e parameters or probability of getting value\n   smaller than \u003cem\u003ed\u003c/em\u003e with n-elements sample.\n\u003c/p\u003e\u003cp\u003eIt uses algorithm by Marsgalia et. al. and provide at least\n   7-digit accuracy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovProbability",
           "package": "statistics",
@@ -5675,6 +6136,7 @@
         "index": {
           "description": "Calculate cumulative probability function for Kolmogorov distribution with parameters or probability of getting value smaller than with n-elements sample It uses algorithm by Marsgalia et al and provide at least digit accuracy",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovProbability",
           "normalized": "Int-\u003eDouble-\u003eDouble",
@@ -5691,6 +6153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck that sample could be described by\n   distribution. \u003ccode\u003e\u003ca\u003eSignificant\u003c/a\u003e\u003c/code\u003e means distribution is not compatible\n   with data for given p-value.\n\u003c/p\u003e\u003cp\u003eThis test uses Marsaglia-Tsang-Wang exact alogorithm for\n   calculation of p-value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTest",
           "package": "statistics",
@@ -5700,6 +6163,7 @@
         "index": {
           "description": "Check that sample could be described by distribution Significant means distribution is not compatible with data for given p-value This test uses Marsaglia-Tsang-Wang exact alogorithm for calculation of p-value",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTest",
           "normalized": "a-\u003eDouble-\u003eSample-\u003eTestResult",
@@ -5716,6 +6180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo sample Kolmogorov-Smirnov test. It tests whether two data\n   samples could be described by the same distribution without\n   making any assumptions about it.\n\u003c/p\u003e\u003cp\u003eThis test uses approxmate formula for computing p-value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTest2",
           "package": "statistics",
@@ -5725,6 +6190,7 @@
         "index": {
           "description": "Two sample Kolmogorov-Smirnov test It tests whether two data samples could be described by the same distribution without making any assumptions about it This test uses approxmate formula for computing p-value",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTest2",
           "normalized": "Double-\u003eSample-\u003eSample-\u003eTestResult",
@@ -5741,6 +6207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ekolmogorovSmirnovTest\u003c/a\u003e\u003c/code\u003e which uses CFD in form of\n   function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTestCdf",
           "package": "statistics",
@@ -5750,6 +6217,7 @@
         "index": {
           "description": "Variant of kolmogorovSmirnovTest which uses CFD in form of function",
           "hierarchy": "Statistics Test KolmogorovSmirnov",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.KolmogorovSmirnov",
           "name": "kolmogorovSmirnovTestCdf",
           "normalized": "(Double-\u003eDouble)-\u003eDouble-\u003eSample-\u003eTestResult",
@@ -5766,6 +6234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMann-Whitney U test (also know as Mann-Whitney-Wilcoxon and\n Wilcoxon rank sum test) is a non-parametric test for assesing\n whether two samples of independent observations have different\n mean.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "MannWhitneyU",
           "package": "statistics",
@@ -5775,6 +6244,7 @@
         "index": {
           "description": "Mann-Whitney test also know as Mann-Whitney-Wilcoxon and Wilcoxon rank sum test is non-parametric test for assesing whether two samples of independent observations have different mean",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "MannWhitneyU",
           "package": "statistics",
@@ -5789,6 +6259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of hypothesis testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "TestResult",
           "package": "statistics",
@@ -5798,6 +6269,7 @@
         "index": {
           "description": "Result of hypothesis testing",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "TestResult",
           "package": "statistics",
@@ -5812,6 +6284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest type. Exact meaning depends on a specific test. But\n generally it's tested whether some statistics is too big (small)\n for \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e or whether it too big or too small for \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "TestType",
           "package": "statistics",
@@ -5821,6 +6294,7 @@
         "index": {
           "description": "Test type Exact meaning depends on specific test But generally it tested whether some statistics is too big small for OneTailed or whether it too big or too small for TwoTailed",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "TestType",
           "package": "statistics",
@@ -5835,6 +6309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Mann-Whitney U Test.\n\u003c/p\u003e\u003cp\u003eThis is sometimes known as the Mann-Whitney-Wilcoxon U test, and\n confusingly many sources state that the Mann-Whitney U test is the same as\n the Wilcoxon's rank sum test (which is provided as \u003ccode\u003e\u003ca\u003ewilcoxonRankSums\u003c/a\u003e\u003c/code\u003e).\n The Mann-Whitney U is a simple transform of Wilcoxon's rank sum test.\n\u003c/p\u003e\u003cp\u003eAgain confusingly, different sources state reversed definitions for U&#8321;\n and U&#8322;, so it is worth being explicit about what this function returns.\n Given two samples, the first, xs&#8321;, of size n&#8321; and the second, xs&#8322;,\n of size n&#8322;, this function returns (U&#8321;, U&#8322;)\n where U&#8321; = W&#8321; - (n&#8321;(n&#8321;+1))/2\n and U&#8322; = W&#8322; - (n&#8322;(n&#8322;+1))/2,\n where (W&#8321;, W&#8322;) is the return value of \u003ccode\u003ewilcoxonRankSums xs1 xs2\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome sources instead state that U&#8321; and U&#8322; should be the other way round, often\n expressing this using U&#8321;' = n&#8321;n&#8322; - U&#8321; (since U&#8321; + U&#8322; = n&#8321;n&#8322;).\n\u003c/p\u003e\u003cp\u003eAll of which you probably don't care about if you just feed this into \u003ccode\u003e\u003ca\u003emannWhitneyUSignificant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyU",
           "package": "statistics",
@@ -5845,6 +6320,7 @@
         "index": {
           "description": "The Mann-Whitney Test This is sometimes known as the Mann-Whitney-Wilcoxon test and confusingly many sources state that the Mann-Whitney test is the same as the Wilcoxon rank sum test which is provided as wilcoxonRankSums The Mann-Whitney is simple transform of Wilcoxon rank sum test Again confusingly different sources state reversed definitions for and so it is worth being explicit about what this function returns Given two samples the first xs of size and the second xs of size this function returns where and where is the return value of wilcoxonRankSums xs1 xs2 Some sources instead state that and should be the other way round often expressing this using since All of which you probably don care about if you just feed this into mannWhitneyUSignificant",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyU",
           "normalized": "Sample-\u003eSample-\u003e(Double,Double)",
@@ -5861,6 +6337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the critical value of Mann-Whitney U for the given sample\n sizes and significance level.\n\u003c/p\u003e\u003cp\u003eThis function returns the exact calculated value of U for all sample sizes;\n it does not use the normal approximation at all.  Above sample size 20 it is\n generally recommended to use the normal approximation instead, but this function\n will calculate the higher critical values if you need them.\n\u003c/p\u003e\u003cp\u003eThe algorithm to generate these values is a faster, memoised version of the\n simple unoptimised generating function given in section 2 of \"The Mann Whitney\n Wilcoxon Distribution Using Linked Lists\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUCriticalValue",
           "package": "statistics",
@@ -5870,6 +6347,7 @@
         "index": {
           "description": "Calculates the critical value of Mann-Whitney for the given sample sizes and significance level This function returns the exact calculated value of for all sample sizes it does not use the normal approximation at all Above sample size it is generally recommended to use the normal approximation instead but this function will calculate the higher critical values if you need them The algorithm to generate these values is faster memoised version of the simple unoptimised generating function given in section of The Mann Whitney Wilcoxon Distribution Using Linked Lists",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUCriticalValue",
           "normalized": "(Int,Int)-\u003eDouble-\u003eMaybe Int",
@@ -5886,6 +6364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates whether the Mann Whitney U test is significant.\n\u003c/p\u003e\u003cp\u003eIf both sample sizes are less than or equal to 20, the exact U critical value\n (as calculated by \u003ccode\u003e\u003ca\u003emannWhitneyUCriticalValue\u003c/a\u003e\u003c/code\u003e) is used.  If either sample is\n larger than 20, the normal approximation is used instead.\n\u003c/p\u003e\u003cp\u003eIf you use a one-tailed test, the test indicates whether the first sample is\n significantly larger than the second.  If you want the opposite, simply reverse\n the order in both the sample size and the (U&#8321;, U&#8322;) pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUSignificant",
           "package": "statistics",
@@ -5895,6 +6374,7 @@
         "index": {
           "description": "Calculates whether the Mann Whitney test is significant If both sample sizes are less than or equal to the exact critical value as calculated by mannWhitneyUCriticalValue is used If either sample is larger than the normal approximation is used instead If you use one-tailed test the test indicates whether the first sample is significantly larger than the second If you want the opposite simply reverse the order in both the sample size and the pairs",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUSignificant",
           "normalized": "TestType-\u003e(Int,Int)-\u003eDouble-\u003e(Double,Double)-\u003eMaybe TestResult",
@@ -5911,6 +6391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform Mann-Whitney U Test for two samples and required\n significance. For additional information check documentation of\n \u003ccode\u003e\u003ca\u003emannWhitneyU\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emannWhitneyUSignificant\u003c/a\u003e\u003c/code\u003e. This is just a helper\n function.\n\u003c/p\u003e\u003cp\u003eOne-tailed test checks whether first sample is significantly larger\n than second. Two-tailed whether they are significantly different.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUtest",
           "package": "statistics",
@@ -5920,6 +6401,7 @@
         "index": {
           "description": "Perform Mann-Whitney Test for two samples and required significance For additional information check documentation of mannWhitneyU and mannWhitneyUSignificant This is just helper function One-tailed test checks whether first sample is significantly larger than second Two-tailed whether they are significantly different",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "mannWhitneyUtest",
           "normalized": "TestType-\u003eDouble-\u003eSample-\u003eSample-\u003eMaybe TestResult",
@@ -5936,6 +6418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Wilcoxon Rank Sums Test.\n\u003c/p\u003e\u003cp\u003eThis test calculates the sum of ranks for the given two samples.  The samples\n are ordered, and assigned ranks (ties are given their average rank), then these\n ranks are summed for each sample.\n\u003c/p\u003e\u003cp\u003eThe return value is (W&#8321;, W&#8322;) where W&#8321; is the sum of ranks of the first sample\n and W&#8322; is the sum of ranks of the second sample.  This test is trivially transformed\n into the Mann-Whitney U test.  You will probably want to use \u003ccode\u003e\u003ca\u003emannWhitneyU\u003c/a\u003e\u003c/code\u003e\n and the related functions for testing significance, but this function is exposed\n for completeness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "wilcoxonRankSums",
           "package": "statistics",
@@ -5946,6 +6429,7 @@
         "index": {
           "description": "The Wilcoxon Rank Sums Test This test calculates the sum of ranks for the given two samples The samples are ordered and assigned ranks ties are given their average rank then these ranks are summed for each sample The return value is where is the sum of ranks of the first sample and is the sum of ranks of the second sample This test is trivially transformed into the Mann-Whitney test You will probably want to use mannWhitneyU and the related functions for testing significance but this function is exposed for completeness",
           "hierarchy": "Statistics Test MannWhitneyU",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.MannWhitneyU",
           "name": "wilcoxonRankSums",
           "normalized": "Sample-\u003eSample-\u003e(Double,Double)",
@@ -5962,6 +6446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use S.Test.MannWhitneyU and S.Test.WilcoxonT instead\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eFunctions for performing non-parametric tests (i.e. tests without an assumption\n of underlying distribution).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.NonParametric",
           "name": "NonParametric",
           "package": "statistics",
@@ -5971,6 +6456,7 @@
         "index": {
           "description": "Deprecated Use S.Test.MannWhitneyU and S.Test.WilcoxonT instead Functions for performing non-parametric tests i.e tests without an assumption of underlying distribution",
           "hierarchy": "Statistics Test NonParametric",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.NonParametric",
           "name": "NonParametric",
           "package": "statistics",
@@ -5984,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.Types",
           "name": "Types",
           "package": "statistics",
@@ -5992,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Statistics Test Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.Types",
           "name": "Types",
           "package": "statistics",
@@ -6006,6 +6494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of hypothesis testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.Types",
           "name": "TestResult",
           "package": "statistics",
@@ -6015,6 +6504,7 @@
         "index": {
           "description": "Result of hypothesis testing",
           "hierarchy": "Statistics Test Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.Types",
           "name": "TestResult",
           "package": "statistics",
@@ -6029,6 +6519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest type. Exact meaning depends on a specific test. But\n generally it's tested whether some statistics is too big (small)\n for \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e or whether it too big or too small for \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.Types",
           "name": "TestType",
           "package": "statistics",
@@ -6038,6 +6529,7 @@
         "index": {
           "description": "Test type Exact meaning depends on specific test But generally it tested whether some statistics is too big small for OneTailed or whether it too big or too small for TwoTailed",
           "hierarchy": "Statistics Test Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.Types",
           "name": "TestType",
           "package": "statistics",
@@ -6052,6 +6544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSignificant if parameter is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, not significant otherwiser\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.Types",
           "name": "significant",
           "package": "statistics",
@@ -6062,6 +6555,7 @@
         "index": {
           "description": "Significant if parameter is True not significant otherwiser",
           "hierarchy": "Statistics Test Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.Types",
           "name": "significant",
           "normalized": "Bool-\u003eTestResult",
@@ -6077,6 +6571,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Wilcoxon matched-pairs signed-rank test is non-parametric test\n which could be used to whether two related samples have different\n means.\n\u003c/p\u003e\u003cp\u003eWARNING: current implementation contain critical bugs\n \u003ca\u003ehttps://github.com/bos/statistics/issues/18\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "WilcoxonT",
           "package": "statistics",
@@ -6086,6 +6581,7 @@
         "index": {
           "description": "The Wilcoxon matched-pairs signed-rank test is non-parametric test which could be used to whether two related samples have different means WARNING current implementation contain critical bugs https github.com bos statistics issues",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "WilcoxonT",
           "package": "statistics",
@@ -6100,6 +6596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult of hypothesis testing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "TestResult",
           "package": "statistics",
@@ -6109,6 +6606,7 @@
         "index": {
           "description": "Result of hypothesis testing",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "TestResult",
           "package": "statistics",
@@ -6123,6 +6621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest type. Exact meaning depends on a specific test. But\n generally it's tested whether some statistics is too big (small)\n for \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e or whether it too big or too small for \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "TestType",
           "package": "statistics",
@@ -6132,6 +6631,7 @@
         "index": {
           "description": "Test type Exact meaning depends on specific test But generally it tested whether some statistics is too big small for OneTailed or whether it too big or too small for TwoTailed",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "TestType",
           "package": "statistics",
@@ -6146,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains the critical value of T to compare against, given a sample size\n and a p-value (significance level).  Your T value must be less than or\n equal to the return of this function in order for the test to work out\n significant.  If there is a Nothing return, the sample size is too small to\n make a decision.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ewilcoxonSignificant\u003c/code\u003e tests the return value of \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignedRank\u003c/a\u003e\u003c/code\u003e\n for you, so you should use \u003ccode\u003ewilcoxonSignificant\u003c/code\u003e for determining test results.\n  However, this function is useful, for example, for generating lookup tables\n for Wilcoxon signed rank critical values.\n\u003c/p\u003e\u003cp\u003eThe return values of this function are generated using the method detailed in\n the paper \"Critical Values for the Wilcoxon Signed Rank Statistic\", Peter\n Mitic, The Mathematica Journal, volume 6, issue 3, 1996, which can be found\n here: \u003ca\u003ehttp://www.mathematica-journal.com/issue/v6i3/article/mitic/contents/63mitic.pdf\u003c/a\u003e.\n According to that paper, the results may differ from other published lookup tables, but\n (Mitic claims) the values obtained by this function will be the correct ones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairCriticalValue",
           "package": "statistics",
@@ -6155,6 +6656,7 @@
         "index": {
           "description": "Obtains the critical value of to compare against given sample size and p-value significance level Your value must be less than or equal to the return of this function in order for the test to work out significant If there is Nothing return the sample size is too small to make decision wilcoxonSignificant tests the return value of wilcoxonMatchedPairSignedRank for you so you should use wilcoxonSignificant for determining test results However this function is useful for example for generating lookup tables for Wilcoxon signed rank critical values The return values of this function are generated using the method detailed in the paper Critical Values for the Wilcoxon Signed Rank Statistic Peter Mitic The Mathematica Journal volume issue which can be found here http www.mathematica-journal.com issue v6i3 article mitic contents mitic.pdf According to that paper the results may differ from other published lookup tables but Mitic claims the values obtained by this function will be the correct ones",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairCriticalValue",
           "normalized": "Int-\u003eDouble-\u003eMaybe Int",
@@ -6170,6 +6672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignedRank",
           "package": "statistics",
@@ -6179,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignedRank",
           "normalized": "Sample-\u003eSample-\u003e(Double,Double)",
@@ -6195,6 +6699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWorks out the significance level (p-value) of a T value, given a sample\n size and a T value from the Wilcoxon signed-rank matched-pairs test.\n\u003c/p\u003e\u003cp\u003eSee the notes on \u003ccode\u003ewilcoxonCriticalValue\u003c/code\u003e for how this is calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignificance",
           "package": "statistics",
@@ -6204,6 +6709,7 @@
         "index": {
           "description": "Works out the significance level p-value of value given sample size and value from the Wilcoxon signed-rank matched-pairs test See the notes on wilcoxonCriticalValue for how this is calculated",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignificance",
           "normalized": "Int-\u003eDouble-\u003eDouble",
@@ -6220,6 +6726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTests whether a given result from a Wilcoxon signed-rank matched-pairs test\n is significant at the given level.\n\u003c/p\u003e\u003cp\u003eThis function can perform a one-tailed or two-tailed test.  If the first\n parameter to this function is \u003ccode\u003e\u003ca\u003eTwoTailed\u003c/a\u003e\u003c/code\u003e, the test is performed two-tailed to\n check if the two samples differ significantly.  If the first parameter is\n \u003ccode\u003e\u003ca\u003eOneTailed\u003c/a\u003e\u003c/code\u003e, the check is performed one-tailed to decide whether the first sample\n (i.e. the first sample you passed to \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignedRank\u003c/a\u003e\u003c/code\u003e) is\n greater than the second sample (i.e. the second sample you passed to\n \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignedRank\u003c/a\u003e\u003c/code\u003e).  If you wish to perform a one-tailed test\n in the opposite direction, you can either pass the parameters in a different\n order to \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignedRank\u003c/a\u003e\u003c/code\u003e, or simply swap the values in the resulting\n pair before passing them to this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignificant",
           "package": "statistics",
@@ -6229,6 +6736,7 @@
         "index": {
           "description": "Tests whether given result from Wilcoxon signed-rank matched-pairs test is significant at the given level This function can perform one-tailed or two-tailed test If the first parameter to this function is TwoTailed the test is performed two-tailed to check if the two samples differ significantly If the first parameter is OneTailed the check is performed one-tailed to decide whether the first sample i.e the first sample you passed to wilcoxonMatchedPairSignedRank is greater than the second sample i.e the second sample you passed to wilcoxonMatchedPairSignedRank If you wish to perform one-tailed test in the opposite direction you can either pass the parameters in different order to wilcoxonMatchedPairSignedRank or simply swap the values in the resulting pair before passing them to this function",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairSignificant",
           "normalized": "TestType-\u003eInt-\u003eDouble-\u003e(Double,Double)-\u003eMaybe TestResult",
@@ -6245,6 +6753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Wilcoxon matched-pairs signed-rank test. The samples are\n zipped together: if one is longer than the other, both are\n truncated to the the length of the shorter sample.\n\u003c/p\u003e\u003cp\u003eFor one-tailed test it tests whether first sample is significantly\n greater than the second. For two-tailed it checks whether they\n significantly differ\n\u003c/p\u003e\u003cp\u003eCheck \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignedRank\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003ewilcoxonMatchedPairSignificant\u003c/a\u003e\u003c/code\u003e for additional information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairTest",
           "package": "statistics",
@@ -6254,6 +6763,7 @@
         "index": {
           "description": "The Wilcoxon matched-pairs signed-rank test The samples are zipped together if one is longer than the other both are truncated to the the length of the shorter sample For one-tailed test it tests whether first sample is significantly greater than the second For two-tailed it checks whether they significantly differ Check wilcoxonMatchedPairSignedRank and wilcoxonMatchedPairSignificant for additional information",
           "hierarchy": "Statistics Test WilcoxonT",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Test.WilcoxonT",
           "name": "wilcoxonMatchedPairTest",
           "normalized": "TestType-\u003eDouble-\u003eSample-\u003eSample-\u003eMaybe TestResult",
@@ -6270,6 +6780,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFourier-related transformations of mathematical functions.\n\u003c/p\u003e\u003cp\u003eThese functions are written for simplicity and correctness, not\n speed.  If you need a fast FFT implementation for your application,\n you should strongly consider using a library of FFTW bindings\n instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "Transform",
           "package": "statistics",
@@ -6279,6 +6790,7 @@
         "index": {
           "description": "Fourier-related transformations of mathematical functions These functions are written for simplicity and correctness not speed If you need fast FFT implementation for your application you should strongly consider using library of FFTW bindings instead",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "Transform",
           "package": "statistics",
@@ -6292,6 +6804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "CD",
           "package": "statistics",
@@ -6300,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "CD",
           "package": "statistics",
@@ -6314,6 +6828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete cosine transform (DCT-II).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "dct",
           "package": "statistics",
@@ -6324,6 +6839,7 @@
         "index": {
           "description": "Discrete cosine transform DCT-II",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "dct",
           "normalized": "Vector Double-\u003eVector Double",
@@ -6339,6 +6855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDiscrete cosine transform (DCT-II). Only real part of vector is\n   transformed, imaginary part is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "dct_",
           "package": "statistics",
@@ -6349,6 +6866,7 @@
         "index": {
           "description": "Discrete cosine transform DCT-II Only real part of vector is transformed imaginary part is ignored",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "dct_",
           "normalized": "Vector CD-\u003eVector Double",
@@ -6364,6 +6882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRadix-2 decimation-in-time fast Fourier transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "fft",
           "package": "statistics",
@@ -6374,6 +6893,7 @@
         "index": {
           "description": "Radix-2 decimation-in-time fast Fourier transform",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "fft",
           "normalized": "Vector CD-\u003eVector CD",
@@ -6389,6 +6909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse discrete cosine transform (DCT-III). It's inverse of\n \u003ccode\u003e\u003ca\u003edct\u003c/a\u003e\u003c/code\u003e only up to scale parameter:\n\u003c/p\u003e\u003cpre\u003e (idct . dct) x = (* length x)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "idct",
           "package": "statistics",
@@ -6399,6 +6920,7 @@
         "index": {
           "description": "Inverse discrete cosine transform DCT-III It inverse of dct only up to scale parameter idct dct length",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "idct",
           "normalized": "Vector Double-\u003eVector Double",
@@ -6414,6 +6936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse discrete cosine transform (DCT-III). Only real part of vector is\n   transformed, imaginary part is ignored.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "idct_",
           "package": "statistics",
@@ -6424,6 +6947,7 @@
         "index": {
           "description": "Inverse discrete cosine transform DCT-III Only real part of vector is transformed imaginary part is ignored",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "idct_",
           "normalized": "Vector CD-\u003eVector Double",
@@ -6439,6 +6963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse fast Fourier transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Transform",
           "name": "ifft",
           "package": "statistics",
@@ -6449,6 +6974,7 @@
         "index": {
           "description": "Inverse fast Fourier transform",
           "hierarchy": "Statistics Transform",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Transform",
           "name": "ifft",
           "normalized": "Vector CD-\u003eVector CD",
@@ -6464,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for working with statistics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Types",
           "package": "statistics",
@@ -6473,6 +7000,7 @@
         "index": {
           "description": "Types for working with statistics",
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Types",
           "package": "statistics",
@@ -6487,6 +7015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn estimator of a property of a sample, such as its \u003ccode\u003emean\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe use of an algebraic data type here allows functions such as\n \u003ccode\u003ejackknife\u003c/code\u003e and \u003ccode\u003ebootstrapBCA\u003c/code\u003e to use more efficient algorithms\n when possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Estimator",
           "package": "statistics",
@@ -6496,6 +7025,7 @@
         "index": {
           "description": "An estimator of property of sample such as its mean The use of an algebraic data type here allows functions such as jackknife and bootstrapBCA to use more efficient algorithms when possible",
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Estimator",
           "package": "statistics",
@@ -6510,6 +7040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Sample",
           "package": "statistics",
@@ -6519,6 +7050,7 @@
         "index": {
           "description": "Sample data",
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Sample",
           "package": "statistics",
@@ -6533,6 +7065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample with weights. First element of sample is data, second is weight\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "WeightedSample",
           "package": "statistics",
@@ -6542,6 +7075,7 @@
         "index": {
           "description": "Sample with weights First element of sample is data second is weight",
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "WeightedSample",
           "package": "statistics",
@@ -6556,6 +7090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWeights for affecting the importance of elements of a sample.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Weights",
           "package": "statistics",
@@ -6565,6 +7100,7 @@
         "index": {
           "description": "Weights for affecting the importance of elements of sample",
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Weights",
           "package": "statistics",
@@ -6578,6 +7114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Function",
           "package": "statistics",
@@ -6587,6 +7124,7 @@
         },
         "index": {
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Function",
           "normalized": "Function(Sample-\u003eDouble)",
@@ -6602,6 +7140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Mean",
           "package": "statistics",
@@ -6611,6 +7150,7 @@
         },
         "index": {
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Mean",
           "package": "statistics",
@@ -6624,6 +7164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "StdDev",
           "package": "statistics",
@@ -6633,6 +7174,7 @@
         },
         "index": {
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "StdDev",
           "package": "statistics",
@@ -6646,6 +7188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "Variance",
           "package": "statistics",
@@ -6655,6 +7198,7 @@
         },
         "index": {
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "Variance",
           "package": "statistics",
@@ -6668,6 +7212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:10:17 UTC 2014",
           "module": "Statistics.Types",
           "name": "VarianceUnbiased",
           "package": "statistics",
@@ -6677,6 +7222,7 @@
         },
         "index": {
           "hierarchy": "Statistics Types",
+          "indexed": "2014-03-11T20:10:17",
           "module": "Statistics.Types",
           "name": "VarianceUnbiased",
           "package": "statistics",

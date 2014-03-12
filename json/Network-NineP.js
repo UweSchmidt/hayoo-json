@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Network-NineP"
+        "phrase": "Network-NineP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides one with the ability to pass her own monads in the callbacks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "EmbedIO",
           "package": "Network-NineP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides one with the ability to pass her own monads in the callbacks",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "EmbedIO",
           "package": "Network-NineP",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eMonadIO\u003c/code\u003es that can be collapsed to and restored from a distinct value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "EmbedIO",
           "package": "Network-NineP",
@@ -51,6 +54,7 @@
         "index": {
           "description": "MonadIO that can be collapsed to and restored from distinct value",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "EmbedIO",
           "package": "Network-NineP",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmpty type. Used to represent state for \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "Void",
           "package": "Network-NineP",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Empty type Used to represent state for IO monad",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "Void",
           "package": "Network-NineP",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ebracket\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "bracketE",
           "package": "Network-NineP",
@@ -98,6 +105,7 @@
         "index": {
           "description": "bracket equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "bracketE",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003e(b-\u003ea d)-\u003ea d",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the monadic computation using supplied state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "callback",
           "package": "Network-NineP",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Run the monadic computation using supplied state",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "callback",
           "normalized": "a b-\u003eContent a-\u003eIO b",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "catchE",
           "package": "Network-NineP",
@@ -148,6 +159,7 @@
         "index": {
           "description": "catch equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "catchE",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePropagate an \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operation over the storage type to the monadic type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "embed",
           "package": "Network-NineP",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Propagate an IO operation over the storage type to the monadic type",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "embed",
           "normalized": "(Content a-\u003eIO b)-\u003ea b",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eforkIO\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "forkE",
           "package": "Network-NineP",
@@ -198,6 +213,7 @@
         "index": {
           "description": "forkIO equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "forkE",
           "normalized": "a()-\u003ea ThreadId",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ehandle\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "handleE",
           "package": "Network-NineP",
@@ -223,6 +240,7 @@
         "index": {
           "description": "handle equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "handleE",
           "normalized": "(a-\u003eb c)-\u003eb c-\u003eb c",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ethrow\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "throwE",
           "package": "Network-NineP",
@@ -248,6 +267,7 @@
         "index": {
           "description": "throw equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "throwE",
           "normalized": "a-\u003eb c",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e equivalent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Control.Monad.EmbedIO",
           "name": "tryE",
           "package": "Network-NineP",
@@ -273,6 +294,7 @@
         "index": {
           "description": "try equivalent",
           "hierarchy": "Control Monad EmbedIO",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Control.Monad.EmbedIO",
           "name": "tryE",
           "normalized": "a b-\u003ea(Either c b)",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "Error",
           "package": "Network-NineP",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "Error",
           "package": "Network-NineP",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrowable errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "NineError",
           "package": "Network-NineP",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Throwable errors",
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "NineError",
           "package": "Network-NineP",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "EDir",
           "package": "Network-NineP",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "EDir",
           "package": "Network-NineP",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "ENoAuthRequired",
           "package": "Network-NineP",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "ENoAuthRequired",
           "package": "Network-NineP",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "ENoFid",
           "package": "Network-NineP",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "ENoFid",
           "package": "Network-NineP",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "ENoFile",
           "package": "Network-NineP",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "ENoFile",
           "package": "Network-NineP",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "ENotADir",
           "package": "Network-NineP",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "ENotADir",
           "package": "Network-NineP",
@@ -441,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "ENotImplemented",
           "package": "Network-NineP",
@@ -450,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "ENotImplemented",
           "package": "Network-NineP",
@@ -463,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "EPermissionDenied",
           "package": "Network-NineP",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "EPermissionDenied",
           "package": "Network-NineP",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Error",
           "name": "OtherError",
           "package": "Network-NineP",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Error",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Error",
           "name": "OtherError",
           "package": "Network-NineP",
@@ -508,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigher-level file patterns. Don't support read/write operations at offsets and handling stat changes as for now.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.File",
           "name": "File",
           "package": "Network-NineP",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Higher-level file patterns Don support read write operations at offsets and handling stat changes as for now",
           "hierarchy": "Network NineP File",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.File",
           "name": "File",
           "package": "Network-NineP",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file that reads from and writes to the specified Chans\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.File",
           "name": "chanFile",
           "package": "Network-NineP",
@@ -540,6 +585,7 @@
         "index": {
           "description": "file that reads from and writes to the specified Chans",
           "hierarchy": "Network NineP File",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.File",
           "name": "chanFile",
           "normalized": "String-\u003eMaybe(Chan ByteString)-\u003eMaybe(Chan ByteString)-\u003eNineFile a",
@@ -556,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file that reads from and writes to the specified MVars\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.File",
           "name": "mVarFile",
           "package": "Network-NineP",
@@ -565,6 +612,7 @@
         "index": {
           "description": "file that reads from and writes to the specified MVars",
           "hierarchy": "Network NineP File",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.File",
           "name": "mVarFile",
           "normalized": "String-\u003eMaybe(MVar ByteString)-\u003eMaybe(MVar ByteString)-\u003eNineFile a",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file that reads and writes using simple user-specified callbacks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.File",
           "name": "rwFile",
           "package": "Network-NineP",
@@ -590,6 +639,7 @@
         "index": {
           "description": "file that reads and writes using simple user-specified callbacks",
           "hierarchy": "Network NineP File",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.File",
           "name": "rwFile",
           "normalized": "String-\u003eMaybe(a ByteString)-\u003eMaybe(ByteString-\u003ea())-\u003eNineFile a",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eListening on sockets for the incoming requests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "Server",
           "package": "Network-NineP",
@@ -615,6 +666,7 @@
         "index": {
           "description": "Listening on sockets for the incoming requests",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "Server",
           "package": "Network-NineP",
@@ -629,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "Config",
           "package": "Network-NineP",
@@ -638,6 +691,7 @@
         "index": {
           "description": "Server configuration",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "Config",
           "package": "Network-NineP",
@@ -651,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "NineFile",
           "package": "Network-NineP",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "NineFile",
           "package": "Network-NineP",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "Config",
           "package": "Network-NineP",
@@ -681,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "Config",
           "package": "Network-NineP",
@@ -694,6 +752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "Directory",
           "package": "Network-NineP",
@@ -703,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "Directory",
           "package": "Network-NineP",
@@ -716,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "RegularFile",
           "package": "Network-NineP",
@@ -725,6 +786,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "RegularFile",
           "package": "Network-NineP",
@@ -739,6 +801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe listening address. The syntax is taken from \u003ccode\u003ePlan 9\u003c/code\u003e operating system and has the form \u003ccode\u003eunix!/path/to/socket\u003c/code\u003e for unix socket files, and \u003ccode\u003etcp!hostname!port\u003c/code\u003e for tcp sockets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "addr",
           "package": "Network-NineP",
@@ -749,6 +812,7 @@
         "index": {
           "description": "The listening address The syntax is taken from Plan operating system and has the form unix path to socket for unix socket files and tcp hostname port for tcp sockets",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "addr",
           "package": "Network-NineP",
@@ -762,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dumb directory that can't do anything but provide the files it contains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "boringDir",
           "package": "Network-NineP",
@@ -772,6 +837,7 @@
         "index": {
           "description": "dumb directory that can do anything but provide the files it contains",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "boringDir",
           "normalized": "String-\u003e[(String,NineFile a)]-\u003eNineFile a",
@@ -788,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA dumb file that can't do anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "boringFile",
           "package": "Network-NineP",
@@ -798,6 +865,7 @@
         "index": {
           "description": "dumb file that can do anything",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "boringFile",
           "normalized": "String-\u003eNineFile a",
@@ -814,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA callback to address a specific file by its name. \u003ccode\u003e.\u003c/code\u003e and \u003ccode\u003e..\u003c/code\u003e are handled in the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "descend",
           "package": "Network-NineP",
@@ -824,6 +893,7 @@
         "index": {
           "description": "callback to address specific file by its name and are handled in the library",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "descend",
           "normalized": "String-\u003eErrorT NineError a(NineFile a)",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA callback to get the list of the files this directory contains. Must not contain \u003ccode\u003e.\u003c/code\u003e and \u003ccode\u003e..\u003c/code\u003e entries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "getFiles",
           "package": "Network-NineP",
@@ -849,6 +920,7 @@
         "index": {
           "description": "callback to get the list of the files this directory contains Must not contain and entries",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "getFiles",
           "normalized": "a[NineFile a]",
@@ -865,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial state for the user-supplied monad. Use \u003ccode\u003e\u003ca\u003eVoid\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "monadState",
           "package": "Network-NineP",
@@ -875,6 +948,7 @@
         "index": {
           "description": "The initial state for the user-supplied monad Use Void for IO",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "monadState",
           "package": "Network-NineP",
@@ -888,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "parent",
           "package": "Network-NineP",
@@ -897,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "parent",
           "package": "Network-NineP",
@@ -909,6 +985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "read",
           "package": "Network-NineP",
@@ -918,6 +995,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "read",
           "normalized": "Word-\u003eWord-\u003eErrorT NineError a ByteString",
@@ -932,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "remove",
           "package": "Network-NineP",
@@ -941,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "remove",
           "normalized": "a()",
@@ -956,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e/\u003c/code\u003e directory of the hosted filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "root",
           "package": "Network-NineP",
@@ -966,6 +1047,7 @@
         "index": {
           "description": "The directory of the hosted filesystem",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "root",
           "package": "Network-NineP",
@@ -979,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the actual server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "run9PServer",
           "package": "Network-NineP",
@@ -989,6 +1072,7 @@
         "index": {
           "description": "Run the actual server",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "run9PServer",
           "normalized": "Config a-\u003eIO()",
@@ -1005,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe directory stat must return only stat for \u003ccode\u003e.\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "stat",
           "package": "Network-NineP",
@@ -1015,6 +1100,7 @@
         "index": {
           "description": "The directory stat must return only stat for",
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "stat",
           "package": "Network-NineP",
@@ -1027,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "version",
           "package": "Network-NineP",
@@ -1036,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "version",
           "package": "Network-NineP",
@@ -1048,6 +1136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "write",
           "package": "Network-NineP",
@@ -1057,6 +1146,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "write",
           "normalized": "Word-\u003eByteString-\u003eErrorT NineError a Word",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP.Server",
           "name": "wstat",
           "package": "Network-NineP",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Network NineP Server",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP.Server",
           "name": "wstat",
           "normalized": "Stat-\u003ea()",
@@ -1095,6 +1187,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA library providing one with a somewhat higher level interface to 9P2000 protocol. Designed to facilitate rapid development of synthetic filesystems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:06 UTC 2014",
           "module": "Network.NineP",
           "name": "NineP",
           "package": "Network-NineP",
@@ -1104,6 +1197,7 @@
         "index": {
           "description": "library providing one with somewhat higher level interface to P2000 protocol Designed to facilitate rapid development of synthetic filesystems",
           "hierarchy": "Network NineP",
+          "indexed": "2014-03-11T16:54:06",
           "module": "Network.NineP",
           "name": "NineP",
           "package": "Network-NineP",

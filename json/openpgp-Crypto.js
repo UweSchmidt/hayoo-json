@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openpgp-Crypto"
+        "phrase": "openpgp-Crypto",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a wrapper around \u003ca\u003ehttp://hackage.haskell.org/package/Crypto\u003c/a\u003e\n that currently does fingerprint generation and signature verification.\n\u003c/p\u003e\u003cp\u003eThe recommended way to import this module is:\n\u003c/p\u003e\u003cpre\u003e import qualified Data.OpenPGP.Crypto as OpenPGP\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:32:06 UTC 2014",
           "module": "Data.OpenPGP.Crypto",
           "name": "Crypto",
           "package": "openpgp-Crypto",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This is wrapper around http hackage.haskell.org package Crypto that currently does fingerprint generation and signature verification The recommended way to import this module is import qualified Data.OpenPGP.Crypto as OpenPGP",
           "hierarchy": "Data OpenPGP Crypto",
+          "indexed": "2014-03-11T19:32:06",
           "module": "Data.OpenPGP.Crypto",
           "name": "Crypto",
           "package": "openpgp-Crypto",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a key fingerprint from a PublicKeyPacket or SecretKeyPacket\n \u003ca\u003ehttp://tools.ietf.org/html/rfc4880#section-12.2\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:06 UTC 2014",
           "module": "Data.OpenPGP.Crypto",
           "name": "fingerprint",
           "package": "openpgp-Crypto",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Generate key fingerprint from PublicKeyPacket or SecretKeyPacket http tools.ietf.org html rfc4880 section-12.2",
           "hierarchy": "Data OpenPGP Crypto",
+          "indexed": "2014-03-11T19:32:06",
           "module": "Data.OpenPGP.Crypto",
           "name": "fingerprint",
           "normalized": "Packet-\u003eString",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSign data or key/userID pair.  Only supports RSA keys for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:06 UTC 2014",
           "module": "Data.OpenPGP.Crypto",
           "name": "sign",
           "package": "openpgp-Crypto",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Sign data or key userID pair Only supports RSA keys for now",
           "hierarchy": "Data OpenPGP Crypto",
+          "indexed": "2014-03-11T19:32:06",
           "module": "Data.OpenPGP.Crypto",
           "name": "sign",
           "normalized": "Message-\u003eMessage-\u003eHashAlgorithm-\u003eString-\u003eInteger-\u003ePacket",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerify a message signature.  Only supports RSA keys for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:32:06 UTC 2014",
           "module": "Data.OpenPGP.Crypto",
           "name": "verify",
           "package": "openpgp-Crypto",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Verify message signature Only supports RSA keys for now",
           "hierarchy": "Data OpenPGP Crypto",
+          "indexed": "2014-03-11T19:32:06",
           "module": "Data.OpenPGP.Crypto",
           "name": "verify",
           "normalized": "Message-\u003eMessage-\u003eInt-\u003eBool",

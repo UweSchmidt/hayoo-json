@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "diagrams-builder"
+        "phrase": "diagrams-builder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for creating standalone command-line diagram builder utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.CmdLine",
           "name": "CmdLine",
           "package": "diagrams-builder",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Tools for creating standalone command-line diagram builder utilities",
           "hierarchy": "Diagrams Builder CmdLine",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.CmdLine",
           "name": "CmdLine",
           "package": "diagrams-builder",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord of command-line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.CmdLine",
           "name": "Build",
           "package": "diagrams-builder",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Record of command-line options",
           "hierarchy": "Diagrams Builder CmdLine",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.CmdLine",
           "name": "Build",
           "package": "diagrams-builder",
@@ -247,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools used by diagrams-builder for manipulating Haskell modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "Modules",
           "package": "diagrams-builder",
@@ -256,6 +261,7 @@
         "index": {
           "description": "Tools used by diagrams-builder for manipulating Haskell modules",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "Modules",
           "package": "diagrams-builder",
@@ -270,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some imports to a module if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "addImports",
           "package": "diagrams-builder",
@@ -280,6 +287,7 @@
         "index": {
           "description": "Add some imports to module if necessary",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "addImports",
           "normalized": "[String]-\u003eModule-\u003eModule",
@@ -296,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd some \u003ccode\u003eLANGUAGE\u003c/code\u003e pragmas to a module if necessary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "addPragmas",
           "package": "diagrams-builder",
@@ -306,6 +315,7 @@
         "index": {
           "description": "Add some LANGUAGE pragmas to module if necessary",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "addPragmas",
           "normalized": "[String]-\u003eModule-\u003eModule",
@@ -322,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two modules into one, with a left bias in the case of\n   things that can't be sensibly combined (\u003cem\u003ee.g.\u003c/em\u003e the module name).\n   Note that combining multiple imports of the same module with\n   different import specifications (qualification, hiding, explicit\n   import) is unlikely to work sensibly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "combineModules",
           "package": "diagrams-builder",
@@ -332,6 +343,7 @@
         "index": {
           "description": "Combine two modules into one with left bias in the case of things that can be sensibly combined e.g the module name Note that combining multiple imports of the same module with different import specifications qualification hiding explicit import is unlikely to work sensibly",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "combineModules",
           "normalized": "Module-\u003eModule-\u003eModule",
@@ -348,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend some snippets of source code into a proper module, by\n   combining them intelligently (preserving imports, pragmas, \u003cem\u003eetc.\u003c/em\u003e),\n   (possibly) giving it a different name, and adding \u003ccode\u003eLANGUAGE\u003c/code\u003e pragmas\n   and imports if necessary.  Only those pragmas and imports which\n   are not already included in the code will be added.\n\u003c/p\u003e\u003cp\u003eReturns the updated module, or an error message if parsing\n   failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "createModule",
           "package": "diagrams-builder",
@@ -357,6 +370,7 @@
         "index": {
           "description": "Extend some snippets of source code into proper module by combining them intelligently preserving imports pragmas etc possibly giving it different name and adding LANGUAGE pragmas and imports if necessary Only those pragmas and imports which are not already included in the code will be added Returns the updated module or an error message if parsing failed",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "createModule",
           "normalized": "Maybe String-\u003eBuildOpts a b-\u003eEither String Module",
@@ -373,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete module exports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "deleteExports",
           "package": "diagrams-builder",
@@ -383,6 +398,7 @@
         "index": {
           "description": "Delete module exports",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "deleteExports",
           "normalized": "Module-\u003eModule",
@@ -399,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the haskell-src-exts parser on a \u003ccode\u003eString\u003c/code\u003e representing some\n   Haskell code, producing a \u003ccode\u003eModule\u003c/code\u003e or an error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "doModuleParse",
           "package": "diagrams-builder",
@@ -409,6 +426,7 @@
         "index": {
           "description": "Run the haskell-src-exts parser on String representing some Haskell code producing Module or an error message",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "doModuleParse",
           "normalized": "String-\u003eEither String Module",
@@ -424,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "emptyModule",
           "package": "diagrams-builder",
@@ -433,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "emptyModule",
           "package": "diagrams-builder",
@@ -447,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003eModuleName\u003c/code\u003e to a \u003ccode\u003eString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "getModuleName",
           "package": "diagrams-builder",
@@ -457,6 +478,7 @@
         "index": {
           "description": "Convert ModuleName to String",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "getModuleName",
           "normalized": "ModuleName-\u003eString",
@@ -473,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the name of a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "replaceModuleName",
           "package": "diagrams-builder",
@@ -483,6 +506,7 @@
         "index": {
           "description": "Replace the name of module",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "replaceModuleName",
           "normalized": "String-\u003eModule-\u003eModule",
@@ -499,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all the literate comments and bird tracks from a literate\n   Haskell file.  Has no effect on non-literate source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Modules",
           "name": "unLit",
           "package": "diagrams-builder",
@@ -509,6 +534,7 @@
         "index": {
           "description": "Remove all the literate comments and bird tracks from literate Haskell file Has no effect on non-literate source",
           "hierarchy": "Diagrams Builder Modules",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Modules",
           "name": "unLit",
           "normalized": "String-\u003eString",
@@ -525,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOptions for dynamic creation of diagrams.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Opts",
           "name": "Opts",
           "package": "diagrams-builder",
@@ -534,6 +561,7 @@
         "index": {
           "description": "Options for dynamic creation of diagrams",
           "hierarchy": "Diagrams Builder Opts",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Opts",
           "name": "Opts",
           "package": "diagrams-builder",
@@ -548,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to control the behavior of \u003ccode\u003ebuildDiagram\u003c/code\u003e.  Create one\n   with \u003ccode\u003e\u003ca\u003emkBuildOpts\u003c/a\u003e\u003c/code\u003e followed by using the provided lenses to\n   override more fields; for example,\n\u003c/p\u003e\u003cpre\u003e\n   mkBuildOpts SVG zeroV (Options ...)\n     & imports .~ [\"Foo.Bar\", \"Baz.Quux\"]\n     & diaExpr .~ \"square 6 # fc green\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Opts",
           "name": "BuildOpts",
           "package": "diagrams-builder",
@@ -557,6 +586,7 @@
         "index": {
           "description": "Options to control the behavior of buildDiagram Create one with mkBuildOpts followed by using the provided lenses to override more fields for example mkBuildOpts SVG zeroV Options imports Foo.Bar Baz.Quux diaExpr square fc green",
           "hierarchy": "Diagrams Builder Opts",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Opts",
           "name": "BuildOpts",
           "package": "diagrams-builder",
@@ -571,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for more perspicuous types.\n\u003c/p\u003e\u003cp\u003eWe use \u003ccode\u003eInt\u003c/code\u003e values for hashes because that's what the \u003ccode\u003eHashable\u003c/code\u003e\n   package uses.  Assuming diagram hashes are uniformly distributed,\n   on a 64-bit system one needs to build on the order of billions of\n   diagrams before the probability of a hash collision exceeds 1/2,\n   and for anything up to tens of millions of diagrams the\n   probability of a collision is under 0.1%.  On 32-bit systems\n   those become tens of thousands and thousands, respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder.Opts",
           "name": "Hash",
           "package": "diagrams-builder",
@@ -580,6 +611,7 @@
         "index": {
           "description": "Synonym for more perspicuous types We use Int values for hashes because that what the Hashable package uses Assuming diagram hashes are uniformly distributed on bit system one needs to build on the order of billions of diagrams before the probability of hash collision exceeds and for anything up to tens of millions of diagrams the probability of collision is under On bit systems those become tens of thousands and thousands respectively",
           "hierarchy": "Diagrams Builder Opts",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder.Opts",
           "name": "Hash",
           "package": "diagrams-builder",
@@ -1122,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTools for dynamically building diagrams, for \u003cem\u003ee.g.\u003c/em\u003e creating\n preprocessors to interpret diagrams code embedded in documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "Builder",
           "package": "diagrams-builder",
@@ -1131,6 +1164,7 @@
         "index": {
           "description": "Tools for dynamically building diagrams for e.g creating preprocessors to interpret diagrams code embedded in documents",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "Builder",
           "package": "diagrams-builder",
@@ -1145,6 +1179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord of command-line options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "Build",
           "package": "diagrams-builder",
@@ -1154,6 +1189,7 @@
         "index": {
           "description": "Record of command-line options",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "Build",
           "package": "diagrams-builder",
@@ -1168,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptions to control the behavior of \u003ccode\u003ebuildDiagram\u003c/code\u003e.  Create one\n   with \u003ccode\u003e\u003ca\u003emkBuildOpts\u003c/a\u003e\u003c/code\u003e followed by using the provided lenses to\n   override more fields; for example,\n\u003c/p\u003e\u003cpre\u003e\n   mkBuildOpts SVG zeroV (Options ...)\n     & imports .~ [\"Foo.Bar\", \"Baz.Quux\"]\n     & diaExpr .~ \"square 6 # fc green\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "BuildOpts",
           "package": "diagrams-builder",
@@ -1177,6 +1214,7 @@
         "index": {
           "description": "Options to control the behavior of buildDiagram Create one with mkBuildOpts followed by using the provided lenses to override more fields for example mkBuildOpts SVG zeroV Options imports Foo.Bar Baz.Quux diaExpr square fc green",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "BuildOpts",
           "package": "diagrams-builder",
@@ -1191,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePotential results of a dynamic diagram building operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "BuildResult",
           "package": "diagrams-builder",
@@ -1200,6 +1239,7 @@
         "index": {
           "description": "Potential results of dynamic diagram building operation",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "BuildResult",
           "package": "diagrams-builder",
@@ -1214,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpreting the code\n   failed. See \u003ccode\u003e\u003ca\u003eppInterpError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "InterpErr",
           "package": "diagrams-builder",
@@ -1224,6 +1265,7 @@
         "index": {
           "description": "Interpreting the code failed See ppInterpError",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "InterpErr",
           "package": "diagrams-builder",
@@ -1238,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA successful build, yielding the\n   hash and a backend-specific result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "OK",
           "package": "diagrams-builder",
@@ -1248,6 +1291,7 @@
         "index": {
           "description": "successful build yielding the hash and backend-specific result",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "OK",
           "package": "diagrams-builder",
@@ -1262,6 +1306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing of the code failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "ParseErr",
           "package": "diagrams-builder",
@@ -1272,6 +1317,7 @@
         "index": {
           "description": "Parsing of the code failed",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "ParseErr",
           "package": "diagrams-builder",
@@ -1286,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis diagram did not need to be\n   regenerated; includes the hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "Skipped",
           "package": "diagrams-builder",
@@ -1296,6 +1343,7 @@
         "index": {
           "description": "This diagram did not need to be regenerated includes the hash",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "Skipped",
           "package": "diagrams-builder",
@@ -1310,6 +1358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a diagram by writing the given source code to a temporary\n   module and interpreting the given expression, which can be of\n   type \u003ccode\u003eDiagram b v\u003c/code\u003e or \u003ccode\u003eIO (Diagram b v)\u003c/code\u003e.  Can return either a\n   parse error if the source does not parse, an interpreter error,\n   or the final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "buildDiagram",
           "package": "diagrams-builder",
@@ -1320,6 +1369,7 @@
         "index": {
           "description": "Build diagram by writing the given source code to temporary module and interpreting the given expression which can be of type Diagram or IO Diagram Can return either parse error if the source does not parse an interpreter error or the final result",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "buildDiagram",
           "normalized": "BuildOpts a b-\u003eIO(BuildResult a b)",
@@ -1336,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret a diagram expression based on the contents of a given\n   source file, using some backend to produce a result.  The\n   expression can be of type \u003ccode\u003eDiagram b v\u003c/code\u003e or \u003ccode\u003eIO (Diagram b v)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "interpretDiagram",
           "package": "diagrams-builder",
@@ -1346,6 +1397,7 @@
         "index": {
           "description": "Interpret diagram expression based on the contents of given source file using some backend to produce result The expression can be of type Diagram or IO Diagram",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "interpretDiagram",
           "normalized": "BuildOpts a b-\u003eFilePath-\u003eIO(Either InterpreterError(Result a b))",
@@ -1362,6 +1414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print an \u003ccode\u003eInterpreterError\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "ppInterpError",
           "package": "diagrams-builder",
@@ -1372,6 +1425,7 @@
         "index": {
           "description": "Pretty-print an InterpreterError",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "ppInterpError",
           "normalized": "InterpreterError-\u003eString",
@@ -1388,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the module to be interpreted, in the context of the\n   necessary imports.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:54:01 UTC 2014",
           "module": "Diagrams.Builder",
           "name": "setDiagramImports",
           "package": "diagrams-builder",
@@ -1397,6 +1452,7 @@
         "index": {
           "description": "Set up the module to be interpreted in the context of the necessary imports",
           "hierarchy": "Diagrams Builder",
+          "indexed": "2014-03-11T17:54:01",
           "module": "Diagrams.Builder",
           "name": "setDiagramImports",
           "normalized": "String-\u003e[String]-\u003ea()",

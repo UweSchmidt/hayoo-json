@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "numbers"
+        "phrase": "numbers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple implementation of floating point numbers with a selectable\n precision.  The number of digits in the mantissa is selected by the\n \u003ccode\u003e\u003ca\u003eEpsilon\u003c/a\u003e\u003c/code\u003e type class from the \u003ca\u003eFixed\u003c/a\u003e module.\n\u003c/p\u003e\u003cp\u003eThe numbers are stored in base 10.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "BigFloat",
           "package": "numbers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "simple implementation of floating point numbers with selectable precision The number of digits in the mantissa is selected by the Epsilon type class from the Fixed module The numbers are stored in base",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "BigFloat",
           "package": "numbers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFloating point number where the precision is determined by the type \u003cem\u003ee\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "BigFloat",
           "package": "numbers",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Floating point number where the precision is determined by the type",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "BigFloat",
           "package": "numbers",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn epsilon of 1, i.e., no decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "Eps1",
           "package": "numbers",
@@ -74,6 +79,7 @@
         "index": {
           "description": "An epsilon of i.e no decimals",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "Eps1",
           "package": "numbers",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type construct that gives one more decimals than the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "EpsDiv10",
           "package": "numbers",
@@ -97,6 +104,7 @@
         "index": {
           "description": "type construct that gives one more decimals than the argument",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "EpsDiv10",
           "package": "numbers",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEpsilon\u003c/a\u003e\u003c/code\u003e class contains the types that can be used to determine the\n precision of a \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "Epsilon",
           "package": "numbers",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The Epsilon class contains the types that can be used to determine the precision of Fixed number",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "Epsilon",
           "package": "numbers",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTen decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "Prec10",
           "package": "numbers",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Ten decimals",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "Prec10",
           "package": "numbers",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e50 decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "Prec50",
           "package": "numbers",
@@ -166,6 +179,7 @@
         "index": {
           "description": "decimals",
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "Prec50",
           "package": "numbers",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.BigFloat",
           "name": "PrecPlus20",
           "package": "numbers",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data Number BigFloat",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.BigFloat",
           "name": "PrecPlus20",
           "package": "numbers",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.CReal",
           "name": "CReal",
           "package": "numbers",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Number CReal",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.CReal",
           "name": "CReal",
           "package": "numbers",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eCReal\u003c/a\u003e\u003c/code\u003e type implements (constructive) real numbers.\n\u003c/p\u003e\u003cp\u003eNote that the comparison operations on \u003ccode\u003e\u003ca\u003eCReal\u003c/a\u003e\u003c/code\u003e may diverge\n since it is (by necessity) impossible to implementent them\n correctly and always terminating.\n\u003c/p\u003e\u003cp\u003eThis implementation is really David Lester's ERA package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.CReal",
           "name": "CReal",
           "package": "numbers",
@@ -231,6 +250,7 @@
         "index": {
           "description": "The CReal type implements constructive real numbers Note that the comparison operations on CReal may diverge since it is by necessity impossible to implementent them correctly and always terminating This implementation is really David Lester ERA package",
           "hierarchy": "Data Number CReal",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.CReal",
           "name": "CReal",
           "package": "numbers",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eshowCReal\u003c/a\u003e\u003c/code\u003e function connverts a \u003ccode\u003e\u003ca\u003eCReal\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.CReal",
           "name": "showCReal",
           "package": "numbers",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The showCReal function connverts CReal to String",
           "hierarchy": "Data Number CReal",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.CReal",
           "name": "showCReal",
           "normalized": "Int-\u003eCReal-\u003eString",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e module contains a data type, \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e, that allows for\n automatic forward differentiation.\n\u003c/p\u003e\u003cp\u003eAll the ideas are from Jerzy Karczmarczuk's work,\n see \u003ca\u003ehttp://users.info.unicaen.fr/~karczma/arpap/diffalg.pdf\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eA simple example, if we define\n\u003c/p\u003e\u003cpre\u003e foo x = x*x\n\u003c/pre\u003e\u003cp\u003ethen the function\n\u003c/p\u003e\u003cpre\u003e foo' = deriv foo\n\u003c/pre\u003e\u003cp\u003ewill behave as if its body was 2*x.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "Dif",
           "package": "numbers",
@@ -279,6 +302,7 @@
         "index": {
           "description": "The Dif module contains data type Dif that allows for automatic forward differentiation All the ideas are from Jerzy Karczmarczuk work see http users.info.unicaen.fr karczma arpap diffalg.pdf simple example if we define foo then the function foo deriv foo will behave as if its body was",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "Dif",
           "package": "numbers",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e type is the type of differentiable numbers.\n It's an instance of all the usual numeric classes.\n The computed derivative of a function is is correct\n except where the function is discontinuous, at these points\n the derivative should be a Dirac pulse, but it isn't.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e numbers are printed with a trailing ~~ to\n indicate that there is a \"tail\" of derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "Dif",
           "package": "numbers",
@@ -302,6 +327,7 @@
         "index": {
           "description": "The Dif type is the type of differentiable numbers It an instance of all the usual numeric classes The computed derivative of function is is correct except where the function is discontinuous at these points the derivative should be Dirac pulse but it isn The Dif numbers are printed with trailing to indicate that there is tail of derivatives",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "Dif",
           "package": "numbers",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edCon\u003c/a\u003e\u003c/code\u003e function turns a normal number into a \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e\n number with the same value.  Not that numeric literals\n do not need an explicit conversion due to the normal\n Haskell overloading of literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "dCon",
           "package": "numbers",
@@ -326,6 +353,7 @@
         "index": {
           "description": "The dCon function turns normal number into Dif number with the same value Not that numeric literals do not need an explicit conversion due to the normal Haskell overloading of literals",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "dCon",
           "normalized": "a-\u003eDif a",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edVar\u003c/a\u003e\u003c/code\u003e function turns a number into a variable\n number.  This is the number with with respect to which\n the derivaticve is computed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "dVar",
           "package": "numbers",
@@ -352,6 +381,7 @@
         "index": {
           "description": "The dVar function turns number into variable number This is the number with with respect to which the derivaticve is computed",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "dVar",
           "normalized": "a-\u003eDif a",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ederiv\u003c/a\u003e\u003c/code\u003e function is a simple utility to take the\n derivative of a (single argument) function.\n It is simply defined as\n\u003c/p\u003e\u003cpre\u003e  deriv f = val . df . f . dVar\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "deriv",
           "package": "numbers",
@@ -378,6 +409,7 @@
         "index": {
           "description": "The deriv function is simple utility to take the derivative of single argument function It is simply defined as deriv val df dVar",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "deriv",
           "normalized": "(Dif a-\u003eDif b)-\u003ea-\u003eb",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003edf\u003c/a\u003e\u003c/code\u003e takes a \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e number and returns its first\n derivative.  The function can be iterated to to get\n higher derivaties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "df",
           "package": "numbers",
@@ -403,6 +436,7 @@
         "index": {
           "description": "The df takes Dif number and returns its first derivative The function can be iterated to to get higher derivaties",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "df",
           "normalized": "Dif a-\u003eDif a",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emkDif\u003c/a\u003e\u003c/code\u003e takes a value and \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e value and makes\n a \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e number that has the given value as its normal\n value, and the \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e number as its derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "mkDif",
           "package": "numbers",
@@ -428,6 +463,7 @@
         "index": {
           "description": "The mkDif takes value and Dif value and makes Dif number that has the given value as its normal value and the Dif number as its derivatives",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "mkDif",
           "normalized": "a-\u003eDif a-\u003eDif a",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e function to an ordinary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "unDif",
           "package": "numbers",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Convert Dif function to an ordinary function",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "unDif",
           "normalized": "(Dif a-\u003eDif b)-\u003ea-\u003eb",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eval\u003c/a\u003e\u003c/code\u003e function takes a \u003ccode\u003e\u003ca\u003eDif\u003c/a\u003e\u003c/code\u003e number back to a normal\n number, thus forgetting about all the derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Dif",
           "name": "val",
           "package": "numbers",
@@ -480,6 +519,7 @@
         "index": {
           "description": "The val function takes Dif number back to normal number thus forgetting about all the derivatives",
           "hierarchy": "Data Number Dif",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Dif",
           "name": "val",
           "normalized": "Dif a-\u003ea",
@@ -495,6 +535,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumbers with a fixed number of decimals.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Fixed",
           "package": "numbers",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Numbers with fixed number of decimals",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Fixed",
           "package": "numbers",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn epsilon of 1, i.e., no decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Eps1",
           "package": "numbers",
@@ -527,6 +570,7 @@
         "index": {
           "description": "An epsilon of i.e no decimals",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Eps1",
           "package": "numbers",
@@ -541,6 +585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type construct that gives one more decimals than the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "EpsDiv10",
           "package": "numbers",
@@ -550,6 +595,7 @@
         "index": {
           "description": "type construct that gives one more decimals than the argument",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "EpsDiv10",
           "package": "numbers",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eEpsilon\u003c/a\u003e\u003c/code\u003e class contains the types that can be used to determine the\n precision of a \u003ccode\u003e\u003ca\u003eFixed\u003c/a\u003e\u003c/code\u003e number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Epsilon",
           "package": "numbers",
@@ -573,6 +620,7 @@
         "index": {
           "description": "The Epsilon class contains the types that can be used to determine the precision of Fixed number",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Epsilon",
           "package": "numbers",
@@ -586,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Fixed",
           "package": "numbers",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Fixed",
           "package": "numbers",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTen decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Prec10",
           "package": "numbers",
@@ -617,6 +668,7 @@
         "index": {
           "description": "Ten decimals",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Prec10",
           "package": "numbers",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e50 decimals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "Prec50",
           "package": "numbers",
@@ -640,6 +693,7 @@
         "index": {
           "description": "decimals",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "Prec50",
           "package": "numbers",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "PrecPlus20",
           "package": "numbers",
@@ -661,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "PrecPlus20",
           "package": "numbers",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert between two arbitrary fixed precision types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "convertFixed",
           "package": "numbers",
@@ -685,6 +742,7 @@
         "index": {
           "description": "Convert between two arbitrary fixed precision types",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "convertFixed",
           "normalized": "Fixed a-\u003eFixed b",
@@ -700,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "dynamicEps",
           "package": "numbers",
@@ -709,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "dynamicEps",
           "normalized": "Fixed a-\u003eb)-\u003eRational-\u003eb",
@@ -724,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "precision",
           "package": "numbers",
@@ -733,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "precision",
           "normalized": "Fixed a-\u003eRational",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe call \u003ccode\u003ewith_added_precision r f v\u003c/code\u003e evaluates \u003ccode\u003ef v\u003c/code\u003e, while\n temporarily multiplying the precision of \u003cem\u003ev\u003c/em\u003e by \u003cem\u003er\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Fixed",
           "name": "with_added_precision",
           "package": "numbers",
@@ -758,6 +821,7 @@
         "index": {
           "description": "The call with added precision evaluates while temporarily multiplying the precision of by",
           "hierarchy": "Data Number Fixed",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Fixed",
           "name": "with_added_precision",
           "normalized": "Fixed a-\u003eb)-\u003eFixed c-\u003eb",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "FixedFunctions",
           "package": "numbers",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "FixedFunctions",
           "package": "numbers",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "CF",
           "package": "numbers",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "CF",
           "package": "numbers",
@@ -814,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "acos",
           "package": "numbers",
@@ -823,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "acos",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -837,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "acosh",
           "package": "numbers",
@@ -846,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "acosh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "approx",
           "package": "numbers",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "approx",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -883,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "approxCF",
           "package": "numbers",
@@ -892,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "approxCF",
           "normalized": "Rational-\u003eCF-\u003eRational",
@@ -907,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "asin",
           "package": "numbers",
@@ -916,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "asin",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -930,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "asinh",
           "package": "numbers",
@@ -939,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "asinh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "atan",
           "package": "numbers",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "atan",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "atanh",
           "package": "numbers",
@@ -985,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "atanh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -999,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "cos",
           "package": "numbers",
@@ -1008,6 +1093,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "cos",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "cosh",
           "package": "numbers",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "cosh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1045,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "exp",
           "package": "numbers",
@@ -1054,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "exp",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1068,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "fac",
           "package": "numbers",
@@ -1077,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "fac",
           "normalized": "Integer-\u003eInteger",
@@ -1091,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "fromCF",
           "package": "numbers",
@@ -1100,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "fromCF",
           "normalized": "CF-\u003eRational",
@@ -1115,6 +1209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "fromTaylorToCF",
           "package": "numbers",
@@ -1124,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "fromTaylorToCF",
           "normalized": "[a]-\u003ea-\u003e[(a,a)]",
@@ -1139,6 +1235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "integerRoot2",
           "package": "numbers",
@@ -1148,6 +1245,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "integerRoot2",
           "normalized": "Integer-\u003eInteger",
@@ -1163,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "log",
           "package": "numbers",
@@ -1172,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "log",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1186,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "pi",
           "package": "numbers",
@@ -1195,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "pi",
           "normalized": "Rational-\u003eRational",
@@ -1209,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "sin",
           "package": "numbers",
@@ -1218,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "sin",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1232,6 +1336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "sinh",
           "package": "numbers",
@@ -1241,6 +1346,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "sinh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1255,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "sqrt",
           "package": "numbers",
@@ -1264,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "sqrt",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1278,6 +1386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "tan",
           "package": "numbers",
@@ -1287,6 +1396,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "tan",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1301,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "tanh",
           "package": "numbers",
@@ -1310,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "tanh",
           "normalized": "Rational-\u003eRational-\u003eRational",
@@ -1324,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.FixedFunctions",
           "name": "toCF",
           "package": "numbers",
@@ -1333,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Data Number FixedFunctions",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.FixedFunctions",
           "name": "toCF",
           "normalized": "Rational-\u003eCF",
@@ -1349,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn incomplete implementation of interval aritrhmetic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Interval",
           "name": "Interval",
           "package": "numbers",
@@ -1358,6 +1473,7 @@
         "index": {
           "description": "An incomplete implementation of interval aritrhmetic",
           "hierarchy": "Data Number Interval",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Interval",
           "name": "Interval",
           "package": "numbers",
@@ -1371,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Interval",
           "name": "Interval",
           "package": "numbers",
@@ -1379,6 +1496,7 @@
         },
         "index": {
           "hierarchy": "Data Number Interval",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Interval",
           "name": "Interval",
           "package": "numbers",
@@ -1392,6 +1510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Interval",
           "name": "getIval",
           "package": "numbers",
@@ -1401,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Data Number Interval",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Interval",
           "name": "getIval",
           "normalized": "Interval a-\u003e(a,a)",
@@ -1416,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Interval",
           "name": "ival",
           "package": "numbers",
@@ -1425,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Data Number Interval",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Interval",
           "name": "ival",
           "normalized": "a-\u003ea-\u003eInterval a",
@@ -1440,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLazy natural numbers.\n Addition and multiplication recurses over the first argument, i.e.,\n \u003ccode\u003e1 + n\u003c/code\u003e is the way to write the constant time successor function.\n\u003c/p\u003e\u003cp\u003eNote that (+) and (*) are not commutative for lazy natural numbers\n when considering bottom.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Natural",
           "name": "Natural",
           "package": "numbers",
@@ -1449,6 +1572,7 @@
         "index": {
           "description": "Lazy natural numbers Addition and multiplication recurses over the first argument i.e is the way to write the constant time successor function Note that and are not commutative for lazy natural numbers when considering bottom",
           "hierarchy": "Data Number Natural",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Natural",
           "name": "Natural",
           "package": "numbers",
@@ -1462,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Natural",
           "name": "Natural",
           "package": "numbers",
@@ -1470,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data Number Natural",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Natural",
           "name": "Natural",
           "package": "numbers",
@@ -1484,6 +1610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe infinite natural number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Natural",
           "name": "infinity",
           "package": "numbers",
@@ -1494,6 +1621,7 @@
         "index": {
           "description": "The infinite natural number",
           "hierarchy": "Data Number Natural",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Natural",
           "name": "infinity",
           "package": "numbers",
@@ -1507,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSymbolic number, i.e., these are not numbers at all, but just build\n a representation of the expressions.\n This implementation is incomplete in that it allows comnstruction,\n but not deconstruction of the expressions.  It's mainly useful for\n debugging.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "Symbolic",
           "package": "numbers",
@@ -1516,6 +1645,7 @@
         "index": {
           "description": "Symbolic number i.e these are not numbers at all but just build representation of the expressions This implementation is incomplete in that it allows comnstruction but not deconstruction of the expressions It mainly useful for debugging",
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "Symbolic",
           "package": "numbers",
@@ -1530,6 +1660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymbolic numbers over some base type for the literals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "Sym",
           "package": "numbers",
@@ -1539,6 +1670,7 @@
         "index": {
           "description": "Symbolic numbers over some base type for the literals",
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "Sym",
           "package": "numbers",
@@ -1553,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a constant (useful when it is not a literal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "con",
           "package": "numbers",
@@ -1563,6 +1696,7 @@
         "index": {
           "description": "Create constant useful when it is not literal",
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "con",
           "normalized": "a-\u003eSym a",
@@ -1578,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe expression \u003ccode\u003esubst x v e\u003c/code\u003e substitutes the expression \u003ccode\u003ev\u003c/code\u003e for each\n occurence of the variable \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003ee\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "subst",
           "package": "numbers",
@@ -1588,6 +1723,7 @@
         "index": {
           "description": "The expression subst substitutes the expression for each occurence of the variable in",
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "subst",
           "normalized": "String-\u003eSym a-\u003eSym a-\u003eSym a",
@@ -1602,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "unSym",
           "package": "numbers",
@@ -1611,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "unSym",
           "normalized": "Sym a-\u003ea",
@@ -1627,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Symbolic",
           "name": "var",
           "package": "numbers",
@@ -1637,6 +1776,7 @@
         "index": {
           "description": "Create variable",
           "hierarchy": "Data Number Symbolic",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Symbolic",
           "name": "var",
           "normalized": "String-\u003eSym a",
@@ -1651,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "Vectorspace",
           "package": "numbers",
@@ -1659,6 +1800,7 @@
         },
         "index": {
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "Vectorspace",
           "package": "numbers",
@@ -1673,6 +1815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of vector spaces \u003cem\u003ev\u003c/em\u003e with scalar \u003cem\u003es\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "Vectorspace",
           "package": "numbers",
@@ -1682,6 +1825,7 @@
         "index": {
           "description": "Class of vector spaces with scalar",
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "Vectorspace",
           "package": "numbers",
@@ -1695,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "(*\u003e)",
           "package": "numbers",
@@ -1704,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "(*\u003e) *\u003e",
           "normalized": "a-\u003eb-\u003eb",
@@ -1718,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "(\u003c+\u003e)",
           "package": "numbers",
@@ -1727,6 +1874,7 @@
         },
         "index": {
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "(\u003c+\u003e) \u003c+\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1741,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "vnegate",
           "package": "numbers",
@@ -1750,6 +1899,7 @@
         },
         "index": {
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "vnegate",
           "normalized": "a-\u003ea",
@@ -1764,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:30:24 UTC 2014",
           "module": "Data.Number.Vectorspace",
           "name": "vzero",
           "package": "numbers",
@@ -1773,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Data Number Vectorspace",
+          "indexed": "2014-03-11T19:30:24",
           "module": "Data.Number.Vectorspace",
           "name": "vzero",
           "package": "numbers",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "brians-brain"
+        "phrase": "brians-brain",
+        "type": "phrase"
       },
       "type": "context"
     }

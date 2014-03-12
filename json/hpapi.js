@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpapi"
+        "phrase": "hpapi",
+        "type": "phrase"
       },
       "type": "context"
     }

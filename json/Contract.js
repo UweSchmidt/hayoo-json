@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Contract"
+        "phrase": "Contract",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePractical typed lazy contracts.\n   Author: Olaf Chitil.\n   Version: July 2012.\n\u003c/p\u003e\u003cp\u003eContracts describe properties of expressions (esp. functions) that are\n checked at run-time.\n Thus these properties are both documented and enforced.\n Contracts are more expressive than static types.\n If a contract is violated, then an informative exception is raised.\n\u003c/p\u003e\u003cp\u003eExample uses:\n\u003c/p\u003e\u003cpre\u003e head' = $attach head (pNotNil \u003e-\u003e true)\n\u003c/pre\u003e\u003cpre\u003e nat :: (Integral a, Flat a) =\u003e Contract a\n nat = prop (\u003e=0)\n fibs = $assert (list nat) (0 : 1 : zipWith (+) fibs (tail fibs))\n\u003c/pre\u003e\u003cpre\u003e conjNF = $(p &#8217;And) conjNF conjNF |\u003e disj\n disj   = $(p &#8217;Or)  disj disj |\u003e lit\n lit    = $(p &#8217;Not) atom |\u003e atom\n atom   = $(p &#8217;Atom) true\n clausalNF' = $attach clausalNF (conjNF & right \u003e-\u003e list (list lit))\n\u003c/pre\u003e\u003cp\u003eSee \u003ca\u003ehttp://www.cs.kent.ac.uk/~oc/contracts.html\u003c/a\u003e\n or Olaf Chitil: Practical Typed Lazy Contracts, ICFP 2012, ACM.\n\u003c/p\u003e\u003cp\u003eAny user module will need Template Haskell.\n They will also need DeriveDataTypeable, if they use the deriving \n combinators for algebraic data types: \u003ccode\u003e\u003ca\u003ep\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epNot\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ederiveContracts\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Practical typed lazy contracts Author Olaf Chitil Version July Contracts describe properties of expressions esp functions that are checked at run-time Thus these properties are both documented and enforced Contracts are more expressive than static types If contract is violated then an informative exception is raised Example uses head attach head pNotNil true nat Integral Flat Contract nat prop fibs assert list nat zipWith fibs tail fibs conjNF And conjNF conjNF disj disj Or disj disj lit lit Not atom atom atom Atom true clausalNF attach clausalNF conjNF right list list lit See http www.cs.kent.ac.uk oc contracts.html or Olaf Chitil Practical Typed Lazy Contracts ICFP ACM Any user module will need Template Haskell They will also need DeriveDataTypeable if they use the deriving combinators for algebraic data types pNot or deriveContracts",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe contract type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The contract type",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exception raised when a contact fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "ContractFailed",
           "package": "Contract",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The exception raised when contact fails",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "ContractFailed",
           "package": "Contract",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of all flat types, for which contract prop works.\n\u003c/p\u003e\u003cp\u003eA type is flat if its only partial value is bottom / undefined.\n In other words: an expression of the type is either unevaluted or\n fully evaluated, never properly partially evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Flat",
           "package": "Contract",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Class of all flat types for which contract prop works type is flat if its only partial value is bottom undefined In other words an expression of the type is either unevaluted or fully evaluated never properly partially evaluated",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Flat",
           "package": "Contract",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifferent contract partners. \n For any violated contract a partner is blamed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Partner",
           "package": "Contract",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Different contract partners For any violated contract partner is blamed",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Partner",
           "package": "Contract",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of contracts, given priority to first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "(|\u003e)",
           "package": "Contract",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Disjunction of contracts given priority to first",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "(|\u003e) |\u003e",
           "normalized": "Contract a-\u003eContract a-\u003eContract a",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConjunction of two contracts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "(&)",
           "package": "Contract",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Conjunction of two contracts",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "(&) &",
           "normalized": "Contract a-\u003eContract a-\u003eContract a",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative name for \u003ccode\u003e\u003ca\u003epCons\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "(=:)",
           "package": "Contract",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Alternative name for pCons",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "(=:) =:",
           "normalized": "Contract a-\u003eContract[a]-\u003eContract[a]",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction contract combinator, taking contracts for pre- and post-condition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "(\u003e-\u003e)",
           "package": "Contract",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Function contract combinator taking contracts for pre and post-condition",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "(\u003e-\u003e) \u003e-\u003e",
           "normalized": "Contract a-\u003eContract b-\u003eContract(a-\u003eb)",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDependent function contract combinator.\n The post-condition also takes the function argument.\n Warning: This combinator does \u003cem\u003enot\u003c/em\u003e protect laziness!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "(\u003e\u003e-\u003e)",
           "package": "Contract",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Dependent function contract combinator The post-condition also takes the function argument Warning This combinator does not protect laziness",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "(\u003e\u003e-\u003e) \u003e\u003e-\u003e",
           "normalized": "Contract a-\u003e(a-\u003eContract b)-\u003eContract(a-\u003eb)",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Client",
           "package": "Contract",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Client",
           "package": "Contract",
@@ -280,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -289,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Contract",
           "package": "Contract",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "ContractFailed",
           "package": "Contract",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "ContractFailed",
           "package": "Contract",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "Server",
           "package": "Contract",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "Server",
           "package": "Contract",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect a contract with an expression.\n The resulting expression is the same except that the contract is\n monitored for it at runtime.\n assert splices in code that adds the current location in the module file.\n\u003c/p\u003e\u003cpre\u003e $assert :: Contract a -\u003e a -\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "assert",
           "package": "Contract",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Connect contract with an expression The resulting expression is the same except that the contract is monitored for it at runtime assert splices in code that adds the current location in the module file assert Contract",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "assert",
           "package": "Contract",
@@ -370,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as assert with arguments swapped.\n Useful for attaching contracts in simple variable definitions:\n fun' = $attach fun contract\n\u003c/p\u003e\u003cpre\u003e $attach :: a -\u003e Contract a -\u003e a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "attach",
           "package": "Contract",
@@ -380,6 +411,7 @@
         "index": {
           "description": "Same as assert with arguments swapped Useful for attaching contracts in simple variable definitions fun attach fun contract attach Contract",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "attach",
           "package": "Contract",
@@ -392,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "culprit",
           "package": "Contract",
@@ -401,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "culprit",
           "package": "Contract",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a given algebraic data type \n declare pattern contracts for all constructors.\n The argument must be the name of an algebraic data type.\n E.g. $(deriveContracts ''Either)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "deriveContracts",
           "package": "Contract",
@@ -424,6 +459,7 @@
         "index": {
           "description": "For given algebraic data type declare pattern contracts for all constructors The argument must be the name of an algebraic data type E.g deriveContracts Either",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "deriveContracts",
           "normalized": "Name-\u003eQ[Dec]",
@@ -440,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDrop context information in a contract to avoid unbound context growth.\n Can be wrapped around any context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "dropContext",
           "package": "Contract",
@@ -450,6 +487,7 @@
         "index": {
           "description": "Drop context information in contract to avoid unbound context growth Can be wrapped around any context",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "dropContext",
           "normalized": "Contract a-\u003eContract a",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "explanation",
           "package": "Contract",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "explanation",
           "package": "Contract",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract that always fails, blaming the client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "false",
           "package": "Contract",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Contract that always fails blaming the client",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "false",
           "package": "Contract",
@@ -510,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for IO-monad with return value meeting given contract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "io",
           "package": "Contract",
@@ -520,6 +563,7 @@
         "index": {
           "description": "Contract combinator for IO-monad with return value meeting given contract",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "io",
           "normalized": "Contract a-\u003eContract(IO a)",
@@ -535,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for list with elements meeting given contract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "list",
           "package": "Contract",
@@ -545,6 +590,7 @@
         "index": {
           "description": "Contract combinator for list with elements meeting given contract",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "list",
           "normalized": "Contract a-\u003eContract[a]",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "loc",
           "package": "Contract",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "loc",
           "package": "Contract",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for type \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e \n given contract for possible argument value. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "maybe",
           "package": "Contract",
@@ -591,6 +640,7 @@
         "index": {
           "description": "Contract combinator for type Maybe given contract for possible argument value",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "maybe",
           "normalized": "Contract a-\u003eContract(Maybe a)",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePattern contract for given constructor.\n The argument must be the name of a data constructor.\n E.g. \n $(p 'Left)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "p",
           "package": "Contract",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Pattern contract for given constructor The argument must be the name of data constructor E.g Left",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "p",
           "normalized": "Name-\u003eExpQ",
@@ -631,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for non-empty list.\n Cf. (:) :: a -\u003e [a] -\u003e [a]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pCons",
           "package": "Contract",
@@ -641,6 +694,7 @@
         "index": {
           "description": "Contract combinator for non-empty list Cf",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pCons",
           "normalized": "Contract a-\u003eContract[a]-\u003eContract[a]",
@@ -657,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for data constructor \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e\n with value meeting given contract.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pJust",
           "package": "Contract",
@@ -667,6 +722,7 @@
         "index": {
           "description": "Contract combinator for data constructor Just with value meeting given contract",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pJust",
           "normalized": "Contract a-\u003eContract(Maybe a)",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNil",
           "package": "Contract",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Contract for empty list",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNil",
           "normalized": "Contract[a]",
@@ -709,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegated pattern contract for a given constructor.\n The argument must be the name of a data constructor.\n E.g. \n $(pNot 'Left)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNot",
           "package": "Contract",
@@ -719,6 +778,7 @@
         "index": {
           "description": "Negated pattern contract for given constructor The argument must be the name of data constructor E.g pNot Left",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNot",
           "normalized": "Name-\u003eExpQ",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for not non-empty list, i.e., empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNotCons",
           "package": "Contract",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Contract for not non-empty list i.e empty list",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNotCons",
           "normalized": "Contract[a]",
@@ -761,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for non-\u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNotJust",
           "package": "Contract",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Contract for non Just value",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNotJust",
           "package": "Contract",
@@ -785,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNotNil",
           "package": "Contract",
@@ -795,6 +860,7 @@
         "index": {
           "description": "Contract for non-empty list",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNotNil",
           "normalized": "Contract[a]",
@@ -811,6 +877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for non-\u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNotNothing",
           "package": "Contract",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Contract for non Nothing value",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNotNothing",
           "package": "Contract",
@@ -835,6 +903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for data constructor \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pNothing",
           "package": "Contract",
@@ -845,6 +914,7 @@
         "index": {
           "description": "Contract for data constructor Nothing",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pNothing",
           "package": "Contract",
@@ -859,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract for empty tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pTuple0",
           "package": "Contract",
@@ -869,6 +940,7 @@
         "index": {
           "description": "Contract for empty tuple",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pTuple0",
           "normalized": "Contract()",
@@ -885,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for tuple with values meeting given contracts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pTuple2",
           "package": "Contract",
@@ -895,6 +968,7 @@
         "index": {
           "description": "Contract combinator for tuple with values meeting given contracts",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pTuple2",
           "normalized": "Contract a-\u003eContract b-\u003eContract(a,b)",
@@ -911,6 +985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for 3-tuple with values meeting given contracts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pTuple3",
           "package": "Contract",
@@ -921,6 +996,7 @@
         "index": {
           "description": "Contract combinator for tuple with values meeting given contracts",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pTuple3",
           "normalized": "Contract a-\u003eContract b-\u003eContract c-\u003eContract(a,b,c)",
@@ -937,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract combinator for 4-tuple with values meeting given contracts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "pTuple4",
           "package": "Contract",
@@ -947,6 +1024,7 @@
         "index": {
           "description": "Contract combinator for tuple with values meeting given contracts",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "pTuple4",
           "normalized": "Contract a-\u003eContract b-\u003eContract c-\u003eContract d-\u003eContract(a,b,c,d)",
@@ -962,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "prop",
           "package": "Contract",
@@ -971,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "prop",
           "normalized": "(a-\u003eBool)-\u003eContract a",
@@ -986,6 +1066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContract that always succeeds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:25 UTC 2014",
           "module": "Development.Contract",
           "name": "true",
           "package": "Contract",
@@ -996,6 +1077,7 @@
         "index": {
           "description": "Contract that always succeeds",
           "hierarchy": "Development Contract",
+          "indexed": "2014-03-11T16:37:25",
           "module": "Development.Contract",
           "name": "true",
           "package": "Contract",

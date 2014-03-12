@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "combinator-interactive"
+        "phrase": "combinator-interactive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "Combinator",
           "package": "combinator-interactive",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "Combinator",
           "package": "combinator-interactive",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "Expr",
           "package": "combinator-interactive",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "Expr",
           "package": "combinator-interactive",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": ":$",
           "package": "combinator-interactive",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": ":$",
           "package": "combinator-interactive",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "I",
           "package": "combinator-interactive",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "I",
           "package": "combinator-interactive",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "K",
           "package": "combinator-interactive",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "K",
           "package": "combinator-interactive",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "S",
           "package": "combinator-interactive",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "S",
           "package": "combinator-interactive",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "Var",
           "package": "combinator-interactive",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "Var",
           "package": "combinator-interactive",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "_Combinator",
           "package": "combinator-interactive",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "_Combinator",
           "package": "combinator-interactive",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "apply",
           "package": "combinator-interactive",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "apply",
           "normalized": "Expr a-\u003eExpr a-\u003eExpr a",
@@ -212,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ebindee\u003c/a\u003e\u003c/code\u003e function transforms an expression to a combinator which binds specified variable when it is applied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "bindee",
           "package": "combinator-interactive",
@@ -222,6 +241,7 @@
         "index": {
           "description": "The bindee function transforms an expression to combinator which binds specified variable when it is applied",
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "bindee",
           "normalized": "a-\u003eExpr a-\u003eExpr a",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "cc",
           "package": "combinator-interactive",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "cc",
           "package": "combinator-interactive",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "ccExpression",
           "package": "combinator-interactive",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "ccExpression",
           "package": "combinator-interactive",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "ccParser",
           "package": "combinator-interactive",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "ccParser",
           "package": "combinator-interactive",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "churchNumeral",
           "package": "combinator-interactive",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "churchNumeral",
           "package": "combinator-interactive",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "decodeInt",
           "package": "combinator-interactive",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "decodeInt",
           "normalized": "Expr Void-\u003eMaybe Int",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "encodeInt",
           "package": "combinator-interactive",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "encodeInt",
           "normalized": "Int-\u003eExpr a",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "eval",
           "package": "combinator-interactive",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "eval",
           "normalized": "Expr a-\u003eExpr a",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "intLit",
           "package": "combinator-interactive",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "intLit",
           "package": "combinator-interactive",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "isPrim",
           "package": "combinator-interactive",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "isPrim",
           "normalized": "Expr a-\u003eBool",
@@ -440,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "lambda",
           "package": "combinator-interactive",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "lambda",
           "package": "combinator-interactive",
@@ -462,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e function returns a length of an expression. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "length",
           "package": "combinator-interactive",
@@ -472,6 +513,7 @@
         "index": {
           "description": "The length function returns length of an expression",
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "length",
           "normalized": "Expr a-\u003eInt",
@@ -486,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "showCC",
           "package": "combinator-interactive",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "showCC",
           "normalized": "Expr String-\u003eString",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "stringLit",
           "package": "combinator-interactive",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "stringLit",
           "package": "combinator-interactive",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "subst",
           "package": "combinator-interactive",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "subst",
           "normalized": "a-\u003eExpr a-\u003eExpr a-\u003eExpr a",
@@ -555,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "unlambdaParser",
           "package": "combinator-interactive",
@@ -564,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "unlambdaParser",
           "package": "combinator-interactive",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:18 UTC 2014",
           "module": "Data.Combinator",
           "name": "variable",
           "package": "combinator-interactive",
@@ -586,6 +637,7 @@
         },
         "index": {
           "hierarchy": "Data Combinator",
+          "indexed": "2014-03-11T17:36:18",
           "module": "Data.Combinator",
           "name": "variable",
           "normalized": "Parser[Char]",

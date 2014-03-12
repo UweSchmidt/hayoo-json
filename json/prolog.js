@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prolog"
+        "phrase": "prolog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.IsString",
           "name": "IsString",
           "package": "prolog",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog IsString",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.IsString",
           "name": "IsString",
           "package": "prolog",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.Quote",
           "name": "Quote",
           "package": "prolog",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog Quote",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.Quote",
           "name": "Quote",
           "package": "prolog",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.Quote",
           "name": "c",
           "package": "prolog",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog Quote",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.Quote",
           "name": "c",
           "package": "prolog",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.Quote",
           "name": "pl",
           "package": "prolog",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog Quote",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.Quote",
           "name": "pl",
           "package": "prolog",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.Quote",
           "name": "t",
           "package": "prolog",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog Quote",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.Quote",
           "name": "t",
           "package": "prolog",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog.Quote",
           "name": "ts",
           "package": "prolog",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog Quote",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog.Quote",
           "name": "ts",
           "package": "prolog",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Prolog",
           "package": "prolog",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Prolog",
           "package": "prolog",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Atom",
           "package": "prolog",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Atom",
           "package": "prolog",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Clause",
           "package": "prolog",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Clause",
           "package": "prolog",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Goal",
           "package": "prolog",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Goal",
           "package": "prolog",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "MonadGraphGen",
           "package": "prolog",
@@ -236,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "MonadGraphGen",
           "package": "prolog",
@@ -249,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "MonadTrace",
           "package": "prolog",
@@ -257,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "MonadTrace",
           "package": "prolog",
@@ -270,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Program",
           "package": "prolog",
@@ -278,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Program",
           "package": "prolog",
@@ -291,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Substitution",
           "package": "prolog",
@@ -299,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Substitution",
           "package": "prolog",
@@ -312,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Term",
           "package": "prolog",
@@ -320,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Term",
           "package": "prolog",
@@ -333,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Unifier",
           "package": "prolog",
@@ -341,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Unifier",
           "package": "prolog",
@@ -354,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "VariableName",
           "package": "prolog",
@@ -362,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "VariableName",
           "package": "prolog",
@@ -375,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "(+++)",
           "package": "prolog",
@@ -384,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "(+++) +++",
           "normalized": "[Substitution]-\u003e[Substitution]-\u003eUnifier",
@@ -398,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Clause",
           "package": "prolog",
@@ -407,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Clause",
           "package": "prolog",
@@ -420,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "ClauseFn",
           "package": "prolog",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "ClauseFn",
           "package": "prolog",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Cut",
           "package": "prolog",
@@ -451,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Cut",
           "package": "prolog",
@@ -464,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Struct",
           "package": "prolog",
@@ -473,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Struct",
           "normalized": "Struct Atom[Term]",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Var",
           "package": "prolog",
@@ -497,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Var",
           "package": "prolog",
@@ -510,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "VariableName",
           "package": "prolog",
@@ -519,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "VariableName",
           "package": "prolog",
@@ -532,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "Wildcard",
           "package": "prolog",
@@ -541,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "Wildcard",
           "package": "prolog",
@@ -554,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "apply",
           "package": "prolog",
@@ -563,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "apply",
           "normalized": "Unifier-\u003eTerm-\u003eTerm",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "bottom",
           "package": "prolog",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "bottom",
           "normalized": "ParsecT String()Identity Term",
@@ -600,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "clause",
           "package": "prolog",
@@ -609,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "clause",
           "normalized": "ParsecT String()Identity Clause",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "comment",
           "package": "prolog",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "comment",
           "normalized": "ParsecT String()Identity()",
@@ -646,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "consult",
           "package": "prolog",
@@ -655,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "consult",
           "normalized": "FilePath-\u003eIO(Either ParseError Program)",
@@ -669,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "consultString",
           "package": "prolog",
@@ -678,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "consultString",
           "normalized": "String-\u003eEither ParseError Program",
@@ -693,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "createConnections",
           "package": "prolog",
@@ -702,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "createConnections",
           "normalized": "Branch-\u003e[Branch]-\u003e[Branch]-\u003ea()",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "cut",
           "package": "prolog",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "cut",
           "package": "prolog",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "fn",
           "package": "prolog",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "fn",
           "normalized": "[Term]-\u003e[Goal]",
@@ -761,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "lhs",
           "package": "prolog",
@@ -770,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "lhs",
           "package": "prolog",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "markCutBranches",
           "package": "prolog",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "markCutBranches",
           "normalized": "Stack-\u003ea()",
@@ -806,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "markSolution",
           "package": "prolog",
@@ -815,6 +888,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "markSolution",
           "normalized": "Unifier-\u003ea()",
@@ -830,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "parseQuery",
           "package": "prolog",
@@ -839,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "parseQuery",
           "normalized": "String-\u003eEither ParseError[Term]",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "program",
           "package": "prolog",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "program",
           "normalized": "ParsecT String()Identity[Clause]",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "resolve",
           "package": "prolog",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "resolve",
           "normalized": "Program-\u003e[Goal]-\u003ea[Unifier]",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "resolve_",
           "package": "prolog",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "resolve_",
           "normalized": "Program-\u003e[Goal]-\u003ea[Unifier]",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "rhs",
           "package": "prolog",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "rhs",
           "normalized": "Clause-\u003e[Term]-\u003e[Goal]",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "rhs_",
           "package": "prolog",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "rhs_",
           "normalized": "[Goal]",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "runNoGraphT",
           "package": "prolog",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "runNoGraphT",
           "normalized": "NoGraphT a b-\u003ea b",
@@ -993,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "term",
           "package": "prolog",
@@ -1002,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "term",
           "normalized": "ParsecT String()Identity Term",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "terms",
           "package": "prolog",
@@ -1025,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "terms",
           "normalized": "ParsecT String()Identity[Term]",
@@ -1039,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "trace",
           "package": "prolog",
@@ -1048,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "trace",
           "normalized": "String-\u003ea()",
@@ -1062,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "unify",
           "package": "prolog",
@@ -1071,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "unify",
           "normalized": "Term-\u003eTerm-\u003ea Unifier",
@@ -1085,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "unify_with_occurs_check",
           "package": "prolog",
@@ -1094,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "unify_with_occurs_check",
           "normalized": "Term-\u003eTerm-\u003ea Unifier",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "var",
           "package": "prolog",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "var",
           "normalized": "String-\u003eTerm",
@@ -1131,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "vname",
           "package": "prolog",
@@ -1140,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "vname",
           "package": "prolog",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "whitespace",
           "package": "prolog",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "whitespace",
           "normalized": "ParsecT String()Identity()",
@@ -1175,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:45:13 UTC 2014",
           "module": "Language.Prolog",
           "name": "withTrace",
           "package": "prolog",
@@ -1184,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Language Prolog",
+          "indexed": "2014-03-11T19:45:13",
           "module": "Language.Prolog",
           "name": "withTrace",
           "normalized": "Trace a b-\u003ea b",

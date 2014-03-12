@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-stream"
+        "phrase": "network-stream",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNetwork streams for use with lazy\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003ea.\n\u003c/p\u003e\u003cp\u003eOne can also send data in chunks, sending data whenever it is ready, and\n the data will be collected transparently to the client interface.\n\u003c/p\u003e\u003cp\u003eAn enumerator version is also available in which an iteratee is given\n each chunk of data invididually.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Network streams for use with lazy ByteString One can also send data in chunks sending data whenever it is ready and the data will be collected transparently to the client interface An enumerator version is also available in which an iteratee is given each chunk of data invididually",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents whether the stream transaction was a success or a failure;\n nothing is done by the library with the attached value. If you do not need\n to send back a value to the caller of \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e, you can use\n a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represents whether the stream transaction was success or failure nothing is done by the library with the attached value If you do not need to send back value to the caller of withStream you can use Result",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core data type for a Stream. It can only be created using \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The core data type for Stream It can only be created using withStream",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -160,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e sent via a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "receive",
           "package": "network-stream",
@@ -170,6 +177,7 @@
         "index": {
           "description": "Receives ByteString sent via Stream",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "receive",
           "normalized": "Handle-\u003eIO(Maybe ByteString)",
@@ -185,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerator-based version of receive that allows the client to fold over\n the data as it is being received. Each \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e is a single chunk sent\n from \u003ccode\u003e\u003ca\u003ewrite\u003c/a\u003e\u003c/code\u003e. Keep in mind that any IO performed is dangerous if you are\n possibly expected an Invalidation, since then that IO could end up being\n incorrect. Hence, it is more useful to simply use this in a pure manner to\n build up some result data as the bytes are being streamed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "receiveE",
           "package": "network-stream",
@@ -195,6 +204,7 @@
         "index": {
           "description": "Enumerator-based version of receive that allows the client to fold over the data as it is being received Each ByteString is single chunk sent from write Keep in mind that any IO performed is dangerous if you are possibly expected an Invalidation since then that IO could end up being incorrect Hence it is more useful to simply use this in pure manner to build up some result data as the bytes are being streamed in",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "receiveE",
           "normalized": "Handle-\u003eIteratee ByteString a b-\u003ea(Maybe b)",
@@ -210,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes data and sends it over a newly created \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "send",
           "package": "network-stream",
@@ -220,6 +231,7 @@
         "index": {
           "description": "Serializes data and sends it over newly created Stream",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "send",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -262,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites partial or full data over a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e, placing it in the queue\n of all of the partial data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "write",
           "package": "network-stream",
@@ -272,6 +285,7 @@
         "index": {
           "description": "Writes partial or full data over Stream placing it in the queue of all of the partial data",
           "hierarchy": "Network ByteString Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Lazy.Stream",
           "name": "write",
           "normalized": "Stream-\u003eByteString-\u003eIO()",
@@ -287,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNetwork streams for use with strict\n \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. For lazy ByteString's, see\n \u003ccode\u003eNetwork.ByteString.Lazy.Stream\u003c/code\u003e. Use this module with\n \u003ccode\u003e\u003ca\u003eSerialize\u003c/a\u003e\u003c/code\u003e to send data over a stream without worrying\n about sending and receiving the lengths.\n\u003c/p\u003e\u003cp\u003eOne can also send data in chunks, sending data whenever it is ready, and\n the data will be collected transparently to the client interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -296,6 +311,7 @@
         "index": {
           "description": "Network streams for use with strict ByteString For lazy ByteString see Network.ByteString.Lazy.Stream Use this module with Serialize to send data over stream without worrying about sending and receiving the lengths One can also send data in chunks sending data whenever it is ready and the data will be collected transparently to the client interface",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -310,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents whether the stream transaction was a success or a failure;\n nothing is done by the library with the attached value. If you do not need\n to send back a value to the caller of \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e, you can use\n a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -319,6 +336,7 @@
         "index": {
           "description": "Represents whether the stream transaction was success or failure nothing is done by the library with the attached value If you do not need to send back value to the caller of withStream you can use Result",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -333,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core data type for a Stream. It can only be created using \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -342,6 +361,7 @@
         "index": {
           "description": "The core data type for Stream It can only be created using withStream",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -428,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives a ByteString sent via a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "receive",
           "package": "network-stream",
@@ -438,6 +459,7 @@
         "index": {
           "description": "Receives ByteString sent via Stream",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "receive",
           "normalized": "Handle-\u003eIO(Maybe ByteString)",
@@ -453,6 +475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerator-based version of receive that allows the client to fold over\n the data as it is being received. Each \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e is a single chunk sent\n from \u003ccode\u003e\u003ca\u003ewrite\u003c/a\u003e\u003c/code\u003e. Keep in mind that any IO performed is dangerous if you are\n possibly expected an Invalidation, since then that IO could end up being\n incorrect. Hence, it is more useful to simply use this in a pure manner to\n build up some result data as the bytes are being streamed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "receiveE",
           "package": "network-stream",
@@ -463,6 +486,7 @@
         "index": {
           "description": "Enumerator-based version of receive that allows the client to fold over the data as it is being received Each ByteString is single chunk sent from write Keep in mind that any IO performed is dangerous if you are possibly expected an Invalidation since then that IO could end up being incorrect Hence it is more useful to simply use this in pure manner to build up some result data as the bytes are being streamed in",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "receiveE",
           "normalized": "Handle-\u003eIteratee ByteString a b-\u003ea(Maybe b)",
@@ -478,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializes data and sends it over a newly created \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "send",
           "package": "network-stream",
@@ -488,6 +513,7 @@
         "index": {
           "description": "Serializes data and sends it over newly created Stream",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "send",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -530,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites partial or full data over a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e, placing it in the queue\n of all of the partial data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.ByteString.Stream",
           "name": "write",
           "package": "network-stream",
@@ -540,6 +567,7 @@
         "index": {
           "description": "Writes partial or full data over Stream placing it in the queue of all of the partial data",
           "hierarchy": "Network ByteString Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.ByteString.Stream",
           "name": "write",
           "normalized": "Stream-\u003eByteString-\u003eIO()",
@@ -555,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStreams using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e by encoding in Utf 8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -564,6 +593,7 @@
         "index": {
           "description": "Streams using Text by encoding in Utf",
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -578,6 +608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents whether the stream transaction was a success or a failure;\n nothing is done by the library with the attached value. If you do not need\n to send back a value to the caller of \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e, you can use\n a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -587,6 +618,7 @@
         "index": {
           "description": "Represents whether the stream transaction was success or failure nothing is done by the library with the attached value If you do not need to send back value to the caller of withStream you can use Result",
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -601,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core data type for a Stream. It can only be created using \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -610,6 +643,7 @@
         "index": {
           "description": "The core data type for Stream It can only be created using withStream",
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -623,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "receive",
           "package": "network-stream",
@@ -632,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "receive",
           "normalized": "Handle-\u003eIO(Maybe Text)",
@@ -647,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives the entire data should the transfer over the stream be successful.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e\u003cp\u003eRun an iteratee through an enumerator which supplies each block of Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "receiveE",
           "package": "network-stream",
@@ -657,6 +694,7 @@
         "index": {
           "description": "Receives the entire data should the transfer over the stream be successful Returns Nothing on failure Run an iteratee through an enumerator which supplies each block of Text",
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "receiveE",
           "normalized": "Handle-\u003eIteratee Text a b-\u003ea(Maybe b)",
@@ -672,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites partial or full data over a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e, placing it in the queue of\n data to be sent. Encodes the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e with Utf8\n into a strict \u003ccode\u003eData.ByteString.Lazy.ByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Lazy.Stream",
           "name": "write",
           "package": "network-stream",
@@ -682,6 +721,7 @@
         "index": {
           "description": "Writes partial or full data over Stream placing it in the queue of data to be sent Encodes the Text with Utf8 into strict Data.ByteString.Lazy.ByteString",
           "hierarchy": "Network Text Lazy Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Lazy.Stream",
           "name": "write",
           "normalized": "Stream-\u003eText-\u003eIO()",
@@ -697,6 +737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStreams using \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e by encoding in Utf 8.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -706,6 +747,7 @@
         "index": {
           "description": "Streams using Text by encoding in Utf",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -720,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents whether the stream transaction was a success or a failure;\n nothing is done by the library with the attached value. If you do not need\n to send back a value to the caller of \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e, you can use\n a \u003ccode\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/code\u003e ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -729,6 +772,7 @@
         "index": {
           "description": "Represents whether the stream transaction was success or failure nothing is done by the library with the attached value If you do not need to send back value to the caller of withStream you can use Result",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "Result",
           "package": "network-stream",
@@ -743,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe core data type for a Stream. It can only be created using \u003ccode\u003e\u003ca\u003ewithStream\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -752,6 +797,7 @@
         "index": {
           "description": "The core data type for Stream It can only be created using withStream",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "Stream",
           "package": "network-stream",
@@ -766,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceives the entire data should the transfer over the stream be successful.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "receive",
           "package": "network-stream",
@@ -776,6 +823,7 @@
         "index": {
           "description": "Receives the entire data should the transfer over the stream be successful Returns Nothing on failure",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "receive",
           "normalized": "Handle-\u003eIO(Maybe Text)",
@@ -791,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an iteratee through an enumerator which supplies each block of Text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "receiveE",
           "package": "network-stream",
@@ -801,6 +850,7 @@
         "index": {
           "description": "Run an iteratee through an enumerator which supplies each block of Text",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "receiveE",
           "normalized": "Handle-\u003eIteratee Text a b-\u003ea(Maybe b)",
@@ -816,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites partial or full data over a \u003ccode\u003e\u003ca\u003eStream\u003c/a\u003e\u003c/code\u003e, placing it in the queue of\n data to be sent. Encodes the \u003ccode\u003eData.Text.Text\u003c/code\u003e with Utf8\n into a strict \u003ccode\u003eData.ByteString.ByteString\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:34 UTC 2014",
           "module": "Network.Text.Stream",
           "name": "write",
           "package": "network-stream",
@@ -826,6 +877,7 @@
         "index": {
           "description": "Writes partial or full data over Stream placing it in the queue of data to be sent Encodes the Data.Text.Text with Utf8 into strict Data.ByteString.ByteString",
           "hierarchy": "Network Text Stream",
+          "indexed": "2014-03-11T19:28:34",
           "module": "Network.Text.Stream",
           "name": "write",
           "normalized": "Stream-\u003eText-\u003eIO()",

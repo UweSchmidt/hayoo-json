@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lvish"
+        "phrase": "lvish",
+        "type": "phrase"
       },
       "type": "context"
     }

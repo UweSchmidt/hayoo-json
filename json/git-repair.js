@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-repair"
+        "phrase": "git-repair",
+        "type": "phrase"
       },
       "type": "context"
     }

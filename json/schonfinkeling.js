@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "schonfinkeling"
+        "phrase": "schonfinkeling",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSchnfinkeling is the technique of transforming a function that takes\n multiple arguments (or an n-tuple of arguments) in such a way that it can be\n called as a chain of functions each with a single argument (partial\n application).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:58:04 UTC 2014",
           "module": "Control.Schonfinkeling",
           "name": "Schonfinkeling",
           "package": "schonfinkeling",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Schnfinkeling is the technique of transforming function that takes multiple arguments or an n-tuple of arguments in such way that it can be called as chain of functions each with single argument partial application",
           "hierarchy": "Control Schonfinkeling",
+          "indexed": "2014-03-11T19:58:04",
           "module": "Control.Schonfinkeling",
           "name": "Schonfinkeling",
           "package": "schonfinkeling",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:04 UTC 2014",
           "module": "Control.Schonfinkeling",
           "name": "entschönfinkel",
           "package": "schonfinkeling",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Control Schonfinkeling",
+          "indexed": "2014-03-11T19:58:04",
           "module": "Control.Schonfinkeling",
           "name": "entschönfinkel",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(a,b)-\u003ec",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:04 UTC 2014",
           "module": "Control.Schonfinkeling",
           "name": "schönfinkel",
           "package": "schonfinkeling",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Control Schonfinkeling",
+          "indexed": "2014-03-11T19:58:04",
           "module": "Control.Schonfinkeling",
           "name": "schönfinkel",
           "normalized": "((a,b)-\u003ec)-\u003ea-\u003eb-\u003ec",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "urxml"
+        "phrase": "urxml",
+        "type": "phrase"
       },
       "type": "context"
     }

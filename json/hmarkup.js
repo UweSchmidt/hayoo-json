@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmarkup"
+        "phrase": "hmarkup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMarkup parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "Parse",
           "package": "hmarkup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Markup parsing",
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "Parse",
           "package": "hmarkup",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "anyCharToUnixNL",
           "package": "hmarkup",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "anyCharToUnixNL",
           "package": "hmarkup",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "endBlock",
           "package": "hmarkup",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "endBlock",
           "normalized": "Parser()",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "followedBy",
           "package": "hmarkup",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "followedBy",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "inFirstColumn",
           "package": "hmarkup",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "inFirstColumn",
           "normalized": "GenParser a b c-\u003eGenParser a b c",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "isSpecial",
           "package": "hmarkup",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "isSpecial",
           "normalized": "Char-\u003eBool",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "manyTill1",
           "package": "hmarkup",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "manyTill1",
           "normalized": "GenParser a b c-\u003eGenParser a b d-\u003eGenParser a b[c]",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "namedEntity",
           "package": "hmarkup",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "namedEntity",
           "package": "hmarkup",
@@ -205,6 +221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "nl",
           "package": "hmarkup",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "nl",
           "normalized": "Parser()",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "numEntity",
           "package": "hmarkup",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "numEntity",
           "package": "hmarkup",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pBlock",
           "package": "hmarkup",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pBlock",
           "package": "hmarkup",
@@ -272,6 +294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pChunk",
           "package": "hmarkup",
@@ -281,6 +304,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pChunk",
           "package": "hmarkup",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pDecInt",
           "package": "hmarkup",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pDecInt",
           "package": "hmarkup",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pEmph",
           "package": "hmarkup",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pEmph",
           "package": "hmarkup",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pEntity",
           "package": "hmarkup",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pEntity",
           "package": "hmarkup",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pEsc",
           "package": "hmarkup",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pEsc",
           "package": "hmarkup",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pHeader",
           "package": "hmarkup",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pHeader",
           "package": "hmarkup",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pHexInt",
           "package": "hmarkup",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pHexInt",
           "package": "hmarkup",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pIdent",
           "package": "hmarkup",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pIdent",
           "package": "hmarkup",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pItem",
           "package": "hmarkup",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pItem",
           "normalized": "Parser[Text]",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pItemList",
           "package": "hmarkup",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pItemList",
           "package": "hmarkup",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pMarkup",
           "package": "hmarkup",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pMarkup",
           "package": "hmarkup",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pPara",
           "package": "hmarkup",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pPara",
           "package": "hmarkup",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pRef",
           "package": "hmarkup",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pRef",
           "package": "hmarkup",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pTT",
           "package": "hmarkup",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pTT",
           "package": "hmarkup",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pText",
           "package": "hmarkup",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pText",
           "normalized": "Parser[Text]",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pTextsTill",
           "package": "hmarkup",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pTextsTill",
           "normalized": "Parser a-\u003eParser[Text]",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pToken",
           "package": "hmarkup",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pToken",
           "package": "hmarkup",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pTokenPiece",
           "package": "hmarkup",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pTokenPiece",
           "package": "hmarkup",
@@ -674,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pURI",
           "package": "hmarkup",
@@ -683,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pURI",
           "package": "hmarkup",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "pWord",
           "package": "hmarkup",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "pWord",
           "package": "hmarkup",
@@ -718,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "parseMarkup",
           "package": "hmarkup",
@@ -727,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "parseMarkup",
           "normalized": "String-\u003eString-\u003ea Doc",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "skipWhite",
           "package": "hmarkup",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "skipWhite",
           "normalized": "Parser()",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "sp",
           "package": "hmarkup",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "sp",
           "normalized": "Parser()",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "sps",
           "package": "hmarkup",
@@ -798,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "sps",
           "normalized": "Parser()",
@@ -812,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Parse",
           "name": "white",
           "package": "hmarkup",
@@ -821,6 +892,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Parse",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Parse",
           "name": "white",
           "package": "hmarkup",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Types",
           "package": "hmarkup",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Types",
           "package": "hmarkup",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Block",
           "package": "hmarkup",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Block",
           "package": "hmarkup",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Doc",
           "package": "hmarkup",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Doc",
           "package": "hmarkup",
@@ -896,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Text",
           "package": "hmarkup",
@@ -904,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Text",
           "package": "hmarkup",
@@ -917,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Chunk",
           "package": "hmarkup",
@@ -926,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Chunk",
           "package": "hmarkup",
@@ -939,6 +1021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Doc",
           "package": "hmarkup",
@@ -948,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Doc",
           "normalized": "Doc[Block]",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Emph",
           "package": "hmarkup",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Emph",
           "normalized": "Emph[Text]",
@@ -987,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Header",
           "package": "hmarkup",
@@ -996,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Header",
           "normalized": "Header Int[Text]",
@@ -1011,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "ItemList",
           "package": "hmarkup",
@@ -1020,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "ItemList",
           "normalized": "ItemList[[Text]]",
@@ -1035,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Para",
           "package": "hmarkup",
@@ -1044,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Para",
           "normalized": "Para[Text]",
@@ -1059,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Ref",
           "package": "hmarkup",
@@ -1068,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Ref",
           "normalized": "Ref URI[Text]",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "TT",
           "package": "hmarkup",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "TT",
           "normalized": "TT[Text]",
@@ -1107,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "WhiteSpace",
           "package": "hmarkup",
@@ -1116,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "WhiteSpace",
           "package": "hmarkup",
@@ -1129,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.Types",
           "name": "Word",
           "package": "hmarkup",
@@ -1138,6 +1237,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup Types",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.Types",
           "name": "Word",
           "package": "hmarkup",
@@ -1152,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConverting markup to HTML\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "XHtml",
           "package": "hmarkup",
@@ -1161,6 +1262,7 @@
         "index": {
           "description": "Converting markup to HTML",
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "XHtml",
           "package": "hmarkup",
@@ -1174,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "MarkupXHtmlFormat",
           "package": "hmarkup",
@@ -1182,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "MarkupXHtmlFormat",
           "package": "hmarkup",
@@ -1195,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "MarkupXHtmlPrefs",
           "package": "hmarkup",
@@ -1203,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "MarkupXHtmlPrefs",
           "package": "hmarkup",
@@ -1216,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "ChunkFormat",
           "package": "hmarkup",
@@ -1225,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "ChunkFormat",
           "package": "hmarkup",
@@ -1261,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "RefFormat",
           "package": "hmarkup",
@@ -1270,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "RefFormat",
           "package": "hmarkup",
@@ -1306,6 +1416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "docToHtml",
           "package": "hmarkup",
@@ -1315,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "docToHtml",
           "normalized": "MarkupXHtmlPrefs a-\u003eDoc-\u003ea Html",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "formatChunk",
           "package": "hmarkup",
@@ -1339,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "formatChunk",
           "normalized": "MarkupXHtmlPrefs a-\u003eString-\u003ea Html",
@@ -1354,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "formatName",
           "package": "hmarkup",
@@ -1363,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "formatName",
           "package": "hmarkup",
@@ -1376,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "formatRef",
           "package": "hmarkup",
@@ -1385,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "formatRef",
           "normalized": "MarkupXHtmlPrefs a-\u003eURI-\u003e[Text]-\u003ea Html",
@@ -1450,6 +1568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "markupURI",
           "package": "hmarkup",
@@ -1459,6 +1578,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "markupURI",
           "normalized": "MarkupXHtmlPrefs a-\u003eURI-\u003eURI",
@@ -1474,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "markupURL",
           "package": "hmarkup",
@@ -1483,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "markupURL",
           "normalized": "MarkupXHtmlPrefs a-\u003eURI-\u003eURL",
@@ -1523,6 +1645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "useChunkFormat",
           "package": "hmarkup",
@@ -1532,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "useChunkFormat",
           "normalized": "MarkupXHtmlPrefs a-\u003eString-\u003eString-\u003ea Html",
@@ -1547,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup.XHtml",
           "name": "useRefFormat",
           "package": "hmarkup",
@@ -1556,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup XHtml",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup.XHtml",
           "name": "useRefFormat",
           "normalized": "MarkupXHtmlPrefs a-\u003eString-\u003eURI-\u003e[Text]-\u003ea Html",
@@ -1571,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup",
           "name": "HMarkup",
           "package": "hmarkup",
@@ -1579,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup",
           "name": "HMarkup",
           "package": "hmarkup",
@@ -1592,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup",
           "name": "MarkupXHtmlFormat",
           "package": "hmarkup",
@@ -1600,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup",
           "name": "MarkupXHtmlFormat",
           "package": "hmarkup",
@@ -1613,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup",
           "name": "MarkupXHtmlPrefs",
           "package": "hmarkup",
@@ -1621,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Text HMarkup",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup",
           "name": "MarkupXHtmlPrefs",
           "package": "hmarkup",
@@ -1635,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse some markup and format it as HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:38 UTC 2014",
           "module": "Text.HMarkup",
           "name": "markupToHtml",
           "package": "hmarkup",
@@ -1644,6 +1777,7 @@
         "index": {
           "description": "Parse some markup and format it as HTML",
           "hierarchy": "Text HMarkup",
+          "indexed": "2014-03-11T18:41:38",
           "module": "Text.HMarkup",
           "name": "markupToHtml",
           "normalized": "MarkupXHtmlPrefs a-\u003eString-\u003ea(Either String Html)",

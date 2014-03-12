@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Win32"
+        "phrase": "Win32",
+        "type": "phrase"
       },
       "type": "context"
     }

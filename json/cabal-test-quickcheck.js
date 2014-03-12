@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cabal-test-quickcheck"
+        "phrase": "cabal-test-quickcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJoins the QuickCheck testing library with Cabal's detailed interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:28:36 UTC 2014",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "QuickCheck",
           "package": "cabal-test-quickcheck",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Joins the QuickCheck testing library with Cabal detailed interface",
           "hierarchy": "Distribution TestSuite QuickCheck",
+          "indexed": "2014-03-11T17:28:36",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "QuickCheck",
           "package": "cabal-test-quickcheck",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:36 UTC 2014",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "Test",
           "package": "cabal-test-quickcheck",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Distribution TestSuite QuickCheck",
+          "indexed": "2014-03-11T17:28:36",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "Test",
           "package": "cabal-test-quickcheck",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:28:36 UTC 2014",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testGroup",
           "package": "cabal-test-quickcheck",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Distribution TestSuite QuickCheck",
+          "indexed": "2014-03-11T17:28:36",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testGroup",
           "normalized": "String-\u003e[Test]-\u003eTest",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a QuickCheck property using the current arguments and the given\n name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:28:36 UTC 2014",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testProperty",
           "package": "cabal-test-quickcheck",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Test QuickCheck property using the current arguments and the given name",
           "hierarchy": "Distribution TestSuite QuickCheck",
+          "indexed": "2014-03-11T17:28:36",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testProperty",
           "normalized": "String-\u003ea-\u003eTest",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest a QuickCheck property using the given arguments and name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:28:36 UTC 2014",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testPropertyWithOptions",
           "package": "cabal-test-quickcheck",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Test QuickCheck property using the given arguments and name",
           "hierarchy": "Distribution TestSuite QuickCheck",
+          "indexed": "2014-03-11T17:28:36",
           "module": "Distribution.TestSuite.QuickCheck",
           "name": "testPropertyWithOptions",
           "normalized": "String-\u003eOptions-\u003ea-\u003eEither String Test",

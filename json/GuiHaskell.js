@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GuiHaskell"
+        "phrase": "GuiHaskell",
+        "type": "phrase"
       },
       "type": "context"
     }

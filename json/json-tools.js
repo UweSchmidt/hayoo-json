@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "json-tools"
+        "phrase": "json-tools",
+        "type": "phrase"
       },
       "type": "context"
     }

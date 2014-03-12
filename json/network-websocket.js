@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-websocket"
+        "phrase": "network-websocket",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:48 UTC 2014",
           "module": "Network.Websocket",
           "name": "Config",
           "package": "network-websocket",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Websocket",
+          "indexed": "2014-03-11T19:28:48",
           "module": "Network.Websocket",
           "name": "Config",
           "package": "network-websocket",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:48 UTC 2014",
           "module": "Network.Websocket",
           "name": "ConfigRestriction",
           "package": "network-websocket",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Websocket",
+          "indexed": "2014-03-11T19:28:48",
           "module": "Network.Websocket",
           "name": "ConfigRestriction",
           "package": "network-websocket",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:48 UTC 2014",
           "module": "Network.Websocket",
           "name": "WS",
           "package": "network-websocket",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Websocket",
+          "indexed": "2014-03-11T19:28:48",
           "module": "Network.Websocket",
           "name": "WS",
           "package": "network-websocket",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:48 UTC 2014",
           "module": "Network.Websocket",
           "name": "send",
           "package": "network-websocket",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Network Websocket",
+          "indexed": "2014-03-11T19:28:48",
           "module": "Network.Websocket",
           "name": "send",
           "normalized": "WS-\u003eString-\u003eIO()",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:48 UTC 2014",
           "module": "Network.Websocket",
           "name": "startServer",
           "package": "network-websocket",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Websocket",
+          "indexed": "2014-03-11T19:28:48",
           "module": "Network.Websocket",
           "name": "startServer",
           "normalized": "Config-\u003eIO()",

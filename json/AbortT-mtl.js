@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AbortT-mtl"
+        "phrase": "AbortT-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:32:44 UTC 2014",
           "module": "Control.Monad.Trans.Abort.Instances.MTL",
           "name": "MTL",
           "package": "AbortT-mtl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Trans Abort Instances MTL",
+          "indexed": "2014-03-11T16:32:44",
           "module": "Control.Monad.Trans.Abort.Instances.MTL",
           "name": "MTL",
           "package": "AbortT-mtl",

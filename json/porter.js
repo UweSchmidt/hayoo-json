@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "porter"
+        "phrase": "porter",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:56 UTC 2014",
           "module": "Language.Porter",
           "name": "Porter",
           "package": "porter",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Porter",
+          "indexed": "2014-03-11T19:41:56",
           "module": "Language.Porter",
           "name": "Porter",
           "package": "porter",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:56 UTC 2014",
           "module": "Language.Porter",
           "name": "fixstem",
           "package": "porter",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Porter",
+          "indexed": "2014-03-11T19:41:56",
           "module": "Language.Porter",
           "name": "fixstem",
           "normalized": "[Char]-\u003e[Char]",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:41:56 UTC 2014",
           "module": "Language.Porter",
           "name": "stem",
           "package": "porter",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Language Porter",
+          "indexed": "2014-03-11T19:41:56",
           "module": "Language.Porter",
           "name": "stem",
           "normalized": "[Char]-\u003e[Char]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NumInstances"
+        "phrase": "NumInstances",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumber class instances for functions\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:35 UTC 2014",
           "module": "Data.NumInstances.Function",
           "name": "Function",
           "package": "NumInstances",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Number class instances for functions",
           "hierarchy": "Data NumInstances Function",
+          "indexed": "2014-03-11T16:54:35",
           "module": "Data.NumInstances.Function",
           "name": "Function",
           "package": "NumInstances",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumber class instances for tuples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:35 UTC 2014",
           "module": "Data.NumInstances.Tuple",
           "name": "Tuple",
           "package": "NumInstances",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Number class instances for tuples",
           "hierarchy": "Data NumInstances Tuple",
+          "indexed": "2014-03-11T16:54:35",
           "module": "Data.NumInstances.Tuple",
           "name": "Tuple",
           "package": "NumInstances",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumber class instances for functions and tuples\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:35 UTC 2014",
           "module": "Data.NumInstances",
           "name": "NumInstances",
           "package": "NumInstances",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Number class instances for functions and tuples",
           "hierarchy": "Data NumInstances",
+          "indexed": "2014-03-11T16:54:35",
           "module": "Data.NumInstances",
           "name": "NumInstances",
           "package": "NumInstances",

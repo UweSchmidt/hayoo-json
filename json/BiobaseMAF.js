@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BiobaseMAF"
+        "phrase": "BiobaseMAF",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe importer for MAF files.\n\u003c/p\u003e\u003cp\u003eThe importer is in enumerator form. In case of large alignments, move\n computations into an iteratee.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF.Import",
           "name": "Import",
           "package": "BiobaseMAF",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The importer for MAF files The importer is in enumerator form In case of large alignments move computations into an iteratee",
           "hierarchy": "Biobase MAF Import",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF.Import",
           "name": "Import",
           "package": "BiobaseMAF",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a ByteString stream into a stream of \u003ca\u003eEither MAF Alignment\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF.Import",
           "name": "eneeMAF",
           "package": "BiobaseMAF",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Transforms ByteString stream into stream of Either MAF Alignment",
           "hierarchy": "Biobase MAF Import",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF.Import",
           "name": "eneeMAF",
           "normalized": "Enumeratee ByteString[Either MAF Alignment]a b",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMAF, multiple alignment format provides multiple alignments with\n genome-wide scale. Often used for n-way alignments with n genomes aligned\n against one reference genome.\n\u003c/p\u003e\u003cp\u003eWe follow \u003ca\u003ehttp://genome.ucsc.edu/FAQ/FAQformat.html#format5\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eTODO this is not a complete implementation of the MAF format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -77,6 +82,7 @@
         "index": {
           "description": "MAF multiple alignment format provides multiple alignments with genome-wide scale Often used for n-way alignments with genomes aligned against one reference genome We follow http genome.ucsc.edu FAQ FAQformat.html format5 TODO this is not complete implementation of the MAF format",
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea single aligned sequence.\n\u003c/p\u003e\u003cp\u003eTODO this should later on be a \u003ca\u003eBioSeq\u003c/a\u003e (cf. Ketil Maldes work) but that\n change stays in an experimental repo until \u003ca\u003eBioSeq\u003c/a\u003e is available on hackage\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "Aligned",
           "package": "BiobaseMAF",
@@ -100,6 +107,7 @@
         "index": {
           "description": "single aligned sequence TODO this should later on be BioSeq cf Ketil Maldes work but that change stays in an experimental repo until BioSeq is available on hackage",
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "Aligned",
           "package": "BiobaseMAF",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach alignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "Alignment",
           "package": "BiobaseMAF",
@@ -123,6 +132,7 @@
         "index": {
           "description": "Each alignment",
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "Alignment",
           "package": "BiobaseMAF",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSome key-value pairs are defined; these are in a map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "KVs",
           "package": "BiobaseMAF",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Some key-value pairs are defined these are in map",
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "KVs",
           "package": "BiobaseMAF",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe header of a MAF file. Reads the initial lines beginning with '#'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -169,6 +182,7 @@
         "index": {
           "description": "The header of MAF file Reads the initial lines beginning with",
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "Aligned",
           "package": "BiobaseMAF",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "Aligned",
           "package": "BiobaseMAF",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "Alignment",
           "package": "BiobaseMAF",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "Alignment",
           "package": "BiobaseMAF",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "MAF",
           "package": "BiobaseMAF",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "blocks",
           "package": "BiobaseMAF",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "blocks",
           "normalized": "[Alignment]",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "comments",
           "package": "BiobaseMAF",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "comments",
           "normalized": "[ByteString]",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "genomesize",
           "package": "BiobaseMAF",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "genomesize",
           "package": "BiobaseMAF",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "header",
           "package": "BiobaseMAF",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "header",
           "package": "BiobaseMAF",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "key",
           "package": "BiobaseMAF",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "key",
           "package": "BiobaseMAF",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "length",
           "package": "BiobaseMAF",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "length",
           "package": "BiobaseMAF",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "mafheader",
           "package": "BiobaseMAF",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "mafheader",
           "package": "BiobaseMAF",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "metadata",
           "package": "BiobaseMAF",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "metadata",
           "normalized": "[ByteString]",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "sequences",
           "package": "BiobaseMAF",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "sequences",
           "normalized": "[Aligned]",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "start",
           "package": "BiobaseMAF",
@@ -454,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "start",
           "package": "BiobaseMAF",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "strand",
           "package": "BiobaseMAF",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "strand",
           "package": "BiobaseMAF",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:34:30 UTC 2014",
           "module": "Biobase.MAF",
           "name": "value",
           "package": "BiobaseMAF",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Biobase MAF",
+          "indexed": "2014-03-11T16:34:30",
           "module": "Biobase.MAF",
           "name": "value",
           "package": "BiobaseMAF",

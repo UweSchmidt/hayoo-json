@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-statevar"
+        "phrase": "monad-statevar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOverloaded \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e for state variables (\u003ccode\u003e\u003ca\u003eIORef\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e, etc.)\n to make reading and writing more concise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "StateVar",
           "package": "monad-statevar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Overloaded get and put for state variables IORef TVar etc to make reading and writing more concise",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "StateVar",
           "package": "monad-statevar",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "HasGet",
           "package": "monad-statevar",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "HasGet",
           "package": "monad-statevar",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "HasPut",
           "package": "monad-statevar",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "HasPut",
           "package": "monad-statevar",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix alias for \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "($~)",
           "package": "monad-statevar",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Infix alias for modify",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "($~) $~",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix alias for \u003ccode\u003e\u003ca\u003emodify'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "($~!)",
           "package": "monad-statevar",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Infix alias for modify",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "($~!) $~!",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix alias for \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "($=)",
           "package": "monad-statevar",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Infix alias for put",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "($=) $=",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfix alias for \u003ccode\u003e\u003ca\u003eput'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "($=!)",
           "package": "monad-statevar",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Infix alias for put",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "($=!) $=!",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the value from the variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "get",
           "package": "monad-statevar",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Read the value from the variable",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "get",
           "normalized": "a b-\u003ec b",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the value inside the variable with the given function.\n\u003c/p\u003e\u003cpre\u003elist \u003c- newIORef [1,2,3]\nmodify list (0:)  -- prepend 0 to the list\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "modify",
           "package": "monad-statevar",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Modify the value inside the variable with the given function list newIORef modify list prepend to the list",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "modify",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003emodify\u003c/a\u003e\u003c/code\u003e that forces the result of the function.\n\u003c/p\u003e\u003cpre\u003etally \u003c- newIORef (0 :: Int)\nmodify tally (+ 10)  -- add 10 to the tally\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "modify'",
           "package": "monad-statevar",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Variant of modify that forces the result of the function tally newIORef Int modify tally add to the tally",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "modify'",
           "normalized": "a b-\u003e(b-\u003eb)-\u003ec()",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value to the variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "put",
           "package": "monad-statevar",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Write new value to the variable",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "put",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e that forces the value before writing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "put'",
           "package": "monad-statevar",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Variant of put that forces the value before writing it",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "put'",
           "normalized": "a b-\u003eb-\u003ec()",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a new value and return the old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:42 UTC 2014",
           "module": "Control.Monad.StateVar",
           "name": "swap",
           "package": "monad-statevar",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Write new value and return the old value",
           "hierarchy": "Control Monad StateVar",
+          "indexed": "2014-03-11T19:20:42",
           "module": "Control.Monad.StateVar",
           "name": "swap",
           "normalized": "a b-\u003eb-\u003ec b",

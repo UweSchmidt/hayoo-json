@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-pnotify"
+        "phrase": "yesod-pnotify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "NotifyStyling",
           "package": "yesod-pnotify",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "NotifyStyling",
           "package": "yesod-pnotify",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "NotifyType",
           "package": "yesod-pnotify",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "NotifyType",
           "package": "yesod-pnotify",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "YesodJqueryPnotify",
           "package": "yesod-pnotify",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "YesodJqueryPnotify",
           "package": "yesod-pnotify",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "Bootstrap",
           "package": "yesod-pnotify",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "Bootstrap",
           "package": "yesod-pnotify",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "Error",
           "package": "yesod-pnotify",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "Error",
           "package": "yesod-pnotify",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "Info",
           "package": "yesod-pnotify",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "Info",
           "package": "yesod-pnotify",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "JqueryUI",
           "package": "yesod-pnotify",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "JqueryUI",
           "package": "yesod-pnotify",
@@ -211,6 +229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "Notice",
           "package": "yesod-pnotify",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "Notice",
           "package": "yesod-pnotify",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "PNotify",
           "package": "yesod-pnotify",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "Success",
           "package": "yesod-pnotify",
@@ -264,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "Success",
           "package": "yesod-pnotify",
@@ -277,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "getPNotify",
           "package": "yesod-pnotify",
@@ -286,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "getPNotify",
           "normalized": "HandlerT a IO(Maybe[PNotify])",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "msg",
           "package": "yesod-pnotify",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "msg",
           "package": "yesod-pnotify",
@@ -322,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "pnotify",
           "package": "yesod-pnotify",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "pnotify",
           "normalized": "a-\u003eWidgetT a IO()",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "setPNotify",
           "package": "yesod-pnotify",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "setPNotify",
           "normalized": "PNotify-\u003eHandlerT a IO()",
@@ -369,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "sty",
           "package": "yesod-pnotify",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "sty",
           "package": "yesod-pnotify",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "ttl",
           "package": "yesod-pnotify",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "ttl",
           "package": "yesod-pnotify",
@@ -411,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "typ",
           "package": "yesod-pnotify",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "typ",
           "package": "yesod-pnotify",
@@ -432,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyCss",
           "package": "yesod-pnotify",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyCss",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyIconsCss",
           "package": "yesod-pnotify",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyIconsCss",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:18 UTC 2014",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyJs",
           "package": "yesod-pnotify",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Yesod Goodies PNotify",
+          "indexed": "2014-03-11T20:46:18",
           "module": "Yesod.Goodies.PNotify",
           "name": "urlPnotifyJs",
           "normalized": "a-\u003eEither(Route a)Text",

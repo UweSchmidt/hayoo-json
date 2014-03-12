@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ideas-math"
+        "phrase": "ideas-math",
+        "type": "phrase"
       },
       "type": "context"
     }

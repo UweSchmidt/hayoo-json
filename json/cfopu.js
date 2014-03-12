@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cfopu"
+        "phrase": "cfopu",
+        "type": "phrase"
       },
       "type": "context"
     }

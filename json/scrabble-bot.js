@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scrabble-bot"
+        "phrase": "scrabble-bot",
+        "type": "phrase"
       },
       "type": "context"
     }

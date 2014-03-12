@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "GrammarProducts"
+        "phrase": "GrammarProducts",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parsergen"
+        "phrase": "parsergen",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and unparsing for commonly used datatypes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "Common",
           "package": "parsergen",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Parsing and unparsing for commonly used datatypes",
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "Common",
           "package": "parsergen",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan keep up to 12 characters from 0..9, A..Z\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "AlphaNum",
           "package": "parsergen",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Can keep up to characters from A..Z",
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "AlphaNum",
           "package": "parsergen",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "AlphaNum",
           "package": "parsergen",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "AlphaNum",
           "package": "parsergen",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "putAlphaNum",
           "package": "parsergen",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "putAlphaNum",
           "normalized": "AlphaNum-\u003eByteString",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "putDecimalX",
           "package": "parsergen",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "putDecimalX",
           "normalized": "Int-\u003eInt-\u003eByteString",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "putDecimalXS",
           "package": "parsergen",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "putDecimalXS",
           "normalized": "Int-\u003eInt-\u003eByteString",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unAlphaNum",
           "package": "parsergen",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unAlphaNum",
           "package": "parsergen",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unsafeAlphaNum",
           "package": "parsergen",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unsafeAlphaNum",
           "normalized": "Int-\u003eParser AlphaNum",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalX",
           "package": "parsergen",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalX",
           "normalized": "Int-\u003eParser Int",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXS",
           "package": "parsergen",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXS",
           "normalized": "Int-\u003eParser Int",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXSTH",
           "package": "parsergen",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXSTH",
           "normalized": "Int-\u003eQ Exp",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a template-haskell based version of \u003ccode\u003e\u003ca\u003eunsafeDecimalX\u003c/a\u003e\u003c/code\u003e which\n generates a fast, unrolled loop\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXTH",
           "package": "parsergen",
@@ -287,6 +310,7 @@
         "index": {
           "description": "This is template-haskell based version of unsafeDecimalX which generates fast unrolled loop",
           "hierarchy": "ParserGen Common",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Common",
           "name": "unsafeDecimalXTH",
           "normalized": "Int-\u003eQ Exp",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "Gen",
           "package": "parsergen",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "Gen",
           "package": "parsergen",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genDataTypeFromFile",
           "package": "parsergen",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genDataTypeFromFile",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -347,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genDataTypeFromFile'",
           "package": "parsergen",
@@ -356,6 +385,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genDataTypeFromFile'",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -371,6 +401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genParserFromFile",
           "package": "parsergen",
@@ -380,6 +411,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genParserFromFile",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genParserFromFile'",
           "package": "parsergen",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genParserFromFile'",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -419,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genWidthFromFile",
           "package": "parsergen",
@@ -428,6 +463,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genWidthFromFile",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -443,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Gen",
           "name": "genWidthFromFile'",
           "package": "parsergen",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Gen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Gen",
           "name": "genWidthFromFile'",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBased on Data.Attoparsec.Zepto by  Bryan O'Sullivan 2011\n\u003c/p\u003e\u003cp\u003eA tiny, highly specialized combinator parser for \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e\n strings. Designed to split bytestrings into fields with fixed widths.\n\u003c/p\u003e\u003cp\u003eunsafe versions of the functions do not perform checks that there\n is enough data left in the bytestring\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "Parser",
           "package": "parsergen",
@@ -477,6 +516,7 @@
         "index": {
           "description": "Based on Data.Attoparsec.Zepto by Bryan Sullivan tiny highly specialized combinator parser for ByteString strings Designed to split bytestrings into fields with fixed widths unsafe versions of the functions do not perform checks that there is enough data left in the bytestring",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "Parser",
           "package": "parsergen",
@@ -491,6 +531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple parser.\n\u003c/p\u003e\u003cp\u003eThis monad is strict in its state, and the monadic bind operator\n (\u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e) evaluates each result to weak head normal form before\n passing it along.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "Parser",
           "package": "parsergen",
@@ -500,6 +541,7 @@
         "index": {
           "description": "simple parser This monad is strict in its state and the monadic bind operator evaluates each result to weak head normal form before passing it along",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "Parser",
           "package": "parsergen",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "anyChar",
           "package": "parsergen",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "anyChar",
           "package": "parsergen",
@@ -536,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate whether the end of the input has been reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "atEnd",
           "package": "parsergen",
@@ -546,6 +591,7 @@
         "index": {
           "description": "Indicate whether the end of the input has been reached",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "atEnd",
           "package": "parsergen",
@@ -559,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "ensureBytesLeft",
           "package": "parsergen",
@@ -568,6 +615,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "ensureBytesLeft",
           "normalized": "Int-\u003eParser()",
@@ -584,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "parse",
           "package": "parsergen",
@@ -594,6 +643,7 @@
         "index": {
           "description": "Run parser",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "parse",
           "normalized": "Parser a-\u003eByteString-\u003eEither String a",
@@ -609,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip \u003ccode\u003en\u003c/code\u003e bytes of input\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "skip",
           "package": "parsergen",
@@ -619,6 +670,7 @@
         "index": {
           "description": "Skip bytes of input",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "skip",
           "normalized": "Int-\u003eParser()",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a string exactly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "string",
           "package": "parsergen",
@@ -644,6 +697,7 @@
         "index": {
           "description": "Match string exactly",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "string",
           "normalized": "ByteString-\u003eParser()",
@@ -659,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume \u003ccode\u003en\u003c/code\u003e bytes of input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "take",
           "package": "parsergen",
@@ -669,6 +724,7 @@
         "index": {
           "description": "Consume bytes of input",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "take",
           "normalized": "Int-\u003eParser ByteString",
@@ -684,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume input while the predicate returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "takeWhile",
           "package": "parsergen",
@@ -694,6 +751,7 @@
         "index": {
           "description": "Consume input while the predicate returns True",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "takeWhile",
           "normalized": "(Word-\u003eBool)-\u003eParser ByteString",
@@ -710,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip \u003ccode\u003en\u003c/code\u003e bytes of input without checking if it's available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "unsafeSkip",
           "package": "parsergen",
@@ -720,6 +779,7 @@
         "index": {
           "description": "Skip bytes of input without checking if it available",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "unsafeSkip",
           "normalized": "Int-\u003eParser()",
@@ -736,6 +796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume \u003ccode\u003en\u003c/code\u003e bytes of input without checking if it's available\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "unsafeTake",
           "package": "parsergen",
@@ -746,6 +807,7 @@
         "index": {
           "description": "Consume bytes of input without checking if it available",
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "unsafeTake",
           "normalized": "Int-\u003eParser ByteString",
@@ -761,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Parser",
           "name": "word8",
           "package": "parsergen",
@@ -770,6 +833,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Parser",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Parser",
           "name": "word8",
           "normalized": "Word-\u003eParser()",
@@ -784,6 +848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Repack",
           "name": "Repack",
           "package": "parsergen",
@@ -792,6 +857,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Repack",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Repack",
           "name": "Repack",
           "package": "parsergen",
@@ -805,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen.Repack",
           "name": "genRepackFromFile",
           "package": "parsergen",
@@ -814,6 +881,7 @@
         },
         "index": {
           "hierarchy": "ParserGen Repack",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen.Repack",
           "name": "genRepackFromFile",
           "normalized": "FilePath-\u003eQ[Dec]",
@@ -829,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:35:23 UTC 2014",
           "module": "ParserGen",
           "name": "ParserGen",
           "package": "parsergen",
@@ -837,6 +906,7 @@
         },
         "index": {
           "hierarchy": "ParserGen",
+          "indexed": "2014-03-11T19:35:23",
           "module": "ParserGen",
           "name": "ParserGen",
           "package": "parsergen",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "graph-rewriting-ski"
+        "phrase": "graph-rewriting-ski",
+        "type": "phrase"
       },
       "type": "context"
     }

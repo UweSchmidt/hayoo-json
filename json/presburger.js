@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "presburger"
+        "phrase": "presburger",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a decision procedure for quantifier-free linear\narithmetic.  The algorithm is based on the following paper:\n\u003c/p\u003e\u003cp\u003eAn Online Proof-Producing Decision Procedure for\n  Mixed-Integer Linear Arithmetic\n  by\n  Sergey Berezin, Vijay Ganesh, and David L. Dill\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "SAT",
           "package": "presburger",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements decision procedure for quantifier-free linear arithmetic The algorithm is based on the following paper An Online Proof-Producing Decision Procedure for Mixed-Integer Linear Arithmetic by Sergey Berezin Vijay Ganesh and David Dill",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "SAT",
           "package": "presburger",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "BoundType",
           "package": "presburger",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "BoundType",
           "package": "presburger",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of integer expressions.\n Variable names must be non-negative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Expr",
           "package": "presburger",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The type of integer expressions Variable names must be non-negative",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Expr",
           "package": "presburger",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Name",
           "package": "presburger",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Name",
           "package": "presburger",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of proposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Prop",
           "package": "presburger",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The type of proposition",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Prop",
           "package": "presburger",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA collection of propositions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "PropSet",
           "package": "presburger",
@@ -139,6 +150,7 @@
         "index": {
           "description": "collection of propositions",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "PropSet",
           "package": "presburger",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":||",
           "package": "presburger",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":||",
           "package": "presburger",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":&&",
           "package": "presburger",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":&&",
           "package": "presburger",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication by a constant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":*",
           "package": "presburger",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Multiplication by constant",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":*",
           "package": "presburger",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddition\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":+",
           "package": "presburger",
@@ -228,6 +247,7 @@
         "index": {
           "description": "Addition",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":+",
           "package": "presburger",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSubtraction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":-",
           "package": "presburger",
@@ -251,6 +272,7 @@
         "index": {
           "description": "Subtraction",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":-",
           "package": "presburger",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":/=",
           "package": "presburger",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":/=",
           "package": "presburger",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":\u003c",
           "package": "presburger",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":\u003c",
           "package": "presburger",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":\u003c=",
           "package": "presburger",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":\u003c=",
           "package": "presburger",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":==",
           "package": "presburger",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":==",
           "package": "presburger",
@@ -347,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":\u003e",
           "package": "presburger",
@@ -356,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":\u003e",
           "package": "presburger",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": ":\u003e=",
           "package": "presburger",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": ":\u003e=",
           "package": "presburger",
@@ -390,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDivision, rounds down\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Div",
           "package": "presburger",
@@ -400,6 +435,7 @@
         "index": {
           "description": "Division rounds down",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Div",
           "package": "presburger",
@@ -414,6 +450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conditional expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "If",
           "package": "presburger",
@@ -424,6 +461,7 @@
         "index": {
           "description": "conditional expression",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "If",
           "package": "presburger",
@@ -438,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "K",
           "package": "presburger",
@@ -448,6 +487,7 @@
         "index": {
           "description": "Constant",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "K",
           "package": "presburger",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Lower",
           "package": "presburger",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Lower",
           "package": "presburger",
@@ -483,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-negative remainder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Mod",
           "package": "presburger",
@@ -493,6 +536,7 @@
         "index": {
           "description": "Non-negative remainder",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Mod",
           "package": "presburger",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNegation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Negate",
           "package": "presburger",
@@ -517,6 +562,7 @@
         "index": {
           "description": "Negation",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Negate",
           "package": "presburger",
@@ -530,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Not",
           "package": "presburger",
@@ -539,6 +586,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Not",
           "package": "presburger",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "PFalse",
           "package": "presburger",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "PFalse",
           "package": "presburger",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "PTrue",
           "package": "presburger",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "PTrue",
           "package": "presburger",
@@ -596,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Upper",
           "package": "presburger",
@@ -605,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Upper",
           "package": "presburger",
@@ -619,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "Var",
           "package": "presburger",
@@ -629,6 +684,7 @@
         "index": {
           "description": "Variable",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "Var",
           "package": "presburger",
@@ -643,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new proposition to an existing collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "assert",
           "package": "presburger",
@@ -653,6 +710,7 @@
         "index": {
           "description": "Add new proposition to an existing collection",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "assert",
           "normalized": "Prop-\u003ePropSet-\u003ePropSet",
@@ -668,6 +726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a model from a consistent set of propositions.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the assertions have no model.\n If a variable does not appear in the assignment, then it is 0 (?).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "checkSat",
           "package": "presburger",
@@ -678,6 +737,7 @@
         "index": {
           "description": "Extract model from consistent set of propositions Returns Nothing if the assertions have no model If variable does not appear in the assignment then it is",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "checkSat",
           "normalized": "PropSet-\u003eMaybe[(Int,Integer)]",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "fromName",
           "package": "presburger",
@@ -702,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "fromName",
           "normalized": "Name-\u003eMaybe Int",
@@ -718,6 +780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes bounds on the expression that are compatible with the model.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the bound is not known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "getExprBound",
           "package": "presburger",
@@ -728,6 +791,7 @@
         "index": {
           "description": "Computes bounds on the expression that are compatible with the model Returns Nothing if the bound is not known",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "getExprBound",
           "normalized": "BoundType-\u003eExpr-\u003ePropSet-\u003eMaybe Integer",
@@ -744,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the range of possible values for an expression.\n Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the bound is not known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "getExprRange",
           "package": "presburger",
@@ -754,6 +819,7 @@
         "index": {
           "description": "Compute the range of possible values for an expression Returns Nothing if the bound is not known",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "getExprRange",
           "normalized": "Expr-\u003ePropSet-\u003eMaybe[Integer]",
@@ -770,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn empty collection of propositions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "noProps",
           "package": "presburger",
@@ -780,6 +847,7 @@
         "index": {
           "description": "An empty collection of propositions",
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "noProps",
           "package": "presburger",
@@ -793,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:21 UTC 2014",
           "module": "Data.Integer.SAT",
           "name": "toName",
           "package": "presburger",
@@ -802,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data Integer SAT",
+          "indexed": "2014-03-11T19:43:21",
           "module": "Data.Integer.SAT",
           "name": "toName",
           "normalized": "Int-\u003eName",

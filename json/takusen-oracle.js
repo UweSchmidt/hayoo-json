@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "takusen-oracle"
+        "phrase": "takusen-oracle",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent-map"
+        "phrase": "persistent-map",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,11 +19,13 @@
       "document": {
         "description": {
           "description": "Provides a least recently used caching policy.\n Note: This module is simply a wrapper around the LRU-package.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "source": "http://hackage.haskell.org/package/persistent-map/docs/Data-CacheStructure-LRU.html",
           "type": "unknown"
         },
         "index": {
           "description": "Provides least recently used caching policy Note This module is simply wrapper around the LRU-package",
+          "indexed": "2014-03-11T19:37:43",
           "type": "unknown"
         },
         "uri": "http://hackage.haskell.org/package/persistent-map/docs/Data-CacheStructure-LRU.html"
@@ -33,6 +35,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "CacheException",
           "package": "persistent-map",
@@ -41,6 +44,7 @@
         },
         "index": {
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "CacheException",
           "package": "persistent-map",
@@ -54,6 +58,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "CacheStructure",
           "package": "persistent-map",
@@ -62,6 +67,7 @@
         },
         "index": {
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "CacheStructure",
           "package": "persistent-map",
@@ -76,6 +82,7 @@
       "document": {
         "description": {
           "description": "An element is deleted.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "delete",
           "package": "persistent-map",
@@ -86,6 +93,7 @@
         "index": {
           "description": "An element is deleted",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "delete",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -101,6 +109,7 @@
       "document": {
         "description": {
           "description": "Creates an empty cache structure.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "empty",
           "package": "persistent-map",
@@ -111,6 +120,7 @@
         "index": {
           "description": "Creates an empty cache structure",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "empty",
           "package": "persistent-map",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "A new element is added to the cache or an already existing element\n was accessed.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "hit",
           "package": "persistent-map",
@@ -134,6 +145,7 @@
         "index": {
           "description": "new element is added to the cache or an already existing element was accessed",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "hit",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "Returns the \"last\" element w.r.t. the caching policy.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "last",
           "package": "persistent-map",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Returns the last element w.r.t the caching policy",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "last",
           "normalized": "a b-\u003eb",
@@ -174,6 +188,7 @@
       "document": {
         "description": {
           "description": "Checks if an element is in the cache structure.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "member",
           "package": "persistent-map",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Checks if an element is in the cache structure",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "member",
           "normalized": "a-\u003eb a-\u003eBool",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "Checks for emptyness. \n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "null",
           "package": "persistent-map",
@@ -209,6 +226,7 @@
         "index": {
           "description": "Checks for emptyness",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "null",
           "normalized": "a b-\u003eBool",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "Removes and returns the \"last\" element w.r.t. the caching policy.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "pop",
           "package": "persistent-map",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Removes and returns the last element w.r.t the caching policy",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "pop",
           "normalized": "a b-\u003e(a b,b)",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "Runs \u003ctt\u003e\u003ca\u003epop\u003c/a\u003e\u003c/tt\u003e a number of times. Has a default implementation. \n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "popMany",
           "package": "persistent-map",
@@ -259,6 +280,7 @@
         "index": {
           "description": "Runs pop number of times Has default implementation",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "popMany",
           "normalized": "Int-\u003ea b-\u003e(a b,[b])",
@@ -275,6 +297,7 @@
       "document": {
         "description": {
           "description": "Returns the size. Should be \u003cem\u003eO(1)\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "size",
           "package": "persistent-map",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Returns the size Should be",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "size",
           "normalized": "a b-\u003eInt",
@@ -300,6 +324,7 @@
       "document": {
         "description": {
           "description": "Transforms the cache structure to a list.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.CacheStructure",
           "name": "toList",
           "package": "persistent-map",
@@ -310,6 +335,7 @@
         "index": {
           "description": "Transforms the cache structure to list",
           "hierarchy": "Data CacheStructure",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.CacheStructure",
           "name": "toList",
           "normalized": "a b-\u003e[b]",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.HasKey",
           "name": "HasKey",
           "package": "persistent-map",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data HasKey",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.HasKey",
           "name": "HasKey",
           "package": "persistent-map",
@@ -370,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend.Binary",
           "name": "BinaryBackend",
           "package": "persistent-map",
@@ -378,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Data TMap Backend Binary",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend.Binary",
           "name": "BinaryBackend",
           "package": "persistent-map",
@@ -392,6 +422,7 @@
       "document": {
         "description": {
           "description": "Creates a new backend that stores one file per entry in the given working directory.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend.Binary",
           "name": "mkBinaryBackend",
           "package": "persistent-map",
@@ -402,6 +433,7 @@
         "index": {
           "description": "Creates new backend that stores one file per entry in the given working directory",
           "hierarchy": "Data TMap Backend Binary",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend.Binary",
           "name": "mkBinaryBackend",
           "normalized": "FilePath-\u003eIO(BinaryBackend a b)",
@@ -417,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend.NoBackend",
           "name": "NoBackend",
           "package": "persistent-map",
@@ -425,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data TMap Backend NoBackend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend.NoBackend",
           "name": "NoBackend",
           "package": "persistent-map",
@@ -438,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend.StdoutBackend",
           "name": "StdoutBackend",
           "package": "persistent-map",
@@ -446,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data TMap Backend StdoutBackend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend.StdoutBackend",
           "name": "StdoutBackend",
           "package": "persistent-map",
@@ -460,6 +496,7 @@
       "document": {
         "description": {
           "description": "Creates a new \u003ctt\u003e\u003ca\u003eStdoutBackend\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend.StdoutBackend",
           "name": "newStdoutBackend",
           "package": "persistent-map",
@@ -470,6 +507,7 @@
         "index": {
           "description": "Creates new StdoutBackend",
           "hierarchy": "Data TMap Backend StdoutBackend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend.StdoutBackend",
           "name": "newStdoutBackend",
           "package": "persistent-map",
@@ -483,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "Backend",
           "package": "persistent-map",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "Backend",
           "package": "persistent-map",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "Called when an element was updated.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "adjust",
           "package": "persistent-map",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Called when an element was updated",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "adjust",
           "normalized": "a b c-\u003e(c-\u003ec)-\u003eb-\u003eIO()",
@@ -530,6 +572,7 @@
       "document": {
         "description": {
           "description": "Called when an element was deleted from the map.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "delete",
           "package": "persistent-map",
@@ -540,6 +583,7 @@
         "index": {
           "description": "Called when an element was deleted from the map",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "delete",
           "normalized": "a b c-\u003eb-\u003eIO()",
@@ -555,6 +599,7 @@
       "document": {
         "description": {
           "description": "Called by \u003cem\u003eflushBackend\u003c/em\u003e and \u003cem\u003epurgeTMap\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "flush",
           "package": "persistent-map",
@@ -565,6 +610,7 @@
         "index": {
           "description": "Called by flushBackend and purgeTMap",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "flush",
           "normalized": "a b c-\u003eIO()",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "Called in newTMapIO \n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "initialize",
           "package": "persistent-map",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Called in newTMapIO",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "initialize",
           "normalized": "a b c-\u003eIO()",
@@ -605,6 +653,7 @@
       "document": {
         "description": {
           "description": "Called when a new element was inserted.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "insert",
           "package": "persistent-map",
@@ -615,6 +664,7 @@
         "index": {
           "description": "Called when new element was inserted",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "insert",
           "normalized": "a b c-\u003eb-\u003ec-\u003eIO()",
@@ -630,6 +680,7 @@
       "document": {
         "description": {
           "description": "Called when an element is not found in the map. \n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap.Backend",
           "name": "lookup",
           "package": "persistent-map",
@@ -640,6 +691,7 @@
         "index": {
           "description": "Called when an element is not found in the map",
           "hierarchy": "Data TMap Backend",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap.Backend",
           "name": "lookup",
           "normalized": "a b c-\u003eb-\u003eIO(Maybe c)",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "The standard library type Data.Map repackaged as a \u003ctt\u003e\u003ca\u003eTMap\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "TFiniteMap",
           "package": "persistent-map",
@@ -664,6 +717,7 @@
         "index": {
           "description": "The standard library type Data.Map repackaged as TMap",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "TFiniteMap",
           "package": "persistent-map",
@@ -677,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "TMap",
           "package": "persistent-map",
@@ -685,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "TMap",
           "package": "persistent-map",
@@ -698,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "TMapException",
           "package": "persistent-map",
@@ -706,6 +763,7 @@
         },
         "index": {
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "TMapException",
           "package": "persistent-map",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "Applies a function to the element identified by the key. Can throw an \u003ctt\u003e\u003ca\u003eEntryNotFound\u003c/a\u003e\u003c/tt\u003e exception.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "adjust",
           "package": "persistent-map",
@@ -730,6 +789,7 @@
         "index": {
           "description": "Applies function to the element identified by the key Can throw an EntryNotFound exception",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eb-\u003eTMap c b a d e-\u003ef()",
@@ -745,6 +805,7 @@
       "document": {
         "description": {
           "description": "Removes a key from the map. Can throw an \u003ctt\u003e\u003ca\u003eEntryNotFound\u003c/a\u003e\u003c/tt\u003e exception.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "delete",
           "package": "persistent-map",
@@ -755,6 +816,7 @@
         "index": {
           "description": "Removes key from the map Can throw an EntryNotFound exception",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "delete",
           "normalized": "a-\u003eTMap b a c d e-\u003ef()",
@@ -770,6 +832,7 @@
       "document": {
         "description": {
           "description": "Sends a \u003cem\u003eB.flush\u003c/em\u003e request to the backend. Useful for asynchronous backend\n implementations.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "flushBackend",
           "package": "persistent-map",
@@ -780,6 +843,7 @@
         "index": {
           "description": "Sends B.flush request to the backend Useful for asynchronous backend implementations",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "flushBackend",
           "normalized": "TMap a b c d e-\u003eIO()",
@@ -796,6 +860,7 @@
       "document": {
         "description": {
           "description": "Gets the current size of the map. \u003cem\u003eO(1)\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "getCurrentSize",
           "package": "persistent-map",
@@ -806,6 +871,7 @@
         "index": {
           "description": "Gets the current size of the map",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "getCurrentSize",
           "normalized": "TMap a b c d e-\u003ef Int",
@@ -822,6 +888,7 @@
       "document": {
         "description": {
           "description": "Gets the maximum size of the map. \u003cem\u003eO(1)\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "getMaximumSize",
           "package": "persistent-map",
@@ -832,6 +899,7 @@
         "index": {
           "description": "Gets the maximum size of the map",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "getMaximumSize",
           "normalized": "TMap a b c d e-\u003ef(Maybe Int)",
@@ -848,6 +916,7 @@
       "document": {
         "description": {
           "description": "Adds a key-value mapping to the map. Can throw a \u003ctt\u003e\u003ca\u003eDuplicateEntry\u003c/a\u003e\u003c/tt\u003e\n exception.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "insert",
           "package": "persistent-map",
@@ -858,6 +927,7 @@
         "index": {
           "description": "Adds key-value mapping to the map Can throw DuplicateEntry exception",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eTMap c a b d e-\u003ef()",
@@ -873,6 +943,7 @@
       "document": {
         "description": {
           "description": "Looks for a given key in the map and (if necessary) in the persistent storage \n and updates the map if necessary.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "lookup",
           "package": "persistent-map",
@@ -883,6 +954,7 @@
         "index": {
           "description": "Looks for given key in the map and if necessary in the persistent storage and updates the map if necessary",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "lookup",
           "normalized": "a-\u003eTMap b a c d e-\u003ef(Maybe c)",
@@ -898,6 +970,7 @@
       "document": {
         "description": {
           "description": "Causes the element to be reread from the backend on the next \u003ctt\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/tt\u003e.\n Throws an \u003ctt\u003e\u003ca\u003eEntryNotFound\u003c/a\u003e\u003c/tt\u003e exception if the entry does not exist.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "markAsDirty",
           "package": "persistent-map",
@@ -908,6 +981,7 @@
         "index": {
           "description": "Causes the element to be reread from the backend on the next lookup Throws an EntryNotFound exception if the entry does not exist",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "markAsDirty",
           "normalized": "a-\u003eTMap b a c d e-\u003eIO()",
@@ -924,6 +998,7 @@
       "document": {
         "description": {
           "description": "Checks whether the given key is in the map.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "member",
           "package": "persistent-map",
@@ -934,6 +1009,7 @@
         "index": {
           "description": "Checks whether the given key is in the map",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "member",
           "normalized": "a-\u003eTMap b a c d e-\u003ef Bool",
@@ -949,6 +1025,7 @@
       "document": {
         "description": {
           "description": "the backend\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "newTFiniteMapIO",
           "package": "persistent-map",
@@ -959,6 +1036,7 @@
         "index": {
           "description": "the backend",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "newTFiniteMapIO",
           "normalized": "a b c-\u003eIO(TFiniteMap b c a)",
@@ -1029,6 +1107,7 @@
       "document": {
         "description": {
           "description": "Sets the maximum size of the map. \u003cem\u003eO(1)\u003c/em\u003e. Note that the size of the TMap needs\n to be reduced manually to the maximum size by calling \u003cem\u003epurgeTMap\u003c/em\u003e.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "setMaximumSize",
           "package": "persistent-map",
@@ -1039,6 +1118,7 @@
         "index": {
           "description": "Sets the maximum size of the map Note that the size of the TMap needs to be reduced manually to the maximum size by calling purgeTMap",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "setMaximumSize",
           "normalized": "TMap a b c d e-\u003eInt-\u003ef()",
@@ -1055,6 +1135,7 @@
       "document": {
         "description": {
           "description": "Causes the element to be reread from the backend on the next \u003ctt\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/tt\u003e. Does\n not throw an error when the element does not exist.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TMap",
           "name": "tryMarkAsDirty",
           "package": "persistent-map",
@@ -1065,6 +1146,7 @@
         "index": {
           "description": "Causes the element to be reread from the backend on the next lookup Does not throw an error when the element does not exist",
           "hierarchy": "Data TMap",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TMap",
           "name": "tryMarkAsDirty",
           "normalized": "a-\u003eTMap b a c d e-\u003eIO()",
@@ -1080,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "TMap",
           "package": "persistent-map",
@@ -1088,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "TMap",
           "package": "persistent-map",
@@ -1101,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "HasKey",
           "package": "persistent-map",
@@ -1109,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "HasKey",
           "package": "persistent-map",
@@ -1123,6 +1209,7 @@
       "document": {
         "description": {
           "description": "Adds a new element to the map. The key is automatically deduced by the\n \u003ctt\u003e\u003ca\u003eHasKey\u003c/a\u003e\u003c/tt\u003e instantiation.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "add",
           "package": "persistent-map",
@@ -1133,6 +1220,7 @@
         "index": {
           "description": "Adds new element to the map The key is automatically deduced by the HasKey instantiation",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "add",
           "normalized": "a-\u003eTMap b c a d e-\u003ef()",
@@ -1148,6 +1236,7 @@
       "document": {
         "description": {
           "description": "Applies a function to an element that might be only partially initialized.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "apply",
           "package": "persistent-map",
@@ -1158,6 +1247,7 @@
         "index": {
           "description": "Applies function to an element that might be only partially initialized",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "apply",
           "normalized": "(a-\u003ea)-\u003ea-\u003eTMap b c a d e-\u003ef a",
@@ -1173,6 +1263,7 @@
       "document": {
         "description": {
           "description": "Fills a partially initialized value with data from the TMap. Throws\n an \u003ctt\u003e\u003ca\u003eEntryNotFound\u003c/a\u003e\u003c/tt\u003e exception if there is no corresponding entry.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "complete",
           "package": "persistent-map",
@@ -1183,6 +1274,7 @@
         "index": {
           "description": "Fills partially initialized value with data from the TMap Throws an EntryNotFound exception if there is no corresponding entry",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "complete",
           "normalized": "a-\u003eTMap b c a d e-\u003ef a",
@@ -1198,6 +1290,7 @@
       "document": {
         "description": {
           "description": "Removes the element from the map.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "remove",
           "package": "persistent-map",
@@ -1208,6 +1301,7 @@
         "index": {
           "description": "Removes the element from the map",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "remove",
           "normalized": "a-\u003eTMap b c a d e-\u003ef()",
@@ -1223,6 +1317,7 @@
       "document": {
         "description": {
           "description": "Removes the entry that has the supplied key.\n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "removeByKey",
           "package": "persistent-map",
@@ -1233,6 +1328,7 @@
         "index": {
           "description": "Removes the entry that has the supplied key",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "removeByKey",
           "normalized": "a-\u003eTMap b a c d e-\u003ef()",
@@ -1249,6 +1345,7 @@
       "document": {
         "description": {
           "description": "Tries to fill a partially initialized value with data from the TMap. Returns\n \u003ctt\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/tt\u003e if the TMap does not contain a corresponding entry. \n",
+          "indexed": "Tue Mar 11 19:37:43 UTC 2014",
           "module": "Data.TStorage",
           "name": "tryComplete",
           "package": "persistent-map",
@@ -1259,6 +1356,7 @@
         "index": {
           "description": "Tries to fill partially initialized value with data from the TMap Returns Nothing if the TMap does not contain corresponding entry",
           "hierarchy": "Data TStorage",
+          "indexed": "2014-03-11T19:37:43",
           "module": "Data.TStorage",
           "name": "tryComplete",
           "normalized": "a-\u003eTMap b c a d e-\u003ef(Maybe a)",

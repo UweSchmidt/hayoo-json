@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "union-find-array"
+        "phrase": "union-find-array",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "Class",
           "package": "union-find-array",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "Class",
           "package": "union-find-array",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "MonadUnion",
           "package": "union-find-array",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "MonadUnion",
           "package": "union-find-array",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-label a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "annotate",
           "package": "union-find-array",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Re-label node",
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "annotate",
           "normalized": "Node-\u003ea-\u003eb()",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten the disjoint set forest for faster lookups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "flatten",
           "package": "union-find-array",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Flatten the disjoint set forest for faster lookups",
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "flatten",
           "normalized": "a()",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the node representing a given node, and its label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "lookup",
           "package": "union-find-array",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Find the node representing given node and its label",
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "lookup",
           "normalized": "Node-\u003ea(Node,b)",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two sets. The first argument is a function that takes the labels\n of the corresponding sets' representatives and computes a new label for\n the joined set. Returns Nothing if the given nodes are in the same set\n already.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "merge",
           "package": "union-find-array",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Merge two sets The first argument is function that takes the labels of the corresponding sets representatives and computes new label for the joined set Returns Nothing if the given nodes are in the same set already",
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "merge",
           "normalized": "(a-\u003ea-\u003e(a,b))-\u003eNode-\u003eNode-\u003ec(Maybe b)",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new node, with a given label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union.Class",
           "name": "new",
           "package": "union-find-array",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Add new node with given label",
           "hierarchy": "Control Monad Union Class",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union.Class",
           "name": "new",
           "normalized": "a-\u003eb Node",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic interface for creating a disjoint set data structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Monadic interface for creating disjoint set data structure",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "MonadUnion",
           "package": "union-find-array",
@@ -216,6 +233,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "MonadUnion",
           "package": "union-find-array",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in a disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "Node",
           "package": "union-find-array",
@@ -239,6 +258,7 @@
         "index": {
           "description": "node in disjoint set forest",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "Node",
           "package": "union-find-array",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immutable disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -262,6 +283,7 @@
         "index": {
           "description": "An immutable disjoint set forest",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion find monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "UnionM",
           "package": "union-find-array",
@@ -285,6 +308,7 @@
         "index": {
           "description": "Union find monad",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "UnionM",
           "package": "union-find-array",
@@ -322,6 +346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRe-label a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "annotate",
           "package": "union-find-array",
@@ -332,6 +357,7 @@
         "index": {
           "description": "Re-label node",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "annotate",
           "normalized": "Node-\u003ea-\u003eb()",
@@ -347,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten the disjoint set forest for faster lookups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "flatten",
           "package": "union-find-array",
@@ -357,6 +384,7 @@
         "index": {
           "description": "Flatten the disjoint set forest for faster lookups",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "flatten",
           "normalized": "a()",
@@ -394,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the node representing a given node, and its label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "lookup",
           "package": "union-find-array",
@@ -404,6 +433,7 @@
         "index": {
           "description": "Find the node representing given node and its label",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "lookup",
           "normalized": "Node-\u003ea(Node,b)",
@@ -419,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two sets. The first argument is a function that takes the labels\n of the corresponding sets' representatives and computes a new label for\n the joined set. Returns Nothing if the given nodes are in the same set\n already.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "merge",
           "package": "union-find-array",
@@ -429,6 +460,7 @@
         "index": {
           "description": "Merge two sets The first argument is function that takes the labels of the corresponding sets representatives and computes new label for the joined set Returns Nothing if the given nodes are in the same set already",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "merge",
           "normalized": "(a-\u003ea-\u003e(a,b))-\u003eNode-\u003eNode-\u003ec(Maybe b)",
@@ -444,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a new node, with a given label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "new",
           "package": "union-find-array",
@@ -454,6 +487,7 @@
         "index": {
           "description": "Add new node with given label",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "new",
           "normalized": "a-\u003eb Node",
@@ -469,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a union find computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "run",
           "package": "union-find-array",
@@ -479,6 +514,7 @@
         "index": {
           "description": "Run union find computation",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "run",
           "normalized": "UnionM a b-\u003eb",
@@ -494,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a union find computation; also return the final disjoint set forest\n for querying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Control.Monad.Union",
           "name": "run'",
           "package": "union-find-array",
@@ -504,6 +541,7 @@
         "index": {
           "description": "Run union find computation also return the final disjoint set forest for querying",
           "hierarchy": "Control Monad Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Control.Monad.Union",
           "name": "run'",
           "normalized": "UnionM a b-\u003e(Union a,b)",
@@ -563,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLow-level interface for managing a disjoint set data structure, based on\n \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e. For a higher level convenience interface, look at\n \u003ccode\u003e\u003ca\u003eUnion\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "ST",
           "package": "union-find-array",
@@ -572,6 +611,7 @@
         "index": {
           "description": "Low-level interface for managing disjoint set data structure based on ST For higher level convenience interface look at Union",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "ST",
           "package": "union-find-array",
@@ -586,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA disjoint set forest, with nodes numbered from 0, which can carry labels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "UnionST",
           "package": "union-find-array",
@@ -595,6 +636,7 @@
         "index": {
           "description": "disjoint set forest with nodes numbered from which can carry labels",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "UnionST",
           "package": "union-find-array",
@@ -609,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a node with a new label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "annotate",
           "package": "union-find-array",
@@ -619,6 +662,7 @@
         "index": {
           "description": "Annotate node with new label",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "annotate",
           "normalized": "UnionST a b-\u003eInt-\u003eb-\u003eST a()",
@@ -634,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy a disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "copy",
           "package": "union-find-array",
@@ -644,6 +689,7 @@
         "index": {
           "description": "Copy disjoint set forest",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "copy",
           "normalized": "UnionST a b-\u003eST a(UnionST a b)",
@@ -659,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a disjoint set forest, for faster lookups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "flatten",
           "package": "union-find-array",
@@ -669,6 +716,7 @@
         "index": {
           "description": "Flatten disjoint set forest for faster lookups",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "flatten",
           "normalized": "UnionST a b-\u003eST a()",
@@ -684,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGrow the capacity of a disjoint set forest. Shrinking is not possible.\n Trying to shrink a disjoint set forest will return the same forest\n unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "grow",
           "package": "union-find-array",
@@ -694,6 +743,7 @@
         "index": {
           "description": "Grow the capacity of disjoint set forest Shrinking is not possible Trying to shrink disjoint set forest will return the same forest unmodified",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "grow",
           "normalized": "UnionST a b-\u003eInt-\u003eST a(UnionST a b)",
@@ -709,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the representative of a given node and its label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "lookup",
           "package": "union-find-array",
@@ -719,6 +770,7 @@
         "index": {
           "description": "Look up the representative of given node and its label",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "lookup",
           "normalized": "UnionST a b-\u003eInt-\u003eST a(Int,b)",
@@ -734,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two nodes if they are in distinct equivalence classes. The\n passed function is used to combine labels, if a merge happens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "merge",
           "package": "union-find-array",
@@ -744,6 +797,7 @@
         "index": {
           "description": "Merge two nodes if they are in distinct equivalence classes The passed function is used to combine labels if merge happens",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "merge",
           "normalized": "UnionST a b-\u003e(b-\u003eb-\u003e(b,c))-\u003eInt-\u003eInt-\u003eST a(Maybe c)",
@@ -759,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new disjoint set forest, of given capacity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "new",
           "package": "union-find-array",
@@ -769,6 +824,7 @@
         "index": {
           "description": "Create new disjoint set forest of given capacity",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "new",
           "normalized": "Int-\u003ea-\u003eST b(UnionST b a)",
@@ -784,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003erunSTArray\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "runUnionST",
           "package": "union-find-array",
@@ -794,6 +851,7 @@
         "index": {
           "description": "Analogous to runSTArray",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "runUnionST",
           "normalized": "(a b ST c(UnionST c d))-\u003eUnion d",
@@ -809,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "size",
           "package": "union-find-array",
@@ -818,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "size",
           "normalized": "UnionST a b-\u003eInt",
@@ -833,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003eunsafeFreeze\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.ST",
           "name": "unsafeFreeze",
           "package": "union-find-array",
@@ -843,6 +904,7 @@
         "index": {
           "description": "Analogous to unsafeFreeze",
           "hierarchy": "Data Union ST",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.ST",
           "name": "unsafeFreeze",
           "normalized": "UnionST a b-\u003eST a(Union b)",
@@ -858,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.Type",
           "name": "Type",
           "package": "union-find-array",
@@ -866,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Data Union Type",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.Type",
           "name": "Type",
           "package": "union-find-array",
@@ -880,6 +944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in a disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.Type",
           "name": "Node",
           "package": "union-find-array",
@@ -889,6 +954,7 @@
         "index": {
           "description": "node in disjoint set forest",
           "hierarchy": "Data Union Type",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.Type",
           "name": "Node",
           "package": "union-find-array",
@@ -903,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immutable disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union.Type",
           "name": "Union",
           "package": "union-find-array",
@@ -912,6 +979,7 @@
         "index": {
           "description": "An immutable disjoint set forest",
           "hierarchy": "Data Union Type",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union.Type",
           "name": "Union",
           "package": "union-find-array",
@@ -972,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImmutable disjoint set forests.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -981,6 +1050,7 @@
         "index": {
           "description": "Immutable disjoint set forests",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -995,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node in a disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "Node",
           "package": "union-find-array",
@@ -1004,6 +1075,7 @@
         "index": {
           "description": "node in disjoint set forest",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "Node",
           "package": "union-find-array",
@@ -1018,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn immutable disjoint set forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -1027,6 +1100,7 @@
         "index": {
           "description": "An immutable disjoint set forest",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "Union",
           "package": "union-find-array",
@@ -1041,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the representative of a node, and its label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "lookup",
           "package": "union-find-array",
@@ -1051,6 +1126,7 @@
         "index": {
           "description": "Look up the representative of node and its label",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "lookup",
           "normalized": "Union a-\u003eNode-\u003e(Node,a)",
@@ -1066,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion of \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e that assumes the forest to be flattened.\n (cf. \u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e.)\n\u003c/p\u003e\u003cp\u003eDo not use otherwise: It will give wrong results!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "lookupFlattened",
           "package": "union-find-array",
@@ -1076,6 +1153,7 @@
         "index": {
           "description": "Version of lookup that assumes the forest to be flattened cf flatten Do not use otherwise It will give wrong results",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "lookupFlattened",
           "normalized": "Union a-\u003eNode-\u003e(Node,a)",
@@ -1092,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the number of nodes in the forest.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:30:04 UTC 2014",
           "module": "Data.Union",
           "name": "size",
           "package": "union-find-array",
@@ -1102,6 +1181,7 @@
         "index": {
           "description": "Get the number of nodes in the forest",
           "hierarchy": "Data Union",
+          "indexed": "2014-03-11T20:30:04",
           "module": "Data.Union",
           "name": "size",
           "normalized": "Union a-\u003eInt",

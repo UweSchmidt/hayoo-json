@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "FModExRaw"
+        "phrase": "FModExRaw",
+        "type": "phrase"
       },
       "type": "context"
     }

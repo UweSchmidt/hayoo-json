@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zipper"
+        "phrase": "zipper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe generic zipper.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "Zipper",
           "package": "zipper",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The generic zipper",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "Zipper",
           "package": "zipper",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of context frames. Not required for the high-level\n navigation functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "Ctx",
           "package": "zipper",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Abstract type of context frames Not required for the high-level navigation functions",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "Ctx",
           "package": "zipper",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract type of locations. A location contains the current focus\n and its context. A location is parameterized over the family of\n datatypes and over the type of the complete value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "Loc",
           "package": "zipper",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Abstract type of locations location contains the current focus and its context location is parameterized over the family of datatypes and over the type of the complete value",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "Loc",
           "package": "zipper",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIt is in general not necessary to use the generic navigation\n functions directly. The functions listed in the `\u003ccode\u003eInterface'\u003c/code\u003e section\n below are more user-friendly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "Zipper",
           "package": "zipper",
@@ -97,6 +104,7 @@
         "index": {
           "description": "It is in general not necessary to use the generic navigation functions directly The functions listed in the Interface section below are more user-friendly",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "Zipper",
           "package": "zipper",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "cmapA",
           "package": "zipper",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "cmapA",
           "normalized": "(a b c d-\u003ee d-\u003ef(g d))-\u003ec d-\u003eCtx h i e d-\u003ef(Ctx h i g d)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove through all positions in depth-first left-to-right order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "dfnext",
           "package": "zipper",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Move through all positions in depth-first left-to-right order",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "dfnext",
           "normalized": "Loc a I b-\u003eMaybe(Loc a I b)",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove through all positions in depth-first right-to-left order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "dfprev",
           "package": "zipper",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Move through all positions in depth-first right-to-left order",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "dfprev",
           "normalized": "Loc a I b-\u003eMaybe(Loc a I b)",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the leftmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "down",
           "package": "zipper",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Move down to the leftmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "down",
           "normalized": "Loc a I b-\u003eMaybe(Loc a I b)",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down to the rightmost child. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the\n current focus is a leaf.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "down'",
           "package": "zipper",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Move down to the rightmost child Returns Nothing if the current focus is leaf",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "down'",
           "normalized": "Loc a I b-\u003eMaybe(Loc a I b)",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart navigating a datastructure. Returns a location that\n focuses the entire value and has an empty context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "enter",
           "package": "zipper",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Start navigating datastructure Returns location that focuses the entire value and has an empty context",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "enter",
           "normalized": "a b-\u003eb-\u003eLoc a I b",
@@ -258,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "fill",
           "package": "zipper",
@@ -267,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "fill",
           "normalized": "a b-\u003eCtx c b d e-\u003ed b-\u003ec d e",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "first",
           "package": "zipper",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "first",
           "normalized": "(a b c d-\u003ee d-\u003eCtx f d e g-\u003eh)-\u003ef e g-\u003eMaybe h",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost general eliminator. Both \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eupdate\u003c/a\u003e\u003c/code\u003e can be defined\n in terms of \u003ccode\u003e\u003ca\u003efoldZipper\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "foldZipper",
           "package": "zipper",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Most general eliminator Both on and update can be defined in terms of foldZipper",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "foldZipper",
           "normalized": "(a b c d-\u003ed-\u003ee d)-\u003eAlgebra c e-\u003eLoc c I f-\u003ee f",
@@ -331,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the entire value, independent of the current focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "leave",
           "package": "zipper",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Return the entire value independent of the current focus",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "leave",
           "normalized": "Loc a I b-\u003eb",
@@ -356,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the left sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the leftmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "left",
           "package": "zipper",
@@ -366,6 +395,7 @@
         "index": {
           "description": "Move to the left sibling Returns Nothing if the current focus is the leftmost sibling",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "left",
           "normalized": "Loc a b c-\u003eMaybe(Loc a b c)",
@@ -380,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "next",
           "package": "zipper",
@@ -389,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "next",
           "normalized": "(a b c d-\u003ee d-\u003eCtx f d e g-\u003eh)-\u003ec d-\u003eCtx f d e g-\u003ee d-\u003eMaybe h",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperate on the current focus. This function can be used to\n extract the current point of focus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "on",
           "package": "zipper",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Operate on the current focus This function can be used to extract the current point of focus",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "on",
           "normalized": "(a b c d-\u003ee d-\u003ef)-\u003eLoc c e g-\u003ef",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove to the right sibling. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the rightmost sibling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "right",
           "package": "zipper",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Move to the right sibling Returns Nothing if the current focus is the rightmost sibling",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "right",
           "normalized": "Loc a b c-\u003eMaybe(Loc a b c)",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove up to the parent. Returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the current\n focus is the root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "up",
           "package": "zipper",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Move up to the parent Returns Nothing if the current focus is the root",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "up",
           "normalized": "Loc a I b-\u003eMaybe(Loc a I b)",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the current focus without changing its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:16 UTC 2014",
           "module": "Generics.MultiRec.Zipper",
           "name": "update",
           "package": "zipper",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Update the current focus without changing its type",
           "hierarchy": "Generics MultiRec Zipper",
+          "indexed": "2014-03-11T20:48:16",
           "module": "Generics.MultiRec.Zipper",
           "name": "update",
           "normalized": "(a b c d-\u003ed-\u003ed)-\u003eLoc c I e-\u003eLoc c I e",

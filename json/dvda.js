@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dvda"
+        "phrase": "dvda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.AD",
           "name": "AD",
           "package": "dvda",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Dvda AD",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.AD",
           "name": "AD",
           "package": "dvda",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.AD",
           "name": "backprop",
           "package": "dvda",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Dvda AD",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.AD",
           "name": "backprop",
           "normalized": "Expr a-\u003eHashMap(Expr a)(Expr a)",
@@ -86,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "CGen",
           "package": "dvda",
@@ -94,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "CGen",
           "package": "dvda",
@@ -107,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "MatrixStorageOrder",
           "package": "dvda",
@@ -115,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "MatrixStorageOrder",
           "package": "dvda",
@@ -128,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "ColMajor",
           "package": "dvda",
@@ -137,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "ColMajor",
           "package": "dvda",
@@ -150,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "RowMajor",
           "package": "dvda",
@@ -159,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "RowMajor",
           "package": "dvda",
@@ -173,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns a FunGraph into a string containing C code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "showC",
           "package": "dvda",
@@ -183,6 +196,7 @@
         "index": {
           "description": "Turns FunGraph into string containing code",
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "showC",
           "normalized": "MatrixStorageOrder-\u003eString-\u003eFunGraph a-\u003eString",
@@ -197,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CGen",
           "name": "showMex",
           "package": "dvda",
@@ -206,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Dvda CGen",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CGen",
           "name": "showMex",
           "normalized": "String-\u003eFunGraph a-\u003eString",
@@ -221,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.CSE",
           "name": "CSE",
           "package": "dvda",
@@ -229,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Dvda CSE",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.CSE",
           "name": "CSE",
           "package": "dvda",
@@ -266,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Codegen.Gcc",
           "name": "Gcc",
           "package": "dvda",
@@ -274,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Dvda Codegen Gcc",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Codegen.Gcc",
           "name": "Gcc",
           "package": "dvda",
@@ -288,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etake in name of source and future object, compile object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Codegen.Gcc",
           "name": "compileWithGcc",
           "package": "dvda",
@@ -298,6 +319,7 @@
         "index": {
           "description": "take in name of source and future object compile object",
           "hierarchy": "Dvda Codegen Gcc",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Codegen.Gcc",
           "name": "compileWithGcc",
           "normalized": "FilePath-\u003eFilePath-\u003eIO()",
@@ -313,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Codegen.WriteFile",
           "name": "WriteFile",
           "package": "dvda",
@@ -321,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Dvda Codegen WriteFile",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Codegen.WriteFile",
           "name": "WriteFile",
           "package": "dvda",
@@ -334,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Codegen.WriteFile",
           "name": "writeSourceFile",
           "package": "dvda",
@@ -343,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Dvda Codegen WriteFile",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Codegen.WriteFile",
           "name": "writeSourceFile",
           "normalized": "String-\u003eFilePath-\u003eFilePath-\u003eIO FilePath",
@@ -358,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -366,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -379,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -387,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -400,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -409,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "Dual",
           "package": "dvda",
@@ -422,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "dualPerturbation",
           "package": "dvda",
@@ -431,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "dualPerturbation",
           "package": "dvda",
@@ -444,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "dualPrimal",
           "package": "dvda",
@@ -453,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "dualPrimal",
           "package": "dvda",
@@ -467,6 +503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward derivative propogation. fad sin x == cos x\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "fad",
           "package": "dvda",
@@ -477,6 +514,7 @@
         "index": {
           "description": "Forward derivative propogation fad sin cos",
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "fad",
           "normalized": "(Dual a-\u003eDual a)-\u003ea-\u003ea",
@@ -492,6 +530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward derivative propogation. fad' [sin x, 2*x] == [cos x, 2]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Dual",
           "name": "fad'",
           "package": "dvda",
@@ -502,6 +541,7 @@
         "index": {
           "description": "Forward derivative propogation fad sin cos",
           "hierarchy": "Dvda Dual",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Dual",
           "name": "fad'",
           "normalized": "(Dual a-\u003e[Dual a])-\u003ea-\u003e[a]",
@@ -516,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Examples",
           "name": "Examples",
           "package": "dvda",
@@ -524,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Dvda Examples",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Examples",
           "name": "Examples",
           "package": "dvda",
@@ -538,6 +580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ec code generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Examples",
           "name": "cgen",
           "package": "dvda",
@@ -548,6 +591,7 @@
         "index": {
           "description": "code generation",
           "hierarchy": "Dvda Examples",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Examples",
           "name": "cgen",
           "normalized": "IO()",
@@ -563,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edo cse on a fungraph and count nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Examples",
           "name": "doCse",
           "package": "dvda",
@@ -573,6 +618,7 @@
         "index": {
           "description": "do cse on fungraph and count nodes",
           "hierarchy": "Dvda Examples",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Examples",
           "name": "doCse",
           "normalized": "IO()",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emex function generation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Examples",
           "name": "mexgen",
           "package": "dvda",
@@ -599,6 +646,7 @@
         "index": {
           "description": "mex function generation",
           "hierarchy": "Dvda Examples",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Examples",
           "name": "mexgen",
           "normalized": "IO()",
@@ -614,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow a fungraph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Examples",
           "name": "showFg",
           "package": "dvda",
@@ -624,6 +673,7 @@
         "index": {
           "description": "show fungraph",
           "hierarchy": "Dvda Examples",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Examples",
           "name": "showFg",
           "normalized": "IO()",
@@ -639,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Expr",
           "package": "dvda",
@@ -647,6 +698,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Expr",
           "package": "dvda",
@@ -660,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Expr",
           "package": "dvda",
@@ -668,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Expr",
           "package": "dvda",
@@ -681,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Floatings",
           "package": "dvda",
@@ -689,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Floatings",
           "package": "dvda",
@@ -702,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Fractionals",
           "package": "dvda",
@@ -710,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Fractionals",
           "package": "dvda",
@@ -723,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GExpr",
           "package": "dvda",
@@ -731,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GExpr",
           "package": "dvda",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Nums",
           "package": "dvda",
@@ -752,6 +813,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Nums",
           "package": "dvda",
@@ -765,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Sym",
           "package": "dvda",
@@ -773,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Sym",
           "package": "dvda",
@@ -786,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ACos",
           "package": "dvda",
@@ -795,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ACos",
           "package": "dvda",
@@ -808,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ACosh",
           "package": "dvda",
@@ -817,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ACosh",
           "package": "dvda",
@@ -830,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ASin",
           "package": "dvda",
@@ -839,6 +908,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ASin",
           "package": "dvda",
@@ -852,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ASinh",
           "package": "dvda",
@@ -861,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ASinh",
           "package": "dvda",
@@ -874,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ATan",
           "package": "dvda",
@@ -883,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ATan",
           "package": "dvda",
@@ -896,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ATanh",
           "package": "dvda",
@@ -905,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ATanh",
           "package": "dvda",
@@ -918,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Abs",
           "package": "dvda",
@@ -927,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Abs",
           "package": "dvda",
@@ -940,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Add",
           "package": "dvda",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Add",
           "package": "dvda",
@@ -962,6 +1042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Cos",
           "package": "dvda",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Cos",
           "package": "dvda",
@@ -984,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Cosh",
           "package": "dvda",
@@ -993,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Cosh",
           "package": "dvda",
@@ -1006,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Div",
           "package": "dvda",
@@ -1015,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Div",
           "package": "dvda",
@@ -1028,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "EConst",
           "package": "dvda",
@@ -1037,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "EConst",
           "normalized": "a-\u003eExpr a",
@@ -1052,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "EFloating",
           "package": "dvda",
@@ -1061,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "EFloating",
           "normalized": "Floatings(Expr a)-\u003eExpr a",
@@ -1076,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "EFractional",
           "package": "dvda",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "EFractional",
           "normalized": "Fractionals(Expr a)-\u003eExpr a",
@@ -1100,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ENum",
           "package": "dvda",
@@ -1109,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ENum",
           "normalized": "Nums(Expr a)-\u003eExpr a",
@@ -1124,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "ESym",
           "package": "dvda",
@@ -1133,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "ESym",
           "normalized": "Sym-\u003eExpr a",
@@ -1148,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Exp",
           "package": "dvda",
@@ -1157,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Exp",
           "package": "dvda",
@@ -1170,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "FromInteger",
           "package": "dvda",
@@ -1179,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "FromInteger",
           "package": "dvda",
@@ -1192,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "FromRational",
           "package": "dvda",
@@ -1201,6 +1302,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "FromRational",
           "package": "dvda",
@@ -1214,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GConst",
           "package": "dvda",
@@ -1223,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GConst",
           "normalized": "a-\u003eGExpr a b",
@@ -1238,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GFloating",
           "package": "dvda",
@@ -1247,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GFloating",
           "normalized": "Floatings a-\u003eGExpr b a",
@@ -1262,6 +1368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GFractional",
           "package": "dvda",
@@ -1271,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GFractional",
           "normalized": "Fractionals a-\u003eGExpr b a",
@@ -1286,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GNum",
           "package": "dvda",
@@ -1295,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GNum",
           "normalized": "Nums a-\u003eGExpr b a",
@@ -1310,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "GSym",
           "package": "dvda",
@@ -1319,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "GSym",
           "normalized": "Sym-\u003eGExpr a b",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Log",
           "package": "dvda",
@@ -1343,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Log",
           "package": "dvda",
@@ -1356,6 +1470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "LogBase",
           "package": "dvda",
@@ -1365,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "LogBase",
           "package": "dvda",
@@ -1378,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Mul",
           "package": "dvda",
@@ -1387,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Mul",
           "package": "dvda",
@@ -1400,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Negate",
           "package": "dvda",
@@ -1409,6 +1528,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Negate",
           "package": "dvda",
@@ -1422,6 +1542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Pow",
           "package": "dvda",
@@ -1431,6 +1552,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Pow",
           "package": "dvda",
@@ -1444,6 +1566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Signum",
           "package": "dvda",
@@ -1453,6 +1576,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Signum",
           "package": "dvda",
@@ -1466,6 +1590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Sin",
           "package": "dvda",
@@ -1475,6 +1600,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Sin",
           "package": "dvda",
@@ -1488,6 +1614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Sinh",
           "package": "dvda",
@@ -1497,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Sinh",
           "package": "dvda",
@@ -1510,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Sub",
           "package": "dvda",
@@ -1519,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Sub",
           "package": "dvda",
@@ -1532,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Sym",
           "package": "dvda",
@@ -1541,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Sym",
           "package": "dvda",
@@ -1554,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "SymDependent",
           "package": "dvda",
@@ -1563,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "SymDependent",
           "package": "dvda",
@@ -1576,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "Tanh",
           "package": "dvda",
@@ -1585,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "Tanh",
           "package": "dvda",
@@ -1598,6 +1734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "const'",
           "package": "dvda",
@@ -1607,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "const'",
           "normalized": "a-\u003eExpr a",
@@ -1621,6 +1759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "extractLinearPart",
           "package": "dvda",
@@ -1630,6 +1769,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "extractLinearPart",
           "normalized": "Expr a-\u003eExpr a-\u003e(Expr a,a)",
@@ -1646,6 +1786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efoldr over the constants and symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "foldExpr",
           "package": "dvda",
@@ -1656,6 +1797,7 @@
         "index": {
           "description": "foldr over the constants and symbols",
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "foldExpr",
           "normalized": "(Expr a-\u003eb-\u003eb)-\u003eb-\u003eExpr a-\u003eb",
@@ -1671,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "fromNeg",
           "package": "dvda",
@@ -1680,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "fromNeg",
           "normalized": "Expr a-\u003eMaybe(Expr a)",
@@ -1696,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eif the expression is a constant, a fromInteger, or a fromRational, return the constant part\n   otherwise return nothing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "getConst",
           "package": "dvda",
@@ -1706,6 +1851,7 @@
         "index": {
           "description": "if the expression is constant fromInteger or fromRational return the constant part otherwise return nothing",
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "getConst",
           "normalized": "Expr a-\u003eMaybe a",
@@ -1721,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "getParents",
           "package": "dvda",
@@ -1730,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "getParents",
           "normalized": "GExpr a b-\u003e[b]",
@@ -1746,6 +1894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks to see if an Expr is equal to a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "isVal",
           "package": "dvda",
@@ -1756,6 +1905,7 @@
         "index": {
           "description": "Checks to see if an Expr is equal to value",
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "isVal",
           "normalized": "a-\u003eExpr a-\u003eBool",
@@ -1772,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethis substitute is sketchy because it doesn't perform simplifications that are often assumed to be done\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "sketchySubstitute",
           "package": "dvda",
@@ -1782,6 +1933,7 @@
         "index": {
           "description": "this substitute is sketchy because it doesn perform simplifications that are often assumed to be done",
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "sketchySubstitute",
           "normalized": "Expr a-\u003e[(Expr a,Expr a)]-\u003eExpr a",
@@ -1797,6 +1949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Expr",
           "name": "substitute",
           "package": "dvda",
@@ -1806,6 +1959,7 @@
         },
         "index": {
           "hierarchy": "Dvda Expr",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Expr",
           "name": "substitute",
           "normalized": "Expr a-\u003e[(Expr a,Expr a)]-\u003eExpr a",
@@ -1900,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "FunGraph",
           "package": "dvda",
@@ -1908,6 +2063,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "FunGraph",
           "package": "dvda",
@@ -1921,6 +2077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": ":*",
           "package": "dvda",
@@ -1929,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": ":*",
           "package": "dvda",
@@ -1941,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "FunGraph",
           "package": "dvda",
@@ -1949,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "FunGraph",
           "package": "dvda",
@@ -1962,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "MVS",
           "package": "dvda",
@@ -1970,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "MVS",
           "package": "dvda",
@@ -1983,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "ToFunGraph",
           "package": "dvda",
@@ -1991,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "ToFunGraph",
           "package": "dvda",
@@ -2026,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "Mat",
           "package": "dvda",
@@ -2035,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "Mat",
           "normalized": "Mat[[a]]",
@@ -2050,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "Sca",
           "package": "dvda",
@@ -2059,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "Sca",
           "package": "dvda",
@@ -2072,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "Vec",
           "package": "dvda",
@@ -2081,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "Vec",
           "normalized": "Vec[a]",
@@ -2096,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "countNodes",
           "package": "dvda",
@@ -2105,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "countNodes",
           "normalized": "FunGraph a-\u003eInt",
@@ -2121,6 +2293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake a FunGraph out of outputs, automatically detecting the proper inputs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "exprsToFunGraph",
           "package": "dvda",
@@ -2131,6 +2304,7 @@
         "index": {
           "description": "make FunGraph out of outputs automatically detecting the proper inputs",
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "exprsToFunGraph",
           "normalized": "[Expr a]-\u003eIO(FunGraph a)",
@@ -2146,6 +2320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "fgInputs",
           "package": "dvda",
@@ -2155,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "fgInputs",
           "normalized": "FunGraph a-\u003e[MVS(GExpr a Int)]",
@@ -2170,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "fgLookupGExpr",
           "package": "dvda",
@@ -2179,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "fgLookupGExpr",
           "normalized": "FunGraph a-\u003eInt-\u003eMaybe(GExpr a Int)",
@@ -2194,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "fgOutputs",
           "package": "dvda",
@@ -2203,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "fgOutputs",
           "normalized": "FunGraph a-\u003e[MVS Int]",
@@ -2218,6 +2398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "fgReified",
           "package": "dvda",
@@ -2227,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "fgReified",
           "normalized": "FunGraph a-\u003e[(Int,GExpr a Int)]",
@@ -2242,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "nodelistToFunGraph",
           "package": "dvda",
@@ -2251,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "nodelistToFunGraph",
           "normalized": "[(Int,GExpr a Int)]-\u003e[MVS(GExpr a Int)]-\u003e[MVS Int]-\u003eFunGraph a",
@@ -2293,6 +2477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.FunGraph",
           "name": "topSort",
           "package": "dvda",
@@ -2302,6 +2487,7 @@
         },
         "index": {
           "hierarchy": "Dvda FunGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.FunGraph",
           "name": "topSort",
           "normalized": "FunGraph a-\u003e[Int]",
@@ -2317,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "CoctaveTemplates",
           "package": "dvda",
@@ -2325,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "CoctaveTemplates",
           "package": "dvda",
@@ -2338,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeMexAll",
           "package": "dvda",
@@ -2347,6 +2536,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeMexAll",
           "normalized": "String-\u003eString",
@@ -2362,6 +2552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writePlot",
           "package": "dvda",
@@ -2371,6 +2562,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writePlot",
           "normalized": "String-\u003eHashMap String[Expr a]-\u003eString",
@@ -2386,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeSetupSource",
           "package": "dvda",
@@ -2395,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeSetupSource",
           "normalized": "String-\u003e[Expr a]-\u003e[a]-\u003e[a]-\u003eString",
@@ -2410,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeToStruct",
           "package": "dvda",
@@ -2419,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeToStruct",
           "normalized": "String-\u003e[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003eHashMap String[Expr a]-\u003eString",
@@ -2434,6 +2630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeUnstruct",
           "package": "dvda",
@@ -2443,6 +2640,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeUnstruct",
           "normalized": "String-\u003e[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003e[[Expr a]]-\u003e[Expr a]-\u003e[[Expr a]]-\u003eString",
@@ -2458,6 +2656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeUnstructConsts",
           "package": "dvda",
@@ -2467,6 +2666,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting CoctaveTemplates",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.CoctaveTemplates",
           "name": "writeUnstructConsts",
           "normalized": "String-\u003e[Expr a]-\u003eString",
@@ -2482,6 +2682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "MSCoctave",
           "package": "dvda",
@@ -2490,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSCoctave",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "MSCoctave",
           "package": "dvda",
@@ -2503,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "msCoctave",
           "package": "dvda",
@@ -2512,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSCoctave",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "msCoctave",
           "normalized": "State(Step Double)a-\u003eIntegrator Double-\u003eInt-\u003eString-\u003eFilePath-\u003eIO()",
@@ -2527,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "run",
           "package": "dvda",
@@ -2536,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSCoctave",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSCoctave",
           "name": "run",
           "normalized": "IO()",
@@ -2550,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "MSMonad",
           "package": "dvda",
@@ -2558,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "MSMonad",
           "package": "dvda",
@@ -2572,6 +2780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA state monad parameterized by the type \u003ccode\u003es\u003c/code\u003e of the state to carry.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e function leaves the state unchanged, while \u003ccode\u003e\u003e\u003e=\u003c/code\u003e uses\n the final state of the first computation as the initial state of\n the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "State",
           "package": "dvda",
@@ -2580,6 +2789,7 @@
         "index": {
           "description": "state monad parameterized by the type of the state to carry The return function leaves the state unchanged while uses the final state of the first computation as the initial state of the second",
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "State",
           "package": "dvda",
@@ -2593,6 +2803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstant",
           "package": "dvda",
@@ -2602,6 +2813,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstant",
           "normalized": "String-\u003eState(Step a)(Expr a)",
@@ -2617,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstants",
           "package": "dvda",
@@ -2626,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstants",
           "normalized": "[String]-\u003eState(Step a)[Expr a]",
@@ -2641,6 +2855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstraint",
           "package": "dvda",
@@ -2650,6 +2865,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addConstraint",
           "normalized": "Expr a-\u003eOrdering-\u003eExpr a-\u003eState(Step a)()",
@@ -2665,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addOutput",
           "package": "dvda",
@@ -2674,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addOutput",
           "normalized": "Expr a-\u003eString-\u003eState(Step a)()",
@@ -2689,6 +2907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addParam",
           "package": "dvda",
@@ -2698,6 +2917,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addParam",
           "normalized": "String-\u003eState(Step a)(Expr a)",
@@ -2713,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addParams",
           "package": "dvda",
@@ -2722,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "addParams",
           "normalized": "[String]-\u003eState(Step a)[Expr a]",
@@ -2737,6 +2959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "lagrangeStateName",
           "package": "dvda",
@@ -2746,6 +2969,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "lagrangeStateName",
           "package": "dvda",
@@ -2759,6 +2983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "lagrangeTermName",
           "package": "dvda",
@@ -2768,6 +2993,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "lagrangeTermName",
           "package": "dvda",
@@ -2781,6 +3007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setActions",
           "package": "dvda",
@@ -2790,6 +3017,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setActions",
           "normalized": "[String]-\u003eState(Step a)[Expr a]",
@@ -2805,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setBound",
           "package": "dvda",
@@ -2814,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setBound",
           "normalized": "Expr a-\u003e(a,a)-\u003eBCTime-\u003eState(Step a)()",
@@ -2829,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setDt",
           "package": "dvda",
@@ -2838,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setDt",
           "normalized": "Expr a-\u003eState(Step a)()",
@@ -2853,6 +3085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setDxdt",
           "package": "dvda",
@@ -2862,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setDxdt",
           "normalized": "[Expr a]-\u003eState(Step a)()",
@@ -2877,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setLagrangeTerm",
           "package": "dvda",
@@ -2886,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setLagrangeTerm",
           "normalized": "Expr a-\u003e(a,a)-\u003eState(Step a)()",
@@ -2901,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setMayerTerm",
           "package": "dvda",
@@ -2910,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setMayerTerm",
           "normalized": "Expr a-\u003eState(Step a)()",
@@ -2925,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setPeriodic",
           "package": "dvda",
@@ -2934,6 +3173,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setPeriodic",
           "normalized": "Expr a-\u003eState(Step a)()",
@@ -2949,6 +3189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setStates",
           "package": "dvda",
@@ -2958,6 +3199,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting MSMonad",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.MSMonad",
           "name": "setStates",
           "normalized": "[String]-\u003eState(Step a)[Expr a]",
@@ -2973,6 +3215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Types",
           "package": "dvda",
@@ -2981,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Types",
           "package": "dvda",
@@ -2994,6 +3238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "BCTime",
           "package": "dvda",
@@ -3002,6 +3247,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "BCTime",
           "package": "dvda",
@@ -3015,6 +3261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Constraint",
           "package": "dvda",
@@ -3023,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Constraint",
           "package": "dvda",
@@ -3036,6 +3284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Ode",
           "package": "dvda",
@@ -3044,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Ode",
           "package": "dvda",
@@ -3057,6 +3307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Step",
           "package": "dvda",
@@ -3065,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Step",
           "package": "dvda",
@@ -3078,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "ALWAYS",
           "package": "dvda",
@@ -3087,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "ALWAYS",
           "package": "dvda",
@@ -3100,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Constraint",
           "package": "dvda",
@@ -3109,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Constraint",
           "package": "dvda",
@@ -3122,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Ode",
           "package": "dvda",
@@ -3131,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Ode",
           "normalized": "Ode(SparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eSparseVec(Expr a))(Int,Int)",
@@ -3146,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Step",
           "package": "dvda",
@@ -3155,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "Step",
           "package": "dvda",
@@ -3168,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "TIMESTEP",
           "package": "dvda",
@@ -3177,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "TIMESTEP",
           "package": "dvda",
@@ -3190,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "eulerError",
           "package": "dvda",
@@ -3199,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "eulerError",
           "normalized": "SparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eOde a-\u003eExpr a-\u003eSparseVec(Expr a)",
@@ -3214,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "eulerError'",
           "package": "dvda",
@@ -3223,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "eulerError'",
           "normalized": "[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003e([Expr a]-\u003e[Expr a]-\u003e[Expr a])-\u003eExpr a-\u003e[Expr a]",
@@ -3238,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "simpsonsRuleError",
           "package": "dvda",
@@ -3247,6 +3514,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "simpsonsRuleError",
           "normalized": "SparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eSparseVec(Expr a)-\u003eOde a-\u003eExpr a-\u003eSparseVec(Expr a)",
@@ -3262,6 +3530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "simpsonsRuleError'",
           "package": "dvda",
@@ -3271,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "simpsonsRuleError'",
           "normalized": "[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003e[Expr a]-\u003e([Expr a]-\u003e[Expr a]-\u003e[Expr a])-\u003eExpr a-\u003e[Expr a]",
@@ -3286,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepActions",
           "package": "dvda",
@@ -3295,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepActions",
           "normalized": "Maybe[Expr a]",
@@ -3310,6 +3582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepBounds",
           "package": "dvda",
@@ -3319,6 +3592,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepBounds",
           "normalized": "[(Expr a,(a,a,BCTime))]",
@@ -3334,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepConstants",
           "package": "dvda",
@@ -3343,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepConstants",
           "package": "dvda",
@@ -3356,6 +3632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepConstraints",
           "package": "dvda",
@@ -3365,6 +3642,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepConstraints",
           "normalized": "[Constraint(Expr a)]",
@@ -3380,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepDt",
           "package": "dvda",
@@ -3389,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepDt",
           "package": "dvda",
@@ -3402,6 +3682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepDxdt",
           "package": "dvda",
@@ -3411,6 +3692,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepDxdt",
           "normalized": "Maybe[Expr a]",
@@ -3426,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepLagrangeTerm",
           "package": "dvda",
@@ -3435,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepLagrangeTerm",
           "normalized": "Maybe(Expr a,(a,a))",
@@ -3450,6 +3734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepMayerTerm",
           "package": "dvda",
@@ -3459,6 +3744,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepMayerTerm",
           "package": "dvda",
@@ -3472,6 +3758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepOutputs",
           "package": "dvda",
@@ -3481,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepOutputs",
           "package": "dvda",
@@ -3494,6 +3782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepParams",
           "package": "dvda",
@@ -3503,6 +3792,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepParams",
           "package": "dvda",
@@ -3516,6 +3806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepPeriodic",
           "package": "dvda",
@@ -3525,6 +3816,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepPeriodic",
           "package": "dvda",
@@ -3538,6 +3830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepStates",
           "package": "dvda",
@@ -3547,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Dvda MultipleShooting Types",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.MultipleShooting.Types",
           "name": "stepStates",
           "normalized": "Maybe[Expr a]",
@@ -3562,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Reify",
           "name": "Reify",
           "package": "dvda",
@@ -3570,6 +3865,7 @@
         },
         "index": {
           "hierarchy": "Dvda Reify",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Reify",
           "name": "Reify",
           "package": "dvda",
@@ -3583,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Reify",
           "name": "MuRef",
           "package": "dvda",
@@ -3591,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "Dvda Reify",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Reify",
           "name": "MuRef",
           "package": "dvda",
@@ -3604,6 +3902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Reify",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3612,6 +3911,7 @@
         },
         "index": {
           "hierarchy": "Dvda Reify",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Reify",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3650,6 +3950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Reify",
           "name": "mapDeRef",
           "package": "dvda",
@@ -3659,6 +3960,7 @@
         },
         "index": {
           "hierarchy": "Dvda Reify",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Reify",
           "name": "mapDeRef",
           "normalized": "a-\u003eb c)-\u003ed-\u003eb(DeRef d c)",
@@ -3675,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ereifyGraph\u003c/code\u003e takes a data structure that admits \u003ccode\u003e\u003ca\u003eMuRef\u003c/a\u003e\u003c/code\u003e, and returns a \u003ccode\u003e\u003ca\u003eReifyGraph\u003c/a\u003e\u003c/code\u003e that contains\n the dereferenced nodes, with their children as \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e rather than recursive values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Reify",
           "name": "reifyGraphs",
           "package": "dvda",
@@ -3685,6 +3988,7 @@
         "index": {
           "description": "reifyGraph takes data structure that admits MuRef and returns ReifyGraph that contains the dereferenced nodes with their children as Int rather than recursive values",
           "hierarchy": "Dvda Reify",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Reify",
           "name": "reifyGraphs",
           "normalized": "[a b]-\u003eIO(ReifyGraph(DeRef b),[a Int])",
@@ -3700,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.ReifyGraph",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3708,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "Dvda ReifyGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.ReifyGraph",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3721,6 +4027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.ReifyGraph",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3729,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Dvda ReifyGraph",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.ReifyGraph",
           "name": "ReifyGraph",
           "package": "dvda",
@@ -3742,6 +4050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "SparseLA",
           "package": "dvda",
@@ -3750,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "SparseLA",
           "package": "dvda",
@@ -3763,6 +4073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "SparseMat",
           "package": "dvda",
@@ -3771,6 +4082,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "SparseMat",
           "package": "dvda",
@@ -3784,6 +4096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "SparseVec",
           "package": "dvda",
@@ -3792,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "SparseVec",
           "package": "dvda",
@@ -3805,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "denseListFromSv",
           "package": "dvda",
@@ -3814,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "denseListFromSv",
           "normalized": "SparseVec a-\u003e[a]",
@@ -3829,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "getCol",
           "package": "dvda",
@@ -3838,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "getCol",
           "normalized": "Int-\u003eSparseMat a-\u003eSparseVec a",
@@ -3853,6 +4171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "getRow",
           "package": "dvda",
@@ -3862,6 +4181,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "getRow",
           "normalized": "Int-\u003eSparseMat a-\u003eSparseVec a",
@@ -3877,6 +4197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "sMV",
           "package": "dvda",
@@ -3886,6 +4207,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "sMV",
           "normalized": "SparseMat a-\u003eSparseVec a-\u003eMaybe(SparseVec a)",
@@ -3901,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "sVV",
           "package": "dvda",
@@ -3910,6 +4233,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "sVV",
           "normalized": "SparseVec a-\u003eSparseVec a-\u003eMaybe a",
@@ -3925,6 +4249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smAdd",
           "package": "dvda",
@@ -3934,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smAdd",
           "normalized": "SparseMat a-\u003eSparseMat a-\u003eMaybe(SparseMat a)",
@@ -3949,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smBinary",
           "package": "dvda",
@@ -3958,6 +4285,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smBinary",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(IntMap a-\u003eIntMap a)-\u003e(IntMap a-\u003eIntMap a)-\u003eSparseMat a-\u003eSparseMat a-\u003eMaybe(SparseMat a)",
@@ -3973,6 +4301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smFromLists",
           "package": "dvda",
@@ -3982,6 +4311,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smFromLists",
           "normalized": "[[a]]-\u003eSparseMat a",
@@ -3997,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smFromSparseList",
           "package": "dvda",
@@ -4006,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smFromSparseList",
           "normalized": "[((Int,Int),a)]-\u003e(Int,Int)-\u003eSparseMat a",
@@ -4021,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smMap",
           "package": "dvda",
@@ -4030,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smMap",
           "normalized": "(a-\u003eb)-\u003eSparseMat a-\u003eSparseMat b",
@@ -4045,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smMul",
           "package": "dvda",
@@ -4054,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smMul",
           "normalized": "SparseMat a-\u003eSparseMat a-\u003eMaybe(SparseMat a)",
@@ -4069,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smScale",
           "package": "dvda",
@@ -4078,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smScale",
           "normalized": "a-\u003eSparseMat a-\u003eSparseMat a",
@@ -4093,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smSize",
           "package": "dvda",
@@ -4102,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smSize",
           "normalized": "SparseMat a-\u003e(Int,Int)",
@@ -4117,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smSub",
           "package": "dvda",
@@ -4126,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smSub",
           "normalized": "SparseMat a-\u003eSparseMat a-\u003eMaybe(SparseMat a)",
@@ -4141,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "smZeros",
           "package": "dvda",
@@ -4150,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "smZeros",
           "normalized": "(Int,Int)-\u003eSparseMat a",
@@ -4165,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "sparseListFromSv",
           "package": "dvda",
@@ -4174,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "sparseListFromSv",
           "normalized": "SparseVec a-\u003e[a]",
@@ -4189,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svAdd",
           "package": "dvda",
@@ -4198,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svAdd",
           "normalized": "SparseVec a-\u003eSparseVec a-\u003eMaybe(SparseVec a)",
@@ -4213,6 +4561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svBinary",
           "package": "dvda",
@@ -4222,6 +4571,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svBinary",
           "normalized": "(a-\u003eb-\u003ec)-\u003e(IntMap a-\u003eIntMap c)-\u003e(IntMap b-\u003eIntMap c)-\u003eSparseVec a-\u003eSparseVec b-\u003eMaybe(SparseVec c)",
@@ -4237,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svCat",
           "package": "dvda",
@@ -4246,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svCat",
           "normalized": "SparseVec a-\u003eSparseVec a-\u003eSparseVec a",
@@ -4261,6 +4613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svCats",
           "package": "dvda",
@@ -4270,6 +4623,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svCats",
           "normalized": "[SparseVec a]-\u003eSparseVec a",
@@ -4285,6 +4639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svFromList",
           "package": "dvda",
@@ -4294,6 +4649,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svFromList",
           "normalized": "[a]-\u003eSparseVec a",
@@ -4309,6 +4665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svFromSparseList",
           "package": "dvda",
@@ -4318,6 +4675,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svFromSparseList",
           "normalized": "[(Int,a)]-\u003eInt-\u003eSparseVec a",
@@ -4333,6 +4691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svMap",
           "package": "dvda",
@@ -4342,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svMap",
           "normalized": "(a-\u003eb)-\u003eSparseVec a-\u003eSparseVec b",
@@ -4357,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svMul",
           "package": "dvda",
@@ -4366,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svMul",
           "normalized": "SparseVec a-\u003eSparseVec a-\u003eMaybe(SparseVec a)",
@@ -4381,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svScale",
           "package": "dvda",
@@ -4390,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svScale",
           "normalized": "a-\u003eSparseVec a-\u003eSparseVec a",
@@ -4405,6 +4769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svSize",
           "package": "dvda",
@@ -4414,6 +4779,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svSize",
           "normalized": "SparseVec a-\u003eInt",
@@ -4429,6 +4795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svSub",
           "package": "dvda",
@@ -4438,6 +4805,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svSub",
           "normalized": "SparseVec a-\u003eSparseVec a-\u003eMaybe(SparseVec a)",
@@ -4453,6 +4821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.SparseLA",
           "name": "svZeros",
           "package": "dvda",
@@ -4462,6 +4831,7 @@
         },
         "index": {
           "hierarchy": "Dvda SparseLA",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.SparseLA",
           "name": "svZeros",
           "normalized": "Int-\u003eSparseVec a",
@@ -4477,6 +4847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda.Vis",
           "name": "Vis",
           "package": "dvda",
@@ -4485,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Dvda Vis",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda.Vis",
           "name": "Vis",
           "package": "dvda",
@@ -4553,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top level module which exports the API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda",
           "name": "Dvda",
           "package": "dvda",
@@ -4562,6 +4935,7 @@
         "index": {
           "description": "This is the top level module which exports the API",
           "hierarchy": "Dvda",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda",
           "name": "Dvda",
           "package": "dvda",
@@ -4575,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda",
           "name": ":*",
           "package": "dvda",
@@ -4583,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Dvda",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda",
           "name": ":*",
           "package": "dvda",
@@ -4595,6 +4971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:33 UTC 2014",
           "module": "Dvda",
           "name": "Expr",
           "package": "dvda",
@@ -4603,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Dvda",
+          "indexed": "2014-03-11T17:59:33",
           "module": "Dvda",
           "name": "Expr",
           "package": "dvda",

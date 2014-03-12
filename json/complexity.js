@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "complexity"
+        "phrase": "complexity",
+        "type": "phrase"
       },
       "type": "context"
     }

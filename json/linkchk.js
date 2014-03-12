@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linkchk"
+        "phrase": "linkchk",
+        "type": "phrase"
       },
       "type": "context"
     }

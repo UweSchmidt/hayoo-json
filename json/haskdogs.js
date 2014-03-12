@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskdogs"
+        "phrase": "haskdogs",
+        "type": "phrase"
       },
       "type": "context"
     }

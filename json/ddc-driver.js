@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ddc-driver"
+        "phrase": "ddc-driver",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Ast",
           "name": "Ast",
           "package": "ddc-driver",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Ast",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Ast",
           "name": "Ast",
           "package": "ddc-driver",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse, check, and pretty print an expression's internal representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Ast",
           "name": "cmdAstExp",
           "package": "ddc-driver",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Parse check and pretty print an expression internal representation",
           "hierarchy": "DDC Driver Command Ast",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Ast",
           "name": "cmdAstExp",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse, check, and pretty print a module's internal representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Ast",
           "name": "cmdAstModule",
           "package": "ddc-driver",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Parse check and pretty print module internal representation",
           "hierarchy": "DDC Driver Command Ast",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Ast",
           "name": "cmdAstModule",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -91,6 +97,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.BaseBuild",
           "name": "BaseBuild",
           "package": "ddc-driver",
@@ -99,6 +106,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command BaseBuild",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.BaseBuild",
           "name": "BaseBuild",
           "package": "ddc-driver",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.BaseBuild",
           "name": "cmdBaseBuild",
           "package": "ddc-driver",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command BaseBuild",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.BaseBuild",
           "name": "cmdBaseBuild",
           "normalized": "Config-\u003eErrorT String IO()",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "Check",
           "package": "ddc-driver",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "Check",
           "package": "ddc-driver",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat components of the checked type to display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeMode",
           "package": "ddc-driver",
@@ -167,6 +180,7 @@
         "index": {
           "description": "What components of the checked type to display",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeMode",
           "package": "ddc-driver",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeAll",
           "package": "ddc-driver",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeAll",
           "package": "ddc-driver",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeClosure",
           "package": "ddc-driver",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeClosure",
           "package": "ddc-driver",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeEffect",
           "package": "ddc-driver",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeEffect",
           "package": "ddc-driver",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeValue",
           "package": "ddc-driver",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "ShowTypeValue",
           "package": "ddc-driver",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and type-check a core module from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdCheckModuleFromFile",
           "package": "ddc-driver",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Parse and type-check core module from file",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdCheckModuleFromFile",
           "normalized": "Fragment a b-\u003eFilePath-\u003eErrorT String IO(Module(AnTEC SourcePos a)a)",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse and type-check a core module from a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdCheckModuleFromString",
           "package": "ddc-driver",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Parse and type-check core module from string",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdCheckModuleFromString",
           "normalized": "Fragment a b-\u003eSource-\u003eString-\u003eErrorT String IO(Module(AnTEC SourcePos a)a)",
@@ -321,6 +347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck expression and reconstruct type annotations on binders.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdExpRecon",
           "package": "ddc-driver",
@@ -331,6 +358,7 @@
         "index": {
           "description": "Check expression and reconstruct type annotations on binders",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdExpRecon",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the given core expression, \n   and return it, along with its type, effect and closure.\n\u003c/p\u003e\u003cp\u003eIf the expression had a parse error, undefined vars, or type error\n   then print this to the console.\n\u003c/p\u003e\u003cp\u003eWe include a flag to override the language profile to allow partially\n   applied primitives. Although a paticular evaluator (or backend) may not\n   support partially applied primitives, we want to accept them if we are\n   only loading an expression to check its type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdParseCheckExp",
           "package": "ddc-driver",
@@ -356,6 +385,7 @@
         "index": {
           "description": "Parse the given core expression and return it along with its type effect and closure If the expression had parse error undefined vars or type error then print this to the console We include flag to override the language profile to allow partially applied primitives Although paticular evaluator or backend may not support partially applied primitives we want to accept them if we are only loading an expression to check its type",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdParseCheckExp",
           "normalized": "Fragment a b-\u003eModuleMap(AnTEC()a)a-\u003eBool-\u003eSource-\u003eString-\u003eIO(Maybe(Exp(AnTEC SourcePos a)a))",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a core type, and check its kind.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdParseCheckType",
           "package": "ddc-driver",
@@ -382,6 +413,7 @@
         "index": {
           "description": "Parse core type and check its kind",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdParseCheckType",
           "normalized": "Source-\u003eFragment a b-\u003eString-\u003eIO(Maybe(Type a,Kind a))",
@@ -398,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the kind of a type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowKind",
           "package": "ddc-driver",
@@ -408,6 +441,7 @@
         "index": {
           "description": "Show the kind of type",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowKind",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the type of an expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowType",
           "package": "ddc-driver",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Show the type of an expression",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowType",
           "normalized": "Language-\u003eShowTypeMode-\u003eSource-\u003eString-\u003eIO()",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the type of a witness.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowWType",
           "package": "ddc-driver",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Show the type of witness",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdShowWType",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if two types are equivlant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdTypeEquiv",
           "package": "ddc-driver",
@@ -486,6 +525,7 @@
         "index": {
           "description": "Check if two types are equivlant",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdTypeEquiv",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the universe of some type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse",
           "package": "ddc-driver",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Show the universe of some type",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the type of some thing (up one level)\n   show the universe of the thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse1",
           "package": "ddc-driver",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Given the type of some thing up one level show the universe of the thing",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse1",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the kind of some thing (up two levels)\n   show the universe of the thing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse2",
           "package": "ddc-driver",
@@ -564,6 +609,7 @@
         "index": {
           "description": "Given the kind of some thing up two levels show the universe of the thing",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse2",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven the sort of some thing (up three levels)\n   show the universe of the thing.\n   We can't type check naked sorts, so just parse them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse3",
           "package": "ddc-driver",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Given the sort of some thing up three levels show the universe of the thing We can type check naked sorts so just parse them",
           "hierarchy": "DDC Driver Command Check",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Check",
           "name": "cmdUniverse3",
           "normalized": "Language-\u003eSource-\u003eString-\u003eIO()",
@@ -605,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Compile",
           "name": "Compile",
           "package": "ddc-driver",
@@ -613,6 +662,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Compile",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Compile",
           "name": "Compile",
           "package": "ddc-driver",
@@ -627,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a source module into a \u003ccode\u003e.o\u003c/code\u003e file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Compile",
           "name": "cmdCompile",
           "package": "ddc-driver",
@@ -637,6 +688,7 @@
         "index": {
           "description": "Compile source module into file",
           "hierarchy": "DDC Driver Command Compile",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Compile",
           "name": "cmdCompile",
           "normalized": "Config-\u003eFilePath-\u003eErrorT String IO()",
@@ -652,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Concretize",
           "name": "Concretize",
           "package": "ddc-driver",
@@ -660,6 +713,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Flow Concretize",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Concretize",
           "name": "Concretize",
           "package": "ddc-driver",
@@ -674,6 +728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcretize rate variables to loop indices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Concretize",
           "name": "cmdFlowConcretize",
           "package": "ddc-driver",
@@ -683,6 +738,7 @@
         "index": {
           "description": "Concretize rate variables to loop indices",
           "hierarchy": "DDC Driver Command Flow Concretize",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Concretize",
           "name": "cmdFlowConcretize",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -698,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Lower",
           "name": "Lower",
           "package": "ddc-driver",
@@ -706,6 +763,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Flow Lower",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Lower",
           "name": "Lower",
           "package": "ddc-driver",
@@ -720,6 +778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower a flow program to loop code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Lower",
           "name": "cmdFlowLower",
           "package": "ddc-driver",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Lower flow program to loop code",
           "hierarchy": "DDC Driver Command Flow Lower",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Lower",
           "name": "cmdFlowLower",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Prep",
           "name": "Prep",
           "package": "ddc-driver",
@@ -752,6 +813,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Flow Prep",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Prep",
           "name": "Prep",
           "package": "ddc-driver",
@@ -766,6 +828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a Disciple Core Flow module for lowering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Prep",
           "name": "cmdFlowPrep",
           "package": "ddc-driver",
@@ -775,6 +838,7 @@
         "index": {
           "description": "Prepare Disciple Core Flow module for lowering",
           "hierarchy": "DDC Driver Command Flow Prep",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Prep",
           "name": "cmdFlowPrep",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -790,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Thread",
           "name": "Thread",
           "package": "ddc-driver",
@@ -798,6 +863,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Flow Thread",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Thread",
           "name": "Thread",
           "package": "ddc-driver",
@@ -812,6 +878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThread a state token through the given flow program.\n     This can't be generic in the language fragment because we\n     need to provide a specific type to use for the world token,\n     and new types for the effectful combinators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Thread",
           "name": "cmdFlowThread",
           "package": "ddc-driver",
@@ -821,6 +888,7 @@
         "index": {
           "description": "Thread state token through the given flow program This can be generic in the language fragment because we need to provide specific type to use for the world token and new types for the effectful combinators",
           "hierarchy": "DDC Driver Command Flow Thread",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Thread",
           "name": "cmdFlowThread",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -836,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Wind",
           "name": "Wind",
           "package": "ddc-driver",
@@ -844,6 +913,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Flow Wind",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Wind",
           "name": "Wind",
           "package": "ddc-driver",
@@ -858,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower a flow program to loop code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Flow.Wind",
           "name": "cmdFlowWind",
           "package": "ddc-driver",
@@ -867,6 +938,7 @@
         "index": {
           "description": "Lower flow program to loop code",
           "hierarchy": "DDC Driver Command Flow Wind",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Flow.Wind",
           "name": "cmdFlowWind",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -882,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Load",
           "name": "Load",
           "package": "ddc-driver",
@@ -890,6 +963,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Load",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Load",
           "name": "Load",
           "package": "ddc-driver",
@@ -904,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad and transform a module, printing the result to stdout.\n   The current transform is set with the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdLoadFromFile",
           "package": "ddc-driver",
@@ -913,6 +988,7 @@
         "index": {
           "description": "Load and transform module printing the result to stdout The current transform is set with the given string",
           "hierarchy": "DDC Driver Command Load",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdLoadFromFile",
           "normalized": "Maybe String-\u003e[FilePath]-\u003eFilePath-\u003eErrorT String IO()",
@@ -929,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad and transform a module, \n   then print the result to \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdLoadFromString",
           "package": "ddc-driver",
@@ -938,6 +1015,7 @@
         "index": {
           "description": "Load and transform module then print the result to stdout",
           "hierarchy": "DDC Driver Command Load",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdLoadFromString",
           "normalized": "Language-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -954,6 +1032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad and typecheck a module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdReadModule",
           "package": "ddc-driver",
@@ -963,6 +1042,7 @@
         "index": {
           "description": "Load and typecheck module",
           "hierarchy": "DDC Driver Command Load",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdReadModule",
           "normalized": "Fragment a b-\u003eFilePath-\u003eIO(Maybe(Module(AnTEC SourcePos a)a))",
@@ -978,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdReadModule'",
           "package": "ddc-driver",
@@ -986,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Load",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Load",
           "name": "cmdReadModule'",
           "normalized": "Bool-\u003eFragment a b-\u003eFilePath-\u003eIO(Maybe(Module(AnTEC SourcePos a)a))",
@@ -1001,6 +1083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Make",
           "name": "Make",
           "package": "ddc-driver",
@@ -1009,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Make",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Make",
           "name": "Make",
           "package": "ddc-driver",
@@ -1023,6 +1107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a source module into an executable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Make",
           "name": "cmdMake",
           "package": "ddc-driver",
@@ -1033,6 +1118,7 @@
         "index": {
           "description": "Make source module into an executable",
           "hierarchy": "DDC Driver Command Make",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Make",
           "name": "cmdMake",
           "normalized": "Config-\u003eFilePath-\u003eErrorT String IO()",
@@ -1048,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Parse",
           "name": "Parse",
           "package": "ddc-driver",
@@ -1056,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Parse",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Parse",
           "name": "Parse",
           "package": "ddc-driver",
@@ -1069,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.Parse",
           "name": "cmdParseModule",
           "package": "ddc-driver",
@@ -1078,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command Parse",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.Parse",
           "name": "cmdParseModule",
           "normalized": "Config-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -1093,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.RewriteRules",
           "name": "RewriteRules",
           "package": "ddc-driver",
@@ -1101,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command RewriteRules",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.RewriteRules",
           "name": "RewriteRules",
           "package": "ddc-driver",
@@ -1115,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad and typecheck a module's rewrite rules, using exported and imported\n   definitions from module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.RewriteRules",
           "name": "cmdTryReadRules",
           "package": "ddc-driver",
@@ -1124,6 +1217,7 @@
         "index": {
           "description": "Load and typecheck module rewrite rules using exported and imported definitions from module",
           "hierarchy": "DDC Driver Command RewriteRules",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.RewriteRules",
           "name": "cmdTryReadRules",
           "normalized": "Fragment a b-\u003eFilePath-\u003eModule()a-\u003eIO(NamedRewriteRules()a)",
@@ -1139,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToC",
           "name": "ToC",
           "package": "ddc-driver",
@@ -1147,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command ToC",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToC",
           "name": "ToC",
           "package": "ddc-driver",
@@ -1161,6 +1257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse, check, and convert a module to C.\n\u003c/p\u003e\u003cp\u003eThe output is printed to \u003ccode\u003estdout\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToC",
           "name": "cmdToC",
           "package": "ddc-driver",
@@ -1170,6 +1267,7 @@
         "index": {
           "description": "Parse check and convert module to The output is printed to stdout",
           "hierarchy": "DDC Driver Command ToC",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToC",
           "name": "cmdToC",
           "normalized": "Config-\u003eLanguage-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -1185,6 +1283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToLlvm",
           "name": "ToLlvm",
           "package": "ddc-driver",
@@ -1193,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command ToLlvm",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToLlvm",
           "name": "ToLlvm",
           "package": "ddc-driver",
@@ -1207,6 +1307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse, check and convert a  module to LLVM.\n\u003c/p\u003e\u003cp\u003eThe output is printed to \u003ccode\u003estdout\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToLlvm",
           "name": "cmdToLlvm",
           "package": "ddc-driver",
@@ -1216,6 +1317,7 @@
         "index": {
           "description": "Parse check and convert module to LLVM The output is printed to stdout",
           "hierarchy": "DDC Driver Command ToLlvm",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToLlvm",
           "name": "cmdToLlvm",
           "normalized": "Config-\u003eLanguage-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -1231,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToSalt",
           "name": "ToSalt",
           "package": "ddc-driver",
@@ -1239,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Command ToSalt",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToSalt",
           "name": "ToSalt",
           "package": "ddc-driver",
@@ -1253,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse, check, and fully evaluate an expression.\n\u003c/p\u003e\u003cp\u003eThe output is printed to \u003ccode\u003estdout\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Command.ToSalt",
           "name": "cmdToSalt",
           "package": "ddc-driver",
@@ -1262,6 +1367,7 @@
         "index": {
           "description": "Parse check and fully evaluate an expression The output is printed to stdout",
           "hierarchy": "DDC Driver Command ToSalt",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Command.ToSalt",
           "name": "cmdToSalt",
           "normalized": "Config-\u003eLanguage-\u003eSource-\u003eString-\u003eErrorT String IO()",
@@ -1278,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompiler stages.\n\u003c/p\u003e\u003cp\u003eA compiler stage is a sequence of standard transformations.\n     Each of the individual transformations are expressed as a pipeline from \n     \u003ca\u003eDDC.Build.Pipeline\u003c/a\u003e. The stages here run several pipelines each,\n     and contain the code that can dump the intermediate program after\n     each transformation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "Stage",
           "package": "ddc-driver",
@@ -1287,6 +1394,7 @@
         "index": {
           "description": "Compiler stages compiler stage is sequence of standard transformations Each of the individual transformations are expressed as pipeline from DDC.Build.Pipeline The stages here run several pipelines each and contain the code that can dump the intermediate program after each transformation",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "Stage",
           "package": "ddc-driver",
@@ -1301,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for main compiler stages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "Config",
           "package": "ddc-driver",
@@ -1310,6 +1419,7 @@
         "index": {
           "description": "Configuration for main compiler stages",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "Config",
           "package": "ddc-driver",
@@ -1323,6 +1433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "ViaBackend",
           "package": "ddc-driver",
@@ -1331,6 +1442,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "ViaBackend",
           "package": "ddc-driver",
@@ -1344,6 +1456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "Config",
           "package": "ddc-driver",
@@ -1353,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "Config",
           "package": "ddc-driver",
@@ -1367,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile via the C backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "ViaC",
           "package": "ddc-driver",
@@ -1377,6 +1492,7 @@
         "index": {
           "description": "Compile via the backend",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "ViaC",
           "package": "ddc-driver",
@@ -1391,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile via the LLVM backend.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "ViaLLVM",
           "package": "ddc-driver",
@@ -1401,6 +1518,7 @@
         "index": {
           "description": "Compile via the LLVM backend",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "ViaLLVM",
           "package": "ddc-driver",
@@ -1415,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe builder to use for the target architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configBuilder",
           "package": "ddc-driver",
@@ -1425,6 +1544,7 @@
         "index": {
           "description": "The builder to use for the target architecture",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configBuilder",
           "package": "ddc-driver",
@@ -1439,6 +1559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDump intermediate code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configDump",
           "package": "ddc-driver",
@@ -1449,6 +1570,7 @@
         "index": {
           "description": "Dump intermediate code",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configDump",
           "package": "ddc-driver",
@@ -1463,6 +1585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep intermediate .ddc.s files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configKeepAsmFiles",
           "package": "ddc-driver",
@@ -1473,6 +1596,7 @@
         "index": {
           "description": "Keep intermediate ddc.s files",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configKeepAsmFiles",
           "package": "ddc-driver",
@@ -1487,6 +1611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep intermediate .ddc.ll files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configKeepLlvmFiles",
           "package": "ddc-driver",
@@ -1497,6 +1622,7 @@
         "index": {
           "description": "Keep intermediate ddc.ll files",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configKeepLlvmFiles",
           "package": "ddc-driver",
@@ -1511,6 +1637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeep intermediate .ddc.c files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configKeepSeaFiles",
           "package": "ddc-driver",
@@ -1521,6 +1648,7 @@
         "index": {
           "description": "Keep intermediate ddc.c files",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configKeepSeaFiles",
           "package": "ddc-driver",
@@ -1535,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverride directory for build products\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configOutputDir",
           "package": "ddc-driver",
@@ -1545,6 +1674,7 @@
         "index": {
           "description": "Override directory for build products",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configOutputDir",
           "package": "ddc-driver",
@@ -1559,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverride output file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configOutputFile",
           "package": "ddc-driver",
@@ -1569,6 +1700,7 @@
         "index": {
           "description": "Override output file",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configOutputFile",
           "package": "ddc-driver",
@@ -1583,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuntime system configuration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configRuntime",
           "package": "ddc-driver",
@@ -1593,6 +1726,7 @@
         "index": {
           "description": "Runtime system configuration",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configRuntime",
           "package": "ddc-driver",
@@ -1607,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimplifiers to apply to intermediate code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configSimplLite",
           "package": "ddc-driver",
@@ -1617,6 +1752,7 @@
         "index": {
           "description": "Simplifiers to apply to intermediate code",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configSimplLite",
           "normalized": "Simplifier Int()Name",
@@ -1632,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configSimplSalt",
           "package": "ddc-driver",
@@ -1641,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configSimplSalt",
           "normalized": "Simplifier Int()Name",
@@ -1657,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppress imports in Core modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configSuppressCoreImports",
           "package": "ddc-driver",
@@ -1667,6 +1806,7 @@
         "index": {
           "description": "Suppress imports in Core modules",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configSuppressCoreImports",
           "package": "ddc-driver",
@@ -1681,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSuppress the #import prelude in C modules\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configSuppressHashImports",
           "package": "ddc-driver",
@@ -1691,6 +1832,7 @@
         "index": {
           "description": "Suppress the import prelude in modules",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configSuppressHashImports",
           "package": "ddc-driver",
@@ -1705,6 +1847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid running the type checker where possible.\n   When debugging program transformations, use this to get\n   the invalid code rather than just the type error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configTaintAvoidTypeChecks",
           "package": "ddc-driver",
@@ -1715,6 +1858,7 @@
         "index": {
           "description": "Avoid running the type checker where possible When debugging program transformations use this to get the invalid code rather than just the type error message",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configTaintAvoidTypeChecks",
           "package": "ddc-driver",
@@ -1729,6 +1873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBackend code generator to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "configViaBackend",
           "package": "ddc-driver",
@@ -1739,6 +1884,7 @@
         "index": {
           "description": "Backend code generator to use",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "configViaBackend",
           "package": "ddc-driver",
@@ -1753,6 +1899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile LLVM code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageCompileLLVM",
           "package": "ddc-driver",
@@ -1762,6 +1909,7 @@
         "index": {
           "description": "Compile LLVM code",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageCompileLLVM",
           "normalized": "Config-\u003eSource-\u003eFilePath-\u003eBool-\u003ePipeLlvm",
@@ -1778,6 +1926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile Core Salt via C code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageCompileSalt",
           "package": "ddc-driver",
@@ -1787,6 +1936,7 @@
         "index": {
           "description": "Compile Core Salt via code",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageCompileSalt",
           "normalized": "Config-\u003eSource-\u003eFilePath-\u003eBool-\u003ePipeCore()Name",
@@ -1803,6 +1953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType check Core Flow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowLoad",
           "package": "ddc-driver",
@@ -1813,6 +1964,7 @@
         "index": {
           "description": "Type check Core Flow",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowLoad",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeText Name Error",
@@ -1829,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower a Core Flow module.\n   Is needs to already be prepped,\n   and have full type annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowLower",
           "package": "ddc-driver",
@@ -1839,6 +1992,7 @@
         "index": {
           "description": "Lower Core Flow module Is needs to already be prepped and have full type annotations",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowLower",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore(AnTEC()Name)Name",
@@ -1855,6 +2009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a Core Flow module for lowering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowPrep",
           "package": "ddc-driver",
@@ -1865,6 +2020,7 @@
         "index": {
           "description": "Prepare Core Flow module for lowering",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowPrep",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore()Name",
@@ -1881,6 +2037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWind loop primops into tail recursive loops in a Core Flow module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowWind",
           "package": "ddc-driver",
@@ -1891,6 +2048,7 @@
         "index": {
           "description": "Wind loop primops into tail recursive loops in Core Flow module",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageFlowWind",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore(AnTEC()Name)Name",
@@ -1907,6 +2065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType check Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteLoad",
           "package": "ddc-driver",
@@ -1917,6 +2076,7 @@
         "index": {
           "description": "Type check Core Lite",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteLoad",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeText Name Error",
@@ -1933,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimise Core Lite.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteOpt",
           "package": "ddc-driver",
@@ -1943,6 +2104,7 @@
         "index": {
           "description": "Optimise Core Lite",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteOpt",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore()Name",
@@ -1959,6 +2121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Core Lite to Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteToSalt",
           "package": "ddc-driver",
@@ -1969,6 +2132,7 @@
         "index": {
           "description": "Convert Core Lite to Core Salt",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageLiteToSalt",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore()Name",
@@ -1985,6 +2149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptimise Core Salt.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltOpt",
           "package": "ddc-driver",
@@ -1995,6 +2160,7 @@
         "index": {
           "description": "Optimise Core Salt",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltOpt",
           "normalized": "Config-\u003eSource-\u003e[PipeCore()Name]-\u003ePipeCore()Name",
@@ -2011,6 +2177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Core Salt to C code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltToC",
           "package": "ddc-driver",
@@ -2021,6 +2188,7 @@
         "index": {
           "description": "Convert Core Salt to code",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltToC",
           "normalized": "Config-\u003eSource-\u003eSink-\u003ePipeCore()Name",
@@ -2037,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Core Salt to LLVM.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:51:54 UTC 2014",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltToLLVM",
           "package": "ddc-driver",
@@ -2047,6 +2216,7 @@
         "index": {
           "description": "Convert Core Salt to LLVM",
           "hierarchy": "DDC Driver Stage",
+          "indexed": "2014-03-11T17:51:54",
           "module": "DDC.Driver.Stage",
           "name": "stageSaltToLLVM",
           "normalized": "Config-\u003eSource-\u003e[PipeLlvm]-\u003ePipeCore()Name",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "splitter"
+        "phrase": "splitter",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-interval"
+        "phrase": "data-interval",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterval datatype and interval arithmetic.\n\u003c/p\u003e\u003cp\u003eUnlike the intervals package (\u003ca\u003ehttp://hackage.haskell.org/package/intervals\u003c/a\u003e),\n this module provides both open and closed intervals and is intended to be used\n with \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor the purpose of abstract interpretation, it might be convenient to use\n \u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e instance. See also lattices package\n (\u003ca\u003ehttp://hackage.haskell.org/package/lattices\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "Interval",
           "package": "data-interval",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interval datatype and interval arithmetic Unlike the intervals package http hackage.haskell.org package intervals this module provides both open and closed intervals and is intended to be used with Rational For the purpose of abstract interpretation it might be convenient to use Lattice instance See also lattices package http hackage.haskell.org package lattices",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "Interval",
           "package": "data-interval",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEndpoints of intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "EndPoint",
           "package": "data-interval",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Endpoints of intervals",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "EndPoint",
           "package": "data-interval",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "Interval",
           "package": "data-interval",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "Interval",
           "package": "data-interval",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e. \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c!)",
           "package": "data-interval",
@@ -98,6 +105,7 @@
         "index": {
           "description": "For all in in",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c!) \u003c!",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e. \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c=!)",
           "package": "data-interval",
@@ -123,6 +132,7 @@
         "index": {
           "description": "For all in in",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c=!) \u003c=!",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes there exist an \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e such that \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c=\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c=?)",
           "package": "data-interval",
@@ -148,6 +159,7 @@
         "index": {
           "description": "Does there exist an in in such that",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c=?) \u003c=?",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft-closed right-open interval [\u003ccode\u003el\u003c/code\u003e, \u003ccode\u003eu\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c=..\u003c)",
           "package": "data-interval",
@@ -172,6 +185,7 @@
         "index": {
           "description": "left-closed right-open interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c=..\u003c) \u003c=..\u003c",
           "normalized": "EndPoint a-\u003eEndPoint a-\u003eInterval a",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclosed interval [\u003ccode\u003el\u003c/code\u003e,\u003ccode\u003eu\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c=..\u003c=)",
           "package": "data-interval",
@@ -196,6 +211,7 @@
         "index": {
           "description": "closed interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c=..\u003c=) \u003c=..\u003c=",
           "normalized": "EndPoint a-\u003eEndPoint a-\u003eInterval a",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes there exist an \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e such that \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c?)",
           "package": "data-interval",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Does there exist an in in such that",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c?) \u003c?",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eopen interval (\u003ccode\u003el\u003c/code\u003e, \u003ccode\u003eu\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c..\u003c)",
           "package": "data-interval",
@@ -245,6 +264,7 @@
         "index": {
           "description": "open interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c..\u003c) \u003c..\u003c",
           "normalized": "EndPoint a-\u003eEndPoint a-\u003eInterval a",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleft-open right-closed interval (\u003ccode\u003el\u003c/code\u003e,\u003ccode\u003eu\u003c/code\u003e]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003c..\u003c=)",
           "package": "data-interval",
@@ -269,6 +290,7 @@
         "index": {
           "description": "left-open right-closed interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003c..\u003c=) \u003c..\u003c=",
           "normalized": "EndPoint a-\u003eEndPoint a-\u003eInterval a",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e. \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(==!)",
           "package": "data-interval",
@@ -294,6 +317,7 @@
         "index": {
           "description": "For all in in",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(==!) ==!",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes there exist an \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e such that \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(==?)",
           "package": "data-interval",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Does there exist an in in such that",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(==?) ==?",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e. \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003e!)",
           "package": "data-interval",
@@ -344,6 +371,7 @@
         "index": {
           "description": "For all in in",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003e!) \u003e!",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -359,6 +387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor all \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e. \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003e=\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003e=!)",
           "package": "data-interval",
@@ -369,6 +398,7 @@
         "index": {
           "description": "For all in in",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003e=!) \u003e=!",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes there exist an \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e such that \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003e=\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003e=?)",
           "package": "data-interval",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Does there exist an in in such that",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003e=?) \u003e=?",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes there exist an \u003ccode\u003ex\u003c/code\u003e in \u003ccode\u003eX\u003c/code\u003e, \u003ccode\u003ey\u003c/code\u003e in \u003ccode\u003eY\u003c/code\u003e such that \u003ccode\u003ex \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e y\u003c/code\u003e?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "(\u003e?)",
           "package": "data-interval",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Does there exist an in in such that",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "(\u003e?) \u003e?",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -434,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efinite value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "Finite",
           "package": "data-interval",
@@ -444,6 +479,7 @@
         "index": {
           "description": "finite value",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "Finite",
           "package": "data-interval",
@@ -458,6 +494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enegative infinity (-&#8734;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "NegInf",
           "package": "data-interval",
@@ -468,6 +505,7 @@
         "index": {
           "description": "negative infinity",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "NegInf",
           "package": "data-interval",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epositive infinity (+&#8734;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "PosInf",
           "package": "data-interval",
@@ -492,6 +531,7 @@
         "index": {
           "description": "positive infinity",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "PosInf",
           "package": "data-interval",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eempty (contradicting) interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "empty",
           "package": "data-interval",
@@ -516,6 +557,7 @@
         "index": {
           "description": "empty contradicting interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "empty",
           "package": "data-interval",
@@ -529,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvex hull of two intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "hull",
           "package": "data-interval",
@@ -539,6 +582,7 @@
         "index": {
           "description": "convex hull of two intervals",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "hull",
           "normalized": "Interval a-\u003eInterval a-\u003eInterval a",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintersection of two intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "intersection",
           "package": "data-interval",
@@ -564,6 +609,7 @@
         "index": {
           "description": "intersection of two intervals",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "intersection",
           "normalized": "Interval a-\u003eInterval a-\u003eInterval a",
@@ -579,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esmart constructor for \u003ccode\u003e\u003ca\u003eInterval\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "interval",
           "package": "data-interval",
@@ -588,6 +635,7 @@
         "index": {
           "description": "smart constructor for Interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "interval",
           "normalized": "(EndPoint a,Bool)-\u003e(EndPoint a,Bool)-\u003eInterval a",
@@ -603,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a proper subset? (ie. a subset but not equal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "isProperSubsetOf",
           "package": "data-interval",
@@ -613,6 +662,7 @@
         "index": {
           "description": "Is this proper subset ie subset but not equal",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "isProperSubsetOf",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -629,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this a subset?\n \u003ccode\u003e(i1 \u003ccode\u003e\u003ca\u003eisSubsetOf\u003c/a\u003e\u003c/code\u003e i2)\u003c/code\u003e tells whether \u003ccode\u003ei1\u003c/code\u003e is a subset of \u003ccode\u003ei2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "isSubsetOf",
           "package": "data-interval",
@@ -639,6 +690,7 @@
         "index": {
           "description": "Is this subset i1 isSubsetOf i2 tells whether i1 is subset of i2",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "isSubsetOf",
           "normalized": "Interval a-\u003eInterval a-\u003eBool",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower bound of the interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "lowerBound",
           "package": "data-interval",
@@ -665,6 +718,7 @@
         "index": {
           "description": "Lower bound of the interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "lowerBound",
           "normalized": "Interval a-\u003eEndPoint a",
@@ -681,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower bound of the interval and whether it is included in the interval.\n The result is convenient to use as an argument for \u003ccode\u003e\u003ca\u003einterval\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "lowerBound'",
           "package": "data-interval",
@@ -691,6 +746,7 @@
         "index": {
           "description": "Lower bound of the interval and whether it is included in the interval The result is convenient to use as an argument for interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "lowerBound'",
           "normalized": "Interval a-\u003e(EndPoint a,Bool)",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the element in the interval?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "member",
           "package": "data-interval",
@@ -717,6 +774,7 @@
         "index": {
           "description": "Is the element in the interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "member",
           "normalized": "a-\u003eInterval a-\u003eBool",
@@ -732,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the element not in the interval?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "notMember",
           "package": "data-interval",
@@ -742,6 +801,7 @@
         "index": {
           "description": "Is the element not in the interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "notMember",
           "normalized": "a-\u003eInterval a-\u003eBool",
@@ -758,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the interval empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "null",
           "package": "data-interval",
@@ -768,6 +829,7 @@
         "index": {
           "description": "Is the interval empty",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "null",
           "normalized": "Interval a-\u003eBool",
@@ -783,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epick up an element from the interval if the interval is not empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "pickup",
           "package": "data-interval",
@@ -793,6 +856,7 @@
         "index": {
           "description": "pick up an element from the interval if the interval is not empty",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "pickup",
           "normalized": "Interval a-\u003eMaybe a",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esimplestRationalWithin\u003c/a\u003e\u003c/code\u003e returns the simplest rational number within the interval.\n A rational number \u003ccode\u003ey\u003c/code\u003e is said to be \u003cem\u003esimpler\u003c/em\u003e than another \u003ccode\u003ey'\u003c/code\u003e if\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003enumerator\u003c/a\u003e\u003c/code\u003e y) \u003c= \u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003enumerator\u003c/a\u003e\u003c/code\u003e y')\u003c/code\u003e, and\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ccode\u003e\u003ca\u003edenominator\u003c/a\u003e\u003c/code\u003e y \u003c= \u003ccode\u003e\u003ca\u003edenominator\u003c/a\u003e\u003c/code\u003e y'\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003e(see also \u003ccode\u003e\u003ca\u003eapproxRational\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "simplestRationalWithin",
           "package": "data-interval",
@@ -818,6 +883,7 @@
         "index": {
           "description": "simplestRationalWithin returns the simplest rational number within the interval rational number is said to be simpler than another if abs numerator abs numerator and denominator denominator see also approxRational",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "simplestRationalWithin",
           "normalized": "Interval a-\u003eMaybe Rational",
@@ -834,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esingleton set [x,x]\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "singleton",
           "package": "data-interval",
@@ -844,6 +911,7 @@
         "index": {
           "description": "singleton set",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "singleton",
           "normalized": "a-\u003eInterval a",
@@ -859,6 +927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper bound of the interval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "upperBound",
           "package": "data-interval",
@@ -869,6 +938,7 @@
         "index": {
           "description": "Upper bound of the interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "upperBound",
           "normalized": "Interval a-\u003eEndPoint a",
@@ -885,6 +955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper bound of the interval and whether it is included in the interval.\n The result is convenient to use as an argument for \u003ccode\u003e\u003ca\u003einterval\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "upperBound'",
           "package": "data-interval",
@@ -895,6 +966,7 @@
         "index": {
           "description": "Upper bound of the interval and whether it is included in the interval The result is convenient to use as an argument for interval",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "upperBound'",
           "normalized": "Interval a-\u003e(EndPoint a,Bool)",
@@ -911,6 +983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhole real number line (-&#8734;, &#8734;)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "whole",
           "package": "data-interval",
@@ -921,6 +994,7 @@
         "index": {
           "description": "whole real number line",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "whole",
           "package": "data-interval",
@@ -934,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWidth of a interval. Width of an unbounded interval is \u003ccode\u003eundefined\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:48:39 UTC 2014",
           "module": "Data.Interval",
           "name": "width",
           "package": "data-interval",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "Width of interval Width of an unbounded interval is undefined",
           "hierarchy": "Data Interval",
+          "indexed": "2014-03-11T17:48:39",
           "module": "Data.Interval",
           "name": "width",
           "normalized": "Interval a-\u003ea",

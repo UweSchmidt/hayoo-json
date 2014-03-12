@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "eithers"
+        "phrase": "eithers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with Either values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "Eithers",
           "package": "eithers",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for dealing with Either values",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "Eithers",
           "package": "eithers",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the left value or a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "fromLeft",
           "package": "eithers",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Extract the left value or default",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "fromLeft",
           "normalized": "a-\u003eEither a b-\u003ea",
@@ -68,6 +72,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the right value or a default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "fromRight",
           "package": "eithers",
@@ -78,6 +83,7 @@
         "index": {
           "description": "Extract the right value or default",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "fromRight",
           "normalized": "a-\u003eEither b a-\u003ea",
@@ -94,6 +100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a value Left?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "isLeft",
           "package": "eithers",
@@ -104,6 +111,7 @@
         "index": {
           "description": "Is value Left",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "isLeft",
           "normalized": "Either a b-\u003eBool",
@@ -120,6 +128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs a value Right?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "isRight",
           "package": "eithers",
@@ -130,6 +139,7 @@
         "index": {
           "description": "Is value Right",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "isRight",
           "normalized": "Either a b-\u003eBool",
@@ -146,6 +156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the left side of an Either.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "leftToMaybe",
           "package": "eithers",
@@ -156,6 +167,7 @@
         "index": {
           "description": "Maybe get the left side of an Either",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "leftToMaybe",
           "normalized": "Either a b-\u003eMaybe a",
@@ -172,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map for Either values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "mapEither",
           "package": "eithers",
@@ -182,6 +195,7 @@
         "index": {
           "description": "map for Either values",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "mapEither",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003eEither a b-\u003eEither b b",
@@ -198,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the left side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "mapLeft",
           "package": "eithers",
@@ -208,6 +223,7 @@
         "index": {
           "description": "Map over the left side",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "mapLeft",
           "normalized": "(a-\u003eb)-\u003eEither a b-\u003eEither b b",
@@ -224,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the right side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "mapRight",
           "package": "eithers",
@@ -234,6 +251,7 @@
         "index": {
           "description": "Map over the right side",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "mapRight",
           "normalized": "(a-\u003ea)-\u003eEither a a-\u003eEither a a",
@@ -250,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe get the right side of an Either.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "rightToMaybe",
           "package": "eithers",
@@ -260,6 +279,7 @@
         "index": {
           "description": "Maybe get the right side of an Either",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "rightToMaybe",
           "normalized": "Either a b-\u003eMaybe b",
@@ -276,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a value is Left, do something with it, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "whenLeft",
           "package": "eithers",
@@ -286,6 +307,7 @@
         "index": {
           "description": "When value is Left do something with it monadically",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "whenLeft",
           "normalized": "Either a b-\u003e(a-\u003ec d)-\u003ec()",
@@ -302,6 +324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a value is Right, do something with it, monadically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:43 UTC 2014",
           "module": "Eithers",
           "name": "whenRight",
           "package": "eithers",
@@ -312,6 +335,7 @@
         "index": {
           "description": "When value is Right do something with it monadically",
           "hierarchy": "Eithers",
+          "indexed": "2014-03-11T18:01:43",
           "module": "Eithers",
           "name": "whenRight",
           "normalized": "Either a b-\u003e(b-\u003ec d)-\u003ec()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "glome-hs"
+        "phrase": "glome-hs",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ersatz"
+        "phrase": "ersatz",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Bit",
           "package": "ersatz",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Bit",
           "package": "ersatz",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003e provides a reference to a possibly indeterminate boolean\n value that can be determined by an external SAT solver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Bit",
           "package": "ersatz",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Bit provides reference to possibly indeterminate boolean value that can be determined by an external SAT solver",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Bit",
           "package": "ersatz",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe normal \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e operators in Haskell are not overloaded. This\n provides a richer set that are.\n\u003c/p\u003e\u003cp\u003eInstances for this class for product-like types can be automatically derived\n for any type that is an instance of \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Boolean",
           "package": "ersatz",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The normal Bool operators in Haskell are not overloaded This provides richer set that are Instances for this class for product-like types can be automatically derived for any type that is an instance of Generic",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Boolean",
           "package": "ersatz",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical disjunction (inclusive or).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "(||)",
           "package": "ersatz",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Logical disjunction inclusive or",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "(||) ||",
           "normalized": "a-\u003ea-\u003ea",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical conjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "(&&)",
           "package": "ersatz",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Logical conjunction",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "(&&) &&",
           "normalized": "a-\u003ea-\u003ea",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical implication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "(==\u003e)",
           "package": "ersatz",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Logical implication",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "(==\u003e) ==\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "And",
           "package": "ersatz",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "And",
           "package": "ersatz",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Mux",
           "package": "ersatz",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Mux",
           "package": "ersatz",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Not",
           "package": "ersatz",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Not",
           "package": "ersatz",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Or",
           "package": "ersatz",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Or",
           "package": "ersatz",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Var",
           "package": "ersatz",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Var",
           "package": "ersatz",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "Xor",
           "package": "ersatz",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "Xor",
           "package": "ersatz",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical conjunction of the mapping of a function over several values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "all",
           "package": "ersatz",
@@ -303,6 +328,7 @@
         "index": {
           "description": "The logical conjunction of the mapping of function over several values",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "all",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical conjunction of several values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "and",
           "package": "ersatz",
@@ -328,6 +355,7 @@
         "index": {
           "description": "The logical conjunction of several values",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "and",
           "normalized": "a b-\u003eb",
@@ -343,6 +371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical disjunction of the mapping of a function over several values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "any",
           "package": "ersatz",
@@ -353,6 +382,7 @@
         "index": {
           "description": "The logical disjunction of the mapping of function over several values",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "any",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert claims that \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003e must be \u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e in any satisfying interpretation\n of the current problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "assert",
           "package": "ersatz",
@@ -378,6 +409,7 @@
         "index": {
           "description": "Assert claims that Bit must be true in any satisfying interpretation of the current problem",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "assert",
           "normalized": "Bit-\u003ea()",
@@ -393,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "bool",
           "package": "ersatz",
@@ -403,6 +436,7 @@
         "index": {
           "description": "Lift Bool",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "bool",
           "normalized": "Bool-\u003ea",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChoose between two alternatives based on a selector bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "choose",
           "package": "ersatz",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Choose between two alternatives based on selector bit",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "choose",
           "package": "ersatz",
@@ -441,6 +477,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003efalse\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ebool\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "false",
           "package": "ersatz",
@@ -451,6 +488,7 @@
         "index": {
           "description": "false bool False",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "false",
           "package": "ersatz",
@@ -464,6 +502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe negated logical conjunction of several values.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enand\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "nand",
           "package": "ersatz",
@@ -474,6 +513,7 @@
         "index": {
           "description": "The negated logical conjunction of several values nand not and",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "nand",
           "normalized": "a b-\u003eb",
@@ -489,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe negated logical disjunction of several values.\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003enor\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003enot\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "nor",
           "package": "ersatz",
@@ -499,6 +540,7 @@
         "index": {
           "description": "The negated logical disjunction of several values nor not or",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "nor",
           "normalized": "a b-\u003eb",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogical negation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "not",
           "package": "ersatz",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Logical negation",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "not",
           "normalized": "a-\u003ea",
@@ -539,6 +583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logical disjunction of several values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "or",
           "package": "ersatz",
@@ -549,6 +594,7 @@
         "index": {
           "description": "The logical disjunction of several values",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "or",
           "normalized": "a b-\u003eb",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003ccode\u003e\u003ca\u003etrue\u003c/a\u003e\u003c/code\u003e = \u003ccode\u003e\u003ca\u003ebool\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "true",
           "package": "ersatz",
@@ -574,6 +621,7 @@
         "index": {
           "description": "true bool True",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "true",
           "package": "ersatz",
@@ -587,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExclusive-or\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bit",
           "name": "xor",
           "package": "ersatz",
@@ -597,6 +646,7 @@
         "index": {
           "description": "Exclusive-or",
           "hierarchy": "Ersatz Bit",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bit",
           "name": "xor",
           "normalized": "a-\u003ea-\u003ea",
@@ -611,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bits",
           "package": "ersatz",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bits",
           "package": "ersatz",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 1 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003e that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit1",
           "package": "ersatz",
@@ -642,6 +695,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit1",
           "package": "ersatz",
@@ -656,6 +710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 2 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit2",
           "package": "ersatz",
@@ -665,6 +720,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit2",
           "package": "ersatz",
@@ -679,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 3 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit3",
           "package": "ersatz",
@@ -688,6 +745,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit3",
           "package": "ersatz",
@@ -702,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 4 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit4",
           "package": "ersatz",
@@ -711,6 +770,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit4",
           "package": "ersatz",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 5 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit5",
           "package": "ersatz",
@@ -734,6 +795,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit5",
           "package": "ersatz",
@@ -748,6 +810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 6 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit6",
           "package": "ersatz",
@@ -757,6 +820,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit6",
           "package": "ersatz",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 7 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit7",
           "package": "ersatz",
@@ -780,6 +845,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit7",
           "package": "ersatz",
@@ -794,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA container of 8 \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003es that \u003ccode\u003e\u003ca\u003eencode\u003c/a\u003e\u003c/code\u003es from and \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003es to \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit8",
           "package": "ersatz",
@@ -803,6 +870,7 @@
         "index": {
           "description": "container of Bit that encode from and decode to Word8",
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit8",
           "package": "ersatz",
@@ -816,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit1",
           "package": "ersatz",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit1",
           "package": "ersatz",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit2",
           "package": "ersatz",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit2",
           "package": "ersatz",
@@ -860,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit3",
           "package": "ersatz",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit3",
           "package": "ersatz",
@@ -882,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit4",
           "package": "ersatz",
@@ -891,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit4",
           "package": "ersatz",
@@ -904,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit5",
           "package": "ersatz",
@@ -913,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit5",
           "package": "ersatz",
@@ -926,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit6",
           "package": "ersatz",
@@ -935,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit6",
           "package": "ersatz",
@@ -948,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit7",
           "package": "ersatz",
@@ -957,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit7",
           "package": "ersatz",
@@ -970,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Bits",
           "name": "Bit8",
           "package": "ersatz",
@@ -979,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Bits",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Bits",
           "name": "Bit8",
           "package": "ersatz",
@@ -992,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Decoding",
           "name": "Decoding",
           "package": "ersatz",
@@ -1000,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Decoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Decoding",
           "name": "Decoding",
           "package": "ersatz",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Decoding",
           "name": "Decoding",
           "package": "ersatz",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Decoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Decoding",
           "name": "Decoding",
           "package": "ersatz",
@@ -1035,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a value based on the solution if one can be determined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Decoding",
           "name": "decode",
           "package": "ersatz",
@@ -1045,6 +1134,7 @@
         "index": {
           "description": "Return value based on the solution if one can be determined",
           "hierarchy": "Ersatz Decoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Decoding",
           "name": "decode",
           "normalized": "Solution-\u003ea-\u003eMaybe(Decoded a)",
@@ -1059,6 +1149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Encoding",
           "name": "Encoding",
           "package": "ersatz",
@@ -1067,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Encoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Encoding",
           "name": "Encoding",
           "package": "ersatz",
@@ -1080,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Encoding",
           "name": "Encoding",
           "package": "ersatz",
@@ -1088,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Encoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Encoding",
           "name": "Encoding",
           "package": "ersatz",
@@ -1102,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA counterpart to \u003ccode\u003e\u003ca\u003edecode\u003c/a\u003e\u003c/code\u003e. Can encode e.g. a \u003ccode\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/code\u003e as a\n \u003ccode\u003e\u003ca\u003eBit\u003c/a\u003e\u003c/code\u003e, a \u003ccode\u003e\u003ca\u003eWord8\u003c/a\u003e\u003c/code\u003e as a \u003ccode\u003e\u003ca\u003eBit8\u003c/a\u003e\u003c/code\u003e, or a\n \u003ccode\u003e[Word8]\u003c/code\u003e as a \u003ccode\u003e[Bit8]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Encoding",
           "name": "encode",
           "package": "ersatz",
@@ -1112,6 +1207,7 @@
         "index": {
           "description": "counterpart to decode Can encode e.g Bool as Bit Word8 as Bit8 or Word8 as Bit8",
           "hierarchy": "Ersatz Encoding",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Encoding",
           "name": "encode",
           "normalized": "Encoded a-\u003ea",
@@ -1126,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Equatable",
           "name": "Equatable",
           "package": "ersatz",
@@ -1134,6 +1231,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Equatable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Equatable",
           "name": "Equatable",
           "package": "ersatz",
@@ -1148,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances for this class for arbitrary types can be automatically derived from \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Equatable",
           "name": "Equatable",
           "package": "ersatz",
@@ -1157,6 +1256,7 @@
         "index": {
           "description": "Instances for this class for arbitrary types can be automatically derived from Generic",
           "hierarchy": "Ersatz Equatable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Equatable",
           "name": "Equatable",
           "package": "ersatz",
@@ -1171,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare for inequality within the SAT problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Equatable",
           "name": "(/==)",
           "package": "ersatz",
@@ -1181,6 +1282,7 @@
         "index": {
           "description": "Compare for inequality within the SAT problem",
           "hierarchy": "Ersatz Equatable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Equatable",
           "name": "(/==) /==",
           "normalized": "a-\u003ea-\u003eBit",
@@ -1196,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare for equality within the SAT problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Equatable",
           "name": "(===)",
           "package": "ersatz",
@@ -1206,6 +1309,7 @@
         "index": {
           "description": "Compare for equality within the SAT problem",
           "hierarchy": "Ersatz Equatable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Equatable",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eBit",
@@ -1220,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1228,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1242,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA disjunction of possibly negated atoms. Negated atoms are represented\n by negating the identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "Clause",
           "package": "ersatz",
@@ -1251,6 +1358,7 @@
         "index": {
           "description": "disjunction of possibly negated atoms Negated atoms are represented by negating the identifier",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "Clause",
           "package": "ersatz",
@@ -1265,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conjunction of clauses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1274,6 +1383,7 @@
         "index": {
           "description": "conjunction of clauses",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1287,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "Clause",
           "package": "ersatz",
@@ -1296,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "Clause",
           "package": "ersatz",
@@ -1309,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1318,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "Formula",
           "package": "ersatz",
@@ -1332,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the (possibly negated) atoms referenced by a \u003ccode\u003e\u003ca\u003eClause\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "clauseLiterals",
           "package": "ersatz",
@@ -1342,6 +1457,7 @@
         "index": {
           "description": "Extract the possibly negated atoms referenced by Clause",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "clauseLiterals",
           "normalized": "Clause-\u003e[Literal]",
@@ -1357,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "clauseSet",
           "package": "ersatz",
@@ -1366,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "clauseSet",
           "package": "ersatz",
@@ -1380,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean \u003cem\u003eand\u003c/em\u003e operation\n\u003c/p\u003e\u003cp\u003eDerivation of the Tseitin transformation:\n\u003c/p\u003e\u003cpre\u003e\n O &#8801; (A & B & C)\n (O &#8594; (A& B & C)) & (&#172;O &#8594; &#172;& B & C))\n (&#172;O | (A& B & C)) & (O | &#172;(A& B & C))\n (&#172;O | A)& (&#172;O | B)& (&#172;O | C)& (O | &#172;A | &#172;B | &#172;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaAnd",
           "package": "ersatz",
@@ -1389,6 +1508,7 @@
         "index": {
           "description": "The boolean and operation Derivation of the Tseitin transformation",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaAnd",
           "normalized": "Literal-\u003e[Literal]-\u003eFormula",
@@ -1405,6 +1525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA formula with no clauses\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaEmpty",
           "package": "ersatz",
@@ -1415,6 +1536,7 @@
         "index": {
           "description": "formula with no clauses",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaEmpty",
           "package": "ersatz",
@@ -1429,6 +1551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssert a literal\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaLiteral",
           "package": "ersatz",
@@ -1439,6 +1562,7 @@
         "index": {
           "description": "Assert literal",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaLiteral",
           "normalized": "Literal-\u003eFormula",
@@ -1455,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean \u003cem\u003eelse-then-if\u003c/em\u003e or \u003cem\u003emux\u003c/em\u003e operation\n\u003c/p\u003e\u003cp\u003eDerivation of the Tseitin transformation:\n\u003c/p\u003e\u003cpre\u003e\n O &#8801; (F & &#172;P) | (T& P)\n (O &#8594; ((F& &#172;P) | (T& P))) & (&#172;O &#8594; &#172;(& &#172;P) | (T& P)))\n\u003c/pre\u003e\u003cp\u003eLeft hand side:\n\u003c/p\u003e\u003cpre\u003e\n O &#8594; ((F& &#172;P) | (T& P))\n &#172;O | ((F& &#172;P) | (T& P))\n &#172;O | ((F | T)& (F | P) & (T | &#172;P)& (&#172;P | P)) &#172;O | ((F | T)& (F | P) & (T | &#172;P)) (&#172;O | F | T)& (&#172;O | F | P)& (&#172;O | T | &#172;P\u003c/pre\u003e\u003cp\u003eRight hand side:\n\u003c/p\u003e\u003cpre\u003e\n &#172;O &#8594; &#172;(& &#172;P) | (T& P))\n O | &#172;((F& &#172;P) | (T& P))\n O | (&#172;(F& &#172;P)& &#172;(T& P))\n O | ((&#172;F | P)& (&#172;T | &#172;P) (O | &#172;F | P)& (O | &#172;T | &#172;P\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\n (&#172;O | F | T)& (&#172;O | F | P)& (&#172;O | T | &#172;P& (O | &#172;F | P)& (O | &#172;T | &#172;P\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaMux",
           "package": "ersatz",
@@ -1464,6 +1589,7 @@
         "index": {
           "description": "The boolean else-then-if or mux operation Derivation of the Tseitin transformation Left hand side Right hand side Result",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaMux",
           "normalized": "Literal-\u003eLiteral-\u003eLiteral-\u003eLiteral-\u003eFormula",
@@ -1480,6 +1606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean \u003cem\u003enot\u003c/em\u003e operation\n\u003c/p\u003e\u003cp\u003eDerivation of the Tseitin transformation:\n\u003c/p\u003e\u003cpre\u003e\n O &#8801; &#172;A (O &#8594; &#172;A& (&#172;O &#8594; A (&#172;O | &#172;A& (O | A)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaNot",
           "package": "ersatz",
@@ -1489,6 +1616,7 @@
         "index": {
           "description": "The boolean not operation Derivation of the Tseitin transformation",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaNot",
           "normalized": "Literal-\u003eLiteral-\u003eFormula",
@@ -1505,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean \u003cem\u003eor\u003c/em\u003e operation\n\u003c/p\u003e\u003cp\u003eDerivation of the Tseitin transformation:\n\u003c/p\u003e\u003cpre\u003e\n O &#8801; (A | B | C)\n (O &#8594; (A | B | C))& (&#172;O &#8594; &#172;(A | B | C (&#172;O | (A | B | C))& (O | &#172;(A | B | C)) (&#172;O | A | B | C)& (O | (&#172;A& &#172;B& &#172;C)) (&#172;O | A | B | C)& (O | &#172;A)& (O | &#172;B)& (O | &#172;C)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaOr",
           "package": "ersatz",
@@ -1514,6 +1643,7 @@
         "index": {
           "description": "The boolean or operation Derivation of the Tseitin transformation",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaOr",
           "normalized": "Literal-\u003e[Literal]-\u003eFormula",
@@ -1529,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaSet",
           "package": "ersatz",
@@ -1538,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaSet",
           "package": "ersatz",
@@ -1552,6 +1684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe boolean \u003cem\u003exor\u003c/em\u003e operation\n\u003c/p\u003e\u003cp\u003eDerivation of the Tseitin transformation:\n\u003c/p\u003e\u003cpre\u003e\n O &#8801; A &#8853; B O &#8801; ((&#172;A& B) | (A & &#172;B)) (O &#8594; ((&#172;& B) | (A & &#172;B)))& (&#172;O &#8594; &#172;(& B) | (A & &#172;B)))\u003c/pre\u003e\u003cp\u003eLeft hand side:\n\u003c/p\u003e\u003cpre\u003e\n O &#8594; ((&#172;& B) | (A & &#172;B)) &#172;O | ((&#172;& B) | (A & &#172;B)) &#172;O | ((&#172;A | A& (&#172;A | &#172;B& (A | B) & (&#172;B | B)) &#172;O | ((&#172;A | &#172;& (A | B))\n (&#172;O | &#172;A | &#172;& (&#172;O | A | B)\u003c/pre\u003e\u003cp\u003eRight hand side:\n\u003c/p\u003e\u003cpre\u003e\n &#172;O &#8594; &#172;(& B) | (A & &#172;B)) O | &#172;((&#172;& B) | (A & &#172;B)) O | (&#172;(&#172;& B) & &#172;(A& &#172;B)) O | ((A | &#172;B)& (&#172;A | B)) (O | &#172;A | B)& (O | A | &#172;B)\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\n (&#172;O | &#172;A | &#172;& (&#172;O | A | B)& (O | &#172;A | B)& (O | A | &#172;B)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaXor",
           "package": "ersatz",
@@ -1561,6 +1694,7 @@
         "index": {
           "description": "The boolean xor operation Derivation of the Tseitin transformation Left hand side Right hand side Result",
           "hierarchy": "Ersatz Internal Formula",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Formula",
           "name": "formulaXor",
           "normalized": "Literal-\u003eLiteral-\u003eLiteral-\u003eFormula",
@@ -1576,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1584,6 +1719,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1598,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA naked possibly-negated Atom, present in the target \u003ccode\u003e\u003ca\u003eSolver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe literals \u003ccode\u003e-1\u003c/code\u003e and \u003ccode\u003e1\u003c/code\u003e are dedicated for the constant \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e and the\n constant \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1607,6 +1744,7 @@
         "index": {
           "description": "naked possibly-negated Atom present in the target Solver The literals and are dedicated for the constant False and the constant True respectively",
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1620,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1629,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "Literal",
           "package": "ersatz",
@@ -1643,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e constant. The literal \u003ccode\u003e-1\u003c/code\u003e is dedicated for it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "literalFalse",
           "package": "ersatz",
@@ -1653,6 +1794,7 @@
         "index": {
           "description": "The False constant The literal is dedicated for it",
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "literalFalse",
           "package": "ersatz",
@@ -1666,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "literalId",
           "package": "ersatz",
@@ -1675,6 +1818,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "literalId",
           "package": "ersatz",
@@ -1689,6 +1833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e constant. The literal \u003ccode\u003e1\u003c/code\u003e is dedicated for it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "literalTrue",
           "package": "ersatz",
@@ -1699,6 +1844,7 @@
         "index": {
           "description": "The True constant The literal is dedicated for it",
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "literalTrue",
           "package": "ersatz",
@@ -1712,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Internal.Literal",
           "name": "negateLiteral",
           "package": "ersatz",
@@ -1721,6 +1868,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Internal Literal",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Internal.Literal",
           "name": "negateLiteral",
           "normalized": "Literal-\u003eLiteral",
@@ -1736,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "Problem",
           "package": "ersatz",
@@ -1744,6 +1893,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "Problem",
           "package": "ersatz",
@@ -1758,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDIMACS file format pretty printer\n\u003c/p\u003e\u003cp\u003eThis is used to generate the problem statement for a given \u003ccode\u003e\u003ca\u003eSAT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSolver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "DIMACS",
           "package": "ersatz",
@@ -1767,6 +1918,7 @@
         "index": {
           "description": "DIMACS file format pretty printer This is used to generate the problem statement for given SAT Solver",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "DIMACS",
           "package": "ersatz",
@@ -1780,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "HasQSAT",
           "package": "ersatz",
@@ -1788,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "HasQSAT",
           "package": "ersatz",
@@ -1801,6 +1955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "HasSAT",
           "package": "ersatz",
@@ -1809,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "HasSAT",
           "package": "ersatz",
@@ -1823,6 +1979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQDIMACS file format pretty printer\n\u003c/p\u003e\u003cp\u003eThis is used to generate the problem statement for a given \u003ccode\u003e\u003ca\u003eQSAT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSolver\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "QDIMACS",
           "package": "ersatz",
@@ -1832,6 +1989,7 @@
         "index": {
           "description": "QDIMACS file format pretty printer This is used to generate the problem statement for given QSAT Solver",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "QDIMACS",
           "package": "ersatz",
@@ -1846,6 +2004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (quantified) boolean formula.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "QSAT",
           "package": "ersatz",
@@ -1855,6 +2014,7 @@
         "index": {
           "description": "quantified boolean formula",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "QSAT",
           "package": "ersatz",
@@ -1868,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "SAT",
           "package": "ersatz",
@@ -1876,6 +2037,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "SAT",
           "package": "ersatz",
@@ -1890,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWDIMACS file format pretty printer\n\u003c/p\u003e\u003cp\u003eThis is used to generate the problem statement for a given \u003ccode\u003eMaxSAT\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSolver\u003c/a\u003e\u003c/code\u003e (TODO).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "WDIMACS",
           "package": "ersatz",
@@ -1899,6 +2062,7 @@
         "index": {
           "description": "WDIMACS file format pretty printer This is used to generate the problem statement for given MaxSAT Solver TODO",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "WDIMACS",
           "package": "ersatz",
@@ -1912,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "QSAT",
           "package": "ersatz",
@@ -1921,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "QSAT",
           "package": "ersatz",
@@ -1934,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "SAT",
           "package": "ersatz",
@@ -1943,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "SAT",
           "normalized": "SAT Int Formula(HashMap(StableName())Literal)",
@@ -1958,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "assertFormula",
           "package": "ersatz",
@@ -1967,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "assertFormula",
           "normalized": "Formula-\u003ea()",
@@ -1983,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e out of a \u003ccode\u003e\u003ca\u003eDIMACS\u003c/a\u003e\u003c/code\u003e problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "dimacs",
           "package": "ersatz",
@@ -1993,6 +2164,7 @@
         "index": {
           "description": "Generate Builder out of DIMACS problem",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "dimacs",
           "normalized": "a-\u003eBuilder",
@@ -2007,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "dimacsClauses",
           "package": "ersatz",
@@ -2016,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "dimacsClauses",
           "normalized": "a-\u003eSet IntSet",
@@ -2031,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "dimacsComments",
           "package": "ersatz",
@@ -2040,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "dimacsComments",
           "normalized": "a-\u003e[ByteString]",
@@ -2055,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "dimacsNumVariables",
           "package": "ersatz",
@@ -2064,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "dimacsNumVariables",
           "normalized": "a-\u003eInt",
@@ -2080,6 +2258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eSAT\u003c/a\u003e\u003c/code\u003e-generating state computation and return the respective\n \u003ccode\u003e\u003ca\u003eDIMACS\u003c/a\u003e\u003c/code\u003e output. Useful for testing and debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "dimacsSAT",
           "package": "ersatz",
@@ -2090,6 +2269,7 @@
         "index": {
           "description": "Run SAT generating state computation and return the respective DIMACS output Useful for testing and debugging",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "dimacsSAT",
           "normalized": "StateT SAT Identity a-\u003eByteString",
@@ -2105,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "formula",
           "package": "ersatz",
@@ -2114,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "formula",
           "package": "ersatz",
@@ -2126,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "generateLiteral",
           "package": "ersatz",
@@ -2135,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "generateLiteral",
           "normalized": "a-\u003e(Literal-\u003eb())-\u003eb Literal",
@@ -2150,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "lastAtom",
           "package": "ersatz",
@@ -2159,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "lastAtom",
           "package": "ersatz",
@@ -2172,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "literalExists",
           "package": "ersatz",
@@ -2181,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "literalExists",
           "package": "ersatz",
@@ -2194,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "literalForall",
           "package": "ersatz",
@@ -2203,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "literalForall",
           "package": "ersatz",
@@ -2217,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e out of a \u003ccode\u003e\u003ca\u003eQDIMACS\u003c/a\u003e\u003c/code\u003e problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacs",
           "package": "ersatz",
@@ -2227,6 +2418,7 @@
         "index": {
           "description": "Generate Builder out of QDIMACS problem",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacs",
           "normalized": "a-\u003eBuilder",
@@ -2241,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacsClauses",
           "package": "ersatz",
@@ -2250,6 +2443,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacsClauses",
           "normalized": "a-\u003eSet IntSet",
@@ -2265,6 +2459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacsComments",
           "package": "ersatz",
@@ -2274,6 +2469,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacsComments",
           "normalized": "a-\u003e[ByteString]",
@@ -2289,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacsNumVariables",
           "package": "ersatz",
@@ -2298,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacsNumVariables",
           "normalized": "a-\u003eInt",
@@ -2314,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eQSAT\u003c/a\u003e\u003c/code\u003e-generating state computation and return the respective\n \u003ccode\u003e\u003ca\u003eQDIMACS\u003c/a\u003e\u003c/code\u003e output. Useful for testing and debugging.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacsQSAT",
           "package": "ersatz",
@@ -2324,6 +2523,7 @@
         "index": {
           "description": "Run QSAT generating state computation and return the respective QDIMACS output Useful for testing and debugging",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacsQSAT",
           "normalized": "StateT QSAT Identity a-\u003eByteString",
@@ -2339,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qdimacsQuantified",
           "package": "ersatz",
@@ -2348,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qdimacsQuantified",
           "normalized": "a-\u003e[Quant]",
@@ -2363,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "qsat",
           "package": "ersatz",
@@ -2372,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "qsat",
           "package": "ersatz",
@@ -2385,6 +2589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eQSAT\u003c/a\u003e\u003c/code\u003e-generating state computation. Useful e.g. in ghci for\n disambiguating the type of a \u003ccode\u003e\u003ca\u003eMonadState\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasQSAT\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "runQSAT",
           "package": "ersatz",
@@ -2395,6 +2600,7 @@
         "index": {
           "description": "Run QSAT generating state computation Useful e.g in ghci for disambiguating the type of MonadState HasQSAT value",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "runQSAT",
           "normalized": "StateT QSAT a b-\u003ea(b,QSAT)",
@@ -2411,6 +2617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eQSAT\u003c/a\u003e\u003c/code\u003e-generating state computation in the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad. Useful\n e.g. in ghci for disambiguating the type of a \u003ccode\u003e\u003ca\u003eMonadState\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasQSAT\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "runQSAT'",
           "package": "ersatz",
@@ -2421,6 +2628,7 @@
         "index": {
           "description": "Run QSAT generating state computation in the Identity monad Useful e.g in ghci for disambiguating the type of MonadState HasQSAT value",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "runQSAT'",
           "normalized": "StateT QSAT Identity a-\u003e(a,QSAT)",
@@ -2437,6 +2645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eSAT\u003c/a\u003e\u003c/code\u003e-generating state computation. Useful e.g. in ghci for\n disambiguating the type of a \u003ccode\u003e\u003ca\u003eMonadState\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasSAT\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "runSAT",
           "package": "ersatz",
@@ -2447,6 +2656,7 @@
         "index": {
           "description": "Run SAT generating state computation Useful e.g in ghci for disambiguating the type of MonadState HasSAT value",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "runSAT",
           "normalized": "StateT SAT a b-\u003ea(b,SAT)",
@@ -2463,6 +2673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eSAT\u003c/a\u003e\u003c/code\u003e-generating state computation in the \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad. Useful\n e.g. in ghci for disambiguating the type of a \u003ccode\u003e\u003ca\u003eMonadState\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eHasSAT\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "runSAT'",
           "package": "ersatz",
@@ -2473,6 +2684,7 @@
         "index": {
           "description": "Run SAT generating state computation in the Identity monad Useful e.g in ghci for disambiguating the type of MonadState HasSAT value",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "runSAT'",
           "normalized": "StateT SAT Identity a-\u003e(a,SAT)",
@@ -2488,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "sat",
           "package": "ersatz",
@@ -2497,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "sat",
           "package": "ersatz",
@@ -2509,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "stableMap",
           "package": "ersatz",
@@ -2518,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "stableMap",
           "normalized": "Lens' a(HashMap(StableName())Literal)",
@@ -2533,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "universals",
           "package": "ersatz",
@@ -2542,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "universals",
           "package": "ersatz",
@@ -2555,6 +2773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/code\u003e out of a \u003ccode\u003e\u003ca\u003eWDIMACS\u003c/a\u003e\u003c/code\u003e problem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "wdimacs",
           "package": "ersatz",
@@ -2565,6 +2784,7 @@
         "index": {
           "description": "Generate Builder out of WDIMACS problem",
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "wdimacs",
           "normalized": "a-\u003eBuilder",
@@ -2579,6 +2799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "wdimacsClauses",
           "package": "ersatz",
@@ -2588,6 +2809,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "wdimacsClauses",
           "normalized": "a-\u003eSet(Int,IntSet)",
@@ -2603,6 +2825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "wdimacsComments",
           "package": "ersatz",
@@ -2612,6 +2835,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "wdimacsComments",
           "normalized": "a-\u003e[ByteString]",
@@ -2627,6 +2851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "wdimacsNumVariables",
           "package": "ersatz",
@@ -2636,6 +2861,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "wdimacsNumVariables",
           "normalized": "a-\u003eInt",
@@ -2651,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Problem",
           "name": "wdimacsTopWeight",
           "package": "ersatz",
@@ -2660,6 +2887,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Problem",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Problem",
           "name": "wdimacsTopWeight",
           "package": "ersatz",
@@ -2673,6 +2901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2681,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2694,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Result",
           "package": "ersatz",
@@ -2702,6 +2933,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Result",
           "package": "ersatz",
@@ -2715,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2723,6 +2956,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2736,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Solver",
           "package": "ersatz",
@@ -2744,6 +2979,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Solver",
           "package": "ersatz",
@@ -2757,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Satisfied",
           "package": "ersatz",
@@ -2766,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Satisfied",
           "package": "ersatz",
@@ -2779,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2788,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Solution",
           "package": "ersatz",
@@ -2801,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Unsatisfied",
           "package": "ersatz",
@@ -2810,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Unsatisfied",
           "package": "ersatz",
@@ -2823,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "Unsolved",
           "package": "ersatz",
@@ -2832,6 +3075,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "Unsolved",
           "package": "ersatz",
@@ -2845,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "solutionFrom",
           "package": "ersatz",
@@ -2854,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "solutionFrom",
           "normalized": "IntMap Bool-\u003ea-\u003eSolution",
@@ -2869,6 +3115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "solutionLiteral",
           "package": "ersatz",
@@ -2878,6 +3125,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "solutionLiteral",
           "normalized": "Literal-\u003eMaybe Bool",
@@ -2893,6 +3141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solution",
           "name": "solutionStableName",
           "package": "ersatz",
@@ -2902,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solution",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solution",
           "name": "solutionStableName",
           "normalized": "StableName()-\u003eMaybe Bool",
@@ -2917,6 +3167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.DepQBF",
           "name": "DepQBF",
           "package": "ersatz",
@@ -2925,6 +3176,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver DepQBF",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.DepQBF",
           "name": "DepQBF",
           "package": "ersatz",
@@ -2938,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.DepQBF",
           "name": "depqbf",
           "package": "ersatz",
@@ -2947,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver DepQBF",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.DepQBF",
           "name": "depqbf",
           "package": "ersatz",
@@ -2959,6 +3213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.DepQBF",
           "name": "depqbfPath",
           "package": "ersatz",
@@ -2968,6 +3223,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver DepQBF",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.DepQBF",
           "name": "depqbfPath",
           "normalized": "FilePath-\u003eSolver QSAT a",
@@ -2983,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.Minisat",
           "name": "Minisat",
           "package": "ersatz",
@@ -2991,6 +3248,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver Minisat",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.Minisat",
           "name": "Minisat",
           "package": "ersatz",
@@ -3004,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.Minisat",
           "name": "cryptominisat",
           "package": "ersatz",
@@ -3013,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver Minisat",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.Minisat",
           "name": "cryptominisat",
           "package": "ersatz",
@@ -3025,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.Minisat",
           "name": "minisat",
           "package": "ersatz",
@@ -3034,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver Minisat",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.Minisat",
           "name": "minisat",
           "package": "ersatz",
@@ -3046,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver.Minisat",
           "name": "minisatPath",
           "package": "ersatz",
@@ -3055,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver Minisat",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver.Minisat",
           "name": "minisatPath",
           "normalized": "FilePath-\u003eSolver SAT a",
@@ -3070,6 +3334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver",
           "name": "Solver",
           "package": "ersatz",
@@ -3078,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver",
           "name": "Solver",
           "package": "ersatz",
@@ -3091,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Solver",
           "name": "solveWith",
           "package": "ersatz",
@@ -3100,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Solver",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Solver",
           "name": "solveWith",
           "normalized": "Solver a b-\u003eStateT a b c-\u003eb(Result,Maybe(Decoded c))",
@@ -3115,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Variable",
           "name": "Variable",
           "package": "ersatz",
@@ -3123,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Variable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Variable",
           "name": "Variable",
           "package": "ersatz",
@@ -3137,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances for this class for product-like types can be automatically derived\n for any type that is an instance of \u003ccode\u003e\u003ca\u003eGeneric\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Variable",
           "name": "Variable",
           "package": "ersatz",
@@ -3146,6 +3417,7 @@
         "index": {
           "description": "Instances for this class for product-like types can be automatically derived for any type that is an instance of Generic",
           "hierarchy": "Ersatz Variable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Variable",
           "name": "Variable",
           "package": "ersatz",
@@ -3159,6 +3431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Variable",
           "name": "exists",
           "package": "ersatz",
@@ -3168,6 +3441,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Variable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Variable",
           "name": "exists",
           "package": "ersatz",
@@ -3180,6 +3454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz.Variable",
           "name": "forall",
           "package": "ersatz",
@@ -3189,6 +3464,7 @@
         },
         "index": {
           "hierarchy": "Ersatz Variable",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz.Variable",
           "name": "forall",
           "package": "ersatz",
@@ -3201,6 +3477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:04:02 UTC 2014",
           "module": "Ersatz",
           "name": "Ersatz",
           "package": "ersatz",
@@ -3209,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Ersatz",
+          "indexed": "2014-03-11T18:04:02",
           "module": "Ersatz",
           "name": "Ersatz",
           "package": "ersatz",

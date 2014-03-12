@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-size"
+        "phrase": "data-size",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "Base",
           "package": "data-size",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "Base",
           "package": "data-size",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "Bytes",
           "package": "data-size",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "Bytes",
           "package": "data-size",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounter for \u003ca name=\" of objects and \"/\u003e of words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "Size",
           "package": "data-size",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Counter for of words",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "Size",
           "package": "data-size",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "SizeStatistics",
           "package": "data-size",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "SizeStatistics",
           "package": "data-size",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "SizeTable",
           "package": "data-size",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "SizeTable",
           "package": "data-size",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "Sizeable",
           "package": "data-size",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "Sizeable",
           "package": "data-size",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "(\u003c\u003e)",
           "package": "data-size",
@@ -156,6 +169,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "(.*.)",
           "package": "data-size",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "(.*.) .*.",
           "normalized": "Int-\u003ea-\u003ea",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "addPart",
           "package": "data-size",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "addPart",
           "normalized": "String-\u003eString-\u003eSize-\u003eSizeStatistics-\u003eSizeStatistics",
@@ -217,6 +235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "addSize",
           "package": "data-size",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "addSize",
           "normalized": "Size-\u003eSizeStatistics-\u003eSizeStatistics",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "bitsPerWord",
           "package": "data-size",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "bitsPerWord",
           "package": "data-size",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "bytesOf",
           "package": "data-size",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "bytesOf",
           "normalized": "a-\u003eBytes",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "bytesPerChar",
           "package": "data-size",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "bytesPerChar",
           "package": "data-size",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "bytesPerWord",
           "package": "data-size",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "bytesPerWord",
           "package": "data-size",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "bytesToWords",
           "package": "data-size",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "bytesToWords",
           "normalized": "Int-\u003eInt",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "constrStats",
           "package": "data-size",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "constrStats",
           "normalized": "String-\u003ea-\u003eSizeStatistics",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataOf",
           "package": "data-size",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataOf",
           "normalized": "a-\u003eBytes",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataOfConstr",
           "package": "data-size",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataOfConstr",
           "package": "data-size",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataOfObj",
           "package": "data-size",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataOfObj",
           "normalized": "Bytes-\u003eBytes",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataOfPtr",
           "package": "data-size",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataOfPtr",
           "package": "data-size",
@@ -471,6 +511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataOfSingleton",
           "package": "data-size",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataOfSingleton",
           "package": "data-size",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "dataSize",
           "package": "data-size",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "dataSize",
           "normalized": "Size-\u003eInt",
@@ -518,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mappend",
           "package": "data-size",
@@ -527,6 +572,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -542,6 +588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mconcat",
           "package": "data-size",
@@ -551,6 +598,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -566,6 +614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mempty",
           "package": "data-size",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mempty",
           "package": "data-size",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mkBytes",
           "package": "data-size",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mkBytes",
           "normalized": "Int-\u003eInt-\u003eBytes",
@@ -611,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mkObject",
           "package": "data-size",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mkObject",
           "normalized": "a-\u003eSize",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a counter for one object with n fields\n\u003c/p\u003e\u003cp\u003econstructors count 1 word\n If # words for the data is 0, it's a singleton,\n so the # of objects are not accumulated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mkSize",
           "package": "data-size",
@@ -646,6 +701,7 @@
         "index": {
           "description": "Make counter for one object with fields constructors count word If words for the data is it singleton so the of objects are not accumulated",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mkSize",
           "normalized": "Bytes-\u003eSize",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "mkStats",
           "package": "data-size",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "mkStats",
           "normalized": "a-\u003eSizeStatistics",
@@ -685,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "nameOf",
           "package": "data-size",
@@ -694,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "nameOf",
           "normalized": "a-\u003eString",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "objectsOf",
           "package": "data-size",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "objectsOf",
           "normalized": "a-\u003eSize",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "setName",
           "package": "data-size",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "setName",
           "normalized": "String-\u003eSizeStatistics-\u003eSizeStatistics",
@@ -757,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "showStats",
           "package": "data-size",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "showStats",
           "normalized": "SizeStatistics-\u003eString",
@@ -782,6 +848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size value of a singleton\n\u003c/p\u003e\u003cp\u003eSingletons are only counted once\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "singletonSize",
           "package": "data-size",
@@ -792,6 +859,7 @@
         "index": {
           "description": "The size value of singleton Singletons are only counted once",
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "singletonSize",
           "package": "data-size",
@@ -805,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "statsOf",
           "package": "data-size",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "statsOf",
           "normalized": "a-\u003eSizeStatistics",
@@ -829,6 +899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "typeName",
           "package": "data-size",
@@ -838,6 +909,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "typeName",
           "normalized": "a-\u003eString",
@@ -853,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size.Base",
           "name": "wordAlign",
           "package": "data-size",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data Size Base",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size.Base",
           "name": "wordAlign",
           "normalized": "Bytes-\u003eBytes",
@@ -877,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "Size",
           "package": "data-size",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "Size",
           "package": "data-size",
@@ -898,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfBool",
           "package": "data-size",
@@ -907,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfBool",
           "package": "data-size",
@@ -920,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfChar",
           "package": "data-size",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfChar",
           "package": "data-size",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfDouble",
           "package": "data-size",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfDouble",
           "package": "data-size",
@@ -964,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfFloat",
           "package": "data-size",
@@ -973,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfFloat",
           "package": "data-size",
@@ -986,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfInt",
           "package": "data-size",
@@ -995,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfInt",
           "package": "data-size",
@@ -1008,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfStorable",
           "package": "data-size",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfStorable",
           "normalized": "a-\u003eBytes",
@@ -1032,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfWord16",
           "package": "data-size",
@@ -1041,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfWord16",
           "package": "data-size",
@@ -1054,6 +1144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:49:43 UTC 2014",
           "module": "Data.Size",
           "name": "dataOfWord8",
           "package": "data-size",
@@ -1063,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data Size",
+          "indexed": "2014-03-11T17:49:43",
           "module": "Data.Size",
           "name": "dataOfWord8",
           "package": "data-size",

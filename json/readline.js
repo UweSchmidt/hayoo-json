@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "readline"
+        "phrase": "readline",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding to the GNU readline library.  The GNU Readline\n library provides a set of functions for use by applications that\n allow users to edit command lines as they are typed in.  By\n default, the line editing commands are similar to those of\n emacs.  A vi-style line editing interface is also available.\n\u003c/p\u003e\u003cp\u003eAn example of a typical use of readline with history functionality\n is illustrated in the following read, eval, print loop:\n\u003c/p\u003e\u003cpre\u003e\n readEvalPrintLoop :: IO ()\n readEvalPrintLoop = do\n   maybeLine \u003c- readline \"% \"\n   case maybeLine of\n    Nothing     -\u003e return () -- EOF / control-d\n    Just \"exit\" -\u003e return ()\n    Just line -\u003e do addHistory line\n                    putStrLn $ \"The user input: \" ++ (show line)\n                    readEvalPrintLoop\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Readline",
           "package": "readline",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell binding to the GNU readline library The GNU Readline library provides set of functions for use by applications that allow users to edit command lines as they are typed in By default the line editing commands are similar to those of emacs vi-style line editing interface is also available An example of typical use of readline with history functionality is illustrated in the following read eval print loop readEvalPrintLoop IO readEvalPrintLoop do maybeLine readline case maybeLine of Nothing return EOF control-d Just exit return Just line do addHistory line putStrLn The user input show line readEvalPrintLoop",
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Readline",
           "package": "readline",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Callback",
           "package": "readline",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Callback",
           "package": "readline",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Entry",
           "package": "readline",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Entry",
           "package": "readline",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Keymap",
           "package": "readline",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Keymap",
           "package": "readline",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "UndoCode",
           "package": "readline",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "UndoCode",
           "package": "readline",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Function",
           "package": "readline",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Function",
           "package": "readline",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Keymap",
           "package": "readline",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Keymap",
           "package": "readline",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "Macro",
           "package": "readline",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "Macro",
           "package": "readline",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "UndoBegin",
           "package": "readline",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "UndoBegin",
           "package": "readline",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "UndoDelete",
           "package": "readline",
@@ -222,6 +241,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "UndoDelete",
           "package": "readline",
@@ -235,6 +255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "UndoEnd",
           "package": "readline",
@@ -244,6 +265,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "UndoEnd",
           "package": "readline",
@@ -257,6 +279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "UndoInsert",
           "package": "readline",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "UndoInsert",
           "package": "readline",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "addDefun",
           "package": "readline",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "addDefun",
           "normalized": "String-\u003eCallback-\u003eMaybe Char-\u003eIO()",
@@ -304,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd this command to the history.  This allows users to search backward\n through history with C-r and step through with up and down arrows, among\n other things.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "addHistory",
           "package": "readline",
@@ -314,6 +341,7 @@
         "index": {
           "description": "Add this command to the history This allows users to search backward through history with C-r and step through with up and down arrows among other things",
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "addHistory",
           "normalized": "String-\u003eIO()",
@@ -329,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "addUndo",
           "package": "readline",
@@ -338,6 +367,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "addUndo",
           "normalized": "UndoCode-\u003eInt-\u003eInt-\u003eString-\u003eIO()",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "beginUndoGroup",
           "package": "readline",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "beginUndoGroup",
           "normalized": "IO()",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "bindKey",
           "package": "readline",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "bindKey",
           "normalized": "Char-\u003eCallback-\u003eIO()",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "bindKeyInMap",
           "package": "readline",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "bindKeyInMap",
           "normalized": "Char-\u003eCallback-\u003eKeymap-\u003eIO()",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "callbackHandlerInstall",
           "package": "readline",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "callbackHandlerInstall",
           "normalized": "String-\u003e(String-\u003eIO())-\u003eIO(IO())",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "callbackReadChar",
           "package": "readline",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "callbackReadChar",
           "normalized": "IO()",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "cleanupAfterSignal",
           "package": "readline",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "cleanupAfterSignal",
           "normalized": "IO()",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "clearMessage",
           "package": "readline",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "clearMessage",
           "normalized": "IO()",
@@ -521,6 +565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "clearSignals",
           "package": "readline",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "clearSignals",
           "normalized": "IO()",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "complete",
           "package": "readline",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "complete",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "completeInternal",
           "package": "readline",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "completeInternal",
           "normalized": "Char-\u003eIO()",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "completionMatches",
           "package": "readline",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "completionMatches",
           "normalized": "String-\u003e(String-\u003eIO[String])-\u003eIO(Maybe(String,[String]))",
@@ -616,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "copyKeymap",
           "package": "readline",
@@ -625,6 +678,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "copyKeymap",
           "normalized": "Keymap-\u003eIO Keymap",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "copyText",
           "package": "readline",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "copyText",
           "normalized": "Int-\u003eInt-\u003eIO String",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "deleteText",
           "package": "readline",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "deleteText",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "ding",
           "package": "readline",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "ding",
           "package": "readline",
@@ -709,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "displayMatchList",
           "package": "readline",
@@ -718,6 +779,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "displayMatchList",
           "normalized": "[String]-\u003eIO()",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "doUndo",
           "package": "readline",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "doUndo",
           "package": "readline",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "endUndoGroup",
           "package": "readline",
@@ -764,6 +829,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "endUndoGroup",
           "normalized": "IO()",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "filenameCompletionFunction",
           "package": "readline",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "filenameCompletionFunction",
           "normalized": "String-\u003eIO[String]",
@@ -803,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "forcedUpdateDisplay",
           "package": "readline",
@@ -812,6 +881,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "forcedUpdateDisplay",
           "normalized": "IO()",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "freeKeymap",
           "package": "readline",
@@ -836,6 +907,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "freeKeymap",
           "normalized": "Keymap-\u003eIO()",
@@ -851,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "freeLineState",
           "package": "readline",
@@ -860,6 +933,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "freeLineState",
           "normalized": "IO()",
@@ -875,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "freeUndoList",
           "package": "readline",
@@ -884,6 +959,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "freeUndoList",
           "normalized": "IO()",
@@ -899,6 +975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "functionDumper",
           "package": "readline",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "functionDumper",
           "normalized": "Bool-\u003eIO()",
@@ -923,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "functionOfKeyseq",
           "package": "readline",
@@ -932,6 +1011,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "functionOfKeyseq",
           "normalized": "String-\u003eMaybe Keymap-\u003eIO Entry",
@@ -947,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "funmapNames",
           "package": "readline",
@@ -956,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "funmapNames",
           "normalized": "IO[String]",
@@ -971,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "genericBind",
           "package": "readline",
@@ -980,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "genericBind",
           "normalized": "String-\u003eEntry-\u003eKeymap-\u003eIO()",
@@ -995,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getAttemptedCompletionOver",
           "package": "readline",
@@ -1004,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getAttemptedCompletionOver",
           "package": "readline",
@@ -1017,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getBasicQuoteCharacters",
           "package": "readline",
@@ -1026,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getBasicQuoteCharacters",
           "package": "readline",
@@ -1039,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getBasicWordBreakCharacters",
           "package": "readline",
@@ -1048,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getBasicWordBreakCharacters",
           "package": "readline",
@@ -1061,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getBindingKeymap",
           "package": "readline",
@@ -1070,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getBindingKeymap",
           "package": "readline",
@@ -1083,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCatchSignals",
           "package": "readline",
@@ -1092,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCatchSignals",
           "package": "readline",
@@ -1105,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCatchSigwinch",
           "package": "readline",
@@ -1114,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCatchSigwinch",
           "package": "readline",
@@ -1127,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCompleterQuoteCharacters",
           "package": "readline",
@@ -1136,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCompleterQuoteCharacters",
           "package": "readline",
@@ -1149,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCompleterWordBreakCharacters",
           "package": "readline",
@@ -1158,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCompleterWordBreakCharacters",
           "package": "readline",
@@ -1171,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCompletionAppendCharacter",
           "package": "readline",
@@ -1180,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCompletionAppendCharacter",
           "package": "readline",
@@ -1193,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getCompletionQueryItems",
           "package": "readline",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getCompletionQueryItems",
           "package": "readline",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getEnd",
           "package": "readline",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getEnd",
           "package": "readline",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getExecutingKeymap",
           "package": "readline",
@@ -1246,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getExecutingKeymap",
           "package": "readline",
@@ -1259,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getFilenameCompletionDesired",
           "package": "readline",
@@ -1268,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getFilenameCompletionDesired",
           "package": "readline",
@@ -1281,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getFilenameQuoteCharacters",
           "package": "readline",
@@ -1290,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getFilenameQuoteCharacters",
           "package": "readline",
@@ -1303,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getFilenameQuotingDesired",
           "package": "readline",
@@ -1312,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getFilenameQuotingDesired",
           "package": "readline",
@@ -1325,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getIgnoreCompletionDuplicates",
           "package": "readline",
@@ -1334,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getIgnoreCompletionDuplicates",
           "package": "readline",
@@ -1347,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getInStream",
           "package": "readline",
@@ -1356,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getInStream",
           "package": "readline",
@@ -1369,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getInhibitCompletion",
           "package": "readline",
@@ -1378,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getInhibitCompletion",
           "package": "readline",
@@ -1391,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getKeymap",
           "package": "readline",
@@ -1400,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getKeymap",
           "package": "readline",
@@ -1413,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getKeymapByName",
           "package": "readline",
@@ -1422,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getKeymapByName",
           "normalized": "String-\u003eIO Keymap",
@@ -1437,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getKeymapName",
           "package": "readline",
@@ -1446,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getKeymapName",
           "normalized": "Keymap-\u003eIO(Maybe String)",
@@ -1461,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getLibraryVersion",
           "package": "readline",
@@ -1470,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getLibraryVersion",
           "package": "readline",
@@ -1483,6 +1611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getLineBuffer",
           "package": "readline",
@@ -1492,6 +1621,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getLineBuffer",
           "package": "readline",
@@ -1505,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getMark",
           "package": "readline",
@@ -1514,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getMark",
           "package": "readline",
@@ -1527,6 +1659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getOutStream",
           "package": "readline",
@@ -1536,6 +1669,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getOutStream",
           "package": "readline",
@@ -1549,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getPoint",
           "package": "readline",
@@ -1558,6 +1693,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getPoint",
           "package": "readline",
@@ -1571,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getPrompt",
           "package": "readline",
@@ -1580,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getPrompt",
           "package": "readline",
@@ -1593,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getSpecialPrefixes",
           "package": "readline",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getSpecialPrefixes",
           "package": "readline",
@@ -1615,6 +1755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "getTerminalName",
           "package": "readline",
@@ -1624,6 +1765,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "getTerminalName",
           "package": "readline",
@@ -1637,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "initialize",
           "package": "readline",
@@ -1646,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "initialize",
           "normalized": "IO()",
@@ -1660,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "insertCompletions",
           "package": "readline",
@@ -1669,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "insertCompletions",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -1684,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "insertText",
           "package": "readline",
@@ -1693,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "insertText",
           "normalized": "String-\u003eIO()",
@@ -1708,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "killText",
           "package": "readline",
@@ -1717,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "killText",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -1732,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "listFunmapNames",
           "package": "readline",
@@ -1741,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "listFunmapNames",
           "normalized": "IO()",
@@ -1756,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "message",
           "package": "readline",
@@ -1765,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "message",
           "normalized": "String-\u003eIO()",
@@ -1779,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "modifying",
           "package": "readline",
@@ -1788,6 +1943,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "modifying",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -1802,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "namedFunction",
           "package": "readline",
@@ -1811,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "namedFunction",
           "normalized": "String-\u003eIO(Maybe Callback)",
@@ -1826,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "newBareKeymap",
           "package": "readline",
@@ -1835,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "newBareKeymap",
           "package": "readline",
@@ -1848,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "newKeymap",
           "package": "readline",
@@ -1857,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "newKeymap",
           "package": "readline",
@@ -1870,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "onNewLine",
           "package": "readline",
@@ -1879,6 +2042,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "onNewLine",
           "normalized": "IO()",
@@ -1894,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "onNewLineWithPrompt",
           "package": "readline",
@@ -1903,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "onNewLineWithPrompt",
           "normalized": "IO()",
@@ -1918,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "parseAndBind",
           "package": "readline",
@@ -1927,6 +2094,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "parseAndBind",
           "normalized": "String-\u003eIO()",
@@ -1942,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "possibleCompletions",
           "package": "readline",
@@ -1951,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "possibleCompletions",
           "normalized": "Int-\u003eChar-\u003eIO Int",
@@ -1966,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "quoteFilename",
           "package": "readline",
@@ -1975,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "quoteFilename",
           "normalized": "String-\u003eBool-\u003ePtr CChar-\u003eIO String",
@@ -1990,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "readInitFile",
           "package": "readline",
@@ -1999,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "readInitFile",
           "normalized": "String-\u003eIO()",
@@ -2014,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "readKey",
           "package": "readline",
@@ -2023,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "readKey",
           "package": "readline",
@@ -2037,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereadline is similar to \u003ccode\u003e\u003ca\u003egetLine\u003c/a\u003e\u003c/code\u003e, but with rich edit\n functionality and history capability.  readline will read a line\n from the terminal and return it, using \u003cem\u003eprompt\u003c/em\u003e as a prompt.  If\n prompt is the empty string, no prompt is issued.  The line returned\n has the final newline removed, so only the text of the line\n remains.  A blank line returns the empty string.  If EOF is\n encountered while reading a line, and the line is empty, Nothing is\n returned.  If an EOF is read with a non-empty line, it is treated\n as a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "readline",
           "package": "readline",
@@ -2046,6 +2223,7 @@
         "index": {
           "description": "readline is similar to getLine but with rich edit functionality and history capability readline will read line from the terminal and return it using prompt as prompt If prompt is the empty string no prompt is issued The line returned has the final newline removed so only the text of the line remains blank line returns the empty string If EOF is encountered while reading line and the line is empty Nothing is returned If an EOF is read with non-empty line it is treated as newline",
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "readline",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -2060,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "redisplay",
           "package": "readline",
@@ -2069,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "redisplay",
           "normalized": "IO()",
@@ -2083,6 +2263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "resetAfterSignal",
           "package": "readline",
@@ -2092,6 +2273,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "resetAfterSignal",
           "normalized": "IO()",
@@ -2107,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "resetLineState",
           "package": "readline",
@@ -2116,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "resetLineState",
           "normalized": "IO()",
@@ -2131,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "resetTerminal",
           "package": "readline",
@@ -2140,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "resetTerminal",
           "normalized": "Maybe String-\u003eIO()",
@@ -2155,6 +2341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "resizeTerminal",
           "package": "readline",
@@ -2164,6 +2351,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "resizeTerminal",
           "normalized": "IO()",
@@ -2179,6 +2367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "restorePrompt",
           "package": "readline",
@@ -2188,6 +2377,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "restorePrompt",
           "normalized": "IO()",
@@ -2203,6 +2393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "savePrompt",
           "package": "readline",
@@ -2212,6 +2403,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "savePrompt",
           "normalized": "IO()",
@@ -2227,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setAlreadyPrompted",
           "package": "readline",
@@ -2236,6 +2429,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setAlreadyPrompted",
           "normalized": "Bool-\u003eIO()",
@@ -2251,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setAttemptedCompletionFunction",
           "package": "readline",
@@ -2260,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setAttemptedCompletionFunction",
           "normalized": "Maybe(String-\u003eInt-\u003eInt-\u003eIO(Maybe(String,[String])))-\u003eIO()",
@@ -2275,6 +2471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setAttemptedCompletionOver",
           "package": "readline",
@@ -2284,6 +2481,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setAttemptedCompletionOver",
           "normalized": "Bool-\u003eIO()",
@@ -2299,6 +2497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setBasicQuoteCharacters",
           "package": "readline",
@@ -2308,6 +2507,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setBasicQuoteCharacters",
           "normalized": "String-\u003eIO()",
@@ -2323,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setBasicWordBreakCharacters",
           "package": "readline",
@@ -2332,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setBasicWordBreakCharacters",
           "normalized": "String-\u003eIO()",
@@ -2347,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCatchSignals",
           "package": "readline",
@@ -2356,6 +2559,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCatchSignals",
           "normalized": "Bool-\u003eIO()",
@@ -2371,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCatchSigwinch",
           "package": "readline",
@@ -2380,6 +2585,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCatchSigwinch",
           "normalized": "Bool-\u003eIO()",
@@ -2395,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCharIsQuotedP",
           "package": "readline",
@@ -2404,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCharIsQuotedP",
           "normalized": "Maybe(String-\u003eInt-\u003eIO Bool)-\u003eIO()",
@@ -2419,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompleterQuoteCharacters",
           "package": "readline",
@@ -2428,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompleterQuoteCharacters",
           "normalized": "String-\u003eIO()",
@@ -2443,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompleterWordBreakCharacters",
           "package": "readline",
@@ -2452,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompleterWordBreakCharacters",
           "normalized": "String-\u003eIO()",
@@ -2467,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompletionAppendCharacter",
           "package": "readline",
@@ -2476,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompletionAppendCharacter",
           "normalized": "Maybe Char-\u003eIO()",
@@ -2491,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompletionDisplayMatchesHook",
           "package": "readline",
@@ -2500,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompletionDisplayMatchesHook",
           "normalized": "Maybe([String]-\u003eIO())-\u003eIO()",
@@ -2515,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompletionEntryFunction",
           "package": "readline",
@@ -2524,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompletionEntryFunction",
           "normalized": "Maybe(String-\u003eIO[String])-\u003eIO()",
@@ -2539,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompletionQueryItems",
           "package": "readline",
@@ -2548,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompletionQueryItems",
           "normalized": "Int-\u003eIO()",
@@ -2563,6 +2783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setCompletionWordBreakHook",
           "package": "readline",
@@ -2572,6 +2793,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setCompletionWordBreakHook",
           "normalized": "Maybe(IO(Maybe String))-\u003eIO()",
@@ -2587,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setDirectoryCompletionHook",
           "package": "readline",
@@ -2596,6 +2819,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setDirectoryCompletionHook",
           "normalized": "Maybe(String-\u003eIO String)-\u003eIO()",
@@ -2611,6 +2835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setDone",
           "package": "readline",
@@ -2620,6 +2845,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setDone",
           "normalized": "Bool-\u003eIO()",
@@ -2635,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setEnd",
           "package": "readline",
@@ -2644,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setEnd",
           "normalized": "Int-\u003eIO()",
@@ -2659,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setEraseEmptyLine",
           "package": "readline",
@@ -2668,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setEraseEmptyLine",
           "normalized": "Bool-\u003eIO()",
@@ -2683,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setEventHook",
           "package": "readline",
@@ -2692,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setEventHook",
           "normalized": "Maybe(IO())-\u003eIO()",
@@ -2707,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setFilenameCompletionDesired",
           "package": "readline",
@@ -2716,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setFilenameCompletionDesired",
           "normalized": "Bool-\u003eIO()",
@@ -2731,6 +2965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setFilenameDequotingFunction",
           "package": "readline",
@@ -2740,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setFilenameDequotingFunction",
           "normalized": "Maybe(String-\u003eMaybe Char-\u003eIO String)-\u003eIO()",
@@ -2755,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setFilenameQuoteCharacters",
           "package": "readline",
@@ -2764,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setFilenameQuoteCharacters",
           "normalized": "String-\u003eIO()",
@@ -2779,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setFilenameQuotingDesired",
           "package": "readline",
@@ -2788,6 +3027,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setFilenameQuotingDesired",
           "normalized": "Bool-\u003eIO()",
@@ -2803,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setFilenameQuotingFunction",
           "package": "readline",
@@ -2812,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setFilenameQuotingFunction",
           "normalized": "Maybe(String-\u003eBool-\u003ePtr CChar-\u003eIO String)-\u003eIO()",
@@ -2827,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setIgnoreCompletionDuplicates",
           "package": "readline",
@@ -2836,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setIgnoreCompletionDuplicates",
           "normalized": "Bool-\u003eIO()",
@@ -2851,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setIgnoreSomeCompletionsFunction",
           "package": "readline",
@@ -2860,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setIgnoreSomeCompletionsFunction",
           "normalized": "Maybe([String]-\u003eIO[String])-\u003eIO()",
@@ -2875,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setInhibitCompletion",
           "package": "readline",
@@ -2884,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setInhibitCompletion",
           "normalized": "Bool-\u003eIO()",
@@ -2899,6 +3147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setKeymap",
           "package": "readline",
@@ -2908,6 +3157,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setKeymap",
           "normalized": "Keymap-\u003eIO()",
@@ -2923,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setLineBuffer",
           "package": "readline",
@@ -2932,6 +3183,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setLineBuffer",
           "normalized": "String-\u003eIO()",
@@ -2947,6 +3199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setMark",
           "package": "readline",
@@ -2956,6 +3209,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setMark",
           "normalized": "Int-\u003eIO()",
@@ -2971,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setPendingInput",
           "package": "readline",
@@ -2980,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setPendingInput",
           "normalized": "Char-\u003eIO()",
@@ -2995,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setPoint",
           "package": "readline",
@@ -3004,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setPoint",
           "normalized": "Int-\u003eIO()",
@@ -3019,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setPreInputHook",
           "package": "readline",
@@ -3028,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setPreInputHook",
           "normalized": "Maybe(IO())-\u003eIO()",
@@ -3043,6 +3303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setReadlineName",
           "package": "readline",
@@ -3052,6 +3313,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setReadlineName",
           "normalized": "String-\u003eIO()",
@@ -3067,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setRedisplayFunction",
           "package": "readline",
@@ -3076,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setRedisplayFunction",
           "normalized": "Maybe(IO())-\u003eIO()",
@@ -3091,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setSignals",
           "package": "readline",
@@ -3100,6 +3365,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setSignals",
           "normalized": "IO()",
@@ -3115,6 +3381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setSpecialPrefixes",
           "package": "readline",
@@ -3124,6 +3391,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setSpecialPrefixes",
           "normalized": "String-\u003eIO()",
@@ -3139,6 +3407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "setStartupHook",
           "package": "readline",
@@ -3148,6 +3417,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "setStartupHook",
           "normalized": "Maybe(IO())-\u003eIO()",
@@ -3163,6 +3433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "stuffChar",
           "package": "readline",
@@ -3172,6 +3443,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "stuffChar",
           "normalized": "Char-\u003eIO Bool",
@@ -3187,6 +3459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "unbindCommandInMap",
           "package": "readline",
@@ -3196,6 +3469,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "unbindCommandInMap",
           "normalized": "String-\u003eKeymap-\u003eIO()",
@@ -3211,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "unbindKey",
           "package": "readline",
@@ -3220,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "unbindKey",
           "normalized": "Char-\u003eIO()",
@@ -3235,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "unbindKeyInMap",
           "package": "readline",
@@ -3244,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "unbindKeyInMap",
           "normalized": "Char-\u003eKeymap-\u003eIO()",
@@ -3259,6 +3537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.Readline",
           "name": "usernameCompletionFunction",
           "package": "readline",
@@ -3268,6 +3547,7 @@
         },
         "index": {
           "hierarchy": "System Console Readline",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.Readline",
           "name": "usernameCompletionFunction",
           "normalized": "String-\u003eIO[String]",
@@ -3284,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple line editor, using the GNU readline library if available,\n or a small emulation otherwise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.SimpleLineEditor",
           "name": "SimpleLineEditor",
           "package": "readline",
@@ -3293,6 +3574,7 @@
         "index": {
           "description": "simple line editor using the GNU readline library if available or small emulation otherwise",
           "hierarchy": "System Console SimpleLineEditor",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.SimpleLineEditor",
           "name": "SimpleLineEditor",
           "package": "readline",
@@ -3307,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove the given string from immediately behind (to the left of) the\n   current cursor position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.SimpleLineEditor",
           "name": "delChars",
           "package": "readline",
@@ -3317,6 +3600,7 @@
         "index": {
           "description": "Remove the given string from immediately behind to the left of the current cursor position",
           "hierarchy": "System Console SimpleLineEditor",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.SimpleLineEditor",
           "name": "delChars",
           "normalized": "String-\u003eIO()",
@@ -3332,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.SimpleLineEditor",
           "name": "getLineEdited",
           "package": "readline",
@@ -3341,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "System Console SimpleLineEditor",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.SimpleLineEditor",
           "name": "getLineEdited",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -3357,6 +3643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet up the environment so that the terminal passes characters directly\n   into the Haskell program, for immediate interpretation by the line editor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.SimpleLineEditor",
           "name": "initialise",
           "package": "readline",
@@ -3367,6 +3654,7 @@
         "index": {
           "description": "Set up the environment so that the terminal passes characters directly into the Haskell program for immediate interpretation by the line editor",
           "hierarchy": "System Console SimpleLineEditor",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.SimpleLineEditor",
           "name": "initialise",
           "normalized": "IO()",
@@ -3382,6 +3670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestore the environment so that the terminal is usable in normal\n   mode once again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:44 UTC 2014",
           "module": "System.Console.SimpleLineEditor",
           "name": "restore",
           "package": "readline",
@@ -3392,6 +3681,7 @@
         "index": {
           "description": "Restore the environment so that the terminal is usable in normal mode once again",
           "hierarchy": "System Console SimpleLineEditor",
+          "indexed": "2014-03-11T19:49:44",
           "module": "System.Console.SimpleLineEditor",
           "name": "restore",
           "normalized": "IO()",

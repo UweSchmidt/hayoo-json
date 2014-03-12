@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epub"
+        "phrase": "epub",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOpen Container Format 1.0\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "OCF",
           "package": "epub",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Open Container Format",
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "OCF",
           "package": "epub",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "containerXMLFile",
           "package": "epub",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "containerXMLFile",
           "normalized": "FilePath-\u003eString-\u003e(FilePath,ByteString)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "containerXMLFile'",
           "package": "epub",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "containerXMLFile'",
           "normalized": "FilePath-\u003e(FilePath,ByteString)",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "defaultMediatype",
           "package": "epub",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "defaultMediatype",
           "package": "epub",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "defaultMimetype",
           "package": "epub",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "defaultMimetype",
           "package": "epub",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OCF",
           "name": "mimetypeFile",
           "package": "epub",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OCF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OCF",
           "name": "mimetypeFile",
           "normalized": "(FilePath,ByteString)",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OPF",
           "name": "OPF",
           "package": "epub",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OPF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OPF",
           "name": "OPF",
           "package": "epub",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OPF",
           "name": "ncxXML",
           "package": "epub",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OPF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OPF",
           "name": "ncxXML",
           "normalized": "Book-\u003eByteString",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OPF",
           "name": "opfFiles",
           "package": "epub",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OPF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OPF",
           "name": "opfFiles",
           "normalized": "Book-\u003eFilePath-\u003e[(FilePath,ByteString)]",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.OPF",
           "name": "opfXML",
           "package": "epub",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook OPF",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.OPF",
           "name": "opfXML",
           "normalized": "Book-\u003eFilePath-\u003eByteString",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "Types",
           "package": "epub",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "Types",
           "package": "epub",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "Book",
           "package": "epub",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "Book",
           "package": "epub",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "BookItem",
           "package": "epub",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "BookItem",
           "package": "epub",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "Metadata",
           "package": "epub",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "Metadata",
           "package": "epub",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "Book",
           "package": "epub",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "Book",
           "package": "epub",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "BookItem",
           "package": "epub",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "BookItem",
           "package": "epub",
@@ -378,6 +410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "ChapterMetadata",
           "package": "epub",
@@ -387,6 +420,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "ChapterMetadata",
           "package": "epub",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "addItem2Book",
           "package": "epub",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "addItem2Book",
           "normalized": "Book-\u003eBookItem-\u003eBook",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookAuthor",
           "package": "epub",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookAuthor",
           "package": "epub",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookFiles",
           "package": "epub",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookFiles",
           "normalized": "Book-\u003e[(FilePath,ByteString)]",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookID",
           "package": "epub",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookID",
           "package": "epub",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookItems",
           "package": "epub",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookItems",
           "normalized": "[BookItem]",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookLang",
           "package": "epub",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookLang",
           "package": "epub",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "bookTitle",
           "package": "epub",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "bookTitle",
           "package": "epub",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "chapterItems",
           "package": "epub",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "chapterItems",
           "normalized": "[BookItem]-\u003e[BookItem]",
@@ -584,6 +634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "chapterTitle",
           "package": "epub",
@@ -593,6 +644,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "chapterTitle",
           "package": "epub",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "emptyBook",
           "package": "epub",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "emptyBook",
           "package": "epub",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "itemContent",
           "package": "epub",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "itemContent",
           "package": "epub",
@@ -650,6 +706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "itemFileName",
           "package": "epub",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "itemFileName",
           "package": "epub",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "itemID",
           "package": "epub",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "itemID",
           "package": "epub",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "itemMediaType",
           "package": "epub",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "itemMediaType",
           "package": "epub",
@@ -716,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "itemMetadata",
           "package": "epub",
@@ -725,6 +788,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "itemMetadata",
           "package": "epub",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook.Types",
           "name": "str2bstr",
           "package": "epub",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook Types",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook.Types",
           "name": "str2bstr",
           "normalized": "String-\u003eByteString",
@@ -761,6 +827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "EBook",
           "package": "epub",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "EBook",
           "package": "epub",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "book2Arch",
           "package": "epub",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "book2Arch",
           "normalized": "Book-\u003eInteger-\u003eArchive",
@@ -806,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "book2Arch'",
           "package": "epub",
@@ -815,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "book2Arch'",
           "normalized": "Book-\u003eIO Archive",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "book2Bin",
           "package": "epub",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "book2Bin",
           "normalized": "Book-\u003eInteger-\u003eByteString",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "book2Bin'",
           "package": "epub",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "book2Bin'",
           "normalized": "Book-\u003eIO ByteString",
@@ -878,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:21 UTC 2014",
           "module": "Codec.EBook",
           "name": "opsMediatype",
           "package": "epub",
@@ -887,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Codec EBook",
+          "indexed": "2014-03-11T18:03:21",
           "module": "Codec.EBook",
           "name": "opsMediatype",
           "package": "epub",

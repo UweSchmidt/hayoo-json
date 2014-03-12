@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "manatee-imageviewer"
+        "phrase": "manatee-imageviewer",
+        "type": "phrase"
       },
       "type": "context"
     }

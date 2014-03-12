@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "watchdog"
+        "phrase": "watchdog",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHow to use:\n\u003c/p\u003e\u003cpre\u003e import Control.Watchdog\n import Data.Time\n\n errorProneTask :: IO (Either String ())\n errorProneTask = do\n     getCurrentTime \u003e\u003e= print\n     return $ Left \"some error\"\n\n main = watchdog $ watch errorProneTask\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\n 2012-07-09 21:48:19.592252 UTC\n Watchdog: Error executing task (some error) - waiting 1s before trying again.\n 2012-07-09 21:48:20.594381 UTC\n Watchdog: Error executing task (some error) - waiting 2s before trying again.\n 2012-07-09 21:48:22.597069 UTC\n Watchdog: Error executing task (some error) - waiting 4s before trying again.\n ...\n\u003c/pre\u003e\u003cp\u003eAlternatively the watchdog can stop after a certain number of attempts:\n\u003c/p\u003e\u003cpre\u003e import Control.Watchdog\n import Data.Time\n\n errorProneTask :: IO (Either String ())\n errorProneTask = do\n     getCurrentTime \u003e\u003e= print\n     return $ Left \"some error\"\n\n main = do\n     result \u003c- watchdog $ do\n         setMaximumRetries 2\n         watchImpatiently errorProneTask\n     print result\n\u003c/pre\u003e\u003cp\u003eResult:\n\u003c/p\u003e\u003cpre\u003e\n 2012-07-09 21:55:41.046432 UTC\n Watchdog: Error executing task (some error) - waiting 1s before trying again.\n 2012-07-09 21:55:42.047246 UTC\n Watchdog: Error executing task (some error) - waiting 2s before trying again.\n 2012-07-09 21:55:44.049993 UTC\n Left \"some error\"\n\u003c/pre\u003e\u003cp\u003eThe watchdog will execute the task and check the return value, which should\n be an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e value where \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e signals an error and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e signals success.\n\u003c/p\u003e\u003cp\u003eThe watchdog will backoff exponentially (up to a maximum delay) in case of\n persisting errors, but will reset after the task has been running for a while\n without problems (see \u003ccode\u003e\u003ca\u003esetResetDuration\u003c/a\u003e\u003c/code\u003e) and start a new cycle of\n exponential backoff should new errors arise.\n\u003c/p\u003e\u003cp\u003eThe module is intended to be used in different watchdog settings. For example\n to keep an eye on a server process (use \u003ccode\u003e\u003ca\u003ewatch\u003c/a\u003e\u003c/code\u003e and only return a succesful\n result when the server is doing a clean shutdown) or to retry an action\n multiple times, if necessary, before giving up (use \u003ccode\u003e\u003ca\u003ewatchImpatiently\u003c/a\u003e\u003c/code\u003e).  A\n monadic approach is used to modify the various settings. Below is a code\n sample with all possible configuration options and their default values:\n\u003c/p\u003e\u003cpre\u003e import Control.Watchdog\n import Data.Time\n\n errorProneTask :: IO (Either String ())\n errorProneTask = do\n     getCurrentTime \u003e\u003e= print\n     return $ Left \"some error\"\n\n main = watchdog $ do\n         setInitialDelay $ 1 * 10^6      -- 1 second\n         setMaximumDelay $ 300 * 10^6    -- 300 seconds\n         setMaximumRetries 10            -- has no effect when using 'watch'\n         setResetDuration $ 30 * 10^6    -- 30 seconds\n         setLoggingAction defaultLogger\n         watch errorProneTask\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "Watchdog",
           "package": "watchdog",
@@ -28,6 +29,7 @@
         "index": {
           "description": "How to use import Control.Watchdog import Data.Time errorProneTask IO Either String errorProneTask do getCurrentTime print return Left some error main watchdog watch errorProneTask Result UTC Watchdog Error executing task some error waiting before trying again UTC Watchdog Error executing task some error waiting before trying again UTC Watchdog Error executing task some error waiting before trying again Alternatively the watchdog can stop after certain number of attempts import Control.Watchdog import Data.Time errorProneTask IO Either String errorProneTask do getCurrentTime print return Left some error main do result watchdog do setMaximumRetries watchImpatiently errorProneTask print result Result UTC Watchdog Error executing task some error waiting before trying again UTC Watchdog Error executing task some error waiting before trying again UTC Left some error The watchdog will execute the task and check the return value which should be an Either value where Left signals an error and Right signals success The watchdog will backoff exponentially up to maximum delay in case of persisting errors but will reset after the task has been running for while without problems see setResetDuration and start new cycle of exponential backoff should new errors arise The module is intended to be used in different watchdog settings For example to keep an eye on server process use watch and only return succesful result when the server is doing clean shutdown or to retry an action multiple times if necessary before giving up use watchImpatiently monadic approach is used to modify the various settings Below is code sample with all possible configuration options and their default values import Control.Watchdog import Data.Time errorProneTask IO Either String errorProneTask do getCurrentTime print return Left some error main watchdog do setInitialDelay second setMaximumDelay seconds setMaximumRetries has no effect when using watch setResetDuration seconds setLoggingAction defaultLogger watch errorProneTask",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "Watchdog",
           "package": "watchdog",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "WatchdogAction",
           "package": "watchdog",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "WatchdogAction",
           "package": "watchdog",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for a watchdog logger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "WatchdogLogger",
           "package": "watchdog",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Type synonym for watchdog logger",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "WatchdogLogger",
           "package": "watchdog",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default logging action. It will call \u003ccode\u003e\u003ca\u003eformatWatchdogError\u003c/a\u003e\u003c/code\u003e and display\n the result on STDOUT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "defaultLogger",
           "package": "watchdog",
@@ -96,6 +103,7 @@
         "index": {
           "description": "The default logging action It will call formatWatchdogError and display the result on STDOUT",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "defaultLogger",
           "package": "watchdog",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat the watchdog status report. Will produce output like this:\n\u003c/p\u003e\u003cpre\u003e\n Watchdog: Error executing task (some error) - trying again immediately.\n Watchdog: Error executing task (some error) - waiting 1s before trying again.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "formatWatchdogError",
           "package": "watchdog",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Format the watchdog status report Will produce output like this Watchdog Error executing task some error trying again immediately Watchdog Error executing task some error waiting before trying again",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "formatWatchdogError",
           "normalized": "String-\u003eMaybe Int-\u003eString",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the initial delay in microseconds. The first time the watchdog pauses\n will be for this amount of time. The default is 1 second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "setInitialDelay",
           "package": "watchdog",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Set the initial delay in microseconds The first time the watchdog pauses will be for this amount of time The default is second",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "setInitialDelay",
           "normalized": "Int-\u003eWatchdogAction()",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the logging action that will be called by the watchdog. The supplied\n function of type \u003ccode\u003e\u003ca\u003eWatchdogLogger\u003c/a\u003e\u003c/code\u003e will be provided with the error message of\n the task and either \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the watchdog will retry immediately or 'Just\n delay' if the watchdog will now pause for the specified amount of time before\n trying again.  The default is \u003ccode\u003e\u003ca\u003edefaultLogger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "setLoggingAction",
           "package": "watchdog",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Set the logging action that will be called by the watchdog The supplied function of type WatchdogLogger will be provided with the error message of the task and either Nothing if the watchdog will retry immediately or Just delay if the watchdog will now pause for the specified amount of time before trying again The default is defaultLogger",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "setLoggingAction",
           "normalized": "WatchdogLogger-\u003eWatchdogAction()",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the maximum delay in microseconds. When a task fails to execute\n properly multiple times in quick succession, the delay is doubled each time\n until it stays constant at the maximum delay. The default is 300 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "setMaximumDelay",
           "package": "watchdog",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Set the maximum delay in microseconds When task fails to execute properly multiple times in quick succession the delay is doubled each time until it stays constant at the maximum delay The default is seconds",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "setMaximumDelay",
           "normalized": "Int-\u003eWatchdogAction()",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the number of retries after which the watchdog will give up and\n return with a permanent error. This setting is only used in combination with\n \u003ccode\u003e\u003ca\u003ewatchImpatiently\u003c/a\u003e\u003c/code\u003e. The default is 10.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "setMaximumRetries",
           "package": "watchdog",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Set the number of retries after which the watchdog will give up and return with permanent error This setting is only used in combination with watchImpatiently The default is",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "setMaximumRetries",
           "normalized": "Integer-\u003eWatchdogAction()",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a task has been running for some time, the watchdog will consider\n the next failure to be something unrelated and reset the waiting time\n back to the initial delay. This function sets the amount of time in\n microseconds that needs to pass before the watchdog will consider a task to\n be successfully running. The default is 30 seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "setResetDuration",
           "package": "watchdog",
@@ -249,6 +268,7 @@
         "index": {
           "description": "If task has been running for some time the watchdog will consider the next failure to be something unrelated and reset the waiting time back to the initial delay This function sets the amount of time in microseconds that needs to pass before the watchdog will consider task to be successfully running The default is seconds",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "setResetDuration",
           "normalized": "Int-\u003eWatchdogAction()",
@@ -265,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisable logging by passing this function to \u003ccode\u003e\u003ca\u003esetLoggingAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "silentLogger",
           "package": "watchdog",
@@ -275,6 +296,7 @@
         "index": {
           "description": "Disable logging by passing this function to setLoggingAction",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "silentLogger",
           "package": "watchdog",
@@ -289,6 +311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch a task, restarting it potentially forever or until it returns with a\n result. The task should return an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e, where \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e in combination with\n an error message signals an error and \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e with an arbitrary result\n signals success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "watch",
           "package": "watchdog",
@@ -299,6 +322,7 @@
         "index": {
           "description": "Watch task restarting it potentially forever or until it returns with result The task should return an Either where Left in combination with an error message signals an error and Right with an arbitrary result signals success",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "watch",
           "normalized": "IO(Either String a)-\u003eWatchdogAction a",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWatch a task, but only restart it a limited number of times (see\n \u003ccode\u003e\u003ca\u003esetMaximumRetries\u003c/a\u003e\u003c/code\u003e). If the failure persists, it will be returned as a \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e,\n otherwise it will be \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e with the result of the task.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "watchImpatiently",
           "package": "watchdog",
@@ -324,6 +349,7 @@
         "index": {
           "description": "Watch task but only restart it limited number of times see setMaximumRetries If the failure persists it will be returned as Left otherwise it will be Right with the result of the task",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "watchImpatiently",
           "normalized": "IO(Either String a)-\u003eWatchdogAction(Either String a)",
@@ -340,6 +366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Watchdog monad. Used to configure and eventually run a watchdog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:37:20 UTC 2014",
           "module": "Control.Watchdog",
           "name": "watchdog",
           "package": "watchdog",
@@ -350,6 +377,7 @@
         "index": {
           "description": "The Watchdog monad Used to configure and eventually run watchdog",
           "hierarchy": "Control Watchdog",
+          "indexed": "2014-03-11T20:37:20",
           "module": "Control.Watchdog",
           "name": "watchdog",
           "normalized": "WatchdogAction a-\u003eIO a",

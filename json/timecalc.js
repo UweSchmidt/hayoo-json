@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timecalc"
+        "phrase": "timecalc",
+        "type": "phrase"
       },
       "type": "context"
     }

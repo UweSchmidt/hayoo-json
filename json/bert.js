@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bert"
+        "phrase": "bert",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBERP (BERT packets) support.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -28,6 +29,7 @@
         "index": {
           "description": "BERP BERT packets support",
           "hierarchy": "Data BERT Packet",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single BERP. Little more than a wrapper for a term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -51,6 +54,7 @@
         "index": {
           "description": "single BERP Little more than wrapper for term",
           "hierarchy": "Data BERT Packet",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Packet",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Packet",
           "name": "Packet",
           "package": "bert",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Packet",
           "name": "fromPacket",
           "package": "bert",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Packet",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Packet",
           "name": "fromPacket",
           "normalized": "Packet-\u003eTerm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse (simple) BERTs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Parser",
           "name": "Parser",
           "package": "bert",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Parse simple BERTs",
           "hierarchy": "Data BERT Parser",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Parser",
           "name": "Parser",
           "package": "bert",
@@ -161,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefine BERT terms their binary encoding & decoding and a typeclass\n for converting Haskell values to BERT terms and back.\n\u003c/p\u003e\u003cp\u003eWe define a number of convenient instances for \u003ccode\u003e\u003ca\u003eBERT\u003c/a\u003e\u003c/code\u003e. Users will\n probably want to define their own instances for composite types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Term",
           "name": "Term",
           "package": "bert",
@@ -170,6 +181,7 @@
         "index": {
           "description": "Define BERT terms their binary encoding decoding and typeclass for converting Haskell values to BERT terms and back We define number of convenient instances for BERT Users will probably want to define their own instances for composite types",
           "hierarchy": "Data BERT Term",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Term",
           "name": "Term",
           "package": "bert",
@@ -183,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Term",
           "name": "BERT",
           "package": "bert",
@@ -191,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Term",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Term",
           "name": "BERT",
           "package": "bert",
@@ -205,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to read a haskell value from a \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Term",
           "name": "readBERT",
           "package": "bert",
@@ -215,6 +230,7 @@
         "index": {
           "description": "Attempt to read haskell value from Term",
           "hierarchy": "Data BERT Term",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Term",
           "name": "readBERT",
           "normalized": "Term-\u003eEither String a",
@@ -231,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntroduce a \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e from a Haskell value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Term",
           "name": "showBERT",
           "package": "bert",
@@ -241,6 +258,7 @@
         "index": {
           "description": "Introduce Term from Haskell value",
           "hierarchy": "Data BERT Term",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Term",
           "name": "showBERT",
           "normalized": "a-\u003eTerm",
@@ -256,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Term",
           "name": "showTerm",
           "package": "bert",
@@ -265,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Term",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Term",
           "name": "showTerm",
           "normalized": "Term-\u003eString",
@@ -281,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Term type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "Types",
           "package": "bert",
@@ -290,6 +311,7 @@
         "index": {
           "description": "The Term type",
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "Types",
           "package": "bert",
@@ -304,6 +326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single BERT term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "Term",
           "package": "bert",
@@ -313,6 +336,7 @@
         "index": {
           "description": "single BERT term",
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "Term",
           "package": "bert",
@@ -326,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "AtomTerm",
           "package": "bert",
@@ -335,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "AtomTerm",
           "package": "bert",
@@ -348,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "BigbigintTerm",
           "package": "bert",
@@ -357,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "BigbigintTerm",
           "package": "bert",
@@ -370,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "BigintTerm",
           "package": "bert",
@@ -379,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "BigintTerm",
           "package": "bert",
@@ -392,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "BinaryTerm",
           "package": "bert",
@@ -401,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "BinaryTerm",
           "package": "bert",
@@ -414,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "BoolTerm",
           "package": "bert",
@@ -423,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "BoolTerm",
           "package": "bert",
@@ -436,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "BytelistTerm",
           "package": "bert",
@@ -445,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "BytelistTerm",
           "package": "bert",
@@ -458,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "DictionaryTerm",
           "package": "bert",
@@ -467,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "DictionaryTerm",
           "normalized": "DictionaryTerm[(Term,Term)]",
@@ -482,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "FloatTerm",
           "package": "bert",
@@ -491,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "FloatTerm",
           "package": "bert",
@@ -504,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "IntTerm",
           "package": "bert",
@@ -513,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "IntTerm",
           "package": "bert",
@@ -526,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "ListTerm",
           "package": "bert",
@@ -535,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "ListTerm",
           "normalized": "ListTerm[Term]",
@@ -550,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "NilTerm",
           "package": "bert",
@@ -559,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "NilTerm",
           "package": "bert",
@@ -572,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "RegexTerm",
           "package": "bert",
@@ -581,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "RegexTerm",
           "normalized": "RegexTerm String[String]",
@@ -596,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "TimeTerm",
           "package": "bert",
@@ -605,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "TimeTerm",
           "package": "bert",
@@ -618,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT.Types",
           "name": "TupleTerm",
           "package": "bert",
@@ -627,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Data BERT Types",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT.Types",
           "name": "TupleTerm",
           "normalized": "TupleTerm[Term]",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBERT (Erlang terms) implementation. See \u003ca\u003ehttp://bert-rpc.org/\u003c/a\u003e and\n \u003ca\u003ehttp://erlang.org/doc/apps/erts/erl_ext_dist.html\u003c/a\u003e for more\n details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Data.BERT",
           "name": "BERT",
           "package": "bert",
@@ -652,6 +705,7 @@
         "index": {
           "description": "BERT Erlang terms implementation See http bert-rpc.org and http erlang.org doc apps erts erl ext dist.html for more details",
           "hierarchy": "Data BERT",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Data.BERT",
           "name": "BERT",
           "package": "bert",
@@ -666,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBERT-RPC client (\u003ca\u003ehttp://bert-rpc.org/\u003c/a\u003e). This implements the client RPC call logic.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "Client",
           "package": "bert",
@@ -675,6 +730,7 @@
         "index": {
           "description": "BERT-RPC client http bert-rpc.org This implements the client RPC call logic",
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "Client",
           "package": "bert",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience type for \u003ccode\u003ecall\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "Call",
           "package": "bert",
@@ -698,6 +755,7 @@
         "index": {
           "description": "Convenience type for call",
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "Call",
           "package": "bert",
@@ -711,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "Error",
           "package": "bert",
@@ -719,6 +778,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "Error",
           "package": "bert",
@@ -732,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "ClientError",
           "package": "bert",
@@ -741,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "ClientError",
           "package": "bert",
@@ -754,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "ServerError",
           "package": "bert",
@@ -763,6 +826,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "ServerError",
           "package": "bert",
@@ -777,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall the \u003ccode\u003e{mod, func, args}\u003c/code\u003e synchronously on the endpoint\n defined by \u003ccode\u003etransport\u003c/code\u003e, returning the results of the call or an\n error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Client",
           "name": "call",
           "package": "bert",
@@ -787,6 +852,7 @@
         "index": {
           "description": "Call the mod func args synchronously on the endpoint defined by transport returning the results of the call or an error",
           "hierarchy": "Network BERT Client",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Client",
           "name": "call",
           "normalized": "a-\u003eString-\u003eString-\u003e[b]-\u003eCall c",
@@ -829,6 +895,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBERT-RPC server (\u003ca\u003ehttp://bert-rpc.org/\u003c/a\u003e). This implements the\n client RPC call/reply logic. Only synchronous requests are\n supported at this time.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "Server",
           "package": "bert",
@@ -838,6 +905,7 @@
         "index": {
           "description": "BERT-RPC server http bert-rpc.org This implements the client RPC call reply logic Only synchronous requests are supported at this time",
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "Server",
           "package": "bert",
@@ -851,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "DispatchResult",
           "package": "bert",
@@ -859,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "DispatchResult",
           "package": "bert",
@@ -872,6 +942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "NoSuchFunction",
           "package": "bert",
@@ -881,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "NoSuchFunction",
           "package": "bert",
@@ -894,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "NoSuchModule",
           "package": "bert",
@@ -903,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "NoSuchModule",
           "package": "bert",
@@ -916,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "Success",
           "package": "bert",
@@ -925,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "Success",
           "package": "bert",
@@ -938,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "Undesignated",
           "package": "bert",
@@ -947,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "Undesignated",
           "package": "bert",
@@ -961,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServe from the given transport (forever), handling each request\n with the given dispatch function in a new thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Server",
           "name": "serve",
           "package": "bert",
@@ -971,6 +1050,7 @@
         "index": {
           "description": "Serve from the given transport forever handling each request with the given dispatch function in new thread",
           "hierarchy": "Network BERT Server",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Server",
           "name": "serve",
           "normalized": "a-\u003e(String-\u003eString-\u003e[Term]-\u003eIO DispatchResult)-\u003eIO()",
@@ -1013,6 +1093,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnderlying transport abstraction\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "Transport",
           "package": "bert",
@@ -1022,6 +1103,7 @@
         "index": {
           "description": "Underlying transport abstraction",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "Transport",
           "package": "bert",
@@ -1036,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function to send packets to the peer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "SendPacketFn",
           "package": "bert",
@@ -1045,6 +1128,7 @@
         "index": {
           "description": "function to send packets to the peer",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "SendPacketFn",
           "package": "bert",
@@ -1058,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "Server",
           "package": "bert",
@@ -1066,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "Server",
           "package": "bert",
@@ -1080,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP transport\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "TCP",
           "package": "bert",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "The TCP transport",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "TCP",
           "package": "bert",
@@ -1103,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TCP server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "TCPServer",
           "package": "bert",
@@ -1112,6 +1201,7 @@
         "index": {
           "description": "The TCP server",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "TCPServer",
           "package": "bert",
@@ -1126,6 +1216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class for transports\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "Transport",
           "package": "bert",
@@ -1135,6 +1226,7 @@
         "index": {
           "description": "The class for transports",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "Transport",
           "package": "bert",
@@ -1149,6 +1241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transport monad allows receiving packets through the conduit,\n and sending functions via the provided \u003ccode\u003e\u003ca\u003eSendPacketFn\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "TransportM",
           "package": "bert",
@@ -1158,6 +1251,7 @@
         "index": {
           "description": "The transport monad allows receiving packets through the conduit and sending functions via the provided SendPacketFn",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "TransportM",
           "package": "bert",
@@ -1171,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "TCP",
           "package": "bert",
@@ -1180,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "TCP",
           "package": "bert",
@@ -1193,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "TCPServer",
           "package": "bert",
@@ -1202,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "TCPServer",
           "package": "bert",
@@ -1216,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree any resources that the server has acquired (such as the\n listening socket)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "cleanup",
           "package": "bert",
@@ -1226,6 +1325,7 @@
         "index": {
           "description": "Free any resources that the server has acquired such as the listening socket",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "cleanup",
           "normalized": "a-\u003eIO()",
@@ -1240,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "closeConnection",
           "package": "bert",
@@ -1249,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "closeConnection",
           "normalized": "a-\u003eIO()",
@@ -1265,6 +1367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe listening socket. Assumed to be bound but not listening yet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "getTcpListenSocket",
           "package": "bert",
@@ -1275,6 +1378,7 @@
         "index": {
           "description": "The listening socket Assumed to be bound but not listening yet",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "getTcpListenSocket",
           "package": "bert",
@@ -1289,6 +1393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe socket used for communication.\n\u003c/p\u003e\u003cp\u003eThe connection is assumed to be already established when this\n structure is passed in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "getTcpSocket",
           "package": "bert",
@@ -1299,6 +1404,7 @@
         "index": {
           "description": "The socket used for communication The connection is assumed to be already established when this structure is passed in",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "getTcpSocket",
           "package": "bert",
@@ -1313,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive a term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "recvt",
           "package": "bert",
@@ -1323,6 +1430,7 @@
         "index": {
           "description": "Receive term",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "recvt",
           "package": "bert",
@@ -1336,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute an action for every incoming term, until the connection is\n closed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "recvtForever",
           "package": "bert",
@@ -1346,6 +1455,7 @@
         "index": {
           "description": "Execute an action for every incoming term until the connection is closed",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "recvtForever",
           "normalized": "(Term-\u003eTransportM a)-\u003eTransportM()",
@@ -1362,6 +1472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple address resolver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "resolve",
           "package": "bert",
@@ -1372,6 +1483,7 @@
         "index": {
           "description": "simple address resolver",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "resolve",
           "normalized": "HostName-\u003eIO HostAddress",
@@ -1387,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis method should listen for incoming requests, establish some\n sort of a connection (represented by the transport) and then invoke\n the handling function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "runServer",
           "package": "bert",
@@ -1397,6 +1510,7 @@
         "index": {
           "description": "This method should listen for incoming requests establish some sort of connection represented by the transport and then invoke the handling function",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "runServer",
           "normalized": "a-\u003e(ServerTransport a-\u003eIO())-\u003eIO()",
@@ -1412,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "runSession",
           "package": "bert",
@@ -1421,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "runSession",
           "normalized": "a-\u003eTransportM b-\u003eIO b",
@@ -1437,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a term\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT.Transport",
           "name": "sendt",
           "package": "bert",
@@ -1447,6 +1564,7 @@
         "index": {
           "description": "Send term",
           "hierarchy": "Network BERT Transport",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT.Transport",
           "name": "sendt",
           "normalized": "Term-\u003eTransportM()",
@@ -1462,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBERT-RPC client (\u003ca\u003ehttp://bert-rpc.org/\u003c/a\u003e). See \u003ca\u003eNetwork.BERT.Client\u003c/a\u003e and \u003ca\u003eNetwork.BERT.Server\u003c/a\u003e for more details.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:17:57 UTC 2014",
           "module": "Network.BERT",
           "name": "BERT",
           "package": "bert",
@@ -1471,6 +1590,7 @@
         "index": {
           "description": "BERT-RPC client http bert-rpc.org See Network.BERT.Client and Network.BERT.Server for more details",
           "hierarchy": "Network BERT",
+          "indexed": "2014-03-11T17:17:57",
           "module": "Network.BERT",
           "name": "BERT",
           "package": "bert",

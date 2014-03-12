@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "campfire"
+        "phrase": "campfire",
+        "type": "phrase"
       },
       "type": "context"
     }

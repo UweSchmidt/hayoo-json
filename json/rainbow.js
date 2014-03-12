@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "rainbow"
+        "phrase": "rainbow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHandles colors and special effects for text. Internally this\n module uses the Haskell terminfo library, which links against the\n UNIX library of the same name, so it should work with a wide\n variety of UNIX terminals.\n\u003c/p\u003e\u003cp\u003eThe building block of Rainbow is the \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e. Each \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e comes with\n a \u003ccode\u003e\u003ca\u003eTextSpec\u003c/a\u003e\u003c/code\u003e, which specifies how the text should look on 8-color\n and on 256-color terminals. The \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e is a full specification; that\n is, although \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es are typically printed one after the other, the\n appearance of one \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e does not affect the appearance of the next\n \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eYou have full freedom to specify different attributes and colors\n for 8 and 256 color terminals; for instance, you can have text\n appear red on an 8-color terminal but blue on a 256-color terminal.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, so you can combine them using the usual\n monoid functions, including \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e. You can create a \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003e with\n text using \u003ccode\u003efromString\u003c/code\u003e, but this library is much more usable if\n you enable the OverloadedStrings GHC extension:\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\u003c/pre\u003e\u003cp\u003eand all future examples assume you have enabled OverloadedStrings.\n\u003c/p\u003e\u003cp\u003eHere are some basic examples:\n\u003c/p\u003e\u003cpre\u003e putChunkLn $ \"Some blue text\" \u003c\u003e f_blue\n putChunkLn $ \"Blue on red background\" \u003c\u003e f_blue \u003c\u003e b_red\n putChunkLn $ \"Blue on red, foreground bold\" \u003c\u003e f_blue \u003c\u003e b_red \u003c\u003e bold\n\u003c/pre\u003e\u003cp\u003eBut what makes Rainbow a little more interesting is that you can\n also specify output for 256-color terminals. To use these examples,\n be sure your TERM environment variable is set to something that\n supports 256 colors (like \u003ccode\u003exterm-256color\u003c/code\u003e) before you start GHCi:\n\u003c/p\u003e\u003cpre\u003e putChunkLn $ \"Blue on 8-color terminal, red on 256-color terminal\"\n            \u003c\u003e c8_f_blue \u003c\u003e c256_f_red\n\u003c/pre\u003e\u003cp\u003eIf \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e multiple chunks that change the same property, the\n rightmost one \"wins\":\n\u003c/p\u003e\u003cpre\u003e putChunkLn $ \"This will be blue\" \u003c\u003e f_red \u003c\u003e f_blue\n\u003c/pre\u003e\u003cp\u003eThis property comes in handy if you want to specify a default color\n for 8- and 256-color terminals, then a more specific shade for a\n 256-color terminal:\n\u003c/p\u003e\u003cpre\u003e putChunkLn $ \"Pink\" \u003c\u003e f_red \u003c\u003e c256_f_201\n\u003c/pre\u003e\u003cp\u003eHowever, if you use \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e to add additional \u003ccode\u003e\u003ca\u003eChunk\u003c/a\u003e\u003c/code\u003es that have\n text, the text will be appended:\n\u003c/p\u003e\u003cpre\u003e putChunkLn $ f_green \u003c\u003e \"You will see this text \"\n              \u003c\u003e \"and this text too, but it will all be blue\"\n              \u003c\u003e f_blue\n\u003c/pre\u003e\u003cp\u003eAlthough one chunk can have different colors on 8- and 256-color\n terminals, it cannot have different colors on the same\n terminal. That is, if you want to print some text in one color and\n some text in another color, make two chunks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Rainbow",
           "package": "rainbow",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Handles colors and special effects for text Internally this module uses the Haskell terminfo library which links against the UNIX library of the same name so it should work with wide variety of UNIX terminals The building block of Rainbow is the Chunk Each Chunk comes with TextSpec which specifies how the text should look on color and on color terminals The Chunk is full specification that is although Chunk are typically printed one after the other the appearance of one Chunk does not affect the appearance of the next Chunk You have full freedom to specify different attributes and colors for and color terminals for instance you can have text appear red on an color terminal but blue on color terminal Chunk is Monoid so you can combine them using the usual monoid functions including You can create Chunk with text using fromString but this library is much more usable if you enable the OverloadedStrings GHC extension LANGUAGE OverloadedStrings and all future examples assume you have enabled OverloadedStrings Here are some basic examples putChunkLn Some blue text blue putChunkLn Blue on red background blue red putChunkLn Blue on red foreground bold blue red bold But what makes Rainbow little more interesting is that you can also specify output for color terminals To use these examples be sure your TERM environment variable is set to something that supports colors like xterm-256color before you start GHCi putChunkLn Blue on color terminal red on color terminal c8 blue c256 red If mappend multiple chunks that change the same property the rightmost one wins putChunkLn This will be blue red blue This property comes in handy if you want to specify default color for and color terminals then more specific shade for color terminal putChunkLn Pink red c256 However if you use mappend to add additional Chunk that have text the text will be appended putChunkLn green You will see this text and this text too but it will all be blue blue Although one chunk can have different colors on and color terminals it cannot have different colors on the same terminal That is if you want to print some text in one color and some text in another color make two chunks",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Rainbow",
           "package": "rainbow",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Background256",
           "package": "rainbow",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Background256",
           "package": "rainbow",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Background8",
           "package": "rainbow",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Background8",
           "package": "rainbow",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA chunk is some textual data coupled with a description of what\n color the text is, attributes like whether it is bold or\n underlined, etc. The chunk knows what foreground and background\n colors and what attributes to use for both an 8 color terminal and\n a 256 color terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Chunk",
           "package": "rainbow",
@@ -93,6 +100,7 @@
         "index": {
           "description": "chunk is some textual data coupled with description of what color the text is attributes like whether it is bold or underlined etc The chunk knows what foreground and background colors and what attributes to use for both an color terminal and color terminal",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Chunk",
           "package": "rainbow",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Foreground256",
           "package": "rainbow",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Foreground256",
           "package": "rainbow",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Foreground8",
           "package": "rainbow",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Foreground8",
           "package": "rainbow",
@@ -149,6 +161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for string-like datastructures; used by the overloaded string\n   extension (-foverloaded-strings in GHC).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "IsString",
           "package": "rainbow",
@@ -157,6 +170,7 @@
         "index": {
           "description": "Class for string-like datastructures used by the overloaded string extension foverloaded-strings in GHC",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "IsString",
           "package": "rainbow",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Monoid",
           "package": "rainbow",
@@ -179,6 +194,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Monoid",
           "package": "rainbow",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes text appearance (foreground and background colors, as\n well as other attributes such as bold) for a 256 color terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Style256",
           "package": "rainbow",
@@ -202,6 +219,7 @@
         "index": {
           "description": "Describes text appearance foreground and background colors as well as other attributes such as bold for color terminal",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Style256",
           "package": "rainbow",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes text appearance (foreground and background colors, as\n well as other attributes such as bold) for an 8 color terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Style8",
           "package": "rainbow",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Describes text appearance foreground and background colors as well as other attributes such as bold for an color terminal",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Style8",
           "package": "rainbow",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStyle elements that apply in both 8 and 256 color\n terminals. However, the elements are described separately for 8 and\n 256 color terminals, so that the text appearance can change\n depending on how many colors a terminal has.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "StyleCommon",
           "package": "rainbow",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Style elements that apply in both and color terminals However the elements are described separately for and color terminals so that the text appearance can change depending on how many colors terminal has",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "StyleCommon",
           "package": "rainbow",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhich terminal definition to use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Term",
           "package": "rainbow",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Which terminal definition to use",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Term",
           "package": "rainbow",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TextSpec bundles together the styles for the 8 and 256 color\n terminals, so that the text can be portrayed on any terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "TextSpec",
           "package": "rainbow",
@@ -294,6 +319,7 @@
         "index": {
           "description": "The TextSpec bundles together the styles for the and color terminals so that the text can be portrayed on any terminal",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "TextSpec",
           "package": "rainbow",
@@ -308,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "(\u003c\u003e)",
           "package": "rainbow",
@@ -317,6 +344,7 @@
         "index": {
           "description": "An infix synonym for mappend",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Chunk",
           "package": "rainbow",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Chunk",
           "package": "rainbow",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing this terminal should always succeed. This suppresses all\n colors. Uesful if output is not going to a TTY, or if you just do\n not like colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Dumb",
           "package": "rainbow",
@@ -364,6 +395,7 @@
         "index": {
           "description": "Using this terminal should always succeed This suppresses all colors Uesful if output is not going to TTY or if you just do not like colors",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Dumb",
           "package": "rainbow",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Style256",
           "package": "rainbow",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Style256",
           "package": "rainbow",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "Style8",
           "package": "rainbow",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "Style8",
           "package": "rainbow",
@@ -421,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "StyleCommon",
           "package": "rainbow",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "StyleCommon",
           "package": "rainbow",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse the terminal with this given name. You might get this from\n the TERM environment variable, or set it explicitly. A runtime\n error will result if the terminfo database does not have a\n definition for this terminal. If this terminal supports 256\n colors, then 256 colors are used. If this terminal supports less\n than 256 colors, but at least 8 colors, then 8 colors are\n used. Otherwise, no colors are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "TermName",
           "package": "rainbow",
@@ -454,6 +493,7 @@
         "index": {
           "description": "Use the terminal with this given name You might get this from the TERM environment variable or set it explicitly runtime error will result if the terminfo database does not have definition for this terminal If this terminal supports colors then colors are used If this terminal supports less than colors but at least colors then colors are used Otherwise no colors are used",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "TermName",
           "package": "rainbow",
@@ -467,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "TextSpec",
           "package": "rainbow",
@@ -476,6 +517,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "TextSpec",
           "package": "rainbow",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_black",
           "package": "rainbow",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_black",
           "package": "rainbow",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_blue",
           "package": "rainbow",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_blue",
           "package": "rainbow",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_cyan",
           "package": "rainbow",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_cyan",
           "package": "rainbow",
@@ -552,6 +600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_default",
           "package": "rainbow",
@@ -561,6 +610,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_default",
           "package": "rainbow",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_green",
           "package": "rainbow",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_green",
           "package": "rainbow",
@@ -594,6 +646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_magenta",
           "package": "rainbow",
@@ -603,6 +656,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_magenta",
           "package": "rainbow",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_red",
           "package": "rainbow",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_red",
           "package": "rainbow",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_white",
           "package": "rainbow",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_white",
           "package": "rainbow",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "b_yellow",
           "package": "rainbow",
@@ -666,6 +725,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "b_yellow",
           "package": "rainbow",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "background256",
           "package": "rainbow",
@@ -687,6 +748,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "background256",
           "package": "rainbow",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "background8",
           "package": "rainbow",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "background8",
           "package": "rainbow",
@@ -721,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBold. What actually happens when you use Bold is going to depend\n on your terminal. For example, xterm allows you actually use a bold\n font for bold, if you have one. Otherwise, it might simulate bold\n by using overstriking. Another possibility is that your terminal\n might use a different color to indicate bold. For more details (at\n least for xterm), look at xterm (1) and search for \u003ccode\u003eboldColors\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf your terminal uses a different color for bold, this allows an\n 8-color terminal to really have 16 colors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "bold",
           "package": "rainbow",
@@ -731,6 +796,7 @@
         "index": {
           "description": "Bold What actually happens when you use Bold is going to depend on your terminal For example xterm allows you actually use bold font for bold if you have one Otherwise it might simulate bold by using overstriking Another possibility is that your terminal might use different color to indicate bold For more details at least for xterm look at xterm and search for boldColors If your terminal uses different color for bold this allows an color terminal to really have colors",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "bold",
           "package": "rainbow",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "bold256",
           "package": "rainbow",
@@ -752,6 +819,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "bold256",
           "package": "rainbow",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "bold256off",
           "package": "rainbow",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "bold256off",
           "package": "rainbow",
@@ -785,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "bold8",
           "package": "rainbow",
@@ -794,6 +865,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "bold8",
           "package": "rainbow",
@@ -806,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "bold8off",
           "package": "rainbow",
@@ -815,6 +888,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "bold8off",
           "package": "rainbow",
@@ -827,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "boldOff",
           "package": "rainbow",
@@ -836,6 +911,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "boldOff",
           "package": "rainbow",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_0",
           "package": "rainbow",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_0",
           "package": "rainbow",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_1",
           "package": "rainbow",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_1",
           "package": "rainbow",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_10",
           "package": "rainbow",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_10",
           "package": "rainbow",
@@ -912,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_100",
           "package": "rainbow",
@@ -921,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_100",
           "package": "rainbow",
@@ -933,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_101",
           "package": "rainbow",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_101",
           "package": "rainbow",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_102",
           "package": "rainbow",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_102",
           "package": "rainbow",
@@ -975,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_103",
           "package": "rainbow",
@@ -984,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_103",
           "package": "rainbow",
@@ -996,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_104",
           "package": "rainbow",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_104",
           "package": "rainbow",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_105",
           "package": "rainbow",
@@ -1026,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_105",
           "package": "rainbow",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_106",
           "package": "rainbow",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_106",
           "package": "rainbow",
@@ -1059,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_107",
           "package": "rainbow",
@@ -1068,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_107",
           "package": "rainbow",
@@ -1080,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_108",
           "package": "rainbow",
@@ -1089,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_108",
           "package": "rainbow",
@@ -1101,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_109",
           "package": "rainbow",
@@ -1110,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_109",
           "package": "rainbow",
@@ -1122,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_11",
           "package": "rainbow",
@@ -1131,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_11",
           "package": "rainbow",
@@ -1143,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_110",
           "package": "rainbow",
@@ -1152,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_110",
           "package": "rainbow",
@@ -1164,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_111",
           "package": "rainbow",
@@ -1173,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_111",
           "package": "rainbow",
@@ -1185,6 +1293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_112",
           "package": "rainbow",
@@ -1194,6 +1303,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_112",
           "package": "rainbow",
@@ -1206,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_113",
           "package": "rainbow",
@@ -1215,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_113",
           "package": "rainbow",
@@ -1227,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_114",
           "package": "rainbow",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_114",
           "package": "rainbow",
@@ -1248,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_115",
           "package": "rainbow",
@@ -1257,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_115",
           "package": "rainbow",
@@ -1269,6 +1385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_116",
           "package": "rainbow",
@@ -1278,6 +1395,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_116",
           "package": "rainbow",
@@ -1290,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_117",
           "package": "rainbow",
@@ -1299,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_117",
           "package": "rainbow",
@@ -1311,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_118",
           "package": "rainbow",
@@ -1320,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_118",
           "package": "rainbow",
@@ -1332,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_119",
           "package": "rainbow",
@@ -1341,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_119",
           "package": "rainbow",
@@ -1353,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_12",
           "package": "rainbow",
@@ -1362,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_12",
           "package": "rainbow",
@@ -1374,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_120",
           "package": "rainbow",
@@ -1383,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_120",
           "package": "rainbow",
@@ -1395,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_121",
           "package": "rainbow",
@@ -1404,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_121",
           "package": "rainbow",
@@ -1416,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_122",
           "package": "rainbow",
@@ -1425,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_122",
           "package": "rainbow",
@@ -1437,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_123",
           "package": "rainbow",
@@ -1446,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_123",
           "package": "rainbow",
@@ -1458,6 +1592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_124",
           "package": "rainbow",
@@ -1467,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_124",
           "package": "rainbow",
@@ -1479,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_125",
           "package": "rainbow",
@@ -1488,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_125",
           "package": "rainbow",
@@ -1500,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_126",
           "package": "rainbow",
@@ -1509,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_126",
           "package": "rainbow",
@@ -1521,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_127",
           "package": "rainbow",
@@ -1530,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_127",
           "package": "rainbow",
@@ -1542,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_128",
           "package": "rainbow",
@@ -1551,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_128",
           "package": "rainbow",
@@ -1563,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_129",
           "package": "rainbow",
@@ -1572,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_129",
           "package": "rainbow",
@@ -1584,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_13",
           "package": "rainbow",
@@ -1593,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_13",
           "package": "rainbow",
@@ -1605,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_130",
           "package": "rainbow",
@@ -1614,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_130",
           "package": "rainbow",
@@ -1626,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_131",
           "package": "rainbow",
@@ -1635,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_131",
           "package": "rainbow",
@@ -1647,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_132",
           "package": "rainbow",
@@ -1656,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_132",
           "package": "rainbow",
@@ -1668,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_133",
           "package": "rainbow",
@@ -1677,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_133",
           "package": "rainbow",
@@ -1689,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_134",
           "package": "rainbow",
@@ -1698,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_134",
           "package": "rainbow",
@@ -1710,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_135",
           "package": "rainbow",
@@ -1719,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_135",
           "package": "rainbow",
@@ -1731,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_136",
           "package": "rainbow",
@@ -1740,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_136",
           "package": "rainbow",
@@ -1752,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_137",
           "package": "rainbow",
@@ -1761,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_137",
           "package": "rainbow",
@@ -1773,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_138",
           "package": "rainbow",
@@ -1782,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_138",
           "package": "rainbow",
@@ -1794,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_139",
           "package": "rainbow",
@@ -1803,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_139",
           "package": "rainbow",
@@ -1815,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_14",
           "package": "rainbow",
@@ -1824,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_14",
           "package": "rainbow",
@@ -1836,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_140",
           "package": "rainbow",
@@ -1845,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_140",
           "package": "rainbow",
@@ -1857,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_141",
           "package": "rainbow",
@@ -1866,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_141",
           "package": "rainbow",
@@ -1878,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_142",
           "package": "rainbow",
@@ -1887,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_142",
           "package": "rainbow",
@@ -1899,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_143",
           "package": "rainbow",
@@ -1908,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_143",
           "package": "rainbow",
@@ -1920,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_144",
           "package": "rainbow",
@@ -1929,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_144",
           "package": "rainbow",
@@ -1941,6 +2121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_145",
           "package": "rainbow",
@@ -1950,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_145",
           "package": "rainbow",
@@ -1962,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_146",
           "package": "rainbow",
@@ -1971,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_146",
           "package": "rainbow",
@@ -1983,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_147",
           "package": "rainbow",
@@ -1992,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_147",
           "package": "rainbow",
@@ -2004,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_148",
           "package": "rainbow",
@@ -2013,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_148",
           "package": "rainbow",
@@ -2025,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_149",
           "package": "rainbow",
@@ -2034,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_149",
           "package": "rainbow",
@@ -2046,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_15",
           "package": "rainbow",
@@ -2055,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_15",
           "package": "rainbow",
@@ -2067,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_150",
           "package": "rainbow",
@@ -2076,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_150",
           "package": "rainbow",
@@ -2088,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_151",
           "package": "rainbow",
@@ -2097,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_151",
           "package": "rainbow",
@@ -2109,6 +2305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_152",
           "package": "rainbow",
@@ -2118,6 +2315,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_152",
           "package": "rainbow",
@@ -2130,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_153",
           "package": "rainbow",
@@ -2139,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_153",
           "package": "rainbow",
@@ -2151,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_154",
           "package": "rainbow",
@@ -2160,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_154",
           "package": "rainbow",
@@ -2172,6 +2374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_155",
           "package": "rainbow",
@@ -2181,6 +2384,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_155",
           "package": "rainbow",
@@ -2193,6 +2397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_156",
           "package": "rainbow",
@@ -2202,6 +2407,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_156",
           "package": "rainbow",
@@ -2214,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_157",
           "package": "rainbow",
@@ -2223,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_157",
           "package": "rainbow",
@@ -2235,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_158",
           "package": "rainbow",
@@ -2244,6 +2453,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_158",
           "package": "rainbow",
@@ -2256,6 +2466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_159",
           "package": "rainbow",
@@ -2265,6 +2476,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_159",
           "package": "rainbow",
@@ -2277,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_16",
           "package": "rainbow",
@@ -2286,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_16",
           "package": "rainbow",
@@ -2298,6 +2512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_160",
           "package": "rainbow",
@@ -2307,6 +2522,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_160",
           "package": "rainbow",
@@ -2319,6 +2535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_161",
           "package": "rainbow",
@@ -2328,6 +2545,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_161",
           "package": "rainbow",
@@ -2340,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_162",
           "package": "rainbow",
@@ -2349,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_162",
           "package": "rainbow",
@@ -2361,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_163",
           "package": "rainbow",
@@ -2370,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_163",
           "package": "rainbow",
@@ -2382,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_164",
           "package": "rainbow",
@@ -2391,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_164",
           "package": "rainbow",
@@ -2403,6 +2627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_165",
           "package": "rainbow",
@@ -2412,6 +2637,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_165",
           "package": "rainbow",
@@ -2424,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_166",
           "package": "rainbow",
@@ -2433,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_166",
           "package": "rainbow",
@@ -2445,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_167",
           "package": "rainbow",
@@ -2454,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_167",
           "package": "rainbow",
@@ -2466,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_168",
           "package": "rainbow",
@@ -2475,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_168",
           "package": "rainbow",
@@ -2487,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_169",
           "package": "rainbow",
@@ -2496,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_169",
           "package": "rainbow",
@@ -2508,6 +2742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_17",
           "package": "rainbow",
@@ -2517,6 +2752,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_17",
           "package": "rainbow",
@@ -2529,6 +2765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_170",
           "package": "rainbow",
@@ -2538,6 +2775,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_170",
           "package": "rainbow",
@@ -2550,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_171",
           "package": "rainbow",
@@ -2559,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_171",
           "package": "rainbow",
@@ -2571,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_172",
           "package": "rainbow",
@@ -2580,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_172",
           "package": "rainbow",
@@ -2592,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_173",
           "package": "rainbow",
@@ -2601,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_173",
           "package": "rainbow",
@@ -2613,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_174",
           "package": "rainbow",
@@ -2622,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_174",
           "package": "rainbow",
@@ -2634,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_175",
           "package": "rainbow",
@@ -2643,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_175",
           "package": "rainbow",
@@ -2655,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_176",
           "package": "rainbow",
@@ -2664,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_176",
           "package": "rainbow",
@@ -2676,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_177",
           "package": "rainbow",
@@ -2685,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_177",
           "package": "rainbow",
@@ -2697,6 +2949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_178",
           "package": "rainbow",
@@ -2706,6 +2959,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_178",
           "package": "rainbow",
@@ -2718,6 +2972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_179",
           "package": "rainbow",
@@ -2727,6 +2982,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_179",
           "package": "rainbow",
@@ -2739,6 +2995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_18",
           "package": "rainbow",
@@ -2748,6 +3005,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_18",
           "package": "rainbow",
@@ -2760,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_180",
           "package": "rainbow",
@@ -2769,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_180",
           "package": "rainbow",
@@ -2781,6 +3041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_181",
           "package": "rainbow",
@@ -2790,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_181",
           "package": "rainbow",
@@ -2802,6 +3064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_182",
           "package": "rainbow",
@@ -2811,6 +3074,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_182",
           "package": "rainbow",
@@ -2823,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_183",
           "package": "rainbow",
@@ -2832,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_183",
           "package": "rainbow",
@@ -2844,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_184",
           "package": "rainbow",
@@ -2853,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_184",
           "package": "rainbow",
@@ -2865,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_185",
           "package": "rainbow",
@@ -2874,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_185",
           "package": "rainbow",
@@ -2886,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_186",
           "package": "rainbow",
@@ -2895,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_186",
           "package": "rainbow",
@@ -2907,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_187",
           "package": "rainbow",
@@ -2916,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_187",
           "package": "rainbow",
@@ -2928,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_188",
           "package": "rainbow",
@@ -2937,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_188",
           "package": "rainbow",
@@ -2949,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_189",
           "package": "rainbow",
@@ -2958,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_189",
           "package": "rainbow",
@@ -2970,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_19",
           "package": "rainbow",
@@ -2979,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_19",
           "package": "rainbow",
@@ -2991,6 +3271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_190",
           "package": "rainbow",
@@ -3000,6 +3281,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_190",
           "package": "rainbow",
@@ -3012,6 +3294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_191",
           "package": "rainbow",
@@ -3021,6 +3304,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_191",
           "package": "rainbow",
@@ -3033,6 +3317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_192",
           "package": "rainbow",
@@ -3042,6 +3327,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_192",
           "package": "rainbow",
@@ -3054,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_193",
           "package": "rainbow",
@@ -3063,6 +3350,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_193",
           "package": "rainbow",
@@ -3075,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_194",
           "package": "rainbow",
@@ -3084,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_194",
           "package": "rainbow",
@@ -3096,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_195",
           "package": "rainbow",
@@ -3105,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_195",
           "package": "rainbow",
@@ -3117,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_196",
           "package": "rainbow",
@@ -3126,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_196",
           "package": "rainbow",
@@ -3138,6 +3432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_197",
           "package": "rainbow",
@@ -3147,6 +3442,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_197",
           "package": "rainbow",
@@ -3159,6 +3455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_198",
           "package": "rainbow",
@@ -3168,6 +3465,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_198",
           "package": "rainbow",
@@ -3180,6 +3478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_199",
           "package": "rainbow",
@@ -3189,6 +3488,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_199",
           "package": "rainbow",
@@ -3201,6 +3501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_2",
           "package": "rainbow",
@@ -3210,6 +3511,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_2",
           "package": "rainbow",
@@ -3222,6 +3524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_20",
           "package": "rainbow",
@@ -3231,6 +3534,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_20",
           "package": "rainbow",
@@ -3243,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_200",
           "package": "rainbow",
@@ -3252,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_200",
           "package": "rainbow",
@@ -3264,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_201",
           "package": "rainbow",
@@ -3273,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_201",
           "package": "rainbow",
@@ -3285,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_202",
           "package": "rainbow",
@@ -3294,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_202",
           "package": "rainbow",
@@ -3306,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_203",
           "package": "rainbow",
@@ -3315,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_203",
           "package": "rainbow",
@@ -3327,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_204",
           "package": "rainbow",
@@ -3336,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_204",
           "package": "rainbow",
@@ -3348,6 +3662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_205",
           "package": "rainbow",
@@ -3357,6 +3672,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_205",
           "package": "rainbow",
@@ -3369,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_206",
           "package": "rainbow",
@@ -3378,6 +3695,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_206",
           "package": "rainbow",
@@ -3390,6 +3708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_207",
           "package": "rainbow",
@@ -3399,6 +3718,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_207",
           "package": "rainbow",
@@ -3411,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_208",
           "package": "rainbow",
@@ -3420,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_208",
           "package": "rainbow",
@@ -3432,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_209",
           "package": "rainbow",
@@ -3441,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_209",
           "package": "rainbow",
@@ -3453,6 +3777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_21",
           "package": "rainbow",
@@ -3462,6 +3787,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_21",
           "package": "rainbow",
@@ -3474,6 +3800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_210",
           "package": "rainbow",
@@ -3483,6 +3810,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_210",
           "package": "rainbow",
@@ -3495,6 +3823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_211",
           "package": "rainbow",
@@ -3504,6 +3833,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_211",
           "package": "rainbow",
@@ -3516,6 +3846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_212",
           "package": "rainbow",
@@ -3525,6 +3856,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_212",
           "package": "rainbow",
@@ -3537,6 +3869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_213",
           "package": "rainbow",
@@ -3546,6 +3879,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_213",
           "package": "rainbow",
@@ -3558,6 +3892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_214",
           "package": "rainbow",
@@ -3567,6 +3902,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_214",
           "package": "rainbow",
@@ -3579,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_215",
           "package": "rainbow",
@@ -3588,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_215",
           "package": "rainbow",
@@ -3600,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_216",
           "package": "rainbow",
@@ -3609,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_216",
           "package": "rainbow",
@@ -3621,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_217",
           "package": "rainbow",
@@ -3630,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_217",
           "package": "rainbow",
@@ -3642,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_218",
           "package": "rainbow",
@@ -3651,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_218",
           "package": "rainbow",
@@ -3663,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_219",
           "package": "rainbow",
@@ -3672,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_219",
           "package": "rainbow",
@@ -3684,6 +4030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_22",
           "package": "rainbow",
@@ -3693,6 +4040,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_22",
           "package": "rainbow",
@@ -3705,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_220",
           "package": "rainbow",
@@ -3714,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_220",
           "package": "rainbow",
@@ -3726,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_221",
           "package": "rainbow",
@@ -3735,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_221",
           "package": "rainbow",
@@ -3747,6 +4099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_222",
           "package": "rainbow",
@@ -3756,6 +4109,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_222",
           "package": "rainbow",
@@ -3768,6 +4122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_223",
           "package": "rainbow",
@@ -3777,6 +4132,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_223",
           "package": "rainbow",
@@ -3789,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_224",
           "package": "rainbow",
@@ -3798,6 +4155,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_224",
           "package": "rainbow",
@@ -3810,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_225",
           "package": "rainbow",
@@ -3819,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_225",
           "package": "rainbow",
@@ -3831,6 +4191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_226",
           "package": "rainbow",
@@ -3840,6 +4201,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_226",
           "package": "rainbow",
@@ -3852,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_227",
           "package": "rainbow",
@@ -3861,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_227",
           "package": "rainbow",
@@ -3873,6 +4237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_228",
           "package": "rainbow",
@@ -3882,6 +4247,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_228",
           "package": "rainbow",
@@ -3894,6 +4260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_229",
           "package": "rainbow",
@@ -3903,6 +4270,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_229",
           "package": "rainbow",
@@ -3915,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_23",
           "package": "rainbow",
@@ -3924,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_23",
           "package": "rainbow",
@@ -3936,6 +4306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_230",
           "package": "rainbow",
@@ -3945,6 +4316,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_230",
           "package": "rainbow",
@@ -3957,6 +4329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_231",
           "package": "rainbow",
@@ -3966,6 +4339,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_231",
           "package": "rainbow",
@@ -3978,6 +4352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_232",
           "package": "rainbow",
@@ -3987,6 +4362,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_232",
           "package": "rainbow",
@@ -3999,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_233",
           "package": "rainbow",
@@ -4008,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_233",
           "package": "rainbow",
@@ -4020,6 +4398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_234",
           "package": "rainbow",
@@ -4029,6 +4408,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_234",
           "package": "rainbow",
@@ -4041,6 +4421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_235",
           "package": "rainbow",
@@ -4050,6 +4431,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_235",
           "package": "rainbow",
@@ -4062,6 +4444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_236",
           "package": "rainbow",
@@ -4071,6 +4454,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_236",
           "package": "rainbow",
@@ -4083,6 +4467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_237",
           "package": "rainbow",
@@ -4092,6 +4477,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_237",
           "package": "rainbow",
@@ -4104,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_238",
           "package": "rainbow",
@@ -4113,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_238",
           "package": "rainbow",
@@ -4125,6 +4513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_239",
           "package": "rainbow",
@@ -4134,6 +4523,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_239",
           "package": "rainbow",
@@ -4146,6 +4536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_24",
           "package": "rainbow",
@@ -4155,6 +4546,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_24",
           "package": "rainbow",
@@ -4167,6 +4559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_240",
           "package": "rainbow",
@@ -4176,6 +4569,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_240",
           "package": "rainbow",
@@ -4188,6 +4582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_241",
           "package": "rainbow",
@@ -4197,6 +4592,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_241",
           "package": "rainbow",
@@ -4209,6 +4605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_242",
           "package": "rainbow",
@@ -4218,6 +4615,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_242",
           "package": "rainbow",
@@ -4230,6 +4628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_243",
           "package": "rainbow",
@@ -4239,6 +4638,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_243",
           "package": "rainbow",
@@ -4251,6 +4651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_244",
           "package": "rainbow",
@@ -4260,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_244",
           "package": "rainbow",
@@ -4272,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_245",
           "package": "rainbow",
@@ -4281,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_245",
           "package": "rainbow",
@@ -4293,6 +4697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_246",
           "package": "rainbow",
@@ -4302,6 +4707,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_246",
           "package": "rainbow",
@@ -4314,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_247",
           "package": "rainbow",
@@ -4323,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_247",
           "package": "rainbow",
@@ -4335,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_248",
           "package": "rainbow",
@@ -4344,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_248",
           "package": "rainbow",
@@ -4356,6 +4766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_249",
           "package": "rainbow",
@@ -4365,6 +4776,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_249",
           "package": "rainbow",
@@ -4377,6 +4789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_25",
           "package": "rainbow",
@@ -4386,6 +4799,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_25",
           "package": "rainbow",
@@ -4398,6 +4812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_250",
           "package": "rainbow",
@@ -4407,6 +4822,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_250",
           "package": "rainbow",
@@ -4419,6 +4835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_251",
           "package": "rainbow",
@@ -4428,6 +4845,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_251",
           "package": "rainbow",
@@ -4440,6 +4858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_252",
           "package": "rainbow",
@@ -4449,6 +4868,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_252",
           "package": "rainbow",
@@ -4461,6 +4881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_253",
           "package": "rainbow",
@@ -4470,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_253",
           "package": "rainbow",
@@ -4482,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_254",
           "package": "rainbow",
@@ -4491,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_254",
           "package": "rainbow",
@@ -4503,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_255",
           "package": "rainbow",
@@ -4512,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_255",
           "package": "rainbow",
@@ -4524,6 +4950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_26",
           "package": "rainbow",
@@ -4533,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_26",
           "package": "rainbow",
@@ -4545,6 +4973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_27",
           "package": "rainbow",
@@ -4554,6 +4983,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_27",
           "package": "rainbow",
@@ -4566,6 +4996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_28",
           "package": "rainbow",
@@ -4575,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_28",
           "package": "rainbow",
@@ -4587,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_29",
           "package": "rainbow",
@@ -4596,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_29",
           "package": "rainbow",
@@ -4608,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_3",
           "package": "rainbow",
@@ -4617,6 +5052,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_3",
           "package": "rainbow",
@@ -4629,6 +5065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_30",
           "package": "rainbow",
@@ -4638,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_30",
           "package": "rainbow",
@@ -4650,6 +5088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_31",
           "package": "rainbow",
@@ -4659,6 +5098,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_31",
           "package": "rainbow",
@@ -4671,6 +5111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_32",
           "package": "rainbow",
@@ -4680,6 +5121,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_32",
           "package": "rainbow",
@@ -4692,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_33",
           "package": "rainbow",
@@ -4701,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_33",
           "package": "rainbow",
@@ -4713,6 +5157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_34",
           "package": "rainbow",
@@ -4722,6 +5167,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_34",
           "package": "rainbow",
@@ -4734,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_35",
           "package": "rainbow",
@@ -4743,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_35",
           "package": "rainbow",
@@ -4755,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_36",
           "package": "rainbow",
@@ -4764,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_36",
           "package": "rainbow",
@@ -4776,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_37",
           "package": "rainbow",
@@ -4785,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_37",
           "package": "rainbow",
@@ -4797,6 +5249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_38",
           "package": "rainbow",
@@ -4806,6 +5259,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_38",
           "package": "rainbow",
@@ -4818,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_39",
           "package": "rainbow",
@@ -4827,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_39",
           "package": "rainbow",
@@ -4839,6 +5295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_4",
           "package": "rainbow",
@@ -4848,6 +5305,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_4",
           "package": "rainbow",
@@ -4860,6 +5318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_40",
           "package": "rainbow",
@@ -4869,6 +5328,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_40",
           "package": "rainbow",
@@ -4881,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_41",
           "package": "rainbow",
@@ -4890,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_41",
           "package": "rainbow",
@@ -4902,6 +5364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_42",
           "package": "rainbow",
@@ -4911,6 +5374,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_42",
           "package": "rainbow",
@@ -4923,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_43",
           "package": "rainbow",
@@ -4932,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_43",
           "package": "rainbow",
@@ -4944,6 +5410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_44",
           "package": "rainbow",
@@ -4953,6 +5420,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_44",
           "package": "rainbow",
@@ -4965,6 +5433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_45",
           "package": "rainbow",
@@ -4974,6 +5443,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_45",
           "package": "rainbow",
@@ -4986,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_46",
           "package": "rainbow",
@@ -4995,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_46",
           "package": "rainbow",
@@ -5007,6 +5479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_47",
           "package": "rainbow",
@@ -5016,6 +5489,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_47",
           "package": "rainbow",
@@ -5028,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_48",
           "package": "rainbow",
@@ -5037,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_48",
           "package": "rainbow",
@@ -5049,6 +5525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_49",
           "package": "rainbow",
@@ -5058,6 +5535,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_49",
           "package": "rainbow",
@@ -5070,6 +5548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_5",
           "package": "rainbow",
@@ -5079,6 +5558,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_5",
           "package": "rainbow",
@@ -5091,6 +5571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_50",
           "package": "rainbow",
@@ -5100,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_50",
           "package": "rainbow",
@@ -5112,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_51",
           "package": "rainbow",
@@ -5121,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_51",
           "package": "rainbow",
@@ -5133,6 +5617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_52",
           "package": "rainbow",
@@ -5142,6 +5627,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_52",
           "package": "rainbow",
@@ -5154,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_53",
           "package": "rainbow",
@@ -5163,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_53",
           "package": "rainbow",
@@ -5175,6 +5663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_54",
           "package": "rainbow",
@@ -5184,6 +5673,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_54",
           "package": "rainbow",
@@ -5196,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_55",
           "package": "rainbow",
@@ -5205,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_55",
           "package": "rainbow",
@@ -5217,6 +5709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_56",
           "package": "rainbow",
@@ -5226,6 +5719,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_56",
           "package": "rainbow",
@@ -5238,6 +5732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_57",
           "package": "rainbow",
@@ -5247,6 +5742,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_57",
           "package": "rainbow",
@@ -5259,6 +5755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_58",
           "package": "rainbow",
@@ -5268,6 +5765,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_58",
           "package": "rainbow",
@@ -5280,6 +5778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_59",
           "package": "rainbow",
@@ -5289,6 +5788,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_59",
           "package": "rainbow",
@@ -5301,6 +5801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_6",
           "package": "rainbow",
@@ -5310,6 +5811,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_6",
           "package": "rainbow",
@@ -5322,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_60",
           "package": "rainbow",
@@ -5331,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_60",
           "package": "rainbow",
@@ -5343,6 +5847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_61",
           "package": "rainbow",
@@ -5352,6 +5857,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_61",
           "package": "rainbow",
@@ -5364,6 +5870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_62",
           "package": "rainbow",
@@ -5373,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_62",
           "package": "rainbow",
@@ -5385,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_63",
           "package": "rainbow",
@@ -5394,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_63",
           "package": "rainbow",
@@ -5406,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_64",
           "package": "rainbow",
@@ -5415,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_64",
           "package": "rainbow",
@@ -5427,6 +5939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_65",
           "package": "rainbow",
@@ -5436,6 +5949,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_65",
           "package": "rainbow",
@@ -5448,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_66",
           "package": "rainbow",
@@ -5457,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_66",
           "package": "rainbow",
@@ -5469,6 +5985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_67",
           "package": "rainbow",
@@ -5478,6 +5995,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_67",
           "package": "rainbow",
@@ -5490,6 +6008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_68",
           "package": "rainbow",
@@ -5499,6 +6018,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_68",
           "package": "rainbow",
@@ -5511,6 +6031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_69",
           "package": "rainbow",
@@ -5520,6 +6041,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_69",
           "package": "rainbow",
@@ -5532,6 +6054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_7",
           "package": "rainbow",
@@ -5541,6 +6064,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_7",
           "package": "rainbow",
@@ -5553,6 +6077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_70",
           "package": "rainbow",
@@ -5562,6 +6087,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_70",
           "package": "rainbow",
@@ -5574,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_71",
           "package": "rainbow",
@@ -5583,6 +6110,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_71",
           "package": "rainbow",
@@ -5595,6 +6123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_72",
           "package": "rainbow",
@@ -5604,6 +6133,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_72",
           "package": "rainbow",
@@ -5616,6 +6146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_73",
           "package": "rainbow",
@@ -5625,6 +6156,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_73",
           "package": "rainbow",
@@ -5637,6 +6169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_74",
           "package": "rainbow",
@@ -5646,6 +6179,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_74",
           "package": "rainbow",
@@ -5658,6 +6192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_75",
           "package": "rainbow",
@@ -5667,6 +6202,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_75",
           "package": "rainbow",
@@ -5679,6 +6215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_76",
           "package": "rainbow",
@@ -5688,6 +6225,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_76",
           "package": "rainbow",
@@ -5700,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_77",
           "package": "rainbow",
@@ -5709,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_77",
           "package": "rainbow",
@@ -5721,6 +6261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_78",
           "package": "rainbow",
@@ -5730,6 +6271,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_78",
           "package": "rainbow",
@@ -5742,6 +6284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_79",
           "package": "rainbow",
@@ -5751,6 +6294,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_79",
           "package": "rainbow",
@@ -5763,6 +6307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_8",
           "package": "rainbow",
@@ -5772,6 +6317,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_8",
           "package": "rainbow",
@@ -5784,6 +6330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_80",
           "package": "rainbow",
@@ -5793,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_80",
           "package": "rainbow",
@@ -5805,6 +6353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_81",
           "package": "rainbow",
@@ -5814,6 +6363,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_81",
           "package": "rainbow",
@@ -5826,6 +6376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_82",
           "package": "rainbow",
@@ -5835,6 +6386,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_82",
           "package": "rainbow",
@@ -5847,6 +6399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_83",
           "package": "rainbow",
@@ -5856,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_83",
           "package": "rainbow",
@@ -5868,6 +6422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_84",
           "package": "rainbow",
@@ -5877,6 +6432,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_84",
           "package": "rainbow",
@@ -5889,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_85",
           "package": "rainbow",
@@ -5898,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_85",
           "package": "rainbow",
@@ -5910,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_86",
           "package": "rainbow",
@@ -5919,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_86",
           "package": "rainbow",
@@ -5931,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_87",
           "package": "rainbow",
@@ -5940,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_87",
           "package": "rainbow",
@@ -5952,6 +6514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_88",
           "package": "rainbow",
@@ -5961,6 +6524,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_88",
           "package": "rainbow",
@@ -5973,6 +6537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_89",
           "package": "rainbow",
@@ -5982,6 +6547,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_89",
           "package": "rainbow",
@@ -5994,6 +6560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_9",
           "package": "rainbow",
@@ -6003,6 +6570,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_9",
           "package": "rainbow",
@@ -6015,6 +6583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_90",
           "package": "rainbow",
@@ -6024,6 +6593,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_90",
           "package": "rainbow",
@@ -6036,6 +6606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_91",
           "package": "rainbow",
@@ -6045,6 +6616,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_91",
           "package": "rainbow",
@@ -6057,6 +6629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_92",
           "package": "rainbow",
@@ -6066,6 +6639,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_92",
           "package": "rainbow",
@@ -6078,6 +6652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_93",
           "package": "rainbow",
@@ -6087,6 +6662,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_93",
           "package": "rainbow",
@@ -6099,6 +6675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_94",
           "package": "rainbow",
@@ -6108,6 +6685,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_94",
           "package": "rainbow",
@@ -6120,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_95",
           "package": "rainbow",
@@ -6129,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_95",
           "package": "rainbow",
@@ -6141,6 +6721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_96",
           "package": "rainbow",
@@ -6150,6 +6731,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_96",
           "package": "rainbow",
@@ -6162,6 +6744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_97",
           "package": "rainbow",
@@ -6171,6 +6754,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_97",
           "package": "rainbow",
@@ -6183,6 +6767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_98",
           "package": "rainbow",
@@ -6192,6 +6777,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_98",
           "package": "rainbow",
@@ -6204,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_99",
           "package": "rainbow",
@@ -6213,6 +6800,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_99",
           "package": "rainbow",
@@ -6225,6 +6813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_black",
           "package": "rainbow",
@@ -6234,6 +6823,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_black",
           "package": "rainbow",
@@ -6246,6 +6836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_blue",
           "package": "rainbow",
@@ -6255,6 +6846,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_blue",
           "package": "rainbow",
@@ -6267,6 +6859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_blue_bright",
           "package": "rainbow",
@@ -6276,6 +6869,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_blue_bright",
           "package": "rainbow",
@@ -6288,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_cyan",
           "package": "rainbow",
@@ -6297,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_cyan",
           "package": "rainbow",
@@ -6309,6 +6905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_cyan_bright",
           "package": "rainbow",
@@ -6318,6 +6915,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_cyan_bright",
           "package": "rainbow",
@@ -6330,6 +6928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_default",
           "package": "rainbow",
@@ -6339,6 +6938,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_default",
           "package": "rainbow",
@@ -6351,6 +6951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_green",
           "package": "rainbow",
@@ -6360,6 +6961,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_green",
           "package": "rainbow",
@@ -6372,6 +6974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_green_bright",
           "package": "rainbow",
@@ -6381,6 +6984,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_green_bright",
           "package": "rainbow",
@@ -6393,6 +6997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_grey",
           "package": "rainbow",
@@ -6402,6 +7007,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_grey",
           "package": "rainbow",
@@ -6414,6 +7020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_magenta",
           "package": "rainbow",
@@ -6423,6 +7030,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_magenta",
           "package": "rainbow",
@@ -6435,6 +7043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_magenta_bright",
           "package": "rainbow",
@@ -6444,6 +7053,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_magenta_bright",
           "package": "rainbow",
@@ -6456,6 +7066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_red",
           "package": "rainbow",
@@ -6465,6 +7076,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_red",
           "package": "rainbow",
@@ -6477,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_red_bright",
           "package": "rainbow",
@@ -6486,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_red_bright",
           "package": "rainbow",
@@ -6498,6 +7112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_white",
           "package": "rainbow",
@@ -6507,6 +7122,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_white",
           "package": "rainbow",
@@ -6519,6 +7135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_white_bright",
           "package": "rainbow",
@@ -6528,6 +7145,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_white_bright",
           "package": "rainbow",
@@ -6540,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_yellow",
           "package": "rainbow",
@@ -6549,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_yellow",
           "package": "rainbow",
@@ -6561,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_b_yellow_bright",
           "package": "rainbow",
@@ -6570,6 +7191,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_b_yellow_bright",
           "package": "rainbow",
@@ -6582,6 +7204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_0",
           "package": "rainbow",
@@ -6591,6 +7214,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_0",
           "package": "rainbow",
@@ -6603,6 +7227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_1",
           "package": "rainbow",
@@ -6612,6 +7237,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_1",
           "package": "rainbow",
@@ -6624,6 +7250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_10",
           "package": "rainbow",
@@ -6633,6 +7260,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_10",
           "package": "rainbow",
@@ -6645,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_100",
           "package": "rainbow",
@@ -6654,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_100",
           "package": "rainbow",
@@ -6666,6 +7296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_101",
           "package": "rainbow",
@@ -6675,6 +7306,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_101",
           "package": "rainbow",
@@ -6687,6 +7319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_102",
           "package": "rainbow",
@@ -6696,6 +7329,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_102",
           "package": "rainbow",
@@ -6708,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_103",
           "package": "rainbow",
@@ -6717,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_103",
           "package": "rainbow",
@@ -6729,6 +7365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_104",
           "package": "rainbow",
@@ -6738,6 +7375,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_104",
           "package": "rainbow",
@@ -6750,6 +7388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_105",
           "package": "rainbow",
@@ -6759,6 +7398,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_105",
           "package": "rainbow",
@@ -6771,6 +7411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_106",
           "package": "rainbow",
@@ -6780,6 +7421,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_106",
           "package": "rainbow",
@@ -6792,6 +7434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_107",
           "package": "rainbow",
@@ -6801,6 +7444,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_107",
           "package": "rainbow",
@@ -6813,6 +7457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_108",
           "package": "rainbow",
@@ -6822,6 +7467,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_108",
           "package": "rainbow",
@@ -6834,6 +7480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_109",
           "package": "rainbow",
@@ -6843,6 +7490,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_109",
           "package": "rainbow",
@@ -6855,6 +7503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_11",
           "package": "rainbow",
@@ -6864,6 +7513,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_11",
           "package": "rainbow",
@@ -6876,6 +7526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_110",
           "package": "rainbow",
@@ -6885,6 +7536,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_110",
           "package": "rainbow",
@@ -6897,6 +7549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_111",
           "package": "rainbow",
@@ -6906,6 +7559,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_111",
           "package": "rainbow",
@@ -6918,6 +7572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_112",
           "package": "rainbow",
@@ -6927,6 +7582,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_112",
           "package": "rainbow",
@@ -6939,6 +7595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_113",
           "package": "rainbow",
@@ -6948,6 +7605,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_113",
           "package": "rainbow",
@@ -6960,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_114",
           "package": "rainbow",
@@ -6969,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_114",
           "package": "rainbow",
@@ -6981,6 +7641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_115",
           "package": "rainbow",
@@ -6990,6 +7651,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_115",
           "package": "rainbow",
@@ -7002,6 +7664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_116",
           "package": "rainbow",
@@ -7011,6 +7674,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_116",
           "package": "rainbow",
@@ -7023,6 +7687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_117",
           "package": "rainbow",
@@ -7032,6 +7697,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_117",
           "package": "rainbow",
@@ -7044,6 +7710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_118",
           "package": "rainbow",
@@ -7053,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_118",
           "package": "rainbow",
@@ -7065,6 +7733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_119",
           "package": "rainbow",
@@ -7074,6 +7743,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_119",
           "package": "rainbow",
@@ -7086,6 +7756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_12",
           "package": "rainbow",
@@ -7095,6 +7766,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_12",
           "package": "rainbow",
@@ -7107,6 +7779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_120",
           "package": "rainbow",
@@ -7116,6 +7789,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_120",
           "package": "rainbow",
@@ -7128,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_121",
           "package": "rainbow",
@@ -7137,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_121",
           "package": "rainbow",
@@ -7149,6 +7825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_122",
           "package": "rainbow",
@@ -7158,6 +7835,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_122",
           "package": "rainbow",
@@ -7170,6 +7848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_123",
           "package": "rainbow",
@@ -7179,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_123",
           "package": "rainbow",
@@ -7191,6 +7871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_124",
           "package": "rainbow",
@@ -7200,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_124",
           "package": "rainbow",
@@ -7212,6 +7894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_125",
           "package": "rainbow",
@@ -7221,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_125",
           "package": "rainbow",
@@ -7233,6 +7917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_126",
           "package": "rainbow",
@@ -7242,6 +7927,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_126",
           "package": "rainbow",
@@ -7254,6 +7940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_127",
           "package": "rainbow",
@@ -7263,6 +7950,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_127",
           "package": "rainbow",
@@ -7275,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_128",
           "package": "rainbow",
@@ -7284,6 +7973,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_128",
           "package": "rainbow",
@@ -7296,6 +7986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_129",
           "package": "rainbow",
@@ -7305,6 +7996,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_129",
           "package": "rainbow",
@@ -7317,6 +8009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_13",
           "package": "rainbow",
@@ -7326,6 +8019,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_13",
           "package": "rainbow",
@@ -7338,6 +8032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_130",
           "package": "rainbow",
@@ -7347,6 +8042,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_130",
           "package": "rainbow",
@@ -7359,6 +8055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_131",
           "package": "rainbow",
@@ -7368,6 +8065,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_131",
           "package": "rainbow",
@@ -7380,6 +8078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_132",
           "package": "rainbow",
@@ -7389,6 +8088,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_132",
           "package": "rainbow",
@@ -7401,6 +8101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_133",
           "package": "rainbow",
@@ -7410,6 +8111,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_133",
           "package": "rainbow",
@@ -7422,6 +8124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_134",
           "package": "rainbow",
@@ -7431,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_134",
           "package": "rainbow",
@@ -7443,6 +8147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_135",
           "package": "rainbow",
@@ -7452,6 +8157,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_135",
           "package": "rainbow",
@@ -7464,6 +8170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_136",
           "package": "rainbow",
@@ -7473,6 +8180,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_136",
           "package": "rainbow",
@@ -7485,6 +8193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_137",
           "package": "rainbow",
@@ -7494,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_137",
           "package": "rainbow",
@@ -7506,6 +8216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_138",
           "package": "rainbow",
@@ -7515,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_138",
           "package": "rainbow",
@@ -7527,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_139",
           "package": "rainbow",
@@ -7536,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_139",
           "package": "rainbow",
@@ -7548,6 +8262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_14",
           "package": "rainbow",
@@ -7557,6 +8272,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_14",
           "package": "rainbow",
@@ -7569,6 +8285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_140",
           "package": "rainbow",
@@ -7578,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_140",
           "package": "rainbow",
@@ -7590,6 +8308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_141",
           "package": "rainbow",
@@ -7599,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_141",
           "package": "rainbow",
@@ -7611,6 +8331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_142",
           "package": "rainbow",
@@ -7620,6 +8341,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_142",
           "package": "rainbow",
@@ -7632,6 +8354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_143",
           "package": "rainbow",
@@ -7641,6 +8364,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_143",
           "package": "rainbow",
@@ -7653,6 +8377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_144",
           "package": "rainbow",
@@ -7662,6 +8387,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_144",
           "package": "rainbow",
@@ -7674,6 +8400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_145",
           "package": "rainbow",
@@ -7683,6 +8410,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_145",
           "package": "rainbow",
@@ -7695,6 +8423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_146",
           "package": "rainbow",
@@ -7704,6 +8433,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_146",
           "package": "rainbow",
@@ -7716,6 +8446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_147",
           "package": "rainbow",
@@ -7725,6 +8456,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_147",
           "package": "rainbow",
@@ -7737,6 +8469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_148",
           "package": "rainbow",
@@ -7746,6 +8479,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_148",
           "package": "rainbow",
@@ -7758,6 +8492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_149",
           "package": "rainbow",
@@ -7767,6 +8502,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_149",
           "package": "rainbow",
@@ -7779,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_15",
           "package": "rainbow",
@@ -7788,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_15",
           "package": "rainbow",
@@ -7800,6 +8538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_150",
           "package": "rainbow",
@@ -7809,6 +8548,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_150",
           "package": "rainbow",
@@ -7821,6 +8561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_151",
           "package": "rainbow",
@@ -7830,6 +8571,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_151",
           "package": "rainbow",
@@ -7842,6 +8584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_152",
           "package": "rainbow",
@@ -7851,6 +8594,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_152",
           "package": "rainbow",
@@ -7863,6 +8607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_153",
           "package": "rainbow",
@@ -7872,6 +8617,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_153",
           "package": "rainbow",
@@ -7884,6 +8630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_154",
           "package": "rainbow",
@@ -7893,6 +8640,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_154",
           "package": "rainbow",
@@ -7905,6 +8653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_155",
           "package": "rainbow",
@@ -7914,6 +8663,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_155",
           "package": "rainbow",
@@ -7926,6 +8676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_156",
           "package": "rainbow",
@@ -7935,6 +8686,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_156",
           "package": "rainbow",
@@ -7947,6 +8699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_157",
           "package": "rainbow",
@@ -7956,6 +8709,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_157",
           "package": "rainbow",
@@ -7968,6 +8722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_158",
           "package": "rainbow",
@@ -7977,6 +8732,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_158",
           "package": "rainbow",
@@ -7989,6 +8745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_159",
           "package": "rainbow",
@@ -7998,6 +8755,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_159",
           "package": "rainbow",
@@ -8010,6 +8768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_16",
           "package": "rainbow",
@@ -8019,6 +8778,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_16",
           "package": "rainbow",
@@ -8031,6 +8791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_160",
           "package": "rainbow",
@@ -8040,6 +8801,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_160",
           "package": "rainbow",
@@ -8052,6 +8814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_161",
           "package": "rainbow",
@@ -8061,6 +8824,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_161",
           "package": "rainbow",
@@ -8073,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_162",
           "package": "rainbow",
@@ -8082,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_162",
           "package": "rainbow",
@@ -8094,6 +8860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_163",
           "package": "rainbow",
@@ -8103,6 +8870,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_163",
           "package": "rainbow",
@@ -8115,6 +8883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_164",
           "package": "rainbow",
@@ -8124,6 +8893,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_164",
           "package": "rainbow",
@@ -8136,6 +8906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_165",
           "package": "rainbow",
@@ -8145,6 +8916,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_165",
           "package": "rainbow",
@@ -8157,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_166",
           "package": "rainbow",
@@ -8166,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_166",
           "package": "rainbow",
@@ -8178,6 +8952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_167",
           "package": "rainbow",
@@ -8187,6 +8962,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_167",
           "package": "rainbow",
@@ -8199,6 +8975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_168",
           "package": "rainbow",
@@ -8208,6 +8985,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_168",
           "package": "rainbow",
@@ -8220,6 +8998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_169",
           "package": "rainbow",
@@ -8229,6 +9008,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_169",
           "package": "rainbow",
@@ -8241,6 +9021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_17",
           "package": "rainbow",
@@ -8250,6 +9031,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_17",
           "package": "rainbow",
@@ -8262,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_170",
           "package": "rainbow",
@@ -8271,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_170",
           "package": "rainbow",
@@ -8283,6 +9067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_171",
           "package": "rainbow",
@@ -8292,6 +9077,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_171",
           "package": "rainbow",
@@ -8304,6 +9090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_172",
           "package": "rainbow",
@@ -8313,6 +9100,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_172",
           "package": "rainbow",
@@ -8325,6 +9113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_173",
           "package": "rainbow",
@@ -8334,6 +9123,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_173",
           "package": "rainbow",
@@ -8346,6 +9136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_174",
           "package": "rainbow",
@@ -8355,6 +9146,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_174",
           "package": "rainbow",
@@ -8367,6 +9159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_175",
           "package": "rainbow",
@@ -8376,6 +9169,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_175",
           "package": "rainbow",
@@ -8388,6 +9182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_176",
           "package": "rainbow",
@@ -8397,6 +9192,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_176",
           "package": "rainbow",
@@ -8409,6 +9205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_177",
           "package": "rainbow",
@@ -8418,6 +9215,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_177",
           "package": "rainbow",
@@ -8430,6 +9228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_178",
           "package": "rainbow",
@@ -8439,6 +9238,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_178",
           "package": "rainbow",
@@ -8451,6 +9251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_179",
           "package": "rainbow",
@@ -8460,6 +9261,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_179",
           "package": "rainbow",
@@ -8472,6 +9274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_18",
           "package": "rainbow",
@@ -8481,6 +9284,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_18",
           "package": "rainbow",
@@ -8493,6 +9297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_180",
           "package": "rainbow",
@@ -8502,6 +9307,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_180",
           "package": "rainbow",
@@ -8514,6 +9320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_181",
           "package": "rainbow",
@@ -8523,6 +9330,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_181",
           "package": "rainbow",
@@ -8535,6 +9343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_182",
           "package": "rainbow",
@@ -8544,6 +9353,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_182",
           "package": "rainbow",
@@ -8556,6 +9366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_183",
           "package": "rainbow",
@@ -8565,6 +9376,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_183",
           "package": "rainbow",
@@ -8577,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_184",
           "package": "rainbow",
@@ -8586,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_184",
           "package": "rainbow",
@@ -8598,6 +9412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_185",
           "package": "rainbow",
@@ -8607,6 +9422,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_185",
           "package": "rainbow",
@@ -8619,6 +9435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_186",
           "package": "rainbow",
@@ -8628,6 +9445,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_186",
           "package": "rainbow",
@@ -8640,6 +9458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_187",
           "package": "rainbow",
@@ -8649,6 +9468,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_187",
           "package": "rainbow",
@@ -8661,6 +9481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_188",
           "package": "rainbow",
@@ -8670,6 +9491,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_188",
           "package": "rainbow",
@@ -8682,6 +9504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_189",
           "package": "rainbow",
@@ -8691,6 +9514,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_189",
           "package": "rainbow",
@@ -8703,6 +9527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_19",
           "package": "rainbow",
@@ -8712,6 +9537,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_19",
           "package": "rainbow",
@@ -8724,6 +9550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_190",
           "package": "rainbow",
@@ -8733,6 +9560,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_190",
           "package": "rainbow",
@@ -8745,6 +9573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_191",
           "package": "rainbow",
@@ -8754,6 +9583,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_191",
           "package": "rainbow",
@@ -8766,6 +9596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_192",
           "package": "rainbow",
@@ -8775,6 +9606,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_192",
           "package": "rainbow",
@@ -8787,6 +9619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_193",
           "package": "rainbow",
@@ -8796,6 +9629,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_193",
           "package": "rainbow",
@@ -8808,6 +9642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_194",
           "package": "rainbow",
@@ -8817,6 +9652,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_194",
           "package": "rainbow",
@@ -8829,6 +9665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_195",
           "package": "rainbow",
@@ -8838,6 +9675,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_195",
           "package": "rainbow",
@@ -8850,6 +9688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_196",
           "package": "rainbow",
@@ -8859,6 +9698,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_196",
           "package": "rainbow",
@@ -8871,6 +9711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_197",
           "package": "rainbow",
@@ -8880,6 +9721,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_197",
           "package": "rainbow",
@@ -8892,6 +9734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_198",
           "package": "rainbow",
@@ -8901,6 +9744,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_198",
           "package": "rainbow",
@@ -8913,6 +9757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_199",
           "package": "rainbow",
@@ -8922,6 +9767,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_199",
           "package": "rainbow",
@@ -8934,6 +9780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_2",
           "package": "rainbow",
@@ -8943,6 +9790,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_2",
           "package": "rainbow",
@@ -8955,6 +9803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_20",
           "package": "rainbow",
@@ -8964,6 +9813,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_20",
           "package": "rainbow",
@@ -8976,6 +9826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_200",
           "package": "rainbow",
@@ -8985,6 +9836,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_200",
           "package": "rainbow",
@@ -8997,6 +9849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_201",
           "package": "rainbow",
@@ -9006,6 +9859,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_201",
           "package": "rainbow",
@@ -9018,6 +9872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_202",
           "package": "rainbow",
@@ -9027,6 +9882,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_202",
           "package": "rainbow",
@@ -9039,6 +9895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_203",
           "package": "rainbow",
@@ -9048,6 +9905,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_203",
           "package": "rainbow",
@@ -9060,6 +9918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_204",
           "package": "rainbow",
@@ -9069,6 +9928,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_204",
           "package": "rainbow",
@@ -9081,6 +9941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_205",
           "package": "rainbow",
@@ -9090,6 +9951,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_205",
           "package": "rainbow",
@@ -9102,6 +9964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_206",
           "package": "rainbow",
@@ -9111,6 +9974,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_206",
           "package": "rainbow",
@@ -9123,6 +9987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_207",
           "package": "rainbow",
@@ -9132,6 +9997,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_207",
           "package": "rainbow",
@@ -9144,6 +10010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_208",
           "package": "rainbow",
@@ -9153,6 +10020,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_208",
           "package": "rainbow",
@@ -9165,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_209",
           "package": "rainbow",
@@ -9174,6 +10043,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_209",
           "package": "rainbow",
@@ -9186,6 +10056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_21",
           "package": "rainbow",
@@ -9195,6 +10066,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_21",
           "package": "rainbow",
@@ -9207,6 +10079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_210",
           "package": "rainbow",
@@ -9216,6 +10089,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_210",
           "package": "rainbow",
@@ -9228,6 +10102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_211",
           "package": "rainbow",
@@ -9237,6 +10112,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_211",
           "package": "rainbow",
@@ -9249,6 +10125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_212",
           "package": "rainbow",
@@ -9258,6 +10135,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_212",
           "package": "rainbow",
@@ -9270,6 +10148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_213",
           "package": "rainbow",
@@ -9279,6 +10158,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_213",
           "package": "rainbow",
@@ -9291,6 +10171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_214",
           "package": "rainbow",
@@ -9300,6 +10181,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_214",
           "package": "rainbow",
@@ -9312,6 +10194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_215",
           "package": "rainbow",
@@ -9321,6 +10204,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_215",
           "package": "rainbow",
@@ -9333,6 +10217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_216",
           "package": "rainbow",
@@ -9342,6 +10227,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_216",
           "package": "rainbow",
@@ -9354,6 +10240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_217",
           "package": "rainbow",
@@ -9363,6 +10250,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_217",
           "package": "rainbow",
@@ -9375,6 +10263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_218",
           "package": "rainbow",
@@ -9384,6 +10273,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_218",
           "package": "rainbow",
@@ -9396,6 +10286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_219",
           "package": "rainbow",
@@ -9405,6 +10296,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_219",
           "package": "rainbow",
@@ -9417,6 +10309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_22",
           "package": "rainbow",
@@ -9426,6 +10319,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_22",
           "package": "rainbow",
@@ -9438,6 +10332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_220",
           "package": "rainbow",
@@ -9447,6 +10342,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_220",
           "package": "rainbow",
@@ -9459,6 +10355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_221",
           "package": "rainbow",
@@ -9468,6 +10365,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_221",
           "package": "rainbow",
@@ -9480,6 +10378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_222",
           "package": "rainbow",
@@ -9489,6 +10388,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_222",
           "package": "rainbow",
@@ -9501,6 +10401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_223",
           "package": "rainbow",
@@ -9510,6 +10411,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_223",
           "package": "rainbow",
@@ -9522,6 +10424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_224",
           "package": "rainbow",
@@ -9531,6 +10434,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_224",
           "package": "rainbow",
@@ -9543,6 +10447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_225",
           "package": "rainbow",
@@ -9552,6 +10457,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_225",
           "package": "rainbow",
@@ -9564,6 +10470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_226",
           "package": "rainbow",
@@ -9573,6 +10480,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_226",
           "package": "rainbow",
@@ -9585,6 +10493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_227",
           "package": "rainbow",
@@ -9594,6 +10503,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_227",
           "package": "rainbow",
@@ -9606,6 +10516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_228",
           "package": "rainbow",
@@ -9615,6 +10526,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_228",
           "package": "rainbow",
@@ -9627,6 +10539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_229",
           "package": "rainbow",
@@ -9636,6 +10549,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_229",
           "package": "rainbow",
@@ -9648,6 +10562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_23",
           "package": "rainbow",
@@ -9657,6 +10572,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_23",
           "package": "rainbow",
@@ -9669,6 +10585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_230",
           "package": "rainbow",
@@ -9678,6 +10595,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_230",
           "package": "rainbow",
@@ -9690,6 +10608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_231",
           "package": "rainbow",
@@ -9699,6 +10618,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_231",
           "package": "rainbow",
@@ -9711,6 +10631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_232",
           "package": "rainbow",
@@ -9720,6 +10641,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_232",
           "package": "rainbow",
@@ -9732,6 +10654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_233",
           "package": "rainbow",
@@ -9741,6 +10664,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_233",
           "package": "rainbow",
@@ -9753,6 +10677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_234",
           "package": "rainbow",
@@ -9762,6 +10687,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_234",
           "package": "rainbow",
@@ -9774,6 +10700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_235",
           "package": "rainbow",
@@ -9783,6 +10710,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_235",
           "package": "rainbow",
@@ -9795,6 +10723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_236",
           "package": "rainbow",
@@ -9804,6 +10733,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_236",
           "package": "rainbow",
@@ -9816,6 +10746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_237",
           "package": "rainbow",
@@ -9825,6 +10756,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_237",
           "package": "rainbow",
@@ -9837,6 +10769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_238",
           "package": "rainbow",
@@ -9846,6 +10779,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_238",
           "package": "rainbow",
@@ -9858,6 +10792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_239",
           "package": "rainbow",
@@ -9867,6 +10802,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_239",
           "package": "rainbow",
@@ -9879,6 +10815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_24",
           "package": "rainbow",
@@ -9888,6 +10825,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_24",
           "package": "rainbow",
@@ -9900,6 +10838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_240",
           "package": "rainbow",
@@ -9909,6 +10848,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_240",
           "package": "rainbow",
@@ -9921,6 +10861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_241",
           "package": "rainbow",
@@ -9930,6 +10871,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_241",
           "package": "rainbow",
@@ -9942,6 +10884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_242",
           "package": "rainbow",
@@ -9951,6 +10894,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_242",
           "package": "rainbow",
@@ -9963,6 +10907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_243",
           "package": "rainbow",
@@ -9972,6 +10917,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_243",
           "package": "rainbow",
@@ -9984,6 +10930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_244",
           "package": "rainbow",
@@ -9993,6 +10940,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_244",
           "package": "rainbow",
@@ -10005,6 +10953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_245",
           "package": "rainbow",
@@ -10014,6 +10963,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_245",
           "package": "rainbow",
@@ -10026,6 +10976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_246",
           "package": "rainbow",
@@ -10035,6 +10986,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_246",
           "package": "rainbow",
@@ -10047,6 +10999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_247",
           "package": "rainbow",
@@ -10056,6 +11009,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_247",
           "package": "rainbow",
@@ -10068,6 +11022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_248",
           "package": "rainbow",
@@ -10077,6 +11032,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_248",
           "package": "rainbow",
@@ -10089,6 +11045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_249",
           "package": "rainbow",
@@ -10098,6 +11055,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_249",
           "package": "rainbow",
@@ -10110,6 +11068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_25",
           "package": "rainbow",
@@ -10119,6 +11078,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_25",
           "package": "rainbow",
@@ -10131,6 +11091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_250",
           "package": "rainbow",
@@ -10140,6 +11101,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_250",
           "package": "rainbow",
@@ -10152,6 +11114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_251",
           "package": "rainbow",
@@ -10161,6 +11124,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_251",
           "package": "rainbow",
@@ -10173,6 +11137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_252",
           "package": "rainbow",
@@ -10182,6 +11147,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_252",
           "package": "rainbow",
@@ -10194,6 +11160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_253",
           "package": "rainbow",
@@ -10203,6 +11170,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_253",
           "package": "rainbow",
@@ -10215,6 +11183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_254",
           "package": "rainbow",
@@ -10224,6 +11193,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_254",
           "package": "rainbow",
@@ -10236,6 +11206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_255",
           "package": "rainbow",
@@ -10245,6 +11216,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_255",
           "package": "rainbow",
@@ -10257,6 +11229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_26",
           "package": "rainbow",
@@ -10266,6 +11239,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_26",
           "package": "rainbow",
@@ -10278,6 +11252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_27",
           "package": "rainbow",
@@ -10287,6 +11262,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_27",
           "package": "rainbow",
@@ -10299,6 +11275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_28",
           "package": "rainbow",
@@ -10308,6 +11285,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_28",
           "package": "rainbow",
@@ -10320,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_29",
           "package": "rainbow",
@@ -10329,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_29",
           "package": "rainbow",
@@ -10341,6 +11321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_3",
           "package": "rainbow",
@@ -10350,6 +11331,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_3",
           "package": "rainbow",
@@ -10362,6 +11344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_30",
           "package": "rainbow",
@@ -10371,6 +11354,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_30",
           "package": "rainbow",
@@ -10383,6 +11367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_31",
           "package": "rainbow",
@@ -10392,6 +11377,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_31",
           "package": "rainbow",
@@ -10404,6 +11390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_32",
           "package": "rainbow",
@@ -10413,6 +11400,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_32",
           "package": "rainbow",
@@ -10425,6 +11413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_33",
           "package": "rainbow",
@@ -10434,6 +11423,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_33",
           "package": "rainbow",
@@ -10446,6 +11436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_34",
           "package": "rainbow",
@@ -10455,6 +11446,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_34",
           "package": "rainbow",
@@ -10467,6 +11459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_35",
           "package": "rainbow",
@@ -10476,6 +11469,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_35",
           "package": "rainbow",
@@ -10488,6 +11482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_36",
           "package": "rainbow",
@@ -10497,6 +11492,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_36",
           "package": "rainbow",
@@ -10509,6 +11505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_37",
           "package": "rainbow",
@@ -10518,6 +11515,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_37",
           "package": "rainbow",
@@ -10530,6 +11528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_38",
           "package": "rainbow",
@@ -10539,6 +11538,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_38",
           "package": "rainbow",
@@ -10551,6 +11551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_39",
           "package": "rainbow",
@@ -10560,6 +11561,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_39",
           "package": "rainbow",
@@ -10572,6 +11574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_4",
           "package": "rainbow",
@@ -10581,6 +11584,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_4",
           "package": "rainbow",
@@ -10593,6 +11597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_40",
           "package": "rainbow",
@@ -10602,6 +11607,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_40",
           "package": "rainbow",
@@ -10614,6 +11620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_41",
           "package": "rainbow",
@@ -10623,6 +11630,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_41",
           "package": "rainbow",
@@ -10635,6 +11643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_42",
           "package": "rainbow",
@@ -10644,6 +11653,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_42",
           "package": "rainbow",
@@ -10656,6 +11666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_43",
           "package": "rainbow",
@@ -10665,6 +11676,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_43",
           "package": "rainbow",
@@ -10677,6 +11689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_44",
           "package": "rainbow",
@@ -10686,6 +11699,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_44",
           "package": "rainbow",
@@ -10698,6 +11712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_45",
           "package": "rainbow",
@@ -10707,6 +11722,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_45",
           "package": "rainbow",
@@ -10719,6 +11735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_46",
           "package": "rainbow",
@@ -10728,6 +11745,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_46",
           "package": "rainbow",
@@ -10740,6 +11758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_47",
           "package": "rainbow",
@@ -10749,6 +11768,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_47",
           "package": "rainbow",
@@ -10761,6 +11781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_48",
           "package": "rainbow",
@@ -10770,6 +11791,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_48",
           "package": "rainbow",
@@ -10782,6 +11804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_49",
           "package": "rainbow",
@@ -10791,6 +11814,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_49",
           "package": "rainbow",
@@ -10803,6 +11827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_5",
           "package": "rainbow",
@@ -10812,6 +11837,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_5",
           "package": "rainbow",
@@ -10824,6 +11850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_50",
           "package": "rainbow",
@@ -10833,6 +11860,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_50",
           "package": "rainbow",
@@ -10845,6 +11873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_51",
           "package": "rainbow",
@@ -10854,6 +11883,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_51",
           "package": "rainbow",
@@ -10866,6 +11896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_52",
           "package": "rainbow",
@@ -10875,6 +11906,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_52",
           "package": "rainbow",
@@ -10887,6 +11919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_53",
           "package": "rainbow",
@@ -10896,6 +11929,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_53",
           "package": "rainbow",
@@ -10908,6 +11942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_54",
           "package": "rainbow",
@@ -10917,6 +11952,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_54",
           "package": "rainbow",
@@ -10929,6 +11965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_55",
           "package": "rainbow",
@@ -10938,6 +11975,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_55",
           "package": "rainbow",
@@ -10950,6 +11988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_56",
           "package": "rainbow",
@@ -10959,6 +11998,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_56",
           "package": "rainbow",
@@ -10971,6 +12011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_57",
           "package": "rainbow",
@@ -10980,6 +12021,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_57",
           "package": "rainbow",
@@ -10992,6 +12034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_58",
           "package": "rainbow",
@@ -11001,6 +12044,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_58",
           "package": "rainbow",
@@ -11013,6 +12057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_59",
           "package": "rainbow",
@@ -11022,6 +12067,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_59",
           "package": "rainbow",
@@ -11034,6 +12080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_6",
           "package": "rainbow",
@@ -11043,6 +12090,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_6",
           "package": "rainbow",
@@ -11055,6 +12103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_60",
           "package": "rainbow",
@@ -11064,6 +12113,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_60",
           "package": "rainbow",
@@ -11076,6 +12126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_61",
           "package": "rainbow",
@@ -11085,6 +12136,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_61",
           "package": "rainbow",
@@ -11097,6 +12149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_62",
           "package": "rainbow",
@@ -11106,6 +12159,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_62",
           "package": "rainbow",
@@ -11118,6 +12172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_63",
           "package": "rainbow",
@@ -11127,6 +12182,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_63",
           "package": "rainbow",
@@ -11139,6 +12195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_64",
           "package": "rainbow",
@@ -11148,6 +12205,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_64",
           "package": "rainbow",
@@ -11160,6 +12218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_65",
           "package": "rainbow",
@@ -11169,6 +12228,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_65",
           "package": "rainbow",
@@ -11181,6 +12241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_66",
           "package": "rainbow",
@@ -11190,6 +12251,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_66",
           "package": "rainbow",
@@ -11202,6 +12264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_67",
           "package": "rainbow",
@@ -11211,6 +12274,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_67",
           "package": "rainbow",
@@ -11223,6 +12287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_68",
           "package": "rainbow",
@@ -11232,6 +12297,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_68",
           "package": "rainbow",
@@ -11244,6 +12310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_69",
           "package": "rainbow",
@@ -11253,6 +12320,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_69",
           "package": "rainbow",
@@ -11265,6 +12333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_7",
           "package": "rainbow",
@@ -11274,6 +12343,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_7",
           "package": "rainbow",
@@ -11286,6 +12356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_70",
           "package": "rainbow",
@@ -11295,6 +12366,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_70",
           "package": "rainbow",
@@ -11307,6 +12379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_71",
           "package": "rainbow",
@@ -11316,6 +12389,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_71",
           "package": "rainbow",
@@ -11328,6 +12402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_72",
           "package": "rainbow",
@@ -11337,6 +12412,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_72",
           "package": "rainbow",
@@ -11349,6 +12425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_73",
           "package": "rainbow",
@@ -11358,6 +12435,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_73",
           "package": "rainbow",
@@ -11370,6 +12448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_74",
           "package": "rainbow",
@@ -11379,6 +12458,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_74",
           "package": "rainbow",
@@ -11391,6 +12471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_75",
           "package": "rainbow",
@@ -11400,6 +12481,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_75",
           "package": "rainbow",
@@ -11412,6 +12494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_76",
           "package": "rainbow",
@@ -11421,6 +12504,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_76",
           "package": "rainbow",
@@ -11433,6 +12517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_77",
           "package": "rainbow",
@@ -11442,6 +12527,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_77",
           "package": "rainbow",
@@ -11454,6 +12540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_78",
           "package": "rainbow",
@@ -11463,6 +12550,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_78",
           "package": "rainbow",
@@ -11475,6 +12563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_79",
           "package": "rainbow",
@@ -11484,6 +12573,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_79",
           "package": "rainbow",
@@ -11496,6 +12586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_8",
           "package": "rainbow",
@@ -11505,6 +12596,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_8",
           "package": "rainbow",
@@ -11517,6 +12609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_80",
           "package": "rainbow",
@@ -11526,6 +12619,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_80",
           "package": "rainbow",
@@ -11538,6 +12632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_81",
           "package": "rainbow",
@@ -11547,6 +12642,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_81",
           "package": "rainbow",
@@ -11559,6 +12655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_82",
           "package": "rainbow",
@@ -11568,6 +12665,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_82",
           "package": "rainbow",
@@ -11580,6 +12678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_83",
           "package": "rainbow",
@@ -11589,6 +12688,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_83",
           "package": "rainbow",
@@ -11601,6 +12701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_84",
           "package": "rainbow",
@@ -11610,6 +12711,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_84",
           "package": "rainbow",
@@ -11622,6 +12724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_85",
           "package": "rainbow",
@@ -11631,6 +12734,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_85",
           "package": "rainbow",
@@ -11643,6 +12747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_86",
           "package": "rainbow",
@@ -11652,6 +12757,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_86",
           "package": "rainbow",
@@ -11664,6 +12770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_87",
           "package": "rainbow",
@@ -11673,6 +12780,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_87",
           "package": "rainbow",
@@ -11685,6 +12793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_88",
           "package": "rainbow",
@@ -11694,6 +12803,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_88",
           "package": "rainbow",
@@ -11706,6 +12816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_89",
           "package": "rainbow",
@@ -11715,6 +12826,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_89",
           "package": "rainbow",
@@ -11727,6 +12839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_9",
           "package": "rainbow",
@@ -11736,6 +12849,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_9",
           "package": "rainbow",
@@ -11748,6 +12862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_90",
           "package": "rainbow",
@@ -11757,6 +12872,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_90",
           "package": "rainbow",
@@ -11769,6 +12885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_91",
           "package": "rainbow",
@@ -11778,6 +12895,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_91",
           "package": "rainbow",
@@ -11790,6 +12908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_92",
           "package": "rainbow",
@@ -11799,6 +12918,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_92",
           "package": "rainbow",
@@ -11811,6 +12931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_93",
           "package": "rainbow",
@@ -11820,6 +12941,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_93",
           "package": "rainbow",
@@ -11832,6 +12954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_94",
           "package": "rainbow",
@@ -11841,6 +12964,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_94",
           "package": "rainbow",
@@ -11853,6 +12977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_95",
           "package": "rainbow",
@@ -11862,6 +12987,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_95",
           "package": "rainbow",
@@ -11874,6 +13000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_96",
           "package": "rainbow",
@@ -11883,6 +13010,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_96",
           "package": "rainbow",
@@ -11895,6 +13023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_97",
           "package": "rainbow",
@@ -11904,6 +13033,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_97",
           "package": "rainbow",
@@ -11916,6 +13046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_98",
           "package": "rainbow",
@@ -11925,6 +13056,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_98",
           "package": "rainbow",
@@ -11937,6 +13069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_99",
           "package": "rainbow",
@@ -11946,6 +13079,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_99",
           "package": "rainbow",
@@ -11958,6 +13092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_black",
           "package": "rainbow",
@@ -11967,6 +13102,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_black",
           "package": "rainbow",
@@ -11979,6 +13115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_blue",
           "package": "rainbow",
@@ -11988,6 +13125,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_blue",
           "package": "rainbow",
@@ -12000,6 +13138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_blue_bright",
           "package": "rainbow",
@@ -12009,6 +13148,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_blue_bright",
           "package": "rainbow",
@@ -12021,6 +13161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_cyan",
           "package": "rainbow",
@@ -12030,6 +13171,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_cyan",
           "package": "rainbow",
@@ -12042,6 +13184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_cyan_bright",
           "package": "rainbow",
@@ -12051,6 +13194,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_cyan_bright",
           "package": "rainbow",
@@ -12063,6 +13207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_default",
           "package": "rainbow",
@@ -12072,6 +13217,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_default",
           "package": "rainbow",
@@ -12084,6 +13230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_green",
           "package": "rainbow",
@@ -12093,6 +13240,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_green",
           "package": "rainbow",
@@ -12105,6 +13253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_green_bright",
           "package": "rainbow",
@@ -12114,6 +13263,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_green_bright",
           "package": "rainbow",
@@ -12126,6 +13276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_grey",
           "package": "rainbow",
@@ -12135,6 +13286,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_grey",
           "package": "rainbow",
@@ -12147,6 +13299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_magenta",
           "package": "rainbow",
@@ -12156,6 +13309,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_magenta",
           "package": "rainbow",
@@ -12168,6 +13322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_magenta_bright",
           "package": "rainbow",
@@ -12177,6 +13332,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_magenta_bright",
           "package": "rainbow",
@@ -12189,6 +13345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_red",
           "package": "rainbow",
@@ -12198,6 +13355,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_red",
           "package": "rainbow",
@@ -12210,6 +13368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_red_bright",
           "package": "rainbow",
@@ -12219,6 +13378,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_red_bright",
           "package": "rainbow",
@@ -12231,6 +13391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_white",
           "package": "rainbow",
@@ -12240,6 +13401,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_white",
           "package": "rainbow",
@@ -12252,6 +13414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_white_bright",
           "package": "rainbow",
@@ -12261,6 +13424,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_white_bright",
           "package": "rainbow",
@@ -12273,6 +13437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_yellow",
           "package": "rainbow",
@@ -12282,6 +13447,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_yellow",
           "package": "rainbow",
@@ -12294,6 +13460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c256_f_yellow_bright",
           "package": "rainbow",
@@ -12303,6 +13470,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c256_f_yellow_bright",
           "package": "rainbow",
@@ -12315,6 +13483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_black",
           "package": "rainbow",
@@ -12324,6 +13493,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_black",
           "package": "rainbow",
@@ -12336,6 +13506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_blue",
           "package": "rainbow",
@@ -12345,6 +13516,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_blue",
           "package": "rainbow",
@@ -12357,6 +13529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_cyan",
           "package": "rainbow",
@@ -12366,6 +13539,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_cyan",
           "package": "rainbow",
@@ -12378,6 +13552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_default",
           "package": "rainbow",
@@ -12387,6 +13562,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_default",
           "package": "rainbow",
@@ -12399,6 +13575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_green",
           "package": "rainbow",
@@ -12408,6 +13585,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_green",
           "package": "rainbow",
@@ -12420,6 +13598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_magenta",
           "package": "rainbow",
@@ -12429,6 +13608,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_magenta",
           "package": "rainbow",
@@ -12441,6 +13621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_red",
           "package": "rainbow",
@@ -12450,6 +13631,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_red",
           "package": "rainbow",
@@ -12462,6 +13644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_white",
           "package": "rainbow",
@@ -12471,6 +13654,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_white",
           "package": "rainbow",
@@ -12483,6 +13667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_b_yellow",
           "package": "rainbow",
@@ -12492,6 +13677,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_b_yellow",
           "package": "rainbow",
@@ -12504,6 +13690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_black",
           "package": "rainbow",
@@ -12513,6 +13700,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_black",
           "package": "rainbow",
@@ -12525,6 +13713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_blue",
           "package": "rainbow",
@@ -12534,6 +13723,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_blue",
           "package": "rainbow",
@@ -12546,6 +13736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_cyan",
           "package": "rainbow",
@@ -12555,6 +13746,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_cyan",
           "package": "rainbow",
@@ -12567,6 +13759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_default",
           "package": "rainbow",
@@ -12576,6 +13769,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_default",
           "package": "rainbow",
@@ -12588,6 +13782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_green",
           "package": "rainbow",
@@ -12597,6 +13792,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_green",
           "package": "rainbow",
@@ -12609,6 +13805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_magenta",
           "package": "rainbow",
@@ -12618,6 +13815,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_magenta",
           "package": "rainbow",
@@ -12630,6 +13828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_red",
           "package": "rainbow",
@@ -12639,6 +13838,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_red",
           "package": "rainbow",
@@ -12651,6 +13851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_white",
           "package": "rainbow",
@@ -12660,6 +13861,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_white",
           "package": "rainbow",
@@ -12672,6 +13874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "c8_f_yellow",
           "package": "rainbow",
@@ -12681,6 +13884,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "c8_f_yellow",
           "package": "rainbow",
@@ -12693,6 +13897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "common256",
           "package": "rainbow",
@@ -12702,6 +13907,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "common256",
           "package": "rainbow",
@@ -12714,6 +13920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "common8",
           "package": "rainbow",
@@ -12723,6 +13930,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "common8",
           "package": "rainbow",
@@ -12735,6 +13943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_black",
           "package": "rainbow",
@@ -12744,6 +13953,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_black",
           "package": "rainbow",
@@ -12756,6 +13966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_blue",
           "package": "rainbow",
@@ -12765,6 +13976,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_blue",
           "package": "rainbow",
@@ -12777,6 +13989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_cyan",
           "package": "rainbow",
@@ -12786,6 +13999,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_cyan",
           "package": "rainbow",
@@ -12798,6 +14012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_default",
           "package": "rainbow",
@@ -12807,6 +14022,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_default",
           "package": "rainbow",
@@ -12819,6 +14035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_green",
           "package": "rainbow",
@@ -12828,6 +14045,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_green",
           "package": "rainbow",
@@ -12840,6 +14058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_magenta",
           "package": "rainbow",
@@ -12849,6 +14068,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_magenta",
           "package": "rainbow",
@@ -12861,6 +14081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_red",
           "package": "rainbow",
@@ -12870,6 +14091,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_red",
           "package": "rainbow",
@@ -12882,6 +14104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_white",
           "package": "rainbow",
@@ -12891,6 +14114,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_white",
           "package": "rainbow",
@@ -12903,6 +14127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "f_yellow",
           "package": "rainbow",
@@ -12912,6 +14137,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "f_yellow",
           "package": "rainbow",
@@ -12924,6 +14150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flash",
           "package": "rainbow",
@@ -12933,6 +14160,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flash",
           "package": "rainbow",
@@ -12945,6 +14173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flash256",
           "package": "rainbow",
@@ -12954,6 +14183,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flash256",
           "package": "rainbow",
@@ -12966,6 +14196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flash256off",
           "package": "rainbow",
@@ -12975,6 +14206,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flash256off",
           "package": "rainbow",
@@ -12987,6 +14219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flash8",
           "package": "rainbow",
@@ -12996,6 +14229,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flash8",
           "package": "rainbow",
@@ -13008,6 +14242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flash8off",
           "package": "rainbow",
@@ -13017,6 +14252,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flash8off",
           "package": "rainbow",
@@ -13029,6 +14265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "flashOff",
           "package": "rainbow",
@@ -13038,6 +14275,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "flashOff",
           "package": "rainbow",
@@ -13051,6 +14289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "foreground256",
           "package": "rainbow",
@@ -13060,6 +14299,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "foreground256",
           "package": "rainbow",
@@ -13072,6 +14312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "foreground8",
           "package": "rainbow",
@@ -13081,6 +14322,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "foreground8",
           "package": "rainbow",
@@ -13093,6 +14335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "fromString",
           "package": "rainbow",
@@ -13101,6 +14344,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -13117,6 +14361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint one chunk at a time, to a handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "hPutChunk",
           "package": "rainbow",
@@ -13127,6 +14372,7 @@
         "index": {
           "description": "Print one chunk at time to handle",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "hPutChunk",
           "normalized": "Handle-\u003eChunk-\u003eIO()",
@@ -13143,6 +14389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint one chunk at a time, to a handle, append a newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "hPutChunkLn",
           "package": "rainbow",
@@ -13153,6 +14400,7 @@
         "index": {
           "description": "Print one chunk at time to handle append newline",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "hPutChunkLn",
           "normalized": "Handle-\u003eChunk-\u003eIO()",
@@ -13169,6 +14417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a list of chunks to the given handle for printing. Sets up\n the terminal (this only needs to be done once.) Lazily processes\n the list of Chunk. See \u003ccode\u003e\u003ca\u003eputChunks\u003c/a\u003e\u003c/code\u003e for notes on how many colors\n are used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "hPutChunks",
           "package": "rainbow",
@@ -13179,6 +14428,7 @@
         "index": {
           "description": "Sends list of chunks to the given handle for printing Sets up the terminal this only needs to be done once Lazily processes the list of Chunk See putChunks for notes on how many colors are used",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "hPutChunks",
           "normalized": "Handle-\u003eTerm-\u003e[Chunk]-\u003eIO()",
@@ -13194,6 +14444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverse",
           "package": "rainbow",
@@ -13203,6 +14454,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverse",
           "package": "rainbow",
@@ -13215,6 +14467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverse256",
           "package": "rainbow",
@@ -13224,6 +14477,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverse256",
           "package": "rainbow",
@@ -13236,6 +14490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverse256off",
           "package": "rainbow",
@@ -13245,6 +14500,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverse256off",
           "package": "rainbow",
@@ -13257,6 +14513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverse8",
           "package": "rainbow",
@@ -13266,6 +14523,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverse8",
           "package": "rainbow",
@@ -13278,6 +14536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverse8off",
           "package": "rainbow",
@@ -13287,6 +14546,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverse8off",
           "package": "rainbow",
@@ -13299,6 +14559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "inverseOff",
           "package": "rainbow",
@@ -13308,6 +14569,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "inverseOff",
           "package": "rainbow",
@@ -13322,6 +14584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "mappend",
           "package": "rainbow",
@@ -13331,6 +14594,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -13346,6 +14610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "mconcat",
           "package": "rainbow",
@@ -13355,6 +14620,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -13370,6 +14636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "mempty",
           "package": "rainbow",
@@ -13379,6 +14646,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "mempty",
           "package": "rainbow",
@@ -13392,6 +14660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint one chunk at a time, to standard output\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "putChunk",
           "package": "rainbow",
@@ -13402,6 +14671,7 @@
         "index": {
           "description": "Print one chunk at time to standard output",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "putChunk",
           "normalized": "Chunk-\u003eIO()",
@@ -13418,6 +14688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint one chunk at a time, to standard output, append a newline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "putChunkLn",
           "package": "rainbow",
@@ -13428,6 +14699,7 @@
         "index": {
           "description": "Print one chunk at time to standard output append newline",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "putChunkLn",
           "normalized": "Chunk-\u003eIO()",
@@ -13444,6 +14716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a list of chunks to standard output for printing. Sets up\n the terminal (this only needs to be done once.) Lazily processes\n the list of Chunk.\n\u003c/p\u003e\u003cp\u003eWhich colors are used depends upon the \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e. If it is \u003ccode\u003e\u003ca\u003eDumb\u003c/a\u003e\u003c/code\u003e,\n then no colors are used on output. If the \u003ccode\u003e\u003ca\u003eTerm\u003c/a\u003e\u003c/code\u003e is specified with\n \u003ccode\u003e\u003ca\u003eTermName\u003c/a\u003e\u003c/code\u003e, the UNIX terminfo library is used to determine how many\n colors the terminal supports. If it supports at least 256 colors,\n then 256 colors are used. If it supports at least 8 colors but less\n than 256 colors, then 256 colors are used. Otherwise, no colors are\n used. A runtime error will occur if the \u003ccode\u003e\u003ca\u003eTermName\u003c/a\u003e\u003c/code\u003e is not found in\n the system terminal database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "putChunks",
           "package": "rainbow",
@@ -13454,6 +14727,7 @@
         "index": {
           "description": "Sends list of chunks to standard output for printing Sets up the terminal this only needs to be done once Lazily processes the list of Chunk Which colors are used depends upon the Term If it is Dumb then no colors are used on output If the Term is specified with TermName the UNIX terminfo library is used to determine how many colors the terminal supports If it supports at least colors then colors are used If it supports at least colors but less than colors then colors are used Otherwise no colors are used runtime error will occur if the TermName is not found in the system terminal database",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "putChunks",
           "normalized": "Term-\u003e[Chunk]-\u003eIO()",
@@ -13469,6 +14743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "scBold",
           "package": "rainbow",
@@ -13478,6 +14753,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "scBold",
           "package": "rainbow",
@@ -13491,6 +14767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "scFlash",
           "package": "rainbow",
@@ -13500,6 +14777,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "scFlash",
           "package": "rainbow",
@@ -13513,6 +14791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "scInverse",
           "package": "rainbow",
@@ -13522,6 +14801,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "scInverse",
           "package": "rainbow",
@@ -13535,6 +14815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "scUnderline",
           "package": "rainbow",
@@ -13544,6 +14825,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "scUnderline",
           "package": "rainbow",
@@ -13558,6 +14840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the terminal definition from the environment. If the first\n argument is True, the terminal is always obtained from the\n environment. If it is False, the terminal is only obtained from the\n environment if the given handle is not a terminal; otherwise, Dumb\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "smartTermFromEnv",
           "package": "rainbow",
@@ -13567,6 +14850,7 @@
         "index": {
           "description": "Gets the terminal definition from the environment If the first argument is True the terminal is always obtained from the environment If it is False the terminal is only obtained from the environment if the given handle is not terminal otherwise Dumb is returned",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "smartTermFromEnv",
           "normalized": "Bool-\u003eHandle-\u003eIO Term",
@@ -13582,6 +14866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "style256",
           "package": "rainbow",
@@ -13591,6 +14876,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "style256",
           "package": "rainbow",
@@ -13603,6 +14889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "style8",
           "package": "rainbow",
@@ -13612,6 +14899,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "style8",
           "package": "rainbow",
@@ -13625,6 +14913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the terminal definition from the environment. If the\n environment does not have a TERM veriable, use \u003ccode\u003e\u003ca\u003eDumb\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "termFromEnv",
           "package": "rainbow",
@@ -13635,6 +14924,7 @@
         "index": {
           "description": "Gets the terminal definition from the environment If the environment does not have TERM veriable use Dumb",
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "termFromEnv",
           "package": "rainbow",
@@ -13648,6 +14938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "text",
           "package": "rainbow",
@@ -13657,6 +14948,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "text",
           "package": "rainbow",
@@ -13669,6 +14961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "textSpec",
           "package": "rainbow",
@@ -13678,6 +14971,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "textSpec",
           "package": "rainbow",
@@ -13691,6 +14985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underline",
           "package": "rainbow",
@@ -13700,6 +14995,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underline",
           "package": "rainbow",
@@ -13712,6 +15008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underline256",
           "package": "rainbow",
@@ -13721,6 +15018,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underline256",
           "package": "rainbow",
@@ -13733,6 +15031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underline256off",
           "package": "rainbow",
@@ -13742,6 +15041,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underline256off",
           "package": "rainbow",
@@ -13754,6 +15054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underline8",
           "package": "rainbow",
@@ -13763,6 +15064,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underline8",
           "package": "rainbow",
@@ -13775,6 +15077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underline8off",
           "package": "rainbow",
@@ -13784,6 +15087,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underline8off",
           "package": "rainbow",
@@ -13796,6 +15100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:50 UTC 2014",
           "module": "System.Console.Rainbow",
           "name": "underlineOff",
           "package": "rainbow",
@@ -13805,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "System Console Rainbow",
+          "indexed": "2014-03-11T19:47:50",
           "module": "System.Console.Rainbow",
           "name": "underlineOff",
           "package": "rainbow",

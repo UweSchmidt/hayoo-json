@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "svm-simple"
+        "phrase": "svm-simple",
+        "type": "phrase"
       },
       "type": "context"
     }

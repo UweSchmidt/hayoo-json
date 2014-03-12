@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hunit-parsec"
+        "phrase": "hunit-parsec",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "Parsec",
           "package": "hunit-parsec",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "Parsec",
           "package": "hunit-parsec",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "ParsecTest",
           "package": "hunit-parsec",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "ParsecTest",
           "package": "hunit-parsec",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "ParsecTest",
           "package": "hunit-parsec",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "ParsecTest",
           "package": "hunit-parsec",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "initState",
           "package": "hunit-parsec",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "initState",
           "package": "hunit-parsec",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "negativeCases",
           "package": "hunit-parsec",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "negativeCases",
           "normalized": "[[a]]",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "parser",
           "package": "hunit-parsec",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "parser",
           "package": "hunit-parsec",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:53:37 UTC 2014",
           "module": "Test.HUnit.Parsec",
           "name": "positiveCases",
           "package": "hunit-parsec",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Test HUnit Parsec",
+          "indexed": "2014-03-11T18:53:37",
           "module": "Test.HUnit.Parsec",
           "name": "positiveCases",
           "normalized": "[(a,[[b]])]",

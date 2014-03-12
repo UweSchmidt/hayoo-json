@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "miku"
+        "phrase": "miku",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Config",
           "name": "Config",
           "package": "miku",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Config",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Config",
           "name": "Config",
           "package": "miku",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Config",
           "name": "miku_captures",
           "package": "miku",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Config",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Config",
           "name": "miku_captures",
           "package": "miku",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Config",
           "name": "pre_installed_middlewares",
           "package": "miku",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Config",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Config",
           "name": "pre_installed_middlewares",
           "normalized": "[Middleware]",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "DSL",
           "package": "miku",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "DSL",
           "package": "miku",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "add_route",
           "package": "miku",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "add_route",
           "normalized": "RequestMethod-\u003eByteString-\u003eAppMonad-\u003eMikuMonad",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "after",
           "package": "miku",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "after",
           "normalized": "(Response-\u003eIO Response)-\u003eMikuMonad",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "app",
           "package": "miku",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "app",
           "normalized": "Application-\u003eAppMonad",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "before",
           "package": "miku",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "before",
           "normalized": "(Env-\u003eIO Env)-\u003eMikuMonad",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "captures",
           "package": "miku",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "captures",
           "normalized": "AppMonadT[(ByteString,ByteString)]",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "delete",
           "package": "miku",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "delete",
           "normalized": "ByteString-\u003eAppMonad-\u003eMikuMonad",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "get",
           "package": "miku",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "get",
           "normalized": "ByteString-\u003eAppMonad-\u003eMikuMonad",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "html",
           "package": "miku",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "html",
           "normalized": "ByteString-\u003eAppMonad",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "json",
           "package": "miku",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "json",
           "normalized": "ByteString-\u003eAppMonad",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "middleware",
           "package": "miku",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "middleware",
           "normalized": "Middleware-\u003eMikuMonad",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "mime",
           "package": "miku",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "mime",
           "normalized": "ByteString-\u003eByteString-\u003eMikuMonad",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "post",
           "package": "miku",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "post",
           "normalized": "ByteString-\u003eAppMonad-\u003eMikuMonad",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "public",
           "package": "miku",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "public",
           "normalized": "Maybe ByteString-\u003e[ByteString]-\u003eMikuMonad",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "put",
           "package": "miku",
@@ -412,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "put",
           "normalized": "ByteString-\u003eAppMonad-\u003eMikuMonad",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.DSL",
           "name": "text",
           "package": "miku",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network Miku DSL",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.DSL",
           "name": "text",
           "normalized": "ByteString-\u003eAppMonad",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Engine",
           "name": "Engine",
           "package": "miku",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Engine",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Engine",
           "name": "Engine",
           "package": "miku",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Engine",
           "name": "miku",
           "package": "miku",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Engine",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Engine",
           "name": "miku",
           "normalized": "MikuMonad-\u003eApplication",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Engine",
           "name": "miku_middleware",
           "package": "miku",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Engine",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Engine",
           "name": "miku_middleware",
           "normalized": "MikuMonad-\u003eMiddleware",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Engine",
           "name": "miku_router",
           "package": "miku",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Engine",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Engine",
           "name": "miku_router",
           "normalized": "RequestMethod-\u003eByteString-\u003eAppMonad-\u003eMiddleware",
@@ -539,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Engine",
           "name": "parse_params",
           "package": "miku",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Engine",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Engine",
           "name": "parse_params",
           "normalized": "ByteString-\u003eByteString-\u003eMaybe(ByteString,[(ByteString,ByteString)])",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "Type",
           "package": "miku",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "Type",
           "package": "miku",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "AppMonad",
           "package": "miku",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "AppMonad",
           "package": "miku",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "AppMonadT",
           "package": "miku",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "AppMonadT",
           "package": "miku",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "AppReader",
           "package": "miku",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "AppReader",
           "package": "miku",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "AppState",
           "package": "miku",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "AppState",
           "package": "miku",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "MikuMonad",
           "package": "miku",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "MikuMonad",
           "package": "miku",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "MikuMonadT",
           "package": "miku",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "MikuMonadT",
           "package": "miku",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "MikuState",
           "package": "miku",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "MikuState",
           "package": "miku",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "MikuState",
           "package": "miku",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "MikuState",
           "package": "miku",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "__middlewares",
           "package": "miku",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "__middlewares",
           "normalized": "-\u003eMikuState[Middleware]",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "__mimes",
           "package": "miku",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "__mimes",
           "normalized": "-\u003eMikuState[(ByteString,ByteString)]",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "__router",
           "package": "miku",
@@ -807,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "__router",
           "normalized": "-\u003eMikuState[Middleware]",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "middlewares",
           "package": "miku",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "middlewares",
           "normalized": "[Middleware]",
@@ -844,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "mimes",
           "package": "miku",
@@ -853,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "mimes",
           "normalized": "[(ByteString,ByteString)]",
@@ -867,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Type",
           "name": "router",
           "package": "miku",
@@ -876,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Type",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Type",
           "name": "router",
           "normalized": "[Middleware]",
@@ -890,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Utils",
           "name": "Utils",
           "package": "miku",
@@ -898,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Utils",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Utils",
           "name": "Utils",
           "package": "miku",
@@ -911,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Utils",
           "name": "insert_last",
           "package": "miku",
@@ -920,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Utils",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Utils",
           "name": "insert_last",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -934,6 +1016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Utils",
           "name": "namespace",
           "package": "miku",
@@ -943,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Utils",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Utils",
           "name": "namespace",
           "normalized": "ByteString-\u003eEnv-\u003e[(ByteString,ByteString)]",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Utils",
           "name": "put_namespace",
           "package": "miku",
@@ -966,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Utils",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Utils",
           "name": "put_namespace",
           "normalized": "ByteString-\u003e[(ByteString,ByteString)]-\u003eEnv-\u003eEnv",
@@ -980,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku.Utils",
           "name": "update",
           "package": "miku",
@@ -989,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Network Miku Utils",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku.Utils",
           "name": "update",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -1003,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:17:43 UTC 2014",
           "module": "Network.Miku",
           "name": "Miku",
           "package": "miku",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Network Miku",
+          "indexed": "2014-03-11T19:17:43",
           "module": "Network.Miku",
           "name": "Miku",
           "package": "miku",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsql-odbc"
+        "phrase": "hsql-odbc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Core",
           "name": "Core",
           "package": "hsql-odbc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Core",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Core",
           "name": "Core",
           "package": "hsql-odbc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Core",
           "name": "handleSqlResult",
           "package": "hsql-odbc",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Core",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Core",
           "name": "handleSqlResult",
           "normalized": "SQLSMALLINT-\u003eSQLHANDLE-\u003eSQLRETURN-\u003eIO()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Core",
           "name": "withStatement",
           "package": "hsql-odbc",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Core",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Core",
           "name": "withStatement",
           "normalized": "Connection-\u003eHDBC-\u003e(HSTMT-\u003eIO SQLRETURN)-\u003eIO Statement",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "Functions",
           "package": "hsql-odbc",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "Functions",
           "package": "hsql-odbc",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "fieldNameLength",
           "package": "hsql-odbc",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "fieldNameLength",
           "package": "hsql-odbc",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sizeOfField",
           "package": "hsql-odbc",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sizeOfField",
           "package": "hsql-odbc",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sizeOfHStmt",
           "package": "hsql-odbc",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sizeOfHStmt",
           "package": "hsql-odbc",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocConnect",
           "package": "hsql-odbc",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocConnect",
           "normalized": "HENV-\u003ePtr HDBC-\u003eIO SQLRETURN",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocEnv",
           "package": "hsql-odbc",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocEnv",
           "normalized": "Ptr HENV-\u003eIO SQLRETURN",
@@ -222,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocStmt",
           "package": "hsql-odbc",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAllocStmt",
           "normalized": "HDBC-\u003ePtr HSTMT-\u003eIO SQLRETURN",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAttrCursorType",
           "package": "hsql-odbc",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAttrCursorType",
           "package": "hsql-odbc",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAttrRowArraySize",
           "package": "hsql-odbc",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAttrRowArraySize",
           "package": "hsql-odbc",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommit",
           "package": "hsql-odbc",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommit",
           "package": "hsql-odbc",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommitOff",
           "package": "hsql-odbc",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommitOff",
           "package": "hsql-odbc",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommitOn",
           "package": "hsql-odbc",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlAutoCommitOn",
           "package": "hsql-odbc",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlBindCol",
           "package": "hsql-odbc",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlBindCol",
           "normalized": "HSTMT-\u003eSQLUSMALLINT-\u003eSQLSMALLINT-\u003ePtr a-\u003eSQLLEN-\u003ePtr SQLINTEGER-\u003eIO SQLRETURN",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCChar",
           "package": "hsql-odbc",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCChar",
           "package": "hsql-odbc",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlColumns",
           "package": "hsql-odbc",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlColumns",
           "normalized": "HSTMT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eIO SQLRETURN",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCommit",
           "package": "hsql-odbc",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCommit",
           "package": "hsql-odbc",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlConnect",
           "package": "hsql-odbc",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlConnect",
           "normalized": "HDBC-\u003eCString-\u003eInt-\u003eCString-\u003eInt-\u003eCString-\u003eInt-\u003eIO SQLRETURN",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCursorStatic",
           "package": "hsql-odbc",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlCursorStatic",
           "package": "hsql-odbc",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDescribeCol",
           "package": "hsql-odbc",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDescribeCol",
           "normalized": "HSTMT-\u003eSQLUSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003ePtr SQLSMALLINT-\u003ePtr SQLSMALLINT-\u003ePtr SQLULEN-\u003ePtr SQLSMALLINT-\u003ePtr SQLSMALLINT-\u003eIO SQLRETURN",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDisconnect",
           "package": "hsql-odbc",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDisconnect",
           "normalized": "HDBC-\u003eIO SQLRETURN",
@@ -542,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDriverConnect",
           "package": "hsql-odbc",
@@ -551,6 +598,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDriverConnect",
           "normalized": "HDBC-\u003ePtr()-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003ePtr SQLSMALLINT-\u003eSQLUSMALLINT-\u003eIO SQLRETURN",
@@ -566,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDriverNoPrompt",
           "package": "hsql-odbc",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDriverNoPrompt",
           "package": "hsql-odbc",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDrop",
           "package": "hsql-odbc",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlDrop",
           "package": "hsql-odbc",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlExecDirect",
           "package": "hsql-odbc",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlExecDirect",
           "normalized": "HSTMT-\u003eCString-\u003eInt-\u003eIO SQLRETURN",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFetch",
           "package": "hsql-odbc",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFetch",
           "normalized": "HSTMT-\u003eIO SQLRETURN",
@@ -658,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeConnect",
           "package": "hsql-odbc",
@@ -667,6 +724,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeConnect",
           "normalized": "HDBC-\u003eIO SQLRETURN",
@@ -682,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeEnv_p",
           "package": "hsql-odbc",
@@ -691,6 +750,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeEnv_p",
           "normalized": "FunPtr(HENV-\u003eIO())",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeStmt",
           "package": "hsql-odbc",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlFreeStmt",
           "normalized": "HSTMT-\u003eSQLUSMALLINT-\u003eIO SQLRETURN",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlGetData",
           "package": "hsql-odbc",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlGetData",
           "normalized": "HSTMT-\u003eSQLUSMALLINT-\u003eSQLSMALLINT-\u003ePtr()-\u003eSQLINTEGER-\u003ePtr SQLINTEGER-\u003eIO SQLRETURN",
@@ -754,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlGetDiagRec",
           "package": "hsql-odbc",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlGetDiagRec",
           "normalized": "SQLSMALLINT-\u003eSQLHANDLE-\u003eSQLSMALLINT-\u003eCString-\u003ePtr SQLINTEGER-\u003eCString-\u003eSQLSMALLINT-\u003ePtr SQLSMALLINT-\u003eIO SQLRETURN",
@@ -778,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleDbc",
           "package": "hsql-odbc",
@@ -787,6 +854,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleDbc",
           "package": "hsql-odbc",
@@ -800,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleEnv",
           "package": "hsql-odbc",
@@ -809,6 +878,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleEnv",
           "package": "hsql-odbc",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleStmt",
           "package": "hsql-odbc",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlHandleStmt",
           "package": "hsql-odbc",
@@ -844,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlIsInteger",
           "package": "hsql-odbc",
@@ -853,6 +926,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlIsInteger",
           "package": "hsql-odbc",
@@ -866,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlMoreResults",
           "package": "hsql-odbc",
@@ -875,6 +950,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlMoreResults",
           "normalized": "HSTMT-\u003eIO SQLRETURN",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNts",
           "package": "hsql-odbc",
@@ -899,6 +976,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNts",
           "package": "hsql-odbc",
@@ -912,6 +990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNullData",
           "package": "hsql-odbc",
@@ -921,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNullData",
           "package": "hsql-odbc",
@@ -934,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNumResultCols",
           "package": "hsql-odbc",
@@ -943,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlNumResultCols",
           "normalized": "HSTMT-\u003ePtr SQLUSMALLINT-\u003eIO SQLRETURN",
@@ -958,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlRollback",
           "package": "hsql-odbc",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlRollback",
           "package": "hsql-odbc",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlSetConnectOption",
           "package": "hsql-odbc",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlSetConnectOption",
           "normalized": "HDBC-\u003eSQLUSMALLINT-\u003eSQLULEN-\u003eIO SQLRETURN",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlTables",
           "package": "hsql-odbc",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlTables",
           "normalized": "HSTMT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eCString-\u003eSQLSMALLINT-\u003eIO SQLRETURN",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlTransact",
           "package": "hsql-odbc",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Functions",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Functions",
           "name": "sqlTransact",
           "normalized": "HENV-\u003eHDBC-\u003eSQLUSMALLINT-\u003eIO SQLRETURN",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "Status",
           "package": "hsql-odbc",
@@ -1060,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "Status",
           "package": "hsql-odbc",
@@ -1073,6 +1165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlError",
           "package": "hsql-odbc",
@@ -1082,6 +1175,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlError",
           "package": "hsql-odbc",
@@ -1095,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlInvalidHandle",
           "package": "hsql-odbc",
@@ -1104,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlInvalidHandle",
           "package": "hsql-odbc",
@@ -1117,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlNeedData",
           "package": "hsql-odbc",
@@ -1126,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlNeedData",
           "package": "hsql-odbc",
@@ -1139,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlNoData",
           "package": "hsql-odbc",
@@ -1148,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlNoData",
           "package": "hsql-odbc",
@@ -1161,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlStillExecuting",
           "package": "hsql-odbc",
@@ -1170,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlStillExecuting",
           "package": "hsql-odbc",
@@ -1183,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlSuccess",
           "package": "hsql-odbc",
@@ -1192,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlSuccess",
           "package": "hsql-odbc",
@@ -1205,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlSuccessWithInfo",
           "package": "hsql-odbc",
@@ -1214,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Status",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Status",
           "name": "sqlSuccessWithInfo",
           "package": "hsql-odbc",
@@ -1227,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "Type",
           "package": "hsql-odbc",
@@ -1235,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "Type",
           "package": "hsql-odbc",
@@ -1248,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HDBC",
           "package": "hsql-odbc",
@@ -1256,6 +1365,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HDBC",
           "package": "hsql-odbc",
@@ -1269,6 +1379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HENV",
           "package": "hsql-odbc",
@@ -1277,6 +1388,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HENV",
           "package": "hsql-odbc",
@@ -1290,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HENVRef",
           "package": "hsql-odbc",
@@ -1298,6 +1411,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HENVRef",
           "package": "hsql-odbc",
@@ -1311,6 +1425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HSTMT",
           "package": "hsql-odbc",
@@ -1319,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "HSTMT",
           "package": "hsql-odbc",
@@ -1332,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLHANDLE",
           "package": "hsql-odbc",
@@ -1340,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLHANDLE",
           "package": "hsql-odbc",
@@ -1353,6 +1471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLINTEGER",
           "package": "hsql-odbc",
@@ -1361,6 +1480,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLINTEGER",
           "package": "hsql-odbc",
@@ -1374,6 +1494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLLEN",
           "package": "hsql-odbc",
@@ -1382,6 +1503,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLLEN",
           "package": "hsql-odbc",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLRETURN",
           "package": "hsql-odbc",
@@ -1403,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLRETURN",
           "package": "hsql-odbc",
@@ -1416,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLSMALLINT",
           "package": "hsql-odbc",
@@ -1424,6 +1549,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLSMALLINT",
           "package": "hsql-odbc",
@@ -1437,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLUINTEGER",
           "package": "hsql-odbc",
@@ -1445,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLUINTEGER",
           "package": "hsql-odbc",
@@ -1458,6 +1586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLULEN",
           "package": "hsql-odbc",
@@ -1466,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLULEN",
           "package": "hsql-odbc",
@@ -1479,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLUSMALLINT",
           "package": "hsql-odbc",
@@ -1487,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "SQLUSMALLINT",
           "package": "hsql-odbc",
@@ -1500,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "mkSqlType",
           "package": "hsql-odbc",
@@ -1509,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "mkSqlType",
           "normalized": "SQLSMALLINT-\u003eSQLULEN-\u003eSQLSMALLINT-\u003eSqlType",
@@ -1524,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBigint",
           "package": "hsql-odbc",
@@ -1533,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBigint",
           "package": "hsql-odbc",
@@ -1546,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBinary",
           "package": "hsql-odbc",
@@ -1555,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBinary",
           "package": "hsql-odbc",
@@ -1568,6 +1706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBit",
           "package": "hsql-odbc",
@@ -1577,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlBit",
           "package": "hsql-odbc",
@@ -1591,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e#const\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlChar",
           "package": "hsql-odbc",
@@ -1601,6 +1742,7 @@
         "index": {
           "description": "const",
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlChar",
           "package": "hsql-odbc",
@@ -1614,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDate",
           "package": "hsql-odbc",
@@ -1623,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDate",
           "package": "hsql-odbc",
@@ -1636,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDecimal",
           "package": "hsql-odbc",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDecimal",
           "package": "hsql-odbc",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDouble",
           "package": "hsql-odbc",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlDouble",
           "package": "hsql-odbc",
@@ -1680,6 +1828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlFloat",
           "package": "hsql-odbc",
@@ -1689,6 +1838,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlFloat",
           "package": "hsql-odbc",
@@ -1702,6 +1852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlInteger",
           "package": "hsql-odbc",
@@ -1711,6 +1862,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlInteger",
           "package": "hsql-odbc",
@@ -1724,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlLongVarBinary",
           "package": "hsql-odbc",
@@ -1733,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlLongVarBinary",
           "package": "hsql-odbc",
@@ -1746,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlLongVarChar",
           "package": "hsql-odbc",
@@ -1755,6 +1910,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlLongVarChar",
           "package": "hsql-odbc",
@@ -1768,6 +1924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlNumeric",
           "package": "hsql-odbc",
@@ -1777,6 +1934,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlNumeric",
           "package": "hsql-odbc",
@@ -1790,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlReal",
           "package": "hsql-odbc",
@@ -1799,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlReal",
           "package": "hsql-odbc",
@@ -1812,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlSmallint",
           "package": "hsql-odbc",
@@ -1821,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlSmallint",
           "package": "hsql-odbc",
@@ -1834,6 +1996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTime",
           "package": "hsql-odbc",
@@ -1843,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTime",
           "package": "hsql-odbc",
@@ -1856,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTimestamp",
           "package": "hsql-odbc",
@@ -1865,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTimestamp",
           "package": "hsql-odbc",
@@ -1878,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTinyInt",
           "package": "hsql-odbc",
@@ -1887,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlTinyInt",
           "package": "hsql-odbc",
@@ -1900,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlVarBinary",
           "package": "hsql-odbc",
@@ -1909,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlVarBinary",
           "package": "hsql-odbc",
@@ -1922,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlVarChar",
           "package": "hsql-odbc",
@@ -1931,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlVarChar",
           "package": "hsql-odbc",
@@ -1944,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWChar",
           "package": "hsql-odbc",
@@ -1953,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWChar",
           "package": "hsql-odbc",
@@ -1966,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWLongVarChar",
           "package": "hsql-odbc",
@@ -1975,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWLongVarChar",
           "package": "hsql-odbc",
@@ -1988,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWVarChar",
           "package": "hsql-odbc",
@@ -1997,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "DB HSQL ODBC Type",
+          "indexed": "2014-03-11T18:50:33",
           "module": "DB.HSQL.ODBC.Type",
           "name": "sqlWVarChar",
           "package": "hsql-odbc",
@@ -2010,6 +2188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "Database.HSQL.ODBC",
           "name": "ODBC",
           "package": "hsql-odbc",
@@ -2018,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Database HSQL ODBC",
+          "indexed": "2014-03-11T18:50:33",
           "module": "Database.HSQL.ODBC",
           "name": "ODBC",
           "package": "hsql-odbc",
@@ -2032,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new connection to the ODBC data source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "Database.HSQL.ODBC",
           "name": "connect",
           "package": "hsql-odbc",
@@ -2041,6 +2222,7 @@
         "index": {
           "description": "Makes new connection to the ODBC data source",
           "hierarchy": "Database HSQL ODBC",
+          "indexed": "2014-03-11T18:50:33",
           "module": "Database.HSQL.ODBC",
           "name": "connect",
           "normalized": "String-\u003eString-\u003eString-\u003eIO Connection",
@@ -2056,6 +2238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edriverConnect\u003c/a\u003e\u003c/code\u003e is an alternative to \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e. It supports data sources\n that require more connection information than the three arguments in\n \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e and data sources that are not defined in the system information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:50:33 UTC 2014",
           "module": "Database.HSQL.ODBC",
           "name": "driverConnect",
           "package": "hsql-odbc",
@@ -2065,6 +2248,7 @@
         "index": {
           "description": "driverConnect is an alternative to connect It supports data sources that require more connection information than the three arguments in connect and data sources that are not defined in the system information",
           "hierarchy": "Database HSQL ODBC",
+          "indexed": "2014-03-11T18:50:33",
           "module": "Database.HSQL.ODBC",
           "name": "driverConnect",
           "normalized": "String-\u003eIO Connection",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scotty-blaze"
+        "phrase": "scotty-blaze",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:58:25 UTC 2014",
           "module": "Web.Scotty.Blaze",
           "name": "Blaze",
           "package": "scotty-blaze",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Scotty Blaze",
+          "indexed": "2014-03-11T19:58:25",
           "module": "Web.Scotty.Blaze",
           "name": "Blaze",
           "package": "scotty-blaze",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender some Blaze Html\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:25 UTC 2014",
           "module": "Web.Scotty.Blaze",
           "name": "blaze",
           "package": "scotty-blaze",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Render some Blaze Html",
           "hierarchy": "Web Scotty Blaze",
+          "indexed": "2014-03-11T19:58:25",
           "module": "Web.Scotty.Blaze",
           "name": "blaze",
           "normalized": "Html-\u003eActionM()",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a generic builder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:58:25 UTC 2014",
           "module": "Web.Scotty.Blaze",
           "name": "builder",
           "package": "scotty-blaze",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Render generic builder",
           "hierarchy": "Web Scotty Blaze",
+          "indexed": "2014-03-11T19:58:25",
           "module": "Web.Scotty.Blaze",
           "name": "builder",
           "normalized": "Builder-\u003eActionM()",

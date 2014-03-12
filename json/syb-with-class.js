@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "syb-with-class"
+        "phrase": "syb-with-class",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Basics",
           "package": "syb-with-class",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Basics",
           "package": "syb-with-class",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique index for datatype constructors.\n | Textual order is respected. Starts at 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ConIndex",
           "package": "syb-with-class",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Unique index for datatype constructors Textual order is respected Starts at",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ConIndex",
           "package": "syb-with-class",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Constr",
           "package": "syb-with-class",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Representation of constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Constr",
           "package": "syb-with-class",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic representation of constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ConstrRep",
           "package": "syb-with-class",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Public representation of constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ConstrRep",
           "package": "syb-with-class",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Data",
           "package": "syb-with-class",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Data",
           "package": "syb-with-class",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePublic representation of datatypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataRep",
           "package": "syb-with-class",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Public representation of datatypes",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataRep",
           "package": "syb-with-class",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresentation of datatypes.\n | A package of constructor representations with names of type and module.\n | The list of constructors could be an array, a balanced tree, or others.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataType",
           "package": "syb-with-class",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Representation of datatypes package of constructor representations with names of type and module The list of constructors could be an array balanced tree or others",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataType",
           "package": "syb-with-class",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixity of constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Fixity",
           "package": "syb-with-class",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Fixity of constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Fixity",
           "package": "syb-with-class",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericM",
           "package": "syb-with-class",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericM",
           "package": "syb-with-class",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericQ",
           "package": "syb-with-class",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericQ",
           "package": "syb-with-class",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericT",
           "package": "syb-with-class",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "GenericT",
           "package": "syb-with-class",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ID",
           "package": "syb-with-class",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ID",
           "package": "syb-with-class",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Proxy",
           "package": "syb-with-class",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Proxy",
           "package": "syb-with-class",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Qr",
           "package": "syb-with-class",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Qr",
           "package": "syb-with-class",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "AlgConstr",
           "package": "syb-with-class",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "AlgConstr",
           "package": "syb-with-class",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "AlgRep",
           "package": "syb-with-class",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "AlgRep",
           "normalized": "AlgRep[Constr]",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Constr",
           "package": "syb-with-class",
@@ -379,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Constr",
           "package": "syb-with-class",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataType",
           "package": "syb-with-class",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "DataType",
           "package": "syb-with-class",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "FloatConstr",
           "package": "syb-with-class",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "FloatConstr",
           "package": "syb-with-class",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "FloatRep",
           "package": "syb-with-class",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "FloatRep",
           "package": "syb-with-class",
@@ -458,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ID",
           "package": "syb-with-class",
@@ -467,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "ID",
           "package": "syb-with-class",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Infix",
           "package": "syb-with-class",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Infix",
           "package": "syb-with-class",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "IntConstr",
           "package": "syb-with-class",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "IntConstr",
           "package": "syb-with-class",
@@ -524,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "IntRep",
           "package": "syb-with-class",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "IntRep",
           "package": "syb-with-class",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "NoRep",
           "package": "syb-with-class",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "NoRep",
           "package": "syb-with-class",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Prefix",
           "package": "syb-with-class",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Prefix",
           "package": "syb-with-class",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Qr",
           "package": "syb-with-class",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "Qr",
           "package": "syb-with-class",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "StringConstr",
           "package": "syb-with-class",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "StringConstr",
           "package": "syb-with-class",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "StringRep",
           "package": "syb-with-class",
@@ -643,6 +700,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "StringRep",
           "package": "syb-with-class",
@@ -656,6 +714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "confields",
           "package": "syb-with-class",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "confields",
           "normalized": "[String]",
@@ -679,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "confixity",
           "package": "syb-with-class",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "confixity",
           "package": "syb-with-class",
@@ -700,6 +762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "conrep",
           "package": "syb-with-class",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "conrep",
           "package": "syb-with-class",
@@ -722,6 +786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the field labels of a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrFields",
           "package": "syb-with-class",
@@ -732,6 +797,7 @@
         "index": {
           "description": "Gets the field labels of constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrFields",
           "normalized": "Constr-\u003e[String]",
@@ -748,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the fixity of a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrFixity",
           "package": "syb-with-class",
@@ -758,6 +825,7 @@
         "index": {
           "description": "Gets the fixity of constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrFixity",
           "normalized": "Constr-\u003eFixity",
@@ -774,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the index of a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrIndex",
           "package": "syb-with-class",
@@ -784,6 +853,7 @@
         "index": {
           "description": "Gets the index of constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrIndex",
           "normalized": "Constr-\u003eConIndex",
@@ -800,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the public presentation of constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrRep",
           "package": "syb-with-class",
@@ -810,6 +881,7 @@
         "index": {
           "description": "Gets the public presentation of constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrRep",
           "normalized": "Constr-\u003eConstrRep",
@@ -826,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the datatype of a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrType",
           "package": "syb-with-class",
@@ -836,6 +909,7 @@
         "index": {
           "description": "Gets the datatype of constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constrType",
           "normalized": "Constr-\u003eDataType",
@@ -851,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constring",
           "package": "syb-with-class",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "constring",
           "package": "syb-with-class",
@@ -873,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMediate types and unary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataCast1",
           "package": "syb-with-class",
@@ -883,6 +960,7 @@
         "index": {
           "description": "Mediate types and unary type constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataCast1",
           "normalized": "a(b c))-\u003eMaybe(a d)",
@@ -899,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMediate types and binary type constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataCast2",
           "package": "syb-with-class",
@@ -909,6 +988,7 @@
         "index": {
           "description": "Mediate types and binary type constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataCast2",
           "normalized": "a(b c d))-\u003eMaybe(a e)",
@@ -925,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the constructors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeConstrs",
           "package": "syb-with-class",
@@ -935,6 +1016,7 @@
         "index": {
           "description": "Gets the constructors",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeConstrs",
           "normalized": "DataType-\u003e[Constr]",
@@ -951,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the type constructor including the module\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeName",
           "package": "syb-with-class",
@@ -961,6 +1044,7 @@
         "index": {
           "description": "Gets the type constructor including the module",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeName",
           "normalized": "DataType-\u003eString",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeOf",
           "package": "syb-with-class",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeOf",
           "normalized": "Proxy a-\u003eb-\u003eDataType",
@@ -1001,6 +1087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the public presentation of datatypes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeRep",
           "package": "syb-with-class",
@@ -1011,6 +1098,7 @@
         "index": {
           "description": "Gets the public presentation of datatypes",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "dataTypeRep",
           "normalized": "DataType-\u003eDataRep",
@@ -1026,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "datarep",
           "package": "syb-with-class",
@@ -1035,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "datarep",
           "package": "syb-with-class",
@@ -1047,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "datatype",
           "package": "syb-with-class",
@@ -1056,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "datatype",
           "package": "syb-with-class",
@@ -1069,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a term skeleton\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstr",
           "package": "syb-with-class",
@@ -1079,6 +1172,7 @@
         "index": {
           "description": "Build term skeleton",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstr",
           "normalized": "Proxy a-\u003eConstr-\u003eb",
@@ -1095,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a term and use a generic function for subterms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstrB",
           "package": "syb-with-class",
@@ -1105,6 +1200,7 @@
         "index": {
           "description": "Build term and use generic function for subterms",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstrB",
           "normalized": "a)-\u003eConstr-\u003eb",
@@ -1121,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic variation on \"fromConstrB\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstrM",
           "package": "syb-with-class",
@@ -1131,6 +1228,7 @@
         "index": {
           "description": "Monadic variation on fromConstrB",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "fromConstrM",
           "normalized": "a b)-\u003eConstr-\u003ea c",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gfoldl",
           "package": "syb-with-class",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gfoldl",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c)-\u003e(d e f-\u003ea f)-\u003eg-\u003ea g",
@@ -1169,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapM",
           "package": "syb-with-class",
@@ -1178,6 +1279,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapM",
           "normalized": "Proxy a-\u003eGenericM b a-\u003eGenericM b a",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapQ",
           "package": "syb-with-class",
@@ -1201,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapQ",
           "normalized": "Proxy a-\u003eGenericQ a b-\u003eGenericQ a[b]",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapQr",
           "package": "syb-with-class",
@@ -1224,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapQr",
           "normalized": "Proxy a-\u003e(b-\u003ec-\u003ec)-\u003ec-\u003eGenericQ a b-\u003ed-\u003ec",
@@ -1239,6 +1345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapT",
           "package": "syb-with-class",
@@ -1248,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gmapT",
           "normalized": "Proxy a-\u003eGenericT a-\u003eGenericT a",
@@ -1262,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gunfold",
           "package": "syb-with-class",
@@ -1271,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "gunfold",
           "normalized": "a(b-\u003ec)-\u003ea c)-\u003e(d e c-\u003ea c)-\u003eConstr-\u003ea f",
@@ -1286,6 +1396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the constructor for an index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "indexConstr",
           "package": "syb-with-class",
@@ -1296,6 +1407,7 @@
         "index": {
           "description": "Gets the constructor for an index",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "indexConstr",
           "normalized": "DataType-\u003eConIndex-\u003eConstr",
@@ -1312,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for an algebraic type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "isAlgType",
           "package": "syb-with-class",
@@ -1322,6 +1435,7 @@
         "index": {
           "description": "Test for an algebraic type",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "isAlgType",
           "normalized": "DataType-\u003eBool",
@@ -1338,6 +1452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for a non-representable type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "isNorepType",
           "package": "syb-with-class",
@@ -1348,6 +1463,7 @@
         "index": {
           "description": "Test for non-representable type",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "isNorepType",
           "normalized": "DataType-\u003eBool",
@@ -1364,6 +1480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the maximum constructor index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "maxConstrIndex",
           "package": "syb-with-class",
@@ -1374,6 +1491,7 @@
         "index": {
           "description": "Gets the maximum constructor index",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "maxConstrIndex",
           "normalized": "DataType-\u003eConIndex",
@@ -1390,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkConstr",
           "package": "syb-with-class",
@@ -1400,6 +1519,7 @@
         "index": {
           "description": "Constructs constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkConstr",
           "normalized": "DataType-\u003eString-\u003e[String]-\u003eFixity-\u003eConstr",
@@ -1416,6 +1536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs an algebraic datatype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkDataType",
           "package": "syb-with-class",
@@ -1426,6 +1547,7 @@
         "index": {
           "description": "Constructs an algebraic datatype",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkDataType",
           "normalized": "String-\u003e[Constr]-\u003eDataType",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkFloatConstr",
           "package": "syb-with-class",
@@ -1450,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkFloatConstr",
           "normalized": "DataType-\u003eDouble-\u003eConstr",
@@ -1466,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs the Float type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkFloatType",
           "package": "syb-with-class",
@@ -1476,6 +1601,7 @@
         "index": {
           "description": "Constructs the Float type",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkFloatType",
           "normalized": "String-\u003eDataType",
@@ -1491,6 +1617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkIntConstr",
           "package": "syb-with-class",
@@ -1500,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkIntConstr",
           "normalized": "DataType-\u003eInteger-\u003eConstr",
@@ -1516,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs the Int type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkIntType",
           "package": "syb-with-class",
@@ -1526,6 +1655,7 @@
         "index": {
           "description": "Constructs the Int type",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkIntType",
           "normalized": "String-\u003eDataType",
@@ -1542,6 +1672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a non-representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkNorepType",
           "package": "syb-with-class",
@@ -1552,6 +1683,7 @@
         "index": {
           "description": "Constructs non-representation",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkNorepType",
           "normalized": "String-\u003eDataType",
@@ -1567,6 +1699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkPrimCon",
           "package": "syb-with-class",
@@ -1576,6 +1709,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkPrimCon",
           "normalized": "DataType-\u003eString-\u003eConstrRep-\u003eConstr",
@@ -1592,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper for mkIntType, mkFloatType, mkStringType\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkPrimType",
           "package": "syb-with-class",
@@ -1602,6 +1737,7 @@
         "index": {
           "description": "Helper for mkIntType mkFloatType mkStringType",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkPrimType",
           "normalized": "DataRep-\u003eString-\u003eDataType",
@@ -1617,6 +1753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkStringConstr",
           "package": "syb-with-class",
@@ -1626,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkStringConstr",
           "normalized": "DataType-\u003eString-\u003eConstr",
@@ -1642,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs the String type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkStringType",
           "package": "syb-with-class",
@@ -1652,6 +1791,7 @@
         "index": {
           "description": "Constructs the String type",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "mkStringType",
           "normalized": "String-\u003eDataType",
@@ -1668,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a constructor via a string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "readConstr",
           "package": "syb-with-class",
@@ -1678,6 +1819,7 @@
         "index": {
           "description": "Lookup constructor via string",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "readConstr",
           "normalized": "DataType-\u003eString-\u003eMaybe Constr",
@@ -1694,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up a constructor by its representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "repConstr",
           "package": "syb-with-class",
@@ -1704,6 +1847,7 @@
         "index": {
           "description": "Look up constructor by its representation",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "repConstr",
           "normalized": "DataType-\u003eConstrRep-\u003eConstr",
@@ -1720,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the string for a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "showConstr",
           "package": "syb-with-class",
@@ -1730,6 +1875,7 @@
         "index": {
           "description": "Gets the string for constructor",
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "showConstr",
           "normalized": "Constr-\u003eString",
@@ -1745,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "toConstr",
           "package": "syb-with-class",
@@ -1754,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "toConstr",
           "normalized": "Proxy a-\u003eb-\u003eConstr",
@@ -1769,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "tycon",
           "package": "syb-with-class",
@@ -1778,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "tycon",
           "package": "syb-with-class",
@@ -1790,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "unID",
           "package": "syb-with-class",
@@ -1799,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "unID",
           "package": "syb-with-class",
@@ -1812,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "unQr",
           "package": "syb-with-class",
@@ -1821,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Basics",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Basics",
           "name": "unQr",
           "normalized": "a-\u003ea",
@@ -1836,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "Context",
           "package": "syb-with-class",
@@ -1844,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "Context",
           "package": "syb-with-class",
@@ -1857,6 +2013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "NoCtx",
           "package": "syb-with-class",
@@ -1865,6 +2022,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "NoCtx",
           "package": "syb-with-class",
@@ -1878,6 +2036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "PairCtx",
           "package": "syb-with-class",
@@ -1886,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "PairCtx",
           "package": "syb-with-class",
@@ -1899,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "Sat",
           "package": "syb-with-class",
@@ -1907,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "Sat",
           "package": "syb-with-class",
@@ -1920,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "PairCtx",
           "package": "syb-with-class",
@@ -1929,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "PairCtx",
           "package": "syb-with-class",
@@ -1942,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "dict",
           "package": "syb-with-class",
@@ -1951,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "dict",
           "package": "syb-with-class",
@@ -1963,6 +2129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "leftCtx",
           "package": "syb-with-class",
@@ -1972,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "leftCtx",
           "package": "syb-with-class",
@@ -1985,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "noCtx",
           "package": "syb-with-class",
@@ -1994,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "noCtx",
           "normalized": "NoCtx()",
@@ -2009,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "pairCtx",
           "package": "syb-with-class",
@@ -2018,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "pairCtx",
           "normalized": "a()-\u003eb()-\u003ePairCtx a b()",
@@ -2033,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "rightCtx",
           "package": "syb-with-class",
@@ -2042,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Context",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Context",
           "name": "rightCtx",
           "package": "syb-with-class",
@@ -2055,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "Derive",
           "package": "syb-with-class",
@@ -2063,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "Derive",
           "package": "syb-with-class",
@@ -2076,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "Constructor",
           "package": "syb-with-class",
@@ -2084,6 +2261,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "Constructor",
           "package": "syb-with-class",
@@ -2098,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives Data and Typeable instances for a list of data\n   types. Order is irrelevant. This should be used in favour of\n   deriveOne since Data and Typeable instances can often depend on\n   other Data and Typeable instances - e.g. if you are deriving a\n   large, mutually recursive data type.  If you splice the derived\n   instances in one by one you will need to do it in depedency order\n   which is difficult in most cases and impossible in the mutually\n   recursive case. It is better to bring all the instances into\n   scope at once.\n\u003c/p\u003e\u003cp\u003ee.g. if\n     data Foo = Foo Int\n  is declared in an imported module then\n     $(derive [''Foo])\n  will derive the instances for it\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "derive",
           "package": "syb-with-class",
@@ -2108,6 +2287,7 @@
         "index": {
           "description": "Derives Data and Typeable instances for list of data types Order is irrelevant This should be used in favour of deriveOne since Data and Typeable instances can often depend on other Data and Typeable instances e.g if you are deriving large mutually recursive data type If you splice the derived instances in one by one you will need to do it in depedency order which is difficult in most cases and impossible in the mutually recursive case It is better to bring all the instances into scope at once e.g if data Foo Foo Int is declared in an imported module then derive Foo will derive the instances for it",
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "derive",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -2122,6 +2302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveData",
           "package": "syb-with-class",
@@ -2131,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveData",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -2147,6 +2329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a name of a algebraic data type, the number of parameters it\n   has and a list of constructor pairs.  Each one of these constructor\n   pairs consists of a constructor name and the number of type\n   parameters it has.  The function returns an automatically generated\n   instance declaration for the Data class.\n\u003c/p\u003e\u003cp\u003eDoesn't do gunfold, dataCast1 or dataCast2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveDataPrim",
           "package": "syb-with-class",
@@ -2157,6 +2340,7 @@
         "index": {
           "description": "Takes name of algebraic data type the number of parameters it has and list of constructor pairs Each one of these constructor pairs consists of constructor name and the number of type parameters it has The function returns an automatically generated instance declaration for the Data class Doesn do gunfold dataCast1 or dataCast2",
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveDataPrim",
           "normalized": "Name-\u003e[Type]-\u003e[Constructor]-\u003eQ[Dec]",
@@ -2172,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveDec",
           "package": "syb-with-class",
@@ -2181,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveDec",
           "normalized": "[Dec]-\u003eQ[Dec]",
@@ -2196,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimal",
           "package": "syb-with-class",
@@ -2205,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimal",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -2220,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimalData",
           "package": "syb-with-class",
@@ -2229,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimalData",
           "normalized": "Name-\u003eInt-\u003eQ[Dec]",
@@ -2245,6 +2435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is much like deriveOne except that it brings into\n   scope an instance of Data with minimal definitions. gfoldl will\n   essentially leave a data structure untouched while gunfoldl,\n   toConstr and dataTypeOf will yield errors.\n\u003c/p\u003e\u003cp\u003eThis function is useful when you are certain that you will never\n   wish to transform a particular data type.  For instance you may\n   be transforming another data type that contains other data types,\n   some of which you wish to transform (perhaps recursively) and\n   some which you just wish to return unchanged.\n\u003c/p\u003e\u003cp\u003eSometimes you will be forced to use deriveMinimalOne because you\n   do not have access to the contructors of the data type (perhaps\n   because it is an Abstract Data Type). However, should the\n   interface to the ADT be sufficiently rich it is possible to\n   define you're own Data and Typeable instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimalOne",
           "package": "syb-with-class",
@@ -2255,6 +2446,7 @@
         "index": {
           "description": "This function is much like deriveOne except that it brings into scope an instance of Data with minimal definitions gfoldl will essentially leave data structure untouched while gunfoldl toConstr and dataTypeOf will yield errors This function is useful when you are certain that you will never wish to transform particular data type For instance you may be transforming another data type that contains other data types some of which you wish to transform perhaps recursively and some which you just wish to return unchanged Sometimes you will be forced to use deriveMinimalOne because you do not have access to the contructors of the data type perhaps because it is an Abstract Data Type However should the interface to the ADT be sufficiently rich it is possible to define you re own Data and Typeable instances",
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveMinimalOne",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2271,6 +2463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerives the Data and Typeable instances for a single given data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOne",
           "package": "syb-with-class",
@@ -2281,6 +2474,7 @@
         "index": {
           "description": "Derives the Data and Typeable instances for single given data type",
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOne",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2296,6 +2490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneData",
           "package": "syb-with-class",
@@ -2305,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneData",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2320,6 +2516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneDec",
           "package": "syb-with-class",
@@ -2329,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneDec",
           "normalized": "Dec-\u003eQ[Dec]",
@@ -2344,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneTypeable",
           "package": "syb-with-class",
@@ -2353,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveOneTypeable",
           "normalized": "Name-\u003eQ[Dec]",
@@ -2368,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveTypeable",
           "package": "syb-with-class",
@@ -2377,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveTypeable",
           "normalized": "[Name]-\u003eQ[Dec]",
@@ -2393,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes the name of an algebraic data type, the number of type parameters\n   it has and creates a Typeable instance for it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveTypeablePrim",
           "package": "syb-with-class",
@@ -2403,6 +2606,7 @@
         "index": {
           "description": "Takes the name of an algebraic data type the number of type parameters it has and creates Typeable instance for it",
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "deriveTypeablePrim",
           "normalized": "Name-\u003eInt-\u003eQ[Dec]",
@@ -2418,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "typeInfo",
           "package": "syb-with-class",
@@ -2427,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Derive",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Derive",
           "name": "typeInfo",
           "normalized": "Dec-\u003eQ(Name,[Name],[Constructor])",
@@ -2442,6 +2648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:37 UTC 2014",
           "module": "Data.Generics.SYB.WithClass.Instances",
           "name": "Instances",
           "package": "syb-with-class",
@@ -2450,6 +2657,7 @@
         },
         "index": {
           "hierarchy": "Data Generics SYB WithClass Instances",
+          "indexed": "2014-03-11T20:14:37",
           "module": "Data.Generics.SYB.WithClass.Instances",
           "name": "Instances",
           "package": "syb-with-class",

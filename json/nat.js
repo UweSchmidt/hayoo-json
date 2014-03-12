@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nat"
+        "phrase": "nat",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe implementations of all functions except for rem, quot, div, mod are \n   supposed to be as non-strict as possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Int",
           "name": "Int",
           "package": "nat",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The implementations of all functions except for rem quot div mod are supposed to be as non-strict as possible",
           "hierarchy": "Data Number Int",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Int",
           "name": "Int",
           "package": "nat",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntegers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Int",
           "name": "Int",
           "package": "nat",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Integers",
           "hierarchy": "Data Number Int",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Int",
           "name": "Int",
           "package": "nat",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA negative natural number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Int",
           "name": "Neg",
           "package": "nat",
@@ -75,6 +80,7 @@
         "index": {
           "description": "negative natural number",
           "hierarchy": "Data Number Int",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Int",
           "name": "Neg",
           "package": "nat",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA positive natural number or zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Int",
           "name": "Pos0",
           "package": "nat",
@@ -99,6 +106,7 @@
         "index": {
           "description": "positive natural number or zero",
           "hierarchy": "Data Number Int",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Int",
           "name": "Pos0",
           "package": "nat",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Int",
           "name": "pos",
           "package": "nat",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Number Int",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Int",
           "name": "pos",
           "normalized": "Nat-\u003eInt",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe implementations of all functions except for rem, quot, div, mod are \n   supposed to be as non-strict as possible.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "Nat",
           "package": "nat",
@@ -145,6 +156,7 @@
         "index": {
           "description": "The implementations of all functions except for rem quot div mod are supposed to be as non-strict as possible",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "Nat",
           "package": "nat",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNatural numbers and zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "Nat",
           "package": "nat",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Natural numbers and zero",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "Nat",
           "package": "nat",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA natural number \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "Pos",
           "package": "nat",
@@ -192,6 +207,7 @@
         "index": {
           "description": "natural number",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "Pos",
           "package": "nat",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructor representing zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "Zero",
           "package": "nat",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Constructor representing zero",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "Zero",
           "package": "nat",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used to implement lazy instances of compare and (\u003c), \n   (\u003c=), (\u003e), (\u003e=). It is used to transfer information to more significant\n   bits. Instead of yielding EQ it yields LT if the numbers are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "cmpNatLT",
           "package": "nat",
@@ -240,6 +259,7 @@
         "index": {
           "description": "This function is used to implement lazy instances of compare and It is used to transfer information to more significant bits Instead of yielding EQ it yields LT if the numbers are equal",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "cmpNatLT",
           "normalized": "Nat-\u003eNat-\u003eOrdering",
@@ -255,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "divmodNat1",
           "package": "nat",
@@ -264,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "divmodNat1",
           "normalized": "Nat-\u003eNat-\u003e(Nat,Nat)",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "drop",
           "package": "nat",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "drop",
           "normalized": "Nat-\u003e[a]-\u003e[a]",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "dropNum",
           "package": "nat",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "dropNum",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used for the implementation of toInteger and fromEnum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "fromNat",
           "package": "nat",
@@ -337,6 +364,7 @@
         "index": {
           "description": "This is used for the implementation of toInteger and fromEnum",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "fromNat",
           "normalized": "Nat-\u003ea",
@@ -352,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "length",
           "package": "nat",
@@ -361,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "length",
           "normalized": "[a]-\u003eNat",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "lengthNum",
           "package": "nat",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "lengthNum",
           "normalized": "[a]-\u003eb",
@@ -399,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "replicate",
           "package": "nat",
@@ -408,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "replicate",
           "normalized": "Nat-\u003ea-\u003e[a]",
@@ -422,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "replicateNum",
           "package": "nat",
@@ -431,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "replicateNum",
           "normalized": "a-\u003eb-\u003e[b]",
@@ -446,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "take",
           "package": "nat",
@@ -455,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "take",
           "normalized": "Nat-\u003e[a]-\u003e[a]",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "takeNum",
           "package": "nat",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "takeNum",
           "normalized": "a-\u003e[b]-\u003e[b]",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used for the implementation of fromInteger and toEnum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat",
           "name": "toNat",
           "package": "nat",
@@ -504,6 +545,7 @@
         "index": {
           "description": "This is used for the implementation of fromInteger and toEnum",
           "hierarchy": "Data Number Nat",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat",
           "name": "toNat",
           "normalized": "a-\u003eNat",
@@ -520,6 +562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe implementations of all functions are \n   supposed to be as non-strict as possible. This is non-trivial as for\n   example a naive implementation of (*) yields O _|_ for the application\n   I _|_ * O IHi while a least-strict version yields O (I _|_). Also the\n   naive / standard implementations of (-), compare, (\u003c), (\u003c=), (\u003e), \n   (\u003e=) are more strict than necessary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "Nat1",
           "package": "nat",
@@ -529,6 +572,7 @@
         "index": {
           "description": "The implementations of all functions are supposed to be as non-strict as possible This is non-trivial as for example naive implementation of yields for the application IHi while least-strict version yields Also the naive standard implementations of compare are more strict than necessary",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "Nat1",
           "package": "nat",
@@ -543,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary representation of natural numbers which starts with the least\n   significant bit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "Nat1",
           "package": "nat",
@@ -552,6 +597,7 @@
         "index": {
           "description": "binary representation of natural numbers which starts with the least significant bit",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "Nat1",
           "package": "nat",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA one bit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "I",
           "package": "nat",
@@ -576,6 +623,7 @@
         "index": {
           "description": "one bit",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "I",
           "package": "nat",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis constructor represents the most significant bit. There are no \n   leading zero bits. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "IHi",
           "package": "nat",
@@ -599,6 +648,7 @@
         "index": {
           "description": "This constructor represents the most significant bit There are no leading zero bits",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "IHi",
           "package": "nat",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA zero bit\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "O",
           "package": "nat",
@@ -623,6 +674,7 @@
         "index": {
           "description": "zero bit",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "O",
           "package": "nat",
@@ -636,6 +688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used to implement lazy instances of compare and (\u003c), \n   (\u003c=), (\u003e), (\u003e=). It is used to transfer information to more significant\n   bits. Instead of yielding EQ it yields LT if the numbers are equal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "cmpNat1LT",
           "package": "nat",
@@ -646,6 +699,7 @@
         "index": {
           "description": "This function is used to implement lazy instances of compare and It is used to transfer information to more significant bits Instead of yielding EQ it yields LT if the numbers are equal",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "cmpNat1LT",
           "normalized": "Nat-\u003eNat-\u003eOrdering",
@@ -662,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used for the implementation of toInteger and fromEnum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "fromNat1",
           "package": "nat",
@@ -672,6 +727,7 @@
         "index": {
           "description": "This is used for the implementation of toInteger and fromEnum",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "fromNat1",
           "normalized": "Nat-\u003ea",
@@ -688,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaps LT to GT and GT to LT. It is used instead of defining a function\n   cmpNat1GT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "invOrd",
           "package": "nat",
@@ -698,6 +755,7 @@
         "index": {
           "description": "Maps LT to GT and GT to LT It is used instead of defining function cmpNat1GT",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "invOrd",
           "normalized": "Ordering-\u003eOrdering",
@@ -714,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eminusNat1 x y yields x - y + 1. This is used to implement (-) for natural\n   numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "minusNat1",
           "package": "nat",
@@ -724,6 +783,7 @@
         "index": {
           "description": "minusNat1 yields This is used to implement for natural numbers",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "minusNat1",
           "normalized": "Nat-\u003eNat-\u003eNat",
@@ -740,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is used for the implementation of fromInteger and toEnum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:07 UTC 2014",
           "module": "Data.Number.Nat1",
           "name": "toNat1",
           "package": "nat",
@@ -750,6 +811,7 @@
         "index": {
           "description": "This is used for the implementation of fromInteger and toEnum",
           "hierarchy": "Data Number Nat1",
+          "indexed": "2014-03-11T19:26:07",
           "module": "Data.Number.Nat1",
           "name": "toNat1",
           "normalized": "a-\u003eNat",

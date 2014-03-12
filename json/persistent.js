@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "persistent"
+        "phrase": "persistent",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "Class",
           "package": "persistent",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "Class",
           "package": "persistent",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "DeleteCascade",
           "package": "persistent",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "DeleteCascade",
           "package": "persistent",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a value containing all the configuration options for a specific\n backend. This abstraction makes it easier to write code that can easily swap\n backends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistConfig",
           "package": "persistent",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Represents value containing all the configuration options for specific backend This abstraction makes it easier to write code that can easily swap backends",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistConfig",
           "package": "persistent",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePersistent serialized Haskell records to the database.\n A Database \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e (A row in SQL, a document in MongoDB, etc)\n corresponds to a \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e plus a Haskell record.\n\u003c/p\u003e\u003cp\u003eFor every Haskell record type stored in the database there is a corresponding \u003ccode\u003e\u003ca\u003ePersistEntity\u003c/a\u003e\u003c/code\u003e instance.\n An instance of PersistEntity contains meta-data for the record.\n PersistEntity also helps abstract over different record types.\n That way the same query interface can return a \u003ccode\u003e\u003ca\u003ePersistEntity\u003c/a\u003e\u003c/code\u003e, with each query returning different types of Haskell records.\n\u003c/p\u003e\u003cp\u003eSome advanced type system capabilities are used to make this process type-safe.\n Persistent users usually don't need to understand the class associated data and functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistEntity",
           "package": "persistent",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Persistent serialized Haskell records to the database Database Entity row in SQL document in MongoDB etc corresponds to Key plus Haskell record For every Haskell record type stored in the database there is corresponding PersistEntity instance An instance of PersistEntity contains meta-data for the record PersistEntity also helps abstract over different record types That way the same query interface can return PersistEntity with each query returning different types of Haskell records Some advanced type system capabilities are used to make this process type-safe Persistent users usually don need to understand the class associated data and functions",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistEntity",
           "package": "persistent",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value which can be marshalled to and from a \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistField",
           "package": "persistent",
@@ -116,6 +125,7 @@
         "index": {
           "description": "value which can be marshalled to and from PersistValue",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistField",
           "package": "persistent",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistQuery",
           "package": "persistent",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistQuery",
           "package": "persistent",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistStore",
           "package": "persistent",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistStore",
           "package": "persistent",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQueries against unique keys (other than the id).\n\u003c/p\u003e\u003cp\u003ePlease read the general Persistent documentation to learn how to create\n Unique keys.\n SQL backends automatically create uniqueness constraints, but for MongoDB you must manually place a unique index on the field.\n\u003c/p\u003e\u003cp\u003eSome functions in this module (insertUnique, insertBy, and replaceUnique) first query the unique indexes to check for conflicts.\n You could instead optimistically attempt to perform the operation (e.g. replace instead of replaceUnique). However,\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e there is some fragility to trying to catch the correct exception and determing the column of failure.\n\u003c/li\u003e\u003cli\u003e an exception will automatically abort the current SQL transaction\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "PersistUnique",
           "package": "persistent",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Queries against unique keys other than the id Please read the general Persistent documentation to learn how to create Unique keys SQL backends automatically create uniqueness constraints but for MongoDB you must manually place unique index on the field Some functions in this module insertUnique insertBy and replaceUnique first query the unique indexes to check for conflicts You could instead optimistically attempt to perform the operation e.g replace instead of replaceUnique However there is some fragility to trying to catch the correct exception and determing the column of failure an exception will automatically abort the current SQL transaction",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "PersistUnique",
           "package": "persistent",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the config settings based on environment variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "applyEnv",
           "package": "persistent",
@@ -205,6 +222,7 @@
         "index": {
           "description": "Modify the config settings based on environment variables",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "applyEnv",
           "normalized": "a-\u003eIO a",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "belongsTo",
           "package": "persistent",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "belongsTo",
           "normalized": "(a-\u003eMaybe(Key a))-\u003ea-\u003eb(Maybe a)",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esame as belongsTo, but uses \u003ccode\u003egetJust\u003c/code\u003e and therefore is similarly unsafe\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "belongsToJust",
           "package": "persistent",
@@ -255,6 +276,7 @@
         "index": {
           "description": "same as belongsTo but uses getJust and therefore is similarly unsafe",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "belongsToJust",
           "normalized": "(a-\u003eKey a)-\u003ea-\u003eb a",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe total number of records fulfilling the given criterion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "count",
           "package": "persistent",
@@ -281,6 +304,7 @@
         "index": {
           "description": "The total number of records fulfilling the given criterion",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "count",
           "normalized": "[Filter a]-\u003eb Int",
@@ -296,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new connection pool based on the given config settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "createPoolConfig",
           "package": "persistent",
@@ -306,6 +331,7 @@
         "index": {
           "description": "Create new connection pool based on the given config settings",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "createPoolConfig",
           "normalized": "a-\u003eIO(PersistConfigPool a)",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a specific record by identifier. Does nothing if record does\n not exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "delete",
           "package": "persistent",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Delete specific record by identifier Does nothing if record does not exist",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "delete",
           "normalized": "Key a-\u003eb()",
@@ -347,6 +375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a specific record by unique key. Does nothing if no record\n matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "deleteBy",
           "package": "persistent",
@@ -357,6 +386,7 @@
         "index": {
           "description": "Delete specific record by unique key Does nothing if no record matches",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "deleteBy",
           "normalized": "Unique a-\u003eb()",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "deleteCascade",
           "package": "persistent",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "deleteCascade",
           "normalized": "Key a-\u003eb()",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "deleteCascadeWhere",
           "package": "persistent",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "deleteCascadeWhere",
           "normalized": "[Filter a]-\u003eb()",
@@ -421,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all records matching the given criterion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "deleteWhere",
           "package": "persistent",
@@ -431,6 +466,7 @@
         "index": {
           "description": "Delete all records matching the given criterion",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "deleteWhere",
           "normalized": "[Filter a]-\u003eb()",
@@ -447,6 +483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eretrieve the EntityDef meta-data for the record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "entityDef",
           "package": "persistent",
@@ -457,6 +494,7 @@
         "index": {
           "description": "retrieve the EntityDef meta-data for the record",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "entityDef",
           "normalized": "a b-\u003eEntityDef SqlType",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredefined \u003ccode\u003eparseJSON\u003c/code\u003e. The input JSON looks like\n \u003ccode\u003e{\"id\": 1, \"name\": ...}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe typical usage is:\n\u003c/p\u003e\u003cpre\u003e\n   instance FromJSON User where\n       parseJSON = entityIdFromJSON\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "entityIdFromJSON",
           "package": "persistent",
@@ -483,6 +522,7 @@
         "index": {
           "description": "Predefined parseJSON The input JSON looks like id name The typical usage is instance FromJSON User where parseJSON entityIdFromJSON",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "entityIdFromJSON",
           "normalized": "Value-\u003eParser(Entity a)",
@@ -499,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredefined \u003ccode\u003etoJSON\u003c/code\u003e. The resulting JSON looks like\n \u003ccode\u003e{\"id\": 1, \"name\": ...}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe typical usage is:\n\u003c/p\u003e\u003cpre\u003e\n   instance ToJSON User where\n       toJSON = entityIdToJSON\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "entityIdToJSON",
           "package": "persistent",
@@ -509,6 +550,7 @@
         "index": {
           "description": "Predefined toJSON The resulting JSON looks like id name The typical usage is instance ToJSON User where toJSON entityIdToJSON",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "entityIdToJSON",
           "normalized": "Entity a-\u003eValue",
@@ -524,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "fieldLens",
           "package": "persistent",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "fieldLens",
           "normalized": "(a-\u003eb a)-\u003eEntity c-\u003eb(Entity c)",
@@ -548,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "fromPersistValue",
           "package": "persistent",
@@ -557,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "fromPersistValue",
           "normalized": "PersistValue-\u003eEither Text a",
@@ -573,6 +619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from database values to a Haskell record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "fromPersistValues",
           "package": "persistent",
@@ -583,6 +630,7 @@
         "index": {
           "description": "Convert from database values to Haskell record",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "fromPersistValues",
           "normalized": "[PersistValue]-\u003eEither Text a",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a record by identifier, if available.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "get",
           "package": "persistent",
@@ -609,6 +658,7 @@
         "index": {
           "description": "Get record by identifier if available",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "get",
           "normalized": "Key a-\u003eb(Maybe a)",
@@ -624,6 +674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a record by unique key, if available. Returns also the identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "getBy",
           "package": "persistent",
@@ -634,6 +685,7 @@
         "index": {
           "description": "Get record by unique key if available Returns also the identifier",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "getBy",
           "normalized": "Unique a-\u003eb(Maybe(Entity a))",
@@ -650,6 +702,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA modification of \u003ccode\u003e\u003ca\u003egetBy\u003c/a\u003e\u003c/code\u003e, which takes the \u003ccode\u003e\u003ca\u003ePersistEntity\u003c/a\u003e\u003c/code\u003e itself instead\n of a \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e value. Returns a value matching \u003cem\u003eone\u003c/em\u003e of the unique keys. This\n function makes the most sense on entities with a single \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e\n constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "getByValue",
           "package": "persistent",
@@ -660,6 +713,7 @@
         "index": {
           "description": "modification of getBy which takes the PersistEntity itself instead of Unique value Returns value matching one of the unique keys This function makes the most sense on entities with single Unique constructor",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "getByValue",
           "normalized": "a-\u003eb(Maybe(Entity a))",
@@ -676,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as get, but for a non-null (not Maybe) foreign key\n   Unsafe unless your database is enforcing that the foreign key is valid\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "getJust",
           "package": "persistent",
@@ -686,6 +741,7 @@
         "index": {
           "description": "Same as get but for non-null not Maybe foreign key Unsafe unless your database is enforcing that the foreign key is valid",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "getJust",
           "normalized": "Key a-\u003eb a",
@@ -702,6 +758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new record in the database, returning an automatically created\n key (in SQL an auto-increment id).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insert",
           "package": "persistent",
@@ -712,6 +769,7 @@
         "index": {
           "description": "Create new record in the database returning an automatically created key in SQL an auto-increment id",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insert",
           "normalized": "a-\u003eb(Key a)",
@@ -727,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value, checking for conflicts with any unique constraints.  If a\n duplicate exists in the database, it is returned as \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e. Otherwise, the\n new 'Key is returned as \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insertBy",
           "package": "persistent",
@@ -737,6 +796,7 @@
         "index": {
           "description": "Insert value checking for conflicts with any unique constraints If duplicate exists in the database it is returned as Left Otherwise the new Key is returned as Right",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insertBy",
           "normalized": "a-\u003eb(Either(Entity a)(Key a))",
@@ -753,6 +813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new record in the database using the given key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insertKey",
           "package": "persistent",
@@ -763,6 +824,7 @@
         "index": {
           "description": "Create new record in the database using the given key",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insertKey",
           "normalized": "Key a-\u003ea-\u003eb()",
@@ -779,6 +841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate multiple records in the database.\n SQL backends currently use the slow default implementation of\n \u003ccode\u003emapM insert\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insertMany",
           "package": "persistent",
@@ -789,6 +852,7 @@
         "index": {
           "description": "Create multiple records in the database SQL backends currently use the slow default implementation of mapM insert",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insertMany",
           "normalized": "[a]-\u003eb[Key a]",
@@ -805,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, but returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e when the record\n couldn't be inserted because of a uniqueness constraint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insertUnique",
           "package": "persistent",
@@ -815,6 +880,7 @@
         "index": {
           "description": "Like insert but returns Nothing when the record couldn be inserted because of uniqueness constraint",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insertUnique",
           "normalized": "a-\u003eb(Maybe(Key a))",
@@ -831,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e, but doesn't return a \u003ccode\u003eKey\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "insert_",
           "package": "persistent",
@@ -841,6 +908,7 @@
         "index": {
           "description": "Same as insert but doesn return Key",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "insert_",
           "normalized": "a-\u003eb()",
@@ -856,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredefined \u003ccode\u003eparseJSON\u003c/code\u003e. The input JSON looks like\n \u003ccode\u003e{\"key\": 1, \"value\": {\"name\": ...}}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe typical usage is:\n\u003c/p\u003e\u003cpre\u003e\n   instance FromJSON User where\n       parseJSON = keyValueEntityFromJSON\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "keyValueEntityFromJSON",
           "package": "persistent",
@@ -866,6 +935,7 @@
         "index": {
           "description": "Predefined parseJSON The input JSON looks like key value name The typical usage is instance FromJSON User where parseJSON keyValueEntityFromJSON",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "keyValueEntityFromJSON",
           "normalized": "Value-\u003eParser(Entity a)",
@@ -882,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredefined \u003ccode\u003etoJSON\u003c/code\u003e. The resulting JSON looks like\n \u003ccode\u003e{\"key\": 1, \"value\": {\"name\": ...}}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThe typical usage is:\n\u003c/p\u003e\u003cpre\u003e\n   instance ToJSON User where\n       toJSON = keyValueEntityToJSON\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "keyValueEntityToJSON",
           "package": "persistent",
@@ -892,6 +963,7 @@
         "index": {
           "description": "Predefined toJSON The resulting JSON looks like key value name The typical usage is instance ToJSON User where toJSON keyValueEntityToJSON",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "keyValueEntityToJSON",
           "normalized": "Entity a-\u003eValue",
@@ -908,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the config settings from a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, most likely taken from a YAML\n config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "loadConfig",
           "package": "persistent",
@@ -918,6 +991,7 @@
         "index": {
           "description": "Load the config settings from Value most likely taken from YAML config file",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "loadConfig",
           "normalized": "Value-\u003eParser a",
@@ -934,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn meta-data for a given \u003ccode\u003e\u003ca\u003eEntityField\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "persistFieldDef",
           "package": "persistent",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "return meta-data for given EntityField",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "persistFieldDef",
           "normalized": "EntityField a b-\u003eFieldDef SqlType",
@@ -959,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "persistIdField",
           "package": "persistent",
@@ -968,6 +1045,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "persistIdField",
           "package": "persistent",
@@ -981,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "persistUniqueKeys",
           "package": "persistent",
@@ -990,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "persistUniqueKeys",
           "normalized": "a-\u003e[Unique a]",
@@ -1005,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "persistUniqueToFieldNames",
           "package": "persistent",
@@ -1014,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "persistUniqueToFieldNames",
           "normalized": "Unique a-\u003e[(HaskellName,DBName)]",
@@ -1029,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "persistUniqueToValues",
           "package": "persistent",
@@ -1038,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "persistUniqueToValues",
           "normalized": "Unique a-\u003e[PersistValue]",
@@ -1054,6 +1138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the record in the database with the given\n key. Note that the result is undefined if such record does\n not exist, so you must use 'insertKey or \u003ccode\u003e\u003ca\u003erepsert\u003c/a\u003e\u003c/code\u003e in\n these cases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "replace",
           "package": "persistent",
@@ -1064,6 +1149,7 @@
         "index": {
           "description": "Replace the record in the database with the given key Note that the result is undefined if such record does not exist so you must use insertKey or repsert in these cases",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "replace",
           "normalized": "Key a-\u003ea-\u003eb()",
@@ -1079,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to replace the record of the given key with the given new record.\n First query the unique fields to make sure the replacement maintains uniqueness constraints.\n Return \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the replacement was made.\n If uniqueness is violated, return a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e with the \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e violation\n\u003c/p\u003e\u003cp\u003eSince 1.2.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "replaceUnique",
           "package": "persistent",
@@ -1089,6 +1176,7 @@
         "index": {
           "description": "Attempt to replace the record of the given key with the given new record First query the unique fields to make sure the replacement maintains uniqueness constraints Return Nothing if the replacement was made If uniqueness is violated return Just with the Unique violation Since",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "replaceUnique",
           "normalized": "Key a-\u003ea-\u003eb(Maybe(Unique a))",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut the record in the database with the given key.\n Unlike \u003ccode\u003e\u003ca\u003ereplace\u003c/a\u003e\u003c/code\u003e, if a record with the given key does not\n exist then a new record will be inserted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "repsert",
           "package": "persistent",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "Put the record in the database with the given key Unlike replace if record with the given key does not exist then new record will be inserted",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "repsert",
           "normalized": "Key a-\u003ea-\u003eb()",
@@ -1130,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a database action by taking a connection from the pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "runPool",
           "package": "persistent",
@@ -1140,6 +1231,7 @@
         "index": {
           "description": "Run database action by taking connection from the pool",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "runPool",
           "normalized": "a-\u003ePersistConfigBackend a b c-\u003ePersistConfigPool a-\u003eb c",
@@ -1156,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget just the first record for the criterion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "selectFirst",
           "package": "persistent",
@@ -1166,6 +1259,7 @@
         "index": {
           "description": "get just the first record for the criterion",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "selectFirst",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003eb(Maybe(Entity a))",
@@ -1182,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003es of all records matching the given criterion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "selectKeys",
           "package": "persistent",
@@ -1192,6 +1287,7 @@
         "index": {
           "description": "Get the Key of all records matching the given criterion",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "selectKeys",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003eSource b(Key a)",
@@ -1208,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003e\u003ca\u003eselectKeys\u003c/a\u003e\u003c/code\u003e but return the result as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "selectKeysList",
           "package": "persistent",
@@ -1218,6 +1315,7 @@
         "index": {
           "description": "Call selectKeys but return the result as list",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "selectKeysList",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003eb[Key a]",
@@ -1234,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003e\u003ca\u003eselectSource\u003c/a\u003e\u003c/code\u003e but return the result as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "selectList",
           "package": "persistent",
@@ -1244,6 +1343,7 @@
         "index": {
           "description": "Call selectSource but return the result as list",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "selectList",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003eb[Entity a]",
@@ -1260,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all records matching the given criterion in the specified order.\n Returns also the identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "selectSource",
           "package": "persistent",
@@ -1270,6 +1371,7 @@
         "index": {
           "description": "Get all records matching the given criterion in the specified order Returns also the identifiers",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "selectSource",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003eSource b(Entity a)",
@@ -1286,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the database fields of a record\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "toPersistFields",
           "package": "persistent",
@@ -1296,6 +1399,7 @@
         "index": {
           "description": "Get the database fields of record",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "toPersistFields",
           "normalized": "a-\u003e[SomePersistField]",
@@ -1311,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "toPersistValue",
           "package": "persistent",
@@ -1320,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "toPersistValue",
           "normalized": "a-\u003ePersistValue",
@@ -1336,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate individual fields on a specific record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "update",
           "package": "persistent",
@@ -1346,6 +1453,7 @@
         "index": {
           "description": "Update individual fields on specific record",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "update",
           "normalized": "Key a-\u003e[Update a]-\u003eb()",
@@ -1361,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate individual fields on a specific record, and retrieve the\n updated value from the database.\n\u003c/p\u003e\u003cp\u003eNote that this function will throw an exception if the given key is not\n found in the database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "updateGet",
           "package": "persistent",
@@ -1371,6 +1480,7 @@
         "index": {
           "description": "Update individual fields on specific record and retrieve the updated value from the database Note that this function will throw an exception if the given key is not found in the database",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "updateGet",
           "normalized": "Key a-\u003e[Update a]-\u003eb a",
@@ -1387,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate individual fields on any record matching the given criterion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Class",
           "name": "updateWhere",
           "package": "persistent",
@@ -1397,6 +1508,7 @@
         "index": {
           "description": "Update individual fields on any record matching the given criterion",
           "hierarchy": "Database Persist Class",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Class",
           "name": "updateWhere",
           "normalized": "[Filter a]-\u003e[Update a]-\u003eb()",
@@ -1412,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "Quasi",
           "package": "persistent",
@@ -1420,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "Quasi",
           "package": "persistent",
@@ -1433,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "PersistSettings",
           "package": "persistent",
@@ -1441,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "PersistSettings",
           "package": "persistent",
@@ -1454,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "PersistSettings",
           "package": "persistent",
@@ -1463,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "PersistSettings",
           "package": "persistent",
@@ -1476,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "lowerCaseSettings",
           "package": "persistent",
@@ -1485,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "lowerCaseSettings",
           "package": "persistent",
@@ -1498,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "nullable",
           "package": "persistent",
@@ -1507,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "nullable",
           "normalized": "[Text]-\u003eIsNullable",
@@ -1522,6 +1644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a quasi-quoted syntax into a list of entity definitions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "parse",
           "package": "persistent",
@@ -1532,6 +1655,7 @@
         "index": {
           "description": "Parses quasi-quoted syntax into list of entity definitions",
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "parse",
           "normalized": "PersistSettings-\u003eText-\u003e[EntityDef()]",
@@ -1547,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether fields are by default strict. Default value: \u003ccode\u003eTrue\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "psStrictFields",
           "package": "persistent",
@@ -1557,6 +1682,7 @@
         "index": {
           "description": "Whether fields are by default strict Default value True Since",
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "psStrictFields",
           "package": "persistent",
@@ -1570,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "psToDBName",
           "package": "persistent",
@@ -1579,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "psToDBName",
           "normalized": "(Text-\u003eText)",
@@ -1594,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "stripId",
           "package": "persistent",
@@ -1603,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "stripId",
           "normalized": "FieldType-\u003eMaybe Text",
@@ -1618,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Quasi",
           "name": "upperCaseSettings",
           "package": "persistent",
@@ -1627,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Quasi",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Quasi",
           "name": "upperCaseSettings",
           "package": "persistent",
@@ -1640,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Sql",
           "package": "persistent",
@@ -1648,6 +1781,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Sql",
           "package": "persistent",
@@ -1661,6 +1795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "CautiousMigration",
           "package": "persistent",
@@ -1669,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "CautiousMigration",
           "package": "persistent",
@@ -1682,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Column",
           "package": "persistent",
@@ -1690,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Column",
           "package": "persistent",
@@ -1703,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Connection",
           "package": "persistent",
@@ -1711,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Connection",
           "package": "persistent",
@@ -1724,6 +1864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "ConnectionPool",
           "package": "persistent",
@@ -1732,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "ConnectionPool",
           "package": "persistent",
@@ -1745,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "InsertSqlResult",
           "package": "persistent",
@@ -1753,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "InsertSqlResult",
           "package": "persistent",
@@ -1766,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Migration",
           "package": "persistent",
@@ -1774,6 +1919,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Migration",
           "package": "persistent",
@@ -1787,6 +1933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "MonadSqlPersist",
           "package": "persistent",
@@ -1795,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "MonadSqlPersist",
           "package": "persistent",
@@ -1808,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "PersistFieldSql",
           "package": "persistent",
@@ -1816,6 +1965,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "PersistFieldSql",
           "package": "persistent",
@@ -1829,6 +1979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "PersistentSqlException",
           "package": "persistent",
@@ -1837,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "PersistentSqlException",
           "package": "persistent",
@@ -1851,6 +2003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for data types that may be retrived from a \u003ccode\u003erawSql\u003c/code\u003e\n query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "RawSql",
           "package": "persistent",
@@ -1860,6 +2013,7 @@
         "index": {
           "description": "Class for data types that may be retrived from rawSql query",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "RawSql",
           "package": "persistent",
@@ -1874,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single column (see \u003ccode\u003erawSql\u003c/code\u003e).  Any \u003ccode\u003ePersistField\u003c/code\u003e may be\n used here, including \u003ccode\u003e\u003ca\u003ePersistValue\u003c/a\u003e\u003c/code\u003e (which does not do any\n processing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Single",
           "package": "persistent",
@@ -1883,6 +2038,7 @@
         "index": {
           "description": "single column see rawSql Any PersistField may be used here including PersistValue which does not do any processing",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Single",
           "package": "persistent",
@@ -1896,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Sql",
           "package": "persistent",
@@ -1904,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Sql",
           "package": "persistent",
@@ -1917,6 +2075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "SqlBackend",
           "package": "persistent",
@@ -1925,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "SqlBackend",
           "package": "persistent",
@@ -1939,6 +2099,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Please use SqlPersistT instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "SqlPersist",
           "package": "persistent",
@@ -1948,6 +2109,7 @@
         "index": {
           "description": "Deprecated Please use SqlPersistT instead",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "SqlPersist",
           "package": "persistent",
@@ -1961,6 +2123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistM",
           "package": "persistent",
@@ -1969,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistM",
           "package": "persistent",
@@ -1982,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistT",
           "package": "persistent",
@@ -1990,6 +2155,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistT",
           "package": "persistent",
@@ -2003,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Statement",
           "package": "persistent",
@@ -2011,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Statement",
           "package": "persistent",
@@ -2024,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Column",
           "package": "persistent",
@@ -2033,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Column",
           "package": "persistent",
@@ -2046,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Connection",
           "package": "persistent",
@@ -2055,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Connection",
           "package": "persistent",
@@ -2068,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Couldn'tGetSQLConnection",
           "package": "persistent",
@@ -2077,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Couldn'tGetSQLConnection",
           "package": "persistent",
@@ -2090,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "ISRInsertGet",
           "package": "persistent",
@@ -2099,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "ISRInsertGet",
           "package": "persistent",
@@ -2112,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "ISRManyKeys",
           "package": "persistent",
@@ -2121,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "ISRManyKeys",
           "normalized": "ISRManyKeys Text[PersistValue]",
@@ -2136,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "ISRSingle",
           "package": "persistent",
@@ -2145,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "ISRSingle",
           "package": "persistent",
@@ -2158,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Single",
           "package": "persistent",
@@ -2167,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Single",
           "package": "persistent",
@@ -2180,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistT",
           "package": "persistent",
@@ -2189,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "SqlPersistT",
           "package": "persistent",
@@ -2202,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "Statement",
           "package": "persistent",
@@ -2211,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "Statement",
           "package": "persistent",
@@ -2224,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "StatementAlreadyFinalized",
           "package": "persistent",
@@ -2233,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "StatementAlreadyFinalized",
           "package": "persistent",
@@ -2246,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "askSqlConn",
           "package": "persistent",
@@ -2255,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "askSqlConn",
           "package": "persistent",
@@ -2268,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cDefault",
           "package": "persistent",
@@ -2277,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cDefault",
           "package": "persistent",
@@ -2290,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cDefaultConstraintName",
           "package": "persistent",
@@ -2299,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cDefaultConstraintName",
           "package": "persistent",
@@ -2312,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cMaxLen",
           "package": "persistent",
@@ -2321,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cMaxLen",
           "package": "persistent",
@@ -2334,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cName",
           "package": "persistent",
@@ -2343,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cName",
           "package": "persistent",
@@ -2356,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cNull",
           "package": "persistent",
@@ -2365,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cNull",
           "package": "persistent",
@@ -2378,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cReference",
           "package": "persistent",
@@ -2387,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cReference",
           "normalized": "(Maybe(DBName,DBName))",
@@ -2402,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "cSqlType",
           "package": "persistent",
@@ -2411,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "cSqlType",
           "package": "persistent",
@@ -2424,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "close'",
           "package": "persistent",
@@ -2433,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "close'",
           "normalized": "Connection-\u003eIO()",
@@ -2447,6 +2653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connBegin",
           "package": "persistent",
@@ -2456,6 +2663,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connBegin",
           "normalized": "(Text-\u003eIO Statement)-\u003eIO()",
@@ -2471,6 +2679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connClose",
           "package": "persistent",
@@ -2480,6 +2689,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connClose",
           "normalized": "IO()",
@@ -2495,6 +2705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connCommit",
           "package": "persistent",
@@ -2504,6 +2715,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connCommit",
           "normalized": "(Text-\u003eIO Statement)-\u003eIO()",
@@ -2519,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connEscapeName",
           "package": "persistent",
@@ -2528,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connEscapeName",
           "normalized": "DBName-\u003eText",
@@ -2544,6 +2758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etable name, column names, id name, either 1 or 2 statements to run\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connInsertSql",
           "package": "persistent",
@@ -2554,6 +2769,7 @@
         "index": {
           "description": "table name column names id name either or statements to run",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connInsertSql",
           "normalized": "EntityDef SqlType-\u003e[PersistValue]-\u003eInsertSqlResult",
@@ -2569,6 +2785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connLimitOffset",
           "package": "persistent",
@@ -2578,6 +2795,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connLimitOffset",
           "normalized": "(Int,Int)-\u003eBool-\u003eText-\u003eText",
@@ -2593,6 +2811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connMigrateSql",
           "package": "persistent",
@@ -2602,6 +2821,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connMigrateSql",
           "normalized": "[EntityDef SqlType]-\u003e(Text-\u003eIO Statement)-\u003eEntityDef SqlType-\u003eIO(Either[Text][(Bool,Text)])",
@@ -2617,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connNoLimit",
           "package": "persistent",
@@ -2626,6 +2847,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connNoLimit",
           "package": "persistent",
@@ -2639,6 +2861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connPrepare",
           "package": "persistent",
@@ -2648,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connPrepare",
           "normalized": "Text-\u003eIO Statement",
@@ -2663,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connRDBMS",
           "package": "persistent",
@@ -2672,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connRDBMS",
           "package": "persistent",
@@ -2685,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connRollback",
           "package": "persistent",
@@ -2694,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connRollback",
           "normalized": "(Text-\u003eIO Statement)-\u003eIO()",
@@ -2709,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "connStmtMap",
           "package": "persistent",
@@ -2718,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "connStmtMap",
           "package": "persistent",
@@ -2731,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "convertKey",
           "package": "persistent",
@@ -2740,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "convertKey",
           "normalized": "Bool-\u003eKeyBackend a a-\u003e[PersistValue]",
@@ -2755,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "createSqlPool",
           "package": "persistent",
@@ -2764,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "createSqlPool",
           "normalized": "IO Connection-\u003eInt-\u003ea(Pool Connection)",
@@ -2780,6 +3014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates sql for limit and offset for postgres, sqlite and mysql.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "decorateSQLWithLimitOffset",
           "package": "persistent",
@@ -2790,6 +3025,7 @@
         "index": {
           "description": "Generates sql for limit and offset for postgres sqlite and mysql",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "decorateSQLWithLimitOffset",
           "normalized": "Text-\u003e(Int,Int)-\u003eBool-\u003eText-\u003eText",
@@ -2806,6 +3042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edeleteWhere\u003c/a\u003e\u003c/code\u003e, but returns the number of rows affected.\n\u003c/p\u003e\u003cp\u003eSince 1.1.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "deleteWhereCount",
           "package": "persistent",
@@ -2816,6 +3053,7 @@
         "index": {
           "description": "Same as deleteWhere but returns the number of rows affected Since",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "deleteWhereCount",
           "normalized": "[Filter a]-\u003eb Int",
@@ -2831,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "getMigration",
           "package": "persistent",
@@ -2840,6 +3079,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "getMigration",
           "normalized": "Migration a-\u003ea[Sql]",
@@ -2855,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "getStmtConn",
           "package": "persistent",
@@ -2864,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "getStmtConn",
           "normalized": "Connection-\u003eText-\u003eIO Statement",
@@ -2879,6 +3121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "migrate",
           "package": "persistent",
@@ -2888,6 +3131,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "migrate",
           "normalized": "[EntityDef SqlType]-\u003eEntityDef SqlType-\u003eMigration a",
@@ -2903,6 +3147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate the list of columns for the given entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "mkColumns",
           "package": "persistent",
@@ -2913,6 +3158,7 @@
         "index": {
           "description": "Create the list of columns for the given entity",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "mkColumns",
           "normalized": "[EntityDef a]-\u003eEntityDef SqlType-\u003e([Column],[UniqueDef],[ForeignDef])",
@@ -2928,6 +3174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "parseMigration",
           "package": "persistent",
@@ -2937,6 +3184,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "parseMigration",
           "normalized": "Migration a-\u003ea(Either[Text]CautiousMigration)",
@@ -2952,6 +3200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "parseMigration'",
           "package": "persistent",
@@ -2961,6 +3210,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "parseMigration'",
           "normalized": "Migration a-\u003ea CautiousMigration",
@@ -2976,6 +3226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "printMigration",
           "package": "persistent",
@@ -2985,6 +3236,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "printMigration",
           "normalized": "Migration a-\u003ea()",
@@ -3000,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawExecute",
           "package": "persistent",
@@ -3009,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawExecute",
           "normalized": "Text-\u003e[PersistValue]-\u003ea()",
@@ -3024,6 +3278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawExecuteCount",
           "package": "persistent",
@@ -3033,6 +3288,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawExecuteCount",
           "normalized": "Text-\u003e[PersistValue]-\u003ea Int",
@@ -3048,6 +3304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawQuery",
           "package": "persistent",
@@ -3057,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawQuery",
           "normalized": "Text-\u003e[PersistValue]-\u003eSource a[PersistValue]",
@@ -3073,6 +3331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a raw SQL statement and return its results as a\n list.\n\u003c/p\u003e\u003cp\u003eIf you're using \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e (which is quite likely), then you\n \u003cem\u003emust\u003c/em\u003e use entity selection placeholders (double question\n mark, \u003ccode\u003e??\u003c/code\u003e).  These \u003ccode\u003e??\u003c/code\u003e placeholders are then replaced for\n the names of the columns that we need for your entities.\n You'll receive an error if you don't use the placeholders.\n Please see the \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e documentation for more details.\n\u003c/p\u003e\u003cp\u003eYou may put value placeholders (question marks, \u003ccode\u003e?\u003c/code\u003e) in your\n SQL query.  These placeholders are then replaced by the values\n you pass on the second parameter, already correctly escaped.\n You may want to use \u003ccode\u003e\u003ca\u003etoPersistValue\u003c/a\u003e\u003c/code\u003e to help you constructing\n the placeholder values.\n\u003c/p\u003e\u003cp\u003eSince you're giving a raw SQL statement, you don't get any\n guarantees regarding safety.  If \u003ccode\u003e\u003ca\u003erawSql\u003c/a\u003e\u003c/code\u003e is not able to parse\n the results of your query back, then an exception is raised.\n However, most common problems are mitigated by using the\n entity selection placeholder \u003ccode\u003e??\u003c/code\u003e, and you shouldn't see any\n error at all if you're not using \u003ccode\u003e\u003ca\u003eSingle\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawSql",
           "package": "persistent",
@@ -3082,6 +3341,7 @@
         "index": {
           "description": "Execute raw SQL statement and return its results as list If you re using Entity which is quite likely then you must use entity selection placeholders double question mark These placeholders are then replaced for the names of the columns that we need for your entities You ll receive an error if you don use the placeholders Please see the Entity documentation for more details You may put value placeholders question marks in your SQL query These placeholders are then replaced by the values you pass on the second parameter already correctly escaped You may want to use toPersistValue to help you constructing the placeholder values Since you re giving raw SQL statement you don get any guarantees regarding safety If rawSql is not able to parse the results of your query back then an exception is raised However most common problems are mitigated by using the entity selection placeholder and you shouldn see any error at all if you re not using Single",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawSql",
           "normalized": "Text-\u003e[PersistValue]-\u003ea[b]",
@@ -3098,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string telling the user why the column count is what\n it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawSqlColCountReason",
           "package": "persistent",
@@ -3108,6 +3369,7 @@
         "index": {
           "description": "string telling the user why the column count is what it is",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawSqlColCountReason",
           "normalized": "a-\u003eString",
@@ -3124,6 +3386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns that this data type needs and the list\n of substitutions for \u003ccode\u003eSELECT\u003c/code\u003e placeholders \u003ccode\u003e??\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawSqlCols",
           "package": "persistent",
@@ -3134,6 +3397,7 @@
         "index": {
           "description": "Number of columns that this data type needs and the list of substitutions for SELECT placeholders",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawSqlCols",
           "normalized": "(DBName-\u003eText)-\u003ea-\u003e(Int,[Text])",
@@ -3150,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a row of the result into the data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "rawSqlProcessRow",
           "package": "persistent",
@@ -3160,6 +3425,7 @@
         "index": {
           "description": "Transform row of the result into the data type",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "rawSqlProcessRow",
           "normalized": "[PersistValue]-\u003eEither Text a",
@@ -3175,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runMigration",
           "package": "persistent",
@@ -3184,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runMigration",
           "normalized": "Migration a-\u003ea()",
@@ -3200,6 +3468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erunMigration\u003c/a\u003e\u003c/code\u003e, but returns a list of the SQL commands executed\n instead of printing them to stderr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runMigrationSilent",
           "package": "persistent",
@@ -3210,6 +3479,7 @@
         "index": {
           "description": "Same as runMigration but returns list of the SQL commands executed instead of printing them to stderr",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runMigrationSilent",
           "normalized": "Migration a-\u003ea[Text]",
@@ -3225,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runMigrationUnsafe",
           "package": "persistent",
@@ -3234,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runMigrationUnsafe",
           "normalized": "Migration a-\u003ea()",
@@ -3249,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runSqlConn",
           "package": "persistent",
@@ -3258,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runSqlConn",
           "normalized": "SqlPersistT a b-\u003eConnection-\u003ea b",
@@ -3273,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runSqlPersistM",
           "package": "persistent",
@@ -3282,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runSqlPersistM",
           "normalized": "SqlPersistM a-\u003eConnection-\u003eIO a",
@@ -3297,6 +3573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runSqlPersistMPool",
           "package": "persistent",
@@ -3306,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runSqlPersistMPool",
           "normalized": "SqlPersistM a-\u003ePool Connection-\u003eIO a",
@@ -3322,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a connection from the pool, run the given action, and then return the\n connection to the pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "runSqlPool",
           "package": "persistent",
@@ -3332,6 +3611,7 @@
         "index": {
           "description": "Get connection from the pool run the given action and then return the connection to the pool",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "runSqlPool",
           "normalized": "SqlPersistT a b-\u003ePool Connection-\u003ea b",
@@ -3347,6 +3627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "sqlType",
           "package": "persistent",
@@ -3356,6 +3637,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "sqlType",
           "normalized": "a b-\u003eSqlType",
@@ -3371,6 +3653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "stmtExecute",
           "package": "persistent",
@@ -3380,6 +3663,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "stmtExecute",
           "normalized": "[PersistValue]-\u003eIO Int",
@@ -3395,6 +3679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "stmtFinalize",
           "package": "persistent",
@@ -3404,6 +3689,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "stmtFinalize",
           "normalized": "IO()",
@@ -3419,6 +3705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "stmtQuery",
           "package": "persistent",
@@ -3428,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "stmtQuery",
           "normalized": "[PersistValue]-\u003eSource a[PersistValue]",
@@ -3443,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "stmtReset",
           "package": "persistent",
@@ -3452,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "stmtReset",
           "normalized": "IO()",
@@ -3468,6 +3758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommit the current transaction and begin a new one.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "transactionSave",
           "package": "persistent",
@@ -3478,6 +3769,7 @@
         "index": {
           "description": "Commit the current transaction and begin new one Since",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "transactionSave",
           "normalized": "a()",
@@ -3494,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoll back the current transaction and begin a new one.\n\u003c/p\u003e\u003cp\u003eSince 1.2.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "transactionUndo",
           "package": "persistent",
@@ -3504,6 +3797,7 @@
         "index": {
           "description": "Roll back the current transaction and begin new one Since",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "transactionUndo",
           "normalized": "a()",
@@ -3519,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "unSingle",
           "package": "persistent",
@@ -3528,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "unSingle",
           "package": "persistent",
@@ -3541,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "unSqlPersistT",
           "package": "persistent",
@@ -3550,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "unSqlPersistT",
           "package": "persistent",
@@ -3564,6 +3862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eupdateWhere\u003c/a\u003e\u003c/code\u003e, but returns the number of rows affected.\n\u003c/p\u003e\u003cp\u003eSince 1.1.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "updateWhereCount",
           "package": "persistent",
@@ -3574,6 +3873,7 @@
         "index": {
           "description": "Same as updateWhere but returns the number of rows affected Since",
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "updateWhereCount",
           "normalized": "[Filter a]-\u003e[Update a]-\u003eb Int",
@@ -3589,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "withSqlConn",
           "package": "persistent",
@@ -3598,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "withSqlConn",
           "normalized": "IO Connection-\u003e(Connection-\u003ea b)-\u003ea b",
@@ -3613,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Sql",
           "name": "withSqlPool",
           "package": "persistent",
@@ -3621,6 +3924,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Sql",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Sql",
           "name": "withSqlPool",
           "normalized": "IO Connection-\u003eInt-\u003e(Pool Connection-\u003ea b)-\u003ea b",
@@ -3636,6 +3940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Types",
           "package": "persistent",
@@ -3644,6 +3949,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Types",
           "package": "persistent",
@@ -3657,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Attr",
           "package": "persistent",
@@ -3665,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Attr",
           "package": "persistent",
@@ -3678,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "BackendSpecificFilter",
           "package": "persistent",
@@ -3686,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "BackendSpecificFilter",
           "package": "persistent",
@@ -3700,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eCheckmark\u003c/a\u003e\u003c/code\u003e should be used as a field type whenever a\n uniqueness constraint should guarantee that a certain kind of\n record may appear at most once, but other kinds of records may\n appear any number of times.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNOTE:\u003c/em\u003e You need to mark any \u003ccode\u003eCheckmark\u003c/code\u003e fields as \u003ccode\u003enullable\u003c/code\u003e\n (see the following example).\n\u003c/p\u003e\u003cp\u003eFor example, suppose there's a \u003ccode\u003eLocation\u003c/code\u003e entity that\n represents where a user has lived:\n\u003c/p\u003e\u003cpre\u003e\n Location\n     user    UserId\n     name    Text\n     current Checkmark nullable\n\nUniqueLocation user current\n\u003c/pre\u003e\u003cp\u003eThe \u003ccode\u003eUniqueLocation\u003c/code\u003e constraint allows any number of\n \u003ccode\u003e\u003ca\u003eInactive\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eLocation\u003c/code\u003es to be \u003ccode\u003ecurrent\u003c/code\u003e.  However, there may be\n at most one \u003ccode\u003ecurrent\u003c/code\u003e \u003ccode\u003eLocation\u003c/code\u003e per user (i.e., either zero\n or one per user).\n\u003c/p\u003e\u003cp\u003eThis data type works because of the way that SQL treats\n \u003ccode\u003eNULL\u003c/code\u003eable fields within uniqueness constraints.  The SQL\n standard says that \u003ccode\u003eNULL\u003c/code\u003e values should be considered\n different, so we represent \u003ccode\u003e\u003ca\u003eInactive\u003c/a\u003e\u003c/code\u003e as SQL \u003ccode\u003eNULL\u003c/code\u003e, thus\n allowing any number of \u003ccode\u003e\u003ca\u003eInactive\u003c/a\u003e\u003c/code\u003e records.  On the other hand,\n we represent \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003eTRUE\u003c/code\u003e, so the uniqueness constraint\n will disallow more than one \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote:\u003c/em\u003e There may be DBMSs that do not respect the SQL\n standard's treatment of \u003ccode\u003eNULL\u003c/code\u003e values on uniqueness\n constraints, please check if this data type works before\n relying on it.\n\u003c/p\u003e\u003cp\u003eThe SQL \u003ccode\u003eBOOLEAN\u003c/code\u003e type is used because it's the smallest data\n type available.  Note that we never use \u003ccode\u003eFALSE\u003c/code\u003e, just \u003ccode\u003eTRUE\u003c/code\u003e\n and \u003ccode\u003eNULL\u003c/code\u003e.  Provides the same behavior \u003ccode\u003eMaybe ()\u003c/code\u003e would if\n \u003ccode\u003e()\u003c/code\u003e was a valid \u003ccode\u003ePersistField\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Checkmark",
           "package": "persistent",
@@ -3709,6 +4020,7 @@
         "index": {
           "description": "Checkmark should be used as field type whenever uniqueness constraint should guarantee that certain kind of record may appear at most once but other kinds of records may appear any number of times NOTE You need to mark any Checkmark fields as nullable see the following example For example suppose there Location entity that represents where user has lived Location user UserId name Text current Checkmark nullable UniqueLocation user current The UniqueLocation constraint allows any number of Inactive Location to be current However there may be at most one current Location per user i.e either zero or one per user This data type works because of the way that SQL treats NULL able fields within uniqueness constraints The SQL standard says that NULL values should be considered different so we represent Inactive as SQL NULL thus allowing any number of Inactive records On the other hand we represent Active as TRUE so the uniqueness constraint will disallow more than one Active record Note There may be DBMSs that do not respect the SQL standard treatment of NULL values on uniqueness constraints please check if this data type works before relying on it The SQL BOOLEAN type is used because it the smallest data type available Note that we never use FALSE just TRUE and NULL Provides the same behavior Maybe would if was valid PersistField",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Checkmark",
           "package": "persistent",
@@ -3722,6 +4034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "DBName",
           "package": "persistent",
@@ -3730,6 +4043,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "DBName",
           "package": "persistent",
@@ -3744,6 +4058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatatype that represents an entity, with both its \u003ccode\u003e\u003ca\u003eKey\u003c/a\u003e\u003c/code\u003e and\n its Haskell record representation.\n\u003c/p\u003e\u003cp\u003eWhen using a SQL-based backend (such as SQLite or\n PostgreSQL), an \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e may take any number of columns\n depending on how many fields it has. In order to reconstruct\n your entity on the Haskell side, \u003ccode\u003epersistent\u003c/code\u003e needs all of\n your entity columns and in the right order.  Note that you\n don't need to worry about this when using \u003ccode\u003epersistent\u003c/code\u003e's API\n since everything is handled correctly behind the scenes.\n\u003c/p\u003e\u003cp\u003eHowever, if you want to issue a raw SQL command that returns\n an \u003ccode\u003e\u003ca\u003eEntity\u003c/a\u003e\u003c/code\u003e, then you have to be careful with the column\n order.  While you could use \u003ccode\u003eSELECT Entity.* WHERE ...\u003c/code\u003e and\n that would work most of the time, there are times when the\n order of the columns on your database is different from the\n order that \u003ccode\u003epersistent\u003c/code\u003e expects (for example, if you add a new\n field in the middle of you entity definition and then use the\n migration code -- \u003ccode\u003epersistent\u003c/code\u003e will expect the column to be in\n the middle, but your DBMS will put it as the last column).\n So, instead of using a query like the one above, you may use\n \u003ccode\u003e\u003ca\u003erawSql\u003c/a\u003e\u003c/code\u003e (from the\n \u003ca\u003eDatabase.Persist.GenericSql\u003c/a\u003e module) with its /entity\n selection placeholder/ (a double question mark \u003ccode\u003e??\u003c/code\u003e).  Using\n \u003ccode\u003erawSql\u003c/code\u003e the query above must be written as \u003ccode\u003eSELECT ??  WHERE\n ..\u003c/code\u003e.  Then \u003ccode\u003erawSql\u003c/code\u003e will replace \u003ccode\u003e??\u003c/code\u003e with the list of all\n columns that we need from your entity in the right order.  If\n your query returns two entities (i.e. \u003ccode\u003e(Entity backend a,\n Entity backend b)\u003c/code\u003e), then you must you use \u003ccode\u003eSELECT ??, ??\n WHERE ...\u003c/code\u003e, and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Entity",
           "package": "persistent",
@@ -3753,6 +4068,7 @@
         "index": {
           "description": "Datatype that represents an entity with both its Key and its Haskell record representation When using SQL-based backend such as SQLite or PostgreSQL an Entity may take any number of columns depending on how many fields it has In order to reconstruct your entity on the Haskell side persistent needs all of your entity columns and in the right order Note that you don need to worry about this when using persistent API since everything is handled correctly behind the scenes However if you want to issue raw SQL command that returns an Entity then you have to be careful with the column order While you could use SELECT Entity WHERE and that would work most of the time there are times when the order of the columns on your database is different from the order that persistent expects for example if you add new field in the middle of you entity definition and then use the migration code persistent will expect the column to be in the middle but your DBMS will put it as the last column So instead of using query like the one above you may use rawSql from the Database.Persist.GenericSql module with its entity selection placeholder double question mark Using rawSql the query above must be written as SELECT WHERE Then rawSql will replace with the list of all columns that we need from your entity in the right order If your query returns two entities i.e Entity backend Entity backend then you must you use SELECT WHERE and so on",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Entity",
           "package": "persistent",
@@ -3766,6 +4082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "EntityDef",
           "package": "persistent",
@@ -3774,6 +4091,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "EntityDef",
           "package": "persistent",
@@ -3787,6 +4105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ExtraLine",
           "package": "persistent",
@@ -3795,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ExtraLine",
           "package": "persistent",
@@ -3808,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FieldDef",
           "package": "persistent",
@@ -3816,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FieldDef",
           "package": "persistent",
@@ -3829,6 +4151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FieldType",
           "package": "persistent",
@@ -3837,6 +4160,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FieldType",
           "package": "persistent",
@@ -3851,6 +4175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters which are available for \u003ccode\u003eselect\u003c/code\u003e, \u003ccode\u003eupdateWhere\u003c/code\u003e and\n \u003ccode\u003edeleteWhere\u003c/code\u003e. Each filter constructor specifies the field being\n filtered on, the type of comparison applied (equals, not equals, etc)\n and the argument for the comparison.\n\u003c/p\u003e\u003cp\u003ePersistent users use combinators to create these\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Filter",
           "package": "persistent",
@@ -3860,6 +4185,7 @@
         "index": {
           "description": "Filters which are available for select updateWhere and deleteWhere Each filter constructor specifies the field being filtered on the type of comparison applied equals not equals etc and the argument for the comparison Persistent users use combinators to create these",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Filter",
           "package": "persistent",
@@ -3873,6 +4199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ForeignDef",
           "package": "persistent",
@@ -3881,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ForeignDef",
           "package": "persistent",
@@ -3894,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "HaskellName",
           "package": "persistent",
@@ -3902,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "HaskellName",
           "package": "persistent",
@@ -3915,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "IsNullable",
           "package": "persistent",
@@ -3923,6 +4254,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "IsNullable",
           "package": "persistent",
@@ -3937,6 +4269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper wrapper, equivalent to \u003ccode\u003eKey (PersistEntityBackend val) val\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.1.0\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Key",
           "package": "persistent",
@@ -3946,6 +4279,7 @@
         "index": {
           "description": "Helper wrapper equivalent to Key PersistEntityBackend val val Since",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Key",
           "package": "persistent",
@@ -3959,6 +4293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "KeyBackend",
           "package": "persistent",
@@ -3967,6 +4302,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "KeyBackend",
           "package": "persistent",
@@ -3980,6 +4316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "KeyEntity",
           "package": "persistent",
@@ -3988,6 +4325,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "KeyEntity",
           "package": "persistent",
@@ -4001,6 +4339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistException",
           "package": "persistent",
@@ -4009,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistException",
           "package": "persistent",
@@ -4022,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistFilter",
           "package": "persistent",
@@ -4030,6 +4371,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistFilter",
           "package": "persistent",
@@ -4043,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistUpdate",
           "package": "persistent",
@@ -4051,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistUpdate",
           "package": "persistent",
@@ -4065,6 +4409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA raw value which can be stored in any backend and can be marshalled to\n and from a \u003ccode\u003ePersistField\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistValue",
           "package": "persistent",
@@ -4074,6 +4419,7 @@
         "index": {
           "description": "raw value which can be stored in any backend and can be marshalled to and from PersistField",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistValue",
           "package": "persistent",
@@ -4087,6 +4433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PrimaryDef",
           "package": "persistent",
@@ -4095,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PrimaryDef",
           "package": "persistent",
@@ -4109,6 +4457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equery options\n\u003c/p\u003e\u003cp\u003ePersistent users use these directly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SelectOpt",
           "package": "persistent",
@@ -4118,6 +4467,7 @@
         "index": {
           "description": "query options Persistent users use these directly",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SelectOpt",
           "package": "persistent",
@@ -4131,6 +4481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SomePersistField",
           "package": "persistent",
@@ -4139,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SomePersistField",
           "package": "persistent",
@@ -4153,6 +4505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA SQL data type. Naming attempts to reflect the underlying Haskell\n datatypes, eg SqlString instead of SqlVarchar. Different SQL databases may\n have different translations for these types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlType",
           "package": "persistent",
@@ -4162,6 +4515,7 @@
         "index": {
           "description": "SQL data type Naming attempts to reflect the underlying Haskell datatypes eg SqlString instead of SqlVarchar Different SQL databases may have different translations for these types",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlType",
           "package": "persistent",
@@ -4175,6 +4529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "UniqueDef",
           "package": "persistent",
@@ -4183,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "UniqueDef",
           "package": "persistent",
@@ -4197,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdataing a database entity\n\u003c/p\u003e\u003cp\u003ePersistent users use combinators to create these\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Update",
           "package": "persistent",
@@ -4206,6 +4563,7 @@
         "index": {
           "description": "updataing database entity Persistent users use combinators to create these",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Update",
           "package": "persistent",
@@ -4219,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "UpdateGetException",
           "package": "persistent",
@@ -4227,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "UpdateGetException",
           "package": "persistent",
@@ -4241,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reason why a field is \u003ccode\u003enullable\u003c/code\u003e is very important.  A\n field that is nullable because of a \u003ccode\u003eMaybe\u003c/code\u003e tag will have its\n type changed from \u003ccode\u003eA\u003c/code\u003e to \u003ccode\u003eMaybe A\u003c/code\u003e.  OTOH, a field that is\n nullable because of a \u003ccode\u003enullable\u003c/code\u003e tag will remain with the same\n type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "WhyNullable",
           "package": "persistent",
@@ -4250,6 +4611,7 @@
         "index": {
           "description": "The reason why field is nullable is very important field that is nullable because of Maybe tag will have its type changed from to Maybe OTOH field that is nullable because of nullable tag will remain with the same type",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "WhyNullable",
           "package": "persistent",
@@ -4264,6 +4626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAvoid orphan instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ZT",
           "package": "persistent",
@@ -4273,6 +4636,7 @@
         "index": {
           "description": "Avoid orphan instances",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ZT",
           "package": "persistent",
@@ -4287,6 +4651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen used on a uniqueness constraint, there\n may be at most one \u003ccode\u003e\u003ca\u003eActive\u003c/a\u003e\u003c/code\u003e record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Active",
           "package": "persistent",
@@ -4297,6 +4662,7 @@
         "index": {
           "description": "When used on uniqueness constraint there may be at most one Active record",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Active",
           "package": "persistent",
@@ -4310,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Add",
           "package": "persistent",
@@ -4319,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Add",
           "package": "persistent",
@@ -4332,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Asc",
           "package": "persistent",
@@ -4341,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Asc",
           "package": "persistent",
@@ -4354,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Assign",
           "package": "persistent",
@@ -4363,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Assign",
           "package": "persistent",
@@ -4376,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "BackendFilter",
           "package": "persistent",
@@ -4385,6 +4758,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "BackendFilter",
           "package": "persistent",
@@ -4398,6 +4772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "BackendSpecificFilter",
           "package": "persistent",
@@ -4407,6 +4782,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "BackendSpecificFilter",
           "package": "persistent",
@@ -4420,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ByMaybeAttr",
           "package": "persistent",
@@ -4429,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ByMaybeAttr",
           "package": "persistent",
@@ -4442,6 +4820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ByNullableAttr",
           "package": "persistent",
@@ -4451,6 +4830,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ByNullableAttr",
           "package": "persistent",
@@ -4464,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "DBName",
           "package": "persistent",
@@ -4473,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "DBName",
           "package": "persistent",
@@ -4486,6 +4868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Desc",
           "package": "persistent",
@@ -4495,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Desc",
           "package": "persistent",
@@ -4508,6 +4892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Divide",
           "package": "persistent",
@@ -4517,6 +4902,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Divide",
           "package": "persistent",
@@ -4530,6 +4916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Entity",
           "package": "persistent",
@@ -4539,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Entity",
           "package": "persistent",
@@ -4552,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "EntityDef",
           "package": "persistent",
@@ -4561,6 +4950,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "EntityDef",
           "package": "persistent",
@@ -4574,6 +4964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Eq",
           "package": "persistent",
@@ -4583,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Eq",
           "package": "persistent",
@@ -4596,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FTApp",
           "package": "persistent",
@@ -4605,6 +4998,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FTApp",
           "package": "persistent",
@@ -4618,6 +5012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FTList",
           "package": "persistent",
@@ -4627,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FTList",
           "package": "persistent",
@@ -4641,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional module and name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FTTypeCon",
           "package": "persistent",
@@ -4651,6 +5048,7 @@
         "index": {
           "description": "Optional module and name",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FTTypeCon",
           "package": "persistent",
@@ -4664,6 +5062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FieldDef",
           "package": "persistent",
@@ -4673,6 +5072,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FieldDef",
           "package": "persistent",
@@ -4686,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Filter",
           "package": "persistent",
@@ -4695,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Filter",
           "package": "persistent",
@@ -4709,6 +5111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvenient for internal use, not needed for the API\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FilterAnd",
           "package": "persistent",
@@ -4719,6 +5122,7 @@
         "index": {
           "description": "convenient for internal use not needed for the API",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FilterAnd",
           "normalized": "FilterAnd[Filter a]",
@@ -4734,6 +5138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "FilterOr",
           "package": "persistent",
@@ -4743,6 +5148,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "FilterOr",
           "normalized": "FilterOr[Filter a]",
@@ -4758,6 +5164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ForeignDef",
           "package": "persistent",
@@ -4767,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ForeignDef",
           "package": "persistent",
@@ -4780,6 +5188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Ge",
           "package": "persistent",
@@ -4789,6 +5198,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Ge",
           "package": "persistent",
@@ -4802,6 +5212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Gt",
           "package": "persistent",
@@ -4811,6 +5222,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Gt",
           "package": "persistent",
@@ -4824,6 +5236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "HaskellName",
           "package": "persistent",
@@ -4833,6 +5246,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "HaskellName",
           "package": "persistent",
@@ -4846,6 +5260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "In",
           "package": "persistent",
@@ -4855,6 +5270,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "In",
           "package": "persistent",
@@ -4869,6 +5285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen used on a uniqueness constraint, there\n may be any number of \u003ccode\u003e\u003ca\u003eInactive\u003c/a\u003e\u003c/code\u003e records.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Inactive",
           "package": "persistent",
@@ -4879,6 +5296,7 @@
         "index": {
           "description": "When used on uniqueness constraint there may be any number of Inactive records",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Inactive",
           "package": "persistent",
@@ -4892,6 +5310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Key",
           "package": "persistent",
@@ -4901,6 +5320,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Key",
           "package": "persistent",
@@ -4914,6 +5334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "KeyNotFound",
           "package": "persistent",
@@ -4923,6 +5344,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "KeyNotFound",
           "package": "persistent",
@@ -4936,6 +5358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Le",
           "package": "persistent",
@@ -4945,6 +5368,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Le",
           "package": "persistent",
@@ -4958,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "LimitTo",
           "package": "persistent",
@@ -4967,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "LimitTo",
           "package": "persistent",
@@ -4980,6 +5406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Lt",
           "package": "persistent",
@@ -4989,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Lt",
           "package": "persistent",
@@ -5002,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Multiply",
           "package": "persistent",
@@ -5011,6 +5440,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Multiply",
           "package": "persistent",
@@ -5024,6 +5454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Ne",
           "package": "persistent",
@@ -5033,6 +5464,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Ne",
           "package": "persistent",
@@ -5046,6 +5478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "NotIn",
           "package": "persistent",
@@ -5055,6 +5488,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "NotIn",
           "package": "persistent",
@@ -5068,6 +5502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "NotNullable",
           "package": "persistent",
@@ -5077,6 +5512,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "NotNullable",
           "package": "persistent",
@@ -5090,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Nullable",
           "package": "persistent",
@@ -5099,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Nullable",
           "package": "persistent",
@@ -5112,6 +5550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "OffsetBy",
           "package": "persistent",
@@ -5121,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "OffsetBy",
           "package": "persistent",
@@ -5134,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistBool",
           "package": "persistent",
@@ -5143,6 +5584,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistBool",
           "package": "persistent",
@@ -5156,6 +5598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistByteString",
           "package": "persistent",
@@ -5165,6 +5608,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistByteString",
           "package": "persistent",
@@ -5178,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistDay",
           "package": "persistent",
@@ -5187,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistDay",
           "package": "persistent",
@@ -5201,6 +5647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsing \u003ccode\u003e\u003ca\u003ePersistDbSpecific\u003c/a\u003e\u003c/code\u003e allows you to use types specific to a particular backend\n For example, below is a simple example of the PostGIS geography type:\n\u003c/p\u003e\u003cpre\u003e\n data Geo = Geo ByteString\n\ninstance PersistField Geo where\n   toPersistValue (Geo t) = PersistDbSpecific t\n\nfromPersistValue (PersistDbSpecific t) = Right $ Geo $ Data.ByteString.concat [\u003ca\u003e'\u003c/a\u003e, t, \u003ca\u003e'\u003c/a\u003e]\n   fromPersistValue _ = Left \u003ca\u003eGeo values must be converted from PersistDbSpecific\u003c/a\u003e\n\ninstance PersistFieldSql Geo where\n   sqlType _ = SqlOther \u003ca\u003eGEOGRAPHY(POINT,4326)\u003c/a\u003e\n\ntoPoint :: Double -\u003e Double -\u003e Geo\n toPoint lat lon = Geo $ Data.ByteString.concat [\u003ca\u003e'POINT(\u003c/a\u003e, ps $ lon, \u003ca\u003e \u003c/a\u003e, ps $ lat, \u003ca\u003e)'\u003c/a\u003e]\n   where ps = Data.Text.pack . show\n\u003c/pre\u003e\u003cp\u003eIf Foo has a geography field, we can then perform insertions like the following:\n\u003c/p\u003e\u003cpre\u003e\n insert $ Foo (toPoint 44 44)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistDbSpecific",
           "package": "persistent",
@@ -5211,6 +5658,7 @@
         "index": {
           "description": "Using PersistDbSpecific allows you to use types specific to particular backend For example below is simple example of the PostGIS geography type data Geo Geo ByteString instance PersistField Geo where toPersistValue Geo PersistDbSpecific fromPersistValue PersistDbSpecific Right Geo Data.ByteString.concat fromPersistValue Left Geo values must be converted from PersistDbSpecific instance PersistFieldSql Geo where sqlType SqlOther GEOGRAPHY POINT toPoint Double Double Geo toPoint lat lon Geo Data.ByteString.concat POINT ps lon ps lat where ps Data.Text.pack show If Foo has geography field we can then perform insertions like the following insert Foo toPoint",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistDbSpecific",
           "package": "persistent",
@@ -5224,6 +5672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistDouble",
           "package": "persistent",
@@ -5233,6 +5682,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistDouble",
           "package": "persistent",
@@ -5247,6 +5697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric Exception\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistError",
           "package": "persistent",
@@ -5257,6 +5708,7 @@
         "index": {
           "description": "Generic Exception",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistError",
           "package": "persistent",
@@ -5270,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistForeignConstraintUnmet",
           "package": "persistent",
@@ -5279,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistForeignConstraintUnmet",
           "package": "persistent",
@@ -5292,6 +5746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistInt64",
           "package": "persistent",
@@ -5301,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistInt64",
           "package": "persistent",
@@ -5314,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistInvalidField",
           "package": "persistent",
@@ -5323,6 +5780,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistInvalidField",
           "package": "persistent",
@@ -5336,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistList",
           "package": "persistent",
@@ -5345,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistList",
           "normalized": "PersistList[PersistValue]",
@@ -5360,6 +5820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistMap",
           "package": "persistent",
@@ -5369,6 +5830,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistMap",
           "normalized": "PersistMap[(Text,PersistValue)]",
@@ -5384,6 +5846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistMarshalError",
           "package": "persistent",
@@ -5393,6 +5856,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistMarshalError",
           "package": "persistent",
@@ -5406,6 +5870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistMongoDBError",
           "package": "persistent",
@@ -5415,6 +5880,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistMongoDBError",
           "package": "persistent",
@@ -5428,6 +5894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistMongoDBUnsupported",
           "package": "persistent",
@@ -5437,6 +5904,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistMongoDBUnsupported",
           "package": "persistent",
@@ -5450,6 +5918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistNull",
           "package": "persistent",
@@ -5459,6 +5928,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistNull",
           "package": "persistent",
@@ -5473,6 +5943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntended especially for MongoDB backend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistObjectId",
           "package": "persistent",
@@ -5483,6 +5954,7 @@
         "index": {
           "description": "Intended especially for MongoDB backend",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistObjectId",
           "package": "persistent",
@@ -5496,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistRational",
           "package": "persistent",
@@ -5505,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistRational",
           "package": "persistent",
@@ -5518,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistText",
           "package": "persistent",
@@ -5527,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistText",
           "package": "persistent",
@@ -5540,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistTimeOfDay",
           "package": "persistent",
@@ -5549,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistTimeOfDay",
           "package": "persistent",
@@ -5562,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistUTCTime",
           "package": "persistent",
@@ -5571,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistUTCTime",
           "package": "persistent",
@@ -5584,6 +6064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PersistZonedTime",
           "package": "persistent",
@@ -5593,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PersistZonedTime",
           "package": "persistent",
@@ -5606,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "PrimaryDef",
           "package": "persistent",
@@ -5615,6 +6098,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "PrimaryDef",
           "package": "persistent",
@@ -5628,6 +6112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SomePersistField",
           "package": "persistent",
@@ -5637,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SomePersistField",
           "package": "persistent",
@@ -5650,6 +6136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlBlob",
           "package": "persistent",
@@ -5659,6 +6146,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlBlob",
           "package": "persistent",
@@ -5672,6 +6160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlBool",
           "package": "persistent",
@@ -5681,6 +6170,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlBool",
           "package": "persistent",
@@ -5694,6 +6184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlDay",
           "package": "persistent",
@@ -5703,6 +6194,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlDay",
           "package": "persistent",
@@ -5716,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlDayTime",
           "package": "persistent",
@@ -5725,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlDayTime",
           "package": "persistent",
@@ -5738,6 +6232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlDayTimeZoned",
           "package": "persistent",
@@ -5747,6 +6242,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlDayTimeZoned",
           "package": "persistent",
@@ -5760,6 +6256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlInt32",
           "package": "persistent",
@@ -5769,6 +6266,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlInt32",
           "package": "persistent",
@@ -5782,6 +6280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlInt64",
           "package": "persistent",
@@ -5791,6 +6290,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlInt64",
           "package": "persistent",
@@ -5804,6 +6304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlNumeric",
           "package": "persistent",
@@ -5813,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlNumeric",
           "package": "persistent",
@@ -5827,6 +6329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea backend-specific name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlOther",
           "package": "persistent",
@@ -5837,6 +6340,7 @@
         "index": {
           "description": "backend-specific name",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlOther",
           "package": "persistent",
@@ -5850,6 +6354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlReal",
           "package": "persistent",
@@ -5859,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlReal",
           "package": "persistent",
@@ -5872,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlString",
           "package": "persistent",
@@ -5881,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlString",
           "package": "persistent",
@@ -5894,6 +6402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "SqlTime",
           "package": "persistent",
@@ -5903,6 +6412,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "SqlTime",
           "package": "persistent",
@@ -5916,6 +6426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Subtract",
           "package": "persistent",
@@ -5925,6 +6436,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Subtract",
           "package": "persistent",
@@ -5938,6 +6450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "UniqueDef",
           "package": "persistent",
@@ -5947,6 +6460,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "UniqueDef",
           "package": "persistent",
@@ -5960,6 +6474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "Update",
           "package": "persistent",
@@ -5969,6 +6484,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "Update",
           "package": "persistent",
@@ -5982,6 +6498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "ZT",
           "package": "persistent",
@@ -5991,6 +6508,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "ZT",
           "package": "persistent",
@@ -6004,6 +6522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityAttrs",
           "package": "persistent",
@@ -6013,6 +6532,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityAttrs",
           "normalized": "[Attr]",
@@ -6028,6 +6548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityDB",
           "package": "persistent",
@@ -6037,6 +6558,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityDB",
           "package": "persistent",
@@ -6050,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityDerives",
           "package": "persistent",
@@ -6059,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityDerives",
           "normalized": "[Text]",
@@ -6074,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityExtra",
           "package": "persistent",
@@ -6083,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityExtra",
           "normalized": "(Map Text[ExtraLine])",
@@ -6098,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityFields",
           "package": "persistent",
@@ -6107,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityFields",
           "normalized": "[FieldDef a]",
@@ -6122,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityForeigns",
           "package": "persistent",
@@ -6131,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityForeigns",
           "normalized": "[ForeignDef]",
@@ -6146,6 +6676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityHaskell",
           "package": "persistent",
@@ -6155,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityHaskell",
           "package": "persistent",
@@ -6168,6 +6700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityID",
           "package": "persistent",
@@ -6177,6 +6710,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityID",
           "package": "persistent",
@@ -6190,6 +6724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityKey",
           "package": "persistent",
@@ -6199,6 +6734,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityKey",
           "package": "persistent",
@@ -6212,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityPrimary",
           "package": "persistent",
@@ -6221,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityPrimary",
           "package": "persistent",
@@ -6234,6 +6772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entitySum",
           "package": "persistent",
@@ -6243,6 +6782,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entitySum",
           "package": "persistent",
@@ -6256,6 +6796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityUniques",
           "package": "persistent",
@@ -6265,6 +6806,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityUniques",
           "normalized": "[UniqueDef]",
@@ -6280,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "entityVal",
           "package": "persistent",
@@ -6289,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "entityVal",
           "package": "persistent",
@@ -6303,6 +6847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euser annotations for a field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldAttrs",
           "package": "persistent",
@@ -6313,6 +6858,7 @@
         "index": {
           "description": "user annotations for field",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldAttrs",
           "normalized": "[Attr]",
@@ -6328,6 +6874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldDB",
           "package": "persistent",
@@ -6337,6 +6884,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldDB",
           "package": "persistent",
@@ -6351,6 +6899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates that the field uses an embedded entity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldEmbedded",
           "package": "persistent",
@@ -6361,6 +6910,7 @@
         "index": {
           "description": "indicates that the field uses an embedded entity",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldEmbedded",
           "normalized": "Maybe(EntityDef())",
@@ -6377,6 +6927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename of the field\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldHaskell",
           "package": "persistent",
@@ -6387,6 +6938,7 @@
         "index": {
           "description": "name of the field",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldHaskell",
           "package": "persistent",
@@ -6400,6 +6952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldSqlType",
           "package": "persistent",
@@ -6409,6 +6962,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldSqlType",
           "package": "persistent",
@@ -6423,6 +6977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea strict field in the data type. Default: true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldStrict",
           "package": "persistent",
@@ -6433,6 +6988,7 @@
         "index": {
           "description": "strict field in the data type Default true",
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldStrict",
           "package": "persistent",
@@ -6446,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fieldType",
           "package": "persistent",
@@ -6455,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fieldType",
           "package": "persistent",
@@ -6468,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "filterField",
           "package": "persistent",
@@ -6477,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "filterField",
           "package": "persistent",
@@ -6490,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "filterFilter",
           "package": "persistent",
@@ -6499,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "filterFilter",
           "package": "persistent",
@@ -6512,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "filterValue",
           "package": "persistent",
@@ -6521,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "filterValue",
           "normalized": "Either a[a]",
@@ -6536,6 +7100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignAttrs",
           "package": "persistent",
@@ -6545,6 +7110,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignAttrs",
           "normalized": "[Attr]",
@@ -6560,6 +7126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignConstraintNameDBName",
           "package": "persistent",
@@ -6569,6 +7136,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignConstraintNameDBName",
           "package": "persistent",
@@ -6582,6 +7150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignConstraintNameHaskell",
           "package": "persistent",
@@ -6591,6 +7160,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignConstraintNameHaskell",
           "package": "persistent",
@@ -6604,6 +7174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignFields",
           "package": "persistent",
@@ -6613,6 +7184,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignFields",
           "normalized": "[(HaskellName,DBName,HaskellName,DBName)]",
@@ -6628,6 +7200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignRefTableDBName",
           "package": "persistent",
@@ -6637,6 +7210,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignRefTableDBName",
           "package": "persistent",
@@ -6650,6 +7224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "foreignRefTableHaskell",
           "package": "persistent",
@@ -6659,6 +7234,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "foreignRefTableHaskell",
           "package": "persistent",
@@ -6672,6 +7248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "fromPersistValueText",
           "package": "persistent",
@@ -6681,6 +7258,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "fromPersistValueText",
           "normalized": "PersistValue-\u003eEither String Text",
@@ -6696,6 +7274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "primaryAttrs",
           "package": "persistent",
@@ -6705,6 +7284,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "primaryAttrs",
           "normalized": "[Attr]",
@@ -6720,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "primaryFields",
           "package": "persistent",
@@ -6729,6 +7310,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "primaryFields",
           "normalized": "[(HaskellName,DBName)]",
@@ -6744,6 +7326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "unDBName",
           "package": "persistent",
@@ -6753,6 +7336,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "unDBName",
           "package": "persistent",
@@ -6766,6 +7350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "unHaskellName",
           "package": "persistent",
@@ -6775,6 +7360,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "unHaskellName",
           "package": "persistent",
@@ -6788,6 +7374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "unKey",
           "package": "persistent",
@@ -6797,6 +7384,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "unKey",
           "package": "persistent",
@@ -6810,6 +7398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "uniqueAttrs",
           "package": "persistent",
@@ -6819,6 +7408,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "uniqueAttrs",
           "normalized": "[Attr]",
@@ -6834,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "uniqueDBName",
           "package": "persistent",
@@ -6843,6 +7434,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "uniqueDBName",
           "package": "persistent",
@@ -6856,6 +7448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "uniqueFields",
           "package": "persistent",
@@ -6865,6 +7458,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "uniqueFields",
           "normalized": "[(HaskellName,DBName)]",
@@ -6880,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "uniqueHaskell",
           "package": "persistent",
@@ -6889,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "uniqueHaskell",
           "package": "persistent",
@@ -6902,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "updateField",
           "package": "persistent",
@@ -6911,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "updateField",
           "package": "persistent",
@@ -6924,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "updateUpdate",
           "package": "persistent",
@@ -6933,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "updateUpdate",
           "package": "persistent",
@@ -6946,6 +7546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist.Types",
           "name": "updateValue",
           "package": "persistent",
@@ -6955,6 +7556,7 @@
         },
         "index": {
           "hierarchy": "Database Persist Types",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist.Types",
           "name": "updateValue",
           "package": "persistent",
@@ -6968,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "Persist",
           "package": "persistent",
@@ -6976,6 +7579,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "Persist",
           "package": "persistent",
@@ -6990,6 +7594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe OR of two lists of filters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(||.)",
           "package": "persistent",
@@ -7000,6 +7605,7 @@
         "index": {
           "description": "the OR of two lists of filters",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(||.) ||.",
           "normalized": "a b[Filter c]-\u003e[Filter c]-\u003e[Filter c]",
@@ -7014,6 +7620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(!=.)",
           "package": "persistent",
@@ -7023,6 +7630,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(!=.) !=.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7038,6 +7646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a field by multiplication (*=)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(*=.)",
           "package": "persistent",
@@ -7048,6 +7657,7 @@
         "index": {
           "description": "assign field by multiplication",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(*=.) *=.",
           "normalized": "EntityField a b-\u003eb-\u003eUpdate a",
@@ -7063,6 +7673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a field by addition (+=)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(+=.)",
           "package": "persistent",
@@ -7073,6 +7684,7 @@
         "index": {
           "description": "assign field by addition",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(+=.) +=.",
           "normalized": "EntityField a b-\u003eb-\u003eUpdate a",
@@ -7088,6 +7700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a field by subtraction (-=)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(-=.)",
           "package": "persistent",
@@ -7098,6 +7711,7 @@
         "index": {
           "description": "assign field by subtraction",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(-=.) -=.",
           "normalized": "EntityField a b-\u003eb-\u003eUpdate a",
@@ -7113,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNotIn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(/\u003c-.)",
           "package": "persistent",
@@ -7123,6 +7738,7 @@
         "index": {
           "description": "NotIn",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(/\u003c-.) /\u003c-.",
           "normalized": "EntityField a b-\u003e[b]-\u003eFilter a",
@@ -7138,6 +7754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a field by division (/=)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(/=.)",
           "package": "persistent",
@@ -7148,6 +7765,7 @@
         "index": {
           "description": "assign field by division",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(/=.) /=.",
           "normalized": "EntityField a b-\u003eb-\u003eUpdate a",
@@ -7163,6 +7781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(\u003c-.)",
           "package": "persistent",
@@ -7173,6 +7792,7 @@
         "index": {
           "description": "In",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(\u003c-.) \u003c-.",
           "normalized": "EntityField a b-\u003e[b]-\u003eFilter a",
@@ -7187,6 +7807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(\u003c=.)",
           "package": "persistent",
@@ -7196,6 +7817,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(\u003c=.) \u003c=.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7210,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(\u003c.)",
           "package": "persistent",
@@ -7219,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(\u003c.) \u003c.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7233,6 +7857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(==.)",
           "package": "persistent",
@@ -7242,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(==.) ==.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7257,6 +7883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassign a field a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(=.)",
           "package": "persistent",
@@ -7267,6 +7894,7 @@
         "index": {
           "description": "assign field value",
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(=.) =.",
           "normalized": "EntityField a b-\u003eb-\u003eUpdate a",
@@ -7281,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(\u003e=.)",
           "package": "persistent",
@@ -7290,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(\u003e=.) \u003e=.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7304,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "(\u003e.)",
           "package": "persistent",
@@ -7313,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "(\u003e.) \u003e.",
           "normalized": "EntityField a b-\u003eb-\u003eFilter a",
@@ -7327,6 +7959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "getPersistMap",
           "package": "persistent",
@@ -7336,6 +7969,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "getPersistMap",
           "normalized": "PersistValue-\u003eEither Text[(Text,PersistValue)]",
@@ -7351,6 +7985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "limitOffsetOrder",
           "package": "persistent",
@@ -7360,6 +7995,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "limitOffsetOrder",
           "normalized": "[SelectOpt a]-\u003e(Int,Int,[SelectOpt a])",
@@ -7375,6 +8011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "listToJSON",
           "package": "persistent",
@@ -7384,6 +8021,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "listToJSON",
           "normalized": "[PersistValue]-\u003eText",
@@ -7399,6 +8037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:33 UTC 2014",
           "module": "Database.Persist",
           "name": "mapToJSON",
           "package": "persistent",
@@ -7408,6 +8047,7 @@
         },
         "index": {
           "hierarchy": "Database Persist",
+          "indexed": "2014-03-11T19:37:33",
           "module": "Database.Persist",
           "name": "mapToJSON",
           "normalized": "[(Text,PersistValue)]-\u003eText",

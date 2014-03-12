@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-bash"
+        "phrase": "language-bash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBash conditional commands.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Cond",
           "package": "language-bash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bash conditional commands",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Cond",
           "package": "language-bash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary conditional operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "BinaryOp",
           "package": "language-bash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Binary conditional operators",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "BinaryOp",
           "package": "language-bash",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBash conditional expressions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "CondExpr",
           "package": "language-bash",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Bash conditional expressions",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "CondExpr",
           "package": "language-bash",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary conditional operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "UnaryOp",
           "package": "language-bash",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Unary conditional operators",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "UnaryOp",
           "package": "language-bash",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "And",
           "package": "language-bash",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "And",
           "package": "language-bash",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-eq\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithEQ",
           "package": "language-bash",
@@ -143,6 +154,7 @@
         "index": {
           "description": "eq",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithEQ",
           "package": "language-bash",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-ge\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithGE",
           "package": "language-bash",
@@ -167,6 +180,7 @@
         "index": {
           "description": "ge",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithGE",
           "package": "language-bash",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-gt\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithGT",
           "package": "language-bash",
@@ -191,6 +206,7 @@
         "index": {
           "description": "gt",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithGT",
           "package": "language-bash",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-le\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithLE",
           "package": "language-bash",
@@ -215,6 +232,7 @@
         "index": {
           "description": "le",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithLE",
           "package": "language-bash",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-lt\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithLT",
           "package": "language-bash",
@@ -239,6 +258,7 @@
         "index": {
           "description": "lt",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithLT",
           "package": "language-bash",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-ne\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ArithNE",
           "package": "language-bash",
@@ -263,6 +284,7 @@
         "index": {
           "description": "ne",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ArithNE",
           "package": "language-bash",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Binary",
           "package": "language-bash",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Binary",
           "package": "language-bash",
@@ -299,6 +323,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-b\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "BlockFile",
           "package": "language-bash",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "BlockFile",
           "package": "language-bash",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "CharacterFile",
           "package": "language-bash",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "CharacterFile",
           "package": "language-bash",
@@ -345,6 +373,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-d\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Directory",
           "package": "language-bash",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Directory",
           "package": "language-bash",
@@ -368,6 +398,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-x\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Executable",
           "package": "language-bash",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Executable",
           "package": "language-bash",
@@ -391,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-e\u003c/code\u003e, \u003ccode\u003e-a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "FileExists",
           "package": "language-bash",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "FileExists",
           "package": "language-bash",
@@ -414,6 +448,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-s\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "FileSize",
           "package": "language-bash",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "FileSize",
           "package": "language-bash",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-G\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "GroupOwned",
           "package": "language-bash",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "GroupOwned",
           "package": "language-bash",
@@ -460,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-N\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Modified",
           "package": "language-bash",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Modified",
           "package": "language-bash",
@@ -483,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-p\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "NamedPipe",
           "package": "language-bash",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "NamedPipe",
           "package": "language-bash",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-nt\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "NewerThan",
           "package": "language-bash",
@@ -516,6 +559,7 @@
         "index": {
           "description": "nt",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "NewerThan",
           "package": "language-bash",
@@ -530,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-n \u003cem\u003estring\u003c/em\u003e\u003c/code\u003e or \u003ccode\u003e\u003cem\u003estring\u003c/em\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "NonzeroString",
           "package": "language-bash",
@@ -540,6 +585,7 @@
         "index": {
           "description": "string or string",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "NonzeroString",
           "package": "language-bash",
@@ -553,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Not",
           "package": "language-bash",
@@ -562,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Not",
           "package": "language-bash",
@@ -576,6 +624,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-ot\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "OlderThan",
           "package": "language-bash",
@@ -586,6 +635,7 @@
         "index": {
           "description": "ot",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "OlderThan",
           "package": "language-bash",
@@ -600,6 +650,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-o\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Optname",
           "package": "language-bash",
@@ -609,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Optname",
           "package": "language-bash",
@@ -622,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Or",
           "package": "language-bash",
@@ -631,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Or",
           "package": "language-bash",
@@ -645,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-r\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Readable",
           "package": "language-bash",
@@ -654,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Readable",
           "package": "language-bash",
@@ -668,6 +724,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-f\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "RegularFile",
           "package": "language-bash",
@@ -677,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "RegularFile",
           "package": "language-bash",
@@ -691,6 +749,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-ef\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "SameFile",
           "package": "language-bash",
@@ -701,6 +760,7 @@
         "index": {
           "description": "ef",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "SameFile",
           "package": "language-bash",
@@ -715,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-g\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "SetGID",
           "package": "language-bash",
@@ -724,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "SetGID",
           "package": "language-bash",
@@ -738,6 +800,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-u\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "SetUID",
           "package": "language-bash",
@@ -747,6 +810,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "SetUID",
           "package": "language-bash",
@@ -761,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-S\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Socket",
           "package": "language-bash",
@@ -770,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Socket",
           "package": "language-bash",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-k\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Sticky",
           "package": "language-bash",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Sticky",
           "package": "language-bash",
@@ -807,6 +875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e==\u003c/code\u003e, \u003ccode\u003e=\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "StrEQ",
           "package": "language-bash",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "StrEQ",
           "package": "language-bash",
@@ -830,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "StrGT",
           "package": "language-bash",
@@ -839,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "StrGT",
           "package": "language-bash",
@@ -853,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "StrLT",
           "package": "language-bash",
@@ -862,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "StrLT",
           "package": "language-bash",
@@ -876,6 +950,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e=~\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "StrMatch",
           "package": "language-bash",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "StrMatch",
           "package": "language-bash",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e!=\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "StrNE",
           "package": "language-bash",
@@ -908,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "StrNE",
           "package": "language-bash",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e-L\u003c/code\u003e, \u003ccode\u003e-h\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "SymbolicLink",
           "package": "language-bash",
@@ -931,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "SymbolicLink",
           "package": "language-bash",
@@ -945,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-t\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Terminal",
           "package": "language-bash",
@@ -954,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Terminal",
           "package": "language-bash",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Unary",
           "package": "language-bash",
@@ -976,6 +1059,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Unary",
           "package": "language-bash",
@@ -990,6 +1074,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-O\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "UserOwned",
           "package": "language-bash",
@@ -999,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "UserOwned",
           "package": "language-bash",
@@ -1013,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-v\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Varname",
           "package": "language-bash",
@@ -1022,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Varname",
           "package": "language-bash",
@@ -1036,6 +1124,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-w\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "Writable",
           "package": "language-bash",
@@ -1045,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "Writable",
           "package": "language-bash",
@@ -1059,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e-z\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "ZeroString",
           "package": "language-bash",
@@ -1068,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "ZeroString",
           "package": "language-bash",
@@ -1082,6 +1174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a conditional expression for the Bash \u003ccode\u003etest\u003c/code\u003e builtin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Cond",
           "name": "parseTestExpr",
           "package": "language-bash",
@@ -1092,6 +1185,7 @@
         "index": {
           "description": "Parse conditional expression for the Bash test builtin",
           "hierarchy": "Language Bash Cond",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Cond",
           "name": "parseTestExpr",
           "normalized": "[String]-\u003eEither ParseError(CondExpr String)",
@@ -1108,6 +1202,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShell expansions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "Expand",
           "package": "language-bash",
@@ -1117,6 +1212,7 @@
         "index": {
           "description": "Shell expansions",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "Expand",
           "package": "language-bash",
@@ -1131,6 +1227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tilde prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "TildePrefix",
           "package": "language-bash",
@@ -1140,6 +1237,7 @@
         "index": {
           "description": "tilde prefix",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "TildePrefix",
           "package": "language-bash",
@@ -1154,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e~N\u003c/code\u003e, \u003ccode\u003e~+N\u003c/code\u003e, \u003ccode\u003e~-N\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "Dirs",
           "package": "language-bash",
@@ -1163,6 +1262,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "Dirs",
           "package": "language-bash",
@@ -1177,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e~/foo\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "Home",
           "package": "language-bash",
@@ -1187,6 +1288,7 @@
         "index": {
           "description": "foo",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "Home",
           "package": "language-bash",
@@ -1201,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e~-/foo\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "OldPWD",
           "package": "language-bash",
@@ -1211,6 +1314,7 @@
         "index": {
           "description": "foo",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "OldPWD",
           "package": "language-bash",
@@ -1225,6 +1329,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e~+/foo\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "PWD",
           "package": "language-bash",
@@ -1235,6 +1340,7 @@
         "index": {
           "description": "foo",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "PWD",
           "package": "language-bash",
@@ -1249,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e~fred/foo\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "UserHome",
           "package": "language-bash",
@@ -1259,6 +1366,7 @@
         "index": {
           "description": "fred foo",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "UserHome",
           "package": "language-bash",
@@ -1273,6 +1381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrace expand a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "braceExpand",
           "package": "language-bash",
@@ -1283,6 +1392,7 @@
         "index": {
           "description": "Brace expand word",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "braceExpand",
           "normalized": "Word-\u003e[Word]",
@@ -1299,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit a word on delimiters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "splitWord",
           "package": "language-bash",
@@ -1309,6 +1420,7 @@
         "index": {
           "description": "Split word on delimiters",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "splitWord",
           "normalized": "[Char]-\u003eWord-\u003e[Word]",
@@ -1325,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrip the tilde prefix of a word, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Expand",
           "name": "tildePrefix",
           "package": "language-bash",
@@ -1335,6 +1448,7 @@
         "index": {
           "description": "Strip the tilde prefix of word if any",
           "hierarchy": "Language Bash Expand",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Expand",
           "name": "tildePrefix",
           "normalized": "Word-\u003eMaybe(TildePrefix,Word)",
@@ -1351,6 +1465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWord-level parsers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "Word",
           "package": "language-bash",
@@ -1360,6 +1475,7 @@
         "index": {
           "description": "Word-level parsers",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "Word",
           "package": "language-bash",
@@ -1374,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an arithmetic expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "arith",
           "package": "language-bash",
@@ -1384,6 +1501,7 @@
         "index": {
           "description": "Parse an arithmetic expression",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "arith",
           "package": "language-bash",
@@ -1397,6 +1515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "assign",
           "package": "language-bash",
@@ -1407,6 +1526,7 @@
         "index": {
           "description": "Parse an assignment",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "assign",
           "package": "language-bash",
@@ -1420,6 +1540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a here document as a word. This parses substitutions, but not\n most quoting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "heredocWord",
           "package": "language-bash",
@@ -1430,6 +1551,7 @@
         "index": {
           "description": "Parse here document as word This parses substitutions but not most quoting",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "heredocWord",
           "package": "language-bash",
@@ -1444,6 +1566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a parameter name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "name",
           "package": "language-bash",
@@ -1454,6 +1577,7 @@
         "index": {
           "description": "Parse parameter name",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "name",
           "package": "language-bash",
@@ -1467,6 +1591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the longest available operator from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "operator",
           "package": "language-bash",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "Parse the longest available operator from list",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "operator",
           "normalized": "[String]-\u003eParsecT a b c String",
@@ -1492,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSkip spaces, tabs, and comments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "skipSpace",
           "package": "language-bash",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "Skip spaces tabs and comments",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "skipSpace",
           "normalized": "ParsecT a b c()",
@@ -1518,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a subscript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "subscript",
           "package": "language-bash",
@@ -1528,6 +1657,7 @@
         "index": {
           "description": "Parse subscript",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "subscript",
           "package": "language-bash",
@@ -1541,6 +1671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse.Word",
           "name": "word",
           "package": "language-bash",
@@ -1551,6 +1682,7 @@
         "index": {
           "description": "Parse word",
           "hierarchy": "Language Bash Parse Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse.Word",
           "name": "word",
           "package": "language-bash",
@@ -1564,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBash script and input parsing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse",
           "name": "Parse",
           "package": "language-bash",
@@ -1573,6 +1706,7 @@
         "index": {
           "description": "Bash script and input parsing",
           "hierarchy": "Language Bash Parse",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse",
           "name": "Parse",
           "package": "language-bash",
@@ -1587,6 +1721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a script or input line into a (possibly empty) list of commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Parse",
           "name": "parse",
           "package": "language-bash",
@@ -1597,6 +1732,7 @@
         "index": {
           "description": "Parse script or input line into possibly empty list of commands",
           "hierarchy": "Language Bash Parse",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Parse",
           "name": "parse",
           "normalized": "SourceName-\u003eString-\u003eEither ParseError List",
@@ -1612,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePretty-printing of Bash scripts. This tries to stay close to the format\n used by the Bash builtin \u003ccode\u003edeclare -f\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Pretty",
           "name": "Pretty",
           "package": "language-bash",
@@ -1621,6 +1758,7 @@
         "index": {
           "description": "Pretty-printing of Bash scripts This tries to stay close to the format used by the Bash builtin declare",
           "hierarchy": "Language Bash Pretty",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Pretty",
           "name": "Pretty",
           "package": "language-bash",
@@ -1635,6 +1773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types which may be pretty-printed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Pretty",
           "name": "Pretty",
           "package": "language-bash",
@@ -1644,6 +1783,7 @@
         "index": {
           "description": "class of types which may be pretty-printed",
           "hierarchy": "Language Bash Pretty",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Pretty",
           "name": "Pretty",
           "package": "language-bash",
@@ -1658,6 +1798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print to a \u003ccode\u003e\u003ca\u003eDoc\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Pretty",
           "name": "pretty",
           "package": "language-bash",
@@ -1668,6 +1809,7 @@
         "index": {
           "description": "Pretty-print to Doc",
           "hierarchy": "Language Bash Pretty",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Pretty",
           "name": "pretty",
           "normalized": "a-\u003eDoc",
@@ -1683,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a list. By default, this separates each element with\n a space using \u003ccode\u003e\u003ca\u003ehsep\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Pretty",
           "name": "prettyList",
           "package": "language-bash",
@@ -1693,6 +1836,7 @@
         "index": {
           "description": "Pretty-print list By default this separates each element with space using hsep",
           "hierarchy": "Language Bash Pretty",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Pretty",
           "name": "prettyList",
           "normalized": "[a]-\u003eDoc",
@@ -1709,6 +1853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print to a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Pretty",
           "name": "prettyText",
           "package": "language-bash",
@@ -1719,6 +1864,7 @@
         "index": {
           "description": "Pretty-print to String",
           "hierarchy": "Language Bash Pretty",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Pretty",
           "name": "prettyText",
           "normalized": "a-\u003eString",
@@ -1735,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eShell script types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Syntax",
           "package": "language-bash",
@@ -1744,6 +1891,7 @@
         "index": {
           "description": "Shell script types",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Syntax",
           "package": "language-bash",
@@ -1758,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA right-associative list of pipelines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "AndOr",
           "package": "language-bash",
@@ -1767,6 +1916,7 @@
         "index": {
           "description": "right-associative list of pipelines",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "AndOr",
           "package": "language-bash",
@@ -1781,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Assign",
           "package": "language-bash",
@@ -1790,6 +1941,7 @@
         "index": {
           "description": "An assignment",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Assign",
           "package": "language-bash",
@@ -1804,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn assignment operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "AssignOp",
           "package": "language-bash",
@@ -1813,6 +1966,7 @@
         "index": {
           "description": "An assignment operator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "AssignOp",
           "package": "language-bash",
@@ -1827,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single case clause.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "CaseClause",
           "package": "language-bash",
@@ -1836,6 +1991,7 @@
         "index": {
           "description": "single case clause",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "CaseClause",
           "package": "language-bash",
@@ -1850,6 +2006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA case clause terminator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "CaseTerm",
           "package": "language-bash",
@@ -1859,6 +2016,7 @@
         "index": {
           "description": "case clause terminator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "CaseTerm",
           "package": "language-bash",
@@ -1873,6 +2031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bash command with redirections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Command",
           "package": "language-bash",
@@ -1882,6 +2041,7 @@
         "index": {
           "description": "Bash command with redirections",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Command",
           "package": "language-bash",
@@ -1896,6 +2056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA here document operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "HeredocOp",
           "package": "language-bash",
@@ -1905,6 +2066,7 @@
         "index": {
           "description": "here document operator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "HeredocOp",
           "package": "language-bash",
@@ -1919,6 +2081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA redirection file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "IODesc",
           "package": "language-bash",
@@ -1928,6 +2091,7 @@
         "index": {
           "description": "redirection file descriptor",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "IODesc",
           "package": "language-bash",
@@ -1942,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA compound list of statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "List",
           "package": "language-bash",
@@ -1951,6 +2116,7 @@
         "index": {
           "description": "compound list of statements",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "List",
           "package": "language-bash",
@@ -1965,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA statement terminator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ListTerm",
           "package": "language-bash",
@@ -1974,6 +2141,7 @@
         "index": {
           "description": "statement terminator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "ListTerm",
           "package": "language-bash",
@@ -1988,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA (possibly timed or inverted) pipeline, linked with \u003ccode\u003e|\u003c/code\u003e or \u003ccode\u003e|&\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Pipeline",
           "package": "language-bash",
@@ -1997,6 +2166,7 @@
         "index": {
           "description": "possibly timed or inverted pipeline linked with or",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Pipeline",
           "package": "language-bash",
@@ -2011,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe right side of an assignment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "RValue",
           "package": "language-bash",
@@ -2020,6 +2191,7 @@
         "index": {
           "description": "The right side of an assignment",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "RValue",
           "package": "language-bash",
@@ -2034,6 +2206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA redirection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Redir",
           "package": "language-bash",
@@ -2043,6 +2216,7 @@
         "index": {
           "description": "redirection",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Redir",
           "package": "language-bash",
@@ -2057,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA redirection operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "RedirOp",
           "package": "language-bash",
@@ -2066,6 +2241,7 @@
         "index": {
           "description": "redirection operator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "RedirOp",
           "package": "language-bash",
@@ -2080,6 +2256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bash command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ShellCommand",
           "package": "language-bash",
@@ -2089,6 +2266,7 @@
         "index": {
           "description": "Bash command",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "ShellCommand",
           "package": "language-bash",
@@ -2103,6 +2281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single statement in a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "language-bash",
@@ -2112,6 +2291,7 @@
         "index": {
           "description": "single statement in list",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "language-bash",
@@ -2126,6 +2306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e&&\u003c/code\u003e construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "And",
           "package": "language-bash",
@@ -2136,6 +2317,7 @@
         "index": {
           "description": "construct",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "And",
           "package": "language-bash",
@@ -2150,6 +2332,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e&\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "AndAppend",
           "package": "language-bash",
@@ -2159,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "AndAppend",
           "package": "language-bash",
@@ -2173,6 +2357,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e&\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "AndOut",
           "package": "language-bash",
@@ -2182,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "AndOut",
           "package": "language-bash",
@@ -2196,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Append",
           "package": "language-bash",
@@ -2205,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Append",
           "package": "language-bash",
@@ -2219,6 +2407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arithmetic expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Arith",
           "package": "language-bash",
@@ -2229,6 +2418,7 @@
         "index": {
           "description": "An arithmetic expression",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Arith",
           "package": "language-bash",
@@ -2243,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arithmetic \u003ccode\u003efor ((...))\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "ArithFor",
           "package": "language-bash",
@@ -2253,6 +2444,7 @@
         "index": {
           "description": "An arithmetic for command",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "ArithFor",
           "package": "language-bash",
@@ -2266,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Assign",
           "package": "language-bash",
@@ -2275,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Assign",
           "package": "language-bash",
@@ -2289,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe shell builtins \u003ccode\u003edeclare\u003c/code\u003e, \u003ccode\u003eeval\u003c/code\u003e, \u003ccode\u003eexport\u003c/code\u003e, \u003ccode\u003elocal\u003c/code\u003e, \u003ccode\u003ereadonly\u003c/code\u003e,\n and \u003ccode\u003etypeset\u003c/code\u003e can accept both assignments and words as arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "AssignBuiltin",
           "package": "language-bash",
@@ -2299,6 +2494,7 @@
         "index": {
           "description": "The shell builtins declare eval export local readonly and typeset can accept both assignments and words as arguments",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "AssignBuiltin",
           "normalized": "AssignBuiltin Word[Either Assign Word]",
@@ -2315,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Asynchronous",
           "package": "language-bash",
@@ -2324,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Asynchronous",
           "package": "language-bash",
@@ -2338,6 +2536,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e;;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Break",
           "package": "language-bash",
@@ -2347,6 +2546,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Break",
           "package": "language-bash",
@@ -2361,6 +2561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ecase\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Case",
           "package": "language-bash",
@@ -2371,6 +2572,7 @@
         "index": {
           "description": "case command",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Case",
           "normalized": "Case Word[CaseClause]",
@@ -2386,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "CaseClause",
           "package": "language-bash",
@@ -2395,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "CaseClause",
           "normalized": "CaseClause[Word]List CaseTerm",
@@ -2410,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Command",
           "package": "language-bash",
@@ -2419,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Command",
           "normalized": "Command ShellCommand[Redir]",
@@ -2435,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bash \u003ccode\u003e[[...]]\u003c/code\u003e conditional expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Cond",
           "package": "language-bash",
@@ -2445,6 +2652,7 @@
         "index": {
           "description": "Bash conditional expression",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Cond",
           "package": "language-bash",
@@ -2459,6 +2667,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e;;&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Continue",
           "package": "language-bash",
@@ -2468,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Continue",
           "package": "language-bash",
@@ -2482,6 +2692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA named coprocess.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Coproc",
           "package": "language-bash",
@@ -2492,6 +2703,7 @@
         "index": {
           "description": "named coprocess",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Coproc",
           "package": "language-bash",
@@ -2506,6 +2718,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e=\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Equals",
           "package": "language-bash",
@@ -2515,6 +2728,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Equals",
           "package": "language-bash",
@@ -2529,6 +2743,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e;&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "FallThrough",
           "package": "language-bash",
@@ -2538,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "FallThrough",
           "package": "language-bash",
@@ -2552,6 +2768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003efor \u003cem\u003ename\u003c/em\u003e in \u003cem\u003ewords\u003c/em\u003e\u003c/code\u003e command. If \u003ccode\u003ein \u003cem\u003ewords\u003c/em\u003e\u003c/code\u003e is absent,\n the word list defaults to \u003ccode\u003e\"$@\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "For",
           "package": "language-bash",
@@ -2562,6 +2779,7 @@
         "index": {
           "description": "for name in words command If in words is absent the word list defaults to",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "For",
           "normalized": "For String[Word]List",
@@ -2578,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function name and definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "FunctionDef",
           "package": "language-bash",
@@ -2588,6 +2807,7 @@
         "index": {
           "description": "function name and definition",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "FunctionDef",
           "package": "language-bash",
@@ -2602,6 +2822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e{...}\u003c/code\u003e list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Group",
           "package": "language-bash",
@@ -2612,6 +2833,7 @@
         "index": {
           "description": "list",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Group",
           "package": "language-bash",
@@ -2626,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Here",
           "package": "language-bash",
@@ -2635,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Here",
           "package": "language-bash",
@@ -2649,6 +2873,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "HereString",
           "package": "language-bash",
@@ -2658,6 +2883,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "HereString",
           "package": "language-bash",
@@ -2672,6 +2898,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c-\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "HereStrip",
           "package": "language-bash",
@@ -2681,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "HereStrip",
           "package": "language-bash",
@@ -2695,6 +2923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA here document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Heredoc",
           "package": "language-bash",
@@ -2705,6 +2934,7 @@
         "index": {
           "description": "here document",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Heredoc",
           "package": "language-bash",
@@ -2719,6 +2949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file descriptor number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "IONumber",
           "package": "language-bash",
@@ -2729,6 +2960,7 @@
         "index": {
           "description": "file descriptor number",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "IONumber",
           "package": "language-bash",
@@ -2743,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable \u003ccode\u003e{\u003cem\u003evarname\u003c/em\u003e}\u003c/code\u003e to allocate a file descriptor for.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "IOVar",
           "package": "language-bash",
@@ -2753,6 +2986,7 @@
         "index": {
           "description": "variable varname to allocate file descriptor for",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "IOVar",
           "package": "language-bash",
@@ -2767,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003eif\u003c/code\u003e command, with a predicate, consequent, and alternative.\n \u003ccode\u003eelif\u003c/code\u003e clauses are parsed as nested \u003ccode\u003eif\u003c/code\u003e statements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "If",
           "package": "language-bash",
@@ -2777,6 +3012,7 @@
         "index": {
           "description": "An if command with predicate consequent and alternative elif clauses are parsed as nested if statements",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "If",
           "package": "language-bash",
@@ -2791,6 +3027,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "In",
           "package": "language-bash",
@@ -2800,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "In",
           "package": "language-bash",
@@ -2814,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "InAnd",
           "package": "language-bash",
@@ -2823,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "InAnd",
           "package": "language-bash",
@@ -2837,6 +3077,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "InOut",
           "package": "language-bash",
@@ -2846,6 +3087,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "InOut",
           "package": "language-bash",
@@ -2860,6 +3102,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe last pipeline of a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Last",
           "package": "language-bash",
@@ -2870,6 +3113,7 @@
         "index": {
           "description": "The last pipeline of list",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Last",
           "package": "language-bash",
@@ -2883,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "List",
           "package": "language-bash",
@@ -2892,6 +3137,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "List",
           "normalized": "List[Statement]",
@@ -2908,6 +3154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e||\u003c/code\u003e construct.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Or",
           "package": "language-bash",
@@ -2918,6 +3165,7 @@
         "index": {
           "description": "construct",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Or",
           "package": "language-bash",
@@ -2932,6 +3180,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Out",
           "package": "language-bash",
@@ -2941,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Out",
           "package": "language-bash",
@@ -2955,6 +3205,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e&\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "OutAnd",
           "package": "language-bash",
@@ -2964,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "OutAnd",
           "package": "language-bash",
@@ -2978,6 +3230,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e|\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "OutOr",
           "package": "language-bash",
@@ -2987,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "OutOr",
           "package": "language-bash",
@@ -3000,6 +3254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Pipeline",
           "package": "language-bash",
@@ -3009,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Pipeline",
           "package": "language-bash",
@@ -3023,6 +3279,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e+=\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "PlusEquals",
           "package": "language-bash",
@@ -3032,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "PlusEquals",
           "package": "language-bash",
@@ -3046,6 +3304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn array assignment, as \u003ccode\u003e(subscript, word)\u003c/code\u003e pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "RArray",
           "package": "language-bash",
@@ -3056,6 +3315,7 @@
         "index": {
           "description": "An array assignment as subscript word pairs",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "RArray",
           "normalized": "RArray[(Maybe Word,Word)]",
@@ -3072,6 +3332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "RValue",
           "package": "language-bash",
@@ -3082,6 +3343,7 @@
         "index": {
           "description": "simple word",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "RValue",
           "package": "language-bash",
@@ -3096,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA redirection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Redir",
           "package": "language-bash",
@@ -3106,6 +3369,7 @@
         "index": {
           "description": "redirection",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Redir",
           "package": "language-bash",
@@ -3120,6 +3384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003eselect \u003cem\u003ename\u003c/em\u003e in \u003cem\u003ewords\u003c/em\u003e\u003c/code\u003e command. If \u003ccode\u003ein \u003cem\u003ewords\u003c/em\u003e\u003c/code\u003e is absent,\n the word list defaults to \u003ccode\u003e\"$@\"\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Select",
           "package": "language-bash",
@@ -3130,6 +3395,7 @@
         "index": {
           "description": "select name in words command If in words is absent the word list defaults to",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Select",
           "normalized": "Select String[Word]List",
@@ -3146,6 +3412,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e;\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Sequential",
           "package": "language-bash",
@@ -3155,6 +3422,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Sequential",
           "package": "language-bash",
@@ -3169,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple command consisting of assignments followed by words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "SimpleCommand",
           "package": "language-bash",
@@ -3179,6 +3448,7 @@
         "index": {
           "description": "simple command consisting of assignments followed by words",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "SimpleCommand",
           "normalized": "SimpleCommand[Assign][Word]",
@@ -3194,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "language-bash",
@@ -3203,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Statement",
           "package": "language-bash",
@@ -3217,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e(...)\u003c/code\u003e list, denoting a subshell.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Subshell",
           "package": "language-bash",
@@ -3227,6 +3500,7 @@
         "index": {
           "description": "list denoting subshell",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Subshell",
           "package": "language-bash",
@@ -3241,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003euntil\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "Until",
           "package": "language-bash",
@@ -3251,6 +3526,7 @@
         "index": {
           "description": "An until command",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "Until",
           "package": "language-bash",
@@ -3265,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003ewhile\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "While",
           "package": "language-bash",
@@ -3275,6 +3552,7 @@
         "index": {
           "description": "while command",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "While",
           "package": "language-bash",
@@ -3289,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of commands, separated by \u003ccode\u003e|\u003c/code\u003e, or \u003ccode\u003e|&\u003c/code\u003e.\n \u003ccode\u003ecommand1 |& command2\u003c/code\u003e is treated as a shorthand for\n \u003ccode\u003ecommand1 2\u003e&1 | command2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "commands",
           "package": "language-bash",
@@ -3299,6 +3578,7 @@
         "index": {
           "description": "list of commands separated by or command1 command2 is treated as shorthand for command1 command2",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "commands",
           "normalized": "[Command]",
@@ -3314,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe document itself, if the delimiter was quoted, no expansions\n are parsed. If the delimiter was not quoted, parameter, arithmetic\n and command substitutions take place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "hereDocument",
           "package": "language-bash",
@@ -3324,6 +3605,7 @@
         "index": {
           "description": "The document itself if the delimiter was quoted no expansions are parsed If the delimiter was not quoted parameter arithmetic and command substitutions take place",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "hereDocument",
           "package": "language-bash",
@@ -3338,6 +3620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe here document delimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "heredocDelim",
           "package": "language-bash",
@@ -3348,6 +3631,7 @@
         "index": {
           "description": "The here document delimiter",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "heredocDelim",
           "package": "language-bash",
@@ -3362,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the delimiter was quoted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "heredocDelimQuoted",
           "package": "language-bash",
@@ -3372,6 +3657,7 @@
         "index": {
           "description": "True if the delimiter was quoted",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "heredocDelimQuoted",
           "package": "language-bash",
@@ -3386,6 +3672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe here document operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "heredocOp",
           "package": "language-bash",
@@ -3396,6 +3683,7 @@
         "index": {
           "description": "The here document operator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "heredocOp",
           "package": "language-bash",
@@ -3410,6 +3698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the pipeline is inverted with \u003ccode\u003e!\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "inverted",
           "package": "language-bash",
@@ -3420,6 +3709,7 @@
         "index": {
           "description": "True if the pipeline is inverted with",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "inverted",
           "package": "language-bash",
@@ -3433,6 +3723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn optional file descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "redirDesc",
           "package": "language-bash",
@@ -3443,6 +3734,7 @@
         "index": {
           "description": "An optional file descriptor",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "redirDesc",
           "package": "language-bash",
@@ -3457,6 +3749,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe redirection operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "redirOp",
           "package": "language-bash",
@@ -3467,6 +3760,7 @@
         "index": {
           "description": "The redirection operator",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "redirOp",
           "package": "language-bash",
@@ -3481,6 +3775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe redirection target.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "redirTarget",
           "package": "language-bash",
@@ -3491,6 +3786,7 @@
         "index": {
           "description": "The redirection target",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "redirTarget",
           "package": "language-bash",
@@ -3505,6 +3801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the pipeline is timed with \u003ccode\u003etime\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "timed",
           "package": "language-bash",
@@ -3515,6 +3812,7 @@
         "index": {
           "description": "True if the pipeline is timed with time",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "timed",
           "package": "language-bash",
@@ -3528,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the pipeline is timed with the \u003ccode\u003e-p\u003c/code\u003e flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Syntax",
           "name": "timedPosix",
           "package": "language-bash",
@@ -3538,6 +3837,7 @@
         "index": {
           "description": "True if the pipeline is timed with the flag",
           "hierarchy": "Language Bash Syntax",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Syntax",
           "name": "timedPosix",
           "package": "language-bash",
@@ -3552,6 +3852,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBash words and substitutions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Word",
           "package": "language-bash",
@@ -3561,6 +3862,7 @@
         "index": {
           "description": "Bash words and substitutions",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Word",
           "package": "language-bash",
@@ -3575,6 +3877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternation operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "AltOp",
           "package": "language-bash",
@@ -3584,6 +3887,7 @@
         "index": {
           "description": "An alternation operator",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "AltOp",
           "package": "language-bash",
@@ -3598,6 +3902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA string direction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Direction",
           "package": "language-bash",
@@ -3607,6 +3912,7 @@
         "index": {
           "description": "string direction",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Direction",
           "package": "language-bash",
@@ -3621,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA letter case operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "LetterCaseOp",
           "package": "language-bash",
@@ -3630,6 +3937,7 @@
         "index": {
           "description": "letter case operator",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "LetterCaseOp",
           "package": "language-bash",
@@ -3644,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ParamSubst",
           "package": "language-bash",
@@ -3653,6 +3962,7 @@
         "index": {
           "description": "parameter substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ParamSubst",
           "package": "language-bash",
@@ -3667,6 +3977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter name an optional subscript.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Parameter",
           "package": "language-bash",
@@ -3676,6 +3987,7 @@
         "index": {
           "description": "parameter name an optional subscript",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Parameter",
           "package": "language-bash",
@@ -3690,6 +4002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ProcessSubstOp",
           "package": "language-bash",
@@ -3699,6 +4012,7 @@
         "index": {
           "description": "process substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ProcessSubstOp",
           "package": "language-bash",
@@ -3713,6 +4027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn individual unit of a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Span",
           "package": "language-bash",
@@ -3722,6 +4037,7 @@
         "index": {
           "description": "An individual unit of word",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Span",
           "package": "language-bash",
@@ -3736,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Bash word, broken up into logical spans.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Word",
           "package": "language-bash",
@@ -3745,6 +4062,7 @@
         "index": {
           "description": "Bash word broken up into logical spans",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Word",
           "package": "language-bash",
@@ -3759,6 +4077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA ANSI C string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ANSIC",
           "package": "language-bash",
@@ -3769,6 +4088,7 @@
         "index": {
           "description": "ANSI string",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ANSIC",
           "package": "language-bash",
@@ -3782,6 +4102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Alt",
           "package": "language-bash",
@@ -3791,6 +4112,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Alt",
           "package": "language-bash",
@@ -3805,6 +4127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'=', \u003ccode\u003e:=\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "AltAssign",
           "package": "language-bash",
@@ -3814,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "AltAssign",
           "package": "language-bash",
@@ -3828,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e:-\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "AltDefault",
           "package": "language-bash",
@@ -3837,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "AltDefault",
           "package": "language-bash",
@@ -3851,6 +4177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e?\u003c/code\u003e, \u003ccode\u003e:?\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "AltError",
           "package": "language-bash",
@@ -3860,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "AltError",
           "package": "language-bash",
@@ -3874,6 +4202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e:+\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "AltReplace",
           "package": "language-bash",
@@ -3883,6 +4212,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "AltReplace",
           "package": "language-bash",
@@ -3897,6 +4227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arithmetic substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ArithSubst",
           "package": "language-bash",
@@ -3907,6 +4238,7 @@
         "index": {
           "description": "An arithmetic substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ArithSubst",
           "package": "language-bash",
@@ -3920,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Back",
           "package": "language-bash",
@@ -3929,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Back",
           "package": "language-bash",
@@ -3943,6 +4277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA backquote-style command substitution.\n To extract the command string, \u003ccode\u003e\u003ca\u003eunquote\u003c/a\u003e\u003c/code\u003e the word inside.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Backquote",
           "package": "language-bash",
@@ -3953,6 +4288,7 @@
         "index": {
           "description": "backquote-style command substitution To extract the command string unquote the word inside",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Backquote",
           "package": "language-bash",
@@ -3966,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Bare",
           "package": "language-bash",
@@ -3975,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Bare",
           "package": "language-bash",
@@ -3988,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Brace",
           "package": "language-bash",
@@ -3997,6 +4336,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Brace",
           "package": "language-bash",
@@ -4011,6 +4351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA normal character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Char",
           "package": "language-bash",
@@ -4021,6 +4362,7 @@
         "index": {
           "description": "normal character",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Char",
           "package": "language-bash",
@@ -4035,6 +4377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA command substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "CommandSubst",
           "package": "language-bash",
@@ -4045,6 +4388,7 @@
         "index": {
           "description": "command substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "CommandSubst",
           "package": "language-bash",
@@ -4058,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Delete",
           "package": "language-bash",
@@ -4067,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Delete",
           "package": "language-bash",
@@ -4081,6 +4427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA double-quoted string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Double",
           "package": "language-bash",
@@ -4091,6 +4438,7 @@
         "index": {
           "description": "double-quoted string",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Double",
           "package": "language-bash",
@@ -4105,6 +4453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn escaped character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Escape",
           "package": "language-bash",
@@ -4115,6 +4464,7 @@
         "index": {
           "description": "An escaped character",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Escape",
           "package": "language-bash",
@@ -4128,6 +4478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Front",
           "package": "language-bash",
@@ -4137,6 +4488,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Front",
           "package": "language-bash",
@@ -4150,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Indices",
           "package": "language-bash",
@@ -4159,6 +4512,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Indices",
           "package": "language-bash",
@@ -4172,6 +4526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Length",
           "package": "language-bash",
@@ -4181,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Length",
           "package": "language-bash",
@@ -4194,6 +4550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "LetterCase",
           "package": "language-bash",
@@ -4203,6 +4560,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "LetterCase",
           "package": "language-bash",
@@ -4217,6 +4575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA locale-translated string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Locale",
           "package": "language-bash",
@@ -4227,6 +4586,7 @@
         "index": {
           "description": "locale-translated string",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Locale",
           "package": "language-bash",
@@ -4241,6 +4601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parameter substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ParamSubst",
           "package": "language-bash",
@@ -4251,6 +4612,7 @@
         "index": {
           "description": "parameter substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ParamSubst",
           "package": "language-bash",
@@ -4264,6 +4626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Parameter",
           "package": "language-bash",
@@ -4273,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Parameter",
           "package": "language-bash",
@@ -4286,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Prefix",
           "package": "language-bash",
@@ -4295,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Prefix",
           "package": "language-bash",
@@ -4309,6 +4675,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003c\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ProcessIn",
           "package": "language-bash",
@@ -4318,6 +4685,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ProcessIn",
           "package": "language-bash",
@@ -4332,6 +4700,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e\u003e\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ProcessOut",
           "package": "language-bash",
@@ -4341,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ProcessOut",
           "package": "language-bash",
@@ -4355,6 +4725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA process substitution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ProcessSubst",
           "package": "language-bash",
@@ -4365,6 +4736,7 @@
         "index": {
           "description": "process substitution",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ProcessSubst",
           "package": "language-bash",
@@ -4378,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Replace",
           "package": "language-bash",
@@ -4387,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Replace",
           "package": "language-bash",
@@ -4401,6 +4775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single-quoted string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Single",
           "package": "language-bash",
@@ -4411,6 +4786,7 @@
         "index": {
           "description": "single-quoted string",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Single",
           "package": "language-bash",
@@ -4424,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "Substring",
           "package": "language-bash",
@@ -4433,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "Substring",
           "package": "language-bash",
@@ -4446,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ToLower",
           "package": "language-bash",
@@ -4455,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ToLower",
           "package": "language-bash",
@@ -4468,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "ToUpper",
           "package": "language-bash",
@@ -4477,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "ToUpper",
           "package": "language-bash",
@@ -4491,6 +4873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "altOp",
           "package": "language-bash",
@@ -4501,6 +4884,7 @@
         "index": {
           "description": "The operator",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "altOp",
           "package": "language-bash",
@@ -4515,6 +4899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe alternate word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "altWord",
           "package": "language-bash",
@@ -4525,6 +4910,7 @@
         "index": {
           "description": "The alternate word",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "altWord",
           "package": "language-bash",
@@ -4539,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert all characters, not only the starts of words.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "convertAll",
           "package": "language-bash",
@@ -4549,6 +4936,7 @@
         "index": {
           "description": "Convert all characters not only the starts of words",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "convertAll",
           "package": "language-bash",
@@ -4563,6 +4951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to delete from.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "deleteDirection",
           "package": "language-bash",
@@ -4573,6 +4962,7 @@
         "index": {
           "description": "Where to delete from",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "deleteDirection",
           "package": "language-bash",
@@ -4587,6 +4977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a string to an unquoted word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "fromString",
           "package": "language-bash",
@@ -4597,6 +4988,7 @@
         "index": {
           "description": "Convert string to an unquoted word",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "fromString",
           "normalized": "String-\u003eWord",
@@ -4613,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse indirect expansion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "indirect",
           "package": "language-bash",
@@ -4623,6 +5016,7 @@
         "index": {
           "description": "Use indirect expansion",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "indirect",
           "package": "language-bash",
@@ -4636,6 +5030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to lowercase, not uppercase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "letterCaseOp",
           "package": "language-bash",
@@ -4646,6 +5041,7 @@
         "index": {
           "description": "Convert to lowercase not uppercase",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "letterCaseOp",
           "package": "language-bash",
@@ -4660,6 +5056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace the longest match instead of the shortest match.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "longest",
           "package": "language-bash",
@@ -4670,6 +5067,7 @@
         "index": {
           "description": "Replace the longest match instead of the shortest match",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "longest",
           "package": "language-bash",
@@ -4683,6 +5081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither \u003ccode\u003e@\u003c/code\u003e of \u003ccode\u003e*\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "modifier",
           "package": "language-bash",
@@ -4693,6 +5092,7 @@
         "index": {
           "description": "Either of",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "modifier",
           "package": "language-bash",
@@ -4706,6 +5106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe parameter to substitute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "parameter",
           "package": "language-bash",
@@ -4716,6 +5117,7 @@
         "index": {
           "description": "The parameter to substitute",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "parameter",
           "package": "language-bash",
@@ -4729,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe replacement pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "pattern",
           "package": "language-bash",
@@ -4739,6 +5142,7 @@
         "index": {
           "description": "The replacement pattern",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "pattern",
           "package": "language-bash",
@@ -4752,6 +5156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe variable prefix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "prefix",
           "package": "language-bash",
@@ -4762,6 +5167,7 @@
         "index": {
           "description": "The variable prefix",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "prefix",
           "package": "language-bash",
@@ -4775,6 +5181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace all occurences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "replaceAll",
           "package": "language-bash",
@@ -4785,6 +5192,7 @@
         "index": {
           "description": "Replace all occurences",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "replaceAll",
           "package": "language-bash",
@@ -4799,6 +5207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhere to replace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "replaceDirection",
           "package": "language-bash",
@@ -4809,6 +5218,7 @@
         "index": {
           "description": "Where to replace",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "replaceDirection",
           "package": "language-bash",
@@ -4823,6 +5233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe replacement string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "replacement",
           "package": "language-bash",
@@ -4833,6 +5244,7 @@
         "index": {
           "description": "The replacement string",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "replacement",
           "package": "language-bash",
@@ -4846,6 +5258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe substring length, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "subLength",
           "package": "language-bash",
@@ -4856,6 +5269,7 @@
         "index": {
           "description": "The substring length if any",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "subLength",
           "package": "language-bash",
@@ -4870,6 +5284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe substring offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "subOffset",
           "package": "language-bash",
@@ -4880,6 +5295,7 @@
         "index": {
           "description": "The substring offset",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "subOffset",
           "package": "language-bash",
@@ -4894,6 +5310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest for both existence and null values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "testNull",
           "package": "language-bash",
@@ -4904,6 +5321,7 @@
         "index": {
           "description": "Test for both existence and null values",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "testNull",
           "package": "language-bash",
@@ -4918,6 +5336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all quoting characters from a word.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:04:47 UTC 2014",
           "module": "Language.Bash.Word",
           "name": "unquote",
           "package": "language-bash",
@@ -4928,6 +5347,7 @@
         "index": {
           "description": "Remove all quoting characters from word",
           "hierarchy": "Language Bash Word",
+          "indexed": "2014-03-11T19:04:47",
           "module": "Language.Bash.Word",
           "name": "unquote",
           "normalized": "Word-\u003eString",

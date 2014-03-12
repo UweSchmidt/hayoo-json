@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dot2graphml"
+        "phrase": "dot2graphml",
+        "type": "phrase"
       },
       "type": "context"
     }

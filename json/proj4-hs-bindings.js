@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "proj4-hs-bindings"
+        "phrase": "proj4-hs-bindings",
+        "type": "phrase"
       },
       "type": "context"
     }

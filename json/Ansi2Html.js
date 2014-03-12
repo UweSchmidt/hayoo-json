@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Ansi2Html"
+        "phrase": "Ansi2Html",
+        "type": "phrase"
       },
       "type": "context"
     }

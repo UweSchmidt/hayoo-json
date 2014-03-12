@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "agda-server"
+        "phrase": "agda-server",
+        "type": "phrase"
       },
       "type": "context"
     }

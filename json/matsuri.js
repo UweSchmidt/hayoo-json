@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "matsuri"
+        "phrase": "matsuri",
+        "type": "phrase"
       },
       "type": "context"
     }

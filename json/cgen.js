@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cgen"
+        "phrase": "cgen",
+        "type": "phrase"
       },
       "type": "context"
     }

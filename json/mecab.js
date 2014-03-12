@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mecab"
+        "phrase": "mecab",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "MeCab",
           "package": "mecab",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "MeCab",
           "package": "mecab",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "MeCab",
           "package": "mecab",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "MeCab",
           "package": "mecab",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "MeCabError",
           "package": "mecab",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "MeCabError",
           "package": "mecab",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "MeCabString",
           "package": "mecab",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "MeCabString",
           "package": "mecab",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "Node",
           "package": "mecab",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "Node",
           "package": "mecab",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "Stat",
           "package": "mecab",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "Stat",
           "package": "mecab",
@@ -145,6 +157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual node representing a beginning of the sentence\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "BOS",
           "package": "mecab",
@@ -155,6 +168,7 @@
         "index": {
           "description": "Virtual node representing beginning of the sentence",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "BOS",
           "package": "mecab",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual node representing a end of the N-best enumeration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "EON",
           "package": "mecab",
@@ -179,6 +194,7 @@
         "index": {
           "description": "Virtual node representing end of the N-best enumeration",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "EON",
           "package": "mecab",
@@ -193,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVirtual node representing a end of the N-best enumeration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "EOS",
           "package": "mecab",
@@ -203,6 +220,7 @@
         "index": {
           "description": "Virtual node representing end of the N-best enumeration",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "EOS",
           "package": "mecab",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "MeCabError",
           "package": "mecab",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "MeCabError",
           "package": "mecab",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal node defined in the dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "NOR",
           "package": "mecab",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Normal node defined in the dictionary",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "NOR",
           "package": "mecab",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "Node",
           "package": "mecab",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "Node",
           "package": "mecab",
@@ -285,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnknown node not defined in the dictionary\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "UNK",
           "package": "mecab",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Unknown node not defined in the dictionary",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "UNK",
           "package": "mecab",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "fromBS",
           "package": "mecab",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "fromBS",
           "normalized": "ByteString-\u003ea",
@@ -332,6 +360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "getAllMorphs",
           "package": "mecab",
@@ -341,6 +370,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "getAllMorphs",
           "normalized": "MeCab-\u003eIO Int",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "getLatticeLevel",
           "package": "mecab",
@@ -365,6 +396,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "getLatticeLevel",
           "normalized": "MeCab-\u003eIO Int",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "getPartial",
           "package": "mecab",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "getPartial",
           "normalized": "MeCab-\u003eIO Bool",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "getTheta",
           "package": "mecab",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "getTheta",
           "normalized": "MeCab-\u003eIO Double",
@@ -429,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain next result as a string format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nBestNext",
           "package": "mecab",
@@ -439,6 +476,7 @@
         "index": {
           "description": "Obtain next result as string format",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nBestNext",
           "normalized": "MeCab-\u003eIO(Maybe a)",
@@ -455,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain next result as a nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nBestNextNodes",
           "package": "mecab",
@@ -465,6 +504,7 @@
         "index": {
           "description": "Obtain next result as nodes",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nBestNextNodes",
           "normalized": "MeCab-\u003eIO(Maybe[Node a])",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializing MeCab by passing command-line args\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "new",
           "package": "mecab",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Initializing MeCab by passing command-line args",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "new",
           "normalized": "[String]-\u003eIO MeCab",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializing MeCab by passing concatenated command-line args\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "new2",
           "package": "mecab",
@@ -516,6 +559,7 @@
         "index": {
           "description": "Initializing MeCab by passing concatenated command-line args",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "new2",
           "normalized": "String-\u003eIO MeCab",
@@ -531,6 +575,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward accumulative log summation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeAlpha",
           "package": "mecab",
@@ -541,6 +586,7 @@
         "index": {
           "description": "Forward accumulative log summation",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeAlpha",
           "package": "mecab",
@@ -555,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebackward accumulative log summation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeBeta",
           "package": "mecab",
@@ -565,6 +612,7 @@
         "index": {
           "description": "backward accumulative log summation",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeBeta",
           "package": "mecab",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCharacter type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeCharType",
           "package": "mecab",
@@ -589,6 +638,7 @@
         "index": {
           "description": "Character type",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeCharType",
           "package": "mecab",
@@ -603,6 +653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBest accumulative cost from bos node to this node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeCost",
           "package": "mecab",
@@ -613,6 +664,7 @@
         "index": {
           "description": "Best accumulative cost from bos node to this node",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeCost",
           "package": "mecab",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeature string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeFeature",
           "package": "mecab",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Feature string",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeFeature",
           "package": "mecab",
@@ -651,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique node id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeId",
           "package": "mecab",
@@ -661,6 +716,7 @@
         "index": {
           "description": "Unique node id",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeId",
           "package": "mecab",
@@ -675,6 +731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs this node best?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeIsBest",
           "package": "mecab",
@@ -685,6 +742,7 @@
         "index": {
           "description": "Is this node best",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeIsBest",
           "package": "mecab",
@@ -699,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft attribute id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeLcAttr",
           "package": "mecab",
@@ -709,6 +768,7 @@
         "index": {
           "description": "Left attribute id",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeLcAttr",
           "package": "mecab",
@@ -723,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnique part of speech id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodePosid",
           "package": "mecab",
@@ -733,6 +794,7 @@
         "index": {
           "description": "Unique part of speech id",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodePosid",
           "package": "mecab",
@@ -747,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emarginal probability\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeProb",
           "package": "mecab",
@@ -757,6 +820,7 @@
         "index": {
           "description": "marginal probability",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeProb",
           "package": "mecab",
@@ -771,6 +835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight attribute id\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeRcAttr",
           "package": "mecab",
@@ -781,6 +846,7 @@
         "index": {
           "description": "Right attribute id",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeRcAttr",
           "package": "mecab",
@@ -795,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUength of the surface form including white space before the morph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeRlength",
           "package": "mecab",
@@ -805,6 +872,7 @@
         "index": {
           "description": "Uength of the surface form including white space before the morph",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeRlength",
           "package": "mecab",
@@ -819,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus of this model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeStat",
           "package": "mecab",
@@ -829,6 +898,7 @@
         "index": {
           "description": "Status of this model",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeStat",
           "package": "mecab",
@@ -843,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSurface string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeSurface",
           "package": "mecab",
@@ -853,6 +924,7 @@
         "index": {
           "description": "Surface string",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeSurface",
           "package": "mecab",
@@ -867,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWord cost\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "nodeWcost",
           "package": "mecab",
@@ -877,6 +950,7 @@
         "index": {
           "description": "Word cost",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "nodeWcost",
           "package": "mecab",
@@ -891,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse given string and obtain results as a string format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "parse",
           "package": "mecab",
@@ -901,6 +976,7 @@
         "index": {
           "description": "Parse given string and obtain results as string format",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "parse",
           "normalized": "MeCab-\u003ea-\u003eIO a",
@@ -916,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse given string and obtain whole N-best results as a string format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "parseNBest",
           "package": "mecab",
@@ -926,6 +1003,7 @@
         "index": {
           "description": "Parse given string and obtain whole N-best results as string format",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "parseNBest",
           "normalized": "MeCab-\u003eInt-\u003ea-\u003eIO a",
@@ -942,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse given string and prepare obtaining N-best results\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "parseNBestInit",
           "package": "mecab",
@@ -952,6 +1031,7 @@
         "index": {
           "description": "Parse given string and prepare obtaining N-best results",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "parseNBestInit",
           "normalized": "MeCab-\u003ea-\u003eIO()",
@@ -968,6 +1048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse given string and obtain results as a nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "parseToNodes",
           "package": "mecab",
@@ -978,6 +1059,7 @@
         "index": {
           "description": "Parse given string and obtain results as nodes",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "parseToNodes",
           "normalized": "MeCab-\u003ea-\u003eIO[Node a]",
@@ -993,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "setAllMorphs",
           "package": "mecab",
@@ -1002,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "setAllMorphs",
           "normalized": "MeCab-\u003eInt-\u003eIO()",
@@ -1017,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "setLatticeLevel",
           "package": "mecab",
@@ -1026,6 +1111,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "setLatticeLevel",
           "normalized": "MeCab-\u003eInt-\u003eIO()",
@@ -1041,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "setPartial",
           "package": "mecab",
@@ -1050,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "setPartial",
           "normalized": "MeCab-\u003eBool-\u003eIO()",
@@ -1065,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "setTheta",
           "package": "mecab",
@@ -1074,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "setTheta",
           "normalized": "MeCab-\u003eDouble-\u003eIO()",
@@ -1089,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "toBS",
           "package": "mecab",
@@ -1098,6 +1189,7 @@
         },
         "index": {
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "toBS",
           "normalized": "a-\u003eByteString",
@@ -1114,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet MeCab version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:50 UTC 2014",
           "module": "Text.MeCab",
           "name": "version",
           "package": "mecab",
@@ -1124,6 +1217,7 @@
         "index": {
           "description": "Get MeCab version",
           "hierarchy": "Text MeCab",
+          "indexed": "2014-03-11T19:15:50",
           "module": "Text.MeCab",
           "name": "version",
           "package": "mecab",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "spreadsheet"
+        "phrase": "spreadsheet",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "Spreadsheet",
           "package": "spreadsheet",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "Spreadsheet",
           "package": "spreadsheet",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA spreadsheet is a list of lines,\neach line consists of cells,\nand each cell is a string.\nIdeally, spreadsheets read from a CSV file\nhave lines with the same number of cells per line.\nHowever, we cannot assert this,\nand thus we parse the lines as they come in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "T",
           "package": "spreadsheet",
@@ -49,6 +52,7 @@
         "index": {
           "description": "spreadsheet is list of lines each line consists of cells and each cell is string Ideally spreadsheets read from CSV file have lines with the same number of cells per line However we cannot assert this and thus we parse the lines as they come in",
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "T",
           "package": "spreadsheet",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "UserMessage",
           "package": "spreadsheet",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "UserMessage",
           "package": "spreadsheet",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromString qm sep text\u003c/code\u003e parses \u003ccode\u003etext\u003c/code\u003e into a spreadsheet,\nusing the quotation character \u003ccode\u003eqm\u003c/code\u003e and the separator character \u003ccode\u003esep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "fromString",
           "package": "spreadsheet",
@@ -93,6 +100,7 @@
         "index": {
           "description": "fromString qm sep text parses text into spreadsheet using the quotation character qm and the separator character sep",
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "fromString",
           "normalized": "Char-\u003eChar-\u003eString-\u003eExceptional UserMessage T",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a quick hack.\nIt does neither handle field nor line separators within quoted fields.\nYou must provide well-formed CSV content\nwithout field and line separators within quotations.\nEverything else yields an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "fromStringSimple",
           "package": "spreadsheet",
@@ -119,6 +128,7 @@
         "index": {
           "description": "This is quick hack It does neither handle field nor line separators within quoted fields You must provide well-formed CSV content without field and line separators within quotations Everything else yields an error",
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "fromStringSimple",
           "normalized": "Char-\u003eChar-\u003eString-\u003eT",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromString qm sep text\u003c/code\u003e parses \u003ccode\u003etext\u003c/code\u003e into a spreadsheet\nand additionally returns text that follows after CSV formatted data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "fromStringWithRemainder",
           "package": "spreadsheet",
@@ -145,6 +156,7 @@
         "index": {
           "description": "fromString qm sep text parses text into spreadsheet and additionally returns text that follows after CSV formatted data",
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "fromStringWithRemainder",
           "normalized": "Char-\u003eChar-\u003eString-\u003eExceptional UserMessage(T,String)",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "toString",
           "package": "spreadsheet",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "toString",
           "normalized": "Char-\u003eChar-\u003eT-\u003eString",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:54 UTC 2014",
           "module": "Data.Spreadsheet",
           "name": "toStringSimple",
           "package": "spreadsheet",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data Spreadsheet",
+          "indexed": "2014-03-11T20:08:54",
           "module": "Data.Spreadsheet",
           "name": "toStringSimple",
           "normalized": "Char-\u003eChar-\u003eT-\u003eString",

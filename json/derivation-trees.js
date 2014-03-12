@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derivation-trees"
+        "phrase": "derivation-trees",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Basics",
           "package": "derivation-trees",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Basics",
           "package": "derivation-trees",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Alignment",
           "package": "derivation-trees",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Alignment",
           "package": "derivation-trees",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "LineStyle",
           "package": "derivation-trees",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "LineStyle",
           "package": "derivation-trees",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Link",
           "package": "derivation-trees",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Link",
           "package": "derivation-trees",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "TeX",
           "package": "derivation-trees",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "TeX",
           "package": "derivation-trees",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "CenterA",
           "package": "derivation-trees",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "CenterA",
           "package": "derivation-trees",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Dashed",
           "package": "derivation-trees",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Dashed",
           "package": "derivation-trees",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eautomatic delaying\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Delayed",
           "package": "derivation-trees",
@@ -178,6 +193,7 @@
         "index": {
           "description": "automatic delaying",
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Delayed",
           "package": "derivation-trees",
@@ -192,6 +208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetach the derivation as another figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Detached",
           "package": "derivation-trees",
@@ -202,6 +219,7 @@
         "index": {
           "description": "Detach the derivation as another figure",
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Detached",
           "package": "derivation-trees",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Dotted",
           "package": "derivation-trees",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Dotted",
           "package": "derivation-trees",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Double",
           "package": "derivation-trees",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Double",
           "package": "derivation-trees",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "LeftA",
           "package": "derivation-trees",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "LeftA",
           "package": "derivation-trees",
@@ -282,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegular link\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Link",
           "package": "derivation-trees",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Regular link",
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Link",
           "package": "derivation-trees",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "None",
           "package": "derivation-trees",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "None",
           "package": "derivation-trees",
@@ -327,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "RightA",
           "package": "derivation-trees",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "RightA",
           "package": "derivation-trees",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Simple",
           "package": "derivation-trees",
@@ -358,6 +389,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Simple",
           "package": "derivation-trees",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "TeXDotted",
           "package": "derivation-trees",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "TeXDotted",
           "package": "derivation-trees",
@@ -416,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "Waved",
           "package": "derivation-trees",
@@ -425,6 +460,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "Waved",
           "package": "derivation-trees",
@@ -438,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "align",
           "package": "derivation-trees",
@@ -447,6 +484,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "align",
           "package": "derivation-trees",
@@ -459,6 +497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "defaultLink",
           "package": "derivation-trees",
@@ -468,6 +507,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "defaultLink",
           "package": "derivation-trees",
@@ -481,6 +521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "ident",
           "package": "derivation-trees",
@@ -490,6 +531,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "ident",
           "package": "derivation-trees",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "label",
           "package": "derivation-trees",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "label",
           "package": "derivation-trees",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "steps",
           "package": "derivation-trees",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "steps",
           "package": "derivation-trees",
@@ -544,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "style",
           "package": "derivation-trees",
@@ -553,6 +600,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "style",
           "package": "derivation-trees",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.Basics",
           "name": "void",
           "package": "derivation-trees",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees Basics",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.Basics",
           "name": "void",
           "normalized": "TeX-\u003eBool",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "CPTS",
           "package": "derivation-trees",
@@ -596,6 +647,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "CPTS",
           "package": "derivation-trees",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Binding",
           "package": "derivation-trees",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Binding",
           "package": "derivation-trees",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Colour",
           "package": "derivation-trees",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Colour",
           "package": "derivation-trees",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Ctx",
           "package": "derivation-trees",
@@ -659,6 +716,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Ctx",
           "package": "derivation-trees",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Drv",
           "package": "derivation-trees",
@@ -680,6 +739,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Drv",
           "package": "derivation-trees",
@@ -693,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Env",
           "package": "derivation-trees",
@@ -701,6 +762,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Env",
           "package": "derivation-trees",
@@ -714,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Jug",
           "package": "derivation-trees",
@@ -722,6 +785,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Jug",
           "package": "derivation-trees",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Name",
           "package": "derivation-trees",
@@ -743,6 +808,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Name",
           "package": "derivation-trees",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Sort",
           "package": "derivation-trees",
@@ -764,6 +831,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Sort",
           "package": "derivation-trees",
@@ -777,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "TeXable",
           "package": "derivation-trees",
@@ -785,6 +854,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "TeXable",
           "package": "derivation-trees",
@@ -798,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Term",
           "package": "derivation-trees",
@@ -806,6 +877,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Term",
           "package": "derivation-trees",
@@ -819,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Unifyable",
           "package": "derivation-trees",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Unifyable",
           "package": "derivation-trees",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "V",
           "package": "derivation-trees",
@@ -848,6 +923,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "V",
           "package": "derivation-trees",
@@ -860,6 +936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "(+:)",
           "package": "derivation-trees",
@@ -869,6 +946,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "(+:) +:",
           "normalized": "Binding-\u003eEnv-\u003eEnv",
@@ -883,6 +961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "(===)",
           "package": "derivation-trees",
@@ -892,6 +971,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "(===) ===",
           "normalized": "a-\u003ea-\u003eBool",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": ":-",
           "package": "derivation-trees",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": ":-",
           "normalized": "V-\u003eTerm-\u003eBinding",
@@ -929,6 +1011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Ab",
           "package": "derivation-trees",
@@ -938,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Ab",
           "normalized": "Sort-\u003eDrv-\u003eDrv-\u003eDrv",
@@ -953,6 +1037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "An",
           "package": "derivation-trees",
@@ -962,6 +1047,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "An",
           "normalized": "(Derivation-\u003eDerivation)-\u003eDrv-\u003eDrv",
@@ -977,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Ap",
           "package": "derivation-trees",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Ap",
           "normalized": "Binding-\u003eDrv-\u003eDrv-\u003eDrv",
@@ -1001,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "App",
           "package": "derivation-trees",
@@ -1010,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "App",
           "normalized": "Colour-\u003eTerm-\u003eTerm-\u003eTerm",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "ApplLhs",
           "package": "derivation-trees",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "ApplLhs",
           "package": "derivation-trees",
@@ -1047,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "ApplRhs",
           "package": "derivation-trees",
@@ -1056,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "ApplRhs",
           "package": "derivation-trees",
@@ -1069,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "ArrowLhs",
           "package": "derivation-trees",
@@ -1078,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "ArrowLhs",
           "package": "derivation-trees",
@@ -1091,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Ax",
           "package": "derivation-trees",
@@ -1100,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Ax",
           "package": "derivation-trees",
@@ -1113,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Base",
           "package": "derivation-trees",
@@ -1122,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Base",
           "normalized": "Name-\u003eBinding",
@@ -1137,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "BinderRhs",
           "package": "derivation-trees",
@@ -1146,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "BinderRhs",
           "package": "derivation-trees",
@@ -1159,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Co",
           "package": "derivation-trees",
@@ -1168,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Co",
           "normalized": "Sort-\u003eTerm-\u003eDrv-\u003eDrv-\u003eDrv",
@@ -1183,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "ColonRhs",
           "package": "derivation-trees",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "ColonRhs",
           "package": "derivation-trees",
@@ -1205,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Con",
           "package": "derivation-trees",
@@ -1214,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Con",
           "normalized": "Name-\u003eTerm",
@@ -1229,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Jug",
           "package": "derivation-trees",
@@ -1238,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Jug",
           "package": "derivation-trees",
@@ -1251,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Lam",
           "package": "derivation-trees",
@@ -1260,6 +1371,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Lam",
           "normalized": "Colour-\u003eBinding-\u003eTerm-\u003eTerm",
@@ -1275,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Ln",
           "package": "derivation-trees",
@@ -1284,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Ln",
           "normalized": "Link-\u003eDrv-\u003eDrv",
@@ -1299,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Many",
           "package": "derivation-trees",
@@ -1308,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Many",
           "normalized": "Term-\u003eTerm",
@@ -1323,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Mult",
           "package": "derivation-trees",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Mult",
           "normalized": "Binding-\u003eBinding",
@@ -1347,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Pi",
           "package": "derivation-trees",
@@ -1356,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Pi",
           "normalized": "Colour-\u003eBinding-\u003eTerm-\u003eTerm",
@@ -1371,6 +1491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Pr",
           "package": "derivation-trees",
@@ -1380,6 +1501,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Pr",
           "normalized": "Colour-\u003e(Sort,Sort)-\u003eDrv-\u003eDrv-\u003eDrv",
@@ -1395,6 +1517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Sor",
           "package": "derivation-trees",
@@ -1404,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Sor",
           "normalized": "Sort-\u003eTerm",
@@ -1419,6 +1543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "St",
           "package": "derivation-trees",
@@ -1428,6 +1553,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "St",
           "normalized": "Sort-\u003eDrv-\u003eDrv",
@@ -1443,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Sub",
           "package": "derivation-trees",
@@ -1452,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Sub",
           "normalized": "Term-\u003eBinding-\u003eTerm",
@@ -1467,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "SubsLhs",
           "package": "derivation-trees",
@@ -1476,6 +1605,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "SubsLhs",
           "package": "derivation-trees",
@@ -1489,6 +1619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "TopLvl",
           "package": "derivation-trees",
@@ -1498,6 +1629,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "TopLvl",
           "package": "derivation-trees",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Unbound",
           "package": "derivation-trees",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Unbound",
           "package": "derivation-trees",
@@ -1533,6 +1667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "V",
           "package": "derivation-trees",
@@ -1542,6 +1677,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "V",
           "package": "derivation-trees",
@@ -1554,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Var",
           "package": "derivation-trees",
@@ -1563,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Var",
           "normalized": "Name-\u003eTerm",
@@ -1578,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "Wk",
           "package": "derivation-trees",
@@ -1587,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "Wk",
           "normalized": "Int-\u003eSort-\u003eDrv-\u003eDrv-\u003eDrv",
@@ -1602,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "abort",
           "package": "derivation-trees",
@@ -1611,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "abort",
           "package": "derivation-trees",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "bToT",
           "package": "derivation-trees",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "bToT",
           "normalized": "Binding-\u003eTerm",
@@ -1647,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "check",
           "package": "derivation-trees",
@@ -1656,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "check",
           "normalized": "Bool-\u003eString-\u003ea-\u003ea",
@@ -1670,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "col",
           "package": "derivation-trees",
@@ -1679,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "col",
           "normalized": "Colour-\u003eString-\u003e[TeX]-\u003eTeX",
@@ -1693,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "dS",
           "package": "derivation-trees",
@@ -1702,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "dS",
           "normalized": "(Name,Term)-\u003eTerm-\u003eTerm",
@@ -1716,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "delay",
           "package": "derivation-trees",
@@ -1725,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "delay",
           "normalized": "Alignment-\u003eInt-\u003eDrv-\u003eDrv",
@@ -1739,6 +1891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "env",
           "package": "derivation-trees",
@@ -1748,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "env",
           "package": "derivation-trees",
@@ -1760,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "halt",
           "package": "derivation-trees",
@@ -1769,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "halt",
           "normalized": "String-\u003eDrv",
@@ -1783,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "havePrn",
           "package": "derivation-trees",
@@ -1792,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "havePrn",
           "normalized": "Ctx-\u003eTerm-\u003eBool",
@@ -1807,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interp",
           "package": "derivation-trees",
@@ -1816,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interp",
           "normalized": "Drv-\u003eJug-\u003eDerivation",
@@ -1830,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpA",
           "package": "derivation-trees",
@@ -1839,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpA",
           "normalized": "Term-\u003eTerm-\u003e(TeX,TeX)",
@@ -1853,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpB",
           "package": "derivation-trees",
@@ -1862,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpB",
           "normalized": "Binding-\u003eTeX",
@@ -1876,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpB'",
           "package": "derivation-trees",
@@ -1885,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpB'",
           "normalized": "TeX-\u003eBinding-\u003eTeX",
@@ -1900,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpE",
           "package": "derivation-trees",
@@ -1909,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpE",
           "normalized": "Env-\u003e[TeX]",
@@ -1923,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpJ",
           "package": "derivation-trees",
@@ -1932,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpJ",
           "normalized": "Jug-\u003eTeX",
@@ -1946,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpT",
           "package": "derivation-trees",
@@ -1955,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpT",
           "normalized": "Ctx-\u003eTerm-\u003eTeX",
@@ -1969,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "interpV",
           "package": "derivation-trees",
@@ -1978,6 +2151,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "interpV",
           "normalized": "V-\u003eTeX",
@@ -1992,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "jug'",
           "package": "derivation-trees",
@@ -2001,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "jug'",
           "normalized": "Term-\u003eSort-\u003eEnv-\u003eJug",
@@ -2015,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "named",
           "package": "derivation-trees",
@@ -2024,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "named",
           "normalized": "String-\u003eDrv-\u003eDrv",
@@ -2038,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "rebind",
           "package": "derivation-trees",
@@ -2047,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "rebind",
           "normalized": "Term-\u003eTerm-\u003eBinding",
@@ -2061,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "renam",
           "package": "derivation-trees",
@@ -2070,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "renam",
           "normalized": "Term-\u003eTeX",
@@ -2084,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "stp",
           "package": "derivation-trees",
@@ -2093,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "stp",
           "normalized": "Drv-\u003eJug-\u003e(TeX-\u003eRule(),[(Drv,Jug)])",
@@ -2107,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "texify",
           "package": "derivation-trees",
@@ -2116,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "texify",
           "normalized": "a-\u003eTeX",
@@ -2130,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "typ",
           "package": "derivation-trees",
@@ -2139,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "typ",
           "package": "derivation-trees",
@@ -2151,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "unbound",
           "package": "derivation-trees",
@@ -2160,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "unbound",
           "normalized": "Binding-\u003eBool",
@@ -2174,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.CPTS",
           "name": "value",
           "package": "derivation-trees",
@@ -2183,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees CPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.CPTS",
           "name": "value",
           "package": "derivation-trees",
@@ -2195,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees.ManualPTS",
           "name": "ManualPTS",
           "package": "derivation-trees",
@@ -2203,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees ManualPTS",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees.ManualPTS",
           "name": "ManualPTS",
           "package": "derivation-trees",
@@ -2216,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "DerivationTrees",
           "package": "derivation-trees",
@@ -2224,6 +2419,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "DerivationTrees",
           "package": "derivation-trees",
@@ -2237,6 +2433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Derivation",
           "package": "derivation-trees",
@@ -2245,6 +2442,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Derivation",
           "package": "derivation-trees",
@@ -2258,6 +2456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Figure",
           "package": "derivation-trees",
@@ -2266,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Figure",
           "package": "derivation-trees",
@@ -2279,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Premise",
           "package": "derivation-trees",
@@ -2287,6 +2488,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Premise",
           "package": "derivation-trees",
@@ -2300,6 +2502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Rule",
           "package": "derivation-trees",
@@ -2308,6 +2511,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Rule",
           "package": "derivation-trees",
@@ -2321,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "TeX",
           "package": "derivation-trees",
@@ -2329,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "TeX",
           "package": "derivation-trees",
@@ -2342,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "(!)",
           "package": "derivation-trees",
@@ -2351,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "(!) !",
           "normalized": "TeX-\u003eTeX-\u003eTeX",
@@ -2365,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "(\u003c\u003e)",
           "package": "derivation-trees",
@@ -2374,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -2388,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Figure",
           "package": "derivation-trees",
@@ -2397,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Figure",
           "package": "derivation-trees",
@@ -2410,6 +2622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "Rule",
           "package": "derivation-trees",
@@ -2419,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "Rule",
           "package": "derivation-trees",
@@ -2432,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "abortDrv",
           "package": "derivation-trees",
@@ -2441,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "abortDrv",
           "normalized": "Tree a(Rule b)-\u003eTree c(Rule b)",
@@ -2456,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "brace",
           "package": "derivation-trees",
@@ -2465,6 +2682,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "brace",
           "normalized": "TeX-\u003eTeX",
@@ -2479,6 +2697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "brack",
           "package": "derivation-trees",
@@ -2488,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "brack",
           "normalized": "TeX-\u003eTeX",
@@ -2502,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "compile",
           "package": "derivation-trees",
@@ -2511,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "compile",
           "normalized": "[Figure()]-\u003e[String]",
@@ -2525,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "conclusion",
           "package": "derivation-trees",
@@ -2534,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "conclusion",
           "package": "derivation-trees",
@@ -2546,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "contents",
           "package": "derivation-trees",
@@ -2555,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "contents",
           "package": "derivation-trees",
@@ -2567,6 +2793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "delayPre",
           "package": "derivation-trees",
@@ -2576,6 +2803,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "delayPre",
           "package": "derivation-trees",
@@ -2589,6 +2817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "delimiter",
           "package": "derivation-trees",
@@ -2598,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "delimiter",
           "package": "derivation-trees",
@@ -2610,6 +2840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "dummy",
           "package": "derivation-trees",
@@ -2619,6 +2850,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "dummy",
           "normalized": "Rule()",
@@ -2633,6 +2865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "emptyDrv",
           "package": "derivation-trees",
@@ -2642,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "emptyDrv",
           "normalized": "Tree a(Rule())",
@@ -2658,6 +2892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore compact variant\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "haltDrv",
           "package": "derivation-trees",
@@ -2668,6 +2903,7 @@
         "index": {
           "description": "More compact variant",
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "haltDrv",
           "normalized": "TeX-\u003eDerivation-\u003eDerivation",
@@ -2684,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when the rest of the derivation is known.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "haltDrv'",
           "package": "derivation-trees",
@@ -2694,6 +2931,7 @@
         "index": {
           "description": "Used when the rest of the derivation is known",
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "haltDrv'",
           "normalized": "TeX-\u003eDerivation-\u003eDerivation",
@@ -2709,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "ident",
           "package": "derivation-trees",
@@ -2718,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "ident",
           "package": "derivation-trees",
@@ -2730,6 +2970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "label",
           "package": "derivation-trees",
@@ -2739,6 +2980,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "label",
           "package": "derivation-trees",
@@ -2751,6 +2993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "paren",
           "package": "derivation-trees",
@@ -2760,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "paren",
           "normalized": "TeX-\u003eTeX",
@@ -2774,6 +3018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "rule",
           "package": "derivation-trees",
@@ -2783,6 +3028,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "rule",
           "normalized": "TeX-\u003eTeX-\u003eRule()",
@@ -2797,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "style",
           "package": "derivation-trees",
@@ -2806,6 +3053,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "style",
           "package": "derivation-trees",
@@ -2818,6 +3066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "tag",
           "package": "derivation-trees",
@@ -2827,6 +3076,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "tag",
           "package": "derivation-trees",
@@ -2839,6 +3089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "tex",
           "package": "derivation-trees",
@@ -2848,6 +3099,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "tex",
           "normalized": "String-\u003e[TeX]-\u003eTeX",
@@ -2862,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:16 UTC 2014",
           "module": "DerivationTrees",
           "name": "text",
           "package": "derivation-trees",
@@ -2871,6 +3124,7 @@
         },
         "index": {
           "hierarchy": "DerivationTrees",
+          "indexed": "2014-03-11T17:53:16",
           "module": "DerivationTrees",
           "name": "text",
           "normalized": "String-\u003eTeX",

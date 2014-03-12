@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "binary-search"
+        "phrase": "binary-search",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSearching unbounded intervals within bounded integral types for the\n boundary of an upward-closed set, using a combination of exponential\n and binary search.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Bounded",
           "name": "Bounded",
           "package": "binary-search",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Searching unbounded intervals within bounded integral types for the boundary of an upward-closed set using combination of exponential and binary search",
           "hierarchy": "Numeric Search Bounded",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Bounded",
           "name": "Bounded",
           "package": "binary-search",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(abs n))\u003c/em\u003e.\n Search a bounded integral type.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearch p\u003c/code\u003e returns\n \u003ccode\u003eJust n\u003c/code\u003e if and only if \u003ccode\u003en\u003c/code\u003e is the least such satisfying \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Bounded",
           "name": "search",
           "package": "binary-search",
@@ -52,6 +55,7 @@
         "index": {
           "description": "log abs Search bounded integral type If is an upward-closed predicate search returns Just if and only if is the least such satisfying",
           "hierarchy": "Numeric Search Bounded",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Bounded",
           "name": "search",
           "normalized": "(a-\u003eBool)-\u003eMaybe a",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(abs n))\u003c/em\u003e.\n Search the part of a bounded integral type from a given point.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearchFrom p l\u003c/code\u003e returns\n \u003ccode\u003eJust n\u003c/code\u003e if and only if \u003ccode\u003en\u003c/code\u003e is the least \u003ccode\u003en \u003e= l\u003c/code\u003e satisfying \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Bounded",
           "name": "searchFrom",
           "package": "binary-search",
@@ -77,6 +82,7 @@
         "index": {
           "description": "log abs Search the part of bounded integral type from given point If is an upward-closed predicate searchFrom returns Just if and only if is the least satisfying",
           "hierarchy": "Numeric Search Bounded",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Bounded",
           "name": "searchFrom",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -93,6 +99,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(abs n))\u003c/em\u003e.\n Search the part of a bounded integral type up to a given point.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearchTo p h\u003c/code\u003e returns\n \u003ccode\u003eJust n\u003c/code\u003e if and only if \u003ccode\u003en\u003c/code\u003e is the least \u003ccode\u003en \u003c= h\u003c/code\u003e satisfying \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Bounded",
           "name": "searchTo",
           "package": "binary-search",
@@ -103,6 +110,7 @@
         "index": {
           "description": "log abs Search the part of bounded integral type up to given point If is an upward-closed predicate searchTo returns Just if and only if is the least satisfying",
           "hierarchy": "Numeric Search Bounded",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Bounded",
           "name": "searchTo",
           "normalized": "(a-\u003eBool)-\u003ea-\u003eMaybe a",
@@ -119,6 +127,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic binary search combinators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "Monadic",
           "package": "binary-search",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Monadic binary search combinators",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "Monadic",
           "package": "binary-search",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalized type for binary search functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "BinarySearchM",
           "package": "binary-search",
@@ -151,6 +162,7 @@
         "index": {
           "description": "The generalized type for binary search functions",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "BinarySearchM",
           "package": "binary-search",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eBookEnd\u003c/a\u003e\u003c/code\u003e comes in order [LEnd, REnd, LEnd, REnd ...], and\n represents the ongoing state of the search results.\n Two successive \u003ccode\u003e\u003ca\u003eBookEnd\u003c/a\u003e\u003c/code\u003e \u003ccode\u003eLEnd x1 y1\u003c/code\u003e, \u003ccode\u003eREnd x2 y1\u003c/code\u003e represents a\n claim that \u003ccode\u003epred x == y1\u003c/code\u003e for all \u003ccode\u003ex\u003c/code\u003e such that \u003ccode\u003ex1 \u003c= x \u003c= x2\u003c/code\u003e .\n Like this:\n\u003c/p\u003e\u003cpre\u003e is (x^2 \u003e 20000) ?\n\n LEnd    REnd  LEnd     REnd\n 0        100  200       300\n |_ False _|    |_ True  _|\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "BookEnd",
           "package": "binary-search",
@@ -174,6 +187,7 @@
         "index": {
           "description": "BookEnd comes in order LEnd REnd LEnd REnd and represents the ongoing state of the search results Two successive BookEnd LEnd x1 y1 REnd x2 y1 represents claim that pred y1 for all such that x1 x2 Like this is LEnd REnd LEnd REnd False True",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "BookEnd",
           "package": "binary-search",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCutterM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep x1 x2\u003c/code\u003e decides if we should further investigate the\n gap between \u003ccode\u003ex1\u003c/code\u003e and \u003ccode\u003ex2\u003c/code\u003e. If so, it gives a new value \u003ccode\u003ex3\u003c/code\u003e wrapped\n in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eCutterM\u003c/a\u003e\u003c/code\u003e may optionally use the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "CutterM",
           "package": "binary-search",
@@ -197,6 +212,7 @@
         "index": {
           "description": "CutterM x1 x2 decides if we should further investigate the gap between x1 and x2 If so it gives new value x3 wrapped in Just CutterM may optionally use the predicate",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "CutterM",
           "package": "binary-search",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInitializerM\u003c/a\u003e\u003c/code\u003e generates the initial set of ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "InitializerM",
           "package": "binary-search",
@@ -220,6 +237,7 @@
         "index": {
           "description": "InitializerM generates the initial set of ranges",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "InitializerM",
           "package": "binary-search",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePredicateM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em a b\u003c/code\u003e calculates the predicate in the context \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "PredicateM",
           "package": "binary-search",
@@ -243,6 +262,7 @@
         "index": {
           "description": "PredicateM calculates the predicate in the context",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "PredicateM",
           "package": "binary-search",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e((x1,x2),y)\u003c/code\u003e denotes that \u003ccode\u003epred x == y\u003c/code\u003e for all\n \u003ccode\u003ex1 \u003c= x \u003c= x2\u003c/code\u003e .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "Range",
           "package": "binary-search",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Range x1 x2 denotes that pred for all x1 x2",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "Range",
           "package": "binary-search",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "LEnd",
           "package": "binary-search",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "LEnd",
           "package": "binary-search",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "REnd",
           "package": "binary-search",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "REnd",
           "package": "binary-search",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea cutter for integral types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "cutIntegralM",
           "package": "binary-search",
@@ -334,6 +361,7 @@
         "index": {
           "description": "cutter for integral types",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "cutIntegralM",
           "package": "binary-search",
@@ -348,6 +376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean initializer that searches for the full bound.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "initBoundedM",
           "package": "binary-search",
@@ -358,6 +387,7 @@
         "index": {
           "description": "an initializer that searches for the full bound",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "initBoundedM",
           "package": "binary-search",
@@ -372,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean initializer with the initial range specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "initConstM",
           "package": "binary-search",
@@ -382,6 +413,7 @@
         "index": {
           "description": "an initializer with the initial range specified",
           "hierarchy": "Numeric Search Combinator Monadic",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Monadic",
           "name": "initConstM",
           "normalized": "a-\u003ea-\u003eInitializerM b a c",
@@ -423,6 +455,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure counterpart for binary search.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Combinator.Pure",
           "name": "Pure",
           "package": "binary-search",
@@ -432,6 +465,7 @@
         "index": {
           "description": "Pure counterpart for binary search",
           "hierarchy": "Numeric Search Combinator Pure",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Combinator.Pure",
           "name": "Pure",
           "package": "binary-search",
@@ -446,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSearching unbounded intervals of integers for the boundary of an\n upward-closed set, using a combination of exponential and binary\n search.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Integer",
           "name": "Integer",
           "package": "binary-search",
@@ -455,6 +490,7 @@
         "index": {
           "description": "Searching unbounded intervals of integers for the boundary of an upward-closed set using combination of exponential and binary search",
           "hierarchy": "Numeric Search Integer",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Integer",
           "name": "Integer",
           "package": "binary-search",
@@ -469,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(abs n))\u003c/em\u003e.\n Search the integers.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearch p\u003c/code\u003e returns the least\n \u003ccode\u003en\u003c/code\u003e satisfying \u003ccode\u003ep\u003c/code\u003e.  If no such \u003ccode\u003en\u003c/code\u003e exists, either because no integer\n satisfies \u003ccode\u003ep\u003c/code\u003e or all do, \u003ccode\u003esearch p\u003c/code\u003e does not terminate.\n\u003c/p\u003e\u003cp\u003eFor example, the following function computes discrete logarithms (base 2):\n\u003c/p\u003e\u003cpre\u003e discreteLog :: Integer -\u003e Integer\n discreteLog n = search (\\ k -\u003e 2^k \u003c= n)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Integer",
           "name": "search",
           "package": "binary-search",
@@ -479,6 +516,7 @@
         "index": {
           "description": "log abs Search the integers If is an upward-closed predicate search returns the least satisfying If no such exists either because no integer satisfies or all do search does not terminate For example the following function computes discrete logarithms base discreteLog Integer Integer discreteLog search",
           "hierarchy": "Numeric Search Integer",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Integer",
           "name": "search",
           "normalized": "(Integer-\u003eBool)-\u003eInteger",
@@ -494,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(m log(n\\\u003c/em\u003em))/.\n Two-dimensional search, using an algorithm due described in\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Richard Bird, \u003cem\u003eSaddleback search: a lesson in algorithm design\u003c/em\u003e,\n   in \u003cem\u003eMathematics of Program Construction\u003c/em\u003e 2006,\n   Springer LNCS vol. 4014, pp82-89.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is closed upwards in each argument on non-negative integers,\n \u003ccode\u003esearch2 p\u003c/code\u003e returns the minimal non-negative pairs satisfying \u003ccode\u003ep\u003c/code\u003e,\n listed in order of increasing x-coordinate.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003em\u003c/em\u003e and \u003cem\u003en\u003c/em\u003e refer to the smaller and larger dimensions of the\n rectangle containing the boundary.\n\u003c/p\u003e\u003cp\u003eFor example,\n\u003c/p\u003e\u003cpre\u003e search2 (\\ x y -\u003e x^2 + y^2 \u003e= 25)  ==  [(0,5),(3,4),(4,3),(5,0)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Integer",
           "name": "search2",
           "package": "binary-search",
@@ -504,6 +543,7 @@
         "index": {
           "description": "log Two-dimensional search using an algorithm due described in Richard Bird Saddleback search lesson in algorithm design in Mathematics of Program Construction Springer LNCS vol pp82-89 If is closed upwards in each argument on non-negative integers search2 returns the minimal non-negative pairs satisfying listed in order of increasing x-coordinate and refer to the smaller and larger dimensions of the rectangle containing the boundary For example search2",
           "hierarchy": "Numeric Search Integer",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Integer",
           "name": "search2",
           "normalized": "(Integer-\u003eInteger-\u003eBool)-\u003e[(Integer,Integer)]",
@@ -519,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(n-l))\u003c/em\u003e.\n Search the integers from a given lower bound.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate,\n \u003ccode\u003esearchFrom p l = \u003ccode\u003e\u003ca\u003esearch\u003c/a\u003e\u003c/code\u003e (\\ i -\u003e i \u003e= l && p i)\u003c/code\u003e.\n If no such \u003ccode\u003en\u003c/code\u003e exists (because no integer satisfies \u003ccode\u003ep\u003c/code\u003e),\n \u003ccode\u003esearchFrom p\u003c/code\u003e does not terminate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Integer",
           "name": "searchFrom",
           "package": "binary-search",
@@ -529,6 +570,7 @@
         "index": {
           "description": "log n-l Search the integers from given lower bound If is an upward-closed predicate searchFrom search If no such exists because no integer satisfies searchFrom does not terminate",
           "hierarchy": "Numeric Search Integer",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Integer",
           "name": "searchFrom",
           "normalized": "(Integer-\u003eBool)-\u003eInteger-\u003eInteger",
@@ -545,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(h-n))\u003c/em\u003e.\n Search the integers up to a given upper bound.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearchTo p h == \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e n\u003c/code\u003e\n if and only if \u003ccode\u003en\u003c/code\u003e is the least number \u003ccode\u003en \u003c= h\u003c/code\u003e satisfying \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Integer",
           "name": "searchTo",
           "package": "binary-search",
@@ -555,6 +598,7 @@
         "index": {
           "description": "log h-n Search the integers up to given upper bound If is an upward-closed predicate searchTo Just if and only if is the least number satisfying",
           "hierarchy": "Numeric Search Integer",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Integer",
           "name": "searchTo",
           "normalized": "(Integer-\u003eBool)-\u003eInteger-\u003eMaybe Integer",
@@ -571,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinary search of a bounded interval of an integral type for the\n boundary of an upward-closed set, using a combination of exponential\n and binary search.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Range",
           "name": "Range",
           "package": "binary-search",
@@ -580,6 +625,7 @@
         "index": {
           "description": "Binary search of bounded interval of an integral type for the boundary of an upward-closed set using combination of exponential and binary search",
           "hierarchy": "Numeric Search Range",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Range",
           "name": "Range",
           "package": "binary-search",
@@ -594,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(log(h-l))\u003c/em\u003e.\n Search a bounded interval of some integral type.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ep\u003c/code\u003e is an upward-closed predicate, \u003ccode\u003esearchFromTo p l h == Just n\u003c/code\u003e\n if and only if \u003ccode\u003en\u003c/code\u003e is the least number \u003ccode\u003el \u003c= n \u003c= h\u003c/code\u003e satisfying \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eFor example, the following function determines the first index (if any)\n at which a value occurs in an ordered array:\n\u003c/p\u003e\u003cpre\u003e searchArray :: Ord a =\u003e a -\u003e Array Int a -\u003e Maybe Int\n searchArray x array = do\n   let (lo, hi) = bounds array\n   k \u003c- searchFromTo (\\ i -\u003e array!i \u003e= x) lo hi\n   guard (array!k == x)\n   return k\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search.Range",
           "name": "searchFromTo",
           "package": "binary-search",
@@ -604,6 +651,7 @@
         "index": {
           "description": "log h-l Search bounded interval of some integral type If is an upward-closed predicate searchFromTo Just if and only if is the least number satisfying For example the following function determines the first index if any at which value occurs in an ordered array searchArray Ord Array Int Maybe Int searchArray array do let lo hi bounds array searchFromTo array lo hi guard array return",
           "hierarchy": "Numeric Search Range",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search.Range",
           "name": "searchFromTo",
           "normalized": "(a-\u003eBool)-\u003ea-\u003ea-\u003eMaybe a",
@@ -620,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package provides combinators to construct many variants of\n binary search.  Most generally, it provides the binary search over\n predicate of the form \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e b, \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e m) =\u003e a -\u003e m b\u003c/code\u003e . The other\n searches are derived as special cases of this function.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eBinarySearch\u003c/code\u003e assumes two things;\n\u003c/p\u003e\u003col\u003e\u003cli\u003e \u003ccode\u003eb\u003c/code\u003e, the codomain of \u003ccode\u003e\u003ca\u003ePredicateM\u003c/a\u003e\u003c/code\u003e belongs to type class \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Each value of \u003ccode\u003eb\u003c/code\u003e form a convex set in the codomain space of the\n PredicateM. That is, if for certain pair \u003ccode\u003e(left, right) :: (a, a)\u003c/code\u003e\n satisfies \u003ccode\u003epred left == val && pred right == val\u003c/code\u003e, then also \u003ccode\u003epred\n x == val\u003c/code\u003e for all \u003ccode\u003ex\u003c/code\u003e such that \u003ccode\u003eleft \u003c= x \u003c= right\u003c/code\u003e .\n\u003c/li\u003e\u003c/ol\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "Search",
           "package": "binary-search",
@@ -629,6 +678,7 @@
         "index": {
           "description": "This package provides combinators to construct many variants of binary search Most generally it provides the binary search over predicate of the form Eq Monad The other searches are derived as special cases of this function BinarySearch assumes two things the codomain of PredicateM belongs to type class Eq Each value of form convex set in the codomain space of the PredicateM That is if for certain pair left right satisfies pred left val pred right val then also pred val for all such that left right",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "Search",
           "package": "binary-search",
@@ -643,6 +693,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe generalized type for binary search functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "BinarySearchM",
           "package": "binary-search",
@@ -652,6 +703,7 @@
         "index": {
           "description": "The generalized type for binary search functions",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "BinarySearchM",
           "package": "binary-search",
@@ -666,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eCutterM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep x1 x2\u003c/code\u003e decides if we should further investigate the\n gap between \u003ccode\u003ex1\u003c/code\u003e and \u003ccode\u003ex2\u003c/code\u003e. If so, it gives a new value \u003ccode\u003ex3\u003c/code\u003e wrapped\n in a \u003ccode\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eCutterM\u003c/a\u003e\u003c/code\u003e may optionally use the predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "CutterM",
           "package": "binary-search",
@@ -675,6 +728,7 @@
         "index": {
           "description": "CutterM x1 x2 decides if we should further investigate the gap between x1 and x2 If so it gives new value x3 wrapped in Just CutterM may optionally use the predicate",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "CutterM",
           "package": "binary-search",
@@ -689,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eInitializerM\u003c/a\u003e\u003c/code\u003e generates the initial set of ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "InitializerM",
           "package": "binary-search",
@@ -698,6 +753,7 @@
         "index": {
           "description": "InitializerM generates the initial set of ranges",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "InitializerM",
           "package": "binary-search",
@@ -712,6 +768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ePredicateM\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em a b\u003c/code\u003e calculates the predicate in the context \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "PredicateM",
           "package": "binary-search",
@@ -721,6 +778,7 @@
         "index": {
           "description": "PredicateM calculates the predicate in the context",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "PredicateM",
           "package": "binary-search",
@@ -735,6 +793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eRange\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e((x1,x2),y)\u003c/code\u003e denotes that \u003ccode\u003epred x == y\u003c/code\u003e for all\n \u003ccode\u003ex1 \u003c= x \u003c= x2\u003c/code\u003e .\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:19:03 UTC 2014",
           "module": "Numeric.Search",
           "name": "Range",
           "package": "binary-search",
@@ -744,6 +803,7 @@
         "index": {
           "description": "Range x1 x2 denotes that pred for all x1 x2",
           "hierarchy": "Numeric Search",
+          "indexed": "2014-03-11T17:19:03",
           "module": "Numeric.Search",
           "name": "Range",
           "package": "binary-search",

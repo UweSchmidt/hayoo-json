@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "matrix-market-pure"
+        "phrase": "matrix-market-pure",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePure and composable Matrix Market reader and writer.\n\u003c/p\u003e\u003cp\u003eUsage example:\n\u003c/p\u003e\u003cpre\u003e\n rm \u003c- \u003ccode\u003e\u003ca\u003ereadMM\u003c/a\u003e\u003c/code\u003e `liftM` readFile \"my-real-matrix.mtx\" :: IO (\u003ccode\u003e\u003ca\u003eReadMatrix\u003c/a\u003e\u003c/code\u003e Double)\n case rm of\n   Right m -\u003e -- Do something with the matrix m\n   Left err -\u003e -- Report error\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MatrixMarket",
           "package": "matrix-market-pure",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Pure and composable Matrix Market reader and writer Usage example rm readMM liftM readFile my-real-matrix.mtx IO ReadMatrix Double case rm of Right Do something with the matrix Left err Report error",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MatrixMarket",
           "package": "matrix-market-pure",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArray format (dense matrix).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "AM",
           "package": "matrix-market-pure",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Array format dense matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "AM",
           "package": "matrix-market-pure",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCoordinate format (sparse matrix).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "CM",
           "package": "matrix-market-pure",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Coordinate format sparse matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "CM",
           "package": "matrix-market-pure",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex numbers are an algebraic type.\n\u003c/p\u003e\u003cp\u003eFor a complex number \u003ccode\u003ez\u003c/code\u003e, \u003ccode\u003e\u003ccode\u003e\u003ca\u003eabs\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e is a number with the magnitude of \u003ccode\u003ez\u003c/code\u003e,\n but oriented in the positive real direction, whereas \u003ccode\u003e\u003ccode\u003e\u003ca\u003esignum\u003c/a\u003e\u003c/code\u003e z\u003c/code\u003e\n has the phase of \u003ccode\u003ez\u003c/code\u003e, but unit magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "Complex",
           "package": "matrix-market-pure",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Complex numbers are an algebraic type For complex number abs is number with the magnitude of but oriented in the positive real direction whereas signum has the phase of but unit magnitude",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "Complex",
           "package": "matrix-market-pure",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eField of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MField",
           "package": "matrix-market-pure",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Field of the matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MField",
           "package": "matrix-market-pure",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValues allowed in the Matrix Market files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MValue",
           "package": "matrix-market-pure",
@@ -142,6 +153,7 @@
         "index": {
           "description": "Values allowed in the Matrix Market files",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MValue",
           "package": "matrix-market-pure",
@@ -156,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix Market format representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "Matrix",
           "package": "matrix-market-pure",
@@ -165,6 +178,7 @@
         "index": {
           "description": "Matrix Market format representation",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "Matrix",
           "package": "matrix-market-pure",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix' data block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MatrixData",
           "package": "matrix-market-pure",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Matrix data block",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MatrixData",
           "package": "matrix-market-pure",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "ReadError",
           "package": "matrix-market-pure",
@@ -211,6 +228,7 @@
         "index": {
           "description": "Parsing errors",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "ReadError",
           "package": "matrix-market-pure",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this type synonym to specify the type of \u003ccode\u003e\u003ca\u003ereadMM\u003c/a\u003e\u003c/code\u003e when calling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "ReadMatrix",
           "package": "matrix-market-pure",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Use this type synonym to specify the type of readMM when calling",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "ReadMatrix",
           "package": "matrix-market-pure",
@@ -248,6 +268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetry class of the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "Symmetry",
           "package": "matrix-market-pure",
@@ -257,6 +278,7 @@
         "index": {
           "description": "Symmetry class of the matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "Symmetry",
           "package": "matrix-market-pure",
@@ -271,6 +293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eforms a complex number from its real and imaginary\n rectangular components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": ":+",
           "package": "matrix-market-pure",
@@ -280,6 +303,7 @@
         "index": {
           "description": "forms complex number from its real and imaginary rectangular components",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": ":+",
           "package": "matrix-market-pure",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "AM",
           "package": "matrix-market-pure",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "AM",
           "package": "matrix-market-pure",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "ArrayM",
           "package": "matrix-market-pure",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "ArrayM",
           "package": "matrix-market-pure",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "CM",
           "package": "matrix-market-pure",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "CM",
           "package": "matrix-market-pure",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "CoordinateM",
           "package": "matrix-market-pure",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "CoordinateM",
           "package": "matrix-market-pure",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "General",
           "package": "matrix-market-pure",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "General",
           "package": "matrix-market-pure",
@@ -402,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "Hermitian",
           "package": "matrix-market-pure",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "Hermitian",
           "package": "matrix-market-pure",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "InvalidHeader",
           "package": "matrix-market-pure",
@@ -433,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "InvalidHeader",
           "package": "matrix-market-pure",
@@ -446,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MComplex",
           "package": "matrix-market-pure",
@@ -455,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MComplex",
           "package": "matrix-market-pure",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MInt",
           "package": "matrix-market-pure",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MInt",
           "package": "matrix-market-pure",
@@ -490,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MM",
           "package": "matrix-market-pure",
@@ -499,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MM",
           "package": "matrix-market-pure",
@@ -512,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MPattern",
           "package": "matrix-market-pure",
@@ -521,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MPattern",
           "package": "matrix-market-pure",
@@ -534,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "MReal",
           "package": "matrix-market-pure",
@@ -543,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "MReal",
           "package": "matrix-market-pure",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "NoParse",
           "package": "matrix-market-pure",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "NoParse",
           "package": "matrix-market-pure",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "NotAMatrixMarketFormat",
           "package": "matrix-market-pure",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "NotAMatrixMarketFormat",
           "package": "matrix-market-pure",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "SkewSymmetric",
           "package": "matrix-market-pure",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "SkewSymmetric",
           "package": "matrix-market-pure",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "Symmetric",
           "package": "matrix-market-pure",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "Symmetric",
           "package": "matrix-market-pure",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "UnexpectedField",
           "package": "matrix-market-pure",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "UnexpectedField",
           "package": "matrix-market-pure",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "UnknownFormat",
           "package": "matrix-market-pure",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "UnknownFormat",
           "package": "matrix-market-pure",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "UnknownSymmetry",
           "package": "matrix-market-pure",
@@ -697,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "UnknownSymmetry",
           "package": "matrix-market-pure",
@@ -710,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "am'cols",
           "package": "matrix-market-pure",
@@ -719,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "am'cols",
           "package": "matrix-market-pure",
@@ -731,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "am'rows",
           "package": "matrix-market-pure",
@@ -740,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "am'rows",
           "package": "matrix-market-pure",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "am'values",
           "package": "matrix-market-pure",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "am'values",
           "normalized": "[a]",
@@ -775,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "array'm",
           "package": "matrix-market-pure",
@@ -784,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "array'm",
           "package": "matrix-market-pure",
@@ -797,6 +867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an element of the matrix at the specified position.\n Warning: This operation is slow, use \u003ccode\u003e\u003ca\u003etoArray\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003etoArrayM\u003c/a\u003e\u003c/code\u003e\n to convert to an array first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "at",
           "package": "matrix-market-pure",
@@ -807,6 +878,7 @@
         "index": {
           "description": "Get an element of the matrix at the specified position Warning This operation is slow use toArray or toArrayM to convert to an array first",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "at",
           "normalized": "Matrix a-\u003e(Int,Int)-\u003ea",
@@ -821,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "cm'cols",
           "package": "matrix-market-pure",
@@ -830,6 +903,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "cm'cols",
           "package": "matrix-market-pure",
@@ -842,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "cm'rows",
           "package": "matrix-market-pure",
@@ -851,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "cm'rows",
           "package": "matrix-market-pure",
@@ -863,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "cm'size",
           "package": "matrix-market-pure",
@@ -872,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "cm'size",
           "package": "matrix-market-pure",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "cm'values",
           "package": "matrix-market-pure",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "cm'values",
           "normalized": "[((Int,Int),a)]",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "conj",
           "package": "matrix-market-pure",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "conj",
           "normalized": "a-\u003ea",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "coords'm",
           "package": "matrix-market-pure",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "coords'm",
           "package": "matrix-market-pure",
@@ -952,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite Matrix Market format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "dumpMM",
           "package": "matrix-market-pure",
@@ -962,6 +1047,7 @@
         "index": {
           "description": "Write Matrix Market format",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "dumpMM",
           "normalized": "Matrix a-\u003eString",
@@ -978,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of columns in the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'cols",
           "package": "matrix-market-pure",
@@ -988,6 +1075,7 @@
         "index": {
           "description": "Number of columns in the matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'cols",
           "normalized": "Matrix a-\u003eInt",
@@ -1002,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'comments",
           "package": "matrix-market-pure",
@@ -1011,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'comments",
           "normalized": "[String]",
@@ -1025,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'data",
           "package": "matrix-market-pure",
@@ -1034,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'data",
           "package": "matrix-market-pure",
@@ -1046,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'field",
           "package": "matrix-market-pure",
@@ -1055,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'field",
           "package": "matrix-market-pure",
@@ -1068,6 +1162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of rows in the matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'rows",
           "package": "matrix-market-pure",
@@ -1078,6 +1173,7 @@
         "index": {
           "description": "Number of rows in the matrix",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'rows",
           "normalized": "Matrix a-\u003eInt",
@@ -1093,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDimensions of the matrix: (number of rows, number of columns).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'shape",
           "package": "matrix-market-pure",
@@ -1103,6 +1200,7 @@
         "index": {
           "description": "Dimensions of the matrix number of rows number of columns",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'shape",
           "normalized": "Matrix a-\u003e(Int,Int)",
@@ -1117,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "mm'symmetry",
           "package": "matrix-market-pure",
@@ -1126,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "mm'symmetry",
           "package": "matrix-market-pure",
@@ -1139,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse Matrix Market format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "readMM",
           "package": "matrix-market-pure",
@@ -1149,6 +1250,7 @@
         "index": {
           "description": "Parse Matrix Market format",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "readMM",
           "normalized": "String-\u003eReadMatrix a",
@@ -1164,6 +1266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "readval",
           "package": "matrix-market-pure",
@@ -1173,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "readval",
           "normalized": "[String]-\u003eMaybe a",
@@ -1187,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "showval",
           "package": "matrix-market-pure",
@@ -1196,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "showval",
           "normalized": "a-\u003eString",
@@ -1211,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to an immutable dense array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "toArray",
           "package": "matrix-market-pure",
@@ -1220,6 +1327,7 @@
         "index": {
           "description": "Convert to an immutable dense array",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "toArray",
           "normalized": "Int-\u003eMatrix a-\u003eb(Int,Int)a",
@@ -1236,6 +1344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert to a mutable dense array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "toArrayM",
           "package": "matrix-market-pure",
@@ -1245,6 +1354,7 @@
         "index": {
           "description": "Convert to mutable dense array",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "toArrayM",
           "normalized": "Int-\u003eMatrix a-\u003eb(c(Int,Int)a)",
@@ -1261,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of all non-zero entries (including symmetric entries).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "toCompleteList",
           "package": "matrix-market-pure",
@@ -1271,6 +1382,7 @@
         "index": {
           "description": "Construct list of all non-zero entries including symmetric entries",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "toCompleteList",
           "normalized": "Matrix a-\u003e[((Int,Int),a)]",
@@ -1287,6 +1399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a list of non-zero entries (without symmetric entries).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "toList",
           "package": "matrix-market-pure",
@@ -1297,6 +1410,7 @@
         "index": {
           "description": "Construct list of non-zero entries without symmetric entries",
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "toList",
           "normalized": "Matrix a-\u003e[((Int,Int),a)]",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:15:23 UTC 2014",
           "module": "Data.MatrixMarket",
           "name": "typename",
           "package": "matrix-market-pure",
@@ -1321,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Data MatrixMarket",
+          "indexed": "2014-03-11T19:15:23",
           "module": "Data.MatrixMarket",
           "name": "typename",
           "normalized": "a-\u003eString",

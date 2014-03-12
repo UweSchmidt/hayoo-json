@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ParserFunction"
+        "phrase": "ParserFunction",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "ParserFunction",
           "package": "ParserFunction",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "ParserFunction",
           "package": "ParserFunction",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Expr data type provides a basis for ordering mathematical operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "Expr",
           "package": "ParserFunction",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The Expr data type provides basis for ordering mathematical operations",
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "Expr",
           "package": "ParserFunction",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "Variable",
           "package": "ParserFunction",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "Variable",
           "package": "ParserFunction",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "buildExpr",
           "package": "ParserFunction",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "buildExpr",
           "package": "ParserFunction",
@@ -106,6 +114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eeval\u003c/code\u003e takes a map of variable definitions and values, and a maybe expression tree, to produce maybe a numerical value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "eval",
           "package": "ParserFunction",
@@ -116,6 +125,7 @@
         "index": {
           "description": "eval takes map of variable definitions and values and maybe expression tree to produce maybe numerical value",
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "eval",
           "normalized": "Map Variable(Complex Double)-\u003eMaybe Expr-\u003eMaybe(Complex Double)",
@@ -131,6 +141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eevalExpr\u003c/code\u003e evaluates an expression tree using a list of variable definitions with values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "evalExpr",
           "package": "ParserFunction",
@@ -141,6 +152,7 @@
         "index": {
           "description": "evalExpr evaluates an expression tree using list of variable definitions with values",
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "evalExpr",
           "normalized": "Expr-\u003e[(Variable,Complex Double)]-\u003eMaybe(Complex Double)",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eevalString\u003c/code\u003e evaluates a string-expression using a list of variable definitions with values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "evalString",
           "package": "ParserFunction",
@@ -167,6 +180,7 @@
         "index": {
           "description": "evalString evaluates string-expression using list of variable definitions with values",
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "evalString",
           "normalized": "String-\u003e[(Variable,Complex Double)]-\u003eMaybe(Complex Double)",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003estringToExpr\u003c/code\u003e parses a string-expression and returns a maybe expression tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:56:42 UTC 2014",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "stringToExpr",
           "package": "ParserFunction",
@@ -193,6 +208,7 @@
         "index": {
           "description": "stringToExpr parses string-expression and returns maybe expression tree",
           "hierarchy": "Text ParserCombinators Parsec ParserFunction",
+          "indexed": "2014-03-11T16:56:42",
           "module": "Text.ParserCombinators.Parsec.ParserFunction",
           "name": "stringToExpr",
           "normalized": "String-\u003eMaybe Expr",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pure-priority-queue"
+        "phrase": "pure-priority-queue",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the internals of a pure priority queue,\n implemented on top of \u003ca\u003eData.Map\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eEstimates of worst-case time complexity are given.  The value \u003cem\u003en\u003c/em\u003e\n is the number of elements in the queue.  The value \u003cem\u003ep\u003c/em\u003e is the\n cardinality of the set of priorities of the elements in the queue.\n \u003cem\u003ep\u003c/em\u003e is never greater than \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "Internal",
           "package": "pure-priority-queue",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module exposes the internals of pure priority queue implemented on top of Data.Map Estimates of worst-case time complexity are given The value is the number of elements in the queue The value is the cardinality of the set of priorities of the elements in the queue is never greater than",
           "hierarchy": "Data PurePriorityQueue Internal",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "Internal",
           "package": "pure-priority-queue",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA queue of values of type \u003ccode\u003ea\u003c/code\u003e with priority of type \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",
@@ -51,6 +54,7 @@
         "index": {
           "description": "queue of values of type with priority of type",
           "hierarchy": "Data PurePriorityQueue Internal",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data PurePriorityQueue Internal",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",
@@ -510,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "unMinMaxQueue",
           "package": "pure-priority-queue",
@@ -519,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data PurePriorityQueue Internal",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "unMinMaxQueue",
           "normalized": "Map a[b]",
@@ -535,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies a \u003ccode\u003eData.Map.Map\u003c/code\u003e view function to a given priority queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "viewWith",
           "package": "pure-priority-queue",
@@ -544,6 +553,7 @@
         "index": {
           "description": "Applies Data.Map.Map view function to given priority queue",
           "hierarchy": "Data PurePriorityQueue Internal",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue.Internal",
           "name": "viewWith",
           "normalized": "(Map a[b]-\u003eMaybe((a,[b]),Map a[b]))-\u003eMinMaxQueue a b-\u003eMaybe((b,a),MinMaxQueue a b)",
@@ -560,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pure priority queue.\n\u003c/p\u003e\u003cp\u003eBecause many function names clash with \u003ca\u003ePrelude\u003c/a\u003e names, this module\n is usually imported \u003ccode\u003equalified\u003c/code\u003e, e.g.,\n\u003c/p\u003e\u003cpre\u003e  import qualified Data.PurePriorityQueue as PQ\n\u003c/pre\u003e\u003cp\u003eThis implementation is built on top of \u003ca\u003eData.Map\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eEstimates of worst-case time complexity are given.  The value \u003cem\u003en\u003c/em\u003e\n is the number of elements in the queue.  The value \u003cem\u003ep\u003c/em\u003e is the\n cardinality of the set of priorities of the elements in the queue.\n \u003cem\u003ep\u003c/em\u003e is never greater than \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue",
           "name": "PurePriorityQueue",
           "package": "pure-priority-queue",
@@ -569,6 +580,7 @@
         "index": {
           "description": "pure priority queue Because many function names clash with Prelude names this module is usually imported qualified e.g import qualified Data.PurePriorityQueue as PQ This implementation is built on top of Data.Map Estimates of worst-case time complexity are given The value is the number of elements in the queue The value is the cardinality of the set of priorities of the elements in the queue is never greater than",
           "hierarchy": "Data PurePriorityQueue",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue",
           "name": "PurePriorityQueue",
           "package": "pure-priority-queue",
@@ -583,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA queue of values of type \u003ccode\u003ea\u003c/code\u003e with priority of type \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:46:17 UTC 2014",
           "module": "Data.PurePriorityQueue",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",
@@ -592,6 +605,7 @@
         "index": {
           "description": "queue of values of type with priority of type",
           "hierarchy": "Data PurePriorityQueue",
+          "indexed": "2014-03-11T19:46:17",
           "module": "Data.PurePriorityQueue",
           "name": "MinMaxQueue",
           "package": "pure-priority-queue",

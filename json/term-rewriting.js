@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "term-rewriting"
+        "phrase": "term-rewriting",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Context Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -66,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose two contexts (i.e., replace the hole in the left context by the\n right context).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context.Ops",
           "name": "compose",
           "package": "term-rewriting",
@@ -76,6 +79,7 @@
         "index": {
           "description": "Compose two contexts i.e replace the hole in the left context by the right context",
           "hierarchy": "Data Rewriting Context Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context.Ops",
           "name": "compose",
           "normalized": "Ctxt a b-\u003eCtxt a b-\u003eCtxt a b",
@@ -117,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -125,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Context Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -138,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context.Type",
           "name": "Ctxt",
           "package": "term-rewriting",
@@ -146,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Context Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context.Type",
           "name": "Ctxt",
           "package": "term-rewriting",
@@ -211,6 +219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context",
           "name": "Context",
           "package": "term-rewriting",
@@ -219,6 +228,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Context",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context",
           "name": "Context",
           "package": "term-rewriting",
@@ -232,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Context",
           "name": "Ctxt",
           "package": "term-rewriting",
@@ -240,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Context",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Context",
           "name": "Ctxt",
           "package": "term-rewriting",
@@ -253,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -261,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting CriticalPair Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -327,6 +341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine all inner critical pairs for a pair of TRSs.\n\u003c/p\u003e\u003cp\u003eA critical pair is \u003cem\u003einner\u003c/em\u003e if the left rewrite step is not a root step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsIn",
           "package": "term-rewriting",
@@ -337,6 +352,7 @@
         "index": {
           "description": "Determine all inner critical pairs for pair of TRSs critical pair is inner if the left rewrite step is not root step",
           "hierarchy": "Data Rewriting CriticalPair Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsIn",
           "normalized": "[Rule a b]-\u003e[Rule a c]-\u003e[CP a b c]",
@@ -353,6 +369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine all inner critical pairs of a single TRS with itself.\n\u003c/p\u003e\u003cp\u003eThe result of \u003ccode\u003ecpsIn' trs\u003c/code\u003e differs from \u003ccode\u003ecpsIn trs trs\u003c/code\u003e in that overlaps\n of a rule with itself are returned once, not twice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsIn'",
           "package": "term-rewriting",
@@ -363,6 +380,7 @@
         "index": {
           "description": "Determine all inner critical pairs of single TRS with itself The result of cpsIn trs differs from cpsIn trs trs in that overlaps of rule with itself are returned once not twice",
           "hierarchy": "Data Rewriting CriticalPair Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsIn'",
           "normalized": "[Rule a b]-\u003e[CP a b b]",
@@ -379,6 +397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine outer critical pairs for a pair of TRSs.\n\u003c/p\u003e\u003cp\u003eA critical pair is \u003cem\u003eouter\u003c/em\u003e if the left rewrite step is a root step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsOut",
           "package": "term-rewriting",
@@ -389,6 +408,7 @@
         "index": {
           "description": "Determine outer critical pairs for pair of TRSs critical pair is outer if the left rewrite step is root step",
           "hierarchy": "Data Rewriting CriticalPair Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsOut",
           "normalized": "[Rule a b]-\u003e[Rule a c]-\u003e[CP a b c]",
@@ -405,6 +425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine all outer critical pairs of a single TRS with itself.\n\u003c/p\u003e\u003cp\u003eThe result of \u003ccode\u003ecpsOut' trs\u003c/code\u003e differs from \u003ccode\u003ecpsOut trs trs\u003c/code\u003e in two aspects:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The trivial overlaps of rules with themselves are omitted.\n\u003c/li\u003e\u003cli\u003e Symmetry is taken into account: Overlaps between distinct rules are\n    returned once instead of twice.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsOut'",
           "package": "term-rewriting",
@@ -415,6 +436,7 @@
         "index": {
           "description": "Determine all outer critical pairs of single TRS with itself The result of cpsOut trs differs from cpsOut trs trs in two aspects The trivial overlaps of rules with themselves are omitted Symmetry is taken into account Overlaps between distinct rules are returned once instead of twice",
           "hierarchy": "Data Rewriting CriticalPair Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Ops",
           "name": "cpsOut'",
           "normalized": "[Rule a b]-\u003e[CP a b b]",
@@ -430,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -438,6 +461,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting CriticalPair Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -452,6 +476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA critical pair. Critical pairs (should) have the following properties:\n\u003c/p\u003e\u003cpre\u003e\n top   == Context.ofTerm top pos (Term.map Left id (Rule.lhs leftRule))\n left  == Context.ofTerm top pos (Term.map Left id (Rule.rhs leftRule))\n top   == Substitution.apply subst (Term.map Right id (Rule.lhs rightRule))\n right == Substitution.apply subst (Term.map Right id (Rule.rhs rightRule))\n\u003c/pre\u003e\u003cp\u003eFurthermore, \u003ccode\u003epos\u003c/code\u003e is a non-variable position of \u003ccode\u003e(lhs rightRule)\u003c/code\u003e and\n \u003ccode\u003esubst\u003c/code\u003e is a most general substitution with these properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair.Type",
           "name": "CP",
           "package": "term-rewriting",
@@ -461,6 +486,7 @@
         "index": {
           "description": "critical pair Critical pairs should have the following properties top Context.ofTerm top pos Term.map Left id Rule.lhs leftRule left Context.ofTerm top pos Term.map Left id Rule.rhs leftRule top Substitution.apply subst Term.map Right id Rule.lhs rightRule right Substitution.apply subst Term.map Right id Rule.rhs rightRule Furthermore pos is non-variable position of lhs rightRule and subst is most general substitution with these properties",
           "hierarchy": "Data Rewriting CriticalPair Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair.Type",
           "name": "CP",
           "package": "term-rewriting",
@@ -668,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair",
           "name": "CriticalPair",
           "package": "term-rewriting",
@@ -676,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting CriticalPair",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair",
           "name": "CriticalPair",
           "package": "term-rewriting",
@@ -690,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA critical pair. Critical pairs (should) have the following properties:\n\u003c/p\u003e\u003cpre\u003e\n top   == Context.ofTerm top pos (Term.map Left id (Rule.lhs leftRule))\n left  == Context.ofTerm top pos (Term.map Left id (Rule.rhs leftRule))\n top   == Substitution.apply subst (Term.map Right id (Rule.lhs rightRule))\n right == Substitution.apply subst (Term.map Right id (Rule.rhs rightRule))\n\u003c/pre\u003e\u003cp\u003eFurthermore, \u003ccode\u003epos\u003c/code\u003e is a non-variable position of \u003ccode\u003e(lhs rightRule)\u003c/code\u003e and\n \u003ccode\u003esubst\u003c/code\u003e is a most general substitution with these properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.CriticalPair",
           "name": "CP",
           "package": "term-rewriting",
@@ -699,6 +728,7 @@
         "index": {
           "description": "critical pair Critical pairs should have the following properties top Context.ofTerm top pos Term.map Left id Rule.lhs leftRule left Context.ofTerm top pos Term.map Left id Rule.rhs leftRule top Substitution.apply subst Term.map Right id Rule.lhs rightRule right Substitution.apply subst Term.map Right id Rule.rhs rightRule Furthermore pos is non-variable position of lhs rightRule and subst is most general substitution with these properties",
           "hierarchy": "Data Rewriting CriticalPair",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.CriticalPair",
           "name": "CP",
           "package": "term-rewriting",
@@ -712,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "Pos",
           "package": "term-rewriting",
@@ -720,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "Pos",
           "package": "term-rewriting",
@@ -734,6 +766,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA position in a term. Arguments are counted from 0.\n\u003c/p\u003e\u003cp\u003eA position describes a path in the tree representation of a term. The empty\n position \u003ccode\u003e[]\u003c/code\u003e denotes the root of the term. A position \u003ccode\u003e[0,1]\u003c/code\u003e denotes the\n 2nd child of the 1st child of the root (counting children from left to\n right).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "Pos",
           "package": "term-rewriting",
@@ -743,6 +776,7 @@
         "index": {
           "description": "position in term Arguments are counted from position describes path in the tree representation of term The empty position denotes the root of the term position denotes the nd child of the st child of the root counting children from left to right",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "Pos",
           "package": "term-rewriting",
@@ -757,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep `above` q\u003c/code\u003e checks whether \u003ccode\u003ep\u003c/code\u003e is above \u003ccode\u003eq\u003c/code\u003e (in the tree representation of\n a term). A position \u003ccode\u003ep\u003c/code\u003e is above a position \u003ccode\u003eq\u003c/code\u003e, whenever \u003ccode\u003ep\u003c/code\u003e is a prefix of\n \u003ccode\u003eq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "above",
           "package": "term-rewriting",
@@ -767,6 +802,7 @@
         "index": {
           "description": "above checks whether is above in the tree representation of term position is above position whenever is prefix of",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "above",
           "normalized": "Pos-\u003ePos-\u003eBool",
@@ -782,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep `below` q\u003c/code\u003e checks whether \u003ccode\u003ep\u003c/code\u003e is below \u003ccode\u003eq\u003c/code\u003e, that is to say that \u003ccode\u003eq\u003c/code\u003e is\n above \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "below",
           "package": "term-rewriting",
@@ -792,6 +829,7 @@
         "index": {
           "description": "below checks whether is below that is to say that is above",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "below",
           "normalized": "Pos-\u003ePos-\u003eBool",
@@ -807,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep `leftOf` q\u003c/code\u003e checks whether \u003ccode\u003ep\u003c/code\u003e is left of \u003ccode\u003eq\u003c/code\u003e. This is only possible if\n \u003ccode\u003ep\u003c/code\u003e and \u003ccode\u003eq\u003c/code\u003e do not lie on the same path (i.e., are parallel to each other).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "leftOf",
           "package": "term-rewriting",
@@ -817,6 +856,7 @@
         "index": {
           "description": "leftOf checks whether is left of This is only possible if and do not lie on the same path i.e are parallel to each other",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "leftOf",
           "normalized": "Pos-\u003ePos-\u003eBool",
@@ -833,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep `parallelTo` q\u003c/code\u003e checks whether \u003ccode\u003ep\u003c/code\u003e is parallel to \u003ccode\u003eq\u003c/code\u003e, that is to say\n that \u003ccode\u003ep\u003c/code\u003e and \u003ccode\u003eq\u003c/code\u003e do not lie on the same path.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "parallelTo",
           "package": "term-rewriting",
@@ -843,6 +884,7 @@
         "index": {
           "description": "parallelTo checks whether is parallel to that is to say that and do not lie on the same path",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "parallelTo",
           "normalized": "Pos-\u003ePos-\u003eBool",
@@ -859,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ep `rightOf` q\u003c/code\u003e checks whether \u003ccode\u003ep\u003c/code\u003e is right of \u003ccode\u003eq\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Pos",
           "name": "rightOf",
           "package": "term-rewriting",
@@ -869,6 +912,7 @@
         "index": {
           "description": "rightOf checks whether is right of",
           "hierarchy": "Data Rewriting Pos",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Pos",
           "name": "rightOf",
           "normalized": "Pos-\u003ePos-\u003eBool",
@@ -884,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -892,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -905,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "ProblemParseError",
           "package": "term-rewriting",
@@ -913,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "ProblemParseError",
           "package": "term-rewriting",
@@ -926,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "FileReadError",
           "package": "term-rewriting",
@@ -935,6 +984,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "FileReadError",
           "package": "term-rewriting",
@@ -948,6 +998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "SomeParseError",
           "package": "term-rewriting",
@@ -957,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "SomeParseError",
           "package": "term-rewriting",
@@ -970,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnknownParseError",
           "package": "term-rewriting",
@@ -979,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnknownParseError",
           "package": "term-rewriting",
@@ -992,6 +1046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnsupportedDeclaration",
           "package": "term-rewriting",
@@ -1001,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnsupportedDeclaration",
           "package": "term-rewriting",
@@ -1014,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnsupportedStrategy",
           "package": "term-rewriting",
@@ -1023,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "UnsupportedStrategy",
           "package": "term-rewriting",
@@ -1036,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromCharStream",
           "package": "term-rewriting",
@@ -1045,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromCharStream",
           "normalized": "SourceName-\u003ea-\u003eEither ProblemParseError(Problem String String)",
@@ -1060,6 +1120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromFile",
           "package": "term-rewriting",
@@ -1069,6 +1130,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromFile",
           "normalized": "FilePath-\u003eIO(Either ProblemParseError(Problem String String))",
@@ -1084,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromString",
           "package": "term-rewriting",
@@ -1093,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "fromString",
           "normalized": "String-\u003eEither ProblemParseError(Problem String String)",
@@ -1108,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "parseFileIO",
           "package": "term-rewriting",
@@ -1117,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "parseFileIO",
           "normalized": "FilePath-\u003eIO(Problem String String)",
@@ -1132,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "parseIO",
           "package": "term-rewriting",
@@ -1141,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Parse",
           "name": "parseIO",
           "normalized": "String-\u003eIO(Problem String String)",
@@ -1156,6 +1224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -1164,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -1177,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyProblem",
           "package": "term-rewriting",
@@ -1186,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyProblem",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eProblem a b-\u003eDoc",
@@ -1201,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyWST",
           "package": "term-rewriting",
@@ -1210,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyWST",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eProblem a b-\u003eDoc",
@@ -1225,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyWST'",
           "package": "term-rewriting",
@@ -1234,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Pretty",
           "name": "prettyWST'",
           "normalized": "Problem a b-\u003eDoc",
@@ -1249,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -1257,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -1270,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1278,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1291,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "RulesPair",
           "package": "term-rewriting",
@@ -1299,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "RulesPair",
           "package": "term-rewriting",
@@ -1312,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "StartTerms",
           "package": "term-rewriting",
@@ -1320,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "StartTerms",
           "package": "term-rewriting",
@@ -1333,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Strategy",
           "package": "term-rewriting",
@@ -1341,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Strategy",
           "package": "term-rewriting",
@@ -1354,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Theory",
           "package": "term-rewriting",
@@ -1362,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Theory",
           "package": "term-rewriting",
@@ -1375,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "AllTerms",
           "package": "term-rewriting",
@@ -1384,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "AllTerms",
           "package": "term-rewriting",
@@ -1397,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "BasicTerms",
           "package": "term-rewriting",
@@ -1406,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "BasicTerms",
           "package": "term-rewriting",
@@ -1419,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Equations",
           "package": "term-rewriting",
@@ -1428,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Equations",
           "normalized": "Equations[Rule a b]",
@@ -1443,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Full",
           "package": "term-rewriting",
@@ -1452,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Full",
           "package": "term-rewriting",
@@ -1465,6 +1561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Innermost",
           "package": "term-rewriting",
@@ -1474,6 +1571,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Innermost",
           "package": "term-rewriting",
@@ -1487,6 +1585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Outermost",
           "package": "term-rewriting",
@@ -1496,6 +1595,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "Outermost",
           "package": "term-rewriting",
@@ -1532,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "RulesPair",
           "package": "term-rewriting",
@@ -1541,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "RulesPair",
           "package": "term-rewriting",
@@ -1554,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "SymbolProperty",
           "package": "term-rewriting",
@@ -1563,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "SymbolProperty",
           "normalized": "SymbolProperty String[a]",
@@ -1578,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "allRules",
           "package": "term-rewriting",
@@ -1587,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "allRules",
           "normalized": "RulesPair a b-\u003e[Rule a b]",
@@ -1691,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "strictRules",
           "package": "term-rewriting",
@@ -1700,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "strictRules",
           "normalized": "[Rule a b]",
@@ -1787,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem.Type",
           "name": "weakRules",
           "package": "term-rewriting",
@@ -1796,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem.Type",
           "name": "weakRules",
           "normalized": "[Rule a b]",
@@ -1812,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTermination problem type, based on WST format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1821,6 +1932,7 @@
         "index": {
           "description": "Termination problem type based on WST format",
           "hierarchy": "Data Rewriting Problem",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1834,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Problem",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1842,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Problem",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Problem",
           "name": "Problem",
           "package": "term-rewriting",
@@ -1855,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -1863,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -1877,6 +1993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest whether the given predicate is true for both sides of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "both",
           "package": "term-rewriting",
@@ -1887,6 +2004,7 @@
         "index": {
           "description": "Test whether the given predicate is true for both sides of rule",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "both",
           "normalized": "(Term a b-\u003eBool)-\u003eRule a b-\u003eBool",
@@ -1902,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting of \u003ccode\u003e\u003ca\u003efuns\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eRule\u003c/a\u003e\u003c/code\u003e: returns the list of function symbols\n in left- and right-hand sides.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003efuns $ Rule {lhs = Fun 'f' [Var 3, Fun 'g' [Fun 'f' []]], rhs = Fun 'h' [Fun 'f' []]}\n\u003c/code\u003e\u003c/strong\u003e\"fgfhf\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "funs",
           "package": "term-rewriting",
@@ -1912,6 +2031,7 @@
         "index": {
           "description": "Lifting of funs to Rule returns the list of function symbols in left and right-hand sides funs Rule lhs Fun Var Fun Fun rhs Fun Fun fgfhf",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "funs",
           "normalized": "Rule a b-\u003e[a]",
@@ -1927,6 +2047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003efuns\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003efunsDL r vs = funs r ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "funsDL",
           "package": "term-rewriting",
@@ -1937,6 +2058,7 @@
         "index": {
           "description": "Difference List version of funs We have funsDL vs funs vs",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "funsDL",
           "normalized": "Rule a b-\u003e[a]-\u003e[a]",
@@ -1953,6 +2075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given rule is collapsing, i.e., if its right\n hand side is a variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isCollapsing",
           "package": "term-rewriting",
@@ -1963,6 +2086,7 @@
         "index": {
           "description": "Check whether the given rule is collapsing i.e if its right hand side is variable",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isCollapsing",
           "normalized": "Rule a b-\u003eBool",
@@ -1979,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given rule is creating, i.e., if some variable\n occurs in its right hand side that does not occur in its left hand side.\n\u003c/p\u003e\u003cp\u003eThis is the dual of \u003ccode\u003e\u003ca\u003eisErasing\u003c/a\u003e\u003c/code\u003e. The term \u003cem\u003ecreating\u003c/em\u003e is non-standard.\n Creating rules are usually forbidden. See also \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isCreating",
           "package": "term-rewriting",
@@ -1989,6 +2114,7 @@
         "index": {
           "description": "Check whether the given rule is creating i.e if some variable occurs in its right hand side that does not occur in its left hand side This is the dual of isErasing The term creating is non-standard Creating rules are usually forbidden See also isValid",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isCreating",
           "normalized": "Rule a b-\u003eBool",
@@ -2005,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given rule is duplicating, i.e., if some variable\n occurs more often in its right hand side than in its left hand side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isDuplicating",
           "package": "term-rewriting",
@@ -2015,6 +2142,7 @@
         "index": {
           "description": "Check whether the given rule is duplicating i.e if some variable occurs more often in its right hand side than in its left hand side",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isDuplicating",
           "normalized": "Rule a b-\u003eBool",
@@ -2031,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given rule is erasing, i.e., if some variable\n occurs in the left hand side but not in the right hand side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isErasing",
           "package": "term-rewriting",
@@ -2041,6 +2170,7 @@
         "index": {
           "description": "Check whether the given rule is erasing i.e if some variable occurs in the left hand side but not in the right hand side",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isErasing",
           "normalized": "Rule a b-\u003eBool",
@@ -2057,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the given rule is expanding, i.e., if its left hand\n sides is a variable.\n\u003c/p\u003e\u003cp\u003eThis is the dual of \u003ccode\u003e\u003ca\u003eisCollapsing\u003c/a\u003e\u003c/code\u003e. The term \u003cem\u003eexpanding\u003c/em\u003e is non-standard.\n Expanding rules are usually forbidden. See also \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isExpanding",
           "package": "term-rewriting",
@@ -2067,6 +2198,7 @@
         "index": {
           "description": "Check whether the given rule is expanding i.e if its left hand sides is variable This is the dual of isCollapsing The term expanding is non-standard Expanding rules are usually forbidden See also isValid",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isExpanding",
           "normalized": "Rule a b-\u003eBool",
@@ -2083,6 +2215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether both sides of the given rule is are ground terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isGround",
           "package": "term-rewriting",
@@ -2093,6 +2226,7 @@
         "index": {
           "description": "Check whether both sides of the given rule is are ground terms",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isGround",
           "normalized": "Rule a b-\u003eBool",
@@ -2109,6 +2243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a rule is an instance of another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isInstanceOf",
           "package": "term-rewriting",
@@ -2119,6 +2254,7 @@
         "index": {
           "description": "Check whether rule is an instance of another",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isInstanceOf",
           "normalized": "Rule a b-\u003eRule a c-\u003eBool",
@@ -2135,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the left hand side of the given rule is a ground term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLeftGround",
           "package": "term-rewriting",
@@ -2145,6 +2282,7 @@
         "index": {
           "description": "Check whether the left hand side of the given rule is ground term",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLeftGround",
           "normalized": "Rule a b-\u003eBool",
@@ -2161,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the left hand side of the given rule is linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLeftLinear",
           "package": "term-rewriting",
@@ -2171,6 +2310,7 @@
         "index": {
           "description": "Check whether the left hand side of the given rule is linear",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLeftLinear",
           "normalized": "Rule a b-\u003eBool",
@@ -2187,6 +2327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether both sides of the given rule are linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLinear",
           "package": "term-rewriting",
@@ -2197,6 +2338,7 @@
         "index": {
           "description": "Check whether both sides of the given rule are linear",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isLinear",
           "normalized": "Rule a b-\u003eBool",
@@ -2213,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the right hand side of the given rule is a ground term.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isRightGround",
           "package": "term-rewriting",
@@ -2223,6 +2366,7 @@
         "index": {
           "description": "Check whether the right hand side of the given rule is ground term",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isRightGround",
           "normalized": "Rule a b-\u003eBool",
@@ -2239,6 +2383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the right hand side of the given rule is linear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isRightLinear",
           "package": "term-rewriting",
@@ -2249,6 +2394,7 @@
         "index": {
           "description": "Check whether the right hand side of the given rule is linear",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isRightLinear",
           "normalized": "Rule a b-\u003eBool",
@@ -2265,6 +2411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether rule is non-creating and non-expanding.\n See also \u003ccode\u003e\u003ca\u003eisCreating\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eisExpanding\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isValid",
           "package": "term-rewriting",
@@ -2275,6 +2422,7 @@
         "index": {
           "description": "Check whether rule is non-creating and non-expanding See also isCreating and isExpanding",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isValid",
           "normalized": "Rule a b-\u003eBool",
@@ -2291,6 +2439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a rule is a variant of another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isVariantOf",
           "package": "term-rewriting",
@@ -2301,6 +2450,7 @@
         "index": {
           "description": "Check whether rule is variant of another",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "isVariantOf",
           "normalized": "Rule a b-\u003eRule a c-\u003eBool",
@@ -2317,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the lhs of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "left",
           "package": "term-rewriting",
@@ -2327,6 +2478,7 @@
         "index": {
           "description": "Apply function to the lhs of rule",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "left",
           "normalized": "(Term a b-\u003ec)-\u003eRule a b-\u003ec",
@@ -2342,6 +2494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the rhs of a rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "right",
           "package": "term-rewriting",
@@ -2352,6 +2505,7 @@
         "index": {
           "description": "Apply function to the rhs of rule",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "right",
           "normalized": "(Term a b-\u003ec)-\u003eRule a b-\u003ec",
@@ -2367,6 +2521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting of \u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eRule\u003c/a\u003e\u003c/code\u003e: returns the list of variables in\n left- and right-hand sides.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evars $ Rule {lhs = Fun 'g' [Var 3, Fun 'f' [Var 1, Var 2, Var 3]], rhs = Fun 'g' [Var 4, Var 3]}\n\u003c/code\u003e\u003c/strong\u003e[3,1,2,3,4,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "vars",
           "package": "term-rewriting",
@@ -2377,6 +2532,7 @@
         "index": {
           "description": "Lifting of vars to Rule returns the list of variables in left and right-hand sides vars Rule lhs Fun Var Fun Var Var Var rhs Fun Var Var",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "vars",
           "normalized": "Rule a b-\u003e[b]",
@@ -2392,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003evarsDL r vs = vars r ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "varsDL",
           "package": "term-rewriting",
@@ -2402,6 +2559,7 @@
         "index": {
           "description": "Difference List version of vars We have varsDL vs vars vs",
           "hierarchy": "Data Rewriting Rule Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Ops",
           "name": "varsDL",
           "normalized": "Rule a b-\u003e[b]-\u003e[b]",
@@ -2417,6 +2575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -2425,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rule Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -2438,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Pretty",
           "name": "prettyRule",
           "package": "term-rewriting",
@@ -2447,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rule Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Pretty",
           "name": "prettyRule",
           "normalized": "Doc-\u003e(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eRule a b-\u003eDoc",
@@ -2462,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -2470,6 +2633,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rule Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -2484,6 +2648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite rule with left-hand side and right-hand side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule.Type",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2493,6 +2658,7 @@
         "index": {
           "description": "Rewrite rule with left-hand side and right-hand side",
           "hierarchy": "Data Rewriting Rule Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule.Type",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2573,6 +2739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2581,6 +2748,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rule",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2595,6 +2763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRewrite rule with left-hand side and right-hand side.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rule",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2604,6 +2773,7 @@
         "index": {
           "description": "Rewrite rule with left-hand side and right-hand side",
           "hierarchy": "Data Rewriting Rule",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rule",
           "name": "Rule",
           "package": "term-rewriting",
@@ -2617,6 +2787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -2625,6 +2796,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -2639,6 +2811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting of Term.\u003ccode\u003e\u003ca\u003efuns\u003c/a\u003e\u003c/code\u003e to list of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "funs",
           "package": "term-rewriting",
@@ -2649,6 +2822,7 @@
         "index": {
           "description": "Lifting of Term funs to list of rules",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "funs",
           "normalized": "[Rule a b]-\u003e[a]",
@@ -2664,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003efuns\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003efunsDL r vs = funs r ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "funsDL",
           "package": "term-rewriting",
@@ -2674,6 +2849,7 @@
         "index": {
           "description": "Difference List version of funs We have funsDL vs funs vs",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "funsDL",
           "normalized": "[Rule a b]-\u003e[a]-\u003e[a]",
@@ -2690,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff any of the given rules satisfy \u003ccode\u003e\u003ca\u003eisCollapsing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isCollapsing",
           "package": "term-rewriting",
@@ -2700,6 +2877,7 @@
         "index": {
           "description": "Returns True iff any of the given rules satisfy isCollapsing",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isCollapsing",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2716,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff any of the given rules satisfy \u003ccode\u003e\u003ca\u003eisCreating\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isCreating",
           "package": "term-rewriting",
@@ -2726,6 +2905,7 @@
         "index": {
           "description": "Returns True iff any of the given rules satisfy isCreating",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isCreating",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2742,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff any of the given rules satisfy \u003ccode\u003e\u003ca\u003eisDuplicating\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isDuplicating",
           "package": "term-rewriting",
@@ -2752,6 +2933,7 @@
         "index": {
           "description": "Returns True iff any of the given rules satisfy isDuplicating",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isDuplicating",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2768,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff any of the given rules satisfy \u003ccode\u003e\u003ca\u003eisErasing\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isErasing",
           "package": "term-rewriting",
@@ -2778,6 +2961,7 @@
         "index": {
           "description": "Returns True iff any of the given rules satisfy isErasing",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isErasing",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2794,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisGroundLinear\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isGround",
           "package": "term-rewriting",
@@ -2804,6 +2989,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isGroundLinear",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isGround",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2820,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisLeftGround\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLeftGround",
           "package": "term-rewriting",
@@ -2830,6 +3017,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isLeftGround",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLeftGround",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2846,6 +3034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisLeftLinear\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLeftLinear",
           "package": "term-rewriting",
@@ -2856,6 +3045,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isLeftLinear",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLeftLinear",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2872,6 +3062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisLinear\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLinear",
           "package": "term-rewriting",
@@ -2882,6 +3073,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isLinear",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isLinear",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2898,6 +3090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisRightGround\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isRightGround",
           "package": "term-rewriting",
@@ -2908,6 +3101,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isRightGround",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isRightGround",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2924,6 +3118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all given rules satisfy \u003ccode\u003e\u003ca\u003eisRightLinear\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isRightLinear",
           "package": "term-rewriting",
@@ -2934,6 +3129,7 @@
         "index": {
           "description": "Returns True iff all given rules satisfy isRightLinear",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isRightLinear",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2950,6 +3146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e iff all rules satisfy \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isValid",
           "package": "term-rewriting",
@@ -2960,6 +3157,7 @@
         "index": {
           "description": "Returns True iff all rules satisfy isValid",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "isValid",
           "normalized": "[Rule a b]-\u003eBool",
@@ -2976,6 +3174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elhss rs\u003c/code\u003e returns the list of left-hand sides of \u003ccode\u003ers\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "lhss",
           "package": "term-rewriting",
@@ -2986,6 +3185,7 @@
         "index": {
           "description": "lhss rs returns the list of left-hand sides of rs",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "lhss",
           "normalized": "[Rule a b]-\u003e[Term a b]",
@@ -3001,6 +3201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestrict the rules to those only using function symbols satisfying\n the given predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "restrictFuns",
           "package": "term-rewriting",
@@ -3011,6 +3212,7 @@
         "index": {
           "description": "Restrict the rules to those only using function symbols satisfying the given predicate",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "restrictFuns",
           "normalized": "(a-\u003eBool)-\u003e[Rule a b]-\u003e[Rule a b]",
@@ -3027,6 +3229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003elhss rs\u003c/code\u003e returns the list of right-hand sides of \u003ccode\u003ers\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "rhss",
           "package": "term-rewriting",
@@ -3037,6 +3240,7 @@
         "index": {
           "description": "lhss rs returns the list of right-hand sides of rs",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "rhss",
           "normalized": "[Rule a b]-\u003e[Term a b]",
@@ -3052,6 +3256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifting of Term.\u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e to list of rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "vars",
           "package": "term-rewriting",
@@ -3062,6 +3267,7 @@
         "index": {
           "description": "Lifting of Term vars to list of rules",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "vars",
           "normalized": "[Rule a b]-\u003e[b]",
@@ -3077,6 +3283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003evarsDL r vs = vars r ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "varsDL",
           "package": "term-rewriting",
@@ -3087,6 +3294,7 @@
         "index": {
           "description": "Difference List version of vars We have varsDL vs vars vs",
           "hierarchy": "Data Rewriting Rules Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Ops",
           "name": "varsDL",
           "normalized": "[Rule a b]-\u003e[b]-\u003e[b]",
@@ -3103,6 +3311,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple rewriting.\n\u003c/p\u003e\u003cp\u003eNote: The rules are assumed to be non-creating, i.e., variables on the\n rhs should also occur on the lhs. Rules violating this constraint\n will have no effect.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Rewrite",
           "package": "term-rewriting",
@@ -3112,6 +3321,7 @@
         "index": {
           "description": "Simple rewriting Note The rules are assumed to be non-creating i.e variables on the rhs should also occur on the lhs Rules violating this constraint will have no effect",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Rewrite",
           "package": "term-rewriting",
@@ -3126,6 +3336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA reduct. It contains the resulting term, the position that the term\n was rewritten at, and the applied rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Reduct",
           "package": "term-rewriting",
@@ -3135,6 +3346,7 @@
         "index": {
           "description": "reduct It contains the resulting term the position that the term was rewritten at and the applied rule",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Reduct",
           "package": "term-rewriting",
@@ -3149,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rewrite strategy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Strategy",
           "package": "term-rewriting",
@@ -3158,6 +3371,7 @@
         "index": {
           "description": "rewrite strategy",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Strategy",
           "package": "term-rewriting",
@@ -3171,6 +3385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Reduct",
           "package": "term-rewriting",
@@ -3180,6 +3395,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "Reduct",
           "package": "term-rewriting",
@@ -3221,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInner rewriting: Apply rules at innermost redexes.\n\u003c/p\u003e\u003cp\u003eReducts are returned in left to right order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "innerRewrite",
           "package": "term-rewriting",
@@ -3231,6 +3448,7 @@
         "index": {
           "description": "Inner rewriting Apply rules at innermost redexes Reducts are returned in left to right order",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "innerRewrite",
           "normalized": "[Rule a b]-\u003eStrategy a c b",
@@ -3247,6 +3465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of contexts of a list. Each returned element is an element\n index (starting from 0), a function that replaces the list element by a\n new one, and the original element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "listContexts",
           "package": "term-rewriting",
@@ -3257,6 +3476,7 @@
         "index": {
           "description": "Return list of contexts of list Each returned element is an element index starting from function that replaces the list element by new one and the original element",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "listContexts",
           "normalized": "[a]-\u003e[(Int,a-\u003e[a],a)]",
@@ -3273,6 +3493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested rewriting: Apply a rewriting strategy to all arguments of a\n function symbol, left to right. For variables, the result will be empty.\n\u003c/p\u003e\u003cp\u003eThis is another building block for rewriting strategies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "nested",
           "package": "term-rewriting",
@@ -3283,6 +3504,7 @@
         "index": {
           "description": "Nested rewriting Apply rewriting strategy to all arguments of function symbol left to right For variables the result will be empty This is another building block for rewriting strategies",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "nested",
           "normalized": "Strategy a b c-\u003eStrategy a b c",
@@ -3298,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter rewriting: Apply rules at outermost redexes.\n\u003c/p\u003e\u003cp\u003eReducts are returned in left to right order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "outerRewrite",
           "package": "term-rewriting",
@@ -3308,6 +3531,7 @@
         "index": {
           "description": "Outer rewriting Apply rules at outermost redexes Reducts are returned in left to right order",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "outerRewrite",
           "normalized": "[Rule a b]-\u003eStrategy a c b",
@@ -3323,6 +3547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "pos",
           "package": "term-rewriting",
@@ -3332,6 +3557,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "pos",
           "package": "term-rewriting",
@@ -3344,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "result",
           "package": "term-rewriting",
@@ -3353,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "result",
           "package": "term-rewriting",
@@ -3366,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRoot rewriting: Apply rules only at the root of the term.\n\u003c/p\u003e\u003cp\u003eThis is mainly useful as a building block for various rewriting strategies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "rootRewrite",
           "package": "term-rewriting",
@@ -3376,6 +3605,7 @@
         "index": {
           "description": "Root rewriting Apply rules only at the root of the term This is mainly useful as building block for various rewriting strategies",
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "rootRewrite",
           "normalized": "[Rule a b]-\u003eStrategy a c b",
@@ -3391,6 +3621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "rule",
           "package": "term-rewriting",
@@ -3400,6 +3631,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "rule",
           "package": "term-rewriting",
@@ -3412,6 +3644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "subst",
           "package": "term-rewriting",
@@ -3421,6 +3654,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Rules Rewrite",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules.Rewrite",
           "name": "subst",
           "package": "term-rewriting",
@@ -3434,6 +3668,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperations on lists of rules.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eData.Rewriting.CriticalPair\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Rules",
           "name": "Rules",
           "package": "term-rewriting",
@@ -3443,6 +3678,7 @@
         "index": {
           "description": "Operations on lists of rules See also Data.Rewriting.CriticalPair",
           "hierarchy": "Data Rewriting Rules",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Rules",
           "name": "Rules",
           "package": "term-rewriting",
@@ -3456,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Match",
           "name": "Match",
           "package": "term-rewriting",
@@ -3464,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Match",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Match",
           "name": "Match",
           "package": "term-rewriting",
@@ -3478,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch two terms. If matching succeeds, return the resulting subtitution.\n We have the following property:\n\u003c/p\u003e\u003cpre\u003e match t u == Just s   ==\u003e   apply s t == gapply s t == u\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Match",
           "name": "match",
           "package": "term-rewriting",
@@ -3488,6 +3727,7 @@
         "index": {
           "description": "Match two terms If matching succeeds return the resulting subtitution We have the following property match Just apply gapply",
           "hierarchy": "Data Rewriting Substitution Match",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Match",
           "name": "match",
           "normalized": "Term a b-\u003eTerm a c-\u003eMaybe(GSubst b a c)",
@@ -3502,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -3510,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -3603,6 +3845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two substitutions. The operation fails if some variable is\n different terms by the substitutions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Ops",
           "name": "merge",
           "package": "term-rewriting",
@@ -3613,6 +3856,7 @@
         "index": {
           "description": "Merge two substitutions The operation fails if some variable is different terms by the substitutions",
           "hierarchy": "Data Rewriting Substitution Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Ops",
           "name": "merge",
           "normalized": "GSubst a b c-\u003eGSubst a b c-\u003eMaybe(GSubst a b c)",
@@ -3627,6 +3871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -3635,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -3648,6 +3894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "fromString",
           "package": "term-rewriting",
@@ -3657,6 +3904,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "fromString",
           "normalized": "[String]-\u003eString-\u003eEither ParseError(Subst String String)",
@@ -3672,6 +3920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "parse",
           "package": "term-rewriting",
@@ -3681,6 +3930,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "parse",
           "normalized": "Parsec String a b-\u003eParsec String a c-\u003eParsec String a(Subst b c)",
@@ -3695,6 +3945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "parseIO",
           "package": "term-rewriting",
@@ -3704,6 +3955,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Parse",
           "name": "parseIO",
           "normalized": "[String]-\u003eString-\u003eIO(Subst String String)",
@@ -3719,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -3727,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -3740,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Pretty",
           "name": "prettySubst",
           "package": "term-rewriting",
@@ -3749,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Pretty",
           "name": "prettySubst",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eSubst a b-\u003eDoc",
@@ -3764,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -3772,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -3786,6 +4044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalised? substitution: a finite, partial map from variables\n to terms with a different variable type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "GSubst",
           "package": "term-rewriting",
@@ -3795,6 +4054,7 @@
         "index": {
           "description": "generalised substitution finite partial map from variables to terms with different variable type",
           "hierarchy": "Data Rewriting Substitution Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "GSubst",
           "package": "term-rewriting",
@@ -3809,6 +4069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution, mapping variables to terms. Substitutions are\n equal to the identity almost everywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "Subst",
           "package": "term-rewriting",
@@ -3818,6 +4079,7 @@
         "index": {
           "description": "substitution mapping variables to terms Substitutions are equal to the identity almost everywhere",
           "hierarchy": "Data Rewriting Substitution Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "Subst",
           "package": "term-rewriting",
@@ -3831,6 +4093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "fromMap",
           "package": "term-rewriting",
@@ -3840,6 +4103,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "fromMap",
           "normalized": "Map a(Term b c)-\u003eGSubst a b c",
@@ -3855,6 +4119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "toMap",
           "package": "term-rewriting",
@@ -3864,6 +4129,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Type",
           "name": "toMap",
           "normalized": "GSubst a b c-\u003eMap a(Term b c)",
@@ -3879,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "Unify",
           "package": "term-rewriting",
@@ -3887,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution Unify",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "Unify",
           "package": "term-rewriting",
@@ -3901,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify two terms. If unification succeeds, return a most general unifier\n of the given terms. We have the following property:\n\u003c/p\u003e\u003cpre\u003e unify t u == Just s   ==\u003e   apply s t == apply s u\n\u003c/pre\u003e\u003cp\u003e\u003cem\u003eO(n log(n))\u003c/em\u003e, where \u003cem\u003en\u003c/em\u003e is the apparent size of the arguments. Note that\n the apparent size of the result may be exponential due to shared subterms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "unify",
           "package": "term-rewriting",
@@ -3911,6 +4180,7 @@
         "index": {
           "description": "Unify two terms If unification succeeds return most general unifier of the given terms We have the following property unify Just apply apply log where is the apparent size of the arguments Note that the apparent size of the result may be exponential due to shared subterms",
           "hierarchy": "Data Rewriting Substitution Unify",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "unify",
           "normalized": "Term a b-\u003eTerm a b-\u003eMaybe(Subst a b)",
@@ -3926,6 +4196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnify two terms. This is a simple implementation for testing purposes,\n and may be removed in future versions of this library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "unifyRef",
           "package": "term-rewriting",
@@ -3936,6 +4207,7 @@
         "index": {
           "description": "Unify two terms This is simple implementation for testing purposes and may be removed in future versions of this library",
           "hierarchy": "Data Rewriting Substitution Unify",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution.Unify",
           "name": "unifyRef",
           "normalized": "Term a b-\u003eTerm a b-\u003eMaybe(Subst a b)",
@@ -3951,6 +4223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution",
           "name": "Substitution",
           "package": "term-rewriting",
@@ -3959,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Substitution",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution",
           "name": "Substitution",
           "package": "term-rewriting",
@@ -3973,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalised? substitution: a finite, partial map from variables\n to terms with a different variable type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution",
           "name": "GSubst",
           "package": "term-rewriting",
@@ -3982,6 +4257,7 @@
         "index": {
           "description": "generalised substitution finite partial map from variables to terms with different variable type",
           "hierarchy": "Data Rewriting Substitution",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution",
           "name": "GSubst",
           "package": "term-rewriting",
@@ -3996,6 +4272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA substitution, mapping variables to terms. Substitutions are\n equal to the identity almost everywhere.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Substitution",
           "name": "Subst",
           "package": "term-rewriting",
@@ -4005,6 +4282,7 @@
         "index": {
           "description": "substitution mapping variables to terms Substitutions are equal to the identity almost everywhere",
           "hierarchy": "Data Rewriting Substitution",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Substitution",
           "name": "Subst",
           "package": "term-rewriting",
@@ -4018,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -4026,6 +4305,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "Ops",
           "package": "term-rewriting",
@@ -4066,6 +4346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003efuns\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003efunsDL t vs = funs t ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "funsDL",
           "package": "term-rewriting",
@@ -4076,6 +4357,7 @@
         "index": {
           "description": "Difference List version of funs We have funsDL vs funs vs",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "funsDL",
           "normalized": "Term a b-\u003e[a]-\u003e[a]",
@@ -4092,6 +4374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the term is a function application, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isFun",
           "package": "term-rewriting",
@@ -4102,6 +4385,7 @@
         "index": {
           "description": "Return True if the term is function application False otherwise",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isFun",
           "normalized": "Term a b-\u003eBool",
@@ -4118,6 +4402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the term is a ground term, i.e., contains no variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isGround",
           "package": "term-rewriting",
@@ -4128,6 +4413,7 @@
         "index": {
           "description": "Check whether the term is ground term i.e contains no variables",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isGround",
           "normalized": "Term a b-\u003eBool",
@@ -4144,6 +4430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a term is an instance of another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isInstanceOf",
           "package": "term-rewriting",
@@ -4154,6 +4441,7 @@
         "index": {
           "description": "Check whether term is an instance of another",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isInstanceOf",
           "normalized": "Term a b-\u003eTerm a c-\u003eBool",
@@ -4170,6 +4458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether the term is linear, i.e., contains each variable at most\n once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isLinear",
           "package": "term-rewriting",
@@ -4180,6 +4469,7 @@
         "index": {
           "description": "Check whether the term is linear i.e contains each variable at most once",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isLinear",
           "normalized": "Term a b-\u003eBool",
@@ -4196,6 +4486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if the term is a variable, \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isVar",
           "package": "term-rewriting",
@@ -4206,6 +4497,7 @@
         "index": {
           "description": "Return True if the term is variable False otherwise",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isVar",
           "normalized": "Term a b-\u003eBool",
@@ -4222,6 +4514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a term is a variant of another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isVariantOf",
           "package": "term-rewriting",
@@ -4232,6 +4525,7 @@
         "index": {
           "description": "Check whether term is variant of another",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "isVariantOf",
           "normalized": "Term a b-\u003eTerm a c-\u003eBool",
@@ -4248,6 +4542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplace a subterm at a given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "replaceAt",
           "package": "term-rewriting",
@@ -4258,6 +4553,7 @@
         "index": {
           "description": "replace subterm at given position",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "replaceAt",
           "normalized": "Term a b-\u003ePos-\u003eTerm a b-\u003eMaybe(Term a b)",
@@ -4274,6 +4570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the subterm at a given position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "subtermAt",
           "package": "term-rewriting",
@@ -4284,6 +4581,7 @@
         "index": {
           "description": "Return the subterm at given position",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "subtermAt",
           "normalized": "Term a b-\u003ePos-\u003eMaybe(Term a b)",
@@ -4326,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDifference List version of \u003ccode\u003e\u003ca\u003evars\u003c/a\u003e\u003c/code\u003e.\n We have \u003ccode\u003evarsDL t vs = vars t ++ vs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "varsDL",
           "package": "term-rewriting",
@@ -4336,6 +4635,7 @@
         "index": {
           "description": "Difference List version of vars We have varsDL vs vars vs",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "varsDL",
           "normalized": "Term a b-\u003e[b]-\u003e[b]",
@@ -4352,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate each occurrence of a function symbol with its actual arity,\n i.e., its number of arguments.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ewithArity (Fun 'f' [Var 1, Fun 'f' []])\n\u003c/code\u003e\u003c/strong\u003eFun ('f',2) [Var 1,Fun ('f',0) []]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Ops",
           "name": "withArity",
           "package": "term-rewriting",
@@ -4362,6 +4663,7 @@
         "index": {
           "description": "Annotate each occurrence of function symbol with its actual arity i.e its number of arguments withArity Fun Var Fun Fun Var Fun",
           "hierarchy": "Data Rewriting Term Ops",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Ops",
           "name": "withArity",
           "normalized": "Term a b-\u003eTerm(a,Int)b",
@@ -4377,6 +4679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -4385,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "Parse",
           "package": "term-rewriting",
@@ -4399,6 +4703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efromString xs s\u003c/code\u003e parsers a term from the string \u003ccode\u003es\u003c/code\u003e, where elements of \u003ccode\u003exs\u003c/code\u003e\n are considered as variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "fromString",
           "package": "term-rewriting",
@@ -4409,6 +4714,7 @@
         "index": {
           "description": "fromString xs parsers term from the string where elements of xs are considered as variables",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "fromString",
           "normalized": "[String]-\u003eString-\u003eEither ParseError(Term String String)",
@@ -4425,6 +4731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparse fun var\u003c/code\u003e is a parser for terms, where \u003ccode\u003efun\u003c/code\u003e and \u003ccode\u003evar\u003c/code\u003e are\n parsers for function symbols and variables, respectively. The \u003ccode\u003evar\u003c/code\u003e parser\n has a higher priority than the \u003ccode\u003efun\u003c/code\u003e parser. Hence, whenever \u003ccode\u003evar\u003c/code\u003e\n succeeds, the token is treated as a variable.\n\u003c/p\u003e\u003cp\u003eNote that the user has to take care of handling trailing white space in\n \u003ccode\u003efun\u003c/code\u003e and \u003ccode\u003evar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parse",
           "package": "term-rewriting",
@@ -4435,6 +4742,7 @@
         "index": {
           "description": "parse fun var is parser for terms where fun and var are parsers for function symbols and variables respectively The var parser has higher priority than the fun parser Hence whenever var succeeds the token is treated as variable Note that the user has to take care of handling trailing white space in fun and var",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parse",
           "normalized": "ParsecT a b c d-\u003eParsecT a b c e-\u003eParsecT a b c(Term d e)",
@@ -4450,6 +4758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseFun ident\u003c/code\u003e parses function symbols defined by \u003ccode\u003eident\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseFun",
           "package": "term-rewriting",
@@ -4460,6 +4769,7 @@
         "index": {
           "description": "parseFun ident parses function symbols defined by ident",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseFun",
           "normalized": "ParsecT a b c String-\u003eParsecT a b c String",
@@ -4476,6 +4786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e, but the result is wrapped in the IO monad, making this\n function useful for interactive testing.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003eparseIO [\"x\",\"y\"] \"f(x,c)\"\n\u003c/code\u003e\u003c/strong\u003eFun \"f\" [Var \"x\",Fun \"c\" []]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseIO",
           "package": "term-rewriting",
@@ -4486,6 +4797,7 @@
         "index": {
           "description": "Like fromString but the result is wrapped in the IO monad making this function useful for interactive testing parseIO Fun Var Fun",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseIO",
           "normalized": "[String]-\u003eString-\u003eIO(Term String String)",
@@ -4502,6 +4814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseVar ident vars\u003c/code\u003e parses variables as defined by \u003ccode\u003eident\u003c/code\u003e and with the\n additional requirement that the result is a member of \u003ccode\u003evars\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseVar",
           "package": "term-rewriting",
@@ -4512,6 +4825,7 @@
         "index": {
           "description": "parseVar ident vars parses variables as defined by ident and with the additional requirement that the result is member of vars",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseVar",
           "normalized": "ParsecT a b c String-\u003e[String]-\u003eParsecT a b c String",
@@ -4528,6 +4842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseWST xs\u003c/code\u003e is a parser for terms following the conventions of the\n ancient ASCII input format of the termination competition: every \u003ccode\u003eChar\u003c/code\u003e that\n is neither a white space (according to \u003ccode\u003e\u003ca\u003eisSpace\u003c/a\u003e\u003c/code\u003e) nor one of '\u003ccode\u003e(\u003c/code\u003e',\n '\u003ccode\u003e)\u003c/code\u003e', or '\u003ccode\u003e,\u003c/code\u003e', is considered a letter. An identifier is a non-empty\n sequence of letters and it is treated as variable iff it is contained in\n \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseWST",
           "package": "term-rewriting",
@@ -4538,6 +4853,7 @@
         "index": {
           "description": "parseWST xs is parser for terms following the conventions of the ancient ASCII input format of the termination competition every Char that is neither white space according to isSpace nor one of or is considered letter An identifier is non-empty sequence of letters and it is treated as variable iff it is contained in xs",
           "hierarchy": "Data Rewriting Term Parse",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Parse",
           "name": "parseWST",
           "normalized": "[String]-\u003eParsecT a b c(Term String String)",
@@ -4553,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -4561,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Pretty",
           "name": "Pretty",
           "package": "term-rewriting",
@@ -4575,6 +4893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a pretty printer \u003ccode\u003ef\u003c/code\u003e for function symbols and pretty printer \u003ccode\u003ev\u003c/code\u003e for variables\n \u003ccode\u003eprettyTerm f v\u003c/code\u003e produces a pretty printer for terms\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Pretty",
           "name": "prettyTerm",
           "package": "term-rewriting",
@@ -4585,6 +4904,7 @@
         "index": {
           "description": "Given pretty printer for function symbols and pretty printer for variables prettyTerm produces pretty printer for terms",
           "hierarchy": "Data Rewriting Term Pretty",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Pretty",
           "name": "prettyTerm",
           "normalized": "(a-\u003eDoc)-\u003e(b-\u003eDoc)-\u003eTerm a b-\u003eDoc",
@@ -4600,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -4608,6 +4929,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Type",
           "name": "Type",
           "package": "term-rewriting",
@@ -4621,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term.Type",
           "name": "Term",
           "package": "term-rewriting",
@@ -4629,6 +4952,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term Type",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term.Type",
           "name": "Term",
           "package": "term-rewriting",
@@ -4746,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term",
           "name": "Term",
           "package": "term-rewriting",
@@ -4754,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term",
           "name": "Term",
           "package": "term-rewriting",
@@ -4767,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:18:45 UTC 2014",
           "module": "Data.Rewriting.Term",
           "name": "Term",
           "package": "term-rewriting",
@@ -4775,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Data Rewriting Term",
+          "indexed": "2014-03-11T20:18:45",
           "module": "Data.Rewriting.Term",
           "name": "Term",
           "package": "term-rewriting",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "TreeStructures"
+        "phrase": "TreeStructures",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003eData.Heap.Binary\u003c/code\u003e provides a binary min-heap. Balance is maintained through descendant counting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "Binary",
           "package": "TreeStructures",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data.Heap.Binary provides binary min-heap Balance is maintained through descendant counting",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "Binary",
           "package": "TreeStructures",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "BinaryHeap",
           "package": "TreeStructures",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "BinaryHeap",
           "package": "TreeStructures",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e produces an empty heap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "empty",
           "package": "TreeStructures",
@@ -73,6 +78,7 @@
         "index": {
           "description": "empty produces an empty heap",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "empty",
           "package": "TreeStructures",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e constructs a binary heap from an unsorted list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "fromList",
           "package": "TreeStructures",
@@ -96,6 +103,7 @@
         "index": {
           "description": "fromList constructs binary heap from an unsorted list",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "fromList",
           "normalized": "[a]-\u003eBinaryHeap a",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e returns the element root of the heap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "head",
           "package": "TreeStructures",
@@ -122,6 +131,7 @@
         "index": {
           "description": "head returns the element root of the heap",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "head",
           "normalized": "BinaryHeap a-\u003ea",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "insert",
           "package": "TreeStructures",
@@ -147,6 +158,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "insert",
           "normalized": "a-\u003eBinaryHeap a-\u003eBinaryHeap a",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emerge\u003c/a\u003e\u003c/code\u003e consumes two binary heaps and merges them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "merge",
           "package": "TreeStructures",
@@ -172,6 +185,7 @@
         "index": {
           "description": "merge consumes two binary heaps and merges them",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "merge",
           "normalized": "BinaryHeap a-\u003eBinaryHeap a-\u003eBinaryHeap a",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "null",
           "package": "TreeStructures",
@@ -196,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "null",
           "normalized": "BinaryHeap a-\u003eBool",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e consumes an element and constructs a singleton heap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "singleton",
           "package": "TreeStructures",
@@ -221,6 +238,7 @@
         "index": {
           "description": "singleton consumes an element and constructs singleton heap",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "singleton",
           "normalized": "a-\u003eBinaryHeap a",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e discards the root of the heap and merges the subtrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "tail",
           "package": "TreeStructures",
@@ -246,6 +265,7 @@
         "index": {
           "description": "lg tail discards the root of the heap and merges the subtrees",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "tail",
           "normalized": "BinaryHeap a-\u003eBinaryHeap a",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binary",
           "name": "toList",
           "package": "TreeStructures",
@@ -271,6 +292,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binary",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binary",
           "name": "toList",
           "normalized": "BinaryHeap a-\u003e[a]",
@@ -286,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "Binomial",
           "package": "TreeStructures",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "Binomial",
           "package": "TreeStructures",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "BinomialHeap",
           "package": "TreeStructures",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "BinomialHeap",
           "package": "TreeStructures",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "empty",
           "package": "TreeStructures",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "empty",
           "package": "TreeStructures",
@@ -350,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "fromList",
           "package": "TreeStructures",
@@ -359,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "fromList",
           "normalized": "[a]-\u003eBinomialHeap a",
@@ -375,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "head",
           "package": "TreeStructures",
@@ -385,6 +416,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "head",
           "normalized": "BinomialHeap a-\u003ea",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "insert",
           "package": "TreeStructures",
@@ -410,6 +443,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "insert",
           "normalized": "a-\u003eBinomialHeap a-\u003eBinomialHeap a",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "merge",
           "package": "TreeStructures",
@@ -435,6 +470,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "merge",
           "normalized": "BinomialHeap a-\u003eBinomialHeap a-\u003eBinomialHeap a",
@@ -449,6 +485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "null",
           "package": "TreeStructures",
@@ -458,6 +495,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "null",
           "normalized": "BinomialHeap a-\u003eBool",
@@ -473,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "singleton",
           "package": "TreeStructures",
@@ -482,6 +521,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "singleton",
           "normalized": "a-\u003eBinomialHeap a",
@@ -497,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "tail",
           "package": "TreeStructures",
@@ -507,6 +548,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "tail",
           "normalized": "BinomialHeap a-\u003eBinomialHeap a",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Binomial",
           "name": "toList",
           "package": "TreeStructures",
@@ -532,6 +575,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Heap Binomial",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Binomial",
           "name": "toList",
           "normalized": "BinomialHeap a-\u003e[a]",
@@ -547,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "Skew",
           "package": "TreeStructures",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "Skew",
           "package": "TreeStructures",
@@ -568,6 +614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "SkewHeap",
           "package": "TreeStructures",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "SkewHeap",
           "package": "TreeStructures",
@@ -589,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "empty",
           "package": "TreeStructures",
@@ -598,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "empty",
           "package": "TreeStructures",
@@ -610,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "fromList",
           "package": "TreeStructures",
@@ -619,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "fromList",
           "normalized": "[a]-\u003eSkewHeap a",
@@ -634,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "head",
           "package": "TreeStructures",
@@ -643,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "head",
           "normalized": "SkewHeap a-\u003ea",
@@ -657,6 +711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "insert",
           "package": "TreeStructures",
@@ -666,6 +721,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "insert",
           "normalized": "a-\u003eSkewHeap a-\u003eSkewHeap a",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "merge",
           "package": "TreeStructures",
@@ -689,6 +746,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "merge",
           "normalized": "SkewHeap a-\u003eSkewHeap a-\u003eSkewHeap a",
@@ -703,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "null",
           "package": "TreeStructures",
@@ -712,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "null",
           "normalized": "SkewHeap a-\u003eBool",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "singleton",
           "package": "TreeStructures",
@@ -735,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "singleton",
           "normalized": "a-\u003eSkewHeap a",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "tail",
           "package": "TreeStructures",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "tail",
           "normalized": "SkewHeap a-\u003eSkewHeap a",
@@ -772,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Heap.Skew",
           "name": "toList",
           "package": "TreeStructures",
@@ -781,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data Heap Skew",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Heap.Skew",
           "name": "toList",
           "normalized": "SkewHeap a-\u003e[a]",
@@ -796,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "AVL",
           "package": "TreeStructures",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "AVL",
           "package": "TreeStructures",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "AVLTree",
           "package": "TreeStructures",
@@ -825,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "AVLTree",
           "package": "TreeStructures",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "(!!)",
           "package": "TreeStructures",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "(!!) !!",
           "normalized": "AVLTree a b-\u003eInt-\u003e(a,b)",
@@ -862,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "delete",
           "package": "TreeStructures",
@@ -872,6 +945,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "delete",
           "normalized": "a-\u003eAVLTree a b-\u003eAVLTree a b",
@@ -887,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e produces an empty tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "empty",
           "package": "TreeStructures",
@@ -897,6 +972,7 @@
         "index": {
           "description": "empty produces an empty tree",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "empty",
           "package": "TreeStructures",
@@ -910,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "fromAscList",
           "package": "TreeStructures",
@@ -920,6 +997,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "fromAscList",
           "normalized": "[(a,b)]-\u003eAVLTree a b",
@@ -936,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "fromList",
           "package": "TreeStructures",
@@ -946,6 +1025,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eAVLTree a b",
@@ -962,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e returns the head of a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "head",
           "package": "TreeStructures",
@@ -972,6 +1053,7 @@
         "index": {
           "description": "head returns the head of tree",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "head",
           "normalized": "AVLTree a b-\u003eb",
@@ -987,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "insert",
           "package": "TreeStructures",
@@ -997,6 +1080,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eAVLTree a b-\u003eAVLTree a b",
@@ -1012,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "lookup",
           "package": "TreeStructures",
@@ -1022,6 +1107,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "lookup",
           "normalized": "a-\u003eAVLTree a b-\u003eMaybe b",
@@ -1037,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e returns True if a tree is empty, otherwise False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "null",
           "package": "TreeStructures",
@@ -1047,6 +1134,7 @@
         "index": {
           "description": "null returns True if tree is empty otherwise False",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "null",
           "normalized": "AVLTree a b-\u003eBool",
@@ -1062,6 +1150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e constructs a singleton AVL tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "singleton",
           "package": "TreeStructures",
@@ -1072,6 +1161,7 @@
         "index": {
           "description": "singleton constructs singleton AVL tree",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "singleton",
           "normalized": "a-\u003eb-\u003eAVLTree a b",
@@ -1087,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003esize\u003c/a\u003e\u003c/code\u003e reports the number of children in a tree\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "size",
           "package": "TreeStructures",
@@ -1097,6 +1188,7 @@
         "index": {
           "description": "size reports the number of children in tree",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "size",
           "normalized": "AVLTree a b-\u003eInt",
@@ -1112,6 +1204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(lg n)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e discards the head of the tree and returns a tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "tail",
           "package": "TreeStructures",
@@ -1122,6 +1215,7 @@
         "index": {
           "description": "lg tail discards the head of the tree and returns tree",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "tail",
           "normalized": "AVLTree a b-\u003eAVLTree a b",
@@ -1137,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "toAscList",
           "package": "TreeStructures",
@@ -1147,6 +1242,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "toAscList",
           "normalized": "AVLTree a b-\u003e[(a,b)]",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.AVL",
           "name": "toList",
           "package": "TreeStructures",
@@ -1173,6 +1270,7 @@
         "index": {
           "description": "lg",
           "hierarchy": "Data Tree AVL",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.AVL",
           "name": "toList",
           "normalized": "AVLTree a b-\u003e[(a,b)]",
@@ -1188,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "Splay",
           "package": "TreeStructures",
@@ -1196,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "Splay",
           "package": "TreeStructures",
@@ -1209,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "SplayTree",
           "package": "TreeStructures",
@@ -1217,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "SplayTree",
           "package": "TreeStructures",
@@ -1231,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocates the i^{th} element in BST order without splaying it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "(!!)",
           "package": "TreeStructures",
@@ -1241,6 +1344,7 @@
         "index": {
           "description": "Locates the th element in BST order without splaying it",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "(!!) !!",
           "normalized": "SplayTree a b-\u003eInt-\u003e(a,b)",
@@ -1255,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "delete",
           "package": "TreeStructures",
@@ -1264,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "delete",
           "normalized": "a-\u003eSplayTree a b-\u003eSplayTree a b",
@@ -1279,6 +1385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e constructs an empty splay tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "empty",
           "package": "TreeStructures",
@@ -1289,6 +1396,7 @@
         "index": {
           "description": "empty constructs an empty splay tree",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "empty",
           "package": "TreeStructures",
@@ -1302,6 +1410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e. Constructs a splay tree from a list of key-value pairs sorted in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "fromAscList",
           "package": "TreeStructures",
@@ -1312,6 +1421,7 @@
         "index": {
           "description": "lg Constructs splay tree from list of key-value pairs sorted in ascending order",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "fromAscList",
           "normalized": "[(a,b)]-\u003eSplayTree a b",
@@ -1328,6 +1438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e. Constructs a splay tree from an unsorted list of key-value pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "fromList",
           "package": "TreeStructures",
@@ -1338,6 +1449,7 @@
         "index": {
           "description": "lg Constructs splay tree from an unsorted list of key-value pairs",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003eSplayTree a b",
@@ -1354,6 +1466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003ehead\u003c/a\u003e\u003c/code\u003e returns the key-value pair of the root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "head",
           "package": "TreeStructures",
@@ -1364,6 +1477,7 @@
         "index": {
           "description": "head returns the key-value pair of the root",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "head",
           "normalized": "SplayTree a b-\u003e(a,b)",
@@ -1379,6 +1493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAmortized O(lg n)\u003c/em\u003e. Given a splay tree and a key-value pair, \u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e places the the pair into the tree in BST order. This function is unsatisfying.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "insert",
           "package": "TreeStructures",
@@ -1389,6 +1504,7 @@
         "index": {
           "description": "Amortized lg Given splay tree and key-value pair insert places the the pair into the tree in BST order This function is unsatisfying",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "insert",
           "normalized": "a-\u003eb-\u003eSplayTree a b-\u003eSplayTree a b",
@@ -1404,6 +1520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAmortized O(lg n)\u003c/em\u003e. Given a splay tree and a key, \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e attempts to find a node with the specified key and splays this node to the root. If the key is not found, the nearest node is brought to the root of the tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "lookup",
           "package": "TreeStructures",
@@ -1414,6 +1531,7 @@
         "index": {
           "description": "Amortized lg Given splay tree and key lookup attempts to find node with the specified key and splays this node to the root If the key is not found the nearest node is brought to the root of the tree",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "lookup",
           "normalized": "a-\u003eSplayTree a b-\u003eSplayTree a b",
@@ -1429,6 +1547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003enull\u003c/a\u003e\u003c/code\u003e returns true if a splay tree is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "null",
           "package": "TreeStructures",
@@ -1439,6 +1558,7 @@
         "index": {
           "description": "null returns true if splay tree is empty",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "null",
           "normalized": "SplayTree a b-\u003eBool",
@@ -1454,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003esingleton\u003c/a\u003e\u003c/code\u003e constructs a splay tree containing one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "singleton",
           "package": "TreeStructures",
@@ -1464,6 +1585,7 @@
         "index": {
           "description": "singleton constructs splay tree containing one element",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "singleton",
           "normalized": "(a,b)-\u003eSplayTree a b",
@@ -1478,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "size",
           "package": "TreeStructures",
@@ -1487,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "size",
           "normalized": "SplayTree a b-\u003eInt",
@@ -1502,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplays the i^{th} element in BST order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "splay",
           "package": "TreeStructures",
@@ -1512,6 +1637,7 @@
         "index": {
           "description": "Splays the th element in BST order",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "splay",
           "normalized": "SplayTree a b-\u003eInt-\u003eSplayTree a b",
@@ -1527,6 +1653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eAmortized O(lg n)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003etail\u003c/a\u003e\u003c/code\u003e removes the root of the tree and merges its subtrees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "tail",
           "package": "TreeStructures",
@@ -1537,6 +1664,7 @@
         "index": {
           "description": "Amortized lg tail removes the root of the tree and merges its subtrees",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "tail",
           "normalized": "SplayTree a b-\u003eSplayTree a b",
@@ -1552,6 +1680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e. \u003ccode\u003e\u003ca\u003etoAscList\u003c/a\u003e\u003c/code\u003e converts a splay tree to a list of key-value pairs sorted in ascending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "toAscList",
           "package": "TreeStructures",
@@ -1562,6 +1691,7 @@
         "index": {
           "description": "lg toAscList converts splay tree to list of key-value pairs sorted in ascending order",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "toAscList",
           "normalized": "SplayTree a b-\u003e[(a,b)]",
@@ -1578,6 +1708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n lg n)\u003c/em\u003e. Converts a splay tree into a list of key-value pairs with no constraint on ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:46 UTC 2014",
           "module": "Data.Tree.Splay",
           "name": "toList",
           "package": "TreeStructures",
@@ -1588,6 +1719,7 @@
         "index": {
           "description": "lg Converts splay tree into list of key-value pairs with no constraint on ordering",
           "hierarchy": "Data Tree Splay",
+          "indexed": "2014-03-11T17:02:46",
           "module": "Data.Tree.Splay",
           "name": "toList",
           "normalized": "SplayTree a b-\u003e[(a,b)]",

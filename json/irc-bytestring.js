@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "irc-bytestring"
+        "phrase": "irc-bytestring",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "Parser",
           "package": "irc-bytestring",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "Parser",
           "package": "irc-bytestring",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "IRCMsg",
           "package": "irc-bytestring",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "IRCMsg",
           "package": "irc-bytestring",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ServerName",
           "package": "irc-bytestring",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ServerName",
           "package": "irc-bytestring",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "UserInfo",
           "package": "irc-bytestring",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "UserInfo",
           "package": "irc-bytestring",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "IRCMsg",
           "package": "irc-bytestring",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "IRCMsg",
           "package": "irc-bytestring",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "UserInfo",
           "package": "irc-bytestring",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "UserInfo",
           "package": "irc-bytestring",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "fromIRCMsg",
           "package": "irc-bytestring",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "fromIRCMsg",
           "normalized": "IRCMsg-\u003eByteString",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ircLine",
           "package": "irc-bytestring",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ircLine",
           "package": "irc-bytestring",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ircMsg",
           "package": "irc-bytestring",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "ircMsg",
           "normalized": "ByteString-\u003e[ByteString]-\u003eByteString-\u003eIRCMsg",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgCmd",
           "package": "irc-bytestring",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgCmd",
           "package": "irc-bytestring",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgParams",
           "package": "irc-bytestring",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgParams",
           "normalized": "[ByteString]",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgPrefix",
           "package": "irc-bytestring",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgPrefix",
           "package": "irc-bytestring",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgTrail",
           "package": "irc-bytestring",
@@ -293,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "msgTrail",
           "package": "irc-bytestring",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "toIRCMsg",
           "package": "irc-bytestring",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "toIRCMsg",
           "normalized": "ByteString-\u003eResult IRCMsg",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userHost",
           "package": "irc-bytestring",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userHost",
           "package": "irc-bytestring",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userName",
           "package": "irc-bytestring",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userName",
           "package": "irc-bytestring",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:42 UTC 2014",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userNick",
           "package": "irc-bytestring",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Network IRC ByteString Parser",
+          "indexed": "2014-03-11T18:59:42",
           "module": "Network.IRC.ByteString.Parser",
           "name": "userNick",
           "package": "irc-bytestring",

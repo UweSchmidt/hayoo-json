@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tuple"
+        "phrase": "tuple",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.All",
           "name": "All",
           "package": "tuple",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple All",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.All",
           "name": "All",
           "package": "tuple",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Curry",
           "name": "Curry",
           "package": "tuple",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Curry",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Curry",
           "name": "Curry",
           "package": "tuple",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple curry/uncurry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Curry",
           "name": "Curry",
           "package": "tuple",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Tuple curry uncurry",
           "hierarchy": "Data Tuple Curry",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Curry",
           "name": "Curry",
           "package": "tuple",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Curry",
           "name": "curryN",
           "package": "tuple",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Curry",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Curry",
           "name": "curryN",
           "normalized": "a-\u003eb",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Curry",
           "name": "uncurryN",
           "package": "tuple",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Curry",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Curry",
           "name": "uncurryN",
           "normalized": "a-\u003eb",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Select",
           "package": "tuple",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Select",
           "package": "tuple",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel1",
           "package": "tuple",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel1",
           "package": "tuple",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel10",
           "package": "tuple",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel10",
           "package": "tuple",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel11",
           "package": "tuple",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel11",
           "package": "tuple",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel12",
           "package": "tuple",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel12",
           "package": "tuple",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel13",
           "package": "tuple",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel13",
           "package": "tuple",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel14",
           "package": "tuple",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel14",
           "package": "tuple",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel15",
           "package": "tuple",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel15",
           "package": "tuple",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel2",
           "package": "tuple",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel2",
           "package": "tuple",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel3",
           "package": "tuple",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel3",
           "package": "tuple",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel4",
           "package": "tuple",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel4",
           "package": "tuple",
@@ -360,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel5",
           "package": "tuple",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel5",
           "package": "tuple",
@@ -381,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel6",
           "package": "tuple",
@@ -389,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel6",
           "package": "tuple",
@@ -402,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel7",
           "package": "tuple",
@@ -410,6 +447,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel7",
           "package": "tuple",
@@ -423,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel8",
           "package": "tuple",
@@ -431,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel8",
           "package": "tuple",
@@ -444,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "Sel9",
           "package": "tuple",
@@ -452,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "Sel9",
           "package": "tuple",
@@ -465,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel1",
           "package": "tuple",
@@ -474,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel1",
           "normalized": "a-\u003eb",
@@ -488,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel10",
           "package": "tuple",
@@ -497,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel10",
           "normalized": "a-\u003eb",
@@ -511,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel11",
           "package": "tuple",
@@ -520,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel11",
           "normalized": "a-\u003eb",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel12",
           "package": "tuple",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel12",
           "normalized": "a-\u003eb",
@@ -557,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel13",
           "package": "tuple",
@@ -566,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel13",
           "normalized": "a-\u003eb",
@@ -580,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel14",
           "package": "tuple",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel14",
           "normalized": "a-\u003eb",
@@ -603,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel15",
           "package": "tuple",
@@ -612,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel15",
           "normalized": "a-\u003eb",
@@ -626,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel2",
           "package": "tuple",
@@ -635,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel2",
           "normalized": "a-\u003eb",
@@ -649,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel3",
           "package": "tuple",
@@ -658,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel3",
           "normalized": "a-\u003eb",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel4",
           "package": "tuple",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel4",
           "normalized": "a-\u003eb",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel5",
           "package": "tuple",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel5",
           "normalized": "a-\u003eb",
@@ -718,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel6",
           "package": "tuple",
@@ -727,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel6",
           "normalized": "a-\u003eb",
@@ -741,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel7",
           "package": "tuple",
@@ -750,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel7",
           "normalized": "a-\u003eb",
@@ -764,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel8",
           "package": "tuple",
@@ -773,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel8",
           "normalized": "a-\u003eb",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Select",
           "name": "sel9",
           "package": "tuple",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Select",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Select",
           "name": "sel9",
           "normalized": "a-\u003eb",
@@ -810,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Sequence",
           "name": "Sequence",
           "package": "tuple",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Sequence",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Sequence",
           "name": "Sequence",
           "package": "tuple",
@@ -832,6 +906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTuple sequencing, i.e., take a tuple of of monadic actions and do them from left-to-right,\n returning the resulting tuple.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Sequence",
           "name": "SequenceT",
           "package": "tuple",
@@ -841,6 +916,7 @@
         "index": {
           "description": "Tuple sequencing i.e take tuple of of monadic actions and do them from left-to-right returning the resulting tuple",
           "hierarchy": "Data Tuple Sequence",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Sequence",
           "name": "SequenceT",
           "package": "tuple",
@@ -854,6 +930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Sequence",
           "name": "sequenceT",
           "package": "tuple",
@@ -863,6 +940,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Sequence",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Sequence",
           "name": "sequenceT",
           "normalized": "a-\u003eb",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Update",
           "package": "tuple",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Update",
           "package": "tuple",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd1",
           "package": "tuple",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd1",
           "package": "tuple",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd10",
           "package": "tuple",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd10",
           "package": "tuple",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd11",
           "package": "tuple",
@@ -948,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd11",
           "package": "tuple",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd12",
           "package": "tuple",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd12",
           "package": "tuple",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd13",
           "package": "tuple",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd13",
           "package": "tuple",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd14",
           "package": "tuple",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd14",
           "package": "tuple",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd15",
           "package": "tuple",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd15",
           "package": "tuple",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd2",
           "package": "tuple",
@@ -1053,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd2",
           "package": "tuple",
@@ -1066,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd3",
           "package": "tuple",
@@ -1074,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd3",
           "package": "tuple",
@@ -1087,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd4",
           "package": "tuple",
@@ -1095,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd4",
           "package": "tuple",
@@ -1108,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd5",
           "package": "tuple",
@@ -1116,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd5",
           "package": "tuple",
@@ -1129,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd6",
           "package": "tuple",
@@ -1137,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd6",
           "package": "tuple",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd7",
           "package": "tuple",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd7",
           "package": "tuple",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd8",
           "package": "tuple",
@@ -1179,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd8",
           "package": "tuple",
@@ -1192,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "Upd9",
           "package": "tuple",
@@ -1200,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "Upd9",
           "package": "tuple",
@@ -1213,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd1",
           "package": "tuple",
@@ -1222,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd1",
           "normalized": "a-\u003eb-\u003ec",
@@ -1236,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd10",
           "package": "tuple",
@@ -1245,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd10",
           "normalized": "a-\u003eb-\u003ec",
@@ -1259,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd11",
           "package": "tuple",
@@ -1268,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd11",
           "normalized": "a-\u003eb-\u003ec",
@@ -1282,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd12",
           "package": "tuple",
@@ -1291,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd12",
           "normalized": "a-\u003eb-\u003ec",
@@ -1305,6 +1423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd13",
           "package": "tuple",
@@ -1314,6 +1433,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd13",
           "normalized": "a-\u003eb-\u003ec",
@@ -1328,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd14",
           "package": "tuple",
@@ -1337,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd14",
           "normalized": "a-\u003eb-\u003ec",
@@ -1351,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd15",
           "package": "tuple",
@@ -1360,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd15",
           "normalized": "a-\u003eb-\u003ec",
@@ -1374,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd2",
           "package": "tuple",
@@ -1383,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd2",
           "normalized": "a-\u003eb-\u003ec",
@@ -1397,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd3",
           "package": "tuple",
@@ -1406,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd3",
           "normalized": "a-\u003eb-\u003ec",
@@ -1420,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd4",
           "package": "tuple",
@@ -1429,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd4",
           "normalized": "a-\u003eb-\u003ec",
@@ -1443,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd5",
           "package": "tuple",
@@ -1452,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd5",
           "normalized": "a-\u003eb-\u003ec",
@@ -1466,6 +1598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd6",
           "package": "tuple",
@@ -1475,6 +1608,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd6",
           "normalized": "a-\u003eb-\u003ec",
@@ -1489,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd7",
           "package": "tuple",
@@ -1498,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd7",
           "normalized": "a-\u003eb-\u003ec",
@@ -1512,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd8",
           "package": "tuple",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd8",
           "normalized": "a-\u003eb-\u003ec",
@@ -1535,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:25:58 UTC 2014",
           "module": "Data.Tuple.Update",
           "name": "upd9",
           "package": "tuple",
@@ -1544,6 +1683,7 @@
         },
         "index": {
           "hierarchy": "Data Tuple Update",
+          "indexed": "2014-03-11T20:25:58",
           "module": "Data.Tuple.Update",
           "name": "upd9",
           "normalized": "a-\u003eb-\u003ec",

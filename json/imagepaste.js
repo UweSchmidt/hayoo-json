@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "imagepaste"
+        "phrase": "imagepaste",
+        "type": "phrase"
       },
       "type": "context"
     }

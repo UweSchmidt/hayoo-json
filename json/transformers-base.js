@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "transformers-base"
+        "phrase": "transformers-base",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:54 UTC 2014",
           "module": "Control.Monad.Base",
           "name": "Base",
           "package": "transformers-base",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Base",
+          "indexed": "2014-03-11T20:24:54",
           "module": "Control.Monad.Base",
           "name": "Base",
           "package": "transformers-base",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:54 UTC 2014",
           "module": "Control.Monad.Base",
           "name": "MonadBase",
           "package": "transformers-base",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Base",
+          "indexed": "2014-03-11T20:24:54",
           "module": "Control.Monad.Base",
           "name": "MonadBase",
           "package": "transformers-base",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the base monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:54 UTC 2014",
           "module": "Control.Monad.Base",
           "name": "liftBase",
           "package": "transformers-base",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Lift computation from the base monad",
           "hierarchy": "Control Monad Base",
+          "indexed": "2014-03-11T20:24:54",
           "module": "Control.Monad.Base",
           "name": "liftBase",
           "normalized": "a b-\u003ec b",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan be used as a default implementation for \u003ccode\u003e\u003ca\u003eliftBase\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote that: \u003ccode\u003eliftBaseDefault = \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eliftBase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:24:54 UTC 2014",
           "module": "Control.Monad.Base",
           "name": "liftBaseDefault",
           "package": "transformers-base",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Can be used as default implementation for liftBase Note that liftBaseDefault lift liftBase",
           "hierarchy": "Control Monad Base",
+          "indexed": "2014-03-11T20:24:54",
           "module": "Control.Monad.Base",
           "name": "liftBaseDefault",
           "normalized": "a b-\u003ec d b",

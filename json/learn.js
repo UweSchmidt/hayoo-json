@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "learn"
+        "phrase": "learn",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides tools for doing single parameter Bayesian inference.\n\u003c/p\u003e\u003cp\u003eExample ghci use:\n\u003c/p\u003e\u003cpre\u003e # Generate a discrete simulation of the uniform prior for the bias\n # of a single coin on [0,1] using a grid of 100 points.\n let prior = uniformPrior 100\n # Update the prior as if we flipped the coin 100 times and got 25 heads.\n let posterior = coins prior 25 75\n # Optionally, import Graphics.Gnuplot.Simple and convert posterior \n # to a list of tuples for plotting using listify\n :m + Graphics.Gnuplot.Simple\n plotList [] (listify posterior)\n # As you'd expect, nearly all of the probability mass is concentrated\n # between a bias of 0.2 and 0.3\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Learn",
           "package": "learn",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This library provides tools for doing single parameter Bayesian inference Example ghci use Generate discrete simulation of the uniform prior for the bias of single coin on using grid of points let prior uniformPrior Update the prior as if we flipped the coin times and got heads let posterior coins prior Optionally import Graphics.Gnuplot.Simple and convert posterior to list of tuples for plotting using listify Graphics.Gnuplot.Simple plotList listify posterior As you expect nearly all of the probability mass is concentrated between bias of and",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Learn",
           "package": "learn",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Distro",
           "package": "learn",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Distro",
           "package": "learn",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Prob",
           "package": "learn",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Prob",
           "package": "learn",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Result",
           "package": "learn",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Result",
           "package": "learn",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Distro",
           "package": "learn",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Distro",
           "package": "learn",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Negative",
           "package": "learn",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Negative",
           "package": "learn",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "Positive",
           "package": "learn",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "Positive",
           "package": "learn",
@@ -171,6 +185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a distro with many trials, all of which either succeeded or failed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "coins",
           "package": "learn",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Updates distro with many trials all of which either succeeded or failed",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "coins",
           "normalized": "Distro Prob-\u003eInt-\u003eInt-\u003eDistro Prob",
@@ -196,6 +212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a Distro to a list of tuples for easier plotting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "listify",
           "package": "learn",
@@ -206,6 +223,7 @@
         "index": {
           "description": "Convert Distro to list of tuples for easier plotting",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "listify",
           "normalized": "Distro a-\u003e[(a,Prob)]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "runDistro",
           "package": "learn",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "runDistro",
           "package": "learn",
@@ -243,6 +263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates a distro with a new trial that either succeeded or failed. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "singleCoin",
           "package": "learn",
@@ -253,6 +274,7 @@
         "index": {
           "description": "Updates distro with new trial that either succeeded or failed",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "singleCoin",
           "normalized": "Distro Prob-\u003eResult-\u003eDistro Prob",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a list of elements and generates a uniform Distro over them.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "uniformPDF",
           "package": "learn",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Takes list of elements and generates uniform Distro over them",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "uniformPDF",
           "normalized": "[a]-\u003eDistro a",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a simulated uniform distro over [0,1] with user supplied granularity. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:14 UTC 2014",
           "module": "Numeric.Learn",
           "name": "uniformPrior",
           "package": "learn",
@@ -305,6 +330,7 @@
         "index": {
           "description": "Generates simulated uniform distro over with user supplied granularity",
           "hierarchy": "Numeric Learn",
+          "indexed": "2014-03-11T19:07:14",
           "module": "Numeric.Learn",
           "name": "uniformPrior",
           "normalized": "Integer-\u003eDistro Prob",

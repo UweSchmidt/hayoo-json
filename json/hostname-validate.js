@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hostname-validate"
+        "phrase": "hostname-validate",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eValidate hostnames.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:44:23 UTC 2014",
           "module": "Text.Hostname",
           "name": "Hostname",
           "package": "hostname-validate",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Validate hostnames",
           "hierarchy": "Text Hostname",
+          "indexed": "2014-03-11T18:44:23",
           "module": "Text.Hostname",
           "name": "Hostname",
           "package": "hostname-validate",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the input a valid host name?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:44:23 UTC 2014",
           "module": "Text.Hostname",
           "name": "validHostname",
           "package": "hostname-validate",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Is the input valid host name",
           "hierarchy": "Text Hostname",
+          "indexed": "2014-03-11T18:44:23",
           "module": "Text.Hostname",
           "name": "validHostname",
           "normalized": "ByteString-\u003eBool",

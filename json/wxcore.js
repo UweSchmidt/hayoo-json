@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wxcore"
+        "phrase": "wxcore",
+        "type": "phrase"
       },
       "type": "context"
     }

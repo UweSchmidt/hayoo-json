@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "string"
+        "phrase": "string",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "ISO88591Normalize",
           "package": "string",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Strings ISO88591Normalize",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "ISO88591Normalize",
           "package": "string",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMapping that will be normalized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "mapping",
           "package": "string",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Mapping that will be normalized",
           "hierarchy": "Data Strings ISO88591Normalize",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "mapping",
           "package": "string",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalize the string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "normalize",
           "package": "string",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Normalize the string",
           "hierarchy": "Data Strings ISO88591Normalize",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings.ISO88591Normalize",
           "name": "normalize",
           "normalized": "String-\u003eString",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtra functions and classes for dealing with Strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "Strings",
           "package": "string",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Extra functions and classes for dealing with Strings",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "Strings",
           "package": "string",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for converting to strings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "ToString",
           "package": "string",
@@ -120,6 +129,7 @@
         "index": {
           "description": "class for converting to strings",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "ToString",
           "package": "string",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the length of the string and ellipsize it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "ellipsize",
           "package": "string",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Limit the length of the string and ellipsize it",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "ellipsize",
           "normalized": "Int-\u003eString-\u003eString",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimit the length of a string and ellipsize it if it goes over a\n certain length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "ellipsizeFromFront",
           "package": "string",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Limit the length of string and ellipsize it if it goes over certain length",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "ellipsizeFromFront",
           "normalized": "Int-\u003eString-\u003eString",
@@ -185,6 +199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLower case a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "lower",
           "package": "string",
@@ -195,6 +210,7 @@
         "index": {
           "description": "Lower case string",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "lower",
           "normalized": "String-\u003eString",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a suffix to an integral.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "ordSuffix",
           "package": "string",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Add suffix to an integral",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "ordSuffix",
           "normalized": "a-\u003eString",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad the string with the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "pad",
           "package": "string",
@@ -245,6 +264,7 @@
         "index": {
           "description": "Pad the string with the given string",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "pad",
           "normalized": "Int-\u003eString-\u003eString-\u003eString",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf a trimmed string is empty, return nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "stringToMaybe",
           "package": "string",
@@ -270,6 +291,7 @@
         "index": {
           "description": "If trimmed string is empty return nothing",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "stringToMaybe",
           "normalized": "String-\u003eMaybe String",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "toString",
           "package": "string",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -310,6 +334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrim a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "trim",
           "package": "string",
@@ -320,6 +345,7 @@
         "index": {
           "description": "Trim string",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "trim",
           "normalized": "String-\u003eString",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpper case a string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:30 UTC 2014",
           "module": "Data.Strings",
           "name": "upper",
           "package": "string",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Upper case string",
           "hierarchy": "Data Strings",
+          "indexed": "2014-03-11T20:12:30",
           "module": "Data.Strings",
           "name": "upper",
           "normalized": "String-\u003eString",

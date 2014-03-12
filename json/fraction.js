@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fraction"
+        "phrase": "fraction",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is about fractions.\n\u003c/p\u003e\u003cp\u003eA fraction can be seen as a real number from the closed interval [0,1]. It can also be seen as a\n    percentage. A typical example of a fraction is the extend of a progress bar.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "Fraction",
           "package": "fraction",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is about fractions fraction can be seen as real number from the closed interval It can also be seen as percentage typical example of fraction is the extend of progress bar",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "Fraction",
           "package": "fraction",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "Fraction",
           "package": "fraction",
@@ -51,6 +54,7 @@
         "index": {
           "description": "fraction",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "Fraction",
           "package": "fraction",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a factor into its corresponding fraction.\n\u003c/p\u003e\u003cp\u003eIf the factor is not from the interval [0,1], a runtime error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "fromFactor",
           "package": "fraction",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Converts factor into its corresponding fraction If the factor is not from the interval runtime error occurs",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "fromFactor",
           "normalized": "a-\u003eFraction",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a number into its corresponding fraction regarding a certain interval.\n\u003c/p\u003e\u003cp\u003eIf the lower bound of the interval is equal to or greater than the upper bound or the value\n        is not from the interval, a runtime error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "fromNumber",
           "package": "fraction",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Converts number into its corresponding fraction regarding certain interval If the lower bound of the interval is equal to or greater than the upper bound or the value is not from the interval runtime error occurs",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "fromNumber",
           "normalized": "(a,a)-\u003ea-\u003eFraction",
@@ -117,6 +125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a percentage into its corresponding fraction.\n\u003c/p\u003e\u003cp\u003eIf the percentage is not from the interval [0,100], a runtime error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "fromPercentage",
           "package": "fraction",
@@ -127,6 +136,7 @@
         "index": {
           "description": "Converts percentage into its corresponding fraction If the percentage is not from the interval runtime error occurs",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "fromPercentage",
           "normalized": "a-\u003eFraction",
@@ -143,6 +153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a fraction into its corresponding factor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "toFactor",
           "package": "fraction",
@@ -153,6 +164,7 @@
         "index": {
           "description": "Converts fraction into its corresponding factor",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "toFactor",
           "normalized": "Fraction-\u003eDouble",
@@ -169,6 +181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a fraction into its corresponding number regarding a certain interval.\n\u003c/p\u003e\u003cp\u003eIf the lower bound of the interval is equal to or greater than the upper bound, a runtime\n        error occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "toNumber",
           "package": "fraction",
@@ -179,6 +192,7 @@
         "index": {
           "description": "Converts fraction into its corresponding number regarding certain interval If the lower bound of the interval is equal to or greater than the upper bound runtime error occurs",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "toNumber",
           "normalized": "(Double,Double)-\u003eFraction-\u003eDouble",
@@ -195,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a fraction into its corresponding percentage.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:11:54 UTC 2014",
           "module": "Data.Fraction",
           "name": "toPercentage",
           "package": "fraction",
@@ -205,6 +220,7 @@
         "index": {
           "description": "Converts fraction into its corresponding percentage",
           "hierarchy": "Data Fraction",
+          "indexed": "2014-03-11T18:11:54",
           "module": "Data.Fraction",
           "name": "toPercentage",
           "normalized": "Fraction-\u003eDouble",

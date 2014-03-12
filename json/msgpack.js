@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "msgpack"
+        "phrase": "msgpack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMessagePack map labeling type\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -28,6 +29,7 @@
         "index": {
           "description": "MessagePack map labeling type",
           "hierarchy": "Data MessagePack Assoc",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Assoc",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Assoc",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Assoc",
           "name": "Assoc",
           "package": "msgpack",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Assoc",
           "name": "unAssoc",
           "package": "msgpack",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Assoc",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Assoc",
           "name": "unAssoc",
           "package": "msgpack",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Derive",
           "name": "Derive",
           "package": "msgpack",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Derive",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Derive",
           "name": "Derive",
           "package": "msgpack",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Derive",
           "name": "deriveObject",
           "package": "msgpack",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Derive",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Derive",
           "name": "deriveObject",
           "normalized": "Bool-\u003eName-\u003eQ[Dec]",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Derive",
           "name": "derivePack",
           "package": "msgpack",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Derive",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Derive",
           "name": "derivePack",
           "normalized": "Bool-\u003eName-\u003eQ[Dec]",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Derive",
           "name": "deriveUnpack",
           "package": "msgpack",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Derive",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Derive",
           "name": "deriveUnpack",
           "normalized": "Bool-\u003eName-\u003eQ[Dec]",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "Utf8",
           "package": "msgpack",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "Utf8",
           "package": "msgpack",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "decodeUtf8",
           "package": "msgpack",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "decodeUtf8",
           "normalized": "ByteString-\u003eString",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "encodeUtf8",
           "package": "msgpack",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "encodeUtf8",
           "normalized": "String-\u003eByteString",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "fromLBS",
           "package": "msgpack",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "fromLBS",
           "normalized": "ByteString-\u003eByteString",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "skipChar",
           "package": "msgpack",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "skipChar",
           "package": "msgpack",
@@ -314,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "toLBS",
           "package": "msgpack",
@@ -323,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Internal Utf8",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Internal.Utf8",
           "name": "toLBS",
           "normalized": "ByteString-\u003eByteString",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMessagePack object definition\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "Object",
           "package": "msgpack",
@@ -348,6 +377,7 @@
         "index": {
           "description": "MessagePack object definition",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "Object",
           "package": "msgpack",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of types serializable to and from MessagePack object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "OBJECT",
           "package": "msgpack",
@@ -371,6 +402,7 @@
         "index": {
           "description": "The class of types serializable to and from MessagePack object",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "OBJECT",
           "package": "msgpack",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObject Representation of MessagePack data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "Object",
           "package": "msgpack",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Object Representation of MessagePack data",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "Object",
           "package": "msgpack",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectArray",
           "package": "msgpack",
@@ -416,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectArray",
           "normalized": "ObjectArray[Object]",
@@ -431,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectBool",
           "package": "msgpack",
@@ -440,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectBool",
           "package": "msgpack",
@@ -453,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectDouble",
           "package": "msgpack",
@@ -462,6 +501,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectDouble",
           "package": "msgpack",
@@ -475,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectFloat",
           "package": "msgpack",
@@ -484,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectFloat",
           "package": "msgpack",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectInteger",
           "package": "msgpack",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectInteger",
           "package": "msgpack",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectMap",
           "package": "msgpack",
@@ -528,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectMap",
           "normalized": "ObjectMap[(Object,Object)]",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectNil",
           "package": "msgpack",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectNil",
           "package": "msgpack",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "ObjectRAW",
           "package": "msgpack",
@@ -574,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "ObjectRAW",
           "package": "msgpack",
@@ -588,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a value from MessagePack object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "fromObject",
           "package": "msgpack",
@@ -598,6 +649,7 @@
         "index": {
           "description": "Decode value from MessagePack object",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "fromObject",
           "normalized": "Object-\u003ea",
@@ -614,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a value to MessagePack object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "toObject",
           "package": "msgpack",
@@ -624,6 +677,7 @@
         "index": {
           "description": "Encode value to MessagePack object",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "toObject",
           "normalized": "a-\u003eObject",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode a value from MessagePack object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Object",
           "name": "tryFromObject",
           "package": "msgpack",
@@ -650,6 +705,7 @@
         "index": {
           "description": "Decode value from MessagePack object",
           "hierarchy": "Data MessagePack Object",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Object",
           "name": "tryFromObject",
           "normalized": "Object-\u003eEither String a",
@@ -666,6 +722,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMessagePack Serializer using \u003ccode\u003eData.Binary.Pack\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Pack",
           "name": "Pack",
           "package": "msgpack",
@@ -675,6 +732,7 @@
         "index": {
           "description": "MessagePack Serializer using Data.Binary.Pack",
           "hierarchy": "Data MessagePack Pack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Pack",
           "name": "Pack",
           "package": "msgpack",
@@ -689,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerializable class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Pack",
           "name": "Packable",
           "package": "msgpack",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Serializable class",
           "hierarchy": "Data MessagePack Pack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Pack",
           "name": "Packable",
           "package": "msgpack",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialize a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Pack",
           "name": "from",
           "package": "msgpack",
@@ -722,6 +783,7 @@
         "index": {
           "description": "Serialize value",
           "hierarchy": "Data MessagePack Pack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Pack",
           "name": "from",
           "normalized": "a-\u003eBuilder",
@@ -737,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack Haskell data to MessagePack string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Pack",
           "name": "pack",
           "package": "msgpack",
@@ -747,6 +810,7 @@
         "index": {
           "description": "Pack Haskell data to MessagePack string",
           "hierarchy": "Data MessagePack Pack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Pack",
           "name": "pack",
           "normalized": "a-\u003eByteString",
@@ -762,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMessagePack Deserializer using \u003ccode\u003eData.Attoparsec\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "Unpack",
           "package": "msgpack",
@@ -771,6 +836,7 @@
         "index": {
           "description": "MessagePack Deserializer using Data.Attoparsec",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "Unpack",
           "package": "msgpack",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "IsByteString",
           "package": "msgpack",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "IsByteString",
           "package": "msgpack",
@@ -806,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe exception of unpack\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "UnpackError",
           "package": "msgpack",
@@ -815,6 +884,7 @@
         "index": {
           "description": "The exception of unpack",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "UnpackError",
           "package": "msgpack",
@@ -829,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserializable class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "Unpackable",
           "package": "msgpack",
@@ -838,6 +909,7 @@
         "index": {
           "description": "Deserializable class",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "Unpackable",
           "package": "msgpack",
@@ -851,6 +923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "UnpackError",
           "package": "msgpack",
@@ -860,6 +933,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "UnpackError",
           "package": "msgpack",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeserialize a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "get",
           "package": "msgpack",
@@ -884,6 +959,7 @@
         "index": {
           "description": "Deserialize value",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "get",
           "package": "msgpack",
@@ -896,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "toBS",
           "package": "msgpack",
@@ -905,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "toBS",
           "normalized": "a-\u003eByteString",
@@ -921,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack MessagePack string to Haskell data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "tryUnpack",
           "package": "msgpack",
@@ -931,6 +1010,7 @@
         "index": {
           "description": "Unpack MessagePack string to Haskell data",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "tryUnpack",
           "normalized": "a-\u003eEither String b",
@@ -947,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack MessagePack string to Haskell data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack.Unpack",
           "name": "unpack",
           "package": "msgpack",
@@ -957,6 +1038,7 @@
         "index": {
           "description": "Unpack MessagePack string to Haskell data",
           "hierarchy": "Data MessagePack Unpack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack.Unpack",
           "name": "unpack",
           "normalized": "a-\u003eb",
@@ -972,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple interface to pack and unpack MessagePack data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:23:03 UTC 2014",
           "module": "Data.MessagePack",
           "name": "MessagePack",
           "package": "msgpack",
@@ -981,6 +1064,7 @@
         "index": {
           "description": "Simple interface to pack and unpack MessagePack data",
           "hierarchy": "Data MessagePack",
+          "indexed": "2014-03-11T19:23:03",
           "module": "Data.MessagePack",
           "name": "MessagePack",
           "package": "msgpack",

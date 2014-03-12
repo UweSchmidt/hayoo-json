@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gd"
+        "phrase": "gd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Lazy",
           "package": "gd",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Lazy",
           "package": "gd",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Color",
           "package": "gd",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Color",
           "package": "gd",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Image",
           "package": "gd",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Image",
           "package": "gd",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Point",
           "package": "gd",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Point",
           "package": "gd",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Size",
           "package": "gd",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "Size",
           "package": "gd",
@@ -458,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadGifByteString",
           "package": "gd",
@@ -468,6 +479,7 @@
         "index": {
           "description": "Load GIF image from ByteString",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadGifByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -510,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadGifFile",
           "package": "gd",
@@ -520,6 +533,7 @@
         "index": {
           "description": "Load GIF image from file",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadGifFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -536,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadJpegByteString",
           "package": "gd",
@@ -546,6 +561,7 @@
         "index": {
           "description": "Load JPEG image from ByteString",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadJpegByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -588,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadJpegFile",
           "package": "gd",
@@ -598,6 +615,7 @@
         "index": {
           "description": "Load JPEG image from file",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadJpegFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -614,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadPngByteString",
           "package": "gd",
@@ -624,6 +643,7 @@
         "index": {
           "description": "Load PNG image from ByteString",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadPngByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -666,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadPngFile",
           "package": "gd",
@@ -676,6 +697,7 @@
         "index": {
           "description": "Load PNG image from file",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "loadPngFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -843,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a GIF format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveGifByteString",
           "package": "gd",
@@ -853,6 +876,7 @@
         "index": {
           "description": "Write GIF format ByteString of an image",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveGifByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -869,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a GIF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveGifFile",
           "package": "gd",
@@ -879,6 +904,7 @@
         "index": {
           "description": "Save an image as GIF file",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveGifFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -895,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a JPEG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveJpegByteString",
           "package": "gd",
@@ -905,6 +932,7 @@
         "index": {
           "description": "Write JPEG format ByteString of an image",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "saveJpegByteString",
           "normalized": "Int-\u003eImage-\u003eIO ByteString",
@@ -947,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a PNG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "savePngByteString",
           "package": "gd",
@@ -957,6 +986,7 @@
         "index": {
           "description": "Write PNG format ByteString of an image",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "savePngByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -973,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a PNG file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "savePngFile",
           "package": "gd",
@@ -983,6 +1014,7 @@
         "index": {
           "description": "Save an image as PNG file",
           "hierarchy": "Graphics GD ByteString Lazy",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString.Lazy",
           "name": "savePngFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -1101,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "ByteString",
           "package": "gd",
@@ -1109,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "ByteString",
           "package": "gd",
@@ -1122,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "Color",
           "package": "gd",
@@ -1130,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "Color",
           "package": "gd",
@@ -1143,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "Image",
           "package": "gd",
@@ -1151,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "Image",
           "package": "gd",
@@ -1164,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "Point",
           "package": "gd",
@@ -1172,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "Point",
           "package": "gd",
@@ -1185,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "Size",
           "package": "gd",
@@ -1193,6 +1234,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "Size",
           "package": "gd",
@@ -1207,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadGifByteString",
           "package": "gd",
@@ -1217,6 +1260,7 @@
         "index": {
           "description": "Load GIF image from ByteString",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadGifByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1233,6 +1277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadGifFile",
           "package": "gd",
@@ -1243,6 +1288,7 @@
         "index": {
           "description": "Load GIF image from file",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadGifFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -1259,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadJpegByteString",
           "package": "gd",
@@ -1269,6 +1316,7 @@
         "index": {
           "description": "Load JPEG image from ByteString",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadJpegByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1285,6 +1333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadJpegFile",
           "package": "gd",
@@ -1295,6 +1344,7 @@
         "index": {
           "description": "Load JPEG image from file",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadJpegFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -1311,6 +1361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadPngByteString",
           "package": "gd",
@@ -1321,6 +1372,7 @@
         "index": {
           "description": "Load PNG image from ByteString",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadPngByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1337,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "loadPngFile",
           "package": "gd",
@@ -1347,6 +1400,7 @@
         "index": {
           "description": "Load PNG image from file",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "loadPngFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -1363,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a GIF format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "saveGifByteString",
           "package": "gd",
@@ -1373,6 +1428,7 @@
         "index": {
           "description": "Write GIF format ByteString of an image",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "saveGifByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -1389,6 +1445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a GIF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "saveGifFile",
           "package": "gd",
@@ -1399,6 +1456,7 @@
         "index": {
           "description": "Save an image as GIF file",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "saveGifFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -1415,6 +1473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a JPEG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "saveJpegByteString",
           "package": "gd",
@@ -1425,6 +1484,7 @@
         "index": {
           "description": "Write JPEG format ByteString of an image",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "saveJpegByteString",
           "normalized": "Int-\u003eImage-\u003eIO ByteString",
@@ -1441,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a PNG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "savePngByteString",
           "package": "gd",
@@ -1451,6 +1512,7 @@
         "index": {
           "description": "Write PNG format ByteString of an image",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "savePngByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -1467,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a PNG file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD.ByteString",
           "name": "savePngFile",
           "package": "gd",
@@ -1477,6 +1540,7 @@
         "index": {
           "description": "Save an image as PNG file",
           "hierarchy": "Graphics GD ByteString",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD.ByteString",
           "name": "savePngFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -1492,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "GD",
           "package": "gd",
@@ -1500,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "GD",
           "package": "gd",
@@ -1513,6 +1579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "Color",
           "package": "gd",
@@ -1521,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "Color",
           "package": "gd",
@@ -1534,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "Image",
           "package": "gd",
@@ -1542,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "Image",
           "package": "gd",
@@ -1556,6 +1626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTo access the definition \u003ccode\u003egdBrush\u003c/code\u003e from GD\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "PCREOption",
           "package": "gd",
@@ -1565,6 +1636,7 @@
         "index": {
           "description": "To access the definition gdBrush from GD",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "PCREOption",
           "package": "gd",
@@ -1578,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "Point",
           "package": "gd",
@@ -1586,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "Point",
           "package": "gd",
@@ -1599,6 +1673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "Size",
           "package": "gd",
@@ -1607,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "Size",
           "package": "gd",
@@ -1620,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "PCREOption",
           "package": "gd",
@@ -1629,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "PCREOption",
           "package": "gd",
@@ -1642,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "alphaBlending",
           "package": "gd",
@@ -1651,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "alphaBlending",
           "normalized": "Bool-\u003eImage-\u003eIO()",
@@ -1667,6 +1747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse anti-aliasing when performing the given drawing function.\n   This can cause a segault with some gd versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "antiAliased",
           "package": "gd",
@@ -1677,6 +1758,7 @@
         "index": {
           "description": "Use anti-aliasing when performing the given drawing function This can cause segault with some gd versions",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "antiAliased",
           "normalized": "(Color-\u003eImage-\u003eIO a)-\u003eColor-\u003eImage-\u003eIO a",
@@ -1693,6 +1775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecial character for gdBrushed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "brushed",
           "package": "gd",
@@ -1703,6 +1786,7 @@
         "index": {
           "description": "Special character for gdBrushed",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "brushed",
           "package": "gd",
@@ -1715,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "colorAllocate",
           "package": "gd",
@@ -1724,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "colorAllocate",
           "normalized": "CInt-\u003eCInt-\u003eCInt-\u003eCInt-\u003eImage-\u003eIO Color",
@@ -1740,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a copy of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "copyImage",
           "package": "gd",
@@ -1750,6 +1837,7 @@
         "index": {
           "description": "Make copy of an image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "copyImage",
           "normalized": "Image-\u003eIO Image",
@@ -1766,6 +1854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw a string using the FreeType 2.x library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "drawString",
           "package": "gd",
@@ -1775,6 +1864,7 @@
         "index": {
           "description": "Draw string using the FreeType library",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "drawString",
           "normalized": "String-\u003eDouble-\u003eDouble-\u003ePoint-\u003eString-\u003eColor-\u003eImage-\u003eIO(Point,Point,Point,Point)",
@@ -1791,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraw strings around the top and bottom of a torus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "drawStringCircle",
           "package": "gd",
@@ -1800,6 +1891,7 @@
         "index": {
           "description": "Draw strings around the top and bottom of torus",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "drawStringCircle",
           "normalized": "Point-\u003eDouble-\u003eDouble-\u003eDouble-\u003eString-\u003eDouble-\u003eString-\u003eString-\u003eColor-\u003eImage-\u003eIO()",
@@ -1816,6 +1908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill the entire image with the given color.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "fillImage",
           "package": "gd",
@@ -1826,6 +1919,7 @@
         "index": {
           "description": "Fill the entire image with the given color",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "fillImage",
           "normalized": "Color-\u003eImage-\u003eIO()",
@@ -1842,6 +1936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the color index or the color values of a particular pixel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "getPixel",
           "package": "gd",
@@ -1852,6 +1947,7 @@
         "index": {
           "description": "Retrieves the color index or the color values of particular pixel",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "getPixel",
           "normalized": "(Int,Int)-\u003eImage-\u003eIO Color",
@@ -1868,6 +1964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadGifByteString",
           "package": "gd",
@@ -1878,6 +1975,7 @@
         "index": {
           "description": "Load GIF image from ByteString",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadGifByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1894,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a GIF image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadGifFile",
           "package": "gd",
@@ -1904,6 +2003,7 @@
         "index": {
           "description": "Load GIF image from file",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadGifFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -1920,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadJpegByteString",
           "package": "gd",
@@ -1930,6 +2031,7 @@
         "index": {
           "description": "Load JPEG image from ByteString",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadJpegByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1946,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a JPEG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadJpegFile",
           "package": "gd",
@@ -1956,6 +2059,7 @@
         "index": {
           "description": "Load JPEG image from file",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadJpegFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -1972,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadPngByteString",
           "package": "gd",
@@ -1982,6 +2087,7 @@
         "index": {
           "description": "Load PNG image from ByteString",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadPngByteString",
           "normalized": "ByteString-\u003eIO Image",
@@ -1998,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a PNG image from a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "loadPngFile",
           "package": "gd",
@@ -2008,6 +2115,7 @@
         "index": {
           "description": "Load PNG image from file",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "loadPngFile",
           "normalized": "FilePath-\u003eIO Image",
@@ -2024,6 +2132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMeasure a string using the FreeType 2.x library.  This computes\n the bounding box but does not actually draw the string to any\n image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "measureString",
           "package": "gd",
@@ -2033,6 +2142,7 @@
         "index": {
           "description": "Measure string using the FreeType library This computes the bounding box but does not actually draw the string to any image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "measureString",
           "normalized": "String-\u003eDouble-\u003eDouble-\u003ePoint-\u003eString-\u003eColor-\u003eIO(Point,Point,Point,Point)",
@@ -2049,6 +2159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "newImage",
           "package": "gd",
@@ -2059,6 +2170,7 @@
         "index": {
           "description": "Create new empty image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "newImage",
           "normalized": "Size-\u003eIO Image",
@@ -2074,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "saveAlpha",
           "package": "gd",
@@ -2083,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "saveAlpha",
           "normalized": "Bool-\u003eImage-\u003eIO()",
@@ -2099,6 +2213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a GIF format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "saveGifByteString",
           "package": "gd",
@@ -2109,6 +2224,7 @@
         "index": {
           "description": "Write GIF format ByteString of an image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "saveGifByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -2125,6 +2241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a GIF file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "saveGifFile",
           "package": "gd",
@@ -2135,6 +2252,7 @@
         "index": {
           "description": "Save an image as GIF file",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "saveGifFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -2151,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a JPEG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "saveJpegByteString",
           "package": "gd",
@@ -2161,6 +2280,7 @@
         "index": {
           "description": "Write JPEG format ByteString of an image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "saveJpegByteString",
           "normalized": "Int-\u003eImage-\u003eIO ByteString",
@@ -2177,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a PNG format ByteString of an image.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "savePngByteString",
           "package": "gd",
@@ -2187,6 +2308,7 @@
         "index": {
           "description": "Write PNG format ByteString of an image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "savePngByteString",
           "normalized": "Image-\u003eIO ByteString",
@@ -2203,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSave an image as a PNG file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "savePngFile",
           "package": "gd",
@@ -2213,6 +2336,7 @@
         "index": {
           "description": "Save an image as PNG file",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "savePngFile",
           "normalized": "FilePath-\u003eImage-\u003eIO()",
@@ -2229,6 +2353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet an \u003ccode\u003eImage\u003c/code\u003e as a brush for an \u003ccode\u003eImage\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "setBrush",
           "package": "gd",
@@ -2238,6 +2363,7 @@
         "index": {
           "description": "Set an Image as brush for an Image",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "setBrush",
           "normalized": "Image-\u003eImage-\u003eIO()",
@@ -2253,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "setPixel",
           "package": "gd",
@@ -2262,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "setPixel",
           "normalized": "Point-\u003eColor-\u003eImage-\u003eIO()",
@@ -2277,6 +2405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "toRGBA",
           "package": "gd",
@@ -2286,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "toRGBA",
           "normalized": "Color-\u003e(Int,Int,Int,Int)",
@@ -2301,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "unPCREOption",
           "package": "gd",
@@ -2310,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "unPCREOption",
           "package": "gd",
@@ -2324,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobally switch from using font file names to fontconfig paths\n | for fonts in drawString (and measureString).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:14:17 UTC 2014",
           "module": "Graphics.GD",
           "name": "useFontConfig",
           "package": "gd",
@@ -2334,6 +2467,7 @@
         "index": {
           "description": "Globally switch from using font file names to fontconfig paths for fonts in drawString and measureString",
           "hierarchy": "Graphics GD",
+          "indexed": "2014-03-11T18:14:17",
           "module": "Graphics.GD",
           "name": "useFontConfig",
           "normalized": "Bool-\u003eIO Bool",

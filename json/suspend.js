@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "suspend"
+        "phrase": "suspend",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "Lifted",
           "package": "suspend",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Suspend Lifted",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "Lifted",
           "package": "suspend",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDELAY\n\u003c/p\u003e\u003cp\u003eTODO:\n * Add overflow checks.\n\u003c/p\u003e\u003cp\u003eType representing delay in microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "Delay",
           "package": "suspend",
@@ -49,6 +52,7 @@
         "index": {
           "description": "DELAY TODO Add overflow checks Type representing delay in microseconds",
           "hierarchy": "Control Concurrent Suspend Lifted",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "Delay",
           "package": "suspend",
@@ -197,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogy of \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e that allows for longer delays.\n\u003c/p\u003e\u003cp\u003eSuspends the current thread for the given delay (GHC only).\n\u003c/p\u003e\u003cp\u003eThere is no guarantee that the thread will be rescheduled promptly when the\n delay has expired, but the thread will never continue to run earlier than specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "suspend",
           "package": "suspend",
@@ -207,6 +212,7 @@
         "index": {
           "description": "Analogy of threadDelay that allows for longer delays Suspends the current thread for the given delay GHC only There is no guarantee that the thread will be rescheduled promptly when the delay has expired but the thread will never continue to run earlier than specified",
           "hierarchy": "Control Concurrent Suspend Lifted",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend.Lifted",
           "name": "suspend",
           "normalized": "Delay-\u003ea()",
@@ -248,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend",
           "name": "Suspend",
           "package": "suspend",
@@ -256,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Suspend",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend",
           "name": "Suspend",
           "package": "suspend",
@@ -270,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDELAY\n\u003c/p\u003e\u003cp\u003eTODO:\n * Add overflow checks.\n\u003c/p\u003e\u003cp\u003eType representing delay in microseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend",
           "name": "Delay",
           "package": "suspend",
@@ -279,6 +288,7 @@
         "index": {
           "description": "DELAY TODO Add overflow checks Type representing delay in microseconds",
           "hierarchy": "Control Concurrent Suspend",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend",
           "name": "Delay",
           "package": "suspend",
@@ -293,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogy of \u003ccode\u003e\u003ca\u003ethreadDelay\u003c/a\u003e\u003c/code\u003e that allows for longer delays.\n\u003c/p\u003e\u003cp\u003eSuspends the current thread for the given delay (GHC only).\n\u003c/p\u003e\u003cp\u003eThere is no guarantee that the thread will be rescheduled promptly when the\n delay has expired, but the thread will never continue to run earlier than specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:14:05 UTC 2014",
           "module": "Control.Concurrent.Suspend",
           "name": "suspend",
           "package": "suspend",
@@ -303,6 +314,7 @@
         "index": {
           "description": "Analogy of threadDelay that allows for longer delays Suspends the current thread for the given delay GHC only There is no guarantee that the thread will be rescheduled promptly when the delay has expired but the thread will never continue to run earlier than specified",
           "hierarchy": "Control Concurrent Suspend",
+          "indexed": "2014-03-11T20:14:05",
           "module": "Control.Concurrent.Suspend",
           "name": "suspend",
           "normalized": "Delay-\u003eIO()",

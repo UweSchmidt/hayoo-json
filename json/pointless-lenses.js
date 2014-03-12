@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pointless-lenses"
+        "phrase": "pointless-lenses",
+        "type": "phrase"
       },
       "type": "context"
     }

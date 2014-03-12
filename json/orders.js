@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "orders"
+        "phrase": "orders",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "Lattice",
           "package": "orders",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "Lattice",
           "package": "orders",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "Lattice",
           "package": "orders",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "Lattice",
           "package": "orders",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "lbot",
           "package": "orders",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "lbot",
           "package": "orders",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "ljoin",
           "package": "orders",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "ljoin",
           "normalized": "a-\u003ea-\u003ea",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "ljoins",
           "package": "orders",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "ljoins",
           "normalized": "[a]-\u003ea",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "lmeet",
           "package": "orders",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "lmeet",
           "normalized": "a-\u003ea-\u003ea",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "lmeets",
           "package": "orders",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "lmeets",
           "normalized": "[a]-\u003ea",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.Lattice",
           "name": "ltop",
           "package": "orders",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Data Lattice",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.Lattice",
           "name": "ltop",
           "package": "orders",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "PartialOrder",
           "package": "orders",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "PartialOrder",
           "package": "orders",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "PartialOrder",
           "package": "orders",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "PartialOrder",
           "package": "orders",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "(.:)",
           "package": "orders",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "(.:) .:",
           "normalized": "(a-\u003eb)-\u003e(c-\u003ed-\u003ea)-\u003ec-\u003ed-\u003eb",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "comparable",
           "package": "orders",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "comparable",
           "normalized": "a-\u003ea-\u003eBool",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "eq",
           "package": "orders",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eBool",
@@ -305,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "group3",
           "package": "orders",
@@ -314,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "group3",
           "normalized": "(a,b,c)-\u003e((a,b),c)",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "group4",
           "package": "orders",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "group4",
           "normalized": "(a,b,c,d)-\u003e((a,b),c,d)",
@@ -351,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "gt",
           "package": "orders",
@@ -360,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "gt",
           "normalized": "a-\u003ea-\u003eBool",
@@ -374,6 +406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "gte",
           "package": "orders",
@@ -383,6 +416,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "gte",
           "normalized": "a-\u003ea-\u003eBool",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "lt",
           "package": "orders",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "lt",
           "normalized": "a-\u003ea-\u003eBool",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "lte",
           "package": "orders",
@@ -429,6 +466,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "lte",
           "normalized": "a-\u003ea-\u003eBool",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "pcompare",
           "package": "orders",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "pcompare",
           "normalized": "a-\u003ea-\u003eMaybe Ordering",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "ungroup3",
           "package": "orders",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "ungroup3",
           "normalized": "((a,b),c)-\u003e(a,b,c)",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:33:05 UTC 2014",
           "module": "Data.PartialOrder",
           "name": "ungroup4",
           "package": "orders",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data PartialOrder",
+          "indexed": "2014-03-11T19:33:05",
           "module": "Data.PartialOrder",
           "name": "ungroup4",
           "normalized": "((a,b),c,d)-\u003e(a,b,c,d)",

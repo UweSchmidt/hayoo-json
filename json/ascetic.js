@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ascetic"
+        "phrase": "ascetic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "HTML",
           "package": "ascetic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "HTML",
           "package": "ascetic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "CSS",
           "package": "ascetic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "CSS",
           "package": "ascetic",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "Class",
           "package": "ascetic",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "Class",
           "package": "ascetic",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "DeclarationBlock",
           "package": "ascetic",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "DeclarationBlock",
           "package": "ascetic",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "HTML",
           "package": "ascetic",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "HTML",
           "package": "ascetic",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "Property",
           "package": "ascetic",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "Property",
           "package": "ascetic",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "PseudoClass",
           "package": "ascetic",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "PseudoClass",
           "package": "ascetic",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "Selector",
           "package": "ascetic",
@@ -173,6 +188,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "Selector",
           "package": "ascetic",
@@ -186,6 +202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "ToHTML",
           "package": "ascetic",
@@ -194,6 +211,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "ToHTML",
           "package": "ascetic",
@@ -207,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "Value",
           "package": "ascetic",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "Value",
           "package": "ascetic",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "CSS",
           "package": "ascetic",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "CSS",
           "normalized": "CSS[([Selector],PseudoClass,DeclarationBlock)]",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "body",
           "package": "ascetic",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "body",
           "normalized": "[HTML]-\u003eHTML",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "bold",
           "package": "ascetic",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "bold",
           "normalized": "HTML-\u003eHTML",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "conc",
           "package": "ascetic",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "conc",
           "normalized": "[HTML]-\u003eHTML",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "content",
           "package": "ascetic",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "content",
           "normalized": "String-\u003eHTML",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "div",
           "package": "ascetic",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "div",
           "normalized": "[HTML]-\u003eHTML",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "div_",
           "package": "ascetic",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "div_",
           "normalized": "[(Attribute,Value)]-\u003e[HTML]-\u003eHTML",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "file",
           "package": "ascetic",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "file",
           "normalized": "HTML-\u003eHTML-\u003eHTML",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "head",
           "package": "ascetic",
@@ -422,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "head",
           "normalized": "[HTML]-\u003eHTML",
@@ -436,6 +474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "html",
           "package": "ascetic",
@@ -445,6 +484,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "html",
           "normalized": "a-\u003eHTML",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "meta_",
           "package": "ascetic",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "meta_",
           "normalized": "[(Attribute,Value)]-\u003eHTML",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "script",
           "package": "ascetic",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "script",
           "normalized": "String-\u003eHTML",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "script_",
           "package": "ascetic",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "script_",
           "normalized": "[(Attribute,Value)]-\u003eString-\u003eHTML",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "span",
           "package": "ascetic",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "span",
           "normalized": "[HTML]-\u003eHTML",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "span_",
           "package": "ascetic",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "span_",
           "normalized": "[(Attribute,Value)]-\u003e[HTML]-\u003eHTML",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "style",
           "package": "ascetic",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "style",
           "normalized": "CSS-\u003eHTML",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "table",
           "package": "ascetic",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "table",
           "normalized": "[HTML]-\u003eHTML",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "td",
           "package": "ascetic",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "td",
           "normalized": "HTML-\u003eHTML",
@@ -643,6 +699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic.HTML",
           "name": "tr",
           "package": "ascetic",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic HTML",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic.HTML",
           "name": "tr",
           "normalized": "[HTML]-\u003eHTML",
@@ -666,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Ascetic",
           "package": "ascetic",
@@ -674,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Ascetic",
           "package": "ascetic",
@@ -687,6 +747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Ascetic",
           "package": "ascetic",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Ascetic",
           "package": "ascetic",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Attribute",
           "package": "ascetic",
@@ -716,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Attribute",
           "package": "ascetic",
@@ -729,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Content",
           "package": "ascetic",
@@ -737,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Content",
           "package": "ascetic",
@@ -750,6 +816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Tag",
           "package": "ascetic",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Tag",
           "package": "ascetic",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "ToAscetic",
           "package": "ascetic",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "ToAscetic",
           "package": "ascetic",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "Value",
           "package": "ascetic",
@@ -800,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "Value",
           "package": "ascetic",
@@ -813,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "A",
           "package": "ascetic",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "A",
           "normalized": "A Tag[(Attribute,Value)][Ascetic]",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "C",
           "package": "ascetic",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "C",
           "package": "ascetic",
@@ -857,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "D",
           "package": "ascetic",
@@ -866,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "D",
           "normalized": "D Tag[(Attribute,Value)]Ascetic",
@@ -880,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "E",
           "package": "ascetic",
@@ -889,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "E",
           "normalized": "E Tag[Ascetic]",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "L",
           "package": "ascetic",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "L",
           "normalized": "L[Ascetic]",
@@ -926,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:00 UTC 2014",
           "module": "Text.Ascetic",
           "name": "ascetic",
           "package": "ascetic",
@@ -935,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Text Ascetic",
+          "indexed": "2014-03-11T17:13:00",
           "module": "Text.Ascetic",
           "name": "ascetic",
           "normalized": "a-\u003eAscetic",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pretty"
+        "phrase": "pretty",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJohn Hughes's and Simon Peyton Jones's Pretty Printer Combinators\n\u003c/p\u003e\u003cp\u003eBased on \u003cem\u003eThe Design of a Pretty-printing Library\u003c/em\u003e\n in Advanced Functional Programming,\n Johan Jeuring and Erik Meijer (eds), LNCS 925\n \u003ca\u003ehttp://www.cs.chalmers.se/~rjmh/Papers/pretty.ps\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "HughesPJ",
           "package": "pretty",
@@ -28,6 +29,7 @@
         "index": {
           "description": "John Hughes and Simon Peyton Jones Pretty Printer Combinators Based on The Design of Pretty-printing Library in Advanced Functional Programming Johan Jeuring and Erik Meijer eds LNCS http www.cs.chalmers.se rjmh Papers pretty.ps",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "HughesPJ",
           "package": "pretty",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents.\n A Doc represents a *set* of layouts. A Doc with\n no occurrences of Union or NoDoc represents just one layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Doc",
           "package": "pretty",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The abstract type of documents Doc represents set of layouts Doc with no occurrences of Union or NoDoc represents just one layout",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Doc",
           "package": "pretty",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Mode",
           "package": "pretty",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Mode",
           "package": "pretty",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Style",
           "package": "pretty",
@@ -97,6 +104,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "Style",
           "package": "pretty",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TextDetails data type\n\u003c/p\u003e\u003cp\u003eA TextDetails represents a fragment of text that will be\n output at some point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "TextDetails",
           "package": "pretty",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The TextDetails data type TextDetails represents fragment of text that will be output at some point",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "TextDetails",
           "package": "pretty",
@@ -694,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003efirst\u003c/code\u003e returns its first argument if it is non-empty, otherwise its second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "first",
           "package": "pretty",
@@ -704,6 +715,7 @@
         "index": {
           "description": "first returns its first argument if it is non-empty otherwise its second",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "first",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -1246,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform some simplification of a built up \u003ccode\u003eGDoc\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "reduceDoc",
           "package": "pretty",
@@ -1256,6 +1269,7 @@
         "index": {
           "description": "Perform some simplification of built up GDoc",
           "hierarchy": "Text PrettyPrint HughesPJ",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint.HughesPJ",
           "name": "reduceDoc",
           "normalized": "Doc-\u003eRDoc",
@@ -1569,6 +1583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe default interface to the pretty-printing library. Provides a collection\n of pretty printer combinators.\n\u003c/p\u003e\u003cp\u003eThis module should be used as opposed to the \u003ca\u003eText.PrettyPrint.HughesPJ\u003c/a\u003e\n module. Both are equivalent though as this module simply re-exports the\n other.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint",
           "name": "PrettyPrint",
           "package": "pretty",
@@ -1578,6 +1593,7 @@
         "index": {
           "description": "The default interface to the pretty-printing library Provides collection of pretty printer combinators This module should be used as opposed to the Text.PrettyPrint.HughesPJ module Both are equivalent though as this module simply re-exports the other",
           "hierarchy": "Text PrettyPrint",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint",
           "name": "PrettyPrint",
           "package": "pretty",
@@ -1592,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe abstract type of documents.\n A Doc represents a *set* of layouts. A Doc with\n no occurrences of Union or NoDoc represents just one layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint",
           "name": "Doc",
           "package": "pretty",
@@ -1601,6 +1618,7 @@
         "index": {
           "description": "The abstract type of documents Doc represents set of layouts Doc with no occurrences of Union or NoDoc represents just one layout",
           "hierarchy": "Text PrettyPrint",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint",
           "name": "Doc",
           "package": "pretty",
@@ -1615,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRendering mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint",
           "name": "Mode",
           "package": "pretty",
@@ -1624,6 +1643,7 @@
         "index": {
           "description": "Rendering mode",
           "hierarchy": "Text PrettyPrint",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint",
           "name": "Mode",
           "package": "pretty",
@@ -1638,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA rendering style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint",
           "name": "Style",
           "package": "pretty",
@@ -1647,6 +1668,7 @@
         "index": {
           "description": "rendering style",
           "hierarchy": "Text PrettyPrint",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint",
           "name": "Style",
           "package": "pretty",
@@ -1661,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe TextDetails data type\n\u003c/p\u003e\u003cp\u003eA TextDetails represents a fragment of text that will be\n output at some point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:43:28 UTC 2014",
           "module": "Text.PrettyPrint",
           "name": "TextDetails",
           "package": "pretty",
@@ -1670,6 +1693,7 @@
         "index": {
           "description": "The TextDetails data type TextDetails represents fragment of text that will be output at some point",
           "hierarchy": "Text PrettyPrint",
+          "indexed": "2014-03-11T19:43:28",
           "module": "Text.PrettyPrint",
           "name": "TextDetails",
           "package": "pretty",

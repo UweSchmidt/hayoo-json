@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cpu"
+        "phrase": "cpu",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Arch",
           "package": "cpu",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Arch",
           "package": "cpu",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of all cpu architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Arch",
           "package": "cpu",
@@ -49,6 +52,7 @@
         "index": {
           "description": "List of all cpu architecture",
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Arch",
           "package": "cpu",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Alpha",
           "package": "cpu",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Alpha",
           "package": "cpu",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Arm",
           "package": "cpu",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Arm",
           "package": "cpu",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Hppa",
           "package": "cpu",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Hppa",
           "package": "cpu",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "IA64",
           "package": "cpu",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "IA64",
           "package": "cpu",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "M68K",
           "package": "cpu",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "M68K",
           "package": "cpu",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Mips",
           "package": "cpu",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Mips",
           "package": "cpu",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "PPC",
           "package": "cpu",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "PPC",
           "package": "cpu",
@@ -215,6 +233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "PPC64",
           "package": "cpu",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "PPC64",
           "package": "cpu",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Rs6000",
           "package": "cpu",
@@ -246,6 +267,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Rs6000",
           "package": "cpu",
@@ -259,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "S390",
           "package": "cpu",
@@ -268,6 +291,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "S390",
           "package": "cpu",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "SH",
           "package": "cpu",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "SH",
           "package": "cpu",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "Sparc",
           "package": "cpu",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "Sparc",
           "package": "cpu",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "VAX",
           "package": "cpu",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "VAX",
           "package": "cpu",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "X86",
           "package": "cpu",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "X86",
           "package": "cpu",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "X86_64",
           "package": "cpu",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "X86_64",
           "package": "cpu",
@@ -389,6 +423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the system's cpu architecture\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Arch",
           "name": "getSystemArch",
           "package": "cpu",
@@ -399,6 +434,7 @@
         "index": {
           "description": "Return the system cpu architecture",
           "hierarchy": "System Arch",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Arch",
           "name": "getSystemArch",
           "package": "cpu",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Cpuid",
           "name": "Cpuid",
           "package": "cpu",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Cpuid",
           "name": "Cpuid",
           "package": "cpu",
@@ -434,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimple cpuid call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Cpuid",
           "name": "cpuid",
           "package": "cpu",
@@ -444,6 +483,7 @@
         "index": {
           "description": "simple cpuid call",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Cpuid",
           "name": "cpuid",
           "normalized": "Word-\u003eIO(Word,Word,Word,Word)",
@@ -459,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomplete cpuid call with eax and ecx set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Cpuid",
           "name": "cpuidWithIndex",
           "package": "cpu",
@@ -469,6 +510,7 @@
         "index": {
           "description": "complete cpuid call with eax and ecx set",
           "hierarchy": "System Cpuid",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Cpuid",
           "name": "cpuidWithIndex",
           "normalized": "Word-\u003eWord-\u003eIO(Word,Word,Word,Word)",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "Endian",
           "package": "cpu",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "Endian",
           "package": "cpu",
@@ -506,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erepresent the CPU endianness\n\u003c/p\u003e\u003cp\u003eBig endian system stores bytes with the MSB as the first byte.\n Little endian system stores bytes with the LSB as the first byte.\n\u003c/p\u003e\u003cp\u003emiddle endian is purposely avoided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "Endianness",
           "package": "cpu",
@@ -515,6 +560,7 @@
         "index": {
           "description": "represent the CPU endianness Big endian system stores bytes with the MSB as the first byte Little endian system stores bytes with the LSB as the first byte middle endian is purposely avoided",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "Endianness",
           "package": "cpu",
@@ -528,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "BigEndian",
           "package": "cpu",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "BigEndian",
           "package": "cpu",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "LittleEndian",
           "package": "cpu",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "LittleEndian",
           "package": "cpu",
@@ -573,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a big endian 16 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromBE16",
           "package": "cpu",
@@ -583,6 +634,7 @@
         "index": {
           "description": "Convert from big endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromBE16",
           "normalized": "Word-\u003eWord",
@@ -599,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a big endian 32 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromBE32",
           "package": "cpu",
@@ -609,6 +662,7 @@
         "index": {
           "description": "Convert from big endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromBE32",
           "normalized": "Word-\u003eWord",
@@ -625,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a big endian 64 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromBE64",
           "package": "cpu",
@@ -635,6 +690,7 @@
         "index": {
           "description": "Convert from big endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromBE64",
           "normalized": "Word-\u003eWord",
@@ -651,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a little endian 16 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromLE16",
           "package": "cpu",
@@ -661,6 +718,7 @@
         "index": {
           "description": "Convert from little endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromLE16",
           "normalized": "Word-\u003eWord",
@@ -677,6 +735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a little endian 32 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromLE32",
           "package": "cpu",
@@ -687,6 +746,7 @@
         "index": {
           "description": "Convert from little endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromLE32",
           "normalized": "Word-\u003eWord",
@@ -703,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from a little endian 64 bit value to the cpu endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "fromLE64",
           "package": "cpu",
@@ -713,6 +774,7 @@
         "index": {
           "description": "Convert from little endian bit value to the cpu endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "fromLE64",
           "normalized": "Word-\u003eWord",
@@ -729,6 +791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn the system endianness\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "getSystemEndianness",
           "package": "cpu",
@@ -739,6 +802,7 @@
         "index": {
           "description": "return the system endianness",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "getSystemEndianness",
           "package": "cpu",
@@ -753,6 +817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 16 bit value in cpu endianness to big endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toBE16",
           "package": "cpu",
@@ -763,6 +828,7 @@
         "index": {
           "description": "Convert bit value in cpu endianness to big endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toBE16",
           "normalized": "Word-\u003eWord",
@@ -779,6 +845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 32 bit value in cpu endianess to big endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toBE32",
           "package": "cpu",
@@ -789,6 +856,7 @@
         "index": {
           "description": "Convert bit value in cpu endianess to big endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toBE32",
           "normalized": "Word-\u003eWord",
@@ -805,6 +873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 64 bit value in cpu endianess to big endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toBE64",
           "package": "cpu",
@@ -815,6 +884,7 @@
         "index": {
           "description": "Convert bit value in cpu endianess to big endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toBE64",
           "normalized": "Word-\u003eWord",
@@ -831,6 +901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 16 bit value in cpu endianness to little endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toLE16",
           "package": "cpu",
@@ -841,6 +912,7 @@
         "index": {
           "description": "Convert bit value in cpu endianness to little endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toLE16",
           "normalized": "Word-\u003eWord",
@@ -857,6 +929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 32 bit value in cpu endianess to little endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toLE32",
           "package": "cpu",
@@ -867,6 +940,7 @@
         "index": {
           "description": "Convert bit value in cpu endianess to little endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toLE32",
           "normalized": "Word-\u003eWord",
@@ -883,6 +957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a 64 bit value in cpu endianess to little endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:42:02 UTC 2014",
           "module": "System.Endian",
           "name": "toLE64",
           "package": "cpu",
@@ -893,6 +968,7 @@
         "index": {
           "description": "Convert bit value in cpu endianess to little endian",
           "hierarchy": "System Endian",
+          "indexed": "2014-03-11T17:42:02",
           "module": "System.Endian",
           "name": "toLE64",
           "normalized": "Word-\u003eWord",

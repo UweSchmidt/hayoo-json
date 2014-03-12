@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arrowapply-utils"
+        "phrase": "arrowapply-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ApplyUtils",
           "package": "arrowapply-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ApplyUtils",
           "package": "arrowapply-utils",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ArrowAsMonad",
           "package": "arrowapply-utils",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ArrowAsMonad",
           "package": "arrowapply-utils",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ArrowAsMonad",
           "package": "arrowapply-utils",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "ArrowAsMonad",
           "package": "arrowapply-utils",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA",
           "package": "arrowapply-utils",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Lift an Arrow operation",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA",
           "normalized": "(a-\u003eb)-\u003ec d a-\u003ec d b",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with two parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA2",
           "package": "arrowapply-utils",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Lift an Arrow operation with two parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with three parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA3",
           "package": "arrowapply-utils",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Lift an Arrow operation with three parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with four parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA4",
           "package": "arrowapply-utils",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Lift an Arrow operation with four parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with five parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA5",
           "package": "arrowapply-utils",
@@ -193,6 +208,7 @@
         "index": {
           "description": "Lift an Arrow operation with five parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with six parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA6",
           "package": "arrowapply-utils",
@@ -218,6 +235,7 @@
         "index": {
           "description": "Lift an Arrow operation with six parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA6",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -233,6 +251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with seven parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA7",
           "package": "arrowapply-utils",
@@ -243,6 +262,7 @@
         "index": {
           "description": "Lift an Arrow operation with seven parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA7",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with eight parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA8",
           "package": "arrowapply-utils",
@@ -268,6 +289,7 @@
         "index": {
           "description": "Lift an Arrow operation with eight parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA8",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift an Arrow operation with eight parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA9",
           "package": "arrowapply-utils",
@@ -293,6 +316,7 @@
         "index": {
           "description": "Lift an Arrow operation with eight parameters",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftA9",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d a-\u003ec d b",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM",
           "package": "arrowapply-utils",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM",
           "normalized": "(a-\u003eb)-\u003ec d(e a)-\u003ec d(e b)",
@@ -331,6 +357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM2",
           "package": "arrowapply-utils",
@@ -340,6 +367,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e b)",
@@ -355,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM3",
           "package": "arrowapply-utils",
@@ -364,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e b)",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM4",
           "package": "arrowapply-utils",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e b)",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM5",
           "package": "arrowapply-utils",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "liftAM5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eb)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e a)-\u003ec d(e b)",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed a block of monadic code in an arrow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "monadicA",
           "package": "arrowapply-utils",
@@ -438,6 +473,7 @@
         "index": {
           "description": "Embed block of monadic code in an arrow",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "monadicA",
           "normalized": "(a-\u003eArrowAsMonad b c)-\u003eb a c",
@@ -452,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "unApplyAsMonad",
           "package": "arrowapply-utils",
@@ -461,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "unApplyAsMonad",
           "normalized": "a()b",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbed an arrow in a block of monadic code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:12:46 UTC 2014",
           "module": "Control.Arrow.ApplyUtils",
           "name": "unmonadicA",
           "package": "arrowapply-utils",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Embed an arrow in block of monadic code",
           "hierarchy": "Control Arrow ApplyUtils",
+          "indexed": "2014-03-11T17:12:46",
           "module": "Control.Arrow.ApplyUtils",
           "name": "unmonadicA",
           "normalized": "a b c-\u003eb-\u003eArrowAsMonad a c",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "equal-files"
+        "phrase": "equal-files",
+        "type": "phrase"
       },
       "type": "context"
     }

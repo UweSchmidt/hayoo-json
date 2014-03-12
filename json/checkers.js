@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "checkers"
+        "phrase": "checkers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Bottoms",
           "name": "Bottoms",
           "package": "checkers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Bottoms",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Bottoms",
           "name": "Bottoms",
           "package": "checkers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Bottoms",
           "name": "bottom",
           "package": "checkers",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Bottoms",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Bottoms",
           "name": "bottom",
           "package": "checkers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Bottoms",
           "name": "infiniteComp",
           "package": "checkers",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Bottoms",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Bottoms",
           "name": "infiniteComp",
           "package": "checkers",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome QuickCheck helpers\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Checkers",
           "package": "checkers",
@@ -92,6 +99,7 @@
         "index": {
           "description": "Some QuickCheck helpers",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Checkers",
           "package": "checkers",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "BinRel",
           "package": "checkers",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "BinRel",
           "package": "checkers",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary function, handy for type annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Binop",
           "package": "checkers",
@@ -136,6 +147,7 @@
         "index": {
           "description": "Binary function handy for type annotations",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Binop",
           "package": "checkers",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypes of values that can be tested for equality, perhaps through\n random sampling.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "EqProp",
           "package": "checkers",
@@ -159,6 +172,7 @@
         "index": {
           "description": "Types of values that can be tested for equality perhaps through random sampling",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "EqProp",
           "package": "checkers",
@@ -173,6 +187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e type for tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "FracT",
           "package": "checkers",
@@ -182,6 +197,7 @@
         "index": {
           "description": "Token Fractional type for tests",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "FracT",
           "package": "checkers",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Model",
           "package": "checkers",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Model",
           "package": "checkers",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e but for unary type constructors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Model1",
           "package": "checkers",
@@ -226,6 +245,7 @@
         "index": {
           "description": "Like Model but for unary type constructors",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Model1",
           "package": "checkers",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e dictionary.  Doesn't have to correspond to an\n actual \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance, though see \u003ccode\u003e\u003ca\u003emonoidD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "MonoidD",
           "package": "checkers",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Explicit Monoid dictionary Doesn have to correspond to an actual Monoid instance though see monoidD",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "MonoidD",
           "package": "checkers",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken \u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e type for tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "NumT",
           "package": "checkers",
@@ -272,6 +295,7 @@
         "index": {
           "description": "Token Num type for tests",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "NumT",
           "package": "checkers",
@@ -286,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e type for tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "OrdT",
           "package": "checkers",
@@ -295,6 +320,7 @@
         "index": {
           "description": "Token Ord type for tests",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "OrdT",
           "package": "checkers",
@@ -309,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken uninteresting type for tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "T",
           "package": "checkers",
@@ -318,6 +345,7 @@
         "index": {
           "description": "Token uninteresting type for tests",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "T",
           "package": "checkers",
@@ -331,6 +359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Test",
           "package": "checkers",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Named test",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Test",
           "package": "checkers",
@@ -354,6 +384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNamed batch of tests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "TestBatch",
           "package": "checkers",
@@ -363,6 +394,7 @@
         "index": {
           "description": "Named batch of tests",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "TestBatch",
           "package": "checkers",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary function, handy for type annotations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "Unop",
           "package": "checkers",
@@ -386,6 +419,7 @@
         "index": {
           "description": "Unary function handy for type annotations",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "Unop",
           "package": "checkers",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "(=-=)",
           "package": "checkers",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "(=-=) =-=",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNondeterministic choice: \u003ccode\u003ep1\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.&.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ep2\u003c/code\u003e picks randomly one of\n \u003ccode\u003ep1\u003c/code\u003e and \u003ccode\u003ep2\u003c/code\u003e to test. If you test the property 100 times it\n makes 100 random choices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "(.&.)",
           "package": "checkers",
@@ -432,6 +469,7 @@
         "index": {
           "description": "Nondeterministic choice p1 p2 picks randomly one of p1 and p2 to test If you test the property times it makes random choices",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "(.&.) .&.",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric property: \u003ccode\u003ea \u003ccode\u003erel\u003c/code\u003e b && b \u003ccode\u003erel\u003c/code\u003e a ==\u003e a == b\u003c/code\u003e.  Generate\n \u003ccode\u003ea\u003c/code\u003e randomly, but use \u003ccode\u003egen a\u003c/code\u003e to generate \u003ccode\u003eb\u003c/code\u003e.  \u003ccode\u003egen\u003c/code\u003e ought to satisfy\n both \u003ccode\u003erel\u003c/code\u003e directions fairly often but not always.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "antiSymmetric",
           "package": "checkers",
@@ -457,6 +496,7 @@
         "index": {
           "description": "Symmetric property rel rel Generate randomly but use gen to generate gen ought to satisfy both rel directions fairly often but not always",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "antiSymmetric",
           "normalized": "BinRel a-\u003e(a-\u003eGen a)-\u003eProperty",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "arbitrarySatisfying",
           "package": "checkers",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "arbitrarySatisfying",
           "normalized": "(a-\u003eBool)-\u003eGen a",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate n arbitrary values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "arbs",
           "package": "checkers",
@@ -507,6 +550,7 @@
         "index": {
           "description": "Generate arbitrary values",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "arbs",
           "normalized": "Int-\u003eIO[a]",
@@ -522,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas a given left and right identity, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "bothId",
           "package": "checkers",
@@ -532,6 +577,7 @@
         "index": {
           "description": "Has given left and right identity according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "bothId",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eProperty",
@@ -548,6 +594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a batch of tests.  See \u003ccode\u003e\u003ca\u003equickBatch\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003everboseBatch\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "checkBatch",
           "package": "checkers",
@@ -558,6 +605,7 @@
         "index": {
           "description": "Run batch of tests See quickBatch and verboseBatch",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "checkBatch",
           "normalized": "Args-\u003eTestBatch-\u003eIO()",
@@ -574,6 +622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommutative, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "commutes",
           "package": "checkers",
@@ -584,6 +633,7 @@
         "index": {
           "description": "Commutative according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "commutes",
           "normalized": "(a-\u003ea-\u003eb)-\u003ea-\u003ea-\u003eProperty",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid dictionary for an unwrapped endomorphism.  See also \u003ccode\u003e\u003ca\u003emonoidD\u003c/a\u003e\u003c/code\u003e\n and \u003ccode\u003e\u003ca\u003eEndo\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "endoMonoidD",
           "package": "checkers",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Monoid dictionary for an unwrapped endomorphism See also monoidD and Endo",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "endoMonoidD",
           "normalized": "MonoidD(a-\u003ea)",
@@ -625,6 +677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e types as \u003ccode\u003e\u003ca\u003eEqProp\u003c/a\u003e\u003c/code\u003e types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "eq",
           "package": "checkers",
@@ -635,6 +688,7 @@
         "index": {
           "description": "For Eq types as EqProp types",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "eq",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -649,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "eqModels",
           "package": "checkers",
@@ -658,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "eqModels",
           "normalized": "a-\u003ea-\u003eProperty",
@@ -673,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "genR",
           "package": "checkers",
@@ -682,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "genR",
           "normalized": "(a,a)-\u003eGen a",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce n values from a generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "gens",
           "package": "checkers",
@@ -707,6 +766,7 @@
         "index": {
           "description": "Produce values from generator",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "gens",
           "normalized": "Int-\u003eGen a-\u003eIO[a]",
@@ -722,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHomomorphism properties with respect to given monoid dictionaries.\n See also \u003ccode\u003emonoidMorphism\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "homomorphism",
           "package": "checkers",
@@ -732,6 +793,7 @@
         "index": {
           "description": "Homomorphism properties with respect to given monoid dictionaries See also monoidMorphism",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "homomorphism",
           "normalized": "MonoidD a-\u003eMonoidD b-\u003e(a-\u003eb)-\u003e[(String,Property)]",
@@ -747,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary function \u003ccode\u003eop\u003c/code\u003e is has an idempotent element \u003ccode\u003ex\u003c/code\u003e, i.e.,\n \u003ccode\u003ex \u003ccode\u003eop\u003c/code\u003e x == x\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "idemElem",
           "package": "checkers",
@@ -757,6 +820,7 @@
         "index": {
           "description": "binary function op is has an idempotent element i.e op",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "idemElem",
           "normalized": "(a-\u003ea-\u003ea)-\u003ea-\u003eProperty",
@@ -773,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe unary function \u003ccode\u003ef\u003c/code\u003e is idempotent, i.e., \u003ccode\u003ef . f == f\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "idempotent",
           "package": "checkers",
@@ -783,6 +848,7 @@
         "index": {
           "description": "The unary function is idempotent i.e",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "idempotent",
           "normalized": "(a-\u003ea)-\u003eProperty",
@@ -798,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA binary function \u003ccode\u003eop\u003c/code\u003e is idempotent, i.e., \u003ccode\u003ex \u003ccode\u003eop\u003c/code\u003e x == x\u003c/code\u003e, for all \u003ccode\u003ex\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "idempotent2",
           "package": "checkers",
@@ -808,6 +875,7 @@
         "index": {
           "description": "binary function op is idempotent i.e op for all",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "idempotent2",
           "normalized": "(a-\u003ea-\u003ea)-\u003eProperty",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef\u003c/code\u003e is a left and right inverse of \u003ccode\u003eg\u003c/code\u003e.  See also \u003ccode\u003e\u003ca\u003einverseL\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "inverse",
           "package": "checkers",
@@ -833,6 +902,7 @@
         "index": {
           "description": "is left and right inverse of See also inverseL",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "inverse",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eProperty",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ef\u003c/code\u003e is a left inverse of \u003ccode\u003eg\u003c/code\u003e.  See also \u003ccode\u003e\u003ca\u003einverse\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "inverseL",
           "package": "checkers",
@@ -858,6 +929,7 @@
         "index": {
           "description": "is left inverse of See also inverse",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "inverseL",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ea)-\u003eProperty",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssociative, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "isAssoc",
           "package": "checkers",
@@ -883,6 +956,7 @@
         "index": {
           "description": "Associative according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "isAssoc",
           "normalized": "(a-\u003ea-\u003ea)-\u003eProperty",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommutative, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "isCommut",
           "package": "checkers",
@@ -909,6 +984,7 @@
         "index": {
           "description": "Commutative according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "isCommut",
           "normalized": "(a-\u003ea-\u003ea)-\u003eProperty",
@@ -925,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas a given left identity, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "leftId",
           "package": "checkers",
@@ -935,6 +1012,7 @@
         "index": {
           "description": "Has given left identity according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "leftId",
           "normalized": "(a-\u003eb-\u003eb)-\u003ea-\u003eProperty",
@@ -950,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq",
           "package": "checkers",
@@ -959,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq",
           "normalized": "a-\u003eb-\u003eProperty",
@@ -973,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq1",
           "package": "checkers",
@@ -982,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq1",
           "normalized": "(a-\u003ea)-\u003e(b-\u003eb)-\u003ea-\u003eProperty",
@@ -996,6 +1078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq2",
           "package": "checkers",
@@ -1005,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq2",
           "normalized": "(a-\u003ea-\u003ea)-\u003e(b-\u003eb-\u003eb)-\u003ea-\u003ea-\u003eProperty",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq3",
           "package": "checkers",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq3",
           "normalized": "(a-\u003ea-\u003ea-\u003ea)-\u003e(b-\u003eb-\u003eb-\u003eb)-\u003ea-\u003ea-\u003ea-\u003eProperty",
@@ -1042,6 +1128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq4",
           "package": "checkers",
@@ -1051,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq4",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(b-\u003eb-\u003eb-\u003eb-\u003eb)-\u003ea-\u003ea-\u003ea-\u003ea-\u003eProperty",
@@ -1065,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq5",
           "package": "checkers",
@@ -1074,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "meq5",
           "normalized": "(a-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea)-\u003e(b-\u003eb-\u003eb-\u003eb-\u003eb-\u003eb)-\u003ea-\u003ea-\u003ea-\u003ea-\u003ea-\u003eProperty",
@@ -1088,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "model",
           "package": "checkers",
@@ -1097,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "model",
           "normalized": "a-\u003eb",
@@ -1111,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "model1",
           "package": "checkers",
@@ -1120,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "model1",
           "normalized": "a b c d-\u003ee d",
@@ -1135,6 +1229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e dictionary built from the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "monoidD",
           "package": "checkers",
@@ -1145,6 +1240,7 @@
         "index": {
           "description": "Monoid dictionary built from the Monoid methods",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "monoidD",
           "package": "checkers",
@@ -1158,6 +1254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a batch tersely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "quickBatch",
           "package": "checkers",
@@ -1168,6 +1265,7 @@
         "index": {
           "description": "Check batch tersely",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "quickBatch",
           "normalized": "TestBatch-\u003eIO()",
@@ -1184,6 +1282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReflexive property: \u003ccode\u003ea \u003ccode\u003erel\u003c/code\u003e a\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "reflexive",
           "package": "checkers",
@@ -1194,6 +1293,7 @@
         "index": {
           "description": "Reflexive property rel",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "reflexive",
           "normalized": "BinRel a-\u003eProperty",
@@ -1209,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHas a given right identity, according to '(=-=)'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "rightId",
           "package": "checkers",
@@ -1219,6 +1320,7 @@
         "index": {
           "description": "Has given right identity according to",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "rightId",
           "normalized": "(a-\u003eb-\u003ea)-\u003eb-\u003eProperty",
@@ -1235,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetric property: \u003ccode\u003ea \u003ccode\u003erel\u003c/code\u003e b ==\u003e b \u003ccode\u003erel\u003c/code\u003e a\u003c/code\u003e.  Generate \u003ccode\u003ea\u003c/code\u003e\n randomly, but use \u003ccode\u003egen a\u003c/code\u003e to generate \u003ccode\u003eb\u003c/code\u003e.  \u003ccode\u003egen\u003c/code\u003e ought to satisfy\n \u003ccode\u003erel\u003c/code\u003e fairly often.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "symmetric",
           "package": "checkers",
@@ -1245,6 +1348,7 @@
         "index": {
           "description": "Symmetric property rel rel Generate randomly but use gen to generate gen ought to satisfy rel fairly often",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "symmetric",
           "normalized": "BinRel a-\u003e(a-\u003eGen a)-\u003eProperty",
@@ -1260,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransitive property: \u003ccode\u003ea \u003ccode\u003erel\u003c/code\u003e b && b \u003ccode\u003erel\u003c/code\u003e c ==\u003e a \u003ccode\u003erel\u003c/code\u003e c\u003c/code\u003e.\n Generate \u003ccode\u003ea\u003c/code\u003e randomly, but use \u003ccode\u003egen a\u003c/code\u003e to generate \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003egen b\u003c/code\u003e to\n generate \u003ccode\u003ec\u003c/code\u003e.  \u003ccode\u003egen\u003c/code\u003e ought to satisfy \u003ccode\u003erel\u003c/code\u003e fairly often.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "transitive",
           "package": "checkers",
@@ -1270,6 +1375,7 @@
         "index": {
           "description": "Transitive property rel rel rel Generate randomly but use gen to generate and gen to generate gen ought to satisfy rel fairly often",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "transitive",
           "normalized": "BinRel a-\u003e(a-\u003eGen a)-\u003eProperty",
@@ -1285,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlatten a test batch for inclusion in another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "unbatch",
           "package": "checkers",
@@ -1295,6 +1402,7 @@
         "index": {
           "description": "Flatten test batch for inclusion in another",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "unbatch",
           "normalized": "TestBatch-\u003e[Test]",
@@ -1310,6 +1418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck a batch verbosely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Checkers",
           "name": "verboseBatch",
           "package": "checkers",
@@ -1320,6 +1429,7 @@
         "index": {
           "description": "Check batch verbosely",
           "hierarchy": "Test QuickCheck Checkers",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Checkers",
           "name": "verboseBatch",
           "normalized": "TestBatch-\u003eIO()",
@@ -1336,6 +1446,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome QuickCheck properties for standard type classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "Classes",
           "package": "checkers",
@@ -1345,6 +1456,7 @@
         "index": {
           "description": "Some QuickCheck properties for standard type classes",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "Classes",
           "package": "checkers",
@@ -1359,6 +1471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties to check that the \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e satisfies the monad\n properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "applicative",
           "package": "checkers",
@@ -1369,6 +1482,7 @@
         "index": {
           "description": "Properties to check that the Applicative satisfies the monad properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "applicative",
           "normalized": "a(b,c,d)-\u003eTestBatch",
@@ -1384,6 +1498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e morphism properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "applicativeMorphism",
           "package": "checkers",
@@ -1394,6 +1509,7 @@
         "index": {
           "description": "Applicative morphism properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "applicativeMorphism",
           "normalized": "(a b c d-\u003ee d)-\u003eTestBatch",
@@ -1409,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "arrow",
           "package": "checkers",
@@ -1418,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "arrow",
           "normalized": "a b(c,d,e)-\u003eTestBatch",
@@ -1432,6 +1550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "arrowChoice",
           "package": "checkers",
@@ -1441,6 +1560,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "arrowChoice",
           "normalized": "a b(c,d,e)-\u003eTestBatch",
@@ -1457,6 +1577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties to check that the \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e satisfies the functor\n properties.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "functor",
           "package": "checkers",
@@ -1467,6 +1588,7 @@
         "index": {
           "description": "Properties to check that the Functor satisfies the functor properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "functor",
           "normalized": "a(b,c,d)-\u003eTestBatch",
@@ -1481,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "functorMonoid",
           "package": "checkers",
@@ -1490,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "functorMonoid",
           "normalized": "a(b,c)-\u003eTestBatch",
@@ -1506,6 +1630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e morphism (natural transformation) properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "functorMorphism",
           "package": "checkers",
@@ -1516,6 +1641,7 @@
         "index": {
           "description": "Functor morphism natural transformation properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "functorMorphism",
           "normalized": "(a b c d-\u003ee d)-\u003eTestBatch",
@@ -1532,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties to check that the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e \u003ccode\u003em\u003c/code\u003e satisfies the monad properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monad",
           "package": "checkers",
@@ -1542,6 +1669,7 @@
         "index": {
           "description": "Properties to check that the Monad satisfies the monad properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monad",
           "normalized": "a(b,c,d)-\u003eTestBatch",
@@ -1556,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monadApplicative",
           "package": "checkers",
@@ -1565,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monadApplicative",
           "normalized": "a(b,c)-\u003eTestBatch",
@@ -1581,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaw for monads that are also instances of \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monadFunctor",
           "package": "checkers",
@@ -1591,6 +1722,7 @@
         "index": {
           "description": "Law for monads that are also instances of Functor",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monadFunctor",
           "normalized": "a(b,c)-\u003eTestBatch",
@@ -1607,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e morphism properties\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e morphism properties\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monadMorphism",
           "package": "checkers",
@@ -1617,6 +1750,7 @@
         "index": {
           "description": "Monad morphism properties Applicative morphism properties",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monadMorphism",
           "normalized": "(a b c d-\u003ee d)-\u003eTestBatch",
@@ -1633,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaws for MonadPlus instances with left catch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monadOr",
           "package": "checkers",
@@ -1643,6 +1778,7 @@
         "index": {
           "description": "Laws for MonadPlus instances with left catch",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monadOr",
           "normalized": "a(b,c)-\u003eTestBatch",
@@ -1659,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLaws for MonadPlus instances with left distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monadPlus",
           "package": "checkers",
@@ -1669,6 +1806,7 @@
         "index": {
           "description": "Laws for MonadPlus instances with left distribution",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monadPlus",
           "normalized": "a(b,c)-\u003eTestBatch",
@@ -1685,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProperties to check that the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ea\u003c/code\u003e satisfies the monoid\n properties.  The argument value is ignored and is present only for its\n type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monoid",
           "package": "checkers",
@@ -1695,6 +1834,7 @@
         "index": {
           "description": "Properties to check that the Monoid satisfies the monoid properties The argument value is ignored and is present only for its type",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monoid",
           "normalized": "a-\u003eTestBatch",
@@ -1710,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid homomorphism properties.  See also \u003ccode\u003e\u003ca\u003ehomomorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "monoidMorphism",
           "package": "checkers",
@@ -1720,6 +1861,7 @@
         "index": {
           "description": "Monoid homomorphism properties See also homomorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "monoidMorphism",
           "normalized": "(a-\u003eb)-\u003eTestBatch",
@@ -1736,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal ordering\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "ord",
           "package": "checkers",
@@ -1746,6 +1889,7 @@
         "index": {
           "description": "Total ordering",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "ord",
           "normalized": "(a-\u003eGen a)-\u003eTestBatch",
@@ -1761,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e morphism properties.  \u003ccode\u003eh\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e morphism iff:\n\u003c/p\u003e\u003cpre\u003e    a \u003c= b = h a \u003c= h b\n\n    h (a `min` b) = h a `min` h b\n    h (a `max` b) = h a `max` h b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "ordMorphism",
           "package": "checkers",
@@ -1771,6 +1916,7 @@
         "index": {
           "description": "Ord morphism properties is an Ord morphism iff min min max max",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "ordMorphism",
           "normalized": "(a-\u003eb)-\u003eTestBatch",
@@ -1787,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTotal ordering.  \u003ccode\u003egen a\u003c/code\u003e ought to generate values \u003ccode\u003eb\u003c/code\u003e satisfying \u003ccode\u003ea\n \u003ccode\u003erel\u003c/code\u003e b\u003c/code\u003e fairly often.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "ordRel",
           "package": "checkers",
@@ -1797,6 +1944,7 @@
         "index": {
           "description": "Total ordering gen ought to generate values satisfying rel fairly often",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "ordRel",
           "normalized": "BinRel a-\u003e(a-\u003eGen a)-\u003eTestBatch",
@@ -1813,6 +1961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantic function (\u003ccode\u003e\u003ca\u003emodel1\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003ef\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eapplicativeMorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticApplicative",
           "package": "checkers",
@@ -1823,6 +1972,7 @@
         "index": {
           "description": "The semantic function model1 for is an applicativeMorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticApplicative",
           "normalized": "a()-\u003eTestBatch",
@@ -1839,6 +1989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantic function (\u003ccode\u003e\u003ca\u003emodel1\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003ef\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003efunctorMorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticFunctor",
           "package": "checkers",
@@ -1849,6 +2000,7 @@
         "index": {
           "description": "The semantic function model1 for is functorMorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticFunctor",
           "normalized": "a()-\u003eTestBatch",
@@ -1865,6 +2017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantic function (\u003ccode\u003e\u003ca\u003emodel1\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003ef\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003emonadMorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticMonad",
           "package": "checkers",
@@ -1875,6 +2028,7 @@
         "index": {
           "description": "The semantic function model1 for is monadMorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticMonad",
           "normalized": "a()-\u003eTestBatch",
@@ -1891,6 +2045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantic function (\u003ccode\u003e\u003ca\u003emodel\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003ea\u003c/code\u003e is a \u003ccode\u003e\u003ca\u003emonoidMorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticMonoid",
           "package": "checkers",
@@ -1901,6 +2056,7 @@
         "index": {
           "description": "The semantic function model for is monoidMorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticMonoid",
           "normalized": "a-\u003eTestBatch",
@@ -1917,6 +2073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe semantic function (\u003ccode\u003e\u003ca\u003emodel\u003c/a\u003e\u003c/code\u003e) for \u003ccode\u003ea\u003c/code\u003e is an \u003ccode\u003e\u003ca\u003eordMorphism\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticOrd",
           "package": "checkers",
@@ -1927,6 +2084,7 @@
         "index": {
           "description": "The semantic function model for is an ordMorphism",
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "semanticOrd",
           "normalized": "a-\u003eTestBatch",
@@ -1942,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Classes",
           "name": "traversable",
           "package": "checkers",
@@ -1951,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Classes",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Classes",
           "name": "traversable",
           "normalized": "a(b,c,d)-\u003eTestBatch",
@@ -1965,6 +2125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Array",
           "name": "Array",
           "package": "checkers",
@@ -1973,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Array",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Array",
           "name": "Array",
           "package": "checkers",
@@ -1986,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "Char",
           "package": "checkers",
@@ -1994,6 +2157,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "Char",
           "package": "checkers",
@@ -2008,6 +2172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates one or other of '{' and '}'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "brace",
           "package": "checkers",
@@ -2018,6 +2183,7 @@
         "index": {
           "description": "Generates one or other of and",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "brace",
           "package": "checkers",
@@ -2031,6 +2197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates one or other of '[' and ']'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "bracket",
           "package": "checkers",
@@ -2041,6 +2208,7 @@
         "index": {
           "description": "Generates one or other of and",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "bracket",
           "package": "checkers",
@@ -2054,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates any lower case alpha character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "lowerAlpha",
           "package": "checkers",
@@ -2064,6 +2233,7 @@
         "index": {
           "description": "Generates any lower case alpha character",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "lowerAlpha",
           "package": "checkers",
@@ -2078,6 +2248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates either a '\\n' or '\\r'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "newline",
           "package": "checkers",
@@ -2088,6 +2259,7 @@
         "index": {
           "description": "Generates either or",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "newline",
           "package": "checkers",
@@ -2101,6 +2273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a 'non space' character, i.e. any ascii except\n     ' ', '\\t', '\\n' and '\\r'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "nonSpace",
           "package": "checkers",
@@ -2111,6 +2284,7 @@
         "index": {
           "description": "Generates non space character i.e any ascii except and",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "nonSpace",
           "package": "checkers",
@@ -2125,6 +2299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a digit character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "numeric",
           "package": "checkers",
@@ -2135,6 +2310,7 @@
         "index": {
           "description": "Generates digit character",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "numeric",
           "package": "checkers",
@@ -2148,6 +2324,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates one of \u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e-\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003c\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003e\u003e\u003c/a\u003e\u003c/code\u003e, '|' and '#'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "operator",
           "package": "checkers",
@@ -2158,6 +2335,7 @@
         "index": {
           "description": "Generates one of and",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "operator",
           "package": "checkers",
@@ -2171,6 +2349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates one or other of '(' and ')'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "parenthesis",
           "package": "checkers",
@@ -2181,6 +2360,7 @@
         "index": {
           "description": "Generates one or other of and",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "parenthesis",
           "package": "checkers",
@@ -2194,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a whitespace charecter, not a newline.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "space",
           "package": "checkers",
@@ -2204,6 +2385,7 @@
         "index": {
           "description": "Generates whitespace charecter not newline",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "space",
           "package": "checkers",
@@ -2217,6 +2399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates any upper case alpha character.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "upperAlpha",
           "package": "checkers",
@@ -2227,6 +2410,7 @@
         "index": {
           "description": "Generates any upper case alpha character",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "upperAlpha",
           "package": "checkers",
@@ -2241,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates any whitespace character, including new lines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "whitespace",
           "package": "checkers",
@@ -2251,6 +2436,7 @@
         "index": {
           "description": "Generates any whitespace character including new lines",
           "hierarchy": "Test QuickCheck Instances Char",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Char",
           "name": "whitespace",
           "package": "checkers",
@@ -2263,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "Eq",
           "package": "checkers",
@@ -2271,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Eq",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "Eq",
           "package": "checkers",
@@ -2284,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "notEqualTo",
           "package": "checkers",
@@ -2293,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Eq",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "notEqualTo",
           "normalized": "a-\u003eGen a-\u003eGen a",
@@ -2308,6 +2498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "notOneof",
           "package": "checkers",
@@ -2317,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Eq",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Eq",
           "name": "notOneof",
           "normalized": "[a]-\u003eGen a",
@@ -2332,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "List",
           "package": "checkers",
@@ -2340,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "List",
           "package": "checkers",
@@ -2354,6 +2548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates any list (possibly empty) with the contents generated using\n     its argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "anyList",
           "package": "checkers",
@@ -2364,6 +2559,7 @@
         "index": {
           "description": "Generates any list possibly empty with the contents generated using its argument",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "anyList",
           "normalized": "Gen a-\u003eGen[a]",
@@ -2380,6 +2576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate increasing towards infinity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "decreasing",
           "package": "checkers",
@@ -2390,6 +2587,7 @@
         "index": {
           "description": "Generate increasing towards infinity",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "decreasing",
           "normalized": "Gen[a]",
@@ -2405,6 +2603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an infinite list of increasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "decreasingInf",
           "package": "checkers",
@@ -2415,6 +2614,7 @@
         "index": {
           "description": "Generate an infinite list of increasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "decreasingInf",
           "normalized": "Gen[a]",
@@ -2431,6 +2631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate increasing towards infinity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "increasing",
           "package": "checkers",
@@ -2441,6 +2642,7 @@
         "index": {
           "description": "Generate increasing towards infinity",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "increasing",
           "normalized": "Gen[a]",
@@ -2456,6 +2658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an infinite list of increasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "increasingInf",
           "package": "checkers",
@@ -2466,6 +2669,7 @@
         "index": {
           "description": "Generate an infinite list of increasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "increasingInf",
           "normalized": "Gen[a]",
@@ -2482,6 +2686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates an infinite list with contents generated using its argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "infiniteList",
           "package": "checkers",
@@ -2492,6 +2697,7 @@
         "index": {
           "description": "Generates an infinite list with contents generated using its argument",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "infiniteList",
           "normalized": "Gen a-\u003eGen[a]",
@@ -2508,6 +2714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a non-empty list with the contents generated using its\n     argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonEmpty",
           "package": "checkers",
@@ -2518,6 +2725,7 @@
         "index": {
           "description": "Generates non-empty list with the contents generated using its argument",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonEmpty",
           "normalized": "Gen a-\u003eGen[a]",
@@ -2534,6 +2742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate nondecreasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nondecreasing",
           "package": "checkers",
@@ -2544,6 +2753,7 @@
         "index": {
           "description": "Generate nondecreasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nondecreasing",
           "normalized": "Gen[a]",
@@ -2559,6 +2769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an infinite list of nondecreasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nondecreasingInf",
           "package": "checkers",
@@ -2569,6 +2780,7 @@
         "index": {
           "description": "Generate an infinite list of nondecreasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nondecreasingInf",
           "normalized": "Gen[a]",
@@ -2585,6 +2797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate nondecreasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonincreasing",
           "package": "checkers",
@@ -2595,6 +2808,7 @@
         "index": {
           "description": "Generate nondecreasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonincreasing",
           "normalized": "Gen[a]",
@@ -2610,6 +2824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an infinite list of nondecreasing values\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonincreasingInf",
           "package": "checkers",
@@ -2620,6 +2835,7 @@
         "index": {
           "description": "Generate an infinite list of nondecreasing values",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "nonincreasingInf",
           "normalized": "Gen[a]",
@@ -2636,6 +2852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a list with a set length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.List",
           "name": "setLength",
           "package": "checkers",
@@ -2646,6 +2863,7 @@
         "index": {
           "description": "Generates list with set length",
           "hierarchy": "Test QuickCheck Instances List",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.List",
           "name": "setLength",
           "normalized": "Int-\u003eGen a-\u003eGen[a]",
@@ -2661,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Maybe",
           "name": "Maybe",
           "package": "checkers",
@@ -2669,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Maybe",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Maybe",
           "name": "Maybe",
           "package": "checkers",
@@ -2682,6 +2902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Maybe",
           "name": "maybeGen",
           "package": "checkers",
@@ -2691,6 +2912,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Maybe",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Maybe",
           "name": "maybeGen",
           "normalized": "Gen a-\u003eGen(Maybe a)",
@@ -2706,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "Num",
           "package": "checkers",
@@ -2714,6 +2937,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "Num",
           "package": "checkers",
@@ -2727,6 +2951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "negative",
           "package": "checkers",
@@ -2736,6 +2961,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "negative",
           "package": "checkers",
@@ -2748,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonNegative",
           "package": "checkers",
@@ -2757,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonNegative",
           "package": "checkers",
@@ -2770,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonPositive",
           "package": "checkers",
@@ -2779,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonPositive",
           "package": "checkers",
@@ -2792,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonZero",
           "package": "checkers",
@@ -2801,6 +3032,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonZero",
           "normalized": "Gen a-\u003eGen a",
@@ -2816,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonZero_",
           "package": "checkers",
@@ -2825,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "nonZero_",
           "package": "checkers",
@@ -2838,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "positive",
           "package": "checkers",
@@ -2847,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Num",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Num",
           "name": "positive",
           "package": "checkers",
@@ -2859,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "Ord",
           "package": "checkers",
@@ -2867,6 +3104,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Ord",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "Ord",
           "package": "checkers",
@@ -2880,6 +3118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "greaterThan",
           "package": "checkers",
@@ -2889,6 +3128,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Ord",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "greaterThan",
           "normalized": "a-\u003eGen a-\u003eGen a",
@@ -2904,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "lessThan",
           "package": "checkers",
@@ -2913,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Ord",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Ord",
           "name": "lessThan",
           "normalized": "a-\u003eGen a-\u003eGen a",
@@ -2928,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "Tuple",
           "package": "checkers",
@@ -2936,6 +3179,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances Tuple",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "Tuple",
           "package": "checkers",
@@ -2950,6 +3194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a 5-tuple using its arguments to generate the parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e****\u003c)",
           "package": "checkers",
@@ -2960,6 +3205,7 @@
         "index": {
           "description": "Generates tuple using its arguments to generate the parts",
           "hierarchy": "Test QuickCheck Instances Tuple",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e****\u003c) \u003e****\u003c",
           "normalized": "Gen a-\u003eGen b-\u003eGen c-\u003eGen d-\u003eGen e-\u003eGen(a,b,c,d,e)",
@@ -2975,6 +3221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a 4-tuple using its arguments to generate the parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e***\u003c)",
           "package": "checkers",
@@ -2985,6 +3232,7 @@
         "index": {
           "description": "Generates tuple using its arguments to generate the parts",
           "hierarchy": "Test QuickCheck Instances Tuple",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e***\u003c) \u003e***\u003c",
           "normalized": "Gen a-\u003eGen b-\u003eGen c-\u003eGen d-\u003eGen(a,b,c,d)",
@@ -3000,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a 3-tuple using its arguments to generate the parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e**\u003c)",
           "package": "checkers",
@@ -3010,6 +3259,7 @@
         "index": {
           "description": "Generates tuple using its arguments to generate the parts",
           "hierarchy": "Test QuickCheck Instances Tuple",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e**\u003c) \u003e**\u003c",
           "normalized": "Gen a-\u003eGen b-\u003eGen c-\u003eGen(a,b,c)",
@@ -3025,6 +3275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerates a 2-tuple using its arguments to generate the parts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e*\u003c)",
           "package": "checkers",
@@ -3035,6 +3286,7 @@
         "index": {
           "description": "Generates tuple using its arguments to generate the parts",
           "hierarchy": "Test QuickCheck Instances Tuple",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances.Tuple",
           "name": "(\u003e*\u003c) \u003e*\u003c",
           "normalized": "Gen a-\u003eGen b-\u003eGen(a,b)",
@@ -3049,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Instances",
           "name": "Instances",
           "package": "checkers",
@@ -3057,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Instances",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Instances",
           "name": "Instances",
           "package": "checkers",
@@ -3071,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLater. Allows for testing of functions that depend on the order of\n evaluation.\n\u003c/p\u003e\u003cp\u003eTODO: move this functionality to the testing package for Unamb.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Later",
           "name": "Later",
           "package": "checkers",
@@ -3080,6 +3335,7 @@
         "index": {
           "description": "Later Allows for testing of functions that depend on the order of evaluation TODO move this functionality to the testing package for Unamb",
           "hierarchy": "Test QuickCheck Later",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Later",
           "name": "Later",
           "package": "checkers",
@@ -3094,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay a value's availability by the given duration in seconds.\n Note that the delay happens only on the first evaluation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Later",
           "name": "delay",
           "package": "checkers",
@@ -3104,6 +3361,7 @@
         "index": {
           "description": "Delay value availability by the given duration in seconds Note that the delay happens only on the first evaluation",
           "hierarchy": "Test QuickCheck Later",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Later",
           "name": "delay",
           "normalized": "a-\u003eb-\u003eb",
@@ -3119,6 +3377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value that is never available.  Rerun of \u003ccode\u003ehang\u003c/code\u003e from unamb, but\n replicated to avoid mutual dependency.\n\u003c/p\u003e\u003cp\u003eTODO: Remove when this module is moved into the unamb-test package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Later",
           "name": "delayForever",
           "package": "checkers",
@@ -3129,6 +3388,7 @@
         "index": {
           "description": "value that is never available Rerun of hang from unamb but replicated to avoid mutual dependency TODO Remove when this module is moved into the unamb-test package",
           "hierarchy": "Test QuickCheck Later",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Later",
           "name": "delayForever",
           "package": "checkers",
@@ -3143,6 +3403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the given function associative when restricted to the same value\n but possibly different times?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Later",
           "name": "isAssocTimes",
           "package": "checkers",
@@ -3153,6 +3414,7 @@
         "index": {
           "description": "Is the given function associative when restricted to the same value but possibly different times",
           "hierarchy": "Test QuickCheck Later",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Later",
           "name": "isAssocTimes",
           "normalized": "Double-\u003e(a-\u003ea-\u003ea)-\u003eProperty",
@@ -3169,6 +3431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the given function commutative when restricted to the same value\n but possibly different times?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Later",
           "name": "isCommutTimes",
           "package": "checkers",
@@ -3179,6 +3442,7 @@
         "index": {
           "description": "Is the given function commutative when restricted to the same value but possibly different times",
           "hierarchy": "Test QuickCheck Later",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Later",
           "name": "isCommutTimes",
           "normalized": "Double-\u003e(a-\u003ea-\u003eb)-\u003eProperty",
@@ -3195,6 +3459,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese are some general purpose utilities for use with QuickCheck.\n\u003c/p\u003e\u003cp\u003eCopied from QuickCheck 1.2.0.0.  Doesn't appear in 2.x\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "Utils",
           "package": "checkers",
@@ -3204,6 +3469,7 @@
         "index": {
           "description": "These are some general purpose utilities for use with QuickCheck Copied from QuickCheck Doesn appear in",
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "Utils",
           "package": "checkers",
@@ -3217,6 +3483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "isAssociative",
           "package": "checkers",
@@ -3226,6 +3493,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "isAssociative",
           "normalized": "(a-\u003ea-\u003ea)-\u003eProperty",
@@ -3241,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "isAssociativeBy",
           "package": "checkers",
@@ -3250,6 +3519,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "isAssociativeBy",
           "normalized": "(a-\u003ea-\u003eb)-\u003eGen a-\u003e(a-\u003ea-\u003ea)-\u003eProperty",
@@ -3265,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "isCommutable",
           "package": "checkers",
@@ -3274,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "isCommutable",
           "normalized": "(a-\u003ea-\u003eb)-\u003eProperty",
@@ -3289,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "isCommutableBy",
           "package": "checkers",
@@ -3298,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "isCommutableBy",
           "normalized": "(a-\u003ea-\u003eb)-\u003eGen c-\u003e(c-\u003ec-\u003ea)-\u003eProperty",
@@ -3313,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:59 UTC 2014",
           "module": "Test.QuickCheck.Utils",
           "name": "isTotalOrder",
           "package": "checkers",
@@ -3322,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Test QuickCheck Utils",
+          "indexed": "2014-03-11T17:31:59",
           "module": "Test.QuickCheck.Utils",
           "name": "isTotalOrder",
           "normalized": "a-\u003ea-\u003eProperty",

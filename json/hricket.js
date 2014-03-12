@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hricket"
+        "phrase": "hricket",
+        "type": "phrase"
       },
       "type": "context"
     }

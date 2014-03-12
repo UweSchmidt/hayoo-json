@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "parseargs"
+        "phrase": "parseargs",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module supplies an argument parser.\n Given a description of type [\u003ccode\u003e\u003ca\u003eArg\u003c/a\u003e\u003c/code\u003e] of the legal\n arguments to the program, a list of argument strings,\n and a bit of extra information, the \u003ccode\u003e\u003ca\u003eparseArgs\u003c/a\u003e\u003c/code\u003e function\n in this module returns an\n \u003ccode\u003e\u003ca\u003eArgs\u003c/a\u003e\u003c/code\u003e data structure suitable for querying using the\n provided functions \u003ccode\u003e\u003ca\u003egotArg\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetArg\u003c/a\u003e\u003c/code\u003e, etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgs",
           "package": "parseargs",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module supplies an argument parser Given description of type Arg of the legal arguments to the program list of argument strings and bit of extra information the parseArgs function in this module returns an Args data structure suitable for querying using the provided functions gotArg getArg etc",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgs",
           "package": "parseargs",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for building parse control information,\n for backward compatibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "APCData",
           "package": "parseargs",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Class for building parse control information for backward compatibility",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "APCData",
           "package": "parseargs",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe description of an argument, suitable for\n messages and for parsing.  The \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e field\n is used both for flags with a data argument, and\n for positional data arguments.\n\u003c/p\u003e\u003cp\u003eThere are two cases:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e The argument is a flag, in which case at least\n     one of \u003ccode\u003e\u003ca\u003eargAbbr\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eargName\u003c/a\u003e\u003c/code\u003e is provided;\n\u003c/li\u003e\u003cli\u003e The argument is positional, in which case neither\n     \u003ccode\u003e\u003ca\u003eargAbbr\u003c/a\u003e\u003c/code\u003e nor \u003ccode\u003e\u003ca\u003eargName\u003c/a\u003e\u003c/code\u003e are provided, but \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e is.\n\u003c/li\u003e\u003c/ol\u003e\u003cp\u003eIf none of \u003ccode\u003e\u003ca\u003eargAbbr\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eargName\u003c/a\u003e\u003c/code\u003e, or \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e are\n provided, this is an error.  See also the\n \u003ccode\u003e\u003ca\u003eargDataRequired\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eargDataOptional\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003eargDataDefaulted\u003c/a\u003e\u003c/code\u003e functions below, which are used to\n generate \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "Arg",
           "package": "parseargs",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The description of an argument suitable for messages and for parsing The argData field is used both for flags with data argument and for positional data arguments There are two cases The argument is flag in which case at least one of argAbbr and argName is provided The argument is positional in which case neither argAbbr nor argName are provided but argData is If none of argAbbr argName or argData are provided this is an error See also the argDataRequired argDataOptional and argDataDefaulted functions below which are used to generate argData",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "Arg",
           "package": "parseargs",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eArgType\u003c/a\u003e\u003c/code\u003e instance for opening a file from its string name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgFileOpener",
           "package": "parseargs",
@@ -97,6 +104,7 @@
         "index": {
           "description": "ArgType instance for opening file from its string name",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgFileOpener",
           "package": "parseargs",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the mapping from argument index to value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgRecord",
           "package": "parseargs",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The type of the mapping from argument index to value",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgRecord",
           "package": "parseargs",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of values that can be parsed by the argument parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgType",
           "package": "parseargs",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Type of values that can be parsed by the argument parser",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgType",
           "package": "parseargs",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data structure \u003ccode\u003e\u003ca\u003eparseArgs\u003c/a\u003e\u003c/code\u003e produces.  The key\n element is the \u003ccode\u003e\u003ca\u003eArgRecord\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eargs\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "Args",
           "package": "parseargs",
@@ -166,6 +179,7 @@
         "index": {
           "description": "The data structure parseArgs produces The key element is the ArgRecord args",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "Args",
           "package": "parseargs",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow \"sloppy\" the parse is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsComplete",
           "package": "parseargs",
@@ -189,6 +204,7 @@
         "index": {
           "description": "How sloppy the parse is",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsComplete",
           "package": "parseargs",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhether to always treat an unknown argument beginning\n with \"-\" as an error, or to allow it to be used as a\n positional argument when possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsDash",
           "package": "parseargs",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Whether to always treat an unknown argument beginning with as an error or to allow it to be used as positional argument when possible",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsDash",
           "package": "parseargs",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord containing the collective parse control information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsParseControl",
           "package": "parseargs",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Record containing the collective parse control information",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsParseControl",
           "package": "parseargs",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe types of an argument carrying data.  The constructor\n argument is used to carry a default value.\n\u003c/p\u003e\u003cp\u003eThe constructor argument should really be hidden.\n Values of this type are normally constructed within\n the pseudo-constructors pseudo-constructors\n \u003ccode\u003e\u003ca\u003eargDataRequired\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eargDataOptional\u003c/a\u003e\u003c/code\u003e, and\n \u003ccode\u003e\u003ca\u003eargDataDefaulted\u003c/a\u003e\u003c/code\u003e, to which only the constructor\n function itself is passed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "Argtype",
           "package": "parseargs",
@@ -258,6 +279,7 @@
         "index": {
           "description": "The types of an argument carrying data The constructor argument is used to carry default value The constructor argument should really be hidden Values of this type are normally constructed within the pseudo-constructors pseudo-constructors argDataRequired argDataOptional and argDataDefaulted to which only the constructor function itself is passed",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "Argtype",
           "package": "parseargs",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation specific to an argument carrying a datum.  This\n is an opaque type, whose instances are constructed using the\n pseudo-constructors \u003ccode\u003e\u003ca\u003eargDataRequired\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eargDataOptional\u003c/a\u003e\u003c/code\u003e,\n and \u003ccode\u003e\u003ca\u003eargDataDefaulted\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "DataArg",
           "package": "parseargs",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Information specific to an argument carrying datum This is an opaque type whose instances are constructed using the pseudo-constructors argDataRequired argDataOptional and argDataDefaulted",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "DataArg",
           "package": "parseargs",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "IOMode",
           "package": "parseargs",
@@ -303,6 +328,7 @@
         "index": {
           "description": "See openFile",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "IOMode",
           "package": "parseargs",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis exception is raised with an appropriate error message\n when argument parsing fails.  The first argument is the usage\n message, the second the actual error message from the parser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgsException",
           "package": "parseargs",
@@ -326,6 +353,7 @@
         "index": {
           "description": "This exception is raised with an appropriate error message when argument parsing fails The first argument is the usage message the second the actual error message from the parser",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgsException",
           "package": "parseargs",
@@ -339,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "AppendMode",
           "package": "parseargs",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "AppendMode",
           "package": "parseargs",
@@ -360,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "Arg",
           "package": "parseargs",
@@ -369,6 +400,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "Arg",
           "package": "parseargs",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgFileOpener",
           "package": "parseargs",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgFileOpener",
           "package": "parseargs",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "Args",
           "package": "parseargs",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "Args",
           "package": "parseargs",
@@ -427,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAny extraneous arguments\n (unparseable from description)\n will cause the parser to fail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsComplete",
           "package": "parseargs",
@@ -437,6 +474,7 @@
         "index": {
           "description": "Any extraneous arguments unparseable from description will cause the parser to fail",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsComplete",
           "package": "parseargs",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an argument begins with\n a \"-\", it will always be\n treated as an error unless\n it corresponds to a flag description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsHardDash",
           "package": "parseargs",
@@ -461,6 +500,7 @@
         "index": {
           "description": "If an argument begins with it will always be treated as an error unless it corresponds to flag description",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsHardDash",
           "package": "parseargs",
@@ -475,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll extraneous arguments are\n permitted, and will be skipped,\n saved, and returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsInterspersed",
           "package": "parseargs",
@@ -485,6 +526,7 @@
         "index": {
           "description": "All extraneous arguments are permitted and will be skipped saved and returned",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsInterspersed",
           "package": "parseargs",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsParseControl",
           "package": "parseargs",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsParseControl",
           "package": "parseargs",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an argument beginning with\n a \"-\" is unrecognized as a flag,\n treat it as a positional argument\n if possible. Otherwise it is an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsSoftDash",
           "package": "parseargs",
@@ -531,6 +576,7 @@
         "index": {
           "description": "If an argument beginning with is unrecognized as flag treat it as positional argument if possible Otherwise it is an error",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsSoftDash",
           "package": "parseargs",
@@ -545,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrailing extraneous arguments are\n permitted, and will be skipped,\n saved, and returned.  The\n constructor argument is the\n name of the args.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgsTrailing",
           "package": "parseargs",
@@ -555,6 +602,7 @@
         "index": {
           "description": "Trailing extraneous arguments are permitted and will be skipped saved and returned The constructor argument is the name of the args",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgsTrailing",
           "package": "parseargs",
@@ -568,6 +616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeDouble",
           "package": "parseargs",
@@ -577,6 +626,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeDouble",
           "package": "parseargs",
@@ -590,6 +640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeFloat",
           "package": "parseargs",
@@ -599,6 +650,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeFloat",
           "package": "parseargs",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeInt",
           "package": "parseargs",
@@ -621,6 +674,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeInt",
           "package": "parseargs",
@@ -634,6 +688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeInteger",
           "package": "parseargs",
@@ -643,6 +698,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeInteger",
           "package": "parseargs",
@@ -656,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeString",
           "package": "parseargs",
@@ -665,6 +722,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ArgtypeString",
           "package": "parseargs",
@@ -678,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgsException",
           "package": "parseargs",
@@ -687,6 +746,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ParseArgsException",
           "package": "parseargs",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "ReadMode",
           "package": "parseargs",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "ReadMode",
           "package": "parseargs",
@@ -721,6 +783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "WriteMode",
           "package": "parseargs",
@@ -729,6 +792,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "WriteMode",
           "package": "parseargs",
@@ -742,6 +806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "apcComplete",
           "package": "parseargs",
@@ -751,6 +816,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "apcComplete",
           "package": "parseargs",
@@ -764,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "apcDash",
           "package": "parseargs",
@@ -773,6 +840,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "apcDash",
           "package": "parseargs",
@@ -787,6 +855,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne-character flag name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argAbbr",
           "package": "parseargs",
@@ -797,6 +866,7 @@
         "index": {
           "description": "One-character flag name",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argAbbr",
           "package": "parseargs",
@@ -811,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDatum description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argData",
           "package": "parseargs",
@@ -821,6 +892,7 @@
         "index": {
           "description": "Datum description",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argData",
           "package": "parseargs",
@@ -835,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e for the given optional argument with the\n given default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argDataDefaulted",
           "package": "parseargs",
@@ -844,6 +917,7 @@
         "index": {
           "description": "Generate the argData for the given optional argument with the given default",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argDataDefaulted",
           "normalized": "String-\u003e(Maybe a-\u003eArgtype)-\u003ea-\u003eMaybe DataArg",
@@ -860,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e for the given optional argument with no default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argDataOptional",
           "package": "parseargs",
@@ -869,6 +944,7 @@
         "index": {
           "description": "Generate the argData for the given optional argument with no default",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argDataOptional",
           "normalized": "String-\u003e(Maybe a-\u003eArgtype)-\u003eMaybe DataArg",
@@ -885,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the \u003ccode\u003e\u003ca\u003eargData\u003c/a\u003e\u003c/code\u003e for the given non-optional argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argDataRequired",
           "package": "parseargs",
@@ -894,6 +971,7 @@
         "index": {
           "description": "Generate the argData for the given non-optional argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argDataRequired",
           "normalized": "String-\u003e(Maybe a-\u003eArgtype)-\u003eMaybe DataArg",
@@ -910,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDocumentation for the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argDesc",
           "package": "parseargs",
@@ -920,6 +999,7 @@
         "index": {
           "description": "Documentation for the argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argDesc",
           "package": "parseargs",
@@ -934,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction to open the file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argFileOpener",
           "package": "parseargs",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Function to open the file",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argFileOpener",
           "normalized": "IOMode-\u003eIO Handle",
@@ -960,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnects the input description\n to the output argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argIndex",
           "package": "parseargs",
@@ -970,6 +1053,7 @@
         "index": {
           "description": "Connects the input description to the output argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argIndex",
           "package": "parseargs",
@@ -984,6 +1068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\"Long name\" of flag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argName",
           "package": "parseargs",
@@ -994,6 +1079,7 @@
         "index": {
           "description": "Long name of flag",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argName",
           "package": "parseargs",
@@ -1008,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe argument map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "args",
           "package": "parseargs",
@@ -1018,6 +1105,7 @@
         "index": {
           "description": "The argument map",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "args",
           "package": "parseargs",
@@ -1031,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasename of 0th argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argsProgName",
           "package": "parseargs",
@@ -1041,6 +1130,7 @@
         "index": {
           "description": "Basename of th argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argsProgName",
           "package": "parseargs",
@@ -1055,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemaining unprocessed arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argsRest",
           "package": "parseargs",
@@ -1065,6 +1156,7 @@
         "index": {
           "description": "Remaining unprocessed arguments",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argsRest",
           "normalized": "[String]",
@@ -1081,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull usage string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "argsUsage",
           "package": "parseargs",
@@ -1091,6 +1184,7 @@
         "index": {
           "description": "Full usage string",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "argsUsage",
           "package": "parseargs",
@@ -1105,6 +1199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the filename part of a pathname.\n Unnecessarily efficient implementation does a single\n tail-call traversal with no construction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "baseName",
           "package": "parseargs",
@@ -1114,6 +1209,7 @@
         "index": {
           "description": "Return the filename part of pathname Unnecessarily efficient implementation does single tail-call traversal with no construction",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "baseName",
           "normalized": "String-\u003eString",
@@ -1129,6 +1225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getAPCData",
           "package": "parseargs",
@@ -1138,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getAPCData",
           "normalized": "a-\u003eArgsParseControl",
@@ -1154,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an argument's value if it is present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArg",
           "package": "parseargs",
@@ -1164,6 +1263,7 @@
         "index": {
           "description": "Fetch an argument value if it is present",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArg",
           "package": "parseargs",
@@ -1178,6 +1278,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e Return the \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgDouble",
           "package": "parseargs",
@@ -1187,6 +1288,7 @@
         "index": {
           "description": "Deprecated Return the Double value if any of the given argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgDouble",
           "normalized": "Args a-\u003ea-\u003eMaybe Double",
@@ -1203,6 +1305,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e Treat the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument as\n a file handle and try to open it as requested.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgFile",
           "package": "parseargs",
@@ -1212,6 +1315,7 @@
         "index": {
           "description": "Deprecated Treat the String value if any of the given argument as file handle and try to open it as requested",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgFile",
           "normalized": "Args a-\u003ea-\u003eIOMode-\u003eIO(Maybe Handle)",
@@ -1228,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e Return the \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgFloat",
           "package": "parseargs",
@@ -1237,6 +1342,7 @@
         "index": {
           "description": "Deprecated Return the Float value if any of the given argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgFloat",
           "normalized": "Args a-\u003ea-\u003eMaybe Float",
@@ -1253,6 +1359,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e Return the \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgInt",
           "package": "parseargs",
@@ -1262,6 +1369,7 @@
         "index": {
           "description": "Deprecated Return the Int value if any of the given argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgInt",
           "normalized": "Args a-\u003ea-\u003eMaybe Int",
@@ -1278,6 +1386,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e Return the \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgInteger",
           "package": "parseargs",
@@ -1287,6 +1396,7 @@
         "index": {
           "description": "Deprecated Return the Integer value if any of the given argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgInteger",
           "normalized": "Args a-\u003ea-\u003eMaybe Integer",
@@ -1303,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTreat the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument as a\n file handle and try to open it as requested.  If not\n present, substitute the appropriate one of stdin or\n stdout as indicated by \u003ccode\u003e\u003ca\u003eIOMode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgStdio",
           "package": "parseargs",
@@ -1312,6 +1423,7 @@
         "index": {
           "description": "Treat the String value if any of the given argument as file handle and try to open it as requested If not present substitute the appropriate one of stdin or stdout as indicated by IOMode",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgStdio",
           "normalized": "Args a-\u003ea-\u003eIOMode-\u003eIO Handle",
@@ -1328,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cdl\u003e\u003cdt\u003eDeprecated\u003c/dt\u003e\u003cdd\u003e  Return the \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e value, if any, of the given argument.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getArgString",
           "package": "parseargs",
@@ -1337,6 +1450,7 @@
         "index": {
           "description": "Deprecated Return the String value if any of the given argument",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getArgString",
           "normalized": "Args a-\u003ea-\u003eMaybe String",
@@ -1352,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "getRequiredArg",
           "package": "parseargs",
@@ -1361,6 +1476,7 @@
         },
         "index": {
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "getRequiredArg",
           "package": "parseargs",
@@ -1375,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck whether a given optional argument was supplied. Works on all types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "gotArg",
           "package": "parseargs",
@@ -1384,6 +1501,7 @@
         "index": {
           "description": "Check whether given optional argument was supplied Works on all types",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "gotArg",
           "normalized": "Args a-\u003ea-\u003eBool",
@@ -1400,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a description of the arguments, \u003ccode\u003e\u003ca\u003eparseArgs\u003c/a\u003e\u003c/code\u003e\n produces a map from the arguments to their \"values\" and\n some other useful byproducts.  \u003ccode\u003e\u003ca\u003eparseArgs\u003c/a\u003e\u003c/code\u003e requires that\n the argument descriptions occur in the order 1) flag\n arguments, then 2) positional arguments; otherwise a\n runtime error will be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "parseArgs",
           "package": "parseargs",
@@ -1409,6 +1528,7 @@
         "index": {
           "description": "Given description of the arguments parseArgs produces map from the arguments to their values and some other useful byproducts parseArgs requires that the argument descriptions occur in the order flag arguments then positional arguments otherwise runtime error will be thrown",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "parseArgs",
           "normalized": "a-\u003e[Arg b]-\u003eString-\u003e[String]-\u003eArgs b",
@@ -1425,6 +1545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost of the time, you just want the environment's\n arguments and are willing to live in the IO monad.\n This version of \u003ccode\u003e\u003ca\u003eparseArgs\u003c/a\u003e\u003c/code\u003e digs the pathname and arguments\n out of the system directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "parseArgsIO",
           "package": "parseargs",
@@ -1434,6 +1555,7 @@
         "index": {
           "description": "Most of the time you just want the environment arguments and are willing to live in the IO monad This version of parseArgs digs the pathname and arguments out of the system directly",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "parseArgsIO",
           "normalized": "a-\u003e[Arg b]-\u003eIO(Args b)",
@@ -1450,6 +1572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a usage error with the given supplementary message string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "parseError",
           "package": "parseargs",
@@ -1459,6 +1582,7 @@
         "index": {
           "description": "Generate usage error with the given supplementary message string",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "parseError",
           "normalized": "String-\u003eString-\u003ea",
@@ -1475,6 +1599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a usage error with the given supplementary message string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:34:45 UTC 2014",
           "module": "System.Console.ParseArgs",
           "name": "usageError",
           "package": "parseargs",
@@ -1485,6 +1610,7 @@
         "index": {
           "description": "Generate usage error with the given supplementary message string",
           "hierarchy": "System Console ParseArgs",
+          "indexed": "2014-03-11T19:34:45",
           "module": "System.Console.ParseArgs",
           "name": "usageError",
           "normalized": "Args a-\u003eString-\u003eb",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lens-aeson"
+        "phrase": "lens-aeson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "Aeson",
           "package": "lens-aeson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "Aeson",
           "package": "lens-aeson",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "AsJSON",
           "package": "lens-aeson",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "AsJSON",
           "package": "lens-aeson",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "AsNumber",
           "package": "lens-aeson",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "AsNumber",
           "package": "lens-aeson",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "AsPrimitive",
           "package": "lens-aeson",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "AsPrimitive",
           "package": "lens-aeson",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "AsValue",
           "package": "lens-aeson",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "AsValue",
           "package": "lens-aeson",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrimitives of \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "Primitive",
           "package": "lens-aeson",
@@ -133,6 +144,7 @@
         "index": {
           "description": "Primitives of Value",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "Primitive",
           "package": "lens-aeson",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "BoolPrim",
           "package": "lens-aeson",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "BoolPrim",
           "package": "lens-aeson",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "NullPrim",
           "package": "lens-aeson",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "NullPrim",
           "package": "lens-aeson",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "NumberPrim",
           "package": "lens-aeson",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "NumberPrim",
           "package": "lens-aeson",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "StringPrim",
           "package": "lens-aeson",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "StringPrim",
           "package": "lens-aeson",
@@ -235,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1,2,3]\" ^? _Array\n\u003c/code\u003e\u003c/strong\u003eJust (fromList [Number 1,Number 2,Number 3])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Array",
           "package": "lens-aeson",
@@ -245,6 +266,7 @@
         "index": {
           "description": "Array Just fromList Number Number Number",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Array",
           "package": "lens-aeson",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Bool",
           "package": "lens-aeson",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Bool",
           "package": "lens-aeson",
@@ -281,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrism into an \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e over a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[10.2]\" ^? nth 0 . _Double\n\u003c/code\u003e\u003c/strong\u003eJust 10.2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Double",
           "package": "lens-aeson",
@@ -291,6 +316,7 @@
         "index": {
           "description": "Prism into an Double over Value Primitive or Number nth Double Just",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Double",
           "package": "lens-aeson",
@@ -305,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrism into an \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e over a \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eNumber\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[10]\" ^? nth 0 . _Integer\n\u003c/code\u003e\u003c/strong\u003eJust 10\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[10.5]\" ^? nth 0 . _Integer\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Integer",
           "package": "lens-aeson",
@@ -315,6 +342,7 @@
         "index": {
           "description": "Prism into an Integer over Value Primitive or Number nth Integer Just nth Integer Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Integer",
           "package": "lens-aeson",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Prism into \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e on lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_JSON",
           "package": "lens-aeson",
@@ -339,6 +368,7 @@
         "index": {
           "description": "Prism into Value on lazy ByteString",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_JSON",
           "package": "lens-aeson",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Null",
           "package": "lens-aeson",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Null",
           "normalized": "Prism' a()",
@@ -377,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\"]\" ^? nth 0 . _Number\n\u003c/code\u003e\u003c/strong\u003eJust 1\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\"]\" ^? nth 1 . _Number\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Number",
           "package": "lens-aeson",
@@ -387,6 +420,7 @@
         "index": {
           "description": "nth Number Just nth Number Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Number",
           "package": "lens-aeson",
@@ -401,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": {}, \\\"b\\\": null}\" ^? key \"a\" . _Object\n\u003c/code\u003e\u003c/strong\u003eJust fromList []\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": {}, \\\"b\\\": null}\" ^? key \"b\" . _Object\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Object",
           "package": "lens-aeson",
@@ -411,6 +446,7 @@
         "index": {
           "description": "null key Object Just fromList null key Object Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Object",
           "package": "lens-aeson",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\", null, true, false]\" ^? nth 0 . _Primitive\n\u003c/code\u003e\u003c/strong\u003eJust (NumberPrim 1)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\", null, true, false]\" ^? nth 1 . _Primitive\n\u003c/code\u003e\u003c/strong\u003eJust (StringPrim \"x\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\", null, true, false]\" ^? nth 2 . _Primitive\n\u003c/code\u003e\u003c/strong\u003eJust NullPrim\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\", null, true, false]\" ^? nth 3 . _Primitive\n\u003c/code\u003e\u003c/strong\u003eJust (BoolPrim True)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1, \\\"x\\\", null, true, false]\" ^? nth 4 . _Primitive\n\u003c/code\u003e\u003c/strong\u003eJust (BoolPrim False)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Primitive",
           "package": "lens-aeson",
@@ -435,6 +472,7 @@
         "index": {
           "description": "null true false nth Primitive Just NumberPrim null true false nth Primitive Just StringPrim null true false nth Primitive Just NullPrim null true false nth Primitive Just BoolPrim True null true false nth Primitive Just BoolPrim False",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Primitive",
           "package": "lens-aeson",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_String",
           "package": "lens-aeson",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_String",
           "package": "lens-aeson",
@@ -471,6 +511,7 @@
       "document": {
         "description": {
           "description": "\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1,2,3]\" ^? _Value\n\u003c/code\u003e\u003c/strong\u003eJust (Array (fromList [Number 1,Number 2,Number 3]))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "_Value",
           "package": "lens-aeson",
@@ -481,6 +522,7 @@
         "index": {
           "description": "Value Just Array fromList Number Number Number",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "_Value",
           "package": "lens-aeson",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAccess Integer \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003es as Integrals.\n\u003c/p\u003e\u003cp\u003edefined as `integer . \u003ccode\u003e\u003ca\u003eintegral'\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[10]\" ^? nth 0 . integralValue\n\u003c/code\u003e\u003c/strong\u003eJust 10\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[10.5]\" ^? nth 0 . integralValue\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "integralValue",
           "package": "lens-aeson",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Access Integer Value as Integrals defined as integer integral nth integralValue Just nth integralValue Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "integralValue",
           "package": "lens-aeson",
@@ -519,6 +563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eix\u003c/a\u003e\u003c/code\u003e, but for \u003ccode\u003e\u003ca\u003eObject\u003c/a\u003e\u003c/code\u003e with Text indices. This often has better\n inference than \u003ccode\u003e\u003ca\u003eix\u003c/a\u003e\u003c/code\u003e when used with OverloadedStrings.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": 100, \\\"b\\\": 200}\" ^? key \"a\"\n\u003c/code\u003e\u003c/strong\u003eJust (Number 100)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1,2,3]\" ^? key \"a\"\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "key",
           "package": "lens-aeson",
@@ -529,6 +574,7 @@
         "index": {
           "description": "Like ix but for Object with Text indices This often has better inference than ix when used with OverloadedStrings key Just Number key Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "key",
           "normalized": "Text-\u003eTraversal' a Value",
@@ -543,6 +589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "members",
           "package": "lens-aeson",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "members",
           "package": "lens-aeson",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrism into non-\u003ccode\u003e\u003ca\u003eNull\u003c/a\u003e\u003c/code\u003e values\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": \\\"xyz\\\", \\\"b\\\": null}\" ^? key \"a\" . nonNull\n\u003c/code\u003e\u003c/strong\u003eJust (String \"xyz\")\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": {}, \\\"b\\\": null}\" ^? key \"a\" . nonNull\n\u003c/code\u003e\u003c/strong\u003eJust (Object fromList [])\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"{\\\"a\\\": \\\"xyz\\\", \\\"b\\\": null}\" ^? key \"b\" . nonNull\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "nonNull",
           "package": "lens-aeson",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Prism into non Null values xyz null key nonNull Just String xyz null key nonNull Just Object fromList xyz null key nonNull Nothing",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "nonNull",
           "package": "lens-aeson",
@@ -589,6 +639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eix\u003c/a\u003e\u003c/code\u003e, but for Arrays with Int indexes\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1,2,3]\" ^? nth 1\n\u003c/code\u003e\u003c/strong\u003eJust (Number 2)\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"\\\"a\\\": 100, \\\"b\\\": 200}\" ^? nth 1\n\u003c/code\u003e\u003c/strong\u003eNothing\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003e\"[1,2,3]\" & nth 1 .~ (Number 20)\n\u003c/code\u003e\u003c/strong\u003e\"[1,20,3]\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "nth",
           "package": "lens-aeson",
@@ -599,6 +650,7 @@
         "index": {
           "description": "Like ix but for Arrays with Int indexes nth Just Number nth Nothing nth Number",
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "nth",
           "normalized": "Int-\u003eTraversal' a Value",
@@ -613,6 +665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:30 UTC 2014",
           "module": "Control.Lens.Aeson",
           "name": "values",
           "package": "lens-aeson",
@@ -622,6 +675,7 @@
         },
         "index": {
           "hierarchy": "Control Lens Aeson",
+          "indexed": "2014-03-11T19:07:30",
           "module": "Control.Lens.Aeson",
           "name": "values",
           "package": "lens-aeson",

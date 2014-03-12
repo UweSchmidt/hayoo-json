@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HsJudy"
+        "phrase": "HsJudy",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "BitSet",
           "package": "HsJudy",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake the set empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "clear",
           "package": "HsJudy",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Make the set empty",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "clear",
           "normalized": "BitSet a-\u003eIO()",
@@ -108,6 +116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a value in the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "delete",
           "package": "HsJudy",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Delete value in the set",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "delete",
           "normalized": "a-\u003eBitSet a-\u003eIO()",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a frozen, immutable version of a bitset, the original mutable version is cleared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "freezeBitSet",
           "package": "HsJudy",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Create frozen immutable version of bitset the original mutable version is cleared",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "freezeBitSet",
           "normalized": "BitSet a-\u003eIO(Frozen(BitSet a))",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a set from a list of elements.\n FIXME: should I create the list here maybe?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "fromList",
           "package": "HsJudy",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Create set from list of elements FIXME should create the list here maybe",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "fromList",
           "normalized": "[a]-\u003eBitSet a-\u003eIO()",
@@ -184,6 +198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "fromListF",
           "package": "HsJudy",
@@ -193,6 +208,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "fromListF",
           "normalized": "[a]-\u003eFrozen(BitSet a)",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "get",
           "package": "HsJudy",
@@ -217,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "get",
           "normalized": "BitSet a-\u003ea-\u003eIO Bool",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a value to the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "insert",
           "package": "HsJudy",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Add value to the set",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "insert",
           "normalized": "a-\u003eBitSet a-\u003eIO()",
@@ -256,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "judy",
           "package": "HsJudy",
@@ -265,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "judy",
           "package": "HsJudy",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the value a member of the set?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "member",
           "package": "HsJudy",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Is the value member of the set",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "member",
           "normalized": "a-\u003eBitSet a-\u003eIO Bool",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "memberF",
           "package": "HsJudy",
@@ -311,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "memberF",
           "normalized": "a-\u003eFrozen(BitSet a)-\u003eBool",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "new",
           "package": "HsJudy",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Create set",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "new",
           "package": "HsJudy",
@@ -349,6 +377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the set empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "null",
           "package": "HsJudy",
@@ -359,6 +388,7 @@
         "index": {
           "description": "Is the set empty",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "null",
           "normalized": "BitSet a-\u003eIO Bool",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet value in or out the set and return its old value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "set",
           "package": "HsJudy",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Set value in or out the set and return its old value",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "set",
           "normalized": "BitSet a-\u003ea-\u003eBool-\u003eIO Bool",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCardinality of the set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "size",
           "package": "HsJudy",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Cardinality of the set",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "size",
           "normalized": "BitSet a-\u003eIO Int",
@@ -424,6 +458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap contents of two sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "swapBitSets",
           "package": "HsJudy",
@@ -434,6 +469,7 @@
         "index": {
           "description": "Swap contents of two sets",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "swapBitSets",
           "normalized": "BitSet a-\u003eBitSet a-\u003eIO()",
@@ -450,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the set to a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "toList",
           "package": "HsJudy",
@@ -460,6 +497,7 @@
         "index": {
           "description": "Convert the set to list of elements",
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "toList",
           "normalized": "BitSet a-\u003eIO[b]",
@@ -475,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.BitSet",
           "name": "toListF",
           "package": "HsJudy",
@@ -484,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy BitSet",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.BitSet",
           "name": "toListF",
           "normalized": "Frozen(BitSet a)-\u003e[b]",
@@ -499,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "CollectionsM",
           "package": "HsJudy",
@@ -507,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "CollectionsM",
           "package": "HsJudy",
@@ -520,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "MapF",
           "package": "HsJudy",
@@ -528,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "MapF",
           "package": "HsJudy",
@@ -541,6 +585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "MapM",
           "package": "HsJudy",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "MapM",
           "package": "HsJudy",
@@ -562,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "alter",
           "package": "HsJudy",
@@ -571,6 +618,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "alter",
           "normalized": "(Maybe a-\u003eMaybe a)-\u003eb-\u003ec-\u003ed(Maybe a)",
@@ -585,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "delete",
           "package": "HsJudy",
@@ -594,6 +643,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "delete",
           "normalized": "a-\u003eb-\u003ec Bool",
@@ -608,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "elems",
           "package": "HsJudy",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "elems",
           "normalized": "a-\u003eb[c]",
@@ -631,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "fromList",
           "package": "HsJudy",
@@ -640,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "fromList",
           "normalized": "[(a,b)]-\u003ec d",
@@ -655,6 +709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "fromListF",
           "package": "HsJudy",
@@ -664,6 +719,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "fromListF",
           "normalized": "[(a,b)]-\u003ec",
@@ -679,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "insert",
           "package": "HsJudy",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "insert",
           "normalized": "a-\u003eb-\u003ec-\u003ed()",
@@ -702,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "keys",
           "package": "HsJudy",
@@ -711,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "keys",
           "normalized": "a-\u003eb[c]",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "lookup",
           "package": "HsJudy",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "lookup",
           "normalized": "a-\u003eb-\u003ec(Maybe d)",
@@ -748,6 +810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "lookupF",
           "package": "HsJudy",
@@ -757,6 +820,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "lookupF",
           "normalized": "a-\u003eb-\u003eMaybe c",
@@ -771,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "mapToList",
           "package": "HsJudy",
@@ -780,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "mapToList",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed-\u003ee[c]",
@@ -795,6 +861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "member",
           "package": "HsJudy",
@@ -804,6 +871,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "member",
           "normalized": "a-\u003eb-\u003ec Bool",
@@ -818,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "memberF",
           "package": "HsJudy",
@@ -827,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "memberF",
           "normalized": "a-\u003eb-\u003eBool",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "new",
           "package": "HsJudy",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "new",
           "package": "HsJudy",
@@ -862,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "swapMaps",
           "package": "HsJudy",
@@ -871,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "swapMaps",
           "normalized": "a-\u003ea-\u003eb()",
@@ -886,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "toList",
           "package": "HsJudy",
@@ -895,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "toList",
           "normalized": "a-\u003eb[(c,d)]",
@@ -910,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "toListF",
           "package": "HsJudy",
@@ -919,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy CollectionsM",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.CollectionsM",
           "name": "toListF",
           "normalized": "a-\u003e[(b,c)]",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Freeze",
           "name": "Freeze",
           "package": "HsJudy",
@@ -942,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Freeze",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Freeze",
           "name": "Freeze",
           "package": "HsJudy",
@@ -955,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Freeze",
           "name": "Freezable",
           "package": "HsJudy",
@@ -963,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Freeze",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Freeze",
           "name": "Freezable",
           "package": "HsJudy",
@@ -976,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Freeze",
           "name": "Frozen",
           "package": "HsJudy",
@@ -984,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Freeze",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Freeze",
           "name": "Frozen",
           "package": "HsJudy",
@@ -997,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Freeze",
           "name": "freeze",
           "package": "HsJudy",
@@ -1006,6 +1091,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Freeze",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Freeze",
           "name": "freeze",
           "normalized": "a-\u003eIO(Frozen a)",
@@ -1020,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Hash",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1041,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1049,6 +1138,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Hash",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1062,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1071,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Hash",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Hash",
           "name": "Hash",
           "package": "HsJudy",
@@ -1108,6 +1200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Hash",
           "name": "judy",
           "package": "HsJudy",
@@ -1117,6 +1210,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Hash",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Hash",
           "name": "judy",
           "package": "HsJudy",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "HashIO",
           "package": "HsJudy",
@@ -1137,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "HashIO",
           "package": "HsJudy",
@@ -1150,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "HashIO",
           "package": "HsJudy",
@@ -1158,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "HashIO",
           "package": "HsJudy",
@@ -1171,6 +1269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "ReversibleHashIO",
           "package": "HsJudy",
@@ -1179,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "ReversibleHashIO",
           "package": "HsJudy",
@@ -1192,6 +1292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "UniqueHashIO",
           "package": "HsJudy",
@@ -1200,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "UniqueHashIO",
           "package": "HsJudy",
@@ -1213,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "hashIO",
           "package": "HsJudy",
@@ -1222,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "hashIO",
           "normalized": "a-\u003eIO Value",
@@ -1237,6 +1341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.HashIO",
           "name": "unHashIO",
           "package": "HsJudy",
@@ -1246,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy HashIO",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.HashIO",
           "name": "unHashIO",
           "normalized": "Value-\u003eIO a",
@@ -1261,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1269,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1282,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1290,6 +1399,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1303,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1312,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "IntMap",
           "package": "HsJudy",
@@ -1325,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "judy",
           "package": "HsJudy",
@@ -1334,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "judy",
           "package": "HsJudy",
@@ -1346,6 +1460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "size",
           "package": "HsJudy",
@@ -1355,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "size",
           "normalized": "IntMap a b-\u003eIO Int",
@@ -1369,6 +1485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeFirst",
           "package": "HsJudy",
@@ -1378,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeFirst",
           "normalized": "Int-\u003eIntMap a b-\u003eIO[(a,b)]",
@@ -1393,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeFirstElems",
           "package": "HsJudy",
@@ -1402,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeFirstElems",
           "normalized": "Int-\u003eIntMap a b-\u003eIO[b]",
@@ -1417,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeLast",
           "package": "HsJudy",
@@ -1426,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeLast",
           "normalized": "Int-\u003eIntMap a b-\u003eIO[(a,b)]",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeLastElems",
           "package": "HsJudy",
@@ -1450,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "takeLastElems",
           "normalized": "Int-\u003eIntMap a b-\u003eIO[b]",
@@ -1465,6 +1589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.IntMap",
           "name": "toRevList",
           "package": "HsJudy",
@@ -1474,6 +1599,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy IntMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.IntMap",
           "name": "toRevList",
           "normalized": "IntMap a b-\u003eIO[(a,b)]",
@@ -1489,6 +1615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Refeable",
           "name": "Refeable",
           "package": "HsJudy",
@@ -1497,6 +1624,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Refeable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Refeable",
           "name": "Refeable",
           "package": "HsJudy",
@@ -1510,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Refeable",
           "name": "Refeable",
           "package": "HsJudy",
@@ -1518,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Refeable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Refeable",
           "name": "Refeable",
           "package": "HsJudy",
@@ -1531,6 +1661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Refeable",
           "name": "fromRef",
           "package": "HsJudy",
@@ -1540,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Refeable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Refeable",
           "name": "fromRef",
           "normalized": "Value-\u003eIO a",
@@ -1555,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Refeable",
           "name": "needGC",
           "package": "HsJudy",
@@ -1564,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Refeable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Refeable",
           "name": "needGC",
           "normalized": "a-\u003eBool",
@@ -1579,6 +1713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Refeable",
           "name": "toRef",
           "package": "HsJudy",
@@ -1588,6 +1723,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Refeable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Refeable",
           "name": "toRef",
           "normalized": "a-\u003eIO Value",
@@ -1603,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1611,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy StrMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1624,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1632,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy StrMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1645,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1654,6 +1795,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy StrMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.StrMap",
           "name": "StrMap",
           "package": "HsJudy",
@@ -1667,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.StrMap",
           "name": "judy",
           "package": "HsJudy",
@@ -1676,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy StrMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.StrMap",
           "name": "judy",
           "package": "HsJudy",
@@ -1688,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.StrMap",
           "name": "toRevList",
           "package": "HsJudy",
@@ -1697,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy StrMap",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.StrMap",
           "name": "toRevList",
           "normalized": "StrMap a b-\u003eIO[(a,b)]",
@@ -1712,6 +1858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "Stringable",
           "package": "HsJudy",
@@ -1720,6 +1867,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "Stringable",
           "package": "HsJudy",
@@ -1733,6 +1881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "Stringable",
           "package": "HsJudy",
@@ -1741,6 +1890,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "Stringable",
           "package": "HsJudy",
@@ -1754,6 +1904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "copyCS",
           "package": "HsJudy",
@@ -1763,6 +1914,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "copyCS",
           "normalized": "CString-\u003eIO a",
@@ -1778,6 +1930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "copyCSLen",
           "package": "HsJudy",
@@ -1787,6 +1940,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "copyCSLen",
           "normalized": "CStringLen-\u003eIO a",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "fromString",
           "package": "HsJudy",
@@ -1811,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -1826,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "toString",
           "package": "HsJudy",
@@ -1835,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -1850,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "useAsCS",
           "package": "HsJudy",
@@ -1859,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "useAsCS",
           "normalized": "a-\u003e(CString-\u003eIO b)-\u003eIO b",
@@ -1874,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:49:07 UTC 2014",
           "module": "Data.Array.Judy.Stringable",
           "name": "useAsCSLen",
           "package": "HsJudy",
@@ -1883,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Data Array Judy Stringable",
+          "indexed": "2014-03-11T16:49:07",
           "module": "Data.Array.Judy.Stringable",
           "name": "useAsCSLen",
           "normalized": "a-\u003e(CStringLen-\u003eIO b)-\u003eIO b",

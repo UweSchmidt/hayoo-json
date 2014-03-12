@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "MonadLab"
+        "phrase": "MonadLab",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Code for a monad bind\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "BindExpQ",
           "package": "MonadLab",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Code for monad bind",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "BindExpQ",
           "package": "MonadLab",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "EnvName",
           "package": "MonadLab",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "EnvName",
           "package": "MonadLab",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "ErrorName",
           "package": "MonadLab",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "ErrorName",
           "package": "MonadLab",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "Code for a monad join\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "JoinExpQ",
           "package": "MonadLab",
@@ -93,6 +100,7 @@
         "index": {
           "description": "Code for monad join",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "JoinExpQ",
           "package": "MonadLab",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "Layer",
           "package": "MonadLab",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "Layer",
           "package": "MonadLab",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "Data type to hold a layer's non-proper morphisms\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "LayerNPM",
           "package": "MonadLab",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Data type to hold layer non-proper morphisms",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "LayerNPM",
           "package": "MonadLab",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "LayerType",
           "package": "MonadLab",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "LayerType",
           "package": "MonadLab",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "Code for a monad lifting\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "LiftExpQ",
           "package": "MonadLab",
@@ -181,6 +196,7 @@
         "index": {
           "description": "Code for monad lifting",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "LiftExpQ",
           "package": "MonadLab",
@@ -195,6 +211,7 @@
       "document": {
         "description": {
           "description": "The monad type.  Each component contains abstract\n syntax of the Haskell code to implement the monad. \n Components are (code for the data type, code for the return, code for the\n bind, code for the non-proper morphisms, code for the monad lifting)\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "Monad",
           "package": "MonadLab",
@@ -204,6 +221,7 @@
         "index": {
           "description": "The monad type Each component contains abstract syntax of the Haskell code to implement the monad Components are code for the data type code for the return code for the bind code for the non-proper morphisms code for the monad lifting",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "Monad",
           "package": "MonadLab",
@@ -218,6 +236,7 @@
       "document": {
         "description": {
           "description": "The name of monad type constructor identifier\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "MonadName",
           "package": "MonadLab",
@@ -227,6 +246,7 @@
         "index": {
           "description": "The name of monad type constructor identifier",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "MonadName",
           "package": "MonadLab",
@@ -241,6 +261,7 @@
       "document": {
         "description": {
           "description": "Monad transformer data type\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "MonadTransformer",
           "package": "MonadLab",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Monad transformer data type",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "MonadTransformer",
           "package": "MonadLab",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "The monad type constructor type.    \n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "MonadTypeCon",
           "package": "MonadLab",
@@ -273,6 +296,7 @@
         "index": {
           "description": "The monad type constructor type",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "MonadTypeCon",
           "package": "MonadLab",
@@ -287,6 +311,7 @@
       "document": {
         "description": {
           "description": "Code for a monad non-proper morphism\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "NonProperMorphismExpQ",
           "package": "MonadLab",
@@ -296,6 +321,7 @@
         "index": {
           "description": "Code for monad non-proper morphism",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "NonProperMorphismExpQ",
           "package": "MonadLab",
@@ -310,6 +336,7 @@
       "document": {
         "description": {
           "description": "Code for a monad return\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "ReturnExpQ",
           "package": "MonadLab",
@@ -319,6 +346,7 @@
         "index": {
           "description": "Code for monad return",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "ReturnExpQ",
           "package": "MonadLab",
@@ -333,6 +361,7 @@
       "document": {
         "description": {
           "description": "Code for a monad run (evaluation)\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "RunExpQ",
           "package": "MonadLab",
@@ -342,6 +371,7 @@
         "index": {
           "description": "Code for monad run evaluation",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "RunExpQ",
           "package": "MonadLab",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "StateName",
           "package": "MonadLab",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "StateName",
           "package": "MonadLab",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "WriterName",
           "package": "MonadLab",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "WriterName",
           "package": "MonadLab",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "Convenience function for expressing type \u003ctt\u003et -\u003e t'\u003c/tt\u003e in TH\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "arrow",
           "package": "MonadLab",
@@ -408,6 +443,7 @@
         "index": {
           "description": "Convenience function for expressing type in TH",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "arrow",
           "normalized": "TypeQ-\u003eTypeQ-\u003eTypeQ",
@@ -423,6 +459,7 @@
       "document": {
         "description": {
           "description": "Short hand for [t| Int |], [t| Bool |], and [t| String |]\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "bool",
           "package": "MonadLab",
@@ -433,6 +470,7 @@
         "index": {
           "description": "Short hand for Int Bool and String",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "bool",
           "package": "MonadLab",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "Definition of composition function for use in TH expressions\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "composition",
           "package": "MonadLab",
@@ -456,6 +495,7 @@
         "index": {
           "description": "Definition of composition function for use in TH expressions",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "composition",
           "package": "MonadLab",
@@ -469,6 +509,7 @@
       "document": {
         "description": {
           "description": "Base monad lifting accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getBaseLift",
           "package": "MonadLab",
@@ -479,6 +520,7 @@
         "index": {
           "description": "Base monad lifting accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getBaseLift",
           "normalized": "Monad-\u003eLiftExpQ",
@@ -495,6 +537,7 @@
       "document": {
         "description": {
           "description": "Bind accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getBind",
           "package": "MonadLab",
@@ -505,6 +548,7 @@
         "index": {
           "description": "Bind accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getBind",
           "normalized": "Monad-\u003eBindExpQ",
@@ -521,6 +565,7 @@
       "document": {
         "description": {
           "description": "Join accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getJoin",
           "package": "MonadLab",
@@ -531,6 +576,7 @@
         "index": {
           "description": "Join accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getJoin",
           "normalized": "Monad-\u003eJoinExpQ",
@@ -547,6 +593,7 @@
       "document": {
         "description": {
           "description": "Layers accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getLayerNPMs",
           "package": "MonadLab",
@@ -557,6 +604,7 @@
         "index": {
           "description": "Layers accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getLayerNPMs",
           "normalized": "Monad-\u003e[LayerNPM]",
@@ -573,6 +621,7 @@
       "document": {
         "description": {
           "description": "Return accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getReturn",
           "package": "MonadLab",
@@ -583,6 +632,7 @@
         "index": {
           "description": "Return accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getReturn",
           "normalized": "Monad-\u003eReturnExpQ",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "Type constructor accessor\n",
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "getTypeCon",
           "package": "MonadLab",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Type constructor accessor",
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "getTypeCon",
           "normalized": "Monad-\u003eMonadTypeCon",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "hasLayerType",
           "package": "MonadLab",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "hasLayerType",
           "normalized": "LayerType-\u003eLayer-\u003eBool",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "int",
           "package": "MonadLab",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "int",
           "package": "MonadLab",
@@ -669,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "layerType",
           "package": "MonadLab",
@@ -678,6 +735,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "layerType",
           "normalized": "Layer-\u003eLayerType",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.CommonTypes",
           "name": "string",
           "package": "MonadLab",
@@ -702,6 +761,7 @@
         },
         "index": {
           "hierarchy": "MonadLab CommonTypes",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.CommonTypes",
           "name": "string",
           "package": "MonadLab",
@@ -714,6 +774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MLabParser",
           "name": "mlabParser",
           "package": "MonadLab",
@@ -723,6 +784,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MLabParser",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MLabParser",
           "name": "mlabParser",
           "normalized": "String-\u003e(MonadName,[Layer])",
@@ -738,6 +800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "Layer",
           "package": "MonadLab",
@@ -746,6 +809,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "Layer",
           "package": "MonadLab",
@@ -759,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "contTRec",
           "package": "MonadLab",
@@ -768,6 +833,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "contTRec",
           "normalized": "String-\u003eLayer",
@@ -783,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "envTRec",
           "package": "MonadLab",
@@ -792,6 +859,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "envTRec",
           "normalized": "String-\u003eString-\u003eLayer",
@@ -807,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "errorTRec",
           "package": "MonadLab",
@@ -816,6 +885,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "errorTRec",
           "normalized": "String-\u003eString-\u003eLayer",
@@ -831,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "mkMonad",
           "package": "MonadLab",
@@ -840,6 +911,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "mkMonad",
           "normalized": "MonadName-\u003e[Layer]-\u003eQ[Dec]",
@@ -855,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "stateTRec",
           "package": "MonadLab",
@@ -864,6 +937,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "stateTRec",
           "normalized": "String-\u003eString-\u003eLayer",
@@ -879,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:16 UTC 2014",
           "module": "MonadLab.MonadLab",
           "name": "writerTRec",
           "package": "MonadLab",
@@ -888,6 +963,7 @@
         },
         "index": {
           "hierarchy": "MonadLab MonadLab",
+          "indexed": "2014-03-11T16:53:16",
           "module": "MonadLab.MonadLab",
           "name": "writerTRec",
           "normalized": "String-\u003eString-\u003eLayer",

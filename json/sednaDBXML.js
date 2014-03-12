@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sednaDBXML"
+        "phrase": "sednaDBXML",
+        "type": "phrase"
       },
       "type": "context"
     }

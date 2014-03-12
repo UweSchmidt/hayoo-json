@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "egison"
+        "phrase": "egison",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides functions to evaluate various objects.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "Core",
           "package": "egison",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides functions to evaluate various objects",
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "Core",
           "package": "egison",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "applyFunc",
           "package": "egison",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "applyFunc",
           "normalized": "WHNFData-\u003eWHNFData-\u003eEgisonM WHNFData",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalExpr",
           "package": "egison",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalExpr",
           "normalized": "Env-\u003eEgisonExpr-\u003eEgisonM WHNFData",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalExprDeep",
           "package": "egison",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalExprDeep",
           "normalized": "Env-\u003eEgisonExpr-\u003eEgisonM EgisonValue",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalRef",
           "package": "egison",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalRef",
           "normalized": "ObjectRef-\u003eEgisonM WHNFData",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalRefDeep",
           "package": "egison",
@@ -146,6 +157,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalRefDeep",
           "normalized": "ObjectRef-\u003eEgisonM EgisonValue",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalStringWHNF",
           "package": "egison",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalStringWHNF",
           "normalized": "WHNFData-\u003eEgisonM String",
@@ -185,6 +199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalTopExpr",
           "package": "egison",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalTopExpr",
           "normalized": "Env-\u003eEgisonTopExpr-\u003eEgisonM Env",
@@ -209,6 +225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalTopExpr'",
           "package": "egison",
@@ -218,6 +235,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalTopExpr'",
           "normalized": "Env-\u003eEgisonTopExpr-\u003eEgisonM Env",
@@ -233,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalTopExprs",
           "package": "egison",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalTopExprs",
           "normalized": "Env-\u003e[EgisonTopExpr]-\u003eEgisonM Env",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "evalWHNF",
           "package": "egison",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "evalWHNF",
           "normalized": "WHNFData-\u003eEgisonM EgisonValue",
@@ -281,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "fromStringValue",
           "package": "egison",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "fromStringValue",
           "normalized": "EgisonValue-\u003eEgisonM String",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "isEmptyCollection",
           "package": "egison",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "isEmptyCollection",
           "normalized": "WHNFData-\u003eEgisonM Bool",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "patternMatch",
           "package": "egison",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "patternMatch",
           "normalized": "Env-\u003eEgisonPattern-\u003eObjectRef-\u003eMatcher-\u003eEgisonM(MList EgisonM Match)",
@@ -353,6 +381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "recursiveBind",
           "package": "egison",
@@ -362,6 +391,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "recursiveBind",
           "normalized": "Env-\u003e[(String,EgisonExpr)]-\u003eEgisonM Env",
@@ -377,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "unconsCollection",
           "package": "egison",
@@ -386,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "unconsCollection",
           "normalized": "WHNFData-\u003eMatchM(ObjectRef,ObjectRef)",
@@ -401,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Core",
           "name": "unsnocCollection",
           "package": "egison",
@@ -410,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Core",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Core",
           "name": "unsnocCollection",
           "normalized": "WHNFData-\u003eMatchM(ObjectRef,ObjectRef)",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provide desugar functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "Desugar",
           "package": "egison",
@@ -435,6 +470,7 @@
         "index": {
           "description": "This module provide desugar functions",
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "Desugar",
           "package": "egison",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "DesugarM",
           "package": "egison",
@@ -456,6 +493,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "DesugarM",
           "package": "egison",
@@ -469,6 +507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "desugar",
           "package": "egison",
@@ -478,6 +517,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "desugar",
           "normalized": "EgisonExpr-\u003eDesugarM EgisonExpr",
@@ -492,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "desugarExpr",
           "package": "egison",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "desugarExpr",
           "normalized": "EgisonExpr-\u003eEgisonM EgisonExpr",
@@ -516,6 +558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "desugarTopExpr",
           "package": "egison",
@@ -525,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "desugarTopExpr",
           "normalized": "EgisonTopExpr-\u003eEgisonM EgisonTopExpr",
@@ -540,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Desugar",
           "name": "runDesugarM",
           "package": "egison",
@@ -549,6 +594,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Desugar",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Desugar",
           "name": "runDesugarM",
           "normalized": "DesugarM a-\u003eFresh(Either EgisonError a)",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provide Egison parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "Parser",
           "package": "egison",
@@ -574,6 +621,7 @@
         "index": {
           "description": "This module provide Egison parser",
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "Parser",
           "package": "egison",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "loadFile",
           "package": "egison",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Load file",
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "loadFile",
           "normalized": "FilePath-\u003eEgisonM[EgisonTopExpr]",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a libary file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "loadLibraryFile",
           "package": "egison",
@@ -624,6 +675,7 @@
         "index": {
           "description": "Load libary file",
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "loadLibraryFile",
           "normalized": "FilePath-\u003eEgisonM[EgisonTopExpr]",
@@ -639,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "parseExpr",
           "package": "egison",
@@ -648,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "parseExpr",
           "normalized": "String-\u003eEither EgisonError EgisonExpr",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "parseExprs",
           "package": "egison",
@@ -672,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "parseExprs",
           "normalized": "String-\u003eEither EgisonError[EgisonExpr]",
@@ -687,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "parseTopExpr",
           "package": "egison",
@@ -696,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "parseTopExpr",
           "normalized": "String-\u003eEither EgisonError EgisonTopExpr",
@@ -711,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "parseTopExprs",
           "package": "egison",
@@ -720,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "parseTopExprs",
           "normalized": "String-\u003eEither EgisonError[EgisonTopExpr]",
@@ -735,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "readExpr",
           "package": "egison",
@@ -744,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "readExpr",
           "normalized": "String-\u003eEgisonM EgisonExpr",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "readExprs",
           "package": "egison",
@@ -768,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "readExprs",
           "normalized": "String-\u003eEgisonM[EgisonExpr]",
@@ -783,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "readTopExpr",
           "package": "egison",
@@ -792,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "readTopExpr",
           "normalized": "String-\u003eEgisonM EgisonTopExpr",
@@ -807,6 +873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Parser",
           "name": "readTopExprs",
           "package": "egison",
@@ -816,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Parser",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Parser",
           "name": "readTopExprs",
           "normalized": "String-\u003eEgisonM[EgisonTopExpr]",
@@ -832,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides primitive functions in Egison.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Primitives",
           "name": "Primitives",
           "package": "egison",
@@ -841,6 +910,7 @@
         "index": {
           "description": "This module provides primitive functions in Egison",
           "hierarchy": "Language Egison Primitives",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Primitives",
           "name": "Primitives",
           "package": "egison",
@@ -854,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Primitives",
           "name": "primitiveEnv",
           "package": "egison",
@@ -863,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Primitives",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Primitives",
           "name": "primitiveEnv",
           "package": "egison",
@@ -876,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Primitives",
           "name": "primitiveEnvNoIO",
           "package": "egison",
@@ -885,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Primitives",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Primitives",
           "name": "primitiveEnvNoIO",
           "package": "egison",
@@ -899,6 +973,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains type definitions of Egison Data.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Types",
           "package": "egison",
@@ -908,6 +983,7 @@
         "index": {
           "description": "This module contains type definitions of Egison Data",
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Types",
           "package": "egison",
@@ -921,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Binding",
           "package": "egison",
@@ -929,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Binding",
           "package": "egison",
@@ -942,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "BindingExpr",
           "package": "egison",
@@ -950,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "BindingExpr",
           "package": "egison",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Egison",
           "package": "egison",
@@ -971,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Egison",
           "package": "egison",
@@ -984,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonError",
           "package": "egison",
@@ -992,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonError",
           "package": "egison",
@@ -1005,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonExpr",
           "package": "egison",
@@ -1013,6 +1098,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonExpr",
           "package": "egison",
@@ -1026,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonM",
           "package": "egison",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonM",
           "package": "egison",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonPattern",
           "package": "egison",
@@ -1055,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonPattern",
           "package": "egison",
@@ -1068,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonTopExpr",
           "package": "egison",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonTopExpr",
           "package": "egison",
@@ -1089,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonValue",
           "package": "egison",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonValue",
           "package": "egison",
@@ -1110,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonWHNF",
           "package": "egison",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonWHNF",
           "package": "egison",
@@ -1131,6 +1227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Env",
           "package": "egison",
@@ -1139,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Env",
           "package": "egison",
@@ -1152,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Fresh",
           "package": "egison",
@@ -1160,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Fresh",
           "package": "egison",
@@ -1173,6 +1273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "FreshT",
           "package": "egison",
@@ -1181,6 +1282,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "FreshT",
           "package": "egison",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Inner",
           "package": "egison",
@@ -1202,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Inner",
           "package": "egison",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "InnerExpr",
           "package": "egison",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "InnerExpr",
           "package": "egison",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Intermediate",
           "package": "egison",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Intermediate",
           "package": "egison",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopContext",
           "package": "egison",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopContext",
           "package": "egison",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopMode",
           "package": "egison",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopMode",
           "package": "egison",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopRange",
           "package": "egison",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopRange",
           "package": "egison",
@@ -1320,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MList",
           "package": "egison",
@@ -1328,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MList",
           "package": "egison",
@@ -1341,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Match",
           "package": "egison",
@@ -1349,6 +1466,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Match",
           "package": "egison",
@@ -1362,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchClause",
           "package": "egison",
@@ -1370,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchClause",
           "package": "egison",
@@ -1383,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchM",
           "package": "egison",
@@ -1391,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchM",
           "package": "egison",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Matcher",
           "package": "egison",
@@ -1412,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Matcher",
           "package": "egison",
@@ -1425,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatcherInfo",
           "package": "egison",
@@ -1433,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatcherInfo",
           "package": "egison",
@@ -1446,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchingState",
           "package": "egison",
@@ -1454,6 +1581,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchingState",
           "package": "egison",
@@ -1467,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchingTree",
           "package": "egison",
@@ -1475,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchingTree",
           "package": "egison",
@@ -1488,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MonadFresh",
           "package": "egison",
@@ -1496,6 +1627,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MonadFresh",
           "package": "egison",
@@ -1509,6 +1641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Object",
           "package": "egison",
@@ -1517,6 +1650,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Object",
           "package": "egison",
@@ -1531,6 +1665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor memoization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ObjectRef",
           "package": "egison",
@@ -1540,6 +1675,7 @@
         "index": {
           "description": "For memoization",
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ObjectRef",
           "package": "egison",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PMMode",
           "package": "egison",
@@ -1561,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PMMode",
           "package": "egison",
@@ -1574,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PatternBinding",
           "package": "egison",
@@ -1582,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PatternBinding",
           "package": "egison",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PrimitiveDataPattern",
           "package": "egison",
@@ -1603,6 +1744,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PrimitiveDataPattern",
           "package": "egison",
@@ -1616,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PrimitiveFunc",
           "package": "egison",
@@ -1624,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PrimitiveFunc",
           "package": "egison",
@@ -1637,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PrimitivePatPattern",
           "package": "egison",
@@ -1645,6 +1790,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PrimitivePatPattern",
           "package": "egison",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Var",
           "package": "egison",
@@ -1666,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Var",
           "package": "egison",
@@ -1679,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "WHNFData",
           "package": "egison",
@@ -1687,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "WHNFData",
           "package": "egison",
@@ -1700,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "AlgebraicDataMatcherExpr",
           "package": "egison",
@@ -1709,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "AlgebraicDataMatcherExpr",
           "normalized": "AlgebraicDataMatcherExpr[(String,[EgisonExpr])]",
@@ -1724,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "AndPat",
           "package": "egison",
@@ -1733,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "AndPat",
           "normalized": "AndPat[EgisonPattern]",
@@ -1748,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ApplyExpr",
           "package": "egison",
@@ -1757,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ApplyExpr",
           "package": "egison",
@@ -1770,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ApplyPat",
           "package": "egison",
@@ -1779,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ApplyPat",
           "normalized": "ApplyPat EgisonExpr[EgisonPattern]",
@@ -1794,6 +1952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ArgumentsNum",
           "package": "egison",
@@ -1803,6 +1962,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ArgumentsNum",
           "package": "egison",
@@ -1816,6 +1976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Array",
           "package": "egison",
@@ -1825,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Array",
           "package": "egison",
@@ -1838,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ArrayExpr",
           "package": "egison",
@@ -1847,6 +2010,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ArrayExpr",
           "normalized": "ArrayExpr[EgisonExpr]",
@@ -1862,6 +2026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ArrayRefExpr",
           "package": "egison",
@@ -1871,6 +2036,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ArrayRefExpr",
           "package": "egison",
@@ -1884,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ArraySizeExpr",
           "package": "egison",
@@ -1893,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ArraySizeExpr",
           "package": "egison",
@@ -1906,6 +2074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Assertion",
           "package": "egison",
@@ -1915,6 +2084,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Assertion",
           "package": "egison",
@@ -1928,6 +2098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "BFSMode",
           "package": "egison",
@@ -1937,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "BFSMode",
           "package": "egison",
@@ -1950,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Bool",
           "package": "egison",
@@ -1959,6 +2132,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Bool",
           "package": "egison",
@@ -1972,6 +2146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "BoolExpr",
           "package": "egison",
@@ -1981,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "BoolExpr",
           "package": "egison",
@@ -1994,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Char",
           "package": "egison",
@@ -2003,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Char",
           "package": "egison",
@@ -2016,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "CharExpr",
           "package": "egison",
@@ -2025,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "CharExpr",
           "package": "egison",
@@ -2038,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Collection",
           "package": "egison",
@@ -2047,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Collection",
           "package": "egison",
@@ -2060,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "CollectionExpr",
           "package": "egison",
@@ -2069,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "CollectionExpr",
           "normalized": "CollectionExpr[InnerExpr]",
@@ -2084,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ContPat",
           "package": "egison",
@@ -2093,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ContPat",
           "package": "egison",
@@ -2106,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "DFSMode",
           "package": "egison",
@@ -2115,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "DFSMode",
           "package": "egison",
@@ -2128,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Default",
           "package": "egison",
@@ -2137,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Default",
           "package": "egison",
@@ -2150,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Define",
           "package": "egison",
@@ -2159,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Define",
           "package": "egison",
@@ -2172,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Desugar",
           "package": "egison",
@@ -2181,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Desugar",
           "package": "egison",
@@ -2194,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "DoExpr",
           "package": "egison",
@@ -2203,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "DoExpr",
           "normalized": "DoExpr[BindingExpr]EgisonExpr",
@@ -2218,6 +2414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EOF",
           "package": "egison",
@@ -2227,6 +2424,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EOF",
           "package": "egison",
@@ -2240,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonBug",
           "package": "egison",
@@ -2249,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonBug",
           "package": "egison",
@@ -2262,6 +2462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "EgisonM",
           "package": "egison",
@@ -2271,6 +2472,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "EgisonM",
           "package": "egison",
@@ -2284,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ElementExpr",
           "package": "egison",
@@ -2293,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ElementExpr",
           "package": "egison",
@@ -2306,6 +2510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Execute",
           "package": "egison",
@@ -2315,6 +2520,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Execute",
           "package": "egison",
@@ -2328,6 +2534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Float",
           "package": "egison",
@@ -2337,6 +2544,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Float",
           "package": "egison",
@@ -2350,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "FloatExpr",
           "package": "egison",
@@ -2359,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "FloatExpr",
           "package": "egison",
@@ -2372,6 +2582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "FreshT",
           "package": "egison",
@@ -2381,6 +2592,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "FreshT",
           "package": "egison",
@@ -2394,6 +2606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Func",
           "package": "egison",
@@ -2403,6 +2616,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Func",
           "normalized": "Func Env[String]EgisonExpr",
@@ -2418,6 +2632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "GenerateArrayExpr",
           "package": "egison",
@@ -2427,6 +2642,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "GenerateArrayExpr",
           "normalized": "GenerateArrayExpr[String]EgisonExpr EgisonExpr",
@@ -2442,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "HashExpr",
           "package": "egison",
@@ -2451,6 +2668,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "HashExpr",
           "normalized": "HashExpr[(EgisonExpr,EgisonExpr)]",
@@ -2466,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IArray",
           "package": "egison",
@@ -2475,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IArray",
           "package": "egison",
@@ -2488,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ICollection",
           "package": "egison",
@@ -2497,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ICollection",
           "package": "egison",
@@ -2510,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IElement",
           "package": "egison",
@@ -2519,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IElement",
           "package": "egison",
@@ -2532,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IInductiveData",
           "package": "egison",
@@ -2541,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IInductiveData",
           "normalized": "IInductiveData String[ObjectRef]",
@@ -2556,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IIntHash",
           "package": "egison",
@@ -2565,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IIntHash",
           "package": "egison",
@@ -2578,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IOFunc",
           "package": "egison",
@@ -2587,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IOFunc",
           "package": "egison",
@@ -2600,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IStrHash",
           "package": "egison",
@@ -2609,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IStrHash",
           "package": "egison",
@@ -2622,6 +2854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ISubCollection",
           "package": "egison",
@@ -2631,6 +2864,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ISubCollection",
           "package": "egison",
@@ -2644,6 +2878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ITuple",
           "package": "egison",
@@ -2653,6 +2888,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ITuple",
           "normalized": "ITuple[ObjectRef]",
@@ -2668,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IfExpr",
           "package": "egison",
@@ -2677,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IfExpr",
           "package": "egison",
@@ -2690,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IndexedExpr",
           "package": "egison",
@@ -2699,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IndexedExpr",
           "normalized": "IndexedExpr EgisonExpr[EgisonExpr]",
@@ -2714,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IndexedPat",
           "package": "egison",
@@ -2723,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IndexedPat",
           "normalized": "IndexedPat EgisonPattern[EgisonExpr]",
@@ -2738,6 +2980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "InductiveData",
           "package": "egison",
@@ -2747,6 +2990,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "InductiveData",
           "normalized": "InductiveData String[EgisonValue]",
@@ -2762,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "InductiveDataExpr",
           "package": "egison",
@@ -2771,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "InductiveDataExpr",
           "normalized": "InductiveDataExpr String[EgisonExpr]",
@@ -2786,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "InductivePat",
           "package": "egison",
@@ -2795,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "InductivePat",
           "normalized": "InductivePat String[EgisonPattern]",
@@ -2810,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IntHash",
           "package": "egison",
@@ -2819,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IntHash",
           "package": "egison",
@@ -2832,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Integer",
           "package": "egison",
@@ -2841,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Integer",
           "package": "egison",
@@ -2854,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IntegerExpr",
           "package": "egison",
@@ -2863,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IntegerExpr",
           "package": "egison",
@@ -2876,6 +3130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Intermediate",
           "package": "egison",
@@ -2885,6 +3140,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Intermediate",
           "package": "egison",
@@ -2898,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "IoExpr",
           "package": "egison",
@@ -2907,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "IoExpr",
           "package": "egison",
@@ -2920,6 +3178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LambdaExpr",
           "package": "egison",
@@ -2929,6 +3188,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LambdaExpr",
           "normalized": "LambdaExpr[String]EgisonExpr",
@@ -2944,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LetExpr",
           "package": "egison",
@@ -2953,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LetExpr",
           "normalized": "LetExpr[BindingExpr]EgisonExpr",
@@ -2968,6 +3230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LetPat",
           "package": "egison",
@@ -2977,6 +3240,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LetPat",
           "normalized": "LetPat[BindingExpr]EgisonPattern",
@@ -2992,6 +3256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LetRecExpr",
           "package": "egison",
@@ -3001,6 +3266,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LetRecExpr",
           "normalized": "LetRecExpr[BindingExpr]EgisonExpr",
@@ -3016,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Load",
           "package": "egison",
@@ -3025,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Load",
           "package": "egison",
@@ -3038,6 +3306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoadFile",
           "package": "egison",
@@ -3047,6 +3316,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoadFile",
           "package": "egison",
@@ -3060,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopContext",
           "package": "egison",
@@ -3069,6 +3340,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopContext",
           "normalized": "LoopContext LoopMode Binding(Bool,EgisonPattern)EgisonPattern EgisonPattern",
@@ -3084,6 +3356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopPat",
           "package": "egison",
@@ -3093,6 +3366,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopPat",
           "package": "egison",
@@ -3106,6 +3380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "LoopRange",
           "package": "egison",
@@ -3115,6 +3390,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "LoopRange",
           "package": "egison",
@@ -3128,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MAtom",
           "package": "egison",
@@ -3137,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MAtom",
           "package": "egison",
@@ -3150,6 +3428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MCons",
           "package": "egison",
@@ -3159,6 +3438,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MCons",
           "package": "egison",
@@ -3172,6 +3452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MNil",
           "package": "egison",
@@ -3181,6 +3462,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MNil",
           "package": "egison",
@@ -3194,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MNode",
           "package": "egison",
@@ -3203,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MNode",
           "normalized": "MNode[PatternBinding]MatchingState",
@@ -3218,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MState",
           "package": "egison",
@@ -3227,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MState",
           "normalized": "MState Env[LoopContext][Binding][MatchingTree]",
@@ -3242,6 +3528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Match",
           "package": "egison",
@@ -3251,6 +3538,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Match",
           "package": "egison",
@@ -3264,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchAllExpr",
           "package": "egison",
@@ -3273,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchAllExpr",
           "package": "egison",
@@ -3286,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchAllLambdaExpr",
           "package": "egison",
@@ -3295,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchAllLambdaExpr",
           "package": "egison",
@@ -3308,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchExpr",
           "package": "egison",
@@ -3317,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchExpr",
           "normalized": "MatchExpr EgisonExpr EgisonExpr[MatchClause]",
@@ -3332,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatchLambdaExpr",
           "package": "egison",
@@ -3341,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatchLambdaExpr",
           "normalized": "MatchLambdaExpr EgisonExpr[MatchClause]",
@@ -3356,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatcherBFSExpr",
           "package": "egison",
@@ -3365,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatcherBFSExpr",
           "package": "egison",
@@ -3378,6 +3676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "MatcherDFSExpr",
           "package": "egison",
@@ -3387,6 +3686,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "MatcherDFSExpr",
           "package": "egison",
@@ -3400,6 +3700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NaiveMode",
           "package": "egison",
@@ -3409,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NaiveMode",
           "package": "egison",
@@ -3422,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NextMatchAllExpr",
           "package": "egison",
@@ -3431,6 +3734,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NextMatchAllExpr",
           "package": "egison",
@@ -3444,6 +3748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NextMatchAllLambdaExpr",
           "package": "egison",
@@ -3453,6 +3758,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NextMatchAllLambdaExpr",
           "package": "egison",
@@ -3466,6 +3772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NextMatchExpr",
           "package": "egison",
@@ -3475,6 +3782,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NextMatchExpr",
           "normalized": "NextMatchExpr EgisonExpr EgisonExpr[MatchClause]",
@@ -3490,6 +3798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NextMatchLambdaExpr",
           "package": "egison",
@@ -3499,6 +3808,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NextMatchLambdaExpr",
           "normalized": "NextMatchLambdaExpr EgisonExpr[MatchClause]",
@@ -3514,6 +3824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NotImplemented",
           "package": "egison",
@@ -3523,6 +3834,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NotImplemented",
           "package": "egison",
@@ -3536,6 +3848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "NotPat",
           "package": "egison",
@@ -3545,6 +3858,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "NotPat",
           "package": "egison",
@@ -3558,6 +3872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "OrPat",
           "package": "egison",
@@ -3567,6 +3882,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "OrPat",
           "normalized": "OrPat[EgisonPattern]",
@@ -3582,6 +3898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDConsPat",
           "package": "egison",
@@ -3591,6 +3908,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDConsPat",
           "package": "egison",
@@ -3604,6 +3922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDConstantPat",
           "package": "egison",
@@ -3613,6 +3932,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDConstantPat",
           "package": "egison",
@@ -3626,6 +3946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDEmptyPat",
           "package": "egison",
@@ -3635,6 +3956,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDEmptyPat",
           "package": "egison",
@@ -3648,6 +3970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDInductivePat",
           "package": "egison",
@@ -3657,6 +3980,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDInductivePat",
           "normalized": "PDInductivePat String[PrimitiveDataPattern]",
@@ -3672,6 +3996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDPatVar",
           "package": "egison",
@@ -3681,6 +4006,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDPatVar",
           "package": "egison",
@@ -3694,6 +4020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDSnocPat",
           "package": "egison",
@@ -3703,6 +4030,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDSnocPat",
           "package": "egison",
@@ -3716,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PDWildCard",
           "package": "egison",
@@ -3725,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PDWildCard",
           "package": "egison",
@@ -3738,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PPInductivePat",
           "package": "egison",
@@ -3747,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PPInductivePat",
           "normalized": "PPInductivePat String[PrimitivePatPattern]",
@@ -3762,6 +4094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PPPatVar",
           "package": "egison",
@@ -3771,6 +4104,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PPPatVar",
           "package": "egison",
@@ -3784,6 +4118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PPValuePat",
           "package": "egison",
@@ -3793,6 +4128,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PPValuePat",
           "package": "egison",
@@ -3806,6 +4142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PPWildCard",
           "package": "egison",
@@ -3815,6 +4152,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PPWildCard",
           "package": "egison",
@@ -3828,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Parser",
           "package": "egison",
@@ -3837,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Parser",
           "package": "egison",
@@ -3850,6 +4190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PatVar",
           "package": "egison",
@@ -3859,6 +4200,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PatVar",
           "package": "egison",
@@ -3872,6 +4214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PatternFunc",
           "package": "egison",
@@ -3881,6 +4224,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PatternFunc",
           "normalized": "PatternFunc Env[String]EgisonPattern",
@@ -3896,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PatternFunctionExpr",
           "package": "egison",
@@ -3905,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PatternFunctionExpr",
           "normalized": "PatternFunctionExpr[String]EgisonPattern",
@@ -3920,6 +4266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Port",
           "package": "egison",
@@ -3929,6 +4276,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Port",
           "package": "egison",
@@ -3942,6 +4290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PredPat",
           "package": "egison",
@@ -3951,6 +4300,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PredPat",
           "package": "egison",
@@ -3964,6 +4314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "PrimitiveFunc",
           "package": "egison",
@@ -3973,6 +4324,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "PrimitiveFunc",
           "package": "egison",
@@ -3986,6 +4338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Rational",
           "package": "egison",
@@ -3995,6 +4348,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Rational",
           "package": "egison",
@@ -4008,6 +4362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "RationalExpr",
           "package": "egison",
@@ -4017,6 +4372,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "RationalExpr",
           "package": "egison",
@@ -4030,6 +4386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "SmartMode",
           "package": "egison",
@@ -4039,6 +4396,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "SmartMode",
           "package": "egison",
@@ -4052,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Something",
           "package": "egison",
@@ -4061,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Something",
           "package": "egison",
@@ -4074,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "SomethingExpr",
           "package": "egison",
@@ -4083,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "SomethingExpr",
           "package": "egison",
@@ -4096,6 +4458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "StrHash",
           "package": "egison",
@@ -4105,6 +4468,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "StrHash",
           "package": "egison",
@@ -4118,6 +4482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "StringExpr",
           "package": "egison",
@@ -4127,6 +4492,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "StringExpr",
           "package": "egison",
@@ -4140,6 +4506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "SubCollectionExpr",
           "package": "egison",
@@ -4149,6 +4516,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "SubCollectionExpr",
           "package": "egison",
@@ -4162,6 +4530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Test",
           "package": "egison",
@@ -4171,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Test",
           "package": "egison",
@@ -4184,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Thunk",
           "package": "egison",
@@ -4193,6 +4564,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Thunk",
           "package": "egison",
@@ -4206,6 +4578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Tuple",
           "package": "egison",
@@ -4215,6 +4588,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Tuple",
           "normalized": "Tuple[EgisonValue]",
@@ -4230,6 +4604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "TupleExpr",
           "package": "egison",
@@ -4239,6 +4614,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "TupleExpr",
           "normalized": "TupleExpr[EgisonExpr]",
@@ -4254,6 +4630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "TuplePat",
           "package": "egison",
@@ -4263,6 +4640,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "TuplePat",
           "normalized": "TuplePat[EgisonPattern]",
@@ -4278,6 +4656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "TypeMismatch",
           "package": "egison",
@@ -4287,6 +4666,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "TypeMismatch",
           "package": "egison",
@@ -4300,6 +4680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "UnboundVariable",
           "package": "egison",
@@ -4309,6 +4690,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "UnboundVariable",
           "package": "egison",
@@ -4322,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Undefined",
           "package": "egison",
@@ -4331,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Undefined",
           "package": "egison",
@@ -4344,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "UndefinedExpr",
           "package": "egison",
@@ -4353,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "UndefinedExpr",
           "package": "egison",
@@ -4366,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "UserMatcher",
           "package": "egison",
@@ -4375,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "UserMatcher",
           "package": "egison",
@@ -4388,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "Value",
           "package": "egison",
@@ -4397,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "Value",
           "package": "egison",
@@ -4410,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "ValuePat",
           "package": "egison",
@@ -4419,6 +4810,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "ValuePat",
           "package": "egison",
@@ -4432,6 +4824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "VarExpr",
           "package": "egison",
@@ -4441,6 +4834,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "VarExpr",
           "package": "egison",
@@ -4454,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "VarPat",
           "package": "egison",
@@ -4463,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "VarPat",
           "package": "egison",
@@ -4476,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "WHNF",
           "package": "egison",
@@ -4485,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "WHNF",
           "package": "egison",
@@ -4498,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "WildCard",
           "package": "egison",
@@ -4507,6 +4906,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "WildCard",
           "package": "egison",
@@ -4520,6 +4920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "World",
           "package": "egison",
@@ -4529,6 +4930,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "World",
           "package": "egison",
@@ -4542,6 +4944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "extendEnv",
           "package": "egison",
@@ -4551,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "extendEnv",
           "normalized": "Env-\u003e[Binding]-\u003eEnv",
@@ -4566,6 +4970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fresh",
           "package": "egison",
@@ -4575,6 +4980,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fresh",
           "package": "egison",
@@ -4587,6 +4993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromEgison",
           "package": "egison",
@@ -4596,6 +5003,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromEgison",
           "normalized": "EgisonValue-\u003eEgisonM a",
@@ -4611,6 +5019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromEgisonM",
           "package": "egison",
@@ -4620,6 +5029,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromEgisonM",
           "normalized": "EgisonM a-\u003eIO(Either EgisonError a)",
@@ -4635,6 +5045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromList",
           "package": "egison",
@@ -4644,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromList",
           "normalized": "[a]-\u003eMList b a",
@@ -4659,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromMList",
           "package": "egison",
@@ -4668,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromMList",
           "normalized": "MList a b-\u003ea[b]",
@@ -4683,6 +5097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromSeq",
           "package": "egison",
@@ -4692,6 +5107,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromSeq",
           "normalized": "Seq a-\u003eMList b a",
@@ -4707,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "fromWHNF",
           "package": "egison",
@@ -4716,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "fromWHNF",
           "normalized": "WHNFData-\u003eEgisonM a",
@@ -4731,6 +5149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "liftEgisonM",
           "package": "egison",
@@ -4740,6 +5159,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "liftEgisonM",
           "normalized": "Fresh(Either EgisonError a)-\u003eEgisonM a",
@@ -4755,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "liftError",
           "package": "egison",
@@ -4764,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "liftError",
           "normalized": "Either a b-\u003ec b",
@@ -4779,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "mappend",
           "package": "egison",
@@ -4788,6 +5211,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "mappend",
           "normalized": "MList a b-\u003ea(MList a b)-\u003ea(MList a b)",
@@ -4802,6 +5226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "matchFail",
           "package": "egison",
@@ -4811,6 +5236,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "matchFail",
           "package": "egison",
@@ -4824,6 +5250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "mconcat",
           "package": "egison",
@@ -4833,6 +5260,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "mconcat",
           "normalized": "MList a(MList a b)-\u003ea(MList a b)",
@@ -4847,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "mfoldr",
           "package": "egison",
@@ -4856,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "mfoldr",
           "normalized": "(a-\u003eb c-\u003eb c)-\u003eb c-\u003eMList b a-\u003eb c",
@@ -4870,6 +5300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "mfor",
           "package": "egison",
@@ -4879,6 +5310,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "mfor",
           "normalized": "MList a b-\u003e(b-\u003ea c)-\u003ea(MList a c)",
@@ -4893,6 +5325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "mmap",
           "package": "egison",
@@ -4902,6 +5335,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "mmap",
           "normalized": "(a-\u003eb c)-\u003eMList b a-\u003eb(MList b c)",
@@ -4916,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "msingleton",
           "package": "egison",
@@ -4925,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "msingleton",
           "normalized": "a-\u003eMList b a",
@@ -4939,6 +5375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "nullEnv",
           "package": "egison",
@@ -4948,6 +5385,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "nullEnv",
           "package": "egison",
@@ -4961,6 +5399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "pmMode",
           "package": "egison",
@@ -4970,6 +5409,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "pmMode",
           "normalized": "Matcher-\u003ePMMode",
@@ -4985,6 +5425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "refVar",
           "package": "egison",
@@ -4994,6 +5435,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "refVar",
           "normalized": "Env-\u003eVar-\u003eEgisonM ObjectRef",
@@ -5009,6 +5451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "runEgisonM",
           "package": "egison",
@@ -5018,6 +5461,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "runEgisonM",
           "normalized": "EgisonM a-\u003eFreshT IO(Either EgisonError a)",
@@ -5033,6 +5477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "runFreshT",
           "package": "egison",
@@ -5042,6 +5487,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "runFreshT",
           "normalized": "Int-\u003eFreshT a b-\u003ea(b,Int)",
@@ -5057,6 +5503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "toEgison",
           "package": "egison",
@@ -5066,6 +5513,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "toEgison",
           "normalized": "a-\u003eEgisonValue",
@@ -5081,6 +5529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "toWHNF",
           "package": "egison",
@@ -5090,6 +5539,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "toWHNF",
           "normalized": "a-\u003eWHNFData",
@@ -5105,6 +5555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "unEgisonM",
           "package": "egison",
@@ -5114,6 +5565,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "unEgisonM",
           "package": "egison",
@@ -5127,6 +5579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Types",
           "name": "unFreshT",
           "package": "egison",
@@ -5136,6 +5589,7 @@
         },
         "index": {
           "hierarchy": "Language Egison Types",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Types",
           "name": "unFreshT",
           "package": "egison",
@@ -5150,6 +5604,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides utility functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Util",
           "name": "Util",
           "package": "egison",
@@ -5159,6 +5614,7 @@
         "index": {
           "description": "This module provides utility functions",
           "hierarchy": "Language Egison Util",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Util",
           "name": "Util",
           "package": "egison",
@@ -5173,6 +5629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplete Egison keywords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Util",
           "name": "completeEgison",
           "package": "egison",
@@ -5183,6 +5640,7 @@
         "index": {
           "description": "Complete Egison keywords",
           "hierarchy": "Language Egison Util",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Util",
           "name": "completeEgison",
           "package": "egison",
@@ -5197,6 +5655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Egison expression from the prompt. We can handle multiline input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Util",
           "name": "getEgisonExpr",
           "package": "egison",
@@ -5207,6 +5666,7 @@
         "index": {
           "description": "Get Egison expression from the prompt We can handle multiline input",
           "hierarchy": "Language Egison Util",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Util",
           "name": "getEgisonExpr",
           "normalized": "String-\u003eInputT IO(Maybe(Either(String,EgisonTopExpr)(String,EgisonExpr)))",
@@ -5223,6 +5683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet Egison expression from the prompt. We can handle multiline input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison.Util",
           "name": "getEgisonExprOrNewLine",
           "package": "egison",
@@ -5233,6 +5694,7 @@
         "index": {
           "description": "Get Egison expression from the prompt We can handle multiline input",
           "hierarchy": "Language Egison Util",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison.Util",
           "name": "getEgisonExprOrNewLine",
           "normalized": "String-\u003eInputT IO(Either(Maybe String)(Either(String,EgisonTopExpr)(String,EgisonExpr)))",
@@ -5249,6 +5711,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the top module of Egison.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "Egison",
           "package": "egison",
@@ -5258,6 +5721,7 @@
         "index": {
           "description": "This is the top module of Egison",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "Egison",
           "package": "egison",
@@ -5272,6 +5736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval an Egison expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "evalEgisonExpr",
           "package": "egison",
@@ -5282,6 +5747,7 @@
         "index": {
           "description": "eval an Egison expression",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "evalEgisonExpr",
           "normalized": "Env-\u003eEgisonExpr-\u003eIO(Either EgisonError EgisonValue)",
@@ -5298,6 +5764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval an Egison top expression\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "evalEgisonTopExpr",
           "package": "egison",
@@ -5308,6 +5775,7 @@
         "index": {
           "description": "eval an Egison top expression",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "evalEgisonTopExpr",
           "normalized": "Env-\u003eEgisonTopExpr-\u003eIO(Either EgisonError Env)",
@@ -5324,6 +5792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval Egison top expressions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "evalEgisonTopExprs",
           "package": "egison",
@@ -5334,6 +5803,7 @@
         "index": {
           "description": "eval Egison top expressions",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "evalEgisonTopExprs",
           "normalized": "Env-\u003e[EgisonTopExpr]-\u003eIO(Either EgisonError Env)",
@@ -5350,6 +5820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment that contains core libraries\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "initialEnv",
           "package": "egison",
@@ -5360,6 +5831,7 @@
         "index": {
           "description": "Environment that contains core libraries",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "initialEnv",
           "package": "egison",
@@ -5374,6 +5846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvironment that contains core libraries without IO primitives\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "initialEnvNoIO",
           "package": "egison",
@@ -5384,6 +5857,7 @@
         "index": {
           "description": "Environment that contains core libraries without IO primitives",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "initialEnvNoIO",
           "package": "egison",
@@ -5398,6 +5872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload an Egison file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "loadEgisonFile",
           "package": "egison",
@@ -5408,6 +5883,7 @@
         "index": {
           "description": "load an Egison file",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "loadEgisonFile",
           "normalized": "Env-\u003eFilePath-\u003eIO(Either EgisonError Env)",
@@ -5424,6 +5900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eload an Egison library\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "loadEgisonLibrary",
           "package": "egison",
@@ -5434,6 +5911,7 @@
         "index": {
           "description": "load an Egison library",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "loadEgisonLibrary",
           "normalized": "Env-\u003eFilePath-\u003eIO(Either EgisonError Env)",
@@ -5450,6 +5928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval an Egison expression. Input is a Haskell string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "runEgisonExpr",
           "package": "egison",
@@ -5460,6 +5939,7 @@
         "index": {
           "description": "eval an Egison expression Input is Haskell string",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "runEgisonExpr",
           "normalized": "Env-\u003eString-\u003eIO(Either EgisonError EgisonValue)",
@@ -5476,6 +5956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval an Egison top expression. Input is a Haskell string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "runEgisonTopExpr",
           "package": "egison",
@@ -5486,6 +5967,7 @@
         "index": {
           "description": "eval an Egison top expression Input is Haskell string",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "runEgisonTopExpr",
           "normalized": "Env-\u003eString-\u003eIO(Either EgisonError Env)",
@@ -5502,6 +5984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeval Egison top expressions. Input is a Haskell string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "runEgisonTopExprs",
           "package": "egison",
@@ -5512,6 +5995,7 @@
         "index": {
           "description": "eval Egison top expressions Input is Haskell string",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "runEgisonTopExprs",
           "normalized": "Env-\u003eString-\u003eIO(Either EgisonError Env)",
@@ -5528,6 +6012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVersion number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:01:18 UTC 2014",
           "module": "Language.Egison",
           "name": "version",
           "package": "egison",
@@ -5538,6 +6023,7 @@
         "index": {
           "description": "Version number",
           "hierarchy": "Language Egison",
+          "indexed": "2014-03-11T18:01:18",
           "module": "Language.Egison",
           "name": "version",
           "package": "egison",

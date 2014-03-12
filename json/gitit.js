@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gitit"
+        "phrase": "gitit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Authentication",
           "name": "Authentication",
           "package": "gitit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Authentication",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Authentication",
           "name": "Authentication",
           "package": "gitit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Authentication",
           "name": "formAuthHandlers",
           "package": "gitit",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Authentication",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Authentication",
           "name": "formAuthHandlers",
           "normalized": "[Handler]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Authentication",
           "name": "httpAuthHandlers",
           "package": "gitit",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Authentication",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Authentication",
           "name": "httpAuthHandlers",
           "normalized": "[Handler]",
@@ -110,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Authentication",
           "name": "rpxAuthHandlers",
           "package": "gitit",
@@ -119,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Authentication",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Authentication",
           "name": "rpxAuthHandlers",
           "normalized": "[Handler]",
@@ -135,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for parsing command line options and reading the config file.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Config",
           "name": "Config",
           "package": "gitit",
@@ -144,6 +153,7 @@
         "index": {
           "description": "Functions for parsing command line options and reading the config file",
           "hierarchy": "Network Gitit Config",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Config",
           "name": "Config",
           "package": "gitit",
@@ -158,6 +168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet configuration from config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Config",
           "name": "getConfigFromFile",
           "package": "gitit",
@@ -168,6 +179,7 @@
         "index": {
           "description": "Get configuration from config file",
           "hierarchy": "Network Gitit Config",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Config",
           "name": "getConfigFromFile",
           "normalized": "FilePath-\u003eIO Config",
@@ -184,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default gitit configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Config",
           "name": "getDefaultConfig",
           "package": "gitit",
@@ -194,6 +207,7 @@
         "index": {
           "description": "Returns the default gitit configuration",
           "hierarchy": "Network Gitit Config",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Config",
           "name": "getDefaultConfig",
           "package": "gitit",
@@ -208,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a file associating mime types with extensions, and return a\n map from extensions to types. Each line of the file consists of a\n mime type, followed by space, followed by a list of zero or more\n extensions, separated by spaces. Example: text/plain txt text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Config",
           "name": "readMimeTypesFile",
           "package": "gitit",
@@ -218,6 +233,7 @@
         "index": {
           "description": "Read file associating mime types with extensions and return map from extensions to types Each line of the file consists of mime type followed by space followed by list of zero or more extensions separated by spaces Example text plain txt text",
           "hierarchy": "Network Gitit Config",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Config",
           "name": "readMimeTypesFile",
           "normalized": "FilePath-\u003eIO(Map String String)",
@@ -233,6 +249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "ContentTransformer",
           "package": "gitit",
@@ -241,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "ContentTransformer",
           "package": "gitit",
@@ -255,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds javascript links for math support.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addMathSupport",
           "package": "gitit",
@@ -265,6 +284,7 @@
         "index": {
           "description": "Adds javascript links for math support",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addMathSupport",
           "normalized": "a-\u003eContentTransformer a",
@@ -281,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds page title to a Pandoc document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addPageTitleToPandoc",
           "package": "gitit",
@@ -291,6 +312,7 @@
         "index": {
           "description": "Adds page title to Pandoc document",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addPageTitleToPandoc",
           "normalized": "String-\u003ePandoc-\u003eContentTransformer Pandoc",
@@ -307,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds javascripts to page layout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addScripts",
           "package": "gitit",
@@ -317,6 +340,7 @@
         "index": {
           "description": "Adds javascripts to page layout",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "addScripts",
           "normalized": "PageLayout-\u003e[String]-\u003ePageLayout",
@@ -333,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies all the page transform plugins to a Pandoc document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyPageTransforms",
           "package": "gitit",
@@ -343,6 +368,7 @@
         "index": {
           "description": "Applies all the page transform plugins to Pandoc document",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyPageTransforms",
           "normalized": "Pandoc-\u003eContentTransformer Pandoc",
@@ -359,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplies pre-commit plugins to raw page source, possibly\n modifying it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyPreCommitPlugins",
           "package": "gitit",
@@ -369,6 +396,7 @@
         "index": {
           "description": "Applies pre-commit plugins to raw page source possibly modifying it",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyPreCommitPlugins",
           "normalized": "String-\u003eGititServerPart String",
@@ -385,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the sidebar, page tabs, and other elements of the wiki page\n layout to the raw content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyWikiTemplate",
           "package": "gitit",
@@ -395,6 +424,7 @@
         "index": {
           "description": "Adds the sidebar page tabs and other elements of the wiki page layout to the raw content",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "applyWikiTemplate",
           "normalized": "Html-\u003eContentTransformer Response",
@@ -411,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCaches a response (actually just the response body) on disk,\n unless the context indicates that the page is not cacheable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "cacheHtml",
           "package": "gitit",
@@ -421,6 +452,7 @@
         "index": {
           "description": "Caches response actually just the response body on disk unless the context indicates that the page is not cacheable",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "cacheHtml",
           "normalized": "Response-\u003eContentTransformer Response",
@@ -437,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns cached page if available, otherwise mzero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "cachedHtml",
           "package": "gitit",
@@ -447,6 +480,7 @@
         "index": {
           "description": "Returns cached page if available otherwise mzero",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "cachedHtml",
           "package": "gitit",
@@ -461,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with page exported into selected format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "exportPage",
           "package": "gitit",
@@ -471,6 +506,7 @@
         "index": {
           "description": "Responds with page exported into selected format",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "exportPage",
           "package": "gitit",
@@ -485,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Pandoc to response using format specified in parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "exportPandoc",
           "package": "gitit",
@@ -495,6 +532,7 @@
         "index": {
           "description": "Converts Pandoc to response using format specified in parameters",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "exportPandoc",
           "normalized": "Pandoc-\u003eContentTransformer Response",
@@ -510,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getCacheable",
           "package": "gitit",
@@ -519,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getCacheable",
           "package": "gitit",
@@ -532,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getFileName",
           "package": "gitit",
@@ -541,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getFileName",
           "package": "gitit",
@@ -554,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getLayout",
           "package": "gitit",
@@ -563,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getLayout",
           "package": "gitit",
@@ -576,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getPageName",
           "package": "gitit",
@@ -585,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getPageName",
           "package": "gitit",
@@ -598,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getParams",
           "package": "gitit",
@@ -607,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "getParams",
           "package": "gitit",
@@ -621,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns highlighted source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "highlightSource",
           "package": "gitit",
@@ -631,6 +680,7 @@
         "index": {
           "description": "Returns highlighted source code",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "highlightSource",
           "normalized": "Maybe String-\u003eContentTransformer Html",
@@ -701,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts raw contents to a response that is appropriate with\n a mime type derived from the page's extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "mimeFileResponse",
           "package": "gitit",
@@ -711,6 +762,7 @@
         "index": {
           "description": "Converts raw contents to response that is appropriate with mime type derived from the page extension",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "mimeFileResponse",
           "normalized": "Maybe String-\u003eContentTransformer Response",
@@ -726,6 +778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "mimeResponse",
           "package": "gitit",
@@ -734,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "mimeResponse",
           "normalized": "String-\u003eString-\u003ea Response",
@@ -750,6 +804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts source text to Pandoc using default page type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pageToPandoc",
           "package": "gitit",
@@ -760,6 +815,7 @@
         "index": {
           "description": "Converts source text to Pandoc using default page type",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pageToPandoc",
           "normalized": "Page-\u003eContentTransformer Pandoc",
@@ -776,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts Page to Pandoc, applies page transforms, and adds page\n title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pageToWikiPandoc",
           "package": "gitit",
@@ -786,6 +843,7 @@
         "index": {
           "description": "Converts Page to Pandoc applies page transforms and adds page title",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pageToWikiPandoc",
           "normalized": "Page-\u003eContentTransformer Pandoc",
@@ -802,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts pandoc document to HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pandocToHtml",
           "package": "gitit",
@@ -812,6 +871,7 @@
         "index": {
           "description": "Converts pandoc document to HTML",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "pandocToHtml",
           "normalized": "Pandoc-\u003eContentTransformer Html",
@@ -828,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with rendered page derived from form data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "preview",
           "package": "gitit",
@@ -838,6 +899,7 @@
         "index": {
           "description": "Responds with rendered page derived from form data",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "preview",
           "package": "gitit",
@@ -851,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns raw file contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "rawContents",
           "package": "gitit",
@@ -861,6 +924,7 @@
         "index": {
           "description": "Returns raw file contents",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "rawContents",
           "package": "gitit",
@@ -875,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003eContentTransformer\u003c/code\u003e into a \u003ccode\u003eGititServerPart\u003c/code\u003e;\n specialized to non-pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "runFileTransformer",
           "package": "gitit",
@@ -885,6 +950,7 @@
         "index": {
           "description": "Converts ContentTransformer into GititServerPart specialized to non-pages",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "runFileTransformer",
           "normalized": "ContentTransformer a-\u003eGititServerPart a",
@@ -901,6 +967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a \u003ccode\u003eContentTransformer\u003c/code\u003e into a \u003ccode\u003eGititServerPart\u003c/code\u003e;\n specialized to wiki pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "runPageTransformer",
           "package": "gitit",
@@ -911,6 +978,7 @@
         "index": {
           "description": "Converts ContentTransformer into GititServerPart specialized to wiki pages",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "runPageTransformer",
           "normalized": "ContentTransformer a-\u003eGititServerPart a",
@@ -927,6 +995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with non-highlighted source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showFile",
           "package": "gitit",
@@ -937,6 +1006,7 @@
         "index": {
           "description": "Responds with non-highlighted source code",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showFile",
           "package": "gitit",
@@ -951,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with raw source (for non-pages such as source\n code files).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showFileAsText",
           "package": "gitit",
@@ -961,6 +1032,7 @@
         "index": {
           "description": "Responds with raw source for non-pages such as source code files",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showFileAsText",
           "package": "gitit",
@@ -975,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with highlighted source code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showHighlightedSource",
           "package": "gitit",
@@ -985,6 +1058,7 @@
         "index": {
           "description": "Responds with highlighted source code",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showHighlightedSource",
           "package": "gitit",
@@ -999,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with rendered wiki page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showPage",
           "package": "gitit",
@@ -1009,6 +1084,7 @@
         "index": {
           "description": "Responds with rendered wiki page",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showPage",
           "package": "gitit",
@@ -1023,6 +1099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponds with raw page source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showRawPage",
           "package": "gitit",
@@ -1033,6 +1110,7 @@
         "index": {
           "description": "Responds with raw page source",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "showRawPage",
           "package": "gitit",
@@ -1047,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts raw contents to a text/plain response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "textResponse",
           "package": "gitit",
@@ -1057,6 +1136,7 @@
         "index": {
           "description": "Converts raw contents to text plain response",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "textResponse",
           "normalized": "Maybe String-\u003eContentTransformer Response",
@@ -1073,6 +1153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePuts rendered page content into a wikipage div, adding\n categories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.ContentTransformer",
           "name": "wikiDivify",
           "package": "gitit",
@@ -1083,6 +1164,7 @@
         "index": {
           "description": "Puts rendered page content into wikipage div adding categories",
           "hierarchy": "Network Gitit ContentTransformer",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.ContentTransformer",
           "name": "wikiDivify",
           "normalized": "Html-\u003eContentTransformer Html",
@@ -1099,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUseful functions for defining wiki handlers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "Framework",
           "package": "gitit",
@@ -1108,6 +1191,7 @@
         "index": {
           "description": "Useful functions for defining wiki handlers",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "Framework",
           "package": "gitit",
@@ -1122,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequire a logged in user if the authentication level demands it.\n Run the handler if a user is logged in, otherwise redirect\n to login page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "authenticate",
           "package": "gitit",
@@ -1132,6 +1217,7 @@
         "index": {
           "description": "Require logged in user if the authentication level demands it Run the handler if user is logged in otherwise redirect to login page",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "authenticate",
           "normalized": "AuthenticationLevel-\u003eHandler-\u003eHandler",
@@ -1147,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eauthenticate\u003c/a\u003e\u003c/code\u003e, but with a predicate that the user must satisfy.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "authenticateUserThat",
           "package": "gitit",
@@ -1157,6 +1244,7 @@
         "index": {
           "description": "Like authenticate but with predicate that the user must satisfy",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "authenticateUserThat",
           "normalized": "(User-\u003eBool)-\u003eAuthenticationLevel-\u003eHandler-\u003eHandler",
@@ -1173,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a filestore object derived from the\n repository path and filestore type specified in configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "filestoreFromConfig",
           "package": "gitit",
@@ -1183,6 +1272,7 @@
         "index": {
           "description": "Returns filestore object derived from the repository path and filestore type specified in configuration",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "filestoreFromConfig",
           "normalized": "Config-\u003eFileStore",
@@ -1199,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eJust\u003c/code\u003e logged in user or \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getLoggedInUser",
           "package": "gitit",
@@ -1209,6 +1300,7 @@
         "index": {
           "description": "Returns Just logged in user or Nothing",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getLoggedInUser",
           "package": "gitit",
@@ -1223,6 +1315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a mime type based on file extension.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getMimeTypeForExtension",
           "package": "gitit",
@@ -1233,6 +1326,7 @@
         "index": {
           "description": "Retrieves mime type based on file extension",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getMimeTypeForExtension",
           "normalized": "String-\u003eGititServerPart String",
@@ -1249,6 +1343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current page name (derived from the path).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getPage",
           "package": "gitit",
@@ -1259,6 +1354,7 @@
         "index": {
           "description": "Returns the current page name derived from the path",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getPage",
           "package": "gitit",
@@ -1273,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current path (subtracting initial commands like \u003ccode\u003e/_edit\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getPath",
           "package": "gitit",
@@ -1283,6 +1380,7 @@
         "index": {
           "description": "Returns the current path subtracting initial commands like edit",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getPath",
           "package": "gitit",
@@ -1297,6 +1395,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the contents of the \u003ca\u003ereferer\u003c/a\u003e header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getReferer",
           "package": "gitit",
@@ -1307,6 +1406,7 @@
         "index": {
           "description": "Returns the contents of the referer header",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getReferer",
           "package": "gitit",
@@ -1321,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the base URL of the wiki in the happstack server.\n So, if the wiki handlers are behind a \u003ccode\u003edir \u003ccode\u003efoo\u003c/code\u003e\u003c/code\u003e, getWikiBase will\n return \u003ccode\u003e/foo/\u003c/code\u003e.  getWikiBase doesn't know anything about HTTP\n proxies, so if you use proxies to map a gitit wiki to \u003ccode\u003e/foo/\u003c/code\u003e,\n you'll still need to follow the instructions in README.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "getWikiBase",
           "package": "gitit",
@@ -1331,6 +1432,7 @@
         "index": {
           "description": "Returns the base URL of the wiki in the happstack server So if the wiki handlers are behind dir foo getWikiBase will return foo getWikiBase doesn know anything about HTTP proxies so if you use proxies to map gitit wiki to foo you ll still need to follow the instructions in README",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "getWikiBase",
           "package": "gitit",
@@ -1344,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "guardBareBase",
           "package": "gitit",
@@ -1353,6 +1456,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "guardBareBase",
           "normalized": "GititServerPart()",
@@ -1368,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "guardCommand",
           "package": "gitit",
@@ -1377,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "guardCommand",
           "normalized": "String-\u003eGititServerPart()",
@@ -1393,6 +1499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSucceeds if path is an index path:  e.g. \u003ccode\u003e/foo/bar/\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "guardIndex",
           "package": "gitit",
@@ -1403,6 +1510,7 @@
         "index": {
           "description": "Succeeds if path is an index path e.g foo bar",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "guardIndex",
           "normalized": "GititServerPart()",
@@ -1418,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "guardPath",
           "package": "gitit",
@@ -1427,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "guardPath",
           "normalized": "(String-\u003eBool)-\u003eGititServerPart()",
@@ -1442,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "isDiscussPage",
           "package": "gitit",
@@ -1451,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "isDiscussPage",
           "normalized": "String-\u003eBool",
@@ -1466,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "isDiscussPageFile",
           "package": "gitit",
@@ -1475,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "isDiscussPageFile",
           "normalized": "FilePath-\u003eBool",
@@ -1490,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "isPage",
           "package": "gitit",
@@ -1499,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "isPage",
           "normalized": "String-\u003eBool",
@@ -1514,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "isPageFile",
           "package": "gitit",
@@ -1523,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "isPageFile",
           "normalized": "FilePath-\u003eBool",
@@ -1538,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "isSourceCode",
           "package": "gitit",
@@ -1547,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "isSourceCode",
           "normalized": "String-\u003eBool",
@@ -1563,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the filestore path of the file containing the page's source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "pathForPage",
           "package": "gitit",
@@ -1573,6 +1694,7 @@
         "index": {
           "description": "Returns the filestore path of the file containing the page source",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "pathForPage",
           "normalized": "String-\u003eFilePath",
@@ -1589,6 +1711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunlessNoDelete responder fallback\u003c/code\u003e runs \u003ccode\u003eresponder\u003c/code\u003e unless the\n page has been designated not deletable in configuration; in that\n case, runs \u003ccode\u003efallback\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "unlessNoDelete",
           "package": "gitit",
@@ -1599,6 +1722,7 @@
         "index": {
           "description": "unlessNoDelete responder fallback runs responder unless the page has been designated not deletable in configuration in that case runs fallback",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "unlessNoDelete",
           "normalized": "Handler-\u003eHandler-\u003eHandler",
@@ -1615,6 +1739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eunlessNoEdit responder fallback\u003c/code\u003e runs \u003ccode\u003eresponder\u003c/code\u003e unless the\n page has been designated not editable in configuration; in that\n case, runs \u003ccode\u003efallback\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "unlessNoEdit",
           "package": "gitit",
@@ -1625,6 +1750,7 @@
         "index": {
           "description": "unlessNoEdit responder fallback runs responder unless the page has been designated not editable in configuration in that case runs fallback",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "unlessNoEdit",
           "normalized": "Handler-\u003eHandler-\u003eHandler",
@@ -1641,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns path portion of URI, without initial \u003ccode\u003e/\u003c/code\u003e.\n Consecutive spaces are collapsed.  We don't want to distinguish\n \u003ccode\u003eHi There\u003c/code\u003e and \u003ccode\u003eHi  There\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "uriPath",
           "package": "gitit",
@@ -1651,6 +1778,7 @@
         "index": {
           "description": "Returns path portion of URI without initial Consecutive spaces are collapsed We don want to distinguish Hi There and Hi There",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "uriPath",
           "normalized": "String-\u003eString",
@@ -1667,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns encoded URL path for the page with the given name, relative to\n the wiki base.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "urlForPage",
           "package": "gitit",
@@ -1677,6 +1806,7 @@
         "index": {
           "description": "Returns encoded URL path for the page with the given name relative to the wiki base",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "urlForPage",
           "normalized": "String-\u003eString",
@@ -1693,6 +1823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple helper for validation of forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "validate",
           "package": "gitit",
@@ -1702,6 +1833,7 @@
         "index": {
           "description": "Simple helper for validation of forms",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "validate",
           "normalized": "[(Bool,String)]-\u003e[String]",
@@ -1717,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a server monad in a local context after setting\n the \u003ca\u003emessage\u003c/a\u003e request header.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "withMessages",
           "package": "gitit",
@@ -1727,6 +1860,7 @@
         "index": {
           "description": "Runs server monad in local context after setting the message request header",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "withMessages",
           "normalized": "[String]-\u003ea b-\u003ea b",
@@ -1743,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the handler after setting \u003ccode\u003eREMOTE_USER\u003c/code\u003e from the \u003ca\u003eauthorization\u003c/a\u003e\n header.  Works with simple HTTP authentication or digest authentication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "withUserFromHTTPAuth",
           "package": "gitit",
@@ -1753,6 +1888,7 @@
         "index": {
           "description": "Run the handler after setting REMOTE USER from the authorization header Works with simple HTTP authentication or digest authentication",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "withUserFromHTTPAuth",
           "normalized": "Handler-\u003eHandler",
@@ -1769,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the handler after setting \u003ccode\u003eREMOTE_USER\u003c/code\u003e with the user from\n the session.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Framework",
           "name": "withUserFromSession",
           "package": "gitit",
@@ -1779,6 +1916,7 @@
         "index": {
           "description": "Run the handler after setting REMOTE USER with the user from the session",
           "hierarchy": "Network Gitit Framework",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Framework",
           "name": "withUserFromSession",
           "normalized": "Handler-\u003eHandler",
@@ -1795,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for initializing a Gitit wiki.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "Initialize",
           "package": "gitit",
@@ -1804,6 +1943,7 @@
         "index": {
           "description": "Functions for initializing Gitit wiki",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "Initialize",
           "package": "gitit",
@@ -1817,6 +1957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "compilePageTemplate",
           "package": "gitit",
@@ -1826,6 +1967,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "compilePageTemplate",
           "normalized": "FilePath-\u003eIO(StringTemplate String)",
@@ -1841,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "createDefaultPages",
           "package": "gitit",
@@ -1850,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "createDefaultPages",
           "normalized": "Config-\u003eIO()",
@@ -1866,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate page repository unless it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "createRepoIfMissing",
           "package": "gitit",
@@ -1876,6 +2021,7 @@
         "index": {
           "description": "Create page repository unless it exists",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "createRepoIfMissing",
           "normalized": "Config-\u003eIO()",
@@ -1892,6 +2038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate static directory unless it exists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "createStaticIfMissing",
           "package": "gitit",
@@ -1902,6 +2049,7 @@
         "index": {
           "description": "Create static directory unless it exists",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "createStaticIfMissing",
           "normalized": "Config-\u003eIO()",
@@ -1918,6 +2066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate templates dir if it doesn't exist.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "createTemplateIfMissing",
           "package": "gitit",
@@ -1928,6 +2077,7 @@
         "index": {
           "description": "Create templates dir if it doesn exist",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "createTemplateIfMissing",
           "normalized": "Config-\u003eIO()",
@@ -1944,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitialize Gitit State.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "initializeGititState",
           "package": "gitit",
@@ -1954,6 +2105,7 @@
         "index": {
           "description": "Initialize Gitit State",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "initializeGititState",
           "normalized": "Config-\u003eIO()",
@@ -1970,6 +2122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecompile the page template.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Initialize",
           "name": "recompilePageTemplate",
           "package": "gitit",
@@ -1980,6 +2133,7 @@
         "index": {
           "description": "Recompile the page template",
           "hierarchy": "Network Gitit Initialize",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Initialize",
           "name": "recompilePageTemplate",
           "normalized": "IO()",
@@ -1996,6 +2150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for plugins.\n\u003c/p\u003e\u003cp\u003eA plugin is a Haskell module that is dynamically loaded by gitit.\n\u003c/p\u003e\u003cp\u003eThere are three kinds of plugins: \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003es,\n\u003ccode\u003e\u003ca\u003ePreParseTransform\u003c/a\u003e\u003c/code\u003es, and \u003ccode\u003e\u003ca\u003ePreCommitTransform\u003c/a\u003e\u003c/code\u003es. These plugins differ\nchiefly in where they are applied. \u003ccode\u003e\u003ca\u003ePreCommitTransform\u003c/a\u003e\u003c/code\u003e plugins are\napplied just before changes to a page are saved and may transform\nthe raw source that is saved. \u003ccode\u003e\u003ca\u003ePreParseTransform\u003c/a\u003e\u003c/code\u003e plugins are applied\nwhen a page is viewed and may alter the raw page source before it\nis parsed as a \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document. Finally, \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugins\nmodify the \u003ccode\u003e\u003ca\u003ePandoc\u003c/a\u003e\u003c/code\u003e document that results after a page's source is\nparsed, but before it is converted to HTML:\n\u003c/p\u003e\u003cpre\u003e                 +--------------------------+\n                 | edited text from browser |\n                 +--------------------------+\n                              ||         \u003c----  PreCommitTransform plugins\n                              \\/\n                              ||         \u003c----  saved to repository\n                              \\/\n              +---------------------------------+\n              | raw page source from repository |\n              +---------------------------------+\n                              ||         \u003c----  PreParseTransform plugins\n                              \\/\n                              ||         \u003c----  markdown or RST reader\n                              \\/\n                     +-----------------+\n                     | Pandoc document |\n                     +-----------------+\n                              ||         \u003c---- PageTransform plugins\n                              \\/\n                   +---------------------+\n                   | new Pandoc document |\n                   +---------------------+\n                              ||         \u003c---- HTML writer\n                              \\/\n                   +----------------------+\n                   | HTML version of page |\n                   +----------------------+\n\u003c/pre\u003e\u003cp\u003eNote that \u003ccode\u003e\u003ca\u003ePreParseTransform\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugins do not alter\nthe page source stored in the repository. They only affect what is\nvisible on the website.  Only \u003ccode\u003e\u003ca\u003ePreCommitTransform\u003c/a\u003e\u003c/code\u003e plugins can\nalter what is stored in the repository.\n\u003c/p\u003e\u003cp\u003eNote also that \u003ccode\u003e\u003ca\u003ePreParseTransform\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugins will\nnot be run when the cached version of a page is used.  Plugins can\nuse the \u003ccode\u003e\u003ca\u003edoNotCache\u003c/a\u003e\u003c/code\u003e command to prevent a page from being cached,\nif their behavior is sensitive to things that might change from\none time to another (such as the time or currently logged-in user).\n\u003c/p\u003e\u003cp\u003eYou can use the helper functions \u003ccode\u003e\u003ca\u003emkPageTransform\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emkPageTransformM\u003c/a\u003e\u003c/code\u003e\nto create \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugins from a transformation of any\nof the basic types used by Pandoc (for example, \u003ccode\u003eInline\u003c/code\u003e, \u003ccode\u003eBlock\u003c/code\u003e,\n\u003ccode\u003e[Inline]\u003c/code\u003e, even \u003ccode\u003eString\u003c/code\u003e). Here is a simple (if silly) example:\n\u003c/p\u003e\u003cpre\u003e -- Deprofanizer.hs\n module Deprofanizer (plugin) where\n\n -- This plugin replaces profane words with \"XXXXX\".\n\n import Network.Gitit.Interface\n import Data.Char (toLower)\n\n plugin :: Plugin\n plugin = mkPageTransform deprofanize\n\n deprofanize :: Inline -\u003e Inline\n deprofanize (Str x) | isBadWord x = Str \"XXXXX\"\n deprofanize x                     = x\n\n isBadWord :: String -\u003e Bool\n isBadWord x = (map toLower x) `elem` [\"darn\", \"blasted\", \"stinker\"]\n -- there are more, but this is a family program\n\u003c/pre\u003e\u003cp\u003eFurther examples can be found in the \u003ccode\u003eplugins\u003c/code\u003e directory in\nthe source distribution.  If you have installed gitit using Cabal,\nyou can also find them in the directory\n\u003ccode\u003eCABALDIR/share/gitit-X.Y.Z/plugins\u003c/code\u003e, where \u003ccode\u003eCABALDIR\u003c/code\u003e is the cabal\ninstall directory and \u003ccode\u003eX.Y.Z\u003c/code\u003e is the version number of gitit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Interface",
           "package": "gitit",
@@ -2005,6 +2160,7 @@
         "index": {
           "description": "Interface for plugins plugin is Haskell module that is dynamically loaded by gitit There are three kinds of plugins PageTransform PreParseTransform and PreCommitTransform These plugins differ chiefly in where they are applied PreCommitTransform plugins are applied just before changes to page are saved and may transform the raw source that is saved PreParseTransform plugins are applied when page is viewed and may alter the raw page source before it is parsed as Pandoc document Finally PageTransform plugins modify the Pandoc document that results after page source is parsed but before it is converted to HTML edited text from browser PreCommitTransform plugins saved to repository raw page source from repository PreParseTransform plugins markdown or RST reader Pandoc document PageTransform plugins new Pandoc document HTML writer HTML version of page Note that PreParseTransform and PageTransform plugins do not alter the page source stored in the repository They only affect what is visible on the website Only PreCommitTransform plugins can alter what is stored in the repository Note also that PreParseTransform and PageTransform plugins will not be run when the cached version of page is used Plugins can use the doNotCache command to prevent page from being cached if their behavior is sensitive to things that might change from one time to another such as the time or currently logged-in user You can use the helper functions mkPageTransform and mkPageTransformM to create PageTransform plugins from transformation of any of the basic types used by Pandoc for example Inline Block Inline even String Here is simple if silly example Deprofanizer.hs module Deprofanizer plugin where This plugin replaces profane words with XXXXX import Network.Gitit.Interface import Data.Char toLower plugin Plugin plugin mkPageTransform deprofanize deprofanize Inline Inline deprofanize Str isBadWord Str XXXXX deprofanize isBadWord String Bool isBadWord map toLower elem darn blasted stinker there are more but this is family program Further examples can be found in the plugins directory in the source distribution If you have installed gitit using Cabal you can also find them in the directory CABALDIR share gitit-X.Y.Z plugins where CABALDIR is the cabal install directory and X.Y.Z is the version number of gitit",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Interface",
           "package": "gitit",
@@ -2019,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for information read from config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Config",
           "package": "gitit",
@@ -2028,6 +2185,7 @@
         "index": {
           "description": "Data structure for information read from config file",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Config",
           "package": "gitit",
@@ -2041,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Context",
           "package": "gitit",
@@ -2049,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Context",
           "package": "gitit",
@@ -2063,6 +2223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract representation of page layout (tabs, scripts, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "PageLayout",
           "package": "gitit",
@@ -2072,6 +2233,7 @@
         "index": {
           "description": "Abstract representation of page layout tabs scripts etc",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "PageLayout",
           "package": "gitit",
@@ -2085,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "PageType",
           "package": "gitit",
@@ -2093,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "PageType",
           "package": "gitit",
@@ -2106,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Plugin",
           "package": "gitit",
@@ -2114,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Plugin",
           "package": "gitit",
@@ -2127,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "PluginM",
           "package": "gitit",
@@ -2135,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "PluginM",
           "package": "gitit",
@@ -2149,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean HTTP request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Request",
           "package": "gitit",
@@ -2157,6 +2326,7 @@
         "index": {
           "description": "an HTTP request",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Request",
           "package": "gitit",
@@ -2170,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "User",
           "package": "gitit",
@@ -2178,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "User",
           "package": "gitit",
@@ -2427,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "Request",
           "package": "gitit",
@@ -2435,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "Request",
           "package": "gitit",
@@ -2546,6 +2720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the current wiki configuration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "askConfig",
           "package": "gitit",
@@ -2556,6 +2731,7 @@
         "index": {
           "description": "Returns the current wiki configuration",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "askConfig",
           "package": "gitit",
@@ -2570,6 +2746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the wiki filestore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "askFileStore",
           "package": "gitit",
@@ -2580,6 +2757,7 @@
         "index": {
           "description": "Returns the wiki filestore",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "askFileStore",
           "package": "gitit",
@@ -2594,6 +2772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the page meta data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "askMeta",
           "package": "gitit",
@@ -2604,6 +2783,7 @@
         "index": {
           "description": "Returns the page meta data",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "askMeta",
           "normalized": "PluginM[(String,String)]",
@@ -2620,6 +2800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the complete HTTP request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "askRequest",
           "package": "gitit",
@@ -2630,6 +2811,7 @@
         "index": {
           "description": "Returns the complete HTTP request",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "askRequest",
           "package": "gitit",
@@ -2644,6 +2826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns \u003ccode\u003eJust\u003c/code\u003e the logged in user, or \u003ccode\u003eNothing\u003c/code\u003e if nobody is logged in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "askUser",
           "package": "gitit",
@@ -2654,6 +2837,7 @@
         "index": {
           "description": "Returns Just the logged in user or Nothing if nobody is logged in",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "askUser",
           "package": "gitit",
@@ -3033,6 +3217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicates that the current page or file is not to be cached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "doNotCache",
           "package": "gitit",
@@ -3043,6 +3228,7 @@
         "index": {
           "description": "Indicates that the current page or file is not to be cached",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "doNotCache",
           "normalized": "PluginM()",
@@ -3133,6 +3319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "getContext",
           "package": "gitit",
@@ -3142,6 +3329,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "getContext",
           "package": "gitit",
@@ -3156,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a computation from the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "liftIO",
           "package": "gitit",
@@ -3165,6 +3354,7 @@
         "index": {
           "description": "Lift computation from the IO monad",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "liftIO",
           "normalized": "a b IO c-\u003ed c",
@@ -3381,6 +3571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a function from \u003ccode\u003ea -\u003e a\u003c/code\u003e (for example, \u003ccode\u003eInline -\u003e Inline\u003c/code\u003e,\n \u003ccode\u003eBlock -\u003e Block\u003c/code\u003e, \u003ccode\u003e[Inline] -\u003e [Inline]\u003c/code\u003e, or \u003ccode\u003eString -\u003e String\u003c/code\u003e)\n to a \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "mkPageTransform",
           "package": "gitit",
@@ -3391,6 +3582,7 @@
         "index": {
           "description": "Lifts function from for example Inline Inline Block Block Inline Inline or String String to PageTransform plugin",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "mkPageTransform",
           "normalized": "(a-\u003ea)-\u003ePlugin",
@@ -3407,6 +3599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonadic version of \u003ccode\u003e\u003ca\u003emkPageTransform\u003c/a\u003e\u003c/code\u003e.\n Lifts a function from \u003ccode\u003ea -\u003e m a\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003ePageTransform\u003c/a\u003e\u003c/code\u003e plugin.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "mkPageTransformM",
           "package": "gitit",
@@ -3417,6 +3610,7 @@
         "index": {
           "description": "Monadic version of mkPageTransform Lifts function from to PageTransform plugin",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "mkPageTransformM",
           "normalized": "(a-\u003ePluginM a)-\u003ePlugin",
@@ -3432,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "modifyContext",
           "package": "gitit",
@@ -3441,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "modifyContext",
           "normalized": "(Context-\u003eContext)-\u003ea()",
@@ -4089,6 +4285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe raw, undecoded request body\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqBody",
           "package": "gitit",
@@ -4098,6 +4295,7 @@
         "index": {
           "description": "the raw undecoded request body",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqBody",
           "package": "gitit",
@@ -4112,6 +4310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecookies\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqCookies",
           "package": "gitit",
@@ -4121,6 +4320,7 @@
         "index": {
           "description": "cookies",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqCookies",
           "normalized": "[(String,Cookie)]",
@@ -4137,6 +4337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe HTTP request headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqHeaders",
           "package": "gitit",
@@ -4146,6 +4347,7 @@
         "index": {
           "description": "the HTTP request headers",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqHeaders",
           "package": "gitit",
@@ -4160,6 +4362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe request body decoded as key/value pairs (when appropriate)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqInputsBody",
           "package": "gitit",
@@ -4169,6 +4372,7 @@
         "index": {
           "description": "the request body decoded as key value pairs when appropriate",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqInputsBody",
           "normalized": "MVar[(String,Input)]",
@@ -4185,6 +4389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe QUERY_STRING decoded as key/value pairs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqInputsQuery",
           "package": "gitit",
@@ -4194,6 +4399,7 @@
         "index": {
           "description": "the QUERY STRING decoded as key value pairs",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqInputsQuery",
           "normalized": "[(String,Input)]",
@@ -4210,6 +4416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqMethod",
           "package": "gitit",
@@ -4219,6 +4426,7 @@
         "index": {
           "description": "request method",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqMethod",
           "package": "gitit",
@@ -4233,6 +4441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe uri, split on /, and then decoded\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqPaths",
           "package": "gitit",
@@ -4242,6 +4451,7 @@
         "index": {
           "description": "the uri split on and then decoded",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqPaths",
           "normalized": "[String]",
@@ -4258,6 +4468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(hostname, port) of the client making the request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqPeer",
           "package": "gitit",
@@ -4267,6 +4478,7 @@
         "index": {
           "description": "hostname port of the client making the request",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqPeer",
           "package": "gitit",
@@ -4281,6 +4493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe QUERY_STRING\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqQuery",
           "package": "gitit",
@@ -4290,6 +4503,7 @@
         "index": {
           "description": "the QUERY STRING",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqQuery",
           "package": "gitit",
@@ -4304,6 +4518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erequest uses https://\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqSecure",
           "package": "gitit",
@@ -4313,6 +4528,7 @@
         "index": {
           "description": "request uses https",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqSecure",
           "package": "gitit",
@@ -4327,6 +4543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe raw rqUri\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqUri",
           "package": "gitit",
@@ -4336,6 +4553,7 @@
         "index": {
           "description": "the raw rqUri",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqUri",
           "package": "gitit",
@@ -4350,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "rqVersion",
           "package": "gitit",
@@ -4359,6 +4578,7 @@
         "index": {
           "description": "HTTP version",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "rqVersion",
           "package": "gitit",
@@ -4717,6 +4937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a function in a temporary directory and clean up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Interface",
           "name": "withTempDir",
           "package": "gitit",
@@ -4727,6 +4948,7 @@
         "index": {
           "description": "Perform function in temporary directory and clean up",
           "hierarchy": "Network Gitit Interface",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Interface",
           "name": "withTempDir",
           "normalized": "FilePath-\u003e(FilePath-\u003eIO a)-\u003eIO a",
@@ -4794,6 +5016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "Layout",
           "package": "gitit",
@@ -4802,6 +5025,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "Layout",
           "package": "gitit",
@@ -4815,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "defaultPageLayout",
           "package": "gitit",
@@ -4824,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "defaultPageLayout",
           "package": "gitit",
@@ -4838,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a compiled string template, returns a page renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "defaultRenderPage",
           "package": "gitit",
@@ -4848,6 +5075,7 @@
         "index": {
           "description": "Given compiled string template returns page renderer",
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "defaultRenderPage",
           "normalized": "StringTemplate String-\u003ePageLayout-\u003eHtml-\u003eHandler",
@@ -4864,6 +5092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a page template with gitit variables filled in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "filledPageTemplate",
           "package": "gitit",
@@ -4874,6 +5103,7 @@
         "index": {
           "description": "Returns page template with gitit variables filled in",
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "filledPageTemplate",
           "normalized": "String-\u003eConfig-\u003ePageLayout-\u003eHtml-\u003eStringTemplate String-\u003eStringTemplate String",
@@ -4890,6 +5120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns formatted page\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "formattedPage",
           "package": "gitit",
@@ -4900,6 +5131,7 @@
         "index": {
           "description": "Returns formatted page",
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "formattedPage",
           "normalized": "PageLayout-\u003eHtml-\u003eHandler",
@@ -4915,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Layout",
           "name": "uploadsAllowed",
           "package": "gitit",
@@ -4924,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Layout",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Layout",
           "name": "uploadsAllowed",
           "normalized": "Config-\u003eBool",
@@ -4940,6 +5174,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for Gitit modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Types",
           "package": "gitit",
@@ -4949,6 +5184,7 @@
         "index": {
           "description": "Types for Gitit modules",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Types",
           "package": "gitit",
@@ -4962,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "AuthenticationLevel",
           "package": "gitit",
@@ -4970,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "AuthenticationLevel",
           "package": "gitit",
@@ -4983,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Command",
           "package": "gitit",
@@ -4991,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Command",
           "package": "gitit",
@@ -5005,6 +5245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData structure for information read from config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Config",
           "package": "gitit",
@@ -5014,6 +5255,7 @@
         "index": {
           "description": "Data structure for information read from config file",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Config",
           "package": "gitit",
@@ -5027,6 +5269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "ContentTransformer",
           "package": "gitit",
@@ -5035,6 +5278,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "ContentTransformer",
           "package": "gitit",
@@ -5048,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Context",
           "package": "gitit",
@@ -5056,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Context",
           "package": "gitit",
@@ -5069,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "FileStoreType",
           "package": "gitit",
@@ -5077,6 +5324,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "FileStoreType",
           "package": "gitit",
@@ -5090,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "GititServerPart",
           "package": "gitit",
@@ -5098,6 +5347,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "GititServerPart",
           "package": "gitit",
@@ -5112,6 +5362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon state for all gitit wikis in an application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "GititState",
           "package": "gitit",
@@ -5121,6 +5372,7 @@
         "index": {
           "description": "Common state for all gitit wikis in an application",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "GititState",
           "package": "gitit",
@@ -5134,6 +5386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Handler",
           "package": "gitit",
@@ -5142,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Handler",
           "package": "gitit",
@@ -5155,6 +5409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "HasContext",
           "package": "gitit",
@@ -5163,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "HasContext",
           "package": "gitit",
@@ -5176,6 +5432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "MathMethod",
           "package": "gitit",
@@ -5184,6 +5441,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "MathMethod",
           "package": "gitit",
@@ -5198,6 +5456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData for rendering a wiki page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Page",
           "package": "gitit",
@@ -5207,6 +5466,7 @@
         "index": {
           "description": "Data for rendering wiki page",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Page",
           "package": "gitit",
@@ -5221,6 +5481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbstract representation of page layout (tabs, scripts, etc.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "PageLayout",
           "package": "gitit",
@@ -5230,6 +5491,7 @@
         "index": {
           "description": "Abstract representation of page layout tabs scripts etc",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "PageLayout",
           "package": "gitit",
@@ -5243,6 +5505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "PageType",
           "package": "gitit",
@@ -5251,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "PageType",
           "package": "gitit",
@@ -5264,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Params",
           "package": "gitit",
@@ -5272,6 +5537,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Params",
           "package": "gitit",
@@ -5285,6 +5551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Password",
           "package": "gitit",
@@ -5293,6 +5560,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Password",
           "package": "gitit",
@@ -5306,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Plugin",
           "package": "gitit",
@@ -5314,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Plugin",
           "package": "gitit",
@@ -5327,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "PluginData",
           "package": "gitit",
@@ -5335,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "PluginData",
           "package": "gitit",
@@ -5348,6 +5620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "PluginM",
           "package": "gitit",
@@ -5356,6 +5629,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "PluginM",
           "package": "gitit",
@@ -5369,6 +5643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Recaptcha",
           "package": "gitit",
@@ -5377,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Recaptcha",
           "package": "gitit",
@@ -5390,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "SessionData",
           "package": "gitit",
@@ -5398,6 +5675,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "SessionData",
           "package": "gitit",
@@ -5411,6 +5689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "SessionKey",
           "package": "gitit",
@@ -5419,6 +5698,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "SessionKey",
           "package": "gitit",
@@ -5432,6 +5712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Sessions",
           "package": "gitit",
@@ -5440,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Sessions",
           "package": "gitit",
@@ -5453,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Tab",
           "package": "gitit",
@@ -5461,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Tab",
           "package": "gitit",
@@ -5474,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "User",
           "package": "gitit",
@@ -5482,6 +5767,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "User",
           "package": "gitit",
@@ -5496,6 +5782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState for a single wiki.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "WikiState",
           "package": "gitit",
@@ -5505,6 +5792,7 @@
         "index": {
           "description": "State for single wiki",
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "WikiState",
           "package": "gitit",
@@ -5518,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Command",
           "package": "gitit",
@@ -5527,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Command",
           "package": "gitit",
@@ -5540,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Darcs",
           "package": "gitit",
@@ -5549,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Darcs",
           "package": "gitit",
@@ -5562,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "DiffTab",
           "package": "gitit",
@@ -5571,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "DiffTab",
           "package": "gitit",
@@ -5584,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "DiscussTab",
           "package": "gitit",
@@ -5593,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "DiscussTab",
           "package": "gitit",
@@ -5606,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "EditTab",
           "package": "gitit",
@@ -5615,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "EditTab",
           "package": "gitit",
@@ -5628,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "ForModify",
           "package": "gitit",
@@ -5637,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "ForModify",
           "package": "gitit",
@@ -5650,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "ForRead",
           "package": "gitit",
@@ -5659,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "ForRead",
           "package": "gitit",
@@ -5672,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Git",
           "package": "gitit",
@@ -5681,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Git",
           "package": "gitit",
@@ -5694,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "GititState",
           "package": "gitit",
@@ -5703,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "GititState",
           "package": "gitit",
@@ -5716,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "HistoryTab",
           "package": "gitit",
@@ -5725,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "HistoryTab",
           "package": "gitit",
@@ -5738,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "JsMathScript",
           "package": "gitit",
@@ -5747,6 +6056,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "JsMathScript",
           "package": "gitit",
@@ -5760,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "MathJax",
           "package": "gitit",
@@ -5769,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "MathJax",
           "package": "gitit",
@@ -5782,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "MathML",
           "package": "gitit",
@@ -5791,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "MathML",
           "package": "gitit",
@@ -5804,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Mercurial",
           "package": "gitit",
@@ -5813,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Mercurial",
           "package": "gitit",
@@ -5826,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Never",
           "package": "gitit",
@@ -5835,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Never",
           "package": "gitit",
@@ -5848,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Page",
           "package": "gitit",
@@ -5857,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Page",
           "package": "gitit",
@@ -5870,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Params",
           "package": "gitit",
@@ -5879,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Params",
           "package": "gitit",
@@ -5892,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Password",
           "package": "gitit",
@@ -5901,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Password",
           "package": "gitit",
@@ -5914,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "PluginData",
           "package": "gitit",
@@ -5923,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "PluginData",
           "package": "gitit",
@@ -5936,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "RawTeX",
           "package": "gitit",
@@ -5945,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "RawTeX",
           "package": "gitit",
@@ -5958,6 +6286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Recaptcha",
           "package": "gitit",
@@ -5967,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Recaptcha",
           "package": "gitit",
@@ -5980,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "SessionData",
           "package": "gitit",
@@ -5989,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "SessionData",
           "package": "gitit",
@@ -6002,6 +6334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "Sessions",
           "package": "gitit",
@@ -6011,6 +6344,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "Sessions",
           "package": "gitit",
@@ -6024,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "ViewTab",
           "package": "gitit",
@@ -6033,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "ViewTab",
           "package": "gitit",
@@ -6046,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "WebTeX",
           "package": "gitit",
@@ -6055,6 +6392,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "WebTeX",
           "package": "gitit",
@@ -6068,6 +6406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "WikiState",
           "package": "gitit",
@@ -6077,6 +6416,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "WikiState",
           "package": "gitit",
@@ -6090,6 +6430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "fromEntities",
           "package": "gitit",
@@ -6099,6 +6440,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "fromEntities",
           "normalized": "String-\u003eString",
@@ -6114,6 +6456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "getContext",
           "package": "gitit",
@@ -6123,6 +6466,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "getContext",
           "package": "gitit",
@@ -6136,6 +6480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "modifyContext",
           "package": "gitit",
@@ -6145,6 +6490,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "modifyContext",
           "normalized": "(Context-\u003eContext)-\u003ea()",
@@ -6160,6 +6506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pAccessCode",
           "package": "gitit",
@@ -6169,6 +6516,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pAccessCode",
           "package": "gitit",
@@ -6182,6 +6530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pConfirm",
           "package": "gitit",
@@ -6191,6 +6540,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pConfirm",
           "package": "gitit",
@@ -6204,6 +6554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pDestination",
           "package": "gitit",
@@ -6213,6 +6564,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pDestination",
           "package": "gitit",
@@ -6226,6 +6578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pEditedText",
           "package": "gitit",
@@ -6235,6 +6588,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pEditedText",
           "package": "gitit",
@@ -6248,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pEmail",
           "package": "gitit",
@@ -6257,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pEmail",
           "package": "gitit",
@@ -6270,6 +6626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFilePath",
           "package": "gitit",
@@ -6279,6 +6636,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFilePath",
           "package": "gitit",
@@ -6292,6 +6650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFileToDelete",
           "package": "gitit",
@@ -6301,6 +6660,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFileToDelete",
           "package": "gitit",
@@ -6314,6 +6674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFilename",
           "package": "gitit",
@@ -6323,6 +6684,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFilename",
           "package": "gitit",
@@ -6336,6 +6698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pForUser",
           "package": "gitit",
@@ -6345,6 +6708,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pForUser",
           "package": "gitit",
@@ -6358,6 +6722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFormat",
           "package": "gitit",
@@ -6367,6 +6732,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFormat",
           "package": "gitit",
@@ -6380,6 +6746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFrom",
           "package": "gitit",
@@ -6389,6 +6756,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFrom",
           "package": "gitit",
@@ -6402,6 +6770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pFullName",
           "package": "gitit",
@@ -6411,6 +6780,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pFullName",
           "package": "gitit",
@@ -6424,6 +6794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pGotoPage",
           "package": "gitit",
@@ -6433,6 +6804,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pGotoPage",
           "package": "gitit",
@@ -6446,6 +6818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pHashed",
           "package": "gitit",
@@ -6455,6 +6828,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pHashed",
           "package": "gitit",
@@ -6468,6 +6842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pLimit",
           "package": "gitit",
@@ -6477,6 +6852,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pLimit",
           "package": "gitit",
@@ -6490,6 +6866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pLogMsg",
           "package": "gitit",
@@ -6499,6 +6876,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pLogMsg",
           "package": "gitit",
@@ -6512,6 +6890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pMessages",
           "package": "gitit",
@@ -6521,6 +6900,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pMessages",
           "normalized": "[String]",
@@ -6536,6 +6916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pOverwrite",
           "package": "gitit",
@@ -6545,6 +6926,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pOverwrite",
           "package": "gitit",
@@ -6558,6 +6940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pPassword",
           "package": "gitit",
@@ -6567,6 +6950,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pPassword",
           "package": "gitit",
@@ -6580,6 +6964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pPassword2",
           "package": "gitit",
@@ -6589,6 +6974,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pPassword2",
           "package": "gitit",
@@ -6602,6 +6988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pPatterns",
           "package": "gitit",
@@ -6611,6 +6998,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pPatterns",
           "normalized": "[String]",
@@ -6626,6 +7014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pPrintable",
           "package": "gitit",
@@ -6635,6 +7024,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pPrintable",
           "package": "gitit",
@@ -6648,6 +7038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pRaw",
           "package": "gitit",
@@ -6657,6 +7048,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pRaw",
           "package": "gitit",
@@ -6670,6 +7062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pRecaptcha",
           "package": "gitit",
@@ -6679,6 +7072,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pRecaptcha",
           "package": "gitit",
@@ -6692,6 +7086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pResetCode",
           "package": "gitit",
@@ -6701,6 +7096,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pResetCode",
           "package": "gitit",
@@ -6714,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pRevision",
           "package": "gitit",
@@ -6723,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pRevision",
           "package": "gitit",
@@ -6736,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pSHA1",
           "package": "gitit",
@@ -6745,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pSHA1",
           "package": "gitit",
@@ -6758,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pSalt",
           "package": "gitit",
@@ -6767,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pSalt",
           "package": "gitit",
@@ -6780,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pSessionKey",
           "package": "gitit",
@@ -6789,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pSessionKey",
           "package": "gitit",
@@ -6802,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pSince",
           "package": "gitit",
@@ -6811,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pSince",
           "package": "gitit",
@@ -6824,6 +7230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pTo",
           "package": "gitit",
@@ -6833,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pTo",
           "package": "gitit",
@@ -6846,6 +7254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pUsername",
           "package": "gitit",
@@ -6855,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pUsername",
           "package": "gitit",
@@ -6868,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pWikiname",
           "package": "gitit",
@@ -6877,6 +7288,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pWikiname",
           "package": "gitit",
@@ -6890,6 +7302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageCategories",
           "package": "gitit",
@@ -6899,6 +7312,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageCategories",
           "normalized": "[String]",
@@ -6914,6 +7328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageFormat",
           "package": "gitit",
@@ -6923,6 +7338,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageFormat",
           "package": "gitit",
@@ -6936,6 +7352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageLHS",
           "package": "gitit",
@@ -6945,6 +7362,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageLHS",
           "package": "gitit",
@@ -6958,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageMeta",
           "package": "gitit",
@@ -6967,6 +7386,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageMeta",
           "normalized": "[(String,String)]",
@@ -6982,6 +7402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageName",
           "package": "gitit",
@@ -6991,6 +7412,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageName",
           "package": "gitit",
@@ -7004,6 +7426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageTOC",
           "package": "gitit",
@@ -7013,6 +7436,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageTOC",
           "package": "gitit",
@@ -7026,6 +7450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageText",
           "package": "gitit",
@@ -7035,6 +7460,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageText",
           "package": "gitit",
@@ -7048,6 +7474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pageTitle",
           "package": "gitit",
@@ -7057,6 +7484,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pageTitle",
           "package": "gitit",
@@ -7070,6 +7498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pluginConfig",
           "package": "gitit",
@@ -7079,6 +7508,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pluginConfig",
           "package": "gitit",
@@ -7092,6 +7522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pluginFileStore",
           "package": "gitit",
@@ -7101,6 +7532,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pluginFileStore",
           "package": "gitit",
@@ -7114,6 +7546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pluginRequest",
           "package": "gitit",
@@ -7123,6 +7556,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pluginRequest",
           "package": "gitit",
@@ -7136,6 +7570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "pluginUser",
           "package": "gitit",
@@ -7145,6 +7580,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "pluginUser",
           "package": "gitit",
@@ -7158,6 +7594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "plugins",
           "package": "gitit",
@@ -7167,6 +7604,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "plugins",
           "normalized": "[Plugin]",
@@ -7181,6 +7619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "recaptchaChallengeField",
           "package": "gitit",
@@ -7190,6 +7629,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "recaptchaChallengeField",
           "package": "gitit",
@@ -7203,6 +7643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "recaptchaResponseField",
           "package": "gitit",
@@ -7212,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "recaptchaResponseField",
           "package": "gitit",
@@ -7225,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "renderPage",
           "package": "gitit",
@@ -7234,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "renderPage",
           "normalized": "PageLayout-\u003eHtml-\u003eHandler",
@@ -7249,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "runPluginM",
           "package": "gitit",
@@ -7258,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "runPluginM",
           "normalized": "PluginM a-\u003ePluginData-\u003eContext-\u003eIO(a,Context)",
@@ -7273,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "sessionUser",
           "package": "gitit",
@@ -7282,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "sessionUser",
           "package": "gitit",
@@ -7295,6 +7743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "sessions",
           "package": "gitit",
@@ -7304,6 +7753,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "sessions",
           "package": "gitit",
@@ -7316,6 +7766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "templatesPath",
           "package": "gitit",
@@ -7325,6 +7776,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "templatesPath",
           "package": "gitit",
@@ -7338,6 +7790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "unsession",
           "package": "gitit",
@@ -7347,6 +7800,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "unsession",
           "package": "gitit",
@@ -7359,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "users",
           "package": "gitit",
@@ -7368,6 +7823,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "users",
           "package": "gitit",
@@ -7380,6 +7836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "wikiConfig",
           "package": "gitit",
@@ -7389,6 +7846,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "wikiConfig",
           "package": "gitit",
@@ -7402,6 +7860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit.Types",
           "name": "wikiFileStore",
           "package": "gitit",
@@ -7411,6 +7870,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit Types",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit.Types",
           "name": "wikiFileStore",
           "package": "gitit",
@@ -7425,6 +7885,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for embedding a gitit wiki into a Happstack application.\n\u003c/p\u003e\u003cp\u003eThe following is a minimal standalone wiki program:\n\u003c/p\u003e\u003cpre\u003e import Network.Gitit\n import Happstack.Server.SimpleHTTP\n\n main = do\n   conf \u003c- getDefaultConfig\n   createStaticIfMissing conf\n   createTemplateIfMissing conf\n   createRepoIfMissing conf\n   initializeGititState conf\n   simpleHTTP nullConf{port = 5001} $ wiki conf\n\u003c/pre\u003e\u003cp\u003eHere is a more complex example, which serves different wikis\nunder different paths, and uses a custom authentication scheme:\n\u003c/p\u003e\u003cpre\u003e import Network.Gitit\n import Control.Monad\n import Text.XHtml hiding (dir)\n import Happstack.Server.SimpleHTTP\n\n type WikiSpec = (String, FileStoreType, PageType)\n\n wikis = [ (\"markdownWiki\", Git, Markdown)\n         , (\"latexWiki\", Darcs, LaTeX) ]\n\n -- custom authentication\n myWithUser :: Handler -\u003e Handler\n myWithUser handler = do\n   -- replace the following with a function that retrieves\n   -- the logged in user for your happstack app:\n   user \u003c- return \"testuser\"\n   localRq (setHeader \"REMOTE_USER\" user) handler\n\n myAuthHandler = msum\n   [ dir \"_login\"  $ seeOther \"/your/login/url\"  $ toResponse ()\n   , dir \"_logout\" $ seeOther \"/your/logout/url\" $ toResponse () ]\n\n handlerFor :: Config -\u003e WikiSpec -\u003e ServerPart Response\n handlerFor conf (path', fstype, pagetype) = dir path' $\n   wiki conf{ repositoryPath = path'\n            , repositoryType = fstype\n            , defaultPageType = pagetype}\n\n indexPage :: ServerPart Response\n indexPage = ok $ toResponse $\n   (p \u003c\u003c \"Wiki index\") +++\n   ulist \u003c\u003c map (\\(path', _, _) -\u003e li \u003c\u003c hotlink (path' ++ \"/\") \u003c\u003c path') wikis\n\n main = do\n   conf \u003c- getDefaultConfig\n   let conf' = conf{authHandler = myAuthHandler, withUser = myWithUser}\n   forM wikis $ \\(path', fstype, pagetype) -\u003e do\n     let conf'' = conf'{ repositoryPath = path'\n                       , repositoryType = fstype\n                       , defaultPageType = pagetype\n                       }\n     createStaticIfMissing conf''\n     createRepoIfMissing conf''\n   createTemplateIfMissing conf'\n   initializeGititState conf'\n   simpleHTTP nullConf{port = 5001} $\n     (nullDir \u003e\u003e indexPage) `mplus` msum (map (handlerFor conf') wikis)\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "Gitit",
           "package": "gitit",
@@ -7434,6 +7895,7 @@
         "index": {
           "description": "Functions for embedding gitit wiki into Happstack application The following is minimal standalone wiki program import Network.Gitit import Happstack.Server.SimpleHTTP main do conf getDefaultConfig createStaticIfMissing conf createTemplateIfMissing conf createRepoIfMissing conf initializeGititState conf simpleHTTP nullConf port wiki conf Here is more complex example which serves different wikis under different paths and uses custom authentication scheme import Network.Gitit import Control.Monad import Text.XHtml hiding dir import Happstack.Server.SimpleHTTP type WikiSpec String FileStoreType PageType wikis markdownWiki Git Markdown latexWiki Darcs LaTeX custom authentication myWithUser Handler Handler myWithUser handler do replace the following with function that retrieves the logged in user for your happstack app user return testuser localRq setHeader REMOTE USER user handler myAuthHandler msum dir login seeOther your login url toResponse dir logout seeOther your logout url toResponse handlerFor Config WikiSpec ServerPart Response handlerFor conf path fstype pagetype dir path wiki conf repositoryPath path repositoryType fstype defaultPageType pagetype indexPage ServerPart Response indexPage ok toResponse Wiki index ulist map path li hotlink path path wikis main do conf getDefaultConfig let conf conf authHandler myAuthHandler withUser myWithUser forM wikis path fstype pagetype do let conf conf repositoryPath path repositoryType fstype defaultPageType pagetype createStaticIfMissing conf createRepoIfMissing conf createTemplateIfMissing conf initializeGititState conf simpleHTTP nullConf port nullDir indexPage mplus msum map handlerFor conf wikis",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "Gitit",
           "package": "gitit",
@@ -7447,6 +7909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "getConfig",
           "package": "gitit",
@@ -7456,6 +7919,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "getConfig",
           "package": "gitit",
@@ -7469,6 +7933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "getFileStore",
           "package": "gitit",
@@ -7478,6 +7943,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "getFileStore",
           "package": "gitit",
@@ -7491,6 +7957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "getUser",
           "package": "gitit",
@@ -7500,6 +7967,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "getUser",
           "normalized": "String-\u003eGititServerPart(Maybe User)",
@@ -7516,6 +7984,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a string (the contents of a page file) corresponding to\n a Page object, using explicit metadata only when needed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "pageToString",
           "package": "gitit",
@@ -7526,6 +7995,7 @@
         "index": {
           "description": "Write string the contents of page file corresponding to Page object using explicit metadata only when needed",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "pageToString",
           "normalized": "Config-\u003ePage-\u003eString",
@@ -7541,6 +8011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "queryGititState",
           "package": "gitit",
@@ -7550,6 +8021,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "queryGititState",
           "normalized": "(GititState-\u003ea)-\u003eb a",
@@ -7566,6 +8038,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead categories from metadata strictly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "readCategories",
           "package": "gitit",
@@ -7576,6 +8049,7 @@
         "index": {
           "description": "Read categories from metadata strictly",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "readCategories",
           "normalized": "FilePath-\u003eIO[String]",
@@ -7592,6 +8066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecompiles the gitit templates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "reloadTemplates",
           "package": "gitit",
@@ -7602,6 +8077,7 @@
         "index": {
           "description": "Recompiles the gitit templates",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "reloadTemplates",
           "package": "gitit",
@@ -7616,6 +8092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a gitit Handler into a standard happstack ServerPart.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "runHandler",
           "package": "gitit",
@@ -7626,6 +8103,7 @@
         "index": {
           "description": "Converts gitit Handler into standard happstack ServerPart",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "runHandler",
           "normalized": "WikiState-\u003eHandler-\u003eServerPart Response",
@@ -7642,6 +8120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a string (the contents of a page file) and produce a Page\n object, using defaults except when overridden by metadata.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "stringToPage",
           "package": "gitit",
@@ -7652,6 +8131,7 @@
         "index": {
           "description": "Read string the contents of page file and produce Page object using defaults except when overridden by metadata",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "stringToPage",
           "normalized": "Config-\u003eString-\u003eString-\u003ePage",
@@ -7667,6 +8147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "updateGititState",
           "package": "gitit",
@@ -7676,6 +8157,7 @@
         },
         "index": {
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "updateGititState",
           "normalized": "(GititState-\u003eGititState)-\u003ea()",
@@ -7692,6 +8174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHappstack handler for a gitit wiki.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:27 UTC 2014",
           "module": "Network.Gitit",
           "name": "wiki",
           "package": "gitit",
@@ -7702,6 +8185,7 @@
         "index": {
           "description": "Happstack handler for gitit wiki",
           "hierarchy": "Network Gitit",
+          "indexed": "2014-03-11T18:17:27",
           "module": "Network.Gitit",
           "name": "wiki",
           "normalized": "Config-\u003eServerPart Response",

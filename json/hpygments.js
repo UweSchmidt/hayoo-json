@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hpygments"
+        "phrase": "hpygments",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "Formatters",
           "package": "hpygments",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "Formatters",
           "package": "hpygments",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "Formatter",
           "package": "hpygments",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "Formatter",
           "package": "hpygments",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "FormatterAlias",
           "package": "hpygments",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "FormatterAlias",
           "package": "hpygments",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "formatterAliases",
           "package": "hpygments",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "formatterAliases",
           "normalized": "Formatter-\u003e[FormatterAlias]",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "formatterName",
           "package": "hpygments",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "formatterName",
           "normalized": "Formatter-\u003eString",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "getAllFormatters",
           "package": "hpygments",
@@ -138,6 +149,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "getAllFormatters",
           "normalized": "IO[Formatter]",
@@ -154,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the \u003ccode\u003eget_formatter_by_name()\u003c/code\u003e function in Pygments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "getFormatterByName",
           "package": "hpygments",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Similar to the get formatter by name function in Pygments",
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "getFormatterByName",
           "normalized": "FormatterAlias-\u003eIO(Maybe Formatter)",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "htmlFormatter",
           "package": "hpygments",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "htmlFormatter",
           "package": "hpygments",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "terminalFormatter",
           "package": "hpygments",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Formatters",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Formatters",
           "name": "terminalFormatter",
           "package": "hpygments",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "Lexers",
           "package": "hpygments",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "Lexers",
           "package": "hpygments",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "Lexer",
           "package": "hpygments",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "Lexer",
           "package": "hpygments",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "LexerAlias",
           "package": "hpygments",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "LexerAlias",
           "package": "hpygments",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "getAllLexers",
           "package": "hpygments",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "getAllLexers",
           "normalized": "IO[Lexer]",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the \u003ccode\u003eget_lexer_by_name()\u003c/code\u003e function in Pygments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "getLexerByName",
           "package": "hpygments",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Similar to the get lexer by name function in Pygments",
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "getLexerByName",
           "normalized": "LexerAlias-\u003eIO(Maybe Lexer)",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "haskellLexer",
           "package": "hpygments",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "haskellLexer",
           "package": "hpygments",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerAliases",
           "package": "hpygments",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerAliases",
           "normalized": "Lexer-\u003e[LexerAlias]",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerFileTypes",
           "package": "hpygments",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerFileTypes",
           "normalized": "Lexer-\u003e[String]",
@@ -406,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerMimeTypes",
           "package": "hpygments",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerMimeTypes",
           "normalized": "Lexer-\u003e[String]",
@@ -430,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerName",
           "package": "hpygments",
@@ -439,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "lexerName",
           "normalized": "Lexer-\u003eString",
@@ -454,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "literateHaskellLexer",
           "package": "hpygments",
@@ -463,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "literateHaskellLexer",
           "package": "hpygments",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNo highlighting\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "textLexer",
           "package": "hpygments",
@@ -487,6 +528,7 @@
         "index": {
           "description": "No highlighting",
           "hierarchy": "Text Highlighting Pygments Lexers",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments.Lexers",
           "name": "textLexer",
           "package": "hpygments",
@@ -501,6 +543,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library uses the \u003ccode\u003epygmentize\u003c/code\u003e script that comes with Pygments to\n highlight code in many languages. For documentation on the various lexers,\n formatters, and options, see the Pygments documentation\n \u003ca\u003ehttp://pygments.org/docs/\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments",
           "name": "Pygments",
           "package": "hpygments",
@@ -510,6 +553,7 @@
         "index": {
           "description": "This library uses the pygmentize script that comes with Pygments to highlight code in many languages For documentation on the various lexers formatters and options see the Pygments documentation http pygments.org docs",
           "hierarchy": "Text Highlighting Pygments",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments",
           "name": "Pygments",
           "package": "hpygments",
@@ -524,6 +568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lexer/formatter option \u003ccode\u003e(key, value)\u003c/code\u003e is passed to the \u003ccode\u003epygmentize\u003c/code\u003e \n script via the command-line flag \u003ccode\u003e-P key=value\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eExamples:\n\u003c/p\u003e\u003cpre\u003e [(\"hl_lines\", \"16,23,42\"), (\"encoding\", \"utf-8\"), (\"anchorlines\", \"True\")]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments",
           "name": "Option",
           "package": "hpygments",
@@ -533,6 +578,7 @@
         "index": {
           "description": "The lexer formatter option key value is passed to the pygmentize script via the command-line flag key value Examples hl lines encoding utf-8 anchorlines True",
           "hierarchy": "Text Highlighting Pygments",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments",
           "name": "Option",
           "package": "hpygments",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments",
           "name": "Options",
           "package": "hpygments",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Text Highlighting Pygments",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments",
           "name": "Options",
           "package": "hpygments",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight code robustly. This function is more robust than the\n lower-level \u003ccode\u003e\u003ca\u003epygmentize\u003c/a\u003e\u003c/code\u003e function since this library forbids the \n construction of invalid \u003ccode\u003e\u003ca\u003eLexer\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFormatter\u003c/a\u003e\u003c/code\u003e values. Invalid\n \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e may still cause this function to raise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments",
           "name": "highlight",
           "package": "hpygments",
@@ -578,6 +627,7 @@
         "index": {
           "description": "Highlight code robustly This function is more robust than the lower-level pygmentize function since this library forbids the construction of invalid Lexer and Formatter values Invalid Options may still cause this function to raise an exception",
           "hierarchy": "Text Highlighting Pygments",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments",
           "name": "highlight",
           "normalized": "Lexer-\u003eFormatter-\u003eOptions-\u003eString-\u003eIO String",
@@ -593,6 +643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighlight code (less robustly) using the \u003ccode\u003epygmentize\u003c/code\u003e script that comes\n with Pygments. Invalid values for \u003ccode\u003e\u003ca\u003eLexerAlias\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFormatterAlias\u003c/a\u003e\u003c/code\u003e, or\n \u003ccode\u003e\u003ca\u003eOptions\u003c/a\u003e\u003c/code\u003e will cause this function to raise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:18 UTC 2014",
           "module": "Text.Highlighting.Pygments",
           "name": "pygmentize",
           "package": "hpygments",
@@ -603,6 +654,7 @@
         "index": {
           "description": "Highlight code less robustly using the pygmentize script that comes with Pygments Invalid values for LexerAlias FormatterAlias or Options will cause this function to raise an exception",
           "hierarchy": "Text Highlighting Pygments",
+          "indexed": "2014-03-11T18:45:18",
           "module": "Text.Highlighting.Pygments",
           "name": "pygmentize",
           "normalized": "LexerAlias-\u003eFormatterAlias-\u003eOptions-\u003eString-\u003eIO String",

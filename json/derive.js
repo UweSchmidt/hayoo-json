@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "derive"
+        "phrase": "derive",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides convenience re-exports of all the standard\n Data.Derive derivations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.All",
           "name": "All",
           "package": "derive",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides convenience re-exports of all the standard Data.Derive derivations",
           "hierarchy": "Data Derive All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.All",
           "name": "All",
           "package": "derive",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.All",
           "name": "Derivation",
           "package": "derive",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Derive All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.All",
           "name": "Derivation",
           "package": "derive",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.All",
           "name": "derivations",
           "package": "derive",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Derive All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.All",
           "name": "derivations",
           "normalized": "[Derivation]",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Arbitrary",
           "name": "Arbitrary",
           "package": "derive",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Arbitrary",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Arbitrary",
           "name": "Arbitrary",
           "package": "derive",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Arbitrary",
           "name": "makeArbitrary",
           "package": "derive",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Arbitrary",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Arbitrary",
           "name": "makeArbitrary",
           "package": "derive",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.ArbitraryOld",
           "name": "ArbitraryOld",
           "package": "derive",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Derive ArbitraryOld",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.ArbitraryOld",
           "name": "ArbitraryOld",
           "package": "derive",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.ArbitraryOld",
           "name": "dslArbitraryOld",
           "package": "derive",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Derive ArbitraryOld",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.ArbitraryOld",
           "name": "dslArbitraryOld",
           "package": "derive",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.ArbitraryOld",
           "name": "makeArbitraryOld",
           "package": "derive",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Data Derive ArbitraryOld",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.ArbitraryOld",
           "name": "makeArbitraryOld",
           "package": "derive",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Arities",
           "name": "Arities",
           "package": "derive",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Arities",
           "name": "Arities",
           "package": "derive",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Arities",
           "name": "dslArities",
           "package": "derive",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Arities",
           "name": "dslArities",
           "package": "derive",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Arities",
           "name": "makeArities",
           "package": "derive",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Arities",
           "name": "makeArities",
           "package": "derive",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Binary",
           "name": "Binary",
           "package": "derive",
@@ -266,6 +289,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Binary",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Binary",
           "name": "Binary",
           "package": "derive",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Binary",
           "name": "dslBinary",
           "package": "derive",
@@ -288,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Binary",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Binary",
           "name": "dslBinary",
           "package": "derive",
@@ -301,6 +327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Binary",
           "name": "makeBinary",
           "package": "derive",
@@ -310,6 +337,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Binary",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Binary",
           "name": "makeBinary",
           "package": "derive",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.BinaryDefer",
           "name": "BinaryDefer",
           "package": "derive",
@@ -331,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data Derive BinaryDefer",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.BinaryDefer",
           "name": "BinaryDefer",
           "package": "derive",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.BinaryDefer",
           "name": "dslBinaryDefer",
           "package": "derive",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Data Derive BinaryDefer",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.BinaryDefer",
           "name": "dslBinaryDefer",
           "package": "derive",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.BinaryDefer",
           "name": "makeBinaryDefer",
           "package": "derive",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data Derive BinaryDefer",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.BinaryDefer",
           "name": "makeBinaryDefer",
           "package": "derive",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Bounded",
           "name": "Bounded",
           "package": "derive",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Bounded",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Bounded",
           "name": "Bounded",
           "package": "derive",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Bounded",
           "name": "dslBounded",
           "package": "derive",
@@ -418,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Bounded",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Bounded",
           "name": "dslBounded",
           "package": "derive",
@@ -431,6 +469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Bounded",
           "name": "makeBounded",
           "package": "derive",
@@ -440,6 +479,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Bounded",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Bounded",
           "name": "makeBounded",
           "package": "derive",
@@ -453,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Arities",
           "name": "Arities",
           "package": "derive",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Arities",
           "name": "Arities",
           "package": "derive",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Arities",
           "name": "Arities",
           "package": "derive",
@@ -482,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Arities",
           "name": "Arities",
           "package": "derive",
@@ -495,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Arities",
           "name": "arities",
           "package": "derive",
@@ -504,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Arities",
           "name": "arities",
           "normalized": "a-\u003e[Int]",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Default",
           "name": "Default",
           "package": "derive",
@@ -526,6 +573,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Default",
           "name": "Default",
           "package": "derive",
@@ -539,6 +587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Default",
           "name": "Default",
           "package": "derive",
@@ -547,6 +596,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Default",
           "name": "Default",
           "package": "derive",
@@ -560,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Class.Default",
           "name": "def",
           "package": "derive",
@@ -569,6 +620,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Class Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Class.Default",
           "name": "def",
           "package": "derive",
@@ -581,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "Apply",
           "package": "derive",
@@ -589,6 +642,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "Apply",
           "package": "derive",
@@ -602,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "Env",
           "package": "derive",
@@ -610,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "Env",
           "package": "derive",
@@ -623,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "Env",
           "package": "derive",
@@ -632,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "Env",
           "package": "derive",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "apply",
           "package": "derive",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "apply",
           "normalized": "DSL-\u003eInput-\u003eOut",
@@ -668,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "applyEnv",
           "package": "derive",
@@ -677,6 +738,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "applyEnv",
           "normalized": "DSL-\u003eEnv-\u003eOutput",
@@ -692,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "env",
           "package": "derive",
@@ -701,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "env",
           "package": "derive",
@@ -713,6 +777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "envCtor",
           "package": "derive",
@@ -722,6 +787,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "envCtor",
           "package": "derive",
@@ -735,6 +801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "envField",
           "package": "derive",
@@ -744,6 +811,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "envField",
           "package": "derive",
@@ -757,6 +825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "envFold",
           "package": "derive",
@@ -766,6 +835,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "envFold",
           "normalized": "(Output,Output)",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Apply",
           "name": "envInput",
           "package": "derive",
@@ -790,6 +861,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Apply",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Apply",
           "name": "envInput",
           "package": "derive",
@@ -803,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "DSL",
           "package": "derive",
@@ -811,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "DSL",
           "package": "derive",
@@ -824,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "DSL",
           "package": "derive",
@@ -832,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "DSL",
           "package": "derive",
@@ -845,6 +921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "App",
           "package": "derive",
@@ -854,6 +931,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "App",
           "package": "derive",
@@ -867,6 +945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Application",
           "package": "derive",
@@ -876,6 +955,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Application",
           "package": "derive",
@@ -889,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Concat",
           "package": "derive",
@@ -898,6 +979,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Concat",
           "package": "derive",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorArity",
           "package": "derive",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorArity",
           "package": "derive",
@@ -933,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorIndex",
           "package": "derive",
@@ -942,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorIndex",
           "package": "derive",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorName",
           "package": "derive",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "CtorName",
           "package": "derive",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "DataName",
           "package": "derive",
@@ -986,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "DataName",
           "package": "derive",
@@ -999,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "FieldIndex",
           "package": "derive",
@@ -1008,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "FieldIndex",
           "package": "derive",
@@ -1021,6 +1113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Fold",
           "package": "derive",
@@ -1030,6 +1123,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Fold",
           "package": "derive",
@@ -1043,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Head",
           "package": "derive",
@@ -1052,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Head",
           "package": "derive",
@@ -1065,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Instance",
           "package": "derive",
@@ -1074,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Instance",
           "normalized": "Instance[String]String DSL",
@@ -1089,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Int",
           "package": "derive",
@@ -1098,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Int",
           "package": "derive",
@@ -1111,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "List",
           "package": "derive",
@@ -1120,6 +1221,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "List",
           "normalized": "List[DSL]",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "MapCtor",
           "package": "derive",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "MapCtor",
           "package": "derive",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "MapField",
           "package": "derive",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "MapField",
           "package": "derive",
@@ -1179,6 +1285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Reverse",
           "package": "derive",
@@ -1188,6 +1295,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Reverse",
           "package": "derive",
@@ -1201,6 +1309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "ShowInt",
           "package": "derive",
@@ -1210,6 +1319,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "ShowInt",
           "package": "derive",
@@ -1223,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "String",
           "package": "derive",
@@ -1232,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "String",
           "package": "derive",
@@ -1245,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "Tail",
           "package": "derive",
@@ -1254,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "Tail",
           "package": "derive",
@@ -1267,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "append",
           "package": "derive",
@@ -1276,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "append",
           "normalized": "DSL-\u003eDSL-\u003eDSL",
@@ -1290,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "box",
           "package": "derive",
@@ -1299,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "box",
           "normalized": "DSL-\u003eDSL",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "fromOut",
           "package": "derive",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "fromOut",
           "normalized": "Output-\u003eDSL",
@@ -1337,6 +1457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "nil",
           "package": "derive",
@@ -1346,6 +1467,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "nil",
           "package": "derive",
@@ -1358,6 +1480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "prettyTex",
           "package": "derive",
@@ -1367,6 +1490,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "prettyTex",
           "normalized": "DSL-\u003eString",
@@ -1382,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.DSL",
           "name": "simplifyDSL",
           "package": "derive",
@@ -1391,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL DSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.DSL",
           "name": "simplifyDSL",
           "normalized": "DSL-\u003eDSL",
@@ -1406,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Derive",
           "name": "Derive",
           "package": "derive",
@@ -1414,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Derive",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Derive",
           "name": "Derive",
           "package": "derive",
@@ -1427,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.Derive",
           "name": "derive",
           "package": "derive",
@@ -1436,6 +1565,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL Derive",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.Derive",
           "name": "derive",
           "normalized": "Out-\u003e[DSL]",
@@ -1450,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "HSE",
           "package": "derive",
@@ -1458,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "HSE",
           "package": "derive",
@@ -1471,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "Ctor",
           "package": "derive",
@@ -1479,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "Ctor",
           "package": "derive",
@@ -1492,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "Input",
           "package": "derive",
@@ -1500,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "Input",
           "package": "derive",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "Out",
           "package": "derive",
@@ -1521,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "Out",
           "package": "derive",
@@ -1534,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "Output",
           "package": "derive",
@@ -1542,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "Output",
           "package": "derive",
@@ -1555,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OApp",
           "package": "derive",
@@ -1564,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OApp",
           "normalized": "OApp String[Output]",
@@ -1579,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OCustom",
           "package": "derive",
@@ -1588,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OCustom",
           "package": "derive",
@@ -1601,6 +1745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OIgnore",
           "package": "derive",
@@ -1610,6 +1755,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OIgnore",
           "package": "derive",
@@ -1623,6 +1769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OInt",
           "package": "derive",
@@ -1632,6 +1779,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OInt",
           "package": "derive",
@@ -1645,6 +1793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OList",
           "package": "derive",
@@ -1654,6 +1803,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OList",
           "normalized": "OList[Output]",
@@ -1669,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "OString",
           "package": "derive",
@@ -1678,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "OString",
           "package": "derive",
@@ -1691,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "coerce",
           "package": "derive",
@@ -1700,6 +1853,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "coerce",
           "normalized": "a-\u003ea",
@@ -1714,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorArity",
           "package": "derive",
@@ -1723,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorArity",
           "normalized": "CtorDecl-\u003eInteger",
@@ -1738,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorIndex",
           "package": "derive",
@@ -1747,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorIndex",
           "normalized": "Input-\u003eCtor-\u003eInteger",
@@ -1762,6 +1920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorName",
           "package": "derive",
@@ -1771,6 +1930,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "ctorName",
           "normalized": "CtorDecl-\u003eString",
@@ -1786,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataCtors",
           "package": "derive",
@@ -1795,6 +1956,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataCtors",
           "normalized": "DataDecl-\u003e[CtorDecl]",
@@ -1810,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataName",
           "package": "derive",
@@ -1819,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataName",
           "normalized": "DataDecl-\u003eString",
@@ -1834,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataVars",
           "package": "derive",
@@ -1843,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "dataVars",
           "normalized": "DataDecl-\u003eInt",
@@ -1858,6 +2024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "fromOutput",
           "package": "derive",
@@ -1867,6 +2034,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "fromOutput",
           "normalized": "Output-\u003ea",
@@ -1882,6 +2050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "fromState",
           "package": "derive",
@@ -1891,6 +2060,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "fromState",
           "normalized": "State a b-\u003eb",
@@ -1906,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "out",
           "package": "derive",
@@ -1915,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "out",
           "normalized": "a-\u003eOutput",
@@ -1929,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "outEq",
           "package": "derive",
@@ -1938,6 +2111,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "outEq",
           "normalized": "Out-\u003eOut-\u003eBool",
@@ -1953,6 +2127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "readCon",
           "package": "derive",
@@ -1962,6 +2137,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "readCon",
           "normalized": "DataType-\u003e[Char]-\u003eConstr",
@@ -1977,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "sample",
           "package": "derive",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "sample",
           "package": "derive",
@@ -1998,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "showOut",
           "package": "derive",
@@ -2007,6 +2186,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "showOut",
           "normalized": "[a]-\u003eString",
@@ -2022,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "toInput",
           "package": "derive",
@@ -2031,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "toInput",
           "normalized": "DataDecl-\u003eInput",
@@ -2046,6 +2228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.HSE",
           "name": "toOutput",
           "package": "derive",
@@ -2055,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL HSE",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.HSE",
           "name": "toOutput",
           "normalized": "a-\u003eOutput",
@@ -2070,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.SYB",
           "name": "SYB",
           "package": "derive",
@@ -2078,6 +2263,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL SYB",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.SYB",
           "name": "SYB",
           "package": "derive",
@@ -2091,6 +2277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DSL.SYB",
           "name": "dslSYB",
           "package": "derive",
@@ -2100,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DSL SYB",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DSL.SYB",
           "name": "dslSYB",
           "normalized": "DSL-\u003eMaybe Out",
@@ -2115,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Data",
           "name": "Data",
           "package": "derive",
@@ -2123,6 +2312,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Data",
           "name": "Data",
           "package": "derive",
@@ -2136,6 +2326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Data",
           "name": "makeData",
           "package": "derive",
@@ -2145,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Data",
           "name": "makeData",
           "package": "derive",
@@ -2159,6 +2351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor deriving Data on abstract data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DataAbstract",
           "name": "DataAbstract",
           "package": "derive",
@@ -2168,6 +2361,7 @@
         "index": {
           "description": "For deriving Data on abstract data types",
           "hierarchy": "Data Derive DataAbstract",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DataAbstract",
           "name": "DataAbstract",
           "package": "derive",
@@ -2181,6 +2375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.DataAbstract",
           "name": "makeDataAbstract",
           "package": "derive",
@@ -2190,6 +2385,7 @@
         },
         "index": {
           "hierarchy": "Data Derive DataAbstract",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.DataAbstract",
           "name": "makeDataAbstract",
           "package": "derive",
@@ -2203,6 +2399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Default",
           "name": "Default",
           "package": "derive",
@@ -2211,6 +2408,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Default",
           "name": "Default",
           "package": "derive",
@@ -2224,6 +2422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Default",
           "name": "dslDefault",
           "package": "derive",
@@ -2233,6 +2432,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Default",
           "name": "dslDefault",
           "package": "derive",
@@ -2246,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Default",
           "name": "makeDefault",
           "package": "derive",
@@ -2255,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Default",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Default",
           "name": "makeDefault",
           "package": "derive",
@@ -2268,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Enum",
           "name": "Enum",
           "package": "derive",
@@ -2276,6 +2479,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Enum",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Enum",
           "name": "Enum",
           "package": "derive",
@@ -2289,6 +2493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Enum",
           "name": "dslEnum",
           "package": "derive",
@@ -2298,6 +2503,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Enum",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Enum",
           "name": "dslEnum",
           "package": "derive",
@@ -2311,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Enum",
           "name": "makeEnum",
           "package": "derive",
@@ -2320,6 +2527,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Enum",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Enum",
           "name": "makeEnum",
           "package": "derive",
@@ -2333,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.EnumCyclic",
           "name": "EnumCyclic",
           "package": "derive",
@@ -2341,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Data Derive EnumCyclic",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.EnumCyclic",
           "name": "EnumCyclic",
           "package": "derive",
@@ -2354,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.EnumCyclic",
           "name": "dslEnumCyclic",
           "package": "derive",
@@ -2363,6 +2574,7 @@
         },
         "index": {
           "hierarchy": "Data Derive EnumCyclic",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.EnumCyclic",
           "name": "dslEnumCyclic",
           "package": "derive",
@@ -2376,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.EnumCyclic",
           "name": "makeEnumCyclic",
           "package": "derive",
@@ -2385,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data Derive EnumCyclic",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.EnumCyclic",
           "name": "makeEnumCyclic",
           "package": "derive",
@@ -2398,6 +2612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Eq",
           "name": "Eq",
           "package": "derive",
@@ -2406,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Eq",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Eq",
           "name": "Eq",
           "package": "derive",
@@ -2419,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Eq",
           "name": "dslEq",
           "package": "derive",
@@ -2428,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Eq",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Eq",
           "name": "dslEq",
           "package": "derive",
@@ -2441,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Eq",
           "name": "makeEq",
           "package": "derive",
@@ -2450,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Eq",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Eq",
           "name": "makeEq",
           "package": "derive",
@@ -2464,6 +2684,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  Derive a (non-recursive) fold function for \n    the type which takes one function per alternative constructor.  Each\n    function takes the same arguments as the constructor and returns\n    a value.  When applied to a value the fold function applies the\n    function for the matching constructor to the constructor fields.\n    This provides a first-class alternative to pattern matching to\n    deconstruct the data type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Fold",
           "name": "Fold",
           "package": "derive",
@@ -2473,6 +2694,7 @@
         "index": {
           "description": "pseudo derivation Derive non-recursive fold function for the type which takes one function per alternative constructor Each function takes the same arguments as the constructor and returns value When applied to value the fold function applies the function for the matching constructor to the constructor fields This provides first-class alternative to pattern matching to deconstruct the data type",
           "hierarchy": "Data Derive Fold",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Fold",
           "name": "Fold",
           "package": "derive",
@@ -2486,6 +2708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Fold",
           "name": "makeFold",
           "package": "derive",
@@ -2495,6 +2718,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Fold",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Fold",
           "name": "makeFold",
           "package": "derive",
@@ -2508,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Foldable",
           "name": "Foldable",
           "package": "derive",
@@ -2516,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Foldable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Foldable",
           "name": "Foldable",
           "package": "derive",
@@ -2529,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Foldable",
           "name": "makeFoldable",
           "package": "derive",
@@ -2538,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Foldable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Foldable",
           "name": "makeFoldable",
           "package": "derive",
@@ -2551,6 +2779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Foldable",
           "name": "makeFoldableN",
           "package": "derive",
@@ -2560,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Foldable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Foldable",
           "name": "makeFoldableN",
           "normalized": "Int-\u003eDerivation",
@@ -2576,6 +2806,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  For each constructor in the data type,\n    deriving \u003ccode\u003eFrom\u003c/code\u003e generates \u003ccode\u003efrom\u003c/code\u003e\u003cem\u003eCtorName\u003c/em\u003e which extracts the\n    components if given the appropriate constructor, and crashes\n    otherwise.  Unlike the DrIFT \u003ccode\u003e\"From\"\u003c/code\u003e derivation, our version\n    works for all constructors - zero-arity constructors always return\n    \u003ccode\u003e()\u003c/code\u003e, arity-one constructors return the contained value, and all\n    others return a tuple with all the components.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.From",
           "name": "From",
           "package": "derive",
@@ -2585,6 +2816,7 @@
         "index": {
           "description": "pseudo derivation For each constructor in the data type deriving From generates from CtorName which extracts the components if given the appropriate constructor and crashes otherwise Unlike the DrIFT From derivation our version works for all constructors zero-arity constructors always return arity-one constructors return the contained value and all others return tuple with all the components",
           "hierarchy": "Data Derive From",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.From",
           "name": "From",
           "package": "derive",
@@ -2598,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.From",
           "name": "makeFrom",
           "package": "derive",
@@ -2607,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Data Derive From",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.From",
           "name": "makeFrom",
           "package": "derive",
@@ -2621,6 +2855,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerives \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, as discussed on the Haskell-prime mailing list:\n \u003ca\u003ehttp://www.mail-archive.com/haskell-prime@haskell.org/msg02116.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Functor",
           "name": "Functor",
           "package": "derive",
@@ -2630,6 +2865,7 @@
         "index": {
           "description": "Derives Functor as discussed on the Haskell-prime mailing list http www.mail-archive.com haskell-prime@haskell.org msg02116.html",
           "hierarchy": "Data Derive Functor",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Functor",
           "name": "Functor",
           "package": "derive",
@@ -2643,6 +2879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Functor",
           "name": "makeFunctor",
           "package": "derive",
@@ -2652,6 +2889,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Functor",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Functor",
           "name": "makeFunctor",
           "package": "derive",
@@ -2665,6 +2903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Functor",
           "name": "makeFunctorN",
           "package": "derive",
@@ -2674,6 +2913,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Functor",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Functor",
           "name": "makeFunctorN",
           "normalized": "Int-\u003eDerivation",
@@ -2690,6 +2930,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHas is a pseudo derivation.  For each field of any constructor of\n    the data type, Has generates \u003ccode\u003ehas\u003c/code\u003e\u003cem\u003eFieldName\u003c/em\u003e which returns \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e\n    if given the the given field is a member of the constructor of the\n    passed object, and \u003ccode\u003e\u003ca\u003eFalse\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Has",
           "name": "Has",
           "package": "derive",
@@ -2699,6 +2940,7 @@
         "index": {
           "description": "Has is pseudo derivation For each field of any constructor of the data type Has generates has FieldName which returns True if given the the given field is member of the constructor of the passed object and False otherwise",
           "hierarchy": "Data Derive Has",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Has",
           "name": "Has",
           "package": "derive",
@@ -2712,6 +2954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Has",
           "name": "makeHas",
           "package": "derive",
@@ -2721,6 +2964,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Has",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Has",
           "name": "makeHas",
           "package": "derive",
@@ -2734,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Instance.Arities",
           "name": "Arities",
           "package": "derive",
@@ -2742,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Instance Arities",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Instance.Arities",
           "name": "Arities",
           "package": "derive",
@@ -2755,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2763,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2776,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2784,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2797,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2806,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "Derivation",
           "package": "derive",
@@ -2819,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "customContext",
           "package": "derive",
@@ -2828,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "customContext",
           "normalized": "(FullDataDecl-\u003eContext-\u003eContext)-\u003eFullDataDecl-\u003e[Decl]-\u003e[Decl]",
@@ -2843,6 +3097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "customSplice",
           "package": "derive",
@@ -2852,6 +3107,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "customSplice",
           "normalized": "(FullDataDecl-\u003eExp-\u003eExp)-\u003eFullDataDecl-\u003e[Decl]-\u003e[Decl]",
@@ -2867,6 +3123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationCustom",
           "package": "derive",
@@ -2876,6 +3133,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationCustom",
           "normalized": "String-\u003e(FullDataDecl-\u003eEither String[Decl])-\u003eDerivation",
@@ -2891,6 +3149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationCustomDSL",
           "package": "derive",
@@ -2900,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationCustomDSL",
           "normalized": "String-\u003e(FullDataDecl-\u003e[Decl]-\u003e[Decl])-\u003eDSL-\u003eDerivation",
@@ -2915,6 +3175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationDSL",
           "package": "derive",
@@ -2924,6 +3185,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationDSL",
           "normalized": "String-\u003eDSL-\u003eDerivation",
@@ -2939,6 +3201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationName",
           "package": "derive",
@@ -2948,6 +3211,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationName",
           "package": "derive",
@@ -2961,6 +3225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationOp",
           "package": "derive",
@@ -2970,6 +3235,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationOp",
           "normalized": "Type-\u003e(String-\u003eDecl)-\u003eFullDataDecl-\u003eEither String[Decl]",
@@ -2985,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationParams",
           "package": "derive",
@@ -2994,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Internal Derivation",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Internal.Derivation",
           "name": "derivationParams",
           "normalized": "String-\u003e([Type]-\u003e(String-\u003eDecl)-\u003eFullDataDecl-\u003eEither String[Decl])-\u003eDerivation",
@@ -3009,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Is",
           "name": "Is",
           "package": "derive",
@@ -3017,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Is",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Is",
           "name": "Is",
           "package": "derive",
@@ -3030,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Is",
           "name": "makeIs",
           "package": "derive",
@@ -3039,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Is",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Is",
           "name": "makeIs",
           "package": "derive",
@@ -3053,6 +3325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerive \u003ccode\u003e\u003ca\u003eJSON\u003c/a\u003e\u003c/code\u003e instances.\n\u003c/p\u003e\u003cp\u003eUnlike Text.JSON.Generics, single constructor types are \u003cem\u003enot\u003c/em\u003e handled\n specially. Every value is encoded as an object with a single field,\n with the constructor name as key and the values as its contents.\n\u003c/p\u003e\u003cp\u003eIf the constructor is a record, the contents is an Object with the\n field names as keys. Otherwise, the contents is an array.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.JSON",
           "name": "JSON",
           "package": "derive",
@@ -3062,6 +3335,7 @@
         "index": {
           "description": "Derive JSON instances Unlike Text.JSON.Generics single constructor types are not handled specially Every value is encoded as an object with single field with the constructor name as key and the values as its contents If the constructor is record the contents is an Object with the field names as keys Otherwise the contents is an array",
           "hierarchy": "Data Derive JSON",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.JSON",
           "name": "JSON",
           "package": "derive",
@@ -3076,6 +3350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eDerivation\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eJSON\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.JSON",
           "name": "makeJSON",
           "package": "derive",
@@ -3086,6 +3361,7 @@
         "index": {
           "description": "Derivation for JSON",
           "hierarchy": "Data Derive JSON",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.JSON",
           "name": "makeJSON",
           "package": "derive",
@@ -3100,6 +3376,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  For each field in the data type, deriving\n    \u003ccode\u003eLazySet\u003c/code\u003e generates a function like a record updator, but lazy where possible.\n    This is very useful in certain situations to improve laziness\n    properties.  A setter is only lazy if that field is present in one constructor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.LazySet",
           "name": "LazySet",
           "package": "derive",
@@ -3109,6 +3386,7 @@
         "index": {
           "description": "pseudo derivation For each field in the data type deriving LazySet generates function like record updator but lazy where possible This is very useful in certain situations to improve laziness properties setter is only lazy if that field is present in one constructor",
           "hierarchy": "Data Derive LazySet",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.LazySet",
           "name": "LazySet",
           "package": "derive",
@@ -3122,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.LazySet",
           "name": "makeLazySet",
           "package": "derive",
@@ -3131,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Data Derive LazySet",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.LazySet",
           "name": "makeLazySet",
           "package": "derive",
@@ -3145,6 +3425,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  For each field in the data type, deriving\n    \u003ccode\u003eLens\u003c/code\u003e generates \u003ccode\u003elens\u003c/code\u003e\u003cem\u003eFieldName\u003c/em\u003e\u003ccode\u003e = lens \u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e\n    ( x v -\u003e v { \u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e = x })\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis works with the \u003ccode\u003edata-lens\u003c/code\u003e package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Lens",
           "name": "Lens",
           "package": "derive",
@@ -3154,6 +3435,7 @@
         "index": {
           "description": "pseudo derivation For each field in the data type deriving Lens generates lens FieldName lens fieldName fieldName This works with the data-lens package",
           "hierarchy": "Data Derive Lens",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Lens",
           "name": "Lens",
           "package": "derive",
@@ -3167,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Lens",
           "name": "makeLens",
           "package": "derive",
@@ -3176,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Lens",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Lens",
           "name": "makeLens",
           "package": "derive",
@@ -3190,6 +3474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerives an instance of \u003ccode\u003eMonoid\u003c/code\u003e. It uses the product\n    construction of monoids. \u003ccode\u003emappend\u003c/code\u003e on two different constructors\n    is undefined.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Monoid",
           "name": "Monoid",
           "package": "derive",
@@ -3199,6 +3484,7 @@
         "index": {
           "description": "Derives an instance of Monoid It uses the product construction of monoids mappend on two different constructors is undefined",
           "hierarchy": "Data Derive Monoid",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Monoid",
           "name": "Monoid",
           "package": "derive",
@@ -3212,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Monoid",
           "name": "makeMonoid",
           "package": "derive",
@@ -3221,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Monoid",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Monoid",
           "name": "makeMonoid",
           "package": "derive",
@@ -3234,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.NFData",
           "name": "NFData",
           "package": "derive",
@@ -3242,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "Data Derive NFData",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.NFData",
           "name": "NFData",
           "package": "derive",
@@ -3255,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.NFData",
           "name": "dslNFData",
           "package": "derive",
@@ -3264,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Data Derive NFData",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.NFData",
           "name": "dslNFData",
           "package": "derive",
@@ -3277,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.NFData",
           "name": "makeNFData",
           "package": "derive",
@@ -3286,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Data Derive NFData",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.NFData",
           "name": "makeNFData",
           "package": "derive",
@@ -3299,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Ord",
           "name": "Ord",
           "package": "derive",
@@ -3307,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Ord",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Ord",
           "name": "Ord",
           "package": "derive",
@@ -3320,6 +3616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Ord",
           "name": "dslOrd",
           "package": "derive",
@@ -3329,6 +3626,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Ord",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Ord",
           "name": "dslOrd",
           "package": "derive",
@@ -3342,6 +3640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Ord",
           "name": "makeOrd",
           "package": "derive",
@@ -3351,6 +3650,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Ord",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Ord",
           "name": "makeOrd",
           "package": "derive",
@@ -3365,6 +3665,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerives \u003ccode\u003eRead\u003c/code\u003e.  This is as defined by the Haskell report, except\n    there is no support for infix constructors.  If you attempt to\n    derive \u003ccode\u003eRead\u003c/code\u003e for a data type with infix constructors, the\n    constructors are handled as if they were prefix constructors, using\n    the \u003ccode\u003e(\u003c/code\u003e\u003cem\u003econsym\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Read",
           "name": "Read",
           "package": "derive",
@@ -3374,6 +3675,7 @@
         "index": {
           "description": "Derives Read This is as defined by the Haskell report except there is no support for infix constructors If you attempt to derive Read for data type with infix constructors the constructors are handled as if they were prefix constructors using the consym syntax",
           "hierarchy": "Data Derive Read",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Read",
           "name": "Read",
           "package": "derive",
@@ -3387,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Read",
           "name": "makeRead",
           "package": "derive",
@@ -3396,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Read",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Read",
           "name": "makeRead",
           "package": "derive",
@@ -3410,6 +3714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  For each field in the data type, deriving\n    \u003ccode\u003eRef\u003c/code\u003e generates \u003ccode\u003eref\u003c/code\u003e\u003cem\u003eFieldName\u003c/em\u003e\u003ccode\u003e = Ref { select = \u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e , update =\n     f v -\u003e v { \u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e = f (\u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e v) } }\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis is intended for use with the compositional functional references\n    described in\n    \u003ca\u003ehttp://www.haskell.org/pipermail/haskell-cafe/2007-June/026477.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Ref",
           "name": "Ref",
           "package": "derive",
@@ -3419,6 +3724,7 @@
         "index": {
           "description": "pseudo derivation For each field in the data type deriving Ref generates ref FieldName Ref select fieldName update fieldName fieldName This is intended for use with the compositional functional references described in http www.haskell.org pipermail haskell-cafe June html",
           "hierarchy": "Data Derive Ref",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Ref",
           "name": "Ref",
           "package": "derive",
@@ -3432,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Ref",
           "name": "makeRef",
           "package": "derive",
@@ -3441,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Ref",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Ref",
           "name": "makeRef",
           "package": "derive",
@@ -3454,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serial",
           "name": "Serial",
           "package": "derive",
@@ -3462,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serial",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serial",
           "name": "Serial",
           "package": "derive",
@@ -3475,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serial",
           "name": "dslSerial",
           "package": "derive",
@@ -3484,6 +3795,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serial",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serial",
           "name": "dslSerial",
           "package": "derive",
@@ -3497,6 +3809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serial",
           "name": "makeSerial",
           "package": "derive",
@@ -3506,6 +3819,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serial",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serial",
           "name": "makeSerial",
           "package": "derive",
@@ -3519,6 +3833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serialize",
           "name": "Serialize",
           "package": "derive",
@@ -3527,6 +3842,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serialize",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serialize",
           "name": "Serialize",
           "package": "derive",
@@ -3540,6 +3856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serialize",
           "name": "dslSerialize",
           "package": "derive",
@@ -3549,6 +3866,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serialize",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serialize",
           "name": "dslSerialize",
           "package": "derive",
@@ -3562,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Serialize",
           "name": "makeSerialize",
           "package": "derive",
@@ -3571,6 +3890,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Serialize",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Serialize",
           "name": "makeSerialize",
           "package": "derive",
@@ -3585,6 +3905,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA pseudo derivation.  For each field in the data type, deriving\n    \u003ccode\u003eSet\u003c/code\u003e generates \u003ccode\u003eset\u003c/code\u003e\u003cem\u003eFieldName\u003c/em\u003e\u003ccode\u003e v x = x{\u003c/code\u003e\u003cem\u003efieldName\u003c/em\u003e\u003ccode\u003e = v}\u003c/code\u003e.\n    This derivation is intended to work around the fact that in Haskell\n    assigning to a field is not a first class object (although\n    extracting from a field is).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Set",
           "name": "Set",
           "package": "derive",
@@ -3594,6 +3915,7 @@
         "index": {
           "description": "pseudo derivation For each field in the data type deriving Set generates set FieldName fieldName This derivation is intended to work around the fact that in Haskell assigning to field is not first class object although extracting from field is",
           "hierarchy": "Data Derive Set",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Set",
           "name": "Set",
           "package": "derive",
@@ -3607,6 +3929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Set",
           "name": "makeSet",
           "package": "derive",
@@ -3616,6 +3939,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Set",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Set",
           "name": "makeSet",
           "package": "derive",
@@ -3630,6 +3954,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerives \u003ccode\u003eShow\u003c/code\u003e.  This is as defined by the Haskell report, except\n there is no support for infix constructors.  If you attempt to\n derive \u003ccode\u003eShow\u003c/code\u003e for a data type with infix constructors, the\n constructors are handled as if they were prefix constructors, using\n the \u003ccode\u003e(\u003c/code\u003e\u003cem\u003econsym\u003c/em\u003e\u003ccode\u003e)\u003c/code\u003e syntax.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Show",
           "name": "Show",
           "package": "derive",
@@ -3639,6 +3964,7 @@
         "index": {
           "description": "Derives Show This is as defined by the Haskell report except there is no support for infix constructors If you attempt to derive Show for data type with infix constructors the constructors are handled as if they were prefix constructors using the consym syntax",
           "hierarchy": "Data Derive Show",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Show",
           "name": "Show",
           "package": "derive",
@@ -3652,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Show",
           "name": "makeShow",
           "package": "derive",
@@ -3661,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Show",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Show",
           "name": "makeShow",
           "package": "derive",
@@ -3674,6 +4002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Traversable",
           "name": "Traversable",
           "package": "derive",
@@ -3682,6 +4011,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Traversable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Traversable",
           "name": "Traversable",
           "package": "derive",
@@ -3695,6 +4025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Traversable",
           "name": "makeTraversable",
           "package": "derive",
@@ -3704,6 +4035,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Traversable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Traversable",
           "name": "makeTraversable",
           "package": "derive",
@@ -3717,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Traversable",
           "name": "makeTraversableN",
           "package": "derive",
@@ -3726,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Traversable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Traversable",
           "name": "makeTraversableN",
           "normalized": "Int-\u003eDerivation",
@@ -3742,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerivation for the \u003ccode\u003eTypeable\u003c/code\u003e class, as described in the Scrap\n    Your Boilerplate papers.  This derivation generates instances for\n    all kinds of TypeableK classes; as such we do NOT require the\n    GHC-specific generic downkinding instances to provide lower kind\n    instances.\n\u003c/p\u003e\u003cp\u003eAlso creates a \u003ccode\u003etypename_\u003cthe type name\u003e\u003c/code\u003e value to hold the\n    \u003ccode\u003eTypeRep\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Typeable",
           "name": "Typeable",
           "package": "derive",
@@ -3751,6 +4086,7 @@
         "index": {
           "description": "Derivation for the Typeable class as described in the Scrap Your Boilerplate papers This derivation generates instances for all kinds of TypeableK classes as such we do NOT require the GHC-specific generic downkinding instances to provide lower kind instances Also creates typename the type name value to hold the TypeRep",
           "hierarchy": "Data Derive Typeable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Typeable",
           "name": "Typeable",
           "package": "derive",
@@ -3764,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Typeable",
           "name": "makeTypeable",
           "package": "derive",
@@ -3773,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Typeable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Typeable",
           "name": "makeTypeable",
           "package": "derive",
@@ -3787,6 +4125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDerive Uniplate and Biplate using the Direct combinators.\n   You must request monomorphic instances, i.e:\n\u003c/p\u003e\u003cpre\u003e data Foo a = Foo a (Bool, a)\n\n {-!\n deriving instance UniplateDirect (Foo Int)\n deriving instance UniplateDirect (Bool, Int) Int\n deriving instance UniplateDirect (Foo Int) Int\n !-}\n\u003c/pre\u003e\u003cp\u003eThis will generate the instances \u003ccode\u003eUniplate (Foo Int)\u003c/code\u003e,\n   \u003ccode\u003eBiplate (Bool, Int) Int\u003c/code\u003e and \u003ccode\u003eBiplate (Foo Int) Int\u003c/code\u003e.\n   Generally, start with the instance you are after (e.g. \u003ccode\u003eUniplateDirect (Foo Int)\u003c/code\u003e),\n   try to compile and add further instances as necessary. \u003ccode\u003eUniplateDirect\u003c/code\u003e with\n   one argument derives Uniplate, and with two arguments derives Biplate.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003ederiving UniplateDirect\u003c/code\u003e on a data type with no arguments derives Uniplate\n   with all type parameters defaulting to \u003ccode\u003e()\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.UniplateDirect",
           "name": "UniplateDirect",
           "package": "derive",
@@ -3796,6 +4135,7 @@
         "index": {
           "description": "Derive Uniplate and Biplate using the Direct combinators You must request monomorphic instances i.e data Foo Foo Bool deriving instance UniplateDirect Foo Int deriving instance UniplateDirect Bool Int Int deriving instance UniplateDirect Foo Int Int This will generate the instances Uniplate Foo Int Biplate Bool Int Int and Biplate Foo Int Int Generally start with the instance you are after e.g UniplateDirect Foo Int try to compile and add further instances as necessary UniplateDirect with one argument derives Uniplate and with two arguments derives Biplate deriving UniplateDirect on data type with no arguments derives Uniplate with all type parameters defaulting to",
           "hierarchy": "Data Derive UniplateDirect",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.UniplateDirect",
           "name": "UniplateDirect",
           "package": "derive",
@@ -3809,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.UniplateDirect",
           "name": "makeUniplateDirect",
           "package": "derive",
@@ -3818,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Data Derive UniplateDirect",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.UniplateDirect",
           "name": "makeUniplateDirect",
           "package": "derive",
@@ -3831,6 +4173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.UniplateTypeable",
           "name": "UniplateTypeable",
           "package": "derive",
@@ -3839,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Data Derive UniplateTypeable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.UniplateTypeable",
           "name": "UniplateTypeable",
           "package": "derive",
@@ -3852,6 +4196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.UniplateTypeable",
           "name": "custom",
           "package": "derive",
@@ -3861,6 +4206,7 @@
         },
         "index": {
           "hierarchy": "Data Derive UniplateTypeable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.UniplateTypeable",
           "name": "custom",
           "normalized": "(a,Decl)-\u003e[Decl]-\u003e[Decl]",
@@ -3875,6 +4221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.UniplateTypeable",
           "name": "makeUniplateTypeable",
           "package": "derive",
@@ -3884,6 +4231,7 @@
         },
         "index": {
           "hierarchy": "Data Derive UniplateTypeable",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.UniplateTypeable",
           "name": "makeUniplateTypeable",
           "package": "derive",
@@ -3898,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Pseudo derivation. For every label, creates a function\n    foo_u and foo_s which updates and sets the label respectively,\n    e.g. 'foo_u (+1) bar' or 'foo_s 10 baz'\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Update",
           "name": "Update",
           "package": "derive",
@@ -3907,6 +4256,7 @@
         "index": {
           "description": "Pseudo derivation For every label creates function foo and foo which updates and sets the label respectively e.g foo bar or foo baz",
           "hierarchy": "Data Derive Update",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Update",
           "name": "Update",
           "package": "derive",
@@ -3920,6 +4270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.Derive.Update",
           "name": "makeUpdate",
           "package": "derive",
@@ -3929,6 +4280,7 @@
         },
         "index": {
           "hierarchy": "Data Derive Update",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.Derive.Update",
           "name": "makeUpdate",
           "package": "derive",
@@ -3942,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveDSL",
           "name": "DeriveDSL",
           "package": "derive",
@@ -3950,6 +4303,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveDSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveDSL",
           "name": "DeriveDSL",
           "package": "derive",
@@ -3963,6 +4317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveDSL",
           "name": "DSL",
           "package": "derive",
@@ -3971,6 +4326,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveDSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveDSL",
           "name": "DSL",
           "package": "derive",
@@ -3984,6 +4340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveDSL",
           "name": "applyDSL",
           "package": "derive",
@@ -3993,6 +4350,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveDSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveDSL",
           "name": "applyDSL",
           "normalized": "DSL-\u003eDataDecl-\u003eEither String[Decl]",
@@ -4008,6 +4366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveDSL",
           "name": "deriveDSL",
           "package": "derive",
@@ -4017,6 +4376,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveDSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveDSL",
           "name": "deriveDSL",
           "normalized": "[Decl]-\u003eMaybe DSL",
@@ -4032,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveDSL",
           "name": "dynamicDSL",
           "package": "derive",
@@ -4041,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveDSL",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveDSL",
           "name": "dynamicDSL",
           "normalized": "DSL-\u003eMaybe[Decl]",
@@ -4057,6 +4419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUse this module to create your own derive program, supporting custom derivations.\n   As an example:\n\u003c/p\u003e\u003cpre\u003e\n   import \u003ca\u003eData.DeriveMain\u003c/a\u003e        (\u003ccode\u003e\u003ca\u003ederiveMain\u003c/a\u003e\u003c/code\u003e)\n   import \u003ca\u003eData.Derive.All\u003c/a\u003e        (\u003ccode\u003e\u003ca\u003ederivations\u003c/a\u003e\u003c/code\u003e)\n   import MyProject.MyDerivation (myDerivation)\n\u003c/pre\u003e\u003cpre\u003e\n   main :: IO\n   main = \u003ccode\u003e\u003ca\u003ederiveMain\u003c/a\u003e\u003c/code\u003e $ [myDerivation] ++ \u003ccode\u003e\u003ca\u003ederivations\u003c/a\u003e\u003c/code\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveMain",
           "name": "DeriveMain",
           "package": "derive",
@@ -4066,6 +4429,7 @@
         "index": {
           "description": "Use this module to create your own derive program supporting custom derivations As an example import Data.DeriveMain deriveMain import Data.Derive.All derivations import MyProject.MyDerivation myDerivation main IO main deriveMain myDerivation derivations",
           "hierarchy": "Data DeriveMain",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveMain",
           "name": "DeriveMain",
           "package": "derive",
@@ -4079,6 +4443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveMain",
           "name": "deriveMain",
           "package": "derive",
@@ -4088,6 +4453,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveMain",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveMain",
           "name": "deriveMain",
           "normalized": "[Derivation]-\u003eIO()",
@@ -4104,6 +4470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main TH driver module.  It is intended that this need be the\n only module imported by user code; it takes care of all data\n threading issues such that all one needs to do is:\n\u003c/p\u003e\u003cpre\u003e\n   data Foo = Foo ; $( derive makeEq ''Foo )\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveTH",
           "name": "DeriveTH",
           "package": "derive",
@@ -4113,6 +4480,7 @@
         "index": {
           "description": "The main TH driver module It is intended that this need be the only module imported by user code it takes care of all data threading issues such that all one needs to do is data Foo Foo derive makeEq Foo",
           "hierarchy": "Data DeriveTH",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveTH",
           "name": "DeriveTH",
           "package": "derive",
@@ -4127,6 +4495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of some class. \u003ccode\u003ederive\u003c/code\u003e only derives instances\n for the type of the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveTH",
           "name": "derive",
           "package": "derive",
@@ -4137,6 +4506,7 @@
         "index": {
           "description": "Derive an instance of some class derive only derives instances for the type of the argument",
           "hierarchy": "Data DeriveTH",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveTH",
           "name": "derive",
           "normalized": "Derivation-\u003eName-\u003eQ[Dec]",
@@ -4152,6 +4522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive an instance of some class. \u003ccode\u003ederiveFromDec\u003c/code\u003e only derives instances\n for the type of the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveTH",
           "name": "deriveFromDec",
           "package": "derive",
@@ -4162,6 +4533,7 @@
         "index": {
           "description": "Derive an instance of some class deriveFromDec only derives instances for the type of the argument",
           "hierarchy": "Data DeriveTH",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveTH",
           "name": "deriveFromDec",
           "normalized": "Derivation-\u003eDec-\u003eQ[Dec]",
@@ -4177,6 +4549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Data.DeriveTH",
           "name": "derives",
           "package": "derive",
@@ -4186,6 +4559,7 @@
         },
         "index": {
           "hierarchy": "Data DeriveTH",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Data.DeriveTH",
           "name": "derives",
           "normalized": "[Derivation]-\u003e[Name]-\u003eQ[Dec]",
@@ -4200,6 +4574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.Convert",
           "name": "Convert",
           "package": "derive",
@@ -4208,6 +4583,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Convert",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.Convert",
           "name": "Convert",
           "package": "derive",
@@ -4221,6 +4597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.Convert",
           "name": "Convert",
           "package": "derive",
@@ -4229,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Convert",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.Convert",
           "name": "Convert",
           "package": "derive",
@@ -4242,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.Convert",
           "name": "convert",
           "package": "derive",
@@ -4251,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Convert",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.Convert",
           "name": "convert",
           "normalized": "a-\u003eb",
@@ -4265,6 +4645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "All",
           "package": "derive",
@@ -4273,6 +4654,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "All",
           "package": "derive",
@@ -4287,6 +4669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of ways to derive classes.\n   Should not really be in this module!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "Derivation",
           "package": "derive",
@@ -4296,6 +4679,7 @@
         "index": {
           "description": "The type of ways to derive classes Should not really be in this module",
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "Derivation",
           "package": "derive",
@@ -4309,6 +4693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "Derivation",
           "package": "derive",
@@ -4318,6 +4703,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "Derivation",
           "package": "derive",
@@ -4331,6 +4717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "derivation",
           "package": "derive",
@@ -4340,6 +4727,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "derivation",
           "normalized": "(DataDef-\u003e[Dec])-\u003eString-\u003eDerivation",
@@ -4355,6 +4743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe derivation function proper\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "derivationDeriver",
           "package": "derive",
@@ -4365,6 +4754,7 @@
         "index": {
           "description": "The derivation function proper",
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "derivationDeriver",
           "normalized": "DataDef-\u003eQ[Dec]",
@@ -4381,6 +4771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the derivation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "derivationName",
           "package": "derive",
@@ -4391,6 +4782,7 @@
         "index": {
           "description": "The name of the derivation",
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "derivationName",
           "package": "derive",
@@ -4404,6 +4796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.All",
           "name": "derivationQ",
           "package": "derive",
@@ -4413,6 +4806,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH All",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.All",
           "name": "derivationQ",
           "normalized": "(DataDef-\u003eQ[Dec])-\u003eString-\u003eDerivation",
@@ -4428,6 +4822,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatibility definitions to paper over differences between 6.10 and 6.12.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Compat",
           "name": "Compat",
           "package": "derive",
@@ -4437,6 +4832,7 @@
         "index": {
           "description": "Compatibility definitions to paper over differences between and",
           "hierarchy": "Language Haskell TH Compat",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Compat",
           "name": "Compat",
           "package": "derive",
@@ -4450,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Compat",
           "name": "dataDefinitionTypeArgs",
           "package": "derive",
@@ -4459,6 +4856,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Compat",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Compat",
           "name": "dataDefinitionTypeArgs",
           "normalized": "Dec-\u003e[Name]",
@@ -4474,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Compat",
           "name": "fromTyVar",
           "package": "derive",
@@ -4483,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Compat",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Compat",
           "name": "fromTyVar",
           "normalized": "TyVarBndr-\u003eName",
@@ -4498,6 +4898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Compat",
           "name": "typeToPred",
           "package": "derive",
@@ -4507,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Compat",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Compat",
           "name": "typeToPred",
           "normalized": "Type-\u003ePred",
@@ -4523,6 +4925,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe core module of the Data.Derive system.  This module contains\n the data types used for communication between the extractors and\n the derivors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "Data",
           "package": "derive",
@@ -4532,6 +4935,7 @@
         "index": {
           "description": "The core module of the Data.Derive system This module contains the data types used for communication between the extractors and the derivors",
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "Data",
           "package": "derive",
@@ -4545,6 +4949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "CtorDef",
           "package": "derive",
@@ -4553,6 +4958,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "CtorDef",
           "package": "derive",
@@ -4566,6 +4972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "DataDef",
           "package": "derive",
@@ -4574,6 +4981,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "DataDef",
           "package": "derive",
@@ -4587,6 +4995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorArity",
           "package": "derive",
@@ -4596,6 +5005,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorArity",
           "normalized": "CtorDef-\u003eInt",
@@ -4611,6 +5021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorFields",
           "package": "derive",
@@ -4620,6 +5031,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorFields",
           "normalized": "CtorDef-\u003e[String]",
@@ -4635,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorName",
           "package": "derive",
@@ -4644,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorName",
           "normalized": "CtorDef-\u003eString",
@@ -4659,6 +5073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorStrictTypes",
           "package": "derive",
@@ -4668,6 +5083,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorStrictTypes",
           "normalized": "CtorDef-\u003e[StrictType]",
@@ -4683,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorTypes",
           "package": "derive",
@@ -4692,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "ctorTypes",
           "normalized": "CtorDef-\u003e[Type]",
@@ -4707,6 +5125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dataArgs",
           "package": "derive",
@@ -4716,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dataArgs",
           "normalized": "DataDef-\u003e[Name]",
@@ -4731,6 +5151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dataArity",
           "package": "derive",
@@ -4740,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dataArity",
           "normalized": "DataDef-\u003eInt",
@@ -4755,6 +5177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dataCtors",
           "package": "derive",
@@ -4764,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dataCtors",
           "normalized": "DataDef-\u003e[CtorDef]",
@@ -4779,6 +5203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dataName",
           "package": "derive",
@@ -4788,6 +5213,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dataName",
           "normalized": "DataDef-\u003eString",
@@ -4803,6 +5229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dropModule",
           "package": "derive",
@@ -4812,6 +5239,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dropModule",
           "normalized": "String-\u003eString",
@@ -4827,6 +5255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "dropNumber",
           "package": "derive",
@@ -4836,6 +5265,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "dropNumber",
           "normalized": "String-\u003eString",
@@ -4851,6 +5281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "eqConT",
           "package": "derive",
@@ -4860,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "eqConT",
           "normalized": "String-\u003eType-\u003eBool",
@@ -4875,6 +5307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "isTupleT",
           "package": "derive",
@@ -4884,6 +5317,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "isTupleT",
           "normalized": "Type-\u003eBool",
@@ -4899,6 +5333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "normData",
           "package": "derive",
@@ -4908,6 +5343,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "normData",
           "normalized": "DataDef-\u003eDataDef",
@@ -4923,6 +5359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "qualifiedCtorName",
           "package": "derive",
@@ -4932,6 +5369,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "qualifiedCtorName",
           "normalized": "CtorDef-\u003eName",
@@ -4947,6 +5385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "qualifiedDataName",
           "package": "derive",
@@ -4956,6 +5395,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "qualifiedDataName",
           "normalized": "DataDef-\u003eName",
@@ -4971,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "typeApp",
           "package": "derive",
@@ -4980,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "typeApp",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -4995,6 +5437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Data",
           "name": "unqualifiedName",
           "package": "derive",
@@ -5004,6 +5447,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Data",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Data",
           "name": "unqualifiedName",
           "normalized": "Name-\u003eString",
@@ -5020,6 +5464,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExpand type synonyms in data declarations.\n\u003c/p\u003e\u003cp\u003eThis is needed for some type based derivations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSynonym",
           "name": "ExpandSynonym",
           "package": "derive",
@@ -5029,6 +5474,7 @@
         "index": {
           "description": "Expand type synonyms in data declarations This is needed for some type based derivations",
           "hierarchy": "Language Haskell TH ExpandSynonym",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.ExpandSynonym",
           "name": "ExpandSynonym",
           "package": "derive",
@@ -5043,6 +5489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand type synonyms in a data declaration\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.ExpandSynonym",
           "name": "expandData",
           "package": "derive",
@@ -5053,6 +5500,7 @@
         "index": {
           "description": "Expand type synonyms in data declaration",
           "hierarchy": "Language Haskell TH ExpandSynonym",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.ExpandSynonym",
           "name": "expandData",
           "normalized": "DataDef-\u003eQ DataDef",
@@ -5068,6 +5516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "FixedPpr",
           "package": "derive",
@@ -5076,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "FixedPpr",
           "package": "derive",
@@ -5089,6 +5539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "Ppr",
           "package": "derive",
@@ -5097,6 +5548,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "Ppr",
           "package": "derive",
@@ -5110,6 +5562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "Precedence",
           "package": "derive",
@@ -5118,6 +5571,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "Precedence",
           "package": "derive",
@@ -5131,6 +5585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "appPrec",
           "package": "derive",
@@ -5140,6 +5595,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "appPrec",
           "package": "derive",
@@ -5153,6 +5609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "deQualLhsHead",
           "package": "derive",
@@ -5162,6 +5619,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "deQualLhsHead",
           "normalized": "Dec-\u003eDec",
@@ -5177,6 +5635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "deQualName",
           "package": "derive",
@@ -5186,6 +5645,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "deQualName",
           "normalized": "Name-\u003eName",
@@ -5201,6 +5661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "isPrefixName",
           "package": "derive",
@@ -5210,6 +5671,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "isPrefixName",
           "normalized": "Name-\u003eBool",
@@ -5225,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "nestDepth",
           "package": "derive",
@@ -5234,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "nestDepth",
           "package": "derive",
@@ -5247,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "noPrec",
           "package": "derive",
@@ -5256,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "noPrec",
           "package": "derive",
@@ -5269,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "opPrec",
           "package": "derive",
@@ -5278,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "opPrec",
           "package": "derive",
@@ -5291,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "parensIf",
           "package": "derive",
@@ -5300,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "parensIf",
           "normalized": "Bool-\u003eDoc-\u003eDoc",
@@ -5315,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr",
           "package": "derive",
@@ -5324,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -5338,6 +5810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprBody",
           "package": "derive",
@@ -5347,6 +5820,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprBody",
           "normalized": "Bool-\u003eBody-\u003eDoc",
@@ -5362,6 +5836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprCxt",
           "package": "derive",
@@ -5371,6 +5846,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprCxt",
           "normalized": "Cxt-\u003eDoc",
@@ -5386,6 +5862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprExp",
           "package": "derive",
@@ -5395,6 +5872,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprExp",
           "normalized": "Precedence-\u003eExp-\u003eDoc",
@@ -5410,6 +5888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprExpInfix",
           "package": "derive",
@@ -5419,6 +5898,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprExpInfix",
           "normalized": "Exp-\u003eDoc",
@@ -5434,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprFields",
           "package": "derive",
@@ -5443,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprFields",
           "normalized": "[(Name,Exp)]-\u003eDoc",
@@ -5458,6 +5940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprFixity",
           "package": "derive",
@@ -5467,6 +5950,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprFixity",
           "normalized": "Name-\u003eFixity-\u003eDoc",
@@ -5482,6 +5966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprLit",
           "package": "derive",
@@ -5491,6 +5976,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprLit",
           "normalized": "Precedence-\u003eLit-\u003eDoc",
@@ -5506,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprMaybeExp",
           "package": "derive",
@@ -5515,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprMaybeExp",
           "normalized": "Precedence-\u003eMaybe Exp-\u003eDoc",
@@ -5530,6 +6018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprName_",
           "package": "derive",
@@ -5539,6 +6028,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprName_",
           "normalized": "Bool-\u003eName-\u003eDoc",
@@ -5554,6 +6044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprParendType",
           "package": "derive",
@@ -5563,6 +6054,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprParendType",
           "normalized": "Type-\u003eDoc",
@@ -5578,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprPat",
           "package": "derive",
@@ -5587,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprPat",
           "normalized": "Precedence-\u003ePat-\u003eDoc",
@@ -5602,6 +6096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprStrictType",
           "package": "derive",
@@ -5611,6 +6106,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprStrictType",
           "normalized": "(Strict,Type)-\u003eDoc",
@@ -5626,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprTyApp",
           "package": "derive",
@@ -5635,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprTyApp",
           "normalized": "(Type,[Type])-\u003eDoc",
@@ -5650,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprVarStrictType",
           "package": "derive",
@@ -5659,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprVarStrictType",
           "normalized": "(Name,Strict,Type)-\u003eDoc",
@@ -5674,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr_list",
           "package": "derive",
@@ -5683,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr_list",
           "normalized": "[a]-\u003eDoc",
@@ -5697,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr_sig",
           "package": "derive",
@@ -5706,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "ppr_sig",
           "normalized": "a-\u003ea-\u003eDoc",
@@ -5720,6 +6224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprint",
           "package": "derive",
@@ -5729,6 +6234,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "pprint",
           "normalized": "a-\u003eString",
@@ -5743,6 +6249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "showNameRaw",
           "package": "derive",
@@ -5752,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "showNameRaw",
           "normalized": "Name-\u003eString",
@@ -5767,6 +6275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "showtextl",
           "package": "derive",
@@ -5776,6 +6285,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "showtextl",
           "normalized": "a-\u003eDoc",
@@ -5790,6 +6300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "split",
           "package": "derive",
@@ -5799,6 +6310,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "split",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -5813,6 +6325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "where_clause",
           "package": "derive",
@@ -5822,6 +6335,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH FixedPpr",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.FixedPpr",
           "name": "where_clause",
           "normalized": "[Dec]-\u003eDoc",
@@ -5837,6 +6351,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThese small short-named functions are intended to make the\n   construction of abstranct syntax trees less tedious.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "Helper",
           "package": "derive",
@@ -5846,6 +6361,7 @@
         "index": {
           "description": "These small short-named functions are intended to make the construction of abstranct syntax trees less tedious",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "Helper",
           "package": "derive",
@@ -5860,6 +6376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class is used to overload literal construction based on the\n type of the literal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "LitC",
           "package": "derive",
@@ -5869,6 +6386,7 @@
         "index": {
           "description": "This class is used to overload literal construction based on the type of the literal",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "LitC",
           "package": "derive",
@@ -5882,6 +6400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "NameLike",
           "package": "derive",
@@ -5890,6 +6409,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "NameLike",
           "package": "derive",
@@ -5904,6 +6424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class used to overload lifting operations.  To reduce code\n duplication, we overload the wrapped constructors (and everything\n else, but that's irrelevant) to work in patterns, expressions, and\n types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "Valcon",
           "package": "derive",
@@ -5913,6 +6434,7 @@
         "index": {
           "description": "The class used to overload lifting operations To reduce code duplication we overload the wrapped constructors and everything else but that irrelevant to work in patterns expressions and types",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "Valcon",
           "package": "derive",
@@ -5926,6 +6448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(&&:)",
           "package": "derive",
@@ -5935,6 +6458,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(&&:) &&:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -5950,6 +6474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a chain of expressions, with an appropriate terminal\n   sequence__ does not require a unit at the end (all others are optimised automatically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(&&::)",
           "package": "derive",
@@ -5960,6 +6485,7 @@
         "index": {
           "description": "Build chain of expressions with an appropriate terminal sequence does not require unit at the end all others are optimised automatically",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(&&::) &&::",
           "normalized": "[Exp]-\u003eExp",
@@ -5974,6 +6500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(++:)",
           "package": "derive",
@@ -5983,6 +6510,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(++:) ++:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -5998,6 +6526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a chain of expressions, with an appropriate terminal\n   sequence__ does not require a unit at the end (all others are optimised automatically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(++::)",
           "package": "derive",
@@ -6008,6 +6537,7 @@
         "index": {
           "description": "Build chain of expressions with an appropriate terminal sequence does not require unit at the end all others are optimised automatically",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(++::) ++::",
           "normalized": "[Exp]-\u003eExp",
@@ -6022,6 +6552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(-\u003e:)",
           "package": "derive",
@@ -6031,6 +6562,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(-\u003e:) -\u003e:",
           "normalized": "String-\u003eExp-\u003eExp",
@@ -6045,6 +6577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(==:)",
           "package": "derive",
@@ -6054,6 +6587,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(==:) ==:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6068,6 +6602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e=:)",
           "package": "derive",
@@ -6077,6 +6612,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e=:) \u003e\u003e=:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6091,6 +6627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e:)",
           "package": "derive",
@@ -6100,6 +6637,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e:) \u003e\u003e:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6115,6 +6653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a chain of expressions, with an appropriate terminal\n   sequence__ does not require a unit at the end (all others are optimised automatically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e::)",
           "package": "derive",
@@ -6125,6 +6664,7 @@
         "index": {
           "description": "Build chain of expressions with an appropriate terminal sequence does not require unit at the end all others are optimised automatically",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e\u003e::) \u003e\u003e::",
           "normalized": "[Exp]-\u003eExp",
@@ -6139,6 +6679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e:)",
           "package": "derive",
@@ -6148,6 +6689,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(\u003e:) \u003e:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6162,6 +6704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(.:)",
           "package": "derive",
@@ -6171,6 +6714,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(.:) .:",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6186,6 +6730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a chain of expressions, with an appropriate terminal\n   sequence__ does not require a unit at the end (all others are optimised automatically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "(.::)",
           "package": "derive",
@@ -6196,6 +6741,7 @@
         "index": {
           "description": "Build chain of expressions with an appropriate terminal sequence does not require unit at the end all others are optimised automatically",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "(.::) .::",
           "normalized": "[Exp]-\u003eExp",
@@ -6210,6 +6756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "ap'",
           "package": "derive",
@@ -6219,6 +6766,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "ap'",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -6234,6 +6782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an application node without a given head\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "app",
           "package": "derive",
@@ -6244,6 +6793,7 @@
         "index": {
           "description": "Build an application node without given head",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "app",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -6258,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "applyWith",
           "package": "derive",
@@ -6267,6 +6818,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "applyWith",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -6282,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "box",
           "package": "derive",
@@ -6291,6 +6844,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "box",
           "normalized": "a-\u003ea",
@@ -6305,6 +6859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "case'",
           "package": "derive",
@@ -6314,6 +6869,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "case'",
           "normalized": "Exp-\u003e[(Pat,Exp)]-\u003eExp",
@@ -6328,6 +6884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "cons",
           "package": "derive",
@@ -6337,6 +6894,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "cons",
           "normalized": "a-\u003ea-\u003ea",
@@ -6351,6 +6909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "const'",
           "package": "derive",
@@ -6360,6 +6919,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "const'",
           "normalized": "Exp-\u003eExp",
@@ -6375,6 +6935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference the constructor itself\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctc",
           "package": "derive",
@@ -6385,6 +6946,7 @@
         "index": {
           "description": "Reference the constructor itself",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctc",
           "normalized": "CtorDef-\u003ea",
@@ -6400,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a simple pattern to bind a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctp",
           "package": "derive",
@@ -6410,6 +6973,7 @@
         "index": {
           "description": "Make simple pattern to bind constructor",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctp",
           "normalized": "CtorDef-\u003eChar-\u003ea",
@@ -6425,6 +6989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of variables, one for each argument to a constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctv",
           "package": "derive",
@@ -6435,6 +7000,7 @@
         "index": {
           "description": "Make list of variables one for each argument to constructor",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "ctv",
           "normalized": "CtorDef-\u003eChar-\u003e[a]",
@@ -6449,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "dataVars",
           "package": "derive",
@@ -6458,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "dataVars",
           "normalized": "DataDef-\u003e[Type]",
@@ -6474,6 +7042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA default clause with N arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "defclause",
           "package": "derive",
@@ -6484,6 +7053,7 @@
         "index": {
           "description": "default clause with arguments",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "defclause",
           "normalized": "Int-\u003eExp-\u003eClause",
@@ -6498,6 +7068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "false",
           "package": "derive",
@@ -6507,6 +7078,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "false",
           "package": "derive",
@@ -6519,6 +7091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "foldl1With",
           "package": "derive",
@@ -6528,6 +7101,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "foldl1With",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -6543,6 +7117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "foldr1With",
           "package": "derive",
@@ -6552,6 +7127,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "foldr1With",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -6568,6 +7144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a fundecl with a string name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "funN",
           "package": "derive",
@@ -6578,6 +7155,7 @@
         "index": {
           "description": "Build fundecl with string name",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "funN",
           "normalized": "String-\u003e[Clause]-\u003eDec",
@@ -6593,6 +7171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an instance of a class for a data type, using the class at the given types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "generic_instance",
           "package": "derive",
@@ -6603,6 +7182,7 @@
         "index": {
           "description": "Build an instance of class for data type using the class at the given types",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "generic_instance",
           "normalized": "String-\u003eDataDef-\u003e[Type]-\u003e[Dec]-\u003e[Dec]",
@@ -6617,6 +7197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "hCons'",
           "package": "derive",
@@ -6626,6 +7207,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "hCons'",
           "normalized": "Type-\u003eType-\u003eType",
@@ -6641,6 +7223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "hNil'",
           "package": "derive",
@@ -6650,6 +7233,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "hNil'",
           "package": "derive",
@@ -6663,6 +7247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "hSucc'",
           "package": "derive",
@@ -6672,6 +7257,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "hSucc'",
           "normalized": "Type-\u003eType",
@@ -6687,6 +7273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "hZero'",
           "package": "derive",
@@ -6696,6 +7283,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "hZero'",
           "package": "derive",
@@ -6709,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "id'",
           "package": "derive",
@@ -6718,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "id'",
           "package": "derive",
@@ -6730,6 +7320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_context",
           "package": "derive",
@@ -6739,6 +7330,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_context",
           "normalized": "[String]-\u003eString-\u003eDataDef-\u003e[Dec]-\u003eDec",
@@ -6753,6 +7345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_default",
           "package": "derive",
@@ -6762,6 +7355,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_default",
           "normalized": "String-\u003eDataDef-\u003e[Dec]-\u003eDec",
@@ -6777,6 +7371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe provide 3 standard instance constructors\n   instance_default requires C for each free type variable\n   instance_none requires no context\n   instance_context requires a given context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_none",
           "package": "derive",
@@ -6787,6 +7382,7 @@
         "index": {
           "description": "We provide standard instance constructors instance default requires for each free type variable instance none requires no context instance context requires given context",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "instance_none",
           "normalized": "String-\u003eDataDef-\u003e[Dec]-\u003eDec",
@@ -6801,6 +7397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "l0",
           "package": "derive",
@@ -6810,6 +7407,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "l0",
           "normalized": "a-\u003eb",
@@ -6824,6 +7422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "l1",
           "package": "derive",
@@ -6833,6 +7432,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "l1",
           "normalized": "a-\u003eb-\u003eb",
@@ -6847,6 +7447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "l2",
           "package": "derive",
@@ -6856,6 +7457,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "l2",
           "normalized": "a-\u003eb-\u003eb-\u003eb",
@@ -6871,6 +7473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an application node, with a name for a head and a\n provided list of arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "lK",
           "package": "derive",
@@ -6881,6 +7484,7 @@
         "index": {
           "description": "Build an application node with name for head and provided list of arguments",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "lK",
           "normalized": "a-\u003e[b]-\u003eb",
@@ -6896,6 +7500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eK-way liftM\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "liftmk",
           "package": "derive",
@@ -6906,6 +7511,7 @@
         "index": {
           "description": "K-way liftM",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "liftmk",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -6920,6 +7526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "lit",
           "package": "derive",
@@ -6929,6 +7536,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "lit",
           "normalized": "a-\u003eb",
@@ -6944,6 +7552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "lst",
           "package": "derive",
@@ -6954,6 +7563,7 @@
         "index": {
           "description": "Listing",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "lst",
           "normalized": "[a]-\u003ea",
@@ -6968,6 +7578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "nil",
           "package": "derive",
@@ -6977,6 +7588,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "nil",
           "package": "derive",
@@ -6990,6 +7602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a TH \u003ccode\u003e\u003ca\u003eLit\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "raw_lit",
           "package": "derive",
@@ -7000,6 +7613,7 @@
         "index": {
           "description": "Lift TH Lit",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "raw_lit",
           "normalized": "Lit-\u003ea",
@@ -7014,6 +7628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "return'",
           "package": "derive",
@@ -7023,6 +7638,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "return'",
           "normalized": "Exp-\u003eExp",
@@ -7038,6 +7654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple clause, without where or guards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "sclause",
           "package": "derive",
@@ -7048,6 +7665,7 @@
         "index": {
           "description": "simple clause without where or guards",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "sclause",
           "normalized": "[Pat]-\u003eExp-\u003eClause",
@@ -7063,6 +7681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a chain of expressions, with an appropriate terminal\n   sequence__ does not require a unit at the end (all others are optimised automatically)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "sequence__",
           "package": "derive",
@@ -7073,6 +7692,7 @@
         "index": {
           "description": "Build chain of expressions with an appropriate terminal sequence does not require unit at the end all others are optimised automatically",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "sequence__",
           "normalized": "[Exp]-\u003eExp",
@@ -7088,6 +7708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a type signature declaration with a string name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "sigN",
           "package": "derive",
@@ -7098,6 +7719,7 @@
         "index": {
           "description": "Build type signature declaration with string name",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "sigN",
           "normalized": "String-\u003eType-\u003eDec",
@@ -7113,6 +7735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild an instance of a class for a data type, using the heuristic\n that the type is itself required on all type arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "simple_instance",
           "package": "derive",
@@ -7123,6 +7746,7 @@
         "index": {
           "description": "Build an instance of class for data type using the heuristic that the type is itself required on all type arguments",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "simple_instance",
           "normalized": "String-\u003eDataDef-\u003e[Dec]-\u003e[Dec]",
@@ -7138,6 +7762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple Val clause\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "sval",
           "package": "derive",
@@ -7148,6 +7773,7 @@
         "index": {
           "description": "simple Val clause",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "sval",
           "normalized": "Pat-\u003eExp-\u003eDec",
@@ -7162,6 +7788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "toName",
           "package": "derive",
@@ -7171,6 +7798,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "toName",
           "normalized": "a-\u003eName",
@@ -7186,6 +7814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "true",
           "package": "derive",
@@ -7195,6 +7824,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "true",
           "package": "derive",
@@ -7208,6 +7838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTupling\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "tup",
           "package": "derive",
@@ -7218,6 +7849,7 @@
         "index": {
           "description": "Tupling",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "tup",
           "normalized": "[a]-\u003ea",
@@ -7232,6 +7864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "unit",
           "package": "derive",
@@ -7241,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "unit",
           "package": "derive",
@@ -7254,6 +7888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommon pattern: list of a familiy of variables\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "vars",
           "package": "derive",
@@ -7264,6 +7899,7 @@
         "index": {
           "description": "Common pattern list of familiy of variables",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "vars",
           "normalized": "Char-\u003eInt-\u003e[a]",
@@ -7279,6 +7915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference a named variable.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "vr",
           "package": "derive",
@@ -7289,6 +7926,7 @@
         "index": {
           "description": "Reference named variable",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "vr",
           "normalized": "a-\u003eb",
@@ -7304,6 +7942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable based on a letter + number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Helper",
           "name": "vrn",
           "package": "derive",
@@ -7314,6 +7953,7 @@
         "index": {
           "description": "Variable based on letter number",
           "hierarchy": "Language Haskell TH Helper",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Helper",
           "name": "vrn",
           "normalized": "Char-\u003eInt-\u003ea",
@@ -7328,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Peephole",
           "name": "Peephole",
           "package": "derive",
@@ -7336,6 +7977,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Peephole",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Peephole",
           "name": "Peephole",
           "package": "derive",
@@ -7349,6 +7991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Peephole",
           "name": "peephole",
           "package": "derive",
@@ -7358,6 +8001,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Peephole",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Peephole",
           "name": "peephole",
           "normalized": "a-\u003ea",
@@ -7372,6 +8016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Peephole",
           "name": "replaceVar",
           "package": "derive",
@@ -7381,6 +8026,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Peephole",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Peephole",
           "name": "replaceVar",
           "normalized": "Name-\u003eExp-\u003eExp-\u003eExp",
@@ -7396,6 +8042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell.TH.Peephole",
           "name": "replaceVars",
           "package": "derive",
@@ -7405,6 +8052,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Peephole",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell.TH.Peephole",
           "name": "replaceVars",
           "normalized": "[(Name,Exp)]-\u003eExp-\u003eExp",
@@ -7420,6 +8068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "Haskell",
           "package": "derive",
@@ -7428,6 +8077,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "Haskell",
           "package": "derive",
@@ -7441,6 +8091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "CtorDecl",
           "package": "derive",
@@ -7449,6 +8100,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "CtorDecl",
           "package": "derive",
@@ -7462,6 +8114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "DataDecl",
           "package": "derive",
@@ -7470,6 +8123,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "DataDecl",
           "package": "derive",
@@ -7483,6 +8137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "FieldDecl",
           "package": "derive",
@@ -7491,6 +8146,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "FieldDecl",
           "package": "derive",
@@ -7504,6 +8160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "FullDataDecl",
           "package": "derive",
@@ -7512,6 +8169,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "FullDataDecl",
           "package": "derive",
@@ -7525,6 +8183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "(~=)",
           "package": "derive",
@@ -7534,6 +8193,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "(~=) ~=",
           "normalized": "a-\u003eString-\u003eBool",
@@ -7548,6 +8208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "(?)",
           "package": "derive",
@@ -7557,6 +8218,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "(?) ?",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -7571,6 +8233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "appP",
           "package": "derive",
@@ -7580,6 +8243,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "appP",
           "normalized": "Exp-\u003eExp-\u003eExp",
@@ -7594,6 +8258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "apps",
           "package": "derive",
@@ -7603,6 +8268,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "apps",
           "normalized": "Exp-\u003e[Exp]-\u003eExp",
@@ -7617,6 +8283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "bind",
           "package": "derive",
@@ -7626,6 +8293,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "bind",
           "normalized": "String-\u003e[Pat]-\u003eExp-\u003eDecl",
@@ -7640,6 +8308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "binds",
           "package": "derive",
@@ -7649,6 +8318,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "binds",
           "normalized": "String-\u003e[([Pat],Exp)]-\u003eDecl",
@@ -7663,6 +8333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "con",
           "package": "derive",
@@ -7672,6 +8343,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "con",
           "normalized": "String-\u003eExp",
@@ -7686,6 +8358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "ctorDeclArity",
           "package": "derive",
@@ -7695,6 +8368,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "ctorDeclArity",
           "normalized": "CtorDecl-\u003eInt",
@@ -7710,6 +8384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "ctorDeclFields",
           "package": "derive",
@@ -7719,6 +8394,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "ctorDeclFields",
           "normalized": "CtorDecl-\u003eFieldDecl",
@@ -7734,6 +8410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "ctorDeclName",
           "package": "derive",
@@ -7743,6 +8420,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "ctorDeclName",
           "normalized": "CtorDecl-\u003eString",
@@ -7758,6 +8436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "ctorDeclName'",
           "package": "derive",
@@ -7767,6 +8446,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "ctorDeclName'",
           "normalized": "CtorDecl-\u003eName",
@@ -7782,6 +8462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclArity",
           "package": "derive",
@@ -7791,6 +8472,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclArity",
           "normalized": "DataDecl-\u003eInt",
@@ -7806,6 +8488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclContext",
           "package": "derive",
@@ -7815,6 +8498,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclContext",
           "normalized": "DataDecl-\u003eContext",
@@ -7830,6 +8514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclCtors",
           "package": "derive",
@@ -7839,6 +8524,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclCtors",
           "normalized": "DataDecl-\u003e[CtorDecl]",
@@ -7854,6 +8540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclFields",
           "package": "derive",
@@ -7863,6 +8550,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclFields",
           "normalized": "DataDecl-\u003e[String]",
@@ -7878,6 +8566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclName",
           "package": "derive",
@@ -7887,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclName",
           "normalized": "DataDecl-\u003eString",
@@ -7902,6 +8592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclSrcLoc",
           "package": "derive",
@@ -7911,6 +8602,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclSrcLoc",
           "normalized": "DataDecl-\u003eSrcLoc",
@@ -7926,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclType",
           "package": "derive",
@@ -7935,6 +8628,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclType",
           "normalized": "DataDecl-\u003eType",
@@ -7950,6 +8644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "dataDeclVars",
           "package": "derive",
@@ -7959,6 +8654,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "dataDeclVars",
           "normalized": "DataDecl-\u003e[String]",
@@ -7974,6 +8670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "declName",
           "package": "derive",
@@ -7983,6 +8680,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "declName",
           "normalized": "Decl-\u003eString",
@@ -7998,6 +8696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "foralls",
           "package": "derive",
@@ -8007,6 +8706,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "foralls",
           "normalized": "Type-\u003eType",
@@ -8021,6 +8721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromBangType",
           "package": "derive",
@@ -8030,6 +8731,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromBangType",
           "normalized": "BangType-\u003eType",
@@ -8045,6 +8747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromTyApps",
           "package": "derive",
@@ -8054,6 +8757,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromTyApps",
           "normalized": "Type-\u003e(Type,[Type])",
@@ -8069,6 +8773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromTyList",
           "package": "derive",
@@ -8078,6 +8783,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromTyList",
           "normalized": "Type-\u003eMaybe Type",
@@ -8093,6 +8799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromTyParen",
           "package": "derive",
@@ -8102,6 +8809,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromTyParen",
           "normalized": "Type-\u003eType",
@@ -8117,6 +8825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromTyParens",
           "package": "derive",
@@ -8126,6 +8835,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromTyParens",
           "normalized": "Type-\u003eType",
@@ -8141,6 +8851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "fromTyTuple",
           "package": "derive",
@@ -8150,6 +8861,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "fromTyTuple",
           "normalized": "Type-\u003e[Type]",
@@ -8165,6 +8877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "isAtom",
           "package": "derive",
@@ -8174,6 +8887,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "isAtom",
           "normalized": "Exp-\u003eBool",
@@ -8189,6 +8903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "isDataDecl",
           "package": "derive",
@@ -8198,6 +8913,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "isDataDecl",
           "normalized": "Decl-\u003eBool",
@@ -8213,6 +8929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "isGuardFalse",
           "package": "derive",
@@ -8222,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "isGuardFalse",
           "normalized": "Match-\u003eBool",
@@ -8237,6 +8955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "isTyFun",
           "package": "derive",
@@ -8246,6 +8965,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "isTyFun",
           "normalized": "Type-\u003eBool",
@@ -8261,6 +8981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "isTyParen",
           "package": "derive",
@@ -8270,6 +8991,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "isTyParen",
           "normalized": "Type-\u003eBool",
@@ -8285,6 +9007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "moduleDecls",
           "package": "derive",
@@ -8294,6 +9017,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "moduleDecls",
           "normalized": "Module-\u003e[Decl]",
@@ -8309,6 +9033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "moduleImports",
           "package": "derive",
@@ -8318,6 +9043,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "moduleImports",
           "normalized": "Module-\u003e[ImportDecl]",
@@ -8333,6 +9059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "moduleName",
           "package": "derive",
@@ -8342,6 +9069,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "moduleName",
           "normalized": "Module-\u003eModuleName",
@@ -8357,6 +9085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "modulePragmas",
           "package": "derive",
@@ -8366,6 +9095,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "modulePragmas",
           "normalized": "Module-\u003e[ModulePragma]",
@@ -8381,6 +9111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "noSl",
           "package": "derive",
@@ -8390,6 +9121,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "noSl",
           "normalized": "a-\u003ea",
@@ -8405,6 +9137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "pVar",
           "package": "derive",
@@ -8414,6 +9147,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "pVar",
           "normalized": "String-\u003ePat",
@@ -8429,6 +9163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "paren",
           "package": "derive",
@@ -8438,6 +9173,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "paren",
           "normalized": "Exp-\u003eExp",
@@ -8452,6 +9188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "qname",
           "package": "derive",
@@ -8461,6 +9198,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "qname",
           "normalized": "String-\u003eQName",
@@ -8475,6 +9213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "qvop",
           "package": "derive",
@@ -8484,6 +9223,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "qvop",
           "normalized": "String-\u003eQOp",
@@ -8498,6 +9238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "rename",
           "package": "derive",
@@ -8507,6 +9248,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "rename",
           "normalized": "QName-\u003eQName",
@@ -8521,6 +9263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "showDecls",
           "package": "derive",
@@ -8530,6 +9273,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "showDecls",
           "normalized": "[a]-\u003eString",
@@ -8545,6 +9289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "simplify",
           "package": "derive",
@@ -8554,6 +9299,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "simplify",
           "normalized": "a-\u003ea",
@@ -8568,6 +9314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "sl",
           "package": "derive",
@@ -8577,6 +9324,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "sl",
           "package": "derive",
@@ -8589,6 +9337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "title",
           "package": "derive",
@@ -8598,6 +9347,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "title",
           "normalized": "[Char]-\u003e[Char]",
@@ -8612,6 +9362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyApp",
           "package": "derive",
@@ -8621,6 +9372,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyApp",
           "normalized": "Type-\u003e[Type]-\u003eType",
@@ -8636,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyApps",
           "package": "derive",
@@ -8645,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyApps",
           "normalized": "Type-\u003e[Type]-\u003eType",
@@ -8660,6 +9414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyCon",
           "package": "derive",
@@ -8669,6 +9424,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyCon",
           "normalized": "String-\u003eType",
@@ -8684,6 +9440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyFun",
           "package": "derive",
@@ -8693,6 +9450,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyFun",
           "normalized": "[Type]-\u003eType",
@@ -8708,6 +9466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyRoot",
           "package": "derive",
@@ -8717,6 +9476,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyRoot",
           "normalized": "Type-\u003eString",
@@ -8732,6 +9492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyVar",
           "package": "derive",
@@ -8741,6 +9502,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyVar",
           "normalized": "String-\u003eType",
@@ -8756,6 +9518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "tyVarBind",
           "package": "derive",
@@ -8765,6 +9528,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "tyVarBind",
           "normalized": "String-\u003eTyVarBind",
@@ -8780,6 +9544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:53:20 UTC 2014",
           "module": "Language.Haskell",
           "name": "var",
           "package": "derive",
@@ -8789,6 +9554,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell",
+          "indexed": "2014-03-11T17:53:20",
           "module": "Language.Haskell",
           "name": "var",
           "normalized": "String-\u003eExp",

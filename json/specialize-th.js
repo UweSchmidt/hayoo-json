@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "specialize-th"
+        "phrase": "specialize-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "Specialize",
           "package": "specialize-th",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "Specialize",
           "package": "specialize-th",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstrRenamer",
           "package": "specialize-th",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstrRenamer",
           "package": "specialize-th",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstructorName",
           "package": "specialize-th",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstructorName",
           "package": "specialize-th",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "DecRenamer",
           "package": "specialize-th",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "DecRenamer",
           "package": "specialize-th",
@@ -103,6 +111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA result for partial functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "Result",
           "package": "specialize-th",
@@ -111,6 +120,7 @@
         "index": {
           "description": "result for partial functions",
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "Result",
           "package": "specialize-th",
@@ -124,6 +134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "TypeName",
           "package": "specialize-th",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "TypeName",
           "package": "specialize-th",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstructorName",
           "package": "specialize-th",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "ConstructorName",
           "package": "specialize-th",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "TypeName",
           "package": "specialize-th",
@@ -176,6 +191,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "TypeName",
           "package": "specialize-th",
@@ -189,6 +205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "concat_type_names",
           "package": "specialize-th",
@@ -198,6 +215,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "concat_type_names",
           "normalized": "[Type]-\u003eString",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "create_dec_from_type",
           "package": "specialize-th",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "create_dec_from_type",
           "normalized": "DecRenamer-\u003eConstrRenamer-\u003eType-\u003ea Type",
@@ -236,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand all the type syn's and create specialize types for any polymorphic types.\n   All of the new specialized declarations are returned, along with the original dec \n   with subbed types and a new name. \n   The first Name is the name of the Dec to create specialize instances for.\n   The second Name, is the new name for the Dec.\n   use mk_new_dec_name for the Dec renaming and id_constr_renamer for the constructor renaming.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize",
           "package": "specialize-th",
@@ -246,6 +267,7 @@
         "index": {
           "description": "Expand all the type syn and create specialize types for any polymorphic types All of the new specialized declarations are returned along with the original dec with subbed types and new name The first Name is the name of the Dec to create specialize instances for The second Name is the new name for the Dec use mk new dec name for the Dec renaming and id constr renamer for the constructor renaming",
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize",
           "normalized": "Name-\u003eName-\u003eQ[Dec]",
@@ -261,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExpand all the type syn's and create specialize types for any polymorphic types.\n   All of the new specialized declarations are returned, along with the original dec \n   with subbed types and a new name. \n   The first Name is the name of the Dec to create specialize instances for.\n   The second Name, is the new name for the Dec.\n   The DecRenamer and ConstrRenamer are used to rename Dec's and Con's respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize'",
           "package": "specialize-th",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Expand all the type syn and create specialize types for any polymorphic types All of the new specialized declarations are returned along with the original dec with subbed types and new name The first Name is the name of the Dec to create specialize instances for The second Name is the new name for the Dec The DecRenamer and ConstrRenamer are used to rename Dec and Con respectively",
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize'",
           "normalized": "Maker-\u003eDecRenamer-\u003eConstrRenamer-\u003eName-\u003eName-\u003eQ[Dec]",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize_syns",
           "package": "specialize-th",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "expand_and_specialize_syns",
           "normalized": "Name-\u003eName-\u003eQ[Dec]",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "find_con",
           "package": "specialize-th",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "find_con",
           "normalized": "ConstructorName-\u003eDec-\u003eResult Con",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "get_con_vars",
           "package": "specialize-th",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "get_con_vars",
           "normalized": "Con-\u003e[Type]",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "get_ty_vars",
           "package": "specialize-th",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "get_ty_vars",
           "normalized": "Dec-\u003e[TyVarBndr]",
@@ -378,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Con renamer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "id_constr_renamer",
           "package": "specialize-th",
@@ -388,6 +421,7 @@
         "index": {
           "description": "Default Con renamer",
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "id_constr_renamer",
           "normalized": "[Type]-\u003eCon-\u003eCon",
@@ -403,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Dec renamer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "mk_new_dec_name",
           "package": "specialize-th",
@@ -413,6 +448,7 @@
         "index": {
           "description": "Default Dec renamer",
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "mk_new_dec_name",
           "normalized": "[Type]-\u003eTypeName-\u003eResult TypeName",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "rename_dec",
           "package": "specialize-th",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "rename_dec",
           "normalized": "[Type]-\u003eDec-\u003eResult Dec",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "runConstructorName",
           "package": "specialize-th",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "runConstructorName",
           "package": "specialize-th",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "runTypeName",
           "package": "specialize-th",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "runTypeName",
           "package": "specialize-th",
@@ -494,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "run_state'",
           "package": "specialize-th",
@@ -503,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "run_state'",
           "normalized": "ErrorStateT a[b]c d b-\u003ec-\u003ed(Either a b,[b])",
@@ -517,6 +561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:08:02 UTC 2014",
           "module": "Language.Haskell.TH.Specialize",
           "name": "sub_dec_and_rename",
           "package": "specialize-th",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell TH Specialize",
+          "indexed": "2014-03-11T20:08:02",
           "module": "Language.Haskell.TH.Specialize",
           "name": "sub_dec_and_rename",
           "normalized": "ConstrRenamer-\u003eDec-\u003e[Type]-\u003eResult Dec",

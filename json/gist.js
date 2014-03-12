@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "gist"
+        "phrase": "gist",
+        "type": "phrase"
       },
       "type": "context"
     }

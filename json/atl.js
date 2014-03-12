@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "atl"
+        "phrase": "atl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort.Class",
           "name": "Class",
           "package": "atl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort.Class",
           "name": "Class",
           "package": "atl",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort.Class",
           "name": "ArrowAbort",
           "package": "atl",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort.Class",
           "name": "ArrowAbort",
           "package": "atl",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort.Class",
           "name": "abort",
           "package": "atl",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort.Class",
           "name": "abort",
           "package": "atl",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort",
           "name": "Abort",
           "package": "atl",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort",
           "name": "Abort",
           "package": "atl",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort",
           "name": "AbortT",
           "package": "atl",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort",
           "name": "AbortT",
           "package": "atl",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort",
           "name": "AbortT",
           "package": "atl",
@@ -132,6 +143,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort",
           "name": "AbortT",
           "package": "atl",
@@ -145,6 +157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort",
           "name": "runAbortT",
           "package": "atl",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort",
           "name": "runAbortT",
           "normalized": "AbortT a b c a-\u003eb c a",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Abort",
           "name": "unwrapAbortT",
           "package": "atl",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Abort",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Abort",
           "name": "unwrapAbortT",
           "package": "atl",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.List.Class",
           "name": "Class",
           "package": "atl",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.List.Class",
           "name": "Class",
           "package": "atl",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.List.Class",
           "name": "ArrowList",
           "package": "atl",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.List.Class",
           "name": "ArrowList",
           "package": "atl",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.List.Class",
           "name": "arrL",
           "package": "atl",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.List.Class",
           "name": "arrL",
           "normalized": "(a-\u003e[b])-\u003ec a b",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.List.Class",
           "name": "mapL",
           "package": "atl",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow List Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.List.Class",
           "name": "mapL",
           "normalized": "([a]-\u003e[b])-\u003ec d a-\u003ec d b",
@@ -279,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "Class",
           "package": "atl",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "Class",
           "package": "atl",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "ArrowReader",
           "package": "atl",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "ArrowReader",
           "package": "atl",
@@ -321,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "ask",
           "package": "atl",
@@ -330,6 +359,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "ask",
           "normalized": "a()b",
@@ -344,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "asks",
           "package": "atl",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003ec()b",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "asksA",
           "package": "atl",
@@ -376,6 +409,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "asksA",
           "normalized": "a b c-\u003ea()c",
@@ -390,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader.Class",
           "name": "local",
           "package": "atl",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader.Class",
           "name": "local",
           "normalized": "(a-\u003ea)-\u003eb c d-\u003eb c d",
@@ -413,6 +449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader",
           "name": "Reader",
           "package": "atl",
@@ -421,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader",
           "name": "Reader",
           "package": "atl",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader",
           "name": "ReaderT",
           "package": "atl",
@@ -442,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader",
           "name": "ReaderT",
           "package": "atl",
@@ -455,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader",
           "name": "ReaderT",
           "package": "atl",
@@ -464,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader",
           "name": "ReaderT",
           "package": "atl",
@@ -477,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader",
           "name": "runReaderT",
           "package": "atl",
@@ -486,6 +529,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader",
           "name": "runReaderT",
           "normalized": "a(b,c)d",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Reader",
           "name": "withReaderT",
           "package": "atl",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Reader",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Reader",
           "name": "withReaderT",
           "normalized": "a b c-\u003eReaderT c a d e-\u003eReaderT b a d e",
@@ -525,6 +571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "Class",
           "package": "atl",
@@ -533,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "Class",
           "package": "atl",
@@ -546,6 +594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "ArrowState",
           "package": "atl",
@@ -554,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "ArrowState",
           "package": "atl",
@@ -567,6 +617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "get",
           "package": "atl",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "get",
           "normalized": "a()b",
@@ -590,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "gets",
           "package": "atl",
@@ -599,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "gets",
           "normalized": "(a-\u003eb)-\u003ec()b",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "put",
           "package": "atl",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "put",
           "normalized": "a b()",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State.Class",
           "name": "set",
           "package": "atl",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State.Class",
           "name": "set",
           "normalized": "(a-\u003ea)-\u003eb c c",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State",
           "name": "State",
           "package": "atl",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State",
           "name": "State",
           "package": "atl",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State",
           "name": "StateT",
           "package": "atl",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State",
           "name": "StateT",
           "package": "atl",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State",
           "name": "StateT",
           "package": "atl",
@@ -710,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State",
           "name": "StateT",
           "package": "atl",
@@ -723,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.State",
           "name": "runStateT",
           "package": "atl",
@@ -732,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow State",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.State",
           "name": "runStateT",
           "normalized": "a(b,c)(d,c)",
@@ -747,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "Transformer",
           "package": "atl",
@@ -755,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Transformer",
           "name": "Transformer",
           "package": "atl",
@@ -768,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "ArrowTransformer",
           "package": "atl",
@@ -776,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Transformer",
           "name": "ArrowTransformer",
           "package": "atl",
@@ -789,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "lift",
           "package": "atl",
@@ -798,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Transformer",
           "name": "lift",
           "normalized": "a b c-\u003ed a b c",
@@ -812,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Transformer",
           "name": "tmap",
           "package": "atl",
@@ -821,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Transformer",
           "name": "tmap",
           "normalized": "(a b c d b e-\u003ef b e)-\u003eg d b e-\u003eg f b e",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "Class",
           "package": "atl",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "Class",
           "package": "atl",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "ArrowWriter",
           "package": "atl",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "ArrowWriter",
           "package": "atl",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "censor",
           "package": "atl",
@@ -886,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "censor",
           "normalized": "(a-\u003ea)-\u003eb c d-\u003eb c d",
@@ -900,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "look",
           "package": "atl",
@@ -909,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "look",
           "normalized": "a b(b,c)",
@@ -923,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "looks",
           "package": "atl",
@@ -932,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "looks",
           "normalized": "(a-\u003eb)-\u003ec d(d,b)",
@@ -946,6 +1030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "looksA",
           "package": "atl",
@@ -955,6 +1040,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "looksA",
           "normalized": "a b c-\u003ea d(d,c)",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer.Class",
           "name": "tell",
           "package": "atl",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer Class",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer.Class",
           "name": "tell",
           "normalized": "a b()",
@@ -992,6 +1080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer",
           "name": "Writer",
           "package": "atl",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer",
           "name": "Writer",
           "package": "atl",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer",
           "name": "WriterT",
           "package": "atl",
@@ -1021,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer",
           "name": "WriterT",
           "package": "atl",
@@ -1034,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer",
           "name": "WriterT",
           "package": "atl",
@@ -1043,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer",
           "name": "WriterT",
           "package": "atl",
@@ -1056,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:57 UTC 2014",
           "module": "Control.Arrow.Writer",
           "name": "runWriterT",
           "package": "atl",
@@ -1065,6 +1160,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Writer",
+          "indexed": "2014-03-11T17:13:57",
           "module": "Control.Arrow.Writer",
           "name": "runWriterT",
           "normalized": "a b(c,d)",

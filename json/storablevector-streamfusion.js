@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "storablevector-streamfusion"
+        "phrase": "storablevector-streamfusion",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "Stream",
           "package": "storablevector-streamfusion",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Lazy Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "Stream",
           "package": "storablevector-streamfusion",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "from",
           "package": "storablevector-streamfusion",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Lazy Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "from",
           "normalized": "ChunkSize-\u003eStream a-\u003eVector a",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "fromList",
           "package": "storablevector-streamfusion",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Lazy Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "fromList",
           "normalized": "ChunkSize-\u003e[a]-\u003eVector a",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "to",
           "package": "storablevector-streamfusion",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Lazy Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "to",
           "normalized": "Vector a-\u003eStream a",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "toList",
           "package": "storablevector-streamfusion",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Lazy Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Lazy.Stream",
           "name": "toList",
           "normalized": "Vector a-\u003e[a]",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Stream",
           "name": "Stream",
           "package": "storablevector-streamfusion",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Stream",
           "name": "Stream",
           "package": "storablevector-streamfusion",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Stream",
           "name": "from",
           "package": "storablevector-streamfusion",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Stream",
           "name": "from",
           "normalized": "Int-\u003eStream a-\u003eVector a",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Stream",
           "name": "fromList",
           "package": "storablevector-streamfusion",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Stream",
           "name": "fromList",
           "normalized": "Int-\u003e[a]-\u003eVector a",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Stream",
           "name": "to",
           "package": "storablevector-streamfusion",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Stream",
           "name": "to",
           "normalized": "Vector a-\u003eStream a",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:11:56 UTC 2014",
           "module": "Data.StorableVector.Stream",
           "name": "toList",
           "package": "storablevector-streamfusion",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Data StorableVector Stream",
+          "indexed": "2014-03-11T20:11:56",
           "module": "Data.StorableVector.Stream",
           "name": "toList",
           "normalized": "Vector a-\u003e[a]",

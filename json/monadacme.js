@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadacme"
+        "phrase": "monadacme",
+        "type": "phrase"
       },
       "type": "context"
     }

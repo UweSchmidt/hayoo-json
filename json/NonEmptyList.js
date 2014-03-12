@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NonEmptyList"
+        "phrase": "NonEmptyList",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA type-safe list that has at least one element.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -28,6 +29,7 @@
         "index": {
           "description": "type-safe list that has at least one element",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list with at least one element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -51,6 +54,7 @@
         "index": {
           "description": "list with at least one element",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a non-empty list with the given head and tail (an alias for \u003ccode\u003enonEmpty\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "(|:)",
           "package": "NonEmptyList",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Constructs non-empty list with the given head and tail an alias for nonEmpty",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "(|:) |:",
           "normalized": "a-\u003e[a]-\u003eNonEmpty a",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepends a value to a non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "(.:)",
           "package": "NonEmptyList",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Prepends value to non-empty list",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "(.:) .:",
           "normalized": "a-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "cycle",
           "package": "NonEmptyList",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "cycle",
           "normalized": "a b-\u003eNonEmpty b",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "inits",
           "package": "NonEmptyList",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "inits",
           "normalized": "[a]-\u003eNonEmpty[a]",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "insert",
           "package": "NonEmptyList",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "insert",
           "normalized": "a-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "iterate",
           "package": "NonEmptyList",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eNonEmpty a",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe head of the non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "neHead",
           "package": "NonEmptyList",
@@ -215,6 +232,7 @@
         "index": {
           "description": "The head of the non-empty list",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "neHead",
           "normalized": "NonEmpty a-\u003ea",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe tail of the non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "neTail",
           "package": "NonEmptyList",
@@ -241,6 +260,7 @@
         "index": {
           "description": "The tail of the non-empty list",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "neTail",
           "normalized": "NonEmpty a-\u003e[a]",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstructs a non-empty list with the given head and tail.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "nonEmpty",
           "package": "NonEmptyList",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Constructs non-empty list with the given head and tail",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "nonEmpty",
           "normalized": "a-\u003e[a]-\u003eNonEmpty a",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverses the elements of the (finite) non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "reverse",
           "package": "NonEmptyList",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Reverses the elements of the finite non-empty list",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "reverse",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -305,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanl",
           "package": "NonEmptyList",
@@ -314,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eNonEmpty b-\u003eNonEmpty a",
@@ -328,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanl1",
           "package": "NonEmptyList",
@@ -337,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanr",
           "package": "NonEmptyList",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "scanr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eNonEmpty a-\u003eNonEmpty b",
@@ -374,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanr1",
           "package": "NonEmptyList",
@@ -383,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "scanr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -397,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "sort",
           "package": "NonEmptyList",
@@ -406,6 +439,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "sort",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "tails",
           "package": "NonEmptyList",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "tails",
           "normalized": "[a]-\u003eNonEmpty[a]",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to convert a list to a \u003ccode\u003eNonEmpty\u003c/code\u003e returning \u003ccode\u003eNothing\u003c/code\u003e if the given list is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "toNonEmpty",
           "package": "NonEmptyList",
@@ -453,6 +490,7 @@
         "index": {
           "description": "Tries to convert list to NonEmpty returning Nothing if the given list is empty",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "toNonEmpty",
           "normalized": "[a]-\u003eMaybe(NonEmpty a)",
@@ -469,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list to a \u003ccode\u003eNonEmpty\u003c/code\u003e using the given default value for the empty list case.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "toNonEmpty'",
           "package": "NonEmptyList",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Converts list to NonEmpty using the given default value for the empty list case",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "toNonEmpty'",
           "normalized": "NonEmpty a-\u003e[a]-\u003eNonEmpty a",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eWARNING: Fails if given the empty list.\u003c/em\u003e\n Tries to convert a list to a \u003ccode\u003eNonEmpty\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unsafeToNonEmpty",
           "package": "NonEmptyList",
@@ -503,6 +544,7 @@
         "index": {
           "description": "WARNING Fails if given the empty list Tries to convert list to NonEmpty",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "unsafeToNonEmpty",
           "normalized": "[a]-\u003eNonEmpty a",
@@ -518,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unzip",
           "package": "NonEmptyList",
@@ -527,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.NonEmpty",
           "name": "unzip",
           "normalized": "NonEmpty(a,b)-\u003e(NonEmpty a,NonEmpty b)",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper of \u003ccode\u003eNonEmpty\u003c/code\u003e that has a zip-like \u003ccode\u003eApplicative\u003c/code\u003e instance.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "ZipNonEmpty",
           "package": "NonEmptyList",
@@ -551,6 +596,7 @@
         "index": {
           "description": "wrapper of NonEmpty that has zip-like Applicative instance",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "ZipNonEmpty",
           "package": "NonEmptyList",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper of \u003ccode\u003eNonEmpty\u003c/code\u003e that has a zip-like \u003ccode\u003eApplicative\u003c/code\u003e instance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "ZipNonEmpty",
           "package": "NonEmptyList",
@@ -574,6 +621,7 @@
         "index": {
           "description": "wrapper of NonEmpty that has zip-like Applicative instance",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "ZipNonEmpty",
           "package": "NonEmptyList",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnwraps a zip-like non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "ne",
           "package": "NonEmptyList",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Unwraps zip-like non-empty list",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "ne",
           "normalized": "ZipNonEmpty a-\u003eNonEmpty a",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function for non-empty lists on zip-like non-empty lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "usingNe",
           "package": "NonEmptyList",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Runs function for non-empty lists on zip-like non-empty lists",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "usingNe",
           "normalized": "(NonEmpty a-\u003eNonEmpty b)-\u003eZipNonEmpty a-\u003eZipNonEmpty b",
@@ -639,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a function for zip-like non-empty lists on non-empty lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "usingZne",
           "package": "NonEmptyList",
@@ -649,6 +702,7 @@
         "index": {
           "description": "Runs function for zip-like non-empty lists on non-empty lists",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "usingZne",
           "normalized": "(ZipNonEmpty a-\u003eZipNonEmpty b)-\u003eNonEmpty a-\u003eNonEmpty b",
@@ -665,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWraps a non-empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Data.List.ZipNonEmpty",
           "name": "zipNe",
           "package": "NonEmptyList",
@@ -675,6 +730,7 @@
         "index": {
           "description": "Wraps non-empty list",
           "hierarchy": "Data List ZipNonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Data.List.ZipNonEmpty",
           "name": "zipNe",
           "normalized": "NonEmpty a-\u003eZipNonEmpty a",
@@ -690,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "NonEmptyList",
@@ -711,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "main",
           "package": "NonEmptyList",
@@ -720,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "main",
           "normalized": "IO()",
@@ -734,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_append",
           "package": "NonEmptyList",
@@ -743,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_append",
           "normalized": "NonEmpty String-\u003eNonEmpty String-\u003eBool",
@@ -757,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_cons",
           "package": "NonEmptyList",
@@ -766,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_cons",
           "normalized": "String-\u003eNonEmpty String-\u003eBool",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_neHead",
           "package": "NonEmptyList",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_neHead",
           "normalized": "String-\u003e[String]-\u003eBool",
@@ -804,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_neTail",
           "package": "NonEmptyList",
@@ -813,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_neTail",
           "normalized": "String-\u003e[String]-\u003eBool",
@@ -828,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_nonEmpty",
           "package": "NonEmptyList",
@@ -837,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_nonEmpty",
           "normalized": "String-\u003e[String]-\u003eBool",
@@ -852,6 +922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_nonEmptyAlias",
           "package": "NonEmptyList",
@@ -861,6 +932,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_nonEmptyAlias",
           "normalized": "String-\u003e[String]-\u003eBool",
@@ -876,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_reverse",
           "package": "NonEmptyList",
@@ -885,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_reverse",
           "normalized": "NonEmpty String-\u003eBool",
@@ -899,6 +973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_toNonEmpty",
           "package": "NonEmptyList",
@@ -908,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_toNonEmpty",
           "normalized": "[String]-\u003eBool",
@@ -923,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_unsafeNonEmpty",
           "package": "NonEmptyList",
@@ -932,6 +1009,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "prop_unsafeNonEmpty",
           "normalized": "[String]-\u003eProperty",
@@ -947,6 +1025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:32 UTC 2014",
           "module": "Test.Data.List.NonEmpty",
           "name": "tests",
           "package": "NonEmptyList",
@@ -956,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "Test Data List NonEmpty",
+          "indexed": "2014-03-11T16:54:32",
           "module": "Test.Data.List.NonEmpty",
           "name": "tests",
           "normalized": "[Test]",

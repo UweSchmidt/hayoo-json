@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "linda"
+        "phrase": "linda",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the simple functionality of multidimensional linear function calculation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Function",
           "name": "Function",
           "package": "linda",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements the simple functionality of multidimensional linear function calculation",
           "hierarchy": "Numeric Function",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Function",
           "name": "Function",
           "package": "linda",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function-type represents a function by its constants, e.g.\n\u003c/p\u003e\u003cpre\u003e [b0,b1,...,bn] \n\u003c/pre\u003e\u003cp\u003erepresents the function f = b0 + b1 * X1 + ... + bn * Xn\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Function",
           "name": "LinFunction",
           "package": "linda",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The function-type represents function by its constants e.g b0 b1 bn represents the function b0 b1 X1 bn Xn",
           "hierarchy": "Numeric Function",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Function",
           "name": "LinFunction",
           "package": "linda",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilare to the function-type, but die value-type represents the values of the variables in a function, e.g.\n\u003c/p\u003e\u003cpre\u003e [X1,...,Xn]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Function",
           "name": "Values",
           "package": "linda",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Similare to the function-type but die value-type represents the values of the variables in function e.g X1 Xn",
           "hierarchy": "Numeric Function",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Function",
           "name": "Values",
           "package": "linda",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the result of a given function with given values, e.g.\n\u003c/p\u003e\u003cpre\u003e calcLinFunction [1,1,1] [1,2] == 1 + 1 * 1 + 1 * 2 == 4\n\u003c/pre\u003e\u003cpre\u003e calcLinFunction [1,2,3] [1,1] == 1 + 2 * 1 + 3 * 1 == 6\n\u003c/pre\u003e\u003cpre\u003e calcLinFunction [1,2,3] [1..] == 1 + 2 * 1 + 3 * 2 == 9\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Function",
           "name": "calcLinFunction",
           "package": "linda",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Calculates the result of given function with given values e.g calcLinFunction calcLinFunction calcLinFunction",
           "hierarchy": "Numeric Function",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Function",
           "name": "calcLinFunction",
           "normalized": "LinFunction a-\u003eValues a-\u003ea",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module includes a few (standard) functions to work with matrixes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "Matrix",
           "package": "linda",
@@ -123,6 +132,7 @@
         "index": {
           "description": "This module includes few standard functions to work with matrixes",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "Matrix",
           "package": "linda",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported matrix elements.\n\u003c/p\u003e\u003cp\u003eThis class provides optimized internal\n    operations for selected element types.\n    It provides unoptimised defaults for any \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e type,\n    so you can create instances simply as:\n    \u003ccode\u003einstance Element Foo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "Element",
           "package": "linda",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Supported matrix elements This class provides optimized internal operations for selected element types It provides unoptimised defaults for any Storable type so you can create instances simply as instance Element Foo",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "Element",
           "package": "linda",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix representation suitable for GSL and LAPACK computations.\n\u003c/p\u003e\u003cp\u003eThe elements are stored in a continuous memory array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "Matrix",
           "package": "linda",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Matrix representation suitable for GSL and LAPACK computations The elements are stored in continuous memory array",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "Matrix",
           "package": "linda",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA matrix represented by a list of lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "RawMatrix",
           "package": "linda",
@@ -190,6 +205,7 @@
         "index": {
           "description": "matrix represented by list of lists",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "RawMatrix",
           "package": "linda",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a matrix position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "(@@\u003e)",
           "package": "linda",
@@ -213,6 +230,7 @@
         "index": {
           "description": "Reads matrix position",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "(@@\u003e) @@\u003e",
           "normalized": "Matrix a-\u003e(Int,Int)-\u003ea",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a 1-row matrix from a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "asRow",
           "package": "linda",
@@ -237,6 +256,7 @@
         "index": {
           "description": "creates row matrix from vector",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "asRow",
           "normalized": "Vector a-\u003eMatrix a",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the eigenvalue of a matrix, e.g.\n\u003c/p\u003e\u003cpre\u003e eigenvalue (fromLists [[0.77143,-0.25714],[-0.42245,0.14082]]) \n\u003c/pre\u003e\u003cp\u003ereturns \n\u003c/p\u003e\u003cpre\u003e 0.9122456375784809 \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "eigenvalue",
           "package": "linda",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Calculates the eigenvalue of matrix e.g eigenvalue fromLists returns",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "eigenvalue",
           "normalized": "Matrix Double-\u003eDouble",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates one eigenvector of a given matrix, e.g.\n\u003c/p\u003e\u003cpre\u003e eigenvector (fromLists [[-0.14081563757848092,-0.25714],[-0.42245,-0.7714256375784809]])\n\u003c/pre\u003e\u003cp\u003ereturns\n\u003c/p\u003e\u003cpre\u003e [0.8770950095147589,-0.48031692067249215]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "eigenvector",
           "package": "linda",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Calculates one eigenvector of given matrix e.g eigenvector fromLists returns",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "eigenvector",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a vector by concatenation of rows\n\u003c/p\u003e\u003cpre\u003e\u003e flatten (\u003ccode\u003eident\u003c/code\u003e 3)\n9 |\u003e [1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "flatten",
           "package": "linda",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Creates vector by concatenation of rows flatten ident",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "flatten",
           "normalized": "Matrix a-\u003eVector a",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a quadratic matrix out of a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "fromListToQuadraticMatrix",
           "package": "linda",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Builds quadratic matrix out of list",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "fromListToQuadraticMatrix",
           "normalized": "[Double]-\u003eMatrix Double",
@@ -353,6 +381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e from a list of lists (considered as rows).\n\u003c/p\u003e\u003cpre\u003e\u003e fromLists [[1,2],[3,4],[5,6]]\n(3\u003e\u003c2)\n [ 1.0, 2.0\n , 3.0, 4.0\n , 5.0, 6.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "fromLists",
           "package": "linda",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Creates Matrix from list of lists considered as rows fromLists",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "fromLists",
           "normalized": "[[a]]-\u003eMatrix a",
@@ -378,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the identity matrix (n x n) by given scale (n)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "identityMatrix",
           "package": "linda",
@@ -388,6 +419,7 @@
         "index": {
           "description": "Calculates the identity matrix by given scale",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "identityMatrix",
           "normalized": "Int-\u003eMatrix Double",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of a square matrix. See also \u003ccode\u003e\u003ca\u003einvlndet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "inv",
           "package": "linda",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Inverse of square matrix See also invlndet",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "inv",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -428,6 +462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple map-Function which maps a given function on every element of the given matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "mapMatrix",
           "package": "linda",
@@ -438,6 +473,7 @@
         "index": {
           "description": "simple map-Function which maps given function on every element of the given matrix",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "mapMatrix",
           "normalized": "(Double-\u003eDouble)-\u003eMatrix Double-\u003eMatrix Double",
@@ -454,6 +490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the reduced matrix of a given matrix (by reducing the given matrix), e.g.\n\u003c/p\u003e\u003cpre\u003e reduceMatrix (fromLists [[0.77143,-0.25714],[-0.42245,0.14082]])\n\u003c/pre\u003e\u003cp\u003ereturns\n\u003c/p\u003e\u003cpre\u003e (2\u003e\u003c2)[ -0.14081563757848092,-0.25714,-0.42245,-0.7714256375784809]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "reduceMatrix",
           "package": "linda",
@@ -464,6 +501,7 @@
         "index": {
           "description": "Calculates the reduced matrix of given matrix by reducing the given matrix e.g reduceMatrix fromLists returns",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "reduceMatrix",
           "normalized": "Matrix Double-\u003eMatrix Double",
@@ -480,6 +518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the scalarproduct (with a scalar and matrix)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "scalarMultiplication",
           "package": "linda",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Calculates the scalarproduct with scalar and matrix",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "scalarMultiplication",
           "normalized": "Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the difference (matrix) between two matrixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "subtractMatrix",
           "package": "linda",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Calculates the difference matrix between two matrixes",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "subtractMatrix",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of vectors from the columns of a matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "toColumns",
           "package": "linda",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Creates list of vectors from the columns of matrix",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "toColumns",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe inverse of \u003ccode\u003eData.Packed.Matrix.fromLists\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "toLists",
           "package": "linda",
@@ -566,6 +611,7 @@
         "index": {
           "description": "the inverse of Data.Packed.Matrix.fromLists",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "toLists",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -582,6 +628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the rows of a matrix as a list of vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "toRows",
           "package": "linda",
@@ -591,6 +638,7 @@
         "index": {
           "description": "extracts the rows of matrix as list of vectors",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "toRows",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -607,6 +655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix transpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "trans",
           "package": "linda",
@@ -616,6 +665,7 @@
         "index": {
           "description": "Matrix transpose",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "trans",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -631,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZipps a matrix col by col\n\u003c/p\u003e\u003cpre\u003e zipAllWith sum [[1,2,3],[1,2,3],[1,2,3]] == [3,6,9]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Matrix",
           "name": "zipAllWith",
           "package": "linda",
@@ -641,6 +692,7 @@
         "index": {
           "description": "Zipps matrix col by col zipAllWith sum",
           "hierarchy": "Numeric Matrix",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Matrix",
           "name": "zipAllWith",
           "normalized": "(RawVector a-\u003eb)-\u003eRawMatrix a-\u003eRawVector b",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a list of matrixes and a few functions to handle them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "MatrixList",
           "package": "linda",
@@ -666,6 +719,7 @@
         "index": {
           "description": "This module implements list of matrixes and few functions to handle them",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "MatrixList",
           "package": "linda",
@@ -680,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of matrixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "MatrixList",
           "package": "linda",
@@ -689,6 +744,7 @@
         "index": {
           "description": "list of matrixes",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "MatrixList",
           "package": "linda",
@@ -703,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of matrixes represented as a list of lists of lists\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "RawMatrixList",
           "package": "linda",
@@ -712,6 +769,7 @@
         "index": {
           "description": "list of matrixes represented as list of lists of lists",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "RawMatrixList",
           "package": "linda",
@@ -726,6 +784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate every cols averages\n\u003c/p\u003e\u003cpre\u003e   averages [[[1,2],[2,1]],[[2,3],[3,4]]] == [[1.5,1.5],[2.5,3.5]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "averages",
           "package": "linda",
@@ -736,6 +795,7 @@
         "index": {
           "description": "Calculate every cols averages averages",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "averages",
           "normalized": "RawMatrixList Double-\u003eRawMatrix Double",
@@ -751,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the sum of all matrixes-rows\n\u003c/p\u003e\u003cpre\u003e countAllRows [[[1,2],[2,1]],[[2,3],[3,4],[1,1]]] == 5.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "countAllRows",
           "package": "linda",
@@ -761,6 +822,7 @@
         "index": {
           "description": "Counts the sum of all matrixes-rows countAllRows",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "countAllRows",
           "normalized": "RawMatrixList a-\u003eDouble",
@@ -776,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "countMatrixElements",
           "package": "linda",
@@ -785,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "countMatrixElements",
           "normalized": "RawMatrixList a-\u003eRawMatrix Double",
@@ -801,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the number of matrixes in a list of matrixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "countMatrixes",
           "package": "linda",
@@ -811,6 +876,7 @@
         "index": {
           "description": "Counts the number of matrixes in list of matrixes",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "countMatrixes",
           "normalized": "RawMatrixList a-\u003eDouble",
@@ -827,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the number of cols (based on the guess that all matrixes have the similare structure)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "countMatrixesCols",
           "package": "linda",
@@ -837,6 +904,7 @@
         "index": {
           "description": "Counts the number of cols based on the guess that all matrixes have the similare structure",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "countMatrixesCols",
           "normalized": "RawMatrixList a-\u003eDouble",
@@ -853,6 +921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the rows of every matrix in the list\n\u003c/p\u003e\u003cpre\u003e countRows [[[1,2],[2,1]],[[2,3],[3,4],[1,1]]] == [2.0,3.0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "countRows",
           "package": "linda",
@@ -863,6 +932,7 @@
         "index": {
           "description": "Counts the rows of every matrix in the list countRows",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "countRows",
           "normalized": "RawMatrixList a-\u003eRawVector Double",
@@ -879,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the cross-product of every matrix-cols\n\u003c/p\u003e\u003cpre\u003e crossProduct  [[[1,2],[2,1]],[[2,3],[3,4]]] == [[2.0,2.0],[6.0,12.0]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "crossProduct",
           "package": "linda",
@@ -889,6 +960,7 @@
         "index": {
           "description": "Calculates the cross-product of every matrix-cols crossProduct",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "crossProduct",
           "normalized": "RawMatrixList Double-\u003eRawMatrix Double",
@@ -905,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efolds every vector of a list of matrixes\n\u003c/p\u003e\u003cpre\u003e foldVectors sum [[[1,2],[2,1]],[[2,3],[3,4]]] == [[[2.0,3.0],[3.0,2.0]],[[3.0,4.0],[4.0,5.0]]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "foldVectors",
           "package": "linda",
@@ -915,6 +988,7 @@
         "index": {
           "description": "folds every vector of list of matrixes foldVectors sum",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "foldVectors",
           "normalized": "([a]-\u003eb)-\u003eRawMatrixList a-\u003eRawMatrix b",
@@ -931,6 +1005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps a function over every element of a list of matrixes\n\u003c/p\u003e\u003cpre\u003e mapElements (1+) [[[1,2],[2,1]],[[2,3],[3,4]]] == [[[2.0,3.0],[3.0,2.0]],[[3.0,4.0],[4.0,5.0]]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "mapElements",
           "package": "linda",
@@ -941,6 +1016,7 @@
         "index": {
           "description": "maps function over every element of list of matrixes mapElements",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "mapElements",
           "normalized": "(a-\u003eb)-\u003eRawMatrixList a-\u003eRawMatrixList b",
@@ -957,6 +1033,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emaps a function over every vector of a list of matrixes\n\u003c/p\u003e\u003cpre\u003e mapVectors (map (1+)) [[[1,2],[2,1]],[[2,3],[3,4]]] == [[[2.0,3.0],[3.0,2.0]],[[3.0,4.0],[4.0,5.0]]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "mapVectors",
           "package": "linda",
@@ -967,6 +1044,7 @@
         "index": {
           "description": "maps function over every vector of list of matrixes mapVectors map",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "mapVectors",
           "normalized": "([a]-\u003e[b])-\u003eRawMatrixList a-\u003eRawMatrixList b",
@@ -983,6 +1061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransforms a Matrixlist to a RawMatrixList.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "toLists",
           "package": "linda",
@@ -993,6 +1072,7 @@
         "index": {
           "description": "Transforms Matrixlist to RawMatrixList",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "toLists",
           "normalized": "MatrixList a-\u003eRawMatrixList a",
@@ -1009,6 +1089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransposes every matrix in a lit of matrixes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.MatrixList",
           "name": "transposeAll",
           "package": "linda",
@@ -1019,6 +1100,7 @@
         "index": {
           "description": "Transposes every matrix in lit of matrixes",
           "hierarchy": "Numeric MatrixList",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.MatrixList",
           "name": "transposeAll",
           "normalized": "RawMatrixList a-\u003eRawMatrixList a",
@@ -1035,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements some linear discriminant analysis functions.\n Imagine you've made a poll and now you have values/attributes from every subscriber. \n Further more you've grouped the subscribers into clusters.\n The poll-datas are structured as follows: \n\u003c/p\u003e\u003cul\u003e\u003cli\u003e poll-data of one subscriber = [value] --\u003e Vector value\n\u003c/li\u003e\u003cli\u003e poll-data of one cluster/group of subscribers = [[values]] --\u003e Matrix values\n\u003c/li\u003e\u003cli\u003e poll-data of all clusters/groups = [[[values]]] --\u003e MatrixList values\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eNow you want to check if you clustered right and/or how significant the values you asked for are...\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "LDA",
           "package": "linda",
@@ -1044,6 +1127,7 @@
         "index": {
           "description": "This module implements some linear discriminant analysis functions Imagine you ve made poll and now you have values attributes from every subscriber Further more you ve grouped the subscribers into clusters The poll-datas are structured as follows poll-data of one subscriber value Vector value poll-data of one cluster group of subscribers values Matrix values poll-data of all clusters groups values MatrixList values Now you want to check if you clustered right and or how significant the values you asked for are",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "LDA",
           "package": "linda",
@@ -1058,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculation of the a priori probability, more precisely the probability that an element belongs to a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "aprioriProbability",
           "package": "linda",
@@ -1068,6 +1153,7 @@
         "index": {
           "description": "Calculation of the priori probability more precisely the probability that an element belongs to group",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "aprioriProbability",
           "normalized": "RawMatrixList Double-\u003eRawVector Double",
@@ -1084,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the discriminant criteria.            \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "discriminantCriteria",
           "package": "linda",
@@ -1094,6 +1181,7 @@
         "index": {
           "description": "Calculates the discriminant criteria",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "discriminantCriteria",
           "normalized": "RawMatrixList Double-\u003eRawVector Double",
@@ -1110,6 +1198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculation of the classification of a survey (or attributes) in a cluster. The function takes a vector\u003cem\u003elist of attributes\u003c/em\u003evalues and a context. The context consists of groups\u003cem\u003eclusters and its items values\u003c/em\u003eattributes. The function returns the ID (starting with 0) of the cluster to which the given vector/list belongs to. This function uses the Fisher algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "fisher",
           "package": "linda",
@@ -1120,6 +1209,7 @@
         "index": {
           "description": "Calculation of the classification of survey or attributes in cluster The function takes vector list of attributes values and context The context consists of groups clusters and its items values attributes The function returns the ID starting with of the cluster to which the given vector list belongs to This function uses the Fisher algorithm",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "fisher",
           "normalized": "RawMatrixList Double-\u003eRawVector Double-\u003eInt",
@@ -1135,6 +1225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the ID (starting with 0) of the cluster the given list of attributes belongs to. The function takes a list of attributes and a list of clusters which are representated by there classification function. This function uses the Fisher algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "fisher'",
           "package": "linda",
@@ -1145,6 +1236,7 @@
         "index": {
           "description": "Calculates the ID starting with of the cluster the given list of attributes belongs to The function takes list of attributes and list of clusters which are representated by there classification function This function uses the Fisher algorithm",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "fisher'",
           "normalized": "RawVector(LinFunction Double)-\u003eRawVector Double-\u003eInt",
@@ -1160,6 +1252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the cluster of every survey of a poll. This function takes the data of a whole poll and classifies every survey of the poll. This function uses the Fisher algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherAll",
           "package": "linda",
@@ -1170,6 +1263,7 @@
         "index": {
           "description": "Calculates the cluster of every survey of poll This function takes the data of whole poll and classifies every survey of the poll This function uses the Fisher algorithm",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherAll",
           "normalized": "RawMatrixList Double-\u003eRawMatrix Int",
@@ -1186,6 +1280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the classification function according to Fisher.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherClassificationFunction",
           "package": "linda",
@@ -1196,6 +1291,7 @@
         "index": {
           "description": "Calculates the classification function according to Fisher",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherClassificationFunction",
           "normalized": "RawMatrixList Double-\u003eRawVector(LinFunction Double)",
@@ -1212,6 +1308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the ID of the cluster the given values belonging to. This function takes a list of clusters, representated by a tuple, and a list of values. The cluster-tuples consists of a ID of the cluster and the classification function (according to Fisher) of the cluster. This function uses the Fisher algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherT",
           "package": "linda",
@@ -1222,6 +1319,7 @@
         "index": {
           "description": "Calculates the ID of the cluster the given values belonging to This function takes list of clusters representated by tuple and list of values The cluster-tuples consists of ID of the cluster and the classification function according to Fisher of the cluster This function uses the Fisher algorithm",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "fisherT",
           "normalized": "RawVector(Int,LinFunction Double)-\u003eRawVector Double-\u003eInt",
@@ -1237,6 +1335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the isolated discriminants of every attribute.\n\u003c/p\u003e\u003cpre\u003e isolatedDiscriminant [[[-1,1],[2,2]],[[1,3],[4,8]]] == [0.4444444444444444,1.2307692307692308]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Statistics.LDA",
           "name": "isolatedDiscriminant",
           "package": "linda",
@@ -1247,6 +1346,7 @@
         "index": {
           "description": "Calculates the isolated discriminants of every attribute isolatedDiscriminant",
           "hierarchy": "Numeric Statistics LDA",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Statistics.LDA",
           "name": "isolatedDiscriminant",
           "normalized": "RawMatrixList Double-\u003eRawVector Double",
@@ -1263,6 +1363,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements a few extensions for the vector-module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "Vector",
           "package": "linda",
@@ -1272,6 +1373,7 @@
         "index": {
           "description": "This module implements few extensions for the vector-module",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "Vector",
           "package": "linda",
@@ -1286,6 +1388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Vector represented by a simple list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "RawVector",
           "package": "linda",
@@ -1295,6 +1398,7 @@
         "index": {
           "description": "Vector represented by simple list",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "RawVector",
           "package": "linda",
@@ -1309,6 +1413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e-based vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "Vector",
           "package": "linda",
@@ -1317,6 +1422,7 @@
         "index": {
           "description": "Storable based vectors",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "Vector",
           "package": "linda",
@@ -1331,6 +1437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the lists elements average\n\u003c/p\u003e\u003cpre\u003e average [1,3,2] == 2.0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "average",
           "package": "linda",
@@ -1341,6 +1448,7 @@
         "index": {
           "description": "Calculates the lists elements average average",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "average",
           "normalized": "RawVector a-\u003ea",
@@ -1356,6 +1464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCounts the elements of a given list\n\u003c/p\u003e\u003cpre\u003e count [1,2,3,4,5] == 5\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "count",
           "package": "linda",
@@ -1366,6 +1475,7 @@
         "index": {
           "description": "Counts the elements of given list count",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "count",
           "normalized": "RawVector a-\u003eb",
@@ -1381,6 +1491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a Vector from a list:\n\u003c/p\u003e\u003cpre\u003e\u003e fromList [2,3,5,7]\n4 |\u003e [2.0,3.0,5.0,7.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "fromList",
           "package": "linda",
@@ -1390,6 +1501,7 @@
         "index": {
           "description": "creates Vector from list fromList",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "fromList",
           "normalized": "[a]-\u003eVector a",
@@ -1406,6 +1518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the position of a lists maximum\n\u003c/p\u003e\u003cpre\u003e maxPos [1,10,8,3] == 1 \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "maxPos",
           "package": "linda",
@@ -1416,6 +1529,7 @@
         "index": {
           "description": "Calculates the position of lists maximum maxPos",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "maxPos",
           "normalized": "RawVector Double-\u003eInt",
@@ -1432,6 +1546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003emaximumBy\u003c/a\u003e\u003c/code\u003e function takes a comparison function and a list\n and returns the greatest element of the list by the comparison function.\n The list must be finite and non-empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "maximumBy",
           "package": "linda",
@@ -1441,6 +1556,7 @@
         "index": {
           "description": "The maximumBy function takes comparison function and list and returns the greatest element of the list by the comparison function The list must be finite and non-empty",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "maximumBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003e[a]-\u003ea",
@@ -1457,6 +1573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the Vector elements to a list\n\u003c/p\u003e\u003cpre\u003e\u003e toList (linspace 5 (1,10))\n[1.0,3.25,5.5,7.75,10.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "toList",
           "package": "linda",
@@ -1466,6 +1583,7 @@
         "index": {
           "description": "extracts the Vector elements to list toList linspace",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "toList",
           "normalized": "Vector a-\u003e[a]",
@@ -1482,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etranspose\u003c/a\u003e\u003c/code\u003e function transposes the rows and columns of its argument.\n For example,\n\u003c/p\u003e\u003cpre\u003e transpose [[1,2,3],[4,5,6]] == [[1,4],[2,5],[3,6]]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:09:45 UTC 2014",
           "module": "Numeric.Vector",
           "name": "transpose",
           "package": "linda",
@@ -1491,6 +1610,7 @@
         "index": {
           "description": "The transpose function transposes the rows and columns of its argument For example transpose",
           "hierarchy": "Numeric Vector",
+          "indexed": "2014-03-11T19:09:45",
           "module": "Numeric.Vector",
           "name": "transpose",
           "normalized": "[[a]]-\u003e[[a]]",

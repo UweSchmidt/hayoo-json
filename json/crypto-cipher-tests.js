@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "crypto-cipher-tests"
+        "phrase": "crypto-cipher-tests",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "Tests",
           "package": "crypto-cipher-tests",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "Tests",
           "package": "crypto-cipher-tests",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAEAD KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_AEAD",
           "package": "crypto-cipher-tests",
@@ -49,6 +52,7 @@
         "index": {
           "description": "AEAD KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_AEAD",
           "package": "crypto-cipher-tests",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCBC KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CBC",
           "package": "crypto-cipher-tests",
@@ -72,6 +77,7 @@
         "index": {
           "description": "CBC KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CBC",
           "package": "crypto-cipher-tests",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCFB KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CFB",
           "package": "crypto-cipher-tests",
@@ -95,6 +102,7 @@
         "index": {
           "description": "CFB KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CFB",
           "package": "crypto-cipher-tests",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCTR KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CTR",
           "package": "crypto-cipher-tests",
@@ -118,6 +127,7 @@
         "index": {
           "description": "CTR KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CTR",
           "package": "crypto-cipher-tests",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eECB KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_ECB",
           "package": "crypto-cipher-tests",
@@ -141,6 +152,7 @@
         "index": {
           "description": "ECB KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_ECB",
           "package": "crypto-cipher-tests",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKAT for Stream cipher\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_Stream",
           "package": "crypto-cipher-tests",
@@ -164,6 +177,7 @@
         "index": {
           "description": "KAT for Stream cipher",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_Stream",
           "package": "crypto-cipher-tests",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXTS KAT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_XTS",
           "package": "crypto-cipher-tests",
@@ -187,6 +202,7 @@
         "index": {
           "description": "XTS KAT",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_XTS",
           "package": "crypto-cipher-tests",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eall the KATs. use defaultKATs to prevent compilation error\n from future expansion of this data structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KATs",
           "package": "crypto-cipher-tests",
@@ -210,6 +227,7 @@
         "index": {
           "description": "all the KATs use defaultKATs to prevent compilation error from future expansion of this data structure",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KATs",
           "package": "crypto-cipher-tests",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_AEAD",
           "package": "crypto-cipher-tests",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_AEAD",
           "package": "crypto-cipher-tests",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CBC",
           "package": "crypto-cipher-tests",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CBC",
           "package": "crypto-cipher-tests",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CFB",
           "package": "crypto-cipher-tests",
@@ -276,6 +299,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CFB",
           "package": "crypto-cipher-tests",
@@ -289,6 +313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CTR",
           "package": "crypto-cipher-tests",
@@ -298,6 +323,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_CTR",
           "package": "crypto-cipher-tests",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_ECB",
           "package": "crypto-cipher-tests",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_ECB",
           "package": "crypto-cipher-tests",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_Stream",
           "package": "crypto-cipher-tests",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_Stream",
           "package": "crypto-cipher-tests",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_XTS",
           "package": "crypto-cipher-tests",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KAT_XTS",
           "package": "crypto-cipher-tests",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "KATs",
           "package": "crypto-cipher-tests",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "KATs",
           "package": "crypto-cipher-tests",
@@ -400,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadCiphertext",
           "package": "crypto-cipher-tests",
@@ -410,6 +445,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadCiphertext",
           "package": "crypto-cipher-tests",
@@ -424,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthentificated Header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadHeader",
           "package": "crypto-cipher-tests",
@@ -434,6 +471,7 @@
         "index": {
           "description": "Authentificated Header",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadHeader",
           "package": "crypto-cipher-tests",
@@ -448,6 +486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIV for initialization\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadIV",
           "package": "crypto-cipher-tests",
@@ -458,6 +497,7 @@
         "index": {
           "description": "IV for initialization",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadIV",
           "package": "crypto-cipher-tests",
@@ -472,6 +512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadKey",
           "package": "crypto-cipher-tests",
@@ -482,6 +523,7 @@
         "index": {
           "description": "Key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadKey",
           "package": "crypto-cipher-tests",
@@ -496,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAEAD mode to use\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadMode",
           "package": "crypto-cipher-tests",
@@ -506,6 +549,7 @@
         "index": {
           "description": "AEAD mode to use",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadMode",
           "package": "crypto-cipher-tests",
@@ -520,6 +564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaintext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadPlaintext",
           "package": "crypto-cipher-tests",
@@ -530,6 +575,7 @@
         "index": {
           "description": "Plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadPlaintext",
           "package": "crypto-cipher-tests",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpected tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadTag",
           "package": "crypto-cipher-tests",
@@ -554,6 +601,7 @@
         "index": {
           "description": "expected tag",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadTag",
           "package": "crypto-cipher-tests",
@@ -568,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaead tag len\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadTaglen",
           "package": "crypto-cipher-tests",
@@ -578,6 +627,7 @@
         "index": {
           "description": "aead tag len",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "aeadTaglen",
           "package": "crypto-cipher-tests",
@@ -592,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcCiphertext",
           "package": "crypto-cipher-tests",
@@ -602,6 +653,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcCiphertext",
           "package": "crypto-cipher-tests",
@@ -616,6 +668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcIV",
           "package": "crypto-cipher-tests",
@@ -626,6 +679,7 @@
         "index": {
           "description": "IV",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcIV",
           "package": "crypto-cipher-tests",
@@ -640,6 +694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcKey",
           "package": "crypto-cipher-tests",
@@ -650,6 +705,7 @@
         "index": {
           "description": "Key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcKey",
           "package": "crypto-cipher-tests",
@@ -664,6 +720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaintext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcPlaintext",
           "package": "crypto-cipher-tests",
@@ -674,6 +731,7 @@
         "index": {
           "description": "Plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cbcPlaintext",
           "package": "crypto-cipher-tests",
@@ -688,6 +746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbCiphertext",
           "package": "crypto-cipher-tests",
@@ -698,6 +757,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbCiphertext",
           "package": "crypto-cipher-tests",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbIV",
           "package": "crypto-cipher-tests",
@@ -722,6 +783,7 @@
         "index": {
           "description": "IV",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbIV",
           "package": "crypto-cipher-tests",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbKey",
           "package": "crypto-cipher-tests",
@@ -746,6 +809,7 @@
         "index": {
           "description": "Key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbKey",
           "package": "crypto-cipher-tests",
@@ -760,6 +824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaintext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbPlaintext",
           "package": "crypto-cipher-tests",
@@ -770,6 +835,7 @@
         "index": {
           "description": "Plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "cfbPlaintext",
           "package": "crypto-cipher-tests",
@@ -784,6 +850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrCiphertext",
           "package": "crypto-cipher-tests",
@@ -794,6 +861,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrCiphertext",
           "package": "crypto-cipher-tests",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIV (usually represented as a 128 bits integer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrIV",
           "package": "crypto-cipher-tests",
@@ -818,6 +887,7 @@
         "index": {
           "description": "IV usually represented as bits integer",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrIV",
           "package": "crypto-cipher-tests",
@@ -832,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrKey",
           "package": "crypto-cipher-tests",
@@ -842,6 +913,7 @@
         "index": {
           "description": "Key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrKey",
           "package": "crypto-cipher-tests",
@@ -856,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaintext \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrPlaintext",
           "package": "crypto-cipher-tests",
@@ -866,6 +939,7 @@
         "index": {
           "description": "Plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ctrPlaintext",
           "package": "crypto-cipher-tests",
@@ -880,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe empty KATs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "defaultKATs",
           "package": "crypto-cipher-tests",
@@ -890,6 +965,7 @@
         "index": {
           "description": "the empty KATs",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "defaultKATs",
           "package": "crypto-cipher-tests",
@@ -904,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe empty KATs for stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "defaultStreamKATs",
           "package": "crypto-cipher-tests",
@@ -914,6 +991,7 @@
         "index": {
           "description": "the empty KATs for stream",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "defaultStreamKATs",
           "normalized": "[KAT_Stream]",
@@ -930,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbCiphertext",
           "package": "crypto-cipher-tests",
@@ -940,6 +1019,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbCiphertext",
           "package": "crypto-cipher-tests",
@@ -954,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbKey",
           "package": "crypto-cipher-tests",
@@ -964,6 +1045,7 @@
         "index": {
           "description": "Key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbKey",
           "package": "crypto-cipher-tests",
@@ -978,6 +1060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaintext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbPlaintext",
           "package": "crypto-cipher-tests",
@@ -988,6 +1071,7 @@
         "index": {
           "description": "Plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "ecbPlaintext",
           "package": "crypto-cipher-tests",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_AEAD",
           "package": "crypto-cipher-tests",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_AEAD",
           "normalized": "[KAT_AEAD]",
@@ -1025,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CBC",
           "package": "crypto-cipher-tests",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CBC",
           "normalized": "[KAT_CBC]",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CFB",
           "package": "crypto-cipher-tests",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CFB",
           "normalized": "[KAT_CFB]",
@@ -1073,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CTR",
           "package": "crypto-cipher-tests",
@@ -1082,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_CTR",
           "normalized": "[KAT_CTR]",
@@ -1097,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_ECB",
           "package": "crypto-cipher-tests",
@@ -1106,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_ECB",
           "normalized": "[KAT_ECB]",
@@ -1121,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_XTS",
           "package": "crypto-cipher-tests",
@@ -1130,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "kat_XTS",
           "normalized": "[KAT_XTS]",
@@ -1145,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "streamCiphertext",
           "package": "crypto-cipher-tests",
@@ -1154,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "streamCiphertext",
           "package": "crypto-cipher-tests",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "streamKey",
           "package": "crypto-cipher-tests",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "streamKey",
           "package": "crypto-cipher-tests",
@@ -1189,6 +1289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "streamPlaintext",
           "package": "crypto-cipher-tests",
@@ -1198,6 +1299,7 @@
         },
         "index": {
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "streamPlaintext",
           "package": "crypto-cipher-tests",
@@ -1212,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn tests for a specific blockcipher and a list of KATs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "testBlockCipher",
           "package": "crypto-cipher-tests",
@@ -1222,6 +1325,7 @@
         "index": {
           "description": "Return tests for specific blockcipher and list of KATs",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "testBlockCipher",
           "normalized": "KATs-\u003ea-\u003eTest",
@@ -1238,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn test for a specific blockcipher and a list of KATs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "testBlockCipherIO",
           "package": "crypto-cipher-tests",
@@ -1248,6 +1353,7 @@
         "index": {
           "description": "Return test for specific blockcipher and list of KATs",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "testBlockCipherIO",
           "normalized": "KATs-\u003ea-\u003eTest",
@@ -1264,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn tests for a specific streamcipher and a list of KATs\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "testStreamCipher",
           "package": "crypto-cipher-tests",
@@ -1274,6 +1381,7 @@
         "index": {
           "description": "Return tests for specific streamcipher and list of KATs",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "testStreamCipher",
           "normalized": "[KAT_Stream]-\u003ea-\u003eTest",
@@ -1290,6 +1398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCiphertext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsCiphertext",
           "package": "crypto-cipher-tests",
@@ -1300,6 +1409,7 @@
         "index": {
           "description": "Ciphertext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsCiphertext",
           "package": "crypto-cipher-tests",
@@ -1314,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eXTS IV\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsIV",
           "package": "crypto-cipher-tests",
@@ -1324,6 +1435,7 @@
         "index": {
           "description": "XTS IV",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsIV",
           "package": "crypto-cipher-tests",
@@ -1338,6 +1450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1st XTS key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsKey1",
           "package": "crypto-cipher-tests",
@@ -1348,6 +1461,7 @@
         "index": {
           "description": "st XTS key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsKey1",
           "package": "crypto-cipher-tests",
@@ -1362,6 +1476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2nd XTS key\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsKey2",
           "package": "crypto-cipher-tests",
@@ -1372,6 +1487,7 @@
         "index": {
           "description": "nd XTS key",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsKey2",
           "package": "crypto-cipher-tests",
@@ -1386,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplaintext\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:43:37 UTC 2014",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsPlaintext",
           "package": "crypto-cipher-tests",
@@ -1396,6 +1513,7 @@
         "index": {
           "description": "plaintext",
           "hierarchy": "Crypto Cipher Tests",
+          "indexed": "2014-03-11T17:43:37",
           "module": "Crypto.Cipher.Tests",
           "name": "xtsPlaintext",
           "package": "crypto-cipher-tests",

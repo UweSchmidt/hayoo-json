@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "astview-utils"
+        "phrase": "astview-utils",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.DataTree",
           "name": "DataTree",
           "package": "astview-utils",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Astview DataTree",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.DataTree",
           "name": "DataTree",
           "package": "astview-utils",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrealise Data to Tree (from SYB 2, sec. 3.4 )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.DataTree",
           "name": "data2tree",
           "package": "astview-utils",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Trealise Data to Tree from SYB sec",
           "hierarchy": "Language Astview DataTree",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.DataTree",
           "name": "data2tree",
           "normalized": "a-\u003eTree String",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.DataTree",
           "name": "flat",
           "package": "astview-utils",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Language Astview DataTree",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.DataTree",
           "name": "flat",
           "normalized": "Tree String-\u003eTree String",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "ParseError",
           "package": "astview-utils",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "ParseError",
           "package": "astview-utils",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econsists of a unique name, a list of extensions and the parse \n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -139,6 +150,7 @@
         "index": {
           "description": "consists of unique name list of extensions and the parse function",
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "ParseError",
           "package": "astview-utils",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "ParseError",
           "package": "astview-utils",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -183,6 +198,7 @@
         },
         "index": {
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "Parser",
           "package": "astview-utils",
@@ -197,6 +213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile extensions assotiated with \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "exts",
           "package": "astview-utils",
@@ -207,6 +224,7 @@
         "index": {
           "description": "file extensions assotiated with",
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "exts",
           "normalized": "[String]",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunique name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "name",
           "package": "astview-utils",
@@ -232,6 +251,7 @@
         "index": {
           "description": "unique name",
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "name",
           "package": "astview-utils",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:13:44 UTC 2014",
           "module": "Language.Astview.Parser",
           "name": "tree",
           "package": "astview-utils",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Language Astview Parser",
+          "indexed": "2014-03-11T17:13:44",
           "module": "Language.Astview.Parser",
           "name": "tree",
           "normalized": "String-\u003eTree String",

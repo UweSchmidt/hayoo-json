@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "music-score"
+        "phrase": "music-score",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides articulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "Articulation",
           "package": "music-score",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides articulation",
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "Articulation",
           "package": "music-score",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "ArticulationT",
           "package": "music-score",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "ArticulationT",
           "package": "music-score",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "HasArticulation",
           "package": "music-score",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "HasArticulation",
           "package": "music-score",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "ArticulationT",
           "package": "music-score",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "ArticulationT",
           "package": "music-score",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "accent",
           "package": "music-score",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "accent",
           "normalized": "a b-\u003ea b",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "accentAll",
           "package": "music-score",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "accentAll",
           "normalized": "a b-\u003ea b",
@@ -152,6 +164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "accentLast",
           "package": "music-score",
@@ -161,6 +174,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "accentLast",
           "normalized": "a b-\u003ea b",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "getArticulationT",
           "package": "music-score",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "getArticulationT",
           "normalized": "(Bool,Bool,Int,Int,a,Bool)",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "legato",
           "package": "music-score",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "legato",
           "normalized": "a b-\u003ea b",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "marcato",
           "package": "music-score",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "marcato",
           "normalized": "a b-\u003ea b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "marcatoAll",
           "package": "music-score",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "marcatoAll",
           "normalized": "a b-\u003ea b",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "marcatoLast",
           "package": "music-score",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "marcatoLast",
           "normalized": "a b-\u003ea b",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "portato",
           "package": "music-score",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "portato",
           "normalized": "a b-\u003ea b",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "resetArticulation",
           "package": "music-score",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "resetArticulation",
           "normalized": "a-\u003ea",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "separated",
           "package": "music-score",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "separated",
           "normalized": "a b-\u003ea b",
@@ -364,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "setAccLevel",
           "package": "music-score",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "setAccLevel",
           "normalized": "Int-\u003ea-\u003ea",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "setBeginSlur",
           "package": "music-score",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "setBeginSlur",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -412,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "setContSlur",
           "package": "music-score",
@@ -421,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "setContSlur",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -436,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "setEndSlur",
           "package": "music-score",
@@ -445,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "setEndSlur",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "setStaccLevel",
           "package": "music-score",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "setStaccLevel",
           "normalized": "Int-\u003ea-\u003ea",
@@ -484,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "spiccato",
           "package": "music-score",
@@ -493,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "spiccato",
           "normalized": "a b-\u003ea b",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "staccato",
           "package": "music-score",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "staccato",
           "normalized": "a b-\u003ea b",
@@ -530,6 +574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Articulation",
           "name": "tenuto",
           "package": "music-score",
@@ -539,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Music Score Articulation",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Articulation",
           "name": "tenuto",
           "normalized": "a b-\u003ea b",
@@ -554,6 +600,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides articulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "Chord",
           "package": "music-score",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Provides articulation",
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "Chord",
           "package": "music-score",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "ChordT",
           "package": "music-score",
@@ -584,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "ChordT",
           "package": "music-score",
@@ -597,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "HasChord",
           "package": "music-score",
@@ -605,6 +656,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "HasChord",
           "package": "music-score",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "ChordT",
           "package": "music-score",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "ChordT",
           "package": "music-score",
@@ -640,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "flatten",
           "package": "music-score",
@@ -649,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "flatten",
           "normalized": "a b-\u003ea(ChordNote b)",
@@ -663,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "getChord",
           "package": "music-score",
@@ -672,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "getChord",
           "normalized": "a-\u003e[ChordNote a]",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Chord",
           "name": "getChordT",
           "package": "music-score",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Music Score Chord",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Chord",
           "name": "getChordT",
           "normalized": "[a]",
@@ -712,6 +772,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCombinators for manipulating scores.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "Combinators",
           "package": "music-score",
@@ -721,6 +782,7 @@
         "index": {
           "description": "Combinators for manipulating scores",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "Combinators",
           "package": "music-score",
@@ -735,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class includes time-based structures that can be transcribed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "Composable",
           "package": "music-score",
@@ -744,6 +807,7 @@
         "index": {
           "description": "This class includes time-based structures that can be transcribed",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "Composable",
           "package": "music-score",
@@ -758,6 +822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class includes time-based structures that can be perfomed \u003cem\u003eand\u003c/em\u003e transcribed.\n\u003c/p\u003e\u003cp\u003eThe combined power of \u003ccode\u003e\u003ca\u003eperform\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ecompose\u003c/a\u003e\u003c/code\u003e give us the power to traverse and\n the entire event structure, as per \u003ccode\u003e\u003ca\u003emapEvents\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "HasEvents",
           "package": "music-score",
@@ -767,6 +832,7 @@
         "index": {
           "description": "This class includes time-based structures that can be perfomed and transcribed The combined power of perform and compose give us the power to traverse and the entire event structure as per mapEvents",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "HasEvents",
           "package": "music-score",
@@ -781,6 +847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis pseudo-class can be used in place of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e whenever an additional \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e\n constraint is needed.\n\u003c/p\u003e\u003cp\u003eIdeally, \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e should be changed to extend \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "Monoid'",
           "package": "music-score",
@@ -790,6 +857,7 @@
         "index": {
           "description": "This pseudo-class can be used in place of Monoid whenever an additional Semigroup constraint is needed Ideally Monoid should be changed to extend Semigroup instead",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "Monoid'",
           "package": "music-score",
@@ -804,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class includes time-based structures with a known position in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "Transformable",
           "package": "music-score",
@@ -813,6 +882,7 @@
         "index": {
           "description": "This class includes time-based structures with known position in time",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "Transformable",
           "package": "music-score",
@@ -827,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis class includes time-based structures that can be scaled and moved in time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "Transformable1",
           "package": "music-score",
@@ -836,6 +907,7 @@
         "index": {
           "description": "This class includes time-based structures that can be scaled and moved in time",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "Transformable1",
           "package": "music-score",
@@ -850,6 +922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose in sequence.\n\u003c/p\u003e\u003cp\u003eTo compose in parallel, use \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "(|\u003e)",
           "package": "music-score",
@@ -860,6 +933,7 @@
         "index": {
           "description": "Compose in sequence To compose in parallel use Score Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "(|\u003e) |\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -875,6 +949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose in reverse sequence.\n\u003c/p\u003e\u003cp\u003eTo compose in parallel, use \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "(\u003c|)",
           "package": "music-score",
@@ -885,6 +960,7 @@
         "index": {
           "description": "Compose in reverse sequence To compose in parallel use Score Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "(\u003c|) \u003c|",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -900,6 +976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003e|\u003e\u003c/a\u003e\u003c/code\u003e but with a negative delay on the second element.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "anticipate",
           "package": "music-score",
@@ -910,6 +987,7 @@
         "index": {
           "description": "Like but with negative delay on the second element Duration Score Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "anticipate",
           "normalized": "a-\u003eb c-\u003eb c-\u003eb c",
@@ -925,6 +1003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecompose a score.\n\u003c/p\u003e\u003cp\u003eThis is the inverse of \u003ccode\u003e\u003ca\u003eperform\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e [(Time, Duration, a)] -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "compose",
           "package": "music-score",
@@ -935,6 +1014,7 @@
         "index": {
           "description": "Recompose score This is the inverse of perform Time Duration Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "compose",
           "normalized": "[(a,b,c)]-\u003ed c",
@@ -950,6 +1030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress (diminish) a score. Flipped version of \u003ccode\u003e\u003ca\u003e^/\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "compress",
           "package": "music-score",
@@ -960,6 +1041,7 @@
         "index": {
           "description": "Compress diminish score Flipped version of Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "compress",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -974,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "eventToScore",
           "package": "music-score",
@@ -983,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "eventToScore",
           "normalized": "(a,b,c)-\u003ed c",
@@ -999,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the events in a score.\n\u003c/p\u003e\u003cpre\u003e (Time -\u003e Duration -\u003e a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "filterEvents",
           "package": "music-score",
@@ -1009,6 +1094,7 @@
         "index": {
           "description": "Map over the events in score Time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "filterEvents",
           "normalized": "(a-\u003eb-\u003ec-\u003eBool)-\u003ed c-\u003ed c",
@@ -1025,6 +1111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat a number of times and scale down by the same amount.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "group",
           "package": "music-score",
@@ -1035,6 +1122,7 @@
         "index": {
           "description": "Repeat number of times and scale down by the same amount Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "group",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapAllEvents",
           "package": "music-score",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapAllEvents",
           "normalized": "([(a,b,c)]-\u003e[(a,b,d)])-\u003ee c-\u003ee d",
@@ -1074,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the events in a score.\n\u003c/p\u003e\u003cpre\u003e (Time -\u003e Duration -\u003e a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapEvents",
           "package": "music-score",
@@ -1084,6 +1175,7 @@
         "index": {
           "description": "Map over the events in score Time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapEvents",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee c-\u003ee d",
@@ -1100,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003emapEvents\u003c/a\u003e\u003c/code\u003e for single-voice scores.\n Fails if the score contains overlapping events.\n\u003c/p\u003e\u003cpre\u003e (Time -\u003e Duration -\u003e a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapEventsSingle",
           "package": "music-score",
@@ -1110,6 +1203,7 @@
         "index": {
           "description": "Equivalent to mapEvents for single-voice scores Fails if the score contains overlapping events Time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapEventsSingle",
           "normalized": "(a-\u003eb-\u003ec-\u003ed)-\u003ee c-\u003ee d",
@@ -1126,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the events in a score.\n\u003c/p\u003e\u003cpre\u003e (Time -\u003e Duration -\u003e a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapFilterEvents",
           "package": "music-score",
@@ -1136,6 +1231,7 @@
         "index": {
           "description": "Map over the events in score Time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapFilterEvents",
           "normalized": "(a-\u003eb-\u003ec-\u003eMaybe d)-\u003ee c-\u003ee d",
@@ -1152,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the first, and remaining notes in each part.\n\u003c/p\u003e\u003cp\u003eIf a part has only one notes, the first function is applied.\n If a part has no notes, the given score is returned unchanged.\n\u003c/p\u003e\u003cpre\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapFirst",
           "package": "music-score",
@@ -1162,6 +1259,7 @@
         "index": {
           "description": "Map over the first and remaining notes in each part If part has only one notes the first function is applied If part has no notes the given score is returned unchanged Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapFirst",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1178,6 +1276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the last, and preceding notes in each part.\n\u003c/p\u003e\u003cp\u003eIf a part has only one notes, the first function is applied.\n If a part has no notes, the given score is returned unchanged.\n\u003c/p\u003e\u003cpre\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapLast",
           "package": "music-score",
@@ -1188,6 +1287,7 @@
         "index": {
           "description": "Map over the last and preceding notes in each part If part has only one notes the first function is applied If part has no notes the given score is returned unchanged Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapLast",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1204,6 +1304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the first, middle and last note in each part.\n\u003c/p\u003e\u003cp\u003eIf a part has fewer than three notes the first takes precedence over the last,\n and last takes precedence over the middle.\n\u003c/p\u003e\u003cpre\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapPhrase",
           "package": "music-score",
@@ -1214,6 +1315,7 @@
         "index": {
           "description": "Map over the first middle and last note in each part If part has fewer than three notes the first takes precedence over the last and last takes precedence over the middle Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapPhrase",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1230,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003emapPhrase\u003c/a\u003e\u003c/code\u003e for single-voice scores.\n Fails if the score contains overlapping events.\n\u003c/p\u003e\u003cpre\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e (a -\u003e b) -\u003e Score a -\u003e Score b\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "mapPhraseSingle",
           "package": "music-score",
@@ -1240,6 +1343,7 @@
         "index": {
           "description": "Equivalent to mapPhrase for single-voice scores Fails if the score contains overlapping events Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "mapPhraseSingle",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eb)-\u003ec a-\u003ec b",
@@ -1256,6 +1360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a score forward in time. Equivalent to \u003ccode\u003e\u003ca\u003edelay\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "move",
           "package": "music-score",
@@ -1266,6 +1371,7 @@
         "index": {
           "description": "Move score forward in time Equivalent to delay Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "move",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1281,6 +1387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a score backward in time. Negated verison of \u003ccode\u003e\u003ca\u003edelay\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "moveBack",
           "package": "music-score",
@@ -1291,6 +1398,7 @@
         "index": {
           "description": "Move score backward in time Negated verison of delay Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "moveBack",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1307,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParallel concatentation. A synonym for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e [Score t] -\u003e Score t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "pcat",
           "package": "music-score",
@@ -1317,6 +1426,7 @@
         "index": {
           "description": "Parallel concatentation synonym for mconcat Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "pcat",
           "normalized": "[a]-\u003ea",
@@ -1332,6 +1442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a score.\n\u003c/p\u003e\u003cp\u003eThis is the inverse of \u003ccode\u003ecompose\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "perform",
           "package": "music-score",
@@ -1342,6 +1453,7 @@
         "index": {
           "description": "Perform score This is the inverse of compose",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "perform",
           "normalized": "a b-\u003e[(c,d,b)]",
@@ -1357,6 +1469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove rests from a score.\n\u003c/p\u003e\u003cp\u003eThis is just an alias for \u003ccode\u003e\u003ca\u003emcatMaybes\u003c/a\u003e\u003c/code\u003e which reads better in certain contexts.\n\u003c/p\u003e\u003cpre\u003e Score (Maybe a) -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "removeRests",
           "package": "music-score",
@@ -1367,6 +1480,7 @@
         "index": {
           "description": "Remove rests from score This is just an alias for mcatMaybes which reads better in certain contexts Score Maybe Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "removeRests",
           "normalized": "a(Maybe b)-\u003ea b",
@@ -1383,6 +1497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat once for each element in the list.\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e repeated [1,2,1] (c^*)\n\u003c/pre\u003e\u003cp\u003eSimple type:\n\u003c/p\u003e\u003cpre\u003e [a] -\u003e (a -\u003e Score Note) -\u003e Score Note\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "repeated",
           "package": "music-score",
@@ -1393,6 +1508,7 @@
         "index": {
           "description": "Repeat once for each element in the list Example repeated Simple type Score Note Score Note",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "repeated",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb c",
@@ -1408,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a score containing a rest at time zero of duration one.\n\u003c/p\u003e\u003cp\u003eThis function uses the unit position (0, 1).\n\u003c/p\u003e\u003cpre\u003e Score (Maybe a)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "rest",
           "package": "music-score",
@@ -1418,6 +1535,7 @@
         "index": {
           "description": "Create score containing rest at time zero of duration one This function uses the unit position Score Maybe",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "rest",
           "package": "music-score",
@@ -1431,6 +1549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse a score around its middle point (TODO not correct documentation w.r.t to start).\n\u003c/p\u003e\u003cpre\u003e onset a    = onset (retrograde a)\n duration a = duration (retrograde a)\n offset a   = offset (retrograde a)\n\u003c/pre\u003e\u003cpre\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "retrograde",
           "package": "music-score",
@@ -1441,6 +1560,7 @@
         "index": {
           "description": "Reverse score around its middle point TODO not correct documentation w.r.t to start onset onset retrograde duration duration retrograde offset offset retrograde Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "retrograde",
           "normalized": "a b-\u003ea b",
@@ -1456,6 +1576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequential concatentation.\n\u003c/p\u003e\u003cpre\u003e [Score t] -\u003e Score t\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "scat",
           "package": "music-score",
@@ -1466,6 +1587,7 @@
         "index": {
           "description": "Sequential concatentation Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "scat",
           "normalized": "[a b]-\u003ea b",
@@ -1481,6 +1603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score into a voice.\n\u003c/p\u003e\u003cp\u003eThis function fails if the score contain overlapping events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "scoreToVoice",
           "package": "music-score",
@@ -1491,6 +1614,7 @@
         "index": {
           "description": "Convert score into voice This function fails if the score contain overlapping events",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "scoreToVoice",
           "normalized": "Score a-\u003eVoice(Maybe a)",
@@ -1507,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a score so that its onset is at the specific time.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "startAt",
           "package": "music-score",
@@ -1517,6 +1642,7 @@
         "index": {
           "description": "Move score so that its onset is at the specific time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "startAt",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1533,6 +1659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove a score so that its offset is at the specific time.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "stopAt",
           "package": "music-score",
@@ -1543,6 +1670,7 @@
         "index": {
           "description": "Move score so that its offset is at the specific time Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "stopAt",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1559,6 +1687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretch (augment) a value by the given factor.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "stretch",
           "package": "music-score",
@@ -1569,6 +1698,7 @@
         "index": {
           "description": "Stretch augment value by the given factor Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "stretch",
           "normalized": "Duration a-\u003ea b-\u003ea b",
@@ -1584,6 +1714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretch a score to fit into the given duration.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "stretchTo",
           "package": "music-score",
@@ -1594,6 +1725,7 @@
         "index": {
           "description": "Stretch score to fit into the given duration Duration Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "stretchTo",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1610,6 +1742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, but scaling the second agument to the duration of the first.\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "sustain",
           "package": "music-score",
@@ -1620,6 +1753,7 @@
         "index": {
           "description": "Like but scaling the second agument to the duration of the first Score Score Score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "sustain",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -1635,6 +1769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat exact amount of times.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score Note -\u003e Score Note\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "times",
           "package": "music-score",
@@ -1645,6 +1780,7 @@
         "index": {
           "description": "Repeat exact amount of times Duration Score Note Score Note",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "times",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -1660,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a voice into a score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "voiceToScore",
           "package": "music-score",
@@ -1670,6 +1807,7 @@
         "index": {
           "description": "Convert voice into score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "voiceToScore",
           "normalized": "Voice a-\u003eScore a",
@@ -1686,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a voice which may contain rests into a score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Combinators",
           "name": "voiceToScore'",
           "package": "music-score",
@@ -1696,6 +1835,7 @@
         "index": {
           "description": "Convert voice which may contain rests into score",
           "hierarchy": "Music Score Combinators",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Combinators",
           "name": "voiceToScore'",
           "normalized": "Voice(Maybe a)-\u003eScore a",
@@ -1712,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for manipulating dynamics.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "Dynamics",
           "package": "music-score",
@@ -1721,6 +1862,7 @@
         "index": {
           "description": "Provides functions for manipulating dynamics",
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "Dynamics",
           "package": "music-score",
@@ -1734,6 +1876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "DynamicT",
           "package": "music-score",
@@ -1742,6 +1885,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "DynamicT",
           "package": "music-score",
@@ -1755,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "HasDynamic",
           "package": "music-score",
@@ -1763,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "HasDynamic",
           "package": "music-score",
@@ -1777,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents dynamics over a duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "Levels",
           "package": "music-score",
@@ -1786,6 +1933,7 @@
         "index": {
           "description": "Represents dynamics over duration",
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "Levels",
           "package": "music-score",
@@ -1799,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "Change",
           "package": "music-score",
@@ -1808,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "Change",
           "package": "music-score",
@@ -1821,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "DynamicT",
           "package": "music-score",
@@ -1830,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "DynamicT",
           "package": "music-score",
@@ -1843,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "Level",
           "package": "music-score",
@@ -1852,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "Level",
           "package": "music-score",
@@ -1865,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "cresc",
           "package": "music-score",
@@ -1874,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "cresc",
           "normalized": "Double-\u003eDouble-\u003ea",
@@ -1888,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "dim",
           "package": "music-score",
@@ -1897,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "dim",
           "normalized": "Double-\u003eDouble-\u003ea",
@@ -1912,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003esplitTies\u003c/code\u003e for single-voice scores.\n Fails if the score contains overlapping events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "dynamicSingle",
           "package": "music-score",
@@ -1922,6 +2081,7 @@
         "index": {
           "description": "Equivalent to splitTies for single-voice scores Fails if the score contains overlapping events",
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "dynamicSingle",
           "normalized": "Score(Levels Double)-\u003eScore a-\u003eScore a",
@@ -1938,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a dynamic level over a voice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "dynamicVoice",
           "package": "music-score",
@@ -1948,6 +2109,7 @@
         "index": {
           "description": "Apply dynamic level over voice",
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "dynamicVoice",
           "normalized": "Score(Levels Double)-\u003eVoice(Maybe a)-\u003eVoice(Maybe a)",
@@ -1964,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a dynamic level over the score.\n The dynamic score is assumed to have duration one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "dynamics",
           "package": "music-score",
@@ -1974,6 +2137,7 @@
         "index": {
           "description": "Apply dynamic level over the score The dynamic score is assumed to have duration one",
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "dynamics",
           "normalized": "Score(Levels Double)-\u003eScore a-\u003eScore a",
@@ -1988,6 +2152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "getDynamicT",
           "package": "music-score",
@@ -1997,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "getDynamicT",
           "normalized": "(Bool,Bool,Maybe Double,a,Bool,Bool)",
@@ -2012,6 +2178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "resetDynamics",
           "package": "music-score",
@@ -2021,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "resetDynamics",
           "normalized": "a-\u003ea",
@@ -2036,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "setBeginCresc",
           "package": "music-score",
@@ -2045,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "setBeginCresc",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -2060,6 +2230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "setBeginDim",
           "package": "music-score",
@@ -2069,6 +2240,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "setBeginDim",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -2084,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "setEndCresc",
           "package": "music-score",
@@ -2093,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "setEndCresc",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -2108,6 +2282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "setEndDim",
           "package": "music-score",
@@ -2117,6 +2292,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "setEndDim",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -2132,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Dynamics",
           "name": "setLevel",
           "package": "music-score",
@@ -2141,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Music Score Dynamics",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Dynamics",
           "name": "setLevel",
           "normalized": "Double-\u003ea-\u003ea",
@@ -2156,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "Lilypond",
           "package": "music-score",
@@ -2164,6 +2343,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "Lilypond",
           "package": "music-score",
@@ -2178,6 +2358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be converted to Lilypond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "HasLilypond",
           "package": "music-score",
@@ -2187,6 +2368,7 @@
         "index": {
           "description": "Class of types that can be converted to Lilypond",
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "HasLilypond",
           "package": "music-score",
@@ -2200,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "Lilypond",
           "package": "music-score",
@@ -2208,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "Lilypond",
           "package": "music-score",
@@ -2222,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to a Lilypond music expression.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "getLilypond",
           "package": "music-score",
@@ -2232,6 +2417,7 @@
         "index": {
           "description": "Convert value to Lilypond music expression",
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "getLilypond",
           "normalized": "DurationT-\u003ea-\u003eLilypond",
@@ -2248,6 +2434,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeset a score using Lilypond and open it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "openLy",
           "package": "music-score",
@@ -2258,6 +2445,7 @@
         "index": {
           "description": "Typeset score using Lilypond and open it",
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "openLy",
           "normalized": "Score a-\u003eIO()",
@@ -2274,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a Lilypond representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "toLy",
           "package": "music-score",
@@ -2284,6 +2473,7 @@
         "index": {
           "description": "Convert score to Lilypond representation",
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "toLy",
           "normalized": "Score a-\u003eLilypond",
@@ -2300,6 +2490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a Lilypond representation and write to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Lilypond",
           "name": "writeLy",
           "package": "music-score",
@@ -2310,6 +2501,7 @@
         "index": {
           "description": "Convert score to Lilypond representation and write to file",
           "hierarchy": "Music Score Export Lilypond",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Lilypond",
           "name": "writeLy",
           "normalized": "FilePath-\u003eScore a-\u003eIO()",
@@ -2325,6 +2517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "Midi",
           "package": "music-score",
@@ -2333,6 +2526,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "Midi",
           "package": "music-score",
@@ -2347,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be converted to MIDI.\n\u003c/p\u003e\u003cp\u003eNumeric types are interpreted as notes with a default velocity, pairs are\n interpreted as \u003ccode\u003e(pitch, velocity)\u003c/code\u003e pairs.\n\u003c/p\u003e\u003cp\u003eMinimal definition: \u003ccode\u003e\u003ca\u003egetMidi\u003c/a\u003e\u003c/code\u003e. Given \u003ccode\u003e\u003ca\u003egetMidiScore\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003egetMidi\u003c/a\u003e\u003c/code\u003e can be implemented\n as \u003ccode\u003egetMidiScore . return\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "HasMidi",
           "package": "music-score",
@@ -2356,6 +2551,7 @@
         "index": {
           "description": "Class of types that can be converted to MIDI Numeric types are interpreted as notes with default velocity pairs are interpreted as pitch velocity pairs Minimal definition getMidi Given getMidiScore getMidi can be implemented as getMidiScore return",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "HasMidi",
           "package": "music-score",
@@ -2370,6 +2566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to a MIDI score.\n   Typically, generates an \u003cem\u003eon\u003c/em\u003e event using \u003ccode\u003enote\u003c/code\u003e followed by an optional \u003cem\u003eoff\u003c/em\u003e event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "getMidi",
           "package": "music-score",
@@ -2380,6 +2577,7 @@
         "index": {
           "description": "Convert value to MIDI score Typically generates an on event using note followed by an optional off event",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "getMidi",
           "normalized": "a-\u003eScore Message",
@@ -2396,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a MIDI score.\n   The default definition can be overriden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "getMidiScore",
           "package": "music-score",
@@ -2406,6 +2605,7 @@
         "index": {
           "description": "Convert score to MIDI score The default definition can be overriden for efficiency",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "getMidiScore",
           "normalized": "Score a-\u003eScore Message",
@@ -2422,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a MIDI event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "playMidi",
           "package": "music-score",
@@ -2432,6 +2633,7 @@
         "index": {
           "description": "Convert score to MIDI event",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "playMidi",
           "normalized": "String-\u003eScore a-\u003eEvent MidiMessage",
@@ -2448,6 +2650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a MIDI event and run it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "playMidiIO",
           "package": "music-score",
@@ -2458,6 +2661,7 @@
         "index": {
           "description": "Convert score to MIDI event and run it",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "playMidiIO",
           "normalized": "String-\u003eScore a-\u003eIO()",
@@ -2474,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a MIDI file representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "toMidi",
           "package": "music-score",
@@ -2484,6 +2689,7 @@
         "index": {
           "description": "Convert score to MIDI file representation",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "toMidi",
           "normalized": "Score a-\u003eMidi",
@@ -2500,6 +2706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a track of MIDI messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "toMidiTrack",
           "package": "music-score",
@@ -2510,6 +2717,7 @@
         "index": {
           "description": "Convert score to track of MIDI messages",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "toMidiTrack",
           "normalized": "Score a-\u003eTrack Message",
@@ -2526,6 +2734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score MIDI and write to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.Midi",
           "name": "writeMidi",
           "package": "music-score",
@@ -2536,6 +2745,7 @@
         "index": {
           "description": "Convert score MIDI and write to file",
           "hierarchy": "Music Score Export Midi",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.Midi",
           "name": "writeMidi",
           "normalized": "FilePath-\u003eScore a-\u003eIO()",
@@ -2551,6 +2761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "MusicXml",
           "package": "music-score",
@@ -2559,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "MusicXml",
           "package": "music-score",
@@ -2573,6 +2785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be converted to MusicXML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "HasMusicXml",
           "package": "music-score",
@@ -2582,6 +2795,7 @@
         "index": {
           "description": "Class of types that can be converted to MusicXML",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "HasMusicXml",
           "package": "music-score",
@@ -2595,6 +2809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "XmlMusic",
           "package": "music-score",
@@ -2603,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "XmlMusic",
           "package": "music-score",
@@ -2616,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "XmlScore",
           "package": "music-score",
@@ -2624,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "XmlScore",
           "package": "music-score",
@@ -2638,6 +2856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a value to MusicXML.\n\u003c/p\u003e\u003cp\u003eTypically, generates a \u003ccode\u003e\u003ca\u003eXmlMusic\u003c/a\u003e\u003c/code\u003e value using \u003ccode\u003e\u003ca\u003enote\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003echord\u003c/a\u003e\u003c/code\u003e, and transforms it\n to add beams, slurs, dynamics, articulation etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "getMusicXml",
           "package": "music-score",
@@ -2648,6 +2867,7 @@
         "index": {
           "description": "Convert value to MusicXML Typically generates XmlMusic value using note or chord and transforms it to add beams slurs dynamics articulation etc",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "getMusicXml",
           "normalized": "DurationT-\u003ea-\u003eXmlMusic",
@@ -2664,6 +2884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to MusicXML and open it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "openXml",
           "package": "music-score",
@@ -2674,6 +2895,7 @@
         "index": {
           "description": "Convert score to MusicXML and open it",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "openXml",
           "normalized": "Score a-\u003eIO()",
@@ -2690,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to MusicXML and open it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "openXmlSingle",
           "package": "music-score",
@@ -2700,6 +2923,7 @@
         "index": {
           "description": "Convert score to MusicXML and open it",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "openXmlSingle",
           "normalized": "Score a-\u003eIO()",
@@ -2716,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to a MusicXML representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXml",
           "package": "music-score",
@@ -2726,6 +2951,7 @@
         "index": {
           "description": "Convert score to MusicXML representation",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXml",
           "normalized": "Score a-\u003eXmlScore",
@@ -2742,6 +2968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a single-voice score to a MusicXML representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXmlSingle",
           "package": "music-score",
@@ -2752,6 +2979,7 @@
         "index": {
           "description": "Convert single-voice score to MusicXML representation",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXmlSingle",
           "normalized": "Score a-\u003eXmlScore",
@@ -2768,6 +2996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a single-voice score to a MusicXML representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXmlVoice",
           "package": "music-score",
@@ -2778,6 +3007,7 @@
         "index": {
           "description": "Convert single-voice score to MusicXML representation",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "toXmlVoice",
           "normalized": "Voice(Maybe a)-\u003eXmlScore",
@@ -2794,6 +3024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to MusicXML and write to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "writeXml",
           "package": "music-score",
@@ -2804,6 +3035,7 @@
         "index": {
           "description": "Convert score to MusicXML and write to file",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "writeXml",
           "normalized": "FilePath-\u003eScore a-\u003eIO()",
@@ -2820,6 +3052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a score to MusicXML and write to a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Export.MusicXml",
           "name": "writeXmlSingle",
           "package": "music-score",
@@ -2830,6 +3063,7 @@
         "index": {
           "description": "Convert score to MusicXML and write to file",
           "hierarchy": "Music Score Export MusicXml",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Export.MusicXml",
           "name": "writeXmlSingle",
           "normalized": "FilePath-\u003eScore a-\u003eIO()",
@@ -2846,6 +3080,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides functions for manipulating ornaments (and some other things...).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "Ornaments",
           "package": "music-score",
@@ -2855,6 +3090,7 @@
         "index": {
           "description": "Provides functions for manipulating ornaments and some other things",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "Ornaments",
           "package": "music-score",
@@ -2868,6 +3104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HarmonicT",
           "package": "music-score",
@@ -2876,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HarmonicT",
           "package": "music-score",
@@ -2889,6 +3127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HasHarmonic",
           "package": "music-score",
@@ -2897,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HasHarmonic",
           "package": "music-score",
@@ -2910,6 +3150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HasSlide",
           "package": "music-score",
@@ -2918,6 +3159,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HasSlide",
           "package": "music-score",
@@ -2931,6 +3173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HasText",
           "package": "music-score",
@@ -2939,6 +3182,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HasText",
           "package": "music-score",
@@ -2952,6 +3196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HasTremolo",
           "package": "music-score",
@@ -2960,6 +3205,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HasTremolo",
           "package": "music-score",
@@ -2973,6 +3219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "SlideT",
           "package": "music-score",
@@ -2981,6 +3228,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "SlideT",
           "package": "music-score",
@@ -2994,6 +3242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "TextT",
           "package": "music-score",
@@ -3002,6 +3251,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "TextT",
           "package": "music-score",
@@ -3015,6 +3265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "TremoloT",
           "package": "music-score",
@@ -3023,6 +3274,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "TremoloT",
           "package": "music-score",
@@ -3036,6 +3288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "HarmonicT",
           "package": "music-score",
@@ -3045,6 +3298,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "HarmonicT",
           "package": "music-score",
@@ -3058,6 +3312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "SlideT",
           "package": "music-score",
@@ -3067,6 +3322,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "SlideT",
           "package": "music-score",
@@ -3080,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "TextT",
           "package": "music-score",
@@ -3089,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "TextT",
           "package": "music-score",
@@ -3102,6 +3360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "TremoloT",
           "package": "music-score",
@@ -3111,6 +3370,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "TremoloT",
           "package": "music-score",
@@ -3124,6 +3384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "addText",
           "package": "music-score",
@@ -3133,6 +3394,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "addText",
           "normalized": "String-\u003ea-\u003ea",
@@ -3149,6 +3411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all notes natural harmonics on the given overtone (1 for octave, 2 for fifth etc).\n Sounding pitch is unaffected, but notated output is transposed automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "artificial",
           "package": "music-score",
@@ -3159,6 +3422,7 @@
         "index": {
           "description": "Make all notes natural harmonics on the given overtone for octave for fifth etc Sounding pitch is unaffected but notated output is transposed automatically",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "artificial",
           "normalized": "a b-\u003ea b",
@@ -3173,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "getHarmonicT",
           "package": "music-score",
@@ -3182,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "getHarmonicT",
           "normalized": "(Int,a)",
@@ -3197,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "getSlideT",
           "package": "music-score",
@@ -3206,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "getSlideT",
           "normalized": "(Bool,Bool,a,Bool,Bool)",
@@ -3221,6 +3489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "getTextT",
           "package": "music-score",
@@ -3230,6 +3499,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "getTextT",
           "normalized": "([String],a)",
@@ -3245,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "getTremoloT",
           "package": "music-score",
@@ -3254,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "getTremoloT",
           "normalized": "(Int,a)",
@@ -3270,6 +3542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake all notes natural harmonics on the given overtone (1 for octave, 2 for fifth etc).\n Sounding pitch is unaffected, but notated output is transposed automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "harmonic",
           "package": "music-score",
@@ -3280,6 +3553,7 @@
         "index": {
           "description": "Make all notes natural harmonics on the given overtone for octave for fifth etc Sounding pitch is unaffected but notated output is transposed automatically",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "harmonic",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -3294,6 +3568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setBeginGliss",
           "package": "music-score",
@@ -3303,6 +3578,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setBeginGliss",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -3318,6 +3594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setBeginSlide",
           "package": "music-score",
@@ -3327,6 +3604,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setBeginSlide",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -3342,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setEndGliss",
           "package": "music-score",
@@ -3351,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setEndGliss",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -3366,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setEndSlide",
           "package": "music-score",
@@ -3375,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setEndSlide",
           "normalized": "Bool-\u003ea-\u003ea",
@@ -3390,6 +3672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setHarmonic",
           "package": "music-score",
@@ -3399,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setHarmonic",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3414,6 +3698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "setTrem",
           "package": "music-score",
@@ -3423,6 +3708,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "setTrem",
           "normalized": "Int-\u003ea-\u003ea",
@@ -3439,6 +3725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlide between the first and the last note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "slide",
           "package": "music-score",
@@ -3449,6 +3736,7 @@
         "index": {
           "description": "Slide between the first and the last note",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "slide",
           "normalized": "a b-\u003ea b",
@@ -3464,6 +3752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttach the given text to the first note in the score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "text",
           "package": "music-score",
@@ -3474,6 +3763,7 @@
         "index": {
           "description": "Attach the given text to the first note in the score",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "text",
           "normalized": "String-\u003ea b-\u003ea b",
@@ -3489,6 +3779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the number of tremolo divisions for all notes in the score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ornaments",
           "name": "tremolo",
           "package": "music-score",
@@ -3499,6 +3790,7 @@
         "index": {
           "description": "Set the number of tremolo divisions for all notes in the score",
           "hierarchy": "Music Score Ornaments",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ornaments",
           "name": "tremolo",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -3514,6 +3806,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides partwise traversal, part composition and extraction.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "Part",
           "package": "music-score",
@@ -3523,6 +3816,7 @@
         "index": {
           "description": "Provides partwise traversal part composition and extraction",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "Part",
           "package": "music-score",
@@ -3537,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types with an associated part.\n\u003c/p\u003e\u003cp\u003eThe part type can be any type that is orddered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "HasPart",
           "package": "music-score",
@@ -3546,6 +3841,7 @@
         "index": {
           "description": "Class of types with an associated part The part type can be any type that is orddered",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "HasPart",
           "package": "music-score",
@@ -3560,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003eHasPart\u003c/a\u003e\u003c/code\u003e, but enforces the part to be ordered.\n This is usually required for part separation and traversal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "HasPart'",
           "package": "music-score",
@@ -3569,6 +3866,7 @@
         "index": {
           "description": "Like HasPart but enforces the part to be ordered This is usually required for part separation and traversal",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "HasPart'",
           "package": "music-score",
@@ -3582,6 +3880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "PartT",
           "package": "music-score",
@@ -3590,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "PartT",
           "package": "music-score",
@@ -3604,6 +3904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003e\u003c\u003e\u003c/a\u003e\u003c/code\u003e, but increases parts in the second part to prevent collision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "(\u003c/\u003e)",
           "package": "music-score",
@@ -3614,6 +3915,7 @@
         "index": {
           "description": "Similar to but increases parts in the second part to prevent collision",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "(\u003c/\u003e) \u003c/\u003e",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -3628,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "PartT",
           "package": "music-score",
@@ -3637,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "PartT",
           "package": "music-score",
@@ -3651,6 +3955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract parts from the a score.\n\u003c/p\u003e\u003cp\u003eThe parts are returned in the order defined the associated \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance part type.\n You can recompose the score with \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e, i.e.\n\u003c/p\u003e\u003cpre\u003e mconcat . extract = id\n\u003c/pre\u003e\u003cp\u003eSimple type\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e [Score a]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "extract",
           "package": "music-score",
@@ -3661,6 +3966,7 @@
         "index": {
           "description": "Extract parts from the score The parts are returned in the order defined the associated Ord instance part type You can recompose the score with mconcat i.e mconcat extract id Simple type Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "extract",
           "normalized": "a b-\u003e[a b]",
@@ -3676,6 +3982,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract parts from the a score.\n\u003c/p\u003e\u003cp\u003eThe parts are returned in the order defined the associated \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance part type.\n\u003c/p\u003e\u003cp\u003eSimple type\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e [(Part a, Score a)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "extractParts",
           "package": "music-score",
@@ -3686,6 +3993,7 @@
         "index": {
           "description": "Extract parts from the score The parts are returned in the order defined the associated Ord instance part type Simple type Score Part Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "extractParts",
           "normalized": "a b-\u003e[(Part b,a b)]",
@@ -3702,6 +4010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the voice of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "getPart",
           "package": "music-score",
@@ -3712,6 +4021,7 @@
         "index": {
           "description": "Get the voice of the given note",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "getPart",
           "normalized": "a-\u003ePart a",
@@ -3727,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "getPartT",
           "package": "music-score",
@@ -3736,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "getPartT",
           "normalized": "(a,b)",
@@ -3752,6 +4064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all parts in the given score. Returns a list of parts.\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e [Part]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "getParts",
           "package": "music-score",
@@ -3762,6 +4075,7 @@
         "index": {
           "description": "Get all parts in the given score Returns list of parts Score Part",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "getParts",
           "normalized": "a b-\u003e[Part b]",
@@ -3778,6 +4092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over all parts in the given score.\n\u003c/p\u003e\u003cpre\u003e ([Score a] -\u003e [Score a]) -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "mapAllParts",
           "package": "music-score",
@@ -3788,6 +4103,7 @@
         "index": {
           "description": "Map over all parts in the given score Score Score Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "mapAllParts",
           "normalized": "([a b]-\u003e[a c])-\u003ea b-\u003ea c",
@@ -3804,6 +4120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over a single voice in the given score.\n\u003c/p\u003e\u003cpre\u003e Part -\u003e (Score a -\u003e Score a) -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "mapPart",
           "package": "music-score",
@@ -3814,6 +4131,7 @@
         "index": {
           "description": "Map over single voice in the given score Part Score Score Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "mapPart",
           "normalized": "a-\u003e(b c-\u003eb c)-\u003eb c-\u003eb c",
@@ -3830,6 +4148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over all parts in the given score.\n\u003c/p\u003e\u003cpre\u003e ([Score a] -\u003e [Score a]) -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "mapParts",
           "package": "music-score",
@@ -3840,6 +4159,7 @@
         "index": {
           "description": "Map over all parts in the given score Score Score Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "mapParts",
           "normalized": "(a b-\u003ea c)-\u003ea b-\u003ea c",
@@ -3856,6 +4176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the voice of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "modifyPart",
           "package": "music-score",
@@ -3866,6 +4187,7 @@
         "index": {
           "description": "Modify the voice of the given note",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "modifyPart",
           "normalized": "(Part a-\u003ePart a)-\u003ea-\u003ea",
@@ -3882,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify all parts in the given score.\n\u003c/p\u003e\u003cpre\u003e (Part -\u003e Part) -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "modifyParts",
           "package": "music-score",
@@ -3892,6 +4215,7 @@
         "index": {
           "description": "Modify all parts in the given score Part Part Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "modifyParts",
           "normalized": "(Part a-\u003ePart a)-\u003eb a-\u003eb a",
@@ -3908,6 +4232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove down one voice (all parts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "moveParts",
           "package": "music-score",
@@ -3918,6 +4243,7 @@
         "index": {
           "description": "Move down one voice all parts",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "moveParts",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -3934,6 +4260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove top-part to the specific voice (other parts follow).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "moveToPart",
           "package": "music-score",
@@ -3944,6 +4271,7 @@
         "index": {
           "description": "Move top-part to the specific voice other parts follow",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "moveToPart",
           "normalized": "Part a-\u003eb a-\u003eb a",
@@ -3960,6 +4288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the voice of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "setPart",
           "package": "music-score",
@@ -3970,6 +4299,7 @@
         "index": {
           "description": "Set the voice of the given note",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "setPart",
           "normalized": "Part a-\u003ea-\u003ea",
@@ -3986,6 +4316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all parts in the given score.\n\u003c/p\u003e\u003cpre\u003e Part -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Part",
           "name": "setParts",
           "package": "music-score",
@@ -3996,6 +4327,7 @@
         "index": {
           "description": "Set all parts in the given score Part Score Score",
           "hierarchy": "Music Score Part",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Part",
           "name": "setParts",
           "normalized": "Part a-\u003eb a-\u003eb a",
@@ -4012,6 +4344,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides pitch manipulation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "Pitch",
           "package": "music-score",
@@ -4021,6 +4354,7 @@
         "index": {
           "description": "Provides pitch manipulation",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "Pitch",
           "package": "music-score",
@@ -4034,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "HasPitch",
           "package": "music-score",
@@ -4042,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "HasPitch",
           "package": "music-score",
@@ -4055,6 +4391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "PitchT",
           "package": "music-score",
@@ -4063,6 +4400,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "PitchT",
           "package": "music-score",
@@ -4076,6 +4414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "PitchT",
           "package": "music-score",
@@ -4085,6 +4424,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "PitchT",
           "package": "music-score",
@@ -4098,6 +4438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "down",
           "package": "music-score",
@@ -4107,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "down",
           "normalized": "Diff a-\u003eb c-\u003eb c",
@@ -4122,6 +4464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the pitch of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "getPitch",
           "package": "music-score",
@@ -4132,6 +4475,7 @@
         "index": {
           "description": "Get the pitch of the given note",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "getPitch",
           "normalized": "a-\u003ePitch a",
@@ -4147,6 +4491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "getPitchT",
           "package": "music-score",
@@ -4156,6 +4501,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "getPitchT",
           "normalized": "(a,b)",
@@ -4172,6 +4518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all pitches in the given score. Returns a list of pitches.\n\u003c/p\u003e\u003cpre\u003e Score a -\u003e [Pitch]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "getPitches",
           "package": "music-score",
@@ -4182,6 +4529,7 @@
         "index": {
           "description": "Get all pitches in the given score Returns list of pitches Score Pitch",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "getPitches",
           "normalized": "a b-\u003e[c]",
@@ -4198,6 +4546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the pitch of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "modifyPitch",
           "package": "music-score",
@@ -4208,6 +4557,7 @@
         "index": {
           "description": "Modify the pitch of the given note",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "modifyPitch",
           "normalized": "(Pitch a-\u003ePitch a)-\u003ea-\u003ea",
@@ -4224,6 +4574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify all pitches in the given score.\n\u003c/p\u003e\u003cpre\u003e (Pitch -\u003e Pitch) -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "modifyPitches",
           "package": "music-score",
@@ -4234,6 +4585,7 @@
         "index": {
           "description": "Modify all pitches in the given score Pitch Pitch Score Score",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "modifyPitches",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -4250,6 +4602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the pitch of the given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "setPitch",
           "package": "music-score",
@@ -4260,6 +4613,7 @@
         "index": {
           "description": "Set the pitch of the given note",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "setPitch",
           "normalized": "Pitch a-\u003ea-\u003ea",
@@ -4276,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet all pitches in the given score.\n\u003c/p\u003e\u003cpre\u003e Pitch -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "setPitches",
           "package": "music-score",
@@ -4286,6 +4641,7 @@
         "index": {
           "description": "Set all pitches in the given score Pitch Score Score",
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "setPitches",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -4301,6 +4657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Pitch",
           "name": "up",
           "package": "music-score",
@@ -4310,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Music Score Pitch",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Pitch",
           "name": "up",
           "normalized": "Diff a-\u003eb c-\u003eb c",
@@ -4324,6 +4682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Rhythm",
           "package": "music-score",
@@ -4332,6 +4691,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Rhythm",
           "package": "music-score",
@@ -4345,6 +4705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Rhythm",
           "package": "music-score",
@@ -4353,6 +4714,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Rhythm",
           "package": "music-score",
@@ -4366,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Beat",
           "package": "music-score",
@@ -4375,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Beat",
           "package": "music-score",
@@ -4388,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Dotted",
           "package": "music-score",
@@ -4397,6 +4762,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Dotted",
           "package": "music-score",
@@ -4410,6 +4776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Group",
           "package": "music-score",
@@ -4419,6 +4786,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Group",
           "normalized": "Group[Rhythm a]",
@@ -4434,6 +4802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "Tuplet",
           "package": "music-score",
@@ -4443,6 +4812,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "Tuplet",
           "package": "music-score",
@@ -4456,6 +4826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "dotMod",
           "package": "music-score",
@@ -4465,6 +4836,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "dotMod",
           "normalized": "Int-\u003eDurationT",
@@ -4480,6 +4852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Rhythm",
           "name": "quantize",
           "package": "music-score",
@@ -4489,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "Music Score Rhythm",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Rhythm",
           "name": "quantize",
           "normalized": "[(DurationT,a)]-\u003eEither String(Rhythm a)",
@@ -4504,6 +4878,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the \u003ccode\u003e\u003ca\u003eScore\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Score",
           "name": "Score",
           "package": "music-score",
@@ -4513,6 +4888,7 @@
         "index": {
           "description": "Provides the Score type",
           "hierarchy": "Music Score Score",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Score",
           "name": "Score",
           "package": "music-score",
@@ -4527,6 +4903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA score is a list of events, i.e. time-duration-value triplets. Semantically\n\u003c/p\u003e\u003cpre\u003e type Score a = [(Time, Duration, a)]\n\u003c/pre\u003e\u003cp\u003eThere is no explicit representation for rests. However you can use `Score (Maybe a)` to\n represent a score with rests. Such rests are only useful when composing scores. They\n may be removed with \u003ccode\u003eremoveRests\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eScore is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e under parallel composition. \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is a score of no parts.\n For sequential composition of scores, use \u003ccode\u003e|\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eScore has an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance derived from the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instance. Not sure it is useful.\n\u003c/p\u003e\u003cp\u003eScore is an instance of \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e using sequential composition as addition,\n and time scaling as scalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Score",
           "name": "Score",
           "package": "music-score",
@@ -4536,6 +4913,7 @@
         "index": {
           "description": "score is list of events i.e time-duration-value triplets Semantically type Score Time Duration There is no explicit representation for rests However you can use Score Maybe to represent score with rests Such rests are only useful when composing scores They may be removed with removeRests Score is Monoid under parallel composition mempty is score of no parts For sequential composition of scores use Score has an Applicative instance derived from the Monad instance Not sure it is useful Score is an instance of VectorSpace using sequential composition as addition and time scaling as scalar multiplication",
           "hierarchy": "Music Score Score",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Score",
           "name": "Score",
           "package": "music-score",
@@ -4550,6 +4928,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides tie representation and splitting.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "Ties",
           "package": "music-score",
@@ -4559,6 +4938,7 @@
         "index": {
           "description": "Provides tie representation and splitting",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "Ties",
           "package": "music-score",
@@ -4573,6 +4953,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types that can be tied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "Tiable",
           "package": "music-score",
@@ -4582,6 +4963,7 @@
         "index": {
           "description": "Class of types that can be tied",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "Tiable",
           "package": "music-score",
@@ -4595,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "TieT",
           "package": "music-score",
@@ -4603,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "TieT",
           "package": "music-score",
@@ -4616,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "TieT",
           "package": "music-score",
@@ -4625,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "TieT",
           "package": "music-score",
@@ -4638,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "beginTie",
           "package": "music-score",
@@ -4647,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "beginTie",
           "normalized": "a-\u003ea",
@@ -4662,6 +5050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "endTie",
           "package": "music-score",
@@ -4671,6 +5060,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "endTie",
           "normalized": "a-\u003ea",
@@ -4686,6 +5076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "getTieT",
           "package": "music-score",
@@ -4695,6 +5086,7 @@
         },
         "index": {
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "getTieT",
           "normalized": "(Bool,a,Bool)",
@@ -4711,6 +5103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit all notes that cross a barlines into a pair of tied notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "splitTies",
           "package": "music-score",
@@ -4721,6 +5114,7 @@
         "index": {
           "description": "Split all notes that cross barlines into pair of tied notes",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "splitTies",
           "normalized": "Score a-\u003eScore a",
@@ -4737,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003esplitTies\u003c/a\u003e\u003c/code\u003e for single-voice scores.\n Fails if the score contains overlapping events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "splitTiesSingle",
           "package": "music-score",
@@ -4747,6 +5142,7 @@
         "index": {
           "description": "Equivalent to splitTies for single-voice scores Fails if the score contains overlapping events",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "splitTiesSingle",
           "normalized": "Score a-\u003eScore a",
@@ -4763,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit all notes that cross a barlines into a pair of tied notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "splitTiesVoice",
           "package": "music-score",
@@ -4773,6 +5170,7 @@
         "index": {
           "description": "Split all notes that cross barlines into pair of tied notes",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "splitTiesVoice",
           "normalized": "Voice a-\u003eVoice a",
@@ -4789,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit elements into beginning and end and add tie.\n   Begin properties goes to the first tied note, and end properties to the latter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Ties",
           "name": "toTied",
           "package": "music-score",
@@ -4799,6 +5198,7 @@
         "index": {
           "description": "Split elements into beginning and end and add tie Begin properties goes to the first tied note and end properties to the latter",
           "hierarchy": "Music Score Ties",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Ties",
           "name": "toTied",
           "normalized": "a-\u003e(a,a)",
@@ -4815,6 +5215,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the \u003ccode\u003e\u003ca\u003eTrack\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4824,6 +5225,7 @@
         "index": {
           "description": "Provides the Track type",
           "hierarchy": "Music Score Track",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4838,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA track is a list of events with explicit onset. Events can not overlap.\n\u003c/p\u003e\u003cp\u003eTrack is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e under parallel composition. \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is the empty track and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n interleaves values.\n\u003c/p\u003e\u003cp\u003eTrack has an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance derived from the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cp\u003eTrack is a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e creates a track containing a single value at time\n zero, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e transforms the values of a track, allowing the addition and\n removal of values relative to the time of the value. Perhaps more intuitively,\n \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e delays each inner track to start at the offset of an outer track, then\n removes the intermediate structure.\n\u003c/p\u003e\u003cpre\u003e let t = Track [(0, 65),(1, 66)]\n\n t \u003e\u003e= \\x -\u003e Track [(0, 'a'), (10, toEnum x)]\n\n   ==\u003e Track {getTrack = [ (0.0,  'a'),\n                           (1.0,  'a'),\n                           (10.0, 'A'),\n                           (11.0, 'B') ]}\n\u003c/pre\u003e\u003cp\u003eTrack is an instance of \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e using parallel composition as addition,\n and time scaling as scalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4847,6 +5250,7 @@
         "index": {
           "description": "track is list of events with explicit onset Events can not overlap Track is Monoid under parallel composition mempty is the empty track and mappend interleaves values Track has an Applicative instance derived from the Monad instance Track is Monad return creates track containing single value at time zero and transforms the values of track allowing the addition and removal of values relative to the time of the value Perhaps more intuitively join delays each inner track to start at the offset of an outer track then removes the intermediate structure let Track Track toEnum Track getTrack Track is an instance of VectorSpace using parallel composition as addition and time scaling as scalar multiplication",
           "hierarchy": "Music Score Track",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4860,6 +5264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4869,6 +5274,7 @@
         },
         "index": {
           "hierarchy": "Music Score Track",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Track",
           "name": "Track",
           "package": "music-score",
@@ -4882,6 +5288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Track",
           "name": "getTrack",
           "package": "music-score",
@@ -4891,6 +5298,7 @@
         },
         "index": {
           "hierarchy": "Music Score Track",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Track",
           "name": "getTrack",
           "normalized": "[(TimeT,a)]",
@@ -4907,6 +5315,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides the \u003ccode\u003e\u003ca\u003eVoice\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4916,6 +5325,7 @@
         "index": {
           "description": "Provides the Voice type",
           "hierarchy": "Music Score Voice",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4930,6 +5340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA voice is a list of events with explicit duration. Events can not overlap.\n\u003c/p\u003e\u003cp\u003eVoice is a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e under sequential composition. \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e is the empty part and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n appends parts.\n\u003c/p\u003e\u003cp\u003eVoice has an \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance derived from the \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cp\u003eVoice is a \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e creates a part containing a single value of duration\n one, and \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e transforms the values of a part, allowing the addition and\n removal of values under relative duration. Perhaps more intuitively, \u003ccode\u003e\u003ca\u003ejoin\u003c/a\u003e\u003c/code\u003e scales\n each inner part to the duration of the outer part, then removes the\n intermediate structure.\n\u003c/p\u003e\u003cpre\u003e let p = Voice [(1, Just 0), (2, Just 1)] :: Voice Int\n\n p \u003e\u003e= \\x -\u003e Voice [ (1, Just $&#160;toEnum $ x+65),\n                    (3, Just $ toEnum $ x+97) ] :: Voice Char\n\n     ===\u003e Voice {getVoice = [ (1 % 1,Just 'A'),\n                            (3 % 1,Just 'a'),\n                            (2 % 1,Just 'B'),\n                            (6 % 1,Just 'b') ]}\n\u003c/pre\u003e\u003cp\u003eVoice is a \u003ccode\u003e\u003ca\u003eVectorSpace\u003c/a\u003e\u003c/code\u003e using sequential composition as addition, and time scaling\n as scalar multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4939,6 +5350,7 @@
         "index": {
           "description": "voice is list of events with explicit duration Events can not overlap Voice is Monoid under sequential composition mempty is the empty part and mappend appends parts Voice has an Applicative instance derived from the Monad instance Voice is Monad return creates part containing single value of duration one and transforms the values of part allowing the addition and removal of values under relative duration Perhaps more intuitively join scales each inner part to the duration of the outer part then removes the intermediate structure let Voice Just Just Voice Int Voice Just toEnum Just toEnum Voice Char Voice getVoice Just Just Just Just Voice is VectorSpace using sequential composition as addition and time scaling as scalar multiplication",
           "hierarchy": "Music Score Voice",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4952,6 +5364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4961,6 +5374,7 @@
         },
         "index": {
           "hierarchy": "Music Score Voice",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Voice",
           "name": "Voice",
           "package": "music-score",
@@ -4974,6 +5388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Voice",
           "name": "getVoice",
           "package": "music-score",
@@ -4983,6 +5398,7 @@
         },
         "index": {
           "hierarchy": "Music Score Voice",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Voice",
           "name": "getVoice",
           "normalized": "[(DurationT,a)]",
@@ -4999,6 +5415,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides zippers over scores.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Zip",
           "name": "Zip",
           "package": "music-score",
@@ -5008,6 +5425,7 @@
         "index": {
           "description": "Provides zippers over scores",
           "hierarchy": "Music Score Zip",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Zip",
           "name": "Zip",
           "package": "music-score",
@@ -5022,6 +5440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a time-varying function to all events in score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Zip",
           "name": "apply",
           "package": "music-score",
@@ -5032,6 +5451,7 @@
         "index": {
           "description": "Apply time-varying function to all events in score",
           "hierarchy": "Music Score Zip",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Zip",
           "name": "apply",
           "normalized": "Voice(Score a-\u003eScore b)-\u003eScore a-\u003eScore b",
@@ -5047,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a time-varying function to all events in score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Zip",
           "name": "applySingle",
           "package": "music-score",
@@ -5057,6 +5478,7 @@
         "index": {
           "description": "Apply time-varying function to all events in score",
           "hierarchy": "Music Score Zip",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Zip",
           "name": "applySingle",
           "normalized": "Voice(Score a-\u003eScore b)-\u003eScore a-\u003eScore b",
@@ -5073,6 +5495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all notes that start during a given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Zip",
           "name": "snapshot",
           "package": "music-score",
@@ -5083,6 +5506,7 @@
         "index": {
           "description": "Get all notes that start during given note",
           "hierarchy": "Music Score Zip",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Zip",
           "name": "snapshot",
           "normalized": "Score a-\u003eScore b-\u003eScore(a,Score b)",
@@ -5098,6 +5522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all notes that start during a given note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score.Zip",
           "name": "snapshotSingle",
           "package": "music-score",
@@ -5108,6 +5533,7 @@
         "index": {
           "description": "Get all notes that start during given note",
           "hierarchy": "Music Score Zip",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score.Zip",
           "name": "snapshotSingle",
           "normalized": "Score a-\u003eScore b-\u003eScore(a,Score b)",
@@ -5124,6 +5550,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a musical score representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Score",
           "name": "Score",
           "package": "music-score",
@@ -5133,6 +5560,7 @@
         "index": {
           "description": "Provides musical score representation",
           "hierarchy": "Music Score",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Score",
           "name": "Score",
           "package": "music-score",
@@ -5146,6 +5574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Delayable",
           "name": "Delayable",
           "package": "music-score",
@@ -5154,6 +5583,7 @@
         },
         "index": {
           "hierarchy": "Music Time Delayable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Delayable",
           "name": "Delayable",
           "package": "music-score",
@@ -5168,6 +5598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelayable values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Delayable",
           "name": "Delayable",
           "package": "music-score",
@@ -5177,6 +5608,7 @@
         "index": {
           "description": "Delayable values",
           "hierarchy": "Music Time Delayable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Delayable",
           "name": "Delayable",
           "package": "music-score",
@@ -5190,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Delayable",
           "name": "delay",
           "package": "music-score",
@@ -5199,6 +5632,7 @@
         },
         "index": {
           "hierarchy": "Music Time Delayable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Delayable",
           "name": "delay",
           "normalized": "Duration a-\u003ea b-\u003ea b",
@@ -5213,6 +5647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Duration",
           "name": "Duration",
           "package": "music-score",
@@ -5221,6 +5656,7 @@
         },
         "index": {
           "hierarchy": "Music Time Duration",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Duration",
           "name": "Duration",
           "package": "music-score",
@@ -5235,6 +5671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents relative time in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Duration",
           "name": "DurationT",
           "package": "music-score",
@@ -5244,6 +5681,7 @@
         "index": {
           "description": "This type represents relative time in seconds",
           "hierarchy": "Music Time Duration",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Duration",
           "name": "DurationT",
           "package": "music-score",
@@ -5257,6 +5695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Duration",
           "name": "fromDurationT",
           "package": "music-score",
@@ -5266,6 +5705,7 @@
         },
         "index": {
           "hierarchy": "Music Time Duration",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Duration",
           "name": "fromDurationT",
           "normalized": "DurationT-\u003ea",
@@ -5281,6 +5721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Duration",
           "name": "toDurationT",
           "package": "music-score",
@@ -5290,6 +5731,7 @@
         },
         "index": {
           "hierarchy": "Music Time Duration",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Duration",
           "name": "toDurationT",
           "normalized": "a-\u003eDurationT",
@@ -5305,6 +5747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "Onset",
           "package": "music-score",
@@ -5313,6 +5756,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "Onset",
           "package": "music-score",
@@ -5326,6 +5770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "AddOffset",
           "package": "music-score",
@@ -5334,6 +5779,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "AddOffset",
           "package": "music-score",
@@ -5347,6 +5793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasDuration",
           "package": "music-score",
@@ -5355,6 +5802,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasDuration",
           "package": "music-score",
@@ -5368,6 +5816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasOffset",
           "package": "music-score",
@@ -5376,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasOffset",
           "package": "music-score",
@@ -5390,6 +5840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass of types with a position in time.\n\u003c/p\u003e\u003cp\u003eOnset and offset are logical start and stop time, i.e. the preferred beginning and end\n of the sound, not o the the time of the attack and damp actions on an instrument,\n\u003c/p\u003e\u003cp\u003eIf a type has an instance for both \u003ccode\u003e\u003ca\u003eHasOnset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasDuration\u003c/a\u003e\u003c/code\u003e, the following laws\n should hold:\n\u003c/p\u003e\u003cpre\u003e duration a = offset a - onset a\n offset a \u003e= onset a\n\u003c/pre\u003e\u003cp\u003eimplying\n\u003c/p\u003e\u003cpre\u003e duration a \u003e= 0\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasOnset",
           "package": "music-score",
@@ -5399,6 +5850,7 @@
         "index": {
           "description": "Class of types with position in time Onset and offset are logical start and stop time i.e the preferred beginning and end of the sound not the the time of the attack and damp actions on an instrument If type has an instance for both HasOnset and HasDuration the following laws should hold duration offset onset offset onset implying duration",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasOnset",
           "package": "music-score",
@@ -5412,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasPostOffset",
           "package": "music-score",
@@ -5420,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasPostOffset",
           "package": "music-score",
@@ -5433,6 +5887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasPostOnset",
           "package": "music-score",
@@ -5441,6 +5896,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasPostOnset",
           "package": "music-score",
@@ -5454,6 +5910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "HasPreOnset",
           "package": "music-score",
@@ -5462,6 +5919,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "HasPreOnset",
           "package": "music-score",
@@ -5475,6 +5933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "AddOffset",
           "package": "music-score",
@@ -5484,6 +5943,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "AddOffset",
           "normalized": "AddOffset(a,b c)",
@@ -5499,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "duration",
           "package": "music-score",
@@ -5508,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "duration",
           "normalized": "a b-\u003eDuration a",
@@ -5523,6 +5985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eHasOnset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasOffset\u003c/a\u003e\u003c/code\u003e instances, this function implements \u003ccode\u003e\u003ca\u003eduration\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "durationDefault",
           "package": "music-score",
@@ -5533,6 +5996,7 @@
         "index": {
           "description": "Given HasOnset and HasOffset instances this function implements duration",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "durationDefault",
           "normalized": "a b-\u003eDuration a",
@@ -5549,6 +6013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Get the offset of the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "offset",
           "package": "music-score",
@@ -5559,6 +6024,7 @@
         "index": {
           "description": "Get the offset of the given value",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "offset",
           "normalized": "a b-\u003eTime a",
@@ -5574,6 +6040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eHasOnset\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasOnset\u003c/a\u003e\u003c/code\u003e instances, this function implements \u003ccode\u003e\u003ca\u003eoffset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "offsetDefault",
           "package": "music-score",
@@ -5584,6 +6051,7 @@
         "index": {
           "description": "Given HasOnset and HasOnset instances this function implements offset",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "offsetDefault",
           "normalized": "a b-\u003eTime a",
@@ -5600,6 +6068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e&#160;\n Get the onset of the given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "onset",
           "package": "music-score",
@@ -5610,6 +6079,7 @@
         "index": {
           "description": "Get the onset of the given value",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "onset",
           "normalized": "a b-\u003eTime a",
@@ -5625,6 +6095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven \u003ccode\u003e\u003ca\u003eHasDuration\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eHasOffset\u003c/a\u003e\u003c/code\u003e instances, this function implements \u003ccode\u003e\u003ca\u003eonset\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "onsetDefault",
           "package": "music-score",
@@ -5635,6 +6106,7 @@
         "index": {
           "description": "Given HasDuration and HasOffset instances this function implements onset",
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "onsetDefault",
           "normalized": "a b-\u003eTime a",
@@ -5650,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "postOffset",
           "package": "music-score",
@@ -5659,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "postOffset",
           "normalized": "a b-\u003eTime a",
@@ -5674,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "postOnset",
           "package": "music-score",
@@ -5683,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "postOnset",
           "normalized": "a b-\u003eTime a",
@@ -5698,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Onset",
           "name": "preOnset",
           "package": "music-score",
@@ -5707,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "Music Time Onset",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Onset",
           "name": "preOnset",
           "normalized": "a b-\u003eTime a",
@@ -5722,6 +6200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Performable",
           "name": "Performable",
           "package": "music-score",
@@ -5730,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "Music Time Performable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Performable",
           "name": "Performable",
           "package": "music-score",
@@ -5744,6 +6224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerformable values.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003eperform\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Performable",
           "name": "Performable",
           "package": "music-score",
@@ -5753,6 +6234,7 @@
         "index": {
           "description": "Performable values Minimal complete definition perform",
           "hierarchy": "Music Time Performable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Performable",
           "name": "Performable",
           "package": "music-score",
@@ -5767,6 +6249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function may be used as a value for \u003ccode\u003e\u003ca\u003efoldMap\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eFoldable\u003c/a\u003e\u003c/code\u003e instance. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Performable",
           "name": "foldMapDefault",
           "package": "music-score",
@@ -5777,6 +6260,7 @@
         "index": {
           "description": "This function may be used as value for foldMap in Foldable instance",
           "hierarchy": "Music Time Performable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Performable",
           "name": "foldMapDefault",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -5793,6 +6277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a score.\n\u003c/p\u003e\u003cp\u003eThis is the inverse of \u003ccode\u003ecompose\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Performable",
           "name": "perform",
           "package": "music-score",
@@ -5803,6 +6288,7 @@
         "index": {
           "description": "Perform score This is the inverse of compose",
           "hierarchy": "Music Time Performable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Performable",
           "name": "perform",
           "normalized": "a b-\u003e[(c,d,b)]",
@@ -5818,6 +6304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform a score, yielding an ordered list of values.\n\u003c/p\u003e\u003cp\u003eEquivalent to \u003ccode\u003e\u003ca\u003etoList\u003c/a\u003e\u003c/code\u003e, but may be more efficient.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Performable",
           "name": "toList'",
           "package": "music-score",
@@ -5828,6 +6315,7 @@
         "index": {
           "description": "Perform score yielding an ordered list of values Equivalent to toList but may be more efficient",
           "hierarchy": "Music Time Performable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Performable",
           "name": "toList'",
           "normalized": "a b-\u003e[b]",
@@ -5843,6 +6331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Pos",
           "name": "Pos",
           "package": "music-score",
@@ -5851,6 +6340,7 @@
         },
         "index": {
           "hierarchy": "Music Time Pos",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Pos",
           "name": "Pos",
           "package": "music-score",
@@ -5865,6 +6355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type function returns the duration type for a given type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Pos",
           "name": "Duration",
           "package": "music-score",
@@ -5874,6 +6365,7 @@
         "index": {
           "description": "This type function returns the duration type for given type",
           "hierarchy": "Music Time Pos",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Pos",
           "name": "Duration",
           "package": "music-score",
@@ -5888,6 +6380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type function returns the time type for a given type.\n\u003c/p\u003e\u003cp\u003eIt has kind\n\u003c/p\u003e\u003cpre\u003e (* -\u003e *) -\u003e *\n\u003c/pre\u003e\u003cp\u003emeaning that an instance should be written on the form:\n\u003c/p\u003e\u003cpre\u003e type instance Time a = b\n\u003c/pre\u003e\u003cp\u003ewhere \u003cem\u003ea\u003c/em\u003e and \u003cem\u003eb\u003c/em\u003e are type-level expression of kind \u003ccode\u003e* -\u003e *\u003c/code\u003e and \u003ccode\u003e*\u003c/code\u003e respectively.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Pos",
           "name": "Time",
           "package": "music-score",
@@ -5897,6 +6390,7 @@
         "index": {
           "description": "This type function returns the time type for given type It has kind meaning that an instance should be written on the form type instance Time where and are type-level expression of kind and respectively",
           "hierarchy": "Music Time Pos",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Pos",
           "name": "Time",
           "package": "music-score",
@@ -5910,6 +6404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Stretchable",
           "name": "Stretchable",
           "package": "music-score",
@@ -5918,6 +6413,7 @@
         },
         "index": {
           "hierarchy": "Music Time Stretchable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Stretchable",
           "name": "Stretchable",
           "package": "music-score",
@@ -5932,6 +6428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretchable values. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Stretchable",
           "name": "Stretchable",
           "package": "music-score",
@@ -5941,6 +6438,7 @@
         "index": {
           "description": "Stretchable values",
           "hierarchy": "Music Time Stretchable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Stretchable",
           "name": "Stretchable",
           "package": "music-score",
@@ -5955,6 +6453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStretch (augment) a value by the given factor.\n\u003c/p\u003e\u003cpre\u003e Duration -\u003e Score a -\u003e Score a\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Stretchable",
           "name": "stretch",
           "package": "music-score",
@@ -5965,6 +6464,7 @@
         "index": {
           "description": "Stretch augment value by the given factor Duration Score Score",
           "hierarchy": "Music Time Stretchable",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Stretchable",
           "name": "stretch",
           "normalized": "Duration a-\u003ea b-\u003ea b",
@@ -5979,6 +6479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Time",
           "name": "Time",
           "package": "music-score",
@@ -5987,6 +6488,7 @@
         },
         "index": {
           "hierarchy": "Music Time Time",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Time",
           "name": "Time",
           "package": "music-score",
@@ -6001,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis type represents absolute time in seconds since the start time. Note\n that time can be negative, representing events occuring before the start time.\n The start time is usually the the beginning of the musical performance. \n\u003c/p\u003e\u003cp\u003eTime forms an affine space with durations as the underlying vector space,\n that is, we can add a time to a duration to get a new time using \u003ccode\u003e\u003ca\u003e.+^\u003c/a\u003e\u003c/code\u003e, \n take the difference of two times to get a duration using \u003ccode\u003e\u003ca\u003e.-.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Time",
           "name": "TimeT",
           "package": "music-score",
@@ -6010,6 +6513,7 @@
         "index": {
           "description": "This type represents absolute time in seconds since the start time Note that time can be negative representing events occuring before the start time The start time is usually the the beginning of the musical performance Time forms an affine space with durations as the underlying vector space that is we can add time to duration to get new time using take the difference of two times to get duration using",
           "hierarchy": "Music Time Time",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Time",
           "name": "TimeT",
           "package": "music-score",
@@ -6023,6 +6527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Time",
           "name": "fromTimeT",
           "package": "music-score",
@@ -6032,6 +6537,7 @@
         },
         "index": {
           "hierarchy": "Music Time Time",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Time",
           "name": "fromTimeT",
           "normalized": "TimeT-\u003ea",
@@ -6047,6 +6553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time.Time",
           "name": "toTimeT",
           "package": "music-score",
@@ -6056,6 +6563,7 @@
         },
         "index": {
           "hierarchy": "Music Time Time",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time.Time",
           "name": "toTimeT",
           "normalized": "a-\u003eTimeT",
@@ -6072,6 +6580,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides time representations for use with scores, events etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:24:44 UTC 2014",
           "module": "Music.Time",
           "name": "Time",
           "package": "music-score",
@@ -6081,6 +6590,7 @@
         "index": {
           "description": "Provides time representations for use with scores events etc",
           "hierarchy": "Music Time",
+          "indexed": "2014-03-11T19:24:44",
           "module": "Music.Time",
           "name": "Time",
           "package": "music-score",

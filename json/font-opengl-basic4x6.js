@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "font-opengl-basic4x6"
+        "phrase": "font-opengl-basic4x6",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "Basic4x6",
           "package": "font-opengl-basic4x6",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "Basic4x6",
           "package": "font-opengl-basic4x6",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "colon",
           "package": "font-opengl-basic4x6",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "colon",
           "normalized": "IO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit0",
           "package": "font-opengl-basic4x6",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit0",
           "normalized": "IO()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit1",
           "package": "font-opengl-basic4x6",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit1",
           "normalized": "IO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit2",
           "package": "font-opengl-basic4x6",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit2",
           "normalized": "IO()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit3",
           "package": "font-opengl-basic4x6",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit3",
           "normalized": "IO()",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit4",
           "package": "font-opengl-basic4x6",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit4",
           "normalized": "IO()",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit5",
           "package": "font-opengl-basic4x6",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit5",
           "normalized": "IO()",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit6",
           "package": "font-opengl-basic4x6",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit6",
           "normalized": "IO()",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit7",
           "package": "font-opengl-basic4x6",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit7",
           "normalized": "IO()",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit8",
           "package": "font-opengl-basic4x6",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit8",
           "normalized": "IO()",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit9",
           "package": "font-opengl-basic4x6",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "digit9",
           "normalized": "IO()",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "equal",
           "package": "font-opengl-basic4x6",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "equal",
           "normalized": "IO()",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "exclamation",
           "package": "font-opengl-basic4x6",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "exclamation",
           "normalized": "IO()",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "greaterThan",
           "package": "font-opengl-basic4x6",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "greaterThan",
           "normalized": "IO()",
@@ -362,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "lessThan",
           "package": "font-opengl-basic4x6",
@@ -371,6 +402,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "lessThan",
           "normalized": "IO()",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "minus",
           "package": "font-opengl-basic4x6",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "minus",
           "normalized": "IO()",
@@ -409,6 +443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "percent",
           "package": "font-opengl-basic4x6",
@@ -418,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "percent",
           "normalized": "IO()",
@@ -432,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "period",
           "package": "font-opengl-basic4x6",
@@ -441,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "period",
           "normalized": "IO()",
@@ -455,6 +493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "plus",
           "package": "font-opengl-basic4x6",
@@ -464,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "plus",
           "normalized": "IO()",
@@ -478,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:11:10 UTC 2014",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "slash",
           "package": "font-opengl-basic4x6",
@@ -487,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Graphics Fonts OpenGL Basic4x6",
+          "indexed": "2014-03-11T18:11:10",
           "module": "Graphics.Fonts.OpenGL.Basic4x6",
           "name": "slash",
           "normalized": "IO()",

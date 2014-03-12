@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "data-type"
+        "phrase": "data-type",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Apply",
           "name": "Apply",
           "package": "data-type",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Type Apply",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Apply",
           "name": "Apply",
           "package": "data-type",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Apply",
           "name": "Apply",
           "package": "data-type",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Type Apply",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Apply",
           "name": "Apply",
           "package": "data-type",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Apply",
           "name": "apply",
           "package": "data-type",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Type Apply",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Apply",
           "name": "apply",
           "normalized": "a-\u003eb-\u003ec",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "Bool",
           "package": "data-type",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "Bool",
           "package": "data-type",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "CNot",
           "package": "data-type",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "CNot",
           "package": "data-type",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "TAnd",
           "package": "data-type",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "TAnd",
           "package": "data-type",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "TFalse",
           "package": "data-type",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "TFalse",
           "package": "data-type",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "TNot",
           "package": "data-type",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "TNot",
           "package": "data-type",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "TOr",
           "package": "data-type",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "TOr",
           "package": "data-type",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "TTrue",
           "package": "data-type",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "TTrue",
           "package": "data-type",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "cNot",
           "package": "data-type",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "cNot",
           "normalized": "a b-\u003ec",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "tAnd",
           "package": "data-type",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "tAnd",
           "normalized": "a-\u003eb-\u003ec",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "tFalse",
           "package": "data-type",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "tFalse",
           "package": "data-type",
@@ -300,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "tNot",
           "package": "data-type",
@@ -309,6 +336,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "tNot",
           "normalized": "a-\u003eb",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "tOr",
           "package": "data-type",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "tOr",
           "normalized": "a-\u003eb-\u003ec",
@@ -348,6 +378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Bool",
           "name": "tTrue",
           "package": "data-type",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Data Type Bool",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Bool",
           "name": "tTrue",
           "package": "data-type",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "Eq",
           "package": "data-type",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "Eq",
           "package": "data-type",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "TypeCast",
           "package": "data-type",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "TypeCast",
           "package": "data-type",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "TypeCast'",
           "package": "data-type",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "TypeCast'",
           "package": "data-type",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "TypeCast''",
           "package": "data-type",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "TypeCast''",
           "package": "data-type",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "TypeEq",
           "package": "data-type",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "TypeEq",
           "package": "data-type",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "typeCast",
           "package": "data-type",
@@ -484,6 +527,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "typeCast",
           "normalized": "a-\u003eb",
@@ -499,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "typeCast'",
           "package": "data-type",
@@ -508,6 +553,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "typeCast'",
           "normalized": "a-\u003eb-\u003ec",
@@ -523,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Eq",
           "name": "typeCast''",
           "package": "data-type",
@@ -532,6 +579,7 @@
         },
         "index": {
           "hierarchy": "Data Type Eq",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Eq",
           "name": "typeCast''",
           "normalized": "a-\u003eb-\u003ec",
@@ -547,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "Member",
           "package": "data-type",
@@ -555,6 +604,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "Member",
           "package": "data-type",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "Member",
           "package": "data-type",
@@ -576,6 +627,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "Member",
           "package": "data-type",
@@ -589,6 +641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "mCons",
           "package": "data-type",
@@ -598,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "mCons",
           "normalized": "Member a-\u003eMember b-\u003eMember(a*b)",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "mNil",
           "package": "data-type",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "mNil",
           "package": "data-type",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "mUnit",
           "package": "data-type",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "mUnit",
           "normalized": "a-\u003eMember a",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Member",
           "name": "member",
           "package": "data-type",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Type Member",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Member",
           "name": "member",
           "package": "data-type",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "Nat",
           "package": "data-type",
@@ -688,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "Nat",
           "package": "data-type",
@@ -701,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "Nat",
           "package": "data-type",
@@ -709,6 +772,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "Nat",
           "package": "data-type",
@@ -722,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "S",
           "package": "data-type",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "S",
           "package": "data-type",
@@ -742,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "Z",
           "package": "data-type",
@@ -750,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "Z",
           "package": "data-type",
@@ -762,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "S",
           "package": "data-type",
@@ -771,6 +840,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "S",
           "package": "data-type",
@@ -783,6 +853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "Z",
           "package": "data-type",
@@ -792,6 +863,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "Z",
           "package": "data-type",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "fromNat",
           "package": "data-type",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "fromNat",
           "normalized": "a-\u003eb",
@@ -828,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "one",
           "package": "data-type",
@@ -837,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "one",
           "package": "data-type",
@@ -849,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "three",
           "package": "data-type",
@@ -858,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "three",
           "package": "data-type",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "two",
           "package": "data-type",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "two",
           "package": "data-type",
@@ -891,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Nat",
           "name": "zero",
           "package": "data-type",
@@ -900,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Data Type Nat",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Nat",
           "name": "zero",
           "package": "data-type",
@@ -912,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Data Type Proxy",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -933,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -941,6 +1026,7 @@
         },
         "index": {
           "hierarchy": "Data Type Proxy",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -954,6 +1040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -963,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Data Type Proxy",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.Proxy",
           "name": "Proxy",
           "package": "data-type",
@@ -976,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.TList",
           "name": "TList",
           "package": "data-type",
@@ -984,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Data Type TList",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.TList",
           "name": "TList",
           "package": "data-type",
@@ -997,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.TList",
           "name": ":*:",
           "package": "data-type",
@@ -1005,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Type TList",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.TList",
           "name": ":*:",
           "package": "data-type",
@@ -1017,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.TList",
           "name": "TNil",
           "package": "data-type",
@@ -1025,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Data Type TList",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.TList",
           "name": "TNil",
           "package": "data-type",
@@ -1038,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.TList",
           "name": ":*:",
           "package": "data-type",
@@ -1047,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Data Type TList",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.TList",
           "name": ":*:",
           "package": "data-type",
@@ -1059,6 +1155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:04 UTC 2014",
           "module": "Data.Type.TList",
           "name": "TNil",
           "package": "data-type",
@@ -1068,6 +1165,7 @@
         },
         "index": {
           "hierarchy": "Data Type TList",
+          "indexed": "2014-03-11T17:50:04",
           "module": "Data.Type.TList",
           "name": "TNil",
           "package": "data-type",

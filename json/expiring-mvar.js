@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "expiring-mvar"
+        "phrase": "expiring-mvar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "Expiring",
           "package": "expiring-mvar",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "Expiring",
           "package": "expiring-mvar",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ExpiringMVar contains a value that will be thrown out after\n   a given period of time. The timer can be reset before the value\n   expires. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "ExpiringMVar",
           "package": "expiring-mvar",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An ExpiringMVar contains value that will be thrown out after given period of time The timer can be reset before the value expires",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "ExpiringMVar",
           "package": "expiring-mvar",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf you decide that a value should never expire, you can cancel the timer. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "cancelExpiration",
           "package": "expiring-mvar",
@@ -73,6 +78,7 @@
         "index": {
           "description": "If you decide that value should never expire you can cancel the timer",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "cancelExpiration",
           "normalized": "ExpiringMVar a-\u003eIO()",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the value hasn't yet expired, change the timer and reset it. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "changeExpiration",
           "package": "expiring-mvar",
@@ -98,6 +105,7 @@
         "index": {
           "description": "If the value hasn yet expired change the timer and reset it",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "changeExpiration",
           "normalized": "Int-\u003eExpiringMVar a-\u003eIO(ExpiringMVar a)",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine whether an MVar has expired. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "isExpiredMVar",
           "package": "expiring-mvar",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Determine whether an MVar has expired",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "isExpiredMVar",
           "normalized": "ExpiringMVar a-\u003eIO Bool",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new value that is set to be thrown away after a minimum period of time. Each call to newExpiringMVar spawns a thread that runs until the value expires. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "newExpiringMVar",
           "package": "expiring-mvar",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Create new value that is set to be thrown away after minimum period of time Each call to newExpiringMVar spawns thread that runs until the value expires",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "newExpiringMVar",
           "normalized": "a-\u003eInt-\u003eIO(ExpiringMVar a)",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the value has not yet expired, you are able to retrieve it.\n   Reading the value does not expire it. In other words, readExpiringMVar behaves like readMVar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "readExpiringMVar",
           "package": "expiring-mvar",
@@ -175,6 +188,7 @@
         "index": {
           "description": "If the value has not yet expired you are able to retrieve it Reading the value does not expire it In other words readExpiringMVar behaves like readMVar",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "readExpiringMVar",
           "normalized": "ExpiringMVar a-\u003eIO(Maybe a)",
@@ -191,6 +205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor a collection of ExpiringMVars, filter out the ones that have expired, and put the remaining ExpiringMVars in a new collection. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "removeExpiredMVars",
           "package": "expiring-mvar",
@@ -201,6 +216,7 @@
         "index": {
           "description": "For collection of ExpiringMVars filter out the ones that have expired and put the remaining ExpiringMVars in new collection",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "removeExpiredMVars",
           "normalized": "a(ExpiringMVar b)-\u003eIO(c(ExpiringMVar b))",
@@ -217,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the value has not yet expired, reset the timer. If the value expired,\n   no timer is created. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:05:18 UTC 2014",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "resetExpiringMVarTimer",
           "package": "expiring-mvar",
@@ -227,6 +244,7 @@
         "index": {
           "description": "If the value has not yet expired reset the timer If the value expired no timer is created",
           "hierarchy": "Control Concurrent MVar Expiring",
+          "indexed": "2014-03-11T18:05:18",
           "module": "Control.Concurrent.MVar.Expiring",
           "name": "resetExpiringMVarTimer",
           "normalized": "ExpiringMVar a-\u003eIO(ExpiringMVar a)",

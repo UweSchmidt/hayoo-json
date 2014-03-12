@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lighttpd-conf"
+        "phrase": "lighttpd-conf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Parser",
           "name": "parseConf",
           "package": "lighttpd-conf",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Parser",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Parser",
           "name": "parseConf",
           "normalized": "ByteString-\u003eMaybe Config",
@@ -42,6 +44,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Parser",
           "name": "parseConf'",
           "package": "lighttpd-conf",
@@ -51,6 +54,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Parser",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Parser",
           "name": "parseConf'",
           "normalized": "String-\u003eMaybe Config",
@@ -66,6 +70,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "PprMode",
           "package": "lighttpd-conf",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "PprMode",
           "package": "lighttpd-conf",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "Ppr",
           "package": "lighttpd-conf",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "Ppr",
           "package": "lighttpd-conf",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "ppr",
           "package": "lighttpd-conf",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "ppr",
           "normalized": "a-\u003eDoc",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprField",
           "package": "lighttpd-conf",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprField",
           "normalized": "Doc-\u003eDoc-\u003eDoc",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprWithMode",
           "package": "lighttpd-conf",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprWithMode",
           "normalized": "PprMode-\u003eConfig-\u003eDoc",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprs",
           "package": "lighttpd-conf",
@@ -188,6 +203,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Ppr",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Ppr",
           "name": "pprs",
           "normalized": "[a]-\u003eDoc",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "ArrayElem",
           "package": "lighttpd-conf",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "ArrayElem",
           "package": "lighttpd-conf",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Cond",
           "package": "lighttpd-conf",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Cond",
           "package": "lighttpd-conf",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "CondElse",
           "package": "lighttpd-conf",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "CondElse",
           "package": "lighttpd-conf",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Config",
           "package": "lighttpd-conf",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Config",
           "package": "lighttpd-conf",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Enabled",
           "package": "lighttpd-conf",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Enabled",
           "package": "lighttpd-conf",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Exp",
           "package": "lighttpd-conf",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Exp",
           "package": "lighttpd-conf",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Field",
           "package": "lighttpd-conf",
@@ -336,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Field",
           "package": "lighttpd-conf",
@@ -349,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Include",
           "package": "lighttpd-conf",
@@ -357,6 +388,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Include",
           "package": "lighttpd-conf",
@@ -370,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Name",
           "package": "lighttpd-conf",
@@ -378,6 +411,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Name",
           "package": "lighttpd-conf",
@@ -391,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Op",
           "package": "lighttpd-conf",
@@ -399,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Op",
           "package": "lighttpd-conf",
@@ -412,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Pat",
           "package": "lighttpd-conf",
@@ -420,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Pat",
           "package": "lighttpd-conf",
@@ -433,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "QName",
           "package": "lighttpd-conf",
@@ -441,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "QName",
           "package": "lighttpd-conf",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Val",
           "package": "lighttpd-conf",
@@ -462,6 +503,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "Val",
           "package": "lighttpd-conf",
@@ -475,6 +517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "ToVal",
           "package": "lighttpd-conf",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "ToVal",
           "package": "lighttpd-conf",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "mkName",
           "package": "lighttpd-conf",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "mkName",
           "normalized": "String-\u003eName",
@@ -520,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "mkQName",
           "package": "lighttpd-conf",
@@ -529,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "mkQName",
           "normalized": "String-\u003eString-\u003eQName",
@@ -544,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:35 UTC 2014",
           "module": "Lighttpd.Conf.Syntax",
           "name": "toVal",
           "package": "lighttpd-conf",
@@ -553,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Lighttpd Conf Syntax",
+          "indexed": "2014-03-11T19:09:35",
           "module": "Lighttpd.Conf.Syntax",
           "name": "toVal",
           "normalized": "a-\u003eVal",

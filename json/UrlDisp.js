@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "UrlDisp"
+        "phrase": "UrlDisp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eURL dispatching (routing) library, based on Sterling Clover's HVAC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "UrlDisp",
           "package": "UrlDisp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "URL dispatching routing library based on Sterling Clover HVAC",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "UrlDisp",
           "package": "UrlDisp",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "UrlDisp",
           "package": "UrlDisp",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "UrlDisp",
           "package": "UrlDisp",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "UrlS",
           "package": "UrlDisp",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "UrlS",
           "package": "UrlDisp",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that filters on and consumes the next element of the url\n path.\n \u003ccode\u003e h |/ \"dir\" |/ \"subdir\" \u003c/code\u003e will match \"/dir/subdir\".\n Consumtion of the path element backtracks on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|/)",
           "package": "UrlDisp",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Combinator that filters on and consumes the next element of the url path dir subdir will match dir subdir Consumtion of the path element backtracks on failure",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|/) |/",
           "normalized": "a b-\u003eString-\u003ea()",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that filters on the request method.\n \u003ccode\u003e h |// \"GET\" \u003c/code\u003e will match requests made using get.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|//)",
           "package": "UrlDisp",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Combinator that filters on the request method GET will match requests made using get",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|//) |//",
           "normalized": "a b-\u003eString-\u003ea()",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that filters on any parameter (via put or get).\n \u003ccode\u003e h |? (\"cmd\",\"foo\") \u003c/code\u003e will match on ?cmd=foo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|?)",
           "package": "UrlDisp",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Combinator that filters on any parameter via put or get cmd foo will match on cmd foo",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|?) |?",
           "normalized": "a b-\u003e(String,String)-\u003ea()",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that matches and consumes the next element of the path\n if path element can be successfully read as the proper type and passed\n to the following lambda expression.\n \u003ccode\u003e h |\\ \\x -\u003e output (x + (1.5::Float)) \u003c/code\u003e will match on \"/12\"\n and output \"13.5\". Consumption of the path element backtracks\n on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|\\)",
           "package": "UrlDisp",
@@ -169,6 +182,7 @@
         "index": {
           "description": "Combinator that matches and consumes the next element of the path if path element can be successfully read as the proper type and passed to the following lambda expression output Float will match on and output Consumption of the path element backtracks on failure",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|\\) |\\",
           "normalized": "a b-\u003e(c-\u003ea d)-\u003ea d",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that consumes the next element of the path and passes it\n as an unparsed string into the following lambda expression.\n \u003ccode\u003e h |\\\\ \\x -\u003e output (x++\"99\") \u003c/code\u003e will match on \"/12\"\n and output \"1299\"\n Consumtion of the path element backtracks on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|\\\\)",
           "package": "UrlDisp",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Combinator that consumes the next element of the path and passes it as an unparsed string into the following lambda expression output will match on and output Consumtion of the path element backtracks on failure",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|\\\\) |\\\\",
           "normalized": "a b-\u003e(String-\u003ea c)-\u003ea c",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that only matches if the remaining path is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "(|.)",
           "package": "UrlDisp",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Combinator that only matches if the remaining path is empty",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "(|.) |.",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly matches if the remaining path is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "endPath",
           "package": "UrlDisp",
@@ -244,6 +263,7 @@
         "index": {
           "description": "Only matches if the remaining path is empty",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "endPath",
           "normalized": "a()",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe same as runUrlDisp, but yields CGIResult. If URL dispatching\n failed, then a 404 not found error is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "evalUrlDisp",
           "package": "UrlDisp",
@@ -270,6 +291,7 @@
         "index": {
           "description": "The same as runUrlDisp but yields CGIResult If URL dispatching failed then not found error is returned",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "evalUrlDisp",
           "normalized": "UrlDisp a CGIResult-\u003ea CGIResult",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA null CGI action, used to begin a string of path combinators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "h",
           "package": "UrlDisp",
@@ -296,6 +319,7 @@
         "index": {
           "description": "null CGI action used to begin string of path combinators",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "h",
           "normalized": "a()",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters on the request method.\n \u003ccode\u003e meth \"GET\" \u003c/code\u003e will match requests made using get.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "meth",
           "package": "UrlDisp",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Filters on the request method meth GET will match requests made using get",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "meth",
           "normalized": "String-\u003ea()",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters on any parameter (via put or get).\n \u003ccode\u003e param (\"cmd\", \"foo\") \u003c/code\u003e will match on ?cmd=foo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "param",
           "package": "UrlDisp",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Filters on any parameter via put or get param cmd foo will match on cmd foo",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "param",
           "normalized": "(String,String)-\u003ea()",
@@ -361,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilters on and consumes the next element of the url path.\n \u003ccode\u003e path \"str\" \u003c/code\u003e will match requests whose next path element is \"str\"\n Consumption of the path element backtracks on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "path",
           "package": "UrlDisp",
@@ -371,6 +400,7 @@
         "index": {
           "description": "Filters on and consumes the next element of the url path path str will match requests whose next path element is str Consumption of the path element backtracks on failure",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "path",
           "normalized": "String-\u003ea()",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches and consumes the next element of the path if\n that element can be successfully read as the proper type. The parsed\n element is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "readPath",
           "package": "UrlDisp",
@@ -396,6 +427,7 @@
         "index": {
           "description": "Matches and consumes the next element of the path if that element can be successfully read as the proper type The parsed element is returned",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "readPath",
           "package": "UrlDisp",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven path and a sequence of actions chained using combinators\n defined in controller API, run them in the CGI monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "runUrlDisp",
           "package": "UrlDisp",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Given path and sequence of actions chained using combinators defined in controller API run them in the CGI monad",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "runUrlDisp",
           "normalized": "String-\u003eUrlDisp a b-\u003ea(Maybe b)",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombinator that consumes the next element of the path and passes it\n as an unparsed string into the following lambda expression.\n \u003ccode\u003e h \u003ccode\u003e\u003ca\u003etakePath\u003c/a\u003e\u003c/code\u003e \\x -\u003e output (x++\"99\") \u003c/code\u003e will match on \"/12\" and\n output \"1299\"\n Consumption of the path element backtracks on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:03:25 UTC 2014",
           "module": "Network.UrlDisp",
           "name": "takePath",
           "package": "UrlDisp",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Combinator that consumes the next element of the path and passes it as an unparsed string into the following lambda expression takePath output will match on and output Consumption of the path element backtracks on failure",
           "hierarchy": "Network UrlDisp",
+          "indexed": "2014-03-11T17:03:25",
           "module": "Network.UrlDisp",
           "name": "takePath",
           "package": "UrlDisp",

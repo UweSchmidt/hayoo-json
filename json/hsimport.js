@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsimport"
+        "phrase": "hsimport",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "Args",
           "package": "hsimport",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "Args",
           "package": "hsimport",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "HsImportArgs",
           "package": "hsimport",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "HsImportArgs",
           "package": "hsimport",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "HsImportArgs",
           "package": "hsimport",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "HsImportArgs",
           "package": "hsimport",
@@ -105,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "inputSrcFile",
           "package": "hsimport",
@@ -114,6 +121,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "inputSrcFile",
           "package": "hsimport",
@@ -127,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "moduleName",
           "package": "hsimport",
@@ -136,6 +145,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "moduleName",
           "package": "hsimport",
@@ -149,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "outputSrcFile",
           "package": "hsimport",
@@ -158,6 +169,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "outputSrcFile",
           "package": "hsimport",
@@ -171,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "qualifiedName",
           "package": "hsimport",
@@ -180,6 +193,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "qualifiedName",
           "package": "hsimport",
@@ -193,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Args",
           "name": "symbolName",
           "package": "hsimport",
@@ -202,6 +217,7 @@
         },
         "index": {
           "hierarchy": "HsImport Args",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Args",
           "name": "symbolName",
           "package": "hsimport",
@@ -215,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -236,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -244,6 +263,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -257,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -266,6 +287,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "ImportSpec",
           "package": "hsimport",
@@ -279,6 +301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_moduleToImport",
           "package": "hsimport",
@@ -288,6 +311,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_moduleToImport",
           "package": "hsimport",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_parsedSrcFile",
           "package": "hsimport",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_parsedSrcFile",
           "package": "hsimport",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_qualifiedName",
           "package": "hsimport",
@@ -332,6 +359,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_qualifiedName",
           "package": "hsimport",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_saveToFile",
           "package": "hsimport",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_saveToFile",
           "package": "hsimport",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_sourceFile",
           "package": "hsimport",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_sourceFile",
           "package": "hsimport",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "_symbolToImport",
           "package": "hsimport",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "_symbolToImport",
           "package": "hsimport",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "hsImportSpec",
           "package": "hsimport",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "hsImportSpec",
           "normalized": "HsImportArgs-\u003eIO(Either Error ImportSpec)",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "moduleToImport",
           "package": "hsimport",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "moduleToImport",
           "package": "hsimport",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "parsedSrcFile",
           "package": "hsimport",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "parsedSrcFile",
           "package": "hsimport",
@@ -479,6 +519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "qualifiedName",
           "package": "hsimport",
@@ -488,6 +529,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "qualifiedName",
           "package": "hsimport",
@@ -501,6 +543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "saveToFile",
           "package": "hsimport",
@@ -510,6 +553,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "saveToFile",
           "package": "hsimport",
@@ -523,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "sourceFile",
           "package": "hsimport",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "sourceFile",
           "package": "hsimport",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.ImportSpec",
           "name": "symbolToImport",
           "package": "hsimport",
@@ -554,6 +601,7 @@
         },
         "index": {
           "hierarchy": "HsImport ImportSpec",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.ImportSpec",
           "name": "symbolToImport",
           "package": "hsimport",
@@ -567,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Main",
           "name": "Main",
           "package": "hsimport",
@@ -575,6 +624,7 @@
         },
         "index": {
           "hierarchy": "HsImport Main",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Main",
           "name": "Main",
           "package": "hsimport",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport.Main",
           "name": "hsImport",
           "package": "hsimport",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "HsImport Main",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport.Main",
           "name": "hsImport",
           "normalized": "ImportSpec-\u003eIO()",
@@ -612,6 +664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport",
           "name": "HsImport",
           "package": "hsimport",
@@ -620,6 +673,7 @@
         },
         "index": {
           "hierarchy": "HsImport",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport",
           "name": "HsImport",
           "package": "hsimport",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:44 UTC 2014",
           "module": "HsImport",
           "name": "HsImportArgs",
           "package": "hsimport",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "HsImport",
+          "indexed": "2014-03-11T18:48:44",
           "module": "HsImport",
           "name": "HsImportArgs",
           "package": "hsimport",

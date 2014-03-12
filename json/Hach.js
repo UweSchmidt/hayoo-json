@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Hach"
+        "phrase": "Hach",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "Types",
           "package": "Hach",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "Types",
           "package": "Hach",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "C2S",
           "package": "Hach",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "C2S",
           "package": "Hach",
@@ -59,6 +63,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "CMessage",
           "package": "Hach",
@@ -67,6 +72,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "CMessage",
           "package": "Hach",
@@ -80,6 +86,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "Nick",
           "package": "Hach",
@@ -88,6 +95,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "Nick",
           "package": "Hach",
@@ -101,6 +109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "S2C",
           "package": "Hach",
@@ -109,6 +118,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "S2C",
           "package": "Hach",
@@ -121,6 +131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "SMessage",
           "package": "Hach",
@@ -129,6 +140,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "SMessage",
           "package": "Hach",
@@ -142,6 +154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "Timestamp",
           "package": "Hach",
@@ -150,6 +163,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "Timestamp",
           "package": "Hach",
@@ -163,6 +177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "C2S",
           "package": "Hach",
@@ -172,6 +187,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "C2S",
           "package": "Hach",
@@ -184,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "CAction",
           "package": "Hach",
@@ -193,6 +210,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "CAction",
           "package": "Hach",
@@ -206,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "CPlain",
           "package": "Hach",
@@ -215,6 +234,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "CPlain",
           "package": "Hach",
@@ -228,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "CSetNick",
           "package": "Hach",
@@ -237,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "CSetNick",
           "package": "Hach",
@@ -250,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "S2C",
           "package": "Hach",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "S2C",
           "package": "Hach",
@@ -271,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "SAction",
           "package": "Hach",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "SAction",
           "package": "Hach",
@@ -293,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "SPlain",
           "package": "Hach",
@@ -302,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "SPlain",
           "package": "Hach",
@@ -315,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "SSetNick",
           "package": "Hach",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "SSetNick",
           "package": "Hach",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "SSystem",
           "package": "Hach",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "SSystem",
           "package": "Hach",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "fromS2C",
           "package": "Hach",
@@ -368,6 +401,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "fromS2C",
           "normalized": "S C-\u003eText",
@@ -382,6 +416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "messageType",
           "package": "Hach",
@@ -391,6 +426,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "messageType",
           "package": "Hach",
@@ -404,6 +440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "text",
           "package": "Hach",
@@ -413,6 +450,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "text",
           "package": "Hach",
@@ -425,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "time",
           "package": "Hach",
@@ -434,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "time",
           "package": "Hach",
@@ -446,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:47:25 UTC 2014",
           "module": "Hach.Types",
           "name": "toC2S",
           "package": "Hach",
@@ -455,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Hach Types",
+          "indexed": "2014-03-11T16:47:25",
           "module": "Hach.Types",
           "name": "toC2S",
           "normalized": "Text-\u003eIO C S",

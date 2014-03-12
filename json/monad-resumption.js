@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-resumption"
+        "phrase": "monad-resumption",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA reactive resumption monad transformer, based on the formulation in\n the article \u003ca\u003eCheap (But Functional) Threads\u003c/a\u003e\n by William L. Harrison and Adam Procter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "Reactive",
           "package": "monad-resumption",
@@ -28,6 +29,7 @@
         "index": {
           "description": "reactive resumption monad transformer based on the formulation in the article Cheap But Functional Threads by William Harrison and Adam Procter",
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "Reactive",
           "package": "monad-resumption",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReactive resumption monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "ReacT",
           "package": "monad-resumption",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Reactive resumption monad transformer",
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "ReacT",
           "package": "monad-resumption",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTennis operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "(\u003c~\u003e)",
           "package": "monad-resumption",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Tennis operator",
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "(\u003c~\u003e) \u003c~\u003e",
           "normalized": "ReacT a b c d-\u003eReacT b a c e-\u003eResT c(Either d e)",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "ReacT",
           "package": "monad-resumption",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "ReacT",
           "package": "monad-resumption",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "deReacT",
           "package": "monad-resumption",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "deReacT",
           "normalized": "a(Either b(c,d-\u003eReacT d c a b))",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic runner function.  Provide the ReacT and a handler in the underlying monad to run.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "runReacT",
           "package": "monad-resumption",
@@ -146,6 +157,7 @@
         "index": {
           "description": "basic runner function Provide the ReacT and handler in the underlying monad to run",
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "runReacT",
           "normalized": "ReacT a b c d-\u003e(b-\u003ec a)-\u003ec d",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs its argument, then waits for the next input and returns it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "signal",
           "package": "monad-resumption",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Outputs its argument then waits for the next input and returns it",
           "hierarchy": "Control Monad Resumption Reactive",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption.Reactive",
           "name": "signal",
           "normalized": "a-\u003eReacT b a c b",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA resumption monad transformer, based on the formulation in the article\n \u003ca\u003eCheap (But Functional) Threads\u003c/a\u003e\n by William L. Harrison and Adam Procter.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "Resumption",
           "package": "monad-resumption",
@@ -196,6 +211,7 @@
         "index": {
           "description": "resumption monad transformer based on the formulation in the article Cheap But Functional Threads by William Harrison and Adam Procter",
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "Resumption",
           "package": "monad-resumption",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResumption monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "ResT",
           "package": "monad-resumption",
@@ -219,6 +236,7 @@
         "index": {
           "description": "Resumption monad transformer",
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "ResT",
           "package": "monad-resumption",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "ResT",
           "package": "monad-resumption",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "ResT",
           "package": "monad-resumption",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "deResT",
           "package": "monad-resumption",
@@ -263,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "deResT",
           "package": "monad-resumption",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a resumptive computation to exhaustion, producing its final return\n value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "runResT",
           "package": "monad-resumption",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Runs resumptive computation to exhaustion producing its final return value",
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "runResT",
           "normalized": "ResT a b-\u003ea b",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWaits until the next tick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:35 UTC 2014",
           "module": "Control.Monad.Resumption",
           "name": "tick",
           "package": "monad-resumption",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Waits until the next tick",
           "hierarchy": "Control Monad Resumption",
+          "indexed": "2014-03-11T19:20:35",
           "module": "Control.Monad.Resumption",
           "name": "tick",
           "normalized": "ResT a()",

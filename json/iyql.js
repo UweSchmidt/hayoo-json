@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "iyql"
+        "phrase": "iyql",
+        "type": "phrase"
       },
       "type": "context"
     }

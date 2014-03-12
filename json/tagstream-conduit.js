@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "tagstream-conduit"
+        "phrase": "tagstream-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "ByteString",
           "package": "tagstream-conduit",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "ByteString",
           "package": "tagstream-conduit",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "Attr",
           "package": "tagstream-conduit",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "Attr",
           "package": "tagstream-conduit",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "Token",
           "package": "tagstream-conduit",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "Token",
           "package": "tagstream-conduit",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "(||.)",
           "package": "tagstream-conduit",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "(||.) ||.",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "atLeast",
           "package": "tagstream-conduit",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "atLeast",
           "normalized": "Int-\u003eParser ByteString-\u003eParser ByteString",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attr",
           "package": "tagstream-conduit",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attr",
           "package": "tagstream-conduit",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrName",
           "package": "tagstream-conduit",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrName",
           "package": "tagstream-conduit",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrValue",
           "package": "tagstream-conduit",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrValue",
           "package": "tagstream-conduit",
@@ -193,6 +209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrs",
           "package": "tagstream-conduit",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "attrs",
           "normalized": "Parser([Attr],Bool)",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "boolP",
           "package": "tagstream-conduit",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "boolP",
           "normalized": "Parser a-\u003eParser Bool",
@@ -239,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "cc",
           "package": "tagstream-conduit",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "cc",
           "normalized": "[ByteString]-\u003eBuilder",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "comment",
           "package": "tagstream-conduit",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "comment",
           "package": "tagstream-conduit",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "cond",
           "package": "tagstream-conduit",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "cond",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -306,6 +332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "decode",
           "package": "tagstream-conduit",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "decode",
           "normalized": "ByteString-\u003eEither String[Token]",
@@ -330,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the HTML entities e.g. \u003ccode\u003e&amp;\u003c/code\u003e in some text into \u003ccode\u003e&\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "decodeEntitiesBS",
           "package": "tagstream-conduit",
@@ -340,6 +369,7 @@
         "index": {
           "description": "Decode the HTML entities e.g amp in some text into",
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "decodeEntitiesBS",
           "package": "tagstream-conduit",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "html",
           "package": "tagstream-conduit",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "html",
           "normalized": "Parser[Token]",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "in2",
           "package": "tagstream-conduit",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "in2",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -399,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "in3",
           "package": "tagstream-conduit",
@@ -408,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "in3",
           "normalized": "(a,a,a)-\u003ea-\u003eBool",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "incomplete",
           "package": "tagstream-conduit",
@@ -431,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "incomplete",
           "package": "tagstream-conduit",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "maybeP",
           "package": "tagstream-conduit",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "maybeP",
           "normalized": "Parser a-\u003eParser(Maybe a)",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "quoted",
           "package": "tagstream-conduit",
@@ -475,6 +516,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "quoted",
           "normalized": "Char-\u003eParser ByteString",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "quotedOr",
           "package": "tagstream-conduit",
@@ -498,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "quotedOr",
           "normalized": "Parser ByteString-\u003eParser ByteString",
@@ -513,6 +557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "showToken",
           "package": "tagstream-conduit",
@@ -522,6 +567,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "showToken",
           "normalized": "(ByteString-\u003eByteString)-\u003eToken-\u003eBuilder",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "special",
           "package": "tagstream-conduit",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "special",
           "package": "tagstream-conduit",
@@ -558,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tag",
           "package": "tagstream-conduit",
@@ -567,6 +616,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tag",
           "package": "tagstream-conduit",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tagEnd",
           "package": "tagstream-conduit",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tagEnd",
           "package": "tagstream-conduit",
@@ -601,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "text",
           "package": "tagstream-conduit",
@@ -610,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "text",
           "package": "tagstream-conduit",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tillScriptEnd",
           "package": "tagstream-conduit",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tillScriptEnd",
           "normalized": "Token-\u003eParser[Token]",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "token",
           "package": "tagstream-conduit",
@@ -655,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "token",
           "package": "tagstream-conduit",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tokenStream",
           "package": "tagstream-conduit",
@@ -676,6 +735,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream ByteString",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.ByteString",
           "name": "tokenStream",
           "package": "tagstream-conduit",
@@ -690,6 +750,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHTML entity decoding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Entities",
           "package": "tagstream-conduit",
@@ -699,6 +760,7 @@
         "index": {
           "description": "HTML entity decoding",
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Entities",
           "package": "tagstream-conduit",
@@ -713,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA decoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Dec",
           "package": "tagstream-conduit",
@@ -722,6 +785,7 @@
         "index": {
           "description": "decoder",
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Dec",
           "package": "tagstream-conduit",
@@ -735,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Dec",
           "package": "tagstream-conduit",
@@ -744,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "Dec",
           "package": "tagstream-conduit",
@@ -757,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decBreak",
           "package": "tagstream-conduit",
@@ -766,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decBreak",
           "normalized": "(Char-\u003eBool)-\u003ea-\u003e(a,a)",
@@ -781,6 +849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decBuilder",
           "package": "tagstream-conduit",
@@ -790,6 +859,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decBuilder",
           "normalized": "a-\u003eb",
@@ -805,6 +875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decDrop",
           "package": "tagstream-conduit",
@@ -814,6 +885,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decDrop",
           "normalized": "Int-\u003ea-\u003ea",
@@ -829,6 +901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decEntity",
           "package": "tagstream-conduit",
@@ -838,6 +911,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decEntity",
           "normalized": "a-\u003eMaybe a",
@@ -853,6 +927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decToS",
           "package": "tagstream-conduit",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decToS",
           "normalized": "a-\u003eb",
@@ -877,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decUncons",
           "package": "tagstream-conduit",
@@ -886,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decUncons",
           "normalized": "a-\u003eMaybe(Char,a)",
@@ -902,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA conduit to decode entities from a stream of tokens into a new stream of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decodeEntities",
           "package": "tagstream-conduit",
@@ -912,6 +991,7 @@
         "index": {
           "description": "conduit to decode entities from stream of tokens into new stream of tokens",
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "decodeEntities",
           "normalized": "Dec a b-\u003eConduit(Token' b)c(Token' b)",
@@ -928,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the character valid in a Name?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "isNameChar",
           "package": "tagstream-conduit",
@@ -938,6 +1019,7 @@
         "index": {
           "description": "Is the character valid in Name",
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "isNameChar",
           "normalized": "Char-\u003eBool",
@@ -954,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs the character a valid Name starter?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Entities",
           "name": "isNameStart",
           "package": "tagstream-conduit",
@@ -964,6 +1047,7 @@
         "index": {
           "description": "Is the character valid Name starter",
           "hierarchy": "Text HTML TagStream Entities",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Entities",
           "name": "isNameStart",
           "normalized": "Char-\u003eBool",
@@ -979,6 +1063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "Text",
           "package": "tagstream-conduit",
@@ -987,6 +1072,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "Text",
           "package": "tagstream-conduit",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "Attr",
           "package": "tagstream-conduit",
@@ -1008,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "Attr",
           "package": "tagstream-conduit",
@@ -1021,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "Token",
           "package": "tagstream-conduit",
@@ -1029,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "Token",
           "package": "tagstream-conduit",
@@ -1042,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "(||.)",
           "package": "tagstream-conduit",
@@ -1051,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "(||.) ||.",
           "normalized": "a Bool-\u003ea Bool-\u003ea Bool",
@@ -1065,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "atLeast",
           "package": "tagstream-conduit",
@@ -1074,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "atLeast",
           "normalized": "Int-\u003eParser Text-\u003eParser Text",
@@ -1089,6 +1183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "attr",
           "package": "tagstream-conduit",
@@ -1098,6 +1193,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "attr",
           "package": "tagstream-conduit",
@@ -1110,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrName",
           "package": "tagstream-conduit",
@@ -1119,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrName",
           "package": "tagstream-conduit",
@@ -1132,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrValue",
           "package": "tagstream-conduit",
@@ -1141,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrValue",
           "package": "tagstream-conduit",
@@ -1154,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrs",
           "package": "tagstream-conduit",
@@ -1163,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "attrs",
           "normalized": "Parser([Attr],Bool)",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "boolP",
           "package": "tagstream-conduit",
@@ -1186,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "boolP",
           "normalized": "Parser a-\u003eParser Bool",
@@ -1200,6 +1304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "cc",
           "package": "tagstream-conduit",
@@ -1209,6 +1314,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "cc",
           "normalized": "[Text]-\u003eBuilder",
@@ -1223,6 +1329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "comment",
           "package": "tagstream-conduit",
@@ -1232,6 +1339,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "comment",
           "package": "tagstream-conduit",
@@ -1244,6 +1352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "cond",
           "package": "tagstream-conduit",
@@ -1253,6 +1362,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "cond",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -1267,6 +1377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "decode",
           "package": "tagstream-conduit",
@@ -1276,6 +1387,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "decode",
           "normalized": "Text-\u003eEither String[Token]",
@@ -1291,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode the HTML entities e.g. \u003ccode\u003e&amp;\u003c/code\u003e in some text into \u003ccode\u003e&\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "decodeEntitiesText",
           "package": "tagstream-conduit",
@@ -1301,6 +1414,7 @@
         "index": {
           "description": "Decode the HTML entities e.g amp in some text into",
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "decodeEntitiesText",
           "package": "tagstream-conduit",
@@ -1314,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "html",
           "package": "tagstream-conduit",
@@ -1323,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "html",
           "normalized": "Parser[Token]",
@@ -1337,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "in2",
           "package": "tagstream-conduit",
@@ -1346,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "in2",
           "normalized": "(a,a)-\u003ea-\u003eBool",
@@ -1360,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "in3",
           "package": "tagstream-conduit",
@@ -1369,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "in3",
           "normalized": "(a,a,a)-\u003ea-\u003eBool",
@@ -1383,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "incomplete",
           "package": "tagstream-conduit",
@@ -1392,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "incomplete",
           "package": "tagstream-conduit",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "maybeP",
           "package": "tagstream-conduit",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "maybeP",
           "normalized": "Parser a-\u003eParser(Maybe a)",
@@ -1427,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "quoted",
           "package": "tagstream-conduit",
@@ -1436,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "quoted",
           "normalized": "Char-\u003eParser Text",
@@ -1450,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "quotedOr",
           "package": "tagstream-conduit",
@@ -1459,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "quotedOr",
           "normalized": "Parser Text-\u003eParser Text",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "showToken",
           "package": "tagstream-conduit",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "showToken",
           "normalized": "(Text-\u003eText)-\u003eToken-\u003eBuilder",
@@ -1498,6 +1628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "special",
           "package": "tagstream-conduit",
@@ -1507,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "special",
           "package": "tagstream-conduit",
@@ -1519,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "tag",
           "package": "tagstream-conduit",
@@ -1528,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "tag",
           "package": "tagstream-conduit",
@@ -1540,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "tagEnd",
           "package": "tagstream-conduit",
@@ -1549,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "tagEnd",
           "package": "tagstream-conduit",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "text",
           "package": "tagstream-conduit",
@@ -1571,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "text",
           "package": "tagstream-conduit",
@@ -1583,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "tillScriptEnd",
           "package": "tagstream-conduit",
@@ -1592,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "tillScriptEnd",
           "normalized": "Token-\u003eParser[Token]",
@@ -1607,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "token",
           "package": "tagstream-conduit",
@@ -1616,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "token",
           "package": "tagstream-conduit",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "tokenStream",
           "package": "tagstream-conduit",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "tokenStream",
           "package": "tagstream-conduit",
@@ -1651,6 +1795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elike \u003ccode\u003e\u003ca\u003etokenStream\u003c/a\u003e\u003c/code\u003e, but it process \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e input, decode it according to xml version tag.\n\u003c/p\u003e\u003cp\u003eOnly support utf-8 and iso8859 for now.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Text",
           "name": "tokenStreamBS",
           "package": "tagstream-conduit",
@@ -1661,6 +1806,7 @@
         "index": {
           "description": "like tokenStream but it process ByteString input decode it according to xml version tag Only support utf-8 and iso8859 for now",
           "hierarchy": "Text HTML TagStream Text",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Text",
           "name": "tokenStreamBS",
           "package": "tagstream-conduit",
@@ -1674,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Types",
           "package": "tagstream-conduit",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Types",
           "package": "tagstream-conduit",
@@ -1695,6 +1843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr'",
           "package": "tagstream-conduit",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Attr'",
           "package": "tagstream-conduit",
@@ -1716,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagType",
           "package": "tagstream-conduit",
@@ -1724,6 +1875,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagType",
           "package": "tagstream-conduit",
@@ -1737,6 +1889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token'",
           "package": "tagstream-conduit",
@@ -1745,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Token'",
           "package": "tagstream-conduit",
@@ -1758,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Comment",
           "package": "tagstream-conduit",
@@ -1767,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Comment",
           "package": "tagstream-conduit",
@@ -1780,6 +1936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Incomplete",
           "package": "tagstream-conduit",
@@ -1789,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Incomplete",
           "package": "tagstream-conduit",
@@ -1802,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Special",
           "package": "tagstream-conduit",
@@ -1811,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Special",
           "package": "tagstream-conduit",
@@ -1824,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagClose",
           "package": "tagstream-conduit",
@@ -1833,6 +1994,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagClose",
           "package": "tagstream-conduit",
@@ -1846,6 +2008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagOpen",
           "package": "tagstream-conduit",
@@ -1855,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagOpen",
           "normalized": "TagOpen a[Attr' a]Bool",
@@ -1870,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeClose",
           "package": "tagstream-conduit",
@@ -1879,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeClose",
           "package": "tagstream-conduit",
@@ -1892,6 +2058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeNormal",
           "package": "tagstream-conduit",
@@ -1901,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeNormal",
           "package": "tagstream-conduit",
@@ -1914,6 +2082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeSpecial",
           "package": "tagstream-conduit",
@@ -1923,6 +2092,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "TagTypeSpecial",
           "package": "tagstream-conduit",
@@ -1936,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Types",
           "name": "Text",
           "package": "tagstream-conduit",
@@ -1945,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Types",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Types",
           "name": "Text",
           "package": "tagstream-conduit",
@@ -1958,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "Utils",
           "package": "tagstream-conduit",
@@ -1966,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Utils",
           "name": "Utils",
           "package": "tagstream-conduit",
@@ -1979,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream.Utils",
           "name": "splitAccum",
           "package": "tagstream-conduit",
@@ -1988,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream Utils",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream.Utils",
           "name": "splitAccum",
           "normalized": "[Token' a]-\u003e(a,[Token' a])",
@@ -2003,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:16:56 UTC 2014",
           "module": "Text.HTML.TagStream",
           "name": "TagStream",
           "package": "tagstream-conduit",
@@ -2011,6 +2188,7 @@
         },
         "index": {
           "hierarchy": "Text HTML TagStream",
+          "indexed": "2014-03-11T20:16:56",
           "module": "Text.HTML.TagStream",
           "name": "TagStream",
           "package": "tagstream-conduit",

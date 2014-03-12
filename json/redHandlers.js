@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "redHandlers"
+        "phrase": "redHandlers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "Session",
           "package": "redHandlers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "Session",
           "package": "redHandlers",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "SessionState",
           "package": "redHandlers",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "SessionState",
           "package": "redHandlers",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "deleteSessionedStateWithCookie",
           "package": "redHandlers",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "deleteSessionedStateWithCookie",
           "normalized": "String-\u003ea-\u003eIO(b-\u003eb)",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esearch the cookie with the given name in the headers (request headers) and get the session id.\n   Then search the Session Map for the value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "getSessionedStateWithCookie",
           "package": "redHandlers",
@@ -95,6 +102,7 @@
         "index": {
           "description": "search the cookie with the given name in the headers request headers and get the session id Then search the Session Map for the value",
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "getSessionedStateWithCookie",
           "normalized": "String-\u003ea-\u003eIO(Maybe SessionState)",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the value in a new session.\n   Then set responses headers with the cookie.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "newSessionedStateWithCookie",
           "package": "redHandlers",
@@ -121,6 +130,7 @@
         "index": {
           "description": "set the value in new session Then set responses headers with the cookie",
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "newSessionedStateWithCookie",
           "normalized": "String-\u003eSessionState-\u003eIO(a-\u003ea)",
@@ -136,6 +146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "updateSessionedStateWithCookie",
           "package": "redHandlers",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler Session",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler.Session",
           "name": "updateSessionedStateWithCookie",
           "normalized": "String-\u003ea-\u003eSessionState-\u003eIO()",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RedHandler",
           "package": "redHandlers",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RedHandler",
           "package": "redHandlers",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "BasicRsp",
           "package": "redHandlers",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "BasicRsp",
           "package": "redHandlers",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "BasicRspBody",
           "package": "redHandlers",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "BasicRspBody",
           "package": "redHandlers",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "HandlerRsp",
           "package": "redHandlers",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "HandlerRsp",
           "package": "redHandlers",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "IORqHandler",
           "package": "redHandlers",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "IORqHandler",
           "package": "redHandlers",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "Non200Response",
           "package": "redHandlers",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "Non200Response",
           "package": "redHandlers",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RequestContext",
           "package": "redHandlers",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RequestContext",
           "package": "redHandlers",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RqHandlerT",
           "package": "redHandlers",
@@ -315,6 +342,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RqHandlerT",
           "package": "redHandlers",
@@ -328,6 +356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "FileResp",
           "package": "redHandlers",
@@ -337,6 +366,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "FileResp",
           "package": "redHandlers",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "HandlerRsp",
           "package": "redHandlers",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "HandlerRsp",
           "package": "redHandlers",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RedirectResp",
           "package": "redHandlers",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RedirectResp",
           "package": "redHandlers",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RequestContext",
           "package": "redHandlers",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RequestContext",
           "package": "redHandlers",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "RqHandlerT",
           "package": "redHandlers",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "RqHandlerT",
           "package": "redHandlers",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "StrResp",
           "package": "redHandlers",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "StrResp",
           "package": "redHandlers",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "addHierarchicalCollToResAddr",
           "package": "redHandlers",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "addHierarchicalCollToResAddr",
           "normalized": "String-\u003e[(String,String)]-\u003eRequestContext-\u003eRequestContext",
@@ -484,6 +526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "addMethodToCollAddr",
           "package": "redHandlers",
@@ -493,6 +536,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "addMethodToCollAddr",
           "normalized": "String-\u003eRequestContext-\u003eRequestContext",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "addMethodToResAddr",
           "package": "redHandlers",
@@ -517,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "addMethodToResAddr",
           "normalized": "String-\u003eRequestContext-\u003eRequestContext",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "addResourceIdToCollAddr",
           "package": "redHandlers",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "addResourceIdToCollAddr",
           "normalized": "String-\u003eRequestContext-\u003eRequestContext",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "anyOf",
           "package": "redHandlers",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "anyOf",
           "normalized": "[RqHandlerT a b]-\u003eRqHandlerT a b",
@@ -580,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspBodyToResponse",
           "package": "redHandlers",
@@ -589,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspBodyToResponse",
           "normalized": "BasicRspBody-\u003eResponse",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspToResponse",
           "package": "redHandlers",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspToResponse",
           "normalized": "BasicRsp-\u003eResponse",
@@ -628,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspWith",
           "package": "redHandlers",
@@ -637,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "basicRspWith",
           "normalized": "(a-\u003eString)-\u003eHandlerRsp a-\u003eBasicRsp",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "completeDirs",
           "package": "redHandlers",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "completeDirs",
           "normalized": "RequestContext-\u003e[String]",
@@ -676,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "completeURL",
           "package": "redHandlers",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "completeURL",
           "normalized": "RequestContext-\u003eString",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "consumedDirs",
           "package": "redHandlers",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "consumedDirs",
           "normalized": "[String]",
@@ -724,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "customQuery",
           "package": "redHandlers",
@@ -733,6 +796,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "customQuery",
           "normalized": "[(String,String)]",
@@ -748,6 +812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "debug",
           "package": "redHandlers",
@@ -757,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "debug",
           "normalized": "IORqHandler a-\u003eIORqHandler a",
@@ -771,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "debugStr",
           "package": "redHandlers",
@@ -780,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "debugStr",
           "normalized": "String-\u003eIORqHandler a-\u003eIORqHandler a",
@@ -795,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "dirs",
           "package": "redHandlers",
@@ -804,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "dirs",
           "normalized": "[String]",
@@ -818,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "docName",
           "package": "redHandlers",
@@ -827,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "docName",
           "package": "redHandlers",
@@ -840,6 +912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "eq",
           "package": "redHandlers",
@@ -849,6 +922,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "eq",
           "normalized": "(RequestContext-\u003ea)-\u003ea-\u003eRqHandlerT b c-\u003eRqHandlerT b c",
@@ -863,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "failWith",
           "package": "redHandlers",
@@ -872,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "failWith",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -887,6 +963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "fileRsp",
           "package": "redHandlers",
@@ -896,6 +973,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "fileRsp",
           "normalized": "Integer-\u003eFilePath-\u003eBasicRsp",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "filterReq",
           "package": "redHandlers",
@@ -920,6 +999,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "filterReq",
           "normalized": "(RequestContext-\u003eBool)-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -935,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "formInputs",
           "package": "redHandlers",
@@ -944,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "formInputs",
           "normalized": "[(String,Input)]",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "format",
           "package": "redHandlers",
@@ -968,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "format",
           "package": "redHandlers",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "formatEq",
           "package": "redHandlers",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "formatEq",
           "normalized": "String-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "formatHtml",
           "package": "redHandlers",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "formatHtml",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "getResponse",
           "package": "redHandlers",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "getResponse",
           "normalized": "RqHandlerT a BasicRsp-\u003eRequestContext-\u003ea Response",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "hanRspBody",
           "package": "redHandlers",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "hanRspBody",
           "package": "redHandlers",
@@ -1074,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "hanRspHeaders",
           "package": "redHandlers",
@@ -1083,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "hanRspHeaders",
           "normalized": "[Header]",
@@ -1098,6 +1192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "hasCookie",
           "package": "redHandlers",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "hasCookie",
           "normalized": "String-\u003eRequestContext-\u003eBool",
@@ -1122,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "ifGet",
           "package": "redHandlers",
@@ -1131,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "ifGet",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b",
@@ -1146,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "ifMethod",
           "package": "redHandlers",
@@ -1155,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "ifMethod",
           "normalized": "RequestMethod-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -1170,6 +1270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "ifPost",
           "package": "redHandlers",
@@ -1179,6 +1280,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "ifPost",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b",
@@ -1194,6 +1296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "ifReq",
           "package": "redHandlers",
@@ -1203,6 +1306,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "ifReq",
           "normalized": "(RequestContext-\u003eBool)-\u003eRqHandlerT a b-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -1218,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "mapDir",
           "package": "redHandlers",
@@ -1227,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "mapDir",
           "normalized": "String-\u003eRqHandlerT a BasicRsp",
@@ -1242,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "mapMaybeT",
           "package": "redHandlers",
@@ -1251,6 +1358,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "mapMaybeT",
           "normalized": "(a(Maybe b)-\u003ec(Maybe d))-\u003eMaybeT a b-\u003eMaybeT c d",
@@ -1266,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "mapRqHandlerT",
           "package": "redHandlers",
@@ -1275,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "mapRqHandlerT",
           "normalized": "(a(Maybe b)-\u003ec(Maybe d))-\u003eRqHandlerT a b-\u003eRqHandlerT c d",
@@ -1290,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeBasicRspToResponse",
           "package": "redHandlers",
@@ -1299,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeBasicRspToResponse",
           "normalized": "Maybe BasicRsp-\u003eResponse",
@@ -1314,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeReads",
           "package": "redHandlers",
@@ -1323,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeReads",
           "normalized": "String-\u003eMaybe a",
@@ -1338,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeToMonadPlus",
           "package": "redHandlers",
@@ -1347,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "maybeToMonadPlus",
           "normalized": "Maybe a-\u003eb a",
@@ -1362,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "mkRqCtx",
           "package": "redHandlers",
@@ -1371,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "mkRqCtx",
           "normalized": "Request-\u003eIO RequestContext",
@@ -1386,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "modReq",
           "package": "redHandlers",
@@ -1395,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "modReq",
           "normalized": "(RequestContext-\u003eRequestContext)-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -1410,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "modResp",
           "package": "redHandlers",
@@ -1419,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "modResp",
           "normalized": "(a-\u003eb)-\u003eRqHandlerT c a-\u003eRqHandlerT c b",
@@ -1434,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "moveBackwardDir",
           "package": "redHandlers",
@@ -1443,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "moveBackwardDir",
           "normalized": "RequestContext-\u003eMaybe(RequestContext,String)",
@@ -1458,6 +1582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "moveForwardDir",
           "package": "redHandlers",
@@ -1467,6 +1592,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "moveForwardDir",
           "normalized": "RequestContext-\u003eMaybe(RequestContext,String)",
@@ -1482,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "non200response",
           "package": "redHandlers",
@@ -1491,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "non200response",
           "normalized": "Non Response-\u003eResponse",
@@ -1505,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "notFoundResponse",
           "package": "redHandlers",
@@ -1514,6 +1643,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "notFoundResponse",
           "package": "redHandlers",
@@ -1527,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "notMe",
           "package": "redHandlers",
@@ -1536,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "notMe",
           "package": "redHandlers",
@@ -1549,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "okHTTPStrResponse",
           "package": "redHandlers",
@@ -1558,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "okHTTPStrResponse",
           "normalized": "String-\u003eResponse",
@@ -1573,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "orIfEmpty",
           "package": "redHandlers",
@@ -1582,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "orIfEmpty",
           "normalized": "[a]-\u003e[a]-\u003e[a]",
@@ -1597,6 +1733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "originalRequest",
           "package": "redHandlers",
@@ -1606,6 +1743,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "originalRequest",
           "package": "redHandlers",
@@ -1619,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "pendingURIPath",
           "package": "redHandlers",
@@ -1628,6 +1767,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "pendingURIPath",
           "normalized": "RequestContext-\u003eString",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "postField",
           "package": "redHandlers",
@@ -1652,6 +1793,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "postField",
           "normalized": "String-\u003eRequestContext-\u003eString",
@@ -1667,6 +1809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "postFieldFileName",
           "package": "redHandlers",
@@ -1676,6 +1819,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "postFieldFileName",
           "normalized": "String-\u003eRequestContext-\u003eMaybe String",
@@ -1691,6 +1835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "postFields",
           "package": "redHandlers",
@@ -1700,6 +1845,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "postFields",
           "normalized": "RequestContext-\u003e[(String,String)]",
@@ -1715,6 +1861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "printFullReq",
           "package": "redHandlers",
@@ -1724,6 +1871,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "printFullReq",
           "normalized": "IORqHandler()",
@@ -1739,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "printReq",
           "package": "redHandlers",
@@ -1748,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "printReq",
           "normalized": "IORqHandler a-\u003eIORqHandler a",
@@ -1763,6 +1913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "printString",
           "package": "redHandlers",
@@ -1772,6 +1923,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "printString",
           "normalized": "String-\u003eIORqHandler()",
@@ -1787,6 +1939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "query",
           "package": "redHandlers",
@@ -1796,6 +1949,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "query",
           "normalized": "RequestContext-\u003e[(String,String)]",
@@ -1810,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "redirectResponse",
           "package": "redHandlers",
@@ -1819,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "redirectResponse",
           "package": "redHandlers",
@@ -1832,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "redirectToRsp",
           "package": "redHandlers",
@@ -1841,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "redirectToRsp",
           "normalized": "String-\u003eHandlerRsp a",
@@ -1856,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "renderQuery",
           "package": "redHandlers",
@@ -1865,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "renderQuery",
           "normalized": "[(String,String)]-\u003eString",
@@ -1880,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "reprocessLastDir",
           "package": "redHandlers",
@@ -1889,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "reprocessLastDir",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b",
@@ -1904,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "requestTime",
           "package": "redHandlers",
@@ -1913,6 +2076,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "requestTime",
           "package": "redHandlers",
@@ -1926,6 +2090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "respWithStatic",
           "package": "redHandlers",
@@ -1935,6 +2100,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "respWithStatic",
           "normalized": "String-\u003eRqHandlerT a BasicRsp",
@@ -1950,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "restrictByParentQuery",
           "package": "redHandlers",
@@ -1959,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "restrictByParentQuery",
           "normalized": "[(String,String)]",
@@ -1974,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "run",
           "package": "redHandlers",
@@ -1983,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "run",
           "normalized": "Parser a-\u003eString-\u003eIO()",
@@ -1997,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "runHttpServer",
           "package": "redHandlers",
@@ -2006,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "runHttpServer",
           "normalized": "PortNumber-\u003e[IORqHandler BasicRsp]-\u003eIO()",
@@ -2021,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "runRqHandlerT",
           "package": "redHandlers",
@@ -2030,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "runRqHandlerT",
           "normalized": "RqHandlerT a b-\u003eRequestContext-\u003ea(Maybe b)",
@@ -2045,6 +2219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "sat",
           "package": "redHandlers",
@@ -2054,6 +2229,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "sat",
           "normalized": "(RequestContext-\u003ea)-\u003e(a-\u003eBool)-\u003eRqHandlerT b c-\u003eRqHandlerT b c",
@@ -2068,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "setCollectionFromRootAddr",
           "package": "redHandlers",
@@ -2077,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "setCollectionFromRootAddr",
           "normalized": "String-\u003eRequestContext-\u003eRequestContext",
@@ -2092,6 +2270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "showParses",
           "package": "redHandlers",
@@ -2101,6 +2280,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "showParses",
           "normalized": "Parser a-\u003e[String]-\u003eIO()",
@@ -2116,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "showReq",
           "package": "redHandlers",
@@ -2125,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "showReq",
           "normalized": "RequestContext-\u003eHtml",
@@ -2140,6 +2322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "showReqHtml",
           "package": "redHandlers",
@@ -2149,6 +2332,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "showReqHtml",
           "package": "redHandlers",
@@ -2162,6 +2346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "unRqHandlerT",
           "package": "redHandlers",
@@ -2171,6 +2356,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "unRqHandlerT",
           "package": "redHandlers",
@@ -2184,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "under",
           "package": "redHandlers",
@@ -2193,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "under",
           "normalized": "String-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -2207,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "underInteger",
           "package": "redHandlers",
@@ -2216,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "underInteger",
           "normalized": "(Integer-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2231,6 +2421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "underNoDir",
           "package": "redHandlers",
@@ -2240,6 +2431,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "underNoDir",
           "normalized": "RqHandlerT a b-\u003eRqHandlerT a b",
@@ -2255,6 +2447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "underString",
           "package": "redHandlers",
@@ -2264,6 +2457,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "underString",
           "normalized": "(String-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2279,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "upgradeQueriesForHierarchy",
           "package": "redHandlers",
@@ -2288,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "upgradeQueriesForHierarchy",
           "normalized": "[(String,String)]-\u003eRequestContext-\u003eRequestContext",
@@ -2303,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocName",
           "package": "redHandlers",
@@ -2312,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocName",
           "normalized": "String-\u003eRqHandlerT a b-\u003eRqHandlerT a b",
@@ -2327,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocNameInteger",
           "package": "redHandlers",
@@ -2336,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocNameInteger",
           "normalized": "(Integer-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2351,6 +2551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocNameString",
           "package": "redHandlers",
@@ -2360,6 +2561,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withDocNameString",
           "normalized": "(String-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2375,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withParam",
           "package": "redHandlers",
@@ -2384,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withParam",
           "normalized": "(RequestContext-\u003eMaybe a)-\u003e(a-\u003eRqHandlerT b c)-\u003eRqHandlerT b c",
@@ -2399,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostField",
           "package": "redHandlers",
@@ -2408,6 +2613,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostField",
           "normalized": "String-\u003e(String-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2423,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostFieldFileName",
           "package": "redHandlers",
@@ -2432,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostFieldFileName",
           "normalized": "String-\u003e(Maybe String-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2447,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostFields",
           "package": "redHandlers",
@@ -2456,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withPostFields",
           "normalized": "([(String,String)]-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2471,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withQuery",
           "package": "redHandlers",
@@ -2480,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withQuery",
           "normalized": "([(String,String)]-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2495,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withQueryField",
           "package": "redHandlers",
@@ -2504,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withQueryField",
           "normalized": "String-\u003e(String-\u003eRqHandlerT a b)-\u003eRqHandlerT a b",
@@ -2519,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:50:06 UTC 2014",
           "module": "Network.HTTP.RedHandler",
           "name": "withRequestDo",
           "package": "redHandlers",
@@ -2528,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP RedHandler",
+          "indexed": "2014-03-11T19:50:06",
           "module": "Network.HTTP.RedHandler",
           "name": "withRequestDo",
           "normalized": "(RequestContext-\u003ea b)-\u003eRqHandlerT a b",

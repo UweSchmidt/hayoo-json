@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsp-cgi"
+        "phrase": "hsp-cgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:33 UTC 2014",
           "module": "HSP.CGI.RunCGI",
           "name": "runCGI",
           "package": "hsp-cgi",
@@ -27,6 +28,7 @@
         },
         "index": {
           "hierarchy": "HSP CGI RunCGI",
+          "indexed": "2014-03-11T18:49:33",
           "module": "HSP.CGI.RunCGI",
           "name": "runCGI",
           "normalized": "HSP XML-\u003eIO()",

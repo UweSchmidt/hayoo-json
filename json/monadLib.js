@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monadLib"
+        "phrase": "monadLib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a number of functions that make it easy\nto get the functionality of MonadLib for user-defined newtypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "Derive",
           "package": "monadLib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module defines number of functions that make it easy to get the functionality of MonadLib for user-defined newtypes",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "Derive",
           "package": "monadLib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn isomorphism between (usually) monads.\n Typically the constructor and selector of a newtype delcaration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "Iso",
           "package": "monadLib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An isomorphism between usually monads Typically the constructor and selector of newtype delcaration",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "Iso",
           "package": "monadLib",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "Iso",
           "package": "monadLib",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "Iso",
           "normalized": "Iso(a b c d-\u003ee d)(a b e d-\u003ec d)",
@@ -88,6 +94,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_abort",
           "package": "monadLib",
@@ -97,6 +104,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_abort",
           "normalized": "Iso a b-\u003ec-\u003eb d",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_apply",
           "package": "monadLib",
@@ -122,6 +131,7 @@
         "index": {
           "description": "Derive the implementation of from Applicative",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_apply",
           "normalized": "Iso a b-\u003eb(c-\u003ed)-\u003eb c-\u003eb d",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eask\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eReaderM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_ask",
           "package": "monadLib",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Derive the implementation of ask from ReaderM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_ask",
           "normalized": "Iso a b-\u003eb c",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003e\u003e\u003e=\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_bind",
           "package": "monadLib",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Derive the implementation of from Monad",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_bind",
           "normalized": "Iso a b-\u003eb c-\u003e(c-\u003eb d)-\u003eb d",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003ecallWithCC\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eContM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_callWithCC",
           "package": "monadLib",
@@ -197,6 +212,7 @@
         "index": {
           "description": "Derive the implementation of callWithCC from ContM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_callWithCC",
           "normalized": "Iso a b-\u003e((c-\u003eLabel b)-\u003eb c)-\u003eb c",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003ecollect\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eRunWriterM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_collect",
           "package": "monadLib",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Derive the implementation of collect from RunWriterM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_collect",
           "normalized": "Iso a b-\u003eb c-\u003eb(c,d)",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eempty\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_empty",
           "package": "monadLib",
@@ -248,6 +267,7 @@
         "index": {
           "description": "Derive the implementation of empty from Alternative",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_empty",
           "normalized": "Iso a b-\u003eb c",
@@ -262,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_fail",
           "package": "monadLib",
@@ -271,6 +292,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_fail",
           "normalized": "Iso a b-\u003eString-\u003eb c",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_fmap",
           "package": "monadLib",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Derive the implementation of fmap from Functor",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_fmap",
           "normalized": "Iso a b-\u003e(c-\u003ed)-\u003eb c-\u003eb d",
@@ -311,6 +335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eStateM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_get",
           "package": "monadLib",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Derive the implementation of get from StateM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_get",
           "normalized": "Iso a b-\u003eb c",
@@ -336,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003einBase\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eBaseM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_inBase",
           "package": "monadLib",
@@ -346,6 +373,7 @@
         "index": {
           "description": "Derive the implementation of inBase from BaseM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_inBase",
           "normalized": "Iso a b-\u003ec d-\u003eb d",
@@ -362,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003elift\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonadT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_lift",
           "package": "monadLib",
@@ -372,6 +401,7 @@
         "index": {
           "description": "Derive the implementation of lift from MonadT",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_lift",
           "normalized": "Iso(a b)c-\u003eb d-\u003ec d",
@@ -387,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003elocal\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eRunReaderM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_local",
           "package": "monadLib",
@@ -397,6 +428,7 @@
         "index": {
           "description": "Derive the implementation of local from RunReaderM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_local",
           "normalized": "Iso a b-\u003ec-\u003eb d-\u003eb d",
@@ -412,6 +444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003emfix\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonadFix\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_mfix",
           "package": "monadLib",
@@ -422,6 +455,7 @@
         "index": {
           "description": "Derive the implementation of mfix from MonadFix",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_mfix",
           "normalized": "Iso a b-\u003e(c-\u003eb c)-\u003eb c",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_mplus",
           "package": "monadLib",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Derive the implementation of mplus from MonadPlus",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_mplus",
           "normalized": "Iso a b-\u003eb c-\u003eb c-\u003eb c",
@@ -462,6 +498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003emzero\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonadPlus\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_mzero",
           "package": "monadLib",
@@ -472,6 +509,7 @@
         "index": {
           "description": "Derive the implementation of mzero from MonadPlus",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_mzero",
           "normalized": "Iso a b-\u003eb c",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003e\u003c|\u003e\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eAlternative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_or",
           "package": "monadLib",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Derive the implementation of from Alternative",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_or",
           "normalized": "Iso a b-\u003eb c-\u003eb c-\u003eb c",
@@ -512,6 +552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003epure\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_pure",
           "package": "monadLib",
@@ -522,6 +563,7 @@
         "index": {
           "description": "Derive the implementation of pure from Applicative",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_pure",
           "normalized": "Iso a b-\u003ec-\u003eb c",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eWriterM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_put",
           "package": "monadLib",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Derive the implementation of put from WriterM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_put",
           "normalized": "Iso a b-\u003ec-\u003eb()",
@@ -562,6 +606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eExceptionM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_raise",
           "package": "monadLib",
@@ -572,6 +617,7 @@
         "index": {
           "description": "Derive the implementation of raise from ExceptionM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_raise",
           "normalized": "Iso a b-\u003ec-\u003eb d",
@@ -587,6 +633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_return",
           "package": "monadLib",
@@ -597,6 +644,7 @@
         "index": {
           "description": "Derive the implementation of return from Monad",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_return",
           "normalized": "Iso a b-\u003ec-\u003eb c",
@@ -612,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of the \u003ccode\u003e\u003ca\u003erunM\u003c/a\u003e\u003c/code\u003e function from \u003ccode\u003e\u003ca\u003eRunM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_runM",
           "package": "monadLib",
@@ -622,6 +671,7 @@
         "index": {
           "description": "Derive the implementation of the runM function from RunM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_runM",
           "normalized": "Iso a b-\u003eb c-\u003ed",
@@ -637,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003eset\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eStateM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_set",
           "package": "monadLib",
@@ -647,6 +698,7 @@
         "index": {
           "description": "Derive the implementation of set from StateM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_set",
           "normalized": "Iso a b-\u003ec-\u003eb()",
@@ -662,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDerive the implementation of \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003e\u003ca\u003eRunExceptionM\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Derive",
           "name": "derive_try",
           "package": "monadLib",
@@ -672,6 +725,7 @@
         "index": {
           "description": "Derive the implementation of try from RunExceptionM",
           "hierarchy": "MonadLib Derive",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Derive",
           "name": "derive_try",
           "normalized": "Iso a b-\u003eb c-\u003eb(Either d c)",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a collection of monads that\n   are defined in terms of the monad transformers from\n   \u003ca\u003eMonadLib\u003c/a\u003e.   The definitions in this module are\n   completely mechanical and so this module may become\n   obsolete if support for automated derivations for instances\n   becomes well supported across implementations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "Monads",
           "package": "monadLib",
@@ -696,6 +751,7 @@
         "index": {
           "description": "This module contains collection of monads that are defined in terms of the monad transformers from MonadLib The definitions in this module are completely mechanical and so this module may become obsolete if support for automated derivations for instances becomes well supported across implementations",
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "Monads",
           "package": "monadLib",
@@ -709,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "Cont",
           "package": "monadLib",
@@ -717,6 +774,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "Cont",
           "package": "monadLib",
@@ -730,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "Exception",
           "package": "monadLib",
@@ -738,6 +797,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "Exception",
           "package": "monadLib",
@@ -751,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "Reader",
           "package": "monadLib",
@@ -759,6 +820,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "Reader",
           "package": "monadLib",
@@ -772,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "State",
           "package": "monadLib",
@@ -780,6 +843,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "State",
           "package": "monadLib",
@@ -793,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "Writer",
           "package": "monadLib",
@@ -801,6 +866,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "Writer",
           "package": "monadLib",
@@ -814,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "runCont",
           "package": "monadLib",
@@ -823,6 +890,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "runCont",
           "normalized": "(a-\u003eb)-\u003eCont b a-\u003eb",
@@ -838,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "runException",
           "package": "monadLib",
@@ -847,6 +916,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "runException",
           "normalized": "Exception a b-\u003eEither a b",
@@ -862,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "runReader",
           "package": "monadLib",
@@ -871,6 +942,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "runReader",
           "normalized": "a-\u003eReader a b-\u003eb",
@@ -886,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "runState",
           "package": "monadLib",
@@ -895,6 +968,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "runState",
           "normalized": "a-\u003eState a b-\u003e(b,a)",
@@ -910,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib.Monads",
           "name": "runWriter",
           "package": "monadLib",
@@ -919,6 +994,7 @@
         },
         "index": {
           "hierarchy": "MonadLib Monads",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib.Monads",
           "name": "runWriter",
           "normalized": "Writer a b-\u003e(b,a)",
@@ -935,6 +1011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis library provides a collection of monad transformers that\n    can be combined to produce various monads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "MonadLib",
           "package": "monadLib",
@@ -944,6 +1021,7 @@
         "index": {
           "description": "This library provides collection of monad transformers that can be combined to produce various monads",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "MonadLib",
           "package": "monadLib",
@@ -958,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that support aborting the program and returning\n a given final result of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "AbortM",
           "package": "monadLib",
@@ -967,6 +1046,7 @@
         "index": {
           "description": "Classifies monads that support aborting the program and returning given final result of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "AbortM",
           "package": "monadLib",
@@ -980,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "BaseM",
           "package": "monadLib",
@@ -988,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "BaseM",
           "package": "monadLib",
@@ -1002,6 +1084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for multiple answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ChoiceT",
           "package": "monadLib",
@@ -1011,6 +1094,7 @@
         "index": {
           "description": "Add support for multiple answers",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ChoiceT",
           "package": "monadLib",
@@ -1025,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that provide access to a computation's continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ContM",
           "package": "monadLib",
@@ -1034,6 +1119,7 @@
         "index": {
           "description": "Classifies monads that provide access to computation continuation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ContM",
           "package": "monadLib",
@@ -1048,6 +1134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for continuations within a prompt of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ContT",
           "package": "monadLib",
@@ -1057,6 +1144,7 @@
         "index": {
           "description": "Add support for continuations within prompt of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ContT",
           "package": "monadLib",
@@ -1071,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that support raising exceptions of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ExceptionM",
           "package": "monadLib",
@@ -1080,6 +1169,7 @@
         "index": {
           "description": "Classifies monads that support raising exceptions of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ExceptionM",
           "package": "monadLib",
@@ -1094,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for exceptions of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ExceptionT",
           "package": "monadLib",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Add support for exceptions of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ExceptionT",
           "package": "monadLib",
@@ -1117,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputations with no effects.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "Id",
           "package": "monadLib",
@@ -1126,6 +1219,7 @@
         "index": {
           "description": "Computations with no effects",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "Id",
           "package": "monadLib",
@@ -1140,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds no new features.  Useful as a placeholder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "IdT",
           "package": "monadLib",
@@ -1149,6 +1244,7 @@
         "index": {
           "description": "Adds no new features Useful as placeholder",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "IdT",
           "package": "monadLib",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn explicit representation for monadic continuations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "Label",
           "package": "monadLib",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "An explicit representation for monadic continuations",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "Label",
           "package": "monadLib",
@@ -1186,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputation with no effects (strict).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "Lift",
           "package": "monadLib",
@@ -1195,6 +1294,7 @@
         "index": {
           "description": "Computation with no effects strict",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "Lift",
           "package": "monadLib",
@@ -1208,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "MonadT",
           "package": "monadLib",
@@ -1216,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "MonadT",
           "package": "monadLib",
@@ -1230,6 +1332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that provide access to a context of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ReaderM",
           "package": "monadLib",
@@ -1239,6 +1342,7 @@
         "index": {
           "description": "Classifies monads that provide access to context of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ReaderM",
           "package": "monadLib",
@@ -1253,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for propagating a context of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ReaderT",
           "package": "monadLib",
@@ -1262,6 +1367,7 @@
         "index": {
           "description": "Add support for propagating context of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ReaderT",
           "package": "monadLib",
@@ -1276,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that support handling of exceptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "RunExceptionM",
           "package": "monadLib",
@@ -1285,6 +1392,7 @@
         "index": {
           "description": "Classifies monads that support handling of exceptions",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "RunExceptionM",
           "package": "monadLib",
@@ -1299,6 +1407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized running.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "RunM",
           "package": "monadLib",
@@ -1308,6 +1417,7 @@
         "index": {
           "description": "Generalized running",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "RunM",
           "package": "monadLib",
@@ -1322,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that support changing the context for a\n sub-computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "RunReaderM",
           "package": "monadLib",
@@ -1331,6 +1442,7 @@
         "index": {
           "description": "Classifies monads that support changing the context for sub-computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "RunReaderM",
           "package": "monadLib",
@@ -1345,6 +1457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that support collecting the output of\n a sub-computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "RunWriterM",
           "package": "monadLib",
@@ -1354,6 +1467,7 @@
         "index": {
           "description": "Classifies monads that support collecting the output of sub-computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "RunWriterM",
           "package": "monadLib",
@@ -1368,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that propagate a state component of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "StateM",
           "package": "monadLib",
@@ -1377,6 +1492,7 @@
         "index": {
           "description": "Classifies monads that propagate state component of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "StateM",
           "package": "monadLib",
@@ -1391,6 +1507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for threading state of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "StateT",
           "package": "monadLib",
@@ -1400,6 +1517,7 @@
         "index": {
           "description": "Add support for threading state of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "StateT",
           "package": "monadLib",
@@ -1414,6 +1532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClassifies monads that can collect values of type \u003ccode\u003ei\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "WriterM",
           "package": "monadLib",
@@ -1423,6 +1542,7 @@
         "index": {
           "description": "Classifies monads that can collect values of type",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "WriterM",
           "package": "monadLib",
@@ -1437,6 +1557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd support for collecting values of type \u003ccode\u003ei\u003c/code\u003e.\n The type \u003ccode\u003ei\u003c/code\u003e should be a monoid, whose unit is used to represent\n a lack of a value, and whose binary operation is used to combine\n multiple values.\n This transformer is strict in its output component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "WriterT",
           "package": "monadLib",
@@ -1446,6 +1567,7 @@
         "index": {
           "description": "Add support for collecting values of type The type should be monoid whose unit is used to represent lack of value and whose binary operation is used to combine multiple values This transformer is strict in its output component",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "WriterT",
           "package": "monadLib",
@@ -1460,6 +1582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort the program with the given value as final result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "abort",
           "package": "monadLib",
@@ -1470,6 +1593,7 @@
         "index": {
           "description": "Abort the program with the given value as final result",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "abort",
           "normalized": "a-\u003eb c",
@@ -1485,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "ask",
           "package": "monadLib",
@@ -1495,6 +1620,7 @@
         "index": {
           "description": "Get the context",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "ask",
           "package": "monadLib",
@@ -1508,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the environment.\n Useful for accessing environmnt components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "asks",
           "package": "monadLib",
@@ -1518,6 +1645,7 @@
         "index": {
           "description": "Apply function to the environment Useful for accessing environmnt components",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "asks",
           "normalized": "(a-\u003eb)-\u003ec b",
@@ -1533,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003ecallWithCC\u003c/a\u003e\u003c/code\u003e that avoids the need for an explicit\n use of the \u003ccode\u003e\u003ca\u003ejump\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "callCC",
           "package": "monadLib",
@@ -1543,6 +1672,7 @@
         "index": {
           "description": "version of callWithCC that avoids the need for an explicit use of the jump function",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "callCC",
           "normalized": "((a-\u003eb c)-\u003eb a)-\u003eb a",
@@ -1559,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the current continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "callWithCC",
           "package": "monadLib",
@@ -1569,6 +1700,7 @@
         "index": {
           "description": "Capture the current continuation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "callWithCC",
           "normalized": "((a-\u003eLabel b)-\u003eb a)-\u003eb a",
@@ -1585,6 +1717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect the output from a sub-computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "collect",
           "package": "monadLib",
@@ -1595,6 +1728,7 @@
         "index": {
           "description": "Collect the output from sub-computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "collect",
           "normalized": "a b-\u003ea(b,c)",
@@ -1610,6 +1744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation that may return multiple answers,\n collecting all possible answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "findAll",
           "package": "monadLib",
@@ -1620,6 +1755,7 @@
         "index": {
           "description": "Execute computation that may return multiple answers collecting all possible answers",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "findAll",
           "normalized": "ChoiceT a b-\u003ea[b]",
@@ -1636,6 +1772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation that may return multiple answers,\n returning at most one answer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "findOne",
           "package": "monadLib",
@@ -1646,6 +1783,7 @@
         "index": {
           "description": "Execute computation that may return multiple answers returning at most one answer",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "findOne",
           "normalized": "ChoiceT a b-\u003ea(Maybe b)",
@@ -1662,6 +1800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "get",
           "package": "monadLib",
@@ -1672,6 +1811,7 @@
         "index": {
           "description": "Get the state",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "get",
           "package": "monadLib",
@@ -1685,6 +1825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the given exception handler, if a computation raises an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "handle",
           "package": "monadLib",
@@ -1695,6 +1836,7 @@
         "index": {
           "description": "Apply the given exception handler if computation raises an exception",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "handle",
           "normalized": "a b-\u003e(c-\u003ea b)-\u003ea b",
@@ -1710,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a computation from the base monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "inBase",
           "package": "monadLib",
@@ -1720,6 +1863,7 @@
         "index": {
           "description": "Promote computation from the base monad",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "inBase",
           "normalized": "a b-\u003ec b",
@@ -1736,6 +1880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRestart a previously captured computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "jump",
           "package": "monadLib",
@@ -1746,6 +1891,7 @@
         "index": {
           "description": "Restart previously captured computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "jump",
           "normalized": "Label a-\u003ea b",
@@ -1761,6 +1907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabel a given continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "labelC",
           "package": "monadLib",
@@ -1771,6 +1918,7 @@
         "index": {
           "description": "Label given continuation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "labelC",
           "normalized": "(a b c d)-\u003eLabel c",
@@ -1786,6 +1934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the current continuation.\n This function is like \u003ccode\u003e\u003ca\u003ereturn\u003c/a\u003e\u003c/code\u003e, except that it also captures\n the current continuation.  Later, we can use \u003ccode\u003e\u003ca\u003ejump\u003c/a\u003e\u003c/code\u003e to repeat the\n computation from this point onwards but with a possibly different value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "labelCC",
           "package": "monadLib",
@@ -1796,6 +1945,7 @@
         "index": {
           "description": "Capture the current continuation This function is like return except that it also captures the current continuation Later we can use jump to repeat the computation from this point onwards but with possibly different value",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "labelCC",
           "normalized": "a-\u003eb(a,a-\u003eLabel b)",
@@ -1812,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCapture the current continuation.\n Later we can use \u003ccode\u003e\u003ca\u003ejump\u003c/a\u003e\u003c/code\u003e to restart the program from this point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "labelCC_",
           "package": "monadLib",
@@ -1822,6 +1973,7 @@
         "index": {
           "description": "Capture the current continuation Later we can use jump to restart the program from this point",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "labelCC_",
           "package": "monadLib",
@@ -1836,6 +1988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote a computation from the underlying monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "lift",
           "package": "monadLib",
@@ -1846,6 +1999,7 @@
         "index": {
           "description": "Promote computation from the underlying monad",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "lift",
           "normalized": "a b-\u003ec a b",
@@ -1861,6 +2015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the context for the duration of a sub-computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "local",
           "package": "monadLib",
@@ -1871,6 +2026,7 @@
         "index": {
           "description": "Change the context for the duration of sub-computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "local",
           "normalized": "a-\u003eb c-\u003eb c",
@@ -1886,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the exception that was risen by a computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "mapException",
           "package": "monadLib",
@@ -1896,6 +2053,7 @@
         "index": {
           "description": "Modify the exception that was risen by computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "mapException",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -1912,6 +2070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the environment for the duration of a computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "mapReader",
           "package": "monadLib",
@@ -1922,6 +2081,7 @@
         "index": {
           "description": "Modify the environment for the duration of computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "mapReader",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -1938,6 +2098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the output of a computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "mapWriter",
           "package": "monadLib",
@@ -1948,6 +2109,7 @@
         "index": {
           "description": "Modify the output of computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "mapWriter",
           "normalized": "(a-\u003ea)-\u003eb c-\u003eb c",
@@ -1964,6 +2126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a value to the collection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "put",
           "package": "monadLib",
@@ -1974,6 +2137,7 @@
         "index": {
           "description": "Add value to the collection",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "put",
           "normalized": "a-\u003eb()",
@@ -1989,6 +2153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd content the output and return a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "puts",
           "package": "monadLib",
@@ -1999,6 +2164,7 @@
         "index": {
           "description": "Add content the output and return result",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "puts",
           "normalized": "(a,b)-\u003ec a",
@@ -2014,6 +2180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise an exception.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "raise",
           "package": "monadLib",
@@ -2024,6 +2191,7 @@
         "index": {
           "description": "Raise an exception",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "raise",
           "normalized": "a-\u003eb c",
@@ -2039,6 +2207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither raise an exception or return a value.\n \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e values signify the we should raise an exception,\n \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e values indicate success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "raises",
           "package": "monadLib",
@@ -2049,6 +2218,7 @@
         "index": {
           "description": "Either raise an exception or return value Left values signify the we should raise an exception Right values indicate success",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "raises",
           "normalized": "Either a b-\u003ec b",
@@ -2064,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation that may return multiple answers.\n The resulting computation returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if no answers were found, or \u003ccode\u003eJust (answer,new_comp)\u003c/code\u003e,\n where \u003ccode\u003eanswer\u003c/code\u003e is an answer, and \u003ccode\u003enew_comp\u003c/code\u003e is a computation\n that may produce more answers.\n The search is depth-first and left-biased with respect to the\n \u003ccode\u003e\u003ca\u003emplus\u003c/a\u003e\u003c/code\u003e operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runChoiceT",
           "package": "monadLib",
@@ -2074,6 +2245,7 @@
         "index": {
           "description": "Execute computation that may return multiple answers The resulting computation returns Nothing if no answers were found or Just answer new comp where answer is an answer and new comp is computation that may produce more answers The search is depth-first and left-biased with respect to the mplus operation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runChoiceT",
           "normalized": "ChoiceT a b-\u003ea(Maybe(b,ChoiceT a b))",
@@ -2090,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation with the given continuation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runContT",
           "package": "monadLib",
@@ -2100,6 +2273,7 @@
         "index": {
           "description": "Execute computation with the given continuation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runContT",
           "normalized": "(a-\u003eb c)-\u003eContT c b a-\u003eb c",
@@ -2116,6 +2290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a computation with exceptions.\n Successful results are tagged with \u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e,\n exceptional results are tagged with \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runExceptionT",
           "package": "monadLib",
@@ -2126,6 +2301,7 @@
         "index": {
           "description": "Execute computation with exceptions Successful results are tagged with Right exceptional results are tagged with Left",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runExceptionT",
           "normalized": "ExceptionT a b c-\u003eb(Either a c)",
@@ -2142,6 +2318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the result of a pure computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runId",
           "package": "monadLib",
@@ -2152,6 +2329,7 @@
         "index": {
           "description": "Get the result of pure computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runId",
           "normalized": "Id a-\u003ea",
@@ -2168,6 +2346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an identity layer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runIdT",
           "package": "monadLib",
@@ -2178,6 +2357,7 @@
         "index": {
           "description": "Remove an identity layer",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runIdT",
           "normalized": "IdT a b-\u003ea b",
@@ -2194,6 +2374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the result of a pure strict computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runLift",
           "package": "monadLib",
@@ -2204,6 +2385,7 @@
         "index": {
           "description": "Get the result of pure strict computation",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runLift",
           "normalized": "Lift a-\u003ea",
@@ -2219,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runM",
           "package": "monadLib",
@@ -2228,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runM",
           "normalized": "a b-\u003ec",
@@ -2243,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a reader computation in the given context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runReaderT",
           "package": "monadLib",
@@ -2253,6 +2438,7 @@
         "index": {
           "description": "Execute reader computation in the given context",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runReaderT",
           "normalized": "a-\u003eReaderT a b c-\u003eb c",
@@ -2269,6 +2455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a stateful computation in the given initial state.\n The second component of the result is the final state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runStateT",
           "package": "monadLib",
@@ -2279,6 +2466,7 @@
         "index": {
           "description": "Execute stateful computation in the given initial state The second component of the result is the final state",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runStateT",
           "normalized": "a-\u003eStateT a b c-\u003eb(c,a)",
@@ -2295,6 +2483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute a writer computation.\n Returns the result and the collected output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "runWriterT",
           "package": "monadLib",
@@ -2305,6 +2494,7 @@
         "index": {
           "description": "Execute writer computation Returns the result and the collected output",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "runWriterT",
           "normalized": "WriterT a b c-\u003eb(c,a)",
@@ -2321,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the state.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "set",
           "package": "monadLib",
@@ -2331,6 +2522,7 @@
         "index": {
           "description": "Set the state",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "set",
           "normalized": "a-\u003eb()",
@@ -2346,6 +2538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the state and return a result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "sets",
           "package": "monadLib",
@@ -2356,6 +2549,7 @@
         "index": {
           "description": "Update the state and return result",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "sets",
           "normalized": "(a-\u003e(b,a))-\u003ec b",
@@ -2371,6 +2565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdates the state with the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "sets_",
           "package": "monadLib",
@@ -2381,6 +2576,7 @@
         "index": {
           "description": "Updates the state with the given function",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "sets_",
           "normalized": "(a-\u003ea)-\u003eb()",
@@ -2396,6 +2592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert computations that may raise an exception\n into computations that do not raise exception but instead,\n yield a tagged results.  Exceptions are tagged with \u003ca\u003eLeft\u003c/a\u003e,\n successful computations are tagged with \u003ca\u003eRight\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "try",
           "package": "monadLib",
@@ -2406,6 +2603,7 @@
         "index": {
           "description": "Convert computations that may raise an exception into computations that do not raise exception but instead yield tagged results Exceptions are tagged with Left successful computations are tagged with Right",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "try",
           "normalized": "a b-\u003ea(Either c b)",
@@ -2421,6 +2619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current version of the library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:21:07 UTC 2014",
           "module": "MonadLib",
           "name": "version",
           "package": "monadLib",
@@ -2431,6 +2630,7 @@
         "index": {
           "description": "The current version of the library",
           "hierarchy": "MonadLib",
+          "indexed": "2014-03-11T19:21:07",
           "module": "MonadLib",
           "name": "version",
           "normalized": "(Int,Int,Int)",

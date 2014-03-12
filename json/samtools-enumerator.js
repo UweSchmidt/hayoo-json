@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "samtools-enumerator"
+        "phrase": "samtools-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "Enumerator",
           "package": "samtools-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "Enumerator",
           "package": "samtools-enumerator",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the contents of a BAM (binary) alignment file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumBam",
           "package": "samtools-enumerator",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Enumerate over the contents of BAM binary alignment file",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumBam",
           "normalized": "FilePath-\u003eEnumerator Bam IO a",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the reads in a region from a sorted, indexed BAM file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumBamRegion",
           "package": "samtools-enumerator",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Enumerate over the reads in region from sorted indexed BAM file",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumBamRegion",
           "normalized": "FilePath-\u003eByteString-\u003e(Int,Int)-\u003eEnumerator Bam IO a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the contents of a BAM/SAM alignment input handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumInHandle",
           "package": "samtools-enumerator",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Enumerate over the contents of BAM SAM alignment input handle",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumInHandle",
           "normalized": "InHandle-\u003eEnumerator Bam a b",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the reads in a region from an indexed BAM file input handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumIndexRegion",
           "package": "samtools-enumerator",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Enumerate over the reads in region from an indexed BAM file input handle",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumIndexRegion",
           "normalized": "IdxHandle-\u003eInt-\u003e(Int,Int)-\u003eEnumerator Bam IO a",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the results of a query into a sorted, indexed BAM file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumQuery",
           "package": "samtools-enumerator",
@@ -154,6 +165,7 @@
         "index": {
           "description": "Enumerate over the results of query into sorted indexed BAM file",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumQuery",
           "normalized": "Query-\u003eEnumerator Bam IO a",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the contents of a TAM (tab-delimited text) alignment file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumTam",
           "package": "samtools-enumerator",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Enumerate over the contents of TAM tab-delimited text alignment file",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumTam",
           "normalized": "FilePath-\u003eEnumerator Bam IO a",
@@ -196,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate over the contents of a TAM file with a separate target sequence index\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumTamWithIndex",
           "package": "samtools-enumerator",
@@ -206,6 +221,7 @@
         "index": {
           "description": "Enumerate over the contents of TAM file with separate target sequence index",
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "enumTamWithIndex",
           "normalized": "FilePath-\u003eFilePath-\u003eEnumerator Bam IO a",
@@ -221,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:09 UTC 2014",
           "module": "Bio.SamTools.Enumerator",
           "name": "iterHandle",
           "package": "samtools-enumerator",
@@ -230,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Bio SamTools Enumerator",
+          "indexed": "2014-03-11T19:57:09",
           "module": "Bio.SamTools.Enumerator",
           "name": "iterHandle",
           "normalized": "OutHandle-\u003eIteratee Bam IO()",

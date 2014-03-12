@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dual-tree"
+        "phrase": "dual-tree",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides access to all of the internals of the\n DUAL-tree implementation.  Depend on the internals at your own\n risk!  For a safe public API (and complete documentation), see\n \u003ca\u003eData.Tree.DUAL\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eThe main things exported by this module which are not exported from\n \u003ca\u003eData.Tree.DUAL\u003c/a\u003e are two extra types used in the implementation of\n \u003ccode\u003e\u003ca\u003eDUALTree\u003c/a\u003e\u003c/code\u003e, along with functions for manipulating them.  A type of\n \u003cem\u003enon-empty\u003c/em\u003e trees, \u003ccode\u003e\u003ca\u003eDUALTreeNE\u003c/a\u003e\u003c/code\u003e, is defined, as well as the type\n \u003ccode\u003e\u003ca\u003eDUALTreeU\u003c/a\u003e\u003c/code\u003e which represents a non-empty tree paired with a cached\n \u003ccode\u003eu\u003c/code\u003e annotation.  \u003ccode\u003e\u003ca\u003eDUALTreeNE\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDUALTreeU\u003c/a\u003e\u003c/code\u003e are mutually\n recursive, so that recursive tree nodes are interleaved with cached\n \u003ccode\u003eu\u003c/code\u003e annotations.  \u003ccode\u003e\u003ca\u003eDUALTree\u003c/a\u003e\u003c/code\u003e is defined by just wrapping\n \u003ccode\u003e\u003ca\u003eDUALTreeU\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e.  This method has the advantage that the\n type system enforces the invariant that there is only one\n representation for the empty tree.  It also allows us to get away\n with only \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e constraints in many places.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Internal",
           "package": "dual-tree",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides access to all of the internals of the DUAL-tree implementation Depend on the internals at your own risk For safe public API and complete documentation see Data.Tree.DUAL The main things exported by this module which are not exported from Data.Tree.DUAL are two extra types used in the implementation of DUALTree along with functions for manipulating them type of non-empty trees DUALTreeNE is defined as well as the type DUALTreeU which represents non-empty tree paired with cached annotation DUALTreeNE and DUALTreeU are mutually recursive so that recursive tree nodes are interleaved with cached annotations DUALTree is defined by just wrapping DUALTreeU in Option This method has the advantage that the type system enforces the invariant that there is only one representation for the empty tree It also allows us to get away with only Semigroup constraints in many places",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Internal",
           "package": "dual-tree",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRose (n-ary) trees with both upwards- (\u003cem\u003ei.e.\u003c/em\u003e cached) and\n   downwards-traveling (\u003cem\u003ei.e.\u003c/em\u003e accumulating) monoidal annotations.\n   Abstractly, a DUALTree is a rose (n-ary) tree with data (of type\n   \u003ccode\u003el\u003c/code\u003e) at leaves, data (of type \u003ccode\u003ea\u003c/code\u003e) at internal nodes, and two\n   types of monoidal annotations, one (of type \u003ccode\u003eu\u003c/code\u003e) travelling\n   \"up\" the tree and one (of type \u003ccode\u003ed\u003c/code\u003e) traveling \"down\".  See\n   the documentation at the top of this file for full details.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eDUALTree\u003c/code\u003e comes with some instances:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, for modifying leaf data.  Note that \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e of course\n     cannot alter any \u003ccode\u003eu\u003c/code\u003e annotations.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eDUALTreeNE\u003c/code\u003es form a semigroup where \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e\n     corresponds to adjoining two trees under a common parent root,\n     with \u003ccode\u003esconcat\u003c/code\u003e specialized to put all the trees under a single\n     parent.  Note that this does not satisfy associativity up to\n     structural equality, but only up to observational equivalence\n     under \u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e.  Technically using \u003ccode\u003e\u003ca\u003efoldDUAL\u003c/a\u003e\u003c/code\u003e directly enables\n     one to observe the difference, but it is understood that\n     \u003ccode\u003e\u003ca\u003efoldDUAL\u003c/a\u003e\u003c/code\u003e should be used only in ways such that reassociation\n     of subtrees \"does not matter\".\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. The identity is the empty tree.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTree",
           "package": "dual-tree",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Rose n-ary trees with both upwards i.e cached and downwards-traveling i.e accumulating monoidal annotations Abstractly DUALTree is rose n-ary tree with data of type at leaves data of type at internal nodes and two types of monoidal annotations one of type travelling up the tree and one of type traveling down See the documentation at the top of this file for full details DUALTree comes with some instances Functor for modifying leaf data Note that fmap of course cannot alter any annotations Semigroup DUALTreeNE form semigroup where corresponds to adjoining two trees under common parent root with sconcat specialized to put all the trees under single parent Note that this does not satisfy associativity up to structural equality but only up to observational equivalence under flatten Technically using foldDUAL directly enables one to observe the difference but it is understood that foldDUAL should be used only in ways such that reassociation of subtrees does not matter Monoid The identity is the empty tree",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTree",
           "package": "dual-tree",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eNon-empty\u003c/em\u003e DUAL-trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeNE",
           "package": "dual-tree",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Non-empty DUAL-trees",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeNE",
           "package": "dual-tree",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA non-empty DUAL-tree paired with a cached \u003ccode\u003eu\u003c/code\u003e value.  These\n   should never be constructed directly; instead, use \u003ccode\u003epullU\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeU",
           "package": "dual-tree",
@@ -97,6 +104,7 @@
         "index": {
           "description": "non-empty DUAL-tree paired with cached value These should never be constructed directly instead use pullU",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeU",
           "package": "dual-tree",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ed\u003c/code\u003e annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Act",
           "package": "dual-tree",
@@ -121,6 +130,7 @@
         "index": {
           "description": "annotation",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Act",
           "package": "dual-tree",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal data value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Annot",
           "package": "dual-tree",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Internal data value",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Annot",
           "package": "dual-tree",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003en-way branch, containing a \u003cem\u003enon-empty\u003c/em\u003e list\n   of subtrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Concat",
           "package": "dual-tree",
@@ -169,6 +182,7 @@
         "index": {
           "description": "n-way branch containing non-empty list of subtrees",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Concat",
           "package": "dual-tree",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTree",
           "package": "dual-tree",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTree",
           "package": "dual-tree",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeU",
           "package": "dual-tree",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "DUALTreeU",
           "package": "dual-tree",
@@ -227,6 +245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaf with data value and \u003ccode\u003eu\u003c/code\u003e annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Leaf",
           "package": "dual-tree",
@@ -237,6 +256,7 @@
         "index": {
           "description": "Leaf with data value and annotation",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "Leaf",
           "package": "dual-tree",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeaf with only \u003ccode\u003eu\u003c/code\u003e annotation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "LeafU",
           "package": "dual-tree",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Leaf with only annotation",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "LeafU",
           "package": "dual-tree",
@@ -457,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold for non-empty DUAL-trees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "foldDUALNE",
           "package": "dual-tree",
@@ -466,6 +489,7 @@
         "index": {
           "description": "Fold for non-empty DUAL-trees",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "foldDUALNE",
           "normalized": "(a-\u003eb-\u003ec)-\u003ec-\u003e(NonEmpty c-\u003ec)-\u003e(a-\u003ec-\u003ec)-\u003e(d-\u003ec-\u003ec)-\u003eDUALTreeNE a e d b-\u003ec",
@@ -586,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function (which must be a monoid homomorphism, and commute\n   with the action of \u003ccode\u003ed\u003c/code\u003e) over all the \u003ccode\u003eu\u003c/code\u003e annotations in a non-empty\n   DUAL-tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "mapUNE",
           "package": "dual-tree",
@@ -596,6 +621,7 @@
         "index": {
           "description": "Map function which must be monoid homomorphism and commute with the action of over all the annotations in non-empty DUAL-tree",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "mapUNE",
           "normalized": "(a-\u003eb)-\u003eDUALTreeNE c a d e-\u003eDUALTreeNE c b d e",
@@ -612,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function (which must be a monoid homomorphism, and commute\n   with the action of \u003ccode\u003ed\u003c/code\u003e) over all the \u003ccode\u003eu\u003c/code\u003e annotations in a\n   non-empty DUAL-tree paired with its cached \u003ccode\u003eu\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "mapUU",
           "package": "dual-tree",
@@ -622,6 +649,7 @@
         "index": {
           "description": "Map function which must be monoid homomorphism and commute with the action of over all the annotations in non-empty DUAL-tree paired with its cached value",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "mapUU",
           "normalized": "(a-\u003eb)-\u003eDUALTreeU c a d e-\u003eDUALTreeU c b d e",
@@ -638,6 +666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a DUAL-tree into either \u003ccode\u003eNothing\u003c/code\u003e (if empty) or a\n   top-level cached \u003ccode\u003eu\u003c/code\u003e annotation paired with a non-empty\n   DUAL-tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "nonEmpty",
           "package": "dual-tree",
@@ -648,6 +677,7 @@
         "index": {
           "description": "Decompose DUAL-tree into either Nothing if empty or top-level cached annotation paired with non-empty DUAL-tree",
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "nonEmpty",
           "normalized": "DUALTree a b c d-\u003eMaybe(b,DUALTreeNE a b c d)",
@@ -663,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "unDUALTree",
           "package": "dual-tree",
@@ -672,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "unDUALTree",
           "package": "dual-tree",
@@ -685,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL.Internal",
           "name": "unDUALTreeU",
           "package": "dual-tree",
@@ -694,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Data Tree DUAL Internal",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL.Internal",
           "name": "unDUALTreeU",
           "normalized": "(a,DUALTreeNE b a c d)",
@@ -710,6 +744,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRose (n-ary) trees with both upwards- (\u003cem\u003ei.e.\u003c/em\u003e cached) and\n downwards-traveling (\u003cem\u003ei.e.\u003c/em\u003e accumulating) monoidal annotations.\n This is used as the core data structure underlying the \u003ccode\u003ediagrams\u003c/code\u003e\n framework (\u003ca\u003ehttp://projects.haskell.org/diagrams\u003c/a\u003e), but potentially\n has other applications as well.\n\u003c/p\u003e\u003cp\u003eAbstractly, a DUALTree is a rose (n-ary) tree with data (of type\n \u003ccode\u003el\u003c/code\u003e) at leaves, data (of type \u003ccode\u003ea\u003c/code\u003e) at internal nodes, and two types\n of monoidal annotations, one (of type \u003ccode\u003eu\u003c/code\u003e) travelling \"up\" the\n tree and one (of type \u003ccode\u003ed\u003c/code\u003e) traveling \"down\".\n\u003c/p\u003e\u003cp\u003eSpecifically, there are five types of nodes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Leaf nodes which contain a data value of type \u003ccode\u003el\u003c/code\u003e and an\n     annotation of type \u003ccode\u003eu\u003c/code\u003e.  The annotation represents information\n     about a tree that should be accumulated (\u003cem\u003ee.g.\u003c/em\u003e number of\n     leaves, some sort of \"weight\", \u003cem\u003eetc.\u003c/em\u003e).  If you are familiar\n     with finger trees\n     (\u003ca\u003ehttp://www.soi.city.ac.uk/~ross/papers/FingerTree.html\u003c/a\u003e,\n     \u003ca\u003ehttp://hackage.haskell.org/package/fingertree\u003c/a\u003e), it is the\n     same idea.\n\u003c/li\u003e\u003cli\u003e There is also a special type of leaf node which contains only a\n     \u003ccode\u003eu\u003c/code\u003e value, and no data. This allows cached \u003ccode\u003eu\u003c/code\u003e values to be\n     \"modified\" by inserting extra annotations.\n\u003c/li\u003e\u003cli\u003e Branch nodes, containing a list of subtrees.\n\u003c/li\u003e\u003cli\u003e Internal nodes with a value of type \u003ccode\u003ed\u003c/code\u003e.  \u003ccode\u003ed\u003c/code\u003e may have an\n     \u003cem\u003eaction\u003c/em\u003e on \u003ccode\u003eu\u003c/code\u003e (see the \u003ccode\u003eAction\u003c/code\u003e type class, defined in\n     \u003ca\u003eData.Monoid.Action\u003c/a\u003e from the \u003ccode\u003emonoid-extras\u003c/code\u003e package).\n     Semantically speaking, applying a \u003ccode\u003ed\u003c/code\u003e annotation to a tree\n     transforms all the \u003ccode\u003eu\u003c/code\u003e annotations below it by acting on them.\n     Operationally, however, since the action must be a monoid\n     homomorphism, applying a \u003ccode\u003ed\u003c/code\u003e annotation can actually be done in\n     constant time.\n\u003c/li\u003e\u003cli\u003e Internal nodes with data values of type \u003ccode\u003ea\u003c/code\u003e, possibly of a\n     different type than those in the leaves.  These are just \"along\n     for the ride\" and are unaffected by \u003ccode\u003eu\u003c/code\u003e and \u003ccode\u003ed\u003c/code\u003e annotations.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThere are two critical points to note about \u003ccode\u003eu\u003c/code\u003e and \u003ccode\u003ed\u003c/code\u003e annotations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The combined \u003ccode\u003eu\u003c/code\u003e annotation for an entire tree is always cached\n     at the root and available in constant (amortized) time.\n\u003c/li\u003e\u003cli\u003e The \u003ccode\u003emconcat\u003c/code\u003e of all the \u003ccode\u003ed\u003c/code\u003e annotations along the path from\n     the root to each leaf is available along with the leaf during a\n     fold operation.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eA fold over a \u003ccode\u003eDUALTree\u003c/code\u003e is given access to the internal and leaf\n data, and the accumulated \u003ccode\u003ed\u003c/code\u003e values at each leaf.  It is also\n allowed to replace \"\u003ccode\u003eu\u003c/code\u003e-only\" leaves with a constant value.  In\n particular, however, it is \u003cem\u003enot\u003c/em\u003e given access to any of the \u003ccode\u003eu\u003c/code\u003e\n annotations, the idea being that those are used only for\n \u003cem\u003econstructing\u003c/em\u003e trees.  It is also not given access to \u003ccode\u003ed\u003c/code\u003e values as\n they occur in the tree, only as they accumulate at leaves.  If you\n do need access to \u003ccode\u003eu\u003c/code\u003e or \u003ccode\u003ed\u003c/code\u003e values, you can duplicate the values\n you need in the internal data nodes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL",
           "name": "DUAL",
           "package": "dual-tree",
@@ -719,6 +754,7 @@
         "index": {
           "description": "Rose n-ary trees with both upwards i.e cached and downwards-traveling i.e accumulating monoidal annotations This is used as the core data structure underlying the diagrams framework http projects.haskell.org diagrams but potentially has other applications as well Abstractly DUALTree is rose n-ary tree with data of type at leaves data of type at internal nodes and two types of monoidal annotations one of type travelling up the tree and one of type traveling down Specifically there are five types of nodes Leaf nodes which contain data value of type and an annotation of type The annotation represents information about tree that should be accumulated e.g number of leaves some sort of weight etc If you are familiar with finger trees http www.soi.city.ac.uk ross papers FingerTree.html http hackage.haskell.org package fingertree it is the same idea There is also special type of leaf node which contains only value and no data This allows cached values to be modified by inserting extra annotations Branch nodes containing list of subtrees Internal nodes with value of type may have an action on see the Action type class defined in Data.Monoid.Action from the monoid-extras package Semantically speaking applying annotation to tree transforms all the annotations below it by acting on them Operationally however since the action must be monoid homomorphism applying annotation can actually be done in constant time Internal nodes with data values of type possibly of different type than those in the leaves These are just along for the ride and are unaffected by and annotations There are two critical points to note about and annotations The combined annotation for an entire tree is always cached at the root and available in constant amortized time The mconcat of all the annotations along the path from the root to each leaf is available along with the leaf during fold operation fold over DUALTree is given access to the internal and leaf data and the accumulated values at each leaf It is also allowed to replace only leaves with constant value In particular however it is not given access to any of the annotations the idea being that those are used only for constructing trees It is also not given access to values as they occur in the tree only as they accumulate at leaves If you do need access to or values you can duplicate the values you need in the internal data nodes",
           "hierarchy": "Data Tree DUAL",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL",
           "name": "DUAL",
           "package": "dual-tree",
@@ -733,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRose (n-ary) trees with both upwards- (\u003cem\u003ei.e.\u003c/em\u003e cached) and\n   downwards-traveling (\u003cem\u003ei.e.\u003c/em\u003e accumulating) monoidal annotations.\n   Abstractly, a DUALTree is a rose (n-ary) tree with data (of type\n   \u003ccode\u003el\u003c/code\u003e) at leaves, data (of type \u003ccode\u003ea\u003c/code\u003e) at internal nodes, and two\n   types of monoidal annotations, one (of type \u003ccode\u003eu\u003c/code\u003e) travelling\n   \"up\" the tree and one (of type \u003ccode\u003ed\u003c/code\u003e) traveling \"down\".  See\n   the documentation at the top of this file for full details.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eDUALTree\u003c/code\u003e comes with some instances:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e, for modifying leaf data.  Note that \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e of course\n     cannot alter any \u003ccode\u003eu\u003c/code\u003e annotations.\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003eDUALTreeNE\u003c/code\u003es form a semigroup where \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e\n     corresponds to adjoining two trees under a common parent root,\n     with \u003ccode\u003esconcat\u003c/code\u003e specialized to put all the trees under a single\n     parent.  Note that this does not satisfy associativity up to\n     structural equality, but only up to observational equivalence\n     under \u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e.  Technically using \u003ccode\u003e\u003ca\u003efoldDUAL\u003c/a\u003e\u003c/code\u003e directly enables\n     one to observe the difference, but it is understood that\n     \u003ccode\u003e\u003ca\u003efoldDUAL\u003c/a\u003e\u003c/code\u003e should be used only in ways such that reassociation\n     of subtrees \"does not matter\".\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. The identity is the empty tree.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:59:28 UTC 2014",
           "module": "Data.Tree.DUAL",
           "name": "DUALTree",
           "package": "dual-tree",
@@ -742,6 +779,7 @@
         "index": {
           "description": "Rose n-ary trees with both upwards i.e cached and downwards-traveling i.e accumulating monoidal annotations Abstractly DUALTree is rose n-ary tree with data of type at leaves data of type at internal nodes and two types of monoidal annotations one of type travelling up the tree and one of type traveling down See the documentation at the top of this file for full details DUALTree comes with some instances Functor for modifying leaf data Note that fmap of course cannot alter any annotations Semigroup DUALTreeNE form semigroup where corresponds to adjoining two trees under common parent root with sconcat specialized to put all the trees under single parent Note that this does not satisfy associativity up to structural equality but only up to observational equivalence under flatten Technically using foldDUAL directly enables one to observe the difference but it is understood that foldDUAL should be used only in ways such that reassociation of subtrees does not matter Monoid The identity is the empty tree",
           "hierarchy": "Data Tree DUAL",
+          "indexed": "2014-03-11T17:59:28",
           "module": "Data.Tree.DUAL",
           "name": "DUALTree",
           "package": "dual-tree",

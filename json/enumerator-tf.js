@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "enumerator-tf"
+        "phrase": "enumerator-tf",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnumerator instances for monads-tf classes\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:02:47 UTC 2014",
           "module": "Data.Enumerator.Instances.TF",
           "name": "TF",
           "package": "enumerator-tf",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Enumerator instances for monads-tf classes",
           "hierarchy": "Data Enumerator Instances TF",
+          "indexed": "2014-03-11T18:02:47",
           "module": "Data.Enumerator.Instances.TF",
           "name": "TF",
           "package": "enumerator-tf",

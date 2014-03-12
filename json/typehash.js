@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typehash"
+        "phrase": "typehash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProduce a \u003cem\u003ehash\u003c/em\u003e for a type that is unique for that type.\n The hash takes both actual type names and type structure into account.\n\u003c/p\u003e\u003cp\u003eThe purpose of the hash of a type is to be able to store the type\n of a persisted value together with the value.\n By comparing the type hash of a persisted value and the hash of expected type\n we can know if the persistened value is of the correct type.\n\u003c/p\u003e\u003cp\u003eThe type hash uses a cryptographic hash and can only be used to test equality.\n\u003c/p\u003e\u003cp\u003eThe type code preserves the exact structure of the type and can be used to\n check if one type is convertible to another in various ways.\n\u003c/p\u003e\u003cp\u003eThis module uses the reflection offered by \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eData\u003c/a\u003e\u003c/code\u003e to extract\n the information.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "TypeHash",
           "package": "typehash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Produce hash for type that is unique for that type The hash takes both actual type names and type structure into account The purpose of the hash of type is to be able to store the type of persisted value together with the value By comparing the type hash of persisted value and the hash of expected type we can know if the persistened value is of the correct type The type hash uses cryptographic hash and can only be used to test equality The type code preserves the exact structure of the type and can be used to check if one type is convertible to another in various ways This module uses the reflection offered by Typeable and Data to extract the information",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "TypeHash",
           "package": "typehash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType codes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "TypeCode",
           "package": "typehash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Type codes",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "TypeCode",
           "package": "typehash",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "TypeHash",
           "package": "typehash",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Type hash",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "TypeHash",
           "package": "typehash",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre the types strongly isomorphic, only allows change of type names.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "convertibleIso",
           "package": "typehash",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Are the types strongly isomorphic only allows change of type names",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "convertibleIso",
           "normalized": "TypeCode-\u003eTypeCode-\u003eBool",
@@ -114,6 +122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan the generic JSON serializer and deserializer convert the first type to the second.\n Allows changing type names,\n allows permuting and/or adding constructors to the new type,\n also allows permuting and/or deleting named fields of a constructor.\n Furhermore, allows types with a single constructor to change constructor name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "convertibleWithJSON",
           "package": "typehash",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Can the generic JSON serializer and deserializer convert the first type to the second Allows changing type names allows permuting and or adding constructors to the new type also allows permuting and or deleting named fields of constructor Furhermore allows types with single constructor to change constructor name",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "convertibleWithJSON",
           "normalized": "TypeCode-\u003eTypeCode-\u003eBool",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCan \u003ccode\u003eread . show\u003c/code\u003e convert the first type to the second?\n Allows changing type names,\n allows permuting and/or adding constructors to the new type,\n also allows permuting named fields of a constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "convertibleWithReadShow",
           "package": "typehash",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Can read show convert the first type to the second Allows changing type names allows permuting and or adding constructors to the new type also allows permuting named fields of constructor",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "convertibleWithReadShow",
           "normalized": "TypeCode-\u003eTypeCode-\u003eBool",
@@ -166,6 +178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the type of the value into a type code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "typeCode",
           "package": "typehash",
@@ -176,6 +189,7 @@
         "index": {
           "description": "Turn the type of the value into type code",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "typeCode",
           "normalized": "a-\u003eTypeCode",
@@ -192,6 +206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn the type of the value into a type hash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:09 UTC 2014",
           "module": "Data.TypeHash",
           "name": "typeHash",
           "package": "typehash",
@@ -202,6 +217,7 @@
         "index": {
           "description": "Turn the type of the value into type hash",
           "hierarchy": "Data TypeHash",
+          "indexed": "2014-03-11T20:28:09",
           "module": "Data.TypeHash",
           "name": "typeHash",
           "normalized": "a-\u003eTypeHash",

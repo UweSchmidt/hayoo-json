@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "PortFusion"
+        "phrase": "PortFusion",
+        "type": "phrase"
       },
       "type": "context"
     }

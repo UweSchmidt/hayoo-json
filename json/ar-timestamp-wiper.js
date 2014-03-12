@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ar-timestamp-wiper"
+        "phrase": "ar-timestamp-wiper",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:59 UTC 2014",
           "module": "ArTimestampWiper",
           "name": "ArTimestampWiper",
           "package": "ar-timestamp-wiper",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ArTimestampWiper",
+          "indexed": "2014-03-11T17:11:59",
           "module": "ArTimestampWiper",
           "name": "ArTimestampWiper",
           "package": "ar-timestamp-wiper",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the time stamps of all files in the .a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:59 UTC 2014",
           "module": "ArTimestampWiper",
           "name": "arFileWipeTimeStamps",
           "package": "ar-timestamp-wiper",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Removes the time stamps of all files in the file",
           "hierarchy": "ArTimestampWiper",
+          "indexed": "2014-03-11T17:11:59",
           "module": "ArTimestampWiper",
           "name": "arFileWipeTimeStamps",
           "normalized": "FilePath-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bson-generics"
+        "phrase": "bson-generics",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:38 UTC 2014",
           "module": "Data.Bson.Generics",
           "name": "Generics",
           "package": "bson-generics",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Generics",
+          "indexed": "2014-03-11T17:25:38",
           "module": "Data.Bson.Generics",
           "name": "Generics",
           "package": "bson-generics",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:38 UTC 2014",
           "module": "Data.Bson.Generics",
           "name": "FromBSON",
           "package": "bson-generics",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Generics",
+          "indexed": "2014-03-11T17:25:38",
           "module": "Data.Bson.Generics",
           "name": "FromBSON",
           "package": "bson-generics",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:38 UTC 2014",
           "module": "Data.Bson.Generics",
           "name": "ToBSON",
           "package": "bson-generics",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Generics",
+          "indexed": "2014-03-11T17:25:38",
           "module": "Data.Bson.Generics",
           "name": "ToBSON",
           "package": "bson-generics",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:38 UTC 2014",
           "module": "Data.Bson.Generics",
           "name": "fromBSON",
           "package": "bson-generics",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Generics",
+          "indexed": "2014-03-11T17:25:38",
           "module": "Data.Bson.Generics",
           "name": "fromBSON",
           "normalized": "Document-\u003eMaybe a",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:25:38 UTC 2014",
           "module": "Data.Bson.Generics",
           "name": "toBSON",
           "package": "bson-generics",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Bson Generics",
+          "indexed": "2014-03-11T17:25:38",
           "module": "Data.Bson.Generics",
           "name": "toBSON",
           "normalized": "a-\u003eDocument",

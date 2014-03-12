@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "datetime"
+        "phrase": "datetime",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "DateTime",
           "package": "datetime",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "DateTime",
           "package": "datetime",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "DateTime",
           "package": "datetime",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "DateTime",
           "package": "datetime",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "addMinutes",
           "package": "datetime",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "addMinutes",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "addMinutes'",
           "package": "datetime",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "addMinutes'",
           "normalized": "Int-\u003eDateTime-\u003eDateTime",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "addSeconds",
           "package": "datetime",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "addSeconds",
           "normalized": "Integer-\u003eDateTime-\u003eDateTime",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "diffMinutes",
           "package": "datetime",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "diffMinutes",
           "normalized": "DateTime-\u003eDateTime-\u003eInteger",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "diffMinutes'",
           "package": "datetime",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "diffMinutes'",
           "normalized": "DateTime-\u003eDateTime-\u003eInt",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "diffSeconds",
           "package": "datetime",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "diffSeconds",
           "normalized": "DateTime-\u003eDateTime-\u003eInteger",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "formatDateTime",
           "package": "datetime",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "formatDateTime",
           "normalized": "String-\u003eDateTime-\u003eString",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromClockTime",
           "package": "datetime",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromClockTime",
           "normalized": "ClockTime-\u003eDateTime",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromGregorian",
           "package": "datetime",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromGregorian",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eDateTime",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromGregorian'",
           "package": "datetime",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromGregorian'",
           "normalized": "Integer-\u003eInt-\u003eInt-\u003eDateTime",
@@ -300,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromMJD",
           "package": "datetime",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromMJD",
           "normalized": "Rational-\u003eDateTime",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromMJD'",
           "package": "datetime",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromMJD'",
           "normalized": "a-\u003eDateTime",
@@ -348,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromSeconds",
           "package": "datetime",
@@ -357,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromSeconds",
           "normalized": "Integer-\u003eDateTime",
@@ -372,6 +402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromSqlString",
           "package": "datetime",
@@ -381,6 +412,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromSqlString",
           "normalized": "String-\u003eMaybe DateTime",
@@ -396,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "fromUniversalTime",
           "package": "datetime",
@@ -405,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "fromUniversalTime",
           "normalized": "UniversalTime-\u003eDateTime",
@@ -420,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "getCurrentTime",
           "package": "datetime",
@@ -429,6 +464,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "getCurrentTime",
           "package": "datetime",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "parseDateTime",
           "package": "datetime",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "parseDateTime",
           "normalized": "String-\u003eString-\u003eMaybe DateTime",
@@ -466,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "startOfTime",
           "package": "datetime",
@@ -475,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "startOfTime",
           "package": "datetime",
@@ -488,6 +528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "startOfTimeMJD",
           "package": "datetime",
@@ -497,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "startOfTimeMJD",
           "package": "datetime",
@@ -510,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toClockTime",
           "package": "datetime",
@@ -519,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toClockTime",
           "normalized": "DateTime-\u003eClockTime",
@@ -534,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toGregorian",
           "package": "datetime",
@@ -543,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toGregorian",
           "normalized": "DateTime-\u003e(Integer,Int,Int,Int,Int,Int)",
@@ -558,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toGregorian'",
           "package": "datetime",
@@ -567,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toGregorian'",
           "normalized": "DateTime-\u003e(Integer,Int,Int)",
@@ -582,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toMJD",
           "package": "datetime",
@@ -591,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toMJD",
           "normalized": "DateTime-\u003eRational",
@@ -606,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toMJD'",
           "package": "datetime",
@@ -615,6 +666,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toMJD'",
           "normalized": "DateTime-\u003ea",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toSeconds",
           "package": "datetime",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toSeconds",
           "normalized": "DateTime-\u003eInteger",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toSqlString",
           "package": "datetime",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toSqlString",
           "normalized": "DateTime-\u003eString",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:35 UTC 2014",
           "module": "Data.DateTime",
           "name": "toUniversalTime",
           "package": "datetime",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data DateTime",
+          "indexed": "2014-03-11T17:50:35",
           "module": "Data.DateTime",
           "name": "toUniversalTime",
           "normalized": "DateTime-\u003eUniversalTime",

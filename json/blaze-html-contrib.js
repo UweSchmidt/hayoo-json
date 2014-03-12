@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "blaze-html-contrib"
+        "phrase": "blaze-html-contrib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData pagination.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data pagination",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pagination object, holds information about the name, total, per\n   page, current page, etc.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "pagination object holds information about the name total per page current page etc",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd the current page of the pagination from the current URI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "addCurrentPage",
           "package": "blaze-html-contrib",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Add the current page of the pagination from the current URI",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "addCurrentPage",
           "normalized": "URI-\u003ePagination-\u003ePagination",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnCurrentPage",
           "package": "blaze-html-contrib",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnCurrentPage",
           "package": "blaze-html-contrib",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnName",
           "package": "blaze-html-contrib",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnName",
           "package": "blaze-html-contrib",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the page count of the pagination results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnPageCount",
           "package": "blaze-html-contrib",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Get the page count of the pagination results",
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnPageCount",
           "normalized": "Pagination-\u003eInteger",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnPerPage",
           "package": "blaze-html-contrib",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnPerPage",
           "package": "blaze-html-contrib",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnShowDesc",
           "package": "blaze-html-contrib",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnShowDesc",
           "package": "blaze-html-contrib",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Data.Pagination",
           "name": "pnTotal",
           "package": "blaze-html-contrib",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Data Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Data.Pagination",
           "name": "pnTotal",
           "package": "blaze-html-contrib",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Network.URI.Params",
           "name": "Params",
           "package": "blaze-html-contrib",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Network.URI.Params",
           "name": "Params",
           "package": "blaze-html-contrib",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Network.URI.Params",
           "name": "deleteQueryKey",
           "package": "blaze-html-contrib",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Network.URI.Params",
           "name": "deleteQueryKey",
           "normalized": "String-\u003eURI-\u003eURI",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Network.URI.Params",
           "name": "updateUrlParam",
           "package": "blaze-html-contrib",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Network.URI.Params",
           "name": "updateUrlParam",
           "normalized": "String-\u003eString-\u003eURI-\u003eURI",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Network.URI.Params",
           "name": "updateUrlParams",
           "package": "blaze-html-contrib",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Network.URI.Params",
           "name": "updateUrlParams",
           "normalized": "[(String,String)]-\u003eURI-\u003eURI",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Network.URI.Params",
           "name": "uriParams",
           "package": "blaze-html-contrib",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Network URI Params",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Network.URI.Params",
           "name": "uriParams",
           "normalized": "URI-\u003e[(String,String)]",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "Extra",
           "package": "blaze-html-contrib",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "Extra",
           "package": "blaze-html-contrib",
@@ -387,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an id to an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "(!#)",
           "package": "blaze-html-contrib",
@@ -397,6 +430,7 @@
         "index": {
           "description": "Add an id to an element",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "(!#) !#",
           "normalized": "a-\u003eAttributeValue-\u003ea",
@@ -412,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an class to an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "(!.)",
           "package": "blaze-html-contrib",
@@ -422,6 +457,7 @@
         "index": {
           "description": "Add an class to an element",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "(!.) !.",
           "normalized": "a-\u003eAttributeValue-\u003ea",
@@ -437,6 +473,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to a CSS stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "css",
           "package": "blaze-html-contrib",
@@ -447,6 +484,7 @@
         "index": {
           "description": "Link to CSS stylesheet",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "css",
           "normalized": "AttributeValue-\u003eHtml",
@@ -462,6 +500,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an href from a path and association list of parameters.\n Usage:\n\u003c/p\u003e\u003cpre\u003ehrefAssoc \"/search\" [(\"query\", \"foo\"), (\"mode\", \"bar\")]\u003c/pre\u003e\u003cp\u003eCreates: \u003ccode\u003ehref \"/search?query=foo&mode=bar\"\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefAssoc",
           "package": "blaze-html-contrib",
@@ -472,6 +511,7 @@
         "index": {
           "description": "Create an href from path and association list of parameters Usage hrefAssoc search query foo mode bar Creates href search query foo mode bar",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "hrefAssoc",
           "normalized": "String-\u003e[(String,String)]-\u003eAttribute",
@@ -488,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a parameter of a URI, as an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefSet",
           "package": "blaze-html-contrib",
@@ -498,6 +539,7 @@
         "index": {
           "description": "Set parameter of URI as an attribute",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "hrefSet",
           "normalized": "URI-\u003eString-\u003eString-\u003eAttribute",
@@ -514,6 +556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a URI as an attribute for href.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "hrefURI",
           "package": "blaze-html-contrib",
@@ -524,6 +567,7 @@
         "index": {
           "description": "Provide URI as an attribute for href",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "hrefURI",
           "normalized": "URI-\u003eAttribute",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a list of html into a comma separated html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommas",
           "package": "blaze-html-contrib",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Make list of html into comma separated html",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "htmlCommas",
           "normalized": "[Html]-\u003eHtml",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntercalate some HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "htmlIntercalate",
           "package": "blaze-html-contrib",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Intercalate some HTML",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "htmlIntercalate",
           "normalized": "Html-\u003e[Html]-\u003eHtml",
@@ -592,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLink to a javscript file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "js",
           "package": "blaze-html-contrib",
@@ -602,6 +651,7 @@
         "index": {
           "description": "Link to javscript file",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "js",
           "normalized": "AttributeValue-\u003eHtml",
@@ -617,6 +667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a list of lines (separated by n) to HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "linesToHtml",
           "package": "blaze-html-contrib",
@@ -627,6 +678,7 @@
         "index": {
           "description": "Render list of lines separated by to HTML",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "linesToHtml",
           "normalized": "String-\u003eHtml",
@@ -643,6 +695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a link.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "linkTo",
           "package": "blaze-html-contrib",
@@ -653,6 +706,7 @@
         "index": {
           "description": "Create link",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "linkTo",
           "normalized": "AttributeValue-\u003eHtml-\u003eHtml",
@@ -669,6 +723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a form with method = \"POST\" that posts to the given url.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Extra",
           "name": "postForm",
           "package": "blaze-html-contrib",
@@ -679,6 +734,7 @@
         "index": {
           "description": "Create form with method POST that posts to the given url",
           "hierarchy": "Text Blaze Extra",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Extra",
           "name": "postForm",
           "normalized": "String-\u003eHtml-\u003eHtml",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple pagination support for blaze.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -704,6 +761,7 @@
         "index": {
           "description": "Simple pagination support for blaze",
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Pagination",
           "name": "Pagination",
           "package": "blaze-html-contrib",
@@ -718,6 +776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender pagination as html.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:03 UTC 2014",
           "module": "Text.Blaze.Pagination",
           "name": "pagination",
           "package": "blaze-html-contrib",
@@ -728,6 +787,7 @@
         "index": {
           "description": "Render pagination as html",
           "hierarchy": "Text Blaze Pagination",
+          "indexed": "2014-03-11T17:24:03",
           "module": "Text.Blaze.Pagination",
           "name": "pagination",
           "normalized": "URI-\u003ePagination-\u003eHtml",

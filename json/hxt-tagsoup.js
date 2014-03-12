@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-tagsoup"
+        "phrase": "hxt-tagsoup",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterface for TagSoup Parser\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "TagSoup",
           "package": "hxt-tagsoup",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Interface for TagSoup Parser",
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "TagSoup",
           "package": "hxt-tagsoup",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "a_tagsoup",
           "package": "hxt-tagsoup",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "a_tagsoup",
           "package": "hxt-tagsoup",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Tagsoup parser arrow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "parseHtmlTagSoup",
           "package": "hxt-tagsoup",
@@ -73,6 +78,7 @@
         "index": {
           "description": "The Tagsoup parser arrow",
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "parseHtmlTagSoup",
           "package": "hxt-tagsoup",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "tagSoupOptions",
           "package": "hxt-tagsoup",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "tagSoupOptions",
           "normalized": "[OptDescr SysConfig]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe system config option to enable the tagsoup parser\n\u003c/p\u003e\u003cp\u003eHere is an example, how to use it:\n\u003c/p\u003e\u003cpre\u003e ...\n import Text.HXT.XML.Core\n import Text.HXT.XML.TagSoup\n ...\n\n readDocument [ withExpat ] \"some-file.xml\"\n ...\n\u003c/pre\u003e\u003cp\u003ereads the given document and parses it with the lazy tagsoup parser.\nThere is no validation enabled.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "withTagSoup",
           "package": "hxt-tagsoup",
@@ -121,6 +130,7 @@
         "index": {
           "description": "The system config option to enable the tagsoup parser Here is an example how to use it import Text.HXT.XML.Core import Text.HXT.XML.TagSoup readDocument withExpat some-file.xml reads the given document and parses it with the lazy tagsoup parser There is no validation enabled",
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "withTagSoup",
           "package": "hxt-tagsoup",
@@ -135,6 +145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns off tagsoup parsing. The build in HXT parser will be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:37 UTC 2014",
           "module": "Text.XML.HXT.TagSoup",
           "name": "withoutTagSoup",
           "package": "hxt-tagsoup",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Turns off tagsoup parsing The build in HXT parser will be used",
           "hierarchy": "Text XML HXT TagSoup",
+          "indexed": "2014-03-11T18:54:37",
           "module": "Text.XML.HXT.TagSoup",
           "name": "withoutTagSoup",
           "package": "hxt-tagsoup",

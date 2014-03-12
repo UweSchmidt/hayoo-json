@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "instinct"
+        "phrase": "instinct",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eActivation functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Activation",
           "name": "Activation",
           "package": "instinct",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Activation functions",
           "hierarchy": "AI Instinct Activation",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Activation",
           "name": "Activation",
           "package": "instinct",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivation functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Activation",
           "name": "Activation",
           "package": "instinct",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Activation functions",
           "hierarchy": "AI Instinct Activation",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Activation",
           "name": "Activation",
           "package": "instinct",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogistic activation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Activation",
           "name": "LogisticAct",
           "package": "instinct",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Logistic activation",
           "hierarchy": "AI Instinct Activation",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Activation",
           "name": "LogisticAct",
           "package": "instinct",
@@ -89,6 +95,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the derivative of an activation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Activation",
           "name": "actDeriv",
           "package": "instinct",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Apply the derivative of an activation function",
           "hierarchy": "AI Instinct Activation",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Activation",
           "name": "actDeriv",
           "normalized": "Activation-\u003eDouble-\u003eDouble",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an activation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Activation",
           "name": "actFunc",
           "package": "instinct",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Apply an activation function",
           "hierarchy": "AI Instinct Activation",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Activation",
           "name": "actFunc",
           "normalized": "Activation-\u003eDouble-\u003eDouble",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides artifical neural networks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -150,6 +161,7 @@
         "index": {
           "description": "This module provides artifical neural networks",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBrain\u003c/a\u003e\u003c/code\u003e value is an aritifical neural network.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -173,6 +186,7 @@
         "index": {
           "description": "Brain value is an aritifical neural network",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork builder configuration.  See \u003ccode\u003e\u003ca\u003ebuildNet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "NetInit",
           "package": "instinct",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Network builder configuration See buildNet",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "NetInit",
           "package": "instinct",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA signal pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "Pattern",
           "package": "instinct",
@@ -219,6 +236,7 @@
         "index": {
           "description": "signal pattern",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "Pattern",
           "package": "instinct",
@@ -232,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -241,6 +260,7 @@
         },
         "index": {
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "Brain",
           "package": "instinct",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecipe for a multi-layer perceptron.  This is a neural network,\n which is made up of neuron layers, where adjacent layers are (in\n this case fully) connected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "InitMLP",
           "package": "instinct",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Recipe for multi-layer perceptron This is neural network which is made up of neuron layers where adjacent layers are in this case fully connected",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "InitMLP",
           "package": "instinct",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeeds the given input vector into the network and calculates the\n activation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "activation",
           "package": "instinct",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Feeds the given input vector into the network and calculates the activation vector",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "activation",
           "normalized": "Brain-\u003ePattern-\u003eVector Double",
@@ -304,6 +328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eActivation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "brainAct",
           "package": "instinct",
@@ -314,6 +339,7 @@
         "index": {
           "description": "Activation function",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "brainAct",
           "package": "instinct",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnection matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "brainConns",
           "package": "instinct",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Connection matrix",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "brainConns",
           "package": "instinct",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of input neurons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "brainInputs",
           "package": "instinct",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Number of input neurons",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "brainInputs",
           "package": "instinct",
@@ -376,6 +406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of output neurons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "brainOutputs",
           "package": "instinct",
@@ -386,6 +417,7 @@
         "index": {
           "description": "Number of output neurons",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "brainOutputs",
           "package": "instinct",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a random neural network from the given description.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "buildNet",
           "package": "instinct",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Build random neural network from the given description",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "buildNet",
           "normalized": "NetInit-\u003eIO Brain",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a pattern vector from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "listPat",
           "package": "instinct",
@@ -436,6 +471,7 @@
         "index": {
           "description": "Construct pattern vector from list",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "listPat",
           "normalized": "[Double]-\u003ePattern",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNetwork's activation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "mlpActFunc",
           "package": "instinct",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Network activation function",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "mlpActFunc",
           "package": "instinct",
@@ -476,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLayer sizes from input to output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "mlpLayers",
           "package": "instinct",
@@ -486,6 +525,7 @@
         "index": {
           "description": "Layer sizes from input to output",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "mlpLayers",
           "normalized": "[Int]",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the net input vector, i.e. the values just before\n applying the activation function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "netInput",
           "package": "instinct",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Calculate the net input vector i.e the values just before applying the activation function",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "netInput",
           "normalized": "Brain-\u003ePattern-\u003eVector Double",
@@ -528,6 +570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the net input vector from the given activation vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "netInputFrom",
           "package": "instinct",
@@ -538,6 +581,7 @@
         "index": {
           "description": "Calculate the net input vector from the given activation vector",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "netInputFrom",
           "normalized": "Brain-\u003eVector Double-\u003ePattern-\u003eVector Double",
@@ -554,6 +598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe total discrepancy between the two given patterns.  Can be used\n to calculate the total network error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "patError",
           "package": "instinct",
@@ -564,6 +609,7 @@
         "index": {
           "description": "The total discrepancy between the two given patterns Can be used to calculate the total network error",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "patError",
           "normalized": "Pattern-\u003ePattern-\u003eDouble",
@@ -580,6 +626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass the given input pattern through the given neural network and\n return its output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "runNet",
           "package": "instinct",
@@ -590,6 +637,7 @@
         "index": {
           "description": "Pass the given input pattern through the given neural network and return its output",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "runNet",
           "normalized": "Brain-\u003ePattern-\u003ePattern",
@@ -606,6 +654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience wrapper around \u003ccode\u003e\u003ca\u003erunNet\u003c/a\u003e\u003c/code\u003e using lists instead of vectors.\n If you care for performance, use \u003ccode\u003e\u003ca\u003erunNet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Brain",
           "name": "runNetList",
           "package": "instinct",
@@ -616,6 +665,7 @@
         "index": {
           "description": "Convenience wrapper around runNet using lists instead of vectors If you care for performance use runNet",
           "hierarchy": "AI Instinct Brain",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Brain",
           "name": "runNetList",
           "normalized": "Brain-\u003e[Double]-\u003e[Double]",
@@ -632,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides an efficient connection matrix type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "ConnMatrix",
           "package": "instinct",
@@ -641,6 +692,7 @@
         "index": {
           "description": "This module provides an efficient connection matrix type",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "ConnMatrix",
           "package": "instinct",
@@ -655,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection matrix is essentially a two-dimensional array of\n synaptic weights.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "ConnMatrix",
           "package": "instinct",
@@ -664,6 +717,7 @@
         "index": {
           "description": "connection matrix is essentially two-dimensional array of synaptic weights",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "ConnMatrix",
           "package": "instinct",
@@ -678,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eaddLayer s1 n1 s2 n2\u003c/code\u003e overwrite \u003ccode\u003en1\u003c/code\u003e nodes starting from \u003ccode\u003es1\u003c/code\u003e to\n be fully connected with random weights to the \u003ccode\u003en2\u003c/code\u003e nodes starting\n from \u003ccode\u003es2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "addLayer",
           "package": "instinct",
@@ -688,6 +743,7 @@
         "index": {
           "description": "addLayer s1 n1 s2 n2 overwrite n1 nodes starting from s1 to be fully connected with random weights to the n2 nodes starting from s2",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "addLayer",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eConnMatrix-\u003eIO ConnMatrix",
@@ -704,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a layered connection matrix, where adjacent layers are fully\n connected.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildLayered",
           "package": "instinct",
@@ -714,6 +771,7 @@
         "index": {
           "description": "Build layered connection matrix where adjacent layers are fully connected",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildLayered",
           "normalized": "[Int]-\u003eIO ConnMatrix",
@@ -730,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a completely random connection matrix with the given edge\n length.  The random values will be between -1 and 1 exclusive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildRandom",
           "package": "instinct",
@@ -740,6 +799,7 @@
         "index": {
           "description": "Build completely random connection matrix with the given edge length The random values will be between and exclusive",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildRandom",
           "normalized": "Int-\u003eIO ConnMatrix",
@@ -756,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a zero connection matrix.  It will represent a completely\n disconnected network, where all nodes are isolated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildZero",
           "package": "instinct",
@@ -766,6 +827,7 @@
         "index": {
           "description": "Build zero connection matrix It will represent completely disconnected network where all nodes are isolated",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "buildZero",
           "normalized": "Int-\u003eConnMatrix",
@@ -782,6 +844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd two connection matrices.  Note that this function is\n left-biased in that it will adopt the connectivity of the first\n connection matrix.\n\u003c/p\u003e\u003cp\u003eYou may want to use the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e instance instead of this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmAdd",
           "package": "instinct",
@@ -792,6 +855,7 @@
         "index": {
           "description": "Add two connection matrices Note that this function is left-biased in that it will adopt the connectivity of the first connection matrix You may want to use the Monoid instance instead of this function",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmAdd",
           "normalized": "ConnMatrix-\u003eConnMatrix-\u003eConnMatrix",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly fold over the outputs, including zeroes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmDests",
           "package": "instinct",
@@ -818,6 +883,7 @@
         "index": {
           "description": "Strictly fold over the outputs including zeroes",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmDests",
           "normalized": "a b Int-\u003e(c-\u003eInt-\u003eDouble-\u003ec)-\u003ec-\u003eConnMatrix-\u003ec",
@@ -834,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly fold over the nonzero inputs of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmFold",
           "package": "instinct",
@@ -844,6 +911,7 @@
         "index": {
           "description": "Strictly fold over the nonzero inputs of node",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmFold",
           "normalized": "Int-\u003e(a-\u003eInt-\u003eDouble-\u003ea)-\u003ea-\u003eConnMatrix-\u003ea",
@@ -860,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap over the inputs of a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmMap",
           "package": "instinct",
@@ -870,6 +939,7 @@
         "index": {
           "description": "Map over the inputs of node",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmMap",
           "normalized": "(Int-\u003eInt-\u003eDouble-\u003eDouble)-\u003eConnMatrix-\u003eConnMatrix",
@@ -886,6 +956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdge length of a connection matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmSize",
           "package": "instinct",
@@ -896,6 +967,7 @@
         "index": {
           "description": "Edge length of connection matrix",
           "hierarchy": "AI Instinct ConnMatrix",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.ConnMatrix",
           "name": "cmSize",
           "normalized": "ConnMatrix-\u003eInt",
@@ -912,6 +984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDelta rule aka backpropagation algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "Delta",
           "package": "instinct",
@@ -921,6 +994,7 @@
         "index": {
           "description": "Delta rule aka backpropagation algorithm",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "Delta",
           "package": "instinct",
@@ -935,6 +1009,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA training pattern is a tuple of an input pattern and an expected\n output pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "TrainPat",
           "package": "instinct",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "training pattern is tuple of an input pattern and an expected output pattern",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "TrainPat",
           "package": "instinct",
@@ -958,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the weight deltas and the total error for a single\n pattern.  The second argument specifies the learning rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "learnPat",
           "package": "instinct",
@@ -968,6 +1045,7 @@
         "index": {
           "description": "Calculate the weight deltas and the total error for single pattern The second argument specifies the learning rate",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "learnPat",
           "normalized": "Brain-\u003eDouble-\u003eTrainPat-\u003eConnMatrix",
@@ -984,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the total error of a neural network with respect to the\n given list of training patterns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "totalError",
           "package": "instinct",
@@ -994,6 +1073,7 @@
         "index": {
           "description": "Calculate the total error of neural network with respect to the given list of training patterns",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "totalError",
           "normalized": "Brain-\u003e[TrainPat]-\u003eDouble",
@@ -1010,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvenience function:  Construct a training pattern from an input\n and output vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "tpList",
           "package": "instinct",
@@ -1020,6 +1101,7 @@
         "index": {
           "description": "Convenience function Construct training pattern from an input and output vector",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "tpList",
           "normalized": "[Double]-\u003e[Double]-\u003e(Pattern,Pattern)",
@@ -1036,6 +1118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-atomic version of \u003ccode\u003e\u003ca\u003etrainAtomic\u003c/a\u003e\u003c/code\u003e.  Will adjust the weights for\n each pattern instead of at the end of the epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "train",
           "package": "instinct",
@@ -1046,6 +1129,7 @@
         "index": {
           "description": "Non-atomic version of trainAtomic Will adjust the weights for each pattern instead of at the end of the epoch",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "train",
           "normalized": "Brain-\u003eDouble-\u003e[TrainPat]-\u003eBrain",
@@ -1061,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain a list of patterns with the specified learning rate.  This\n will adjust the weights at the end of the epoch.  Returns an updated\n neural network and the new total error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "trainAtomic",
           "package": "instinct",
@@ -1071,6 +1156,7 @@
         "index": {
           "description": "Train list of patterns with the specified learning rate This will adjust the weights at the end of the epoch Returns an updated neural network and the new total error",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "trainAtomic",
           "normalized": "Brain-\u003eDouble-\u003e[TrainPat]-\u003eBrain",
@@ -1087,6 +1173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrain a single pattern.  The second argument specifies the learning\n rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct.Train.Delta",
           "name": "trainPat",
           "package": "instinct",
@@ -1097,6 +1184,7 @@
         "index": {
           "description": "Train single pattern The second argument specifies the learning rate",
           "hierarchy": "AI Instinct Train Delta",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct.Train.Delta",
           "name": "trainPat",
           "normalized": "Brain-\u003eDouble-\u003eTrainPat-\u003eBrain",
@@ -1113,6 +1201,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvenience module.  Reexports the most important instinct modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:58:10 UTC 2014",
           "module": "AI.Instinct",
           "name": "Instinct",
           "package": "instinct",
@@ -1122,6 +1211,7 @@
         "index": {
           "description": "Convenience module Reexports the most important instinct modules",
           "hierarchy": "AI Instinct",
+          "indexed": "2014-03-11T18:58:10",
           "module": "AI.Instinct",
           "name": "Instinct",
           "package": "instinct",

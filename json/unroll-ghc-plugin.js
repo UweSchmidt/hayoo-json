@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "unroll-ghc-plugin"
+        "phrase": "unroll-ghc-plugin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Annotations",
           "name": "Annotations",
           "package": "unroll-ghc-plugin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Annotations",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Annotations",
           "name": "Annotations",
           "package": "unroll-ghc-plugin",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Annotations",
           "name": "Peel",
           "package": "unroll-ghc-plugin",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Annotations",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Annotations",
           "name": "Peel",
           "package": "unroll-ghc-plugin",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Annotations",
           "name": "Unroll",
           "package": "unroll-ghc-plugin",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Annotations",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Annotations",
           "name": "Unroll",
           "package": "unroll-ghc-plugin",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Annotations",
           "name": "Peel",
           "package": "unroll-ghc-plugin",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Annotations",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Annotations",
           "name": "Peel",
           "package": "unroll-ghc-plugin",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Annotations",
           "name": "Unroll",
           "package": "unroll-ghc-plugin",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Annotations",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Annotations",
           "name": "Unroll",
           "package": "unroll-ghc-plugin",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Plugin",
           "name": "Plugin",
           "package": "unroll-ghc-plugin",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Plugin",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Plugin",
           "name": "Plugin",
           "package": "unroll-ghc-plugin",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:04 UTC 2014",
           "module": "LoopUnrolling.Plugin",
           "name": "plugin",
           "package": "unroll-ghc-plugin",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "LoopUnrolling Plugin",
+          "indexed": "2014-03-11T20:31:04",
           "module": "LoopUnrolling.Plugin",
           "name": "plugin",
           "package": "unroll-ghc-plugin",

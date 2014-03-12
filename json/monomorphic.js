@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monomorphic"
+        "phrase": "monomorphic",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": ":.:",
           "package": "monomorphic",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": ":.:",
           "package": "monomorphic",
@@ -60,6 +64,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper type for polymophic types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -69,6 +74,7 @@
         "index": {
           "description": "wrapper type for polymophic types",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -83,6 +89,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA types which have the monomorphic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphicable",
           "package": "monomorphic",
@@ -92,6 +99,7 @@
         "index": {
           "description": "types which have the monomorphic representation",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphicable",
           "package": "monomorphic",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "Comp",
           "package": "monomorphic",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "Comp",
           "package": "monomorphic",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "Monomorphic",
           "package": "monomorphic",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemote the polymorphic value to the monomorphic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "demote",
           "package": "monomorphic",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Demote the polymorphic value to the monomorphic representation",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "demote",
           "normalized": "Monomorphic a-\u003eMonomorphicRep a",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvinience function to demote polymorphic types into monomorphic one directly.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "demote'",
           "package": "monomorphic",
@@ -185,6 +200,7 @@
         "index": {
           "description": "Convinience function to demote polymorphic types into monomorphic one directly",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "demote'",
           "normalized": "a b-\u003eMonomorphicRep a",
@@ -200,6 +216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemote polymorphic nested types directly into monomorphic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "demoteComposed",
           "package": "monomorphic",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Demote polymorphic nested types directly into monomorphic representation",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "demoteComposed",
           "normalized": "a(b c)-\u003eMonomorphicRep(a b)",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlipped version of \u003ccode\u003e\u003ca\u003ewithPolymorhic\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "liftPoly",
           "package": "monomorphic",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Flipped version of withPolymorhic",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "liftPoly",
           "normalized": "(a b c d-\u003ee)-\u003eMonomorphicRep c-\u003ee",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "monomorphicCompose",
           "package": "monomorphic",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "monomorphicCompose",
           "normalized": "a(b c)-\u003eMonomorphic(a b)",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePromote the monomorphic value to the polymophic one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "promote",
           "package": "monomorphic",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Promote the monomorphic value to the polymophic one",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "promote",
           "normalized": "MonomorphicRep a-\u003eMonomorphic a",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemote the function between polymorphic types into the one between monomorphic one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "viaPoly",
           "package": "monomorphic",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Demote the function between polymorphic types into the one between monomorphic one",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "viaPoly",
           "normalized": "(a b c d b-\u003ee f)-\u003eMonomorphicRep d-\u003eMonomorphicRep e",
@@ -327,6 +353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply dependently-typed function to the monomorphic representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:22:29 UTC 2014",
           "module": "Data.Type.Monomorphic",
           "name": "withPolymorhic",
           "package": "monomorphic",
@@ -337,6 +364,7 @@
         "index": {
           "description": "Apply dependently-typed function to the monomorphic representation",
           "hierarchy": "Data Type Monomorphic",
+          "indexed": "2014-03-11T19:22:29",
           "module": "Data.Type.Monomorphic",
           "name": "withPolymorhic",
           "normalized": "MonomorphicRep a-\u003e(b c a d-\u003ee)-\u003ee",

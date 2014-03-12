@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wai-handler-snap"
+        "phrase": "wai-handler-snap",
+        "type": "phrase"
       },
       "type": "context"
     }

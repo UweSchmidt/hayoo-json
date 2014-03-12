@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HaTeX-meta"
+        "phrase": "HaTeX-meta",
+        "type": "phrase"
       },
       "type": "context"
     }

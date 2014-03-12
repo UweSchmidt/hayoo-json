@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "wsedit"
+        "phrase": "wsedit",
+        "type": "phrase"
       },
       "type": "context"
     }

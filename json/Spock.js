@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Spock"
+        "phrase": "Spock",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "Spock",
           "package": "Spock",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "Spock",
           "package": "Spock",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhat rights does the current user have? Can access the database using \u003ccode\u003e\u003ca\u003erunQuery\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "CheckRightsFun",
           "package": "Spock",
@@ -49,6 +52,7 @@
         "index": {
           "description": "What rights does the current user have Can access the database using runQuery",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "CheckRightsFun",
           "package": "Spock",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ConnBuilder instructs Spock how to create or close a database connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "ConnBuilder",
           "package": "Spock",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The ConnBuilder instructs Spock how to create or close database connection",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "ConnBuilder",
           "package": "Spock",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "HasSpock",
           "package": "Spock",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "HasSpock",
           "package": "Spock",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHow should a session be transformed into a user? Can access the database using \u003ccode\u003e\u003ca\u003erunQuery\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "LoadUserFun",
           "package": "Spock",
@@ -116,6 +125,7 @@
         "index": {
           "description": "How should session be transformed into user Can access the database using runQuery",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "LoadUserFun",
           "package": "Spock",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine what happens to non-authorized requests\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "NoAccessHandler",
           "package": "Spock",
@@ -139,6 +150,7 @@
         "index": {
           "description": "Define what happens to non-authorized requests",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "NoAccessHandler",
           "package": "Spock",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes why access was denied to a user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "NoAccessReason",
           "package": "Spock",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Describes why access was denied to user",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "NoAccessReason",
           "package": "Spock",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Spock should take care of connection pooling, you need to configure\n it depending on what you need.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PoolCfg",
           "package": "Spock",
@@ -185,6 +200,7 @@
         "index": {
           "description": "If Spock should take care of connection pooling you need to configure it depending on what you need",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PoolCfg",
           "package": "Spock",
@@ -199,6 +215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can feed Spock with either a connection pool, or instructions on how to build\n a connection pool. See \u003ccode\u003e\u003ca\u003eConnBuilder\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PoolOrConn",
           "package": "Spock",
@@ -208,6 +225,7 @@
         "index": {
           "description": "You can feed Spock with either connection pool or instructions on how to build connection pool See ConnBuilder",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PoolOrConn",
           "package": "Spock",
@@ -222,6 +240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfiguration for the session manager\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "SessionCfg",
           "package": "Spock",
@@ -231,6 +250,7 @@
         "index": {
           "description": "Configuration for the session manager",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "SessionCfg",
           "package": "Spock",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SpockAction is the monad of all route-actions. You have access\n to the database, session and state of your application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "SpockAction",
           "package": "Spock",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The SpockAction is the monad of all route-actions You have access to the database session and state of your application",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "SpockAction",
           "package": "Spock",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpock is supercharged Scotty, that's why the \u003ccode\u003e\u003ca\u003eSpockM\u003c/a\u003e\u003c/code\u003e is built on the\n ScottyT monad. Insive the SpockM monad, you may define routes and middleware.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "SpockM",
           "package": "Spock",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Spock is supercharged Scotty that why the SpockM is built on the ScottyT monad Insive the SpockM monad you may define routes and middleware",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "SpockM",
           "package": "Spock",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP standard method (as defined by RFC 2616, and PATCH which is defined\n   by RFC 5789).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "StdMethod",
           "package": "Spock",
@@ -299,6 +324,7 @@
         "index": {
           "description": "HTTP standard method as defined by RFC and PATCH which is defined by RFC",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "StdMethod",
           "package": "Spock",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign the current session roles/permission, eg. admin or user\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "UserRights",
           "package": "Spock",
@@ -322,6 +349,7 @@
         "index": {
           "description": "Assign the current session roles permission eg admin or user",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "UserRights",
           "package": "Spock",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "WebState",
           "package": "Spock",
@@ -343,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "WebState",
           "package": "Spock",
@@ -356,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "WebStateM",
           "package": "Spock",
@@ -364,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "WebStateM",
           "package": "Spock",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "CONNECT",
           "package": "Spock",
@@ -385,6 +418,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "CONNECT",
           "package": "Spock",
@@ -398,6 +432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "ConnBuilder",
           "package": "Spock",
@@ -407,6 +442,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "ConnBuilder",
           "package": "Spock",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "DELETE",
           "package": "Spock",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "DELETE",
           "package": "Spock",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "GET",
           "package": "Spock",
@@ -449,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "GET",
           "package": "Spock",
@@ -462,6 +502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "HEAD",
           "package": "Spock",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "HEAD",
           "package": "Spock",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "NoSession",
           "package": "Spock",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "NoSession",
           "package": "Spock",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "NotEnoughRights",
           "package": "Spock",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "NotEnoughRights",
           "package": "Spock",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "NotLoggedIn",
           "package": "Spock",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "NotLoggedIn",
           "package": "Spock",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "OPTIONS",
           "package": "Spock",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "OPTIONS",
           "package": "Spock",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PATCH",
           "package": "Spock",
@@ -578,6 +629,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PATCH",
           "package": "Spock",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PCConduitPool",
           "package": "Spock",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PCConduitPool",
           "package": "Spock",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PCConn",
           "package": "Spock",
@@ -622,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PCConn",
           "package": "Spock",
@@ -635,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PCPool",
           "package": "Spock",
@@ -644,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PCPool",
           "package": "Spock",
@@ -657,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "POST",
           "package": "Spock",
@@ -665,6 +724,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "POST",
           "package": "Spock",
@@ -678,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PUT",
           "package": "Spock",
@@ -686,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PUT",
           "package": "Spock",
@@ -699,6 +761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "PoolCfg",
           "package": "Spock",
@@ -708,6 +771,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "PoolCfg",
           "package": "Spock",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "SessionCfg",
           "package": "Spock",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "SessionCfg",
           "package": "Spock",
@@ -743,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "TRACE",
           "package": "Spock",
@@ -751,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "TRACE",
           "package": "Spock",
@@ -765,6 +833,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd to the response headers. Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "addHeader",
           "package": "Spock",
@@ -774,6 +843,7 @@
         "index": {
           "description": "Add to the response headers Header names are case-insensitive",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "addHeader",
           "normalized": "Text-\u003eText-\u003eActionT a b()",
@@ -790,6 +860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine a route with a \u003ccode\u003e\u003ca\u003eStdMethod\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value representing the path spec,\n and a body (\u003ccode\u003eAction\u003c/code\u003e) which modifies the response.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/\" $ text \"beam me up!\"\n\u003c/pre\u003e\u003cp\u003eThe path spec can include values starting with a colon, which are interpreted\n as \u003cem\u003ecaptures\u003c/em\u003e. These are named wildcards that can be looked up with \u003ccode\u003e\u003ca\u003eparam\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e addroute GET \"/foo/:bar\" $ do\n     v \u003c- param \"bar\"\n     text v\n\u003c/pre\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecurl http://localhost:3000/foo/something\n\u003c/code\u003e\u003c/strong\u003esomething\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "addroute",
           "package": "Spock",
@@ -799,6 +870,7 @@
         "index": {
           "description": "Define route with StdMethod Text value representing the path spec and body Action which modifies the response addroute GET text beam me up The path spec can include values starting with colon which are interpreted as captures These are named wildcards that can be looked up with param addroute GET foo bar do param bar text curl http localhost foo something something",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "addroute",
           "normalized": "StdMethod-\u003eRoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -814,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBefore the request is performed, you can check if the signed in user has permissions to\n view the contents of the request. You may want to define a helper function that\n proxies this function to not pass around \u003ccode\u003e\u003ca\u003eNoAccessHandler\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eLoadUserFun\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eCheckRightsFun\u003c/a\u003e\u003c/code\u003e\n all the time.\n Example:\n\u003c/p\u003e\u003cpre\u003e type MyWebMonad a = SpockAction Connection Int () a\n newtype MyUser = MyUser { unMyUser :: T.Text }\n\n http403 msg =\n    do status Http.status403\n       text (show msg)\n\n login :: Http.StdMethod\n       -\u003e [UserRights]\n       -\u003e RoutePattern\n       -\u003e (MyUser -\u003e MyWebMonad ())\n       -\u003e MyWebMonad ()\n login =\n     authed http403 myLoadUser myCheckRights\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "authed",
           "package": "Spock",
@@ -824,6 +897,7 @@
         "index": {
           "description": "Before the request is performed you can check if the signed in user has permissions to view the contents of the request You may want to define helper function that proxies this function to not pass around NoAccessHandler LoadUserFun and CheckRightsFun all the time Example type MyWebMonad SpockAction Connection Int newtype MyUser MyUser unMyUser T.Text http403 msg do status Http.status403 text show msg login Http.StdMethod UserRights RoutePattern MyUser MyWebMonad MyWebMonad login authed http403 myLoadUser myCheckRights",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "authed",
           "normalized": "NoAccessHandler a b c-\u003eLoadUserFun a b c d-\u003eCheckRightsFun a b c d-\u003eStdMethod-\u003e[UserRights]-\u003eRoutePattern-\u003e(d-\u003eSpockAction a b c())-\u003eSpockM a b c()",
@@ -839,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAfter checking that a login was successfull, register the usersId\n into the session and create a session cookie for later \u003ca\u003eauthed\u003c/a\u003e requests\n to work properly\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "authedUser",
           "package": "Spock",
@@ -849,6 +924,7 @@
         "index": {
           "description": "After checking that login was successfull register the usersId into the session and create session cookie for later authed requests to work properly",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "authedUser",
           "normalized": "a-\u003e(a-\u003eb)-\u003eSpockAction c b d()",
@@ -865,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the request body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "body",
           "package": "Spock",
@@ -874,6 +951,7 @@
         "index": {
           "description": "Get the request body",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "body",
           "package": "Spock",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "cb_createConn",
           "package": "Spock",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "cb_createConn",
           "package": "Spock",
@@ -908,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "cb_destroyConn",
           "package": "Spock",
@@ -917,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "cb_destroyConn",
           "normalized": "a-\u003eIO()",
@@ -932,6 +1014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "cb_poolConfiguration",
           "package": "Spock",
@@ -941,6 +1024,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "cb_poolConfiguration",
           "package": "Spock",
@@ -955,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edelete = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDELETE\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "delete",
           "package": "Spock",
@@ -964,6 +1049,7 @@
         "index": {
           "description": "delete addroute DELETE",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "delete",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -979,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a file as the response. Doesn't set the \"Content-Type\" header, so you probably\n want to do that on your own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "file",
           "package": "Spock",
@@ -988,6 +1075,7 @@
         "index": {
           "description": "Send file as the response Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "file",
           "normalized": "FilePath-\u003eActionT a b()",
@@ -1003,6 +1091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet list of uploaded files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "files",
           "package": "Spock",
@@ -1012,6 +1101,7 @@
         "index": {
           "description": "Get list of uploaded files",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "files",
           "normalized": "ActionT a b[File]",
@@ -1027,6 +1117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eGET\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "get",
           "package": "Spock",
@@ -1036,6 +1127,7 @@
         "index": {
           "description": "get addroute GET",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "get",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -1051,6 +1143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a cookie previously set in the users browser for your site\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "getCookie",
           "package": "Spock",
@@ -1061,6 +1154,7 @@
         "index": {
           "description": "Read cookie previously set in the users browser for your site",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "getCookie",
           "normalized": "Text-\u003eActionT a b(Maybe Text)",
@@ -1077,6 +1171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the heart of Spock. This is useful if you want to construct your own\n monads that work with runQuery and getState using \u003ca\u003erunSpockIO\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "getSpockHeart",
           "package": "Spock",
@@ -1087,6 +1182,7 @@
         "index": {
           "description": "Read the heart of Spock This is useful if you want to construct your own monads that work with runQuery and getState using runSpockIO",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "getSpockHeart",
           "package": "Spock",
@@ -1101,6 +1197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the application's state. If you wish to have mutable state, you could\n use a \u003ccode\u003eTVar\u003c/code\u003e from the STM packge.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "getState",
           "package": "Spock",
@@ -1111,6 +1208,7 @@
         "index": {
           "description": "Read the application state If you wish to have mutable state you could use TVar from the STM packge",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "getState",
           "package": "Spock",
@@ -1125,6 +1223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/html\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "html",
           "package": "Spock",
@@ -1134,6 +1233,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text html",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "html",
           "normalized": "Text-\u003eActionT a b()",
@@ -1149,6 +1249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the JSON encoding of the given value. Also sets \"Content-Type\"\n header to \"application/json\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "json",
           "package": "Spock",
@@ -1158,6 +1259,7 @@
         "index": {
           "description": "Set the body of the response to the JSON encoding of the given value Also sets Content-Type header to application json",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "json",
           "normalized": "a-\u003eActionT b c()",
@@ -1173,6 +1275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse the request body as a JSON object and return it. Raises an exception if parse is unsuccessful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "jsonData",
           "package": "Spock",
@@ -1182,6 +1285,7 @@
         "index": {
           "description": "Parse the request body as JSON object and return it Raises an exception if parse is unsuccessful",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "jsonData",
           "package": "Spock",
@@ -1196,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a route that matches regardless of the HTTP verb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "matchAny",
           "package": "Spock",
@@ -1205,6 +1310,7 @@
         "index": {
           "description": "Add route that matches regardless of the HTTP verb",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "matchAny",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -1221,6 +1327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse given middleware. Middleware is nested such that the first declared\n is the outermost middleware (it has first dibs on the request and last action\n on the response). Every middleware is run on each request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "middleware",
           "package": "Spock",
@@ -1230,6 +1337,7 @@
         "index": {
           "description": "Use given middleware Middleware is nested such that the first declared is the outermost middleware it has first dibs on the request and last action on the response Every middleware is run on each request",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "middleware",
           "normalized": "Middleware-\u003eScottyT a b()",
@@ -1245,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbort execution of this action and continue pattern matching routes.\n Like an exception, any code after \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is not executed.\n\u003c/p\u003e\u003cp\u003eAs an example, these two routes overlap. The only way the second one will\n ever run is if the first one calls \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e get \"/foo/:bar\" $ do\n   w :: Text \u003c- param \"bar\"\n   unless (w == \"special\") next\n   text \"You made a request to /foo/special\"\n\n get \"/foo/:baz\" $ do\n   w \u003c- param \"baz\"\n   text $ \"You made a request to: \" \u003c\u003e w\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "next",
           "package": "Spock",
@@ -1254,6 +1363,7 @@
         "index": {
           "description": "Abort execution of this action and continue pattern matching routes Like an exception any code after next is not executed As an example these two routes overlap The only way the second one will ever run is if the first one calls next get foo bar do Text param bar unless special next text You made request to foo special get foo baz do param baz text You made request to",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "next",
           "package": "Spock",
@@ -1267,6 +1377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify an action to take if nothing else is found. Note: this _always_ matches,\n so should generally be the last route specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "notFound",
           "package": "Spock",
@@ -1276,6 +1387,7 @@
         "index": {
           "description": "Specify an action to take if nothing else is found Note this always matches so should generally be the last route specified",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "notFound",
           "normalized": "ActionT a b()-\u003eScottyT a b()",
@@ -1292,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a parameter. First looks in captures, then form data, then query parameters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Raises an exception which can be caught by \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e if parameter is not found.\n\u003c/li\u003e\u003cli\u003e If parameter is found, but \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e fails to parse to the correct type, \u003ccode\u003e\u003ca\u003enext\u003c/a\u003e\u003c/code\u003e is called.\n   This means captures are somewhat typed, in that a route won't match if a correctly typed\n   capture cannot be parsed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "param",
           "package": "Spock",
@@ -1301,6 +1414,7 @@
         "index": {
           "description": "Get parameter First looks in captures then form data then query parameters Raises an exception which can be caught by rescue if parameter is not found If parameter is found but read fails to parse to the correct type next is called This means captures are somewhat typed in that route won match if correctly typed capture cannot be parsed",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "param",
           "normalized": "Text-\u003eActionT a b c",
@@ -1316,6 +1430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet all parameters from capture, form and query (in that order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "params",
           "package": "Spock",
@@ -1325,6 +1440,7 @@
         "index": {
           "description": "Get all parameters from capture form and query in that order",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "params",
           "normalized": "ActionT a b[Param]",
@@ -1340,6 +1456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epatch = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePATCH\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "patch",
           "package": "Spock",
@@ -1349,6 +1466,7 @@
         "index": {
           "description": "patch addroute PATCH",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "patch",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -1363,6 +1481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "pc_keepOpenTime",
           "package": "Spock",
@@ -1372,6 +1491,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "pc_keepOpenTime",
           "package": "Spock",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "pc_resPerStripe",
           "package": "Spock",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "pc_resPerStripe",
           "package": "Spock",
@@ -1407,6 +1529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "pc_stripes",
           "package": "Spock",
@@ -1416,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "pc_stripes",
           "package": "Spock",
@@ -1429,6 +1553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epost = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePOST\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "post",
           "package": "Spock",
@@ -1438,6 +1563,7 @@
         "index": {
           "description": "post addroute POST",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "post",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -1453,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput = \u003ccode\u003e\u003ca\u003eaddroute\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003ePUT\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "put",
           "package": "Spock",
@@ -1462,6 +1589,7 @@
         "index": {
           "description": "put addroute PUT",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "put",
           "normalized": "RoutePattern-\u003eActionT a b()-\u003eScottyT a b()",
@@ -1477,6 +1605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an exception, which can be caught with \u003ccode\u003e\u003ca\u003erescue\u003c/a\u003e\u003c/code\u003e. Uncaught exceptions\n turn into HTTP 500 responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "raise",
           "package": "Spock",
@@ -1486,6 +1615,7 @@
         "index": {
           "description": "Throw an exception which can be caught with rescue Uncaught exceptions turn into HTTP responses",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "raise",
           "normalized": "a-\u003eActionT a b c",
@@ -1501,6 +1631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e value. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your\n own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "raw",
           "package": "Spock",
@@ -1510,6 +1641,7 @@
         "index": {
           "description": "Set the body of the response to the given ByteString value Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "raw",
           "normalized": "ByteString-\u003eActionT a b()",
@@ -1525,6 +1657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRedirect to given URL. Like throwing an uncatchable exception. Any code after the call to redirect\n will not be run.\n\u003c/p\u003e\u003cpre\u003e redirect \"http://www.google.com\"\n\u003c/pre\u003e\u003cp\u003eOR\n\u003c/p\u003e\u003cpre\u003e redirect \"/foo/bar\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "redirect",
           "package": "Spock",
@@ -1534,6 +1667,7 @@
         "index": {
           "description": "Redirect to given URL Like throwing an uncatchable exception Any code after the call to redirect will not be run redirect http www.google.com OR redirect foo bar",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "redirect",
           "normalized": "Text-\u003eActionT a b c",
@@ -1549,6 +1683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a request header. Header name is case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "reqHeader",
           "package": "Spock",
@@ -1558,6 +1693,7 @@
         "index": {
           "description": "Get request header Header name is case-insensitive",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "reqHeader",
           "normalized": "Text-\u003eActionT a b(Maybe Text)",
@@ -1574,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the \u003ccode\u003e\u003ca\u003eRequest\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "request",
           "package": "Spock",
@@ -1583,6 +1720,7 @@
         "index": {
           "description": "Get the Request object",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "request",
           "package": "Spock",
@@ -1596,6 +1734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch an exception thrown by \u003ccode\u003e\u003ca\u003eraise\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e raise \"just kidding\" `rescue` (\\msg -\u003e text msg)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "rescue",
           "package": "Spock",
@@ -1605,6 +1744,7 @@
         "index": {
           "description": "Catch an exception thrown by raise raise just kidding rescue msg text msg",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "rescue",
           "normalized": "ActionT a b c-\u003e(a-\u003eActionT a b c)-\u003eActionT a b c",
@@ -1620,6 +1760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGive you access to a database connectin from the connection pool. The connection is\n released back to the pool once the function terminates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "runQuery",
           "package": "Spock",
@@ -1630,6 +1771,7 @@
         "index": {
           "description": "Give you access to database connectin from the connection pool The connection is released back to the pool once the function terminates",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "runQuery",
           "normalized": "(SpockConn a-\u003eIO b)-\u003ea b",
@@ -1646,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action inside of Spocks core monad. This allows you to use runQuery and getState\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "runSpockIO",
           "package": "Spock",
@@ -1656,6 +1799,7 @@
         "index": {
           "description": "Run an action inside of Spocks core monad This allows you to use runQuery and getState",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "runSpockIO",
           "normalized": "WebState a b c-\u003eWebStateM a b c d-\u003eIO d",
@@ -1671,6 +1815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "sc_cookieName",
           "package": "Spock",
@@ -1680,6 +1825,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "sc_cookieName",
           "package": "Spock",
@@ -1693,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "sc_sessionIdEntropy",
           "package": "Spock",
@@ -1702,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "sc_sessionIdEntropy",
           "package": "Spock",
@@ -1715,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "sc_sessionTTL",
           "package": "Spock",
@@ -1724,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "sc_sessionTTL",
           "package": "Spock",
@@ -1738,6 +1888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a cookie living for a given number of seconds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "setCookie",
           "package": "Spock",
@@ -1748,6 +1899,7 @@
         "index": {
           "description": "Set cookie living for given number of seconds",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "setCookie",
           "normalized": "Text-\u003eText-\u003eNominalDiffTime-\u003eActionT a b()",
@@ -1764,6 +1916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a cookie living until a specific \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "setCookie'",
           "package": "Spock",
@@ -1774,6 +1927,7 @@
         "index": {
           "description": "Set cookie living until specific UTCTime",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "setCookie'",
           "normalized": "Text-\u003eText-\u003eUTCTime-\u003eActionT a b()",
@@ -1790,6 +1944,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one of the response headers. Will override any previously set value for that header.\n Header names are case-insensitive.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "setHeader",
           "package": "Spock",
@@ -1799,6 +1954,7 @@
         "index": {
           "description": "Set one of the response headers Will override any previously set value for that header Header names are case-insensitive",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "setHeader",
           "normalized": "Text-\u003eText-\u003eActionT a b()",
@@ -1815,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to a Source. Doesn't set the\n \"Content-Type\" header, so you probably want to do that on your\n own with \u003ccode\u003e\u003ca\u003esetHeader\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "source",
           "package": "Spock",
@@ -1824,6 +1981,7 @@
         "index": {
           "description": "Set the body of the response to Source Doesn set the Content-Type header so you probably want to do that on your own with setHeader",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "source",
           "normalized": "Source IO(Flush Builder)-\u003eActionT a b()",
@@ -1839,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a spock application using the warp server, a given db storageLayer and an initial state.\n Spock works with database libraries that already implement connection pooling and\n with those that don't come with it out of the box. For more see the \u003ccode\u003e\u003ca\u003ePoolOrConn\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "spock",
           "package": "Spock",
@@ -1849,6 +2008,7 @@
         "index": {
           "description": "Run spock application using the warp server given db storageLayer and an initial state Spock works with database libraries that already implement connection pooling and with those that don come with it out of the box For more see the PoolOrConn type",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "spock",
           "normalized": "Int-\u003eSessionCfg-\u003ePoolOrConn a-\u003eb-\u003eSpockM a c b()-\u003eIO()",
@@ -1864,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the HTTP response status. Default is 200.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "status",
           "package": "Spock",
@@ -1873,6 +2034,7 @@
         "index": {
           "description": "Set the HTTP response status Default is",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "status",
           "normalized": "Status-\u003eActionT a b()",
@@ -1888,6 +2050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the body of the response to the given \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e value. Also sets \"Content-Type\"\n header to \"text/plain\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "text",
           "package": "Spock",
@@ -1897,6 +2060,7 @@
         "index": {
           "description": "Set the body of the response to the given Text value Also sets Content-Type header to text plain",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "text",
           "normalized": "Text-\u003eActionT a b()",
@@ -1912,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy the current users session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:01:08 UTC 2014",
           "module": "Web.Spock",
           "name": "unauthCurrent",
           "package": "Spock",
@@ -1922,6 +2087,7 @@
         "index": {
           "description": "Destroy the current users session",
           "hierarchy": "Web Spock",
+          "indexed": "2014-03-11T17:01:08",
           "module": "Web.Spock",
           "name": "unauthCurrent",
           "normalized": "SpockAction a b c()",

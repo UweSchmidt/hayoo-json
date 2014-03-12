@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "CC-delcont-alt"
+        "phrase": "CC-delcont-alt",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pem"
+        "phrase": "pem",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRead and write PEM files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Read and write PEM files",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresent one PEM section\n\u003c/p\u003e\u003cp\u003efor now headers are not serialized at all.\n this is just available here as a placeholder for a later implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Represent one PEM section for now headers are not serialized at all this is just available here as placeholder for later implementation",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -64,6 +68,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -73,6 +78,7 @@
         },
         "index": {
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "PEM",
           "package": "pem",
@@ -87,6 +93,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebinary content of the section\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemContent",
           "package": "pem",
@@ -97,6 +104,7 @@
         "index": {
           "description": "binary content of the section",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemContent",
           "package": "pem",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoptionals key value pair header\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemHeader",
           "package": "pem",
@@ -121,6 +130,7 @@
         "index": {
           "description": "optionals key value pair header",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemHeader",
           "normalized": "[(String,ByteString)]",
@@ -137,6 +147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe name of the section, found after the dash BEGIN tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemName",
           "package": "pem",
@@ -147,6 +158,7 @@
         "index": {
           "description": "the name of the section found after the dash BEGIN tag",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemName",
           "package": "pem",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a PEM content using a strict bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemParseBS",
           "package": "pem",
@@ -171,6 +184,7 @@
         "index": {
           "description": "parse PEM content using strict bytestring",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemParseBS",
           "normalized": "ByteString-\u003eEither String[PEM]",
@@ -187,6 +201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse a PEM content using a dynamic bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemParseLBS",
           "package": "pem",
@@ -197,6 +212,7 @@
         "index": {
           "description": "parse PEM content using dynamic bytestring",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemParseLBS",
           "normalized": "ByteString-\u003eEither String[PEM]",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a PEM structure to a bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemWriteBS",
           "package": "pem",
@@ -223,6 +240,7 @@
         "index": {
           "description": "convert PEM structure to bytestring",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemWriteBS",
           "normalized": "PEM-\u003eByteString",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvert a PEM structure to a lazy bytestring\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:37:01 UTC 2014",
           "module": "Data.PEM",
           "name": "pemWriteLBS",
           "package": "pem",
@@ -249,6 +268,7 @@
         "index": {
           "description": "convert PEM structure to lazy bytestring",
           "hierarchy": "Data PEM",
+          "indexed": "2014-03-11T19:37:01",
           "module": "Data.PEM",
           "name": "pemWriteLBS",
           "normalized": "PEM-\u003eByteString",

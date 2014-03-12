@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "board-games"
+        "phrase": "board-games",
+        "type": "phrase"
       },
       "type": "context"
     }

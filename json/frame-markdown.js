@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "frame-markdown"
+        "phrase": "frame-markdown",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "Markdown",
           "package": "frame-markdown",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "Markdown",
           "package": "frame-markdown",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "blockToContainer",
           "package": "frame-markdown",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "blockToContainer",
           "normalized": "Block-\u003eContainer",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "inlineToElement",
           "package": "frame-markdown",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "inlineToElement",
           "normalized": "Inline-\u003eElement",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "inlineToString",
           "package": "frame-markdown",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "inlineToString",
           "normalized": "Inline-\u003eString",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "inlinesToElement",
           "package": "frame-markdown",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "inlinesToElement",
           "normalized": "[Inline]-\u003e[Element]",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "markdownToViewPart",
           "package": "frame-markdown",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "markdownToViewPart",
           "normalized": "String-\u003eData",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "pandocToViewPart",
           "package": "frame-markdown",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "pandocToViewPart",
           "normalized": "Pandoc-\u003eData",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:12:01 UTC 2014",
           "module": "Frame.View.Markdown",
           "name": "toContainers",
           "package": "frame-markdown",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Frame View Markdown",
+          "indexed": "2014-03-11T18:12:01",
           "module": "Frame.View.Markdown",
           "name": "toContainers",
           "normalized": "[Block]-\u003e[Container]",

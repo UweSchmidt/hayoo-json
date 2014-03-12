@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "indexed-do-notation"
+        "phrase": "indexed-do-notation",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:31 UTC 2014",
           "module": "Language.Haskell.IndexedDo",
           "name": "IndexedDo",
           "package": "indexed-do-notation",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell IndexedDo",
+          "indexed": "2014-03-11T18:57:31",
           "module": "Language.Haskell.IndexedDo",
           "name": "IndexedDo",
           "package": "indexed-do-notation",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:31 UTC 2014",
           "module": "Language.Haskell.IndexedDo",
           "name": "ido",
           "package": "indexed-do-notation",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell IndexedDo",
+          "indexed": "2014-03-11T18:57:31",
           "module": "Language.Haskell.IndexedDo",
           "name": "ido",
           "package": "indexed-do-notation",

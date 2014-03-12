@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bff"
+        "phrase": "bff",
+        "type": "phrase"
       },
       "type": "context"
     }

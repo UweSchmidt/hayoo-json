@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "happstack-facebook"
+        "phrase": "happstack-facebook",
+        "type": "phrase"
       },
       "type": "context"
     }

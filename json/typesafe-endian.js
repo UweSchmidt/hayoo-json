@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "typesafe-endian"
+        "phrase": "typesafe-endian",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "Unsafe",
           "package": "typesafe-endian",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "Unsafe",
           "package": "typesafe-endian",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper, guaranteeing enclosed type is big-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "BigEndian",
           "package": "typesafe-endian",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Wrapper guaranteeing enclosed type is big-endian",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "BigEndian",
           "package": "typesafe-endian",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper, guaranteeing enclosed type is little-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "LittleEndian",
           "package": "typesafe-endian",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Wrapper guaranteeing enclosed type is little-endian",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "LittleEndian",
           "package": "typesafe-endian",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert the the endianness of the argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "swapEndian",
           "package": "typesafe-endian",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Invert the the endianness of the argument",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "swapEndian",
           "normalized": "a-\u003ea",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput in BigEndian newtype without any swapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeAssertBigEndian",
           "package": "typesafe-endian",
@@ -122,6 +131,7 @@
         "index": {
           "description": "put in BigEndian newtype without any swapping",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeAssertBigEndian",
           "normalized": "a-\u003eBigEndian a",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eput in LittleEndian newtype without any swapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeAssertLittleEndian",
           "package": "typesafe-endian",
@@ -148,6 +159,7 @@
         "index": {
           "description": "put in LittleEndian newtype without any swapping",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeAssertLittleEndian",
           "normalized": "a-\u003eLittleEndian a",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epull out of BigEndian newtype without any swapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeUnwrapBigEndian",
           "package": "typesafe-endian",
@@ -174,6 +187,7 @@
         "index": {
           "description": "pull out of BigEndian newtype without any swapping",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeUnwrapBigEndian",
           "normalized": "BigEndian a-\u003ea",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epull out of LittleEndian newtype without any swapping\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeUnwrapLittleEndian",
           "package": "typesafe-endian",
@@ -200,6 +215,7 @@
         "index": {
           "description": "pull out of LittleEndian newtype without any swapping",
           "hierarchy": "Data Endian Unsafe",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian.Unsafe",
           "name": "unsafeUnwrapLittleEndian",
           "normalized": "LittleEndian a-\u003ea",
@@ -215,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "Endian",
           "package": "typesafe-endian",
@@ -223,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "Endian",
           "package": "typesafe-endian",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper, guaranteeing enclosed type is big-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "BigEndian",
           "package": "typesafe-endian",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Wrapper guaranteeing enclosed type is big-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "BigEndian",
           "package": "typesafe-endian",
@@ -260,6 +280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw, endian-sensitive data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "EndianSensitive",
           "package": "typesafe-endian",
@@ -269,6 +290,7 @@
         "index": {
           "description": "Raw endian-sensitive data",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "EndianSensitive",
           "package": "typesafe-endian",
@@ -283,6 +305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrapper, guaranteeing enclosed type is little-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "LittleEndian",
           "package": "typesafe-endian",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Wrapper guaranteeing enclosed type is little-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "LittleEndian",
           "package": "typesafe-endian",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from big-endian to the native format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "fromBigEndian",
           "package": "typesafe-endian",
@@ -316,6 +341,7 @@
         "index": {
           "description": "Convert from big-endian to the native format",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "fromBigEndian",
           "normalized": "BigEndian a-\u003ea",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from little-endian to the native format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "fromLittleEndian",
           "package": "typesafe-endian",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Convert from little-endian to the native format",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "fromLittleEndian",
           "normalized": "LittleEndian a-\u003ea",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the native format to big-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "toBigEndian",
           "package": "typesafe-endian",
@@ -368,6 +397,7 @@
         "index": {
           "description": "Convert from the native format to big-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "toBigEndian",
           "normalized": "a-\u003eBigEndian a",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from the native format to little-endian\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:16 UTC 2014",
           "module": "Data.Endian",
           "name": "toLittleEndian",
           "package": "typesafe-endian",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Convert from the native format to little-endian",
           "hierarchy": "Data Endian",
+          "indexed": "2014-03-11T20:28:16",
           "module": "Data.Endian",
           "name": "toLittleEndian",
           "normalized": "a-\u003eLittleEndian a",

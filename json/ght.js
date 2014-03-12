@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ght"
+        "phrase": "ght",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Blob",
           "name": "Blob",
           "package": "ght",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Blob",
           "name": "Blob",
           "package": "ght",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Blob",
           "name": "findBlob",
           "package": "ght",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Blob",
           "name": "findBlob",
           "normalized": "[String]-\u003eIO[String]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Blob",
           "name": "prettyBlob",
           "package": "ght",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Blob",
           "name": "prettyBlob",
           "normalized": "String-\u003eByteString-\u003eByteString",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Blob",
           "name": "readBlob",
           "package": "ght",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Git Blob",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Blob",
           "name": "readBlob",
           "normalized": "String-\u003eIO(Maybe ByteString)",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "Commit",
           "package": "ght",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitAuthor",
           "package": "ght",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitAuthor",
           "package": "ght",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitAuthorDate",
           "package": "ght",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitAuthorDate",
           "package": "ght",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitCommitter",
           "package": "ght",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitCommitter",
           "package": "ght",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitCommitterDate",
           "package": "ght",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitCommitterDate",
           "package": "ght",
@@ -263,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitMessage",
           "package": "ght",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitMessage",
           "package": "ght",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitParent",
           "package": "ght",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitParent",
           "package": "ght",
@@ -307,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitParse",
           "package": "ght",
@@ -316,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitParse",
           "normalized": "ByteString-\u003eCommit",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Commit",
           "name": "commitPretty",
           "package": "ght",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Git Commit",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Commit",
           "name": "commitPretty",
           "normalized": "Commit-\u003eByteString",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "PackObject",
           "package": "ght",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "PackObject",
           "package": "ght",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "PackObjectType",
           "package": "ght",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "PackObjectType",
           "package": "ght",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "Pack",
           "package": "ght",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "PackObject",
           "package": "ght",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "PackObject",
           "package": "ght",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packNumObjects",
           "package": "ght",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packNumObjects",
           "package": "ght",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packObjectPretty",
           "package": "ght",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packObjectPretty",
           "normalized": "ByteString-\u003ePackObject-\u003eByteString",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packObjects",
           "package": "ght",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packObjects",
           "normalized": "[PackObject]",
@@ -554,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the pathname for a given packfile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packPath",
           "package": "ght",
@@ -564,6 +613,7 @@
         "index": {
           "description": "Generate the pathname for given packfile",
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packPath",
           "normalized": "String-\u003eIO FilePath",
@@ -579,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packPretty",
           "package": "ght",
@@ -588,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packPretty",
           "normalized": "Pack-\u003eByteString",
@@ -603,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packRead",
           "package": "ght",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packRead",
           "normalized": "FilePath-\u003eIO(Maybe Pack)",
@@ -627,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packReadObject",
           "package": "ght",
@@ -636,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packReadObject",
           "normalized": "FilePath-\u003eFileOffset-\u003eIO(Maybe PackObject)",
@@ -651,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "packVersion",
           "package": "ght",
@@ -660,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "packVersion",
           "package": "ght",
@@ -673,6 +731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "poData",
           "package": "ght",
@@ -682,6 +741,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "poData",
           "package": "ght",
@@ -695,6 +755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "poSize",
           "package": "ght",
@@ -704,6 +765,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "poSize",
           "package": "ght",
@@ -717,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Pack",
           "name": "poType",
           "package": "ght",
@@ -726,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Git Pack",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Pack",
           "name": "poType",
           "package": "ght",
@@ -739,6 +803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.PackIndex",
           "name": "PackIndex",
           "package": "ght",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "Git PackIndex",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.PackIndex",
           "name": "PackIndex",
           "package": "ght",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.PackIndex",
           "name": "dumpRawPackIndex",
           "package": "ght",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "Git PackIndex",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.PackIndex",
           "name": "dumpRawPackIndex",
           "normalized": "FilePath-\u003eIO String",
@@ -784,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.PackIndex",
           "name": "findInPackIdxs",
           "package": "ght",
@@ -793,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Git PackIndex",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.PackIndex",
           "name": "findInPackIdxs",
           "normalized": "ByteString-\u003eIO(Maybe PackObject)",
@@ -809,6 +879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the pathname for a given packfile\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.PackIndex",
           "name": "idxPath",
           "package": "ght",
@@ -819,6 +890,7 @@
         "index": {
           "description": "Generate the pathname for given packfile",
           "hierarchy": "Git PackIndex",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.PackIndex",
           "name": "idxPath",
           "normalized": "String-\u003eIO FilePath",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Path",
           "name": "Path",
           "package": "ght",
@@ -842,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Git Path",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Path",
           "name": "Path",
           "package": "ght",
@@ -855,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Path",
           "name": "gitDeref",
           "package": "ght",
@@ -864,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Git Path",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Path",
           "name": "gitDeref",
           "normalized": "String-\u003eIO ByteString",
@@ -879,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Path",
           "name": "gitPath",
           "package": "ght",
@@ -888,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Git Path",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Path",
           "name": "gitPath",
           "normalized": "FilePath-\u003eIO FilePath",
@@ -903,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Path",
           "name": "gitRoot",
           "package": "ght",
@@ -912,6 +991,7 @@
         },
         "index": {
           "hierarchy": "Git Path",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Path",
           "name": "gitRoot",
           "package": "ght",
@@ -926,6 +1006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the given path if it exists, else the result of applying the\n modifier function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.Path",
           "name": "pathExistOr",
           "package": "ght",
@@ -936,6 +1017,7 @@
         "index": {
           "description": "Return the given path if it exists else the result of applying the modifier function",
           "hierarchy": "Git Path",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.Path",
           "name": "pathExistOr",
           "normalized": "(FilePath-\u003eIO FilePath)-\u003eFilePath-\u003eIO FilePath",
@@ -951,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.SHA",
           "name": "SHA",
           "package": "ght",
@@ -959,6 +1042,7 @@
         },
         "index": {
           "hierarchy": "Git SHA",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.SHA",
           "name": "SHA",
           "package": "ght",
@@ -972,6 +1056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.SHA",
           "name": "readDigestBS",
           "package": "ght",
@@ -981,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Git SHA",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.SHA",
           "name": "readDigestBS",
           "normalized": "String-\u003eByteString",
@@ -997,6 +1083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrints out a bytestring in hexadecimal. Just for convenience.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:16:50 UTC 2014",
           "module": "Git.SHA",
           "name": "showDigestBS",
           "package": "ght",
@@ -1007,6 +1094,7 @@
         "index": {
           "description": "Prints out bytestring in hexadecimal Just for convenience",
           "hierarchy": "Git SHA",
+          "indexed": "2014-03-11T18:16:50",
           "module": "Git.SHA",
           "name": "showDigestBS",
           "normalized": "ByteString-\u003eString",

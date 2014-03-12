@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ReviewBoard"
+        "phrase": "ReviewBoard",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "Execute a ReviewBoard action using the provided URL, user\n and password.\n\u003cp\u003eThe following RBAction creates a new review request draft, sets some fields\nand uploads a diff file:\n\u003c/p\u003e\u003cpre\u003e    import ReviewBoard.Api\n    import qualified ReviewBoard.Response as R\n\u003c/pre\u003e\u003cpre\u003e    newRRAction :: RBAction ()\n    newRRAction = do\n        rsp \u003c- reviewRequestNew \"repository\" Nothing\n        case rsp of\n            RBok r -\u003e do\n                let id = R.id . R.review_request $ r\n                reviewRequestsSetField id TARGET_PEOPLE \"reviewers\"\n                reviewRequestsSetField id DESCRIPTION \"Request description\"\n                reviewRequestsDiffNew  id \"basedir\" \"diffFileName\"\n                reviewRequestSaveDraft id\n                liftIO $ print \"Done.\"\n            RBerr s -\u003e throwError s\n\u003c/pre\u003e\u003cp\u003eTo run this action, execute:\n\u003c/p\u003e\u003cpre\u003e   execRBAction \"url\" \"user\" \"password\" newRRAction\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AexecRBAction",
           "package": "ReviewBoard",
@@ -29,6 +30,7 @@
         "index": {
           "description": "Execute ReviewBoard action using the provided URL user and password The following RBAction creates new review request draft sets some fields and uploads diff file import ReviewBoard.Api import qualified ReviewBoard.Response as newRRAction RBAction newRRAction do rsp reviewRequestNew repository Nothing case rsp of RBok do let id R.id R.review request reviewRequestsSetField id TARGET PEOPLE reviewers reviewRequestsSetField id DESCRIPTION Request description reviewRequestsDiffNew id basedir diffFileName reviewRequestSaveDraft id liftIO print Done RBerr throwError To run this action execute execRBAction url user password newRRAction",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AexecRBAction",
           "normalized": "String-\u003eString-\u003eString-\u003eRBAction a-\u003eIO a",
@@ -45,6 +47,7 @@
       "document": {
         "description": {
           "description": "Search for a group or list all group if Nothing\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AgroupList",
           "package": "ReviewBoard",
@@ -55,6 +58,7 @@
         "index": {
           "description": "Search for group or list all group if Nothing",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AgroupList",
           "normalized": "Maybe String-\u003eRBAction RBResponse",
@@ -71,6 +75,7 @@
       "document": {
         "description": {
           "description": "Star group for group name\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AgroupStar",
           "package": "ReviewBoard",
@@ -81,6 +86,7 @@
         "index": {
           "description": "Star group for group name",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AgroupStar",
           "normalized": "String-\u003eRBAction RBResponse",
@@ -97,6 +103,7 @@
       "document": {
         "description": {
           "description": "Unstar group for group name\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AgroupUnstar",
           "package": "ReviewBoard",
@@ -107,6 +114,7 @@
         "index": {
           "description": "Unstar group for group name",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AgroupUnstar",
           "normalized": "String-\u003eRBAction RBResponse",
@@ -123,6 +131,7 @@
       "document": {
         "description": {
           "description": "List repositories\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3ArepositoryList",
           "package": "ReviewBoard",
@@ -133,6 +142,7 @@
         "index": {
           "description": "List repositories",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3ArepositoryList",
           "package": "ReviewBoard",
@@ -147,6 +157,7 @@
       "document": {
         "description": {
           "description": "List all reviews for review request \u003ctt\u003eid\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewAll",
           "package": "ReviewBoard",
@@ -157,6 +168,7 @@
         "index": {
           "description": "List all reviews for review request id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewAll",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -173,6 +185,7 @@
       "document": {
         "description": {
           "description": "Delete review draft for review request \u003ctt\u003eid\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewDeleteDraft",
           "package": "ReviewBoard",
@@ -183,6 +196,7 @@
         "index": {
           "description": "Delete review draft for review request id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewDeleteDraft",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -199,6 +213,7 @@
       "document": {
         "description": {
           "description": "Publish review request draft for id\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewPublishDraft",
           "package": "ReviewBoard",
@@ -209,6 +224,7 @@
         "index": {
           "description": "Publish review request draft for id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewPublishDraft",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -225,6 +241,7 @@
       "document": {
         "description": {
           "description": "Get review request by \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequest",
           "package": "ReviewBoard",
@@ -235,6 +252,7 @@
         "index": {
           "description": "Get review request by id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequest",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -251,6 +269,7 @@
       "document": {
         "description": {
           "description": "Get review request by repository \u003ctt\u003eid\u003c/tt\u003e and changenum \u003ctt\u003eid\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestByChangenum",
           "package": "ReviewBoard",
@@ -261,6 +280,7 @@
         "index": {
           "description": "Get review request by repository id and changenum id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestByChangenum",
           "normalized": "Integer-\u003eInteger-\u003eRBAction RBResponse",
@@ -277,6 +297,7 @@
       "document": {
         "description": {
           "description": "Delete review request with request \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDelete",
           "package": "ReviewBoard",
@@ -287,6 +308,7 @@
         "index": {
           "description": "Delete review request with request id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDelete",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -303,6 +325,7 @@
       "document": {
         "description": {
           "description": "Add a new diff to a review request with \u003ctt\u003eid\u003c/tt\u003e, file path and the basedir parameter.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDiffNew",
           "package": "ReviewBoard",
@@ -313,6 +336,7 @@
         "index": {
           "description": "Add new diff to review request with id file path and the basedir parameter",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDiffNew",
           "normalized": "Integer-\u003eString-\u003eFilePath-\u003eRBAction RBResponse",
@@ -329,6 +353,7 @@
       "document": {
         "description": {
           "description": "Save review request draft whith \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDiscardDraft",
           "package": "ReviewBoard",
@@ -339,6 +364,7 @@
         "index": {
           "description": "Save review request draft whith id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestDiscardDraft",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -355,6 +381,7 @@
       "document": {
         "description": {
           "description": "List all review requests with an optional status\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListAll",
           "package": "ReviewBoard",
@@ -365,6 +392,7 @@
         "index": {
           "description": "List all review requests with an optional status",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListAll",
           "normalized": "Maybe String-\u003eRBAction RBResponse",
@@ -381,6 +409,7 @@
       "document": {
         "description": {
           "description": "List review request from a user with an optional status\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListFromUser",
           "package": "ReviewBoard",
@@ -391,6 +420,7 @@
         "index": {
           "description": "List review request from user with an optional status",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListFromUser",
           "normalized": "String-\u003eMaybe String-\u003eRBAction RBResponse",
@@ -407,6 +437,7 @@
       "document": {
         "description": {
           "description": "List review request assigned to a group with an optional status\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListToGroup",
           "package": "ReviewBoard",
@@ -417,6 +448,7 @@
         "index": {
           "description": "List review request assigned to group with an optional status",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListToGroup",
           "normalized": "String-\u003eMaybe String-\u003eRBAction RBResponse",
@@ -433,6 +465,7 @@
       "document": {
         "description": {
           "description": "List review request assigned to a user, directly or not with an optional status\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListToUser",
           "package": "ReviewBoard",
@@ -443,6 +476,7 @@
         "index": {
           "description": "List review request assigned to user directly or not with an optional status",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestListToUser",
           "normalized": "String-\u003eBool-\u003eMaybe String-\u003eRBAction RBResponse",
@@ -459,6 +493,7 @@
       "document": {
         "description": {
           "description": "Create new review request using the provided repository path and an optional\n submit_as user. The returned response contains the \u003ctt\u003eid\u003c/tt\u003e of the new created\n review request that can be accessed using rrId helper function.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestNew",
           "package": "ReviewBoard",
@@ -469,6 +504,7 @@
         "index": {
           "description": "Create new review request using the provided repository path and an optional submit as user The returned response contains the id of the new created review request that can be accessed using rrId helper function",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestNew",
           "normalized": "String-\u003eMaybe String-\u003eRBAction RBResponse",
@@ -485,6 +521,7 @@
       "document": {
         "description": {
           "description": "Discard review request draft for \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSaveDraft",
           "package": "ReviewBoard",
@@ -495,6 +532,7 @@
         "index": {
           "description": "Discard review request draft for id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSaveDraft",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -511,6 +549,7 @@
       "document": {
         "description": {
           "description": "Add a new screenshot with \u003ctt\u003efile path\u003c/tt\u003e to a review request with \u003ctt\u003eid\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestScreenshotNew",
           "package": "ReviewBoard",
@@ -521,6 +560,7 @@
         "index": {
           "description": "Add new screenshot with file path to review request with id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestScreenshotNew",
           "normalized": "Integer-\u003eFilePath-\u003eRBAction RBResponse",
@@ -537,6 +577,7 @@
       "document": {
         "description": {
           "description": "Set fields to review request draft with \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSet",
           "package": "ReviewBoard",
@@ -547,6 +588,7 @@
         "index": {
           "description": "Set fields to review request draft with id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSet",
           "normalized": "Integer-\u003e[(RRField,String)]-\u003eRBAction RBResponse",
@@ -563,6 +605,7 @@
       "document": {
         "description": {
           "description": "Set one field for review request draft with \u003ctt\u003eid\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSetField",
           "package": "ReviewBoard",
@@ -573,6 +616,7 @@
         "index": {
           "description": "Set one field for review request draft with id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestSetField",
           "normalized": "Integer-\u003eRRField-\u003eString-\u003eRBAction RBResponse",
@@ -589,6 +633,7 @@
       "document": {
         "description": {
           "description": "Star review request for id\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestStar",
           "package": "ReviewBoard",
@@ -599,6 +644,7 @@
         "index": {
           "description": "Star review request for id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestStar",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -615,6 +661,7 @@
       "document": {
         "description": {
           "description": "Star review request for id\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestUnstar",
           "package": "ReviewBoard",
@@ -625,6 +672,7 @@
         "index": {
           "description": "Star review request for id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewRequestUnstar",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -641,6 +689,7 @@
       "document": {
         "description": {
           "description": "Save review draft for review request \u003ctt\u003eid\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AreviewSaveDraft",
           "package": "ReviewBoard",
@@ -651,6 +700,7 @@
         "index": {
           "description": "Save review draft for review request id",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AreviewSaveDraft",
           "normalized": "Integer-\u003eRBAction RBResponse",
@@ -667,6 +717,7 @@
       "document": {
         "description": {
           "description": "Search for a user or list all users if user is Nothing\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Api",
           "name": "3AuserList",
           "package": "ReviewBoard",
@@ -677,6 +728,7 @@
         "index": {
           "description": "Search for user or list all users if user is Nothing",
           "hierarchy": "ReviewBoard Api",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Api",
           "name": "3AuserList",
           "normalized": "Maybe String-\u003eRBAction RBResponse",
@@ -692,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AForm",
           "package": "ReviewBoard",
@@ -700,6 +753,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AForm",
           "package": "ReviewBoard",
@@ -713,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AFormVar",
           "package": "ReviewBoard",
@@ -721,6 +776,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AFormVar",
           "package": "ReviewBoard",
@@ -735,6 +791,7 @@
       "document": {
         "description": {
           "description": "Create checkbox variable\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AcheckBox",
           "package": "ReviewBoard",
@@ -745,6 +802,7 @@
         "index": {
           "description": "Create checkbox variable",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AcheckBox",
           "normalized": "String-\u003eBool-\u003eFormVar",
@@ -761,6 +819,7 @@
       "document": {
         "description": {
           "description": "Create file upload variable\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AfileUpload",
           "package": "ReviewBoard",
@@ -771,6 +830,7 @@
         "index": {
           "description": "Create file upload variable",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AfileUpload",
           "normalized": "String-\u003eFilePath-\u003eString-\u003eFormVar",
@@ -787,6 +847,7 @@
       "document": {
         "description": {
           "description": "Form to request for typed form variables,\n same as \u003ctt\u003e\u003ca\u003eformToRequest\u003c/a\u003e\u003c/tt\u003e in Network.Browser module.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AformToRequest",
           "package": "ReviewBoard",
@@ -797,6 +858,7 @@
         "index": {
           "description": "Form to request for typed form variables same as formToRequest in Network.Browser module",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AformToRequest",
           "normalized": "Form-\u003eBrowserAction Request",
@@ -813,6 +875,7 @@
       "document": {
         "description": {
           "description": "Create text field variable\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AtextField",
           "package": "ReviewBoard",
@@ -823,6 +886,7 @@
         "index": {
           "description": "Create text field variable",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AtextField",
           "normalized": "String-\u003eString-\u003eFormVar",
@@ -839,6 +903,7 @@
       "document": {
         "description": {
           "description": "Opposite to toNBFormVar\n Converts a String tuple to \u003ctt\u003e\u003ca\u003eFormVar\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AtoFormVar",
           "package": "ReviewBoard",
@@ -849,6 +914,7 @@
         "index": {
           "description": "Opposite to toNBFormVar Converts String tuple to FormVar",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AtoFormVar",
           "normalized": "[(String,String)]-\u003e[FormVar]",
@@ -865,6 +931,7 @@
       "document": {
         "description": {
           "description": "Convert [FormVar] to Network.Browser FormVar, a (String, String) map\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Browser",
           "name": "3AtoMap",
           "package": "ReviewBoard",
@@ -875,6 +942,7 @@
         "index": {
           "description": "Convert FormVar to Network.Browser FormVar String String map",
           "hierarchy": "ReviewBoard Browser",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Browser",
           "name": "3AtoMap",
           "normalized": "[FormVar]-\u003e[(String,String)]",
@@ -890,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ARBAction",
           "package": "ReviewBoard",
@@ -898,6 +967,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ARBAction",
           "package": "ReviewBoard",
@@ -911,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ARBRequestType",
           "package": "ReviewBoard",
@@ -919,6 +990,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ARBRequestType",
           "package": "ReviewBoard",
@@ -932,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ARBResponse",
           "package": "ReviewBoard",
@@ -940,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ARBResponse",
           "package": "ReviewBoard",
@@ -953,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ARBState",
           "package": "ReviewBoard",
@@ -961,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ARBState",
           "package": "ReviewBoard",
@@ -975,6 +1051,7 @@
       "document": {
         "description": {
           "description": "Convenient lift for BrowserActions\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3AliftBA",
           "package": "ReviewBoard",
@@ -985,6 +1062,7 @@
         "index": {
           "description": "Convenient lift for BrowserActions",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3AliftBA",
           "normalized": "BrowserAction a-\u003eRBAction a",
@@ -1001,6 +1079,7 @@
       "document": {
         "description": {
           "description": "Create ReviewBoard specific URI for a Web API call URL.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3AmkApiURI",
           "package": "ReviewBoard",
@@ -1011,6 +1090,7 @@
         "index": {
           "description": "Create ReviewBoard specific URI for Web API call URL",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3AmkApiURI",
           "normalized": "String-\u003eRBAction URI",
@@ -1027,6 +1107,7 @@
       "document": {
         "description": {
           "description": "Convenient response converter\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3AresponseToEither",
           "package": "ReviewBoard",
@@ -1037,6 +1118,7 @@
         "index": {
           "description": "Convenient response converter",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3AresponseToEither",
           "normalized": "RBResponse-\u003eEither String JSValue",
@@ -1053,6 +1135,7 @@
       "document": {
         "description": {
           "description": "Run for \u003ctt\u003e\u003ca\u003eRBAction\u003c/a\u003e\u003c/tt\u003e, performs a login using provided URL, user \n and password parameters and executes the action. When login fails \n \u003ctt\u003e\u003ca\u003erunRBAction\u003c/a\u003e\u003c/tt\u003e returns immediately with an error.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ArunRBAction",
           "package": "ReviewBoard",
@@ -1063,6 +1146,7 @@
         "index": {
           "description": "Run for RBAction performs login using provided URL user and password parameters and executes the action When login fails runRBAction returns immediately with an error",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ArunRBAction",
           "normalized": "String-\u003eString-\u003eString-\u003eRBAction a-\u003eIO(Either String a,RBState)",
@@ -1079,6 +1163,7 @@
       "document": {
         "description": {
           "description": "The request runner, generates request from provided \u003ctt\u003e\u003ca\u003eForm\u003c/a\u003e\u003c/tt\u003e parameter,\n executes the requests and handles the response using the handler function.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3ArunRequest",
           "package": "ReviewBoard",
@@ -1089,6 +1174,7 @@
         "index": {
           "description": "The request runner generates request from provided Form parameter executes the requests and handles the response using the handler function",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3ArunRequest",
           "normalized": "RBRequestType-\u003eForm-\u003e(RBResponse-\u003eRBAction a)-\u003eRBAction a",
@@ -1105,6 +1191,7 @@
       "document": {
         "description": {
           "description": "Enable/disable debug output for Browser module\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3AsetDebugHTTP",
           "package": "ReviewBoard",
@@ -1115,6 +1202,7 @@
         "index": {
           "description": "Enable disable debug output for Browser module",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3AsetDebugHTTP",
           "normalized": "Bool-\u003eRBAction()",
@@ -1131,6 +1219,7 @@
       "document": {
         "description": {
           "description": "Set error handler used for ReviewBoard error responses.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Core",
           "name": "3AsetErrorHandler",
           "package": "ReviewBoard",
@@ -1141,6 +1230,7 @@
         "index": {
           "description": "Set error handler used for ReviewBoard error responses",
           "hierarchy": "ReviewBoard Core",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Core",
           "name": "3AsetErrorHandler",
           "normalized": "(String-\u003eIO())-\u003eRBAction()",
@@ -1156,6 +1246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3ARRField",
           "package": "ReviewBoard",
@@ -1164,6 +1255,7 @@
         },
         "index": {
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3ARRField",
           "package": "ReviewBoard",
@@ -1178,6 +1270,7 @@
       "document": {
         "description": {
           "description": "Synonym for URL path element\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3AUrlPath",
           "package": "ReviewBoard",
@@ -1187,6 +1280,7 @@
         "index": {
           "description": "Synonym for URL path element",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3AUrlPath",
           "package": "ReviewBoard",
@@ -1201,6 +1295,7 @@
       "document": {
         "description": {
           "description": "API GET request method\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3AapiGet",
           "package": "ReviewBoard",
@@ -1211,6 +1306,7 @@
         "index": {
           "description": "API GET request method",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3AapiGet",
           "normalized": "(UrlPath-\u003eUrlPath)-\u003e[FormVar]-\u003eRBAction RBResponse",
@@ -1227,6 +1323,7 @@
       "document": {
         "description": {
           "description": "API POST request method\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3AapiPost",
           "package": "ReviewBoard",
@@ -1237,6 +1334,7 @@
         "index": {
           "description": "API POST request method",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3AapiPost",
           "normalized": "(UrlPath-\u003eUrlPath)-\u003e[FormVar]-\u003eRBAction RBResponse",
@@ -1253,6 +1351,7 @@
       "document": {
         "description": {
           "description": "Fall back to default http request for the case an action is not supported \n by the ReviewBoard WebAPI (HTTP GET)\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3AhttpGet",
           "package": "ReviewBoard",
@@ -1263,6 +1362,7 @@
         "index": {
           "description": "Fall back to default http request for the case an action is not supported by the ReviewBoard WebAPI HTTP GET",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3AhttpGet",
           "normalized": "String-\u003e[FormVar]-\u003eRBAction RBResponse",
@@ -1279,6 +1379,7 @@
       "document": {
         "description": {
           "description": "Same as \u003ctt\u003e\u003ca\u003ehttpGet\u003c/a\u003e\u003c/tt\u003e for HTTP POST requests\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3AhttpPost",
           "package": "ReviewBoard",
@@ -1289,6 +1390,7 @@
         "index": {
           "description": "Same as httpGet for HTTP POST requests",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3AhttpPost",
           "normalized": "String-\u003e[FormVar]-\u003eRBAction RBResponse",
@@ -1305,6 +1407,7 @@
       "document": {
         "description": {
           "description": "Make path element with a parameter of type a e.g.\n reviewrequests (Just 5) =\u003e \"reviewrequests/5/\"\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3Amkpup",
           "package": "ReviewBoard",
@@ -1315,6 +1418,7 @@
         "index": {
           "description": "Make path element with parameter of type e.g reviewrequests Just reviewrequests",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3Amkpup",
           "normalized": "String-\u003eMaybe a-\u003eUrlPath-\u003eUrlPath",
@@ -1331,6 +1435,7 @@
       "document": {
         "description": {
           "description": "(MaKe UrlPath) Default URL element path maker\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Request",
           "name": "3Amkup",
           "package": "ReviewBoard",
@@ -1341,6 +1446,7 @@
         "index": {
           "description": "MaKe UrlPath Default URL element path maker",
           "hierarchy": "ReviewBoard Request",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Request",
           "name": "3Amkup",
           "normalized": "String-\u003eUrlPath-\u003eUrlPath",
@@ -1357,6 +1463,7 @@
       "document": {
         "description": {
           "description": "Extract value from JSValue or throw error\n\u003cp\u003eThe DSL provides a function for most ReviewBoard JSObject members\n that directly returns the value of the member. The function name is equivalent\n to the name of the member element, for example values of a response:\n\u003c/p\u003e\u003cpre\u003e { \"stat\": \"fail\", \n   \"err\": {\n     \"msg\": \"You are not logged in\", \n     \"code\": 103\n   }\n }\n\u003c/pre\u003e\u003cp\u003emay be accessed as following:\n\u003c/p\u003e\u003cpre\u003e (msg . err) response\n -- returns 'You are not logged in' :: String\n\u003c/pre\u003e\u003cpre\u003e (code . err) response\n -- returns 103 :: Integer\n\u003c/pre\u003e\u003cp\u003eIf the entry name represented by the function does not exist,\n an error is thrown.\n\u003c/p\u003e\u003cp\u003eThe current function list is build by screen scraping ReviewBoard\n source code, so it's likely that some elements are missing. \n The missing function can be added using \u003ctt\u003e\u003ca\u003emkrb\u003c/a\u003e\u003c/tt\u003e function. \n Please drop me an email if you find one and I will include \n this in the next version.\n\u003c/p\u003e\u003cp\u003eThis approach for handling responses may change if I find a way\n to generate the DSL methods directly from ReviewBoard code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Response",
           "name": "3Ajs2v",
           "package": "ReviewBoard",
@@ -1367,6 +1474,7 @@
         "index": {
           "description": "Extract value from JSValue or throw error The DSL provides function for most ReviewBoard JSObject members that directly returns the value of the member The function name is equivalent to the name of the member element for example values of response stat fail err msg You are not logged in code may be accessed as following msg err response returns You are not logged in String code err response returns Integer If the entry name represented by the function does not exist an error is thrown The current function list is build by screen scraping ReviewBoard source code so it likely that some elements are missing The missing function can be added using mkrb function Please drop me an email if you find one and will include this in the next version This approach for handling responses may change if find way to generate the DSL methods directly from ReviewBoard code",
           "hierarchy": "ReviewBoard Response",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Response",
           "name": "3Ajs2v",
           "normalized": "JSValue-\u003ea",
@@ -1383,6 +1491,7 @@
       "document": {
         "description": {
           "description": "Get value for name from a JSObject or Nothing\n if JSValue is not a JSObject\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4name",
           "package": "ReviewBoard",
@@ -1393,6 +1502,7 @@
         "index": {
           "description": "Get value for name from JSObject or Nothing if JSValue is not JSObject",
           "hierarchy": "ReviewBoard Response",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4name",
           "normalized": "String-\u003eJSValue-\u003eMaybe JSValue",
@@ -1409,6 +1519,7 @@
       "document": {
         "description": {
           "description": "Get JSValue for name path, for example\n for JSON object '{ \"obj1\" : { \"str\" : \"test\" } }'\n js4path [\"obj1\", \"str\"] returns Just test\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4path",
           "package": "ReviewBoard",
@@ -1419,6 +1530,7 @@
         "index": {
           "description": "Get JSValue for name path for example for JSON object obj1 str test js4path obj1 str returns Just test",
           "hierarchy": "ReviewBoard Response",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4path",
           "normalized": "[String]-\u003eJSValue-\u003eMaybe JSValue",
@@ -1435,6 +1547,7 @@
       "document": {
         "description": {
           "description": "Get JSValue for string path of the form\n \u003ctt\u003ereviewrequests.5.delete\u003c/tt\u003e. Dots inside a name\n are not supported.\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4spath",
           "package": "ReviewBoard",
@@ -1445,6 +1558,7 @@
         "index": {
           "description": "Get JSValue for string path of the form reviewrequests.5.delete Dots inside name are not supported",
           "hierarchy": "ReviewBoard Response",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Response",
           "name": "3Ajs4spath",
           "normalized": "String-\u003eJSValue-\u003eMaybe JSValue",
@@ -1461,6 +1575,7 @@
       "document": {
         "description": {
           "description": "Constructor for DSL functions\n",
+          "indexed": "Tue Mar 11 16:58:54 UTC 2014",
           "module": "ReviewBoard.Response",
           "name": "3Amkrb",
           "package": "ReviewBoard",
@@ -1471,6 +1586,7 @@
         "index": {
           "description": "Constructor for DSL functions",
           "hierarchy": "ReviewBoard Response",
+          "indexed": "2014-03-11T16:58:54",
           "module": "ReviewBoard.Response",
           "name": "3Amkrb",
           "normalized": "String-\u003eJSValue-\u003ea",

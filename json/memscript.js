@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "memscript"
+        "phrase": "memscript",
+        "type": "phrase"
       },
       "type": "context"
     }

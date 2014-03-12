@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regex-posix-unittest"
+        "phrase": "regex-posix-unittest",
+        "type": "phrase"
       },
       "type": "context"
     }

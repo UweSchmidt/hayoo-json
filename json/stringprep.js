@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "stringprep"
+        "phrase": "stringprep",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "CharRanges",
           "package": "stringprep",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "CharRanges",
           "package": "stringprep",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "CharSet",
           "package": "stringprep",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "CharSet",
           "package": "stringprep",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "Range",
           "package": "stringprep",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "Range",
           "package": "stringprep",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "Range",
           "package": "stringprep",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "Range",
           "package": "stringprep",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "Single",
           "package": "stringprep",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "Single",
           "package": "stringprep",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "member",
           "package": "stringprep",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "member",
           "normalized": "Char-\u003eCharSet-\u003eBool",
@@ -197,6 +209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows quick lookups using ranges.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.CharRanges",
           "name": "toSet",
           "package": "stringprep",
@@ -207,6 +220,7 @@
         "index": {
           "description": "Allows quick lookups using ranges",
           "hierarchy": "Text CharRanges",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.CharRanges",
           "name": "toSet",
           "normalized": "[Range]-\u003eCharSet",
@@ -223,6 +237,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProfiles as defined by various sources\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep.Profiles",
           "name": "Profiles",
           "package": "stringprep",
@@ -232,6 +247,7 @@
         "index": {
           "description": "Profiles as defined by various sources",
           "hierarchy": "Text StringPrep Profiles",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep.Profiles",
           "name": "Profiles",
           "package": "stringprep",
@@ -246,6 +262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNameprep profile (RFC 3491)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep.Profiles",
           "name": "namePrepProfile",
           "package": "stringprep",
@@ -256,6 +273,7 @@
         "index": {
           "description": "Nameprep profile RFC",
           "hierarchy": "Text StringPrep Profiles",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep.Profiles",
           "name": "namePrepProfile",
           "normalized": "Bool-\u003eStringPrepProfile",
@@ -272,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSASLPrep profile (RFC 4013). The parameter determines whether unassigned\n charater are allowed (query behaviour) or disallowed (store)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep.Profiles",
           "name": "saslPrepProfile",
           "package": "stringprep",
@@ -282,6 +301,7 @@
         "index": {
           "description": "SASLPrep profile RFC The parameter determines whether unassigned charater are allowed query behaviour or disallowed store",
           "hierarchy": "Text StringPrep Profiles",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep.Profiles",
           "name": "saslPrepProfile",
           "normalized": "Bool-\u003eStringPrepProfile",
@@ -297,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "StringPrep",
           "package": "stringprep",
@@ -305,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "StringPrep",
           "package": "stringprep",
@@ -318,6 +340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "Map",
           "package": "stringprep",
@@ -326,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "Map",
           "package": "stringprep",
@@ -339,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "Range",
           "package": "stringprep",
@@ -347,6 +372,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "Range",
           "package": "stringprep",
@@ -360,6 +386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "StringPrepProfile",
           "package": "stringprep",
@@ -368,6 +395,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "StringPrepProfile",
           "package": "stringprep",
@@ -381,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "Profile",
           "package": "stringprep",
@@ -390,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "Profile",
           "package": "stringprep",
@@ -403,6 +433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "a1",
           "package": "stringprep",
@@ -412,6 +443,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "a1",
           "normalized": "[Range]",
@@ -426,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "b1",
           "package": "stringprep",
@@ -435,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "b1",
           "package": "stringprep",
@@ -447,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "b2",
           "package": "stringprep",
@@ -456,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "b2",
           "package": "stringprep",
@@ -468,6 +504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c11",
           "package": "stringprep",
@@ -477,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c11",
           "normalized": "[Range]",
@@ -491,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c12",
           "package": "stringprep",
@@ -500,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c12",
           "normalized": "[Range]",
@@ -514,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c21",
           "package": "stringprep",
@@ -523,6 +564,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c21",
           "normalized": "[Range]",
@@ -537,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c22",
           "package": "stringprep",
@@ -546,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c22",
           "normalized": "[Range]",
@@ -560,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c3",
           "package": "stringprep",
@@ -569,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c3",
           "normalized": "[Range]",
@@ -583,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c4",
           "package": "stringprep",
@@ -592,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c4",
           "normalized": "[Range]",
@@ -606,6 +654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c5",
           "package": "stringprep",
@@ -615,6 +664,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c5",
           "normalized": "[Range]",
@@ -629,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c6",
           "package": "stringprep",
@@ -638,6 +689,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c6",
           "normalized": "[Range]",
@@ -652,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c7",
           "package": "stringprep",
@@ -661,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c7",
           "normalized": "[Range]",
@@ -675,6 +729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c8",
           "package": "stringprep",
@@ -684,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c8",
           "normalized": "[Range]",
@@ -698,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "c9",
           "package": "stringprep",
@@ -707,6 +764,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "c9",
           "normalized": "[Range]",
@@ -721,6 +779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "maps",
           "package": "stringprep",
@@ -730,6 +789,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "maps",
           "normalized": "[Map]",
@@ -744,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "prohibited",
           "package": "stringprep",
@@ -753,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "prohibited",
           "normalized": "[Prohibited]",
@@ -767,6 +829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "runStringPrep",
           "package": "stringprep",
@@ -776,6 +839,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "runStringPrep",
           "normalized": "StringPrepProfile-\u003eText-\u003eMaybe Text",
@@ -791,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "shouldCheckBidi",
           "package": "stringprep",
@@ -800,6 +865,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "shouldCheckBidi",
           "package": "stringprep",
@@ -813,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:54 UTC 2014",
           "module": "Text.StringPrep",
           "name": "shouldNormalize",
           "package": "stringprep",
@@ -822,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Text StringPrep",
+          "indexed": "2014-03-11T20:12:54",
           "module": "Text.StringPrep",
           "name": "shouldNormalize",
           "package": "stringprep",

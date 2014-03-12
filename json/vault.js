@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "vault"
+        "phrase": "vault",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAn abstract interface to a unique symbol generator.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Unique.Really",
           "name": "Really",
           "package": "vault",
@@ -28,6 +29,7 @@
         "index": {
           "description": "An abstract interface to unique symbol generator",
           "hierarchy": "Data Unique Really",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Unique.Really",
           "name": "Really",
           "package": "vault",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract unique value.\n Values of type \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e may be compared for equality\n and hashed into Int.\n\u003c/p\u003e\u003cp\u003eNote: Unlike the symbols from \u003ca\u003eData.Unique\u003c/a\u003e, the symbols from this\n module do not become equal after reloads in the GHC interpreter!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Unique.Really",
           "name": "Unique",
           "package": "vault",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An abstract unique value Values of type Unique may be compared for equality and hashed into Int Note Unlike the symbols from Data.Unique the symbols from this module do not become equal after reloads in the GHC interpreter",
           "hierarchy": "Data Unique Really",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Unique.Really",
           "name": "Unique",
           "package": "vault",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHashes a \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e into an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n Two Uniques may hash to the same value, although in practice this is unlikely.\n The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e returned makes a good hash key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Unique.Really",
           "name": "hashUnique",
           "package": "vault",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Hashes Unique into an Int Two Uniques may hash to the same value although in practice this is unlikely The Int returned makes good hash key",
           "hierarchy": "Data Unique Really",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Unique.Really",
           "name": "hashUnique",
           "normalized": "Unique-\u003eInt",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new object of type \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e.\n The value returned will not compare equal to any other\n value of type \u003ccode\u003e\u003ca\u003eUnique\u003c/a\u003e\u003c/code\u003e returned by previous calls to \u003ccode\u003e\u003ca\u003enewUnique\u003c/a\u003e\u003c/code\u003e.\n There is no limit on the number of times you may call this function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Unique.Really",
           "name": "newUnique",
           "package": "vault",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Creates new object of type Unique The value returned will not compare equal to any other value of type Unique returned by previous calls to newUnique There is no limit on the number of times you may call this function",
           "hierarchy": "Data Unique Really",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Unique.Really",
           "name": "newUnique",
           "package": "vault",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA persistent store for values of arbitrary types.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVault\u003c/a\u003e\u003c/code\u003e type in this module is strict in the keys but lazy in the values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "Lazy",
           "package": "vault",
@@ -124,6 +133,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types The Vault type in this module is strict in the keys but lazy in the values",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "Lazy",
           "package": "vault",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys for the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "Key",
           "package": "vault",
@@ -147,6 +158,7 @@
         "index": {
           "description": "Keys for the vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "Key",
           "package": "vault",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA persistent store for a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "Locker",
           "package": "vault",
@@ -170,6 +183,7 @@
         "index": {
           "description": "persistent store for single value",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "Locker",
           "package": "vault",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA persistent store for values of arbitrary types.\n\u003c/p\u003e\u003cp\u003eThis variant is the simplest and creates keys in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n See the module \u003ca\u003eData.Vault.ST\u003c/a\u003e if you want to use it with the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "Vault",
           "package": "vault",
@@ -193,6 +208,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types This variant is the simplest and creates keys in the IO monad See the module Data.Vault.ST if you want to use it with the ST monad instead",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "Vault",
           "package": "vault",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the value for a given key if it's present in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "adjust",
           "package": "vault",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Adjust the value for given key if it present in the vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey a-\u003eVault-\u003eVault",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key from the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "delete",
           "package": "vault",
@@ -242,6 +261,7 @@
         "index": {
           "description": "Delete key from the vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "delete",
           "normalized": "Key a-\u003eVault-\u003eVault",
@@ -257,6 +277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "empty",
           "package": "vault",
@@ -267,6 +288,7 @@
         "index": {
           "description": "The empty vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "empty",
           "package": "vault",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value for a given key. Overwrites any previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "insert",
           "package": "vault",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Insert value for given key Overwrites any previous value",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "insert",
           "normalized": "Key a-\u003ea-\u003eVault-\u003eVault",
@@ -305,6 +329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a single value into a \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "lock",
           "package": "vault",
@@ -315,6 +340,7 @@
         "index": {
           "description": "Put single value into Locker",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "lock",
           "normalized": "Key a-\u003ea-\u003eLocker",
@@ -330,6 +356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value of a key in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "lookup",
           "package": "vault",
@@ -340,6 +367,7 @@
         "index": {
           "description": "Lookup the value of key in the vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "lookup",
           "normalized": "Key a-\u003eVault-\u003eMaybe a",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new key for use with a vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "newKey",
           "package": "vault",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Create new key for use with vault",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "newKey",
           "package": "vault",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two vaults (left-biased).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "union",
           "package": "vault",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Merge two vaults left-biased",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "union",
           "normalized": "Vault-\u003eVault-\u003eVault",
@@ -404,6 +436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value from the \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Lazy",
           "name": "unlock",
           "package": "vault",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Retrieve the value from the Locker",
           "hierarchy": "Data Vault Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Lazy",
           "name": "unlock",
           "normalized": "Key a-\u003eLocker-\u003eMaybe a",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA persistent store for values of arbitrary types.\n Variant for the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVault\u003c/a\u003e\u003c/code\u003e type in this module is strict in the keys but lazy in the values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "Lazy",
           "package": "vault",
@@ -438,6 +473,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types Variant for the ST monad The Vault type in this module is strict in the keys but lazy in the values",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "Lazy",
           "package": "vault",
@@ -451,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "Key",
           "package": "vault",
@@ -459,6 +496,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "Key",
           "package": "vault",
@@ -472,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "Locker",
           "package": "vault",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "Locker",
           "package": "vault",
@@ -493,6 +533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "Vault",
           "package": "vault",
@@ -501,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "Vault",
           "package": "vault",
@@ -515,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the value for a given key if it's present in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "adjust",
           "package": "vault",
@@ -525,6 +568,7 @@
         "index": {
           "description": "Adjust the value for given key if it present in the vault",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey b a-\u003eVault b-\u003eVault b",
@@ -540,6 +584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key from the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "delete",
           "package": "vault",
@@ -550,6 +595,7 @@
         "index": {
           "description": "Delete key from the vault",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "delete",
           "normalized": "Key a b-\u003eVault a-\u003eVault a",
@@ -565,6 +611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "empty",
           "package": "vault",
@@ -575,6 +622,7 @@
         "index": {
           "description": "The empty vault",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "empty",
           "package": "vault",
@@ -588,6 +636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value for a given key. Overwrites any previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "insert",
           "package": "vault",
@@ -598,6 +647,7 @@
         "index": {
           "description": "Insert value for given key Overwrites any previous value",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "insert",
           "normalized": "Key a b-\u003eb-\u003eVault a-\u003eVault a",
@@ -613,6 +663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a single value into a \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "lock",
           "package": "vault",
@@ -623,6 +674,7 @@
         "index": {
           "description": "Put single value into Locker",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "lock",
           "normalized": "Key a b-\u003eb-\u003eLocker a",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value of a key in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "lookup",
           "package": "vault",
@@ -648,6 +701,7 @@
         "index": {
           "description": "Lookup the value of key in the vault",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "lookup",
           "normalized": "Key a b-\u003eVault a-\u003eMaybe b",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new key for use with a vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "newKey",
           "package": "vault",
@@ -673,6 +728,7 @@
         "index": {
           "description": "Create new key for use with vault",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "newKey",
           "package": "vault",
@@ -687,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two vaults (left-biased).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "union",
           "package": "vault",
@@ -697,6 +754,7 @@
         "index": {
           "description": "Merge two vaults left-biased",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "union",
           "normalized": "Vault a-\u003eVault a-\u003eVault a",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value from the \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Lazy",
           "name": "unlock",
           "package": "vault",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Retrieve the value from the Locker",
           "hierarchy": "Data Vault ST Lazy",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Lazy",
           "name": "unlock",
           "normalized": "Key a b-\u003eLocker a-\u003eMaybe b",
@@ -737,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA persistent store for values of arbitrary types.\n Variant for the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVault\u003c/a\u003e\u003c/code\u003e type in this module is strict in both keys and values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "Strict",
           "package": "vault",
@@ -746,6 +807,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types Variant for the ST monad The Vault type in this module is strict in both keys and values",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "Strict",
           "package": "vault",
@@ -759,6 +821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "Key",
           "package": "vault",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "Key",
           "package": "vault",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "Locker",
           "package": "vault",
@@ -788,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "Locker",
           "package": "vault",
@@ -801,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "Vault",
           "package": "vault",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "Vault",
           "package": "vault",
@@ -823,6 +891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the value for a given key if it's present in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "adjust",
           "package": "vault",
@@ -833,6 +902,7 @@
         "index": {
           "description": "Adjust the value for given key if it present in the vault",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey b a-\u003eVault b-\u003eVault b",
@@ -848,6 +918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key from the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "delete",
           "package": "vault",
@@ -858,6 +929,7 @@
         "index": {
           "description": "Delete key from the vault",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "delete",
           "normalized": "Key a b-\u003eVault a-\u003eVault a",
@@ -873,6 +945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "empty",
           "package": "vault",
@@ -883,6 +956,7 @@
         "index": {
           "description": "The empty vault",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "empty",
           "package": "vault",
@@ -896,6 +970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value for a given key. Overwrites any previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "insert",
           "package": "vault",
@@ -906,6 +981,7 @@
         "index": {
           "description": "Insert value for given key Overwrites any previous value",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "insert",
           "normalized": "Key a b-\u003eb-\u003eVault a-\u003eVault a",
@@ -921,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a single value into a \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "lock",
           "package": "vault",
@@ -931,6 +1008,7 @@
         "index": {
           "description": "Put single value into Locker",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "lock",
           "normalized": "Key a b-\u003eb-\u003eLocker a",
@@ -946,6 +1024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value of a key in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "lookup",
           "package": "vault",
@@ -956,6 +1035,7 @@
         "index": {
           "description": "Lookup the value of key in the vault",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "lookup",
           "normalized": "Key a b-\u003eVault a-\u003eMaybe b",
@@ -971,6 +1051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new key for use with a vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "newKey",
           "package": "vault",
@@ -981,6 +1062,7 @@
         "index": {
           "description": "Create new key for use with vault",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "newKey",
           "package": "vault",
@@ -995,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two vaults (left-biased).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "union",
           "package": "vault",
@@ -1005,6 +1088,7 @@
         "index": {
           "description": "Merge two vaults left-biased",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "union",
           "normalized": "Vault a-\u003eVault a-\u003eVault a",
@@ -1020,6 +1104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value from the \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.ST.Strict",
           "name": "unlock",
           "package": "vault",
@@ -1030,6 +1115,7 @@
         "index": {
           "description": "Retrieve the value from the Locker",
           "hierarchy": "Data Vault ST Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.ST.Strict",
           "name": "unlock",
           "normalized": "Key a b-\u003eLocker a-\u003eMaybe b",
@@ -1045,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA persistent store for values of arbitrary types.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eVault\u003c/a\u003e\u003c/code\u003e type in this module is strict in both keys and values.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "Strict",
           "package": "vault",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types The Vault type in this module is strict in both keys and values",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "Strict",
           "package": "vault",
@@ -1068,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeys for the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "Key",
           "package": "vault",
@@ -1077,6 +1166,7 @@
         "index": {
           "description": "Keys for the vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "Key",
           "package": "vault",
@@ -1091,6 +1181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA persistent store for a single value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "Locker",
           "package": "vault",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "persistent store for single value",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "Locker",
           "package": "vault",
@@ -1114,6 +1206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA persistent store for values of arbitrary types.\n\u003c/p\u003e\u003cp\u003eThis variant is the simplest and creates keys in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad.\n See the module \u003ca\u003eData.Vault.ST\u003c/a\u003e if you want to use it with the \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e monad instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "Vault",
           "package": "vault",
@@ -1123,6 +1216,7 @@
         "index": {
           "description": "persistent store for values of arbitrary types This variant is the simplest and creates keys in the IO monad See the module Data.Vault.ST if you want to use it with the ST monad instead",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "Vault",
           "package": "vault",
@@ -1137,6 +1231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdjust the value for a given key if it's present in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "adjust",
           "package": "vault",
@@ -1147,6 +1242,7 @@
         "index": {
           "description": "Adjust the value for given key if it present in the vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eKey a-\u003eVault-\u003eVault",
@@ -1162,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a key from the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "delete",
           "package": "vault",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "Delete key from the vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "delete",
           "normalized": "Key a-\u003eVault-\u003eVault",
@@ -1187,6 +1285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "empty",
           "package": "vault",
@@ -1197,6 +1296,7 @@
         "index": {
           "description": "The empty vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "empty",
           "package": "vault",
@@ -1210,6 +1310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a value for a given key. Overwrites any previous value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "insert",
           "package": "vault",
@@ -1220,6 +1321,7 @@
         "index": {
           "description": "Insert value for given key Overwrites any previous value",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "insert",
           "normalized": "Key a-\u003ea-\u003eVault-\u003eVault",
@@ -1235,6 +1337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a single value into a \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "lock",
           "package": "vault",
@@ -1245,6 +1348,7 @@
         "index": {
           "description": "Put single value into Locker",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "lock",
           "normalized": "Key a-\u003ea-\u003eLocker",
@@ -1260,6 +1364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup the value of a key in the vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "lookup",
           "package": "vault",
@@ -1270,6 +1375,7 @@
         "index": {
           "description": "Lookup the value of key in the vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "lookup",
           "normalized": "Key a-\u003eVault-\u003eMaybe a",
@@ -1285,6 +1391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new key for use with a vault.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "newKey",
           "package": "vault",
@@ -1295,6 +1402,7 @@
         "index": {
           "description": "Create new key for use with vault",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "newKey",
           "package": "vault",
@@ -1309,6 +1417,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMerge two vaults (left-biased).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "union",
           "package": "vault",
@@ -1319,6 +1428,7 @@
         "index": {
           "description": "Merge two vaults left-biased",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "union",
           "normalized": "Vault-\u003eVault-\u003eVault",
@@ -1334,6 +1444,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the value from the \u003ccode\u003e\u003ca\u003eLocker\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:33:27 UTC 2014",
           "module": "Data.Vault.Strict",
           "name": "unlock",
           "package": "vault",
@@ -1344,6 +1455,7 @@
         "index": {
           "description": "Retrieve the value from the Locker",
           "hierarchy": "Data Vault Strict",
+          "indexed": "2014-03-11T20:33:27",
           "module": "Data.Vault.Strict",
           "name": "unlock",
           "normalized": "Key a-\u003eLocker-\u003eMaybe a",

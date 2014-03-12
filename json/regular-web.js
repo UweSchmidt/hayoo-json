@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "regular-web"
+        "phrase": "regular-web",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "XForm",
           "package": "regular-web",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "XForm",
           "package": "regular-web",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "XFormlet",
           "package": "regular-web",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "XFormlet",
           "package": "regular-web",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "YesNo",
           "package": "regular-web",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "YesNo",
           "package": "regular-web",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "Formlet",
           "package": "regular-web",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "Formlet",
           "package": "regular-web",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "GFormlet",
           "package": "regular-web",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "GFormlet",
           "package": "regular-web",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "This is an \u003ctt\u003efclabels\u003c/tt\u003e function that converts between \u003ctt\u003e\u003ca\u003eBool\u003c/a\u003e\u003c/tt\u003e and \u003ctt\u003e\u003ca\u003eYesNo\u003c/a\u003e\u003c/tt\u003e values.\n",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "boolToYesNo",
           "package": "regular-web",
@@ -134,6 +145,7 @@
         "index": {
           "description": "This is an fclabels function that converts between Bool and YesNo values",
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "boolToYesNo",
           "normalized": "Bool-\u003eYesNo",
@@ -150,6 +162,7 @@
       "document": {
         "description": {
           "description": "Currently, this section is very limited. We expect to add more types in the future, suggestions are welcome.\n",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "formlet",
           "package": "regular-web",
@@ -160,6 +173,7 @@
         "index": {
           "description": "Currently this section is very limited We expect to add more types in the future suggestions are welcome",
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "formlet",
           "package": "regular-web",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "gform",
           "package": "regular-web",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "gform",
           "normalized": "Maybe a-\u003eXForm b a",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "gformlet",
           "package": "regular-web",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "gformlet",
           "package": "regular-web",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric forms almost never match the real world. If you want to change a generic form, you can either implement it from scratch, or use the \u003ctt\u003e\u003ca\u003eprojectedForm\u003c/a\u003e\u003c/tt\u003e function.\n\u003c/p\u003e\u003cp\u003eAs an example, we will to remove the age field from the form, and change the _isMale field to a Yes/No choice instead of a True/False choice. The datatype \u003ctt\u003e\u003ca\u003eYesNo\u003c/a\u003e\u003c/tt\u003e is defined in this module.\n\u003c/p\u003e\u003cpre\u003e data PersonView = PersonView {\n    __name   :: String\n  , __isMale :: YesNo\n }\n\u003c/pre\u003e\u003cpre\u003e $(deriveAll ''PersonView \"PFPersonView\")\n type instance PF PersonView = PFPersonView\n\u003c/pre\u003e\u003cp\u003eWe can now use \u003ctt\u003efclabels\u003c/tt\u003e to convert back and forth between \u003ctt\u003ePerson\u003c/tt\u003e and\n \u003ctt\u003ePersonView\u003c/tt\u003e. First, we use Template Haskell to generate some accessor functions:\n\u003c/p\u003e\u003cpre\u003e $(mkLabels [''Person])\n\u003c/pre\u003e\u003cp\u003eThis is the bidirectional function between \u003ctt\u003ePerson\u003c/tt\u003e and \u003ctt\u003ePersonView\u003c/tt\u003e. How to write such a function is explained in the well-documented \u003ctt\u003efclabels\u003c/tt\u003e package at \u003ca\u003ehttp://hackage.haskell.org/package/fclabels\u003c/a\u003e.\n\u003c/p\u003e\u003cpre\u003e toView :: Person :-\u003e PersonView\n toView = Label (PersonView \u003c$\u003e __name `for` name \u003c*\u003e __isMale `for` (boolToYesNo `iso` isMale))\n\u003c/pre\u003e\u003cp\u003eNow that we have a function with type \u003ctt\u003ePerson :-\u003e PersonView\u003c/tt\u003e, we can render a\n form for \u003ctt\u003epersonView\u003c/tt\u003e and update the original person. Note that the argument is\n not a \u003ctt\u003eMaybe\u003c/tt\u003e value, in contrast with the \u003ctt\u003egformlet\u003c/tt\u003e function.\n\u003c/p\u003e\u003cpre\u003e personForm' :: Person -\u003e XForm Identity Person\n personForm' = projectedForm toView\n\u003c/pre\u003e\u003cpre\u003e formHtml' :: X.Html\n (_, Identity formHtml', _) = F.runFormState [] (personForm' chris)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Formlets",
           "name": "projectedForm",
           "package": "regular-web",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Generic forms almost never match the real world If you want to change generic form you can either implement it from scratch or use the projectedForm function As an example we will to remove the age field from the form and change the isMale field to Yes No choice instead of True False choice The datatype YesNo is defined in this module data PersonView PersonView name String isMale YesNo deriveAll PersonView PFPersonView type instance PF PersonView PFPersonView We can now use fclabels to convert back and forth between Person and PersonView First we use Template Haskell to generate some accessor functions mkLabels Person This is the bidirectional function between Person and PersonView How to write such function is explained in the well-documented fclabels package at http hackage.haskell.org package fclabels toView Person PersonView toView Label PersonView name for name isMale for boolToYesNo iso isMale Now that we have function with type Person PersonView we can render form for personView and update the original person Note that the argument is not Maybe value in contrast with the gformlet function personForm Person XForm Identity Person personForm projectedForm toView formHtml X.Html Identity formHtml F.runFormState personForm chris",
           "hierarchy": "Generics Regular Formlets",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Formlets",
           "name": "projectedForm",
           "normalized": "(a-\u003eb)-\u003ea-\u003eXForm c a",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.JSON",
           "name": "GJSON",
           "package": "regular-web",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular JSON",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.JSON",
           "name": "GJSON",
           "package": "regular-web",
@@ -264,6 +286,7 @@
       "document": {
         "description": {
           "description": "The function \u003ctt\u003e\u003ca\u003egfrom\u003c/a\u003e\u003c/tt\u003e tries to parse a \u003ctt\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/tt\u003e. The \u003ctt\u003e\u003ca\u003eResult\u003c/a\u003e\u003c/tt\u003e datatype is used for error-messages if parsing fails.\n",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.JSON",
           "name": "gfrom",
           "package": "regular-web",
@@ -274,6 +297,7 @@
         "index": {
           "description": "The function gfrom tries to parse JSValue The Result datatype is used for error-messages if parsing fails",
           "hierarchy": "Generics Regular JSON",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.JSON",
           "name": "gfrom",
           "normalized": "JSValue-\u003eResult a",
@@ -289,6 +313,7 @@
       "document": {
         "description": {
           "description": "The function \u003ctt\u003e\u003ca\u003egto\u003c/a\u003e\u003c/tt\u003e generates a \u003ctt\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/tt\u003e for all types that are an instance of \u003ctt\u003e\u003ca\u003eGJSON\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.JSON",
           "name": "gto",
           "package": "regular-web",
@@ -299,6 +324,7 @@
         "index": {
           "description": "The function gto generates JSValue for all types that are an instance of GJSON",
           "hierarchy": "Generics Regular JSON",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.JSON",
           "name": "gto",
           "normalized": "a-\u003eJSValue",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Views",
           "name": "GHtml",
           "package": "regular-web",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Views",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Views",
           "name": "GHtml",
           "package": "regular-web",
@@ -334,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Views",
           "name": "Html",
           "package": "regular-web",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Views",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Views",
           "name": "Html",
           "package": "regular-web",
@@ -356,6 +386,7 @@
       "document": {
         "description": {
           "description": "The function \u003ctt\u003e\u003ca\u003eghtml\u003c/a\u003e\u003c/tt\u003e converts an a value into \u003ctt\u003e\u003ca\u003eHtml\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Views",
           "name": "ghtml",
           "package": "regular-web",
@@ -366,6 +397,7 @@
         "index": {
           "description": "The function ghtml converts an value into Html",
           "hierarchy": "Generics Regular Views",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Views",
           "name": "ghtml",
           "normalized": "a-\u003eHtml",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:52:18 UTC 2014",
           "module": "Generics.Regular.Views",
           "name": "html",
           "package": "regular-web",
@@ -389,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Generics Regular Views",
+          "indexed": "2014-03-11T19:52:18",
           "module": "Generics.Regular.Views",
           "name": "html",
           "normalized": "a-\u003eHtml",

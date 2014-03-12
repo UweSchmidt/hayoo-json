@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Nussinov78"
+        "phrase": "Nussinov78",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "GAPlike",
           "package": "Nussinov78",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "GAPlike",
           "package": "Nussinov78",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "CombSignature",
           "package": "Nussinov78",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "CombSignature",
           "package": "Nussinov78",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "Signature",
           "package": "Nussinov78",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "Signature",
           "package": "Nussinov78",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "(\u003c**)",
           "package": "Nussinov78",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "(\u003c**) \u003c**",
           "normalized": "Signature a b b-\u003eSignature a c(Stream a c)-\u003eCombSignature a b c",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "aPairmax",
           "package": "Nussinov78",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "aPairmax",
           "package": "Nussinov78",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "aPretty",
           "package": "Nussinov78",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "aPretty",
           "package": "Nussinov78",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "backtrack",
           "package": "Nussinov78",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "backtrack",
           "normalized": "Vector Char-\u003eArr DIM Int-\u003e[String]",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "fillTable",
           "package": "Nussinov78",
@@ -180,6 +195,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "fillTable",
           "normalized": "(MTbl E(MArr(PrimState a)DIM Int),(Int,Int)-\u003ea Int)-\u003ea()",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "gNussinov",
           "package": "Nussinov78",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "gNussinov",
           "normalized": "(Fun(StreamArg(BuildStack a)-\u003eb),Fun(StreamArg((BuildStack c)c)-\u003eb),Fun(StreamArg((BuildStack c)c)-\u003eb),Fun(StreamArg(((BuildStack c)c)c)-\u003eb),Fun(StreamArg((BuildStack(TransTo c))(TransTo c))-\u003eb),Stream d b-\u003ee)-\u003ec-\u003ec-\u003ea-\u003e(c,(Int,Int)-\u003ee)",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "nussinov78",
           "package": "Nussinov78",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "nussinov78",
           "normalized": "[Char]-\u003e(Int,[String])",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:44 UTC 2014",
           "module": "BioInf.GAPlike",
           "name": "nussinov78Fill",
           "package": "Nussinov78",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "BioInf GAPlike",
+          "indexed": "2014-03-11T16:54:44",
           "module": "BioInf.GAPlike",
           "name": "nussinov78Fill",
           "normalized": "a b Vector Char-\u003eST c(Arr DIM Int)",

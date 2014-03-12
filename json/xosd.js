@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xosd"
+        "phrase": "xosd",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTested with: GHC 6.10, GHC 7.6\n\u003c/p\u003e\u003cp\u003eBindings to xosd, the X on-screen display library\n xosd is a library for displaying an on-screen display (like the one\n on many TVs) on your X display.\n\u003c/p\u003e\u003cp\u003eAn example using the lowest level C layer:\n\u003c/p\u003e\u003cpre\u003e do x \u003c- create 1\n    setFont x \"-adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*-*\"\n    setColor x \"LimeGreen\"\n    display x 0 (String \"Screen 1\")\n\u003c/pre\u003e\u003cp\u003erunXOSD [Timeout 10, VAlign VAlignMiddle, HAlign HAlignCenter, Font\n \u003ca\u003e-adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*-*\u003c/a\u003e, Color \u003ca\u003eLimeGreen\u003c/a\u003e,\n Display (String \u003ca\u003eTEST\u003c/a\u003e)] (x -\u003e sequence_ [ display x 0 (String (show\n i)) \u003e\u003e Control.Concurrent.threadDelay (10^4) | i \u003c- [1..] ])\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "Base",
           "package": "xosd",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Tested with GHC GHC Bindings to xosd the on-screen display library xosd is library for displaying an on-screen display like the one on many TVs on your display An example using the lowest level layer do create setFont adobe-helvetica-bold-r setColor LimeGreen display String Screen runXOSD Timeout VAlign VAlignMiddle HAlign HAlignCenter Font adobe-helvetica-bold-r Color LimeGreen Display String TEST sequence display String show Control.Concurrent.threadDelay",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "Base",
           "package": "xosd",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of possible display formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "Format",
           "package": "xosd",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of possible display formats",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "Format",
           "package": "xosd",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid screen positions (vertical alignment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "HAlign",
           "package": "xosd",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Valid screen positions vertical alignment",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "HAlign",
           "package": "xosd",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid screen positions (vertical alignment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "VAlign",
           "package": "xosd",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Valid screen positions vertical alignment",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "VAlign",
           "package": "xosd",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract X on-screen display \u003ca\u003eobject\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAn xosd window can be used to display textual or numerical data on a\n X11 display in a unmanaged, shaped window that appears to be\n transparent.  It  provides a similar effect to the on-screen display\n of many televisions and video recorders\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "XOSD",
           "package": "xosd",
@@ -120,6 +129,7 @@
         "index": {
           "description": "An abstract on-screen display object An xosd window can be used to display textual or numerical data on X11 display in unmanaged shaped window that appears to be transparent It provides similar effect to the on-screen display of many televisions and video recorders",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "XOSD",
           "package": "xosd",
@@ -341,6 +351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new xosd window.\n The argument is the maximum number of lines of text that the window can display.\n Throw an exception on failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "create",
           "package": "xosd",
@@ -351,6 +362,7 @@
         "index": {
           "description": "Create new xosd window The argument is the maximum number of lines of text that the window can display Throw an exception on failure",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "create",
           "normalized": "Int-\u003eIO XOSD",
@@ -418,6 +430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the maximum number of lines allowed\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "getNumberOfLines",
           "package": "xosd",
@@ -428,6 +441,7 @@
         "index": {
           "description": "Get the maximum number of lines allowed",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "getNumberOfLines",
           "normalized": "XOSD-\u003eIO Int",
@@ -443,6 +457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "isOnScreen",
           "package": "xosd",
@@ -452,6 +467,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "isOnScreen",
           "normalized": "XOSD-\u003eIO Bool",
@@ -494,6 +510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet length of percentage and slider bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setBarLength",
           "package": "xosd",
@@ -504,6 +521,7 @@
         "index": {
           "description": "Set length of percentage and slider bar",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setBarLength",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -520,6 +538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the colour of the display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setColor",
           "package": "xosd",
@@ -530,6 +549,7 @@
         "index": {
           "description": "Change the colour of the display",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setColor",
           "normalized": "XOSD-\u003eString-\u003eIO()",
@@ -546,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the text-display font\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setFont",
           "package": "xosd",
@@ -556,6 +577,7 @@
         "index": {
           "description": "Change the text-display font",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setFont",
           "normalized": "XOSD-\u003eString-\u003eIO()",
@@ -571,6 +593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setHAlign",
           "package": "xosd",
@@ -580,6 +603,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setHAlign",
           "normalized": "XOSD-\u003eHAlign-\u003eIO()",
@@ -596,6 +620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHide the display\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setHidden",
           "package": "xosd",
@@ -606,6 +631,7 @@
         "index": {
           "description": "Hide the display",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setHidden",
           "normalized": "XOSD-\u003eIO()",
@@ -622,6 +648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the number of pixels the display is offset from the position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setHorizontalOffset",
           "package": "xosd",
@@ -632,6 +659,7 @@
         "index": {
           "description": "Change the number of pixels the display is offset from the position",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setHorizontalOffset",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -648,6 +676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the colour of the outline\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setOutlineColor",
           "package": "xosd",
@@ -658,6 +687,7 @@
         "index": {
           "description": "Change the colour of the outline",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setOutlineColor",
           "normalized": "XOSD-\u003eString-\u003eIO()",
@@ -674,6 +704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the offset of the text outline-\n The outline is drawn over the shadow.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setOutlineOffset",
           "package": "xosd",
@@ -684,6 +715,7 @@
         "index": {
           "description": "Change the offset of the text outline The outline is drawn over the shadow",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setOutlineOffset",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -700,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the colour of the shadow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setShadowColor",
           "package": "xosd",
@@ -710,6 +743,7 @@
         "index": {
           "description": "Change the colour of the shadow",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setShadowColor",
           "normalized": "XOSD-\u003eString-\u003eIO()",
@@ -726,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the offset of the text shadow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setShadowOffset",
           "package": "xosd",
@@ -736,6 +771,7 @@
         "index": {
           "description": "Change the offset of the text shadow",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setShadowOffset",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -752,6 +788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the time before display is hidden.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setTimeout",
           "package": "xosd",
@@ -762,6 +799,7 @@
         "index": {
           "description": "Change the time before display is hidden",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setTimeout",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -777,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setVAlign",
           "package": "xosd",
@@ -786,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setVAlign",
           "normalized": "XOSD-\u003eVAlign-\u003eIO()",
@@ -802,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the number of pixels the display is offset from the position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setVerticalOffset",
           "package": "xosd",
@@ -812,6 +853,7 @@
         "index": {
           "description": "Change the number of pixels the display is offset from the position",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setVerticalOffset",
           "normalized": "XOSD-\u003eInt-\u003eIO()",
@@ -828,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the display after being hidden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "setVisible",
           "package": "xosd",
@@ -838,6 +881,7 @@
         "index": {
           "description": "Show the display after being hidden",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "setVisible",
           "normalized": "XOSD-\u003eIO()",
@@ -854,6 +898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate abstract to concrete formatting types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDFormat",
           "package": "xosd",
@@ -864,6 +909,7 @@
         "index": {
           "description": "Translate abstract to concrete formatting types",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDFormat",
           "normalized": "Format-\u003eXOSD_Format",
@@ -880,6 +926,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate abstract to concrete formatting types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDHAlign",
           "package": "xosd",
@@ -890,6 +937,7 @@
         "index": {
           "description": "Translate abstract to concrete formatting types",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDHAlign",
           "normalized": "HAlign-\u003eXOSD_HAlign",
@@ -906,6 +954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate abstract to concrete formatting types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDVAlign",
           "package": "xosd",
@@ -916,6 +965,7 @@
         "index": {
           "description": "Translate abstract to concrete formatting types",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "toXOSDVAlign",
           "normalized": "VAlign-\u003eXOSD_VAlign",
@@ -958,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error (encapsulated in Either) with the current String in \u003ccode\u003e\u003ca\u003exosd_error\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosdEitherIf",
           "package": "xosd",
@@ -968,6 +1019,7 @@
         "index": {
           "description": "Throw an error encapsulated in Either with the current String in xosd error",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosdEitherIf",
           "normalized": "(a-\u003eBool)-\u003eIO a-\u003eIO(Either String a)",
@@ -984,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error with the current String in \u003ccode\u003e\u003ca\u003exosd_error\u003c/a\u003e\u003c/code\u003e unconditionally\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosdError",
           "package": "xosd",
@@ -994,6 +1047,7 @@
         "index": {
           "description": "Throw an error with the current String in xosd error unconditionally",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosdError",
           "package": "xosd",
@@ -1008,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThrow an error with the current String in \u003ccode\u003e\u003ca\u003exosd_error\u003c/a\u003e\u003c/code\u003e if predicate is True\n when applied to result of action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosdErrorIf",
           "package": "xosd",
@@ -1018,6 +1073,7 @@
         "index": {
           "description": "Throw an error with the current String in xosd error if predicate is True when applied to result of action",
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosdErrorIf",
           "normalized": "(a-\u003eBool)-\u003eIO a-\u003eIO a",
@@ -1033,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_create",
           "package": "xosd",
@@ -1042,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_create",
           "normalized": "CInt-\u003eIO XOSD",
@@ -1056,6 +1114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_destroy",
           "package": "xosd",
@@ -1065,6 +1124,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_destroy",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1079,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_percent",
           "package": "xosd",
@@ -1088,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_percent",
           "normalized": "XOSD-\u003eCInt-\u003eXOSD_Format-\u003eCInt-\u003eIO CInt",
@@ -1102,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_slider",
           "package": "xosd",
@@ -1111,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_slider",
           "normalized": "XOSD-\u003eCInt-\u003eXOSD_Format-\u003eCInt-\u003eIO CInt",
@@ -1125,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_string",
           "package": "xosd",
@@ -1134,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_display_string",
           "normalized": "XOSD-\u003eCInt-\u003eXOSD_Format-\u003eCString-\u003eIO CInt",
@@ -1148,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_error",
           "package": "xosd",
@@ -1157,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_error",
           "package": "xosd",
@@ -1169,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_get_colour",
           "package": "xosd",
@@ -1178,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_get_colour",
           "normalized": "XOSD-\u003ePtr CInt-\u003ePtr CInt-\u003ePtr CInt-\u003eIO CInt",
@@ -1192,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_get_number_lines",
           "package": "xosd",
@@ -1201,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_get_number_lines",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1215,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_hide",
           "package": "xosd",
@@ -1224,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_hide",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1238,6 +1312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_is_onscreen",
           "package": "xosd",
@@ -1247,6 +1322,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_is_onscreen",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1261,6 +1337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_scroll",
           "package": "xosd",
@@ -1270,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_scroll",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1284,6 +1362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_align",
           "package": "xosd",
@@ -1293,6 +1372,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_align",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1307,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_bar_length",
           "package": "xosd",
@@ -1316,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_bar_length",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1330,6 +1412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_colour",
           "package": "xosd",
@@ -1339,6 +1422,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_colour",
           "normalized": "XOSD-\u003eCString-\u003eIO CInt",
@@ -1353,6 +1437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_font",
           "package": "xosd",
@@ -1362,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_font",
           "normalized": "XOSD-\u003eCString-\u003eIO CInt",
@@ -1376,6 +1462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_horizontal_offset",
           "package": "xosd",
@@ -1385,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_horizontal_offset",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1399,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_outline_colour",
           "package": "xosd",
@@ -1408,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_outline_colour",
           "normalized": "XOSD-\u003eCString-\u003eIO CInt",
@@ -1422,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_outline_offset",
           "package": "xosd",
@@ -1431,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_outline_offset",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1445,6 +1537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_pos",
           "package": "xosd",
@@ -1454,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_pos",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1468,6 +1562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_shadow_colour",
           "package": "xosd",
@@ -1477,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_shadow_colour",
           "normalized": "XOSD-\u003eCString-\u003eIO CInt",
@@ -1491,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_shadow_offset",
           "package": "xosd",
@@ -1500,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_shadow_offset",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1514,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_timeout",
           "package": "xosd",
@@ -1523,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_timeout",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1537,6 +1637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_vertical_offset",
           "package": "xosd",
@@ -1546,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_set_vertical_offset",
           "normalized": "XOSD-\u003eCInt-\u003eIO CInt",
@@ -1560,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_show",
           "package": "xosd",
@@ -1569,6 +1672,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_show",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1583,6 +1687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_wait_until_no_display",
           "package": "xosd",
@@ -1592,6 +1697,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD Base",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD.Base",
           "name": "xosd_wait_until_no_display",
           "normalized": "XOSD-\u003eIO CInt",
@@ -1607,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTested with: GHC 6.10, GHC 7.6\n\u003c/p\u003e\u003cp\u003eBindings to xosd, the X on-screen display library\n xosd is a library for displaying an on-screen display (like the one\n on many TVs) on your X display.\n\u003c/p\u003e\u003cpre\u003e runXOSD [ Timeout 3\n          , VAlign VAlignMiddle\n          , HAlign HAlignCenter\n          , Font \"-adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*-*\"\n          , Color \"LimeGreen\"\n          , Display (String \"TEST\")] \n      (const $ return ())\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "XOSD",
           "package": "xosd",
@@ -1616,6 +1723,7 @@
         "index": {
           "description": "Tested with GHC GHC Bindings to xosd the on-screen display library xosd is library for displaying an on-screen display like the one on many TVs on your display runXOSD Timeout VAlign VAlignMiddle HAlign HAlignCenter Font adobe-helvetica-bold-r Color LimeGreen Display String TEST const return",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "XOSD",
           "package": "xosd",
@@ -1630,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttributes that can be set on an XOSD object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Attribute",
           "package": "xosd",
@@ -1639,6 +1748,7 @@
         "index": {
           "description": "Attributes that can be set on an XOSD object",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Attribute",
           "package": "xosd",
@@ -1653,6 +1763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of possible display formats\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Format",
           "package": "xosd",
@@ -1662,6 +1773,7 @@
         "index": {
           "description": "The type of possible display formats",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Format",
           "package": "xosd",
@@ -1676,6 +1788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid screen positions (vertical alignment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "HAlign",
           "package": "xosd",
@@ -1685,6 +1798,7 @@
         "index": {
           "description": "Valid screen positions vertical alignment",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "HAlign",
           "package": "xosd",
@@ -1699,6 +1813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValid screen positions (vertical alignment)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "VAlign",
           "package": "xosd",
@@ -1708,6 +1823,7 @@
         "index": {
           "description": "Valid screen positions vertical alignment",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "VAlign",
           "package": "xosd",
@@ -1722,6 +1838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn abstract X on-screen display \u003ca\u003eobject\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eAn xosd window can be used to display textual or numerical data on a\n X11 display in a unmanaged, shaped window that appears to be\n transparent.  It  provides a similar effect to the on-screen display\n of many televisions and video recorders\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "XOSD",
           "package": "xosd",
@@ -1731,6 +1848,7 @@
         "index": {
           "description": "An abstract on-screen display object An xosd window can be used to display textual or numerical data on X11 display in unmanaged shaped window that appears to be transparent It provides similar effect to the on-screen display of many televisions and video recorders",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "XOSD",
           "package": "xosd",
@@ -1744,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "BarLength",
           "package": "xosd",
@@ -1753,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "BarLength",
           "package": "xosd",
@@ -1766,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Color",
           "package": "xosd",
@@ -1775,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Color",
           "package": "xosd",
@@ -1788,6 +1910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Display",
           "package": "xosd",
@@ -1797,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Display",
           "package": "xosd",
@@ -1810,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Font",
           "package": "xosd",
@@ -1819,6 +1944,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Font",
           "package": "xosd",
@@ -1832,6 +1958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "HAlign",
           "package": "xosd",
@@ -1841,6 +1968,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "HAlign",
           "package": "xosd",
@@ -1854,6 +1982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "HOffset",
           "package": "xosd",
@@ -1863,6 +1992,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "HOffset",
           "package": "xosd",
@@ -1876,6 +2006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Hidden",
           "package": "xosd",
@@ -1885,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Hidden",
           "package": "xosd",
@@ -1898,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Lines",
           "package": "xosd",
@@ -1907,6 +2040,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Lines",
           "package": "xosd",
@@ -1920,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "OutlineColor",
           "package": "xosd",
@@ -1929,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "OutlineColor",
           "package": "xosd",
@@ -1942,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "OutlineOffset",
           "package": "xosd",
@@ -1951,6 +2088,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "OutlineOffset",
           "package": "xosd",
@@ -1964,6 +2102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Scroll",
           "package": "xosd",
@@ -1973,6 +2112,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Scroll",
           "package": "xosd",
@@ -1986,6 +2126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "ShadowColor",
           "package": "xosd",
@@ -1995,6 +2136,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "ShadowColor",
           "package": "xosd",
@@ -2008,6 +2150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "ShadowOffset",
           "package": "xosd",
@@ -2017,6 +2160,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "ShadowOffset",
           "package": "xosd",
@@ -2030,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Timeout",
           "package": "xosd",
@@ -2039,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Timeout",
           "package": "xosd",
@@ -2052,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "VAlign",
           "package": "xosd",
@@ -2061,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "VAlign",
           "package": "xosd",
@@ -2074,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "VOffset",
           "package": "xosd",
@@ -2083,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "VOffset",
           "package": "xosd",
@@ -2096,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "Visible",
           "package": "xosd",
@@ -2105,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "Visible",
           "package": "xosd",
@@ -2119,6 +2271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new XOSD object with given attributes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "initialize",
           "package": "xosd",
@@ -2129,6 +2282,7 @@
         "index": {
           "description": "Create new XOSD object with given attributes",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "initialize",
           "normalized": "[Attribute]-\u003eIO XOSD",
@@ -2144,6 +2298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun some code with an X on-screen display attached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "runXOSD",
           "package": "xosd",
@@ -2154,6 +2309,7 @@
         "index": {
           "description": "Run some code with an on-screen display attached",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "runXOSD",
           "normalized": "[Attribute]-\u003e(XOSD-\u003eIO())-\u003eIO()",
@@ -2170,6 +2326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a list of attributes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:37 UTC 2014",
           "module": "Graphics.XOSD",
           "name": "set",
           "package": "xosd",
@@ -2180,6 +2337,7 @@
         "index": {
           "description": "Set list of attributes",
           "hierarchy": "Graphics XOSD",
+          "indexed": "2014-03-11T20:43:37",
           "module": "Graphics.XOSD",
           "name": "set",
           "normalized": "XOSD-\u003e[Attribute]-\u003eIO()",

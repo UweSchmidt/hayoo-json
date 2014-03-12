@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dwarfadt"
+        "phrase": "dwarfadt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "Pretty",
           "package": "dwarfadt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT Pretty",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "Pretty",
           "package": "dwarfadt",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "compilationUnit",
           "package": "dwarfadt",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT Pretty",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "compilationUnit",
           "normalized": "Boxed CompilationUnit-\u003eDoc",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "dwarf",
           "package": "dwarfadt",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT Pretty",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT.Pretty",
           "name": "dwarf",
           "normalized": "Dwarf-\u003eDoc",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ADT",
           "package": "dwarfadt",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ADT",
           "package": "dwarfadt",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ArrayType",
           "package": "dwarfadt",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ArrayType",
           "package": "dwarfadt",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "BaseType",
           "package": "dwarfadt",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "BaseType",
           "package": "dwarfadt",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Boxed",
           "package": "dwarfadt",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Boxed",
           "package": "dwarfadt",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "CompilationUnit",
           "package": "dwarfadt",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "CompilationUnit",
           "package": "dwarfadt",
@@ -191,6 +207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ConstType",
           "package": "dwarfadt",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ConstType",
           "package": "dwarfadt",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Decl",
           "package": "dwarfadt",
@@ -220,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Decl",
           "package": "dwarfadt",
@@ -233,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Def",
           "package": "dwarfadt",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Def",
           "package": "dwarfadt",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefType",
           "package": "dwarfadt",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefType",
           "package": "dwarfadt",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Dwarf",
           "package": "dwarfadt",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Dwarf",
           "package": "dwarfadt",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "EnumerationType",
           "package": "dwarfadt",
@@ -304,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "EnumerationType",
           "package": "dwarfadt",
@@ -317,6 +345,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Enumerator",
           "package": "dwarfadt",
@@ -325,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Enumerator",
           "package": "dwarfadt",
@@ -338,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "FormalParameter",
           "package": "dwarfadt",
@@ -346,6 +377,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "FormalParameter",
           "package": "dwarfadt",
@@ -359,6 +391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Member",
           "package": "dwarfadt",
@@ -367,6 +400,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Member",
           "package": "dwarfadt",
@@ -380,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "PtrType",
           "package": "dwarfadt",
@@ -388,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "PtrType",
           "package": "dwarfadt",
@@ -401,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "StructureType",
           "package": "dwarfadt",
@@ -409,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "StructureType",
           "package": "dwarfadt",
@@ -422,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Subprogram",
           "package": "dwarfadt",
@@ -430,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Subprogram",
           "package": "dwarfadt",
@@ -443,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "SubrangeType",
           "package": "dwarfadt",
@@ -451,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "SubrangeType",
           "package": "dwarfadt",
@@ -464,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "SubroutineType",
           "package": "dwarfadt",
@@ -472,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "SubroutineType",
           "package": "dwarfadt",
@@ -485,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "TypeRef",
           "package": "dwarfadt",
@@ -493,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "TypeRef",
           "package": "dwarfadt",
@@ -506,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Typedef",
           "package": "dwarfadt",
@@ -514,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Typedef",
           "package": "dwarfadt",
@@ -527,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "UnionType",
           "package": "dwarfadt",
@@ -535,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "UnionType",
           "package": "dwarfadt",
@@ -548,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Variable",
           "package": "dwarfadt",
@@ -556,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Variable",
           "package": "dwarfadt",
@@ -569,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "VolatileType",
           "package": "dwarfadt",
@@ -577,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "VolatileType",
           "package": "dwarfadt",
@@ -590,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Warning",
           "package": "dwarfadt",
@@ -598,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Warning",
           "package": "dwarfadt",
@@ -611,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ArrayType",
           "package": "dwarfadt",
@@ -620,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ArrayType",
           "package": "dwarfadt",
@@ -633,6 +691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "BaseType",
           "package": "dwarfadt",
@@ -642,6 +701,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "BaseType",
           "package": "dwarfadt",
@@ -655,6 +715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Boxed",
           "package": "dwarfadt",
@@ -664,6 +725,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Boxed",
           "package": "dwarfadt",
@@ -677,6 +739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "CompilationUnit",
           "package": "dwarfadt",
@@ -686,6 +749,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "CompilationUnit",
           "package": "dwarfadt",
@@ -699,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ConstType",
           "package": "dwarfadt",
@@ -708,6 +773,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ConstType",
           "package": "dwarfadt",
@@ -721,6 +787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Decl",
           "package": "dwarfadt",
@@ -730,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Decl",
           "package": "dwarfadt",
@@ -743,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefArrayType",
           "package": "dwarfadt",
@@ -752,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefArrayType",
           "package": "dwarfadt",
@@ -765,6 +835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefBaseType",
           "package": "dwarfadt",
@@ -774,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefBaseType",
           "package": "dwarfadt",
@@ -787,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefConstType",
           "package": "dwarfadt",
@@ -796,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefConstType",
           "package": "dwarfadt",
@@ -809,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefEnumerationType",
           "package": "dwarfadt",
@@ -818,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefEnumerationType",
           "package": "dwarfadt",
@@ -831,6 +907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefPtrType",
           "package": "dwarfadt",
@@ -840,6 +917,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefPtrType",
           "package": "dwarfadt",
@@ -853,6 +931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefStructureType",
           "package": "dwarfadt",
@@ -862,6 +941,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefStructureType",
           "package": "dwarfadt",
@@ -875,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefSubprogram",
           "package": "dwarfadt",
@@ -884,6 +965,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefSubprogram",
           "package": "dwarfadt",
@@ -897,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefSubroutineType",
           "package": "dwarfadt",
@@ -906,6 +989,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefSubroutineType",
           "package": "dwarfadt",
@@ -919,6 +1003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefType",
           "package": "dwarfadt",
@@ -928,6 +1013,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefType",
           "package": "dwarfadt",
@@ -941,6 +1027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefTypedef",
           "package": "dwarfadt",
@@ -950,6 +1037,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefTypedef",
           "package": "dwarfadt",
@@ -963,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefUnionType",
           "package": "dwarfadt",
@@ -972,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefUnionType",
           "package": "dwarfadt",
@@ -985,6 +1075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefVariable",
           "package": "dwarfadt",
@@ -994,6 +1085,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefVariable",
           "package": "dwarfadt",
@@ -1007,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "DefVolatileType",
           "package": "dwarfadt",
@@ -1016,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "DefVolatileType",
           "package": "dwarfadt",
@@ -1029,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Dwarf",
           "package": "dwarfadt",
@@ -1038,6 +1133,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Dwarf",
           "package": "dwarfadt",
@@ -1051,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "EnumerationType",
           "package": "dwarfadt",
@@ -1060,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "EnumerationType",
           "package": "dwarfadt",
@@ -1073,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Enumerator",
           "package": "dwarfadt",
@@ -1082,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Enumerator",
           "package": "dwarfadt",
@@ -1095,6 +1195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "FormalParameter",
           "package": "dwarfadt",
@@ -1104,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "FormalParameter",
           "package": "dwarfadt",
@@ -1117,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Member",
           "package": "dwarfadt",
@@ -1126,6 +1229,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Member",
           "package": "dwarfadt",
@@ -1139,6 +1243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "PtrType",
           "package": "dwarfadt",
@@ -1148,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "PtrType",
           "package": "dwarfadt",
@@ -1161,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "StructureType",
           "package": "dwarfadt",
@@ -1170,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "StructureType",
           "package": "dwarfadt",
@@ -1183,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Subprogram",
           "package": "dwarfadt",
@@ -1192,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Subprogram",
           "package": "dwarfadt",
@@ -1205,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "SubrangeType",
           "package": "dwarfadt",
@@ -1214,6 +1325,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "SubrangeType",
           "package": "dwarfadt",
@@ -1227,6 +1339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "SubroutineType",
           "package": "dwarfadt",
@@ -1236,6 +1349,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "SubroutineType",
           "package": "dwarfadt",
@@ -1249,6 +1363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "TypeRef",
           "package": "dwarfadt",
@@ -1258,6 +1373,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "TypeRef",
           "package": "dwarfadt",
@@ -1271,6 +1387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Typedef",
           "package": "dwarfadt",
@@ -1280,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Typedef",
           "package": "dwarfadt",
@@ -1293,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "UnionType",
           "package": "dwarfadt",
@@ -1302,6 +1421,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "UnionType",
           "package": "dwarfadt",
@@ -1315,6 +1435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Variable",
           "package": "dwarfadt",
@@ -1324,6 +1445,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Variable",
           "package": "dwarfadt",
@@ -1337,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Void",
           "package": "dwarfadt",
@@ -1346,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Void",
           "package": "dwarfadt",
@@ -1359,6 +1483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "VolatileType",
           "package": "dwarfadt",
@@ -1368,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "VolatileType",
           "package": "dwarfadt",
@@ -1381,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "Warning",
           "package": "dwarfadt",
@@ -1390,6 +1517,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "Warning",
           "package": "dwarfadt",
@@ -1403,6 +1531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "atSubrangeType",
           "package": "dwarfadt",
@@ -1412,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "atSubrangeType",
           "normalized": "[Boxed SubrangeType]",
@@ -1427,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "atType",
           "package": "dwarfadt",
@@ -1436,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "atType",
           "package": "dwarfadt",
@@ -1449,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "bData",
           "package": "dwarfadt",
@@ -1458,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "bData",
           "package": "dwarfadt",
@@ -1471,6 +1605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "bDieId",
           "package": "dwarfadt",
@@ -1480,6 +1615,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "bDieId",
           "package": "dwarfadt",
@@ -1493,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "btByteSize",
           "package": "dwarfadt",
@@ -1502,6 +1639,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "btByteSize",
           "package": "dwarfadt",
@@ -1515,6 +1653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "btEncoding",
           "package": "dwarfadt",
@@ -1524,6 +1663,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "btEncoding",
           "package": "dwarfadt",
@@ -1537,6 +1677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "btName",
           "package": "dwarfadt",
@@ -1546,6 +1687,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "btName",
           "package": "dwarfadt",
@@ -1559,6 +1701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ctType",
           "package": "dwarfadt",
@@ -1568,6 +1711,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ctType",
           "package": "dwarfadt",
@@ -1581,6 +1725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuCompDir",
           "package": "dwarfadt",
@@ -1590,6 +1735,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuCompDir",
           "package": "dwarfadt",
@@ -1603,6 +1749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuDefs",
           "package": "dwarfadt",
@@ -1612,6 +1759,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuDefs",
           "normalized": "[Boxed Def]",
@@ -1627,6 +1775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuHighPc",
           "package": "dwarfadt",
@@ -1636,6 +1785,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuHighPc",
           "package": "dwarfadt",
@@ -1649,6 +1799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuLanguage",
           "package": "dwarfadt",
@@ -1658,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuLanguage",
           "package": "dwarfadt",
@@ -1671,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuLowPc",
           "package": "dwarfadt",
@@ -1680,6 +1833,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuLowPc",
           "package": "dwarfadt",
@@ -1693,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuName",
           "package": "dwarfadt",
@@ -1702,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuName",
           "package": "dwarfadt",
@@ -1715,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuProducer",
           "package": "dwarfadt",
@@ -1724,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuProducer",
           "package": "dwarfadt",
@@ -1737,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "cuStmtList",
           "package": "dwarfadt",
@@ -1746,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "cuStmtList",
           "package": "dwarfadt",
@@ -1759,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "declColumn",
           "package": "dwarfadt",
@@ -1768,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "declColumn",
           "package": "dwarfadt",
@@ -1781,6 +1943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "declFile",
           "package": "dwarfadt",
@@ -1790,6 +1953,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "declFile",
           "package": "dwarfadt",
@@ -1803,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "declLine",
           "package": "dwarfadt",
@@ -1812,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "declLine",
           "package": "dwarfadt",
@@ -1825,6 +1991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "dwarfCompilationUnits",
           "package": "dwarfadt",
@@ -1834,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "dwarfCompilationUnits",
           "normalized": "[Boxed CompilationUnit]",
@@ -1849,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumByteSize",
           "package": "dwarfadt",
@@ -1858,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumByteSize",
           "package": "dwarfadt",
@@ -1871,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumDecl",
           "package": "dwarfadt",
@@ -1880,6 +2051,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumDecl",
           "package": "dwarfadt",
@@ -1893,6 +2065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumEnumerators",
           "package": "dwarfadt",
@@ -1902,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumEnumerators",
           "normalized": "[Boxed Enumerator]",
@@ -1917,6 +2091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumName",
           "package": "dwarfadt",
@@ -1926,6 +2101,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumName",
           "package": "dwarfadt",
@@ -1939,6 +2115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumeratorConstValue",
           "package": "dwarfadt",
@@ -1948,6 +2125,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumeratorConstValue",
           "package": "dwarfadt",
@@ -1961,6 +2139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "enumeratorName",
           "package": "dwarfadt",
@@ -1970,6 +2149,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "enumeratorName",
           "package": "dwarfadt",
@@ -1983,6 +2163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamDecl",
           "package": "dwarfadt",
@@ -1992,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamDecl",
           "package": "dwarfadt",
@@ -2005,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamLocation",
           "package": "dwarfadt",
@@ -2014,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamLocation",
           "package": "dwarfadt",
@@ -2027,6 +2211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamName",
           "package": "dwarfadt",
@@ -2036,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamName",
           "package": "dwarfadt",
@@ -2049,6 +2235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamType",
           "package": "dwarfadt",
@@ -2058,6 +2245,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "formalParamType",
           "package": "dwarfadt",
@@ -2071,6 +2259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "fromDie",
           "package": "dwarfadt",
@@ -2080,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "fromDie",
           "normalized": "DIEMap-\u003eDIE-\u003e(Boxed CompilationUnit,[Warning])",
@@ -2095,6 +2285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "fromDies",
           "package": "dwarfadt",
@@ -2104,6 +2295,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "fromDies",
           "normalized": "DIEMap-\u003e[DIE]-\u003e(Dwarf,[Warning])",
@@ -2119,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "membDecl",
           "package": "dwarfadt",
@@ -2128,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "membDecl",
           "package": "dwarfadt",
@@ -2141,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "membLoc",
           "package": "dwarfadt",
@@ -2150,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "membLoc",
           "package": "dwarfadt",
@@ -2163,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "membName",
           "package": "dwarfadt",
@@ -2172,6 +2369,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "membName",
           "package": "dwarfadt",
@@ -2185,6 +2383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "membType",
           "package": "dwarfadt",
@@ -2194,6 +2393,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "membType",
           "package": "dwarfadt",
@@ -2207,6 +2407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ptByteSize",
           "package": "dwarfadt",
@@ -2216,6 +2417,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ptByteSize",
           "package": "dwarfadt",
@@ -2229,6 +2431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "ptType",
           "package": "dwarfadt",
@@ -2238,6 +2441,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "ptType",
           "package": "dwarfadt",
@@ -2251,6 +2455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "stByteSize",
           "package": "dwarfadt",
@@ -2260,6 +2465,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "stByteSize",
           "package": "dwarfadt",
@@ -2273,6 +2479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "stDecl",
           "package": "dwarfadt",
@@ -2282,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "stDecl",
           "package": "dwarfadt",
@@ -2295,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "stIsDeclaration",
           "package": "dwarfadt",
@@ -2304,6 +2513,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "stIsDeclaration",
           "package": "dwarfadt",
@@ -2317,6 +2527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "stMembers",
           "package": "dwarfadt",
@@ -2326,6 +2537,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "stMembers",
           "normalized": "[Boxed(Member DW_OP)]",
@@ -2341,6 +2553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "stName",
           "package": "dwarfadt",
@@ -2350,6 +2563,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "stName",
           "package": "dwarfadt",
@@ -2363,6 +2577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subRangeType",
           "package": "dwarfadt",
@@ -2372,6 +2587,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subRangeType",
           "package": "dwarfadt",
@@ -2385,6 +2601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subRangeUpperBound",
           "package": "dwarfadt",
@@ -2394,6 +2611,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subRangeUpperBound",
           "package": "dwarfadt",
@@ -2407,6 +2625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogDecl",
           "package": "dwarfadt",
@@ -2416,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogDecl",
           "package": "dwarfadt",
@@ -2429,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogExternal",
           "package": "dwarfadt",
@@ -2438,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogExternal",
           "package": "dwarfadt",
@@ -2451,6 +2673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogFormalParameters",
           "package": "dwarfadt",
@@ -2460,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogFormalParameters",
           "normalized": "[Boxed FormalParameter]",
@@ -2475,6 +2699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogFrameBase",
           "package": "dwarfadt",
@@ -2484,6 +2709,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogFrameBase",
           "package": "dwarfadt",
@@ -2497,6 +2723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogHighPC",
           "package": "dwarfadt",
@@ -2506,6 +2733,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogHighPC",
           "package": "dwarfadt",
@@ -2519,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogLowPC",
           "package": "dwarfadt",
@@ -2528,6 +2757,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogLowPC",
           "package": "dwarfadt",
@@ -2541,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogName",
           "package": "dwarfadt",
@@ -2550,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogName",
           "package": "dwarfadt",
@@ -2563,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogPrototyped",
           "package": "dwarfadt",
@@ -2572,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogPrototyped",
           "package": "dwarfadt",
@@ -2585,6 +2819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogType",
           "package": "dwarfadt",
@@ -2594,6 +2829,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogType",
           "package": "dwarfadt",
@@ -2607,6 +2843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogUnspecifiedParameters",
           "package": "dwarfadt",
@@ -2616,6 +2853,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogUnspecifiedParameters",
           "package": "dwarfadt",
@@ -2629,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subprogVariables",
           "package": "dwarfadt",
@@ -2638,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subprogVariables",
           "normalized": "[Boxed(Variable(Maybe String))]",
@@ -2653,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subrFormalParameters",
           "package": "dwarfadt",
@@ -2662,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subrFormalParameters",
           "normalized": "[Boxed FormalParameter]",
@@ -2677,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subrPrototyped",
           "package": "dwarfadt",
@@ -2686,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subrPrototyped",
           "package": "dwarfadt",
@@ -2699,6 +2943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "subrRetType",
           "package": "dwarfadt",
@@ -2708,6 +2953,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "subrRetType",
           "package": "dwarfadt",
@@ -2721,6 +2967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "tdDecl",
           "package": "dwarfadt",
@@ -2730,6 +2977,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "tdDecl",
           "package": "dwarfadt",
@@ -2743,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "tdName",
           "package": "dwarfadt",
@@ -2752,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "tdName",
           "package": "dwarfadt",
@@ -2765,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "tdType",
           "package": "dwarfadt",
@@ -2774,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "tdType",
           "package": "dwarfadt",
@@ -2787,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "unionByteSize",
           "package": "dwarfadt",
@@ -2796,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "unionByteSize",
           "package": "dwarfadt",
@@ -2809,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "unionDecl",
           "package": "dwarfadt",
@@ -2818,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "unionDecl",
           "package": "dwarfadt",
@@ -2831,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "unionMembers",
           "package": "dwarfadt",
@@ -2840,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "unionMembers",
           "normalized": "[Boxed(Member(Maybe DW_OP))]",
@@ -2855,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "unionName",
           "package": "dwarfadt",
@@ -2864,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "unionName",
           "package": "dwarfadt",
@@ -2877,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varDecl",
           "package": "dwarfadt",
@@ -2886,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varDecl",
           "package": "dwarfadt",
@@ -2899,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varDeclaration",
           "package": "dwarfadt",
@@ -2908,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varDeclaration",
           "package": "dwarfadt",
@@ -2921,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varExternal",
           "package": "dwarfadt",
@@ -2930,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varExternal",
           "package": "dwarfadt",
@@ -2943,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varLoc",
           "package": "dwarfadt",
@@ -2952,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varLoc",
           "package": "dwarfadt",
@@ -2965,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varName",
           "package": "dwarfadt",
@@ -2974,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varName",
           "package": "dwarfadt",
@@ -2987,6 +3257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "varType",
           "package": "dwarfadt",
@@ -2996,6 +3267,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "varType",
           "package": "dwarfadt",
@@ -3009,6 +3281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "vtType",
           "package": "dwarfadt",
@@ -3018,6 +3291,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "vtType",
           "package": "dwarfadt",
@@ -3031,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "warningDieId",
           "package": "dwarfadt",
@@ -3040,6 +3315,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "warningDieId",
           "package": "dwarfadt",
@@ -3053,6 +3329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.ADT",
           "name": "warningUnusedAttrs",
           "package": "dwarfadt",
@@ -3062,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf ADT",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.ADT",
           "name": "warningUnusedAttrs",
           "normalized": "[(DW_AT,DW_ATVAL)]",
@@ -3077,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.Elf",
           "name": "Elf",
           "package": "dwarfadt",
@@ -3085,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf Elf",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.Elf",
           "name": "Elf",
           "package": "dwarfadt",
@@ -3098,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.Elf",
           "name": "elfSectionByName",
           "package": "dwarfadt",
@@ -3107,6 +3388,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf Elf",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.Elf",
           "name": "elfSectionByName",
           "normalized": "Elf-\u003eString-\u003eEither String ByteString",
@@ -3122,6 +3404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.Elf",
           "name": "loadElfDwarf",
           "package": "dwarfadt",
@@ -3131,6 +3414,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf Elf",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.Elf",
           "name": "loadElfDwarf",
           "normalized": "Endianess-\u003eFilePath-\u003eIO(Elf,([DIE],DIEMap))",
@@ -3146,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:48 UTC 2014",
           "module": "Data.Dwarf.Elf",
           "name": "parseElfDwarfADT",
           "package": "dwarfadt",
@@ -3155,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Data Dwarf Elf",
+          "indexed": "2014-03-11T17:59:48",
           "module": "Data.Dwarf.Elf",
           "name": "parseElfDwarfADT",
           "normalized": "Endianess-\u003eFilePath-\u003eIO(Dwarf,[Warning])",

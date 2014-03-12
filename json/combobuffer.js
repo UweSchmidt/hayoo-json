@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "combobuffer"
+        "phrase": "combobuffer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Chord",
           "name": "Chord",
           "package": "combobuffer",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Chord",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Chord",
           "name": "Chord",
           "package": "combobuffer",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Chord",
           "name": "Chord",
           "package": "combobuffer",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Chord",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Chord",
           "name": "Chord",
           "package": "combobuffer",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Chord",
           "name": "cToVec",
           "package": "combobuffer",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Chord",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Chord",
           "name": "cToVec",
           "normalized": "Chord a-\u003eVector a",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean empty chord.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Chord",
           "name": "emptyChord",
           "package": "combobuffer",
@@ -95,6 +102,7 @@
         "index": {
           "description": "an empty chord",
           "hierarchy": "Data RingBuffer Chord",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Chord",
           "name": "emptyChord",
           "normalized": "a-\u003eChord a",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe RingBuffer interface.\n\u003c/p\u003e\u003cp\u003eA RingBuffer is a fixed-length buffer that supports lookups anywhere in\n the structure and pushing new elements onto the front.  When a new value is\n pushed, the oldest value will be dropped.\n\u003c/p\u003e\u003cp\u003eThis module provides an implementation based on\n \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e, with O(1) lookups and O(n) pushes.  Other\n modules provide implementations with different performance profiles.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "Class",
           "package": "combobuffer",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The RingBuffer interface RingBuffer is fixed-length buffer that supports lookups anywhere in the structure and pushing new elements onto the front When new value is pushed the oldest value will be dropped This module provides an implementation based on Vector with lookups and pushes Other modules provide implementations with different performance profiles",
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "Class",
           "package": "combobuffer",
@@ -156,6 +166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eInitializable\u003c/a\u003e\u003c/code\u003e with the given value at every position.\n Essentially a generalized \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "Initializable",
           "package": "combobuffer",
@@ -165,6 +176,7 @@
         "index": {
           "description": "Create new Initializable with the given value at every position Essentially generalized replicate",
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "Initializable",
           "package": "combobuffer",
@@ -179,6 +191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RingBuffer interface.\n\u003c/p\u003e\u003cp\u003eInstances must define \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epush\u003c/a\u003e\u003c/code\u003e, and '(!)'.  Instances may define\n \u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e for better performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -188,6 +201,7 @@
         "index": {
           "description": "The RingBuffer interface Instances must define length push and Instances may define slice for better performance",
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -201,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "(!)",
           "package": "combobuffer",
@@ -210,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "(!) !",
           "normalized": "a-\u003eInt-\u003eEl a",
@@ -224,6 +240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "length",
           "package": "combobuffer",
@@ -233,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -247,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "newInit",
           "package": "combobuffer",
@@ -256,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "newInit",
           "normalized": "El a-\u003eInt-\u003ea",
@@ -271,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "push",
           "package": "combobuffer",
@@ -280,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "push",
           "normalized": "a-\u003eEl a-\u003ea",
@@ -294,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.Class",
           "name": "slice",
           "package": "combobuffer",
@@ -303,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer Class",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.Class",
           "name": "slice",
           "normalized": "a-\u003eInt-\u003eInt-\u003e[El a]",
@@ -317,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.ComboBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -325,6 +350,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer ComboBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.ComboBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -338,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.ComboBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -346,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer ComboBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.ComboBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -406,6 +434,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRingBuffer\u003c/a\u003e\u003c/code\u003e implementation based on IntMaps.  Operations have the same\n complexity as the underlying IntMap\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -415,6 +444,7 @@
         "index": {
           "description": "RingBuffer implementation based on IntMaps Operations have the same complexity as the underlying IntMap",
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -429,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eInitializable\u003c/a\u003e\u003c/code\u003e with the given value at every position.\n Essentially a generalized \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "Initializable",
           "package": "combobuffer",
@@ -438,6 +469,7 @@
         "index": {
           "description": "Create new Initializable with the given value at every position Essentially generalized replicate",
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "Initializable",
           "package": "combobuffer",
@@ -451,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -459,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -473,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RingBuffer interface.\n\u003c/p\u003e\u003cp\u003eInstances must define \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epush\u003c/a\u003e\u003c/code\u003e, and '(!)'.  Instances may define\n \u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e for better performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -482,6 +517,7 @@
         "index": {
           "description": "The RingBuffer interface Instances must define length push and Instances may define slice for better performance",
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -495,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "(!)",
           "package": "combobuffer",
@@ -504,6 +541,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "(!) !",
           "normalized": "a-\u003eInt-\u003eEl a",
@@ -541,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "length",
           "package": "combobuffer",
@@ -550,6 +589,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -564,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "newInit",
           "package": "combobuffer",
@@ -573,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "newInit",
           "normalized": "El a-\u003eInt-\u003ea",
@@ -588,6 +630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "push",
           "package": "combobuffer",
@@ -597,6 +640,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "push",
           "normalized": "a-\u003eEl a-\u003ea",
@@ -611,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "slice",
           "package": "combobuffer",
@@ -620,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer MapBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.MapBuffer",
           "name": "slice",
           "normalized": "a-\u003eInt-\u003eInt-\u003e[El a]",
@@ -635,6 +681,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStrict vectors of doubles to length == 30\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "SVec",
           "package": "combobuffer",
@@ -644,6 +691,7 @@
         "index": {
           "description": "Strict vectors of doubles to length",
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "SVec",
           "package": "combobuffer",
@@ -657,6 +705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T1",
           "package": "combobuffer",
@@ -665,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T1",
           "package": "combobuffer",
@@ -677,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T10",
           "package": "combobuffer",
@@ -685,6 +736,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T10",
           "package": "combobuffer",
@@ -697,6 +749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T11",
           "package": "combobuffer",
@@ -705,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T11",
           "package": "combobuffer",
@@ -717,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T12",
           "package": "combobuffer",
@@ -725,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T12",
           "package": "combobuffer",
@@ -737,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T13",
           "package": "combobuffer",
@@ -745,6 +802,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T13",
           "package": "combobuffer",
@@ -757,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T14",
           "package": "combobuffer",
@@ -765,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T14",
           "package": "combobuffer",
@@ -777,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T15",
           "package": "combobuffer",
@@ -785,6 +846,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T15",
           "package": "combobuffer",
@@ -797,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T16",
           "package": "combobuffer",
@@ -805,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T16",
           "package": "combobuffer",
@@ -817,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T17",
           "package": "combobuffer",
@@ -825,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T17",
           "package": "combobuffer",
@@ -837,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T18",
           "package": "combobuffer",
@@ -845,6 +912,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T18",
           "package": "combobuffer",
@@ -857,6 +925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T19",
           "package": "combobuffer",
@@ -865,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T19",
           "package": "combobuffer",
@@ -877,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T2",
           "package": "combobuffer",
@@ -885,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T2",
           "package": "combobuffer",
@@ -897,6 +969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T20",
           "package": "combobuffer",
@@ -905,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T20",
           "package": "combobuffer",
@@ -917,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T21",
           "package": "combobuffer",
@@ -925,6 +1000,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T21",
           "package": "combobuffer",
@@ -937,6 +1013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T22",
           "package": "combobuffer",
@@ -945,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T22",
           "package": "combobuffer",
@@ -957,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T23",
           "package": "combobuffer",
@@ -965,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T23",
           "package": "combobuffer",
@@ -977,6 +1057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T24",
           "package": "combobuffer",
@@ -985,6 +1066,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T24",
           "package": "combobuffer",
@@ -997,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T25",
           "package": "combobuffer",
@@ -1005,6 +1088,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T25",
           "package": "combobuffer",
@@ -1017,6 +1101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T26",
           "package": "combobuffer",
@@ -1025,6 +1110,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T26",
           "package": "combobuffer",
@@ -1037,6 +1123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T27",
           "package": "combobuffer",
@@ -1045,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T27",
           "package": "combobuffer",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T28",
           "package": "combobuffer",
@@ -1065,6 +1154,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T28",
           "package": "combobuffer",
@@ -1077,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T29",
           "package": "combobuffer",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T29",
           "package": "combobuffer",
@@ -1097,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T3",
           "package": "combobuffer",
@@ -1105,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T3",
           "package": "combobuffer",
@@ -1117,6 +1211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T30",
           "package": "combobuffer",
@@ -1125,6 +1220,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T30",
           "package": "combobuffer",
@@ -1137,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T4",
           "package": "combobuffer",
@@ -1145,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T4",
           "package": "combobuffer",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T5",
           "package": "combobuffer",
@@ -1165,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T5",
           "package": "combobuffer",
@@ -1177,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T6",
           "package": "combobuffer",
@@ -1185,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T6",
           "package": "combobuffer",
@@ -1197,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T7",
           "package": "combobuffer",
@@ -1205,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T7",
           "package": "combobuffer",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T8",
           "package": "combobuffer",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T8",
           "package": "combobuffer",
@@ -1237,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T9",
           "package": "combobuffer",
@@ -1245,6 +1352,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T9",
           "package": "combobuffer",
@@ -1258,6 +1366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a 32-element polymorphic vector, maybe I should just use\n Data.Vector?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "TVec32",
           "package": "combobuffer",
@@ -1267,6 +1376,7 @@
         "index": {
           "description": "Generate element polymorphic vector maybe should just use Data.Vector",
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "TVec32",
           "package": "combobuffer",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T1",
           "package": "combobuffer",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T1",
           "package": "combobuffer",
@@ -1301,6 +1413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T10",
           "package": "combobuffer",
@@ -1310,6 +1423,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T10",
           "package": "combobuffer",
@@ -1322,6 +1436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T11",
           "package": "combobuffer",
@@ -1331,6 +1446,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T11",
           "package": "combobuffer",
@@ -1343,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T12",
           "package": "combobuffer",
@@ -1352,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T12",
           "package": "combobuffer",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T13",
           "package": "combobuffer",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T13",
           "package": "combobuffer",
@@ -1385,6 +1505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T14",
           "package": "combobuffer",
@@ -1394,6 +1515,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T14",
           "package": "combobuffer",
@@ -1406,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T15",
           "package": "combobuffer",
@@ -1415,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T15",
           "package": "combobuffer",
@@ -1427,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T16",
           "package": "combobuffer",
@@ -1436,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T16",
           "package": "combobuffer",
@@ -1448,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T17",
           "package": "combobuffer",
@@ -1457,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T17",
           "package": "combobuffer",
@@ -1469,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T18",
           "package": "combobuffer",
@@ -1478,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T18",
           "package": "combobuffer",
@@ -1490,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T19",
           "package": "combobuffer",
@@ -1499,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T19",
           "package": "combobuffer",
@@ -1511,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T2",
           "package": "combobuffer",
@@ -1520,6 +1653,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T2",
           "package": "combobuffer",
@@ -1532,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T20",
           "package": "combobuffer",
@@ -1541,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T20",
           "package": "combobuffer",
@@ -1553,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T21",
           "package": "combobuffer",
@@ -1562,6 +1699,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T21",
           "package": "combobuffer",
@@ -1574,6 +1712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T22",
           "package": "combobuffer",
@@ -1583,6 +1722,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T22",
           "package": "combobuffer",
@@ -1595,6 +1735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T23",
           "package": "combobuffer",
@@ -1604,6 +1745,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T23",
           "package": "combobuffer",
@@ -1616,6 +1758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T24",
           "package": "combobuffer",
@@ -1625,6 +1768,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T24",
           "package": "combobuffer",
@@ -1637,6 +1781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T25",
           "package": "combobuffer",
@@ -1646,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T25",
           "package": "combobuffer",
@@ -1658,6 +1804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T26",
           "package": "combobuffer",
@@ -1667,6 +1814,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T26",
           "package": "combobuffer",
@@ -1679,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T27",
           "package": "combobuffer",
@@ -1688,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T27",
           "package": "combobuffer",
@@ -1700,6 +1850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T28",
           "package": "combobuffer",
@@ -1709,6 +1860,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T28",
           "package": "combobuffer",
@@ -1721,6 +1873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T29",
           "package": "combobuffer",
@@ -1730,6 +1883,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T29",
           "package": "combobuffer",
@@ -1742,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T3",
           "package": "combobuffer",
@@ -1751,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T3",
           "package": "combobuffer",
@@ -1763,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T30",
           "package": "combobuffer",
@@ -1772,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T30",
           "package": "combobuffer",
@@ -1784,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T4",
           "package": "combobuffer",
@@ -1793,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T4",
           "package": "combobuffer",
@@ -1805,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T5",
           "package": "combobuffer",
@@ -1814,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T5",
           "package": "combobuffer",
@@ -1826,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T6",
           "package": "combobuffer",
@@ -1835,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T6",
           "package": "combobuffer",
@@ -1847,6 +2011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T7",
           "package": "combobuffer",
@@ -1856,6 +2021,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T7",
           "package": "combobuffer",
@@ -1868,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T8",
           "package": "combobuffer",
@@ -1877,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T8",
           "package": "combobuffer",
@@ -1889,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "T9",
           "package": "combobuffer",
@@ -1898,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "T9",
           "package": "combobuffer",
@@ -1910,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SVec",
           "name": "TVec32",
           "package": "combobuffer",
@@ -1919,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SVec",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SVec",
           "name": "TVec32",
           "package": "combobuffer",
@@ -1933,6 +2105,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003ccode\u003e\u003ca\u003eRingBuffer\u003c/a\u003e\u003c/code\u003e based on \u003ccode\u003e\u003ca\u003eSeq\u003c/a\u003e\u003c/code\u003e.  Asymptotic behavior is quite\n good in all cases, but constant factors are very high.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -1942,6 +2115,7 @@
         "index": {
           "description": "RingBuffer based on Seq Asymptotic behavior is quite good in all cases but constant factors are very high",
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -1956,6 +2130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RingBuffer interface.\n\u003c/p\u003e\u003cp\u003eInstances must define \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epush\u003c/a\u003e\u003c/code\u003e, and '(!)'.  Instances may define\n \u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e for better performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -1965,6 +2140,7 @@
         "index": {
           "description": "The RingBuffer interface Instances must define length push and Instances may define slice for better performance",
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -1978,6 +2154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -1986,6 +2163,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -1999,6 +2177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "(!)",
           "package": "combobuffer",
@@ -2008,6 +2187,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "(!) !",
           "normalized": "a-\u003eInt-\u003eEl a",
@@ -2022,6 +2202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "length",
           "package": "combobuffer",
@@ -2031,6 +2212,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -2046,6 +2228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new SeqBuffer, initialized to all 0's, of the given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "new",
           "package": "combobuffer",
@@ -2056,6 +2239,7 @@
         "index": {
           "description": "Create new SeqBuffer initialized to all of the given size",
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "new",
           "normalized": "Int-\u003eSeqBuffer a",
@@ -2070,6 +2254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "push",
           "package": "combobuffer",
@@ -2079,6 +2264,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "push",
           "normalized": "a-\u003eEl a-\u003ea",
@@ -2093,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "slice",
           "package": "combobuffer",
@@ -2102,6 +2289,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer SeqBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.SeqBuffer",
           "name": "slice",
           "normalized": "a-\u003eInt-\u003eInt-\u003e[El a]",
@@ -2117,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTemplate Haskell splices to create  constant-sized vectors and RingBuffer\n instances for them\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.TGen",
           "name": "TGen",
           "package": "combobuffer",
@@ -2126,6 +2315,7 @@
         "index": {
           "description": "Template Haskell splices to create constant-sized vectors and RingBuffer instances for them",
           "hierarchy": "Data RingBuffer TGen",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.TGen",
           "name": "TGen",
           "package": "combobuffer",
@@ -2139,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.TGen",
           "name": "mkVec",
           "package": "combobuffer",
@@ -2148,6 +2339,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer TGen",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.TGen",
           "name": "mkVec",
           "normalized": "Type-\u003e[TyVarBndr]-\u003e[Char]-\u003eInt-\u003eQ[Dec]",
@@ -2163,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer.TGen",
           "name": "mkVecFromTo",
           "package": "combobuffer",
@@ -2172,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer TGen",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer.TGen",
           "name": "mkVecFromTo",
           "normalized": "Int-\u003eInt-\u003eType-\u003e[TyVarBndr]-\u003e[Char]-\u003eQ[Dec]",
@@ -2187,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -2195,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -2208,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -2216,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "ComboBuffer",
           "package": "combobuffer",
@@ -2230,6 +2428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eInitializable\u003c/a\u003e\u003c/code\u003e with the given value at every position.\n Essentially a generalized \u003ccode\u003e\u003ca\u003ereplicate\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "Initializable",
           "package": "combobuffer",
@@ -2239,6 +2438,7 @@
         "index": {
           "description": "Create new Initializable with the given value at every position Essentially generalized replicate",
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "Initializable",
           "package": "combobuffer",
@@ -2252,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -2260,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "MapBuffer",
           "package": "combobuffer",
@@ -2274,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe RingBuffer interface.\n\u003c/p\u003e\u003cp\u003eInstances must define \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003epush\u003c/a\u003e\u003c/code\u003e, and '(!)'.  Instances may define\n \u003ccode\u003e\u003ca\u003eslice\u003c/a\u003e\u003c/code\u003e for better performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -2283,6 +2486,7 @@
         "index": {
           "description": "The RingBuffer interface Instances must define length push and Instances may define slice for better performance",
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "RingBuffer",
           "package": "combobuffer",
@@ -2296,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -2304,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "SeqBuffer",
           "package": "combobuffer",
@@ -2317,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "(!)",
           "package": "combobuffer",
@@ -2326,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "(!) !",
           "normalized": "a-\u003eInt-\u003eEl a",
@@ -2340,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "length",
           "package": "combobuffer",
@@ -2349,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "length",
           "normalized": "a-\u003eInt",
@@ -2363,6 +2573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "newInit",
           "package": "combobuffer",
@@ -2372,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "newInit",
           "normalized": "El a-\u003eInt-\u003ea",
@@ -2387,6 +2599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "push",
           "package": "combobuffer",
@@ -2396,6 +2609,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "push",
           "normalized": "a-\u003eEl a-\u003ea",
@@ -2410,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:36:27 UTC 2014",
           "module": "Data.RingBuffer",
           "name": "slice",
           "package": "combobuffer",
@@ -2419,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Data RingBuffer",
+          "indexed": "2014-03-11T17:36:27",
           "module": "Data.RingBuffer",
           "name": "slice",
           "normalized": "a-\u003eInt-\u003eInt-\u003e[El a]",

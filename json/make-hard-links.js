@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "make-hard-links"
+        "phrase": "make-hard-links",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "arff"
+        "phrase": "arff",
+        "type": "phrase"
       },
       "type": "context"
     }

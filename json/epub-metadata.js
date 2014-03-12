@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "epub-metadata"
+        "phrase": "epub-metadata",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for working with the metadata of epub documents\n\u003c/p\u003e\u003cp\u003eThis module helps to avoid circular imports for definitions needed by two or more other modules in this library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Common",
           "name": "Common",
           "package": "epub-metadata",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Data types for working with the metadata of epub documents This module helps to avoid circular imports for definitions needed by two or more other modules in this library",
           "hierarchy": "Codec Epub Data Common",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Common",
           "name": "Common",
           "package": "epub-metadata",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute value used to relate things to each other in the OPF data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Common",
           "name": "MFItemId",
           "package": "epub-metadata",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Attribute value used to relate things to each other in the OPF data",
           "hierarchy": "Codec Epub Data Common",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Common",
           "name": "MFItemId",
           "package": "epub-metadata",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for working with the metadata of epub documents\n\u003c/p\u003e\u003cp\u003eThis contains the guide section in an epub2 OPF document. It has been deprecated in the epub3 spec and should not be present in epub3 documents.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Data types for working with the metadata of epub documents This contains the guide section in an epub2 OPF document It has been deprecated in the epub3 spec and should not be present in epub3 documents",
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/guide/reference tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "GuideRef",
           "package": "epub-metadata",
@@ -97,6 +104,7 @@
         "index": {
           "description": "package guide reference tag",
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "GuideRef",
           "package": "epub-metadata",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "GuideRef",
           "package": "epub-metadata",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "GuideRef",
           "package": "epub-metadata",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehref attribute. Must reference an item in the manifest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "grHref",
           "package": "epub-metadata",
@@ -143,6 +154,7 @@
         "index": {
           "description": "href attribute Must reference an item in the manifest",
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "grHref",
           "package": "epub-metadata",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etitle attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "grTitle",
           "package": "epub-metadata",
@@ -167,6 +180,7 @@
         "index": {
           "description": "title attribute",
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "grTitle",
           "package": "epub-metadata",
@@ -181,6 +195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype attribute. Must follow 13th edition of the Chicago Manual of Style\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Guide",
           "name": "grType",
           "package": "epub-metadata",
@@ -191,6 +206,7 @@
         "index": {
           "description": "type attribute Must follow th edition of the Chicago Manual of Style",
           "hierarchy": "Codec Epub Data Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Guide",
           "name": "grType",
           "package": "epub-metadata",
@@ -205,6 +221,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for working with the metadata of epub documents\n\u003c/p\u003e\u003cp\u003eThis contains the manifest information from an epub document.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Data types for working with the metadata of epub documents This contains the manifest information from an epub document",
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -249,6 +269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/manifest/item tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "ManifestItem",
           "package": "epub-metadata",
@@ -258,6 +279,7 @@
         "index": {
           "description": "package manifest item tag",
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "ManifestItem",
           "package": "epub-metadata",
@@ -271,6 +293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -280,6 +303,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "Manifest",
           "normalized": "Manifest[ManifestItem]",
@@ -295,6 +319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "ManifestItem",
           "package": "epub-metadata",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "ManifestItem",
           "package": "epub-metadata",
@@ -318,6 +344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehref attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiHref",
           "package": "epub-metadata",
@@ -328,6 +355,7 @@
         "index": {
           "description": "href attribute",
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiHref",
           "package": "epub-metadata",
@@ -342,6 +370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiId",
           "package": "epub-metadata",
@@ -352,6 +381,7 @@
         "index": {
           "description": "id attribute",
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiId",
           "package": "epub-metadata",
@@ -366,6 +396,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emedia-type attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiMediaType",
           "package": "epub-metadata",
@@ -376,6 +407,7 @@
         "index": {
           "description": "media-type attribute",
           "hierarchy": "Codec Epub Data Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Manifest",
           "name": "mfiMediaType",
           "package": "epub-metadata",
@@ -390,6 +422,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for working with the metadata of epub documents\n\u003c/p\u003e\u003cp\u003eThis module defines the Metadata structure which contains most of the taxonomic information about the literary work. Metadata is probably the most important data structure in this library.\n\u003c/p\u003e\u003cp\u003eBoth commonly-used versions of epub (2.x and 3.x) are supported by these types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -399,6 +432,7 @@
         "index": {
           "description": "Data types for working with the metadata of epub documents This module defines the Metadata structure which contains most of the taxonomic information about the literary work Metadata is probably the most important data structure in this library Both commonly-used versions of epub and are supported by these types",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -413,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata/dc:creator or package/metadata/dc:contributor\n   tags\n\u003c/p\u003e\u003cp\u003eThis structure is used for both contributor and creator as they are exactly the same.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Creator",
           "package": "epub-metadata",
@@ -422,6 +457,7 @@
         "index": {
           "description": "package metadata dc creator or package metadata dc contributor tags This structure is used for both contributor and creator as they are exactly the same",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Creator",
           "package": "epub-metadata",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata/dc:date tag, opf:event attribute, text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Date",
           "package": "epub-metadata",
@@ -445,6 +482,7 @@
         "index": {
           "description": "package metadata dc date tag opf event attribute text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Date",
           "package": "epub-metadata",
@@ -459,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata/dc:description tag, xml:lang attribute, text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Description",
           "package": "epub-metadata",
@@ -468,6 +507,7 @@
         "index": {
           "description": "package metadata dc description tag xml lang attribute text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Description",
           "package": "epub-metadata",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata/dc:identifier tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Identifier",
           "package": "epub-metadata",
@@ -491,6 +532,7 @@
         "index": {
           "description": "package metadata dc identifier tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Identifier",
           "package": "epub-metadata",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata tag\n\u003c/p\u003e\u003cp\u003eThis is perhaps the most useful data structure in this library. It\n   contains most of the information tools will want to use to\n   organize epub documents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -514,6 +557,7 @@
         "index": {
           "description": "package metadata tag This is perhaps the most useful data structure in this library It contains most of the information tools will want to use to organize epub documents",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -528,6 +572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRefinements represent meta tags within the metadata section\n   that refine other tags. These are used during the parsing phase\n   and are discarded as their information is slotted into the data\n   they refine (the types below like Creator, Title, etc..)\n\u003c/p\u003e\u003cp\u003eThis is specific to epub3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Refinement",
           "package": "epub-metadata",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Refinements represent meta tags within the metadata section that refine other tags These are used during the parsing phase and are discarded as their information is slotted into the data they refine the types below like Creator Title etc This is specific to epub3",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Refinement",
           "package": "epub-metadata",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/metadata/dc:title tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Title",
           "package": "epub-metadata",
@@ -560,6 +607,7 @@
         "index": {
           "description": "package metadata dc title tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Title",
           "package": "epub-metadata",
@@ -573,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Creator",
           "package": "epub-metadata",
@@ -582,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Creator",
           "package": "epub-metadata",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Date",
           "package": "epub-metadata",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Date",
           "package": "epub-metadata",
@@ -617,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Description",
           "package": "epub-metadata",
@@ -626,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Description",
           "package": "epub-metadata",
@@ -639,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Identifier",
           "package": "epub-metadata",
@@ -648,6 +703,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Identifier",
           "package": "epub-metadata",
@@ -661,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -670,6 +727,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -683,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Refinement",
           "package": "epub-metadata",
@@ -692,6 +751,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Refinement",
           "package": "epub-metadata",
@@ -705,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Title",
           "package": "epub-metadata",
@@ -714,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "Title",
           "package": "epub-metadata",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efile-as from attribute or meta tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorFileAs",
           "package": "epub-metadata",
@@ -738,6 +801,7 @@
         "index": {
           "description": "file-as from attribute or meta tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorFileAs",
           "package": "epub-metadata",
@@ -752,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erole from attribute or meta tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorRole",
           "package": "epub-metadata",
@@ -762,6 +827,7 @@
         "index": {
           "description": "role from attribute or meta tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorRole",
           "package": "epub-metadata",
@@ -776,6 +842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay-sequence property from meta\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorSeq",
           "package": "epub-metadata",
@@ -786,6 +853,7 @@
         "index": {
           "description": "display-sequence property from meta",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorSeq",
           "package": "epub-metadata",
@@ -800,6 +868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreator or contributor tag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorText",
           "package": "epub-metadata",
@@ -810,6 +879,7 @@
         "index": {
           "description": "creator or contributor tag text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "creatorText",
           "package": "epub-metadata",
@@ -824,6 +894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: This isn't valid as-is, some required values are empty lists!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "emptyMetadata",
           "package": "epub-metadata",
@@ -834,6 +905,7 @@
         "index": {
           "description": "Note This isn valid as-is some required values are empty lists",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "emptyMetadata",
           "package": "epub-metadata",
@@ -848,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed internally by Codec.Epub.Parse.Metadata to populate the\n   metadata modified field with data extracted from the epub3 meta\n   tag with property dcterms:modified\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "getModified",
           "package": "epub-metadata",
@@ -858,6 +931,7 @@
         "index": {
           "description": "Used internally by Codec.Epub.Parse.Metadata to populate the metadata modified field with data extracted from the epub3 meta tag with property dcterms modified",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "getModified",
           "normalized": "[Refinement]-\u003eMaybe String",
@@ -874,6 +948,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idId",
           "package": "epub-metadata",
@@ -884,6 +959,7 @@
         "index": {
           "description": "id attribute",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idId",
           "package": "epub-metadata",
@@ -898,6 +974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escheme from attribute or meta tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idScheme",
           "package": "epub-metadata",
@@ -908,6 +985,7 @@
         "index": {
           "description": "scheme from attribute or meta tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idScheme",
           "package": "epub-metadata",
@@ -922,6 +1000,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentifier tag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idText",
           "package": "epub-metadata",
@@ -932,6 +1011,7 @@
         "index": {
           "description": "identifier tag text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idText",
           "package": "epub-metadata",
@@ -946,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidentifier-type property from meta tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idType",
           "package": "epub-metadata",
@@ -956,6 +1037,7 @@
         "index": {
           "description": "identifier-type property from meta tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "idType",
           "package": "epub-metadata",
@@ -969,6 +1051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaContributors",
           "package": "epub-metadata",
@@ -978,6 +1061,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaContributors",
           "normalized": "[Creator]",
@@ -994,6 +1078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:coverage tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaCoverages",
           "package": "epub-metadata",
@@ -1004,6 +1089,7 @@
         "index": {
           "description": "dc coverage tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaCoverages",
           "normalized": "[String]",
@@ -1019,6 +1105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaCreators",
           "package": "epub-metadata",
@@ -1028,6 +1115,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaCreators",
           "normalized": "[Creator]",
@@ -1043,6 +1131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaDates",
           "package": "epub-metadata",
@@ -1052,6 +1141,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaDates",
           "normalized": "[Date]",
@@ -1067,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaDescriptions",
           "package": "epub-metadata",
@@ -1076,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaDescriptions",
           "normalized": "[Description]",
@@ -1092,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:format tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaFormats",
           "package": "epub-metadata",
@@ -1102,6 +1195,7 @@
         "index": {
           "description": "dc format tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaFormats",
           "normalized": "[String]",
@@ -1118,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eat least one required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaIds",
           "package": "epub-metadata",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "at least one required",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaIds",
           "normalized": "[Identifier]",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:language tags, at least one required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaLangs",
           "package": "epub-metadata",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "dc language tags at least one required",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaLangs",
           "normalized": "[String]",
@@ -1170,6 +1268,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emeta tag with property dcterms:modified, present only in epub3 documents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaModified",
           "package": "epub-metadata",
@@ -1180,6 +1279,7 @@
         "index": {
           "description": "meta tag with property dcterms modified present only in epub3 documents",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaModified",
           "package": "epub-metadata",
@@ -1194,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:publisher tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaPublishers",
           "package": "epub-metadata",
@@ -1204,6 +1305,7 @@
         "index": {
           "description": "dc publisher tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaPublishers",
           "normalized": "[String]",
@@ -1220,6 +1322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:relation tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaRelations",
           "package": "epub-metadata",
@@ -1230,6 +1333,7 @@
         "index": {
           "description": "dc relation tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaRelations",
           "normalized": "[String]",
@@ -1246,6 +1350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:rights tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaRights",
           "package": "epub-metadata",
@@ -1256,6 +1361,7 @@
         "index": {
           "description": "dc rights tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaRights",
           "normalized": "[String]",
@@ -1272,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:source tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaSource",
           "package": "epub-metadata",
@@ -1282,6 +1389,7 @@
         "index": {
           "description": "dc source tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaSource",
           "package": "epub-metadata",
@@ -1296,6 +1404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:subject tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaSubjects",
           "package": "epub-metadata",
@@ -1306,6 +1415,7 @@
         "index": {
           "description": "dc subject tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaSubjects",
           "normalized": "[String]",
@@ -1322,6 +1432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eat least one required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaTitles",
           "package": "epub-metadata",
@@ -1332,6 +1443,7 @@
         "index": {
           "description": "at least one required",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaTitles",
           "normalized": "[Title]",
@@ -1348,6 +1460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edc:type tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaType",
           "package": "epub-metadata",
@@ -1358,6 +1471,7 @@
         "index": {
           "description": "dc type tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "metaType",
           "package": "epub-metadata",
@@ -1372,6 +1486,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eid attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refId",
           "package": "epub-metadata",
@@ -1382,6 +1497,7 @@
         "index": {
           "description": "id attribute",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refId",
           "package": "epub-metadata",
@@ -1396,6 +1512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eproperty attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refProp",
           "package": "epub-metadata",
@@ -1406,6 +1523,7 @@
         "index": {
           "description": "property attribute",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refProp",
           "package": "epub-metadata",
@@ -1420,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escheme attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refScheme",
           "package": "epub-metadata",
@@ -1430,6 +1549,7 @@
         "index": {
           "description": "scheme attribute",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refScheme",
           "package": "epub-metadata",
@@ -1444,6 +1564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emeta tag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refText",
           "package": "epub-metadata",
@@ -1454,6 +1575,7 @@
         "index": {
           "description": "meta tag text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refText",
           "package": "epub-metadata",
@@ -1468,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed internally by Codec.Epub.Parse.Metadata to merge epub3 meta\n   tag info into the data gathered from contributor and creator tags\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineCreator",
           "package": "epub-metadata",
@@ -1478,6 +1601,7 @@
         "index": {
           "description": "Used internally by Codec.Epub.Parse.Metadata to merge epub3 meta tag info into the data gathered from contributor and creator tags",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineCreator",
           "normalized": "[Refinement]-\u003e(String,Creator)-\u003eCreator",
@@ -1494,6 +1618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed internally by Codec.Epub.Parse.Metadata to merge epub3 meta\n   tag info into the data gathered from an identifier tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineIdentifier",
           "package": "epub-metadata",
@@ -1504,6 +1629,7 @@
         "index": {
           "description": "Used internally by Codec.Epub.Parse.Metadata to merge epub3 meta tag info into the data gathered from an identifier tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineIdentifier",
           "normalized": "[Refinement]-\u003eIdentifier-\u003eIdentifier",
@@ -1520,6 +1646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed internally by Codec.Epub.Parse.Metadata to merge epub3 meta\n   tag info into the data gathered from a title tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineTitle",
           "package": "epub-metadata",
@@ -1530,6 +1657,7 @@
         "index": {
           "description": "Used internally by Codec.Epub.Parse.Metadata to merge epub3 meta tag info into the data gathered from title tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "refineTitle",
           "normalized": "[Refinement]-\u003e(String,Title)-\u003eTitle",
@@ -1546,6 +1674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elang attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleLang",
           "package": "epub-metadata",
@@ -1556,6 +1685,7 @@
         "index": {
           "description": "lang attribute",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleLang",
           "package": "epub-metadata",
@@ -1570,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edisplay-sequence property from meta\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleSeq",
           "package": "epub-metadata",
@@ -1580,6 +1711,7 @@
         "index": {
           "description": "display-sequence property from meta",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleSeq",
           "package": "epub-metadata",
@@ -1594,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etitle tag text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleText",
           "package": "epub-metadata",
@@ -1604,6 +1737,7 @@
         "index": {
           "description": "title tag text",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleText",
           "package": "epub-metadata",
@@ -1618,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etitle-type property from meta tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleType",
           "package": "epub-metadata",
@@ -1628,6 +1763,7 @@
         "index": {
           "description": "title-type property from meta tag",
           "hierarchy": "Codec Epub Data Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Metadata",
           "name": "titleType",
           "package": "epub-metadata",
@@ -1642,6 +1778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData type for working with epub package info\n\u003c/p\u003e\u003cp\u003eThis contains the package section from an epub document. In the\n   OPF XML document, this tag contains the other tags (metadata,\n   manifest...)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1651,6 +1788,7 @@
         "index": {
           "description": "Data type for working with epub package info This contains the package section from an epub document In the OPF XML document this tag contains the other tags metadata manifest",
           "hierarchy": "Codec Epub Data Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1665,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1674,6 +1813,7 @@
         "index": {
           "description": "package tag",
           "hierarchy": "Codec Epub Data Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1687,6 +1827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1696,6 +1837,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -1710,6 +1852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunique-identifier attribute. This should relate to one metaIdentifier in the Metadata and is intended to represent this book's unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Package",
           "name": "pkgUniqueId",
           "package": "epub-metadata",
@@ -1720,6 +1863,7 @@
         "index": {
           "description": "unique-identifier attribute This should relate to one metaIdentifier in the Metadata and is intended to represent this book unique identifier",
           "hierarchy": "Codec Epub Data Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Package",
           "name": "pkgUniqueId",
           "package": "epub-metadata",
@@ -1734,6 +1878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eversion attribute. This contains which epub specification version (2.x or 3.x) this document conforms to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Package",
           "name": "pkgVersion",
           "package": "epub-metadata",
@@ -1744,6 +1889,7 @@
         "index": {
           "description": "version attribute This contains which epub specification version or this document conforms to",
           "hierarchy": "Codec Epub Data Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Package",
           "name": "pkgVersion",
           "package": "epub-metadata",
@@ -1758,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for working with the metadata of epub documents\n\u003c/p\u003e\u003cp\u003eThe spine represents a default ordering of items in the manifest.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1767,6 +1914,7 @@
         "index": {
           "description": "Data types for working with the metadata of epub documents The spine represents default ordering of items in the manifest",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1781,6 +1929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/spine tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1790,6 +1939,7 @@
         "index": {
           "description": "package spine tag",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1804,6 +1954,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epackage/spine/itemref tag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "SpineItemref",
           "package": "epub-metadata",
@@ -1813,6 +1964,7 @@
         "index": {
           "description": "package spine itemref tag",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "SpineItemref",
           "package": "epub-metadata",
@@ -1826,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1835,6 +1988,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -1848,6 +2002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "SpineItemref",
           "package": "epub-metadata",
@@ -1857,6 +2012,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "SpineItemref",
           "package": "epub-metadata",
@@ -1871,6 +2027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eidref attribute. Must reference an item in the manifest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "siIdRef",
           "package": "epub-metadata",
@@ -1881,6 +2038,7 @@
         "index": {
           "description": "idref attribute Must reference an item in the manifest",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "siIdRef",
           "package": "epub-metadata",
@@ -1895,6 +2053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elinear attribute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "siLinear",
           "package": "epub-metadata",
@@ -1905,6 +2064,7 @@
         "index": {
           "description": "linear attribute",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "siLinear",
           "package": "epub-metadata",
@@ -1919,6 +2079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eat least one required\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "spineItemrefs",
           "package": "epub-metadata",
@@ -1929,6 +2090,7 @@
         "index": {
           "description": "at least one required",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "spineItemrefs",
           "normalized": "[SpineItemref]",
@@ -1945,6 +2107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoc attribute. Must reference the NCX in the manifest\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Data.Spine",
           "name": "spineToc",
           "package": "epub-metadata",
@@ -1955,6 +2118,7 @@
         "index": {
           "description": "toc attribute Must reference the NCX in the manifest",
           "hierarchy": "Codec Epub Data Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Data.Spine",
           "name": "spineToc",
           "package": "epub-metadata",
@@ -1969,6 +2133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub guide info\n\u003c/p\u003e\u003cp\u003eUsed internally by Codec.Epub.Format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -1978,6 +2143,7 @@
         "index": {
           "description": "Module for pretty-printing epub guide info Used internally by Codec.Epub.Format",
           "hierarchy": "Codec Epub Format Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -1992,6 +2158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an epub Guide structure for pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Guide",
           "name": "formatGuide",
           "package": "epub-metadata",
@@ -2002,6 +2169,7 @@
         "index": {
           "description": "Format an epub Guide structure for pretty printing",
           "hierarchy": "Codec Epub Format Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Guide",
           "name": "formatGuide",
           "normalized": "[GuideRef]-\u003eString",
@@ -2018,6 +2186,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub manifest info\n\u003c/p\u003e\u003cp\u003eUsed internally by Codec.Epub.Format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -2027,6 +2196,7 @@
         "index": {
           "description": "Module for pretty-printing epub manifest info Used internally by Codec.Epub.Format",
           "hierarchy": "Codec Epub Format Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -2041,6 +2211,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an epub Manifest structure for pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Manifest",
           "name": "formatManifest",
           "package": "epub-metadata",
@@ -2051,6 +2222,7 @@
         "index": {
           "description": "Format an epub Manifest structure for pretty printing",
           "hierarchy": "Codec Epub Format Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Manifest",
           "name": "formatManifest",
           "normalized": "Manifest-\u003eString",
@@ -2067,6 +2239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub metadata info\n\u003c/p\u003e\u003cp\u003eUsed internally by Codec.Epub.Format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -2076,6 +2249,7 @@
         "index": {
           "description": "Module for pretty-printing epub metadata info Used internally by Codec.Epub.Format",
           "hierarchy": "Codec Epub Format Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -2090,6 +2264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an epub Metadata structure for pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Metadata",
           "name": "formatMetadata",
           "package": "epub-metadata",
@@ -2100,6 +2275,7 @@
         "index": {
           "description": "Format an epub Metadata structure for pretty printing",
           "hierarchy": "Codec Epub Format Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Metadata",
           "name": "formatMetadata",
           "normalized": "Metadata-\u003eString",
@@ -2116,6 +2292,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub package info\n\u003c/p\u003e\u003cp\u003eUsed internally by Codec.Epub.Format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -2125,6 +2302,7 @@
         "index": {
           "description": "Module for pretty-printing epub package info Used internally by Codec.Epub.Format",
           "hierarchy": "Codec Epub Format Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -2139,6 +2317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an epub Package structure for pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Package",
           "name": "formatPackage",
           "package": "epub-metadata",
@@ -2149,6 +2328,7 @@
         "index": {
           "description": "Format an epub Package structure for pretty printing",
           "hierarchy": "Codec Epub Format Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Package",
           "name": "formatPackage",
           "normalized": "Package-\u003eString",
@@ -2165,6 +2345,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub spine info\n\u003c/p\u003e\u003cp\u003eUsed internally by Codec.Epub.Format\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -2174,6 +2355,7 @@
         "index": {
           "description": "Module for pretty-printing epub spine info Used internally by Codec.Epub.Format",
           "hierarchy": "Codec Epub Format Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -2188,6 +2370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat an epub Spine structure for pretty printing\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Spine",
           "name": "formatSpine",
           "package": "epub-metadata",
@@ -2198,6 +2381,7 @@
         "index": {
           "description": "Format an epub Spine structure for pretty printing",
           "hierarchy": "Codec Epub Format Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Spine",
           "name": "formatSpine",
           "normalized": "Spine-\u003eString",
@@ -2214,6 +2398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtility functions shared by several formatting modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Util",
           "name": "Util",
           "package": "epub-metadata",
@@ -2223,6 +2408,7 @@
         "index": {
           "description": "Utility functions shared by several formatting modules",
           "hierarchy": "Codec Epub Format Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Util",
           "name": "Util",
           "package": "epub-metadata",
@@ -2237,6 +2423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral-purpose finite sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Util",
           "name": "Seq",
           "package": "epub-metadata",
@@ -2245,6 +2432,7 @@
         "index": {
           "description": "General-purpose finite sequences",
           "hierarchy": "Codec Epub Format Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Util",
           "name": "Seq",
           "package": "epub-metadata",
@@ -2258,6 +2446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Util",
           "name": "formatSubline",
           "package": "epub-metadata",
@@ -2267,6 +2456,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Format Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Util",
           "name": "formatSubline",
           "normalized": "String-\u003eMaybe String-\u003eString",
@@ -2282,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format.Util",
           "name": "tellSeq",
           "package": "epub-metadata",
@@ -2291,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Format Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format.Util",
           "name": "tellSeq",
           "normalized": "[a]-\u003eb()",
@@ -2307,6 +2499,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for pretty-printing epub meta-information\n\u003c/p\u003e\u003cp\u003eDefined here is the Formattable typeclass and instances for the\n   top-level epub data structures. The intention is that consumers\n   use the format function on any of these otherwise disparate types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format",
           "name": "Format",
           "package": "epub-metadata",
@@ -2316,6 +2509,7 @@
         "index": {
           "description": "Module for pretty-printing epub meta-information Defined here is the Formattable typeclass and instances for the top-level epub data structures The intention is that consumers use the format function on any of these otherwise disparate types",
           "hierarchy": "Codec Epub Format",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format",
           "name": "Format",
           "package": "epub-metadata",
@@ -2329,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format",
           "name": "Formattable",
           "package": "epub-metadata",
@@ -2337,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Format",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format",
           "name": "Formattable",
           "package": "epub-metadata",
@@ -2350,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Format",
           "name": "format",
           "package": "epub-metadata",
@@ -2359,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Format",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Format",
           "name": "format",
           "normalized": "a-\u003eString",
@@ -2374,6 +2572,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for performing some IO operations on epub files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "IO",
           "package": "epub-metadata",
@@ -2383,6 +2582,7 @@
         "index": {
           "description": "Functions for performing some IO operations on epub files",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "IO",
           "package": "epub-metadata",
@@ -2397,6 +2597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path and contents of the epub Package Document from\n   a ByteString representing an epub (zip) file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromBS",
           "package": "epub-metadata",
@@ -2406,6 +2607,7 @@
         "index": {
           "description": "Get the path and contents of the epub Package Document from ByteString representing an epub zip file",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromBS",
           "normalized": "ByteString-\u003ea(FilePath,String)",
@@ -2422,6 +2624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path and contents of the epub Package Document from\n   a directory containing the files from an epub file (as in:\n   it's been unzipped into a dir)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromDir",
           "package": "epub-metadata",
@@ -2431,6 +2634,7 @@
         "index": {
           "description": "Get the path and contents of the epub Package Document from directory containing the files from an epub file as in it been unzipped into dir",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromDir",
           "normalized": "FilePath-\u003ea(FilePath,String)",
@@ -2447,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the path and contents of the epub Package Document from\n   an epub (zip) file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromZip",
           "package": "epub-metadata",
@@ -2456,6 +2661,7 @@
         "index": {
           "description": "Get the path and contents of the epub Package Document from an epub zip file",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "getPkgPathXmlFromZip",
           "normalized": "FilePath-\u003ea(FilePath,String)",
@@ -2472,6 +2678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the contents of the epub Package Document from an epub (zip) file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "getPkgXmlFromZip",
           "package": "epub-metadata",
@@ -2481,6 +2688,7 @@
         "index": {
           "description": "Get the contents of the epub Package Document from an epub zip file",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "getPkgXmlFromZip",
           "normalized": "FilePath-\u003ea String",
@@ -2497,6 +2705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a zip Archive containing epub book data from the \n     specified directory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "mkEpubArchive",
           "package": "epub-metadata",
@@ -2507,6 +2716,7 @@
         "index": {
           "description": "Construct zip Archive containing epub book data from the specified directory",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "mkEpubArchive",
           "normalized": "FilePath-\u003eIO Archive",
@@ -2523,6 +2733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a zip Archive from disk\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "readArchive",
           "package": "epub-metadata",
@@ -2533,6 +2744,7 @@
         "index": {
           "description": "Read zip Archive from disk",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "readArchive",
           "normalized": "FilePath-\u003eIO Archive",
@@ -2549,6 +2761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a zip Archive to disk using the specified filename\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.IO",
           "name": "writeArchive",
           "package": "epub-metadata",
@@ -2559,6 +2772,7 @@
         "index": {
           "description": "Write zip Archive to disk using the specified filename",
           "hierarchy": "Codec Epub IO",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.IO",
           "name": "writeArchive",
           "normalized": "FilePath-\u003eArchive-\u003eIO()",
@@ -2575,6 +2789,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for the guide section of the OPF Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -2584,6 +2799,7 @@
         "index": {
           "description": "Parsing for the guide section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Guide",
           "name": "Guide",
           "package": "epub-metadata",
@@ -2597,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Guide",
           "name": "guideP",
           "package": "epub-metadata",
@@ -2606,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Guide",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Guide",
           "name": "guideP",
           "normalized": "a(NTree XNode)[GuideRef]",
@@ -2621,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for the manifest section of the OPF Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -2630,6 +2849,7 @@
         "index": {
           "description": "Parsing for the manifest section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Manifest",
           "name": "Manifest",
           "package": "epub-metadata",
@@ -2643,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Manifest",
           "name": "manifestP",
           "package": "epub-metadata",
@@ -2652,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Manifest",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Manifest",
           "name": "manifestP",
           "package": "epub-metadata",
@@ -2665,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for the metadata section of the OPF Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -2674,6 +2897,7 @@
         "index": {
           "description": "Parsing for the metadata section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Metadata",
           "name": "Metadata",
           "package": "epub-metadata",
@@ -2687,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Metadata",
           "name": "metadataP",
           "package": "epub-metadata",
@@ -2696,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Metadata",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Metadata",
           "name": "metadataP",
           "normalized": "[Refinement]-\u003ea(NTree XNode)Metadata",
@@ -2711,6 +2937,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for the package section of the OPF Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -2720,6 +2947,7 @@
         "index": {
           "description": "Parsing for the package section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Package",
           "name": "Package",
           "package": "epub-metadata",
@@ -2733,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Package",
           "name": "packageP",
           "package": "epub-metadata",
@@ -2742,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Package",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Package",
           "name": "packageP",
           "package": "epub-metadata",
@@ -2755,6 +2985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for meta tags in the metadata section of the OPF\n   Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Refinements",
           "name": "Refinements",
           "package": "epub-metadata",
@@ -2764,6 +2995,7 @@
         "index": {
           "description": "Parsing for meta tags in the metadata section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Refinements",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Refinements",
           "name": "Refinements",
           "package": "epub-metadata",
@@ -2777,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Refinements",
           "name": "refinementsP",
           "package": "epub-metadata",
@@ -2786,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Refinements",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Refinements",
           "name": "refinementsP",
           "normalized": "a(NTree XNode)[Refinement]",
@@ -2801,6 +3035,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing for the spine section of the OPF Package XML Document\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -2810,6 +3045,7 @@
         "index": {
           "description": "Parsing for the spine section of the OPF Package XML Document",
           "hierarchy": "Codec Epub Parse Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Spine",
           "name": "Spine",
           "package": "epub-metadata",
@@ -2823,6 +3059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Spine",
           "name": "spineP",
           "package": "epub-metadata",
@@ -2832,6 +3069,7 @@
         },
         "index": {
           "hierarchy": "Codec Epub Parse Spine",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Spine",
           "name": "spineP",
           "package": "epub-metadata",
@@ -2845,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHelper functions used by the other parsing modules\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "Util",
           "package": "epub-metadata",
@@ -2854,6 +3093,7 @@
         "index": {
           "description": "Helper functions used by the other parsing modules",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "Util",
           "package": "epub-metadata",
@@ -2868,6 +3108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut arrow to drill down to a specific namespaced child\n   element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "atQTag",
           "package": "epub-metadata",
@@ -2878,6 +3119,7 @@
         "index": {
           "description": "Shortcut arrow to drill down to specific namespaced child element",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "atQTag",
           "normalized": "QName-\u003ea(NTree XNode)XmlTree",
@@ -2894,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a qualified name in the Dublin Core namespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "dcName",
           "package": "epub-metadata",
@@ -2904,6 +3147,7 @@
         "index": {
           "description": "Construct qualified name in the Dublin Core namespace",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "dcName",
           "normalized": "String-\u003eQName",
@@ -2920,6 +3164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut arrow to retrieve an attribute of an element as a\n   Maybe String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbGetAttrValue",
           "package": "epub-metadata",
@@ -2930,6 +3175,7 @@
         "index": {
           "description": "Shortcut arrow to retrieve an attribute of an element as Maybe String",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbGetAttrValue",
           "normalized": "String-\u003ea XmlTree(Maybe String)",
@@ -2946,6 +3192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut arrow to retrieve an attribute of a namespaced element\n   as a Maybe String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbGetQAttrValue",
           "package": "epub-metadata",
@@ -2956,6 +3203,7 @@
         "index": {
           "description": "Shortcut arrow to retrieve an attribute of namespaced element as Maybe String",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbGetQAttrValue",
           "normalized": "QName-\u003ea XmlTree(Maybe String)",
@@ -2972,6 +3220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut arrow to retrieve the contents of a namespaced element\n   as a Maybe String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbQTagText",
           "package": "epub-metadata",
@@ -2982,6 +3231,7 @@
         "index": {
           "description": "Shortcut arrow to retrieve the contents of namespaced element as Maybe String",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "mbQTagText",
           "normalized": "QName-\u003ea(NTree XNode)(Maybe String)",
@@ -2998,6 +3248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArrow that succeeds if the input is not the empty list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "notNullA",
           "package": "epub-metadata",
@@ -3008,6 +3259,7 @@
         "index": {
           "description": "Arrow that succeeds if the input is not the empty list",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "notNullA",
           "normalized": "a[b][b]",
@@ -3024,6 +3276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a qualified name in the epub OPF namespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "opfName",
           "package": "epub-metadata",
@@ -3034,6 +3287,7 @@
         "index": {
           "description": "Construct qualified name in the epub OPF namespace",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "opfName",
           "normalized": "String-\u003eQName",
@@ -3050,6 +3304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShortcut arrow to gather up the text part of all child nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "text",
           "package": "epub-metadata",
@@ -3060,6 +3315,7 @@
         "index": {
           "description": "Shortcut arrow to gather up the text part of all child nodes",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "text",
           "package": "epub-metadata",
@@ -3073,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a qualified name in the XML namespace\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse.Util",
           "name": "xmlName",
           "package": "epub-metadata",
@@ -3083,6 +3340,7 @@
         "index": {
           "description": "Construct qualified name in the XML namespace",
           "hierarchy": "Codec Epub Parse Util",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse.Util",
           "name": "xmlName",
           "normalized": "String-\u003eQName",
@@ -3099,6 +3357,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe main parsing interface, these get* functions are intended\n   to be used by consumers of this library\n\u003c/p\u003e\u003cp\u003eThis module is called Parse because it invokes the XML parsing\n   machinery of this library, but consumers of the library do not\n   have to interact with HXT, Arrows or XML directly.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "Parse",
           "package": "epub-metadata",
@@ -3108,6 +3367,7 @@
         "index": {
           "description": "The main parsing interface these get functions are intended to be used by consumers of this library This module is called Parse because it invokes the XML parsing machinery of this library but consumers of the library do not have to interact with HXT Arrows or XML directly",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "Parse",
           "package": "epub-metadata",
@@ -3122,6 +3382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse epub guide items from a String representing the epub XML\n   Package Document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "getGuide",
           "package": "epub-metadata",
@@ -3132,6 +3393,7 @@
         "index": {
           "description": "Parse epub guide items from String representing the epub XML Package Document",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "getGuide",
           "normalized": "String-\u003ea[GuideRef]",
@@ -3148,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse epub manifest data from a String representing the epub XML\n   Package Document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "getManifest",
           "package": "epub-metadata",
@@ -3158,6 +3421,7 @@
         "index": {
           "description": "Parse epub manifest data from String representing the epub XML Package Document",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "getManifest",
           "normalized": "String-\u003ea Manifest",
@@ -3174,6 +3438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse epub metadata from a String representing the epub XML\n   Package Document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "getMetadata",
           "package": "epub-metadata",
@@ -3184,6 +3449,7 @@
         "index": {
           "description": "Parse epub metadata from String representing the epub XML Package Document",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "getMetadata",
           "normalized": "String-\u003ea Metadata",
@@ -3200,6 +3466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse epub package info from a String representing the epub XML\n   Package Document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "getPackage",
           "package": "epub-metadata",
@@ -3210,6 +3477,7 @@
         "index": {
           "description": "Parse epub package info from String representing the epub XML Package Document",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "getPackage",
           "normalized": "String-\u003ea Package",
@@ -3226,6 +3494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse epub spine info from a String representing the epub XML\n   Package Document\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub.Parse",
           "name": "getSpine",
           "package": "epub-metadata",
@@ -3236,6 +3505,7 @@
         "index": {
           "description": "Parse epub spine info from String representing the epub XML Package Document",
           "hierarchy": "Codec Epub Parse",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub.Parse",
           "name": "getSpine",
           "normalized": "String-\u003ea Spine",
@@ -3252,6 +3522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is a library for parsing and manipulating epub document metadata. Almost all of the data stored in the epub Package Document can be worked with using this API. This includes the most useful block of data, the epub metadata. This library supports epub versions 2 and 3.\n\u003c/p\u003e\u003cp\u003eThis library was constructed by studying the IDPF specifications for epub documents found here \u003ca\u003ehttp://www.idpf.org/epub/20/spec/OPF_2.0.1_draft.htm\u003c/a\u003e and here \u003ca\u003ehttp://www.idpf.org/epub/30/spec/epub30-publications.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eConsumers of epub-metadata will likely need this module, which re-exports the most useful parts concerning disk IO, parsing of the XML into Codec.Epub.Data.* data structures and formatting these data structures to be pretty-printed. Please also see Codec.Epub.Data.Metadata etc.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:24 UTC 2014",
           "module": "Codec.Epub",
           "name": "Epub",
           "package": "epub-metadata",
@@ -3261,6 +3532,7 @@
         "index": {
           "description": "This is library for parsing and manipulating epub document metadata Almost all of the data stored in the epub Package Document can be worked with using this API This includes the most useful block of data the epub metadata This library supports epub versions and This library was constructed by studying the IDPF specifications for epub documents found here http www.idpf.org epub spec OPF draft.htm and here http www.idpf.org epub spec epub30-publications.html Consumers of epub-metadata will likely need this module which re-exports the most useful parts concerning disk IO parsing of the XML into Codec.Epub.Data data structures and formatting these data structures to be pretty-printed Please also see Codec.Epub.Data.Metadata etc",
           "hierarchy": "Codec Epub",
+          "indexed": "2014-03-11T18:03:24",
           "module": "Codec.Epub",
           "name": "Epub",
           "package": "epub-metadata",

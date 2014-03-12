@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "language-dot"
+        "phrase": "language-dot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Parser",
           "name": "Parser",
           "package": "language-dot",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Parser",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Parser",
           "name": "Parser",
           "package": "language-dot",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Parser",
           "name": "parseDot",
           "package": "language-dot",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Parser",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Parser",
           "name": "parseDot",
           "normalized": "String-\u003eString-\u003eEither ParseError Graph",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Pretty",
           "name": "Pretty",
           "package": "language-dot",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Pretty",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Pretty",
           "name": "Pretty",
           "package": "language-dot",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Pretty",
           "name": "PP",
           "package": "language-dot",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Pretty",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Pretty",
           "name": "PP",
           "package": "language-dot",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Pretty",
           "name": "pp",
           "package": "language-dot",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Pretty",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Pretty",
           "name": "pp",
           "normalized": "a-\u003eDoc",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Pretty",
           "name": "prettyPrintDot",
           "package": "language-dot",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Pretty",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Pretty",
           "name": "prettyPrintDot",
           "normalized": "Graph-\u003eDoc",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Pretty",
           "name": "renderDot",
           "package": "language-dot",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Pretty",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Pretty",
           "name": "renderDot",
           "normalized": "Graph-\u003eString",
@@ -176,6 +190,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDOT AST. See \u003ca\u003ehttp://www.graphviz.org/doc/info/lang.html\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Syntax",
           "package": "language-dot",
@@ -185,6 +200,7 @@
         "index": {
           "description": "DOT AST See http www.graphviz.org doc info lang.html",
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Syntax",
           "package": "language-dot",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Attribute",
           "package": "language-dot",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Attribute",
           "package": "language-dot",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "AttributeStatementType",
           "package": "language-dot",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "AttributeStatementType",
           "package": "language-dot",
@@ -240,6 +260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Compass",
           "package": "language-dot",
@@ -248,6 +269,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Compass",
           "package": "language-dot",
@@ -261,6 +283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "EdgeType",
           "package": "language-dot",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "EdgeType",
           "package": "language-dot",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Entity",
           "package": "language-dot",
@@ -290,6 +315,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Entity",
           "package": "language-dot",
@@ -303,6 +329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Graph",
           "package": "language-dot",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Graph",
           "package": "language-dot",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "GraphDirectedness",
           "package": "language-dot",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "GraphDirectedness",
           "package": "language-dot",
@@ -345,6 +375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "GraphStrictness",
           "package": "language-dot",
@@ -353,6 +384,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "GraphStrictness",
           "package": "language-dot",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Id",
           "package": "language-dot",
@@ -374,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Id",
           "package": "language-dot",
@@ -387,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NodeId",
           "package": "language-dot",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NodeId",
           "package": "language-dot",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Port",
           "package": "language-dot",
@@ -416,6 +453,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Port",
           "package": "language-dot",
@@ -429,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Statement",
           "package": "language-dot",
@@ -437,6 +476,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Statement",
           "package": "language-dot",
@@ -450,6 +490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Subgraph",
           "package": "language-dot",
@@ -458,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Subgraph",
           "package": "language-dot",
@@ -471,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Xml",
           "package": "language-dot",
@@ -479,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Xml",
           "package": "language-dot",
@@ -492,6 +536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttribute",
           "package": "language-dot",
@@ -500,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttribute",
           "package": "language-dot",
@@ -513,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttributeValue",
           "package": "language-dot",
@@ -521,6 +568,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttributeValue",
           "package": "language-dot",
@@ -534,6 +582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlName",
           "package": "language-dot",
@@ -542,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlName",
           "package": "language-dot",
@@ -555,6 +605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "AssignmentStatement",
           "package": "language-dot",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "AssignmentStatement",
           "package": "language-dot",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "AttributeSetTrue",
           "package": "language-dot",
@@ -586,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "AttributeSetTrue",
           "package": "language-dot",
@@ -599,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "AttributeSetValue",
           "package": "language-dot",
@@ -608,6 +663,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "AttributeSetValue",
           "package": "language-dot",
@@ -621,6 +677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "AttributeStatement",
           "package": "language-dot",
@@ -630,6 +687,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "AttributeStatement",
           "normalized": "AttributeStatement AttributeStatementType[Attribute]",
@@ -645,6 +703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassE",
           "package": "language-dot",
@@ -654,6 +713,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassE",
           "package": "language-dot",
@@ -667,6 +727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassN",
           "package": "language-dot",
@@ -676,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassN",
           "package": "language-dot",
@@ -689,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassNE",
           "package": "language-dot",
@@ -698,6 +761,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassNE",
           "package": "language-dot",
@@ -711,6 +775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassNW",
           "package": "language-dot",
@@ -720,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassNW",
           "package": "language-dot",
@@ -733,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassS",
           "package": "language-dot",
@@ -742,6 +809,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassS",
           "package": "language-dot",
@@ -755,6 +823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassSE",
           "package": "language-dot",
@@ -764,6 +833,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassSE",
           "package": "language-dot",
@@ -777,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassSW",
           "package": "language-dot",
@@ -786,6 +857,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassSW",
           "package": "language-dot",
@@ -799,6 +871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "CompassW",
           "package": "language-dot",
@@ -808,6 +881,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "CompassW",
           "package": "language-dot",
@@ -821,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "DirectedEdge",
           "package": "language-dot",
@@ -830,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "DirectedEdge",
           "package": "language-dot",
@@ -843,6 +919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "DirectedGraph",
           "package": "language-dot",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "DirectedGraph",
           "package": "language-dot",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "ENodeId",
           "package": "language-dot",
@@ -874,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "ENodeId",
           "package": "language-dot",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "ESubgraph",
           "package": "language-dot",
@@ -896,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "ESubgraph",
           "package": "language-dot",
@@ -909,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "EdgeAttributeStatement",
           "package": "language-dot",
@@ -918,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "EdgeAttributeStatement",
           "package": "language-dot",
@@ -931,6 +1015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "EdgeStatement",
           "package": "language-dot",
@@ -940,6 +1025,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "EdgeStatement",
           "normalized": "EdgeStatement[Entity][Attribute]",
@@ -955,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "FloatId",
           "package": "language-dot",
@@ -964,6 +1051,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "FloatId",
           "package": "language-dot",
@@ -977,6 +1065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "Graph",
           "package": "language-dot",
@@ -986,6 +1075,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "Graph",
           "normalized": "Graph GraphStrictness GraphDirectedness(Maybe Id)[Statement]",
@@ -1001,6 +1091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "GraphAttributeStatement",
           "package": "language-dot",
@@ -1010,6 +1101,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "GraphAttributeStatement",
           "package": "language-dot",
@@ -1023,6 +1115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "IntegerId",
           "package": "language-dot",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "IntegerId",
           "package": "language-dot",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NameId",
           "package": "language-dot",
@@ -1054,6 +1149,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NameId",
           "package": "language-dot",
@@ -1067,6 +1163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NewSubgraph",
           "package": "language-dot",
@@ -1076,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NewSubgraph",
           "normalized": "NewSubgraph(Maybe Id)[Statement]",
@@ -1091,6 +1189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NoEdge",
           "package": "language-dot",
@@ -1100,6 +1199,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NoEdge",
           "package": "language-dot",
@@ -1113,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NodeAttributeStatement",
           "package": "language-dot",
@@ -1122,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NodeAttributeStatement",
           "package": "language-dot",
@@ -1135,6 +1237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NodeId",
           "package": "language-dot",
@@ -1144,6 +1247,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NodeId",
           "package": "language-dot",
@@ -1157,6 +1261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "NodeStatement",
           "package": "language-dot",
@@ -1166,6 +1271,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "NodeStatement",
           "normalized": "NodeStatement NodeId[Attribute]",
@@ -1181,6 +1287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "PortC",
           "package": "language-dot",
@@ -1190,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "PortC",
           "package": "language-dot",
@@ -1203,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "PortI",
           "package": "language-dot",
@@ -1212,6 +1321,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "PortI",
           "package": "language-dot",
@@ -1225,6 +1335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "StrictGraph",
           "package": "language-dot",
@@ -1234,6 +1345,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "StrictGraph",
           "package": "language-dot",
@@ -1247,6 +1359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "StringId",
           "package": "language-dot",
@@ -1256,6 +1369,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "StringId",
           "package": "language-dot",
@@ -1269,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "SubgraphRef",
           "package": "language-dot",
@@ -1278,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "SubgraphRef",
           "package": "language-dot",
@@ -1291,6 +1407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "SubgraphStatement",
           "package": "language-dot",
@@ -1300,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "SubgraphStatement",
           "package": "language-dot",
@@ -1313,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "UndirectedEdge",
           "package": "language-dot",
@@ -1322,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "UndirectedEdge",
           "package": "language-dot",
@@ -1335,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "UndirectedGraph",
           "package": "language-dot",
@@ -1344,6 +1465,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "UndirectedGraph",
           "package": "language-dot",
@@ -1357,6 +1479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "UnstrictGraph",
           "package": "language-dot",
@@ -1366,6 +1489,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "UnstrictGraph",
           "package": "language-dot",
@@ -1379,6 +1503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttribute",
           "package": "language-dot",
@@ -1388,6 +1513,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttribute",
           "package": "language-dot",
@@ -1401,6 +1527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttributeValue",
           "package": "language-dot",
@@ -1410,6 +1537,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlAttributeValue",
           "package": "language-dot",
@@ -1423,6 +1551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlEmptyTag",
           "package": "language-dot",
@@ -1432,6 +1561,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlEmptyTag",
           "normalized": "XmlEmptyTag XmlName[XmlAttribute]",
@@ -1447,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlId",
           "package": "language-dot",
@@ -1456,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlId",
           "package": "language-dot",
@@ -1469,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlName",
           "package": "language-dot",
@@ -1478,6 +1611,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlName",
           "package": "language-dot",
@@ -1491,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlTag",
           "package": "language-dot",
@@ -1500,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlTag",
           "normalized": "XmlTag XmlName[XmlAttribute][Xml]",
@@ -1515,6 +1651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot.Syntax",
           "name": "XmlText",
           "package": "language-dot",
@@ -1524,6 +1661,7 @@
         },
         "index": {
           "hierarchy": "Language Dot Syntax",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot.Syntax",
           "name": "XmlText",
           "package": "language-dot",
@@ -1537,6 +1675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:05:14 UTC 2014",
           "module": "Language.Dot",
           "name": "Dot",
           "package": "language-dot",
@@ -1545,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Language Dot",
+          "indexed": "2014-03-11T19:05:14",
           "module": "Language.Dot",
           "name": "Dot",
           "package": "language-dot",

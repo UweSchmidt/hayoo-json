@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sexp-show"
+        "phrase": "sexp-show",
+        "type": "phrase"
       },
       "type": "context"
     }

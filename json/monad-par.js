@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-par"
+        "phrase": "monad-par",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is an alternative version of \u003ca\u003eControl.Monad.Par\u003c/a\u003e in\n   which the \u003ccode\u003e\u003ca\u003ePar\u003c/a\u003e\u003c/code\u003e type provides \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e operations, by means of \u003ccode\u003e\u003ca\u003eliftIO\u003c/a\u003e\u003c/code\u003e.\n   The price paid is that only \u003ccode\u003e\u003ca\u003erunParIO\u003c/a\u003e\u003c/code\u003e is available, not the pure \u003ccode\u003erunPar\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis module uses the same default scheduler as \u003ca\u003eControl.Monad.Par\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.IO",
           "name": "IO",
           "package": "monad-par",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module is an alternative version of Control.Monad.Par in which the Par type provides IO operations by means of liftIO The price paid is that only runParIO is available not the pure runPar This module uses the same default scheduler as Control.Monad.Par",
           "hierarchy": "Control Monad Par IO",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.IO",
           "name": "IO",
           "package": "monad-par",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.IO",
           "name": "IVar",
           "package": "monad-par",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par IO",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.IO",
           "name": "IVar",
           "package": "monad-par",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around an underlying Par type which allows IO.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.IO",
           "name": "ParIO",
           "package": "monad-par",
@@ -72,6 +77,7 @@
         "index": {
           "description": "wrapper around an underlying Par type which allows IO",
           "hierarchy": "Control Monad Par IO",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.IO",
           "name": "ParIO",
           "package": "monad-par",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA run method which allows actual IO to occur on top of the Par\n   monad.  Of course this means that all the normal problems of\n   parallel IO computations are present, including nondeterminsm.\n\u003c/p\u003e\u003cp\u003eA simple example program:\n\u003c/p\u003e\u003cpre\u003e  runParIO (liftIO $ putStrLn \"hi\" :: ParIO ())\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.IO",
           "name": "runParIO",
           "package": "monad-par",
@@ -96,6 +103,7 @@
         "index": {
           "description": "run method which allows actual IO to occur on top of the Par monad Of course this means that all the normal problems of parallel IO computations are present including nondeterminsm simple example program runParIO liftIO putStrLn hi ParIO",
           "hierarchy": "Control Monad Par IO",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.IO",
           "name": "runParIO",
           "normalized": "ParIO a-\u003eIO a",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA scheduler for the Par monad based on directly performing IO\n actions when Par methods are called (i.e. without using a lazy\n trace data structure).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Direct",
           "package": "monad-par",
@@ -121,6 +130,7 @@
         "index": {
           "description": "scheduler for the Par monad based on directly performing IO actions when Par methods are called i.e without using lazy trace data structure",
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Direct",
           "package": "monad-par",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVar",
           "package": "monad-par",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVar",
           "package": "monad-par",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVarContents",
           "package": "monad-par",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVarContents",
           "package": "monad-par",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Par",
           "package": "monad-par",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Par",
           "package": "monad-par",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Sched",
           "package": "monad-par",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Sched",
           "package": "monad-par",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Blocked",
           "package": "monad-par",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Blocked",
           "normalized": "Blocked[a-\u003eIO()]",
@@ -242,6 +262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Empty",
           "package": "monad-par",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Empty",
           "package": "monad-par",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Full",
           "package": "monad-par",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Full",
           "package": "monad-par",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVar",
           "package": "monad-par",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "IVar",
           "package": "monad-par",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Sched",
           "package": "monad-par",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "Sched",
           "package": "monad-par",
@@ -330,6 +358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "activeSessions",
           "package": "monad-par",
@@ -339,6 +368,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "activeSessions",
           "package": "monad-par",
@@ -352,6 +382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "fork",
           "package": "monad-par",
@@ -361,6 +392,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "fork",
           "normalized": "Par()-\u003ePar()",
@@ -376,6 +408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread the value in a \u003ccode\u003eIVar\u003c/code\u003e.  The \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e can only return when the\n value has been written by a prior or parallel \u003ccode\u003eput\u003c/code\u003e to the same\n \u003ccode\u003eIVar\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "get",
           "package": "monad-par",
@@ -386,6 +419,7 @@
         "index": {
           "description": "read the value in IVar The get can only return when the value has been written by prior or parallel put to the same IVar",
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "get",
           "normalized": "IVar a-\u003ePar a",
@@ -400,6 +434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "idle",
           "package": "monad-par",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "idle",
           "normalized": "HotVar[MVar Bool]",
@@ -423,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "isMain",
           "package": "monad-par",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "isMain",
           "package": "monad-par",
@@ -446,6 +484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a new \u003ccode\u003eIVar\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "new",
           "package": "monad-par",
@@ -456,6 +495,7 @@
         "index": {
           "description": "creates new IVar",
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "new",
           "package": "monad-par",
@@ -468,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "newFull",
           "package": "monad-par",
@@ -477,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "newFull",
           "normalized": "a-\u003ePar(IVar a)",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "newFull_",
           "package": "monad-par",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "newFull_",
           "normalized": "a-\u003ePar(IVar a)",
@@ -516,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "no",
           "package": "monad-par",
@@ -525,6 +570,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "no",
           "package": "monad-par",
@@ -537,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "put",
           "package": "monad-par",
@@ -546,6 +593,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "put",
           "normalized": "IVar a-\u003ea-\u003ePar()",
@@ -561,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eput_\u003c/code\u003e is a version of \u003ccode\u003eput\u003c/code\u003e that is head-strict rather than fully-strict.\n   In this scheduler, puts immediately execute woken work in the current thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "put_",
           "package": "monad-par",
@@ -571,6 +620,7 @@
         "index": {
           "description": "put is version of put that is head-strict rather than fully-strict In this scheduler puts immediately execute woken work in the current thread",
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "put_",
           "normalized": "IVar a-\u003ea-\u003ePar()",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "rng",
           "package": "monad-par",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "rng",
           "package": "monad-par",
@@ -606,6 +658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "runPar",
           "package": "monad-par",
@@ -615,6 +668,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "runPar",
           "normalized": "Par a-\u003ea",
@@ -630,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "runParIO",
           "package": "monad-par",
@@ -639,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "runParIO",
           "normalized": "Par a-\u003eIO a",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "scheds",
           "package": "monad-par",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "scheds",
           "normalized": "[Sched]",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "sessionCounter",
           "package": "monad-par",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "sessionCounter",
           "package": "monad-par",
@@ -699,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "sessions",
           "package": "monad-par",
@@ -708,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "sessions",
           "normalized": "HotVar[Session]",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn",
           "package": "monad-par",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn",
           "normalized": "Par a-\u003ePar(IVar a)",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn1_",
           "package": "monad-par",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn1_",
           "normalized": "(a-\u003ePar b)-\u003ea-\u003ePar(IVar b)",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawnP",
           "package": "monad-par",
@@ -777,6 +844,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawnP",
           "normalized": "a-\u003ePar(IVar a)",
@@ -791,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn_",
           "package": "monad-par",
@@ -800,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "spawn_",
           "normalized": "Par a-\u003ePar(IVar a)",
@@ -814,6 +884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "workpool",
           "package": "monad-par",
@@ -823,6 +894,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Direct",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Direct",
           "name": "workpool",
           "normalized": "WSDeque(Par())",
@@ -838,6 +910,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis scheduler uses sparks (par/pseq) directly, but only supplies\n   the \u003ccode\u003eMonad.Par.Class.ParFuture\u003c/code\u003e interface.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Sparks",
           "package": "monad-par",
@@ -847,6 +920,7 @@
         "index": {
           "description": "This scheduler uses sparks par pseq directly but only supplies the Monad.Par.Class.ParFuture interface",
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Sparks",
           "package": "monad-par",
@@ -860,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Future",
           "package": "monad-par",
@@ -868,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Future",
           "package": "monad-par",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Par",
           "package": "monad-par",
@@ -889,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Par",
           "package": "monad-par",
@@ -902,6 +980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Done",
           "package": "monad-par",
@@ -911,6 +990,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Done",
           "package": "monad-par",
@@ -924,6 +1004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Future",
           "package": "monad-par",
@@ -933,6 +1014,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "Future",
           "package": "monad-par",
@@ -946,6 +1028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "get",
           "package": "monad-par",
@@ -955,6 +1038,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "get",
           "normalized": "Future a-\u003ePar a",
@@ -969,6 +1053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "runPar",
           "package": "monad-par",
@@ -978,6 +1063,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "runPar",
           "normalized": "Par a-\u003ea",
@@ -993,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawn",
           "package": "monad-par",
@@ -1002,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawn",
           "normalized": "Par a-\u003ePar(Future a)",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawnP",
           "package": "monad-par",
@@ -1025,6 +1114,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawnP",
           "normalized": "a-\u003ePar(Future a)",
@@ -1039,6 +1129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawn_",
           "package": "monad-par",
@@ -1048,6 +1139,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Sparks",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Sparks",
           "name": "spawn_",
           "normalized": "Par a-\u003ePar(Future a)",
@@ -1063,6 +1155,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the scheduler described in the paper \u003ca\u003eA Monad for\n     Deterministic Parallelism\u003c/a\u003e.  It is based on a lazy \u003ccode\u003eTrace\u003c/code\u003e data\n     structure that separates the scheduler from the \u003ccode\u003ePar\u003c/code\u003e monad\n     method implementations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "Trace",
           "package": "monad-par",
@@ -1072,6 +1165,7 @@
         "index": {
           "description": "This is the scheduler described in the paper Monad for Deterministic Parallelism It is based on lazy Trace data structure that separates the scheduler from the Par monad method implementations",
           "hierarchy": "Control Monad Par Scheds Trace",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "Trace",
           "package": "monad-par",
@@ -1085,6 +1179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "IVar",
           "package": "monad-par",
@@ -1093,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Trace",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "IVar",
           "package": "monad-par",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "Par",
           "package": "monad-par",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds Trace",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.Trace",
           "name": "Par",
           "package": "monad-par",
@@ -1432,6 +1530,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exposes the internals of the \u003ccode\u003ePar\u003c/code\u003e monad so that you\n can build your own scheduler or other extensions.  Do not use this\n module for purposes other than extending the \u003ccode\u003ePar\u003c/code\u003e monad with new\n functionality.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "TraceInternal",
           "package": "monad-par",
@@ -1441,6 +1540,7 @@
         "index": {
           "description": "This module exposes the internals of the Par monad so that you can build your own scheduler or other extensions Do not use this module for purposes other than extending the Par monad with new functionality",
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "TraceInternal",
           "package": "monad-par",
@@ -1454,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVar",
           "package": "monad-par",
@@ -1462,6 +1563,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVar",
           "package": "monad-par",
@@ -1475,6 +1577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVarContents",
           "package": "monad-par",
@@ -1483,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVarContents",
           "package": "monad-par",
@@ -1496,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Par",
           "package": "monad-par",
@@ -1504,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Par",
           "package": "monad-par",
@@ -1517,6 +1623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Sched",
           "package": "monad-par",
@@ -1525,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Sched",
           "package": "monad-par",
@@ -1538,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Trace",
           "package": "monad-par",
@@ -1546,6 +1655,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Trace",
           "package": "monad-par",
@@ -1559,6 +1669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Blocked",
           "package": "monad-par",
@@ -1568,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Blocked",
           "normalized": "Blocked[a-\u003eTrace]",
@@ -1583,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Done",
           "package": "monad-par",
@@ -1592,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Done",
           "package": "monad-par",
@@ -1605,6 +1719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Empty",
           "package": "monad-par",
@@ -1614,6 +1729,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Empty",
           "package": "monad-par",
@@ -1627,6 +1743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Fork",
           "package": "monad-par",
@@ -1636,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Fork",
           "package": "monad-par",
@@ -1649,6 +1767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Full",
           "package": "monad-par",
@@ -1658,6 +1777,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Full",
           "package": "monad-par",
@@ -1671,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Get",
           "package": "monad-par",
@@ -1680,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Get",
           "normalized": "a b Get(IVar b)(b-\u003eTrace)",
@@ -1695,6 +1817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVar",
           "package": "monad-par",
@@ -1704,6 +1827,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "IVar",
           "package": "monad-par",
@@ -1717,6 +1841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "LiftIO",
           "package": "monad-par",
@@ -1726,6 +1851,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "LiftIO",
           "normalized": "a b LiftIO(IO b)(b-\u003eTrace)",
@@ -1741,6 +1867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "New",
           "package": "monad-par",
@@ -1750,6 +1877,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "New",
           "normalized": "a b New(IVarContents b)(IVar b-\u003eTrace)",
@@ -1765,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Par",
           "package": "monad-par",
@@ -1774,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Par",
           "package": "monad-par",
@@ -1787,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Put",
           "package": "monad-par",
@@ -1796,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Put",
           "package": "monad-par",
@@ -1809,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Sched",
           "package": "monad-par",
@@ -1818,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Sched",
           "package": "monad-par",
@@ -1831,6 +1965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Yield",
           "package": "monad-par",
@@ -1840,6 +1975,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "Yield",
           "package": "monad-par",
@@ -1853,6 +1989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "idle",
           "package": "monad-par",
@@ -1862,6 +1999,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "idle",
           "normalized": "IORef[MVar Bool]",
@@ -1876,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "no",
           "package": "monad-par",
@@ -1885,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "no",
           "package": "monad-par",
@@ -1897,6 +2037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "pollIVar",
           "package": "monad-par",
@@ -1906,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "pollIVar",
           "normalized": "IVar a-\u003eIO(Maybe a)",
@@ -1921,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "runCont",
           "package": "monad-par",
@@ -1930,6 +2073,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "runCont",
           "normalized": "(a-\u003eTrace)-\u003eTrace",
@@ -1946,6 +2090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn asynchronous version in which the main thread of control in a\n Par computation can return while forked computations still run in\n the background.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "runParAsync",
           "package": "monad-par",
@@ -1956,6 +2101,7 @@
         "index": {
           "description": "An asynchronous version in which the main thread of control in Par computation can return while forked computations still run in the background",
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "runParAsync",
           "normalized": "Par a-\u003ea",
@@ -1972,6 +2118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main scheduler loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "sched",
           "package": "monad-par",
@@ -1982,6 +2129,7 @@
         "index": {
           "description": "The main scheduler loop",
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "sched",
           "normalized": "Bool-\u003eSched-\u003eTrace-\u003eIO()",
@@ -1996,6 +2144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "scheds",
           "package": "monad-par",
@@ -2005,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "scheds",
           "normalized": "[Sched]",
@@ -2019,6 +2169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "workpool",
           "package": "monad-par",
@@ -2028,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "workpool",
           "normalized": "IORef[Trace]",
@@ -2043,6 +2195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows other parallel computations to progress.  (should not be\n necessary in most cases).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "yield",
           "package": "monad-par",
@@ -2053,6 +2206,7 @@
         "index": {
           "description": "Allows other parallel computations to progress should not be necessary in most cases",
           "hierarchy": "Control Monad Par Scheds TraceInternal",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par.Scheds.TraceInternal",
           "name": "yield",
           "normalized": "Par()",
@@ -2068,6 +2222,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe \u003ccode\u003emonad-par\u003c/code\u003e package provides a family of \u003ccode\u003ePar\u003c/code\u003e monads, for\n  speeding up pure computations using parallel processors.  (for a similar\n  programming model for use with \u003ccode\u003eIO\u003c/code\u003e, see \u003ca\u003eControl.Monad.Par.IO\u003c/a\u003e.)\n\u003c/p\u003e\u003cp\u003eThe result of a given \u003ccode\u003ePar\u003c/code\u003e computation is always the same - i.e. it\n  is deterministic, but the computation may be performed more quickly\n  if there are processors available to share the work.\n\u003c/p\u003e\u003cp\u003eFor example, the following program fragment computes the values of\n  \u003ccode\u003e(f x)\u003c/code\u003e and \u003ccode\u003e(g x)\u003c/code\u003e in parallel, and returns a pair of their results:\n\u003c/p\u003e\u003cpre\u003e  runPar $ do\n      fx \u003c- spawn (return (f x))  -- start evaluating (f x)\n      gx \u003c- spawn (return (g x))  -- start evaluating (g x)\n      a \u003c- get fx       -- wait for fx\n      b \u003c- get gx       -- wait for gx\n      return (a,b)      -- return results\n\u003c/pre\u003e\u003cp\u003e\u003ccode\u003ePar\u003c/code\u003e can be used for specifying pure parallel computations in\n  which the order of the computation is not known beforehand.\n  The programmer specifies how information flows from one\n  part of the computation to another, but not the order in which\n  computations will be evaluated at runtime.  Information flow is\n  described using \u003ca\u003evariables\u003c/a\u003e called \u003ccode\u003eIVar\u003c/code\u003es, which support \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003e and\n  \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e operations.  For example, suppose you have a problem that\n  can be expressed as a network with four nodes, where \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e\n  require the value of \u003ccode\u003ea\u003c/code\u003e, and \u003ccode\u003ed\u003c/code\u003e requires the value of \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e                       a\n                      / \\               \n                     b   c             \n                      \\ /  \n                       d\n\u003c/pre\u003e\u003cp\u003eThen you could express this in the \u003ccode\u003ePar\u003c/code\u003e monad like this:\n\u003c/p\u003e\u003cpre\u003e   runPar $ do\n       [a,b,c,d] \u003c- sequence [new,new,new,new]\n       fork $ do x \u003c- get a; put b (x+1)\n       fork $ do x \u003c- get a; put c (x+2)\n       fork $ do x \u003c- get b; y \u003c- get c; put d (x+y)\n       fork $ do put a (3 :: Int)\n       get d\n\u003c/pre\u003e\u003cp\u003eThe result of the above computation is always 9.  The \u003ccode\u003e\u003ca\u003eget\u003c/a\u003e\u003c/code\u003e operation\n  waits until its input is available; multiple \u003ccode\u003e\u003ca\u003eput\u003c/a\u003e\u003c/code\u003es to the same\n  \u003ccode\u003eIVar\u003c/code\u003e are not allowed, and result in a runtime error.  Values\n  stored in \u003ccode\u003eIVar\u003c/code\u003es are usually fully evaluated (although there are\n  ways provided to pass lazy values if necessary).\n\u003c/p\u003e\u003cp\u003eIn the above example, \u003ccode\u003eb\u003c/code\u003e and \u003ccode\u003ec\u003c/code\u003e will be evaluated in parallel.\n  In practice the work involved at each node is too small here to see\n  the benefits of parallelism though: typically each node should\n  involve much more work.  The granularity is completely under your\n  control - too small and the overhead of the \u003ccode\u003ePar\u003c/code\u003e monad will\n  outweigh any parallelism benefits, whereas if the nodes are too\n  large then there might not be enough parallelism to use all the\n  available processors.\n\u003c/p\u003e\u003cp\u003eUnlike \u003ccode\u003eControl.Parallel\u003c/code\u003e, in \u003ccode\u003eControl.Monad.Par\u003c/code\u003e parallelism is\n  not combined with laziness, so sharing and granulairty are\n  completely under the control of the programmer.  New units of\n  parallel work are only created by \u003ccode\u003efork\u003c/code\u003e and a few other\n  combinators.\n\u003c/p\u003e\u003cp\u003eThe default implementation is based on a work-stealing scheduler\n  that divides the work as evenly as possible between the available\n  processors at runtime.  Other schedulers are available that are\n  based on different policies and have different performance\n  characteristics.  To use one of these other schedulers, just import\n  its module instead of \u003ca\u003eControl.Monad.Par\u003c/a\u003e:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003eControl.Monad.Par.Scheds.Trace\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eControl.Monad.Par.Scheds.Sparks\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eFor more information on the programming model, please see these sources:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The wiki/tutorial (\u003ca\u003ehttp://www.haskell.org/haskellwiki/Par_Monad:_A_Parallelism_Tutorial\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e The original paper (\u003ca\u003ehttp://www.cs.indiana.edu/~rrnewton/papers/haskell2011_monad-par.pdf\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e Tutorial slides (\u003ca\u003ehttp://community.haskell.org/~simonmar/slides/CUFP.pdf\u003c/a\u003e)\n\u003c/li\u003e\u003cli\u003e Other slides: (\u003ca\u003ehttp://www.cs.ox.ac.uk/ralf.hinze/WG2.8/28/slides/simon.pdf\u003c/a\u003e,\n                      \u003ca\u003ehttp://www.cs.indiana.edu/~rrnewton/talks/2011_HaskellSymposium_ParMonad.pdf\u003c/a\u003e)\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par",
           "name": "Par",
           "package": "monad-par",
@@ -2077,6 +2232,7 @@
         "index": {
           "description": "The monad-par package provides family of Par monads for speeding up pure computations using parallel processors for similar programming model for use with IO see Control.Monad.Par.IO The result of given Par computation is always the same i.e it is deterministic but the computation may be performed more quickly if there are processors available to share the work For example the following program fragment computes the values of and in parallel and returns pair of their results runPar do fx spawn return start evaluating gx spawn return start evaluating get fx wait for fx get gx wait for gx return return results Par can be used for specifying pure parallel computations in which the order of the computation is not known beforehand The programmer specifies how information flows from one part of the computation to another but not the order in which computations will be evaluated at runtime Information flow is described using variables called IVar which support put and get operations For example suppose you have problem that can be expressed as network with four nodes where and require the value of and requires the value of and Then you could express this in the Par monad like this runPar do sequence new new new new fork do get put fork do get put fork do get get put fork do put Int get The result of the above computation is always The get operation waits until its input is available multiple put to the same IVar are not allowed and result in runtime error Values stored in IVar are usually fully evaluated although there are ways provided to pass lazy values if necessary In the above example and will be evaluated in parallel In practice the work involved at each node is too small here to see the benefits of parallelism though typically each node should involve much more work The granularity is completely under your control too small and the overhead of the Par monad will outweigh any parallelism benefits whereas if the nodes are too large then there might not be enough parallelism to use all the available processors Unlike Control.Parallel in Control.Monad.Par parallelism is not combined with laziness so sharing and granulairty are completely under the control of the programmer New units of parallel work are only created by fork and few other combinators The default implementation is based on work-stealing scheduler that divides the work as evenly as possible between the available processors at runtime Other schedulers are available that are based on different policies and have different performance characteristics To use one of these other schedulers just import its module instead of Control.Monad.Par Control.Monad.Par.Scheds.Trace Control.Monad.Par.Scheds.Sparks For more information on the programming model please see these sources The wiki tutorial http www.haskell.org haskellwiki Par Monad Parallelism Tutorial The original paper http www.cs.indiana.edu rrnewton papers haskell2011 monad-par.pdf Tutorial slides http community.haskell.org simonmar slides CUFP.pdf Other slides http www.cs.ox.ac.uk ralf.hinze WG2.8 slides simon.pdf http www.cs.indiana.edu rrnewton talks HaskellSymposium ParMonad.pdf",
           "hierarchy": "Control Monad Par",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par",
           "name": "Par",
           "package": "monad-par",
@@ -2090,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par",
           "name": "IVar",
           "package": "monad-par",
@@ -2098,6 +2255,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par",
           "name": "IVar",
           "package": "monad-par",
@@ -2112,6 +2270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class of types that can be fully evaluated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par",
           "name": "NFData",
           "package": "monad-par",
@@ -2120,6 +2279,7 @@
         "index": {
           "description": "class of types that can be fully evaluated",
           "hierarchy": "Control Monad Par",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par",
           "name": "NFData",
           "package": "monad-par",
@@ -2133,6 +2293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:15 UTC 2014",
           "module": "Control.Monad.Par",
           "name": "Par",
           "package": "monad-par",
@@ -2141,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Par",
+          "indexed": "2014-03-11T19:20:15",
           "module": "Control.Monad.Par",
           "name": "Par",
           "package": "monad-par",

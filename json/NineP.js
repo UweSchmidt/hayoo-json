@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NineP"
+        "phrase": "NineP",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule providing Binary serialization of 9P messages to and from lazy \n ByteStrings.\n\u003c/p\u003e\u003cp\u003eThis library does not currently provide any networking support or \n wrappers for easy to write clients or servers, though that may come \n with time as we decide the best way to implement these.\n\u003c/p\u003e\u003cp\u003e9P2000 messages are sent in little endian byte order rather than network byte order \n (big endian)\n\u003c/p\u003e\u003cp\u003eLightly tested against an Inferno operating\n system share with no authentication successfully.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "NineP",
           "package": "NineP",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Module providing Binary serialization of messages to and from lazy ByteStrings This library does not currently provide any networking support or wrappers for easy to write clients or servers though that may come with time as we decide the best way to implement these P2000 messages are sent in little endian byte order rather than network byte order big endian Lightly tested against an Inferno operating system share with no authentication successfully",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "NineP",
           "package": "NineP",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Bin",
           "package": "NineP",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Bin",
           "package": "NineP",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe message envelope type for all 9P2000 messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Msg",
           "package": "NineP",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The message envelope type for all P2000 messages",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Msg",
           "package": "NineP",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Plan 9 Qid type.  See http:\u003cem/\u003e9p.cat-v.org for more information\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Qid",
           "package": "NineP",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Plan Qid type See http p.cat-v.org for more information",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Qid",
           "package": "NineP",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvides information on a path entry at a 9P2000 server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Stat",
           "package": "NineP",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Provides information on path entry at P2000 server",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Stat",
           "package": "NineP",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that enumerates all the valid \u003cem\u003e(and one invalid)\u003c/em\u003e message types in 9P2000\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tag",
           "package": "NineP",
@@ -141,6 +152,7 @@
         "index": {
           "description": "type that enumerates all the valid and one invalid message types in P2000",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tag",
           "package": "NineP",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable message type that encapsulates the valid kinds of messages in a 9P2000 payload\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "VarMsg",
           "package": "NineP",
@@ -164,6 +177,7 @@
         "index": {
           "description": "variable message type that encapsulates the valid kinds of messages in P2000 payload",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "VarMsg",
           "package": "NineP",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Msg",
           "package": "NineP",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Msg",
           "package": "NineP",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Qid",
           "package": "NineP",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Qid",
           "package": "NineP",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rattach",
           "package": "NineP",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rattach",
           "package": "NineP",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rauth",
           "package": "NineP",
@@ -252,6 +273,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rauth",
           "package": "NineP",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rclunk",
           "package": "NineP",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rclunk",
           "package": "NineP",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rcreate",
           "package": "NineP",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rcreate",
           "package": "NineP",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rerror",
           "package": "NineP",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rerror",
           "package": "NineP",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rflush",
           "package": "NineP",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rflush",
           "package": "NineP",
@@ -353,6 +383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Ropen",
           "package": "NineP",
@@ -362,6 +393,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Ropen",
           "package": "NineP",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rread",
           "package": "NineP",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rread",
           "package": "NineP",
@@ -397,6 +431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rremove",
           "package": "NineP",
@@ -406,6 +441,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rremove",
           "package": "NineP",
@@ -419,6 +455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rstat",
           "package": "NineP",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rstat",
           "package": "NineP",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rversion",
           "package": "NineP",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rversion",
           "package": "NineP",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rwalk",
           "package": "NineP",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rwalk",
           "package": "NineP",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rwrite",
           "package": "NineP",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rwrite",
           "package": "NineP",
@@ -507,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Rwstat",
           "package": "NineP",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Rwstat",
           "package": "NineP",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Stat",
           "package": "NineP",
@@ -538,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Stat",
           "package": "NineP",
@@ -551,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRattach",
           "package": "NineP",
@@ -560,6 +609,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRattach",
           "package": "NineP",
@@ -573,6 +623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRauth",
           "package": "NineP",
@@ -582,6 +633,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRauth",
           "package": "NineP",
@@ -595,6 +647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRclunk",
           "package": "NineP",
@@ -604,6 +657,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRclunk",
           "package": "NineP",
@@ -617,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRcreate",
           "package": "NineP",
@@ -626,6 +681,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRcreate",
           "package": "NineP",
@@ -639,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRerror",
           "package": "NineP",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRerror",
           "package": "NineP",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRflush",
           "package": "NineP",
@@ -670,6 +729,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRflush",
           "package": "NineP",
@@ -683,6 +743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRopen",
           "package": "NineP",
@@ -692,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRopen",
           "package": "NineP",
@@ -705,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRread",
           "package": "NineP",
@@ -714,6 +777,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRread",
           "package": "NineP",
@@ -727,6 +791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRremove",
           "package": "NineP",
@@ -736,6 +801,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRremove",
           "package": "NineP",
@@ -749,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRstat",
           "package": "NineP",
@@ -758,6 +825,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRstat",
           "package": "NineP",
@@ -771,6 +839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRversion",
           "package": "NineP",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRversion",
           "package": "NineP",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRwalk",
           "package": "NineP",
@@ -802,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRwalk",
           "package": "NineP",
@@ -815,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRwrite",
           "package": "NineP",
@@ -824,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRwrite",
           "package": "NineP",
@@ -837,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TRwstat",
           "package": "NineP",
@@ -846,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TRwstat",
           "package": "NineP",
@@ -859,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTattach",
           "package": "NineP",
@@ -868,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTattach",
           "package": "NineP",
@@ -881,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTauth",
           "package": "NineP",
@@ -890,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTauth",
           "package": "NineP",
@@ -903,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTclunk",
           "package": "NineP",
@@ -912,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTclunk",
           "package": "NineP",
@@ -925,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTcreate",
           "package": "NineP",
@@ -934,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTcreate",
           "package": "NineP",
@@ -947,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTflush",
           "package": "NineP",
@@ -956,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTflush",
           "package": "NineP",
@@ -969,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTopen",
           "package": "NineP",
@@ -978,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTopen",
           "package": "NineP",
@@ -991,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTread",
           "package": "NineP",
@@ -1000,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTread",
           "package": "NineP",
@@ -1013,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTremove",
           "package": "NineP",
@@ -1022,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTremove",
           "package": "NineP",
@@ -1035,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTstat",
           "package": "NineP",
@@ -1044,6 +1137,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTstat",
           "package": "NineP",
@@ -1057,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTversion",
           "package": "NineP",
@@ -1066,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTversion",
           "package": "NineP",
@@ -1079,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTwalk",
           "package": "NineP",
@@ -1088,6 +1185,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTwalk",
           "package": "NineP",
@@ -1101,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTwrite",
           "package": "NineP",
@@ -1110,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTwrite",
           "package": "NineP",
@@ -1123,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "TTwstat",
           "package": "NineP",
@@ -1132,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "TTwstat",
           "package": "NineP",
@@ -1145,6 +1247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tattach",
           "package": "NineP",
@@ -1154,6 +1257,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tattach",
           "package": "NineP",
@@ -1167,6 +1271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tauth",
           "package": "NineP",
@@ -1176,6 +1281,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tauth",
           "package": "NineP",
@@ -1189,6 +1295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tclunk",
           "package": "NineP",
@@ -1198,6 +1305,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tclunk",
           "package": "NineP",
@@ -1211,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tcreate",
           "package": "NineP",
@@ -1220,6 +1329,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tcreate",
           "package": "NineP",
@@ -1233,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tflush",
           "package": "NineP",
@@ -1242,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tflush",
           "package": "NineP",
@@ -1255,6 +1367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Topen",
           "package": "NineP",
@@ -1264,6 +1377,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Topen",
           "package": "NineP",
@@ -1277,6 +1391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tread",
           "package": "NineP",
@@ -1286,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tread",
           "package": "NineP",
@@ -1299,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tremove",
           "package": "NineP",
@@ -1308,6 +1425,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tremove",
           "package": "NineP",
@@ -1321,6 +1439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tstat",
           "package": "NineP",
@@ -1330,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tstat",
           "package": "NineP",
@@ -1343,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Tversion",
           "package": "NineP",
@@ -1352,6 +1473,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Tversion",
           "package": "NineP",
@@ -1365,6 +1487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Twalk",
           "package": "NineP",
@@ -1374,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Twalk",
           "package": "NineP",
@@ -1387,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Twrite",
           "package": "NineP",
@@ -1396,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Twrite",
           "package": "NineP",
@@ -1409,6 +1535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "Twstat",
           "package": "NineP",
@@ -1418,6 +1545,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "Twstat",
           "package": "NineP",
@@ -1431,6 +1559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "XXX_TTerror",
           "package": "NineP",
@@ -1440,6 +1569,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "XXX_TTerror",
           "package": "NineP",
@@ -1453,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "get",
           "package": "NineP",
@@ -1462,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "get",
           "package": "NineP",
@@ -1475,6 +1607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor every messages type, runs a Get parser to decode that type of payload from the 9P2000 stream\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "getVarMsg",
           "package": "NineP",
@@ -1485,6 +1618,7 @@
         "index": {
           "description": "For every messages type runs Get parser to decode that type of payload from the P2000 stream",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "getVarMsg",
           "normalized": "Tag-\u003eGet VarMsg",
@@ -1500,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "msg_body",
           "package": "NineP",
@@ -1509,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "msg_body",
           "package": "NineP",
@@ -1521,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "msg_tag",
           "package": "NineP",
@@ -1530,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "msg_tag",
           "package": "NineP",
@@ -1542,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "msg_typ",
           "package": "NineP",
@@ -1551,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "msg_typ",
           "package": "NineP",
@@ -1563,6 +1703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "put",
           "package": "NineP",
@@ -1572,6 +1713,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "put",
           "normalized": "a-\u003ePut",
@@ -1587,6 +1729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor every lower level VarMsg type, encodes a full wrapper around that type for use with 9P2000 streams\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "putVarMsg",
           "package": "NineP",
@@ -1597,6 +1740,7 @@
         "index": {
           "description": "For every lower level VarMsg type encodes full wrapper around that type for use with P2000 streams",
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "putVarMsg",
           "normalized": "VarMsg-\u003ePut",
@@ -1612,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "qid_path",
           "package": "NineP",
@@ -1621,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "qid_path",
           "package": "NineP",
@@ -1633,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "qid_typ",
           "package": "NineP",
@@ -1642,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "qid_typ",
           "package": "NineP",
@@ -1654,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "qid_vers",
           "package": "NineP",
@@ -1663,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "qid_vers",
           "package": "NineP",
@@ -1675,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "ra_aqid",
           "package": "NineP",
@@ -1684,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "ra_aqid",
           "package": "NineP",
@@ -1696,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rat_qid",
           "package": "NineP",
@@ -1705,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rat_qid",
           "package": "NineP",
@@ -1717,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rcr_iounit",
           "package": "NineP",
@@ -1726,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rcr_iounit",
           "package": "NineP",
@@ -1738,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rcr_qid",
           "package": "NineP",
@@ -1747,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rcr_qid",
           "package": "NineP",
@@ -1759,6 +1917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "re_ename",
           "package": "NineP",
@@ -1768,6 +1927,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "re_ename",
           "package": "NineP",
@@ -1780,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "ro_iounit",
           "package": "NineP",
@@ -1789,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "ro_iounit",
           "package": "NineP",
@@ -1801,6 +1963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "ro_qid",
           "package": "NineP",
@@ -1810,6 +1973,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "ro_qid",
           "package": "NineP",
@@ -1822,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rrd_dat",
           "package": "NineP",
@@ -1831,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rrd_dat",
           "package": "NineP",
@@ -1843,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rs_stat",
           "package": "NineP",
@@ -1852,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rs_stat",
           "normalized": "[Stat]",
@@ -1866,6 +2034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rv_msize",
           "package": "NineP",
@@ -1875,6 +2044,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rv_msize",
           "package": "NineP",
@@ -1887,6 +2057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rv_version",
           "package": "NineP",
@@ -1896,6 +2067,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rv_version",
           "package": "NineP",
@@ -1908,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rw_count",
           "package": "NineP",
@@ -1917,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rw_count",
           "package": "NineP",
@@ -1929,6 +2103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "rw_wqid",
           "package": "NineP",
@@ -1938,6 +2113,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "rw_wqid",
           "normalized": "[Qid]",
@@ -1952,6 +2128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_atime",
           "package": "NineP",
@@ -1961,6 +2138,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_atime",
           "package": "NineP",
@@ -1973,6 +2151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_dev",
           "package": "NineP",
@@ -1982,6 +2161,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_dev",
           "package": "NineP",
@@ -1994,6 +2174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_gid",
           "package": "NineP",
@@ -2003,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_gid",
           "package": "NineP",
@@ -2015,6 +2197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_length",
           "package": "NineP",
@@ -2024,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_length",
           "package": "NineP",
@@ -2036,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_mode",
           "package": "NineP",
@@ -2045,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_mode",
           "package": "NineP",
@@ -2057,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_mtime",
           "package": "NineP",
@@ -2066,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_mtime",
           "package": "NineP",
@@ -2078,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_muid",
           "package": "NineP",
@@ -2087,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_muid",
           "package": "NineP",
@@ -2099,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_name",
           "package": "NineP",
@@ -2108,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_name",
           "package": "NineP",
@@ -2120,6 +2312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_qid",
           "package": "NineP",
@@ -2129,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_qid",
           "package": "NineP",
@@ -2141,6 +2335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_typ",
           "package": "NineP",
@@ -2150,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_typ",
           "package": "NineP",
@@ -2162,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "st_uid",
           "package": "NineP",
@@ -2171,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "st_uid",
           "package": "NineP",
@@ -2183,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tat_afid",
           "package": "NineP",
@@ -2192,6 +2391,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tat_afid",
           "package": "NineP",
@@ -2204,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tat_aname",
           "package": "NineP",
@@ -2213,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tat_aname",
           "package": "NineP",
@@ -2225,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tat_fid",
           "package": "NineP",
@@ -2234,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tat_fid",
           "package": "NineP",
@@ -2246,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tat_uname",
           "package": "NineP",
@@ -2255,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tat_uname",
           "package": "NineP",
@@ -2267,6 +2473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tau_afid",
           "package": "NineP",
@@ -2276,6 +2483,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tau_afid",
           "package": "NineP",
@@ -2288,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tau_aname",
           "package": "NineP",
@@ -2297,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tau_aname",
           "package": "NineP",
@@ -2309,6 +2519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tau_uname",
           "package": "NineP",
@@ -2318,6 +2529,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tau_uname",
           "package": "NineP",
@@ -2330,6 +2542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tcl_fid",
           "package": "NineP",
@@ -2339,6 +2552,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tcl_fid",
           "package": "NineP",
@@ -2351,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tcr_fid",
           "package": "NineP",
@@ -2360,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tcr_fid",
           "package": "NineP",
@@ -2372,6 +2588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tcr_mode",
           "package": "NineP",
@@ -2381,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tcr_mode",
           "package": "NineP",
@@ -2393,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tcr_name",
           "package": "NineP",
@@ -2402,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tcr_name",
           "package": "NineP",
@@ -2414,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tcr_perm",
           "package": "NineP",
@@ -2423,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tcr_perm",
           "package": "NineP",
@@ -2435,6 +2657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tf_oldtag",
           "package": "NineP",
@@ -2444,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tf_oldtag",
           "package": "NineP",
@@ -2456,6 +2680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "to_fid",
           "package": "NineP",
@@ -2465,6 +2690,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "to_fid",
           "package": "NineP",
@@ -2477,6 +2703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "to_mode",
           "package": "NineP",
@@ -2486,6 +2713,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "to_mode",
           "package": "NineP",
@@ -2498,6 +2726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "trd_count",
           "package": "NineP",
@@ -2507,6 +2736,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "trd_count",
           "package": "NineP",
@@ -2519,6 +2749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "trd_fid",
           "package": "NineP",
@@ -2528,6 +2759,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "trd_fid",
           "package": "NineP",
@@ -2540,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "trd_offset",
           "package": "NineP",
@@ -2549,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "trd_offset",
           "package": "NineP",
@@ -2561,6 +2795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "trm_fid",
           "package": "NineP",
@@ -2570,6 +2805,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "trm_fid",
           "package": "NineP",
@@ -2582,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "ts_fid",
           "package": "NineP",
@@ -2591,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "ts_fid",
           "package": "NineP",
@@ -2603,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tv_msize",
           "package": "NineP",
@@ -2612,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tv_msize",
           "package": "NineP",
@@ -2624,6 +2864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tv_version",
           "package": "NineP",
@@ -2633,6 +2874,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tv_version",
           "package": "NineP",
@@ -2645,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tw_fid",
           "package": "NineP",
@@ -2654,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tw_fid",
           "package": "NineP",
@@ -2666,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tw_newfid",
           "package": "NineP",
@@ -2675,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tw_newfid",
           "package": "NineP",
@@ -2687,6 +2933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tw_wnames",
           "package": "NineP",
@@ -2696,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tw_wnames",
           "normalized": "[String]",
@@ -2710,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "twr_dat",
           "package": "NineP",
@@ -2719,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "twr_dat",
           "package": "NineP",
@@ -2731,6 +2981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "twr_fid",
           "package": "NineP",
@@ -2740,6 +2991,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "twr_fid",
           "package": "NineP",
@@ -2752,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "twr_offset",
           "package": "NineP",
@@ -2761,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "twr_offset",
           "package": "NineP",
@@ -2773,6 +3027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tws_fid",
           "package": "NineP",
@@ -2782,6 +3037,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tws_fid",
           "package": "NineP",
@@ -2794,6 +3050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:54:10 UTC 2014",
           "module": "Data.NineP",
           "name": "tws_stat",
           "package": "NineP",
@@ -2803,6 +3060,7 @@
         },
         "index": {
           "hierarchy": "Data NineP",
+          "indexed": "2014-03-11T16:54:10",
           "module": "Data.NineP",
           "name": "tws_stat",
           "normalized": "[Stat]",

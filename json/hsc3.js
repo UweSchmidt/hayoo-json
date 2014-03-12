@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsc3"
+        "phrase": "hsc3",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.Server.FD\u003c/a\u003e and \u003ca\u003eSound.SC3.UGen\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.FD",
           "name": "FD",
           "package": "hsc3",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Composite of Sound.SC3.Server.FD and Sound.SC3.UGen",
           "hierarchy": "Sound SC3 FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.FD",
           "name": "FD",
           "package": "hsc3",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.UGen.ID\u003c/a\u003e and \u003ca\u003eSound.SC3.Server.FD\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.ID.FD",
           "name": "FD",
           "package": "hsc3",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Composite of Sound.SC3.UGen.ID and Sound.SC3.Server.FD",
           "hierarchy": "Sound SC3 ID FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.ID.FD",
           "name": "FD",
           "package": "hsc3",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.UGen.ID\u003c/a\u003e and \u003ca\u003eSound.SC3.Server.Monad\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.ID",
           "name": "ID",
           "package": "hsc3",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Composite of Sound.SC3.UGen.ID and Sound.SC3.Server.Monad",
           "hierarchy": "Sound SC3 ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.ID",
           "name": "ID",
           "package": "hsc3",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.UGen.Monad\u003c/a\u003e and \u003ca\u003eSound.SC3.Server.FD\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.FD",
           "name": "FD",
           "package": "hsc3",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Composite of Sound.SC3.UGen.Monad and Sound.SC3.Server.FD",
           "hierarchy": "Sound SC3 Monad FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.FD",
           "name": "FD",
           "package": "hsc3",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to make writing \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e UGen graphs\n less clumsy.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "Syntax",
           "package": "hsc3",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Functions to make writing Applicative and Monad UGen graphs less clumsy",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "Syntax",
           "package": "hsc3",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e at right.\n\u003c/p\u003e\u003cpre\u003e fmap (== 6) (3 *. return 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(*.)",
           "package": "hsc3",
@@ -144,6 +155,7 @@
         "index": {
           "description": "variant with Functor at right fmap return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(*.) *.",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -159,6 +171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e at right.\n\u003c/p\u003e\u003cpre\u003e fmap (== 5) (3 +. return 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(+.)",
           "package": "hsc3",
@@ -169,6 +182,7 @@
         "index": {
           "description": "variant with Functor at right fmap return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(+.) +.",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e at left.\n\u003c/p\u003e\u003cpre\u003e fmap (== 6) (return 3 .* 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.*)",
           "package": "hsc3",
@@ -194,6 +209,7 @@
         "index": {
           "description": "variant with Functor at left fmap return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.*) .*",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -209,6 +225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e at left and right.\n\u003c/p\u003e\u003cpre\u003e fmap (== 6) (return 3 .*. return 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.*.)",
           "package": "hsc3",
@@ -219,6 +236,7 @@
         "index": {
           "description": "variant with Applicative at left and right fmap return return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.*.) .*.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -234,6 +252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e at left.\n\u003c/p\u003e\u003cpre\u003e fmap (== 5) (return 3 .+ 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.+)",
           "package": "hsc3",
@@ -244,6 +263,7 @@
         "index": {
           "description": "variant with Functor at left fmap return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.+) .+",
           "normalized": "a b-\u003eb-\u003ea b",
@@ -259,6 +279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e variant with \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e at left and right.\n\u003c/p\u003e\u003cpre\u003e fmap (== 5) (return 3 .+. return 2)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.+.)",
           "package": "hsc3",
@@ -269,6 +290,7 @@
         "index": {
           "description": "variant with Applicative at left and right fmap return return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "(.+.) .+.",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeed forward composition of \u003cem\u003en\u003c/em\u003e applications of \u003cem\u003ef\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e fmap (== 3) (chainM 3 (return . (+ 1)) 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "chainM",
           "package": "hsc3",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Feed forward composition of applications of fmap chainM return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "chainM",
           "normalized": "Int-\u003e(a-\u003eb a)-\u003ea-\u003eb a",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight to left compositon of \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e\u003cpre\u003e fmap (== 7) (composeM [return . (+ 1),return . (* 2)] 3)\n fmap (== 8) (composeM [return . (* 2),return . (+ 1)] 3)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "composeM",
           "package": "hsc3",
@@ -319,6 +344,7 @@
         "index": {
           "description": "Right to left compositon of Monad functions fmap composeM return return fmap composeM return return",
           "hierarchy": "Sound SC3 Monad Syntax",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad.Syntax",
           "name": "composeM",
           "normalized": "[a-\u003eb a]-\u003ea-\u003eb a",
@@ -334,6 +360,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.UGen.Monad\u003c/a\u003e and \u003ca\u003eSound.SC3.Server.Monad\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -343,6 +370,7 @@
         "index": {
           "description": "Composite of Sound.SC3.UGen.Monad and Sound.SC3.Server.Monad",
           "hierarchy": "Sound SC3 Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides variations of the asynchronous server commands that\n expect a \u003cem\u003ecompletion packet\u003c/em\u003e as the first argument. The completion packet\n is executed by the server when the asynchronous command has finished. Note\n that this mechanism is for synchronizing server side processes only, for\n client side synchronization use \u003ccode\u003e/done\u003c/code\u003e message notification or the\n \u003ccode\u003e/sync\u003c/code\u003e barrier.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "Completion",
           "package": "hsc3",
@@ -366,6 +395,7 @@
         "index": {
           "description": "This module provides variations of the asynchronous server commands that expect completion packet as the first argument The completion packet is executed by the server when the asynchronous command has finished Note that this mechanism is for synchronizing server side processes only for client side synchronization use done message notification or the sync barrier",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "Completion",
           "package": "hsc3",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates zero filled buffer to number of channels and samples. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_alloc'",
           "package": "hsc3",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Allocates zero filled buffer to number of channels and samples Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_alloc'",
           "normalized": "a-\u003eInt-\u003eInt-\u003eInt-\u003eMessage",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_allocRead'",
           "package": "hsc3",
@@ -415,6 +448,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_allocRead'",
           "normalized": "a-\u003eInt-\u003eString-\u003eInt-\u003eInt-\u003eMessage",
@@ -431,6 +465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file, picking specific channels. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_allocReadChannel'",
           "package": "hsc3",
@@ -441,6 +476,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file picking specific channels Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_allocReadChannel'",
           "normalized": "a-\u003eInt-\u003eString-\u003eInt-\u003eInt-\u003e[Int]-\u003eMessage",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose attached soundfile and write header information. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_close'",
           "package": "hsc3",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Close attached soundfile and write header information Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_close'",
           "normalized": "a-\u003eInt-\u003eMessage",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree buffer data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_free'",
           "package": "hsc3",
@@ -492,6 +531,7 @@
         "index": {
           "description": "Free buffer data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_free'",
           "normalized": "a-\u003eInt-\u003eMessage",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_read'",
           "package": "hsc3",
@@ -517,6 +558,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_read'",
           "normalized": "a-\u003eInt-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eBool-\u003eMessage",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_readChannel'",
           "package": "hsc3",
@@ -542,6 +585,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_readChannel'",
           "normalized": "a-\u003eInt-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eBool-\u003e[Int]-\u003eMessage",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sound file data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_write'",
           "package": "hsc3",
@@ -568,6 +613,7 @@
         "index": {
           "description": "Write sound file data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_write'",
           "normalized": "a-\u003eInt-\u003eString-\u003eSoundFileFormat-\u003eSampleFormat-\u003eInt-\u003eInt-\u003eBool-\u003eMessage",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero sample data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_zero'",
           "package": "hsc3",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Zero sample data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "b_zero'",
           "normalized": "a-\u003eInt-\u003eMessage",
@@ -608,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an instrument definition from a named file. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_load'",
           "package": "hsc3",
@@ -618,6 +667,7 @@
         "index": {
           "description": "Load an instrument definition from named file Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_load'",
           "normalized": "a-\u003eString-\u003eMessage",
@@ -633,6 +683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a directory of instrument definitions files. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_loadDir'",
           "package": "hsc3",
@@ -643,6 +694,7 @@
         "index": {
           "description": "Load directory of instrument definitions files Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_loadDir'",
           "normalized": "a-\u003eString-\u003eMessage",
@@ -659,6 +711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a bytecode instrument definition. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_recv'",
           "package": "hsc3",
@@ -669,6 +722,7 @@
         "index": {
           "description": "Install bytecode instrument definition Asynchronous",
           "hierarchy": "Sound SC3 Server Command Completion",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Completion",
           "name": "d_recv'",
           "normalized": "a-\u003eSynthdef-\u003eMessage",
@@ -684,6 +738,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCore non-type variant constructors.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "Core",
           "package": "hsc3",
@@ -693,6 +748,7 @@
         "index": {
           "description": "Core non-type variant constructors",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "Core",
           "package": "hsc3",
@@ -707,6 +763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList of asynchronous server commands.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "async_cmds",
           "package": "hsc3",
@@ -717,6 +774,7 @@
         "index": {
           "description": "List of asynchronous server commands",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "async_cmds",
           "normalized": "[String]",
@@ -732,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all bundles from the scheduling queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "clearSched",
           "package": "hsc3",
@@ -742,6 +801,7 @@
         "index": {
           "description": "Remove all bundles from the scheduling queue",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "clearSched",
           "package": "hsc3",
@@ -756,6 +816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a plugin command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "cmd",
           "package": "hsc3",
@@ -766,6 +827,7 @@
         "index": {
           "description": "Send plugin command",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "cmd",
           "normalized": "String-\u003e[Datum]-\u003eMessage",
@@ -781,6 +843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove definition once all nodes using it have ended.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_free",
           "package": "hsc3",
@@ -791,6 +854,7 @@
         "index": {
           "description": "Remove definition once all nodes using it have ended",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_free",
           "normalized": "[String]-\u003eMessage",
@@ -806,6 +870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an instrument definition from a named file. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_load",
           "package": "hsc3",
@@ -816,6 +881,7 @@
         "index": {
           "description": "Load an instrument definition from named file Asynchronous",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_load",
           "normalized": "String-\u003eMessage",
@@ -831,6 +897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad a directory of instrument definitions files. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_loadDir",
           "package": "hsc3",
@@ -841,6 +908,7 @@
         "index": {
           "description": "Load directory of instrument definitions files Asynchronous",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_loadDir",
           "normalized": "String-\u003eMessage",
@@ -857,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstall a bytecode instrument definition. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_recv",
           "package": "hsc3",
@@ -867,6 +936,7 @@
         "index": {
           "description": "Install bytecode instrument definition Asynchronous",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "d_recv",
           "normalized": "Synthdef-\u003eMessage",
@@ -882,6 +952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect printing of incoming Open Sound Control messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "dumpOSC",
           "package": "hsc3",
@@ -892,6 +963,7 @@
         "index": {
           "description": "Select printing of incoming Open Sound Control messages",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "dumpOSC",
           "normalized": "PrintLevel-\u003eMessage",
@@ -908,6 +980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet error posting scope and mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "errorMode",
           "package": "hsc3",
@@ -918,6 +991,7 @@
         "index": {
           "description": "Set error posting scope and mode",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "errorMode",
           "normalized": "ErrorScope-\u003eErrorMode-\u003eMessage",
@@ -934,6 +1008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e is an asynchronous \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map isAsync [b_close 0,n_set1 0 \"0\" 0] == [True,False]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "isAsync",
           "package": "hsc3",
@@ -944,6 +1019,7 @@
         "index": {
           "description": "True if Message is an asynchronous Message map isAsync close set1 True False",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "isAsync",
           "normalized": "Message-\u003eBool",
@@ -960,6 +1036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect reception of notification messages. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "notify",
           "package": "hsc3",
@@ -970,6 +1047,7 @@
         "index": {
           "description": "Select reception of notification messages Asynchronous",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "notify",
           "normalized": "Bool-\u003eMessage",
@@ -985,6 +1063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStop synthesis server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "quit",
           "package": "hsc3",
@@ -995,6 +1074,7 @@
         "index": {
           "description": "Stop synthesis server",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "quit",
           "package": "hsc3",
@@ -1008,6 +1088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest /status.reply message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "status",
           "package": "hsc3",
@@ -1018,6 +1099,7 @@
         "index": {
           "description": "Request status.reply message",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "status",
           "package": "hsc3",
@@ -1031,6 +1113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a completion message (or bundle, the name is misleading) to\n an existing asynchronous command.\n\u003c/p\u003e\u003cpre\u003e let {m = n_set1 0 \"0\" 0\n     ;m' = encodeMessage m}\n in withCM (b_close 0) m == Message \"/b_close\" [Int 0,Blob m']\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "withCM",
           "package": "hsc3",
@@ -1041,6 +1124,7 @@
         "index": {
           "description": "Add completion message or bundle the name is misleading to an existing asynchronous command let set1 encodeMessage in withCM close Message close Int Blob",
           "hierarchy": "Sound SC3 Server Command Core",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Core",
           "name": "withCM",
           "normalized": "Message-\u003ea-\u003eMessage",
@@ -1057,6 +1141,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from \u003ca\u003eSound.SC3.Server.Command.Generic\u003c/a\u003e specialised to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "Double",
           "package": "hsc3",
@@ -1066,6 +1151,7 @@
         "index": {
           "description": "Functions from Sound.SC3.Server.Command.Generic specialised to Int and Double",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "Double",
           "package": "hsc3",
@@ -1080,6 +1166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-allocate for b_setn1, values preceding offset are zeroed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_alloc_setn1",
           "package": "hsc3",
@@ -1090,6 +1177,7 @@
         "index": {
           "description": "Pre-allocate for setn1 values preceding offset are zeroed",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_alloc_setn1",
           "normalized": "Int-\u003eInt-\u003e[Double]-\u003eMessage",
@@ -1105,6 +1193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_fill",
           "package": "hsc3",
@@ -1115,6 +1204,7 @@
         "index": {
           "description": "Fill ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_fill",
           "normalized": "Int-\u003e[(Int,Int,Double)]-\u003eMessage",
@@ -1130,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003echeby\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_cheby",
           "package": "hsc3",
@@ -1140,6 +1231,7 @@
         "index": {
           "description": "Call cheby gen command",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_cheby",
           "normalized": "Int-\u003e[B_Gen]-\u003e[Double]-\u003eMessage",
@@ -1155,6 +1247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine1\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine1",
           "package": "hsc3",
@@ -1165,6 +1258,7 @@
         "index": {
           "description": "Call sine1 gen command",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine1",
           "normalized": "Int-\u003e[B_Gen]-\u003e[Double]-\u003eMessage",
@@ -1180,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine2\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine2",
           "package": "hsc3",
@@ -1190,6 +1285,7 @@
         "index": {
           "description": "Call sine2 gen command",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine2",
           "normalized": "Int-\u003e[B_Gen]-\u003e[(Double,Double)]-\u003eMessage",
@@ -1205,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine3\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine3",
           "package": "hsc3",
@@ -1215,6 +1312,7 @@
         "index": {
           "description": "Call sine3 gen command",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_gen_sine3",
           "normalized": "Int-\u003e[B_Gen]-\u003e[(Double,Double,Double)]-\u003eMessage",
@@ -1230,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_set",
           "package": "hsc3",
@@ -1240,6 +1339,7 @@
         "index": {
           "description": "Set sample values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_set",
           "normalized": "Int-\u003e[(Int,Double)]-\u003eMessage",
@@ -1255,6 +1355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single sample value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_set1",
           "package": "hsc3",
@@ -1265,6 +1366,7 @@
         "index": {
           "description": "Set single sample value",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_set1",
           "normalized": "Int-\u003eInt-\u003eDouble-\u003eMessage",
@@ -1280,6 +1382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_setn",
           "package": "hsc3",
@@ -1290,6 +1393,7 @@
         "index": {
           "description": "Set ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_setn",
           "normalized": "Int-\u003e[(Int,[Double])]-\u003eMessage",
@@ -1305,6 +1409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a range of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_setn1",
           "package": "hsc3",
@@ -1315,6 +1420,7 @@
         "index": {
           "description": "Set range of sample values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "b_setn1",
           "normalized": "Int-\u003eInt-\u003e[Double]-\u003eMessage",
@@ -1330,6 +1436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_fill",
           "package": "hsc3",
@@ -1340,6 +1447,7 @@
         "index": {
           "description": "Fill ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_fill",
           "normalized": "[(Int,Int,Double)]-\u003eMessage",
@@ -1355,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_set",
           "package": "hsc3",
@@ -1365,6 +1474,7 @@
         "index": {
           "description": "Set bus values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_set",
           "normalized": "[(Int,Double)]-\u003eMessage",
@@ -1380,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_set1",
           "package": "hsc3",
@@ -1390,6 +1501,7 @@
         "index": {
           "description": "Set single bus values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_set1",
           "normalized": "Int-\u003eDouble-\u003eMessage",
@@ -1405,6 +1517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_setn",
           "package": "hsc3",
@@ -1415,6 +1528,7 @@
         "index": {
           "description": "Set ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "c_setn",
           "normalized": "[(Int,[Double])]-\u003eMessage",
@@ -1430,6 +1544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_fill",
           "package": "hsc3",
@@ -1440,6 +1555,7 @@
         "index": {
           "description": "Fill ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_fill",
           "normalized": "Int-\u003e[(String,Int,Double)]-\u003eMessage",
@@ -1455,6 +1571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_set",
           "package": "hsc3",
@@ -1465,6 +1582,7 @@
         "index": {
           "description": "Set node control values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_set",
           "normalized": "Int-\u003e[(String,Double)]-\u003eMessage",
@@ -1480,6 +1598,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a single node control value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_set1",
           "package": "hsc3",
@@ -1490,6 +1609,7 @@
         "index": {
           "description": "Set single node control value",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_set1",
           "normalized": "Int-\u003eString-\u003eDouble-\u003eMessage",
@@ -1505,6 +1625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_setn",
           "package": "hsc3",
@@ -1515,6 +1636,7 @@
         "index": {
           "description": "Set ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "n_setn",
           "normalized": "Int-\u003e[(String,[Double])]-\u003eMessage",
@@ -1530,6 +1652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new synth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "s_new",
           "package": "hsc3",
@@ -1540,6 +1663,7 @@
         "index": {
           "description": "Create new synth",
           "hierarchy": "Sound SC3 Server Command Double",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Double",
           "name": "s_new",
           "normalized": "String-\u003eInt-\u003eAddAction-\u003eInt-\u003e[(String,Double)]-\u003eMessage",
@@ -1555,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from \u003ca\u003eSound.SC3.Server.Command.Generic\u003c/a\u003e specialised to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "Float",
           "package": "hsc3",
@@ -1564,6 +1689,7 @@
         "index": {
           "description": "Functions from Sound.SC3.Server.Command.Generic specialised to Int and Float",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "Float",
           "package": "hsc3",
@@ -1578,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-allocate for b_setn1, values preceding offset are zeroed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_alloc_setn1",
           "package": "hsc3",
@@ -1588,6 +1715,7 @@
         "index": {
           "description": "Pre-allocate for setn1 values preceding offset are zeroed",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_alloc_setn1",
           "normalized": "Int-\u003eInt-\u003e[Float]-\u003eMessage",
@@ -1603,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_fill",
           "package": "hsc3",
@@ -1613,6 +1742,7 @@
         "index": {
           "description": "Fill ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_fill",
           "normalized": "Int-\u003e[(Int,Int,Float)]-\u003eMessage",
@@ -1628,6 +1758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003echeby\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_cheby",
           "package": "hsc3",
@@ -1638,6 +1769,7 @@
         "index": {
           "description": "Call cheby gen command",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_cheby",
           "normalized": "Int-\u003e[B_Gen]-\u003e[Float]-\u003eMessage",
@@ -1653,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine1\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine1",
           "package": "hsc3",
@@ -1663,6 +1796,7 @@
         "index": {
           "description": "Call sine1 gen command",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine1",
           "normalized": "Int-\u003e[B_Gen]-\u003e[Float]-\u003eMessage",
@@ -1678,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine2\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine2",
           "package": "hsc3",
@@ -1688,6 +1823,7 @@
         "index": {
           "description": "Call sine2 gen command",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine2",
           "normalized": "Int-\u003e[B_Gen]-\u003e[(Float,Float)]-\u003eMessage",
@@ -1703,6 +1839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine3\u003c/code\u003e \u003ccode\u003eb_gen\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine3",
           "package": "hsc3",
@@ -1713,6 +1850,7 @@
         "index": {
           "description": "Call sine3 gen command",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_gen_sine3",
           "normalized": "Int-\u003e[B_Gen]-\u003e[(Float,Float,Float)]-\u003eMessage",
@@ -1728,6 +1866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_set",
           "package": "hsc3",
@@ -1738,6 +1877,7 @@
         "index": {
           "description": "Set sample values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_set",
           "normalized": "Int-\u003e[(Int,Float)]-\u003eMessage",
@@ -1753,6 +1893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single sample value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_set1",
           "package": "hsc3",
@@ -1763,6 +1904,7 @@
         "index": {
           "description": "Set single sample value",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_set1",
           "normalized": "Int-\u003eInt-\u003eFloat-\u003eMessage",
@@ -1778,6 +1920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_setn",
           "package": "hsc3",
@@ -1788,6 +1931,7 @@
         "index": {
           "description": "Set ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_setn",
           "normalized": "Int-\u003e[(Int,[Float])]-\u003eMessage",
@@ -1803,6 +1947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a range of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_setn1",
           "package": "hsc3",
@@ -1813,6 +1958,7 @@
         "index": {
           "description": "Set range of sample values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "b_setn1",
           "normalized": "Int-\u003eInt-\u003e[Float]-\u003eMessage",
@@ -1828,6 +1974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_fill",
           "package": "hsc3",
@@ -1838,6 +1985,7 @@
         "index": {
           "description": "Fill ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_fill",
           "normalized": "[(Int,Int,Float)]-\u003eMessage",
@@ -1853,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_set",
           "package": "hsc3",
@@ -1863,6 +2012,7 @@
         "index": {
           "description": "Set bus values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_set",
           "normalized": "[(Int,Float)]-\u003eMessage",
@@ -1878,6 +2028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_set1",
           "package": "hsc3",
@@ -1888,6 +2039,7 @@
         "index": {
           "description": "Set single bus values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_set1",
           "normalized": "Int-\u003eFloat-\u003eMessage",
@@ -1903,6 +2055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_setn",
           "package": "hsc3",
@@ -1913,6 +2066,7 @@
         "index": {
           "description": "Set ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "c_setn",
           "normalized": "[(Int,[Float])]-\u003eMessage",
@@ -1928,6 +2082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_fill",
           "package": "hsc3",
@@ -1938,6 +2093,7 @@
         "index": {
           "description": "Fill ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_fill",
           "normalized": "Int-\u003e[(String,Int,Float)]-\u003eMessage",
@@ -1953,6 +2109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_set",
           "package": "hsc3",
@@ -1963,6 +2120,7 @@
         "index": {
           "description": "Set node control values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_set",
           "normalized": "Int-\u003e[(String,Float)]-\u003eMessage",
@@ -1978,6 +2136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a single node control value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_set1",
           "package": "hsc3",
@@ -1988,6 +2147,7 @@
         "index": {
           "description": "Set single node control value",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_set1",
           "normalized": "Int-\u003eString-\u003eFloat-\u003eMessage",
@@ -2003,6 +2163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_setn",
           "package": "hsc3",
@@ -2013,6 +2174,7 @@
         "index": {
           "description": "Set ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "n_setn",
           "normalized": "Int-\u003e[(String,[Float])]-\u003eMessage",
@@ -2028,6 +2190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new synth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "s_new",
           "package": "hsc3",
@@ -2038,6 +2201,7 @@
         "index": {
           "description": "Create new synth",
           "hierarchy": "Sound SC3 Server Command Float",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Float",
           "name": "s_new",
           "normalized": "String-\u003eInt-\u003eAddAction-\u003eInt-\u003e[(String,Float)]-\u003eMessage",
@@ -2053,6 +2217,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGeneric constructors for the command set implemented by the SuperCollider synthesis server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "Generic",
           "package": "hsc3",
@@ -2062,6 +2227,7 @@
         "index": {
           "description": "Generic constructors for the command set implemented by the SuperCollider synthesis server",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "Generic",
           "package": "hsc3",
@@ -2076,6 +2242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates zero filled buffer to number of channels and samples. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_alloc",
           "package": "hsc3",
@@ -2086,6 +2253,7 @@
         "index": {
           "description": "Allocates zero filled buffer to number of channels and samples Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_alloc",
           "normalized": "a-\u003ea-\u003ea-\u003eMessage",
@@ -2101,6 +2269,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_allocRead",
           "package": "hsc3",
@@ -2111,6 +2280,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_allocRead",
           "normalized": "a-\u003eString-\u003ea-\u003ea-\u003eMessage",
@@ -2127,6 +2297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file, picking specific channels. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_allocReadChannel",
           "package": "hsc3",
@@ -2137,6 +2308,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file picking specific channels Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_allocReadChannel",
           "normalized": "a-\u003eString-\u003ea-\u003ea-\u003e[a]-\u003eMessage",
@@ -2153,6 +2325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePre-allocate for b_setn1, values preceding offset are zeroed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_alloc_setn1",
           "package": "hsc3",
@@ -2163,6 +2336,7 @@
         "index": {
           "description": "Pre-allocate for setn1 values preceding offset are zeroed",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_alloc_setn1",
           "normalized": "a-\u003ea-\u003e[b]-\u003eMessage",
@@ -2178,6 +2352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose attached soundfile and write header information. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_close",
           "package": "hsc3",
@@ -2188,6 +2363,7 @@
         "index": {
           "description": "Close attached soundfile and write header information Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_close",
           "normalized": "a-\u003eMessage",
@@ -2203,6 +2379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_fill",
           "package": "hsc3",
@@ -2213,6 +2390,7 @@
         "index": {
           "description": "Fill ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_fill",
           "normalized": "a-\u003e[(a,a,b)]-\u003eMessage",
@@ -2228,6 +2406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree buffer data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_free",
           "package": "hsc3",
@@ -2238,6 +2417,7 @@
         "index": {
           "description": "Free buffer data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_free",
           "normalized": "a-\u003eMessage",
@@ -2253,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a command to fill a buffer.  (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen",
           "package": "hsc3",
@@ -2263,6 +2444,7 @@
         "index": {
           "description": "Call command to fill buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen",
           "normalized": "a-\u003eString-\u003e[Datum]-\u003eMessage",
@@ -2278,6 +2460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003echeby\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_cheby",
           "package": "hsc3",
@@ -2288,6 +2471,7 @@
         "index": {
           "description": "Call cheby gen command",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_cheby",
           "normalized": "a-\u003e[B_Gen]-\u003e[b]-\u003eMessage",
@@ -2303,6 +2487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003ecopy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_copy",
           "package": "hsc3",
@@ -2313,6 +2498,7 @@
         "index": {
           "description": "Call copy gen command",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_copy",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eMaybe a-\u003eMessage",
@@ -2328,6 +2514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine1\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine1",
           "package": "hsc3",
@@ -2338,6 +2525,7 @@
         "index": {
           "description": "Call sine1 gen command",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine1",
           "normalized": "a-\u003e[B_Gen]-\u003e[b]-\u003eMessage",
@@ -2353,6 +2541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine2\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine2",
           "package": "hsc3",
@@ -2363,6 +2552,7 @@
         "index": {
           "description": "Call sine2 gen command",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine2",
           "normalized": "a-\u003e[B_Gen]-\u003e[(b,b)]-\u003eMessage",
@@ -2378,6 +2568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003esine3\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine3",
           "package": "hsc3",
@@ -2388,6 +2579,7 @@
         "index": {
           "description": "Call sine3 gen command",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_gen_sine3",
           "normalized": "a-\u003e[B_Gen]-\u003e[(b,b,b)]-\u003eMessage",
@@ -2403,6 +2595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_get",
           "package": "hsc3",
@@ -2413,6 +2606,7 @@
         "index": {
           "description": "Get sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_get",
           "normalized": "a-\u003e[a]-\u003eMessage",
@@ -2428,6 +2622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_getn",
           "package": "hsc3",
@@ -2438,6 +2633,7 @@
         "index": {
           "description": "Get ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_getn",
           "normalized": "a-\u003e[(a,a)]-\u003eMessage",
@@ -2453,6 +2649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_getn1",
           "package": "hsc3",
@@ -2463,6 +2660,7 @@
         "index": {
           "description": "Get ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_getn1",
           "normalized": "a-\u003e(a,a)-\u003eMessage",
@@ -2478,6 +2676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_segment\u003c/a\u003e\u003c/code\u003e that takes a starting index and returns\n \u003cem\u003e(index,size)\u003c/em\u003e duples.\n\u003c/p\u003e\u003cpre\u003e b_indices 1 5 0 == zip [0..4] (replicate 5 1)\n b_indices 1024 2056 16 == [(16,8),(24,1024),(1048,1024)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_indices",
           "package": "hsc3",
@@ -2488,6 +2687,7 @@
         "index": {
           "description": "Variant of segment that takes starting index and returns index size duples indices zip replicate indices",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_indices",
           "normalized": "a-\u003ea-\u003ea-\u003e[(a,a)]",
@@ -2503,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest /b_info messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_query",
           "package": "hsc3",
@@ -2513,6 +2714,7 @@
         "index": {
           "description": "Request info messages",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_query",
           "normalized": "[a]-\u003eMessage",
@@ -2528,6 +2730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eb_query\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_query1",
           "package": "hsc3",
@@ -2538,6 +2741,7 @@
         "index": {
           "description": "Variant on query",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_query1",
           "normalized": "a-\u003eMessage",
@@ -2553,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_read",
           "package": "hsc3",
@@ -2563,6 +2768,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_read",
           "normalized": "a-\u003eString-\u003ea-\u003ea-\u003ea-\u003eBool-\u003eMessage",
@@ -2578,6 +2784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer, picking specific channels. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_readChannel",
           "package": "hsc3",
@@ -2588,6 +2795,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer picking specific channels Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_readChannel",
           "normalized": "a-\u003eString-\u003ea-\u003ea-\u003ea-\u003eBool-\u003e[a]-\u003eMessage",
@@ -2604,6 +2812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment a request for \u003cem\u003em\u003c/em\u003e places into sets of at most \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e b_segment 1024 2056 == [8,1024,1024]\n b_segment 1 5 == replicate 5 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_segment",
           "package": "hsc3",
@@ -2614,6 +2823,7 @@
         "index": {
           "description": "Segment request for places into sets of at most segment segment replicate",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_segment",
           "normalized": "a-\u003ea-\u003e[a]",
@@ -2629,6 +2839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_set",
           "package": "hsc3",
@@ -2639,6 +2850,7 @@
         "index": {
           "description": "Set sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_set",
           "normalized": "a-\u003e[(a,b)]-\u003eMessage",
@@ -2654,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single sample value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_set1",
           "package": "hsc3",
@@ -2664,6 +2877,7 @@
         "index": {
           "description": "Set single sample value",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_set1",
           "normalized": "a-\u003ea-\u003eb-\u003eMessage",
@@ -2679,6 +2893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_setn",
           "package": "hsc3",
@@ -2689,6 +2904,7 @@
         "index": {
           "description": "Set ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_setn",
           "normalized": "a-\u003e[(a,[b])]-\u003eMessage",
@@ -2704,6 +2920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a range of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_setn1",
           "package": "hsc3",
@@ -2714,6 +2931,7 @@
         "index": {
           "description": "Set range of sample values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_setn1",
           "normalized": "a-\u003ea-\u003e[b]-\u003eMessage",
@@ -2729,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sound file data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_write",
           "package": "hsc3",
@@ -2739,6 +2958,7 @@
         "index": {
           "description": "Write sound file data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_write",
           "normalized": "a-\u003eString-\u003eSoundFileFormat-\u003eSampleFormat-\u003ea-\u003ea-\u003eBool-\u003eMessage",
@@ -2754,6 +2974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero sample data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_zero",
           "package": "hsc3",
@@ -2764,6 +2985,7 @@
         "index": {
           "description": "Zero sample data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "b_zero",
           "normalized": "a-\u003eMessage",
@@ -2779,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_fill",
           "package": "hsc3",
@@ -2789,6 +3012,7 @@
         "index": {
           "description": "Fill ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_fill",
           "normalized": "[(a,a,b)]-\u003eMessage",
@@ -2804,6 +3028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_get",
           "package": "hsc3",
@@ -2814,6 +3039,7 @@
         "index": {
           "description": "Get bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_get",
           "normalized": "[a]-\u003eMessage",
@@ -2829,6 +3055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_getn",
           "package": "hsc3",
@@ -2839,6 +3066,7 @@
         "index": {
           "description": "Get ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_getn",
           "normalized": "[(a,a)]-\u003eMessage",
@@ -2854,6 +3082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_set",
           "package": "hsc3",
@@ -2864,6 +3093,7 @@
         "index": {
           "description": "Set bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_set",
           "normalized": "[(a,b)]-\u003eMessage",
@@ -2879,6 +3109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet single bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_set1",
           "package": "hsc3",
@@ -2889,6 +3120,7 @@
         "index": {
           "description": "Set single bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_set1",
           "normalized": "a-\u003eb-\u003eMessage",
@@ -2904,6 +3136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_setn",
           "package": "hsc3",
@@ -2914,6 +3147,7 @@
         "index": {
           "description": "Set ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "c_setn",
           "normalized": "[(a,[b])]-\u003eMessage",
@@ -2929,6 +3163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all synths in this group and all its sub-groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_deepFree",
           "package": "hsc3",
@@ -2939,6 +3174,7 @@
         "index": {
           "description": "Free all synths in this group and all its sub-groups",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_deepFree",
           "normalized": "[a]-\u003eMessage",
@@ -2955,6 +3191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a representation of a group's node subtree, optionally including the current control values for synths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_dumpTree",
           "package": "hsc3",
@@ -2965,6 +3202,7 @@
         "index": {
           "description": "Post representation of group node subtree optionally including the current control values for synths",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_dumpTree",
           "normalized": "[(a,Bool)]-\u003eMessage",
@@ -2981,6 +3219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all nodes in a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_freeAll",
           "package": "hsc3",
@@ -2991,6 +3230,7 @@
         "index": {
           "description": "Delete all nodes in group",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_freeAll",
           "normalized": "[a]-\u003eMessage",
@@ -3007,6 +3247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd node to head of group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_head",
           "package": "hsc3",
@@ -3017,6 +3258,7 @@
         "index": {
           "description": "Add node to head of group",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_head",
           "normalized": "[(a,a)]-\u003eMessage",
@@ -3032,6 +3274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_new",
           "package": "hsc3",
@@ -3042,6 +3285,7 @@
         "index": {
           "description": "Create new group",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_new",
           "normalized": "[(a,AddAction,a)]-\u003eMessage",
@@ -3057,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest a representation of a group's node subtree, optionally including the current control values for synths.\n\u003c/p\u003e\u003cp\u003eReplies to the sender with a \u003ccode\u003e/g_queryTree.reply\u003c/code\u003e message listing all of the nodes contained within the group in the following format:\n\u003c/p\u003e\u003cpre\u003e int32 - if synth control values are included 1, else 0\n int32 - node ID of the requested group\n int32 - number of child nodes contained within the requested group\n\n For each node in the subtree:\n [\n   int32 - node ID\n   int32 - number of child nodes contained within this node. If -1 this is a synth, if \u003e= 0 it's a group.\n\n   If this node is a synth:\n     symbol - the SynthDef name for this node.\n\n   If flag (see above) is true:\n     int32 - numControls for this synth (M)\n     [\n       symbol or int: control name or index\n       float or symbol: value or control bus mapping symbol (e.g. 'c1')\n     ] * M\n ] * the number of nodes in the subtree\n\u003c/pre\u003e\u003cp\u003eN.B. The order of nodes corresponds to their execution order on the server. Thus child nodes (those contained within a group) are listed immediately following their parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_queryTree",
           "package": "hsc3",
@@ -3067,6 +3312,7 @@
         "index": {
           "description": "Request representation of group node subtree optionally including the current control values for synths Replies to the sender with queryTree.reply message listing all of the nodes contained within the group in the following format int32 if synth control values are included else int32 node ID of the requested group int32 number of child nodes contained within the requested group For each node in the subtree int32 node ID int32 number of child nodes contained within this node If this is synth if it group If this node is synth symbol the SynthDef name for this node If flag see above is true int32 numControls for this synth symbol or int control name or index float or symbol value or control bus mapping symbol e.g c1 the number of nodes in the subtree N.B The order of nodes corresponds to their execution order on the server Thus child nodes those contained within group are listed immediately following their parent",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_queryTree",
           "normalized": "[(a,Bool)]-\u003eMessage",
@@ -3083,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd node to tail of group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_tail",
           "package": "hsc3",
@@ -3093,6 +3340,7 @@
         "index": {
           "description": "Add node to tail of group",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "g_tail",
           "normalized": "[(a,a)]-\u003eMessage",
@@ -3108,6 +3356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a node after another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_after",
           "package": "hsc3",
@@ -3118,6 +3367,7 @@
         "index": {
           "description": "Place node after another",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_after",
           "normalized": "[(a,a)]-\u003eMessage",
@@ -3133,6 +3383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a node before another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_before",
           "package": "hsc3",
@@ -3143,6 +3394,7 @@
         "index": {
           "description": "Place node before another",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_before",
           "normalized": "[(a,a)]-\u003eMessage",
@@ -3158,6 +3410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFill ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_fill",
           "package": "hsc3",
@@ -3168,6 +3421,7 @@
         "index": {
           "description": "Fill ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_fill",
           "normalized": "a-\u003e[(String,a,b)]-\u003eMessage",
@@ -3183,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_free",
           "package": "hsc3",
@@ -3193,6 +3448,7 @@
         "index": {
           "description": "Delete node",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_free",
           "normalized": "[a]-\u003eMessage",
@@ -3207,6 +3463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_map",
           "package": "hsc3",
@@ -3216,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_map",
           "normalized": "a-\u003e[(String,a)]-\u003eMessage",
@@ -3231,6 +3489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from an audio bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapa",
           "package": "hsc3",
@@ -3241,6 +3500,7 @@
         "index": {
           "description": "Map node controls to read from an audio bus",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapa",
           "normalized": "a-\u003e[(String,a)]-\u003eMessage",
@@ -3256,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from audio buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapan",
           "package": "hsc3",
@@ -3266,6 +3527,7 @@
         "index": {
           "description": "Map node controls to read from audio buses",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapan",
           "normalized": "a-\u003e[(String,a,a)]-\u003eMessage",
@@ -3281,6 +3543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapn",
           "package": "hsc3",
@@ -3291,6 +3554,7 @@
         "index": {
           "description": "Map node controls to read from buses",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_mapn",
           "normalized": "a-\u003e[(String,a,a)]-\u003eMessage",
@@ -3306,6 +3570,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove an ordered sequence of nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_order",
           "package": "hsc3",
@@ -3316,6 +3581,7 @@
         "index": {
           "description": "Move an ordered sequence of nodes",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_order",
           "normalized": "AddAction-\u003ea-\u003e[a]-\u003eMessage",
@@ -3331,6 +3597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet info about a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_query",
           "package": "hsc3",
@@ -3341,6 +3608,7 @@
         "index": {
           "description": "Get info about node",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_query",
           "normalized": "[a]-\u003eMessage",
@@ -3356,6 +3624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn node on or off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_run",
           "package": "hsc3",
@@ -3366,6 +3635,7 @@
         "index": {
           "description": "Turn node on or off",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_run",
           "normalized": "[(a,Bool)]-\u003eMessage",
@@ -3381,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_set",
           "package": "hsc3",
@@ -3391,6 +3662,7 @@
         "index": {
           "description": "Set node control values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_set",
           "normalized": "a-\u003e[(String,b)]-\u003eMessage",
@@ -3406,6 +3678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a single node control value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_set1",
           "package": "hsc3",
@@ -3416,6 +3689,7 @@
         "index": {
           "description": "Set single node control value",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_set1",
           "normalized": "a-\u003eString-\u003eb-\u003eMessage",
@@ -3431,6 +3705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet ranges of a node's control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_setn",
           "package": "hsc3",
@@ -3441,6 +3716,7 @@
         "index": {
           "description": "Set ranges of node control values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_setn",
           "normalized": "a-\u003e[(String,[b])]-\u003eMessage",
@@ -3456,6 +3732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrace a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_trace",
           "package": "hsc3",
@@ -3466,6 +3743,7 @@
         "index": {
           "description": "Trace node",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "n_trace",
           "normalized": "[a]-\u003eMessage",
@@ -3481,6 +3759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new parallel group (supernova specific).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "p_new",
           "package": "hsc3",
@@ -3491,6 +3770,7 @@
         "index": {
           "description": "Create new parallel group supernova specific",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "p_new",
           "normalized": "[(a,AddAction,a)]-\u003eMessage",
@@ -3506,6 +3786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate accumulation buffer given time-domain IR buffer and FFT size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "pc_preparePartConv",
           "package": "hsc3",
@@ -3516,6 +3797,7 @@
         "index": {
           "description": "Generate accumulation buffer given time-domain IR buffer and FFT size",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "pc_preparePartConv",
           "normalized": "a-\u003ea-\u003ea-\u003eMessage",
@@ -3532,6 +3814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_get",
           "package": "hsc3",
@@ -3542,6 +3825,7 @@
         "index": {
           "description": "Get control values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_get",
           "normalized": "a-\u003e[String]-\u003eMessage",
@@ -3557,6 +3841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_getn",
           "package": "hsc3",
@@ -3567,6 +3852,7 @@
         "index": {
           "description": "Get ranges of control values",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_getn",
           "normalized": "a-\u003e[(String,a)]-\u003eMessage",
@@ -3582,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new synth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_new",
           "package": "hsc3",
@@ -3592,6 +3879,7 @@
         "index": {
           "description": "Create new synth",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_new",
           "normalized": "String-\u003ea-\u003eAddAction-\u003ea-\u003e[(String,b)]-\u003eMessage",
@@ -3607,6 +3895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003es_new\u003c/code\u003e with no parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_new0",
           "package": "hsc3",
@@ -3617,6 +3906,7 @@
         "index": {
           "description": "new with no parameters",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_new0",
           "normalized": "String-\u003ea-\u003eAddAction-\u003ea-\u003eMessage",
@@ -3632,6 +3922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuto-reassign synth's ID to a reserved value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_noid",
           "package": "hsc3",
@@ -3642,6 +3933,7 @@
         "index": {
           "description": "Auto-reassign synth ID to reserved value",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "s_noid",
           "normalized": "[a]-\u003eMessage",
@@ -3657,6 +3949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest /synced message when all current asynchronous commands complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "sync",
           "package": "hsc3",
@@ -3667,6 +3960,7 @@
         "index": {
           "description": "Request synced message when all current asynchronous commands complete",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "sync",
           "normalized": "a-\u003eMessage",
@@ -3682,6 +3976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to a unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "u_cmd",
           "package": "hsc3",
@@ -3692,6 +3987,7 @@
         "index": {
           "description": "Send command to unit generator",
           "hierarchy": "Sound SC3 Server Command Generic",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Generic",
           "name": "u_cmd",
           "normalized": "a-\u003ea-\u003eString-\u003e[Datum]-\u003eMessage",
@@ -3707,6 +4003,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions from \u003ca\u003eSound.SC3.Server.Command.Generic\u003c/a\u003e specialised to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "Int",
           "package": "hsc3",
@@ -3716,6 +4013,7 @@
         "index": {
           "description": "Functions from Sound.SC3.Server.Command.Generic specialised to Int",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "Int",
           "package": "hsc3",
@@ -3730,6 +4028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocates zero filled buffer to number of channels and samples. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_alloc",
           "package": "hsc3",
@@ -3740,6 +4039,7 @@
         "index": {
           "description": "Allocates zero filled buffer to number of channels and samples Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_alloc",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eMessage",
@@ -3755,6 +4055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_allocRead",
           "package": "hsc3",
@@ -3765,6 +4066,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_allocRead",
           "normalized": "Int-\u003eString-\u003eInt-\u003eInt-\u003eMessage",
@@ -3781,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate buffer space and read a sound file, picking specific channels. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_allocReadChannel",
           "package": "hsc3",
@@ -3791,6 +4094,7 @@
         "index": {
           "description": "Allocate buffer space and read sound file picking specific channels Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_allocReadChannel",
           "normalized": "Int-\u003eString-\u003eInt-\u003eInt-\u003e[Int]-\u003eMessage",
@@ -3807,6 +4111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose attached soundfile and write header information. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_close",
           "package": "hsc3",
@@ -3817,6 +4122,7 @@
         "index": {
           "description": "Close attached soundfile and write header information Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_close",
           "normalized": "Int-\u003eMessage",
@@ -3832,6 +4138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree buffer data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_free",
           "package": "hsc3",
@@ -3842,6 +4149,7 @@
         "index": {
           "description": "Free buffer data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_free",
           "normalized": "Int-\u003eMessage",
@@ -3857,6 +4165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall a command to fill a buffer.  (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_gen",
           "package": "hsc3",
@@ -3867,6 +4176,7 @@
         "index": {
           "description": "Call command to fill buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_gen",
           "normalized": "Int-\u003eString-\u003e[Datum]-\u003eMessage",
@@ -3882,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003ecopy\u003c/code\u003e \u003ccode\u003e\u003ca\u003eb_gen\u003c/a\u003e\u003c/code\u003e command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_gen_copy",
           "package": "hsc3",
@@ -3892,6 +4203,7 @@
         "index": {
           "description": "Call copy gen command",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_gen_copy",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eInt-\u003eMaybe Int-\u003eMessage",
@@ -3907,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_get",
           "package": "hsc3",
@@ -3917,6 +4230,7 @@
         "index": {
           "description": "Get sample values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_get",
           "normalized": "Int-\u003e[Int]-\u003eMessage",
@@ -3932,6 +4246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_getn",
           "package": "hsc3",
@@ -3942,6 +4257,7 @@
         "index": {
           "description": "Get ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_getn",
           "normalized": "Int-\u003e[(Int,Int)]-\u003eMessage",
@@ -3957,6 +4273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of sample values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_getn1",
           "package": "hsc3",
@@ -3967,6 +4284,7 @@
         "index": {
           "description": "Get ranges of sample values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_getn1",
           "normalized": "Int-\u003e(Int,Int)-\u003eMessage",
@@ -3982,6 +4300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_segment\u003c/a\u003e\u003c/code\u003e that takes a starting index and returns \u003cem\u003e(index,size)\u003c/em\u003e duples.\n\u003c/p\u003e\u003cpre\u003e b_indices 1 5 0 == zip [0..4] (replicate 5 1)\n b_indices 1024 2056 16 == [(16,8),(24,1024),(1048,1024)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_indices",
           "package": "hsc3",
@@ -3992,6 +4311,7 @@
         "index": {
           "description": "Variant of segment that takes starting index and returns index size duples indices zip replicate indices",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_indices",
           "normalized": "Int-\u003eInt-\u003eInt-\u003e[(Int,Int)]",
@@ -4007,6 +4327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest /b_info messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_query",
           "package": "hsc3",
@@ -4017,6 +4338,7 @@
         "index": {
           "description": "Request info messages",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_query",
           "normalized": "[Int]-\u003eMessage",
@@ -4032,6 +4354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eb_query\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_query1",
           "package": "hsc3",
@@ -4042,6 +4365,7 @@
         "index": {
           "description": "Variant on query",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_query1",
           "normalized": "Int-\u003eMessage",
@@ -4057,6 +4381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_read",
           "package": "hsc3",
@@ -4067,6 +4392,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_read",
           "normalized": "Int-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eBool-\u003eMessage",
@@ -4082,6 +4408,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead sound file data into an existing buffer, picking specific channels. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_readChannel",
           "package": "hsc3",
@@ -4092,6 +4419,7 @@
         "index": {
           "description": "Read sound file data into an existing buffer picking specific channels Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_readChannel",
           "normalized": "Int-\u003eString-\u003eInt-\u003eInt-\u003eInt-\u003eBool-\u003e[Int]-\u003eMessage",
@@ -4108,6 +4436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment a request for \u003cem\u003em\u003c/em\u003e places into sets of at most \u003cem\u003en\u003c/em\u003e.\n\u003c/p\u003e\u003cpre\u003e b_segment 1024 2056 == [8,1024,1024]\n b_segment 1 5 == replicate 5 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_segment",
           "package": "hsc3",
@@ -4118,6 +4447,7 @@
         "index": {
           "description": "Segment request for places into sets of at most segment segment replicate",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_segment",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -4133,6 +4463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite sound file data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_write",
           "package": "hsc3",
@@ -4143,6 +4474,7 @@
         "index": {
           "description": "Write sound file data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_write",
           "normalized": "Int-\u003eString-\u003eSoundFileFormat-\u003eSampleFormat-\u003eInt-\u003eInt-\u003eBool-\u003eMessage",
@@ -4158,6 +4490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero sample data. (Asynchronous)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_zero",
           "package": "hsc3",
@@ -4168,6 +4501,7 @@
         "index": {
           "description": "Zero sample data Asynchronous",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "b_zero",
           "normalized": "Int-\u003eMessage",
@@ -4183,6 +4517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "c_get",
           "package": "hsc3",
@@ -4193,6 +4528,7 @@
         "index": {
           "description": "Get bus values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "c_get",
           "normalized": "[Int]-\u003eMessage",
@@ -4208,6 +4544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of bus values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "c_getn",
           "package": "hsc3",
@@ -4218,6 +4555,7 @@
         "index": {
           "description": "Get ranges of bus values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "c_getn",
           "normalized": "[(Int,Int)]-\u003eMessage",
@@ -4233,6 +4571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all synths in this group and all its sub-groups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_deepFree",
           "package": "hsc3",
@@ -4243,6 +4582,7 @@
         "index": {
           "description": "Free all synths in this group and all its sub-groups",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_deepFree",
           "normalized": "[Int]-\u003eMessage",
@@ -4259,6 +4599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a representation of a group's node subtree, optionally including the current control values for synths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_dumpTree",
           "package": "hsc3",
@@ -4269,6 +4610,7 @@
         "index": {
           "description": "Post representation of group node subtree optionally including the current control values for synths",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_dumpTree",
           "normalized": "[(Int,Bool)]-\u003eMessage",
@@ -4285,6 +4627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete all nodes in a group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_freeAll",
           "package": "hsc3",
@@ -4295,6 +4638,7 @@
         "index": {
           "description": "Delete all nodes in group",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_freeAll",
           "normalized": "[Int]-\u003eMessage",
@@ -4311,6 +4655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd node to head of group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_head",
           "package": "hsc3",
@@ -4321,6 +4666,7 @@
         "index": {
           "description": "Add node to head of group",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_head",
           "normalized": "[(Int,Int)]-\u003eMessage",
@@ -4336,6 +4682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_new",
           "package": "hsc3",
@@ -4346,6 +4693,7 @@
         "index": {
           "description": "Create new group",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_new",
           "normalized": "[(Int,AddAction,Int)]-\u003eMessage",
@@ -4361,6 +4709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest a representation of a group's node subtree, optionally including the current control values for synths.\n\u003c/p\u003e\u003cp\u003eReplies to the sender with a \u003ccode\u003e/g_queryTree.reply\u003c/code\u003e message listing all of the nodes contained within the group in the following format:\n\u003c/p\u003e\u003cpre\u003e int32 - if synth control values are included 1, else 0\n int32 - node ID of the requested group\n int32 - number of child nodes contained within the requested group\n\n For each node in the subtree:\n [\n   int32 - node ID\n   int32 - number of child nodes contained within this node. If -1 this is a synth, if \u003e= 0 it's a group.\n\n   If this node is a synth:\n     symbol - the SynthDef name for this node.\n\n   If flag (see above) is true:\n     int32 - numControls for this synth (M)\n     [\n       symbol or int: control name or index\n       float or symbol: value or control bus mapping symbol (e.g. 'c1')\n     ] * M\n ] * the number of nodes in the subtree\n\u003c/pre\u003e\u003cp\u003eN.B. The order of nodes corresponds to their execution order on the server. Thus child nodes (those contained within a group) are listed immediately following their parent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_queryTree",
           "package": "hsc3",
@@ -4371,6 +4720,7 @@
         "index": {
           "description": "Request representation of group node subtree optionally including the current control values for synths Replies to the sender with queryTree.reply message listing all of the nodes contained within the group in the following format int32 if synth control values are included else int32 node ID of the requested group int32 number of child nodes contained within the requested group For each node in the subtree int32 node ID int32 number of child nodes contained within this node If this is synth if it group If this node is synth symbol the SynthDef name for this node If flag see above is true int32 numControls for this synth symbol or int control name or index float or symbol value or control bus mapping symbol e.g c1 the number of nodes in the subtree N.B The order of nodes corresponds to their execution order on the server Thus child nodes those contained within group are listed immediately following their parent",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_queryTree",
           "normalized": "[(Int,Bool)]-\u003eMessage",
@@ -4387,6 +4737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd node to tail of group.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_tail",
           "package": "hsc3",
@@ -4397,6 +4748,7 @@
         "index": {
           "description": "Add node to tail of group",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "g_tail",
           "normalized": "[(Int,Int)]-\u003eMessage",
@@ -4412,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a node after another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_after",
           "package": "hsc3",
@@ -4422,6 +4775,7 @@
         "index": {
           "description": "Place node after another",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_after",
           "normalized": "[(Int,Int)]-\u003eMessage",
@@ -4437,6 +4791,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlace a node before another.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_before",
           "package": "hsc3",
@@ -4447,6 +4802,7 @@
         "index": {
           "description": "Place node before another",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_before",
           "normalized": "[(Int,Int)]-\u003eMessage",
@@ -4462,6 +4818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_free",
           "package": "hsc3",
@@ -4472,6 +4829,7 @@
         "index": {
           "description": "Delete node",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_free",
           "normalized": "[Int]-\u003eMessage",
@@ -4486,6 +4844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_map",
           "package": "hsc3",
@@ -4495,6 +4854,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_map",
           "normalized": "Int-\u003e[(String,Int)]-\u003eMessage",
@@ -4510,6 +4870,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from an audio bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapa",
           "package": "hsc3",
@@ -4520,6 +4881,7 @@
         "index": {
           "description": "Map node controls to read from an audio bus",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapa",
           "normalized": "Int-\u003e[(String,Int)]-\u003eMessage",
@@ -4535,6 +4897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from audio buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapan",
           "package": "hsc3",
@@ -4545,6 +4908,7 @@
         "index": {
           "description": "Map node controls to read from audio buses",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapan",
           "normalized": "Int-\u003e[(String,Int,Int)]-\u003eMessage",
@@ -4560,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a node's controls to read from buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapn",
           "package": "hsc3",
@@ -4570,6 +4935,7 @@
         "index": {
           "description": "Map node controls to read from buses",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_mapn",
           "normalized": "Int-\u003e[(String,Int,Int)]-\u003eMessage",
@@ -4585,6 +4951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove an ordered sequence of nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_order",
           "package": "hsc3",
@@ -4595,6 +4962,7 @@
         "index": {
           "description": "Move an ordered sequence of nodes",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_order",
           "normalized": "AddAction-\u003eInt-\u003e[Int]-\u003eMessage",
@@ -4610,6 +4978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet info about a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_query",
           "package": "hsc3",
@@ -4620,6 +4989,7 @@
         "index": {
           "description": "Get info about node",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_query",
           "normalized": "[Int]-\u003eMessage",
@@ -4635,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn node on or off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_run",
           "package": "hsc3",
@@ -4645,6 +5016,7 @@
         "index": {
           "description": "Turn node on or off",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_run",
           "normalized": "[(Int,Bool)]-\u003eMessage",
@@ -4660,6 +5032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrace a node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_trace",
           "package": "hsc3",
@@ -4670,6 +5043,7 @@
         "index": {
           "description": "Trace node",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "n_trace",
           "normalized": "[Int]-\u003eMessage",
@@ -4685,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new parallel group (supernova specific).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "p_new",
           "package": "hsc3",
@@ -4695,6 +5070,7 @@
         "index": {
           "description": "Create new parallel group supernova specific",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "p_new",
           "normalized": "[(Int,AddAction,Int)]-\u003eMessage",
@@ -4710,6 +5086,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate accumulation buffer given time-domain IR buffer and FFT size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "pc_preparePartConv",
           "package": "hsc3",
@@ -4720,6 +5097,7 @@
         "index": {
           "description": "Generate accumulation buffer given time-domain IR buffer and FFT size",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "pc_preparePartConv",
           "normalized": "Int-\u003eInt-\u003eInt-\u003eMessage",
@@ -4736,6 +5114,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_get",
           "package": "hsc3",
@@ -4746,6 +5125,7 @@
         "index": {
           "description": "Get control values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_get",
           "normalized": "Int-\u003e[String]-\u003eMessage",
@@ -4761,6 +5141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet ranges of control values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_getn",
           "package": "hsc3",
@@ -4771,6 +5152,7 @@
         "index": {
           "description": "Get ranges of control values",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_getn",
           "normalized": "Int-\u003e[(String,Int)]-\u003eMessage",
@@ -4786,6 +5168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003es_new\u003c/code\u003e with no parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_new0",
           "package": "hsc3",
@@ -4796,6 +5179,7 @@
         "index": {
           "description": "new with no parameters",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_new0",
           "normalized": "String-\u003eInt-\u003eAddAction-\u003eInt-\u003eMessage",
@@ -4811,6 +5195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuto-reassign synth's ID to a reserved value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_noid",
           "package": "hsc3",
@@ -4821,6 +5206,7 @@
         "index": {
           "description": "Auto-reassign synth ID to reserved value",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "s_noid",
           "normalized": "[Int]-\u003eMessage",
@@ -4836,6 +5222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest /synced message when all current asynchronous commands\n complete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "sync",
           "package": "hsc3",
@@ -4846,6 +5233,7 @@
         "index": {
           "description": "Request synced message when all current asynchronous commands complete",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "sync",
           "normalized": "Int-\u003eMessage",
@@ -4861,6 +5249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a command to a unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "u_cmd",
           "package": "hsc3",
@@ -4871,6 +5260,7 @@
         "index": {
           "description": "Send command to unit generator",
           "hierarchy": "Sound SC3 Server Command Int",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Command.Int",
           "name": "u_cmd",
           "normalized": "Int-\u003eInt-\u003eString-\u003e[Datum]-\u003eMessage",
@@ -4886,6 +5276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eServer input enumerations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Enum",
           "package": "hsc3",
@@ -4895,6 +5286,7 @@
         "index": {
           "description": "Server input enumerations",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Enum",
           "package": "hsc3",
@@ -4909,6 +5301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of possible locations to add new nodes (s_new and g_new).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddAction",
           "package": "hsc3",
@@ -4918,6 +5311,7 @@
         "index": {
           "description": "Enumeration of possible locations to add new nodes new and new",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddAction",
           "package": "hsc3",
@@ -4932,6 +5326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError posting mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorMode",
           "package": "hsc3",
@@ -4941,6 +5336,7 @@
         "index": {
           "description": "Error posting mode",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorMode",
           "package": "hsc3",
@@ -4955,6 +5351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError posting scope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorScope",
           "package": "hsc3",
@@ -4964,6 +5361,7 @@
         "index": {
           "description": "Error posting scope",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorScope",
           "package": "hsc3",
@@ -4978,6 +5376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of Message printer types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PrintLevel",
           "package": "hsc3",
@@ -4987,6 +5386,7 @@
         "index": {
           "description": "Enumeration of Message printer types",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PrintLevel",
           "package": "hsc3",
@@ -5001,6 +5401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "SampleFormat",
           "package": "hsc3",
@@ -5010,6 +5411,7 @@
         "index": {
           "description": "Sample format",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "SampleFormat",
           "package": "hsc3",
@@ -5024,6 +5426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSound file format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "SoundFileFormat",
           "package": "hsc3",
@@ -5033,6 +5436,7 @@
         "index": {
           "description": "Sound file format",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "SoundFileFormat",
           "package": "hsc3",
@@ -5046,6 +5450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddAfter",
           "package": "hsc3",
@@ -5055,6 +5460,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddAfter",
           "package": "hsc3",
@@ -5068,6 +5474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddBefore",
           "package": "hsc3",
@@ -5077,6 +5484,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddBefore",
           "package": "hsc3",
@@ -5090,6 +5498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddReplace",
           "package": "hsc3",
@@ -5099,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddReplace",
           "package": "hsc3",
@@ -5112,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddToHead",
           "package": "hsc3",
@@ -5121,6 +5532,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddToHead",
           "package": "hsc3",
@@ -5134,6 +5546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddToTail",
           "package": "hsc3",
@@ -5143,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AddToTail",
           "package": "hsc3",
@@ -5156,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Aiff",
           "package": "hsc3",
@@ -5165,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Aiff",
           "package": "hsc3",
@@ -5178,6 +5594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "AllPrinter",
           "package": "hsc3",
@@ -5187,6 +5604,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "AllPrinter",
           "package": "hsc3",
@@ -5201,6 +5619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn error posting off\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorsOff",
           "package": "hsc3",
@@ -5211,6 +5630,7 @@
         "index": {
           "description": "Turn error posting off",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorsOff",
           "package": "hsc3",
@@ -5225,6 +5645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn error posting on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorsOn",
           "package": "hsc3",
@@ -5235,6 +5656,7 @@
         "index": {
           "description": "Turn error posting on",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "ErrorsOn",
           "package": "hsc3",
@@ -5248,6 +5670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Flac",
           "package": "hsc3",
@@ -5257,6 +5680,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Flac",
           "package": "hsc3",
@@ -5271,6 +5695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Globally",
           "package": "hsc3",
@@ -5281,6 +5706,7 @@
         "index": {
           "description": "Global scope",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Globally",
           "package": "hsc3",
@@ -5294,6 +5720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "HexPrinter",
           "package": "hsc3",
@@ -5303,6 +5730,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "HexPrinter",
           "package": "hsc3",
@@ -5316,6 +5744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Ircam",
           "package": "hsc3",
@@ -5325,6 +5754,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Ircam",
           "package": "hsc3",
@@ -5339,6 +5769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBundle scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Locally",
           "package": "hsc3",
@@ -5349,6 +5780,7 @@
         "index": {
           "description": "Bundle scope",
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Locally",
           "package": "hsc3",
@@ -5362,6 +5794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Next",
           "package": "hsc3",
@@ -5371,6 +5804,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Next",
           "package": "hsc3",
@@ -5384,6 +5818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "NoPrinter",
           "package": "hsc3",
@@ -5393,6 +5828,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "NoPrinter",
           "package": "hsc3",
@@ -5406,6 +5842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmAlaw",
           "package": "hsc3",
@@ -5415,6 +5852,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmAlaw",
           "package": "hsc3",
@@ -5428,6 +5866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmDouble",
           "package": "hsc3",
@@ -5437,6 +5876,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmDouble",
           "package": "hsc3",
@@ -5450,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmFloat",
           "package": "hsc3",
@@ -5459,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmFloat",
           "package": "hsc3",
@@ -5472,6 +5914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt16",
           "package": "hsc3",
@@ -5481,6 +5924,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt16",
           "package": "hsc3",
@@ -5494,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt24",
           "package": "hsc3",
@@ -5503,6 +5948,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt24",
           "package": "hsc3",
@@ -5516,6 +5962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt32",
           "package": "hsc3",
@@ -5525,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt32",
           "package": "hsc3",
@@ -5538,6 +5986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt8",
           "package": "hsc3",
@@ -5547,6 +5996,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmInt8",
           "package": "hsc3",
@@ -5560,6 +6010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmMulaw",
           "package": "hsc3",
@@ -5569,6 +6020,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "PcmMulaw",
           "package": "hsc3",
@@ -5582,6 +6034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Raw",
           "package": "hsc3",
@@ -5591,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Raw",
           "package": "hsc3",
@@ -5604,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "TextPrinter",
           "package": "hsc3",
@@ -5613,6 +6068,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "TextPrinter",
           "package": "hsc3",
@@ -5626,6 +6082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "Wave",
           "package": "hsc3",
@@ -5635,6 +6092,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "Wave",
           "package": "hsc3",
@@ -5648,6 +6106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "sampleFormatString",
           "package": "hsc3",
@@ -5657,6 +6116,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "sampleFormatString",
           "normalized": "SampleFormat-\u003eString",
@@ -5672,6 +6132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Enum",
           "name": "soundFileFormatString",
           "package": "hsc3",
@@ -5681,6 +6142,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Enum",
           "name": "soundFileFormatString",
           "normalized": "SoundFileFormat-\u003eString",
@@ -5697,6 +6159,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.Server\u003c/a\u003e and \u003cem\u003eFD\u003c/em\u003e transport.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.FD",
           "name": "FD",
           "package": "hsc3",
@@ -5706,6 +6169,7 @@
         "index": {
           "description": "Composite of Sound.SC3.Server and FD transport",
           "hierarchy": "Sound SC3 Server FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.FD",
           "name": "FD",
           "package": "hsc3",
@@ -5720,6 +6184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to provide mediated access to the SC3 help system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Help",
           "name": "Help",
           "package": "hsc3",
@@ -5729,6 +6194,7 @@
         "index": {
           "description": "Functions to provide mediated access to the SC3 help system",
           "hierarchy": "Sound SC3 Server Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Help",
           "name": "Help",
           "package": "hsc3",
@@ -5743,6 +6209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate path to indicated SC3 instance method help.\n\u003c/p\u003e\u003cpre\u003e let r = \"./Reference/Server-Command-Reference.html#/b_alloc\"\n in sc3HelpServerCommand \".\" \"b_alloc\" == r\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Help",
           "name": "sc3_server_command_ref",
           "package": "hsc3",
@@ -5753,6 +6220,7 @@
         "index": {
           "description": "Generate path to indicated SC3 instance method help let Reference Server-Command-Reference.html alloc in sc3HelpServerCommand alloc",
           "hierarchy": "Sound SC3 Server Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Help",
           "name": "sc3_server_command_ref",
           "normalized": "FilePath-\u003eString-\u003eFilePath",
@@ -5768,6 +6236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup \u003ccode\u003eSC3\u003c/code\u003e help file for server command \u003ccode\u003ec\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e Sound.SC3.Server.Help.viewServerHelp \"/b_allocRead\"\n viewServerHelp \"done\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Help",
           "name": "viewServerHelp",
           "package": "hsc3",
@@ -5778,6 +6247,7 @@
         "index": {
           "description": "Lookup SC3 help file for server command Sound.SC3.Server.Help.viewServerHelp allocRead viewServerHelp done",
           "hierarchy": "Sound SC3 Server Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Help",
           "name": "viewServerHelp",
           "normalized": "String-\u003eIO()",
@@ -5794,6 +6264,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.Server\u003c/a\u003e and \u003ccode\u003e\u003ca\u003eMonad\u003c/a\u003e\u003c/code\u003e transport.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -5803,6 +6274,7 @@
         "index": {
           "description": "Composite of Sound.SC3.Server and Monad transport",
           "hierarchy": "Sound SC3 Server Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -5817,6 +6289,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon-realtime score generation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5826,6 +6299,7 @@
         "index": {
           "description": "Non-realtime score generation",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5840,6 +6314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score is a sequence of \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5849,6 +6324,7 @@
         "index": {
           "description": "An NRT score is sequence of Bundle",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5862,6 +6338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5871,6 +6348,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "NRT",
           "package": "hsc3",
@@ -5885,6 +6363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "decodeNRT",
           "package": "hsc3",
@@ -5895,6 +6374,7 @@
         "index": {
           "description": "Decode an NRT ByteString",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "decodeNRT",
           "normalized": "ByteString-\u003eNRT",
@@ -5911,6 +6391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e to a list of \u003ccode\u003e\u003ca\u003eBundle\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "decode_nrt_bundles",
           "package": "hsc3",
@@ -5921,6 +6402,7 @@
         "index": {
           "description": "Decode an NRT ByteString to list of Bundle",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "decode_nrt_bundles",
           "normalized": "ByteString-\u003e[Bundle]",
@@ -5936,6 +6418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "encodeNRT",
           "package": "hsc3",
@@ -5946,6 +6429,7 @@
         "index": {
           "description": "Encode an NRT score",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "encodeNRT",
           "normalized": "NRT-\u003eByteString",
@@ -5961,6 +6445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "nrt_bundles",
           "package": "hsc3",
@@ -5970,6 +6455,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "nrt_bundles",
           "normalized": "[Bundle]",
@@ -5985,6 +6471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode and prefix with encoded length.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "oscWithSize",
           "package": "hsc3",
@@ -5995,6 +6482,7 @@
         "index": {
           "description": "Encode and prefix with encoded length",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "oscWithSize",
           "normalized": "Bundle-\u003eByteString",
@@ -6011,6 +6499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score to a file handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "putNRT",
           "package": "hsc3",
@@ -6021,6 +6510,7 @@
         "index": {
           "description": "Write an NRT score to file handle",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "putNRT",
           "normalized": "Handle-\u003eNRT-\u003eIO()",
@@ -6037,6 +6527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003edecodeNRT\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003ereadFile\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "readNRT",
           "package": "hsc3",
@@ -6047,6 +6538,7 @@
         "index": {
           "description": "decodeNRT of readFile",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "readNRT",
           "normalized": "FilePath-\u003eIO NRT",
@@ -6063,6 +6555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.NRT",
           "name": "writeNRT",
           "package": "hsc3",
@@ -6073,6 +6566,7 @@
         "index": {
           "description": "Write an NRT score",
           "hierarchy": "Sound SC3 Server NRT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.NRT",
           "name": "writeNRT",
           "normalized": "FilePath-\u003eNRT-\u003eIO()",
@@ -6089,6 +6583,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRequest and display status information from the synthesis server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Status",
           "name": "Status",
           "package": "hsc3",
@@ -6098,6 +6593,7 @@
         "index": {
           "description": "Request and display status information from the synthesis server",
           "hierarchy": "Sound SC3 Server Status",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Status",
           "name": "Status",
           "package": "hsc3",
@@ -6112,6 +6608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet \u003cem\u003en\u003c/em\u003eth field of status as \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Status",
           "name": "extractStatusField",
           "package": "hsc3",
@@ -6122,6 +6619,7 @@
         "index": {
           "description": "Get th field of status as Floating",
           "hierarchy": "Sound SC3 Server Status",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Status",
           "name": "extractStatusField",
           "normalized": "Int-\u003e[Datum]-\u003ea",
@@ -6138,6 +6636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNames of status fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Status",
           "name": "statusFields",
           "package": "hsc3",
@@ -6148,6 +6647,7 @@
         "index": {
           "description": "Names of status fields",
           "hierarchy": "Sound SC3 Server Status",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Status",
           "name": "statusFields",
           "normalized": "[String]",
@@ -6164,6 +6664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStatus pretty printer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Status",
           "name": "statusFormat",
           "package": "hsc3",
@@ -6174,6 +6675,7 @@
         "index": {
           "description": "Status pretty printer",
           "hierarchy": "Sound SC3 Server Status",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Status",
           "name": "statusFormat",
           "normalized": "[Datum]-\u003e[String]",
@@ -6189,6 +6691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Internal",
           "package": "hsc3",
@@ -6197,6 +6700,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Internal",
           "package": "hsc3",
@@ -6210,6 +6714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Input",
           "package": "hsc3",
@@ -6218,6 +6723,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Input",
           "package": "hsc3",
@@ -6232,6 +6738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e4-tuple to count \u003ccode\u003e\u003ca\u003eKType\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "KS_COUNT",
           "package": "hsc3",
@@ -6241,6 +6748,7 @@
         "index": {
           "description": "tuple to count KType",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "KS_COUNT",
           "package": "hsc3",
@@ -6254,6 +6762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Map",
           "package": "hsc3",
@@ -6262,6 +6771,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Map",
           "package": "hsc3",
@@ -6275,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Maps",
           "package": "hsc3",
@@ -6283,6 +6794,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Maps",
           "package": "hsc3",
@@ -6296,6 +6808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "UGenParts",
           "package": "hsc3",
@@ -6304,6 +6817,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "UGenParts",
           "package": "hsc3",
@@ -6317,6 +6831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Input",
           "package": "hsc3",
@@ -6326,6 +6841,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "Input",
           "package": "hsc3",
@@ -6340,6 +6856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd implicit \u003cem\u003econtrol\u003c/em\u003e UGens to \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "add_implicit",
           "package": "hsc3",
@@ -6350,6 +6867,7 @@
         "index": {
           "description": "Add implicit control UGens to Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "add_implicit",
           "normalized": "Graph-\u003eGraph",
@@ -6365,6 +6883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "as_from_port",
           "package": "hsc3",
@@ -6375,6 +6894,7 @@
         "index": {
           "description": "Transform Node to FromPort",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "as_from_port",
           "normalized": "Node-\u003eFromPort",
@@ -6390,6 +6910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate all edges given a set of \u003ccode\u003e\u003ca\u003eNodeU\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "edges",
           "package": "hsc3",
@@ -6400,6 +6921,7 @@
         "index": {
           "description": "Calculate all edges given set of NodeU",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "edges",
           "normalized": "[Node]-\u003e[Edge]",
@@ -6415,6 +6937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "empty_graph",
           "package": "hsc3",
@@ -6425,6 +6948,7 @@
         "index": {
           "description": "The empty Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "empty_graph",
           "package": "hsc3",
@@ -6438,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct instrument definition bytecode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_graphdef",
           "package": "hsc3",
@@ -6448,6 +6973,7 @@
         "index": {
           "description": "Construct instrument definition bytecode",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_graphdef",
           "normalized": "Graph-\u003eByteString",
@@ -6463,6 +6989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte-encode \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_input",
           "package": "hsc3",
@@ -6473,6 +7000,7 @@
         "index": {
           "description": "Byte-encode Input value",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_input",
           "normalized": "Input-\u003eByteString",
@@ -6488,6 +7016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte-encode \u003ccode\u003e\u003ca\u003eNodeK\u003c/a\u003e\u003c/code\u003e control node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_node_k",
           "package": "hsc3",
@@ -6498,6 +7027,7 @@
         "index": {
           "description": "Byte-encode NodeK control node",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_node_k",
           "normalized": "Maps-\u003eNode-\u003eByteString",
@@ -6513,6 +7043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eByte-encode \u003ccode\u003e\u003ca\u003eNodeU\u003c/a\u003e\u003c/code\u003e primitive node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_node_u",
           "package": "hsc3",
@@ -6523,6 +7054,7 @@
         "index": {
           "description": "Byte-encode NodeU primitive node",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "encode_node_u",
           "normalized": "Maps-\u003eNode-\u003eByteString",
@@ -6538,6 +7070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocate index in map given node identifer \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "fetch",
           "package": "hsc3",
@@ -6548,6 +7081,7 @@
         "index": {
           "description": "Locate index in map given node identifer NodeId",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "fetch",
           "normalized": "NodeId-\u003eMap-\u003eInt",
@@ -6563,6 +7097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControls are a special case.  We need to know not the overall\n index but the index in relation to controls of the same type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "fetch_k",
           "package": "hsc3",
@@ -6573,6 +7108,7 @@
         "index": {
           "description": "Controls are special case We need to know not the overall index but the index in relation to controls of the same type",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "fetch_k",
           "normalized": "NodeId-\u003eKType-\u003e[Node]-\u003eInt",
@@ -6588,6 +7124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to determine if \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e is a constant with indicated \u003cem\u003evalue\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_c_p",
           "package": "hsc3",
@@ -6598,6 +7135,7 @@
         "index": {
           "description": "Predicate to determine if Node is constant with indicated value",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_c_p",
           "normalized": "Float-\u003eNode-\u003eBool",
@@ -6613,6 +7151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to determine if \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e is a control with indicated\n \u003cem\u003ename\u003c/em\u003e.  Names must be unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_k_p",
           "package": "hsc3",
@@ -6623,6 +7162,7 @@
         "index": {
           "description": "Predicate to determine if Node is control with indicated name Names must be unique",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_k_p",
           "normalized": "String-\u003eNode-\u003eBool",
@@ -6638,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e with indicated \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_node",
           "package": "hsc3",
@@ -6648,6 +7189,7 @@
         "index": {
           "description": "Find Node with indicated NodeId",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_node",
           "normalized": "Graph-\u003eNodeId-\u003eMaybe Node",
@@ -6663,6 +7205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to locate primitive, names must be unique.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_u_p",
           "package": "hsc3",
@@ -6673,6 +7216,7 @@
         "index": {
           "description": "Predicate to locate primitive names must be unique",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "find_u_p",
           "normalized": "UGenParts-\u003eNode-\u003eBool",
@@ -6688,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocate \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e in \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "from_port_node",
           "package": "hsc3",
@@ -6698,6 +7243,7 @@
         "index": {
           "description": "Locate Node of FromPort in Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "from_port_node",
           "normalized": "Graph-\u003eFromPort-\u003eMaybe Node",
@@ -6713,6 +7259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the maximum \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e used at \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e (this ought normally be\n the \u003ccode\u003e\u003ca\u003enextId\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "graph_maximum_id",
           "package": "hsc3",
@@ -6723,6 +7270,7 @@
         "index": {
           "description": "Find the maximum NodeId used at Graph this ought normally be the nextId",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "graph_maximum_id",
           "normalized": "Graph-\u003eNodeId",
@@ -6738,6 +7286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e an \u003cem\u003eimplicit\u003c/em\u003e control UGen?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_implicit_control",
           "package": "hsc3",
@@ -6748,6 +7297,7 @@
         "index": {
           "description": "Is Node an implicit control UGen",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_implicit_control",
           "normalized": "Node-\u003eBool",
@@ -6763,6 +7313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e a \u003cem\u003econstant\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_c",
           "package": "hsc3",
@@ -6773,6 +7324,7 @@
         "index": {
           "description": "Is Node constant",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_c",
           "normalized": "Node-\u003eBool",
@@ -6788,6 +7340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e a \u003cem\u003econtrol\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_k",
           "package": "hsc3",
@@ -6798,6 +7351,7 @@
         "index": {
           "description": "Is Node control",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_k",
           "normalized": "Node-\u003eBool",
@@ -6813,6 +7367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e a \u003cem\u003eUGen\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_u",
           "package": "hsc3",
@@ -6823,6 +7378,7 @@
         "index": {
           "description": "Is Node UGen",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "is_node_u",
           "normalized": "Node-\u003eBool",
@@ -6838,6 +7394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of \u003cem\u003econtrols\u003c/em\u003e if each \u003ccode\u003e\u003ca\u003eKType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ks_count",
           "package": "hsc3",
@@ -6848,6 +7405,7 @@
         "index": {
           "description": "Count the number of controls if each KType",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ks_count",
           "normalized": "[Node]-\u003eKS_COUNT",
@@ -6863,6 +7421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine class of control given \u003ccode\u003e\u003ca\u003eRate\u003c/a\u003e\u003c/code\u003e and \u003cem\u003etrigger\u003c/em\u003e status.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ktype",
           "package": "hsc3",
@@ -6873,6 +7432,7 @@
         "index": {
           "description": "Determine class of control given Rate and trigger status",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ktype",
           "normalized": "Rate-\u003eBool-\u003eKType",
@@ -6888,6 +7448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup \u003ccode\u003e\u003ca\u003eKType\u003c/a\u003e\u003c/code\u003e index from map (erroring variant of \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ktype_map_lookup",
           "package": "hsc3",
@@ -6898,6 +7459,7 @@
         "index": {
           "description": "Lookup KType index from map erroring variant of lookup",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "ktype_map_lookup",
           "normalized": "KType-\u003e[(KType,Int)]-\u003eInt",
@@ -6913,6 +7475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct \u003ccode\u003e\u003ca\u003eInput\u003c/a\u003e\u003c/code\u003e form required by byte-code generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "make_input",
           "package": "hsc3",
@@ -6923,6 +7486,7 @@
         "index": {
           "description": "Construct Input form required by byte-code generator",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "make_input",
           "normalized": "Maps-\u003eFromPort-\u003eInput",
@@ -6938,6 +7502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct implicit \u003cem\u003econtrol\u003c/em\u003e unit generator \u003ccode\u003eNodes\u003c/code\u003e.  Unit\n generators are only constructed for instances of control types that\n are present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_implicit",
           "package": "hsc3",
@@ -6948,6 +7513,7 @@
         "index": {
           "description": "Construct implicit control unit generator Nodes Unit generators are only constructed for instances of control types that are present",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_implicit",
           "normalized": "[Node]-\u003e[Node]",
@@ -6963,6 +7529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap associating \u003ccode\u003e\u003ca\u003eKType\u003c/a\u003e\u003c/code\u003e with UGen index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_ktype_map",
           "package": "hsc3",
@@ -6973,6 +7540,7 @@
         "index": {
           "description": "Map associating KType with UGen index",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_ktype_map",
           "normalized": "[Node]-\u003e[(KType,Int)]",
@@ -6988,6 +7556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate \u003ccode\u003e\u003ca\u003eMaps\u003c/a\u003e\u003c/code\u003e translating node identifiers to synthdef indexes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_maps",
           "package": "hsc3",
@@ -6998,6 +7567,7 @@
         "index": {
           "description": "Generate Maps translating node identifiers to synthdef indexes",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_maps",
           "normalized": "Graph-\u003eMaps",
@@ -7012,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node",
           "package": "hsc3",
@@ -7021,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node",
           "normalized": "UGen-\u003eGraph-\u003e(Node,Graph)",
@@ -7036,6 +7608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither find existing \u003ccode\u003e\u003ca\u003eConstant\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, or insert a new \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_c",
           "package": "hsc3",
@@ -7046,6 +7619,7 @@
         "index": {
           "description": "Either find existing Constant Node or insert new Node",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_c",
           "normalized": "Constant-\u003eGraph-\u003e(Node,Graph)",
@@ -7061,6 +7635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither find existing \u003ccode\u003e\u003ca\u003eControl\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, or insert a new \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_k",
           "package": "hsc3",
@@ -7071,6 +7646,7 @@
         "index": {
           "description": "Either find existing Control Node or insert new Node",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_k",
           "normalized": "Control-\u003eGraph-\u003e(Node,Graph)",
@@ -7086,6 +7662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxies do not get stored in the graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_p",
           "package": "hsc3",
@@ -7096,6 +7673,7 @@
         "index": {
           "description": "Proxies do not get stored in the graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_p",
           "normalized": "Node-\u003ePortIndex-\u003eGraph-\u003e(Node,Graph)",
@@ -7111,6 +7689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEither find existing \u003ccode\u003e\u003ca\u003ePrimitive\u003c/a\u003e\u003c/code\u003e node, or insert a new \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_u",
           "package": "hsc3",
@@ -7121,6 +7700,7 @@
         "index": {
           "description": "Either find existing Primitive node or insert new Node",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_u",
           "normalized": "Primitive-\u003eGraph-\u003e(Node,Graph)",
@@ -7135,6 +7715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_u_acc",
           "package": "hsc3",
@@ -7144,6 +7725,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "mk_node_u_acc",
           "normalized": "[UGen]-\u003e[Node]-\u003eGraph-\u003e([Node],Graph)",
@@ -7159,6 +7741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompare \u003ccode\u003e\u003ca\u003eNodeK\u003c/a\u003e\u003c/code\u003e values \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003enode_k_type\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_k_cmp",
           "package": "hsc3",
@@ -7169,6 +7752,7 @@
         "index": {
           "description": "Compare NodeK values on node type",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_k_cmp",
           "normalized": "Node-\u003eNode-\u003eOrdering",
@@ -7184,6 +7768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine \u003ccode\u003e\u003ca\u003eKType\u003c/a\u003e\u003c/code\u003e of a \u003cem\u003econtrol\u003c/em\u003e UGen at \u003ccode\u003e\u003ca\u003eNodeU\u003c/a\u003e\u003c/code\u003e, or not.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_ktype",
           "package": "hsc3",
@@ -7194,6 +7779,7 @@
         "index": {
           "description": "Determine KType of control UGen at NodeU or not",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_ktype",
           "normalized": "Node-\u003eMaybe KType",
@@ -7209,6 +7795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a label for \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e using the \u003cem\u003etype\u003c/em\u003e and the \u003ccode\u003e\u003ca\u003enode_id\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_label",
           "package": "hsc3",
@@ -7219,6 +7806,7 @@
         "index": {
           "description": "Generate label for Node using the type and the node id",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "node_label",
           "normalized": "Node-\u003eString",
@@ -7234,6 +7822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet \u003ccode\u003e\u003ca\u003eport_idx\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFromPort_U\u003c/a\u003e\u003c/code\u003e, else \u003ccode\u003e0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "port_idx_or_zero",
           "package": "hsc3",
@@ -7244,6 +7833,7 @@
         "index": {
           "description": "Get port idx for FromPort else",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "port_idx_or_zero",
           "normalized": "FromPort-\u003ePortIndex",
@@ -7259,6 +7849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform \u003cem\u003emce\u003c/em\u003e nodes to \u003cem\u003emrg\u003c/em\u003e nodes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "prepare_root",
           "package": "hsc3",
@@ -7269,6 +7860,7 @@
         "index": {
           "description": "Transform mce nodes to mrg nodes",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "prepare_root",
           "normalized": "UGen-\u003eUGen",
@@ -7284,6 +7876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a constant \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_c",
           "package": "hsc3",
@@ -7294,6 +7887,7 @@
         "index": {
           "description": "Insert constant Node into the Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_c",
           "normalized": "Float-\u003eGraph-\u003e(Node,Graph)",
@@ -7309,6 +7903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a control node into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_k",
           "package": "hsc3",
@@ -7319,6 +7914,7 @@
         "index": {
           "description": "Insert control node into the Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_k",
           "normalized": "(Rate,String,Float,Bool)-\u003eGraph-\u003e(Node,Graph)",
@@ -7334,6 +7930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert a \u003cem\u003eprimitive\u003c/em\u003e \u003ccode\u003e\u003ca\u003eNodeU\u003c/a\u003e\u003c/code\u003e into the \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_u",
           "package": "hsc3",
@@ -7344,6 +7941,7 @@
         "index": {
           "description": "Insert primitive NodeU into the Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "push_u",
           "normalized": "UGenParts-\u003eGraph-\u003e(Node,Graph)",
@@ -7359,6 +7957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove implicit \u003cem\u003econtrol\u003c/em\u003e UGens from \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "remove_implicit",
           "package": "hsc3",
@@ -7369,6 +7968,7 @@
         "index": {
           "description": "Remove implicit control UGens from Graph",
           "hierarchy": "Sound SC3 Server Synthdef Internal",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Internal",
           "name": "remove_implicit",
           "normalized": "Graph-\u003eGraph",
@@ -7384,6 +7984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA \u003cem\u003edisasembler\u003c/em\u003e for UGen graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "Reconstruct",
           "package": "hsc3",
@@ -7393,6 +7994,7 @@
         "index": {
           "description": "disasembler for UGen graphs",
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "Reconstruct",
           "package": "hsc3",
@@ -7406,6 +8008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "from_port_label",
           "package": "hsc3",
@@ -7415,6 +8018,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "from_port_label",
           "normalized": "Char-\u003eFromPort-\u003eString",
@@ -7429,6 +8033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "is_operator_name",
           "package": "hsc3",
@@ -7438,6 +8043,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "is_operator_name",
           "normalized": "String-\u003eBool",
@@ -7452,6 +8058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "node_sort",
           "package": "hsc3",
@@ -7461,6 +8068,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "node_sort",
           "normalized": "[Node]-\u003e[Node]",
@@ -7475,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "parenthesise_operator",
           "package": "hsc3",
@@ -7484,6 +8093,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "parenthesise_operator",
           "normalized": "String-\u003eString",
@@ -7498,6 +8108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_c_str",
           "package": "hsc3",
@@ -7507,6 +8118,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_c_str",
           "normalized": "Node-\u003eString",
@@ -7521,6 +8133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_c_ugen",
           "package": "hsc3",
@@ -7530,6 +8143,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_c_ugen",
           "normalized": "Node-\u003eUGen",
@@ -7545,6 +8159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a reconstruction of a \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.ID\n\u003c/pre\u003e\u003cpre\u003e let {k = control KR \"bus\" 0\n     ;o = sinOsc AR 440 0 + whiteNoise 'a' AR\n     ;u = out k (pan2 (o * 0.1) 0 1)\n     ;m = mrg [u,out 1 (impulse AR 1 0 * 0.1)]}\n in putStrLn (reconstruct_graph_str (synth m))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_graph_str",
           "package": "hsc3",
@@ -7555,6 +8170,7 @@
         "index": {
           "description": "Generate reconstruction of Graph import Sound.SC3.ID let control KR bus sinOsc AR whiteNoise AR out pan2 mrg out impulse AR in putStrLn reconstruct graph str synth",
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_graph_str",
           "normalized": "Graph-\u003eString",
@@ -7569,6 +8185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_rnd",
           "package": "hsc3",
@@ -7578,6 +8195,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_rnd",
           "normalized": "Node-\u003e(Rate,String,Float)",
@@ -7592,6 +8210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_str",
           "package": "hsc3",
@@ -7601,6 +8220,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_str",
           "normalized": "Node-\u003eString",
@@ -7615,6 +8235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_ugen",
           "package": "hsc3",
@@ -7624,6 +8245,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_k_ugen",
           "normalized": "Node-\u003eUGen",
@@ -7638,6 +8260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_mce_str",
           "package": "hsc3",
@@ -7647,6 +8270,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_mce_str",
           "normalized": "Node-\u003eString",
@@ -7661,6 +8285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_mrg_str",
           "package": "hsc3",
@@ -7670,6 +8295,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_mrg_str",
           "normalized": "[Node]-\u003eString",
@@ -7684,6 +8310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_u_str",
           "package": "hsc3",
@@ -7693,6 +8320,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "reconstruct_u_str",
           "normalized": "Node-\u003e[String]",
@@ -7707,6 +8335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "ugen_qname",
           "package": "hsc3",
@@ -7716,6 +8345,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Reconstruct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Reconstruct",
           "name": "ugen_qname",
           "normalized": "String-\u003eSpecial-\u003e(String,String)",
@@ -7731,6 +8361,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTransformations over \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "Transform",
           "package": "hsc3",
@@ -7740,6 +8371,7 @@
         "index": {
           "description": "Transformations over Graph structure",
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "Transform",
           "package": "hsc3",
@@ -7754,6 +8386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e is a \u003cem\u003econstant\u003c/em\u003e generate a \u003cem\u003econtrol\u003c/em\u003e \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e,\n else retain \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_from_port",
           "package": "hsc3",
@@ -7764,6 +8397,7 @@
         "index": {
           "description": "If the FromPort is constant generate control Node else retain FromPort",
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_from_port",
           "normalized": "Graph-\u003eNodeId-\u003eFromPort-\u003e(NodeId,Either FromPort Node)",
@@ -7779,6 +8413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a set of \u003ccode\u003e\u003ca\u003eNodeU\u003c/a\u003e\u003c/code\u003e \u003cem\u003einputs\u003c/em\u003e from constants to controls.  The\n result triple gives the incremented \u003ccode\u003e\u003ca\u003eNodeId\u003c/a\u003e\u003c/code\u003e, the transformed\n \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e list, and the list of newly minted control \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_inputs",
           "package": "hsc3",
@@ -7789,6 +8424,7 @@
         "index": {
           "description": "Lift set of NodeU inputs from constants to controls The result triple gives the incremented NodeId the transformed FromPort list and the list of newly minted control Node",
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_inputs",
           "normalized": "Graph-\u003eNodeId-\u003e[FromPort]-\u003e(NodeId,[FromPort],[Node])",
@@ -7803,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_ugen",
           "package": "hsc3",
@@ -7812,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_ugen",
           "normalized": "Graph-\u003eNodeId-\u003eNode-\u003e(NodeId,Node,[Node])",
@@ -7826,6 +8464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_ugens",
           "package": "hsc3",
@@ -7835,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "c_lift_ugens",
           "normalized": "Graph-\u003eNodeId-\u003e[Node]-\u003e(NodeId,[Node],[Node])",
@@ -7850,6 +8490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform \u003ccode\u003e\u003ca\u003eNodeC\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eNodeK\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eid\u003c/a\u003e\u003c/code\u003e for other \u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e types.\n\u003c/p\u003e\u003cpre\u003e constant_to_control 8 (NodeC 0 0.1) == (NodeK 8 KR \"k_8\" 0.1 K_KR,9)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "constant_to_control",
           "package": "hsc3",
@@ -7860,6 +8501,7 @@
         "index": {
           "description": "Transform NodeC to NodeK id for other Node types constant to control NodeC NodeK KR KR",
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "constant_to_control",
           "normalized": "NodeId-\u003eNode-\u003e(NodeId,Node)",
@@ -7875,6 +8517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErroring variant of \u003ccode\u003e\u003ca\u003efrom_port_node\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "from_port_node_err",
           "package": "hsc3",
@@ -7885,6 +8528,7 @@
         "index": {
           "description": "Erroring variant of from port node",
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "from_port_node_err",
           "normalized": "Graph-\u003eFromPort-\u003eNode",
@@ -7899,6 +8543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "lift_constants",
           "package": "hsc3",
@@ -7908,6 +8553,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Transform",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Transform",
           "name": "lift_constants",
           "normalized": "Graph-\u003eGraph",
@@ -7923,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e and related types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Type",
           "package": "hsc3",
@@ -7932,6 +8579,7 @@
         "index": {
           "description": "Node Graph and related types",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Type",
           "package": "hsc3",
@@ -7946,6 +8594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA connection from \u003ccode\u003e\u003ca\u003eFromPort\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eToPort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Edge",
           "package": "hsc3",
@@ -7955,6 +8604,7 @@
         "index": {
           "description": "connection from FromPort to ToPort",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Edge",
           "package": "hsc3",
@@ -7969,6 +8619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to represent the left hand side of an edge in a unit\n   generator graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort",
           "package": "hsc3",
@@ -7978,6 +8629,7 @@
         "index": {
           "description": "Type to represent the left hand side of an edge in unit generator graph",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort",
           "package": "hsc3",
@@ -7992,6 +8644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to represent unit generator graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graph",
           "package": "hsc3",
@@ -8001,6 +8654,7 @@
         "index": {
           "description": "Type to represent unit generator graph",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graph",
           "package": "hsc3",
@@ -8015,6 +8669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary representation of a unit generator graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graphdef",
           "package": "hsc3",
@@ -8024,6 +8679,7 @@
         "index": {
           "description": "Binary representation of unit generator graph",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graphdef",
           "package": "hsc3",
@@ -8038,6 +8694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of the four operating rates for controls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "KType",
           "package": "hsc3",
@@ -8047,6 +8704,7 @@
         "index": {
           "description": "Enumeration of the four operating rates for controls",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "KType",
           "package": "hsc3",
@@ -8061,6 +8719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType to represent nodes in unit generator graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Node",
           "package": "hsc3",
@@ -8070,6 +8729,7 @@
         "index": {
           "description": "Type to represent nodes in unit generator graph",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Node",
           "package": "hsc3",
@@ -8084,6 +8744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNode identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeId",
           "package": "hsc3",
@@ -8093,6 +8754,7 @@
         "index": {
           "description": "Node identifier",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeId",
           "package": "hsc3",
@@ -8107,6 +8769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePort index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "PortIndex",
           "package": "hsc3",
@@ -8116,6 +8779,7 @@
         "index": {
           "description": "Port index",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "PortIndex",
           "package": "hsc3",
@@ -8130,6 +8794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA destination port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ToPort",
           "package": "hsc3",
@@ -8139,6 +8804,7 @@
         "index": {
           "description": "destination port",
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ToPort",
           "package": "hsc3",
@@ -8152,6 +8818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_C",
           "package": "hsc3",
@@ -8161,6 +8828,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_C",
           "package": "hsc3",
@@ -8174,6 +8842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_K",
           "package": "hsc3",
@@ -8183,6 +8852,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_K",
           "package": "hsc3",
@@ -8196,6 +8866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_U",
           "package": "hsc3",
@@ -8205,6 +8876,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "FromPort_U",
           "package": "hsc3",
@@ -8218,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graph",
           "package": "hsc3",
@@ -8227,6 +8900,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "Graph",
           "package": "hsc3",
@@ -8240,6 +8914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_AR",
           "package": "hsc3",
@@ -8249,6 +8924,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_AR",
           "package": "hsc3",
@@ -8262,6 +8938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_IR",
           "package": "hsc3",
@@ -8271,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_IR",
           "package": "hsc3",
@@ -8284,6 +8962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_KR",
           "package": "hsc3",
@@ -8293,6 +8972,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_KR",
           "package": "hsc3",
@@ -8306,6 +8986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_TR",
           "package": "hsc3",
@@ -8315,6 +8996,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "K_TR",
           "package": "hsc3",
@@ -8328,6 +9010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeC",
           "package": "hsc3",
@@ -8337,6 +9020,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeC",
           "package": "hsc3",
@@ -8350,6 +9034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeK",
           "package": "hsc3",
@@ -8359,6 +9044,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeK",
           "package": "hsc3",
@@ -8372,6 +9058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeP",
           "package": "hsc3",
@@ -8381,6 +9068,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeP",
           "package": "hsc3",
@@ -8394,6 +9082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeU",
           "package": "hsc3",
@@ -8403,6 +9092,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "NodeU",
           "package": "hsc3",
@@ -8416,6 +9106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ToPort",
           "package": "hsc3",
@@ -8425,6 +9116,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ToPort",
           "package": "hsc3",
@@ -8438,6 +9130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "constants",
           "package": "hsc3",
@@ -8447,6 +9140,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "constants",
           "normalized": "[Node]",
@@ -8461,6 +9155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "controls",
           "package": "hsc3",
@@ -8470,6 +9165,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "controls",
           "normalized": "[Node]",
@@ -8484,6 +9180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "nextId",
           "package": "hsc3",
@@ -8493,6 +9190,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "nextId",
           "package": "hsc3",
@@ -8506,6 +9204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_c_value",
           "package": "hsc3",
@@ -8515,6 +9214,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_c_value",
           "package": "hsc3",
@@ -8527,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_id",
           "package": "hsc3",
@@ -8536,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_id",
           "package": "hsc3",
@@ -8548,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_default",
           "package": "hsc3",
@@ -8557,6 +9260,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_default",
           "package": "hsc3",
@@ -8569,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_name",
           "package": "hsc3",
@@ -8578,6 +9283,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_name",
           "package": "hsc3",
@@ -8590,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_rate",
           "package": "hsc3",
@@ -8599,6 +9306,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_rate",
           "package": "hsc3",
@@ -8611,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_type",
           "package": "hsc3",
@@ -8620,6 +9329,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_k_type",
           "package": "hsc3",
@@ -8632,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_p_index",
           "package": "hsc3",
@@ -8641,6 +9352,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_p_index",
           "package": "hsc3",
@@ -8653,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_p_node",
           "package": "hsc3",
@@ -8662,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_p_node",
           "package": "hsc3",
@@ -8674,6 +9388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_inputs",
           "package": "hsc3",
@@ -8683,6 +9398,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_inputs",
           "normalized": "[FromPort]",
@@ -8697,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_name",
           "package": "hsc3",
@@ -8706,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_name",
           "package": "hsc3",
@@ -8718,6 +9436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_outputs",
           "package": "hsc3",
@@ -8727,6 +9446,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_outputs",
           "normalized": "[Output]",
@@ -8741,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_rate",
           "package": "hsc3",
@@ -8750,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_rate",
           "package": "hsc3",
@@ -8762,6 +9484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_special",
           "package": "hsc3",
@@ -8771,6 +9494,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_special",
           "package": "hsc3",
@@ -8783,6 +9507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_ugenid",
           "package": "hsc3",
@@ -8792,6 +9517,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "node_u_ugenid",
           "package": "hsc3",
@@ -8804,6 +9530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_idx",
           "package": "hsc3",
@@ -8813,6 +9540,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_idx",
           "package": "hsc3",
@@ -8825,6 +9553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_kt",
           "package": "hsc3",
@@ -8834,6 +9563,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_kt",
           "package": "hsc3",
@@ -8846,6 +9576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_nid",
           "package": "hsc3",
@@ -8855,6 +9586,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "port_nid",
           "package": "hsc3",
@@ -8867,6 +9599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ugens",
           "package": "hsc3",
@@ -8876,6 +9609,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef.Type",
           "name": "ugens",
           "normalized": "[Node]",
@@ -8891,6 +9625,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe unit-generator graph structure implemented by the\n   SuperCollider synthesis server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8900,6 +9635,7 @@
         "index": {
           "description": "The unit-generator graph structure implemented by the SuperCollider synthesis server",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8914,6 +9650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary representation of a unit generator synth definition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8923,6 +9660,7 @@
         "index": {
           "description": "Binary representation of unit generator synth definition",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8936,6 +9674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8945,6 +9684,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "Synthdef",
           "package": "hsc3",
@@ -8959,6 +9699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SC3 \u003cem\u003edefault\u003c/em\u003e instrument \u003ccode\u003e\u003ca\u003eSynthdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "defaultSynthdef",
           "package": "hsc3",
@@ -8969,6 +9710,7 @@
         "index": {
           "description": "The SC3 default instrument Synthdef",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "defaultSynthdef",
           "package": "hsc3",
@@ -8983,6 +9725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a unit generator graph into bytecode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "graphdef",
           "package": "hsc3",
@@ -8993,6 +9736,7 @@
         "index": {
           "description": "Transform unit generator graph into bytecode",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "graphdef",
           "normalized": "Graph-\u003eGraphdef",
@@ -9008,6 +9752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a unit generator into a graph.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.UGen\n synth (out 0 (pan2 (sinOsc AR 440 0) 0.5 0.1))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synth",
           "package": "hsc3",
@@ -9018,6 +9763,7 @@
         "index": {
           "description": "Transform unit generator into graph import Sound.SC3.UGen synth out pan2 sinOsc AR",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synth",
           "normalized": "UGen-\u003eGraph",
@@ -9033,6 +9779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e graph into a \u003ccode\u003e\u003ca\u003eSynthdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdef",
           "package": "hsc3",
@@ -9043,6 +9790,7 @@
         "index": {
           "description": "Lift UGen graph into Synthdef",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdef",
           "normalized": "String-\u003eUGen-\u003eSynthdef",
@@ -9058,6 +9806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode \u003ccode\u003e\u003ca\u003eSynthdef\u003c/a\u003e\u003c/code\u003e as a binary data stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefData",
           "package": "hsc3",
@@ -9068,6 +9817,7 @@
         "index": {
           "description": "Encode Synthdef as binary data stream",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefData",
           "normalized": "Synthdef-\u003eGraphdef",
@@ -9083,6 +9833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefGraph",
           "package": "hsc3",
@@ -9092,6 +9843,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefGraph",
           "package": "hsc3",
@@ -9105,6 +9857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefName",
           "package": "hsc3",
@@ -9114,6 +9867,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefName",
           "package": "hsc3",
@@ -9128,6 +9882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter names at \u003ccode\u003e\u003ca\u003eSynthdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e synthdefParam def == [\"amp\",\"pan\",\"gate\",\"freq\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefParam",
           "package": "hsc3",
@@ -9138,6 +9893,7 @@
         "index": {
           "description": "Parameter names at Synthdef synthdefParam def amp pan gate freq",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefParam",
           "normalized": "Synthdef-\u003e[String]",
@@ -9154,6 +9910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite \u003ccode\u003e\u003ca\u003eSynthdef\u003c/a\u003e\u003c/code\u003e to indicated directory.  The filename is the\n \u003ccode\u003e\u003ca\u003esynthdefName\u003c/a\u003e\u003c/code\u003e with the appropriate extension (\u003ccode\u003escsyndef\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefWrite",
           "package": "hsc3",
@@ -9164,6 +9921,7 @@
         "index": {
           "description": "Write Synthdef to indicated directory The filename is the synthdefName with the appropriate extension scsyndef",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthdefWrite",
           "normalized": "Synthdef-\u003eFilePath-\u003eIO()",
@@ -9180,6 +9938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple statistical analysis of a unit generator graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthstat",
           "package": "hsc3",
@@ -9190,6 +9949,7 @@
         "index": {
           "description": "Simple statistical analysis of unit generator graph",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "synthstat",
           "normalized": "UGen-\u003eString",
@@ -9205,6 +9965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the indices of the named UGen at \u003ccode\u003e\u003ca\u003eGraph\u003c/a\u003e\u003c/code\u003e.  The index is\n required when using \u003ccode\u003e\u003ca\u003eu_cmd\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "ugenIndices",
           "package": "hsc3",
@@ -9215,6 +9976,7 @@
         "index": {
           "description": "Find the indices of the named UGen at Graph The index is required when using cmd",
           "hierarchy": "Sound SC3 Server Synthdef",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Synthdef",
           "name": "ugenIndices",
           "normalized": "String-\u003eGraph-\u003e[Integer]",
@@ -9231,6 +9993,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eFD\u003c/em\u003e variant of interaction with the scsynth server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "FD",
           "package": "hsc3",
@@ -9240,6 +10003,7 @@
         "index": {
           "description": "FD variant of interaction with the scsynth server",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "FD",
           "package": "hsc3",
@@ -9254,6 +10018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for values that can be encoded and send to \u003ccode\u003escsynth\u003c/code\u003e for\n audition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "Audible",
           "package": "hsc3",
@@ -9263,6 +10028,7 @@
         "index": {
           "description": "Class for values that can be encoded and send to scsynth for audition",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "Audible",
           "package": "hsc3",
@@ -9277,6 +10043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewaitReply\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e/done\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "async",
           "package": "hsc3",
@@ -9287,6 +10054,7 @@
         "index": {
           "description": "Send Message and waitReply for done reply",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "async",
           "normalized": "a-\u003eMessage-\u003eIO Message",
@@ -9301,6 +10069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "audition",
           "package": "hsc3",
@@ -9310,6 +10079,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "audition",
           "normalized": "a-\u003eIO()",
@@ -9325,6 +10095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1_data_segment\u003c/a\u003e\u003c/code\u003e that gets the entire buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_fetch",
           "package": "hsc3",
@@ -9335,6 +10106,7 @@
         "index": {
           "description": "Variant of getn1 data segment that gets the entire buffer",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_fetch",
           "normalized": "a-\u003eInt-\u003eInt-\u003eIO[Double]",
@@ -9350,6 +10122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1\u003c/a\u003e\u003c/code\u003e that waits for return message and unpacks it.\n\u003c/p\u003e\u003cpre\u003e withSC3 (\\fd -\u003e b_getn1_data fd 0 (0,5))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_getn1_data",
           "package": "hsc3",
@@ -9360,6 +10133,7 @@
         "index": {
           "description": "Variant of getn1 that waits for return message and unpacks it withSC3 fd getn1 data fd",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_getn1_data",
           "normalized": "a-\u003eInt-\u003e(Int,Int)-\u003eIO[Double]",
@@ -9375,6 +10149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1_data\u003c/a\u003e\u003c/code\u003e that segments individual \u003ccode\u003e\u003ca\u003eb_getn\u003c/a\u003e\u003c/code\u003e\n messages to \u003cem\u003en\u003c/em\u003e elements.\n\u003c/p\u003e\u003cpre\u003e withSC3 (\\fd -\u003e b_getn1_data_segment fd 1 0 (0,5))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_getn1_data_segment",
           "package": "hsc3",
@@ -9385,6 +10160,7 @@
         "index": {
           "description": "Variant of getn1 data that segments individual getn messages to elements withSC3 fd getn1 data segment fd",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "b_getn1_data_segment",
           "normalized": "a-\u003eInt-\u003eInt-\u003e(Int,Int)-\u003eIO[Double]",
@@ -9400,6 +10176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score (as would be rendered by \u003ccode\u003e\u003ca\u003ewriteNRT\u003c/a\u003e\u003c/code\u003e).  In\n particular note that all timestamps \u003cem\u003emust\u003c/em\u003e be in \u003ccode\u003eNTPr\u003c/code\u003e form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "performNRT",
           "package": "hsc3",
@@ -9410,6 +10187,7 @@
         "index": {
           "description": "Perform an NRT score as would be rendered by writeNRT In particular note that all timestamps must be in NTPr form",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "performNRT",
           "normalized": "a-\u003eNRT-\u003eIO()",
@@ -9425,6 +10203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "play",
           "package": "hsc3",
@@ -9434,6 +10213,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "play",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -9449,6 +10229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend \u003ccode\u003e\u003ca\u003ed_recv\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003es_new\u003c/code\u003e messages to scsynth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "playSynthdef",
           "package": "hsc3",
@@ -9459,6 +10240,7 @@
         "index": {
           "description": "Send recv and new messages to scsynth",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "playSynthdef",
           "normalized": "a-\u003eSynthdef-\u003eIO()",
@@ -9475,6 +10257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an \u003cem\u003eanonymous\u003c/em\u003e instrument definition using \u003ccode\u003e\u003ca\u003eplaySynthdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "playUGen",
           "package": "hsc3",
@@ -9485,6 +10268,7 @@
         "index": {
           "description": "Send an anonymous instrument definition using playSynthdef",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "playUGen",
           "normalized": "a-\u003eUGen-\u003eIO()",
@@ -9501,6 +10285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes (\u003ccode\u003e\u003ca\u003eg_freeAll\u003c/a\u003e\u003c/code\u003e) at and re-create groups \u003ccode\u003e1\u003c/code\u003e and \u003ccode\u003e2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "reset",
           "package": "hsc3",
@@ -9511,6 +10296,7 @@
         "index": {
           "description": "Free all nodes freeAll at and re-create groups and",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "reset",
           "normalized": "a-\u003eIO()",
@@ -9526,6 +10312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait (\u003ccode\u003e\u003ca\u003epauseThreadUntil\u003c/a\u003e\u003c/code\u003e) until bundle is due to be sent relative\n to initial \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e, then send each message, asynchronously if\n required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "run_bundle",
           "package": "hsc3",
@@ -9536,6 +10323,7 @@
         "index": {
           "description": "Wait pauseThreadUntil until bundle is due to be sent relative to initial Time then send each message asynchronously if required",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "run_bundle",
           "normalized": "a-\u003eTime-\u003eBundle-\u003eIO()",
@@ -9551,6 +10339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003esendMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "send",
           "package": "hsc3",
@@ -9561,6 +10350,7 @@
         "index": {
           "description": "Synonym for sendMessage",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "send",
           "normalized": "a-\u003eMessage-\u003eIO()",
@@ -9576,6 +10366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead actual sample rate of server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverSampleRateActual",
           "package": "hsc3",
@@ -9586,6 +10377,7 @@
         "index": {
           "description": "Read actual sample rate of server",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverSampleRateActual",
           "normalized": "a-\u003eIO Double",
@@ -9602,6 +10394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead nominal sample rate of server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverSampleRateNominal",
           "package": "hsc3",
@@ -9612,6 +10405,7 @@
         "index": {
           "description": "Read nominal sample rate of server",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverSampleRateNominal",
           "normalized": "a-\u003eIO Double",
@@ -9628,6 +10422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect server status information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverStatus",
           "package": "hsc3",
@@ -9638,6 +10433,7 @@
         "index": {
           "description": "Collect server status information",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverStatus",
           "normalized": "a-\u003eIO[String]",
@@ -9654,6 +10450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve status data from server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverStatusData",
           "package": "hsc3",
@@ -9664,6 +10461,7 @@
         "index": {
           "description": "Retrieve status data from server",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "serverStatusData",
           "normalized": "a-\u003eIO[Datum]",
@@ -9680,6 +10478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes (\u003ccode\u003e\u003ca\u003eg_freeAll\u003c/a\u003e\u003c/code\u003e) at group \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "stop",
           "package": "hsc3",
@@ -9690,6 +10489,7 @@
         "index": {
           "description": "Free all nodes freeAll at group",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "stop",
           "normalized": "a-\u003eIO()",
@@ -9705,6 +10505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn on notifications, run \u003cem\u003ef\u003c/em\u003e, turn off notifications, return\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "withNotifications",
           "package": "hsc3",
@@ -9715,6 +10516,7 @@
         "index": {
           "description": "Turn on notifications run turn off notifications return result",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "withNotifications",
           "normalized": "a-\u003e(a-\u003eIO b)-\u003eIO b",
@@ -9731,6 +10533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket \u003ccode\u003eSC3\u003c/code\u003e communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "withSC3",
           "package": "hsc3",
@@ -9741,6 +10544,7 @@
         "index": {
           "description": "Bracket SC3 communication",
           "hierarchy": "Sound SC3 Server Transport FD",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.FD",
           "name": "withSC3",
           "normalized": "(UDP-\u003eIO a)-\u003eIO a",
@@ -9757,6 +10561,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e\u003cem\u003eMonad\u003c/em\u003e variant of interaction with the scsynth server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -9766,6 +10571,7 @@
         "index": {
           "description": "Monad variant of interaction with the scsynth server",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -9780,6 +10586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for values that can be encoded and send to \u003ccode\u003escsynth\u003c/code\u003e for\n audition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "Audible",
           "package": "hsc3",
@@ -9789,6 +10596,7 @@
         "index": {
           "description": "Class for values that can be encoded and send to scsynth for audition",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "Audible",
           "package": "hsc3",
@@ -9803,6 +10611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003ewaitReply\u003c/a\u003e\u003c/code\u003e for a \u003ccode\u003e/done\u003c/code\u003e reply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "async",
           "package": "hsc3",
@@ -9813,6 +10622,7 @@
         "index": {
           "description": "Send Message and waitReply for done reply",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "async",
           "normalized": "Message-\u003ea Message",
@@ -9827,6 +10637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "audition",
           "package": "hsc3",
@@ -9836,6 +10647,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "audition",
           "normalized": "a-\u003eIO()",
@@ -9851,6 +10663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1_data_segment\u003c/a\u003e\u003c/code\u003e that gets the entire buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_fetch",
           "package": "hsc3",
@@ -9861,6 +10674,7 @@
         "index": {
           "description": "Variant of getn1 data segment that gets the entire buffer",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_fetch",
           "normalized": "Int-\u003eInt-\u003ea[Double]",
@@ -9876,6 +10690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1\u003c/a\u003e\u003c/code\u003e that waits for return message and unpacks it.\n\u003c/p\u003e\u003cpre\u003e withSC3 (b_getn1_data 0 (0,5))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_getn1_data",
           "package": "hsc3",
@@ -9886,6 +10701,7 @@
         "index": {
           "description": "Variant of getn1 that waits for return message and unpacks it withSC3 getn1 data",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_getn1_data",
           "normalized": "Int-\u003e(Int,Int)-\u003ea[Double]",
@@ -9901,6 +10717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eb_getn1_data\u003c/a\u003e\u003c/code\u003e that segments individual \u003ccode\u003e\u003ca\u003eb_getn\u003c/a\u003e\u003c/code\u003e\n messages to \u003cem\u003en\u003c/em\u003e elements.\n\u003c/p\u003e\u003cpre\u003e withSC3 (b_getn1_data_segment 1 0 (0,5))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_getn1_data_segment",
           "package": "hsc3",
@@ -9911,6 +10728,7 @@
         "index": {
           "description": "Variant of getn1 data that segments individual getn messages to elements withSC3 getn1 data segment",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "b_getn1_data_segment",
           "normalized": "Int-\u003eInt-\u003e(Int,Int)-\u003ea[Double]",
@@ -9926,6 +10744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an \u003ccode\u003e\u003ca\u003eNRT\u003c/a\u003e\u003c/code\u003e score (as would be rendered by \u003ccode\u003e\u003ca\u003ewriteNRT\u003c/a\u003e\u003c/code\u003e).  In\n particular note that all timestamps \u003cem\u003emust\u003c/em\u003e be in \u003ccode\u003eNTPr\u003c/code\u003e form.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "performNRT",
           "package": "hsc3",
@@ -9936,6 +10755,7 @@
         "index": {
           "description": "Perform an NRT score as would be rendered by writeNRT In particular note that all timestamps must be in NTPr form",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "performNRT",
           "normalized": "NRT-\u003ea()",
@@ -9951,6 +10771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "play",
           "package": "hsc3",
@@ -9960,6 +10781,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "play",
           "normalized": "a-\u003eb()",
@@ -9975,6 +10797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend \u003ccode\u003e\u003ca\u003ed_recv\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003es_new\u003c/code\u003e messages to scsynth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "playSynthdef",
           "package": "hsc3",
@@ -9985,6 +10808,7 @@
         "index": {
           "description": "Send recv and new messages to scsynth",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "playSynthdef",
           "normalized": "Synthdef-\u003ea()",
@@ -10001,6 +10825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend an \u003cem\u003eanonymous\u003c/em\u003e instrument definition using \u003ccode\u003e\u003ca\u003eplaySynthdef\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "playUGen",
           "package": "hsc3",
@@ -10011,6 +10836,7 @@
         "index": {
           "description": "Send an anonymous instrument definition using playSynthdef",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "playUGen",
           "normalized": "UGen-\u003ea()",
@@ -10027,6 +10853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes (\u003ccode\u003e\u003ca\u003eg_freeAll\u003c/a\u003e\u003c/code\u003e) at and re-create groups \u003ccode\u003e1\u003c/code\u003e and \u003ccode\u003e2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "reset",
           "package": "hsc3",
@@ -10037,6 +10864,7 @@
         "index": {
           "description": "Free all nodes freeAll at and re-create groups and",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "reset",
           "normalized": "a()",
@@ -10052,6 +10880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWait (\u003ccode\u003e\u003ca\u003epauseThreadUntil\u003c/a\u003e\u003c/code\u003e) until bundle is due to be sent relative\n to the initial \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e, then send each message, asynchronously if\n required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "run_bundle",
           "package": "hsc3",
@@ -10062,6 +10891,7 @@
         "index": {
           "description": "Wait pauseThreadUntil until bundle is due to be sent relative to the initial Time then send each message asynchronously if required",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "run_bundle",
           "normalized": "Time-\u003eBundle-\u003ea()",
@@ -10077,6 +10907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003esendMessage\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "send",
           "package": "hsc3",
@@ -10087,6 +10918,7 @@
         "index": {
           "description": "Synonym for sendMessage",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "send",
           "normalized": "Message-\u003ea()",
@@ -10102,6 +10934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead actual sample rate of server.\n\u003c/p\u003e\u003cpre\u003e withSC3 serverSampleRateActual\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverSampleRateActual",
           "package": "hsc3",
@@ -10112,6 +10945,7 @@
         "index": {
           "description": "Read actual sample rate of server withSC3 serverSampleRateActual",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverSampleRateActual",
           "package": "hsc3",
@@ -10126,6 +10960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead nominal sample rate of server.\n\u003c/p\u003e\u003cpre\u003e withSC3 serverSampleRateNominal\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverSampleRateNominal",
           "package": "hsc3",
@@ -10136,6 +10971,7 @@
         "index": {
           "description": "Read nominal sample rate of server withSC3 serverSampleRateNominal",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverSampleRateNominal",
           "package": "hsc3",
@@ -10150,6 +10986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect server status information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverStatus",
           "package": "hsc3",
@@ -10160,6 +10997,7 @@
         "index": {
           "description": "Collect server status information",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverStatus",
           "normalized": "a[String]",
@@ -10176,6 +11014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve status data from server.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverStatusData",
           "package": "hsc3",
@@ -10186,6 +11025,7 @@
         "index": {
           "description": "Retrieve status data from server",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "serverStatusData",
           "normalized": "a[Datum]",
@@ -10202,6 +11042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree all nodes (\u003ccode\u003e\u003ca\u003eg_freeAll\u003c/a\u003e\u003c/code\u003e) at group \u003ccode\u003e1\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "stop",
           "package": "hsc3",
@@ -10212,6 +11053,7 @@
         "index": {
           "description": "Free all nodes freeAll at group",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "stop",
           "normalized": "a()",
@@ -10227,6 +11069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn on notifications, run \u003cem\u003ef\u003c/em\u003e, turn off notifications, return\n result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "withNotifications",
           "package": "hsc3",
@@ -10237,6 +11080,7 @@
         "index": {
           "description": "Turn on notifications run turn off notifications return result",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "withNotifications",
           "normalized": "a b-\u003ea b",
@@ -10253,6 +11097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBracket \u003ccode\u003eSC3\u003c/code\u003e communication. \u003ccode\u003e\u003ca\u003ewithTransport\u003c/a\u003e\u003c/code\u003e at standard SC3 UDP\n port.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.Server.Command\n\u003c/pre\u003e\u003cpre\u003e withSC3 (send status \u003e\u003e waitReply \"/status.reply\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "withSC3",
           "package": "hsc3",
@@ -10263,6 +11108,7 @@
         "index": {
           "description": "Bracket SC3 communication withTransport at standard SC3 UDP port import Sound.SC3.Server.Command withSC3 send status waitReply status.reply",
           "hierarchy": "Sound SC3 Server Transport Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server.Transport.Monad",
           "name": "withSC3",
           "normalized": "Connection UDP a-\u003eIO a",
@@ -10279,6 +11125,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of modules for communicating with the SuperCollider\n synthesis server, see also \u003ca\u003eSound.SC3.Server.FD\u003c/a\u003e and\n \u003ca\u003eSound.SC3.Server.Monad\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.Server",
           "name": "Server",
           "package": "hsc3",
@@ -10288,6 +11135,7 @@
         "index": {
           "description": "Collection of modules for communicating with the SuperCollider synthesis server see also Sound.SC3.Server.FD and Sound.SC3.Server.Monad",
           "hierarchy": "Sound SC3 Server",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.Server",
           "name": "Server",
           "package": "hsc3",
@@ -10302,6 +11150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSignal analysis unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "Analysis",
           "package": "hsc3",
@@ -10311,6 +11160,7 @@
         "index": {
           "description": "Signal analysis unit generators",
           "hierarchy": "Sound SC3 UGen Analysis",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "Analysis",
           "package": "hsc3",
@@ -10325,6 +11175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmplitude follower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "amplitude",
           "package": "hsc3",
@@ -10335,6 +11186,7 @@
         "index": {
           "description": "Amplitude follower",
           "hierarchy": "Sound SC3 UGen Analysis",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "amplitude",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10350,6 +11202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutocorrelation pitch follower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "pitch",
           "package": "hsc3",
@@ -10360,6 +11213,7 @@
         "index": {
           "description": "Autocorrelation pitch follower",
           "hierarchy": "Sound SC3 UGen Analysis",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "pitch",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10375,6 +11229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSlope of signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "slope",
           "package": "hsc3",
@@ -10385,6 +11240,7 @@
         "index": {
           "description": "Slope of signal",
           "hierarchy": "Sound SC3 UGen Analysis",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "slope",
           "normalized": "UGen-\u003eUGen",
@@ -10400,6 +11256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero crossing frequency follower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "zeroCrossing",
           "package": "hsc3",
@@ -10410,6 +11267,7 @@
         "index": {
           "description": "Zero crossing frequency follower",
           "hierarchy": "Sound SC3 UGen Analysis",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Analysis",
           "name": "zeroCrossing",
           "normalized": "UGen-\u003eUGen",
@@ -10426,6 +11284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnit generators to query, read and write audio buffers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "Buffer",
           "package": "hsc3",
@@ -10435,6 +11294,7 @@
         "index": {
           "description": "Unit generators to query read and write audio buffers",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "Buffer",
           "package": "hsc3",
@@ -10449,6 +11309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a localBuf and use setBuf to initialise it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "asLocalBuf",
           "package": "hsc3",
@@ -10459,6 +11320,7 @@
         "index": {
           "description": "Generate localBuf and use setBuf to initialise it",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "asLocalBuf",
           "normalized": "a-\u003e[UGen]-\u003eUGen",
@@ -10475,6 +11337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassC",
           "package": "hsc3",
@@ -10485,6 +11348,7 @@
         "index": {
           "description": "Allpass filter cubic interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10501,6 +11365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassL",
           "package": "hsc3",
@@ -10511,6 +11376,7 @@
         "index": {
           "description": "Allpass filter linear interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10527,6 +11393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassN",
           "package": "hsc3",
@@ -10537,6 +11404,7 @@
         "index": {
           "description": "Allpass filter no interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufAllpassN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10553,6 +11421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer channel count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufChannels",
           "package": "hsc3",
@@ -10563,6 +11432,7 @@
         "index": {
           "description": "Buffer channel count",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufChannels",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10579,6 +11449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombC",
           "package": "hsc3",
@@ -10589,6 +11460,7 @@
         "index": {
           "description": "Comb filter cubic interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10605,6 +11477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombL",
           "package": "hsc3",
@@ -10615,6 +11488,7 @@
         "index": {
           "description": "Comb filter linear interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10631,6 +11505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombN",
           "package": "hsc3",
@@ -10641,6 +11516,7 @@
         "index": {
           "description": "Comb filter no interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufCombN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10657,6 +11533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay line (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayC",
           "package": "hsc3",
@@ -10667,6 +11544,7 @@
         "index": {
           "description": "Delay line cubic interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10683,6 +11561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay line (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayL",
           "package": "hsc3",
@@ -10693,6 +11572,7 @@
         "index": {
           "description": "Delay line linear interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10709,6 +11589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay line (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayN",
           "package": "hsc3",
@@ -10719,6 +11600,7 @@
         "index": {
           "description": "Delay line no interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDelayN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -10735,6 +11617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer duration, in seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDur",
           "package": "hsc3",
@@ -10745,6 +11628,7 @@
         "index": {
           "description": "Buffer duration in seconds",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufDur",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10761,6 +11645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer frame count.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufFrames",
           "package": "hsc3",
@@ -10771,6 +11656,7 @@
         "index": {
           "description": "Buffer frame count",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufFrames",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10787,6 +11673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer rate scalar with respect to server sample rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRateScale",
           "package": "hsc3",
@@ -10797,6 +11684,7 @@
         "index": {
           "description": "Buffer rate scalar with respect to server sample rate",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRateScale",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10813,6 +11701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer reader.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRd",
           "package": "hsc3",
@@ -10823,6 +11712,7 @@
         "index": {
           "description": "Buffer reader",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRd",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen-\u003eLoop-\u003eInterpolation-\u003eUGen",
@@ -10839,6 +11729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer reader (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdC",
           "package": "hsc3",
@@ -10849,6 +11740,7 @@
         "index": {
           "description": "Buffer reader cubic interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdC",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -10865,6 +11757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer reader (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdL",
           "package": "hsc3",
@@ -10875,6 +11768,7 @@
         "index": {
           "description": "Buffer reader linear interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdL",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -10891,6 +11785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer reader (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdN",
           "package": "hsc3",
@@ -10901,6 +11796,7 @@
         "index": {
           "description": "Buffer reader no interpolation",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufRdN",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -10917,6 +11813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer sample rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufSampleRate",
           "package": "hsc3",
@@ -10927,6 +11824,7 @@
         "index": {
           "description": "Buffer sample rate",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufSampleRate",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10943,6 +11841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer sample count (ie. frame count by channel count).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufSamples",
           "package": "hsc3",
@@ -10953,6 +11852,7 @@
         "index": {
           "description": "Buffer sample count ie frame count by channel count",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufSamples",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -10969,6 +11869,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer writer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufWr",
           "package": "hsc3",
@@ -10979,6 +11880,7 @@
         "index": {
           "description": "Buffer writer",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "bufWr",
           "normalized": "UGen-\u003eUGen-\u003eLoop-\u003eUGen-\u003eUGen",
@@ -10995,6 +11897,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch a buffer for a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "detectIndex",
           "package": "hsc3",
@@ -11005,6 +11908,7 @@
         "index": {
           "description": "Search buffer for value",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "detectIndex",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -11021,6 +11925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into table with signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "index",
           "package": "hsc3",
@@ -11031,6 +11936,7 @@
         "index": {
           "description": "Index into table with signal",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "index",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -11046,6 +11952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolating search in ordered table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "indexInBetween",
           "package": "hsc3",
@@ -11056,6 +11963,7 @@
         "index": {
           "description": "Interpolating search in ordered table",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "indexInBetween",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -11072,6 +11980,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllocate a buffer local to the synth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "localBuf",
           "package": "hsc3",
@@ -11082,6 +11991,7 @@
         "index": {
           "description": "Allocate buffer local to the synth",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "localBuf",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11098,6 +12008,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the maximum number of local buffers in a synth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "maxLocalBufs",
           "package": "hsc3",
@@ -11108,6 +12019,7 @@
         "index": {
           "description": "Set the maximum number of local buffers in synth",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "maxLocalBufs",
           "normalized": "UGen-\u003eUGen",
@@ -11124,6 +12036,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWavetable oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "osc",
           "package": "hsc3",
@@ -11134,6 +12047,7 @@
         "index": {
           "description": "Wavetable oscillator",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "osc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11149,6 +12063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWavetable oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "oscN",
           "package": "hsc3",
@@ -11159,6 +12074,7 @@
         "index": {
           "description": "Wavetable oscillator",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "oscN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11174,6 +12090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "playBuf",
           "package": "hsc3",
@@ -11184,6 +12101,7 @@
         "index": {
           "description": "Buffer playback",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "playBuf",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003eDoneAction-\u003eUGen",
@@ -11200,6 +12118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer recording.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "recordBuf",
           "package": "hsc3",
@@ -11210,6 +12129,7 @@
         "index": {
           "description": "Buffer recording",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "recordBuf",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen-\u003eDoneAction-\u003eUGen-\u003eUGen",
@@ -11226,6 +12146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet local buffer values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "setBuf",
           "package": "hsc3",
@@ -11236,6 +12157,7 @@
         "index": {
           "description": "Set local buffer values",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "setBuf",
           "normalized": "UGen-\u003e[UGen]-\u003eUGen-\u003eUGen",
@@ -11252,6 +12174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered buffer shuffler (grain generator).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "tGrains",
           "package": "hsc3",
@@ -11262,6 +12185,7 @@
         "index": {
           "description": "Triggered buffer shuffler grain generator",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "tGrains",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11278,6 +12202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable wavetable oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "vOsc",
           "package": "hsc3",
@@ -11288,6 +12213,7 @@
         "index": {
           "description": "Variable wavetable oscillator",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "vOsc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11304,6 +12230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThree variable wavetable oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "vOsc3",
           "package": "hsc3",
@@ -11314,6 +12241,7 @@
         "index": {
           "description": "Three variable wavetable oscillator",
           "hierarchy": "Sound SC3 UGen Buffer",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Buffer",
           "name": "vOsc3",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11330,6 +12258,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eChaotic functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "Chaos",
           "package": "hsc3",
@@ -11339,6 +12268,7 @@
         "index": {
           "description": "Chaotic functions",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "Chaos",
           "package": "hsc3",
@@ -11353,6 +12283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChaotic noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "crackle",
           "package": "hsc3",
@@ -11363,6 +12294,7 @@
         "index": {
           "description": "Chaotic noise",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "crackle",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -11378,6 +12310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCusp map chaotic generator (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "cuspL",
           "package": "hsc3",
@@ -11388,6 +12321,7 @@
         "index": {
           "description": "Cusp map chaotic generator linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "cuspL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11403,6 +12337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCusp map chaotic generator (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "cuspN",
           "package": "hsc3",
@@ -11413,6 +12348,7 @@
         "index": {
           "description": "Cusp map chaotic generator no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "cuspN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11428,6 +12364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeedback sine with chaotic phase indexing (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineC",
           "package": "hsc3",
@@ -11438,6 +12375,7 @@
         "index": {
           "description": "Feedback sine with chaotic phase indexing cubic interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineC",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11454,6 +12392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeedback sine with chaotic phase indexing (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineL",
           "package": "hsc3",
@@ -11464,6 +12403,7 @@
         "index": {
           "description": "Feedback sine with chaotic phase indexing linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11480,6 +12420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeedback sine with chaotic phase indexing (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineN",
           "package": "hsc3",
@@ -11490,6 +12431,7 @@
         "index": {
           "description": "Feedback sine with chaotic phase indexing no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "fbSineN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11506,6 +12448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGingerbreadman map chaotic generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "gbmanL",
           "package": "hsc3",
@@ -11516,6 +12459,7 @@
         "index": {
           "description": "Gingerbreadman map chaotic generator",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "gbmanL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11531,6 +12475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGingerbreadman map chaotic generator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "gbmanN",
           "package": "hsc3",
@@ -11541,6 +12486,7 @@
         "index": {
           "description": "Gingerbreadman map chaotic generator",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "gbmanN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11556,6 +12502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHenon map chaotic generator (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonC",
           "package": "hsc3",
@@ -11566,6 +12513,7 @@
         "index": {
           "description": "Henon map chaotic generator cubic interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonC",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11581,6 +12529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHenon map chaotic generator (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonL",
           "package": "hsc3",
@@ -11591,6 +12540,7 @@
         "index": {
           "description": "Henon map chaotic generator linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11606,6 +12556,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHenon map chaotic generator (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonN",
           "package": "hsc3",
@@ -11616,6 +12567,7 @@
         "index": {
           "description": "Henon map chaotic generator no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "henonN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11631,6 +12583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLatoocarfian chaotic function (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianC",
           "package": "hsc3",
@@ -11641,6 +12594,7 @@
         "index": {
           "description": "Latoocarfian chaotic function cubic interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianC",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11656,6 +12610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLatoocarfian chaotic function (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianL",
           "package": "hsc3",
@@ -11666,6 +12621,7 @@
         "index": {
           "description": "Latoocarfian chaotic function linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11681,6 +12637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLatoocarfian chaotic function (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianN",
           "package": "hsc3",
@@ -11691,6 +12648,7 @@
         "index": {
           "description": "Latoocarfian chaotic function no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "latoocarfianN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11706,6 +12664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear congruential chaotic generator (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongC",
           "package": "hsc3",
@@ -11716,6 +12675,7 @@
         "index": {
           "description": "Linear congruential chaotic generator cubic interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongC",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11732,6 +12692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear congruential chaotic generator (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongL",
           "package": "hsc3",
@@ -11742,6 +12703,7 @@
         "index": {
           "description": "Linear congruential chaotic generator linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11758,6 +12720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear congruential chaotic generator (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongN",
           "package": "hsc3",
@@ -11768,6 +12731,7 @@
         "index": {
           "description": "Linear congruential chaotic generator no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "linCongN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11784,6 +12748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe logistic map y = chaosParam * y * (1.0 - y)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "logistic",
           "package": "hsc3",
@@ -11794,6 +12759,7 @@
         "index": {
           "description": "The logistic map chaosParam",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "logistic",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11809,6 +12775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLorenz chaotic generator (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "lorenzL",
           "package": "hsc3",
@@ -11819,6 +12786,7 @@
         "index": {
           "description": "Lorenz chaotic generator linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "lorenzL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11834,6 +12802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral quadratic map chaotic generator (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadC",
           "package": "hsc3",
@@ -11844,6 +12813,7 @@
         "index": {
           "description": "General quadratic map chaotic generator cubic interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadC",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11859,6 +12829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral quadratic map chaotic generator (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadL",
           "package": "hsc3",
@@ -11869,6 +12840,7 @@
         "index": {
           "description": "General quadratic map chaotic generator linear interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadL",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11884,6 +12856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral quadratic map chaotic generator (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadN",
           "package": "hsc3",
@@ -11894,6 +12867,7 @@
         "index": {
           "description": "General quadratic map chaotic generator no interpolation",
           "hierarchy": "Sound SC3 UGen Chaos",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Chaos",
           "name": "quadN",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11909,6 +12883,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExplicit identifier functions for composite \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "ID",
           "package": "hsc3",
@@ -11918,6 +12893,7 @@
         "index": {
           "description": "Explicit identifier functions for composite UGen",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "ID",
           "package": "hsc3",
@@ -11932,6 +12908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emce\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003elchoose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "choose",
           "package": "hsc3",
@@ -11942,6 +12919,7 @@
         "index": {
           "description": "mce variant of lchoose",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "choose",
           "normalized": "a-\u003eUGen-\u003eUGen",
@@ -11957,6 +12935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate (:) function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "dcons",
           "package": "hsc3",
@@ -11967,6 +12946,7 @@
         "index": {
           "description": "Demand rate function",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "dcons",
           "normalized": "(a,a,a)-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -11982,6 +12962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly select one of a list of UGens (initialiastion rate).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "lchoose",
           "package": "hsc3",
@@ -11992,6 +12973,7 @@
         "index": {
           "description": "Randomly select one of list of UGens initialiastion rate",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "lchoose",
           "normalized": "a-\u003e[UGen]-\u003eUGen",
@@ -12007,6 +12989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount \u003ccode\u003e\u003ca\u003emce\u003c/a\u003e\u003c/code\u003e channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "mceN",
           "package": "hsc3",
@@ -12017,6 +13000,7 @@
         "index": {
           "description": "Count mce channels",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "mceN",
           "normalized": "UGen-\u003eUGen",
@@ -12032,6 +13016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly select one of several inputs on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "tChoose",
           "package": "hsc3",
@@ -12042,6 +13027,7 @@
         "index": {
           "description": "Randomly select one of several inputs on trigger",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "tChoose",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12058,6 +13044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly select one of several inputs on trigger (weighted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "tWChoose",
           "package": "hsc3",
@@ -12068,6 +13055,7 @@
         "index": {
           "description": "Randomly select one of several inputs on trigger weighted",
           "hierarchy": "Sound SC3 UGen Composite ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.ID",
           "name": "tWChoose",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12084,6 +13072,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad constructors for composite \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -12093,6 +13082,7 @@
         "index": {
           "description": "Monad constructors for composite UGen",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -12107,6 +13097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eliftUId\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003echoose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "choose",
           "package": "hsc3",
@@ -12117,6 +13108,7 @@
         "index": {
           "description": "liftUId of choose",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "choose",
           "normalized": "UGen-\u003ea UGen",
@@ -12132,6 +13124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate (:) function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "dcons",
           "package": "hsc3",
@@ -12142,6 +13135,7 @@
         "index": {
           "description": "Demand rate function",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "dcons",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -12157,6 +13151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eliftUId\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003elchoose\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "lchoose",
           "package": "hsc3",
@@ -12167,6 +13162,7 @@
         "index": {
           "description": "liftUId of lchoose",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "lchoose",
           "normalized": "[UGen]-\u003ea UGen",
@@ -12182,6 +13178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly select one of several inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "tChoose",
           "package": "hsc3",
@@ -12192,6 +13189,7 @@
         "index": {
           "description": "Randomly select one of several inputs",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "tChoose",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -12208,6 +13206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly select one of several inputs (weighted).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "tWChoose",
           "package": "hsc3",
@@ -12218,6 +13217,7 @@
         "index": {
           "description": "Randomly select one of several inputs weighted",
           "hierarchy": "Sound SC3 UGen Composite Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite.Monad",
           "name": "tWChoose",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -12234,6 +13234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon unit generator graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "Composite",
           "package": "hsc3",
@@ -12243,6 +13244,7 @@
         "index": {
           "description": "Common unit generator graphs",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "Composite",
           "package": "hsc3",
@@ -12257,6 +13259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic klang, dynamic sine oscillator bank\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "dynKlang",
           "package": "hsc3",
@@ -12267,6 +13270,7 @@
         "index": {
           "description": "Dynamic klang dynamic sine oscillator bank",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "dynKlang",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12283,6 +13287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic klank, set of non-fixed resonating filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "dynKlank",
           "package": "hsc3",
@@ -12293,6 +13298,7 @@
         "index": {
           "description": "Dynamic klank set of non-fixed resonating filters",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "dynKlank",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12309,6 +13315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency shifter, in terms of Hilbert UGen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "freqShift",
           "package": "hsc3",
@@ -12319,6 +13326,7 @@
         "index": {
           "description": "Frequency shifter in terms of Hilbert UGen",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "freqShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12335,6 +13343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear interpolating variant on index.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "indexL",
           "package": "hsc3",
@@ -12345,6 +13354,7 @@
         "index": {
           "description": "Linear interpolating variant on index",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "indexL",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -12360,6 +13370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap from one linear range to another linear range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "linLin",
           "package": "hsc3",
@@ -12370,6 +13381,7 @@
         "index": {
           "description": "Map from one linear range to another linear range",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "linLin",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12386,6 +13398,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse possible mce by summing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mix",
           "package": "hsc3",
@@ -12396,6 +13409,7 @@
         "index": {
           "description": "Collapse possible mce by summing",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mix",
           "normalized": "UGen-\u003eUGen",
@@ -12411,6 +13425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct and sum a set of UGens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixFill",
           "package": "hsc3",
@@ -12421,6 +13436,7 @@
         "index": {
           "description": "Construct and sum set of UGens",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixFill",
           "normalized": "Int-\u003e(a-\u003eUGen)-\u003eUGen",
@@ -12437,6 +13453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad variant on mixFill.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixFillM",
           "package": "hsc3",
@@ -12447,6 +13464,7 @@
         "index": {
           "description": "Monad variant on mixFill",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixFillM",
           "normalized": "Int-\u003e(a-\u003eb UGen)-\u003eb UGen",
@@ -12463,6 +13481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix variant, sum to n channels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixN",
           "package": "hsc3",
@@ -12473,6 +13492,7 @@
         "index": {
           "description": "Mix variant sum to channels",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mixN",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -12488,6 +13508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant that is randomly pressed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseButton'",
           "package": "hsc3",
@@ -12498,6 +13519,7 @@
         "index": {
           "description": "Variant that is randomly pressed",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseButton'",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12514,6 +13536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomised mouse UGen (see also \u003ccode\u003e\u003ca\u003emouseX'\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emouseY'\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseR",
           "package": "hsc3",
@@ -12524,6 +13547,7 @@
         "index": {
           "description": "Randomised mouse UGen see also mouseX and mouseY",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseR",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eWarp-\u003eUGen-\u003eUGen",
@@ -12539,6 +13563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant that randomly traverses the mouseX space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseX'",
           "package": "hsc3",
@@ -12549,6 +13574,7 @@
         "index": {
           "description": "Variant that randomly traverses the mouseX space",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseX'",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eWarp-\u003eUGen-\u003eUGen",
@@ -12565,6 +13591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant that randomly traverses the mouseY space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseY'",
           "package": "hsc3",
@@ -12575,6 +13602,7 @@
         "index": {
           "description": "Variant that randomly traverses the mouseY space",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "mouseY'",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eWarp-\u003eUGen-\u003eUGen",
@@ -12591,6 +13619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePM oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "pmOsc",
           "package": "hsc3",
@@ -12601,6 +13630,7 @@
         "index": {
           "description": "PM oscillator",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "pmOsc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12617,6 +13647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale bi-polar (-1,1) input to linear (l,r) range\n\u003c/p\u003e\u003cpre\u003e map (range 3 4) [-1,0,1] == [3,3.5,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "range",
           "package": "hsc3",
@@ -12627,6 +13658,7 @@
         "index": {
           "description": "Scale bi-polar input to linear range map range",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "range",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -12642,6 +13674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix one output from many sources\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "selectX",
           "package": "hsc3",
@@ -12652,6 +13685,7 @@
         "index": {
           "description": "Mix one output from many sources",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "selectX",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -12667,6 +13701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSilence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "silent",
           "package": "hsc3",
@@ -12677,6 +13712,7 @@
         "index": {
           "description": "Silence",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "silent",
           "normalized": "Int-\u003eUGen",
@@ -12692,6 +13728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eZero indexed audio input buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "soundIn",
           "package": "hsc3",
@@ -12702,6 +13739,7 @@
         "index": {
           "description": "Zero indexed audio input buses",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "soundIn",
           "normalized": "UGen-\u003eUGen",
@@ -12718,6 +13756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePan a set of channels across the stereo field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "splay",
           "package": "hsc3",
@@ -12728,6 +13767,7 @@
         "index": {
           "description": "Pan set of channels across the stereo field",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "splay",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eBool-\u003eUGen",
@@ -12743,6 +13783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale uni-polar (0,1) input to linear (l,r) range\n\u003c/p\u003e\u003cpre\u003e map (urange 3 4) [0,0.5,1] == [3,3.5,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Composite",
           "name": "urange",
           "package": "hsc3",
@@ -12753,6 +13794,7 @@
         "index": {
           "description": "Scale uni-polar input to linear range map urange",
           "hierarchy": "Sound SC3 UGen Composite",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Composite",
           "name": "urange",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -12768,6 +13810,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExplicit identifier demand rate \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "ID",
           "package": "hsc3",
@@ -12777,6 +13820,7 @@
         "index": {
           "description": "Explicit identifier demand rate UGen functions",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "ID",
           "package": "hsc3",
@@ -12791,6 +13835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbrown",
           "package": "hsc3",
@@ -12801,6 +13846,7 @@
         "index": {
           "description": "Demand rate brown noise",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbrown",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12816,6 +13862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer demand ugen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbufrd",
           "package": "hsc3",
@@ -12826,6 +13873,7 @@
         "index": {
           "description": "Buffer demand ugen",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbufrd",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -12841,6 +13889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer write on demand unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbufwr",
           "package": "hsc3",
@@ -12851,6 +13900,7 @@
         "index": {
           "description": "Buffer write on demand unit generator",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dbufwr",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -12866,6 +13916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate geometric series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dgeom",
           "package": "hsc3",
@@ -12876,6 +13927,7 @@
         "index": {
           "description": "Demand rate geometric series",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dgeom",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12891,6 +13943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dibrown",
           "package": "hsc3",
@@ -12901,6 +13954,7 @@
         "index": {
           "description": "Demand rate integer brown noise",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dibrown",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12916,6 +13970,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "diwhite",
           "package": "hsc3",
@@ -12926,6 +13981,7 @@
         "index": {
           "description": "Demand rate integer white noise",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "diwhite",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12941,6 +13997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "drand",
           "package": "hsc3",
@@ -12951,6 +14008,7 @@
         "index": {
           "description": "Demand rate random selection",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "drand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12966,6 +14024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate sequence generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dseq",
           "package": "hsc3",
@@ -12976,6 +14035,7 @@
         "index": {
           "description": "Demand rate sequence generator",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dseq",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -12991,6 +14051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate series generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dser",
           "package": "hsc3",
@@ -13001,6 +14062,7 @@
         "index": {
           "description": "Demand rate series generator",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dser",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13016,6 +14078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate arithmetic series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dseries",
           "package": "hsc3",
@@ -13026,6 +14089,7 @@
         "index": {
           "description": "Demand rate arithmetic series",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dseries",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13041,6 +14105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate sequence shuffler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dshuf",
           "package": "hsc3",
@@ -13051,6 +14116,7 @@
         "index": {
           "description": "Demand rate sequence shuffler",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dshuf",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13066,6 +14132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand input replication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dstutter",
           "package": "hsc3",
@@ -13076,6 +14143,7 @@
         "index": {
           "description": "Demand input replication",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dstutter",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13091,6 +14159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dswitch",
           "package": "hsc3",
@@ -13101,6 +14170,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dswitch",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13116,6 +14186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dswitch1",
           "package": "hsc3",
@@ -13126,6 +14197,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dswitch1",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13141,6 +14213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dwhite",
           "package": "hsc3",
@@ -13151,6 +14224,7 @@
         "index": {
           "description": "Demand rate white noise",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dwhite",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13166,6 +14240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate weighted random sequence generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dwrand",
           "package": "hsc3",
@@ -13176,6 +14251,7 @@
         "index": {
           "description": "Demand rate weighted random sequence generator",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dwrand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13191,6 +14267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection with no immediate repetition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dxrand",
           "package": "hsc3",
@@ -13201,6 +14278,7 @@
         "index": {
           "description": "Demand rate random selection with no immediate repetition",
           "hierarchy": "Sound SC3 UGen Demand ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.ID",
           "name": "dxrand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13216,6 +14294,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad constructors for demand \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es, see also\n \u003ca\u003eSound.SC3.UGen.Demand.ID\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -13225,6 +14304,7 @@
         "index": {
           "description": "Monad constructors for demand UGen see also Sound.SC3.UGen.Demand.ID",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -13239,6 +14319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbrown",
           "package": "hsc3",
@@ -13249,6 +14330,7 @@
         "index": {
           "description": "Demand rate brown noise",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbrown",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13264,6 +14346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer demand ugen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbufrd",
           "package": "hsc3",
@@ -13274,6 +14357,7 @@
         "index": {
           "description": "Buffer demand ugen",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbufrd",
           "normalized": "UGen-\u003eUGen-\u003eLoop-\u003ea UGen",
@@ -13289,6 +14373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuffer write on demand unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbufwr",
           "package": "hsc3",
@@ -13299,6 +14384,7 @@
         "index": {
           "description": "Buffer write on demand unit generator",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dbufwr",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003ea UGen",
@@ -13314,6 +14400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate geometric series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dgeom",
           "package": "hsc3",
@@ -13324,6 +14411,7 @@
         "index": {
           "description": "Demand rate geometric series",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dgeom",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13339,6 +14427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer brown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dibrown",
           "package": "hsc3",
@@ -13349,6 +14438,7 @@
         "index": {
           "description": "Demand rate integer brown noise",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dibrown",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13364,6 +14454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate integer white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "diwhite",
           "package": "hsc3",
@@ -13374,6 +14465,7 @@
         "index": {
           "description": "Demand rate integer white noise",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "diwhite",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13389,6 +14481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "drand",
           "package": "hsc3",
@@ -13399,6 +14492,7 @@
         "index": {
           "description": "Demand rate random selection",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "drand",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13414,6 +14508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate sequence generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dseq",
           "package": "hsc3",
@@ -13424,6 +14519,7 @@
         "index": {
           "description": "Demand rate sequence generator",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dseq",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13439,6 +14535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate series generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dser",
           "package": "hsc3",
@@ -13449,6 +14546,7 @@
         "index": {
           "description": "Demand rate series generator",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dser",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13464,6 +14562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate arithmetic series.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dseries",
           "package": "hsc3",
@@ -13474,6 +14573,7 @@
         "index": {
           "description": "Demand rate arithmetic series",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dseries",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13489,6 +14589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate sequence shuffler.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dshuf",
           "package": "hsc3",
@@ -13499,6 +14600,7 @@
         "index": {
           "description": "Demand rate sequence shuffler",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dshuf",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13514,6 +14616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand input replication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dstutter",
           "package": "hsc3",
@@ -13524,6 +14627,7 @@
         "index": {
           "description": "Demand input replication",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dstutter",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13539,6 +14643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dswitch",
           "package": "hsc3",
@@ -13549,6 +14654,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dswitch",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13564,6 +14670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate input switching.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dswitch1",
           "package": "hsc3",
@@ -13574,6 +14681,7 @@
         "index": {
           "description": "Demand rate input switching",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dswitch1",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13589,6 +14697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate white noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dwhite",
           "package": "hsc3",
@@ -13599,6 +14708,7 @@
         "index": {
           "description": "Demand rate white noise",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dwhite",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13614,6 +14724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate weighted random sequence generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dwrand",
           "package": "hsc3",
@@ -13624,6 +14735,7 @@
         "index": {
           "description": "Demand rate weighted random sequence generator",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dwrand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -13639,6 +14751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand rate random selection with no immediate repetition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dxrand",
           "package": "hsc3",
@@ -13649,6 +14762,7 @@
         "index": {
           "description": "Demand rate random selection with no immediate repetition",
           "hierarchy": "Sound SC3 UGen Demand Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand.Monad",
           "name": "dxrand",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -13664,6 +14778,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDemand rate unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "Demand",
           "package": "hsc3",
@@ -13673,6 +14788,7 @@
         "index": {
           "description": "Demand rate unit generators",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "Demand",
           "package": "hsc3",
@@ -13687,6 +14803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand results from demand rate ugens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "demand",
           "package": "hsc3",
@@ -13697,6 +14814,7 @@
         "index": {
           "description": "Demand results from demand rate ugens",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "demand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13712,6 +14830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand envelope generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "demandEnvGen",
           "package": "hsc3",
@@ -13722,6 +14841,7 @@
         "index": {
           "description": "Demand envelope generator",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "demandEnvGen",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen",
@@ -13738,6 +14858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInfinte repeat counter for demand rate unit generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "dinf",
           "package": "hsc3",
@@ -13748,6 +14869,7 @@
         "index": {
           "description": "Infinte repeat counter for demand rate unit generators",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "dinf",
           "package": "hsc3",
@@ -13761,6 +14883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand results from demand rate ugens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "duty",
           "package": "hsc3",
@@ -13771,6 +14894,7 @@
         "index": {
           "description": "Demand results from demand rate ugens",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "duty",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen-\u003eUGen",
@@ -13786,6 +14910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemand results as trigger from demand rate ugens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Demand",
           "name": "tDuty",
           "package": "hsc3",
@@ -13796,6 +14921,7 @@
         "index": {
           "description": "Demand results as trigger from demand rate ugens",
           "hierarchy": "Sound SC3 UGen Demand",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Demand",
           "name": "tDuty",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -13812,6 +14938,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDisk file input and output UGens.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "DiskIO",
           "package": "hsc3",
@@ -13821,6 +14948,7 @@
         "index": {
           "description": "Disk file input and output UGens",
           "hierarchy": "Sound SC3 UGen DiskIO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "DiskIO",
           "package": "hsc3",
@@ -13835,6 +14963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream soundfile from disk.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enc\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Number of channels in buffer/soundfile.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ebufnum\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Buffer used for streaming (the file descriptor has to be left\n             open, see the \u003ccode\u003e/b_read\u003c/code\u003e server command).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eloop\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Whether to loop playback (0, 1)\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "diskIn",
           "package": "hsc3",
@@ -13845,6 +14974,7 @@
         "index": {
           "description": "Stream soundfile from disk nc Number of channels in buffer soundfile bufnum Buffer used for streaming the file descriptor has to be left open see the read server command loop Whether to loop playback",
           "hierarchy": "Sound SC3 UGen DiskIO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "diskIn",
           "normalized": "Int-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -13861,6 +14991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream soundfile to disk.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003ebufnum\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Buffer used for streaming (the file descriptor has to be left\n             open, see the \u003ccode\u003e/b_write\u003c/code\u003e server command).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eoutput\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Current number of written frames.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "diskOut",
           "package": "hsc3",
@@ -13871,6 +15002,7 @@
         "index": {
           "description": "Stream soundfile to disk bufnum Buffer used for streaming the file descriptor has to be left open see the write server command output Current number of written frames",
           "hierarchy": "Sound SC3 UGen DiskIO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "diskOut",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -13887,6 +15019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream soundfile from disk with variable playback rate.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003enc\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Number of channels in buffer/soundfile.\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003ebufnum\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Buffer used for streaming (the file descriptor has to be left\n             open, see the \u003ccode\u003e/b_read\u003c/code\u003e server command).\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003erate\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Playback rate\n\u003c/dd\u003e\u003cdt\u003e\u003ccode\u003eloop\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e Whether to loop playback (0,1)\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "vDiskIn",
           "package": "hsc3",
@@ -13897,6 +15030,7 @@
         "index": {
           "description": "Stream soundfile from disk with variable playback rate nc Number of channels in buffer soundfile bufnum Buffer used for streaming the file descriptor has to be left open see the read server command rate Playback rate loop Whether to loop playback",
           "hierarchy": "Sound SC3 UGen DiskIO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.DiskIO",
           "name": "vDiskIn",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eLoop-\u003eUGen",
@@ -13913,6 +15047,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eData types for enumerated and non signal unit generator inputs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Enum",
           "package": "hsc3",
@@ -13922,6 +15057,7 @@
         "index": {
           "description": "Data types for enumerated and non signal unit generator inputs",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Enum",
           "package": "hsc3",
@@ -13936,6 +15072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of flags for '/b_gen' command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "B_Gen",
           "package": "hsc3",
@@ -13945,6 +15082,7 @@
         "index": {
           "description": "Enumeration of flags for gen command",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "B_Gen",
           "package": "hsc3",
@@ -13958,6 +15096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer",
           "package": "hsc3",
@@ -13966,6 +15105,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer",
           "package": "hsc3",
@@ -13980,6 +15120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompletion mode indicator input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoneAction",
           "package": "hsc3",
@@ -13989,6 +15130,7 @@
         "index": {
           "description": "Completion mode indicator input",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoneAction",
           "package": "hsc3",
@@ -14002,6 +15144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCurve",
           "package": "hsc3",
@@ -14010,6 +15153,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCurve",
           "package": "hsc3",
@@ -14024,6 +15168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnvelope curve indicator input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Envelope_Curve",
           "package": "hsc3",
@@ -14033,6 +15178,7 @@
         "index": {
           "description": "Envelope curve indicator input",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Envelope_Curve",
           "package": "hsc3",
@@ -14047,6 +15193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpolation indicator input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Interpolation",
           "package": "hsc3",
@@ -14056,6 +15203,7 @@
         "index": {
           "description": "Interpolation indicator input",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Interpolation",
           "package": "hsc3",
@@ -14070,6 +15218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop indicator input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Loop",
           "package": "hsc3",
@@ -14079,6 +15228,7 @@
         "index": {
           "description": "Loop indicator input",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Loop",
           "package": "hsc3",
@@ -14093,6 +15243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarp interpolation indicator input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Warp",
           "package": "hsc3",
@@ -14102,6 +15253,7 @@
         "index": {
           "description": "Warp interpolation indicator input",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Warp",
           "package": "hsc3",
@@ -14115,6 +15267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer",
           "package": "hsc3",
@@ -14124,6 +15277,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer",
           "package": "hsc3",
@@ -14137,6 +15291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer_Id",
           "package": "hsc3",
@@ -14146,6 +15301,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Buffer_Id",
           "package": "hsc3",
@@ -14159,6 +15315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Clear",
           "package": "hsc3",
@@ -14168,6 +15325,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Clear",
           "package": "hsc3",
@@ -14181,6 +15339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "CubicInterpolation",
           "package": "hsc3",
@@ -14190,6 +15349,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "CubicInterpolation",
           "package": "hsc3",
@@ -14203,6 +15363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoNothing",
           "package": "hsc3",
@@ -14212,6 +15373,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoNothing",
           "package": "hsc3",
@@ -14225,6 +15387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoneAction",
           "package": "hsc3",
@@ -14234,6 +15397,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "DoneAction",
           "package": "hsc3",
@@ -14248,6 +15412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote: not implemented at SC3\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCos",
           "package": "hsc3",
@@ -14258,6 +15423,7 @@
         "index": {
           "description": "Note not implemented at SC3",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCos",
           "package": "hsc3",
@@ -14271,6 +15437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCub",
           "package": "hsc3",
@@ -14280,6 +15447,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvCub",
           "package": "hsc3",
@@ -14293,6 +15461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvExp",
           "package": "hsc3",
@@ -14302,6 +15471,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvExp",
           "package": "hsc3",
@@ -14315,6 +15485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvLin",
           "package": "hsc3",
@@ -14324,6 +15495,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvLin",
           "package": "hsc3",
@@ -14337,6 +15509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvNum",
           "package": "hsc3",
@@ -14346,6 +15519,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvNum",
           "package": "hsc3",
@@ -14359,6 +15533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvSin",
           "package": "hsc3",
@@ -14368,6 +15543,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvSin",
           "package": "hsc3",
@@ -14381,6 +15557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvSqr",
           "package": "hsc3",
@@ -14390,6 +15567,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvSqr",
           "package": "hsc3",
@@ -14403,6 +15581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvStep",
           "package": "hsc3",
@@ -14412,6 +15591,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "EnvStep",
           "package": "hsc3",
@@ -14425,6 +15605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Exponential",
           "package": "hsc3",
@@ -14434,6 +15615,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Exponential",
           "package": "hsc3",
@@ -14447,6 +15629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Interpolation",
           "package": "hsc3",
@@ -14456,6 +15639,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Interpolation",
           "package": "hsc3",
@@ -14469,6 +15653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Linear",
           "package": "hsc3",
@@ -14478,6 +15663,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Linear",
           "package": "hsc3",
@@ -14491,6 +15677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "LinearInterpolation",
           "package": "hsc3",
@@ -14500,6 +15687,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "LinearInterpolation",
           "package": "hsc3",
@@ -14513,6 +15701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Loop",
           "package": "hsc3",
@@ -14522,6 +15711,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Loop",
           "package": "hsc3",
@@ -14535,6 +15725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "NoInterpolation",
           "package": "hsc3",
@@ -14544,6 +15735,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "NoInterpolation",
           "package": "hsc3",
@@ -14557,6 +15749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "NoLoop",
           "package": "hsc3",
@@ -14566,6 +15759,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "NoLoop",
           "package": "hsc3",
@@ -14579,6 +15773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Normalise",
           "package": "hsc3",
@@ -14588,6 +15783,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Normalise",
           "package": "hsc3",
@@ -14601,6 +15797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "PauseSynth",
           "package": "hsc3",
@@ -14610,6 +15807,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "PauseSynth",
           "package": "hsc3",
@@ -14623,6 +15821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "RemoveSynth",
           "package": "hsc3",
@@ -14632,6 +15831,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "RemoveSynth",
           "package": "hsc3",
@@ -14645,6 +15845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Warp",
           "package": "hsc3",
@@ -14654,6 +15855,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Warp",
           "package": "hsc3",
@@ -14667,6 +15869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Wavetable",
           "package": "hsc3",
@@ -14676,6 +15879,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "Wavetable",
           "package": "hsc3",
@@ -14689,6 +15893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "WithLoop",
           "package": "hsc3",
@@ -14698,6 +15903,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "WithLoop",
           "package": "hsc3",
@@ -14712,6 +15918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eB_Gen\u003c/a\u003e\u003c/code\u003e to bit number.\n\u003c/p\u003e\u003cpre\u003e map b_gen_bit [minBound .. maxBound]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "b_gen_bit",
           "package": "hsc3",
@@ -14722,6 +15929,7 @@
         "index": {
           "description": "Gen to bit number map gen bit minBound maxBound",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "b_gen_bit",
           "normalized": "B_Gen-\u003eInt",
@@ -14737,6 +15945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of \u003ccode\u003e\u003ca\u003eB_Gen\u003c/a\u003e\u003c/code\u003e to flag.\n\u003c/p\u003e\u003cpre\u003e b_gen_flag [minBound .. maxBound] == 7\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "b_gen_flag",
           "package": "hsc3",
@@ -14747,6 +15956,7 @@
         "index": {
           "description": "Set of Gen to flag gen flag minBound maxBound",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "b_gen_flag",
           "normalized": "[B_Gen]-\u003eInt",
@@ -14761,6 +15971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_interpolation_f",
           "package": "hsc3",
@@ -14770,6 +15981,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_interpolation_f",
           "normalized": "Envelope_Curve a-\u003eInterpolation_F a",
@@ -14785,6 +15997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert \u003ccode\u003e\u003ca\u003eEnvelope_Curve\u003c/a\u003e\u003c/code\u003e to shape value.\n\u003c/p\u003e\u003cpre\u003e map env_curve_shape [EnvSin,EnvSqr] == [3,6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_shape",
           "package": "hsc3",
@@ -14795,6 +16008,7 @@
         "index": {
           "description": "Convert Envelope Curve to shape value map env curve shape EnvSin EnvSqr",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_shape",
           "normalized": "Envelope_Curve a-\u003ea",
@@ -14810,6 +16024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003cem\u003evalue\u003c/em\u003e of \u003ccode\u003e\u003ca\u003eEnvCurve\u003c/a\u003e\u003c/code\u003e is non-zero for \u003ccode\u003e\u003ca\u003eEnvNum\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e map env_curve_value [EnvCos,EnvNum 2] == [0,2]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_value",
           "package": "hsc3",
@@ -14820,6 +16035,7 @@
         "index": {
           "description": "The value of EnvCurve is non-zero for EnvNum map env curve value EnvCos EnvNum",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "env_curve_value",
           "normalized": "Envelope_Curve a-\u003ea",
@@ -14834,6 +16050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_buffer",
           "package": "hsc3",
@@ -14843,6 +16060,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_buffer",
           "normalized": "Buffer-\u003eUGen",
@@ -14858,6 +16076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve \u003ccode\u003e\u003ca\u003eDoneAction\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_done_action",
           "package": "hsc3",
@@ -14868,6 +16087,7 @@
         "index": {
           "description": "Resolve DoneAction",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_done_action",
           "normalized": "DoneAction-\u003eUGen",
@@ -14883,6 +16103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve \u003ccode\u003e\u003ca\u003eInterpolation\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_interpolation",
           "package": "hsc3",
@@ -14893,6 +16114,7 @@
         "index": {
           "description": "Resolve Interpolation",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_interpolation",
           "normalized": "Interpolation-\u003eUGen",
@@ -14908,6 +16130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve \u003ccode\u003e\u003ca\u003eLoop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_loop",
           "package": "hsc3",
@@ -14918,6 +16141,7 @@
         "index": {
           "description": "Resolve Loop",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_loop",
           "normalized": "Loop-\u003eUGen",
@@ -14933,6 +16157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResolve \u003ccode\u003e\u003ca\u003eWarp\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_warp",
           "package": "hsc3",
@@ -14943,6 +16168,7 @@
         "index": {
           "description": "Resolve Warp",
           "hierarchy": "Sound SC3 UGen Enum",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Enum",
           "name": "from_warp",
           "normalized": "Warp-\u003eUGen",
@@ -14958,6 +16184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to generate break point data for standard envelope\n   types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "Construct",
           "package": "hsc3",
@@ -14967,6 +16194,7 @@
         "index": {
           "description": "Functions to generate break point data for standard envelope types",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "Construct",
           "package": "hsc3",
@@ -14981,6 +16209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameters for ADSR envelopes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "ADSR",
           "package": "hsc3",
@@ -14990,6 +16219,7 @@
         "index": {
           "description": "Parameters for ADSR envelopes",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "ADSR",
           "package": "hsc3",
@@ -15003,6 +16233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "ADSR",
           "package": "hsc3",
@@ -15012,6 +16243,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "ADSR",
           "package": "hsc3",
@@ -15025,6 +16257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "attackTime",
           "package": "hsc3",
@@ -15034,6 +16267,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "attackTime",
           "package": "hsc3",
@@ -15047,6 +16281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "bias",
           "package": "hsc3",
@@ -15056,6 +16291,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "bias",
           "package": "hsc3",
@@ -15068,6 +16304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "curve",
           "package": "hsc3",
@@ -15077,6 +16314,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "curve",
           "normalized": "(Envelope_Curve a,Envelope_Curve a,Envelope_Curve a)",
@@ -15091,6 +16329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "decayTime",
           "package": "hsc3",
@@ -15100,6 +16339,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "decayTime",
           "package": "hsc3",
@@ -15114,6 +16354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttack, decay, sustain, release envelope parameter constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envADSR",
           "package": "hsc3",
@@ -15124,6 +16365,7 @@
         "index": {
           "description": "Attack decay sustain release envelope parameter constructor",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envADSR",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003ea-\u003eEnvelope_Curve a-\u003ea-\u003eEnvelope a",
@@ -15140,6 +16382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord (\u003ccode\u003e\u003ca\u003eADSR\u003c/a\u003e\u003c/code\u003e) variant of \u003ccode\u003e\u003ca\u003eenvADSR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envADSR_r",
           "package": "hsc3",
@@ -15150,6 +16393,7 @@
         "index": {
           "description": "Record ADSR variant of envADSR",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envADSR_r",
           "normalized": "ADSR a-\u003eEnvelope a",
@@ -15166,6 +16410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttack, sustain, release envelope parameter constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envASR",
           "package": "hsc3",
@@ -15176,6 +16421,7 @@
         "index": {
           "description": "Attack sustain release envelope parameter constructor",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envASR",
           "normalized": "a-\u003ea-\u003ea-\u003eEnvelope_Curve a-\u003eEnvelope a",
@@ -15192,6 +16438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCo-ordinate based static envelope generator.\n\u003c/p\u003e\u003cpre\u003e let e = envCoord [(0,0),(1/4,1),(1,0)] 1 1 EnvLin\n in envelope_sc3_array e == Just [0,2,-99,-99,1,1/4,1,0,0,3/4,1,0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envCoord",
           "package": "hsc3",
@@ -15202,6 +16449,7 @@
         "index": {
           "description": "Co-ordinate based static envelope generator let envCoord EnvLin in envelope sc3 array Just",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envCoord",
           "normalized": "[(a,a)]-\u003ea-\u003ea-\u003eEnvelope_Curve a-\u003eEnvelope a",
@@ -15218,6 +16466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear envelope parameter constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envLinen",
           "package": "hsc3",
@@ -15228,6 +16477,7 @@
         "index": {
           "description": "Linear envelope parameter constructor",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envLinen",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eEnvelope a",
@@ -15244,6 +16494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eenvLinen\u003c/a\u003e\u003c/code\u003e with user specified 'Envelope_Curve a'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envLinen'",
           "package": "hsc3",
@@ -15254,6 +16505,7 @@
         "index": {
           "description": "Variant of envLinen with user specified Envelope Curve",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envLinen'",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003e(Envelope_Curve a,Envelope_Curve a,Envelope_Curve a)-\u003eEnvelope a",
@@ -15270,6 +16522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePercussive envelope, with attack, release, level and curve\n   inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envPerc",
           "package": "hsc3",
@@ -15280,6 +16533,7 @@
         "index": {
           "description": "Percussive envelope with attack release level and curve inputs",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envPerc",
           "normalized": "a-\u003ea-\u003eEnvelope a",
@@ -15296,6 +16550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant \u003ccode\u003e\u003ca\u003eenvPerc\u003c/a\u003e\u003c/code\u003e with user specified 'Envelope_Curve a'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envPerc'",
           "package": "hsc3",
@@ -15306,6 +16561,7 @@
         "index": {
           "description": "Variant envPerc with user specified Envelope Curve",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envPerc'",
           "normalized": "a-\u003ea-\u003ea-\u003e(Envelope_Curve a,Envelope_Curve a)-\u003eEnvelope a",
@@ -15322,6 +16578,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSine envelope, with duration and level inputs.\n\u003c/p\u003e\u003cpre\u003e let e = envSine 0 0.1\n in envelope_sc3_array e == Just [0,2,-99,-99,0.1,0,3.0,0,0,0,3,0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envSine",
           "package": "hsc3",
@@ -15332,6 +16589,7 @@
         "index": {
           "description": "Sine envelope with duration and level inputs let envSine in envelope sc3 array Just",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envSine",
           "normalized": "a-\u003ea-\u003eEnvelope a",
@@ -15348,6 +16606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrapezoidal envelope generator.  The arguments are: 1. \u003ccode\u003eshape\u003c/code\u003e\n determines the sustain time as a proportion of \u003ccode\u003edur\u003c/code\u003e, zero is a\n triangular envelope, one a rectangular envelope; 2. \u003ccode\u003eskew\u003c/code\u003e\n determines the attack/decay ratio, zero is an immediate attack and\n a slow decay, one a slow attack and an immediate decay;\n 3. \u003ccode\u003eduration\u003c/code\u003e in seconds; 4. \u003ccode\u003eamplitude\u003c/code\u003e as linear gain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envTrapezoid",
           "package": "hsc3",
@@ -15358,6 +16617,7 @@
         "index": {
           "description": "Trapezoidal envelope generator The arguments are shape determines the sustain time as proportion of dur zero is triangular envelope one rectangular envelope skew determines the attack decay ratio zero is an immediate attack and slow decay one slow attack and an immediate decay duration in seconds amplitude as linear gain",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envTrapezoid",
           "normalized": "a-\u003ea-\u003ea-\u003ea-\u003eEnvelope a",
@@ -15374,6 +16634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriangular envelope, with duration and level inputs.\n\u003c/p\u003e\u003cpre\u003e let e = envTriangle 1 0.1\n in envelope_sc3_array e = Just [0,2,-99,-99,0.1,0.5,1,0,0,0.5,1,0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envTriangle",
           "package": "hsc3",
@@ -15384,6 +16645,7 @@
         "index": {
           "description": "Triangular envelope with duration and level inputs let envTriangle in envelope sc3 array Just",
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "envTriangle",
           "normalized": "a-\u003ea-\u003eEnvelope a",
@@ -15399,6 +16661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "peakLevel",
           "package": "hsc3",
@@ -15408,6 +16671,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "peakLevel",
           "package": "hsc3",
@@ -15421,6 +16685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "releaseTime",
           "package": "hsc3",
@@ -15430,6 +16695,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "releaseTime",
           "package": "hsc3",
@@ -15443,6 +16709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "sustainLevel",
           "package": "hsc3",
@@ -15452,6 +16719,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Construct",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Construct",
           "name": "sustainLevel",
           "package": "hsc3",
@@ -15466,6 +16734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInterpolation function for envelope segments.  Each function\n takes three arguments, \u003cem\u003ex0\u003c/em\u003e is the left or begin value, \u003cem\u003ex1\u003c/em\u003e is the\n right or end value, and \u003cem\u003et\u003c/em\u003e is a (0,1) index.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "Interpolate",
           "package": "hsc3",
@@ -15475,6 +16744,7 @@
         "index": {
           "description": "Interpolation function for envelope segments Each function takes three arguments x0 is the left or begin value x1 is the right or end value and is index",
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "Interpolate",
           "package": "hsc3",
@@ -15488,6 +16758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "Interpolation_F",
           "package": "hsc3",
@@ -15496,6 +16767,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "Interpolation_F",
           "package": "hsc3",
@@ -15509,6 +16781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "cubed",
           "package": "hsc3",
@@ -15518,6 +16791,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "cubed",
           "package": "hsc3",
@@ -15530,6 +16804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "curve",
           "package": "hsc3",
@@ -15539,6 +16814,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "curve",
           "normalized": "a-\u003eInterpolation_F a",
@@ -15553,6 +16829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "exponential",
           "package": "hsc3",
@@ -15562,6 +16839,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "exponential",
           "package": "hsc3",
@@ -15574,6 +16852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "half_pi",
           "package": "hsc3",
@@ -15583,6 +16862,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "half_pi",
           "package": "hsc3",
@@ -15595,6 +16875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "linear",
           "package": "hsc3",
@@ -15604,6 +16885,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "linear",
           "package": "hsc3",
@@ -15616,6 +16898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "sine",
           "package": "hsc3",
@@ -15625,6 +16908,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "sine",
           "package": "hsc3",
@@ -15637,6 +16921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "squared",
           "package": "hsc3",
@@ -15646,6 +16931,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "squared",
           "package": "hsc3",
@@ -15658,6 +16944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "step",
           "package": "hsc3",
@@ -15667,6 +16954,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "step",
           "package": "hsc3",
@@ -15679,6 +16967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "welch",
           "package": "hsc3",
@@ -15688,6 +16977,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope Interpolate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope.Interpolate",
           "name": "welch",
           "package": "hsc3",
@@ -15701,6 +16991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnvelope generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15710,6 +17001,7 @@
         "index": {
           "description": "Envelope generators",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15724,6 +17016,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSC3 envelope segment model\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15733,6 +17026,7 @@
         "index": {
           "description": "SC3 envelope segment model",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15747,6 +17041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set of start time, start level, end time, end level and curve.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope_Segment",
           "package": "hsc3",
@@ -15756,6 +17051,7 @@
         "index": {
           "description": "set of start time start level end time end level and curve",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope_Segment",
           "package": "hsc3",
@@ -15769,6 +17065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15778,6 +17075,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "Envelope",
           "package": "hsc3",
@@ -15791,6 +17089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "d_dx",
           "package": "hsc3",
@@ -15800,6 +17099,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "d_dx",
           "normalized": "[a]-\u003e[a]",
@@ -15815,6 +17115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaise specified done action when input goes silent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "detectSilence",
           "package": "hsc3",
@@ -15825,6 +17126,7 @@
         "index": {
           "description": "Raise specified done action when input goes silent",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "detectSilence",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen",
@@ -15841,6 +17143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne while the source is marked done, else zero.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "done",
           "package": "hsc3",
@@ -15851,6 +17154,7 @@
         "index": {
           "description": "One while the source is marked done else zero",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "done",
           "normalized": "UGen-\u003eUGen",
@@ -15865,6 +17169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "dx_d",
           "package": "hsc3",
@@ -15874,6 +17179,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "dx_d",
           "normalized": "[a]-\u003e[a]",
@@ -15889,6 +17195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSegment based envelope generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envGen",
           "package": "hsc3",
@@ -15899,6 +17206,7 @@
         "index": {
           "description": "Segment based envelope generator",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envGen",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eEnvelope UGen-\u003eUGen",
@@ -15915,6 +17223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect releaseNode (or end) to first node of envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_circle",
           "package": "hsc3",
@@ -15925,6 +17234,7 @@
         "index": {
           "description": "Connect releaseNode or end to first node of envelope",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_circle",
           "normalized": "Envelope a-\u003ea-\u003eEnvelope_Curve a-\u003eEnvelope a",
@@ -15940,6 +17250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly empty curve set\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_curves",
           "package": "hsc3",
@@ -15950,6 +17261,7 @@
         "index": {
           "description": "Possibly empty curve set",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_curves",
           "normalized": "[Envelope_Curve a]",
@@ -15965,6 +17277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay the onset of the envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_delay",
           "package": "hsc3",
@@ -15975,6 +17288,7 @@
         "index": {
           "description": "Delay the onset of the envelope",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_delay",
           "normalized": "Envelope a-\u003ea-\u003eEnvelope a",
@@ -15989,6 +17303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_is_sustained",
           "package": "hsc3",
@@ -15998,6 +17313,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_is_sustained",
           "normalized": "Envelope a-\u003eBool",
@@ -16013,6 +17329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of \u003cem\u003en\u003c/em\u003e levels, n is \u003e= 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_levels",
           "package": "hsc3",
@@ -16023,6 +17340,7 @@
         "index": {
           "description": "Set of levels is",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_levels",
           "normalized": "[a]",
@@ -16038,6 +17356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe index to loop node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_loop_node",
           "package": "hsc3",
@@ -16048,6 +17367,7 @@
         "index": {
           "description": "Maybe index to loop node",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_loop_node",
           "package": "hsc3",
@@ -16061,6 +17381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe index to release node\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_release_node",
           "package": "hsc3",
@@ -16071,6 +17392,7 @@
         "index": {
           "description": "Maybe index to release node",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_release_node",
           "package": "hsc3",
@@ -16084,6 +17406,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of \u003cem\u003en-1\u003c/em\u003e time intervals\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_times",
           "package": "hsc3",
@@ -16094,6 +17417,7 @@
         "index": {
           "description": "Set of n-1 time intervals",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "env_times",
           "normalized": "[a]",
@@ -16109,6 +17433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet value for \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e at time \u003cem\u003et\u003c/em\u003e, or zero if \u003cem\u003et\u003c/em\u003e is out of\n range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_at",
           "package": "hsc3",
@@ -16119,6 +17444,7 @@
         "index": {
           "description": "Get value for Envelope at time or zero if is out of range",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_at",
           "normalized": "Envelope a-\u003ea-\u003ea",
@@ -16134,6 +17460,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on \u003ccode\u003e\u003ca\u003eenv_curves\u003c/a\u003e\u003c/code\u003e that expands the, possibly empty, user\n list by cycling (if not empty) or by filling with \u003ccode\u003e\u003ca\u003eEnvLin\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_curves",
           "package": "hsc3",
@@ -16144,6 +17471,7 @@
         "index": {
           "description": "Variant on env curves that expands the possibly empty user list by cycling if not empty or by filling with EnvLin",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_curves",
           "normalized": "Envelope a-\u003e[Envelope_Curve a]",
@@ -16159,6 +17487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration of \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e, ie. \u003ccode\u003e\u003ca\u003esum\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eenv_times\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_duration",
           "package": "hsc3",
@@ -16169,6 +17498,7 @@
         "index": {
           "description": "Duration of Envelope ie sum env times",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_duration",
           "normalized": "Envelope a-\u003ea",
@@ -16184,6 +17514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of segments at \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e, ie. \u003ccode\u003e\u003ca\u003elength\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eenv_times\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_n_segments",
           "package": "hsc3",
@@ -16194,6 +17525,7 @@
         "index": {
           "description": "Number of segments at Envelope ie length env times",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_n_segments",
           "normalized": "Envelope a-\u003eb",
@@ -16209,6 +17541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e to breakpoint set of \u003cem\u003en\u003c/em\u003e places.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_render",
           "package": "hsc3",
@@ -16219,6 +17552,7 @@
         "index": {
           "description": "Render Envelope to breakpoint set of places",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_render",
           "normalized": "a-\u003eEnvelope a-\u003e[(a,a)]",
@@ -16234,6 +17568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear SC3 form of \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_sc3_array",
           "package": "hsc3",
@@ -16244,6 +17579,7 @@
         "index": {
           "description": "Linear SC3 form of Envelope data",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_sc3_array",
           "normalized": "Envelope a-\u003eMaybe[a]",
@@ -16259,6 +17595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract envelope segment given at index \u003cem\u003ei\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_segment",
           "package": "hsc3",
@@ -16269,6 +17606,7 @@
         "index": {
           "description": "Extract envelope segment given at index",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_segment",
           "normalized": "Envelope a-\u003eInt-\u003eEnvelope_Segment a",
@@ -16284,6 +17622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine which envelope segment a given time \u003cem\u003et\u003c/em\u003e falls in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_segment_ix",
           "package": "hsc3",
@@ -16294,6 +17633,7 @@
         "index": {
           "description": "Determine which envelope segment given time falls in",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_segment_ix",
           "normalized": "Envelope a-\u003ea-\u003eMaybe Int",
@@ -16309,6 +17649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContruct a lookup table of \u003cem\u003en\u003c/em\u003e places from \u003ccode\u003e\u003ca\u003eEnvelope\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_table",
           "package": "hsc3",
@@ -16319,6 +17660,7 @@
         "index": {
           "description": "Contruct lookup table of places from Envelope",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "envelope_table",
           "normalized": "a-\u003eEnvelope a-\u003e[a]",
@@ -16334,6 +17676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen triggered free specified node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "free",
           "package": "hsc3",
@@ -16344,6 +17687,7 @@
         "index": {
           "description": "When triggered free specified node",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "free",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -16359,6 +17703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree node on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "freeSelf",
           "package": "hsc3",
@@ -16369,6 +17714,7 @@
         "index": {
           "description": "Free node on trigger",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "freeSelf",
           "normalized": "UGen-\u003eUGen",
@@ -16385,6 +17731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree node on done action at source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "freeSelfWhenDone",
           "package": "hsc3",
@@ -16395,6 +17742,7 @@
         "index": {
           "description": "Free node on done action at source",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "freeSelfWhenDone",
           "normalized": "UGen-\u003eUGen",
@@ -16411,6 +17759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLine generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "line",
           "package": "hsc3",
@@ -16421,6 +17770,7 @@
         "index": {
           "description": "Line generator",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "line",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen",
@@ -16436,6 +17786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear envelope generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "linen",
           "package": "hsc3",
@@ -16446,6 +17797,7 @@
         "index": {
           "description": "Linear envelope generator",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "linen",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen",
@@ -16461,6 +17813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause specified node on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pause",
           "package": "hsc3",
@@ -16471,6 +17824,7 @@
         "index": {
           "description": "Pause specified node on trigger",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pause",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -16486,6 +17840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause node on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pauseSelf",
           "package": "hsc3",
@@ -16496,6 +17851,7 @@
         "index": {
           "description": "Pause node on trigger",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pauseSelf",
           "normalized": "UGen-\u003eUGen",
@@ -16512,6 +17868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePause node on done action at source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pauseSelfWhenDone",
           "package": "hsc3",
@@ -16522,6 +17879,7 @@
         "index": {
           "description": "Pause node on done action at source",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "pauseSelfWhenDone",
           "normalized": "UGen-\u003eUGen",
@@ -16538,6 +17896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponential line generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "xLine",
           "package": "hsc3",
@@ -16548,6 +17907,7 @@
         "index": {
           "description": "Exponential line generator",
           "hierarchy": "Sound SC3 UGen Envelope",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Envelope",
           "name": "xLine",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eDoneAction-\u003eUGen",
@@ -16564,6 +17924,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReader for ATS analyis data files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16573,6 +17934,7 @@
         "index": {
           "description": "Reader for ATS analyis data files",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16587,6 +17949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eATS analysis data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16596,6 +17959,7 @@
         "index": {
           "description": "ATS analysis data",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16610,6 +17974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eATS analysis frame data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSFrame",
           "package": "hsc3",
@@ -16619,6 +17984,7 @@
         "index": {
           "description": "ATS analysis frame data",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSFrame",
           "package": "hsc3",
@@ -16633,6 +17999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eATS analysis meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSHeader",
           "package": "hsc3",
@@ -16642,6 +18009,7 @@
         "index": {
           "description": "ATS analysis meta-data",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSHeader",
           "package": "hsc3",
@@ -16655,6 +18023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16664,6 +18033,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATS",
           "package": "hsc3",
@@ -16677,6 +18047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSHeader",
           "package": "hsc3",
@@ -16686,6 +18057,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "ATSHeader",
           "package": "hsc3",
@@ -16699,6 +18071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsAnalysisDuration",
           "package": "hsc3",
@@ -16708,6 +18081,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsAnalysisDuration",
           "package": "hsc3",
@@ -16721,6 +18095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsData",
           "package": "hsc3",
@@ -16730,6 +18105,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsData",
           "normalized": "[Double]",
@@ -16745,6 +18121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFileType",
           "package": "hsc3",
@@ -16754,6 +18131,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFileType",
           "package": "hsc3",
@@ -16767,6 +18145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrameLength",
           "package": "hsc3",
@@ -16776,6 +18155,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrameLength",
           "package": "hsc3",
@@ -16789,6 +18169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrameSize",
           "package": "hsc3",
@@ -16798,6 +18179,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrameSize",
           "package": "hsc3",
@@ -16812,6 +18194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract set of \u003ccode\u003e\u003ca\u003eATSFrame\u003c/a\u003e\u003c/code\u003es from \u003ccode\u003e\u003ca\u003eATS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrames",
           "package": "hsc3",
@@ -16822,6 +18205,7 @@
         "index": {
           "description": "Extract set of ATSFrame from ATS",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsFrames",
           "normalized": "ATS-\u003e[ATSFrame]",
@@ -16837,6 +18221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsHeader",
           "package": "hsc3",
@@ -16846,6 +18231,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsHeader",
           "package": "hsc3",
@@ -16859,6 +18245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsMaxAmplitude",
           "package": "hsc3",
@@ -16868,6 +18255,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsMaxAmplitude",
           "package": "hsc3",
@@ -16881,6 +18269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsMaxFrequency",
           "package": "hsc3",
@@ -16890,6 +18279,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsMaxFrequency",
           "package": "hsc3",
@@ -16903,6 +18293,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsNFrames",
           "package": "hsc3",
@@ -16912,6 +18303,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsNFrames",
           "package": "hsc3",
@@ -16925,6 +18317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsNPartials",
           "package": "hsc3",
@@ -16934,6 +18327,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsNPartials",
           "package": "hsc3",
@@ -16948,6 +18342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an ATS data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsRead",
           "package": "hsc3",
@@ -16958,6 +18353,7 @@
         "index": {
           "description": "Read an ATS data file",
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsRead",
           "normalized": "FilePath-\u003eIO ATS",
@@ -16973,6 +18369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsSampleRate",
           "package": "hsc3",
@@ -16982,6 +18379,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsSampleRate",
           "package": "hsc3",
@@ -16995,6 +18393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsWindowSize",
           "package": "hsc3",
@@ -17004,6 +18403,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External ATS",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ATS",
           "name": "atsWindowSize",
           "package": "hsc3",
@@ -17018,6 +18418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon-deterministic external \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "ID",
           "package": "hsc3",
@@ -17027,6 +18428,7 @@
         "index": {
           "description": "Non-deterministic external UGen",
           "hierarchy": "Sound SC3 UGen External ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "ID",
           "package": "hsc3",
@@ -17041,6 +18443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erandom walk step\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise0",
           "package": "hsc3",
@@ -17051,6 +18454,7 @@
         "index": {
           "description": "random walk step",
           "hierarchy": "Sound SC3 UGen External ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise0",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17067,6 +18471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erandom walk linear interp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise1",
           "package": "hsc3",
@@ -17077,6 +18482,7 @@
         "index": {
           "description": "random walk linear interp",
           "hierarchy": "Sound SC3 UGen External ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise1",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17093,6 +18499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erandom walk cubic interp\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise2",
           "package": "hsc3",
@@ -17103,6 +18510,7 @@
         "index": {
           "description": "random walk cubic interp",
           "hierarchy": "Sound SC3 UGen External ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.ID",
           "name": "lfBrownNoise2",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17119,6 +18527,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReader for LPC analysis data files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17128,6 +18537,7 @@
         "index": {
           "description": "Reader for LPC analysis data files",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17142,6 +18552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLPC analysis data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17151,6 +18562,7 @@
         "index": {
           "description": "LPC analysis data",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17165,6 +18577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLPC analysis frame data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCFrame",
           "package": "hsc3",
@@ -17174,6 +18587,7 @@
         "index": {
           "description": "LPC analysis frame data",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCFrame",
           "package": "hsc3",
@@ -17188,6 +18602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLPC analysis meta-data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCHeader",
           "package": "hsc3",
@@ -17197,6 +18612,7 @@
         "index": {
           "description": "LPC analysis meta-data",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCHeader",
           "package": "hsc3",
@@ -17210,6 +18626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17219,6 +18636,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPC",
           "package": "hsc3",
@@ -17232,6 +18650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCHeader",
           "package": "hsc3",
@@ -17241,6 +18660,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "LPCHeader",
           "package": "hsc3",
@@ -17254,6 +18674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcAnalysisDuration",
           "package": "hsc3",
@@ -17263,6 +18684,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcAnalysisDuration",
           "package": "hsc3",
@@ -17276,6 +18698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrameRate",
           "package": "hsc3",
@@ -17285,6 +18708,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrameRate",
           "package": "hsc3",
@@ -17298,6 +18722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrameSize",
           "package": "hsc3",
@@ -17307,6 +18732,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrameSize",
           "package": "hsc3",
@@ -17320,6 +18746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrames",
           "package": "hsc3",
@@ -17329,6 +18756,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcFrames",
           "normalized": "[LPCFrame]",
@@ -17344,6 +18772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcHeader",
           "package": "hsc3",
@@ -17353,6 +18782,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcHeader",
           "package": "hsc3",
@@ -17366,6 +18796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcHeaderSize",
           "package": "hsc3",
@@ -17375,6 +18806,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcHeaderSize",
           "package": "hsc3",
@@ -17388,6 +18820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcMagic",
           "package": "hsc3",
@@ -17397,6 +18830,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcMagic",
           "package": "hsc3",
@@ -17410,6 +18844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcNFrames",
           "package": "hsc3",
@@ -17419,6 +18854,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcNFrames",
           "package": "hsc3",
@@ -17432,6 +18868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcNPoles",
           "package": "hsc3",
@@ -17441,6 +18878,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcNPoles",
           "package": "hsc3",
@@ -17455,6 +18893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an lpanal format LPC data file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcRead",
           "package": "hsc3",
@@ -17465,6 +18904,7 @@
         "index": {
           "description": "Read an lpanal format LPC data file",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcRead",
           "normalized": "FilePath-\u003eIO LPC",
@@ -17481,6 +18921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalysis data in format required by the sc3 LPC UGens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcSC3",
           "package": "hsc3",
@@ -17491,6 +18932,7 @@
         "index": {
           "description": "Analysis data in format required by the sc3 LPC UGens",
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcSC3",
           "normalized": "LPC-\u003e[Float]",
@@ -17506,6 +18948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcSampleRate",
           "package": "hsc3",
@@ -17515,6 +18958,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen External LPC",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.LPC",
           "name": "lpcSampleRate",
           "package": "hsc3",
@@ -17529,6 +18973,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to unit generators in sc3-plugins.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "SC3_Plugins",
           "package": "hsc3",
@@ -17538,6 +18983,7 @@
         "index": {
           "description": "Bindings to unit generators in sc3-plugins",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "SC3_Plugins",
           "package": "hsc3",
@@ -17552,6 +18998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResynthesize sinusoidal and critical noise ATS analysis data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "atsNoiSynth",
           "package": "hsc3",
@@ -17562,6 +19009,7 @@
         "index": {
           "description": "Resynthesize sinusoidal and critical noise ATS analysis data",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "atsNoiSynth",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17578,6 +19026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResynthesize sinusoidal ATS analysis data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "atsSynth",
           "package": "hsc3",
@@ -17588,6 +19037,7 @@
         "index": {
           "description": "Resynthesize sinusoidal ATS analysis data",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "atsSynth",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17604,6 +19054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulation of AY (aka YM) soundchip, used in Spectrum/Atari.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "ay",
           "package": "hsc3",
@@ -17614,6 +19065,7 @@
         "index": {
           "description": "Emulation of AY aka YM soundchip used in Spectrum Atari",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "ay",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17629,6 +19081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert frequency value to value appropriate for AY tone inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "ayFreqToTone",
           "package": "hsc3",
@@ -17639,6 +19092,7 @@
         "index": {
           "description": "Convert frequency value to value appropriate for AY tone inputs",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "ayFreqToTone",
           "normalized": "a-\u003ea",
@@ -17655,6 +19109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrigogine oscillator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "brusselator",
           "package": "hsc3",
@@ -17665,6 +19120,7 @@
         "index": {
           "description": "Prigogine oscillator",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "brusselator",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17680,6 +19136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenative cross-synthesis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "concat'",
           "package": "hsc3",
@@ -17690,6 +19147,7 @@
         "index": {
           "description": "Concatenative cross-synthesis",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "concat'",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17705,6 +19163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConcatenative cross-synthesis (variant).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "concat2",
           "package": "hsc3",
@@ -17715,6 +19174,7 @@
         "index": {
           "description": "Concatenative cross-synthesis variant",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "concat2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17730,6 +19190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "disintegrator",
           "package": "hsc3",
@@ -17740,6 +19201,7 @@
         "index": {
           "description": "Brown noise",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "disintegrator",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17755,6 +19217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForced DoubleWell Oscillator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "doubleWell3",
           "package": "hsc3",
@@ -17765,6 +19228,7 @@
         "index": {
           "description": "Forced DoubleWell Oscillator",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "doubleWell3",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17781,6 +19245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranular synthesis with FM grains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "fmGrain",
           "package": "hsc3",
@@ -17791,6 +19256,7 @@
         "index": {
           "description": "Granular synthesis with FM grains",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "fmGrain",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17807,6 +19273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranular synthesis with FM grains and user supplied envelope.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "fmGrainB",
           "package": "hsc3",
@@ -17817,6 +19284,7 @@
         "index": {
           "description": "Granular synthesis with FM grains and user supplied envelope",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "fmGrainB",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17833,6 +19301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResynthesize LPC analysis data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "lpcSynth",
           "package": "hsc3",
@@ -17843,6 +19312,7 @@
         "index": {
           "description": "Resynthesize LPC analysis data",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "lpcSynth",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17859,6 +19329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract cps, rmso and err signals from LPC data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "lpcVals",
           "package": "hsc3",
@@ -17869,6 +19340,7 @@
         "index": {
           "description": "Extract cps rmso and err signals from LPC data",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "lpcVals",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17885,6 +19357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriangular waveguide mesh of a drum-like membrane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "membraneCircle",
           "package": "hsc3",
@@ -17895,6 +19368,7 @@
         "index": {
           "description": "Triangular waveguide mesh of drum-like membrane",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "membraneCircle",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17911,6 +19385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriangular waveguide mesh of a drum-like membrane.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "membraneHexagon",
           "package": "hsc3",
@@ -17921,6 +19396,7 @@
         "index": {
           "description": "Triangular waveguide mesh of drum-like membrane",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "membraneHexagon",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17937,6 +19413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMetronome\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "metro",
           "package": "hsc3",
@@ -17947,6 +19424,7 @@
         "index": {
           "description": "Metronome",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "metro",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17962,6 +19440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e3D Perlin Noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "perlin3",
           "package": "hsc3",
@@ -17972,6 +19451,7 @@
         "index": {
           "description": "Perlin Noise",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "perlin3",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -17987,6 +19467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInvert FFT amplitude data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "pv_Invert",
           "package": "hsc3",
@@ -17997,6 +19478,7 @@
         "index": {
           "description": "Invert FFT amplitude data",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "pv_Invert",
           "normalized": "UGen-\u003eUGen",
@@ -18013,6 +19495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTK bowed string model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkBowed",
           "package": "hsc3",
@@ -18023,6 +19506,7 @@
         "index": {
           "description": "STK bowed string model",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkBowed",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18039,6 +19523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTK flute model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkFlute",
           "package": "hsc3",
@@ -18049,6 +19534,7 @@
         "index": {
           "description": "STK flute model",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkFlute",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18065,6 +19551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTK mandolin model.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkMandolin",
           "package": "hsc3",
@@ -18075,6 +19562,7 @@
         "index": {
           "description": "STK mandolin model",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkMandolin",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18091,6 +19579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTK modal bar models.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkModalBar",
           "package": "hsc3",
@@ -18101,6 +19590,7 @@
         "index": {
           "description": "STK modal bar models",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkModalBar",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18117,6 +19607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSTK shaker models.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkShakers",
           "package": "hsc3",
@@ -18127,6 +19618,7 @@
         "index": {
           "description": "STK shaker models",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "stkShakers",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18143,6 +19635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString resonance filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "streson",
           "package": "hsc3",
@@ -18153,6 +19646,7 @@
         "index": {
           "description": "String resonance filter",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "streson",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18168,6 +19662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTracking Phase Vocoder\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "tpv",
           "package": "hsc3",
@@ -18178,6 +19673,7 @@
         "index": {
           "description": "Tracking Phase Vocoder",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "tpv",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18193,6 +19689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVocal simulation due to W. Kaegi.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "vosim",
           "package": "hsc3",
@@ -18203,6 +19700,7 @@
         "index": {
           "description": "Vocal simulation due to Kaegi",
           "hierarchy": "Sound SC3 UGen External SC3_Plugins",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External.SC3_Plugins",
           "name": "vosim",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18218,6 +19716,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBindings to unit generators not distributed with SuperCollider\n   proper.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "External",
           "package": "hsc3",
@@ -18227,6 +19726,7 @@
         "index": {
           "description": "Bindings to unit generators not distributed with SuperCollider proper",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "External",
           "package": "hsc3",
@@ -18241,6 +19741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmulation of the sound generation hardware of the Atari TIA chip.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "atari2600",
           "package": "hsc3",
@@ -18251,6 +19752,7 @@
         "index": {
           "description": "Emulation of the sound generation hardware of the Atari TIA chip",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "atari2600",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18266,6 +19768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates mean average of audio or control rate signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "averageOutput",
           "package": "hsc3",
@@ -18276,6 +19779,7 @@
         "index": {
           "description": "Calculates mean average of audio or control rate signal",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "averageOutput",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -18292,6 +19796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant FM synthesis node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "dfm1",
           "package": "hsc3",
@@ -18302,6 +19807,7 @@
         "index": {
           "description": "Variant FM synthesis node",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "dfm1",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18317,6 +19823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhase modulation oscillator matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "fm7",
           "package": "hsc3",
@@ -18327,6 +19834,7 @@
         "index": {
           "description": "Phase modulation oscillator matrix",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "fm7",
           "normalized": "[[UGen]]-\u003e[[UGen]]-\u003eUGen",
@@ -18342,6 +19850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePOKEY Chip Sound Simulator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "mzPokey",
           "package": "hsc3",
@@ -18352,6 +19861,7 @@
         "index": {
           "description": "POKEY Chip Sound Simulator",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "mzPokey",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18368,6 +19878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant Q transform pitch follower.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "qitch",
           "package": "hsc3",
@@ -18378,6 +19889,7 @@
         "index": {
           "description": "Constant transform pitch follower",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "qitch",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18393,6 +19905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTartini model pitch tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.External",
           "name": "tartini",
           "package": "hsc3",
@@ -18403,6 +19916,7 @@
         "index": {
           "description": "Tartini model pitch tracker",
           "hierarchy": "Sound SC3 UGen External",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.External",
           "name": "tartini",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18418,6 +19932,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon-deterministic FFT \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "ID",
           "package": "hsc3",
@@ -18427,6 +19942,7 @@
         "index": {
           "description": "Non-deterministic FFT UGen",
           "hierarchy": "Sound SC3 UGen FFT ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "ID",
           "package": "hsc3",
@@ -18441,6 +19957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomize order of bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_BinScramble",
           "package": "hsc3",
@@ -18451,6 +19968,7 @@
         "index": {
           "description": "Randomize order of bins",
           "hierarchy": "Sound SC3 UGen FFT ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_BinScramble",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18467,6 +19985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly clear bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_RandComb",
           "package": "hsc3",
@@ -18477,6 +19996,7 @@
         "index": {
           "description": "Randomly clear bins",
           "hierarchy": "Sound SC3 UGen FFT ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_RandComb",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18493,6 +20013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross fade, copying bins in random order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_RandWipe",
           "package": "hsc3",
@@ -18503,6 +20024,7 @@
         "index": {
           "description": "Cross fade copying bins in random order",
           "hierarchy": "Sound SC3 UGen FFT ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.ID",
           "name": "pv_RandWipe",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18519,6 +20041,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad constructors for non-deterministic FFT \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -18528,6 +20051,7 @@
         "index": {
           "description": "Monad constructors for non-deterministic FFT UGen",
           "hierarchy": "Sound SC3 UGen FFT Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -18542,6 +20066,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomize order of bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_BinScramble",
           "package": "hsc3",
@@ -18552,6 +20077,7 @@
         "index": {
           "description": "Randomize order of bins",
           "hierarchy": "Sound SC3 UGen FFT Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_BinScramble",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -18568,6 +20094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly clear bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_RandComb",
           "package": "hsc3",
@@ -18578,6 +20105,7 @@
         "index": {
           "description": "Randomly clear bins",
           "hierarchy": "Sound SC3 UGen FFT Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_RandComb",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -18594,6 +20122,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCross fade, copying bins in random order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_RandWipe",
           "package": "hsc3",
@@ -18604,6 +20133,7 @@
         "index": {
           "description": "Cross fade copying bins in random order",
           "hierarchy": "Sound SC3 UGen FFT Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT.Monad",
           "name": "pv_RandWipe",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -18620,6 +20150,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFrequency domain unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "FFT",
           "package": "hsc3",
@@ -18629,6 +20160,7 @@
         "index": {
           "description": "Frequency domain unit generators",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "FFT",
           "package": "hsc3",
@@ -18643,6 +20175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrict convolution of two continuously changing inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution",
           "package": "hsc3",
@@ -18653,6 +20186,7 @@
         "index": {
           "description": "Strict convolution of two continuously changing inputs",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18668,6 +20202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal-time fixed kernel convolver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution2",
           "package": "hsc3",
@@ -18678,6 +20213,7 @@
         "index": {
           "description": "Real-time fixed kernel convolver",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18693,6 +20229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReal-time convolver with linear interpolation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution2L",
           "package": "hsc3",
@@ -18703,6 +20240,7 @@
         "index": {
           "description": "Real-time convolver with linear interpolation",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution2L",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18718,6 +20256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime based convolver.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution3",
           "package": "hsc3",
@@ -18728,6 +20267,7 @@
         "index": {
           "description": "Time based convolver",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "convolution3",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18743,6 +20283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast fourier transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fft",
           "package": "hsc3",
@@ -18753,6 +20294,7 @@
         "index": {
           "description": "Fast fourier transform",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fft",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18768,6 +20310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant FFT constructor with default values for hop size, window\n | type, active status and window size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fft'",
           "package": "hsc3",
@@ -18778,6 +20321,7 @@
         "index": {
           "description": "Variant FFT constructor with default values for hop size window type active status and window size",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fft'",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -18793,6 +20337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs signal for \u003ccode\u003eFFT\u003c/code\u003e chains, without performing FFT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fftTrigger",
           "package": "hsc3",
@@ -18803,6 +20348,7 @@
         "index": {
           "description": "Outputs signal for FFT chains without performing FFT",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "fftTrigger",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18819,6 +20365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse Fast Fourier Transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "ifft",
           "package": "hsc3",
@@ -18829,6 +20376,7 @@
         "index": {
           "description": "Inverse Fast Fourier Transform",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "ifft",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18844,6 +20392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant ifft with default value for window type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "ifft'",
           "package": "hsc3",
@@ -18854,6 +20403,7 @@
         "index": {
           "description": "Variant ifft with default value for window type",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "ifft'",
           "normalized": "UGen-\u003eUGen",
@@ -18869,6 +20419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePack demand-rate FFT bin streams into an FFT chain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "packFFT",
           "package": "hsc3",
@@ -18879,6 +20430,7 @@
         "index": {
           "description": "Pack demand-rate FFT bin streams into an FFT chain",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "packFFT",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18895,6 +20447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat magnitude and phase data data as required for packFFT.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "packFFTSpec",
           "package": "hsc3",
@@ -18905,6 +20458,7 @@
         "index": {
           "description": "Format magnitude and phase data data as required for packFFT",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "packFFTSpec",
           "normalized": "[UGen]-\u003e[UGen]-\u003eUGen",
@@ -18921,6 +20475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartitioned convolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "partConv",
           "package": "hsc3",
@@ -18931,6 +20486,7 @@
         "index": {
           "description": "Partitioned convolution",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "partConv",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -18947,6 +20503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate size of accumulation buffer given FFT and IR sizes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pc_calcAccumSize",
           "package": "hsc3",
@@ -18957,6 +20514,7 @@
         "index": {
           "description": "Calculate size of accumulation buffer given FFT and IR sizes",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pc_calcAccumSize",
           "normalized": "Int-\u003eInt-\u003eInt",
@@ -18973,6 +20531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Add",
           "package": "hsc3",
@@ -18983,6 +20542,7 @@
         "index": {
           "description": "Complex addition",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Add",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -18999,6 +20559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift and scale the bin positions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BinShift",
           "package": "hsc3",
@@ -19009,6 +20570,7 @@
         "index": {
           "description": "Shift and scale the bin positions",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BinShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19025,6 +20587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine low and high bins from two inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BinWipe",
           "package": "hsc3",
@@ -19035,6 +20598,7 @@
         "index": {
           "description": "Combine low and high bins from two inputs",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BinWipe",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19051,6 +20615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear bins above or below a cutoff point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BrickWall",
           "package": "hsc3",
@@ -19061,6 +20626,7 @@
         "index": {
           "description": "Clear bins above or below cutoff point",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_BrickWall",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19077,6 +20643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex plane attack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_ConformalMap",
           "package": "hsc3",
@@ -19087,6 +20654,7 @@
         "index": {
           "description": "Complex plane attack",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_ConformalMap",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19103,6 +20671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopies spectral frame.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Copy",
           "package": "hsc3",
@@ -19113,6 +20682,7 @@
         "index": {
           "description": "Copies spectral frame",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Copy",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19129,6 +20699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCopy magnitudes and phases.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_CopyPhase",
           "package": "hsc3",
@@ -19139,6 +20710,7 @@
         "index": {
           "description": "Copy magnitudes and phases",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_CopyPhase",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19155,6 +20727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom phase shifting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Diffuser",
           "package": "hsc3",
@@ -19165,6 +20738,7 @@
         "index": {
           "description": "Random phase shifting",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Diffuser",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19181,6 +20755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFFT onset detector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_HainsworthFoote",
           "package": "hsc3",
@@ -19191,6 +20766,7 @@
         "index": {
           "description": "FFT onset detector",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_HainsworthFoote",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19207,6 +20783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFFT feature detector for onset detection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_JensenAndersen",
           "package": "hsc3",
@@ -19217,6 +20794,7 @@
         "index": {
           "description": "FFT feature detector for onset detection",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_JensenAndersen",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19233,6 +20811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass bins which are a local maximum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_LocalMax",
           "package": "hsc3",
@@ -19243,6 +20822,7 @@
         "index": {
           "description": "Pass bins which are local maximum",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_LocalMax",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19259,6 +20839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass bins above a threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagAbove",
           "package": "hsc3",
@@ -19269,6 +20850,7 @@
         "index": {
           "description": "Pass bins above threshold",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagAbove",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19285,6 +20867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass bins below a threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagBelow",
           "package": "hsc3",
@@ -19295,6 +20878,7 @@
         "index": {
           "description": "Pass bins below threshold",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagBelow",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19311,6 +20895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip bins to a threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagClip",
           "package": "hsc3",
@@ -19321,6 +20906,7 @@
         "index": {
           "description": "Clip bins to threshold",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagClip",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19337,6 +20923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFreeze magnitudes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagFreeze",
           "package": "hsc3",
@@ -19347,6 +20934,7 @@
         "index": {
           "description": "Freeze magnitudes",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagFreeze",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19363,6 +20951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply magnitudes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagMul",
           "package": "hsc3",
@@ -19373,6 +20962,7 @@
         "index": {
           "description": "Multiply magnitudes",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagMul",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19389,6 +20979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply magnitudes by noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagNoise",
           "package": "hsc3",
@@ -19399,6 +20990,7 @@
         "index": {
           "description": "Multiply magnitudes by noise",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagNoise",
           "normalized": "UGen-\u003eUGen",
@@ -19415,6 +21007,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift and stretch magnitude bin position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagShift",
           "package": "hsc3",
@@ -19425,6 +21018,7 @@
         "index": {
           "description": "Shift and stretch magnitude bin position",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19441,6 +21035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAverage magnitudes across bins.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagSmear",
           "package": "hsc3",
@@ -19451,6 +21046,7 @@
         "index": {
           "description": "Average magnitudes across bins",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagSmear",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19467,6 +21063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSquare magnitudes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagSquared",
           "package": "hsc3",
@@ -19477,6 +21074,7 @@
         "index": {
           "description": "Square magnitudes",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_MagSquared",
           "normalized": "UGen-\u003eUGen",
@@ -19493,6 +21091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Max",
           "package": "hsc3",
@@ -19503,6 +21102,7 @@
         "index": {
           "description": "Maximum magnitude",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Max",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19519,6 +21119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum magnitude.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Min",
           "package": "hsc3",
@@ -19529,6 +21130,7 @@
         "index": {
           "description": "Minimum magnitude",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Min",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19545,6 +21147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplex multiply.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Mul",
           "package": "hsc3",
@@ -19555,6 +21158,7 @@
         "index": {
           "description": "Complex multiply",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_Mul",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19571,6 +21175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift phase.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift",
           "package": "hsc3",
@@ -19581,6 +21186,7 @@
         "index": {
           "description": "Shift phase",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -19597,6 +21203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift phase by 270 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift270",
           "package": "hsc3",
@@ -19607,6 +21214,7 @@
         "index": {
           "description": "Shift phase by degrees",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift270",
           "normalized": "UGen-\u003eUGen",
@@ -19623,6 +21231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift phase by 90 degrees.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift90",
           "package": "hsc3",
@@ -19633,6 +21242,7 @@
         "index": {
           "description": "Shift phase by degrees",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_PhaseShift90",
           "normalized": "UGen-\u003eUGen",
@@ -19649,6 +21259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake gaps in spectrum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_RectComb",
           "package": "hsc3",
@@ -19659,6 +21270,7 @@
         "index": {
           "description": "Make gaps in spectrum",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_RectComb",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19675,6 +21287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake gaps in spectrum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_RectComb2",
           "package": "hsc3",
@@ -19685,6 +21298,7 @@
         "index": {
           "description": "Make gaps in spectrum",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pv_RectComb2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19701,6 +21315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply function \u003cem\u003ef\u003c/em\u003e to each bin of an \u003ccode\u003eFFT\u003c/code\u003e chain, \u003cem\u003ef\u003c/em\u003e receives\n magnitude, phase and index and returns a (magnitude,phase).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pvcollect",
           "package": "hsc3",
@@ -19711,6 +21326,7 @@
         "index": {
           "description": "Apply function to each bin of an FFT chain receives magnitude phase and index and returns magnitude phase",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "pvcollect",
           "normalized": "UGen-\u003eUGen-\u003e(UGen-\u003eUGen-\u003eUGen-\u003e(UGen,UGen))-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19726,6 +21342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a single value (magnitude or phase) from an FFT chain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "unpack1FFT",
           "package": "hsc3",
@@ -19736,6 +21353,7 @@
         "index": {
           "description": "Unpack single value magnitude or phase from an FFT chain",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "unpack1FFT",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19752,6 +21370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack an FFT chain into separate demand-rate FFT bin streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.FFT",
           "name": "unpackFFT",
           "package": "hsc3",
@@ -19762,6 +21381,7 @@
         "index": {
           "description": "Unpack an FFT chain into separate demand-rate FFT bin streams",
           "hierarchy": "Sound SC3 UGen FFT",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.FFT",
           "name": "unpackFFT",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003e[UGen]",
@@ -19778,6 +21398,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTime-domain filter unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "Filter",
           "package": "hsc3",
@@ -19787,6 +21408,7 @@
         "index": {
           "description": "Time-domain filter unit generators",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "Filter",
           "package": "hsc3",
@@ -19801,6 +21423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio to control rate converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "a2K",
           "package": "hsc3",
@@ -19811,6 +21434,7 @@
         "index": {
           "description": "Audio to control rate converter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "a2K",
           "normalized": "UGen-\u003eUGen",
@@ -19826,6 +21450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (cubic interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassC",
           "package": "hsc3",
@@ -19836,6 +21461,7 @@
         "index": {
           "description": "Allpass filter cubic interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19851,6 +21477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (linear interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassL",
           "package": "hsc3",
@@ -19861,6 +21488,7 @@
         "index": {
           "description": "Allpass filter linear interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19876,6 +21504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllpass filter (no interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassN",
           "package": "hsc3",
@@ -19886,6 +21515,7 @@
         "index": {
           "description": "Allpass filter no interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "allpassN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19901,6 +21531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic psychoacoustic amplitude compensation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ampComp",
           "package": "hsc3",
@@ -19911,6 +21542,7 @@
         "index": {
           "description": "Basic psychoacoustic amplitude compensation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ampComp",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19927,6 +21559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI A-weighting curve psychoacoustic amplitude compensation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ampCompA",
           "package": "hsc3",
@@ -19937,6 +21570,7 @@
         "index": {
           "description": "ANSI A-weighting curve psychoacoustic amplitude compensation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ampCompA",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19953,6 +21587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad all-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bAllPass",
           "package": "hsc3",
@@ -19963,6 +21598,7 @@
         "index": {
           "description": "Bi-quad all-pass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bAllPass",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -19979,6 +21615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad band-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bBandPass",
           "package": "hsc3",
@@ -19989,6 +21626,7 @@
         "index": {
           "description": "Bi-quad band-pass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bBandPass",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20005,6 +21643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad band-stop filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bBandStop",
           "package": "hsc3",
@@ -20015,6 +21654,7 @@
         "index": {
           "description": "Bi-quad band-stop filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bBandStop",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20031,6 +21671,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad high-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bHiPass",
           "package": "hsc3",
@@ -20041,6 +21682,7 @@
         "index": {
           "description": "Bi-quad high-pass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bHiPass",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20057,6 +21699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad high shelf filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bHiShelf",
           "package": "hsc3",
@@ -20067,6 +21710,7 @@
         "index": {
           "description": "Bi-quad high shelf filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bHiShelf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20083,6 +21727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad low-pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowPass",
           "package": "hsc3",
@@ -20093,6 +21738,7 @@
         "index": {
           "description": "Bi-quad low-pass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowPass",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20109,6 +21755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate coefficients for bi-quad low pass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowPassCoef",
           "package": "hsc3",
@@ -20119,6 +21766,7 @@
         "index": {
           "description": "Calculate coefficients for bi-quad low pass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowPassCoef",
           "normalized": "a-\u003ea-\u003ea-\u003e(a,a,a,a,a)",
@@ -20135,6 +21783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad low shelf filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowShelf",
           "package": "hsc3",
@@ -20145,6 +21794,7 @@
         "index": {
           "description": "Bi-quad low shelf filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bLowShelf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20161,6 +21811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBi-quad peak equaliser.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bPeakEQ",
           "package": "hsc3",
@@ -20171,6 +21822,7 @@
         "index": {
           "description": "Bi-quad peak equaliser",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bPeakEQ",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20187,6 +21839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBandpass filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bpf",
           "package": "hsc3",
@@ -20197,6 +21850,7 @@
         "index": {
           "description": "Bandpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bpf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20212,6 +21866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo zero fixed midpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bpz2",
           "package": "hsc3",
@@ -20222,6 +21877,7 @@
         "index": {
           "description": "Two zero fixed midpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "bpz2",
           "normalized": "UGen-\u003eUGen",
@@ -20237,6 +21893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand reject filter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "brf",
           "package": "hsc3",
@@ -20247,6 +21904,7 @@
         "index": {
           "description": "Band reject filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "brf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20262,6 +21920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo zero fixed midcut filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "brz2",
           "package": "hsc3",
@@ -20272,6 +21931,7 @@
         "index": {
           "description": "Two zero fixed midcut filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "brz2",
           "normalized": "UGen-\u003eUGen",
@@ -20287,6 +21947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip input between lower and upper bounds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "clip",
           "package": "hsc3",
@@ -20297,6 +21958,7 @@
         "index": {
           "description": "Clip input between lower and upper bounds",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "clip",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20312,6 +21974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (cubic interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combC",
           "package": "hsc3",
@@ -20322,6 +21985,7 @@
         "index": {
           "description": "Comb filter cubic interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20337,6 +22001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (linear interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combL",
           "package": "hsc3",
@@ -20347,6 +22012,7 @@
         "index": {
           "description": "Comb filter linear interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20362,6 +22028,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComb filter (no interpolation)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combN",
           "package": "hsc3",
@@ -20372,6 +22039,7 @@
         "index": {
           "description": "Comb filter no interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "combN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20387,6 +22055,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompressor,expander,limiter,gate,ducker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "compander",
           "package": "hsc3",
@@ -20397,6 +22066,7 @@
         "index": {
           "description": "Compressor expander limiter gate ducker",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "compander",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20412,6 +22082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponential decay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "decay",
           "package": "hsc3",
@@ -20422,6 +22093,7 @@
         "index": {
           "description": "Exponential decay",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "decay",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -20437,6 +22109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponential decay (equvalent to $decay dcy - decay atk$).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "decay2",
           "package": "hsc3",
@@ -20447,6 +22120,7 @@
         "index": {
           "description": "Exponential decay equvalent to decay dcy decay atk",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "decay2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20462,6 +22136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert signal to modal pitch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "degreeToKey",
           "package": "hsc3",
@@ -20472,6 +22147,7 @@
         "index": {
           "description": "Convert signal to modal pitch",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "degreeToKey",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20488,6 +22164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTap a delay line from a DelTapWr UGen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delTapRd",
           "package": "hsc3",
@@ -20498,6 +22175,7 @@
         "index": {
           "description": "Tap delay line from DelTapWr UGen",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delTapRd",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20514,6 +22192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a buffer for a DelTapRd UGen\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delTapWr",
           "package": "hsc3",
@@ -20524,6 +22203,7 @@
         "index": {
           "description": "Write to buffer for DelTapRd UGen",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delTapWr",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20540,6 +22220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingle sample delay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delay1",
           "package": "hsc3",
@@ -20550,6 +22231,7 @@
         "index": {
           "description": "Single sample delay",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delay1",
           "normalized": "UGen-\u003eUGen",
@@ -20565,6 +22247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo sample delay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delay2",
           "package": "hsc3",
@@ -20575,6 +22258,7 @@
         "index": {
           "description": "Two sample delay",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delay2",
           "normalized": "UGen-\u003eUGen",
@@ -20590,6 +22274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple delay line (cubic interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayC",
           "package": "hsc3",
@@ -20600,6 +22285,7 @@
         "index": {
           "description": "Simple delay line cubic interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayC",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20615,6 +22301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple delay line (linear interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayL",
           "package": "hsc3",
@@ -20625,6 +22312,7 @@
         "index": {
           "description": "Simple delay line linear interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayL",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20640,6 +22328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple delay line (no interpolation).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayN",
           "package": "hsc3",
@@ -20650,6 +22339,7 @@
         "index": {
           "description": "Simple delay line no interpolation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "delayN",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20665,6 +22355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold to range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "fold",
           "package": "hsc3",
@@ -20675,6 +22366,7 @@
         "index": {
           "description": "Fold to range",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "fold",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20690,6 +22382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFOF like filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "formlet",
           "package": "hsc3",
@@ -20700,6 +22393,7 @@
         "index": {
           "description": "FOF like filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "formlet",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20715,6 +22409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFirst order filter section.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "fos",
           "package": "hsc3",
@@ -20725,6 +22420,7 @@
         "index": {
           "description": "First order filter section",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "fos",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20740,6 +22436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple reverb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "freeVerb",
           "package": "hsc3",
@@ -20750,6 +22447,7 @@
         "index": {
           "description": "simple reverb",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "freeVerb",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20766,6 +22464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple reverb (two channel).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "freeVerb2",
           "package": "hsc3",
@@ -20776,6 +22475,7 @@
         "index": {
           "description": "simple reverb two channel",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "freeVerb2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20792,6 +22492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA less-simple reverb.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "gVerb",
           "package": "hsc3",
@@ -20802,6 +22503,7 @@
         "index": {
           "description": "less-simple reverb",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "gVerb",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20818,6 +22520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "gate",
           "package": "hsc3",
@@ -20828,6 +22531,7 @@
         "index": {
           "description": "Gate",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "gate",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -20843,6 +22547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash input values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hasher",
           "package": "hsc3",
@@ -20853,6 +22558,7 @@
         "index": {
           "description": "Hash input values",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hasher",
           "normalized": "UGen-\u003eUGen",
@@ -20868,6 +22574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHilbert transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hilbert",
           "package": "hsc3",
@@ -20878,6 +22585,7 @@
         "index": {
           "description": "Hilbert transform",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hilbert",
           "normalized": "UGen-\u003eUGen",
@@ -20893,6 +22601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHighpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpf",
           "package": "hsc3",
@@ -20903,6 +22612,7 @@
         "index": {
           "description": "Highpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpf",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -20918,6 +22628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo point difference filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpz1",
           "package": "hsc3",
@@ -20928,6 +22639,7 @@
         "index": {
           "description": "Two point difference filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpz1",
           "normalized": "UGen-\u003eUGen",
@@ -20943,6 +22655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo zero fixed highpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpz2",
           "package": "hsc3",
@@ -20953,6 +22666,7 @@
         "index": {
           "description": "Two zero fixed highpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "hpz2",
           "normalized": "UGen-\u003eUGen",
@@ -20968,6 +22682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs signal within specified range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "inRange",
           "package": "hsc3",
@@ -20978,6 +22693,7 @@
         "index": {
           "description": "Is signal within specified range",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "inRange",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -20994,6 +22710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl to audio rate converter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "k2A",
           "package": "hsc3",
@@ -21004,6 +22721,7 @@
         "index": {
           "description": "Control to audio rate converter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "k2A",
           "normalized": "UGen-\u003eUGen",
@@ -21019,6 +22737,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFixed resonator filter bank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klank",
           "package": "hsc3",
@@ -21029,6 +22748,7 @@
         "index": {
           "description": "Fixed resonator filter bank",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klank",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21044,6 +22764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat frequency, amplitude and decay time data as required for klank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec",
           "package": "hsc3",
@@ -21054,6 +22775,7 @@
         "index": {
           "description": "Format frequency amplitude and decay time data as required for klank",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec",
           "normalized": "[UGen]-\u003e[UGen]-\u003e[UGen]-\u003eUGen",
@@ -21070,6 +22792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant for non-UGen inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec'",
           "package": "hsc3",
@@ -21080,6 +22803,7 @@
         "index": {
           "description": "Variant for non-UGen inputs",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec'",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003eUGen",
@@ -21096,6 +22820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eklankSpec\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eMCE\u003c/code\u003e inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec_mce",
           "package": "hsc3",
@@ -21106,6 +22831,7 @@
         "index": {
           "description": "Variant of klankSpec for MCE inputs",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "klankSpec_mce",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21122,6 +22848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple averaging filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag",
           "package": "hsc3",
@@ -21132,6 +22859,7 @@
         "index": {
           "description": "Simple averaging filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21147,6 +22875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested lag filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag2",
           "package": "hsc3",
@@ -21157,6 +22886,7 @@
         "index": {
           "description": "Nested lag filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag2",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21172,6 +22902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested lag filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag2UD",
           "package": "hsc3",
@@ -21182,6 +22913,7 @@
         "index": {
           "description": "Nested lag filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag2UD",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21198,6 +22930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwice nested lag filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag3",
           "package": "hsc3",
@@ -21208,6 +22941,7 @@
         "index": {
           "description": "Twice nested lag filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag3",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21223,6 +22957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwice nested lag filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag3UD",
           "package": "hsc3",
@@ -21233,6 +22968,7 @@
         "index": {
           "description": "Twice nested lag filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lag3UD",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21249,6 +22985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLag variant with separate upward and downward times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lagUD",
           "package": "hsc3",
@@ -21259,6 +22996,7 @@
         "index": {
           "description": "Lag variant with separate upward and downward times",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lagUD",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21275,6 +23013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLast value before chang above threshhold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lastValue",
           "package": "hsc3",
@@ -21285,6 +23024,7 @@
         "index": {
           "description": "Last value before chang above threshhold",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lastValue",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21301,6 +23041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample and hold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "latch",
           "package": "hsc3",
@@ -21311,6 +23052,7 @@
         "index": {
           "description": "Sample and hold",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "latch",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21326,6 +23068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove DC offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "leakDC",
           "package": "hsc3",
@@ -21336,6 +23079,7 @@
         "index": {
           "description": "Remove DC offset",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "leakDC",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21352,6 +23096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLimiter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "limiter",
           "package": "hsc3",
@@ -21362,6 +23107,7 @@
         "index": {
           "description": "Limiter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "limiter",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21377,6 +23123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap from a linear range to an exponential range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "linExp",
           "package": "hsc3",
@@ -21387,6 +23134,7 @@
         "index": {
           "description": "Map from linear range to an exponential range",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "linExp",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21403,6 +23151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLowpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpf",
           "package": "hsc3",
@@ -21413,6 +23162,7 @@
         "index": {
           "description": "Lowpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpf",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21428,6 +23178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo point average filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpz1",
           "package": "hsc3",
@@ -21438,6 +23189,7 @@
         "index": {
           "description": "Two point average filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpz1",
           "normalized": "UGen-\u003eUGen",
@@ -21453,6 +23205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo zero fixed lowpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpz2",
           "package": "hsc3",
@@ -21463,6 +23216,7 @@
         "index": {
           "description": "Two zero fixed lowpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "lpz2",
           "normalized": "UGen-\u003eUGen",
@@ -21478,6 +23232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMasks off bits in the mantissa of signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mantissaMask",
           "package": "hsc3",
@@ -21488,6 +23243,7 @@
         "index": {
           "description": "Masks off bits in the mantissa of signal",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mantissaMask",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21504,6 +23260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMedian filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "median",
           "package": "hsc3",
@@ -21514,6 +23271,7 @@
         "index": {
           "description": "Median filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "median",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21529,6 +23287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParametric filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "midEQ",
           "package": "hsc3",
@@ -21539,6 +23298,7 @@
         "index": {
           "description": "Parametric filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "midEQ",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21555,6 +23315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMoog VCF implementation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "moogFF",
           "package": "hsc3",
@@ -21565,6 +23326,7 @@
         "index": {
           "description": "Moog VCF implementation",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "moogFF",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21581,6 +23343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMost changed input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mostChange",
           "package": "hsc3",
@@ -21591,6 +23354,7 @@
         "index": {
           "description": "Most changed input",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mostChange",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21607,6 +23371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiply add ternary operator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mulAdd",
           "package": "hsc3",
@@ -21617,6 +23382,7 @@
         "index": {
           "description": "Multiply add ternary operator",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "mulAdd",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21633,6 +23399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalizer (flattens dynamics).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "normalizer",
           "package": "hsc3",
@@ -21643,6 +23410,7 @@
         "index": {
           "description": "Normalizer flattens dynamics",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "normalizer",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21658,6 +23426,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne pole filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "onePole",
           "package": "hsc3",
@@ -21668,6 +23437,7 @@
         "index": {
           "description": "One pole filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "onePole",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21684,6 +23454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOne zero filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "oneZero",
           "package": "hsc3",
@@ -21694,6 +23465,7 @@
         "index": {
           "description": "One zero filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "oneZero",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21710,6 +23482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "peak",
           "package": "hsc3",
@@ -21720,6 +23493,7 @@
         "index": {
           "description": "Maximum value",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "peak",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21735,6 +23509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimple time domain pitch shifter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pitchShift",
           "package": "hsc3",
@@ -21745,6 +23520,7 @@
         "index": {
           "description": "Simple time domain pitch shifter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pitchShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21761,6 +23537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKarplus-Strong synthesis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pluck",
           "package": "hsc3",
@@ -21771,6 +23548,7 @@
         "index": {
           "description": "Karplus-Strong synthesis",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pluck",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21786,6 +23564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrigger counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pulseCount",
           "package": "hsc3",
@@ -21796,6 +23575,7 @@
         "index": {
           "description": "Trigger counter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pulseCount",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21812,6 +23592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass every nth trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pulseDivider",
           "package": "hsc3",
@@ -21822,6 +23603,7 @@
         "index": {
           "description": "Pass every nth trigger",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "pulseDivider",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21838,6 +23620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear lag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ramp",
           "package": "hsc3",
@@ -21848,6 +23631,7 @@
         "index": {
           "description": "Linear lag",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ramp",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21863,6 +23647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResonant filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "resonz",
           "package": "hsc3",
@@ -21873,6 +23658,7 @@
         "index": {
           "description": "Resonant filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "resonz",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21888,6 +23674,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResonant highpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "rhpf",
           "package": "hsc3",
@@ -21898,6 +23685,7 @@
         "index": {
           "description": "Resonant highpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "rhpf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21913,6 +23701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRinging filter (equivalent to Resonz).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ringz",
           "package": "hsc3",
@@ -21923,6 +23712,7 @@
         "index": {
           "description": "Ringing filter equivalent to Resonz",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "ringz",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21938,6 +23728,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResonant lowpass filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "rlpf",
           "package": "hsc3",
@@ -21948,6 +23739,7 @@
         "index": {
           "description": "Resonant lowpass filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "rlpf",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -21963,6 +23755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack maximum level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningMax",
           "package": "hsc3",
@@ -21973,6 +23766,7 @@
         "index": {
           "description": "Track maximum level",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningMax",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -21989,6 +23783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrack minimum level.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningMin",
           "package": "hsc3",
@@ -21999,6 +23794,7 @@
         "index": {
           "description": "Track minimum level",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningMin",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22015,6 +23811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRunning sum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningSum",
           "package": "hsc3",
@@ -22025,6 +23822,7 @@
         "index": {
           "description": "Running sum",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "runningSum",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22041,6 +23839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelect output from array of inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "select",
           "package": "hsc3",
@@ -22051,6 +23850,7 @@
         "index": {
           "description": "Select output from array of inputs",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "select",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22066,6 +23866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a reply message from the server back to the all registered clients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sendReply",
           "package": "hsc3",
@@ -22076,6 +23877,7 @@
         "index": {
           "description": "Send reply message from the server back to the all registered clients",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sendReply",
           "normalized": "UGen-\u003eUGen-\u003eString-\u003e[UGen]-\u003eUGen",
@@ -22092,6 +23894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a trigger message from the server back to the all registered clients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sendTrig",
           "package": "hsc3",
@@ -22102,6 +23905,7 @@
         "index": {
           "description": "Send trigger message from the server back to the all registered clients",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sendTrig",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22118,6 +23922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet-reset flip flop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "setResetFF",
           "package": "hsc3",
@@ -22128,6 +23933,7 @@
         "index": {
           "description": "Set-reset flip flop",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "setResetFF",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22144,6 +23950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWave shaper.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "shaper",
           "package": "hsc3",
@@ -22154,6 +23961,7 @@
         "index": {
           "description": "Wave shaper",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "shaper",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22169,6 +23977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove transients and higher frequencies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "slew",
           "package": "hsc3",
@@ -22179,6 +23988,7 @@
         "index": {
           "description": "Remove transients and higher frequencies",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "slew",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22194,6 +24004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond order filter section (biquad).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sos",
           "package": "hsc3",
@@ -22204,6 +24015,7 @@
         "index": {
           "description": "Second order filter section biquad",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sos",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22219,6 +24031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStepper pulse counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "stepper",
           "package": "hsc3",
@@ -22229,6 +24042,7 @@
         "index": {
           "description": "Stepper pulse counter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "stepper",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22244,6 +24058,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered linear ramp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sweep",
           "package": "hsc3",
@@ -22254,6 +24069,7 @@
         "index": {
           "description": "Triggered linear ramp",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "sweep",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22269,6 +24085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl rate trigger to audio rate trigger converter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "t2A",
           "package": "hsc3",
@@ -22279,6 +24096,7 @@
         "index": {
           "description": "Control rate trigger to audio rate trigger converter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "t2A",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22294,6 +24112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio rate trigger to control rate trigger converter\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "t2K",
           "package": "hsc3",
@@ -22304,6 +24123,7 @@
         "index": {
           "description": "Audio rate trigger to control rate trigger converter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "t2K",
           "normalized": "UGen-\u003eUGen",
@@ -22319,6 +24139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelay trigger by specified interval.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "tDelay",
           "package": "hsc3",
@@ -22329,6 +24150,7 @@
         "index": {
           "description": "Delay trigger by specified interval",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "tDelay",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22345,6 +24167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime since last triggered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "timer",
           "package": "hsc3",
@@ -22355,6 +24178,7 @@
         "index": {
           "description": "Time since last triggered",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "timer",
           "normalized": "UGen-\u003eUGen",
@@ -22370,6 +24194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToggle flip flop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "toggleFF",
           "package": "hsc3",
@@ -22380,6 +24205,7 @@
         "index": {
           "description": "Toggle flip flop",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "toggleFF",
           "normalized": "UGen-\u003eUGen",
@@ -22396,6 +24222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen triggered output trigger for specified duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "trig",
           "package": "hsc3",
@@ -22406,6 +24233,7 @@
         "index": {
           "description": "When triggered output trigger for specified duration",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "trig",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22421,6 +24249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen triggered output unit signal for specified duration.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "trig1",
           "package": "hsc3",
@@ -22431,6 +24260,7 @@
         "index": {
           "description": "When triggered output unit signal for specified duration",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "trig1",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22446,6 +24276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo pole filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "twoPole",
           "package": "hsc3",
@@ -22456,6 +24287,7 @@
         "index": {
           "description": "Two pole filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "twoPole",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22472,6 +24304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo zero filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "twoZero",
           "package": "hsc3",
@@ -22482,6 +24315,7 @@
         "index": {
           "description": "Two zero filter",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "twoZero",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22498,6 +24332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable shaped lag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "varLag",
           "package": "hsc3",
@@ -22508,6 +24343,7 @@
         "index": {
           "description": "Variable shaped lag",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "varLag",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22524,6 +24360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap to range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "wrap",
           "package": "hsc3",
@@ -22534,6 +24371,7 @@
         "index": {
           "description": "Wrap to range",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "wrap",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22549,6 +24387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndex into a table with a signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Filter",
           "name": "wrapIndex",
           "package": "hsc3",
@@ -22559,6 +24398,7 @@
         "index": {
           "description": "Index into table with signal",
           "hierarchy": "Sound SC3 UGen Filter",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Filter",
           "name": "wrapIndex",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -22575,6 +24415,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGranular synthesis unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "Granular",
           "package": "hsc3",
@@ -22584,6 +24425,7 @@
         "index": {
           "description": "Granular synthesis unit generators",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "Granular",
           "package": "hsc3",
@@ -22598,6 +24440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranular synthesis with sound stored in a buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainBuf",
           "package": "hsc3",
@@ -22608,6 +24451,7 @@
         "index": {
           "description": "Granular synthesis with sound stored in buffer",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainBuf",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22624,6 +24468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranular synthesis with frequency modulated sine tones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainFM",
           "package": "hsc3",
@@ -22634,6 +24479,7 @@
         "index": {
           "description": "Granular synthesis with frequency modulated sine tones",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainFM",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22650,6 +24496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranulate an input signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainIn",
           "package": "hsc3",
@@ -22660,6 +24507,7 @@
         "index": {
           "description": "Granulate an input signal",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainIn",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22676,6 +24524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGranular synthesis with sine tones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainSin",
           "package": "hsc3",
@@ -22686,6 +24535,7 @@
         "index": {
           "description": "Granular synthesis with sine tones",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "grainSin",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22702,6 +24552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWarp a buffer with a time pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Granular",
           "name": "warp1",
           "package": "hsc3",
@@ -22712,6 +24563,7 @@
         "index": {
           "description": "Warp buffer with time pointer",
           "hierarchy": "Sound SC3 UGen Granular",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Granular",
           "name": "warp1",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -22727,6 +24579,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStandard SC3 graphs, referenced in documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Graph",
           "name": "Graph",
           "package": "hsc3",
@@ -22736,6 +24589,7 @@
         "index": {
           "description": "Standard SC3 graphs referenced in documentation",
           "hierarchy": "Sound SC3 UGen Graph",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Graph",
           "name": "Graph",
           "package": "hsc3",
@@ -22750,6 +24604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SC3 \u003cem\u003edefault\u003c/em\u003e instrument \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Graph",
           "name": "default_ugen_graph",
           "package": "hsc3",
@@ -22760,6 +24615,7 @@
         "index": {
           "description": "The SC3 default instrument UGen graph",
           "hierarchy": "Sound SC3 UGen Graph",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Graph",
           "name": "default_ugen_graph",
           "package": "hsc3",
@@ -22773,6 +24629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003eGabor\u003c/em\u003e grain, envelope is by \u003ccode\u003e\u003ca\u003elfGauss\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Graph",
           "name": "gabor_grain_ugen_graph",
           "package": "hsc3",
@@ -22783,6 +24640,7 @@
         "index": {
           "description": "Gabor grain envelope is by lfGauss",
           "hierarchy": "Sound SC3 UGen Graph",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Graph",
           "name": "gabor_grain_ugen_graph",
           "package": "hsc3",
@@ -22796,6 +24654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003cem\u003esine\u003c/em\u003e grain, envelope is by \u003ccode\u003e\u003ca\u003eenvGen\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eenvSine\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Graph",
           "name": "sine_grain_ugen_graph",
           "package": "hsc3",
@@ -22806,6 +24665,7 @@
         "index": {
           "description": "sine grain envelope is by envGen of envSine",
           "hierarchy": "Sound SC3 UGen Graph",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Graph",
           "name": "sine_grain_ugen_graph",
           "package": "hsc3",
@@ -22819,6 +24679,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to provide mediated access to the SC3 help system.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "Help",
           "package": "hsc3",
@@ -22828,6 +24689,7 @@
         "index": {
           "description": "Functions to provide mediated access to the SC3 help system",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "Help",
           "package": "hsc3",
@@ -22842,6 +24704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGuarded variant of \u003ccode\u003e\u003ca\u003egetEnv\u003c/a\u003e\u003c/code\u003e with default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "get_env_default",
           "package": "hsc3",
@@ -22852,6 +24715,7 @@
         "index": {
           "description": "Guarded variant of getEnv with default value",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "get_env_default",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -22867,6 +24731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookupEnv\u003c/a\u003e\u003c/code\u003e with default value.\n\u003c/p\u003e\u003cpre\u003e lookup_env_default \"PATH\" \"/usr/bin\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "lookup_env_default",
           "package": "hsc3",
@@ -22877,6 +24742,7 @@
         "index": {
           "description": "lookupEnv with default value lookup env default PATH usr bin",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "lookup_env_default",
           "normalized": "String-\u003eString-\u003eIO String",
@@ -22892,6 +24758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocate path to indicated SC3 class help file.\n\u003c/p\u003e\u003cpre\u003e import System.FilePath\n\n d \u003c- sc3HelpDirectory\n h \u003c- sc3HelpClassFile d \"SinOsc\"\n h == Just (d \u003c/\u003e \"Classes/SinOsc.html\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpClassFile",
           "package": "hsc3",
@@ -22902,6 +24769,7 @@
         "index": {
           "description": "Locate path to indicated SC3 class help file import System.FilePath sc3HelpDirectory sc3HelpClassFile SinOsc Just Classes SinOsc.html",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpClassFile",
           "normalized": "FilePath-\u003eString-\u003eIO(Maybe FilePath)",
@@ -22918,6 +24786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate path to indicated SC3 class method help.\n\u003c/p\u003e\u003cpre\u003e sc3HelpClassMethod \".\" (\"C\",\"m\") == \"./Classes/C.html#*m\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpClassMethod",
           "package": "hsc3",
@@ -22928,6 +24797,7 @@
         "index": {
           "description": "Generate path to indicated SC3 class method help sc3HelpClassMethod Classes C.html",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpClassMethod",
           "normalized": "FilePath-\u003e(String,String)-\u003eFilePath",
@@ -22944,6 +24814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead the environment variable \u003ccode\u003eSC3_HELP\u003c/code\u003e, the default value is\n \u003ccode\u003e~/.local/share/SuperCollider/Help\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpDirectory",
           "package": "hsc3",
@@ -22954,6 +24825,7 @@
         "index": {
           "description": "Read the environment variable SC3 HELP the default value is local share SuperCollider Help",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpDirectory",
           "package": "hsc3",
@@ -22968,6 +24840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate path to indicated SC3 instance method help.\n\u003c/p\u003e\u003cpre\u003e sc3HelpInstanceMethod \".\" (\"C\",\"m\") == \"./Classes/C.html#-m\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpInstanceMethod",
           "package": "hsc3",
@@ -22978,6 +24851,7 @@
         "index": {
           "description": "Generate path to indicated SC3 instance method help sc3HelpInstanceMethod Classes C.html",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpInstanceMethod",
           "normalized": "FilePath-\u003e(String,String)-\u003eFilePath",
@@ -22994,6 +24868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate path to indicated SC3 method help.\n\u003c/p\u003e\u003cpre\u003e sc3HelpMethod \".\" '*' (\"C\",\"m\") == \"./Classes/C.html#*m\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpMethod",
           "package": "hsc3",
@@ -23004,6 +24879,7 @@
         "index": {
           "description": "Generate path to indicated SC3 method help sc3HelpMethod Classes C.html",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpMethod",
           "normalized": "FilePath-\u003eChar-\u003e(String,String)-\u003eFilePath",
@@ -23020,6 +24896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate path to indicated SC3 operator help file.\n\u003c/p\u003e\u003cpre\u003e sc3HelpOperatorEntry \".\" \"+\" == \"./Overviews/Operators.html#.+\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpOperatorEntry",
           "package": "hsc3",
@@ -23030,6 +24907,7 @@
         "index": {
           "description": "Generate path to indicated SC3 operator help file sc3HelpOperatorEntry Overviews Operators.html",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "sc3HelpOperatorEntry",
           "normalized": "FilePath-\u003eString-\u003eFilePath",
@@ -23046,6 +24924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe name of the local SC3 Help file documenting \u003ccode\u003eu\u003c/code\u003e.  Deletes\n \u003ccode\u003e@\u003c/code\u003e to allow use on haddock quoted comments.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.UGen.Name\n\n ugenSC3HelpFile \"Collection.*fill\"\n ugenSC3HelpFile \"Collection.inject\"\n ugenSC3HelpFile (toSC3Name \"sinOsc\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "ugenSC3HelpFile",
           "package": "hsc3",
@@ -23056,6 +24935,7 @@
         "index": {
           "description": "The name of the local SC3 Help file documenting Deletes to allow use on haddock quoted comments import Sound.SC3.UGen.Name ugenSC3HelpFile Collection fill ugenSC3HelpFile Collection.inject ugenSC3HelpFile toSC3Name sinOsc",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "ugenSC3HelpFile",
           "normalized": "String-\u003eIO FilePath",
@@ -23072,6 +24952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003eBROWSER\u003c/code\u003e or \u003ccode\u003ex-www-browser\u003c/code\u003e to view SC3 help file for \u003ccode\u003eu\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.UGen.Name\n\n viewSC3Help (toSC3Name \"Collection.*fill\")\n viewSC3Help (toSC3Name \"Collection.inject\")\n viewSC3Help (toSC3Name \"sinOsc\")\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Help",
           "name": "viewSC3Help",
           "package": "hsc3",
@@ -23082,6 +24963,7 @@
         "index": {
           "description": "Use BROWSER or x-www-browser to view SC3 help file for import Sound.SC3.UGen.Name viewSC3Help toSC3Name Collection fill viewSC3Help toSC3Name Collection.inject viewSC3Help toSC3Name sinOsc",
           "hierarchy": "Sound SC3 UGen Help",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Help",
           "name": "viewSC3Help",
           "normalized": "String-\u003eIO()",
@@ -23098,6 +24980,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule exporting all of \u003ca\u003eSound.SC3\u003c/a\u003e and also the explicit\n identifier variants for non-deterministic and non-sharable unit\n generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.ID",
           "name": "ID",
           "package": "hsc3",
@@ -23107,6 +24990,7 @@
         "index": {
           "description": "Module exporting all of Sound.SC3 and also the explicit identifier variants for non-deterministic and non-sharable unit generators",
           "hierarchy": "Sound SC3 UGen ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.ID",
           "name": "ID",
           "package": "hsc3",
@@ -23121,6 +25005,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAudio bus, control bus and input device unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "IO",
           "package": "hsc3",
@@ -23130,6 +25015,7 @@
         "index": {
           "description": "Audio bus control bus and input device unit generators",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "IO",
           "package": "hsc3",
@@ -23144,6 +25030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead signal from an audio or control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "in'",
           "package": "hsc3",
@@ -23154,6 +25041,7 @@
         "index": {
           "description": "Read signal from an audio or control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "in'",
           "normalized": "Int-\u003eRate-\u003eUGen-\u003eUGen",
@@ -23169,6 +25057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead signal from a bus without erasing it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "inFeedback",
           "package": "hsc3",
@@ -23179,6 +25068,7 @@
         "index": {
           "description": "Read signal from bus without erasing it",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "inFeedback",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -23195,6 +25085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a trigger anytime a bus is set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "inTrig",
           "package": "hsc3",
@@ -23205,6 +25096,7 @@
         "index": {
           "description": "Generate trigger anytime bus is set",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "inTrig",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -23221,6 +25113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport the status of a particular key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "keyState",
           "package": "hsc3",
@@ -23231,6 +25124,7 @@
         "index": {
           "description": "Report the status of particular key",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "keyState",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23247,6 +25141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl rate bus input with lag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "lagIn",
           "package": "hsc3",
@@ -23257,6 +25152,7 @@
         "index": {
           "description": "Control rate bus input with lag",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "lagIn",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23273,6 +25169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefine and read from buses local to a synthesis node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "localIn",
           "package": "hsc3",
@@ -23283,6 +25180,7 @@
         "index": {
           "description": "Define and read from buses local to synthesis node",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "localIn",
           "normalized": "Int-\u003eRate-\u003eUGen",
@@ -23299,6 +25197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite signal to bus local to a synthesis node, see localIn.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "localOut",
           "package": "hsc3",
@@ -23309,6 +25208,7 @@
         "index": {
           "description": "Write signal to bus local to synthesis node see localIn",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "localOut",
           "normalized": "UGen-\u003eUGen",
@@ -23325,6 +25225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReport the status of the first pointer button.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseButton",
           "package": "hsc3",
@@ -23335,6 +25236,7 @@
         "index": {
           "description": "Report the status of the first pointer button",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseButton",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23351,6 +25253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursor UGen, X axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseX",
           "package": "hsc3",
@@ -23361,6 +25264,7 @@
         "index": {
           "description": "Cursor UGen axis",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseX",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eWarp-\u003eUGen-\u003eUGen",
@@ -23376,6 +25280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCursor UGen, Y axis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseY",
           "package": "hsc3",
@@ -23386,6 +25291,7 @@
         "index": {
           "description": "Cursor UGen axis",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "mouseY",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eWarp-\u003eUGen-\u003eUGen",
@@ -23401,6 +25307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix signal to an audio bus at precise sample offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "offsetOut",
           "package": "hsc3",
@@ -23411,6 +25318,7 @@
         "index": {
           "description": "Mix signal to an audio bus at precise sample offset",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "offsetOut",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -23427,6 +25335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMix signal to an audio or control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "out",
           "package": "hsc3",
@@ -23437,6 +25346,7 @@
         "index": {
           "description": "Mix signal to an audio or control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "out",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -23452,6 +25362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the synth's random generator ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "randID",
           "package": "hsc3",
@@ -23462,6 +25373,7 @@
         "index": {
           "description": "Set the synth random generator ID",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "randID",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -23478,6 +25390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the synth's random generator seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "randSeed",
           "package": "hsc3",
@@ -23488,6 +25401,7 @@
         "index": {
           "description": "Set the synth random generator seed",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "randSeed",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23504,6 +25418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOver-write signal to an audio or control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "replaceOut",
           "package": "hsc3",
@@ -23514,6 +25429,7 @@
         "index": {
           "description": "Over-write signal to an audio or control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "replaceOut",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -23530,6 +25446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead from a shared control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "sharedIn",
           "package": "hsc3",
@@ -23540,6 +25457,7 @@
         "index": {
           "description": "Read from shared control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "sharedIn",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -23556,6 +25474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite to a shared control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "sharedOut",
           "package": "hsc3",
@@ -23566,6 +25485,7 @@
         "index": {
           "description": "Write to shared control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "sharedOut",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -23582,6 +25502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl variant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "trigControl",
           "package": "hsc3",
@@ -23592,6 +25513,7 @@
         "index": {
           "description": "Control variant",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "trigControl",
           "normalized": "Int-\u003eRate-\u003eUGen",
@@ -23608,6 +25530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCrossfade signal to an audio or control bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.IO",
           "name": "xOut",
           "package": "hsc3",
@@ -23618,6 +25541,7 @@
         "index": {
           "description": "Crossfade signal to an audio or control bus",
           "hierarchy": "Sound SC3 UGen IO",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.IO",
           "name": "xOut",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23634,6 +25558,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypeclass and functions to manage UGen identifiers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "Identifier",
           "package": "hsc3",
@@ -23643,6 +25568,7 @@
         "index": {
           "description": "Typeclass and functions to manage UGen identifiers",
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "Identifier",
           "package": "hsc3",
@@ -23657,6 +25583,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeclass to constrain UGen identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "ID",
           "package": "hsc3",
@@ -23666,6 +25593,7 @@
         "index": {
           "description": "Typeclass to constrain UGen identifiers",
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "ID",
           "package": "hsc3",
@@ -23680,6 +25608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash value to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "hash",
           "package": "hsc3",
@@ -23690,6 +25619,7 @@
         "index": {
           "description": "Hash value to Int",
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "hash",
           "normalized": "a-\u003eInt",
@@ -23705,6 +25635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash \u003ccode\u003e\u003ca\u003eID\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "idHash",
           "package": "hsc3",
@@ -23715,6 +25646,7 @@
         "index": {
           "description": "Hash ID to Int",
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "idHash",
           "normalized": "a-\u003eInt",
@@ -23731,6 +25663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash \u003ccode\u003e\u003ca\u003eID\u003c/a\u003e\u003c/code\u003es \u003cem\u003ep\u003c/em\u003e and \u003cem\u003eq\u003c/em\u003e and sum to form an \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e 'a' `joinID` (1::Int) == 149929881\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "joinID",
           "package": "hsc3",
@@ -23741,6 +25674,7 @@
         "index": {
           "description": "Hash ID and and sum to form an Int joinID Int",
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "joinID",
           "normalized": "a-\u003eb-\u003eInt",
@@ -23756,6 +25690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "resolveID",
           "package": "hsc3",
@@ -23765,6 +25700,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Identifier",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Identifier",
           "name": "resolveID",
           "normalized": "a-\u003eInt",
@@ -23781,6 +25717,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnit generators to access information related to the synthesis\n   environment.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "Information",
           "package": "hsc3",
@@ -23790,6 +25727,7 @@
         "index": {
           "description": "Unit generators to access information related to the synthesis environment",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "Information",
           "package": "hsc3",
@@ -23804,6 +25742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl rate of synthesis server, periods per second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "controlRate",
           "package": "hsc3",
@@ -23814,6 +25753,7 @@
         "index": {
           "description": "Control rate of synthesis server periods per second",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "controlRate",
           "package": "hsc3",
@@ -23828,6 +25768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of allocated audio rate buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numAudioBuses",
           "package": "hsc3",
@@ -23838,6 +25779,7 @@
         "index": {
           "description": "Number of allocated audio rate buses",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numAudioBuses",
           "package": "hsc3",
@@ -23852,6 +25794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of allocated buffers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numBuffers",
           "package": "hsc3",
@@ -23862,6 +25805,7 @@
         "index": {
           "description": "Number of allocated buffers",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numBuffers",
           "package": "hsc3",
@@ -23876,6 +25820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of allocated control rate buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numControlBuses",
           "package": "hsc3",
@@ -23886,6 +25831,7 @@
         "index": {
           "description": "Number of allocated control rate buses",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numControlBuses",
           "package": "hsc3",
@@ -23900,6 +25846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of allocated input audio rate buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numInputBuses",
           "package": "hsc3",
@@ -23910,6 +25857,7 @@
         "index": {
           "description": "Number of allocated input audio rate buses",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numInputBuses",
           "package": "hsc3",
@@ -23924,6 +25872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of allocated output audio rate buses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numOutputBuses",
           "package": "hsc3",
@@ -23934,6 +25883,7 @@
         "index": {
           "description": "Number of allocated output audio rate buses",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numOutputBuses",
           "package": "hsc3",
@@ -23948,6 +25898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of runnings synthesis nodes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "numRunningSynths",
           "package": "hsc3",
@@ -23958,6 +25909,7 @@
         "index": {
           "description": "Number of runnings synthesis nodes",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "numRunningSynths",
           "package": "hsc3",
@@ -23972,6 +25924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePoll value of input UGen when triggered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "poll",
           "package": "hsc3",
@@ -23982,6 +25935,7 @@
         "index": {
           "description": "Poll value of input UGen when triggered",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "poll",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -23997,6 +25951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003epoll\u003c/a\u003e\u003c/code\u003e that generates an \u003ccode\u003e\u003ca\u003emrg\u003c/a\u003e\u003c/code\u003e value with the input\n signal at left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "poll'",
           "package": "hsc3",
@@ -24007,6 +25962,7 @@
         "index": {
           "description": "Variant of poll that generates an mrg value with the input signal at left",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "poll'",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24022,6 +25978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration of one sample, radians.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "radiansPerSample",
           "package": "hsc3",
@@ -24032,6 +25989,7 @@
         "index": {
           "description": "Duration of one sample radians",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "radiansPerSample",
           "package": "hsc3",
@@ -24046,6 +26004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDuration of one sample, seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "sampleDur",
           "package": "hsc3",
@@ -24056,6 +26015,7 @@
         "index": {
           "description": "Duration of one sample seconds",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "sampleDur",
           "package": "hsc3",
@@ -24070,6 +26030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample rate of synthesis server, frames per second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "sampleRate",
           "package": "hsc3",
@@ -24080,6 +26041,7 @@
         "index": {
           "description": "Sample rate of synthesis server frames per second",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "sampleRate",
           "package": "hsc3",
@@ -24094,6 +26056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSub-sample accurate scheduling offset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Information",
           "name": "subsampleOffset",
           "package": "hsc3",
@@ -24104,6 +26067,7 @@
         "index": {
           "description": "Sub-sample accurate scheduling offset",
           "hierarchy": "Sound SC3 UGen Information",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Information",
           "name": "subsampleOffset",
           "package": "hsc3",
@@ -24118,6 +26082,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMultiple channel expansion.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE",
           "package": "hsc3",
@@ -24127,6 +26092,7 @@
         "index": {
           "description": "Multiple channel expansion",
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE",
           "package": "hsc3",
@@ -24141,6 +26107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple channel expansion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE",
           "package": "hsc3",
@@ -24150,6 +26117,7 @@
         "index": {
           "description": "Multiple channel expansion",
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE",
           "package": "hsc3",
@@ -24163,6 +26131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE_Unit",
           "package": "hsc3",
@@ -24172,6 +26141,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE_Unit",
           "package": "hsc3",
@@ -24185,6 +26155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE_Vector",
           "package": "hsc3",
@@ -24194,6 +26165,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "MCE_Vector",
           "normalized": "MCE_Vector[a]",
@@ -24209,6 +26181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_binop",
           "package": "hsc3",
@@ -24218,6 +26191,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_binop",
           "normalized": "(a-\u003eb-\u003ec)-\u003eMCE a-\u003eMCE b-\u003eMCE c",
@@ -24232,6 +26206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_elem",
           "package": "hsc3",
@@ -24241,6 +26216,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_elem",
           "normalized": "MCE a-\u003e[a]",
@@ -24256,6 +26232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend \u003ccode\u003e\u003ca\u003eMCE\u003c/a\u003e\u003c/code\u003e to specified degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_extend",
           "package": "hsc3",
@@ -24266,6 +26243,7 @@
         "index": {
           "description": "Extend MCE to specified degree",
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_extend",
           "normalized": "Int-\u003eMCE a-\u003eMCE a",
@@ -24280,6 +26258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_map",
           "package": "hsc3",
@@ -24289,6 +26268,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen MCE",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MCE",
           "name": "mce_map",
           "normalized": "(a-\u003eb)-\u003eMCE a-\u003eMCE b",
@@ -24304,6 +26284,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMachine listening & feature extraction analysis unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "MachineListening",
           "package": "hsc3",
@@ -24313,6 +26294,7 @@
         "index": {
           "description": "Machine listening feature extraction analysis unit generators",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "MachineListening",
           "package": "hsc3",
@@ -24327,6 +26309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutocorrelation beat tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "beatTrack",
           "package": "hsc3",
@@ -24337,6 +26320,7 @@
         "index": {
           "description": "Autocorrelation beat tracker",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "beatTrack",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -24353,6 +26337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemplate matching beat tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "beatTrack2",
           "package": "hsc3",
@@ -24363,6 +26348,7 @@
         "index": {
           "description": "Template matching beat tracker",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "beatTrack2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24379,6 +26365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKey tracker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "keyTrack",
           "package": "hsc3",
@@ -24389,6 +26376,7 @@
         "index": {
           "description": "Key tracker",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "keyTrack",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24405,6 +26393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtraction of instantaneous loudness in sones.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "loudness",
           "package": "hsc3",
@@ -24415,6 +26404,7 @@
         "index": {
           "description": "Extraction of instantaneous loudness in sones",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "loudness",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24430,6 +26420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMel frequency cepstral coefficients.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "mfcc",
           "package": "hsc3",
@@ -24440,6 +26431,7 @@
         "index": {
           "description": "Mel frequency cepstral coefficients",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "mfcc",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -24455,6 +26447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate onset type string to constant UGen value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsetType",
           "package": "hsc3",
@@ -24465,6 +26458,7 @@
         "index": {
           "description": "Translate onset type string to constant UGen value",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsetType",
           "normalized": "String-\u003ea",
@@ -24481,6 +26475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnset detector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsets",
           "package": "hsc3",
@@ -24491,6 +26486,7 @@
         "index": {
           "description": "Onset detector",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsets",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24506,6 +26502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnset detector with default values for minor parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsets'",
           "package": "hsc3",
@@ -24516,6 +26513,7 @@
         "index": {
           "description": "Onset detector with default values for minor parameters",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "onsets'",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24531,6 +26529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpectral centroid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specCentroid",
           "package": "hsc3",
@@ -24541,6 +26540,7 @@
         "index": {
           "description": "Spectral centroid",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specCentroid",
           "normalized": "UGen-\u003eUGen",
@@ -24557,6 +26557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpectral Flatness measure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specFlatness",
           "package": "hsc3",
@@ -24567,6 +26568,7 @@
         "index": {
           "description": "Spectral Flatness measure",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specFlatness",
           "normalized": "UGen-\u003eUGen",
@@ -24583,6 +26585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind a percentile of FFT magnitude spectrum.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specPcile",
           "package": "hsc3",
@@ -24593,6 +26596,7 @@
         "index": {
           "description": "Find percentile of FFT magnitude spectrum",
           "hierarchy": "Sound SC3 UGen MachineListening",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.MachineListening",
           "name": "specPcile",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -24609,6 +26613,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon-standard mathematical classes and class instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "Math",
           "package": "hsc3",
@@ -24618,6 +26623,7 @@
         "index": {
           "description": "Non-standard mathematical classes and class instances",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "Math",
           "package": "hsc3",
@@ -24632,6 +26638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary operator class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "BinaryOp",
           "package": "hsc3",
@@ -24641,6 +26648,7 @@
         "index": {
           "description": "Binary operator class",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "BinaryOp",
           "package": "hsc3",
@@ -24655,6 +26663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on Eq class, result is of the same type as the values compared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "EqE",
           "package": "hsc3",
@@ -24664,6 +26673,7 @@
         "index": {
           "description": "Variant on Eq class result is of the same type as the values compared",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "EqE",
           "package": "hsc3",
@@ -24678,6 +26688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant on Ord class, result is of the same type as the values compared.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "OrdE",
           "package": "hsc3",
@@ -24687,6 +26698,7 @@
         "index": {
           "description": "Variant on Ord class result is of the same type as the values compared",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "OrdE",
           "package": "hsc3",
@@ -24701,6 +26713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eRealFrac\u003c/a\u003e\u003c/code\u003e with non \u003ccode\u003e\u003ca\u003eIntegral\u003c/a\u003e\u003c/code\u003e results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "RealFracE",
           "package": "hsc3",
@@ -24710,6 +26723,7 @@
         "index": {
           "description": "Variant of RealFrac with non Integral results",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "RealFracE",
           "package": "hsc3",
@@ -24724,6 +26738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary operator class.\n\u003c/p\u003e\u003cpre\u003e map (floor . (* 1e4) . dbAmp) [-90,-60,-30,0] == [0,10,316,10000]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "UnaryOp",
           "package": "hsc3",
@@ -24733,6 +26748,7 @@
         "index": {
           "description": "Unary operator class map floor e4 dbAmp",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "UnaryOp",
           "package": "hsc3",
@@ -24746,6 +26762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(/=*)",
           "package": "hsc3",
@@ -24755,6 +26772,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(/=*) /=*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24769,6 +26787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003c*)",
           "package": "hsc3",
@@ -24778,6 +26797,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003c*) \u003c*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24792,6 +26812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003c=*)",
           "package": "hsc3",
@@ -24801,6 +26822,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003c=*) \u003c=*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24815,6 +26837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(==*)",
           "package": "hsc3",
@@ -24824,6 +26847,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(==*) ==*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24838,6 +26862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003e*)",
           "package": "hsc3",
@@ -24847,6 +26872,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003e*) \u003e*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24861,6 +26887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003e=*)",
           "package": "hsc3",
@@ -24870,6 +26897,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "(\u003e=*) \u003e=*",
           "normalized": "a-\u003ea-\u003ea",
@@ -24884,6 +26912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "absDif",
           "package": "hsc3",
@@ -24893,6 +26922,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "absDif",
           "normalized": "a-\u003ea-\u003ea",
@@ -24908,6 +26938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "amClip",
           "package": "hsc3",
@@ -24917,6 +26948,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "amClip",
           "normalized": "a-\u003ea-\u003ea",
@@ -24932,6 +26964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ampDb",
           "package": "hsc3",
@@ -24941,6 +26974,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ampDb",
           "normalized": "a-\u003ea",
@@ -24956,6 +26990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "asFloat",
           "package": "hsc3",
@@ -24965,6 +27000,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "asFloat",
           "normalized": "a-\u003ea",
@@ -24980,6 +27016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "asInt",
           "package": "hsc3",
@@ -24989,6 +27026,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "asInt",
           "normalized": "a-\u003ea",
@@ -25004,6 +27042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "atan2E",
           "package": "hsc3",
@@ -25013,6 +27052,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "atan2E",
           "normalized": "a-\u003ea-\u003ea",
@@ -25028,6 +27068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e form of \u003ccode\u003e\u003ca\u003eceilingE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ceil",
           "package": "hsc3",
@@ -25038,6 +27079,7 @@
         "index": {
           "description": "UGen form of ceilingE",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ceil",
           "normalized": "UGen-\u003eUGen",
@@ -25052,6 +27094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ceilingE",
           "package": "hsc3",
@@ -25061,6 +27104,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ceilingE",
           "normalized": "a-\u003ea",
@@ -25076,6 +27120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip \u003cem\u003ek\u003c/em\u003e to within range \u003cem\u003e(i,j)\u003c/em\u003e,\n\u003c/p\u003e\u003cpre\u003e map (clip' 5 10) [3..12] == [5,5,5,6,7,8,9,10,10,10]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip'",
           "package": "hsc3",
@@ -25086,6 +27131,7 @@
         "index": {
           "description": "Clip to within range map clip",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip'",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -25100,6 +27146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip2",
           "package": "hsc3",
@@ -25109,6 +27156,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip2",
           "normalized": "a-\u003ea-\u003ea",
@@ -25124,6 +27172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eclip'\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003eSC3\u003c/code\u003e argument ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip_",
           "package": "hsc3",
@@ -25134,6 +27183,7 @@
         "index": {
           "description": "Variant of clip with SC3 argument ordering",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "clip_",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -25148,6 +27198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "cpsMIDI",
           "package": "hsc3",
@@ -25157,6 +27208,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "cpsMIDI",
           "normalized": "a-\u003ea",
@@ -25172,6 +27224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "cpsOct",
           "package": "hsc3",
@@ -25181,6 +27234,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "cpsOct",
           "normalized": "a-\u003ea",
@@ -25196,6 +27250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "cubed",
           "package": "hsc3",
@@ -25205,6 +27260,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "cubed",
           "normalized": "a-\u003ea",
@@ -25219,6 +27275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "dbAmp",
           "package": "hsc3",
@@ -25228,6 +27285,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "dbAmp",
           "normalized": "a-\u003ea",
@@ -25243,6 +27301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "difSqr",
           "package": "hsc3",
@@ -25252,6 +27311,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "difSqr",
           "normalized": "a-\u003ea-\u003ea",
@@ -25267,6 +27327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "distort",
           "package": "hsc3",
@@ -25276,6 +27337,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "distort",
           "normalized": "a-\u003ea",
@@ -25290,6 +27352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "excess",
           "package": "hsc3",
@@ -25299,6 +27362,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "excess",
           "normalized": "a-\u003ea-\u003ea",
@@ -25313,6 +27377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "exprandRange",
           "package": "hsc3",
@@ -25322,6 +27387,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "exprandRange",
           "normalized": "a-\u003ea-\u003ea",
@@ -25337,6 +27403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "fill",
           "package": "hsc3",
@@ -25346,6 +27413,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "fill",
           "normalized": "a-\u003ea-\u003ea",
@@ -25360,6 +27428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "firstArg",
           "package": "hsc3",
@@ -25369,6 +27438,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "firstArg",
           "normalized": "a-\u003ea-\u003ea",
@@ -25384,6 +27454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "floorE",
           "package": "hsc3",
@@ -25393,6 +27464,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "floorE",
           "normalized": "a-\u003ea",
@@ -25408,6 +27480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe SC3 \u003ccode\u003e%\u003c/code\u003e operator is libc fmod function.\n\u003c/p\u003e\u003cpre\u003e 1.5 % 1.2 // ~= 0.3\n -1.5 % 1.2 // ~= 0.9\n 1.5 % -1.2 // ~= -0.9\n -1.5 % -1.2 // ~= -0.3\n\u003c/pre\u003e\u003cpre\u003e 1.5 `fmod` 1.2 -- ~= 0.3\n (-1.5) `fmod` 1.2 -- ~= 0.9\n 1.5 `fmod` (-1.2) -- ~= -0.9\n (-1.5) `fmod` (-1.2) -- ~= -0.3\n\u003c/pre\u003e\u003col\u003e\u003cli\u003e2 % 1.5 \u003cem/\u003e ~= 1.2\n -1.2 % 1.5 \u003cem/\u003e ~= 0.3\n 1.2 % -1.5 \u003cem/\u003e ~= -0.3\n -1.2 % -1.5 \u003cem/\u003e ~= -1.2\n\u003c/li\u003e\u003c/ol\u003e\u003cpre\u003e 1.2 `fmod` 1.5 -- ~= 1.2\n (-1.2) `fmod` 1.5 -- ~= 0.3\n 1.2 `fmod` (-1.5) -- ~= -0.3\n (-1.2) `fmod` (-1.5) -- ~= -1.2\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "fmod_f32",
           "package": "hsc3",
@@ -25418,6 +27491,7 @@
         "index": {
           "description": "The SC3 operator is libc fmod function fmod fmod fmod fmod fmod fmod fmod fmod",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "fmod_f32",
           "normalized": "Float-\u003eFloat-\u003eFloat",
@@ -25432,6 +27506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "fold2",
           "package": "hsc3",
@@ -25441,6 +27516,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "fold2",
           "normalized": "a-\u003ea-\u003ea",
@@ -25456,6 +27532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold \u003cem\u003ek\u003c/em\u003e to within range \u003cem\u003e(i,j)\u003c/em\u003e, ie. \u003ccode\u003eAbstractFunction.fold\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e map (foldToRange 5 10) [3..12] == [7,6,5,6,7,8,9,10,9,8]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "foldToRange",
           "package": "hsc3",
@@ -25466,6 +27543,7 @@
         "index": {
           "description": "Fold to within range ie AbstractFunction.fold map foldToRange",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "foldToRange",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -25482,6 +27560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003efoldToRange\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003eSC3\u003c/code\u003e argument ordering.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "fold_",
           "package": "hsc3",
@@ -25492,6 +27571,7 @@
         "index": {
           "description": "Variant of foldToRange with SC3 argument ordering",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "fold_",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -25506,6 +27586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "frac",
           "package": "hsc3",
@@ -25515,6 +27596,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "frac",
           "normalized": "a-\u003ea",
@@ -25529,6 +27611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "gcdE",
           "package": "hsc3",
@@ -25538,6 +27621,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "gcdE",
           "normalized": "a-\u003ea-\u003ea",
@@ -25553,6 +27637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric variant of \u003ccode\u003e\u003ca\u003ewrap'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e \u003e [5,6].wrap(0,5) == [5,0]\n map (genericWrap 0 5) [5,6] == [5,0]\n\u003c/pre\u003e\u003cpre\u003e \u003e [9,10,5,6,7,8,9,10,5,6].wrap(5,10) == [9,10,5,6,7,8,9,10,5,6]\n map (genericWrap (5::Integer) 10) [3..12] == [9,10,5,6,7,8,9,10,5,6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "genericWrap",
           "package": "hsc3",
@@ -25563,6 +27648,7 @@
         "index": {
           "description": "Generic variant of wrap wrap map genericWrap wrap map genericWrap Integer",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "genericWrap",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -25578,6 +27664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "hypot",
           "package": "hsc3",
@@ -25587,6 +27674,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "hypot",
           "normalized": "a-\u003ea-\u003ea",
@@ -25601,6 +27689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "hypotx",
           "package": "hsc3",
@@ -25610,6 +27699,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "hypotx",
           "normalized": "a-\u003ea-\u003ea",
@@ -25624,6 +27714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "iDiv",
           "package": "hsc3",
@@ -25633,6 +27724,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "iDiv",
           "normalized": "a-\u003ea-\u003ea",
@@ -25648,6 +27740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "isNil",
           "package": "hsc3",
@@ -25657,6 +27750,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "isNil",
           "normalized": "a-\u003ea",
@@ -25672,6 +27766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "lcmE",
           "package": "hsc3",
@@ -25681,6 +27776,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "lcmE",
           "normalized": "a-\u003ea-\u003ea",
@@ -25695,6 +27791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "log10",
           "package": "hsc3",
@@ -25704,6 +27801,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "log10",
           "normalized": "a-\u003ea",
@@ -25718,6 +27816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "log2",
           "package": "hsc3",
@@ -25727,6 +27826,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "log2",
           "normalized": "a-\u003ea",
@@ -25741,6 +27841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiCPS",
           "package": "hsc3",
@@ -25750,6 +27851,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiCPS",
           "normalized": "a-\u003ea",
@@ -25766,6 +27868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e form of \u003ccode\u003e\u003ca\u003emidiCPS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiCPS'",
           "package": "hsc3",
@@ -25776,6 +27879,7 @@
         "index": {
           "description": "Floating form of midiCPS",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiCPS'",
           "normalized": "a-\u003ea",
@@ -25791,6 +27895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiRatio",
           "package": "hsc3",
@@ -25800,6 +27905,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "midiRatio",
           "normalized": "a-\u003ea",
@@ -25815,6 +27921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "modE",
           "package": "hsc3",
@@ -25824,6 +27931,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "modE",
           "normalized": "a-\u003ea-\u003ea",
@@ -25838,6 +27946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "notE",
           "package": "hsc3",
@@ -25847,6 +27956,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "notE",
           "normalized": "a-\u003ea",
@@ -25861,6 +27971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "notNil",
           "package": "hsc3",
@@ -25870,6 +27981,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "notNil",
           "normalized": "a-\u003ea",
@@ -25885,6 +27997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "octCPS",
           "package": "hsc3",
@@ -25894,6 +28007,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "octCPS",
           "normalized": "a-\u003ea",
@@ -25909,6 +28023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "properFractionE",
           "package": "hsc3",
@@ -25918,6 +28033,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "properFractionE",
           "normalized": "a-\u003e(a,a)",
@@ -25933,6 +28049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ramp_",
           "package": "hsc3",
@@ -25942,6 +28059,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ramp_",
           "normalized": "a-\u003ea",
@@ -25956,6 +28074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "randRange",
           "package": "hsc3",
@@ -25965,6 +28084,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "randRange",
           "normalized": "a-\u003ea-\u003ea",
@@ -25980,6 +28100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ratioMIDI",
           "package": "hsc3",
@@ -25989,6 +28110,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ratioMIDI",
           "normalized": "a-\u003ea",
@@ -26004,6 +28126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring1",
           "package": "hsc3",
@@ -26013,6 +28136,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring1",
           "normalized": "a-\u003ea-\u003ea",
@@ -26027,6 +28151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring2",
           "package": "hsc3",
@@ -26036,6 +28161,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring2",
           "normalized": "a-\u003ea-\u003ea",
@@ -26050,6 +28176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring3",
           "package": "hsc3",
@@ -26059,6 +28186,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring3",
           "normalized": "a-\u003ea-\u003ea",
@@ -26073,6 +28201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring4",
           "package": "hsc3",
@@ -26082,6 +28211,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "ring4",
           "normalized": "a-\u003ea-\u003ea",
@@ -26096,6 +28226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundE",
           "package": "hsc3",
@@ -26105,6 +28236,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundE",
           "normalized": "a-\u003ea",
@@ -26120,6 +28252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e form or \u003ccode\u003e\u003ca\u003eroundTo_\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundTo",
           "package": "hsc3",
@@ -26130,6 +28263,7 @@
         "index": {
           "description": "UGen form or roundTo",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundTo",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -26146,6 +28280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003eSC3\u003c/code\u003e \u003ccode\u003eroundTo\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundTo_",
           "package": "hsc3",
@@ -26156,6 +28291,7 @@
         "index": {
           "description": "Variant of SC3 roundTo function",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundTo_",
           "normalized": "a-\u003ea-\u003ea",
@@ -26171,6 +28307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundUp",
           "package": "hsc3",
@@ -26180,6 +28317,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "roundUp",
           "normalized": "a-\u003ea-\u003ea",
@@ -26195,6 +28333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "scaleNeg",
           "package": "hsc3",
@@ -26204,6 +28343,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "scaleNeg",
           "normalized": "a-\u003ea-\u003ea",
@@ -26219,6 +28359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "softClip",
           "package": "hsc3",
@@ -26228,6 +28369,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "softClip",
           "normalized": "a-\u003ea",
@@ -26243,6 +28385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "sqrDif",
           "package": "hsc3",
@@ -26252,6 +28395,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "sqrDif",
           "normalized": "a-\u003ea-\u003ea",
@@ -26267,6 +28411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "sqrSum",
           "package": "hsc3",
@@ -26276,6 +28421,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "sqrSum",
           "normalized": "a-\u003ea-\u003ea",
@@ -26291,6 +28437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "squared",
           "package": "hsc3",
@@ -26300,6 +28447,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "squared",
           "normalized": "a-\u003ea",
@@ -26314,6 +28462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "sumSqr",
           "package": "hsc3",
@@ -26323,6 +28472,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "sumSqr",
           "normalized": "a-\u003ea-\u003ea",
@@ -26338,6 +28488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "thresh",
           "package": "hsc3",
@@ -26347,6 +28498,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "thresh",
           "normalized": "a-\u003ea-\u003ea",
@@ -26361,6 +28513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "trunc",
           "package": "hsc3",
@@ -26370,6 +28523,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "trunc",
           "normalized": "a-\u003ea-\u003ea",
@@ -26384,6 +28538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "truncateE",
           "package": "hsc3",
@@ -26393,6 +28548,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "truncateE",
           "normalized": "a-\u003ea",
@@ -26408,6 +28564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrap \u003cem\u003ek\u003c/em\u003e to within range \u003cem\u003e(i,j)\u003c/em\u003e, ie. \u003ccode\u003eAbstractFunction.wrap\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e \u003e [5,6].wrap(0,5) == [5,0]\n map (wrap' 0 5) [5,6] == [5,0]\n\u003c/pre\u003e\u003cpre\u003e \u003e [9,10,5,6,7,8,9,10,5,6].wrap(5,10) == [9,10,5,6,7,8,9,10,5,6]\n map (wrap' 5 10) [3..12] == [9,10,5,6,7,8,9,10,5,6]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap'",
           "package": "hsc3",
@@ -26418,6 +28575,7 @@
         "index": {
           "description": "Wrap to within range ie AbstractFunction.wrap wrap map wrap wrap map wrap",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap'",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -26432,6 +28590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap2",
           "package": "hsc3",
@@ -26441,6 +28600,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap2",
           "normalized": "a-\u003ea-\u003ea",
@@ -26456,6 +28616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003ewrap'\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003eSC3\u003c/code\u003e argument ordering.\n\u003c/p\u003e\u003cpre\u003e map (\\n -\u003e wrap_ n 5 10) [3..12] == map (wrap' 5 10) [3..12]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap_",
           "package": "hsc3",
@@ -26466,6 +28627,7 @@
         "index": {
           "description": "Variant of wrap with SC3 argument ordering map wrap map wrap",
           "hierarchy": "Sound SC3 UGen Math",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Math",
           "name": "wrap_",
           "normalized": "a-\u003ea-\u003ea-\u003ea",
@@ -26481,6 +28643,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule exporting all of \u003ca\u003eSound.SC3.UGen\u003c/a\u003e and also the monad\n constructor variants for non-deterministic and non-sharable unit\n generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -26490,6 +28653,7 @@
         "index": {
           "description": "Module exporting all of Sound.SC3.UGen and also the monad constructor variants for non-deterministic and non-sharable unit generators",
           "hierarchy": "Sound SC3 UGen Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -26504,6 +28668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClone a unit generator (mce . replicateM).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Monad",
           "name": "clone",
           "package": "hsc3",
@@ -26514,6 +28679,7 @@
         "index": {
           "description": "Clone unit generator mce replicateM",
           "hierarchy": "Sound SC3 UGen Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Monad",
           "name": "clone",
           "normalized": "Int-\u003ea UGen-\u003ea UGen",
@@ -26529,6 +28695,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to normalise UGen names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Name",
           "name": "Name",
           "package": "hsc3",
@@ -26538,6 +28705,7 @@
         "index": {
           "description": "Functions to normalise UGen names",
           "hierarchy": "Sound SC3 UGen Name",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Name",
           "name": "Name",
           "package": "hsc3",
@@ -26552,6 +28720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003etoSC3Name\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e let nm = [\"SinOsc\",\"LFSaw\",\"PV_Copy\"]\n in map fromSC3Name nm == [\"sinOsc\",\"lfSaw\",\"pv_Copy\"]\n\u003c/pre\u003e\u003cpre\u003e map fromSC3Name [\"BPF\",\"FFT\",\"TPV\"] == [\"bpf\",\"fft\",\"tpv\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Name",
           "name": "fromSC3Name",
           "package": "hsc3",
@@ -26562,6 +28731,7 @@
         "index": {
           "description": "Inverse of toSC3Name let nm SinOsc LFSaw PV Copy in map fromSC3Name nm sinOsc lfSaw pv Copy map fromSC3Name BPF FFT TPV bpf fft tpv",
           "hierarchy": "Sound SC3 UGen Name",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Name",
           "name": "fromSC3Name",
           "normalized": "String-\u003eString",
@@ -26578,6 +28748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from \u003ccode\u003ehsc3\u003c/code\u003e name to \u003ccode\u003eSC3\u003c/code\u003e name.\n\u003c/p\u003e\u003cpre\u003e toSC3Name \"sinOsc\" == \"SinOsc\"\n toSC3Name \"lfSaw\" == \"LFSaw\"\n toSC3Name \"pv_Copy\" == \"PV_Copy\"\n map toSC3Name [\"bpf\",\"fft\",\"tpv\"] == [\"BPF\",\"FFT\",\"TPV\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Name",
           "name": "toSC3Name",
           "package": "hsc3",
@@ -26588,6 +28759,7 @@
         "index": {
           "description": "Convert from hsc3 name to SC3 name toSC3Name sinOsc SinOsc toSC3Name lfSaw LFSaw toSC3Name pv Copy PV Copy map toSC3Name bpf fft tpv BPF FFT TPV",
           "hierarchy": "Sound SC3 UGen Name",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Name",
           "name": "toSC3Name",
           "normalized": "String-\u003eString",
@@ -26604,6 +28776,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNon-deterministic noise \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "ID",
           "package": "hsc3",
@@ -26613,6 +28786,7 @@
         "index": {
           "description": "Non-deterministic noise UGen",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "ID",
           "package": "hsc3",
@@ -26627,6 +28801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "brownNoise",
           "package": "hsc3",
@@ -26637,6 +28812,7 @@
         "index": {
           "description": "Brown noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "brownNoise",
           "normalized": "a-\u003eRate-\u003eUGen",
@@ -26653,6 +28829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "clipNoise",
           "package": "hsc3",
@@ -26663,6 +28840,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "clipNoise",
           "normalized": "a-\u003eRate-\u003eUGen",
@@ -26679,6 +28857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly pass or block triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "coinGate",
           "package": "hsc3",
@@ -26689,6 +28868,7 @@
         "index": {
           "description": "Randomly pass or block triggers",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "coinGate",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -26705,6 +28885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulse in (0,1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "dust",
           "package": "hsc3",
@@ -26715,6 +28896,7 @@
         "index": {
           "description": "Random impulse in",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "dust",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26730,6 +28912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulses in (-1, 1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "dust2",
           "package": "hsc3",
@@ -26740,6 +28923,7 @@
         "index": {
           "description": "Random impulses in",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "dust2",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26755,6 +28939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "expRand",
           "package": "hsc3",
@@ -26765,6 +28950,7 @@
         "index": {
           "description": "Random value in exponential distribution",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "expRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -26781,6 +28967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGray noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "grayNoise",
           "package": "hsc3",
@@ -26791,6 +28978,7 @@
         "index": {
           "description": "Gray noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "grayNoise",
           "normalized": "a-\u003eRate-\u003eUGen",
@@ -26807,6 +28995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "iRand",
           "package": "hsc3",
@@ -26817,6 +29006,7 @@
         "index": {
           "description": "Random integer in uniform distribution",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "iRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -26833,6 +29023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfClipNoise",
           "package": "hsc3",
@@ -26843,6 +29034,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfClipNoise",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26859,6 +29051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise0",
           "package": "hsc3",
@@ -26869,6 +29062,7 @@
         "index": {
           "description": "Step noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise0",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26885,6 +29079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRamp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise1",
           "package": "hsc3",
@@ -26895,6 +29090,7 @@
         "index": {
           "description": "Ramp noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise1",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26911,6 +29107,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuadratic noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise2",
           "package": "hsc3",
@@ -26921,6 +29118,7 @@
         "index": {
           "description": "Quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfNoise2",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26937,6 +29135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic clip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdClipNoise",
           "package": "hsc3",
@@ -26947,6 +29146,7 @@
         "index": {
           "description": "Dynamic clip noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdClipNoise",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26963,6 +29163,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic step noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise0",
           "package": "hsc3",
@@ -26973,6 +29174,7 @@
         "index": {
           "description": "Dynamic step noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise0",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -26989,6 +29191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic ramp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise1",
           "package": "hsc3",
@@ -26999,6 +29202,7 @@
         "index": {
           "description": "Dynamic ramp noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise1",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -27015,6 +29219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic quadratic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise2",
           "package": "hsc3",
@@ -27025,6 +29230,7 @@
         "index": {
           "description": "Dynamic quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise2",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -27041,6 +29247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cubic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise3",
           "package": "hsc3",
@@ -27051,6 +29258,7 @@
         "index": {
           "description": "Dynamic cubic noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "lfdNoise3",
           "normalized": "a-\u003eRate-\u003eUGen-\u003eUGen",
@@ -27067,6 +29275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in skewed linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "linRand",
           "package": "hsc3",
@@ -27077,6 +29286,7 @@
         "index": {
           "description": "Random value in skewed linear distribution",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "linRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27093,6 +29303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in sum of n linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "nRand",
           "package": "hsc3",
@@ -27103,6 +29314,7 @@
         "index": {
           "description": "Random value in sum of linear distribution",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "nRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27119,6 +29331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePink noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "pinkNoise",
           "package": "hsc3",
@@ -27129,6 +29342,7 @@
         "index": {
           "description": "Pink noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "pinkNoise",
           "normalized": "a-\u003eRate-\u003eUGen",
@@ -27145,6 +29359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "rand",
           "package": "hsc3",
@@ -27155,6 +29370,7 @@
         "index": {
           "description": "Random value in uniform distribution",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "rand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27170,6 +29386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tExpRand",
           "package": "hsc3",
@@ -27180,6 +29397,7 @@
         "index": {
           "description": "Random value in exponential distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tExpRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27196,6 +29414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tIRand",
           "package": "hsc3",
@@ -27206,6 +29425,7 @@
         "index": {
           "description": "Random integer in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tIRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27222,6 +29442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tRand",
           "package": "hsc3",
@@ -27232,6 +29453,7 @@
         "index": {
           "description": "Random value in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tRand",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27248,6 +29470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered windex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tWindex",
           "package": "hsc3",
@@ -27258,6 +29481,7 @@
         "index": {
           "description": "Triggered windex",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "tWindex",
           "normalized": "a-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -27274,6 +29498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "whiteNoise",
           "package": "hsc3",
@@ -27284,6 +29509,7 @@
         "index": {
           "description": "White noise",
           "hierarchy": "Sound SC3 UGen Noise ID",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.ID",
           "name": "whiteNoise",
           "normalized": "a-\u003eRate-\u003eUGen",
@@ -27300,6 +29526,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonad constructors for noise \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -27309,6 +29536,7 @@
         "index": {
           "description": "Monad constructors for noise UGen",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "Monad",
           "package": "hsc3",
@@ -27323,6 +29551,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBrown noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "brownNoise",
           "package": "hsc3",
@@ -27333,6 +29562,7 @@
         "index": {
           "description": "Brown noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "brownNoise",
           "normalized": "Rate-\u003ea UGen",
@@ -27349,6 +29579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "clipNoise",
           "package": "hsc3",
@@ -27359,6 +29590,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "clipNoise",
           "normalized": "Rate-\u003ea UGen",
@@ -27375,6 +29607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandomly pass or block triggers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "coinGate",
           "package": "hsc3",
@@ -27385,6 +29618,7 @@
         "index": {
           "description": "Randomly pass or block triggers",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "coinGate",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -27401,6 +29635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulse in (0,1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "dust",
           "package": "hsc3",
@@ -27411,6 +29646,7 @@
         "index": {
           "description": "Random impulse in",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "dust",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27426,6 +29662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom impulses in (-1, 1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "dust2",
           "package": "hsc3",
@@ -27436,6 +29673,7 @@
         "index": {
           "description": "Random impulses in",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "dust2",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27451,6 +29689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "expRand",
           "package": "hsc3",
@@ -27461,6 +29700,7 @@
         "index": {
           "description": "Random value in exponential distribution",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "expRand",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -27477,6 +29717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGray noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "grayNoise",
           "package": "hsc3",
@@ -27487,6 +29728,7 @@
         "index": {
           "description": "Gray noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "grayNoise",
           "normalized": "Rate-\u003ea UGen",
@@ -27503,6 +29745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "iRand",
           "package": "hsc3",
@@ -27513,6 +29756,7 @@
         "index": {
           "description": "Random integer in uniform distribution",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "iRand",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -27529,6 +29773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfClipNoise",
           "package": "hsc3",
@@ -27539,6 +29784,7 @@
         "index": {
           "description": "Clip noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfClipNoise",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27555,6 +29801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise0",
           "package": "hsc3",
@@ -27565,6 +29812,7 @@
         "index": {
           "description": "Step noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise0",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27581,6 +29829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRamp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise1",
           "package": "hsc3",
@@ -27591,6 +29840,7 @@
         "index": {
           "description": "Ramp noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise1",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27607,6 +29857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuadratic noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise2",
           "package": "hsc3",
@@ -27617,6 +29868,7 @@
         "index": {
           "description": "Quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfNoise2",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27633,6 +29885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic clip noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdClipNoise",
           "package": "hsc3",
@@ -27643,6 +29896,7 @@
         "index": {
           "description": "Dynamic clip noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdClipNoise",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27659,6 +29913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic step noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise0",
           "package": "hsc3",
@@ -27669,6 +29924,7 @@
         "index": {
           "description": "Dynamic step noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise0",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27685,6 +29941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic ramp noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise1",
           "package": "hsc3",
@@ -27695,6 +29952,7 @@
         "index": {
           "description": "Dynamic ramp noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise1",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27711,6 +29969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic quadratic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise2",
           "package": "hsc3",
@@ -27721,6 +29980,7 @@
         "index": {
           "description": "Dynamic quadratic noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise2",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27737,6 +29997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic cubic noise\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise3",
           "package": "hsc3",
@@ -27747,6 +30008,7 @@
         "index": {
           "description": "Dynamic cubic noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "lfdNoise3",
           "normalized": "Rate-\u003eUGen-\u003ea UGen",
@@ -27763,6 +30025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in skewed linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "linRand",
           "package": "hsc3",
@@ -27773,6 +30036,7 @@
         "index": {
           "description": "Random value in skewed linear distribution",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "linRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27789,6 +30053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in sum of n linear distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "nRand",
           "package": "hsc3",
@@ -27799,6 +30064,7 @@
         "index": {
           "description": "Random value in sum of linear distribution",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "nRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27815,6 +30081,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePink noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "pinkNoise",
           "package": "hsc3",
@@ -27825,6 +30092,7 @@
         "index": {
           "description": "Pink noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "pinkNoise",
           "normalized": "Rate-\u003ea UGen",
@@ -27841,6 +30109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "rand",
           "package": "hsc3",
@@ -27851,6 +30120,7 @@
         "index": {
           "description": "Random value in uniform distribution",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "rand",
           "normalized": "UGen-\u003eUGen-\u003ea UGen",
@@ -27866,6 +30136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in exponential distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tExpRand",
           "package": "hsc3",
@@ -27876,6 +30147,7 @@
         "index": {
           "description": "Random value in exponential distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tExpRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27892,6 +30164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom integer in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tIRand",
           "package": "hsc3",
@@ -27902,6 +30175,7 @@
         "index": {
           "description": "Random integer in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tIRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27918,6 +30192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRandom value in uniform distribution on trigger.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tRand",
           "package": "hsc3",
@@ -27928,6 +30203,7 @@
         "index": {
           "description": "Random value in uniform distribution on trigger",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tRand",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27944,6 +30220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered windex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tWindex",
           "package": "hsc3",
@@ -27954,6 +30231,7 @@
         "index": {
           "description": "Triggered windex",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "tWindex",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003ea UGen",
@@ -27970,6 +30248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhite noise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "whiteNoise",
           "package": "hsc3",
@@ -27980,6 +30259,7 @@
         "index": {
           "description": "White noise",
           "hierarchy": "Sound SC3 UGen Noise Monad",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Noise.Monad",
           "name": "whiteNoise",
           "normalized": "Rate-\u003ea UGen",
@@ -27996,6 +30276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eEnumerations of the unary and binary math unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Operator",
           "package": "hsc3",
@@ -28005,6 +30286,7 @@
         "index": {
           "description": "Enumerations of the unary and binary math unit generators",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Operator",
           "package": "hsc3",
@@ -28019,6 +30301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of \u003ccode\u003eSC3\u003c/code\u003e unary operator UGens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Binary",
           "package": "hsc3",
@@ -28028,6 +30311,7 @@
         "index": {
           "description": "Enumeration of SC3 unary operator UGens",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Binary",
           "package": "hsc3",
@@ -28042,6 +30326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumeration of \u003ccode\u003eSC3\u003c/code\u003e unary operator UGens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Unary",
           "package": "hsc3",
@@ -28051,6 +30336,7 @@
         "index": {
           "description": "Enumeration of SC3 unary operator UGens",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Unary",
           "package": "hsc3",
@@ -28064,6 +30350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AMClip",
           "package": "hsc3",
@@ -28073,6 +30360,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AMClip",
           "package": "hsc3",
@@ -28086,6 +30374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Abs",
           "package": "hsc3",
@@ -28095,6 +30384,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Abs",
           "package": "hsc3",
@@ -28108,6 +30398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AbsDif",
           "package": "hsc3",
@@ -28117,6 +30408,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AbsDif",
           "package": "hsc3",
@@ -28130,6 +30422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Add",
           "package": "hsc3",
@@ -28139,6 +30432,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Add",
           "package": "hsc3",
@@ -28152,6 +30446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AmpDb",
           "package": "hsc3",
@@ -28161,6 +30456,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AmpDb",
           "package": "hsc3",
@@ -28174,6 +30470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcCos",
           "package": "hsc3",
@@ -28183,6 +30480,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcCos",
           "package": "hsc3",
@@ -28196,6 +30494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcSin",
           "package": "hsc3",
@@ -28205,6 +30504,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcSin",
           "package": "hsc3",
@@ -28218,6 +30518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcTan",
           "package": "hsc3",
@@ -28227,6 +30528,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ArcTan",
           "package": "hsc3",
@@ -28240,6 +30542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AsFloat",
           "package": "hsc3",
@@ -28249,6 +30552,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AsFloat",
           "package": "hsc3",
@@ -28262,6 +30566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AsInt",
           "package": "hsc3",
@@ -28271,6 +30576,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "AsInt",
           "package": "hsc3",
@@ -28284,6 +30590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Atan2",
           "package": "hsc3",
@@ -28293,6 +30600,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Atan2",
           "package": "hsc3",
@@ -28306,6 +30614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BiLinRand",
           "package": "hsc3",
@@ -28315,6 +30624,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BiLinRand",
           "package": "hsc3",
@@ -28328,6 +30638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitAnd",
           "package": "hsc3",
@@ -28337,6 +30648,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitAnd",
           "package": "hsc3",
@@ -28350,6 +30662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitNot",
           "package": "hsc3",
@@ -28359,6 +30672,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitNot",
           "package": "hsc3",
@@ -28372,6 +30686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitOr",
           "package": "hsc3",
@@ -28381,6 +30696,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitOr",
           "package": "hsc3",
@@ -28394,6 +30710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitXor",
           "package": "hsc3",
@@ -28403,6 +30720,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "BitXor",
           "package": "hsc3",
@@ -28416,6 +30734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CPSMIDI",
           "package": "hsc3",
@@ -28425,6 +30744,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CPSMIDI",
           "package": "hsc3",
@@ -28438,6 +30758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CPSOct",
           "package": "hsc3",
@@ -28447,6 +30768,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CPSOct",
           "package": "hsc3",
@@ -28460,6 +30782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ceil",
           "package": "hsc3",
@@ -28469,6 +30792,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ceil",
           "package": "hsc3",
@@ -28482,6 +30806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Clip2",
           "package": "hsc3",
@@ -28491,6 +30816,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Clip2",
           "package": "hsc3",
@@ -28504,6 +30830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Coin",
           "package": "hsc3",
@@ -28513,6 +30840,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Coin",
           "package": "hsc3",
@@ -28526,6 +30854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Cos",
           "package": "hsc3",
@@ -28535,6 +30864,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Cos",
           "package": "hsc3",
@@ -28548,6 +30878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CosH",
           "package": "hsc3",
@@ -28557,6 +30888,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "CosH",
           "package": "hsc3",
@@ -28570,6 +30902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Cubed",
           "package": "hsc3",
@@ -28579,6 +30912,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Cubed",
           "package": "hsc3",
@@ -28592,6 +30926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DbAmp",
           "package": "hsc3",
@@ -28601,6 +30936,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DbAmp",
           "package": "hsc3",
@@ -28614,6 +30950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DifSqr",
           "package": "hsc3",
@@ -28623,6 +30960,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DifSqr",
           "package": "hsc3",
@@ -28636,6 +30974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DigitValue",
           "package": "hsc3",
@@ -28645,6 +30984,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "DigitValue",
           "package": "hsc3",
@@ -28658,6 +30998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Distort",
           "package": "hsc3",
@@ -28667,6 +31008,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Distort",
           "package": "hsc3",
@@ -28680,6 +31022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "EQ_",
           "package": "hsc3",
@@ -28689,6 +31032,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "EQ_",
           "package": "hsc3",
@@ -28702,6 +31046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Excess",
           "package": "hsc3",
@@ -28711,6 +31056,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Excess",
           "package": "hsc3",
@@ -28724,6 +31070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Exp",
           "package": "hsc3",
@@ -28733,6 +31080,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Exp",
           "package": "hsc3",
@@ -28746,6 +31094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ExpRandRange",
           "package": "hsc3",
@@ -28755,6 +31104,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ExpRandRange",
           "package": "hsc3",
@@ -28768,6 +31118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "FDiv",
           "package": "hsc3",
@@ -28777,6 +31128,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "FDiv",
           "package": "hsc3",
@@ -28790,6 +31142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Fill",
           "package": "hsc3",
@@ -28799,6 +31152,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Fill",
           "package": "hsc3",
@@ -28812,6 +31166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "FirstArg",
           "package": "hsc3",
@@ -28821,6 +31176,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "FirstArg",
           "package": "hsc3",
@@ -28834,6 +31190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Floor",
           "package": "hsc3",
@@ -28843,6 +31200,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Floor",
           "package": "hsc3",
@@ -28856,6 +31214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Fold2",
           "package": "hsc3",
@@ -28865,6 +31224,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Fold2",
           "package": "hsc3",
@@ -28878,6 +31238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Frac",
           "package": "hsc3",
@@ -28887,6 +31248,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Frac",
           "package": "hsc3",
@@ -28900,6 +31262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GCD",
           "package": "hsc3",
@@ -28909,6 +31272,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GCD",
           "package": "hsc3",
@@ -28922,6 +31286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GE",
           "package": "hsc3",
@@ -28931,6 +31296,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GE",
           "package": "hsc3",
@@ -28944,6 +31310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GT_",
           "package": "hsc3",
@@ -28953,6 +31320,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "GT_",
           "package": "hsc3",
@@ -28966,6 +31334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "HanWindow",
           "package": "hsc3",
@@ -28975,6 +31344,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "HanWindow",
           "package": "hsc3",
@@ -28988,6 +31358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Hypot",
           "package": "hsc3",
@@ -28997,6 +31368,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Hypot",
           "package": "hsc3",
@@ -29010,6 +31382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Hypotx",
           "package": "hsc3",
@@ -29019,6 +31392,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Hypotx",
           "package": "hsc3",
@@ -29032,6 +31406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "IDiv",
           "package": "hsc3",
@@ -29041,6 +31416,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "IDiv",
           "package": "hsc3",
@@ -29054,6 +31430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "IsNil",
           "package": "hsc3",
@@ -29063,6 +31440,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "IsNil",
           "package": "hsc3",
@@ -29076,6 +31454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LCM",
           "package": "hsc3",
@@ -29085,6 +31464,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LCM",
           "package": "hsc3",
@@ -29098,6 +31478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LE",
           "package": "hsc3",
@@ -29107,6 +31488,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LE",
           "package": "hsc3",
@@ -29120,6 +31502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LT_",
           "package": "hsc3",
@@ -29129,6 +31512,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LT_",
           "package": "hsc3",
@@ -29142,6 +31526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LinRand",
           "package": "hsc3",
@@ -29151,6 +31536,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "LinRand",
           "package": "hsc3",
@@ -29164,6 +31550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log",
           "package": "hsc3",
@@ -29173,6 +31560,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log",
           "package": "hsc3",
@@ -29186,6 +31574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log10",
           "package": "hsc3",
@@ -29195,6 +31584,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log10",
           "package": "hsc3",
@@ -29208,6 +31598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log2",
           "package": "hsc3",
@@ -29217,6 +31608,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Log2",
           "package": "hsc3",
@@ -29230,6 +31622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "MIDICPS",
           "package": "hsc3",
@@ -29239,6 +31632,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "MIDICPS",
           "package": "hsc3",
@@ -29252,6 +31646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "MIDIRatio",
           "package": "hsc3",
@@ -29261,6 +31656,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "MIDIRatio",
           "package": "hsc3",
@@ -29274,6 +31670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Max",
           "package": "hsc3",
@@ -29283,6 +31680,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Max",
           "package": "hsc3",
@@ -29296,6 +31694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Min",
           "package": "hsc3",
@@ -29305,6 +31704,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Min",
           "package": "hsc3",
@@ -29318,6 +31718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Mod",
           "package": "hsc3",
@@ -29327,6 +31728,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Mod",
           "package": "hsc3",
@@ -29340,6 +31742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Mul",
           "package": "hsc3",
@@ -29349,6 +31752,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Mul",
           "package": "hsc3",
@@ -29362,6 +31766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "NE",
           "package": "hsc3",
@@ -29371,6 +31776,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "NE",
           "package": "hsc3",
@@ -29384,6 +31790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Neg",
           "package": "hsc3",
@@ -29393,6 +31800,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Neg",
           "package": "hsc3",
@@ -29406,6 +31814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Not",
           "package": "hsc3",
@@ -29415,6 +31824,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Not",
           "package": "hsc3",
@@ -29428,6 +31838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "NotNil",
           "package": "hsc3",
@@ -29437,6 +31848,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "NotNil",
           "package": "hsc3",
@@ -29450,6 +31862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "OctCPS",
           "package": "hsc3",
@@ -29459,6 +31872,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "OctCPS",
           "package": "hsc3",
@@ -29472,6 +31886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Pow",
           "package": "hsc3",
@@ -29481,6 +31896,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Pow",
           "package": "hsc3",
@@ -29494,6 +31910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ramp",
           "package": "hsc3",
@@ -29503,6 +31920,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ramp",
           "package": "hsc3",
@@ -29516,6 +31934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Rand",
           "package": "hsc3",
@@ -29525,6 +31944,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Rand",
           "package": "hsc3",
@@ -29538,6 +31958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Rand2",
           "package": "hsc3",
@@ -29547,6 +31968,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Rand2",
           "package": "hsc3",
@@ -29560,6 +31982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RandRange",
           "package": "hsc3",
@@ -29569,6 +31992,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RandRange",
           "package": "hsc3",
@@ -29582,6 +32006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RatioMIDI",
           "package": "hsc3",
@@ -29591,6 +32016,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RatioMIDI",
           "package": "hsc3",
@@ -29604,6 +32030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Recip",
           "package": "hsc3",
@@ -29613,6 +32040,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Recip",
           "package": "hsc3",
@@ -29626,6 +32054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RectWindow",
           "package": "hsc3",
@@ -29635,6 +32064,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RectWindow",
           "package": "hsc3",
@@ -29648,6 +32078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring1",
           "package": "hsc3",
@@ -29657,6 +32088,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring1",
           "package": "hsc3",
@@ -29670,6 +32102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring2",
           "package": "hsc3",
@@ -29679,6 +32112,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring2",
           "package": "hsc3",
@@ -29692,6 +32126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring3",
           "package": "hsc3",
@@ -29701,6 +32136,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring3",
           "package": "hsc3",
@@ -29714,6 +32150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring4",
           "package": "hsc3",
@@ -29723,6 +32160,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Ring4",
           "package": "hsc3",
@@ -29736,6 +32174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Round",
           "package": "hsc3",
@@ -29745,6 +32184,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Round",
           "package": "hsc3",
@@ -29758,6 +32198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RoundUp",
           "package": "hsc3",
@@ -29767,6 +32208,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "RoundUp",
           "package": "hsc3",
@@ -29780,6 +32222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SCurve",
           "package": "hsc3",
@@ -29789,6 +32232,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SCurve",
           "package": "hsc3",
@@ -29802,6 +32246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ScaleNeg",
           "package": "hsc3",
@@ -29811,6 +32256,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ScaleNeg",
           "package": "hsc3",
@@ -29824,6 +32270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ShiftLeft",
           "package": "hsc3",
@@ -29833,6 +32280,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ShiftLeft",
           "package": "hsc3",
@@ -29846,6 +32294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ShiftRight",
           "package": "hsc3",
@@ -29855,6 +32304,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "ShiftRight",
           "package": "hsc3",
@@ -29868,6 +32318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sign",
           "package": "hsc3",
@@ -29877,6 +32328,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sign",
           "package": "hsc3",
@@ -29890,6 +32342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Silence",
           "package": "hsc3",
@@ -29899,6 +32352,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Silence",
           "package": "hsc3",
@@ -29912,6 +32366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sin",
           "package": "hsc3",
@@ -29921,6 +32376,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sin",
           "package": "hsc3",
@@ -29934,6 +32390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SinH",
           "package": "hsc3",
@@ -29943,6 +32400,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SinH",
           "package": "hsc3",
@@ -29956,6 +32414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SoftClip",
           "package": "hsc3",
@@ -29965,6 +32424,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SoftClip",
           "package": "hsc3",
@@ -29978,6 +32438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SqrDif",
           "package": "hsc3",
@@ -29987,6 +32448,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SqrDif",
           "package": "hsc3",
@@ -30000,6 +32462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SqrSum",
           "package": "hsc3",
@@ -30009,6 +32472,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SqrSum",
           "package": "hsc3",
@@ -30022,6 +32486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sqrt",
           "package": "hsc3",
@@ -30031,6 +32496,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sqrt",
           "package": "hsc3",
@@ -30044,6 +32510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Squared",
           "package": "hsc3",
@@ -30053,6 +32520,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Squared",
           "package": "hsc3",
@@ -30066,6 +32534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sub",
           "package": "hsc3",
@@ -30075,6 +32544,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sub",
           "package": "hsc3",
@@ -30088,6 +32558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sum3Rand",
           "package": "hsc3",
@@ -30097,6 +32568,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Sum3Rand",
           "package": "hsc3",
@@ -30110,6 +32582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SumSqr",
           "package": "hsc3",
@@ -30119,6 +32592,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "SumSqr",
           "package": "hsc3",
@@ -30132,6 +32606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Tan",
           "package": "hsc3",
@@ -30141,6 +32616,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Tan",
           "package": "hsc3",
@@ -30154,6 +32630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "TanH",
           "package": "hsc3",
@@ -30163,6 +32640,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "TanH",
           "package": "hsc3",
@@ -30176,6 +32654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Thresh",
           "package": "hsc3",
@@ -30185,6 +32664,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Thresh",
           "package": "hsc3",
@@ -30198,6 +32678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Thru",
           "package": "hsc3",
@@ -30207,6 +32688,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Thru",
           "package": "hsc3",
@@ -30220,6 +32702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "TriWindow",
           "package": "hsc3",
@@ -30229,6 +32712,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "TriWindow",
           "package": "hsc3",
@@ -30242,6 +32726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Trunc",
           "package": "hsc3",
@@ -30251,6 +32736,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Trunc",
           "package": "hsc3",
@@ -30264,6 +32750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "UnsignedShift",
           "package": "hsc3",
@@ -30273,6 +32760,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "UnsignedShift",
           "package": "hsc3",
@@ -30286,6 +32774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "WelchWindow",
           "package": "hsc3",
@@ -30295,6 +32784,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "WelchWindow",
           "package": "hsc3",
@@ -30308,6 +32798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Wrap2",
           "package": "hsc3",
@@ -30317,6 +32808,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "Wrap2",
           "package": "hsc3",
@@ -30331,6 +32823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven name of binary operator derive index.\n\u003c/p\u003e\u003cpre\u003e map binaryIndex [\"*\",\"Mul\",\"Ring1\"] == [2,2,30]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryIndex",
           "package": "hsc3",
@@ -30341,6 +32834,7 @@
         "index": {
           "description": "Given name of binary operator derive index map binaryIndex Mul Ring1",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryIndex",
           "normalized": "String-\u003eInt",
@@ -30357,6 +32851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup possibly symbolic name for standard binary operators.\n\u003c/p\u003e\u003cpre\u003e map binaryName [1,2,8] == [\"-\",\"*\",\"\u003c\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryName",
           "package": "hsc3",
@@ -30367,6 +32862,7 @@
         "index": {
           "description": "Lookup possibly symbolic name for standard binary operators map binaryName",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryName",
           "normalized": "Int-\u003eString",
@@ -30383,6 +32879,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of symbolic names for standard binary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryTable",
           "package": "hsc3",
@@ -30393,6 +32890,7 @@
         "index": {
           "description": "Table of symbolic names for standard binary operators",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "binaryTable",
           "normalized": "[(Int,String)]",
@@ -30409,6 +32907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "rlookup",
           "package": "hsc3",
@@ -30419,6 +32918,7 @@
         "index": {
           "description": "Reverse lookup",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "rlookup",
           "normalized": "a-\u003e[(b,a)]-\u003eMaybe b",
@@ -30434,6 +32934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven name of unary operator derive index.\n\u003c/p\u003e\u003cpre\u003e map unaryIndex [\"-\",\"Neg\",\"Cubed\"] == [0,0,13]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryIndex",
           "package": "hsc3",
@@ -30444,6 +32945,7 @@
         "index": {
           "description": "Given name of unary operator derive index map unaryIndex Neg Cubed",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryIndex",
           "normalized": "String-\u003eInt",
@@ -30460,6 +32962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup possibly symbolic name for standard unary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryName",
           "package": "hsc3",
@@ -30470,6 +32973,7 @@
         "index": {
           "description": "Lookup possibly symbolic name for standard unary operators",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryName",
           "normalized": "Int-\u003eString",
@@ -30486,6 +32990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTable of symbolic names for standard unary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryTable",
           "package": "hsc3",
@@ -30496,6 +33001,7 @@
         "index": {
           "description": "Table of symbolic names for standard unary operators",
           "hierarchy": "Sound SC3 UGen Operator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Operator",
           "name": "unaryTable",
           "normalized": "[(Int,String)]",
@@ -30512,6 +33018,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOscillators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "Oscillator",
           "package": "hsc3",
@@ -30521,6 +33028,7 @@
         "index": {
           "description": "Oscillators",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "Oscillator",
           "package": "hsc3",
@@ -30535,6 +33043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand Limited ImPulse generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "blip",
           "package": "hsc3",
@@ -30545,6 +33054,7 @@
         "index": {
           "description": "Band Limited ImPulse generator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "blip",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30560,6 +33070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChorusing wavetable oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "cOsc",
           "package": "hsc3",
@@ -30570,6 +33081,7 @@
         "index": {
           "description": "Chorusing wavetable oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "cOsc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30586,6 +33098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a constant amplitude signal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "dc",
           "package": "hsc3",
@@ -30596,6 +33109,7 @@
         "index": {
           "description": "Create constant amplitude signal",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "dc",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -30611,6 +33125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast sine wave oscillator implemented using a ringing filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "fSinOsc",
           "package": "hsc3",
@@ -30621,6 +33136,7 @@
         "index": {
           "description": "Fast sine wave oscillator implemented using ringing filter",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "fSinOsc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30637,6 +33153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormant oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "formant",
           "package": "hsc3",
@@ -30647,6 +33164,7 @@
         "index": {
           "description": "Formant oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "formant",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30662,6 +33180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic stochastic synthesis generator conceived by Iannis Xenakis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "gendy1",
           "package": "hsc3",
@@ -30672,6 +33191,7 @@
         "index": {
           "description": "Dynamic stochastic synthesis generator conceived by Iannis Xenakis",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "gendy1",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30687,6 +33207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImpulse oscillator (non band limited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "impulse",
           "package": "hsc3",
@@ -30697,6 +33218,7 @@
         "index": {
           "description": "Impulse oscillator non band limited",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "impulse",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30712,6 +33234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBank of fixed oscillators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klang",
           "package": "hsc3",
@@ -30722,6 +33245,7 @@
         "index": {
           "description": "Bank of fixed oscillators",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klang",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30737,6 +33261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFormat frequency, amplitude and phase data as required for klang.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec",
           "package": "hsc3",
@@ -30747,6 +33272,7 @@
         "index": {
           "description": "Format frequency amplitude and phase data as required for klang",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec",
           "normalized": "[UGen]-\u003e[UGen]-\u003e[UGen]-\u003eUGen",
@@ -30763,6 +33289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eklangSpec\u003c/a\u003e\u003c/code\u003e for non-UGen inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec'",
           "package": "hsc3",
@@ -30773,6 +33300,7 @@
         "index": {
           "description": "Variant of klangSpec for non-UGen inputs",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec'",
           "normalized": "[a]-\u003e[a]-\u003e[a]-\u003eUGen",
@@ -30789,6 +33317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003eklangSpec\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003eMCE\u003c/code\u003e inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec_mce",
           "package": "hsc3",
@@ -30799,6 +33328,7 @@
         "index": {
           "description": "Variant of klangSpec for MCE inputs",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "klangSpec_mce",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30815,6 +33345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sine like shape made of two cubic pieces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfCub",
           "package": "hsc3",
@@ -30825,6 +33356,7 @@
         "index": {
           "description": "sine like shape made of two cubic pieces",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfCub",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30841,6 +33373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGaussian function oscillator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfGauss",
           "package": "hsc3",
@@ -30851,6 +33384,7 @@
         "index": {
           "description": "Gaussian function oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfGauss",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eLoop-\u003eDoneAction-\u003eUGen",
@@ -30867,6 +33401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sine like shape made of two cubic pieces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfPar",
           "package": "hsc3",
@@ -30877,6 +33412,7 @@
         "index": {
           "description": "sine like shape made of two cubic pieces",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfPar",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30893,6 +33429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePulse oscillator (non band limited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfPulse",
           "package": "hsc3",
@@ -30903,6 +33440,7 @@
         "index": {
           "description": "Pulse oscillator non band limited",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfPulse",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30919,6 +33457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSawtooth oscillator (non band limited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfSaw",
           "package": "hsc3",
@@ -30929,6 +33468,7 @@
         "index": {
           "description": "Sawtooth oscillator non band limited",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfSaw",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30945,6 +33485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSawtooth oscillator (non band limited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfTri",
           "package": "hsc3",
@@ -30955,6 +33496,7 @@
         "index": {
           "description": "Sawtooth oscillator non band limited",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "lfTri",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30971,6 +33513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered linear ramp between two levels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "phasor",
           "package": "hsc3",
@@ -30981,6 +33524,7 @@
         "index": {
           "description": "Triggered linear ramp between two levels",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "phasor",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -30996,6 +33540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBand limited pulse wave.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "pulse",
           "package": "hsc3",
@@ -31006,6 +33551,7 @@
         "index": {
           "description": "Band limited pulse wave",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "pulse",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31021,6 +33567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSawtooth oscillator (band limited).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "saw",
           "package": "hsc3",
@@ -31031,6 +33578,7 @@
         "index": {
           "description": "Sawtooth oscillator band limited",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "saw",
           "normalized": "Rate-\u003eUGen-\u003eUGen",
@@ -31046,6 +33594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSine oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "sinOsc",
           "package": "hsc3",
@@ -31056,6 +33605,7 @@
         "index": {
           "description": "Sine oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "sinOsc",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31072,6 +33622,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFeedback FM oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "sinOscFB",
           "package": "hsc3",
@@ -31082,6 +33633,7 @@
         "index": {
           "description": "Feedback FM oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "sinOscFB",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31098,6 +33650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSawtooth oscillator hard synched to a fundamental.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "syncSaw",
           "package": "hsc3",
@@ -31108,6 +33661,7 @@
         "index": {
           "description": "Sawtooth oscillator hard synched to fundamental",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "syncSaw",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31124,6 +33678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariable duty sawtooth oscillator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "varSaw",
           "package": "hsc3",
@@ -31134,6 +33689,7 @@
         "index": {
           "description": "Variable duty sawtooth oscillator",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "varSaw",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31150,6 +33706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Vibrato oscillator models a slow frequency modulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "vibrato",
           "package": "hsc3",
@@ -31160,6 +33717,7 @@
         "index": {
           "description": "The Vibrato oscillator models slow frequency modulation",
           "hierarchy": "Sound SC3 UGen Oscillator",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Oscillator",
           "name": "vibrato",
           "normalized": "Rate-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31175,6 +33733,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSound field location and analysis unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "Panner",
           "package": "hsc3",
@@ -31184,6 +33743,7 @@
         "index": {
           "description": "Sound field location and analysis unit generators",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "Panner",
           "package": "hsc3",
@@ -31198,6 +33758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStereo signal balancer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "balance2",
           "package": "hsc3",
@@ -31208,6 +33769,7 @@
         "index": {
           "description": "Stereo signal balancer",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "balance2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31223,6 +33785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D Ambisonic B-format panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "biPanB2",
           "package": "hsc3",
@@ -31233,6 +33796,7 @@
         "index": {
           "description": "Ambisonic B-format panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "biPanB2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31249,6 +33813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D Ambisonic B-format decoder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "decodeB2",
           "package": "hsc3",
@@ -31259,6 +33824,7 @@
         "index": {
           "description": "Ambisonic B-format decoder",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "decodeB2",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31274,6 +33840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo channel linear pan.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "linPan2",
           "package": "hsc3",
@@ -31284,6 +33851,7 @@
         "index": {
           "description": "Two channel linear pan",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "linPan2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31300,6 +33868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo channel linear crossfade.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "linXFade2",
           "package": "hsc3",
@@ -31310,6 +33879,7 @@
         "index": {
           "description": "Two channel linear crossfade",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "linXFade2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31326,6 +33896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo channel equal power panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "pan2",
           "package": "hsc3",
@@ -31336,6 +33907,7 @@
         "index": {
           "description": "Two channel equal power panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "pan2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31351,6 +33923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFour channel equal power panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "pan4",
           "package": "hsc3",
@@ -31361,6 +33934,7 @@
         "index": {
           "description": "Four channel equal power panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "pan4",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31376,6 +33950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAzimuth panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panAz",
           "package": "hsc3",
@@ -31386,6 +33961,7 @@
         "index": {
           "description": "Azimuth panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panAz",
           "normalized": "Int-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31402,6 +33978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAmbisonic B-format panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panB",
           "package": "hsc3",
@@ -31412,6 +33989,7 @@
         "index": {
           "description": "Ambisonic B-format panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panB",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31427,6 +34005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D Ambisonic B-format panner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panB2",
           "package": "hsc3",
@@ -31437,6 +34016,7 @@
         "index": {
           "description": "Ambisonic B-format panner",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "panB2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31452,6 +34032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a sound field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "rotate2",
           "package": "hsc3",
@@ -31462,6 +34043,7 @@
         "index": {
           "description": "Rotate sound field",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "rotate2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31477,6 +34059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEqual power two channel cross fade.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Panner",
           "name": "xFade2",
           "package": "hsc3",
@@ -31487,6 +34070,7 @@
         "index": {
           "description": "Equal power two channel cross fade",
           "hierarchy": "Sound SC3 UGen Panner",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Panner",
           "name": "xFade2",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31503,6 +34087,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePlain UGen constructor functions.\n\u003c/p\u003e\u003cpre\u003e let {s = ugen \"SinOsc\" AR [440,0] 1\n     ;m = binop \"*\" AR s 0.1\n     ;o = ugen \"Out\" AR [0,m] 0}\n in Sound.SC3.Server.Play.audition o \u003e\u003e Sound.SC3.UGen.Dot.draw o\n\u003c/pre\u003e\u003cpre\u003e audition (out 0 (sinOsc AR 440 0 * 0.1))\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "Plain",
           "package": "hsc3",
@@ -31512,6 +34097,7 @@
         "index": {
           "description": "Plain UGen constructor functions let ugen SinOsc AR binop AR ugen Out AR in Sound.SC3.Server.Play.audition Sound.SC3.UGen.Dot.draw audition out sinOsc AR",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "Plain",
           "package": "hsc3",
@@ -31526,6 +34112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct binary operator, the name can textual or symbolic.\n\u003c/p\u003e\u003cpre\u003e binop \"*\" AR 1 2 == binop \"Mul\" AR 1 2\n binop \"*\" AR (ugen \"SinOsc\" AR [440,0] 1) 0.1 == sinOsc AR 440 0 * 0.1\n ugenName (binop \"*\" AR 1 2) == \"BinaryOpUGen\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "binop",
           "package": "hsc3",
@@ -31536,6 +34123,7 @@
         "index": {
           "description": "Construct binary operator the name can textual or symbolic binop AR binop Mul AR binop AR ugen SinOsc AR sinOsc AR ugenName binop AR BinaryOpUGen",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "binop",
           "normalized": "String-\u003eRate-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -31551,6 +34139,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003emkUGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "mk_plain",
           "package": "hsc3",
@@ -31561,6 +34150,7 @@
         "index": {
           "description": "Variant of mkUGen",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "mk_plain",
           "normalized": "Rate-\u003eString-\u003e[UGen]-\u003eInt-\u003eSpecial-\u003eUGenId-\u003eUGen",
@@ -31576,6 +34166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct non-deterministic UGen.\n\u003c/p\u003e\u003cpre\u003e import Sound.SC3.ID\n nondet \"WhiteNoise\" (UId (fromEnum 'a')) AR [] 1 == whiteNoise 'a' AR\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "nondet",
           "package": "hsc3",
@@ -31586,6 +34177,7 @@
         "index": {
           "description": "Construct non-deterministic UGen import Sound.SC3.ID nondet WhiteNoise UId fromEnum AR whiteNoise AR",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "nondet",
           "normalized": "String-\u003eUGenId-\u003eRate-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -31601,6 +34193,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct deterministic UGen.\n\u003c/p\u003e\u003cpre\u003e let o = ugen \"SinOsc\" AR [440,0] 1\n o == sinOsc AR 440 0\n ugen \"Out\" AR [0,o] 0 == out 0 (sinOsc AR 440 0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "ugen",
           "package": "hsc3",
@@ -31611,6 +34204,7 @@
         "index": {
           "description": "Construct deterministic UGen let ugen SinOsc AR sinOsc AR ugen Out AR out sinOsc AR",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "ugen",
           "normalized": "String-\u003eRate-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -31626,6 +34220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct unary operator, the name can textual or symbolic.\n\u003c/p\u003e\u003cpre\u003e uop \"-\" AR 1 == uop \"Neg\" AR 1\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Plain",
           "name": "uop",
           "package": "hsc3",
@@ -31636,6 +34231,7 @@
         "index": {
           "description": "Construct unary operator the name can textual or symbolic uop AR uop Neg AR",
           "hierarchy": "Sound SC3 UGen Plain",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Plain",
           "name": "uop",
           "normalized": "String-\u003eRate-\u003eUGen-\u003eUGen",
@@ -31651,6 +34247,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions to re-write assigned node identifiers at UGen graphs.\n Used carefully it allows for composition of sub-graphs with\n psuedo-random nodes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "Protect",
           "package": "hsc3",
@@ -31660,6 +34257,7 @@
         "index": {
           "description": "Functions to re-write assigned node identifiers at UGen graphs Used carefully it allows for composition of sub-graphs with psuedo-random nodes",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "Protect",
           "package": "hsc3",
@@ -31674,6 +34272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply \u003cem\u003ef\u003c/em\u003e at \u003ccode\u003e\u003ca\u003eUId\u003c/a\u003e\u003c/code\u003e, or no-op at \u003ccode\u003e\u003ca\u003eNoId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "atUGenId",
           "package": "hsc3",
@@ -31684,6 +34283,7 @@
         "index": {
           "description": "Apply at UId or no-op at NoId",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "atUGenId",
           "normalized": "(Int-\u003eInt)-\u003eUGenId-\u003eUGenId",
@@ -31700,6 +34300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003emce\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003euclone'\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uclone",
           "package": "hsc3",
@@ -31710,6 +34311,7 @@
         "index": {
           "description": "mce variant of uclone",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uclone",
           "normalized": "a-\u003eInt-\u003eUGen-\u003eUGen",
@@ -31725,6 +34327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003cem\u003en\u003c/em\u003e parallel instances of \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e with protected identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uclone'",
           "package": "hsc3",
@@ -31735,6 +34338,7 @@
         "index": {
           "description": "Make parallel instances of UGen with protected identifiers",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uclone'",
           "normalized": "a-\u003eInt-\u003eUGen-\u003e[UGen]",
@@ -31750,6 +34354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft to right UGen function composition with \u003ccode\u003e\u003ca\u003eUGenId\u003c/a\u003e\u003c/code\u003e protection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "ucompose",
           "package": "hsc3",
@@ -31760,6 +34365,7 @@
         "index": {
           "description": "Left to right UGen function composition with UGenId protection",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "ucompose",
           "normalized": "a-\u003e[UGen-\u003eUGen]-\u003eUGen-\u003eUGen",
@@ -31775,6 +34381,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollect Ids at UGen graph\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "ugenIds",
           "package": "hsc3",
@@ -31785,6 +34392,7 @@
         "index": {
           "description": "Collect Ids at UGen graph",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "ugenIds",
           "normalized": "UGen-\u003e[UGenId]",
@@ -31801,6 +34409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd \u003ccode\u003e\u003ca\u003eidHash\u003c/a\u003e\u003c/code\u003e of \u003cem\u003ee\u003c/em\u003e to all \u003ccode\u003e\u003ca\u003ePrimitive_U\u003c/a\u003e\u003c/code\u003e at \u003cem\u003eu\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uprotect",
           "package": "hsc3",
@@ -31811,6 +34420,7 @@
         "index": {
           "description": "Add idHash of to all Primitive at",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uprotect",
           "normalized": "a-\u003eUGen-\u003eUGen",
@@ -31826,6 +34436,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant of \u003ccode\u003e\u003ca\u003euprotect\u003c/a\u003e\u003c/code\u003e with subsequent identifiers derived by\n incrementing initial identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uprotect'",
           "package": "hsc3",
@@ -31836,6 +34447,7 @@
         "index": {
           "description": "Variant of uprotect with subsequent identifiers derived by incrementing initial identifier",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "uprotect'",
           "normalized": "a-\u003e[UGen]-\u003e[UGen]",
@@ -31851,6 +34463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake \u003cem\u003en\u003c/em\u003e sequential instances of \u003ccode\u003ef\u003c/code\u003e with protected Ids.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Protect",
           "name": "useq",
           "package": "hsc3",
@@ -31861,6 +34474,7 @@
         "index": {
           "description": "Make sequential instances of with protected Ids",
           "hierarchy": "Sound SC3 UGen Protect",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Protect",
           "name": "useq",
           "normalized": "a-\u003eInt-\u003e(UGen-\u003eUGen)-\u003eUGen-\u003eUGen",
@@ -31876,6 +34490,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOperating rate definitions and utilities.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "Rate",
           "package": "hsc3",
@@ -31885,6 +34500,7 @@
         "index": {
           "description": "Operating rate definitions and utilities",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "Rate",
           "package": "hsc3",
@@ -31899,6 +34515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperating rate of unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "Rate",
           "package": "hsc3",
@@ -31908,6 +34525,7 @@
         "index": {
           "description": "Operating rate of unit generator",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "Rate",
           "package": "hsc3",
@@ -31921,6 +34539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "AR",
           "package": "hsc3",
@@ -31930,6 +34549,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "AR",
           "package": "hsc3",
@@ -31943,6 +34563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "DR",
           "package": "hsc3",
@@ -31952,6 +34573,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "DR",
           "package": "hsc3",
@@ -31965,6 +34587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "IR",
           "package": "hsc3",
@@ -31974,6 +34597,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "IR",
           "package": "hsc3",
@@ -31987,6 +34611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "KR",
           "package": "hsc3",
@@ -31996,6 +34621,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "KR",
           "package": "hsc3",
@@ -32010,6 +34636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet of all \u003ccode\u003e\u003ca\u003eRate\u003c/a\u003e\u003c/code\u003e values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "all_rates",
           "package": "hsc3",
@@ -32020,6 +34647,7 @@
         "index": {
           "description": "Set of all Rate values",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "all_rates",
           "normalized": "[Rate]",
@@ -32035,6 +34663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInteger rate identifier, as required for scsynth bytecode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rateId",
           "package": "hsc3",
@@ -32045,6 +34674,7 @@
         "index": {
           "description": "Integer rate identifier as required for scsynth bytecode",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rateId",
           "normalized": "Rate-\u003eInt",
@@ -32061,6 +34691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eColor identifiers for each \u003ccode\u003e\u003ca\u003eRate\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rate_color",
           "package": "hsc3",
@@ -32071,6 +34702,7 @@
         "index": {
           "description": "Color identifiers for each Rate",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rate_color",
           "normalized": "Rate-\u003eString",
@@ -32086,6 +34718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRates as ordered for filter rate selection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rate_ord",
           "package": "hsc3",
@@ -32096,6 +34729,7 @@
         "index": {
           "description": "Rates as ordered for filter rate selection",
           "hierarchy": "Sound SC3 UGen Rate",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Rate",
           "name": "rate_ord",
           "normalized": "Rate-\u003eInt",
@@ -32110,6 +34744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Type",
           "package": "hsc3",
@@ -32118,6 +34753,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Type",
           "package": "hsc3",
@@ -32132,6 +34768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstants.\n\u003c/p\u003e\u003cpre\u003e Constant 3 == Constant 3\n (Constant 3 \u003e Constant 1) == True\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant",
           "package": "hsc3",
@@ -32141,6 +34778,7 @@
         "index": {
           "description": "Constants Constant Constant Constant Constant True",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant",
           "package": "hsc3",
@@ -32155,6 +34793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control",
           "package": "hsc3",
@@ -32164,6 +34803,7 @@
         "index": {
           "description": "Control inputs",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control",
           "package": "hsc3",
@@ -32178,6 +34818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLabels.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label",
           "package": "hsc3",
@@ -32187,6 +34828,7 @@
         "index": {
           "description": "Labels",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label",
           "package": "hsc3",
@@ -32201,6 +34843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple root graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG",
           "package": "hsc3",
@@ -32210,6 +34853,7 @@
         "index": {
           "description": "Multiple root graph",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG",
           "package": "hsc3",
@@ -32224,6 +34868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit generator output descriptor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Output",
           "package": "hsc3",
@@ -32233,6 +34878,7 @@
         "index": {
           "description": "Unit generator output descriptor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Output",
           "package": "hsc3",
@@ -32247,6 +34893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUGen primitives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive",
           "package": "hsc3",
@@ -32256,6 +34903,7 @@
         "index": {
           "description": "UGen primitives",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive",
           "package": "hsc3",
@@ -32270,6 +34918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxy to multiple channel input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy",
           "package": "hsc3",
@@ -32279,6 +34928,7 @@
         "index": {
           "description": "Proxy to multiple channel input",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy",
           "package": "hsc3",
@@ -32293,6 +34943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperating mode of unary and binary operators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Special",
           "package": "hsc3",
@@ -32302,6 +34953,7 @@
         "index": {
           "description": "Operating mode of unary and binary operators",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Special",
           "package": "hsc3",
@@ -32316,6 +34968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnion type of Unit Generator forms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "UGen",
           "package": "hsc3",
@@ -32325,6 +34978,7 @@
         "index": {
           "description": "Union type of Unit Generator forms",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "UGen",
           "package": "hsc3",
@@ -32339,6 +34993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type for internalised identifier at \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "UGenId",
           "package": "hsc3",
@@ -32348,6 +35003,7 @@
         "index": {
           "description": "Data type for internalised identifier at UGen",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "UGenId",
           "package": "hsc3",
@@ -32361,6 +35017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant",
           "package": "hsc3",
@@ -32370,6 +35027,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant",
           "package": "hsc3",
@@ -32383,6 +35041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant_U",
           "package": "hsc3",
@@ -32392,6 +35051,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Constant_U",
           "package": "hsc3",
@@ -32405,6 +35065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control",
           "package": "hsc3",
@@ -32414,6 +35075,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control",
           "package": "hsc3",
@@ -32427,6 +35089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control_U",
           "package": "hsc3",
@@ -32436,6 +35099,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Control_U",
           "package": "hsc3",
@@ -32449,6 +35113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label",
           "package": "hsc3",
@@ -32458,6 +35123,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label",
           "package": "hsc3",
@@ -32471,6 +35137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label_U",
           "package": "hsc3",
@@ -32480,6 +35147,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Label_U",
           "package": "hsc3",
@@ -32493,6 +35161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "MCE_U",
           "package": "hsc3",
@@ -32502,6 +35171,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "MCE_U",
           "package": "hsc3",
@@ -32515,6 +35185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG",
           "package": "hsc3",
@@ -32524,6 +35195,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG",
           "package": "hsc3",
@@ -32537,6 +35209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG_U",
           "package": "hsc3",
@@ -32546,6 +35219,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "MRG_U",
           "package": "hsc3",
@@ -32559,6 +35233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "NoId",
           "package": "hsc3",
@@ -32568,6 +35243,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "NoId",
           "package": "hsc3",
@@ -32581,6 +35257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive",
           "package": "hsc3",
@@ -32590,6 +35267,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive",
           "package": "hsc3",
@@ -32603,6 +35281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive_U",
           "package": "hsc3",
@@ -32612,6 +35291,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Primitive_U",
           "package": "hsc3",
@@ -32625,6 +35305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy",
           "package": "hsc3",
@@ -32634,6 +35315,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy",
           "package": "hsc3",
@@ -32647,6 +35329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy_U",
           "package": "hsc3",
@@ -32656,6 +35339,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Proxy_U",
           "package": "hsc3",
@@ -32669,6 +35353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "Special",
           "package": "hsc3",
@@ -32678,6 +35363,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "Special",
           "package": "hsc3",
@@ -32691,6 +35377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "UId",
           "package": "hsc3",
@@ -32700,6 +35387,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "UId",
           "package": "hsc3",
@@ -32714,6 +35402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure input \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e is valid, ie. not a sink.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "checkInput",
           "package": "hsc3",
@@ -32724,6 +35413,7 @@
         "index": {
           "description": "Ensure input UGen is valid ie not sink",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "checkInput",
           "normalized": "UGen-\u003eUGen",
@@ -32740,6 +35430,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant value node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "constant",
           "package": "hsc3",
@@ -32750,6 +35441,7 @@
         "index": {
           "description": "Constant value node constructor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "constant",
           "normalized": "a-\u003eUGen",
@@ -32764,6 +35456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "constantValue",
           "package": "hsc3",
@@ -32773,6 +35466,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "constantValue",
           "package": "hsc3",
@@ -32786,6 +35480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlDefault",
           "package": "hsc3",
@@ -32795,6 +35490,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlDefault",
           "package": "hsc3",
@@ -32808,6 +35504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlName",
           "package": "hsc3",
@@ -32817,6 +35514,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlName",
           "package": "hsc3",
@@ -32830,6 +35528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlOperatingRate",
           "package": "hsc3",
@@ -32839,6 +35538,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlOperatingRate",
           "package": "hsc3",
@@ -32852,6 +35552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlTriggered",
           "package": "hsc3",
@@ -32861,6 +35562,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "controlTriggered",
           "package": "hsc3",
@@ -32875,6 +35577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHash function for unit generators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "hashUGen",
           "package": "hsc3",
@@ -32885,6 +35588,7 @@
         "index": {
           "description": "Hash function for unit generators",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "hashUGen",
           "normalized": "UGen-\u003eInt",
@@ -32901,6 +35605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstant node predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "isConstant",
           "package": "hsc3",
@@ -32911,6 +35616,7 @@
         "index": {
           "description": "Constant node predicate",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "isConstant",
           "normalized": "UGen-\u003eBool",
@@ -32927,6 +35633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple channel expansion node (\u003ccode\u003e\u003ca\u003eMCE_U\u003c/a\u003e\u003c/code\u003e) predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "isMCE",
           "package": "hsc3",
@@ -32937,6 +35644,7 @@
         "index": {
           "description": "Multiple channel expansion node MCE predicate",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "isMCE",
           "normalized": "UGen-\u003eBool",
@@ -32953,6 +35661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if input is a sink \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e, ie. has no outputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "isSink",
           "package": "hsc3",
@@ -32963,6 +35672,7 @@
         "index": {
           "description": "True if input is sink UGen ie has no outputs",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "isSink",
           "normalized": "UGen-\u003eBool",
@@ -32979,6 +35689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple channel expansion node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mce",
           "package": "hsc3",
@@ -32989,6 +35700,7 @@
         "index": {
           "description": "Multiple channel expansion node constructor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mce",
           "normalized": "[UGen]-\u003eUGen",
@@ -33004,6 +35716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a UGen after MCE transformation of inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceBuild",
           "package": "hsc3",
@@ -33014,6 +35727,7 @@
         "index": {
           "description": "Build UGen after MCE transformation of inputs",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceBuild",
           "normalized": "([UGen]-\u003eUGen)-\u003e[UGen]-\u003eUGen",
@@ -33030,6 +35744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput channels of UGen as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceChannels",
           "package": "hsc3",
@@ -33040,6 +35755,7 @@
         "index": {
           "description": "Output channels of UGen as list",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceChannels",
           "normalized": "UGen-\u003e[UGen]",
@@ -33056,6 +35772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of channels to expand to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceDegree",
           "package": "hsc3",
@@ -33066,6 +35783,7 @@
         "index": {
           "description": "Number of channels to expand to",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceDegree",
           "normalized": "UGen-\u003eInt",
@@ -33082,6 +35800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend UGen to specified degree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceExtend",
           "package": "hsc3",
@@ -33092,6 +35811,7 @@
         "index": {
           "description": "Extend UGen to specified degree",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceExtend",
           "normalized": "Int-\u003eUGen-\u003e[UGen]",
@@ -33108,6 +35828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply MCE transform to a list of inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceInputTransform",
           "package": "hsc3",
@@ -33118,6 +35839,7 @@
         "index": {
           "description": "Apply MCE transform to list of inputs",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceInputTransform",
           "normalized": "[UGen]-\u003eMaybe[[UGen]]",
@@ -33134,6 +35856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType specified \u003ccode\u003e\u003ca\u003emce_elem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceProxies",
           "package": "hsc3",
@@ -33144,6 +35867,7 @@
         "index": {
           "description": "Type specified mce elem",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mceProxies",
           "normalized": "MCE UGen-\u003e[UGen]",
@@ -33160,6 +35884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary math constructor with constant optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkBinaryOperator",
           "package": "hsc3",
@@ -33170,6 +35895,7 @@
         "index": {
           "description": "Binary math constructor with constant optimization",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkBinaryOperator",
           "normalized": "Binary-\u003e(Float-\u003eFloat-\u003eFloat)-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -33186,6 +35912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary math constructor with constant optimization.\n\u003c/p\u003e\u003cpre\u003e let o = sinOsc AR 440 0\n\u003c/pre\u003e\u003cpre\u003e o * 1 == o && 1 * o == o && o * 2 /= o\n o + 0 == o && 0 + o == o && o + 1 /= o\n o - 0 == o && 0 - o /= o\n o / 1 == o && 1 / o /= o\n o ** 1 == o && o ** 2 /= o\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkBinaryOperator_optimize",
           "package": "hsc3",
@@ -33196,6 +35923,7 @@
         "index": {
           "description": "Binary math constructor with constant optimization let sinOsc AR",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkBinaryOperator_optimize",
           "normalized": "Binary-\u003e(Float-\u003eFloat-\u003eFloat)-\u003e(Either Float Float-\u003eBool)-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -33212,6 +35940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOperator UGen constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkOperator",
           "package": "hsc3",
@@ -33222,6 +35951,7 @@
         "index": {
           "description": "Operator UGen constructor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkOperator",
           "normalized": "([Float]-\u003eFloat)-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -33238,6 +35968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct proxied and multiple channel expanded UGen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkUGen",
           "package": "hsc3",
@@ -33248,6 +35979,7 @@
         "index": {
           "description": "Construct proxied and multiple channel expanded UGen",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkUGen",
           "normalized": "Maybe([Float]-\u003eFloat)-\u003e[Rate]-\u003eMaybe Rate-\u003eString-\u003e[UGen]-\u003eInt-\u003eSpecial-\u003eUGenId-\u003eUGen",
@@ -33264,6 +35996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary math constructor with constant optimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkUnaryOperator",
           "package": "hsc3",
@@ -33274,6 +36007,7 @@
         "index": {
           "description": "Unary math constructor with constant optimization",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mkUnaryOperator",
           "normalized": "Unary-\u003e(Float-\u003eFloat)-\u003eUGen-\u003eUGen",
@@ -33290,6 +36024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple root graph constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrg",
           "package": "hsc3",
@@ -33300,6 +36035,7 @@
         "index": {
           "description": "Multiple root graph constructor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrg",
           "normalized": "[UGen]-\u003eUGen",
@@ -33314,6 +36050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrgLeft",
           "package": "hsc3",
@@ -33323,6 +36060,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrgLeft",
           "package": "hsc3",
@@ -33336,6 +36074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrgRight",
           "package": "hsc3",
@@ -33345,6 +36084,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "mrgRight",
           "package": "hsc3",
@@ -33359,6 +36099,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply proxy transformation if required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxify",
           "package": "hsc3",
@@ -33369,6 +36110,7 @@
         "index": {
           "description": "Apply proxy transformation if required",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxify",
           "normalized": "UGen-\u003eUGen",
@@ -33384,6 +36126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnit generator proxy node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxy",
           "package": "hsc3",
@@ -33394,6 +36137,7 @@
         "index": {
           "description": "Unit generator proxy node constructor",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxy",
           "normalized": "UGen-\u003eInt-\u003eUGen",
@@ -33408,6 +36152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxyIndex",
           "package": "hsc3",
@@ -33417,6 +36162,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxyIndex",
           "package": "hsc3",
@@ -33430,6 +36176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxySource",
           "package": "hsc3",
@@ -33439,6 +36186,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "proxySource",
           "package": "hsc3",
@@ -33453,6 +36201,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine the rate of a UGen.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "rateOf",
           "package": "hsc3",
@@ -33463,6 +36212,7 @@
         "index": {
           "description": "Determine the rate of UGen",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "rateOf",
           "normalized": "UGen-\u003eRate",
@@ -33479,6 +36229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue of \u003ccode\u003e\u003ca\u003eConstant_U\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eConstant\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "u_constant",
           "package": "hsc3",
@@ -33489,6 +36240,7 @@
         "index": {
           "description": "Value of Constant Constant",
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "u_constant",
           "normalized": "UGen-\u003eFloat",
@@ -33503,6 +36255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenId",
           "package": "hsc3",
@@ -33512,6 +36265,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenId",
           "package": "hsc3",
@@ -33525,6 +36279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenInputs",
           "package": "hsc3",
@@ -33534,6 +36289,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenInputs",
           "normalized": "[UGen]",
@@ -33549,6 +36305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenLabel",
           "package": "hsc3",
@@ -33558,6 +36315,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenLabel",
           "package": "hsc3",
@@ -33571,6 +36329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenName",
           "package": "hsc3",
@@ -33580,6 +36339,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenName",
           "package": "hsc3",
@@ -33593,6 +36353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenOutputs",
           "package": "hsc3",
@@ -33602,6 +36363,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenOutputs",
           "normalized": "[Output]",
@@ -33617,6 +36379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenRate",
           "package": "hsc3",
@@ -33626,6 +36389,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenRate",
           "package": "hsc3",
@@ -33639,6 +36403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenSpecial",
           "package": "hsc3",
@@ -33648,6 +36413,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen Type",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Type",
           "name": "ugenSpecial",
           "package": "hsc3",
@@ -33662,6 +36428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUGen data structure representation and associated functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "UGen",
           "package": "hsc3",
@@ -33671,6 +36438,7 @@
         "index": {
           "description": "UGen data structure representation and associated functions",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "UGen",
           "package": "hsc3",
@@ -33684,6 +36452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "(.\u003c\u003c.)",
           "package": "hsc3",
@@ -33693,6 +36462,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "(.\u003c\u003c.) .\u003c\u003c.",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33707,6 +36477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "(.\u003e\u003e.)",
           "package": "hsc3",
@@ -33716,6 +36487,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "(.\u003e\u003e.) .\u003e\u003e.",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33730,6 +36502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitAnd",
           "package": "hsc3",
@@ -33739,6 +36512,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitAnd",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33754,6 +36528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitNot",
           "package": "hsc3",
@@ -33763,6 +36538,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitNot",
           "normalized": "UGen-\u003eUGen",
@@ -33778,6 +36554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitOr",
           "package": "hsc3",
@@ -33787,6 +36564,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitOr",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33802,6 +36580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitXOr",
           "package": "hsc3",
@@ -33811,6 +36590,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "bitXOr",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33827,6 +36607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl input node constructor.\n\u003c/p\u003e\u003cp\u003eNote that if the name begins with a t_ prefix the control is \u003cem\u003enot\u003c/em\u003e\n converted to a triggered control.  Please see tr_control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "control",
           "package": "hsc3",
@@ -33837,6 +36618,7 @@
         "index": {
           "description": "Control input node constructor Note that if the name begins with prefix the control is not converted to triggered control Please see tr control",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "control",
           "normalized": "Rate-\u003eString-\u003eDouble-\u003eUGen",
@@ -33852,6 +36634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eControl input node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "control_f32",
           "package": "hsc3",
@@ -33862,6 +36645,7 @@
         "index": {
           "description": "Control input node constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "control_f32",
           "normalized": "Rate-\u003eString-\u003eFloat-\u003eUGen",
@@ -33877,6 +36661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAre lists of equal length?\n\u003c/p\u003e\u003cpre\u003e equal_length_p [\"t1\",\"t2\"] == True\n equal_length_p [\"t\",\"t1\",\"t2\"] == False\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "equal_length_p",
           "package": "hsc3",
@@ -33887,6 +36672,7 @@
         "index": {
           "description": "Are lists of equal length equal length t1 t2 True equal length t1 t2 False",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "equal_length_p",
           "normalized": "[[a]]-\u003eBool",
@@ -33902,6 +36688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e to a UGen label (ie. for \u003ccode\u003epoll\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "label",
           "package": "hsc3",
@@ -33912,6 +36699,7 @@
         "index": {
           "description": "Lift String to UGen label ie for poll",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "label",
           "normalized": "String-\u003eUGen",
@@ -33927,6 +36715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple channel expansion for two inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce2",
           "package": "hsc3",
@@ -33937,6 +36726,7 @@
         "index": {
           "description": "Multiple channel expansion for two inputs",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce2",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -33952,6 +36742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract two channels from possible MCE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce2c",
           "package": "hsc3",
@@ -33962,6 +36753,7 @@
         "index": {
           "description": "Extract two channels from possible MCE",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce2c",
           "normalized": "UGen-\u003e(UGen,UGen)",
@@ -33977,6 +36769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple channel expansion for two inputs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce3",
           "package": "hsc3",
@@ -33987,6 +36780,7 @@
         "index": {
           "description": "Multiple channel expansion for two inputs",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mce3",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -34002,6 +36796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain indexed channel at MCE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceChannel",
           "package": "hsc3",
@@ -34012,6 +36807,7 @@
         "index": {
           "description": "Obtain indexed channel at MCE",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceChannel",
           "normalized": "Int-\u003eUGen-\u003eUGen",
@@ -34028,6 +36824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply UGen list operation on MCE contents.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceEdit",
           "package": "hsc3",
@@ -34038,6 +36835,7 @@
         "index": {
           "description": "Apply UGen list operation on MCE contents",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceEdit",
           "normalized": "([UGen]-\u003e[UGen])-\u003eUGen-\u003eUGen",
@@ -34054,6 +36852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to each channel at a unit generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceMap",
           "package": "hsc3",
@@ -34064,6 +36863,7 @@
         "index": {
           "description": "Apply function to each channel at unit generator",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceMap",
           "normalized": "(UGen-\u003eUGen)-\u003eUGen-\u003eUGen",
@@ -34080,6 +36880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse order of channels at MCE.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceReverse",
           "package": "hsc3",
@@ -34090,6 +36891,7 @@
         "index": {
           "description": "Reverse order of channels at MCE",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceReverse",
           "normalized": "UGen-\u003eUGen",
@@ -34106,6 +36908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollapse mce by summing (see also mix and mixN).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceSum",
           "package": "hsc3",
@@ -34116,6 +36919,7 @@
         "index": {
           "description": "Collapse mce by summing see also mix and mixN",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceSum",
           "normalized": "UGen-\u003eUGen",
@@ -34132,6 +36936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose rows and columns, ie. {{a,b},{c,d}} to {{a,c},{b,d}}.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceTranspose",
           "package": "hsc3",
@@ -34142,6 +36947,7 @@
         "index": {
           "description": "Transpose rows and columns ie to",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mceTranspose",
           "normalized": "UGen-\u003eUGen",
@@ -34158,6 +36964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilter",
           "package": "hsc3",
@@ -34168,6 +36975,7 @@
         "index": {
           "description": "Filter UGen constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilter",
           "normalized": "String-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34184,6 +36992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter UGen constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterId",
           "package": "hsc3",
@@ -34194,6 +37003,7 @@
         "index": {
           "description": "Filter UGen constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterId",
           "normalized": "a-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34210,6 +37020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant filter with rate derived from keyed input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterKeyed",
           "package": "hsc3",
@@ -34220,6 +37031,7 @@
         "index": {
           "description": "Variant filter with rate derived from keyed input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterKeyed",
           "normalized": "String-\u003eInt-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34236,6 +37048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant filter constructor with MCE collapsing input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCE",
           "package": "hsc3",
@@ -34246,6 +37059,7 @@
         "index": {
           "description": "Variant filter constructor with MCE collapsing input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCE",
           "normalized": "String-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34262,6 +37076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant filter constructor with MCE collapsing input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCEId",
           "package": "hsc3",
@@ -34272,6 +37087,7 @@
         "index": {
           "description": "Variant filter constructor with MCE collapsing input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCEId",
           "normalized": "a-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34288,6 +37104,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant filter constructor with MCE collapsing input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCER",
           "package": "hsc3",
@@ -34298,6 +37115,7 @@
         "index": {
           "description": "Variant filter constructor with MCE collapsing input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterMCER",
           "normalized": "[Rate]-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34314,6 +37132,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter UGen constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterR",
           "package": "hsc3",
@@ -34324,6 +37143,7 @@
         "index": {
           "description": "Filter UGen constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkFilterR",
           "normalized": "[Rate]-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34340,6 +37160,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation unit generators are very specialized.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkInfo",
           "package": "hsc3",
@@ -34350,6 +37171,7 @@
         "index": {
           "description": "Information unit generators are very specialized",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkInfo",
           "normalized": "String-\u003eUGen",
@@ -34366,6 +37188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOscillator constructor with \u003ccode\u003e\u003ca\u003eall_rates\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOsc",
           "package": "hsc3",
@@ -34376,6 +37199,7 @@
         "index": {
           "description": "Oscillator constructor with all rates",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOsc",
           "normalized": "Rate-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34392,6 +37216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOscillator constructor, setting identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscId",
           "package": "hsc3",
@@ -34402,6 +37227,7 @@
         "index": {
           "description": "Oscillator constructor setting identifier",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscId",
           "normalized": "a-\u003eRate-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34418,6 +37244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate restricted oscillator constructor, setting identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscIdR",
           "package": "hsc3",
@@ -34428,6 +37255,7 @@
         "index": {
           "description": "Rate restricted oscillator constructor setting identifier",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscIdR",
           "normalized": "[Rate]-\u003ea-\u003eRate-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34444,6 +37272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant oscillator constructor with MCE collapsing input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscMCE",
           "package": "hsc3",
@@ -34454,6 +37283,7 @@
         "index": {
           "description": "Variant oscillator constructor with MCE collapsing input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscMCE",
           "normalized": "Rate-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34470,6 +37300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVariant oscillator constructor with MCE collapsing input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscMCEId",
           "package": "hsc3",
@@ -34480,6 +37311,7 @@
         "index": {
           "description": "Variant oscillator constructor with MCE collapsing input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscMCEId",
           "normalized": "a-\u003eRate-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34496,6 +37328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOscillator constructor, rate restricted variant.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscR",
           "package": "hsc3",
@@ -34506,6 +37339,7 @@
         "index": {
           "description": "Oscillator constructor rate restricted variant",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mkOscR",
           "normalized": "[Rate]-\u003eRate-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34522,6 +37356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRate constrained filter \u003ccode\u003e\u003ca\u003eUGen\u003c/a\u003e\u003c/code\u003e constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_filter",
           "package": "hsc3",
@@ -34532,6 +37367,7 @@
         "index": {
           "description": "Rate constrained filter UGen constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_filter",
           "normalized": "[Rate]-\u003eUGenId-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34547,6 +37383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided \u003ccode\u003e\u003ca\u003eUGenId\u003c/a\u003e\u003c/code\u003e filter with \u003ccode\u003e\u003ca\u003emce\u003c/a\u003e\u003c/code\u003e input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_filter_mce",
           "package": "hsc3",
@@ -34557,6 +37394,7 @@
         "index": {
           "description": "Provided UGenId filter with mce input",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_filter_mce",
           "normalized": "[Rate]-\u003eUGenId-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34572,6 +37410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOscillator constructor with constrained set of operating \u003ccode\u003e\u003ca\u003eRate\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_osc",
           "package": "hsc3",
@@ -34582,6 +37421,7 @@
         "index": {
           "description": "Oscillator constructor with constrained set of operating Rate",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_osc",
           "normalized": "[Rate]-\u003eUGenId-\u003eRate-\u003eString-\u003e[UGen]-\u003eInt-\u003eUGen",
@@ -34597,6 +37437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvided \u003ccode\u003e\u003ca\u003eUGenId\u003c/a\u003e\u003c/code\u003e variant of \u003ccode\u003e\u003ca\u003emkOscMCE\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_osc_mce",
           "package": "hsc3",
@@ -34607,6 +37448,7 @@
         "index": {
           "description": "Provided UGenId variant of mkOscMCE",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mk_osc_mce",
           "normalized": "UGenId-\u003eRate-\u003eString-\u003e[UGen]-\u003eUGen-\u003eInt-\u003eUGen",
@@ -34622,6 +37464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiple root graph node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mrg2",
           "package": "hsc3",
@@ -34632,6 +37475,7 @@
         "index": {
           "description": "Multiple root graph node constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "mrg2",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -34647,6 +37491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eUGenId\u003c/a\u003e\u003c/code\u003e used for deterministic UGens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "no_id",
           "package": "hsc3",
@@ -34657,6 +37502,7 @@
         "index": {
           "description": "UGenId used for deterministic UGens",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "no_id",
           "package": "hsc3",
@@ -34669,6 +37515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "shiftLeft",
           "package": "hsc3",
@@ -34678,6 +37525,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "shiftLeft",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -34693,6 +37541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "shiftRight",
           "package": "hsc3",
@@ -34702,6 +37551,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "shiftRight",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -34717,6 +37567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "toUId",
           "package": "hsc3",
@@ -34726,6 +37577,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "toUId",
           "normalized": "a-\u003eUGenId",
@@ -34742,6 +37594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered (kr) control input node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "tr_control",
           "package": "hsc3",
@@ -34752,6 +37605,7 @@
         "index": {
           "description": "Triggered kr control input node constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "tr_control",
           "normalized": "String-\u003eDouble-\u003eUGen",
@@ -34767,6 +37621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTriggered (kr) control input node constructor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "tr_control_f32",
           "package": "hsc3",
@@ -34777,6 +37632,7 @@
         "index": {
           "description": "Triggered kr control input node constructor",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "tr_control_f32",
           "normalized": "String-\u003eFloat-\u003eUGen",
@@ -34792,6 +37648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight fold of UGen graph.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugenFoldr",
           "package": "hsc3",
@@ -34802,6 +37659,7 @@
         "index": {
           "description": "Right fold of UGen graph",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugenFoldr",
           "normalized": "(UGen-\u003ea-\u003ea)-\u003ea-\u003eUGen-\u003ea",
@@ -34818,6 +37676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDepth first traversal of graph at \u003ccode\u003eu\u003c/code\u003e applying \u003ccode\u003ef\u003c/code\u003e to each node.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugenTraverse",
           "package": "hsc3",
@@ -34828,6 +37687,7 @@
         "index": {
           "description": "Depth first traversal of graph at applying to each node",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugenTraverse",
           "normalized": "(UGen-\u003eUGen)-\u003eUGen-\u003eUGen",
@@ -34844,6 +37704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup operator name for operator UGens, else UGen name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugen_user_name",
           "package": "hsc3",
@@ -34854,6 +37715,7 @@
         "index": {
           "description": "Lookup operator name for operator UGens else UGen name",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "ugen_user_name",
           "normalized": "String-\u003eSpecial-\u003eString",
@@ -34869,6 +37731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnpack a label to a length prefixed list of \u003ccode\u003e\u003ca\u003eConstant\u003c/a\u003e\u003c/code\u003es.  There\n is a special case for mce nodes, but it requires labels to be equal\n length.  Properly, \u003ccode\u003epoll\u003c/code\u003e would not unpack the label, it would be\n done by the synthdef builder.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "unpackLabel",
           "package": "hsc3",
@@ -34879,6 +37742,7 @@
         "index": {
           "description": "Unpack label to length prefixed list of Constant There is special case for mce nodes but it requires labels to be equal length Properly poll would not unpack the label it would be done by the synthdef builder",
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "unpackLabel",
           "normalized": "UGen-\u003e[UGen]",
@@ -34894,6 +37758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UGen",
           "name": "unsignedShift",
           "package": "hsc3",
@@ -34903,6 +37768,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UGen",
           "name": "unsignedShift",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -34919,6 +37785,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnique identifier class for use by non-deterministic (noise) and\n non-sharable (demand) unit generators.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "UId",
           "package": "hsc3",
@@ -34928,6 +37795,7 @@
         "index": {
           "description": "Unique identifier class for use by non-deterministic noise and non-sharable demand unit generators",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "UId",
           "package": "hsc3",
@@ -34942,6 +37810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn1",
           "package": "hsc3",
@@ -34951,6 +37820,7 @@
         "index": {
           "description": "Unary function",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn1",
           "package": "hsc3",
@@ -34965,6 +37835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn2",
           "package": "hsc3",
@@ -34974,6 +37845,7 @@
         "index": {
           "description": "Binary function",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn2",
           "package": "hsc3",
@@ -34988,6 +37860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn3",
           "package": "hsc3",
@@ -34997,6 +37870,7 @@
         "index": {
           "description": "Ternary function",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn3",
           "package": "hsc3",
@@ -35011,6 +37885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuaternary function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn4",
           "package": "hsc3",
@@ -35020,6 +37895,7 @@
         "index": {
           "description": "Quaternary function",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "Fn4",
           "package": "hsc3",
@@ -35034,6 +37910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class indicating a monad that will generate a sequence of\n   unique integer identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "UId",
           "package": "hsc3",
@@ -35043,6 +37920,7 @@
         "index": {
           "description": "class indicating monad that will generate sequence of unique integer identifiers",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "UId",
           "package": "hsc3",
@@ -35056,6 +37934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "generateUId",
           "package": "hsc3",
@@ -35065,6 +37944,7 @@
         },
         "index": {
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "generateUId",
           "package": "hsc3",
@@ -35079,6 +37959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnary UId lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId",
           "package": "hsc3",
@@ -35089,6 +37970,7 @@
         "index": {
           "description": "Unary UId lift",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId",
           "normalized": "(Int-\u003eFn a b)-\u003eFn a(c b)",
@@ -35105,6 +37987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinary UId lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId2",
           "package": "hsc3",
@@ -35115,6 +37998,7 @@
         "index": {
           "description": "Binary UId lift",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId2",
           "normalized": "(Int-\u003eFn a b c)-\u003eFn a b(d c)",
@@ -35131,6 +38015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTernary UId lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId3",
           "package": "hsc3",
@@ -35141,6 +38026,7 @@
         "index": {
           "description": "Ternary UId lift",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId3",
           "normalized": "(Int-\u003eFn a b c d)-\u003eFn a b c(e d)",
@@ -35157,6 +38043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuaternary UId lift.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId4",
           "package": "hsc3",
@@ -35167,6 +38054,7 @@
         "index": {
           "description": "Quaternary UId lift",
           "hierarchy": "Sound SC3 UGen UId",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.UId",
           "name": "liftUId4",
           "normalized": "(Int-\u003eFn a b c d e)-\u003eFn a b c d(f e)",
@@ -35183,6 +38071,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWavelet unit generators (Nick Collins).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "Wavelets",
           "package": "hsc3",
@@ -35192,6 +38081,7 @@
         "index": {
           "description": "Wavelet unit generators Nick Collins",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "Wavelets",
           "package": "hsc3",
@@ -35206,6 +38096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eForward wavelet transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "dwt",
           "package": "hsc3",
@@ -35216,6 +38107,7 @@
         "index": {
           "description": "Forward wavelet transform",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "dwt",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -35231,6 +38123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of \u003ccode\u003e\u003ca\u003edwt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "idwt",
           "package": "hsc3",
@@ -35241,6 +38134,7 @@
         "index": {
           "description": "Inverse of dwt",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "idwt",
           "normalized": "UGen-\u003eUGen-\u003eUGen-\u003eUGen-\u003eUGen",
@@ -35256,6 +38150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass wavelets with \u003cem\u003escale\u003c/em\u003e above threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_FilterScale",
           "package": "hsc3",
@@ -35266,6 +38161,7 @@
         "index": {
           "description": "Pass wavelets with scale above threshold",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_FilterScale",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -35282,6 +38178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass wavelets above a threshold, ie. \u003ccode\u003epv_MagAbove\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_MagAbove",
           "package": "hsc3",
@@ -35292,6 +38189,7 @@
         "index": {
           "description": "Pass wavelets above threshold ie pv MagAbove",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_MagAbove",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -35308,6 +38206,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduct in \u003cem\u003eW\u003c/em\u003e domain, ie. \u003ccode\u003epv_Mul\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_Mul",
           "package": "hsc3",
@@ -35318,6 +38217,7 @@
         "index": {
           "description": "Product in domain ie pv Mul",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_Mul",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -35334,6 +38234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePass wavelets with \u003cem\u003etime\u003c/em\u003e above threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_TimeWipe",
           "package": "hsc3",
@@ -35344,6 +38245,7 @@
         "index": {
           "description": "Pass wavelets with time above threshold",
           "hierarchy": "Sound SC3 UGen Wavelets",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen.Wavelets",
           "name": "wt_TimeWipe",
           "normalized": "UGen-\u003eUGen-\u003eUGen",
@@ -35360,6 +38262,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCollection of modules for writing unit-generator graphs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3.UGen",
           "name": "UGen",
           "package": "hsc3",
@@ -35369,6 +38272,7 @@
         "index": {
           "description": "Collection of modules for writing unit-generator graphs",
           "hierarchy": "Sound SC3 UGen",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3.UGen",
           "name": "UGen",
           "package": "hsc3",
@@ -35383,6 +38287,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eComposite of \u003ca\u003eSound.SC3.Server.Monad\u003c/a\u003e and \u003ca\u003eSound.SC3.UGen\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:46:45 UTC 2014",
           "module": "Sound.SC3",
           "name": "SC3",
           "package": "hsc3",
@@ -35392,6 +38297,7 @@
         "index": {
           "description": "Composite of Sound.SC3.Server.Monad and Sound.SC3.UGen",
           "hierarchy": "Sound SC3",
+          "indexed": "2014-03-11T18:46:45",
           "module": "Sound.SC3",
           "name": "SC3",
           "package": "hsc3",

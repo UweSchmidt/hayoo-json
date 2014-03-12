@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-minihttp"
+        "phrase": "network-minihttp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a very basic HTTP client. At the moment, it doesn't\n   even handle redirects for you.\n\u003c/p\u003e\u003cp\u003eNote that, in order to use SSL, you need to have the root CA certificates\n   in a PEM file in \u003ccode\u003e\u003cem\u003eetc\u003c/em\u003essh/certs.pem\u003c/code\u003e and you need to have wrapped your\n   main function in \u003ccode\u003eOpenSSL.withOpenSSL\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Client",
           "name": "Client",
           "package": "network-minihttp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module contains very basic HTTP client At the moment it doesn even handle redirects for you Note that in order to use SSL you need to have the root CA certificates in PEM file in etc ssh certs.pem and you need to have wrapped your main function in OpenSSL.withOpenSSL",
           "hierarchy": "Network MiniHTTP Client",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Client",
           "name": "Client",
           "package": "network-minihttp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a connection to the correct host for the given URL. (i.e.\n   resolve the hostname and create a TCP connection to the correct port).\n\u003c/p\u003e\u003cp\u003eNote that the DNS resolution (if any) doesn't block the whole process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Client",
           "name": "connection",
           "package": "network-minihttp",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Construct connection to the correct host for the given URL i.e resolve the hostname and create TCP connection to the correct port Note that the DNS resolution if any doesn block the whole process",
           "hierarchy": "Network MiniHTTP Client",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Client",
           "name": "connection",
           "normalized": "URL-\u003eIO Socket",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch an HTTP(S) entity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Client",
           "name": "fetchBasic",
           "package": "network-minihttp",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Fetch an HTTP entity",
           "hierarchy": "Network MiniHTTP Client",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Client",
           "name": "fetchBasic",
           "normalized": "Headers-\u003eURL-\u003eIO(Connection,Reply,Maybe Source)",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lower level HTTP client, but it allows you to perform POSTs etc\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Client",
           "name": "request",
           "package": "network-minihttp",
@@ -101,6 +108,7 @@
         "index": {
           "description": "lower level HTTP client but it allows you to perform POSTs etc",
           "hierarchy": "Network MiniHTTP Client",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Client",
           "name": "request",
           "normalized": "Connection-\u003eRequest-\u003eMaybe Source-\u003eIO(Maybe(Reply,Maybe Source))",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup the transport (i.e. SSL) for the given URL. In the case of a HTTP\n   scheme, this just wraps the socket in a Connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Client",
           "name": "transport",
           "package": "network-minihttp",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Setup the transport i.e SSL for the given URL In the case of HTTP scheme this just wraps the socket in Connection",
           "hierarchy": "Network MiniHTTP Client",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Client",
           "name": "transport",
           "normalized": "URL-\u003eSocket-\u003eIO Connection",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains many helper functions, as well the code for \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e,\n   which is a pretty important structure\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "HTTPConnection",
           "package": "network-minihttp",
@@ -150,6 +161,7 @@
         "index": {
           "description": "This module contains many helper functions as well the code for Source which is pretty important structure",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "HTTPConnection",
           "package": "network-minihttp",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source is a stream of data, like a lazy data structure, but without\n   some of the dangers that such entail. A source returns a \u003ccode\u003e\u003ca\u003eSourceResult\u003c/a\u003e\u003c/code\u003e\n   each time you evaluate it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "Source",
           "package": "network-minihttp",
@@ -173,6 +186,7 @@
         "index": {
           "description": "source is stream of data like lazy data structure but without some of the dangers that such entail source returns SourceResult each time you evaluate it",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "Source",
           "package": "network-minihttp",
@@ -186,6 +200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceResult",
           "package": "network-minihttp",
@@ -194,6 +209,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceResult",
           "package": "network-minihttp",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esome data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceData",
           "package": "network-minihttp",
@@ -218,6 +235,7 @@
         "index": {
           "description": "some data",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceData",
           "package": "network-minihttp",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eend of data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceEOF",
           "package": "network-minihttp",
@@ -242,6 +261,7 @@
         "index": {
           "description": "end of data",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceEOF",
           "package": "network-minihttp",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror - please don't read this source again\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceError",
           "package": "network-minihttp",
@@ -266,6 +287,7 @@
         "index": {
           "description": "error please don read this source again",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "SourceError",
           "package": "network-minihttp",
@@ -280,6 +302,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a source from a ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "bsSource",
           "package": "network-minihttp",
@@ -290,6 +313,7 @@
         "index": {
           "description": "Construct source from ByteString",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "bsSource",
           "normalized": "ByteString-\u003eIO Source",
@@ -306,6 +330,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source which reads an HTTP chunked reply from a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connChunkedSource",
           "package": "network-minihttp",
@@ -316,6 +341,7 @@
         "index": {
           "description": "source which reads an HTTP chunked reply from Connection",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connChunkedSource",
           "normalized": "Connection-\u003eIO Source",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source which reads from the given \u003ccode\u003eConnection\u003c/code\u003e until the connection\n   signals end-of-file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connEOFSource",
           "package": "network-minihttp",
@@ -342,6 +369,7 @@
         "index": {
           "description": "source which reads from the given Connection until the connection signals end-of-file",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connEOFSource",
           "normalized": "Connection-\u003eIO Source",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source which reads from a \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connSource",
           "package": "network-minihttp",
@@ -367,6 +396,7 @@
         "index": {
           "description": "source which reads from Connection",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "connSource",
           "normalized": "Int-\u003eByteString-\u003eConnection-\u003eIO Source",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a source from a Handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "hSource",
           "package": "network-minihttp",
@@ -392,6 +423,7 @@
         "index": {
           "description": "Construct source from Handle",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "hSource",
           "normalized": "(Int,Int)-\u003eHandle-\u003eIO Source",
@@ -407,6 +439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "maybeRead",
           "package": "network-minihttp",
@@ -416,6 +449,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "maybeRead",
           "normalized": "ByteString-\u003eMaybe a",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source with no data (e.g. \u003ccode\u003e\u003cem\u003edev\u003c/em\u003enull\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "nullSource",
           "package": "network-minihttp",
@@ -442,6 +477,7 @@
         "index": {
           "description": "source with no data e.g dev null",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "nullSource",
           "package": "network-minihttp",
@@ -456,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an incremental parser from the network\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "readIG",
           "package": "network-minihttp",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Run an incremental parser from the network",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "readIG",
           "normalized": "Connection-\u003eInt-\u003eInt-\u003eGet a a-\u003eIO(Maybe a)",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a source until it returns \u003ccode\u003e\u003ca\u003eSourceEOF\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceDrain",
           "package": "network-minihttp",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Read source until it returns SourceEOF",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceDrain",
           "normalized": "Source-\u003eIO()",
@@ -507,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an incremental parser from a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceIG",
           "package": "network-minihttp",
@@ -516,6 +557,7 @@
         "index": {
           "description": "Run an incremental parser from Source",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceIG",
           "normalized": "Source-\u003eInt-\u003eGet a a-\u003eIO(Maybe a)",
@@ -532,6 +574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake, at most, the first n bytes from a Source and return a strict\n   ByteString. Returns Nothing on error. (A short read is not an error)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceToBS",
           "package": "network-minihttp",
@@ -542,6 +585,7 @@
         "index": {
           "description": "Take at most the first bytes from Source and return strict ByteString Returns Nothing on error short read is not an error",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceToBS",
           "normalized": "Int-\u003eSource-\u003eIO(Maybe ByteString)",
@@ -558,6 +602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a source to a lazy ByteString\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceToLBS",
           "package": "network-minihttp",
@@ -568,6 +613,7 @@
         "index": {
           "description": "Convert source to lazy ByteString",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sourceToLBS",
           "normalized": "Source-\u003eIO ByteString",
@@ -584,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an SSL connection to a BaseConnection for Network.Connection\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sslToBaseConnection",
           "package": "network-minihttp",
@@ -594,6 +641,7 @@
         "index": {
           "description": "Convert an SSL connection to BaseConnection for Network.Connection",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "sslToBaseConnection",
           "normalized": "SSL-\u003eBaseConnection",
@@ -610,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream a source to a connection while not enqueuing more than lowWater\n   bytes in the outbound queue (not inc the kernel buffer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "streamSource",
           "package": "network-minihttp",
@@ -620,6 +669,7 @@
         "index": {
           "description": "Stream source to connection while not enqueuing more than lowWater bytes in the outbound queue not inc the kernel buffer",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "streamSource",
           "normalized": "Int-\u003eConnection-\u003eSource-\u003eIO Bool",
@@ -636,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStream a source to a connection, with chunked encoding, while not\n   enqueuing more than lowWater bytes in the outbound queue (not inc the\n   kernel buffer)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "streamSourceChunked",
           "package": "network-minihttp",
@@ -646,6 +697,7 @@
         "index": {
           "description": "Stream source to connection with chunked encoding while not enqueuing more than lowWater bytes in the outbound queue not inc the kernel buffer",
           "hierarchy": "Network MiniHTTP HTTPConnection",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.HTTPConnection",
           "name": "streamSourceChunked",
           "normalized": "Int-\u003eConnection-\u003eSource-\u003eIO Bool",
@@ -662,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module serialises and deserialises HTTP headers. It contains Haskell\n   representations of request and replies and can transform them to, and from,\n   the HTTP wire format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Marshal",
           "package": "network-minihttp",
@@ -671,6 +724,7 @@
         "index": {
           "description": "This module serialises and deserialises HTTP headers It contains Haskell representations of request and replies and can transform them to and from the HTTP wire format",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Marshal",
           "package": "network-minihttp",
@@ -685,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP Cookie. See \u003ca\u003ehttp://en.wikipedia.org/wiki/HTTP_cookie\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Cookie",
           "package": "network-minihttp",
@@ -694,6 +749,7 @@
         "index": {
           "description": "HTTP Cookie See http en.wikipedia.org wiki HTTP cookie",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Cookie",
           "package": "network-minihttp",
@@ -708,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHTTP headers, see RFC 2616 section 14\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Headers",
           "package": "network-minihttp",
@@ -717,6 +774,7 @@
         "index": {
           "description": "HTTP headers see RFC section",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Headers",
           "package": "network-minihttp",
@@ -730,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "MediaType",
           "package": "network-minihttp",
@@ -738,6 +797,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "MediaType",
           "package": "network-minihttp",
@@ -752,6 +812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of valid methods, see RFC 2616 section 5.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Method",
           "package": "network-minihttp",
@@ -761,6 +822,7 @@
         "index": {
           "description": "The list of valid methods see RFC section",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Method",
           "package": "network-minihttp",
@@ -775,6 +837,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Range",
           "package": "network-minihttp",
@@ -784,6 +847,7 @@
         "index": {
           "description": "HTTP range",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Range",
           "package": "network-minihttp",
@@ -798,6 +862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Reply",
           "package": "network-minihttp",
@@ -807,6 +872,7 @@
         "index": {
           "description": "HTTP reply",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Reply",
           "package": "network-minihttp",
@@ -821,6 +887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA HTTP request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Request",
           "package": "network-minihttp",
@@ -830,6 +897,7 @@
         "index": {
           "description": "HTTP request",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Request",
           "package": "network-minihttp",
@@ -843,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "CONNECT",
           "package": "network-minihttp",
@@ -852,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "CONNECT",
           "package": "network-minihttp",
@@ -865,6 +935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Cookie",
           "package": "network-minihttp",
@@ -874,6 +945,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Cookie",
           "package": "network-minihttp",
@@ -887,6 +959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "DELETE",
           "package": "network-minihttp",
@@ -896,6 +969,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "DELETE",
           "package": "network-minihttp",
@@ -909,6 +983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "GET",
           "package": "network-minihttp",
@@ -918,6 +993,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "GET",
           "package": "network-minihttp",
@@ -931,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "HEAD",
           "package": "network-minihttp",
@@ -940,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "HEAD",
           "package": "network-minihttp",
@@ -953,6 +1031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Headers",
           "package": "network-minihttp",
@@ -962,6 +1041,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Headers",
           "package": "network-minihttp",
@@ -975,6 +1055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "OPTIONS",
           "package": "network-minihttp",
@@ -984,6 +1065,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "OPTIONS",
           "package": "network-minihttp",
@@ -997,6 +1079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "POST",
           "package": "network-minihttp",
@@ -1006,6 +1089,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "POST",
           "package": "network-minihttp",
@@ -1019,6 +1103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "PUT",
           "package": "network-minihttp",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "PUT",
           "package": "network-minihttp",
@@ -1042,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeverything from the given byte onwards\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeFrom",
           "package": "network-minihttp",
@@ -1052,6 +1139,7 @@
         "index": {
           "description": "everything from the given byte onwards",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeFrom",
           "package": "network-minihttp",
@@ -1066,6 +1154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe bytes in the given range, inclusive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeOf",
           "package": "network-minihttp",
@@ -1076,6 +1165,7 @@
         "index": {
           "description": "the bytes in the given range inclusive",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeOf",
           "package": "network-minihttp",
@@ -1090,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe final n bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeSuffix",
           "package": "network-minihttp",
@@ -1100,6 +1191,7 @@
         "index": {
           "description": "the final bytes",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "RangeSuffix",
           "package": "network-minihttp",
@@ -1113,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Reply",
           "package": "network-minihttp",
@@ -1122,6 +1215,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Reply",
           "package": "network-minihttp",
@@ -1135,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Request",
           "package": "network-minihttp",
@@ -1144,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "Request",
           "package": "network-minihttp",
@@ -1157,6 +1253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "TRACE",
           "package": "network-minihttp",
@@ -1166,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "TRACE",
           "package": "network-minihttp",
@@ -1179,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieDomain",
           "package": "network-minihttp",
@@ -1188,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieDomain",
           "package": "network-minihttp",
@@ -1201,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieExpires",
           "package": "network-minihttp",
@@ -1210,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieExpires",
           "package": "network-minihttp",
@@ -1223,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieName",
           "package": "network-minihttp",
@@ -1232,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieName",
           "package": "network-minihttp",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookiePath",
           "package": "network-minihttp",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookiePath",
           "package": "network-minihttp",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieSecure",
           "package": "network-minihttp",
@@ -1276,6 +1383,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieSecure",
           "package": "network-minihttp",
@@ -1289,6 +1397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieValue",
           "package": "network-minihttp",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "cookieValue",
           "package": "network-minihttp",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "emptyCookie",
           "package": "network-minihttp",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "emptyCookie",
           "package": "network-minihttp",
@@ -1333,6 +1445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "emptyHeaders",
           "package": "network-minihttp",
@@ -1342,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "emptyHeaders",
           "package": "network-minihttp",
@@ -1355,6 +1469,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAccept",
           "package": "network-minihttp",
@@ -1364,6 +1479,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAccept",
           "normalized": "Maybe[(MediaType,Int)]",
@@ -1379,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptCharset",
           "package": "network-minihttp",
@@ -1388,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptCharset",
           "normalized": "Maybe[(String,Int)]",
@@ -1403,6 +1521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptEncoding",
           "package": "network-minihttp",
@@ -1412,6 +1531,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptEncoding",
           "normalized": "Maybe[(String,Int)]",
@@ -1427,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptLanguage",
           "package": "network-minihttp",
@@ -1436,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptLanguage",
           "normalized": "Maybe[(String,Int)]",
@@ -1451,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptRanges",
           "package": "network-minihttp",
@@ -1460,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAcceptRanges",
           "package": "network-minihttp",
@@ -1473,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAge",
           "package": "network-minihttp",
@@ -1482,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAge",
           "package": "network-minihttp",
@@ -1495,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAllow",
           "package": "network-minihttp",
@@ -1504,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAllow",
           "normalized": "Maybe[Method]",
@@ -1519,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAuthorization",
           "package": "network-minihttp",
@@ -1528,6 +1657,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpAuthorization",
           "package": "network-minihttp",
@@ -1541,6 +1671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpConnection",
           "package": "network-minihttp",
@@ -1550,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpConnection",
           "normalized": "[String]",
@@ -1565,6 +1697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpConnectionClose",
           "package": "network-minihttp",
@@ -1574,6 +1707,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpConnectionClose",
           "package": "network-minihttp",
@@ -1587,6 +1721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentEncodings",
           "package": "network-minihttp",
@@ -1596,6 +1731,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentEncodings",
           "normalized": "[String]",
@@ -1611,6 +1747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLanguage",
           "package": "network-minihttp",
@@ -1620,6 +1757,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLanguage",
           "normalized": "Maybe[String]",
@@ -1635,6 +1773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLength",
           "package": "network-minihttp",
@@ -1644,6 +1783,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLength",
           "package": "network-minihttp",
@@ -1657,6 +1797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLocation",
           "package": "network-minihttp",
@@ -1666,6 +1807,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentLocation",
           "package": "network-minihttp",
@@ -1679,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentRange",
           "package": "network-minihttp",
@@ -1688,6 +1831,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentRange",
           "normalized": "Maybe(Maybe(Int,Int),Maybe Int)",
@@ -1703,6 +1847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentType",
           "package": "network-minihttp",
@@ -1712,6 +1857,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpContentType",
           "package": "network-minihttp",
@@ -1725,6 +1871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpCookie",
           "package": "network-minihttp",
@@ -1734,6 +1881,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpCookie",
           "normalized": "[Cookie]",
@@ -1749,6 +1897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpDate",
           "package": "network-minihttp",
@@ -1758,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpDate",
           "package": "network-minihttp",
@@ -1771,6 +1921,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpETag",
           "package": "network-minihttp",
@@ -1780,6 +1931,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpETag",
           "normalized": "Maybe(Bool,ByteString)",
@@ -1795,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpExpires",
           "package": "network-minihttp",
@@ -1804,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpExpires",
           "package": "network-minihttp",
@@ -1817,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpHost",
           "package": "network-minihttp",
@@ -1826,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpHost",
           "package": "network-minihttp",
@@ -1839,6 +1995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfMatch",
           "package": "network-minihttp",
@@ -1848,6 +2005,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfMatch",
           "normalized": "Maybe(Either()[ByteString])",
@@ -1863,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfModifiedSince",
           "package": "network-minihttp",
@@ -1872,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfModifiedSince",
           "package": "network-minihttp",
@@ -1885,6 +2045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfNoneMatch",
           "package": "network-minihttp",
@@ -1894,6 +2055,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfNoneMatch",
           "normalized": "Maybe(Either()[(Bool,ByteString)])",
@@ -1909,6 +2071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfRange",
           "package": "network-minihttp",
@@ -1918,6 +2081,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfRange",
           "package": "network-minihttp",
@@ -1931,6 +2095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfUnmodifiedSince",
           "package": "network-minihttp",
@@ -1940,6 +2105,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpIfUnmodifiedSince",
           "package": "network-minihttp",
@@ -1953,6 +2119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpKeepAlive",
           "package": "network-minihttp",
@@ -1962,6 +2129,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpKeepAlive",
           "package": "network-minihttp",
@@ -1975,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpLastModified",
           "package": "network-minihttp",
@@ -1984,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpLastModified",
           "package": "network-minihttp",
@@ -1997,6 +2167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpLocation",
           "package": "network-minihttp",
@@ -2006,6 +2177,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpLocation",
           "package": "network-minihttp",
@@ -2019,6 +2191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpOtherHeaders",
           "package": "network-minihttp",
@@ -2028,6 +2201,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpOtherHeaders",
           "package": "network-minihttp",
@@ -2041,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpPragma",
           "package": "network-minihttp",
@@ -2050,6 +2225,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpPragma",
           "normalized": "Maybe[(String,Maybe String)]",
@@ -2065,6 +2241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpProxyAuthenticate",
           "package": "network-minihttp",
@@ -2074,6 +2251,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpProxyAuthenticate",
           "package": "network-minihttp",
@@ -2087,6 +2265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpProxyAuthorization",
           "package": "network-minihttp",
@@ -2096,6 +2275,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpProxyAuthorization",
           "package": "network-minihttp",
@@ -2109,6 +2289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpRange",
           "package": "network-minihttp",
@@ -2118,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpRange",
           "normalized": "Maybe[Range]",
@@ -2133,6 +2315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpReferer",
           "package": "network-minihttp",
@@ -2142,6 +2325,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpReferer",
           "package": "network-minihttp",
@@ -2155,6 +2339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpRetryAfter",
           "package": "network-minihttp",
@@ -2164,6 +2349,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpRetryAfter",
           "package": "network-minihttp",
@@ -2177,6 +2363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpServer",
           "package": "network-minihttp",
@@ -2186,6 +2373,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpServer",
           "package": "network-minihttp",
@@ -2199,6 +2387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpSetCookie",
           "package": "network-minihttp",
@@ -2208,6 +2397,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpSetCookie",
           "normalized": "[Cookie]",
@@ -2223,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpTrailer",
           "package": "network-minihttp",
@@ -2232,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpTrailer",
           "normalized": "Maybe[String]",
@@ -2247,6 +2439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpTransferEncoding",
           "package": "network-minihttp",
@@ -2256,6 +2449,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpTransferEncoding",
           "normalized": "[String]",
@@ -2271,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpUserAgent",
           "package": "network-minihttp",
@@ -2280,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpUserAgent",
           "package": "network-minihttp",
@@ -2293,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpWWWAuthenticate",
           "package": "network-minihttp",
@@ -2302,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "httpWWWAuthenticate",
           "package": "network-minihttp",
@@ -2315,6 +2513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseChunkHeader",
           "package": "network-minihttp",
@@ -2324,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseChunkHeader",
           "package": "network-minihttp",
@@ -2337,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseReply",
           "package": "network-minihttp",
@@ -2346,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseReply",
           "package": "network-minihttp",
@@ -2359,6 +2561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseRequest",
           "package": "network-minihttp",
@@ -2368,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "parseRequest",
           "package": "network-minihttp",
@@ -2381,6 +2585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "putReply",
           "package": "network-minihttp",
@@ -2390,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "putReply",
           "normalized": "Reply-\u003ePut",
@@ -2405,6 +2611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "putRequest",
           "package": "network-minihttp",
@@ -2414,6 +2621,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "putRequest",
           "normalized": "Request-\u003ePut",
@@ -2429,6 +2637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyHeaders",
           "package": "network-minihttp",
@@ -2438,6 +2647,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyHeaders",
           "package": "network-minihttp",
@@ -2451,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMajor",
           "package": "network-minihttp",
@@ -2460,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMajor",
           "package": "network-minihttp",
@@ -2473,6 +2685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMessage",
           "package": "network-minihttp",
@@ -2482,6 +2695,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMessage",
           "package": "network-minihttp",
@@ -2495,6 +2709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMinor",
           "package": "network-minihttp",
@@ -2504,6 +2719,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyMinor",
           "package": "network-minihttp",
@@ -2517,6 +2733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyStatus",
           "package": "network-minihttp",
@@ -2526,6 +2743,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "replyStatus",
           "package": "network-minihttp",
@@ -2539,6 +2757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqHeaders",
           "package": "network-minihttp",
@@ -2548,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqHeaders",
           "package": "network-minihttp",
@@ -2561,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMajor",
           "package": "network-minihttp",
@@ -2570,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMajor",
           "package": "network-minihttp",
@@ -2583,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMethod",
           "package": "network-minihttp",
@@ -2592,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMethod",
           "package": "network-minihttp",
@@ -2605,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMinor",
           "package": "network-minihttp",
@@ -2614,6 +2839,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqMinor",
           "package": "network-minihttp",
@@ -2627,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqUrl",
           "package": "network-minihttp",
@@ -2636,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "reqUrl",
           "package": "network-minihttp",
@@ -2650,6 +2878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a status code to a message (e.g. 200 -\u003e \u003ca\u003eOK\u003c/a\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Marshal",
           "name": "statusToMessage",
           "package": "network-minihttp",
@@ -2660,6 +2889,7 @@
         "index": {
           "description": "Convert status code to message e.g OK",
           "hierarchy": "Network MiniHTTP Marshal",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Marshal",
           "name": "statusToMessage",
           "normalized": "Int-\u003eString",
@@ -2676,6 +2906,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains support for the OpenID authentication standard. See\n   \u003ca\u003ehttp://www.openid.net\u003c/a\u003e for details of the protocol. At the moment, only the\n   basic v2 authentication is supported. Also, we only support OpenID 2.0\n   HTML discovery, not Yadis nor XRI.\n\u003c/p\u003e\u003cp\u003eOnly DH-SHA1 is used for the cryptography. This used to be SHA256, but\n   Yahoo doesn't support it (boo!)\n\u003c/p\u003e\u003cp\u003eReferences in this module are to the OpenID v2 spec\n      \u003ca\u003ehttp://openid.net/specs/openid-authentication-2_0.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenID",
           "package": "network-minihttp",
@@ -2685,6 +2916,7 @@
         "index": {
           "description": "This module contains support for the OpenID authentication standard See http www.openid.net for details of the protocol At the moment only the basic v2 authentication is supported Also we only support OpenID HTML discovery not Yadis nor XRI Only DH-SHA1 is used for the cryptography This used to be SHA256 but Yahoo doesn support it boo References in this module are to the OpenID v2 spec http openid.net specs openid-authentication-2 html",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenID",
           "package": "network-minihttp",
@@ -2699,6 +2931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThere are two types of checkid calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDType",
           "package": "network-minihttp",
@@ -2708,6 +2941,7 @@
         "index": {
           "description": "There are two types of checkid calls",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDType",
           "package": "network-minihttp",
@@ -2722,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of an OpenID handle. Handles are used to identify sessions\n   between the consumer and OP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "Handle",
           "package": "network-minihttp",
@@ -2731,6 +2966,7 @@
         "index": {
           "description": "The type of an OpenID handle Handles are used to identify sessions between the consumer and OP",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "Handle",
           "package": "network-minihttp",
@@ -2745,6 +2981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of a key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "Key",
           "package": "network-minihttp",
@@ -2754,6 +2991,7 @@
         "index": {
           "description": "The type of key",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "Key",
           "package": "network-minihttp",
@@ -2768,6 +3006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the result of Discovery: the OP local identity and the server HTTP\n   endpoint.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenIDDiscovery",
           "package": "network-minihttp",
@@ -2777,6 +3016,7 @@
         "index": {
           "description": "This is the result of Discovery the OP local identity and the server HTTP endpoint",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenIDDiscovery",
           "package": "network-minihttp",
@@ -2790,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDImmediate",
           "package": "network-minihttp",
@@ -2799,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDImmediate",
           "package": "network-minihttp",
@@ -2812,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDSetup",
           "package": "network-minihttp",
@@ -2821,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "CheckIDSetup",
           "package": "network-minihttp",
@@ -2834,6 +3078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenIDDiscovery",
           "package": "network-minihttp",
@@ -2843,6 +3088,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "OpenIDDiscovery",
           "package": "network-minihttp",
@@ -2857,6 +3103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an association with a discovered OP and return either an error\n   message or a handle, a key and the number of seconds from now when the\n   handle will expire.\n\u003c/p\u003e\u003cp\u003eInternally this uses a cache so \u003ccode\u003e\u003ca\u003eassociate\u003c/a\u003e\u003c/code\u003e may not actually involve an\n   HTTP request to the OP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "associate",
           "package": "network-minihttp",
@@ -2867,6 +3114,7 @@
         "index": {
           "description": "Perform an association with discovered OP and return either an error message or handle key and the number of seconds from now when the handle will expire Internally this uses cache so associate may not actually involve an HTTP request to the OP",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "associate",
           "normalized": "OpenIDDiscovery-\u003eIO(Handle,Key)",
@@ -2882,6 +3130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a checkid call\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "checkID",
           "package": "network-minihttp",
@@ -2891,6 +3140,7 @@
         "index": {
           "description": "Construct checkid call",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "checkID",
           "normalized": "CheckIDType-\u003eURL-\u003eOpenIDDiscovery-\u003eHandle-\u003eByteString-\u003eMaybe ByteString-\u003eURL",
@@ -2907,6 +3157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse HTML discovery to find the OpenID information for a given URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discover",
           "package": "network-minihttp",
@@ -2917,6 +3168,7 @@
         "index": {
           "description": "Use HTML discovery to find the OpenID information for given URL",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discover",
           "normalized": "URL-\u003eIO OpenIDDiscovery",
@@ -2931,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discoveryLocalID",
           "package": "network-minihttp",
@@ -2940,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discoveryLocalID",
           "package": "network-minihttp",
@@ -2953,6 +3207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discoveryProvider",
           "package": "network-minihttp",
@@ -2962,6 +3217,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "discoveryProvider",
           "package": "network-minihttp",
@@ -2976,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a key given the hostname of the OP and the handle. Generally used\n   after an indirect request to check a signature from an OP.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "findKey",
           "package": "network-minihttp",
@@ -2986,6 +3243,7 @@
         "index": {
           "description": "Lookup key given the hostname of the OP and the handle Generally used after an indirect request to check signature from an OP",
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "findKey",
           "normalized": "ByteString-\u003eHandle-\u003eSTM(Maybe Key)",
@@ -3001,6 +3259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.OpenID",
           "name": "processCheckIDReply",
           "package": "network-minihttp",
@@ -3009,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP OpenID",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.OpenID",
           "name": "processCheckIDReply",
           "normalized": "Map ByteString ByteString-\u003eIO(Either String ByteString)",
@@ -3025,6 +3285,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for writing webservers. These servers\n   process requests in a state monad pipeline and several useful actions are\n   provided herein.\n\u003c/p\u003e\u003cp\u003eSee \u003ccode\u003eexamples/test.hs\u003c/code\u003e for an example of how to use this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "Server",
           "package": "network-minihttp",
@@ -3034,6 +3295,7 @@
         "index": {
           "description": "This module contains functions for writing webservers These servers process requests in state monad pipeline and several useful actions are provided herein See examples test.hs for an example of how to use this module",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "Server",
           "package": "network-minihttp",
@@ -3047,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "DispatchMatch",
           "package": "network-minihttp",
@@ -3055,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "DispatchMatch",
           "package": "network-minihttp",
@@ -3069,6 +3333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe processing monad\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "WebMonad",
           "package": "network-minihttp",
@@ -3078,6 +3343,7 @@
         "index": {
           "description": "The processing monad",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "WebMonad",
           "package": "network-minihttp",
@@ -3092,6 +3358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProcessing a request involves running a number of actions in a StateT monad\n   where the state for that monad is this record. This contains both a\n   \u003ccode\u003eSource\u003c/code\u003e and a \u003ca\u003eHandle\u003c/a\u003e element. Often something will fill in the \u003ca\u003eHandle\u003c/a\u003e\n   and expect later processing to convert it to a \u003ca\u003eSource\u003c/a\u003e. Somehow, you have\n   to end up with a \u003ca\u003eSource\u003c/a\u003e, however.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "WebState",
           "package": "network-minihttp",
@@ -3101,6 +3368,7 @@
         "index": {
           "description": "Processing request involves running number of actions in StateT monad where the state for that monad is this record This contains both Source and Handle element Often something will fill in the Handle and expect later processing to convert it to Source Somehow you have to end up with Source however",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "WebState",
           "package": "network-minihttp",
@@ -3114,6 +3382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "Exact",
           "package": "network-minihttp",
@@ -3123,6 +3392,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "Exact",
           "package": "network-minihttp",
@@ -3136,6 +3406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "Prefix",
           "package": "network-minihttp",
@@ -3145,6 +3416,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "Prefix",
           "package": "network-minihttp",
@@ -3158,6 +3430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "WebState",
           "package": "network-minihttp",
@@ -3167,6 +3440,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "WebState",
           "package": "network-minihttp",
@@ -3181,6 +3455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an, optional, helper function which you might find useful. The\n   serving fuctions both expect a \u003ca\u003eWebMonad\u003c/a\u003e action which is called to\n   process each request. In general you have to write that and dispatch based\n   on the client's request.\n\u003c/p\u003e\u003cp\u003eThis might save you some work: it tries each of the elements in the list\n   in turn. As soon as one matches it runs the given action to process the\n   request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "dispatchOnURL",
           "package": "network-minihttp",
@@ -3190,6 +3465,7 @@
         "index": {
           "description": "This is an optional helper function which you might find useful The serving fuctions both expect WebMonad action which is called to process each request In general you have to write that and dispatch based on the client request This might save you some work it tries each of the elements in the list in turn As soon as one matches it runs the given action to process the request",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "dispatchOnURL",
           "normalized": "[(DispatchMatch,WebMonad())]-\u003eWebMonad()",
@@ -3205,6 +3481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "errorPage",
           "package": "network-minihttp",
@@ -3214,6 +3491,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "errorPage",
           "normalized": "String-\u003eWebMonad()",
@@ -3230,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the arguments to a GET request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "getGET",
           "package": "network-minihttp",
@@ -3240,6 +3519,7 @@
         "index": {
           "description": "Get the arguments to GET request",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "getGET",
           "package": "network-minihttp",
@@ -3254,6 +3534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the arguments to a POST request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "getPOST",
           "package": "network-minihttp",
@@ -3263,6 +3544,7 @@
         "index": {
           "description": "Get the arguments to POST request",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "getPOST",
           "normalized": "Int-\u003eWebMonad(Map ByteString ByteString)",
@@ -3279,6 +3561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the client's request payload (if any)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "getPayload",
           "package": "network-minihttp",
@@ -3289,6 +3572,7 @@
         "index": {
           "description": "Return the client request payload if any",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "getPayload",
           "package": "network-minihttp",
@@ -3303,6 +3587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "getReply",
           "package": "network-minihttp",
@@ -3313,6 +3598,7 @@
         "index": {
           "description": "Return the current reply",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "getReply",
           "package": "network-minihttp",
@@ -3327,6 +3613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "getRequest",
           "package": "network-minihttp",
@@ -3337,6 +3624,7 @@
         "index": {
           "description": "Return the request",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "getRequest",
           "package": "network-minihttp",
@@ -3351,6 +3639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis handles the If-*Matches and If-*Modified conditional headers. It takes\n   its information from the Last-Modified and ETag headers of the current\n   reply. Note that, for the purposes of ETag matching, a reply without\n   an ETag header is considered not to exist from the point of view of,\n   say, If-Matches: *.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "handleConditionalRequest",
           "package": "network-minihttp",
@@ -3361,6 +3650,7 @@
         "index": {
           "description": "This handles the If Matches and If Modified conditional headers It takes its information from the Last-Modified and ETag headers of the current reply Note that for the purposes of ETag matching reply without an ETag header is considered not to exist from the point of view of say If-Matches",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "handleConditionalRequest",
           "normalized": "WebMonad()",
@@ -3377,6 +3667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt the moment, this just adds the header Server: Network.MiniHTTP\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "handleDecoration",
           "package": "network-minihttp",
@@ -3387,6 +3678,7 @@
         "index": {
           "description": "At the moment this just adds the header Server Network.MiniHTTP",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "handleDecoration",
           "normalized": "WebMonad()",
@@ -3403,6 +3695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a very simple handler which deals with requests by returning the\n   requested file from the filesystem. It sets a Handle in the state and sets\n   the Content-Type, Content-Length and Last-Modified headers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "handleFromFilesystem",
           "package": "network-minihttp",
@@ -3412,6 +3705,7 @@
         "index": {
           "description": "This is very simple handler which deals with requests by returning the requested file from the filesystem It sets Handle in the state and sets the Content-Type Content-Length and Last-Modified headers",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "handleFromFilesystem",
           "normalized": "FilePath-\u003eWebMonad()",
@@ -3428,6 +3722,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf the current state includes a Handle, this turns it into a Source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "handleHandleToSource",
           "package": "network-minihttp",
@@ -3438,6 +3733,7 @@
         "index": {
           "description": "If the current state includes Handle this turns it into Source",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "handleHandleToSource",
           "normalized": "WebMonad()",
@@ -3454,6 +3750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis handles Range requests and also translates from Handles to Sources.\n   If the WebMonad has a Handle at this point, then we can construct sources\n   from any subrange of the file. (We also assume that Content-Length is\n   correctly set.)\n\u003c/p\u003e\u003cp\u003eSee RFC 2616, section 14.35\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "handleRangeRequests",
           "package": "network-minihttp",
@@ -3464,6 +3761,7 @@
         "index": {
           "description": "This handles Range requests and also translates from Handles to Sources If the WebMonad has Handle at this point then we can construct sources from any subrange of the file We also assume that Content-Length is correctly set See RFC section",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "handleRangeRequests",
           "normalized": "WebMonad()",
@@ -3480,6 +3778,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart an IPv4 HTTP server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "serveHTTP",
           "package": "network-minihttp",
@@ -3489,6 +3788,7 @@
         "index": {
           "description": "Start an IPv4 HTTP server",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "serveHTTP",
           "normalized": "Int-\u003eWebMonad()-\u003eIO()",
@@ -3505,6 +3805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStart an IPv4 HTTPS server. Plese remember to have wrapped your main\n   function in \u003ccode\u003eOpenSSL.withOpenSSL\u003c/code\u003e otherwise you'll probably crash the\n   process.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "serveHTTPS",
           "package": "network-minihttp",
@@ -3514,6 +3815,7 @@
         "index": {
           "description": "Start an IPv4 HTTPS server Plese remember to have wrapped your main function in OpenSSL.withOpenSSL otherwise you ll probably crash the process",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "serveHTTPS",
           "normalized": "Int-\u003eFilePath-\u003eFilePath-\u003eWebMonad()-\u003eIO()",
@@ -3529,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "setCookie",
           "package": "network-minihttp",
@@ -3538,6 +3841,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "setCookie",
           "normalized": "Cookie-\u003eWebMonad()",
@@ -3554,6 +3858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a header in the current reply. Because of the way records work, you use\n   this function like this:\n\u003c/p\u003e\u003cpre\u003e setHeader $ \\h -\u003e h { httpSomeHeader = Just value }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "setHeader",
           "package": "network-minihttp",
@@ -3564,6 +3869,7 @@
         "index": {
           "description": "Set header in the current reply Because of the way records work you use this function like this setHeader httpSomeHeader Just value",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "setHeader",
           "normalized": "(Headers-\u003eHeaders)-\u003eWebMonad()",
@@ -3580,6 +3886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current reply to be a reply with the given status code, the\n   default message for that status code, an empty body and an empty set of\n   headers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "setReply",
           "package": "network-minihttp",
@@ -3590,6 +3897,7 @@
         "index": {
           "description": "Set the current reply to be reply with the given status code the default message for that status code an empty body and an empty set of headers",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "setReply",
           "normalized": "Int-\u003eWebMonad()",
@@ -3606,6 +3914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ean action to be performed before sending the reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsAction",
           "package": "network-minihttp",
@@ -3616,6 +3925,7 @@
         "index": {
           "description": "an action to be performed before sending the reply",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsAction",
           "normalized": "Maybe(IO())",
@@ -3632,6 +3942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe client's payload\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsBody",
           "package": "network-minihttp",
@@ -3642,6 +3953,7 @@
         "index": {
           "description": "the client payload",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsBody",
           "package": "network-minihttp",
@@ -3656,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current handle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsHandle",
           "package": "network-minihttp",
@@ -3666,6 +3979,7 @@
         "index": {
           "description": "the current handle",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsHandle",
           "package": "network-minihttp",
@@ -3680,6 +3994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe system mime types db, mapping file extensions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsMimeTypes",
           "package": "network-minihttp",
@@ -3690,6 +4005,7 @@
         "index": {
           "description": "the system mime types db mapping file extensions",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsMimeTypes",
           "package": "network-minihttp",
@@ -3704,6 +4020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current reply\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsReply",
           "package": "network-minihttp",
@@ -3714,6 +4031,7 @@
         "index": {
           "description": "the current reply",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsReply",
           "package": "network-minihttp",
@@ -3728,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe original request\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsRequest",
           "package": "network-minihttp",
@@ -3738,6 +4057,7 @@
         "index": {
           "description": "the original request",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsRequest",
           "package": "network-minihttp",
@@ -3752,6 +4072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe current source\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Server",
           "name": "wsSource",
           "package": "network-minihttp",
@@ -3762,6 +4083,7 @@
         "index": {
           "description": "the current source",
           "hierarchy": "Network MiniHTTP Server",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Server",
           "name": "wsSource",
           "package": "network-minihttp",
@@ -3776,6 +4098,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic session support. Sessions are (currently) just maps of strings to\n   strings which are serialised and sent to the client using a Cookie.\n   Serialised, they should be less than 4K, so the sum of all your strings in\n   the map should be \u003c 3900 bytes to be safe.\n\u003c/p\u003e\u003cp\u003eThe cookies are HMACed and encrypted so that the client can't inspect nor\n   alter them. The key is, by default, generated randomly every time the\n   server starts. If you want the cookies to be reusable across restarts or\n   servers you need to set the key yourself.\n\u003c/p\u003e\u003cp\u003eAlso, by the default, the cookies are set to expire when the browser\n   session ends.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Session",
           "name": "Session",
           "package": "network-minihttp",
@@ -3785,6 +4108,7 @@
         "index": {
           "description": "Basic session support Sessions are currently just maps of strings to strings which are serialised and sent to the client using Cookie Serialised they should be less than so the sum of all your strings in the map should be bytes to be safe The cookies are HMACed and encrypted so that the client can inspect nor alter them The key is by default generated randomly every time the server starts If you want the cookies to be reusable across restarts or servers you need to set the key yourself Also by the default the cookies are set to expire when the browser session ends",
           "hierarchy": "Network MiniHTTP Session",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Session",
           "name": "Session",
           "package": "network-minihttp",
@@ -3799,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a key value pair to the session\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Session",
           "name": "addSession",
           "package": "network-minihttp",
@@ -3809,6 +4134,7 @@
         "index": {
           "description": "Add key value pair to the session",
           "hierarchy": "Network MiniHTTP Session",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Session",
           "name": "addSession",
           "normalized": "ByteString-\u003eByteString-\u003eWebMonad()",
@@ -3825,6 +4151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the current session. If the user didn't present a cookie, or the\n   cookie is invalid, an empty map is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Session",
           "name": "getSession",
           "package": "network-minihttp",
@@ -3835,6 +4162,7 @@
         "index": {
           "description": "Return the current session If the user didn present cookie or the cookie is invalid an empty map is returned",
           "hierarchy": "Network MiniHTTP Session",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Session",
           "name": "getSession",
           "package": "network-minihttp",
@@ -3849,6 +4177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current session. This alters the headers of the current request,\n   so future actions which reset the headers (like \u003ccode\u003e\u003ca\u003esetReply\u003c/a\u003e\u003c/code\u003e) will undo\n   this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Session",
           "name": "putSession",
           "package": "network-minihttp",
@@ -3859,6 +4188,7 @@
         "index": {
           "description": "Set the current session This alters the headers of the current request so future actions which reset the headers like setReply will undo this",
           "hierarchy": "Network MiniHTTP Session",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Session",
           "name": "putSession",
           "normalized": "Map ByteString ByteString-\u003eWebMonad()",
@@ -3875,6 +4205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the secret key used to HMAC and encrypt the session cookies.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.Session",
           "name": "setSessionSecretKey",
           "package": "network-minihttp",
@@ -3885,6 +4216,7 @@
         "index": {
           "description": "Set the secret key used to HMAC and encrypt the session cookies",
           "hierarchy": "Network MiniHTTP Session",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.Session",
           "name": "setSessionSecretKey",
           "normalized": "ByteString-\u003eSTM()",
@@ -3901,6 +4233,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains a structure for representing web URLs. We don't try\n   to be a fully general URI parser (so no \u003ccode\u003emailto:\u003c/code\u003e etc), but it's a lot\n   better than \u003ca\u003eNetwork.URI\u003c/a\u003e for dealing with HTTP(S)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -3910,6 +4243,7 @@
         "index": {
           "description": "This module contains structure for representing web URLs We don try to be fully general URI parser so no mailto etc but it lot better than Network.URI for dealing with HTTP",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -3924,6 +4258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe host where the resource can be found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "Host",
           "package": "network-minihttp",
@@ -3933,6 +4268,7 @@
         "index": {
           "description": "The host where the resource can be found",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "Host",
           "package": "network-minihttp",
@@ -3947,6 +4283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a relative URL. It just copies (and renames) the last three\n   members of URL. However, it's good to keep these two different types of\n   URL apart in the type system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "RelativeURL",
           "package": "network-minihttp",
@@ -3956,6 +4293,7 @@
         "index": {
           "description": "This is relative URL It just copies and renames the last three members of URL However it good to keep these two different types of URL apart in the type system",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "RelativeURL",
           "package": "network-minihttp",
@@ -3970,6 +4308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe transport layer to be used\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "Scheme",
           "package": "network-minihttp",
@@ -3979,6 +4318,7 @@
         "index": {
           "description": "The transport layer to be used",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "Scheme",
           "package": "network-minihttp",
@@ -3993,6 +4333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA web URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -4002,6 +4343,7 @@
         "index": {
           "description": "web URL",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -4015,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "HTTP",
           "package": "network-minihttp",
@@ -4024,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "HTTP",
           "package": "network-minihttp",
@@ -4037,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "HTTPS",
           "package": "network-minihttp",
@@ -4046,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "HTTPS",
           "package": "network-minihttp",
@@ -4059,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "Hostname",
           "package": "network-minihttp",
@@ -4068,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "Hostname",
           "package": "network-minihttp",
@@ -4081,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "IPv4Literal",
           "package": "network-minihttp",
@@ -4090,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "IPv4Literal",
           "package": "network-minihttp",
@@ -4103,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "IPv6Literal",
           "package": "network-minihttp",
@@ -4112,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "IPv6Literal",
           "package": "network-minihttp",
@@ -4125,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "RelativeURL",
           "package": "network-minihttp",
@@ -4134,6 +4487,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "RelativeURL",
           "package": "network-minihttp",
@@ -4147,6 +4501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -4156,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "URL",
           "package": "network-minihttp",
@@ -4170,6 +4526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "parse",
           "package": "network-minihttp",
@@ -4180,6 +4537,7 @@
         "index": {
           "description": "Parse URL",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "parse",
           "normalized": "ByteString-\u003eMaybe URL",
@@ -4195,6 +4553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse just an arguments map. Can be useful for POST requests. Warning: it\n   occurs to be that the arguments in a POST request might include unescaped\n   '#' symbols. In a URL that would be illegal, but the parser may need to be\n   reworked for that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "parseArguments",
           "package": "network-minihttp",
@@ -4205,6 +4564,7 @@
         "index": {
           "description": "Parse just an arguments map Can be useful for POST requests Warning it occurs to be that the arguments in POST request might include unescaped symbols In URL that would be illegal but the parser may need to be reworked for that",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "parseArguments",
           "normalized": "ByteString-\u003eMaybe(Map ByteString ByteString)",
@@ -4221,6 +4581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a relative URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "parseRelative",
           "package": "network-minihttp",
@@ -4231,6 +4592,7 @@
         "index": {
           "description": "Parse relative URL",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "parseRelative",
           "normalized": "ByteString-\u003eMaybe RelativeURL",
@@ -4246,6 +4608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlArguments",
           "package": "network-minihttp",
@@ -4255,6 +4618,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlArguments",
           "package": "network-minihttp",
@@ -4268,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlFragment",
           "package": "network-minihttp",
@@ -4277,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlFragment",
           "package": "network-minihttp",
@@ -4291,6 +4657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes not include leading \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlPath",
           "package": "network-minihttp",
@@ -4301,6 +4668,7 @@
         "index": {
           "description": "does not include leading",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "rurlPath",
           "package": "network-minihttp",
@@ -4315,6 +4683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a URL to a ByteString. It's the same as \u003ca\u003eshow\u003c/a\u003e, except for the\n   type of the return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "serialise",
           "package": "network-minihttp",
@@ -4325,6 +4694,7 @@
         "index": {
           "description": "Convert URL to ByteString It the same as show except for the type of the return",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "serialise",
           "normalized": "URL-\u003eByteString",
@@ -4340,6 +4710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSerialise just an arguments map. Can be useful for POST requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "serialiseArguments",
           "package": "network-minihttp",
@@ -4350,6 +4721,7 @@
         "index": {
           "description": "Serialise just an arguments map Can be useful for POST requests",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "serialiseArguments",
           "normalized": "Map ByteString ByteString-\u003eByteString",
@@ -4365,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "serialiseRelative",
           "package": "network-minihttp",
@@ -4374,6 +4747,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "serialiseRelative",
           "normalized": "RelativeURL-\u003eByteString",
@@ -4390,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract a relative URL from a URL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "toRelative",
           "package": "network-minihttp",
@@ -4400,6 +4775,7 @@
         "index": {
           "description": "Extract relative URL from URL",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "toRelative",
           "normalized": "URL-\u003eRelativeURL",
@@ -4415,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlArguments",
           "package": "network-minihttp",
@@ -4424,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlArguments",
           "package": "network-minihttp",
@@ -4438,6 +4816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoesn't include '#'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlFragment",
           "package": "network-minihttp",
@@ -4448,6 +4827,7 @@
         "index": {
           "description": "doesn include",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlFragment",
           "package": "network-minihttp",
@@ -4461,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlHost",
           "package": "network-minihttp",
@@ -4470,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlHost",
           "package": "network-minihttp",
@@ -4483,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPassword",
           "package": "network-minihttp",
@@ -4492,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPassword",
           "package": "network-minihttp",
@@ -4506,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edoes not include leading \u003ccode\u003e\u003ca\u003e/\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPath",
           "package": "network-minihttp",
@@ -4516,6 +4901,7 @@
         "index": {
           "description": "does not include leading",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPath",
           "package": "network-minihttp",
@@ -4530,6 +4916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefaults based on the scheme\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPort",
           "package": "network-minihttp",
@@ -4540,6 +4927,7 @@
         "index": {
           "description": "defaults based on the scheme",
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlPort",
           "package": "network-minihttp",
@@ -4553,6 +4941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlScheme",
           "package": "network-minihttp",
@@ -4562,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlScheme",
           "package": "network-minihttp",
@@ -4575,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:09 UTC 2014",
           "module": "Network.MiniHTTP.URL",
           "name": "urlUser",
           "package": "network-minihttp",
@@ -4584,6 +4975,7 @@
         },
         "index": {
           "hierarchy": "Network MiniHTTP URL",
+          "indexed": "2014-03-11T19:28:09",
           "module": "Network.MiniHTTP.URL",
           "name": "urlUser",
           "package": "network-minihttp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uri-enumerator-file"
+        "phrase": "uri-enumerator-file",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:36 UTC 2014",
           "module": "Network.URI.Enumerator.File",
           "name": "File",
           "package": "uri-enumerator-file",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator File",
+          "indexed": "2014-03-11T20:31:36",
           "module": "Network.URI.Enumerator.File",
           "name": "File",
           "package": "uri-enumerator-file",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a string, such as a command-line argument, into a URI. First\n tries to parse as an absolute URI. If this fails, it interprets as a\n relative or absolute filepath.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:31:36 UTC 2014",
           "module": "Network.URI.Enumerator.File",
           "name": "decodeString",
           "package": "uri-enumerator-file",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Converts string such as command-line argument into URI First tries to parse as an absolute URI If this fails it interprets as relative or absolute filepath",
           "hierarchy": "Network URI Enumerator File",
+          "indexed": "2014-03-11T20:31:36",
           "module": "Network.URI.Enumerator.File",
           "name": "decodeString",
           "normalized": "String-\u003eIO URI",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:36 UTC 2014",
           "module": "Network.URI.Enumerator.File",
           "name": "fileScheme",
           "package": "uri-enumerator-file",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator File",
+          "indexed": "2014-03-11T20:31:36",
           "module": "Network.URI.Enumerator.File",
           "name": "fileScheme",
           "package": "uri-enumerator-file",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:31:36 UTC 2014",
           "module": "Network.URI.Enumerator.File",
           "name": "toFilePath",
           "package": "uri-enumerator-file",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network URI Enumerator File",
+          "indexed": "2014-03-11T20:31:36",
           "module": "Network.URI.Enumerator.File",
           "name": "toFilePath",
           "normalized": "URI-\u003eFilePath",

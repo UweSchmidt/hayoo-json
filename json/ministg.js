@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ministg"
+        "phrase": "ministg",
+        "type": "phrase"
       },
       "type": "context"
     }

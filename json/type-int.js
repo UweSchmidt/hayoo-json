@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-int"
+        "phrase": "type-int",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple type-level binary numbers, positive and negative with infinite\n precision. This forms a nice commutative ring with multiplicative identity\n like we would expect from a representation for Z.\n\u003c/p\u003e\u003cp\u003eThe numbers are represented as a Boolean Ring over a countable set of\n variables, in which for every element in the set there exists an n in N\n and a b in {T,F} such that for all n'\u003e=n in N, x_i = b.\n\u003c/p\u003e\u003cp\u003eFor uniqueness we always choose the least such n when representing numbers\n this allows us to run most computations backwards. When we can't, and such\n a fundep would be implied, we obtain it by combining semi-operations that\n together yield the appropriate class fundep list.\n\u003c/p\u003e\u003cp\u003eReuses T and F from the Type.Boolean as the infinite tail of the 2s\n complement binary number. \n\u003c/p\u003e\u003cp\u003eTODO: TDivMod, TGCD\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "Internals",
           "package": "type-int",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Simple type-level binary numbers positive and negative with infinite precision This forms nice commutative ring with multiplicative identity like we would expect from representation for The numbers are represented as Boolean Ring over countable set of variables in which for every element in the set there exists an in and in such that for all in For uniqueness we always choose the least such when representing numbers this allows us to run most computations backwards When we can and such fundep would be implied we obtain it by combining semi-operations that together yield the appropriate class fundep list Reuses and from the Type.Boolean as the infinite tail of the complement binary number TODO TDivMod TGCD",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "Internals",
           "package": "type-int",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "I",
           "package": "type-int",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "I",
           "package": "type-int",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the least significant bit of a as d and returns a'.\n Can also be used to prepend bit d onto a' obtaining a.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "LSB",
           "package": "type-int",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Extracts the least significant bit of as and returns Can also be used to prepend bit onto obtaining",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "LSB",
           "package": "type-int",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "Negative",
           "package": "type-int",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "Negative",
           "package": "type-int",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "O",
           "package": "type-int",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "O",
           "package": "type-int",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "Positive",
           "package": "type-int",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "Positive",
           "package": "type-int",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "SignZero",
           "package": "type-int",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "SignZero",
           "package": "type-int",
@@ -168,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the absolute value of a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TAbs",
           "package": "type-int",
@@ -177,6 +192,7 @@
         "index": {
           "description": "Return the absolute value of",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TAbs",
           "package": "type-int",
@@ -191,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReversible adder with extra fundeps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TAdd",
           "package": "type-int",
@@ -200,6 +217,7 @@
         "index": {
           "description": "Reversible adder with extra fundeps",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TAdd",
           "package": "type-int",
@@ -214,6 +232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-reversible addition. Kept for efficiency purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TAdd'",
           "package": "type-int",
@@ -223,6 +242,7 @@
         "index": {
           "description": "Non-reversible addition Kept for efficiency purposes",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TAdd'",
           "package": "type-int",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA symmetrical full adder, that does not yield normal form answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TAddC'",
           "package": "type-int",
@@ -246,6 +267,7 @@
         "index": {
           "description": "symmetrical full adder that does not yield normal form answers",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TAddC'",
           "package": "type-int",
@@ -260,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe don't want to have to carry the closure parameter around explicitly everywhere, so we\n   shed it here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TBinary",
           "package": "type-int",
@@ -269,6 +292,7 @@
         "index": {
           "description": "We don want to have to carry the closure parameter around explicitly everywhere so we shed it here",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TBinary",
           "package": "type-int",
@@ -283,6 +307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOur set of digits is closed to retain the properties needed for most of the classes herein\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TCBinary",
           "package": "type-int",
@@ -292,6 +317,7 @@
         "index": {
           "description": "Our set of digits is closed to retain the properties needed for most of the classes herein",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TCBinary",
           "package": "type-int",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange bit #b in a to c in {T,F}, yielding d.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TChangeBit",
           "package": "type-int",
@@ -315,6 +342,7 @@
         "index": {
           "description": "change bit in to in yielding",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TChangeBit",
           "package": "type-int",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etoggle the value of bit #b in a, yielding c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TComplementBit",
           "package": "type-int",
@@ -338,6 +367,7 @@
         "index": {
           "description": "toggle the value of bit in yielding",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TComplementBit",
           "package": "type-int",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of bits set. Since we may have an infinite tail of 1s, we return\n a negative number in such cases indicating how many bits are NOT set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TCountBits",
           "package": "type-int",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Count the number of bits set Since we may have an infinite tail of we return negative number in such cases indicating how many bits are NOT set",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TCountBits",
           "package": "type-int",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount the number of bits set, but track whether the number is positive or negative\n to simplify casing. Since we may have an infinite tail of 1s, we return a negative\n number in such cases indicating how many bits are NOT set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TCountBits'",
           "package": "type-int",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Count the number of bits set but track whether the number is positive or negative to simplify casing Since we may have an infinite tail of we return negative number in such cases indicating how many bits are NOT set",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TCountBits'",
           "package": "type-int",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the lsb of the number is true\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TEven",
           "package": "type-int",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Returns true if the lsb of the number is true",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TEven",
           "package": "type-int",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget bit #b in a as c in {T,F}\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TGetBit",
           "package": "type-int",
@@ -430,6 +467,7 @@
         "index": {
           "description": "get bit in as in",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TGetBit",
           "package": "type-int",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the number is less than zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsNegative",
           "package": "type-int",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Returns true if the number is less than zero",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsNegative",
           "package": "type-int",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the number is greater than zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsPositive",
           "package": "type-int",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Returns true if the number is greater than zero",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsPositive",
           "package": "type-int",
@@ -490,6 +532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the number is equal to zero\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsZero",
           "package": "type-int",
@@ -499,6 +542,7 @@
         "index": {
           "description": "Returns true if the number is equal to zero",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TIsZero",
           "package": "type-int",
@@ -513,6 +557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMultiplication: a * b = c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TMul",
           "package": "type-int",
@@ -522,6 +567,7 @@
         "index": {
           "description": "Multiplication",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TMul",
           "package": "type-int",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShed the additional reduction parameter from TNF'\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TNF",
           "package": "type-int",
@@ -545,6 +592,7 @@
         "index": {
           "description": "Shed the additional reduction parameter from TNF",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TNF",
           "package": "type-int",
@@ -559,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a number into normal form, but track whether further reductions\n may be necessary if this number is extended for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TNF'",
           "package": "type-int",
@@ -568,6 +617,7 @@
         "index": {
           "description": "Transform number into normal form but track whether further reductions may be necessary if this number is extended for efficiency",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TNF'",
           "package": "type-int",
@@ -582,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTNeg obtains the 2s complement of a number and is reversible\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TNeg",
           "package": "type-int",
@@ -591,6 +642,7 @@
         "index": {
           "description": "TNeg obtains the complement of number and is reversible",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TNeg",
           "package": "type-int",
@@ -605,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns true if the lsb of the number if false\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TOdd",
           "package": "type-int",
@@ -614,6 +667,7 @@
         "index": {
           "description": "Returns true if the lsb of the number if false",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TOdd",
           "package": "type-int",
@@ -628,6 +682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExponentiation: a^b = c (only defined for non-negative exponents)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TPow",
           "package": "type-int",
@@ -637,6 +692,7 @@
         "index": {
           "description": "Exponentiation only defined for non-negative exponents",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TPow",
           "package": "type-int",
@@ -651,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset bit #b in a to T, yielding c.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TSetBit",
           "package": "type-int",
@@ -660,6 +717,7 @@
         "index": {
           "description": "set bit in to yielding",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TSetBit",
           "package": "type-int",
@@ -674,6 +732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift a right b places obtaining c in normal form.\n | If b is negative then we shift left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TShift",
           "package": "type-int",
@@ -683,6 +742,7 @@
         "index": {
           "description": "Shift right places obtaining in normal form If is negative then we shift left",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TShift",
           "package": "type-int",
@@ -697,6 +757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShift a right b places obtaining c. If b is negative then we shift left.\n | TShift' does not yield normal form answers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TShift'",
           "package": "type-int",
@@ -706,6 +767,7 @@
         "index": {
           "description": "Shift right places obtaining If is negative then we shift left TShift does not yield normal form answers",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TShift'",
           "package": "type-int",
@@ -720,6 +782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNon-reversible subtraction. Kept for efficiency purposes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TSub'",
           "package": "type-int",
@@ -729,6 +792,7 @@
         "index": {
           "description": "Non-reversible subtraction Kept for efficiency purposes",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TSub'",
           "package": "type-int",
@@ -743,6 +807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinds the unique successor for any normalized binary number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TSucc",
           "package": "type-int",
@@ -752,6 +817,7 @@
         "index": {
           "description": "Finds the unique successor for any normalized binary number",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TSucc",
           "package": "type-int",
@@ -766,6 +832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset bit #b in a to F, yielding c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "TUnSetBit",
           "package": "type-int",
@@ -775,6 +842,7 @@
         "index": {
           "description": "set bit in to yielding",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "TUnSetBit",
           "package": "type-int",
@@ -789,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassert 2n+1 != n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "XI",
           "package": "type-int",
@@ -798,6 +867,7 @@
         "index": {
           "description": "assert",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "XI",
           "package": "type-int",
@@ -812,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eassert 2n != n\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "XO",
           "package": "type-int",
@@ -821,6 +892,7 @@
         "index": {
           "description": "assert",
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "XO",
           "package": "type-int",
@@ -834,6 +906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "fromTBinary",
           "package": "type-int",
@@ -843,6 +916,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "fromTBinary",
           "normalized": "a-\u003eb",
@@ -858,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "t2n",
           "package": "type-int",
@@ -867,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "t2n",
           "normalized": "a-\u003eb",
@@ -881,6 +957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "t2np1",
           "package": "type-int",
@@ -890,6 +967,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "t2np1",
           "normalized": "a-\u003eb",
@@ -904,6 +982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tAbs",
           "package": "type-int",
@@ -913,6 +992,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tAbs",
           "normalized": "a-\u003eb",
@@ -928,6 +1008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tAdd",
           "package": "type-int",
@@ -937,6 +1018,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tAdd",
           "normalized": "a-\u003eb-\u003ec",
@@ -952,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tAdd'",
           "package": "type-int",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tAdd'",
           "normalized": "a-\u003eb-\u003ec",
@@ -976,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tBSL",
           "package": "type-int",
@@ -985,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tBSL",
           "normalized": "a-\u003eb-\u003ec",
@@ -1000,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tChangeBit",
           "package": "type-int",
@@ -1009,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tChangeBit",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -1024,6 +1112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tComplementBit",
           "package": "type-int",
@@ -1033,6 +1122,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tComplementBit",
           "normalized": "a-\u003eb-\u003ec",
@@ -1048,6 +1138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tCountBits",
           "package": "type-int",
@@ -1057,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tCountBits",
           "normalized": "a-\u003eb",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tEven",
           "package": "type-int",
@@ -1081,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tEven",
           "normalized": "a-\u003eb",
@@ -1096,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tGetBit",
           "package": "type-int",
@@ -1105,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tGetBit",
           "normalized": "a-\u003eb-\u003ec",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsNegative",
           "package": "type-int",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsNegative",
           "normalized": "a-\u003eb",
@@ -1144,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsPositive",
           "package": "type-int",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsPositive",
           "normalized": "a-\u003eb",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsZero",
           "package": "type-int",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tIsZero",
           "normalized": "a-\u003eb",
@@ -1192,6 +1294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tLSB",
           "package": "type-int",
@@ -1201,6 +1304,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tLSB",
           "normalized": "a-\u003eb-\u003ec",
@@ -1216,6 +1320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tMul",
           "package": "type-int",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tMul",
           "normalized": "a-\u003eb-\u003ec",
@@ -1240,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tNF",
           "package": "type-int",
@@ -1249,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tNF",
           "normalized": "a-\u003eb",
@@ -1264,6 +1372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tNeg",
           "package": "type-int",
@@ -1273,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tNeg",
           "normalized": "a-\u003eb",
@@ -1288,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tOdd",
           "package": "type-int",
@@ -1297,6 +1408,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tOdd",
           "normalized": "a-\u003eb",
@@ -1312,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tPow",
           "package": "type-int",
@@ -1321,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tPow",
           "normalized": "a-\u003eb-\u003ec",
@@ -1336,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tPred",
           "package": "type-int",
@@ -1345,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tPred",
           "normalized": "a-\u003eb",
@@ -1360,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tSetBit",
           "package": "type-int",
@@ -1369,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tSetBit",
           "normalized": "a-\u003eb-\u003ec",
@@ -1384,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tShift",
           "package": "type-int",
@@ -1393,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tShift",
           "normalized": "a-\u003eb-\u003ec",
@@ -1408,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tSub",
           "package": "type-int",
@@ -1417,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tSub",
           "normalized": "a-\u003eb-\u003ec",
@@ -1432,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tSub'",
           "package": "type-int",
@@ -1441,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tSub'",
           "normalized": "a-\u003eb-\u003ec",
@@ -1456,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tSucc",
           "package": "type-int",
@@ -1465,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tSucc",
           "normalized": "a-\u003eb",
@@ -1480,6 +1606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.Internals",
           "name": "tUnSetBit",
           "package": "type-int",
@@ -1489,6 +1616,7 @@
         },
         "index": {
           "hierarchy": "Data Type Binary Internals",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.Internals",
           "name": "tUnSetBit",
           "normalized": "a-\u003eb-\u003ec",
@@ -1505,6 +1633,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides a simple way to construct type level binaries.\n $(binaryE 24) returns an undefined value with the same type as the \n Type.Binary with value 24.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.TH",
           "name": "TH",
           "package": "type-int",
@@ -1514,6 +1643,7 @@
         "index": {
           "description": "Provides simple way to construct type level binaries binaryE returns an undefined value with the same type as the Type.Binary with value",
           "hierarchy": "Data Type Binary TH",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.TH",
           "name": "TH",
           "package": "type-int",
@@ -1528,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e$(binaryE n) returns an undefined value of the appropriate TBinary instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.TH",
           "name": "binaryE",
           "package": "type-int",
@@ -1538,6 +1669,7 @@
         "index": {
           "description": "binaryE returns an undefined value of the appropriate TBinary instance",
           "hierarchy": "Data Type Binary TH",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.TH",
           "name": "binaryE",
           "normalized": "a-\u003eExpQ",
@@ -1553,6 +1685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e$(binaryT n) returns the appropriate TBinary instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary.TH",
           "name": "binaryT",
           "package": "type-int",
@@ -1563,6 +1696,7 @@
         "index": {
           "description": "binaryT returns the appropriate TBinary instance",
           "hierarchy": "Data Type Binary TH",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary.TH",
           "name": "binaryT",
           "normalized": "a-\u003eTypeQ",
@@ -1578,6 +1712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple type-level binary numbers, positive and negative with infinite\n precision. This forms a nice commutative ring with multiplicative identity\n like we would expect from a representation for Z.\n\u003c/p\u003e\u003cp\u003eThe numbers are represented as a Boolean Ring over a countable set of\n variables, in which for every element in the set there exists an n in N\n and a b in {T,F} such that forall n' \u003e= n in N, x_i = b.\n\u003c/p\u003e\u003cp\u003eFor uniqueness we always choose the least such n when representing numbers\n this allows us to run most computations backwards. When we can't, and such\n a fundep would be implied, we obtain it by combining semi-operations that\n together yield the appropriate class fundep list.\n\u003c/p\u003e\u003cp\u003eThe goal here was to pull together many of the good ideas I've seen from\n various sources, and sprinkle a two's complement negative number\n representation on top.\n\u003c/p\u003e\u003cp\u003eReuses T and F from the Type.Boolean as the infinite tail of the 2s\n complement binary number. I'm particularly fond of the symmetry exhibited\n in the full adder.\n\u003c/p\u003e\u003cp\u003eTODO: \u003ccode\u003eTDivMod, TImplies, TGCD, TBit, TComplementBit, TSetBit\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Binary",
           "name": "Binary",
           "package": "type-int",
@@ -1587,6 +1722,7 @@
         "index": {
           "description": "Simple type-level binary numbers positive and negative with infinite precision This forms nice commutative ring with multiplicative identity like we would expect from representation for The numbers are represented as Boolean Ring over countable set of variables in which for every element in the set there exists an in and in such that forall in For uniqueness we always choose the least such when representing numbers this allows us to run most computations backwards When we can and such fundep would be implied we obtain it by combining semi-operations that together yield the appropriate class fundep list The goal here was to pull together many of the good ideas ve seen from various sources and sprinkle two complement negative number representation on top Reuses and from the Type.Boolean as the infinite tail of the complement binary number particularly fond of the symmetry exhibited in the full adder TODO TDivMod TImplies TGCD TBit TComplementBit TSetBit",
           "hierarchy": "Data Type Binary",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Binary",
           "name": "Binary",
           "package": "type-int",
@@ -1601,6 +1737,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple closed type-level booleans.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "Boolean",
           "package": "type-int",
@@ -1610,6 +1747,7 @@
         "index": {
           "description": "Simple closed type-level booleans",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "Boolean",
           "package": "type-int",
@@ -1623,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "F",
           "package": "type-int",
@@ -1631,6 +1770,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "F",
           "package": "type-int",
@@ -1643,6 +1783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "T",
           "package": "type-int",
@@ -1651,6 +1792,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "T",
           "package": "type-int",
@@ -1664,6 +1806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level a \u003ccode\u003e\u003ca\u003eand\u003c/a\u003e\u003c/code\u003e b = c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TAnd",
           "package": "type-int",
@@ -1673,6 +1816,7 @@
         "index": {
           "description": "Type-Level and",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TAnd",
           "package": "type-int",
@@ -1687,6 +1831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e...and every boolean is in that set.\n This lets us avoid carrying the closure parameter around\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TBool",
           "package": "type-int",
@@ -1696,6 +1841,7 @@
         "index": {
           "description": "and every boolean is in that set This lets us avoid carrying the closure parameter around",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TBool",
           "package": "type-int",
@@ -1710,6 +1856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level: if t then x else y\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TIf",
           "package": "type-int",
@@ -1719,6 +1866,7 @@
         "index": {
           "description": "Type-Level if then else",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TIf",
           "package": "type-int",
@@ -1733,6 +1881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level: a \u003ccode\u003eimplies\u003c/code\u003e b = c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TImplies",
           "package": "type-int",
@@ -1742,6 +1891,7 @@
         "index": {
           "description": "Type-Level implies",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TImplies",
           "package": "type-int",
@@ -1756,6 +1906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level: not a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TNot",
           "package": "type-int",
@@ -1765,6 +1916,7 @@
         "index": {
           "description": "Type-Level not",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TNot",
           "package": "type-int",
@@ -1779,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level a \u003ccode\u003e\u003ca\u003eor\u003c/a\u003e\u003c/code\u003e b = c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TOr",
           "package": "type-int",
@@ -1788,6 +1941,7 @@
         "index": {
           "description": "Type-Level or",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TOr",
           "package": "type-int",
@@ -1802,6 +1956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimplemented this way rather than directly so that Binary can extend it properly.\n otherwise the normal form restriction makes that nigh impossible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TXOr",
           "package": "type-int",
@@ -1811,6 +1966,7 @@
         "index": {
           "description": "implemented this way rather than directly so that Binary can extend it properly otherwise the normal form restriction makes that nigh impossible",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TXOr",
           "package": "type-int",
@@ -1825,6 +1981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType-Level: a \u003ccode\u003exor\u003c/code\u003e b = c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "TXOr'",
           "package": "type-int",
@@ -1834,6 +1991,7 @@
         "index": {
           "description": "Type-Level xor",
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "TXOr'",
           "package": "type-int",
@@ -1847,6 +2005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tAnd",
           "package": "type-int",
@@ -1856,6 +2015,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tAnd",
           "normalized": "a-\u003eb-\u003ec",
@@ -1871,6 +2031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tF",
           "package": "type-int",
@@ -1880,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tF",
           "package": "type-int",
@@ -1892,6 +2054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tIf",
           "package": "type-int",
@@ -1901,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tIf",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -1916,6 +2080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tImplies",
           "package": "type-int",
@@ -1925,6 +2090,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tImplies",
           "normalized": "a-\u003eb-\u003ec",
@@ -1940,6 +2106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tNot",
           "package": "type-int",
@@ -1949,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tNot",
           "normalized": "a-\u003eb",
@@ -1964,6 +2132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tOr",
           "package": "type-int",
@@ -1973,6 +2142,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tOr",
           "normalized": "a-\u003eb-\u003ec",
@@ -1988,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tT",
           "package": "type-int",
@@ -1997,6 +2168,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tT",
           "package": "type-int",
@@ -2009,6 +2181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tXOr",
           "package": "type-int",
@@ -2018,6 +2191,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tXOr",
           "normalized": "a-\u003eb-\u003ec",
@@ -2033,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Boolean",
           "name": "tXOr'",
           "package": "type-int",
@@ -2042,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Data Type Boolean",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Boolean",
           "name": "tXOr'",
           "normalized": "a-\u003eb-\u003ec",
@@ -2058,6 +2234,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStage1: Lay the ground work for all sorts of Template Haskell hackery \n in the later stages. Only a handful of class specifications in this file\n are for later public consumption, and none of those are fleshed out here.\n\u003c/p\u003e\u003cp\u003eThis multiple-stage implementation is necessitated by the way Template \n Haskell is implemented in GHC.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "Stage1",
           "package": "type-int",
@@ -2067,6 +2244,7 @@
         "index": {
           "description": "Stage1 Lay the ground work for all sorts of Template Haskell hackery in the later stages Only handful of class specifications in this file are for later public consumption and none of those are fleshed out here This multiple-stage implementation is necessitated by the way Template Haskell is implemented in GHC",
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "Stage1",
           "package": "type-int",
@@ -2080,6 +2258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "LSN",
           "package": "type-int",
@@ -2088,6 +2267,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "LSN",
           "package": "type-int",
@@ -2101,6 +2281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "SHR1",
           "package": "type-int",
@@ -2109,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "SHR1",
           "package": "type-int",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "TAddC'",
           "package": "type-int",
@@ -2130,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "TAddC'",
           "package": "type-int",
@@ -2143,6 +2327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "TEven",
           "package": "type-int",
@@ -2151,6 +2336,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "TEven",
           "package": "type-int",
@@ -2164,6 +2350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "THex",
           "package": "type-int",
@@ -2172,6 +2359,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "THex",
           "package": "type-int",
@@ -2185,6 +2373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "TNF'",
           "package": "type-int",
@@ -2193,6 +2382,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "TNF'",
           "package": "type-int",
@@ -2206,6 +2396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "TSucc",
           "package": "type-int",
@@ -2214,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "TSucc",
           "package": "type-int",
@@ -2227,6 +2419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "Trichotomy",
           "package": "type-int",
@@ -2235,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "Trichotomy",
           "package": "type-int",
@@ -2248,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "a",
           "package": "type-int",
@@ -2257,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "a",
           "package": "type-int",
@@ -2269,6 +2465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "b",
           "package": "type-int",
@@ -2278,6 +2475,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "b",
           "package": "type-int",
@@ -2290,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "c",
           "package": "type-int",
@@ -2299,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "c",
           "package": "type-int",
@@ -2311,6 +2511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "concatMapM",
           "package": "type-int",
@@ -2320,6 +2521,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "concatMapM",
           "normalized": "(a-\u003eb[c])-\u003e[a]-\u003eb[c]",
@@ -2335,6 +2537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "d",
           "package": "type-int",
@@ -2344,6 +2547,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "d",
           "package": "type-int",
@@ -2356,6 +2560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "f",
           "package": "type-int",
@@ -2365,6 +2570,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "f",
           "package": "type-int",
@@ -2377,6 +2583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "fromTHex",
           "package": "type-int",
@@ -2386,6 +2593,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "fromTHex",
           "normalized": "a-\u003eb",
@@ -2401,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "h",
           "package": "type-int",
@@ -2410,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "h",
           "normalized": "[Type]",
@@ -2424,6 +2634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "h0",
           "package": "type-int",
@@ -2433,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "h0",
           "normalized": "[Type]",
@@ -2447,6 +2659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "hF",
           "package": "type-int",
@@ -2456,6 +2669,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "hF",
           "normalized": "[Type]",
@@ -2470,6 +2684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "hex",
           "package": "type-int",
@@ -2479,6 +2694,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "hex",
           "package": "type-int",
@@ -2491,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "hn",
           "package": "type-int",
@@ -2500,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "hn",
           "normalized": "[Name]",
@@ -2514,6 +2732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "lsn",
           "package": "type-int",
@@ -2523,6 +2742,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "lsn",
           "package": "type-int",
@@ -2535,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "mkHT",
           "package": "type-int",
@@ -2544,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "mkHT",
           "normalized": "Name-\u003eDec",
@@ -2559,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "mkXT",
           "package": "type-int",
@@ -2568,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "mkXT",
           "normalized": "Name-\u003eDec",
@@ -2583,6 +2807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "negative",
           "package": "type-int",
@@ -2592,6 +2817,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "negative",
           "package": "type-int",
@@ -2604,6 +2830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "positive",
           "package": "type-int",
@@ -2613,6 +2840,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "positive",
           "package": "type-int",
@@ -2625,6 +2853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "shr1",
           "package": "type-int",
@@ -2634,6 +2863,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "shr1",
           "package": "type-int",
@@ -2646,6 +2876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "signzero",
           "package": "type-int",
@@ -2655,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "signzero",
           "package": "type-int",
@@ -2667,6 +2899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "t",
           "package": "type-int",
@@ -2676,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "t",
           "package": "type-int",
@@ -2688,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "taddc'",
           "package": "type-int",
@@ -2697,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "taddc'",
           "package": "type-int",
@@ -2709,6 +2945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "teven",
           "package": "type-int",
@@ -2718,6 +2955,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "teven",
           "package": "type-int",
@@ -2730,6 +2968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "thex",
           "package": "type-int",
@@ -2739,6 +2978,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "thex",
           "package": "type-int",
@@ -2751,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "tnf'",
           "package": "type-int",
@@ -2760,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "tnf'",
           "package": "type-int",
@@ -2772,6 +3014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "tnot",
           "package": "type-int",
@@ -2781,6 +3024,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "tnot",
           "package": "type-int",
@@ -2793,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "trichotomy",
           "package": "type-int",
@@ -2802,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "trichotomy",
           "package": "type-int",
@@ -2814,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "tsucc",
           "package": "type-int",
@@ -2823,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "tsucc",
           "package": "type-int",
@@ -2835,6 +3083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "wrapI",
           "package": "type-int",
@@ -2844,6 +3093,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "wrapI",
           "normalized": "[a]-\u003e(a-\u003eType)-\u003e[Dec]",
@@ -2858,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "x",
           "package": "type-int",
@@ -2867,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "x",
           "normalized": "[Type]",
@@ -2881,6 +3133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "x0",
           "package": "type-int",
@@ -2890,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "x0",
           "normalized": "[Type]",
@@ -2904,6 +3158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "x0F",
           "package": "type-int",
@@ -2913,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "x0F",
           "normalized": "[Type]",
@@ -2927,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "xF",
           "package": "type-int",
@@ -2936,6 +3193,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "xF",
           "normalized": "[Type]",
@@ -2950,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "xh",
           "package": "type-int",
@@ -2959,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "xh",
           "normalized": "[(Type,Type)]",
@@ -2973,6 +3233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "xh0",
           "package": "type-int",
@@ -2982,6 +3243,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "xh0",
           "normalized": "[(Type,Type)]",
@@ -2996,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "xhF",
           "package": "type-int",
@@ -3005,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "xhF",
           "normalized": "[(Type,Type)]",
@@ -3019,6 +3283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage1",
           "name": "xn",
           "package": "type-int",
@@ -3028,6 +3293,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage1",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage1",
           "name": "xn",
           "normalized": "[Name]",
@@ -3041,9 +3307,12 @@
     {
       "cmd": "insert",
       "document": {
-        "description": {},
+        "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014"
+        },
         "index": {
           "hierarchy": "getContentsFromDoc",
+          "indexed": "2014-03-11T20:27:26",
           "module": "getContentsFromDoc"
         },
         "uri": "http://hackage.haskell.org/package/type-int/docs/Data-Type-Hex-Stage2.html"
@@ -3054,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStage3: Define everything else. The juicier bits are then exposed via \u003ca\u003eData.Type.Hex\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "Stage3",
           "package": "type-int",
@@ -3063,6 +3333,7 @@
         "index": {
           "description": "Stage3 Define everything else The juicier bits are then exposed via Data.Type.Hex",
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "Stage3",
           "package": "type-int",
@@ -3076,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TAdd",
           "package": "type-int",
@@ -3084,6 +3356,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TAdd",
           "package": "type-int",
@@ -3097,6 +3370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TAdd'",
           "package": "type-int",
@@ -3105,6 +3379,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TAdd'",
           "package": "type-int",
@@ -3118,6 +3393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TBinary2Hex",
           "package": "type-int",
@@ -3126,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TBinary2Hex",
           "package": "type-int",
@@ -3139,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "THex2Binary",
           "package": "type-int",
@@ -3147,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "THex2Binary",
           "package": "type-int",
@@ -3160,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "THex2Binary'",
           "package": "type-int",
@@ -3168,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "THex2Binary'",
           "package": "type-int",
@@ -3181,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "THexBinary",
           "package": "type-int",
@@ -3189,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "THexBinary",
           "package": "type-int",
@@ -3202,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsNegative",
           "package": "type-int",
@@ -3210,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsNegative",
           "package": "type-int",
@@ -3223,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsPositive",
           "package": "type-int",
@@ -3231,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsPositive",
           "package": "type-int",
@@ -3244,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsZero",
           "package": "type-int",
@@ -3252,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TIsZero",
           "package": "type-int",
@@ -3266,6 +3555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple peasant multiplier. TODO: exploit 2s complement and reverse the worst cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TMul",
           "package": "type-int",
@@ -3275,6 +3565,7 @@
         "index": {
           "description": "simple peasant multiplier TODO exploit complement and reverse the worst cases",
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TMul",
           "package": "type-int",
@@ -3288,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TNF",
           "package": "type-int",
@@ -3296,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TNF",
           "package": "type-int",
@@ -3309,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TNeg",
           "package": "type-int",
@@ -3317,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TNeg",
           "package": "type-int",
@@ -3331,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeasant exponentiator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TPow",
           "package": "type-int",
@@ -3340,6 +3636,7 @@
         "index": {
           "description": "peasant exponentiator",
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TPow",
           "package": "type-int",
@@ -3354,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeasant exponentiator with explicit binary exponent\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TPow'",
           "package": "type-int",
@@ -3363,6 +3661,7 @@
         "index": {
           "description": "peasant exponentiator with explicit binary exponent",
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TPow'",
           "package": "type-int",
@@ -3376,6 +3675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "TSub'",
           "package": "type-int",
@@ -3384,6 +3684,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "TSub'",
           "package": "type-int",
@@ -3474,6 +3775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAdd'",
           "package": "type-int",
@@ -3483,6 +3785,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAdd'",
           "normalized": "a-\u003eb-\u003ec",
@@ -3498,6 +3801,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAddC'",
           "package": "type-int",
@@ -3507,6 +3811,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAddC'",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -3522,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAddF'",
           "package": "type-int",
@@ -3531,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tAddF'",
           "normalized": "a-\u003eb-\u003ec",
@@ -3546,6 +3853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tBinary2Hex",
           "package": "type-int",
@@ -3555,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tBinary2Hex",
           "normalized": "a-\u003eb",
@@ -3570,6 +3879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tHex2Binary",
           "package": "type-int",
@@ -3579,6 +3889,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tHex2Binary",
           "normalized": "a-\u003eb",
@@ -3819,6 +4130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex.Stage3",
           "name": "tSub'",
           "package": "type-int",
@@ -3828,6 +4140,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex Stage3",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex.Stage3",
           "name": "tSub'",
           "normalized": "a-\u003eb-\u003ec",
@@ -3869,6 +4182,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eType-level hexadecimal numbers, positive and negative with infinite\n precision. Should work out to about 2^72 without changing the default\n context length limit in GHC.\n\u003c/p\u003e\u003cp\u003eTODO: TDivMod, TImplies, TGCD, T*Bit, and the boolean operators\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "Hex",
           "package": "type-int",
@@ -3878,6 +4192,7 @@
         "index": {
           "description": "Type-level hexadecimal numbers positive and negative with infinite precision Should work out to about without changing the default context length limit in GHC TODO TDivMod TImplies TGCD Bit and the boolean operators",
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "Hex",
           "package": "type-int",
@@ -3891,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TAdd",
           "package": "type-int",
@@ -3899,6 +4215,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TAdd",
           "package": "type-int",
@@ -3912,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "THexBinary",
           "package": "type-int",
@@ -3920,6 +4238,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "THexBinary",
           "package": "type-int",
@@ -3933,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TIsNegative",
           "package": "type-int",
@@ -3941,6 +4261,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TIsNegative",
           "package": "type-int",
@@ -3954,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TIsPositive",
           "package": "type-int",
@@ -3962,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TIsPositive",
           "package": "type-int",
@@ -3975,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TIsZero",
           "package": "type-int",
@@ -3983,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TIsZero",
           "package": "type-int",
@@ -3997,6 +4322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple peasant multiplier. TODO: exploit 2s complement and reverse the worst cases\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TMul",
           "package": "type-int",
@@ -4006,6 +4332,7 @@
         "index": {
           "description": "simple peasant multiplier TODO exploit complement and reverse the worst cases",
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TMul",
           "package": "type-int",
@@ -4019,6 +4346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TNF",
           "package": "type-int",
@@ -4027,6 +4355,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TNF",
           "package": "type-int",
@@ -4040,6 +4369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TNeg",
           "package": "type-int",
@@ -4048,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TNeg",
           "package": "type-int",
@@ -4062,6 +4393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epeasant exponentiator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Hex",
           "name": "TPow",
           "package": "type-int",
@@ -4071,6 +4403,7 @@
         "index": {
           "description": "peasant exponentiator",
           "hierarchy": "Data Type Hex",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Hex",
           "name": "TPow",
           "package": "type-int",
@@ -4085,6 +4418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple type-level Maybe w\u003cem\u003e Just\u003c/em\u003eNothing Types\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "Maybe",
           "package": "type-int",
@@ -4094,6 +4428,7 @@
         "index": {
           "description": "Simple type-level Maybe Just Nothing Types",
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "Maybe",
           "package": "type-int",
@@ -4107,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "TJust",
           "package": "type-int",
@@ -4115,6 +4451,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "TJust",
           "package": "type-int",
@@ -4128,6 +4465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "TMaybe",
           "package": "type-int",
@@ -4136,6 +4474,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "TMaybe",
           "package": "type-int",
@@ -4149,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "TNothing",
           "package": "type-int",
@@ -4157,6 +4497,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "TNothing",
           "package": "type-int",
@@ -4170,6 +4511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "tFromJust",
           "package": "type-int",
@@ -4179,6 +4521,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "tFromJust",
           "normalized": "TJust a-\u003ea",
@@ -4194,6 +4537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "tJust",
           "package": "type-int",
@@ -4203,6 +4547,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "tJust",
           "normalized": "a-\u003eTJust a",
@@ -4218,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Maybe",
           "name": "tNothing",
           "package": "type-int",
@@ -4227,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Data Type Maybe",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Maybe",
           "name": "tNothing",
           "package": "type-int",
@@ -4241,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple equality and ordering for types.\n Extended to include common usage cases.\n\u003c/p\u003e\u003cp\u003eInstances should all really be decidable.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "Ord",
           "package": "type-int",
@@ -4250,6 +4598,7 @@
         "index": {
           "description": "Simple equality and ordering for types Extended to include common usage cases Instances should all really be decidable",
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "Ord",
           "package": "type-int",
@@ -4263,6 +4612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "TEq",
           "package": "type-int",
@@ -4271,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "TEq",
           "package": "type-int",
@@ -4284,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "TGe",
           "package": "type-int",
@@ -4292,6 +4644,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "TGe",
           "package": "type-int",
@@ -4305,6 +4658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "TGt",
           "package": "type-int",
@@ -4313,6 +4667,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "TGt",
           "package": "type-int",
@@ -4326,6 +4681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "TLe",
           "package": "type-int",
@@ -4334,6 +4690,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "TLe",
           "package": "type-int",
@@ -4347,6 +4704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "TLt",
           "package": "type-int",
@@ -4355,6 +4713,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "TLt",
           "package": "type-int",
@@ -4368,6 +4727,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "tEq",
           "package": "type-int",
@@ -4377,6 +4737,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "tEq",
           "normalized": "a-\u003eb-\u003ec",
@@ -4392,6 +4753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "tGe",
           "package": "type-int",
@@ -4401,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "tGe",
           "normalized": "a-\u003eb-\u003ec",
@@ -4416,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "tGt",
           "package": "type-int",
@@ -4425,6 +4789,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "tGt",
           "normalized": "a-\u003eb-\u003ec",
@@ -4440,6 +4805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "tLe",
           "package": "type-int",
@@ -4449,6 +4815,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "tLe",
           "normalized": "a-\u003eb-\u003ec",
@@ -4464,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Ord",
           "name": "tLt",
           "package": "type-int",
@@ -4473,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Data Type Ord",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Ord",
           "name": "tLt",
           "normalized": "a-\u003eb-\u003ec",
@@ -4489,6 +4858,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUsed to express trichotomy at the type level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Sign",
           "name": "Sign",
           "package": "type-int",
@@ -4498,6 +4868,7 @@
         "index": {
           "description": "Used to express trichotomy at the type level",
           "hierarchy": "Data Type Sign",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Sign",
           "name": "Sign",
           "package": "type-int",
@@ -4511,6 +4882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Sign",
           "name": "Negative",
           "package": "type-int",
@@ -4519,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "Data Type Sign",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Sign",
           "name": "Negative",
           "package": "type-int",
@@ -4532,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Sign",
           "name": "Positive",
           "package": "type-int",
@@ -4540,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Data Type Sign",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Sign",
           "name": "Positive",
           "package": "type-int",
@@ -4553,6 +4928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Sign",
           "name": "SignZero",
           "package": "type-int",
@@ -4561,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Data Type Sign",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Sign",
           "name": "SignZero",
           "package": "type-int",
@@ -4574,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:26 UTC 2014",
           "module": "Data.Type.Sign",
           "name": "TSign",
           "package": "type-int",
@@ -4582,6 +4960,7 @@
         },
         "index": {
           "hierarchy": "Data Type Sign",
+          "indexed": "2014-03-11T20:27:26",
           "module": "Data.Type.Sign",
           "name": "TSign",
           "package": "type-int",

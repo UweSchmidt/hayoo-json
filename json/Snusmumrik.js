@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Snusmumrik"
+        "phrase": "Snusmumrik",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libxml-enumerator"
+        "phrase": "libxml-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:15 UTC 2014",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "Enumerator",
           "package": "libxml-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Enumerator",
+          "indexed": "2014-03-11T19:09:15",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "Enumerator",
           "package": "libxml-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:15 UTC 2014",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "parseBytesIO",
           "package": "libxml-enumerator",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Enumerator",
+          "indexed": "2014-03-11T19:09:15",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "parseBytesIO",
           "normalized": "Bool-\u003eMaybe Text-\u003eEnumeratee ByteString Event a b",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:09:15 UTC 2014",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "parseBytesST",
           "package": "libxml-enumerator",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Text XML LibXML Enumerator",
+          "indexed": "2014-03-11T19:09:15",
           "module": "Text.XML.LibXML.Enumerator",
           "name": "parseBytesST",
           "normalized": "Bool-\u003eMaybe Text-\u003eEnumeratee ByteString Event(ST a)b",

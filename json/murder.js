@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "murder"
+        "phrase": "murder",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar.AG",
           "name": "AG",
           "package": "murder",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar AG",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar.AG",
           "name": "AG",
           "package": "murder",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar.AG",
           "name": "SF",
           "package": "murder",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar AG",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar.AG",
           "name": "SF",
           "package": "murder",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar.AG",
           "name": "SF",
           "package": "murder",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar AG",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar.AG",
           "name": "SF",
           "package": "murder",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar.AG",
           "name": "unSF",
           "package": "murder",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar AG",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar.AG",
           "name": "unSF",
           "package": "murder",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar.AspectAG",
           "name": "AspectAG",
           "package": "murder",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar AspectAG",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar.AspectAG",
           "name": "AspectAG",
           "package": "murder",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Column",
           "package": "murder",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Column",
           "package": "murder",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "murder",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "murder",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "FL",
           "package": "murder",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "FL",
           "package": "murder",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Filename",
           "package": "murder",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Filename",
           "package": "murder",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "GramEnv",
           "package": "murder",
@@ -238,6 +259,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "GramEnv",
           "package": "murder",
@@ -251,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -259,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -272,6 +296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Idiomatic",
           "package": "murder",
@@ -280,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Idiomatic",
           "package": "murder",
@@ -294,6 +320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe  \u003ccode\u003e\u003ca\u003eIi\u003c/a\u003e\u003c/code\u003e is to be pronounced as \u003ccode\u003estop\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "murder",
@@ -303,6 +330,7 @@
         "index": {
           "description": "The Ii is to be pronounced as stop",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "murder",
@@ -316,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Kw",
           "package": "murder",
@@ -324,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Kw",
           "package": "murder",
@@ -337,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Line",
           "package": "murder",
@@ -345,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Line",
           "package": "murder",
@@ -358,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "NF",
           "package": "murder",
@@ -366,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "NF",
           "package": "murder",
@@ -379,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "murder",
@@ -387,6 +422,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "murder",
@@ -400,6 +436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PreGramEnv",
           "package": "murder",
@@ -408,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "PreGramEnv",
           "package": "murder",
@@ -421,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PreProductions",
           "package": "murder",
@@ -429,6 +468,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "PreProductions",
           "package": "murder",
@@ -442,6 +482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Prod",
           "package": "murder",
@@ -450,6 +491,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Prod",
           "package": "murder",
@@ -463,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Productions",
           "package": "murder",
@@ -471,6 +514,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Productions",
           "package": "murder",
@@ -485,6 +529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents a symbol in a production, either a terminal or non terminal. \n  Additional attributed terminal symbols exist for common lexical structures.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Symbol",
           "package": "murder",
@@ -494,6 +539,7 @@
         "index": {
           "description": "Represents symbol in production either terminal or non terminal Additional attributed terminal symbols exist for common lexical structures",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Symbol",
           "package": "murder",
@@ -507,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TAttT",
           "package": "murder",
@@ -515,6 +562,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TAttT",
           "package": "murder",
@@ -528,6 +576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TL",
           "package": "murder",
@@ -536,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TL",
           "package": "murder",
@@ -549,6 +599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TNonT",
           "package": "murder",
@@ -557,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TNonT",
           "package": "murder",
@@ -570,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TTerm",
           "package": "murder",
@@ -578,6 +631,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TTerm",
           "package": "murder",
@@ -591,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "murder",
@@ -600,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "DTerm",
           "package": "murder",
@@ -613,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Fix",
           "package": "murder",
@@ -622,6 +679,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Fix",
           "normalized": "Productions(FL a)a b-\u003eProd TL a b",
@@ -637,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "FlipStar",
           "package": "murder",
@@ -646,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "FlipStar",
           "normalized": "Prod NF a b-\u003eProd NF(a-\u003ec)b-\u003eProd NF c b",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -670,6 +731,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Grammar",
           "package": "murder",
@@ -683,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "murder",
@@ -692,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Ii",
           "package": "murder",
@@ -705,6 +769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Kw",
           "package": "murder",
@@ -714,6 +779,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Kw",
           "package": "murder",
@@ -727,6 +793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Nont",
           "package": "murder",
@@ -736,6 +803,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Nont",
           "normalized": "Ref a b-\u003eSymbol a TNonT b",
@@ -751,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PP",
           "package": "murder",
@@ -760,6 +829,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "PP",
           "package": "murder",
@@ -773,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PS",
           "package": "murder",
@@ -782,6 +853,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "PS",
           "package": "murder",
@@ -795,6 +867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "murder",
@@ -804,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Pos",
           "package": "murder",
@@ -817,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "PosFile",
           "package": "murder",
@@ -826,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "PosFile",
           "package": "murder",
@@ -839,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Pure",
           "package": "murder",
@@ -848,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Pure",
           "normalized": "a-\u003eProd b a c",
@@ -863,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Star",
           "package": "murder",
@@ -872,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Star",
           "normalized": "Prod a(b-\u003ec)d-\u003eProd a b d-\u003eProd a c d",
@@ -887,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Sym",
           "package": "murder",
@@ -896,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Sym",
           "normalized": "Symbol a b c-\u003eProd d a c",
@@ -911,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Term",
           "package": "murder",
@@ -920,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Term",
           "normalized": "String-\u003eSymbol(DTerm String)TTerm a",
@@ -935,6 +1019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermAnyExcept",
           "package": "murder",
@@ -944,6 +1029,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermAnyExcept",
           "normalized": "[Char]-\u003eSymbol(DTerm Char)TAttT a",
@@ -959,6 +1045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermAnyOf",
           "package": "murder",
@@ -968,6 +1055,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermAnyOf",
           "normalized": "[Char]-\u003eSymbol(DTerm Char)TAttT a",
@@ -983,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermChar",
           "package": "murder",
@@ -992,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermChar",
           "package": "murder",
@@ -1005,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermConid",
           "package": "murder",
@@ -1014,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermConid",
           "package": "murder",
@@ -1027,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermInt",
           "package": "murder",
@@ -1036,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermInt",
           "package": "murder",
@@ -1049,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermOp",
           "package": "murder",
@@ -1058,6 +1153,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermOp",
           "package": "murder",
@@ -1071,6 +1167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "TermVarid",
           "package": "murder",
@@ -1080,6 +1177,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "TermVarid",
           "package": "murder",
@@ -1093,6 +1191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "Var",
           "package": "murder",
@@ -1102,6 +1201,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "Var",
           "package": "murder",
@@ -1115,6 +1215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "anyExcept",
           "package": "murder",
@@ -1124,6 +1225,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "anyExcept",
           "normalized": "[Char]-\u003eSymbol(DTerm Char)TAttT a",
@@ -1139,6 +1241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "anyOf",
           "package": "murder",
@@ -1148,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "anyOf",
           "normalized": "[Char]-\u003eSymbol(DTerm Char)TAttT a",
@@ -1163,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "char",
           "package": "murder",
@@ -1172,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "char",
           "package": "murder",
@@ -1184,6 +1290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "con",
           "package": "murder",
@@ -1193,6 +1300,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "con",
           "package": "murder",
@@ -1206,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe fixpoint of a production\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "fixPrd",
           "package": "murder",
@@ -1216,6 +1325,7 @@
         "index": {
           "description": "The fixpoint of production",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "fixPrd",
           "normalized": "PreProductions(FL a)b a-\u003ePreProductions TL b a",
@@ -1232,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the reference into the environment from the non terminal.  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "getRefNT",
           "package": "murder",
@@ -1242,6 +1353,7 @@
         "index": {
           "description": "Gets the reference into the environment from the non terminal",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "getRefNT",
           "normalized": "Symbol a TNonT b-\u003eRef a b",
@@ -1258,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eiI\u003c/a\u003e\u003c/code\u003e is to be pronounced as \u003ccode\u003estart\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "iI",
           "package": "murder",
@@ -1268,6 +1381,7 @@
         "index": {
           "description": "The function iI is to be pronounced as start",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "iI",
           "package": "murder",
@@ -1280,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "idiomatic",
           "package": "murder",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "idiomatic",
           "normalized": "PreProductions a b c-\u003ed",
@@ -1303,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "int",
           "package": "murder",
@@ -1312,6 +1429,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "int",
           "package": "murder",
@@ -1324,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "kw",
           "package": "murder",
@@ -1333,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "kw",
           "normalized": "String-\u003eKw",
@@ -1348,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatches two symbols\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "matchSym",
           "package": "murder",
@@ -1358,6 +1479,7 @@
         "index": {
           "description": "Matches two symbols",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "matchSym",
           "normalized": "Symbol a b c-\u003eSymbol d b c-\u003eMaybe(Equal(a,b)(d,b))",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "mkDTerm",
           "package": "murder",
@@ -1382,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "mkDTerm",
           "normalized": "a-\u003eDTerm a",
@@ -1398,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a non terminal into a singleton PreProductions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "nt",
           "package": "murder",
@@ -1408,6 +1533,7 @@
         "index": {
           "description": "Lifts non terminal into singleton PreProductions",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "nt",
           "normalized": "Symbol a TNonT b-\u003ePreProductions c b a",
@@ -1422,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "ntPrd",
           "package": "murder",
@@ -1431,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "ntPrd",
           "normalized": "Symbol a TNonT b-\u003ePreProductions c b a",
@@ -1446,6 +1574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "op",
           "package": "murder",
@@ -1455,6 +1584,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "op",
           "package": "murder",
@@ -1467,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "opt",
           "package": "murder",
@@ -1476,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "opt",
           "normalized": "PreProductions a b c-\u003ec-\u003ePreProductions a b c",
@@ -1490,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pFoldr",
           "package": "murder",
@@ -1499,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pFoldr",
           "normalized": "(a-\u003eb-\u003eb,b)-\u003ePreProductions(FL b)c a-\u003ePreProductions TL c b",
@@ -1514,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pMany",
           "package": "murder",
@@ -1523,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pMany",
           "normalized": "PreProductions(FL[a])b a-\u003ePreProductions TL b[a]",
@@ -1538,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pMaybe",
           "package": "murder",
@@ -1547,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pMaybe",
           "normalized": "(a,b-\u003ea)-\u003ePreProductions TL c b-\u003ePreProductions TL c a",
@@ -1562,6 +1700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pSome",
           "package": "murder",
@@ -1571,6 +1710,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pSome",
           "normalized": "PreProductions(FL[a])b a-\u003ePreProductions TL b[a]",
@@ -1586,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pairEq",
           "package": "murder",
@@ -1595,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pairEq",
           "normalized": "Maybe(Equal a b)-\u003eMaybe(Equal(a,c)(b,c))",
@@ -1610,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "pos",
           "package": "murder",
@@ -1619,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "pos",
           "package": "murder",
@@ -1632,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConversion between Productions and PreProductions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "prod",
           "package": "murder",
@@ -1642,6 +1787,7 @@
         "index": {
           "description": "Conversion between Productions and PreProductions",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "prod",
           "normalized": "PreProductions a b c-\u003eProductions a c b",
@@ -1657,6 +1803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a single symbol into a singleton PreProductions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "sym",
           "package": "murder",
@@ -1667,6 +1814,7 @@
         "index": {
           "description": "Lifts single symbol into singleton PreProductions",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "sym",
           "normalized": "Symbol a b c-\u003ePreProductions d c a",
@@ -1682,6 +1830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLifts a string, as terminal into a singleton PreProductions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "tr",
           "package": "murder",
@@ -1692,6 +1841,7 @@
         "index": {
           "description": "Lifts string as terminal into singleton PreProductions",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "tr",
           "normalized": "String-\u003ePreProductions a b(DTerm String)",
@@ -1706,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "unPP",
           "package": "murder",
@@ -1715,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "unPP",
           "normalized": "[Prod a b c]",
@@ -1730,6 +1882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "unPS",
           "package": "murder",
@@ -1739,6 +1892,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "unPS",
           "normalized": "[Prod a b c]",
@@ -1754,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "value",
           "package": "murder",
@@ -1763,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "value",
           "package": "murder",
@@ -1775,6 +1931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "var",
           "package": "murder",
@@ -1784,6 +1941,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "var",
           "package": "murder",
@@ -1797,6 +1955,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA PreProductions for a variable used on fixpoint level\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Grammar",
           "name": "varPrd",
           "package": "murder",
@@ -1807,6 +1966,7 @@
         "index": {
           "description": "PreProductions for variable used on fixpoint level",
           "hierarchy": "Language Grammars Grammar",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Grammar",
           "name": "varPrd",
           "package": "murder",
@@ -1820,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Derive",
           "name": "Derive",
           "package": "murder",
@@ -1828,6 +1989,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Derive",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Derive",
           "name": "Derive",
           "package": "murder",
@@ -1841,6 +2003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Derive",
           "name": "csLabel",
           "package": "murder",
@@ -1850,6 +2013,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Derive",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Derive",
           "name": "csLabel",
           "normalized": "String-\u003eQ[Dec]",
@@ -1865,6 +2029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Derive",
           "name": "csLabels",
           "package": "murder",
@@ -1874,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Derive",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Derive",
           "name": "csLabels",
           "normalized": "[String]-\u003eQ[Dec]",
@@ -1889,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "Scanner",
           "package": "murder",
@@ -1897,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "Scanner",
           "package": "murder",
@@ -1910,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "EnumValToken",
           "package": "murder",
@@ -1918,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "EnumValToken",
           "package": "murder",
@@ -1931,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "InFilePos",
           "package": "murder",
@@ -1939,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "InFilePos",
           "package": "murder",
@@ -1952,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "ScanOpts",
           "package": "murder",
@@ -1960,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "ScanOpts",
           "package": "murder",
@@ -1973,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "Token",
           "package": "murder",
@@ -1981,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "Token",
           "package": "murder",
@@ -1994,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "InFilePos",
           "package": "murder",
@@ -2003,6 +2180,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "InFilePos",
           "package": "murder",
@@ -2016,6 +2194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "ScanOpts",
           "package": "murder",
@@ -2025,6 +2204,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "ScanOpts",
           "package": "murder",
@@ -2038,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkChar",
           "package": "murder",
@@ -2047,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkChar",
           "package": "murder",
@@ -2060,6 +2242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkConOp",
           "package": "murder",
@@ -2069,6 +2252,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkConOp",
           "package": "murder",
@@ -2082,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkConid",
           "package": "murder",
@@ -2091,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkConid",
           "package": "murder",
@@ -2104,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkError",
           "package": "murder",
@@ -2113,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkError",
           "package": "murder",
@@ -2126,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkFraction",
           "package": "murder",
@@ -2135,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkFraction",
           "package": "murder",
@@ -2148,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger10",
           "package": "murder",
@@ -2157,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger10",
           "package": "murder",
@@ -2170,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger16",
           "package": "murder",
@@ -2179,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger16",
           "package": "murder",
@@ -2192,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger8",
           "package": "murder",
@@ -2201,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkInteger8",
           "package": "murder",
@@ -2214,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkOp",
           "package": "murder",
@@ -2223,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkOp",
           "package": "murder",
@@ -2236,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQConOp",
           "package": "murder",
@@ -2245,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQConOp",
           "package": "murder",
@@ -2258,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQConid",
           "package": "murder",
@@ -2267,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQConid",
           "package": "murder",
@@ -2280,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQOp",
           "package": "murder",
@@ -2289,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQOp",
           "package": "murder",
@@ -2302,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQVarid",
           "package": "murder",
@@ -2311,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkQVarid",
           "package": "murder",
@@ -2324,6 +2530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkString",
           "package": "murder",
@@ -2333,6 +2540,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkString",
           "package": "murder",
@@ -2346,6 +2554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkTextln",
           "package": "murder",
@@ -2355,6 +2564,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkTextln",
           "package": "murder",
@@ -2368,6 +2578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkTextnm",
           "package": "murder",
@@ -2377,6 +2588,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkTextnm",
           "package": "murder",
@@ -2390,6 +2602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkVarid",
           "package": "murder",
@@ -2399,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "TkVarid",
           "package": "murder",
@@ -2412,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "defaultScanOpts",
           "package": "murder",
@@ -2421,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "defaultScanOpts",
           "package": "murder",
@@ -2434,6 +2650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "errToken",
           "package": "murder",
@@ -2443,6 +2660,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "errToken",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -2458,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokMap",
           "package": "murder",
@@ -2467,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokMap",
           "normalized": "(a-\u003eb)-\u003eGenToken a c a-\u003eGenToken b c b",
@@ -2482,6 +2702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokTp",
           "package": "murder",
@@ -2491,6 +2712,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokTp",
           "normalized": "GenToken a b c-\u003eMaybe b",
@@ -2506,6 +2728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokVal",
           "package": "murder",
@@ -2515,6 +2738,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "genTokVal",
           "normalized": "GenToken a b a-\u003ea",
@@ -2530,6 +2754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "getBaseNumber",
           "package": "murder",
@@ -2539,6 +2764,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "getBaseNumber",
           "normalized": "Integer-\u003e[Char]-\u003eInteger",
@@ -2554,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "getRational",
           "package": "murder",
@@ -2563,6 +2790,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "getRational",
           "normalized": "String-\u003e(String,Maybe String,Maybe(Maybe String,String))",
@@ -2578,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdv1Line",
           "package": "murder",
@@ -2587,6 +2816,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdv1Line",
           "normalized": "InFilePos-\u003eInFilePos",
@@ -2602,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvCol",
           "package": "murder",
@@ -2611,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvCol",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -2626,6 +2858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvLine",
           "package": "murder",
@@ -2635,6 +2868,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvLine",
           "normalized": "Int-\u003eInFilePos-\u003eInFilePos",
@@ -2650,6 +2884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvStr",
           "package": "murder",
@@ -2659,6 +2894,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpAdvStr",
           "normalized": "String-\u003eInFilePos-\u003eInFilePos",
@@ -2674,6 +2910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpColumn",
           "package": "murder",
@@ -2683,6 +2920,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpColumn",
           "package": "murder",
@@ -2696,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpLine",
           "package": "murder",
@@ -2705,6 +2944,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpLine",
           "package": "murder",
@@ -2718,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpNone",
           "package": "murder",
@@ -2727,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpNone",
           "package": "murder",
@@ -2740,6 +2982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpStart",
           "package": "murder",
@@ -2749,6 +2992,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "infpStart",
           "package": "murder",
@@ -2762,6 +3006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isBlack",
           "package": "murder",
@@ -2771,6 +3016,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isBlack",
           "normalized": "Char-\u003eBool",
@@ -2786,6 +3032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isLF",
           "package": "murder",
@@ -2795,6 +3042,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isLF",
           "normalized": "Char-\u003eBool",
@@ -2810,6 +3058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isNoPos",
           "package": "murder",
@@ -2819,6 +3068,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isNoPos",
           "normalized": "Pos-\u003eBool",
@@ -2834,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isStr",
           "package": "murder",
@@ -2843,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isStr",
           "normalized": "Char-\u003eBool",
@@ -2858,6 +3110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isStrQuote",
           "package": "murder",
@@ -2867,6 +3120,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isStrQuote",
           "normalized": "Char-\u003eBool",
@@ -2882,6 +3136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isVarRest",
           "package": "murder",
@@ -2891,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isVarRest",
           "normalized": "Char-\u003eBool",
@@ -2906,6 +3162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isVarStart",
           "package": "murder",
@@ -2915,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isVarStart",
           "normalized": "Char-\u003eBool",
@@ -2930,6 +3188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isWhite",
           "package": "murder",
@@ -2939,6 +3198,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "isWhite",
           "normalized": "Char-\u003eBool",
@@ -2954,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pBracks",
           "package": "murder",
@@ -2963,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pBracks",
           "normalized": "a b-\u003ea b",
@@ -2978,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pBracks_pCommas",
           "package": "murder",
@@ -2987,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pBracks_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -3002,6 +3266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCBrack",
           "package": "murder",
@@ -3011,6 +3276,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCBrack",
           "package": "murder",
@@ -3024,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCBrackPos",
           "package": "murder",
@@ -3033,6 +3300,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCBrackPos",
           "package": "murder",
@@ -3046,6 +3314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCCurly",
           "package": "murder",
@@ -3055,6 +3324,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCCurly",
           "package": "murder",
@@ -3068,6 +3338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCCurlyPos",
           "package": "murder",
@@ -3077,6 +3348,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCCurlyPos",
           "package": "murder",
@@ -3090,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCParen",
           "package": "murder",
@@ -3099,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCParen",
           "package": "murder",
@@ -3112,6 +3386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCParenPos",
           "package": "murder",
@@ -3121,6 +3396,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCParenPos",
           "package": "murder",
@@ -3134,6 +3410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pChar",
           "package": "murder",
@@ -3143,6 +3420,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pChar",
           "package": "murder",
@@ -3156,6 +3434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCharPos",
           "package": "murder",
@@ -3165,6 +3444,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCharPos",
           "normalized": "a(String,Pos)",
@@ -3180,6 +3460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pComma",
           "package": "murder",
@@ -3189,6 +3470,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pComma",
           "package": "murder",
@@ -3202,6 +3484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCommaPos",
           "package": "murder",
@@ -3211,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCommaPos",
           "package": "murder",
@@ -3224,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCommas",
           "package": "murder",
@@ -3233,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -3248,6 +3534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConid",
           "package": "murder",
@@ -3257,6 +3544,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConid",
           "package": "murder",
@@ -3270,6 +3558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConidPos",
           "package": "murder",
@@ -3279,6 +3568,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConidPos",
           "normalized": "a(String,Pos)",
@@ -3294,6 +3584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConsym",
           "package": "murder",
@@ -3303,6 +3594,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConsym",
           "package": "murder",
@@ -3316,6 +3608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConsymPos",
           "package": "murder",
@@ -3325,6 +3618,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pConsymPos",
           "normalized": "a(String,Pos)",
@@ -3340,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCurly",
           "package": "murder",
@@ -3349,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCurly",
           "normalized": "a b-\u003ea b",
@@ -3364,6 +3660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCurly_pSemics",
           "package": "murder",
@@ -3373,6 +3670,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pCurly_pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -3388,6 +3686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pFraction",
           "package": "murder",
@@ -3397,6 +3696,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pFraction",
           "package": "murder",
@@ -3410,6 +3710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pFractionPos",
           "package": "murder",
@@ -3419,6 +3720,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pFractionPos",
           "normalized": "a(String,Pos)",
@@ -3434,6 +3736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger",
           "package": "murder",
@@ -3443,6 +3746,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger",
           "package": "murder",
@@ -3456,6 +3760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger10",
           "package": "murder",
@@ -3465,6 +3770,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger10",
           "package": "murder",
@@ -3478,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger10Pos",
           "package": "murder",
@@ -3487,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger10Pos",
           "normalized": "a(String,Pos)",
@@ -3502,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger16",
           "package": "murder",
@@ -3511,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger16",
           "package": "murder",
@@ -3524,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger16Pos",
           "package": "murder",
@@ -3533,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger16Pos",
           "normalized": "a(String,Pos)",
@@ -3548,6 +3860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger8",
           "package": "murder",
@@ -3557,6 +3870,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger8",
           "package": "murder",
@@ -3570,6 +3884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger8Pos",
           "package": "murder",
@@ -3579,6 +3894,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pInteger8Pos",
           "normalized": "a(String,Pos)",
@@ -3594,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pIntegerPos",
           "package": "murder",
@@ -3603,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pIntegerPos",
           "normalized": "a(String,Pos)",
@@ -3618,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pKey",
           "package": "murder",
@@ -3627,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pKey",
           "normalized": "String-\u003ea String",
@@ -3642,6 +3962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pKeyPos",
           "package": "murder",
@@ -3651,6 +3972,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pKeyPos",
           "normalized": "String-\u003ea Pos",
@@ -3666,6 +3988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOBrack",
           "package": "murder",
@@ -3675,6 +3998,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOBrack",
           "package": "murder",
@@ -3688,6 +4012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOBrackPos",
           "package": "murder",
@@ -3697,6 +4022,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOBrackPos",
           "package": "murder",
@@ -3710,6 +4036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOCurly",
           "package": "murder",
@@ -3719,6 +4046,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOCurly",
           "package": "murder",
@@ -3732,6 +4060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOCurlyPos",
           "package": "murder",
@@ -3741,6 +4070,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOCurlyPos",
           "package": "murder",
@@ -3754,6 +4084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOParen",
           "package": "murder",
@@ -3763,6 +4094,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOParen",
           "package": "murder",
@@ -3776,6 +4108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOParenPos",
           "package": "murder",
@@ -3785,6 +4118,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pOParenPos",
           "package": "murder",
@@ -3798,6 +4132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pParens",
           "package": "murder",
@@ -3807,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pParens",
           "normalized": "a b-\u003ea b",
@@ -3822,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pParens_pCommas",
           "package": "murder",
@@ -3831,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pParens_pCommas",
           "normalized": "a b-\u003ea[b]",
@@ -3846,6 +4184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemi",
           "package": "murder",
@@ -3855,6 +4194,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemi",
           "package": "murder",
@@ -3868,6 +4208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemiPos",
           "package": "murder",
@@ -3877,6 +4218,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemiPos",
           "package": "murder",
@@ -3890,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemics",
           "package": "murder",
@@ -3899,6 +4242,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSemics",
           "normalized": "a b-\u003ea[b]",
@@ -3914,6 +4258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSpec",
           "package": "murder",
@@ -3923,6 +4268,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSpec",
           "normalized": "Char-\u003ea String",
@@ -3938,6 +4284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSpecPos",
           "package": "murder",
@@ -3947,6 +4294,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pSpecPos",
           "normalized": "Char-\u003ea Pos",
@@ -3962,6 +4310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pString",
           "package": "murder",
@@ -3971,6 +4320,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pString",
           "package": "murder",
@@ -3984,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pStringPos",
           "package": "murder",
@@ -3993,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pStringPos",
           "normalized": "a(String,Pos)",
@@ -4008,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextln",
           "package": "murder",
@@ -4017,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextln",
           "package": "murder",
@@ -4030,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextlnPos",
           "package": "murder",
@@ -4039,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextlnPos",
           "normalized": "a(String,Pos)",
@@ -4054,6 +4410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextnm",
           "package": "murder",
@@ -4063,6 +4420,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextnm",
           "package": "murder",
@@ -4076,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextnmPos",
           "package": "murder",
@@ -4085,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pTextnmPos",
           "normalized": "a(String,Pos)",
@@ -4100,6 +4460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarid",
           "package": "murder",
@@ -4109,6 +4470,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarid",
           "package": "murder",
@@ -4122,6 +4484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVaridPos",
           "package": "murder",
@@ -4131,6 +4494,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVaridPos",
           "normalized": "a(String,Pos)",
@@ -4146,6 +4510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarsym",
           "package": "murder",
@@ -4155,6 +4520,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarsym",
           "package": "murder",
@@ -4168,6 +4534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarsymPos",
           "package": "murder",
@@ -4177,6 +4544,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "pVarsymPos",
           "normalized": "a(String,Pos)",
@@ -4192,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "posIs1stColumn",
           "package": "murder",
@@ -4201,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "posIs1stColumn",
           "normalized": "Pos-\u003eBool",
@@ -4216,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "reserved",
           "package": "murder",
@@ -4225,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "reserved",
           "normalized": "String-\u003ePos-\u003eToken",
@@ -4239,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scan",
           "package": "murder",
@@ -4248,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scan",
           "normalized": "ScanOpts-\u003ePos-\u003eString-\u003e[Token]",
@@ -4262,6 +4636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scanFile",
           "package": "murder",
@@ -4271,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scanFile",
           "normalized": "ScanOpts-\u003eFilePath-\u003eIO[Token]",
@@ -4286,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scanHandle",
           "package": "murder",
@@ -4295,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scanHandle",
           "normalized": "ScanOpts-\u003eFilePath-\u003eHandle-\u003eIO[Token]",
@@ -4310,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoAllowQualified",
           "package": "murder",
@@ -4319,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoAllowQualified",
           "package": "murder",
@@ -4332,6 +4712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoCommandsTxt",
           "package": "murder",
@@ -4341,6 +4722,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoCommandsTxt",
           "package": "murder",
@@ -4354,6 +4736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoDollarIdent",
           "package": "murder",
@@ -4363,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoDollarIdent",
           "package": "murder",
@@ -4376,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoKeywordsOps",
           "package": "murder",
@@ -4385,6 +4770,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoKeywordsOps",
           "package": "murder",
@@ -4398,6 +4784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoKeywordsTxt",
           "package": "murder",
@@ -4407,6 +4794,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoKeywordsTxt",
           "package": "murder",
@@ -4420,6 +4808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoLitmode",
           "package": "murder",
@@ -4429,6 +4818,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoLitmode",
           "package": "murder",
@@ -4442,6 +4832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideClose",
           "package": "murder",
@@ -4451,6 +4842,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideClose",
           "package": "murder",
@@ -4464,6 +4856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideModule",
           "package": "murder",
@@ -4473,6 +4866,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideModule",
           "package": "murder",
@@ -4486,6 +4880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideOpen",
           "package": "murder",
@@ -4495,6 +4890,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideOpen",
           "package": "murder",
@@ -4508,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideTrigs",
           "package": "murder",
@@ -4517,6 +4914,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOffsideTrigs",
           "normalized": "[String]",
@@ -4532,6 +4930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOpChars",
           "package": "murder",
@@ -4541,6 +4940,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoOpChars",
           "package": "murder",
@@ -4554,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoSpecChars",
           "package": "murder",
@@ -4563,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoSpecChars",
           "package": "murder",
@@ -4576,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoSpecPairs",
           "package": "murder",
@@ -4585,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoSpecPairs",
           "package": "murder",
@@ -4598,6 +5002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoVerbOpenClose",
           "package": "murder",
@@ -4607,6 +5012,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "scoVerbOpenClose",
           "normalized": "[(String,String)]",
@@ -4622,6 +5028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpIsId",
           "package": "murder",
@@ -4631,6 +5038,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpIsId",
           "normalized": "EnumValToken-\u003eBool",
@@ -4646,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpIsInt",
           "package": "murder",
@@ -4655,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpIsInt",
           "normalized": "EnumValToken-\u003eBool",
@@ -4670,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpQual",
           "package": "murder",
@@ -4679,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "tokTpQual",
           "normalized": "EnumValToken-\u003eEnumValToken",
@@ -4694,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "valueToken",
           "package": "murder",
@@ -4703,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder Scanner",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.Scanner",
           "name": "valueToken",
           "normalized": "EnumValToken-\u003eString-\u003ePos-\u003eToken",
@@ -4718,6 +5132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "UULib",
           "package": "murder",
@@ -4726,6 +5141,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "UULib",
           "package": "murder",
@@ -4739,6 +5155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Const",
           "package": "murder",
@@ -4747,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Const",
           "package": "murder",
@@ -4760,6 +5178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "ParseMsg",
           "package": "murder",
@@ -4768,6 +5187,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "ParseMsg",
           "package": "murder",
@@ -4781,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "ParseResult",
           "package": "murder",
@@ -4789,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "ParseResult",
           "package": "murder",
@@ -4802,6 +5224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "C",
           "package": "murder",
@@ -4811,6 +5234,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "C",
           "package": "murder",
@@ -4823,6 +5247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Ok",
           "package": "murder",
@@ -4832,6 +5257,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Ok",
           "package": "murder",
@@ -4845,6 +5271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Rep",
           "package": "murder",
@@ -4854,6 +5281,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "Rep",
           "normalized": "Rep a[ParseMsg]",
@@ -4869,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "compile",
           "package": "murder",
@@ -4878,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "compile",
           "normalized": "Grammar a-\u003eParser Token a",
@@ -4892,6 +5322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "mapEnv",
           "package": "murder",
@@ -4901,6 +5332,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "mapEnv",
           "normalized": "(a b c d e-\u003ef d e)-\u003eEnv c e g-\u003eEnv f e g",
@@ -4916,6 +5348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pChr",
           "package": "murder",
@@ -4925,6 +5358,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pChr",
           "package": "murder",
@@ -4938,6 +5372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pCon",
           "package": "murder",
@@ -4947,6 +5382,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pCon",
           "package": "murder",
@@ -4960,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pInt",
           "package": "murder",
@@ -4969,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pInt",
           "package": "murder",
@@ -4982,6 +5420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pOp",
           "package": "murder",
@@ -4991,6 +5430,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pOp",
           "package": "murder",
@@ -5004,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pTerm",
           "package": "murder",
@@ -5013,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pTerm",
           "normalized": "String-\u003ea(DTerm String)",
@@ -5028,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pVar",
           "package": "murder",
@@ -5037,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "pVar",
           "package": "murder",
@@ -5050,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "parse",
           "package": "murder",
@@ -5059,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "parse",
           "normalized": "Parser Token a-\u003e[Token]-\u003eParseResult a",
@@ -5073,6 +5519,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "rparse",
           "package": "murder",
@@ -5082,6 +5529,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "rparse",
           "normalized": "Parser Token a-\u003e[Token]-\u003e(a,[ParseMsg])",
@@ -5096,6 +5544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "toDTerm",
           "package": "murder",
@@ -5105,6 +5554,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "toDTerm",
           "normalized": "(a-\u003eb)-\u003e(a,Pos)-\u003eDTerm b",
@@ -5120,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "toPos",
           "package": "murder",
@@ -5129,6 +5580,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "toPos",
           "normalized": "Pos-\u003ePos",
@@ -5144,6 +5596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UULib",
           "name": "unC",
           "package": "murder",
@@ -5153,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UULib",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UULib",
           "name": "unC",
           "package": "murder",
@@ -5165,6 +5619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "UUParsing",
           "package": "murder",
@@ -5173,6 +5628,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "UUParsing",
           "package": "murder",
@@ -5186,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Const",
           "package": "murder",
@@ -5194,6 +5651,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Const",
           "package": "murder",
@@ -5207,6 +5665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "ParseResult",
           "package": "murder",
@@ -5215,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "ParseResult",
           "package": "murder",
@@ -5228,6 +5688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Parser",
           "package": "murder",
@@ -5236,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Parser",
           "package": "murder",
@@ -5249,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "C",
           "package": "murder",
@@ -5258,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "C",
           "package": "murder",
@@ -5270,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Ok",
           "package": "murder",
@@ -5279,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Ok",
           "package": "murder",
@@ -5292,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Rep",
           "package": "murder",
@@ -5301,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "Rep",
           "normalized": "Rep a[Error LineCol]",
@@ -5317,6 +5785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ecompile\u003c/a\u003e\u003c/code\u003e generates a parser out of a closed grammar \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "compile",
           "package": "murder",
@@ -5327,6 +5796,7 @@
         "index": {
           "description": "The function compile generates parser out of closed grammar",
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "compile",
           "normalized": "Grammar a-\u003eParser a",
@@ -5342,6 +5812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003ecompileKws\u003c/a\u003e\u003c/code\u003e generates a parser out of a closed grammar, restricting the identifiers to not belong to the list of reserved words\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "compileKws",
           "package": "murder",
@@ -5352,6 +5823,7 @@
         "index": {
           "description": "The function compileKws generates parser out of closed grammar restricting the identifiers to not belong to the list of reserved words",
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "compileKws",
           "normalized": "Set String-\u003eGrammar a-\u003eParser a",
@@ -5367,6 +5839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "generate",
           "package": "murder",
@@ -5376,6 +5849,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "generate",
           "normalized": "Set String-\u003eGrammar a-\u003eParser a",
@@ -5390,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "lc2Pos",
           "package": "murder",
@@ -5399,6 +5874,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "lc2Pos",
           "normalized": "LineCol-\u003ePos",
@@ -5414,6 +5890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "mapEnv",
           "package": "murder",
@@ -5423,6 +5900,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "mapEnv",
           "normalized": "(a b c d e-\u003ef d e)-\u003eEnv c e g-\u003eEnv f e g",
@@ -5438,6 +5916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "nuberror",
           "package": "murder",
@@ -5447,6 +5926,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "nuberror",
           "normalized": "Error a-\u003eError a",
@@ -5461,6 +5941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pAnyExcept",
           "package": "murder",
@@ -5470,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pAnyExcept",
           "normalized": "[Char]-\u003eParser Char",
@@ -5485,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pChr",
           "package": "murder",
@@ -5494,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pChr",
           "package": "murder",
@@ -5507,6 +5991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pCon",
           "package": "murder",
@@ -5516,6 +6001,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pCon",
           "normalized": "Set String-\u003eParser String",
@@ -5531,6 +6017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pCon'",
           "package": "murder",
@@ -5540,6 +6027,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pCon'",
           "package": "murder",
@@ -5553,6 +6041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pIdChar",
           "package": "murder",
@@ -5562,6 +6051,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pIdChar",
           "package": "murder",
@@ -5575,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pInt",
           "package": "murder",
@@ -5584,6 +6075,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pInt",
           "package": "murder",
@@ -5597,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pOp",
           "package": "murder",
@@ -5606,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pOp",
           "package": "murder",
@@ -5619,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pSpaces'",
           "package": "murder",
@@ -5628,6 +6123,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pSpaces'",
           "package": "murder",
@@ -5641,6 +6137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pTerm",
           "package": "murder",
@@ -5650,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pTerm",
           "normalized": "String-\u003eParser String",
@@ -5665,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pVar",
           "package": "murder",
@@ -5674,6 +6173,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pVar",
           "normalized": "Set String-\u003eParser String",
@@ -5689,6 +6189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pVar'",
           "package": "murder",
@@ -5698,6 +6199,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "pVar'",
           "package": "murder",
@@ -5712,6 +6214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function \u003ccode\u003e\u003ca\u003eparse\u003c/a\u003e\u003c/code\u003e runs the parser for an input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "parse",
           "package": "murder",
@@ -5722,6 +6225,7 @@
         "index": {
           "description": "The function parse runs the parser for an input",
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "parse",
           "normalized": "Parser a-\u003eString-\u003eParseResult a",
@@ -5736,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "unC",
           "package": "murder",
@@ -5745,6 +6250,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder UUParsing",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder.UUParsing",
           "name": "unC",
           "package": "murder",
@@ -5757,6 +6263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "Murder",
           "package": "murder",
@@ -5765,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "Murder",
           "package": "murder",
@@ -5778,6 +6286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "Duplicated",
           "package": "murder",
@@ -5786,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "Duplicated",
           "package": "murder",
@@ -5799,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "Export",
           "package": "murder",
@@ -5807,6 +6318,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "Export",
           "package": "murder",
@@ -5820,6 +6332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "ExtGram",
           "package": "murder",
@@ -5828,6 +6341,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "ExtGram",
           "package": "murder",
@@ -5841,6 +6355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "Fail",
           "package": "murder",
@@ -5849,6 +6364,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "Fail",
           "package": "murder",
@@ -5862,6 +6378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "GetNT",
           "package": "murder",
@@ -5870,6 +6387,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "GetNT",
           "package": "murder",
@@ -5883,6 +6401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "GetNTBool",
           "package": "murder",
@@ -5891,6 +6410,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "GetNTBool",
           "package": "murder",
@@ -5904,6 +6424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "GetNTLabel",
           "package": "murder",
@@ -5912,6 +6433,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "GetNTLabel",
           "package": "murder",
@@ -5925,6 +6447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "GramExt",
           "package": "murder",
@@ -5933,6 +6456,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "GramExt",
           "package": "murder",
@@ -5946,6 +6470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "GramTrafo",
           "package": "murder",
@@ -5954,6 +6479,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "GramTrafo",
           "package": "murder",
@@ -5967,6 +6493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "HFalse",
           "package": "murder",
@@ -5975,6 +6502,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "HFalse",
           "package": "murder",
@@ -5988,6 +6516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "HTrue",
           "package": "murder",
@@ -5996,6 +6525,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "HTrue",
           "package": "murder",
@@ -6009,6 +6539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "LSPair",
           "package": "murder",
@@ -6017,6 +6548,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "LSPair",
           "package": "murder",
@@ -6030,6 +6562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NTCons",
           "package": "murder",
@@ -6038,6 +6571,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NTCons",
           "package": "murder",
@@ -6051,6 +6585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NTNil",
           "package": "murder",
@@ -6059,6 +6594,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NTNil",
           "package": "murder",
@@ -6072,6 +6608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NTRecord",
           "package": "murder",
@@ -6080,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NTRecord",
           "package": "murder",
@@ -6093,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NotDuplicated",
           "package": "murder",
@@ -6101,6 +6640,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NotDuplicated",
           "package": "murder",
@@ -6114,6 +6654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NotFound",
           "package": "murder",
@@ -6122,6 +6663,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NotFound",
           "package": "murder",
@@ -6135,6 +6677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "PreGramTrafo",
           "package": "murder",
@@ -6143,6 +6686,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "PreGramTrafo",
           "package": "murder",
@@ -6156,6 +6700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "TypeEq",
           "package": "murder",
@@ -6164,6 +6709,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "TypeEq",
           "package": "murder",
@@ -6177,6 +6723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "(+\u003e\u003e)",
           "package": "murder",
@@ -6186,6 +6733,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "(+\u003e\u003e) +\u003e\u003e",
           "normalized": "ExtGram a b c-\u003eGramExt a b c d e-\u003eExtGram a d e",
@@ -6200,6 +6748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "(^|)",
           "package": "murder",
@@ -6209,6 +6758,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "(^|) ^|",
           "normalized": "LSPair a b TNonT c-\u003ed c-\u003eNTCons a b d c",
@@ -6223,6 +6773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "(^=)",
           "package": "murder",
@@ -6232,6 +6783,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "(^=) ^=",
           "normalized": "a-\u003eSymbol b c d-\u003eLSPair a b c d",
@@ -6246,6 +6798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "Export",
           "package": "murder",
@@ -6255,6 +6808,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "Export",
           "package": "murder",
@@ -6268,6 +6822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "LSPair",
           "package": "murder",
@@ -6277,6 +6832,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "LSPair",
           "package": "murder",
@@ -6290,6 +6846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NTCons",
           "package": "murder",
@@ -6299,6 +6856,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NTCons",
           "package": "murder",
@@ -6312,6 +6870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "NTNil",
           "package": "murder",
@@ -6321,6 +6880,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "NTNil",
           "package": "murder",
@@ -6334,6 +6894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "addNT",
           "package": "murder",
@@ -6343,6 +6904,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "addNT",
           "package": "murder",
@@ -6356,6 +6918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "addProds",
           "package": "murder",
@@ -6365,6 +6928,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "addProds",
           "normalized": "PreGramTrafo a(Symbol b TNonT a,PreProductions TL a b)()",
@@ -6380,6 +6944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "closeGram",
           "package": "murder",
@@ -6389,6 +6954,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "closeGram",
           "normalized": "(a b ExtGram c d e)-\u003eGrammar d",
@@ -6404,6 +6970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "export",
           "package": "murder",
@@ -6413,6 +6980,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "export",
           "normalized": "a-\u003eSymbol b TNonT c-\u003ed c-\u003eNTCons a b d c",
@@ -6427,6 +6995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "exportList",
           "package": "murder",
@@ -6436,6 +7005,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "exportList",
           "normalized": "Symbol a TNonT b-\u003e(NTNil b-\u003ec b)-\u003eExport a c b",
@@ -6451,6 +7021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "exportNTs",
           "package": "murder",
@@ -6460,6 +7031,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "exportNTs",
           "package": "murder",
@@ -6473,6 +7045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "extendExport",
           "package": "murder",
@@ -6482,6 +7055,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "extendExport",
           "normalized": "Export a b c-\u003e(b c-\u003ed c)-\u003eExport a d c",
@@ -6497,6 +7071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "extendGram",
           "package": "murder",
@@ -6506,6 +7081,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "extendGram",
           "normalized": "ExtGram a b c-\u003eGramExt a b c d e-\u003eExtGram a d e",
@@ -6521,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "getNT",
           "package": "murder",
@@ -6530,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "getNT",
           "normalized": "a-\u003eb-\u003ec",
@@ -6545,6 +7123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "getNTBool",
           "package": "murder",
@@ -6554,6 +7133,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "getNTBool",
           "normalized": "a-\u003eb-\u003ec-\u003ed-\u003ee",
@@ -6569,6 +7149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "getNTLabel",
           "package": "murder",
@@ -6578,6 +7159,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "getNTLabel",
           "normalized": "a-\u003eb-\u003ec-\u003ed",
@@ -6593,6 +7175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "getStart",
           "package": "murder",
@@ -6602,6 +7185,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "getStart",
           "normalized": "Export a b c-\u003eSymbol a TNonT c",
@@ -6617,6 +7201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "labelLSPair",
           "package": "murder",
@@ -6626,6 +7211,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "labelLSPair",
           "normalized": "LSPair a b c d-\u003ea",
@@ -6641,6 +7227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "mapNTProd",
           "package": "murder",
@@ -6650,6 +7237,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "mapNTProd",
           "normalized": "Symbol a TNonT b-\u003eSymbol a TNonT b-\u003eProd TL c b-\u003eProd TL c b",
@@ -6665,6 +7253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "mapNTProds",
           "package": "murder",
@@ -6674,6 +7263,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "mapNTProds",
           "normalized": "Symbol a TNonT b-\u003eSymbol a TNonT b-\u003ePreProductions TL b c-\u003ePreProductions TL b c",
@@ -6689,6 +7279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "ntNil",
           "package": "murder",
@@ -6698,6 +7289,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "ntNil",
           "package": "murder",
@@ -6711,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "replaceProds",
           "package": "murder",
@@ -6720,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "replaceProds",
           "normalized": "PreGramTrafo a(Symbol b TNonT a,PreProductions TL a b)()",
@@ -6735,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "symLSPair",
           "package": "murder",
@@ -6744,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "symLSPair",
           "package": "murder",
@@ -6757,6 +7353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "typeEq",
           "package": "murder",
@@ -6766,6 +7363,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "typeEq",
           "normalized": "a-\u003eb-\u003ec",
@@ -6781,6 +7379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:24:15 UTC 2014",
           "module": "Language.Grammars.Murder",
           "name": "updProds",
           "package": "murder",
@@ -6790,6 +7389,7 @@
         },
         "index": {
           "hierarchy": "Language Grammars Murder",
+          "indexed": "2014-03-11T19:24:15",
           "module": "Language.Grammars.Murder",
           "name": "updProds",
           "normalized": "PreGramTrafo a(Symbol b TNonT a,PreProductions TL a b-\u003ePreProductions TL a b)()",

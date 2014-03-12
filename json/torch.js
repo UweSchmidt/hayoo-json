@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "torch"
+        "phrase": "torch",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Build",
           "name": "Builder",
           "package": "torch",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Build",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Build",
           "name": "Builder",
           "package": "torch",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Build",
           "name": "addTest",
           "package": "torch",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Build",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Build",
           "name": "addTest",
           "normalized": "a-\u003eBuilder()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Build",
           "name": "getTests",
           "package": "torch",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Build",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Build",
           "name": "getTests",
           "normalized": "Builder a-\u003eIO Tests",
@@ -240,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Build",
           "name": "runBuilder",
           "package": "torch",
@@ -249,6 +256,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Build",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Build",
           "name": "runBuilder",
           "normalized": "Builder a-\u003eWriterT Tests IO a",
@@ -264,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Hook",
           "name": "afterTest",
           "package": "torch",
@@ -273,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Hook",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Hook",
           "name": "afterTest",
           "normalized": "(Report-\u003eIO())-\u003eHookWriter()",
@@ -288,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Hook",
           "name": "asHook",
           "package": "torch",
@@ -297,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Hook",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Hook",
           "name": "asHook",
           "normalized": "HookWriter a-\u003eHook",
@@ -312,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Hook",
           "name": "beforeTest",
           "package": "torch",
@@ -321,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Hook",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Hook",
           "name": "beforeTest",
           "normalized": "(Tests-\u003eIO())-\u003eHookWriter()",
@@ -336,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Hook",
           "name": "onFail",
           "package": "torch",
@@ -345,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Hook",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Hook",
           "name": "onFail",
           "normalized": "(SomeFailure-\u003eIO())-\u003eHookWriter()",
@@ -360,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Hook",
           "name": "onPass",
           "package": "torch",
@@ -369,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Hook",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Hook",
           "name": "onPass",
           "normalized": "IO()-\u003eHookWriter()",
@@ -407,6 +425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Report",
           "name": "Report",
           "package": "torch",
@@ -415,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Report",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Report",
           "name": "Report",
           "package": "torch",
@@ -428,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Report",
           "name": "makeReportWithHook",
           "package": "torch",
@@ -437,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Report",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Report",
           "name": "makeReportWithHook",
           "normalized": "Tests-\u003eHook-\u003ea Report",
@@ -478,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "Bottom",
           "package": "torch",
@@ -486,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "Bottom",
           "package": "torch",
@@ -499,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "Is",
           "package": "torch",
@@ -507,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "Is",
           "package": "torch",
@@ -520,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "IsBottom",
           "package": "torch",
@@ -528,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "IsBottom",
           "package": "torch",
@@ -541,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "Named",
           "package": "torch",
@@ -549,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "Named",
           "package": "torch",
@@ -562,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "Ok",
           "package": "torch",
@@ -570,6 +601,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "Ok",
           "package": "torch",
@@ -583,6 +615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "SimpleFailure",
           "package": "torch",
@@ -591,6 +624,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "SimpleFailure",
           "package": "torch",
@@ -604,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types.Instances",
           "name": "UnexpectedValue",
           "package": "torch",
@@ -612,6 +647,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types Instances",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types.Instances",
           "name": "UnexpectedValue",
           "package": "torch",
@@ -625,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "FailReason",
           "package": "torch",
@@ -633,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "FailReason",
           "package": "torch",
@@ -646,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Failures",
           "package": "torch",
@@ -654,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Failures",
           "package": "torch",
@@ -667,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Hook",
           "package": "torch",
@@ -675,6 +716,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Hook",
           "package": "torch",
@@ -688,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Report",
           "package": "torch",
@@ -696,6 +739,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Report",
           "package": "torch",
@@ -709,6 +753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Result",
           "package": "torch",
@@ -717,6 +762,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Result",
           "package": "torch",
@@ -730,6 +776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "SomeFailure",
           "package": "torch",
@@ -738,6 +785,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "SomeFailure",
           "package": "torch",
@@ -751,6 +799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "SomeTest",
           "package": "torch",
@@ -759,6 +808,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "SomeTest",
           "package": "torch",
@@ -772,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Tests",
           "package": "torch",
@@ -780,6 +831,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Tests",
           "package": "torch",
@@ -793,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Failure",
           "package": "torch",
@@ -801,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Failure",
           "package": "torch",
@@ -814,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "Test",
           "package": "torch",
@@ -822,6 +877,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "Test",
           "package": "torch",
@@ -835,6 +891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "describe",
           "package": "torch",
@@ -844,6 +901,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "describe",
           "normalized": "a-\u003eFailReason",
@@ -858,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:24:14 UTC 2014",
           "module": "Test.Torch.Types",
           "name": "run",
           "package": "torch",
@@ -867,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Test Torch Types",
+          "indexed": "2014-03-11T20:24:14",
           "module": "Test.Torch.Types",
           "name": "run",
           "normalized": "a-\u003eb Result",

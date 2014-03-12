@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "posix-timer"
+        "phrase": "posix-timer",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX clocks.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -28,6 +29,7 @@
         "index": {
           "description": "POSIX clocks",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirrors \u003cem\u003eclockid_t\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Mirrors clockid",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirrors \u003cem\u003estruct timespec\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "TimeSpec",
           "package": "posix-timer",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Mirrors struct timespec",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "TimeSpec",
           "package": "posix-timer",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "Clock",
           "package": "posix-timer",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep for the specified duration. When interrupted by a signal, returns\n   the amount of time left to sleep. See \u003cem\u003eclock_nanosleep(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "clockSleep",
           "package": "posix-timer",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Sleep for the specified duration When interrupted by signal returns the amount of time left to sleep See clock nanosleep",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "clockSleep",
           "normalized": "Clock-\u003eTimeSpec-\u003ea TimeSpec",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSleep until the clock time reaches the specified value.\n   See \u003cem\u003eclock_nanosleep(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "clockSleepAbs",
           "package": "posix-timer",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Sleep until the clock time reaches the specified value See clock nanosleep",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "clockSleepAbs",
           "normalized": "Clock-\u003eTimeSpec-\u003ea()",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the clock resolution. See \u003cem\u003eclock_getres(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "getClockResolution",
           "package": "posix-timer",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Get the clock resolution See clock getres",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "getClockResolution",
           "normalized": "Clock-\u003ea TimeSpec",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the clock time. See \u003cem\u003eclock_gettime(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "getClockTime",
           "package": "posix-timer",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Get the clock time See clock gettime",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "getClockTime",
           "normalized": "Clock-\u003ea TimeSpec",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the CPU-time clock of the given process.\n   See \u003cem\u003eclock_getcpuclockid(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "getProcessClock",
           "package": "posix-timer",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Get the CPU-time clock of the given process See clock getcpuclockid",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "getProcessClock",
           "normalized": "ProcessID-\u003ea Clock",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a \u003ccode\u003e\u003ca\u003eTimeSpec\u003c/a\u003e\u003c/code\u003e from amounts of seconds and nanoseconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "mkTimeSpec",
           "package": "posix-timer",
@@ -250,6 +269,7 @@
         "index": {
           "description": "Create TimeSpec from amounts of seconds and nanoseconds",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "mkTimeSpec",
           "normalized": "CTime-\u003eCULong-\u003eTimeSpec",
@@ -265,6 +285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "monotonicClock",
           "package": "posix-timer",
@@ -274,6 +295,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "monotonicClock",
           "package": "posix-timer",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "processTimeClock",
           "package": "posix-timer",
@@ -296,6 +319,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "processTimeClock",
           "package": "posix-timer",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "realtimeClock",
           "package": "posix-timer",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "realtimeClock",
           "package": "posix-timer",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the clock time. See \u003cem\u003eclock_settime(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "setClockTime",
           "package": "posix-timer",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Set the clock time See clock settime",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "setClockTime",
           "normalized": "Clock-\u003eTimeSpec-\u003ea()",
@@ -357,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "threadTimeClock",
           "package": "posix-timer",
@@ -366,6 +395,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "threadTimeClock",
           "package": "posix-timer",
@@ -379,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "timeSpecNanos",
           "package": "posix-timer",
@@ -388,6 +419,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "timeSpecNanos",
           "normalized": "TimeSpec-\u003eCULong",
@@ -403,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "timeSpecSeconds",
           "package": "posix-timer",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "timeSpecSeconds",
           "normalized": "TimeSpec-\u003eCTime",
@@ -427,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "timeSpecToInt64",
           "package": "posix-timer",
@@ -436,6 +471,7 @@
         },
         "index": {
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "timeSpecToInt64",
           "normalized": "TimeSpec-\u003eInt",
@@ -452,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eTimeSpec\u003c/a\u003e\u003c/code\u003e to a pair of its components.\n   Useful as a view pattern.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Clock",
           "name": "timeSpecV",
           "package": "posix-timer",
@@ -462,6 +499,7 @@
         "index": {
           "description": "Convert TimeSpec to pair of its components Useful as view pattern",
           "hierarchy": "System Posix Clock",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Clock",
           "name": "timeSpecV",
           "normalized": "TimeSpec-\u003e(CTime,CULong)",
@@ -478,6 +516,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePOSIX timers.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "Timer",
           "package": "posix-timer",
@@ -487,6 +526,7 @@
         "index": {
           "description": "POSIX timers",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "Timer",
           "package": "posix-timer",
@@ -501,6 +541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirrors \u003cem\u003estruct itimerspec\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "ITimerSpec",
           "package": "posix-timer",
@@ -510,6 +551,7 @@
         "index": {
           "description": "Mirrors struct itimerspec",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "ITimerSpec",
           "package": "posix-timer",
@@ -524,6 +566,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMirrors \u003cem\u003etimer_t\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "Timer",
           "package": "posix-timer",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Mirrors timer",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "Timer",
           "package": "posix-timer",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "ITimerSpec",
           "package": "posix-timer",
@@ -555,6 +600,7 @@
         },
         "index": {
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "ITimerSpec",
           "package": "posix-timer",
@@ -569,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSetup the timer. See \u003cem\u003etimer_settime(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "configureTimer",
           "package": "posix-timer",
@@ -578,6 +625,7 @@
         "index": {
           "description": "Setup the timer See timer settime",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "configureTimer",
           "normalized": "Timer-\u003eBool-\u003eTimeSpec-\u003eTimeSpec-\u003ea(TimeSpec,TimeSpec)",
@@ -594,6 +642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a timer. See \u003cem\u003etimer_create(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "createTimer",
           "package": "posix-timer",
@@ -603,6 +652,7 @@
         "index": {
           "description": "Create timer See timer create",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "createTimer",
           "normalized": "Clock-\u003eMaybe(Signal,WordPtr)-\u003ea Timer",
@@ -619,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDestroy the timer. See \u003cem\u003etimer_delete(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "destroyTimer",
           "package": "posix-timer",
@@ -629,6 +680,7 @@
         "index": {
           "description": "Destroy the timer See timer delete",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "destroyTimer",
           "normalized": "Timer-\u003ea()",
@@ -644,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "iTimerSpecInterval",
           "package": "posix-timer",
@@ -653,6 +706,7 @@
         },
         "index": {
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "iTimerSpecInterval",
           "package": "posix-timer",
@@ -666,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "iTimerSpecValue",
           "package": "posix-timer",
@@ -675,6 +730,7 @@
         },
         "index": {
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "iTimerSpecValue",
           "package": "posix-timer",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the timer overrun count. See \u003cem\u003etimer_getoverrun(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "timerOverrunCnt",
           "package": "posix-timer",
@@ -699,6 +756,7 @@
         "index": {
           "description": "Get the timer overrun count See timer getoverrun",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "timerOverrunCnt",
           "normalized": "Timer-\u003ea CInt",
@@ -715,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the amount of time left until the next expiration and the interval\n   between the subsequent expirations. See \u003cem\u003etimer_gettime(3)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:42:15 UTC 2014",
           "module": "System.Posix.Timer",
           "name": "timerTimeLeft",
           "package": "posix-timer",
@@ -725,6 +784,7 @@
         "index": {
           "description": "Get the amount of time left until the next expiration and the interval between the subsequent expirations See timer gettime",
           "hierarchy": "System Posix Timer",
+          "indexed": "2014-03-11T19:42:15",
           "module": "System.Posix.Timer",
           "name": "timerTimeLeft",
           "normalized": "Timer-\u003ea(TimeSpec,TimeSpec)",

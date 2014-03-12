@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "boomslang"
+        "phrase": "boomslang",
+        "type": "phrase"
       },
       "type": "context"
     }

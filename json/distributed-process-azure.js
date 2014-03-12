@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "distributed-process-azure"
+        "phrase": "distributed-process-azure",
+        "type": "phrase"
       },
       "type": "context"
     }

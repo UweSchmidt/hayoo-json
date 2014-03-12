@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "AttoJson"
+        "phrase": "AttoJson",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "AttoJSON",
           "package": "AttoJson",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "AttoJSON",
           "package": "AttoJson",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType Class for the value that can be converted from/into \u003ccode\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSON",
           "package": "AttoJson",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Type Class for the value that can be converted from into JSValue",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSON",
           "package": "AttoJson",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData types for JSON value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSValue",
           "package": "AttoJson",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Data types for JSON value",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSValue",
           "package": "AttoJson",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON Array\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSArray",
           "package": "AttoJson",
@@ -96,6 +103,7 @@
         "index": {
           "description": "JSON Array",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSArray",
           "normalized": "JSArray[JSValue]",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON Bool\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSBool",
           "package": "AttoJson",
@@ -122,6 +131,7 @@
         "index": {
           "description": "JSON Bool",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSBool",
           "package": "AttoJson",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON Null\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSNull",
           "package": "AttoJson",
@@ -146,6 +157,7 @@
         "index": {
           "description": "JSON Null",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSNull",
           "package": "AttoJson",
@@ -160,6 +172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON Number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSNumber",
           "package": "AttoJson",
@@ -170,6 +183,7 @@
         "index": {
           "description": "JSON Number",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSNumber",
           "package": "AttoJson",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON Object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSObject",
           "package": "AttoJson",
@@ -194,6 +209,7 @@
         "index": {
           "description": "JSON Object",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSObject",
           "package": "AttoJson",
@@ -208,6 +224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJSON String\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "JSString",
           "package": "AttoJson",
@@ -218,6 +235,7 @@
         "index": {
           "description": "JSON String",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "JSString",
           "package": "AttoJson",
@@ -232,6 +250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egetFields\u003c/a\u003e\u003c/code\u003e with default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "findDeepWithDefault",
           "package": "AttoJson",
@@ -242,6 +261,7 @@
         "index": {
           "description": "getFields with default value",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "findDeepWithDefault",
           "normalized": "a-\u003e[ByteString]-\u003eJSValue-\u003ea",
@@ -258,6 +278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e with default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "findWithDefault",
           "package": "AttoJson",
@@ -268,6 +289,7 @@
         "index": {
           "description": "lookup with default value",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "findWithDefault",
           "normalized": "a-\u003eByteString-\u003eJSValue-\u003ea",
@@ -284,6 +306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecode from JSValue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "fromJSON",
           "package": "AttoJson",
@@ -294,6 +317,7 @@
         "index": {
           "description": "Decode from JSValue",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "fromJSON",
           "normalized": "JSValue-\u003eMaybe a",
@@ -309,6 +333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "fromJSString",
           "package": "AttoJson",
@@ -318,6 +343,7 @@
         },
         "index": {
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "fromJSString",
           "package": "AttoJson",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDEPRECATED: Alias of \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e. Use \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "getField",
           "package": "AttoJson",
@@ -342,6 +369,7 @@
         "index": {
           "description": "DEPRECATED Alias of lookup Use lookup",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "getField",
           "normalized": "ByteString-\u003eJSValue-\u003eMaybe a",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDEPRECATED: Alias of \u003ccode\u003e\u003ca\u003elookupDeep\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "getFields",
           "package": "AttoJson",
@@ -368,6 +397,7 @@
         "index": {
           "description": "DEPRECATED Alias of lookupDeep",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "getFields",
           "normalized": "[ByteString]-\u003eJSValue-\u003eMaybe a",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value for field in Object and decode it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "lookup",
           "package": "AttoJson",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Get the value for field in Object and decode it",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "lookup",
           "normalized": "ByteString-\u003eJSValue-\u003eMaybe a",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003elookup\u003c/a\u003e\u003c/code\u003e but it can process nested Object. ex:\n\u003c/p\u003e\u003cpre\u003e\n   lookupDeep [\"user\", \"name\"] (JSObject [(\"user\", JSObject [(\"name\", JSString \"hoge\")])]) == Just \"hoge\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "lookupDeep",
           "package": "AttoJson",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Same as lookup but it can process nested Object ex lookupDeep user name JSObject user JSObject name JSString hoge Just hoge",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "lookupDeep",
           "normalized": "[ByteString]-\u003eJSValue-\u003eMaybe a",
@@ -435,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse JSON source. Returns \u003ccode\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e) if succeed, Returns \u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e if failed.\n\u003c/p\u003e\u003cp\u003eThe input string should be UTF8-encoded.  Unicode escapes (e.g. \u003ccode\u003e\"\\u266B\"\u003c/code\u003e) are encoded in UTF8\n  by the parser, so incompatibilities will arise if you try to use AttoJSON with other encodings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "parseJSON",
           "package": "AttoJson",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Parse JSON source Returns JSValue Right if succeed Returns Left if failed The input string should be UTF8-encoded Unicode escapes e.g u266B are encoded in UTF8 by the parser so incompatibilities will arise if you try to use AttoJSON with other encodings",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "parseJSON",
           "normalized": "ByteString-\u003eEither String JSValue",
@@ -461,6 +497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaybe version of \u003ccode\u003e\u003ca\u003eparseJSON\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "readJSON",
           "package": "AttoJson",
@@ -471,6 +508,7 @@
         "index": {
           "description": "Maybe version of parseJSON",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "readJSON",
           "normalized": "ByteString-\u003eMaybe JSValue",
@@ -487,6 +525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint \u003ccode\u003e\u003ca\u003eJSValue\u003c/a\u003e\u003c/code\u003e as JSON source (not pretty).\n\u003c/p\u003e\u003cp\u003eThe output string will be in UTF8 (provided the JSValue was constructed with UTF8 strings).\n  Only characters that have to be escaped (control characters, \u003ccode\u003e\\\u003c/code\u003e, and \u003ccode\u003e\"\u003c/code\u003e) will be escaped.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "showJSON",
           "package": "AttoJson",
@@ -497,6 +536,7 @@
         "index": {
           "description": "Print JSValue as JSON source not pretty The output string will be in UTF8 provided the JSValue was constructed with UTF8 strings Only characters that have to be escaped control characters and will be escaped",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "showJSON",
           "normalized": "JSValue-\u003eByteString",
@@ -513,6 +553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eshowJSON\u003c/a\u003e\u003c/code\u003e, but escape non-ASCII characters as well.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "showJSON'",
           "package": "AttoJson",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Same as showJSON but escape non-ASCII characters as well",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "showJSON'",
           "normalized": "JSValue-\u003eByteString",
@@ -539,6 +581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode into JSValue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "toJSON",
           "package": "AttoJson",
@@ -549,6 +592,7 @@
         "index": {
           "description": "Encode into JSValue",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "toJSON",
           "normalized": "a-\u003eJSValue",
@@ -565,6 +609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate or Insert the value for field in Object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "updateField",
           "package": "AttoJson",
@@ -575,6 +620,7 @@
         "index": {
           "description": "Update or Insert the value for field in Object",
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "updateField",
           "normalized": "ByteString-\u003ea-\u003eJSValue-\u003eJSValue",
@@ -590,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:33:43 UTC 2014",
           "module": "Text.JSON.AttoJSON",
           "name": "updateFields",
           "package": "AttoJson",
@@ -599,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Text JSON AttoJSON",
+          "indexed": "2014-03-11T16:33:43",
           "module": "Text.JSON.AttoJSON",
           "name": "updateFields",
           "normalized": "[(ByteString,JSValue)]-\u003eJSValue-\u003eJSValue",

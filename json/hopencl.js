@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hopencl"
+        "phrase": "hopencl",
+        "type": "phrase"
       },
       "type": "context"
     }

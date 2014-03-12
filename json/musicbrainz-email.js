@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "musicbrainz-email"
+        "phrase": "musicbrainz-email",
+        "type": "phrase"
       },
       "type": "context"
     }

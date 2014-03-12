@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ihaskell-diagrams"
+        "phrase": "ihaskell-diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }

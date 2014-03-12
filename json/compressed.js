@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "compressed"
+        "phrase": "compressed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression algorithms are all about exploiting redundancy. When applying\n an expensive \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a redundant source, it may be better to\n extract the structural redundancy that is present. \u003ccode\u003e\u003ca\u003eLZ78\u003c/a\u003e\u003c/code\u003e is a compression\n algorithm that does so, without requiring the dictionary to be populated\n with all of the possible values of a data type unlike its later\n refinement LZW, and which has fewer comparison reqirements during encoding\n than its earlier counterpart LZ77.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Compression algorithms are all about exploiting redundancy When applying an expensive Reducer to redundant source it may be better to extract the structural redundancy that is present LZ78 is compression algorithm that does so without requiring the dictionary to be populated with all of the possible values of data type unlike its later refinement LZW and which has fewer comparison reqirements during encoding than its earlier counterpart LZ77",
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Entry",
           "package": "compressed",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Entry",
           "package": "compressed",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn LZ78 compressed \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -72,6 +77,7 @@
         "index": {
           "description": "An LZ78 compressed Generator",
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Token",
           "package": "compressed",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Token",
           "package": "compressed",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Cons",
           "package": "compressed",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Cons",
           "package": "compressed",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Entry",
           "package": "compressed",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Entry",
           "package": "compressed",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Nil",
           "package": "compressed",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Nil",
           "package": "compressed",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Token",
           "package": "compressed",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "Token",
           "package": "compressed",
@@ -301,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexposes internal structure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "entries",
           "package": "compressed",
@@ -311,6 +328,7 @@
         "index": {
           "description": "exposes internal structure",
           "hierarchy": "Data Compressed Internal LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.Internal.LZ78",
           "name": "entries",
           "normalized": "LZ a-\u003eLZ(Entry Int a)",
@@ -406,6 +424,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression algorithms are all about exploiting redundancy. When applying\n an expensive \u003ccode\u003eReducer\u003c/code\u003e to a redundant source, it may be better to\n extract the structural redundancy that is present. \u003ccode\u003e\u003ca\u003eLZ78\u003c/a\u003e\u003c/code\u003e is a compression\n algorithm that does so, without requiring the dictionary to be populated\n with all of the possible values of a data type unlike its later\n refinement LZW, and which has fewer comparison reqirements during encoding\n than its earlier counterpart LZ77.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -415,6 +434,7 @@
         "index": {
           "description": "Compression algorithms are all about exploiting redundancy When applying an expensive Reducer to redundant source it may be better to extract the structural redundancy that is present LZ78 is compression algorithm that does so without requiring the dictionary to be populated with all of the possible values of data type unlike its later refinement LZW and which has fewer comparison reqirements during encoding than its earlier counterpart LZ77",
           "hierarchy": "Data Compressed LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -429,6 +449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn LZ78 compressed \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -438,6 +459,7 @@
         "index": {
           "description": "An LZ78 compressed Generator",
           "hierarchy": "Data Compressed LZ78",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.LZ78",
           "name": "LZ78",
           "package": "compressed",
@@ -452,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompression algorithms are all about exploiting redundancy. When applying\n an expensive \u003ccode\u003e\u003ca\u003eReducer\u003c/a\u003e\u003c/code\u003e to a redundant source, it may be better to\n extract the structural redundancy that is present. Run length encoding\n can do so for long runs of identical inputs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RunLengthEncoding",
           "package": "compressed",
@@ -461,6 +484,7 @@
         "index": {
           "description": "Compression algorithms are all about exploiting redundancy When applying an expensive Reducer to redundant source it may be better to extract the structural redundancy that is present Run length encoding can do so for long runs of identical inputs",
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RunLengthEncoding",
           "package": "compressed",
@@ -475,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eGenerator\u003c/a\u003e\u003c/code\u003e which supports efficient \u003ccode\u003e\u003ca\u003emapReduce\u003c/a\u003e\u003c/code\u003e operations over run-length encoded data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RLE",
           "package": "compressed",
@@ -484,6 +509,7 @@
         "index": {
           "description": "Generator which supports efficient mapReduce operations over run-length encoded data",
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RLE",
           "package": "compressed",
@@ -498,6 +524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single run with a strict length\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "Run",
           "package": "compressed",
@@ -507,6 +534,7 @@
         "index": {
           "description": "single run with strict length",
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "Run",
           "package": "compressed",
@@ -520,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RLE",
           "package": "compressed",
@@ -529,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "RLE",
           "package": "compressed",
@@ -542,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "decode",
           "package": "compressed",
@@ -551,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "decode",
           "normalized": "RLE a-\u003e[a]",
@@ -565,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "encode",
           "package": "compressed",
@@ -574,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "encode",
           "normalized": "a-\u003eRLE(Elem a)",
@@ -588,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "fromRuns",
           "package": "compressed",
@@ -597,6 +632,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "fromRuns",
           "normalized": "[Run a]-\u003eRLE a",
@@ -612,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "getRLE",
           "package": "compressed",
@@ -621,6 +658,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "getRLE",
           "package": "compressed",
@@ -634,6 +672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "recode",
           "package": "compressed",
@@ -643,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "recode",
           "normalized": "RLE a-\u003eRLE a",
@@ -657,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "runLength",
           "package": "compressed",
@@ -666,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "runLength",
           "normalized": "Run a-\u003eInt",
@@ -681,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:37:35 UTC 2014",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "toRuns",
           "package": "compressed",
@@ -690,6 +733,7 @@
         },
         "index": {
           "hierarchy": "Data Compressed RunLengthEncoding",
+          "indexed": "2014-03-11T17:37:35",
           "module": "Data.Compressed.RunLengthEncoding",
           "name": "toRuns",
           "normalized": "RLE a-\u003e[Run a]",

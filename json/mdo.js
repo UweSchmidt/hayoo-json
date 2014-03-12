@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mdo"
+        "phrase": "mdo",
+        "type": "phrase"
       },
       "type": "context"
     }

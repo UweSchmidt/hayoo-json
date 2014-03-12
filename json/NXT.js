@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "NXT"
+        "phrase": "NXT",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA message-based control of a NXT brick via remotely executed \u003ccode\u003eMotorControl\u003c/code\u003e program. The main goal of this approach is to achieve\nbetter precision of motor movements as program monitors and adapts motor commands on the NXT brick itself. For example, common\nmotor's overshoot is thus removed in most cases.\n\u003c/p\u003e\u003cp\u003eYou should download/compile \u003ccode\u003eMotorControl\u003c/code\u003e program from \u003ca\u003ehttp://www.mindstorms.rwth-aachen.de/trac/wiki/MotorControl\u003c/a\u003e and upload\nit to the NXT brick with \u003ccode\u003enxt-upload\u003c/code\u003e program. This module will then run that program and sends it messages to control the NXT brick.\nBecause commands will be executed and controlled directly on the NXT brick more powerful and precise control is possible.\n\u003c/p\u003e\u003cp\u003ePlease refer to original documentation of \u003ccode\u003eMotorControl\u003c/code\u003e program for more information, description of commands and explanations\nhow to use them. This interface also implements static pauses between commands mentioned there and required by \u003ccode\u003eMotorControl\u003c/code\u003e. This\nmeans functions calls will block for this time so consider using special Haskell thread for communication with the NXT brick.\nDynamic/minimal pauses are not implemented and have to be taken care of by user of this interface.\n\u003c/p\u003e\u003cp\u003eCheck \u003ca\u003eRobotics.NXT.Remote\u003c/a\u003e for another (simpler) approach to message-based control. It would be great to one day combine\n\u003ccode\u003eMotorControl\u003c/code\u003e's precision with API (especially interruptability) of \u003ccode\u003eremote.nxc\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "MotorControl",
           "package": "NXT",
@@ -28,6 +29,7 @@
         "index": {
           "description": "message-based control of NXT brick via remotely executed MotorControl program The main goal of this approach is to achieve better precision of motor movements as program monitors and adapts motor commands on the NXT brick itself For example common motor overshoot is thus removed in most cases You should download compile MotorControl program from http www.mindstorms.rwth-aachen.de trac wiki MotorControl and upload it to the NXT brick with nxt-upload program This module will then run that program and sends it messages to control the NXT brick Because commands will be executed and controlled directly on the NXT brick more powerful and precise control is possible Please refer to original documentation of MotorControl program for more information description of commands and explanations how to use them This interface also implements static pauses between commands mentioned there and required by MotorControl This means functions calls will block for this time so consider using special Haskell thread for communication with the NXT brick Dynamic minimal pauses are not implemented and have to be taken care of by user of this interface Check Robotics.NXT.Remote for another simpler approach to message-based control It would be great to one day combine MotorControl precision with API especially interruptability of remote.nxc",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "MotorControl",
           "package": "NXT",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "MotorControlMode",
           "package": "NXT",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "MotorControlMode",
           "package": "NXT",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould in a case of a load on the motor its power be adapted to retain the same speed? Really works only if there is room for that\n(not that motor is already running at the maximum power).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "SpeedRegulation",
           "package": "NXT",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Should in case of load on the motor its power be adapted to retain the same speed Really works only if there is room for that not that motor is already running at the maximum power",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "SpeedRegulation",
           "package": "NXT",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKeeps active brake on after the end of the movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "HoldBrake",
           "package": "NXT",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Keeps active brake on after the end of the movement",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "HoldBrake",
           "package": "NXT",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSmoothly starts the movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "SmoothStart",
           "package": "NXT",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Smoothly starts the movement",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "SmoothStart",
           "package": "NXT",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn a case of a load on the motor adapt motor power to retain the same speed. Really works only if there is\n room for that (not that motor is already running at the maximum power).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "SpeedRegulation",
           "package": "NXT",
@@ -144,6 +155,7 @@
         "index": {
           "description": "In case of load on the motor adapt motor power to retain the same speed Really works only if there is room for that not that motor is already running at the maximum power",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "SpeedRegulation",
           "package": "NXT",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to \u003ccode\u003eCLASSIC_MOTORCMD\u003c/code\u003e command which is very similar to \u003ccode\u003e\u003ca\u003esetOutputState\u003c/a\u003e\u003c/code\u003e but better interacts with \u003ccode\u003eMotorControl\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eRequires dynamic/minimal pauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "classicMotorCmd",
           "package": "NXT",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Interface to CLASSIC MOTORCMD command which is very similar to setOutputState but better interacts with MotorControl Requires dynamic minimal pauses",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "classicMotorCmd",
           "normalized": "[OutputPort]-\u003eOutputPower-\u003eTachoLimit-\u003eSpeedRegulation-\u003eNXT()",
@@ -184,6 +198,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to \u003ccode\u003eCONTROLLED_MOTORCMD\u003c/code\u003e command which takes care of precise motor movements.\n\u003c/p\u003e\u003cp\u003eRequires dynamic/minimal pauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "controlledMotorCmd",
           "package": "NXT",
@@ -194,6 +209,7 @@
         "index": {
           "description": "Interface to CONTROLLED MOTORCMD command which takes care of precise motor movements Requires dynamic minimal pauses",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "controlledMotorCmd",
           "normalized": "[OutputPort]-\u003eOutputPower-\u003eTachoLimit-\u003e[MotorControlMode]-\u003eNXT()",
@@ -210,6 +226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to \u003ccode\u003eISMOTORREADY\u003c/code\u003e command which determine the state of a motor: is it currently executing a command (for example, moving)\nor is it ready to accept new commands?\n\u003c/p\u003e\u003cp\u003eImplements static pauses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "isMotorReady",
           "package": "NXT",
@@ -220,6 +237,7 @@
         "index": {
           "description": "Interface to ISMOTORREADY command which determine the state of motor is it currently executing command for example moving or is it ready to accept new commands Implements static pauses",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "isMotorReady",
           "normalized": "[OutputPort]-\u003eNXT[Bool]",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to \u003ccode\u003eRESET_ERROR_CORRECTION\u003c/code\u003e command which can be used to reset the NXT brick's internal error correction mechanism (and\nmotor position information at the same time).\n\u003c/p\u003e\u003cp\u003eThe same thing can be achieved by using \u003ccode\u003e\u003ca\u003eresetMotorPosition\u003c/a\u003e\u003c/code\u003e with \u003ccode\u003e\u003ca\u003eInternalPosition\u003c/a\u003e\u003c/code\u003e argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "resetErrorCorrection",
           "package": "NXT",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Interface to RESET ERROR CORRECTION command which can be used to reset the NXT brick internal error correction mechanism and motor position information at the same time The same thing can be achieved by using resetMotorPosition with InternalPosition argument",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "resetErrorCorrection",
           "normalized": "[OutputPort]-\u003eNXT()",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts \u003ccode\u003eMotorControl22.rxe\u003c/code\u003e program on the NXT brick. Program has to be uploaded/available on the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "startMotorControlProgram",
           "package": "NXT",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Starts MotorControl22.rxe program on the NXT brick Program has to be uploaded available on the NXT brick",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "startMotorControlProgram",
           "normalized": "NXT()",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops current running program on the NXT brick. Probably this means \u003ccode\u003eMotorControl22.rxe\u003c/code\u003e program on the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.MotorControl",
           "name": "stopMotorControlProgram",
           "package": "NXT",
@@ -298,6 +321,7 @@
         "index": {
           "description": "Stops current running program on the NXT brick Probably this means MotorControl22.rxe program on the NXT brick",
           "hierarchy": "Robotics NXT MotorControl",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.MotorControl",
           "name": "stopMotorControlProgram",
           "normalized": "NXT()",
@@ -314,6 +338,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple message-based control of the NXT brick via remotely executed program. The main goal of this approach is to reduce latency\notherwise encountered when using NXT Bluetooth communication. Namely, changing the direction of communication takes around 30 ms.\nThis means that one cycle of requesting motor status, receiving data and then sending motor control update takes at least 60 ms (it\ntakes two changes of communication direction). And this is especially a problem if you want to control multiple motors at the same\ntime (and built-in synchronize mechanism is not good enough for you).\n\u003c/p\u003e\u003cp\u003eOne solution to this problem is that Bluetooth is used only for communication in one direction and an additional program on the NXT\nbrick is checking motor status and correcting possible errors. Of course this also means that information about motor position have\nto be obtained in some other way: by predicting from sent commands, or measuring/probing with regular NXT commands when there is time\nfor that (and latency at that time is not a problem), or by using some external sensors attached to the controlling computer and not\nto the NXT brick (camera tracking system for example).\n\u003c/p\u003e\u003cp\u003eUse NBC (\u003ca\u003ehttp://bricxcc.sourceforge.net/nbc/\u003c/a\u003e) to compile basic NXC code (\u003ccode\u003eremote.nxc\u003c/code\u003e) included with this module into \u003ccode\u003eremote.rxe\u003c/code\u003e\nNXT program (or use already compiled version) and then upload it with \u003ccode\u003enxt-upload\u003c/code\u003e program. This module will then run that program\nand sends it messages to control the NXT brick. Because commands will be executed and controlled directly on the NXT brick less\nlatency and more powerful control is possible.\n\u003c/p\u003e\u003cp\u003eCheck \u003ca\u003eRobotics.NXT.MotorControl\u003c/a\u003e for another (more precise but more complex) approach to message-based control. It would be great to\none day combine \u003ccode\u003eMotorControl\u003c/code\u003e's precision with API (especially interruptability) of \u003ccode\u003eremote.nxc\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "Remote",
           "package": "NXT",
@@ -323,6 +348,7 @@
         "index": {
           "description": "simple message-based control of the NXT brick via remotely executed program The main goal of this approach is to reduce latency otherwise encountered when using NXT Bluetooth communication Namely changing the direction of communication takes around ms This means that one cycle of requesting motor status receiving data and then sending motor control update takes at least ms it takes two changes of communication direction And this is especially problem if you want to control multiple motors at the same time and built-in synchronize mechanism is not good enough for you One solution to this problem is that Bluetooth is used only for communication in one direction and an additional program on the NXT brick is checking motor status and correcting possible errors Of course this also means that information about motor position have to be obtained in some other way by predicting from sent commands or measuring probing with regular NXT commands when there is time for that and latency at that time is not problem or by using some external sensors attached to the controlling computer and not to the NXT brick camera tracking system for example Use NBC http bricxcc.sourceforge.net nbc to compile basic NXC code remote.nxc included with this module into remote.rxe NXT program or use already compiled version and then upload it with nxt-upload program This module will then run that program and sends it messages to control the NXT brick Because commands will be executed and controlled directly on the NXT brick less latency and more powerful control is possible Check Robotics.NXT.MotorControl for another more precise but more complex approach to message-based control It would be great to one day combine MotorControl precision with API especially interruptability of remote.nxc",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "Remote",
           "package": "NXT",
@@ -336,6 +362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommand",
           "package": "NXT",
@@ -344,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommand",
           "package": "NXT",
@@ -357,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommandType",
           "package": "NXT",
@@ -365,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommandType",
           "package": "NXT",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMove specified motors for a given number of degrees at a given speed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "MoveFor",
           "package": "NXT",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Move specified motors for given number of degrees at given speed",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "MoveFor",
           "package": "NXT",
@@ -403,6 +435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type of remote command for specified output port(s).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommand",
           "package": "NXT",
@@ -413,6 +446,7 @@
         "index": {
           "description": "Data type of remote command for specified output port",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "RemoteCommand",
           "normalized": "RemoteCommand[OutputPort]RemoteCommandType",
@@ -429,6 +463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet specified motors' position to a given offset in degrees from a zero position (it is assumed\n that motors are at zero position at \u003ccode\u003eremote.rxe\u003c/code\u003e program start, you can use \u003ccode\u003e\u003ca\u003eresetMotorPosition\u003c/a\u003e\u003c/code\u003e\n to assure that, but probably not needed as the NXT brick resets things at program start) at a given speed.\n Probably not a good idea to mix \u003ccode\u003e\u003ca\u003eSetTo\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMoveFor\u003c/a\u003e\u003c/code\u003e on the same motor as \u003ccode\u003e\u003ca\u003eMoveFor\u003c/a\u003e\u003c/code\u003e resets\n position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "SetTo",
           "package": "NXT",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Set specified motors position to given offset in degrees from zero position it is assumed that motors are at zero position at remote.rxe program start you can use resetMotorPosition to assure that but probably not needed as the NXT brick resets things at program start at given speed Probably not good idea to mix SetTo and MoveFor on the same motor as MoveFor resets position",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "SetTo",
           "package": "NXT",
@@ -453,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a command to the \u003ccode\u003eremote.rxe\u003c/code\u003e program. Commands can be interrupted (or supplemented, for other motors) immediately by a next command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "sendRemoteCommand",
           "package": "NXT",
@@ -463,6 +500,7 @@
         "index": {
           "description": "Sends command to the remote.rxe program Commands can be interrupted or supplemented for other motors immediately by next command",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "sendRemoteCommand",
           "normalized": "RemoteCommand-\u003eNXT()",
@@ -479,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts \u003ccode\u003eremote.rxe\u003c/code\u003e program on the NXT brick. Program has to be uploaded/available on the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "startRemoteProgram",
           "package": "NXT",
@@ -489,6 +528,7 @@
         "index": {
           "description": "Starts remote.rxe program on the NXT brick Program has to be uploaded available on the NXT brick",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "startRemoteProgram",
           "normalized": "NXT()",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops current running program on the NXT brick. Probably this means \u003ccode\u003eremote.rxe\u003c/code\u003e program on the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Remote",
           "name": "stopRemoteProgram",
           "package": "NXT",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Stops current running program on the NXT brick Probably this means remote.rxe program on the NXT brick",
           "hierarchy": "Robotics NXT Remote",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Remote",
           "name": "stopRemoteProgram",
           "normalized": "NXT()",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an interface to \u003ccode\u003eCMPS-Nx\u003c/code\u003e digital compass sensor from \u003ca\u003ehttp://www.mindsensors.com/\u003c/a\u003e according to\n\u003ccode\u003eCMPS-Nx-V20-User-Guide.pdf\u003c/code\u003e documentation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Compass",
           "package": "NXT",
@@ -540,6 +583,7 @@
         "index": {
           "description": "This module defines an interface to CMPS-Nx digital compass sensor from http www.mindsensors.com according to CMPS-Nx-V20-User-Guide.pdf documentation",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Compass",
           "package": "NXT",
@@ -553,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Mode",
           "package": "NXT",
@@ -561,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Mode",
           "package": "NXT",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutoTrig (continuous measuring) off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "AutoTrigOff",
           "package": "NXT",
@@ -585,6 +632,7 @@
         "index": {
           "description": "AutoTrig continuous measuring off",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "AutoTrigOff",
           "package": "NXT",
@@ -599,6 +647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutoTrig (continuous measuring) on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "AutoTrigOn",
           "package": "NXT",
@@ -609,6 +658,7 @@
         "index": {
           "description": "AutoTrig continuous measuring on",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "AutoTrigOn",
           "package": "NXT",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBegin calibration mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "BeginCalibration",
           "package": "NXT",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Begin calibration mode",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "BeginCalibration",
           "package": "NXT",
@@ -647,6 +699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd calibration mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "EndCalibration",
           "package": "NXT",
@@ -657,6 +710,7 @@
         "index": {
           "description": "End calibration mode",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "EndCalibration",
           "package": "NXT",
@@ -671,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling frequency 50 Hz (Europe standard).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Frequency50",
           "package": "NXT",
@@ -681,6 +736,7 @@
         "index": {
           "description": "Sampling frequency Hz Europe standard",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Frequency50",
           "package": "NXT",
@@ -695,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSampling frequency 60 Hz (USA standard).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Frequency60",
           "package": "NXT",
@@ -705,6 +762,7 @@
         "index": {
           "description": "Sampling frequency Hz USA standard",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "Frequency60",
           "package": "NXT",
@@ -719,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult is a byte mapped to [0-255).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "ResultByte",
           "package": "NXT",
@@ -729,6 +788,7 @@
         "index": {
           "description": "Result is byte mapped to",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "ResultByte",
           "package": "NXT",
@@ -743,6 +803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResult is an integer mapped to [0-3600).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "ResultInteger",
           "package": "NXT",
@@ -753,6 +814,7 @@
         "index": {
           "description": "Result is an integer mapped to",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "ResultInteger",
           "package": "NXT",
@@ -767,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads device ID string (\u003ccode\u003eCMPS\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetDeviceID",
           "package": "NXT",
@@ -777,6 +840,7 @@
         "index": {
           "description": "Reads device ID string CMPS",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetDeviceID",
           "normalized": "InputPort-\u003eNXT String",
@@ -793,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets last measurement. Based on current \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e it return value in [0-255) (\u003ccode\u003e\u003ca\u003eResultByte\u003c/a\u003e\u003c/code\u003e mode) or [0-3600) (\u003ccode\u003e\u003ca\u003eResultInteger\u003c/a\u003e\u003c/code\u003e mode) range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetMeasurement",
           "package": "NXT",
@@ -803,6 +868,7 @@
         "index": {
           "description": "Gets last measurement Based on current Mode it return value in ResultByte mode or ResultInteger mode range",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetMeasurement",
           "normalized": "InputPort-\u003eNXT Measurement",
@@ -819,6 +885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads vendor ID string (\u003ccode\u003emndsnsrs\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetVendorID",
           "package": "NXT",
@@ -829,6 +896,7 @@
         "index": {
           "description": "Reads vendor ID string mndsnsrs",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetVendorID",
           "normalized": "InputPort-\u003eNXT String",
@@ -845,6 +913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads software version string (\u003ccode\u003eV2.00\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetVersion",
           "package": "NXT",
@@ -855,6 +924,7 @@
         "index": {
           "description": "Reads software version string V2.00",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csGetVersion",
           "normalized": "InputPort-\u003eNXT String",
@@ -871,6 +941,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes sensor on the given input port. It sets \u003ccode\u003e\u003ca\u003eMode\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eResultInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csInit",
           "package": "NXT",
@@ -881,6 +952,7 @@
         "index": {
           "description": "Initializes sensor on the given input port It sets Mode to ResultInteger",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csInit",
           "normalized": "InputPort-\u003eNXT()",
@@ -897,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current mode of operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csSetMode",
           "package": "NXT",
@@ -907,6 +980,7 @@
         "index": {
           "description": "Sets current mode of operation",
           "hierarchy": "Robotics NXT Sensor Compass",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Compass",
           "name": "csSetMode",
           "normalized": "InputPort-\u003eMode-\u003eNXT()",
@@ -923,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an interface to a digital ultrasonic sensor of the NXT kit.\n\u003c/p\u003e\u003cp\u003eI2C communication with ultrasonics sensor is described in Lego Mindstorms NXT Hardware Developer Kit,\nAppendix 7 - Ultrasonic sensor I2C communication protocol.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Ultrasonic",
           "package": "NXT",
@@ -932,6 +1007,7 @@
         "index": {
           "description": "This module defines an interface to digital ultrasonic sensor of the NXT kit I2C communication with ultrasonics sensor is described in Lego Mindstorms NXT Hardware Developer Kit Appendix Ultrasonic sensor I2C communication protocol",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Ultrasonic",
           "package": "NXT",
@@ -946,6 +1022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a continuous measurement interval value. This seems to be in the range 1-15.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ContinuousInterval",
           "package": "NXT",
@@ -955,6 +1032,7 @@
         "index": {
           "description": "Type of continuous measurement interval value This seems to be in the range",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ContinuousInterval",
           "package": "NXT",
@@ -969,6 +1047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a measurement number. Sensor stores measurements (distances) for the first 8 echoes (numbered 0-7) it receives\nin \u003ccode\u003e\u003ca\u003eSingleShot\u003c/a\u003e\u003c/code\u003e mode. For \u003ccode\u003e\u003ca\u003eContinuousMeasurement\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eEventCapture\u003c/a\u003e\u003c/code\u003e modes use first (0) measurement (distance) number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "MeasurementNumber",
           "package": "NXT",
@@ -978,6 +1057,7 @@
         "index": {
           "description": "Type of measurement number Sensor stores measurements distances for the first echoes numbered it receives in SingleShot mode For ContinuousMeasurement and EventCapture modes use first measurement distance number",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "MeasurementNumber",
           "package": "NXT",
@@ -991,6 +1071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Mode",
           "package": "NXT",
@@ -999,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Mode",
           "package": "NXT",
@@ -1013,6 +1095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a scale divisor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ScaleDivisor",
           "package": "NXT",
@@ -1022,6 +1105,7 @@
         "index": {
           "description": "Type of scale divisor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ScaleDivisor",
           "package": "NXT",
@@ -1036,6 +1120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a scale factor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ScaleFactor",
           "package": "NXT",
@@ -1045,6 +1130,7 @@
         "index": {
           "description": "Type of scale factor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ScaleFactor",
           "package": "NXT",
@@ -1059,6 +1145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of a zero value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Zero",
           "package": "NXT",
@@ -1068,6 +1155,7 @@
         "index": {
           "description": "Type of zero value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Zero",
           "package": "NXT",
@@ -1082,6 +1170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn this mode the sensor continuously makes new measurement with the specific interval. This is the default mode. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ContinuousMeasurement",
           "package": "NXT",
@@ -1092,6 +1181,7 @@
         "index": {
           "description": "In this mode the sensor continuously makes new measurement with the specific interval This is the default mode",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "ContinuousMeasurement",
           "package": "NXT",
@@ -1106,6 +1196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWithin this mode the sensor will measure whether any other ultrasonic sensors are within the vicinity.\n With this information a program can evaluate when it is best to make a new measurement which will not conflict with other ultrasonic sensors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "EventCapture",
           "package": "NXT",
@@ -1116,6 +1207,7 @@
         "index": {
           "description": "Within this mode the sensor will measure whether any other ultrasonic sensors are within the vicinity With this information program can evaluate when it is best to make new measurement which will not conflict with other ultrasonic sensors",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "EventCapture",
           "package": "NXT",
@@ -1130,6 +1222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurns sensor off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Off",
           "package": "NXT",
@@ -1140,6 +1233,7 @@
         "index": {
           "description": "Turns sensor off",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "Off",
           "package": "NXT",
@@ -1154,6 +1248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn this mode ultrasonic sensor only makes a new measurement every time this mode is set.\n The sensor measures distances for up to 8 objects (8 first echoes) which can be retrieved with \u003ccode\u003e\u003ca\u003eusGetMeasurement\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "SingleShot",
           "package": "NXT",
@@ -1164,6 +1259,7 @@
         "index": {
           "description": "In this mode ultrasonic sensor only makes new measurement every time this mode is set The sensor measures distances for up to objects first echoes which can be retrieved with usGetMeasurement",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "SingleShot",
           "package": "NXT",
@@ -1178,6 +1274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests warm reset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "WarmReset",
           "package": "NXT",
@@ -1188,6 +1285,7 @@
         "index": {
           "description": "Requests warm reset",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "WarmReset",
           "package": "NXT",
@@ -1202,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current (actual) scale divisor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualScaleDivisor",
           "package": "NXT",
@@ -1212,6 +1311,7 @@
         "index": {
           "description": "Gets current actual scale divisor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualScaleDivisor",
           "normalized": "InputPort-\u003eNXT ScaleDivisor",
@@ -1228,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current (actual) scale factor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualScaleFactor",
           "package": "NXT",
@@ -1238,6 +1339,7 @@
         "index": {
           "description": "Gets current actual scale factor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualScaleFactor",
           "normalized": "InputPort-\u003eNXT ScaleFactor",
@@ -1254,6 +1356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current (actual) zero value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualZero",
           "package": "NXT",
@@ -1264,6 +1367,7 @@
         "index": {
           "description": "Gets current actual zero value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetActualZero",
           "normalized": "InputPort-\u003eNXT Zero",
@@ -1280,6 +1384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function which gets all measurements available in order (closer first).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetAllMeasurements",
           "package": "NXT",
@@ -1290,6 +1395,7 @@
         "index": {
           "description": "Helper function which gets all measurements available in order closer first",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetAllMeasurements",
           "normalized": "InputPort-\u003eNXT[Measurement]",
@@ -1306,6 +1412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current continuous measurement interval value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetContinuousInterval",
           "package": "NXT",
@@ -1316,6 +1423,7 @@
         "index": {
           "description": "Gets current continuous measurement interval value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetContinuousInterval",
           "normalized": "InputPort-\u003eNXT ContinuousInterval",
@@ -1332,6 +1440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads device ID string (\u003ccode\u003eSonar\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetDeviceID",
           "package": "NXT",
@@ -1342,6 +1451,7 @@
         "index": {
           "description": "Reads device ID string Sonar",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetDeviceID",
           "normalized": "InputPort-\u003eNXT String",
@@ -1358,6 +1468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads factory scale divisor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryScaleDivisor",
           "package": "NXT",
@@ -1368,6 +1479,7 @@
         "index": {
           "description": "Reads factory scale divisor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryScaleDivisor",
           "normalized": "InputPort-\u003eNXT ScaleDivisor",
@@ -1384,6 +1496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads factory scale factor value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryScaleFactor",
           "package": "NXT",
@@ -1394,6 +1507,7 @@
         "index": {
           "description": "Reads factory scale factor value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryScaleFactor",
           "normalized": "InputPort-\u003eNXT ScaleFactor",
@@ -1410,6 +1524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads factory zero value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryZero",
           "package": "NXT",
@@ -1420,6 +1535,7 @@
         "index": {
           "description": "Reads factory zero value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetFactoryZero",
           "normalized": "InputPort-\u003eNXT Zero",
@@ -1436,6 +1552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets last measurement for a given measurement number based on the current mode. To retrieve new \u003ccode\u003e\u003ca\u003eSingleShot\u003c/a\u003e\u003c/code\u003e measurements first\nuse \u003ccode\u003e\u003ca\u003eusSetMode\u003c/a\u003e\u003c/code\u003e (with \u003ccode\u003e\u003ca\u003eSingleShot\u003c/a\u003e\u003c/code\u003e as an argument) to send new ultrasonic ping and after approximately 20ms read the results. (Change\nof NXT Bluetooth communication direction takes around 30 ms.) In \u003ccode\u003e\u003ca\u003eContinuousMeasurement\u003c/a\u003e\u003c/code\u003e mode new measurements are made automatically\nbased on the continuous measurement interval value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMeasurement",
           "package": "NXT",
@@ -1446,6 +1563,7 @@
         "index": {
           "description": "Gets last measurement for given measurement number based on the current mode To retrieve new SingleShot measurements first use usSetMode with SingleShot as an argument to send new ultrasonic ping and after approximately ms read the results Change of NXT Bluetooth communication direction takes around ms In ContinuousMeasurement mode new measurements are made automatically based on the continuous measurement interval value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMeasurement",
           "normalized": "InputPort-\u003eMeasurementNumber-\u003eNXT(Maybe Measurement)",
@@ -1462,6 +1580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads measurement units string (\u003ccode\u003e10E-2m\u003c/code\u003e, a centimeter).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMeasurementUnits",
           "package": "NXT",
@@ -1472,6 +1591,7 @@
         "index": {
           "description": "Reads measurement units string E-2m centimeter",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMeasurementUnits",
           "normalized": "InputPort-\u003eNXT String",
@@ -1488,6 +1608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current mode of operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMode",
           "package": "NXT",
@@ -1498,6 +1619,7 @@
         "index": {
           "description": "Gets current mode of operation",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetMode",
           "normalized": "InputPort-\u003eNXT Mode",
@@ -1514,6 +1636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads vendor ID string (\u003ccode\u003eLEGO\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetVendorID",
           "package": "NXT",
@@ -1524,6 +1647,7 @@
         "index": {
           "description": "Reads vendor ID string LEGO",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetVendorID",
           "normalized": "InputPort-\u003eNXT String",
@@ -1540,6 +1664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads software version string (\u003ccode\u003eV1.0\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetVersion",
           "package": "NXT",
@@ -1550,6 +1675,7 @@
         "index": {
           "description": "Reads software version string V1.0",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usGetVersion",
           "normalized": "InputPort-\u003eNXT String",
@@ -1566,6 +1692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInitializes sensor on the given input port. Default is \u003ccode\u003e\u003ca\u003eContinuousMeasurement\u003c/a\u003e\u003c/code\u003e mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usInit",
           "package": "NXT",
@@ -1576,6 +1703,7 @@
         "index": {
           "description": "Initializes sensor on the given input port Default is ContinuousMeasurement mode",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usInit",
           "normalized": "InputPort-\u003eNXT()",
@@ -1592,6 +1720,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current (actual) scale divisor value. This is used to calibrate sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualScaleDivisor",
           "package": "NXT",
@@ -1602,6 +1731,7 @@
         "index": {
           "description": "Sets current actual scale divisor value This is used to calibrate sensor",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualScaleDivisor",
           "normalized": "InputPort-\u003eScaleDivisor-\u003eNXT()",
@@ -1618,6 +1748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current (actual) scale factor value. This is used to calibrate sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualScaleFactor",
           "package": "NXT",
@@ -1628,6 +1759,7 @@
         "index": {
           "description": "Sets current actual scale factor value This is used to calibrate sensor",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualScaleFactor",
           "normalized": "InputPort-\u003eScaleFactor-\u003eNXT()",
@@ -1644,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current (actual) zero value. This is used to calibrate sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualZero",
           "package": "NXT",
@@ -1654,6 +1787,7 @@
         "index": {
           "description": "Sets current actual zero value This is used to calibrate sensor",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetActualZero",
           "normalized": "InputPort-\u003eZero-\u003eNXT()",
@@ -1670,6 +1804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current continuous measurement interval value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetContinuousInterval",
           "package": "NXT",
@@ -1680,6 +1815,7 @@
         "index": {
           "description": "Sets current continuous measurement interval value",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetContinuousInterval",
           "normalized": "InputPort-\u003eContinuousInterval-\u003eNXT()",
@@ -1696,6 +1832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets current mode of operation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetMode",
           "package": "NXT",
@@ -1706,6 +1843,7 @@
         "index": {
           "description": "Sets current mode of operation",
           "hierarchy": "Robotics NXT Sensor Ultrasonic",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT.Sensor.Ultrasonic",
           "name": "usSetMode",
           "normalized": "InputPort-\u003eMode-\u003eNXT()",
@@ -1722,6 +1860,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines an interface over Bluetooth to a NXT brick as defined in Lego Mindstorms NXT Bluetooth Developer Kit,\nAppendix 1 - Communication protocol and Appendix 2 - Direct commands. It also defines some additional functions not available\ndirectly otherwise.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NXT",
           "package": "NXT",
@@ -1731,6 +1870,7 @@
         "index": {
           "description": "This module defines an interface over Bluetooth to NXT brick as defined in Lego Mindstorms NXT Bluetooth Developer Kit Appendix Communication protocol and Appendix Direct commands It also defines some additional functions not available directly otherwise",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NXT",
           "package": "NXT",
@@ -1745,6 +1885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBluetooth address of the NXT brick in the string format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "BTAddress",
           "package": "NXT",
@@ -1754,6 +1895,7 @@
         "index": {
           "description": "Bluetooth address of the NXT brick in the string format",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "BTAddress",
           "package": "NXT",
@@ -1768,6 +1910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrength of the Bluetooth signal. Not implemented in current NXT firmware versions. Use \u003ccode\u003ebluetoothRSSI\u003c/code\u003e or \u003ccode\u003ebluetoothLinkQuality\u003c/code\u003e as an alternative.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "BTStrength",
           "package": "NXT",
@@ -1777,6 +1920,7 @@
         "index": {
           "description": "Strength of the Bluetooth signal Not implemented in current NXT firmware versions Use bluetoothRSSI or bluetoothLinkQuality as an alternative",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "BTStrength",
           "package": "NXT",
@@ -1791,6 +1935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock-relative position counter. Current position relative to the last programmed movement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "BlockTachoCount",
           "package": "NXT",
@@ -1800,6 +1945,7 @@
         "index": {
           "description": "Block-relative position counter Current position relative to the last programmed movement",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "BlockTachoCount",
           "package": "NXT",
@@ -1814,6 +1960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if calibration file found and used for \u003ccode\u003e\u003ca\u003eCalibratedValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Calibrated",
           "package": "NXT",
@@ -1823,6 +1970,7 @@
         "index": {
           "description": "True if calibration file found and used for CalibratedValue",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Calibrated",
           "package": "NXT",
@@ -1837,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue scaled according to calibration. Unused in current NXT firmware versions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "CalibratedValue",
           "package": "NXT",
@@ -1846,6 +1995,7 @@
         "index": {
           "description": "Value scaled according to calibration Unused in current NXT firmware versions",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "CalibratedValue",
           "package": "NXT",
@@ -1860,6 +2010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI2C device command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Command",
           "package": "NXT",
@@ -1869,6 +2020,7 @@
         "index": {
           "description": "I2C device command",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Command",
           "package": "NXT",
@@ -1883,6 +2035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAddress of the device (sensor) on the I2C bus.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "DeviceAddress",
           "package": "NXT",
@@ -1892,6 +2045,7 @@
         "index": {
           "description": "Address of the device sensor on the I2C bus",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "DeviceAddress",
           "package": "NXT",
@@ -1905,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "DeviceInfo",
           "package": "NXT",
@@ -1913,6 +2068,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "DeviceInfo",
           "package": "NXT",
@@ -1927,6 +2083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime duration (in seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Duration",
           "package": "NXT",
@@ -1936,6 +2093,7 @@
         "index": {
           "description": "Time duration in seconds",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Duration",
           "package": "NXT",
@@ -1949,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FileData",
           "package": "NXT",
@@ -1957,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FileData",
           "package": "NXT",
@@ -1971,6 +2131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle of the opened file on the NXT brick filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FileHandle",
           "package": "NXT",
@@ -1980,6 +2141,7 @@
         "index": {
           "description": "Handle of the opened file on the NXT brick filesystem",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FileHandle",
           "package": "NXT",
@@ -1994,6 +2156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilename of the file on the NXT brick filesystem. In 15.3 format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FileName",
           "package": "NXT",
@@ -2003,6 +2166,7 @@
         "index": {
           "description": "Filename of the file on the NXT brick filesystem In format",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FileName",
           "package": "NXT",
@@ -2017,6 +2181,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSize of the file on the NXT brick filesystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FileSize",
           "package": "NXT",
@@ -2026,6 +2191,7 @@
         "index": {
           "description": "Size of the file on the NXT brick filesystem",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FileSize",
           "package": "NXT",
@@ -2039,6 +2205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FirmwareVersion",
           "package": "NXT",
@@ -2047,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FirmwareVersion",
           "package": "NXT",
@@ -2061,6 +2229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFree flash space on the NXT brick (in bytes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FlashFree",
           "package": "NXT",
@@ -2070,6 +2239,7 @@
         "index": {
           "description": "Free flash space on the NXT brick in bytes",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FlashFree",
           "package": "NXT",
@@ -2084,6 +2254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrequency of the played tone (in hertz).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Frequency",
           "package": "NXT",
@@ -2093,6 +2264,7 @@
         "index": {
           "description": "Frequency of the played tone in hertz",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Frequency",
           "package": "NXT",
@@ -2106,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "IOMapData",
           "package": "NXT",
@@ -2114,6 +2287,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "IOMapData",
           "package": "NXT",
@@ -2127,6 +2301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "IOMapLength",
           "package": "NXT",
@@ -2135,6 +2310,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "IOMapLength",
           "package": "NXT",
@@ -2148,6 +2324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "IOMapOffset",
           "package": "NXT",
@@ -2156,6 +2333,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "IOMapOffset",
           "package": "NXT",
@@ -2170,6 +2348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInbox on the NXT brick into which the host (computer) queues messages for the program running there.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox",
           "package": "NXT",
@@ -2179,6 +2358,7 @@
         "index": {
           "description": "Inbox on the NXT brick into which the host computer queues messages for the program running there",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox",
           "package": "NXT",
@@ -2192,6 +2372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "InputPort",
           "package": "NXT",
@@ -2200,6 +2381,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "InputPort",
           "package": "NXT",
@@ -2213,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "InputValue",
           "package": "NXT",
@@ -2221,6 +2404,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "InputValue",
           "package": "NXT",
@@ -2235,6 +2419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoop playback of the sound file?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "LoopPlayback",
           "package": "NXT",
@@ -2244,6 +2429,7 @@
         "index": {
           "description": "Loop playback of the sound file",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "LoopPlayback",
           "package": "NXT",
@@ -2257,6 +2443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Major",
           "package": "NXT",
@@ -2265,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Major",
           "package": "NXT",
@@ -2279,6 +2467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eI2C device measurement value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Measurement",
           "package": "NXT",
@@ -2288,6 +2477,7 @@
         "index": {
           "description": "I2C device measurement value",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Measurement",
           "package": "NXT",
@@ -2301,6 +2491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Minor",
           "package": "NXT",
@@ -2309,6 +2500,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Minor",
           "package": "NXT",
@@ -2323,6 +2515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHandle for traversing of modules. Only one module handle can be opened at a time so be careful to close them when not\n needed anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleHandle",
           "package": "NXT",
@@ -2332,6 +2525,7 @@
         "index": {
           "description": "Handle for traversing of modules Only one module handle can be opened at time so be careful to close them when not needed anymore",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleHandle",
           "package": "NXT",
@@ -2345,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleID",
           "package": "NXT",
@@ -2353,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleID",
           "package": "NXT",
@@ -2366,6 +2562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleIOMapSize",
           "package": "NXT",
@@ -2374,6 +2571,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleIOMapSize",
           "package": "NXT",
@@ -2388,6 +2586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the IO map module information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleInfo",
           "package": "NXT",
@@ -2397,6 +2596,7 @@
         "index": {
           "description": "Type of the IO map module information",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleInfo",
           "package": "NXT",
@@ -2411,6 +2611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModule name extension is \u003ccode\u003e.mod\u003c/code\u003e. For some functions this can be also a wild card.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleName",
           "package": "NXT",
@@ -2420,6 +2621,7 @@
         "index": {
           "description": "Module name extension is mod For some functions this can be also wild card",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleName",
           "package": "NXT",
@@ -2433,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleSize",
           "package": "NXT",
@@ -2441,6 +2644,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleSize",
           "package": "NXT",
@@ -2454,6 +2658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorReset",
           "package": "NXT",
@@ -2462,6 +2667,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorReset",
           "package": "NXT",
@@ -2476,6 +2682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad which encompasses interface to the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NXT",
           "package": "NXT",
@@ -2485,6 +2692,7 @@
         "index": {
           "description": "Monad which encompasses interface to the NXT brick",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NXT",
           "package": "NXT",
@@ -2499,6 +2707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eException for NXT interface errors. Currently only one exception is defined which takes textual description as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NXTException",
           "package": "NXT",
@@ -2508,6 +2717,7 @@
         "index": {
           "description": "Exception for NXT interface errors Currently only one exception is defined which takes textual description as an argument",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NXTException",
           "package": "NXT",
@@ -2522,6 +2732,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA token used for exposed internal functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NXTInternals",
           "package": "NXT",
@@ -2531,6 +2742,7 @@
         "index": {
           "description": "token used for exposed internal functions",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NXTInternals",
           "package": "NXT",
@@ -2545,6 +2757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Name",
           "package": "NXT",
@@ -2554,6 +2767,7 @@
         "index": {
           "description": "Name of the NXT brick",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Name",
           "package": "NXT",
@@ -2568,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormalized A/D value. Type dependent. In [0, 1023] range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NormalizedADValue",
           "package": "NXT",
@@ -2577,6 +2792,7 @@
         "index": {
           "description": "Normalized value Type dependent In range",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NormalizedADValue",
           "package": "NXT",
@@ -2590,6 +2806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "OutputMode",
           "package": "NXT",
@@ -2598,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "OutputMode",
           "package": "NXT",
@@ -2611,6 +2829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "OutputPort",
           "package": "NXT",
@@ -2619,6 +2838,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "OutputPort",
           "package": "NXT",
@@ -2633,6 +2853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePower and direction. In [-100, 100] range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "OutputPower",
           "package": "NXT",
@@ -2642,6 +2863,7 @@
         "index": {
           "description": "Power and direction In range",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "OutputPower",
           "package": "NXT",
@@ -2655,6 +2877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "OutputState",
           "package": "NXT",
@@ -2663,6 +2886,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "OutputState",
           "package": "NXT",
@@ -2676,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ProtocolVersion",
           "package": "NXT",
@@ -2684,6 +2909,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ProtocolVersion",
           "package": "NXT",
@@ -2698,6 +2924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRaw A/D value. Device dependent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RawADValue",
           "package": "NXT",
@@ -2707,6 +2934,7 @@
         "index": {
           "description": "Raw value Device dependent",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RawADValue",
           "package": "NXT",
@@ -2720,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RegulationMode",
           "package": "NXT",
@@ -2728,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RegulationMode",
           "package": "NXT",
@@ -2742,6 +2972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutbox on the NXT brick where the program running there queues messages for the host (computer).\n There is a convention that only \u003ccode\u003e\u003ca\u003eRemoteInbox10\u003c/a\u003e\u003c/code\u003e - \u003ccode\u003e\u003ca\u003eRemoteInbox19\u003c/a\u003e\u003c/code\u003e outboxes are used for this purpose so that lower ones can\n be used for inter-brick communication. But this convention is not really obeyed in practice.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox",
           "package": "NXT",
@@ -2751,6 +2982,7 @@
         "index": {
           "description": "Outbox on the NXT brick where the program running there queues messages for the host computer There is convention that only RemoteInbox10 RemoteInbox19 outboxes are used for this purpose so that lower ones can be used for inter-brick communication But this convention is not really obeyed in practice",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox",
           "package": "NXT",
@@ -2765,6 +2997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShould the message be remove from the queue once received?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoveMessage",
           "package": "NXT",
@@ -2774,6 +3007,7 @@
         "index": {
           "description": "Should the message be remove from the queue once received",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoveMessage",
           "package": "NXT",
@@ -2788,6 +3022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProgram-relative position counter. Current position relative to the last reset of the rotation sensor for this motor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RotationCount",
           "package": "NXT",
@@ -2797,6 +3032,7 @@
         "index": {
           "description": "Program-relative position counter Current position relative to the last reset of the rotation sensor for this motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RotationCount",
           "package": "NXT",
@@ -2810,6 +3046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RunState",
           "package": "NXT",
@@ -2818,6 +3055,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RunState",
           "package": "NXT",
@@ -2831,6 +3069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RxData",
           "package": "NXT",
@@ -2839,6 +3078,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RxData",
           "package": "NXT",
@@ -2853,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt most 16 data bytes can be read at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RxDataLength",
           "package": "NXT",
@@ -2862,6 +3103,7 @@
         "index": {
           "description": "At most data bytes can be read at time",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RxDataLength",
           "package": "NXT",
@@ -2876,6 +3118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScaled value. Mode dependent. In percent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ScaledValue",
           "package": "NXT",
@@ -2885,6 +3128,7 @@
         "index": {
           "description": "Scaled value Mode dependent In percent",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ScaledValue",
           "package": "NXT",
@@ -2898,6 +3142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "SensorMode",
           "package": "NXT",
@@ -2906,6 +3151,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "SensorMode",
           "package": "NXT",
@@ -2920,6 +3166,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType of the sensor currently attached to \u003ccode\u003e\u003ca\u003eInputPort\u003c/a\u003e\u003c/code\u003e. \u003ccode\u003e\u003ca\u003eNoSensor\u003c/a\u003e\u003c/code\u003e turns off the sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "SensorType",
           "package": "NXT",
@@ -2929,6 +3176,7 @@
         "index": {
           "description": "Type of the sensor currently attached to InputPort NoSensor turns off the sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "SensorType",
           "package": "NXT",
@@ -2943,6 +3191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternal (absolute) tacho counter. Number since the last reset of the motor tacho counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TachoCount",
           "package": "NXT",
@@ -2952,6 +3201,7 @@
         "index": {
           "description": "Internal absolute tacho counter Number since the last reset of the motor tacho counter",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TachoCount",
           "package": "NXT",
@@ -2966,6 +3216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTarget tacho limit for a motor movement. 0 means no limit. It is an unsigned value (you select direction of motor movement with\n sign of \u003ccode\u003e\u003ca\u003eOutputPower\u003c/a\u003e\u003c/code\u003e value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TachoLimit",
           "package": "NXT",
@@ -2975,6 +3226,7 @@
         "index": {
           "description": "Target tacho limit for motor movement means no limit It is an unsigned value you select direction of motor movement with sign of OutputPower value",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TachoLimit",
           "package": "NXT",
@@ -2989,6 +3241,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTimeout exception for NXT IO operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TimeoutException",
           "package": "NXT",
@@ -2998,6 +3251,7 @@
         "index": {
           "description": "Timeout exception for NXT IO operations",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TimeoutException",
           "package": "NXT",
@@ -3012,6 +3266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIn regulated synced mode the difference between two motors. In [-100, 100] range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TurnRatio",
           "package": "NXT",
@@ -3021,6 +3276,7 @@
         "index": {
           "description": "In regulated synced mode the difference between two motors In range",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TurnRatio",
           "package": "NXT",
@@ -3034,6 +3290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TxData",
           "package": "NXT",
@@ -3042,6 +3299,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TxData",
           "package": "NXT",
@@ -3056,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e if new data value should be seen as valid data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Valid",
           "package": "NXT",
@@ -3065,6 +3324,7 @@
         "index": {
           "description": "True if new data value should be seen as valid data",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Valid",
           "package": "NXT",
@@ -3079,6 +3339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe format of version is \"major.minor\". To format it use \u003ccode\u003e\u003ccode\u003eprintf\u003c/code\u003e \"%d.%02d\" major minor\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Version",
           "package": "NXT",
@@ -3088,6 +3349,7 @@
         "index": {
           "description": "The format of version is major.minor To format it use printf major minor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Version",
           "package": "NXT",
@@ -3102,6 +3364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVoltage value (in volts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Voltage",
           "package": "NXT",
@@ -3111,6 +3374,7 @@
         "index": {
           "description": "Voltage value in volts",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Voltage",
           "package": "NXT",
@@ -3125,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput port (motor) A.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "A",
           "package": "NXT",
@@ -3135,6 +3400,7 @@
         "index": {
           "description": "Output port motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "A",
           "package": "NXT",
@@ -3148,6 +3414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets program-relative position counter (\u003ccode\u003e\u003ca\u003eRotationCount\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "AbsolutePosition",
           "package": "NXT",
@@ -3158,6 +3425,7 @@
         "index": {
           "description": "Resets program-relative position counter RotationCount",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "AbsolutePosition",
           "package": "NXT",
@@ -3171,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Angle",
           "package": "NXT",
@@ -3180,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Angle",
           "package": "NXT",
@@ -3194,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value as count of ticks on RCX-style rotation sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "AngleStepsMode",
           "package": "NXT",
@@ -3204,6 +3475,7 @@
         "index": {
           "description": "Reports scaled value as count of ticks on RCX-style rotation sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "AngleStepsMode",
           "package": "NXT",
@@ -3218,6 +3490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput port (motor) B.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "B",
           "package": "NXT",
@@ -3228,6 +3501,7 @@
         "index": {
           "description": "Output port motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "B",
           "package": "NXT",
@@ -3241,6 +3515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value as 1 true or 0 false, false if raw value \u003e 55% of total range, true if \u003c 45%.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "BooleanMode",
           "package": "NXT",
@@ -3251,6 +3526,7 @@
         "index": {
           "description": "Reports scaled value as true or false false if raw value of total range true if",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "BooleanMode",
           "package": "NXT",
@@ -3265,6 +3541,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVoltage is not allowed to float between PWM pulses, improves accuracy, uses more power.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Brake",
           "package": "NXT",
@@ -3275,6 +3552,7 @@
         "index": {
           "description": "Voltage is not allowed to float between PWM pulses improves accuracy uses more power",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Brake",
           "package": "NXT",
@@ -3289,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput port (motor) C.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "C",
           "package": "NXT",
@@ -3299,6 +3578,7 @@
         "index": {
           "description": "Output port motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "C",
           "package": "NXT",
@@ -3312,6 +3592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor reporting temperature in celsius.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "CelsiusMode",
           "package": "NXT",
@@ -3322,6 +3603,7 @@
         "index": {
           "description": "For reporting temperature in celsius",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "CelsiusMode",
           "package": "NXT",
@@ -3335,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Custom",
           "package": "NXT",
@@ -3344,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Custom",
           "package": "NXT",
@@ -3357,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "DeviceInfo",
           "package": "NXT",
@@ -3366,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "DeviceInfo",
           "package": "NXT",
@@ -3380,6 +3666,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor reporting temperature in fahrenheit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FahrenheitMode",
           "package": "NXT",
@@ -3390,6 +3677,7 @@
         "index": {
           "description": "For reporting temperature in fahrenheit",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FahrenheitMode",
           "package": "NXT",
@@ -3403,6 +3691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "FirmwareVersion",
           "package": "NXT",
@@ -3412,6 +3701,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "FirmwareVersion",
           "package": "NXT",
@@ -3426,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput port (sensor) 4.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Four",
           "package": "NXT",
@@ -3436,6 +3727,7 @@
         "index": {
           "description": "Input port sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Four",
           "package": "NXT",
@@ -3449,6 +3741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox0",
           "package": "NXT",
@@ -3458,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox0",
           "package": "NXT",
@@ -3471,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox1",
           "package": "NXT",
@@ -3480,6 +3775,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox1",
           "package": "NXT",
@@ -3493,6 +3789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox2",
           "package": "NXT",
@@ -3502,6 +3799,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox2",
           "package": "NXT",
@@ -3515,6 +3813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox3",
           "package": "NXT",
@@ -3524,6 +3823,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox3",
           "package": "NXT",
@@ -3537,6 +3837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox4",
           "package": "NXT",
@@ -3546,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox4",
           "package": "NXT",
@@ -3559,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox5",
           "package": "NXT",
@@ -3568,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox5",
           "package": "NXT",
@@ -3581,6 +3885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox6",
           "package": "NXT",
@@ -3590,6 +3895,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox6",
           "package": "NXT",
@@ -3603,6 +3909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox7",
           "package": "NXT",
@@ -3612,6 +3919,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox7",
           "package": "NXT",
@@ -3625,6 +3933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox8",
           "package": "NXT",
@@ -3634,6 +3943,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox8",
           "package": "NXT",
@@ -3647,6 +3957,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Inbox9",
           "package": "NXT",
@@ -3656,6 +3967,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Inbox9",
           "package": "NXT",
@@ -3669,6 +3981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "InputValue",
           "package": "NXT",
@@ -3678,6 +3991,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "InputValue",
           "package": "NXT",
@@ -3692,6 +4006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets internal movement counters (also \u003ccode\u003e\u003ca\u003eTachoCount\u003c/a\u003e\u003c/code\u003e), cancels current goal and resets internal error-correction system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "InternalPosition",
           "package": "NXT",
@@ -3702,6 +4017,7 @@
         "index": {
           "description": "Resets internal movement counters also TachoCount cancels current goal and resets internal error-correction system",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "InternalPosition",
           "package": "NXT",
@@ -3715,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "LightActive",
           "package": "NXT",
@@ -3724,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "LightActive",
           "package": "NXT",
@@ -3737,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "LightInactive",
           "package": "NXT",
@@ -3746,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "LightInactive",
           "package": "NXT",
@@ -3759,6 +4079,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Lowspeed",
           "package": "NXT",
@@ -3768,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Lowspeed",
           "package": "NXT",
@@ -3781,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Lowspeed9V",
           "package": "NXT",
@@ -3790,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Lowspeed9V",
           "package": "NXT",
@@ -3803,6 +4127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ModuleInfo",
           "package": "NXT",
@@ -3812,6 +4137,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ModuleInfo",
           "package": "NXT",
@@ -3826,6 +4152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnables PWM power according to speed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorOn",
           "package": "NXT",
@@ -3836,6 +4163,7 @@
         "index": {
           "description": "Enables PWM power according to speed",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorOn",
           "package": "NXT",
@@ -3850,6 +4178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHold at the current position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorRunStateHold",
           "package": "NXT",
@@ -3860,6 +4189,7 @@
         "index": {
           "description": "Hold at the current position",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorRunStateHold",
           "package": "NXT",
@@ -3874,6 +4204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisables power to motor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorRunStateIdle",
           "package": "NXT",
@@ -3884,6 +4215,7 @@
         "index": {
           "description": "Disables power to motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorRunStateIdle",
           "package": "NXT",
@@ -3898,6 +4230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRamping to a new speed set-point that is less than the current speed set-point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRampDown",
           "package": "NXT",
@@ -3908,6 +4241,7 @@
         "index": {
           "description": "Ramping to new speed set-point that is less than the current speed set-point",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRampDown",
           "package": "NXT",
@@ -3922,6 +4256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRamping to a new speed set-point that is greater than the current speed set-point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRampUp",
           "package": "NXT",
@@ -3932,6 +4267,7 @@
         "index": {
           "description": "Ramping to new speed set-point that is greater than the current speed set-point",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRampUp",
           "package": "NXT",
@@ -3946,6 +4282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnables power to motor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRunning",
           "package": "NXT",
@@ -3956,6 +4293,7 @@
         "index": {
           "description": "Enables power to motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "MotorRunStateRunning",
           "package": "NXT",
@@ -3969,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NXTException",
           "package": "NXT",
@@ -3978,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NXTException",
           "package": "NXT",
@@ -3991,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NoOfSensorTypes",
           "package": "NXT",
@@ -4000,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NoOfSensorTypes",
           "package": "NXT",
@@ -4013,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "NoSensor",
           "package": "NXT",
@@ -4022,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "NoSensor",
           "package": "NXT",
@@ -4036,6 +4380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput port (sensor) 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "One",
           "package": "NXT",
@@ -4046,6 +4391,7 @@
         "index": {
           "description": "Input port sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "One",
           "package": "NXT",
@@ -4059,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "OutputState",
           "package": "NXT",
@@ -4068,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "OutputState",
           "normalized": "OutputState OutputPort OutputPower[OutputMode]RegulationMode TurnRatio RunState TachoLimit TachoCount BlockTachoCount RotationCount",
@@ -4084,6 +4432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value as % of full scale reading for a configured sensor type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "PctFullScaleMode",
           "package": "NXT",
@@ -4094,6 +4443,7 @@
         "index": {
           "description": "Reports scaled value as of full scale reading for configured sensor type",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "PctFullScaleMode",
           "package": "NXT",
@@ -4108,6 +4458,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value as number of transitions from false to true, then back to false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "PeriodCounterMode",
           "package": "NXT",
@@ -4118,6 +4469,7 @@
         "index": {
           "description": "Reports scaled value as number of transitions from false to true then back to false",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "PeriodCounterMode",
           "package": "NXT",
@@ -4131,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ProtocolVersion",
           "package": "NXT",
@@ -4140,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ProtocolVersion",
           "package": "NXT",
@@ -4154,6 +4508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value equal to the raw value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RawMode",
           "package": "NXT",
@@ -4164,6 +4519,7 @@
         "index": {
           "description": "Reports scaled value equal to the raw value",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RawMode",
           "package": "NXT",
@@ -4177,6 +4533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Reflection",
           "package": "NXT",
@@ -4186,6 +4543,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Reflection",
           "package": "NXT",
@@ -4200,6 +4558,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequired in conjunction with output regulation mode setting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Regulated",
           "package": "NXT",
@@ -4210,6 +4569,7 @@
         "index": {
           "description": "Required in conjunction with output regulation mode setting",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Regulated",
           "package": "NXT",
@@ -4224,6 +4584,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisables regulation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RegulationModeIdle",
           "package": "NXT",
@@ -4234,6 +4595,7 @@
         "index": {
           "description": "Disables regulation",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RegulationModeIdle",
           "package": "NXT",
@@ -4248,6 +4610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuto adjust PWM duty cycle if motor is affected by physical load. Really works only if there is\n room for that (not that motor is already running at the maximum power).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RegulationModeMotorSpeed",
           "package": "NXT",
@@ -4258,6 +4621,7 @@
         "index": {
           "description": "Auto adjust PWM duty cycle if motor is affected by physical load Really works only if there is room for that not that motor is already running at the maximum power",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RegulationModeMotorSpeed",
           "package": "NXT",
@@ -4272,6 +4636,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to keep rotation in sync with another motor that has this set. Also involves turn ratio.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RegulationModeMotorSync",
           "package": "NXT",
@@ -4282,6 +4647,7 @@
         "index": {
           "description": "Attempts to keep rotation in sync with another motor that has this set Also involves turn ratio",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RegulationModeMotorSync",
           "package": "NXT",
@@ -4296,6 +4662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets block-relative position counter (\u003ccode\u003e\u003ca\u003eBlockTachoCount\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RelativePosition",
           "package": "NXT",
@@ -4306,6 +4673,7 @@
         "index": {
           "description": "Resets block-relative position counter BlockTachoCount",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RelativePosition",
           "package": "NXT",
@@ -4319,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox0",
           "package": "NXT",
@@ -4328,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox0",
           "package": "NXT",
@@ -4341,6 +4711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox1",
           "package": "NXT",
@@ -4350,6 +4721,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox1",
           "package": "NXT",
@@ -4363,6 +4735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox10",
           "package": "NXT",
@@ -4372,6 +4745,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox10",
           "package": "NXT",
@@ -4385,6 +4759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox11",
           "package": "NXT",
@@ -4394,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox11",
           "package": "NXT",
@@ -4407,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox12",
           "package": "NXT",
@@ -4416,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox12",
           "package": "NXT",
@@ -4429,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox13",
           "package": "NXT",
@@ -4438,6 +4817,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox13",
           "package": "NXT",
@@ -4451,6 +4831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox14",
           "package": "NXT",
@@ -4460,6 +4841,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox14",
           "package": "NXT",
@@ -4473,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox15",
           "package": "NXT",
@@ -4482,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox15",
           "package": "NXT",
@@ -4495,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox16",
           "package": "NXT",
@@ -4504,6 +4889,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox16",
           "package": "NXT",
@@ -4517,6 +4903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox17",
           "package": "NXT",
@@ -4526,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox17",
           "package": "NXT",
@@ -4539,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox18",
           "package": "NXT",
@@ -4548,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox18",
           "package": "NXT",
@@ -4561,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox19",
           "package": "NXT",
@@ -4570,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox19",
           "package": "NXT",
@@ -4583,6 +4975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox2",
           "package": "NXT",
@@ -4592,6 +4985,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox2",
           "package": "NXT",
@@ -4605,6 +4999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox3",
           "package": "NXT",
@@ -4614,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox3",
           "package": "NXT",
@@ -4627,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox4",
           "package": "NXT",
@@ -4636,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox4",
           "package": "NXT",
@@ -4649,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox5",
           "package": "NXT",
@@ -4658,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox5",
           "package": "NXT",
@@ -4671,6 +5071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox6",
           "package": "NXT",
@@ -4680,6 +5081,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox6",
           "package": "NXT",
@@ -4693,6 +5095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox7",
           "package": "NXT",
@@ -4702,6 +5105,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox7",
           "package": "NXT",
@@ -4715,6 +5119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox8",
           "package": "NXT",
@@ -4724,6 +5129,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox8",
           "package": "NXT",
@@ -4737,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "RemoteInbox9",
           "package": "NXT",
@@ -4746,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "RemoteInbox9",
           "package": "NXT",
@@ -4759,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "SoundDB",
           "package": "NXT",
@@ -4768,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "SoundDB",
           "package": "NXT",
@@ -4781,6 +5191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "SoundDBA",
           "package": "NXT",
@@ -4790,6 +5201,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "SoundDBA",
           "package": "NXT",
@@ -4803,6 +5215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Switch",
           "package": "NXT",
@@ -4812,6 +5225,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Switch",
           "package": "NXT",
@@ -4825,6 +5239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Temperature",
           "package": "NXT",
@@ -4834,6 +5249,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Temperature",
           "package": "NXT",
@@ -4848,6 +5264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput port (sensor) 3.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Three",
           "package": "NXT",
@@ -4858,6 +5275,7 @@
         "index": {
           "description": "Input port sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Three",
           "package": "NXT",
@@ -4871,6 +5289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TimoutException",
           "package": "NXT",
@@ -4880,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TimoutException",
           "package": "NXT",
@@ -4894,6 +5314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReports scaled value as number of transitions between true and false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "TransitionCntMode",
           "package": "NXT",
@@ -4904,6 +5325,7 @@
         "index": {
           "description": "Reports scaled value as number of transitions between true and false",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "TransitionCntMode",
           "package": "NXT",
@@ -4918,6 +5340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput port (sensor) 2.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Two",
           "package": "NXT",
@@ -4928,6 +5351,7 @@
         "index": {
           "description": "Input port sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Two",
           "package": "NXT",
@@ -4941,6 +5365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "Version",
           "package": "NXT",
@@ -4950,6 +5375,7 @@
         },
         "index": {
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "Version",
           "package": "NXT",
@@ -4964,6 +5390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets link quality of the Bluetooth connection to the NXT brick.\n\u003c/p\u003e\u003cp\u003eCurrently supported only on Linux. It throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "bluetoothLinkQuality",
           "package": "NXT",
@@ -4974,6 +5401,7 @@
         "index": {
           "description": "Gets link quality of the Bluetooth connection to the NXT brick Currently supported only on Linux It throws NXTException otherwise",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "bluetoothLinkQuality",
           "package": "NXT",
@@ -4988,6 +5416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets received signal strength indicator (RSSI) of the Bluetooth connection to the NXT brick.\n\u003c/p\u003e\u003cp\u003eCurrently supported only on Linux. It throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "bluetoothRSSI",
           "package": "NXT",
@@ -4998,6 +5427,7 @@
         "index": {
           "description": "Gets received signal strength indicator RSSI of the Bluetooth connection to the NXT brick Currently supported only on Linux It throws NXTException otherwise",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "bluetoothRSSI",
           "package": "NXT",
@@ -5012,6 +5442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "close",
           "package": "NXT",
@@ -5022,6 +5453,7 @@
         "index": {
           "description": "Closes file",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "close",
           "normalized": "FileHandle-\u003eNXT()",
@@ -5037,6 +5469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eclose\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "closeConfirm",
           "package": "NXT",
@@ -5047,6 +5480,7 @@
         "index": {
           "description": "Same as close but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "closeConfirm",
           "normalized": "FileHandle-\u003eNXT()",
@@ -5063,6 +5497,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCloses module handle of previously requested module information.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "closeModuleHandle",
           "package": "NXT",
@@ -5073,6 +5508,7 @@
         "index": {
           "description": "Closes module handle of previously requested module information",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "closeModuleHandle",
           "normalized": "ModuleHandle-\u003eNXT()",
@@ -5089,6 +5525,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecloseModuleHandle\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an\nerror it throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "closeModuleHandleConfirm",
           "package": "NXT",
@@ -5099,6 +5536,7 @@
         "index": {
           "description": "Same as closeModuleHandle but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "closeModuleHandleConfirm",
           "normalized": "ModuleHandle-\u003eNXT()",
@@ -5115,6 +5553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault Bluetooth serial device filename for current operating system. Currently always \u003ccode\u003e/dev/rfcomm0\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "defaultDevice",
           "package": "NXT",
@@ -5125,6 +5564,7 @@
         "index": {
           "description": "Default Bluetooth serial device filename for current operating system Currently always dev rfcomm0",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "defaultDevice",
           "package": "NXT",
@@ -5139,6 +5579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeletes a given file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "delete",
           "package": "NXT",
@@ -5149,6 +5590,7 @@
         "index": {
           "description": "Deletes given file",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "delete",
           "normalized": "FileName-\u003eNXT()",
@@ -5164,6 +5606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edelete\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it throws\na \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "deleteConfirm",
           "package": "NXT",
@@ -5174,6 +5617,7 @@
         "index": {
           "description": "Same as delete but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "deleteConfirm",
           "normalized": "FileName-\u003eNXT()",
@@ -5190,6 +5634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edeleteConfirm\u003c/a\u003e\u003c/code\u003e but it also requires that the file exists before deletion. It throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "deleteExisting",
           "package": "NXT",
@@ -5200,6 +5645,7 @@
         "index": {
           "description": "Same as deleteConfirm but it also requires that the file exists before deletion It throws NXTException otherwise",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "deleteExisting",
           "normalized": "FileName-\u003eNXT()",
@@ -5216,6 +5662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emessageWrite\u003c/a\u003e\u003c/code\u003e but if there is no message in a given remote inbox queue it retries until there is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ensureMessageRead",
           "package": "NXT",
@@ -5226,6 +5673,7 @@
         "index": {
           "description": "Same as messageWrite but if there is no message in given remote inbox queue it retries until there is",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ensureMessageRead",
           "normalized": "RemoteInbox-\u003eRemoveMessage-\u003eNXT String",
@@ -5242,6 +5690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function which first ensures that no other program is running and then ensures that a given program is really running before\nit returns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "ensureStartProgram",
           "package": "NXT",
@@ -5252,6 +5701,7 @@
         "index": {
           "description": "Helper function which first ensures that no other program is running and then ensures that given program is really running before it returns",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "ensureStartProgram",
           "normalized": "FileName-\u003eNXT()",
@@ -5268,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a computation in a context of a given \u003ccode\u003e\u003ca\u003eNXTInternals\u003c/a\u003e\u003c/code\u003e token, returning just a new token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "execNXT",
           "package": "NXT",
@@ -5278,6 +5729,7 @@
         "index": {
           "description": "Runs computation in context of given NXTInternals token returning just new token",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "execNXT",
           "normalized": "NXT a-\u003eNXTInternals-\u003eIO NXTInternals",
@@ -5294,6 +5746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current battery level (in volts).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getBatteryLevel",
           "package": "NXT",
@@ -5304,6 +5757,7 @@
         "index": {
           "description": "Gets current battery level in volts",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getBatteryLevel",
           "package": "NXT",
@@ -5318,6 +5772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name of the currently running program, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getCurrentProgramName",
           "package": "NXT",
@@ -5328,6 +5783,7 @@
         "index": {
           "description": "Gets the name of the currently running program if any",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getCurrentProgramName",
           "package": "NXT",
@@ -5342,6 +5798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets device (the NXT brick) information: name, Bluetooth 48 bit address in the string format, strength of Bluetooth signal (not implemented in\ncurrent NXT firmware versions, use \u003ccode\u003ebluetoothRSSI\u003c/code\u003e or \u003ccode\u003ebluetoothLinkQuality\u003c/code\u003e as an alternative), free space on flash.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getDeviceInfo",
           "package": "NXT",
@@ -5352,6 +5809,7 @@
         "index": {
           "description": "Gets device the NXT brick information name Bluetooth bit address in the string format strength of Bluetooth signal not implemented in current NXT firmware versions use bluetoothRSSI or bluetoothLinkQuality as an alternative free space on flash",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getDeviceInfo",
           "package": "NXT",
@@ -5366,6 +5824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets input port (sensor) values. This is the main function for reading a sensor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getInputValues",
           "package": "NXT",
@@ -5376,6 +5835,7 @@
         "index": {
           "description": "Gets input port sensor values This is the main function for reading sensor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getInputValues",
           "normalized": "InputPort-\u003eNXT InputValue",
@@ -5392,6 +5852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen was a last keep alive packet send?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getLastKeepAliveTime",
           "package": "NXT",
@@ -5402,6 +5863,7 @@
         "index": {
           "description": "When was last keep alive packet send",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getLastKeepAliveTime",
           "package": "NXT",
@@ -5416,6 +5878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to get an ID of a module matching a given module name. Each module encompass some firmware functionality.\nFunction caches IDs so it hopefully retrieves it from a cache of previous requests.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getModuleID",
           "package": "NXT",
@@ -5426,6 +5889,7 @@
         "index": {
           "description": "Helper function to get an ID of module matching given module name Each module encompass some firmware functionality Function caches IDs so it hopefully retrieves it from cache of previous requests",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getModuleID",
           "normalized": "ModuleName-\u003eNXT(Maybe ModuleID)",
@@ -5442,6 +5906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets output port (motor) current state. In additional to values used with \u003ccode\u003e\u003ca\u003esetOutputState\u003c/a\u003e\u003c/code\u003e also \u003ccode\u003e\u003ca\u003eTachoCount\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eBlockTachoCount\u003c/a\u003e\u003c/code\u003e\nand \u003ccode\u003e\u003ca\u003eRotationCount\u003c/a\u003e\u003c/code\u003e values are available which tell you current position of a motor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getOutputState",
           "package": "NXT",
@@ -5452,6 +5917,7 @@
         "index": {
           "description": "Gets output port motor current state In additional to values used with setOutputState also TachoCount BlockTachoCount and RotationCount values are available which tell you current position of motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getOutputState",
           "normalized": "OutputPort-\u003eNXT OutputState",
@@ -5468,6 +5934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets current sleep timeout setting (in seconds) after which the NXT brick automatically powers off if\nnot prevented with a keep alive packet (use \u003ccode\u003e\u003ca\u003ekeepAlive\u003c/a\u003e\u003c/code\u003e to send one). This setting is cached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getSleepTimeout",
           "package": "NXT",
@@ -5478,6 +5945,7 @@
         "index": {
           "description": "Gets current sleep timeout setting in seconds after which the NXT brick automatically powers off if not prevented with keep alive packet use keepAlive to send one This setting is cached",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getSleepTimeout",
           "package": "NXT",
@@ -5492,6 +5960,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets firmware and protocol versions of the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "getVersion",
           "package": "NXT",
@@ -5502,6 +5971,7 @@
         "index": {
           "description": "Gets firmware and protocol versions of the NXT brick",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "getVersion",
           "package": "NXT",
@@ -5516,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens and intializes a Bluetooth serial device communication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "initialize",
           "package": "NXT",
@@ -5526,6 +5997,7 @@
         "index": {
           "description": "Opens and intializes Bluetooth serial device communication",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "initialize",
           "normalized": "FilePath-\u003eIO NXTInternals",
@@ -5541,6 +6013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIs battery used in the NXT brick rechargeable?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "isBatteryRechargeable",
           "package": "NXT",
@@ -5551,6 +6024,7 @@
         "index": {
           "description": "Is battery used in the NXT brick rechargeable",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "isBatteryRechargeable",
           "package": "NXT",
@@ -5565,6 +6039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a keep alive (turned on) packet. It prevents the NXT brick from automatically powering off. Other commands do not prevent that\nfrom hapenning so it is useful to send this packet from time to time if you want to prevent powering off.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "keepAlive",
           "package": "NXT",
@@ -5575,6 +6050,7 @@
         "index": {
           "description": "Sends keep alive turned on packet It prevents the NXT brick from automatically powering off Other commands do not prevent that from hapenning so it is useful to send this packet from time to time if you want to prevent powering off",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "keepAlive",
           "normalized": "NXT()",
@@ -5591,6 +6067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ekeepAlive\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "keepAliveConfirm",
           "package": "NXT",
@@ -5601,6 +6078,7 @@
         "index": {
           "description": "Same as keepAlive but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "keepAliveConfirm",
           "normalized": "NXT()",
@@ -5617,6 +6095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function to get information about all modules matching a given module name (which can be a wild card).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "listModules",
           "package": "NXT",
@@ -5627,6 +6106,7 @@
         "index": {
           "description": "Helper function to get information about all modules matching given module name which can be wild card",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "listModules",
           "normalized": "ModuleName-\u003eNXT[ModuleInfo]",
@@ -5643,6 +6123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets number of bytes available to read.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "lowspeedGetStatus",
           "package": "NXT",
@@ -5653,6 +6134,7 @@
         "index": {
           "description": "Gets number of bytes available to read",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "lowspeedGetStatus",
           "normalized": "InputPort-\u003eNXT Int",
@@ -5669,6 +6151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads data. The protocol does not support variable-length return packages so the response always contains 16 data bytes with invalid\ndata padded with zeros.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "lowspeedRead",
           "package": "NXT",
@@ -5679,6 +6162,7 @@
         "index": {
           "description": "Reads data The protocol does not support variable-length return packages so the response always contains data bytes with invalid data padded with zeros",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "lowspeedRead",
           "normalized": "InputPort-\u003eNXT RxData",
@@ -5695,6 +6179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites data. At most 16 bytes can be written at a time.\n\u003c/p\u003e\u003cp\u003eReply data length must be specified in the write command since reading from the device is done on a master-slave basis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "lowspeedWrite",
           "package": "NXT",
@@ -5705,6 +6190,7 @@
         "index": {
           "description": "Writes data At most bytes can be written at time Reply data length must be specified in the write command since reading from the device is done on master-slave basis",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "lowspeedWrite",
           "normalized": "InputPort-\u003eRxDataLength-\u003eTxData-\u003eNXT()",
@@ -5721,6 +6207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003elowspeedWrite\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an\nerror it throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "lowspeedWriteConfirm",
           "package": "NXT",
@@ -5731,6 +6218,7 @@
         "index": {
           "description": "Same as lowspeedWrite but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "lowspeedWriteConfirm",
           "normalized": "InputPort-\u003eRxDataLength-\u003eTxData-\u003eNXT()",
@@ -5747,6 +6235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emessageWrite\u003c/a\u003e\u003c/code\u003e but returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if there is no message in a given remote inbox queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "maybeMessageRead",
           "package": "NXT",
@@ -5757,6 +6246,7 @@
         "index": {
           "description": "Same as messageWrite but returns Nothing if there is no message in given remote inbox queue",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "maybeMessageRead",
           "normalized": "RemoteInbox-\u003eRemoveMessage-\u003eNXT(Maybe String)",
@@ -5773,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a message from the currently running program from a given remote inbox queue. A queue is limited to 5 messages.\nIt throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e if there is no message in a remote inbox queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "messageRead",
           "package": "NXT",
@@ -5783,6 +6274,7 @@
         "index": {
           "description": "Reads message from the currently running program from given remote inbox queue queue is limited to messages It throws NXTException if there is no message in remote inbox queue",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "messageRead",
           "normalized": "RemoteInbox-\u003eRemoveMessage-\u003eNXT String",
@@ -5799,6 +6291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites a message to the given inbox queue of the running remote program. A message length is limited to 58 characters/bytes. A queue\nis limited to 5 messages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "messageWrite",
           "package": "NXT",
@@ -5809,6 +6302,7 @@
         "index": {
           "description": "Writes message to the given inbox queue of the running remote program message length is limited to characters bytes queue is limited to messages",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "messageWrite",
           "normalized": "Inbox-\u003eString-\u003eNXT()",
@@ -5825,6 +6319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003emessageWrite\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "messageWriteConfirm",
           "package": "NXT",
@@ -5835,6 +6330,7 @@
         "index": {
           "description": "Same as messageWrite but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "messageWriteConfirm",
           "normalized": "Inbox-\u003eString-\u003eNXT()",
@@ -5851,6 +6347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a given file for writing as a linked list of flash sectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "openWrite",
           "package": "NXT",
@@ -5861,6 +6358,7 @@
         "index": {
           "description": "Opens given file for writing as linked list of flash sectors",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "openWrite",
           "normalized": "FileName-\u003eFileSize-\u003eNXT FileHandle",
@@ -5877,6 +6375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a given file for writing as a linear contiguous block of flash memory (required for user programs and certain data files).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "openWriteLinear",
           "package": "NXT",
@@ -5887,6 +6386,7 @@
         "index": {
           "description": "Opens given file for writing as linear contiguous block of flash memory required for user programs and certain data files",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "openWriteLinear",
           "normalized": "FileName-\u003eFileSize-\u003eNXT FileHandle",
@@ -5903,6 +6403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a given sound file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "playSoundFile",
           "package": "NXT",
@@ -5913,6 +6414,7 @@
         "index": {
           "description": "Plays given sound file",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "playSoundFile",
           "normalized": "LoopPlayback-\u003eFileName-\u003eNXT()",
@@ -5929,6 +6431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eplaySoundFile\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "playSoundFileConfirm",
           "package": "NXT",
@@ -5939,6 +6442,7 @@
         "index": {
           "description": "Same as playSoundFile but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "playSoundFileConfirm",
           "normalized": "LoopPlayback-\u003eFileName-\u003eNXT()",
@@ -5955,6 +6459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlays a tone with a given frequency (in hertz) for a given duration (in seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "playTone",
           "package": "NXT",
@@ -5965,6 +6470,7 @@
         "index": {
           "description": "Plays tone with given frequency in hertz for given duration in seconds",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "playTone",
           "normalized": "Frequency-\u003eDuration-\u003eNXT()",
@@ -5981,6 +6487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads data from an IO map of a given module. At most 119 bytes can be read at a time.\n\u003c/p\u003e\u003cp\u003eYou probably have to know what different values at different positions mean and control. The best way is to check NXT firmware\nsource code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "readIOMap",
           "package": "NXT",
@@ -5991,6 +6498,7 @@
         "index": {
           "description": "Reads data from an IO map of given module At most bytes can be read at time You probably have to know what different values at different positions mean and control The best way is to check NXT firmware source code",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "readIOMap",
           "normalized": "ModuleID-\u003eIOMapOffset-\u003eIOMapLength-\u003eNXT IOMapData",
@@ -6007,6 +6515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests information about the first module matching a given module name (which can be a wild card). Returned module handle\ncan be used for followup requests and has to be closed when not needed anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "requestFirstModule",
           "package": "NXT",
@@ -6017,6 +6526,7 @@
         "index": {
           "description": "Requests information about the first module matching given module name which can be wild card Returned module handle can be used for followup requests and has to be closed when not needed anymore",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "requestFirstModule",
           "normalized": "ModuleName-\u003eNXT(ModuleHandle,Maybe ModuleInfo)",
@@ -6033,6 +6543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequests information about the next module matching previously requested module name (which can be a wild card). Returned module\nhandle can be used for followup requests and has to be closed when not needed anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "requestNextModule",
           "package": "NXT",
@@ -6043,6 +6554,7 @@
         "index": {
           "description": "Requests information about the next module matching previously requested module name which can be wild card Returned module handle can be used for followup requests and has to be closed when not needed anymore",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "requestNextModule",
           "normalized": "ModuleHandle-\u003eNXT(ModuleHandle,Maybe ModuleInfo)",
@@ -6059,6 +6571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets input port (sensor) scaled value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "resetInputScaledValue",
           "package": "NXT",
@@ -6069,6 +6582,7 @@
         "index": {
           "description": "Resets input port sensor scaled value",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "resetInputScaledValue",
           "normalized": "InputPort-\u003eNXT()",
@@ -6085,6 +6599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResets one of three position counters for a given output port.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "resetMotorPosition",
           "package": "NXT",
@@ -6095,6 +6610,7 @@
         "index": {
           "description": "Resets one of three position counters for given output port",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "resetMotorPosition",
           "normalized": "OutputPort-\u003eMotorReset-\u003eNXT()",
@@ -6111,6 +6627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a computation in a context of a given \u003ccode\u003e\u003ca\u003eNXTInternals\u003c/a\u003e\u003c/code\u003e token, returning a value and a new token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "runNXT",
           "package": "NXT",
@@ -6121,6 +6638,7 @@
         "index": {
           "description": "Runs computation in context of given NXTInternals token returning value and new token",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "runNXT",
           "normalized": "NXT a-\u003eNXTInternals-\u003eIO(a,NXTInternals)",
@@ -6137,6 +6655,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets input port (sensor) type and mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "setInputMode",
           "package": "NXT",
@@ -6147,6 +6666,7 @@
         "index": {
           "description": "Sets input port sensor type and mode",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "setInputMode",
           "normalized": "InputPort-\u003eSensorType-\u003eSensorMode-\u003eNXT()",
@@ -6163,6 +6683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esetInputMode\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "setInputModeConfirm",
           "package": "NXT",
@@ -6173,6 +6694,7 @@
         "index": {
           "description": "Same as setInputMode but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "setInputModeConfirm",
           "normalized": "InputPort-\u003eSensorType-\u003eSensorMode-\u003eNXT()",
@@ -6189,6 +6711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets output port (motor) state. This is the main function for controlling a motor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "setOutputState",
           "package": "NXT",
@@ -6199,6 +6722,7 @@
         "index": {
           "description": "Sets output port motor state This is the main function for controlling motor",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "setOutputState",
           "normalized": "OutputPort-\u003eOutputPower-\u003e[OutputMode]-\u003eRegulationMode-\u003eTurnRatio-\u003eRunState-\u003eTachoLimit-\u003eNXT()",
@@ -6215,6 +6739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003esetOutputState\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error\nit throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "setOutputStateConfirm",
           "package": "NXT",
@@ -6225,6 +6750,7 @@
         "index": {
           "description": "Same as setOutputState but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "setOutputStateConfirm",
           "normalized": "OutputPort-\u003eOutputPower-\u003e[OutputMode]-\u003eRegulationMode-\u003eTurnRatio-\u003eRunState-\u003eTachoLimit-\u003eNXT()",
@@ -6241,6 +6767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShutdowns (powers off) the NXT brick. You have to manually turn it on again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "shutdown",
           "package": "NXT",
@@ -6251,6 +6778,7 @@
         "index": {
           "description": "Shutdowns powers off the NXT brick You have to manually turn it on again",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "shutdown",
           "normalized": "NXT()",
@@ -6266,6 +6794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStarts a given program on the NXT brick.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "startProgram",
           "package": "NXT",
@@ -6276,6 +6805,7 @@
         "index": {
           "description": "Starts given program on the NXT brick",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "startProgram",
           "normalized": "FileName-\u003eNXT()",
@@ -6292,6 +6822,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estartProgram\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted, but this does not assure\nthat the program has really started successfully (especially not that it is already running when the confirmation is received).\nUse \u003ccode\u003e\u003ca\u003eensureStartProgram\u003c/a\u003e\u003c/code\u003e for that. In a case of an error it throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "startProgramConfirm",
           "package": "NXT",
@@ -6302,6 +6833,7 @@
         "index": {
           "description": "Same as startProgram but also request confirmation Useful to assure the command was really accepted but this does not assure that the program has really started successfully especially not that it is already running when the confirmation is received Use ensureStartProgram for that In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "startProgramConfirm",
           "normalized": "FileName-\u003eNXT()",
@@ -6318,6 +6850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHelper function which stops all NXT brick activities: stops motors and disables sensors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopEverything",
           "package": "NXT",
@@ -6328,6 +6861,7 @@
         "index": {
           "description": "Helper function which stops all NXT brick activities stops motors and disables sensors",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopEverything",
           "normalized": "NXT()",
@@ -6344,6 +6878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a currently running program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopProgram",
           "package": "NXT",
@@ -6354,6 +6889,7 @@
         "index": {
           "description": "Stops currently running program",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopProgram",
           "normalized": "NXT()",
@@ -6370,6 +6906,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estopProgram\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopProgramConfirm",
           "package": "NXT",
@@ -6380,6 +6917,7 @@
         "index": {
           "description": "Same as stopProgram but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopProgramConfirm",
           "normalized": "NXT()",
@@ -6396,6 +6934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estopProgramConfirm\u003c/a\u003e\u003c/code\u003e but it also requires that the program was really running. It throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopProgramExisting",
           "package": "NXT",
@@ -6406,6 +6945,7 @@
         "index": {
           "description": "Same as stopProgramConfirm but it also requires that the program was really running It throws NXTException otherwise",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopProgramExisting",
           "normalized": "NXT()",
@@ -6422,6 +6962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops current sound file playback.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopSoundPlayback",
           "package": "NXT",
@@ -6432,6 +6973,7 @@
         "index": {
           "description": "Stops current sound file playback",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopSoundPlayback",
           "normalized": "NXT()",
@@ -6448,6 +6990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003estopSoundPlayback\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an\nerror it throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "stopSoundPlaybackConfirm",
           "package": "NXT",
@@ -6458,6 +7001,7 @@
         "index": {
           "description": "Same as stopSoundPlayback but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "stopSoundPlaybackConfirm",
           "normalized": "NXT()",
@@ -6474,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops all NXT activities (by calling \u003ccode\u003e\u003ca\u003estopEverything\u003c/a\u003e\u003c/code\u003e) and closes the Bluetooth serial device communication. \u003ccode\u003e\u003ca\u003eNXTInternals\u003c/a\u003e\u003c/code\u003e token must not\nbe used after that anymore.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "terminate",
           "package": "NXT",
@@ -6484,6 +7029,7 @@
         "index": {
           "description": "Stops all NXT activities by calling stopEverything and closes the Bluetooth serial device communication NXTInternals token must not be used after that anymore",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "terminate",
           "normalized": "NXTInternals-\u003eIO()",
@@ -6499,6 +7045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFunction which initializes and terminates Bluetooth connection to the NXT brick (using \u003ccode\u003e\u003ca\u003einitialize\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eterminate\u003c/a\u003e\u003c/code\u003e) and in-between\nruns given computation. It terminates Bluetooth connection on an exception, too, rethrowing it afterwards.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "withNXT",
           "package": "NXT",
@@ -6509,6 +7056,7 @@
         "index": {
           "description": "Function which initializes and terminates Bluetooth connection to the NXT brick using initialize and terminate and in-between runs given computation It terminates Bluetooth connection on an exception too rethrowing it afterwards",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "withNXT",
           "normalized": "FilePath-\u003eNXT a-\u003eIO a",
@@ -6525,6 +7073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites data to a file. At most 61 bytes can be written at a time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "write",
           "package": "NXT",
@@ -6535,6 +7084,7 @@
         "index": {
           "description": "Writes data to file At most bytes can be written at time",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "write",
           "normalized": "FileHandle-\u003eFileData-\u003eNXT()",
@@ -6550,6 +7100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewrite\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error it\nthrows a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "writeConfirm",
           "package": "NXT",
@@ -6560,6 +7111,7 @@
         "index": {
           "description": "Same as write but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "writeConfirm",
           "normalized": "FileHandle-\u003eFileData-\u003eNXT()",
@@ -6576,6 +7128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrites data to an IO map of a given module. At most 54 bytes can be written at a time.\n\u003c/p\u003e\u003cp\u003eYou probably have to know what different values at different positions mean and control. The best way is to check NXT firmware\nsource code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "writeIOMap",
           "package": "NXT",
@@ -6586,6 +7139,7 @@
         "index": {
           "description": "Writes data to an IO map of given module At most bytes can be written at time You probably have to know what different values at different positions mean and control The best way is to check NXT firmware source code",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "writeIOMap",
           "normalized": "ModuleID-\u003eIOMapOffset-\u003eIOMapData-\u003eNXT()",
@@ -6602,6 +7156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ewriteIOMap\u003c/a\u003e\u003c/code\u003e but also request a confirmation. Useful to assure the command was really accepted. In a case of an error\nit throws a \u003ccode\u003e\u003ca\u003eNXTException\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eConfirmation requires a change of the direction of NXT Bluetooth communication which takes around 30 ms. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:53:49 UTC 2014",
           "module": "Robotics.NXT",
           "name": "writeIOMapConfirm",
           "package": "NXT",
@@ -6612,6 +7167,7 @@
         "index": {
           "description": "Same as writeIOMap but also request confirmation Useful to assure the command was really accepted In case of an error it throws NXTException Confirmation requires change of the direction of NXT Bluetooth communication which takes around ms",
           "hierarchy": "Robotics NXT",
+          "indexed": "2014-03-11T16:53:49",
           "module": "Robotics.NXT",
           "name": "writeIOMapConfirm",
           "normalized": "ModuleID-\u003eIOMapOffset-\u003eIOMapData-\u003eNXT()",

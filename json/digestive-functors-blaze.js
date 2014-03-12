@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "digestive-functors-blaze"
+        "phrase": "digestive-functors-blaze",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "Html5",
           "package": "digestive-functors-blaze",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "Html5",
           "package": "digestive-functors-blaze",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "childErrorList",
           "package": "digestive-functors-blaze",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "childErrorList",
           "normalized": "Text-\u003eView Html-\u003eHtml",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "errorList",
           "package": "digestive-functors-blaze",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "errorList",
           "normalized": "Text-\u003eView Html-\u003eHtml",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "form",
           "package": "digestive-functors-blaze",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "form",
           "normalized": "View Html-\u003eText-\u003eHtml-\u003eHtml",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputCheckbox",
           "package": "digestive-functors-blaze",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputCheckbox",
           "normalized": "Text-\u003eView Html-\u003eHtml",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputFile",
           "package": "digestive-functors-blaze",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputFile",
           "normalized": "Text-\u003eView Html-\u003eHtml",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputHidden",
           "package": "digestive-functors-blaze",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputHidden",
           "normalized": "Text-\u003eView a-\u003eHtml",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputPassword",
           "package": "digestive-functors-blaze",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputPassword",
           "normalized": "Text-\u003eView a-\u003eHtml",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputRadio",
           "package": "digestive-functors-blaze",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputRadio",
           "normalized": "Bool-\u003eText-\u003eView Html-\u003eHtml",
@@ -229,6 +247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputSelect",
           "package": "digestive-functors-blaze",
@@ -238,6 +257,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputSelect",
           "normalized": "Text-\u003eView Html-\u003eHtml",
@@ -253,6 +273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputSubmit",
           "package": "digestive-functors-blaze",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputSubmit",
           "normalized": "Text-\u003eHtml",
@@ -277,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputText",
           "package": "digestive-functors-blaze",
@@ -286,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputText",
           "normalized": "Text-\u003eView a-\u003eHtml",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputTextArea",
           "package": "digestive-functors-blaze",
@@ -309,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "inputTextArea",
           "normalized": "Maybe Int-\u003eMaybe Int-\u003eText-\u003eView Html-\u003eHtml",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:55:12 UTC 2014",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "label",
           "package": "digestive-functors-blaze",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Text Digestive Blaze Html5",
+          "indexed": "2014-03-11T17:55:12",
           "module": "Text.Digestive.Blaze.Html5",
           "name": "label",
           "normalized": "Text-\u003eView a-\u003eHtml-\u003eHtml",

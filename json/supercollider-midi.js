@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "supercollider-midi"
+        "phrase": "supercollider-midi",
+        "type": "phrase"
       },
       "type": "context"
     }

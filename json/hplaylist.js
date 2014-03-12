@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hplaylist"
+        "phrase": "hplaylist",
+        "type": "phrase"
       },
       "type": "context"
     }

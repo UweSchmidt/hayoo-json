@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-uDrawGraph"
+        "phrase": "uni-uDrawGraph",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDaVinciBasic contains the code to do the following things:\n (1) get daVinci going (it calls it via a ChildProcess).\n (2) open new contexts.\n (3) pass on events and sort answers out for particular\n     contexts.\n It uses the DaVinciTypes module to parse the different\n results, but makes minimal attempts to interpret the\n different datatypes (the main reason for doing so is\n to interpret DaVinciAnswer to work out what to do\n with a particular answer).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "Basic",
           "package": "uni-uDrawGraph",
@@ -28,6 +29,7 @@
         "index": {
           "description": "DaVinciBasic contains the code to do the following things get daVinci going it calls it via ChildProcess open new contexts pass on events and sort answers out for particular contexts It uses the DaVinciTypes module to parse the different results but makes minimal attempts to interpret the different datatypes the main reason for doing so is to interpret DaVinciAnswer to work out what to do with particular answer",
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "Basic",
           "package": "uni-uDrawGraph",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "Context",
           "package": "uni-uDrawGraph",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "Context",
           "package": "uni-uDrawGraph",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "daVinciVersion",
           "package": "uni-uDrawGraph",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "daVinciVersion",
           "package": "uni-uDrawGraph",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "doInContext",
           "package": "uni-uDrawGraph",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "doInContext",
           "normalized": "DaVinciCmd-\u003eContext-\u003eIO()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "doInContextGeneral",
           "package": "uni-uDrawGraph",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "doInContextGeneral",
           "normalized": "DaVinciCmd-\u003eContext-\u003eIO DaVinciAnswer",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "exitDaVinci",
           "package": "uni-uDrawGraph",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "exitDaVinci",
           "normalized": "Context-\u003eIO()",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "newContext",
           "package": "uni-uDrawGraph",
@@ -165,6 +178,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "newContext",
           "normalized": "(DaVinciAnswer-\u003eIO())-\u003eIO Context",
@@ -180,6 +194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "newEdgeId",
           "package": "uni-uDrawGraph",
@@ -189,6 +204,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "newEdgeId",
           "normalized": "Context-\u003eIO EdgeId",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "newMenuId",
           "package": "uni-uDrawGraph",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "newMenuId",
           "normalized": "Context-\u003eIO MenuId",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "newNodeId",
           "package": "uni-uDrawGraph",
@@ -237,6 +256,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "newNodeId",
           "normalized": "Context-\u003eIO NodeId",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "newType",
           "package": "uni-uDrawGraph",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "newType",
           "normalized": "Context-\u003eIO Type",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Basic",
           "name": "withHandler",
           "package": "uni-uDrawGraph",
@@ -285,6 +308,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Basic",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Basic",
           "name": "withHandler",
           "normalized": "(DaVinciAnswer-\u003eIO())-\u003eContext-\u003eIO a-\u003eIO a",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is the implementation of modules GraphDisp and GraphConfigure for\n daVinci.   See those files for explanation of the names.\n We encode, for example, the type parameter node as DaVinciNode,\n and so on for other type parameters, prefixing with \"DaVinci\" and\n capitalising the next letter.  But the only variable you should normally\n need from this module is \u003ccode\u003e\u003ca\u003edaVinciSort\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "Graph",
           "package": "uni-uDrawGraph",
@@ -310,6 +335,7 @@
         "index": {
           "description": "This is the implementation of modules GraphDisp and GraphConfigure for daVinci See those files for explanation of the names We encode for example the type parameter node as DaVinciNode and so on for other type parameters prefixing with DaVinci and capitalising the next letter But the only variable you should normally need from this module is daVinciSort",
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "Graph",
           "package": "uni-uDrawGraph",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArc",
           "package": "uni-uDrawGraph",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArc",
           "package": "uni-uDrawGraph",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArcType",
           "package": "uni-uDrawGraph",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArcType",
           "package": "uni-uDrawGraph",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArcTypeParms",
           "package": "uni-uDrawGraph",
@@ -373,6 +404,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciArcTypeParms",
           "package": "uni-uDrawGraph",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciGraph",
           "package": "uni-uDrawGraph",
@@ -394,6 +427,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciGraph",
           "package": "uni-uDrawGraph",
@@ -407,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciGraphParms",
           "package": "uni-uDrawGraph",
@@ -415,6 +450,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciGraphParms",
           "package": "uni-uDrawGraph",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNode",
           "package": "uni-uDrawGraph",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNode",
           "package": "uni-uDrawGraph",
@@ -450,6 +488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTiresomely we need to make the \"real\" node type untyped.\n This is so that the interactor which handles drag-and-drop\n can get the type out without knowing what it is.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNodeType",
           "package": "uni-uDrawGraph",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Tiresomely we need to make the real node type untyped This is so that the interactor which handles drag-and-drop can get the type out without knowing what it is",
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNodeType",
           "package": "uni-uDrawGraph",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNodeTypeParms",
           "package": "uni-uDrawGraph",
@@ -480,6 +521,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "DaVinciNodeTypeParms",
           "package": "uni-uDrawGraph",
@@ -493,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "daVinciSort",
           "package": "uni-uDrawGraph",
@@ -502,6 +545,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "daVinciSort",
           "package": "uni-uDrawGraph",
@@ -515,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Graph",
           "name": "getDaVinciGraphContext",
           "package": "uni-uDrawGraph",
@@ -524,6 +569,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Graph",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Graph",
           "name": "getDaVinciGraphContext",
           "normalized": "DaVinciGraph-\u003eContext",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file was taken from Sven Panne's page on 31st July 2001.\n I have since changed it a little.  The version before these\n changes may be found in DaVinciTypes.hs.orig.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Types",
           "package": "uni-uDrawGraph",
@@ -549,6 +596,7 @@
         "index": {
           "description": "This file was taken from Sven Panne page on st July have since changed it little The version before these changes may be found in DaVinciTypes.hs.orig",
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Types",
           "package": "uni-uDrawGraph",
@@ -562,6 +610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AbstractionMenuCmd",
           "package": "uni-uDrawGraph",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AbstractionMenuCmd",
           "package": "uni-uDrawGraph",
@@ -583,6 +633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AppMenuCmd",
           "package": "uni-uDrawGraph",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AppMenuCmd",
           "package": "uni-uDrawGraph",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AttrChange",
           "package": "uni-uDrawGraph",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AttrChange",
           "package": "uni-uDrawGraph",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Attribute",
           "package": "uni-uDrawGraph",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Attribute",
           "package": "uni-uDrawGraph",
@@ -646,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Btype",
           "package": "uni-uDrawGraph",
@@ -654,6 +711,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Btype",
           "package": "uni-uDrawGraph",
@@ -667,6 +725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ContextId",
           "package": "uni-uDrawGraph",
@@ -675,6 +734,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ContextId",
           "package": "uni-uDrawGraph",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DaVinciAnswer",
           "package": "uni-uDrawGraph",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DaVinciAnswer",
           "package": "uni-uDrawGraph",
@@ -709,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DaVinciCmd",
           "package": "uni-uDrawGraph",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DaVinciCmd",
           "package": "uni-uDrawGraph",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Direction",
           "package": "uni-uDrawGraph",
@@ -738,6 +803,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Direction",
           "package": "uni-uDrawGraph",
@@ -751,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DragAndDropCmd",
           "package": "uni-uDrawGraph",
@@ -759,6 +826,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DragAndDropCmd",
           "package": "uni-uDrawGraph",
@@ -772,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Edge",
           "package": "uni-uDrawGraph",
@@ -780,6 +849,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Edge",
           "package": "uni-uDrawGraph",
@@ -793,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeId",
           "package": "uni-uDrawGraph",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeId",
           "package": "uni-uDrawGraph",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeUpdate",
           "package": "uni-uDrawGraph",
@@ -822,6 +895,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeUpdate",
           "package": "uni-uDrawGraph",
@@ -835,6 +909,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FileMenuCmd",
           "package": "uni-uDrawGraph",
@@ -843,6 +918,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FileMenuCmd",
           "package": "uni-uDrawGraph",
@@ -856,6 +932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Filename",
           "package": "uni-uDrawGraph",
@@ -864,6 +941,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Filename",
           "package": "uni-uDrawGraph",
@@ -877,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "GraphCmd",
           "package": "uni-uDrawGraph",
@@ -885,6 +964,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "GraphCmd",
           "package": "uni-uDrawGraph",
@@ -898,6 +978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "IconEntry",
           "package": "uni-uDrawGraph",
@@ -906,6 +987,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "IconEntry",
           "package": "uni-uDrawGraph",
@@ -919,6 +1001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "IconId",
           "package": "uni-uDrawGraph",
@@ -927,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "IconId",
           "package": "uni-uDrawGraph",
@@ -940,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "LayoutMenuCmd",
           "package": "uni-uDrawGraph",
@@ -948,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "LayoutMenuCmd",
           "package": "uni-uDrawGraph",
@@ -961,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuAcc",
           "package": "uni-uDrawGraph",
@@ -969,6 +1056,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuAcc",
           "package": "uni-uDrawGraph",
@@ -982,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuCmd",
           "package": "uni-uDrawGraph",
@@ -990,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuCmd",
           "package": "uni-uDrawGraph",
@@ -1003,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuEntry",
           "package": "uni-uDrawGraph",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuEntry",
           "package": "uni-uDrawGraph",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuId",
           "package": "uni-uDrawGraph",
@@ -1032,6 +1125,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuId",
           "package": "uni-uDrawGraph",
@@ -1045,6 +1139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuLabel",
           "package": "uni-uDrawGraph",
@@ -1053,6 +1148,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuLabel",
           "package": "uni-uDrawGraph",
@@ -1066,6 +1162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuMne",
           "package": "uni-uDrawGraph",
@@ -1074,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuMne",
           "package": "uni-uDrawGraph",
@@ -1087,6 +1185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuMod",
           "package": "uni-uDrawGraph",
@@ -1095,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuMod",
           "package": "uni-uDrawGraph",
@@ -1108,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MixedUpdate",
           "package": "uni-uDrawGraph",
@@ -1116,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MixedUpdate",
           "package": "uni-uDrawGraph",
@@ -1129,6 +1231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MultiCmd",
           "package": "uni-uDrawGraph",
@@ -1137,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MultiCmd",
           "package": "uni-uDrawGraph",
@@ -1150,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NavigationMenuCmd",
           "package": "uni-uDrawGraph",
@@ -1158,6 +1263,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NavigationMenuCmd",
           "package": "uni-uDrawGraph",
@@ -1171,6 +1277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Node",
           "package": "uni-uDrawGraph",
@@ -1179,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Node",
           "package": "uni-uDrawGraph",
@@ -1192,6 +1300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeId",
           "package": "uni-uDrawGraph",
@@ -1200,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeId",
           "package": "uni-uDrawGraph",
@@ -1213,6 +1323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeUpdate",
           "package": "uni-uDrawGraph",
@@ -1221,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeUpdate",
           "package": "uni-uDrawGraph",
@@ -1234,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Orient",
           "package": "uni-uDrawGraph",
@@ -1242,6 +1355,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Orient",
           "package": "uni-uDrawGraph",
@@ -1255,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SetCmd",
           "package": "uni-uDrawGraph",
@@ -1263,6 +1378,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SetCmd",
           "package": "uni-uDrawGraph",
@@ -1276,6 +1392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SpecialCmd",
           "package": "uni-uDrawGraph",
@@ -1284,6 +1401,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SpecialCmd",
           "package": "uni-uDrawGraph",
@@ -1297,6 +1415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "TclCmd",
           "package": "uni-uDrawGraph",
@@ -1305,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "TclCmd",
           "package": "uni-uDrawGraph",
@@ -1318,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Type",
           "package": "uni-uDrawGraph",
@@ -1326,6 +1447,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Type",
           "package": "uni-uDrawGraph",
@@ -1339,6 +1461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "TypeChange",
           "package": "uni-uDrawGraph",
@@ -1347,6 +1470,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "TypeChange",
           "package": "uni-uDrawGraph",
@@ -1360,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ViewMenuCmd",
           "package": "uni-uDrawGraph",
@@ -1368,6 +1493,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ViewMenuCmd",
           "package": "uni-uDrawGraph",
@@ -1381,6 +1507,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "VisualCmd",
           "package": "uni-uDrawGraph",
@@ -1389,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "VisualCmd",
           "package": "uni-uDrawGraph",
@@ -1402,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "VisualRule",
           "package": "uni-uDrawGraph",
@@ -1410,6 +1539,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "VisualRule",
           "package": "uni-uDrawGraph",
@@ -1423,6 +1553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "WindowCmd",
           "package": "uni-uDrawGraph",
@@ -1431,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "WindowCmd",
           "package": "uni-uDrawGraph",
@@ -1444,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "WindowId",
           "package": "uni-uDrawGraph",
@@ -1452,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "WindowId",
           "package": "uni-uDrawGraph",
@@ -1465,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "A",
           "package": "uni-uDrawGraph",
@@ -1474,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "A",
           "package": "uni-uDrawGraph",
@@ -1486,6 +1622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Abstraction",
           "package": "uni-uDrawGraph",
@@ -1495,6 +1632,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Abstraction",
           "package": "uni-uDrawGraph",
@@ -1508,6 +1646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Activate",
           "package": "uni-uDrawGraph",
@@ -1517,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Activate",
           "package": "uni-uDrawGraph",
@@ -1530,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ActivateIcons",
           "package": "uni-uDrawGraph",
@@ -1539,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ActivateIcons",
           "normalized": "ActivateIcons[IconId]",
@@ -1554,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ActivateMenus",
           "package": "uni-uDrawGraph",
@@ -1563,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ActivateMenus",
           "normalized": "ActivateMenus[MenuId]",
@@ -1578,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AddRules",
           "package": "uni-uDrawGraph",
@@ -1587,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AddRules",
           "normalized": "AddRules[VisualRule]",
@@ -1602,6 +1748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Alternate",
           "package": "uni-uDrawGraph",
@@ -1611,6 +1758,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Alternate",
           "package": "uni-uDrawGraph",
@@ -1624,6 +1772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AnimationSpeed",
           "package": "uni-uDrawGraph",
@@ -1633,6 +1782,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AnimationSpeed",
           "package": "uni-uDrawGraph",
@@ -1646,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "AppMenu",
           "package": "uni-uDrawGraph",
@@ -1655,6 +1806,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "AppMenu",
           "package": "uni-uDrawGraph",
@@ -1668,6 +1820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "BlankIconEntry",
           "package": "uni-uDrawGraph",
@@ -1677,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "BlankIconEntry",
           "package": "uni-uDrawGraph",
@@ -1690,6 +1844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "BlankMenuEntry",
           "package": "uni-uDrawGraph",
@@ -1699,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "BlankMenuEntry",
           "package": "uni-uDrawGraph",
@@ -1712,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "BottomUp",
           "package": "uni-uDrawGraph",
@@ -1721,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "BottomUp",
           "package": "uni-uDrawGraph",
@@ -1734,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "BrowserAnswer",
           "package": "uni-uDrawGraph",
@@ -1743,6 +1902,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "BrowserAnswer",
           "package": "uni-uDrawGraph",
@@ -1756,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Bt",
           "package": "uni-uDrawGraph",
@@ -1765,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Bt",
           "package": "uni-uDrawGraph",
@@ -1778,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ChangeAttr",
           "package": "uni-uDrawGraph",
@@ -1787,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ChangeAttr",
           "normalized": "ChangeAttr[AttrChange]",
@@ -1802,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ChangeType",
           "package": "uni-uDrawGraph",
@@ -1811,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ChangeType",
           "normalized": "ChangeType[TypeChange]",
@@ -1826,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ClearGraph",
           "package": "uni-uDrawGraph",
@@ -1835,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ClearGraph",
           "package": "uni-uDrawGraph",
@@ -1848,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Close",
           "package": "uni-uDrawGraph",
@@ -1857,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Close",
           "package": "uni-uDrawGraph",
@@ -1870,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CloseWindow",
           "package": "uni-uDrawGraph",
@@ -1879,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CloseWindow",
           "package": "uni-uDrawGraph",
@@ -1892,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Closed",
           "package": "uni-uDrawGraph",
@@ -1901,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Closed",
           "package": "uni-uDrawGraph",
@@ -1914,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CommunicationError",
           "package": "uni-uDrawGraph",
@@ -1923,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CommunicationError",
           "package": "uni-uDrawGraph",
@@ -1936,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CompactAll",
           "package": "uni-uDrawGraph",
@@ -1945,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CompactAll",
           "package": "uni-uDrawGraph",
@@ -1958,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Context",
           "package": "uni-uDrawGraph",
@@ -1967,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Context",
           "package": "uni-uDrawGraph",
@@ -1980,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ContextId",
           "package": "uni-uDrawGraph",
@@ -1989,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ContextId",
           "package": "uni-uDrawGraph",
@@ -2002,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ContextWindow",
           "package": "uni-uDrawGraph",
@@ -2011,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ContextWindow",
           "package": "uni-uDrawGraph",
@@ -2024,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Control",
           "package": "uni-uDrawGraph",
@@ -2033,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Control",
           "package": "uni-uDrawGraph",
@@ -2046,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ControlFileEvents",
           "package": "uni-uDrawGraph",
@@ -2055,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ControlFileEvents",
           "package": "uni-uDrawGraph",
@@ -2068,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CreateEdge",
           "package": "uni-uDrawGraph",
@@ -2077,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CreateEdge",
           "package": "uni-uDrawGraph",
@@ -2090,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CreateIcons",
           "package": "uni-uDrawGraph",
@@ -2099,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CreateIcons",
           "normalized": "CreateIcons[IconEntry]",
@@ -2114,6 +2306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CreateMenus",
           "package": "uni-uDrawGraph",
@@ -2123,6 +2316,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CreateMenus",
           "normalized": "CreateMenus[MenuEntry]",
@@ -2138,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CreateNode",
           "package": "uni-uDrawGraph",
@@ -2147,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CreateNode",
           "package": "uni-uDrawGraph",
@@ -2160,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "CreateNodeAndEdge",
           "package": "uni-uDrawGraph",
@@ -2169,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "CreateNodeAndEdge",
           "package": "uni-uDrawGraph",
@@ -2182,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DVEval",
           "package": "uni-uDrawGraph",
@@ -2191,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DVEval",
           "package": "uni-uDrawGraph",
@@ -2204,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DVLeft",
           "package": "uni-uDrawGraph",
@@ -2213,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DVLeft",
           "package": "uni-uDrawGraph",
@@ -2226,6 +2428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DVNothing",
           "package": "uni-uDrawGraph",
@@ -2235,6 +2438,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DVNothing",
           "package": "uni-uDrawGraph",
@@ -2248,6 +2452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DVRight",
           "package": "uni-uDrawGraph",
@@ -2257,6 +2462,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DVRight",
           "package": "uni-uDrawGraph",
@@ -2270,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DVSet",
           "package": "uni-uDrawGraph",
@@ -2279,6 +2486,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DVSet",
           "package": "uni-uDrawGraph",
@@ -2292,6 +2500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DaVinciInfo",
           "package": "uni-uDrawGraph",
@@ -2301,6 +2510,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DaVinciInfo",
           "package": "uni-uDrawGraph",
@@ -2314,6 +2524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Deactivate",
           "package": "uni-uDrawGraph",
@@ -2323,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Deactivate",
           "package": "uni-uDrawGraph",
@@ -2336,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Deiconify",
           "package": "uni-uDrawGraph",
@@ -2345,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Deiconify",
           "package": "uni-uDrawGraph",
@@ -2358,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DeleteEdge",
           "package": "uni-uDrawGraph",
@@ -2367,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DeleteEdge",
           "package": "uni-uDrawGraph",
@@ -2380,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DeleteNode",
           "package": "uni-uDrawGraph",
@@ -2389,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DeleteNode",
           "package": "uni-uDrawGraph",
@@ -2402,6 +2620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Disconnect",
           "package": "uni-uDrawGraph",
@@ -2411,6 +2630,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Disconnect",
           "package": "uni-uDrawGraph",
@@ -2424,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Down",
           "package": "uni-uDrawGraph",
@@ -2433,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Down",
           "package": "uni-uDrawGraph",
@@ -2446,6 +2668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DragAndDrop",
           "package": "uni-uDrawGraph",
@@ -2455,6 +2678,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DragAndDrop",
           "package": "uni-uDrawGraph",
@@ -2468,6 +2692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DragAndDropOn",
           "package": "uni-uDrawGraph",
@@ -2477,6 +2702,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DragAndDropOn",
           "package": "uni-uDrawGraph",
@@ -2490,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DraggingOff",
           "package": "uni-uDrawGraph",
@@ -2499,6 +2726,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DraggingOff",
           "package": "uni-uDrawGraph",
@@ -2512,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DraggingOn",
           "package": "uni-uDrawGraph",
@@ -2521,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DraggingOn",
           "package": "uni-uDrawGraph",
@@ -2534,6 +2764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "DropNode",
           "package": "uni-uDrawGraph",
@@ -2543,6 +2774,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "DropNode",
           "package": "uni-uDrawGraph",
@@ -2556,6 +2788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "E",
           "package": "uni-uDrawGraph",
@@ -2565,6 +2798,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "E",
           "normalized": "E EdgeId Type[Attribute]Node",
@@ -2579,6 +2813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ER",
           "package": "uni-uDrawGraph",
@@ -2588,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ER",
           "normalized": "ER Type[Attribute]",
@@ -2603,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EU",
           "package": "uni-uDrawGraph",
@@ -2612,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EU",
           "package": "uni-uDrawGraph",
@@ -2625,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Edge",
           "package": "uni-uDrawGraph",
@@ -2634,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Edge",
           "normalized": "Edge EdgeId[Attribute]",
@@ -2649,6 +2889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeDoubleClick",
           "package": "uni-uDrawGraph",
@@ -2658,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeDoubleClick",
           "package": "uni-uDrawGraph",
@@ -2671,6 +2913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeId",
           "package": "uni-uDrawGraph",
@@ -2680,6 +2923,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeId",
           "package": "uni-uDrawGraph",
@@ -2693,6 +2937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeSelectionLabel",
           "package": "uni-uDrawGraph",
@@ -2702,6 +2947,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeSelectionLabel",
           "package": "uni-uDrawGraph",
@@ -2715,6 +2961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeSelectionLabels",
           "package": "uni-uDrawGraph",
@@ -2724,6 +2971,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeSelectionLabels",
           "package": "uni-uDrawGraph",
@@ -2737,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EdgeType",
           "package": "uni-uDrawGraph",
@@ -2746,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EdgeType",
           "package": "uni-uDrawGraph",
@@ -2759,6 +3009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "EvalFile",
           "package": "uni-uDrawGraph",
@@ -2768,6 +3019,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "EvalFile",
           "package": "uni-uDrawGraph",
@@ -2781,6 +3033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Exit",
           "package": "uni-uDrawGraph",
@@ -2790,6 +3043,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Exit",
           "package": "uni-uDrawGraph",
@@ -2803,6 +3057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "File",
           "package": "uni-uDrawGraph",
@@ -2812,6 +3067,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "File",
           "package": "uni-uDrawGraph",
@@ -2825,6 +3081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FileBrowser",
           "package": "uni-uDrawGraph",
@@ -2834,6 +3091,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FileBrowser",
           "normalized": "FileBrowser Bool String String String String[Btype]Bool",
@@ -2849,6 +3107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Filename",
           "package": "uni-uDrawGraph",
@@ -2858,6 +3117,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Filename",
           "package": "uni-uDrawGraph",
@@ -2871,6 +3131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Find",
           "package": "uni-uDrawGraph",
@@ -2880,6 +3141,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Find",
           "normalized": "Find(Maybe(String,Bool,Bool))",
@@ -2895,6 +3157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FitScaleToWindow",
           "package": "uni-uDrawGraph",
@@ -2904,6 +3167,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FitScaleToWindow",
           "package": "uni-uDrawGraph",
@@ -2917,6 +3181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FocusNode",
           "package": "uni-uDrawGraph",
@@ -2926,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FocusNode",
           "package": "uni-uDrawGraph",
@@ -2939,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FocusNodeAnimated",
           "package": "uni-uDrawGraph",
@@ -2948,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FocusNodeAnimated",
           "package": "uni-uDrawGraph",
@@ -2961,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FontSize",
           "package": "uni-uDrawGraph",
@@ -2970,6 +3239,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FontSize",
           "package": "uni-uDrawGraph",
@@ -2983,6 +3253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "FullScale",
           "package": "uni-uDrawGraph",
@@ -2992,6 +3263,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "FullScale",
           "package": "uni-uDrawGraph",
@@ -3005,6 +3277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "GapHeight",
           "package": "uni-uDrawGraph",
@@ -3014,6 +3287,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "GapHeight",
           "package": "uni-uDrawGraph",
@@ -3027,6 +3301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "GapWidth",
           "package": "uni-uDrawGraph",
@@ -3036,6 +3311,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "GapWidth",
           "package": "uni-uDrawGraph",
@@ -3049,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Graph",
           "package": "uni-uDrawGraph",
@@ -3058,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Graph",
           "package": "uni-uDrawGraph",
@@ -3071,6 +3349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "GraphInfo",
           "package": "uni-uDrawGraph",
@@ -3080,6 +3359,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "GraphInfo",
           "package": "uni-uDrawGraph",
@@ -3093,6 +3373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "HideEdges",
           "package": "uni-uDrawGraph",
@@ -3102,6 +3383,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "HideEdges",
           "normalized": "HideEdges[NodeId]",
@@ -3117,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "HideSubgraph",
           "package": "uni-uDrawGraph",
@@ -3126,6 +3409,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "HideSubgraph",
           "normalized": "HideSubgraph[NodeId]",
@@ -3141,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "IconEntry",
           "package": "uni-uDrawGraph",
@@ -3150,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "IconEntry",
           "package": "uni-uDrawGraph",
@@ -3163,6 +3449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "IconId",
           "package": "uni-uDrawGraph",
@@ -3172,6 +3459,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "IconId",
           "package": "uni-uDrawGraph",
@@ -3185,6 +3473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "IconSelection",
           "package": "uni-uDrawGraph",
@@ -3194,6 +3483,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "IconSelection",
           "package": "uni-uDrawGraph",
@@ -3207,6 +3497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Iconify",
           "package": "uni-uDrawGraph",
@@ -3216,6 +3507,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Iconify",
           "package": "uni-uDrawGraph",
@@ -3229,6 +3521,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ImproveAll",
           "package": "uni-uDrawGraph",
@@ -3238,6 +3531,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ImproveAll",
           "package": "uni-uDrawGraph",
@@ -3251,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ImproveVisible",
           "package": "uni-uDrawGraph",
@@ -3260,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ImproveVisible",
           "package": "uni-uDrawGraph",
@@ -3273,6 +3569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "KeepNodesAtLevels",
           "package": "uni-uDrawGraph",
@@ -3282,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "KeepNodesAtLevels",
           "package": "uni-uDrawGraph",
@@ -3295,6 +3593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Layout",
           "package": "uni-uDrawGraph",
@@ -3304,6 +3603,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Layout",
           "package": "uni-uDrawGraph",
@@ -3317,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "LayoutAccuracy",
           "package": "uni-uDrawGraph",
@@ -3326,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "LayoutAccuracy",
           "package": "uni-uDrawGraph",
@@ -3339,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "LeftRight",
           "package": "uni-uDrawGraph",
@@ -3348,6 +3651,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "LeftRight",
           "package": "uni-uDrawGraph",
@@ -3361,6 +3665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "M",
           "package": "uni-uDrawGraph",
@@ -3370,6 +3675,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "M",
           "normalized": "M[MenuEntry]",
@@ -3384,6 +3690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Menu",
           "package": "uni-uDrawGraph",
@@ -3393,6 +3700,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Menu",
           "package": "uni-uDrawGraph",
@@ -3406,6 +3714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuAcc",
           "package": "uni-uDrawGraph",
@@ -3415,6 +3724,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuAcc",
           "package": "uni-uDrawGraph",
@@ -3428,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuEntry",
           "package": "uni-uDrawGraph",
@@ -3437,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuEntry",
           "package": "uni-uDrawGraph",
@@ -3450,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuEntryDisabled",
           "package": "uni-uDrawGraph",
@@ -3459,6 +3772,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuEntryDisabled",
           "package": "uni-uDrawGraph",
@@ -3472,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuEntryMne",
           "package": "uni-uDrawGraph",
@@ -3481,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuEntryMne",
           "package": "uni-uDrawGraph",
@@ -3494,6 +3810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuId",
           "package": "uni-uDrawGraph",
@@ -3503,6 +3820,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuId",
           "package": "uni-uDrawGraph",
@@ -3516,6 +3834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuLabel",
           "package": "uni-uDrawGraph",
@@ -3525,6 +3844,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuLabel",
           "package": "uni-uDrawGraph",
@@ -3538,6 +3858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuMne",
           "package": "uni-uDrawGraph",
@@ -3547,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuMne",
           "package": "uni-uDrawGraph",
@@ -3560,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MenuSelection",
           "package": "uni-uDrawGraph",
@@ -3569,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MenuSelection",
           "package": "uni-uDrawGraph",
@@ -3582,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Meta",
           "package": "uni-uDrawGraph",
@@ -3591,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Meta",
           "package": "uni-uDrawGraph",
@@ -3604,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Multi",
           "package": "uni-uDrawGraph",
@@ -3613,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Multi",
           "package": "uni-uDrawGraph",
@@ -3626,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "MultiEdgeGap",
           "package": "uni-uDrawGraph",
@@ -3635,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "MultiEdgeGap",
           "package": "uni-uDrawGraph",
@@ -3648,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "N",
           "package": "uni-uDrawGraph",
@@ -3657,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "N",
           "normalized": "N NodeId Type[Attribute][Edge]",
@@ -3671,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NR",
           "package": "uni-uDrawGraph",
@@ -3680,6 +4013,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NR",
           "normalized": "NR Type[Attribute]",
@@ -3695,6 +4029,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NU",
           "package": "uni-uDrawGraph",
@@ -3704,6 +4039,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NU",
           "package": "uni-uDrawGraph",
@@ -3717,6 +4053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Navigation",
           "package": "uni-uDrawGraph",
@@ -3726,6 +4063,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Navigation",
           "package": "uni-uDrawGraph",
@@ -3739,6 +4077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Navigator",
           "package": "uni-uDrawGraph",
@@ -3748,6 +4087,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Navigator",
           "normalized": "Navigator(Maybe(NodeId,Direction,Bool))",
@@ -3763,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "New",
           "package": "uni-uDrawGraph",
@@ -3772,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "New",
           "normalized": "New[Node]",
@@ -3787,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewContext",
           "package": "uni-uDrawGraph",
@@ -3796,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewContext",
           "package": "uni-uDrawGraph",
@@ -3809,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewEdge",
           "package": "uni-uDrawGraph",
@@ -3818,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewEdge",
           "normalized": "NewEdge EdgeId Type[Attribute]NodeId NodeId",
@@ -3833,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewEdgeAndNodeAtCoord",
           "package": "uni-uDrawGraph",
@@ -3842,6 +4189,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewEdgeAndNodeAtCoord",
           "package": "uni-uDrawGraph",
@@ -3855,6 +4203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewEdgeBehind",
           "package": "uni-uDrawGraph",
@@ -3864,6 +4213,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewEdgeBehind",
           "normalized": "NewEdgeBehind EdgeId EdgeId Type[Attribute]NodeId NodeId",
@@ -3879,6 +4229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewNode",
           "package": "uni-uDrawGraph",
@@ -3888,6 +4239,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewNode",
           "normalized": "NewNode NodeId Type[Attribute]",
@@ -3903,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewNodeAtCoord",
           "package": "uni-uDrawGraph",
@@ -3912,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewNodeAtCoord",
           "package": "uni-uDrawGraph",
@@ -3925,6 +4279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewPlaced",
           "package": "uni-uDrawGraph",
@@ -3934,6 +4289,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewPlaced",
           "normalized": "NewPlaced[Node]",
@@ -3949,6 +4305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NewRules",
           "package": "uni-uDrawGraph",
@@ -3958,6 +4315,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NewRules",
           "normalized": "NewRules[VisualRule]",
@@ -3973,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NoCache",
           "package": "uni-uDrawGraph",
@@ -3982,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NoCache",
           "package": "uni-uDrawGraph",
@@ -3995,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Node",
           "package": "uni-uDrawGraph",
@@ -4004,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Node",
           "normalized": "Node NodeId[Attribute]",
@@ -4019,6 +4381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeDoubleClick",
           "package": "uni-uDrawGraph",
@@ -4028,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeDoubleClick",
           "package": "uni-uDrawGraph",
@@ -4041,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeId",
           "package": "uni-uDrawGraph",
@@ -4050,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeId",
           "package": "uni-uDrawGraph",
@@ -4063,6 +4429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeSelectionsLabels",
           "package": "uni-uDrawGraph",
@@ -4072,6 +4439,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeSelectionsLabels",
           "normalized": "NodeSelectionsLabels[NodeId]",
@@ -4087,6 +4455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "NodeType",
           "package": "uni-uDrawGraph",
@@ -4096,6 +4465,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "NodeType",
           "package": "uni-uDrawGraph",
@@ -4109,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "None",
           "package": "uni-uDrawGraph",
@@ -4118,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "None",
           "package": "uni-uDrawGraph",
@@ -4131,6 +4503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Ok",
           "package": "uni-uDrawGraph",
@@ -4140,6 +4513,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Ok",
           "package": "uni-uDrawGraph",
@@ -4153,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenContext",
           "package": "uni-uDrawGraph",
@@ -4162,6 +4537,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenContext",
           "package": "uni-uDrawGraph",
@@ -4175,6 +4551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenGraph",
           "package": "uni-uDrawGraph",
@@ -4184,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenGraph",
           "package": "uni-uDrawGraph",
@@ -4197,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenGraphPlaced",
           "package": "uni-uDrawGraph",
@@ -4206,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenGraphPlaced",
           "package": "uni-uDrawGraph",
@@ -4219,6 +4599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenNewView",
           "package": "uni-uDrawGraph",
@@ -4228,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenNewView",
           "package": "uni-uDrawGraph",
@@ -4241,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenStatus",
           "package": "uni-uDrawGraph",
@@ -4250,6 +4633,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenStatus",
           "package": "uni-uDrawGraph",
@@ -4263,6 +4647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenSurveyView",
           "package": "uni-uDrawGraph",
@@ -4272,6 +4657,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenSurveyView",
           "package": "uni-uDrawGraph",
@@ -4285,6 +4671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "OpenWindow",
           "package": "uni-uDrawGraph",
@@ -4294,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "OpenWindow",
           "package": "uni-uDrawGraph",
@@ -4307,6 +4695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Orientation",
           "package": "uni-uDrawGraph",
@@ -4316,6 +4705,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Orientation",
           "package": "uni-uDrawGraph",
@@ -4329,6 +4719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "PopupSelectionEdge",
           "package": "uni-uDrawGraph",
@@ -4338,6 +4729,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "PopupSelectionEdge",
           "package": "uni-uDrawGraph",
@@ -4351,6 +4743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "PopupSelectionNode",
           "package": "uni-uDrawGraph",
@@ -4360,6 +4753,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "PopupSelectionNode",
           "package": "uni-uDrawGraph",
@@ -4373,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Position",
           "package": "uni-uDrawGraph",
@@ -4382,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Position",
           "package": "uni-uDrawGraph",
@@ -4395,6 +4791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Print",
           "package": "uni-uDrawGraph",
@@ -4404,6 +4801,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Print",
           "package": "uni-uDrawGraph",
@@ -4417,6 +4815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Quit",
           "package": "uni-uDrawGraph",
@@ -4426,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Quit",
           "package": "uni-uDrawGraph",
@@ -4439,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "R",
           "package": "uni-uDrawGraph",
@@ -4448,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "R",
           "package": "uni-uDrawGraph",
@@ -4460,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Raise",
           "package": "uni-uDrawGraph",
@@ -4469,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Raise",
           "package": "uni-uDrawGraph",
@@ -4482,6 +4886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "RestoreAllEdges",
           "package": "uni-uDrawGraph",
@@ -4491,6 +4896,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "RestoreAllEdges",
           "package": "uni-uDrawGraph",
@@ -4504,6 +4910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "RestoreAllSubgraphs",
           "package": "uni-uDrawGraph",
@@ -4513,6 +4920,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "RestoreAllSubgraphs",
           "package": "uni-uDrawGraph",
@@ -4526,6 +4934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "RightLeft",
           "package": "uni-uDrawGraph",
@@ -4535,6 +4944,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "RightLeft",
           "package": "uni-uDrawGraph",
@@ -4548,6 +4958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "RulesFirst",
           "package": "uni-uDrawGraph",
@@ -4557,6 +4968,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "RulesFirst",
           "package": "uni-uDrawGraph",
@@ -4570,6 +4982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SaveGraph",
           "package": "uni-uDrawGraph",
@@ -4579,6 +4992,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SaveGraph",
           "package": "uni-uDrawGraph",
@@ -4592,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SaveStatus",
           "package": "uni-uDrawGraph",
@@ -4601,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SaveStatus",
           "package": "uni-uDrawGraph",
@@ -4614,6 +5030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Scale",
           "package": "uni-uDrawGraph",
@@ -4623,6 +5040,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Scale",
           "package": "uni-uDrawGraph",
@@ -4636,6 +5054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ScrollingOnSelection",
           "package": "uni-uDrawGraph",
@@ -4645,6 +5064,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ScrollingOnSelection",
           "package": "uni-uDrawGraph",
@@ -4658,6 +5078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectChildren",
           "package": "uni-uDrawGraph",
@@ -4667,6 +5088,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectChildren",
           "normalized": "SelectChildren[NodeId]",
@@ -4682,6 +5104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectChilds",
           "package": "uni-uDrawGraph",
@@ -4691,6 +5114,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectChilds",
           "normalized": "SelectChilds[NodeId]",
@@ -4706,6 +5130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectEdge",
           "package": "uni-uDrawGraph",
@@ -4715,6 +5140,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectEdge",
           "package": "uni-uDrawGraph",
@@ -4728,6 +5154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectNodes",
           "package": "uni-uDrawGraph",
@@ -4737,6 +5164,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectNodes",
           "normalized": "SelectNodes[NodeId]",
@@ -4752,6 +5180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectParents",
           "package": "uni-uDrawGraph",
@@ -4761,6 +5190,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectParents",
           "normalized": "SelectParents[NodeId]",
@@ -4776,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelectSiblings",
           "package": "uni-uDrawGraph",
@@ -4785,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelectSiblings",
           "normalized": "SelectSiblings[NodeId]",
@@ -4800,6 +5232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SelfEdgeRadius",
           "package": "uni-uDrawGraph",
@@ -4809,6 +5242,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SelfEdgeRadius",
           "package": "uni-uDrawGraph",
@@ -4822,6 +5256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SetContext",
           "package": "uni-uDrawGraph",
@@ -4831,6 +5266,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SetContext",
           "package": "uni-uDrawGraph",
@@ -4844,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SetContextWindow",
           "package": "uni-uDrawGraph",
@@ -4853,6 +5290,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SetContextWindow",
           "package": "uni-uDrawGraph",
@@ -4866,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Shift",
           "package": "uni-uDrawGraph",
@@ -4875,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Shift",
           "package": "uni-uDrawGraph",
@@ -4888,6 +5328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ShowEdges",
           "package": "uni-uDrawGraph",
@@ -4897,6 +5338,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ShowEdges",
           "normalized": "ShowEdges[NodeId]",
@@ -4912,6 +5354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ShowMessage",
           "package": "uni-uDrawGraph",
@@ -4921,6 +5364,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ShowMessage",
           "package": "uni-uDrawGraph",
@@ -4934,6 +5378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ShowStatus",
           "package": "uni-uDrawGraph",
@@ -4943,6 +5388,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ShowStatus",
           "package": "uni-uDrawGraph",
@@ -4956,6 +5402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ShowSubgraph",
           "package": "uni-uDrawGraph",
@@ -4965,6 +5412,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ShowSubgraph",
           "normalized": "ShowSubgraph[NodeId]",
@@ -4980,6 +5428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "ShowUrl",
           "package": "uni-uDrawGraph",
@@ -4989,6 +5438,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "ShowUrl",
           "package": "uni-uDrawGraph",
@@ -5002,6 +5452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Size",
           "package": "uni-uDrawGraph",
@@ -5011,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Size",
           "package": "uni-uDrawGraph",
@@ -5024,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Special",
           "package": "uni-uDrawGraph",
@@ -5033,6 +5486,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Special",
           "package": "uni-uDrawGraph",
@@ -5046,6 +5500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntry",
           "package": "uni-uDrawGraph",
@@ -5055,6 +5510,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntry",
           "normalized": "SubmenuEntry MenuId MenuLabel[MenuEntry]",
@@ -5070,6 +5526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntryDisabled",
           "package": "uni-uDrawGraph",
@@ -5079,6 +5536,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntryDisabled",
           "normalized": "SubmenuEntryDisabled MenuId MenuLabel[MenuEntry]",
@@ -5094,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntryMne",
           "package": "uni-uDrawGraph",
@@ -5103,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "SubmenuEntryMne",
           "normalized": "SubmenuEntryMne MenuId MenuLabel[MenuEntry]MenuMne",
@@ -5118,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Tcl",
           "package": "uni-uDrawGraph",
@@ -5127,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Tcl",
           "package": "uni-uDrawGraph",
@@ -5140,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "TclAnswer",
           "package": "uni-uDrawGraph",
@@ -5149,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "TclAnswer",
           "package": "uni-uDrawGraph",
@@ -5162,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Title",
           "package": "uni-uDrawGraph",
@@ -5171,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Title",
           "package": "uni-uDrawGraph",
@@ -5184,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "TopDown",
           "package": "uni-uDrawGraph",
@@ -5193,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "TopDown",
           "package": "uni-uDrawGraph",
@@ -5206,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Type",
           "package": "uni-uDrawGraph",
@@ -5215,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Type",
           "package": "uni-uDrawGraph",
@@ -5228,6 +5698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Up",
           "package": "uni-uDrawGraph",
@@ -5237,6 +5708,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Up",
           "package": "uni-uDrawGraph",
@@ -5250,6 +5722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Update",
           "package": "uni-uDrawGraph",
@@ -5259,6 +5732,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Update",
           "normalized": "Update[NodeUpdate][EdgeUpdate]",
@@ -5274,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "UpdateAndChangeAttr",
           "package": "uni-uDrawGraph",
@@ -5283,6 +5758,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "UpdateAndChangeAttr",
           "normalized": "UpdateAndChangeAttr[NodeUpdate][EdgeUpdate][AttrChange]",
@@ -5298,6 +5774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "UpdateAndChangeAttrMixed",
           "package": "uni-uDrawGraph",
@@ -5307,6 +5784,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "UpdateAndChangeAttrMixed",
           "normalized": "UpdateAndChangeAttrMixed[MixedUpdate][AttrChange]",
@@ -5322,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "UpdateMixed",
           "package": "uni-uDrawGraph",
@@ -5331,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "UpdateMixed",
           "normalized": "UpdateMixed[MixedUpdate]",
@@ -5346,6 +5826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Version",
           "package": "uni-uDrawGraph",
@@ -5355,6 +5836,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Version",
           "package": "uni-uDrawGraph",
@@ -5368,6 +5850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Versioned",
           "package": "uni-uDrawGraph",
@@ -5377,6 +5860,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Versioned",
           "package": "uni-uDrawGraph",
@@ -5390,6 +5874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "View",
           "package": "uni-uDrawGraph",
@@ -5399,6 +5884,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "View",
           "package": "uni-uDrawGraph",
@@ -5412,6 +5898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Visual",
           "package": "uni-uDrawGraph",
@@ -5421,6 +5908,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Visual",
           "package": "uni-uDrawGraph",
@@ -5434,6 +5922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "Window",
           "package": "uni-uDrawGraph",
@@ -5443,6 +5932,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "Window",
           "package": "uni-uDrawGraph",
@@ -5456,6 +5946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:34 UTC 2014",
           "module": "UDrawGraph.Types",
           "name": "WindowId",
           "package": "uni-uDrawGraph",
@@ -5465,6 +5956,7 @@
         },
         "index": {
           "hierarchy": "UDrawGraph Types",
+          "indexed": "2014-03-11T20:29:34",
           "module": "UDrawGraph.Types",
           "name": "WindowId",
           "package": "uni-uDrawGraph",

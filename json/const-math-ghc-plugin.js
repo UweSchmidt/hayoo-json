@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "const-math-ghc-plugin"
+        "phrase": "const-math-ghc-plugin",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:12 UTC 2014",
           "module": "ConstMath.Plugin",
           "name": "Plugin",
           "package": "const-math-ghc-plugin",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "ConstMath Plugin",
+          "indexed": "2014-03-11T17:39:12",
           "module": "ConstMath.Plugin",
           "name": "Plugin",
           "package": "const-math-ghc-plugin",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:12 UTC 2014",
           "module": "ConstMath.Plugin",
           "name": "plugin",
           "package": "const-math-ghc-plugin",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "ConstMath Plugin",
+          "indexed": "2014-03-11T17:39:12",
           "module": "ConstMath.Plugin",
           "name": "plugin",
           "package": "const-math-ghc-plugin",

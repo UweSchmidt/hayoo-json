@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "current-locale"
+        "phrase": "current-locale",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGet the current system locale in \u003ccode\u003e\u003ca\u003eLocale\u003c/a\u003e\u003c/code\u003e format.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:45:40 UTC 2014",
           "module": "System.CurrentLocale",
           "name": "CurrentLocale",
           "package": "current-locale",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Get the current system locale in Locale format",
           "hierarchy": "System CurrentLocale",
+          "indexed": "2014-03-11T17:45:40",
           "module": "System.CurrentLocale",
           "name": "CurrentLocale",
           "package": "current-locale",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current system locale.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:45:40 UTC 2014",
           "module": "System.CurrentLocale",
           "name": "currentLocale",
           "package": "current-locale",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Get the current system locale",
           "hierarchy": "System CurrentLocale",
+          "indexed": "2014-03-11T17:45:40",
           "module": "System.CurrentLocale",
           "name": "currentLocale",
           "package": "current-locale",

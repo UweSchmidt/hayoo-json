@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "make-package"
+        "phrase": "make-package",
+        "type": "phrase"
       },
       "type": "context"
     }

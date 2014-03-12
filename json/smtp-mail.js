@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "smtp-mail"
+        "phrase": "smtp-mail",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "Auth",
           "package": "smtp-mail",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "Auth",
           "package": "smtp-mail",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "AuthType",
           "package": "smtp-mail",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "AuthType",
           "package": "smtp-mail",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "Password",
           "package": "smtp-mail",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "Password",
           "package": "smtp-mail",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "UserName",
           "package": "smtp-mail",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "UserName",
           "package": "smtp-mail",
@@ -171,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "auth",
           "package": "smtp-mail",
@@ -180,6 +189,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "auth",
           "normalized": "AuthType-\u003eString-\u003eUserName-\u003ePassword-\u003eByteString",
@@ -194,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Auth",
           "name": "encodeLogin",
           "package": "smtp-mail",
@@ -203,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Auth",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Auth",
           "name": "encodeLogin",
           "normalized": "UserName-\u003ePassword-\u003e(ByteString,ByteString)",
@@ -218,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Types",
           "package": "smtp-mail",
@@ -226,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Types",
           "package": "smtp-mail",
@@ -239,6 +253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Address",
           "package": "smtp-mail",
@@ -246,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Address",
           "package": "smtp-mail",
@@ -259,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "AuthType",
           "package": "smtp-mail",
@@ -267,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "AuthType",
           "package": "smtp-mail",
@@ -280,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Command",
           "package": "smtp-mail",
@@ -288,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Command",
           "package": "smtp-mail",
@@ -301,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Password",
           "package": "smtp-mail",
@@ -309,6 +330,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Password",
           "package": "smtp-mail",
@@ -322,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ReplyCode",
           "package": "smtp-mail",
@@ -330,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ReplyCode",
           "package": "smtp-mail",
@@ -343,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Response",
           "package": "smtp-mail",
@@ -351,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Response",
           "package": "smtp-mail",
@@ -364,6 +390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserName",
           "package": "smtp-mail",
@@ -372,6 +399,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserName",
           "package": "smtp-mail",
@@ -385,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "AUTH",
           "package": "smtp-mail",
@@ -394,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "AUTH",
           "package": "smtp-mail",
@@ -407,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Address",
           "package": "smtp-mail",
@@ -415,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Address",
           "package": "smtp-mail",
@@ -428,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "BadSequence",
           "package": "smtp-mail",
@@ -437,6 +470,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "BadSequence",
           "package": "smtp-mail",
@@ -450,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "CannotVerify",
           "package": "smtp-mail",
@@ -459,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "CannotVerify",
           "package": "smtp-mail",
@@ -472,6 +508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "CommandNotImplemented",
           "package": "smtp-mail",
@@ -481,6 +518,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "CommandNotImplemented",
           "package": "smtp-mail",
@@ -494,6 +532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "DATA",
           "package": "smtp-mail",
@@ -503,6 +542,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "DATA",
           "package": "smtp-mail",
@@ -516,6 +556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "EHLO",
           "package": "smtp-mail",
@@ -525,6 +566,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "EHLO",
           "package": "smtp-mail",
@@ -538,6 +580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "EXPN",
           "package": "smtp-mail",
@@ -547,6 +590,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "EXPN",
           "package": "smtp-mail",
@@ -560,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ErrorInProcessing",
           "package": "smtp-mail",
@@ -569,6 +614,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ErrorInProcessing",
           "package": "smtp-mail",
@@ -582,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ExceededStorage",
           "package": "smtp-mail",
@@ -591,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ExceededStorage",
           "package": "smtp-mail",
@@ -604,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "HELO",
           "package": "smtp-mail",
@@ -613,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "HELO",
           "package": "smtp-mail",
@@ -626,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "HELP",
           "package": "smtp-mail",
@@ -635,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "HELP",
           "package": "smtp-mail",
@@ -648,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "HelpMessage",
           "package": "smtp-mail",
@@ -657,6 +710,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "HelpMessage",
           "package": "smtp-mail",
@@ -670,6 +724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "InsufficientSystemStorage",
           "package": "smtp-mail",
@@ -679,6 +734,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "InsufficientSystemStorage",
           "package": "smtp-mail",
@@ -692,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "MAIL",
           "package": "smtp-mail",
@@ -701,6 +758,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "MAIL",
           "package": "smtp-mail",
@@ -714,6 +772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxNotAllowed",
           "package": "smtp-mail",
@@ -723,6 +782,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxNotAllowed",
           "package": "smtp-mail",
@@ -736,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxUnavailable",
           "package": "smtp-mail",
@@ -745,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxUnavailable",
           "package": "smtp-mail",
@@ -758,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxUnavailableError",
           "package": "smtp-mail",
@@ -767,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "MailboxUnavailableError",
           "package": "smtp-mail",
@@ -780,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "NOOP",
           "package": "smtp-mail",
@@ -789,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "NOOP",
           "package": "smtp-mail",
@@ -802,6 +868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "Ok",
           "package": "smtp-mail",
@@ -811,6 +878,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "Ok",
           "package": "smtp-mail",
@@ -824,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ParameterError",
           "package": "smtp-mail",
@@ -833,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ParameterError",
           "package": "smtp-mail",
@@ -846,6 +916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ParameterNotImplemented",
           "package": "smtp-mail",
@@ -855,6 +926,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ParameterNotImplemented",
           "package": "smtp-mail",
@@ -868,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "QUIT",
           "package": "smtp-mail",
@@ -877,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "QUIT",
           "package": "smtp-mail",
@@ -890,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "RCPT",
           "package": "smtp-mail",
@@ -899,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "RCPT",
           "package": "smtp-mail",
@@ -912,6 +988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "RSET",
           "package": "smtp-mail",
@@ -921,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "RSET",
           "package": "smtp-mail",
@@ -934,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceClosing",
           "package": "smtp-mail",
@@ -943,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceClosing",
           "package": "smtp-mail",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceNotAvailable",
           "package": "smtp-mail",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceNotAvailable",
           "package": "smtp-mail",
@@ -978,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceReady",
           "package": "smtp-mail",
@@ -987,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "ServiceReady",
           "package": "smtp-mail",
@@ -1000,6 +1084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "StartMailInput",
           "package": "smtp-mail",
@@ -1009,6 +1094,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "StartMailInput",
           "package": "smtp-mail",
@@ -1022,6 +1108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "SyntaxError",
           "package": "smtp-mail",
@@ -1031,6 +1118,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "SyntaxError",
           "package": "smtp-mail",
@@ -1044,6 +1132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "SystemStatus",
           "package": "smtp-mail",
@@ -1053,6 +1142,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "SystemStatus",
           "package": "smtp-mail",
@@ -1066,6 +1156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "TransactionFailed",
           "package": "smtp-mail",
@@ -1075,6 +1166,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "TransactionFailed",
           "package": "smtp-mail",
@@ -1088,6 +1180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserNotLocal",
           "package": "smtp-mail",
@@ -1097,6 +1190,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserNotLocal",
           "package": "smtp-mail",
@@ -1110,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserNotLocalError",
           "package": "smtp-mail",
@@ -1119,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "UserNotLocalError",
           "package": "smtp-mail",
@@ -1132,6 +1228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "VRFY",
           "package": "smtp-mail",
@@ -1141,6 +1238,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "VRFY",
           "package": "smtp-mail",
@@ -1154,6 +1252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "addressEmail",
           "package": "smtp-mail",
@@ -1162,6 +1261,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "addressEmail",
           "package": "smtp-mail",
@@ -1175,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP.Types",
           "name": "addressName",
           "package": "smtp-mail",
@@ -1183,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP Types",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP.Types",
           "name": "addressName",
           "package": "smtp-mail",
@@ -1196,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "SMTP",
           "package": "smtp-mail",
@@ -1204,6 +1307,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "SMTP",
           "package": "smtp-mail",
@@ -1217,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "SMTPConnection",
           "package": "smtp-mail",
@@ -1225,6 +1330,7 @@
         },
         "index": {
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "SMTPConnection",
           "package": "smtp-mail",
@@ -1239,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend \u003ccode\u003e\u003ca\u003eQUIT\u003c/a\u003e\u003c/code\u003e and close the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "closeSMTP",
           "package": "smtp-mail",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "Send QUIT and close the connection",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "closeSMTP",
           "normalized": "SMTPConnection-\u003eIO()",
@@ -1265,6 +1373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server with the specified host and default port (25)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "connectSMTP",
           "package": "smtp-mail",
@@ -1274,6 +1383,7 @@
         "index": {
           "description": "Connect to an SMTP server with the specified host and default port",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "connectSMTP",
           "normalized": "HostName-\u003eIO SMTPConnection",
@@ -1290,6 +1400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server with the specified host and port\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "connectSMTP'",
           "package": "smtp-mail",
@@ -1299,6 +1410,7 @@
         "index": {
           "description": "Connect to an SMTP server with the specified host and port",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "connectSMTP'",
           "normalized": "HostName-\u003ePortNumber-\u003eIO SMTPConnection",
@@ -1315,6 +1427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a file attachment \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "filePart",
           "package": "smtp-mail",
@@ -1324,6 +1437,7 @@
         "index": {
           "description": "Construct file attachment Part",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "filePart",
           "normalized": "Text-\u003eFilePath-\u003eIO Part",
@@ -1340,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an html \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "htmlPart",
           "package": "smtp-mail",
@@ -1350,6 +1465,7 @@
         "index": {
           "description": "Construct an html Part",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "htmlPart",
           "normalized": "Text-\u003ePart",
@@ -1366,6 +1482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convenience function that sends \u003ccode\u003e\u003ca\u003eAUTH\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLOGIN\u003c/a\u003e\u003c/code\u003e to the server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "login",
           "package": "smtp-mail",
@@ -1376,6 +1493,7 @@
         "index": {
           "description": "convenience function that sends AUTH LOGIN to the server",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "login",
           "normalized": "SMTPConnection-\u003eUserName-\u003ePassword-\u003eIO(ReplyCode,ByteString)",
@@ -1391,6 +1509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a plain text \u003ccode\u003e\u003ca\u003ePart\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "plainTextPart",
           "package": "smtp-mail",
@@ -1401,6 +1520,7 @@
         "index": {
           "description": "Construct plain text Part",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "plainTextPart",
           "normalized": "Text-\u003ePart",
@@ -1417,6 +1537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e to a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e then send it over the specified\n \u003ccode\u003e\u003ca\u003eSMTPConnection\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "renderAndSend",
           "package": "smtp-mail",
@@ -1427,6 +1548,7 @@
         "index": {
           "description": "Render Mail to ByteString then send it over the specified SMTPConnection",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "renderAndSend",
           "normalized": "SMTPConnection-\u003eMail-\u003eIO()",
@@ -1443,6 +1565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an email message and send via the default sendmail\n executable with default options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "renderSendMail",
           "package": "smtp-mail",
@@ -1452,6 +1575,7 @@
         "index": {
           "description": "Render an email message and send via the default sendmail executable with default options",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "renderSendMail",
           "normalized": "Mail-\u003eIO()",
@@ -1468,6 +1592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender an email message and send via the specified sendmail\n executable with specified options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "renderSendMailCustom",
           "package": "smtp-mail",
@@ -1477,6 +1602,7 @@
         "index": {
           "description": "Render an email message and send via the specified sendmail executable with specified options",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "renderSendMailCustom",
           "normalized": "FilePath-\u003e[String]-\u003eMail-\u003eIO()",
@@ -1493,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a \u003ccode\u003e\u003ca\u003eCommand\u003c/a\u003e\u003c/code\u003e to the SMTP server\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendCommand",
           "package": "smtp-mail",
@@ -1503,6 +1630,7 @@
         "index": {
           "description": "Send Command to the SMTP server",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendCommand",
           "normalized": "SMTPConnection-\u003eCommand-\u003eIO(ReplyCode,ByteString)",
@@ -1519,6 +1647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server, send a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e, then disconnect.  Uses the default port (25).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendMail",
           "package": "smtp-mail",
@@ -1529,6 +1658,7 @@
         "index": {
           "description": "Connect to an SMTP server send Mail then disconnect Uses the default port",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendMail",
           "normalized": "HostName-\u003eMail-\u003eIO()",
@@ -1545,6 +1675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server, send a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e, then disconnect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendMail'",
           "package": "smtp-mail",
@@ -1555,6 +1686,7 @@
         "index": {
           "description": "Connect to an SMTP server send Mail then disconnect",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendMail'",
           "normalized": "HostName-\u003ePortNumber-\u003eMail-\u003eIO()",
@@ -1571,6 +1703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server, login, send a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e, disconnect.  Uses the default port (25).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendMailWithLogin",
           "package": "smtp-mail",
@@ -1581,6 +1714,7 @@
         "index": {
           "description": "Connect to an SMTP server login send Mail disconnect Uses the default port",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendMailWithLogin",
           "normalized": "HostName-\u003eUserName-\u003ePassword-\u003eMail-\u003eIO()",
@@ -1597,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to an SMTP server, login, send a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e, disconnect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendMailWithLogin'",
           "package": "smtp-mail",
@@ -1607,6 +1742,7 @@
         "index": {
           "description": "Connect to an SMTP server login send Mail disconnect",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendMailWithLogin'",
           "normalized": "HostName-\u003ePortNumber-\u003eUserName-\u003ePassword-\u003eMail-\u003eIO()",
@@ -1623,6 +1759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a fully-formed email message via the default sendmail\n executable with default options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendmail",
           "package": "smtp-mail",
@@ -1632,6 +1769,7 @@
         "index": {
           "description": "Send fully-formed email message via the default sendmail executable with default options",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendmail",
           "normalized": "ByteString-\u003eIO()",
@@ -1647,6 +1785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a fully-formed email message via the specified sendmail\n executable with specified options.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "sendmailCustom",
           "package": "smtp-mail",
@@ -1656,6 +1795,7 @@
         "index": {
           "description": "Send fully-formed email message via the specified sendmail executable with specified options",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "sendmailCustom",
           "normalized": "FilePath-\u003e[String]-\u003eByteString-\u003eIO()",
@@ -1672,6 +1812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA simple interface for generating a \u003ccode\u003e\u003ca\u003eMail\u003c/a\u003e\u003c/code\u003e with a plantext body and\n an optional HTML body.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:04:41 UTC 2014",
           "module": "Network.Mail.SMTP",
           "name": "simpleMail",
           "package": "smtp-mail",
@@ -1681,6 +1822,7 @@
         "index": {
           "description": "simple interface for generating Mail with plantext body and an optional HTML body",
           "hierarchy": "Network Mail SMTP",
+          "indexed": "2014-03-11T20:04:41",
           "module": "Network.Mail.SMTP",
           "name": "simpleMail",
           "normalized": "Address-\u003e[Address]-\u003e[Address]-\u003e[Address]-\u003eText-\u003e[Part]-\u003eMail",

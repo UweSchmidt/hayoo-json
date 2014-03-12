@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "plot"
+        "phrase": "plot",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eOne line \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e creation\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "Simple",
           "package": "plot",
@@ -28,6 +29,7 @@
         "index": {
           "description": "One line Figure creation",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "Simple",
           "package": "plot",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "Simple",
           "package": "plot",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "Simple",
           "package": "plot",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the gridlines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "grid",
           "package": "plot",
@@ -73,6 +78,7 @@
         "index": {
           "description": "set the gridlines",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "grid",
           "normalized": "Bool-\u003ea()",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a figure with a single linear-log plot \n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "linlog",
           "package": "plot",
@@ -98,6 +105,7 @@
         "index": {
           "description": "create figure with single linear-log plot with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "linlog",
           "normalized": "a-\u003eFigure()",
@@ -113,6 +121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a figure with a single log-linear plot \n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "loglin",
           "package": "plot",
@@ -123,6 +132,7 @@
         "index": {
           "description": "create figure with single log-linear plot with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "loglin",
           "normalized": "a-\u003eFigure()",
@@ -138,6 +148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a figure with a single log-log plot \n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "loglog",
           "package": "plot",
@@ -148,6 +159,7 @@
         "index": {
           "description": "create figure with single log-log plot with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "loglog",
           "normalized": "a-\u003eFigure()",
@@ -163,6 +175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a figure with a single parametric plot over n points\n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "parametric",
           "package": "plot",
@@ -173,6 +186,7 @@
         "index": {
           "description": "create figure with single parametric plot over points with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "parametric",
           "normalized": "(Double-\u003eDouble,Double-\u003eDouble)-\u003e(Double,Double)-\u003eInt-\u003eFigure()",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a figure with a single linear plot \n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "plot",
           "package": "plot",
@@ -198,6 +213,7 @@
         "index": {
           "description": "create figure with single linear plot with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "plot",
           "normalized": "a-\u003eFigure()",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use linlog\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003ecreate a figure with a single linear-log plot \n   with lower X and Y axes whose ranges are set from the data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "semilog",
           "package": "plot",
@@ -223,6 +240,7 @@
         "index": {
           "description": "Deprecated use linlog create figure with single linear-log plot with lower and axes whose ranges are set from the data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "semilog",
           "normalized": "a-\u003eFigure()",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the subtitle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "subtitle",
           "package": "plot",
@@ -248,6 +267,7 @@
         "index": {
           "description": "set the subtitle",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "subtitle",
           "normalized": "String-\u003eFigure()",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "title",
           "package": "plot",
@@ -273,6 +294,7 @@
         "index": {
           "description": "set the title",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "title",
           "normalized": "String-\u003eFigure()",
@@ -288,6 +310,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the x range from data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xautorange",
           "package": "plot",
@@ -298,6 +321,7 @@
         "index": {
           "description": "set the range from data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xautorange",
           "normalized": "a()",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the x range from data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xautorangeLog",
           "package": "plot",
@@ -323,6 +348,7 @@
         "index": {
           "description": "set the range from data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xautorangeLog",
           "normalized": "a()",
@@ -339,6 +365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the x label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xlabel",
           "package": "plot",
@@ -349,6 +376,7 @@
         "index": {
           "description": "set the label",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xlabel",
           "normalized": "String-\u003ea()",
@@ -364,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the x range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xrange",
           "package": "plot",
@@ -374,6 +403,7 @@
         "index": {
           "description": "set the range",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "xrange",
           "normalized": "Scale-\u003eDouble-\u003eDouble-\u003ea()",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the y range from data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yautorange",
           "package": "plot",
@@ -399,6 +430,7 @@
         "index": {
           "description": "set the range from data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yautorange",
           "normalized": "a()",
@@ -414,6 +446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the y range from data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yautorangeLog",
           "package": "plot",
@@ -424,6 +457,7 @@
         "index": {
           "description": "set the range from data",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yautorangeLog",
           "normalized": "a()",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the y label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "ylabel",
           "package": "plot",
@@ -450,6 +485,7 @@
         "index": {
           "description": "set the label",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "ylabel",
           "normalized": "String-\u003ea()",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the y range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yrange",
           "package": "plot",
@@ -475,6 +512,7 @@
         "index": {
           "description": "set the range",
           "hierarchy": "Graphics Rendering Plot Figure Simple",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure.Simple",
           "name": "yrange",
           "normalized": "Scale-\u003eDouble-\u003eDouble-\u003ea()",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCreation and manipulation of \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003cp\u003eThe same problem of leaked instances as at \u003ca\u003ehttp://hackage.haskell.org/packages/archive/graphviz/2999.10.0.1/doc/html/Data-GraphViz-Commands.html#t%3AGraphvizCanvas\u003c/a\u003e occurs here.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003ewith\u003c/em\u003e, \u003cem\u003eset\u003c/em\u003e, \u003cem\u003eclear\u003c/em\u003e, \u003cem\u003enew\u003c/em\u003e, and \u003cem\u003eadd\u003c/em\u003e are the operations that can\n be performed on various elements of a figure.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eglib\u003c/em\u003e/\u003cem\u003edata-accessor\u003c/em\u003e abstractions (verbs/modifiers) are planned for future implementations\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Figure",
           "package": "plot",
@@ -499,6 +538,7 @@
         "index": {
           "description": "Creation and manipulation of Figure The same problem of leaked instances as at http hackage.haskell.org packages archive graphviz doc html Data-GraphViz-Commands.html AGraphvizCanvas occurs here with set clear new and add are the operations that can be performed on various elements of figure glib data-accessor abstractions verbs modifiers are planned for future implementations",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Figure",
           "package": "plot",
@@ -512,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Abscissa",
           "package": "plot",
@@ -520,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Abscissa",
           "package": "plot",
@@ -533,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Annote",
           "package": "plot",
@@ -541,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Annote",
           "package": "plot",
@@ -554,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Axis",
           "package": "plot",
@@ -562,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Axis",
           "package": "plot",
@@ -575,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisPosn",
           "package": "plot",
@@ -583,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisPosn",
           "package": "plot",
@@ -596,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisSide",
           "package": "plot",
@@ -604,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisSide",
           "package": "plot",
@@ -617,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisType",
           "package": "plot",
@@ -625,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "AxisType",
           "package": "plot",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bar",
           "package": "plot",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bar",
           "package": "plot",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarFormat",
           "package": "plot",
@@ -667,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarFormat",
           "package": "plot",
@@ -680,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarSetting",
           "package": "plot",
@@ -688,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarSetting",
           "package": "plot",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Border",
           "package": "plot",
@@ -709,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Border",
           "package": "plot",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Color",
           "package": "plot",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Color",
           "package": "plot",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dash",
           "package": "plot",
@@ -751,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dash",
           "package": "plot",
@@ -764,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "DashStyle",
           "package": "plot",
@@ -772,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "DashStyle",
           "package": "plot",
@@ -785,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dataset",
           "package": "plot",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dataset",
           "package": "plot",
@@ -806,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "ErrorSeries",
           "package": "plot",
@@ -814,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "ErrorSeries",
           "package": "plot",
@@ -827,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Figure",
           "package": "plot",
@@ -835,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Figure",
           "package": "plot",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FigureState",
           "package": "plot",
@@ -856,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FigureState",
           "package": "plot",
@@ -869,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Fill",
           "package": "plot",
@@ -877,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Fill",
           "package": "plot",
@@ -890,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FontFamily",
           "package": "plot",
@@ -898,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FontFamily",
           "package": "plot",
@@ -911,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FontSize",
           "package": "plot",
@@ -919,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FontSize",
           "package": "plot",
@@ -932,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FormattedSeries",
           "package": "plot",
@@ -940,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FormattedSeries",
           "package": "plot",
@@ -953,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Function",
           "package": "plot",
@@ -961,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Function",
           "package": "plot",
@@ -974,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Glyph",
           "package": "plot",
@@ -982,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Glyph",
           "package": "plot",
@@ -995,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "GridLines",
           "package": "plot",
@@ -1003,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "GridLines",
           "package": "plot",
@@ -1016,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Head",
           "package": "plot",
@@ -1024,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Head",
           "package": "plot",
@@ -1037,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Legend",
           "package": "plot",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Legend",
           "package": "plot",
@@ -1058,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendBorder",
           "package": "plot",
@@ -1066,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendBorder",
           "package": "plot",
@@ -1079,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendLocation",
           "package": "plot",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendLocation",
           "package": "plot",
@@ -1100,6 +1196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendOrientation",
           "package": "plot",
@@ -1108,6 +1205,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LegendOrientation",
           "package": "plot",
@@ -1121,6 +1219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Line",
           "package": "plot",
@@ -1129,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Line",
           "package": "plot",
@@ -1142,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LineFormat",
           "package": "plot",
@@ -1150,6 +1251,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LineFormat",
           "package": "plot",
@@ -1163,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LineWidth",
           "package": "plot",
@@ -1171,6 +1274,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LineWidth",
           "package": "plot",
@@ -1184,6 +1288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Location",
           "package": "plot",
@@ -1192,6 +1297,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Location",
           "package": "plot",
@@ -1205,6 +1311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "MinMaxSeries",
           "package": "plot",
@@ -1213,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "MinMaxSeries",
           "package": "plot",
@@ -1226,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Ordinate",
           "package": "plot",
@@ -1234,6 +1343,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Ordinate",
           "package": "plot",
@@ -1247,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Plot",
           "package": "plot",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Plot",
           "package": "plot",
@@ -1268,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PlotFormats",
           "package": "plot",
@@ -1276,6 +1389,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PlotFormats",
           "package": "plot",
@@ -1289,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Point",
           "package": "plot",
@@ -1297,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Point",
           "package": "plot",
@@ -1310,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PointFormat",
           "package": "plot",
@@ -1318,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PointFormat",
           "package": "plot",
@@ -1331,6 +1449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PointSize",
           "package": "plot",
@@ -1339,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "PointSize",
           "package": "plot",
@@ -1352,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SampleData",
           "package": "plot",
@@ -1360,6 +1481,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SampleData",
           "package": "plot",
@@ -1373,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Scale",
           "package": "plot",
@@ -1381,6 +1504,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Scale",
           "package": "plot",
@@ -1394,6 +1518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Series",
           "package": "plot",
@@ -1402,6 +1527,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Series",
           "package": "plot",
@@ -1415,6 +1541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SeriesLabel",
           "package": "plot",
@@ -1423,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SeriesLabel",
           "package": "plot",
@@ -1436,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SeriesType",
           "package": "plot",
@@ -1444,6 +1573,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SeriesType",
           "package": "plot",
@@ -1457,6 +1587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Surface",
           "package": "plot",
@@ -1465,6 +1596,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Surface",
           "package": "plot",
@@ -1478,6 +1610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Text",
           "package": "plot",
@@ -1486,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Text",
           "package": "plot",
@@ -1499,6 +1633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Tick",
           "package": "plot",
@@ -1507,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Tick",
           "package": "plot",
@@ -1520,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickFormat",
           "package": "plot",
@@ -1528,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickFormat",
           "package": "plot",
@@ -1541,6 +1679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickValues",
           "package": "plot",
@@ -1549,6 +1688,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickValues",
           "package": "plot",
@@ -1562,6 +1702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Area",
           "package": "plot",
@@ -1571,6 +1712,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Area",
           "package": "plot",
@@ -1584,6 +1726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Asterisk",
           "package": "plot",
@@ -1593,6 +1736,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Asterisk",
           "package": "plot",
@@ -1606,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bar",
           "package": "plot",
@@ -1615,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bar",
           "package": "plot",
@@ -1628,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarNone",
           "package": "plot",
@@ -1637,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarNone",
           "package": "plot",
@@ -1650,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarSpread",
           "package": "plot",
@@ -1659,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarSpread",
           "package": "plot",
@@ -1672,6 +1822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarStack",
           "package": "plot",
@@ -1681,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "BarStack",
           "package": "plot",
@@ -1694,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bot",
           "package": "plot",
@@ -1703,6 +1856,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bot",
           "package": "plot",
@@ -1716,6 +1870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Box",
           "package": "plot",
@@ -1725,6 +1880,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Box",
           "package": "plot",
@@ -1738,6 +1894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bullet",
           "package": "plot",
@@ -1747,6 +1904,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Bullet",
           "package": "plot",
@@ -1760,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Candle",
           "package": "plot",
@@ -1769,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Candle",
           "package": "plot",
@@ -1782,6 +1942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Circle",
           "package": "plot",
@@ -1791,6 +1952,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Circle",
           "package": "plot",
@@ -1804,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Cross",
           "package": "plot",
@@ -1813,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Cross",
           "package": "plot",
@@ -1826,6 +1990,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dash",
           "package": "plot",
@@ -1835,6 +2000,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dash",
           "package": "plot",
@@ -1848,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "DefaultTickFormat",
           "package": "plot",
@@ -1857,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "DefaultTickFormat",
           "package": "plot",
@@ -1870,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Diamond",
           "package": "plot",
@@ -1879,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Diamond",
           "package": "plot",
@@ -1892,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dot",
           "package": "plot",
@@ -1901,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Dot",
           "package": "plot",
@@ -1914,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "East",
           "package": "plot",
@@ -1923,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "East",
           "package": "plot",
@@ -1936,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FormatFunction",
           "package": "plot",
@@ -1945,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "FormatFunction",
           "normalized": "FormatFunction(Double-\u003eString)",
@@ -1960,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Hist",
           "package": "plot",
@@ -1969,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Hist",
           "package": "plot",
@@ -1982,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Impulse",
           "package": "plot",
@@ -1991,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Impulse",
           "package": "plot",
@@ -2004,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Inside",
           "package": "plot",
@@ -2013,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Inside",
           "package": "plot",
@@ -2026,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Line",
           "package": "plot",
@@ -2035,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Line",
           "package": "plot",
@@ -2048,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LinePoint",
           "package": "plot",
@@ -2057,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "LinePoint",
           "package": "plot",
@@ -2070,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Linear",
           "package": "plot",
@@ -2079,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Linear",
           "package": "plot",
@@ -2092,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Log",
           "package": "plot",
@@ -2101,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Log",
           "package": "plot",
@@ -2114,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Lower",
           "package": "plot",
@@ -2123,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Lower",
           "package": "plot",
@@ -2136,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Major",
           "package": "plot",
@@ -2145,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Major",
           "package": "plot",
@@ -2158,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Minor",
           "package": "plot",
@@ -2167,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Minor",
           "package": "plot",
@@ -2180,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "North",
           "package": "plot",
@@ -2189,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "North",
           "package": "plot",
@@ -2202,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "NorthEast",
           "package": "plot",
@@ -2211,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "NorthEast",
           "package": "plot",
@@ -2224,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "NorthWest",
           "package": "plot",
@@ -2233,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "NorthWest",
           "package": "plot",
@@ -2246,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Outside",
           "package": "plot",
@@ -2255,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Outside",
           "package": "plot",
@@ -2268,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Point",
           "package": "plot",
@@ -2277,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Point",
           "package": "plot",
@@ -2290,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Printf",
           "package": "plot",
@@ -2299,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Printf",
           "package": "plot",
@@ -2312,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Side",
           "package": "plot",
@@ -2321,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Side",
           "package": "plot",
@@ -2334,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "South",
           "package": "plot",
@@ -2343,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "South",
           "package": "plot",
@@ -2356,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SouthEast",
           "package": "plot",
@@ -2365,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SouthEast",
           "package": "plot",
@@ -2378,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SouthWest",
           "package": "plot",
@@ -2387,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "SouthWest",
           "package": "plot",
@@ -2400,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Step",
           "package": "plot",
@@ -2409,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Step",
           "package": "plot",
@@ -2422,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickNumber",
           "package": "plot",
@@ -2431,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickNumber",
           "package": "plot",
@@ -2444,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickValues",
           "package": "plot",
@@ -2453,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "TickValues",
           "package": "plot",
@@ -2466,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Top",
           "package": "plot",
@@ -2475,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Top",
           "package": "plot",
@@ -2488,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Triangle",
           "package": "plot",
@@ -2497,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Triangle",
           "package": "plot",
@@ -2510,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Upper",
           "package": "plot",
@@ -2519,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Upper",
           "package": "plot",
@@ -2532,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Value",
           "package": "plot",
@@ -2541,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Value",
           "package": "plot",
@@ -2554,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "West",
           "package": "plot",
@@ -2563,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "West",
           "package": "plot",
@@ -2576,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Whisker",
           "package": "plot",
@@ -2585,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "Whisker",
           "package": "plot",
@@ -2598,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "XAxis",
           "package": "plot",
@@ -2607,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "XAxis",
           "package": "plot",
@@ -2620,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "YAxis",
           "package": "plot",
@@ -2629,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "YAxis",
           "package": "plot",
@@ -2643,6 +2881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an axis to the subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "addAxis",
           "package": "plot",
@@ -2653,6 +2892,7 @@
         "index": {
           "description": "add an axis to the subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "addAxis",
           "normalized": "AxisType-\u003eAxisPosn-\u003eAxis()-\u003ePlot()",
@@ -2668,6 +2908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "area",
           "package": "plot",
@@ -2677,6 +2918,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "area",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -2692,6 +2934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an arrow\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "arrow",
           "package": "plot",
@@ -2702,6 +2945,7 @@
         "index": {
           "description": "add an arrow",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "arrow",
           "normalized": "Head-\u003eLocation-\u003eLocation-\u003eLine()-\u003eAnnote()",
@@ -2716,6 +2960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "bar",
           "package": "plot",
@@ -2725,6 +2970,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "bar",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -2739,6 +2985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "barSetting",
           "package": "plot",
@@ -2748,6 +2995,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "barSetting",
           "normalized": "BarSetting-\u003ePlot()",
@@ -2764,6 +3012,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a cairo render that takes the bounding box (in user coordinates)\n       as an argument\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "cairo",
           "package": "plot",
@@ -2774,6 +3023,7 @@
         "index": {
           "description": "add cairo render that takes the bounding box in user coordinates as an argument",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "cairo",
           "normalized": "(Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eRender())-\u003eAnnote()",
@@ -2788,6 +3038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "candle",
           "package": "plot",
@@ -2797,6 +3048,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "candle",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -2812,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the axes of a subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearAxes",
           "package": "plot",
@@ -2822,6 +3075,7 @@
         "index": {
           "description": "clear the axes of subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearAxes",
           "normalized": "Plot()",
@@ -2838,6 +3092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear an axis of a subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearAxis",
           "package": "plot",
@@ -2848,6 +3103,7 @@
         "index": {
           "description": "clear an axis of subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearAxis",
           "normalized": "AxisType-\u003eAxisPosn-\u003ePlot()",
@@ -2864,6 +3120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the formatting of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearBarFormat",
           "package": "plot",
@@ -2874,6 +3131,7 @@
         "index": {
           "description": "clear the formatting of line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearBarFormat",
           "normalized": "Bar()",
@@ -2890,6 +3148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the legend\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearLegend",
           "package": "plot",
@@ -2900,6 +3159,7 @@
         "index": {
           "description": "clear the legend",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearLegend",
           "normalized": "Plot()",
@@ -2916,6 +3176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the formatting of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearLineFormat",
           "package": "plot",
@@ -2926,6 +3187,7 @@
         "index": {
           "description": "clear the formatting of line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearLineFormat",
           "normalized": "Line()",
@@ -2942,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclear the text entry \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearText",
           "package": "plot",
@@ -2952,6 +3215,7 @@
         "index": {
           "description": "clear the text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearText",
           "normalized": "Text()",
@@ -2968,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the text formatting to the default\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearTextFormat",
           "package": "plot",
@@ -2978,6 +3243,7 @@
         "index": {
           "description": "set the text formatting to the default",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "clearTextFormat",
           "normalized": "Text()",
@@ -2994,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "glyph",
           "package": "plot",
@@ -3004,6 +3271,7 @@
         "index": {
           "description": "add rectangle",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "glyph",
           "normalized": "Location-\u003ePoint()-\u003eAnnote()",
@@ -3018,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "hist",
           "package": "plot",
@@ -3027,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "hist",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -3041,6 +3311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "impulse",
           "package": "plot",
@@ -3050,6 +3321,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "impulse",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -3064,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "line",
           "package": "plot",
@@ -3073,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "line",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -3087,6 +3361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "linepoint",
           "package": "plot",
@@ -3096,6 +3371,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "linepoint",
           "normalized": "a-\u003eb-\u003ec-\u003eFormattedSeries",
@@ -3111,6 +3387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a new blank \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "newFigure",
           "package": "plot",
@@ -3121,6 +3398,7 @@
         "index": {
           "description": "create new blank Figure",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "newFigure",
           "normalized": "Figure()",
@@ -3137,6 +3415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd an oval\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "oval",
           "package": "plot",
@@ -3147,6 +3426,7 @@
         "index": {
           "description": "add an oval",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "oval",
           "normalized": "Fill-\u003eLocation-\u003eLocation-\u003eBar()-\u003eAnnote()",
@@ -3161,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "point",
           "package": "plot",
@@ -3170,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "point",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -3185,6 +3467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a rectangle\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "rect",
           "package": "plot",
@@ -3195,6 +3478,7 @@
         "index": {
           "description": "add rectangle",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "rect",
           "normalized": "Fill-\u003eLocation-\u003eLocation-\u003eBar()-\u003eAnnote()",
@@ -3209,6 +3493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "sampleData",
           "package": "plot",
@@ -3218,6 +3503,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "sampleData",
           "normalized": "SampleData-\u003ePlot()",
@@ -3234,6 +3520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the plot type of all data series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setAllSeriesTypes",
           "package": "plot",
@@ -3244,6 +3531,7 @@
         "index": {
           "description": "change the plot type of all data series",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setAllSeriesTypes",
           "normalized": "SeriesType-\u003ePlot()",
@@ -3260,6 +3548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the background colour of the figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBackgroundColour",
           "package": "plot",
@@ -3270,6 +3559,7 @@
         "index": {
           "description": "set the background colour of the figure",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBackgroundColour",
           "normalized": "Color-\u003eFigure()",
@@ -3286,6 +3576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the colour of the bar border\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarBorderColour",
           "package": "plot",
@@ -3296,6 +3587,7 @@
         "index": {
           "description": "set the colour of the bar border",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarBorderColour",
           "normalized": "Color-\u003eBar()",
@@ -3312,6 +3604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the width of the bar border\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarBorderWidth",
           "package": "plot",
@@ -3322,6 +3615,7 @@
         "index": {
           "description": "set the width of the bar border",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarBorderWidth",
           "normalized": "LineWidth-\u003eBar()",
@@ -3338,6 +3632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the colour of the bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarColour",
           "package": "plot",
@@ -3348,6 +3643,7 @@
         "index": {
           "description": "set the colour of the bar",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarColour",
           "normalized": "Color-\u003eBar()",
@@ -3364,6 +3660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the width of the bar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarWidth",
           "package": "plot",
@@ -3374,6 +3671,7 @@
         "index": {
           "description": "set the width of the bar",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBarWidth",
           "normalized": "Width-\u003eBar()",
@@ -3390,6 +3688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether to draw a boundary around the plot area\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBorder",
           "package": "plot",
@@ -3400,6 +3699,7 @@
         "index": {
           "description": "whether to draw boundary around the plot area",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setBorder",
           "normalized": "Border-\u003ePlot()",
@@ -3416,6 +3716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the dash style of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setDashStyle",
           "package": "plot",
@@ -3426,6 +3727,7 @@
         "index": {
           "description": "change the dash style of line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setDashStyle",
           "normalized": "DashStyle-\u003eLine()",
@@ -3442,6 +3744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the data series of the subplot\n\u003c/p\u003e\u003cp\u003eThe data series are either \u003ccode\u003e\u003ca\u003eFormattedSeries\u003c/a\u003e\u003c/code\u003e or plain data series.\n   A plain data series must carry a \u003ccode\u003e\u003ca\u003eSeriesType\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eA dataset may or may not have an abscissa series, and if so, it is paired\n  with either a list of ordinate series or a single ordinate series.\n\u003c/p\u003e\u003cp\u003eThe abscissa series (if present) is of type 'Vector Double'.\n\u003c/p\u003e\u003cp\u003eAn ordinate series be a function (\u003ccode\u003eDouble -\u003e Double\u003c/code\u003e) or a series of points,\n  a 'Vector Double' with optional error series, y axis preference, and labels.\n\u003c/p\u003e\u003cp\u003eTo specify decoration options for an ordinate series, use the appropriate function, such\n  as \u003ccode\u003elinespoints\u003c/code\u003e, with the ordinate series and decoration formatting (\u003ccode\u003eLineFormat\u003c/code\u003e,\n  \u003ccode\u003ePointFormat\u003c/code\u003e, and \u003ccode\u003eBarFormat\u003c/code\u003e) as arguments.\n\u003c/p\u003e\u003cpre\u003e setDataset (ts,[linespoints (xs,(le,ue),Upper,\"data\") (([Dash,Dash],3,blue),(Diamond,green))])\n\u003c/pre\u003e\u003cp\u003ehas abscissa \u003ccode\u003ets\u003c/code\u003e paired with a list of ordinate series, the single element of which is a\n  \u003ccode\u003e\u003ca\u003eFormattedSeries\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003elinespoints\u003c/code\u003e where the ordinate is \u003ccode\u003exs\u003c/code\u003e with error series \u003ccode\u003ele\u003c/code\u003e and \u003ccode\u003eue\u003c/code\u003e,\n  to be graphed against the upper y-range with label \"data\".  The line element is formatted\n  to be dashed, of width 3, and blue and the point element is to be a green diamond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setDataset",
           "package": "plot",
@@ -3452,6 +3755,7 @@
         "index": {
           "description": "set the data series of the subplot The data series are either FormattedSeries or plain data series plain data series must carry SeriesType dataset may or may not have an abscissa series and if so it is paired with either list of ordinate series or single ordinate series The abscissa series if present is of type Vector Double An ordinate series be function Double Double or series of points Vector Double with optional error series axis preference and labels To specify decoration options for an ordinate series use the appropriate function such as linespoints with the ordinate series and decoration formatting LineFormat PointFormat and BarFormat as arguments setDataset ts linespoints xs le ue Upper data Dash Dash blue Diamond green has abscissa ts paired with list of ordinate series the single element of which is FormattedSeries linespoints where the ordinate is xs with error series le and ue to be graphed against the upper y-range with label data The line element is formatted to be dashed of width and blue and the point element is to be green diamond",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setDataset",
           "normalized": "a-\u003ePlot()",
@@ -3468,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the padding of the figure\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFigurePadding",
           "package": "plot",
@@ -3478,6 +3783,7 @@
         "index": {
           "description": "set the padding of the figure",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFigurePadding",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003eFigure()",
@@ -3494,6 +3800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the colour of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontColour",
           "package": "plot",
@@ -3504,6 +3811,7 @@
         "index": {
           "description": "set the colour of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontColour",
           "normalized": "Color-\u003eText()",
@@ -3520,6 +3828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font style of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontFamily",
           "package": "plot",
@@ -3530,6 +3839,7 @@
         "index": {
           "description": "set the font style of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontFamily",
           "normalized": "FontFamily-\u003eText()",
@@ -3546,6 +3856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font size of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontSize",
           "package": "plot",
@@ -3556,6 +3867,7 @@
         "index": {
           "description": "set the font size of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontSize",
           "normalized": "FontSize-\u003eText()",
@@ -3572,6 +3884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font stretch of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontStretch",
           "package": "plot",
@@ -3582,6 +3895,7 @@
         "index": {
           "description": "set the font stretch of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontStretch",
           "normalized": "Stretch-\u003eText()",
@@ -3598,6 +3912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font style of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontStyle",
           "package": "plot",
@@ -3608,6 +3923,7 @@
         "index": {
           "description": "set the font style of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontStyle",
           "normalized": "FontStyle-\u003eText()",
@@ -3624,6 +3940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font variant of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontVariant",
           "package": "plot",
@@ -3634,6 +3951,7 @@
         "index": {
           "description": "set the font variant of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontVariant",
           "normalized": "Variant-\u003eText()",
@@ -3650,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the font weight of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontWeight",
           "package": "plot",
@@ -3660,6 +3979,7 @@
         "index": {
           "description": "set the font weight of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setFontWeight",
           "normalized": "Weight-\u003eText()",
@@ -3676,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the glyph of a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setGlyph",
           "package": "plot",
@@ -3686,6 +4007,7 @@
         "index": {
           "description": "change the glyph of point",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setGlyph",
           "normalized": "Glyph-\u003ePoint()",
@@ -3702,6 +4024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshould gridlines be displayed?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setGridlines",
           "package": "plot",
@@ -3712,6 +4035,7 @@
         "index": {
           "description": "should gridlines be displayed",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setGridlines",
           "normalized": "Tick-\u003eGridLines-\u003eAxis()",
@@ -3728,6 +4052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the legend location and orientation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLegend",
           "package": "plot",
@@ -3738,6 +4063,7 @@
         "index": {
           "description": "set the legend location and orientation",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLegend",
           "normalized": "LegendBorder-\u003eLegendLocation-\u003eLegendOrientation-\u003ePlot()",
@@ -3754,6 +4080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the line colour of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLineColour",
           "package": "plot",
@@ -3764,6 +4091,7 @@
         "index": {
           "description": "change the line colour of line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLineColour",
           "normalized": "Color-\u003eLine()",
@@ -3780,6 +4108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the line width of a line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLineWidth",
           "package": "plot",
@@ -3790,6 +4119,7 @@
         "index": {
           "description": "change the line width of line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setLineWidth",
           "normalized": "LineWidth-\u003eLine()",
@@ -3806,6 +4136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the plot background colour\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlotBackgroundColour",
           "package": "plot",
@@ -3816,6 +4147,7 @@
         "index": {
           "description": "set the plot background colour",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlotBackgroundColour",
           "normalized": "Color-\u003ePlot()",
@@ -3832,6 +4164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the padding of the subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlotPadding",
           "package": "plot",
@@ -3842,6 +4175,7 @@
         "index": {
           "description": "set the padding of the subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlotPadding",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eDouble-\u003ePlot()",
@@ -3858,6 +4192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the shape of the plots, losing all current plots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlots",
           "package": "plot",
@@ -3867,6 +4202,7 @@
         "index": {
           "description": "set the shape of the plots losing all current plots",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPlots",
           "normalized": "Int-\u003eInt-\u003eFigure()",
@@ -3883,6 +4219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the colour of a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPointColour",
           "package": "plot",
@@ -3893,6 +4230,7 @@
         "index": {
           "description": "change the colour of point",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPointColour",
           "normalized": "Color-\u003ePoint()",
@@ -3909,6 +4247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echange the size of a point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPointSize",
           "package": "plot",
@@ -3919,6 +4258,7 @@
         "index": {
           "description": "change the size of point",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setPointSize",
           "normalized": "PointSize-\u003ePoint()",
@@ -3935,6 +4275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the axis range\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setRange",
           "package": "plot",
@@ -3945,6 +4286,7 @@
         "index": {
           "description": "set the axis range",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setRange",
           "normalized": "AxisType-\u003eAxisSide-\u003eScale-\u003eDouble-\u003eDouble-\u003ePlot()",
@@ -3961,6 +4303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the axis ranges to values based on dataset\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setRangeFromData",
           "package": "plot",
@@ -3971,6 +4314,7 @@
         "index": {
           "description": "set the axis ranges to values based on dataset",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setRangeFromData",
           "normalized": "AxisType-\u003eAxisSide-\u003eScale-\u003ePlot()",
@@ -3987,6 +4331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the plot type of a given data series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setSeriesType",
           "package": "plot",
@@ -3997,6 +4342,7 @@
         "index": {
           "description": "set the plot type of given data series",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setSeriesType",
           "normalized": "Int-\u003eSeriesType-\u003ePlot()",
@@ -4013,6 +4359,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the value of a text entry\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setText",
           "package": "plot",
@@ -4023,6 +4370,7 @@
         "index": {
           "description": "set the value of text entry",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setText",
           "normalized": "String-\u003eText()",
@@ -4039,6 +4387,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the tick label format\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTickLabelFormat",
           "package": "plot",
@@ -4049,6 +4398,7 @@
         "index": {
           "description": "set the tick label format",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTickLabelFormat",
           "normalized": "TickFormat-\u003eAxis()",
@@ -4065,6 +4415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea list of data labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTickLabels",
           "package": "plot",
@@ -4075,6 +4426,7 @@
         "index": {
           "description": "list of data labels",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTickLabels",
           "normalized": "[String]-\u003eAxis()",
@@ -4091,6 +4443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the axis ticks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTicks",
           "package": "plot",
@@ -4101,6 +4454,7 @@
         "index": {
           "description": "format the axis ticks",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "setTicks",
           "normalized": "Tick-\u003eTickValues-\u003eAxis()",
@@ -4116,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "step",
           "package": "plot",
@@ -4125,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "step",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -4140,6 +4496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "text",
           "package": "plot",
@@ -4150,6 +4507,7 @@
         "index": {
           "description": "add text",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "text",
           "normalized": "Location-\u003eText()-\u003eAnnote()",
@@ -4164,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "whisker",
           "package": "plot",
@@ -4173,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "whisker",
           "normalized": "a-\u003eb-\u003eFormattedSeries",
@@ -4188,6 +4548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the plot elements of all series\n\u003c/p\u003e\u003cp\u003ethe operation to modify the formats is passed the series index.\n      This allows, for example, colours to be selected from a list\n      that gets indexed by the argument\n\u003c/p\u003e\u003cpre\u003e setColour = withAllSeriesFormats (\\i -\u003e do\n                                         setLineColour $ [black,blue,red,green,yellow] !! i\n                                         setLineWidth 1.0)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAllSeriesFormats",
           "package": "plot",
@@ -4198,6 +4559,7 @@
         "index": {
           "description": "format the plot elements of all series the operation to modify the formats is passed the series index This allows for example colours to be selected from list that gets indexed by the argument setColour withAllSeriesFormats do setLineColour black blue red green yellow setLineWidth",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAllSeriesFormats",
           "normalized": "(Int-\u003ea())-\u003ePlot()",
@@ -4213,6 +4575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAnnotations",
           "package": "plot",
@@ -4222,6 +4585,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAnnotations",
           "normalized": "Annote()-\u003ePlot()",
@@ -4238,6 +4602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperate on the given axis\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxis",
           "package": "plot",
@@ -4248,6 +4613,7 @@
         "index": {
           "description": "operate on the given axis",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxis",
           "normalized": "AxisType-\u003eAxisPosn-\u003eAxis()-\u003ePlot()",
@@ -4264,6 +4630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperate on the axis label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxisLabel",
           "package": "plot",
@@ -4274,6 +4641,7 @@
         "index": {
           "description": "operate on the axis label",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxisLabel",
           "normalized": "Text()-\u003eAxis()",
@@ -4290,6 +4658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the axis line\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxisLine",
           "package": "plot",
@@ -4300,6 +4669,7 @@
         "index": {
           "description": "format the axis line",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withAxisLine",
           "normalized": "Line()-\u003eAxis()",
@@ -4316,6 +4686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the bar defaults, must be run before other point modifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withBarDefaults",
           "package": "plot",
@@ -4326,6 +4697,7 @@
         "index": {
           "description": "perform some actions on the bar defaults must be run before other point modifications",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withBarDefaults",
           "normalized": "Bar()-\u003eFigure()",
@@ -4342,6 +4714,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the grid lines\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withGridLine",
           "package": "plot",
@@ -4352,6 +4725,7 @@
         "index": {
           "description": "format the grid lines",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withGridLine",
           "normalized": "Tick-\u003eLine()-\u003eAxis()",
@@ -4368,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eset the heading of the subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withHeading",
           "package": "plot",
@@ -4378,6 +4753,7 @@
         "index": {
           "description": "set the heading of the subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withHeading",
           "normalized": "Text()-\u003ePlot()",
@@ -4394,6 +4770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the legend text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withLegendFormat",
           "package": "plot",
@@ -4404,6 +4781,7 @@
         "index": {
           "description": "format the legend text",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withLegendFormat",
           "normalized": "Text()-\u003ePlot()",
@@ -4420,6 +4798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the line defaults, must be run before other line element modifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withLineDefaults",
           "package": "plot",
@@ -4430,6 +4809,7 @@
         "index": {
           "description": "perform some actions on the line defaults must be run before other line element modifications",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withLineDefaults",
           "normalized": "Line()-\u003eFigure()",
@@ -4446,6 +4826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the specified subplot\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPlot",
           "package": "plot",
@@ -4456,6 +4837,7 @@
         "index": {
           "description": "perform some actions on the specified subplot",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPlot",
           "normalized": "(Int,Int)-\u003ePlot()-\u003eFigure()",
@@ -4472,6 +4854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions all subplots\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPlots",
           "package": "plot",
@@ -4482,6 +4865,7 @@
         "index": {
           "description": "perform some actions all subplots",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPlots",
           "normalized": "Plot()-\u003eFigure()",
@@ -4498,6 +4882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the point defaults, must be run before other point modifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPointDefaults",
           "package": "plot",
@@ -4508,6 +4893,7 @@
         "index": {
           "description": "perform some actions on the point defaults must be run before other point modifications",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withPointDefaults",
           "normalized": "Point()-\u003eFigure()",
@@ -4524,6 +4910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the plot elements of a given series\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withSeriesFormat",
           "package": "plot",
@@ -4534,6 +4921,7 @@
         "index": {
           "description": "format the plot elements of given series",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withSeriesFormat",
           "normalized": "Int-\u003ea()-\u003ePlot()",
@@ -4550,6 +4938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperate on the sub-title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withSubTitle",
           "package": "plot",
@@ -4560,6 +4949,7 @@
         "index": {
           "description": "operate on the sub-title",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withSubTitle",
           "normalized": "Text()-\u003eFigure()",
@@ -4576,6 +4966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperform some actions on the text defaults, must be run before other text element modifications\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTextDefaults",
           "package": "plot",
@@ -4586,6 +4977,7 @@
         "index": {
           "description": "perform some actions on the text defaults must be run before other text element modifications",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTextDefaults",
           "normalized": "Text()-\u003eFigure()",
@@ -4602,6 +4994,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eformat the tick labels\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTickLabelsFormat",
           "package": "plot",
@@ -4612,6 +5005,7 @@
         "index": {
           "description": "format the tick labels",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTickLabelsFormat",
           "normalized": "Text()-\u003eAxis()",
@@ -4628,6 +5022,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoperate on the title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTitle",
           "package": "plot",
@@ -4638,6 +5033,7 @@
         "index": {
           "description": "operate on the title",
           "hierarchy": "Graphics Rendering Plot Figure",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Figure",
           "name": "withTitle",
           "normalized": "Text()-\u003eFigure()",
@@ -4654,6 +5050,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRendering \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003es\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "Render",
           "package": "plot",
@@ -4663,6 +5060,7 @@
         "index": {
           "description": "Rendering Figure",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "Render",
           "package": "plot",
@@ -4677,6 +5075,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput file type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "OutputType",
           "package": "plot",
@@ -4686,6 +5085,7 @@
         "index": {
           "description": "output file type",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "OutputType",
           "package": "plot",
@@ -4699,6 +5099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PDF",
           "package": "plot",
@@ -4708,6 +5109,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PDF",
           "package": "plot",
@@ -4721,6 +5123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PNG",
           "package": "plot",
@@ -4730,6 +5133,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PNG",
           "package": "plot",
@@ -4743,6 +5147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PS",
           "package": "plot",
@@ -4752,6 +5157,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "PS",
           "package": "plot",
@@ -4765,6 +5171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "SVG",
           "package": "plot",
@@ -4774,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "SVG",
           "package": "plot",
@@ -4788,6 +5196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate \u003ccode\u003e\u003ca\u003eFigureState\u003c/a\u003e\u003c/code\u003e from a series of \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "newFigureState",
           "package": "plot",
@@ -4798,6 +5207,7 @@
         "index": {
           "description": "create FigureState from series of Figure actions",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "newFigureState",
           "normalized": "Figure()-\u003eIO FigureState",
@@ -4814,6 +5224,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender a \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "render",
           "package": "plot",
@@ -4823,6 +5234,7 @@
         "index": {
           "description": "render Figure",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "render",
           "normalized": "Figure()-\u003e(Int,Int)-\u003eRender()",
@@ -4838,6 +5250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender a \u003ccode\u003e\u003ca\u003eFigureState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "renderFigureState",
           "package": "plot",
@@ -4847,6 +5260,7 @@
         "index": {
           "description": "render FigureState",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "renderFigureState",
           "normalized": "FigureState-\u003e(Int,Int)-\u003eRender()",
@@ -4863,6 +5277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodify a \u003ccode\u003e\u003ca\u003eFigureState\u003c/a\u003e\u003c/code\u003e with some new actions  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "updateFigureState",
           "package": "plot",
@@ -4873,6 +5288,7 @@
         "index": {
           "description": "modify FigureState with some new actions",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "updateFigureState",
           "normalized": "FigureState-\u003eFigure()-\u003eFigureState",
@@ -4889,6 +5305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput the \u003ccode\u003e\u003ca\u003eFigure\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "writeFigure",
           "package": "plot",
@@ -4898,6 +5315,7 @@
         "index": {
           "description": "output the Figure",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "writeFigure",
           "normalized": "OutputType-\u003eFilePath-\u003e(Int,Int)-\u003eFigure()-\u003eIO()",
@@ -4914,6 +5332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eoutput the \u003ccode\u003e\u003ca\u003eFigureState\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "writeFigureState",
           "package": "plot",
@@ -4923,6 +5342,7 @@
         "index": {
           "description": "output the FigureState",
           "hierarchy": "Graphics Rendering Plot Render",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot.Render",
           "name": "writeFigureState",
           "normalized": "OutputType-\u003eFilePath-\u003e(Int,Int)-\u003eFigureState-\u003eIO()",
@@ -4939,6 +5359,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eGraphical plots\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:40:10 UTC 2014",
           "module": "Graphics.Rendering.Plot",
           "name": "Plot",
           "package": "plot",
@@ -4948,6 +5369,7 @@
         "index": {
           "description": "Graphical plots",
           "hierarchy": "Graphics Rendering Plot",
+          "indexed": "2014-03-11T19:40:10",
           "module": "Graphics.Rendering.Plot",
           "name": "Plot",
           "package": "plot",

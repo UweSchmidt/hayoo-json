@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "scons2dot"
+        "phrase": "scons2dot",
+        "type": "phrase"
       },
       "type": "context"
     }

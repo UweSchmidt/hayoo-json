@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bitset"
+        "phrase": "bitset",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA space-efficient implementation of set data structure for enumerated\n data types.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Read below the synopsis for important notes on the use of\n this module.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import Data.BitSet.Dynamic (BitSet)\n import qualified Data.BitSet.Dynamic as BS\n\u003c/pre\u003e\u003cp\u003eThe implementation uses \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e as underlying container, thus it\n grows automatically when more elements are inserted into the bit set.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "Dynamic",
           "package": "bitset",
@@ -28,6 +29,7 @@
         "index": {
           "description": "space-efficient implementation of set data structure for enumerated data types Note Read below the synopsis for important notes on the use of this module This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import Data.BitSet.Dynamic BitSet import qualified Data.BitSet.Dynamic as BS The implementation uses Integer as underlying container thus it grows automatically when more elements are inserted into the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "Dynamic",
           "package": "bitset",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "BitSet",
           "package": "bitset",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "BitSet",
           "package": "bitset",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper around \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e which provides faster bit-level operations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "FasterInteger",
           "package": "bitset",
@@ -72,6 +77,7 @@
         "index": {
           "description": "wrapper around Integer which provides faster bit-level operations",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "FasterInteger",
           "package": "bitset",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. See \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "(\\\\)",
           "package": "bitset",
@@ -96,6 +103,7 @@
         "index": {
           "description": "See difference",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "(\\\\) \\\\",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "FasterInteger",
           "package": "bitset",
@@ -119,6 +128,7 @@
         },
         "index": {
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "FasterInteger",
           "package": "bitset",
@@ -133,6 +143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Delete an item from the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "delete",
           "package": "bitset",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Delete an item from the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "delete",
           "normalized": "a-\u003eBitSet a-\u003eBitSet a",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Difference of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "difference",
           "package": "bitset",
@@ -168,6 +181,7 @@
         "index": {
           "description": "Difference of two bit sets",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "difference",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "empty",
           "package": "bitset",
@@ -193,6 +208,7 @@
         "index": {
           "description": "The empty bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "empty",
           "package": "bitset",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Filter this bit set by retaining only elements satisfying a\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "filter",
           "package": "bitset",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Filter this bit set by retaining only elements satisfying predicate",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eBitSet a-\u003eBitSet a",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this bit set by applying a binary function to all\n elements, using the given starting value.  Each application of the\n operator is evaluated before before using the result in the next\n application.  This function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "foldl'",
           "package": "bitset",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value Each application of the operator is evaluated before before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eBitSet b-\u003ea",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this bit set by applying a binary function to all\n elements, using the given starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "foldr",
           "package": "bitset",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eBitSet a-\u003eb",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Make a bit set from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "fromList",
           "package": "bitset",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Make bit set from list of elements",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "fromList",
           "normalized": "[a]-\u003eBitSet a",
@@ -307,6 +331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Insert an item into the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "insert",
           "package": "bitset",
@@ -317,6 +342,7 @@
         "index": {
           "description": "Insert an item into the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "insert",
           "normalized": "a-\u003eBitSet a-\u003eBitSet a",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The intersection of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "intersection",
           "package": "bitset",
@@ -342,6 +369,7 @@
         "index": {
           "description": "The intersection of two bit sets",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "intersection",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -357,6 +385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(n, m)\u003c/em\u003e. Is this a proper subset? (ie. a subset but not equal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "isProperSubsetOf",
           "package": "bitset",
@@ -367,6 +396,7 @@
         "index": {
           "description": "max Is this proper subset ie subset but not equal",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "isProperSubsetOf",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBool",
@@ -383,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(n, m))\u003c/em\u003e. Is this a subset? (\u003ccode\u003es1 isSubsetOf s2\u003c/code\u003e) tells whether\n \u003ccode\u003es1\u003c/code\u003e is a subset of \u003ccode\u003es2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "isSubsetOf",
           "package": "bitset",
@@ -393,6 +424,7 @@
         "index": {
           "description": "max Is this subset s1 isSubsetOf s2 tells whether s1 is subset of s2",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "isSubsetOf",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBool",
@@ -409,6 +441,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Transform this bit set by applying a function to every value.\n Resulting bit set may be smaller then the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "map",
           "package": "bitset",
@@ -419,6 +452,7 @@
         "index": {
           "description": "Transform this bit set by applying function to every value Resulting bit set may be smaller then the original",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eBitSet a-\u003eBitSet b",
@@ -434,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Ask whether the item is in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "member",
           "package": "bitset",
@@ -444,6 +479,7 @@
         "index": {
           "description": "Ask whether the item is in the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "member",
           "normalized": "a-\u003eBitSet a-\u003eBool",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Ask whether the item is in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "notMember",
           "package": "bitset",
@@ -469,6 +506,7 @@
         "index": {
           "description": "Ask whether the item is in the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "notMember",
           "normalized": "a-\u003eBitSet a-\u003eBool",
@@ -485,6 +523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the bit set empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "null",
           "package": "bitset",
@@ -495,6 +534,7 @@
         "index": {
           "description": "Is the bit set empty",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "null",
           "normalized": "BitSet a-\u003eBool",
@@ -510,6 +550,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Create a singleton set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "singleton",
           "package": "bitset",
@@ -520,6 +561,7 @@
         "index": {
           "description": "Create singleton set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "singleton",
           "normalized": "a-\u003eBitSet a",
@@ -535,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The number of elements in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "size",
           "package": "bitset",
@@ -545,6 +588,7 @@
         "index": {
           "description": "The number of elements in the bit set",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "size",
           "normalized": "BitSet a-\u003eInt",
@@ -560,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert the bit set set to a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "toList",
           "package": "bitset",
@@ -570,6 +615,7 @@
         "index": {
           "description": "Convert the bit set set to list of elements",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "toList",
           "normalized": "BitSet a-\u003e[a]",
@@ -586,6 +632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(m, n))\u003c/em\u003e. The union of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Dynamic",
           "name": "union",
           "package": "bitset",
@@ -596,6 +643,7 @@
         "index": {
           "description": "max The union of two bit sets",
           "hierarchy": "Data BitSet Dynamic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Dynamic",
           "name": "union",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -611,6 +659,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA space-efficient implementation of set data structure for enumerated\n data types.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Read below the synopsis for important notes on the use of\n this module.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import Data.BitSet.Generic (BitSet)\n import qualified Data.BitSet.Generic as BS\n\u003c/pre\u003e\u003cp\u003eThe implementation is abstract with respect to container type, so any\n numeric type with \u003ccode\u003e\u003ca\u003eBits\u003c/a\u003e\u003c/code\u003e instance can be used as a container. However,\n independent of container choice, the maximum number of elements in a\n bit set is bounded by \u003ccode\u003emaxBound :: Int\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "Generic",
           "package": "bitset",
@@ -620,6 +669,7 @@
         "index": {
           "description": "space-efficient implementation of set data structure for enumerated data types Note Read below the synopsis for important notes on the use of this module This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import Data.BitSet.Generic BitSet import qualified Data.BitSet.Generic as BS The implementation is abstract with respect to container type so any numeric type with Bits instance can be used as container However independent of container choice the maximum number of elements in bit set is bounded by maxBound Int",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "Generic",
           "package": "bitset",
@@ -634,6 +684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA bit set with unspecified container type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "BitSet",
           "package": "bitset",
@@ -643,6 +694,7 @@
         "index": {
           "description": "bit set with unspecified container type",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "BitSet",
           "package": "bitset",
@@ -657,6 +709,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(m, n))\u003c/em\u003e. See \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "(\\\\)",
           "package": "bitset",
@@ -667,6 +720,7 @@
         "index": {
           "description": "max See difference",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "(\\\\) \\\\",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBitSet a b",
@@ -681,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "BitSet",
           "package": "bitset",
@@ -690,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "BitSet",
           "package": "bitset",
@@ -704,6 +760,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d)\u003c/em\u003e. Delete an item from the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "delete",
           "package": "bitset",
@@ -714,6 +771,7 @@
         "index": {
           "description": "Delete an item from the bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "delete",
           "normalized": "a-\u003eBitSet b a-\u003eBitSet b a",
@@ -729,6 +787,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(m, n))\u003c/em\u003e. Difference of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "difference",
           "package": "bitset",
@@ -739,6 +798,7 @@
         "index": {
           "description": "max Difference of two bit sets",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "difference",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBitSet a b",
@@ -754,6 +814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "empty",
           "package": "bitset",
@@ -764,6 +825,7 @@
         "index": {
           "description": "The empty bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "empty",
           "package": "bitset",
@@ -777,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e Filter this bit set by retaining only elements satisfying\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "filter",
           "package": "bitset",
@@ -787,6 +850,7 @@
         "index": {
           "description": "Filter this bit set by retaining only elements satisfying predicate",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eBitSet b a-\u003eBitSet b a",
@@ -802,6 +866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e Reduce this bit set by applying a binary function to all\n elements, using the given starting value.  Each application of the\n operator is evaluated before before using the result in the next\n application.  This function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "foldl'",
           "package": "bitset",
@@ -812,6 +877,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value Each application of the operator is evaluated before before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eBitSet c b-\u003ea",
@@ -827,6 +893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e Reduce this bit set by applying a binary function to\n all elements, using the given starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "foldr",
           "package": "bitset",
@@ -837,6 +904,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eBitSet c a-\u003eb",
@@ -852,6 +920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e. Make a bit set from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "fromList",
           "package": "bitset",
@@ -862,6 +931,7 @@
         "index": {
           "description": "Make bit set from list of elements",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "fromList",
           "normalized": "[a]-\u003eBitSet b a",
@@ -877,6 +947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "getBits",
           "package": "bitset",
@@ -886,6 +957,7 @@
         },
         "index": {
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "getBits",
           "package": "bitset",
@@ -900,6 +972,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d)\u003c/em\u003e. Insert an item into the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "insert",
           "package": "bitset",
@@ -910,6 +983,7 @@
         "index": {
           "description": "Insert an item into the bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "insert",
           "normalized": "a-\u003eBitSet b a-\u003eBitSet b a",
@@ -925,6 +999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(m, n))\u003c/em\u003e. The intersection of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "intersection",
           "package": "bitset",
@@ -935,6 +1010,7 @@
         "index": {
           "description": "max The intersection of two bit sets",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "intersection",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBitSet a b",
@@ -950,6 +1026,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(n, m)\u003c/em\u003e. Is this a proper subset? (ie. a subset but not equal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "isProperSubsetOf",
           "package": "bitset",
@@ -960,6 +1037,7 @@
         "index": {
           "description": "max Is this proper subset ie subset but not equal",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "isProperSubsetOf",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBool",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(n, m))\u003c/em\u003e. Is this a subset? (\u003ccode\u003es1 \u003ccode\u003e\u003ca\u003eisSubsetOf\u003c/a\u003e\u003c/code\u003e s2\u003c/code\u003e) tells whether\n \u003ccode\u003es1\u003c/code\u003e is a subset of \u003ccode\u003es2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "isSubsetOf",
           "package": "bitset",
@@ -986,6 +1065,7 @@
         "index": {
           "description": "max Is this subset s1 isSubsetOf s2 tells whether s1 is subset of s2",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "isSubsetOf",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBool",
@@ -1002,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e Transform this bit set by applying a function to every\n value.  Resulting bit set may be smaller then the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "map",
           "package": "bitset",
@@ -1012,6 +1093,7 @@
         "index": {
           "description": "Transform this bit set by applying function to every value Resulting bit set may be smaller then the original",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eBitSet c a-\u003eBitSet c b",
@@ -1027,6 +1109,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d)\u003c/em\u003e. Ask whether the item is in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "member",
           "package": "bitset",
@@ -1037,6 +1120,7 @@
         "index": {
           "description": "Ask whether the item is in the bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "member",
           "normalized": "a-\u003eBitSet b a-\u003eBool",
@@ -1052,6 +1136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d)\u003c/em\u003e. Ask whether the item is not in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "notMember",
           "package": "bitset",
@@ -1062,6 +1147,7 @@
         "index": {
           "description": "Ask whether the item is not in the bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "notMember",
           "normalized": "a-\u003eBitSet b a-\u003eBool",
@@ -1078,6 +1164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the bit set empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "null",
           "package": "bitset",
@@ -1088,6 +1175,7 @@
         "index": {
           "description": "Is the bit set empty",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "null",
           "normalized": "BitSet a b-\u003eBool",
@@ -1103,6 +1191,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Create a singleton set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "singleton",
           "package": "bitset",
@@ -1113,6 +1202,7 @@
         "index": {
           "description": "Create singleton set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "singleton",
           "normalized": "a-\u003eBitSet b a",
@@ -1128,6 +1218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The number of elements in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "size",
           "package": "bitset",
@@ -1138,6 +1229,7 @@
         "index": {
           "description": "The number of elements in the bit set",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "size",
           "normalized": "BitSet a b-\u003eInt",
@@ -1153,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(d * n)\u003c/em\u003e. Convert this bit set set to a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "toList",
           "package": "bitset",
@@ -1163,6 +1256,7 @@
         "index": {
           "description": "Convert this bit set set to list of elements",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "toList",
           "normalized": "BitSet a b-\u003e[b]",
@@ -1179,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(max(m, n))\u003c/em\u003e. The union of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Generic",
           "name": "union",
           "package": "bitset",
@@ -1189,6 +1284,7 @@
         "index": {
           "description": "max The union of two bit sets",
           "hierarchy": "Data BitSet Generic",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Generic",
           "name": "union",
           "normalized": "BitSet a b-\u003eBitSet a b-\u003eBitSet a b",
@@ -1204,6 +1300,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA space-efficient implementation of set data structure for enumerated\n data types.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Read below the synopsis for important notes on the use of\n this module.\n\u003c/p\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name\n clashes with \u003ca\u003ePrelude\u003c/a\u003e functions, e.g.\n\u003c/p\u003e\u003cpre\u003e import Data.BitSet.Word (BitSet)\n import qualified Data.BitSet.Word as BS\n\u003c/pre\u003e\u003cp\u003eThe implementation uses \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e as underlying container, thus the\n maximum number of elements you can store in this bit set is bounded\n by the number of bits in \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e data type. However, due to native bitwise\n operations \u003ca\u003eData.BitSet.Word\u003c/a\u003e is significantly faster then \u003ca\u003eData.Set\u003c/a\u003e\n on all operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "Word",
           "package": "bitset",
@@ -1213,6 +1310,7 @@
         "index": {
           "description": "space-efficient implementation of set data structure for enumerated data types Note Read below the synopsis for important notes on the use of this module This module is intended to be imported qualified to avoid name clashes with Prelude functions e.g import Data.BitSet.Word BitSet import qualified Data.BitSet.Word as BS The implementation uses Word as underlying container thus the maximum number of elements you can store in this bit set is bounded by the number of bits in Word data type However due to native bitwise operations Data.BitSet.Word is significantly faster then Data.Set on all operations",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "Word",
           "package": "bitset",
@@ -1226,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "BitSet",
           "package": "bitset",
@@ -1234,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "BitSet",
           "package": "bitset",
@@ -1248,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. See \u003ccode\u003e\u003ca\u003edifference\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "(\\\\)",
           "package": "bitset",
@@ -1258,6 +1359,7 @@
         "index": {
           "description": "See difference",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "(\\\\) \\\\",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -1273,6 +1375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Delete an item from the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "delete",
           "package": "bitset",
@@ -1283,6 +1386,7 @@
         "index": {
           "description": "Delete an item from the bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "delete",
           "normalized": "a-\u003eBitSet a-\u003eBitSet a",
@@ -1298,6 +1402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Difference of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "difference",
           "package": "bitset",
@@ -1308,6 +1413,7 @@
         "index": {
           "description": "Difference of two bit sets",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "difference",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -1323,6 +1429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe empty bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "empty",
           "package": "bitset",
@@ -1333,6 +1440,7 @@
         "index": {
           "description": "The empty bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "empty",
           "package": "bitset",
@@ -1346,6 +1454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Filter this bit set by retaining only elements satisfying a\n predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "filter",
           "package": "bitset",
@@ -1356,6 +1465,7 @@
         "index": {
           "description": "Filter this bit set by retaining only elements satisfying predicate",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eBitSet a-\u003eBitSet a",
@@ -1371,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this bit set by applying a binary function to all\n elements, using the given starting value.  Each application of the\n operator is evaluated before before using the result in the next\n application.  This function is strict in the starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "foldl'",
           "package": "bitset",
@@ -1381,6 +1492,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value Each application of the operator is evaluated before before using the result in the next application This function is strict in the starting value",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eBitSet b-\u003ea",
@@ -1396,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Reduce this bit set by applying a binary function to all\n elements, using the given starting value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "foldr",
           "package": "bitset",
@@ -1406,6 +1519,7 @@
         "index": {
           "description": "Reduce this bit set by applying binary function to all elements using the given starting value",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eBitSet a-\u003eb",
@@ -1421,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Make a bit set from a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "fromList",
           "package": "bitset",
@@ -1431,6 +1546,7 @@
         "index": {
           "description": "Make bit set from list of elements",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "fromList",
           "normalized": "[a]-\u003eBitSet a",
@@ -1447,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Insert an item into the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "insert",
           "package": "bitset",
@@ -1457,6 +1574,7 @@
         "index": {
           "description": "Insert an item into the bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "insert",
           "normalized": "a-\u003eBitSet a-\u003eBitSet a",
@@ -1472,6 +1590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The intersection of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "intersection",
           "package": "bitset",
@@ -1482,6 +1601,7 @@
         "index": {
           "description": "The intersection of two bit sets",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "intersection",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -1497,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is this a proper subset? (ie. a subset but not equal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "isProperSubsetOf",
           "package": "bitset",
@@ -1507,6 +1628,7 @@
         "index": {
           "description": "Is this proper subset ie subset but not equal",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "isProperSubsetOf",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBool",
@@ -1523,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is this a subset? (\u003ccode\u003es1 isSubsetOf s2\u003c/code\u003e) tells whether\n \u003ccode\u003es1\u003c/code\u003e is a subset of \u003ccode\u003es2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "isSubsetOf",
           "package": "bitset",
@@ -1533,6 +1656,7 @@
         "index": {
           "description": "Is this subset s1 isSubsetOf s2 tells whether s1 is subset of s2",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "isSubsetOf",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBool",
@@ -1549,6 +1673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e Transform this bit set by applying a function to every value.\n Resulting bit set may be smaller then the original.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "map",
           "package": "bitset",
@@ -1559,6 +1684,7 @@
         "index": {
           "description": "Transform this bit set by applying function to every value Resulting bit set may be smaller then the original",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eBitSet a-\u003eBitSet b",
@@ -1574,6 +1700,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Ask whether the item is in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "member",
           "package": "bitset",
@@ -1584,6 +1711,7 @@
         "index": {
           "description": "Ask whether the item is in the bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "member",
           "normalized": "a-\u003eBitSet a-\u003eBool",
@@ -1599,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Ask whether the item is in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "notMember",
           "package": "bitset",
@@ -1609,6 +1738,7 @@
         "index": {
           "description": "Ask whether the item is in the bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "notMember",
           "normalized": "a-\u003eBitSet a-\u003eBool",
@@ -1625,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. Is the bit set empty?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "null",
           "package": "bitset",
@@ -1635,6 +1766,7 @@
         "index": {
           "description": "Is the bit set empty",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "null",
           "normalized": "BitSet a-\u003eBool",
@@ -1650,6 +1782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eO(1). Create a singleton set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "singleton",
           "package": "bitset",
@@ -1660,6 +1793,7 @@
         "index": {
           "description": "Create singleton set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "singleton",
           "normalized": "a-\u003eBitSet a",
@@ -1675,6 +1809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The number of elements in the bit set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "size",
           "package": "bitset",
@@ -1685,6 +1820,7 @@
         "index": {
           "description": "The number of elements in the bit set",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "size",
           "normalized": "BitSet a-\u003eInt",
@@ -1700,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(n)\u003c/em\u003e. Convert the bit set set to a list of elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "toList",
           "package": "bitset",
@@ -1710,6 +1847,7 @@
         "index": {
           "description": "Convert the bit set set to list of elements",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "toList",
           "normalized": "BitSet a-\u003e[a]",
@@ -1726,6 +1864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e. The union of two bit sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet.Word",
           "name": "union",
           "package": "bitset",
@@ -1736,6 +1875,7 @@
         "index": {
           "description": "The union of two bit sets",
           "hierarchy": "Data BitSet Word",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet.Word",
           "name": "union",
           "normalized": "BitSet a-\u003eBitSet a-\u003eBitSet a",
@@ -1751,6 +1891,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA space-efficient implementation of set data structure for enumerated\n data types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:59 UTC 2014",
           "module": "Data.BitSet",
           "name": "BitSet",
           "package": "bitset",
@@ -1760,6 +1901,7 @@
         "index": {
           "description": "space-efficient implementation of set data structure for enumerated data types",
           "hierarchy": "Data BitSet",
+          "indexed": "2014-03-11T17:22:59",
           "module": "Data.BitSet",
           "name": "BitSet",
           "package": "bitset",

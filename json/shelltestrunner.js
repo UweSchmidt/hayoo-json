@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "shelltestrunner"
+        "phrase": "shelltestrunner",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bacteria"
+        "phrase": "bacteria",
+        "type": "phrase"
       },
       "type": "context"
     }

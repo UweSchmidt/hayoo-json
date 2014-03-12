@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bools"
+        "phrase": "bools",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for dealing with bools.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:24:56 UTC 2014",
           "module": "Bools",
           "name": "Bools",
           "package": "bools",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Functions for dealing with bools",
           "hierarchy": "Bools",
+          "indexed": "2014-03-11T17:24:56",
           "module": "Bools",
           "name": "Bools",
           "package": "bools",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ebool false true p = if p then true else false\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:56 UTC 2014",
           "module": "Bools",
           "name": "bool",
           "package": "bools",
@@ -52,6 +55,7 @@
         "index": {
           "description": "bool false true if then true else false",
           "hierarchy": "Bools",
+          "indexed": "2014-03-11T17:24:56",
           "module": "Bools",
           "name": "bool",
           "normalized": "a-\u003ea-\u003eBool-\u003ea",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econd false true p v = if p v then true v else false v\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:24:56 UTC 2014",
           "module": "Bools",
           "name": "cond",
           "package": "bools",
@@ -77,6 +82,7 @@
         "index": {
           "description": "cond false true if then true else false",
           "hierarchy": "Bools",
+          "indexed": "2014-03-11T17:24:56",
           "module": "Bools",
           "name": "cond",
           "normalized": "(a-\u003eb)-\u003e(a-\u003eb)-\u003e(a-\u003eBool)-\u003ea-\u003eb",

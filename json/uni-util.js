@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "uni-util"
+        "phrase": "uni-util",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAtomString atomises strings.  Right now this code\n is not very efficient but it shouldn't be too hard\n to improve.\n\u003c/p\u003e\u003cp\u003eThis code includes no less that 3 uses of unsafePerformIO.  Oh well.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "AtomString",
           "package": "uni-util",
@@ -28,6 +29,7 @@
         "index": {
           "description": "AtomString atomises strings Right now this code is not very efficient but it shouldn be too hard to improve This code includes no less that uses of unsafePerformIO Oh well",
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "AtomString",
           "package": "uni-util",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "AtomString",
           "package": "uni-util",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "AtomString",
           "package": "uni-util",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "Str",
           "package": "uni-util",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "Str",
           "package": "uni-util",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "StringClass",
           "package": "uni-util",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "StringClass",
           "package": "uni-util",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "Str",
           "package": "uni-util",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "Str",
           "package": "uni-util",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "firstAtomString",
           "package": "uni-util",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "firstAtomString",
           "package": "uni-util",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "fromString",
           "package": "uni-util",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "fromString",
           "normalized": "String-\u003ea",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "fromStringError",
           "package": "uni-util",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "fromStringError",
           "normalized": "String-\u003ea",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "fromStringWE",
           "package": "uni-util",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "fromStringWE",
           "normalized": "String-\u003eWithError a",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "fromStringWEHacked",
           "package": "uni-util",
@@ -229,6 +248,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "fromStringWEHacked",
           "normalized": "String-\u003eIO(WithError a)",
@@ -244,6 +264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "mkFromStringWE",
           "package": "uni-util",
@@ -253,6 +274,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "mkFromStringWE",
           "normalized": "Parser a-\u003eString-\u003eString-\u003eWithError a",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.AtomString",
           "name": "toString",
           "package": "uni-util",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Util AtomString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.AtomString",
           "name": "toString",
           "normalized": "a-\u003eString",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibrary for converting types to and from binary, so that they can\nbe written to and from files, stored compactly in memory, and so on.\n\u003c/p\u003e\u003cp\u003eThis is a preliminary version of the library, hence I have decided\n\u003cem\u003enot\u003c/em\u003e to optimise heavily, beyond putting in strictness annotations\nin where they seem appropriate.\n\u003c/p\u003e\u003cp\u003eA good place to start optimising would probably be the separate\n\u003ca\u003eBytes\u003c/a\u003e libary.\n\u003c/p\u003e\u003cp\u003eSee also \u003ca\u003eBinaryInstances\u003c/a\u003e, which declares instances for the standard\ntypes (and one or two others), \u003ca\u003eBinaryUtils\u003c/a\u003e, which contains\n(mostly) material for declaring new instances, \u003ca\u003eBinaryExtras\u003c/a\u003e,\nwhich contains other miscellaneous utilities, and finally\n\u003ca\u003eBinaryAll\u003c/a\u003e which just imports and reexports everything. \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "Binary",
           "package": "uni-util",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Library for converting types to and from binary so that they can be written to and from files stored compactly in memory and so on This is preliminary version of the library hence have decided not to optimise heavily beyond putting in strictness annotations in where they seem appropriate good place to start optimising would probably be the separate Bytes libary See also BinaryInstances which declares instances for the standard types and one or two others BinaryUtils which contains mostly material for declaring new instances BinaryExtras which contains other miscellaneous utilities and finally BinaryAll which just imports and reexports everything",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "Binary",
           "package": "uni-util",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSomewhere to where you write binary data in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "BinArea",
           "package": "uni-util",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Somewhere to where you write binary data in memory",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "BinArea",
           "package": "uni-util",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "HasBinary",
           "package": "uni-util",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "HasBinary",
           "package": "uni-util",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source of binary data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "ReadBinary",
           "package": "uni-util",
@@ -369,6 +400,7 @@
         "index": {
           "description": "source of binary data",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "ReadBinary",
           "package": "uni-util",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea state monad containing the BinArea.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "StateBinArea",
           "package": "uni-util",
@@ -392,6 +425,7 @@
         "index": {
           "description": "state monad containing the BinArea",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "StateBinArea",
           "package": "uni-util",
@@ -406,6 +440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA consumer of binary data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "WriteBinary",
           "package": "uni-util",
@@ -415,6 +450,7 @@
         "index": {
           "description": "consumer of binary data",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "WriteBinary",
           "package": "uni-util",
@@ -428,6 +464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "ReadBinary",
           "package": "uni-util",
@@ -437,6 +474,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "ReadBinary",
           "package": "uni-util",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "WriteBinary",
           "package": "uni-util",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "WriteBinary",
           "package": "uni-util",
@@ -472,6 +512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "checkFullBinArea",
           "package": "uni-util",
@@ -481,6 +522,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "checkFullBinArea",
           "normalized": "BinArea-\u003eIO()",
@@ -497,6 +539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn all the data currently in the \u003ccode\u003e\u003ca\u003eBinArea\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "closeBinArea",
           "package": "uni-util",
@@ -507,6 +550,7 @@
         "index": {
           "description": "Return all the data currently in the BinArea",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "closeBinArea",
           "normalized": "BinArea-\u003eIO(Bytes,Int)",
@@ -523,6 +567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an (a) from a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "hRead",
           "package": "uni-util",
@@ -533,6 +578,7 @@
         "index": {
           "description": "Read an from Handle",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "hRead",
           "normalized": "Handle-\u003eIO a",
@@ -549,6 +595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an (a) to a \u003ccode\u003e\u003ca\u003eHandle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "hWrite",
           "package": "uni-util",
@@ -559,6 +606,7 @@
         "index": {
           "description": "Write an to Handle",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "hWrite",
           "normalized": "Handle-\u003ea-\u003eIO()",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the monad used by a \u003ccode\u003e\u003ca\u003eReadBinary\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "liftReadBinary",
           "package": "uni-util",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Transform the monad used by ReadBinary",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "liftReadBinary",
           "normalized": "(a b c d-\u003ee d)-\u003eReadBinary c-\u003eReadBinary e",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the monad used by a \u003ccode\u003e\u003ca\u003eWriteBinary\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "liftWriteBinary",
           "package": "uni-util",
@@ -611,6 +662,7 @@
         "index": {
           "description": "Transform the monad used by WriteBinary",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "liftWriteBinary",
           "normalized": "(a b c d-\u003ee d)-\u003eWriteBinary c-\u003eWriteBinary e",
@@ -627,6 +679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTurn binary data in memory into a \u003ccode\u003e\u003ca\u003eBinArea\u003c/a\u003e\u003c/code\u003e (so that you can\nread from it). \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "mkBinArea",
           "package": "uni-util",
@@ -637,6 +690,7 @@
         "index": {
           "description": "Turn binary data in memory into BinArea so that you can read from it",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "mkBinArea",
           "normalized": "(Bytes,Int)-\u003eBinArea",
@@ -653,6 +707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an empty \u003ccode\u003e\u003ca\u003eBinArea\u003c/a\u003e\u003c/code\u003e, given the initial size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "mkEmptyBinArea",
           "package": "uni-util",
@@ -663,6 +718,7 @@
         "index": {
           "description": "Create an empty BinArea given the initial size",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "mkEmptyBinArea",
           "normalized": "Int-\u003eIO BinArea",
@@ -678,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "readBin",
           "package": "uni-util",
@@ -687,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "readBin",
           "package": "uni-util",
@@ -701,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA BinArea as a source of binary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "readBinaryBinArea",
           "package": "uni-util",
@@ -711,6 +770,7 @@
         "index": {
           "description": "BinArea as source of binary data",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "readBinaryBinArea",
           "package": "uni-util",
@@ -725,6 +785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread one byte\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "readByte",
           "package": "uni-util",
@@ -735,6 +796,7 @@
         "index": {
           "description": "read one byte",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "readByte",
           "package": "uni-util",
@@ -749,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eread multiple bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "readBytes",
           "package": "uni-util",
@@ -759,6 +822,7 @@
         "index": {
           "description": "read multiple bytes",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "readBytes",
           "normalized": "Int-\u003ea Bytes",
@@ -775,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead a value from binary data in memory.  The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is the length,\nand there will be an error if this is either too small or too large. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "readFromBytes",
           "package": "uni-util",
@@ -785,6 +850,7 @@
         "index": {
           "description": "Read value from binary data in memory The Int is the length and there will be an error if this is either too small or too large",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "readFromBytes",
           "normalized": "(Bytes,Int)-\u003eIO a",
@@ -800,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "toReadBinaryHandle",
           "package": "uni-util",
@@ -809,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "toReadBinaryHandle",
           "normalized": "Handle-\u003eReadBinary IO",
@@ -824,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "toWriteBinaryHandle",
           "package": "uni-util",
@@ -833,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "toWriteBinaryHandle",
           "normalized": "Handle-\u003eWriteBinary IO",
@@ -848,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeBin",
           "package": "uni-util",
@@ -857,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeBin",
           "package": "uni-util",
@@ -871,6 +943,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eBinArea\u003c/a\u003e\u003c/code\u003e as somewhere to put binary data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeBinaryBinArea",
           "package": "uni-util",
@@ -881,6 +954,7 @@
         "index": {
           "description": "BinArea as somewhere to put binary data",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeBinaryBinArea",
           "package": "uni-util",
@@ -895,6 +969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite one byte\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeByte",
           "package": "uni-util",
@@ -905,6 +980,7 @@
         "index": {
           "description": "write one byte",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeByte",
           "normalized": "Byte-\u003ea()",
@@ -921,6 +997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrite multiple bytes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeBytes",
           "package": "uni-util",
@@ -931,6 +1008,7 @@
         "index": {
           "description": "write multiple bytes",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeBytes",
           "normalized": "Bytes-\u003eInt-\u003ea()",
@@ -947,6 +1025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an (a) to memory.  The \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e is the length of the area.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeToBytes",
           "package": "uni-util",
@@ -957,6 +1036,7 @@
         "index": {
           "description": "Write an to memory The Int is the length of the area",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeToBytes",
           "normalized": "a-\u003eIO(Bytes,Int)",
@@ -973,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an (a) to memory.\nThe integer argument is an initial guess at the number of bytes\nthat will be needed.  This should be greater than 0.  If it is\ntoo small, there will be unnecessary reallocations; if too large,\ntoo much memory will be used. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Binary",
           "name": "writeToBytes0",
           "package": "uni-util",
@@ -983,6 +1064,7 @@
         "index": {
           "description": "Write an to memory The integer argument is an initial guess at the number of bytes that will be needed This should be greater than If it is too small there will be unnecessary reallocations if too large too much memory will be used",
           "hierarchy": "Util Binary",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Binary",
           "name": "writeToBytes0",
           "normalized": "Int-\u003ea-\u003eIO(Bytes,Int)",
@@ -999,6 +1081,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule which includes all the Binary stuff.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryAll",
           "name": "BinaryAll",
           "package": "uni-util",
@@ -1008,6 +1091,7 @@
         "index": {
           "description": "Module which includes all the Binary stuff",
           "hierarchy": "Util BinaryAll",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryAll",
           "name": "BinaryAll",
           "package": "uni-util",
@@ -1022,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains various extra Binary instances, for example ones\n which are particular GHC or uni-specific.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryExtras",
           "name": "BinaryExtras",
           "package": "uni-util",
@@ -1031,6 +1116,7 @@
         "index": {
           "description": "This module contains various extra Binary instances for example ones which are particular GHC or uni-specific",
           "hierarchy": "Util BinaryExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryExtras",
           "name": "BinaryExtras",
           "package": "uni-util",
@@ -1045,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead something, but throw an exception if there is an attempt to\n read too many characters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryExtras",
           "name": "hReadLtd",
           "package": "uni-util",
@@ -1054,6 +1141,7 @@
         "index": {
           "description": "Read something but throw an exception if there is an attempt to read too many characters",
           "hierarchy": "Util BinaryExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryExtras",
           "name": "hReadLtd",
           "normalized": "Int-\u003eHandle-\u003eIO(WithError a)",
@@ -1070,6 +1158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime this code was written.  We bung this definition in here\n because this module needs GHC-specific access to ClockTime anyway.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryExtras",
           "name": "initialClockTime",
           "package": "uni-util",
@@ -1080,6 +1169,7 @@
         "index": {
           "description": "Time this code was written We bung this definition in here because this module needs GHC-specific access to ClockTime anyway",
           "hierarchy": "Util BinaryExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryExtras",
           "name": "initialClockTime",
           "package": "uni-util",
@@ -1094,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances of the \u003ccode\u003e\u003ca\u003eHasBinary\u003c/a\u003e\u003c/code\u003e class.  This includes the\n standard types (except of course for things like function types and\n IO) plus a few others.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "BinaryInstances",
           "package": "uni-util",
@@ -1103,6 +1194,7 @@
         "index": {
           "description": "Instances of the HasBinary class This includes the standard types except of course for things like function types and IO plus few others",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "BinaryInstances",
           "package": "uni-util",
@@ -1117,6 +1209,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a rather inelegant way of encoding a type with up to\n 5 alternatives.  If 5 is too many, use () for the others, if too\n few use \u003ccode\u003e\u003ca\u003eHasWrapper\u003c/a\u003e\u003c/code\u003e.  In fact \u003ccode\u003e\u003ca\u003eHasWrapper\u003c/a\u003e\u003c/code\u003e is probably better\n anyway.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice5",
           "package": "uni-util",
@@ -1126,6 +1219,7 @@
         "index": {
           "description": "This is rather inelegant way of encoding type with up to alternatives If is too many use for the others if too few use HasWrapper In fact HasWrapper is probably better anyway",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice5",
           "package": "uni-util",
@@ -1140,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class allowing you to handle types with up to 256 alternatives.\n If this all seems to complicated, look at the source file and\n the example for the \"Tree\" data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "HasWrapper",
           "package": "uni-util",
@@ -1149,6 +1244,7 @@
         "index": {
           "description": "class allowing you to handle types with up to alternatives If this all seems to complicated look at the source file and the example for the Tree data type",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "HasWrapper",
           "package": "uni-util",
@@ -1163,6 +1259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype alias for things we want to encode or decode via their\n \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "ReadShow",
           "package": "uni-util",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "Newtype alias for things we want to encode or decode via their Read or Show String representation",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "ReadShow",
           "package": "uni-util",
@@ -1186,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eValue the \u003ccode\u003e\u003ca\u003eHasWrapper\u003c/a\u003e\u003c/code\u003e instance generates from \u003ccode\u003e\u003ca\u003eunWrap\u003c/a\u003e\u003c/code\u003e to\n indicate how we should write some value to binary.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "UnWrap",
           "package": "uni-util",
@@ -1195,6 +1294,7 @@
         "index": {
           "description": "Value the HasWrapper instance generates from unWrap to indicate how we should write some value to binary",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "UnWrap",
           "package": "uni-util",
@@ -1209,6 +1309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an \u003ccode\u003enewtype\u003c/code\u003e alias for integral types where the user promises\n that the value will be non-negative, and so saves us a bit.\n This is what we use for character data incidentally, so that\n ASCII characters with codes \u003c128 can be encoded (as themselves) in\n just one byte.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Unsigned",
           "package": "uni-util",
@@ -1218,6 +1319,7 @@
         "index": {
           "description": "This is an newtype alias for integral types where the user promises that the value will be non-negative and so saves us bit This is what we use for character data incidentally so that ASCII characters with codes can be encoded as themselves in just one byte",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Unsigned",
           "package": "uni-util",
@@ -1231,6 +1333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "ViaEnum",
           "package": "uni-util",
@@ -1239,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "ViaEnum",
           "package": "uni-util",
@@ -1253,6 +1357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNewtype alias you need to wrap around something which instances\n \u003ccode\u003e\u003ca\u003eHasWrapper\u003c/a\u003e\u003c/code\u003e to get an actual HasBinary instance.  You will then\n need something like this:\n\u003c/p\u003e\u003cpre\u003e instance Monad m =\u003e HasBinary a m where\n   writeBin = mapWrite Wrapped\n   readBin = mapRead wrapped\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Wrapped",
           "package": "uni-util",
@@ -1262,6 +1367,7 @@
         "index": {
           "description": "Newtype alias you need to wrap around something which instances HasWrapper to get an actual HasBinary instance You will then need something like this instance Monad HasBinary where writeBin mapWrite Wrapped readBin mapRead wrapped",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Wrapped",
           "package": "uni-util",
@@ -1275,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice1",
           "package": "uni-util",
@@ -1284,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice1",
           "package": "uni-util",
@@ -1297,6 +1405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice2",
           "package": "uni-util",
@@ -1306,6 +1415,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice2",
           "package": "uni-util",
@@ -1319,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice3",
           "package": "uni-util",
@@ -1328,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice3",
           "package": "uni-util",
@@ -1341,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice4",
           "package": "uni-util",
@@ -1350,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice4",
           "package": "uni-util",
@@ -1363,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Choice5",
           "package": "uni-util",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Choice5",
           "package": "uni-util",
@@ -1385,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "ReadShow",
           "package": "uni-util",
@@ -1394,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "ReadShow",
           "package": "uni-util",
@@ -1407,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "UnWrap",
           "package": "uni-util",
@@ -1416,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "UnWrap",
           "package": "uni-util",
@@ -1429,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Unsigned",
           "package": "uni-util",
@@ -1438,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Unsigned",
           "package": "uni-util",
@@ -1451,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "ViaEnum",
           "package": "uni-util",
@@ -1460,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "ViaEnum",
           "package": "uni-util",
@@ -1473,6 +1597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "Wrapped",
           "package": "uni-util",
@@ -1482,6 +1607,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "Wrapped",
           "package": "uni-util",
@@ -1495,6 +1621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "enum",
           "package": "uni-util",
@@ -1504,6 +1631,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "enum",
           "package": "uni-util",
@@ -1516,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "unWrap",
           "package": "uni-util",
@@ -1525,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "unWrap",
           "package": "uni-util",
@@ -1539,6 +1669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWrap\u003c/code\u003e value for constructor with no arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrap0",
           "package": "uni-util",
@@ -1549,6 +1680,7 @@
         "index": {
           "description": "Wrap value for constructor with no arguments",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrap0",
           "normalized": "Byte-\u003ea-\u003eWrap a b",
@@ -1564,6 +1696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWrap\u003c/code\u003e value for constructor with 1 argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrap1",
           "package": "uni-util",
@@ -1574,6 +1707,7 @@
         "index": {
           "description": "Wrap value for constructor with argument",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrap1",
           "normalized": "Byte-\u003e(a-\u003eb)-\u003eWrap b c",
@@ -1589,6 +1723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWrap\u003c/code\u003e value for constructor with 2 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrap2",
           "package": "uni-util",
@@ -1599,6 +1734,7 @@
         "index": {
           "description": "Wrap value for constructor with arguments",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrap2",
           "normalized": "Byte-\u003e(a-\u003ea-\u003eb)-\u003eWrap b c",
@@ -1614,6 +1750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWrap\u003c/code\u003e value for constructor with 3 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrap3",
           "package": "uni-util",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "Wrap value for constructor with arguments",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrap3",
           "normalized": "Byte-\u003e(a-\u003ea-\u003ea-\u003eb)-\u003eWrap b c",
@@ -1639,6 +1777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eWrap\u003c/code\u003e value for constructor with 4 arguments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrap4",
           "package": "uni-util",
@@ -1649,6 +1788,7 @@
         "index": {
           "description": "Wrap value for constructor with arguments",
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrap4",
           "normalized": "Byte-\u003e(a-\u003ea-\u003ea-\u003ea-\u003eb)-\u003eWrap b c",
@@ -1663,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wrapped",
           "package": "uni-util",
@@ -1672,6 +1813,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wrapped",
           "package": "uni-util",
@@ -1684,6 +1826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryInstances",
           "name": "wraps",
           "package": "uni-util",
@@ -1693,6 +1836,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryInstances",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryInstances",
           "name": "wraps",
           "package": "uni-util",
@@ -1706,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious functions for declaring new instances of Binary for types.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "BinaryUtils",
           "package": "uni-util",
@@ -1715,6 +1860,7 @@
         "index": {
           "description": "Various functions for declaring new instances of Binary for types",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "BinaryUtils",
           "package": "uni-util",
@@ -1729,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA monad which hides an additional value which the \u003ccode\u003e\u003ca\u003eHasBinary\u003c/a\u003e\u003c/code\u003e\n instances should be able to get at.  This is used, for example,\n by \u003ca\u003eCodedValue\u003c/a\u003e, to make the \u003ccode\u003eView\u003c/code\u003e available to instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "ArgMonad",
           "package": "uni-util",
@@ -1738,6 +1885,7 @@
         "index": {
           "description": "monad which hides an additional value which the HasBinary instances should be able to get at This is used for example by CodedValue to make the View available to instances",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "ArgMonad",
           "package": "uni-util",
@@ -1751,6 +1899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "WrapBinary",
           "package": "uni-util",
@@ -1759,6 +1908,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "WrapBinary",
           "package": "uni-util",
@@ -1773,6 +1923,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper for instances of Binary.  This can be written, but not\n read (since we wouldn't know what type to decode).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "WrappedBinary",
           "package": "uni-util",
@@ -1782,6 +1933,7 @@
         "index": {
           "description": "wrapper for instances of Binary This can be written but not read since we wouldn know what type to decode",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "WrappedBinary",
           "package": "uni-util",
@@ -1795,6 +1947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "WrapBinary",
           "package": "uni-util",
@@ -1804,6 +1957,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "WrapBinary",
           "package": "uni-util",
@@ -1817,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "WrappedBinary",
           "package": "uni-util",
@@ -1826,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "WrappedBinary",
           "package": "uni-util",
@@ -1840,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite a \u003ccode\u003e\u003ca\u003eWrappedBinary\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "hWriteWrappedBinary",
           "package": "uni-util",
@@ -1850,6 +2007,7 @@
         "index": {
           "description": "Write WrappedBinary",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "hWriteWrappedBinary",
           "normalized": "Handle-\u003eWrappedBinary-\u003eIO()",
@@ -1866,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a function which converts something we can already read from\n binary to (a), return a \u003ccode\u003e\u003ca\u003ereadBin\u003c/a\u003e\u003c/code\u003e function to be used in instances\n of \u003ccode\u003e\u003ca\u003eHasBinary\u003c/a\u003e\u003c/code\u003e (a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "mapRead",
           "package": "uni-util",
@@ -1876,6 +2035,7 @@
         "index": {
           "description": "Given function which converts something we can already read from binary to return readBin function to be used in instances of HasBinary",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "mapRead",
           "normalized": "(a-\u003eb)-\u003eReadBinary c-\u003ec b",
@@ -1892,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLIke \u003ccode\u003e\u003ca\u003emapRead\u003c/a\u003e\u003c/code\u003e, but the conversion function is also allowed to use\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "mapReadIO",
           "package": "uni-util",
@@ -1902,6 +2063,7 @@
         "index": {
           "description": "LIke mapRead but the conversion function is also allowed to use IO",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "mapReadIO",
           "normalized": "(a-\u003eIO b)-\u003eReadBinary c-\u003ec b",
@@ -1918,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a function which converts an (a) to something we can already\n convert to binary, return a \u003ccode\u003e\u003ca\u003ewriteBin\u003c/a\u003e\u003c/code\u003e function to be used in\n instances of \u003ccode\u003e\u003ca\u003eHasBinary\u003c/a\u003e\u003c/code\u003e (a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "mapWrite",
           "package": "uni-util",
@@ -1928,6 +2091,7 @@
         "index": {
           "description": "Given function which converts an to something we can already convert to binary return writeBin function to be used in instances of HasBinary",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "mapWrite",
           "normalized": "(a-\u003eb)-\u003eWriteBinary c-\u003ea-\u003ec()",
@@ -1944,6 +2108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emapWrite\u003c/a\u003e\u003c/code\u003e, but the conversion function is also allowed to use\n \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "mapWriteIO",
           "package": "uni-util",
@@ -1954,6 +2119,7 @@
         "index": {
           "description": "Like mapWrite but the conversion function is also allowed to use IO",
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "mapWriteIO",
           "normalized": "(a-\u003eIO b)-\u003eWriteBinary c-\u003ea-\u003ec()",
@@ -1969,6 +2135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "mkArgMonad",
           "package": "uni-util",
@@ -1978,6 +2145,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "mkArgMonad",
           "normalized": "(a-\u003eb c)-\u003eArgMonad a b c",
@@ -1993,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "readBinaryToArgMonad",
           "package": "uni-util",
@@ -2002,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "readBinaryToArgMonad",
           "normalized": "ReadBinary a-\u003eReadBinary(ArgMonad b a)",
@@ -2017,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "runArgMonad",
           "package": "uni-util",
@@ -2026,6 +2197,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "runArgMonad",
           "normalized": "a-\u003eArgMonad a b c-\u003eb c",
@@ -2041,6 +2213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "toArgMonad",
           "package": "uni-util",
@@ -2050,6 +2223,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "toArgMonad",
           "normalized": "a b-\u003eArgMonad c a b",
@@ -2065,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.BinaryUtils",
           "name": "writeBinaryToArgMonad",
           "package": "uni-util",
@@ -2074,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Util BinaryUtils",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.BinaryUtils",
           "name": "writeBinaryToArgMonad",
           "normalized": "WriteBinary a-\u003eWriteBinary(ArgMonad b a)",
@@ -2090,6 +2266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Broadcaster\u003cem\u003eSimpleBroadcaster is a variable Source\u003c/em\u003eSimpleSource paired\n with its update function\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "Broadcaster",
           "package": "uni-util",
@@ -2099,6 +2276,7 @@
         "index": {
           "description": "Broadcaster SimpleBroadcaster is variable Source SimpleSource paired with its update function",
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "Broadcaster",
           "package": "uni-util",
@@ -2112,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "Broadcaster",
           "package": "uni-util",
@@ -2120,6 +2299,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "Broadcaster",
           "package": "uni-util",
@@ -2133,6 +2313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "BroadcasterClass",
           "package": "uni-util",
@@ -2141,6 +2322,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "BroadcasterClass",
           "package": "uni-util",
@@ -2154,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "GeneralBroadcaster",
           "package": "uni-util",
@@ -2162,6 +2345,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "GeneralBroadcaster",
           "package": "uni-util",
@@ -2175,6 +2359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "SimpleBroadcaster",
           "package": "uni-util",
@@ -2183,6 +2368,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "SimpleBroadcaster",
           "package": "uni-util",
@@ -2196,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "applyGeneralUpdate",
           "package": "uni-util",
@@ -2205,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "applyGeneralUpdate",
           "normalized": "GeneralBroadcaster a b-\u003e(a-\u003e(a,[b],c))-\u003eIO c",
@@ -2220,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "applySimpleUpdate",
           "package": "uni-util",
@@ -2229,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "applySimpleUpdate",
           "normalized": "SimpleBroadcaster a-\u003e(a-\u003ea)-\u003eIO()",
@@ -2244,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "applySimpleUpdate'",
           "package": "uni-util",
@@ -2253,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "applySimpleUpdate'",
           "normalized": "SimpleBroadcaster a-\u003e(a-\u003e(a,b))-\u003eIO b",
@@ -2268,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "applyUpdate",
           "package": "uni-util",
@@ -2277,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "applyUpdate",
           "normalized": "Broadcaster a b-\u003e(a-\u003e(a,[b]))-\u003eIO()",
@@ -2292,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "broadcast",
           "package": "uni-util",
@@ -2301,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "broadcast",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -2316,6 +2512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a SimpleSource by another which mirrors it, but only copies\n from it once, hopefully saving CPU time.\n The IO action stops the mirroring.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "mirrorSimpleSource",
           "package": "uni-util",
@@ -2326,6 +2523,7 @@
         "index": {
           "description": "Replace SimpleSource by another which mirrors it but only copies from it once hopefully saving CPU time The IO action stops the mirroring",
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "mirrorSimpleSource",
           "normalized": "SimpleSource a-\u003eIO(SimpleSource a,IO())",
@@ -2342,6 +2540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a SimpleSource by another which mirrors it, but only copies\n from it once, hopefully saving CPU time.  In addition, block all\n update while the Delayer is delaying things.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "mirrorSimpleSourceWithDelayer",
           "package": "uni-util",
@@ -2352,6 +2551,7 @@
         "index": {
           "description": "Replace SimpleSource by another which mirrors it but only copies from it once hopefully saving CPU time In addition block all update while the Delayer is delaying things",
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "mirrorSimpleSourceWithDelayer",
           "normalized": "Delayer-\u003eSimpleSource a-\u003eIO(SimpleSource a,IO())",
@@ -2367,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "newBroadcaster",
           "package": "uni-util",
@@ -2376,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "newBroadcaster",
           "normalized": "a-\u003eIO(Broadcaster a b)",
@@ -2391,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "newGeneralBroadcaster",
           "package": "uni-util",
@@ -2400,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "newGeneralBroadcaster",
           "normalized": "a-\u003eIO(GeneralBroadcaster a b)",
@@ -2415,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "newSimpleBroadcaster",
           "package": "uni-util",
@@ -2424,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "newSimpleBroadcaster",
           "normalized": "a-\u003eIO(SimpleBroadcaster a)",
@@ -2440,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a SimpleSource by another which comes with a switch-off function,\n which temporarily blocks further updates.\n The action returned by the switch-off function switches the source back on\n again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Broadcaster",
           "name": "switchOffSimpleSource",
           "package": "uni-util",
@@ -2450,6 +2657,7 @@
         "index": {
           "description": "Replace SimpleSource by another which comes with switch-off function which temporarily blocks further updates The action returned by the switch-off function switches the source back on again",
           "hierarchy": "Util Broadcaster",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Broadcaster",
           "name": "switchOffSimpleSource",
           "normalized": "SimpleSource a-\u003eIO(SimpleSource a,IO(IO()))",
@@ -2466,6 +2674,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis defines primitive byte operations, to be used with binary conversion.\n For the present we use the FFI.  There are probably lots of better ways.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "Bytes",
           "package": "uni-util",
@@ -2475,6 +2684,7 @@
         "index": {
           "description": "This defines primitive byte operations to be used with binary conversion For the present we use the FFI There are probably lots of better ways",
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "Bytes",
           "package": "uni-util",
@@ -2488,6 +2698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "Byte",
           "package": "uni-util",
@@ -2496,6 +2707,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "Byte",
           "package": "uni-util",
@@ -2509,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "Bytes",
           "package": "uni-util",
@@ -2517,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "Bytes",
           "package": "uni-util",
@@ -2530,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "bytesAlloca",
           "package": "uni-util",
@@ -2539,6 +2754,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "bytesAlloca",
           "normalized": "Int-\u003e(Bytes-\u003eIO a)-\u003eIO a",
@@ -2554,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "bytesFree",
           "package": "uni-util",
@@ -2563,6 +2780,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "bytesFree",
           "normalized": "Bytes-\u003eIO()",
@@ -2578,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "bytesMalloc",
           "package": "uni-util",
@@ -2587,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "bytesMalloc",
           "normalized": "Int-\u003eIO Bytes",
@@ -2602,6 +2822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "bytesReAlloc",
           "package": "uni-util",
@@ -2611,6 +2832,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "bytesReAlloc",
           "normalized": "Bytes-\u003eInt-\u003eIO Bytes",
@@ -2626,6 +2848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "compareBytes",
           "package": "uni-util",
@@ -2635,6 +2858,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "compareBytes",
           "normalized": "Bytes-\u003eBytes-\u003eInt-\u003eIO Ordering",
@@ -2650,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "getByteFromBytes",
           "package": "uni-util",
@@ -2659,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "getByteFromBytes",
           "normalized": "Bytes-\u003eInt-\u003eIO Byte",
@@ -2674,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "hGetByte",
           "package": "uni-util",
@@ -2683,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "hGetByte",
           "normalized": "Handle-\u003eIO Byte",
@@ -2698,6 +2926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "hGetBytes",
           "package": "uni-util",
@@ -2707,6 +2936,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "hGetBytes",
           "normalized": "Handle-\u003eInt-\u003eIO Bytes",
@@ -2722,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "hPutByte",
           "package": "uni-util",
@@ -2731,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "hPutByte",
           "normalized": "Handle-\u003eByte-\u003eIO()",
@@ -2746,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "hPutBytes",
           "package": "uni-util",
@@ -2755,6 +2988,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "hPutBytes",
           "normalized": "Handle-\u003eBytes-\u003eInt-\u003eIO()",
@@ -2770,6 +3004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "mkBytes",
           "package": "uni-util",
@@ -2779,6 +3014,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "mkBytes",
           "normalized": "Ptr CChar-\u003eBytes",
@@ -2794,6 +3030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "putByteToBytes",
           "package": "uni-util",
@@ -2803,6 +3040,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "putByteToBytes",
           "normalized": "Byte-\u003eBytes-\u003eInt-\u003eIO()",
@@ -2818,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "putBytesToBytes",
           "package": "uni-util",
@@ -2827,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "putBytesToBytes",
           "normalized": "Bytes-\u003eInt-\u003eBytes-\u003eInt-\u003eInt-\u003eIO()",
@@ -2842,6 +3082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "unMkBytes",
           "package": "uni-util",
@@ -2851,6 +3092,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "unMkBytes",
           "normalized": "Bytes-\u003ePtr CChar",
@@ -2866,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Bytes",
           "name": "withBytesAsCChars",
           "package": "uni-util",
@@ -2875,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Util Bytes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Bytes",
           "name": "withBytesAsCChars",
           "normalized": "Bytes-\u003e(Ptr CChar-\u003eIO a)-\u003eIO a",
@@ -2891,6 +3135,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe Cache module allows us to cache results of expensive stateful\n computations in memory.\n Possible improvements -\n    (1) use hashing instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Cache",
           "name": "Cache",
           "package": "uni-util",
@@ -2900,6 +3145,7 @@
         "index": {
           "description": "The Cache module allows us to cache results of expensive stateful computations in memory Possible improvements use hashing instead",
           "hierarchy": "Util Cache",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Cache",
           "name": "Cache",
           "package": "uni-util",
@@ -2913,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Cache",
           "name": "Cache",
           "package": "uni-util",
@@ -2921,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "Util Cache",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Cache",
           "name": "Cache",
           "package": "uni-util",
@@ -2934,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Cache",
           "name": "getCached",
           "package": "uni-util",
@@ -2943,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Util Cache",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Cache",
           "name": "getCached",
           "normalized": "Cache a b-\u003ea-\u003eIO b",
@@ -2958,6 +3208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Cache",
           "name": "newCache",
           "package": "uni-util",
@@ -2967,6 +3218,7 @@
         },
         "index": {
           "hierarchy": "Util Cache",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Cache",
           "name": "newCache",
           "normalized": "(a-\u003eIO b)-\u003eIO(Cache a b)",
@@ -2983,6 +3235,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements displaying ClockTime as a String which does NOT\n depend on the time-zone.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ClockTimeToString",
           "name": "ClockTimeToString",
           "package": "uni-util",
@@ -2992,6 +3245,7 @@
         "index": {
           "description": "This module implements displaying ClockTime as String which does NOT depend on the time-zone",
           "hierarchy": "Util ClockTimeToString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ClockTimeToString",
           "name": "ClockTimeToString",
           "package": "uni-util",
@@ -3006,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a ClockTime to a String.\n This has the format\n    \u003coptional sign\u003e\u003cdigits\u003e+\u003cdigits\u003e\n where the digits encode two integers N1 and N2 (in order) representing\n the time elapsed since 00:00:00 UTC on 1 Jan 1970.  This will be\n N1 + (N2 / 10^12) seconds.  0\u003c=N2\u003c10^12.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ClockTimeToString",
           "name": "clockTimeToString",
           "package": "uni-util",
@@ -3016,6 +3271,7 @@
         "index": {
           "description": "Convert ClockTime to String This has the format optional sign digits digits where the digits encode two integers N1 and N2 in order representing the time elapsed since UTC on Jan This will be N1 N2 seconds N2",
           "hierarchy": "Util ClockTimeToString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ClockTimeToString",
           "name": "clockTimeToString",
           "normalized": "ClockTime-\u003eString",
@@ -3032,6 +3288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a validly formatted String to a ClockTime.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ClockTimeToString",
           "name": "stringToClockTime",
           "package": "uni-util",
@@ -3042,6 +3299,7 @@
         "index": {
           "description": "Convert validly formatted String to ClockTime",
           "hierarchy": "Util ClockTimeToString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ClockTimeToString",
           "name": "stringToClockTime",
           "normalized": "String-\u003eClockTime",
@@ -3058,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe provide a format-string-like way of describing how to call particular\n tools.  Thus the input is\n (1) a particular format string\n (2) a partial map from upper-case letters to strings; we call these strings\n     the _insert_ strings.\n We map the format string to an output string in which combinations\n of the form\n %[upper-case-letter]\n in the format string are replaced by the corresponding insert string; if no\n such string exists this is an error.\n\u003c/p\u003e\u003cp\u003eWe also provide a mechanism for \u003ca\u003eescaping\u003c/a\u003e the insert strings.\n Specifically, there is a fixed partial map from lower-case letters to\n functions :: String -\u003e String; these functions we call the transformers.\n For a combination of the form\n %[lower-case-letter-1]...[lower-case-letter-n][upper-case-letter]\n we take the insert string corresponding to upper-case-letter, and then\n pass it through the transformers corresponding to lower-case-letter-n,\n and so on down to the transformer corresponding to lower-case-letter-1.\n\u003c/p\u003e\u003cp\u003eInstead of [upper-case-letter] we may also write \u003ca\u003e%\u003c/a\u003e in which case the\n insert string is just \u003ca\u003e%\u003c/a\u003e; thus \u003ca\u003e%%\u003c/a\u003e transforms to \u003ca\u003e%\u003c/a\u003e.\n\u003c/p\u003e\u003cp\u003eSections of the input string not containing % are left untouched.\n\u003c/p\u003e\u003cp\u003eDefined transformers with their corresponding letters:\n    b  transformer suitable for escaping bash strings quoted with \u003ca\u003e.\n    e  transformer suitable for escaping emacs lisp strings quoted with \u003c/a\u003e.\n None of these transformers insert the closing or end quotes, allowing you\n to use them in the middle of strings.\n\u003c/p\u003e\u003cp\u003eOther transformers will be added as the need arises.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "CommandStringSub",
           "package": "uni-util",
@@ -3067,6 +3326,7 @@
         "index": {
           "description": "We provide format-string-like way of describing how to call particular tools Thus the input is particular format string partial map from upper-case letters to strings we call these strings the insert strings We map the format string to an output string in which combinations of the form upper-case-letter in the format string are replaced by the corresponding insert string if no such string exists this is an error We also provide mechanism for escaping the insert strings Specifically there is fixed partial map from lower-case letters to functions String String these functions we call the transformers For combination of the form lower-case-letter-1 lower-case-letter-n upper-case-letter we take the insert string corresponding to upper-case-letter and then pass it through the transformers corresponding to lower-case-letter-n and so on down to the transformer corresponding to lower-case-letter-1 Instead of upper-case-letter we may also write in which case the insert string is just thus transforms to Sections of the input string not containing are left untouched Defined transformers with their corresponding letters transformer suitable for escaping bash strings quoted with transformer suitable for escaping emacs lisp strings quoted with None of these transformers insert the closing or end quotes allowing you to use them in the middle of strings Other transformers will be added as the need arises",
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "CommandStringSub",
           "package": "uni-util",
@@ -3080,6 +3340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "CompiledFormatString",
           "package": "uni-util",
@@ -3088,6 +3349,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "CompiledFormatString",
           "package": "uni-util",
@@ -3101,6 +3363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "bashEscape",
           "package": "uni-util",
@@ -3110,6 +3373,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "bashEscape",
           "normalized": "String-\u003eString",
@@ -3125,6 +3389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "compileFormatString",
           "package": "uni-util",
@@ -3134,6 +3399,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "compileFormatString",
           "normalized": "String-\u003eWithError CompiledFormatString",
@@ -3149,6 +3415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "doFormatString",
           "package": "uni-util",
@@ -3158,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "doFormatString",
           "normalized": "String-\u003e(Char-\u003eMaybe String)-\u003eString",
@@ -3173,6 +3441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "emacsEscape",
           "package": "uni-util",
@@ -3182,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "emacsEscape",
           "normalized": "String-\u003eString",
@@ -3197,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CommandStringSub",
           "name": "runFormatString",
           "package": "uni-util",
@@ -3206,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Util CommandStringSub",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CommandStringSub",
           "name": "runFormatString",
           "normalized": "CompiledFormatString-\u003e(Char-\u003eMaybe String)-\u003eWithError String",
@@ -3222,6 +3494,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains flags which control compilation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CompileFlags",
           "name": "CompileFlags",
           "package": "uni-util",
@@ -3231,6 +3504,7 @@
         "index": {
           "description": "This module contains flags which control compilation",
           "hierarchy": "Util CompileFlags",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CompileFlags",
           "name": "CompileFlags",
           "package": "uni-util",
@@ -3244,6 +3518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CompileFlags",
           "name": "isDebug",
           "package": "uni-util",
@@ -3253,6 +3528,7 @@
         },
         "index": {
           "hierarchy": "Util CompileFlags",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CompileFlags",
           "name": "isDebug",
           "package": "uni-util",
@@ -3266,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.CompileFlags",
           "name": "uniVersion",
           "package": "uni-util",
@@ -3275,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Util CompileFlags",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.CompileFlags",
           "name": "uniVersion",
           "package": "uni-util",
@@ -3288,6 +3566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "Computation",
           "package": "uni-util",
@@ -3296,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "Computation",
           "package": "uni-util",
@@ -3309,6 +3589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "Answer",
           "package": "uni-util",
@@ -3317,6 +3598,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "Answer",
           "package": "uni-util",
@@ -3330,6 +3612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "Config",
           "package": "uni-util",
@@ -3338,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "Config",
           "package": "uni-util",
@@ -3351,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "HasConfig",
           "package": "uni-util",
@@ -3359,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "HasConfig",
           "package": "uni-util",
@@ -3372,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "MonadWithError",
           "package": "uni-util",
@@ -3380,6 +3667,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "MonadWithError",
           "package": "uni-util",
@@ -3393,6 +3681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "WithError",
           "package": "uni-util",
@@ -3401,6 +3690,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "WithError",
           "package": "uni-util",
@@ -3414,6 +3704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "(#)",
           "package": "uni-util",
@@ -3423,6 +3714,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "(#) #",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -3437,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "($$)",
           "package": "uni-util",
@@ -3446,6 +3739,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "($$) $$",
           "normalized": "a-\u003eb-\u003eb",
@@ -3460,6 +3754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "MonadWithError",
           "package": "uni-util",
@@ -3469,6 +3764,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "MonadWithError",
           "package": "uni-util",
@@ -3482,6 +3778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithError",
           "package": "uni-util",
@@ -3491,6 +3788,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithError",
           "normalized": "WithError a-\u003ea",
@@ -3506,6 +3804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorIO",
           "package": "uni-util",
@@ -3515,6 +3814,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorIO",
           "normalized": "WithError a-\u003eIO a",
@@ -3531,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoerce or use the supplied break function (to be used with\n \u003ccode\u003e\u003ca\u003eaddFallOut\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreak",
           "package": "uni-util",
@@ -3541,6 +3842,7 @@
         "index": {
           "description": "coerce or use the supplied break function to be used with addFallOut",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreak",
           "normalized": "(String-\u003ea)-\u003eWithError a-\u003ea",
@@ -3557,6 +3859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoerce or use the supplied break function (to be used with\n \u003ccode\u003e\u003ca\u003eaddFallOut\u003c/a\u003e\u003c/code\u003e)\n The value is evaluated immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakIO",
           "package": "uni-util",
@@ -3567,6 +3870,7 @@
         "index": {
           "description": "coerce or use the supplied break function to be used with addFallOut The value is evaluated immediately",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakIO",
           "normalized": "(String-\u003ea)-\u003eWithError a-\u003eIO a",
@@ -3583,6 +3887,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoerce or use the supplied break function (to be used with\n \u003ccode\u003e\u003ca\u003eaddFallOut\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eThe first argument is prepended to any error message.\n The value is evaluated immediately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakIOPrefix",
           "package": "uni-util",
@@ -3593,6 +3898,7 @@
         "index": {
           "description": "coerce or use the supplied break function to be used with addFallOut The first argument is prepended to any error message The value is evaluated immediately",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakIOPrefix",
           "normalized": "String-\u003e(String-\u003ea)-\u003eWithError a-\u003eIO a",
@@ -3609,6 +3915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecoerce or use the supplied break function (to be used with\n \u003ccode\u003e\u003ca\u003eaddFallOut\u003c/a\u003e\u003c/code\u003e)\n\u003c/p\u003e\u003cp\u003eThe first argument is prepended to any error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakPrefix",
           "package": "uni-util",
@@ -3619,6 +3926,7 @@
         "index": {
           "description": "coerce or use the supplied break function to be used with addFallOut The first argument is prepended to any error message",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorOrBreakPrefix",
           "normalized": "String-\u003e(String-\u003ea)-\u003eWithError a-\u003ea",
@@ -3634,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "coerceWithErrorStringIO",
           "package": "uni-util",
@@ -3643,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "coerceWithErrorStringIO",
           "normalized": "String-\u003eWithError a-\u003eIO a",
@@ -3658,6 +3968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "concatWithError",
           "package": "uni-util",
@@ -3667,6 +3978,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "concatWithError",
           "normalized": "[WithError a]-\u003eWithError[a]",
@@ -3682,6 +3994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "config",
           "package": "uni-util",
@@ -3691,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "config",
           "normalized": "IO()-\u003eConfig a",
@@ -3705,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "configUsed",
           "package": "uni-util",
@@ -3714,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "configUsed",
           "normalized": "a-\u003eb-\u003eBool",
@@ -3729,6 +4045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "configure",
           "package": "uni-util",
@@ -3738,6 +4055,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "configure",
           "normalized": "a-\u003e[Config a]-\u003eIO a",
@@ -3752,6 +4070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "done",
           "package": "uni-util",
@@ -3761,6 +4080,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "done",
           "normalized": "a()",
@@ -3775,6 +4095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "exceptionToError",
           "package": "uni-util",
@@ -3784,6 +4105,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "exceptionToError",
           "normalized": "(a-\u003eMaybe String)-\u003eIO b-\u003eIO(WithError b)",
@@ -3799,6 +4121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "foreach",
           "package": "uni-util",
@@ -3808,6 +4131,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "foreach",
           "normalized": "[a]-\u003e(a-\u003eb c)-\u003eb()",
@@ -3823,6 +4147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eforever\u003c/a\u003e\u003c/code\u003e act\u003c/code\u003e repeats the action infinitely.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "forever",
           "package": "uni-util",
@@ -3832,6 +4157,7 @@
         "index": {
           "description": "forever act repeats the action infinitely",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "forever",
           "normalized": "a b-\u003ea c",
@@ -3846,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "foreverUntil",
           "package": "uni-util",
@@ -3855,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "foreverUntil",
           "normalized": "a Bool-\u003ea()",
@@ -3870,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "fromWithError",
           "package": "uni-util",
@@ -3879,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "fromWithError",
           "normalized": "WithError a-\u003eEither String a",
@@ -3894,6 +4224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "fromWithError1",
           "package": "uni-util",
@@ -3903,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "fromWithError1",
           "normalized": "a-\u003eWithError a-\u003ea",
@@ -3918,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "hasError",
           "package": "uni-util",
@@ -3927,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "hasError",
           "normalized": "String-\u003eWithError a",
@@ -3942,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "hasValue",
           "package": "uni-util",
@@ -3951,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "hasValue",
           "normalized": "a-\u003eWithError a",
@@ -3966,6 +4302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "incase",
           "package": "uni-util",
@@ -3975,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "incase",
           "normalized": "Maybe a-\u003e(a-\u003eIO b)-\u003eIO()",
@@ -3989,6 +4327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "isError",
           "package": "uni-util",
@@ -3998,6 +4337,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "isError",
           "normalized": "WithError a-\u003eBool",
@@ -4013,6 +4353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "listWithError",
           "package": "uni-util",
@@ -4022,6 +4363,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "listWithError",
           "normalized": "[WithError a]-\u003eWithError[a]",
@@ -4037,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "mapWithError",
           "package": "uni-util",
@@ -4046,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "mapWithError",
           "normalized": "(a-\u003eb)-\u003eWithError a-\u003eWithError b",
@@ -4061,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "mapWithError'",
           "package": "uni-util",
@@ -4070,6 +4415,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "mapWithError'",
           "normalized": "(a-\u003eWithError b)-\u003eWithError a-\u003eWithError b",
@@ -4085,6 +4431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "mapWithErrorIO",
           "package": "uni-util",
@@ -4094,6 +4441,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "mapWithErrorIO",
           "normalized": "(a-\u003eIO b)-\u003eWithError a-\u003eIO(WithError b)",
@@ -4109,6 +4457,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "mapWithErrorIO'",
           "package": "uni-util",
@@ -4118,6 +4467,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "mapWithErrorIO'",
           "normalized": "(a-\u003eIO(WithError b))-\u003eWithError a-\u003eIO(WithError b)",
@@ -4133,6 +4483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "monadifyWithError",
           "package": "uni-util",
@@ -4142,6 +4493,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "monadifyWithError",
           "normalized": "WithError a-\u003eMonadWithError b a",
@@ -4157,6 +4509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "pairWithError",
           "package": "uni-util",
@@ -4166,6 +4519,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "pairWithError",
           "normalized": "WithError a-\u003eWithError b-\u003eWithError(a,b)",
@@ -4181,6 +4535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "propagate",
           "package": "uni-util",
@@ -4190,6 +4545,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "propagate",
           "normalized": "Answer a-\u003eIO a",
@@ -4204,6 +4560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "raise",
           "package": "uni-util",
@@ -4213,6 +4570,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "raise",
           "normalized": "IOError-\u003eIO a",
@@ -4227,6 +4585,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "swapIOWithError",
           "package": "uni-util",
@@ -4236,6 +4595,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "swapIOWithError",
           "normalized": "WithError(IO a)-\u003eIO(WithError a)",
@@ -4251,6 +4611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "toMonadWithError",
           "package": "uni-util",
@@ -4260,6 +4621,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "toMonadWithError",
           "normalized": "a b-\u003eMonadWithError a b",
@@ -4275,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "toWithError",
           "package": "uni-util",
@@ -4284,6 +4647,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "toWithError",
           "normalized": "Either String a-\u003eWithError a",
@@ -4300,6 +4664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ecatch\u003c/a\u003e\u003c/code\u003e, but returns an \u003ccode\u003e\u003ca\u003eEither\u003c/a\u003e\u003c/code\u003e result which is\n \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e if no exception of type \u003ccode\u003ee\u003c/code\u003e was raised, or \u003ccode\u003e(\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e ex)\u003c/code\u003e\n if an exception of type \u003ccode\u003ee\u003c/code\u003e was raised and its value is \u003ccode\u003eex\u003c/code\u003e.\n If any other type of exception is raised than it will be propogated\n up to the next enclosing exception handler.\n\u003c/p\u003e\u003cpre\u003e  try a = catch (Right `liftM` a) (return . Left)\n\u003c/pre\u003e\u003cp\u003eNote that \u003ca\u003eSystem.IO.Error\u003c/a\u003e also exports a function called\n \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e with a similar type to \u003ccode\u003e\u003ca\u003etry\u003c/a\u003e\u003c/code\u003e,\n except that it catches only the IO and user families of exceptions\n (as required by the Haskell 98 \u003ccode\u003eIO\u003c/code\u003e module).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "try",
           "package": "uni-util",
@@ -4309,6 +4674,7 @@
         "index": {
           "description": "Similar to catch but returns an Either result which is Right if no exception of type was raised or Left ex if an exception of type was raised and its value is ex If any other type of exception is raised than it will be propogated up to the next enclosing exception handler try catch Right liftM return Left Note that System.IO.Error also exports function called try with similar type to try except that it catches only the IO and user families of exceptions as required by the Haskell IO module",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "try",
           "normalized": "IO a-\u003eIO(Either b a)",
@@ -4323,6 +4689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "tryUntilOK",
           "package": "uni-util",
@@ -4332,6 +4699,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "tryUntilOK",
           "normalized": "IO a-\u003eIO a",
@@ -4348,6 +4716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe reverse of \u003ccode\u003e\u003ca\u003ewhen\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "unless",
           "package": "uni-util",
@@ -4357,6 +4726,7 @@
         "index": {
           "description": "The reverse of when",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "unless",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -4372,6 +4742,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConditional execution of monadic expressions. For example, \n\u003c/p\u003e\u003cpre\u003e       when debug (putStr \"Debugging\\n\")\n\u003c/pre\u003e\u003cp\u003ewill output the string \u003ccode\u003eDebugging\\n\u003c/code\u003e if the Boolean value \u003ccode\u003edebug\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\nand otherwise do nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "when",
           "package": "uni-util",
@@ -4381,6 +4752,7 @@
         "index": {
           "description": "Conditional execution of monadic expressions For example when debug putStr Debugging will output the string Debugging if the Boolean value debug is True and otherwise do nothing",
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "when",
           "normalized": "Bool-\u003ea()-\u003ea()",
@@ -4395,6 +4767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Computation",
           "name": "while",
           "package": "uni-util",
@@ -4404,6 +4777,7 @@
         },
         "index": {
           "hierarchy": "Util Computation",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Computation",
           "name": "while",
           "normalized": "a b-\u003e(b-\u003eBool)-\u003ea b",
@@ -4419,6 +4793,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAUTHOR        : George Russell\n University of Bremen\n DATE          : 2000\n DESCRIPTION   : This module provides a uniform interface for debugging\n              purposes.  In final versions of this module it would\n              be best to make the debug function do nothing and\n              force it to be inlined.\n\u003c/p\u003e\u003cp\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e\u003ca name=\"\"/\u003e#\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "Debug",
           "package": "uni-util",
@@ -4428,6 +4803,7 @@
         "index": {
           "description": "AUTHOR George Russell University of Bremen DATE DESCRIPTION This module provides uniform interface for debugging purposes In final versions of this module it would be best to make the debug function do nothing and force it to be inlined",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "Debug",
           "package": "uni-util",
@@ -4441,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "(@@:)",
           "package": "uni-util",
@@ -4450,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "(@@:) @@:",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -4464,6 +4842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "(@:)",
           "package": "uni-util",
@@ -4473,6 +4852,7 @@
         },
         "index": {
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "(@:) @:",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -4488,6 +4868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealways show something to the log file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "alwaysDebug",
           "package": "uni-util",
@@ -4498,6 +4879,7 @@
         "index": {
           "description": "always show something to the log file",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "alwaysDebug",
           "normalized": "a-\u003eIO()",
@@ -4514,6 +4896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ealways print out a message if action fails.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "alwaysDebugAct",
           "package": "uni-util",
@@ -4524,6 +4907,7 @@
         "index": {
           "description": "always print out message if action fails",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "alwaysDebugAct",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -4540,6 +4924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow something to log file if debugging is turned on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "debug",
           "package": "uni-util",
@@ -4550,6 +4935,7 @@
         "index": {
           "description": "show something to log file if debugging is turned on",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "debug",
           "normalized": "a-\u003eIO()",
@@ -4565,6 +4951,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf an action fails print out a message before\n propagating message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "debugAct",
           "package": "uni-util",
@@ -4575,6 +4962,7 @@
         "index": {
           "description": "If an action fails print out message before propagating message",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "debugAct",
           "normalized": "String-\u003eIO a-\u003eIO a",
@@ -4591,6 +4979,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a string to the debug file.  This differs from\n debug, in that debug will Haskell-escape the string and add\n a newline, while just writes to the file with no interpretation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "debugString",
           "package": "uni-util",
@@ -4601,6 +4990,7 @@
         "index": {
           "description": "Send string to the debug file This differs from debug in that debug will Haskell-escape the string and add newline while just writes to the file with no interpretation",
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "debugString",
           "normalized": "String-\u003eIO()",
@@ -4616,6 +5006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Debug",
           "name": "wrapError",
           "package": "uni-util",
@@ -4625,6 +5016,7 @@
         },
         "index": {
           "hierarchy": "Util Debug",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Debug",
           "name": "wrapError",
           "normalized": "String-\u003ea-\u003ea",
@@ -4641,6 +5033,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule taken from Dean Harington's post to the Haskell mailing list\n on Fri, 17 Aug 2001.\n\u003c/p\u003e\u003cp\u003eURL is currently\n \u003ca\u003ehttp://www.haskell.org/pipermail/haskell/2001-August/007712.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThis module provides \u003ccode\u003e\u003ca\u003edeepSeq\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$!!\u003c/a\u003e\u003c/code\u003e which correspond to \u003ccode\u003e\u003ca\u003eseq\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e$!\u003c/a\u003e\u003c/code\u003e\n except that they try to evaluate everything in the argument.  For example,\n if a list is provided, the whole list must be evaluated.\n\u003c/p\u003e\u003cp\u003eFor purposes of Haddock, empty instance declarations with \u003ccode\u003ewhere\u003c/code\u003e\n have had the \u003ccode\u003ewhere\u003c/code\u003e deleted.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.DeepSeq",
           "name": "DeepSeq",
           "package": "uni-util",
@@ -4650,6 +5043,7 @@
         "index": {
           "description": "Module taken from Dean Harington post to the Haskell mailing list on Fri Aug URL is currently http www.haskell.org pipermail haskell August html This module provides deepSeq and which correspond to seq and except that they try to evaluate everything in the argument For example if list is provided the whole list must be evaluated For purposes of Haddock empty instance declarations with where have had the where deleted",
           "hierarchy": "Util DeepSeq",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.DeepSeq",
           "name": "DeepSeq",
           "package": "uni-util",
@@ -4663,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.DeepSeq",
           "name": "DeepSeq",
           "package": "uni-util",
@@ -4671,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "Util DeepSeq",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.DeepSeq",
           "name": "DeepSeq",
           "package": "uni-util",
@@ -4684,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.DeepSeq",
           "name": "($!!)",
           "package": "uni-util",
@@ -4693,6 +5090,7 @@
         },
         "index": {
           "hierarchy": "Util DeepSeq",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.DeepSeq",
           "name": "($!!) $!!",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -4707,6 +5105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.DeepSeq",
           "name": "deepSeq",
           "package": "uni-util",
@@ -4716,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Util DeepSeq",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.DeepSeq",
           "name": "deepSeq",
           "normalized": "a-\u003eb-\u003eb",
@@ -4732,6 +5132,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDelayers handle delaying of actions; the main purpose is to delay\n graph redrawing actions during complex updates.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "Delayer",
           "package": "uni-util",
@@ -4741,6 +5142,7 @@
         "index": {
           "description": "Delayers handle delaying of actions the main purpose is to delay graph redrawing actions during complex updates",
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "Delayer",
           "package": "uni-util",
@@ -4754,6 +5156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "DelayedAction",
           "package": "uni-util",
@@ -4762,6 +5165,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "DelayedAction",
           "package": "uni-util",
@@ -4775,6 +5179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "Delayer",
           "package": "uni-util",
@@ -4783,6 +5188,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "Delayer",
           "package": "uni-util",
@@ -4797,6 +5203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of HasAddDelayer are event sources to which you can attach\n   a delayer, to indicate you are currently not interested in events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "HasAddDelayer",
           "package": "uni-util",
@@ -4806,6 +5213,7 @@
         "index": {
           "description": "Instances of HasAddDelayer are event sources to which you can attach delayer to indicate you are currently not interested in events",
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "HasAddDelayer",
           "package": "uni-util",
@@ -4820,6 +5228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike HasAddDelayer, but allows an IO action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "HasAddDelayerIO",
           "package": "uni-util",
@@ -4829,6 +5238,7 @@
         "index": {
           "description": "Like HasAddDelayer but allows an IO action",
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "HasAddDelayerIO",
           "package": "uni-util",
@@ -4842,6 +5252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "HasDelayer",
           "package": "uni-util",
@@ -4850,6 +5261,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "HasDelayer",
           "package": "uni-util",
@@ -4863,6 +5275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "addDelayer",
           "package": "uni-util",
@@ -4872,6 +5285,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "addDelayer",
           "normalized": "Delayer-\u003ea-\u003ea",
@@ -4887,6 +5301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "addDelayerIO",
           "package": "uni-util",
@@ -4896,6 +5311,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "addDelayerIO",
           "normalized": "Delayer-\u003ea-\u003eIO a",
@@ -4912,6 +5328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf this DelayedAction is queued, remove it from the queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "cancelDelayedAct",
           "package": "uni-util",
@@ -4922,6 +5339,7 @@
         "index": {
           "description": "If this DelayedAction is queued remove it from the queue",
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "cancelDelayedAct",
           "normalized": "Delayer-\u003eDelayedAction-\u003eIO()",
@@ -4938,6 +5356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecarry out the given action preventing the Delayer from doing anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "delay",
           "package": "uni-util",
@@ -4948,6 +5367,7 @@
         "index": {
           "description": "carry out the given action preventing the Delayer from doing anything",
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "delay",
           "normalized": "a-\u003eIO b-\u003eIO b",
@@ -4962,6 +5382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "delayedAct",
           "package": "uni-util",
@@ -4971,6 +5392,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "delayedAct",
           "normalized": "Delayer-\u003eDelayedAction-\u003eIO()",
@@ -4986,6 +5408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "newDelayedAction",
           "package": "uni-util",
@@ -4995,6 +5418,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "newDelayedAction",
           "normalized": "IO()-\u003eIO DelayedAction",
@@ -5010,6 +5434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "newDelayer",
           "package": "uni-util",
@@ -5019,6 +5444,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "newDelayer",
           "package": "uni-util",
@@ -5032,6 +5458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Delayer",
           "name": "toDelayer",
           "package": "uni-util",
@@ -5041,6 +5468,7 @@
         },
         "index": {
           "hierarchy": "Util Delayer",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Delayer",
           "name": "toDelayer",
           "normalized": "a-\u003eDelayer",
@@ -5057,6 +5485,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA wrapper for the new GHC (and Hugs) Dynamic module.\n The main improvement over the original Dynamic module is\n that we provide flavours of TypeableXXXX for kinds with\n arguments other than *, a feature used by \u003ca\u003eDisplayView\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "Dynamics",
           "package": "uni-util",
@@ -5066,6 +5495,7 @@
         "index": {
           "description": "wrapper for the new GHC and Hugs Dynamic module The main improvement over the original Dynamic module is that we provide flavours of TypeableXXXX for kinds with arguments other than feature used by DisplayView",
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "Dynamics",
           "package": "uni-util",
@@ -5079,6 +5509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "Dyn",
           "package": "uni-util",
@@ -5087,6 +5518,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "Dyn",
           "package": "uni-util",
@@ -5101,6 +5533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA concrete representation of a (monomorphic) type.  \u003ccode\u003e\u003ca\u003eTypeRep\u003c/a\u003e\u003c/code\u003e\n supports reasonably efficient equality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "TypeRep",
           "package": "uni-util",
@@ -5109,6 +5542,7 @@
         "index": {
           "description": "concrete representation of monomorphic type TypeRep supports reasonably efficient equality",
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "TypeRep",
           "package": "uni-util",
@@ -5123,6 +5557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e allows a concrete representation of a type to\n be calculated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "Typeable",
           "package": "uni-util",
@@ -5131,6 +5566,7 @@
         "index": {
           "description": "The class Typeable allows concrete representation of type to be calculated",
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "Typeable",
           "package": "uni-util",
@@ -5144,6 +5580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "coerce",
           "package": "uni-util",
@@ -5153,6 +5590,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "coerce",
           "normalized": "Dyn-\u003ea",
@@ -5167,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "coerceIO",
           "package": "uni-util",
@@ -5176,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "coerceIO",
           "normalized": "Dyn-\u003eIO a",
@@ -5191,6 +5631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "dynCast",
           "package": "uni-util",
@@ -5200,6 +5641,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "dynCast",
           "normalized": "String-\u003ea-\u003eb",
@@ -5215,6 +5657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "dynCastOpt",
           "package": "uni-util",
@@ -5224,6 +5667,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "dynCastOpt",
           "normalized": "a-\u003eMaybe b",
@@ -5239,6 +5683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "fromDynamic",
           "package": "uni-util",
@@ -5248,6 +5693,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "fromDynamic",
           "normalized": "Dyn-\u003eMaybe a",
@@ -5264,6 +5710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003efromDynamic\u003c/a\u003e\u003c/code\u003e but provides an error message indicating what\n types are getting confused.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "fromDynamicWE",
           "package": "uni-util",
@@ -5274,6 +5721,7 @@
         "index": {
           "description": "Like fromDynamic but provides an error message indicating what types are getting confused",
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "fromDynamicWE",
           "normalized": "Dyn-\u003eWithError a",
@@ -5289,6 +5737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "toDyn",
           "package": "uni-util",
@@ -5298,6 +5747,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "toDyn",
           "normalized": "a-\u003eDyn",
@@ -5313,6 +5763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "typeMismatch",
           "package": "uni-util",
@@ -5322,6 +5773,7 @@
         },
         "index": {
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "typeMismatch",
           "package": "uni-util",
@@ -5336,6 +5788,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a value of type \u003ccode\u003ea\u003c/code\u003e and returns a concrete representation\n of that type.  The \u003cem\u003evalue\u003c/em\u003e of the argument should be ignored by\n any instance of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, so that it is safe to pass \u003ccode\u003e\u003ca\u003eundefined\u003c/a\u003e\u003c/code\u003e as\n the argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Dynamics",
           "name": "typeOf",
           "package": "uni-util",
@@ -5345,6 +5798,7 @@
         "index": {
           "description": "Takes value of type and returns concrete representation of that type The value of the argument should be ignored by any instance of Typeable so that it is safe to pass undefined as the argument",
           "hierarchy": "Util Dynamics",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Dynamics",
           "name": "typeOf",
           "normalized": "a-\u003eTypeRep",
@@ -5361,6 +5815,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic string-manipulation and other functions they forgot to put in\n the standard prelude.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "ExtendedPrelude",
           "package": "uni-util",
@@ -5370,6 +5825,7 @@
         "index": {
           "description": "Basic string-manipulation and other functions they forgot to put in the standard prelude",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "ExtendedPrelude",
           "package": "uni-util",
@@ -5384,6 +5840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function indicating we want to escape from the current computation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "BreakFn",
           "package": "uni-util",
@@ -5393,6 +5850,7 @@
         "index": {
           "description": "function indicating we want to escape from the current computation",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "BreakFn",
           "package": "uni-util",
@@ -5406,6 +5864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "EqIO",
           "package": "uni-util",
@@ -5414,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "EqIO",
           "package": "uni-util",
@@ -5428,6 +5888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindicates that an Ord or Eq instance really does need to\n take everything into account.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "Full",
           "package": "uni-util",
@@ -5437,6 +5898,7 @@
         "index": {
           "description": "indicates that an Ord or Eq instance really does need to take everything into account",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "Full",
           "package": "uni-util",
@@ -5450,6 +5912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralBreakFn",
           "package": "uni-util",
@@ -5458,6 +5921,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralBreakFn",
           "package": "uni-util",
@@ -5471,6 +5935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralCatchFn",
           "package": "uni-util",
@@ -5479,6 +5944,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralCatchFn",
           "package": "uni-util",
@@ -5492,6 +5958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "HasCoMapIO",
           "package": "uni-util",
@@ -5500,6 +5967,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "HasCoMapIO",
           "package": "uni-util",
@@ -5513,6 +5981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "HasMapIO",
           "package": "uni-util",
@@ -5521,6 +5990,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "HasMapIO",
           "package": "uni-util",
@@ -5534,6 +6004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "HasMapMonadic",
           "package": "uni-util",
@@ -5542,6 +6013,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "HasMapMonadic",
           "package": "uni-util",
@@ -5555,6 +6027,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "OrdIO",
           "package": "uni-util",
@@ -5563,6 +6036,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "OrdIO",
           "package": "uni-util",
@@ -5576,6 +6050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "Full",
           "package": "uni-util",
@@ -5585,6 +6060,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "Full",
           "package": "uni-util",
@@ -5598,6 +6074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralBreakFn",
           "package": "uni-util",
@@ -5607,6 +6084,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralBreakFn",
           "normalized": "GeneralBreakFn(a b c-\u003ed)",
@@ -5622,6 +6100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralCatchFn",
           "package": "uni-util",
@@ -5631,6 +6110,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "GeneralCatchFn",
           "normalized": "GeneralCatchFn(a b IO c-\u003eIO(Either d c))",
@@ -5647,6 +6127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIntended use, EG\n    addFallOut ( break -\u003e\n       do\n          -- blah blah (normal IO a stuff) --\n          when (break condition)\n             (break \u003ca\u003eYou can't do that there ere\u003c/a\u003e)\n          -- more blah blah, not executed if there's an break --\n          return (value of type a)\n       )\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "addFallOut",
           "package": "uni-util",
@@ -5657,6 +6138,7 @@
         "index": {
           "description": "Intended use EG addFallOut break do blah blah normal IO stuff when break condition break You can do that there ere more blah blah not executed if there an break return value of type",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "addFallOut",
           "normalized": "(BreakFn-\u003eIO a)-\u003eIO(Either String a)",
@@ -5673,6 +6155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike addFallOut, but returns a WithError object instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "addFallOutWE",
           "package": "uni-util",
@@ -5683,6 +6166,7 @@
         "index": {
           "description": "Like addFallOut but returns WithError object instead",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "addFallOutWE",
           "normalized": "(BreakFn-\u003eIO a)-\u003eIO(WithError a)",
@@ -5698,6 +6182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "addGeneralFallOut",
           "package": "uni-util",
@@ -5707,6 +6192,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "addGeneralFallOut",
           "normalized": "IO(GeneralBreakFn a,GeneralCatchFn a)",
@@ -5722,6 +6208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "addSimpleFallOut",
           "package": "uni-util",
@@ -5731,6 +6218,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "addSimpleFallOut",
           "normalized": "IO a-\u003eIO(Either String a)",
@@ -5747,6 +6235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf all the elements are equal, return True\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "allEq",
           "package": "uni-util",
@@ -5757,6 +6246,7 @@
         "index": {
           "description": "If all the elements are equal return True",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "allEq",
           "normalized": "[a]-\u003eBool",
@@ -5773,6 +6263,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn Just True if all the elements give True, Just False if all False,\n Nothing otherwise (or list is empty).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "allSame",
           "package": "uni-util",
@@ -5783,6 +6274,7 @@
         "index": {
           "description": "Return Just True if all the elements give True Just False if all False Nothing otherwise or list is empty",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "allSame",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe Bool",
@@ -5798,6 +6290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "bottom",
           "package": "uni-util",
@@ -5807,6 +6300,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "bottom",
           "package": "uni-util",
@@ -5819,6 +6313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "breakOtherExceps",
           "package": "uni-util",
@@ -5828,6 +6323,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "breakOtherExceps",
           "normalized": "BreakFn-\u003eIO a-\u003eIO a",
@@ -5843,6 +6339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "catchAllExceps",
           "package": "uni-util",
@@ -5852,6 +6349,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "catchAllExceps",
           "normalized": "IO a-\u003eIO(Either String a)",
@@ -5867,6 +6365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "catchOurExceps",
           "package": "uni-util",
@@ -5876,6 +6375,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "catchOurExceps",
           "normalized": "IO a-\u003eIO(Either String a)",
@@ -5891,6 +6391,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "chop",
           "package": "uni-util",
@@ -5900,6 +6401,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "chop",
           "normalized": "Int-\u003e[a]-\u003eMaybe[a]",
@@ -5914,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "coMapIO",
           "package": "uni-util",
@@ -5923,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "coMapIO",
           "normalized": "(a-\u003eIO b)-\u003ec b-\u003ec a",
@@ -5938,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "compareIO",
           "package": "uni-util",
@@ -5947,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "compareIO",
           "normalized": "a-\u003ea-\u003eIO Ordering",
@@ -5962,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "deleteAndFindFirst",
           "package": "uni-util",
@@ -5971,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "deleteAndFindFirst",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e(a,[a])",
@@ -5986,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "deleteAndFindFirstOpt",
           "package": "uni-util",
@@ -5995,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "deleteAndFindFirstOpt",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe(a,[a])",
@@ -6010,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "deleteFirst",
           "package": "uni-util",
@@ -6019,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "deleteFirst",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -6034,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "deleteFirstOpt",
           "package": "uni-util",
@@ -6043,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "deleteFirstOpt",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[a]",
@@ -6058,6 +6572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "divideList",
           "package": "uni-util",
@@ -6067,6 +6582,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "divideList",
           "normalized": "(a-\u003eEither b c)-\u003e[a]-\u003e([b],[c])",
@@ -6082,6 +6598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "eqIO",
           "package": "uni-util",
@@ -6091,6 +6608,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "eqIO",
           "normalized": "a-\u003ea-\u003eIO Bool",
@@ -6106,6 +6624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "errorOurExceps",
           "package": "uni-util",
@@ -6115,6 +6634,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "errorOurExceps",
           "normalized": "IO a-\u003eIO a",
@@ -6131,6 +6651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf there are two elements of the list with the same (a), return one,\n otherwise Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "findDuplicate",
           "package": "uni-util",
@@ -6141,6 +6662,7 @@
         "index": {
           "description": "If there are two elements of the list with the same return one otherwise Nothing",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "findDuplicate",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003eMaybe a",
@@ -6156,6 +6678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "findJust",
           "package": "uni-util",
@@ -6165,6 +6688,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "findJust",
           "normalized": "(a-\u003eMaybe b)-\u003e[a]-\u003eMaybe b",
@@ -6181,6 +6705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA merge function for combining an input list with some new data,\n where both are pre-sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "generalisedMerge",
           "package": "uni-util",
@@ -6190,6 +6715,7 @@
         "index": {
           "description": "merge function for combining an input list with some new data where both are pre-sorted",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "generalisedMerge",
           "normalized": "[a]-\u003e[b]-\u003e(a-\u003eb-\u003eOrdering)-\u003e(Maybe a-\u003eMaybe b-\u003ec(Maybe a,Maybe d))-\u003ec([a],[d])",
@@ -6205,6 +6731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrd",
           "package": "uni-util",
@@ -6214,6 +6741,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrd",
           "normalized": "(a-\u003ea-\u003eBool)-\u003ea-\u003e[a]-\u003e[a]",
@@ -6230,6 +6758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einsertOrdAlternate is similar to insertOrd except (1) it takes an Ordering\n argument; (2) if it finds an argument that matches, it applies the\n given function to generate a new element, rather than inserting another.\n The new generated element should be EQ to the old one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdAlternate",
           "package": "uni-util",
@@ -6240,6 +6769,7 @@
         "index": {
           "description": "insertOrdAlternate is similar to insertOrd except it takes an Ordering argument if it finds an argument that matches it applies the given function to generate new element rather than inserting another The new generated element should be EQ to the old one",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdAlternate",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003ea-\u003e(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -6255,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdGt",
           "package": "uni-util",
@@ -6264,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdGt",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -6279,6 +6811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdLt",
           "package": "uni-util",
@@ -6288,6 +6821,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "insertOrdLt",
           "normalized": "a-\u003e[a]-\u003e[a]",
@@ -6303,6 +6837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "isOurFallOut",
           "package": "uni-util",
@@ -6312,6 +6847,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "isOurFallOut",
           "normalized": "ObjectID-\u003eDyn-\u003eMaybe String",
@@ -6328,6 +6864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns remainder if the first list is a prefix of the second one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "isPrefix",
           "package": "uni-util",
@@ -6338,6 +6875,7 @@
         "index": {
           "description": "returns remainder if the first list is prefix of the second one",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "isPrefix",
           "normalized": "[a]-\u003e[a]-\u003eMaybe[a]",
@@ -6353,6 +6891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "lastOpt",
           "package": "uni-util",
@@ -6362,6 +6901,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "lastOpt",
           "normalized": "[a]-\u003eMaybe a",
@@ -6378,6 +6918,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce an equality function for b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mapEq",
           "package": "uni-util",
@@ -6388,6 +6929,7 @@
         "index": {
           "description": "Produce an equality function for",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mapEq",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eBool",
@@ -6403,6 +6945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mapIO",
           "package": "uni-util",
@@ -6412,6 +6955,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mapIO",
           "normalized": "(a-\u003eIO b)-\u003ec a-\u003ec b",
@@ -6427,6 +6971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mapMonadic",
           "package": "uni-util",
@@ -6436,6 +6981,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mapMonadic",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -6452,6 +6998,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a compare function for b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mapOrd",
           "package": "uni-util",
@@ -6462,6 +7009,7 @@
         "index": {
           "description": "Produce compare function for",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mapOrd",
           "normalized": "(a-\u003eb)-\u003ea-\u003ea-\u003eOrdering",
@@ -6477,6 +7025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mapPartialM",
           "package": "uni-util",
@@ -6486,6 +7035,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mapPartialM",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb[c]",
@@ -6501,6 +7051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "mkBreakFn",
           "package": "uni-util",
@@ -6510,6 +7061,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "mkBreakFn",
           "normalized": "ObjectID-\u003eBreakFn",
@@ -6526,6 +7078,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003e.\u003c/a\u003e operator lifted to monads.   So like ., the arguments\n are given in the reverse order to that in which they should\n be executed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "monadDot",
           "package": "uni-util",
@@ -6536,6 +7089,7 @@
         "index": {
           "description": "The operator lifted to monads So like the arguments are given in the reverse order to that in which they should be executed",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "monadDot",
           "normalized": "(a-\u003eb c)-\u003e(d-\u003eb a)-\u003ed-\u003eb c",
@@ -6551,6 +7105,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "newFallOut",
           "package": "uni-util",
@@ -6560,6 +7115,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "newFallOut",
           "normalized": "IO(ObjectID,IO a-\u003eIO(Either String a))",
@@ -6575,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "ourExcepToMess",
           "package": "uni-util",
@@ -6584,6 +7141,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "ourExcepToMess",
           "normalized": "Dyn-\u003eMaybe String",
@@ -6600,6 +7158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePad a string if necessary to the given length with leading spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "padToLength",
           "package": "uni-util",
@@ -6610,6 +7169,7 @@
         "index": {
           "description": "Pad string if necessary to the given length with leading spaces",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "padToLength",
           "normalized": "Int-\u003eString-\u003eString",
@@ -6625,6 +7185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "pairList",
           "package": "uni-util",
@@ -6634,6 +7195,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "pairList",
           "normalized": "a-\u003e[b]-\u003e[(a,b)]",
@@ -6650,6 +7212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturns Just a if we can read a, and the rest is just spaces.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "readCheck",
           "package": "uni-util",
@@ -6660,6 +7223,7 @@
         "index": {
           "description": "returns Just if we can read and the rest is just spaces",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "readCheck",
           "normalized": "String-\u003eMaybe a",
@@ -6675,6 +7239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "showException2",
           "package": "uni-util",
@@ -6684,6 +7249,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "showException2",
           "normalized": "Dyn-\u003eString",
@@ -6699,6 +7265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "simpleFallOut",
           "package": "uni-util",
@@ -6708,6 +7275,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "simpleFallOut",
           "package": "uni-util",
@@ -6721,6 +7289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "simpleSplit",
           "package": "uni-util",
@@ -6730,6 +7299,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "simpleSplit",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003e[[a]]",
@@ -6745,6 +7315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "splitByChar",
           "package": "uni-util",
@@ -6754,6 +7325,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "splitByChar",
           "normalized": "Char-\u003eString-\u003e[String]",
@@ -6770,6 +7342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe split at the first occurrence of the character, returning the\n string before and after.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "splitToChar",
           "package": "uni-util",
@@ -6780,6 +7353,7 @@
         "index": {
           "description": "We split at the first occurrence of the character returning the string before and after",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "splitToChar",
           "normalized": "Char-\u003eString-\u003eMaybe(String,String)",
@@ -6795,6 +7369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "splitToElem",
           "package": "uni-util",
@@ -6804,6 +7379,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "splitToElem",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe([a],[a])",
@@ -6819,6 +7395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "splitToElemGeneral",
           "package": "uni-util",
@@ -6828,6 +7405,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "splitToElemGeneral",
           "normalized": "(a-\u003eBool)-\u003e[a]-\u003eMaybe([a],a,[a])",
@@ -6844,6 +7422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enode is the tree's node type.\n state is folded through every node of the tree (and is the result).\n We search the tree in depth-first order, applying visitNode at each\n   node to update the state.\n The ancestorInfo information comes from the ancestors of the node.  EG\n if we are visiting node N1 which came from N2 the ancestorInfo given to\n visitNode for N1 will be that computed from visitNode for N2.\n For the root node, it will be initialAncestor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "treeFold",
           "package": "uni-util",
@@ -6854,6 +7433,7 @@
         "index": {
           "description": "node is the tree node type state is folded through every node of the tree and is the result We search the tree in depth-first order applying visitNode at each node to update the state The ancestorInfo information comes from the ancestors of the node EG if we are visiting node N1 which came from N2 the ancestorInfo given to visitNode for N1 will be that computed from visitNode for N2 For the root node it will be initialAncestor",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "treeFold",
           "normalized": "(a-\u003eb-\u003ec-\u003e(a,b,[c]))-\u003ea-\u003eb-\u003ec-\u003eb",
@@ -6870,6 +7450,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike treeFold, but using monads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "treeFoldM",
           "package": "uni-util",
@@ -6880,6 +7461,7 @@
         "index": {
           "description": "Like treeFold but using monads",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "treeFoldM",
           "normalized": "(a-\u003eb-\u003ec-\u003ed(a,b,[c]))-\u003ea-\u003eb-\u003ec-\u003ed b",
@@ -6896,6 +7478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove leading spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "trimLeading",
           "package": "uni-util",
@@ -6906,6 +7489,7 @@
         "index": {
           "description": "Remove leading spaces",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "trimLeading",
           "normalized": "String-\u003eString",
@@ -6922,6 +7506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove trailing and leading spaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "trimSpaces",
           "package": "uni-util",
@@ -6932,6 +7517,7 @@
         "index": {
           "description": "Remove trailing and leading spaces",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "trimSpaces",
           "normalized": "String-\u003eString",
@@ -6948,6 +7534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove trailing spaces (We try to avoid reconstructing the string,\n on the assumption that there aren't often spaces)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "trimTrailing",
           "package": "uni-util",
@@ -6958,6 +7545,7 @@
         "index": {
           "description": "Remove trailing spaces We try to avoid reconstructing the string on the assumption that there aren often spaces",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "trimTrailing",
           "normalized": "String-\u003eString",
@@ -6974,6 +7562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate elements from a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrd",
           "package": "uni-util",
@@ -6984,6 +7573,7 @@
         "index": {
           "description": "Remove duplicate elements from list",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrd",
           "normalized": "[a]-\u003e[a]",
@@ -7000,6 +7590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate elements from a list where the key function is supplied.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdByKey",
           "package": "uni-util",
@@ -7010,6 +7601,7 @@
         "index": {
           "description": "Remove duplicate elements from list where the key function is supplied",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdByKey",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -7026,6 +7618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove duplicate elements from a list where the key function is supplied.\n The list order is preserved and of the duplicates, it is the first in the\n list which is not deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdByKeyOrder",
           "package": "uni-util",
@@ -7036,6 +7629,7 @@
         "index": {
           "description": "Remove duplicate elements from list where the key function is supplied The list order is preserved and of the duplicates it is the first in the list which is not deleted",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdByKeyOrder",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[a]",
@@ -7052,6 +7646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike uniqOrd, except that we specify the output order of the list.\n The resulting list is that obtained by deleting all duplicate elements\n in the list, except the first, for example [1,2,3,2,1,4] will go to\n [1,2,3,4].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdOrder",
           "package": "uni-util",
@@ -7062,6 +7657,7 @@
         "index": {
           "description": "Like uniqOrd except that we specify the output order of the list The resulting list is that obtained by deleting all duplicate elements in the list except the first for example will go to",
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "uniqOrdOrder",
           "normalized": "[a]-\u003e[a]",
@@ -7077,6 +7673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "unsplitByChar",
           "package": "uni-util",
@@ -7086,6 +7683,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "unsplitByChar",
           "normalized": "Char-\u003e[String]-\u003eString",
@@ -7101,6 +7699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ExtendedPrelude",
           "name": "unsplitByChar0",
           "package": "uni-util",
@@ -7110,6 +7709,7 @@
         },
         "index": {
           "hierarchy": "Util ExtendedPrelude",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ExtendedPrelude",
           "name": "unsplitByChar0",
           "normalized": "Char-\u003e[String]-\u003eString",
@@ -7126,6 +7726,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFileNames contain facilities for manipulating filenames\n in a hopefully OS-independent manner.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "FileNames",
           "package": "uni-util",
@@ -7135,6 +7736,7 @@
         "index": {
           "description": "FileNames contain facilities for manipulating filenames in hopefully OS-independent manner",
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "FileNames",
           "package": "uni-util",
@@ -7148,6 +7750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "breakName",
           "package": "uni-util",
@@ -7157,6 +7760,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "breakName",
           "normalized": "String-\u003e[String]",
@@ -7172,6 +7776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "combineNames",
           "package": "uni-util",
@@ -7181,6 +7786,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "combineNames",
           "normalized": "String-\u003eString-\u003eString",
@@ -7196,6 +7802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "fileSep",
           "package": "uni-util",
@@ -7205,6 +7812,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "fileSep",
           "package": "uni-util",
@@ -7218,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "recordSep",
           "package": "uni-util",
@@ -7227,6 +7836,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "recordSep",
           "package": "uni-util",
@@ -7240,6 +7850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "splitExtension",
           "package": "uni-util",
@@ -7249,6 +7860,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "splitExtension",
           "normalized": "String-\u003eMaybe(String,String)",
@@ -7264,6 +7876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "splitName",
           "package": "uni-util",
@@ -7273,6 +7886,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "splitName",
           "normalized": "String-\u003e(String,String)",
@@ -7288,6 +7902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "thisDir",
           "package": "uni-util",
@@ -7297,6 +7912,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "thisDir",
           "package": "uni-util",
@@ -7310,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "topDir",
           "package": "uni-util",
@@ -7319,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "topDir",
           "package": "uni-util",
@@ -7332,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "trimDir",
           "package": "uni-util",
@@ -7341,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "trimDir",
           "normalized": "String-\u003eString",
@@ -7356,6 +7976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "unbreakName",
           "package": "uni-util",
@@ -7365,6 +7986,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "unbreakName",
           "normalized": "[String]-\u003eString",
@@ -7380,6 +8002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.FileNames",
           "name": "unsplitExtension",
           "package": "uni-util",
@@ -7389,6 +8012,7 @@
         },
         "index": {
           "hierarchy": "Util FileNames",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.FileNames",
           "name": "unsplitExtension",
           "normalized": "String-\u003eString-\u003eString",
@@ -7405,6 +8029,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains code which (supposedly) extracts the full qualified\n name of the machine on which it is running.  (At least it does on the\n Linux and Solaris implementations I tested.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.HostName",
           "name": "HostName",
           "package": "uni-util",
@@ -7414,6 +8039,7 @@
         "index": {
           "description": "This module contains code which supposedly extracts the full qualified name of the machine on which it is running At least it does on the Linux and Solaris implementations tested",
           "hierarchy": "Util HostName",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.HostName",
           "name": "HostName",
           "package": "uni-util",
@@ -7427,6 +8053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.HostName",
           "name": "getFullHostName",
           "package": "uni-util",
@@ -7436,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "Util HostName",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.HostName",
           "name": "getFullHostName",
           "package": "uni-util",
@@ -7450,6 +8078,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis code does \u003ca\u003eHuffman\u003c/a\u003e coding, using the queue implementation.  This\n can be used for constructing Huffman encodings, or for computing factorials\n efficiently.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Huffman",
           "name": "Huffman",
           "package": "uni-util",
@@ -7459,6 +8088,7 @@
         "index": {
           "description": "This code does Huffman coding using the queue implementation This can be used for constructing Huffman encodings or for computing factorials efficiently",
           "hierarchy": "Util Huffman",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Huffman",
           "name": "Huffman",
           "package": "uni-util",
@@ -7473,6 +8103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehuffmanFold op l\n where op is associative, l is a nonempty monotonically increasing list,\n and op has the property that (x1\u003e=x2,y1\u003e=y2) =\u003e (op x1 y1\u003e=op x2 y2)\n computes the fold of l with op, by repeatedly folding the smallest two\n elements of the list until only one remains.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Huffman",
           "name": "huffmanFold",
           "package": "uni-util",
@@ -7483,6 +8114,7 @@
         "index": {
           "description": "huffmanFold op where op is associative is nonempty monotonically increasing list and op has the property that x1 x2 y1 y2 op x1 y1 op x2 y2 computes the fold of with op by repeatedly folding the smallest two elements of the list until only one remains",
           "hierarchy": "Util Huffman",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Huffman",
           "name": "huffmanFold",
           "normalized": "(a-\u003ea-\u003ea)-\u003e[a]-\u003ea",
@@ -7499,6 +8131,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides immutable CStrings, which additionally have\n the property that they are automatically freed when the garbage-collector\n forgets about them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "ICStringLen",
           "package": "uni-util",
@@ -7508,6 +8141,7 @@
         "index": {
           "description": "This module provides immutable CStrings which additionally have the property that they are automatically freed when the garbage-collector forgets about them",
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "ICStringLen",
           "package": "uni-util",
@@ -7521,6 +8155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "ICStringLen",
           "package": "uni-util",
@@ -7529,6 +8164,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "ICStringLen",
           "package": "uni-util",
@@ -7542,6 +8178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "UTF8",
           "package": "uni-util",
@@ -7550,6 +8187,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "UTF8",
           "package": "uni-util",
@@ -7563,6 +8201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "UTF8",
           "package": "uni-util",
@@ -7572,6 +8211,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "UTF8",
           "package": "uni-util",
@@ -7585,6 +8225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "bytesFromICStringLen",
           "package": "uni-util",
@@ -7594,6 +8235,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "bytesFromICStringLen",
           "normalized": "ICStringLen-\u003e(Bytes,Int)",
@@ -7609,6 +8251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "bytesToICStringLen",
           "package": "uni-util",
@@ -7618,6 +8261,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "bytesToICStringLen",
           "normalized": "(Bytes,Int)-\u003eIO ICStringLen",
@@ -7660,6 +8304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "mkICStringLen",
           "package": "uni-util",
@@ -7669,6 +8314,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "mkICStringLen",
           "normalized": "Int-\u003e(CString-\u003eIO())-\u003eIO ICStringLen",
@@ -7684,6 +8330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "mkICStringLenExtra",
           "package": "uni-util",
@@ -7693,6 +8340,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "mkICStringLenExtra",
           "normalized": "Int-\u003e(CString-\u003eIO a)-\u003eIO(ICStringLen,a)",
@@ -7708,6 +8356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "readICStringLen",
           "package": "uni-util",
@@ -7717,6 +8366,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "readICStringLen",
           "normalized": "ICStringLen-\u003eIO a",
@@ -7759,6 +8409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "touchICStringLen",
           "package": "uni-util",
@@ -7768,6 +8419,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "touchICStringLen",
           "normalized": "ICStringLen-\u003eIO()",
@@ -7783,6 +8435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "withICStringLen",
           "package": "uni-util",
@@ -7792,6 +8445,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "withICStringLen",
           "normalized": "ICStringLen-\u003e(Int-\u003eCString-\u003eIO a)-\u003eIO a",
@@ -7807,6 +8461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ICStringLen",
           "name": "writeToICStringLen",
           "package": "uni-util",
@@ -7816,6 +8471,7 @@
         },
         "index": {
           "hierarchy": "Util ICStringLen",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ICStringLen",
           "name": "writeToICStringLen",
           "normalized": "a-\u003eIO ICStringLen",
@@ -7832,6 +8488,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLittle functions connected with IO\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "IOExtras",
           "package": "uni-util",
@@ -7841,6 +8498,7 @@
         "index": {
           "description": "Little functions connected with IO",
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "IOExtras",
           "package": "uni-util",
@@ -7854,6 +8512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "catchAlreadyExists",
           "package": "uni-util",
@@ -7863,6 +8522,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "catchAlreadyExists",
           "normalized": "IO a-\u003eIO(Maybe a)",
@@ -7878,6 +8538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "catchDoesNotExist",
           "package": "uni-util",
@@ -7887,6 +8548,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "catchDoesNotExist",
           "normalized": "IO a-\u003eIO(Maybe a)",
@@ -7902,6 +8564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "catchEOF",
           "package": "uni-util",
@@ -7911,6 +8574,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "catchEOF",
           "normalized": "IO a-\u003eIO(Maybe a)",
@@ -7926,6 +8590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "catchErrorCalls",
           "package": "uni-util",
@@ -7935,6 +8600,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "catchErrorCalls",
           "normalized": "IO a-\u003eIO(Either ErrorCall a)",
@@ -7950,6 +8616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "hGetLineR",
           "package": "uni-util",
@@ -7959,6 +8626,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "hGetLineR",
           "normalized": "Handle-\u003eIO a",
@@ -7974,6 +8642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IOExtras",
           "name": "simpleModifyIORef",
           "package": "uni-util",
@@ -7983,6 +8652,7 @@
         },
         "index": {
           "hierarchy": "Util IOExtras",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IOExtras",
           "name": "simpleModifyIORef",
           "normalized": "IORef a-\u003e(a-\u003e(a,b))-\u003eIO b",
@@ -7999,6 +8669,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIntegers augmented with Infinity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IntPlus",
           "name": "IntPlus",
           "package": "uni-util",
@@ -8008,6 +8679,7 @@
         "index": {
           "description": "Integers augmented with Infinity",
           "hierarchy": "Util IntPlus",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IntPlus",
           "name": "IntPlus",
           "package": "uni-util",
@@ -8022,6 +8694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Bool is a sign, with True meaning positive infinity.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IntPlus",
           "name": "IntPlus",
           "package": "uni-util",
@@ -8031,6 +8704,7 @@
         "index": {
           "description": "The Bool is sign with True meaning positive infinity",
           "hierarchy": "Util IntPlus",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IntPlus",
           "name": "IntPlus",
           "package": "uni-util",
@@ -8044,6 +8718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.IntPlus",
           "name": "infinity",
           "package": "uni-util",
@@ -8053,6 +8728,7 @@
         },
         "index": {
           "hierarchy": "Util IntPlus",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.IntPlus",
           "name": "infinity",
           "package": "uni-util",
@@ -8066,6 +8742,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis implements a SinkSource with keyed changes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.KeyedChanges",
           "name": "KeyedChanges",
           "package": "uni-util",
@@ -8075,6 +8752,7 @@
         "index": {
           "description": "This implements SinkSource with keyed changes",
           "hierarchy": "Util KeyedChanges",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.KeyedChanges",
           "name": "KeyedChanges",
           "package": "uni-util",
@@ -8088,6 +8766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.KeyedChanges",
           "name": "KeyedChanges",
           "package": "uni-util",
@@ -8096,6 +8775,7 @@
         },
         "index": {
           "hierarchy": "Util KeyedChanges",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.KeyedChanges",
           "name": "KeyedChanges",
           "package": "uni-util",
@@ -8109,6 +8789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.KeyedChanges",
           "name": "deleteKeyedChange",
           "package": "uni-util",
@@ -8118,6 +8799,7 @@
         },
         "index": {
           "hierarchy": "Util KeyedChanges",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.KeyedChanges",
           "name": "deleteKeyedChange",
           "normalized": "a-\u003eb-\u003eKeyedChanges a b-\u003eIO()",
@@ -8133,6 +8815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.KeyedChanges",
           "name": "newKeyedChanges",
           "package": "uni-util",
@@ -8142,6 +8825,7 @@
         },
         "index": {
           "hierarchy": "Util KeyedChanges",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.KeyedChanges",
           "name": "newKeyedChanges",
           "package": "uni-util",
@@ -8155,6 +8839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.KeyedChanges",
           "name": "sendKeyedChanges",
           "package": "uni-util",
@@ -8164,6 +8849,7 @@
         },
         "index": {
           "hierarchy": "Util KeyedChanges",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.KeyedChanges",
           "name": "sendKeyedChanges",
           "normalized": "a-\u003eb-\u003eKeyedChanges a b-\u003eIO()",
@@ -8180,6 +8866,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe LineShow type is simply a list type except that it has\n Read and Show instances which put the output line by line,\n preceded by the number of lines.  This is useful for data\n files stored by CVS and similar systems.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.LineShow",
           "name": "LineShow",
           "package": "uni-util",
@@ -8189,6 +8876,7 @@
         "index": {
           "description": "The LineShow type is simply list type except that it has Read and Show instances which put the output line by line preceded by the number of lines This is useful for data files stored by CVS and similar systems",
           "hierarchy": "Util LineShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.LineShow",
           "name": "LineShow",
           "package": "uni-util",
@@ -8202,6 +8890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.LineShow",
           "name": "LineShow",
           "package": "uni-util",
@@ -8210,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Util LineShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.LineShow",
           "name": "LineShow",
           "package": "uni-util",
@@ -8223,6 +8913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.LineShow",
           "name": "LineShow",
           "package": "uni-util",
@@ -8232,6 +8923,7 @@
         },
         "index": {
           "hierarchy": "Util LineShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.LineShow",
           "name": "LineShow",
           "normalized": "LineShow[a]",
@@ -8248,6 +8940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis file differs from the Einar original (itself automatically\n produced by decommenting an obsolete GHC source file, apparently) with\n nearly all the functions removed.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Maybes",
           "name": "Maybes",
           "package": "uni-util",
@@ -8257,6 +8950,7 @@
         "index": {
           "description": "This file differs from the Einar original itself automatically produced by decommenting an obsolete GHC source file apparently with nearly all the functions removed",
           "hierarchy": "Util Maybes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Maybes",
           "name": "Maybes",
           "package": "uni-util",
@@ -8270,6 +8964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Maybes",
           "name": "fromMaybes",
           "package": "uni-util",
@@ -8279,6 +8974,7 @@
         },
         "index": {
           "hierarchy": "Util Maybes",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Maybes",
           "name": "fromMaybes",
           "normalized": "[Maybe a]-\u003eMaybe[a]",
@@ -8295,6 +8991,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the hooks for displaying messages to the user\n (errors, alerts, warnings and the like) and getting yes/no responses.\n\u003c/p\u003e\u003cp\u003eThe idea is that these are by default textual, and go via\n \u003ccode\u003e\u003ca\u003estdin\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003estdout\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003estderr\u003c/a\u003e\u003c/code\u003e .  However if the DialogWin function\n \u003ccode\u003euseHTk\u003c/code\u003e is invoked, windows will pop up.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "Messages",
           "package": "uni-util",
@@ -8304,6 +9001,7 @@
         "index": {
           "description": "This module contains the hooks for displaying messages to the user errors alerts warnings and the like and getting yes no responses The idea is that these are by default textual and go via stdin stdout and stderr However if the DialogWin function useHTk is invoked windows will pop up",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "Messages",
           "package": "uni-util",
@@ -8317,6 +9015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "MessFns",
           "package": "uni-util",
@@ -8325,6 +9024,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "MessFns",
           "package": "uni-util",
@@ -8338,6 +9038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "MessFns",
           "package": "uni-util",
@@ -8347,6 +9048,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "MessFns",
           "package": "uni-util",
@@ -8360,6 +9062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "alertFn",
           "package": "uni-util",
@@ -8369,6 +9072,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "alertFn",
           "normalized": "String-\u003eIO()",
@@ -8385,6 +9089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an alert\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "alertMess",
           "package": "uni-util",
@@ -8395,6 +9100,7 @@
         "index": {
           "description": "Display an alert",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "alertMess",
           "normalized": "String-\u003eIO()",
@@ -8410,6 +9116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "confirmFn",
           "package": "uni-util",
@@ -8419,6 +9126,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "confirmFn",
           "normalized": "String-\u003eIO Bool",
@@ -8435,6 +9143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConfirm something with the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "confirmMess",
           "package": "uni-util",
@@ -8445,6 +9154,7 @@
         "index": {
           "description": "Confirm something with the user",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "confirmMess",
           "normalized": "String-\u003eIO Bool",
@@ -8460,6 +9170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "errorFn",
           "package": "uni-util",
@@ -8469,6 +9180,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "errorFn",
           "normalized": "String-\u003eIO()",
@@ -8485,6 +9197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "errorMess",
           "package": "uni-util",
@@ -8495,6 +9208,7 @@
         "index": {
           "description": "Display an error",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "errorMess",
           "normalized": "String-\u003eIO()",
@@ -8511,6 +9225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a series of one-line messages, separated by newline characters,\n attempting to combine them together and eliminate duplicates as much as\n possible.  If other identical messages come in while the error message\n is being delayed, we throw them away.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "errorMess2",
           "package": "uni-util",
@@ -8521,6 +9236,7 @@
         "index": {
           "description": "Display series of one-line messages separated by newline characters attempting to combine them together and eliminate duplicates as much as possible If other identical messages come in while the error message is being delayed we throw them away",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "errorMess2",
           "normalized": "String-\u003eIO()",
@@ -8536,6 +9252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "htkPres",
           "package": "uni-util",
@@ -8545,6 +9262,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "htkPres",
           "package": "uni-util",
@@ -8559,6 +9277,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf True, indicates that the flag corresponding to a graphical mode\n has been set.  This is used occasionally for deciding whether to\n ask the user something on stdout, stdin or via a window.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "htkPresent",
           "package": "uni-util",
@@ -8569,6 +9288,7 @@
         "index": {
           "description": "If True indicates that the flag corresponding to graphical mode has been set This is used occasionally for deciding whether to ask the user something on stdout stdin or via window",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "htkPresent",
           "package": "uni-util",
@@ -8582,6 +9302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "messageFn",
           "package": "uni-util",
@@ -8591,6 +9312,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "messageFn",
           "normalized": "String-\u003eIO()",
@@ -8607,6 +9329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay some informational message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "messageMess",
           "package": "uni-util",
@@ -8617,6 +9340,7 @@
         "index": {
           "description": "Display some informational message",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "messageMess",
           "normalized": "String-\u003eIO()",
@@ -8632,6 +9356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "setMessFns",
           "package": "uni-util",
@@ -8641,6 +9366,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "setMessFns",
           "normalized": "MessFns-\u003eIO()",
@@ -8657,6 +9383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003equeries the user on stdout getting the answer from stdin.\n Leading and trailing spaces are trimmed from the result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "textQuery",
           "package": "uni-util",
@@ -8667,6 +9394,7 @@
         "index": {
           "description": "queries the user on stdout getting the answer from stdin Leading and trailing spaces are trimmed from the result",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "textQuery",
           "normalized": "String-\u003eIO String",
@@ -8682,6 +9410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "warningFn",
           "package": "uni-util",
@@ -8691,6 +9420,7 @@
         },
         "index": {
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "warningFn",
           "normalized": "String-\u003eIO()",
@@ -8707,6 +9437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a warning message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Messages",
           "name": "warningMess",
           "package": "uni-util",
@@ -8717,6 +9448,7 @@
         "index": {
           "description": "Display warning message",
           "hierarchy": "Util Messages",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Messages",
           "name": "warningMess",
           "normalized": "String-\u003eIO()",
@@ -8733,6 +9465,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eImplementation of the Myers algorithm, from \u003ca\u003eAn O(ND) Difference Algorithm\n and Its Variations\u003c/a\u003e, by Eugene Myers page 6 (figure 2).\n\u003c/p\u003e\u003cp\u003eSpecification: if\n\u003c/p\u003e\u003cp\u003ef1 (InBoth v) = Just v\n    f1 (InFirst v) = Just v\n    f1 (InSecond v) = Nothing\n\u003c/p\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cp\u003ef2 (InBoth v) = Just v\n    f2 (InFirst v) = Nothing\n    f2 (InSecond v) = Just v\n\u003c/p\u003e\u003cp\u003ethen\n\u003c/p\u003e\u003cp\u003emapPartial f1 (diff l1 l2) == l1\n\u003c/p\u003e\u003cp\u003eand\n\u003c/p\u003e\u003cp\u003emapPartial f2 (diff l1 l2) == l2\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "Myers",
           "package": "uni-util",
@@ -8742,6 +9475,7 @@
         "index": {
           "description": "Implementation of the Myers algorithm from An ND Difference Algorithm and Its Variations by Eugene Myers page figure Specification if f1 InBoth Just f1 InFirst Just f1 InSecond Nothing and f2 InBoth Just f2 InFirst Nothing f2 InSecond Just then mapPartial f1 diff l1 l2 l1 and mapPartial f2 diff l1 l2 l2",
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "Myers",
           "package": "uni-util",
@@ -8755,6 +9489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "DiffElement",
           "package": "uni-util",
@@ -8763,6 +9498,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "DiffElement",
           "package": "uni-util",
@@ -8776,6 +9512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "InBoth",
           "package": "uni-util",
@@ -8785,6 +9522,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "InBoth",
           "normalized": "InBoth[a]",
@@ -8800,6 +9538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "InFirst",
           "package": "uni-util",
@@ -8809,6 +9548,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "InFirst",
           "normalized": "InFirst[a]",
@@ -8824,6 +9564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "InSecond",
           "package": "uni-util",
@@ -8833,6 +9574,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "InSecond",
           "normalized": "InSecond[a]",
@@ -8848,6 +9590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "diff",
           "package": "uni-util",
@@ -8857,6 +9600,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "diff",
           "normalized": "[a]-\u003e[a]-\u003e[DiffElement a]",
@@ -8871,6 +9615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Myers",
           "name": "diff2",
           "package": "uni-util",
@@ -8880,6 +9625,7 @@
         },
         "index": {
           "hierarchy": "Util Myers",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Myers",
           "name": "diff2",
           "normalized": "[a]-\u003e[a]-\u003e[DiffElement a]",
@@ -8895,6 +9641,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule for generating unique names which correspond to given names\n (of type ref).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "NameMangle",
           "package": "uni-util",
@@ -8904,6 +9651,7 @@
         "index": {
           "description": "Module for generating unique names which correspond to given names of type ref",
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "NameMangle",
           "package": "uni-util",
@@ -8917,6 +9665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "MangledName",
           "package": "uni-util",
@@ -8925,6 +9674,7 @@
         },
         "index": {
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "MangledName",
           "package": "uni-util",
@@ -8939,6 +9689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor now we just do this naively, with a Registry.  Since the names are\n generated sequentially a dynamic array would be more efficient, perhaps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "NameMangler",
           "package": "uni-util",
@@ -8948,6 +9699,7 @@
         "index": {
           "description": "For now we just do this naively with Registry Since the names are generated sequentially dynamic array would be more efficient perhaps",
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "NameMangler",
           "package": "uni-util",
@@ -8961,6 +9713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "newMangledName",
           "package": "uni-util",
@@ -8970,6 +9723,7 @@
         },
         "index": {
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "newMangledName",
           "normalized": "NameMangler a-\u003ea-\u003eIO MangledName",
@@ -8985,6 +9739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "newNameMangler",
           "package": "uni-util",
@@ -8994,6 +9749,7 @@
         },
         "index": {
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "newNameMangler",
           "package": "uni-util",
@@ -9007,6 +9763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.NameMangle",
           "name": "readMangledName",
           "package": "uni-util",
@@ -9016,6 +9773,7 @@
         },
         "index": {
           "hierarchy": "Util NameMangle",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.NameMangle",
           "name": "readMangledName",
           "normalized": "NameMangler a-\u003eMangledName-\u003eIO a",
@@ -9032,6 +9790,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule which generates globally unique \u003ccode\u003e\u003ca\u003eObjectID\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "Object",
           "package": "uni-util",
@@ -9041,6 +9800,7 @@
         "index": {
           "description": "Module which generates globally unique ObjectID",
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "Object",
           "package": "uni-util",
@@ -9054,6 +9814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "Object",
           "package": "uni-util",
@@ -9062,6 +9823,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "Object",
           "package": "uni-util",
@@ -9075,6 +9837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "ObjectID",
           "package": "uni-util",
@@ -9083,6 +9846,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "ObjectID",
           "package": "uni-util",
@@ -9096,6 +9860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "ObjectID",
           "package": "uni-util",
@@ -9105,6 +9870,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "ObjectID",
           "package": "uni-util",
@@ -9118,6 +9884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "newInt",
           "package": "uni-util",
@@ -9127,6 +9894,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "newInt",
           "package": "uni-util",
@@ -9140,6 +9908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "newObject",
           "package": "uni-util",
@@ -9149,6 +9918,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "newObject",
           "package": "uni-util",
@@ -9162,6 +9932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "objectID",
           "package": "uni-util",
@@ -9171,6 +9942,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "objectID",
           "normalized": "a-\u003eObjectID",
@@ -9186,6 +9958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Object",
           "name": "staticObject",
           "package": "uni-util",
@@ -9195,6 +9968,7 @@
         },
         "index": {
           "hierarchy": "Util Object",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Object",
           "name": "staticObject",
           "normalized": "Int-\u003eObjectID",
@@ -9211,6 +9985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an implementation of queues inspired by the paper in\n Software Practice & Experience, ...\n The queue is divided into two sequences. The first sequence\n holds the elements in a LIFO order, the second in a FIFO order.\n The LIFO sequence is the one where elements are added, the FIFO\n the one from which elements are removed. When the remove operation\n is called and the FIFO sequence is empty, the LIFO sequence is\n turned into a FIFO sequence by reversing the order of its elements.\n\u003c/p\u003e\u003cp\u003eNote from GER - as far as I know, we only need the values\n    emptyQ :: Queue a -- new empty queue\n    singletonQ :: a -\u003e Queue a -- new singleton queue\n    insertQ :: Queue a -\u003e a -\u003e Queue a -- add to queue\n    removeQ :: Queue a -\u003e Maybe (a,Queue a) -- pop from queue.\n    insertAtEndQ :: Queue a -\u003e a -\u003e Queue a\n    -- undo the effect of the previous removeQ.\n    isEmptyQ :: Queue a -\u003e Bool\n    queueToList :: Queue a -\u003e [a]\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "Queue",
           "package": "uni-util",
@@ -9220,6 +9995,7 @@
         "index": {
           "description": "This is an implementation of queues inspired by the paper in Software Practice Experience The queue is divided into two sequences The first sequence holds the elements in LIFO order the second in FIFO order The LIFO sequence is the one where elements are added the FIFO the one from which elements are removed When the remove operation is called and the FIFO sequence is empty the LIFO sequence is turned into FIFO sequence by reversing the order of its elements Note from GER as far as know we only need the values emptyQ Queue new empty queue singletonQ Queue new singleton queue insertQ Queue Queue add to queue removeQ Queue Maybe Queue pop from queue insertAtEndQ Queue Queue undo the effect of the previous removeQ isEmptyQ Queue Bool queueToList Queue",
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "Queue",
           "package": "uni-util",
@@ -9233,6 +10009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "Queue",
           "package": "uni-util",
@@ -9241,6 +10018,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "Queue",
           "package": "uni-util",
@@ -9254,6 +10032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "emptyQ",
           "package": "uni-util",
@@ -9263,6 +10042,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "emptyQ",
           "package": "uni-util",
@@ -9275,6 +10055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "insertAtEndQ",
           "package": "uni-util",
@@ -9284,6 +10065,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "insertAtEndQ",
           "normalized": "Queue a-\u003ea-\u003eQueue a",
@@ -9299,6 +10081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "insertQ",
           "package": "uni-util",
@@ -9308,6 +10091,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "insertQ",
           "normalized": "Queue a-\u003ea-\u003eQueue a",
@@ -9322,6 +10106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "isEmptyQ",
           "package": "uni-util",
@@ -9331,6 +10116,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "isEmptyQ",
           "normalized": "Queue a-\u003eBool",
@@ -9347,6 +10133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a list to a queue with the first element of the list the\n first element of the queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "listToQueue",
           "package": "uni-util",
@@ -9357,6 +10144,7 @@
         "index": {
           "description": "Converts list to queue with the first element of the list the first element of the queue",
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "listToQueue",
           "normalized": "[a]-\u003eQueue a",
@@ -9373,6 +10161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverts listToQueue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "queueToList",
           "package": "uni-util",
@@ -9383,6 +10172,7 @@
         "index": {
           "description": "Inverts listToQueue",
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "queueToList",
           "normalized": "Queue a-\u003e[a]",
@@ -9398,6 +10188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "removeQ",
           "package": "uni-util",
@@ -9407,6 +10198,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "removeQ",
           "normalized": "Queue a-\u003eMaybe(a,Queue a)",
@@ -9421,6 +10213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Queue",
           "name": "singletonQ",
           "package": "uni-util",
@@ -9430,6 +10223,7 @@
         },
         "index": {
           "hierarchy": "Util Queue",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Queue",
           "name": "singletonQ",
           "normalized": "a-\u003eQueue a",
@@ -9445,6 +10239,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuickReadShow is designed for the rapid manufacture of read/show\n instances.  To create such an instance you need to (a) instance\n quickRead; (b) instance Read/Show using a particular template.\n (Before April 2004 (b) was not part of the code; it now has to\n be added to deal with tougher GHC restrictions on overlapping instances.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "QuickReadShow",
           "package": "uni-util",
@@ -9454,6 +10249,7 @@
         "index": {
           "description": "QuickReadShow is designed for the rapid manufacture of read show instances To create such an instance you need to instance quickRead instance Read Show using particular template Before April was not part of the code it now has to be added to deal with tougher GHC restrictions on overlapping instances",
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "QuickReadShow",
           "package": "uni-util",
@@ -9467,6 +10263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "QuickRead",
           "package": "uni-util",
@@ -9475,6 +10272,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "QuickRead",
           "package": "uni-util",
@@ -9488,6 +10286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "QuickShow",
           "package": "uni-util",
@@ -9496,6 +10295,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "QuickShow",
           "package": "uni-util",
@@ -9509,6 +10309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "WrapRead",
           "package": "uni-util",
@@ -9517,6 +10318,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "WrapRead",
           "package": "uni-util",
@@ -9530,6 +10332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "WrapShow",
           "package": "uni-util",
@@ -9538,6 +10341,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "WrapShow",
           "package": "uni-util",
@@ -9551,6 +10355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "WrapRead",
           "package": "uni-util",
@@ -9560,6 +10365,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "WrapRead",
           "normalized": "WrapRead(a-\u003eb)",
@@ -9575,6 +10381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "WrapShow",
           "package": "uni-util",
@@ -9584,6 +10391,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "WrapShow",
           "normalized": "WrapShow(a-\u003eb)",
@@ -9599,6 +10407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "qRead",
           "package": "uni-util",
@@ -9608,6 +10417,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "qRead",
           "normalized": "Int-\u003eString-\u003e[(a,String)]",
@@ -9623,6 +10433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "qShow",
           "package": "uni-util",
@@ -9632,6 +10443,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "qShow",
           "normalized": "Int-\u003ea-\u003eString-\u003eString",
@@ -9647,6 +10459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "quickRead",
           "package": "uni-util",
@@ -9656,6 +10469,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "quickRead",
           "package": "uni-util",
@@ -9669,6 +10483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.QuickReadShow",
           "name": "quickShow",
           "package": "uni-util",
@@ -9678,6 +10493,7 @@
         },
         "index": {
           "hierarchy": "Util QuickReadShow",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.QuickReadShow",
           "name": "quickShow",
           "package": "uni-util",
@@ -9692,6 +10508,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA simple reference counter\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "ReferenceCount",
           "package": "uni-util",
@@ -9701,6 +10518,7 @@
         "index": {
           "description": "simple reference counter",
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "ReferenceCount",
           "package": "uni-util",
@@ -9714,6 +10532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "RefCount",
           "package": "uni-util",
@@ -9722,6 +10541,7 @@
         },
         "index": {
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "RefCount",
           "package": "uni-util",
@@ -9735,6 +10555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "addRef",
           "package": "uni-util",
@@ -9744,6 +10565,7 @@
         },
         "index": {
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "addRef",
           "normalized": "RefCount-\u003eIO()",
@@ -9759,6 +10581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "newLinkedRefCount",
           "package": "uni-util",
@@ -9768,6 +10591,7 @@
         },
         "index": {
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "newLinkedRefCount",
           "package": "uni-util",
@@ -9781,6 +10605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "newRefCount",
           "package": "uni-util",
@@ -9790,6 +10615,7 @@
         },
         "index": {
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "newRefCount",
           "package": "uni-util",
@@ -9803,6 +10629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ReferenceCount",
           "name": "remRef",
           "package": "uni-util",
@@ -9812,6 +10639,7 @@
         },
         "index": {
           "hierarchy": "Util ReferenceCount",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ReferenceCount",
           "name": "remRef",
           "normalized": "RefCount-\u003eIO Bool",
@@ -9828,6 +10656,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Registry is a mapping from ordered values.  For the Registry\n type itself, all target values have the same type.  For the\n UntypedRegistry type, the values\n can have any Typeable type.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "Registry",
           "package": "uni-util",
@@ -9837,6 +10666,7 @@
         "index": {
           "description": "Registry is mapping from ordered values For the Registry type itself all target values have the same type For the UntypedRegistry type the values can have any Typeable type",
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "Registry",
           "package": "uni-util",
@@ -9850,6 +10680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "GetSetRegistry",
           "package": "uni-util",
@@ -9858,6 +10689,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "GetSetRegistry",
           "package": "uni-util",
@@ -9871,6 +10703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "GetSetRegistryDyn",
           "package": "uni-util",
@@ -9879,6 +10712,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "GetSetRegistryDyn",
           "package": "uni-util",
@@ -9892,6 +10726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "KeyOpsRegistry",
           "package": "uni-util",
@@ -9900,6 +10735,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "KeyOpsRegistry",
           "package": "uni-util",
@@ -9914,6 +10750,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eListRegistryContents will not be implemented for the untyped registries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "ListRegistryContents",
           "package": "uni-util",
@@ -9923,6 +10760,7 @@
         "index": {
           "description": "ListRegistryContents will not be implemented for the untyped registries",
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "ListRegistryContents",
           "package": "uni-util",
@@ -9936,6 +10774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "LockedRegistry",
           "package": "uni-util",
@@ -9944,6 +10783,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "LockedRegistry",
           "package": "uni-util",
@@ -9957,6 +10797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "NewRegistry",
           "package": "uni-util",
@@ -9965,6 +10806,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "NewRegistry",
           "package": "uni-util",
@@ -9978,6 +10820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "Registry",
           "package": "uni-util",
@@ -9986,6 +10829,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "Registry",
           "package": "uni-util",
@@ -9999,6 +10843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "Unsafe",
           "package": "uni-util",
@@ -10007,6 +10852,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "Unsafe",
           "package": "uni-util",
@@ -10020,6 +10866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "UnsafeRegistry",
           "package": "uni-util",
@@ -10028,6 +10875,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "UnsafeRegistry",
           "package": "uni-util",
@@ -10041,6 +10889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "Untyped",
           "package": "uni-util",
@@ -10049,6 +10898,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "Untyped",
           "package": "uni-util",
@@ -10062,6 +10912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "UntypedLockedRegistry",
           "package": "uni-util",
@@ -10070,6 +10921,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "UntypedLockedRegistry",
           "package": "uni-util",
@@ -10083,6 +10935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "UntypedRegistry",
           "package": "uni-util",
@@ -10091,6 +10944,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "UntypedRegistry",
           "package": "uni-util",
@@ -10105,6 +10959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elook up the element given by the first key, and if it exists\n delete it, replacing it with the element given by the second key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "changeKey",
           "package": "uni-util",
@@ -10115,6 +10970,7 @@
         "index": {
           "description": "look up the element given by the first key and if it exists delete it replacing it with the element given by the second key",
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "changeKey",
           "normalized": "Registry a b-\u003ea-\u003ea-\u003eIO()",
@@ -10130,6 +10986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "deleteFromRegistry",
           "package": "uni-util",
@@ -10139,6 +10996,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "deleteFromRegistry",
           "normalized": "a-\u003eb-\u003eIO()",
@@ -10154,6 +11012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "deleteFromRegistryBool",
           "package": "uni-util",
@@ -10163,6 +11022,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "deleteFromRegistryBool",
           "normalized": "a-\u003eb-\u003eIO Bool",
@@ -10178,6 +11038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "emptyRegistry",
           "package": "uni-util",
@@ -10187,6 +11048,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "emptyRegistry",
           "normalized": "a-\u003eIO()",
@@ -10202,6 +11064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getRegistryValue",
           "package": "uni-util",
@@ -10211,6 +11074,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getRegistryValue",
           "normalized": "Registry a b-\u003ea-\u003eIO b",
@@ -10226,6 +11090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getRegistryValueSafe",
           "package": "uni-util",
@@ -10235,6 +11100,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getRegistryValueSafe",
           "normalized": "String-\u003eRegistry a b-\u003ea-\u003eIO b",
@@ -10250,6 +11116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValue",
           "package": "uni-util",
@@ -10259,6 +11126,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValue",
           "normalized": "a-\u003eb-\u003eIO c",
@@ -10274,6 +11142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValue'",
           "package": "uni-util",
@@ -10283,6 +11152,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValue'",
           "normalized": "String-\u003ea-\u003eb-\u003eIO c",
@@ -10298,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValueAsDyn",
           "package": "uni-util",
@@ -10307,6 +11178,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValueAsDyn",
           "normalized": "a-\u003eb-\u003eIO Dyn",
@@ -10322,6 +11194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValueDefault",
           "package": "uni-util",
@@ -10331,6 +11204,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValueDefault",
           "normalized": "a-\u003eb-\u003ec-\u003eIO a",
@@ -10346,6 +11220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValueOpt",
           "package": "uni-util",
@@ -10355,6 +11230,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValueOpt",
           "normalized": "a-\u003eb-\u003eIO(Maybe c)",
@@ -10370,6 +11246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "getValueSafe",
           "package": "uni-util",
@@ -10379,6 +11256,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "getValueSafe",
           "normalized": "String-\u003ea-\u003eb-\u003eIO c",
@@ -10394,6 +11272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "listKeys",
           "package": "uni-util",
@@ -10403,6 +11282,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "listKeys",
           "normalized": "a-\u003eIO[b]",
@@ -10418,6 +11298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "listRegistryContents",
           "package": "uni-util",
@@ -10427,6 +11308,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "listRegistryContents",
           "normalized": "a b c-\u003eIO[(b,c)]",
@@ -10442,6 +11324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "listRegistryContentsAndEmptyRegistry",
           "package": "uni-util",
@@ -10451,6 +11334,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "listRegistryContentsAndEmptyRegistry",
           "package": "uni-util",
@@ -10464,6 +11348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "listToNewRegistry",
           "package": "uni-util",
@@ -10473,6 +11358,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "listToNewRegistry",
           "normalized": "[(a,b)]-\u003eIO(c a b)",
@@ -10488,6 +11374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "lockedRegistryCheck",
           "package": "uni-util",
@@ -10497,6 +11384,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "lockedRegistryCheck",
           "normalized": "IO a-\u003eIO(Either String a)",
@@ -10512,6 +11400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "newRegistry",
           "package": "uni-util",
@@ -10521,6 +11410,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "newRegistry",
           "package": "uni-util",
@@ -10534,6 +11424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "setValue",
           "package": "uni-util",
@@ -10543,6 +11434,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "setValue",
           "normalized": "a-\u003eb-\u003ec-\u003eIO()",
@@ -10558,6 +11450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "setValueAsDyn",
           "package": "uni-util",
@@ -10567,6 +11460,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "setValueAsDyn",
           "normalized": "a-\u003eb-\u003eDyn-\u003eIO()",
@@ -10582,6 +11476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Registry",
           "name": "transformValue",
           "package": "uni-util",
@@ -10591,6 +11486,7 @@
         },
         "index": {
           "hierarchy": "Util Registry",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Registry",
           "name": "transformValue",
           "normalized": "a-\u003eb-\u003e(Maybe c-\u003eIO(Maybe c,d))-\u003eIO d",
@@ -10607,6 +11503,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVery primitive concurrency, this implements a sink, which passes messages\n along until the receiver is no longer interested.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "Sink",
           "package": "uni-util",
@@ -10616,6 +11513,7 @@
         "index": {
           "description": "Very primitive concurrency this implements sink which passes messages along until the receiver is no longer interested",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "Sink",
           "package": "uni-util",
@@ -10630,6 +11528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for things (in particular Source and SimpleSource) that can\n output via sinks.  Each sink source is supposed to have a unique\n x, containing a representation of the current value, and delta,\n containing the (incremental) updates which are put in the sink.\n Only the addOrdSink function must be defined by instances.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "CanAddSinks",
           "package": "uni-util",
@@ -10639,6 +11538,7 @@
         "index": {
           "description": "class for things in particular Source and SimpleSource that can output via sinks Each sink source is supposed to have unique containing representation of the current value and delta containing the incremental updates which are put in the sink Only the addOrdSink function must be defined by instances",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "CanAddSinks",
           "package": "uni-util",
@@ -10653,6 +11553,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe HasInvalidate class represents information sources which can be told\n \"No more, I'm not interested.\"\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "HasInvalidate",
           "package": "uni-util",
@@ -10662,6 +11563,7 @@
         "index": {
           "description": "The HasInvalidate class represents information sources which can be told No more not interested",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "HasInvalidate",
           "package": "uni-util",
@@ -10675,6 +11577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "ParallelExec",
           "package": "uni-util",
@@ -10683,6 +11586,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "ParallelExec",
           "package": "uni-util",
@@ -10696,6 +11600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "Sink",
           "package": "uni-util",
@@ -10704,6 +11609,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "Sink",
           "package": "uni-util",
@@ -10717,6 +11623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "SinkID",
           "package": "uni-util",
@@ -10725,6 +11632,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "SinkID",
           "package": "uni-util",
@@ -10739,6 +11647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an action to a sinkSource which is performed until the action returns\n False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewAction",
           "package": "uni-util",
@@ -10749,6 +11658,7 @@
         "index": {
           "description": "Add an action to sinkSource which is performed until the action returns False",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewAction",
           "normalized": "a-\u003e(b-\u003eIO Bool)-\u003eIO c",
@@ -10764,6 +11674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewQuickSink",
           "package": "uni-util",
@@ -10773,6 +11684,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewQuickSink",
           "normalized": "a-\u003e(b-\u003eIO())-\u003eIO(c,Sink b)",
@@ -10788,6 +11700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewQuickSinkGeneral",
           "package": "uni-util",
@@ -10797,6 +11710,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewQuickSinkGeneral",
           "normalized": "a-\u003e(b-\u003eIO())-\u003eSinkID-\u003eIO(c,Sink b)",
@@ -10812,6 +11726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewSink",
           "package": "uni-util",
@@ -10821,6 +11736,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewSink",
           "normalized": "a-\u003e(b-\u003eIO())-\u003eIO(c,Sink b)",
@@ -10836,6 +11752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewSinkGeneral",
           "package": "uni-util",
@@ -10845,6 +11762,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewSinkGeneral",
           "normalized": "a-\u003e(b-\u003eIO())-\u003eSinkID-\u003eIO(c,Sink b)",
@@ -10860,6 +11778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewSinkVeryGeneral",
           "package": "uni-util",
@@ -10869,6 +11788,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewSinkVeryGeneral",
           "normalized": "a-\u003e(b-\u003eIO())-\u003eSinkID-\u003eParallelExec-\u003eIO(c,Sink b)",
@@ -10884,6 +11804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addNewSinkWithInitial",
           "package": "uni-util",
@@ -10893,6 +11814,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addNewSinkWithInitial",
           "normalized": "a-\u003e(b-\u003eIO())-\u003e(c-\u003eIO())-\u003eSinkID-\u003eParallelExec-\u003eIO(b,Sink c)",
@@ -10908,6 +11830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "addOldSink",
           "package": "uni-util",
@@ -10917,6 +11840,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "addOldSink",
           "normalized": "a-\u003eSink b-\u003eIO c",
@@ -10933,6 +11857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version which allows an IO action, which had better not take too long.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "coMapIOSink'",
           "package": "uni-util",
@@ -10943,6 +11868,7 @@
         "index": {
           "description": "version which allows an IO action which had better not take too long",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "coMapIOSink'",
           "normalized": "(a-\u003eIO(Maybe b))-\u003eSink b-\u003eSink a",
@@ -10959,6 +11885,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a sink from one type to another\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "coMapSink",
           "package": "uni-util",
@@ -10969,6 +11896,7 @@
         "index": {
           "description": "Convert sink from one type to another",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "coMapSink",
           "normalized": "(a-\u003eb)-\u003eSink b-\u003eSink a",
@@ -10985,6 +11913,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnother version which allows a transformation function to filter\n certain elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "coMapSink'",
           "package": "uni-util",
@@ -10995,6 +11924,7 @@
         "index": {
           "description": "Another version which allows transformation function to filter certain elements",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "coMapSink'",
           "normalized": "(a-\u003eMaybe b)-\u003eSink b-\u003eSink a",
@@ -11010,6 +11940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "invalidate",
           "package": "uni-util",
@@ -11019,6 +11950,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "invalidate",
           "normalized": "a-\u003eIO()",
@@ -11034,6 +11966,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new sink which executes actions in a parallelExec thread,\n but allow the function generating these actions to be specified later,\n via the returned command.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newParallelDelayedSink",
           "package": "uni-util",
@@ -11044,6 +11977,7 @@
         "index": {
           "description": "Creates new sink which executes actions in parallelExec thread but allow the function generating these actions to be specified later via the returned command",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newParallelDelayedSink",
           "normalized": "IO(Sink a,(a-\u003eIO())-\u003eIO())",
@@ -11059,6 +11993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newParallelExec",
           "package": "uni-util",
@@ -11068,6 +12003,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newParallelExec",
           "package": "uni-util",
@@ -11082,6 +12018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new sink which executes actions in a parallelExec thread.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newParallelSink",
           "package": "uni-util",
@@ -11092,6 +12029,7 @@
         "index": {
           "description": "Creates new sink which executes actions in parallelExec thread",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newParallelSink",
           "normalized": "(a-\u003eIO())-\u003eIO(Sink a)",
@@ -11108,6 +12046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new sink with its own SinkID\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newSink",
           "package": "uni-util",
@@ -11118,6 +12057,7 @@
         "index": {
           "description": "Creates new sink with its own SinkID",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newSink",
           "normalized": "(a-\u003eIO())-\u003eIO(Sink a)",
@@ -11134,6 +12074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new sink with a given SinkID.  This allows us to\n invalidate lots of sinks just by invalidating one sinkID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newSinkGeneral",
           "package": "uni-util",
@@ -11144,6 +12085,7 @@
         "index": {
           "description": "Creates new sink with given SinkID This allows us to invalidate lots of sinks just by invalidating one sinkID",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newSinkGeneral",
           "normalized": "SinkID-\u003e(a-\u003eIO())-\u003eIO(Sink a)",
@@ -11159,6 +12101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "newSinkID",
           "package": "uni-util",
@@ -11168,6 +12111,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "newSinkID",
           "package": "uni-util",
@@ -11181,6 +12125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "parallelExec",
           "package": "uni-util",
@@ -11190,6 +12135,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "parallelExec",
           "normalized": "ParallelExec-\u003eIO()-\u003eIO()",
@@ -11205,6 +12151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "parallelExecVSem",
           "package": "uni-util",
@@ -11214,6 +12161,7 @@
         },
         "index": {
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "parallelExecVSem",
           "package": "uni-util",
@@ -11228,6 +12176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a value into the sink, returning False if the sink id has been\n invalidated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "putSink",
           "package": "uni-util",
@@ -11238,6 +12187,7 @@
         "index": {
           "description": "Put value into the sink returning False if the sink id has been invalidated",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "putSink",
           "normalized": "Sink a-\u003ea-\u003eIO Bool",
@@ -11254,6 +12204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePut a list of values into the sink, returning False if the sink id has been\n invalidated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sink",
           "name": "putSinkMultiple",
           "package": "uni-util",
@@ -11264,6 +12215,7 @@
         "index": {
           "description": "Put list of values into the sink returning False if the sink id has been invalidated",
           "hierarchy": "Util Sink",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sink",
           "name": "putSinkMultiple",
           "normalized": "Sink a-\u003e[a]-\u003eIO Bool",
@@ -11280,6 +12232,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWe implement the Source type and combinators for it.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "Sources",
           "package": "uni-util",
@@ -11289,6 +12242,7 @@
         "index": {
           "description": "We implement the Source type and combinators for it",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "Sources",
           "package": "uni-util",
@@ -11302,6 +12256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "Client",
           "package": "uni-util",
@@ -11310,6 +12265,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "Client",
           "package": "uni-util",
@@ -11323,6 +12279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "HasSimpleSource",
           "package": "uni-util",
@@ -11331,6 +12288,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "HasSimpleSource",
           "package": "uni-util",
@@ -11344,6 +12302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "HasSource",
           "package": "uni-util",
@@ -11352,6 +12311,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "HasSource",
           "package": "uni-util",
@@ -11365,6 +12325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "SimpleSource",
           "package": "uni-util",
@@ -11373,6 +12334,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "SimpleSource",
           "package": "uni-util",
@@ -11386,6 +12348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "Source",
           "package": "uni-util",
@@ -11394,6 +12357,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "Source",
           "package": "uni-util",
@@ -11407,6 +12371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "Updater",
           "package": "uni-util",
@@ -11415,6 +12380,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "Updater",
           "package": "uni-util",
@@ -11428,6 +12394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "SimpleSource",
           "package": "uni-util",
@@ -11437,6 +12404,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "SimpleSource",
           "package": "uni-util",
@@ -11451,6 +12419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun the specified actions for the source, using the given SinkID and\n in the ParallelExec thread.\n The x -\u003e IO () action is guaranteed to be performed before any of the\n d -\u003e IO () actions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "addNewSourceActions",
           "package": "uni-util",
@@ -11461,6 +12430,7 @@
         "index": {
           "description": "Run the specified actions for the source using the given SinkID and in the ParallelExec thread The IO action is guaranteed to be performed before any of the IO actions",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "addNewSourceActions",
           "normalized": "Source a b-\u003e(a-\u003eIO())-\u003e(b-\u003eIO())-\u003eSinkID-\u003eParallelExec-\u003eIO a",
@@ -11476,6 +12446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "applyToUpdater",
           "package": "uni-util",
@@ -11485,6 +12456,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "applyToUpdater",
           "normalized": "Updater a b-\u003e(a-\u003e(a,[b],c))-\u003eIO c",
@@ -11500,6 +12472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "attachClient",
           "package": "uni-util",
@@ -11509,6 +12482,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "attachClient",
           "normalized": "Client a-\u003eSource b a-\u003eIO b",
@@ -11525,6 +12499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereplaces the first value of the SimpleSource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "change1",
           "package": "uni-util",
@@ -11535,6 +12510,7 @@
         "index": {
           "description": "replaces the first value of the SimpleSource",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "change1",
           "normalized": "SimpleSource a-\u003ea-\u003eSimpleSource a",
@@ -11549,6 +12525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "choose",
           "package": "uni-util",
@@ -11558,6 +12535,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "choose",
           "normalized": "Source a b-\u003eSource a b-\u003eSource(a,a)(Either b b)",
@@ -11572,6 +12550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "filter2",
           "package": "uni-util",
@@ -11581,6 +12560,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "filter2",
           "normalized": "(a-\u003eMaybe a)-\u003eSource b a-\u003eSource b a",
@@ -11595,6 +12575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "filter2IO",
           "package": "uni-util",
@@ -11604,6 +12585,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "filter2IO",
           "normalized": "(a-\u003eIO(Maybe a))-\u003eSource b a-\u003eSource b a",
@@ -11620,6 +12602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Source combinator which \"flattens\" lists of updates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "flattenSource",
           "package": "uni-util",
@@ -11630,6 +12613,7 @@
         "index": {
           "description": "Source combinator which flattens lists of updates",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "flattenSource",
           "normalized": "Source a[b]-\u003eSource a b",
@@ -11646,6 +12630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a Simple Source, so that it carries state.\n The state is recomputed for each client.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "foldSimpleSourceIO",
           "package": "uni-util",
@@ -11656,6 +12641,7 @@
         "index": {
           "description": "Fold Simple Source so that it carries state The state is recomputed for each client",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "foldSimpleSourceIO",
           "normalized": "(a-\u003eIO(b,a))-\u003e(b-\u003ea-\u003eIO(b,a))-\u003eSimpleSource a-\u003eSimpleSource a",
@@ -11671,6 +12657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "foldSource",
           "package": "uni-util",
@@ -11680,6 +12667,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "foldSource",
           "normalized": "(a-\u003eb)-\u003e(b-\u003ec-\u003e(b,c))-\u003eSource a c-\u003eSource(b,a)c",
@@ -11696,6 +12684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a Source so that it can carry state around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "foldSourceIO",
           "package": "uni-util",
@@ -11706,6 +12695,7 @@
         "index": {
           "description": "Fold Source so that it can carry state around",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "foldSourceIO",
           "normalized": "(a-\u003eIO(b,a))-\u003e(b-\u003ec-\u003eIO(b,c))-\u003eSource a c-\u003eSource(b,a)c",
@@ -11721,6 +12711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "map1",
           "package": "uni-util",
@@ -11730,6 +12721,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "map1",
           "normalized": "(a-\u003ea)-\u003eSource a b-\u003eSource a b",
@@ -11744,6 +12736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "map1IO",
           "package": "uni-util",
@@ -11753,6 +12746,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "map1IO",
           "normalized": "(a-\u003eIO a)-\u003eSource a b-\u003eSource a b",
@@ -11768,6 +12762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "map2",
           "package": "uni-util",
@@ -11777,6 +12772,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "map2",
           "normalized": "(a-\u003ea)-\u003eSource b a-\u003eSource b a",
@@ -11791,6 +12787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "mapIOSeq",
           "package": "uni-util",
@@ -11800,6 +12797,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "mapIOSeq",
           "normalized": "SimpleSource a-\u003e(a-\u003eIO(SimpleSource b))-\u003eSimpleSource b",
@@ -11816,6 +12814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike mkHistorySource but for SimpleSource's; the x returns the initial\n value to compare with.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "mkHistorySimpleSource",
           "package": "uni-util",
@@ -11826,6 +12825,7 @@
         "index": {
           "description": "Like mkHistorySource but for SimpleSource the returns the initial value to compare with",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "mkHistorySimpleSource",
           "normalized": "a-\u003eSimpleSource a-\u003eSimpleSource(a,a)",
@@ -11842,6 +12842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor each update d, pairs it with its predecessor (given first).\n For the very first update, a value is given based on the initial x,\n mapped by the given function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "mkHistorySource",
           "package": "uni-util",
@@ -11852,6 +12853,7 @@
         "index": {
           "description": "For each update pairs it with its predecessor given first For the very first update value is given based on the initial mapped by the given function",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "mkHistorySource",
           "normalized": "(a-\u003eb)-\u003eSource a b-\u003eSource a(b,b)",
@@ -11867,6 +12869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "mkIOSimpleSource",
           "package": "uni-util",
@@ -11876,6 +12879,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "mkIOSimpleSource",
           "normalized": "IO(SimpleSource a)-\u003eSimpleSource a",
@@ -11892,6 +12896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed when we are worried that a SimpleSource recursively constructed\n by mapIOSeq, \u003e\u003e= and friends may actually try to call itself, and\n so loop forever.   The Strings identify the SimpleSource,\n and so the [String] is effectively a backtrace of the TSems, revealing what\n chain of simple sources might have caused the loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "noLoopSimpleSource",
           "package": "uni-util",
@@ -11902,6 +12907,7 @@
         "index": {
           "description": "Used when we are worried that SimpleSource recursively constructed by mapIOSeq and friends may actually try to call itself and so loop forever The Strings identify the SimpleSource and so the String is effectively backtrace of the TSems revealing what chain of simple sources might have caused the loop",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "noLoopSimpleSource",
           "normalized": "TSem-\u003e([String]-\u003ea)-\u003eSimpleSource a-\u003eSimpleSource a",
@@ -11918,6 +12924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePair two SimpleSource's.  This is probably better than using \u003e\u003e=, since it\n does not require reregistering with the second SimpleSource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "pairSimpleSources",
           "package": "uni-util",
@@ -11928,6 +12935,7 @@
         "index": {
           "description": "Pair two SimpleSource This is probably better than using since it does not require reregistering with the second SimpleSource",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "pairSimpleSources",
           "normalized": "SimpleSource a-\u003eSimpleSource a-\u003eSimpleSource(a,a)",
@@ -11944,6 +12952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current contents of the source, but don't specify any other\n action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "readContents",
           "package": "uni-util",
@@ -11954,6 +12963,7 @@
         "index": {
           "description": "Get the current contents of the source but don specify any other action",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "readContents",
           "normalized": "a-\u003eIO b",
@@ -11969,6 +12979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "seqSource",
           "package": "uni-util",
@@ -11978,6 +12989,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "seqSource",
           "normalized": "Source a a-\u003e(a-\u003eSource a a)-\u003eSource a a",
@@ -11994,6 +13006,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDoes a similar job to pairSimpleSources, so that the sources run\n parallel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "sequenceSimpleSource",
           "package": "uni-util",
@@ -12004,6 +13017,7 @@
         "index": {
           "description": "Does similar job to pairSimpleSources so that the sources run parallel",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "sequenceSimpleSource",
           "normalized": "[SimpleSource a]-\u003eSimpleSource[a]",
@@ -12019,6 +13033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "staticSimpleSource",
           "package": "uni-util",
@@ -12028,6 +13043,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "staticSimpleSource",
           "normalized": "a-\u003eSimpleSource a",
@@ -12043,6 +13059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "staticSimpleSourceIO",
           "package": "uni-util",
@@ -12052,6 +13069,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "staticSimpleSourceIO",
           "normalized": "IO a-\u003eSimpleSource a",
@@ -12067,6 +13085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "staticSource",
           "package": "uni-util",
@@ -12076,6 +13095,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "staticSource",
           "normalized": "a-\u003eSource a b",
@@ -12091,6 +13111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "staticSourceIO",
           "package": "uni-util",
@@ -12100,6 +13121,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "staticSourceIO",
           "normalized": "IO a-\u003eSource a b",
@@ -12115,6 +13137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "stepSource",
           "package": "uni-util",
@@ -12124,6 +13147,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "stepSource",
           "normalized": "(a-\u003eb)-\u003e(b-\u003eb)-\u003eSource a b-\u003eSource a b",
@@ -12139,6 +13163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "toSimpleSource",
           "package": "uni-util",
@@ -12148,6 +13173,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "toSimpleSource",
           "normalized": "a-\u003eSimpleSource b",
@@ -12163,6 +13189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "toSource",
           "package": "uni-util",
@@ -12172,6 +13199,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "toSource",
           "normalized": "a-\u003eSource b c",
@@ -12188,6 +13216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs information about what comes through the source, turning\n it into a String with the supplied function.  (This is done once\n for each active client.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "traceSimpleSource",
           "package": "uni-util",
@@ -12198,6 +13227,7 @@
         "index": {
           "description": "Outputs information about what comes through the source turning it into String with the supplied function This is done once for each active client",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "traceSimpleSource",
           "normalized": "(a-\u003eString)-\u003eSimpleSource a-\u003eSimpleSource a",
@@ -12214,6 +13244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutputs information about what comes through the source, turning\n it into a String with the supplied function.  (This is done once\n for each active client.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "traceSource",
           "package": "uni-util",
@@ -12224,6 +13255,7 @@
         "index": {
           "description": "Outputs information about what comes through the source turning it into String with the supplied function This is done once for each active client",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "traceSource",
           "normalized": "(a-\u003eString)-\u003e(b-\u003eString)-\u003eSource a b-\u003eSource a b",
@@ -12240,6 +13272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efilter out consecutive duplicates\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "uniqSimpleSource",
           "package": "uni-util",
@@ -12250,6 +13283,7 @@
         "index": {
           "description": "filter out consecutive duplicates",
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "uniqSimpleSource",
           "normalized": "SimpleSource a-\u003eSimpleSource a",
@@ -12265,6 +13299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "variableGeneralSource",
           "package": "uni-util",
@@ -12274,6 +13309,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "variableGeneralSource",
           "normalized": "a-\u003eIO(Source a b,Updater a b)",
@@ -12289,6 +13325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Sources",
           "name": "variableSource",
           "package": "uni-util",
@@ -12298,6 +13335,7 @@
         },
         "index": {
           "hierarchy": "Util Sources",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Sources",
           "name": "variableSource",
           "normalized": "a-\u003eIO(Source a b,(a-\u003e(a,[b]))-\u003eIO())",
@@ -12314,6 +13352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Store a contains an (a) value which is only to be computed once,\n when it is first needed.\n\u003c/p\u003e\u003cp\u003ePerhaps we should use laziness and unsafePerformIO?\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Store",
           "name": "Store",
           "package": "uni-util",
@@ -12323,6 +13362,7 @@
         "index": {
           "description": "Store contains an value which is only to be computed once when it is first needed Perhaps we should use laziness and unsafePerformIO",
           "hierarchy": "Util Store",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Store",
           "name": "Store",
           "package": "uni-util",
@@ -12336,6 +13376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Store",
           "name": "Store",
           "package": "uni-util",
@@ -12344,6 +13385,7 @@
         },
         "index": {
           "hierarchy": "Util Store",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Store",
           "name": "Store",
           "package": "uni-util",
@@ -12357,6 +13399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Store",
           "name": "newStore",
           "package": "uni-util",
@@ -12366,6 +13409,7 @@
         },
         "index": {
           "hierarchy": "Util Store",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Store",
           "name": "newStore",
           "package": "uni-util",
@@ -12379,6 +13423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Store",
           "name": "takeStore",
           "package": "uni-util",
@@ -12388,6 +13433,7 @@
         },
         "index": {
           "hierarchy": "Util Store",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Store",
           "name": "takeStore",
           "normalized": "IO a-\u003eStore a-\u003eIO a",
@@ -12404,6 +13450,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA TSem is an unusual sort of lock in that it only protects the same thread\n from acquiring it twice.  Different threads may acquire the same TSem\n without problems.\n\u003c/p\u003e\u003cp\u003eThe purpose of this is to allow computations which potentially would\n loop forever by calling themselves to instead fail gracefully.  To\n aid in this process, we also include in each TSem a String.  When we\n attempt to acquire a TSem which is already acquired, we instead return\n the String for this TSem and the TSems acquired within this one.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TSem",
           "name": "TSem",
           "package": "uni-util",
@@ -12413,6 +13460,7 @@
         "index": {
           "description": "TSem is an unusual sort of lock in that it only protects the same thread from acquiring it twice Different threads may acquire the same TSem without problems The purpose of this is to allow computations which potentially would loop forever by calling themselves to instead fail gracefully To aid in this process we also include in each TSem String When we attempt to acquire TSem which is already acquired we instead return the String for this TSem and the TSems acquired within this one",
           "hierarchy": "Util TSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TSem",
           "name": "TSem",
           "package": "uni-util",
@@ -12426,6 +13474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TSem",
           "name": "TSem",
           "package": "uni-util",
@@ -12434,6 +13483,7 @@
         },
         "index": {
           "hierarchy": "Util TSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TSem",
           "name": "TSem",
           "package": "uni-util",
@@ -12447,6 +13497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TSem",
           "name": "newTSem",
           "package": "uni-util",
@@ -12456,6 +13507,7 @@
         },
         "index": {
           "hierarchy": "Util TSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TSem",
           "name": "newTSem",
           "normalized": "IO String-\u003eIO TSem",
@@ -12471,6 +13523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TSem",
           "name": "synchronizeTSem",
           "package": "uni-util",
@@ -12480,6 +13533,7 @@
         },
         "index": {
           "hierarchy": "Util TSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TSem",
           "name": "synchronizeTSem",
           "normalized": "TSem-\u003eIO a-\u003eIO(Either[String]a)",
@@ -12496,6 +13550,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe TempFile module allocates temporary files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TempFile",
           "name": "TempFile",
           "package": "uni-util",
@@ -12505,6 +13560,7 @@
         "index": {
           "description": "The TempFile module allocates temporary files",
           "hierarchy": "Util TempFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TempFile",
           "name": "TempFile",
           "package": "uni-util",
@@ -12518,6 +13574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.TempFile",
           "name": "newTempFile",
           "package": "uni-util",
@@ -12527,6 +13584,7 @@
         },
         "index": {
           "hierarchy": "Util TempFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.TempFile",
           "name": "newTempFile",
           "package": "uni-util",
@@ -12541,6 +13599,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic Thread operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "Thread",
           "package": "uni-util",
@@ -12550,6 +13609,7 @@
         "index": {
           "description": "Basic Thread operations",
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "Thread",
           "package": "uni-util",
@@ -12563,6 +13623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "Duration",
           "package": "uni-util",
@@ -12571,6 +13632,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "Duration",
           "package": "uni-util",
@@ -12585,6 +13647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e is an abstract type representing a handle to a thread.\n\u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e is an instance of \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, where\nthe \u003ccode\u003e\u003ca\u003eOrd\u003c/a\u003e\u003c/code\u003e instance implements an arbitrary total ordering over\n\u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003es. The \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e instance lets you convert an arbitrary-valued\n\u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e to string form; showing a \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e value is occasionally\nuseful when debugging or diagnosing the behaviour of a concurrent\nprogram.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: in GHC, if you have a \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e, you essentially have\na pointer to the thread itself.  This means the thread itself can't be\ngarbage collected until you drop the \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e.\nThis misfeature will hopefully be corrected at a later date.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNote\u003c/em\u003e: Hugs does not provide any operations on other threads;\nit defines \u003ccode\u003e\u003ca\u003eThreadId\u003c/a\u003e\u003c/code\u003e as a synonym for ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "ThreadId",
           "package": "uni-util",
@@ -12593,6 +13656,7 @@
         "index": {
           "description": "ThreadId is an abstract type representing handle to thread ThreadId is an instance of Eq Ord and Show where the Ord instance implements an arbitrary total ordering over ThreadId The Show instance lets you convert an arbitrary-valued ThreadId to string form showing ThreadId value is occasionally useful when debugging or diagnosing the behaviour of concurrent program Note in GHC if you have ThreadId you essentially have pointer to the thread itself This means the thread itself can be garbage collected until you drop the ThreadId This misfeature will hopefully be corrected at later date Note Hugs does not provide any operations on other threads it defines ThreadId as synonym for",
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "ThreadId",
           "package": "uni-util",
@@ -12606,6 +13670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "after",
           "package": "uni-util",
@@ -12615,6 +13680,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "after",
           "normalized": "Duration-\u003eIO a-\u003eIO a",
@@ -12629,6 +13695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "delay",
           "package": "uni-util",
@@ -12638,6 +13705,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "delay",
           "normalized": "Duration-\u003eIO()",
@@ -12652,6 +13720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "every",
           "package": "uni-util",
@@ -12661,6 +13730,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "every",
           "normalized": "Duration-\u003eIO a-\u003eIO()",
@@ -12675,6 +13745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "forkIODebug",
           "package": "uni-util",
@@ -12684,6 +13755,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "forkIODebug",
           "normalized": "IO()-\u003eIO ThreadId",
@@ -12699,6 +13771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "forkIOquiet",
           "package": "uni-util",
@@ -12708,6 +13781,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "forkIOquiet",
           "normalized": "String-\u003eIO()-\u003eIO ThreadId",
@@ -12723,6 +13797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "goesQuietly",
           "package": "uni-util",
@@ -12732,6 +13807,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "goesQuietly",
           "normalized": "IO()-\u003eIO()",
@@ -12747,6 +13823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "mapMConcurrent",
           "package": "uni-util",
@@ -12756,6 +13833,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "mapMConcurrent",
           "normalized": "(a-\u003eIO b)-\u003e[a]-\u003eIO[b]",
@@ -12771,6 +13849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "mapMConcurrentExcep",
           "package": "uni-util",
@@ -12780,6 +13859,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "mapMConcurrentExcep",
           "normalized": "a b c(b-\u003eIO d)-\u003e[b]-\u003eIO[d]",
@@ -12795,6 +13875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "mapMConcurrent_",
           "package": "uni-util",
@@ -12804,6 +13885,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "mapMConcurrent_",
           "normalized": "(a-\u003eIO())-\u003e[a]-\u003eIO()",
@@ -12819,6 +13901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "mins",
           "package": "uni-util",
@@ -12828,6 +13911,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "mins",
           "normalized": "Double-\u003eDuration",
@@ -12842,6 +13926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "msecs",
           "package": "uni-util",
@@ -12851,6 +13936,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "msecs",
           "normalized": "Double-\u003eDuration",
@@ -12865,6 +13951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "secs",
           "package": "uni-util",
@@ -12874,6 +13961,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "secs",
           "normalized": "Double-\u003eDuration",
@@ -12888,6 +13976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.Thread",
           "name": "usecs",
           "package": "uni-util",
@@ -12897,6 +13986,7 @@
         },
         "index": {
           "hierarchy": "Util Thread",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.Thread",
           "name": "usecs",
           "normalized": "Double-\u003eDuration",
@@ -12912,6 +14002,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements per-thread variables\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "ThreadDict",
           "package": "uni-util",
@@ -12921,6 +14012,7 @@
         "index": {
           "description": "This module implements per-thread variables",
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "ThreadDict",
           "package": "uni-util",
@@ -12934,6 +14026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "ThreadDict",
           "package": "uni-util",
@@ -12942,6 +14035,7 @@
         },
         "index": {
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "ThreadDict",
           "package": "uni-util",
@@ -12955,6 +14049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "modifyThreadDict",
           "package": "uni-util",
@@ -12964,6 +14059,7 @@
         },
         "index": {
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "modifyThreadDict",
           "normalized": "ThreadDict a-\u003e(Maybe a-\u003eIO(Maybe a,b))-\u003eIO b",
@@ -12979,6 +14075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "newThreadDict",
           "package": "uni-util",
@@ -12988,6 +14085,7 @@
         },
         "index": {
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "newThreadDict",
           "package": "uni-util",
@@ -13001,6 +14099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "readThreadDict",
           "package": "uni-util",
@@ -13010,6 +14109,7 @@
         },
         "index": {
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "readThreadDict",
           "normalized": "ThreadDict a-\u003eIO(Maybe a)",
@@ -13025,6 +14125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.ThreadDict",
           "name": "writeThreadDict",
           "package": "uni-util",
@@ -13034,6 +14135,7 @@
         },
         "index": {
           "hierarchy": "Util ThreadDict",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.ThreadDict",
           "name": "writeThreadDict",
           "normalized": "ThreadDict a-\u003ea-\u003eIO()",
@@ -13050,6 +14152,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions for converting to and from the UTF8\n representations for Strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UTF8",
           "name": "UTF8",
           "package": "uni-util",
@@ -13059,6 +14162,7 @@
         "index": {
           "description": "This module contains functions for converting to and from the UTF8 representations for Strings",
           "hierarchy": "Util UTF8",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UTF8",
           "name": "UTF8",
           "package": "uni-util",
@@ -13073,6 +14177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnion-Find algorithm.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "UnionFind",
           "package": "uni-util",
@@ -13082,6 +14187,7 @@
         "index": {
           "description": "Union-Find algorithm",
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "UnionFind",
           "package": "uni-util",
@@ -13095,6 +14201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "UnionFind",
           "package": "uni-util",
@@ -13103,6 +14210,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "UnionFind",
           "package": "uni-util",
@@ -13116,6 +14224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "isSame",
           "package": "uni-util",
@@ -13125,6 +14234,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "isSame",
           "normalized": "UnionFind a-\u003eUnionFind a-\u003eIO Bool",
@@ -13140,6 +14250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "newElement",
           "package": "uni-util",
@@ -13149,6 +14260,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "newElement",
           "normalized": "a-\u003eIO(UnionFind a)",
@@ -13164,6 +14276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "sameElements",
           "package": "uni-util",
@@ -13173,6 +14286,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "sameElements",
           "normalized": "UnionFind a-\u003eIO[UnionFind a]",
@@ -13188,6 +14302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "toValue",
           "package": "uni-util",
@@ -13197,6 +14312,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "toValue",
           "normalized": "UnionFind a-\u003ea",
@@ -13212,6 +14328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UnionFind",
           "name": "union",
           "package": "uni-util",
@@ -13221,6 +14338,7 @@
         },
         "index": {
           "hierarchy": "Util UnionFind",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UnionFind",
           "name": "union",
           "normalized": "UnionFind a-\u003eUnionFind a-\u003eIO()",
@@ -13236,6 +14354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUniqueFile is used for allocating names for temporary files in a directory.\n To avoid large numbers of files in the same directory, we create sub-\n directories where necessary.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "UniqueFile",
           "package": "uni-util",
@@ -13245,6 +14364,7 @@
         "index": {
           "description": "UniqueFile is used for allocating names for temporary files in directory To avoid large numbers of files in the same directory we create sub directories where necessary",
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "UniqueFile",
           "package": "uni-util",
@@ -13258,6 +14378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "UniqueFileCounter",
           "package": "uni-util",
@@ -13266,6 +14387,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "UniqueFileCounter",
           "package": "uni-util",
@@ -13279,6 +14401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "UniqueFileStore",
           "package": "uni-util",
@@ -13287,6 +14410,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "UniqueFileStore",
           "package": "uni-util",
@@ -13300,6 +14424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "ensureDirectories",
           "package": "uni-util",
@@ -13309,6 +14434,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "ensureDirectories",
           "normalized": "UniqueFileStore-\u003eString-\u003eIO()",
@@ -13324,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "getFilePath",
           "package": "uni-util",
@@ -13333,6 +14460,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "getFilePath",
           "normalized": "UniqueFileStore-\u003eString-\u003eFilePath",
@@ -13348,6 +14476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "initialUniqueFileCounter",
           "package": "uni-util",
@@ -13357,6 +14486,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "initialUniqueFileCounter",
           "package": "uni-util",
@@ -13370,6 +14500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "newUniqueFileStore",
           "package": "uni-util",
@@ -13379,6 +14510,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "newUniqueFileStore",
           "normalized": "FilePath-\u003e(FilePath-\u003eIO())-\u003eIO UniqueFileStore",
@@ -13394,6 +14526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueFile",
           "name": "stepUniqueFileCounter",
           "package": "uni-util",
@@ -13403,6 +14536,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueFile",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueFile",
           "name": "stepUniqueFileCounter",
           "normalized": "UniqueFileCounter-\u003e(String,UniqueFileCounter)",
@@ -13419,6 +14553,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module generates short non-empty unique printable strings (IE without\n funny characters).  Quotes and backslashes are not included, so printing\n should not be too hard.  Periods are also not included, for the\n benefit of NewNames.hs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "UniqueString",
           "package": "uni-util",
@@ -13428,6 +14563,7 @@
         "index": {
           "description": "This module generates short non-empty unique printable strings IE without funny characters Quotes and backslashes are not included so printing should not be too hard Periods are also not included for the benefit of NewNames.hs",
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "UniqueString",
           "package": "uni-util",
@@ -13441,6 +14577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "UniqueStringCounter",
           "package": "uni-util",
@@ -13449,6 +14586,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "UniqueStringCounter",
           "package": "uni-util",
@@ -13462,6 +14600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "UniqueStringSource",
           "package": "uni-util",
@@ -13470,6 +14609,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "UniqueStringSource",
           "package": "uni-util",
@@ -13484,6 +14624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreateUniqueStringSource is the inverse of readUniqueStringSource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "createUniqueStringSource",
           "package": "uni-util",
@@ -13494,6 +14635,7 @@
         "index": {
           "description": "createUniqueStringSource is the inverse of readUniqueStringSource",
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "createUniqueStringSource",
           "normalized": "[Int]-\u003eIO UniqueStringSource",
@@ -13509,6 +14651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "firstUniqueString",
           "package": "uni-util",
@@ -13518,6 +14661,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "firstUniqueString",
           "package": "uni-util",
@@ -13531,6 +14675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "firstUniqueStringCounter",
           "package": "uni-util",
@@ -13540,6 +14685,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "firstUniqueStringCounter",
           "package": "uni-util",
@@ -13553,6 +14699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "maxUniqueStringSources",
           "package": "uni-util",
@@ -13562,6 +14709,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "maxUniqueStringSources",
           "normalized": "[UniqueStringSource]-\u003eIO UniqueStringSource",
@@ -13578,6 +14726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate non-conflicting string which cannot be produced by\n newUniqueString.  This is useful for exceptional cases.\n We add this by adding a character with integer value 0 at the end.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "newNonUnique",
           "package": "uni-util",
@@ -13588,6 +14737,7 @@
         "index": {
           "description": "Create non-conflicting string which cannot be produced by newUniqueString This is useful for exceptional cases We add this by adding character with integer value at the end",
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "newNonUnique",
           "normalized": "String-\u003eString",
@@ -13603,6 +14753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "newUniqueString",
           "package": "uni-util",
@@ -13612,6 +14763,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "newUniqueString",
           "normalized": "UniqueStringSource-\u003eIO String",
@@ -13627,6 +14779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "newUniqueStringSource",
           "package": "uni-util",
@@ -13636,6 +14789,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "newUniqueStringSource",
           "package": "uni-util",
@@ -13650,6 +14804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereadUniqueStringSource is used by types/CodedValue.hs to export values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "readUniqueStringSource",
           "package": "uni-util",
@@ -13660,6 +14815,7 @@
         "index": {
           "description": "readUniqueStringSource is used by types CodedValue.hs to export values",
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "readUniqueStringSource",
           "normalized": "UniqueStringSource-\u003eIO[Int]",
@@ -13675,6 +14831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.UniqueString",
           "name": "stepUniqueStringCounter",
           "package": "uni-util",
@@ -13684,6 +14841,7 @@
         },
         "index": {
           "hierarchy": "Util UniqueString",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.UniqueString",
           "name": "stepUniqueStringCounter",
           "normalized": "UniqueStringCounter-\u003e(String,UniqueStringCounter)",
@@ -13700,6 +14858,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e| Implements locks which can be locked \u003ca\u003eglobally\u003c/a\u003e or \u003ca\u003elocally\u003c/a\u003e.\n   A global lock prevents any other lock; a local lock allows other local\n   locks.\n\u003c/p\u003e\u003cp\u003eThere are some subtle decisions to be made about when to give preference\n   to local, and when to global, locks.  There are two important cases:\n   (1) When we free a global lock, and there is another queued global lock,\n       we take that global lock (or the earliest for which someone is\n       waiting, if there's a choice), irrespective of whether anyone is\n       waiting for a local lock.\n   (2) When at least one local lock is held, we allow people to acquire\n       further local locks, even if there are queued global locks.\n\u003c/p\u003e\u003cp\u003eA bad consequence of (2) is that a global lock can be indefinitely not\n   satisfied by a carefully-timed sequence of finite local locks:\n\u003c/p\u003e\u003cp\u003elocal locks : --- --- --- --- . . .\n                   --- --- ---   . . .\n   no global lock can be acquired at all.\n\u003c/p\u003e\u003cp\u003eHowever the alternative, of not permitting any fresh local locks when\n   a global lock is queued, is worse (in my opinion), since if a thread\n   attempts to acquire two local locks, one inside the other, and another\n   attempts to acquire a global lock, the whole thing can deadlock.\n\u003c/p\u003e\u003cp\u003eThread 1  : acquire local lock                    attempt to acquire second local lock =\u003e DEADLOCK.\n   Thread 2  :                   wait for global lock\n\u003c/p\u003e\u003cp\u003eWe could deal with this partially by allowing local locks for free\n   to a thread which already holds one, but this is more complicated and\n   I suspect theoretically dodgy.\n\u003c/p\u003e\u003cp\u003eA consequence of this decision is that threads should avoid creating\n   automated repeated sequences of local locks on the same VSem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "VSem",
           "package": "uni-util",
@@ -13709,6 +14868,7 @@
         "index": {
           "description": "Implements locks which can be locked globally or locally global lock prevents any other lock local lock allows other local locks There are some subtle decisions to be made about when to give preference to local and when to global locks There are two important cases When we free global lock and there is another queued global lock we take that global lock or the earliest for which someone is waiting if there choice irrespective of whether anyone is waiting for local lock When at least one local lock is held we allow people to acquire further local locks even if there are queued global locks bad consequence of is that global lock can be indefinitely not satisfied by carefully-timed sequence of finite local locks local locks no global lock can be acquired at all However the alternative of not permitting any fresh local locks when global lock is queued is worse in my opinion since if thread attempts to acquire two local locks one inside the other and another attempts to acquire global lock the whole thing can deadlock Thread acquire local lock attempt to acquire second local lock DEADLOCK Thread wait for global lock We could deal with this partially by allowing local locks for free to thread which already holds one but this is more complicated and suspect theoretically dodgy consequence of this decision is that threads should avoid creating automated repeated sequences of local locks on the same VSem",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "VSem",
           "package": "uni-util",
@@ -13723,6 +14883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA lock which can be globally or locally locked.\n At any time, a \u003ccode\u003eVSem\u003c/code\u003e is either globally locked once, or locally locked\n zero or more times.  Global locks always take priority over local locks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "VSem",
           "package": "uni-util",
@@ -13732,6 +14893,7 @@
         "index": {
           "description": "lock which can be globally or locally locked At any time VSem is either globally locked once or locally locked zero or more times Global locks always take priority over local locks",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "VSem",
           "package": "uni-util",
@@ -13746,6 +14908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAcquire a local lock on a \u003ccode\u003e\u003ca\u003eVSem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "acquireLocal",
           "package": "uni-util",
@@ -13756,6 +14919,7 @@
         "index": {
           "description": "Acquire local lock on VSem",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "acquireLocal",
           "normalized": "VSem-\u003eIO()",
@@ -13772,6 +14936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eVSem\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "newVSem",
           "package": "uni-util",
@@ -13782,6 +14947,7 @@
         "index": {
           "description": "Creates VSem",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "newVSem",
           "package": "uni-util",
@@ -13796,6 +14962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRelease a local lock on a \u003ccode\u003e\u003ca\u003eVSem\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "releaseLocal",
           "package": "uni-util",
@@ -13806,6 +14973,7 @@
         "index": {
           "description": "Release local lock on VSem",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "releaseLocal",
           "normalized": "VSem-\u003eIO()",
@@ -13822,6 +14990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action while locking a \u003ccode\u003e\u003ca\u003eVSem\u003c/a\u003e\u003c/code\u003e globally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "synchronizeGlobal",
           "package": "uni-util",
@@ -13832,6 +15001,7 @@
         "index": {
           "description": "Perform an action while locking VSem globally",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "synchronizeGlobal",
           "normalized": "VSem-\u003eIO a-\u003eIO a",
@@ -13848,6 +15018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action while locking a \u003ccode\u003e\u003ca\u003eVSem\u003c/a\u003e\u003c/code\u003e locally.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VSem",
           "name": "synchronizeLocal",
           "package": "uni-util",
@@ -13858,6 +15029,7 @@
         "index": {
           "description": "Perform an action while locking VSem locally",
           "hierarchy": "Util VSem",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VSem",
           "name": "synchronizeLocal",
           "normalized": "VSem-\u003eIO a-\u003eIO a",
@@ -13873,6 +15045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "VariableList",
           "package": "uni-util",
@@ -13881,6 +15054,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "VariableList",
           "package": "uni-util",
@@ -13894,6 +15068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "ListDrawer",
           "package": "uni-util",
@@ -13902,6 +15077,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "ListDrawer",
           "package": "uni-util",
@@ -13916,6 +15092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the close action.\n attachListOp :: ParallelExec -\u003e VariableList a -\u003e ListDrawer a -\u003e IO (IO ())\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "VariableList",
           "package": "uni-util",
@@ -13925,6 +15102,7 @@
         "index": {
           "description": "Return the close action attachListOp ParallelExec VariableList ListDrawer IO IO",
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "VariableList",
           "package": "uni-util",
@@ -13938,6 +15116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "ListDrawer",
           "package": "uni-util",
@@ -13947,6 +15126,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "ListDrawer",
           "package": "uni-util",
@@ -13960,6 +15140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "attachListOp",
           "package": "uni-util",
@@ -13969,6 +15150,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "attachListOp",
           "normalized": "VariableList a-\u003eb c ParallelExec-\u003eListDrawer a d-\u003eIO(IO())",
@@ -13984,6 +15166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "catVariableLists",
           "package": "uni-util",
@@ -13993,6 +15176,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "catVariableLists",
           "normalized": "VariableList a-\u003eVariableList a-\u003eVariableList a",
@@ -14008,6 +15192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "coMapListDrawer",
           "package": "uni-util",
@@ -14017,6 +15202,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "coMapListDrawer",
           "normalized": "(a-\u003eb)-\u003eListDrawer b c-\u003eListDrawer a c",
@@ -14032,6 +15218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "delPos",
           "package": "uni-util",
@@ -14041,6 +15228,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "delPos",
           "normalized": "a-\u003eIO()",
@@ -14056,6 +15244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "emptyVariableList",
           "package": "uni-util",
@@ -14065,6 +15254,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "emptyVariableList",
           "package": "uni-util",
@@ -14078,6 +15268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "map2ListDrawer",
           "package": "uni-util",
@@ -14087,6 +15278,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "map2ListDrawer",
           "normalized": "(a-\u003ea)-\u003e(a-\u003ea)-\u003eListDrawer b a-\u003eListDrawer b a",
@@ -14102,6 +15294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "newPos",
           "package": "uni-util",
@@ -14111,6 +15304,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "newPos",
           "normalized": "Maybe a-\u003eMaybe b-\u003eIO a",
@@ -14126,6 +15320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "newVariableListFromList",
           "package": "uni-util",
@@ -14135,6 +15330,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "newVariableListFromList",
           "normalized": "SimpleSource[a]-\u003eVariableList a",
@@ -14150,6 +15346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "newVariableListFromSet",
           "package": "uni-util",
@@ -14159,6 +15356,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "newVariableListFromSet",
           "normalized": "VariableSetSource a-\u003eVariableList a",
@@ -14174,6 +15372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "redraw",
           "package": "uni-util",
@@ -14183,6 +15382,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "redraw",
           "normalized": "IO()",
@@ -14197,6 +15397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "setPos",
           "package": "uni-util",
@@ -14206,6 +15407,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "setPos",
           "normalized": "a-\u003eMaybe b-\u003eIO()",
@@ -14221,6 +15423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableList",
           "name": "singletonList",
           "package": "uni-util",
@@ -14230,6 +15433,7 @@
         },
         "index": {
           "hierarchy": "Util VariableList",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableList",
           "name": "singletonList",
           "normalized": "a b c-\u003eVariableList c",
@@ -14246,6 +15450,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariableMap is analagous to VariableSet and provides a mutable map ordered\n by key whose changes can be tracked.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "VariableMap",
           "package": "uni-util",
@@ -14255,6 +15460,7 @@
         "index": {
           "description": "VariableMap is analagous to VariableSet and provides mutable map ordered by key whose changes can be tracked",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "VariableMap",
           "package": "uni-util",
@@ -14268,6 +15474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "VariableMap",
           "package": "uni-util",
@@ -14276,6 +15483,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "VariableMap",
           "package": "uni-util",
@@ -14290,6 +15498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes a map update.  For DelUpdate, the second parameter (the one\n of type elt) is irrelevant and may be undefined.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "VariableMapData",
           "package": "uni-util",
@@ -14299,6 +15508,7 @@
         "index": {
           "description": "Describes map update For DelUpdate the second parameter the one of type elt is irrelevant and may be undefined",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "VariableMapData",
           "package": "uni-util",
@@ -14313,6 +15523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWe recycle the VariableSetUpdate type for this.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "VariableMapUpdate",
           "package": "uni-util",
@@ -14322,6 +15533,7 @@
         "index": {
           "description": "We recycle the VariableSetUpdate type for this",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "VariableMapUpdate",
           "package": "uni-util",
@@ -14335,6 +15547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "VariableMapUpdate",
           "package": "uni-util",
@@ -14344,6 +15557,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "VariableMapUpdate",
           "normalized": "VariableMapUpdate(VariableSetUpdate(a,b))",
@@ -14359,6 +15573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "addToVariableMap",
           "package": "uni-util",
@@ -14368,6 +15583,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "addToVariableMap",
           "normalized": "VariableMap a b-\u003ea-\u003eb-\u003eIO Bool",
@@ -14383,6 +15599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "delFromVariableMap",
           "package": "uni-util",
@@ -14392,6 +15609,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "delFromVariableMap",
           "normalized": "VariableMap a b-\u003ea-\u003eIO Bool",
@@ -14407,6 +15625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "getVariableMapByKey",
           "package": "uni-util",
@@ -14416,6 +15635,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "getVariableMapByKey",
           "normalized": "VariableMap a b-\u003ea-\u003eSimpleSource(Maybe b)",
@@ -14431,6 +15651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "lookupMap",
           "package": "uni-util",
@@ -14440,6 +15661,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "lookupMap",
           "normalized": "VariableMapData a b-\u003ea-\u003eMaybe b",
@@ -14455,6 +15677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "lookupVariableMap",
           "package": "uni-util",
@@ -14464,6 +15687,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "lookupVariableMap",
           "normalized": "VariableMap a b-\u003ea-\u003eIO(Maybe b)",
@@ -14479,6 +15703,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "lookupWithDefaultMap",
           "package": "uni-util",
@@ -14488,6 +15713,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "lookupWithDefaultMap",
           "normalized": "VariableMapData a b-\u003eb-\u003ea-\u003eb",
@@ -14503,6 +15729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "mapToFM",
           "package": "uni-util",
@@ -14512,6 +15739,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "mapToFM",
           "normalized": "VariableMapData a b-\u003eMap a b",
@@ -14527,6 +15755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "mapToList",
           "package": "uni-util",
@@ -14536,6 +15765,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "mapToList",
           "normalized": "VariableMapData a b-\u003e[(a,b)]",
@@ -14552,6 +15782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGiven a variable map and conversion function, produce a VariableSetSource\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "mapToVariableSetSource",
           "package": "uni-util",
@@ -14562,6 +15793,7 @@
         "index": {
           "description": "Given variable map and conversion function produce VariableSetSource",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "mapToVariableSetSource",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVariableMap a b-\u003eVariableSetSource c",
@@ -14578,6 +15810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty variable map.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "newEmptyVariableMap",
           "package": "uni-util",
@@ -14588,6 +15821,7 @@
         "index": {
           "description": "Create new empty variable map",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "newEmptyVariableMap",
           "package": "uni-util",
@@ -14602,6 +15836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new variable map with given contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "newVariableMap",
           "package": "uni-util",
@@ -14612,6 +15847,7 @@
         "index": {
           "description": "Create new variable map with given contents",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "newVariableMap",
           "normalized": "[(a,b)]-\u003eIO(VariableMap a b)",
@@ -14627,6 +15863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "newVariableMapFromFM",
           "package": "uni-util",
@@ -14636,6 +15873,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "newVariableMapFromFM",
           "normalized": "Map a b-\u003eIO(VariableMap a b)",
@@ -14652,6 +15890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a variable map in some way.  Returns True if the update was\n sucessful (so for insertions, the object is not already there; for\n deletions the object is not there).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "updateMap",
           "package": "uni-util",
@@ -14662,6 +15901,7 @@
         "index": {
           "description": "Update variable map in some way Returns True if the update was sucessful so for insertions the object is not already there for deletions the object is not there",
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "updateMap",
           "normalized": "VariableMap a b-\u003eVariableMapUpdate a b-\u003eIO Bool",
@@ -14677,6 +15917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableMap",
           "name": "variableMapToList",
           "package": "uni-util",
@@ -14686,6 +15927,7 @@
         },
         "index": {
           "hierarchy": "Util VariableMap",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableMap",
           "name": "variableMapToList",
           "normalized": "VariableMap a b-\u003eIO[(a,b)]",
@@ -14702,6 +15944,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVariableSet allow us to track changes to an unordered mutable set.\n The elements of the set are keyed by instancing HasKey with some Ord\n instance; this allows us to set up a special HasKey instance for this\n module without committing us to that Ord instance everywhere.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14711,6 +15954,7 @@
         "index": {
           "description": "VariableSet allow us to track changes to an unordered mutable set The elements of the set are keyed by instancing HasKey with some Ord instance this allows us to set up special HasKey instance for this module without committing us to that Ord instance everywhere",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14724,6 +15968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "HasKey",
           "package": "uni-util",
@@ -14732,6 +15977,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "HasKey",
           "package": "uni-util",
@@ -14745,6 +15991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "Keyed",
           "package": "uni-util",
@@ -14753,6 +16000,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "Keyed",
           "package": "uni-util",
@@ -14766,6 +16014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14774,6 +16023,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14787,6 +16037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "VariableSetSource",
           "package": "uni-util",
@@ -14795,6 +16046,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "VariableSetSource",
           "package": "uni-util",
@@ -14809,6 +16061,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncodes the updates to a variable set.\n BeginGroup does not actually alter the set itself, but\n indicate that a group of updates is about to begin, terminated by EndGroup.\n This prevents the client from trying to recalculate the state after every single\n update.\n\u003c/p\u003e\u003cp\u003eBeginGroup/EndGroup may be nested (though I don't have any application for that\n yet).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "VariableSetUpdate",
           "package": "uni-util",
@@ -14818,6 +16071,7 @@
         "index": {
           "description": "Encodes the updates to variable set BeginGroup does not actually alter the set itself but indicate that group of updates is about to begin terminated by EndGroup This prevents the client from trying to recalculate the state after every single update BeginGroup EndGroup may be nested though don have any application for that yet",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "VariableSetUpdate",
           "package": "uni-util",
@@ -14831,6 +16085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "AddElement",
           "package": "uni-util",
@@ -14840,6 +16095,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "AddElement",
           "package": "uni-util",
@@ -14853,6 +16109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "BeginGroup",
           "package": "uni-util",
@@ -14862,6 +16119,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "BeginGroup",
           "package": "uni-util",
@@ -14875,6 +16133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "DelElement",
           "package": "uni-util",
@@ -14884,6 +16143,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "DelElement",
           "package": "uni-util",
@@ -14897,6 +16157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "EndGroup",
           "package": "uni-util",
@@ -14906,6 +16167,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "EndGroup",
           "package": "uni-util",
@@ -14919,6 +16181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "Keyed",
           "package": "uni-util",
@@ -14928,6 +16191,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "Keyed",
           "package": "uni-util",
@@ -14941,6 +16205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14950,6 +16215,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "VariableSet",
           "package": "uni-util",
@@ -14963,6 +16229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "concatVariableSetSource",
           "package": "uni-util",
@@ -14972,6 +16239,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "concatVariableSetSource",
           "normalized": "VariableSetSource a-\u003eVariableSetSource a-\u003eVariableSetSource a",
@@ -14987,6 +16255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "emptyVariableSetSource",
           "package": "uni-util",
@@ -14996,6 +16265,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "emptyVariableSetSource",
           "package": "uni-util",
@@ -15010,6 +16280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a VariableSetSource whose elements are the same as those of the\n corresponding list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "listToSetSource",
           "package": "uni-util",
@@ -15020,6 +16291,7 @@
         "index": {
           "description": "Creates VariableSetSource whose elements are the same as those of the corresponding list",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "listToSetSource",
           "normalized": "SimpleSource[a]-\u003eVariableSetSource a",
@@ -15035,6 +16307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "mapVariableSetSource",
           "package": "uni-util",
@@ -15044,6 +16317,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "mapVariableSetSource",
           "normalized": "(a-\u003eb)-\u003eVariableSetSource a-\u003eVariableSetSource b",
@@ -15059,6 +16333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "mapVariableSetSourceIO'",
           "package": "uni-util",
@@ -15068,6 +16343,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "mapVariableSetSourceIO'",
           "normalized": "(a-\u003eIO(Maybe b))-\u003eVariableSetSource a-\u003eVariableSetSource b",
@@ -15084,6 +16360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new empty variable set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "newEmptyVariableSet",
           "package": "uni-util",
@@ -15094,6 +16371,7 @@
         "index": {
           "description": "Create new empty variable set",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "newEmptyVariableSet",
           "package": "uni-util",
@@ -15108,6 +16386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new variable set with given contents\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "newVariableSet",
           "package": "uni-util",
@@ -15118,6 +16397,7 @@
         "index": {
           "description": "Create new variable set with given contents",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "newVariableSet",
           "normalized": "[a]-\u003eIO(VariableSet a)",
@@ -15134,6 +16414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the elements of the variable set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "setVariableSet",
           "package": "uni-util",
@@ -15144,6 +16425,7 @@
         "index": {
           "description": "Set the elements of the variable set",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "setVariableSet",
           "normalized": "VariableSet a-\u003e[a]-\u003eIO()",
@@ -15159,6 +16441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "singletonSetSource",
           "package": "uni-util",
@@ -15168,6 +16451,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "singletonSetSource",
           "normalized": "SimpleSource a-\u003eVariableSetSource a",
@@ -15183,6 +16467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "toKey",
           "package": "uni-util",
@@ -15192,6 +16477,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "toKey",
           "normalized": "a-\u003eb",
@@ -15208,6 +16494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate a variable set in some way.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSet",
           "name": "updateSet",
           "package": "uni-util",
@@ -15218,6 +16505,7 @@
         "index": {
           "description": "Update variable set in some way",
           "hierarchy": "Util VariableSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSet",
           "name": "updateSet",
           "normalized": "VariableSet a-\u003eVariableSetUpdate a-\u003eIO()",
@@ -15234,6 +16522,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBlockers are used to implement variable set sources which can be\n turned on and off.  They are indexed by a BlockID.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "VariableSetBlocker",
           "package": "uni-util",
@@ -15243,6 +16532,7 @@
         "index": {
           "description": "Blockers are used to implement variable set sources which can be turned on and off They are indexed by BlockID",
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "VariableSetBlocker",
           "package": "uni-util",
@@ -15256,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "BlockID",
           "package": "uni-util",
@@ -15264,6 +16555,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "BlockID",
           "package": "uni-util",
@@ -15277,6 +16569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "Blocker",
           "package": "uni-util",
@@ -15285,6 +16578,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "Blocker",
           "package": "uni-util",
@@ -15298,6 +16592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "blockVariableSet",
           "package": "uni-util",
@@ -15307,6 +16602,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "blockVariableSet",
           "normalized": "Blocker a-\u003eBlockID-\u003eIO(VariableSetSource a)",
@@ -15322,6 +16618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "closeBlocker",
           "package": "uni-util",
@@ -15331,6 +16628,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "closeBlocker",
           "normalized": "Blocker a-\u003eBlockID-\u003eIO()",
@@ -15346,6 +16644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "newBlockID",
           "package": "uni-util",
@@ -15355,6 +16654,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "newBlockID",
           "package": "uni-util",
@@ -15368,6 +16668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "newBlocker",
           "package": "uni-util",
@@ -15377,6 +16678,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "newBlocker",
           "normalized": "VariableSetSource a-\u003eIO(Blocker a)",
@@ -15392,6 +16694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "newBlockerWithPreAction",
           "package": "uni-util",
@@ -15401,6 +16704,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "newBlockerWithPreAction",
           "normalized": "VariableSetSource a-\u003e([a]-\u003eIO())-\u003eIO(Blocker a)",
@@ -15416,6 +16720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VariableSetBlocker",
           "name": "openBlocker",
           "package": "uni-util",
@@ -15425,6 +16730,7 @@
         },
         "index": {
           "hierarchy": "Util VariableSetBlocker",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VariableSetBlocker",
           "name": "openBlocker",
           "normalized": "Blocker a-\u003eBlockID-\u003eIO()",
@@ -15440,6 +16746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VisitedSet",
           "name": "VisitedSet",
           "package": "uni-util",
@@ -15448,6 +16755,7 @@
         },
         "index": {
           "hierarchy": "Util VisitedSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VisitedSet",
           "name": "VisitedSet",
           "package": "uni-util",
@@ -15461,6 +16769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VisitedSet",
           "name": "VisitedSet",
           "package": "uni-util",
@@ -15469,6 +16778,7 @@
         },
         "index": {
           "hierarchy": "Util VisitedSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VisitedSet",
           "name": "VisitedSet",
           "package": "uni-util",
@@ -15482,6 +16792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VisitedSet",
           "name": "isVisited",
           "package": "uni-util",
@@ -15491,6 +16802,7 @@
         },
         "index": {
           "hierarchy": "Util VisitedSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VisitedSet",
           "name": "isVisited",
           "normalized": "VisitedSet a-\u003ea-\u003eIO Bool",
@@ -15506,6 +16818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.VisitedSet",
           "name": "newVisitedSet",
           "package": "uni-util",
@@ -15515,6 +16828,7 @@
         },
         "index": {
           "hierarchy": "Util VisitedSet",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.VisitedSet",
           "name": "newVisitedSet",
           "package": "uni-util",
@@ -15529,6 +16843,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe WBFiles module is in charge of decoding information from the command\n line and making it available to the rest of the UniForM workbench.\n\u003c/p\u003e\u003cp\u003eAll UniForM options have names beginning with \u003ca\u003e--uni\u003c/a\u003e.  It is hoped\n that this won't be a problem for programs that use the UniForM workbench.\n However, if it is, the function\n    setAlternateArgs\n should be called before any of the functions in the UniForM workbench,\n as this will prevent the program arguments being read by UniForM.\n\u003c/p\u003e\u003cp\u003eThe\n \u003ccode\u003e\n    --uni\n \u003c/code\u003e\n option prints a help message, as do other options beginning with\n --uni which are not understood.\n\u003c/p\u003e\u003cp\u003eThe\n \u003ccode\u003e\n    --uni-parameters\n \u003c/code\u003e\n option prints the parameters at the given position on the command\n line.\n\u003c/p\u003e\u003cp\u003eThe\n \u003ccode\u003e\n    --uni-version\n \u003c/code\u003e\n option prints the current version of uni.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\n --uni-\u003ca\u003eoption-name\u003c/a\u003e:\u003ca\u003eoption-value\u003c/a\u003e\n \u003c/code\u003e\n or equivalently\n \u003ccode\u003e\n --uni-\u003ca\u003eoption-name\u003c/a\u003e=\u003ca\u003eoption-value\u003c/a\u003e\n \u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eAll options can also be overridden by environment variables.\n The environment variable corresponding to \u003ca\u003eoption-name\u003c/a\u003e has the\n name \u003ccode\u003eUNI\u003ca\u003eOPTION-NAME\u003c/a\u003e\u003c/code\u003e\n where \u003ccode\u003e\u003ca\u003eOPTION-NAME\u003c/a\u003e\u003c/code\u003e is the capitalised name of the option.\n\u003c/p\u003e\u003cp\u003eThe default set of options are as follows:\n\u003c/p\u003e\u003cp\u003eoption-name   explanation\n\u003c/p\u003e\u003cp\u003ewish          The filename of the wish program\n daVinci       The filename of daVinci\n gnuclient     The filename of gnuclient\n editor        A command to execute the text editor.\n               This uses the CommandStringSub format, with defined\n               substitutions %F =\u003e where the file is to be found and\n               %N =\u003e what the user-visible name (for example, of the\n               buffer) should be.\n top           The directory in which UniForM is installed\n\u003c/p\u003e\u003cp\u003edaVinciIcons  The directory containing daVinci icons\n\u003c/p\u003e\u003cp\u003eworkingDir    The directory used for temporary files.\n\u003c/p\u003e\u003cp\u003eserver        The host name of the server\n user          The user-id to use connecting to the server\n password      The password to use connecting to the server\n port          The port on the server to connect to\n xmlPort       The port for the XML server (which has a different default)\n\u003c/p\u003e\u003cp\u003edebug         Where Debug.debug messages should go\n\u003c/p\u003e\u003cp\u003eserverDir     Where Server stores its files\n serverId      The unique identifier of the server.\n               Since this really does have to be globally unique,\n               it is by default constructed from a combination\n               of the machine's hostname and the server port.\n               You had better not change it unless you know what\n               you are doing.\n\u003c/p\u003e\u003cp\u003eMMiSSDTD      Location of DTD file for MMiSS.\n\u003c/p\u003e\u003cp\u003ehosts         Location of hosts file.\n\u003c/p\u003e\u003cp\u003etoolTimeOut   Time-out waiting for responses from a tool when\n               it starts up and we are doing challenge-response\n               verification.\n windowsTick   (Windows only) time in microseconds we wait between\n               polling Wish.\n\u003c/p\u003e\u003cp\u003eThe options wish, daVinci, daVinciIcons, top\n should all be set automatically by the configure procedure.\n The configure procedure constructs a variable DEFAULTOPTIONS\n and writes it into the file default_options.c.\n\u003c/p\u003e\u003cp\u003ereturns a string with exactly the same syntax as the command line\n so a typical one might be\n    \u003ccode\u003e\n    --uni-wish:\u003cem\u003eusr\u003c/em\u003ebin\u003cem\u003ewish --uni-daVinci:\u003c/em\u003eusr\u003cem\u003ebin\u003c/em\u003edaVinci\n    \u003c/code\u003e\n    ... (and so on)\n\u003c/p\u003e\u003cp\u003eHowever one difference is that options which are not understood\n in the default_options string are simply ignored.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "WBFiles",
           "package": "uni-util",
@@ -15538,6 +16853,7 @@
         "index": {
           "description": "The WBFiles module is in charge of decoding information from the command line and making it available to the rest of the UniForM workbench All UniForM options have names beginning with uni It is hoped that this won be problem for programs that use the UniForM workbench However if it is the function setAlternateArgs should be called before any of the functions in the UniForM workbench as this will prevent the program arguments being read by UniForM The uni option prints help message as do other options beginning with uni which are not understood The uni-parameters option prints the parameters at the given position on the command line The uni-version option prints the current version of uni uni option-name option-value or equivalently uni option-name option-value All options can also be overridden by environment variables The environment variable corresponding to option-name has the name UNI OPTION-NAME where OPTION-NAME is the capitalised name of the option The default set of options are as follows option-name explanation wish The filename of the wish program daVinci The filename of daVinci gnuclient The filename of gnuclient editor command to execute the text editor This uses the CommandStringSub format with defined substitutions where the file is to be found and what the user-visible name for example of the buffer should be top The directory in which UniForM is installed daVinciIcons The directory containing daVinci icons workingDir The directory used for temporary files server The host name of the server user The user-id to use connecting to the server password The password to use connecting to the server port The port on the server to connect to xmlPort The port for the XML server which has different default debug Where Debug.debug messages should go serverDir Where Server stores its files serverId The unique identifier of the server Since this really does have to be globally unique it is by default constructed from combination of the machine hostname and the server port You had better not change it unless you know what you are doing MMiSSDTD Location of DTD file for MMiSS hosts Location of hosts file toolTimeOut Time-out waiting for responses from tool when it starts up and we are doing challenge-response verification windowsTick Windows only time in microseconds we wait between polling Wish The options wish daVinci daVinciIcons top should all be set automatically by the configure procedure The configure procedure constructs variable DEFAULTOPTIONS and writes it into the file default options.c returns string with exactly the same syntax as the command line so typical one might be uni-wish usr bin wish uni-daVinci usr bin daVinci and so on However one difference is that options which are not understood in the default options string are simply ignored",
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "WBFiles",
           "package": "uni-util",
@@ -15551,6 +16867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "ArgType",
           "package": "uni-util",
@@ -15559,6 +16876,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "ArgType",
           "package": "uni-util",
@@ -15572,6 +16890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "ArgValue",
           "package": "uni-util",
@@ -15580,6 +16899,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "ArgValue",
           "package": "uni-util",
@@ -15593,6 +16913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "ProgramArgument",
           "package": "uni-util",
@@ -15601,6 +16922,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "ProgramArgument",
           "package": "uni-util",
@@ -15614,6 +16936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "BOOL",
           "package": "uni-util",
@@ -15623,6 +16946,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "BOOL",
           "package": "uni-util",
@@ -15636,6 +16960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "BoolValue",
           "package": "uni-util",
@@ -15645,6 +16970,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "BoolValue",
           "package": "uni-util",
@@ -15658,6 +16984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "INT",
           "package": "uni-util",
@@ -15667,6 +16994,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "INT",
           "package": "uni-util",
@@ -15680,6 +17008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "IntValue",
           "package": "uni-util",
@@ -15689,6 +17018,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "IntValue",
           "package": "uni-util",
@@ -15702,6 +17032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "ProgramArgument",
           "package": "uni-util",
@@ -15711,6 +17042,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "ProgramArgument",
           "package": "uni-util",
@@ -15724,6 +17056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "STRING",
           "package": "uni-util",
@@ -15733,6 +17066,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "STRING",
           "package": "uni-util",
@@ -15746,6 +17080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "StringValue",
           "package": "uni-util",
@@ -15755,6 +17090,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "StringValue",
           "package": "uni-util",
@@ -15768,6 +17104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "argType",
           "package": "uni-util",
@@ -15777,6 +17114,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "argType",
           "package": "uni-util",
@@ -15790,6 +17128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "defaultVal",
           "package": "uni-util",
@@ -15799,6 +17138,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "defaultVal",
           "package": "uni-util",
@@ -15812,6 +17152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getArgBool",
           "package": "uni-util",
@@ -15821,6 +17162,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getArgBool",
           "normalized": "String-\u003eIO(Maybe Bool)",
@@ -15836,6 +17178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getArgInt",
           "package": "uni-util",
@@ -15845,6 +17188,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getArgInt",
           "normalized": "String-\u003eIO(Maybe Int)",
@@ -15860,6 +17204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getArgString",
           "package": "uni-util",
@@ -15869,6 +17214,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getArgString",
           "normalized": "String-\u003eIO(Maybe String)",
@@ -15884,6 +17230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getCouplingDir",
           "package": "uni-util",
@@ -15893,6 +17240,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getCouplingDir",
           "package": "uni-util",
@@ -15906,6 +17254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getCouplingPort",
           "package": "uni-util",
@@ -15915,6 +17264,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getCouplingPort",
           "package": "uni-util",
@@ -15928,6 +17278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getDaVinciIcons",
           "package": "uni-util",
@@ -15937,6 +17288,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getDaVinciIcons",
           "package": "uni-util",
@@ -15950,6 +17302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getDaVinciPath",
           "package": "uni-util",
@@ -15959,6 +17312,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getDaVinciPath",
           "package": "uni-util",
@@ -15972,6 +17326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getDebugFileName",
           "package": "uni-util",
@@ -15981,6 +17336,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getDebugFileName",
           "package": "uni-util",
@@ -15994,6 +17350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getEditorString",
           "package": "uni-util",
@@ -16003,6 +17360,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getEditorString",
           "package": "uni-util",
@@ -16016,6 +17374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getGnuClientPath",
           "package": "uni-util",
@@ -16025,6 +17384,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getGnuClientPath",
           "package": "uni-util",
@@ -16038,6 +17398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getHosts",
           "package": "uni-util",
@@ -16047,6 +17408,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getHosts",
           "package": "uni-util",
@@ -16060,6 +17422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getMMiSSAPIDTD",
           "package": "uni-util",
@@ -16069,6 +17432,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getMMiSSAPIDTD",
           "package": "uni-util",
@@ -16082,6 +17446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getMMiSSDTD",
           "package": "uni-util",
@@ -16091,6 +17456,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getMMiSSDTD",
           "package": "uni-util",
@@ -16104,6 +17470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getPassword",
           "package": "uni-util",
@@ -16113,6 +17480,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getPassword",
           "package": "uni-util",
@@ -16126,6 +17494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getPort",
           "package": "uni-util",
@@ -16135,6 +17504,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getPort",
           "package": "uni-util",
@@ -16148,6 +17518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getServer",
           "package": "uni-util",
@@ -16157,6 +17528,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getServer",
           "package": "uni-util",
@@ -16170,6 +17542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getServerDir",
           "package": "uni-util",
@@ -16179,6 +17552,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getServerDir",
           "package": "uni-util",
@@ -16192,6 +17566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getServerFile",
           "package": "uni-util",
@@ -16201,6 +17576,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getServerFile",
           "normalized": "String-\u003eIO String",
@@ -16216,6 +17592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getServerId",
           "package": "uni-util",
@@ -16225,6 +17602,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getServerId",
           "package": "uni-util",
@@ -16238,6 +17616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getTOP",
           "package": "uni-util",
@@ -16247,6 +17626,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getTOP",
           "package": "uni-util",
@@ -16261,6 +17641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a path within the top directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getTOPPath",
           "package": "uni-util",
@@ -16271,6 +17652,7 @@
         "index": {
           "description": "Get path within the top directory",
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getTOPPath",
           "normalized": "[String]-\u003eIO String",
@@ -16286,6 +17668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getToolTimeOut",
           "package": "uni-util",
@@ -16295,6 +17678,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getToolTimeOut",
           "package": "uni-util",
@@ -16308,6 +17692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getUser",
           "package": "uni-util",
@@ -16317,6 +17702,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getUser",
           "package": "uni-util",
@@ -16330,6 +17716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getWishPath",
           "package": "uni-util",
@@ -16339,6 +17726,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getWishPath",
           "package": "uni-util",
@@ -16352,6 +17740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getWorkingDir",
           "package": "uni-util",
@@ -16361,6 +17750,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getWorkingDir",
           "package": "uni-util",
@@ -16374,6 +17764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "getXMLPort",
           "package": "uni-util",
@@ -16383,6 +17774,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "getXMLPort",
           "package": "uni-util",
@@ -16396,6 +17788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "optionHelp",
           "package": "uni-util",
@@ -16405,6 +17798,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "optionHelp",
           "package": "uni-util",
@@ -16418,6 +17812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "optionName",
           "package": "uni-util",
@@ -16427,6 +17822,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "optionName",
           "package": "uni-util",
@@ -16440,6 +17836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "parseArguments",
           "package": "uni-util",
@@ -16449,6 +17846,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "parseArguments",
           "normalized": "IO()",
@@ -16464,6 +17862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "parseArgumentsRequiring",
           "package": "uni-util",
@@ -16473,6 +17872,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "parseArgumentsRequiring",
           "normalized": "[String]-\u003eIO()",
@@ -16488,6 +17888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "parseTheseArguments",
           "package": "uni-util",
@@ -16497,6 +17898,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "parseTheseArguments",
           "normalized": "[ProgramArgument]-\u003eIO()",
@@ -16512,6 +17914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "parseTheseArgumentsRequiring",
           "package": "uni-util",
@@ -16521,6 +17924,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "parseTheseArgumentsRequiring",
           "normalized": "[ProgramArgument]-\u003e[String]-\u003eIO()",
@@ -16536,6 +17940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "setAlternateArgs",
           "package": "uni-util",
@@ -16545,6 +17950,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "setAlternateArgs",
           "normalized": "[String]-\u003eIO()",
@@ -16560,6 +17966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:29:38 UTC 2014",
           "module": "Util.WBFiles",
           "name": "usualProgramArguments",
           "package": "uni-util",
@@ -16569,6 +17976,7 @@
         },
         "index": {
           "hierarchy": "Util WBFiles",
+          "indexed": "2014-03-11T20:29:38",
           "module": "Util.WBFiles",
           "name": "usualProgramArguments",
           "normalized": "[ProgramArgument]",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "BNFC-meta"
+        "phrase": "BNFC-meta",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hurdle"
+        "phrase": "hurdle",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "genetics"
+        "phrase": "genetics",
+        "type": "phrase"
       },
       "type": "context"
     }

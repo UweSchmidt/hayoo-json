@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "labeled-graph"
+        "phrase": "labeled-graph",
+        "type": "phrase"
       },
       "type": "context"
     }

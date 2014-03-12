@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "functors"
+        "phrase": "functors",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "Syntax",
           "package": "functors",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "Syntax",
           "package": "functors",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlternative syntax for \u003ccode\u003e\u003ca\u003e\u003c*\u003e\u003c/a\u003e\u003c/code\u003e that fits better with the one-letter \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e from this module.\n\u003c/p\u003e\u003cpre\u003einfixl 4 &\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "(&)",
           "package": "functors",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Alternative syntax for that fits better with the one-letter from this module infixl",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "(&) &",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralised version of \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e that is equivalent to \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e, but with the fixity of standard \u003ccode\u003e\u003ca\u003e.\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003einfixr 9 .\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "(.)",
           "package": "functors",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Generalised version of that is equivalent to fmap but with the fixity of standard infixr",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "(.) .",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003es inside Functors (two levels).\n\u003c/p\u003e\u003cpre\u003einfixr 9 .:\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "(.:)",
           "package": "functors",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Nested fmap for Functor inside Functors two levels infixr",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "(.:) .:",
           "normalized": "(a-\u003eb)-\u003ec(d a)-\u003ec(d b)",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNested \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003es inside Functors inside Functors (three levels).\n\u003c/p\u003e\u003cpre\u003einfixr 9 .::\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "(.::)",
           "package": "functors",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Nested fmap for Functor inside Functors inside Functors three levels infixr",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "(.::) .::",
           "normalized": "(a-\u003eb)-\u003ec(d(e a))-\u003ec(d(e b))",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003e.:\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "binary",
           "package": "functors",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Alias for",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "binary",
           "normalized": "(a-\u003eb)-\u003ec(d a)-\u003ec(d b)",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralised version of \u003ccode\u003e\u003ca\u003eflip\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "flip",
           "package": "functors",
@@ -175,6 +188,7 @@
         "index": {
           "description": "Generalised version of flip",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "flip",
           "normalized": "a(b-\u003ec)-\u003eb-\u003ea c",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003e.::\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "trinary",
           "package": "functors",
@@ -200,6 +215,7 @@
         "index": {
           "description": "Alias for",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "trinary",
           "normalized": "(a-\u003eb)-\u003ec(d(e a))-\u003ec(d(e b))",
@@ -215,6 +231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAlias for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:13:38 UTC 2014",
           "module": "Data.Functor.Syntax",
           "name": "unary",
           "package": "functors",
@@ -225,6 +242,7 @@
         "index": {
           "description": "Alias for fmap",
           "hierarchy": "Data Functor Syntax",
+          "indexed": "2014-03-11T18:13:38",
           "module": "Data.Functor.Syntax",
           "name": "unary",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",

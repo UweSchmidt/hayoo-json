@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-dns"
+        "phrase": "network-dns",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides Domain Name System data structures and\n   (de)serialization routines.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DNS",
           "package": "network-dns",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module provides Domain Name System data structures and de serialization routines",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DNS",
           "package": "network-dns",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource Record data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsData",
           "package": "network-dns",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Resource Record data",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsData",
           "package": "network-dns",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eErrors returned in responses.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsError",
           "package": "network-dns",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Errors returned in responses",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsError",
           "package": "network-dns",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsId",
           "package": "network-dns",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Message identifier",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsId",
           "package": "network-dns",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDNS query type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsQType",
           "package": "network-dns",
@@ -120,6 +129,7 @@
         "index": {
           "description": "DNS query type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsQType",
           "package": "network-dns",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDNS question.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsQuestion",
           "package": "network-dns",
@@ -143,6 +154,7 @@
         "index": {
           "description": "DNS question",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsQuestion",
           "package": "network-dns",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource Record.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsRecord",
           "package": "network-dns",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Resource Record",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsRecord",
           "package": "network-dns",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsReq",
           "package": "network-dns",
@@ -189,6 +204,7 @@
         "index": {
           "description": "Request message",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsReq",
           "package": "network-dns",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResponse message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsResp",
           "package": "network-dns",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Response message",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsResp",
           "package": "network-dns",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eResource Record type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsType",
           "package": "network-dns",
@@ -235,6 +254,7 @@
         "index": {
           "description": "Resource Record type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsType",
           "package": "network-dns",
@@ -248,6 +268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "Host4Addr",
           "package": "network-dns",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "Host4Addr",
           "package": "network-dns",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "Host6Addr",
           "package": "network-dns",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "Host6Addr",
           "package": "network-dns",
@@ -291,6 +315,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost address. Either a host name or an IP address.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "HostAddr",
           "package": "network-dns",
@@ -300,6 +325,7 @@
         "index": {
           "description": "Host address Either host name or an IP address",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "HostAddr",
           "package": "network-dns",
@@ -314,6 +340,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "HostName",
           "package": "network-dns",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Host name",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "HostName",
           "package": "network-dns",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "Addr6DnsType",
           "package": "network-dns",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "Addr6DnsType",
           "package": "network-dns",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "AddrDnsType",
           "package": "network-dns",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "AddrDnsType",
           "package": "network-dns",
@@ -381,6 +413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll record types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "AllDnsType",
           "package": "network-dns",
@@ -391,6 +424,7 @@
         "index": {
           "description": "All record types",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "AllDnsType",
           "package": "network-dns",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "CNameDnsType",
           "package": "network-dns",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "CNameDnsType",
           "package": "network-dns",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsData",
           "package": "network-dns",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsData",
           "package": "network-dns",
@@ -449,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsErrResp",
           "package": "network-dns",
@@ -459,6 +498,7 @@
         "index": {
           "description": "Error response",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsErrResp",
           "package": "network-dns",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsInvReq",
           "package": "network-dns",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Inverse query",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsInvReq",
           "package": "network-dns",
@@ -496,6 +538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsQuestion",
           "package": "network-dns",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsQuestion",
           "package": "network-dns",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsRecord",
           "package": "network-dns",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsRecord",
           "package": "network-dns",
@@ -541,6 +587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStandard query\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsReq",
           "package": "network-dns",
@@ -551,6 +598,7 @@
         "index": {
           "description": "Standard query",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsReq",
           "package": "network-dns",
@@ -565,6 +613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "DnsResp",
           "package": "network-dns",
@@ -575,6 +624,7 @@
         "index": {
           "description": "Normal response",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "DnsResp",
           "package": "network-dns",
@@ -588,6 +638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "FailureDnsError",
           "package": "network-dns",
@@ -597,6 +648,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "FailureDnsError",
           "package": "network-dns",
@@ -610,6 +662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "FormatDnsError",
           "package": "network-dns",
@@ -619,6 +672,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "FormatDnsError",
           "package": "network-dns",
@@ -632,6 +686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "HostAddr",
           "package": "network-dns",
@@ -641,6 +696,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "HostAddr",
           "package": "network-dns",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "HostName",
           "package": "network-dns",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "HostName",
           "package": "network-dns",
@@ -676,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "MxDnsType",
           "package": "network-dns",
@@ -685,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "MxDnsType",
           "normalized": "DnsType(Word,HostName)",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NameExistsDnsError",
           "package": "network-dns",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NameExistsDnsError",
           "package": "network-dns",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NoNameDnsError",
           "package": "network-dns",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NoNameDnsError",
           "package": "network-dns",
@@ -744,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NoRsDnsError",
           "package": "network-dns",
@@ -753,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NoRsDnsError",
           "package": "network-dns",
@@ -766,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NotAuthDnsError",
           "package": "network-dns",
@@ -775,6 +842,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NotAuthDnsError",
           "package": "network-dns",
@@ -788,6 +856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NotImplDnsError",
           "package": "network-dns",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NotImplDnsError",
           "package": "network-dns",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NotInZoneDnsError",
           "package": "network-dns",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NotInZoneDnsError",
           "package": "network-dns",
@@ -832,6 +904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "NsDnsType",
           "package": "network-dns",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "NsDnsType",
           "package": "network-dns",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "PtrDnsType",
           "package": "network-dns",
@@ -863,6 +938,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "PtrDnsType",
           "package": "network-dns",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "RefusedDnsError",
           "package": "network-dns",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "RefusedDnsError",
           "package": "network-dns",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "RsExistsDnsError",
           "package": "network-dns",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "RsExistsDnsError",
           "package": "network-dns",
@@ -921,6 +1001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "StdDnsType",
           "package": "network-dns",
@@ -931,6 +1012,7 @@
         "index": {
           "description": "Record type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "StdDnsType",
           "package": "network-dns",
@@ -945,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHost4Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHost4Addr",
           "package": "network-dns",
@@ -955,6 +1038,7 @@
         "index": {
           "description": "Host4Addr proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHost4Addr",
           "package": "network-dns",
@@ -969,6 +1053,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHost6Addr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHost6Addr",
           "package": "network-dns",
@@ -979,6 +1064,7 @@
         "index": {
           "description": "Host6Addr proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHost6Addr",
           "package": "network-dns",
@@ -993,6 +1079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHostAddr\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHostAddr",
           "package": "network-dns",
@@ -1003,6 +1090,7 @@
         "index": {
           "description": "HostAddr proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHostAddr",
           "package": "network-dns",
@@ -1017,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHostAddr\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIP\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHostAddrIP",
           "package": "network-dns",
@@ -1027,6 +1116,7 @@
         "index": {
           "description": "HostAddr IP proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHostAddrIP",
           "package": "network-dns",
@@ -1041,6 +1131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHostAddr\u003c/a\u003e\u003c/code\u003e \u003cem\u003ea\u003c/em\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHostAddrOf",
           "package": "network-dns",
@@ -1051,6 +1142,7 @@
         "index": {
           "description": "HostAddr proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHostAddrOf",
           "normalized": "Proxy a-\u003eProxy(HostAddr a)",
@@ -1067,6 +1159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eHostName\u003c/a\u003e\u003c/code\u003e proxy value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "aHostName",
           "package": "network-dns",
@@ -1077,6 +1170,7 @@
         "index": {
           "description": "HostName proxy value",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "aHostName",
           "package": "network-dns",
@@ -1091,6 +1185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name for reverse DNS lookups.\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earpaHostName\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eIPv4\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eip4FromOctets\u003c/a\u003e\u003c/code\u003e \u003cem\u003e1\u003c/em\u003e \u003cem\u003e2\u003c/em\u003e \u003cem\u003e3\u003c/em\u003e \u003cem\u003e4\u003c/em\u003e))) = \u003cem\u003e\"4.3.2.1.in-addr.arpa\"\u003c/em\u003e\n   \u003ccode\u003e\u003ca\u003etoString\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003earpaHostName\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eIPv6\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eip6FromWords\u003c/a\u003e\u003c/code\u003e \u003cem\u003e1\u003c/em\u003e \u003cem\u003e2\u003c/em\u003e \u003cem\u003e3\u003c/em\u003e \u003cem\u003e4\u003c/em\u003e \u003cem\u003e5\u003c/em\u003e \u003cem\u003e6\u003c/em\u003e \u003cem\u003e7\u003c/em\u003e \u003cem\u003e8\u003c/em\u003e))) = \u003cem\u003e\"8.0.0.0.7.0.0.0.6.0.0.0.5.0.0.0.4.0.0.0.3.0.0.0.2.0.0.0.1.0.0.0.ip6.arpa\"\u003c/em\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "arpaHostName",
           "package": "network-dns",
@@ -1101,6 +1196,7 @@
         "index": {
           "description": "Host name for reverse DNS lookups toString arpaHostName IPv4 ip4FromOctets in-addr.arpa toString arpaHostName IPv6 ip6FromWords ip6.arpa",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "arpaHostName",
           "normalized": "IP-\u003eHostName",
@@ -1117,6 +1213,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsData",
           "package": "network-dns",
@@ -1127,6 +1224,7 @@
         "index": {
           "description": "The data",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsData",
           "package": "network-dns",
@@ -1141,6 +1239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAsk about the specified host name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsQName",
           "package": "network-dns",
@@ -1151,6 +1250,7 @@
         "index": {
           "description": "Ask about the specified host name",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsQName",
           "package": "network-dns",
@@ -1165,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsQType",
           "package": "network-dns",
@@ -1175,6 +1276,7 @@
         "index": {
           "description": "Query type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsQType",
           "package": "network-dns",
@@ -1189,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric representation of a DNS query type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsQTypeCode",
           "package": "network-dns",
@@ -1199,6 +1302,7 @@
         "index": {
           "description": "Numeric representation of DNS query type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsQTypeCode",
           "normalized": "DnsQType-\u003eWord",
@@ -1215,6 +1319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRecData",
           "package": "network-dns",
@@ -1225,6 +1330,7 @@
         "index": {
           "description": "Record data",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRecData",
           "package": "network-dns",
@@ -1239,6 +1345,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecord owner\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRecOwner",
           "package": "network-dns",
@@ -1249,6 +1356,7 @@
         "index": {
           "description": "Record owner",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRecOwner",
           "package": "network-dns",
@@ -1263,6 +1371,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMaximum caching time in secords\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRecTtl",
           "package": "network-dns",
@@ -1273,6 +1382,7 @@
         "index": {
           "description": "Maximum caching time in secords",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRecTtl",
           "package": "network-dns",
@@ -1287,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMessage identifier\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsReqId",
           "package": "network-dns",
@@ -1297,6 +1408,7 @@
         "index": {
           "description": "Message identifier",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsReqId",
           "package": "network-dns",
@@ -1311,6 +1423,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIP address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsReqInv",
           "package": "network-dns",
@@ -1321,6 +1434,7 @@
         "index": {
           "description": "IP address",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsReqInv",
           "package": "network-dns",
@@ -1335,6 +1449,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuestion\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsReqQuestion",
           "package": "network-dns",
@@ -1345,6 +1460,7 @@
         "index": {
           "description": "Question",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsReqQuestion",
           "package": "network-dns",
@@ -1359,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursion flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsReqRec",
           "package": "network-dns",
@@ -1369,6 +1486,7 @@
         "index": {
           "description": "Recursion flag",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsReqRec",
           "package": "network-dns",
@@ -1383,6 +1501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncation flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsReqTruncd",
           "package": "network-dns",
@@ -1393,6 +1512,7 @@
         "index": {
           "description": "Truncation flag",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsReqTruncd",
           "package": "network-dns",
@@ -1407,6 +1527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnswer records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespAnswers",
           "package": "network-dns",
@@ -1417,6 +1538,7 @@
         "index": {
           "description": "Answer records",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespAnswers",
           "normalized": "[DnsRecord]",
@@ -1433,6 +1555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthoritative answer flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespAuthd",
           "package": "network-dns",
@@ -1443,6 +1566,7 @@
         "index": {
           "description": "Authoritative answer flag",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespAuthd",
           "package": "network-dns",
@@ -1457,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthority records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespAuths",
           "package": "network-dns",
@@ -1467,6 +1592,7 @@
         "index": {
           "description": "Authority records",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespAuths",
           "normalized": "[DnsRecord]",
@@ -1483,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eError\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespError",
           "package": "network-dns",
@@ -1493,6 +1620,7 @@
         "index": {
           "description": "Error",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespError",
           "package": "network-dns",
@@ -1507,6 +1635,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdditional records\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespExtras",
           "package": "network-dns",
@@ -1517,6 +1646,7 @@
         "index": {
           "description": "Additional records",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespExtras",
           "normalized": "[DnsRecord]",
@@ -1533,6 +1663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest identifer\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespId",
           "package": "network-dns",
@@ -1543,6 +1674,7 @@
         "index": {
           "description": "Request identifer",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespId",
           "package": "network-dns",
@@ -1557,6 +1689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRequest question\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespQuestion",
           "package": "network-dns",
@@ -1567,6 +1700,7 @@
         "index": {
           "description": "Request question",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespQuestion",
           "package": "network-dns",
@@ -1581,6 +1715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRecursive query support flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespRec",
           "package": "network-dns",
@@ -1591,6 +1726,7 @@
         "index": {
           "description": "Recursive query support flag",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespRec",
           "package": "network-dns",
@@ -1605,6 +1741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTruncation flag\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsRespTruncd",
           "package": "network-dns",
@@ -1615,6 +1752,7 @@
         "index": {
           "description": "Truncation flag",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsRespTruncd",
           "package": "network-dns",
@@ -1629,6 +1767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsType",
           "package": "network-dns",
@@ -1639,6 +1778,7 @@
         "index": {
           "description": "The type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsType",
           "package": "network-dns",
@@ -1653,6 +1793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric representation of a Resource Record type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "dnsTypeCode",
           "package": "network-dns",
@@ -1663,6 +1804,7 @@
         "index": {
           "description": "Numeric representation of Resource Record type",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "dnsTypeCode",
           "normalized": "DnsType a-\u003eWord",
@@ -1679,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHost name as a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "hostName",
           "package": "network-dns",
@@ -1689,6 +1832,7 @@
         "index": {
           "description": "Host name as ByteString",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "hostName",
           "normalized": "HostName-\u003eByteString",
@@ -1705,6 +1849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList the \u003ccode\u003e\u003ca\u003eHostName\u003c/a\u003e\u003c/code\u003e labels:\n\u003c/p\u003e\u003cpre\u003e\n   \u003ccode\u003e\u003ca\u003ehostNameLabels\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromJust\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003efromString\u003c/a\u003e\u003c/code\u003e \u003cem\u003e\"www.google.com\"\u003c/em\u003e)) = [\u003cem\u003e\"www\"\u003c/em\u003e, \u003cem\u003e\"google\"\u003c/em\u003e, \u003cem\u003e\"com\"\u003c/em\u003e]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:27:47 UTC 2014",
           "module": "Network.DNS",
           "name": "hostNameLabels",
           "package": "network-dns",
@@ -1715,6 +1860,7 @@
         "index": {
           "description": "List the HostName labels hostNameLabels fromJust fromString www.google.com www google com",
           "hierarchy": "Network DNS",
+          "indexed": "2014-03-11T19:27:47",
           "module": "Network.DNS",
           "name": "hostNameLabels",
           "normalized": "HostName-\u003e[ByteString]",

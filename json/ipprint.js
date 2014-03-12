@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ipprint"
+        "phrase": "ipprint",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:28 UTC 2014",
           "module": "IPPrint",
           "name": "IPPrint",
           "package": "ipprint",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "IPPrint",
+          "indexed": "2014-03-11T18:59:28",
           "module": "IPPrint",
           "name": "IPPrint",
           "package": "ipprint",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:28 UTC 2014",
           "module": "IPPrint",
           "name": "pprint",
           "package": "ipprint",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "IPPrint",
+          "indexed": "2014-03-11T18:59:28",
           "module": "IPPrint",
           "name": "pprint",
           "normalized": "a-\u003eIO()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:28 UTC 2014",
           "module": "IPPrint",
           "name": "pprintWidth",
           "package": "ipprint",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "IPPrint",
+          "indexed": "2014-03-11T18:59:28",
           "module": "IPPrint",
           "name": "pprintWidth",
           "normalized": "Int-\u003ea-\u003eIO()",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:28 UTC 2014",
           "module": "IPPrint",
           "name": "pshow",
           "package": "ipprint",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "IPPrint",
+          "indexed": "2014-03-11T18:59:28",
           "module": "IPPrint",
           "name": "pshow",
           "normalized": "a-\u003eString",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:28 UTC 2014",
           "module": "IPPrint",
           "name": "pshowWidth",
           "package": "ipprint",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "IPPrint",
+          "indexed": "2014-03-11T18:59:28",
           "module": "IPPrint",
           "name": "pshowWidth",
           "normalized": "Int-\u003ea-\u003eString",

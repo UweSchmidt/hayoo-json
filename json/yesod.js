@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod"
+        "phrase": "yesod",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "Config",
           "package": "yesod",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "Config",
           "package": "yesod",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDynamic per-environment configuration which can be loaded at\n   run-time negating the need to recompile between environments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "AppConfig",
           "package": "yesod",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Dynamic per-environment configuration which can be loaded at run-time negating the need to recompile between environments",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "AppConfig",
           "package": "yesod",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "ConfigSettings",
           "package": "yesod",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "ConfigSettings",
           "package": "yesod",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA yesod-provided \u003ccode\u003e\u003ccode\u003eAppEnv\u003c/code\u003e\u003c/code\u003e, allows for Development, Testing, and\n   Production environments\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "DefaultEnv",
           "package": "yesod",
@@ -93,6 +100,7 @@
         "index": {
           "description": "yesod-provided AppEnv allows for Development Testing and Production environments",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "DefaultEnv",
           "package": "yesod",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "AppConfig",
           "package": "yesod",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "AppConfig",
           "package": "yesod",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "ConfigSettings",
           "package": "yesod",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "ConfigSettings",
           "package": "yesod",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "Development",
           "package": "yesod",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "Development",
           "package": "yesod",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "Production",
           "package": "yesod",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "Production",
           "package": "yesod",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "Staging",
           "package": "yesod",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "Staging",
           "package": "yesod",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "Testing",
           "package": "yesod",
@@ -225,6 +244,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "Testing",
           "package": "yesod",
@@ -238,6 +258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "appEnv",
           "package": "yesod",
@@ -247,6 +268,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "appEnv",
           "package": "yesod",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "appExtra",
           "package": "yesod",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "appExtra",
           "package": "yesod",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "appHost",
           "package": "yesod",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "appHost",
           "package": "yesod",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "appPort",
           "package": "yesod",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "appPort",
           "package": "yesod",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "appRoot",
           "package": "yesod",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "appRoot",
           "package": "yesod",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault config settings.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "configSettings",
           "package": "yesod",
@@ -359,6 +390,7 @@
         "index": {
           "description": "Default config settings",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "configSettings",
           "normalized": "a-\u003eConfigSettings a()",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary value, used below, to indicate the current running\n environment. Usually, you will use \u003ccode\u003e\u003ca\u003eDefaultEnv\u003c/a\u003e\u003c/code\u003e for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "csEnv",
           "package": "yesod",
@@ -385,6 +418,7 @@
         "index": {
           "description": "An arbitrary value used below to indicate the current running environment Usually you will use DefaultEnv for this type",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "csEnv",
           "package": "yesod",
@@ -399,6 +433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the path to the YAML config file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "csFile",
           "package": "yesod",
@@ -409,6 +444,7 @@
         "index": {
           "description": "Return the path to the YAML config file",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "csFile",
           "normalized": "a-\u003eIO FilePath",
@@ -425,6 +461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the sub-object (if relevant) from the given YAML source which\n contains the specific settings for the current environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "csGetObject",
           "package": "yesod",
@@ -435,6 +472,7 @@
         "index": {
           "description": "Get the sub-object if relevant from the given YAML source which contains the specific settings for the current environment",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "csGetObject",
           "normalized": "a-\u003eValue-\u003eIO Value",
@@ -451,6 +489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad any extra data, to be used by the application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "csParseExtra",
           "package": "yesod",
@@ -461,6 +500,7 @@
         "index": {
           "description": "Load any extra data to be used by the application",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "csParseExtra",
           "normalized": "a-\u003eObject-\u003eParser b",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad the app config from command line parameters\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "fromArgs",
           "package": "yesod",
@@ -487,6 +528,7 @@
         "index": {
           "description": "Load the app config from command line parameters",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "fromArgs",
           "normalized": "(a-\u003eObject-\u003eParser b)-\u003eIO(AppConfig a b)",
@@ -502,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "fromArgsSettings",
           "package": "yesod",
@@ -511,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "fromArgsSettings",
           "normalized": "(a-\u003eIO(ConfigSettings a b))-\u003eIO(AppConfig a b)",
@@ -527,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAppConfig\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome examples:\n\u003c/p\u003e\u003cpre\u003e -- typical local development\n Development:\n   host: localhost\n   port: 3000\n\n   -- approot: will default to \"\"\n\u003c/pre\u003e\u003cpre\u003e -- typical outward-facing production box\n Production:\n   host: www.example.com\n\n   -- port: will default 80\n   -- host: will default to \"*\"\n   -- approot: will default \"http://www.example.com\"\n\u003c/pre\u003e\u003cpre\u003e -- maybe you're reverse proxying connections to the running app\n -- on some other port\n Production:\n   port: 8080\n   approot: \"http://example.com\"\n   host: \"localhost\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "loadConfig",
           "package": "yesod",
@@ -537,6 +582,7 @@
         "index": {
           "description": "Load an AppConfig Some examples typical local development Development host localhost port approot will default to typical outward-facing production box Production host www.example.com port will default host will default to approot will default http www.example.com maybe you re reverse proxying connections to the running app on some other port Production port approot http example.com host localhost",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "loadConfig",
           "normalized": "ConfigSettings a b-\u003eIO(AppConfig a b)",
@@ -553,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoad your development config (when using \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDefaultEnv\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "loadDevelopmentConfig",
           "package": "yesod",
@@ -563,6 +610,7 @@
         "index": {
           "description": "Load your development config when using DefaultEnv",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "loadDevelopmentConfig",
           "normalized": "IO(AppConfig DefaultEnv())",
@@ -579,6 +627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads the configuration block in the passed file named by the\n   passed environment, yields to the passed function as a mapping.\n\u003c/p\u003e\u003cp\u003eErrors in the case of a bad load or if your function returns\n   \u003ccode\u003eNothing\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Config",
           "name": "withYamlEnvironment",
           "package": "yesod",
@@ -588,6 +637,7 @@
         "index": {
           "description": "Loads the configuration block in the passed file named by the passed environment yields to the passed function as mapping Errors in the case of bad load or if your function returns Nothing",
           "hierarchy": "Yesod Default Config",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Config",
           "name": "withYamlEnvironment",
           "normalized": "FilePath-\u003ea-\u003e(Value-\u003eParser b)-\u003eIO b",
@@ -603,6 +653,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Handlers",
           "name": "Handlers",
           "package": "yesod",
@@ -611,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Handlers",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Handlers",
           "name": "Handlers",
           "package": "yesod",
@@ -624,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Handlers",
           "name": "getFaviconR",
           "package": "yesod",
@@ -633,6 +686,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Handlers",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Handlers",
           "name": "getFaviconR",
           "normalized": "a()",
@@ -648,6 +702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Handlers",
           "name": "getRobotsR",
           "package": "yesod",
@@ -657,6 +712,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Handlers",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Handlers",
           "name": "getRobotsR",
           "normalized": "a()",
@@ -672,6 +728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "Main",
           "package": "yesod",
@@ -680,6 +737,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "Main",
           "package": "yesod",
@@ -693,6 +751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "LogFunc",
           "package": "yesod",
@@ -701,6 +760,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "LogFunc",
           "package": "yesod",
@@ -715,6 +775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun your development app using a custom environment type and loader\n   function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "defaultDevelApp",
           "package": "yesod",
@@ -724,6 +785,7 @@
         "index": {
           "description": "Run your development app using custom environment type and loader function",
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "defaultDevelApp",
           "normalized": "IO(AppConfig a b)-\u003e(AppConfig a b-\u003eIO Application)-\u003eIO(Int,Application)",
@@ -740,6 +802,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun your app, taking environment and port settings from the\n   commandline.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efromArgs\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e helps parse a custom configuration\n\u003c/p\u003e\u003cpre\u003e main :: IO ()\n main = defaultMain (fromArgs parseExtra) makeApplication\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "defaultMain",
           "package": "yesod",
@@ -750,6 +813,7 @@
         "index": {
           "description": "Run your app taking environment and port settings from the commandline fromArgs helps parse custom configuration main IO main defaultMain fromArgs parseExtra makeApplication",
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "defaultMain",
           "normalized": "IO(AppConfig a b)-\u003e(AppConfig a b-\u003eIO Application)-\u003eIO()",
@@ -766,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003edefaultMain\u003c/code\u003e, but gets a logging function back as well as an\n \u003ccode\u003eApplication\u003c/code\u003e to install Warp exception handlers.\n\u003c/p\u003e\u003cp\u003eSince 1.2.5\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "defaultMainLog",
           "package": "yesod",
@@ -776,6 +841,7 @@
         "index": {
           "description": "Same as defaultMain but gets logging function back as well as an Application to install Warp exception handlers Since",
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "defaultMainLog",
           "normalized": "IO(AppConfig a b)-\u003e(AppConfig a b-\u003eIO(Application,LogFunc))-\u003eIO()",
@@ -792,6 +858,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun your application continously, listening for SIGINT and exiting\n   when received\n\u003c/p\u003e\u003cpre\u003e withYourSite :: AppConfig DefaultEnv -\u003e Logger -\u003e (Application -\u003e IO a) -\u003e IO ()\n withYourSite conf logger f = do\n     Settings.withConnectionPool conf $ \\p -\u003e do\n         runConnectionPool (runMigration yourMigration) p\n         defaultRunner f $ YourSite conf logger p\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Main",
           "name": "defaultRunner",
           "package": "yesod",
@@ -802,6 +869,7 @@
         "index": {
           "description": "Run your application continously listening for SIGINT and exiting when received withYourSite AppConfig DefaultEnv Logger Application IO IO withYourSite conf logger do Settings.withConnectionPool conf do runConnectionPool runMigration yourMigration defaultRunner YourSite conf logger",
           "hierarchy": "Yesod Default Main",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Main",
           "name": "defaultRunner",
           "normalized": "(Application-\u003eIO())-\u003eApplication-\u003eIO()",
@@ -818,6 +886,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious utilities used in the scaffolded site.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "Util",
           "package": "yesod",
@@ -827,6 +896,7 @@
         "index": {
           "description": "Various utilities used in the scaffolded site",
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "Util",
           "package": "yesod",
@@ -840,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "TemplateLanguage",
           "package": "yesod",
@@ -848,6 +919,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "TemplateLanguage",
           "package": "yesod",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "WidgetFileSettings",
           "package": "yesod",
@@ -869,6 +942,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "WidgetFileSettings",
           "package": "yesod",
@@ -882,6 +956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "TemplateLanguage",
           "package": "yesod",
@@ -891,6 +966,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "TemplateLanguage",
           "package": "yesod",
@@ -905,6 +981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn implementation of \u003ccode\u003e\u003ca\u003eaddStaticContent\u003c/a\u003e\u003c/code\u003e which stores the contents in an\n external file. Files are created in the given static folder with names based\n on a hash of their content. This allows expiration dates to be set far in\n the future without worry of users receiving stale content.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "addStaticContentExternal",
           "package": "yesod",
@@ -914,6 +991,7 @@
         "index": {
           "description": "An implementation of addStaticContent which stores the contents in an external file Files are created in the given static folder with names based on hash of their content This allows expiration dates to be set far in the future without worry of users receiving stale content",
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "addStaticContentExternal",
           "normalized": "(ByteString-\u003eEither a ByteString)-\u003e(ByteString-\u003eString)-\u003eFilePath-\u003e([Text]-\u003eRoute b)-\u003eText-\u003eText-\u003eByteString-\u003eHandlerT b IO(Maybe(Either Text(Route b,[(Text,Text)])))",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "defaultTemplateLanguages",
           "package": "yesod",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "defaultTemplateLanguages",
           "normalized": "HamletSettings-\u003e[TemplateLanguage]",
@@ -954,6 +1034,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eexpects a file extension for each type, e.g: hamlet lucius julius\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "globFile",
           "package": "yesod",
@@ -964,6 +1045,7 @@
         "index": {
           "description": "expects file extension for each type e.g hamlet lucius julius",
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "globFile",
           "normalized": "String-\u003eString-\u003eFilePath",
@@ -979,6 +1061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "tlExtension",
           "package": "yesod",
@@ -988,6 +1071,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "tlExtension",
           "package": "yesod",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "tlNoReload",
           "package": "yesod",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "tlNoReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1025,6 +1111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "tlReload",
           "package": "yesod",
@@ -1034,6 +1121,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "tlReload",
           "normalized": "FilePath-\u003eQ Exp",
@@ -1049,6 +1137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "tlRequiresToWidget",
           "package": "yesod",
@@ -1058,6 +1147,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "tlRequiresToWidget",
           "package": "yesod",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "wfsHamletSettings",
           "package": "yesod",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "wfsHamletSettings",
           "normalized": "WidgetFileSettings-\u003eHamletSettings",
@@ -1095,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "wfsLanguages",
           "package": "yesod",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "wfsLanguages",
           "normalized": "WidgetFileSettings-\u003eHamletSettings-\u003e[TemplateLanguage]",
@@ -1119,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "widgetFileNoReload",
           "package": "yesod",
@@ -1128,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "widgetFileNoReload",
           "normalized": "WidgetFileSettings-\u003eFilePath-\u003eQ Exp",
@@ -1143,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod.Default.Util",
           "name": "widgetFileReload",
           "package": "yesod",
@@ -1152,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "Yesod Default Util",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod.Default.Util",
           "name": "widgetFileReload",
           "normalized": "WidgetFileSettings-\u003eFilePath-\u003eQ Exp",
@@ -1168,6 +1266,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module simply re-exports from other modules for your convenience.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:44:58 UTC 2014",
           "module": "Yesod",
           "name": "Yesod",
           "package": "yesod",
@@ -1177,6 +1276,7 @@
         "index": {
           "description": "This module simply re-exports from other modules for your convenience",
           "hierarchy": "Yesod",
+          "indexed": "2014-03-11T20:44:58",
           "module": "Yesod",
           "name": "Yesod",
           "package": "yesod",

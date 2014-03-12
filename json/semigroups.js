@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "semigroups"
+        "phrase": "semigroups",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA NonEmpty list forms a monad as per list, but always contains at least\n one element.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "semigroups",
@@ -28,6 +29,7 @@
         "index": {
           "description": "NonEmpty list forms monad as per list but always contains at least one element",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "semigroups",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "semigroups",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "NonEmpty",
           "package": "semigroups",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003exs !! n\u003c/code\u003e returns the element of the stream \u003ccode\u003exs\u003c/code\u003e at index\n \u003ccode\u003en\u003c/code\u003e. Note that the head of the stream has index 0.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBeware\u003c/em\u003e: a negative or out-of-bounds index will cause an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "(!!)",
           "package": "semigroups",
@@ -73,6 +78,7 @@
         "index": {
           "description": "xs returns the element of the stream xs at index Note that the head of the stream has index Beware negative or out-of-bounds index will cause an error",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "(!!) !!",
           "normalized": "NonEmpty a-\u003eInt-\u003ea",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepend an element to the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "(\u003c|)",
           "package": "semigroups",
@@ -98,6 +105,7 @@
         "index": {
           "description": "Prepend an element to the stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "(\u003c|) \u003c|",
           "normalized": "a-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -112,6 +120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": ":|",
           "package": "semigroups",
@@ -121,6 +130,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": ":|",
           "normalized": "a[a]",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ccode\u003e\u003ca\u003ebreak\u003c/a\u003e\u003c/code\u003e p\u003c/code\u003e function is equivalent to \u003ccode\u003e\u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e (not . p)\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "break",
           "package": "semigroups",
@@ -146,6 +157,7 @@
         "index": {
           "description": "The break function is equivalent to span not",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "break",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e([a],[a])",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSynonym for \u003ccode\u003e\u003ca\u003e\u003c|\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "cons",
           "package": "semigroups",
@@ -171,6 +184,7 @@
         "index": {
           "description": "Synonym for",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "cons",
           "normalized": "a-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e xs\u003c/code\u003e returns the infinite repetition of \u003ccode\u003exs\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e cycle [1,2,3] = 1 :| [2,3,1,2,3,...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "cycle",
           "package": "semigroups",
@@ -196,6 +211,7 @@
         "index": {
           "description": "cycle xs returns the infinite repetition of xs cycle",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "cycle",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -211,6 +227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edrop\u003c/a\u003e\u003c/code\u003e n xs\u003c/code\u003e drops the first \u003ccode\u003en\u003c/code\u003e elements off the front of\n the sequence \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "drop",
           "package": "semigroups",
@@ -221,6 +238,7 @@
         "index": {
           "description": "drop xs drops the first elements off the front of the sequence xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "drop",
           "normalized": "Int-\u003eNonEmpty a-\u003e[a]",
@@ -236,6 +254,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003edropWhile\u003c/a\u003e\u003c/code\u003e p xs\u003c/code\u003e returns the suffix remaining after\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e p xs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "dropWhile",
           "package": "semigroups",
@@ -246,6 +265,7 @@
         "index": {
           "description": "dropWhile xs returns the suffix remaining after takeWhile xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e[a]",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003efilter\u003c/a\u003e\u003c/code\u003e p xs\u003c/code\u003e removes any elements from \u003ccode\u003exs\u003c/code\u003e that do not satisfy \u003ccode\u003ep\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "filter",
           "package": "semigroups",
@@ -272,6 +293,7 @@
         "index": {
           "description": "filter xs removes any elements from xs that do not satisfy",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e[a]",
@@ -287,6 +309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a normal list to a \u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e stream.\n\u003c/p\u003e\u003cp\u003eRaises an error if given an empty list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "fromList",
           "package": "semigroups",
@@ -297,6 +320,7 @@
         "index": {
           "description": "Converts normal list to NonEmpty stream Raises an error if given an empty list",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "fromList",
           "normalized": "[a]-\u003eNonEmpty a",
@@ -313,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e function takes a stream and returns a list of\n streams such that flattening the resulting list is equal to the\n argument.  Moreover, each stream in the resulting list\n contains only equal elements.  For example, in list notation:\n\u003c/p\u003e\u003cpre\u003e 'group' $ 'cycle' \"Mississippi\" = \"M\" : \"i\" : \"ss\" : \"i\" : \"ss\" : \"i\" : \"pp\" : \"i\" : \"M\" : \"i\" : ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "group",
           "package": "semigroups",
@@ -323,6 +348,7 @@
         "index": {
           "description": "The group function takes stream and returns list of streams such that flattening the resulting list is equal to the argument Moreover each stream in the resulting list contains only equal elements For example in list notation group cycle Mississippi ss ss pp",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "group",
           "normalized": "a b-\u003e[NonEmpty b]",
@@ -338,6 +364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egroup1\u003c/a\u003e\u003c/code\u003e operates like \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e, but uses the knowledge that its\n input is non-empty to produce guaranteed non-empty output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "group1",
           "package": "semigroups",
@@ -348,6 +375,7 @@
         "index": {
           "description": "group1 operates like group but uses the knowledge that its input is non-empty to produce guaranteed non-empty output",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "group1",
           "normalized": "NonEmpty a-\u003eNonEmpty(NonEmpty a)",
@@ -363,6 +391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e operates like \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e, but uses the provided equality\n predicate instead of \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "groupBy",
           "package": "semigroups",
@@ -373,6 +402,7 @@
         "index": {
           "description": "groupBy operates like group but uses the provided equality predicate instead of",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "groupBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eb a-\u003e[NonEmpty a]",
@@ -389,6 +419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003egroupBy1\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003egroup1\u003c/a\u003e\u003c/code\u003e as \u003ccode\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/code\u003e is to \u003ccode\u003e\u003ca\u003egroup\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "groupBy1",
           "package": "semigroups",
@@ -399,6 +430,7 @@
         "index": {
           "description": "groupBy1 is to group1 as groupBy is to group",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "groupBy1",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eNonEmpty a-\u003eNonEmpty(NonEmpty a)",
@@ -415,6 +447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the first element of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "head",
           "package": "semigroups",
@@ -425,6 +458,7 @@
         "index": {
           "description": "Extract the first element of the stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "head",
           "normalized": "NonEmpty a-\u003ea",
@@ -440,6 +474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract everything except the last element of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "init",
           "package": "semigroups",
@@ -450,6 +485,7 @@
         "index": {
           "description": "Extract everything except the last element of the stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "init",
           "normalized": "NonEmpty a-\u003e[a]",
@@ -465,6 +501,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003einits\u003c/a\u003e\u003c/code\u003e function takes a stream \u003ccode\u003exs\u003c/code\u003e and returns all the\n finite prefixes of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "inits",
           "package": "semigroups",
@@ -475,6 +512,7 @@
         "index": {
           "description": "The inits function takes stream xs and returns all the finite prefixes of xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "inits",
           "normalized": "a b-\u003eNonEmpty[b]",
@@ -490,6 +528,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003einsert\u003c/a\u003e\u003c/code\u003e x xs\u003c/code\u003e inserts \u003ccode\u003ex\u003c/code\u003e into the last position in \u003ccode\u003exs\u003c/code\u003e where it\n is still less than or equal to the next element. In particular, if the\n list is sorted beforehand, the result will also be sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "insert",
           "package": "semigroups",
@@ -500,6 +539,7 @@
         "index": {
           "description": "insert xs inserts into the last position in xs where it is still less than or equal to the next element In particular if the list is sorted beforehand the result will also be sorted",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "insert",
           "normalized": "a-\u003eb a-\u003eNonEmpty a",
@@ -515,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'intersperse x xs' alternates elements of the list with copies of \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e intersperse 0 (1 :| [2,3]) == 1 :| [0,2,0,3]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "intersperse",
           "package": "semigroups",
@@ -525,6 +566,7 @@
         "index": {
           "description": "intersperse xs alternates elements of the list with copies of intersperse",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "intersperse",
           "normalized": "a-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -540,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003eisPrefix\u003c/code\u003e function returns \u003ccode\u003eTrue\u003c/code\u003e if the first argument is\n a prefix of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "isPrefixOf",
           "package": "semigroups",
@@ -550,6 +593,7 @@
         "index": {
           "description": "The isPrefix function returns True if the first argument is prefix of the second",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "isPrefixOf",
           "normalized": "[a]-\u003eNonEmpty a-\u003eBool",
@@ -566,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eiterate\u003c/a\u003e\u003c/code\u003e f x\u003c/code\u003e produces the infinite sequence\n of repeated applications of \u003ccode\u003ef\u003c/code\u003e to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e iterate f x = x :| [f x, f (f x), ..]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "iterate",
           "package": "semigroups",
@@ -576,6 +621,7 @@
         "index": {
           "description": "iterate produces the infinite sequence of repeated applications of to iterate",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "iterate",
           "normalized": "(a-\u003ea)-\u003ea-\u003eNonEmpty a",
@@ -591,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the last element of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "last",
           "package": "semigroups",
@@ -601,6 +648,7 @@
         "index": {
           "description": "Extract the last element of the stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "last",
           "normalized": "NonEmpty a-\u003ea",
@@ -615,6 +663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "length",
           "package": "semigroups",
@@ -624,6 +673,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "length",
           "normalized": "NonEmpty a-\u003eInt",
@@ -639,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e function breaks a stream of characters into a stream\n of strings at newline characters. The resulting strings do not\n contain newlines.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "lines",
           "package": "semigroups",
@@ -649,6 +700,7 @@
         "index": {
           "description": "The lines function breaks stream of characters into stream of strings at newline characters The resulting strings do not contain newlines",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "lines",
           "normalized": "NonEmpty Char-\u003eNonEmpty String",
@@ -664,6 +716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap a function over a \u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "map",
           "package": "semigroups",
@@ -674,6 +727,7 @@
         "index": {
           "description": "Map function over NonEmpty stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eNonEmpty a-\u003eNonEmpty b",
@@ -689,6 +743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003enonEmpty\u003c/a\u003e\u003c/code\u003e efficiently turns a normal list into a \u003ccode\u003e\u003ca\u003eNonEmpty\u003c/a\u003e\u003c/code\u003e stream,\n producing \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if the input is empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "nonEmpty",
           "package": "semigroups",
@@ -699,6 +754,7 @@
         "index": {
           "description": "nonEmpty efficiently turns normal list into NonEmpty stream producing Nothing if the input is empty",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "nonEmpty",
           "normalized": "[a]-\u003eMaybe(NonEmpty a)",
@@ -715,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e function removes duplicate elements from a list. In\n particular, it keeps only the first occurence of each element.\n (The name \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e means 'essence'.)\n It is a special case of \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e, which allows the programmer to\n supply their own inequality test.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "nub",
           "package": "semigroups",
@@ -725,6 +782,7 @@
         "index": {
           "description": "The nub function removes duplicate elements from list In particular it keeps only the first occurence of each element The name nub means essence It is special case of nubBy which allows the programmer to supply their own inequality test",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "nub",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -740,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003enubBy\u003c/a\u003e\u003c/code\u003e function behaves just like \u003ccode\u003e\u003ca\u003enub\u003c/a\u003e\u003c/code\u003e, except it uses a\n user-supplied equality predicate instead of the overloaded \u003ccode\u003e\u003ca\u003e==\u003c/a\u003e\u003c/code\u003e\n function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "nubBy",
           "package": "semigroups",
@@ -750,6 +809,7 @@
         "index": {
           "description": "The nubBy function behaves just like nub except it uses user-supplied equality predicate instead of the overloaded function",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "nubBy",
           "normalized": "(a-\u003ea-\u003eBool)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -766,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003epartition\u003c/a\u003e\u003c/code\u003e function takes a predicate \u003ccode\u003ep\u003c/code\u003e and a stream\n \u003ccode\u003exs\u003c/code\u003e, and returns a pair of lists. The first list corresponds to the\n elements of \u003ccode\u003exs\u003c/code\u003e for which \u003ccode\u003ep\u003c/code\u003e holds; the second corresponds to the\n elements of \u003ccode\u003exs\u003c/code\u003e for which \u003ccode\u003ep\u003c/code\u003e does not hold.\n\u003c/p\u003e\u003cpre\u003e 'partition' p xs = ('filter' p xs, 'filter' (not . p) xs)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "partition",
           "package": "semigroups",
@@ -776,6 +837,7 @@
         "index": {
           "description": "The partition function takes predicate and stream xs and returns pair of lists The first list corresponds to the elements of xs for which holds the second corresponds to the elements of xs for which does not hold partition xs filter xs filter not xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e([a],[a])",
@@ -791,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erepeat\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e returns a constant stream, where all elements are\n equal to \u003ccode\u003ex\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "repeat",
           "package": "semigroups",
@@ -801,6 +864,7 @@
         "index": {
           "description": "repeat returns constant stream where all elements are equal to",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "repeat",
           "normalized": "a-\u003eNonEmpty a",
@@ -816,6 +880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ereverse\u003c/a\u003e\u003c/code\u003e a finite NonEmpty stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "reverse",
           "package": "semigroups",
@@ -826,6 +891,7 @@
         "index": {
           "description": "reverse finite NonEmpty stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "reverse",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -841,6 +907,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e is similar to \u003ccode\u003e\u003ca\u003efoldl\u003c/a\u003e\u003c/code\u003e, but returns a stream of successive\n reduced values from the left:\n\u003c/p\u003e\u003cpre\u003e scanl f z [x1, x2, ...] == z :| [z `f` x1, (z `f` x1) `f` x2, ...]\n\u003c/pre\u003e\u003cp\u003eNote that\n\u003c/p\u003e\u003cpre\u003e last (scanl f z xs) == foldl f z xs.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanl",
           "package": "semigroups",
@@ -851,6 +918,7 @@
         "index": {
           "description": "scanl is similar to foldl but returns stream of successive reduced values from the left scanl x1 x2 x1 x1 x2 Note that last scanl xs foldl xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "scanl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003eNonEmpty a",
@@ -866,6 +934,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escanl1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e that has no starting value argument:\n\u003c/p\u003e\u003cpre\u003e scanl1 f [x1, x2, ...] == x1 :| [x1 `f` x2, x1 `f` (x2 `f` x3), ...]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanl1",
           "package": "semigroups",
@@ -876,6 +945,7 @@
         "index": {
           "description": "scanl1 is variant of scanl that has no starting value argument scanl1 x1 x2 x1 x1 x2 x1 x2 x3",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "scanl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -891,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e is the right-to-left dual of \u003ccode\u003e\u003ca\u003escanl\u003c/a\u003e\u003c/code\u003e.\n Note that\n\u003c/p\u003e\u003cpre\u003e head (scanr f z xs) == foldr f z xs.\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanr",
           "package": "semigroups",
@@ -901,6 +972,7 @@
         "index": {
           "description": "scanr is the right-to-left dual of scanl Note that head scanr xs foldr xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "scanr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eNonEmpty b",
@@ -916,6 +988,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003escanr1\u003c/a\u003e\u003c/code\u003e is a variant of \u003ccode\u003e\u003ca\u003escanr\u003c/a\u003e\u003c/code\u003e that has no starting value argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "scanr1",
           "package": "semigroups",
@@ -926,6 +999,7 @@
         "index": {
           "description": "scanr1 is variant of scanr that has no starting value argument",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "scanr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -941,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esome1\u003c/a\u003e\u003c/code\u003e x\u003c/code\u003e sequences \u003ccode\u003ex\u003c/code\u003e one or more times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "some1",
           "package": "semigroups",
@@ -951,6 +1026,7 @@
         "index": {
           "description": "some1 sequences one or more times",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "some1",
           "normalized": "a b-\u003ea(NonEmpty b)",
@@ -966,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSort a stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "sort",
           "package": "semigroups",
@@ -976,6 +1053,7 @@
         "index": {
           "description": "Sort stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "sort",
           "normalized": "NonEmpty a-\u003eNonEmpty a",
@@ -991,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e for NonEmtpy, behaves the same as \u003ccode\u003e\u003ca\u003esortBy\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "sortBy",
           "package": "semigroups",
@@ -1001,6 +1080,7 @@
         "index": {
           "description": "sortBy for NonEmtpy behaves the same as sortBy",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "sortBy",
           "normalized": "(a-\u003ea-\u003eOrdering)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -1017,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003esortOn\u003c/a\u003e\u003c/code\u003e for NonEmtpy, behaves the same as:\n\u003c/p\u003e\u003cpre\u003e sortBy . comparing\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "sortOn",
           "package": "semigroups",
@@ -1027,6 +1108,7 @@
         "index": {
           "description": "sortOn for NonEmtpy behaves the same as sortBy comparing",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "sortOn",
           "normalized": "(a-\u003eb)-\u003eNonEmpty a-\u003eNonEmpty a",
@@ -1043,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003espan\u003c/a\u003e\u003c/code\u003e p xs\u003c/code\u003e returns the longest prefix of \u003ccode\u003exs\u003c/code\u003e that satisfies\n \u003ccode\u003ep\u003c/code\u003e, together with the remainder of the stream.\n\u003c/p\u003e\u003cpre\u003e 'span' p xs == ('takeWhile' p xs, 'dropWhile' p xs)\n xs == ys ++ zs where (ys, zs) = 'span' p xs\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "span",
           "package": "semigroups",
@@ -1053,6 +1136,7 @@
         "index": {
           "description": "span xs returns the longest prefix of xs that satisfies together with the remainder of the stream span xs takeWhile xs dropWhile xs xs ys zs where ys zs span xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "span",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e([a],[a])",
@@ -1068,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003esplitAt\u003c/a\u003e\u003c/code\u003e n xs\u003c/code\u003e returns a pair consisting of the prefix of \u003ccode\u003exs\u003c/code\u003e\n of length \u003ccode\u003en\u003c/code\u003e and the remaining stream immediately following this prefix.\n\u003c/p\u003e\u003cpre\u003e 'splitAt' n xs == ('take' n xs, 'drop' n xs)\n xs == ys ++ zs where (ys, zs) = 'splitAt' n xs\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "splitAt",
           "package": "semigroups",
@@ -1078,6 +1163,7 @@
         "index": {
           "description": "splitAt xs returns pair consisting of the prefix of xs of length and the remaining stream immediately following this prefix splitAt xs take xs drop xs xs ys zs where ys zs splitAt xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "splitAt",
           "normalized": "Int-\u003eNonEmpty a-\u003e([a],[a])",
@@ -1094,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract the possibly-empty tail of the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "tail",
           "package": "semigroups",
@@ -1104,6 +1191,7 @@
         "index": {
           "description": "Extract the possibly-empty tail of the stream",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "tail",
           "normalized": "NonEmpty a-\u003e[a]",
@@ -1119,6 +1207,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003etails\u003c/a\u003e\u003c/code\u003e function takes a stream \u003ccode\u003exs\u003c/code\u003e and returns all the\n suffixes of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "tails",
           "package": "semigroups",
@@ -1129,6 +1218,7 @@
         "index": {
           "description": "The tails function takes stream xs and returns all the suffixes of xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "tails",
           "normalized": "a b-\u003eNonEmpty[b]",
@@ -1144,6 +1234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etake\u003c/a\u003e\u003c/code\u003e n xs\u003c/code\u003e returns the first \u003ccode\u003en\u003c/code\u003e elements of \u003ccode\u003exs\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "take",
           "package": "semigroups",
@@ -1154,6 +1245,7 @@
         "index": {
           "description": "take xs returns the first elements of xs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "take",
           "normalized": "Int-\u003eNonEmpty a-\u003e[a]",
@@ -1169,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003etakeWhile\u003c/a\u003e\u003c/code\u003e p xs\u003c/code\u003e returns the longest prefix of the stream\n \u003ccode\u003exs\u003c/code\u003e for which the predicate \u003ccode\u003ep\u003c/code\u003e holds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "takeWhile",
           "package": "semigroups",
@@ -1179,6 +1272,7 @@
         "index": {
           "description": "takeWhile xs returns the longest prefix of the stream xs for which the predicate holds",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "takeWhile",
           "normalized": "(a-\u003eBool)-\u003eNonEmpty a-\u003e[a]",
@@ -1195,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a stream to a normal list efficiently.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "toList",
           "package": "semigroups",
@@ -1205,6 +1300,7 @@
         "index": {
           "description": "Convert stream to normal list efficiently",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "toList",
           "normalized": "NonEmpty a-\u003e[a]",
@@ -1220,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "transpose",
           "package": "semigroups",
@@ -1229,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "transpose",
           "normalized": "NonEmpty(NonEmpty a)-\u003eNonEmpty(NonEmpty a)",
@@ -1244,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003euncons\u003c/a\u003e\u003c/code\u003e produces the first element of the stream, and a stream of the\n remaining elements, if any.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "uncons",
           "package": "semigroups",
@@ -1254,6 +1353,7 @@
         "index": {
           "description": "uncons produces the first element of the stream and stream of the remaining elements if any",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "uncons",
           "normalized": "NonEmpty a-\u003e(a,Maybe(NonEmpty a))",
@@ -1269,6 +1369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eunfold\u003c/a\u003e\u003c/code\u003e produces a new stream by repeatedly applying the unfolding\n function to the seed value to produce an element of type \u003ccode\u003eb\u003c/code\u003e and a new\n seed value.  When the unfolding function returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e instead of\n a new seed value, the stream ends.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unfold",
           "package": "semigroups",
@@ -1279,6 +1380,7 @@
         "index": {
           "description": "unfold produces new stream by repeatedly applying the unfolding function to the seed value to produce an element of type and new seed value When the unfolding function returns Nothing instead of new seed value the stream ends",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "unfold",
           "normalized": "(a-\u003e(b,Maybe a))-\u003ea-\u003eNonEmpty b",
@@ -1293,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unfoldr",
           "package": "semigroups",
@@ -1302,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "unfoldr",
           "normalized": "(a-\u003e(b,Maybe a))-\u003ea-\u003eNonEmpty b",
@@ -1317,6 +1421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunlines\u003c/a\u003e\u003c/code\u003e function is an inverse operation to \u003ccode\u003e\u003ca\u003elines\u003c/a\u003e\u003c/code\u003e. It\n joins lines, after appending a terminating newline to each.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unlines",
           "package": "semigroups",
@@ -1327,6 +1432,7 @@
         "index": {
           "description": "The unlines function is an inverse operation to lines It joins lines after appending terminating newline to each",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "unlines",
           "normalized": "NonEmpty String-\u003eNonEmpty Char",
@@ -1342,6 +1448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunwords\u003c/a\u003e\u003c/code\u003e function is an inverse operation to \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e. It\n joins words with separating spaces.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBeware\u003c/em\u003e: the input \u003ccode\u003e(\"\" :| [])\u003c/code\u003e will cause an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unwords",
           "package": "semigroups",
@@ -1352,6 +1459,7 @@
         "index": {
           "description": "The unwords function is an inverse operation to words It joins words with separating spaces Beware the input will cause an error",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "unwords",
           "normalized": "NonEmpty String-\u003eNonEmpty Char",
@@ -1367,6 +1475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eunzip\u003c/a\u003e\u003c/code\u003e function is the inverse of the \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "unzip",
           "package": "semigroups",
@@ -1377,6 +1486,7 @@
         "index": {
           "description": "The unzip function is the inverse of the zip function",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "unzip",
           "normalized": "a(b,c)-\u003e(a b,a c)",
@@ -1392,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ewords\u003c/a\u003e\u003c/code\u003e function breaks a stream of characters into a\n stream of words, which were delimited by white space.\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eBeware\u003c/em\u003e: if the input contains no words (i.e. is entirely\n whitespace), this will cause an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "words",
           "package": "semigroups",
@@ -1402,6 +1513,7 @@
         "index": {
           "description": "The words function breaks stream of characters into stream of words which were delimited by white space Beware if the input contains no words i.e is entirely whitespace this will cause an error",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "words",
           "normalized": "NonEmpty Char-\u003eNonEmpty String",
@@ -1416,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "xor",
           "package": "semigroups",
@@ -1425,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "xor",
           "normalized": "NonEmpty Bool-\u003eBool",
@@ -1440,6 +1554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e function takes two streams and returns a stream of\n corresponding pairs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "zip",
           "package": "semigroups",
@@ -1450,6 +1565,7 @@
         "index": {
           "description": "The zip function takes two streams and returns stream of corresponding pairs",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "zip",
           "normalized": "NonEmpty a-\u003eNonEmpty b-\u003eNonEmpty(a,b)",
@@ -1465,6 +1581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003ezipWith\u003c/a\u003e\u003c/code\u003e function generalizes \u003ccode\u003e\u003ca\u003ezip\u003c/a\u003e\u003c/code\u003e. Rather than tupling\n the elements, the elements are combined using the function\n passed as the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.List.NonEmpty",
           "name": "zipWith",
           "package": "semigroups",
@@ -1475,6 +1592,7 @@
         "index": {
           "description": "The zipWith function generalizes zip Rather than tupling the elements the elements are combined using the function passed as the first argument",
           "hierarchy": "Data List NonEmpty",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.List.NonEmpty",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eNonEmpty a-\u003eNonEmpty b-\u003eNonEmpty c",
@@ -1491,6 +1609,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn mathematics, a semigroup is an algebraic structure consisting of a\n set together with an associative binary operation. A semigroup\n generalizes a monoid in that there might not exist an identity\n element. It also (originally) generalized a group (a monoid with all\n inverses) to a type where every element did not have to have an inverse,\n thus the name semigroup.\n\u003c/p\u003e\u003cp\u003eThe use of \u003ccode\u003e(\u003c\u003e)\u003c/code\u003e in this module conflicts with an operator with the same\n name that is being exported by Data.Monoid. However, this package\n re-exports (most of) the contents of Data.Monoid, so to use semigroups\n and monoids in the same package just\n\u003c/p\u003e\u003cpre\u003e import Data.Semigroup\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "semigroups",
@@ -1500,6 +1619,7 @@
         "index": {
           "description": "In mathematics semigroup is an algebraic structure consisting of set together with an associative binary operation semigroup generalizes monoid in that there might not exist an identity element It also originally generalized group monoid with all inverses to type where every element did not have to have an inverse thus the name semigroup The use of in this module conflicts with an operator with the same name that is being exported by Data.Monoid However this package re-exports most of the contents of Data.Monoid so to use semigroups and monoids in the same package just import Data.Semigroup",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "semigroups",
@@ -1514,6 +1634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean monoid under conjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "All",
           "package": "semigroups",
@@ -1522,6 +1643,7 @@
         "index": {
           "description": "Boolean monoid under conjunction",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "All",
           "package": "semigroups",
@@ -1536,6 +1658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBoolean monoid under disjunction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Any",
           "package": "semigroups",
@@ -1544,6 +1667,7 @@
         "index": {
           "description": "Boolean monoid under disjunction",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Any",
           "package": "semigroups",
@@ -1558,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe dual of a monoid, obtained by swapping the arguments of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Dual",
           "package": "semigroups",
@@ -1566,6 +1691,7 @@
         "index": {
           "description": "The dual of monoid obtained by swapping the arguments of mappend",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Dual",
           "package": "semigroups",
@@ -1580,6 +1706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe monoid of endomorphisms under composition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Endo",
           "package": "semigroups",
@@ -1588,6 +1715,7 @@
         "index": {
           "description": "The monoid of endomorphisms under composition",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Endo",
           "package": "semigroups",
@@ -1602,6 +1730,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e to get the behavior of \u003ccode\u003e\u003ca\u003eFirst\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eData.Monoid\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "First",
           "package": "semigroups",
@@ -1611,6 +1740,7 @@
         "index": {
           "description": "Use Option First to get the behavior of First from Data.Monoid",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "First",
           "package": "semigroups",
@@ -1625,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse \u003ccode\u003e\u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e a)\u003c/code\u003e to get the behavior of \u003ccode\u003e\u003ca\u003eLast\u003c/a\u003e\u003c/code\u003e from \u003ccode\u003eData.Monoid\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Last",
           "package": "semigroups",
@@ -1634,6 +1765,7 @@
         "index": {
           "description": "Use Option Last to get the behavior of Last from Data.Monoid",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Last",
           "package": "semigroups",
@@ -1647,6 +1779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "semigroups",
@@ -1655,6 +1788,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "semigroups",
@@ -1668,6 +1802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "semigroups",
@@ -1676,6 +1811,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "semigroups",
@@ -1690,6 +1826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe class of monoids (types with an associative binary operation that\n has an identity).  Instances should satisfy the following laws:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e\u003cpre\u003emappend mempty x = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x mempty = x\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emappend x (mappend y z) = mappend (mappend x y) z\u003c/pre\u003e\u003c/li\u003e\u003cli\u003e\u003cpre\u003emconcat = \u003ccode\u003e\u003ca\u003efoldr\u003c/a\u003e\u003c/code\u003e mappend mempty\u003c/pre\u003e\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe method names refer to the monoid of lists under concatenation,\n but there are many other instances.\n\u003c/p\u003e\u003cp\u003eMinimal complete definition: \u003ccode\u003e\u003ca\u003emempty\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSome types can be viewed as a monoid in more than one way,\n e.g. both addition and multiplication on numbers.\n In such cases we often define \u003ccode\u003enewtype\u003c/code\u003es and make those instances\n of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, e.g. \u003ccode\u003e\u003ca\u003eSum\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eProduct\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Monoid",
           "package": "semigroups",
@@ -1698,6 +1835,7 @@
         "index": {
           "description": "The class of monoids types with an associative binary operation that has an identity Instances should satisfy the following laws mappend mempty mappend mempty mappend mappend mappend mappend mconcat foldr mappend mempty The method names refer to the monoid of lists under concatenation but there are many other instances Minimal complete definition mempty and mappend Some types can be viewed as monoid in more than one way e.g both addition and multiplication on numbers In such cases we often define newtype and make those instances of Monoid e.g Sum and Product",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Monoid",
           "package": "semigroups",
@@ -1712,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOption is effectively \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e with a better instance of \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e, built off of an underlying \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e\n instead of an underlying \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e. Ideally, this type would not exist at all and we would just fix the \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e intance of \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Option",
           "package": "semigroups",
@@ -1721,6 +1860,7 @@
         "index": {
           "description": "Option is effectively Maybe with better instance of Monoid built off of an underlying Semigroup instead of an underlying Monoid Ideally this type would not exist at all and we would just fix the Monoid intance of Maybe",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Option",
           "package": "semigroups",
@@ -1735,6 +1875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid under multiplication.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Product",
           "package": "semigroups",
@@ -1743,6 +1884,7 @@
         "index": {
           "description": "Monoid under multiplication",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Product",
           "package": "semigroups",
@@ -1756,6 +1898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "semigroups",
@@ -1764,6 +1907,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Semigroup",
           "package": "semigroups",
@@ -1778,6 +1922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoid under addition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Sum",
           "package": "semigroups",
@@ -1786,6 +1931,7 @@
         "index": {
           "description": "Monoid under addition",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Sum",
           "package": "semigroups",
@@ -1800,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide a Semigroup for an arbitrary Monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "WrappedMonoid",
           "package": "semigroups",
@@ -1809,6 +1956,7 @@
         "index": {
           "description": "Provide Semigroup for an arbitrary Monoid",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "WrappedMonoid",
           "package": "semigroups",
@@ -1823,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation.\n\u003c/p\u003e\u003cpre\u003e (a \u003c\u003e b) \u003c\u003e c = a \u003c\u003e (b \u003c\u003e c)\n\u003c/pre\u003e\u003cp\u003eIf \u003ccode\u003ea\u003c/code\u003e is also a \u003ccode\u003e\u003ca\u003eMonoid\u003c/a\u003e\u003c/code\u003e we further require\n\u003c/p\u003e\u003cpre\u003e (\u003c\u003e) = mappend\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "(\u003c\u003e)",
           "package": "semigroups",
@@ -1833,6 +1982,7 @@
         "index": {
           "description": "An associative operation If is also Monoid we further require mappend",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a-\u003ea-\u003ea",
@@ -1847,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "All",
           "package": "semigroups",
@@ -1855,6 +2006,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "All",
           "package": "semigroups",
@@ -1868,6 +2020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Any",
           "package": "semigroups",
@@ -1876,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Any",
           "package": "semigroups",
@@ -1889,6 +2043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Dual",
           "package": "semigroups",
@@ -1897,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Dual",
           "package": "semigroups",
@@ -1910,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Endo",
           "package": "semigroups",
@@ -1918,6 +2075,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Endo",
           "package": "semigroups",
@@ -1931,6 +2089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "First",
           "package": "semigroups",
@@ -1940,6 +2099,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "First",
           "package": "semigroups",
@@ -1953,6 +2113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Last",
           "package": "semigroups",
@@ -1962,6 +2123,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Last",
           "package": "semigroups",
@@ -1975,6 +2137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "semigroups",
@@ -1984,6 +2147,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Max",
           "package": "semigroups",
@@ -1997,6 +2161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "semigroups",
@@ -2006,6 +2171,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Min",
           "package": "semigroups",
@@ -2019,6 +2185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Option",
           "package": "semigroups",
@@ -2028,6 +2195,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Option",
           "package": "semigroups",
@@ -2041,6 +2209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Product",
           "package": "semigroups",
@@ -2049,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Product",
           "package": "semigroups",
@@ -2062,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "Sum",
           "package": "semigroups",
@@ -2070,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "Sum",
           "package": "semigroups",
@@ -2083,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "WrapMonoid",
           "package": "semigroups",
@@ -2092,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "WrapMonoid",
           "package": "semigroups",
@@ -2105,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "appEndo",
           "package": "semigroups",
@@ -2113,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "appEndo",
           "normalized": "a-\u003ea",
@@ -2129,6 +2305,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalization of \u003ccode\u003e\u003ca\u003ecycle\u003c/a\u003e\u003c/code\u003e to an arbitrary \u003ccode\u003e\u003ca\u003eSemigroup\u003c/a\u003e\u003c/code\u003e.\n May fail to terminate for some values in some semigroups.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "cycle1",
           "package": "semigroups",
@@ -2139,6 +2316,7 @@
         "index": {
           "description": "generalization of cycle to an arbitrary Semigroup May fail to terminate for some values in some semigroups",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "cycle1",
           "normalized": "a-\u003ea",
@@ -2154,6 +2332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis lets you use a difference list of a Semigroup as a Monoid.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "diff",
           "package": "semigroups",
@@ -2164,6 +2343,7 @@
         "index": {
           "description": "This lets you use difference list of Semigroup as Monoid",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "diff",
           "normalized": "a-\u003eEndo a",
@@ -2178,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getAll",
           "package": "semigroups",
@@ -2186,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getAll",
           "package": "semigroups",
@@ -2199,6 +2381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getAny",
           "package": "semigroups",
@@ -2207,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getAny",
           "package": "semigroups",
@@ -2220,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getDual",
           "package": "semigroups",
@@ -2228,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getDual",
           "package": "semigroups",
@@ -2241,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getFirst",
           "package": "semigroups",
@@ -2250,6 +2437,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getFirst",
           "package": "semigroups",
@@ -2263,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getLast",
           "package": "semigroups",
@@ -2272,6 +2461,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getLast",
           "package": "semigroups",
@@ -2285,6 +2475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getMax",
           "package": "semigroups",
@@ -2294,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getMax",
           "package": "semigroups",
@@ -2307,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getMin",
           "package": "semigroups",
@@ -2316,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getMin",
           "package": "semigroups",
@@ -2329,6 +2523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getOption",
           "package": "semigroups",
@@ -2338,6 +2533,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getOption",
           "package": "semigroups",
@@ -2351,6 +2547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getProduct",
           "package": "semigroups",
@@ -2359,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getProduct",
           "package": "semigroups",
@@ -2372,6 +2570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "getSum",
           "package": "semigroups",
@@ -2380,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "getSum",
           "package": "semigroups",
@@ -2394,6 +2594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn associative operation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "mappend",
           "package": "semigroups",
@@ -2403,6 +2604,7 @@
         "index": {
           "description": "An associative operation",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "mappend",
           "normalized": "a-\u003ea-\u003ea",
@@ -2418,6 +2620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a list using the monoid.\n For most types, the default definition for \u003ccode\u003e\u003ca\u003emconcat\u003c/a\u003e\u003c/code\u003e will be\n used, but the function is included in the class definition so\n that an optimized version can be provided for specific types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "mconcat",
           "package": "semigroups",
@@ -2427,6 +2630,7 @@
         "index": {
           "description": "Fold list using the monoid For most types the default definition for mconcat will be used but the function is included in the class definition so that an optimized version can be provided for specific types",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "mconcat",
           "normalized": "[a]-\u003ea",
@@ -2442,6 +2646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIdentity of \u003ccode\u003e\u003ca\u003emappend\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "mempty",
           "package": "semigroups",
@@ -2451,6 +2656,7 @@
         "index": {
           "description": "Identity of mappend",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "mempty",
           "package": "semigroups",
@@ -2464,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold an \u003ccode\u003e\u003ca\u003eOption\u003c/a\u003e\u003c/code\u003e case-wise, just like \u003ccode\u003e\u003ca\u003emaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "option",
           "package": "semigroups",
@@ -2474,6 +2681,7 @@
         "index": {
           "description": "Fold an Option case-wise just like maybe",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "option",
           "normalized": "a-\u003e(b-\u003ea)-\u003eOption b-\u003ea",
@@ -2489,6 +2697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReduce a non-empty list with \u003ccode\u003e\u003c\u003e\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe default definition should be sufficient, but this can be overridden for efficiency.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "sconcat",
           "package": "semigroups",
@@ -2499,6 +2708,7 @@
         "index": {
           "description": "Reduce non-empty list with The default definition should be sufficient but this can be overridden for efficiency",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "sconcat",
           "normalized": "NonEmpty a-\u003ea",
@@ -2514,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat a value (n + 1) times.\n\u003c/p\u003e\u003cpre\u003e times1p n a = a \u003c\u003e a \u003c\u003e ... \u003c\u003e a  -- using \u003c\u003e n times\n\u003c/pre\u003e\u003cp\u003eThe default definition uses peasant multiplication, exploiting associativity to only\n require \u003cem\u003eO(log n)\u003c/em\u003e uses of \u003ccode\u003e\u003c\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSee also \u003ccode\u003etimes\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "times1p",
           "package": "semigroups",
@@ -2524,6 +2735,7 @@
         "index": {
           "description": "Repeat value times times1p using times The default definition uses peasant multiplication exploiting associativity to only require log uses of See also times",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "times1p",
           "normalized": "a-\u003eb-\u003eb",
@@ -2539,6 +2751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepeat a value \u003ccode\u003en\u003c/code\u003e times.\n\u003c/p\u003e\u003cpre\u003e times n a = a \u003c\u003e a \u003c\u003e ... \u003c\u003e a  -- using \u003c\u003e (n-1) times\n\u003c/pre\u003e\u003cp\u003eImplemented using \u003ccode\u003e\u003ca\u003etimes1p\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "timesN",
           "package": "semigroups",
@@ -2549,6 +2762,7 @@
         "index": {
           "description": "Repeat value times times using n-1 times Implemented using times1p",
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "timesN",
           "normalized": "a-\u003eb-\u003eb",
@@ -2563,6 +2777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:34 UTC 2014",
           "module": "Data.Semigroup",
           "name": "unwrapMonoid",
           "package": "semigroups",
@@ -2572,6 +2787,7 @@
         },
         "index": {
           "hierarchy": "Data Semigroup",
+          "indexed": "2014-03-11T19:59:34",
           "module": "Data.Semigroup",
           "name": "unwrapMonoid",
           "package": "semigroups",

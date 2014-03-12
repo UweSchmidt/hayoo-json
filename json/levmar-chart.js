@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "levmar-chart"
+        "phrase": "levmar-chart",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pcap-enumerator"
+        "phrase": "pcap-enumerator",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:15 UTC 2014",
           "module": "Network.Pcap.Enumerator",
           "name": "Enumerator",
           "package": "pcap-enumerator",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network Pcap Enumerator",
+          "indexed": "2014-03-11T19:36:15",
           "module": "Network.Pcap.Enumerator",
           "name": "Enumerator",
           "package": "pcap-enumerator",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:15 UTC 2014",
           "module": "Network.Pcap.Enumerator",
           "name": "enumLive",
           "package": "pcap-enumerator",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network Pcap Enumerator",
+          "indexed": "2014-03-11T19:36:15",
           "module": "Network.Pcap.Enumerator",
           "name": "enumLive",
           "normalized": "String-\u003eInt-\u003eBool-\u003eInt-\u003eEnumerator(PktHdr,ByteString)a b",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:36:15 UTC 2014",
           "module": "Network.Pcap.Enumerator",
           "name": "enumOffline",
           "package": "pcap-enumerator",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network Pcap Enumerator",
+          "indexed": "2014-03-11T19:36:15",
           "module": "Network.Pcap.Enumerator",
           "name": "enumOffline",
           "normalized": "FilePath-\u003eEnumerator(PktHdr,ByteString)a b",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "purescript"
+        "phrase": "purescript",
+        "type": "phrase"
       },
       "type": "context"
     }

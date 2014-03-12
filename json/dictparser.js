@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dictparser"
+        "phrase": "dictparser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "Internal",
           "package": "dictparser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "Internal",
           "package": "dictparser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "acceptedHeaders",
           "package": "dictparser",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "acceptedHeaders",
           "normalized": "[String]",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "dashLine",
           "package": "dictparser",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "dashLine",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "defP",
           "package": "dictparser",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "defP",
           "package": "dictparser",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "equalLine",
           "package": "dictparser",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "equalLine",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -132,6 +142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "example",
           "package": "dictparser",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "example",
           "package": "dictparser",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "headerP",
           "package": "dictparser",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "headerP",
           "normalized": "ParsecT[Char]a Identity(String,String)",
@@ -176,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "isRight",
           "package": "dictparser",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "isRight",
           "normalized": "Either a a-\u003eBool",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "line",
           "package": "dictparser",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "line",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "line1",
           "package": "dictparser",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "line1",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "lstrip",
           "package": "dictparser",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "lstrip",
           "normalized": "[Char]-\u003e[Char]",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "manyTill1",
           "package": "dictparser",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "manyTill1",
           "normalized": "ParsecT a b c d-\u003eParsecT a b c e-\u003eParsecT a b c[d]",
@@ -318,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "pos",
           "package": "dictparser",
@@ -327,6 +352,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "pos",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -341,6 +367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "rstrip",
           "package": "dictparser",
@@ -350,6 +377,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "rstrip",
           "normalized": "[Char]-\u003e[Char]",
@@ -364,6 +392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "separator",
           "package": "dictparser",
@@ -373,6 +402,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "separator",
           "normalized": "[Char]",
@@ -387,6 +417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "strip",
           "package": "dictparser",
@@ -396,6 +427,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "strip",
           "normalized": "[Char]-\u003e[Char]",
@@ -410,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "textline",
           "package": "dictparser",
@@ -419,6 +452,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "textline",
           "normalized": "ParsecT[Char]a Identity[Char]",
@@ -433,6 +467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "translation",
           "package": "dictparser",
@@ -442,6 +477,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "translation",
           "normalized": "GenParser Char a(Translation,[Example])",
@@ -456,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "tryParse",
           "package": "dictparser",
@@ -465,6 +502,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "tryParse",
           "normalized": "Parsec a()b-\u003ea-\u003eEither a b",
@@ -480,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Internal",
           "name": "withPOS",
           "package": "dictparser",
@@ -489,6 +528,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Internal",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Internal",
           "name": "withPOS",
           "normalized": "GenParser Char a(String,[(Translation,[Example])])",
@@ -504,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Types",
           "package": "dictparser",
@@ -512,6 +553,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Types",
           "package": "dictparser",
@@ -525,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Def",
           "package": "dictparser",
@@ -533,6 +576,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Def",
           "package": "dictparser",
@@ -546,6 +590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Dict",
           "package": "dictparser",
@@ -554,6 +599,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Dict",
           "package": "dictparser",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Example",
           "package": "dictparser",
@@ -575,6 +622,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Example",
           "package": "dictparser",
@@ -588,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Headword",
           "package": "dictparser",
@@ -596,6 +645,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Headword",
           "package": "dictparser",
@@ -609,6 +659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Translation",
           "package": "dictparser",
@@ -617,6 +668,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Translation",
           "package": "dictparser",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Def",
           "package": "dictparser",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Def",
           "normalized": "Def Headword[(a,[(Translation,[Example])])]",
@@ -654,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Dict",
           "package": "dictparser",
@@ -663,6 +718,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Dict",
           "package": "dictparser",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Translated",
           "package": "dictparser",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Translated",
           "package": "dictparser",
@@ -698,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "Untranslated",
           "package": "dictparser",
@@ -707,6 +766,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "Untranslated",
           "package": "dictparser",
@@ -720,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "definitions",
           "package": "dictparser",
@@ -729,6 +790,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "definitions",
           "normalized": "[Def a]",
@@ -743,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser.Types",
           "name": "headers",
           "package": "dictparser",
@@ -752,6 +815,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser Types",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser.Types",
           "name": "headers",
           "normalized": "[(String,String)]",
@@ -766,6 +830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:54:44 UTC 2014",
           "module": "NLP.DictParser",
           "name": "DictParser",
           "package": "dictparser",
@@ -774,6 +839,7 @@
         },
         "index": {
           "hierarchy": "NLP DictParser",
+          "indexed": "2014-03-11T17:54:44",
           "module": "NLP.DictParser",
           "name": "DictParser",
           "package": "dictparser",

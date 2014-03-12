@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "asic"
+        "phrase": "asic",
+        "type": "phrase"
       },
       "type": "context"
     }

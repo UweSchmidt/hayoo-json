@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dbus-core"
+        "phrase": "dbus-core",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "Address",
           "package": "dbus-core",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "Address",
           "package": "dbus-core",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "Address",
           "package": "dbus-core",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "Address",
           "package": "dbus-core",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "address",
           "package": "dbus-core",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "address",
           "normalized": "Text-\u003eMaybe Address",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "addressMethod",
           "package": "dbus-core",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "addressMethod",
           "normalized": "Address-\u003eText",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "addressParameters",
           "package": "dbus-core",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "addressParameters",
           "normalized": "Address-\u003eMap Text Text",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "addressText",
           "package": "dbus-core",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "addressText",
           "normalized": "Address-\u003eText",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "addresses",
           "package": "dbus-core",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "addresses",
           "normalized": "Text-\u003eMaybe[Address]",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "getSession",
           "package": "dbus-core",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "getSession",
           "normalized": "IO(Maybe[Address])",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "getStarter",
           "package": "dbus-core",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "getStarter",
           "normalized": "IO(Maybe[Address])",
@@ -226,6 +244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Address",
           "name": "getSystem",
           "package": "dbus-core",
@@ -235,6 +254,7 @@
         },
         "index": {
           "hierarchy": "DBus Address",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Address",
           "name": "getSystem",
           "normalized": "IO(Maybe[Address])",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Simple",
           "package": "dbus-core",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Simple",
           "package": "dbus-core",
@@ -272,6 +294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to automatically generate a \u003ccode\u003e\u003ca\u003eReply\u003c/a\u003e\u003c/code\u003e from a return value. See\n \u003ccode\u003e\u003ca\u003eAutoSignature\u003c/a\u003e\u003c/code\u003e for some caveats about supported signatures.\n\u003c/p\u003e\u003cp\u003eTo match common Haskell use, if the return value is a tuple, it will be\n converted to a list of return values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "AutoReply",
           "package": "dbus-core",
@@ -281,6 +304,7 @@
         "index": {
           "description": "Used to automatically generate Reply from return value See AutoSignature for some caveats about supported signatures To match common Haskell use if the return value is tuple it will be converted to list of return values",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "AutoReply",
           "package": "dbus-core",
@@ -295,6 +319,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUsed to automatically generate method signatures for introspection\n documents. To support automatic signatures, a method#8217;s parameters and\n return value must all be instances of \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis class maps Haskell idioms to D&#8208;Bus; it is therefore unable to\n generate some signatures. In particular, it does not support methods\n which accept/return a single structure, or single&#8208;element structures.\n It also cannot generate signatures for methods with parameters or return\n values which are only instances of \u003ccode\u003e\u003ca\u003eIsVariant\u003c/a\u003e\u003c/code\u003e. For these cases, please\n use \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo match common Haskell use, if the return value is a tuple, it will be\n converted to a list of return values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "AutoSignature",
           "package": "dbus-core",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Used to automatically generate method signatures for introspection documents To support automatic signatures method parameters and return value must all be instances of IsValue This class maps Haskell idioms to Bus it is therefore unable to generate some signatures In particular it does not support methods which accept return single structure or single element structures It also cannot generate signatures for methods with parameters or return values which are only instances of IsVariant For these cases please use method To match common Haskell use if the return value is tuple it will be converted to list of return values",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "AutoSignature",
           "package": "dbus-core",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Client",
           "package": "dbus-core",
@@ -325,6 +352,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Client",
           "package": "dbus-core",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Method",
           "package": "dbus-core",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Method",
           "package": "dbus-core",
@@ -359,6 +389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Proxy",
           "package": "dbus-core",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Proxy",
           "package": "dbus-core",
@@ -380,6 +412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "ReleaseNameReply",
           "package": "dbus-core",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "ReleaseNameReply",
           "package": "dbus-core",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "RequestNameFlag",
           "package": "dbus-core",
@@ -409,6 +444,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "RequestNameFlag",
           "package": "dbus-core",
@@ -422,6 +458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "RequestNameReply",
           "package": "dbus-core",
@@ -430,6 +467,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "RequestNameReply",
           "package": "dbus-core",
@@ -443,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "AllowReplacement",
           "package": "dbus-core",
@@ -452,6 +491,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "AllowReplacement",
           "package": "dbus-core",
@@ -465,6 +505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "AlreadyOwner",
           "package": "dbus-core",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "AlreadyOwner",
           "package": "dbus-core",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "DoNotQueue",
           "package": "dbus-core",
@@ -496,6 +539,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "DoNotQueue",
           "package": "dbus-core",
@@ -509,6 +553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Exists",
           "package": "dbus-core",
@@ -518,6 +563,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Exists",
           "package": "dbus-core",
@@ -531,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "InQueue",
           "package": "dbus-core",
@@ -540,6 +587,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "InQueue",
           "package": "dbus-core",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "NonExistent",
           "package": "dbus-core",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "NonExistent",
           "package": "dbus-core",
@@ -575,6 +625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "NotOwner",
           "package": "dbus-core",
@@ -584,6 +635,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "NotOwner",
           "package": "dbus-core",
@@ -597,6 +649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "PrimaryOwner",
           "package": "dbus-core",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "PrimaryOwner",
           "package": "dbus-core",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "Released",
           "package": "dbus-core",
@@ -628,6 +683,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "Released",
           "package": "dbus-core",
@@ -641,6 +697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "ReplaceExisting",
           "package": "dbus-core",
@@ -650,6 +707,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "ReplaceExisting",
           "package": "dbus-core",
@@ -663,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "call",
           "package": "dbus-core",
@@ -672,6 +731,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "call",
           "normalized": "Proxy-\u003eInterfaceName-\u003eMemberName-\u003e[Variant]-\u003eIO[Variant]",
@@ -687,6 +747,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_SESSION_BUS_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "connectSession",
           "package": "dbus-core",
@@ -697,6 +758,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS SESSION BUS ADDRESS which must be set",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "connectSession",
           "package": "dbus-core",
@@ -711,6 +773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_STARTER_ADDRESS\u003c/code\u003e, which must be set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "connectStarter",
           "package": "dbus-core",
@@ -721,6 +784,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS STARTER ADDRESS which must be set",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "connectStarter",
           "package": "dbus-core",
@@ -735,6 +799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConnect to the bus specified in the environment variable\n \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e, or to\n \u003ccode\u003eunix:path=/var/run/dbus/system_bus_socket\u003c/code\u003e if \u003ccode\u003eDBUS_SYSTEM_BUS_ADDRESS\u003c/code\u003e\n is not set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "connectSystem",
           "package": "dbus-core",
@@ -745,6 +810,7 @@
         "index": {
           "description": "Connect to the bus specified in the environment variable DBUS SYSTEM BUS ADDRESS or to unix path var run dbus system bus socket if DBUS SYSTEM BUS ADDRESS is not set",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "connectSystem",
           "package": "dbus-core",
@@ -784,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "emit",
           "package": "dbus-core",
@@ -793,6 +860,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "emit",
           "normalized": "Client-\u003eObjectPath-\u003eInterfaceName-\u003eMemberName-\u003e[Variant]-\u003eIO()",
@@ -808,6 +876,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExport the given functions under the given \u003ccode\u003e\u003ca\u003eObjectPath\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003eInterfaceName\u003c/a\u003e\u003c/code\u003e. The functions may accept/return any types that are\n instances of \u003ccode\u003e\u003ca\u003eIsValue\u003c/a\u003e\u003c/code\u003e; see \u003ccode\u003e\u003ca\u003eAutoSignature\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e\nsayHello :: Text -\u003e IO Text\nsayHello name = return (\u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e [\"Hello \", name, \"!\"])\n\nexport client \"/hello_world\"\n    [ \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e \"com.example.HelloWorld\" \"Hello\" sayHello\n    ]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "export",
           "package": "dbus-core",
@@ -818,6 +887,7 @@
         "index": {
           "description": "Export the given functions under the given ObjectPath and InterfaceName The functions may accept return any types that are instances of IsValue see AutoSignature sayHello Text IO Text sayHello name return concat Hello name export client hello world method com.example.HelloWorld Hello sayHello",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "export",
           "normalized": "Client-\u003eObjectPath-\u003e[Method]-\u003eIO()",
@@ -832,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "listen",
           "package": "dbus-core",
@@ -841,6 +912,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "listen",
           "normalized": "Proxy-\u003eInterfaceName-\u003eMemberName-\u003e(BusName-\u003eSignal-\u003eIO())-\u003eIO()",
@@ -856,6 +928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrepare a Haskell function for export. This automatically detects the\n function#8217;s type signature; see \u003ccode\u003e\u003ca\u003eAutoSignature\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eAutoReply\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eTo manage the type signature and marshaling yourself, use\n \u003ccode\u003e\u003ca\u003emethod\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "method",
           "package": "dbus-core",
@@ -866,6 +939,7 @@
         "index": {
           "description": "Prepare Haskell function for export This automatically detects the function type signature see AutoSignature and AutoReply To manage the type signature and marshaling yourself use method instead",
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "method",
           "normalized": "InterfaceName-\u003eMemberName-\u003ea-\u003eMethod",
@@ -880,6 +954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "proxy",
           "package": "dbus-core",
@@ -889,6 +964,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "proxy",
           "normalized": "Client-\u003eBusName-\u003eObjectPath-\u003eIO Proxy",
@@ -903,6 +979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "releaseName",
           "package": "dbus-core",
@@ -912,6 +989,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "releaseName",
           "normalized": "Client-\u003eBusName-\u003eIO ReleaseNameReply",
@@ -927,6 +1005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client.Simple",
           "name": "requestName",
           "package": "dbus-core",
@@ -936,6 +1015,7 @@
         },
         "index": {
           "hierarchy": "DBus Client Simple",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client.Simple",
           "name": "requestName",
           "normalized": "Client-\u003eBusName-\u003e[RequestNameFlag]-\u003eIO RequestNameReply",
@@ -978,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus-core",
@@ -986,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus-core",
@@ -999,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus-core",
@@ -1007,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "Client",
           "package": "dbus-core",
@@ -1020,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus-core",
@@ -1028,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus-core",
@@ -1041,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "Method",
           "package": "dbus-core",
@@ -1049,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "Method",
           "package": "dbus-core",
@@ -1062,6 +1150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "Reply",
           "package": "dbus-core",
@@ -1070,6 +1159,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "Reply",
           "package": "dbus-core",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus-core",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "MatchRule",
           "package": "dbus-core",
@@ -1105,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "ReplyError",
           "package": "dbus-core",
@@ -1114,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "ReplyError",
           "normalized": "ReplyError ErrorName[Variant]",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "ReplyReturn",
           "package": "dbus-core",
@@ -1138,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "ReplyReturn",
           "normalized": "ReplyReturn[Variant]",
@@ -1153,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "attach",
           "package": "dbus-core",
@@ -1162,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "attach",
           "normalized": "Connection-\u003eIO Client",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "call",
           "package": "dbus-core",
@@ -1185,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "call",
           "normalized": "Client-\u003eMethodCall-\u003eIO(Either Error MethodReturn)",
@@ -1199,6 +1299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "call_",
           "package": "dbus-core",
@@ -1208,6 +1309,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "call_",
           "normalized": "Client-\u003eMethodCall-\u003eIO MethodReturn",
@@ -1222,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "connect",
           "package": "dbus-core",
@@ -1231,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "connect",
           "normalized": "Address-\u003eIO Client",
@@ -1245,6 +1349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "emit",
           "package": "dbus-core",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "emit",
           "normalized": "Client-\u003eSignal-\u003eIO()",
@@ -1268,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "export",
           "package": "dbus-core",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "export",
           "normalized": "Client-\u003eObjectPath-\u003e[Method]-\u003eIO()",
@@ -1291,6 +1399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "listen",
           "package": "dbus-core",
@@ -1300,6 +1409,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "listen",
           "normalized": "Client-\u003eMatchRule-\u003e(BusName-\u003eSignal-\u003eIO())-\u003eIO()",
@@ -1314,6 +1424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "matchDestination",
           "package": "dbus-core",
@@ -1323,6 +1434,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "matchDestination",
           "package": "dbus-core",
@@ -1336,6 +1448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "matchInterface",
           "package": "dbus-core",
@@ -1345,6 +1458,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "matchInterface",
           "package": "dbus-core",
@@ -1358,6 +1472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "matchMember",
           "package": "dbus-core",
@@ -1367,6 +1482,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "matchMember",
           "package": "dbus-core",
@@ -1380,6 +1496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "matchPath",
           "package": "dbus-core",
@@ -1389,6 +1506,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "matchPath",
           "package": "dbus-core",
@@ -1402,6 +1520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "matchSender",
           "package": "dbus-core",
@@ -1411,6 +1530,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "matchSender",
           "package": "dbus-core",
@@ -1424,6 +1544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "method",
           "package": "dbus-core",
@@ -1433,6 +1554,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "method",
           "normalized": "InterfaceName-\u003eMemberName-\u003eSignature-\u003eSignature-\u003e([Variant]-\u003eIO Reply)-\u003eMethod",
@@ -1447,6 +1569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Client",
           "name": "setMessageProcessor",
           "package": "dbus-core",
@@ -1456,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "DBus Client",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Client",
           "name": "setMessageProcessor",
           "normalized": "Client-\u003e(ReceivedMessage-\u003eIO Bool)-\u003eIO()",
@@ -1471,6 +1595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "dbus-core",
@@ -1479,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "dbus-core",
@@ -1493,6 +1619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e is an opaque handle to an open D&#8208;Bus channel, with\n an internal state for maintaining the current message serial.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "dbus-core",
@@ -1502,6 +1629,7 @@
         "index": {
           "description": "Connection is an opaque handle to an open Bus channel with an internal state for maintaining the current message serial",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "Connection",
           "package": "dbus-core",
@@ -1515,6 +1643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "ConnectionError",
           "package": "dbus-core",
@@ -1523,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "ConnectionError",
           "package": "dbus-core",
@@ -1536,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Mechanism",
           "package": "dbus-core",
@@ -1544,6 +1675,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "Mechanism",
           "package": "dbus-core",
@@ -1557,6 +1689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Socket",
           "package": "dbus-core",
@@ -1565,6 +1698,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "Socket",
           "package": "dbus-core",
@@ -1579,6 +1713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eTransport\u003c/a\u003e\u003c/code\u003e is anything which can send and receive bytestrings,\n typically via a socket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "Transport",
           "package": "dbus-core",
@@ -1588,6 +1723,7 @@
         "index": {
           "description": "Transport is anything which can send and receive bytestrings typically via socket",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "Transport",
           "package": "dbus-core",
@@ -1602,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpen a connection to some address, using a given authentication\n mechanism. If the connection fails, a \u003ccode\u003e\u003ca\u003eConnectionError\u003c/a\u003e\u003c/code\u003e will be thrown.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "connect",
           "package": "dbus-core",
@@ -1612,6 +1749,7 @@
         "index": {
           "description": "Open connection to some address using given authentication mechanism If the connection fails ConnectionError will be thrown",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "connect",
           "normalized": "[Transport]-\u003e[Mechanism]-\u003eAddress-\u003eIO Connection",
@@ -1627,6 +1765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose an open connection. Once closed, the \u003ccode\u003e\u003ca\u003eConnection\u003c/a\u003e\u003c/code\u003e is no longer\n valid and must not be used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "disconnect",
           "package": "dbus-core",
@@ -1637,6 +1776,7 @@
         "index": {
           "description": "Close an open connection Once closed the Connection is no longer valid and must not be used",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "disconnect",
           "normalized": "Connection-\u003eIO()",
@@ -1651,6 +1791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "external",
           "package": "dbus-core",
@@ -1660,6 +1801,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "external",
           "package": "dbus-core",
@@ -1672,6 +1814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "mechanism",
           "package": "dbus-core",
@@ -1681,6 +1824,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "mechanism",
           "normalized": "(Socket-\u003eIO Bool)-\u003eMechanism",
@@ -1696,6 +1840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive the next message from the connection, blocking until one is\n available.\n\u003c/p\u003e\u003cp\u003eOnly one message may be received at a time; if multiple threads attempt\n to receive messages in parallel, one will block until after the other has\n finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "receive",
           "package": "dbus-core",
@@ -1706,6 +1851,7 @@
         "index": {
           "description": "Receive the next message from the connection blocking until one is available Only one message may be received at time if multiple threads attempt to receive messages in parallel one will block until after the other has finished",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "receive",
           "normalized": "Connection-\u003eIO(Either UnmarshalError ReceivedMessage)",
@@ -1721,6 +1867,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSend a single message, with a generated \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e. The second parameter\n exists to prevent race conditions when registering a reply handler; it\n receives the serial the message \u003cem\u003ewill\u003c/em\u003e be sent with, before it&#8217;s\n actually sent.\n\u003c/p\u003e\u003cp\u003eOnly one message may be sent at a time; if multiple threads attempt to\n send messages in parallel, one will block until after the other has\n finished.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "send",
           "package": "dbus-core",
@@ -1731,6 +1878,7 @@
         "index": {
           "description": "Send single message with generated Serial The second parameter exists to prevent race conditions when registering reply handler it receives the serial the message will be sent with before it actually sent Only one message may be sent at time if multiple threads attempt to send messages in parallel one will block until after the other has finished",
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "send",
           "normalized": "Connection-\u003ea-\u003e(Serial-\u003eIO b)-\u003eIO(Either MarshalError b)",
@@ -1745,6 +1893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "socket",
           "package": "dbus-core",
@@ -1754,6 +1903,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "socket",
           "normalized": "(ByteString-\u003eIO())-\u003e(Word-\u003eIO ByteString)-\u003eIO()-\u003eSocket",
@@ -1768,6 +1918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "socketGet",
           "package": "dbus-core",
@@ -1777,6 +1928,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "socketGet",
           "normalized": "Socket-\u003eWord-\u003eIO ByteString",
@@ -1792,6 +1944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "socketPut",
           "package": "dbus-core",
@@ -1801,6 +1954,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "socketPut",
           "normalized": "Socket-\u003eByteString-\u003eIO()",
@@ -1816,6 +1970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "tcp",
           "package": "dbus-core",
@@ -1825,6 +1980,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "tcp",
           "package": "dbus-core",
@@ -1837,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "transport",
           "package": "dbus-core",
@@ -1846,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "transport",
           "normalized": "Text-\u003e(Address-\u003eIO Socket)-\u003eTransport",
@@ -1860,6 +2018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Connection",
           "name": "unix",
           "package": "dbus-core",
@@ -1869,6 +2028,7 @@
         },
         "index": {
           "hierarchy": "DBus Connection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Connection",
           "name": "unix",
           "package": "dbus-core",
@@ -1881,6 +2041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "Constants",
           "package": "dbus-core",
@@ -1889,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "Constants",
           "package": "dbus-core",
@@ -1902,6 +2064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "dbusInterface",
           "package": "dbus-core",
@@ -1911,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "dbusInterface",
           "package": "dbus-core",
@@ -1924,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "dbusName",
           "package": "dbus-core",
@@ -1933,6 +2098,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "dbusName",
           "package": "dbus-core",
@@ -1946,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "dbusPath",
           "package": "dbus-core",
@@ -1955,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "dbusPath",
           "package": "dbus-core",
@@ -1968,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorAccessDenied",
           "package": "dbus-core",
@@ -1977,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorAccessDenied",
           "package": "dbus-core",
@@ -1990,6 +2160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorAddressInUse",
           "package": "dbus-core",
@@ -1999,6 +2170,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorAddressInUse",
           "package": "dbus-core",
@@ -2012,6 +2184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorAdtAuditDataUnknown",
           "package": "dbus-core",
@@ -2021,6 +2194,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorAdtAuditDataUnknown",
           "package": "dbus-core",
@@ -2034,6 +2208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorAuthFailed",
           "package": "dbus-core",
@@ -2043,6 +2218,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorAuthFailed",
           "package": "dbus-core",
@@ -2056,6 +2232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorBadAddress",
           "package": "dbus-core",
@@ -2065,6 +2242,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorBadAddress",
           "package": "dbus-core",
@@ -2078,6 +2256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorDisconnected",
           "package": "dbus-core",
@@ -2087,6 +2266,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorDisconnected",
           "package": "dbus-core",
@@ -2100,6 +2280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorFailed",
           "package": "dbus-core",
@@ -2109,6 +2290,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorFailed",
           "package": "dbus-core",
@@ -2122,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorFileExists",
           "package": "dbus-core",
@@ -2131,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorFileExists",
           "package": "dbus-core",
@@ -2144,6 +2328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorFileNotFound",
           "package": "dbus-core",
@@ -2153,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorFileNotFound",
           "package": "dbus-core",
@@ -2166,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorIOError",
           "package": "dbus-core",
@@ -2175,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorIOError",
           "package": "dbus-core",
@@ -2188,6 +2376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorInconsistentMessage",
           "package": "dbus-core",
@@ -2197,6 +2386,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorInconsistentMessage",
           "package": "dbus-core",
@@ -2210,6 +2400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorInvalidFileContent",
           "package": "dbus-core",
@@ -2219,6 +2410,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorInvalidFileContent",
           "package": "dbus-core",
@@ -2232,6 +2424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorInvalidParameters",
           "package": "dbus-core",
@@ -2241,6 +2434,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorInvalidParameters",
           "package": "dbus-core",
@@ -2254,6 +2448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorLimitsExceeded",
           "package": "dbus-core",
@@ -2263,6 +2458,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorLimitsExceeded",
           "package": "dbus-core",
@@ -2276,6 +2472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorMatchRuleInvalid",
           "package": "dbus-core",
@@ -2285,6 +2482,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorMatchRuleInvalid",
           "package": "dbus-core",
@@ -2298,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorMatchRuleNotFound",
           "package": "dbus-core",
@@ -2307,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorMatchRuleNotFound",
           "package": "dbus-core",
@@ -2320,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNameHasNoOwner",
           "package": "dbus-core",
@@ -2329,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNameHasNoOwner",
           "package": "dbus-core",
@@ -2342,6 +2544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNoMemory",
           "package": "dbus-core",
@@ -2351,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNoMemory",
           "package": "dbus-core",
@@ -2364,6 +2568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNoNetwork",
           "package": "dbus-core",
@@ -2373,6 +2578,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNoNetwork",
           "package": "dbus-core",
@@ -2386,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNoReply",
           "package": "dbus-core",
@@ -2395,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNoReply",
           "package": "dbus-core",
@@ -2408,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNoServer",
           "package": "dbus-core",
@@ -2417,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNoServer",
           "package": "dbus-core",
@@ -2430,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorNotSupported",
           "package": "dbus-core",
@@ -2439,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorNotSupported",
           "package": "dbus-core",
@@ -2452,6 +2664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorObjectPathInUse",
           "package": "dbus-core",
@@ -2461,6 +2674,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorObjectPathInUse",
           "package": "dbus-core",
@@ -2474,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSELinuxSecurityContextUnknown",
           "package": "dbus-core",
@@ -2483,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSELinuxSecurityContextUnknown",
           "package": "dbus-core",
@@ -2496,6 +2712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorServiceUnknown",
           "package": "dbus-core",
@@ -2505,6 +2722,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorServiceUnknown",
           "package": "dbus-core",
@@ -2518,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnChildExited",
           "package": "dbus-core",
@@ -2527,6 +2746,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnChildExited",
           "package": "dbus-core",
@@ -2540,6 +2760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnChildSignaled",
           "package": "dbus-core",
@@ -2549,6 +2770,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnChildSignaled",
           "package": "dbus-core",
@@ -2562,6 +2784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnConfigInvalid",
           "package": "dbus-core",
@@ -2571,6 +2794,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnConfigInvalid",
           "package": "dbus-core",
@@ -2584,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnExecFailed",
           "package": "dbus-core",
@@ -2593,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnExecFailed",
           "package": "dbus-core",
@@ -2606,6 +2832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnFailed",
           "package": "dbus-core",
@@ -2615,6 +2842,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnFailed",
           "package": "dbus-core",
@@ -2628,6 +2856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnFailedToSetup",
           "package": "dbus-core",
@@ -2637,6 +2866,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnFailedToSetup",
           "package": "dbus-core",
@@ -2650,6 +2880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnFileInvalid",
           "package": "dbus-core",
@@ -2659,6 +2890,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnFileInvalid",
           "package": "dbus-core",
@@ -2672,6 +2904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnForkFailed",
           "package": "dbus-core",
@@ -2681,6 +2914,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnForkFailed",
           "package": "dbus-core",
@@ -2694,6 +2928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnNoMemory",
           "package": "dbus-core",
@@ -2703,6 +2938,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnNoMemory",
           "package": "dbus-core",
@@ -2716,6 +2952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnPermissionsInvalid",
           "package": "dbus-core",
@@ -2725,6 +2962,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnPermissionsInvalid",
           "package": "dbus-core",
@@ -2738,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnServiceNotFound",
           "package": "dbus-core",
@@ -2747,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnServiceNotFound",
           "package": "dbus-core",
@@ -2760,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorSpawnServiceNotValid",
           "package": "dbus-core",
@@ -2769,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorSpawnServiceNotValid",
           "package": "dbus-core",
@@ -2782,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorTimedOut",
           "package": "dbus-core",
@@ -2791,6 +3034,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorTimedOut",
           "package": "dbus-core",
@@ -2804,6 +3048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorTimeout",
           "package": "dbus-core",
@@ -2813,6 +3058,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorTimeout",
           "package": "dbus-core",
@@ -2826,6 +3072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorUnixProcessIdUnknown",
           "package": "dbus-core",
@@ -2835,6 +3082,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorUnixProcessIdUnknown",
           "package": "dbus-core",
@@ -2848,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorUnknownInterface",
           "package": "dbus-core",
@@ -2857,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorUnknownInterface",
           "package": "dbus-core",
@@ -2870,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorUnknownMethod",
           "package": "dbus-core",
@@ -2879,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorUnknownMethod",
           "package": "dbus-core",
@@ -2892,6 +3144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "errorUnknownObject",
           "package": "dbus-core",
@@ -2901,6 +3154,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "errorUnknownObject",
           "package": "dbus-core",
@@ -2914,6 +3168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "interfaceIntrospectable",
           "package": "dbus-core",
@@ -2923,6 +3178,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "interfaceIntrospectable",
           "package": "dbus-core",
@@ -2936,6 +3192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "interfacePeer",
           "package": "dbus-core",
@@ -2945,6 +3202,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "interfacePeer",
           "package": "dbus-core",
@@ -2958,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Constants",
           "name": "interfaceProperties",
           "package": "dbus-core",
@@ -2967,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "DBus Constants",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Constants",
           "name": "interfaceProperties",
           "package": "dbus-core",
@@ -2980,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Introspection",
           "package": "dbus-core",
@@ -2988,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Introspection",
           "package": "dbus-core",
@@ -3001,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Interface",
           "package": "dbus-core",
@@ -3009,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Interface",
           "package": "dbus-core",
@@ -3022,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Method",
           "package": "dbus-core",
@@ -3030,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Method",
           "package": "dbus-core",
@@ -3043,6 +3309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Object",
           "package": "dbus-core",
@@ -3051,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Object",
           "package": "dbus-core",
@@ -3064,6 +3332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Parameter",
           "package": "dbus-core",
@@ -3072,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Parameter",
           "package": "dbus-core",
@@ -3085,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Property",
           "package": "dbus-core",
@@ -3093,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Property",
           "package": "dbus-core",
@@ -3106,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "PropertyAccess",
           "package": "dbus-core",
@@ -3114,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "PropertyAccess",
           "package": "dbus-core",
@@ -3127,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Signal",
           "package": "dbus-core",
@@ -3135,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Signal",
           "package": "dbus-core",
@@ -3148,6 +3424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Interface",
           "package": "dbus-core",
@@ -3157,6 +3434,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Interface",
           "normalized": "Interface InterfaceName[Method][Signal][Property]",
@@ -3172,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Method",
           "package": "dbus-core",
@@ -3181,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Method",
           "normalized": "Method MemberName[Parameter][Parameter]",
@@ -3196,6 +3476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Object",
           "package": "dbus-core",
@@ -3205,6 +3486,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Object",
           "normalized": "Object ObjectPath[Interface][Object]",
@@ -3220,6 +3502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Parameter",
           "package": "dbus-core",
@@ -3229,6 +3512,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Parameter",
           "package": "dbus-core",
@@ -3242,6 +3526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Property",
           "package": "dbus-core",
@@ -3251,6 +3536,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Property",
           "normalized": "Property Text Signature[PropertyAccess]",
@@ -3266,6 +3552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Read",
           "package": "dbus-core",
@@ -3275,6 +3562,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Read",
           "package": "dbus-core",
@@ -3288,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Signal",
           "package": "dbus-core",
@@ -3297,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Signal",
           "normalized": "Signal MemberName[Parameter]",
@@ -3312,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "Write",
           "package": "dbus-core",
@@ -3321,6 +3612,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "Write",
           "package": "dbus-core",
@@ -3334,6 +3626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "fromXML",
           "package": "dbus-core",
@@ -3343,6 +3636,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "fromXML",
           "normalized": "ObjectPath-\u003eText-\u003eMaybe Object",
@@ -3358,6 +3652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Introspection",
           "name": "toXML",
           "package": "dbus-core",
@@ -3367,6 +3662,7 @@
         },
         "index": {
           "hierarchy": "DBus Introspection",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Introspection",
           "name": "toXML",
           "normalized": "Object-\u003eMaybe Text",
@@ -3382,6 +3678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Message",
           "package": "dbus-core",
@@ -3390,6 +3687,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Message",
           "package": "dbus-core",
@@ -3403,6 +3701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Error",
           "package": "dbus-core",
@@ -3411,6 +3710,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Error",
           "package": "dbus-core",
@@ -3424,6 +3724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Flag",
           "package": "dbus-core",
@@ -3432,6 +3733,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Flag",
           "package": "dbus-core",
@@ -3445,6 +3747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Message",
           "package": "dbus-core",
@@ -3453,6 +3756,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Message",
           "package": "dbus-core",
@@ -3466,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "dbus-core",
@@ -3474,6 +3779,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "dbus-core",
@@ -3487,6 +3793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "dbus-core",
@@ -3495,6 +3802,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "dbus-core",
@@ -3509,6 +3817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot an actual message type, but a wrapper around messages received from\n the bus. Each value contains the message&#8217;s \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003e and possibly the\n origin&#8217;s \u003ccode\u003e\u003ca\u003eBusName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedMessage",
           "package": "dbus-core",
@@ -3518,6 +3827,7 @@
         "index": {
           "description": "Not an actual message type but wrapper around messages received from the bus Each value contains the message Serial and possibly the origin BusName",
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedMessage",
           "package": "dbus-core",
@@ -3532,6 +3842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value used to uniquely identify a particular message within a session.\n \u003ccode\u003e\u003ca\u003eSerial\u003c/a\u003e\u003c/code\u003es are 32&#8208;bit unsigned integers, and eventually wrap.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Serial",
           "package": "dbus-core",
@@ -3541,6 +3852,7 @@
         "index": {
           "description": "value used to uniquely identify particular message within session Serial are bit unsigned integers and eventually wrap",
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Serial",
           "package": "dbus-core",
@@ -3554,6 +3866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "dbus-core",
@@ -3562,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "dbus-core",
@@ -3575,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Unknown",
           "package": "dbus-core",
@@ -3583,6 +3898,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Unknown",
           "package": "dbus-core",
@@ -3596,6 +3912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Error",
           "package": "dbus-core",
@@ -3605,6 +3922,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Error",
           "package": "dbus-core",
@@ -3618,6 +3936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "dbus-core",
@@ -3627,6 +3946,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "MethodCall",
           "package": "dbus-core",
@@ -3640,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "dbus-core",
@@ -3649,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "MethodReturn",
           "package": "dbus-core",
@@ -3662,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "NoAutoStart",
           "package": "dbus-core",
@@ -3671,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "NoAutoStart",
           "package": "dbus-core",
@@ -3684,6 +4008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "NoReplyExpected",
           "package": "dbus-core",
@@ -3693,6 +4018,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "NoReplyExpected",
           "package": "dbus-core",
@@ -3706,6 +4032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedError",
           "package": "dbus-core",
@@ -3715,6 +4042,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedError",
           "package": "dbus-core",
@@ -3728,6 +4056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedMethodCall",
           "package": "dbus-core",
@@ -3737,6 +4066,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedMethodCall",
           "package": "dbus-core",
@@ -3750,6 +4080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedMethodReturn",
           "package": "dbus-core",
@@ -3759,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedMethodReturn",
           "package": "dbus-core",
@@ -3772,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedSignal",
           "package": "dbus-core",
@@ -3781,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedSignal",
           "package": "dbus-core",
@@ -3794,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "ReceivedUnknown",
           "package": "dbus-core",
@@ -3803,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "ReceivedUnknown",
           "package": "dbus-core",
@@ -3816,6 +4152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "dbus-core",
@@ -3825,6 +4162,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Signal",
           "package": "dbus-core",
@@ -3838,6 +4176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "Unknown",
           "package": "dbus-core",
@@ -3847,6 +4186,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "Unknown",
           "package": "dbus-core",
@@ -3860,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "errorBody",
           "package": "dbus-core",
@@ -3869,6 +4210,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "errorBody",
           "normalized": "[Variant]",
@@ -3884,6 +4226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "errorDestination",
           "package": "dbus-core",
@@ -3893,6 +4236,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "errorDestination",
           "package": "dbus-core",
@@ -3906,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "errorMessage",
           "package": "dbus-core",
@@ -3915,6 +4260,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "errorMessage",
           "normalized": "Error-\u003eText",
@@ -3930,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "errorName",
           "package": "dbus-core",
@@ -3939,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "errorName",
           "package": "dbus-core",
@@ -3952,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "errorSerial",
           "package": "dbus-core",
@@ -3961,6 +4310,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "errorSerial",
           "package": "dbus-core",
@@ -3974,6 +4324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "messageBody",
           "package": "dbus-core",
@@ -3983,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "messageBody",
           "normalized": "a-\u003e[Variant]",
@@ -3998,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "messageFlags",
           "package": "dbus-core",
@@ -4007,6 +4360,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "messageFlags",
           "normalized": "a-\u003eSet Flag",
@@ -4022,6 +4376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallBody",
           "package": "dbus-core",
@@ -4031,6 +4386,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallBody",
           "normalized": "[Variant]",
@@ -4046,6 +4402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallDestination",
           "package": "dbus-core",
@@ -4055,6 +4412,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallDestination",
           "package": "dbus-core",
@@ -4068,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallFlags",
           "package": "dbus-core",
@@ -4077,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallFlags",
           "package": "dbus-core",
@@ -4090,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallInterface",
           "package": "dbus-core",
@@ -4099,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallInterface",
           "package": "dbus-core",
@@ -4112,6 +4474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallMember",
           "package": "dbus-core",
@@ -4121,6 +4484,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallMember",
           "package": "dbus-core",
@@ -4134,6 +4498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodCallPath",
           "package": "dbus-core",
@@ -4143,6 +4508,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodCallPath",
           "package": "dbus-core",
@@ -4156,6 +4522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodReturnBody",
           "package": "dbus-core",
@@ -4165,6 +4532,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodReturnBody",
           "normalized": "[Variant]",
@@ -4180,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodReturnDestination",
           "package": "dbus-core",
@@ -4189,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodReturnDestination",
           "package": "dbus-core",
@@ -4202,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "methodReturnSerial",
           "package": "dbus-core",
@@ -4211,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "methodReturnSerial",
           "package": "dbus-core",
@@ -4224,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "receivedBody",
           "package": "dbus-core",
@@ -4233,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "receivedBody",
           "normalized": "ReceivedMessage-\u003e[Variant]",
@@ -4248,6 +4622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "receivedSender",
           "package": "dbus-core",
@@ -4257,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "receivedSender",
           "normalized": "ReceivedMessage-\u003eMaybe BusName",
@@ -4272,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "receivedSerial",
           "package": "dbus-core",
@@ -4281,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "receivedSerial",
           "normalized": "ReceivedMessage-\u003eSerial",
@@ -4296,6 +4674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "serialValue",
           "package": "dbus-core",
@@ -4305,6 +4684,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "serialValue",
           "normalized": "Serial-\u003eWord",
@@ -4320,6 +4700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signalBody",
           "package": "dbus-core",
@@ -4329,6 +4710,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "signalBody",
           "normalized": "[Variant]",
@@ -4344,6 +4726,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signalDestination",
           "package": "dbus-core",
@@ -4353,6 +4736,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "signalDestination",
           "package": "dbus-core",
@@ -4366,6 +4750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signalInterface",
           "package": "dbus-core",
@@ -4375,6 +4760,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "signalInterface",
           "package": "dbus-core",
@@ -4388,6 +4774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signalMember",
           "package": "dbus-core",
@@ -4397,6 +4784,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "signalMember",
           "package": "dbus-core",
@@ -4410,6 +4798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "signalPath",
           "package": "dbus-core",
@@ -4419,6 +4808,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "signalPath",
           "package": "dbus-core",
@@ -4432,6 +4822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "unknownBody",
           "package": "dbus-core",
@@ -4441,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "unknownBody",
           "normalized": "[Variant]",
@@ -4456,6 +4848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "unknownFlags",
           "package": "dbus-core",
@@ -4465,6 +4858,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "unknownFlags",
           "package": "dbus-core",
@@ -4478,6 +4872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Message",
           "name": "unknownType",
           "package": "dbus-core",
@@ -4487,6 +4882,7 @@
         },
         "index": {
           "hierarchy": "DBus Message",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Message",
           "name": "unknownType",
           "package": "dbus-core",
@@ -4500,6 +4896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Types",
           "package": "dbus-core",
@@ -4508,6 +4905,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Types",
           "package": "dbus-core",
@@ -4521,6 +4919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Array",
           "package": "dbus-core",
@@ -4529,6 +4928,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Array",
           "package": "dbus-core",
@@ -4542,6 +4942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "BusName",
           "package": "dbus-core",
@@ -4550,6 +4951,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "BusName",
           "package": "dbus-core",
@@ -4563,6 +4965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Dictionary",
           "package": "dbus-core",
@@ -4571,6 +4974,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Dictionary",
           "package": "dbus-core",
@@ -4584,6 +4988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "ErrorName",
           "package": "dbus-core",
@@ -4592,6 +4997,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "ErrorName",
           "package": "dbus-core",
@@ -4605,6 +5011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "InterfaceName",
           "package": "dbus-core",
@@ -4613,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "InterfaceName",
           "package": "dbus-core",
@@ -4626,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "IsAtom",
           "package": "dbus-core",
@@ -4634,6 +5043,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "IsAtom",
           "package": "dbus-core",
@@ -4647,6 +5057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "IsValue",
           "package": "dbus-core",
@@ -4655,6 +5066,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "IsValue",
           "package": "dbus-core",
@@ -4668,6 +5080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "IsVariant",
           "package": "dbus-core",
@@ -4676,6 +5089,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "IsVariant",
           "package": "dbus-core",
@@ -4689,6 +5103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "MemberName",
           "package": "dbus-core",
@@ -4697,6 +5112,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "MemberName",
           "package": "dbus-core",
@@ -4710,6 +5126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "ObjectPath",
           "package": "dbus-core",
@@ -4718,6 +5135,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "ObjectPath",
           "package": "dbus-core",
@@ -4731,6 +5149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Signature",
           "package": "dbus-core",
@@ -4739,6 +5158,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Signature",
           "package": "dbus-core",
@@ -4752,6 +5172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Structure",
           "package": "dbus-core",
@@ -4760,6 +5181,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Structure",
           "package": "dbus-core",
@@ -4773,6 +5195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Type",
           "package": "dbus-core",
@@ -4781,6 +5204,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Type",
           "package": "dbus-core",
@@ -4795,6 +5219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eVariant\u003c/a\u003e\u003c/code\u003es may contain any other built&#8208;in D&#8208;Bus value. Besides\n representing native \u003ccode\u003eVARIANT\u003c/code\u003e values, they allow type&#8208;safe storage and\n deconstruction of heterogeneous collections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "Variant",
           "package": "dbus-core",
@@ -4804,6 +5229,7 @@
         "index": {
           "description": "Variant may contain any other built in Bus value Besides representing native VARIANT values they allow type safe storage and deconstruction of heterogeneous collections",
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "Variant",
           "package": "dbus-core",
@@ -4817,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeArray",
           "package": "dbus-core",
@@ -4826,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeArray",
           "package": "dbus-core",
@@ -4839,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeBoolean",
           "package": "dbus-core",
@@ -4848,6 +5277,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeBoolean",
           "package": "dbus-core",
@@ -4861,6 +5291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeDictionary",
           "package": "dbus-core",
@@ -4870,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeDictionary",
           "package": "dbus-core",
@@ -4883,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeDouble",
           "package": "dbus-core",
@@ -4892,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeDouble",
           "package": "dbus-core",
@@ -4905,6 +5339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeInt16",
           "package": "dbus-core",
@@ -4914,6 +5349,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeInt16",
           "package": "dbus-core",
@@ -4927,6 +5363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeInt32",
           "package": "dbus-core",
@@ -4936,6 +5373,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeInt32",
           "package": "dbus-core",
@@ -4949,6 +5387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeInt64",
           "package": "dbus-core",
@@ -4958,6 +5397,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeInt64",
           "package": "dbus-core",
@@ -4971,6 +5411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeObjectPath",
           "package": "dbus-core",
@@ -4980,6 +5421,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeObjectPath",
           "package": "dbus-core",
@@ -4993,6 +5435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeSignature",
           "package": "dbus-core",
@@ -5002,6 +5445,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeSignature",
           "package": "dbus-core",
@@ -5015,6 +5459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeString",
           "package": "dbus-core",
@@ -5024,6 +5469,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeString",
           "package": "dbus-core",
@@ -5037,6 +5483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeStructure",
           "package": "dbus-core",
@@ -5046,6 +5493,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeStructure",
           "normalized": "TypeStructure[Type]",
@@ -5061,6 +5509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeVariant",
           "package": "dbus-core",
@@ -5070,6 +5519,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeVariant",
           "package": "dbus-core",
@@ -5083,6 +5533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeWord16",
           "package": "dbus-core",
@@ -5092,6 +5543,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeWord16",
           "package": "dbus-core",
@@ -5105,6 +5557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeWord32",
           "package": "dbus-core",
@@ -5114,6 +5567,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeWord32",
           "package": "dbus-core",
@@ -5127,6 +5581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeWord64",
           "package": "dbus-core",
@@ -5136,6 +5591,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeWord64",
           "package": "dbus-core",
@@ -5149,6 +5605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "TypeWord8",
           "package": "dbus-core",
@@ -5158,6 +5615,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "TypeWord8",
           "package": "dbus-core",
@@ -5171,6 +5629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "arrayItems",
           "package": "dbus-core",
@@ -5180,6 +5639,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "arrayItems",
           "normalized": "Array-\u003e[Variant]",
@@ -5195,6 +5655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "busName",
           "package": "dbus-core",
@@ -5204,6 +5665,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "busName",
           "normalized": "Text-\u003eMaybe BusName",
@@ -5219,6 +5681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "busNameText",
           "package": "dbus-core",
@@ -5228,6 +5691,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "busNameText",
           "normalized": "BusName-\u003eText",
@@ -5243,6 +5707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "busName_",
           "package": "dbus-core",
@@ -5252,6 +5717,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "busName_",
           "normalized": "Text-\u003eBusName",
@@ -5267,6 +5733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "dictionaryItems",
           "package": "dbus-core",
@@ -5276,6 +5743,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "dictionaryItems",
           "normalized": "Dictionary-\u003e[(Variant,Variant)]",
@@ -5291,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "errorName",
           "package": "dbus-core",
@@ -5300,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "errorName",
           "normalized": "Text-\u003eMaybe ErrorName",
@@ -5315,6 +5785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "errorNameText",
           "package": "dbus-core",
@@ -5324,6 +5795,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "errorNameText",
           "normalized": "ErrorName-\u003eText",
@@ -5339,6 +5811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "errorName_",
           "package": "dbus-core",
@@ -5348,6 +5821,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "errorName_",
           "normalized": "Text-\u003eErrorName",
@@ -5363,6 +5837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "fromVariant",
           "package": "dbus-core",
@@ -5372,6 +5847,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "fromVariant",
           "normalized": "Variant-\u003eMaybe a",
@@ -5387,6 +5863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "interfaceName",
           "package": "dbus-core",
@@ -5396,6 +5873,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "interfaceName",
           "normalized": "Text-\u003eMaybe InterfaceName",
@@ -5411,6 +5889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "interfaceNameText",
           "package": "dbus-core",
@@ -5420,6 +5899,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "interfaceNameText",
           "normalized": "InterfaceName-\u003eText",
@@ -5435,6 +5915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "interfaceName_",
           "package": "dbus-core",
@@ -5444,6 +5925,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "interfaceName_",
           "normalized": "Text-\u003eInterfaceName",
@@ -5459,6 +5941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "memberName",
           "package": "dbus-core",
@@ -5468,6 +5951,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "memberName",
           "normalized": "Text-\u003eMaybe MemberName",
@@ -5483,6 +5967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "memberNameText",
           "package": "dbus-core",
@@ -5492,6 +5977,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "memberNameText",
           "normalized": "MemberName-\u003eText",
@@ -5507,6 +5993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "memberName_",
           "package": "dbus-core",
@@ -5516,6 +6003,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "memberName_",
           "normalized": "Text-\u003eMemberName",
@@ -5531,6 +6019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "objectPath",
           "package": "dbus-core",
@@ -5540,6 +6029,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "objectPath",
           "normalized": "Text-\u003eMaybe ObjectPath",
@@ -5555,6 +6045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "objectPathText",
           "package": "dbus-core",
@@ -5564,6 +6055,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "objectPathText",
           "normalized": "ObjectPath-\u003eText",
@@ -5579,6 +6071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "objectPath_",
           "package": "dbus-core",
@@ -5588,6 +6081,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "objectPath_",
           "normalized": "Text-\u003eObjectPath",
@@ -5603,6 +6097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "signature",
           "package": "dbus-core",
@@ -5612,6 +6107,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "signature",
           "normalized": "Text-\u003eMaybe Signature",
@@ -5626,6 +6122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "signatureText",
           "package": "dbus-core",
@@ -5635,6 +6132,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "signatureText",
           "normalized": "Signature-\u003eText",
@@ -5650,6 +6148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "signatureTypes",
           "package": "dbus-core",
@@ -5659,6 +6158,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "signatureTypes",
           "normalized": "Signature-\u003e[Type]",
@@ -5674,6 +6174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "signature_",
           "package": "dbus-core",
@@ -5683,6 +6184,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "signature_",
           "normalized": "Text-\u003eSignature",
@@ -5697,6 +6199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "structureItems",
           "package": "dbus-core",
@@ -5706,6 +6209,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "structureItems",
           "normalized": "Structure-\u003e[Variant]",
@@ -5721,6 +6225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "toVariant",
           "package": "dbus-core",
@@ -5730,6 +6235,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "toVariant",
           "normalized": "a-\u003eVariant",
@@ -5745,6 +6251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "typeOf",
           "package": "dbus-core",
@@ -5754,6 +6261,7 @@
         },
         "index": {
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "typeOf",
           "normalized": "a-\u003eType",
@@ -5770,6 +6278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvery variant is strongly&#8208;typed; that is, the type of its contained\n value is known at all times. This function retrieves that type, so that\n the correct cast can be used to retrieve the value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Types",
           "name": "variantType",
           "package": "dbus-core",
@@ -5780,6 +6289,7 @@
         "index": {
           "description": "Every variant is strongly typed that is the type of its contained value is known at all times This function retrieves that type so that the correct cast can be used to retrieve the value",
           "hierarchy": "DBus Types",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Types",
           "name": "variantType",
           "normalized": "Variant-\u003eType",
@@ -5795,6 +6305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "Wire",
           "package": "dbus-core",
@@ -5803,6 +6314,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "Wire",
           "package": "dbus-core",
@@ -5816,6 +6328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "Endianness",
           "package": "dbus-core",
@@ -5824,6 +6337,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "Endianness",
           "package": "dbus-core",
@@ -5837,6 +6351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "MarshalError",
           "package": "dbus-core",
@@ -5845,6 +6360,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "MarshalError",
           "package": "dbus-core",
@@ -5858,6 +6374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "UnmarshalError",
           "package": "dbus-core",
@@ -5866,6 +6383,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "UnmarshalError",
           "package": "dbus-core",
@@ -5879,6 +6397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "BigEndian",
           "package": "dbus-core",
@@ -5888,6 +6407,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "BigEndian",
           "package": "dbus-core",
@@ -5901,6 +6421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "LittleEndian",
           "package": "dbus-core",
@@ -5910,6 +6431,7 @@
         },
         "index": {
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "LittleEndian",
           "package": "dbus-core",
@@ -5924,6 +6446,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eMessage\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e. Although unusual, it is\n possible for marshaling to fail; if this occurs, an error will be\n returned instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "marshalMessage",
           "package": "dbus-core",
@@ -5934,6 +6457,7 @@
         "index": {
           "description": "Convert Message into ByteString Although unusual it is possible for marshaling to fail if this occurs an error will be returned instead",
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "marshalMessage",
           "normalized": "Endianness-\u003eSerial-\u003ea-\u003eEither MarshalError ByteString",
@@ -5950,6 +6474,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e into a \u003ccode\u003e\u003ca\u003eReceivedMessage\u003c/a\u003e\u003c/code\u003e. The result can be\n inspected to see what type of message was parsed. Unknown message types\n can still be parsed successfully, as long as they otherwise conform to\n the D&#8208;Bus standard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:50:57 UTC 2014",
           "module": "DBus.Wire",
           "name": "unmarshalMessage",
           "package": "dbus-core",
@@ -5960,6 +6485,7 @@
         "index": {
           "description": "Parse ByteString into ReceivedMessage The result can be inspected to see what type of message was parsed Unknown message types can still be parsed successfully as long as they otherwise conform to the Bus standard",
           "hierarchy": "DBus Wire",
+          "indexed": "2014-03-11T17:50:57",
           "module": "DBus.Wire",
           "name": "unmarshalMessage",
           "normalized": "ByteString-\u003eEither UnmarshalError ReceivedMessage",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "type-prelude"
+        "phrase": "type-prelude",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA prelude for type-level programming with type families\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Families",
           "package": "type-prelude",
@@ -28,6 +29,7 @@
         "index": {
           "description": "prelude for type-level programming with type families",
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Families",
           "package": "type-prelude",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(||)",
           "package": "type-prelude",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(||) ||",
           "normalized": "()",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(!!)",
           "package": "type-prelude",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(!!) !!",
           "normalized": "()",
@@ -108,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(&&)",
           "package": "type-prelude",
@@ -116,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(&&) &&",
           "normalized": "()",
@@ -130,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(*)",
           "package": "type-prelude",
@@ -138,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(*) *",
           "package": "type-prelude",
@@ -150,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(+)",
           "package": "type-prelude",
@@ -158,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(+) +",
           "normalized": "()",
@@ -172,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(++)",
           "package": "type-prelude",
@@ -180,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(++) ++",
           "normalized": "()",
@@ -194,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(/=)",
           "package": "type-prelude",
@@ -202,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(/=) /=",
           "package": "type-prelude",
@@ -214,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(\u003c)",
           "package": "type-prelude",
@@ -222,6 +239,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(\u003c) \u003c",
           "package": "type-prelude",
@@ -234,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(\u003c=)",
           "package": "type-prelude",
@@ -242,6 +261,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(\u003c=) \u003c=",
           "package": "type-prelude",
@@ -254,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(==)",
           "package": "type-prelude",
@@ -262,6 +283,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(==) ==",
           "normalized": "()",
@@ -276,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(\u003e)",
           "package": "type-prelude",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(\u003e) \u003e",
           "package": "type-prelude",
@@ -296,6 +320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(\u003e=)",
           "package": "type-prelude",
@@ -304,6 +329,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(\u003e=) \u003e=",
           "package": "type-prelude",
@@ -316,6 +342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "(.&.)",
           "package": "type-prelude",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "(.&.) .&.",
           "normalized": "()",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Abs",
           "package": "type-prelude",
@@ -346,6 +375,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Abs",
           "package": "type-prelude",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTwo bit sum of three bits\n Add3 a b c ~ '(sum, carry)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Add3",
           "package": "type-prelude",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Two bit sum of three bits Add3 sum carry",
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Add3",
           "package": "type-prelude",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry",
           "package": "type-prelude",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry",
           "package": "type-prelude",
@@ -403,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry_2",
           "package": "type-prelude",
@@ -411,6 +446,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry_2",
           "package": "type-prelude",
@@ -424,6 +460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry_3",
           "package": "type-prelude",
@@ -432,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "AddWithCarry_3",
           "package": "type-prelude",
@@ -445,6 +483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "And",
           "package": "type-prelude",
@@ -453,6 +492,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "And",
           "package": "type-prelude",
@@ -466,6 +506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "AsKindOf",
           "package": "type-prelude",
@@ -474,6 +515,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "AsKindOf",
           "package": "type-prelude",
@@ -487,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "At_1",
           "package": "type-prelude",
@@ -495,6 +538,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "At_1",
           "package": "type-prelude",
@@ -508,6 +552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "BitwiseAnd_2",
           "package": "type-prelude",
@@ -516,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "BitwiseAnd_2",
           "package": "type-prelude",
@@ -529,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "CombineOrdering",
           "package": "type-prelude",
@@ -537,6 +584,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "CombineOrdering",
           "package": "type-prelude",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Compare",
           "package": "type-prelude",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Compare",
           "package": "type-prelude",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Compare0",
           "package": "type-prelude",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Compare0",
           "package": "type-prelude",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Complement",
           "package": "type-prelude",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Complement",
           "package": "type-prelude",
@@ -613,6 +667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Compose",
           "package": "type-prelude",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Compose",
           "package": "type-prelude",
@@ -634,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Concat",
           "package": "type-prelude",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Concat",
           "package": "type-prelude",
@@ -655,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Digit",
           "package": "type-prelude",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Digit",
           "package": "type-prelude",
@@ -676,6 +736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Drop",
           "package": "type-prelude",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Drop",
           "package": "type-prelude",
@@ -697,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "ERROR",
           "package": "type-prelude",
@@ -705,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "ERROR",
           "package": "type-prelude",
@@ -718,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Elem",
           "package": "type-prelude",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Elem",
           "package": "type-prelude",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Elem_1",
           "package": "type-prelude",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Elem_1",
           "package": "type-prelude",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "EnumFromTo",
           "package": "type-prelude",
@@ -768,6 +837,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "EnumFromTo",
           "package": "type-prelude",
@@ -781,6 +851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "EnumFromTo_1",
           "package": "type-prelude",
@@ -789,6 +860,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "EnumFromTo_1",
           "package": "type-prelude",
@@ -802,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Error",
           "package": "type-prelude",
@@ -810,6 +883,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Error",
           "package": "type-prelude",
@@ -823,6 +897,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Even",
           "package": "type-prelude",
@@ -831,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Even",
           "package": "type-prelude",
@@ -844,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Flip",
           "package": "type-prelude",
@@ -852,6 +929,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Flip",
           "package": "type-prelude",
@@ -865,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "FromEnum",
           "package": "type-prelude",
@@ -873,6 +952,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "FromEnum",
           "package": "type-prelude",
@@ -886,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "FromOrdering",
           "package": "type-prelude",
@@ -894,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "FromOrdering",
           "package": "type-prelude",
@@ -907,6 +989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Fst",
           "package": "type-prelude",
@@ -915,6 +998,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Fst",
           "package": "type-prelude",
@@ -928,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Gcd",
           "package": "type-prelude",
@@ -936,6 +1021,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Gcd",
           "package": "type-prelude",
@@ -949,6 +1035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Gcd_1",
           "package": "type-prelude",
@@ -957,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Gcd_1",
           "package": "type-prelude",
@@ -970,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Gcd_2",
           "package": "type-prelude",
@@ -978,6 +1067,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Gcd_2",
           "package": "type-prelude",
@@ -991,6 +1081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Gcd_3",
           "package": "type-prelude",
@@ -999,6 +1090,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Gcd_3",
           "package": "type-prelude",
@@ -1012,6 +1104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Head",
           "package": "type-prelude",
@@ -1020,6 +1113,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Head",
           "package": "type-prelude",
@@ -1033,6 +1127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Id",
           "package": "type-prelude",
@@ -1041,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Id",
           "package": "type-prelude",
@@ -1055,6 +1151,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "If",
           "package": "type-prelude",
@@ -1064,6 +1161,7 @@
         "index": {
           "description": "If",
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "If",
           "package": "type-prelude",
@@ -1077,6 +1175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Init",
           "package": "type-prelude",
@@ -1085,6 +1184,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Init",
           "package": "type-prelude",
@@ -1098,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "IntegerEnd",
           "package": "type-prelude",
@@ -1106,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "IntegerEnd",
           "package": "type-prelude",
@@ -1119,6 +1221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "IntegerEnd2",
           "package": "type-prelude",
@@ -1127,6 +1230,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "IntegerEnd2",
           "package": "type-prelude",
@@ -1140,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "IntegerEqual",
           "package": "type-prelude",
@@ -1148,6 +1253,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "IntegerEqual",
           "package": "type-prelude",
@@ -1161,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "IsZero",
           "package": "type-prelude",
@@ -1169,6 +1276,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "IsZero",
           "package": "type-prelude",
@@ -1183,6 +1291,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet kind of a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Kind",
           "package": "type-prelude",
@@ -1192,6 +1301,7 @@
         "index": {
           "description": "Get kind of type",
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Kind",
           "package": "type-prelude",
@@ -1205,6 +1315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Last",
           "package": "type-prelude",
@@ -1213,6 +1324,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Last",
           "package": "type-prelude",
@@ -1226,6 +1338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Length",
           "package": "type-prelude",
@@ -1234,6 +1347,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Length",
           "package": "type-prelude",
@@ -1247,6 +1361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Max",
           "package": "type-prelude",
@@ -1255,6 +1370,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Max",
           "package": "type-prelude",
@@ -1268,6 +1384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "MaxBound",
           "package": "type-prelude",
@@ -1277,6 +1394,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "MaxBound",
           "package": "type-prelude",
@@ -1290,6 +1408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Min",
           "package": "type-prelude",
@@ -1298,6 +1417,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Min",
           "package": "type-prelude",
@@ -1311,6 +1431,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "MinBound",
           "package": "type-prelude",
@@ -1320,6 +1441,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "MinBound",
           "package": "type-prelude",
@@ -1333,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Minus",
           "package": "type-prelude",
@@ -1341,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Minus",
           "package": "type-prelude",
@@ -1354,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Negate",
           "package": "type-prelude",
@@ -1362,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Negate",
           "package": "type-prelude",
@@ -1375,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Not",
           "package": "type-prelude",
@@ -1383,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Not",
           "package": "type-prelude",
@@ -1396,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "NotElem",
           "package": "type-prelude",
@@ -1404,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "NotElem",
           "package": "type-prelude",
@@ -1417,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Null",
           "package": "type-prelude",
@@ -1425,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Null",
           "package": "type-prelude",
@@ -1438,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Odd",
           "package": "type-prelude",
@@ -1446,6 +1579,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Odd",
           "package": "type-prelude",
@@ -1459,6 +1593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Or",
           "package": "type-prelude",
@@ -1467,6 +1602,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Or",
           "package": "type-prelude",
@@ -1480,6 +1616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Pred",
           "package": "type-prelude",
@@ -1488,6 +1625,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Pred",
           "package": "type-prelude",
@@ -1501,6 +1639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Quot",
           "package": "type-prelude",
@@ -1509,6 +1648,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Quot",
           "package": "type-prelude",
@@ -1522,6 +1662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "QuotRem",
           "package": "type-prelude",
@@ -1530,6 +1671,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "QuotRem",
           "package": "type-prelude",
@@ -1543,6 +1685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'",
           "package": "type-prelude",
@@ -1551,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'",
           "package": "type-prelude",
@@ -1564,6 +1708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_2",
           "package": "type-prelude",
@@ -1572,6 +1717,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_2",
           "package": "type-prelude",
@@ -1585,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_3",
           "package": "type-prelude",
@@ -1593,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_3",
           "package": "type-prelude",
@@ -1606,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_4",
           "package": "type-prelude",
@@ -1614,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "QuotRem'_4",
           "package": "type-prelude",
@@ -1627,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Rem",
           "package": "type-prelude",
@@ -1635,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Rem",
           "package": "type-prelude",
@@ -1648,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Replicate",
           "package": "type-prelude",
@@ -1656,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Replicate",
           "package": "type-prelude",
@@ -1669,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Replicate_1",
           "package": "type-prelude",
@@ -1677,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Replicate_1",
           "package": "type-prelude",
@@ -1690,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Show",
           "package": "type-prelude",
@@ -1698,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Show",
           "package": "type-prelude",
@@ -1711,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Shows",
           "package": "type-prelude",
@@ -1719,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Shows",
           "package": "type-prelude",
@@ -1732,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "ShowsInteger_2",
           "package": "type-prelude",
@@ -1740,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "ShowsInteger_2",
           "package": "type-prelude",
@@ -1753,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "ShowsTail",
           "package": "type-prelude",
@@ -1761,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "ShowsTail",
           "package": "type-prelude",
@@ -1774,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Signum",
           "package": "type-prelude",
@@ -1782,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Signum",
           "package": "type-prelude",
@@ -1795,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Snd",
           "package": "type-prelude",
@@ -1803,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Snd",
           "package": "type-prelude",
@@ -1817,6 +1985,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Kind *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "StarKind",
           "package": "type-prelude",
@@ -1826,6 +1995,7 @@
         "index": {
           "description": "The Kind",
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "StarKind",
           "package": "type-prelude",
@@ -1839,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Subtract",
           "package": "type-prelude",
@@ -1847,6 +2018,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Subtract",
           "package": "type-prelude",
@@ -1860,6 +2032,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Succ",
           "package": "type-prelude",
@@ -1868,6 +2041,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Succ",
           "package": "type-prelude",
@@ -1881,6 +2055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Tail",
           "package": "type-prelude",
@@ -1889,6 +2064,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Tail",
           "package": "type-prelude",
@@ -1902,6 +2078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "ToEnum",
           "package": "type-prelude",
@@ -1910,6 +2087,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "ToEnum",
           "package": "type-prelude",
@@ -1923,6 +2101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Undefined",
           "package": "type-prelude",
@@ -1931,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Undefined",
           "package": "type-prelude",
@@ -1944,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Xor",
           "package": "type-prelude",
@@ -1952,6 +2133,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Xor",
           "package": "type-prelude",
@@ -1965,6 +2147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Families",
           "name": "Xor_2",
           "package": "type-prelude",
@@ -1973,6 +2156,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Families",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Families",
           "name": "Xor_2",
           "package": "type-prelude",
@@ -1986,6 +2170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "Integer",
           "package": "type-prelude",
@@ -1994,6 +2179,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "Integer",
           "package": "type-prelude",
@@ -2007,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "I",
           "package": "type-prelude",
@@ -2015,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "I",
           "package": "type-prelude",
@@ -2027,6 +2215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "Integer",
           "package": "type-prelude",
@@ -2035,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "Integer",
           "package": "type-prelude",
@@ -2048,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "IntegerCons",
           "package": "type-prelude",
@@ -2056,6 +2247,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "IntegerCons",
           "package": "type-prelude",
@@ -2069,6 +2261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "IntegerHead",
           "package": "type-prelude",
@@ -2077,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "IntegerHead",
           "package": "type-prelude",
@@ -2090,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "IntegerTail",
           "package": "type-prelude",
@@ -2098,6 +2293,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "IntegerTail",
           "package": "type-prelude",
@@ -2111,6 +2307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "One",
           "package": "type-prelude",
@@ -2120,6 +2317,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "One",
           "package": "type-prelude",
@@ -2133,6 +2331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "Ones",
           "package": "type-prelude",
@@ -2142,6 +2341,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "Ones",
           "package": "type-prelude",
@@ -2155,6 +2355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "Zero",
           "package": "type-prelude",
@@ -2164,6 +2365,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "Zero",
           "package": "type-prelude",
@@ -2177,6 +2379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Integer",
           "name": "Zeros",
           "package": "type-prelude",
@@ -2186,6 +2389,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Integer",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Integer",
           "name": "Zeros",
           "package": "type-prelude",
@@ -2199,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Match",
           "name": "Match",
           "package": "type-prelude",
@@ -2207,6 +2412,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Match",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Match",
           "name": "Match",
           "package": "type-prelude",
@@ -2221,6 +2427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch \n\u003c/p\u003e\u003cp\u003eUsed by Case to match patterns.\n\u003c/p\u003e\u003cp\u003eMatch +a ?b -c\n Given a type a, match it with a pattern b, unifying the type variables.\n If it matches, c is True, otherwise c is False.\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003evalue (T :: Match (Just True) (Just x) p =\u003e T '(x, p)) :: (Bool, Bool)\n\u003c/code\u003e\u003c/strong\u003e(True, True)\n\u003c/pre\u003e\u003cp\u003eMatch is in a seperate module because I use IncoherentInstances to\n match type variables.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Match",
           "name": "Match",
           "package": "type-prelude",
@@ -2230,6 +2437,7 @@
         "index": {
           "description": "Match Used by Case to match patterns Match Given type match it with pattern unifying the type variables If it matches is True otherwise is False value Match Just True Just Bool Bool True True Match is in seperate module because use IncoherentInstances to match type variables",
           "hierarchy": "Prelude Type Match",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Match",
           "name": "Match",
           "package": "type-prelude",
@@ -2243,6 +2451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Value",
           "package": "type-prelude",
@@ -2251,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Value",
           "package": "type-prelude",
@@ -2265,6 +2475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMain\n\u003c/p\u003e\u003cp\u003eExample Main.hs:\n\u003c/p\u003e\u003cp\u003e{-\u003ca name=\" LANGUAGE DataKinds, FlexibleInstances, MultiParamTypeClasses, FlexibleContexts, UndecidableInstances \"/\u003e-}\n module Main (main) where\n import Prelude.Type\n instance Compare '[I 1, I 3] '[I 1, I 2] a\n     =\u003e Main a\n\u003c/p\u003e\u003cp\u003e$ ghc-stage2 Main.hs\n $ ./Main\n GT\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Main",
           "package": "type-prelude",
@@ -2274,6 +2485,7 @@
         "index": {
           "description": "Main Example Main.hs module Main main where import Prelude.Type instance Compare Main ghc-stage2 Main.hs Main GT",
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Main",
           "package": "type-prelude",
@@ -2287,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Main'",
           "package": "type-prelude",
@@ -2295,6 +2508,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Main'",
           "package": "type-prelude",
@@ -2308,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Main''",
           "package": "type-prelude",
@@ -2316,6 +2531,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Main''",
           "package": "type-prelude",
@@ -2329,6 +2545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Proxy",
           "package": "type-prelude",
@@ -2337,6 +2554,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Proxy",
           "package": "type-prelude",
@@ -2351,6 +2569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProxy Type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "T",
           "package": "type-prelude",
@@ -2360,6 +2579,7 @@
         "index": {
           "description": "Proxy Type",
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "T",
           "package": "type-prelude",
@@ -2373,6 +2593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a type to a value\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "Value",
           "package": "type-prelude",
@@ -2382,6 +2603,7 @@
         "index": {
           "description": "Convert type to value",
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "Value",
           "package": "type-prelude",
@@ -2395,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "T",
           "package": "type-prelude",
@@ -2404,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "T",
           "package": "type-prelude",
@@ -2416,6 +2640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "main",
           "package": "type-prelude",
@@ -2425,6 +2650,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "main",
           "package": "type-prelude",
@@ -2437,6 +2663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "proxy",
           "package": "type-prelude",
@@ -2446,6 +2673,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "proxy",
           "package": "type-prelude",
@@ -2458,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type.Value",
           "name": "value",
           "package": "type-prelude",
@@ -2467,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type Value",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type.Value",
           "name": "value",
           "normalized": "T a-\u003eb",
@@ -2482,6 +2712,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Prelude for type-level programming with type classes\n\u003c/p\u003e\u003cp\u003eThis module includes a partial port of the Prelude as type class\n predicates and pseudo-syntax for case\u003cem\u003eif-then-else\u003c/em\u003elambda.\n\u003c/p\u003e\u003cp\u003eTODO:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Lambda is useless because the variables are not copied.\n    I need some form of prolog's copy_term.\n\u003c/li\u003e\u003cli\u003e Type families don't match if the kinds are too polymorphic,\n    see example for Compose.\n\u003c/li\u003e\u003cli\u003e Match and Case need some fine tuning.\n\u003c/li\u003e\u003cli\u003e Once the solver for Nat works, implement Num Nat and\n    changes some uses of Integer to Nat\n\u003c/li\u003e\u003cli\u003e The GHC Constraint solver doesn't seem to flatten tuple\n    constraints, which sometimes causes it to diverge. For some complex\n    constraints C,\n        C =\u003e a        converges but\n        ((), C) =\u003e a  diverges\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Type",
           "package": "type-prelude",
@@ -2491,6 +2722,7 @@
         "index": {
           "description": "Prelude for type-level programming with type classes This module includes partial port of the Prelude as type class predicates and pseudo-syntax for case if-then-else lambda TODO Lambda is useless because the variables are not copied need some form of prolog copy term Type families don match if the kinds are too polymorphic see example for Compose Match and Case need some fine tuning Once the solver for Nat works implement Num Nat and changes some uses of Integer to Nat The GHC Constraint solver doesn seem to flatten tuple constraints which sometimes causes it to diverge For some complex constraints converges but diverges",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Type",
           "package": "type-prelude",
@@ -2504,6 +2736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(||)",
           "package": "type-prelude",
@@ -2512,6 +2745,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(||) ||",
           "package": "type-prelude",
@@ -2524,6 +2758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(!!)",
           "package": "type-prelude",
@@ -2532,6 +2767,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(!!) !!",
           "package": "type-prelude",
@@ -2544,6 +2780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(&&)",
           "package": "type-prelude",
@@ -2552,6 +2789,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(&&) &&",
           "package": "type-prelude",
@@ -2564,6 +2802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(*)",
           "package": "type-prelude",
@@ -2572,6 +2811,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(*) *",
           "package": "type-prelude",
@@ -2584,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(+)",
           "package": "type-prelude",
@@ -2592,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(+) +",
           "package": "type-prelude",
@@ -2604,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(++)",
           "package": "type-prelude",
@@ -2612,6 +2855,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(++) ++",
           "package": "type-prelude",
@@ -2624,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(/=)",
           "package": "type-prelude",
@@ -2632,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(/=) /=",
           "package": "type-prelude",
@@ -2644,6 +2890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(\u003c)",
           "package": "type-prelude",
@@ -2652,6 +2899,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(\u003c) \u003c",
           "package": "type-prelude",
@@ -2664,6 +2912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(\u003c=)",
           "package": "type-prelude",
@@ -2672,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(\u003c=) \u003c=",
           "package": "type-prelude",
@@ -2684,6 +2934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(==)",
           "package": "type-prelude",
@@ -2692,6 +2943,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(==) ==",
           "package": "type-prelude",
@@ -2704,6 +2956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(\u003e)",
           "package": "type-prelude",
@@ -2712,6 +2965,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(\u003e) \u003e",
           "package": "type-prelude",
@@ -2724,6 +2978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(\u003e=)",
           "package": "type-prelude",
@@ -2732,6 +2987,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(\u003e=) \u003e=",
           "package": "type-prelude",
@@ -2744,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(.&.)",
           "package": "type-prelude",
@@ -2752,6 +3009,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(.&.) .&.",
           "package": "type-prelude",
@@ -2764,6 +3022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Abs",
           "package": "type-prelude",
@@ -2772,6 +3031,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Abs",
           "package": "type-prelude",
@@ -2785,6 +3045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "AddWithCarry",
           "package": "type-prelude",
@@ -2793,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "AddWithCarry",
           "package": "type-prelude",
@@ -2806,6 +3068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "All",
           "package": "type-prelude",
@@ -2814,6 +3077,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "All",
           "package": "type-prelude",
@@ -2827,6 +3091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Alternative",
           "package": "type-prelude",
@@ -2835,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Alternative",
           "package": "type-prelude",
@@ -2848,6 +3114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "And",
           "package": "type-prelude",
@@ -2856,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "And",
           "package": "type-prelude",
@@ -2869,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Any",
           "package": "type-prelude",
@@ -2877,6 +3146,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Any",
           "package": "type-prelude",
@@ -2890,6 +3160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Apply1",
           "package": "type-prelude",
@@ -2898,6 +3169,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Apply1",
           "package": "type-prelude",
@@ -2911,6 +3183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Apply2",
           "package": "type-prelude",
@@ -2919,6 +3192,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Apply2",
           "package": "type-prelude",
@@ -2932,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Apply3",
           "package": "type-prelude",
@@ -2940,6 +3215,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Apply3",
           "package": "type-prelude",
@@ -2953,6 +3229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Apply4",
           "package": "type-prelude",
@@ -2961,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Apply4",
           "package": "type-prelude",
@@ -2974,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "AsKindOf",
           "package": "type-prelude",
@@ -2982,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "AsKindOf",
           "package": "type-prelude",
@@ -2995,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Break",
           "package": "type-prelude",
@@ -3003,6 +3284,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Break",
           "package": "type-prelude",
@@ -3017,6 +3299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCase\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Case",
           "package": "type-prelude",
@@ -3026,6 +3309,7 @@
         "index": {
           "description": "Case",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Case",
           "package": "type-prelude",
@@ -3039,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Case'",
           "package": "type-prelude",
@@ -3047,6 +3332,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Case'",
           "package": "type-prelude",
@@ -3060,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compare",
           "package": "type-prelude",
@@ -3068,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compare",
           "package": "type-prelude",
@@ -3081,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Complement",
           "package": "type-prelude",
@@ -3089,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Complement",
           "package": "type-prelude",
@@ -3102,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compose",
           "package": "type-prelude",
@@ -3111,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compose",
           "package": "type-prelude",
@@ -3124,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compose1",
           "package": "type-prelude",
@@ -3132,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compose1",
           "package": "type-prelude",
@@ -3145,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compose2",
           "package": "type-prelude",
@@ -3153,6 +3448,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compose2",
           "package": "type-prelude",
@@ -3166,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compose3",
           "package": "type-prelude",
@@ -3174,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compose3",
           "package": "type-prelude",
@@ -3187,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Compose4",
           "package": "type-prelude",
@@ -3195,6 +3494,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Compose4",
           "package": "type-prelude",
@@ -3208,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Concat",
           "package": "type-prelude",
@@ -3216,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Concat",
           "package": "type-prelude",
@@ -3229,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ConcatMap",
           "package": "type-prelude",
@@ -3237,6 +3540,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ConcatMap",
           "package": "type-prelude",
@@ -3250,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Const",
           "package": "type-prelude",
@@ -3259,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Const",
           "package": "type-prelude",
@@ -3272,6 +3578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Const1",
           "package": "type-prelude",
@@ -3280,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Const1",
           "package": "type-prelude",
@@ -3293,6 +3601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Const2",
           "package": "type-prelude",
@@ -3301,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Const2",
           "package": "type-prelude",
@@ -3314,6 +3624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Const3",
           "package": "type-prelude",
@@ -3322,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Const3",
           "package": "type-prelude",
@@ -3335,6 +3647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Const4",
           "package": "type-prelude",
@@ -3343,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Const4",
           "package": "type-prelude",
@@ -3356,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Drop",
           "package": "type-prelude",
@@ -3364,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Drop",
           "package": "type-prelude",
@@ -3377,6 +3693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "DropWhile",
           "package": "type-prelude",
@@ -3385,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "DropWhile",
           "package": "type-prelude",
@@ -3398,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ERROR",
           "package": "type-prelude",
@@ -3406,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ERROR",
           "package": "type-prelude",
@@ -3419,6 +3739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Elem",
           "package": "type-prelude",
@@ -3427,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Elem",
           "package": "type-prelude",
@@ -3440,6 +3762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "EnumFromThenTo",
           "package": "type-prelude",
@@ -3448,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "EnumFromThenTo",
           "package": "type-prelude",
@@ -3461,6 +3785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "EnumFromTo",
           "package": "type-prelude",
@@ -3469,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "EnumFromTo",
           "package": "type-prelude",
@@ -3482,6 +3808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "EnumFromToBy",
           "package": "type-prelude",
@@ -3490,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "EnumFromToBy",
           "package": "type-prelude",
@@ -3503,6 +3831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Error",
           "package": "type-prelude",
@@ -3511,6 +3840,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Error",
           "package": "type-prelude",
@@ -3524,6 +3854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Even",
           "package": "type-prelude",
@@ -3532,6 +3863,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Even",
           "package": "type-prelude",
@@ -3545,6 +3877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Flip",
           "package": "type-prelude",
@@ -3554,6 +3887,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Flip",
           "normalized": "(a-\u003eb-\u003ec)-\u003eb-\u003ea-\u003ec",
@@ -3569,6 +3903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Flip1",
           "package": "type-prelude",
@@ -3577,6 +3912,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Flip1",
           "package": "type-prelude",
@@ -3590,6 +3926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Flip2",
           "package": "type-prelude",
@@ -3598,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Flip2",
           "package": "type-prelude",
@@ -3611,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Flip3",
           "package": "type-prelude",
@@ -3619,6 +3958,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Flip3",
           "package": "type-prelude",
@@ -3632,6 +3972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Flip4",
           "package": "type-prelude",
@@ -3640,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Flip4",
           "package": "type-prelude",
@@ -3653,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "FoldL",
           "package": "type-prelude",
@@ -3661,6 +4004,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "FoldL",
           "package": "type-prelude",
@@ -3674,6 +4018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "FoldL1",
           "package": "type-prelude",
@@ -3682,6 +4027,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "FoldL1",
           "package": "type-prelude",
@@ -3695,6 +4041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "FoldR",
           "package": "type-prelude",
@@ -3703,6 +4050,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "FoldR",
           "package": "type-prelude",
@@ -3716,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "FoldR1",
           "package": "type-prelude",
@@ -3724,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "FoldR1",
           "package": "type-prelude",
@@ -3737,6 +4087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "FromEnum",
           "package": "type-prelude",
@@ -3745,6 +4096,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "FromEnum",
           "package": "type-prelude",
@@ -3758,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Fst",
           "package": "type-prelude",
@@ -3766,6 +4119,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Fst",
           "package": "type-prelude",
@@ -3779,6 +4133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Gcd",
           "package": "type-prelude",
@@ -3787,6 +4142,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Gcd",
           "package": "type-prelude",
@@ -3800,6 +4156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Gcd'",
           "package": "type-prelude",
@@ -3808,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Gcd'",
           "package": "type-prelude",
@@ -3821,6 +4179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Head",
           "package": "type-prelude",
@@ -3829,6 +4188,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Head",
           "package": "type-prelude",
@@ -3842,6 +4202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Id",
           "package": "type-prelude",
@@ -3850,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Id",
           "package": "type-prelude",
@@ -3864,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf Then Else\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "If",
           "package": "type-prelude",
@@ -3873,6 +4236,7 @@
         "index": {
           "description": "If Then Else",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "If",
           "package": "type-prelude",
@@ -3886,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Init",
           "package": "type-prelude",
@@ -3894,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Init",
           "package": "type-prelude",
@@ -3908,6 +4274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet kind of a type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Kind",
           "package": "type-prelude",
@@ -3917,6 +4284,7 @@
         "index": {
           "description": "Get kind of type",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Kind",
           "package": "type-prelude",
@@ -3930,6 +4298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Lambda",
           "package": "type-prelude",
@@ -3939,6 +4308,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Lambda",
           "package": "type-prelude",
@@ -3953,6 +4323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLambda\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Lambda1",
           "package": "type-prelude",
@@ -3962,6 +4333,7 @@
         "index": {
           "description": "Lambda",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Lambda1",
           "package": "type-prelude",
@@ -3975,6 +4347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Lambda2",
           "package": "type-prelude",
@@ -3983,6 +4356,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Lambda2",
           "package": "type-prelude",
@@ -3996,6 +4370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Lambda3",
           "package": "type-prelude",
@@ -4004,6 +4379,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Lambda3",
           "package": "type-prelude",
@@ -4017,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Lambda4",
           "package": "type-prelude",
@@ -4025,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Lambda4",
           "package": "type-prelude",
@@ -4038,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Last",
           "package": "type-prelude",
@@ -4046,6 +4425,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Last",
           "package": "type-prelude",
@@ -4059,6 +4439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Length",
           "package": "type-prelude",
@@ -4067,6 +4448,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Length",
           "package": "type-prelude",
@@ -4080,6 +4462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Map",
           "package": "type-prelude",
@@ -4088,6 +4471,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Map",
           "package": "type-prelude",
@@ -4101,6 +4485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Max",
           "package": "type-prelude",
@@ -4109,6 +4494,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Max",
           "package": "type-prelude",
@@ -4122,6 +4508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "MaxBound",
           "package": "type-prelude",
@@ -4130,6 +4517,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "MaxBound",
           "package": "type-prelude",
@@ -4143,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Maximum",
           "package": "type-prelude",
@@ -4151,6 +4540,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Maximum",
           "package": "type-prelude",
@@ -4164,6 +4554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Min",
           "package": "type-prelude",
@@ -4172,6 +4563,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Min",
           "package": "type-prelude",
@@ -4185,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "MinBound",
           "package": "type-prelude",
@@ -4193,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "MinBound",
           "package": "type-prelude",
@@ -4206,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Minus",
           "package": "type-prelude",
@@ -4214,6 +4609,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Minus",
           "package": "type-prelude",
@@ -4227,6 +4623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Negate",
           "package": "type-prelude",
@@ -4235,6 +4632,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Negate",
           "package": "type-prelude",
@@ -4248,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Not",
           "package": "type-prelude",
@@ -4256,6 +4655,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Not",
           "package": "type-prelude",
@@ -4269,6 +4669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "NotElem",
           "package": "type-prelude",
@@ -4277,6 +4678,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "NotElem",
           "package": "type-prelude",
@@ -4290,6 +4692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Null",
           "package": "type-prelude",
@@ -4298,6 +4701,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Null",
           "package": "type-prelude",
@@ -4311,6 +4715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "O",
           "package": "type-prelude",
@@ -4319,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "O",
           "package": "type-prelude",
@@ -4331,6 +4737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Odd",
           "package": "type-prelude",
@@ -4339,6 +4746,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Odd",
           "package": "type-prelude",
@@ -4352,6 +4760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Or",
           "package": "type-prelude",
@@ -4360,6 +4769,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Or",
           "package": "type-prelude",
@@ -4373,6 +4783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Partial",
           "package": "type-prelude",
@@ -4382,6 +4793,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Partial",
           "package": "type-prelude",
@@ -4395,6 +4807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Partial1",
           "package": "type-prelude",
@@ -4403,6 +4816,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Partial1",
           "package": "type-prelude",
@@ -4416,6 +4830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Partial2",
           "package": "type-prelude",
@@ -4424,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Partial2",
           "package": "type-prelude",
@@ -4437,6 +4853,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Partial3",
           "package": "type-prelude",
@@ -4445,6 +4862,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Partial3",
           "package": "type-prelude",
@@ -4458,6 +4876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Partial4",
           "package": "type-prelude",
@@ -4466,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Partial4",
           "package": "type-prelude",
@@ -4479,6 +4899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Pred",
           "package": "type-prelude",
@@ -4487,6 +4908,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Pred",
           "package": "type-prelude",
@@ -4500,6 +4922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Quot",
           "package": "type-prelude",
@@ -4508,6 +4931,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Quot",
           "package": "type-prelude",
@@ -4521,6 +4945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "QuotRem",
           "package": "type-prelude",
@@ -4529,6 +4954,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "QuotRem",
           "package": "type-prelude",
@@ -4542,6 +4968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "QuotRem'",
           "package": "type-prelude",
@@ -4550,6 +4977,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "QuotRem'",
           "package": "type-prelude",
@@ -4563,6 +4991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Rem",
           "package": "type-prelude",
@@ -4571,6 +5000,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Rem",
           "package": "type-prelude",
@@ -4584,6 +5014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Replicate",
           "package": "type-prelude",
@@ -4592,6 +5023,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Replicate",
           "package": "type-prelude",
@@ -4605,6 +5037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ScanFold1",
           "package": "type-prelude",
@@ -4613,6 +5046,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ScanFold1",
           "package": "type-prelude",
@@ -4626,6 +5060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ScanL",
           "package": "type-prelude",
@@ -4634,6 +5069,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ScanL",
           "package": "type-prelude",
@@ -4647,6 +5083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ScanL1",
           "package": "type-prelude",
@@ -4655,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ScanL1",
           "package": "type-prelude",
@@ -4668,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ScanR",
           "package": "type-prelude",
@@ -4676,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ScanR",
           "package": "type-prelude",
@@ -4689,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ScanR1",
           "package": "type-prelude",
@@ -4697,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ScanR1",
           "package": "type-prelude",
@@ -4710,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Show",
           "package": "type-prelude",
@@ -4718,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Show",
           "package": "type-prelude",
@@ -4731,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Shows",
           "package": "type-prelude",
@@ -4739,6 +5184,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Shows",
           "package": "type-prelude",
@@ -4752,6 +5198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ShowsInteger",
           "package": "type-prelude",
@@ -4760,6 +5207,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ShowsInteger",
           "package": "type-prelude",
@@ -4773,6 +5221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ShowsTail",
           "package": "type-prelude",
@@ -4781,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ShowsTail",
           "package": "type-prelude",
@@ -4794,6 +5244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Signum",
           "package": "type-prelude",
@@ -4802,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Signum",
           "package": "type-prelude",
@@ -4815,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Signum'",
           "package": "type-prelude",
@@ -4823,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Signum'",
           "package": "type-prelude",
@@ -4836,6 +5290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Snd",
           "package": "type-prelude",
@@ -4844,6 +5299,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Snd",
           "package": "type-prelude",
@@ -4857,6 +5313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Span",
           "package": "type-prelude",
@@ -4865,6 +5322,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Span",
           "package": "type-prelude",
@@ -4878,6 +5336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "SplitAt",
           "package": "type-prelude",
@@ -4886,6 +5345,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "SplitAt",
           "package": "type-prelude",
@@ -4900,6 +5360,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Kind *\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "StarKind",
           "package": "type-prelude",
@@ -4909,6 +5370,7 @@
         "index": {
           "description": "The Kind",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "StarKind",
           "package": "type-prelude",
@@ -4922,6 +5384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Subtract",
           "package": "type-prelude",
@@ -4930,6 +5393,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Subtract",
           "package": "type-prelude",
@@ -4943,6 +5407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Succ",
           "package": "type-prelude",
@@ -4951,6 +5416,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Succ",
           "package": "type-prelude",
@@ -4964,6 +5430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Tail",
           "package": "type-prelude",
@@ -4972,6 +5439,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Tail",
           "package": "type-prelude",
@@ -4985,6 +5453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Take",
           "package": "type-prelude",
@@ -4993,6 +5462,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Take",
           "package": "type-prelude",
@@ -5006,6 +5476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "TakeWhile",
           "package": "type-prelude",
@@ -5014,6 +5485,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "TakeWhile",
           "package": "type-prelude",
@@ -5027,6 +5499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "ToEnum",
           "package": "type-prelude",
@@ -5035,6 +5508,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "ToEnum",
           "package": "type-prelude",
@@ -5049,6 +5523,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypeEq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "TypeEq",
           "package": "type-prelude",
@@ -5058,6 +5533,7 @@
         "index": {
           "description": "TypeEq",
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "TypeEq",
           "package": "type-prelude",
@@ -5071,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "TypeEq'",
           "package": "type-prelude",
@@ -5079,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "TypeEq'",
           "package": "type-prelude",
@@ -5092,6 +5570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "TypeEq''",
           "package": "type-prelude",
@@ -5100,6 +5579,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "TypeEq''",
           "package": "type-prelude",
@@ -5113,6 +5593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Until",
           "package": "type-prelude",
@@ -5121,6 +5602,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Until",
           "package": "type-prelude",
@@ -5134,6 +5616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Xor",
           "package": "type-prelude",
@@ -5142,6 +5625,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Xor",
           "package": "type-prelude",
@@ -5155,6 +5639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "(--\u003e)",
           "package": "type-prelude",
@@ -5164,6 +5649,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "(--\u003e) --\u003e",
           "normalized": "(-\u003e)a b",
@@ -5178,6 +5664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:27:54 UTC 2014",
           "module": "Prelude.Type",
           "name": "Otherwise",
           "package": "type-prelude",
@@ -5187,6 +5674,7 @@
         },
         "index": {
           "hierarchy": "Prelude Type",
+          "indexed": "2014-03-11T20:27:54",
           "module": "Prelude.Type",
           "name": "Otherwise",
           "package": "type-prelude",

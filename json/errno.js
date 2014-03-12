@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "errno"
+        "phrase": "errno",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:48 UTC 2014",
           "module": "Foreign.C.Error.Errno",
           "name": "Errno",
           "package": "errno",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Error Errno",
+          "indexed": "2014-03-11T18:03:48",
           "module": "Foreign.C.Error.Errno",
           "name": "Errno",
           "package": "errno",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:48 UTC 2014",
           "module": "Foreign.C.Error.Errno",
           "name": "withErrno",
           "package": "errno",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Error Errno",
+          "indexed": "2014-03-11T18:03:48",
           "module": "Foreign.C.Error.Errno",
           "name": "withErrno",
           "normalized": "a b-\u003eErrorT String a b",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:48 UTC 2014",
           "module": "Foreign.C.Error.Errno",
           "name": "withErrnoPred",
           "package": "errno",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Foreign C Error Errno",
+          "indexed": "2014-03-11T18:03:48",
           "module": "Foreign.C.Error.Errno",
           "name": "withErrnoPred",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eErrorT String b a",

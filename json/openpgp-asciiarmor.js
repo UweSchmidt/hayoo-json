@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "openpgp-asciiarmor"
+        "phrase": "openpgp-asciiarmor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Decode",
           "name": "Decode",
           "package": "openpgp-asciiarmor",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Decode",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Decode",
           "name": "Decode",
           "package": "openpgp-asciiarmor",
@@ -111,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Encode",
           "name": "Encode",
           "package": "openpgp-asciiarmor",
@@ -119,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Encode",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Encode",
           "name": "Encode",
           "package": "openpgp-asciiarmor",
@@ -181,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Types",
           "package": "openpgp-asciiarmor",
@@ -189,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Types",
           "package": "openpgp-asciiarmor",
@@ -202,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Armor",
           "package": "openpgp-asciiarmor",
@@ -210,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Armor",
           "package": "openpgp-asciiarmor",
@@ -223,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorType",
           "package": "openpgp-asciiarmor",
@@ -231,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorType",
           "package": "openpgp-asciiarmor",
@@ -244,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Armor",
           "package": "openpgp-asciiarmor",
@@ -253,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "Armor",
           "normalized": "Armor ArmorType[(String,String)]ByteString",
@@ -268,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorMessage",
           "package": "openpgp-asciiarmor",
@@ -277,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorMessage",
           "package": "openpgp-asciiarmor",
@@ -290,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorPrivateKeyBlock",
           "package": "openpgp-asciiarmor",
@@ -299,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorPrivateKeyBlock",
           "package": "openpgp-asciiarmor",
@@ -312,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorPublicKeyBlock",
           "package": "openpgp-asciiarmor",
@@ -321,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorPublicKeyBlock",
           "package": "openpgp-asciiarmor",
@@ -334,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSignature",
           "package": "openpgp-asciiarmor",
@@ -343,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSignature",
           "package": "openpgp-asciiarmor",
@@ -356,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSplitMessage",
           "package": "openpgp-asciiarmor",
@@ -365,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSplitMessage",
           "package": "openpgp-asciiarmor",
@@ -378,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSplitMessageIndefinite",
           "package": "openpgp-asciiarmor",
@@ -387,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ArmorSplitMessageIndefinite",
           "package": "openpgp-asciiarmor",
@@ -400,6 +424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ClearSigned",
           "package": "openpgp-asciiarmor",
@@ -409,6 +434,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor Types",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor.Types",
           "name": "ClearSigned",
           "normalized": "ClearSigned[(String,String)]ByteString Armor",
@@ -424,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor",
           "name": "ASCIIArmor",
           "package": "openpgp-asciiarmor",
@@ -432,6 +459,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor",
           "name": "ASCIIArmor",
           "package": "openpgp-asciiarmor",
@@ -445,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:32:09 UTC 2014",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor",
           "name": "multipartMerge",
           "package": "openpgp-asciiarmor",
@@ -454,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Codec Encryption OpenPGP ASCIIArmor",
+          "indexed": "2014-03-11T19:32:09",
           "module": "Codec.Encryption.OpenPGP.ASCIIArmor",
           "name": "multipartMerge",
           "normalized": "[Armor]-\u003eArmor",

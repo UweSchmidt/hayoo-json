@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "udev"
+        "phrase": "udev",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe context contains the default values read from the udev config\n   file, and is passed to all library operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "Context",
           "package": "udev",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The context contains the default values read from the udev config file and is passed to all library operations",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "Context",
           "package": "udev",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLogger function will called by udev on events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "Logger",
           "package": "udev",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Logger function will called by udev on events",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "Logger",
           "package": "udev",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLog message priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "Priority",
           "package": "udev",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Log message priority",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "Priority",
           "package": "udev",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing the library context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "UDev",
           "package": "udev",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Opaque object representing the library context",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "UDev",
           "package": "udev",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFamily of udev resources.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "UDevChild",
           "package": "udev",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Family of udev resources",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "UDevChild",
           "package": "udev",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edebug-level messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "LogDebug",
           "package": "udev",
@@ -144,6 +155,7 @@
         "index": {
           "description": "debug-level messages",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "LogDebug",
           "package": "udev",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eerror conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "LogError",
           "package": "udev",
@@ -168,6 +181,7 @@
         "index": {
           "description": "error conditions",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "LogError",
           "package": "udev",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einformational\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "LogInfo",
           "package": "udev",
@@ -192,6 +207,7 @@
         "index": {
           "description": "informational",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "LogInfo",
           "package": "udev",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault logger will just print \u003ccode\u003e%PRIO %FILE:%LINE:n%FN: %FORMAT\u003c/code\u003e\n to stdout.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "defaultLogger",
           "package": "udev",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Default logger will just print PRIO FILE LINE FN FORMAT to stdout",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "defaultLogger",
           "package": "udev",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe initial logging priority is read from the udev config file at\n startup.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "getLogPriority",
           "package": "udev",
@@ -240,6 +259,7 @@
         "index": {
           "description": "The initial logging priority is read from the udev config file at startup",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "getLogPriority",
           "normalized": "UDev-\u003eIO Priority",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the context a resource belong to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "getUDev",
           "package": "udev",
@@ -266,6 +287,7 @@
         "index": {
           "description": "Get the context resource belong to",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "getUDev",
           "normalized": "a-\u003eUDev",
@@ -282,6 +304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve stored data pointer from library context. This might be\n useful to access from callbacks like a custom logging function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "getUserdata",
           "package": "udev",
@@ -292,6 +315,7 @@
         "index": {
           "description": "Retrieve stored data pointer from library context This might be useful to access from callbacks like custom logging function",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "getUserdata",
           "normalized": "UDev-\u003eIO a",
@@ -308,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate udev library context. This reads the udev configuration\n   file, and fills in the default values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "newUDev",
           "package": "udev",
@@ -318,6 +343,7 @@
         "index": {
           "description": "Create udev library context This reads the udev configuration file and fills in the default values",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "newUDev",
           "package": "udev",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the current logging priority. The value controls which\n messages are logged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "setLogPriority",
           "package": "udev",
@@ -342,6 +369,7 @@
         "index": {
           "description": "Set the current logging priority The value controls which messages are logged",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "setLogPriority",
           "normalized": "UDev-\u003ePriority-\u003eIO()",
@@ -358,6 +386,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe built-in logging writes to stderr. It can be overridden by a\n custom function, to plug log messages into the users' logging\n functionality.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "setLogger",
           "package": "udev",
@@ -368,6 +397,7 @@
         "index": {
           "description": "The built-in logging writes to stderr It can be overridden by custom function to plug log messages into the users logging functionality",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "setLogger",
           "normalized": "UDev-\u003eLogger-\u003eIO()",
@@ -384,6 +414,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStore custom userdata in the library context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "setUserdata",
           "package": "udev",
@@ -394,6 +425,7 @@
         "index": {
           "description": "Store custom userdata in the library context",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "setUserdata",
           "normalized": "UDev-\u003ea-\u003eIO()",
@@ -410,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enewUDev\u003c/a\u003e\u003c/code\u003e but context will be released at exit.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Context",
           "name": "withUDev",
           "package": "udev",
@@ -420,6 +453,7 @@
         "index": {
           "description": "Like newUDev but context will be released at exit",
           "hierarchy": "System UDev Context",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Context",
           "name": "withUDev",
           "normalized": "(UDev-\u003eIO a)-\u003eIO a",
@@ -436,6 +470,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRepresentation of kernel sys devices. Devices are uniquely\n identified by their syspath, every device has exactly one path in\n the kernel sys filesystem. Devices usually belong to a kernel\n subsystem, and have a unique name inside that subsystem.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "Device",
           "package": "udev",
@@ -445,6 +480,7 @@
         "index": {
           "description": "Representation of kernel sys devices Devices are uniquely identified by their syspath every device has exactly one path in the kernel sys filesystem Devices usually belong to kernel subsystem and have unique name inside that subsystem",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "Device",
           "package": "udev",
@@ -459,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing one kernel sys device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "Device",
           "package": "udev",
@@ -468,6 +505,7 @@
         "index": {
           "description": "Opaque object representing one kernel sys device",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "Device",
           "package": "udev",
@@ -482,6 +520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDevice number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "Devnum",
           "package": "udev",
@@ -491,6 +530,7 @@
         "index": {
           "description": "Device number",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "Devnum",
           "package": "udev",
@@ -505,6 +545,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is only valid if the device was received through a\n monitor. Devices read from sys do not have an action string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getAction",
           "package": "udev",
@@ -515,6 +556,7 @@
         "index": {
           "description": "This is only valid if the device was received through monitor Devices read from sys do not have an action string",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getAction",
           "normalized": "Device-\u003eMaybe Action",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the list of device links pointing to the device file of\n the udev device. The next list entry can be retrieved with\n \u003ccode\u003e\u003ca\u003egetNext\u003c/a\u003e\u003c/code\u003e, which returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no more entries exist. The\n devlink path can be retrieved from the list entry by \u003ccode\u003e\u003ca\u003egetName\u003c/a\u003e\u003c/code\u003e. The\n path is an absolute path, and starts with the device directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDevlinksListEntry",
           "package": "udev",
@@ -541,6 +584,7 @@
         "index": {
           "description": "Retrieve the list of device links pointing to the device file of the udev device The next list entry can be retrieved with getNext which returns Nothing if no more entries exist The devlink path can be retrieved from the list entry by getName The path is an absolute path and starts with the device directory",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDevlinksListEntry",
           "normalized": "Device-\u003eIO List",
@@ -557,6 +601,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the device node file name belonging to the udev\n device. The path is an absolute path, and starts with the device\n directory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDevnode",
           "package": "udev",
@@ -567,6 +612,7 @@
         "index": {
           "description": "Retrieve the device node file name belonging to the udev device The path is an absolute path and starts with the device directory",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDevnode",
           "normalized": "Device-\u003eMaybe BS.ByteString",
@@ -583,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the device major/minor number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDevnum",
           "package": "udev",
@@ -593,6 +640,7 @@
         "index": {
           "description": "Get the device major minor number",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDevnum",
           "normalized": "Device-\u003eDevnum",
@@ -609,6 +657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the kernel devpath value of the udev device. The path\n does not contain the sys mount point, and starts with a '/'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDevpath",
           "package": "udev",
@@ -619,6 +668,7 @@
         "index": {
           "description": "Retrieve the kernel devpath value of the udev device The path does not contain the sys mount point and starts with",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDevpath",
           "normalized": "Device-\u003eRawFilePath",
@@ -635,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the devtype string of the udev device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDevtype",
           "package": "udev",
@@ -645,6 +696,7 @@
         "index": {
           "description": "Retrieve the devtype string of the udev device",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDevtype",
           "normalized": "Device-\u003eMaybe BS.ByteString",
@@ -661,6 +713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the kernel driver name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getDriver",
           "package": "udev",
@@ -671,6 +724,7 @@
         "index": {
           "description": "Get the kernel driver name",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getDriver",
           "normalized": "Device-\u003eBS.ByteString",
@@ -687,6 +741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the next parent device, and fill in information from the sys\n device and the udev database entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getParent",
           "package": "udev",
@@ -697,6 +752,7 @@
         "index": {
           "description": "Find the next parent device and fill in information from the sys device and the udev database entry",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getParent",
           "normalized": "Device-\u003eIO Device",
@@ -713,6 +769,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the next parent device, with a matching subsystem and devtype\n value, and fill in information from the sys device and the udev\n database entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getParentWithSubsystemDevtype",
           "package": "udev",
@@ -723,6 +780,7 @@
         "index": {
           "description": "Find the next parent device with matching subsystem and devtype value and fill in information from the sys device and the udev database entry",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getParentWithSubsystemDevtype",
           "normalized": "Device-\u003eBS.ByteString-\u003eBS.ByteString-\u003eIO(Maybe Device)",
@@ -739,6 +797,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the list of key/value device properties of the udev\n device. The next list entry can be retrieved with \u003ccode\u003e\u003ca\u003egetNext\u003c/a\u003e\u003c/code\u003e, which\n returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if no more entries exist. The property name can\n be retrieved from the list entry by \u003ccode\u003e\u003ca\u003egetName\u003c/a\u003e\u003c/code\u003e, the property value\n by \u003ccode\u003e\u003ca\u003egetValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getPropertiesListEntry",
           "package": "udev",
@@ -749,6 +808,7 @@
         "index": {
           "description": "Retrieve the list of key value device properties of the udev device The next list entry can be retrieved with getNext which returns Nothing if no more entries exist The property name can be retrieved from the list entry by getName the property value by getValue",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getPropertiesListEntry",
           "normalized": "Device-\u003eIO List",
@@ -765,6 +825,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of a given property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getPropertyValue",
           "package": "udev",
@@ -775,6 +836,7 @@
         "index": {
           "description": "Get the value of given property",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getPropertyValue",
           "normalized": "Device-\u003eBS.ByteString-\u003eIO(Maybe BS.ByteString)",
@@ -791,6 +853,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is only valid if the device was received through a\n monitor. Devices read from sys do not have a sequence number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSeqnum",
           "package": "udev",
@@ -801,6 +864,7 @@
         "index": {
           "description": "This is only valid if the device was received through monitor Devices read from sys do not have sequence number",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSeqnum",
           "normalized": "Device-\u003eIO(Maybe Int)",
@@ -817,6 +881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the subsystem string of the udev device. The string does\n not contain any \"/\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSubsystem",
           "package": "udev",
@@ -827,6 +892,7 @@
         "index": {
           "description": "Retrieve the subsystem string of the udev device The string does not contain any",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSubsystem",
           "normalized": "Device-\u003eMaybe BS.ByteString",
@@ -843,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the list of available sysattrs, with value being empty;\n This just return all available sysfs attributes for a particular\n device without reading their values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSysattrListEntry",
           "package": "udev",
@@ -853,6 +920,7 @@
         "index": {
           "description": "Retrieve the list of available sysattrs with value being empty This just return all available sysfs attributes for particular device without reading their values",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSysattrListEntry",
           "normalized": "Device-\u003eIO List",
@@ -869,6 +937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe retrieved value is cached in the device. Repeated calls will\n return the same value and not open the attribute again.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSysattrValue",
           "package": "udev",
@@ -879,6 +948,7 @@
         "index": {
           "description": "The retrieved value is cached in the device Repeated calls will return the same value and not open the attribute again",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSysattrValue",
           "normalized": "Device-\u003eBS.ByteString-\u003eIO BS.ByteString",
@@ -895,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the kernel device name in /sys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSysname",
           "package": "udev",
@@ -905,6 +976,7 @@
         "index": {
           "description": "Get the kernel device name in sys",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSysname",
           "normalized": "Device-\u003eBS.ByteString",
@@ -921,6 +993,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the instance number of the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSysnum",
           "package": "udev",
@@ -931,6 +1004,7 @@
         "index": {
           "description": "Get the instance number of the device",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSysnum",
           "normalized": "Device-\u003eMaybe BS.ByteString",
@@ -947,6 +1021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the sys path of the udev device. The path is an absolute\n path and starts with the sys mount point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getSyspath",
           "package": "udev",
@@ -957,6 +1032,7 @@
         "index": {
           "description": "Retrieve the sys path of the udev device The path is an absolute path and starts with the sys mount point",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getSyspath",
           "normalized": "Device-\u003eRawFilePath",
@@ -973,6 +1049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the list of tags attached to the udev device. The next\n list entry can be retrieved with \u003ccode\u003e\u003ca\u003egetNext\u003c/a\u003e\u003c/code\u003e, which returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e\n if no more entries exist. The tag string can be retrieved from the\n list entry by \u003ccode\u003e\u003ca\u003egetName\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getTagsListEntry",
           "package": "udev",
@@ -983,6 +1060,7 @@
         "index": {
           "description": "Retrieve the list of tags attached to the udev device The next list entry can be retrieved with getNext which returns Nothing if no more entries exist The tag string can be retrieved from the list entry by getName",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getTagsListEntry",
           "normalized": "Device-\u003eIO List",
@@ -999,6 +1077,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the number of microseconds passed since udev set up the\n device for the first time.\n\u003c/p\u003e\u003cp\u003eThis is only implemented for devices with need to store\n   properties in the udev database. All other devices return\n   \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "getUsecSinceInitialized",
           "package": "udev",
@@ -1009,6 +1088,7 @@
         "index": {
           "description": "Return the number of microseconds passed since udev set up the device for the first time This is only implemented for devices with need to store properties in the udev database All other devices return Nothing here",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "getUsecSinceInitialized",
           "normalized": "Device-\u003eIO(Maybe Int)",
@@ -1025,6 +1105,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given device has a certain tag associated.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "hasTag",
           "package": "udev",
@@ -1035,6 +1116,7 @@
         "index": {
           "description": "Check if given device has certain tag associated",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "hasTag",
           "normalized": "Device-\u003eBS.ByteString-\u003eIO Bool",
@@ -1051,6 +1133,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if udev has already handled the device and has set up\n device node permissions and context, or has renamed a network\n device.\n\u003c/p\u003e\u003cp\u003eThis is only implemented for devices with a device node or network\n interfaces. All other devices return 1 here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "isInitialized",
           "package": "udev",
@@ -1061,6 +1144,7 @@
         "index": {
           "description": "Check if udev has already handled the device and has set up device node permissions and context or has renamed network device This is only implemented for devices with device node or network interfaces All other devices return here",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "isInitialized",
           "normalized": "Device-\u003eIO Bool",
@@ -1077,6 +1161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe device is looked-up by a special string:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e b8:2 - block device major:minor\n\u003c/li\u003e\u003cli\u003e c128:1 - char device major:minor\n\u003c/li\u003e\u003cli\u003e n3 - network device ifindex\n\u003c/li\u003e\u003cli\u003e +sound:card29 - kernel driver core subsystem:device name\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "newFromDeviceId",
           "package": "udev",
@@ -1087,6 +1172,7 @@
         "index": {
           "description": "The device is looked-up by special string b8 block device major minor c128 char device major minor n3 network device ifindex sound card29 kernel driver core subsystem device name",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "newFromDeviceId",
           "normalized": "UDev-\u003eBS.ByteString-\u003eIO Device",
@@ -1103,6 +1189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new udev device, and fill in information from the sys\n device and the udev database entry. The device is looked-up by its\n major/minor number and type. Character and block device numbers are\n not unique across the two types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "newFromDevnum",
           "package": "udev",
@@ -1113,6 +1200,7 @@
         "index": {
           "description": "Create new udev device and fill in information from the sys device and the udev database entry The device is looked-up by its major minor number and type Character and block device numbers are not unique across the two types",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "newFromDevnum",
           "normalized": "UDev-\u003eChar-\u003eDevnum-\u003eIO Device",
@@ -1129,6 +1217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new udev device, and fill in information from the current\n process environment. This only works reliable if the process is\n called from a udev rule. It is usually used for tools executed from\n \u003ccode\u003eIMPORT=\u003c/code\u003e rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "newFromEnvironment",
           "package": "udev",
@@ -1139,6 +1228,7 @@
         "index": {
           "description": "Create new udev device and fill in information from the current process environment This only works reliable if the process is called from udev rule It is usually used for tools executed from IMPORT rules",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "newFromEnvironment",
           "normalized": "UDev-\u003eIO Device",
@@ -1155,6 +1245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe device is looked up by the subsystem and name string of the\n device, like \"mem\" / \"zero\", or \"block\" / \"sda\".\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "newFromSubsystemSysname",
           "package": "udev",
@@ -1165,6 +1256,7 @@
         "index": {
           "description": "The device is looked up by the subsystem and name string of the device like mem zero or block sda",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "newFromSubsystemSysname",
           "normalized": "UDev-\u003eBS.ByteString-\u003eBS.ByteString-\u003eIO Device",
@@ -1181,6 +1273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new udev device, and fill in information from the sys\n device and the udev database entry. The syspath is the absolute\n path to the device, including the sys mount point.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "newFromSysPath",
           "package": "udev",
@@ -1191,6 +1284,7 @@
         "index": {
           "description": "Create new udev device and fill in information from the sys device and the udev database entry The syspath is the absolute path to the device including the sys mount point",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "newFromSysPath",
           "normalized": "UDev-\u003eRawFilePath-\u003eIO Device",
@@ -1207,6 +1301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the contents of the sys attribute and the cached value of\n the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Device",
           "name": "setSysattrValue",
           "package": "udev",
@@ -1216,6 +1311,7 @@
         "index": {
           "description": "Update the contents of the sys attribute and the cached value of the device",
           "hierarchy": "System UDev Device",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Device",
           "name": "setSysattrValue",
           "normalized": "Device-\u003eBS.ByteString-\u003eBS.ByteString-\u003eIO()",
@@ -1232,6 +1328,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLookup devices in the sys filesystem, filter devices by\n   properties, and return a sorted list of devices.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "Enumerate",
           "package": "udev",
@@ -1241,6 +1338,7 @@
         "index": {
           "description": "Lookup devices in the sys filesystem filter devices by properties and return sorted list of devices",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "Enumerate",
           "package": "udev",
@@ -1255,6 +1353,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing one device lookup/sort context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "Enumerate",
           "package": "udev",
@@ -1264,6 +1363,7 @@
         "index": {
           "description": "Opaque object representing one device lookup sort context",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "Enumerate",
           "package": "udev",
@@ -1278,6 +1378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKernel subsystem string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "Subsystem",
           "package": "udev",
@@ -1287,6 +1388,7 @@
         "index": {
           "description": "Kernel subsystem string",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "Subsystem",
           "package": "udev",
@@ -1301,6 +1403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e/sys attribute string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "SysAttr",
           "package": "udev",
@@ -1310,6 +1413,7 @@
         "index": {
           "description": "sys attribute string",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "SysAttr",
           "package": "udev",
@@ -1324,6 +1428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttribute specific /sys value string. Can be an int or\n identifier depending on attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "SysValue",
           "package": "udev",
@@ -1333,6 +1438,7 @@
         "index": {
           "description": "Attribute specific sys value string Can be an int or identifier depending on attribute",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "SysValue",
           "package": "udev",
@@ -1347,6 +1453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices which udev has set up already.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchIsInitialized",
           "package": "udev",
@@ -1357,6 +1464,7 @@
         "index": {
           "description": "Match only devices which udev has set up already",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchIsInitialized",
           "normalized": "Enumerate-\u003eIO()",
@@ -1373,6 +1481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the devices on the subtree of one given device. The parent\n itself is included in the list.\n\u003c/p\u003e\u003cp\u003eA reference for the device is held until the udev_enumerate context\n is cleaned up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchParent",
           "package": "udev",
@@ -1382,6 +1491,7 @@
         "index": {
           "description": "Return the devices on the subtree of one given device The parent itself is included in the list reference for the device is held until the udev enumerate context is cleaned up",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchParent",
           "normalized": "Enumerate-\u003eDevice-\u003eIO()",
@@ -1398,6 +1508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices with a certain property.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchProperty",
           "package": "udev",
@@ -1407,6 +1518,7 @@
         "index": {
           "description": "Match only devices with certain property",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchProperty",
           "normalized": "Enumerate-\u003eBS.ByteString-\u003eBS.ByteString-\u003eIO()",
@@ -1423,6 +1535,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices belonging to a certain kernel subsystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSubsystem",
           "package": "udev",
@@ -1432,6 +1545,7 @@
         "index": {
           "description": "Match only devices belonging to certain kernel subsystem",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSubsystem",
           "normalized": "Enumerate-\u003eSubsystem-\u003eIO()",
@@ -1448,6 +1562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices with a certain /sys device attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSysattr",
           "package": "udev",
@@ -1457,6 +1572,7 @@
         "index": {
           "description": "Match only devices with certain sys device attribute",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSysattr",
           "normalized": "Enumerate-\u003eSysAttr-\u003eMaybe SysValue-\u003eIO()",
@@ -1473,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices with a given /sys device name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSysname",
           "package": "udev",
@@ -1482,6 +1599,7 @@
         "index": {
           "description": "Match only devices with given sys device name",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchSysname",
           "normalized": "Enumerate-\u003eBS.ByteString-\u003eIO()",
@@ -1498,6 +1616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices with a certain tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addMatchTag",
           "package": "udev",
@@ -1507,6 +1626,7 @@
         "index": {
           "description": "Match only devices with certain tag",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addMatchTag",
           "normalized": "Enumerate-\u003eBS.ByteString-\u003eIO()",
@@ -1523,6 +1643,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices not belonging to a certain kernel subsystem.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addNoMatchSubsystem",
           "package": "udev",
@@ -1532,6 +1653,7 @@
         "index": {
           "description": "Match only devices not belonging to certain kernel subsystem",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addNoMatchSubsystem",
           "normalized": "Enumerate-\u003eSubsystem-\u003eIO()",
@@ -1548,6 +1670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch only devices not having a certain /sys device attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addNoMatchSysattr",
           "package": "udev",
@@ -1557,6 +1680,7 @@
         "index": {
           "description": "Match only devices not having certain sys device attribute",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addNoMatchSysattr",
           "normalized": "Enumerate-\u003eBS.ByteString-\u003eMaybe BS.ByteString-\u003eIO()",
@@ -1573,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a device to the list of devices, to retrieve it back sorted\n in dependency order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "addSyspath",
           "package": "udev",
@@ -1582,6 +1707,7 @@
         "index": {
           "description": "Add device to the list of devices to retrieve it back sorted in dependency order",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "addSyspath",
           "normalized": "Enumerate-\u003eRawFilePath-\u003eIO()",
@@ -1598,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first entry of the sorted list of device paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "getListEntry",
           "package": "udev",
@@ -1608,6 +1735,7 @@
         "index": {
           "description": "Get the first entry of the sorted list of device paths",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "getListEntry",
           "normalized": "Enumerate-\u003eIO List",
@@ -1624,6 +1752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an enumeration context to scan /sys.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "newEnumerate",
           "package": "udev",
@@ -1634,6 +1763,7 @@
         "index": {
           "description": "Create an enumeration context to scan sys",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "newEnumerate",
           "normalized": "UDev-\u003eIO Enumerate",
@@ -1650,6 +1780,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan /sys for all devices which match the given filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "scanDevices",
           "package": "udev",
@@ -1660,6 +1791,7 @@
         "index": {
           "description": "Scan sys for all devices which match the given filters",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "scanDevices",
           "normalized": "Enumerate-\u003eIO()",
@@ -1676,6 +1808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScan /sys for all devices which match the given filters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Enumerate",
           "name": "scanSubsystems",
           "package": "udev",
@@ -1686,6 +1819,7 @@
         "index": {
           "description": "Scan sys for all devices which match the given filters",
           "hierarchy": "System UDev Enumerate",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Enumerate",
           "name": "scanSubsystems",
           "normalized": "Enumerate-\u003eIO()",
@@ -1702,6 +1836,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eRetrieve properties from the hardware database.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.HWDB",
           "name": "HWDB",
           "package": "udev",
@@ -1711,6 +1846,7 @@
         "index": {
           "description": "Retrieve properties from the hardware database",
           "hierarchy": "System UDev HWDB",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.HWDB",
           "name": "HWDB",
           "package": "udev",
@@ -1725,6 +1861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing the hardware database.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.HWDB",
           "name": "HWDB",
           "package": "udev",
@@ -1734,6 +1871,7 @@
         "index": {
           "description": "Opaque object representing the hardware database",
           "hierarchy": "System UDev HWDB",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.HWDB",
           "name": "HWDB",
           "package": "udev",
@@ -1748,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup a matching device in the hardware database. The lookup key\n is a modalias string, whose formats are defined for the Linux\n kernel modules. Examples are: pci:v00008086d00001C2D*,\n usb:v04F2pB221*. The first entry of a list of retrieved properties\n is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.HWDB",
           "name": "getPropertiesList",
           "package": "udev",
@@ -1758,6 +1897,7 @@
         "index": {
           "description": "Lookup matching device in the hardware database The lookup key is modalias string whose formats are defined for the Linux kernel modules Examples are pci v00008086d00001C2D usb v04F2pB221 The first entry of list of retrieved properties is returned",
           "hierarchy": "System UDev HWDB",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.HWDB",
           "name": "getPropertiesList",
           "normalized": "HWDB-\u003eBS.ByteString-\u003eIO List",
@@ -1774,6 +1914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a hardware database context to query properties for\n devices.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.HWDB",
           "name": "newHWDB",
           "package": "udev",
@@ -1784,6 +1925,7 @@
         "index": {
           "description": "Create hardware database context to query properties for devices",
           "hierarchy": "System UDev HWDB",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.HWDB",
           "name": "newHWDB",
           "normalized": "UDev-\u003eIO HWDB",
@@ -1800,6 +1942,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLibudev list operations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "List",
           "package": "udev",
@@ -1809,6 +1952,7 @@
         "index": {
           "description": "Libudev list operations",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "List",
           "package": "udev",
@@ -1823,6 +1967,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing one entry in a list. An entry contains\n contains a name, and optionally a value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "List",
           "package": "udev",
@@ -1832,6 +1977,7 @@
         "index": {
           "description": "Opaque object representing one entry in list An entry contains contains name and optionally value",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "List",
           "package": "udev",
@@ -1846,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup an entry in the list with a certain name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "getByName",
           "package": "udev",
@@ -1856,6 +2003,7 @@
         "index": {
           "description": "Lookup an entry in the list with certain name",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "getByName",
           "normalized": "List-\u003eIO(Maybe List)",
@@ -1872,6 +2020,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the name of a list entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "getName",
           "package": "udev",
@@ -1882,6 +2031,7 @@
         "index": {
           "description": "Get the name of list entry",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "getName",
           "normalized": "List-\u003eIO ByteString",
@@ -1898,6 +2048,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the next entry from the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "getNext",
           "package": "udev",
@@ -1908,6 +2059,7 @@
         "index": {
           "description": "Get the next entry from the list",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "getNext",
           "normalized": "List-\u003eIO(Maybe List)",
@@ -1924,6 +2076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of list entry.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.List",
           "name": "getValue",
           "package": "udev",
@@ -1934,6 +2087,7 @@
         "index": {
           "description": "Get the value of list entry",
           "hierarchy": "System UDev List",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.List",
           "name": "getValue",
           "normalized": "List-\u003eIO ByteString",
@@ -1950,6 +2104,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConnects to a device event source.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "Monitor",
           "package": "udev",
@@ -1959,6 +2114,7 @@
         "index": {
           "description": "Connects to device event source",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "Monitor",
           "package": "udev",
@@ -1973,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object handling an event source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "Monitor",
           "package": "udev",
@@ -1982,6 +2139,7 @@
         "index": {
           "description": "Opaque object handling an event source",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "Monitor",
           "package": "udev",
@@ -1996,6 +2154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent source identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "SourceId",
           "package": "udev",
@@ -2005,6 +2164,7 @@
         "index": {
           "description": "Event source identifier",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "SourceId",
           "package": "udev",
@@ -2019,6 +2179,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents are sent out just after kernel processes them.\n\u003c/p\u003e\u003cp\u003eApplications should usually not connect directly to the\n \"kernel\" events, because the devices might not be useable at\n that time, before udev has configured them, and created device\n nodes. Use \u003ccode\u003e\u003ca\u003eUDevId\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "KernelId",
           "package": "udev",
@@ -2029,6 +2190,7 @@
         "index": {
           "description": "Events are sent out just after kernel processes them Applications should usually not connect directly to the kernel events because the devices might not be useable at that time before udev has configured them and created device nodes Use UDevId instead",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "KernelId",
           "package": "udev",
@@ -2043,6 +2205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor extensibility.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "OtherId",
           "package": "udev",
@@ -2053,6 +2216,7 @@
         "index": {
           "description": "For extensibility",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "OtherId",
           "package": "udev",
@@ -2067,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvents are sent out after udev has finished its event processing,\n all rules have been processed, and needed device nodes are created.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "UDevId",
           "package": "udev",
@@ -2077,6 +2242,7 @@
         "index": {
           "description": "Events are sent out after udev has finished its event processing all rules have been processed and needed device nodes are created",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "UDevId",
           "package": "udev",
@@ -2091,6 +2257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBinds the \u003ccode\u003e\u003ca\u003eMonitor\u003c/a\u003e\u003c/code\u003e socket to the event source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "enableReceiving",
           "package": "udev",
@@ -2101,6 +2268,7 @@
         "index": {
           "description": "Binds the Monitor socket to the event source",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "enableReceiving",
           "normalized": "Monitor-\u003eIO()",
@@ -2117,6 +2285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter events by subsystem and device type.\n\u003c/p\u003e\u003cp\u003eThe filter \u003cem\u003emust be\u003c/em\u003e installed before the monitor is switched to\n listening mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "filterAddMatchSubsystemDevtype",
           "package": "udev",
@@ -2127,6 +2296,7 @@
         "index": {
           "description": "Filter events by subsystem and device type The filter must be installed before the monitor is switched to listening mode",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "filterAddMatchSubsystemDevtype",
           "normalized": "Monitor-\u003eBS.ByteString-\u003eBS.ByteString-\u003eIO()",
@@ -2143,6 +2313,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe filter must be installed before the monitor is switched to\n listening mode.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "filterAddMatchTag",
           "package": "udev",
@@ -2153,6 +2324,7 @@
         "index": {
           "description": "The filter must be installed before the monitor is switched to listening mode",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "filterAddMatchTag",
           "normalized": "Monitor-\u003eBS.ByteString-\u003eIO()",
@@ -2169,6 +2341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove all filters from monitor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "filterRemove",
           "package": "udev",
@@ -2179,6 +2352,7 @@
         "index": {
           "description": "Remove all filters from monitor",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "filterRemove",
           "normalized": "Monitor-\u003eIO()",
@@ -2195,6 +2369,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the installed socket filter. This is only needed, if the\n filter was removed or changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "filterUpdate",
           "package": "udev",
@@ -2205,6 +2380,7 @@
         "index": {
           "description": "Update the installed socket filter This is only needed if the filter was removed or changed",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "filterUpdate",
           "normalized": "Monitor-\u003eIO()",
@@ -2221,6 +2397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the socket file descriptor associated with the monitor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "getFd",
           "package": "udev",
@@ -2231,6 +2408,7 @@
         "index": {
           "description": "Retrieve the socket file descriptor associated with the monitor",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "getFd",
           "normalized": "Monitor-\u003eIO Fd",
@@ -2247,6 +2425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003egetFd\u003c/a\u003e\u003c/code\u003e but retrieves the socket \u003cem\u003ehandle\u003c/em\u003e associated\n with the monitor.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "getHandle",
           "package": "udev",
@@ -2257,6 +2436,7 @@
         "index": {
           "description": "Similar to getFd but retrieves the socket handle associated with the monitor",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "getHandle",
           "normalized": "Monitor-\u003eIO Handle",
@@ -2273,6 +2453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate new udev monitor and connect to a specified event source.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "newFromNetlink",
           "package": "udev",
@@ -2283,6 +2464,7 @@
         "index": {
           "description": "Create new udev monitor and connect to specified event source",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "newFromNetlink",
           "normalized": "UDev-\u003eSourceId-\u003eIO Monitor",
@@ -2299,6 +2481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReceive data from the udev monitor socket, allocate a new udev\n device, fill in the received data, and return the device.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "receiveDevice",
           "package": "udev",
@@ -2309,6 +2492,7 @@
         "index": {
           "description": "Receive data from the udev monitor socket allocate new udev device fill in the received data and return the device",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "receiveDevice",
           "normalized": "Monitor-\u003eIO Device",
@@ -2325,6 +2509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the size of the kernel socket buffer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Monitor",
           "name": "setReceiveBufferSize",
           "package": "udev",
@@ -2335,6 +2520,7 @@
         "index": {
           "description": "Set the size of the kernel socket buffer",
           "hierarchy": "System UDev Monitor",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Monitor",
           "name": "setReceiveBufferSize",
           "normalized": "Monitor-\u003eInt-\u003eIO()",
@@ -2351,6 +2537,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe udev daemon processes events asynchronously. All events which\n   do not have interdependencies run in parallel. This exports the\n   current state of the event processing queue, and the current\n   event sequence numbers from the kernel and the udev daemon.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "Queue",
           "package": "udev",
@@ -2360,6 +2547,7 @@
         "index": {
           "description": "The udev daemon processes events asynchronously All events which do not have interdependencies run in parallel This exports the current state of the event processing queue and the current event sequence numbers from the kernel and the udev daemon",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "Queue",
           "package": "udev",
@@ -2374,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpaque object representing the current event queue in the udev\n daemon.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "Queue",
           "package": "udev",
@@ -2383,6 +2572,7 @@
         "index": {
           "description": "Opaque object representing the current event queue in the udev daemon",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "Queue",
           "package": "udev",
@@ -2397,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence number of event.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "Seqnum",
           "package": "udev",
@@ -2406,6 +2597,7 @@
         "index": {
           "description": "Sequence number of event",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "Seqnum",
           "package": "udev",
@@ -2420,6 +2612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current kernel event sequence number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "getKernelSeqnum",
           "package": "udev",
@@ -2430,6 +2623,7 @@
         "index": {
           "description": "Get the current kernel event sequence number",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "getKernelSeqnum",
           "normalized": "Queue-\u003eIO Seqnum",
@@ -2446,6 +2640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the first entry of the list of queued events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "getPending",
           "package": "udev",
@@ -2456,6 +2651,7 @@
         "index": {
           "description": "Get the first entry of the list of queued events",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "getPending",
           "normalized": "Queue-\u003eIO List",
@@ -2472,6 +2668,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last known udev event sequence number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "getUDevSeqnum",
           "package": "udev",
@@ -2482,6 +2679,7 @@
         "index": {
           "description": "Get the last known udev event sequence number",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "getUDevSeqnum",
           "normalized": "Queue-\u003eIO Seqnum",
@@ -2498,6 +2696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if udev is active on the system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "isActive",
           "package": "udev",
@@ -2508,6 +2707,7 @@
         "index": {
           "description": "Check if udev is active on the system",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "isActive",
           "normalized": "Queue-\u003eIO Bool",
@@ -2524,6 +2724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if udev is currently processing any events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "isEmpty",
           "package": "udev",
@@ -2534,6 +2735,7 @@
         "index": {
           "description": "Check if udev is currently processing any events",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "isEmpty",
           "normalized": "Queue-\u003eIO Bool",
@@ -2550,6 +2752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if udev is currently processing a given sequence number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "isFinished",
           "package": "udev",
@@ -2559,6 +2762,7 @@
         "index": {
           "description": "Check if udev is currently processing given sequence number",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "isFinished",
           "normalized": "Queue-\u003eSeqnum-\u003eIO Bool",
@@ -2575,6 +2779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new queue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "newQueue",
           "package": "udev",
@@ -2585,6 +2790,7 @@
         "index": {
           "description": "Create new queue",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "newQueue",
           "normalized": "UDev-\u003eIO Queue",
@@ -2601,6 +2807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if udev is currently processing any events in a given\n sequence number range.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Queue",
           "name": "sequenceIsFinished",
           "package": "udev",
@@ -2610,6 +2817,7 @@
         "index": {
           "description": "Check if udev is currently processing any events in given sequence number range",
           "hierarchy": "System UDev Queue",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Queue",
           "name": "sequenceIsFinished",
           "normalized": "Queue-\u003eSeqnum-\u003eSeqnum-\u003eIO Bool",
@@ -2626,6 +2834,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUtilities useful when dealing with devices and device node names.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Util",
           "name": "Util",
           "package": "udev",
@@ -2635,6 +2844,7 @@
         "index": {
           "description": "Utilities useful when dealing with devices and device node names",
           "hierarchy": "System UDev Util",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Util",
           "name": "Util",
           "package": "udev",
@@ -2649,6 +2859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode all potentially unsafe characters of a string to the\n corresponding 2 char hex value prefixed by '\\x'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev.Util",
           "name": "encodeString",
           "package": "udev",
@@ -2659,6 +2870,7 @@
         "index": {
           "description": "Encode all potentially unsafe characters of string to the corresponding char hex value prefixed by",
           "hierarchy": "System UDev Util",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev.Util",
           "name": "encodeString",
           "normalized": "CString-\u003eCString-\u003eCSize-\u003eIO()",
@@ -2674,6 +2886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:28:41 UTC 2014",
           "module": "System.UDev",
           "name": "UDev",
           "package": "udev",
@@ -2682,6 +2895,7 @@
         },
         "index": {
           "hierarchy": "System UDev",
+          "indexed": "2014-03-11T20:28:41",
           "module": "System.UDev",
           "name": "UDev",
           "package": "udev",

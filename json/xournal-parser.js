@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "xournal-parser"
+        "phrase": "xournal-parser",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "Conduit",
           "package": "xournal-parser",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "Conduit",
           "package": "xournal-parser",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "StrokeWidth",
           "package": "xournal-parser",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "StrokeWidth",
           "package": "xournal-parser",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "SingleWidth",
           "package": "xournal-parser",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "SingleWidth",
           "package": "xournal-parser",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "VarWidth",
           "package": "xournal-parser",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "VarWidth",
           "normalized": "VarWidth[Double]",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "drop2NextStartOrEnd",
           "package": "xournal-parser",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "drop2NextStartOrEnd",
           "normalized": "Sink Event a(Either(Text,Event)Text)",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "dropWhile",
           "package": "xournal-parser",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "dropWhile",
           "normalized": "(a-\u003eBool)-\u003eSink a b()",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "flipap",
           "package": "xournal-parser",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "flipap",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getBackground",
           "package": "xournal-parser",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getBackground",
           "normalized": "Event-\u003eEither String Background",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget Content   \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getContent",
           "package": "xournal-parser",
@@ -212,6 +229,7 @@
         "index": {
           "description": "get Content",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getContent",
           "normalized": "Event-\u003eEither String Text",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getDimension",
           "package": "xournal-parser",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getDimension",
           "normalized": "Event-\u003eEither String Dimension",
@@ -251,6 +271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getStroke",
           "package": "xournal-parser",
@@ -260,6 +281,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getStroke",
           "normalized": "Event-\u003eEither String(Stroke,StrokeWidth)",
@@ -275,6 +297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getStrokeContent",
           "package": "xournal-parser",
@@ -284,6 +307,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getStrokeContent",
           "normalized": "([Pair Double Double]-\u003e[Pair Double Double])-\u003eText-\u003eEither String[Pair Double Double]",
@@ -299,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getWidth",
           "package": "xournal-parser",
@@ -308,6 +333,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "getWidth",
           "normalized": "([Double]-\u003e[Double])-\u003eText-\u003eEither String StrokeWidth",
@@ -324,6 +350,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck end of element with name txt \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isEnd",
           "package": "xournal-parser",
@@ -334,6 +361,7 @@
         "index": {
           "description": "check end of element with name txt",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isEnd",
           "normalized": "Text-\u003eEvent-\u003eBool",
@@ -349,6 +377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isEventStartEnd",
           "package": "xournal-parser",
@@ -358,6 +387,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isEventStartEnd",
           "normalized": "Event-\u003eBool",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck start of element with name txt  \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isStart",
           "package": "xournal-parser",
@@ -384,6 +415,7 @@
         "index": {
           "description": "check start of element with name txt",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "isStart",
           "normalized": "Text-\u003eEvent-\u003eBool",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprinting for debug\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "iterPrint",
           "package": "xournal-parser",
@@ -410,6 +443,7 @@
         "index": {
           "description": "printing for debug",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "iterPrint",
           "normalized": "Sink a b()",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many0event",
           "package": "xournal-parser",
@@ -434,6 +469,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many0event",
           "normalized": "(Text,Text)-\u003e(Event-\u003eSink Event a(Either String b))-\u003eSink Event a(Either String[b])",
@@ -448,6 +484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many1event",
           "package": "xournal-parser",
@@ -457,6 +494,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many1event",
           "normalized": "(Text,Text)-\u003e(Event-\u003eSink Event a(Either String b))-\u003eSink Event a(Either String[b])",
@@ -471,6 +509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many1eventWrkr",
           "package": "xournal-parser",
@@ -480,6 +519,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "many1eventWrkr",
           "normalized": "(Text,Text)-\u003e([a]-\u003e[a])-\u003e(Event-\u003eSink Event b(Either String a))-\u003eSink Event b(Either String[a])",
@@ -495,6 +535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pBkg",
           "package": "xournal-parser",
@@ -504,6 +545,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pBkg",
           "package": "xournal-parser",
@@ -517,6 +559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pLayer",
           "package": "xournal-parser",
@@ -526,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pLayer",
           "normalized": "Event-\u003eSink Event a(Either String Layer)",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse one page \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pPage",
           "package": "xournal-parser",
@@ -552,6 +597,7 @@
         "index": {
           "description": "parse one page",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pPage",
           "normalized": "Event-\u003eSink Event a(Either String Page)",
@@ -567,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pStroke",
           "package": "xournal-parser",
@@ -576,6 +623,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pStroke",
           "normalized": "Event-\u003eSink Event a(Either String Stroke)",
@@ -591,6 +639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pTitle",
           "package": "xournal-parser",
@@ -600,6 +649,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pTitle",
           "package": "xournal-parser",
@@ -614,6 +664,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparse whole xournal file \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pXournal",
           "package": "xournal-parser",
@@ -624,6 +675,7 @@
         "index": {
           "description": "parse whole xournal file",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "pXournal",
           "package": "xournal-parser",
@@ -638,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneric xml file driver\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXmlFile",
           "package": "xournal-parser",
@@ -648,6 +701,7 @@
         "index": {
           "description": "generic xml file driver",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXmlFile",
           "normalized": "Handle-\u003eSink Event a b-\u003ea b",
@@ -664,6 +718,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003efor xournal \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXojFile",
           "package": "xournal-parser",
@@ -674,6 +729,7 @@
         "index": {
           "description": "for xournal",
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXojFile",
           "normalized": "FilePath-\u003eIO(Either String Xournal)",
@@ -689,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXojGzFile",
           "package": "xournal-parser",
@@ -698,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXojGzFile",
           "normalized": "FilePath-\u003eIO(Either String Xournal)",
@@ -713,6 +771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXournal",
           "package": "xournal-parser",
@@ -722,6 +781,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "parseXournal",
           "normalized": "FilePath-\u003eIO(Either String Xournal)",
@@ -737,6 +797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "skipspace",
           "package": "xournal-parser",
@@ -746,6 +807,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "skipspace",
           "normalized": "Text-\u003eText",
@@ -760,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "unit",
           "package": "xournal-parser",
@@ -769,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Conduit",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Conduit",
           "name": "unit",
           "normalized": "a()",
@@ -783,6 +847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Zlib",
           "name": "Zlib",
           "package": "xournal-parser",
@@ -791,6 +856,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse Zlib",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Zlib",
           "name": "Zlib",
           "package": "xournal-parser",
@@ -805,6 +871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck if gzip or not\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse.Zlib",
           "name": "checkIfBinary",
           "package": "xournal-parser",
@@ -815,6 +882,7 @@
         "index": {
           "description": "check if gzip or not",
           "hierarchy": "Text Xournal Parse Zlib",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse.Zlib",
           "name": "checkIfBinary",
           "normalized": "FilePath-\u003eIO Bool",
@@ -830,6 +898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:43:44 UTC 2014",
           "module": "Text.Xournal.Parse",
           "name": "Parse",
           "package": "xournal-parser",
@@ -838,6 +907,7 @@
         },
         "index": {
           "hierarchy": "Text Xournal Parse",
+          "indexed": "2014-03-11T20:43:44",
           "module": "Text.Xournal.Parse",
           "name": "Parse",
           "package": "xournal-parser",

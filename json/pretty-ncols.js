@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "pretty-ncols"
+        "phrase": "pretty-ncols",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:35 UTC 2014",
           "module": "Text.PrettyPrint.NCol",
           "name": "NCol",
           "package": "pretty-ncols",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint NCol",
+          "indexed": "2014-03-11T19:43:35",
           "module": "Text.PrettyPrint.NCol",
           "name": "NCol",
           "package": "pretty-ncols",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:35 UTC 2014",
           "module": "Text.PrettyPrint.NCol",
           "name": "asColumns",
           "package": "pretty-ncols",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint NCol",
+          "indexed": "2014-03-11T19:43:35",
           "module": "Text.PrettyPrint.NCol",
           "name": "asColumns",
           "normalized": "[[Doc]]-\u003eDoc",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:43:35 UTC 2014",
           "module": "Text.PrettyPrint.NCol",
           "name": "asColumnsWithBuff",
           "package": "pretty-ncols",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Text PrettyPrint NCol",
+          "indexed": "2014-03-11T19:43:35",
           "module": "Text.PrettyPrint.NCol",
           "name": "asColumnsWithBuff",
           "normalized": "[[Doc]]-\u003eInt-\u003eDoc",

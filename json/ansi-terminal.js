@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ansi-terminal"
+        "phrase": "ansi-terminal",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvides ANSI terminal support for Windows and ANSI terminal software running on a Unix-like operating system.\n\u003c/p\u003e\u003cp\u003eThe ANSI escape codes are described at \u003ca\u003ehttp://en.wikipedia.org/wiki/ANSI_escape_code\u003c/a\u003e and provide a rich range of\n functionality for terminal control, which includes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Colored text output, with control over both foreground and background colors\n\u003c/li\u003e\u003cli\u003e Hiding or showing the cursor\n\u003c/li\u003e\u003cli\u003e Moving the cursor around\n\u003c/li\u003e\u003cli\u003e Clearing parts of the screen\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe most frequently used parts of this ANSI command set are exposed with a platform independent interface by\n this module.  Every function exported comes in three flavours:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Vanilla: has an \u003ccode\u003eIO ()\u003c/code\u003e type and doesn't take a \u003ccode\u003eHandle\u003c/code\u003e.  This just outputs the ANSI command directly on\n    to the terminal corresponding to stdout.  Commands issued like this should work as you expect on both Windows\n    and Unix.\n\u003c/li\u003e\u003cli\u003e Chocolate: has an \u003ccode\u003eIO ()\u003c/code\u003e type but takes a \u003ccode\u003eHandle\u003c/code\u003e.  This outputs the ANSI command on the terminal corresponding\n    to the supplied handle.  Commands issued like this should also work as your expect on both Windows and Unix.\n\u003c/li\u003e\u003cli\u003e Strawberry: has a \u003ccode\u003eString\u003c/code\u003e type and just consists of an escape code which can be added to any other bit of text\n    before being output.  This version of the API is often convenient to use, but due to fundamental limitations in\n    Windows ANSI terminal support will only work on Unix.  On Windows these codes will always be the empty string,\n    so it is possible to use them portably for e.g. coloring console output on the understanding that you will only\n    see colors if you are running on a Unix-like operating system.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "ANSI",
           "package": "ansi-terminal",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provides ANSI terminal support for Windows and ANSI terminal software running on Unix-like operating system The ANSI escape codes are described at http en.wikipedia.org wiki ANSI escape code and provide rich range of functionality for terminal control which includes Colored text output with control over both foreground and background colors Hiding or showing the cursor Moving the cursor around Clearing parts of the screen The most frequently used parts of this ANSI command set are exposed with platform independent interface by this module Every function exported comes in three flavours Vanilla has an IO type and doesn take Handle This just outputs the ANSI command directly on to the terminal corresponding to stdout Commands issued like this should work as you expect on both Windows and Unix Chocolate has an IO type but takes Handle This outputs the ANSI command on the terminal corresponding to the supplied handle Commands issued like this should also work as your expect on both Windows and Unix Strawberry has String type and just consists of an escape code which can be added to any other bit of text before being output This version of the API is often convenient to use but due to fundamental limitations in Windows ANSI terminal support will only work on Unix On Windows these codes will always be the empty string so it is possible to use them portably for e.g coloring console output on the understanding that you will only see colors if you are running on Unix-like operating system",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "ANSI",
           "package": "ansi-terminal",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI blink speeds: values other than \u003ccode\u003e\u003ca\u003eNoBlink\u003c/a\u003e\u003c/code\u003e are not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "BlinkSpeed",
           "package": "ansi-terminal",
@@ -51,6 +54,7 @@
         "index": {
           "description": "ANSI blink speeds values other than NoBlink are not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "BlinkSpeed",
           "package": "ansi-terminal",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI colors: come in various intensities, which are controlled by \u003ccode\u003e\u003ca\u003eColorIntensity\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Color",
           "package": "ansi-terminal",
@@ -74,6 +79,7 @@
         "index": {
           "description": "ANSI colors come in various intensities which are controlled by ColorIntensity",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Color",
           "package": "ansi-terminal",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI colors come in two intensities\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "ColorIntensity",
           "package": "ansi-terminal",
@@ -97,6 +104,7 @@
         "index": {
           "description": "ANSI colors come in two intensities",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "ColorIntensity",
           "package": "ansi-terminal",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI general console intensity: usually treated as setting the font style (e.g. \u003ccode\u003e\u003ca\u003eBoldIntensity\u003c/a\u003e\u003c/code\u003e causes text to be bold)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "ConsoleIntensity",
           "package": "ansi-terminal",
@@ -120,6 +129,7 @@
         "index": {
           "description": "ANSI general console intensity usually treated as setting the font style e.g BoldIntensity causes text to be bold",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "ConsoleIntensity",
           "package": "ansi-terminal",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI colors can be set on two different layers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "ConsoleLayer",
           "package": "ansi-terminal",
@@ -143,6 +154,7 @@
         "index": {
           "description": "ANSI colors can be set on two different layers",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "ConsoleLayer",
           "package": "ansi-terminal",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI Select Graphic Rendition command\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SGR",
           "package": "ansi-terminal",
@@ -166,6 +179,7 @@
         "index": {
           "description": "ANSI Select Graphic Rendition command",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SGR",
           "package": "ansi-terminal",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eANSI text underlining\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Underlining",
           "package": "ansi-terminal",
@@ -189,6 +204,7 @@
         "index": {
           "description": "ANSI text underlining",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Underlining",
           "package": "ansi-terminal",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Background",
           "package": "ansi-terminal",
@@ -211,6 +228,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Background",
           "package": "ansi-terminal",
@@ -224,6 +242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Black",
           "package": "ansi-terminal",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Black",
           "package": "ansi-terminal",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Blue",
           "package": "ansi-terminal",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Blue",
           "package": "ansi-terminal",
@@ -268,6 +290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "BoldIntensity",
           "package": "ansi-terminal",
@@ -277,6 +300,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "BoldIntensity",
           "package": "ansi-terminal",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Cyan",
           "package": "ansi-terminal",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Cyan",
           "package": "ansi-terminal",
@@ -313,6 +339,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "DoubleUnderline",
           "package": "ansi-terminal",
@@ -323,6 +350,7 @@
         "index": {
           "description": "Not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "DoubleUnderline",
           "package": "ansi-terminal",
@@ -336,6 +364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Dull",
           "package": "ansi-terminal",
@@ -345,6 +374,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Dull",
           "package": "ansi-terminal",
@@ -359,6 +389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot widely supported: sometimes treated as concealing text\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "FaintIntensity",
           "package": "ansi-terminal",
@@ -369,6 +400,7 @@
         "index": {
           "description": "Not widely supported sometimes treated as concealing text",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "FaintIntensity",
           "package": "ansi-terminal",
@@ -382,6 +414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Foreground",
           "package": "ansi-terminal",
@@ -391,6 +424,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Foreground",
           "package": "ansi-terminal",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Green",
           "package": "ansi-terminal",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Green",
           "package": "ansi-terminal",
@@ -426,6 +462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Magenta",
           "package": "ansi-terminal",
@@ -435,6 +472,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Magenta",
           "package": "ansi-terminal",
@@ -448,6 +486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "NoBlink",
           "package": "ansi-terminal",
@@ -457,6 +496,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "NoBlink",
           "package": "ansi-terminal",
@@ -470,6 +510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "NoUnderline",
           "package": "ansi-terminal",
@@ -479,6 +520,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "NoUnderline",
           "package": "ansi-terminal",
@@ -492,6 +534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "NormalIntensity",
           "package": "ansi-terminal",
@@ -501,6 +544,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "NormalIntensity",
           "package": "ansi-terminal",
@@ -515,6 +559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMore than 150 blinks per minute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "RapidBlink",
           "package": "ansi-terminal",
@@ -525,6 +570,7 @@
         "index": {
           "description": "More than blinks per minute",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "RapidBlink",
           "package": "ansi-terminal",
@@ -538,6 +584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Red",
           "package": "ansi-terminal",
@@ -547,6 +594,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Red",
           "package": "ansi-terminal",
@@ -560,6 +608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Reset",
           "package": "ansi-terminal",
@@ -569,6 +618,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Reset",
           "package": "ansi-terminal",
@@ -582,6 +632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetBlinkSpeed",
           "package": "ansi-terminal",
@@ -591,6 +642,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetBlinkSpeed",
           "package": "ansi-terminal",
@@ -604,6 +656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetColor",
           "package": "ansi-terminal",
@@ -613,6 +666,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetColor",
           "package": "ansi-terminal",
@@ -626,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetConsoleIntensity",
           "package": "ansi-terminal",
@@ -635,6 +690,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetConsoleIntensity",
           "package": "ansi-terminal",
@@ -649,6 +705,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot widely supported: sometimes treated as swapping foreground and background\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetItalicized",
           "package": "ansi-terminal",
@@ -659,6 +716,7 @@
         "index": {
           "description": "Not widely supported sometimes treated as swapping foreground and background",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetItalicized",
           "package": "ansi-terminal",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetSwapForegroundBackground",
           "package": "ansi-terminal",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetSwapForegroundBackground",
           "package": "ansi-terminal",
@@ -694,6 +754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetUnderlining",
           "package": "ansi-terminal",
@@ -703,6 +764,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetUnderlining",
           "package": "ansi-terminal",
@@ -717,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNot widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SetVisible",
           "package": "ansi-terminal",
@@ -727,6 +790,7 @@
         "index": {
           "description": "Not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SetVisible",
           "package": "ansi-terminal",
@@ -740,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SingleUnderline",
           "package": "ansi-terminal",
@@ -749,6 +814,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SingleUnderline",
           "package": "ansi-terminal",
@@ -763,6 +829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLess than 150 blinks per minute\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "SlowBlink",
           "package": "ansi-terminal",
@@ -773,6 +840,7 @@
         "index": {
           "description": "Less than blinks per minute",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "SlowBlink",
           "package": "ansi-terminal",
@@ -786,6 +854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Vivid",
           "package": "ansi-terminal",
@@ -795,6 +864,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Vivid",
           "package": "ansi-terminal",
@@ -808,6 +878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "White",
           "package": "ansi-terminal",
@@ -817,6 +888,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "White",
           "package": "ansi-terminal",
@@ -830,6 +902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "Yellow",
           "package": "ansi-terminal",
@@ -839,6 +912,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "Yellow",
           "package": "ansi-terminal",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineBeginning",
           "package": "ansi-terminal",
@@ -861,6 +936,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineBeginning",
           "normalized": "IO()",
@@ -876,6 +952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineBeginningCode",
           "package": "ansi-terminal",
@@ -885,6 +962,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineBeginningCode",
           "package": "ansi-terminal",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineEnd",
           "package": "ansi-terminal",
@@ -907,6 +986,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineEnd",
           "normalized": "IO()",
@@ -922,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineEndCode",
           "package": "ansi-terminal",
@@ -931,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToLineEndCode",
           "package": "ansi-terminal",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenBeginning",
           "package": "ansi-terminal",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenBeginning",
           "normalized": "IO()",
@@ -968,6 +1052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenBeginningCode",
           "package": "ansi-terminal",
@@ -977,6 +1062,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenBeginningCode",
           "package": "ansi-terminal",
@@ -990,6 +1076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenEnd",
           "package": "ansi-terminal",
@@ -999,6 +1086,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenEnd",
           "normalized": "IO()",
@@ -1014,6 +1102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenEndCode",
           "package": "ansi-terminal",
@@ -1023,6 +1112,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearFromCursorToScreenEndCode",
           "package": "ansi-terminal",
@@ -1036,6 +1126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearLine",
           "package": "ansi-terminal",
@@ -1045,6 +1136,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearLine",
           "normalized": "IO()",
@@ -1060,6 +1152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearLineCode",
           "package": "ansi-terminal",
@@ -1069,6 +1162,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearLineCode",
           "package": "ansi-terminal",
@@ -1082,6 +1176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearScreen",
           "package": "ansi-terminal",
@@ -1091,6 +1186,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearScreen",
           "normalized": "IO()",
@@ -1106,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "clearScreenCode",
           "package": "ansi-terminal",
@@ -1115,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "clearScreenCode",
           "package": "ansi-terminal",
@@ -1128,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorBackward",
           "package": "ansi-terminal",
@@ -1136,6 +1235,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorBackward",
           "normalized": "Int-\u003eIO()",
@@ -1151,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorBackwardCode",
           "package": "ansi-terminal",
@@ -1159,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorBackwardCode",
           "normalized": "Int-\u003eString",
@@ -1174,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorDown",
           "package": "ansi-terminal",
@@ -1182,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorDown",
           "normalized": "Int-\u003eIO()",
@@ -1197,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorDownCode",
           "package": "ansi-terminal",
@@ -1205,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorDownCode",
           "normalized": "Int-\u003eString",
@@ -1220,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorDownLine",
           "package": "ansi-terminal",
@@ -1228,6 +1335,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorDownLine",
           "normalized": "Int-\u003eIO()",
@@ -1243,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorDownLineCode",
           "package": "ansi-terminal",
@@ -1251,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorDownLineCode",
           "normalized": "Int-\u003eString",
@@ -1266,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorForward",
           "package": "ansi-terminal",
@@ -1274,6 +1385,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorForward",
           "normalized": "Int-\u003eIO()",
@@ -1289,6 +1401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorForwardCode",
           "package": "ansi-terminal",
@@ -1297,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorForwardCode",
           "normalized": "Int-\u003eString",
@@ -1312,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorUp",
           "package": "ansi-terminal",
@@ -1320,6 +1435,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorUp",
           "normalized": "Int-\u003eIO()",
@@ -1335,6 +1451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorUpCode",
           "package": "ansi-terminal",
@@ -1343,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorUpCode",
           "normalized": "Int-\u003eString",
@@ -1358,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorUpLine",
           "package": "ansi-terminal",
@@ -1366,6 +1485,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorUpLine",
           "normalized": "Int-\u003eIO()",
@@ -1381,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "cursorUpLineCode",
           "package": "ansi-terminal",
@@ -1389,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "cursorUpLineCode",
           "normalized": "Int-\u003eString",
@@ -1404,6 +1526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToLineBeginning",
           "package": "ansi-terminal",
@@ -1413,6 +1536,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToLineBeginning",
           "normalized": "Handle-\u003eIO()",
@@ -1428,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToLineEnd",
           "package": "ansi-terminal",
@@ -1437,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToLineEnd",
           "normalized": "Handle-\u003eIO()",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToScreenBeginning",
           "package": "ansi-terminal",
@@ -1461,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToScreenBeginning",
           "normalized": "Handle-\u003eIO()",
@@ -1476,6 +1604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToScreenEnd",
           "package": "ansi-terminal",
@@ -1485,6 +1614,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearFromCursorToScreenEnd",
           "normalized": "Handle-\u003eIO()",
@@ -1500,6 +1630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearLine",
           "package": "ansi-terminal",
@@ -1509,6 +1640,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearLine",
           "normalized": "Handle-\u003eIO()",
@@ -1524,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hClearScreen",
           "package": "ansi-terminal",
@@ -1533,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hClearScreen",
           "normalized": "Handle-\u003eIO()",
@@ -1548,6 +1682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorBackward",
           "package": "ansi-terminal",
@@ -1556,6 +1691,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorBackward",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1571,6 +1707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorDown",
           "package": "ansi-terminal",
@@ -1579,6 +1716,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorDown",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1594,6 +1732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorDownLine",
           "package": "ansi-terminal",
@@ -1602,6 +1741,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorDownLine",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1617,6 +1757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorForward",
           "package": "ansi-terminal",
@@ -1625,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorForward",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1640,6 +1782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorUp",
           "package": "ansi-terminal",
@@ -1648,6 +1791,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorUp",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1663,6 +1807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hCursorUpLine",
           "package": "ansi-terminal",
@@ -1671,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hCursorUpLine",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1686,6 +1832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hHideCursor",
           "package": "ansi-terminal",
@@ -1695,6 +1842,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hHideCursor",
           "normalized": "Handle-\u003eIO()",
@@ -1711,6 +1859,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hScrollPageDown",
           "package": "ansi-terminal",
@@ -1720,6 +1869,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hScrollPageDown",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1736,6 +1886,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hScrollPageUp",
           "package": "ansi-terminal",
@@ -1745,6 +1896,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hScrollPageUp",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1760,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hSetCursorColumn",
           "package": "ansi-terminal",
@@ -1768,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hSetCursorColumn",
           "normalized": "Handle-\u003eInt-\u003eIO()",
@@ -1783,6 +1937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hSetCursorPosition",
           "package": "ansi-terminal",
@@ -1791,6 +1946,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hSetCursorPosition",
           "normalized": "Handle-\u003eInt-\u003eInt-\u003eIO()",
@@ -1807,6 +1963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Select Graphic Rendition mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hSetSGR",
           "package": "ansi-terminal",
@@ -1816,6 +1973,7 @@
         "index": {
           "description": "Set the Select Graphic Rendition mode",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hSetSGR",
           "normalized": "Handle-\u003e[SGR]-\u003eIO()",
@@ -1832,6 +1990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the terminal window title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hSetTitle",
           "package": "ansi-terminal",
@@ -1841,6 +2000,7 @@
         "index": {
           "description": "Set the terminal window title",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hSetTitle",
           "normalized": "Handle-\u003eString-\u003eIO()",
@@ -1856,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hShowCursor",
           "package": "ansi-terminal",
@@ -1865,6 +2026,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hShowCursor",
           "normalized": "Handle-\u003eIO()",
@@ -1880,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hideCursor",
           "package": "ansi-terminal",
@@ -1889,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hideCursor",
           "normalized": "IO()",
@@ -1904,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "hideCursorCode",
           "package": "ansi-terminal",
@@ -1913,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "hideCursorCode",
           "package": "ansi-terminal",
@@ -1927,6 +2093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "scrollPageDown",
           "package": "ansi-terminal",
@@ -1936,6 +2103,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "scrollPageDown",
           "normalized": "Int-\u003eIO()",
@@ -1952,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "scrollPageDownCode",
           "package": "ansi-terminal",
@@ -1961,6 +2130,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "scrollPageDownCode",
           "normalized": "Int-\u003eString",
@@ -1977,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "scrollPageUp",
           "package": "ansi-terminal",
@@ -1986,6 +2157,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "scrollPageUp",
           "normalized": "Int-\u003eIO()",
@@ -2002,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScroll the displayed information up or down the terminal: not widely supported\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "scrollPageUpCode",
           "package": "ansi-terminal",
@@ -2011,6 +2184,7 @@
         "index": {
           "description": "Scroll the displayed information up or down the terminal not widely supported",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "scrollPageUpCode",
           "normalized": "Int-\u003eString",
@@ -2026,6 +2200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setCursorColumn",
           "package": "ansi-terminal",
@@ -2034,6 +2209,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setCursorColumn",
           "normalized": "Int-\u003eIO()",
@@ -2049,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setCursorColumnCode",
           "package": "ansi-terminal",
@@ -2057,6 +2234,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setCursorColumnCode",
           "normalized": "Int-\u003eString",
@@ -2072,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setCursorPosition",
           "package": "ansi-terminal",
@@ -2080,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setCursorPosition",
           "normalized": "Int-\u003eInt-\u003eIO()",
@@ -2095,6 +2275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setCursorPositionCode",
           "package": "ansi-terminal",
@@ -2103,6 +2284,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setCursorPositionCode",
           "normalized": "Int-\u003eInt-\u003eString",
@@ -2119,6 +2301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Select Graphic Rendition mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setSGR",
           "package": "ansi-terminal",
@@ -2128,6 +2311,7 @@
         "index": {
           "description": "Set the Select Graphic Rendition mode",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setSGR",
           "normalized": "[SGR]-\u003eIO()",
@@ -2144,6 +2328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the Select Graphic Rendition mode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setSGRCode",
           "package": "ansi-terminal",
@@ -2153,6 +2338,7 @@
         "index": {
           "description": "Set the Select Graphic Rendition mode",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setSGRCode",
           "normalized": "[SGR]-\u003eString",
@@ -2169,6 +2355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the terminal window title\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setTitle",
           "package": "ansi-terminal",
@@ -2178,6 +2365,7 @@
         "index": {
           "description": "Set the terminal window title",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setTitle",
           "normalized": "String-\u003eIO()",
@@ -2194,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the terminal window title\n\u003c/p\u003e\u003cp\u003eThanks to Brandon S. Allbery and Curt Sampson for pointing me in the right direction on xterm title setting on haskell-cafe.\n The \u003ca\u003e0\u003c/a\u003e signifies that both the title and \u003ca\u003eicon\u003c/a\u003e text should be set: i.e. the text for the window in the Start bar (or similar)\n as well as that in the actual window title.  This is chosen for consistent behaviour between Unixes and Windows.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "setTitleCode",
           "package": "ansi-terminal",
@@ -2203,6 +2392,7 @@
         "index": {
           "description": "Set the terminal window title Thanks to Brandon Allbery and Curt Sampson for pointing me in the right direction on xterm title setting on haskell-cafe The signifies that both the title and icon text should be set i.e the text for the window in the Start bar or similar as well as that in the actual window title This is chosen for consistent behaviour between Unixes and Windows",
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "setTitleCode",
           "normalized": "String-\u003eString",
@@ -2218,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "showCursor",
           "package": "ansi-terminal",
@@ -2227,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "showCursor",
           "normalized": "IO()",
@@ -2242,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:09 UTC 2014",
           "module": "System.Console.ANSI",
           "name": "showCursorCode",
           "package": "ansi-terminal",
@@ -2251,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "System Console ANSI",
+          "indexed": "2014-03-11T17:11:09",
           "module": "System.Console.ANSI",
           "name": "showCursorCode",
           "package": "ansi-terminal",

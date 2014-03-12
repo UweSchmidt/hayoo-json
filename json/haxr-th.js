@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haxr-th"
+        "phrase": "haxr-th",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUses Template Haskell to automagically derive instances of \u003ccode\u003e\u003ca\u003eXmlRpcType\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:34:34 UTC 2014",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "THDeriveXmlRpcType",
           "package": "haxr-th",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Uses Template Haskell to automagically derive instances of XmlRpcType",
           "hierarchy": "Network XmlRpc THDeriveXmlRpcType",
+          "indexed": "2014-03-11T18:34:34",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "THDeriveXmlRpcType",
           "package": "haxr-th",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an \u003ccode\u003e\u003ca\u003eXmlRpcType\u003c/a\u003e\u003c/code\u003e instance which handles a Haskell record\n   as an XmlRpc struct. Example:\n \u003ccode\u003e\n data Person = Person { name :: String, age :: Int }\n $(asXmlRpcStruct ''Person)\n \u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:34:34 UTC 2014",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "asXmlRpcStruct",
           "package": "haxr-th",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Creates an XmlRpcType instance which handles Haskell record as an XmlRpc struct Example data Person Person name String age Int asXmlRpcStruct Person",
           "hierarchy": "Network XmlRpc THDeriveXmlRpcType",
+          "indexed": "2014-03-11T18:34:34",
           "module": "Network.XmlRpc.THDeriveXmlRpcType",
           "name": "asXmlRpcStruct",
           "normalized": "Name-\u003eQ[Dec]",

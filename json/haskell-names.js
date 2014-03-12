@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskell-names"
+        "phrase": "haskell-names",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Annotated",
           "name": "Annotated",
           "package": "haskell-names",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Annotated",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Annotated",
           "name": "Annotated",
           "package": "haskell-names",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Annotated",
           "name": "NameInfo",
           "package": "haskell-names",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Annotated",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Annotated",
           "name": "NameInfo",
           "package": "haskell-names",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of the name information and original annotation. Used as an\n annotation type for AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Annotated",
           "name": "Scoped",
           "package": "haskell-names",
@@ -70,6 +75,7 @@
         "index": {
           "description": "pair of the name information and original annotation Used as an annotation type for AST",
           "hierarchy": "Language Haskell Names Annotated",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Annotated",
           "name": "Scoped",
           "package": "haskell-names",
@@ -435,6 +441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Annotated",
           "name": "annotate",
           "package": "haskell-names",
@@ -444,6 +451,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Annotated",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Annotated",
           "name": "annotate",
           "normalized": "Scope-\u003ea b-\u003ea(Scoped b)",
@@ -458,6 +466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Exports",
           "name": "Exports",
           "package": "haskell-names",
@@ -466,6 +475,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Exports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Exports",
           "name": "Exports",
           "package": "haskell-names",
@@ -479,6 +489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Exports",
           "name": "processExports",
           "package": "haskell-names",
@@ -488,6 +499,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Exports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Exports",
           "name": "processExports",
           "normalized": "Table-\u003eModule a-\u003eb(Maybe(ExportSpecList(Scoped a)),Symbols)",
@@ -503,6 +515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Exports",
           "name": "resolveExportSpec",
           "package": "haskell-names",
@@ -512,6 +525,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Exports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Exports",
           "name": "resolveExportSpec",
           "normalized": "Table-\u003eExportSpec a-\u003eb(ExportSpec(Scoped a),Symbols)",
@@ -527,6 +541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Exports",
           "name": "resolveExportSpecList",
           "package": "haskell-names",
@@ -536,6 +551,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Exports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Exports",
           "name": "resolveExportSpecList",
           "normalized": "Table-\u003eExportSpecList a-\u003eb(ExportSpecList(Scoped a),Symbols)",
@@ -551,6 +567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GetBound",
           "name": "GetBound",
           "package": "haskell-names",
@@ -559,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GetBound",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GetBound",
           "name": "GetBound",
           "package": "haskell-names",
@@ -573,6 +591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet bound value identifiers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GetBound",
           "name": "GetBound",
           "package": "haskell-names",
@@ -582,6 +601,7 @@
         "index": {
           "description": "Get bound value identifiers",
           "hierarchy": "Language Haskell Names GetBound",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GetBound",
           "name": "GetBound",
           "package": "haskell-names",
@@ -596,6 +616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFor record wildcards we need to know which fields the given\n constructor has. So we pass the global table for that.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GetBound",
           "name": "getBound",
           "package": "haskell-names",
@@ -606,6 +627,7 @@
         "index": {
           "description": "For record wildcards we need to know which fields the given constructor has So we pass the global table for that",
           "hierarchy": "Language Haskell Names GetBound",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GetBound",
           "name": "getBound",
           "normalized": "Table-\u003ea-\u003e[Name b]",
@@ -622,6 +644,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is designed to be imported qualified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "GlobalSymbolTable",
           "package": "haskell-names",
@@ -631,6 +654,7 @@
         "index": {
           "description": "This module is designed to be imported qualified",
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "GlobalSymbolTable",
           "package": "haskell-names",
@@ -644,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Result",
           "package": "haskell-names",
@@ -652,6 +677,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Result",
           "package": "haskell-names",
@@ -666,6 +692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlobal symbol table &#8212; contains global names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Table",
           "package": "haskell-names",
@@ -675,6 +702,7 @@
         "index": {
           "description": "Global symbol table contains global names",
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Table",
           "package": "haskell-names",
@@ -688,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Error",
           "package": "haskell-names",
@@ -697,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Error",
           "package": "haskell-names",
@@ -710,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Result",
           "package": "haskell-names",
@@ -719,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Result",
           "package": "haskell-names",
@@ -732,6 +764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Special",
           "package": "haskell-names",
@@ -741,6 +774,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "Special",
           "package": "haskell-names",
@@ -754,6 +788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "addType",
           "package": "haskell-names",
@@ -763,6 +798,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "addType",
           "normalized": "QName a-\u003eSymTypeInfo OrigName-\u003eTable-\u003eTable",
@@ -778,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "addValue",
           "package": "haskell-names",
@@ -787,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "addValue",
           "normalized": "QName a-\u003eSymValueInfo OrigName-\u003eTable-\u003eTable",
@@ -802,6 +840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "empty",
           "package": "haskell-names",
@@ -811,6 +850,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "empty",
           "package": "haskell-names",
@@ -823,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "fromLists",
           "package": "haskell-names",
@@ -832,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "fromLists",
           "normalized": "([(GName,SymValueInfo OrigName)],[(GName,SymTypeInfo OrigName)])-\u003eTable",
@@ -847,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "fromMaps",
           "package": "haskell-names",
@@ -856,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "fromMaps",
           "normalized": "Map GName(Set(SymValueInfo OrigName))-\u003eMap GName(Set(SymTypeInfo OrigName))-\u003eTable",
@@ -871,6 +915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "lookupType",
           "package": "haskell-names",
@@ -880,6 +925,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "lookupType",
           "normalized": "QName a-\u003eTable-\u003eResult a(SymTypeInfo OrigName)",
@@ -895,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "lookupValue",
           "package": "haskell-names",
@@ -904,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "lookupValue",
           "normalized": "QName a-\u003eTable-\u003eResult a(SymValueInfo OrigName)",
@@ -919,6 +967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "toSymbols",
           "package": "haskell-names",
@@ -928,6 +977,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "toSymbols",
           "normalized": "Table-\u003eSymbols",
@@ -943,6 +993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "types",
           "package": "haskell-names",
@@ -952,6 +1003,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "types",
           "normalized": "Table-\u003eMap GName(Set(SymTypeInfo OrigName))",
@@ -966,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "values",
           "package": "haskell-names",
@@ -975,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names GlobalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.GlobalSymbolTable",
           "name": "values",
           "normalized": "Table-\u003eMap GName(Set(SymValueInfo OrigName))",
@@ -989,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Imports",
           "name": "Imports",
           "package": "haskell-names",
@@ -997,6 +1052,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Imports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Imports",
           "name": "Imports",
           "package": "haskell-names",
@@ -1010,6 +1066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Imports",
           "name": "processImport",
           "package": "haskell-names",
@@ -1019,6 +1076,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Imports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Imports",
           "name": "processImport",
           "normalized": "ImportDecl a-\u003eb(ImportDecl(Scoped a),Table)",
@@ -1034,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Imports",
           "name": "processImports",
           "package": "haskell-names",
@@ -1043,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Imports",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Imports",
           "name": "processImports",
           "normalized": "ExtensionSet-\u003e[ImportDecl a]-\u003eb([ImportDecl(Scoped a)],Table)",
@@ -1059,6 +1119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReading \u003ccode\u003e\u003ca\u003eSymbols\u003c/a\u003e\u003c/code\u003e from and writing to interface files\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "Interfaces",
           "package": "haskell-names",
@@ -1068,6 +1129,7 @@
         "index": {
           "description": "Reading Symbols from and writing to interface files",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "Interfaces",
           "package": "haskell-names",
@@ -1081,6 +1143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "IfaceException",
           "package": "haskell-names",
@@ -1089,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "IfaceException",
           "package": "haskell-names",
@@ -1103,6 +1167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe database used by \u003ccode\u003ehs-gen-iface\u003c/code\u003e. Use it together with\n functions from \u003ca\u003eDistribution.HaskellSuite.Packages\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "NamesDB",
           "package": "haskell-names",
@@ -1112,6 +1177,7 @@
         "index": {
           "description": "The database used by hs-gen-iface Use it together with functions from Distribution.HaskellSuite.Packages",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "NamesDB",
           "package": "haskell-names",
@@ -1126,6 +1192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface could not be parsed. This tells you the file name of the\n interface file and the parse error text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "BadInterface",
           "package": "haskell-names",
@@ -1136,6 +1203,7 @@
         "index": {
           "description": "Interface could not be parsed This tells you the file name of the interface file and the parse error text",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "BadInterface",
           "package": "haskell-names",
@@ -1149,6 +1217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "NamesDB",
           "package": "haskell-names",
@@ -1158,6 +1227,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "NamesDB",
           "package": "haskell-names",
@@ -1172,6 +1242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003eevalModuleT\u003c/a\u003e\u003c/code\u003e that works with name files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "evalNamesModuleT",
           "package": "haskell-names",
@@ -1182,6 +1253,7 @@
         "index": {
           "description": "Specialized version of evalModuleT that works with name files",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "evalNamesModuleT",
           "normalized": "ModuleT Symbols IO a-\u003ePackages-\u003eIO a",
@@ -1198,6 +1270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRead an interface file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "readInterface",
           "package": "haskell-names",
@@ -1208,6 +1281,7 @@
         "index": {
           "description": "Read an interface file",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "readInterface",
           "normalized": "FilePath-\u003eIO Symbols",
@@ -1224,6 +1298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecialized version of \u003ccode\u003e\u003ca\u003erunModuleT\u003c/a\u003e\u003c/code\u003e that works with name files\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "runNamesModuleT",
           "package": "haskell-names",
@@ -1234,6 +1309,7 @@
         "index": {
           "description": "Specialized version of runModuleT that works with name files",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "runNamesModuleT",
           "normalized": "ModuleT Symbols IO a-\u003ePackages-\u003eMap ModuleName Symbols-\u003eIO(a,Map ModuleName Symbols)",
@@ -1250,6 +1326,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWrite an interface file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "writeInterface",
           "package": "haskell-names",
@@ -1260,6 +1337,7 @@
         "index": {
           "description": "Write an interface file",
           "hierarchy": "Language Haskell Names Interfaces",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Interfaces",
           "name": "writeInterface",
           "normalized": "FilePath-\u003eSymbols-\u003eIO()",
@@ -1276,6 +1354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is designed to be imported qualified.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "LocalSymbolTable",
           "package": "haskell-names",
@@ -1285,6 +1364,7 @@
         "index": {
           "description": "This module is designed to be imported qualified",
           "hierarchy": "Language Haskell Names LocalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "LocalSymbolTable",
           "package": "haskell-names",
@@ -1299,6 +1379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLocal symbol table &#8212; contains locally bound names\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "Table",
           "package": "haskell-names",
@@ -1308,6 +1389,7 @@
         "index": {
           "description": "Local symbol table contains locally bound names",
           "hierarchy": "Language Haskell Names LocalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "Table",
           "package": "haskell-names",
@@ -1321,6 +1403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "addValue",
           "package": "haskell-names",
@@ -1330,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names LocalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "addValue",
           "normalized": "Name a-\u003eTable-\u003eTable",
@@ -1345,6 +1429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "empty",
           "package": "haskell-names",
@@ -1354,6 +1439,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names LocalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "empty",
           "package": "haskell-names",
@@ -1366,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "lookupValue",
           "package": "haskell-names",
@@ -1375,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names LocalSymbolTable",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.LocalSymbolTable",
           "name": "lookupValue",
           "normalized": "QName a-\u003eTable-\u003eEither(Error a)SrcLoc",
@@ -1390,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "ModuleSymbols",
           "package": "haskell-names",
@@ -1398,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names ModuleSymbols",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "ModuleSymbols",
           "package": "haskell-names",
@@ -1412,6 +1502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the symbols that are defined in the given module.\n\u003c/p\u003e\u003cp\u003eThe import table is needed to resolve possible top-level record\n wildcard bindings, such as\n\u003c/p\u003e\u003cpre\u003eA {..} = foo\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "moduleSymbols",
           "package": "haskell-names",
@@ -1421,6 +1512,7 @@
         "index": {
           "description": "Compute the symbols that are defined in the given module The import table is needed to resolve possible top-level record wildcard bindings such as foo",
           "hierarchy": "Language Haskell Names ModuleSymbols",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "moduleSymbols",
           "normalized": "Table-\u003eModule a-\u003eSymbols",
@@ -1437,6 +1529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute module's global table. It contains both the imported entities\n and the global entities defined in this module.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "moduleTable",
           "package": "haskell-names",
@@ -1446,6 +1539,7 @@
         "index": {
           "description": "Compute module global table It contains both the imported entities and the global entities defined in this module",
           "hierarchy": "Language Haskell Names ModuleSymbols",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.ModuleSymbols",
           "name": "moduleTable",
           "normalized": "Table-\u003eModule a-\u003eTable",
@@ -1461,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Open",
           "package": "haskell-names",
@@ -1469,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Open",
           "package": "haskell-names",
@@ -1483,6 +1579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe algebra for \u003ccode\u003e\u003ca\u003ertraverse\u003c/a\u003e\u003c/code\u003e. It's newtype-wrapped because an implicit\n parameter cannot be polymorphic.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Alg",
           "package": "haskell-names",
@@ -1492,6 +1589,7 @@
         "index": {
           "description": "The algebra for rtraverse It newtype-wrapped because an implicit parameter cannot be polymorphic",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Alg",
           "package": "haskell-names",
@@ -1506,6 +1604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDescribes how we should treat names in the current context\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "NameContext",
           "package": "haskell-names",
@@ -1515,6 +1614,7 @@
         "index": {
           "description": "Describes how we should treat names in the current context",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "NameContext",
           "package": "haskell-names",
@@ -1529,6 +1629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA type that implements \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e provides a way to perform\n a shallow scope-aware traversal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Resolvable",
           "package": "haskell-names",
@@ -1538,6 +1639,7 @@
         "index": {
           "description": "type that implements Resolvable provides way to perform shallow scope-aware traversal",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Resolvable",
           "package": "haskell-names",
@@ -1552,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eContains information about the node's enclosing scope. Can be\n accessed through the lenses: \u003ccode\u003e\u003ca\u003egTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003elTable\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003enameCtx\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003ewcNames\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Scope",
           "package": "haskell-names",
@@ -1561,6 +1664,7 @@
         "index": {
           "description": "Contains information about the node enclosing scope Can be accessed through the lenses gTable lTable nameCtx wcNames",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Scope",
           "package": "haskell-names",
@@ -1575,6 +1679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a field in the wildcard\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "WcField",
           "package": "haskell-names",
@@ -1584,6 +1689,7 @@
         "index": {
           "description": "Information about field in the wildcard",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "WcField",
           "package": "haskell-names",
@@ -1598,6 +1704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the names being introduced by a record wildcard\n\u003c/p\u003e\u003cp\u003eDuring resolving traversal, we always (lazily) construct this list when\n we process PRec or RecConstr, even if it doesn't contain a wildcard.\n\u003c/p\u003e\u003cp\u003eThen, if the pattern or construction actually contains a wildcard, we use the computed value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "WcNames",
           "package": "haskell-names",
@@ -1607,6 +1714,7 @@
         "index": {
           "description": "Information about the names being introduced by record wildcard During resolving traversal we always lazily construct this list when we process PRec or RecConstr even if it doesn contain wildcard Then if the pattern or construction actually contains wildcard we use the computed value",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "WcNames",
           "package": "haskell-names",
@@ -1620,6 +1728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Alg",
           "package": "haskell-names",
@@ -1629,6 +1738,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Alg",
           "package": "haskell-names",
@@ -1642,6 +1752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "BindingT",
           "package": "haskell-names",
@@ -1651,6 +1762,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "BindingT",
           "package": "haskell-names",
@@ -1664,6 +1776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "BindingV",
           "package": "haskell-names",
@@ -1673,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "BindingV",
           "package": "haskell-names",
@@ -1686,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "Other",
           "package": "haskell-names",
@@ -1695,6 +1810,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "Other",
           "package": "haskell-names",
@@ -1708,6 +1824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "ReferenceT",
           "package": "haskell-names",
@@ -1717,6 +1834,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "ReferenceT",
           "package": "haskell-names",
@@ -1730,6 +1848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "ReferenceV",
           "package": "haskell-names",
@@ -1739,6 +1858,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "ReferenceV",
           "package": "haskell-names",
@@ -1752,6 +1872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "WcField",
           "package": "haskell-names",
@@ -1761,6 +1882,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "WcField",
           "package": "haskell-names",
@@ -1774,6 +1896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "gTable",
           "package": "haskell-names",
@@ -1783,6 +1906,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "gTable",
           "package": "haskell-names",
@@ -1797,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an initial scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "initialScope",
           "package": "haskell-names",
@@ -1807,6 +1932,7 @@
         "index": {
           "description": "Create an initial scope",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "initialScope",
           "normalized": "Table-\u003eScope",
@@ -1822,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "lTable",
           "package": "haskell-names",
@@ -1831,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "lTable",
           "package": "haskell-names",
@@ -1844,6 +1972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "nameCtx",
           "package": "haskell-names",
@@ -1853,6 +1982,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "nameCtx",
           "package": "haskell-names",
@@ -1867,6 +1997,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003egmap\u003c/a\u003e\u003c/code\u003e, but for \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "rfoldMap",
           "package": "haskell-names",
@@ -1877,6 +2008,7 @@
         "index": {
           "description": "Analogous to gmap but for Resolvable",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "rfoldMap",
           "normalized": "Scope-\u003ea-\u003eb)-\u003eScope-\u003ec-\u003eb",
@@ -1893,6 +2025,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to \u003ccode\u003e\u003ca\u003egmap\u003c/a\u003e\u003c/code\u003e, but for \u003ccode\u003e\u003ca\u003eResolvable\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "rmap",
           "package": "haskell-names",
@@ -1903,6 +2036,7 @@
         "index": {
           "description": "Analogous to gmap but for Resolvable",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "rmap",
           "normalized": "Scope-\u003ea-\u003ea)-\u003eScope-\u003eb-\u003eb",
@@ -1917,6 +2051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "rtraverse",
           "package": "haskell-names",
@@ -1926,6 +2061,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "rtraverse",
           "normalized": "a-\u003eScope-\u003eb a",
@@ -1940,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "runAlg",
           "package": "haskell-names",
@@ -1949,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "runAlg",
           "normalized": "a-\u003eScope-\u003eb a",
@@ -1965,6 +2103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhether there is a global value in scope with the same name as\n the field but different from the field selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "wcExistsGlobalValue",
           "package": "haskell-names",
@@ -1975,6 +2114,7 @@
         "index": {
           "description": "whether there is global value in scope with the same name as the field but different from the field selector",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "wcExistsGlobalValue",
           "package": "haskell-names",
@@ -1989,6 +2129,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe field's simple name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "wcFieldName",
           "package": "haskell-names",
@@ -1999,6 +2140,7 @@
         "index": {
           "description": "the field simple name",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "wcFieldName",
           "normalized": "Name()",
@@ -2015,6 +2157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe field's original name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "wcFieldOrigName",
           "package": "haskell-names",
@@ -2025,6 +2168,7 @@
         "index": {
           "description": "the field original name",
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "wcFieldOrigName",
           "package": "haskell-names",
@@ -2038,6 +2182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.Open",
           "name": "wcNames",
           "package": "haskell-names",
@@ -2047,6 +2192,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names Open",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.Open",
           "name": "wcNames",
           "package": "haskell-names",
@@ -2060,6 +2206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "SyntaxUtils",
           "package": "haskell-names",
@@ -2068,6 +2215,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "SyntaxUtils",
           "package": "haskell-names",
@@ -2081,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "ExtensionSet",
           "package": "haskell-names",
@@ -2089,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "ExtensionSet",
           "package": "haskell-names",
@@ -2102,6 +2252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "dropAnn",
           "package": "haskell-names",
@@ -2111,6 +2262,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "dropAnn",
           "normalized": "a b-\u003ea()",
@@ -2126,6 +2278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getDeclHead",
           "package": "haskell-names",
@@ -2135,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getDeclHead",
           "normalized": "Decl a-\u003eMaybe(DeclHead a)",
@@ -2150,6 +2304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getDeclHeadName",
           "package": "haskell-names",
@@ -2159,6 +2314,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getDeclHeadName",
           "normalized": "Decl a-\u003eName a",
@@ -2174,6 +2330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getErrors",
           "package": "haskell-names",
@@ -2183,6 +2340,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getErrors",
           "normalized": "a(Scoped b)-\u003eSet(Error b)",
@@ -2198,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getExportSpecList",
           "package": "haskell-names",
@@ -2207,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getExportSpecList",
           "normalized": "Module a-\u003eMaybe(ExportSpecList a)",
@@ -2222,6 +2382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getImports",
           "package": "haskell-names",
@@ -2231,6 +2392,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getImports",
           "normalized": "Module a-\u003e[ImportDecl a]",
@@ -2246,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getModuleDecls",
           "package": "haskell-names",
@@ -2255,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getModuleDecls",
           "normalized": "Module a-\u003e[Decl a]",
@@ -2270,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getModuleName",
           "package": "haskell-names",
@@ -2279,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "getModuleName",
           "normalized": "Module a-\u003eModuleName a",
@@ -2294,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "isCon",
           "package": "haskell-names",
@@ -2303,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "isCon",
           "normalized": "Name a-\u003eBool",
@@ -2318,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "isTypeDecl",
           "package": "haskell-names",
@@ -2327,6 +2496,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "isTypeDecl",
           "normalized": "Decl a-\u003eBool",
@@ -2343,6 +2513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the extension set for the given module, based on the global\n preferences (e.g. specified on the command line) and module's LANGUAGE\n pragmas.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "moduleExtensions",
           "package": "haskell-names",
@@ -2352,6 +2523,7 @@
         "index": {
           "description": "Compute the extension set for the given module based on the global preferences e.g specified on the command line and module LANGUAGE pragmas",
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "moduleExtensions",
           "normalized": "Language-\u003e[Extension]-\u003eModule a-\u003eExtensionSet",
@@ -2367,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "nameToString",
           "package": "haskell-names",
@@ -2376,6 +2549,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "nameToString",
           "normalized": "Name a-\u003eString",
@@ -2391,6 +2565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "opName",
           "package": "haskell-names",
@@ -2400,6 +2575,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "opName",
           "normalized": "Op a-\u003eName a",
@@ -2415,6 +2591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "qNameToName",
           "package": "haskell-names",
@@ -2424,6 +2601,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "qNameToName",
           "normalized": "QName a-\u003eName a",
@@ -2439,6 +2617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "setAnn",
           "package": "haskell-names",
@@ -2448,6 +2627,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "setAnn",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -2463,6 +2643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "specialConToString",
           "package": "haskell-names",
@@ -2472,6 +2653,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "specialConToString",
           "normalized": "SpecialCon a-\u003eString",
@@ -2487,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "splitDeclHead",
           "package": "haskell-names",
@@ -2496,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "splitDeclHead",
           "normalized": "DeclHead a-\u003e(Name a,[TyVarBind a])",
@@ -2511,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "stringToName",
           "package": "haskell-names",
@@ -2520,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "stringToName",
           "normalized": "String-\u003eName()",
@@ -2535,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "unCName",
           "package": "haskell-names",
@@ -2544,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names SyntaxUtils",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names.SyntaxUtils",
           "name": "unCName",
           "normalized": "CName a-\u003eName a",
@@ -2559,6 +2747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "Names",
           "package": "haskell-names",
@@ -2567,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "Names",
           "package": "haskell-names",
@@ -2580,6 +2770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "Error",
           "package": "haskell-names",
@@ -2588,6 +2779,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "Error",
           "package": "haskell-names",
@@ -2602,6 +2794,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossibly qualified name. If the name is not qualified,\n \u003ccode\u003e\u003ca\u003eModuleNameS\u003c/a\u003e\u003c/code\u003e is the empty string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "GName",
           "package": "haskell-names",
@@ -2611,6 +2804,7 @@
         "index": {
           "description": "Possibly qualified name If the name is not qualified ModuleNameS is the empty string",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "GName",
           "package": "haskell-names",
@@ -2624,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "HasOrigName",
           "package": "haskell-names",
@@ -2632,6 +2827,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "HasOrigName",
           "package": "haskell-names",
@@ -2646,6 +2842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString representing a module name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ModuleNameS",
           "package": "haskell-names",
@@ -2655,6 +2852,7 @@
         "index": {
           "description": "String representing module name",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ModuleNameS",
           "package": "haskell-names",
@@ -2668,6 +2866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "NameInfo",
           "package": "haskell-names",
@@ -2676,6 +2875,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "NameInfo",
           "package": "haskell-names",
@@ -2690,6 +2890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eString representing an unqualified entity name\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "NameS",
           "package": "haskell-names",
@@ -2699,6 +2900,7 @@
         "index": {
           "description": "String representing an unqualified entity name",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "NameS",
           "package": "haskell-names",
@@ -2713,6 +2915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQualified name, where \u003ccode\u003e\u003ca\u003eModuleNameS\u003c/a\u003e\u003c/code\u003e points to the module where the\n name was originally defined. The module part is never empty.\n\u003c/p\u003e\u003cp\u003eAlso contains name and version of the package where it was defined. If\n it's \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, then the entity is defined in the \"current\" package.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "OrigName",
           "package": "haskell-names",
@@ -2722,6 +2925,7 @@
         "index": {
           "description": "Qualified name where ModuleNameS points to the module where the name was originally defined The module part is never empty Also contains name and version of the package where it was defined If it Nothing then the entity is defined in the current package",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "OrigName",
           "package": "haskell-names",
@@ -2736,6 +2940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA pair of the name information and original annotation. Used as an\n annotation type for AST.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "Scoped",
           "package": "haskell-names",
@@ -2745,6 +2950,7 @@
         "index": {
           "description": "pair of the name information and original annotation Used as an annotation type for AST",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "Scoped",
           "package": "haskell-names",
@@ -2759,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepesents the symbol's fixity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymFixity",
           "package": "haskell-names",
@@ -2768,6 +2975,7 @@
         "index": {
           "description": "Repesents the symbol fixity",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymFixity",
           "package": "haskell-names",
@@ -2782,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a type-level entitity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymTypeInfo",
           "package": "haskell-names",
@@ -2791,6 +3000,7 @@
         "index": {
           "description": "Information about type-level entitity",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymTypeInfo",
           "package": "haskell-names",
@@ -2805,6 +3015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a value-level entitity\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymValueInfo",
           "package": "haskell-names",
@@ -2814,6 +3025,7 @@
         "index": {
           "description": "Information about value-level entitity",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymValueInfo",
           "package": "haskell-names",
@@ -2828,6 +3040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe set of symbols (entities) exported by a single module. Contains\n the sets of value-level and type-level entities.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "Symbols",
           "package": "haskell-names",
@@ -2837,6 +3050,7 @@
         "index": {
           "description": "The set of symbols entities exported by single module Contains the sets of value-level and type-level entities",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "Symbols",
           "package": "haskell-names",
@@ -2851,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename is ambiguous\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "EAmbiguous",
           "package": "haskell-names",
@@ -2861,6 +3076,7 @@
         "index": {
           "description": "name is ambiguous",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "EAmbiguous",
           "normalized": "EAmbiguous(QName a)[OrigName]",
@@ -2877,6 +3093,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype class is used where a type is expected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "EClassAsType",
           "package": "haskell-names",
@@ -2887,6 +3104,7 @@
         "index": {
           "description": "type class is used where type is expected",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "EClassAsType",
           "package": "haskell-names",
@@ -2901,6 +3119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einternal error\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "EInternal",
           "package": "haskell-names",
@@ -2911,6 +3130,7 @@
         "index": {
           "description": "internal error",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "EInternal",
           "package": "haskell-names",
@@ -2925,6 +3145,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emodule not found\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "EModNotFound",
           "package": "haskell-names",
@@ -2935,6 +3156,7 @@
         "index": {
           "description": "module not found",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "EModNotFound",
           "package": "haskell-names",
@@ -2949,6 +3171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempt to explicitly import a name which is not exported (or,\n possibly, does not even exist). For example:\n\u003c/p\u003e\u003cpre\u003eimport Prelude(Bool(Right))\n\u003c/pre\u003e\u003cp\u003eThe fields are:\n\u003c/p\u003e\u003col\u003e\u003cli\u003e optional parent in the import list, e.g. \u003ccode\u003eBool\u003c/code\u003e in \u003ccode\u003eBool(Right)\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e the name which is not exported\n\u003c/li\u003e\u003cli\u003e the module which does not export the name\n\u003c/li\u003e\u003c/ol\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ENotExported",
           "package": "haskell-names",
@@ -2959,6 +3182,7 @@
         "index": {
           "description": "Attempt to explicitly import name which is not exported or possibly does not even exist For example import Prelude Bool Right The fields are optional parent in the import list e.g Bool in Bool Right the name which is not exported the module which does not export the name",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ENotExported",
           "package": "haskell-names",
@@ -2973,6 +3197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ename is not in scope\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ENotInScope",
           "package": "haskell-names",
@@ -2983,6 +3208,7 @@
         "index": {
           "description": "name is not in scope",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ENotInScope",
           "package": "haskell-names",
@@ -2997,6 +3223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype is used where a type class is expected\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ETypeAsClass",
           "package": "haskell-names",
@@ -3007,6 +3234,7 @@
         "index": {
           "description": "type is used where type class is expected",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ETypeAsClass",
           "package": "haskell-names",
@@ -3020,6 +3248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "GName",
           "package": "haskell-names",
@@ -3029,6 +3258,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "GName",
           "package": "haskell-names",
@@ -3042,6 +3272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "OrigName",
           "package": "haskell-names",
@@ -3051,6 +3282,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "OrigName",
           "package": "haskell-names",
@@ -3065,6 +3297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype class\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymClass",
           "package": "haskell-names",
@@ -3075,6 +3308,7 @@
         "index": {
           "description": "type class",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymClass",
           "package": "haskell-names",
@@ -3089,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymConstructor",
           "package": "haskell-names",
@@ -3099,6 +3334,7 @@
         "index": {
           "description": "data constructor",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymConstructor",
           "package": "haskell-names",
@@ -3113,6 +3349,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymData",
           "package": "haskell-names",
@@ -3123,6 +3360,7 @@
         "index": {
           "description": "data type",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymData",
           "package": "haskell-names",
@@ -3137,6 +3375,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edata family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymDataFam",
           "package": "haskell-names",
@@ -3147,6 +3386,7 @@
         "index": {
           "description": "data family",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymDataFam",
           "package": "haskell-names",
@@ -3161,6 +3401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eclass method\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymMethod",
           "package": "haskell-names",
@@ -3171,6 +3412,7 @@
         "index": {
           "description": "class method",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymMethod",
           "package": "haskell-names",
@@ -3185,6 +3427,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enewtype\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymNewType",
           "package": "haskell-names",
@@ -3195,6 +3438,7 @@
         "index": {
           "description": "newtype",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymNewType",
           "package": "haskell-names",
@@ -3209,6 +3453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erecord field selector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymSelector",
           "package": "haskell-names",
@@ -3219,6 +3464,7 @@
         "index": {
           "description": "record field selector",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymSelector",
           "package": "haskell-names",
@@ -3233,6 +3479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype synonym\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymType",
           "package": "haskell-names",
@@ -3243,6 +3490,7 @@
         "index": {
           "description": "type synonym",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymType",
           "package": "haskell-names",
@@ -3257,6 +3505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype family\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymTypeFam",
           "package": "haskell-names",
@@ -3267,6 +3516,7 @@
         "index": {
           "description": "type family",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymTypeFam",
           "package": "haskell-names",
@@ -3281,6 +3531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue or function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "SymValue",
           "package": "haskell-names",
@@ -3291,6 +3542,7 @@
         "index": {
           "description": "value or function",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "SymValue",
           "package": "haskell-names",
@@ -3304,6 +3556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "Symbols",
           "package": "haskell-names",
@@ -3313,6 +3566,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "Symbols",
           "package": "haskell-names",
@@ -3327,6 +3581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate a module with scoping information. This assumes that all\n module dependencies have been resolved and cached &#8212; usually you need\n to run \u003ccode\u003e\u003ca\u003ecomputeInterfaces\u003c/a\u003e\u003c/code\u003e first, unless you have one module in\n isolation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "annotateModule",
           "package": "haskell-names",
@@ -3336,6 +3591,7 @@
         "index": {
           "description": "Annotate module with scoping information This assumes that all module dependencies have been resolved and cached usually you need to run computeInterfaces first unless you have one module in isolation",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "annotateModule",
           "normalized": "Language-\u003e[Extension]-\u003eModule a-\u003eb(Module(Scoped a))",
@@ -3352,6 +3608,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003ecomputeInterfaces\u003c/a\u003e\u003c/code\u003e takes a list of possibly recursive modules and\n computes the interface of each module. The computed interfaces are\n written into the \u003ccode\u003em\u003c/code\u003e's cache and are available to further computations\n in this monad.\n\u003c/p\u003e\u003cp\u003eReturns the set of import/export errors. Note that the interfaces are\n registered in the cache regardless of whether there are any errors, but\n if there are errors, the interfaces may be incomplete.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "computeInterfaces",
           "package": "haskell-names",
@@ -3361,6 +3618,7 @@
         "index": {
           "description": "computeInterfaces takes list of possibly recursive modules and computes the interface of each module The computed interfaces are written into the cache and are available to further computations in this monad Returns the set of import export errors Note that the interfaces are registered in the cache regardless of whether there are any errors but if there are errors the interfaces may be incomplete",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "computeInterfaces",
           "normalized": "Language-\u003e[Extension]-\u003e[Module a]-\u003eb(Set(Error a))",
@@ -3376,6 +3634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "gModule",
           "package": "haskell-names",
@@ -3385,6 +3644,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "gModule",
           "package": "haskell-names",
@@ -3398,6 +3658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "gName",
           "package": "haskell-names",
@@ -3407,6 +3668,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "gName",
           "package": "haskell-names",
@@ -3421,6 +3683,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ecomputeInterfaces\u003c/a\u003e\u003c/code\u003e, but also returns a list of interfaces, one\n per module and in the same order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "getInterfaces",
           "package": "haskell-names",
@@ -3430,6 +3693,7 @@
         "index": {
           "description": "Like computeInterfaces but also returns list of interfaces one per module and in the same order",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "getInterfaces",
           "normalized": "Language-\u003e[Extension]-\u003e[Module a]-\u003eb([Symbols],Set(Error a))",
@@ -3445,6 +3709,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "origGName",
           "package": "haskell-names",
@@ -3454,6 +3719,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "origGName",
           "package": "haskell-names",
@@ -3467,6 +3733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "origName",
           "package": "haskell-names",
@@ -3476,6 +3743,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "origName",
           "normalized": "a b-\u003eb",
@@ -3491,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "origPackage",
           "package": "haskell-names",
@@ -3500,6 +3769,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "origPackage",
           "package": "haskell-names",
@@ -3514,6 +3784,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an error.\n\u003c/p\u003e\u003cp\u003eNote: can span multiple lines; the trailing newline is included.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ppError",
           "package": "haskell-names",
@@ -3524,6 +3795,7 @@
         "index": {
           "description": "Display an error Note can span multiple lines the trailing newline is included",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ppError",
           "normalized": "Error a-\u003eString",
@@ -3540,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay a \u003ccode\u003e\u003ca\u003eGName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ppGName",
           "package": "haskell-names",
@@ -3550,6 +3823,7 @@
         "index": {
           "description": "Display GName",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ppGName",
           "normalized": "GName-\u003eString",
@@ -3566,6 +3840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisplay an \u003ccode\u003e\u003ca\u003eOrigName\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "ppOrigName",
           "package": "haskell-names",
@@ -3576,6 +3851,7 @@
         "index": {
           "description": "Display an OrigName",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "ppOrigName",
           "normalized": "OrigName-\u003eString",
@@ -3592,6 +3868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnnotate all local symbols with the package name and version\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "qualifySymbols",
           "package": "haskell-names",
@@ -3602,6 +3879,7 @@
         "index": {
           "description": "Annotate all local symbols with the package name and version",
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "qualifySymbols",
           "normalized": "PackageId-\u003eSymbols-\u003eSymbols",
@@ -3617,6 +3895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "st_fixity",
           "package": "haskell-names",
@@ -3626,6 +3905,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "st_fixity",
           "package": "haskell-names",
@@ -3638,6 +3918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "st_origName",
           "package": "haskell-names",
@@ -3647,6 +3928,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "st_origName",
           "package": "haskell-names",
@@ -3660,6 +3942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "sv_className",
           "package": "haskell-names",
@@ -3669,6 +3952,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "sv_className",
           "package": "haskell-names",
@@ -3682,6 +3966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "sv_constructors",
           "package": "haskell-names",
@@ -3691,6 +3976,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "sv_constructors",
           "normalized": "[a]",
@@ -3705,6 +3991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "sv_fixity",
           "package": "haskell-names",
@@ -3714,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "sv_fixity",
           "package": "haskell-names",
@@ -3726,6 +4014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "sv_origName",
           "package": "haskell-names",
@@ -3735,6 +4024,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "sv_origName",
           "package": "haskell-names",
@@ -3748,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:31:02 UTC 2014",
           "module": "Language.Haskell.Names",
           "name": "sv_typeName",
           "package": "haskell-names",
@@ -3757,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Language Haskell Names",
+          "indexed": "2014-03-11T18:31:02",
           "module": "Language.Haskell.Names",
           "name": "sv_typeName",
           "package": "haskell-names",

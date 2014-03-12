@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "dvi-processing"
+        "phrase": "dvi-processing",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "Alignment",
           "package": "dvi-processing",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "Alignment",
           "package": "dvi-processing",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "DataNode",
           "package": "dvi-processing",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "DataNode",
           "package": "dvi-processing",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "NoAlignNode",
           "package": "dvi-processing",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "NoAlignNode",
           "package": "dvi-processing",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "UnsetBoxNode",
           "package": "dvi-processing",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "UnsetBoxNode",
           "package": "dvi-processing",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "DataNode",
           "package": "dvi-processing",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "DataNode",
           "normalized": "DataNode Int(Dimen-\u003eGlue)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "NoAlignNode",
           "package": "dvi-processing",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "NoAlignNode",
           "package": "dvi-processing",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "UnsetBoxNode",
           "package": "dvi-processing",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "UnsetBoxNode",
           "normalized": "UnsetBoxNode(Dimen-\u003eDimen)[Node]",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "hAlign",
           "package": "dvi-processing",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "hAlign",
           "normalized": "Dimen-\u003e[Node]-\u003e[[[Node]]]-\u003e[Node]",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI.Alignment",
           "name": "vAlign",
           "package": "dvi-processing",
@@ -205,6 +222,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI Alignment",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI.Alignment",
           "name": "vAlign",
           "normalized": "Bool-\u003eDimen-\u003e[Node]-\u003e[[[Node]]]-\u003e[Node]",
@@ -220,6 +238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "DVI",
           "package": "dvi-processing",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "DVI",
           "package": "dvi-processing",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "BoxDirection",
           "package": "dvi-processing",
@@ -249,6 +270,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "BoxDirection",
           "package": "dvi-processing",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "BoxNode",
           "package": "dvi-processing",
@@ -270,6 +293,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "BoxNode",
           "package": "dvi-processing",
@@ -283,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Coordinates",
           "package": "dvi-processing",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Coordinates",
           "package": "dvi-processing",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "CustomStringFn",
           "package": "dvi-processing",
@@ -312,6 +339,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "CustomStringFn",
           "package": "dvi-processing",
@@ -325,6 +353,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Dimen",
           "package": "dvi-processing",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Dimen",
           "package": "dvi-processing",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "DocStat",
           "package": "dvi-processing",
@@ -354,6 +385,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "DocStat",
           "package": "dvi-processing",
@@ -367,6 +399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Extensible",
           "package": "dvi-processing",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Extensible",
           "package": "dvi-processing",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Font",
           "package": "dvi-processing",
@@ -396,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Font",
           "package": "dvi-processing",
@@ -409,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "FontChar",
           "package": "dvi-processing",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "FontChar",
           "package": "dvi-processing",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "FontMag",
           "package": "dvi-processing",
@@ -438,6 +477,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "FontMag",
           "package": "dvi-processing",
@@ -451,6 +491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Glue",
           "package": "dvi-processing",
@@ -459,6 +500,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Glue",
           "package": "dvi-processing",
@@ -472,6 +514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueNode",
           "package": "dvi-processing",
@@ -480,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueNode",
           "package": "dvi-processing",
@@ -493,6 +537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueRank",
           "package": "dvi-processing",
@@ -501,6 +546,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueRank",
           "package": "dvi-processing",
@@ -514,6 +560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueSS",
           "package": "dvi-processing",
@@ -522,6 +569,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueSS",
           "package": "dvi-processing",
@@ -535,6 +583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueSet",
           "package": "dvi-processing",
@@ -543,6 +592,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueSet",
           "package": "dvi-processing",
@@ -556,6 +606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueSign",
           "package": "dvi-processing",
@@ -564,6 +615,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueSign",
           "package": "dvi-processing",
@@ -577,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "KernNode",
           "package": "dvi-processing",
@@ -585,6 +638,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "KernNode",
           "package": "dvi-processing",
@@ -598,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "LigKern",
           "package": "dvi-processing",
@@ -606,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "LigKern",
           "package": "dvi-processing",
@@ -619,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Node",
           "package": "dvi-processing",
@@ -627,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Node",
           "package": "dvi-processing",
@@ -640,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "NodeClass",
           "package": "dvi-processing",
@@ -648,6 +707,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "NodeClass",
           "package": "dvi-processing",
@@ -661,6 +721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Page",
           "package": "dvi-processing",
@@ -669,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Page",
           "package": "dvi-processing",
@@ -682,6 +744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PageNumberClass",
           "package": "dvi-processing",
@@ -690,6 +753,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PageNumberClass",
           "package": "dvi-processing",
@@ -703,6 +767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PageNumbers",
           "package": "dvi-processing",
@@ -711,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PageNumbers",
           "package": "dvi-processing",
@@ -724,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PageObject",
           "package": "dvi-processing",
@@ -732,6 +799,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PageObject",
           "package": "dvi-processing",
@@ -745,6 +813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PageObjects",
           "package": "dvi-processing",
@@ -753,6 +822,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PageObjects",
           "package": "dvi-processing",
@@ -766,6 +836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PenaltyNode",
           "package": "dvi-processing",
@@ -774,6 +845,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PenaltyNode",
           "package": "dvi-processing",
@@ -787,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "RenderPos",
           "package": "dvi-processing",
@@ -795,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "RenderPos",
           "package": "dvi-processing",
@@ -808,6 +882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "RuleNode",
           "package": "dvi-processing",
@@ -816,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "RuleNode",
           "package": "dvi-processing",
@@ -829,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "ShiftNode",
           "package": "dvi-processing",
@@ -837,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "ShiftNode",
           "package": "dvi-processing",
@@ -850,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "SimpleParagraphSetting",
           "package": "dvi-processing",
@@ -858,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "SimpleParagraphSetting",
           "package": "dvi-processing",
@@ -871,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "SpecialNode",
           "package": "dvi-processing",
@@ -879,6 +960,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "SpecialNode",
           "package": "dvi-processing",
@@ -892,6 +974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "TextNode",
           "package": "dvi-processing",
@@ -900,6 +983,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "TextNode",
           "package": "dvi-processing",
@@ -913,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "TextString",
           "package": "dvi-processing",
@@ -921,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "TextString",
           "package": "dvi-processing",
@@ -934,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Box",
           "package": "dvi-processing",
@@ -943,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Box",
           "package": "dvi-processing",
@@ -956,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "BoxNode",
           "package": "dvi-processing",
@@ -965,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "BoxNode",
           "normalized": "BoxNode BoxDirection Dimen Dimen Dimen GlueSet[Node]",
@@ -980,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Character",
           "package": "dvi-processing",
@@ -989,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Character",
           "package": "dvi-processing",
@@ -1002,6 +1094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "DVI_Binary",
           "package": "dvi-processing",
@@ -1011,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "DVI_Binary",
           "package": "dvi-processing",
@@ -1024,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "DocStat",
           "package": "dvi-processing",
@@ -1033,6 +1128,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "DocStat",
           "package": "dvi-processing",
@@ -1046,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Extensible",
           "package": "dvi-processing",
@@ -1055,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Extensible",
           "package": "dvi-processing",
@@ -1068,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Fil",
           "package": "dvi-processing",
@@ -1077,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Fil",
           "package": "dvi-processing",
@@ -1090,6 +1190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Fill",
           "package": "dvi-processing",
@@ -1099,6 +1200,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Fill",
           "package": "dvi-processing",
@@ -1112,6 +1214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Filll",
           "package": "dvi-processing",
@@ -1121,6 +1224,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Filll",
           "package": "dvi-processing",
@@ -1134,6 +1238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Finite",
           "package": "dvi-processing",
@@ -1143,6 +1248,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Finite",
           "package": "dvi-processing",
@@ -1156,6 +1262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Font",
           "package": "dvi-processing",
@@ -1165,6 +1272,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Font",
           "package": "dvi-processing",
@@ -1178,6 +1286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "FontChar",
           "package": "dvi-processing",
@@ -1187,6 +1296,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "FontChar",
           "package": "dvi-processing",
@@ -1200,6 +1310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Glue",
           "package": "dvi-processing",
@@ -1209,6 +1320,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Glue",
           "package": "dvi-processing",
@@ -1222,6 +1334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueNode",
           "package": "dvi-processing",
@@ -1231,6 +1344,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueNode",
           "package": "dvi-processing",
@@ -1244,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueSS",
           "package": "dvi-processing",
@@ -1253,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueSS",
           "package": "dvi-processing",
@@ -1266,6 +1382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "GlueSet",
           "package": "dvi-processing",
@@ -1275,6 +1392,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "GlueSet",
           "package": "dvi-processing",
@@ -1288,6 +1406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Horizontal",
           "package": "dvi-processing",
@@ -1297,6 +1416,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Horizontal",
           "package": "dvi-processing",
@@ -1310,6 +1430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "KernNode",
           "package": "dvi-processing",
@@ -1319,6 +1440,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "KernNode",
           "package": "dvi-processing",
@@ -1332,6 +1454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Kerning",
           "package": "dvi-processing",
@@ -1341,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Kerning",
           "package": "dvi-processing",
@@ -1354,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Ligature",
           "package": "dvi-processing",
@@ -1363,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Ligature",
           "package": "dvi-processing",
@@ -1376,6 +1502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Node",
           "package": "dvi-processing",
@@ -1385,6 +1512,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Node",
           "normalized": "a-\u003eNode",
@@ -1400,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Page",
           "package": "dvi-processing",
@@ -1409,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Page",
           "package": "dvi-processing",
@@ -1422,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "PenaltyNode",
           "package": "dvi-processing",
@@ -1431,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "PenaltyNode",
           "package": "dvi-processing",
@@ -1444,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Rule",
           "package": "dvi-processing",
@@ -1453,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Rule",
           "package": "dvi-processing",
@@ -1466,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "RuleNode",
           "package": "dvi-processing",
@@ -1475,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "RuleNode",
           "package": "dvi-processing",
@@ -1488,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "ShiftNode",
           "package": "dvi-processing",
@@ -1497,6 +1634,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "ShiftNode",
           "package": "dvi-processing",
@@ -1510,6 +1648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Shrinking",
           "package": "dvi-processing",
@@ -1519,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Shrinking",
           "package": "dvi-processing",
@@ -1532,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "SimpleParagraphSetting",
           "package": "dvi-processing",
@@ -1541,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "SimpleParagraphSetting",
           "package": "dvi-processing",
@@ -1554,6 +1696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Special",
           "package": "dvi-processing",
@@ -1563,6 +1706,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Special",
           "package": "dvi-processing",
@@ -1576,6 +1720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "SpecialNode",
           "package": "dvi-processing",
@@ -1585,6 +1730,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "SpecialNode",
           "package": "dvi-processing",
@@ -1598,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Stretching",
           "package": "dvi-processing",
@@ -1607,6 +1754,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Stretching",
           "package": "dvi-processing",
@@ -1620,6 +1768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Text",
           "package": "dvi-processing",
@@ -1629,6 +1778,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Text",
           "package": "dvi-processing",
@@ -1642,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "TextNode",
           "package": "dvi-processing",
@@ -1651,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "TextNode",
           "package": "dvi-processing",
@@ -1664,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "Vertical",
           "package": "dvi-processing",
@@ -1673,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "Vertical",
           "package": "dvi-processing",
@@ -1686,6 +1840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "addGlue",
           "package": "dvi-processing",
@@ -1695,6 +1850,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "addGlue",
           "normalized": "Glue-\u003eGlue-\u003eGlue",
@@ -1710,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "atSize",
           "package": "dvi-processing",
@@ -1719,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "atSize",
           "package": "dvi-processing",
@@ -1732,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "badness",
           "package": "dvi-processing",
@@ -1741,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "badness",
           "normalized": "Dimen-\u003eGlue-\u003eRatio Integer",
@@ -1755,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "bigPoints",
           "package": "dvi-processing",
@@ -1764,6 +1925,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "bigPoints",
           "normalized": "Ratio Int-\u003eInt",
@@ -1779,6 +1941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "calcGlue",
           "package": "dvi-processing",
@@ -1788,6 +1951,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "calcGlue",
           "normalized": "GlueSet-\u003eGlue-\u003eRenderPos",
@@ -1803,6 +1967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "calcGlueSet",
           "package": "dvi-processing",
@@ -1812,6 +1977,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "calcGlueSet",
           "normalized": "Dimen-\u003eGlue-\u003eGlueSet",
@@ -1827,6 +1993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "castNode",
           "package": "dvi-processing",
@@ -1836,6 +2003,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "castNode",
           "normalized": "Node-\u003eMaybe a",
@@ -1851,6 +2019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "centimetres",
           "package": "dvi-processing",
@@ -1860,6 +2029,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "centimetres",
           "normalized": "Ratio Int-\u003eInt",
@@ -1874,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charDepth",
           "package": "dvi-processing",
@@ -1883,6 +2054,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charDepth",
           "package": "dvi-processing",
@@ -1896,6 +2068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charExten",
           "package": "dvi-processing",
@@ -1905,6 +2078,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charExten",
           "package": "dvi-processing",
@@ -1918,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charHeight",
           "package": "dvi-processing",
@@ -1927,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charHeight",
           "package": "dvi-processing",
@@ -1940,6 +2116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charItalCorr",
           "package": "dvi-processing",
@@ -1949,6 +2126,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charItalCorr",
           "package": "dvi-processing",
@@ -1962,6 +2140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charLarger",
           "package": "dvi-processing",
@@ -1971,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charLarger",
           "package": "dvi-processing",
@@ -1984,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charLigKern",
           "package": "dvi-processing",
@@ -1993,6 +2174,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charLigKern",
           "normalized": "[LigKern]",
@@ -2008,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "charWidth",
           "package": "dvi-processing",
@@ -2017,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "charWidth",
           "package": "dvi-processing",
@@ -2030,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "characters",
           "package": "dvi-processing",
@@ -2039,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "characters",
           "normalized": "[FontChar]",
@@ -2053,6 +2239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "cicero",
           "package": "dvi-processing",
@@ -2062,6 +2249,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "cicero",
           "normalized": "Ratio Int-\u003eInt",
@@ -2076,6 +2264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "closeSpecials",
           "package": "dvi-processing",
@@ -2085,6 +2274,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "closeSpecials",
           "normalized": "(ByteString-\u003eBool)-\u003ePageObjects-\u003ePageObjects",
@@ -2100,6 +2290,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "createDVI",
           "package": "dvi-processing",
@@ -2109,6 +2300,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "createDVI",
           "normalized": "FilePath-\u003eWord-\u003eRatio Word-\u003eIO DocStat",
@@ -2124,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "designSize",
           "package": "dvi-processing",
@@ -2133,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "designSize",
           "package": "dvi-processing",
@@ -2146,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "didot",
           "package": "dvi-processing",
@@ -2155,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "didot",
           "normalized": "Ratio Int-\u003eInt",
@@ -2169,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "docStat",
           "package": "dvi-processing",
@@ -2178,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "docStat",
           "package": "dvi-processing",
@@ -2191,6 +2389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "dviUnits",
           "package": "dvi-processing",
@@ -2200,6 +2399,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "dviUnits",
           "package": "dvi-processing",
@@ -2213,6 +2413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "dviUnitsTeX",
           "package": "dvi-processing",
@@ -2222,6 +2423,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "dviUnitsTeX",
           "package": "dvi-processing",
@@ -2235,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "emptyFont",
           "package": "dvi-processing",
@@ -2244,6 +2447,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "emptyFont",
           "package": "dvi-processing",
@@ -2257,6 +2461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "extBot",
           "package": "dvi-processing",
@@ -2266,6 +2471,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "extBot",
           "package": "dvi-processing",
@@ -2279,6 +2485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "extMid",
           "package": "dvi-processing",
@@ -2288,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "extMid",
           "package": "dvi-processing",
@@ -2301,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "extRep",
           "package": "dvi-processing",
@@ -2310,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "extRep",
           "package": "dvi-processing",
@@ -2323,6 +2533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "extTop",
           "package": "dvi-processing",
@@ -2332,6 +2543,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "extTop",
           "package": "dvi-processing",
@@ -2345,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "filSS",
           "package": "dvi-processing",
@@ -2354,6 +2567,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "filSS",
           "package": "dvi-processing",
@@ -2367,6 +2581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fillSS",
           "package": "dvi-processing",
@@ -2376,6 +2591,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fillSS",
           "package": "dvi-processing",
@@ -2389,6 +2605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "filllSS",
           "package": "dvi-processing",
@@ -2398,6 +2615,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "filllSS",
           "package": "dvi-processing",
@@ -2411,6 +2629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "findBreaks",
           "package": "dvi-processing",
@@ -2420,6 +2639,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "findBreaks",
           "normalized": "Bool-\u003e(Node-\u003e(Glue,Maybe Int))-\u003e[Node]-\u003e[(Int,Glue,Int)]",
@@ -2435,6 +2655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "findLK",
           "package": "dvi-processing",
@@ -2444,6 +2665,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "findLK",
           "normalized": "[LigKern]-\u003eWord-\u003eMaybe LigKern",
@@ -2459,6 +2681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "finishDVI",
           "package": "dvi-processing",
@@ -2468,6 +2691,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "finishDVI",
           "normalized": "DocStat-\u003eIO()",
@@ -2483,6 +2707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "finiteSS",
           "package": "dvi-processing",
@@ -2492,6 +2717,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "finiteSS",
           "package": "dvi-processing",
@@ -2505,6 +2731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "firstChar",
           "package": "dvi-processing",
@@ -2514,6 +2741,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "firstChar",
           "package": "dvi-processing",
@@ -2527,6 +2755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fixedGlue",
           "package": "dvi-processing",
@@ -2536,6 +2765,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fixedGlue",
           "normalized": "Dimen-\u003eGlue",
@@ -2551,6 +2781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fontChecksum",
           "package": "dvi-processing",
@@ -2560,6 +2791,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fontChecksum",
           "package": "dvi-processing",
@@ -2573,6 +2805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fontDimen",
           "package": "dvi-processing",
@@ -2582,6 +2815,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fontDimen",
           "normalized": "[Dimen]",
@@ -2597,6 +2831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fontEq",
           "package": "dvi-processing",
@@ -2606,6 +2841,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fontEq",
           "normalized": "Font-\u003eFont-\u003eBool",
@@ -2621,6 +2857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fontName",
           "package": "dvi-processing",
@@ -2630,6 +2867,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fontName",
           "package": "dvi-processing",
@@ -2643,6 +2881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "fonts",
           "package": "dvi-processing",
@@ -2652,6 +2891,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "fonts",
           "normalized": "[Font]",
@@ -2666,6 +2906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "getFontChar",
           "package": "dvi-processing",
@@ -2675,6 +2916,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "getFontChar",
           "normalized": "Font-\u003ea-\u003eMaybe FontChar",
@@ -2690,6 +2932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "hPack",
           "package": "dvi-processing",
@@ -2699,6 +2942,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "hPack",
           "normalized": "(Dimen-\u003eDimen)-\u003e[Node]-\u003e(BoxNode,Glue,[Node])",
@@ -2714,6 +2958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "hPackNode",
           "package": "dvi-processing",
@@ -2723,6 +2968,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "hPackNode",
           "normalized": "a-\u003e([Node],Glue,Dimen,Dimen,[Node])",
@@ -2738,6 +2984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "hRender",
           "package": "dvi-processing",
@@ -2747,6 +2994,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "hRender",
           "normalized": "a-\u003eNode-\u003eRenderPos-\u003e(PageObjects,RenderPos)",
@@ -2762,6 +3010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "inches",
           "package": "dvi-processing",
@@ -2771,6 +3020,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "inches",
           "normalized": "Ratio Int-\u003eInt",
@@ -2785,6 +3035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "interlineGlue",
           "package": "dvi-processing",
@@ -2794,6 +3045,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "interlineGlue",
           "normalized": "Dimen-\u003eGlue-\u003eNode-\u003e[Node]-\u003e[Node]",
@@ -2809,6 +3061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "isNodeDiscardable",
           "package": "dvi-processing",
@@ -2818,6 +3071,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "isNodeDiscardable",
           "normalized": "a-\u003eBool",
@@ -2833,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "kernDist",
           "package": "dvi-processing",
@@ -2842,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "kernDist",
           "package": "dvi-processing",
@@ -2855,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "leftBoundChar",
           "package": "dvi-processing",
@@ -2864,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "leftBoundChar",
           "normalized": "[LigKern]",
@@ -2879,6 +3137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "ligChar",
           "package": "dvi-processing",
@@ -2888,6 +3147,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "ligChar",
           "package": "dvi-processing",
@@ -2901,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "ligCode",
           "package": "dvi-processing",
@@ -2910,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "ligCode",
           "package": "dvi-processing",
@@ -2923,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "lkChar",
           "package": "dvi-processing",
@@ -2932,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "lkChar",
           "package": "dvi-processing",
@@ -2945,6 +3209,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "loadFont",
           "package": "dvi-processing",
@@ -2954,6 +3219,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "loadFont",
           "normalized": "FontMag-\u003eFilePath-\u003eIO Font",
@@ -2969,6 +3235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "magnification",
           "package": "dvi-processing",
@@ -2978,6 +3245,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "magnification",
           "package": "dvi-processing",
@@ -2990,6 +3258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "maxStackDepth",
           "package": "dvi-processing",
@@ -2999,6 +3268,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "maxStackDepth",
           "package": "dvi-processing",
@@ -3012,6 +3282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "maybeSpecial",
           "package": "dvi-processing",
@@ -3021,6 +3292,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "maybeSpecial",
           "normalized": "(Coordinates,PageObject)-\u003eMaybe ByteString",
@@ -3036,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "millimetres",
           "package": "dvi-processing",
@@ -3045,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "millimetres",
           "normalized": "Ratio Int-\u003eInt",
@@ -3059,6 +3333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "naturalGlue",
           "package": "dvi-processing",
@@ -3068,6 +3343,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "naturalGlue",
           "package": "dvi-processing",
@@ -3081,6 +3357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nodeDepth",
           "package": "dvi-processing",
@@ -3090,6 +3367,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nodeDepth",
           "normalized": "a-\u003eDimen",
@@ -3105,6 +3383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nodeGlueSet",
           "package": "dvi-processing",
@@ -3114,6 +3393,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nodeGlueSet",
           "normalized": "a-\u003eGlueSet",
@@ -3129,6 +3409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nodeHeight",
           "package": "dvi-processing",
@@ -3138,6 +3419,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nodeHeight",
           "normalized": "a-\u003eDimen",
@@ -3153,6 +3435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nodePenalty",
           "package": "dvi-processing",
@@ -3162,6 +3445,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nodePenalty",
           "normalized": "a-\u003eMaybe Int",
@@ -3177,6 +3461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nodeWidth",
           "package": "dvi-processing",
@@ -3186,6 +3471,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nodeWidth",
           "normalized": "a-\u003eDimen",
@@ -3201,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "nullGlueSS",
           "package": "dvi-processing",
@@ -3210,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "nullGlueSS",
           "package": "dvi-processing",
@@ -3223,6 +3511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "numPages",
           "package": "dvi-processing",
@@ -3232,6 +3521,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "numPages",
           "package": "dvi-processing",
@@ -3245,6 +3535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "objDepth",
           "package": "dvi-processing",
@@ -3254,6 +3545,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "objDepth",
           "normalized": "PageObject-\u003eDimen",
@@ -3269,6 +3561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "objHeight",
           "package": "dvi-processing",
@@ -3278,6 +3571,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "objHeight",
           "normalized": "PageObject-\u003eDimen",
@@ -3293,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "objWidth",
           "package": "dvi-processing",
@@ -3302,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "objWidth",
           "normalized": "PageObject-\u003eDimen",
@@ -3317,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "openSpecials",
           "package": "dvi-processing",
@@ -3326,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "openSpecials",
           "normalized": "(ByteString-\u003eBool)-\u003ePageObjects-\u003ePageObjects",
@@ -3341,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "pageHandle",
           "package": "dvi-processing",
@@ -3350,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "pageHandle",
           "package": "dvi-processing",
@@ -3363,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "pageNum",
           "package": "dvi-processing",
@@ -3372,6 +3673,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "pageNum",
           "normalized": "a-\u003ePageNumbers",
@@ -3387,6 +3689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "pageNumbers",
           "package": "dvi-processing",
@@ -3396,6 +3699,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "pageNumbers",
           "package": "dvi-processing",
@@ -3409,6 +3713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "pageObjects",
           "package": "dvi-processing",
@@ -3418,6 +3723,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "pageObjects",
           "package": "dvi-processing",
@@ -3431,6 +3737,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "pageStat",
           "package": "dvi-processing",
@@ -3440,6 +3747,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "pageStat",
           "package": "dvi-processing",
@@ -3453,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "picas",
           "package": "dvi-processing",
@@ -3462,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "picas",
           "normalized": "Ratio Int-\u003eInt",
@@ -3476,6 +3786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "points",
           "package": "dvi-processing",
@@ -3485,6 +3796,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "points",
           "normalized": "Ratio Int-\u003eInt",
@@ -3499,6 +3811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "prevPage",
           "package": "dvi-processing",
@@ -3508,6 +3821,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "prevPage",
           "package": "dvi-processing",
@@ -3521,6 +3835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "readFont",
           "package": "dvi-processing",
@@ -3530,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "readFont",
           "normalized": "ByteString-\u003eFontMag-\u003eHandle-\u003eIO Font",
@@ -3545,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "renderNode",
           "package": "dvi-processing",
@@ -3554,6 +3871,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "renderNode",
           "normalized": "a-\u003ePageObjects",
@@ -3569,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "rightBoundChar",
           "package": "dvi-processing",
@@ -3578,6 +3897,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "rightBoundChar",
           "package": "dvi-processing",
@@ -3591,6 +3911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "selectGlueSS",
           "package": "dvi-processing",
@@ -3600,6 +3921,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "selectGlueSS",
           "normalized": "GlueRank-\u003eGlueSS-\u003eDimen",
@@ -3615,6 +3937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "shiftPage",
           "package": "dvi-processing",
@@ -3624,6 +3947,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "shiftPage",
           "normalized": "Coordinates-\u003ePageObjects-\u003ePageObjects",
@@ -3639,6 +3963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "shipOut",
           "package": "dvi-processing",
@@ -3648,6 +3973,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "shipOut",
           "normalized": "Page-\u003eIO DocStat",
@@ -3663,6 +3989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "showNode",
           "package": "dvi-processing",
@@ -3672,6 +3999,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "showNode",
           "normalized": "a-\u003eString",
@@ -3687,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "shrinkability",
           "package": "dvi-processing",
@@ -3696,6 +4025,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "shrinkability",
           "package": "dvi-processing",
@@ -3708,6 +4038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "simpleMakeParagraph",
           "package": "dvi-processing",
@@ -3717,6 +4048,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "simpleMakeParagraph",
           "normalized": "SimpleParagraphSetting-\u003e[Node]-\u003e[Node]",
@@ -3732,6 +4064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "simpleParagraphSetting",
           "package": "dvi-processing",
@@ -3741,6 +4074,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "simpleParagraphSetting",
           "package": "dvi-processing",
@@ -3754,6 +4088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "singlePageDocument",
           "package": "dvi-processing",
@@ -3763,6 +4098,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "singlePageDocument",
           "normalized": "Node-\u003eFilePath-\u003eIO()",
@@ -3778,6 +4114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "sortPage",
           "package": "dvi-processing",
@@ -3787,6 +4124,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "sortPage",
           "normalized": "PageObjects-\u003ePageObjects",
@@ -3802,6 +4140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spaceGlue",
           "package": "dvi-processing",
@@ -3811,6 +4150,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spaceGlue",
           "normalized": "Font-\u003eInt-\u003eGlue",
@@ -3826,6 +4166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "splitSpecials",
           "package": "dvi-processing",
@@ -3835,6 +4176,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "splitSpecials",
           "normalized": "(ByteString-\u003eByteString-\u003eBool)-\u003ePageObjects-\u003ePageObjects",
@@ -3850,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spsBackground",
           "package": "dvi-processing",
@@ -3859,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spsBackground",
           "package": "dvi-processing",
@@ -3872,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spsInterline",
           "package": "dvi-processing",
@@ -3881,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spsInterline",
           "normalized": "[Node]",
@@ -3896,6 +4242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spsLeft",
           "package": "dvi-processing",
@@ -3905,6 +4252,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spsLeft",
           "normalized": "[Node]",
@@ -3920,6 +4268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spsRight",
           "package": "dvi-processing",
@@ -3929,6 +4278,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spsRight",
           "normalized": "[Node]",
@@ -3944,6 +4294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "spsWidth",
           "package": "dvi-processing",
@@ -3953,6 +4304,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "spsWidth",
           "package": "dvi-processing",
@@ -3966,6 +4318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "stretchability",
           "package": "dvi-processing",
@@ -3975,6 +4328,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "stretchability",
           "package": "dvi-processing",
@@ -3987,6 +4341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "subtractGlue",
           "package": "dvi-processing",
@@ -3996,6 +4351,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "subtractGlue",
           "normalized": "Glue-\u003eGlue-\u003eGlue",
@@ -4011,6 +4367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "sumPackage",
           "package": "dvi-processing",
@@ -4020,6 +4377,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "sumPackage",
           "normalized": "[(Glue,Dimen,Dimen)]-\u003e(Glue,Dimen,Dimen)",
@@ -4035,6 +4393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "tallest",
           "package": "dvi-processing",
@@ -4044,6 +4403,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "tallest",
           "package": "dvi-processing",
@@ -4056,6 +4416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "textToChar",
           "package": "dvi-processing",
@@ -4065,6 +4426,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "textToChar",
           "normalized": "PageObjects-\u003ePageObjects",
@@ -4080,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "toRenderPos",
           "package": "dvi-processing",
@@ -4089,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "toRenderPos",
           "normalized": "a-\u003eRenderPos",
@@ -4104,6 +4468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "travBoxFunc",
           "package": "dvi-processing",
@@ -4113,6 +4478,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "travBoxFunc",
           "normalized": "(a-\u003eb Node)-\u003eNode-\u003eb Node",
@@ -4128,6 +4494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "travBoxPure",
           "package": "dvi-processing",
@@ -4137,6 +4504,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "travBoxPure",
           "normalized": "(a-\u003eNode)-\u003eNode-\u003eNode",
@@ -4152,6 +4520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "traverseBox",
           "package": "dvi-processing",
@@ -4161,6 +4530,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "traverseBox",
           "normalized": "(Node-\u003ea Node)-\u003eb-\u003ea Node",
@@ -4176,6 +4546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "typesetCustomString",
           "package": "dvi-processing",
@@ -4185,6 +4556,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "typesetCustomString",
           "normalized": "CustomStringFn a-\u003eFont-\u003e[a]-\u003e[Node]",
@@ -4200,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "typesetSimpleString",
           "package": "dvi-processing",
@@ -4209,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "typesetSimpleString",
           "normalized": "Font-\u003eString-\u003ePageObject",
@@ -4224,6 +4598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "typesetSingleWord",
           "package": "dvi-processing",
@@ -4233,6 +4608,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "typesetSingleWord",
           "normalized": "Font-\u003eString-\u003eNode",
@@ -4248,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "unboxPage",
           "package": "dvi-processing",
@@ -4257,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "unboxPage",
           "normalized": "PageObjects-\u003ePageObjects",
@@ -4272,6 +4650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "unshiftPage",
           "package": "dvi-processing",
@@ -4281,6 +4660,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "unshiftPage",
           "normalized": "Coordinates-\u003ePageObjects-\u003ePageObjects",
@@ -4296,6 +4676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "vPack",
           "package": "dvi-processing",
@@ -4305,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "vPack",
           "normalized": "Bool-\u003eDimen-\u003e(Dimen-\u003eDimen)-\u003e[Node]-\u003e(BoxNode,Glue)",
@@ -4320,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "vPackNode",
           "package": "dvi-processing",
@@ -4329,6 +4712,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "vPackNode",
           "normalized": "a-\u003e([Node],Glue,Dimen,Dimen)",
@@ -4344,6 +4728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "vRender",
           "package": "dvi-processing",
@@ -4353,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "vRender",
           "normalized": "a-\u003eNode-\u003eRenderPos-\u003e(PageObjects,RenderPos)",
@@ -4368,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "vSplit",
           "package": "dvi-processing",
@@ -4377,6 +4764,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "vSplit",
           "normalized": "Dimen-\u003e[Node]-\u003e(BoxNode,[Node])",
@@ -4392,6 +4780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "widest",
           "package": "dvi-processing",
@@ -4401,6 +4790,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "widest",
           "package": "dvi-processing",
@@ -4413,6 +4803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "widestChar",
           "package": "dvi-processing",
@@ -4422,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "widestChar",
           "normalized": "Font-\u003eInt",
@@ -4437,6 +4829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "withBoxes",
           "package": "dvi-processing",
@@ -4446,6 +4839,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "withBoxes",
           "normalized": "(PageObjects-\u003ePageObjects)-\u003ePageObjects-\u003ePageObjects",
@@ -4461,6 +4855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "withDVI",
           "package": "dvi-processing",
@@ -4470,6 +4865,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "withDVI",
           "normalized": "FilePath-\u003e(Word-\u003eByteString-\u003eIO Font)-\u003ea-\u003e(a-\u003ePage-\u003eIO(Maybe(a,b)))-\u003eIO[b]",
@@ -4485,6 +4881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "withFrenchSpacing",
           "package": "dvi-processing",
@@ -4494,6 +4891,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "withFrenchSpacing",
           "package": "dvi-processing",
@@ -4507,6 +4905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "withInnerBoxes",
           "package": "dvi-processing",
@@ -4516,6 +4915,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "withInnerBoxes",
           "normalized": "(PageObjects-\u003ePageObjects)-\u003ePageObjects-\u003ePageObjects",
@@ -4531,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:59:39 UTC 2014",
           "module": "Graphics.DVI",
           "name": "wrapNode",
           "package": "dvi-processing",
@@ -4540,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Graphics DVI",
+          "indexed": "2014-03-11T17:59:39",
           "module": "Graphics.DVI",
           "name": "wrapNode",
           "normalized": "a-\u003eNode",

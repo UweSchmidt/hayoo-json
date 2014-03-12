@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "biostockholm"
+        "phrase": "biostockholm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTake low-level \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e and turn them high-level data\n structures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Document",
           "package": "biostockholm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Take low-level Event and turn them high-level data structures",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Document",
           "package": "biostockholm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Ann",
           "package": "biostockholm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "generic annotation",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Ann",
           "package": "biostockholm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible column annotations.  Phantom type can be \u003ccode\u003e\u003ca\u003eInFile\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eInSeq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "ColumnAnnotation",
           "package": "biostockholm",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Possible column annotations Phantom type can be InFile or InSeq",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "ColumnAnnotation",
           "package": "biostockholm",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible file annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "FileAnnotation",
           "package": "biostockholm",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Possible file annotations",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "FileAnnotation",
           "package": "biostockholm",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type for \u003ccode\u003e\u003ca\u003eColumnAnnotation\u003c/a\u003e\u003c/code\u003es of the whole file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "InFile",
           "package": "biostockholm",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Phantom type for ColumnAnnotation of the whole file",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "InFile",
           "package": "biostockholm",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type for \u003ccode\u003e\u003ca\u003eColumnAnnotation\u003c/a\u003e\u003c/code\u003es of a single sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "InSeq",
           "package": "biostockholm",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Phantom type for ColumnAnnotation of single sequence",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "InSeq",
           "package": "biostockholm",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible sequence annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "SequenceAnnotation",
           "package": "biostockholm",
@@ -166,6 +179,7 @@
         "index": {
           "description": "Possible sequence annotations",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "SequenceAnnotation",
           "package": "biostockholm",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Stockholm 1.0 formatted file represented in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -189,6 +204,7 @@
         "index": {
           "description": "An Stockholm formatted file represented in memory",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence in Stockholm 1.0 format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "StockholmSeq",
           "package": "biostockholm",
@@ -212,6 +229,7 @@
         "index": {
           "description": "sequence in Stockholm format",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "StockholmSeq",
           "package": "biostockholm",
@@ -1371,6 +1389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit that parses \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e into documents \u003ccode\u003e\u003ca\u003eStockholm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "parseDoc",
           "package": "biostockholm",
@@ -1381,6 +1400,7 @@
         "index": {
           "description": "Conduit that parses Event into documents Stockholm",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "parseDoc",
           "package": "biostockholm",
@@ -1395,6 +1415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit that renders \u003ccode\u003e\u003ca\u003eStockholm\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e into \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "renderDoc",
           "package": "biostockholm",
@@ -1405,6 +1426,7 @@
         "index": {
           "description": "Conduit that renders Stockholm into Event",
           "hierarchy": "Bio Sequence Stockholm Document",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Document",
           "name": "renderDoc",
           "package": "biostockholm",
@@ -1441,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing of an Stockholm 1.0 file into a stream of events.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "Stream",
           "package": "biostockholm",
@@ -1450,6 +1473,7 @@
         "index": {
           "description": "Parsing of an Stockholm file into stream of events",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "Stream",
           "package": "biostockholm",
@@ -1464,6 +1488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn event (roughly a line in the file).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "Event",
           "package": "biostockholm",
@@ -1473,6 +1498,7 @@
         "index": {
           "description": "An event roughly line in the file",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "Event",
           "package": "biostockholm",
@@ -1487,6 +1513,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e# ....\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvComment",
           "package": "biostockholm",
@@ -1496,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvComment",
           "package": "biostockholm",
@@ -1510,6 +1538,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e//\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvEnd",
           "package": "biostockholm",
@@ -1519,6 +1548,7 @@
         },
         "index": {
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvEnd",
           "package": "biostockholm",
@@ -1533,6 +1563,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e#GC feature data\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGC",
           "package": "biostockholm",
@@ -1543,6 +1574,7 @@
         "index": {
           "description": "GC feature data",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGC",
           "package": "biostockholm",
@@ -1557,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e#GF feature data\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGF",
           "package": "biostockholm",
@@ -1567,6 +1600,7 @@
         "index": {
           "description": "GF feature data",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGF",
           "package": "biostockholm",
@@ -1581,6 +1615,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e#GR seqlabel feature data\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGR",
           "package": "biostockholm",
@@ -1591,6 +1626,7 @@
         "index": {
           "description": "GR seqlabel feature data",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGR",
           "package": "biostockholm",
@@ -1605,6 +1641,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e#GS seqlabel feature data\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGS",
           "package": "biostockholm",
@@ -1615,6 +1652,7 @@
         "index": {
           "description": "GS seqlabel feature data",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvGS",
           "package": "biostockholm",
@@ -1629,6 +1667,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e# STOCKHOLM 1.0\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvHeader",
           "package": "biostockholm",
@@ -1639,6 +1678,7 @@
         "index": {
           "description": "STOCKHOLM",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvHeader",
           "package": "biostockholm",
@@ -1653,6 +1693,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eseqlabel seqdata\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvSeqData",
           "package": "biostockholm",
@@ -1663,6 +1704,7 @@
         "index": {
           "description": "seqlabel seqdata",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "EvSeqData",
           "package": "biostockholm",
@@ -1677,6 +1719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit that parses a file into events.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "parseEvents",
           "package": "biostockholm",
@@ -1687,6 +1730,7 @@
         "index": {
           "description": "Conduit that parses file into events",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "parseEvents",
           "package": "biostockholm",
@@ -1701,6 +1745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConduit that pretty prints an event stream into a file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "renderEvents",
           "package": "biostockholm",
@@ -1711,6 +1756,7 @@
         "index": {
           "description": "Conduit that pretty prints an event stream into file",
           "hierarchy": "Bio Sequence Stockholm Stream",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm.Stream",
           "name": "renderEvents",
           "package": "biostockholm",
@@ -1725,6 +1771,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsing and pretty printing of files in Stockholm 1.0\n format.  See:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ca\u003ehttp://sonnhammer.sbc.su.se/Stockholm.html\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003eftp://ftp.sanger.ac.uk/pub/databases/Pfam/current_release/relnotes.txt\u003c/a\u003e\n\u003c/li\u003e\u003cli\u003e \u003ca\u003ehttp://en.wikipedia.org/wiki/Stockholm_format\u003c/a\u003e\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -1734,6 +1781,7 @@
         "index": {
           "description": "Parsing and pretty printing of files in Stockholm format See http sonnhammer.sbc.su.se Stockholm.html ftp ftp.sanger.ac.uk pub databases Pfam current release relnotes.txt http en.wikipedia.org wiki Stockholm format",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -1748,6 +1796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic annotation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "Ann",
           "package": "biostockholm",
@@ -1757,6 +1806,7 @@
         "index": {
           "description": "generic annotation",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "Ann",
           "package": "biostockholm",
@@ -1771,6 +1821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible column annotations.  Phantom type can be \u003ccode\u003e\u003ca\u003eInFile\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eInSeq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "ColumnAnnotation",
           "package": "biostockholm",
@@ -1780,6 +1831,7 @@
         "index": {
           "description": "Possible column annotations Phantom type can be InFile or InSeq",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "ColumnAnnotation",
           "package": "biostockholm",
@@ -1794,6 +1846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible file annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "FileAnnotation",
           "package": "biostockholm",
@@ -1803,6 +1856,7 @@
         "index": {
           "description": "Possible file annotations",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "FileAnnotation",
           "package": "biostockholm",
@@ -1817,6 +1871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type for \u003ccode\u003e\u003ca\u003eColumnAnnotation\u003c/a\u003e\u003c/code\u003es of the whole file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "InFile",
           "package": "biostockholm",
@@ -1826,6 +1881,7 @@
         "index": {
           "description": "Phantom type for ColumnAnnotation of the whole file",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "InFile",
           "package": "biostockholm",
@@ -1840,6 +1896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type for \u003ccode\u003e\u003ca\u003eColumnAnnotation\u003c/a\u003e\u003c/code\u003es of a single sequence.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "InSeq",
           "package": "biostockholm",
@@ -1849,6 +1906,7 @@
         "index": {
           "description": "Phantom type for ColumnAnnotation of single sequence",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "InSeq",
           "package": "biostockholm",
@@ -1863,6 +1921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePossible sequence annotations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "SequenceAnnotation",
           "package": "biostockholm",
@@ -1872,6 +1931,7 @@
         "index": {
           "description": "Possible sequence annotations",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "SequenceAnnotation",
           "package": "biostockholm",
@@ -1886,6 +1946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn Stockholm 1.0 formatted file represented in memory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -1895,6 +1956,7 @@
         "index": {
           "description": "An Stockholm formatted file represented in memory",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "Stockholm",
           "package": "biostockholm",
@@ -1909,6 +1971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA sequence in Stockholm 1.0 format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "StockholmSeq",
           "package": "biostockholm",
@@ -1918,6 +1981,7 @@
         "index": {
           "description": "sequence in Stockholm format",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "StockholmSeq",
           "package": "biostockholm",
@@ -1932,6 +1996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind an annotation.  For example, you may use \u003ccode\u003e\u003ccode\u003e\u003ca\u003efindAnn\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eSS\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n to find the secondary on an Stockholm file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "findAnn",
           "package": "biostockholm",
@@ -1942,6 +2007,7 @@
         "index": {
           "description": "Find an annotation For example you may use findAnn SS to find the secondary on an Stockholm file",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "findAnn",
           "normalized": "a-\u003e[Ann a]-\u003eMaybe ByteString",
@@ -1958,6 +2024,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly parse a stream of files in Stockholm 1.0 format\n from a lazy \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003e.  We recommend using\n \u003ccode\u003e\u003ca\u003eparseStockholm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "lazyParseStockholm",
           "package": "biostockholm",
@@ -1968,6 +2035,7 @@
         "index": {
           "description": "Strictly parse stream of files in Stockholm format from lazy ByteString We recommend using parseStockholm",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "lazyParseStockholm",
           "normalized": "ByteString-\u003e[Stockholm]",
@@ -1984,6 +2052,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStrictly render a list of \u003ccode\u003e\u003ca\u003eStockholm\u003c/a\u003e\u003c/code\u003e\u003ccode\u003es\u003c/code\u003e into a lazy\n \u003ccode\u003eByteString\u003c/code\u003e in Stockholm 1.0 format.  We recommend using\n \u003ccode\u003e\u003ca\u003erenderStockholm\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "lazyRenderStockholm",
           "package": "biostockholm",
@@ -1994,6 +2063,7 @@
         "index": {
           "description": "Strictly render list of Stockholm into lazy ByteString in Stockholm format We recommend using renderStockholm",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "lazyRenderStockholm",
           "normalized": "[Stockholm]-\u003eByteString",
@@ -2010,6 +2080,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eparseStockholm\u003c/code\u003e parses a stream of files in Stockholm 1.0\n format.\n\u003c/p\u003e\u003cp\u003eEach file must be completely read before it is used because\n the Stockholm format allows information to be given in any\n part of the file.  However, there may be multiple \"Stockholm\n files\" concatenated in a single \"filesystem file\".  These\n multiple files are read independently.  If you need to process\n large Stockholm files, consider using the streaming interface\n on \u003ca\u003eBio.Sequence.Stockholm.Stream\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "parseStockholm",
           "package": "biostockholm",
@@ -2020,6 +2091,7 @@
         "index": {
           "description": "parseStockholm parses stream of files in Stockholm format Each file must be completely read before it is used because the Stockholm format allows information to be given in any part of the file However there may be multiple Stockholm files concatenated in single filesystem file These multiple files are read independently If you need to process large Stockholm files consider using the streaming interface on Bio.Sequence.Stockholm.Stream",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "parseStockholm",
           "package": "biostockholm",
@@ -2034,6 +2106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty prints an Stockholm file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:22:27 UTC 2014",
           "module": "Bio.Sequence.Stockholm",
           "name": "renderStockholm",
           "package": "biostockholm",
@@ -2044,6 +2117,7 @@
         "index": {
           "description": "Pretty prints an Stockholm file",
           "hierarchy": "Bio Sequence Stockholm",
+          "indexed": "2014-03-11T17:22:27",
           "module": "Bio.Sequence.Stockholm",
           "name": "renderStockholm",
           "package": "biostockholm",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ConstraintKinds"
+        "phrase": "ConstraintKinds",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "Applicative",
           "package": "ConstraintKinds",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "Applicative",
           "package": "ConstraintKinds",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "Applicative",
           "package": "ConstraintKinds",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "Applicative",
           "package": "ConstraintKinds",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "(\u003c*\u003e)",
           "package": "ConstraintKinds",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "(\u003c*\u003e) \u003c*\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a function to actions.\n This function may be used as a value for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e in a \u003ccode\u003e\u003ca\u003eFunctor\u003c/a\u003e\u003c/code\u003e instance.\n liftA :: (ApplicativeConstraint f a, ApplicativeConstraint f (a -\u003e b), ApplicativeConstraint f b, Applicative f) =\u003e (a -\u003e b) -\u003e f a -\u003e f b\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA",
           "package": "ConstraintKinds",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Lift function to actions This function may be used as value for fmap in Functor instance liftA ApplicativeConstraint ApplicativeConstraint ApplicativeConstraint Applicative",
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a binary function to actions.\n liftA2 :: (FunctorConstraint f a, FunctorConstraint f (b -\u003e c), Applicative f) =\u003e (a -\u003e b -\u003e c) -\u003e f a -\u003e f b -\u003e f c\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA2",
           "package": "ConstraintKinds",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Lift binary function to actions liftA2 FunctorConstraint FunctorConstraint Applicative",
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA2",
           "normalized": "(a-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec b",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a ternary function to actions.\n liftA3 :: (FunctorConstraint f a, FunctorConstraint f (b -\u003e c -\u003e d), Applicative f)=\u003e (a -\u003e b -\u003e c -\u003e d) -\u003e f a -\u003e f b -\u003e f c -\u003e f d\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA3",
           "package": "ConstraintKinds",
@@ -144,6 +155,7 @@
         "index": {
           "description": "Lift ternary function to actions liftA3 FunctorConstraint FunctorConstraint Applicative",
           "hierarchy": "Control ConstraintKinds Applicative",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Applicative",
           "name": "liftA3",
           "normalized": "(a-\u003ea-\u003ea-\u003eb)-\u003ec a-\u003ec a-\u003ec a-\u003ec b",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "Filterable",
           "package": "ConstraintKinds",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Filterable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "Filterable",
           "package": "ConstraintKinds",
@@ -179,6 +193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "Filterable",
           "package": "ConstraintKinds",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Filterable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "Filterable",
           "package": "ConstraintKinds",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "filter",
           "package": "ConstraintKinds",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Filterable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eb a",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "ifilter",
           "package": "ConstraintKinds",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Filterable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Filterable",
           "name": "ifilter",
           "normalized": "(Int-\u003ea-\u003eBool)-\u003eb a-\u003eb a",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "Foldable",
           "package": "ConstraintKinds",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "Foldable",
           "package": "ConstraintKinds",
@@ -267,6 +289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "Foldable",
           "package": "ConstraintKinds",
@@ -275,6 +298,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "Foldable",
           "package": "ConstraintKinds",
@@ -288,6 +312,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "fold",
           "package": "ConstraintKinds",
@@ -297,6 +322,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "fold",
           "normalized": "a b-\u003eb",
@@ -311,6 +337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldMap",
           "package": "ConstraintKinds",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldMap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003eb",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl",
           "package": "ConstraintKinds",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl'",
           "package": "ConstraintKinds",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003ec b-\u003ea",
@@ -381,6 +413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl1",
           "package": "ConstraintKinds",
@@ -390,6 +423,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -404,6 +438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr",
           "package": "ConstraintKinds",
@@ -413,6 +448,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -427,6 +463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr'",
           "package": "ConstraintKinds",
@@ -436,6 +473,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr'",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003ec a-\u003eb",
@@ -450,6 +488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr1",
           "package": "ConstraintKinds",
@@ -459,6 +498,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eb a-\u003ea",
@@ -473,6 +513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "toList",
           "package": "ConstraintKinds",
@@ -482,6 +523,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Foldable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Foldable",
           "name": "toList",
           "normalized": "a b-\u003e[b]",
@@ -497,6 +539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Functor",
           "name": "Functor",
           "package": "ConstraintKinds",
@@ -505,6 +548,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Functor",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Functor",
           "name": "Functor",
           "package": "ConstraintKinds",
@@ -518,6 +562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Functor",
           "name": "Functor",
           "package": "ConstraintKinds",
@@ -526,6 +571,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Functor",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Functor",
           "name": "Functor",
           "package": "ConstraintKinds",
@@ -540,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn infix synonym for \u003ccode\u003e\u003ca\u003efmap\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Functor",
           "name": "(\u003c$\u003e)",
           "package": "ConstraintKinds",
@@ -550,6 +597,7 @@
         "index": {
           "description": "An infix synonym for fmap",
           "hierarchy": "Control ConstraintKinds Functor",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Functor",
           "name": "(\u003c$\u003e) \u003c$\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -564,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Functor",
           "name": "fmap",
           "package": "ConstraintKinds",
@@ -573,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Functor",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Functor",
           "name": "fmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -587,6 +637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "Monad",
           "package": "ConstraintKinds",
@@ -595,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "Monad",
           "package": "ConstraintKinds",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "Monad",
           "package": "ConstraintKinds",
@@ -616,6 +669,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "Monad",
           "package": "ConstraintKinds",
@@ -629,6 +683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "(\u003e\u003e)",
           "package": "ConstraintKinds",
@@ -638,6 +693,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -652,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "(\u003e\u003e=)",
           "package": "ConstraintKinds",
@@ -661,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "a b-\u003e(b-\u003ea c)-\u003ea c",
@@ -675,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "fail",
           "package": "ConstraintKinds",
@@ -684,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "fail",
           "normalized": "String-\u003ea b",
@@ -698,6 +758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "ifThenElse",
           "package": "ConstraintKinds",
@@ -707,6 +768,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "ifThenElse",
           "normalized": "Bool-\u003ea-\u003ea-\u003ea",
@@ -722,6 +784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "join",
           "package": "ConstraintKinds",
@@ -731,6 +794,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "join",
           "normalized": "a(a b)-\u003ea b",
@@ -745,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Monad",
           "name": "return",
           "package": "ConstraintKinds",
@@ -754,6 +819,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Monad",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Monad",
           "name": "return",
           "normalized": "a-\u003eb a",
@@ -768,6 +834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "Partitionable",
           "package": "ConstraintKinds",
@@ -776,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Partitionable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "Partitionable",
           "package": "ConstraintKinds",
@@ -789,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "Partitionable",
           "package": "ConstraintKinds",
@@ -797,6 +866,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Partitionable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "Partitionable",
           "package": "ConstraintKinds",
@@ -810,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "partition",
           "package": "ConstraintKinds",
@@ -819,6 +890,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Partitionable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Partitionable",
           "name": "partition",
           "normalized": "Int-\u003ea b-\u003e[a b]",
@@ -833,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "Pointed",
           "package": "ConstraintKinds",
@@ -841,6 +914,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Pointed",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "Pointed",
           "package": "ConstraintKinds",
@@ -854,6 +928,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "Pointed",
           "package": "ConstraintKinds",
@@ -862,6 +937,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Pointed",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "Pointed",
           "package": "ConstraintKinds",
@@ -875,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "point",
           "package": "ConstraintKinds",
@@ -884,6 +961,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Pointed",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Pointed",
           "name": "point",
           "normalized": "a-\u003eb a",
@@ -898,6 +976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "Traversable",
           "package": "ConstraintKinds",
@@ -906,6 +985,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "Traversable",
           "package": "ConstraintKinds",
@@ -919,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "Traversable",
           "package": "ConstraintKinds",
@@ -927,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "Traversable",
           "package": "ConstraintKinds",
@@ -940,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "mapM",
           "package": "ConstraintKinds",
@@ -949,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "mapM",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -963,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "sequence",
           "package": "ConstraintKinds",
@@ -972,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "sequence",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -986,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "sequenceA",
           "package": "ConstraintKinds",
@@ -995,6 +1082,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "sequenceA",
           "normalized": "a(b c)-\u003eb(a c)",
@@ -1009,6 +1097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "traverse",
           "package": "ConstraintKinds",
@@ -1018,6 +1107,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds Traversable",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds.Traversable",
           "name": "traverse",
           "normalized": "(a-\u003eb c)-\u003ed a-\u003eb(d c)",
@@ -1032,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:19 UTC 2014",
           "module": "Control.ConstraintKinds",
           "name": "ConstraintKinds",
           "package": "ConstraintKinds",
@@ -1040,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Control ConstraintKinds",
+          "indexed": "2014-03-11T16:37:19",
           "module": "Control.ConstraintKinds",
           "name": "ConstraintKinds",
           "package": "ConstraintKinds",

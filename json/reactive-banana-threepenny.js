@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "reactive-banana-threepenny"
+        "phrase": "reactive-banana-threepenny",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "Threepenny",
           "package": "reactive-banana-threepenny",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "Threepenny",
           "package": "reactive-banana-threepenny",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehavior from an attribute.\n Uses \u003ccode\u003e\u003ca\u003efromPoll\u003c/a\u003e\u003c/code\u003e, so may behave as you expect.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "behavior",
           "package": "reactive-banana-threepenny",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Behavior from an attribute Uses fromPoll so may behave as you expect",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "behavior",
           "normalized": "ReadWriteAttr a b c-\u003ea-\u003eMoment d(Behavior d c)",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBehavior corresponding to user input in the element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "behaviorValue",
           "package": "reactive-banana-threepenny",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Behavior corresponding to user input in the element",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "behaviorValue",
           "normalized": "Element-\u003eString-\u003eMoment a(Behavior a String)",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtain an event for an element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "event",
           "package": "reactive-banana-threepenny",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Obtain an event for an element",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "event",
           "normalized": "(a-\u003eEvent b)-\u003ea-\u003eMoment c(Event c b)",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs when the \u003cem\u003euser\u003c/em\u003e changes the selection of a \u003ccode\u003e\u003ca\u003eselect\u003c/a\u003e\u003c/code\u003e element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "eventSelection",
           "package": "reactive-banana-threepenny",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Event that occurs when the user changes the selection of select element",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "eventSelection",
           "normalized": "Element-\u003eMoment a(Event a(Maybe Int))",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvent that occurs when the \u003cem\u003euser\u003c/em\u003e changes the value of the input element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "eventValue",
           "package": "reactive-banana-threepenny",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Event that occurs when the user changes the value of the input element",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "eventValue",
           "normalized": "Element-\u003eMoment a(Event a String)",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003eAnimate\u003c/a\u003e an attribute with a behavior.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:49:24 UTC 2014",
           "module": "Reactive.Banana.Threepenny",
           "name": "sink",
           "package": "reactive-banana-threepenny",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Animate an attribute with behavior",
           "hierarchy": "Reactive Banana Threepenny",
+          "indexed": "2014-03-11T19:49:24",
           "module": "Reactive.Banana.Threepenny",
           "name": "sink",
           "normalized": "ReadWriteAttr a b c-\u003eBehavior d b-\u003eMoment d a-\u003eMoment d()",

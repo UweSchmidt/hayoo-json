@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "star-to-star-contra"
+        "phrase": "star-to-star-contra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eYet another Cofunctor class declaration -- all the definitions on hackage\n carry so much luggage (which mostly subsumes the rest of this package)!\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Control.Functor.Contra",
           "name": "Contra",
           "package": "star-to-star-contra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Yet another Cofunctor class declaration all the definitions on hackage carry so much luggage which mostly subsumes the rest of this package",
           "hierarchy": "Control Functor Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Control.Functor.Contra",
           "name": "Contra",
           "package": "star-to-star-contra",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Control.Functor.Contra",
           "name": "Cofunctor",
           "package": "star-to-star-contra",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Functor Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Control.Functor.Contra",
           "name": "Cofunctor",
           "package": "star-to-star-contra",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Control.Functor.Contra",
           "name": "cofmap",
           "package": "star-to-star-contra",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Functor Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Control.Functor.Contra",
           "name": "cofmap",
           "normalized": "(a-\u003eb)-\u003ec b-\u003ec a",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eInstances for the fundamental * -\u003e * types that require\n contravariance. Another O is defined to disambiguate the two valid Functor\n and Cofunctor instances.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "Contra",
           "package": "star-to-star-contra",
@@ -95,6 +102,7 @@
         "index": {
           "description": "Instances for the fundamental types that require contravariance Another is defined to disambiguate the two valid Functor and Cofunctor instances",
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "Contra",
           "package": "star-to-star-contra",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "O",
           "package": "star-to-star-contra",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "O",
           "package": "star-to-star-contra",
@@ -128,6 +138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "O",
           "package": "star-to-star-contra",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "O",
           "package": "star-to-star-contra",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "fromO",
           "package": "star-to-star-contra",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "fromO",
           "normalized": "O a b c-\u003ea(b c)",
@@ -172,6 +186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "onO",
           "package": "star-to-star-contra",
@@ -181,6 +196,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "onO",
           "normalized": "(a(b c)-\u003ed)-\u003eO a b c-\u003ed",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "toO",
           "package": "star-to-star-contra",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "toO",
           "normalized": "a(b c)-\u003eO a b c",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:09:39 UTC 2014",
           "module": "Data.StarToStar.Contra",
           "name": "underO",
           "package": "star-to-star-contra",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Data StarToStar Contra",
+          "indexed": "2014-03-11T20:09:39",
           "module": "Data.StarToStar.Contra",
           "name": "underO",
           "normalized": "(a(b c)-\u003ed(e f))-\u003eO a b c-\u003eO d e f",

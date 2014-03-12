@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "adhoc-network"
+        "phrase": "adhoc-network",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Channel",
           "name": "ChannelID",
           "package": "adhoc-network",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Channel",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Channel",
           "name": "ChannelID",
           "package": "adhoc-network",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Channel",
           "name": "ChannelName",
           "package": "adhoc-network",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Channel",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Channel",
           "name": "ChannelName",
           "package": "adhoc-network",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "The anonymous \u003ctt\u003e\u003ca\u003eChannelName\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Channel",
           "name": "anonymous",
           "package": "adhoc-network",
@@ -71,6 +76,7 @@
         "index": {
           "description": "The anonymous ChannelName",
           "hierarchy": "Network AdHoc Channel",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Channel",
           "name": "anonymous",
           "package": "adhoc-network",
@@ -84,6 +90,7 @@
       "document": {
         "description": {
           "description": "Creates a new \u003ctt\u003e\u003ca\u003eChannelName\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Channel",
           "name": "mkChannelName",
           "package": "adhoc-network",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Creates new ChannelName",
           "hierarchy": "Network AdHoc Channel",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Channel",
           "name": "mkChannelName",
           "normalized": "String-\u003eChannelName",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "Check \u003ctt\u003e\u003ca\u003eChannelName\u003c/a\u003e\u003c/tt\u003e for validity. Return \u003ctt\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/tt\u003e if it is alright,\n   \u003ctt\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/tt\u003e err if it is illegal (err is the reason for that).\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Channel",
           "name": "validateChannelName",
           "package": "adhoc-network",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Check ChannelName for validity Return Nothing if it is alright Just err if it is illegal err is the reason for that",
           "hierarchy": "Network AdHoc Channel",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Channel",
           "name": "validateChannelName",
           "normalized": "ChannelName-\u003eMaybe String",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "Encrypted",
           "package": "adhoc-network",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "Encrypted",
           "package": "adhoc-network",
@@ -156,6 +168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "RSAEncrypted",
           "package": "adhoc-network",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "RSAEncrypted",
           "package": "adhoc-network",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "Encryptable",
           "package": "adhoc-network",
@@ -185,6 +200,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "Encryptable",
           "package": "adhoc-network",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "RSAEncryptable",
           "package": "adhoc-network",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "RSAEncryptable",
           "package": "adhoc-network",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "checkParity",
           "package": "adhoc-network",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "checkParity",
           "normalized": "a-\u003eBool",
@@ -244,6 +264,7 @@
       "document": {
         "description": {
           "description": "The key to use\nThe encrypted content to be decrypted\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "decrypt",
           "package": "adhoc-network",
@@ -254,6 +275,7 @@
         "index": {
           "description": "The key to use The encrypted content to be decrypted",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "decrypt",
           "normalized": "Word-\u003eEncrypted a-\u003eMaybe a",
@@ -269,6 +291,7 @@
       "document": {
         "description": {
           "description": "The key to use\nThe initial vector\nThe object to be encrypted\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "encrypt",
           "package": "adhoc-network",
@@ -279,6 +302,7 @@
         "index": {
           "description": "The key to use The initial vector The object to be encrypted",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "encrypt",
           "normalized": "Word-\u003eWord-\u003ea-\u003eEncrypted a",
@@ -294,6 +318,7 @@
       "document": {
         "description": {
           "description": "Randomly creates a key for DES.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "generateDESKey",
           "package": "adhoc-network",
@@ -304,6 +329,7 @@
         "index": {
           "description": "Randomly creates key for DES",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "generateDESKey",
           "normalized": "a-\u003e(Word,a)",
@@ -320,6 +346,7 @@
       "document": {
         "description": {
           "description": "Packs a stream of 8-bit Words into a stream of 64-bit Words.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "pack64",
           "package": "adhoc-network",
@@ -330,6 +357,7 @@
         "index": {
           "description": "Packs stream of bit Words into stream of bit Words",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "pack64",
           "normalized": "[Word]-\u003e[Word]",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "rsaDecrypt",
           "package": "adhoc-network",
@@ -353,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "rsaDecrypt",
           "normalized": "PrivateKey-\u003eRSAEncrypted a-\u003eMaybe a",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "Random generator to generate padding\nThe \u003ctt\u003e\u003ca\u003eCertificate\u003c/a\u003e\u003c/tt\u003e to use for encryption\nData to be encrypted\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "rsaEncrypt",
           "package": "adhoc-network",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Random generator to generate padding The Certificate to use for encryption Data to be encrypted",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "rsaEncrypt",
           "normalized": "a-\u003eCertificate-\u003eb-\u003eRSAEncrypted b",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "splitBlock",
           "package": "adhoc-network",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "splitBlock",
           "normalized": "Int-\u003e[Word]-\u003e[[Word]]",
@@ -419,6 +453,7 @@
       "document": {
         "description": {
           "description": "Converts a list of 64-bit words into a list of 8-bit words.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Encryption",
           "name": "unpack64",
           "package": "adhoc-network",
@@ -429,6 +464,7 @@
         "index": {
           "description": "Converts list of bit words into list of bit words",
           "hierarchy": "Network AdHoc Encryption",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Encryption",
           "name": "unpack64",
           "normalized": "[Word]-\u003e[Word]",
@@ -444,6 +480,7 @@
       "document": {
         "description": {
           "description": "Generates the tree of \u003ctt\u003eAbstractElement\u003c/tt\u003es for an anonymous message.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Generator",
           "name": "genAnonymous",
           "package": "adhoc-network",
@@ -454,6 +491,7 @@
         "index": {
           "description": "Generates the tree of AbstractElement for an anonymous message",
           "hierarchy": "Network AdHoc Generator",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Generator",
           "name": "genAnonymous",
           "normalized": "Bool-\u003eMaybe UserID-\u003eMaybe MessageID-\u003eString-\u003e[Attachment]-\u003eUTCTime-\u003eAbstractElement",
@@ -470,6 +508,7 @@
       "document": {
         "description": {
           "description": "Generates the tree of \u003ctt\u003eAbstractElement\u003c/tt\u003es for an obscure message.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Generator",
           "name": "genObscure",
           "package": "adhoc-network",
@@ -480,6 +519,7 @@
         "index": {
           "description": "Generates the tree of AbstractElement for an obscure message",
           "hierarchy": "Network AdHoc Generator",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Generator",
           "name": "genObscure",
           "normalized": "UserID-\u003eMaybe MessageID-\u003eByteString-\u003eAbstractElement",
@@ -496,6 +536,7 @@
       "document": {
         "description": {
           "description": "Takes the given element and puts it into the root element of a message.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Generator",
           "name": "genRootElem",
           "package": "adhoc-network",
@@ -506,6 +547,7 @@
         "index": {
           "description": "Takes the given element and puts it into the root element of message",
           "hierarchy": "Network AdHoc Generator",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Generator",
           "name": "genRootElem",
           "normalized": "String-\u003eAbstractElement-\u003eBool-\u003eMaybe Delay-\u003eTTL-\u003eInternalSignature-\u003eAbstractElement",
@@ -522,6 +564,7 @@
       "document": {
         "description": {
           "description": "Takes an \u003ctt\u003e\u003ca\u003eInternalMessage\u003c/a\u003e\u003c/tt\u003e and generates the XML document from it.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Generator",
           "name": "generateMessage",
           "package": "adhoc-network",
@@ -532,6 +575,7 @@
         "index": {
           "description": "Takes an InternalMessage and generates the XML document from it",
           "hierarchy": "Network AdHoc Generator",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Generator",
           "name": "generateMessage",
           "normalized": "[MessageID]-\u003eInternalMessage-\u003e(String,[MessageID])",
@@ -548,6 +592,7 @@
       "document": {
         "description": {
           "description": "Takes an \u003ctt\u003eAbstractElement\u003c/tt\u003e and generates the XML document from it.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Generator",
           "name": "generateMessage'",
           "package": "adhoc-network",
@@ -558,6 +603,7 @@
         "index": {
           "description": "Takes an AbstractElement and generates the XML document from it",
           "hierarchy": "Network AdHoc Generator",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Generator",
           "name": "generateMessage'",
           "normalized": "AbstractElement-\u003eString",
@@ -573,6 +619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "Attachment",
           "package": "adhoc-network",
@@ -581,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "Attachment",
           "package": "adhoc-network",
@@ -594,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "CipherType",
           "package": "adhoc-network",
@@ -602,6 +651,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "CipherType",
           "package": "adhoc-network",
@@ -616,6 +666,7 @@
       "document": {
         "description": {
           "description": "The message-delay can be represented by this type.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "Delay",
           "package": "adhoc-network",
@@ -625,6 +676,7 @@
         "index": {
           "description": "The message-delay can be represented by this type",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "Delay",
           "package": "adhoc-network",
@@ -638,6 +690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "EncryptedAttachment",
           "package": "adhoc-network",
@@ -646,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "EncryptedAttachment",
           "package": "adhoc-network",
@@ -660,6 +714,7 @@
       "document": {
         "description": {
           "description": "An external message.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "ExternalMessage",
           "package": "adhoc-network",
@@ -669,6 +724,7 @@
         "index": {
           "description": "An external message",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "ExternalMessage",
           "package": "adhoc-network",
@@ -682,6 +738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "FloodContent",
           "package": "adhoc-network",
@@ -690,6 +747,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "FloodContent",
           "package": "adhoc-network",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "An internal message that is subject to internal signature guidelines.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "InternalMessage",
           "package": "adhoc-network",
@@ -713,6 +772,7 @@
         "index": {
           "description": "An internal message that is subject to internal signature guidelines",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "InternalMessage",
           "package": "adhoc-network",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "MessageContent",
           "package": "adhoc-network",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "MessageContent",
           "package": "adhoc-network",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "ProtocolMessage",
           "package": "adhoc-network",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "ProtocolMessage",
           "package": "adhoc-network",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "Routed",
           "package": "adhoc-network",
@@ -776,6 +841,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "Routed",
           "package": "adhoc-network",
@@ -790,6 +856,7 @@
       "document": {
         "description": {
           "description": "TimeToLive has a maximum of 360, so 16 bit unsigned is enough to hold it\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "TTL",
           "package": "adhoc-network",
@@ -799,6 +866,7 @@
         "index": {
           "description": "TimeToLive has maximum of so bit unsigned is enough to hold it",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "TTL",
           "package": "adhoc-network",
@@ -812,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "TargetContent",
           "package": "adhoc-network",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "TargetContent",
           "package": "adhoc-network",
@@ -834,6 +904,7 @@
       "document": {
         "description": {
           "description": "An unsigned message.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "UnsignedMessage",
           "package": "adhoc-network",
@@ -843,6 +914,7 @@
         "index": {
           "description": "An unsigned message",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "UnsignedMessage",
           "package": "adhoc-network",
@@ -857,6 +929,7 @@
       "document": {
         "description": {
           "description": "Decrements the time-to-live of a message. If it sinks under zero,\n   \u003ctt\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/tt\u003e is returned. \u003ctt\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/tt\u003e \u003ctt\u003emsg\u003c/tt\u003e otherwise, where \u003ctt\u003emsg\u003c/tt\u003e has a\n   decremented ttl.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "decrementTTL",
           "package": "adhoc-network",
@@ -867,6 +940,7 @@
         "index": {
           "description": "Decrements the time-to-live of message If it sinks under zero Nothing is returned Just msg otherwise where msg has decremented ttl",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "decrementTTL",
           "normalized": "Routed a b-\u003eMaybe(Routed a b)",
@@ -883,6 +957,7 @@
       "document": {
         "description": {
           "description": "Key\nEncrypted attachment\n\u003ctt\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/tt\u003e at failure, \u003ctt\u003e\u003ca\u003eJust\u003c/a\u003e\u003c/tt\u003e when successful\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "decryptAttachment",
           "package": "adhoc-network",
@@ -893,6 +968,7 @@
         "index": {
           "description": "Key Encrypted attachment Nothing at failure Just when successful",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "decryptAttachment",
           "normalized": "Word-\u003eEncryptedAttachment-\u003eMaybe Attachment",
@@ -909,6 +985,7 @@
       "document": {
         "description": {
           "description": "Key\nIV\n\u003ctt\u003e\u003ca\u003eAttachment\u003c/a\u003e\u003c/tt\u003e to be encrypted\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "encryptAttachment",
           "package": "adhoc-network",
@@ -919,6 +996,7 @@
         "index": {
           "description": "Key IV Attachment to be encrypted",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "encryptAttachment",
           "normalized": "Word-\u003eWord-\u003eAttachment-\u003eEncryptedAttachment",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "Extracts the information from a message, that indicates, where to\n   route it.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Message",
           "name": "routeTo",
           "package": "adhoc-network",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "Extracts the information from message that indicates where to route it",
           "hierarchy": "Network AdHoc Message",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Message",
           "name": "routeTo",
           "normalized": "Routed TargetContent a-\u003e[UserID]",
@@ -961,6 +1041,7 @@
       "document": {
         "description": {
           "description": "This is just a \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.MessageID",
           "name": "MessageID",
           "package": "adhoc-network",
@@ -970,6 +1051,7 @@
         "index": {
           "description": "This is just String",
           "hierarchy": "Network AdHoc MessageID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.MessageID",
           "name": "MessageID",
           "package": "adhoc-network",
@@ -984,6 +1066,7 @@
       "document": {
         "description": {
           "description": "Generate an infinite(!) stream of \u003ctt\u003e\u003ca\u003eMessageID\u003c/a\u003e\u003c/tt\u003es.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.MessageID",
           "name": "MessageIDGenerator",
           "package": "adhoc-network",
@@ -993,6 +1076,7 @@
         "index": {
           "description": "Generate an infinite stream of MessageID",
           "hierarchy": "Network AdHoc MessageID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.MessageID",
           "name": "MessageIDGenerator",
           "package": "adhoc-network",
@@ -1007,6 +1091,7 @@
       "document": {
         "description": {
           "description": "Simplest possible generator type: counts from 0 upwards. Very insecure.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.MessageID",
           "name": "counter",
           "package": "adhoc-network",
@@ -1017,6 +1102,7 @@
         "index": {
           "description": "Simplest possible generator type counts from upwards Very insecure",
           "hierarchy": "Network AdHoc MessageID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.MessageID",
           "name": "counter",
           "package": "adhoc-network",
@@ -1030,6 +1116,7 @@
       "document": {
         "description": {
           "description": "Generates a stream of IDs by hashing an up-counting number and a random number with SHA512.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.MessageID",
           "name": "hasher",
           "package": "adhoc-network",
@@ -1040,6 +1127,7 @@
         "index": {
           "description": "Generates stream of IDs by hashing an up-counting number and random number with SHA512",
           "hierarchy": "Network AdHoc MessageID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.MessageID",
           "name": "hasher",
           "package": "adhoc-network",
@@ -1053,6 +1141,7 @@
       "document": {
         "description": {
           "description": "Generates a stream of \u003ctt\u003e\u003ca\u003eMessageID\u003c/a\u003e\u003c/tt\u003es by shuffling a sorted stream couting from 0 upwards (\u003ctt\u003e[0..]\u003c/tt\u003e).\n   \u003ctt\u003escrambler n g\u003c/tt\u003e would randomly remove the i-th element (where i is a random number between 0 and n)\n   from the sorted list and place it at the head of the result list. It deals with the following\n   elements in the same way.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.MessageID",
           "name": "scrambler",
           "package": "adhoc-network",
@@ -1063,6 +1152,7 @@
         "index": {
           "description": "Generates stream of MessageID by shuffling sorted stream couting from upwards scrambler would randomly remove the i-th element where is random number between and from the sorted list and place it at the head of the result list It deals with the following elements in the same way",
           "hierarchy": "Network AdHoc MessageID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.MessageID",
           "name": "scrambler",
           "normalized": "Int-\u003eMessageIDGenerator a",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "The XML \u003ctt\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/tt\u003e to be parsed.\n\u003ctt\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/tt\u003e \u003ctt\u003eerr\u003c/tt\u003e in case of a parsing failure;\n \u003ctt\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/tt\u003e \u003ctt\u003emsg\u003c/tt\u003e on success. \u003ctt\u003emsg\u003c/tt\u003e either is one more obscured message or\n the final message to be flooded.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseInnerMessage",
           "package": "adhoc-network",
@@ -1088,6 +1179,7 @@
         "index": {
           "description": "The XML Document to be parsed Left err in case of parsing failure Right msg on success msg either is one more obscured message or the final message to be flooded",
           "hierarchy": "Network AdHoc ParserStrict",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseInnerMessage",
           "normalized": "Document Posn-\u003eEither String(Either(UserID,RSAEncrypted String)(UTCTime,String,[Attachment]))",
@@ -1104,6 +1196,7 @@
       "document": {
         "description": {
           "description": "A validation function for signatures.\nThe XML \u003ctt\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/tt\u003e to be parsed.\n\u003ctt\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/tt\u003e \u003ctt\u003eerr\u003c/tt\u003e on failure, \u003ctt\u003eerr\u003c/tt\u003e describs the error. \u003ctt\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/tt\u003e msg on success.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseMessage",
           "package": "adhoc-network",
@@ -1114,6 +1207,7 @@
         "index": {
           "description": "validation function for signatures The XML Document to be parsed Left err on failure err describs the error Right msg on success",
           "hierarchy": "Network AdHoc ParserStrict",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseMessage",
           "normalized": "String-\u003eSignature-\u003eUserID-\u003eSignatureStatus-\u003eDocument Posn-\u003eEither String ExternalMessage",
@@ -1130,6 +1224,7 @@
       "document": {
         "description": {
           "description": "Parses a message without verifying the signature. It must only be\n   used for testing or debugging issues!\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseMessageNoValidate",
           "package": "adhoc-network",
@@ -1140,6 +1235,7 @@
         "index": {
           "description": "Parses message without verifying the signature It must only be used for testing or debugging issues",
           "hierarchy": "Network AdHoc ParserStrict",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.ParserStrict",
           "name": "parseMessageNoValidate",
           "normalized": "Document Posn-\u003eEither String ExternalMessage",
@@ -1155,6 +1251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Routing",
           "name": "Addressed",
           "package": "adhoc-network",
@@ -1163,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Routing",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Routing",
           "name": "Addressed",
           "package": "adhoc-network",
@@ -1176,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Routing",
           "name": "RoutingStrategy",
           "package": "adhoc-network",
@@ -1184,6 +1283,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Routing",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Routing",
           "name": "RoutingStrategy",
           "package": "adhoc-network",
@@ -1198,6 +1298,7 @@
       "document": {
         "description": {
           "description": "The \u003ctt\u003e\u003ca\u003eRoutingStrategy\u003c/a\u003e\u003c/tt\u003e to locate users.\nThe data to be routed.\nStarting-points and target-data of routes and,\n   optionally, an addressed, failed-to-route datagram.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Routing",
           "name": "route",
           "package": "adhoc-network",
@@ -1208,6 +1309,7 @@
         "index": {
           "description": "The RoutingStrategy to locate users The data to be routed Starting-points and target-data of routes and optionally an addressed failed-to-route datagram",
           "hierarchy": "Network AdHoc Routing",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Routing",
           "name": "route",
           "normalized": "a-\u003eb-\u003e(Map SockAddr b,Maybe b)",
@@ -1223,6 +1325,7 @@
       "document": {
         "description": {
           "description": "Find routes for many users. The first object in the tuple maps nodes to a\n   list of users that should be reached over it. The second one is a list of\n   users that couldn't be reached.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Routing",
           "name": "routeMulti",
           "package": "adhoc-network",
@@ -1233,6 +1336,7 @@
         "index": {
           "description": "Find routes for many users The first object in the tuple maps nodes to list of users that should be reached over it The second one is list of users that couldn be reached",
           "hierarchy": "Network AdHoc Routing",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Routing",
           "name": "routeMulti",
           "normalized": "[UserID]-\u003ea-\u003e(Map SockAddr[UserID],[UserID])",
@@ -1249,6 +1353,7 @@
       "document": {
         "description": {
           "description": "Tries to find a route for a given user. The \u003ctt\u003e\u003ca\u003eSockAddr\u003c/a\u003e\u003c/tt\u003e is the starting\n   point of the route.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Routing",
           "name": "routeSingle",
           "package": "adhoc-network",
@@ -1259,6 +1364,7 @@
         "index": {
           "description": "Tries to find route for given user The SockAddr is the starting point of the route",
           "hierarchy": "Network AdHoc Routing",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Routing",
           "name": "routeSingle",
           "normalized": "UserID-\u003ea-\u003eMaybe SockAddr",
@@ -1275,6 +1381,7 @@
       "document": {
         "description": {
           "description": "The signature has been received via network. The signature might be\n   knwon or not.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "ExternalSignature",
           "package": "adhoc-network",
@@ -1284,6 +1391,7 @@
         "index": {
           "description": "The signature has been received via network The signature might be knwon or not",
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "ExternalSignature",
           "package": "adhoc-network",
@@ -1298,6 +1406,7 @@
       "document": {
         "description": {
           "description": "The message has been locally created, so we know the private key.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "InternalSignature",
           "package": "adhoc-network",
@@ -1307,6 +1416,7 @@
         "index": {
           "description": "The message has been locally created so we know the private key",
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "InternalSignature",
           "package": "adhoc-network",
@@ -1321,6 +1431,7 @@
       "document": {
         "description": {
           "description": "No signature has been given.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "NoSignature",
           "package": "adhoc-network",
@@ -1330,6 +1441,7 @@
         "index": {
           "description": "No signature has been given",
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "NoSignature",
           "package": "adhoc-network",
@@ -1343,6 +1455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "SignType",
           "package": "adhoc-network",
@@ -1351,6 +1464,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "SignType",
           "package": "adhoc-network",
@@ -1364,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "Signature",
           "package": "adhoc-network",
@@ -1372,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "Signature",
           "package": "adhoc-network",
@@ -1385,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "SignatureStatus",
           "package": "adhoc-network",
@@ -1393,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "SignatureStatus",
           "package": "adhoc-network",
@@ -1406,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "ToInternalSignature",
           "package": "adhoc-network",
@@ -1414,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "ToInternalSignature",
           "package": "adhoc-network",
@@ -1428,6 +1548,7 @@
       "document": {
         "description": {
           "description": "Calculates the concatenation of all text nodes in the list of contents, except for receiver elements\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "getHashString",
           "package": "adhoc-network",
@@ -1438,6 +1559,7 @@
         "index": {
           "description": "Calculates the concatenation of all text nodes in the list of contents except for receiver elements",
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "getHashString",
           "normalized": "[Content a]-\u003eString",
@@ -1453,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "toInternal",
           "package": "adhoc-network",
@@ -1462,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "toInternal",
           "normalized": "a-\u003eInternalSignature",
@@ -1478,6 +1602,7 @@
       "document": {
         "description": {
           "description": "Given a certificate, this function verifies the Signature of a \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.Signature",
           "name": "verifySignature",
           "package": "adhoc-network",
@@ -1488,6 +1613,7 @@
         "index": {
           "description": "Given certificate this function verifies the Signature of String",
           "hierarchy": "Network AdHoc Signature",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.Signature",
           "name": "verifySignature",
           "normalized": "String-\u003eSignature-\u003eCertificate-\u003eSignatureStatus",
@@ -1503,6 +1629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.UserID",
           "name": "UserID",
           "package": "adhoc-network",
@@ -1511,6 +1638,7 @@
         },
         "index": {
           "hierarchy": "Network AdHoc UserID",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.UserID",
           "name": "UserID",
           "package": "adhoc-network",
@@ -1525,6 +1653,7 @@
       "document": {
         "description": {
           "description": "An escaper used to escape special characters, e.g. '\u003c', from XML.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.XMLRenderer",
           "name": "escaper",
           "package": "adhoc-network",
@@ -1535,6 +1664,7 @@
         "index": {
           "description": "An escaper used to escape special characters e.g from XML",
           "hierarchy": "Network AdHoc XMLRenderer",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.XMLRenderer",
           "name": "escaper",
           "package": "adhoc-network",
@@ -1548,6 +1678,7 @@
       "document": {
         "description": {
           "description": "Given a \u003ctt\u003e\u003ca\u003eDocument\u003c/a\u003e\u003c/tt\u003e, this function converts it into a fully valid XML\n   \u003ctt\u003e\u003ca\u003eString\u003c/a\u003e\u003c/tt\u003e.\n",
+          "indexed": "Tue Mar 11 17:08:14 UTC 2014",
           "module": "Network.AdHoc.XMLRenderer",
           "name": "renderDocument",
           "package": "adhoc-network",
@@ -1558,6 +1689,7 @@
         "index": {
           "description": "Given Document this function converts it into fully valid XML String",
           "hierarchy": "Network AdHoc XMLRenderer",
+          "indexed": "2014-03-11T17:08:14",
           "module": "Network.AdHoc.XMLRenderer",
           "name": "renderDocument",
           "normalized": "Document a-\u003eString",

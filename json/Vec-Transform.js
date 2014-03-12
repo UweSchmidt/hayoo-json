@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Vec-Transform"
+        "phrase": "Vec-Transform",
+        "type": "phrase"
       },
       "type": "context"
     }

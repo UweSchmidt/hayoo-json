@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "sequential-index"
+        "phrase": "sequential-index",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "Open",
           "package": "sequential-index",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "Open",
           "package": "sequential-index",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "exponent",
           "package": "sequential-index",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "exponent",
           "normalized": "SequentialIndex-\u003eInt",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "fromByteString",
           "package": "sequential-index",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eMaybe SequentialIndex",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "fromClosed",
           "package": "sequential-index",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "fromClosed",
           "normalized": "SequentialIndex-\u003eMaybe SequentialIndex",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "leftChild",
           "package": "sequential-index",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "leftChild",
           "normalized": "SequentialIndex-\u003eSequentialIndex",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "mantissa",
           "package": "sequential-index",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "mantissa",
           "normalized": "SequentialIndex-\u003eInteger",
@@ -178,6 +192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "parent",
           "package": "sequential-index",
@@ -187,6 +202,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "parent",
           "normalized": "SequentialIndex-\u003eMaybe SequentialIndex",
@@ -201,6 +217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "prefixBits",
           "package": "sequential-index",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "prefixBits",
           "normalized": "Int-\u003eInteger-\u003eSequentialIndex-\u003eSequentialIndex",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "rightChild",
           "package": "sequential-index",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "rightChild",
           "normalized": "SequentialIndex-\u003eSequentialIndex",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "root",
           "package": "sequential-index",
@@ -258,6 +279,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "root",
           "package": "sequential-index",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "sequentialIndex",
           "package": "sequential-index",
@@ -279,6 +302,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "sequentialIndex",
           "normalized": "Int-\u003eInteger-\u003eSequentialIndex",
@@ -294,6 +318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "toByteString",
           "package": "sequential-index",
@@ -303,6 +328,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "toByteString",
           "normalized": "SequentialIndex-\u003eByteString",
@@ -318,6 +344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "toClosed",
           "package": "sequential-index",
@@ -327,6 +354,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "toClosed",
           "normalized": "SequentialIndex-\u003eSequentialIndex",
@@ -342,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex.Open",
           "name": "tryFromBools",
           "package": "sequential-index",
@@ -351,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex Open",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex.Open",
           "name": "tryFromBools",
           "normalized": "[Bool]-\u003eMaybe SequentialIndex",
@@ -366,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -388,6 +420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn arbitrary-precision number between 0.0 and 1.0. To create new numbers,\n use \u003ccode\u003e\u003ca\u003ebetween\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEach number consist of a \u003ccode\u003e\u003ca\u003emantissa\u003c/a\u003e\u003c/code\u003e (\u003e= 0) and an \u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e (\u003e 0), so that\n its numeric value equals \u003ccode\u003emantissa x * 2 ^ (1 - exponent x)\u003c/code\u003e. The constraint\n that it must lie between 0.0 and 1.0 is enforced in the constructors.\n\u003c/p\u003e\u003cp\u003eIt is possible to span a hypothetical tree in this number scheme. Discarding\n the last binary digit of the mantissa, which has to be a 1, each digit of\n the mantissa denotes a branch in this hypothetical binary tree. So a whole\n \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e (if it ends with 1) corresponds with a path in a binary\n tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -397,6 +430,7 @@
         "index": {
           "description": "An arbitrary-precision number between and To create new numbers use between Each number consist of mantissa and an exponent so that its numeric value equals mantissa exponent The constraint that it must lie between and is enforced in the constructors It is possible to span hypothetical tree in this number scheme Discarding the last binary digit of the mantissa which has to be each digit of the mantissa denotes branch in this hypothetical binary tree So whole SequentialIndex if it ends with corresponds with path in binary tree",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "SequentialIndex",
           "package": "sequential-index",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute a number right in the middle of the arguments.\n\u003c/p\u003e\u003cpre\u003e(x + y) / 2\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "between",
           "package": "sequential-index",
@@ -421,6 +456,7 @@
         "index": {
           "description": "Compute number right in the middle of the arguments",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "between",
           "normalized": "SequentialIndex-\u003eSequentialIndex-\u003eSequentialIndex",
@@ -436,6 +472,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a number from a list of fixed-width mantissa segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "build",
           "package": "sequential-index",
@@ -446,6 +483,7 @@
         "index": {
           "description": "Build number from list of fixed-width mantissa segments",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "build",
           "normalized": "Int-\u003e[Integer]-\u003eSequentialIndex",
@@ -461,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuild a number from a list of fixed-width mantissa segments.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "buildBits",
           "package": "sequential-index",
@@ -471,6 +510,7 @@
         "index": {
           "description": "Build number from list of fixed-width mantissa segments",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "buildBits",
           "normalized": "[a]-\u003eSequentialIndex",
@@ -487,6 +527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the exponent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "exponent",
           "package": "sequential-index",
@@ -497,6 +538,7 @@
         "index": {
           "description": "Extracts the exponent",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "exponent",
           "normalized": "SequentialIndex-\u003eInt",
@@ -512,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e from its binary representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "fromByteString",
           "package": "sequential-index",
@@ -522,6 +565,7 @@
         "index": {
           "description": "Convert SequentialIndex from its binary representation",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "fromByteString",
           "normalized": "ByteString-\u003eMaybe SequentialIndex",
@@ -538,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the left child of the current path in the hypothetical tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "leftChild",
           "package": "sequential-index",
@@ -548,6 +593,7 @@
         "index": {
           "description": "Get the left child of the current path in the hypothetical tree",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "leftChild",
           "normalized": "SequentialIndex-\u003eMaybe SequentialIndex",
@@ -564,6 +610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts the mantissa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "mantissa",
           "package": "sequential-index",
@@ -574,6 +621,7 @@
         "index": {
           "description": "Extracts the mantissa",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "mantissa",
           "normalized": "SequentialIndex-\u003eInteger",
@@ -589,6 +637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe highest possible number: 1.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "one",
           "package": "sequential-index",
@@ -599,6 +648,7 @@
         "index": {
           "description": "The highest possible number",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "one",
           "package": "sequential-index",
@@ -612,6 +662,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the parent of the current path in the hypothetical tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "parent",
           "package": "sequential-index",
@@ -622,6 +673,7 @@
         "index": {
           "description": "Get the parent of the current path in the hypothetical tree",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "parent",
           "normalized": "SequentialIndex-\u003eMaybe SequentialIndex",
@@ -637,6 +689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd digits in front of the mantissa.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "prefixBits",
           "package": "sequential-index",
@@ -647,6 +700,7 @@
         "index": {
           "description": "Add digits in front of the mantissa",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "prefixBits",
           "normalized": "Int-\u003eInteger-\u003eSequentialIndex-\u003eSequentialIndex",
@@ -663,6 +717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the right child of the current path in the hypothetical tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "rightChild",
           "package": "sequential-index",
@@ -673,6 +728,7 @@
         "index": {
           "description": "Get the right child of the current path in the hypothetical tree",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "rightChild",
           "normalized": "SequentialIndex-\u003eMaybe SequentialIndex",
@@ -689,6 +745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe root of a hypothetical binary tree.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "root",
           "package": "sequential-index",
@@ -699,6 +756,7 @@
         "index": {
           "description": "The root of hypothetical binary tree",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "root",
           "package": "sequential-index",
@@ -712,6 +770,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e from its \u003ccode\u003e\u003ca\u003emantissa\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eErrors are checked and result in a run-time error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "sequentialIndex",
           "package": "sequential-index",
@@ -722,6 +781,7 @@
         "index": {
           "description": "Construct SequentialIndex from its mantissa and exponent Errors are checked and result in run-time error",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "sequentialIndex",
           "normalized": "Integer-\u003eInt-\u003eSequentialIndex",
@@ -738,6 +798,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e to a binary representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "toByteString",
           "package": "sequential-index",
@@ -748,6 +809,7 @@
         "index": {
           "description": "Convert SequentialIndex to binary representation",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "toByteString",
           "normalized": "SequentialIndex-\u003eByteString",
@@ -764,6 +826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e from a list of boolean digits. The exponent\n equals the number of digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "tryFromBools",
           "package": "sequential-index",
@@ -774,6 +837,7 @@
         "index": {
           "description": "Construct SequentialIndex from list of boolean digits The exponent equals the number of digits",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "tryFromBools",
           "normalized": "[Bool]-\u003eMaybe SequentialIndex",
@@ -790,6 +854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a \u003ccode\u003e\u003ca\u003eSequentialIndex\u003c/a\u003e\u003c/code\u003e from its \u003ccode\u003e\u003ca\u003emantissa\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eexponent\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eErrors are not checked.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "unsafeSequentialIndex",
           "package": "sequential-index",
@@ -800,6 +865,7 @@
         "index": {
           "description": "Construct SequentialIndex from its mantissa and exponent Errors are not checked",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "unsafeSequentialIndex",
           "normalized": "Integer-\u003eInt-\u003eSequentialIndex",
@@ -816,6 +882,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lowest possible number: 0.0.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:59:53 UTC 2014",
           "module": "Data.SequentialIndex",
           "name": "zero",
           "package": "sequential-index",
@@ -826,6 +893,7 @@
         "index": {
           "description": "The lowest possible number",
           "hierarchy": "Data SequentialIndex",
+          "indexed": "2014-03-11T19:59:53",
           "module": "Data.SequentialIndex",
           "name": "zero",
           "package": "sequential-index",

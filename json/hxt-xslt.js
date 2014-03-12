@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hxt-xslt"
+        "phrase": "hxt-xslt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe transformation functions for XSLT transformation of XML documents\n\u003c/p\u003e\u003cp\u003eExports only two pure functions \u003ccode\u003e\u003ca\u003eapplyStylesheet\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eapplyStylesheetWParams\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "Application",
           "package": "hxt-xslt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The transformation functions for XSLT transformation of XML documents Exports only two pure functions applyStylesheet and applyStylesheetWParams",
           "hierarchy": "Text XML HXT XSLT Application",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "Application",
           "package": "hxt-xslt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "XPathParams",
           "package": "hxt-xslt",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Application",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "XPathParams",
           "package": "hxt-xslt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "applyStylesheet",
           "package": "hxt-xslt",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Application",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "applyStylesheet",
           "normalized": "CompiledStylesheet-\u003eXmlTree-\u003e[XmlTree]",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "applyStylesheetWParams",
           "package": "hxt-xslt",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Application",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Application",
           "name": "applyStylesheetWParams",
           "normalized": "XPathParams-\u003eCompiledStylesheet-\u003eXmlTree-\u003e[XmlTree]",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCommon imports and functions for HXSLT\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "Common",
           "package": "hxt-xslt",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Common imports and functions for HXSLT",
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "Common",
           "package": "hxt-xslt",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "ExName",
           "package": "hxt-xslt",
@@ -141,6 +152,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "ExName",
           "package": "hxt-xslt",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "UriMapping",
           "package": "hxt-xslt",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "UriMapping",
           "package": "hxt-xslt",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "ExName",
           "package": "hxt-xslt",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "ExName",
           "package": "hxt-xslt",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "collectTextnodes",
           "package": "hxt-xslt",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "collectTextnodes",
           "normalized": "[XmlTree]-\u003eString",
@@ -221,6 +239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "computeNTestPriority",
           "package": "hxt-xslt",
@@ -230,6 +249,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "computeNTestPriority",
           "normalized": "NodeTest-\u003eFloat",
@@ -245,6 +265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "computePriority",
           "package": "hxt-xslt",
@@ -254,6 +275,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "computePriority",
           "normalized": "Expr-\u003eFloat",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "concatExpr",
           "package": "hxt-xslt",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "concatExpr",
           "normalized": "[Expr]-\u003eExpr",
@@ -293,6 +317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "exLocal",
           "package": "hxt-xslt",
@@ -302,6 +327,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "exLocal",
           "normalized": "ExName-\u003eString",
@@ -317,6 +343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "exUri",
           "package": "hxt-xslt",
@@ -326,6 +353,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "exUri",
           "normalized": "ExName-\u003eString",
@@ -341,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "expandNSDecls",
           "package": "hxt-xslt",
@@ -350,6 +379,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "expandNSDecls",
           "normalized": "XmlTree-\u003eXmlTree",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fetchAttribute",
           "package": "hxt-xslt",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fetchAttribute",
           "normalized": "a-\u003eQName-\u003eString",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fetchAttributeWDefault",
           "package": "hxt-xslt",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fetchAttributeWDefault",
           "normalized": "a-\u003eQName-\u003eString-\u003eString",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "filterTree",
           "package": "hxt-xslt",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "filterTree",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003eMaybe(b a)",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "filterTreeCtx",
           "package": "hxt-xslt",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "filterTreeCtx",
           "normalized": "(a-\u003eb-\u003e(a,Bool))-\u003ea-\u003ec b-\u003eMaybe(c b)",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fromJustErr",
           "package": "hxt-xslt",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "fromJustErr",
           "normalized": "String-\u003eMaybe a-\u003ea",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "getUriMap",
           "package": "hxt-xslt",
@@ -494,6 +535,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "getUriMap",
           "normalized": "a-\u003eUriMapping",
@@ -509,6 +551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "hasAttribute",
           "package": "hxt-xslt",
@@ -518,6 +561,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "hasAttribute",
           "normalized": "a-\u003eQName-\u003eBool",
@@ -533,6 +577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isAttrType",
           "package": "hxt-xslt",
@@ -542,6 +587,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isAttrType",
           "normalized": "QName-\u003ea-\u003eBool",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isElemType",
           "package": "hxt-xslt",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isElemType",
           "normalized": "QName-\u003ea-\u003eBool",
@@ -581,6 +629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isMatchExpr",
           "package": "hxt-xslt",
@@ -590,6 +639,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isMatchExpr",
           "normalized": "Expr-\u003eBool",
@@ -605,6 +655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isNsAttr",
           "package": "hxt-xslt",
@@ -614,6 +665,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isNsAttr",
           "normalized": "XmlTree-\u003eBool",
@@ -629,6 +681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isWhitespaceNode",
           "package": "hxt-xslt",
@@ -638,6 +691,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "isWhitespaceNode",
           "normalized": "a-\u003eBool",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "lookupPrefix",
           "package": "hxt-xslt",
@@ -662,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "lookupPrefix",
           "normalized": "UriMapping-\u003eString-\u003eString",
@@ -677,6 +733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mapTreeCtx",
           "package": "hxt-xslt",
@@ -686,6 +743,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mapTreeCtx",
           "normalized": "(a-\u003eb-\u003e(a,c))-\u003ea-\u003ed b-\u003ed c",
@@ -701,6 +759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkBoolExpr",
           "package": "hxt-xslt",
@@ -710,6 +769,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkBoolExpr",
           "normalized": "Expr-\u003eExpr",
@@ -725,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkExName",
           "package": "hxt-xslt",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkExName",
           "normalized": "QName-\u003eExName",
@@ -749,6 +811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkLiteralExpr",
           "package": "hxt-xslt",
@@ -758,6 +821,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkLiteralExpr",
           "normalized": "String-\u003eExpr",
@@ -773,6 +837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkStringExpr",
           "package": "hxt-xslt",
@@ -782,6 +847,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkStringExpr",
           "normalized": "Expr-\u003eExpr",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkTrueExpr",
           "package": "hxt-xslt",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "mkTrueExpr",
           "package": "hxt-xslt",
@@ -819,6 +887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "parseExName",
           "package": "hxt-xslt",
@@ -828,6 +897,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "parseExName",
           "normalized": "UriMapping-\u003eString-\u003eExName",
@@ -843,6 +913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "readWDefault",
           "package": "hxt-xslt",
@@ -852,6 +923,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "readWDefault",
           "normalized": "a-\u003eString-\u003ea",
@@ -867,6 +939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "setAttribute",
           "package": "hxt-xslt",
@@ -876,6 +949,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "setAttribute",
           "normalized": "QName-\u003eString-\u003ea-\u003ea",
@@ -891,6 +965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "setUriMap",
           "package": "hxt-xslt",
@@ -900,6 +975,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "setUriMap",
           "normalized": "UriMapping-\u003ea-\u003ea",
@@ -915,6 +991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "showTrees",
           "package": "hxt-xslt",
@@ -924,6 +1001,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "showTrees",
           "normalized": "[XmlTree]-\u003eString",
@@ -939,6 +1017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "splitExpr",
           "package": "hxt-xslt",
@@ -948,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "splitExpr",
           "normalized": "Expr-\u003e[Expr]",
@@ -963,6 +1043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "splitMatchByPrio",
           "package": "hxt-xslt",
@@ -972,6 +1053,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "splitMatchByPrio",
           "normalized": "Expr-\u003e[(Float,Expr)]",
@@ -987,6 +1069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "tryFetchAttribute",
           "package": "hxt-xslt",
@@ -996,6 +1079,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "tryFetchAttribute",
           "normalized": "a-\u003eQName-\u003eMaybe String",
@@ -1011,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "unionExpr",
           "package": "hxt-xslt",
@@ -1020,6 +1105,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "unionExpr",
           "normalized": "[Expr]-\u003eExpr",
@@ -1035,6 +1121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "unzipTree",
           "package": "hxt-xslt",
@@ -1044,6 +1131,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "unzipTree",
           "normalized": "a(b,c)-\u003e(a b,a c)",
@@ -1059,6 +1147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "uriMap2Attrs",
           "package": "hxt-xslt",
@@ -1068,6 +1157,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "uriMap2Attrs",
           "normalized": "UriMapping-\u003e[XmlTree]",
@@ -1083,6 +1173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "zipTree",
           "package": "hxt-xslt",
@@ -1092,6 +1183,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "zipTree",
           "normalized": "a b-\u003ea c-\u003ea(b,c)",
@@ -1107,6 +1199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "zipTreeWith",
           "package": "hxt-xslt",
@@ -1116,6 +1209,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Common",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Common",
           "name": "zipTreeWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003ed a-\u003ed b-\u003ed c",
@@ -1132,6 +1226,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe compilation functions for XSLT stylesheets\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "Compilation",
           "package": "hxt-xslt",
@@ -1141,6 +1236,7 @@
         "index": {
           "description": "The compilation functions for XSLT stylesheets",
           "hierarchy": "Text XML HXT XSLT Compilation",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "Compilation",
           "package": "hxt-xslt",
@@ -1154,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "assembleStylesheet",
           "package": "hxt-xslt",
@@ -1163,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Compilation",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "assembleStylesheet",
           "normalized": "XmlTree-\u003e[CompiledStylesheet]-\u003eCompiledStylesheet",
@@ -1178,6 +1276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "prepareXSLTDocument",
           "package": "hxt-xslt",
@@ -1187,6 +1286,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Compilation",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Compilation",
           "name": "prepareXSLTDocument",
           "normalized": "XmlTree-\u003eXmlTree",
@@ -1203,6 +1303,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for compiled stylesheets\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -1212,6 +1313,7 @@
         "index": {
           "description": "Types for compiled stylesheets",
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -1225,6 +1327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "AttributeSet",
           "package": "hxt-xslt",
@@ -1233,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "AttributeSet",
           "package": "hxt-xslt",
@@ -1246,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -1254,6 +1359,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -1267,6 +1373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "ComputedQName",
           "package": "hxt-xslt",
@@ -1275,6 +1382,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "ComputedQName",
           "package": "hxt-xslt",
@@ -1288,6 +1396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchExpr",
           "package": "hxt-xslt",
@@ -1296,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchExpr",
           "package": "hxt-xslt",
@@ -1309,6 +1419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchRule",
           "package": "hxt-xslt",
@@ -1317,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchRule",
           "package": "hxt-xslt",
@@ -1330,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NSAliasing",
           "package": "hxt-xslt",
@@ -1338,6 +1451,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NSAliasing",
           "package": "hxt-xslt",
@@ -1351,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NTest",
           "package": "hxt-xslt",
@@ -1359,6 +1474,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NTest",
           "package": "hxt-xslt",
@@ -1372,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NamedRule",
           "package": "hxt-xslt",
@@ -1380,6 +1497,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NamedRule",
           "package": "hxt-xslt",
@@ -1393,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SelectExpr",
           "package": "hxt-xslt",
@@ -1401,6 +1520,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SelectExpr",
           "package": "hxt-xslt",
@@ -1414,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SortKey",
           "package": "hxt-xslt",
@@ -1422,6 +1543,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SortKey",
           "package": "hxt-xslt",
@@ -1435,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "StringExpr",
           "package": "hxt-xslt",
@@ -1443,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "StringExpr",
           "package": "hxt-xslt",
@@ -1456,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Strips",
           "package": "hxt-xslt",
@@ -1464,6 +1589,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Strips",
           "package": "hxt-xslt",
@@ -1477,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Template",
           "package": "hxt-xslt",
@@ -1485,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Template",
           "package": "hxt-xslt",
@@ -1498,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TestExpr",
           "package": "hxt-xslt",
@@ -1506,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TestExpr",
           "package": "hxt-xslt",
@@ -1519,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "UsedAttribSets",
           "package": "hxt-xslt",
@@ -1527,6 +1658,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "UsedAttribSets",
           "package": "hxt-xslt",
@@ -1540,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Variable",
           "package": "hxt-xslt",
@@ -1548,6 +1681,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "Variable",
           "package": "hxt-xslt",
@@ -1561,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "When",
           "package": "hxt-xslt",
@@ -1569,6 +1704,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "When",
           "package": "hxt-xslt",
@@ -1582,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "AttribSet",
           "package": "hxt-xslt",
@@ -1591,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "AttribSet",
           "package": "hxt-xslt",
@@ -1604,6 +1742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompQName",
           "package": "hxt-xslt",
@@ -1613,6 +1752,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompQName",
           "package": "hxt-xslt",
@@ -1626,6 +1766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompStylesheet",
           "package": "hxt-xslt",
@@ -1635,6 +1776,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "CompStylesheet",
           "normalized": "CompStylesheet[MatchRule](Map ExName NamedRule)(Map ExName Variable)(Map ExName[AttributeSet])[Strips]NSAliasing",
@@ -1650,6 +1792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "LiteralQName",
           "package": "hxt-xslt",
@@ -1659,6 +1802,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "LiteralQName",
           "package": "hxt-xslt",
@@ -1672,6 +1816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatRule",
           "package": "hxt-xslt",
@@ -1681,6 +1826,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatRule",
           "normalized": "MatRule MatchExpr Float(Maybe ExName)[MatchRule][Variable]Template",
@@ -1696,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchExpr",
           "package": "hxt-xslt",
@@ -1705,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MatchExpr",
           "package": "hxt-xslt",
@@ -1718,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MkVar",
           "package": "hxt-xslt",
@@ -1727,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "MkVar",
           "package": "hxt-xslt",
@@ -1740,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NamRule",
           "package": "hxt-xslt",
@@ -1749,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "NamRule",
           "normalized": "NamRule ExName[Variable]Template",
@@ -1764,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SelectExpr",
           "package": "hxt-xslt",
@@ -1773,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SelectExpr",
           "package": "hxt-xslt",
@@ -1786,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SortK",
           "package": "hxt-xslt",
@@ -1795,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "SortK",
           "package": "hxt-xslt",
@@ -1808,6 +1964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "StringExpr",
           "package": "hxt-xslt",
@@ -1817,6 +1974,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "StringExpr",
           "package": "hxt-xslt",
@@ -1830,6 +1988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplApply",
           "package": "hxt-xslt",
@@ -1839,6 +1998,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplApply",
           "normalized": "TemplApply(Maybe SelectExpr)(Maybe ExName)(Map ExName Variable)[SortKey]",
@@ -1854,6 +2014,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplApplyImports",
           "package": "hxt-xslt",
@@ -1863,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplApplyImports",
           "package": "hxt-xslt",
@@ -1876,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplAttribute",
           "package": "hxt-xslt",
@@ -1885,6 +2048,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplAttribute",
           "package": "hxt-xslt",
@@ -1898,6 +2062,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCall",
           "package": "hxt-xslt",
@@ -1907,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCall",
           "package": "hxt-xslt",
@@ -1920,6 +2086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplChoose",
           "package": "hxt-xslt",
@@ -1929,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplChoose",
           "normalized": "TemplChoose[When]",
@@ -1944,6 +2112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplComment",
           "package": "hxt-xslt",
@@ -1953,6 +2122,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplComment",
           "package": "hxt-xslt",
@@ -1966,6 +2136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplComposite",
           "package": "hxt-xslt",
@@ -1975,6 +2146,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplComposite",
           "normalized": "TemplComposite[Template]",
@@ -1990,6 +2162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCopy",
           "package": "hxt-xslt",
@@ -1999,6 +2172,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCopy",
           "package": "hxt-xslt",
@@ -2012,6 +2186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCopyOf",
           "package": "hxt-xslt",
@@ -2021,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplCopyOf",
           "package": "hxt-xslt",
@@ -2034,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplElement",
           "package": "hxt-xslt",
@@ -2043,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplElement",
           "package": "hxt-xslt",
@@ -2056,6 +2234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplForEach",
           "package": "hxt-xslt",
@@ -2065,6 +2244,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplForEach",
           "normalized": "TemplForEach SelectExpr[SortKey]Template",
@@ -2080,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplMessage",
           "package": "hxt-xslt",
@@ -2089,6 +2270,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplMessage",
           "package": "hxt-xslt",
@@ -2102,6 +2284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplProcInstr",
           "package": "hxt-xslt",
@@ -2111,6 +2294,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplProcInstr",
           "package": "hxt-xslt",
@@ -2124,6 +2308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplText",
           "package": "hxt-xslt",
@@ -2133,6 +2318,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplText",
           "package": "hxt-xslt",
@@ -2146,6 +2332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplValueOf",
           "package": "hxt-xslt",
@@ -2155,6 +2342,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplValueOf",
           "package": "hxt-xslt",
@@ -2168,6 +2356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplVariable",
           "package": "hxt-xslt",
@@ -2177,6 +2366,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TemplVariable",
           "package": "hxt-xslt",
@@ -2190,6 +2380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TestExpr",
           "package": "hxt-xslt",
@@ -2199,6 +2390,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "TestExpr",
           "package": "hxt-xslt",
@@ -2212,6 +2404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "UsedAttribSets",
           "package": "hxt-xslt",
@@ -2221,6 +2414,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "UsedAttribSets",
           "normalized": "UsedAttribSets[ExName]",
@@ -2236,6 +2430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "WhenPart",
           "package": "hxt-xslt",
@@ -2245,6 +2440,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "WhenPart",
           "package": "hxt-xslt",
@@ -2258,6 +2454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "addAlias",
           "package": "hxt-xslt",
@@ -2267,6 +2464,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "addAlias",
           "normalized": "UriMapping-\u003eString-\u003eString-\u003eNSAliasing-\u003eNSAliasing",
@@ -2282,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "aliasUriMapping",
           "package": "hxt-xslt",
@@ -2291,6 +2490,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "aliasUriMapping",
           "normalized": "NSAliasing-\u003eUriMapping-\u003eUriMapping",
@@ -2306,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedPreserves",
           "package": "hxt-xslt",
@@ -2315,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedPreserves",
           "normalized": "[NTest]-\u003eStrips-\u003eStrips",
@@ -2330,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedSpaces",
           "package": "hxt-xslt",
@@ -2339,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedSpaces",
           "normalized": "Bool-\u003e[NTest]-\u003eStrips-\u003eStrips",
@@ -2354,6 +2558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedStrips",
           "package": "hxt-xslt",
@@ -2363,6 +2568,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "feedStrips",
           "normalized": "[NTest]-\u003eStrips-\u003eStrips",
@@ -2378,6 +2584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getAliases",
           "package": "hxt-xslt",
@@ -2387,6 +2594,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getAliases",
           "normalized": "CompiledStylesheet-\u003eNSAliasing",
@@ -2402,6 +2610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getAttributeSets",
           "package": "hxt-xslt",
@@ -2411,6 +2620,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getAttributeSets",
           "normalized": "CompiledStylesheet-\u003eMap ExName[AttributeSet]",
@@ -2426,6 +2636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getMatchRules",
           "package": "hxt-xslt",
@@ -2435,6 +2646,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getMatchRules",
           "normalized": "CompiledStylesheet-\u003e[MatchRule]",
@@ -2450,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getNamedRules",
           "package": "hxt-xslt",
@@ -2459,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getNamedRules",
           "normalized": "CompiledStylesheet-\u003eMap ExName NamedRule",
@@ -2474,6 +2688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleImports",
           "package": "hxt-xslt",
@@ -2483,6 +2698,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleImports",
           "normalized": "MatchRule-\u003e[MatchRule]",
@@ -2498,6 +2714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleMode",
           "package": "hxt-xslt",
@@ -2507,6 +2724,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleMode",
           "normalized": "MatchRule-\u003eMaybe ExName",
@@ -2522,6 +2740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleName",
           "package": "hxt-xslt",
@@ -2531,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRuleName",
           "normalized": "NamedRule-\u003eExName",
@@ -2546,6 +2766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRulePrio",
           "package": "hxt-xslt",
@@ -2555,6 +2776,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getRulePrio",
           "normalized": "MatchRule-\u003eFloat",
@@ -2570,6 +2792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getStrips",
           "package": "hxt-xslt",
@@ -2579,6 +2802,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getStrips",
           "normalized": "CompiledStylesheet-\u003e[Strips]",
@@ -2594,6 +2818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getVarName",
           "package": "hxt-xslt",
@@ -2603,6 +2828,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getVarName",
           "normalized": "Variable-\u003eExName",
@@ -2618,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getVariables",
           "package": "hxt-xslt",
@@ -2627,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "getVariables",
           "normalized": "CompiledStylesheet-\u003eMap ExName Variable",
@@ -2642,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "isParam",
           "package": "hxt-xslt",
@@ -2651,6 +2880,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "isParam",
           "normalized": "Variable-\u003eBool",
@@ -2666,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupAlias",
           "package": "hxt-xslt",
@@ -2675,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupAlias",
           "normalized": "NSAliasing-\u003eQName-\u003eQName",
@@ -2690,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupStrip",
           "package": "hxt-xslt",
@@ -2699,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupStrip",
           "normalized": "ExName-\u003e[Strips]-\u003eBool",
@@ -2714,6 +2948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupStrip1",
           "package": "hxt-xslt",
@@ -2723,6 +2958,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "lookupStrip1",
           "normalized": "ExName-\u003eStrips-\u003eMaybe Bool",
@@ -2738,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "parseNTest",
           "package": "hxt-xslt",
@@ -2747,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "parseNTest",
           "normalized": "UriMapping-\u003eString-\u003eNTest",
@@ -2762,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripDocument",
           "package": "hxt-xslt",
@@ -2771,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripDocument",
           "normalized": "[Strips]-\u003eXmlTree-\u003eXmlTree",
@@ -2786,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripSpaces",
           "package": "hxt-xslt",
@@ -2795,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripSpaces",
           "normalized": "(Bool-\u003eXNode-\u003eBool)-\u003eBool-\u003eXmlTree-\u003eXmlTree",
@@ -2810,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripStylesheet",
           "package": "hxt-xslt",
@@ -2819,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT CompiledStylesheet",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.CompiledStylesheet",
           "name": "stripStylesheet",
           "normalized": "XmlTree-\u003eXmlTree",
@@ -2835,6 +3079,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNames and constants for HXSLT\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "Names",
           "package": "hxt-xslt",
@@ -2844,6 +3089,7 @@
         "index": {
           "description": "Names and constants for HXSLT",
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "Names",
           "package": "hxt-xslt",
@@ -2857,6 +3103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "mkXsltAttribName",
           "package": "hxt-xslt",
@@ -2866,6 +3113,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "mkXsltAttribName",
           "normalized": "String-\u003eQName",
@@ -2881,6 +3129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "mkXsltName",
           "package": "hxt-xslt",
@@ -2890,6 +3139,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "mkXsltName",
           "normalized": "String-\u003eQName",
@@ -2905,6 +3155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xmlSpace",
           "package": "hxt-xslt",
@@ -2914,6 +3165,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xmlSpace",
           "package": "hxt-xslt",
@@ -2927,6 +3179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltApplyImports",
           "package": "hxt-xslt",
@@ -2936,6 +3189,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltApplyImports",
           "package": "hxt-xslt",
@@ -2949,6 +3203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltApplyTemplates",
           "package": "hxt-xslt",
@@ -2958,6 +3213,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltApplyTemplates",
           "package": "hxt-xslt",
@@ -2971,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltAttribute",
           "package": "hxt-xslt",
@@ -2980,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltAttribute",
           "package": "hxt-xslt",
@@ -2993,6 +3251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltAttributeSet",
           "package": "hxt-xslt",
@@ -3002,6 +3261,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltAttributeSet",
           "package": "hxt-xslt",
@@ -3015,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCallTemplate",
           "package": "hxt-xslt",
@@ -3024,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCallTemplate",
           "package": "hxt-xslt",
@@ -3037,6 +3299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltChoose",
           "package": "hxt-xslt",
@@ -3046,6 +3309,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltChoose",
           "package": "hxt-xslt",
@@ -3059,6 +3323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltComment",
           "package": "hxt-xslt",
@@ -3068,6 +3333,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltComment",
           "package": "hxt-xslt",
@@ -3081,6 +3347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCopy",
           "package": "hxt-xslt",
@@ -3090,6 +3357,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCopy",
           "package": "hxt-xslt",
@@ -3103,6 +3371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCopyOf",
           "package": "hxt-xslt",
@@ -3112,6 +3381,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltCopyOf",
           "package": "hxt-xslt",
@@ -3125,6 +3395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltDataType",
           "package": "hxt-xslt",
@@ -3134,6 +3405,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltDataType",
           "package": "hxt-xslt",
@@ -3147,6 +3419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltElement",
           "package": "hxt-xslt",
@@ -3156,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltElement",
           "package": "hxt-xslt",
@@ -3169,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltElements",
           "package": "hxt-xslt",
@@ -3178,6 +3453,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltElements",
           "package": "hxt-xslt",
@@ -3191,6 +3467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExlcudeResultPrefixes",
           "package": "hxt-xslt",
@@ -3200,6 +3477,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExlcudeResultPrefixes",
           "package": "hxt-xslt",
@@ -3213,6 +3491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExlcudeResultPrefixesLRE",
           "package": "hxt-xslt",
@@ -3222,6 +3501,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExlcudeResultPrefixesLRE",
           "package": "hxt-xslt",
@@ -3235,6 +3515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExtensionElementPrefixes",
           "package": "hxt-xslt",
@@ -3244,6 +3525,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExtensionElementPrefixes",
           "package": "hxt-xslt",
@@ -3257,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExtensionElementPrefixesLRE",
           "package": "hxt-xslt",
@@ -3266,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltExtensionElementPrefixesLRE",
           "package": "hxt-xslt",
@@ -3279,6 +3563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltForEach",
           "package": "hxt-xslt",
@@ -3288,6 +3573,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltForEach",
           "package": "hxt-xslt",
@@ -3301,6 +3587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltHRef",
           "package": "hxt-xslt",
@@ -3310,6 +3597,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltHRef",
           "package": "hxt-xslt",
@@ -3323,6 +3611,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltIf",
           "package": "hxt-xslt",
@@ -3332,6 +3621,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltIf",
           "package": "hxt-xslt",
@@ -3345,6 +3635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltImport",
           "package": "hxt-xslt",
@@ -3354,6 +3645,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltImport",
           "package": "hxt-xslt",
@@ -3367,6 +3659,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltInclude",
           "package": "hxt-xslt",
@@ -3376,6 +3669,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltInclude",
           "package": "hxt-xslt",
@@ -3389,6 +3683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMatch",
           "package": "hxt-xslt",
@@ -3398,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMatch",
           "package": "hxt-xslt",
@@ -3411,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMessage",
           "package": "hxt-xslt",
@@ -3420,6 +3717,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMessage",
           "package": "hxt-xslt",
@@ -3433,6 +3731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMode",
           "package": "hxt-xslt",
@@ -3442,6 +3741,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltMode",
           "package": "hxt-xslt",
@@ -3455,6 +3755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltName",
           "package": "hxt-xslt",
@@ -3464,6 +3765,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltName",
           "package": "hxt-xslt",
@@ -3477,6 +3779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltNamespace",
           "package": "hxt-xslt",
@@ -3486,6 +3789,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltNamespace",
           "package": "hxt-xslt",
@@ -3499,6 +3803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltNamespaceAlias",
           "package": "hxt-xslt",
@@ -3508,6 +3813,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltNamespaceAlias",
           "package": "hxt-xslt",
@@ -3521,6 +3827,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltOrder",
           "package": "hxt-xslt",
@@ -3530,6 +3837,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltOrder",
           "package": "hxt-xslt",
@@ -3543,6 +3851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltOtherwise",
           "package": "hxt-xslt",
@@ -3552,6 +3861,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltOtherwise",
           "package": "hxt-xslt",
@@ -3565,6 +3875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltParam",
           "package": "hxt-xslt",
@@ -3574,6 +3885,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltParam",
           "package": "hxt-xslt",
@@ -3587,6 +3899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPrefix",
           "package": "hxt-xslt",
@@ -3596,6 +3909,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPrefix",
           "package": "hxt-xslt",
@@ -3609,6 +3923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPreserveSpace",
           "package": "hxt-xslt",
@@ -3618,6 +3933,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPreserveSpace",
           "package": "hxt-xslt",
@@ -3631,6 +3947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPriority",
           "package": "hxt-xslt",
@@ -3640,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltPriority",
           "package": "hxt-xslt",
@@ -3653,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltProcInstr",
           "package": "hxt-xslt",
@@ -3662,6 +3981,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltProcInstr",
           "package": "hxt-xslt",
@@ -3675,6 +3995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltResultPrefix",
           "package": "hxt-xslt",
@@ -3684,6 +4005,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltResultPrefix",
           "package": "hxt-xslt",
@@ -3697,6 +4019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltSelect",
           "package": "hxt-xslt",
@@ -3706,6 +4029,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltSelect",
           "package": "hxt-xslt",
@@ -3719,6 +4043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltSort",
           "package": "hxt-xslt",
@@ -3728,6 +4053,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltSort",
           "package": "hxt-xslt",
@@ -3741,6 +4067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStripSpace",
           "package": "hxt-xslt",
@@ -3750,6 +4077,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStripSpace",
           "package": "hxt-xslt",
@@ -3763,6 +4091,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStylesheet",
           "package": "hxt-xslt",
@@ -3772,6 +4101,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStylesheet",
           "package": "hxt-xslt",
@@ -3785,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStylesheetPrefix",
           "package": "hxt-xslt",
@@ -3794,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltStylesheetPrefix",
           "package": "hxt-xslt",
@@ -3807,6 +4139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTemplate",
           "package": "hxt-xslt",
@@ -3816,6 +4149,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTemplate",
           "package": "hxt-xslt",
@@ -3829,6 +4163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTerminate",
           "package": "hxt-xslt",
@@ -3838,6 +4173,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTerminate",
           "package": "hxt-xslt",
@@ -3851,6 +4187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTest",
           "package": "hxt-xslt",
@@ -3860,6 +4197,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTest",
           "package": "hxt-xslt",
@@ -3873,6 +4211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltText",
           "package": "hxt-xslt",
@@ -3882,6 +4221,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltText",
           "package": "hxt-xslt",
@@ -3895,6 +4235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTransform",
           "package": "hxt-xslt",
@@ -3904,6 +4245,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltTransform",
           "package": "hxt-xslt",
@@ -3917,6 +4259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUri",
           "package": "hxt-xslt",
@@ -3926,6 +4269,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUri",
           "package": "hxt-xslt",
@@ -3939,6 +4283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUseAttributeSets",
           "package": "hxt-xslt",
@@ -3948,6 +4293,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUseAttributeSets",
           "package": "hxt-xslt",
@@ -3961,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUseAttributeSetsLRE",
           "package": "hxt-xslt",
@@ -3970,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltUseAttributeSetsLRE",
           "package": "hxt-xslt",
@@ -3983,6 +4331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltValueOf",
           "package": "hxt-xslt",
@@ -3992,6 +4341,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltValueOf",
           "package": "hxt-xslt",
@@ -4005,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVariable",
           "package": "hxt-xslt",
@@ -4014,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVariable",
           "package": "hxt-xslt",
@@ -4027,6 +4379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVersion",
           "package": "hxt-xslt",
@@ -4036,6 +4389,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVersion",
           "package": "hxt-xslt",
@@ -4049,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVersionLRE",
           "package": "hxt-xslt",
@@ -4058,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltVersionLRE",
           "package": "hxt-xslt",
@@ -4071,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltWhen",
           "package": "hxt-xslt",
@@ -4080,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltWhen",
           "package": "hxt-xslt",
@@ -4093,6 +4451,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltWithParam",
           "package": "hxt-xslt",
@@ -4102,6 +4461,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT Names",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.Names",
           "name": "xsltWithParam",
           "package": "hxt-xslt",
@@ -4116,6 +4476,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HXT arrow interface for the XSLT module\n\u003c/p\u003e\u003cp\u003eThe application programming interface to the arrow modules of the Haskell XML Toolbox.\n   This module exports all important arrows for input, output, parsing, validating and transforming XML.\n   It also exports all basic datatypes and functions of the toolbox.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "XsltArrows",
           "package": "hxt-xslt",
@@ -4125,6 +4486,7 @@
         "index": {
           "description": "The HXT arrow interface for the XSLT module The application programming interface to the arrow modules of the Haskell XML Toolbox This module exports all important arrows for input output parsing validating and transforming XML It also exports all basic datatypes and functions of the toolbox",
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "XsltArrows",
           "package": "hxt-xslt",
@@ -4138,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -4146,6 +4509,7 @@
         },
         "index": {
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "CompiledStylesheet",
           "package": "hxt-xslt",
@@ -4160,6 +4524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply a compiled XSLT stylesheet to a whole document tree\n\u003c/p\u003e\u003cp\u003eThe compiled stylesheet must have been created with \u003ccode\u003e\u003ca\u003exsltCompileStylesheet\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003exsltCompileStylesheetFromURI\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltApplyStylesheet",
           "package": "hxt-xslt",
@@ -4170,6 +4535,7 @@
         "index": {
           "description": "apply compiled XSLT stylesheet to whole document tree The compiled stylesheet must have been created with xsltCompileStylesheet or xsltCompileStylesheetFromURI",
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltApplyStylesheet",
           "normalized": "CompiledStylesheet-\u003eIOSArrow XmlTree XmlTree",
@@ -4186,6 +4552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapply an XSLT stylesheet given by an URI to a whole document tree\n\u003c/p\u003e\u003cp\u003eThe string parameter is the URI of the XSLT stylesheet.\n In case of an error during stylesheet compilation or stylesheet application\n all children of the root node are removed and\n the error status is set in the attribute list of the root node of the input document.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltApplyStylesheetFromURI",
           "package": "hxt-xslt",
@@ -4196,6 +4563,7 @@
         "index": {
           "description": "apply an XSLT stylesheet given by an URI to whole document tree The string parameter is the URI of the XSLT stylesheet In case of an error during stylesheet compilation or stylesheet application all children of the root node are removed and the error status is set in the attribute list of the root node of the input document",
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltApplyStylesheetFromURI",
           "normalized": "String-\u003eIOSArrow XmlTree XmlTree",
@@ -4212,6 +4580,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompile a document representing an XSLT stylesheet into an internal representation\n\u003c/p\u003e\u003cp\u003eThe internal representation is an abstract syntax tree for the XSLT rules.\n XSLT imports and includes are evaluated and the rules are normalized and prepared\n for easy application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltCompileStylesheet",
           "package": "hxt-xslt",
@@ -4222,6 +4591,7 @@
         "index": {
           "description": "Compile document representing an XSLT stylesheet into an internal representation The internal representation is an abstract syntax tree for the XSLT rules XSLT imports and includes are evaluated and the rules are normalized and prepared for easy application",
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltCompileStylesheet",
           "package": "hxt-xslt",
@@ -4236,6 +4606,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA convinient function for combining reading a stylesheet and compilation.\n\u003c/p\u003e\u003cp\u003eReading an XSLT stylesheet is always done without validation but with\n namespace propagation. Comments are removed from the stylesheet.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltCompileStylesheetFromURI",
           "package": "hxt-xslt",
@@ -4246,6 +4617,7 @@
         "index": {
           "description": "convinient function for combining reading stylesheet and compilation Reading an XSLT stylesheet is always done without validation but with namespace propagation Comments are removed from the stylesheet",
           "hierarchy": "Text XML HXT XSLT XsltArrows",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT.XsltArrows",
           "name": "xsltCompileStylesheetFromURI",
           "package": "hxt-xslt",
@@ -4260,6 +4632,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe HXT XSLT interface\n\u003c/p\u003e\u003cp\u003eThe application programming interface to the XSLT modules of the Haskell XML Toolbox.\n   This module exports all important arrows for XSLT processing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:54:45 UTC 2014",
           "module": "Text.XML.HXT.XSLT",
           "name": "XSLT",
           "package": "hxt-xslt",
@@ -4269,6 +4642,7 @@
         "index": {
           "description": "The HXT XSLT interface The application programming interface to the XSLT modules of the Haskell XML Toolbox This module exports all important arrows for XSLT processing",
           "hierarchy": "Text XML HXT XSLT",
+          "indexed": "2014-03-11T18:54:45",
           "module": "Text.XML.HXT.XSLT",
           "name": "XSLT",
           "package": "hxt-xslt",

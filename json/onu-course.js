@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "onu-course"
+        "phrase": "onu-course",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "Pictures",
           "package": "onu-course",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "Pictures",
           "package": "onu-course",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "Picture",
           "package": "onu-course",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "Picture",
           "package": "onu-course",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "above",
           "package": "onu-course",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "above",
           "normalized": "Picture-\u003ePicture-\u003ePicture",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "beside",
           "package": "onu-course",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "beside",
           "normalized": "Picture-\u003ePicture-\u003ePicture",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "black",
           "package": "onu-course",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "black",
           "package": "onu-course",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "flipH",
           "package": "onu-course",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "flipH",
           "normalized": "Picture-\u003ePicture",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "flipV",
           "package": "onu-course",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "flipV",
           "normalized": "Picture-\u003ePicture",
@@ -173,6 +187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "horse",
           "package": "onu-course",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "horse",
           "package": "onu-course",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "invertColour",
           "package": "onu-course",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "invertColour",
           "normalized": "Picture-\u003ePicture",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "scale",
           "package": "onu-course",
@@ -227,6 +246,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "scale",
           "normalized": "Int-\u003ePicture-\u003ePicture",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "superimpose",
           "package": "onu-course",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "superimpose",
           "normalized": "Picture-\u003ePicture-\u003ePicture",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:31:48 UTC 2014",
           "module": "Pictures",
           "name": "white",
           "package": "onu-course",
@@ -273,6 +296,7 @@
         },
         "index": {
           "hierarchy": "Pictures",
+          "indexed": "2014-03-11T19:31:48",
           "module": "Pictures",
           "name": "white",
           "package": "onu-course",

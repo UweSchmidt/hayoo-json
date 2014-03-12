@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-stlike-io"
+        "phrase": "monad-stlike-io",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "IO",
           "package": "monad-stlike-io",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "IO",
           "package": "monad-stlike-io",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": ":\u003c",
           "package": "monad-stlike-io",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": ":\u003c",
           "package": "monad-stlike-io",
@@ -60,6 +64,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonad for scoped IO computations\n The underlying monad must be strict here.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "IOS",
           "package": "monad-stlike-io",
@@ -69,6 +74,7 @@
         "index": {
           "description": "Monad for scoped IO computations The underlying monad must be strict here",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "IOS",
           "package": "monad-stlike-io",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "RegionMonad",
           "package": "monad-stlike-io",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "RegionMonad",
           "package": "monad-stlike-io",
@@ -104,6 +112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegioned variables.\n A regioned variable is \u003cem\u003esafe\u003c/em\u003e i.e. no references to\n it may escape the current IOS.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "Regioned",
           "package": "monad-stlike-io",
@@ -113,6 +122,7 @@
         "index": {
           "description": "Regioned variables regioned variable is safe i.e no references to it may escape the current IOS",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "Regioned",
           "package": "monad-stlike-io",
@@ -127,6 +137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift IO computations into IOS. liftIO also works.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "io",
           "package": "monad-stlike-io",
@@ -137,6 +148,7 @@
         "index": {
           "description": "Lift IO computations into IOS liftIO also works",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "io",
           "normalized": "IO a-\u003eIOS b a",
@@ -152,6 +164,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a ByteString representing the pointer and length. \n   No copying done, O(1).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsFromPtr",
           "package": "monad-stlike-io",
@@ -162,6 +175,7 @@
         "index": {
           "description": "Create ByteString representing the pointer and length No copying done",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsFromPtr",
           "normalized": "Ptr a-\u003eInt-\u003eIOS b(Regioned b ByteString)",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup inside a Map with a regioned ByteString.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsMapLookup",
           "package": "monad-stlike-io",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Lookup inside Map with regioned ByteString",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsMapLookup",
           "normalized": "Regioned a b-\u003eMap b c-\u003eSTLike d e(Maybe c)",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a copy of a regioned ByteString as a normal ByteString. O(n).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsToBS",
           "package": "monad-stlike-io",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Create copy of regioned ByteString as normal ByteString",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "rbsToBS",
           "normalized": "Regioned a ByteString-\u003eSTLike b c ByteString",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegions a value. Synonym for \u003cem\u003ereturn\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "region",
           "package": "monad-stlike-io",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Regions value Synonym for return",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "region",
           "normalized": "a-\u003eRegioned b a",
@@ -255,6 +275,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an IOS computation in the IO monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "runIOS",
           "package": "monad-stlike-io",
@@ -265,6 +286,7 @@
         "index": {
           "description": "Run an IOS computation in the IO monad",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "runIOS",
           "normalized": "(a b IOS c d)-\u003eIO d",
@@ -281,6 +303,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation on regioned data\n and return the result in a strict fashion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "runRegion",
           "package": "monad-stlike-io",
@@ -291,6 +314,7 @@
         "index": {
           "description": "Run computation on regioned data and return the result in strict fashion",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "runRegion",
           "normalized": "Regioned a b-\u003eSTLike c d b",
@@ -306,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "try",
           "package": "monad-stlike-io",
@@ -315,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "try",
           "normalized": "IOS a b-\u003eIOS a(Either SomeException b)",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "unfoldRegion",
           "package": "monad-stlike-io",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "unfoldRegion",
           "normalized": "Regioned a(b c)-\u003e[Regioned a c]",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a resource with IOS. Like \u003cem\u003ebracket\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "withRIOR",
           "package": "monad-stlike-io",
@@ -363,6 +392,7 @@
         "index": {
           "description": "Use resource with IOS Like bracket",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "withRIOR",
           "normalized": "IOS a b-\u003e(b-\u003eIOS a())-\u003e(c d Regioned(e a)b-\u003eIOS(e a)f)-\u003eIOS a f",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse a regioned ByteString as a pointer. O(1). \n   The pointer points to the region contents,\n   so be cafeful with it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.IO",
           "name": "withRbsPtr",
           "package": "monad-stlike-io",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Use regioned ByteString as pointer The pointer points to the region contents so be cafeful with it",
           "hierarchy": "Control Monad STLike IO",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.IO",
           "name": "withRbsPtr",
           "normalized": "Regioned a ByteString-\u003e(Ptr b-\u003eInt-\u003eIOS a c)-\u003eIOS a c",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnsafe interface for implementators.\n   Purposefully not documented.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:45 UTC 2014",
           "module": "Control.Monad.STLike.Unsafe",
           "name": "Unsafe",
           "package": "monad-stlike-io",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Unsafe interface for implementators Purposefully not documented",
           "hierarchy": "Control Monad STLike Unsafe",
+          "indexed": "2014-03-11T19:20:45",
           "module": "Control.Monad.STLike.Unsafe",
           "name": "Unsafe",
           "package": "monad-stlike-io",

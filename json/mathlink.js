@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mathlink"
+        "phrase": "mathlink",
+        "type": "phrase"
       },
       "type": "context"
     }

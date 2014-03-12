@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "HGamer3D-Ogre-Binding"
+        "phrase": "HGamer3D-Ogre-Binding",
+        "type": "phrase"
       },
       "type": "context"
     }

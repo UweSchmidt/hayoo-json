@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ralist"
+        "phrase": "ralist",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA random-access list implementation based on Chris Okasaki's approach\n on his book \"Purely Functional Data Structures\", Cambridge University\n Press, 1998, chapter 9.3.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eRAList\u003c/a\u003e\u003c/code\u003e is a replacement for ordinary finite lists.\n \u003ccode\u003e\u003ca\u003eRAList\u003c/a\u003e\u003c/code\u003e provides the same complexity as ordinary for most the list operations.\n Some operations take \u003cem\u003eO(log n)\u003c/em\u003e for \u003ccode\u003e\u003ca\u003eRAList\u003c/a\u003e\u003c/code\u003e where the list operation is \u003cem\u003eO(n)\u003c/em\u003e,\n notably indexing, '(!!)'.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "RAList",
           "package": "ralist",
@@ -28,6 +29,7 @@
         "index": {
           "description": "random-access list implementation based on Chris Okasaki approach on his book Purely Functional Data Structures Cambridge University Press chapter RAList is replacement for ordinary finite lists RAList provides the same complexity as ordinary for most the list operations Some operations take log for RAList where the list operation is notably indexing",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "RAList",
           "package": "ralist",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "RAList",
           "package": "ralist",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "RAList",
           "package": "ralist",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "(!!)",
           "package": "ralist",
@@ -73,6 +78,7 @@
         "index": {
           "description": "Complexity log",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "(!!) !!",
           "normalized": "RAList a-\u003eInt-\u003ea",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "(++)",
           "package": "ralist",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "(++) ++",
           "normalized": "RAList a-\u003eRAList a-\u003eRAList a",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a function to the value at the given index.\n Complexity \u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "adjust",
           "package": "ralist",
@@ -121,6 +130,7 @@
         "index": {
           "description": "Apply function to the value at the given index Complexity log",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "adjust",
           "normalized": "(a-\u003ea)-\u003eInt-\u003eRAList a-\u003eRAList a",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "all",
           "package": "ralist",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "all",
           "normalized": "(a-\u003eBool)-\u003eRAList a-\u003eBool",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "and",
           "package": "ralist",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "and",
           "normalized": "RAList Bool-\u003eBool",
@@ -181,6 +195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "any",
           "package": "ralist",
@@ -190,6 +205,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "any",
           "normalized": "(a-\u003eBool)-\u003eRAList a-\u003eBool",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "concat",
           "package": "ralist",
@@ -213,6 +230,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "concat",
           "normalized": "RAList(RAList a)-\u003eRAList a",
@@ -227,6 +245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "concatMap",
           "package": "ralist",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "concatMap",
           "normalized": "(a-\u003eRAList b)-\u003eRAList a-\u003eRAList b",
@@ -252,6 +272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "cons",
           "package": "ralist",
@@ -262,6 +283,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "cons",
           "normalized": "a-\u003eRAList a-\u003eRAList a",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "drop",
           "package": "ralist",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Complexity log",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "drop",
           "normalized": "Int-\u003eRAList a-\u003eRAList a",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "elem",
           "package": "ralist",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "elem",
           "normalized": "a-\u003eRAList a-\u003eBool",
@@ -324,6 +350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "empty",
           "package": "ralist",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "empty",
           "package": "ralist",
@@ -345,6 +373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "filter",
           "package": "ralist",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eRAList a-\u003eRAList a",
@@ -368,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldl",
           "package": "ralist",
@@ -377,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldl",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eRAList b-\u003ea",
@@ -391,6 +423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldl'",
           "package": "ralist",
@@ -400,6 +433,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldl'",
           "normalized": "(a-\u003eb-\u003ea)-\u003ea-\u003eRAList b-\u003ea",
@@ -414,6 +448,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldl1",
           "package": "ralist",
@@ -423,6 +458,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldl1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eRAList a-\u003ea",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldl1'",
           "package": "ralist",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldl1'",
           "normalized": "(a-\u003ea-\u003ea)-\u003eRAList a-\u003ea",
@@ -460,6 +498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldr",
           "package": "ralist",
@@ -469,6 +508,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldr",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eRAList a-\u003eb",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "foldr1",
           "package": "ralist",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "foldr1",
           "normalized": "(a-\u003ea-\u003ea)-\u003eRAList a-\u003ea",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "fromList",
           "package": "ralist",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "fromList",
           "normalized": "[a]-\u003eRAList a",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "head",
           "package": "ralist",
@@ -543,6 +588,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "head",
           "normalized": "RAList a-\u003ea",
@@ -557,6 +603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "init",
           "package": "ralist",
@@ -566,6 +613,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "init",
           "normalized": "RAList a-\u003eRAList a",
@@ -581,6 +629,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "last",
           "package": "ralist",
@@ -591,6 +640,7 @@
         "index": {
           "description": "Complexity log",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "last",
           "normalized": "RAList a-\u003ea",
@@ -606,6 +656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "length",
           "package": "ralist",
@@ -616,6 +667,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "length",
           "normalized": "RAList a-\u003eInt",
@@ -630,6 +682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "lookup",
           "package": "ralist",
@@ -639,6 +692,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "lookup",
           "normalized": "a-\u003eRAList(a,b)-\u003eMaybe b",
@@ -653,6 +707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "map",
           "package": "ralist",
@@ -662,6 +717,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eRAList a-\u003eRAList b",
@@ -676,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "maximum",
           "package": "ralist",
@@ -685,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "maximum",
           "normalized": "RAList a-\u003ea",
@@ -699,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "minimum",
           "package": "ralist",
@@ -708,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "minimum",
           "normalized": "RAList a-\u003ea",
@@ -722,6 +782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "notElem",
           "package": "ralist",
@@ -731,6 +792,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "notElem",
           "normalized": "a-\u003eRAList a-\u003eBool",
@@ -746,6 +808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "null",
           "package": "ralist",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "null",
           "normalized": "RAList a-\u003eBool",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "or",
           "package": "ralist",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "or",
           "normalized": "RAList Bool-\u003eBool",
@@ -792,6 +858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "partition",
           "package": "ralist",
@@ -801,6 +868,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eRAList a-\u003e(RAList a,RAList a)",
@@ -815,6 +883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "product",
           "package": "ralist",
@@ -824,6 +893,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "product",
           "normalized": "RAList a-\u003ea",
@@ -838,6 +908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "replicate",
           "package": "ralist",
@@ -847,6 +918,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "replicate",
           "normalized": "Int-\u003ea-\u003eRAList a",
@@ -861,6 +933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "reverse",
           "package": "ralist",
@@ -870,6 +943,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "reverse",
           "normalized": "RAList a-\u003eRAList a",
@@ -884,6 +958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "splitAt",
           "package": "ralist",
@@ -893,6 +968,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "splitAt",
           "normalized": "Int-\u003eRAList a-\u003e(RAList a,RAList a)",
@@ -908,6 +984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "sum",
           "package": "ralist",
@@ -917,6 +994,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "sum",
           "normalized": "RAList a-\u003ea",
@@ -932,6 +1010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(1)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "tail",
           "package": "ralist",
@@ -942,6 +1021,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "tail",
           "normalized": "RAList a-\u003eRAList a",
@@ -956,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "take",
           "package": "ralist",
@@ -965,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "take",
           "normalized": "Int-\u003eRAList a-\u003eRAList a",
@@ -980,6 +1062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComplexity \u003cem\u003eO(n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "toList",
           "package": "ralist",
@@ -990,6 +1073,7 @@
         "index": {
           "description": "Complexity",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "toList",
           "normalized": "RAList a-\u003e[a]",
@@ -1005,6 +1089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "unzip",
           "package": "ralist",
@@ -1014,6 +1099,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "unzip",
           "normalized": "RAList(a,b)-\u003e(RAList a,RAList b)",
@@ -1029,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange element at the given index.\n Complexity \u003cem\u003eO(log n)\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "update",
           "package": "ralist",
@@ -1039,6 +1126,7 @@
         "index": {
           "description": "Change element at the given index Complexity log",
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "update",
           "normalized": "Int-\u003ea-\u003eRAList a-\u003eRAList a",
@@ -1053,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "zip",
           "package": "ralist",
@@ -1062,6 +1151,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "zip",
           "normalized": "RAList a-\u003eRAList b-\u003eRAList(a,b)",
@@ -1076,6 +1166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:47:52 UTC 2014",
           "module": "Data.RAList",
           "name": "zipWith",
           "package": "ralist",
@@ -1085,6 +1176,7 @@
         },
         "index": {
           "hierarchy": "Data RAList",
+          "indexed": "2014-03-11T19:47:52",
           "module": "Data.RAList",
           "name": "zipWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eRAList a-\u003eRAList b-\u003eRAList c",

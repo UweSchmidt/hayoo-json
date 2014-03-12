@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "strictify"
+        "phrase": "strictify",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "timers"
+        "phrase": "timers",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "Lifted",
           "package": "timers",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "Lifted",
           "package": "timers",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type representing the timer.\n For now, the action and delay are fixed for the lifetime of the Timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "Timer",
           "package": "timers",
@@ -49,6 +52,7 @@
         "index": {
           "description": "The data type representing the timer For now the action and delay are fixed for the lifetime of the Timer",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "Timer",
           "package": "timers",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "TimerIO",
           "package": "timers",
@@ -72,6 +77,7 @@
         "index": {
           "description": "Utility",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "TimerIO",
           "package": "timers",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new timer. This does not start the timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "newTimer",
           "package": "timers",
@@ -96,6 +103,7 @@
         "index": {
           "description": "Creates new timer This does not start the timer",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "newTimer",
           "package": "timers",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to restart already initialized timer.\n The restarted timer will have the same delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eReturns True if the restrat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer or the timer was not initialized) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotRestart",
           "package": "timers",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Attempts to restart already initialized timer The restarted timer will have the same delay and action associated and will be one-shot timer Returns True if the restrat was successful otherwise e.g other thread is attempting to manipulate the timer or the timer was not initialized returns False",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotRestart",
           "normalized": "Timer a-\u003ea Bool",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to start a timer.\n The started timer will have the given delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eIf the timer was already initialized, it the previous timer will be stoped (the thread killed) and the timer will be started anew.\n\u003c/p\u003e\u003cp\u003eReturns True if the strat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotStart",
           "package": "timers",
@@ -145,6 +156,7 @@
         "index": {
           "description": "Attempts to start timer The started timer will have the given delay and action associated and will be one-shot timer If the timer was already initialized it the previous timer will be stoped the thread killed and the timer will be started anew Returns True if the strat was successful otherwise e.g other thread is attempting to manipulate the timer returns False",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotStart",
           "normalized": "Timer a-\u003ea()-\u003eDelay-\u003ea Bool",
@@ -161,6 +173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the the given action once after the given delay elapsed, no sooner, maybe later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotTimer",
           "package": "timers",
@@ -170,6 +183,7 @@
         "index": {
           "description": "Executes the the given action once after the given delay elapsed no sooner maybe later",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "oneShotTimer",
           "normalized": "a()-\u003eDelay-\u003ea(Timer a)",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to restart already initialized timer.\n The restarted timer will have the same delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eReturns True if the restrat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer or the timer was not initialized) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedRestart",
           "package": "timers",
@@ -196,6 +211,7 @@
         "index": {
           "description": "Attempts to restart already initialized timer The restarted timer will have the same delay and action associated and will be one-shot timer Returns True if the restrat was successful otherwise e.g other thread is attempting to manipulate the timer or the timer was not initialized returns False",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedRestart",
           "normalized": "Timer a-\u003ea Bool",
@@ -212,6 +228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to start a timer.\n The started timer will have the given delay and action associated and will be repeated timer.\n\u003c/p\u003e\u003cp\u003eIf the timer was already initialized, it the previous timer will be stoped (the thread killed) and the timer will be started anew.\n\u003c/p\u003e\u003cp\u003eReturns True if the strat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedStart",
           "package": "timers",
@@ -221,6 +238,7 @@
         "index": {
           "description": "Attempts to start timer The started timer will have the given delay and action associated and will be repeated timer If the timer was already initialized it the previous timer will be stoped the thread killed and the timer will be started anew Returns True if the strat was successful otherwise e.g other thread is attempting to manipulate the timer returns False",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedStart",
           "normalized": "Timer a-\u003ea()-\u003eDelay-\u003ea Bool",
@@ -237,6 +255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the the given action repeatedly with at least the given delay between executions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedTimer",
           "package": "timers",
@@ -246,6 +265,7 @@
         "index": {
           "description": "Executes the the given action repeatedly with at least the given delay between executions",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "repeatedTimer",
           "normalized": "a()-\u003eDelay-\u003ea(Timer a)",
@@ -262,6 +282,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is blocking. It waits until it can stop the timer\n (until there is a value in the MVar), then it kills the timer's thread.\n\u003c/p\u003e\u003cp\u003eAfter this action completes, the Timer is not innitialized anymore (the MVar contains Nothing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "stopTimer",
           "package": "timers",
@@ -272,6 +293,7 @@
         "index": {
           "description": "This function is blocking It waits until it can stop the timer until there is value in the MVar then it kills the timer thread After this action completes the Timer is not innitialized anymore the MVar contains Nothing",
           "hierarchy": "Control Concurrent Timer Lifted",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer.Lifted",
           "name": "stopTimer",
           "normalized": "Timer a-\u003ea()",
@@ -287,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "Timer",
           "package": "timers",
@@ -295,6 +318,7 @@
         },
         "index": {
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "Timer",
           "package": "timers",
@@ -309,6 +333,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe data type representing the timer.\n For now, the action and delay are fixed for the lifetime of the Timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "Timer",
           "package": "timers",
@@ -318,6 +343,7 @@
         "index": {
           "description": "The data type representing the timer For now the action and delay are fixed for the lifetime of the Timer",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "Timer",
           "package": "timers",
@@ -332,6 +358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUtility\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "TimerIO",
           "package": "timers",
@@ -341,6 +368,7 @@
         "index": {
           "description": "Utility",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "TimerIO",
           "package": "timers",
@@ -355,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new timer. This does not start the timer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "newTimer",
           "package": "timers",
@@ -365,6 +394,7 @@
         "index": {
           "description": "Creates new timer This does not start the timer",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "newTimer",
           "package": "timers",
@@ -379,6 +409,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to restart already initialized timer.\n The restarted timer will have the same delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eReturns True if the restrat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer or the timer was not initialized) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotRestart",
           "package": "timers",
@@ -389,6 +420,7 @@
         "index": {
           "description": "Attempts to restart already initialized timer The restarted timer will have the same delay and action associated and will be one-shot timer Returns True if the restrat was successful otherwise e.g other thread is attempting to manipulate the timer or the timer was not initialized returns False",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotRestart",
           "normalized": "TimerIO-\u003eIO Bool",
@@ -405,6 +437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to start a timer.\n The started timer will have the given delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eIf the timer was already initialized, it the previous timer will be stoped (the thread killed) and the timer will be started anew.\n\u003c/p\u003e\u003cp\u003eReturns True if the strat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotStart",
           "package": "timers",
@@ -414,6 +447,7 @@
         "index": {
           "description": "Attempts to start timer The started timer will have the given delay and action associated and will be one-shot timer If the timer was already initialized it the previous timer will be stoped the thread killed and the timer will be started anew Returns True if the strat was successful otherwise e.g other thread is attempting to manipulate the timer returns False",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotStart",
           "normalized": "TimerIO-\u003eIO()-\u003eDelay-\u003eIO Bool",
@@ -430,6 +464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the the given action once after the given delay elapsed, no sooner, maybe later.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotTimer",
           "package": "timers",
@@ -439,6 +474,7 @@
         "index": {
           "description": "Executes the the given action once after the given delay elapsed no sooner maybe later",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "oneShotTimer",
           "normalized": "IO()-\u003eDelay-\u003eIO TimerIO",
@@ -455,6 +491,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to restart already initialized timer.\n The restarted timer will have the same delay and action associated and will be one-shot timer.\n\u003c/p\u003e\u003cp\u003eReturns True if the restrat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer or the timer was not initialized) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedRestart",
           "package": "timers",
@@ -465,6 +502,7 @@
         "index": {
           "description": "Attempts to restart already initialized timer The restarted timer will have the same delay and action associated and will be one-shot timer Returns True if the restrat was successful otherwise e.g other thread is attempting to manipulate the timer or the timer was not initialized returns False",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedRestart",
           "normalized": "TimerIO-\u003eIO Bool",
@@ -481,6 +519,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAttempts to start a timer.\n The started timer will have the given delay and action associated and will be repeated timer.\n\u003c/p\u003e\u003cp\u003eIf the timer was already initialized, it the previous timer will be stoped (the thread killed) and the timer will be started anew.\n\u003c/p\u003e\u003cp\u003eReturns True if the strat was successful,\n otherwise (e.g. other thread is attempting to manipulate the timer) returns False.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedStart",
           "package": "timers",
@@ -490,6 +529,7 @@
         "index": {
           "description": "Attempts to start timer The started timer will have the given delay and action associated and will be repeated timer If the timer was already initialized it the previous timer will be stoped the thread killed and the timer will be started anew Returns True if the strat was successful otherwise e.g other thread is attempting to manipulate the timer returns False",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedStart",
           "normalized": "TimerIO-\u003eIO()-\u003eDelay-\u003eIO Bool",
@@ -506,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecutes the the given action repeatedly with at least the given delay between executions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedTimer",
           "package": "timers",
@@ -515,6 +556,7 @@
         "index": {
           "description": "Executes the the given action repeatedly with at least the given delay between executions",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "repeatedTimer",
           "normalized": "IO()-\u003eDelay-\u003eIO TimerIO",
@@ -531,6 +573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is blocking. It waits until it can stop the timer\n (until there is a value in the MVar), then it kills the timer's thread.\n\u003c/p\u003e\u003cp\u003eAfter this action completes, the Timer is not innitialized anymore (the MVar contains Nothing).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:23:16 UTC 2014",
           "module": "Control.Concurrent.Timer",
           "name": "stopTimer",
           "package": "timers",
@@ -541,6 +584,7 @@
         "index": {
           "description": "This function is blocking It waits until it can stop the timer until there is value in the MVar then it kills the timer thread After this action completes the Timer is not innitialized anymore the MVar contains Nothing",
           "hierarchy": "Control Concurrent Timer",
+          "indexed": "2014-03-11T20:23:16",
           "module": "Control.Concurrent.Timer",
           "name": "stopTimer",
           "normalized": "TimerIO-\u003eIO()",

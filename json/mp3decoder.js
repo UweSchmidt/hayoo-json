@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "mp3decoder"
+        "phrase": "mp3decoder",
+        "type": "phrase"
       },
       "type": "context"
     }

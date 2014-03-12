@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsgsom"
+        "phrase": "hsgsom",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe network created by the GSOM algorithm is layed out in two dimensions.\n Thus one needs to assign two dimensional coordinates to the nodes of the\n network and for a clustering to the clusters.\n\u003c/p\u003e\u003cp\u003eThe types defining these coordinates and the functions to handle them belong\n into this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The network created by the GSOM algorithm is layed out in two dimensions Thus one needs to assign two dimensional coordinates to the nodes of the network and for clustering to the clusters The types defining these coordinates and the functions to handle them belong into this module",
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Direction",
           "package": "hsgsom",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Direction",
           "package": "hsgsom",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Directions",
           "package": "hsgsom",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "Directions",
           "package": "hsgsom",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of supported directions. Since we are only dealing with\n hexagonal lattices, there are only six possible directions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "directions",
           "package": "hsgsom",
@@ -115,6 +124,7 @@
         "index": {
           "description": "The list of supported directions Since we are only dealing with hexagonal lattices there are only six possible directions",
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "directions",
           "package": "hsgsom",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbour\u003c/a\u003e\u003c/code\u003e location direction\u003c/code\u003e calculates the coordinates of\n the neighbour of node with location \u003ccode\u003elocation\u003c/code\u003e in direction\n \u003ccode\u003edirection\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "neighbour",
           "package": "hsgsom",
@@ -138,6 +149,7 @@
         "index": {
           "description": "neighbour location direction calculates the coordinates of the neighbour of node with location location in direction direction",
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "neighbour",
           "normalized": "Coordinates-\u003eDirection-\u003eCoordinates",
@@ -153,6 +165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eneighbourCoordinates\u003c/a\u003e\u003c/code\u003e point\u003c/code\u003e calculates the list of\n coordinates which are directly adjacent to \u003ccode\u003epoint\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "neighbourCoordinates",
           "package": "hsgsom",
@@ -163,6 +176,7 @@
         "index": {
           "description": "neighbourCoordinates point calculates the list of coordinates which are directly adjacent to point",
           "hierarchy": "Data Datamining Clustering Gsom Coordinates",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Coordinates",
           "name": "neighbourCoordinates",
           "normalized": "Coordinates-\u003e[Coordinates]",
@@ -179,6 +193,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe GSOM algorithm works on numerical input vectors. These input vectors\n are internally represented as lists of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es and this module contains\n the functions working on these.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Input",
           "package": "hsgsom",
@@ -188,6 +203,7 @@
         "index": {
           "description": "The GSOM algorithm works on numerical input vectors These input vectors are internally represented as lists of Double and this module contains the functions working on these",
           "hierarchy": "Data Datamining Clustering Gsom Input",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Input",
           "package": "hsgsom",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds of a list of inputs. Having the tuple \u003ccode\u003e(a,b)\u003c/code\u003e at index \u003ccode\u003ei\u003c/code\u003e\n in \u003ccode\u003ebounds\u003c/code\u003e means that the value at index \u003ccode\u003ei\u003c/code\u003e of each of the input vectors\n from the inputs which where used to calculate \u003ccode\u003ebounds\u003c/code\u003e is from the\n intervall \u003ccode\u003e[a,b]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Bounds",
           "package": "hsgsom",
@@ -211,6 +228,7 @@
         "index": {
           "description": "The bounds of list of inputs Having the tuple at index in bounds means that the value at index of each of the input vectors from the inputs which where used to calculate bounds is from the intervall",
           "hierarchy": "Data Datamining Clustering Gsom Input",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Bounds",
           "package": "hsgsom",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput vectors are represented as lists of Doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Input",
           "package": "hsgsom",
@@ -234,6 +253,7 @@
         "index": {
           "description": "Input vectors are represented as lists of Doubles",
           "hierarchy": "Data Datamining Clustering Gsom Input",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Input",
           "package": "hsgsom",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Inputs",
           "package": "hsgsom",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Input",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Input",
           "name": "Inputs",
           "package": "hsgsom",
@@ -499,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe type \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e is the type of the network build by the GSOM\n algorithm. This type and most of the functions dealing with it are defined\n in this module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "Lattice",
           "package": "hsgsom",
@@ -508,6 +531,7 @@
         "index": {
           "description": "The type Lattice is the type of the network build by the GSOM algorithm This type and most of the functions dealing with it are defined in this module",
           "hierarchy": "Data Datamining Clustering Gsom Lattice",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "Lattice",
           "package": "hsgsom",
@@ -522,6 +546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lattice type. Since global access to nodes is needed they're\n stored in a \u003ccode\u003eData.Map\u003c/code\u003e indexed by their coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "Lattice",
           "package": "hsgsom",
@@ -531,6 +556,7 @@
         "index": {
           "description": "The lattice type Since global access to nodes is needed they re stored in Data.Map indexed by their coordinates",
           "hierarchy": "Data Datamining Clustering Gsom Lattice",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "Lattice",
           "package": "hsgsom",
@@ -571,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003egrow\u003c/a\u003e\u003c/code\u003e lattice node\u003c/code\u003e will create new neighbours for every Leaf\n neighbour of the given \u003ccode\u003enode\u003c/code\u003e and add the created nodes to \u003ccode\u003elattice\u003c/code\u003e.\n It will return the list of spawned nodes and the new lattice containing\n every node created in the process of spawning.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "grow",
           "package": "hsgsom",
@@ -581,6 +608,7 @@
         "index": {
           "description": "grow lattice node will create new neighbours for every Leaf neighbour of the given node and add the created nodes to lattice It will return the list of spawned nodes and the new lattice containing every node created in the process of spawning",
           "hierarchy": "Data Datamining Clustering Gsom Lattice",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "grow",
           "normalized": "Lattice-\u003eNode-\u003eSTM(Lattice,Nodes)",
@@ -726,6 +754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003event\u003c/a\u003e\u003c/code\u003e lattice node growthThreshold\u003c/code\u003e will check the accumulated error\n of the \u003ccode\u003enode\u003c/code\u003e against the given \u003ccode\u003egrowthThreshold\u003c/code\u003e and will do nothing if\n the errror value is below the growth threshhold. Otherwise it will either\n spawn new nodes or it will propagate the accumulated error value to it's\n neighbours, depending on whether the node is a boundary node or not.\n If new nodes are spawned they will be added to \u003ccode\u003elattice\u003c/code\u003e and returned as\n the second component of the resulting pair.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "vent",
           "package": "hsgsom",
@@ -736,6 +765,7 @@
         "index": {
           "description": "vent lattice node growthThreshold will check the accumulated error of the node against the given growthThreshold and will do nothing if the errror value is below the growth threshhold Otherwise it will either spawn new nodes or it will propagate the accumulated error value to it neighbours depending on whether the node is boundary node or not If new nodes are spawned they will be added to lattice and returned as the second component of the resulting pair",
           "hierarchy": "Data Datamining Clustering Gsom Lattice",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Lattice",
           "name": "vent",
           "normalized": "Lattice-\u003eNode-\u003eDouble-\u003eSTM(Lattice,[Node])",
@@ -751,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe network of nodes which is build by GSOM consists if nodes of type\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003eNode\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and this module contains the definition if this type along with\n most of the functions altering or working on them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Node",
           "package": "hsgsom",
@@ -760,6 +791,7 @@
         "index": {
           "description": "The network of nodes which is build by GSOM consists if nodes of type Node and this module contains the definition if this type along with most of the functions altering or working on them",
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Node",
           "package": "hsgsom",
@@ -774,6 +806,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of neighbourhoods. Wherever a neighbourhood of a node\n is neede, this type should be used.\n A \u003ccode\u003eNeighbourhood\u003c/code\u003e consits of a list of pairs of nodes and their\n discrete grid distance from the source of the neighbourhood.\n The source node is the only one with distance \u003ccode\u003e0\u003c/code\u003e while immediate\n neighbours get distance one and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Neighbourhood",
           "package": "hsgsom",
@@ -783,6 +816,7 @@
         "index": {
           "description": "The type of neighbourhoods Wherever neighbourhood of node is neede this type should be used Neighbourhood consits of list of pairs of nodes and their discrete grid distance from the source of the neighbourhood The source node is the only one with distance while immediate neighbours get distance one and so on",
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Neighbourhood",
           "package": "hsgsom",
@@ -797,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node's neighbours are stored in fields of type \u003ccode\u003eNeighbours\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Neighbours",
           "package": "hsgsom",
@@ -806,6 +841,7 @@
         "index": {
           "description": "node neighbours are stored in fields of type Neighbours",
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Neighbours",
           "package": "hsgsom",
@@ -820,6 +856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of nodes of a gsom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Node",
           "package": "hsgsom",
@@ -829,6 +866,7 @@
         "index": {
           "description": "The type of nodes of gsom",
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Node",
           "package": "hsgsom",
@@ -842,6 +880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Nodes",
           "package": "hsgsom",
@@ -850,6 +889,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "Nodes",
           "package": "hsgsom",
@@ -913,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "boundaryNode",
           "package": "hsgsom",
@@ -922,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "boundaryNode",
           "normalized": "Node-\u003eSTM Bool",
@@ -1064,6 +1106,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen a new node is spawned we need to calculate it's new weight vector.\n If the new node is spawned from parent p in direction d and p has a\n neighbour n in the direction d' opposite to d then the new weight\n vector nw is calculated according to the formula:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003enw = 2 * (\u003ccode\u003e\u003ca\u003eweights\u003c/a\u003e\u003c/code\u003e p) - (\u003ccode\u003e\u003ca\u003eweights\u003c/a\u003e\u003c/code\u003e n)\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eIn all other cases there exists exactly one neighbour of the new node.\n Let this neighbour be called n and let d' be the direction in which we\n have to go to reach this neighbour from the new node. Let s then be\n the child of the new node's parent p in direction d'.\n The new weights are then calculated according to the formula:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003enw = p + n - s\u003c/code\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "newWeight",
           "package": "hsgsom",
@@ -1074,6 +1117,7 @@
         "index": {
           "description": "When new node is spawned we need to calculate it new weight vector If the new node is spawned from parent in direction and has neighbour in the direction opposite to then the new weight vector nw is calculated according to the formula nw weights weights In all other cases there exists exactly one neighbour of the new node Let this neighbour be called and let be the direction in which we have to go to reach this neighbour from the new node Let then be the child of the new node parent in direction The new weights are then calculated according to the formula nw",
           "hierarchy": "Data Datamining Clustering Gsom Node",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Node",
           "name": "newWeight",
           "normalized": "Node-\u003eInt-\u003eSTM()",
@@ -1296,6 +1340,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains the necessary modifications of some functions to\n parallelise a phase of the GSOM Algorithm by using multiple threads.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "Parallel",
           "package": "hsgsom",
@@ -1305,6 +1350,7 @@
         "index": {
           "description": "This module contains the necessary modifications of some functions to parallelise phase of the GSOM Algorithm by using multiple threads",
           "hierarchy": "Data Datamining Clustering Gsom Parallel",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "Parallel",
           "package": "hsgsom",
@@ -1319,6 +1365,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ephase\u003c/a\u003e\u003c/code\u003e n parameters inputs\u003c/code\u003e will update the given \u003ccode\u003elattice\u003c/code\u003e by\n executing one phase of the GSOM algorithm with the given \u003ccode\u003einputs\u003c/code\u003e\n and \u003ccode\u003eparameters\u003c/code\u003e using \u003ccode\u003en\u003c/code\u003e threads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "phase",
           "package": "hsgsom",
@@ -1329,6 +1376,7 @@
         "index": {
           "description": "phase parameters inputs will update the given lattice by executing one phase of the GSOM algorithm with the given inputs and parameters using threads",
           "hierarchy": "Data Datamining Clustering Gsom Parallel",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "phase",
           "normalized": "Int-\u003ePhase-\u003eLattice-\u003eInputs-\u003eIO Lattice",
@@ -1344,6 +1392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSince a complete run of the GSOM algorithm means running a number\n of \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePhases\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e this is usually the main function used.  \u003ccode\u003erun n phases\n lattice inputs\u003c/code\u003e runs the GSOM algorithm by running the \u003ccode\u003ephases\u003c/code\u003e in\n the order specified, each time making passes over \u003ccode\u003einputs\u003c/code\u003e and using\n the produced \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e as an argument to the next phase.  The\n phases are run using \u003ccode\u003en\u003c/code\u003e worker threads.  The initial \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e,\n \u003ccode\u003elattice\u003c/code\u003e may be constructed with the \u003ccode\u003e\u003ccode\u003e\u003ca\u003enewRandom\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and the\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003enewCentered\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "run",
           "package": "hsgsom",
@@ -1354,6 +1403,7 @@
         "index": {
           "description": "Since complete run of the GSOM algorithm means running number of Phases this is usually the main function used run phases lattice inputs runs the GSOM algorithm by running the phases in the order specified each time making passes over inputs and using the produced Lattice as an argument to the next phase The phases are run using worker threads The initial Lattice lattice may be constructed with the newRandom and the newCentered functions",
           "hierarchy": "Data Datamining Clustering Gsom Parallel",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Parallel",
           "name": "run",
           "normalized": "Int-\u003ePhases-\u003eLattice-\u003eInputs-\u003eIO Lattice",
@@ -1369,6 +1419,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe GSOM Algorithm can be split up in multiple sequentially executed\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePhase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es. Each of these phases makes a certain number of passes over\n the inputs. While doing so each \u003ccode\u003e\u003ccode\u003e\u003ca\u003ephase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e modifies a given \u003ccode\u003e\u003ccode\u003e\u003ca\u003eLattice\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n according to a certain set of specified parameters.\n This module contains the definition of the \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePhase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e type, a few default\n instances and the functions needed to run a single \u003ccode\u003e\u003ccode\u003e\u003ca\u003ephase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e or to\n \u003ccode\u003e\u003ccode\u003e\u003ca\u003erun\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e a sequence of \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePhase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phase",
           "package": "hsgsom",
@@ -1378,6 +1429,7 @@
         "index": {
           "description": "The GSOM Algorithm can be split up in multiple sequentially executed Phase Each of these phases makes certain number of passes over the inputs While doing so each phase modifies given Lattice according to certain set of specified parameters This module contains the definition of the Phase type few default instances and the functions needed to run single phase or to run sequence of Phase",
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phase",
           "package": "hsgsom",
@@ -1391,6 +1443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Kernel",
           "package": "hsgsom",
@@ -1399,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Kernel",
           "package": "hsgsom",
@@ -1412,6 +1466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "LearningRate",
           "package": "hsgsom",
@@ -1420,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "LearningRate",
           "package": "hsgsom",
@@ -1434,6 +1490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis datatype encapsulates all the parameters needed to be known to\n run one phase of the GSOM algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phase",
           "package": "hsgsom",
@@ -1443,6 +1500,7 @@
         "index": {
           "description": "This datatype encapsulates all the parameters needed to be known to run one phase of the GSOM algorithm",
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phase",
           "package": "hsgsom",
@@ -1456,6 +1514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phases",
           "package": "hsgsom",
@@ -1464,6 +1523,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "Phases",
           "package": "hsgsom",
@@ -1601,6 +1661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the learning rate adaption function associated with the given\n type of learning rate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "adaption",
           "package": "hsgsom",
@@ -1611,6 +1672,7 @@
         "index": {
           "description": "Returns the learning rate adaption function associated with the given type of learning rate",
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "adaption",
           "normalized": "LearningRate-\u003eInt-\u003eInt-\u003eDouble",
@@ -1749,6 +1811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the growth threshold as explained in the documentation\n for \u003ccode\u003e\u003ccode\u003e\u003ca\u003ePhase\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "growthThreshold",
           "package": "hsgsom",
@@ -1759,6 +1822,7 @@
         "index": {
           "description": "Calculates the growth threshold as explained in the documentation for Phase",
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "growthThreshold",
           "normalized": "Phase-\u003eInt-\u003eDouble",
@@ -1799,6 +1863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the kernel function associated with the given kernel.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "kernelFunction",
           "package": "hsgsom",
@@ -1809,6 +1874,7 @@
         "index": {
           "description": "Returns the kernel function associated with the given kernel",
           "hierarchy": "Data Datamining Clustering Gsom Phase",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom.Phase",
           "name": "kernelFunction",
           "normalized": "Kernel-\u003eDouble-\u003eInt-\u003eDouble",
@@ -1976,6 +2042,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module should contain everything you need to run the GSOM clustering\n algorithm. It collects and re-exports all important and needed functions\n from moduls lower in the hirarchy.\n\u003c/p\u003e\u003cp\u003eIdeally you should never need to look at those modules. If you do need\n to do this, it is a design failure and I would appreciate it if you\n would drop me a note.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Gsom",
           "package": "hsgsom",
@@ -1985,6 +2052,7 @@
         "index": {
           "description": "This module should contain everything you need to run the GSOM clustering algorithm It collects and re-exports all important and needed functions from moduls lower in the hirarchy Ideally you should never need to look at those modules If you do need to do this it is design failure and would appreciate it if you would drop me note",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Gsom",
           "package": "hsgsom",
@@ -1999,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe bounds of a list of inputs. Having the tuple \u003ccode\u003e(a,b)\u003c/code\u003e at index \u003ccode\u003ei\u003c/code\u003e\n in \u003ccode\u003ebounds\u003c/code\u003e means that the value at index \u003ccode\u003ei\u003c/code\u003e of each of the input vectors\n from the inputs which where used to calculate \u003ccode\u003ebounds\u003c/code\u003e is from the\n intervall \u003ccode\u003e[a,b]\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Bounds",
           "package": "hsgsom",
@@ -2008,6 +2077,7 @@
         "index": {
           "description": "The bounds of list of inputs Having the tuple at index in bounds means that the value at index of each of the input vectors from the inputs which where used to calculate bounds is from the intervall",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Bounds",
           "package": "hsgsom",
@@ -2022,6 +2092,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe clusters generated by GSOM basically consist of three things:\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Cluster",
           "package": "hsgsom",
@@ -2031,6 +2102,7 @@
         "index": {
           "description": "The clusters generated by GSOM basically consist of three things",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Cluster",
           "package": "hsgsom",
@@ -2045,6 +2117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe final clustering which is the result of the GSOM algorithm\n is a \u003ccode\u003e\u003ccode\u003eData.Map\u003c/code\u003e\u003c/code\u003e mapping \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCoordinates\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e to \u003ccode\u003e\u003ccode\u003e\u003ca\u003eCluster\u003c/a\u003e\u003c/code\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Clustering",
           "package": "hsgsom",
@@ -2054,6 +2127,7 @@
         "index": {
           "description": "The final clustering which is the result of the GSOM algorithm is Data.Map mapping Coordinates to Cluster",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Clustering",
           "package": "hsgsom",
@@ -2067,6 +2141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -2075,6 +2150,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Coordinates",
           "package": "hsgsom",
@@ -2089,6 +2165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInput vectors are represented as lists of Doubles.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Input",
           "package": "hsgsom",
@@ -2098,6 +2175,7 @@
         "index": {
           "description": "Input vectors are represented as lists of Doubles",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Input",
           "package": "hsgsom",
@@ -2111,6 +2189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Inputs",
           "package": "hsgsom",
@@ -2119,6 +2198,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Inputs",
           "package": "hsgsom",
@@ -2132,6 +2212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Kernel",
           "package": "hsgsom",
@@ -2140,6 +2221,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Kernel",
           "package": "hsgsom",
@@ -2154,6 +2236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe lattice type. Since global access to nodes is needed they're\n stored in a \u003ccode\u003eData.Map\u003c/code\u003e indexed by their coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Lattice",
           "package": "hsgsom",
@@ -2163,6 +2246,7 @@
         "index": {
           "description": "The lattice type Since global access to nodes is needed they re stored in Data.Map indexed by their coordinates",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Lattice",
           "package": "hsgsom",
@@ -2176,6 +2260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "LearningRate",
           "package": "hsgsom",
@@ -2184,6 +2269,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "LearningRate",
           "package": "hsgsom",
@@ -2198,6 +2284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of neighbourhoods. Wherever a neighbourhood of a node\n is neede, this type should be used.\n A \u003ccode\u003eNeighbourhood\u003c/code\u003e consits of a list of pairs of nodes and their\n discrete grid distance from the source of the neighbourhood.\n The source node is the only one with distance \u003ccode\u003e0\u003c/code\u003e while immediate\n neighbours get distance one and so on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Neighbourhood",
           "package": "hsgsom",
@@ -2207,6 +2294,7 @@
         "index": {
           "description": "The type of neighbourhoods Wherever neighbourhood of node is neede this type should be used Neighbourhood consits of list of pairs of nodes and their discrete grid distance from the source of the neighbourhood The source node is the only one with distance while immediate neighbours get distance one and so on",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Neighbourhood",
           "package": "hsgsom",
@@ -2221,6 +2309,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA node's neighbours are stored in fields of type \u003ccode\u003eNeighbours\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Neighbours",
           "package": "hsgsom",
@@ -2230,6 +2319,7 @@
         "index": {
           "description": "node neighbours are stored in fields of type Neighbours",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Neighbours",
           "package": "hsgsom",
@@ -2244,6 +2334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of nodes of a gsom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Node",
           "package": "hsgsom",
@@ -2253,6 +2344,7 @@
         "index": {
           "description": "The type of nodes of gsom",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Node",
           "package": "hsgsom",
@@ -2266,6 +2358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Nodes",
           "package": "hsgsom",
@@ -2274,6 +2367,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Nodes",
           "package": "hsgsom",
@@ -2288,6 +2382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis datatype encapsulates all the parameters needed to be known to\n run one phase of the GSOM algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Phase",
           "package": "hsgsom",
@@ -2297,6 +2392,7 @@
         "index": {
           "description": "This datatype encapsulates all the parameters needed to be known to run one phase of the GSOM algorithm",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Phase",
           "package": "hsgsom",
@@ -2310,6 +2406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Phases",
           "package": "hsgsom",
@@ -2318,6 +2415,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Phases",
           "package": "hsgsom",
@@ -2331,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Cluster",
           "package": "hsgsom",
@@ -2340,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "Cluster",
           "package": "hsgsom",
@@ -2354,6 +2454,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe vector which best represents all the vectors belonging to this\n cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "center",
           "package": "hsgsom",
@@ -2364,6 +2465,7 @@
         "index": {
           "description": "the vector which best represents all the vectors belonging to this cluster",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "center",
           "package": "hsgsom",
@@ -2377,6 +2479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e inputs clustering\u003c/code\u003e clusters the given \u003ccode\u003einputs\u003c/code\u003e according to\n the centers of the clusters in \u003ccode\u003eclustering\u003c/code\u003e. That means for each input \u003ccode\u003ei\u003c/code\u003e\n from \u003ccode\u003einputs\u003c/code\u003e the index of \u003ccode\u003ei\u003c/code\u003e is added to the contents of the cluster\n center to which \u003ccode\u003ei\u003c/code\u003e has minimal distance.\n TODO: Implement tiebreaker.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "cluster",
           "package": "hsgsom",
@@ -2387,6 +2490,7 @@
         "index": {
           "description": "cluster inputs clustering clusters the given inputs according to the centers of the clusters in clustering That means for each input from inputs the index of is added to the contents of the cluster center to which has minimal distance TODO Implement tiebreaker",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "cluster",
           "normalized": "Inputs-\u003eClustering-\u003eClustering",
@@ -2402,6 +2506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eComputes a clustering induced by the given lattice.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003eclustering\u003c/a\u003e\u003c/code\u003e lattice\u003c/code\u003e uses the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eweights\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e of the \u003ccode\u003e\u003ccode\u003e\u003ca\u003enodes\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e stored\n in \u003ccode\u003elattice\u003c/code\u003e to generate \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003es and returns the \u003ccode\u003e\u003ccode\u003e\u003ca\u003eClustering\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n storing these \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003es. Each non leaf node \u003ccode\u003en\u003c/code\u003e in \u003ccode\u003elattice\u003c/code\u003e\n corresponds to one \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e with \u003ccode\u003e(\u003ccode\u003e\u003ca\u003ecoordinates\u003c/a\u003e\u003c/code\u003e c = \u003ccode\u003e\u003ca\u003elocation\u003c/a\u003e\u003c/code\u003e\n n)\u003c/code\u003e and with \u003ccode\u003e\u003ccode\u003e\u003ca\u003ecenter\u003c/a\u003e\u003c/code\u003e c\u003c/code\u003e equal to the weight vector of \u003ccode\u003en\u003c/code\u003e. Each\n generated \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e's \u003ccode\u003e\u003ca\u003econtents\u003c/a\u003e\u003c/code\u003e are empty. Use the \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e\n function with a set of inputs to obtain a clustering where each\n \u003ccode\u003e\u003ca\u003eCluster\u003c/a\u003e\u003c/code\u003e's \u003ccode\u003e\u003ca\u003econtents\u003c/a\u003e\u003c/code\u003e is a list of the indices of the input\n points belonging to this \u003ccode\u003e\u003ca\u003ecluster\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "clustering",
           "package": "hsgsom",
@@ -2412,6 +2517,7 @@
         "index": {
           "description": "Computes clustering induced by the given lattice clustering lattice uses the weights of the nodes stored in lattice to generate cluster and returns the Clustering storing these cluster Each non leaf node in lattice corresponds to one cluster with coordinates location and with center equal to the weight vector of Each generated cluster contents are empty Use the cluster function with set of inputs to obtain clustering where each Cluster contents is list of the indices of the input points belonging to this cluster",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "clustering",
           "normalized": "Lattice-\u003eIO Clustering",
@@ -2427,6 +2533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe indices of the input vectors belonging to this cluster.\n That means a cluster is always relative to a set of \u003ccode\u003e\u003ccode\u003e\u003ca\u003eInputs\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "contents",
           "package": "hsgsom",
@@ -2437,6 +2544,7 @@
         "index": {
           "description": "The indices of the input vectors belonging to this cluster That means cluster is always relative to set of Inputs",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "contents",
           "normalized": "[Int]",
@@ -2452,6 +2560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe coordinates of this cluster\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "coordinates",
           "package": "hsgsom",
@@ -2462,6 +2571,7 @@
         "index": {
           "description": "the coordinates of this cluster",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "coordinates",
           "package": "hsgsom",
@@ -2475,6 +2585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDumps the given input vectors to a string which can be fed to\n gnuplot. Just write the string to a file and write \u003ccode\u003eplot \"file\"\u003c/code\u003e in\n gnuplot.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "dumpInputs",
           "package": "hsgsom",
@@ -2485,6 +2596,7 @@
         "index": {
           "description": "Dumps the given input vectors to string which can be fed to gnuplot Just write the string to file and write plot file in gnuplot",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "dumpInputs",
           "normalized": "Inputs-\u003eString",
@@ -2501,6 +2613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003enearestCluster\u003c/a\u003e\u003c/code\u003e input clustering\u003c/code\u003e returns the cluster which has\n the center with the smallest distance to \u003ccode\u003einput\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "nearestCluster",
           "package": "hsgsom",
@@ -2511,6 +2624,7 @@
         "index": {
           "description": "nearestCluster input clustering returns the cluster which has the center with the smallest distance to input",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "nearestCluster",
           "normalized": "Input-\u003eClustering-\u003eCluster",
@@ -2527,6 +2641,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ccode\u003e\u003ca\u003erenderScript\u003c/a\u003e\u003c/code\u003e c path\u003c/code\u003e expects to be given a \u003ccode\u003e\u003ca\u003eClustering\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ec\u003c/code\u003e\n having 2 dimensional \u003ccode\u003e\u003ca\u003ecenter\u003c/a\u003e\u003c/code\u003es and will call \u003ccode\u003e\u003ca\u003eerror\u003c/a\u003e\u003c/code\u003e if that's not\n the case. On success it will save a python script to \u003ccode\u003epath\u003c/code\u003e.py. If\n this python script is run it will in turn save a PDF image to\n \u003ccode\u003epath\u003c/code\u003e.pdf. The image will contain the graph induced by \u003ccode\u003ec\u003c/code\u003e with each\n node (cluster center) placed positioned according to the \u003ccode\u003ec\u003c/code\u003e's\n center (weight vector). The python script will depend on the\n \u003ccode\u003enetworkx\u003c/code\u003e and \u003ccode\u003emathplotlib\u003c/code\u003e python packages being installed.\n I know that this is relatively clunky, but since I haven't found a\n better way of creating an image of a graph with known node positions,\n this is the way I chose to go.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:48:35 UTC 2014",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "renderScript",
           "package": "hsgsom",
@@ -2537,6 +2652,7 @@
         "index": {
           "description": "renderScript path expects to be given Clustering having dimensional center and will call error if that not the case On success it will save python script to path py If this python script is run it will in turn save PDF image to path pdf The image will contain the graph induced by with each node cluster center placed positioned according to the center weight vector The python script will depend on the networkx and mathplotlib python packages being installed know that this is relatively clunky but since haven found better way of creating an image of graph with known node positions this is the way chose to go",
           "hierarchy": "Data Datamining Clustering Gsom",
+          "indexed": "2014-03-11T18:48:35",
           "module": "Data.Datamining.Clustering.Gsom",
           "name": "renderScript",
           "normalized": "Clustering-\u003eString-\u003eIO()",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ContArrow"
+        "phrase": "ContArrow",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "Cont",
           "package": "ContArrow",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "Cont",
           "package": "ContArrow",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "ContArrow",
           "package": "ContArrow",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "ContArrow",
           "package": "ContArrow",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "CO",
           "package": "ContArrow",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "CO",
           "normalized": "CO(a b c-\u003ea d c)",
@@ -84,6 +90,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "callcc",
           "package": "ContArrow",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "callcc",
           "normalized": "(a b c-\u003eContArrow c a d b)-\u003eContArrow c a d b",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "jump",
           "package": "ContArrow",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "jump",
           "normalized": "ContArrow a b(b c a,c)d",
@@ -130,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "liftCont",
           "package": "ContArrow",
@@ -139,6 +150,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "liftCont",
           "normalized": "a b c-\u003eContArrow d a b c",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:37:23 UTC 2014",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "runCont",
           "package": "ContArrow",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Control Arrow Transformer Cont",
+          "indexed": "2014-03-11T16:37:23",
           "module": "Control.Arrow.Transformer.Cont",
           "name": "runCont",
           "normalized": "ContArrow a b c d-\u003eb d a-\u003eb c a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "jsonrpc-conduit"
+        "phrase": "jsonrpc-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJSON-RPC methods.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Methods",
           "package": "jsonrpc-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "JSON-RPC methods",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Methods",
           "package": "jsonrpc-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA wrapper over a monadic function that can either succeed or fail with a\n\u003ccode\u003e\u003ca\u003eMethodError\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eHides the input and output types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Method",
           "package": "jsonrpc-conduit",
@@ -51,6 +54,7 @@
         "index": {
           "description": "wrapper over monadic function that can either succeed or fail with MethodError Hides the input and output types",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Method",
           "package": "jsonrpc-conduit",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepresents an error with an integer code and a textual message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "MethodError",
           "package": "jsonrpc-conduit",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Represents an error with an integer code and textual message",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "MethodError",
           "package": "jsonrpc-conduit",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCollection of \u003ccode\u003e\u003ca\u003eNamedMethod\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Methods",
           "package": "jsonrpc-conduit",
@@ -97,6 +104,7 @@
         "index": {
           "description": "Collection of NamedMethod",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Methods",
           "package": "jsonrpc-conduit",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eMethod\u003c/a\u003e\u003c/code\u003e with a name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "NamedMethod",
           "package": "jsonrpc-conduit",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Method with name",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "NamedMethod",
           "package": "jsonrpc-conduit",
@@ -133,6 +143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Method",
           "package": "jsonrpc-conduit",
@@ -142,6 +153,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "Method",
           "normalized": "(a-\u003eb(Either MethodError c))-\u003eMethod b",
@@ -157,6 +169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "MethodError",
           "package": "jsonrpc-conduit",
@@ -166,6 +179,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "MethodError",
           "package": "jsonrpc-conduit",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a collection from a list of \u003ccode\u003e\u003ca\u003eNamedMethod\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "fromList",
           "package": "jsonrpc-conduit",
@@ -190,6 +205,7 @@
         "index": {
           "description": "Builds collection from list of NamedMethod",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "fromList",
           "normalized": "[NamedMethod a]-\u003eMethods a",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLooks up the method corresponding to the given name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "lookup",
           "package": "jsonrpc-conduit",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Looks up the method corresponding to the given name",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "lookup",
           "normalized": "Methods a-\u003eText-\u003eMaybe(Method a)",
@@ -231,6 +249,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBuilds a \u003ccode\u003e\u003ca\u003eNamedMethod\u003c/a\u003e\u003c/code\u003e given its name and function.\n\u003c/p\u003e\u003cp\u003eUseful in conjuction with \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "method",
           "package": "jsonrpc-conduit",
@@ -241,6 +260,7 @@
         "index": {
           "description": "Builds NamedMethod given its name and function Useful in conjuction with fromList",
           "hierarchy": "Data Conduit JsonRpc Methods",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Methods",
           "name": "method",
           "normalized": "Text-\u003e(a-\u003eb(Either MethodError c))-\u003eNamedMethod b",
@@ -256,6 +276,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eJSON-RPC 2.0 server \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Server",
           "name": "Server",
           "package": "jsonrpc-conduit",
@@ -265,6 +286,7 @@
         "index": {
           "description": "JSON-RPC server Conduit",
           "hierarchy": "Data Conduit JsonRpc Server",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Server",
           "name": "Server",
           "package": "jsonrpc-conduit",
@@ -279,6 +301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA \u003ccode\u003e\u003ca\u003eConduit\u003c/a\u003e\u003c/code\u003e that consumes a stream of JSON-RPC requests, tries to process them\nwith the provided \u003ccode\u003e\u003ca\u003eMethods\u003c/a\u003e\u003c/code\u003e and writes back the results.\n\u003c/p\u003e\u003cp\u003eCurrent limitations:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e does not support batch requests\n\u003c/li\u003e\u003cli\u003e it is not possible to set the \u003ccode\u003edata\u003c/code\u003e attribute of error objects\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:02:23 UTC 2014",
           "module": "Data.Conduit.JsonRpc.Server",
           "name": "serve",
           "package": "jsonrpc-conduit",
@@ -289,6 +312,7 @@
         "index": {
           "description": "Conduit that consumes stream of JSON-RPC requests tries to process them with the provided Methods and writes back the results Current limitations does not support batch requests it is not possible to set the data attribute of error objects",
           "hierarchy": "Data Conduit JsonRpc Server",
+          "indexed": "2014-03-11T19:02:23",
           "module": "Data.Conduit.JsonRpc.Server",
           "name": "serve",
           "normalized": "Methods a-\u003eConduit ByteString a ByteString",

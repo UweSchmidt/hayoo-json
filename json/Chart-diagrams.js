@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Chart-diagrams"
+        "phrase": "Chart-diagrams",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe backend to render charts with the diagrams library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "Diagrams",
           "package": "Chart-diagrams",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The backend to render charts with the diagrams library",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "Diagrams",
           "package": "Chart-diagrams",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe diagrams backend environement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DEnv",
           "package": "Chart-diagrams",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The diagrams backend environement",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DEnv",
           "package": "Chart-diagrams",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA font a delivered by SVGFonts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DFont",
           "package": "Chart-diagrams",
@@ -74,6 +79,7 @@
         "index": {
           "description": "font delivered by SVGFonts",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DFont",
           "package": "Chart-diagrams",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file output format:\n     EPS -\u003e Embedded Postscript\n     SVG -\u003e SVG with text rendered as stroked paths\n     SVG -\u003e SVG with embedded font information and text rendered as text operations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileFormat",
           "package": "Chart-diagrams",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The file output format EPS Embedded Postscript SVG SVG with text rendered as stroked paths SVG SVG with embedded font information and text rendered as text operations",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileFormat",
           "package": "Chart-diagrams",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileOptions",
           "package": "Chart-diagrams",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileOptions",
           "package": "Chart-diagrams",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DEnv",
           "package": "Chart-diagrams",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "DEnv",
           "package": "Chart-diagrams",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "EPS",
           "package": "Chart-diagrams",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "EPS",
           "package": "Chart-diagrams",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileOptions",
           "package": "Chart-diagrams",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "FileOptions",
           "package": "Chart-diagrams",
@@ -197,6 +213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "SVG",
           "package": "Chart-diagrams",
@@ -206,6 +223,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "SVG",
           "package": "Chart-diagrams",
@@ -219,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "SVG_EMBEDDED",
           "package": "Chart-diagrams",
@@ -228,6 +247,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "SVG_EMBEDDED",
           "package": "Chart-diagrams",
@@ -241,6 +261,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_customFonts",
           "package": "Chart-diagrams",
@@ -250,6 +271,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_customFonts",
           "normalized": "Map(String,FontSlant,FontWeight)FilePath",
@@ -265,6 +287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_format",
           "package": "Chart-diagrams",
@@ -274,6 +297,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_format",
           "package": "Chart-diagrams",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_size",
           "package": "Chart-diagrams",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "_fo_size",
           "normalized": "(Double,Double)",
@@ -309,6 +335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToEPSFile",
           "package": "Chart-diagrams",
@@ -318,6 +345,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToEPSFile",
           "normalized": "ChartBackend a-\u003eDEnv-\u003eFilePath-\u003eIO a",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToEmbeddedFontSVG",
           "package": "Chart-diagrams",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToEmbeddedFontSVG",
           "normalized": "ChartBackend a-\u003eDEnv-\u003e(Svg,a)",
@@ -358,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an image file for the given drawing instructions, at the specified path. Size and\n format are set through the \u003ccode\u003e\u003ca\u003eFileOptions\u003c/a\u003e\u003c/code\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToFile",
           "package": "Chart-diagrams",
@@ -368,6 +399,7 @@
         "index": {
           "description": "Generate an image file for the given drawing instructions at the specified path Size and format are set through the FileOptions parameter",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToFile",
           "normalized": "FileOptions-\u003eChartBackend a-\u003eFilePath-\u003eIO a",
@@ -383,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToSVG",
           "package": "Chart-diagrams",
@@ -392,6 +425,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "cBackendToSVG",
           "normalized": "ChartBackend a-\u003eDEnv-\u003e(Svg,a)",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce an environment with a custom set of fonts.\n   The defult fonts are still loaded as fall back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "customFontEnv",
           "package": "Chart-diagrams",
@@ -417,6 +452,7 @@
         "index": {
           "description": "Produce an environment with custom set of fonts The defult fonts are still loaded as fall back",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "customFontEnv",
           "normalized": "AlignmentFns-\u003eDouble-\u003eDouble-\u003eMap(String,FontSlant,FontWeight)FilePath-\u003eIO DEnv",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduce a default environment with the default fonts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "defaultEnv",
           "package": "Chart-diagrams",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Produce default environment with the default fonts",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "defaultEnv",
           "normalized": "AlignmentFns-\u003eDouble-\u003eDouble-\u003eIO DEnv",
@@ -458,6 +496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe used alignment functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envAlignmentFns",
           "package": "Chart-diagrams",
@@ -468,6 +507,7 @@
         "index": {
           "description": "The used alignment functions",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envAlignmentFns",
           "package": "Chart-diagrams",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe current/initial font style.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envFontStyle",
           "package": "Chart-diagrams",
@@ -492,6 +533,7 @@
         "index": {
           "description": "The current initial font style",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envFontStyle",
           "package": "Chart-diagrams",
@@ -506,6 +548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe size of the rendered output.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envOutputSize",
           "package": "Chart-diagrams",
@@ -516,6 +559,7 @@
         "index": {
           "description": "The size of the rendered output",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envOutputSize",
           "normalized": "(Double,Double)",
@@ -532,6 +576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe font selection function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envSelectFont",
           "package": "Chart-diagrams",
@@ -542,6 +587,7 @@
         "index": {
           "description": "The font selection function",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envSelectFont",
           "normalized": "FontStyle-\u003eDFont",
@@ -558,6 +604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe map of all glyphs that are used from a specific font.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envUsedGlyphs",
           "package": "Chart-diagrams",
@@ -568,6 +615,7 @@
         "index": {
           "description": "The map of all glyphs that are used from specific font",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "envUsedGlyphs",
           "normalized": "Map(String,FontSlant,FontWeight)(Set String)",
@@ -583,6 +631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_customFonts",
           "package": "Chart-diagrams",
@@ -592,6 +641,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_customFonts",
           "normalized": "Lens' FileOptions(Map(String,FontSlant,FontWeight)FilePath)",
@@ -607,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_format",
           "package": "Chart-diagrams",
@@ -616,6 +667,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_format",
           "package": "Chart-diagrams",
@@ -628,6 +680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_size",
           "package": "Chart-diagrams",
@@ -637,6 +690,7 @@
         },
         "index": {
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "fo_size",
           "normalized": "Lens' FileOptions(Double,Double)",
@@ -652,6 +706,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a EPS file using the default environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEPSFile",
           "package": "Chart-diagrams",
@@ -662,6 +717,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to EPS file using the default environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEPSFile",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eFilePath-\u003eIO(PickFn a)",
@@ -678,6 +734,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a EPS file using the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEPSFile'",
           "package": "Chart-diagrams",
@@ -688,6 +745,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to EPS file using the given environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEPSFile'",
           "normalized": "Renderable a-\u003eDEnv-\u003eFilePath-\u003eIO(PickFn a)",
@@ -704,6 +762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable as a SVG of the specifed size\n   (in points) using the default environment.\n   Font are embedded to save space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVG",
           "package": "Chart-diagrams",
@@ -714,6 +773,7 @@
         "index": {
           "description": "Output the given renderable as SVG of the specifed size in points using the default environment Font are embedded to save space",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVG",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eIO(Svg,PickFn a)",
@@ -730,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable as a SVG using the given environment.\n   Font are embedded to save space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVG'",
           "package": "Chart-diagrams",
@@ -740,6 +801,7 @@
         "index": {
           "description": "Output the given renderable as SVG using the given environment Font are embedded to save space",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVG'",
           "normalized": "Renderable a-\u003eDEnv-\u003e(Svg,PickFn a)",
@@ -756,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a SVG file of the specifed size\n   (in points), to the specified file using the default environment.\n   Font are embedded to save space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVGFile",
           "package": "Chart-diagrams",
@@ -766,6 +829,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to SVG file of the specifed size in points to the specified file using the default environment Font are embedded to save space",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVGFile",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eFilePath-\u003eIO(PickFn a)",
@@ -782,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a SVG file using the given environment.\n   Font are embedded to save space.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVGFile'",
           "package": "Chart-diagrams",
@@ -792,6 +857,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to SVG file using the given environment Font are embedded to save space",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToEmbeddedFontSVGFile'",
           "normalized": "Renderable a-\u003eDEnv-\u003eFilePath-\u003eIO(PickFn a)",
@@ -808,6 +874,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate an image file for the given renderable, at the specified path. Size, format,\n and text rendering mode are all set through the \u003ccode\u003e\u003ca\u003eFileOptions\u003c/a\u003e\u003c/code\u003e parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToFile",
           "package": "Chart-diagrams",
@@ -818,6 +885,7 @@
         "index": {
           "description": "Generate an image file for the given renderable at the specified path Size format and text rendering mode are all set through the FileOptions parameter",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToFile",
           "normalized": "FileOptions-\u003eRenderable a-\u003eFilePath-\u003eIO(PickFn a)",
@@ -834,6 +902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable as a SVG of the specifed size\n   (in points) using the default environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVG",
           "package": "Chart-diagrams",
@@ -844,6 +913,7 @@
         "index": {
           "description": "Output the given renderable as SVG of the specifed size in points using the default environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVG",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eIO(Svg,PickFn a)",
@@ -860,6 +930,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable as a SVG using the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVG'",
           "package": "Chart-diagrams",
@@ -870,6 +941,7 @@
         "index": {
           "description": "Output the given renderable as SVG using the given environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVG'",
           "normalized": "Renderable a-\u003eDEnv-\u003e(Svg,PickFn a)",
@@ -886,6 +958,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a SVG file of the specifed size\n   (in points), to the specified file using the default environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGFile",
           "package": "Chart-diagrams",
@@ -896,6 +969,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to SVG file of the specifed size in points to the specified file using the default environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGFile",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eFilePath-\u003eIO(PickFn a)",
@@ -912,6 +986,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use renderToFile\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eOutput the given renderable to a SVG file using the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGFile'",
           "package": "Chart-diagrams",
@@ -922,6 +997,7 @@
         "index": {
           "description": "Deprecated use renderToFile Output the given renderable to SVG file using the given environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGFile'",
           "normalized": "Renderable a-\u003eDEnv-\u003eFilePath-\u003eIO(PickFn a)",
@@ -938,6 +1014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable to a string containing a SVG of the specifed size\n   (in points) using the default environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGString",
           "package": "Chart-diagrams",
@@ -948,6 +1025,7 @@
         "index": {
           "description": "Output the given renderable to string containing SVG of the specifed size in points using the default environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGString",
           "normalized": "Renderable a-\u003eDouble-\u003eDouble-\u003eIO(ByteString,PickFn a)",
@@ -964,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOutput the given renderable to a string containing a SVG using the given environment.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGString'",
           "package": "Chart-diagrams",
@@ -974,6 +1053,7 @@
         "index": {
           "description": "Output the given renderable to string containing SVG using the given environment",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "renderableToSVGString'",
           "normalized": "Renderable a-\u003eDEnv-\u003e(ByteString,PickFn a)",
@@ -990,6 +1070,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun this backends renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "runBackend",
           "package": "Chart-diagrams",
@@ -999,6 +1080,7 @@
         "index": {
           "description": "Run this backends renderer",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "runBackend",
           "normalized": "DEnv-\u003eChartBackend a-\u003e(Diagram b R,a)",
@@ -1015,6 +1097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun this backends renderer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:36:24 UTC 2014",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "runBackendR",
           "package": "Chart-diagrams",
@@ -1024,6 +1107,7 @@
         "index": {
           "description": "Run this backends renderer",
           "hierarchy": "Graphics Rendering Chart Backend Diagrams",
+          "indexed": "2014-03-11T16:36:24",
           "module": "Graphics.Rendering.Chart.Backend.Diagrams",
           "name": "runBackendR",
           "normalized": "DEnv-\u003eRenderable a-\u003e(Diagram b R,PickFn a)",

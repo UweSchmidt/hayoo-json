@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "google-mail-filters"
+        "phrase": "google-mail-filters",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Filters",
           "package": "google-mail-filters",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Filters",
           "package": "google-mail-filters",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Action",
           "package": "google-mail-filters",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Action",
           "package": "google-mail-filters",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(Name, Email) of author.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Author",
           "package": "google-mail-filters",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Name Email of author",
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Author",
           "package": "google-mail-filters",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Filter",
           "package": "google-mail-filters",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Filter",
           "package": "google-mail-filters",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Archive",
           "package": "google-mail-filters",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Archive",
           "package": "google-mail-filters",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Categorise",
           "package": "google-mail-filters",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Categorise",
           "package": "google-mail-filters",
@@ -148,6 +160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Delete",
           "package": "google-mail-filters",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Delete",
           "package": "google-mail-filters",
@@ -170,6 +184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Filter",
           "package": "google-mail-filters",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Filter",
           "package": "google-mail-filters",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "ForwardTo",
           "package": "google-mail-filters",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "ForwardTo",
           "package": "google-mail-filters",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "LabelAs",
           "package": "google-mail-filters",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "LabelAs",
           "package": "google-mail-filters",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "MarkAsImportant",
           "package": "google-mail-filters",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "MarkAsImportant",
           "package": "google-mail-filters",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "MarkAsRead",
           "package": "google-mail-filters",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "MarkAsRead",
           "package": "google-mail-filters",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "NeverSpam",
           "package": "google-mail-filters",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "NeverSpam",
           "package": "google-mail-filters",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "Star",
           "package": "google-mail-filters",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "Star",
           "package": "google-mail-filters",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "actions",
           "package": "google-mail-filters",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "actions",
           "normalized": "[Action]",
@@ -348,6 +378,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esubsumes other search operators\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "hasTheWord",
           "package": "google-mail-filters",
@@ -358,6 +389,7 @@
         "index": {
           "description": "subsumes other search operators",
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "hasTheWord",
           "package": "google-mail-filters",
@@ -371,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:12 UTC 2014",
           "module": "Data.Google.Mail.Filters",
           "name": "toXML",
           "package": "google-mail-filters",
@@ -380,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Data Google Mail Filters",
+          "indexed": "2014-03-11T18:19:12",
           "module": "Data.Google.Mail.Filters",
           "name": "toXML",
           "normalized": "UTCTime-\u003eAuthor-\u003e[Filter]-\u003eDocument",

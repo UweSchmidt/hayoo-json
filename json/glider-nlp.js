@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "glider-nlp"
+        "phrase": "glider-nlp",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis code was taken from: http:\u003cem/\u003etartarus.org\u003cem\u003e~martin\u003c/em\u003ePorterStemmer/haskell.txt \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.English.Porter",
           "name": "Porter",
           "package": "glider-nlp",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This code was taken from http tartarus.org martin PorterStemmer haskell.txt",
           "hierarchy": "Glider NLP Language English Porter",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.English.Porter",
           "name": "Porter",
           "package": "glider-nlp",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAPI stemming function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.English.Porter",
           "name": "stem",
           "package": "glider-nlp",
@@ -52,6 +55,7 @@
         "index": {
           "description": "API stemming function",
           "hierarchy": "Glider NLP Language English Porter",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.English.Porter",
           "name": "stem",
           "normalized": "Text-\u003eText",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule contains stop words for English language\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.English.StopWords",
           "name": "StopWords",
           "package": "glider-nlp",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Module contains stop words for English language",
           "hierarchy": "Glider NLP Language English StopWords",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.English.StopWords",
           "name": "StopWords",
           "package": "glider-nlp",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to check if given words is a stop word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.English.StopWords",
           "name": "isStopWord",
           "package": "glider-nlp",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Predicate to check if given words is stop word",
           "hierarchy": "Glider NLP Language English StopWords",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.English.StopWords",
           "name": "isStopWord",
           "normalized": "Text-\u003eBool",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eModule contains stop words for Polish language\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.Polish.StopWords",
           "name": "StopWords",
           "package": "glider-nlp",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Module contains stop words for Polish language",
           "hierarchy": "Glider NLP Language Polish StopWords",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.Polish.StopWords",
           "name": "StopWords",
           "package": "glider-nlp",
@@ -139,6 +149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePredicate to check if given words is a stop word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Language.Polish.StopWords",
           "name": "isStopWord",
           "package": "glider-nlp",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Predicate to check if given words is stop word",
           "hierarchy": "Glider NLP Language Polish StopWords",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Language.Polish.StopWords",
           "name": "isStopWord",
           "normalized": "Text-\u003eBool",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module counts different statistics on the text\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Statistics",
           "name": "Statistics",
           "package": "glider-nlp",
@@ -174,6 +187,7 @@
         "index": {
           "description": "This module counts different statistics on the text",
           "hierarchy": "Glider NLP Statistics",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Statistics",
           "name": "Statistics",
           "package": "glider-nlp",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount number of words in the text.\n\u003c/p\u003e\u003cpre\u003e countWords (T.pack \"one two three\") == 3\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Statistics",
           "name": "countWords",
           "package": "glider-nlp",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Count number of words in the text countWords T.pack one two three",
           "hierarchy": "Glider NLP Statistics",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Statistics",
           "name": "countWords",
           "normalized": "Text-\u003eInt",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCount word frequency\n\u003c/p\u003e\u003cpre\u003e wordFreq (T.pack \"one two, three one\") == [(\"one\", 2), (\"two\", 1), (\"three\", 1)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Statistics",
           "name": "wordFreq",
           "package": "glider-nlp",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Count word frequency wordFreq T.pack one two three one one two three",
           "hierarchy": "Glider NLP Statistics",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Statistics",
           "name": "wordFreq",
           "normalized": "Text-\u003e[(Text,Int)]",
@@ -240,6 +258,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module contains functions which parses text into tokens. \ntokens are not normalized. If you need all tokens from the document then \ncheck function \u003ca\u003etokenize\u003c/a\u003e. If you need only words (na dots, numbers etc.) \nthen check function \u003ca\u003egetWords\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Tokenizer",
           "package": "glider-nlp",
@@ -249,6 +268,7 @@
         "index": {
           "description": "This module contains functions which parses text into tokens tokens are not normalized If you need all tokens from the document then check function tokenize If you need only words na dots numbers etc then check function getWords",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Tokenizer",
           "package": "glider-nlp",
@@ -263,6 +283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eToken type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Token",
           "package": "glider-nlp",
@@ -272,6 +293,7 @@
         "index": {
           "description": "Token type",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Token",
           "package": "glider-nlp",
@@ -285,6 +307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Number",
           "package": "glider-nlp",
@@ -294,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Number",
           "package": "glider-nlp",
@@ -307,6 +331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Punctuation",
           "package": "glider-nlp",
@@ -316,6 +341,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Punctuation",
           "package": "glider-nlp",
@@ -329,6 +355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Symbol",
           "package": "glider-nlp",
@@ -338,6 +365,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Symbol",
           "package": "glider-nlp",
@@ -351,6 +379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Unknown",
           "package": "glider-nlp",
@@ -360,6 +389,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Unknown",
           "package": "glider-nlp",
@@ -373,6 +403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Whitespace",
           "package": "glider-nlp",
@@ -382,6 +413,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Whitespace",
           "package": "glider-nlp",
@@ -395,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "Word",
           "package": "glider-nlp",
@@ -404,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "Word",
           "package": "glider-nlp",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply all parsers to the input. \n Return result from the first which will parse correctly given text.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "allParser",
           "package": "glider-nlp",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Apply all parsers to the input Return result from the first which will parse correctly given text",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "allParser",
           "package": "glider-nlp",
@@ -442,6 +478,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert all words to the same case\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "foldCase",
           "package": "glider-nlp",
@@ -452,6 +489,7 @@
         "index": {
           "description": "Convert all words to the same case",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "foldCase",
           "normalized": "[Text]-\u003e[Text]",
@@ -468,6 +506,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExctract all words from tokens\n\u003c/p\u003e\u003cpre\u003e getWords \"one two.\" == [\"one\", \"two\"] \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "getWords",
           "package": "glider-nlp",
@@ -478,6 +517,7 @@
         "index": {
           "description": "Exctract all words from tokens getWords one two one two",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "getWords",
           "normalized": "[Token]-\u003e[Text]",
@@ -494,6 +534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "numberParser",
           "package": "glider-nlp",
@@ -504,6 +545,7 @@
         "index": {
           "description": "Parse number",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "numberParser",
           "package": "glider-nlp",
@@ -518,6 +560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse punctuation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "punctuationParser",
           "package": "glider-nlp",
@@ -528,6 +571,7 @@
         "index": {
           "description": "Parse punctuation",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "punctuationParser",
           "package": "glider-nlp",
@@ -542,6 +586,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse whitespaces\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "spaceParser",
           "package": "glider-nlp",
@@ -552,6 +597,7 @@
         "index": {
           "description": "Parse whitespaces",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "spaceParser",
           "package": "glider-nlp",
@@ -566,6 +612,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse symbol\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "symbolParser",
           "package": "glider-nlp",
@@ -576,6 +623,7 @@
         "index": {
           "description": "Parse symbol",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "symbolParser",
           "package": "glider-nlp",
@@ -590,6 +638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSplit text into tokens\n\u003c/p\u003e\u003cpre\u003e tokenize \"one two.\" == [Word \"one\", Whitespace, Word \"two\", \"Separator \".\"] \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "tokenize",
           "package": "glider-nlp",
@@ -600,6 +649,7 @@
         "index": {
           "description": "Split text into tokens tokenize one two Word one Whitespace Word two Separator",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "tokenize",
           "normalized": "Text-\u003e[Token]",
@@ -615,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse word\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:18:00 UTC 2014",
           "module": "Glider.NLP.Tokenizer",
           "name": "wordParser",
           "package": "glider-nlp",
@@ -625,6 +676,7 @@
         "index": {
           "description": "Parse word",
           "hierarchy": "Glider NLP Tokenizer",
+          "indexed": "2014-03-11T18:18:00",
           "module": "Glider.NLP.Tokenizer",
           "name": "wordParser",
           "package": "glider-nlp",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-hdbc-odbc"
+        "phrase": "haskelldb-hdbc-odbc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "ODBC",
           "package": "haskelldb-hdbc-odbc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "ODBC",
           "package": "haskelldb-hdbc-odbc",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface which drivers should implement.\n   The \u003ccode\u003e\u003ca\u003econnect\u003c/a\u003e\u003c/code\u003e function takes some driver specific name, value pairs\n   use to setup the database connection, and a database action to run.\n   \u003ccode\u003e\u003ca\u003erequiredOptions\u003c/a\u003e\u003c/code\u003e lists all required options with a short description,\n   that is printed as help in the DBDirect program.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-odbc",
@@ -48,6 +51,7 @@
         "index": {
           "description": "Interface which drivers should implement The connect function takes some driver specific name value pairs use to setup the database connection and database action to run requiredOptions lists all required options with short description that is printed as help in the DBDirect program",
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-odbc",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-odbc",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "DriverInterface",
           "package": "haskelldb-hdbc-odbc",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "connect",
           "package": "haskelldb-hdbc-odbc",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "connect",
           "normalized": "[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -105,6 +113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis driver passes its options through to HDBC.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "driver",
           "package": "haskelldb-hdbc-odbc",
@@ -115,6 +124,7 @@
         "index": {
           "description": "This driver passes its options through to HDBC",
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "driver",
           "package": "haskelldb-hdbc-odbc",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "odbcConnect",
           "package": "haskelldb-hdbc-odbc",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "odbcConnect",
           "normalized": "SqlGenerator-\u003e[(String,String)]-\u003e(Database-\u003ea b)-\u003ea b",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:32:36 UTC 2014",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "requiredOptions",
           "package": "haskelldb-hdbc-odbc",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Database HaskellDB HDBC ODBC",
+          "indexed": "2014-03-11T18:32:36",
           "module": "Database.HaskellDB.HDBC.ODBC",
           "name": "requiredOptions",
           "normalized": "[(String,String)]",

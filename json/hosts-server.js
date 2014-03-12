@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hosts-server"
+        "phrase": "hosts-server",
+        "type": "phrase"
       },
       "type": "context"
     }

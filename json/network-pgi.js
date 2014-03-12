@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-pgi"
+        "phrase": "network-pgi",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "Handlers",
           "package": "network-pgi",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "Handlers",
           "package": "network-pgi",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "bodyData",
           "package": "network-pgi",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "bodyData",
           "normalized": "a-\u003eTValue",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "constHandler",
           "package": "network-pgi",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "constHandler",
           "normalized": "a-\u003eHandler",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "constHandlerM",
           "package": "network-pgi",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "constHandlerM",
           "normalized": "IO a-\u003eHandler",
@@ -111,6 +119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "decodeError",
           "package": "network-pgi",
@@ -120,6 +129,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "decodeError",
           "normalized": "a-\u003eb",
@@ -135,6 +145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "makeHandler",
           "package": "network-pgi",
@@ -144,6 +155,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "makeHandler",
           "normalized": "(a-\u003eb)-\u003eHandler",
@@ -159,6 +171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI.Handlers",
           "name": "makeHandlerM",
           "package": "network-pgi",
@@ -168,6 +181,7 @@
         },
         "index": {
           "hierarchy": "Network PGI Handlers",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI.Handlers",
           "name": "makeHandlerM",
           "normalized": "(a-\u003eIO b)-\u003eHandler",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI",
           "name": "PGI",
           "package": "network-pgi",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Network PGI",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI",
           "name": "PGI",
           "package": "network-pgi",
@@ -204,6 +220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI",
           "name": "Handler",
           "package": "network-pgi",
@@ -212,6 +229,7 @@
         },
         "index": {
           "hierarchy": "Network PGI",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI",
           "name": "Handler",
           "package": "network-pgi",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI",
           "name": "Route",
           "package": "network-pgi",
@@ -233,6 +252,7 @@
         },
         "index": {
           "hierarchy": "Network PGI",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI",
           "name": "Route",
           "package": "network-pgi",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:28:17 UTC 2014",
           "module": "Network.PGI",
           "name": "serve",
           "package": "network-pgi",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Network PGI",
+          "indexed": "2014-03-11T19:28:17",
           "module": "Network.PGI",
           "name": "serve",
           "normalized": "[(Route,Handler)]-\u003eIO()",

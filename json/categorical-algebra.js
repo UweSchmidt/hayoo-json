@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "categorical-algebra"
+        "phrase": "categorical-algebra",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCategorical semirings (my term, but maybe the correct one) are an alternative to Arrows, but play nicely with groupoids. | \n  See the source or the latex source for more background.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Semiring",
           "package": "categorical-algebra",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Categorical semirings my term but maybe the correct one are an alternative to Arrows but play nicely with groupoids See the source or the latex source for more background",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Semiring",
           "package": "categorical-algebra",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe absorbtion law =\u003e x+0 \u003c-\u003e x |\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Absorbs",
           "package": "categorical-algebra",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The absorbtion law",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Absorbs",
           "package": "categorical-algebra",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe annihilation law =\u003e 0 * x \u003c-\u003e 0|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Annihilates",
           "package": "categorical-algebra",
@@ -74,6 +79,7 @@
         "index": {
           "description": "The annihilation law",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Annihilates",
           "package": "categorical-algebra",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe assocative law =\u003e (x + y) + z \u003c-\u003e x + (y + z)|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Assocative",
           "package": "categorical-algebra",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The assocative law",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Assocative",
           "package": "categorical-algebra",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe commutative law =\u003e x + y \u003c-\u003e y + x|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Commutative",
           "package": "categorical-algebra",
@@ -120,6 +129,7 @@
         "index": {
           "description": "The commutative law",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Commutative",
           "package": "categorical-algebra",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCommutative Monoidial Category class|          \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "CommutativeMonoidial",
           "package": "categorical-algebra",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Commutative Monoidial Category class",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "CommutativeMonoidial",
           "package": "categorical-algebra",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn endofunctor for combining two morphisms|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Ctor",
           "package": "categorical-algebra",
@@ -166,6 +179,7 @@
         "index": {
           "description": "An endofunctor for combining two morphisms",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Ctor",
           "package": "categorical-algebra",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe distribution law =\u003e (a + b) * c \u003c-\u003e (a * c) + (b * c)|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Distributes",
           "package": "categorical-algebra",
@@ -189,6 +204,7 @@
         "index": {
           "description": "The distribution law",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Distributes",
           "package": "categorical-algebra",
@@ -202,6 +218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Groupoid",
           "package": "categorical-algebra",
@@ -210,6 +227,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Groupoid",
           "package": "categorical-algebra",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Iso",
           "package": "categorical-algebra",
@@ -231,6 +250,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Iso",
           "package": "categorical-algebra",
@@ -245,6 +265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonoidial Category class|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Monoidial",
           "package": "categorical-algebra",
@@ -254,6 +275,7 @@
         "index": {
           "description": "Monoidial Category class",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Monoidial",
           "package": "categorical-algebra",
@@ -268,6 +290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSemiring Category class|        \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Semiring",
           "package": "categorical-algebra",
@@ -277,6 +300,7 @@
         "index": {
           "description": "Semiring Category class",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Semiring",
           "package": "categorical-algebra",
@@ -290,6 +314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "Iso",
           "package": "categorical-algebra",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "Iso",
           "package": "categorical-algebra",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "absorb",
           "package": "categorical-algebra",
@@ -321,6 +348,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "absorb",
           "package": "categorical-algebra",
@@ -333,6 +361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "annihilates",
           "package": "categorical-algebra",
@@ -342,6 +371,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "annihilates",
           "package": "categorical-algebra",
@@ -354,6 +384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "assoc",
           "package": "categorical-algebra",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "assoc",
           "package": "categorical-algebra",
@@ -375,6 +407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "biject_distributes",
           "package": "categorical-algebra",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "biject_distributes",
           "package": "categorical-algebra",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "biject_product_absorb",
           "package": "categorical-algebra",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "biject_product_absorb",
           "package": "categorical-algebra",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "biject_product_assoc",
           "package": "categorical-algebra",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "biject_product_assoc",
           "package": "categorical-algebra",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "biject_sum_absorb",
           "package": "categorical-algebra",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "biject_sum_absorb",
           "package": "categorical-algebra",
@@ -459,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "biject_sum_assoc",
           "package": "categorical-algebra",
@@ -468,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "biject_sum_assoc",
           "package": "categorical-algebra",
@@ -480,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "commute",
           "package": "categorical-algebra",
@@ -489,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "commute",
           "package": "categorical-algebra",
@@ -501,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "distribute",
           "package": "categorical-algebra",
@@ -510,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "distribute",
           "package": "categorical-algebra",
@@ -522,6 +568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "embed",
           "package": "categorical-algebra",
@@ -531,6 +578,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "embed",
           "package": "categorical-algebra",
@@ -544,6 +592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the multi monoid operator to the morphism and identity|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "first",
           "package": "categorical-algebra",
@@ -554,6 +603,7 @@
         "index": {
           "description": "Apply the multi monoid operator to the morphism and identity",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "first",
           "normalized": "a b c-\u003ea(d b e)(d c e)",
@@ -568,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "inv",
           "package": "categorical-algebra",
@@ -577,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "inv",
           "normalized": "a b c-\u003ea c b",
@@ -591,6 +643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "kbiject_distributes",
           "package": "categorical-algebra",
@@ -600,6 +653,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "kbiject_distributes",
           "package": "categorical-algebra",
@@ -612,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "kbiject_product_absorb",
           "package": "categorical-algebra",
@@ -621,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "kbiject_product_absorb",
           "package": "categorical-algebra",
@@ -633,6 +689,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "kbiject_product_assoc",
           "package": "categorical-algebra",
@@ -642,6 +699,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "kbiject_product_assoc",
           "package": "categorical-algebra",
@@ -654,6 +712,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "kbiject_sum_absorb",
           "package": "categorical-algebra",
@@ -663,6 +722,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "kbiject_sum_absorb",
           "package": "categorical-algebra",
@@ -675,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "kbiject_sum_assoc",
           "package": "categorical-algebra",
@@ -684,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "kbiject_sum_assoc",
           "package": "categorical-algebra",
@@ -697,6 +759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the add monoid operator to the morphism and identity|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "left",
           "package": "categorical-algebra",
@@ -707,6 +770,7 @@
         "index": {
           "description": "Apply the add monoid operator to the morphism and identity",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "left",
           "normalized": "a b c-\u003ea(d b e)(d c e)",
@@ -721,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "project",
           "package": "categorical-algebra",
@@ -730,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "project",
           "package": "categorical-algebra",
@@ -743,6 +809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a new morphism with identity|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "promote",
           "package": "categorical-algebra",
@@ -753,6 +820,7 @@
         "index": {
           "description": "construct new morphism with identity",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "promote",
           "normalized": "a b c-\u003ea(d b e)(d c e)",
@@ -768,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the add monoid operator to identity and the morphism|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "right",
           "package": "categorical-algebra",
@@ -778,6 +847,7 @@
         "index": {
           "description": "Apply the add monoid operator to identity and the morphism",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "right",
           "normalized": "a b c-\u003ea(d e b)(d e c)",
@@ -793,6 +863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the multi monoid operator to identity and the morphism|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "second",
           "package": "categorical-algebra",
@@ -803,6 +874,7 @@
         "index": {
           "description": "Apply the multi monoid operator to identity and the morphism",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "second",
           "normalized": "a b c-\u003ea(d e b)(d e c)",
@@ -817,6 +889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "selfmap",
           "package": "categorical-algebra",
@@ -826,6 +899,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "selfmap",
           "normalized": "a b c-\u003ea d e-\u003ea(f b d)(f c e)",
@@ -841,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstruct a new morphism with identity with the arguments reversed|\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "swap_promote",
           "package": "categorical-algebra",
@@ -851,6 +926,7 @@
         "index": {
           "description": "construct new morphism with identity with the arguments reversed",
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "swap_promote",
           "normalized": "a b c-\u003ea(d e b)(d e c)",
@@ -865,6 +941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "unabsorb",
           "package": "categorical-algebra",
@@ -874,6 +951,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "unabsorb",
           "package": "categorical-algebra",
@@ -886,6 +964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "unassoc",
           "package": "categorical-algebra",
@@ -895,6 +974,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "unassoc",
           "package": "categorical-algebra",
@@ -907,6 +987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:30:28 UTC 2014",
           "module": "Data.Semiring",
           "name": "undistribute",
           "package": "categorical-algebra",
@@ -916,6 +997,7 @@
         },
         "index": {
           "hierarchy": "Data Semiring",
+          "indexed": "2014-03-11T17:30:28",
           "module": "Data.Semiring",
           "name": "undistribute",
           "package": "categorical-algebra",

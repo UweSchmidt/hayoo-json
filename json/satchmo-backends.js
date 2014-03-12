@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "satchmo-backends"
+        "phrase": "satchmo-backends",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Minisat",
           "name": "Minisat",
           "package": "satchmo-backends",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Minisat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Minisat",
           "name": "Minisat",
           "package": "satchmo-backends",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Minisat",
           "name": "solve",
           "package": "satchmo-backends",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Minisat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Minisat",
           "name": "solve",
           "normalized": "SAT(Decoder a)-\u003eIO(Maybe a)",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Minisat",
           "name": "using",
           "package": "satchmo-backends",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Minisat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Minisat",
           "name": "using",
           "normalized": "FilePath-\u003eSAT(Decoder a)-\u003eIO(Maybe a)",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003etextual interface to Precosat/Picosat solver,\n cf. http:\u003cem/\u003efmv.jku.at\u003cem\u003eprecosat\u003c/em\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Pcosat",
           "name": "Pcosat",
           "package": "satchmo-backends",
@@ -95,6 +102,7 @@
         "index": {
           "description": "textual interface to Precosat Picosat solver cf http fmv.jku.at precosat",
           "hierarchy": "Satchmo Solver Pcosat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Pcosat",
           "name": "Pcosat",
           "package": "satchmo-backends",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Pcosat",
           "name": "solve",
           "package": "satchmo-backends",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Pcosat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Pcosat",
           "name": "solve",
           "normalized": "SAT(Decoder a)-\u003eIO(Maybe a)",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Pcosat",
           "name": "using",
           "package": "satchmo-backends",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Pcosat",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Pcosat",
           "name": "using",
           "normalized": "FilePath-\u003eSAT(Decoder a)-\u003eIO(Maybe a)",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Yices",
           "name": "Yices",
           "package": "satchmo-backends",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Yices",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Yices",
           "name": "Yices",
           "package": "satchmo-backends",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Yices",
           "name": "solve",
           "package": "satchmo-backends",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Yices",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Yices",
           "name": "solve",
           "normalized": "Maybe Seconds-\u003eSAT(Decoder a)-\u003eIO(Maybe a)",
@@ -198,6 +214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:57:27 UTC 2014",
           "module": "Satchmo.Solver.Yices",
           "name": "solveW",
           "package": "satchmo-backends",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "Satchmo Solver Yices",
+          "indexed": "2014-03-11T19:57:27",
           "module": "Satchmo.Solver.Yices",
           "name": "solveW",
           "normalized": "Maybe Seconds-\u003eMaxWeight-\u003eSAT(Decoder a)-\u003eIO(Maybe a)",

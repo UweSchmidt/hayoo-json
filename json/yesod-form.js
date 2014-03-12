@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-form"
+        "phrase": "yesod-form",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "Fields",
           "package": "yesod-form",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "Fields",
           "package": "yesod-form",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "AutoFocus",
           "package": "yesod-form",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "AutoFocus",
           "package": "yesod-form",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "FormMessage",
           "package": "yesod-form",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "FormMessage",
           "package": "yesod-form",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "Option",
           "package": "yesod-form",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "Option",
           "package": "yesod-form",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "OptionList",
           "package": "yesod-form",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "OptionList",
           "package": "yesod-form",
@@ -124,6 +134,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA newtype wrapper around a \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e that converts newlines to HTML\n br-tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "Textarea",
           "package": "yesod-form",
@@ -133,6 +144,7 @@
         "index": {
           "description": "newtype wrapper around Text that converts newlines to HTML br-tags",
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "Textarea",
           "package": "yesod-form",
@@ -560,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "Option",
           "package": "yesod-form",
@@ -569,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "Option",
           "package": "yesod-form",
@@ -582,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "OptionList",
           "package": "yesod-form",
@@ -591,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "OptionList",
           "package": "yesod-form",
@@ -604,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "Textarea",
           "package": "yesod-form",
@@ -613,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "Textarea",
           "package": "yesod-form",
@@ -626,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "boolField",
           "package": "yesod-form",
@@ -635,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "boolField",
           "package": "yesod-form",
@@ -649,6 +669,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhile the default \u003ccode\u003e\u003ccode\u003e\u003ca\u003eboolField\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e implements a radio button so you\n   can differentiate between an empty response (Nothing) and a no\n   response (Just False), this simpler checkbox field returns an empty\n   response as Just False.\n\u003c/p\u003e\u003cp\u003eNote that this makes the field always optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "checkBoxField",
           "package": "yesod-form",
@@ -659,6 +680,7 @@
         "index": {
           "description": "While the default boolField implements radio button so you can differentiate between an empty response Nothing and no response Just False this simpler checkbox field returns an empty response as Just False Note that this makes the field always optional",
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "checkBoxField",
           "package": "yesod-form",
@@ -672,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "checkboxesField",
           "package": "yesod-form",
@@ -681,6 +704,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "checkboxesField",
           "normalized": "HandlerT a IO(OptionList b)-\u003eField(HandlerT a IO)[b]",
@@ -696,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "checkboxesFieldList",
           "package": "yesod-form",
@@ -705,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "checkboxesFieldList",
           "normalized": "[(a,b)]-\u003eField(HandlerT c IO)[b]",
@@ -720,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "dayField",
           "package": "yesod-form",
@@ -729,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "dayField",
           "package": "yesod-form",
@@ -742,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "defaultFormMessage",
           "package": "yesod-form",
@@ -751,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "defaultFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -766,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "doubleField",
           "package": "yesod-form",
@@ -775,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "doubleField",
           "package": "yesod-form",
@@ -788,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "emailField",
           "package": "yesod-form",
@@ -797,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "emailField",
           "package": "yesod-form",
@@ -810,6 +844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "fileAFormOpt",
           "package": "yesod-form",
@@ -819,6 +854,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "fileAFormOpt",
           "normalized": "FieldSettings(HandlerSite a)-\u003eAForm a(Maybe FileInfo)",
@@ -834,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "fileAFormReq",
           "package": "yesod-form",
@@ -843,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "fileAFormReq",
           "normalized": "FieldSettings(HandlerSite a)-\u003eAForm a FileInfo",
@@ -858,6 +896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "fileField",
           "package": "yesod-form",
@@ -867,6 +906,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "fileField",
           "package": "yesod-form",
@@ -880,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "hiddenField",
           "package": "yesod-form",
@@ -889,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "hiddenField",
           "package": "yesod-form",
@@ -902,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "htmlField",
           "package": "yesod-form",
@@ -911,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "htmlField",
           "package": "yesod-form",
@@ -924,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "intField",
           "package": "yesod-form",
@@ -933,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "intField",
           "package": "yesod-form",
@@ -946,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "mkOptionList",
           "package": "yesod-form",
@@ -955,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "mkOptionList",
           "normalized": "[Option a]-\u003eOptionList a",
@@ -970,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "multiSelectField",
           "package": "yesod-form",
@@ -979,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "multiSelectField",
           "normalized": "HandlerT a IO(OptionList b)-\u003eField(HandlerT a IO)[b]",
@@ -994,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "multiSelectFieldList",
           "package": "yesod-form",
@@ -1003,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "multiSelectFieldList",
           "normalized": "[(a,b)]-\u003eField(HandlerT c IO)[b]",
@@ -1018,6 +1070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "olOptions",
           "package": "yesod-form",
@@ -1027,6 +1080,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "olOptions",
           "normalized": "[Option a]",
@@ -1042,6 +1096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "olReadExternal",
           "package": "yesod-form",
@@ -1051,6 +1106,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "olReadExternal",
           "normalized": "Text-\u003eMaybe a",
@@ -1066,6 +1122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionDisplay",
           "package": "yesod-form",
@@ -1075,6 +1132,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionDisplay",
           "package": "yesod-form",
@@ -1088,6 +1146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionExternalValue",
           "package": "yesod-form",
@@ -1097,6 +1156,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionExternalValue",
           "package": "yesod-form",
@@ -1110,6 +1170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionInternalValue",
           "package": "yesod-form",
@@ -1119,6 +1180,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionInternalValue",
           "package": "yesod-form",
@@ -1132,6 +1194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionsEnum",
           "package": "yesod-form",
@@ -1141,6 +1204,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionsEnum",
           "package": "yesod-form",
@@ -1154,6 +1218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionsPairs",
           "package": "yesod-form",
@@ -1163,6 +1228,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionsPairs",
           "normalized": "[(a,b)]-\u003ec(OptionList b)",
@@ -1178,6 +1244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionsPersist",
           "package": "yesod-form",
@@ -1187,6 +1254,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionsPersist",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003e(a-\u003eb)-\u003eHandlerT c IO(OptionList(Entity a))",
@@ -1203,6 +1271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative to \u003ccode\u003e\u003ca\u003eoptionsPersist\u003c/a\u003e\u003c/code\u003e which returns just the \u003ccode\u003eKey\u003c/code\u003e instead of\n the entire \u003ccode\u003eEntity\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eSince 1.3.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "optionsPersistKey",
           "package": "yesod-form",
@@ -1213,6 +1282,7 @@
         "index": {
           "description": "An alternative to optionsPersist which returns just the Key instead of the entire Entity Since",
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "optionsPersistKey",
           "normalized": "[Filter a]-\u003e[SelectOpt a]-\u003e(a-\u003eb)-\u003eHandlerT c IO(OptionList(Key a))",
@@ -1228,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "parseDate",
           "package": "yesod-form",
@@ -1237,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "parseDate",
           "normalized": "String-\u003eEither FormMessage Day",
@@ -1252,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "parseTime",
           "package": "yesod-form",
@@ -1261,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "parseTime",
           "normalized": "Text-\u003eEither FormMessage TimeOfDay",
@@ -1276,6 +1350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "passwordField",
           "package": "yesod-form",
@@ -1285,6 +1360,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "passwordField",
           "package": "yesod-form",
@@ -1298,6 +1374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "radioField",
           "package": "yesod-form",
@@ -1307,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "radioField",
           "normalized": "HandlerT a IO(OptionList b)-\u003eField(HandlerT a IO)b",
@@ -1322,6 +1400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "radioFieldList",
           "package": "yesod-form",
@@ -1331,6 +1410,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "radioFieldList",
           "normalized": "[(a,b)]-\u003eField(HandlerT c IO)b",
@@ -1346,6 +1426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "searchField",
           "package": "yesod-form",
@@ -1355,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "searchField",
           "normalized": "AutoFocus-\u003eField a Text",
@@ -1370,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "selectField",
           "package": "yesod-form",
@@ -1379,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "selectField",
           "normalized": "HandlerT a IO(OptionList b)-\u003eField(HandlerT a IO)b",
@@ -1394,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "selectFieldList",
           "package": "yesod-form",
@@ -1403,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "selectFieldList",
           "normalized": "[(a,b)]-\u003eField(HandlerT c IO)b",
@@ -1418,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "textField",
           "package": "yesod-form",
@@ -1427,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "textField",
           "package": "yesod-form",
@@ -1440,6 +1528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "textareaField",
           "package": "yesod-form",
@@ -1449,6 +1538,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "textareaField",
           "package": "yesod-form",
@@ -1462,6 +1552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "timeField",
           "package": "yesod-form",
@@ -1471,6 +1562,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "timeField",
           "package": "yesod-form",
@@ -1484,6 +1576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "unTextarea",
           "package": "yesod-form",
@@ -1493,6 +1586,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "unTextarea",
           "package": "yesod-form",
@@ -1506,6 +1600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Fields",
           "name": "urlField",
           "package": "yesod-form",
@@ -1515,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Fields",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Fields",
           "name": "urlField",
           "package": "yesod-form",
@@ -1528,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "Functions",
           "package": "yesod-form",
@@ -1536,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "Functions",
           "package": "yesod-form",
@@ -1549,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "FormRender",
           "package": "yesod-form",
@@ -1557,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "FormRender",
           "package": "yesod-form",
@@ -1570,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "aFormToForm",
           "package": "yesod-form",
@@ -1579,6 +1680,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "aFormToForm",
           "normalized": "AForm a b-\u003eMForm a(FormResult b,[FieldView c]-\u003e[FieldView c])",
@@ -1595,6 +1697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative equivalent of \u003ccode\u003e\u003ca\u003emopt\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "aopt",
           "package": "yesod-form",
@@ -1605,6 +1708,7 @@
         "index": {
           "description": "Applicative equivalent of mopt",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "aopt",
           "normalized": "Field a b-\u003eFieldSettings(HandlerSite a)-\u003eMaybe(Maybe b)-\u003eAForm a(Maybe b)",
@@ -1620,6 +1724,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApplicative equivalent of \u003ccode\u003e\u003ca\u003emreq\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "areq",
           "package": "yesod-form",
@@ -1630,6 +1735,7 @@
         "index": {
           "description": "Applicative equivalent of mreq",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "areq",
           "normalized": "Field a b-\u003eFieldSettings c-\u003eMaybe b-\u003eAForm a b",
@@ -1644,6 +1750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "askFiles",
           "package": "yesod-form",
@@ -1653,6 +1760,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "askFiles",
           "package": "yesod-form",
@@ -1666,6 +1774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "askParams",
           "package": "yesod-form",
@@ -1675,6 +1784,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "askParams",
           "package": "yesod-form",
@@ -1688,6 +1798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "check",
           "package": "yesod-form",
@@ -1697,6 +1808,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "check",
           "normalized": "(a-\u003eEither b a)-\u003eField c a-\u003eField c a",
@@ -1712,6 +1824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn the given error message if the predicate is false.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "checkBool",
           "package": "yesod-form",
@@ -1722,6 +1835,7 @@
         "index": {
           "description": "Return the given error message if the predicate is false",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "checkBool",
           "normalized": "(a-\u003eBool)-\u003eb-\u003eField c a-\u003eField c a",
@@ -1737,6 +1851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "checkM",
           "package": "yesod-form",
@@ -1746,6 +1861,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "checkM",
           "normalized": "(a-\u003eb(Either c a))-\u003eField b a-\u003eField b a",
@@ -1761,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003echeckM\u003c/a\u003e\u003c/code\u003e, but modifies the datatype.\n\u003c/p\u003e\u003cp\u003eIn order to make this work, you must provide a function to convert back from\n the new datatype to the old one (the second argument to this function).\n\u003c/p\u003e\u003cp\u003eSince 1.1.2\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "checkMMap",
           "package": "yesod-form",
@@ -1771,6 +1888,7 @@
         "index": {
           "description": "Same as checkM but modifies the datatype In order to make this work you must provide function to convert back from the new datatype to the old one the second argument to this function Since",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "checkMMap",
           "normalized": "(a-\u003eb(Either c d))-\u003e(d-\u003ea)-\u003eField b a-\u003eField b d",
@@ -1787,6 +1905,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAllows you to overwrite the error message on parse error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "customErrorMessage",
           "package": "yesod-form",
@@ -1797,6 +1916,7 @@
         "index": {
           "description": "Allows you to overwrite the error message on parse error",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "customErrorMessage",
           "normalized": "SomeMessage(HandlerSite a)-\u003eField a b-\u003eField a b",
@@ -1813,6 +1933,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eFieldSettings\u003c/a\u003e\u003c/code\u003e from the given label.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "fieldSettingsLabel",
           "package": "yesod-form",
@@ -1823,6 +1944,7 @@
         "index": {
           "description": "Generate FieldSettings from the given label",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "fieldSettingsLabel",
           "normalized": "a-\u003eFieldSettings b",
@@ -1838,6 +1960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "formToAForm",
           "package": "yesod-form",
@@ -1847,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "formToAForm",
           "normalized": "MForm a(FormResult b,[FieldView c])-\u003eAForm a b",
@@ -1862,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "generateFormGet",
           "package": "yesod-form",
@@ -1871,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "generateFormGet",
           "normalized": "(Markup-\u003eMForm a b)-\u003ea(b,Enctype)",
@@ -1887,6 +2013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003erunFormPost\u003c/a\u003e\u003c/code\u003e, except it always ignores the currently available\n environment. This is necessary in cases like a wizard UI, where a single\n page will both receive and incoming form and produce a new, blank form. For\n general usage, you can stick with \u003ccode\u003erunFormPost\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "generateFormPost",
           "package": "yesod-form",
@@ -1897,6 +2024,7 @@
         "index": {
           "description": "Similar to runFormPost except it always ignores the currently available environment This is necessary in cases like wizard UI where single page will both receive and incoming form and produce new blank form For general usage you can stick with runFormPost",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "generateFormPost",
           "normalized": "(Markup-\u003eMForm a(FormResult b,c))-\u003ea(c,Enctype)",
@@ -1913,6 +2041,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a form field into monadic form. This field is optional, i.e.\n if filled in, it returns 'Just a', if left empty, it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n Arguments are the same as for \u003ccode\u003e\u003ca\u003emreq\u003c/a\u003e\u003c/code\u003e (apart from type of default value).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "mopt",
           "package": "yesod-form",
@@ -1923,6 +2052,7 @@
         "index": {
           "description": "Converts form field into monadic form This field is optional i.e if filled in it returns Just if left empty it returns Nothing Arguments are the same as for mreq apart from type of default value",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "mopt",
           "normalized": "Field a b-\u003eFieldSettings c-\u003eMaybe(Maybe b)-\u003eMForm a(FormResult(Maybe b),FieldView c)",
@@ -1938,6 +2068,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a form field into monadic form. This field requires a value\n and will return \u003ccode\u003e\u003ca\u003eFormFailure\u003c/a\u003e\u003c/code\u003e if left empty.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "mreq",
           "package": "yesod-form",
@@ -1947,6 +2078,7 @@
         "index": {
           "description": "Converts form field into monadic form This field requires value and will return FormFailure if left empty",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "mreq",
           "normalized": "Field a b-\u003eFieldSettings c-\u003eMaybe b-\u003eMForm a(FormResult b,FieldView c)",
@@ -1962,6 +2094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a unique identifier.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "newFormIdent",
           "package": "yesod-form",
@@ -1972,6 +2105,7 @@
         "index": {
           "description": "Get unique identifier",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "newFormIdent",
           "package": "yesod-form",
@@ -1986,6 +2120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA helper function for creating custom fields.\n\u003c/p\u003e\u003cp\u003eThis is intended to help with the common case where a single input value is\n required, such as when parsing a text field.\n\u003c/p\u003e\u003cp\u003eSince 1.1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "parseHelper",
           "package": "yesod-form",
@@ -1996,6 +2131,7 @@
         "index": {
           "description": "helper function for creating custom fields This is intended to help with the common case where single input value is required such as when parsing text field Since",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "parseHelper",
           "normalized": "(Text-\u003eEither FormMessage a)-\u003e[Text]-\u003e[FileInfo]-\u003eb(Either(SomeMessage c)(Maybe a))",
@@ -2012,6 +2148,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRender a form using Bootstrap-friendly shamlet syntax.\n\u003c/p\u003e\u003cp\u003eSample Hamlet:\n\u003c/p\u003e\u003cpre\u003e  \u003cform .form-horizontal method=post action=@{ActionR} enctype=#{formEnctype}\u003e\n    \u003cfieldset\u003e\n      \u003clegend\u003e_{MsgLegend}\n      $case result\n        $of FormFailure reasons\n          $forall reason \u003c- reasons\n            \u003cdiv .alert .alert-error\u003e#{reason}\n        $of _\n      ^{formWidget}\n      \u003cdiv .form-actions\u003e\n        \u003cinput .btn .primary type=submit value=_{MsgSubmit}\u003e\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "renderBootstrap",
           "package": "yesod-form",
@@ -2022,6 +2159,7 @@
         "index": {
           "description": "Render form using Bootstrap-friendly shamlet syntax Sample Hamlet form form-horizontal method post action ActionR enctype formEnctype fieldset legend MsgLegend case result of FormFailure reasons forall reason reasons div alert alert-error reason of formWidget div form-actions input btn primary type submit value MsgSubmit",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "renderBootstrap",
           "package": "yesod-form",
@@ -2036,6 +2174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender a field inside a div\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "renderDivs",
           "package": "yesod-form",
@@ -2046,6 +2185,7 @@
         "index": {
           "description": "render field inside div",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "renderDivs",
           "package": "yesod-form",
@@ -2060,6 +2200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erender a field inside a div, not displaying any label\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "renderDivsNoLabels",
           "package": "yesod-form",
@@ -2070,6 +2211,7 @@
         "index": {
           "description": "render field inside div not displaying any label",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "renderDivsNoLabels",
           "package": "yesod-form",
@@ -2083,6 +2225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "renderTable",
           "package": "yesod-form",
@@ -2092,6 +2235,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "renderTable",
           "package": "yesod-form",
@@ -2105,6 +2249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "runFormGet",
           "package": "yesod-form",
@@ -2114,6 +2259,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "runFormGet",
           "normalized": "(Markup-\u003eMForm a b)-\u003ea(b,Enctype)",
@@ -2130,6 +2276,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function is used to both initially render a form and to later extract\n results from it. Note that, due to CSRF protection and a few other issues,\n forms submitted via GET and POST are slightly different. As such, be sure to\n call the relevant function based on how the form will be submitted, \u003cem\u003enot\u003c/em\u003e\n the current request method.\n\u003c/p\u003e\u003cp\u003eFor example, a common case is displaying a form on a GET request and having\n the form submit to a POST page. In such a case, both the GET and POST\n handlers should use \u003ccode\u003e\u003ca\u003erunFormPost\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "runFormPost",
           "package": "yesod-form",
@@ -2140,6 +2287,7 @@
         "index": {
           "description": "This function is used to both initially render form and to later extract results from it Note that due to CSRF protection and few other issues forms submitted via GET and POST are slightly different As such be sure to call the relevant function based on how the form will be submitted not the current request method For example common case is displaying form on GET request and having the form submit to POST page In such case both the GET and POST handlers should use runFormPost",
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "runFormPost",
           "normalized": "(Markup-\u003eMForm a(FormResult b,c))-\u003ea((FormResult b,c),Enctype)",
@@ -2155,6 +2303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Functions",
           "name": "runFormPostNoToken",
           "package": "yesod-form",
@@ -2164,6 +2313,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Functions",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Functions",
           "name": "runFormPostNoToken",
           "normalized": "(Markup-\u003eMForm a(FormResult b,c))-\u003ea((FormResult b,c),Enctype)",
@@ -2179,6 +2329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Czech",
           "name": "Czech",
           "package": "yesod-form",
@@ -2187,6 +2338,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Czech",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Czech",
           "name": "Czech",
           "package": "yesod-form",
@@ -2200,6 +2352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Czech",
           "name": "czechFormMessage",
           "package": "yesod-form",
@@ -2209,6 +2362,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Czech",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Czech",
           "name": "czechFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2224,6 +2378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.English",
           "name": "English",
           "package": "yesod-form",
@@ -2232,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n English",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.English",
           "name": "English",
           "package": "yesod-form",
@@ -2245,6 +2401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.English",
           "name": "englishFormMessage",
           "package": "yesod-form",
@@ -2254,6 +2411,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n English",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.English",
           "name": "englishFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2269,6 +2427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.French",
           "name": "French",
           "package": "yesod-form",
@@ -2277,6 +2436,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n French",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.French",
           "name": "French",
           "package": "yesod-form",
@@ -2290,6 +2450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.French",
           "name": "frenchFormMessage",
           "package": "yesod-form",
@@ -2299,6 +2460,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n French",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.French",
           "name": "frenchFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2314,6 +2476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.German",
           "name": "German",
           "package": "yesod-form",
@@ -2322,6 +2485,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n German",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.German",
           "name": "German",
           "package": "yesod-form",
@@ -2335,6 +2499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.German",
           "name": "germanFormMessage",
           "package": "yesod-form",
@@ -2344,6 +2509,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n German",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.German",
           "name": "germanFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2359,6 +2525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Japanese",
           "name": "Japanese",
           "package": "yesod-form",
@@ -2367,6 +2534,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Japanese",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Japanese",
           "name": "Japanese",
           "package": "yesod-form",
@@ -2380,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Japanese",
           "name": "japaneseFormMessage",
           "package": "yesod-form",
@@ -2389,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Japanese",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Japanese",
           "name": "japaneseFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2404,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Norwegian",
           "name": "Norwegian",
           "package": "yesod-form",
@@ -2412,6 +2583,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Norwegian",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Norwegian",
           "name": "Norwegian",
           "package": "yesod-form",
@@ -2425,6 +2597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Norwegian",
           "name": "norwegianBokmålFormMessage",
           "package": "yesod-form",
@@ -2434,6 +2607,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Norwegian",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Norwegian",
           "name": "norwegianBokmålFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2449,6 +2623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Portuguese",
           "name": "Portuguese",
           "package": "yesod-form",
@@ -2457,6 +2632,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Portuguese",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Portuguese",
           "name": "Portuguese",
           "package": "yesod-form",
@@ -2470,6 +2646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Portuguese",
           "name": "portugueseFormMessage",
           "package": "yesod-form",
@@ -2479,6 +2656,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Portuguese",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Portuguese",
           "name": "portugueseFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2494,6 +2672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Swedish",
           "name": "Swedish",
           "package": "yesod-form",
@@ -2502,6 +2681,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Swedish",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Swedish",
           "name": "Swedish",
           "package": "yesod-form",
@@ -2515,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.I18n.Swedish",
           "name": "swedishFormMessage",
           "package": "yesod-form",
@@ -2524,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form I18n Swedish",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.I18n.Swedish",
           "name": "swedishFormMessage",
           "normalized": "FormMessage-\u003eText",
@@ -2539,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "Input",
           "package": "yesod-form",
@@ -2547,6 +2730,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "Input",
           "package": "yesod-form",
@@ -2560,6 +2744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "FormInput",
           "package": "yesod-form",
@@ -2568,6 +2753,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "FormInput",
           "package": "yesod-form",
@@ -2581,6 +2767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "FormInput",
           "package": "yesod-form",
@@ -2590,6 +2777,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "FormInput",
           "package": "yesod-form",
@@ -2603,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "iopt",
           "package": "yesod-form",
@@ -2612,6 +2801,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "iopt",
           "normalized": "Field a b-\u003eText-\u003eFormInput a(Maybe b)",
@@ -2626,6 +2816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "ireq",
           "package": "yesod-form",
@@ -2635,6 +2826,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "ireq",
           "normalized": "Field a b-\u003eText-\u003eFormInput a b",
@@ -2649,6 +2841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "runInputGet",
           "package": "yesod-form",
@@ -2658,6 +2851,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "runInputGet",
           "normalized": "FormInput a b-\u003ea b",
@@ -2673,6 +2867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "runInputPost",
           "package": "yesod-form",
@@ -2682,6 +2877,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "runInputPost",
           "normalized": "FormInput a b-\u003ea b",
@@ -2697,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "runInputPostResult",
           "package": "yesod-form",
@@ -2706,6 +2903,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "runInputPostResult",
           "normalized": "FormInput a b-\u003ea(FormResult b)",
@@ -2721,6 +2919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Input",
           "name": "unFormInput",
           "package": "yesod-form",
@@ -2730,6 +2929,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Input",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Input",
           "name": "unFormInput",
           "normalized": "HandlerSite a-\u003e[Text]-\u003eEnv-\u003eFileEnv-\u003ea(Either DText b)",
@@ -2746,6 +2946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSome fields spiced up with jQuery UI.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "Jquery",
           "package": "yesod-form",
@@ -2755,6 +2956,7 @@
         "index": {
           "description": "Some fields spiced up with jQuery UI",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "Jquery",
           "package": "yesod-form",
@@ -2769,6 +2971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA class for types with a default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "Default",
           "package": "yesod-form",
@@ -2777,6 +2980,7 @@
         "index": {
           "description": "class for types with default value",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "Default",
           "package": "yesod-form",
@@ -2790,6 +2994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "JqueryDaySettings",
           "package": "yesod-form",
@@ -2798,6 +3003,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "JqueryDaySettings",
           "package": "yesod-form",
@@ -2811,6 +3017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "YesodJquery",
           "package": "yesod-form",
@@ -2819,6 +3026,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "YesodJquery",
           "package": "yesod-form",
@@ -2832,6 +3040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "JqueryDaySettings",
           "package": "yesod-form",
@@ -2841,6 +3050,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "JqueryDaySettings",
           "package": "yesod-form",
@@ -2855,6 +3065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default value for this type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "def",
           "package": "yesod-form",
@@ -2864,6 +3075,7 @@
         "index": {
           "description": "The default value for this type",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "def",
           "package": "yesod-form",
@@ -2877,6 +3089,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the Google hosted jQuery UI 1.8 CSS file with the given theme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "googleHostedJqueryUiCss",
           "package": "yesod-form",
@@ -2887,6 +3100,7 @@
         "index": {
           "description": "Gets the Google hosted jQuery UI CSS file with the given theme",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "googleHostedJqueryUiCss",
           "normalized": "Text-\u003eText",
@@ -2902,6 +3116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jdsChangeMonth",
           "package": "yesod-form",
@@ -2911,6 +3126,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jdsChangeMonth",
           "package": "yesod-form",
@@ -2924,6 +3140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jdsChangeYear",
           "package": "yesod-form",
@@ -2933,6 +3150,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jdsChangeYear",
           "package": "yesod-form",
@@ -2946,6 +3164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jdsNumberOfMonths",
           "package": "yesod-form",
@@ -2955,6 +3174,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jdsNumberOfMonths",
           "normalized": "Either Int(Int,Int)",
@@ -2970,6 +3190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jdsYearRange",
           "package": "yesod-form",
@@ -2979,6 +3200,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jdsYearRange",
           "package": "yesod-form",
@@ -2992,6 +3214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jqueryAutocompleteField",
           "package": "yesod-form",
@@ -3001,6 +3224,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jqueryAutocompleteField",
           "normalized": "Route a-\u003eField(HandlerT a IO)Text",
@@ -3016,6 +3240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "jqueryDayField",
           "package": "yesod-form",
@@ -3025,6 +3250,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "jqueryDayField",
           "normalized": "JqueryDaySettings-\u003eField(HandlerT a IO)Day",
@@ -3041,6 +3267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery Javascript file. Note that in upgrades to this library, the\n version of jQuery referenced, or where it is downloaded from, may be\n changed without warning. If you are relying on a specific version of\n jQuery, you should give an explicit URL instead of relying on the\n default value.\n\u003c/p\u003e\u003cp\u003eCurrently, the default value is jQuery 1.7 from Google's CDN.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryJs",
           "package": "yesod-form",
@@ -3051,6 +3278,7 @@
         "index": {
           "description": "The jQuery Javascript file Note that in upgrades to this library the version of jQuery referenced or where it is downloaded from may be changed without warning If you are relying on specific version of jQuery you should give an explicit URL instead of relying on the default value Currently the default value is jQuery from Google CDN",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryJs",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -3067,6 +3295,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery UI 1.8 CSS file; defaults to cupertino theme.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiCss",
           "package": "yesod-form",
@@ -3077,6 +3306,7 @@
         "index": {
           "description": "The jQuery UI CSS file defaults to cupertino theme",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiCss",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -3093,6 +3323,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ejQuery UI time picker add-on.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiDateTimePicker",
           "package": "yesod-form",
@@ -3103,6 +3334,7 @@
         "index": {
           "description": "jQuery UI time picker add-on",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiDateTimePicker",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -3119,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe jQuery UI 1.8 Javascript file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiJs",
           "package": "yesod-form",
@@ -3129,6 +3362,7 @@
         "index": {
           "description": "The jQuery UI Javascript file",
           "hierarchy": "Yesod Form Jquery",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Jquery",
           "name": "urlJqueryUiJs",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -3144,6 +3378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.MassInput",
           "name": "MassInput",
           "package": "yesod-form",
@@ -3152,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form MassInput",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.MassInput",
           "name": "MassInput",
           "package": "yesod-form",
@@ -3165,6 +3401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.MassInput",
           "name": "inputList",
           "package": "yesod-form",
@@ -3174,6 +3411,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form MassInput",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.MassInput",
           "name": "inputList",
           "normalized": "Html-\u003e([[FieldView a]]-\u003eb)-\u003e(Maybe c-\u003eAForm(HandlerT a IO)c)-\u003eMaybe[c]-\u003eAForm(HandlerT a IO)[c]",
@@ -3189,6 +3427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.MassInput",
           "name": "massDivs",
           "package": "yesod-form",
@@ -3198,6 +3437,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form MassInput",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.MassInput",
           "name": "massDivs",
           "normalized": "[[FieldView a]]-\u003eWidgetT a IO()",
@@ -3213,6 +3453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.MassInput",
           "name": "massTable",
           "package": "yesod-form",
@@ -3222,6 +3463,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form MassInput",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.MassInput",
           "name": "massTable",
           "normalized": "[[FieldView a]]-\u003eWidgetT a IO()",
@@ -3238,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide the user with a rich text editor.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Nic",
           "name": "Nic",
           "package": "yesod-form",
@@ -3247,6 +3490,7 @@
         "index": {
           "description": "Provide the user with rich text editor",
           "hierarchy": "Yesod Form Nic",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Nic",
           "name": "Nic",
           "package": "yesod-form",
@@ -3260,6 +3504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Nic",
           "name": "YesodNic",
           "package": "yesod-form",
@@ -3268,6 +3513,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Nic",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Nic",
           "name": "YesodNic",
           "package": "yesod-form",
@@ -3281,6 +3527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Nic",
           "name": "nicHtmlField",
           "package": "yesod-form",
@@ -3290,6 +3537,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Nic",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Nic",
           "name": "nicHtmlField",
           "package": "yesod-form",
@@ -3304,6 +3552,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNIC Editor Javascript file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Nic",
           "name": "urlNicEdit",
           "package": "yesod-form",
@@ -3314,6 +3563,7 @@
         "index": {
           "description": "NIC Editor Javascript file",
           "hierarchy": "Yesod Form Nic",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Nic",
           "name": "urlNicEdit",
           "normalized": "a-\u003eEither(Route a)Text",
@@ -3329,6 +3579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Types",
           "package": "yesod-form",
@@ -3337,6 +3588,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Types",
           "package": "yesod-form",
@@ -3350,6 +3602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "AForm",
           "package": "yesod-form",
@@ -3358,6 +3611,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "AForm",
           "package": "yesod-form",
@@ -3372,6 +3626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe encoding type required by a form. The \u003ccode\u003eToHtml\u003c/code\u003e instance produces values\n that can be inserted directly into HTML.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Enctype",
           "package": "yesod-form",
@@ -3381,6 +3636,7 @@
         "index": {
           "description": "The encoding type required by form The ToHtml instance produces values that can be inserted directly into HTML",
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Enctype",
           "package": "yesod-form",
@@ -3394,6 +3650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Env",
           "package": "yesod-form",
@@ -3402,6 +3659,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Env",
           "package": "yesod-form",
@@ -3415,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Field",
           "package": "yesod-form",
@@ -3423,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Field",
           "package": "yesod-form",
@@ -3436,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FieldSettings",
           "package": "yesod-form",
@@ -3444,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FieldSettings",
           "package": "yesod-form",
@@ -3457,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FieldView",
           "package": "yesod-form",
@@ -3465,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FieldView",
           "package": "yesod-form",
@@ -3478,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FieldViewFunc",
           "package": "yesod-form",
@@ -3486,6 +3751,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FieldViewFunc",
           "package": "yesod-form",
@@ -3499,6 +3765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FileEnv",
           "package": "yesod-form",
@@ -3507,6 +3774,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FileEnv",
           "package": "yesod-form",
@@ -3520,6 +3788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FormMessage",
           "package": "yesod-form",
@@ -3528,6 +3797,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FormMessage",
           "package": "yesod-form",
@@ -3542,6 +3812,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA form can produce three different results: there was no data available,\n the data was invalid, or there was a successful parse.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eApplicative\u003c/a\u003e\u003c/code\u003e instance will concatenate the failure messages in two\n \u003ccode\u003e\u003ca\u003eFormResult\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FormResult",
           "package": "yesod-form",
@@ -3551,6 +3822,7 @@
         "index": {
           "description": "form can produce three different results there was no data available the data was invalid or there was successful parse The Applicative instance will concatenate the failure messages in two FormResult",
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FormResult",
           "package": "yesod-form",
@@ -3564,6 +3836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Ints",
           "package": "yesod-form",
@@ -3572,6 +3845,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Ints",
           "package": "yesod-form",
@@ -3585,6 +3859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "MForm",
           "package": "yesod-form",
@@ -3593,6 +3868,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "MForm",
           "package": "yesod-form",
@@ -3606,6 +3882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "AForm",
           "package": "yesod-form",
@@ -3615,6 +3892,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "AForm",
           "package": "yesod-form",
@@ -3628,6 +3906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Field",
           "package": "yesod-form",
@@ -3637,6 +3916,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Field",
           "package": "yesod-form",
@@ -3650,6 +3930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FieldSettings",
           "package": "yesod-form",
@@ -3659,6 +3940,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FieldSettings",
           "package": "yesod-form",
@@ -3672,6 +3954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FieldView",
           "package": "yesod-form",
@@ -3681,6 +3964,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FieldView",
           "package": "yesod-form",
@@ -3694,6 +3978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FormFailure",
           "package": "yesod-form",
@@ -3703,6 +3988,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FormFailure",
           "normalized": "FormFailure[Text]",
@@ -3718,6 +4004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FormMissing",
           "package": "yesod-form",
@@ -3727,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FormMissing",
           "package": "yesod-form",
@@ -3740,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "FormSuccess",
           "package": "yesod-form",
@@ -3749,6 +4038,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "FormSuccess",
           "package": "yesod-form",
@@ -3762,6 +4052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "IntCons",
           "package": "yesod-form",
@@ -3771,6 +4062,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "IntCons",
           "package": "yesod-form",
@@ -3784,6 +4076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "IntSingle",
           "package": "yesod-form",
@@ -3793,6 +4086,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "IntSingle",
           "package": "yesod-form",
@@ -3806,6 +4100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "Multipart",
           "package": "yesod-form",
@@ -3815,6 +4110,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "Multipart",
           "package": "yesod-form",
@@ -3828,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "UrlEncoded",
           "package": "yesod-form",
@@ -3837,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "UrlEncoded",
           "package": "yesod-form",
@@ -3850,6 +4148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fieldEnctype",
           "package": "yesod-form",
@@ -3859,6 +4158,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fieldEnctype",
           "package": "yesod-form",
@@ -3872,6 +4172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fieldParse",
           "package": "yesod-form",
@@ -3881,6 +4182,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fieldParse",
           "normalized": "[Text]-\u003e[FileInfo]-\u003ea(Either(SomeMessage(HandlerSite a))(Maybe b))",
@@ -3896,6 +4198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fieldView",
           "package": "yesod-form",
@@ -3905,6 +4208,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fieldView",
           "package": "yesod-form",
@@ -3918,6 +4222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fsAttrs",
           "package": "yesod-form",
@@ -3927,6 +4232,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fsAttrs",
           "normalized": "[(Text,Text)]",
@@ -3942,6 +4248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fsId",
           "package": "yesod-form",
@@ -3951,6 +4258,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fsId",
           "package": "yesod-form",
@@ -3964,6 +4272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fsLabel",
           "package": "yesod-form",
@@ -3973,6 +4282,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fsLabel",
           "package": "yesod-form",
@@ -3986,6 +4296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fsName",
           "package": "yesod-form",
@@ -3995,6 +4306,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fsName",
           "package": "yesod-form",
@@ -4008,6 +4320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fsTooltip",
           "package": "yesod-form",
@@ -4017,6 +4330,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fsTooltip",
           "package": "yesod-form",
@@ -4030,6 +4344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvErrors",
           "package": "yesod-form",
@@ -4039,6 +4354,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvErrors",
           "package": "yesod-form",
@@ -4052,6 +4368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvId",
           "package": "yesod-form",
@@ -4061,6 +4378,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvId",
           "package": "yesod-form",
@@ -4074,6 +4392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvInput",
           "package": "yesod-form",
@@ -4083,6 +4402,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvInput",
           "normalized": "WidgetT a IO()",
@@ -4098,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvLabel",
           "package": "yesod-form",
@@ -4107,6 +4428,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvLabel",
           "package": "yesod-form",
@@ -4120,6 +4442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvRequired",
           "package": "yesod-form",
@@ -4129,6 +4452,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvRequired",
           "package": "yesod-form",
@@ -4142,6 +4466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "fvTooltip",
           "package": "yesod-form",
@@ -4151,6 +4476,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "fvTooltip",
           "package": "yesod-form",
@@ -4164,6 +4490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form.Types",
           "name": "unAForm",
           "package": "yesod-form",
@@ -4173,6 +4500,7 @@
         },
         "index": {
           "hierarchy": "Yesod Form Types",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form.Types",
           "name": "unAForm",
           "normalized": "(HandlerSite a,[Text])-\u003eMaybe(Env,FileEnv)-\u003eInts-\u003ea(FormResult b,[FieldView(HandlerSite a)]-\u003e[FieldView(HandlerSite a)],Ints,Enctype)",
@@ -4189,6 +4517,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParse forms (and query strings).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:45:53 UTC 2014",
           "module": "Yesod.Form",
           "name": "Form",
           "package": "yesod-form",
@@ -4198,6 +4527,7 @@
         "index": {
           "description": "Parse forms and query strings",
           "hierarchy": "Yesod Form",
+          "indexed": "2014-03-11T20:45:53",
           "module": "Yesod.Form",
           "name": "Form",
           "package": "yesod-form",

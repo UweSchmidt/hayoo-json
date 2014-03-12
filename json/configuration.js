@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "configuration"
+        "phrase": "configuration",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "Configuration",
           "package": "configuration",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "Configuration",
           "package": "configuration",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "Conf",
           "package": "configuration",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "Conf",
           "package": "configuration",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "(!)",
           "package": "configuration",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "(!) !",
           "normalized": "Conf-\u003eString-\u003ea",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "(\u003c@\u003e)",
           "package": "configuration",
@@ -92,6 +99,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "(\u003c@\u003e) \u003c@\u003e",
           "normalized": "String-\u003ea-\u003e(String,Dynamic)",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "as",
           "package": "configuration",
@@ -115,6 +124,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "as",
           "package": "configuration",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "keys",
           "package": "configuration",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "keys",
           "normalized": "Conf-\u003e[String]",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "toConf",
           "package": "configuration",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "toConf",
           "normalized": "[(String,Dynamic)]-\u003eConf",
@@ -175,6 +189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts an arbitrary value into an object of type \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e.  \n\u003c/p\u003e\u003cp\u003eThe type of the object must be an instance of \u003ccode\u003e\u003ca\u003eTypeable\u003c/a\u003e\u003c/code\u003e, which\n ensures that only monomorphically-typed objects may be converted to\n \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e.  To convert a polymorphic object into \u003ccode\u003e\u003ca\u003eDynamic\u003c/a\u003e\u003c/code\u003e, give it\n a monomorphic type signature.  For example:\n\u003c/p\u003e\u003cpre\u003e    toDyn (id :: Int -\u003e Int)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "toDyn",
           "package": "configuration",
@@ -184,6 +199,7 @@
         "index": {
           "description": "Converts an arbitrary value into an object of type Dynamic The type of the object must be an instance of Typeable which ensures that only monomorphically-typed objects may be converted to Dynamic To convert polymorphic object into Dynamic give it monomorphic type signature For example toDyn id Int Int",
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "toDyn",
           "normalized": "a-\u003eDynamic",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "toMap",
           "package": "configuration",
@@ -208,6 +225,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "toMap",
           "normalized": "Conf-\u003eMap String Dynamic",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:38:56 UTC 2014",
           "module": "Data.Configuration",
           "name": "valueForKey",
           "package": "configuration",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Configuration",
+          "indexed": "2014-03-11T17:38:56",
           "module": "Data.Configuration",
           "name": "valueForKey",
           "normalized": "String-\u003eConf-\u003ea-\u003eMaybe a",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "DSH"
+        "phrase": "DSH",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDSH compiler module exposes the function fromQ that can be used to\n execute DSH programs on a database. It transform the DSH program into\n FerryCore which is then translated into SQL (through a table algebra). The SQL\n code is executed on the database and then processed to form a Haskell value.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "Compiler",
           "package": "DSH",
@@ -28,6 +29,7 @@
         "index": {
           "description": "DSH compiler module exposes the function fromQ that can be used to execute DSH programs on database It transform the DSH program into FerryCore which is then translated into SQL through table algebra The SQL code is executed on the database and then processed to form Haskell value",
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "Compiler",
           "package": "DSH",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "debugCore",
           "package": "DSH",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "debugCore",
           "normalized": "a-\u003eExp b-\u003eIO String",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "debugCoreDot",
           "package": "DSH",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "debugCoreDot",
           "normalized": "a-\u003eExp b-\u003eIO String",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the query into unoptimised algebraic plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "debugPlan",
           "package": "DSH",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Convert the query into unoptimised algebraic plan",
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "debugPlan",
           "normalized": "a-\u003eExp b-\u003eIO String",
@@ -116,6 +124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the query into optimised algebraic plan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "debugPlanOpt",
           "package": "DSH",
@@ -126,6 +135,7 @@
         "index": {
           "description": "Convert the query into optimised algebraic plan",
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "debugPlanOpt",
           "normalized": "a-\u003eExp b-\u003eIO String",
@@ -142,6 +152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert the query into SQL\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "debugSQL",
           "package": "DSH",
@@ -152,6 +163,7 @@
         "index": {
           "description": "Convert the query into SQL",
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "debugSQL",
           "normalized": "a-\u003eExp b-\u003eIO String",
@@ -168,6 +180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExecute the query on the database\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Compiler",
           "name": "fromQ",
           "package": "DSH",
@@ -178,6 +191,7 @@
         "index": {
           "description": "Execute the query on the database",
           "hierarchy": "Database DSH Compiler",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Compiler",
           "name": "fromQ",
           "normalized": "a-\u003eQ b-\u003eIO b",
@@ -193,6 +207,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module provides the reference implementation of DSH by interpreting\n the embedded representation.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Interpreter",
           "name": "Interpreter",
           "package": "DSH",
@@ -202,6 +217,7 @@
         "index": {
           "description": "This module provides the reference implementation of DSH by interpreting the embedded representation",
           "hierarchy": "Database DSH Interpreter",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Interpreter",
           "name": "Interpreter",
           "package": "DSH",
@@ -215,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH.Interpreter",
           "name": "fromQ",
           "package": "DSH",
@@ -224,6 +241,7 @@
         },
         "index": {
           "hierarchy": "Database DSH Interpreter",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH.Interpreter",
           "name": "fromQ",
           "normalized": "a-\u003eQ b-\u003eIO b",
@@ -239,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is intended to be imported \u003ccode\u003equalified\u003c/code\u003e, to avoid name clashes\n with \u003ca\u003ePrelude\u003c/a\u003e functions. For example:\n\u003c/p\u003e\u003cpre\u003e import qualified Database.DSH as Q\n import Database.DSH (Q)\n\u003c/pre\u003e\u003cp\u003eAlternatively you can hide \u003ca\u003ePrelude\u003c/a\u003e and import this module like this:\n\u003c/p\u003e\u003cpre\u003e import Prelude ()\n import Database.DSH\n\u003c/pre\u003e\u003cp\u003eIn this case you still get Prelude definitions that are not provided\n by Database.DSH.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "DSH",
           "package": "DSH",
@@ -248,6 +267,7 @@
         "index": {
           "description": "This module is intended to be imported qualified to avoid name clashes with Prelude functions For example import qualified Database.DSH as import Database.DSH Alternatively you can hide Prelude and import this module like this import Prelude import Database.DSH In this case you still get Prelude definitions that are not provided by Database.DSH",
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "DSH",
           "package": "DSH",
@@ -261,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "Elim",
           "package": "DSH",
@@ -269,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "Elim",
           "package": "DSH",
@@ -282,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "Q",
           "package": "DSH",
@@ -290,6 +313,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "Q",
           "package": "DSH",
@@ -302,6 +326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "QA",
           "package": "DSH",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "QA",
           "package": "DSH",
@@ -323,6 +349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "TA",
           "package": "DSH",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "TA",
           "package": "DSH",
@@ -344,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "View",
           "package": "DSH",
@@ -352,6 +381,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "View",
           "package": "DSH",
@@ -365,6 +395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(||)",
           "package": "DSH",
@@ -374,6 +405,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(||) ||",
           "normalized": "Q Bool-\u003eQ Bool-\u003eQ Bool",
@@ -388,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(|\u003e)",
           "package": "DSH",
@@ -397,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(|\u003e) |\u003e",
           "normalized": "Q[a]-\u003eQ a-\u003eQ[a]",
@@ -411,6 +445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(!!)",
           "package": "DSH",
@@ -420,6 +455,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(!!) !!",
           "normalized": "Q[a]-\u003eQ Integer-\u003eQ a",
@@ -434,6 +470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(&&)",
           "package": "DSH",
@@ -443,6 +480,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(&&) &&",
           "normalized": "Q Bool-\u003eQ Bool-\u003eQ Bool",
@@ -457,6 +495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(++)",
           "package": "DSH",
@@ -466,6 +505,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(++) ++",
           "normalized": "Q[a]-\u003eQ[a]-\u003eQ[a]",
@@ -480,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(/=)",
           "package": "DSH",
@@ -489,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(/=) /=",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -503,6 +545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003c)",
           "package": "DSH",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003c) \u003c",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -526,6 +570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003c|)",
           "package": "DSH",
@@ -535,6 +580,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003c|) \u003c|",
           "normalized": "Q a-\u003eQ[a]-\u003eQ[a]",
@@ -549,6 +595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003c=)",
           "package": "DSH",
@@ -558,6 +605,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003c=) \u003c=",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -572,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(==)",
           "package": "DSH",
@@ -581,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(==) ==",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -595,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003e)",
           "package": "DSH",
@@ -604,6 +655,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003e) \u003e",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -618,6 +670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003e=)",
           "package": "DSH",
@@ -627,6 +680,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003e=) \u003e=",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -641,6 +695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003e\u003e)",
           "package": "DSH",
@@ -650,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003e\u003e) \u003e\u003e",
           "normalized": "Q[a]-\u003eQ[b]-\u003eQ[b]",
@@ -664,6 +720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(\u003e\u003e=)",
           "package": "DSH",
@@ -673,6 +730,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(\u003e\u003e=) \u003e\u003e=",
           "normalized": "Q[a]-\u003e(Q a-\u003eQ[b])-\u003eQ[b]",
@@ -687,6 +745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "(?)",
           "package": "DSH",
@@ -696,6 +755,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "(?) ?",
           "normalized": "Q Bool-\u003e(Q a,Q a)-\u003eQ a",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "all",
           "package": "DSH",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "all",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ Bool",
@@ -733,6 +795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "and",
           "package": "DSH",
@@ -742,6 +805,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "and",
           "normalized": "Q[Bool]-\u003eQ Bool",
@@ -756,6 +820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "any",
           "package": "DSH",
@@ -765,6 +830,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "any",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ Bool",
@@ -779,6 +845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "append",
           "package": "DSH",
@@ -788,6 +855,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "append",
           "normalized": "Q[a]-\u003eQ[a]-\u003eQ[a]",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "bool",
           "package": "DSH",
@@ -811,6 +880,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "bool",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool-\u003eQ a",
@@ -825,6 +895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "break",
           "package": "DSH",
@@ -834,6 +905,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "break",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ([a],[a])",
@@ -848,6 +920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "catMaybes",
           "package": "DSH",
@@ -857,6 +930,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "catMaybes",
           "normalized": "Q[Maybe a]-\u003eQ[a]",
@@ -872,6 +946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "concat",
           "package": "DSH",
@@ -881,6 +956,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "concat",
           "normalized": "Q[[a]]-\u003eQ[a]",
@@ -895,6 +971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "concatMap",
           "package": "DSH",
@@ -904,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "concatMap",
           "normalized": "(Q a-\u003eQ[b])-\u003eQ[a]-\u003eQ[b]",
@@ -919,6 +997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "cond",
           "package": "DSH",
@@ -928,6 +1007,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "cond",
           "normalized": "Q Bool-\u003eQ a-\u003eQ a-\u003eQ a",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "cons",
           "package": "DSH",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "cons",
           "normalized": "Q a-\u003eQ[a]-\u003eQ[a]",
@@ -965,6 +1047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveDSH",
           "package": "DSH",
@@ -974,6 +1057,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveDSH",
           "normalized": "Name-\u003eQ[Dec]",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveElim",
           "package": "DSH",
@@ -998,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveElim",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveQA",
           "package": "DSH",
@@ -1022,6 +1109,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveQA",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1037,6 +1125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveSmartConstructors",
           "package": "DSH",
@@ -1046,6 +1135,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveSmartConstructors",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1061,6 +1151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveTA",
           "package": "DSH",
@@ -1070,6 +1161,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveTA",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1085,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveTupleRangeQA",
           "package": "DSH",
@@ -1094,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveTupleRangeQA",
           "normalized": "Int-\u003eInt-\u003eQ[Dec]",
@@ -1109,6 +1203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveTupleRangeSmartConstructors",
           "package": "DSH",
@@ -1118,6 +1213,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveTupleRangeSmartConstructors",
           "normalized": "Int-\u003eInt-\u003eQ[Dec]",
@@ -1133,6 +1229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveTupleRangeTA",
           "package": "DSH",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveTupleRangeTA",
           "normalized": "Int-\u003eInt-\u003eQ[Dec]",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveTupleRangeView",
           "package": "DSH",
@@ -1166,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveTupleRangeView",
           "normalized": "Int-\u003eInt-\u003eQ[Dec]",
@@ -1181,6 +1281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "deriveView",
           "package": "DSH",
@@ -1190,6 +1291,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "deriveView",
           "normalized": "Name-\u003eQ[Dec]",
@@ -1205,6 +1307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "drop",
           "package": "DSH",
@@ -1214,6 +1317,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "drop",
           "normalized": "Q Integer-\u003eQ[a]-\u003eQ[a]",
@@ -1228,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "dropWhile",
           "package": "DSH",
@@ -1237,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "dropWhile",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ[a]",
@@ -1252,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "either",
           "package": "DSH",
@@ -1261,6 +1368,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "either",
           "normalized": "(Q a-\u003eQ b)-\u003e(Q c-\u003eQ b)-\u003eQ(Either a c)-\u003eQ b",
@@ -1275,6 +1383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "eitherToPair",
           "package": "DSH",
@@ -1284,6 +1393,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "eitherToPair",
           "normalized": "Q(Either a b)-\u003eQ([a],[b])",
@@ -1299,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "elem",
           "package": "DSH",
@@ -1308,6 +1419,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "elem",
           "normalized": "Q a-\u003eQ[a]-\u003eQ Bool",
@@ -1322,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "elim",
           "package": "DSH",
@@ -1331,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "elim",
           "normalized": "Q a-\u003eEliminator a b",
@@ -1345,6 +1459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "empty",
           "package": "DSH",
@@ -1354,6 +1469,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "empty",
           "normalized": "Q[a]",
@@ -1368,6 +1484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "eq",
           "package": "DSH",
@@ -1377,6 +1494,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "eq",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -1391,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "false",
           "package": "DSH",
@@ -1400,6 +1519,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "false",
           "package": "DSH",
@@ -1412,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "filter",
           "package": "DSH",
@@ -1421,6 +1542,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "filter",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ[a]",
@@ -1435,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "fromJust",
           "package": "DSH",
@@ -1444,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "fromJust",
           "normalized": "Q(Maybe a)-\u003eQ a",
@@ -1459,6 +1583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "fromMaybe",
           "package": "DSH",
@@ -1468,6 +1593,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "fromMaybe",
           "normalized": "Q a-\u003eQ(Maybe a)-\u003eQ a",
@@ -1483,6 +1609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "fst",
           "package": "DSH",
@@ -1492,6 +1619,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "fst",
           "normalized": "Q(a,b)-\u003eQ a",
@@ -1506,6 +1634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "groupWith",
           "package": "DSH",
@@ -1515,6 +1644,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "groupWith",
           "normalized": "(Q a-\u003eQ b)-\u003eQ[a]-\u003eQ[[a]]",
@@ -1530,6 +1660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "groupWithKey",
           "package": "DSH",
@@ -1539,6 +1670,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "groupWithKey",
           "normalized": "(Q a-\u003eQ b)-\u003eQ[a]-\u003eQ[(b,[a])]",
@@ -1554,6 +1686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "gt",
           "package": "DSH",
@@ -1563,6 +1696,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "gt",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -1577,6 +1711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "gte",
           "package": "DSH",
@@ -1586,6 +1721,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "gte",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -1600,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "guard",
           "package": "DSH",
@@ -1609,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "guard",
           "normalized": "Q Bool-\u003eQ[()]",
@@ -1623,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "head",
           "package": "DSH",
@@ -1632,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "head",
           "normalized": "Q[a]-\u003eQ a",
@@ -1646,6 +1786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "ifThenElse",
           "package": "DSH",
@@ -1655,6 +1796,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "ifThenElse",
           "normalized": "Q Bool-\u003eQ a-\u003eQ a-\u003eQ a",
@@ -1670,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "index",
           "package": "DSH",
@@ -1679,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "index",
           "normalized": "Q[a]-\u003eQ Integer-\u003eQ a",
@@ -1693,6 +1837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "init",
           "package": "DSH",
@@ -1702,6 +1847,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "init",
           "normalized": "Q[a]-\u003eQ[a]",
@@ -1716,6 +1862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "integerToDouble",
           "package": "DSH",
@@ -1725,6 +1872,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "integerToDouble",
           "normalized": "Q Integer-\u003eQ Double",
@@ -1740,6 +1888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "isJust",
           "package": "DSH",
@@ -1749,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "isJust",
           "normalized": "Q(Maybe a)-\u003eQ Bool",
@@ -1764,6 +1914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "isLeft",
           "package": "DSH",
@@ -1773,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "isLeft",
           "normalized": "Q(Either a b)-\u003eQ Bool",
@@ -1788,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "isNothing",
           "package": "DSH",
@@ -1797,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "isNothing",
           "normalized": "Q(Maybe a)-\u003eQ Bool",
@@ -1812,6 +1966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "isRight",
           "package": "DSH",
@@ -1821,6 +1976,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "isRight",
           "normalized": "Q(Either a b)-\u003eQ Bool",
@@ -1836,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "just",
           "package": "DSH",
@@ -1845,6 +2002,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "just",
           "normalized": "Q a-\u003eQ(Maybe a)",
@@ -1859,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "last",
           "package": "DSH",
@@ -1868,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "last",
           "normalized": "Q[a]-\u003eQ a",
@@ -1882,6 +2042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "left",
           "package": "DSH",
@@ -1891,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "left",
           "normalized": "Q a-\u003eQ(Either a b)",
@@ -1905,6 +2067,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "lefts",
           "package": "DSH",
@@ -1914,6 +2077,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "lefts",
           "normalized": "Q[Either a b]-\u003eQ[a]",
@@ -1928,6 +2092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "length",
           "package": "DSH",
@@ -1937,6 +2102,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "length",
           "normalized": "Q[a]-\u003eQ Integer",
@@ -1951,6 +2117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "listToMaybe",
           "package": "DSH",
@@ -1960,6 +2127,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "listToMaybe",
           "normalized": "Q[a]-\u003eQ(Maybe a)",
@@ -1975,6 +2143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "lookup",
           "package": "DSH",
@@ -1984,6 +2153,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "lookup",
           "normalized": "Q a-\u003eQ[(a,b)]-\u003eQ(Maybe b)",
@@ -1998,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "lt",
           "package": "DSH",
@@ -2007,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "lt",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -2021,6 +2193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "lte",
           "package": "DSH",
@@ -2030,6 +2203,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "lte",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -2044,6 +2218,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "map",
           "package": "DSH",
@@ -2053,6 +2228,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "map",
           "normalized": "(Q a-\u003eQ b)-\u003eQ[a]-\u003eQ[b]",
@@ -2067,6 +2243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "mapMaybe",
           "package": "DSH",
@@ -2076,6 +2253,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "mapMaybe",
           "normalized": "(Q a-\u003eQ(Maybe b))-\u003eQ[a]-\u003eQ[b]",
@@ -2091,6 +2269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "max",
           "package": "DSH",
@@ -2100,6 +2279,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "max",
           "normalized": "Q a-\u003eQ a-\u003eQ a",
@@ -2114,6 +2294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "maximum",
           "package": "DSH",
@@ -2123,6 +2304,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "maximum",
           "normalized": "Q[a]-\u003eQ a",
@@ -2137,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "maybe",
           "package": "DSH",
@@ -2146,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "maybe",
           "normalized": "Q a-\u003e(Q b-\u003eQ a)-\u003eQ(Maybe b)-\u003eQ a",
@@ -2160,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "maybeToList",
           "package": "DSH",
@@ -2169,6 +2354,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "maybeToList",
           "normalized": "Q(Maybe a)-\u003eQ[a]",
@@ -2184,6 +2370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "min",
           "package": "DSH",
@@ -2193,6 +2380,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "min",
           "normalized": "Q a-\u003eQ a-\u003eQ a",
@@ -2207,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "minimum",
           "package": "DSH",
@@ -2216,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "minimum",
           "normalized": "Q[a]-\u003eQ a",
@@ -2230,6 +2420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "mzip",
           "package": "DSH",
@@ -2239,6 +2430,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "mzip",
           "normalized": "Q[a]-\u003eQ[b]-\u003eQ[(a,b)]",
@@ -2253,6 +2445,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "neq",
           "package": "DSH",
@@ -2262,6 +2455,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "neq",
           "normalized": "Q a-\u003eQ a-\u003eQ Bool",
@@ -2276,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "nil",
           "package": "DSH",
@@ -2285,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "nil",
           "normalized": "Q[a]",
@@ -2299,6 +2495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "not",
           "package": "DSH",
@@ -2308,6 +2505,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "not",
           "normalized": "Q Bool-\u003eQ Bool",
@@ -2322,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "notElem",
           "package": "DSH",
@@ -2331,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "notElem",
           "normalized": "Q a-\u003eQ[a]-\u003eQ Bool",
@@ -2346,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "nothing",
           "package": "DSH",
@@ -2355,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "nothing",
           "package": "DSH",
@@ -2367,6 +2569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "nub",
           "package": "DSH",
@@ -2376,6 +2579,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "nub",
           "normalized": "Q[a]-\u003eQ[a]",
@@ -2390,6 +2594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "null",
           "package": "DSH",
@@ -2399,6 +2604,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "null",
           "normalized": "Q[a]-\u003eQ Bool",
@@ -2413,6 +2619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "or",
           "package": "DSH",
@@ -2422,6 +2629,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "or",
           "normalized": "Q[Bool]-\u003eQ Bool",
@@ -2436,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "pair",
           "package": "DSH",
@@ -2445,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "pair",
           "normalized": "Q a-\u003eQ b-\u003eQ(a,b)",
@@ -2459,6 +2669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "pairToEither",
           "package": "DSH",
@@ -2468,6 +2679,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "pairToEither",
           "normalized": "Q([a],[b])-\u003eQ(Either a b)",
@@ -2483,6 +2695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "partitionEithers",
           "package": "DSH",
@@ -2492,6 +2705,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "partitionEithers",
           "normalized": "Q[Either a b]-\u003eQ([a],[b])",
@@ -2507,6 +2721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "return",
           "package": "DSH",
@@ -2516,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "return",
           "normalized": "Q a-\u003eQ[a]",
@@ -2530,6 +2746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "reverse",
           "package": "DSH",
@@ -2539,6 +2756,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "reverse",
           "normalized": "Q[a]-\u003eQ[a]",
@@ -2553,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "right",
           "package": "DSH",
@@ -2562,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "right",
           "normalized": "Q a-\u003eQ(Either b a)",
@@ -2576,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "rights",
           "package": "DSH",
@@ -2585,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "rights",
           "normalized": "Q[Either a b]-\u003eQ[b]",
@@ -2599,6 +2821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "singleton",
           "package": "DSH",
@@ -2608,6 +2831,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "singleton",
           "normalized": "Q a-\u003eQ[a]",
@@ -2622,6 +2846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "snd",
           "package": "DSH",
@@ -2631,6 +2856,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "snd",
           "normalized": "Q(a,b)-\u003eQ b",
@@ -2645,6 +2871,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "snoc",
           "package": "DSH",
@@ -2654,6 +2881,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "snoc",
           "normalized": "Q[a]-\u003eQ a-\u003eQ[a]",
@@ -2668,6 +2896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "sortWith",
           "package": "DSH",
@@ -2677,6 +2906,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "sortWith",
           "normalized": "(Q a-\u003eQ b)-\u003eQ[a]-\u003eQ[a]",
@@ -2692,6 +2922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "span",
           "package": "DSH",
@@ -2701,6 +2932,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "span",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ([a],[a])",
@@ -2715,6 +2947,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "splitAt",
           "package": "DSH",
@@ -2724,6 +2957,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "splitAt",
           "normalized": "Q Integer-\u003eQ[a]-\u003eQ([a],[a])",
@@ -2739,6 +2973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "sum",
           "package": "DSH",
@@ -2748,6 +2983,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "sum",
           "normalized": "Q[a]-\u003eQ a",
@@ -2762,6 +2998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "table",
           "package": "DSH",
@@ -2771,6 +3008,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "table",
           "normalized": "String-\u003eQ[a]",
@@ -2785,6 +3023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tableCSV",
           "package": "DSH",
@@ -2794,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tableCSV",
           "normalized": "String-\u003eQ[a]",
@@ -2809,6 +3049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tableDB",
           "package": "DSH",
@@ -2818,6 +3059,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tableDB",
           "normalized": "String-\u003eQ[a]",
@@ -2833,6 +3075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tableWithKeys",
           "package": "DSH",
@@ -2842,6 +3085,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tableWithKeys",
           "normalized": "String-\u003e[[String]]-\u003eQ[a]",
@@ -2857,6 +3101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tail",
           "package": "DSH",
@@ -2866,6 +3111,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tail",
           "normalized": "Q[a]-\u003eQ[a]",
@@ -2880,6 +3126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "take",
           "package": "DSH",
@@ -2889,6 +3136,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "take",
           "normalized": "Q Integer-\u003eQ[a]-\u003eQ[a]",
@@ -2903,6 +3151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "takeWhile",
           "package": "DSH",
@@ -2912,6 +3161,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "takeWhile",
           "normalized": "(Q a-\u003eQ Bool)-\u003eQ[a]-\u003eQ[a]",
@@ -2927,6 +3177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "toQ",
           "package": "DSH",
@@ -2936,6 +3187,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "toQ",
           "normalized": "a-\u003eQ a",
@@ -2950,6 +3202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "triple",
           "package": "DSH",
@@ -2959,6 +3212,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "triple",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ(a,b,c)",
@@ -2973,6 +3227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "true",
           "package": "DSH",
@@ -2982,6 +3237,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "true",
           "package": "DSH",
@@ -2994,6 +3250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple2",
           "package": "DSH",
@@ -3003,6 +3260,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple2",
           "normalized": "Q a-\u003eQ b-\u003eQ((,)a b)",
@@ -3017,6 +3275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple3",
           "package": "DSH",
@@ -3026,6 +3285,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple3",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ((,,)a b c)",
@@ -3040,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple4",
           "package": "DSH",
@@ -3049,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple4",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ d-\u003eQ((,,,)a b c d)",
@@ -3063,6 +3325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple5",
           "package": "DSH",
@@ -3072,6 +3335,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple5",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ d-\u003eQ e-\u003eQ((,,,,)a b c d e)",
@@ -3086,6 +3350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple6",
           "package": "DSH",
@@ -3095,6 +3360,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple6",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ d-\u003eQ e-\u003eQ f-\u003eQ((,,,,,)a b c d e f)",
@@ -3109,6 +3375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "tuple7",
           "package": "DSH",
@@ -3118,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "tuple7",
           "normalized": "Q a-\u003eQ b-\u003eQ c-\u003eQ d-\u003eQ e-\u003eQ f-\u003eQ g-\u003eQ((,,,,,,)a b c d e f g)",
@@ -3132,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "unit",
           "package": "DSH",
@@ -3141,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "unit",
           "normalized": "Q()",
@@ -3155,6 +3425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "unzip",
           "package": "DSH",
@@ -3164,6 +3435,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "unzip",
           "normalized": "Q[(a,b)]-\u003eQ([a],[b])",
@@ -3178,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "unzip3",
           "package": "DSH",
@@ -3187,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "unzip3",
           "normalized": "Q[(a,b,c)]-\u003eQ([a],[b],[c])",
@@ -3201,6 +3475,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "view",
           "package": "DSH",
@@ -3210,6 +3485,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "view",
           "normalized": "a-\u003eToView a",
@@ -3224,6 +3500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "zip",
           "package": "DSH",
@@ -3233,6 +3510,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "zip",
           "normalized": "Q[a]-\u003eQ[b]-\u003eQ[(a,b)]",
@@ -3247,6 +3525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "zip3",
           "package": "DSH",
@@ -3256,6 +3535,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "zip3",
           "normalized": "Q[a]-\u003eQ[b]-\u003eQ[c]-\u003eQ[(a,b,c)]",
@@ -3270,6 +3550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "zipWith",
           "package": "DSH",
@@ -3279,6 +3560,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "zipWith",
           "normalized": "(Q a-\u003eQ b-\u003eQ c)-\u003eQ[a]-\u003eQ[b]-\u003eQ[c]",
@@ -3294,6 +3576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:38:13 UTC 2014",
           "module": "Database.DSH",
           "name": "zipWith3",
           "package": "DSH",
@@ -3303,6 +3586,7 @@
         },
         "index": {
           "hierarchy": "Database DSH",
+          "indexed": "2014-03-11T16:38:13",
           "module": "Database.DSH",
           "name": "zipWith3",
           "normalized": "(Q a-\u003eQ b-\u003eQ c-\u003eQ d)-\u003eQ[a]-\u003eQ[b]-\u003eQ[c]-\u003eQ[d]",

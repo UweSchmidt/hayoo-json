@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "web-routes-mtl"
+        "phrase": "web-routes-mtl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:37:55 UTC 2014",
           "module": "Web.Routes.MTL",
           "name": "MTL",
           "package": "web-routes-mtl",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Web Routes MTL",
+          "indexed": "2014-03-11T20:37:55",
           "module": "Web.Routes.MTL",
           "name": "MTL",
           "package": "web-routes-mtl",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bayes-stack"
+        "phrase": "bayes-stack",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "Gibbs",
           "package": "bayes-stack",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "Gibbs",
           "package": "bayes-stack",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "UpdateUnit",
           "package": "bayes-stack",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "UpdateUnit",
           "package": "bayes-stack",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "WrappedUpdateUnit",
           "package": "bayes-stack",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "WrappedUpdateUnit",
           "package": "bayes-stack",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "WrappedUU",
           "package": "bayes-stack",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "WrappedUU",
           "package": "bayes-stack",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "evolveSetting",
           "package": "bayes-stack",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "evolveSetting",
           "normalized": "ModelState a-\u003ea-\u003eRVar(Setting a)",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "fetchSetting",
           "package": "bayes-stack",
@@ -136,6 +147,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "fetchSetting",
           "normalized": "a-\u003eModelState a-\u003eSetting a",
@@ -151,6 +163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "gibbsUpdate",
           "package": "bayes-stack",
@@ -160,6 +173,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "gibbsUpdate",
           "normalized": "Int-\u003ea-\u003e[WrappedUpdateUnit a]-\u003eIO a",
@@ -175,6 +189,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Gibbs",
           "name": "updateSetting",
           "package": "bayes-stack",
@@ -184,6 +199,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Gibbs",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Gibbs",
           "name": "updateSetting",
           "normalized": "a-\u003eSetting a-\u003eSetting a-\u003eModelState a-\u003eModelState a",
@@ -199,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "Types",
           "package": "bayes-stack",
@@ -207,6 +224,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "Types",
           "package": "bayes-stack",
@@ -221,6 +239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA distribution for which a full conditional factor can be produced\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "FullConditionable",
           "package": "bayes-stack",
@@ -230,6 +249,7 @@
         "index": {
           "description": "distribution for which full conditional factor can be produced",
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "FullConditionable",
           "package": "bayes-stack",
@@ -243,6 +263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "HasLikelihood",
           "package": "bayes-stack",
@@ -251,6 +272,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "HasLikelihood",
           "package": "bayes-stack",
@@ -264,6 +286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "Probability",
           "package": "bayes-stack",
@@ -272,6 +295,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "Probability",
           "package": "bayes-stack",
@@ -285,6 +309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "likelihood",
           "package": "bayes-stack",
@@ -294,6 +319,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "likelihood",
           "normalized": "a b-\u003eProbability",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "prob",
           "package": "bayes-stack",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "prob",
           "normalized": "a b-\u003eb-\u003eProbability",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core.Types",
           "name": "sampleProb",
           "package": "bayes-stack",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core Types",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core.Types",
           "name": "sampleProb",
           "normalized": "a b-\u003eb-\u003eDouble",
@@ -355,6 +385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Core",
           "name": "Core",
           "package": "bayes-stack",
@@ -363,6 +394,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Core",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Core",
           "name": "Core",
           "package": "bayes-stack",
@@ -376,6 +408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "DirMulti",
           "package": "bayes-stack",
@@ -384,6 +417,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "DirMulti",
           "package": "bayes-stack",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'Multinom a' represents multinomial distribution over domain \u003ccode\u003ea\u003c/code\u003e.\n Optionally, this can include a collapsed Dirichlet prior.\n 'Multinom alpha count total' is a multinomial with Dirichlet prior\n with symmetric parameter \u003ccode\u003ealpha\u003c/code\u003e, ...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "Multinom",
           "package": "bayes-stack",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Multinom represents multinomial distribution over domain Optionally this can include collapsed Dirichlet prior Multinom alpha count total is multinomial with Dirichlet prior with symmetric parameter alpha",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "Multinom",
           "package": "bayes-stack",
@@ -420,6 +456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "SetUnset",
           "package": "bayes-stack",
@@ -428,6 +465,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "SetUnset",
           "package": "bayes-stack",
@@ -441,6 +479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "Set",
           "package": "bayes-stack",
@@ -450,6 +489,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "Set",
           "package": "bayes-stack",
@@ -463,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "Unset",
           "package": "bayes-stack",
@@ -472,6 +513,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "Unset",
           "package": "bayes-stack",
@@ -485,6 +527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "decMultinom",
           "package": "bayes-stack",
@@ -494,6 +537,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "decMultinom",
           "normalized": "a-\u003eMultinom a-\u003eMultinom a",
@@ -510,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProbabilities sorted decreasingly              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "decProbabilities",
           "package": "bayes-stack",
@@ -520,6 +565,7 @@
         "index": {
           "description": "Probabilities sorted decreasingly",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "decProbabilities",
           "normalized": "Multinom a-\u003eSeq(Double,a)",
@@ -536,6 +582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an asymmetric Dirichlet/multinomial from items and alphas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "dirMulti",
           "package": "bayes-stack",
@@ -546,6 +593,7 @@
         "index": {
           "description": "Create an asymmetric Dirichlet multinomial from items and alphas",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "dirMulti",
           "normalized": "[(a,Double)]-\u003eMultinom a",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "dmAlpha",
           "package": "bayes-stack",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "dmAlpha",
           "normalized": "Multinom a-\u003eAlpha a",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "dmDomain",
           "package": "bayes-stack",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "dmDomain",
           "normalized": "Multinom a-\u003eSeq a",
@@ -609,6 +661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "dmTotal",
           "package": "bayes-stack",
@@ -618,6 +671,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "dmTotal",
           "normalized": "Multinom a-\u003eInt",
@@ -633,6 +687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "estimatePrior",
           "package": "bayes-stack",
@@ -642,6 +697,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "estimatePrior",
           "normalized": "Double-\u003e[Multinom a]-\u003eAlpha a",
@@ -657,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "incMultinom",
           "package": "bayes-stack",
@@ -666,6 +723,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "incMultinom",
           "normalized": "a-\u003eMultinom a-\u003eMultinom a",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA multinomial without a prior\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "multinom",
           "package": "bayes-stack",
@@ -692,6 +751,7 @@
         "index": {
           "description": "multinomial without prior",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "multinom",
           "normalized": "[(a,Double)]-\u003eMultinom a",
@@ -706,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "prettyMultinom",
           "package": "bayes-stack",
@@ -715,6 +776,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "prettyMultinom",
           "normalized": "Int-\u003e(a-\u003eString)-\u003eMultinom a-\u003eDoc",
@@ -730,6 +792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "probabilities",
           "package": "bayes-stack",
@@ -739,6 +802,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "probabilities",
           "normalized": "Multinom a-\u003eSeq(Double,a)",
@@ -753,6 +817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "reestimatePriors",
           "package": "bayes-stack",
@@ -762,6 +827,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "reestimatePriors",
           "normalized": "a(Multinom b)-\u003ea(Multinom b)",
@@ -777,6 +843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "reestimateSymPriors",
           "package": "bayes-stack",
@@ -786,6 +853,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "reestimateSymPriors",
           "normalized": "a(Multinom b)-\u003ea(Multinom b)",
@@ -801,6 +869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "setMultinom",
           "package": "bayes-stack",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "setMultinom",
           "normalized": "SetUnset-\u003ea-\u003eMultinom a-\u003eMultinom a",
@@ -826,6 +896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a symmetric Dirichlet/multinomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "symDirMulti",
           "package": "bayes-stack",
@@ -836,6 +907,7 @@
         "index": {
           "description": "Create symmetric Dirichlet multinomial",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "symDirMulti",
           "normalized": "Double-\u003e[a]-\u003eMultinom a",
@@ -852,6 +924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpdate the prior of a Dirichlet/multinomial\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.DirMulti",
           "name": "updatePrior",
           "package": "bayes-stack",
@@ -862,6 +935,7 @@
         "index": {
           "description": "Update the prior of Dirichlet multinomial",
           "hierarchy": "BayesStack DirMulti",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.DirMulti",
           "name": "updatePrior",
           "normalized": "(Alpha a-\u003eAlpha a)-\u003eMultinom a-\u003eMultinom a",
@@ -877,6 +951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "Dirichlet",
           "package": "bayes-stack",
@@ -885,6 +960,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "Dirichlet",
           "package": "bayes-stack",
@@ -899,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Dirichlet prior\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "Alpha",
           "package": "bayes-stack",
@@ -908,6 +985,7 @@
         "index": {
           "description": "Dirichlet prior",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "Alpha",
           "package": "bayes-stack",
@@ -921,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "DirMean",
           "package": "bayes-stack",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "DirMean",
           "package": "bayes-stack",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "DirPrecision",
           "package": "bayes-stack",
@@ -950,6 +1031,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "DirPrecision",
           "package": "bayes-stack",
@@ -964,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'alphaDomain a' is the domain of prior \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "alphaDomain",
           "package": "bayes-stack",
@@ -974,6 +1057,7 @@
         "index": {
           "description": "alphaDomain is the domain of prior",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "alphaDomain",
           "normalized": "Alpha a-\u003eSeq a",
@@ -989,6 +1073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "alphaNormalizer",
           "package": "bayes-stack",
@@ -998,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "alphaNormalizer",
           "normalized": "Alpha a-\u003eLogFloat",
@@ -1014,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'alphaOf alpha k' is the value of element \u003ccode\u003ek\u003c/code\u003e in prior \u003ccode\u003ealpha\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "alphaOf",
           "package": "bayes-stack",
@@ -1024,6 +1111,7 @@
         "index": {
           "description": "alphaOf alpha is the value of element in prior alpha",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "alphaOf",
           "normalized": "Alpha a-\u003ea-\u003eDouble",
@@ -1040,6 +1128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'alphaToMeanPrecision a' is the mean/precision representation of the prior \u003ccode\u003ea\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "alphaToMeanPrecision",
           "package": "bayes-stack",
@@ -1050,6 +1139,7 @@
         "index": {
           "description": "alphaToMeanPrecision is the mean precision representation of the prior",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "alphaToMeanPrecision",
           "normalized": "Alpha a-\u003e(DirMean a,DirPrecision)",
@@ -1066,6 +1156,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct an asymmetric Alpha\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "asymAlpha",
           "package": "bayes-stack",
@@ -1076,6 +1167,7 @@
         "index": {
           "description": "Construct an asymmetric Alpha",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "asymAlpha",
           "normalized": "EnumMap a Double-\u003eAlpha a",
@@ -1092,6 +1184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'meanPrecisionToAlpha m p' is a prior with mean \u003ccode\u003em\u003c/code\u003e and precision \u003ccode\u003e\u003ca\u003ep\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "meanPrecisionToAlpha",
           "package": "bayes-stack",
@@ -1102,6 +1195,7 @@
         "index": {
           "description": "meanPrecisionToAlpha is prior with mean and precision",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "meanPrecisionToAlpha",
           "normalized": "DirMean a-\u003eDirPrecision-\u003eAlpha a",
@@ -1118,6 +1212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty-print a Dirichlet prior\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "prettyAlpha",
           "package": "bayes-stack",
@@ -1128,6 +1223,7 @@
         "index": {
           "description": "Pretty-print Dirichlet prior",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "prettyAlpha",
           "normalized": "(a-\u003eString)-\u003eAlpha a-\u003eDoc",
@@ -1144,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a particular alpha element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "setAlphaOf",
           "package": "bayes-stack",
@@ -1154,6 +1251,7 @@
         "index": {
           "description": "Set particular alpha element",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "setAlphaOf",
           "normalized": "a-\u003eDouble-\u003eAlpha a-\u003eAlpha a",
@@ -1169,6 +1267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "setSymAlpha",
           "package": "bayes-stack",
@@ -1178,6 +1277,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "setSymAlpha",
           "normalized": "Double-\u003eAlpha a-\u003eAlpha a",
@@ -1194,6 +1294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'sumAlpha alpha' is the sum of all alphas\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "sumAlpha",
           "package": "bayes-stack",
@@ -1204,6 +1305,7 @@
         "index": {
           "description": "sumAlpha alpha is the sum of all alphas",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "sumAlpha",
           "normalized": "Alpha a-\u003eDouble",
@@ -1219,6 +1321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "symAlpha",
           "package": "bayes-stack",
@@ -1228,6 +1331,7 @@
         },
         "index": {
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "symAlpha",
           "normalized": "[a]-\u003eDouble-\u003eAlpha a",
@@ -1244,6 +1348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSymmetrize a Dirichlet prior (such that mean=0) \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.Dirichlet",
           "name": "symmetrizeAlpha",
           "package": "bayes-stack",
@@ -1254,6 +1359,7 @@
         "index": {
           "description": "Symmetrize Dirichlet prior such that mean",
           "hierarchy": "BayesStack Dirichlet",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.Dirichlet",
           "name": "symmetrizeAlpha",
           "normalized": "Alpha a-\u003eAlpha a",
@@ -1269,6 +1375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.TupleEnum",
           "name": "TupleEnum",
           "package": "bayes-stack",
@@ -1277,6 +1384,7 @@
         },
         "index": {
           "hierarchy": "BayesStack TupleEnum",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.TupleEnum",
           "name": "TupleEnum",
           "package": "bayes-stack",
@@ -1290,6 +1398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKey",
           "package": "bayes-stack",
@@ -1298,6 +1407,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKey",
           "package": "bayes-stack",
@@ -1312,6 +1422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'UniqueKey val key' is a monad for a calculation of a mapping unique keys\n \u003ccode\u003ekey\u003c/code\u003e onto values \u003ccode\u003eval\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKey",
           "package": "bayes-stack",
@@ -1321,6 +1432,7 @@
         "index": {
           "description": "UniqueKey val key is monad for calculation of mapping unique keys key onto values val",
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKey",
           "package": "bayes-stack",
@@ -1334,6 +1446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKeyT",
           "package": "bayes-stack",
@@ -1342,6 +1455,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "UniqueKeyT",
           "package": "bayes-stack",
@@ -1356,6 +1470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet map of unique keys to values              \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "getKeyMap",
           "package": "bayes-stack",
@@ -1366,6 +1481,7 @@
         "index": {
           "description": "Get map of unique keys to values",
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "getKeyMap",
           "package": "bayes-stack",
@@ -1379,6 +1495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "getUniqueKey",
           "package": "bayes-stack",
@@ -1388,6 +1505,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "getUniqueKey",
           "normalized": "a-\u003eUniqueKeyT a b c b",
@@ -1404,6 +1522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet map of values to unique keys\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "getValueMap",
           "package": "bayes-stack",
@@ -1414,6 +1533,7 @@
         "index": {
           "description": "Get map of values to unique keys",
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "getValueMap",
           "package": "bayes-stack",
@@ -1427,6 +1547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "mapTraversable",
           "package": "bayes-stack",
@@ -1436,6 +1557,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "mapTraversable",
           "normalized": "[a]-\u003eb c-\u003e(b a,Map a c)",
@@ -1451,6 +1573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKey",
           "package": "bayes-stack",
@@ -1460,6 +1583,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKey",
           "normalized": "[a]-\u003eUniqueKey b a c-\u003ec",
@@ -1476,6 +1600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eUniqueKey\u003c/a\u003e\u003c/code\u003e, returning the result and the associated key map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKey'",
           "package": "bayes-stack",
@@ -1486,6 +1611,7 @@
         "index": {
           "description": "Run UniqueKey returning the result and the associated key map",
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKey'",
           "normalized": "[a]-\u003eUniqueKey b a c-\u003e(c,Map a b)",
@@ -1501,6 +1627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKeyT",
           "package": "bayes-stack",
@@ -1510,6 +1637,7 @@
         },
         "index": {
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKeyT",
           "normalized": "[a]-\u003eUniqueKeyT b a c d-\u003ec d",
@@ -1526,6 +1654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eUniqueKeyT\u003c/a\u003e\u003c/code\u003e, returning the result and the associated key map\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKeyT'",
           "package": "bayes-stack",
@@ -1536,6 +1665,7 @@
         "index": {
           "description": "Run UniqueKeyT returning the result and the associated key map",
           "hierarchy": "BayesStack UniqueKey",
+          "indexed": "2014-03-11T17:17:25",
           "module": "BayesStack.UniqueKey",
           "name": "runUniqueKeyT'",
           "normalized": "[a]-\u003eUniqueKeyT b a c d-\u003ec(d,Map a b)",
@@ -1551,6 +1681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Random.Sequence",
           "name": "Sequence",
           "package": "bayes-stack",
@@ -1559,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Data Random Sequence",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Random.Sequence",
           "name": "Sequence",
           "package": "bayes-stack",
@@ -1572,6 +1704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Random.Sequence",
           "name": "randomElementT",
           "package": "bayes-stack",
@@ -1581,6 +1714,7 @@
         },
         "index": {
           "hierarchy": "Data Random Sequence",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Random.Sequence",
           "name": "randomElementT",
           "normalized": "Seq a-\u003eRVarT b a",
@@ -1596,6 +1730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Sequence.Chunk",
           "name": "Chunk",
           "package": "bayes-stack",
@@ -1604,6 +1739,7 @@
         },
         "index": {
           "hierarchy": "Data Sequence Chunk",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Sequence.Chunk",
           "name": "Chunk",
           "package": "bayes-stack",
@@ -1618,6 +1754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e'chunk n xs' splits \u003ccode\u003exs\u003c/code\u003e into \u003ccode\u003en\u003c/code\u003e chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Sequence.Chunk",
           "name": "chunk",
           "package": "bayes-stack",
@@ -1628,6 +1765,7 @@
         "index": {
           "description": "chunk xs splits xs into chunks",
           "hierarchy": "Data Sequence Chunk",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Sequence.Chunk",
           "name": "chunk",
           "normalized": "Int-\u003eSeq a-\u003eSeq(Seq a)",
@@ -1642,6 +1780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Serialize.EnumMap",
           "name": "EnumMap",
           "package": "bayes-stack",
@@ -1650,6 +1789,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize EnumMap",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Serialize.EnumMap",
           "name": "EnumMap",
           "package": "bayes-stack",
@@ -1663,6 +1803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:17:25 UTC 2014",
           "module": "Data.Serialize.LogFloat",
           "name": "LogFloat",
           "package": "bayes-stack",
@@ -1671,6 +1812,7 @@
         },
         "index": {
           "hierarchy": "Data Serialize LogFloat",
+          "indexed": "2014-03-11T17:17:25",
           "module": "Data.Serialize.LogFloat",
           "name": "LogFloat",
           "package": "bayes-stack",

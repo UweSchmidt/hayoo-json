@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "git-object"
+        "phrase": "git-object",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for Git objects and a parser of Git object files.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "Git",
           "package": "git-object",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Types for Git objects and parser of Git object files",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "Git",
           "package": "git-object",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "Blob",
           "package": "git-object",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "Blob",
           "package": "git-object",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "FileType",
           "package": "git-object",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "FileType",
           "package": "git-object",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitCommit",
           "package": "git-object",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitCommit",
           "package": "git-object",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitObject",
           "package": "git-object",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitObject",
           "package": "git-object",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitTag",
           "package": "git-object",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitTag",
           "package": "git-object",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitTreeEntry",
           "package": "git-object",
@@ -154,6 +167,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitTreeEntry",
           "package": "git-object",
@@ -167,6 +181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitType",
           "package": "git-object",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitType",
           "package": "git-object",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "SHA1",
           "package": "git-object",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "SHA1",
           "package": "git-object",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "Size",
           "package": "git-object",
@@ -217,6 +236,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "Size",
           "package": "git-object",
@@ -230,6 +250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "Directory",
           "package": "git-object",
@@ -239,6 +260,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "Directory",
           "package": "git-object",
@@ -252,6 +274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitCommit",
           "package": "git-object",
@@ -261,6 +284,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitCommit",
           "package": "git-object",
@@ -274,6 +298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitLink",
           "package": "git-object",
@@ -283,6 +308,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitLink",
           "package": "git-object",
@@ -296,6 +322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitTag",
           "package": "git-object",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitTag",
           "package": "git-object",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GitTreeEntry",
           "package": "git-object",
@@ -327,6 +356,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GitTreeEntry",
           "package": "git-object",
@@ -340,6 +370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GoBlob",
           "package": "git-object",
@@ -349,6 +380,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GoBlob",
           "package": "git-object",
@@ -362,6 +394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GoCommit",
           "package": "git-object",
@@ -371,6 +404,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GoCommit",
           "package": "git-object",
@@ -384,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GoTag",
           "package": "git-object",
@@ -393,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GoTag",
           "package": "git-object",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GoTree",
           "package": "git-object",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GoTree",
           "normalized": "GoTree Size[GitTreeEntry]",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GtBlob",
           "package": "git-object",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GtBlob",
           "package": "git-object",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GtCommit",
           "package": "git-object",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GtCommit",
           "package": "git-object",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GtTag",
           "package": "git-object",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GtTag",
           "package": "git-object",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "GtTree",
           "package": "git-object",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "GtTree",
           "package": "git-object",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "RegularFile",
           "package": "git-object",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "RegularFile",
           "package": "git-object",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "SHA1",
           "package": "git-object",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "SHA1",
           "package": "git-object",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "SymbolicLink",
           "package": "git-object",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "SymbolicLink",
           "package": "git-object",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "commitAuthor",
           "package": "git-object",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "commitAuthor",
           "package": "git-object",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "commitLog",
           "package": "git-object",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "commitLog",
           "package": "git-object",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "commitParents",
           "package": "git-object",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "commitParents",
           "normalized": "[SHA]",
@@ -652,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "commitRef",
           "package": "git-object",
@@ -661,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "commitRef",
           "package": "git-object",
@@ -674,6 +734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "committer",
           "package": "git-object",
@@ -683,6 +744,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "committer",
           "package": "git-object",
@@ -695,6 +757,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "fileName",
           "package": "git-object",
@@ -704,6 +767,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "fileName",
           "package": "git-object",
@@ -717,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "fileRef",
           "package": "git-object",
@@ -726,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "fileRef",
           "package": "git-object",
@@ -739,6 +805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "fileType",
           "package": "git-object",
@@ -748,6 +815,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "fileType",
           "package": "git-object",
@@ -762,6 +830,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParsing a Git file to \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e.\n  This parser based on attoparsec-enumerator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "parseGitObject",
           "package": "git-object",
@@ -772,6 +841,7 @@
         "index": {
           "description": "Parsing Git file to GitObject This parser based on attoparsec-enumerator",
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "parseGitObject",
           "normalized": "FilePath-\u003eIO GitObject",
@@ -787,6 +857,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "tagLog",
           "package": "git-object",
@@ -796,6 +867,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "tagLog",
           "package": "git-object",
@@ -809,6 +881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "tagName",
           "package": "git-object",
@@ -818,6 +891,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "tagName",
           "package": "git-object",
@@ -831,6 +905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "tagRef",
           "package": "git-object",
@@ -840,6 +915,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "tagRef",
           "package": "git-object",
@@ -853,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "tagType",
           "package": "git-object",
@@ -862,6 +939,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "tagType",
           "package": "git-object",
@@ -875,6 +953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "Data.Git",
           "name": "tagger",
           "package": "git-object",
@@ -884,6 +963,7 @@
         },
         "index": {
           "hierarchy": "Data Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "Data.Git",
           "name": "tagger",
           "package": "git-object",
@@ -897,6 +977,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eManipulating \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "Git",
           "package": "git-object",
@@ -906,6 +987,7 @@
         "index": {
           "description": "Manipulating GitObject",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "Git",
           "package": "git-object",
@@ -920,6 +1002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for the path to Git repository directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "GitDir",
           "package": "git-object",
@@ -929,6 +1012,7 @@
         "index": {
           "description": "Type for the path to Git repository directories",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "GitDir",
           "package": "git-object",
@@ -942,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "GitError",
           "package": "git-object",
@@ -950,6 +1035,7 @@
         },
         "index": {
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "GitError",
           "package": "git-object",
@@ -964,6 +1050,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType for the absolute path from the project root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "GitPath",
           "package": "git-object",
@@ -973,6 +1060,7 @@
         "index": {
           "description": "Type for the absolute path from the project root",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "GitPath",
           "package": "git-object",
@@ -986,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "GitDirNotExist",
           "package": "git-object",
@@ -995,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "GitDirNotExist",
           "package": "git-object",
@@ -1008,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "GitEntryNotExist",
           "package": "git-object",
@@ -1017,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "GitEntryNotExist",
           "package": "git-object",
@@ -1031,6 +1123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFinding \u003ccode\u003e\u003ca\u003eGitDir\u003c/a\u003e\u003c/code\u003e by tracking from the current directory\n  to the root of the file system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "findGitDir",
           "package": "git-object",
@@ -1041,6 +1134,7 @@
         "index": {
           "description": "Finding GitDir by tracking from the current directory to the root of the file system",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "findGitDir",
           "package": "git-object",
@@ -1055,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e of 'GoBlob'/'GoTree' corresponding to \u003ccode\u003e\u003ca\u003eGitPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "gitPathToGitObject",
           "package": "git-object",
@@ -1065,6 +1160,7 @@
         "index": {
           "description": "Getting GitObject of GoBlob GoTree corresponding to GitPath",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "gitPathToGitObject",
           "normalized": "GitPath-\u003eIO(Either SomeException GitObject)",
@@ -1081,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e of 'GoBlob'/'GoTree' corresponding to \u003ccode\u003e\u003ca\u003eGitPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "gitPathToObj",
           "package": "git-object",
@@ -1091,6 +1188,7 @@
         "index": {
           "description": "Getting GitObject of GoBlob GoTree corresponding to GitPath",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "gitPathToObj",
           "normalized": "GitPath-\u003eGitDir-\u003eIO GitObject",
@@ -1107,6 +1205,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eSHA1\u003c/a\u003e\u003c/code\u003e corresponding to \u003ccode\u003e\u003ca\u003eGitPath\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "gitPathToSha1",
           "package": "git-object",
@@ -1117,6 +1216,7 @@
         "index": {
           "description": "Getting SHA1 corresponding to GitPath",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "gitPathToSha1",
           "normalized": "GitPath-\u003eGitDir-\u003eIO SHA",
@@ -1133,6 +1233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eGoBlob\u003c/a\u003e\u003c/code\u003e corresponding to the project root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "rootCommitObj",
           "package": "git-object",
@@ -1143,6 +1244,7 @@
         "index": {
           "description": "Getting GitObject of GoBlob corresponding to the project root",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "rootCommitObj",
           "normalized": "GitDir-\u003eIO GitObject",
@@ -1159,6 +1261,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eSHA1\u003c/a\u003e\u003c/code\u003e of the project root.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "rootSha1",
           "package": "git-object",
@@ -1169,6 +1272,7 @@
         "index": {
           "description": "Getting SHA1 of the project root",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "rootSha1",
           "normalized": "GitDir-\u003eIO SHA",
@@ -1185,6 +1289,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eGitObject\u003c/a\u003e\u003c/code\u003e according to \u003ccode\u003e\u003ca\u003eSHA1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "sha1ToObj",
           "package": "git-object",
@@ -1195,6 +1300,7 @@
         "index": {
           "description": "Getting GitObject according to SHA1",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "sha1ToObj",
           "normalized": "SHA-\u003eGitDir-\u003eIO GitObject",
@@ -1211,6 +1317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGetting \u003ccode\u003e\u003ca\u003eFilePath\u003c/a\u003e\u003c/code\u003e to the Git object file according to \u003ccode\u003e\u003ca\u003eSHA1\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:12 UTC 2014",
           "module": "System.Git",
           "name": "sha1ToObjFile",
           "package": "git-object",
@@ -1221,6 +1328,7 @@
         "index": {
           "description": "Getting FilePath to the Git object file according to SHA1",
           "hierarchy": "System Git",
+          "indexed": "2014-03-11T18:17:12",
           "module": "System.Git",
           "name": "sha1ToObjFile",
           "normalized": "SHA-\u003eGitDir-\u003eFilePath",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "email-validator"
+        "phrase": "email-validator",
+        "type": "phrase"
       },
       "type": "context"
     }

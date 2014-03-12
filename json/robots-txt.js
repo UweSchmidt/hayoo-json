@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "robots-txt"
+        "phrase": "robots-txt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Robots",
           "package": "robots-txt",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Robots",
           "package": "robots-txt",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Directive",
           "package": "robots-txt",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Directive",
           "package": "robots-txt",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Path",
           "package": "robots-txt",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Path",
           "package": "robots-txt",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Robot",
           "package": "robots-txt",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Robot",
           "package": "robots-txt",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Unparsable",
           "package": "robots-txt",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Unparsable",
           "package": "robots-txt",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "UserAgent",
           "package": "robots-txt",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "UserAgent",
           "package": "robots-txt",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Allow",
           "package": "robots-txt",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Allow",
           "package": "robots-txt",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "CrawlDelay",
           "package": "robots-txt",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "CrawlDelay",
           "package": "robots-txt",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Disallow",
           "package": "robots-txt",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Disallow",
           "package": "robots-txt",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Literal",
           "package": "robots-txt",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Literal",
           "package": "robots-txt",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "Wildcard",
           "package": "robots-txt",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "Wildcard",
           "package": "robots-txt",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "agentDirectiveP",
           "package": "robots-txt",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "agentDirectiveP",
           "normalized": "Parser([UserAgent],[Directive])",
@@ -278,6 +302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "agentP",
           "package": "robots-txt",
@@ -287,6 +312,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "agentP",
           "package": "robots-txt",
@@ -299,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "canAccess",
           "package": "robots-txt",
@@ -308,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "canAccess",
           "normalized": "ByteString-\u003eRobot-\u003ePath-\u003eBool",
@@ -323,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "commentsP",
           "package": "robots-txt",
@@ -332,6 +361,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "commentsP",
           "normalized": "Parser()",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "directiveP",
           "package": "robots-txt",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "directiveP",
           "package": "robots-txt",
@@ -368,6 +400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparseRobots is the main entry point for parsing a robots.txt file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "parseRobots",
           "package": "robots-txt",
@@ -378,6 +411,7 @@
         "index": {
           "description": "parseRobots is the main entry point for parsing robots.txt file",
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "parseRobots",
           "normalized": "ByteString-\u003eEither String Robot",
@@ -393,6 +427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "robotP",
           "package": "robots-txt",
@@ -402,6 +437,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "robotP",
           "package": "robots-txt",
@@ -414,6 +450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "skipSpace",
           "package": "robots-txt",
@@ -423,6 +460,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "skipSpace",
           "normalized": "Parser()",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "strip",
           "package": "robots-txt",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "strip",
           "normalized": "ByteString-\u003eByteString",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "tokenP",
           "package": "robots-txt",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "tokenP",
           "package": "robots-txt",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:54:45 UTC 2014",
           "module": "Network.HTTP.Robots",
           "name": "unparsableP",
           "package": "robots-txt",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Network HTTP Robots",
+          "indexed": "2014-03-11T19:54:45",
           "module": "Network.HTTP.Robots",
           "name": "unparsableP",
           "package": "robots-txt",

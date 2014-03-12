@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "streamed"
+        "phrase": "streamed",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "Causal",
           "package": "streamed",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "Causal",
           "package": "streamed",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "Pattern",
           "package": "streamed",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "Pattern",
           "package": "streamed",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe list of scheduled triggers must be finite.\n\u003c/p\u003e\u003cp\u003eThis process cannot drop an incoming event.\nIn order to do so, you must write something of type \u003ccode\u003eT a (Maybe b)\u003c/code\u003e.\nFor convenience you could wrap this in something like \u003ccode\u003eExt a b\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "T",
           "package": "streamed",
@@ -70,6 +75,7 @@
         "index": {
           "description": "The list of scheduled triggers must be finite This process cannot drop an incoming event In order to do so you must write something of type Maybe For convenience you could wrap this in something like Ext",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "T",
           "package": "streamed",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "TempoControl",
           "package": "streamed",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "TempoControl",
           "package": "streamed",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "cyclePrograms",
           "package": "streamed",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "cyclePrograms",
           "normalized": "[Program]-\u003eT Data[Data]",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e cycleProgramsDefer t\n\u003c/pre\u003e\u003cp\u003eAfter a note that triggers a program change,\nwe won't change the program in the next \u003ccode\u003et\u003c/code\u003e seconds.\nThis is in order to allow chords being played\nand in order to skip accidentally played notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "cycleProgramsDefer",
           "package": "streamed",
@@ -138,6 +149,7 @@
         "index": {
           "description": "cycleProgramsDefer After note that triggers program change we won change the program in the next seconds This is in order to allow chords being played and in order to skip accidentally played notes",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "cycleProgramsDefer",
           "normalized": "Time-\u003e[Program]-\u003eT Data[Data]",
@@ -153,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "delayAdd",
           "package": "streamed",
@@ -162,6 +175,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "delayAdd",
           "normalized": "Word-\u003eTime-\u003eT Data EventDataBundle",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "eitherIn",
           "package": "streamed",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "eitherIn",
           "normalized": "T a b-\u003eT c b-\u003eT(Either a c)b",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003einput is most oftenly of type \u003ccode\u003e\u003ca\u003eEventDataBundle\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "flatten",
           "package": "streamed",
@@ -212,6 +229,7 @@
         "index": {
           "description": "input is most oftenly of type EventDataBundle",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "flatten",
           "package": "streamed",
@@ -225,6 +243,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll pressed keys are latched until a key is pressed after a pause\n(i.e. all keys released).\nFor aborting the pattern you have to send\na \u003ccode\u003e\u003ca\u003eAllNotesOff\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003eAllSoundOff\u003c/a\u003e\u003c/code\u003e message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "groupLatch",
           "package": "streamed",
@@ -235,6 +254,7 @@
         "index": {
           "description": "All pressed keys are latched until key is pressed after pause i.e all keys released For aborting the pattern you have to send AllNotesOff or AllSoundOff message",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "groupLatch",
           "normalized": "T Data[Data]",
@@ -250,6 +270,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guide",
           "package": "streamed",
@@ -259,6 +280,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guide",
           "normalized": "(a-\u003eBool)-\u003eT a b-\u003eT a b-\u003eT a b",
@@ -273,6 +295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guideWithMode",
           "package": "streamed",
@@ -282,6 +305,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guideWithMode",
           "normalized": "(Data-\u003eBool)-\u003eT Data a-\u003eT Data a-\u003eT Data a",
@@ -298,6 +322,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTry for instance \u003ccode\u003eguitar 0.05 0.03\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eThis process simulates playing chords on a guitar.\nIf you press some keys like C, E, G on the keyboard,\nthen this process figures out what tones would be played on a guitar\nand plays them one after another with short delays.\nIf you release the keys then the chord is played in reverse order.\nThis simulates the hand going up and down on the guitar strings.\nUnfortunatley it is not possible to go up twice or go down twice this way.\nThe octaves of the pressed keys are ignored.\n\u003c/p\u003e\u003cp\u003eIn detail calling \u003ccode\u003eguitar collectTime stepTime\u003c/code\u003e means:\nIf a key is pressed,\nthen collect all key-press events for the next \u003ccode\u003ecollectTime\u003c/code\u003e seconds.\nAfter this period, send out a guitar-like chord pattern for the pressed keys\nwith a delay of \u003ccode\u003estepTime\u003c/code\u003e between the notes.\nNow wait until all keys are released.\nNote that in the meantime keys could have been pressed or released.\nThey are registered, but not played.\nIf all keys are released then send out the reverse chord.\n\u003c/p\u003e\u003cp\u003eOn an AllSoundOff message, release all played tones.\n\u003c/p\u003e\u003cp\u003eI don't know whether emitted key-events are always consistent.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guitar",
           "package": "streamed",
@@ -308,6 +333,7 @@
         "index": {
           "description": "Try for instance guitar This process simulates playing chords on guitar If you press some keys like on the keyboard then this process figures out what tones would be played on guitar and plays them one after another with short delays If you release the keys then the chord is played in reverse order This simulates the hand going up and down on the guitar strings Unfortunatley it is not possible to go up twice or go down twice this way The octaves of the pressed keys are ignored In detail calling guitar collectTime stepTime means If key is pressed then collect all key-press events for the next collectTime seconds After this period send out guitar-like chord pattern for the pressed keys with delay of stepTime between the notes Now wait until all keys are released Note that in the meantime keys could have been pressed or released They are registered but not played If all keys are released then send out the reverse chord On an AllSoundOff message release all played tones don know whether emitted key-events are always consistent",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "guitar",
           "normalized": "Time-\u003eTime-\u003eT Data EventDataBundle",
@@ -322,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "latch",
           "package": "streamed",
@@ -331,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "latch",
           "package": "streamed",
@@ -344,6 +372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHere we abuse the \u003ccode\u003eApplicative\u003c/code\u003e constraint.\nActually we only need \u003ccode\u003epure\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "lift",
           "package": "streamed",
@@ -354,6 +383,7 @@
         "index": {
           "description": "Here we abuse the Applicative constraint Actually we only need pure",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "lift",
           "normalized": "T a b-\u003eT(c a)(c b)",
@@ -369,6 +399,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTypical instance for the traversable type \u003ccode\u003et\u003c/code\u003e are '[]' and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "liftPoint",
           "package": "streamed",
@@ -379,6 +410,7 @@
         "index": {
           "description": "Typical instance for the traversable type are and Maybe",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "liftPoint",
           "normalized": "(a-\u003eb a)-\u003eT c a-\u003eT(b c)(b a)",
@@ -394,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "map",
           "package": "streamed",
@@ -403,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "map",
           "normalized": "(a-\u003eb)-\u003eT a b",
@@ -418,6 +452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun two stream processor in parallel.\nWe cannot use the \u003ccode\u003eArrow\u003c/code\u003e method \u003ccode\u003e&&&\u003c/code\u003e\nsince we cannot define the \u003ccode\u003efirst\u003c/code\u003e method of the \u003ccode\u003eArrow\u003c/code\u003e class.\nConsider \u003ccode\u003efirst :: arrow a b -\u003e arrow (c,a) (c,b)\u003c/code\u003e\nand a trigger where \u003ccode\u003earrow a b\u003c/code\u003e generates an event of type \u003ccode\u003eb\u003c/code\u003e.\nHow could we generate additionally an event of type \u003ccode\u003ec\u003c/code\u003e\nwithout having an input event?\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "parallel",
           "package": "streamed",
@@ -428,6 +463,7 @@
         "index": {
           "description": "Run two stream processor in parallel We cannot use the Arrow method since we cannot define the first method of the Arrow class Consider first arrow arrow and trigger where arrow generates an event of type How could we generate additionally an event of type without having an input event",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "parallel",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -442,6 +478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "partition",
           "package": "streamed",
@@ -451,6 +488,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "partition",
           "normalized": "(a-\u003eBool)-\u003eT a(Maybe a,Maybe a)",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternMono",
           "package": "streamed",
@@ -474,6 +513,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternMono",
           "normalized": "PatternMono a-\u003eTime-\u003eT Data EventDataBundle",
@@ -489,6 +529,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternMonoTempo",
           "package": "streamed",
@@ -498,6 +539,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternMonoTempo",
           "normalized": "PatternMono a-\u003eTempoControl-\u003eT Data EventDataBundle",
@@ -513,6 +555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternPolyTempo",
           "package": "streamed",
@@ -522,6 +565,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternPolyTempo",
           "normalized": "PatternPoly a-\u003eTempoControl-\u003eT Data EventDataBundle",
@@ -537,6 +581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternSerialTempo",
           "package": "streamed",
@@ -546,6 +591,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternSerialTempo",
           "normalized": "Int-\u003ePatternMono a-\u003eTempoControl-\u003eT Data EventDataBundle",
@@ -561,6 +607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternTempo",
           "package": "streamed",
@@ -570,6 +617,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "patternTempo",
           "normalized": "a-\u003eTempoControl-\u003eT Data EventDataBundle",
@@ -586,6 +634,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTODO:\nWe should allow the process to access and modify the ALSA port number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "process",
           "package": "streamed",
@@ -596,6 +645,7 @@
         "index": {
           "description": "TODO We should allow the process to access and modify the ALSA port number",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "process",
           "normalized": "T Data EventDataBundle-\u003eReaderT Handle IO()",
@@ -611,6 +661,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap order of keys.\nThis is a funny effect and a new challenge to playing a keyboard.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "reverse",
           "package": "streamed",
@@ -621,6 +672,7 @@
         "index": {
           "description": "Swap order of keys This is funny effect and new challenge to playing keyboard",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "reverse",
           "package": "streamed",
@@ -634,6 +686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA key is hold until \u003ccode\u003en\u003c/code\u003e times further keys are pressed.\nThe \u003ccode\u003en\u003c/code\u003e-th pressed key replaces the current one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "serialLatch",
           "package": "streamed",
@@ -644,6 +697,7 @@
         "index": {
           "description": "key is hold until times further keys are pressed The th pressed key replaces the current one",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "serialLatch",
           "normalized": "Int-\u003eT Data[Data]",
@@ -659,6 +713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "sweep",
           "package": "streamed",
@@ -668,6 +723,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "sweep",
           "normalized": "Channel-\u003eTime-\u003e(Controller,(Time,Time))-\u003eController-\u003eController-\u003e(Double-\u003eDouble)-\u003eT Data[Data]",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAudio perception trainer\n\u003c/p\u003e\u003cp\u003ePlay sets of notes and\nlet the human player answer to them according to a given scheme.\nRepeat playing the notes sets until the trainee answers correctly.\nThen continue with other sequences, maybe more complicated ones.\n\u003c/p\u003e\u003cp\u003epossible tasks:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e replay a sequence of pitches on the keyboard:\n      single notes for training abolute pitches,\n      intervals all with the same base notes,\n      intervals with different base notes\n\u003c/li\u003e\u003cli\u003e transpose a set of pitches:\n      tranpose to a certain base note,\n      transpose by a certain interval\n\u003c/li\u003e\u003cli\u003e play a set of pitches in a different order:\n      reversed order,\n      in increasing pitch\n\u003c/li\u003e\u003cli\u003e replay a set of simultaneously pressed keys\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eThe difficulty can be increased by not connecting\nthe keyboard directly with the sound generator.\nThis way, the trainee cannot verify,\nhow the pressed keys differ from the target keys.\n\u003c/p\u003e\u003cp\u003eSometimes it seems that you are catched in an infinite loop.\nThis happens if there were too many keys pressed.\nThe trainer collects all key press events,\nnot only the ones that occur after the target set is played.\nThis way you can correct yourself immediately,\nbefore the target is repeatedly played.\nThe downside is, that there may be key press events hanging around.\nYou can get rid of them by pressing a key again and again,\nbut slowly, until the target is played, again.\nThen the queue of registered keys should be empty\nand you can proceed training.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "trainer",
           "package": "streamed",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Audio perception trainer Play sets of notes and let the human player answer to them according to given scheme Repeat playing the notes sets until the trainee answers correctly Then continue with other sequences maybe more complicated ones possible tasks replay sequence of pitches on the keyboard single notes for training abolute pitches intervals all with the same base notes intervals with different base notes transpose set of pitches tranpose to certain base note transpose by certain interval play set of pitches in different order reversed order in increasing pitch replay set of simultaneously pressed keys The difficulty can be increased by not connecting the keyboard directly with the sound generator This way the trainee cannot verify how the pressed keys differ from the target keys Sometimes it seems that you are catched in an infinite loop This happens if there were too many keys pressed The trainer collects all key press events not only the ones that occur after the target set is played This way you can correct yourself immediately before the target is repeatedly played The downside is that there may be key press events hanging around You can get rid of them by pressing key again and again but slowly until the target is played again Then the queue of registered keys should be empty and you can proceed training",
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "trainer",
           "normalized": "Channel-\u003eTime-\u003eTime-\u003e[([Pitch],[Pitch])]-\u003eT Data EventDataBundle",
@@ -707,6 +765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "transpose",
           "package": "streamed",
@@ -716,6 +775,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "transpose",
           "normalized": "Int-\u003eT Data(Maybe Data)",
@@ -730,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "traverse",
           "package": "streamed",
@@ -739,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Causal",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Causal",
           "name": "traverse",
           "normalized": "a-\u003e(b-\u003eState a c)-\u003eT b c",
@@ -753,6 +815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "CausalExample",
           "package": "streamed",
@@ -761,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "CausalExample",
           "package": "streamed",
@@ -774,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "binary",
           "package": "streamed",
@@ -783,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "binary",
           "normalized": "ReaderT Handle IO()",
@@ -797,6 +863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "bruijn",
           "package": "streamed",
@@ -806,6 +873,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "bruijn",
           "normalized": "ReaderT Handle IO()",
@@ -820,6 +888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "crossSum",
           "package": "streamed",
@@ -829,6 +898,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "crossSum",
           "normalized": "ReaderT Handle IO()",
@@ -844,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cyclePrograms",
           "package": "streamed",
@@ -853,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cyclePrograms",
           "normalized": "ReaderT Handle IO()",
@@ -868,6 +940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleProgramsDefer",
           "package": "streamed",
@@ -877,6 +950,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleProgramsDefer",
           "normalized": "ReaderT Handle IO()",
@@ -892,6 +966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUp",
           "package": "streamed",
@@ -901,6 +976,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUp",
           "normalized": "ReaderT Handle IO()",
@@ -916,6 +992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUpPoly",
           "package": "streamed",
@@ -925,6 +1002,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUpPoly",
           "normalized": "ReaderT Handle IO()",
@@ -940,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUpTempo",
           "package": "streamed",
@@ -949,6 +1028,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "cycleUpTempo",
           "normalized": "ReaderT Handle IO()",
@@ -964,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "defaultTempo",
           "package": "streamed",
@@ -973,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "defaultTempo",
           "package": "streamed",
@@ -986,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "delay",
           "package": "streamed",
@@ -995,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "delay",
           "normalized": "ReaderT Handle IO()",
@@ -1009,6 +1093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "filterKey",
           "package": "streamed",
@@ -1018,6 +1103,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "filterKey",
           "normalized": "ReaderT Handle IO()",
@@ -1033,6 +1119,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupBinary",
           "package": "streamed",
@@ -1042,6 +1129,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupBinary",
           "normalized": "ReaderT Handle IO()",
@@ -1057,6 +1145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupBruijn",
           "package": "streamed",
@@ -1066,6 +1155,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupBruijn",
           "normalized": "ReaderT Handle IO()",
@@ -1081,6 +1171,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupCrossSum",
           "package": "streamed",
@@ -1090,6 +1181,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupCrossSum",
           "normalized": "ReaderT Handle IO()",
@@ -1105,6 +1197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupCycleUp",
           "package": "streamed",
@@ -1114,6 +1207,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupCycleUp",
           "normalized": "ReaderT Handle IO()",
@@ -1129,6 +1223,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupLatch",
           "package": "streamed",
@@ -1138,6 +1233,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupLatch",
           "normalized": "ReaderT Handle IO()",
@@ -1153,6 +1249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupRandom",
           "package": "streamed",
@@ -1162,6 +1259,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupRandom",
           "normalized": "ReaderT Handle IO()",
@@ -1177,6 +1275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupRandomInversions",
           "package": "streamed",
@@ -1186,6 +1285,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "groupRandomInversions",
           "normalized": "ReaderT Handle IO()",
@@ -1201,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "guitar",
           "package": "streamed",
@@ -1210,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "guitar",
           "normalized": "ReaderT Handle IO()",
@@ -1224,6 +1326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "latch",
           "package": "streamed",
@@ -1233,6 +1336,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "latch",
           "normalized": "ReaderT Handle IO()",
@@ -1247,6 +1351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "pass",
           "package": "streamed",
@@ -1256,6 +1361,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "pass",
           "normalized": "ReaderT Handle IO()",
@@ -1270,6 +1376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "releaseAllKeys",
           "package": "streamed",
@@ -1279,6 +1386,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "releaseAllKeys",
           "normalized": "ReaderT Handle IO()",
@@ -1294,6 +1402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "reverse",
           "package": "streamed",
@@ -1303,6 +1412,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "reverse",
           "normalized": "ReaderT Handle IO()",
@@ -1317,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "run",
           "package": "streamed",
@@ -1326,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "run",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -1340,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sendMode",
           "package": "streamed",
@@ -1349,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sendMode",
           "normalized": "ReaderT Handle IO()",
@@ -1364,6 +1478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sendProgram",
           "package": "streamed",
@@ -1373,6 +1488,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sendProgram",
           "normalized": "ReaderT Handle IO()",
@@ -1388,6 +1504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "serialLatch",
           "package": "streamed",
@@ -1397,6 +1514,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "serialLatch",
           "normalized": "ReaderT Handle IO()",
@@ -1412,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "serialPattern",
           "package": "streamed",
@@ -1421,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "serialPattern",
           "normalized": "ReaderT Handle IO()",
@@ -1436,6 +1556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "split",
           "package": "streamed",
@@ -1445,6 +1566,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "split",
           "normalized": "ReaderT Handle IO()",
@@ -1459,6 +1581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "splitPattern",
           "package": "streamed",
@@ -1468,6 +1591,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "splitPattern",
           "normalized": "ReaderT Handle IO()",
@@ -1483,6 +1607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sweep",
           "package": "streamed",
@@ -1492,6 +1617,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "sweep",
           "normalized": "ReaderT Handle IO()",
@@ -1506,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "trainer",
           "package": "streamed",
@@ -1515,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "trainer",
           "normalized": "a-\u003eReaderT Handle IO()",
@@ -1529,6 +1657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "withGroup",
           "package": "streamed",
@@ -1538,6 +1667,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA CausalExample",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.CausalExample",
           "name": "withGroup",
           "normalized": "a-\u003eReaderT Handle IO()",
@@ -1553,6 +1683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Common",
           "package": "streamed",
@@ -1561,6 +1692,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Common",
           "package": "streamed",
@@ -1575,6 +1707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe times are relative to the start time of the bundle\nand do not need to be ordered.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Bundle",
           "package": "streamed",
@@ -1584,6 +1717,7 @@
         "index": {
           "description": "The times are relative to the start time of the bundle and do not need to be ordered",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Bundle",
           "package": "streamed",
@@ -1597,6 +1731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "EventDataBundle",
           "package": "streamed",
@@ -1605,6 +1740,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "EventDataBundle",
           "package": "streamed",
@@ -1618,6 +1754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Handle",
           "package": "streamed",
@@ -1626,6 +1763,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Handle",
           "package": "streamed",
@@ -1639,6 +1777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "IndexNote",
           "package": "streamed",
@@ -1647,6 +1786,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "IndexNote",
           "package": "streamed",
@@ -1660,6 +1800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "KeyQueue",
           "package": "streamed",
@@ -1668,6 +1809,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "KeyQueue",
           "package": "streamed",
@@ -1681,6 +1823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "KeySet",
           "package": "streamed",
@@ -1689,6 +1832,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "KeySet",
           "package": "streamed",
@@ -1702,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternMono",
           "package": "streamed",
@@ -1710,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternMono",
           "package": "streamed",
@@ -1723,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternPoly",
           "package": "streamed",
@@ -1731,6 +1878,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternPoly",
           "package": "streamed",
@@ -1744,6 +1892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Selector",
           "package": "streamed",
@@ -1752,6 +1901,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Selector",
           "package": "streamed",
@@ -1765,6 +1915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "SweepState",
           "package": "streamed",
@@ -1773,6 +1924,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "SweepState",
           "package": "streamed",
@@ -1786,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Time",
           "package": "streamed",
@@ -1794,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Time",
           "package": "streamed",
@@ -1808,6 +1962,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eTime\u003c/a\u003e\u003c/code\u003e types are used instead of floating point types,\nbecause the latter ones caused unpredictable 'negative number' errors.\nThe denominator must always be a power of 10,\nthis way we can prevent unlimited grow of denominators.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "TimeAbs",
           "package": "streamed",
@@ -1817,6 +1972,7 @@
         "index": {
           "description": "The Time types are used instead of floating point types because the latter ones caused unpredictable negative number errors The denominator must always be power of this way we can prevent unlimited grow of denominators",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "TimeAbs",
           "package": "streamed",
@@ -1830,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Trie",
           "package": "streamed",
@@ -1838,6 +1995,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Trie",
           "package": "streamed",
@@ -1851,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Branch",
           "package": "streamed",
@@ -1860,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Branch",
           "normalized": "Branch[(a,Trie a b)]",
@@ -1875,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Handle",
           "package": "streamed",
@@ -1884,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Handle",
           "package": "streamed",
@@ -1897,6 +2059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "IndexNote",
           "package": "streamed",
@@ -1906,6 +2069,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "IndexNote",
           "package": "streamed",
@@ -1919,6 +2083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Leaf",
           "package": "streamed",
@@ -1928,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Leaf",
           "package": "streamed",
@@ -1941,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternMono",
           "package": "streamed",
@@ -1950,6 +2117,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternMono",
           "normalized": "PatternMono(Selector a)[a]",
@@ -1965,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternPoly",
           "package": "streamed",
@@ -1974,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "PatternPoly",
           "normalized": "PatternPoly(Selector a)(T Int[IndexNote a])",
@@ -1989,6 +2159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "SweepState",
           "package": "streamed",
@@ -1998,6 +2169,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "SweepState",
           "package": "streamed",
@@ -2011,6 +2183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Time",
           "package": "streamed",
@@ -2020,6 +2193,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "Time",
           "package": "streamed",
@@ -2033,6 +2207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryAccident",
           "package": "streamed",
@@ -2042,6 +2217,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryAccident",
           "package": "streamed",
@@ -2055,6 +2231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryLegato",
           "package": "streamed",
@@ -2064,6 +2241,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryLegato",
           "package": "streamed",
@@ -2077,6 +2255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryStaccato",
           "package": "streamed",
@@ -2086,6 +2265,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "binaryStaccato",
           "package": "streamed",
@@ -2100,6 +2280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ebruijn n k\u003c/code\u003e is a sequence with length n^k\nwhere \u003ccode\u003ecycle (bruijn n k)\u003c/code\u003e contains all n-ary numbers with k digits as infixes.\nThe function computes the lexicographically smallest of such sequences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijn",
           "package": "streamed",
@@ -2110,6 +2291,7 @@
         "index": {
           "description": "bruijn is sequence with length where cycle bruijn contains all n-ary numbers with digits as infixes The function computes the lexicographically smallest of such sequences",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijn",
           "normalized": "Int-\u003eInt-\u003e[Int]",
@@ -2125,6 +2307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAll Bruijn sequences with a certain \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAll",
           "package": "streamed",
@@ -2135,6 +2318,7 @@
         "index": {
           "description": "All Bruijn sequences with certain",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAll",
           "normalized": "Int-\u003eInt-\u003e[[Int]]",
@@ -2150,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllBits",
           "package": "streamed",
@@ -2159,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllBits",
           "normalized": "Int-\u003eInt-\u003e[[Int]]",
@@ -2174,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllMap",
           "package": "streamed",
@@ -2183,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllMap",
           "normalized": "Int-\u003eInt-\u003e[[Int]]",
@@ -2198,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllTrie",
           "package": "streamed",
@@ -2207,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnAllTrie",
           "normalized": "Int-\u003eInt-\u003e[[Int]]",
@@ -2222,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnPat",
           "package": "streamed",
@@ -2231,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "bruijnPat",
           "normalized": "Int-\u003eInt-\u003ePatternMono Int",
@@ -2246,6 +2438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "channel",
           "package": "streamed",
@@ -2255,6 +2448,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "channel",
           "normalized": "Int-\u003eChannel",
@@ -2269,6 +2463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkChannel",
           "package": "streamed",
@@ -2278,6 +2473,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkChannel",
           "normalized": "(Channel-\u003eBool)-\u003eData-\u003eBool",
@@ -2293,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkController",
           "package": "streamed",
@@ -2302,6 +2499,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkController",
           "normalized": "(Controller-\u003eBool)-\u003eData-\u003eBool",
@@ -2317,6 +2515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkMode",
           "package": "streamed",
@@ -2326,6 +2525,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkMode",
           "normalized": "(T-\u003eBool)-\u003eData-\u003eBool",
@@ -2341,6 +2541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkPitch",
           "package": "streamed",
@@ -2350,6 +2551,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkPitch",
           "normalized": "(Pitch-\u003eBool)-\u003eData-\u003eBool",
@@ -2365,6 +2567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkProgram",
           "package": "streamed",
@@ -2374,6 +2577,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "checkProgram",
           "normalized": "(Program-\u003eBool)-\u003eData-\u003eBool",
@@ -2389,6 +2593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "client",
           "package": "streamed",
@@ -2398,6 +2603,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "client",
           "package": "streamed",
@@ -2410,6 +2616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connect",
           "package": "streamed",
@@ -2419,6 +2626,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connect",
           "normalized": "String-\u003eString-\u003eReaderT Handle IO()",
@@ -2433,6 +2641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectLLVM",
           "package": "streamed",
@@ -2442,6 +2651,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectLLVM",
           "normalized": "ReaderT Handle IO()",
@@ -2457,6 +2667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectSuperCollider",
           "package": "streamed",
@@ -2466,6 +2677,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectSuperCollider",
           "normalized": "ReaderT Handle IO()",
@@ -2481,6 +2693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectTimidity",
           "package": "streamed",
@@ -2490,6 +2703,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "connectTimidity",
           "normalized": "ReaderT Handle IO()",
@@ -2505,6 +2719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "consTime",
           "package": "streamed",
@@ -2514,6 +2729,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "consTime",
           "normalized": "String-\u003eRational-\u003eTime",
@@ -2529,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controller",
           "package": "streamed",
@@ -2538,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controller",
           "normalized": "Int-\u003eController",
@@ -2553,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMap NoteOn events to a controller value.\nThis way you may play notes via the resonance frequency of a filter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controllerFromNote",
           "package": "streamed",
@@ -2563,6 +2782,7 @@
         "index": {
           "description": "Map NoteOn events to controller value This way you may play notes via the resonance frequency of filter",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controllerFromNote",
           "normalized": "(Int-\u003eInt)-\u003eController-\u003eData-\u003eMaybe Data",
@@ -2578,6 +2798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controllerMatch",
           "package": "streamed",
@@ -2587,6 +2808,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "controllerMatch",
           "normalized": "Channel-\u003eController-\u003eCtrl-\u003eBool",
@@ -2602,6 +2824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "crossSum",
           "package": "streamed",
@@ -2611,6 +2834,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "crossSum",
           "normalized": "Int-\u003ePatternMono Int",
@@ -2626,6 +2850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "crossSumAuto",
           "package": "streamed",
@@ -2635,6 +2860,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "crossSumAuto",
           "package": "streamed",
@@ -2648,6 +2874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleDown",
           "package": "streamed",
@@ -2657,6 +2884,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleDown",
           "normalized": "Int-\u003ePatternMono Int",
@@ -2672,6 +2900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleDownAuto",
           "package": "streamed",
@@ -2681,6 +2910,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleDownAuto",
           "package": "streamed",
@@ -2694,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUp",
           "package": "streamed",
@@ -2703,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUp",
           "normalized": "Int-\u003ePatternMono Int",
@@ -2718,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpAuto",
           "package": "streamed",
@@ -2727,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpAuto",
           "package": "streamed",
@@ -2740,6 +2974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpInversions",
           "package": "streamed",
@@ -2749,6 +2984,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpInversions",
           "normalized": "Int-\u003ePatternMono Double",
@@ -2764,6 +3000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpOctave",
           "package": "streamed",
@@ -2773,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "cycleUpOctave",
           "normalized": "Int-\u003ePatternMono Int",
@@ -2788,6 +3026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "decomposePositional",
           "package": "streamed",
@@ -2797,6 +3036,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "decomposePositional",
           "normalized": "Integer-\u003eInteger-\u003e[Integer]",
@@ -2812,6 +3052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "deconsTime",
           "package": "streamed",
@@ -2821,6 +3062,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "deconsTime",
           "package": "streamed",
@@ -2834,6 +3076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "defaultTempoCtrl",
           "package": "streamed",
@@ -2843,6 +3086,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "defaultTempoCtrl",
           "normalized": "(Channel,Controller)",
@@ -2858,6 +3102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "delayAdd",
           "package": "streamed",
@@ -2867,6 +3112,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "delayAdd",
           "normalized": "Word-\u003eTime-\u003eData-\u003eEventDataBundle",
@@ -2882,6 +3128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "deleteWord",
           "package": "streamed",
@@ -2891,6 +3138,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "deleteWord",
           "normalized": "a-\u003e[b]-\u003eTrie b[a]-\u003eTrie b[a]",
@@ -2906,6 +3154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "eventsFromKey",
           "package": "streamed",
@@ -2915,6 +3164,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "eventsFromKey",
           "normalized": "Time-\u003e((Pitch,Channel),Velocity)-\u003eEventDataBundle",
@@ -2930,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "examplePatternPolyTempo0",
           "package": "streamed",
@@ -2939,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "examplePatternPolyTempo0",
           "normalized": "T Int[IndexNote Int]",
@@ -2954,6 +3206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "examplePatternPolyTempo1",
           "package": "streamed",
@@ -2963,6 +3216,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "examplePatternPolyTempo1",
           "normalized": "T Int[IndexNote Int]",
@@ -2978,6 +3232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "exit",
           "package": "streamed",
@@ -2987,6 +3242,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "exit",
           "normalized": "Handle-\u003eIO()",
@@ -3002,6 +3258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee Haskore/FlipSong\n\u003c/p\u003e\u003cp\u003eflipSeq m !! n = cross sum of the m-ary representation of n modulo m.\n\u003c/p\u003e\u003cp\u003eFor m=2 this yields\n  http:\u003cem/\u003ewww.research.att.com\u003cem\u003ecgi-bin\u003c/em\u003eaccess.cgi\u003cem\u003eas\u003c/em\u003enjas\u003cem\u003esequences\u003c/em\u003eeisA.cgi?Anum=A010060\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "flipSeq",
           "package": "streamed",
@@ -3012,6 +3269,7 @@
         "index": {
           "description": "See Haskore FlipSong flipSeq cross sum of the m-ary representation of modulo For this yields http www.research.att.com cgi-bin access.cgi as njas sequences eisA.cgi Anum A010060",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "flipSeq",
           "normalized": "Int-\u003e[Int]",
@@ -3027,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "fraction",
           "package": "streamed",
@@ -3036,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "fraction",
           "normalized": "a-\u003ea",
@@ -3050,6 +3310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "fullTrie",
           "package": "streamed",
@@ -3059,6 +3320,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "fullTrie",
           "normalized": "a-\u003e[b]-\u003eInt-\u003eTrie b a",
@@ -3074,6 +3336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "immediateBundle",
           "package": "streamed",
@@ -3083,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "immediateBundle",
           "normalized": "[a]-\u003eBundle a",
@@ -3098,6 +3362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "incTime",
           "package": "streamed",
@@ -3107,6 +3372,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "incTime",
           "normalized": "Time-\u003eTimeAbs-\u003eTimeAbs",
@@ -3122,6 +3388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "increasePitch",
           "package": "streamed",
@@ -3131,6 +3398,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "increasePitch",
           "normalized": "Int-\u003ePitch-\u003eMaybe Pitch",
@@ -3146,6 +3414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "init",
           "package": "streamed",
@@ -3155,6 +3424,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "init",
           "package": "streamed",
@@ -3167,6 +3437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "inversions",
           "package": "streamed",
@@ -3176,6 +3447,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "inversions",
           "normalized": "[Double]-\u003ePatternMono Double",
@@ -3190,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "item",
           "package": "streamed",
@@ -3199,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "item",
           "normalized": "a-\u003eInt-\u003eIndexNote a",
@@ -3213,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "lookupWord",
           "package": "streamed",
@@ -3222,6 +3497,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "lookupWord",
           "normalized": "[a]-\u003eTrie a b-\u003eMaybe b",
@@ -3237,6 +3513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "makeEcho",
           "package": "streamed",
@@ -3246,6 +3523,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "makeEcho",
           "normalized": "Handle-\u003eTimeAbs-\u003eCustom-\u003eT",
@@ -3261,6 +3539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "makeEvent",
           "package": "streamed",
@@ -3270,6 +3549,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "makeEvent",
           "normalized": "Handle-\u003eTimeAbs-\u003eData-\u003eT",
@@ -3285,6 +3565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "maybePitch",
           "package": "streamed",
@@ -3294,6 +3575,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "maybePitch",
           "normalized": "Int-\u003eMaybe Pitch",
@@ -3309,6 +3591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "mergeEither",
           "package": "streamed",
@@ -3318,6 +3601,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "mergeEither",
           "normalized": "T a b-\u003eT a c-\u003eT a(Either b c)",
@@ -3333,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "mergeStable",
           "package": "streamed",
@@ -3342,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "mergeStable",
           "normalized": "T a b-\u003eT a b-\u003eT a b",
@@ -3357,6 +3643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nano",
           "package": "streamed",
@@ -3366,6 +3653,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nano",
           "package": "streamed",
@@ -3378,6 +3666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nextProgram",
           "package": "streamed",
@@ -3387,6 +3676,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nextProgram",
           "normalized": "Note-\u003eState[Program][Data]",
@@ -3402,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "normalVelocity",
           "package": "streamed",
@@ -3411,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "normalVelocity",
           "package": "streamed",
@@ -3424,6 +3716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nullTrie",
           "package": "streamed",
@@ -3433,6 +3726,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "nullTrie",
           "normalized": "Trie a[b]-\u003eBool",
@@ -3448,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "outputEvent",
           "package": "streamed",
@@ -3457,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "outputEvent",
           "normalized": "TimeAbs-\u003eData-\u003eReaderT Handle IO()",
@@ -3472,6 +3768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pingPong",
           "package": "streamed",
@@ -3481,6 +3778,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pingPong",
           "normalized": "Int-\u003ePatternMono Int",
@@ -3496,6 +3794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pingPongAuto",
           "package": "streamed",
@@ -3505,6 +3804,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pingPongAuto",
           "package": "streamed",
@@ -3518,6 +3818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pitch",
           "package": "streamed",
@@ -3527,6 +3828,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "pitch",
           "normalized": "Int-\u003ePitch",
@@ -3541,6 +3843,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "portPrivate",
           "package": "streamed",
@@ -3550,6 +3853,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "portPrivate",
           "package": "streamed",
@@ -3563,6 +3867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "portPublic",
           "package": "streamed",
@@ -3572,6 +3877,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "portPublic",
           "package": "streamed",
@@ -3586,6 +3892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute \u003ccode\u003ebase ** expo\u003c/code\u003e\napproximately to result type \u003ccode\u003e\u003ca\u003eRational\u003c/a\u003e\u003c/code\u003e\nsuch that the result has a denominator which is a power of \u003ccode\u003edigitBase\u003c/code\u003e\nand a relative precision of numerator of \u003ccode\u003eprecision\u003c/code\u003e digits\nwith respect to \u003ccode\u003edigitBase\u003c/code\u003e-ary numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "powerRationalFromFloat",
           "package": "streamed",
@@ -3596,6 +3903,7 @@
         "index": {
           "description": "Compute base expo approximately to result type Rational such that the result has denominator which is power of digitBase and relative precision of numerator of precision digits with respect to digitBase ary numbers",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "powerRationalFromFloat",
           "normalized": "Int-\u003eInt-\u003ea-\u003ea-\u003eRational",
@@ -3611,6 +3919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "program",
           "package": "streamed",
@@ -3620,6 +3929,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "program",
           "normalized": "Int-\u003eProgram",
@@ -3634,6 +3944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "programFromBanks",
           "package": "streamed",
@@ -3643,6 +3954,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "programFromBanks",
           "normalized": "[Int]-\u003e[Int]-\u003eInt",
@@ -3659,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterpret program changes as a kind of bank switches\nin order to increase the range of instruments\nthat can be selected via a block of patch select buttons.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003eprogramAsBanks ns\u003c/code\u003e divides the first \u003ccode\u003esum ns\u003c/code\u003e instruments\ninto sections of sizes \u003ccode\u003ens!!0, ns!!1, ...\u003c/code\u003e.\nEach program in those sections is interpreted as a bank in a hierarchy,\nwhere the lower program numbers are the least significant banks.\nPrograms from \u003ccode\u003esum ns\u003c/code\u003e on are passed through as they are.\n\u003ccode\u003eproduct ns\u003c/code\u003e is the number of instruments\nthat you can address using this trick.\nIn order to avoid overflow it should be less than 128.\n\u003c/p\u003e\u003cp\u003eE.g. \u003ccode\u003eprogramAsBanks [n,m]\u003c/code\u003e interprets subsequent program changes to\n\u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e0\u003c=a\u003cn\u003c/code\u003e) and \u003ccode\u003en+b\u003c/code\u003e (\u003ccode\u003e0\u003c=b\u003cm\u003c/code\u003e)\nas a program change to \u003ccode\u003eb*n+a\u003c/code\u003e.\n\u003ccode\u003eprogramAsBanks [8,8]\u003c/code\u003e allows to select 64 instruments\nby 16 program change buttons,\nwhereas \u003ccode\u003eprogramAsBanks [8,4,4]\u003c/code\u003e\nallows to address the full range of MIDI 128 instruments\nwith the same number of buttons.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "programsAsBanks",
           "package": "streamed",
@@ -3669,6 +3982,7 @@
         "index": {
           "description": "Interpret program changes as kind of bank switches in order to increase the range of instruments that can be selected via block of patch select buttons programAsBanks ns divides the first sum ns instruments into sections of sizes ns ns Each program in those sections is interpreted as bank in hierarchy where the lower program numbers are the least significant banks Programs from sum ns on are passed through as they are product ns is the number of instruments that you can address using this trick In order to avoid overflow it should be less than E.g programAsBanks interprets subsequent program changes to and as program change to programAsBanks allows to select instruments by program change buttons whereas programAsBanks allows to address the full range of MIDI instruments with the same number of buttons",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "programsAsBanks",
           "normalized": "[Int]-\u003eData-\u003eState[Int]Data",
@@ -3684,6 +3998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "queue",
           "package": "streamed",
@@ -3693,6 +4008,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "queue",
           "package": "streamed",
@@ -3705,6 +4021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "random",
           "package": "streamed",
@@ -3714,6 +4031,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "random",
           "package": "streamed",
@@ -3726,6 +4044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "randomInversions",
           "package": "streamed",
@@ -3735,6 +4054,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "randomInversions",
           "package": "streamed",
@@ -3748,6 +4068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "reduceNoteVelocity",
           "package": "streamed",
@@ -3757,6 +4078,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "reduceNoteVelocity",
           "normalized": "Word-\u003eNote-\u003eNote",
@@ -3773,6 +4095,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e \u003e replaceProgram [1,2,3,4] 5 [10,11,12,13]\n (True,[10,11,2,13])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "replaceProgram",
           "package": "streamed",
@@ -3783,6 +4106,7 @@
         "index": {
           "description": "replaceProgram True",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "replaceProgram",
           "normalized": "[Int]-\u003eInt-\u003e[Int]-\u003e(Bool,[Int])",
@@ -3799,6 +4123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwap order of keys.\nNon-note events are returned without modification.\nIf by reversing a note leaves the range of representable MIDI notes,\nthen we return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "reverse",
           "package": "streamed",
@@ -3809,6 +4134,7 @@
         "index": {
           "description": "Swap order of keys Non-note events are returned without modification If by reversing note leaves the range of representable MIDI notes then we return Nothing",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "reverse",
           "normalized": "Data-\u003eMaybe Data",
@@ -3823,6 +4149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromChord",
           "package": "streamed",
@@ -3832,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromChord",
           "normalized": "Integer-\u003eTime-\u003eKeyQueue-\u003eEventDataBundle",
@@ -3847,6 +4175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromChordRatio",
           "package": "streamed",
@@ -3856,6 +4185,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromChordRatio",
           "normalized": "Double-\u003eTime-\u003eKeyQueue-\u003eEventDataBundle",
@@ -3871,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromLimittedChord",
           "package": "streamed",
@@ -3880,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromLimittedChord",
           "normalized": "Int-\u003eTime-\u003eKeyQueue-\u003eEventDataBundle",
@@ -3896,6 +4228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate notes according to the key set,\nwhere notes for negative and too large indices\nare padded with keys that are transposed by octaves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromOctaveChord",
           "package": "streamed",
@@ -3906,6 +4239,7 @@
         "index": {
           "description": "Generate notes according to the key set where notes for negative and too large indices are padded with keys that are transposed by octaves",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectFromOctaveChord",
           "normalized": "Int-\u003eTime-\u003eKeyQueue-\u003eEventDataBundle",
@@ -3921,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectInversion",
           "package": "streamed",
@@ -3930,6 +4265,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "selectInversion",
           "normalized": "Double-\u003eTime-\u003eKeyQueue-\u003eEventDataBundle",
@@ -3945,6 +4281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendController",
           "package": "streamed",
@@ -3954,6 +4291,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendController",
           "normalized": "Channel-\u003eController-\u003eInt-\u003eReaderT Handle IO()",
@@ -3969,6 +4307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendKey",
           "package": "streamed",
@@ -3978,6 +4317,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendKey",
           "normalized": "Channel-\u003eBool-\u003eVelocity-\u003ePitch-\u003eReaderT Handle IO()",
@@ -3993,6 +4333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendMode",
           "package": "streamed",
@@ -4002,6 +4343,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendMode",
           "normalized": "Channel-\u003eT-\u003eReaderT Handle IO()",
@@ -4017,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendNote",
           "package": "streamed",
@@ -4026,6 +4369,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendNote",
           "normalized": "Channel-\u003eTime-\u003eVelocity-\u003ePitch-\u003eReaderT Handle IO()",
@@ -4041,6 +4385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendProgram",
           "package": "streamed",
@@ -4050,6 +4395,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sendProgram",
           "normalized": "Channel-\u003eProgram-\u003eReaderT Handle IO()",
@@ -4065,6 +4411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sequ",
           "package": "streamed",
@@ -4074,6 +4421,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sequ",
           "package": "streamed",
@@ -4086,6 +4434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "setChannel",
           "package": "streamed",
@@ -4095,6 +4444,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "setChannel",
           "normalized": "Channel-\u003eData-\u003eData",
@@ -4111,6 +4461,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emake ALSA set the time stamps in incoming events\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "setTimeStamping",
           "package": "streamed",
@@ -4121,6 +4472,7 @@
         "index": {
           "description": "make ALSA set the time stamps in incoming events",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "setTimeStamping",
           "normalized": "ReaderT Handle IO()",
@@ -4136,6 +4488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "simpleNote",
           "package": "streamed",
@@ -4145,6 +4498,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "simpleNote",
           "normalized": "Channel-\u003ePitch-\u003eVelocity-\u003eNote",
@@ -4160,6 +4514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "singletonBundle",
           "package": "streamed",
@@ -4169,6 +4524,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "singletonBundle",
           "normalized": "a-\u003eBundle a",
@@ -4184,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "startQueue",
           "package": "streamed",
@@ -4193,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "startQueue",
           "normalized": "ReaderT Handle IO()",
@@ -4208,6 +4566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepCenter",
           "package": "streamed",
@@ -4217,6 +4576,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepCenter",
           "package": "streamed",
@@ -4230,6 +4590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepDepth",
           "package": "streamed",
@@ -4239,6 +4600,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepDepth",
           "package": "streamed",
@@ -4252,6 +4614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepPhase",
           "package": "streamed",
@@ -4261,6 +4624,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepPhase",
           "package": "streamed",
@@ -4274,6 +4638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepSpeed",
           "package": "streamed",
@@ -4283,6 +4648,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "sweepSpeed",
           "package": "streamed",
@@ -4296,6 +4662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "testBruijn",
           "package": "streamed",
@@ -4305,6 +4672,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "testBruijn",
           "normalized": "Int-\u003eInt-\u003e[Int]-\u003eBool",
@@ -4320,6 +4688,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "testBruijnAll",
           "package": "streamed",
@@ -4329,6 +4698,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "testBruijnAll",
           "normalized": "Int-\u003eInt-\u003eBool",
@@ -4344,6 +4714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "timeFromStamp",
           "package": "streamed",
@@ -4353,6 +4724,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "timeFromStamp",
           "normalized": "TimeStamp-\u003eTime",
@@ -4369,6 +4741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranspose a note event by the given number of semitones.\nNon-note events are returned without modification.\nIf by transposition a note leaves the range of representable MIDI notes,\nthen we return Nothing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "transpose",
           "package": "streamed",
@@ -4379,6 +4752,7 @@
         "index": {
           "description": "Transpose note event by the given number of semitones Non-note events are returned without modification If by transposition note leaves the range of representable MIDI notes then we return Nothing",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "transpose",
           "normalized": "Int-\u003eData-\u003eMaybe Data",
@@ -4394,6 +4768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBefore every note switch to another instrument\naccording to a list of programs given as state of the State monad.\nI do not know how to handle multiple channels in a reasonable way.\nCurrently I just switch the instrument independent from the channel,\nand send the program switch to the same channel as the beginning note.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "traversePrograms",
           "package": "streamed",
@@ -4404,6 +4779,7 @@
         "index": {
           "description": "Before every note switch to another instrument according to list of programs given as state of the State monad do not know how to handle multiple channels in reasonable way Currently just switch the instrument independent from the channel and send the program switch to the same channel as the beginning note",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "traversePrograms",
           "normalized": "Data-\u003eState[Program][Data]",
@@ -4420,6 +4796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function extends \u003ccode\u003e\u003ca\u003etraversePrograms\u003c/a\u003e\u003c/code\u003e.\nIt reacts on external program changes\nby seeking an according program in the list.\nThis way we can reset the pointer into the instrument list.\nHowever the search must be limited in order to prevent an infinite loop\nif we receive a program that is not contained in the list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "traverseProgramsSeek",
           "package": "streamed",
@@ -4430,6 +4807,7 @@
         "index": {
           "description": "This function extends traversePrograms It reacts on external program changes by seeking an according program in the list This way we can reset the pointer into the instrument list However the search must be limited in order to prevent an infinite loop if we receive program that is not contained in the list",
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "traverseProgramsSeek",
           "normalized": "Int-\u003eData-\u003eState[Program][Data]",
@@ -4445,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateChord",
           "package": "streamed",
@@ -4454,6 +4833,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateChord",
           "normalized": "NoteEv-\u003eNote-\u003eKeySet-\u003eKeySet",
@@ -4469,6 +4849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDur",
           "package": "streamed",
@@ -4478,6 +4859,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDur",
           "normalized": "Ctrl-\u003e(Time,Time)-\u003eTime",
@@ -4493,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDurExponential",
           "package": "streamed",
@@ -4502,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDurExponential",
           "normalized": "Ctrl-\u003e(Time,Time)-\u003eTime",
@@ -4517,6 +4901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDurLinear",
           "package": "streamed",
@@ -4526,6 +4911,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "updateDurLinear",
           "normalized": "Ctrl-\u003e(Time,Time)-\u003eTime",
@@ -4541,6 +4927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "velocity",
           "package": "streamed",
@@ -4550,6 +4937,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "velocity",
           "normalized": "Int-\u003eVelocity",
@@ -4564,6 +4952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "with",
           "package": "streamed",
@@ -4573,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Common",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Common",
           "name": "with",
           "normalized": "ReaderT Handle IO a-\u003eIO a",
@@ -4587,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "EventList",
           "package": "streamed",
@@ -4595,6 +4986,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "EventList",
           "package": "streamed",
@@ -4608,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "EventDataTrigger",
           "package": "streamed",
@@ -4616,6 +5009,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "EventDataTrigger",
           "package": "streamed",
@@ -4629,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Pattern",
           "package": "streamed",
@@ -4637,6 +5032,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Pattern",
           "package": "streamed",
@@ -4650,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Trigger",
           "package": "streamed",
@@ -4658,6 +5055,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Trigger",
           "package": "streamed",
@@ -4671,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Regular",
           "package": "streamed",
@@ -4680,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Regular",
           "package": "streamed",
@@ -4693,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Trigger",
           "package": "streamed",
@@ -4702,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "Trigger",
           "package": "streamed",
@@ -4715,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "equidistantEvents",
           "package": "streamed",
@@ -4724,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "equidistantEvents",
           "normalized": "Time-\u003e[a]-\u003eT Time a",
@@ -4740,6 +5144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe function maintains empty bundles\nin order to maintain laziness breaks.\nThese breaks are import for later merging of the streams.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "filter",
           "package": "streamed",
@@ -4750,6 +5155,7 @@
         "index": {
           "description": "The function maintains empty bundles in order to maintain laziness breaks These breaks are import for later merging of the streams",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "filter",
           "normalized": "(a-\u003eBool)-\u003eState(T Time(Bundle a))(T Time(Bundle a))",
@@ -4764,6 +5170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "filterSimple",
           "package": "streamed",
@@ -4773,6 +5180,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "filterSimple",
           "normalized": "(a-\u003eBool)-\u003eT Time(Bundle a)-\u003eT Time(Bundle a)",
@@ -4788,6 +5196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "inputEvents",
           "package": "streamed",
@@ -4797,6 +5206,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "inputEvents",
           "package": "streamed",
@@ -4810,6 +5220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "inputEventsCore",
           "package": "streamed",
@@ -4819,6 +5230,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "inputEventsCore",
           "normalized": "ReaderT Handle IO[T]",
@@ -4834,6 +5246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "ioToLazyList",
           "package": "streamed",
@@ -4843,6 +5256,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "ioToLazyList",
           "normalized": "IO a-\u003eIO[a]",
@@ -4858,6 +5272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "main",
           "package": "streamed",
@@ -4867,6 +5282,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "main",
           "normalized": "IO()",
@@ -4881,6 +5297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "makeTriggerEvent",
           "package": "streamed",
@@ -4890,6 +5307,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "makeTriggerEvent",
           "normalized": "Handle-\u003eTimeAbs-\u003eTrigger Data-\u003eT",
@@ -4905,6 +5323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "makeTriggerEvents",
           "package": "streamed",
@@ -4914,6 +5333,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "makeTriggerEvents",
           "normalized": "Handle-\u003eTimeAbs-\u003eEventDataTrigger-\u003e[T]",
@@ -4929,6 +5349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "merge",
           "package": "streamed",
@@ -4938,6 +5359,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "merge",
           "normalized": "T Time(Bundle a)-\u003eT Time(Bundle a)-\u003eT Time(Bundle a)",
@@ -4952,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "mergeGenerated",
           "package": "streamed",
@@ -4961,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "mergeGenerated",
           "normalized": "T Time(Bundle a)-\u003eT Time(Bundle a)-\u003eT Time(Bundle(Trigger a))",
@@ -4976,6 +5400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "mergeGeneratedAtoms",
           "package": "streamed",
@@ -4985,6 +5410,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "mergeGeneratedAtoms",
           "normalized": "(Time-\u003ea)-\u003eT Time a-\u003eT Time a-\u003eT Time a",
@@ -5000,6 +5426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEventBundled",
           "package": "streamed",
@@ -5009,6 +5436,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEventBundled",
           "normalized": "T Time EventDataBundle-\u003eReaderT Handle IO()",
@@ -5025,6 +5453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends (drain) each event individually\nsince the events in the bundle might be created in a lazy manner.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEventBundles",
           "package": "streamed",
@@ -5035,6 +5464,7 @@
         "index": {
           "description": "Sends drain each event individually since the events in the bundle might be created in lazy manner",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEventBundles",
           "normalized": "T Time EventDataBundle-\u003eReaderT Handle IO()",
@@ -5050,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEvents",
           "package": "streamed",
@@ -5059,6 +5490,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputEvents",
           "normalized": "T Time Data-\u003eReaderT Handle IO()",
@@ -5075,6 +5507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function distinguishes between events from portIn\nand events that are generated by us.\nOur generated events must also send an echo to the input port\nin order to break \u003ccode\u003eevent_input\u003c/code\u003e and thus trigger their delivery.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputTriggerEvents",
           "package": "streamed",
@@ -5085,6 +5518,7 @@
         "index": {
           "description": "This function distinguishes between events from portIn and events that are generated by us Our generated events must also send an echo to the input port in order to break event input and thus trigger their delivery",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "outputTriggerEvents",
           "normalized": "T Time EventDataTrigger-\u003eReaderT Handle IO()",
@@ -5100,6 +5534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "pairListFromRelativeEvents",
           "package": "streamed",
@@ -5109,6 +5544,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "pairListFromRelativeEvents",
           "normalized": "T Time a-\u003e[(TimeAbs,a)]",
@@ -5124,6 +5560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternMono",
           "package": "streamed",
@@ -5133,6 +5570,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternMono",
           "normalized": "PatternMono a-\u003eTime-\u003eT Time Data-\u003eT Time EventDataTrigger",
@@ -5148,6 +5586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternMonoTempo",
           "package": "streamed",
@@ -5157,6 +5596,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternMonoTempo",
           "normalized": "PatternMono a-\u003e((Channel,Controller),(Time,Time,Time))-\u003eT Time Data-\u003eT Time EventDataTrigger",
@@ -5173,6 +5613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis allows more complex patterns including pauses,\nnotes of different lengths and simultaneous notes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternPolyTempo",
           "package": "streamed",
@@ -5183,6 +5624,7 @@
         "index": {
           "description": "This allows more complex patterns including pauses notes of different lengths and simultaneous notes",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternPolyTempo",
           "normalized": "PatternPoly a-\u003e((Channel,Controller),(Time,Time,Time))-\u003eT Time Data-\u003eT Time EventDataTrigger",
@@ -5198,6 +5640,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternTempo",
           "package": "streamed",
@@ -5207,6 +5650,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "patternTempo",
           "normalized": "a-\u003e((Channel,Controller),(Time,Time,Time))-\u003eT Time Data-\u003eT Time EventDataTrigger",
@@ -5222,6 +5666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "process",
           "package": "streamed",
@@ -5231,6 +5676,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "process",
           "normalized": "(T Time Data-\u003eT Time EventDataTrigger)-\u003eReaderT Handle IO()",
@@ -5245,6 +5691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "processSimple",
           "package": "streamed",
@@ -5254,6 +5701,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "processSimple",
           "normalized": "(T Time Data-\u003eT Time EventDataBundle)-\u003eReaderT Handle IO()",
@@ -5270,6 +5718,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e runCyclePrograms (map VoiceMsg.toProgram [8..12])\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runCyclePrograms",
           "package": "streamed",
@@ -5280,6 +5729,7 @@
         "index": {
           "description": "runCyclePrograms map VoiceMsg.toProgram",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runCyclePrograms",
           "normalized": "[Program]-\u003eReaderT Handle IO()",
@@ -5295,6 +5745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runDelay",
           "package": "streamed",
@@ -5304,6 +5755,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runDelay",
           "normalized": "ReaderT Handle IO()",
@@ -5319,6 +5771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runFilterSweep",
           "package": "streamed",
@@ -5328,6 +5781,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runFilterSweep",
           "normalized": "ReaderT Handle IO()",
@@ -5343,6 +5797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplit",
           "package": "streamed",
@@ -5352,6 +5807,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplit",
           "normalized": "ReaderT Handle IO()",
@@ -5367,6 +5823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplitHigh",
           "package": "streamed",
@@ -5376,6 +5833,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplitHigh",
           "normalized": "ReaderT Handle IO()",
@@ -5391,6 +5849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplitLow",
           "package": "streamed",
@@ -5400,6 +5859,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runKeyboardSplitLow",
           "normalized": "ReaderT Handle IO()",
@@ -5416,6 +5876,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e runPattern 0.12 (cycleUp 4)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runPattern",
           "package": "streamed",
@@ -5426,6 +5887,7 @@
         "index": {
           "description": "runPattern cycleUp",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runPattern",
           "normalized": "Time-\u003ePatternMono a-\u003eReaderT Handle IO()",
@@ -5442,6 +5904,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e runPatternTempo 0.12 (cycleUp 4)\n\u003c/pre\u003e\u003cpre\u003e runPatternTempo 0.2 (PatternMono selectFromOctaveChord (cycle [0,1,2,0,1,2,0,1]))\n\u003c/pre\u003e\u003cpre\u003e runPatternTempo 0.1 (PatternPoly selectFromLimittedChord (let pat = [item 0 1] ./ 1 /. [item 1 1] ./ 2 /. [item 1 1] ./ 1 /. [item 0 1] ./ 2 /. pat in 0 /. pat))\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runPatternTempo",
           "package": "streamed",
@@ -5452,6 +5915,7 @@
         "index": {
           "description": "runPatternTempo cycleUp runPatternTempo PatternMono selectFromOctaveChord cycle runPatternTempo PatternPoly selectFromLimittedChord let pat item item item item pat in pat",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runPatternTempo",
           "normalized": "Time-\u003ea-\u003eReaderT Handle IO()",
@@ -5468,6 +5932,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003e runProgramsAsBanks [8,4,4]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runProgramsAsBanks",
           "package": "streamed",
@@ -5478,6 +5943,7 @@
         "index": {
           "description": "runProgramsAsBanks",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runProgramsAsBanks",
           "normalized": "[Int]-\u003eReaderT Handle IO()",
@@ -5493,6 +5959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runWhirl",
           "package": "streamed",
@@ -5502,6 +5969,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "runWhirl",
           "normalized": "ReaderT Handle IO()",
@@ -5518,6 +5986,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAutomatically changes the value of a MIDI controller\nevery \u003ccode\u003eperiod\u003c/code\u003e seconds according to a periodic wave.\nThe wave function is a mapping\nfrom the phase in \u003ccode\u003e[0,1)\u003c/code\u003e\nto a controller value in the range \u003ccode\u003e(-1,1)\u003c/code\u003e.\nThe generation of the wave is controlled by a speed controller\n(\u003ccode\u003eminSpeed\u003c/code\u003e and \u003ccode\u003emaxSpeed\u003c/code\u003e are in waves per second),\nthe modulation depth and the center value.\nThe center controller is also the one where we emit our wave.\nThat is, when modulation depth is zero\nthen this effect is almost the same\nas forwarding the controller without modification.\nThe small difference is, that we emit a controller value at a regular patternMono,\nwhereas direct control would mean\nthat only controller value changes are transfered.\n\u003c/p\u003e\u003cpre\u003e sweep channel\n    period (speedCtrl, (minSpeed, maxSpeed)) depthCtrl centerCtrl\n    (ctrlRange (-1,1) (sin . (2*pi*)))\n\u003c/pre\u003e\u003cp\u003eWe could use the nice Wave abstraction from the synthesizer package,\nbut that's a heavy dependency because of multi-parameter type classes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "sweep",
           "package": "streamed",
@@ -5528,6 +5997,7 @@
         "index": {
           "description": "Automatically changes the value of MIDI controller every period seconds according to periodic wave The wave function is mapping from the phase in to controller value in the range The generation of the wave is controlled by speed controller minSpeed and maxSpeed are in waves per second the modulation depth and the center value The center controller is also the one where we emit our wave That is when modulation depth is zero then this effect is almost the same as forwarding the controller without modification The small difference is that we emit controller value at regular patternMono whereas direct control would mean that only controller value changes are transfered sweep channel period speedCtrl minSpeed maxSpeed depthCtrl centerCtrl ctrlRange sin pi We could use the nice Wave abstraction from the synthesizer package but that heavy dependency because of multi-parameter type classes",
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "sweep",
           "normalized": "Channel-\u003eTime-\u003e(Controller,(Time,Time))-\u003eController-\u003eController-\u003e(Double-\u003eDouble)-\u003eT Time Data-\u003eT Time EventDataTrigger",
@@ -5542,6 +6012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "whirl",
           "package": "streamed",
@@ -5551,6 +6022,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA EventList",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.EventList",
           "name": "whirl",
           "package": "streamed",
@@ -5563,6 +6035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "Guitar",
           "package": "streamed",
@@ -5571,6 +6044,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "Guitar",
           "package": "streamed",
@@ -5584,6 +6058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "Transpose",
           "package": "streamed",
@@ -5592,6 +6067,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "Transpose",
           "package": "streamed",
@@ -5605,6 +6081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "choosePitchForString",
           "package": "streamed",
@@ -5614,6 +6091,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "choosePitchForString",
           "normalized": "[a]-\u003ePitch-\u003eMaybe a",
@@ -5629,6 +6107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "getPitch",
           "package": "streamed",
@@ -5638,6 +6117,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "getPitch",
           "normalized": "a-\u003eInt",
@@ -5653,6 +6133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "mapChordToString",
           "package": "streamed",
@@ -5662,6 +6143,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "mapChordToString",
           "normalized": "[Pitch]-\u003e[a]-\u003e[a]",
@@ -5677,6 +6159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "stringPitches",
           "package": "streamed",
@@ -5686,6 +6169,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "stringPitches",
           "normalized": "[Pitch]",
@@ -5701,6 +6185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "transpose",
           "package": "streamed",
@@ -5710,6 +6195,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Guitar",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Guitar",
           "name": "transpose",
           "normalized": "Int-\u003ea-\u003eMaybe a",
@@ -5724,6 +6210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "Training",
           "package": "streamed",
@@ -5732,6 +6219,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "Training",
           "package": "streamed",
@@ -5745,6 +6233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "all",
           "package": "streamed",
@@ -5754,6 +6243,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "all",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5769,6 +6259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eintervals within an octave, all starting with a C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "intervals",
           "package": "streamed",
@@ -5779,6 +6270,7 @@
         "index": {
           "description": "intervals within an octave all starting with",
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "intervals",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5793,6 +6285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "reverseThreeNotes",
           "package": "streamed",
@@ -5802,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "reverseThreeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5817,6 +6311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "sortThreeNotes",
           "package": "streamed",
@@ -5826,6 +6321,7 @@
         },
         "index": {
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "sortThreeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5842,6 +6338,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoose three arbitrary notes from an increasing set of notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "threeNotes",
           "package": "streamed",
@@ -5852,6 +6349,7 @@
         "index": {
           "description": "choose three arbitrary notes from an increasing set of notes",
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "threeNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5868,6 +6366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etranspose an interval to begin with C\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "transposeTwoNotes",
           "package": "streamed",
@@ -5878,6 +6377,7 @@
         "index": {
           "description": "transpose an interval to begin with",
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "transposeTwoNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",
@@ -5894,6 +6394,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echoose two arbitrary notes from an increasing set of notes\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:12:04 UTC 2014",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "twoNotes",
           "package": "streamed",
@@ -5904,6 +6405,7 @@
         "index": {
           "description": "choose two arbitrary notes from an increasing set of notes",
           "hierarchy": "Sound MIDI ALSA Training",
+          "indexed": "2014-03-11T20:12:04",
           "module": "Sound.MIDI.ALSA.Training",
           "name": "twoNotes",
           "normalized": "a-\u003e[([Pitch],[Pitch])]",

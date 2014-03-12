@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "ixdopp"
+        "phrase": "ixdopp",
+        "type": "phrase"
       },
       "type": "context"
     }

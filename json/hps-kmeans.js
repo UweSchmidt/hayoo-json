@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hps-kmeans"
+        "phrase": "hps-kmeans",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "KMeans",
           "package": "hps-kmeans",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "KMeans",
           "package": "hps-kmeans",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign Points to a Cluster based on the Minimum distance to each Center\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "assignCluster",
           "package": "hps-kmeans",
@@ -50,6 +53,7 @@
         "index": {
           "description": "Assign Points to Cluster based on the Minimum distance to each Center",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "assignCluster",
           "normalized": "Vector(Vector a)-\u003eVector Int",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculates the Center of a Cloud of Points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "cloudCenter",
           "package": "hps-kmeans",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Calculates the Center of Cloud of Points",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "cloudCenter",
           "normalized": "Vector(Vector a)-\u003eVector a",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDistance from a Point to a set of Centers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "distanceToCenters",
           "package": "hps-kmeans",
@@ -102,6 +109,7 @@
         "index": {
           "description": "Distance from Point to set of Centers",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "distanceToCenters",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector b-\u003ea-\u003eVector c",
@@ -118,6 +126,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEuclidean Distance between two points\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "euclideanDist",
           "package": "hps-kmeans",
@@ -128,6 +137,7 @@
         "index": {
           "description": "Euclidean Distance between two points",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "euclideanDist",
           "normalized": "Vector a-\u003eVector a-\u003ea",
@@ -144,6 +154,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ek-Means classifier for a given Distance, Variation Guard and Cloud\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "kMeans",
           "package": "hps-kmeans",
@@ -154,6 +165,7 @@
         "index": {
           "description": "k-Means classifier for given Distance Variation Guard and Cloud",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "kMeans",
           "normalized": "(Vector a-\u003eVector a-\u003ea)-\u003ea-\u003eVector(Vector a)-\u003eVector(Vector a)-\u003eVector(Vector a)",
@@ -170,6 +182,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelects elements of a Vector given its indices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:45:14 UTC 2014",
           "module": "Math.Statistics.KMeans",
           "name": "selectFrom",
           "package": "hps-kmeans",
@@ -180,6 +193,7 @@
         "index": {
           "description": "Selects elements of Vector given its indices",
           "hierarchy": "Math Statistics KMeans",
+          "indexed": "2014-03-11T18:45:14",
           "module": "Math.Statistics.KMeans",
           "name": "selectFrom",
           "normalized": "Vector a-\u003eVector Int-\u003eVector a",

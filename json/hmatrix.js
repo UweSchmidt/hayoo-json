@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix"
+        "phrase": "hmatrix",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe library can be easily extended with additional foreign functions\n using the tools in this module. Illustrative usage examples can be found\n in the \u003ccode\u003eexamples/devel\u003c/code\u003e folder included in the package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "Development",
           "package": "hmatrix",
@@ -28,6 +29,7 @@
         "index": {
           "description": "The library can be easily extended with additional foreign functions using the tools in this module Illustrative usage examples can be found in the examples devel folder included in the package",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "Development",
           "package": "hmatrix",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "MatrixOrder",
           "package": "hmatrix",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "MatrixOrder",
           "package": "hmatrix",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epostfix function application (\u003ccode\u003eflip ($)\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "(//)",
           "package": "hmatrix",
@@ -73,6 +78,7 @@
         "index": {
           "description": "postfix function application flip",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "(//) //",
           "normalized": "a-\u003e(a-\u003eb)-\u003eb",
@@ -87,6 +93,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "ColumnMajor",
           "package": "hmatrix",
@@ -96,6 +103,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "ColumnMajor",
           "package": "hmatrix",
@@ -109,6 +117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "RowMajor",
           "package": "hmatrix",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "RowMajor",
           "package": "hmatrix",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app1",
           "package": "hmatrix",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app1",
           "normalized": "a-\u003eAdapt a b",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app10",
           "package": "hmatrix",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app10",
           "normalized": "a-\u003eAdapt a b c b c b c b c b c b c b c b c b c b",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app2",
           "package": "hmatrix",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app2",
           "normalized": "a-\u003eAdapt a b c b",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app3",
           "package": "hmatrix",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app3",
           "normalized": "a-\u003eAdapt a b c b c b",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app4",
           "package": "hmatrix",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app4",
           "normalized": "a-\u003eAdapt a b c b c b c b",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app5",
           "package": "hmatrix",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app5",
           "normalized": "a-\u003eAdapt a b c b c b c b c b",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app6",
           "package": "hmatrix",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app6",
           "normalized": "a-\u003eAdapt a b c b c b c b c b c b",
@@ -292,6 +316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app7",
           "package": "hmatrix",
@@ -301,6 +326,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app7",
           "normalized": "a-\u003eAdapt a b c b c b c b c b c b c b",
@@ -315,6 +341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app8",
           "package": "hmatrix",
@@ -324,6 +351,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app8",
           "normalized": "a-\u003eAdapt a b c b c b c b c b c b c b c b",
@@ -338,6 +366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "app9",
           "package": "hmatrix",
@@ -347,6 +376,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "app9",
           "normalized": "a-\u003eAdapt a b c b c b c b c b c b c b c b c b",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eaccess to Vector elements without range checking\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "at'",
           "package": "hmatrix",
@@ -372,6 +403,7 @@
         "index": {
           "description": "access to Vector elements without range checking",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "at'",
           "normalized": "Vector a-\u003eInt-\u003ea",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "atM'",
           "package": "hmatrix",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "atM'",
           "normalized": "Matrix a-\u003eInt-\u003eInt-\u003ea",
@@ -411,6 +445,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003echeck the error code\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "check",
           "package": "hmatrix",
@@ -421,6 +456,7 @@
         "index": {
           "description": "check the error code",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "check",
           "normalized": "String-\u003eIO CInt-\u003eIO()",
@@ -435,6 +471,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "cmat",
           "package": "hmatrix",
@@ -444,6 +481,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "cmat",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -458,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "createMatrix",
           "package": "hmatrix",
@@ -467,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "createMatrix",
           "normalized": "MatrixOrder-\u003eInt-\u003eInt-\u003eIO(Matrix a)",
@@ -482,6 +522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "createVector",
           "package": "hmatrix",
@@ -491,6 +532,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "createVector",
           "normalized": "Int-\u003eIO(Vector a)",
@@ -506,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "fmat",
           "package": "hmatrix",
@@ -515,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "fmat",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -529,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "mat",
           "package": "hmatrix",
@@ -538,6 +583,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "mat",
           "normalized": "Matrix a-\u003e(((CInt-\u003eCInt-\u003ePtr a-\u003ea)-\u003ea)-\u003eIO b)-\u003eIO b",
@@ -552,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "matrixFromVector",
           "package": "hmatrix",
@@ -561,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "matrixFromVector",
           "normalized": "MatrixOrder-\u003eInt-\u003eVector a-\u003eMatrix a",
@@ -576,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "orderOf",
           "package": "hmatrix",
@@ -585,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "orderOf",
           "normalized": "Matrix a-\u003eMatrixOrder",
@@ -601,6 +651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Create a vector from a \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e with an offset and a length.\n\u003c/p\u003e\u003cp\u003eThe data may not be modified through the \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e afterwards.\n\u003c/p\u003e\u003cp\u003eIf your offset is 0 it is more efficient to use \u003ccode\u003e\u003ca\u003eunsafeFromForeignPtr0\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "unsafeFromForeignPtr",
           "package": "hmatrix",
@@ -610,6 +661,7 @@
         "index": {
           "description": "Create vector from ForeignPtr with an offset and length The data may not be modified through the ForeignPtr afterwards If your offset is it is more efficient to use unsafeFromForeignPtr0",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "unsafeFromForeignPtr",
           "normalized": "ForeignPtr a-\u003eInt-\u003eInt-\u003eVector a",
@@ -626,6 +678,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003cem\u003eO(1)\u003c/em\u003e Yield the underlying \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e together with the offset to the\n data and its length. The data may not be modified through the \u003ccode\u003e\u003ca\u003eForeignPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "unsafeToForeignPtr",
           "package": "hmatrix",
@@ -635,6 +688,7 @@
         "index": {
           "description": "Yield the underlying ForeignPtr together with the offset to the data and its length The data may not be modified through the ForeignPtr",
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "unsafeToForeignPtr",
           "normalized": "Vector a-\u003e(ForeignPtr a,Int,Int)",
@@ -650,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Development",
           "name": "vec",
           "package": "hmatrix",
@@ -659,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Development",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Development",
           "name": "vec",
           "normalized": "Vector a-\u003e(((CInt-\u003ePtr a-\u003ea)-\u003ea)-\u003eIO b)-\u003eIO b",
@@ -674,6 +730,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFFI and hmatrix helpers.\n\u003c/p\u003e\u003cp\u003eSample usage, to upload a perspective matrix to a shader.\n\u003c/p\u003e\u003cpre\u003e glUniformMatrix4fv 0 1 (fromIntegral gl_TRUE) `appMatrix` perspective 0.01 100 (pi/2) (4/3) \n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "Foreign",
           "package": "hmatrix",
@@ -683,6 +740,7 @@
         "index": {
           "description": "FFI and hmatrix helpers Sample usage to upload perspective matrix to shader glUniformMatrix4fv fromIntegral gl TRUE appMatrix perspective pi",
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "Foreign",
           "package": "hmatrix",
@@ -697,6 +755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnly useful since it is left associated with a precedence of 1, unlike \u003ccode\u003e\u003ca\u003e$\u003c/a\u003e\u003c/code\u003e, which is right associative.\n e.g.\n\u003c/p\u003e\u003cpre\u003e\n someFunction\n     `appMatrixLen` m\n     `appVectorLen` v\n     `app` other\n     `app` arguments\n     `app` go here\n\u003c/pre\u003e\u003cp\u003eOne could also write:\n\u003c/p\u003e\u003cpre\u003e\n (someFunction \n     `appMatrixLen` m\n     `appVectorLen` v) \n     other \n     arguments \n     (go here)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "app",
           "package": "hmatrix",
@@ -707,6 +766,7 @@
         "index": {
           "description": "Only useful since it is left associated with precedence of unlike which is right associative e.g someFunction appMatrixLen appVectorLen app other app arguments app go here One could also write someFunction appMatrixLen appVectorLen other arguments go here",
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "app",
           "normalized": "(a-\u003eb)-\u003ea-\u003eb",
@@ -721,6 +781,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appMatrix",
           "package": "hmatrix",
@@ -730,6 +791,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appMatrix",
           "normalized": "(Ptr a-\u003eb)-\u003eMatrix a-\u003eb",
@@ -745,6 +807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixLen",
           "package": "hmatrix",
@@ -754,6 +817,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixLen",
           "normalized": "(CInt-\u003eCInt-\u003ePtr a-\u003eb)-\u003eMatrix a-\u003eb",
@@ -769,6 +833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixRaw",
           "package": "hmatrix",
@@ -778,6 +843,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixRaw",
           "normalized": "(Ptr a-\u003eb)-\u003eMatrix a-\u003eb",
@@ -793,6 +859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixRawLen",
           "package": "hmatrix",
@@ -802,6 +869,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appMatrixRawLen",
           "normalized": "(CInt-\u003eCInt-\u003ePtr a-\u003eb)-\u003eMatrix a-\u003eb",
@@ -817,6 +885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appVector",
           "package": "hmatrix",
@@ -826,6 +895,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appVector",
           "normalized": "(Ptr a-\u003eb)-\u003eVector a-\u003eb",
@@ -841,6 +911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "appVectorLen",
           "package": "hmatrix",
@@ -850,6 +921,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "appVectorLen",
           "normalized": "(CInt-\u003ePtr a-\u003eb)-\u003eVector a-\u003eb",
@@ -865,6 +937,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "unsafeMatrixToForeignPtr",
           "package": "hmatrix",
@@ -874,6 +947,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "unsafeMatrixToForeignPtr",
           "normalized": "Matrix a-\u003e(ForeignPtr a,Int)",
@@ -890,6 +964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will disregard the order of the matrix, and simply return it as-is. \n If the order of the matrix is RowMajor, this function is identical to \u003ccode\u003e\u003ca\u003eflatten\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Foreign",
           "name": "unsafeMatrixToVector",
           "package": "hmatrix",
@@ -900,6 +975,7 @@
         "index": {
           "description": "This will disregard the order of the matrix and simply return it as-is If the order of the matrix is RowMajor this function is identical to flatten",
           "hierarchy": "Data Packed Foreign",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Foreign",
           "name": "unsafeMatrixToVector",
           "normalized": "Matrix a-\u003eVector a",
@@ -916,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Matrix representation suitable for numerical computations using LAPACK and GSL.\n\u003c/p\u003e\u003cp\u003eThis module provides basic functions for manipulation of structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "Matrix",
           "package": "hmatrix",
@@ -925,6 +1002,7 @@
         "index": {
           "description": "Matrix representation suitable for numerical computations using LAPACK and GSL This module provides basic functions for manipulation of structure",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "Matrix",
           "package": "hmatrix",
@@ -939,6 +1017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported matrix elements.\n\u003c/p\u003e\u003cp\u003eThis class provides optimized internal\n    operations for selected element types.\n    It provides unoptimised defaults for any \u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e type,\n    so you can create instances simply as:\n    \u003ccode\u003einstance Element Foo\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "Element",
           "package": "hmatrix",
@@ -948,6 +1027,7 @@
         "index": {
           "description": "Supported matrix elements This class provides optimized internal operations for selected element types It provides unoptimised defaults for any Storable type so you can create instances simply as instance Element Foo",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "Element",
           "package": "hmatrix",
@@ -962,6 +1042,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix representation suitable for GSL and LAPACK computations.\n\u003c/p\u003e\u003cp\u003eThe elements are stored in a continuous memory array.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "Matrix",
           "package": "hmatrix",
@@ -971,6 +1052,7 @@
         "index": {
           "description": "Matrix representation suitable for GSL and LAPACK computations The elements are stored in continuous memory array",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "Matrix",
           "package": "hmatrix",
@@ -985,6 +1067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn easy way to create a matrix:\n\u003c/p\u003e\u003cpre\u003e\u003e (2\u003e\u003c3)[1..6]\n(2\u003e\u003c3)\n [ 1.0, 2.0, 3.0\n , 4.0, 5.0, 6.0 ]\u003c/pre\u003e\u003cp\u003eThis is the format produced by the instances of Show (Matrix a), which\ncan also be used for input.\n\u003c/p\u003e\u003cp\u003eThe input list is explicitly truncated, so that it can\nsafely be used with lists that are too long (like infinite lists).\n\u003c/p\u003e\u003cp\u003eExample:\n\u003c/p\u003e\u003cpre\u003e\u003e (2\u003e\u003c3)[1..]\n(2\u003e\u003c3)\n [ 1.0, 2.0, 3.0\n , 4.0, 5.0, 6.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "(\u003e\u003c)",
           "package": "hmatrix",
@@ -995,6 +1078,7 @@
         "index": {
           "description": "An easy way to create matrix This is the format produced by the instances of Show Matrix which can also be used for input The input list is explicitly truncated so that it can safely be used with lists that are too long like infinite lists Example",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "(\u003e\u003c) \u003e\u003c",
           "normalized": "Int-\u003eInt-\u003e[a]-\u003eMatrix a",
@@ -1010,6 +1094,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a matrix position.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "(@@\u003e)",
           "package": "hmatrix",
@@ -1020,6 +1105,7 @@
         "index": {
           "description": "Reads matrix position",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "(@@\u003e) @@\u003e",
           "normalized": "Matrix a-\u003e(Int,Int)-\u003ea",
@@ -1035,6 +1121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a 1-column matrix from a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "asColumn",
           "package": "hmatrix",
@@ -1045,6 +1132,7 @@
         "index": {
           "description": "creates column matrix from vector",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "asColumn",
           "normalized": "Vector a-\u003eMatrix a",
@@ -1061,6 +1149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a 1-row matrix from a vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "asRow",
           "package": "hmatrix",
@@ -1071,6 +1160,7 @@
         "index": {
           "description": "creates row matrix from vector",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "asRow",
           "normalized": "Vector a-\u003eMatrix a",
@@ -1087,6 +1177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a Matrix of the specified size using the supplied function to\n     to map the row/column position to the value at that row/column position.\n\u003c/p\u003e\u003cpre\u003e\u003e buildMatrix 3 4 (\\(r,c) -\u003e fromIntegral r * fromIntegral c)\n(3\u003e\u003c4)\n [ 0.0, 0.0, 0.0, 0.0, 0.0\n , 0.0, 1.0, 2.0, 3.0, 4.0\n , 0.0, 2.0, 4.0, 6.0, 8.0]\u003c/pre\u003e\u003cp\u003eHilbert matrix of order N:\n\u003c/p\u003e\u003cpre\u003ehilb n = buildMatrix n n (\\(i,j)-\u003e1/(fromIntegral i + fromIntegral j +1))\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "buildMatrix",
           "package": "hmatrix",
@@ -1097,6 +1188,7 @@
         "index": {
           "description": "creates Matrix of the specified size using the supplied function to to map the row column position to the value at that row column position buildMatrix fromIntegral fromIntegral Hilbert matrix of order hilb buildMatrix fromIntegral fromIntegral",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "buildMatrix",
           "normalized": "Int-\u003eInt-\u003e((Int,Int)-\u003ea)-\u003eMatrix a",
@@ -1112,6 +1204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "cols",
           "package": "hmatrix",
@@ -1121,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "cols",
           "normalized": "Matrix a-\u003eInt",
@@ -1136,6 +1230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a block diagonal matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "diagBlock",
           "package": "hmatrix",
@@ -1146,6 +1241,7 @@
         "index": {
           "description": "create block diagonal matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "diagBlock",
           "normalized": "[Matrix a]-\u003eMatrix a",
@@ -1162,6 +1258,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a rectangular diagonal matrix:\n\u003c/p\u003e\u003cpre\u003e\u003e diagRect 7 (fromList [10,20,30]) 4 5 :: Matrix Double\n(4\u003e\u003c5)\n [ 10.0,  7.0,  7.0, 7.0, 7.0\n ,  7.0, 20.0,  7.0, 7.0, 7.0\n ,  7.0,  7.0, 30.0, 7.0, 7.0\n ,  7.0,  7.0,  7.0, 7.0, 7.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "diagRect",
           "package": "hmatrix",
@@ -1172,6 +1269,7 @@
         "index": {
           "description": "creates rectangular diagonal matrix diagRect fromList Matrix Double",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "diagRect",
           "normalized": "a-\u003eVector a-\u003eInt-\u003eInt-\u003eMatrix a",
@@ -1188,6 +1286,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a copy of a matrix without the first n columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "dropColumns",
           "package": "hmatrix",
@@ -1198,6 +1297,7 @@
         "index": {
           "description": "Creates copy of matrix without the first columns",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "dropColumns",
           "normalized": "Int-\u003eMatrix a-\u003eMatrix a",
@@ -1214,6 +1314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a copy of a matrix without the first n rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "dropRows",
           "package": "hmatrix",
@@ -1224,6 +1325,7 @@
         "index": {
           "description": "Creates copy of matrix without the first rows",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "dropRows",
           "normalized": "Int-\u003eMatrix a-\u003eMatrix a",
@@ -1240,6 +1342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003erearranges the rows of a matrix according to the order given in a list of integers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "extractRows",
           "package": "hmatrix",
@@ -1250,6 +1353,7 @@
         "index": {
           "description": "rearranges the rows of matrix according to the order given in list of integers",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "extractRows",
           "normalized": "[Int]-\u003eMatrix a-\u003eMatrix a",
@@ -1266,6 +1370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a vector by concatenation of rows. If the matrix is ColumnMajor, this operation requires a transpose.\n\u003c/p\u003e\u003cpre\u003e\u003e flatten (\u003ccode\u003eident\u003c/code\u003e 3)\n 9 |\u003e [1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "flatten",
           "package": "hmatrix",
@@ -1276,6 +1381,7 @@
         "index": {
           "description": "Creates vector by concatenation of rows If the matrix is ColumnMajor this operation requires transpose flatten ident",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "flatten",
           "normalized": "Matrix a-\u003eVector a",
@@ -1291,6 +1397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fliprl",
           "package": "hmatrix",
@@ -1301,6 +1408,7 @@
         "index": {
           "description": "Reverse columns",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fliprl",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -1316,6 +1424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReverse rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "flipud",
           "package": "hmatrix",
@@ -1326,6 +1435,7 @@
         "index": {
           "description": "Reverse rows",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "flipud",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -1340,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fromArray2D",
           "package": "hmatrix",
@@ -1349,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fromArray2D",
           "normalized": "Array(Int,Int)a-\u003eMatrix a",
@@ -1365,6 +1477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix from blocks given as a list of lists of matrices.\n\u003c/p\u003e\u003cp\u003eSingle row/column components are automatically expanded to match the\ncorresponding common row and column:\n\u003c/p\u003e\u003cpre\u003e\u003e let disp = putStr . dispf 2\n\u003e let vector xs = fromList xs :: Vector Double\n\u003e let diagl = diag . vector\n\u003e let rowm = asRow . vector\n\n\u003e disp $ fromBlocks [[ident 5, 7, rowm[10,20]], [3, diagl[1,2,3], 0]]\n\n8x10\n1  0  0  0  0  7  7  7  10  20\n0  1  0  0  0  7  7  7  10  20\n0  0  1  0  0  7  7  7  10  20\n0  0  0  1  0  7  7  7  10  20\n0  0  0  0  1  7  7  7  10  20\n3  3  3  3  3  1  0  0   0   0\n3  3  3  3  3  0  2  0   0   0\n3  3  3  3  3  0  0  3   0   0\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fromBlocks",
           "package": "hmatrix",
@@ -1375,6 +1488,7 @@
         "index": {
           "description": "Creates matrix from blocks given as list of lists of matrices Single row column components are automatically expanded to match the corresponding common row and column let disp putStr dispf let vector xs fromList xs Vector Double let diagl diag vector let rowm asRow vector disp fromBlocks ident rowm diagl x10",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fromBlocks",
           "normalized": "[[Matrix a]]-\u003eMatrix a",
@@ -1391,6 +1505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix from a list of vectors, as columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fromColumns",
           "package": "hmatrix",
@@ -1401,6 +1516,7 @@
         "index": {
           "description": "Creates matrix from list of vectors as columns",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fromColumns",
           "normalized": "[Vector a]-\u003eMatrix a",
@@ -1417,6 +1533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e from a list of lists (considered as rows).\n\u003c/p\u003e\u003cpre\u003e\u003e fromLists [[1,2],[3,4],[5,6]]\n(3\u003e\u003c2)\n [ 1.0, 2.0\n , 3.0, 4.0\n , 5.0, 6.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fromLists",
           "package": "hmatrix",
@@ -1427,6 +1544,7 @@
         "index": {
           "description": "Creates Matrix from list of lists considered as rows fromLists",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fromLists",
           "normalized": "[[a]]-\u003eMatrix a",
@@ -1443,6 +1561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a matrix from a list of vectors.\n All vectors must have the same dimension,\n or dimension 1, which is are automatically expanded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "fromRows",
           "package": "hmatrix",
@@ -1453,6 +1572,7 @@
         "index": {
           "description": "Create matrix from list of vectors All vectors must have the same dimension or dimension which is are automatically expanded",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "fromRows",
           "normalized": "[Vector a]-\u003eMatrix a",
@@ -1469,6 +1589,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a vector function on the flattened matrix elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix",
           "package": "hmatrix",
@@ -1479,6 +1600,7 @@
         "index": {
           "description": "application of vector function on the flattened matrix elements",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix",
           "normalized": "(Vector a-\u003eVector b)-\u003eMatrix a-\u003eMatrix b",
@@ -1495,6 +1617,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eapplication of a vector function on the flattened matrices elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix2",
           "package": "hmatrix",
@@ -1505,6 +1628,7 @@
         "index": {
           "description": "application of vector function on the flattened matrices elements",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix2",
           "normalized": "(Vector a-\u003eVector b-\u003eVector c)-\u003eMatrix a-\u003eMatrix b-\u003eMatrix c",
@@ -1521,6 +1645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eliftMatrix2\u003c/a\u003e\u003c/code\u003e which automatically adapt matrices with a single row or column to match the dimensions of the other matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix2Auto",
           "package": "hmatrix",
@@ -1531,6 +1656,7 @@
         "index": {
           "description": "version of liftMatrix2 which automatically adapt matrices with single row or column to match the dimensions of the other matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "liftMatrix2Auto",
           "normalized": "(Vector a-\u003eVector b-\u003eVector c)-\u003eMatrix a-\u003eMatrix b-\u003eMatrix c",
@@ -1546,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrix",
           "package": "hmatrix",
@@ -1555,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrix",
           "normalized": "(a-\u003eb)-\u003eMatrix a-\u003eMatrix b",
@@ -1571,6 +1699,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eghci\u003e mapMatrixWithIndex (\\(i,j) v -\u003e 100*v + 10*i + j) (ident 3:: Matrix Double)\n(3\u003e\u003c3)\n [ 100.0,   1.0,   2.0\n ,  10.0, 111.0,  12.0\n ,  20.0,  21.0, 122.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndex",
           "package": "hmatrix",
@@ -1581,6 +1710,7 @@
         "index": {
           "description": "ghci mapMatrixWithIndex ident Matrix Double",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndex",
           "normalized": "((Int,Int)-\u003ea-\u003eb)-\u003eMatrix a-\u003eMatrix b",
@@ -1597,6 +1727,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eghci\u003e mapMatrixWithIndexM (\\(i,j) v -\u003e Just $ 100*v + 10*i + j) (ident 3:: Matrix Double)\nJust (3\u003e\u003c3)\n [ 100.0,   1.0,   2.0\n ,  10.0, 111.0,  12.0\n ,  20.0,  21.0, 122.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndexM",
           "package": "hmatrix",
@@ -1607,6 +1738,7 @@
         "index": {
           "description": "ghci mapMatrixWithIndexM Just ident Matrix Double Just",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndexM",
           "normalized": "((Int,Int)-\u003ea-\u003eb c)-\u003eMatrix a-\u003eb(Matrix c)",
@@ -1623,6 +1755,7 @@
       "document": {
         "description": {
           "description": "\u003cpre\u003eghci\u003e mapMatrixWithIndexM_ (\\(i,j) v -\u003e printf \"m[%.0f,%.0f] = %.f\\n\" i j v :: IO()) ((2\u003e\u003c3)[1 :: Double ..])\nm[0,0] = 1\nm[0,1] = 2\nm[0,2] = 3\nm[1,0] = 4\nm[1,1] = 5\nm[1,2] = 6\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndexM_",
           "package": "hmatrix",
@@ -1633,6 +1766,7 @@
         "index": {
           "description": "ghci mapMatrixWithIndexM printf IO Double",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "mapMatrixWithIndexM_",
           "normalized": "((Int,Int)-\u003ea-\u003eb())-\u003eMatrix a-\u003eb()",
@@ -1649,6 +1783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates matrix by repetition of a matrix a given number of rows and columns\n\u003c/p\u003e\u003cpre\u003e\u003e repmat (ident 2) 2 3 :: Matrix Double\n(4\u003e\u003c6)\n [ 1.0, 0.0, 1.0, 0.0, 1.0, 0.0\n , 0.0, 1.0, 0.0, 1.0, 0.0, 1.0\n , 1.0, 0.0, 1.0, 0.0, 1.0, 0.0\n , 0.0, 1.0, 0.0, 1.0, 0.0, 1.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "repmat",
           "package": "hmatrix",
@@ -1659,6 +1794,7 @@
         "index": {
           "description": "creates matrix by repetition of matrix given number of rows and columns repmat ident Matrix Double",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "repmat",
           "normalized": "Matrix a-\u003eInt-\u003eInt-\u003eMatrix a",
@@ -1674,6 +1810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix from a vector by grouping the elements in rows with the desired number of columns. (GNU-Octave groups by columns. To do it you can define \u003ccode\u003ereshapeF r = trans . reshape r\u003c/code\u003e\nwhere r is the desired number of rows.)\n\u003c/p\u003e\u003cpre\u003e\u003e reshape 4 (\u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e [1..12])\n(3\u003e\u003c4)\n [ 1.0,  2.0,  3.0,  4.0\n , 5.0,  6.0,  7.0,  8.0\n , 9.0, 10.0, 11.0, 12.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "reshape",
           "package": "hmatrix",
@@ -1684,6 +1821,7 @@
         "index": {
           "description": "Creates matrix from vector by grouping the elements in rows with the desired number of columns GNU-Octave groups by columns To do it you can define reshapeF trans reshape where is the desired number of rows reshape fromList",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "reshape",
           "normalized": "Int-\u003eVector a-\u003eMatrix a",
@@ -1698,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "rows",
           "package": "hmatrix",
@@ -1707,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "rows",
           "normalized": "Matrix a-\u003eInt",
@@ -1722,6 +1862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtracts a submatrix from a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "subMatrix",
           "package": "hmatrix",
@@ -1731,6 +1872,7 @@
         "index": {
           "description": "Extracts submatrix from matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "subMatrix",
           "normalized": "(Int,Int)-\u003e(Int,Int)-\u003eMatrix a-\u003eMatrix a",
@@ -1747,6 +1889,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix with the first n columns of another matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "takeColumns",
           "package": "hmatrix",
@@ -1757,6 +1900,7 @@
         "index": {
           "description": "Creates matrix with the first columns of another matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "takeColumns",
           "normalized": "Int-\u003eMatrix a-\u003eMatrix a",
@@ -1773,6 +1917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the diagonal from a rectangular matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "takeDiag",
           "package": "hmatrix",
@@ -1783,6 +1928,7 @@
         "index": {
           "description": "extracts the diagonal from rectangular matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "takeDiag",
           "normalized": "Matrix a-\u003eVector a",
@@ -1799,6 +1945,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a matrix with the first n rows of another matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "takeRows",
           "package": "hmatrix",
@@ -1809,6 +1956,7 @@
         "index": {
           "description": "Creates matrix with the first rows of another matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "takeRows",
           "normalized": "Int-\u003eMatrix a-\u003eMatrix a",
@@ -1825,6 +1973,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePartition a matrix into blocks with the given numbers of rows and columns.\n The remaining rows and columns are discarded.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "toBlocks",
           "package": "hmatrix",
@@ -1835,6 +1984,7 @@
         "index": {
           "description": "Partition matrix into blocks with the given numbers of rows and columns The remaining rows and columns are discarded",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "toBlocks",
           "normalized": "[Int]-\u003e[Int]-\u003eMatrix a-\u003e[[Matrix a]]",
@@ -1851,6 +2001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFully partition a matrix into blocks of the same size. If the dimensions are not\n a multiple of the given size the last blocks will be smaller.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "toBlocksEvery",
           "package": "hmatrix",
@@ -1861,6 +2012,7 @@
         "index": {
           "description": "Fully partition matrix into blocks of the same size If the dimensions are not multiple of the given size the last blocks will be smaller",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "toBlocksEvery",
           "normalized": "Int-\u003eInt-\u003eMatrix a-\u003e[[Matrix a]]",
@@ -1877,6 +2029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a list of vectors from the columns of a matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "toColumns",
           "package": "hmatrix",
@@ -1887,6 +2040,7 @@
         "index": {
           "description": "Creates list of vectors from the columns of matrix",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "toColumns",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -1903,6 +2057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe inverse of \u003ccode\u003e\u003ca\u003efromLists\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "toLists",
           "package": "hmatrix",
@@ -1913,6 +2068,7 @@
         "index": {
           "description": "the inverse of fromLists",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "toLists",
           "normalized": "Matrix a-\u003e[[a]]",
@@ -1929,6 +2085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the rows of a matrix as a list of vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "toRows",
           "package": "hmatrix",
@@ -1939,6 +2096,7 @@
         "index": {
           "description": "extracts the rows of matrix as list of vectors",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "toRows",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -1955,6 +2113,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix transpose.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Matrix",
           "name": "trans",
           "package": "hmatrix",
@@ -1965,6 +2124,7 @@
         "index": {
           "description": "Matrix transpose",
           "hierarchy": "Data Packed Matrix",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Matrix",
           "name": "trans",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -1980,6 +2140,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eIn-place manipulation inside the ST monad.\n See examples/inplace.hs in the distribution.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "ST",
           "package": "hmatrix",
@@ -1989,6 +2150,7 @@
         "index": {
           "description": "In-place manipulation inside the ST monad See examples inplace.hs in the distribution",
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "ST",
           "package": "hmatrix",
@@ -2002,6 +2164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "STMatrix",
           "package": "hmatrix",
@@ -2010,6 +2173,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "STMatrix",
           "package": "hmatrix",
@@ -2023,6 +2187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "STVector",
           "package": "hmatrix",
@@ -2031,6 +2196,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "STVector",
           "package": "hmatrix",
@@ -2044,6 +2210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "freezeMatrix",
           "package": "hmatrix",
@@ -2053,6 +2220,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "freezeMatrix",
           "normalized": "STMatrix a b-\u003eST a(Matrix b)",
@@ -2068,6 +2236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "freezeVector",
           "package": "hmatrix",
@@ -2077,6 +2246,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "freezeVector",
           "normalized": "STVector a b-\u003eST a(Vector b)",
@@ -2092,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "liftSTMatrix",
           "package": "hmatrix",
@@ -2101,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "liftSTMatrix",
           "normalized": "(Matrix a-\u003eb)-\u003eSTMatrix c a-\u003eST c b",
@@ -2116,6 +2288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "liftSTVector",
           "package": "hmatrix",
@@ -2125,6 +2298,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "liftSTVector",
           "normalized": "(Vector a-\u003eb)-\u003eSTVector c a-\u003eST c b",
@@ -2140,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "modifyMatrix",
           "package": "hmatrix",
@@ -2149,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "modifyMatrix",
           "normalized": "STMatrix a b-\u003eInt-\u003eInt-\u003e(b-\u003eb)-\u003eST a()",
@@ -2164,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "modifyVector",
           "package": "hmatrix",
@@ -2173,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "modifyVector",
           "normalized": "STVector a b-\u003eInt-\u003e(b-\u003eb)-\u003eST a()",
@@ -2188,6 +2366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "newMatrix",
           "package": "hmatrix",
@@ -2197,6 +2376,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "newMatrix",
           "normalized": "a-\u003eInt-\u003eInt-\u003eST b(STMatrix b a)",
@@ -2212,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "newUndefinedMatrix",
           "package": "hmatrix",
@@ -2221,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "newUndefinedMatrix",
           "normalized": "MatrixOrder-\u003eInt-\u003eInt-\u003eST a(STMatrix a b)",
@@ -2236,6 +2418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "newUndefinedVector",
           "package": "hmatrix",
@@ -2245,6 +2428,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "newUndefinedVector",
           "normalized": "Int-\u003eST a(STVector a b)",
@@ -2260,6 +2444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "newVector",
           "package": "hmatrix",
@@ -2269,6 +2454,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "newVector",
           "normalized": "a-\u003eInt-\u003eST b(STVector b a)",
@@ -2284,6 +2470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "readMatrix",
           "package": "hmatrix",
@@ -2293,6 +2480,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "readMatrix",
           "normalized": "STMatrix a b-\u003eInt-\u003eInt-\u003eST a b",
@@ -2308,6 +2496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "readVector",
           "package": "hmatrix",
@@ -2317,6 +2506,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "readVector",
           "normalized": "STVector a b-\u003eInt-\u003eST a b",
@@ -2332,6 +2522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "runSTMatrix",
           "package": "hmatrix",
@@ -2341,6 +2532,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "runSTMatrix",
           "normalized": "(a b ST c(STMatrix c d))-\u003eMatrix d",
@@ -2356,6 +2548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "runSTVector",
           "package": "hmatrix",
@@ -2365,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "runSTVector",
           "normalized": "(a b ST c(STVector c d))-\u003eVector d",
@@ -2380,6 +2574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "thawMatrix",
           "package": "hmatrix",
@@ -2389,6 +2584,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "thawMatrix",
           "normalized": "Matrix a-\u003eST b(STMatrix b a)",
@@ -2404,6 +2600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "thawVector",
           "package": "hmatrix",
@@ -2413,6 +2610,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "thawVector",
           "normalized": "Vector a-\u003eST b(STVector b a)",
@@ -2428,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeFreezeMatrix",
           "package": "hmatrix",
@@ -2437,6 +2636,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeFreezeMatrix",
           "normalized": "STMatrix a b-\u003eST a(Matrix b)",
@@ -2452,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeFreezeVector",
           "package": "hmatrix",
@@ -2461,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeFreezeVector",
           "normalized": "STVector a b-\u003eST a(Vector b)",
@@ -2476,6 +2678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeReadMatrix",
           "package": "hmatrix",
@@ -2485,6 +2688,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeReadMatrix",
           "normalized": "STMatrix a b-\u003eInt-\u003eInt-\u003eST a b",
@@ -2500,6 +2704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeReadVector",
           "package": "hmatrix",
@@ -2509,6 +2714,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeReadVector",
           "normalized": "STVector a b-\u003eInt-\u003eST a b",
@@ -2524,6 +2730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeThawMatrix",
           "package": "hmatrix",
@@ -2533,6 +2740,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeThawMatrix",
           "normalized": "Matrix a-\u003eST b(STMatrix b a)",
@@ -2548,6 +2756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeThawVector",
           "package": "hmatrix",
@@ -2557,6 +2766,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeThawVector",
           "normalized": "Vector a-\u003eST b(STVector b a)",
@@ -2572,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeWriteMatrix",
           "package": "hmatrix",
@@ -2581,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeWriteMatrix",
           "normalized": "STMatrix a b-\u003eInt-\u003eInt-\u003eb-\u003eST a()",
@@ -2596,6 +2808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "unsafeWriteVector",
           "package": "hmatrix",
@@ -2605,6 +2818,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "unsafeWriteVector",
           "normalized": "STVector a b-\u003eInt-\u003eb-\u003eST a()",
@@ -2620,6 +2834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "writeMatrix",
           "package": "hmatrix",
@@ -2629,6 +2844,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "writeMatrix",
           "normalized": "STMatrix a b-\u003eInt-\u003eInt-\u003eb-\u003eST a()",
@@ -2644,6 +2860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.ST",
           "name": "writeVector",
           "package": "hmatrix",
@@ -2653,6 +2870,7 @@
         },
         "index": {
           "hierarchy": "Data Packed ST",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.ST",
           "name": "writeVector",
           "normalized": "STVector a b-\u003eInt-\u003eb-\u003eST a()",
@@ -2669,6 +2887,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003e1D arrays suitable for numeric computations using external libraries.\n\u003c/p\u003e\u003cp\u003eThis module provides basic functions for manipulation of structure.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "Vector",
           "package": "hmatrix",
@@ -2678,6 +2897,7 @@
         "index": {
           "description": "arrays suitable for numeric computations using external libraries This module provides basic functions for manipulation of structure",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "Vector",
           "package": "hmatrix",
@@ -2692,6 +2912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eStorable\u003c/a\u003e\u003c/code\u003e-based vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "Vector",
           "package": "hmatrix",
@@ -2700,6 +2921,7 @@
         "index": {
           "description": "Storable based vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "Vector",
           "package": "hmatrix",
@@ -2714,6 +2936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn alternative to \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e with explicit dimension. The input\n     list is explicitly truncated if it is too long, so it may safely\n     be used, for instance, with infinite lists.\n\u003c/p\u003e\u003cp\u003eThis is the format used in the instances for Show (Vector a).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "(|\u003e)",
           "package": "hmatrix",
@@ -2724,6 +2947,7 @@
         "index": {
           "description": "An alternative to fromList with explicit dimension The input list is explicitly truncated if it is too long so it may safely be used for instance with infinite lists This is the format used in the instances for Show Vector",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "(|\u003e) |\u003e",
           "normalized": "Int-\u003e[a]-\u003eVector a",
@@ -2739,6 +2963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReads a vector position:\n\u003c/p\u003e\u003cpre\u003e\u003e fromList [0..9] @\u003e 7\n7.0\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "(@\u003e)",
           "package": "hmatrix",
@@ -2749,6 +2974,7 @@
         "index": {
           "description": "Reads vector position fromList",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "(@\u003e) @\u003e",
           "normalized": "Vector a-\u003eInt-\u003ea",
@@ -2764,6 +2990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a Vector of the specified length using the supplied function to\n     to map the index to the value at that index.\n\u003c/p\u003e\u003cpre\u003e\u003e buildVector 4 fromIntegral\n4 |\u003e [0.0,1.0,2.0,3.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "buildVector",
           "package": "hmatrix",
@@ -2774,6 +3001,7 @@
         "index": {
           "description": "creates Vector of the specified length using the supplied function to to map the index to the value at that index buildVector fromIntegral",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "buildVector",
           "normalized": "Int-\u003e(Int-\u003ea)-\u003eVector a",
@@ -2790,6 +3018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "dim",
           "package": "hmatrix",
@@ -2800,6 +3029,7 @@
         "index": {
           "description": "Number of elements",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "dim",
           "normalized": "Vector a-\u003eInt",
@@ -2814,6 +3044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "foldLoop",
           "package": "hmatrix",
@@ -2823,6 +3054,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "foldLoop",
           "normalized": "(Int-\u003ea-\u003ea)-\u003ea-\u003eInt-\u003ea",
@@ -2838,6 +3070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "foldVector",
           "package": "hmatrix",
@@ -2847,6 +3080,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "foldVector",
           "normalized": "(a-\u003eb-\u003eb)-\u003eb-\u003eVector a-\u003eb",
@@ -2862,6 +3096,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "foldVectorG",
           "package": "hmatrix",
@@ -2871,6 +3106,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "foldVectorG",
           "normalized": "(Int-\u003e(Int-\u003ea)-\u003ea-\u003ea)-\u003ea-\u003eVector a-\u003ea",
@@ -2886,6 +3122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "foldVectorWithIndex",
           "package": "hmatrix",
@@ -2895,6 +3132,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "foldVectorWithIndex",
           "normalized": "(Int-\u003ea-\u003eb-\u003eb)-\u003eb-\u003eVector a-\u003eb",
@@ -2911,6 +3149,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a Vector from a list:\n\u003c/p\u003e\u003cpre\u003e\u003e fromList [2,3,5,7]\n4 |\u003e [2.0,3.0,5.0,7.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "fromList",
           "package": "hmatrix",
@@ -2921,6 +3160,7 @@
         "index": {
           "description": "creates Vector from list fromList",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "fromList",
           "normalized": "[a]-\u003eVector a",
@@ -2937,6 +3177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a new Vector by joining a list of Vectors\n\u003c/p\u003e\u003cpre\u003e\u003e join [fromList [1..5], constant 1 3]\n8 |\u003e [1.0,2.0,3.0,4.0,5.0,1.0,1.0,1.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "join",
           "package": "hmatrix",
@@ -2947,6 +3188,7 @@
         "index": {
           "description": "creates new Vector by joining list of Vectors join fromList constant",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "join",
           "normalized": "[Vector a]-\u003eVector a",
@@ -2962,6 +3204,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emap on Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVector",
           "package": "hmatrix",
@@ -2972,6 +3215,7 @@
         "index": {
           "description": "map on Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVector",
           "normalized": "(a-\u003eb)-\u003eVector a-\u003eVector b",
@@ -2988,6 +3232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over Vectors\n    the monad \u003ccode\u003em\u003c/code\u003e must be strict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVectorM",
           "package": "hmatrix",
@@ -2998,6 +3243,7 @@
         "index": {
           "description": "monadic map over Vectors the monad must be strict",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVectorM",
           "normalized": "(a-\u003eb c)-\u003eVector a-\u003eb(Vector c)",
@@ -3014,6 +3260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVectorM_",
           "package": "hmatrix",
@@ -3024,6 +3271,7 @@
         "index": {
           "description": "monadic map over Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVectorM_",
           "normalized": "(a-\u003eb())-\u003eVector a-\u003eb()",
@@ -3039,6 +3287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndex",
           "package": "hmatrix",
@@ -3048,6 +3297,7 @@
         },
         "index": {
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndex",
           "normalized": "(Int-\u003ea-\u003eb)-\u003eVector a-\u003eVector b",
@@ -3064,6 +3314,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over Vectors with the zero-indexed index passed to the mapping function\n    the monad \u003ccode\u003em\u003c/code\u003e must be strict\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndexM",
           "package": "hmatrix",
@@ -3074,6 +3325,7 @@
         "index": {
           "description": "monadic map over Vectors with the zero-indexed index passed to the mapping function the monad must be strict",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndexM",
           "normalized": "(Int-\u003ea-\u003eb c)-\u003eVector a-\u003eb(Vector c)",
@@ -3090,6 +3342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003emonadic map over Vectors with the zero-indexed index passed to the mapping function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndexM_",
           "package": "hmatrix",
@@ -3100,6 +3353,7 @@
         "index": {
           "description": "monadic map over Vectors with the zero-indexed index passed to the mapping function",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "mapVectorWithIndexM_",
           "normalized": "(Int-\u003ea-\u003eb())-\u003eVector a-\u003eb()",
@@ -3116,6 +3370,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etakes a number of consecutive elements from a Vector\n\u003c/p\u003e\u003cpre\u003e\u003e subVector 2 3 (fromList [1..10])\n3 |\u003e [3.0,4.0,5.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "subVector",
           "package": "hmatrix",
@@ -3125,6 +3380,7 @@
         "index": {
           "description": "takes number of consecutive elements from Vector subVector fromList",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "subVector",
           "normalized": "Int-\u003eInt-\u003eVector a-\u003eVector a",
@@ -3141,6 +3397,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtract consecutive subvectors of the given sizes.\n\u003c/p\u003e\u003cpre\u003e\u003e takesV [3,4] (linspace 10 (1,10))\n[3 |\u003e [1.0,2.0,3.0],4 |\u003e [4.0,5.0,6.0,7.0]]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "takesV",
           "package": "hmatrix",
@@ -3151,6 +3408,7 @@
         "index": {
           "description": "Extract consecutive subvectors of the given sizes takesV linspace",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "takesV",
           "normalized": "[Int]-\u003eVector a-\u003e[Vector a]",
@@ -3166,6 +3424,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextracts the Vector elements to a list\n\u003c/p\u003e\u003cpre\u003e\u003e toList (linspace 5 (1,10))\n[1.0,3.25,5.5,7.75,10.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "toList",
           "package": "hmatrix",
@@ -3176,6 +3435,7 @@
         "index": {
           "description": "extracts the Vector elements to list toList linspace",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "toList",
           "normalized": "Vector a-\u003e[a]",
@@ -3192,6 +3452,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunzip for Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "unzipVector",
           "package": "hmatrix",
@@ -3202,6 +3463,7 @@
         "index": {
           "description": "unzip for Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "unzipVector",
           "normalized": "Vector(a,b)-\u003e(Vector a,Vector b)",
@@ -3218,6 +3480,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eunzipWith for Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "unzipVectorWith",
           "package": "hmatrix",
@@ -3228,6 +3491,7 @@
         "index": {
           "description": "unzipWith for Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "unzipVectorWith",
           "normalized": "((a,b)-\u003e(c,d))-\u003eVector(a,b)-\u003e(Vector c,Vector d)",
@@ -3244,6 +3508,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezip for Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "zipVector",
           "package": "hmatrix",
@@ -3254,6 +3519,7 @@
         "index": {
           "description": "zip for Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "zipVector",
           "normalized": "Vector a-\u003eVector b-\u003eVector(a,b)",
@@ -3270,6 +3536,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ezipWith for Vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed.Vector",
           "name": "zipVectorWith",
           "package": "hmatrix",
@@ -3280,6 +3547,7 @@
         "index": {
           "description": "zipWith for Vectors",
           "hierarchy": "Data Packed Vector",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed.Vector",
           "name": "zipVectorWith",
           "normalized": "(a-\u003eb-\u003ec)-\u003eVector a-\u003eVector b-\u003eVector c",
@@ -3296,6 +3564,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTypes for dense \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e of \u003ccode\u003eStorable\u003c/code\u003e elements.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Data.Packed",
           "name": "Packed",
           "package": "hmatrix",
@@ -3305,6 +3574,7 @@
         "index": {
           "description": "Types for dense Vector and Matrix of Storable elements",
           "hierarchy": "Data Packed",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Data.Packed",
           "name": "Packed",
           "package": "hmatrix",
@@ -3319,6 +3589,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is deprecated. It can be replaced by improved drawing tools\n available in the plot\\plot-gtk packages by Vivian McPhail or Gnuplot by Henning Thielemann.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "Plot",
           "package": "hmatrix",
@@ -3328,6 +3599,7 @@
         "index": {
           "description": "This module is deprecated It can be replaced by improved drawing tools available in the plot plot-gtk packages by Vivian McPhail or Gnuplot by Henning Thielemann",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "Plot",
           "package": "hmatrix",
@@ -3341,6 +3613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "gnuplotWin",
           "package": "hmatrix",
@@ -3350,6 +3623,7 @@
         },
         "index": {
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "gnuplotWin",
           "normalized": "String-\u003eString-\u003e[([[Double]],String)]-\u003eIO()",
@@ -3365,6 +3639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "gnuplotX",
           "package": "hmatrix",
@@ -3374,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "gnuplotX",
           "normalized": "String-\u003eIO()",
@@ -3388,6 +3664,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "gnuplotpdf",
           "package": "hmatrix",
@@ -3397,6 +3674,7 @@
         },
         "index": {
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "gnuplotpdf",
           "normalized": "String-\u003eString-\u003e[([[Double]],String)]-\u003eIO()",
@@ -3412,6 +3690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eimshow shows a representation of a matrix as a gray level image using ImageMagick's display.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "imshow",
           "package": "hmatrix",
@@ -3422,6 +3701,7 @@
         "index": {
           "description": "imshow shows representation of matrix as gray level image using ImageMagick display",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "imshow",
           "normalized": "Matrix Double-\u003eIO()",
@@ -3437,6 +3717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewrites a matrix to pgm image file\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "matrixToPGM",
           "package": "hmatrix",
@@ -3447,6 +3728,7 @@
         "index": {
           "description": "writes matrix to pgm image file",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "matrixToPGM",
           "normalized": "Matrix Double-\u003eString",
@@ -3463,6 +3745,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a 3D surface representation of a real matrix.\n\u003c/p\u003e\u003cpre\u003e \u003e mesh $ build (10,10) (\\\\i j -\u003e i + (j-5)^2)\n\u003c/pre\u003e\u003cp\u003eIn certain versions you can interactively rotate the graphic using the mouse.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "mesh",
           "package": "hmatrix",
@@ -3473,6 +3756,7 @@
         "index": {
           "description": "Draws surface representation of real matrix mesh build j-5 In certain versions you can interactively rotate the graphic using the mouse",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "mesh",
           "normalized": "Matrix Double-\u003eIO()",
@@ -3488,6 +3772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrom vectors x and y, it generates a pair of matrices to be used as x and y arguments for matrix functions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "meshdom",
           "package": "hmatrix",
@@ -3498,6 +3783,7 @@
         "index": {
           "description": "From vectors and it generates pair of matrices to be used as and arguments for matrix functions",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "meshdom",
           "normalized": "Vector Double-\u003eVector Double-\u003e(Matrix Double,Matrix Double)",
@@ -3513,6 +3799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eplots several vectors against the first one \n\u003c/p\u003e\u003cpre\u003e \u003e let t = linspace 100 (-3,3) in mplot [t, sin t, exp (-t^2)]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "mplot",
           "package": "hmatrix",
@@ -3523,6 +3810,7 @@
         "index": {
           "description": "plots several vectors against the first one let linspace in mplot sin exp",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "mplot",
           "normalized": "[Vector Double]-\u003eIO()",
@@ -3538,6 +3826,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a parametric curve. For instance, to draw a spiral we can do something like:\n\u003c/p\u003e\u003cpre\u003e \u003e parametricPlot (\\t-\u003e(t * sin t, t * cos t)) (0,10*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "parametricPlot",
           "package": "hmatrix",
@@ -3548,6 +3837,7 @@
         "index": {
           "description": "Draws parametric curve For instance to draw spiral we can do something like parametricPlot sin cos pi",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "parametricPlot",
           "normalized": "(Vector Double-\u003e(Vector Double,Vector Double))-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -3564,6 +3854,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws a list of functions over a desired range and with a desired number of points \n\u003c/p\u003e\u003cpre\u003e \u003e plot [sin, cos, sin.(3*)] (0,2*pi) 1000\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "plot",
           "package": "hmatrix",
@@ -3574,6 +3865,7 @@
         "index": {
           "description": "Draws list of functions over desired range and with desired number of points plot sin cos sin pi",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "plot",
           "normalized": "[Vector Double-\u003eVector Double]-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -3589,6 +3881,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDraws the surface represented by the function f in the desired ranges and number of points, internally using \u003ccode\u003e\u003ca\u003emesh\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e \u003e let f x y = cos (x + y) \n \u003e splot f (0,pi) (0,2*pi) 50    \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Graphics.Plot",
           "name": "splot",
           "package": "hmatrix",
@@ -3599,6 +3892,7 @@
         "index": {
           "description": "Draws the surface represented by the function in the desired ranges and number of points internally using mesh let cos splot pi pi",
           "hierarchy": "Graphics Plot",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Graphics.Plot",
           "name": "splot",
           "normalized": "(Matrix Double-\u003eMatrix Double-\u003eMatrix Double)-\u003e(Double,Double)-\u003e(Double,Double)-\u003eInt-\u003eIO()",
@@ -3614,6 +3908,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic numeric operations on \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e, including conversion routines.\n\u003c/p\u003e\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eContainer\u003c/a\u003e\u003c/code\u003e class is used to define optimized generic functions which work\n on \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e with real or complex elements.\n\u003c/p\u003e\u003cp\u003eSome of these functions are also available in the instances of the standard\n numeric Haskell classes provided by \u003ca\u003eNumeric.LinearAlgebra\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Container",
           "package": "hmatrix",
@@ -3623,6 +3918,7 @@
         "index": {
           "description": "Basic numeric operations on Vector and Matrix including conversion routines The Container class is used to define optimized generic functions which work on Vector and Matrix with real or complex elements Some of these functions are also available in the instances of the standard numeric Haskell classes provided by Numeric.LinearAlgebra",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Container",
           "package": "hmatrix",
@@ -3636,6 +3932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "ComplexOf",
           "package": "hmatrix",
@@ -3644,6 +3941,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "ComplexOf",
           "package": "hmatrix",
@@ -3658,6 +3956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStructures that may contain complex numbers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Complexable",
           "package": "hmatrix",
@@ -3667,6 +3966,7 @@
         "index": {
           "description": "Structures that may contain complex numbers",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Complexable",
           "package": "hmatrix",
@@ -3681,6 +3981,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBasic element-by-element functions for numeric containers\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Container",
           "package": "hmatrix",
@@ -3690,6 +3991,7 @@
         "index": {
           "description": "Basic element-by-element functions for numeric containers",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Container",
           "package": "hmatrix",
@@ -3703,6 +4005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Convert",
           "package": "hmatrix",
@@ -3711,6 +4014,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Convert",
           "package": "hmatrix",
@@ -3724,6 +4028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "DoubleOf",
           "package": "hmatrix",
@@ -3732,6 +4037,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "DoubleOf",
           "package": "hmatrix",
@@ -3745,6 +4051,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "IndexOf",
           "package": "hmatrix",
@@ -3753,6 +4060,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "IndexOf",
           "package": "hmatrix",
@@ -3766,6 +4074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "LSDiv",
           "package": "hmatrix",
@@ -3774,6 +4083,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "LSDiv",
           "package": "hmatrix",
@@ -3787,6 +4097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Mul",
           "package": "hmatrix",
@@ -3795,6 +4106,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Mul",
           "package": "hmatrix",
@@ -3809,6 +4121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product and related functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Product",
           "package": "hmatrix",
@@ -3818,6 +4131,7 @@
         "index": {
           "description": "Matrix product and related functions",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Product",
           "package": "hmatrix",
@@ -3831,6 +4145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "RandDist",
           "package": "hmatrix",
@@ -3839,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "RandDist",
           "package": "hmatrix",
@@ -3853,6 +4169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupported real types\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "RealElement",
           "package": "hmatrix",
@@ -3862,6 +4179,7 @@
         "index": {
           "description": "Supported real types",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "RealElement",
           "package": "hmatrix",
@@ -3875,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "RealOf",
           "package": "hmatrix",
@@ -3883,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "RealOf",
           "package": "hmatrix",
@@ -3896,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "SingleOf",
           "package": "hmatrix",
@@ -3904,6 +4225,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "SingleOf",
           "package": "hmatrix",
@@ -3918,6 +4240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix-matrix, matrix-vector, and vector-matrix products.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "(\u003c\u003e)",
           "package": "hmatrix",
@@ -3928,6 +4251,7 @@
         "index": {
           "description": "Matrix-matrix matrix-vector and vector-matrix products",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "(\u003c\u003e) \u003c\u003e",
           "normalized": "a b-\u003ec b-\u003ed b",
@@ -3943,6 +4267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eleast squares solution of a linear system, similar to the \\ operator of Matlab/Octave (based on linearSolveSVD)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "(\u003c\\\u003e)",
           "package": "hmatrix",
@@ -3953,6 +4278,7 @@
         "index": {
           "description": "least squares solution of linear system similar to the operator of Matlab Octave based on linearSolveSVD",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "(\u003c\\\u003e) \u003c\\\u003e",
           "normalized": "Matrix a-\u003eb a-\u003ec a",
@@ -3968,6 +4294,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDot product: \u003ccode\u003eu \u003c.\u003e v = dot u v\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "(\u003c.\u003e)",
           "package": "hmatrix",
@@ -3978,6 +4305,7 @@
         "index": {
           "description": "Dot product dot",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "(\u003c.\u003e) \u003c.\u003e",
           "normalized": "Vector a-\u003eVector a-\u003ea",
@@ -3993,6 +4321,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003enormal distribution with mean zero and standard deviation one\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Gaussian",
           "package": "hmatrix",
@@ -4003,6 +4332,7 @@
         "index": {
           "description": "normal distribution with mean zero and standard deviation one",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Gaussian",
           "package": "hmatrix",
@@ -4017,6 +4347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003euniform distribution in [0,1)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "Uniform",
           "package": "hmatrix",
@@ -4027,6 +4358,7 @@
         "index": {
           "description": "uniform distribution in",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "Uniform",
           "package": "hmatrix",
@@ -4041,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esum of absolute value of elements (differs in complex case from \u003ccode\u003enorm1\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "absSum",
           "package": "hmatrix",
@@ -4051,6 +4384,7 @@
         "index": {
           "description": "sum of absolute value of elements differs in complex case from norm1",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "absSum",
           "normalized": "Vector a-\u003eRealOf a",
@@ -4067,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify a structure using an update function\n\u003c/p\u003e\u003cpre\u003e\u003e accum (ident 5) (+) [((1,1),5),((0,3),3)] :: Matrix Double\n (5\u003e\u003c5)\n  [ 1.0, 0.0, 0.0, 3.0, 0.0\n  , 0.0, 6.0, 0.0, 0.0, 0.0\n  , 0.0, 0.0, 1.0, 0.0, 0.0\n  , 0.0, 0.0, 0.0, 1.0, 0.0\n  , 0.0, 0.0, 0.0, 0.0, 1.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "accum",
           "package": "hmatrix",
@@ -4077,6 +4412,7 @@
         "index": {
           "description": "Modify structure using an update function accum ident Matrix Double",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "accum",
           "package": "hmatrix",
@@ -4089,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "add",
           "package": "hmatrix",
@@ -4098,6 +4435,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "add",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4112,6 +4450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "addConstant",
           "package": "hmatrix",
@@ -4121,6 +4460,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "addConstant",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -4136,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "arctan2",
           "package": "hmatrix",
@@ -4145,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "arctan2",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4160,6 +4502,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a structure from an association list\n\u003c/p\u003e\u003cpre\u003e\u003e assoc 5 0 [(2,7),(1,3)] :: Vector Double\n 5 |\u003e [0.0,3.0,7.0,0.0,0.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "assoc",
           "package": "hmatrix",
@@ -4170,6 +4513,7 @@
         "index": {
           "description": "Create structure from an association list assoc Vector Double",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "assoc",
           "package": "hmatrix",
@@ -4183,6 +4527,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindexing function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "atIndex",
           "package": "hmatrix",
@@ -4193,6 +4538,7 @@
         "index": {
           "description": "indexing function",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "atIndex",
           "normalized": "a b-\u003eIndexOf a-\u003eb",
@@ -4209,6 +4555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a structure using a function\n\u003c/p\u003e\u003cp\u003eHilbert matrix of order N:\n\u003c/p\u003e\u003cpre\u003ehilb n = build (n,n) (\\i j -\u003e 1/(i+j+1))\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "build",
           "package": "hmatrix",
@@ -4219,6 +4566,7 @@
         "index": {
           "description": "create structure using function Hilbert matrix of order hilb build",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "build",
           "normalized": "IndexOf a-\u003eArgOf a b-\u003ea b",
@@ -4233,6 +4581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "build'",
           "package": "hmatrix",
@@ -4242,6 +4591,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "build'",
           "normalized": "BoundsOf a-\u003ea-\u003eContainerOf a",
@@ -4257,6 +4607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecannot implement instance Functor because of Element class constraint\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "cmap",
           "package": "hmatrix",
@@ -4267,6 +4618,7 @@
         "index": {
           "description": "cannot implement instance Functor because of Element class constraint",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "cmap",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -4281,6 +4633,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "complex",
           "package": "hmatrix",
@@ -4290,6 +4643,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "complex",
           "normalized": "a b-\u003ea(ComplexOf b)",
@@ -4305,6 +4659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eElement by element version of \u003ccode\u003ecase compare a b of {LT -\u003e l; EQ -\u003e e; GT -\u003e g}\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eArguments with any dimension = 1 are automatically expanded: \n\u003c/p\u003e\u003cpre\u003e\u003e cond ((1\u003e\u003c4)[1..]) ((3\u003e\u003c1)[1..]) 0 100 ((3\u003e\u003c4)[1..]) :: Matrix Double\n (3\u003e\u003c4)\n [ 100.0,   2.0,   3.0,  4.0\n ,   0.0, 100.0,   7.0,  8.0\n ,   0.0,   0.0, 100.0, 12.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "cond",
           "package": "hmatrix",
@@ -4315,6 +4670,7 @@
         "index": {
           "description": "Element by element version of case compare of LT EQ GT Arguments with any dimension are automatically expanded cond Matrix Double",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "cond",
           "package": "hmatrix",
@@ -4328,6 +4684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecomplex conjugate\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "conj",
           "package": "hmatrix",
@@ -4338,6 +4695,7 @@
         "index": {
           "description": "complex conjugate",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "conj",
           "normalized": "a b-\u003ea b",
@@ -4353,6 +4711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a vector with a given number of equal components:\n\u003c/p\u003e\u003cpre\u003e\u003e constant 2 7\n7 |\u003e [2.0,2.0,2.0,2.0,2.0,2.0,2.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "constant",
           "package": "hmatrix",
@@ -4363,6 +4722,7 @@
         "index": {
           "description": "creates vector with given number of equal components constant",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "constant",
           "normalized": "a-\u003eInt-\u003eVector a",
@@ -4378,6 +4738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econjugate transpose\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "ctrans",
           "package": "hmatrix",
@@ -4388,6 +4749,7 @@
         "index": {
           "description": "conjugate transpose",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "ctrans",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -4403,6 +4765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a square matrix with a given diagonal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "diag",
           "package": "hmatrix",
@@ -4413,6 +4776,7 @@
         "index": {
           "description": "Creates square matrix with given diagonal",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "diag",
           "normalized": "Vector a-\u003eMatrix a",
@@ -4428,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePretty print a complex matrix with at most n decimal digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "dispcf",
           "package": "hmatrix",
@@ -4438,6 +4803,7 @@
         "index": {
           "description": "Pretty print complex matrix with at most decimal digits",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "dispcf",
           "normalized": "Int-\u003eMatrix(Complex Double)-\u003eString",
@@ -4453,6 +4819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a matrix with a given number of decimal places.\n\u003c/p\u003e\u003cpre\u003edisp = putStr . dispf 3\n\n\u003e disp (1/3 + ident 4)\n4x4\n1.333  0.333  0.333  0.333\n0.333  1.333  0.333  0.333\n0.333  0.333  1.333  0.333\n0.333  0.333  0.333  1.333\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "dispf",
           "package": "hmatrix",
@@ -4463,6 +4830,7 @@
         "index": {
           "description": "Show matrix with given number of decimal places disp putStr dispf disp ident x4",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "dispf",
           "normalized": "Int-\u003eMatrix Double-\u003eString",
@@ -4478,6 +4846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a matrix with \"autoscaling\" and a given number of decimal places.\n\u003c/p\u003e\u003cpre\u003edisp = putStr . disps 2\n\n\u003e disp $ 120 * (3\u003e\u003c4) [1..]\n3x4  E3\n 0.12  0.24  0.36  0.48\n 0.60  0.72  0.84  0.96\n 1.08  1.20  1.32  1.44\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "disps",
           "package": "hmatrix",
@@ -4488,6 +4857,7 @@
         "index": {
           "description": "Show matrix with autoscaling and given number of decimal places disp putStr disps disp x4 E3",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "disps",
           "normalized": "Int-\u003eMatrix Double-\u003eString",
@@ -4503,6 +4873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelement by element division\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "divide",
           "package": "hmatrix",
@@ -4513,6 +4884,7 @@
         "index": {
           "description": "element by element division",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "divide",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -4528,6 +4900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edot (inner) product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "dot",
           "package": "hmatrix",
@@ -4538,6 +4911,7 @@
         "index": {
           "description": "dot inner product",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "dot",
           "normalized": "Vector a-\u003eVector a-\u003ea",
@@ -4552,6 +4926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "double",
           "package": "hmatrix",
@@ -4561,6 +4936,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "double",
           "normalized": "a b-\u003ea(DoubleOf b)",
@@ -4575,6 +4951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "equal",
           "package": "hmatrix",
@@ -4584,6 +4961,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "equal",
           "normalized": "a b-\u003ea b-\u003eBool",
@@ -4599,6 +4977,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eobtains the number of rows and columns in an ASCII data file\n      (provisionally using unix's wc).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fileDimensions",
           "package": "hmatrix",
@@ -4609,6 +4988,7 @@
         "index": {
           "description": "obtains the number of rows and columns in an ASCII data file provisionally using unix wc",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fileDimensions",
           "normalized": "FilePath-\u003eIO(Int,Int)",
@@ -4625,6 +5005,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind index of elements which satisfy a predicate\n\u003c/p\u003e\u003cpre\u003e\u003e find (\u003e0) (ident 3 :: Matrix Double)\n [(0,0),(1,1),(2,2)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "find",
           "package": "hmatrix",
@@ -4635,6 +5016,7 @@
         "index": {
           "description": "Find index of elements which satisfy predicate find ident Matrix Double",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "find",
           "normalized": "(a-\u003eBool)-\u003eb a-\u003e[IndexOf b]",
@@ -4650,6 +5032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a string from a matrix given a separator and a function to show each entry. Using\nthis function the user can easily define any desired display function:\n\u003c/p\u003e\u003cpre\u003eimport Text.Printf(printf)\u003c/pre\u003e\u003cpre\u003edisp = putStr . format \"  \" (printf \"%.2f\")\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "format",
           "package": "hmatrix",
@@ -4660,6 +5043,7 @@
         "index": {
           "description": "Creates string from matrix given separator and function to show each entry Using this function the user can easily define any desired display function import Text.Printf printf disp putStr format printf",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "format",
           "normalized": "String-\u003e(a-\u003eString)-\u003eMatrix a-\u003eString",
@@ -4675,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves the elements of a vector, with a given format (%f, %e, %g), to an ASCII file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fprintfVector",
           "package": "hmatrix",
@@ -4685,6 +5070,7 @@
         "index": {
           "description": "Saves the elements of vector with given format to an ASCII file",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fprintfVector",
           "normalized": "FilePath-\u003eString-\u003eVector Double-\u003eIO()",
@@ -4701,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a vector from a binary file (the number of elements must be known in advance).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "freadVector",
           "package": "hmatrix",
@@ -4711,6 +5098,7 @@
         "index": {
           "description": "Loads vector from binary file the number of elements must be known in advance",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "freadVector",
           "normalized": "FilePath-\u003eInt-\u003eIO(Vector Double)",
@@ -4726,6 +5114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fromComplex",
           "package": "hmatrix",
@@ -4735,6 +5124,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fromComplex",
           "normalized": "a(Complex b)-\u003e(a b,a b)",
@@ -4751,6 +5141,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a matrix from an ASCII file (the number of rows and columns must be known in advance).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fromFile",
           "package": "hmatrix",
@@ -4761,6 +5152,7 @@
         "index": {
           "description": "Loads matrix from an ASCII file the number of rows and columns must be known in advance",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fromFile",
           "normalized": "FilePath-\u003e(Int,Int)-\u003eIO(Matrix Double)",
@@ -4777,6 +5169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a vector from an ASCII file (the number of elements must be known in advance).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fscanfVector",
           "package": "hmatrix",
@@ -4787,6 +5180,7 @@
         "index": {
           "description": "Loads vector from an ASCII file the number of elements must be known in advance",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fscanfVector",
           "normalized": "FilePath-\u003eInt-\u003eIO(Vector Double)",
@@ -4803,6 +5197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves the elements of a vector to a binary file.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "fwriteVector",
           "package": "hmatrix",
@@ -4813,6 +5208,7 @@
         "index": {
           "description": "Saves the elements of vector to binary file",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "fwriteVector",
           "normalized": "FilePath-\u003eVector Double-\u003eIO()",
@@ -4829,6 +5225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains a matrix whose rows are pseudorandom samples from a multivariate\n Gaussian distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "gaussianSample",
           "package": "hmatrix",
@@ -4838,6 +5235,7 @@
         "index": {
           "description": "Obtains matrix whose rows are pseudorandom samples from multivariate Gaussian distribution",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "gaussianSample",
           "normalized": "Seed-\u003eInt-\u003eVector Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -4854,6 +5252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates the identity matrix of given dimension\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "ident",
           "package": "hmatrix",
@@ -4864,6 +5263,7 @@
         "index": {
           "description": "creates the identity matrix of given dimension",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "ident",
           "normalized": "Int-\u003eMatrix a",
@@ -4879,6 +5279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econstant structure of given size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "konst",
           "package": "hmatrix",
@@ -4889,6 +5290,7 @@
         "index": {
           "description": "constant structure of given size",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "konst",
           "normalized": "a-\u003eIndexOf b-\u003eb a",
@@ -4903,6 +5305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "konst'",
           "package": "hmatrix",
@@ -4912,6 +5315,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "konst'",
           "normalized": "a-\u003eb-\u003eContainerOf' b a",
@@ -4927,6 +5331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKronecker product of two matrices.\n\u003c/p\u003e\u003cpre\u003em1=(2\u003e\u003c3)\n [ 1.0,  2.0, 0.0\n , 0.0, -1.0, 3.0 ]\nm2=(4\u003e\u003c3)\n [  1.0,  2.0,  3.0\n ,  4.0,  5.0,  6.0\n ,  7.0,  8.0,  9.0\n , 10.0, 11.0, 12.0 ]\u003c/pre\u003e\u003cpre\u003e\u003e kronecker m1 m2\n(8\u003e\u003c9)\n [  1.0,  2.0,  3.0,   2.0,   4.0,   6.0,  0.0,  0.0,  0.0\n ,  4.0,  5.0,  6.0,   8.0,  10.0,  12.0,  0.0,  0.0,  0.0\n ,  7.0,  8.0,  9.0,  14.0,  16.0,  18.0,  0.0,  0.0,  0.0\n , 10.0, 11.0, 12.0,  20.0,  22.0,  24.0,  0.0,  0.0,  0.0\n ,  0.0,  0.0,  0.0,  -1.0,  -2.0,  -3.0,  3.0,  6.0,  9.0\n ,  0.0,  0.0,  0.0,  -4.0,  -5.0,  -6.0, 12.0, 15.0, 18.0\n ,  0.0,  0.0,  0.0,  -7.0,  -8.0,  -9.0, 21.0, 24.0, 27.0\n ,  0.0,  0.0,  0.0, -10.0, -11.0, -12.0, 30.0, 33.0, 36.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "kronecker",
           "package": "hmatrix",
@@ -4937,6 +5342,7 @@
         "index": {
           "description": "Kronecker product of two matrices m1 m2 kronecker m1 m2",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "kronecker",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -4952,6 +5358,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTool to display matrices with latex syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "latexFormat",
           "package": "hmatrix",
@@ -4961,6 +5368,7 @@
         "index": {
           "description": "Tool to display matrices with latex syntax",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "latexFormat",
           "normalized": "String-\u003eString-\u003eString",
@@ -4977,6 +5385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a real vector containing a range of values:\n\u003c/p\u003e\u003cpre\u003e\u003e linspace 5 (-3,7)\n5 |\u003e [-3.0,-0.5,2.0,4.5,7.0]\u003c/pre\u003e\u003cp\u003eLogarithmic spacing can be defined as follows:\n\u003c/p\u003e\u003cpre\u003elogspace n (a,b) = 10 ** linspace n (a,b)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "linspace",
           "package": "hmatrix",
@@ -4987,6 +5396,7 @@
         "index": {
           "description": "Creates real vector containing range of values linspace Logarithmic spacing can be defined as follows logspace linspace",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "linspace",
           "normalized": "Int-\u003e(a,a)-\u003eVector a",
@@ -5002,6 +5412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLoads a matrix from an ASCII file formatted as a 2D table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "loadMatrix",
           "package": "hmatrix",
@@ -5012,6 +5423,7 @@
         "index": {
           "description": "Loads matrix from an ASCII file formatted as table",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "loadMatrix",
           "normalized": "FilePath-\u003eIO(Matrix Double)",
@@ -5027,6 +5439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "mXm",
           "package": "hmatrix",
@@ -5036,6 +5449,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "mXm",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -5051,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "mXv",
           "package": "hmatrix",
@@ -5060,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "mXv",
           "normalized": "Matrix a-\u003eVector a-\u003eVector a",
@@ -5076,6 +5492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue of max element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "maxElement",
           "package": "hmatrix",
@@ -5086,6 +5503,7 @@
         "index": {
           "description": "value of max element",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "maxElement",
           "normalized": "a b-\u003eb",
@@ -5102,6 +5520,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex of max element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "maxIndex",
           "package": "hmatrix",
@@ -5112,6 +5531,7 @@
         "index": {
           "description": "index of max element",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "maxIndex",
           "normalized": "a b-\u003eIndexOf a",
@@ -5128,6 +5548,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute mean vector and covariance matrix of the rows of a matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "meanCov",
           "package": "hmatrix",
@@ -5138,6 +5559,7 @@
         "index": {
           "description": "Compute mean vector and covariance matrix of the rows of matrix",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "meanCov",
           "normalized": "Matrix Double-\u003e(Vector Double,Matrix Double)",
@@ -5154,6 +5576,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evalue of min element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "minElement",
           "package": "hmatrix",
@@ -5164,6 +5587,7 @@
         "index": {
           "description": "value of min element",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "minElement",
           "normalized": "a b-\u003eb",
@@ -5180,6 +5604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eindex of min element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "minIndex",
           "package": "hmatrix",
@@ -5190,6 +5615,7 @@
         "index": {
           "description": "index of min element",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "minIndex",
           "normalized": "a b-\u003eIndexOf a",
@@ -5206,6 +5632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelement by element multiplication\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "mul",
           "package": "hmatrix",
@@ -5216,6 +5643,7 @@
         "index": {
           "description": "element by element multiplication",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "mul",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -5231,6 +5659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematrix product\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "multiply",
           "package": "hmatrix",
@@ -5241,6 +5670,7 @@
         "index": {
           "description": "matrix product",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "multiply",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -5256,6 +5686,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esum of absolute value of elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "norm1",
           "package": "hmatrix",
@@ -5266,6 +5697,7 @@
         "index": {
           "description": "sum of absolute value of elements",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "norm1",
           "normalized": "Vector a-\u003eRealOf a",
@@ -5281,6 +5713,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eeuclidean norm\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "norm2",
           "package": "hmatrix",
@@ -5291,6 +5724,7 @@
         "index": {
           "description": "euclidean norm",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "norm2",
           "normalized": "Vector a-\u003eRealOf a",
@@ -5306,6 +5740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eelement of maximum magnitude\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "normInf",
           "package": "hmatrix",
@@ -5316,6 +5751,7 @@
         "index": {
           "description": "element of maximum magnitude",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "normInf",
           "normalized": "Vector a-\u003eRealOf a",
@@ -5332,6 +5768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProvide optimal association order for a chain of matrix multiplications \n     and apply the multiplications.\n\u003c/p\u003e\u003cp\u003eThe algorithm is the well-known O(n^3) dynamic programming algorithm\n     that builds a pyramid of optimal associations.\n\u003c/p\u003e\u003cpre\u003e m1, m2, m3, m4 :: Matrix Double\n m1 = (10\u003e\u003c15) [1..]\n m2 = (15\u003e\u003c20) [1..]\n m3 = (20\u003e\u003c5) [1..]\n m4 = (5\u003e\u003c10) [1..]\n\u003c/pre\u003e\u003cpre\u003e \u003e\u003e\u003e optimiseMult [m1,m2,m3,m4]\n\u003c/pre\u003e\u003cp\u003ewill perform \u003ccode\u003e((m1 \u003ccode\u003e\u003ca\u003emultiply\u003c/a\u003e\u003c/code\u003e (m2 \u003ccode\u003e\u003ca\u003emultiply\u003c/a\u003e\u003c/code\u003e m3)) \u003ccode\u003e\u003ca\u003emultiply\u003c/a\u003e\u003c/code\u003e m4)\u003c/code\u003e\n\u003c/p\u003e\u003cp\u003eThe naive left-to-right multiplication would take \u003ccode\u003e4500\u003c/code\u003e scalar multiplications\nwhereas the optimised version performs \u003ccode\u003e2750\u003c/code\u003e scalar multiplications.  The complexity\nin this case is 32 (= 4^3/2) * (2 comparisons, 3 scalar multiplications, 3 scalar additions,\n5 lookups, 2 updates) + a constant (= three table allocations)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "optimiseMult",
           "package": "hmatrix",
@@ -5342,6 +5779,7 @@
         "index": {
           "description": "Provide optimal association order for chain of matrix multiplications and apply the multiplications The algorithm is the well-known dynamic programming algorithm that builds pyramid of optimal associations m1 m2 m3 m4 Matrix Double m1 m2 m3 m4 optimiseMult m1 m2 m3 m4 will perform m1 multiply m2 multiply m3 multiply m4 The naive left-to-right multiplication would take scalar multiplications whereas the optimised version performs scalar multiplications The complexity in this case is comparisons scalar multiplications scalar additions lookups updates constant three table allocations",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "optimiseMult",
           "normalized": "[Matrix a]-\u003eMatrix a",
@@ -5358,6 +5796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOuter product of two vectors.\n\u003c/p\u003e\u003cpre\u003e\u003e \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e [1,2,3] `outer` \u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e [5,2,3]\n(3\u003e\u003c3)\n [  5.0, 2.0, 3.0\n , 10.0, 4.0, 6.0\n , 15.0, 6.0, 9.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "outer",
           "package": "hmatrix",
@@ -5368,6 +5807,7 @@
         "index": {
           "description": "Outer product of two vectors fromList outer fromList",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "outer",
           "normalized": "Vector a-\u003eVector a-\u003eMatrix a",
@@ -5383,6 +5823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe product of elements (faster than using \u003ccode\u003efold\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "prodElements",
           "package": "hmatrix",
@@ -5393,6 +5834,7 @@
         "index": {
           "description": "the product of elements faster than using fold",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "prodElements",
           "normalized": "a b-\u003eb",
@@ -5409,6 +5851,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains a vector of pseudorandom elements from the the mt19937 generator in GSL, with a given seed. Use randomIO to get a random seed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "randomVector",
           "package": "hmatrix",
@@ -5418,6 +5861,7 @@
         "index": {
           "description": "Obtains vector of pseudorandom elements from the the mt19937 generator in GSL with given seed Use randomIO to get random seed",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "randomVector",
           "normalized": "Int-\u003eRandDist-\u003eInt-\u003eVector Double",
@@ -5434,6 +5878,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereads a matrix from a string containing a table of numbers.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "readMatrix",
           "package": "hmatrix",
@@ -5444,6 +5889,7 @@
         "index": {
           "description": "reads matrix from string containing table of numbers",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "readMatrix",
           "normalized": "String-\u003eMatrix Double",
@@ -5459,6 +5905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "real",
           "package": "hmatrix",
@@ -5468,6 +5915,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "real",
           "normalized": "a(RealOf b)-\u003ea b",
@@ -5483,6 +5931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSaves a matrix as 2D ASCII table.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "saveMatrix",
           "package": "hmatrix",
@@ -5492,6 +5941,7 @@
         "index": {
           "description": "Saves matrix as ASCII table",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "saveMatrix",
           "normalized": "FilePath-\u003eString-\u003eMatrix Double-\u003eIO()",
@@ -5508,6 +5958,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a structure with a single element\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "scalar",
           "package": "hmatrix",
@@ -5518,6 +5969,7 @@
         "index": {
           "description": "create structure with single element",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "scalar",
           "normalized": "a-\u003eb a",
@@ -5532,6 +5984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "scale",
           "package": "hmatrix",
@@ -5541,6 +5994,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "scale",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -5556,6 +6010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003escale the element by element reciprocal of the object:\n\u003c/p\u003e\u003cpre\u003escaleRecip 2 (fromList [5,i]) == 2 |\u003e [0.4 :+ 0.0,0.0 :+ (-2.0)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "scaleRecip",
           "package": "hmatrix",
@@ -5566,6 +6021,7 @@
         "index": {
           "description": "scale the element by element reciprocal of the object scaleRecip fromList",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "scaleRecip",
           "normalized": "a-\u003eb a-\u003eb a",
@@ -5581,6 +6037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "single",
           "package": "hmatrix",
@@ -5590,6 +6047,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "single",
           "normalized": "a b-\u003ea(SingleOf b)",
@@ -5605,6 +6063,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more efficient implementation of \u003ccode\u003ecmap (\\x -\u003e if x\u003e0 then 1 else 0)\u003c/code\u003e\n\u003c/p\u003e\u003cpre\u003e\u003e step $ linspace 5 (-1,1::Double)\n 5 |\u003e [0.0,0.0,0.0,1.0,1.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "step",
           "package": "hmatrix",
@@ -5615,6 +6074,7 @@
         "index": {
           "description": "more efficient implementation of cmap if then else step linspace Double",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "step",
           "normalized": "a b-\u003ea b",
@@ -5629,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "sub",
           "package": "hmatrix",
@@ -5638,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "sub",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -5653,6 +6115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe sum of elements (faster than using \u003ccode\u003efold\u003c/code\u003e)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "sumElements",
           "package": "hmatrix",
@@ -5663,6 +6126,7 @@
         "index": {
           "description": "the sum of elements faster than using fold",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "sumElements",
           "normalized": "a b-\u003eb",
@@ -5678,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "toComplex",
           "package": "hmatrix",
@@ -5687,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "toComplex",
           "normalized": "(a b,a b)-\u003ea(Complex b)",
@@ -5703,6 +6169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains a matrix whose rows are pseudorandom samples from a multivariate\n uniform distribution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "uniformSample",
           "package": "hmatrix",
@@ -5712,6 +6179,7 @@
         "index": {
           "description": "Obtains matrix whose rows are pseudorandom samples from multivariate uniform distribution",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "uniformSample",
           "normalized": "Seed-\u003eInt-\u003e[(Double,Double)]-\u003eMatrix Double",
@@ -5727,6 +6195,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "vXm",
           "package": "hmatrix",
@@ -5736,6 +6205,7 @@
         },
         "index": {
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "vXm",
           "normalized": "Vector a-\u003eMatrix a-\u003eVector a",
@@ -5752,6 +6222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a vector using a function for showing matrices.\n\u003c/p\u003e\u003cpre\u003edisp = putStr . vecdisp (\u003ccode\u003e\u003ca\u003edispf\u003c/a\u003e\u003c/code\u003e 2)\n\n\u003e disp (\u003ccode\u003elinspace\u003c/code\u003e 10 (0,1))\n10 |\u003e 0.00  0.11  0.22  0.33  0.44  0.56  0.67  0.78  0.89  1.00\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.Container",
           "name": "vecdisp",
           "package": "hmatrix",
@@ -5762,6 +6233,7 @@
         "index": {
           "description": "Show vector using function for showing matrices disp putStr vecdisp dispf disp linspace",
           "hierarchy": "Numeric Container",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.Container",
           "name": "vecdisp",
           "normalized": "(Matrix a-\u003eString)-\u003eVector a-\u003eString",
@@ -5777,6 +6249,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumerical differentiation.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Numerical-Differentiation.html#Numerical-Differentiation\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eFrom the GSL manual: \"The functions described in this chapter compute numerical derivatives by finite differencing. An adaptive algorithm is used to find the best choice of finite difference and to estimate the error in the derivative.\"\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Differentiation",
           "name": "Differentiation",
           "package": "hmatrix",
@@ -5786,6 +6259,7 @@
         "index": {
           "description": "Numerical differentiation http www.gnu.org software gsl manual html node Numerical-Differentiation.html Numerical-Differentiation From the GSL manual The functions described in this chapter compute numerical derivatives by finite differencing An adaptive algorithm is used to find the best choice of finite difference and to estimate the error in the derivative",
           "hierarchy": "Numeric GSL Differentiation",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Differentiation",
           "name": "Differentiation",
           "package": "hmatrix",
@@ -5800,6 +6274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdaptive backward difference algorithm, \u003cem\u003egsl_deriv_backward\u003c/em\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivBackward",
           "package": "hmatrix",
@@ -5809,6 +6284,7 @@
         "index": {
           "description": "Adaptive backward difference algorithm gsl deriv backward",
           "hierarchy": "Numeric GSL Differentiation",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivBackward",
           "normalized": "Double-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Double)",
@@ -5825,6 +6301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdaptive central difference algorithm, \u003cem\u003egsl_deriv_central\u003c/em\u003e. For example:\n\u003c/p\u003e\u003cpre\u003e \u003e let deriv = derivCentral 0.01 \n \u003e deriv sin (pi/4)\n(0.7071067812000676,1.0600063101654055e-10)\n \u003e cos (pi/4)\n0.7071067811865476 \n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivCentral",
           "package": "hmatrix",
@@ -5834,6 +6311,7 @@
         "index": {
           "description": "Adaptive central difference algorithm gsl deriv central For example let deriv derivCentral deriv sin pi e-10 cos pi",
           "hierarchy": "Numeric GSL Differentiation",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivCentral",
           "normalized": "Double-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Double)",
@@ -5850,6 +6328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdaptive forward difference algorithm, \u003cem\u003egsl_deriv_forward\u003c/em\u003e. The function is evaluated only at points greater than x, and never at x itself. The derivative is returned in result and an estimate of its absolute error is returned in abserr. This function should be used if f(x) has a discontinuity at x, or is undefined for values less than x. A backward derivative can be obtained using a negative step.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivForward",
           "package": "hmatrix",
@@ -5859,6 +6338,7 @@
         "index": {
           "description": "Adaptive forward difference algorithm gsl deriv forward The function is evaluated only at points greater than and never at itself The derivative is returned in result and an estimate of its absolute error is returned in abserr This function should be used if has discontinuity at or is undefined for values less than backward derivative can be obtained using negative step",
           "hierarchy": "Numeric GSL Differentiation",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Differentiation",
           "name": "derivForward",
           "normalized": "Double-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Double)",
@@ -5875,6 +6355,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNonlinear Least-Squares Fitting\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Nonlinear-Least_002dSquares-Fitting.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe example program in the GSL manual (see examples/fitting.hs):\n\u003c/p\u003e\u003cpre\u003edat = [\n ([0.0],([6.0133918608118675],0.1)),\n ([1.0],([5.5153769909966535],0.1)),\n ([2.0],([5.261094606015287],0.1)),\n ...\n ([39.0],([1.0619821710802808],0.1))]\n\nexpModel [a,lambda,b] [t] = [a * exp (-lambda * t) + b]\n\nexpModelDer [a,lambda,b] [t] = [[exp (-lambda * t), -t * a * exp(-lambda*t) , 1]]\n\n(sol,path) = fitModelScaled 1E-4 1E-4 20 (expModel, expModelDer) dat [1,0,0]\n\n\u003e path\n(6\u003e\u003c5)\n [ 1.0,  76.45780563978782, 1.6465931240727802, 1.8147715267618197e-2, 0.6465931240727797\n , 2.0, 37.683816318260355,  2.858760367632973,  8.092094813253975e-2, 1.4479636296208662\n , 3.0,    9.5807893736187,  4.948995119561291,   0.11942927999921617, 1.0945766509238248\n , 4.0,  5.630494933603935,  5.021755718065913,   0.10287787128056883, 1.0338835440862608\n , 5.0,  5.443976278682909,  5.045204331329302,   0.10405523433131504,  1.019416067207375\n , 6.0, 5.4439736648994685,  5.045357818922331,   0.10404905846029407, 1.0192487112786812 ]\n\u003e sol\n[(5.045357818922331,6.027976702418132e-2),\n(0.10404905846029407,3.157045047172834e-3),\n(1.0192487112786812,3.782067731353722e-2)]\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "Fitting",
           "package": "hmatrix",
@@ -5884,6 +6365,7 @@
         "index": {
           "description": "Nonlinear Least-Squares Fitting http www.gnu.org software gsl manual html node Nonlinear-Least dSquares-Fitting.html The example program in the GSL manual see examples fitting.hs dat expModel lambda exp lambda expModelDer lambda exp lambda exp lambda sol path fitModelScaled E-4 E-4 expModel expModelDer dat path e-2 e-2 sol e-2 e-3 e-2",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "Fitting",
           "package": "hmatrix",
@@ -5897,6 +6379,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "FittingMethod",
           "package": "hmatrix",
@@ -5905,6 +6388,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "FittingMethod",
           "package": "hmatrix",
@@ -5919,6 +6403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is an unscaled version of the lmder algorithm. The elements of the diagonal scaling matrix D are set to 1. This algorithm may be useful in circumstances where the scaled version of lmder converges too slowly, or the function is already scaled appropriately.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "LevenbergMarquardt",
           "package": "hmatrix",
@@ -5929,6 +6414,7 @@
         "index": {
           "description": "This is an unscaled version of the lmder algorithm The elements of the diagonal scaling matrix are set to This algorithm may be useful in circumstances where the scaled version of lmder converges too slowly or the function is already scaled appropriately",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "LevenbergMarquardt",
           "package": "hmatrix",
@@ -5943,6 +6429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInterface to gsl_multifit_fdfsolver_lmsder. This is a robust and efficient version of the Levenberg-Marquardt algorithm as implemented in the scaled lmder routine in minpack. Minpack was written by Jorge J. More, Burton S. Garbow and Kenneth E. Hillstrom.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "LevenbergMarquardtScaled",
           "package": "hmatrix",
@@ -5953,6 +6440,7 @@
         "index": {
           "description": "Interface to gsl multifit fdfsolver lmsder This is robust and efficient version of the Levenberg-Marquardt algorithm as implemented in the scaled lmder routine in minpack Minpack was written by Jorge More Burton Garbow and Kenneth Hillstrom",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "LevenbergMarquardtScaled",
           "package": "hmatrix",
@@ -5967,6 +6455,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher level interface to \u003ccode\u003e\u003ca\u003enlFitting\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLevenbergMarquardt\u003c/a\u003e\u003c/code\u003e. The optimization function and\n Jacobian are automatically built from a model f vs x = y and its derivatives, and a list of\n instances (x,y) to be fitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "fitModel",
           "package": "hmatrix",
@@ -5976,6 +6465,7 @@
         "index": {
           "description": "Higher level interface to nlFitting LevenbergMarquardt The optimization function and Jacobian are automatically built from model vs and its derivatives and list of instances to be fitted",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "fitModel",
           "normalized": "Double-\u003eDouble-\u003eInt-\u003e([Double]-\u003ea-\u003e[Double],[Double]-\u003ea-\u003e[[Double]])-\u003e[(a,[Double])]-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -5992,6 +6482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHigher level interface to \u003ccode\u003e\u003ca\u003enlFitting\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eLevenbergMarquardtScaled\u003c/a\u003e\u003c/code\u003e. The optimization function and\n Jacobian are automatically built from a model f vs x = y and its derivatives, and a list of\n instances (x, (y,sigma)) to be fitted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "fitModelScaled",
           "package": "hmatrix",
@@ -6001,6 +6492,7 @@
         "index": {
           "description": "Higher level interface to nlFitting LevenbergMarquardtScaled The optimization function and Jacobian are automatically built from model vs and its derivatives and list of instances sigma to be fitted",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "fitModelScaled",
           "normalized": "Double-\u003eDouble-\u003eInt-\u003e([Double]-\u003ea-\u003e[Double],[Double]-\u003ea-\u003e[[Double]])-\u003e[(a,([Double],Double))]-\u003e[Double]-\u003e([(Double,Double)],Matrix Double)",
@@ -6017,6 +6509,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNonlinear multidimensional least-squares fitting.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fitting",
           "name": "nlFitting",
           "package": "hmatrix",
@@ -6026,6 +6519,7 @@
         "index": {
           "description": "Nonlinear multidimensional least-squares fitting",
           "hierarchy": "Numeric GSL Fitting",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fitting",
           "name": "nlFitting",
           "normalized": "FittingMethod-\u003eDouble-\u003eDouble-\u003eInt-\u003e(Vector Double-\u003eVector Double)-\u003e(Vector Double-\u003eMatrix Double)-\u003eVector Double-\u003e(Vector Double,Matrix Double)",
@@ -6042,6 +6536,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFourier Transform.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Fast-Fourier-Transforms.html#Fast-Fourier-Transforms\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fourier",
           "name": "Fourier",
           "package": "hmatrix",
@@ -6051,6 +6546,7 @@
         "index": {
           "description": "Fourier Transform http www.gnu.org software gsl manual html node Fast-Fourier-Transforms.html Fast-Fourier-Transforms",
           "hierarchy": "Numeric GSL Fourier",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fourier",
           "name": "Fourier",
           "package": "hmatrix",
@@ -6065,6 +6561,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFast 1D Fourier transform of a \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e(\u003c/code\u003e\u003ccode\u003e\u003ca\u003eComplex\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e\u003ccode\u003e)\u003c/code\u003e using \u003cem\u003egsl_fft_complex_forward\u003c/em\u003e. It uses the same scaling conventions as GNU Octave.\n\u003c/p\u003e\u003cpre\u003e\u003e fft (\u003ccode\u003e\u003ca\u003efromList\u003c/a\u003e\u003c/code\u003e [1,2,3,4])\nvector (4) [10.0 :+ 0.0,(-2.0) :+ 2.0,(-2.0) :+ 0.0,(-2.0) :+ (-2.0)]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fourier",
           "name": "fft",
           "package": "hmatrix",
@@ -6075,6 +6572,7 @@
         "index": {
           "description": "Fast Fourier transform of Vector Complex Double using gsl fft complex forward It uses the same scaling conventions as GNU Octave fft fromList vector",
           "hierarchy": "Numeric GSL Fourier",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fourier",
           "name": "fft",
           "normalized": "Vector(Complex Double)-\u003eVector(Complex Double)",
@@ -6090,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe inverse of \u003ccode\u003e\u003ca\u003efft\u003c/a\u003e\u003c/code\u003e, using \u003cem\u003egsl_fft_complex_inverse\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Fourier",
           "name": "ifft",
           "package": "hmatrix",
@@ -6100,6 +6599,7 @@
         "index": {
           "description": "The inverse of fft using gsl fft complex inverse",
           "hierarchy": "Numeric GSL Fourier",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Fourier",
           "name": "ifft",
           "normalized": "Vector(Complex Double)-\u003eVector(Complex Double)",
@@ -6115,6 +6615,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNumerical integration routines.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Numerical-Integration.html#Numerical-Integration\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "Integration",
           "package": "hmatrix",
@@ -6124,6 +6625,7 @@
         "index": {
           "description": "Numerical integration routines http www.gnu.org software gsl manual html node Numerical-Integration.html Numerical-Integration",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "Integration",
           "package": "hmatrix",
@@ -6138,6 +6640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_cquad\u003c/em\u003e (quadrature\nfor general integrands).  From the GSL manual:\n\u003c/p\u003e\u003cpre\u003eCQUAD is a new doubly-adaptive general-purpose quadrature routine\nwhich can handle most types of singularities, non-numerical function\nvalues such as Inf or NaN, as well as some divergent integrals. It\ngenerally requires more function evaluations than the integration\nroutines in QUADPACK, yet fails less often for difficult integrands.\u003c/pre\u003e\u003cp\u003eFor example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateCQUAD 1E-12 1000 \n\u003e let f a x = exp(-a * x^2)\n\u003e quad (f 0.5) 2 5\n(5.7025405463957006e-2,9.678874441303705e-16,95)\u003c/pre\u003e\u003cp\u003eUnlike other quadrature methods, integrateCQUAD also returns the\nnumber of function evaluations required.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateCQUAD",
           "package": "hmatrix",
@@ -6147,6 +6650,7 @@
         "index": {
           "description": "Numerical integration using gsl integration cquad quadrature for general integrands From the GSL manual CQUAD is new doubly-adaptive general-purpose quadrature routine which can handle most types of singularities non-numerical function values such as Inf or NaN as well as some divergent integrals It generally requires more function evaluations than the integration routines in QUADPACK yet fails less often for difficult integrands For example let quad integrateCQUAD E-12 let exp quad e-2 e-16 Unlike other quadrature methods integrateCQUAD also returns the number of function evaluations required",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateCQUAD",
           "normalized": "Double-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003eDouble-\u003e(Double,Double,Int)",
@@ -6163,6 +6667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_qagi\u003c/em\u003e (integration over the infinite integral -Inf..Inf using QAGS). \nFor example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateQAGI 1E-9 1000 \n\u003e let f a x = exp(-a * x^2)\n\u003e quad (f 0.5) \n(2.5066282746310002,6.229215880648858e-11)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGI",
           "package": "hmatrix",
@@ -6172,6 +6677,7 @@
         "index": {
           "description": "Numerical integration using gsl integration qagi integration over the infinite integral Inf..Inf using QAGS For example let quad integrateQAGI E-9 let exp quad e-11",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGI",
           "normalized": "Double-\u003eInt-\u003e(Double-\u003eDouble)-\u003e(Double,Double)",
@@ -6188,6 +6694,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_qagil\u003c/em\u003e (integration over the semi-infinite integral -Inf..b). \nFor example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateQAGIL 1E-9 1000 \n\u003e let f a x = exp(-a * x^2)\n\u003e quad (f 0.5) 0 \n(1.2533141373155001,3.114607940324429e-11)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGIL",
           "package": "hmatrix",
@@ -6197,6 +6704,7 @@
         "index": {
           "description": "Numerical integration using gsl integration qagil integration over the semi-infinite integral Inf..b For example let quad integrateQAGIL E-9 let exp quad e-11",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGIL",
           "normalized": "Double-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Double)",
@@ -6213,6 +6721,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_qagiu\u003c/em\u003e (integration over the semi-infinite integral a..Inf). \nFor example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateQAGIU 1E-9 1000 \n\u003e let f a x = exp(-a * x^2)\n\u003e quad (f 0.5) 0\n(1.2533141373155001,3.114607940324429e-11)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGIU",
           "package": "hmatrix",
@@ -6222,6 +6731,7 @@
         "index": {
           "description": "Numerical integration using gsl integration qagiu integration over the semi-infinite integral a..Inf For example let quad integrateQAGIU E-9 let exp quad e-11",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGIU",
           "normalized": "Double-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Double)",
@@ -6238,6 +6748,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_qags\u003c/em\u003e (adaptive integration with singularities). For example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateQAGS 1E-9 1000 \n\u003e let f a x = x**(-0.5) * log (a*x)\n\u003e quad (f 1) 0 1\n(-3.999999999999974,4.871658632055187e-13)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGS",
           "package": "hmatrix",
@@ -6247,6 +6758,7 @@
         "index": {
           "description": "Numerical integration using gsl integration qags adaptive integration with singularities For example let quad integrateQAGS E-9 let log quad e-13",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQAGS",
           "normalized": "Double-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003eDouble-\u003e(Double,Double)",
@@ -6263,6 +6775,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumerical integration using \u003cem\u003egsl_integration_qng\u003c/em\u003e (useful for fast integration of smooth functions). For example:\n\u003c/p\u003e\u003cpre\u003e\u003e let quad = integrateQNG 1E-6 \n\u003e quad (\\x -\u003e 4/(1+x*x)) 0 1 \n(3.141592653589793,3.487868498008632e-14)\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQNG",
           "package": "hmatrix",
@@ -6272,6 +6785,7 @@
         "index": {
           "description": "Numerical integration using gsl integration qng useful for fast integration of smooth functions For example let quad integrateQNG E-6 quad e-14",
           "hierarchy": "Numeric GSL Integration",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Integration",
           "name": "integrateQNG",
           "normalized": "Double-\u003e(Double-\u003eDouble)-\u003eDouble-\u003eDouble-\u003e(Double,Double)",
@@ -6288,6 +6802,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMinimization of a multidimensional function using some of the algorithms described in:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Multidimensional-Minimization.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe example in the GSL manual:\n\u003c/p\u003e\u003cpre\u003e\n\nf [x,y] = 10*(x-1)^2 + 20*(y-2)^2 + 30\n\nmain = do\n    let (s,p) = minimize NMSimplex2 1E-2 30 [1,1] f [5,7]\n    print s\n    print p\n\n\u003e main\n[0.9920430849306288,1.9969168063253182]\n 0.000  512.500  1.130  6.500  5.000\n 1.000  290.625  1.409  5.250  4.000\n 2.000  290.625  1.409  5.250  4.000\n 3.000  252.500  1.409  5.500  1.000\n ...\n22.000   30.001  0.013  0.992  1.997\n23.000   30.001  0.008  0.992  1.997\n\u003c/pre\u003e\u003cp\u003eThe path to the solution can be graphically shown by means of:\n\u003c/p\u003e\u003cpre\u003e\u003ccode\u003e\u003ca\u003emplot\u003c/a\u003e\u003c/code\u003e $ drop 3 (\u003ccode\u003e\u003ca\u003etoColumns\u003c/a\u003e\u003c/code\u003e p)\u003c/pre\u003e\u003cp\u003eTaken from the GSL manual:\n\u003c/p\u003e\u003cp\u003eThe vector Broyden-Fletcher-Goldfarb-Shanno (BFGS) algorithm is a quasi-Newton method which builds up an approximation to the second derivatives of the function f using the difference between successive gradient vectors. By combining the first and second derivatives the algorithm is able to take Newton-type steps towards the function minimum, assuming quadratic behavior in that region.\n\u003c/p\u003e\u003cp\u003eThe bfgs2 version of this minimizer is the most efficient version available, and is a faithful implementation of the line minimization scheme described in Fletcher's Practical Methods of Optimization, Algorithms 2.6.2 and 2.6.4. It supercedes the original bfgs routine and requires substantially fewer function and gradient evaluations. The user-supplied tolerance tol corresponds to the parameter sigma used by Fletcher. A value of 0.1 is recommended for typical use (larger values correspond to less accurate line searches).\n\u003c/p\u003e\u003cp\u003eThe nmsimplex2 version is a new O(N) implementation of the earlier O(N^2) nmsimplex minimiser. It calculates the size of simplex as the rms distance of each vertex from the center rather than the mean distance, which has the advantage of allowing a linear update.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "Minimization",
           "package": "hmatrix",
@@ -6297,6 +6812,7 @@
         "index": {
           "description": "Minimization of multidimensional function using some of the algorithms described in http www.gnu.org software gsl manual html node Multidimensional-Minimization.html The example in the GSL manual x-1 y-2 main do let minimize NMSimplex2 E-2 print print main The path to the solution can be graphically shown by means of mplot drop toColumns Taken from the GSL manual The vector Broyden-Fletcher-Goldfarb-Shanno BFGS algorithm is quasi-Newton method which builds up an approximation to the second derivatives of the function using the difference between successive gradient vectors By combining the first and second derivatives the algorithm is able to take Newton-type steps towards the function minimum assuming quadratic behavior in that region The bfgs2 version of this minimizer is the most efficient version available and is faithful implementation of the line minimization scheme described in Fletcher Practical Methods of Optimization Algorithms and It supercedes the original bfgs routine and requires substantially fewer function and gradient evaluations The user-supplied tolerance tol corresponds to the parameter sigma used by Fletcher value of is recommended for typical use larger values correspond to less accurate line searches The nmsimplex2 version is new implementation of the earlier nmsimplex minimiser It calculates the size of simplex as the rms distance of each vertex from the center rather than the mean distance which has the advantage of allowing linear update",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "Minimization",
           "package": "hmatrix",
@@ -6310,6 +6826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "MinimizeMethod",
           "package": "hmatrix",
@@ -6318,6 +6835,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "MinimizeMethod",
           "package": "hmatrix",
@@ -6331,6 +6849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "MinimizeMethodD",
           "package": "hmatrix",
@@ -6339,6 +6858,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "MinimizeMethodD",
           "package": "hmatrix",
@@ -6352,6 +6872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "UniMinimizeMethod",
           "package": "hmatrix",
@@ -6360,6 +6881,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "UniMinimizeMethod",
           "package": "hmatrix",
@@ -6373,6 +6895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "BrentMini",
           "package": "hmatrix",
@@ -6382,6 +6905,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "BrentMini",
           "package": "hmatrix",
@@ -6395,6 +6919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "ConjugateFR",
           "package": "hmatrix",
@@ -6404,6 +6929,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "ConjugateFR",
           "package": "hmatrix",
@@ -6417,6 +6943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "ConjugatePR",
           "package": "hmatrix",
@@ -6426,6 +6953,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "ConjugatePR",
           "package": "hmatrix",
@@ -6439,6 +6967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "GoldenSection",
           "package": "hmatrix",
@@ -6448,6 +6977,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "GoldenSection",
           "package": "hmatrix",
@@ -6461,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "NMSimplex",
           "package": "hmatrix",
@@ -6470,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "NMSimplex",
           "package": "hmatrix",
@@ -6483,6 +7015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "NMSimplex2",
           "package": "hmatrix",
@@ -6492,6 +7025,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "NMSimplex2",
           "package": "hmatrix",
@@ -6505,6 +7039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "QuadGolden",
           "package": "hmatrix",
@@ -6514,6 +7049,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "QuadGolden",
           "package": "hmatrix",
@@ -6527,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "SteepestDescent",
           "package": "hmatrix",
@@ -6536,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "SteepestDescent",
           "package": "hmatrix",
@@ -6549,6 +7087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "VectorBFGS",
           "package": "hmatrix",
@@ -6558,6 +7097,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "VectorBFGS",
           "package": "hmatrix",
@@ -6571,6 +7111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "VectorBFGS2",
           "package": "hmatrix",
@@ -6580,6 +7121,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "VectorBFGS2",
           "package": "hmatrix",
@@ -6594,6 +7136,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimization without derivatives\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimize",
           "package": "hmatrix",
@@ -6603,6 +7146,7 @@
         "index": {
           "description": "Minimization without derivatives",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimize",
           "normalized": "MinimizeMethod-\u003eDouble-\u003eInt-\u003e[Double]-\u003e([Double]-\u003eDouble)-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -6618,6 +7162,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use minimizeD ConjugateFR eps maxit step tol f g xi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeConjugateGradient",
           "package": "hmatrix",
@@ -6628,6 +7173,7 @@
         "index": {
           "description": "Deprecated use minimizeD ConjugateFR eps maxit step tol xi",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeConjugateGradient",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eInt-\u003e([Double]-\u003eDouble)-\u003e([Double]-\u003e[Double])-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -6644,6 +7190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimization with derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeD",
           "package": "hmatrix",
@@ -6653,6 +7200,7 @@
         "index": {
           "description": "Minimization with derivatives",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeD",
           "normalized": "MinimizeMethodD-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003e([Double]-\u003eDouble)-\u003e([Double]-\u003e[Double])-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -6668,6 +7216,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use minimize NMSimplex2 eps maxit sizes f xi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeNMSimplex",
           "package": "hmatrix",
@@ -6678,6 +7227,7 @@
         "index": {
           "description": "Deprecated use minimize NMSimplex2 eps maxit sizes xi",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeNMSimplex",
           "normalized": "([Double]-\u003eDouble)-\u003e[Double]-\u003e[Double]-\u003eDouble-\u003eInt-\u003e([Double],Matrix Double)",
@@ -6694,6 +7244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimization without derivatives (vector version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeV",
           "package": "hmatrix",
@@ -6703,6 +7254,7 @@
         "index": {
           "description": "Minimization without derivatives vector version",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeV",
           "normalized": "MinimizeMethod-\u003eDouble-\u003eInt-\u003eVector Double-\u003e(Vector Double-\u003eDouble)-\u003eVector Double-\u003e(Vector Double,Matrix Double)",
@@ -6718,6 +7270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimization with derivatives (vector version)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeVD",
           "package": "hmatrix",
@@ -6727,6 +7280,7 @@
         "index": {
           "description": "Minimization with derivatives vector version",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeVD",
           "normalized": "MinimizeMethodD-\u003eDouble-\u003eInt-\u003eDouble-\u003eDouble-\u003e(Vector Double-\u003eDouble)-\u003e(Vector Double-\u003eVector Double)-\u003eVector Double-\u003e(Vector Double,Matrix Double)",
@@ -6743,6 +7297,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use minimizeD VectorBFGS2 eps maxit step tol f g xi\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeVectorBFGS2",
           "package": "hmatrix",
@@ -6753,6 +7308,7 @@
         "index": {
           "description": "Deprecated use minimizeD VectorBFGS2 eps maxit step tol xi",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "minimizeVectorBFGS2",
           "normalized": "Double-\u003eDouble-\u003eDouble-\u003eInt-\u003e([Double]-\u003eDouble)-\u003e([Double]-\u003e[Double])-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -6769,6 +7325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOnedimensional minimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Minimization",
           "name": "uniMinimize",
           "package": "hmatrix",
@@ -6778,6 +7335,7 @@
         "index": {
           "description": "Onedimensional minimization",
           "hierarchy": "Numeric GSL Minimization",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Minimization",
           "name": "uniMinimize",
           "normalized": "UniMinimizeMethod-\u003eDouble-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(Double,Matrix Double)",
@@ -6794,6 +7352,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSolution of ordinary differential equation (ODE) initial value problems.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Ordinary-Differential-Equations.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eA simple example:\n\u003c/p\u003e\u003cpre\u003eimport Numeric.GSL\nimport Numeric.LinearAlgebra\nimport Graphics.Plot\n\nxdot t [x,v] = [v, -0.95*x - 0.1*v]\n\nts = linspace 100 (0,20 :: Double)\n\nsol = odeSolve xdot [10,0] ts\n\nmain = mplot (ts : toColumns sol)\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "ODE",
           "package": "hmatrix",
@@ -6803,6 +7362,7 @@
         "index": {
           "description": "Solution of ordinary differential equation ODE initial value problems http www.gnu.org software gsl manual html node Ordinary-Differential-Equations.html simple example import Numeric.GSL import Numeric.LinearAlgebra import Graphics.Plot xdot ts linspace Double sol odeSolve xdot ts main mplot ts toColumns sol",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "ODE",
           "package": "hmatrix",
@@ -6816,6 +7376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "Jacobian",
           "package": "hmatrix",
@@ -6824,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "Jacobian",
           "package": "hmatrix",
@@ -6838,6 +7400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStepping functions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "ODEMethod",
           "package": "hmatrix",
@@ -6847,6 +7410,7 @@
         "index": {
           "description": "Stepping functions",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "ODEMethod",
           "package": "hmatrix",
@@ -6861,6 +7425,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit Bulirsch-Stoer method of Bader and Deuflhard. The method is generally suitable for stiff problems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "BSimp",
           "package": "hmatrix",
@@ -6871,6 +7436,7 @@
         "index": {
           "description": "Implicit Bulirsch-Stoer method of Bader and Deuflhard The method is generally suitable for stiff problems",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "BSimp",
           "package": "hmatrix",
@@ -6885,6 +7451,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable-coefficient linear multistep Adams method in Nordsieck form. This stepper uses explicit Adams-Bashforth (predictor) and implicit Adams-Moulton (corrector) methods in P(EC)^m functional iteration mode. Method order varies dynamically between 1 and 12. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "MSAdams",
           "package": "hmatrix",
@@ -6895,6 +7462,7 @@
         "index": {
           "description": "variable-coefficient linear multistep Adams method in Nordsieck form This stepper uses explicit Adams-Bashforth predictor and implicit Adams-Moulton corrector methods in EC functional iteration mode Method order varies dynamically between and",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "MSAdams",
           "package": "hmatrix",
@@ -6909,6 +7477,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA variable-coefficient linear multistep backward differentiation formula (BDF) method in Nordsieck form. This stepper uses the explicit BDF formula as predictor and implicit BDF formula as corrector. A modified Newton iteration method is used to solve the system of non-linear equations. Method order varies dynamically between 1 and 5. The method is generally suitable for stiff problems.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "MSBDF",
           "package": "hmatrix",
@@ -6919,6 +7488,7 @@
         "index": {
           "description": "variable-coefficient linear multistep backward differentiation formula BDF method in Nordsieck form This stepper uses the explicit BDF formula as predictor and implicit BDF formula as corrector modified Newton iteration method is used to solve the system of non-linear equations Method order varies dynamically between and The method is generally suitable for stiff problems",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "MSBDF",
           "package": "hmatrix",
@@ -6933,6 +7503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit Gaussian first order Runge-Kutta. Also known as implicit Euler or backward Euler method. Error estimation is carried out by the step doubling method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK1imp",
           "package": "hmatrix",
@@ -6943,6 +7514,7 @@
         "index": {
           "description": "Implicit Gaussian first order Runge-Kutta Also known as implicit Euler or backward Euler method Error estimation is carried out by the step doubling method",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK1imp",
           "package": "hmatrix",
@@ -6957,6 +7529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded Runge-Kutta (2, 3) method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK2",
           "package": "hmatrix",
@@ -6967,6 +7540,7 @@
         "index": {
           "description": "Embedded Runge-Kutta method",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK2",
           "package": "hmatrix",
@@ -6981,6 +7555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit 2nd order Runge-Kutta at Gaussian points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK2imp",
           "package": "hmatrix",
@@ -6991,6 +7566,7 @@
         "index": {
           "description": "Implicit nd order Runge-Kutta at Gaussian points",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK2imp",
           "package": "hmatrix",
@@ -7005,6 +7581,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e4th order (classical) Runge-Kutta. The error estimate is obtained by halving the step-size. For more efficient estimate of the error, use the embedded methods.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK4",
           "package": "hmatrix",
@@ -7015,6 +7592,7 @@
         "index": {
           "description": "th order classical Runge-Kutta The error estimate is obtained by halving the step-size For more efficient estimate of the error use the embedded methods",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK4",
           "package": "hmatrix",
@@ -7029,6 +7607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplicit 4th order Runge-Kutta at Gaussian points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK4imp",
           "package": "hmatrix",
@@ -7039,6 +7618,7 @@
         "index": {
           "description": "Implicit th order Runge-Kutta at Gaussian points",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK4imp",
           "package": "hmatrix",
@@ -7053,6 +7633,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded Runge-Kutta Prince-Dormand (8,9) method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RK8pd",
           "package": "hmatrix",
@@ -7063,6 +7644,7 @@
         "index": {
           "description": "Embedded Runge-Kutta Prince-Dormand method",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RK8pd",
           "package": "hmatrix",
@@ -7077,6 +7659,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded Runge-Kutta Cash-Karp (4, 5) method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RKck",
           "package": "hmatrix",
@@ -7087,6 +7670,7 @@
         "index": {
           "description": "Embedded Runge-Kutta Cash-Karp method",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RKck",
           "package": "hmatrix",
@@ -7101,6 +7685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEmbedded Runge-Kutta-Fehlberg (4, 5) method. This method is a good general-purpose integrator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "RKf45",
           "package": "hmatrix",
@@ -7111,6 +7696,7 @@
         "index": {
           "description": "Embedded Runge-Kutta-Fehlberg method This method is good general-purpose integrator",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "RKf45",
           "package": "hmatrix",
@@ -7125,6 +7711,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003eodeSolveV\u003c/a\u003e\u003c/code\u003e with reasonable default parameters and system of equations defined using lists.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "odeSolve",
           "package": "hmatrix",
@@ -7134,6 +7721,7 @@
         "index": {
           "description": "version of odeSolveV with reasonable default parameters and system of equations defined using lists",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "odeSolve",
           "normalized": "(Double-\u003e[Double]-\u003e[Double])-\u003e[Double]-\u003eVector Double-\u003eMatrix Double",
@@ -7150,6 +7738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvolution of the system with adaptive step-size control.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.ODE",
           "name": "odeSolveV",
           "package": "hmatrix",
@@ -7159,6 +7748,7 @@
         "index": {
           "description": "Evolution of the system with adaptive step-size control",
           "hierarchy": "Numeric GSL ODE",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.ODE",
           "name": "odeSolveV",
           "normalized": "ODEMethod-\u003eDouble-\u003eDouble-\u003eDouble-\u003e(Double-\u003eVector Double-\u003eVector Double)-\u003eVector Double-\u003eVector Double-\u003eMatrix Double",
@@ -7175,6 +7765,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ePolynomials.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/General-Polynomial-Equations.html#General-Polynomial-Equations\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Polynomials",
           "name": "Polynomials",
           "package": "hmatrix",
@@ -7184,6 +7775,7 @@
         "index": {
           "description": "Polynomials http www.gnu.org software gsl manual html node General-Polynomial-Equations.html General-Polynomial-Equations",
           "hierarchy": "Numeric GSL Polynomials",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Polynomials",
           "name": "Polynomials",
           "package": "hmatrix",
@@ -7198,6 +7790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of general polynomial equations, using \u003cem\u003egsl_poly_complex_solve\u003c/em\u003e. For example,\n     the three solutions of x^3 + 8 = 0\n\u003c/p\u003e\u003cpre\u003e\u003e polySolve [8,0,0,1]\n[(-1.9999999999999998) :+ 0.0,\n 1.0 :+ 1.732050807568877,\n 1.0 :+ (-1.732050807568877)]\u003c/pre\u003e\u003cp\u003eThe example in the GSL manual: To find the roots of x^5 -1 = 0:\n\u003c/p\u003e\u003cpre\u003e\u003e polySolve [-1, 0, 0, 0, 0, 1]\n[(-0.8090169943749475) :+ 0.5877852522924731,\n(-0.8090169943749475) :+ (-0.5877852522924731),\n0.30901699437494734 :+ 0.9510565162951536,\n0.30901699437494734 :+ (-0.9510565162951536),\n1.0 :+ 0.0]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Polynomials",
           "name": "polySolve",
           "package": "hmatrix",
@@ -7208,6 +7801,7 @@
         "index": {
           "description": "Solution of general polynomial equations using gsl poly complex solve For example the three solutions of polySolve The example in the GSL manual To find the roots of polySolve",
           "hierarchy": "Numeric GSL Polynomials",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Polynomials",
           "name": "polySolve",
           "normalized": "[Double]-\u003e[Complex Double]",
@@ -7224,6 +7818,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMultidimensional root finding.\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.gnu.org/software/gsl/manual/html_node/Multidimensional-Root_002dFinding.html\u003c/a\u003e\n\u003c/p\u003e\u003cp\u003eThe example in the GSL manual:\n\u003c/p\u003e\u003cpre\u003eimport Numeric.GSL\nimport Numeric.LinearAlgebra(format)\nimport Text.Printf(printf)\n\nrosenbrock a b [x,y] = [ a*(1-x), b*(y-x^2) ]\n\ndisp = putStrLn . format \"  \" (printf \"%.3f\")\n\nmain = do\n    let (sol,path) = root Hybrids 1E-7 30 (rosenbrock 1 10) [-10,-5]\n    print sol\n    disp path\n\n\u003e main\n[1.0,1.0]\n 0.000  -10.000  -5.000  11.000  -1050.000\n 1.000   -3.976  24.827   4.976     90.203\n 2.000   -3.976  24.827   4.976     90.203\n 3.000   -3.976  24.827   4.976     90.203\n 4.000   -1.274  -5.680   2.274    -73.018\n 5.000   -1.274  -5.680   2.274    -73.018\n 6.000    0.249   0.298   0.751      2.359\n 7.000    0.249   0.298   0.751      2.359\n 8.000    1.000   0.878  -0.000     -1.218\n 9.000    1.000   0.989  -0.000     -0.108\n10.000    1.000   1.000   0.000      0.000\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Root",
           "package": "hmatrix",
@@ -7233,6 +7828,7 @@
         "index": {
           "description": "Multidimensional root finding http www.gnu.org software gsl manual html node Multidimensional-Root dFinding.html The example in the GSL manual import Numeric.GSL import Numeric.LinearAlgebra format import Text.Printf printf rosenbrock y-x disp putStrLn format printf main do let sol path root Hybrids E-7 rosenbrock print sol disp path main",
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Root",
           "package": "hmatrix",
@@ -7246,6 +7842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "RootMethod",
           "package": "hmatrix",
@@ -7254,6 +7851,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "RootMethod",
           "package": "hmatrix",
@@ -7267,6 +7865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "RootMethodJ",
           "package": "hmatrix",
@@ -7275,6 +7874,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "RootMethodJ",
           "package": "hmatrix",
@@ -7288,6 +7888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "UniRootMethod",
           "package": "hmatrix",
@@ -7296,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "UniRootMethod",
           "package": "hmatrix",
@@ -7309,6 +7911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "UniRootMethodJ",
           "package": "hmatrix",
@@ -7317,6 +7920,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "UniRootMethodJ",
           "package": "hmatrix",
@@ -7330,6 +7934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Bisection",
           "package": "hmatrix",
@@ -7339,6 +7944,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Bisection",
           "package": "hmatrix",
@@ -7352,6 +7958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Brent",
           "package": "hmatrix",
@@ -7361,6 +7968,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Brent",
           "package": "hmatrix",
@@ -7374,6 +7982,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Broyden",
           "package": "hmatrix",
@@ -7383,6 +7992,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Broyden",
           "package": "hmatrix",
@@ -7396,6 +8006,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "DNewton",
           "package": "hmatrix",
@@ -7405,6 +8016,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "DNewton",
           "package": "hmatrix",
@@ -7418,6 +8030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "FalsePos",
           "package": "hmatrix",
@@ -7427,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "FalsePos",
           "package": "hmatrix",
@@ -7440,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "GNewton",
           "package": "hmatrix",
@@ -7449,6 +8064,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "GNewton",
           "package": "hmatrix",
@@ -7462,6 +8078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Hybrid",
           "package": "hmatrix",
@@ -7471,6 +8088,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Hybrid",
           "package": "hmatrix",
@@ -7484,6 +8102,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "HybridJ",
           "package": "hmatrix",
@@ -7493,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "HybridJ",
           "package": "hmatrix",
@@ -7506,6 +8126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Hybrids",
           "package": "hmatrix",
@@ -7515,6 +8136,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Hybrids",
           "package": "hmatrix",
@@ -7528,6 +8150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "HybridsJ",
           "package": "hmatrix",
@@ -7537,6 +8160,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "HybridsJ",
           "package": "hmatrix",
@@ -7550,6 +8174,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Newton",
           "package": "hmatrix",
@@ -7559,6 +8184,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Newton",
           "package": "hmatrix",
@@ -7572,6 +8198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Secant",
           "package": "hmatrix",
@@ -7581,6 +8208,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Secant",
           "package": "hmatrix",
@@ -7594,6 +8222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "Steffenson",
           "package": "hmatrix",
@@ -7603,6 +8232,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "Steffenson",
           "package": "hmatrix",
@@ -7616,6 +8246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "UNewton",
           "package": "hmatrix",
@@ -7625,6 +8256,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "UNewton",
           "package": "hmatrix",
@@ -7639,6 +8271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNonlinear multidimensional root finding using algorithms that do not require \n any derivative information to be supplied by the user.\n Any derivatives needed are approximated by finite differences.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "root",
           "package": "hmatrix",
@@ -7648,6 +8281,7 @@
         "index": {
           "description": "Nonlinear multidimensional root finding using algorithms that do not require any derivative information to be supplied by the user Any derivatives needed are approximated by finite differences",
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "root",
           "normalized": "RootMethod-\u003eDouble-\u003eInt-\u003e([Double]-\u003e[Double])-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -7663,6 +8297,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNonlinear multidimensional root finding using both the function and its derivatives.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "rootJ",
           "package": "hmatrix",
@@ -7672,6 +8307,7 @@
         "index": {
           "description": "Nonlinear multidimensional root finding using both the function and its derivatives",
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "rootJ",
           "normalized": "RootMethodJ-\u003eDouble-\u003eInt-\u003e([Double]-\u003e[Double])-\u003e([Double]-\u003e[[Double]])-\u003e[Double]-\u003e([Double],Matrix Double)",
@@ -7686,6 +8322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "uniRoot",
           "package": "hmatrix",
@@ -7695,6 +8332,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "uniRoot",
           "normalized": "UniRootMethod-\u003eDouble-\u003eInt-\u003e(Double-\u003eDouble)-\u003eDouble-\u003eDouble-\u003e(Double,Matrix Double)",
@@ -7710,6 +8348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL.Root",
           "name": "uniRootJ",
           "package": "hmatrix",
@@ -7719,6 +8358,7 @@
         },
         "index": {
           "hierarchy": "Numeric GSL Root",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL.Root",
           "name": "uniRootJ",
           "normalized": "UniRootMethodJ-\u003eDouble-\u003eInt-\u003e(Double-\u003eDouble)-\u003e(Double-\u003eDouble)-\u003eDouble-\u003e(Double,Matrix Double)",
@@ -7735,6 +8375,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module reexports all available GSL functions.\n\u003c/p\u003e\u003cp\u003eThe GSL special functions are in the separate package hmatrix-special.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL",
           "name": "GSL",
           "package": "hmatrix",
@@ -7744,6 +8385,7 @@
         "index": {
           "description": "This module reexports all available GSL functions The GSL special functions are in the separate package hmatrix-special",
           "hierarchy": "Numeric GSL",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL",
           "name": "GSL",
           "package": "hmatrix",
@@ -7758,6 +8400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis action removes the GSL default error handler (which aborts the program), so that\n GSL errors can be handled by Haskell (using Control.Exception) and ghci doesn't abort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.GSL",
           "name": "setErrorHandlerOff",
           "package": "hmatrix",
@@ -7768,6 +8411,7 @@
         "index": {
           "description": "This action removes the GSL default error handler which aborts the program so that GSL errors can be handled by Haskell using Control.Exception and ghci doesn abort",
           "hierarchy": "Numeric GSL",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.GSL",
           "name": "setErrorHandlerOff",
           "normalized": "IO()",
@@ -7784,6 +8428,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHigh level generic interface to common matrix computations.\n\u003c/p\u003e\u003cp\u003eSpecific functions for particular base types can also be explicitly\nimported from \u003ca\u003eNumeric.LinearAlgebra.LAPACK\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Algorithms",
           "package": "hmatrix",
@@ -7793,6 +8438,7 @@
         "index": {
           "description": "High level generic interface to common matrix computations Specific functions for particular base types can also be explicitly imported from Numeric.LinearAlgebra.LAPACK",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Algorithms",
           "package": "hmatrix",
@@ -7807,6 +8453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass used to define generic linear algebra computations for both real and complex matrices. Only double precision is supported in this version (we can\ntransform single precision objects using \u003ccode\u003e\u003ca\u003esingle\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003edouble\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Field",
           "package": "hmatrix",
@@ -7816,6 +8463,7 @@
         "index": {
           "description": "Class used to define generic linear algebra computations for both real and complex matrices Only double precision is supported in this version we can transform single precision objects using single and double",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Field",
           "package": "hmatrix",
@@ -7829,6 +8477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "NormType",
           "package": "hmatrix",
@@ -7837,6 +8486,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "NormType",
           "package": "hmatrix",
@@ -7850,6 +8500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Normed",
           "package": "hmatrix",
@@ -7858,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Normed",
           "package": "hmatrix",
@@ -7871,6 +8523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Frobenius",
           "package": "hmatrix",
@@ -7880,6 +8533,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Frobenius",
           "package": "hmatrix",
@@ -7893,6 +8547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Infinity",
           "package": "hmatrix",
@@ -7902,6 +8557,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "Infinity",
           "package": "hmatrix",
@@ -7915,6 +8571,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "PNorm1",
           "package": "hmatrix",
@@ -7924,6 +8581,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "PNorm1",
           "package": "hmatrix",
@@ -7937,6 +8595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "PNorm2",
           "package": "hmatrix",
@@ -7946,6 +8605,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "PNorm2",
           "package": "hmatrix",
@@ -7960,6 +8620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCholesky factorization of a positive definite hermitian or symmetric matrix.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003ec = chol m\u003c/code\u003e then \u003ccode\u003ec\u003c/code\u003e is upper triangular and \u003ccode\u003em == ctrans c \u003c\u003e c\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "chol",
           "package": "hmatrix",
@@ -7970,6 +8631,7 @@
         "index": {
           "description": "Cholesky factorization of positive definite hermitian or symmetric matrix If chol then is upper triangular and ctrans",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "chol",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -7985,6 +8647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003echol\u003c/a\u003e\u003c/code\u003e, without checking that the input matrix is hermitian or symmetric. It works with the upper triangular part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "cholSH",
           "package": "hmatrix",
@@ -7995,6 +8658,7 @@
         "index": {
           "description": "Similar to chol without checking that the input matrix is hermitian or symmetric It works with the upper triangular part",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "cholSH",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -8011,6 +8675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a symmetric or Hermitian positive definite linear system using a precomputed Cholesky decomposition obtained by \u003ccode\u003e\u003ca\u003echol\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "cholSolve",
           "package": "hmatrix",
@@ -8021,6 +8686,7 @@
         "index": {
           "description": "Solve symmetric or Hermitian positive definite linear system using precomputed Cholesky decomposition obtained by chol",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "cholSolve",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -8037,6 +8703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003ethinSVD\u003c/a\u003e\u003c/code\u003e, returning only the nonzero singular values and the corresponding singular vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "compactSVD",
           "package": "hmatrix",
@@ -8047,6 +8714,7 @@
         "index": {
           "description": "Similar to thinSVD returning only the nonzero singular values and the corresponding singular vectors",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "compactSVD",
           "normalized": "Matrix a-\u003e(Matrix a,Vector Double,Matrix a)",
@@ -8063,6 +8731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDeterminant of a square matrix. To avoid possible overflow or underflow use \u003ccode\u003e\u003ca\u003einvlndet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "det",
           "package": "hmatrix",
@@ -8073,6 +8742,7 @@
         "index": {
           "description": "Determinant of square matrix To avoid possible overflow or underflow use invlndet",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "det",
           "normalized": "Matrix a-\u003ea",
@@ -8088,6 +8758,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and eigenvectors of a general square matrix.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(s,v) = eig m\u003c/code\u003e then \u003ccode\u003em \u003c\u003e v == v \u003c\u003e diag s\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eig",
           "package": "hmatrix",
@@ -8098,6 +8769,7 @@
         "index": {
           "description": "Eigenvalues and eigenvectors of general square matrix If eig then diag",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eig",
           "normalized": "Matrix a-\u003e(Vector(Complex Double),Matrix(Complex Double))",
@@ -8113,6 +8785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and Eigenvectors of a complex hermitian or real symmetric matrix.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(s,v) = eigSH m\u003c/code\u003e then \u003ccode\u003em == v \u003c\u003e diag s \u003c\u003e ctrans v\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigSH",
           "package": "hmatrix",
@@ -8123,6 +8796,7 @@
         "index": {
           "description": "Eigenvalues and Eigenvectors of complex hermitian or real symmetric matrix If eigSH then diag ctrans",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigSH",
           "normalized": "Matrix a-\u003e(Vector Double,Matrix a)",
@@ -8139,6 +8813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eeigSH\u003c/a\u003e\u003c/code\u003e without checking that the input matrix is hermitian or symmetric. It works with the upper triangular part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigSH'",
           "package": "hmatrix",
@@ -8149,6 +8824,7 @@
         "index": {
           "description": "Similar to eigSH without checking that the input matrix is hermitian or symmetric It works with the upper triangular part",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigSH'",
           "normalized": "Matrix a-\u003e(Vector Double,Matrix a)",
@@ -8165,6 +8841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a general square matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvalues",
           "package": "hmatrix",
@@ -8175,6 +8852,7 @@
         "index": {
           "description": "Eigenvalues of general square matrix",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvalues",
           "normalized": "Matrix a-\u003eVector(Complex Double)",
@@ -8190,6 +8868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a complex hermitian or real symmetric matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvaluesSH",
           "package": "hmatrix",
@@ -8200,6 +8879,7 @@
         "index": {
           "description": "Eigenvalues of complex hermitian or real symmetric matrix",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvaluesSH",
           "normalized": "Matrix a-\u003eVector Double",
@@ -8216,6 +8896,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003eeigenvaluesSH\u003c/a\u003e\u003c/code\u003e without checking that the input matrix is hermitian or symmetric. It works with the upper triangular part.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvaluesSH'",
           "package": "hmatrix",
@@ -8226,6 +8907,7 @@
         "index": {
           "description": "Similar to eigenvaluesSH without checking that the input matrix is hermitian or symmetric It works with the upper triangular part",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eigenvaluesSH'",
           "normalized": "Matrix a-\u003eVector Double",
@@ -8242,6 +8924,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe machine precision of a Double: \u003ccode\u003eeps = 2.22044604925031e-16\u003c/code\u003e (the value used by GNU-Octave).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eps",
           "package": "hmatrix",
@@ -8252,6 +8935,7 @@
         "index": {
           "description": "The machine precision of Double eps e-16 the value used by GNU-Octave",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "eps",
           "package": "hmatrix",
@@ -8265,6 +8949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix exponential. It uses a direct translation of Algorithm 11.3.1 in Golub & Van Loan,\n     based on a scaled Pade approximation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "expm",
           "package": "hmatrix",
@@ -8275,6 +8960,7 @@
         "index": {
           "description": "Matrix exponential It uses direct translation of Algorithm in Golub Van Loan based on scaled Pade approximation",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "expm",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -8290,6 +8976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003esvd\u003c/a\u003e\u003c/code\u003e which returns an appropriate diagonal matrix with the singular values.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(u,d,v) = fullSVD m\u003c/code\u003e then \u003ccode\u003em == u \u003c\u003e d \u003c\u003e trans v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "fullSVD",
           "package": "hmatrix",
@@ -8300,6 +8987,7 @@
         "index": {
           "description": "version of svd which returns an appropriate diagonal matrix with the singular values If fullSVD then trans",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "fullSVD",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix Double,Matrix a)",
@@ -8316,6 +9004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneralized symmetric positive definite eigensystem Av = lBv,\n for A and B symmetric, B positive definite (conditions not checked).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "geigSH'",
           "package": "hmatrix",
@@ -8325,6 +9014,7 @@
         "index": {
           "description": "Generalized symmetric positive definite eigensystem Av lBv for and symmetric positive definite conditions not checked",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "geigSH'",
           "normalized": "Matrix a-\u003eMatrix a-\u003e(Vector Double,Matrix a)",
@@ -8340,6 +9030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "haussholder",
           "package": "hmatrix",
@@ -8349,6 +9040,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "haussholder",
           "normalized": "a-\u003eVector a-\u003eMatrix a",
@@ -8364,6 +9056,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHessenberg factorization.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(p,h) = hess m\u003c/code\u003e then \u003ccode\u003em == p \u003c\u003e h \u003c\u003e ctrans p\u003c/code\u003e, where p is unitary\n and h is in upper Hessenberg form (it has zero entries below the first subdiagonal).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "hess",
           "package": "hmatrix",
@@ -8374,6 +9067,7 @@
         "index": {
           "description": "Hessenberg factorization If hess then ctrans where is unitary and is in upper Hessenberg form it has zero entries below the first subdiagonal",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "hess",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix a)",
@@ -8389,6 +9083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe imaginary unit: \u003ccode\u003ei = 0.0 :+ 1.0\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "i",
           "package": "hmatrix",
@@ -8399,6 +9094,7 @@
         "index": {
           "description": "The imaginary unit",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "i",
           "package": "hmatrix",
@@ -8412,6 +9108,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInverse of a square matrix. See also \u003ccode\u003e\u003ca\u003einvlndet\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "inv",
           "package": "hmatrix",
@@ -8422,6 +9119,7 @@
         "index": {
           "description": "Inverse of square matrix See also invlndet",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "inv",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -8437,6 +9135,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJoint computation of inverse and logarithm of determinant of a square matrix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "invlndet",
           "package": "hmatrix",
@@ -8446,6 +9145,7 @@
         "index": {
           "description": "Joint computation of inverse and logarithm of determinant of square matrix",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "invlndet",
           "normalized": "Matrix a-\u003e(Matrix a,(a,a))",
@@ -8461,6 +9161,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all left singular vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "leftSV",
           "package": "hmatrix",
@@ -8471,6 +9172,7 @@
         "index": {
           "description": "Singular values and all left singular vectors",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "leftSV",
           "normalized": "Matrix a-\u003e(Matrix a,Vector Double)",
@@ -8487,6 +9189,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a linear system (for square coefficient matrix and several right-hand sides) using the LU decomposition. For underconstrained or overconstrained systems use \u003ccode\u003e\u003ca\u003elinearSolveLS\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003elinearSolveSVD\u003c/a\u003e\u003c/code\u003e.\n It is similar to \u003ccode\u003e\u003ca\u003eluSolve\u003c/a\u003e\u003c/code\u003e . \u003ccode\u003e\u003ca\u003eluPacked\u003c/a\u003e\u003c/code\u003e, but \u003ccode\u003elinearSolve\u003c/code\u003e raises an error if called on a singular system.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolve",
           "package": "hmatrix",
@@ -8497,6 +9200,7 @@
         "index": {
           "description": "Solve linear system for square coefficient matrix and several right-hand sides using the LU decomposition For underconstrained or overconstrained systems use linearSolveLS or linearSolveSVD It is similar to luSolve luPacked but linearSolve raises an error if called on singular system",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolve",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -8513,6 +9217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast squared error solution of an overconstrained linear system, or the minimum norm solution of an underconstrained system. For rank-deficient systems use \u003ccode\u003e\u003ca\u003elinearSolveSVD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolveLS",
           "package": "hmatrix",
@@ -8523,6 +9228,7 @@
         "index": {
           "description": "Least squared error solution of an overconstrained linear system or the minimum norm solution of an underconstrained system For rank-deficient systems use linearSolveSVD",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolveLS",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -8539,6 +9245,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum norm solution of a general linear least squares problem Ax=B using the SVD. Admits rank-deficient systems but it is slower than \u003ccode\u003e\u003ca\u003elinearSolveLS\u003c/a\u003e\u003c/code\u003e. The effective rank of A is determined by treating as zero those singular valures which are less than \u003ccode\u003e\u003ca\u003eeps\u003c/a\u003e\u003c/code\u003e times the largest singular value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolveSVD",
           "package": "hmatrix",
@@ -8549,6 +9256,7 @@
         "index": {
           "description": "Minimum norm solution of general linear least squares problem Ax using the SVD Admits rank-deficient systems but it is slower than linearSolveLS The effective rank of is determined by treating as zero those singular valures which are less than eps times the largest singular value",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "linearSolveSVD",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -8565,6 +9273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExplicit LU factorization of a general matrix.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(l,u,p,s) = lu m\u003c/code\u003e then \u003ccode\u003em == p \u003c\u003e l \u003c\u003e u\u003c/code\u003e, where l is lower triangular,\n u is upper triangular, p is a permutation matrix and s is the signature of the permutation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "lu",
           "package": "hmatrix",
@@ -8575,6 +9284,7 @@
         "index": {
           "description": "Explicit LU factorization of general matrix If lu then where is lower triangular is upper triangular is permutation matrix and is the signature of the permutation",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "lu",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix a,Matrix a,a)",
@@ -8590,6 +9300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains the LU decomposition of a matrix in a compact data structure suitable for \u003ccode\u003e\u003ca\u003eluSolve\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "luPacked",
           "package": "hmatrix",
@@ -8600,6 +9311,7 @@
         "index": {
           "description": "Obtains the LU decomposition of matrix in compact data structure suitable for luSolve",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "luPacked",
           "normalized": "Matrix a-\u003e(Matrix a,[Int])",
@@ -8616,6 +9328,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolution of a linear system (for several right hand sides) from the precomputed LU factorization obtained by \u003ccode\u003e\u003ca\u003eluPacked\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "luSolve",
           "package": "hmatrix",
@@ -8626,6 +9339,7 @@
         "index": {
           "description": "Solution of linear system for several right hand sides from the precomputed LU factorization obtained by luPacked",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "luSolve",
           "normalized": "(Matrix a,[Int])-\u003eMatrix a-\u003eMatrix a",
@@ -8642,6 +9356,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric matrix functions for diagonalizable matrices. For instance:\n\u003c/p\u003e\u003cpre\u003elogm = matFunc log\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "matFunc",
           "package": "hmatrix",
@@ -8652,6 +9367,7 @@
         "index": {
           "description": "Generic matrix functions for diagonalizable matrices For instance logm matFunc log",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "matFunc",
           "normalized": "(Complex Double-\u003eComplex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -8668,6 +9384,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003echolSH\u003c/a\u003e\u003c/code\u003e, but instead of an error (e.g., caused by a matrix not positive definite) it returns \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "mbCholSH",
           "package": "hmatrix",
@@ -8678,6 +9395,7 @@
         "index": {
           "description": "Similar to cholSH but instead of an error e.g caused by matrix not positive definite it returns Nothing",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "mbCholSH",
           "normalized": "Matrix a-\u003eMaybe(Matrix a)",
@@ -8694,6 +9412,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nullspace of a matrix, assumed to be one-dimensional, with machine precision.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullVector",
           "package": "hmatrix",
@@ -8704,6 +9423,7 @@
         "index": {
           "description": "The nullspace of matrix assumed to be one-dimensional with machine precision",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullVector",
           "normalized": "Matrix a-\u003eVector a",
@@ -8720,6 +9440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nullspace of a matrix. See also \u003ccode\u003e\u003ca\u003enullspaceSVD\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullspacePrec",
           "package": "hmatrix",
@@ -8729,6 +9450,7 @@
         "index": {
           "description": "The nullspace of matrix See also nullspaceSVD",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullspacePrec",
           "normalized": "Double-\u003eMatrix a-\u003e[Vector a]",
@@ -8745,6 +9467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe nullspace of a matrix from its SVD decomposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullspaceSVD",
           "package": "hmatrix",
@@ -8754,6 +9477,7 @@
         "index": {
           "description": "The nullspace of matrix from its SVD decomposition",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "nullspaceSVD",
           "normalized": "Either Double Int-\u003eMatrix a-\u003e(Vector Double,Matrix a)-\u003e[Vector a]",
@@ -8770,6 +9494,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn an orthonormal basis of the range space of a matrix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "orth",
           "package": "hmatrix",
@@ -8780,6 +9505,7 @@
         "index": {
           "description": "Return an orthonormal basis of the range space of matrix",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "orth",
           "normalized": "Matrix a-\u003e[Vector a]",
@@ -8795,6 +9521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e1 + 0.5*peps == 1,  1 + 0.6*peps /= 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "peps",
           "package": "hmatrix",
@@ -8805,6 +9532,7 @@
         "index": {
           "description": "peps peps",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "peps",
           "package": "hmatrix",
@@ -8818,6 +9546,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePseudoinverse of a general matrix with default tolerance (\u003ccode\u003e\u003ca\u003epinvTol\u003c/a\u003e\u003c/code\u003e 1, similar to GNU-Octave).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pinv",
           "package": "hmatrix",
@@ -8828,6 +9557,7 @@
         "index": {
           "description": "Pseudoinverse of general matrix with default tolerance pinvTol similar to GNU-Octave",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pinv",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -8843,6 +9573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003epinvTol r\u003c/code\u003e computes the pseudoinverse of a matrix with tolerance \u003ccode\u003etol=r*g*eps*(max rows cols)\u003c/code\u003e, where g is the greatest singular value.\n\u003c/p\u003e\u003cpre\u003e\u003e let m = \u003ccode\u003e\u003ca\u003efromLists\u003c/a\u003e\u003c/code\u003e [[1,0,    0]\n                    ,[0,1,    0]\n                    ,[0,0,1e-10]]\n  --\n\u003e \u003ccode\u003e\u003ca\u003epinv\u003c/a\u003e\u003c/code\u003e m\n1. 0.           0.\n0. 1.           0.\n0. 0. 10000000000.\n  --\n\u003e pinvTol 1E8 m\n1. 0. 0.\n0. 1. 0.\n0. 0. 1.\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pinvTol",
           "package": "hmatrix",
@@ -8853,6 +9584,7 @@
         "index": {
           "description": "pinvTol computes the pseudoinverse of matrix with tolerance tol eps max rows cols where is the greatest singular value let fromLists e-10 pinv pinvTol E8",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pinvTol",
           "normalized": "Double-\u003eMatrix a-\u003eMatrix a",
@@ -8868,6 +9600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pnorm",
           "package": "hmatrix",
@@ -8877,6 +9610,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "pnorm",
           "normalized": "NormType-\u003ea b-\u003eRealOf b",
@@ -8892,6 +9626,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQR factorization.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(q,r) = qr m\u003c/code\u003e then \u003ccode\u003em == q \u003c\u003e r\u003c/code\u003e, where q is unitary and r is upper triangular.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "qr",
           "package": "hmatrix",
@@ -8902,6 +9637,7 @@
         "index": {
           "description": "QR factorization If qr then where is unitary and is upper triangular",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "qr",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix a)",
@@ -8917,6 +9653,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of linearly independent rows or columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rank",
           "package": "hmatrix",
@@ -8927,6 +9664,7 @@
         "index": {
           "description": "Number of linearly independent rows or columns",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rank",
           "normalized": "Matrix a-\u003eInt",
@@ -8942,6 +9680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumeric rank of a matrix from its singular values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "ranksv",
           "package": "hmatrix",
@@ -8951,6 +9690,7 @@
         "index": {
           "description": "Numeric rank of matrix from its singular values",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "ranksv",
           "normalized": "Double-\u003eInt-\u003e[Double]-\u003eInt",
@@ -8966,6 +9706,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReciprocal of the 2-norm condition number of a matrix, computed from the singular values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rcond",
           "package": "hmatrix",
@@ -8976,6 +9717,7 @@
         "index": {
           "description": "Reciprocal of the norm condition number of matrix computed from the singular values",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rcond",
           "normalized": "Matrix a-\u003eDouble",
@@ -8991,6 +9733,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApproximate number of common digits in the maximum element.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "relativeError",
           "package": "hmatrix",
@@ -9001,6 +9744,7 @@
         "index": {
           "description": "Approximate number of common digits in the maximum element",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "relativeError",
           "normalized": "a b-\u003ea b-\u003eInt",
@@ -9017,6 +9761,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all right singular vectors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rightSV",
           "package": "hmatrix",
@@ -9027,6 +9772,7 @@
         "index": {
           "description": "Singular values and all right singular vectors",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rightSV",
           "normalized": "Matrix a-\u003e(Vector Double,Matrix a)",
@@ -9043,6 +9789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRQ factorization.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(r,q) = rq m\u003c/code\u003e then \u003ccode\u003em == r \u003c\u003e q\u003c/code\u003e, where q is unitary and r is upper triangular.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rq",
           "package": "hmatrix",
@@ -9053,6 +9800,7 @@
         "index": {
           "description": "RQ factorization If rq then where is unitary and is upper triangular",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "rq",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix a)",
@@ -9068,6 +9816,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchur factorization.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(u,s) = schur m\u003c/code\u003e then \u003ccode\u003em == u \u003c\u003e s \u003c\u003e ctrans u\u003c/code\u003e, where u is unitary\n and s is a Shur matrix. A complex Schur matrix is upper triangular. A real Schur matrix is\n upper triangular in 2x2 blocks.\n\u003c/p\u003e\u003cp\u003e\"Anything that the Jordan decomposition can do, the Schur decomposition\n can do better!\" (Van Loan)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "schur",
           "package": "hmatrix",
@@ -9078,6 +9827,7 @@
         "index": {
           "description": "Schur factorization If schur then ctrans where is unitary and is Shur matrix complex Schur matrix is upper triangular real Schur matrix is upper triangular in x2 blocks Anything that the Jordan decomposition can do the Schur decomposition can do better Van Loan",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "schur",
           "normalized": "Matrix a-\u003e(Matrix a,Matrix a)",
@@ -9093,6 +9843,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values only.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "singularValues",
           "package": "hmatrix",
@@ -9103,6 +9854,7 @@
         "index": {
           "description": "Singular values only",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "singularValues",
           "normalized": "Matrix a-\u003eVector Double",
@@ -9119,6 +9871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix square root. Currently it uses a simple iterative algorithm described in Wikipedia.\nIt only works with invertible matrices that have a real solution. For diagonalizable matrices you can try \u003ccode\u003ematFunc sqrt\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003em = (2\u003e\u003c2) [4,9\n           ,0,4] :: Matrix Double\u003c/pre\u003e\u003cpre\u003e\u003esqrtm m\n(2\u003e\u003c2)\n [ 2.0, 2.25\n , 0.0,  2.0 ]\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "sqrtm",
           "package": "hmatrix",
@@ -9129,6 +9882,7 @@
         "index": {
           "description": "Matrix square root Currently it uses simple iterative algorithm described in Wikipedia It only works with invertible matrices that have real solution For diagonalizable matrices you can try matFunc sqrt Matrix Double sqrtm",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "sqrtm",
           "normalized": "Matrix a-\u003eMatrix a",
@@ -9144,6 +9898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull singular value decomposition.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "svd",
           "package": "hmatrix",
@@ -9154,6 +9909,7 @@
         "index": {
           "description": "Full singular value decomposition",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "svd",
           "normalized": "Matrix a-\u003e(Matrix a,Vector Double,Matrix a)",
@@ -9169,6 +9925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA version of \u003ccode\u003e\u003ca\u003esvd\u003c/a\u003e\u003c/code\u003e which returns only the \u003ccode\u003emin (rows m) (cols m)\u003c/code\u003e singular vectors of \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eIf \u003ccode\u003e(u,s,v) = thinSVD m\u003c/code\u003e then \u003ccode\u003em == u \u003c\u003e diag s \u003c\u003e trans v\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "thinSVD",
           "package": "hmatrix",
@@ -9179,6 +9936,7 @@
         "index": {
           "description": "version of svd which returns only the min rows cols singular vectors of If thinSVD then diag trans",
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "thinSVD",
           "normalized": "Matrix a-\u003e(Matrix a,Vector Double,Matrix a)",
@@ -9194,6 +9952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "unpackHess",
           "package": "hmatrix",
@@ -9203,6 +9962,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "unpackHess",
           "normalized": "(Matrix a-\u003e(Matrix a,Vector a))-\u003eMatrix a-\u003e(Matrix a,Matrix a)",
@@ -9218,6 +9978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "unpackQR",
           "package": "hmatrix",
@@ -9227,6 +9988,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Algorithms",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Algorithms",
           "name": "unpackQR",
           "normalized": "(Matrix a,Vector a)-\u003e(Matrix a,Matrix a)",
@@ -9243,6 +10005,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctional interface to selected LAPACK functions (\u003ca\u003ehttp://www.netlib.org/lapack\u003c/a\u003e).\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "LAPACK",
           "package": "hmatrix",
@@ -9252,6 +10015,7 @@
         "index": {
           "description": "Functional interface to selected LAPACK functions http www.netlib.org lapack",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "LAPACK",
           "package": "hmatrix",
@@ -9266,6 +10030,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCholesky factorization of a complex Hermitian positive definite matrix, using LAPACK's \u003cem\u003ezpotrf\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholH",
           "package": "hmatrix",
@@ -9276,6 +10041,7 @@
         "index": {
           "description": "Cholesky factorization of complex Hermitian positive definite matrix using LAPACK zpotrf",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholH",
           "normalized": "Matrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9291,6 +10057,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCholesky factorization of a real symmetric positive definite matrix, using LAPACK's \u003cem\u003edpotrf\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholS",
           "package": "hmatrix",
@@ -9301,6 +10068,7 @@
         "index": {
           "description": "Cholesky factorization of real symmetric positive definite matrix using LAPACK dpotrf",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholS",
           "normalized": "Matrix Double-\u003eMatrix Double",
@@ -9316,6 +10084,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a Hermitian positive definite system of linear equations using a precomputed Cholesky factorization obtained by \u003ccode\u003e\u003ca\u003echolH\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholSolveC",
           "package": "hmatrix",
@@ -9326,6 +10095,7 @@
         "index": {
           "description": "Solves Hermitian positive definite system of linear equations using precomputed Cholesky factorization obtained by cholH",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholSolveC",
           "normalized": "Matrix(Complex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9342,6 +10112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolves a symmetric positive definite system of linear equations using a precomputed Cholesky factorization obtained by \u003ccode\u003e\u003ca\u003echolS\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholSolveR",
           "package": "hmatrix",
@@ -9352,6 +10123,7 @@
         "index": {
           "description": "Solves symmetric positive definite system of linear equations using precomputed Cholesky factorization obtained by cholS",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "cholSolveR",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -9368,6 +10140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and right eigenvectors of a general complex matrix, using LAPACK's \u003cem\u003ezgeev\u003c/em\u003e.\n The eigenvectors are the columns of v. The eigenvalues are not sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigC",
           "package": "hmatrix",
@@ -9378,6 +10151,7 @@
         "index": {
           "description": "Eigenvalues and right eigenvectors of general complex matrix using LAPACK zgeev The eigenvectors are the columns of The eigenvalues are not sorted",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigC",
           "normalized": "Matrix(Complex Double)-\u003e(Vector(Complex Double),Matrix(Complex Double))",
@@ -9393,6 +10167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and right eigenvectors of a hermitian complex matrix, using LAPACK's \u003cem\u003ezheev\u003c/em\u003e.\n The eigenvectors are the columns of v.\n The eigenvalues are sorted in descending order (use \u003ccode\u003e\u003ca\u003eeigH'\u003c/a\u003e\u003c/code\u003e for ascending order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigH",
           "package": "hmatrix",
@@ -9403,6 +10178,7 @@
         "index": {
           "description": "Eigenvalues and right eigenvectors of hermitian complex matrix using LAPACK zheev The eigenvectors are the columns of The eigenvalues are sorted in descending order use eigH for ascending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigH",
           "normalized": "Matrix(Complex Double)-\u003e(Vector Double,Matrix(Complex Double))",
@@ -9418,6 +10194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eeigH\u003c/a\u003e\u003c/code\u003e in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigH'",
           "package": "hmatrix",
@@ -9428,6 +10205,7 @@
         "index": {
           "description": "eigH in ascending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigH'",
           "normalized": "Matrix(Complex Double)-\u003e(Vector Double,Matrix(Complex Double))",
@@ -9444,6 +10222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a general complex matrix, using LAPACK's \u003cem\u003ezgeev\u003c/em\u003e with jobz == 'N'.\n The eigenvalues are not sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyC",
           "package": "hmatrix",
@@ -9454,6 +10233,7 @@
         "index": {
           "description": "Eigenvalues of general complex matrix using LAPACK zgeev with jobz The eigenvalues are not sorted",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyC",
           "normalized": "Matrix(Complex Double)-\u003eVector(Complex Double)",
@@ -9470,6 +10250,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a hermitian complex matrix, using LAPACK's \u003cem\u003ezheev\u003c/em\u003e with jobz == 'N'.\n The eigenvalues are sorted in descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyH",
           "package": "hmatrix",
@@ -9480,6 +10261,7 @@
         "index": {
           "description": "Eigenvalues of hermitian complex matrix using LAPACK zheev with jobz The eigenvalues are sorted in descending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyH",
           "normalized": "Matrix(Complex Double)-\u003eVector Double",
@@ -9496,6 +10278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a general real matrix, using LAPACK's \u003cem\u003edgeev\u003c/em\u003e with jobz == 'N'.\n The eigenvalues are not sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyR",
           "package": "hmatrix",
@@ -9506,6 +10289,7 @@
         "index": {
           "description": "Eigenvalues of general real matrix using LAPACK dgeev with jobz The eigenvalues are not sorted",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyR",
           "normalized": "Matrix Double-\u003eVector(Complex Double)",
@@ -9522,6 +10306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues of a symmetric real matrix, using LAPACK's \u003cem\u003edsyev\u003c/em\u003e with jobz == 'N'.\n The eigenvalues are sorted in descending order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyS",
           "package": "hmatrix",
@@ -9532,6 +10317,7 @@
         "index": {
           "description": "Eigenvalues of symmetric real matrix using LAPACK dsyev with jobz The eigenvalues are sorted in descending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigOnlyS",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -9548,6 +10334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and right eigenvectors of a general real matrix, using LAPACK's \u003cem\u003edgeev\u003c/em\u003e.\n The eigenvectors are the columns of v. The eigenvalues are not sorted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigR",
           "package": "hmatrix",
@@ -9558,6 +10345,7 @@
         "index": {
           "description": "Eigenvalues and right eigenvectors of general real matrix using LAPACK dgeev The eigenvectors are the columns of The eigenvalues are not sorted",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigR",
           "normalized": "Matrix Double-\u003e(Vector(Complex Double),Matrix(Complex Double))",
@@ -9573,6 +10361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEigenvalues and right eigenvectors of a symmetric real matrix, using LAPACK's \u003cem\u003edsyev\u003c/em\u003e.\n The eigenvectors are the columns of v.\n The eigenvalues are sorted in descending order (use \u003ccode\u003e\u003ca\u003eeigS'\u003c/a\u003e\u003c/code\u003e for ascending order).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigS",
           "package": "hmatrix",
@@ -9583,6 +10372,7 @@
         "index": {
           "description": "Eigenvalues and right eigenvectors of symmetric real matrix using LAPACK dsyev The eigenvectors are the columns of The eigenvalues are sorted in descending order use eigS for ascending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigS",
           "normalized": "Matrix Double-\u003e(Vector Double,Matrix Double)",
@@ -9598,6 +10388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eeigS\u003c/a\u003e\u003c/code\u003e in ascending order\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigS'",
           "package": "hmatrix",
@@ -9608,6 +10399,7 @@
         "index": {
           "description": "eigS in ascending order",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "eigS'",
           "normalized": "Matrix Double-\u003e(Vector Double,Matrix Double)",
@@ -9624,6 +10416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHessenberg factorization of a square complex matrix, using LAPACK's \u003cem\u003ezgehrd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "hessC",
           "package": "hmatrix",
@@ -9634,6 +10427,7 @@
         "index": {
           "description": "Hessenberg factorization of square complex matrix using LAPACK zgehrd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "hessC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector(Complex Double))",
@@ -9649,6 +10443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHessenberg factorization of a square real matrix, using LAPACK's \u003cem\u003edgehrd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "hessR",
           "package": "hmatrix",
@@ -9659,6 +10454,7 @@
         "index": {
           "description": "Hessenberg factorization of square real matrix using LAPACK dgehrd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "hessR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double)",
@@ -9674,6 +10470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all left singular vectors of a complex matrix, using LAPACK's \u003cem\u003ezgesvd\u003c/em\u003e with jobu == 'A' and jobvt == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "leftSVC",
           "package": "hmatrix",
@@ -9684,6 +10481,7 @@
         "index": {
           "description": "Singular values and all left singular vectors of complex matrix using LAPACK zgesvd with jobu and jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "leftSVC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector Double)",
@@ -9700,6 +10498,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all left singular vectors of a real matrix, using LAPACK's \u003cem\u003edgesvd\u003c/em\u003e  with jobu == 'A' and jobvt == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "leftSVR",
           "package": "hmatrix",
@@ -9710,6 +10509,7 @@
         "index": {
           "description": "Singular values and all left singular vectors of real matrix using LAPACK dgesvd with jobu and jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "leftSVR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double)",
@@ -9726,6 +10526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a complex linear system (for square coefficient matrix and several right-hand sides) using the LU decomposition, based on LAPACK's \u003cem\u003ezgesv\u003c/em\u003e. For underconstrained or overconstrained systems use \u003ccode\u003e\u003ca\u003elinearSolveLSC\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003elinearSolveSVDC\u003c/a\u003e\u003c/code\u003e. See also \u003ccode\u003e\u003ca\u003elusC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveC",
           "package": "hmatrix",
@@ -9736,6 +10537,7 @@
         "index": {
           "description": "Solve complex linear system for square coefficient matrix and several right-hand sides using the LU decomposition based on LAPACK zgesv For underconstrained or overconstrained systems use linearSolveLSC or linearSolveSVDC See also lusC",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveC",
           "normalized": "Matrix(Complex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9752,6 +10554,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast squared error solution of an overconstrained complex linear system, or the minimum norm solution of an underconstrained system, using LAPACK's \u003cem\u003ezgels\u003c/em\u003e. For rank-deficient systems use \u003ccode\u003e\u003ca\u003elinearSolveSVDC\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveLSC",
           "package": "hmatrix",
@@ -9762,6 +10565,7 @@
         "index": {
           "description": "Least squared error solution of an overconstrained complex linear system or the minimum norm solution of an underconstrained system using LAPACK zgels For rank-deficient systems use linearSolveSVDC",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveLSC",
           "normalized": "Matrix(Complex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9778,6 +10582,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeast squared error solution of an overconstrained real linear system, or the minimum norm solution of an underconstrained system, using LAPACK's \u003cem\u003edgels\u003c/em\u003e. For rank-deficient systems use \u003ccode\u003e\u003ca\u003elinearSolveSVDR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveLSR",
           "package": "hmatrix",
@@ -9788,6 +10593,7 @@
         "index": {
           "description": "Least squared error solution of an overconstrained real linear system or the minimum norm solution of an underconstrained system using LAPACK dgels For rank-deficient systems use linearSolveSVDR",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveLSR",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -9804,6 +10610,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a real linear system (for square coefficient matrix and several right-hand sides) using the LU decomposition, based on LAPACK's \u003cem\u003edgesv\u003c/em\u003e. For underconstrained or overconstrained systems use \u003ccode\u003e\u003ca\u003elinearSolveLSR\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003elinearSolveSVDR\u003c/a\u003e\u003c/code\u003e. See also \u003ccode\u003e\u003ca\u003elusR\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveR",
           "package": "hmatrix",
@@ -9814,6 +10621,7 @@
         "index": {
           "description": "Solve real linear system for square coefficient matrix and several right-hand sides using the LU decomposition based on LAPACK dgesv For underconstrained or overconstrained systems use linearSolveLSR or linearSolveSVDR See also lusR",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveR",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -9830,6 +10638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum norm solution of a general complex linear least squares problem Ax=B using the SVD, based on LAPACK's \u003cem\u003ezgelss\u003c/em\u003e. Admits rank-deficient systems but it is slower than \u003ccode\u003e\u003ca\u003elinearSolveLSC\u003c/a\u003e\u003c/code\u003e. The effective rank of A is determined by treating as zero those singular valures which are less than rcond times the largest singular value. If rcond == Nothing machine precision is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveSVDC",
           "package": "hmatrix",
@@ -9839,6 +10648,7 @@
         "index": {
           "description": "Minimum norm solution of general complex linear least squares problem Ax using the SVD based on LAPACK zgelss Admits rank-deficient systems but it is slower than linearSolveLSC The effective rank of is determined by treating as zero those singular valures which are less than rcond times the largest singular value If rcond Nothing machine precision is used",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveSVDC",
           "normalized": "Maybe Double-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9855,6 +10665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimum norm solution of a general real linear least squares problem Ax=B using the SVD, based on LAPACK's \u003cem\u003edgelss\u003c/em\u003e. Admits rank-deficient systems but it is slower than \u003ccode\u003e\u003ca\u003elinearSolveLSR\u003c/a\u003e\u003c/code\u003e. The effective rank of A is determined by treating as zero those singular valures which are less than rcond times the largest singular value. If rcond == Nothing machine precision is used.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveSVDR",
           "package": "hmatrix",
@@ -9864,6 +10675,7 @@
         "index": {
           "description": "Minimum norm solution of general real linear least squares problem Ax using the SVD based on LAPACK dgelss Admits rank-deficient systems but it is slower than linearSolveLSR The effective rank of is determined by treating as zero those singular valures which are less than rcond times the largest singular value If rcond Nothing machine precision is used",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "linearSolveSVDR",
           "normalized": "Maybe Double-\u003eMatrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -9880,6 +10692,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLU factorization of a general complex matrix, using LAPACK's \u003cem\u003ezgetrf\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "luC",
           "package": "hmatrix",
@@ -9890,6 +10703,7 @@
         "index": {
           "description": "LU factorization of general complex matrix using LAPACK zgetrf",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "luC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),[Int])",
@@ -9905,6 +10719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLU factorization of a general real matrix, using LAPACK's \u003cem\u003edgetrf\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "luR",
           "package": "hmatrix",
@@ -9915,6 +10730,7 @@
         "index": {
           "description": "LU factorization of general real matrix using LAPACK dgetrf",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "luR",
           "normalized": "Matrix Double-\u003e(Matrix Double,[Int])",
@@ -9930,6 +10746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a real linear system from a precomputed LU decomposition (\u003ccode\u003e\u003ca\u003eluC\u003c/a\u003e\u003c/code\u003e), using LAPACK's \u003cem\u003ezgetrs\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "lusC",
           "package": "hmatrix",
@@ -9940,6 +10757,7 @@
         "index": {
           "description": "Solve real linear system from precomputed LU decomposition luC using LAPACK zgetrs",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "lusC",
           "normalized": "Matrix(Complex Double)-\u003e[Int]-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -9955,6 +10773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSolve a real linear system from a precomputed LU decomposition (\u003ccode\u003e\u003ca\u003eluR\u003c/a\u003e\u003c/code\u003e), using LAPACK's \u003cem\u003edgetrs\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "lusR",
           "package": "hmatrix",
@@ -9965,6 +10784,7 @@
         "index": {
           "description": "Solve real linear system from precomputed LU decomposition luR using LAPACK dgetrs",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "lusR",
           "normalized": "Matrix Double-\u003e[Int]-\u003eMatrix Double-\u003eMatrix Double",
@@ -9980,6 +10800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCholesky factorization of a complex Hermitian positive definite matrix, using LAPACK's \u003cem\u003ezpotrf\u003c/em\u003e (\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e version).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "mbCholH",
           "package": "hmatrix",
@@ -9990,6 +10811,7 @@
         "index": {
           "description": "Cholesky factorization of complex Hermitian positive definite matrix using LAPACK zpotrf Maybe version",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "mbCholH",
           "normalized": "Matrix(Complex Double)-\u003eMaybe(Matrix(Complex Double))",
@@ -10006,6 +10828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCholesky factorization of a real symmetric positive definite matrix, using LAPACK's \u003cem\u003edpotrf\u003c/em\u003e  (\u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e version).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "mbCholS",
           "package": "hmatrix",
@@ -10016,6 +10839,7 @@
         "index": {
           "description": "Cholesky factorization of real symmetric positive definite matrix using LAPACK dpotrf Maybe version",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "mbCholS",
           "normalized": "Matrix Double-\u003eMaybe(Matrix Double)",
@@ -10032,6 +10856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product based on BLAS's \u003cem\u003ezgemm\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyC",
           "package": "hmatrix",
@@ -10042,6 +10867,7 @@
         "index": {
           "description": "Matrix product based on BLAS zgemm",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyC",
           "normalized": "Matrix(Complex Double)-\u003eMatrix(Complex Double)-\u003eMatrix(Complex Double)",
@@ -10057,6 +10883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product based on BLAS's \u003cem\u003esgemm\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyF",
           "package": "hmatrix",
@@ -10067,6 +10894,7 @@
         "index": {
           "description": "Matrix product based on BLAS sgemm",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyF",
           "normalized": "Matrix Float-\u003eMatrix Float-\u003eMatrix Float",
@@ -10082,6 +10910,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product based on BLAS's \u003cem\u003ecgemm\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyQ",
           "package": "hmatrix",
@@ -10092,6 +10921,7 @@
         "index": {
           "description": "Matrix product based on BLAS cgemm",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyQ",
           "normalized": "Matrix(Complex Float)-\u003eMatrix(Complex Float)-\u003eMatrix(Complex Float)",
@@ -10107,6 +10937,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix product based on BLAS's \u003cem\u003edgemm\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyR",
           "package": "hmatrix",
@@ -10117,6 +10948,7 @@
         "index": {
           "description": "Matrix product based on BLAS dgemm",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "multiplyR",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -10132,6 +10964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQR factorization of a complex matrix, using LAPACK's \u003cem\u003ezgeqr2\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "qrC",
           "package": "hmatrix",
@@ -10142,6 +10975,7 @@
         "index": {
           "description": "QR factorization of complex matrix using LAPACK zgeqr2",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "qrC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector(Complex Double))",
@@ -10157,6 +10991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQR factorization of a real matrix, using LAPACK's \u003cem\u003edgeqr2\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "qrR",
           "package": "hmatrix",
@@ -10167,6 +11002,7 @@
         "index": {
           "description": "QR factorization of real matrix using LAPACK dgeqr2",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "qrR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double)",
@@ -10182,6 +11018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all right singular vectors of a complex matrix, using LAPACK's \u003cem\u003ezgesvd\u003c/em\u003e with jobu == 'N' and jobvt == 'A'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "rightSVC",
           "package": "hmatrix",
@@ -10192,6 +11029,7 @@
         "index": {
           "description": "Singular values and all right singular vectors of complex matrix using LAPACK zgesvd with jobu and jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "rightSVC",
           "normalized": "Matrix(Complex Double)-\u003e(Vector Double,Matrix(Complex Double))",
@@ -10208,6 +11046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values and all right singular vectors of a real matrix, using LAPACK's \u003cem\u003edgesvd\u003c/em\u003e with jobu == 'N' and jobvt == 'A'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "rightSVR",
           "package": "hmatrix",
@@ -10218,6 +11057,7 @@
         "index": {
           "description": "Singular values and all right singular vectors of real matrix using LAPACK dgesvd with jobu and jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "rightSVR",
           "normalized": "Matrix Double-\u003e(Vector Double,Matrix Double)",
@@ -10234,6 +11074,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchur factorization of a square complex matrix, using LAPACK's \u003cem\u003ezgees\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "schurC",
           "package": "hmatrix",
@@ -10244,6 +11085,7 @@
         "index": {
           "description": "Schur factorization of square complex matrix using LAPACK zgees",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "schurC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Matrix(Complex Double))",
@@ -10259,6 +11101,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSchur factorization of a square real matrix, using LAPACK's \u003cem\u003edgees\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "schurR",
           "package": "hmatrix",
@@ -10269,6 +11112,7 @@
         "index": {
           "description": "Schur factorization of square real matrix using LAPACK dgees",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "schurR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Matrix Double)",
@@ -10284,6 +11128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values of a complex matrix, using LAPACK's \u003cem\u003ezgesvd\u003c/em\u003e with jobu == jobvt == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svC",
           "package": "hmatrix",
@@ -10294,6 +11139,7 @@
         "index": {
           "description": "Singular values of complex matrix using LAPACK zgesvd with jobu jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svC",
           "normalized": "Matrix(Complex Double)-\u003eVector Double",
@@ -10309,6 +11155,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values of a complex matrix, using LAPACK's \u003cem\u003ezgesdd\u003c/em\u003e with jobz == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svCd",
           "package": "hmatrix",
@@ -10319,6 +11166,7 @@
         "index": {
           "description": "Singular values of complex matrix using LAPACK zgesdd with jobz",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svCd",
           "normalized": "Matrix(Complex Double)-\u003eVector Double",
@@ -10335,6 +11183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values of a real matrix, using LAPACK's \u003cem\u003edgesvd\u003c/em\u003e with jobu == jobvt == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svR",
           "package": "hmatrix",
@@ -10345,6 +11194,7 @@
         "index": {
           "description": "Singular values of real matrix using LAPACK dgesvd with jobu jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svR",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -10360,6 +11210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSingular values of a real matrix, using LAPACK's \u003cem\u003edgesdd\u003c/em\u003e with jobz == 'N'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svRd",
           "package": "hmatrix",
@@ -10370,6 +11221,7 @@
         "index": {
           "description": "Singular values of real matrix using LAPACK dgesdd with jobz",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svRd",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -10386,6 +11238,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull SVD of a complex matrix using LAPACK's \u003cem\u003ezgesvd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdC",
           "package": "hmatrix",
@@ -10396,6 +11249,7 @@
         "index": {
           "description": "Full SVD of complex matrix using LAPACK zgesvd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector Double,Matrix(Complex Double))",
@@ -10411,6 +11265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull SVD of a complex matrix using LAPACK's \u003cem\u003ezgesdd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdCd",
           "package": "hmatrix",
@@ -10421,6 +11276,7 @@
         "index": {
           "description": "Full SVD of complex matrix using LAPACK zgesdd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdCd",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector Double,Matrix(Complex Double))",
@@ -10437,6 +11293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull SVD of a real matrix using LAPACK's \u003cem\u003edgesvd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdR",
           "package": "hmatrix",
@@ -10447,6 +11304,7 @@
         "index": {
           "description": "Full SVD of real matrix using LAPACK dgesvd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double,Matrix Double)",
@@ -10462,6 +11320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFull SVD of a real matrix using LAPACK's \u003cem\u003edgesdd\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdRd",
           "package": "hmatrix",
@@ -10472,6 +11331,7 @@
         "index": {
           "description": "Full SVD of real matrix using LAPACK dgesdd",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "svdRd",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double,Matrix Double)",
@@ -10488,6 +11348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThin SVD of a complex matrix, using LAPACK's \u003cem\u003ezgesvd\u003c/em\u003e with jobu == jobvt == 'S'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDC",
           "package": "hmatrix",
@@ -10498,6 +11359,7 @@
         "index": {
           "description": "Thin SVD of complex matrix using LAPACK zgesvd with jobu jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDC",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector Double,Matrix(Complex Double))",
@@ -10514,6 +11376,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThin SVD of a complex matrix, using LAPACK's \u003cem\u003ezgesdd\u003c/em\u003e with jobz == 'S'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDCd",
           "package": "hmatrix",
@@ -10524,6 +11387,7 @@
         "index": {
           "description": "Thin SVD of complex matrix using LAPACK zgesdd with jobz",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDCd",
           "normalized": "Matrix(Complex Double)-\u003e(Matrix(Complex Double),Vector Double,Matrix(Complex Double))",
@@ -10540,6 +11404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThin SVD of a real matrix, using LAPACK's \u003cem\u003edgesvd\u003c/em\u003e with jobu == jobvt == 'S'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDR",
           "package": "hmatrix",
@@ -10550,6 +11415,7 @@
         "index": {
           "description": "Thin SVD of real matrix using LAPACK dgesvd with jobu jobvt",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDR",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double,Matrix Double)",
@@ -10566,6 +11432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThin SVD of a real matrix, using LAPACK's \u003cem\u003edgesdd\u003c/em\u003e with jobz == 'S'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDRd",
           "package": "hmatrix",
@@ -10576,6 +11443,7 @@
         "index": {
           "description": "Thin SVD of real matrix using LAPACK dgesdd with jobz",
           "hierarchy": "Numeric LinearAlgebra LAPACK",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.LAPACK",
           "name": "thinSVDRd",
           "normalized": "Matrix Double-\u003e(Matrix Double,Vector Double,Matrix Double)",
@@ -10591,6 +11459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "Util",
           "package": "hmatrix",
@@ -10599,6 +11468,7 @@
         },
         "index": {
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "Util",
           "package": "hmatrix",
@@ -10613,6 +11483,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(00A6) horizontal concatenation of real matrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(¦)",
           "package": "hmatrix",
@@ -10623,6 +11494,7 @@
         "index": {
           "description": "A6 horizontal concatenation of real matrices",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(¦) ¦",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -10638,6 +11510,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(00BF) extract selected columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "¿",
           "package": "hmatrix",
@@ -10648,6 +11521,7 @@
         "index": {
           "description": "BF extract selected columns",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "¿",
           "normalized": "Matrix a-\u003e[Int]-\u003eMatrix a",
@@ -10663,6 +11537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehorizontal concatenation of real matrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(!)",
           "package": "hmatrix",
@@ -10673,6 +11548,7 @@
         "index": {
           "description": "horizontal concatenation of real matrices",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(!) !",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -10688,6 +11564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003evertical concatenation of real matrices\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(#)",
           "package": "hmatrix",
@@ -10698,6 +11575,7 @@
         "index": {
           "description": "vertical concatenation of real matrices",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(#) #",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -10713,6 +11591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econcatenation of real vectors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(&)",
           "package": "hmatrix",
@@ -10723,6 +11602,7 @@
         "index": {
           "description": "concatenation of real vectors",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(&) &",
           "normalized": "Vector Double-\u003eVector Double-\u003eVector Double",
@@ -10738,6 +11618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eextract selected rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(?)",
           "package": "hmatrix",
@@ -10748,6 +11629,7 @@
         "index": {
           "description": "extract selected rows",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "(?) ?",
           "normalized": "Matrix a-\u003e[Int]-\u003eMatrix a",
@@ -10763,6 +11645,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a single column real matrix from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "col",
           "package": "hmatrix",
@@ -10773,6 +11656,7 @@
         "index": {
           "description": "create single column real matrix from list",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "col",
           "normalized": "[Double]-\u003eMatrix Double",
@@ -10788,6 +11672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003econvolution (\u003ccode\u003e\u003ca\u003ecorr\u003c/a\u003e\u003c/code\u003e with reversed kernel and padded input, equivalent to polynomial product)\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003econv (fromList[1,1]) (fromList [-1,1])\n\u003c/code\u003e\u003c/strong\u003efromList [-1.0,0.0,1.0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "conv",
           "package": "hmatrix",
@@ -10798,6 +11683,7 @@
         "index": {
           "description": "convolution corr with reversed kernel and padded input equivalent to polynomial product conv fromList fromList fromList",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "conv",
           "normalized": "Vector a-\u003eVector a-\u003eVector a",
@@ -10813,6 +11699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D convolution\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "conv2",
           "package": "hmatrix",
@@ -10823,6 +11710,7 @@
         "index": {
           "description": "convolution",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "conv2",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -10838,6 +11726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecorrelation\n\u003c/p\u003e\u003cpre class=\"screen\"\u003e\u003ccode class=\"prompt\"\u003e\u003e\u003e\u003e \u003c/code\u003e\u003cstrong class=\"userinput\"\u003e\u003ccode\u003ecorr (fromList[1,2,3]) (fromList [1..10])\n\u003c/code\u003e\u003c/strong\u003efromList [14.0,20.0,26.0,32.0,38.0,44.0,50.0,56.0]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corr",
           "package": "hmatrix",
@@ -10847,6 +11736,7 @@
         "index": {
           "description": "correlation corr fromList fromList fromList",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corr",
           "normalized": "Vector a-\u003eVector a-\u003eVector a",
@@ -10862,6 +11752,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2D correlation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corr2",
           "package": "hmatrix",
@@ -10872,6 +11763,7 @@
         "index": {
           "description": "correlation",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corr2",
           "normalized": "Matrix a-\u003eMatrix a-\u003eMatrix a",
@@ -10887,6 +11779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esimilar to \u003ccode\u003e\u003ca\u003ecorr\u003c/a\u003e\u003c/code\u003e, using \u003ccode\u003e\u003ca\u003emin\u003c/a\u003e\u003c/code\u003e instead of (*)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corrMin",
           "package": "hmatrix",
@@ -10897,6 +11790,7 @@
         "index": {
           "description": "similar to corr using min instead of",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "corrMin",
           "normalized": "Vector a-\u003eVector a-\u003eVector a",
@@ -10913,6 +11807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecross product (for three-element real vectors)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "cross",
           "package": "hmatrix",
@@ -10923,6 +11818,7 @@
         "index": {
           "description": "cross product for three-element real vectors",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "cross",
           "normalized": "Vector Double-\u003eVector Double-\u003eVector Double",
@@ -10938,6 +11834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a real diagonal matrix from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "diagl",
           "package": "hmatrix",
@@ -10948,6 +11845,7 @@
         "index": {
           "description": "create real diagonal matrix from list",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "diagl",
           "normalized": "[Double]-\u003eMatrix Double",
@@ -10963,6 +11861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eshow a matrix with given number of digits after the decimal point\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "disp",
           "package": "hmatrix",
@@ -10973,6 +11872,7 @@
         "index": {
           "description": "show matrix with given number of digits after the decimal point",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "disp",
           "normalized": "Int-\u003eMatrix Double-\u003eIO()",
@@ -10988,6 +11888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eduplication matrix (\u003ccode\u003e\u003ccode\u003e\u003ca\u003edup\u003c/a\u003e\u003c/code\u003e k \u003c\u003e \u003ccode\u003e\u003ca\u003evech\u003c/a\u003e\u003c/code\u003e m == \u003ccode\u003e\u003ca\u003evec\u003c/a\u003e\u003c/code\u003e m\u003c/code\u003e, for symmetric m of \u003ccode\u003e\u003ca\u003edim\u003c/a\u003e\u003c/code\u003e k)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "dup",
           "package": "hmatrix",
@@ -10998,6 +11899,7 @@
         "index": {
           "description": "duplication matrix dup vech vec for symmetric of dim",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "dup",
           "normalized": "Int-\u003eMatrix a",
@@ -11013,6 +11915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etrans . inv\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "mt",
           "package": "hmatrix",
@@ -11023,6 +11926,7 @@
         "index": {
           "description": "trans inv",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "mt",
           "normalized": "Matrix Double-\u003eMatrix Double",
@@ -11038,6 +11942,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e2-norm of real vector\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "norm",
           "package": "hmatrix",
@@ -11048,6 +11953,7 @@
         "index": {
           "description": "norm of real vector",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "norm",
           "normalized": "Vector Double-\u003eDouble",
@@ -11063,6 +11969,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esolution of overconstrained homogeneous linear system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "null1",
           "package": "hmatrix",
@@ -11073,6 +11980,7 @@
         "index": {
           "description": "solution of overconstrained homogeneous linear system",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "null1",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -11088,6 +11996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esolution of overconstrained homogeneous symmetric linear system\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "null1sym",
           "package": "hmatrix",
@@ -11098,6 +12007,7 @@
         "index": {
           "description": "solution of overconstrained homogeneous symmetric linear system",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "null1sym",
           "normalized": "Matrix Double-\u003eVector Double",
@@ -11113,6 +12023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea real matrix of ones\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "ones",
           "package": "hmatrix",
@@ -11122,6 +12033,7 @@
         "index": {
           "description": "real matrix of ones",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "ones",
           "normalized": "Int-\u003eInt-\u003eMatrix Double",
@@ -11137,6 +12049,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatrix of pairwise squared distances of row vectors\n (using the matrix product trick in blog.smola.org)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "pairwiseD2",
           "package": "hmatrix",
@@ -11147,6 +12060,7 @@
         "index": {
           "description": "Matrix of pairwise squared distances of row vectors using the matrix product trick in blog.smola.org",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "pairwiseD2",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -11162,6 +12076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudorandom matrix with uniform elements between 0 and 1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "rand",
           "package": "hmatrix",
@@ -11172,6 +12087,7 @@
         "index": {
           "description": "pseudorandom matrix with uniform elements between and",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "rand",
           "normalized": "Int-\u003eInt-\u003eIO(Matrix Double)",
@@ -11187,6 +12103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003epseudorandom matrix with normal elements\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "randn",
           "package": "hmatrix",
@@ -11197,6 +12114,7 @@
         "index": {
           "description": "pseudorandom matrix with normal elements",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "randn",
           "normalized": "Int-\u003eInt-\u003eIO(Matrix Double)",
@@ -11212,6 +12130,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreate a single row real matrix from a list\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "row",
           "package": "hmatrix",
@@ -11222,6 +12141,7 @@
         "index": {
           "description": "create single row real matrix from list",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "row",
           "normalized": "[Double]-\u003eMatrix Double",
@@ -11237,6 +12157,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eouter products of rows\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "rowOuters",
           "package": "hmatrix",
@@ -11247,6 +12168,7 @@
         "index": {
           "description": "outer products of rows",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "rowOuters",
           "normalized": "Matrix Double-\u003eMatrix Double-\u003eMatrix Double",
@@ -11263,6 +12185,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ematrix computation implemented as separated vector operations by rows and columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "separable",
           "package": "hmatrix",
@@ -11273,6 +12196,7 @@
         "index": {
           "description": "matrix computation implemented as separated vector operations by rows and columns",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "separable",
           "normalized": "(Vector a-\u003eVector a)-\u003eMatrix a-\u003eMatrix a",
@@ -11288,6 +12212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e(rows &&& cols)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "size",
           "package": "hmatrix",
@@ -11298,6 +12223,7 @@
         "index": {
           "description": "rows cols",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "size",
           "normalized": "Matrix a-\u003e(Int,Int)",
@@ -11313,6 +12239,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eObtains a vector in the same direction with 2-norm=1\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "unitary",
           "package": "hmatrix",
@@ -11323,6 +12250,7 @@
         "index": {
           "description": "Obtains vector in the same direction with norm",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "unitary",
           "normalized": "Vector Double-\u003eVector Double",
@@ -11338,6 +12266,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estacking of columns\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vec",
           "package": "hmatrix",
@@ -11348,6 +12277,7 @@
         "index": {
           "description": "stacking of columns",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vec",
           "normalized": "Matrix a-\u003eVector a",
@@ -11363,6 +12293,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ehalf-vectorization (of the lower triangular part)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vech",
           "package": "hmatrix",
@@ -11373,6 +12304,7 @@
         "index": {
           "description": "half-vectorization of the lower triangular part",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vech",
           "normalized": "Matrix a-\u003eVector a",
@@ -11388,6 +12320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneralized \"vector\" transposition: \u003ccode\u003e\u003ccode\u003e\u003ca\u003evtrans\u003c/a\u003e\u003c/code\u003e 1 == \u003ccode\u003e\u003ca\u003etrans\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ccode\u003e\u003ca\u003evtrans\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003erows\u003c/a\u003e\u003c/code\u003e m) m == \u003ccode\u003e\u003ca\u003easColumn\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003evec\u003c/a\u003e\u003c/code\u003e m)\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vtrans",
           "package": "hmatrix",
@@ -11398,6 +12331,7 @@
         "index": {
           "description": "generalized vector transposition vtrans trans and vtrans rows asColumn vec",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "vtrans",
           "normalized": "Int-\u003eMatrix a-\u003eMatrix a",
@@ -11413,6 +12347,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea real matrix of zeros\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "zeros",
           "package": "hmatrix",
@@ -11422,6 +12357,7 @@
         "index": {
           "description": "real matrix of zeros",
           "hierarchy": "Numeric LinearAlgebra Util",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra.Util",
           "name": "zeros",
           "normalized": "Int-\u003eInt-\u003eMatrix Double",
@@ -11437,6 +12373,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module reexports all normally required functions for Linear Algebra applications.\n\u003c/p\u003e\u003cp\u003eIt also provides instances of standard classes \u003ccode\u003e\u003ca\u003eShow\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eRead\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEq\u003c/a\u003e\u003c/code\u003e,\n\u003ccode\u003e\u003ca\u003eNum\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eFractional\u003c/a\u003e\u003c/code\u003e, and \u003ccode\u003e\u003ca\u003eFloating\u003c/a\u003e\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eVector\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMatrix\u003c/a\u003e\u003c/code\u003e.\nIn arithmetic operations one-component vectors and matrices automatically\nexpand to match the dimensions of the other operand.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:41:41 UTC 2014",
           "module": "Numeric.LinearAlgebra",
           "name": "LinearAlgebra",
           "package": "hmatrix",
@@ -11446,6 +12383,7 @@
         "index": {
           "description": "This module reexports all normally required functions for Linear Algebra applications It also provides instances of standard classes Show Read Eq Num Fractional and Floating for Vector and Matrix In arithmetic operations one-component vectors and matrices automatically expand to match the dimensions of the other operand",
           "hierarchy": "Numeric LinearAlgebra",
+          "indexed": "2014-03-11T18:41:41",
           "module": "Numeric.LinearAlgebra",
           "name": "LinearAlgebra",
           "package": "hmatrix",

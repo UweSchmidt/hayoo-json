@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hsyscall"
+        "phrase": "hsyscall",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "Syscall",
           "package": "hsyscall",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "Syscall",
           "package": "hsyscall",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_close",
           "package": "hsyscall",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_close",
           "normalized": "CInt-\u003eIO CInt",
@@ -61,6 +65,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_fcntl_lock",
           "package": "hsyscall",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_fcntl_lock",
           "normalized": "CInt-\u003eCInt-\u003ePtr CFLock-\u003eIO CInt",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_fcntl_read",
           "package": "hsyscall",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_fcntl_read",
           "normalized": "CInt-\u003eCInt-\u003eIO CInt",
@@ -105,6 +113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_fcntl_write",
           "package": "hsyscall",
@@ -113,6 +122,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_fcntl_write",
           "normalized": "CInt-\u003eCInt-\u003eCLong-\u003eIO CInt",
@@ -127,6 +137,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_open",
           "package": "hsyscall",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_open",
           "normalized": "CFilePath-\u003eCInt-\u003eCMode-\u003eIO CInt",
@@ -149,6 +161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_read",
           "package": "hsyscall",
@@ -157,6 +170,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_read",
           "normalized": "CInt-\u003ePtr Word-\u003eCSize-\u003eIO CSsize",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA unified primitive signature for the sendfile syscall.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_sendfile",
           "package": "hsyscall",
@@ -182,6 +197,7 @@
         "index": {
           "description": "unified primitive signature for the sendfile syscall",
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_sendfile",
           "normalized": "Fd-\u003eFd-\u003eCOff-\u003eCSize-\u003eIO(Either Errno CSsize)",
@@ -196,6 +212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_stat",
           "package": "hsyscall",
@@ -204,6 +221,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_stat",
           "normalized": "CFilePath-\u003ePtr CStat-\u003eIO CInt",
@@ -218,6 +236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:51:22 UTC 2014",
           "module": "System.Syscall",
           "name": "c_write",
           "package": "hsyscall",
@@ -226,6 +245,7 @@
         },
         "index": {
           "hierarchy": "System Syscall",
+          "indexed": "2014-03-11T18:51:22",
           "module": "System.Syscall",
           "name": "c_write",
           "normalized": "CInt-\u003ePtr Word-\u003eCSize-\u003eIO CSsize",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "cereal-plus"
+        "phrase": "cereal-plus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad-transformer over \u003ca\u003eData.Serialize.Get\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Deserialize",
           "package": "cereal-plus",
@@ -28,6 +29,7 @@
         "index": {
           "description": "monad-transformer over Data.Serialize.Get",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Deserialize",
           "package": "cereal-plus",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA deserialization monad transformer. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Deserialize",
           "package": "cereal-plus",
@@ -51,6 +54,7 @@
         "index": {
           "description": "deserialization monad transformer",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Deserialize",
           "package": "cereal-plus",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA partial result of deserialization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Result",
           "package": "cereal-plus",
@@ -74,6 +79,7 @@
         "index": {
           "description": "partial result of deserialization",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Result",
           "package": "cereal-plus",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA deserialized data structure and a remaining chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Done",
           "package": "cereal-plus",
@@ -98,6 +105,7 @@
         "index": {
           "description": "deserialized data structure and remaining chunk",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Done",
           "package": "cereal-plus",
@@ -112,6 +120,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA message describing the deserialization failure and a remaining chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Fail",
           "package": "cereal-plus",
@@ -122,6 +131,7 @@
         "index": {
           "description": "message describing the deserialization failure and remaining chunk",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Fail",
           "package": "cereal-plus",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA continuation function, which should be supplied with the next chunk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "Partial",
           "package": "cereal-plus",
@@ -146,6 +157,7 @@
         "index": {
           "description": "continuation function which should be supplied with the next chunk",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "Partial",
           "normalized": "Partial(ByteString-\u003ea(Result a b))",
@@ -162,6 +174,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003eGet\u003c/a\u003e\u003c/code\u003e action of the \"cereal\" library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "liftGet",
           "package": "cereal-plus",
@@ -172,6 +185,7 @@
         "index": {
           "description": "Run Get action of the cereal library",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "liftGet",
           "normalized": "Get a-\u003eDeserialize b a",
@@ -188,6 +202,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the base monad. Same as \u003ccode\u003e\u003ca\u003etransMap\u003c/a\u003e\u003c/code\u003e of the \"layers\" library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "mapBase",
           "package": "cereal-plus",
@@ -198,6 +213,7 @@
         "index": {
           "description": "Change the base monad Same as transMap of the layers library",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "mapBase",
           "normalized": "(a b c d-\u003ee d)-\u003eDeserialize c f-\u003eDeserialize e f",
@@ -214,6 +230,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun on a chunk of data and get a partial result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Deserialize",
           "name": "runPartial",
           "package": "cereal-plus",
@@ -224,6 +241,7 @@
         "index": {
           "description": "Run on chunk of data and get partial result",
           "hierarchy": "CerealPlus Deserialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Deserialize",
           "name": "runPartial",
           "normalized": "Deserialize a b-\u003eByteString-\u003ea(Result a b)",
@@ -239,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serializable",
           "name": "Serializable",
           "package": "cereal-plus",
@@ -247,6 +266,7 @@
         },
         "index": {
           "hierarchy": "CerealPlus Serializable",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serializable",
           "name": "Serializable",
           "package": "cereal-plus",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSupport for serialization of a data type in a monadic context \n (e.g., \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eST\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eSTM\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e),\n meaning that this can be used to provide serialization support for mutable data.\n\u003c/p\u003e\u003cp\u003eTo use it in a pure context, refer to \u003ccode\u003e\u003ca\u003eIdentity\u003c/a\u003e\u003c/code\u003e monad.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serializable",
           "name": "Serializable",
           "package": "cereal-plus",
@@ -270,6 +291,7 @@
         "index": {
           "description": "Support for serialization of data type in monadic context e.g IO ST STM Identity meaning that this can be used to provide serialization support for mutable data To use it in pure context refer to Identity monad",
           "hierarchy": "CerealPlus Serializable",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serializable",
           "name": "Serializable",
           "package": "cereal-plus",
@@ -283,6 +305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serializable",
           "name": "deserialize",
           "package": "cereal-plus",
@@ -292,6 +315,7 @@
         },
         "index": {
           "hierarchy": "CerealPlus Serializable",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serializable",
           "name": "deserialize",
           "package": "cereal-plus",
@@ -304,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serializable",
           "name": "serialize",
           "package": "cereal-plus",
@@ -313,6 +338,7 @@
         },
         "index": {
           "hierarchy": "CerealPlus Serializable",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serializable",
           "name": "serialize",
           "normalized": "a-\u003eSerialize b()",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA monad-transformer over \u003ca\u003eData.Serialize.Put\u003c/a\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "Serialize",
           "package": "cereal-plus",
@@ -337,6 +364,7 @@
         "index": {
           "description": "monad-transformer over Data.Serialize.Put",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "Serialize",
           "package": "cereal-plus",
@@ -351,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA serialization monad transformer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "Serialize",
           "package": "cereal-plus",
@@ -360,6 +389,7 @@
         "index": {
           "description": "serialization monad transformer",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "Serialize",
           "package": "cereal-plus",
@@ -374,6 +404,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun and get a bytestring of serialized data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "exec",
           "package": "cereal-plus",
@@ -384,6 +415,7 @@
         "index": {
           "description": "Run and get bytestring of serialized data",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "exec",
           "normalized": "Serialize a b-\u003ea ByteString",
@@ -399,6 +431,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun and get a lazy bytestring of serialized data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "execLazy",
           "package": "cereal-plus",
@@ -409,6 +442,7 @@
         "index": {
           "description": "Run and get lazy bytestring of serialized data",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "execLazy",
           "normalized": "Serialize a b-\u003ea LazyByteString",
@@ -425,6 +459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a \u003ccode\u003e\u003ca\u003ePut\u003c/a\u003e\u003c/code\u003e action of the \"cereal\" library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "liftPut",
           "package": "cereal-plus",
@@ -435,6 +470,7 @@
         "index": {
           "description": "Run Put action of the cereal library",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "liftPut",
           "normalized": "Put-\u003eSerialize a()",
@@ -451,6 +487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the base monad. Same as \u003ccode\u003e\u003ca\u003etransMap\u003c/a\u003e\u003c/code\u003e of the \"layers\" library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "mapBase",
           "package": "cereal-plus",
@@ -461,6 +498,7 @@
         "index": {
           "description": "Change the base monad Same as transMap of the layers library",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "mapBase",
           "normalized": "(a b c d-\u003ee d)-\u003eSerialize c f-\u003eSerialize e f",
@@ -477,6 +515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun and get the monad result paired with a bytestring of serialized data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "run",
           "package": "cereal-plus",
@@ -487,6 +526,7 @@
         "index": {
           "description": "Run and get the monad result paired with bytestring of serialized data",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "run",
           "normalized": "Serialize a b-\u003ea(b,ByteString)",
@@ -502,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun and get the monad result paired with a lazy bytestring of serialized data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:31:05 UTC 2014",
           "module": "CerealPlus.Serialize",
           "name": "runLazy",
           "package": "cereal-plus",
@@ -512,6 +553,7 @@
         "index": {
           "description": "Run and get the monad result paired with lazy bytestring of serialized data",
           "hierarchy": "CerealPlus Serialize",
+          "indexed": "2014-03-11T17:31:05",
           "module": "CerealPlus.Serialize",
           "name": "runLazy",
           "normalized": "Serialize a b-\u003ea(b,LazyByteString)",

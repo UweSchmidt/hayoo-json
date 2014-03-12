@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "htime"
+        "phrase": "htime",
+        "type": "phrase"
       },
       "type": "context"
     }

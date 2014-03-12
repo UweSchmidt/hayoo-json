@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hPDB-examples"
+        "phrase": "hPDB-examples",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "eq"
+        "phrase": "eq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLeibnizian equality. Injectivity in the presence of type families\n is provided by a generalization of a trick by Oleg Kiselyv posted here:\n\u003c/p\u003e\u003cp\u003e\u003ca\u003ehttp://www.haskell.org/pipermail/haskell-cafe/2010-May/077177.html\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "Type",
           "package": "eq",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Leibnizian equality Injectivity in the presence of type families is provided by generalization of trick by Oleg Kiselyv posted here http www.haskell.org pipermail haskell-cafe May html",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "Type",
           "package": "eq",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeibnizian equality states that two things are equal if you can\n substite one for the other in all contexts\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": ":=",
           "package": "eq",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Leibnizian equality states that two things are equal if you can substite one for the other in all contexts",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": ":=",
           "package": "eq",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "Refl",
           "package": "eq",
@@ -72,6 +77,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "Refl",
           "package": "eq",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIf two things are equal you can convert one to the other\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "coerce",
           "package": "eq",
@@ -96,6 +103,7 @@
         "index": {
           "description": "If two things are equal you can convert one to the other",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "coerce",
           "normalized": "(a b)-\u003ea-\u003eb",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYou can lift equality into any type constructor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "lift",
           "package": "eq",
@@ -121,6 +130,7 @@
         "index": {
           "description": "You can lift equality into any type constructor",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "lift",
           "normalized": "(a b)-\u003ec a c b",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e... in any position\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "lift2",
           "package": "eq",
@@ -146,6 +157,7 @@
         "index": {
           "description": "in any position",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "lift2",
           "normalized": "(a b)-\u003ec a d c b d",
@@ -160,6 +172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "lift2'",
           "package": "eq",
@@ -169,6 +182,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "lift2'",
           "normalized": "(a b)-\u003e(c d)-\u003ee a c e b d",
@@ -183,6 +197,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "lift3",
           "package": "eq",
@@ -192,6 +207,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "lift3",
           "normalized": "(a b)-\u003ec a d e c b d e",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "lift3'",
           "package": "eq",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "lift3'",
           "normalized": "(a b)-\u003e(c d)-\u003e(e f)-\u003eg a c e g b d f",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is reflexive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "refl",
           "package": "eq",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Equality is reflexive",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "refl",
           "package": "eq",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "subst",
           "package": "eq",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "subst",
           "normalized": "a b c d-\u003ec e",
@@ -276,6 +298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is symmetric\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "symm",
           "package": "eq",
@@ -286,6 +309,7 @@
         "index": {
           "description": "Equality is symmetric",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "symm",
           "normalized": "(a b)-\u003eb a",
@@ -301,6 +325,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEquality is transitive\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:03:30 UTC 2014",
           "module": "Data.Eq.Type",
           "name": "trans",
           "package": "eq",
@@ -311,6 +336,7 @@
         "index": {
           "description": "Equality is transitive",
           "hierarchy": "Data Eq Type",
+          "indexed": "2014-03-11T18:03:30",
           "module": "Data.Eq.Type",
           "name": "trans",
           "normalized": "(a b)-\u003e(b c)-\u003ea c",

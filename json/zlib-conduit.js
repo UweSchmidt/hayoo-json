@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "zlib-conduit"
+        "phrase": "zlib-conduit",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStreaming compression and decompression using conduits.\n\u003c/p\u003e\u003cp\u003eParts of this code were taken from zlib-enum and adapted for conduits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "Zlib",
           "package": "zlib-conduit",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Streaming compression and decompression using conduits Parts of this code were taken from zlib-enum and adapted for conduits",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "Zlib",
           "package": "zlib-conduit",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis specifies the size of the compression window. Larger values of this\n parameter result in better compression at the expense of higher memory\n usage.\n\u003c/p\u003e\u003cp\u003eThe compression window size is the value of the the window bits raised to\n the power 2. The window bits must be in the range \u003ccode\u003e8..15\u003c/code\u003e which corresponds\n to compression window sizes of 256b to 32Kb. The default is 15 which is also\n the maximum size.\n\u003c/p\u003e\u003cp\u003eThe total amount of memory used depends on the window bits and the\n \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e. See the \u003ccode\u003e\u003ca\u003eMemoryLevel\u003c/a\u003e\u003c/code\u003e for the details.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "WindowBits",
           "package": "zlib-conduit",
@@ -50,6 +53,7 @@
         "index": {
           "description": "This specifies the size of the compression window Larger values of this parameter result in better compression at the expense of higher memory usage The compression window size is the value of the the window bits raised to the power The window bits must be in the range which corresponds to compression window sizes of to Kb The default is which is also the maximum size The total amount of memory used depends on the window bits and the MemoryLevel See the MemoryLevel for the details",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "WindowBits",
           "package": "zlib-conduit",
@@ -63,6 +67,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "WindowBits",
           "package": "zlib-conduit",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "WindowBits",
           "package": "zlib-conduit",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompress (deflate) a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. The \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e also control\n the format (zlib vs. gzip).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "compress",
           "package": "zlib-conduit",
@@ -94,6 +101,7 @@
         "index": {
           "description": "Compress deflate stream of ByteString The WindowBits also control the format zlib vs gzip",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "compress",
           "normalized": "Int-\u003eWindowBits-\u003eConduit ByteString a ByteString",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003ecompress\u003c/a\u003e\u003c/code\u003e, but allows you to explicitly flush the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "compressFlush",
           "package": "zlib-conduit",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Same as compress but allows you to explicitly flush the stream",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "compressFlush",
           "normalized": "Int-\u003eWindowBits-\u003eConduit(Flush ByteString)a(Flush ByteString)",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompress (inflate) a stream of \u003ccode\u003e\u003ca\u003eByteString\u003c/a\u003e\u003c/code\u003es. For example:\n\u003c/p\u003e\u003cpre\u003e    sourceFile \"test.z\" $= decompress defaultWindowBits $$ sinkFile \"test\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "decompress",
           "package": "zlib-conduit",
@@ -143,6 +154,7 @@
         "index": {
           "description": "Decompress inflate stream of ByteString For example sourceFile test.z decompress defaultWindowBits sinkFile test",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "decompress",
           "normalized": "WindowBits-\u003eConduit ByteString a ByteString",
@@ -158,6 +170,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003edecompress\u003c/a\u003e\u003c/code\u003e, but allows you to explicitly flush the stream.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "decompressFlush",
           "package": "zlib-conduit",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Same as decompress but allows you to explicitly flush the stream",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "decompressFlush",
           "normalized": "WindowBits-\u003eConduit(Flush ByteString)a(Flush ByteString)",
@@ -183,6 +197,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eWindowBits\u003c/a\u003e\u003c/code\u003e is 15 which is also the maximum size.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "defaultWindowBits",
           "package": "zlib-conduit",
@@ -192,6 +207,7 @@
         "index": {
           "description": "The default WindowBits is which is also the maximum size",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "defaultWindowBits",
           "package": "zlib-conduit",
@@ -206,6 +222,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGzip compression with default parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "gzip",
           "package": "zlib-conduit",
@@ -216,6 +233,7 @@
         "index": {
           "description": "Gzip compression with default parameters",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "gzip",
           "package": "zlib-conduit",
@@ -229,6 +247,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGzip decompression with default parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:48:25 UTC 2014",
           "module": "Data.Conduit.Zlib",
           "name": "ungzip",
           "package": "zlib-conduit",
@@ -239,6 +258,7 @@
         "index": {
           "description": "Gzip decompression with default parameters",
           "hierarchy": "Data Conduit Zlib",
+          "indexed": "2014-03-11T20:48:25",
           "module": "Data.Conduit.Zlib",
           "name": "ungzip",
           "package": "zlib-conduit",

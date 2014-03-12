@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "lambdacat"
+        "phrase": "lambdacat",
+        "type": "phrase"
       },
       "type": "context"
     }

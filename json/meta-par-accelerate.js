@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "meta-par-accelerate"
+        "phrase": "meta-par-accelerate",
+        "type": "phrase"
       },
       "type": "context"
     }

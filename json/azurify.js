@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "azurify"
+        "phrase": "azurify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAzurify is an incomplete yet sort-of-functional library and command line client to access the Azure Blob Storage API\n\u003c/p\u003e\u003cp\u003eThe following features are implemented:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Creating and deleting containers\n\u003c/li\u003e\u003cli\u003e Listing the contents of a container\n\u003c/li\u003e\u003cli\u003e Downloading blobs\n\u003c/li\u003e\u003cli\u003e Uploading a new block blob if it's no larger than 64MB\n\u003c/li\u003e\u003cli\u003e Deleting a blob\n\u003c/li\u003e\u003cli\u003e Breaking a blob lease\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "Azure",
           "package": "azurify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Azurify is an incomplete yet sort-of-functional library and command line client to access the Azure Blob Storage API The following features are implemented Creating and deleting containers Listing the contents of container Downloading blobs Uploading new block blob if it no larger than MB Deleting blob Breaking blob lease",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "Azure",
           "package": "azurify",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "AccessControl",
           "package": "azurify",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "AccessControl",
           "package": "azurify",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "Blob",
           "package": "azurify",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "Blob",
           "package": "azurify",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlobSettings",
           "package": "azurify",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlobSettings",
           "package": "azurify",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlobType",
           "package": "azurify",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlobType",
           "package": "azurify",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "CommonBlobSettings",
           "package": "azurify",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "CommonBlobSettings",
           "package": "azurify",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "Blob",
           "package": "azurify",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "Blob",
           "package": "azurify",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblobs can be read by anonymous users, but the container cannot be enumerated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlobPublic",
           "package": "azurify",
@@ -179,6 +194,7 @@
         "index": {
           "description": "blobs can be read by anonymous users but the container cannot be enumerated",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlobPublic",
           "package": "azurify",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlobSettings",
           "package": "azurify",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlobSettings",
           "package": "azurify",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlockBlob",
           "package": "azurify",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlockBlob",
           "package": "azurify",
@@ -236,6 +256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "BlockBlobSettings",
           "package": "azurify",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "BlockBlobSettings",
           "package": "azurify",
@@ -259,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe container can be enumerated and all blobs can be read by anonymous users\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "ContainerPublic",
           "package": "azurify",
@@ -269,6 +292,7 @@
         "index": {
           "description": "the container can be enumerated and all blobs can be read by anonymous users",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "ContainerPublic",
           "package": "azurify",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "FileBlobSettings",
           "package": "azurify",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "FileBlobSettings",
           "package": "azurify",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "PageBlob",
           "package": "azurify",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "PageBlob",
           "package": "azurify",
@@ -326,6 +354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "PageBlobSettings",
           "package": "azurify",
@@ -335,6 +364,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "PageBlobSettings",
           "package": "azurify",
@@ -349,6 +379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eblobs can't be read by anonymous users and the container cannot be enumerated\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "Private",
           "package": "azurify",
@@ -359,6 +390,7 @@
         "index": {
           "description": "blobs can be read by anonymous users and the container cannot be enumerated",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "Private",
           "package": "azurify",
@@ -372,6 +404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobCacheControl",
           "package": "azurify",
@@ -381,6 +414,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobCacheControl",
           "package": "azurify",
@@ -394,6 +428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobContentEncoding",
           "package": "azurify",
@@ -403,6 +438,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobContentEncoding",
           "package": "azurify",
@@ -416,6 +452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobContentLanguage",
           "package": "azurify",
@@ -425,6 +462,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobContentLanguage",
           "package": "azurify",
@@ -438,6 +476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobContentLength",
           "package": "azurify",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobContentLength",
           "package": "azurify",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobContentMD5",
           "package": "azurify",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobContentMD5",
           "package": "azurify",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobContentType",
           "package": "azurify",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobContentType",
           "package": "azurify",
@@ -504,6 +548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobETag",
           "package": "azurify",
@@ -513,6 +558,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobETag",
           "package": "azurify",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobLastModified",
           "package": "azurify",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobLastModified",
           "package": "azurify",
@@ -548,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobName",
           "package": "azurify",
@@ -557,6 +606,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobName",
           "package": "azurify",
@@ -570,6 +620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsCacheControl",
           "package": "azurify",
@@ -579,6 +630,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsCacheControl",
           "package": "azurify",
@@ -592,6 +644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsContentEncoding",
           "package": "azurify",
@@ -601,6 +654,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsContentEncoding",
           "package": "azurify",
@@ -614,6 +668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsContentLanguage",
           "package": "azurify",
@@ -623,6 +678,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsContentLanguage",
           "package": "azurify",
@@ -636,6 +692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsContentMD5",
           "package": "azurify",
@@ -645,6 +702,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsContentMD5",
           "package": "azurify",
@@ -658,6 +716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsContentType",
           "package": "azurify",
@@ -667,6 +726,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsContentType",
           "package": "azurify",
@@ -680,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobSettingsMetaData",
           "package": "azurify",
@@ -689,6 +750,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobSettingsMetaData",
           "normalized": "[(Text,Text)]",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobType",
           "package": "azurify",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobType",
           "package": "azurify",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blobUrl",
           "package": "azurify",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blobUrl",
           "package": "azurify",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blockBlobContents",
           "package": "azurify",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blockBlobContents",
           "package": "azurify",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blockBlobFile",
           "package": "azurify",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blockBlobFile",
           "package": "azurify",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blockBlobName",
           "package": "azurify",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blockBlobName",
           "package": "azurify",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "blockBlobSettings",
           "package": "azurify",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "blockBlobSettings",
           "package": "azurify",
@@ -837,6 +911,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBreak a lease of a blob\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "breakLease",
           "package": "azurify",
@@ -846,6 +921,7 @@
         "index": {
           "description": "Break lease of blob",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "breakLease",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eByteString-\u003eIO(Maybe(Int,ByteString))",
@@ -862,6 +938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the access control on a container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "changeContainerACL",
           "package": "azurify",
@@ -871,6 +948,7 @@
         "index": {
           "description": "Set the access control on container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "changeContainerACL",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eAccessControl-\u003eIO(Maybe(Int,ByteString))",
@@ -887,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpload a new blob to a container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "createBlob",
           "package": "azurify",
@@ -896,6 +975,7 @@
         "index": {
           "description": "Upload new blob to container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "createBlob",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eBlobSettings-\u003eIO(Maybe(Int,ByteString))",
@@ -912,6 +992,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "createContainer",
           "package": "azurify",
@@ -921,6 +1002,7 @@
         "index": {
           "description": "Create new container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "createContainer",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eAccessControl-\u003eIO(Maybe(Int,ByteString))",
@@ -937,6 +1019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a blob from a container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "deleteBlob",
           "package": "azurify",
@@ -946,6 +1029,7 @@
         "index": {
           "description": "Delete blob from container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "deleteBlob",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eByteString-\u003eIO(Maybe(Int,ByteString))",
@@ -962,6 +1046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "deleteContainer",
           "package": "azurify",
@@ -971,6 +1056,7 @@
         "index": {
           "description": "Delete container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "deleteContainer",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eIO(Maybe(Int,ByteString))",
@@ -987,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDownload a blob\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "getBlob",
           "package": "azurify",
@@ -996,6 +1083,7 @@
         "index": {
           "description": "Download blob",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "getBlob",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eByteString-\u003eIO(Either(Int,ByteString)ByteString)",
@@ -1012,6 +1100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all blobs in a given container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "listContainer",
           "package": "azurify",
@@ -1021,6 +1110,7 @@
         "index": {
           "description": "List all blobs in given container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "listContainer",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eIO(Either(Int,ByteString)[Blob])",
@@ -1037,6 +1127,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList all blobs in a given container\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "listContainerRaw",
           "package": "azurify",
@@ -1046,6 +1137,7 @@
         "index": {
           "description": "List all blobs in given container",
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "listContainerRaw",
           "normalized": "ByteString-\u003eByteString-\u003eByteString-\u003eIO(Either(Int,ByteString)ByteString)",
@@ -1061,6 +1153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "pageBlobContentLength",
           "package": "azurify",
@@ -1070,6 +1163,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "pageBlobContentLength",
           "package": "azurify",
@@ -1083,6 +1177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "pageBlobName",
           "package": "azurify",
@@ -1092,6 +1187,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "pageBlobName",
           "package": "azurify",
@@ -1105,6 +1201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:16:01 UTC 2014",
           "module": "Azure",
           "name": "pageBlobSettings",
           "package": "azurify",
@@ -1114,6 +1211,7 @@
         },
         "index": {
           "hierarchy": "Azure",
+          "indexed": "2014-03-11T17:16:01",
           "module": "Azure",
           "name": "pageBlobSettings",
           "package": "azurify",

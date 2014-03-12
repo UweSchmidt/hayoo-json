@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "topkata"
+        "phrase": "topkata",
+        "type": "phrase"
       },
       "type": "context"
     }

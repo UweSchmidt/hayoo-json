@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "network-dbus"
+        "phrase": "network-dbus",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "Connection",
           "package": "network-dbus",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "Connection",
           "package": "network-dbus",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "Connection",
           "package": "network-dbus",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "Connection",
           "package": "network-dbus",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "ConnectionAddress",
           "package": "network-dbus",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "ConnectionAddress",
           "package": "network-dbus",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "Handler",
           "package": "network-dbus",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "Handler",
           "package": "network-dbus",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchClause",
           "package": "network-dbus",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchClause",
           "package": "network-dbus",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchRule",
           "package": "network-dbus",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchRule",
           "package": "network-dbus",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchArg",
           "package": "network-dbus",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchArg",
           "package": "network-dbus",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchDestination",
           "package": "network-dbus",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchDestination",
           "package": "network-dbus",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchInterface",
           "package": "network-dbus",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchInterface",
           "package": "network-dbus",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchMember",
           "package": "network-dbus",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchMember",
           "package": "network-dbus",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchPath",
           "package": "network-dbus",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchPath",
           "package": "network-dbus",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchSender",
           "package": "network-dbus",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchSender",
           "package": "network-dbus",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "MatchType",
           "package": "network-dbus",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "MatchType",
           "package": "network-dbus",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "Unix",
           "package": "network-dbus",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "Unix",
           "package": "network-dbus",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "UnixAbstract",
           "package": "network-dbus",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "UnixAbstract",
           "package": "network-dbus",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "addHandler",
           "package": "network-dbus",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "addHandler",
           "normalized": "Connection-\u003eMaybe MatchRule-\u003eHandler-\u003eIO Int",
@@ -366,6 +398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "addrGuid",
           "package": "network-dbus",
@@ -375,6 +408,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "addrGuid",
           "package": "network-dbus",
@@ -388,6 +422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "addrPath",
           "package": "network-dbus",
@@ -397,6 +432,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "addrPath",
           "package": "network-dbus",
@@ -410,6 +446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "connectToBus",
           "package": "network-dbus",
@@ -419,6 +456,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "connectToBus",
           "normalized": "ConnectionAddress-\u003eIO Connection",
@@ -434,6 +472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "getSessionBusAddress",
           "package": "network-dbus",
@@ -443,6 +482,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "getSessionBusAddress",
           "package": "network-dbus",
@@ -456,6 +496,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "getSystemBusAddress",
           "package": "network-dbus",
@@ -465,6 +506,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "getSystemBusAddress",
           "package": "network-dbus",
@@ -478,6 +520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "parseAddress",
           "package": "network-dbus",
@@ -487,6 +530,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "parseAddress",
           "normalized": "String-\u003eMaybe ConnectionAddress",
@@ -502,6 +546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "removeHandler",
           "package": "network-dbus",
@@ -511,6 +556,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "removeHandler",
           "normalized": "Connection-\u003eInt-\u003eIO()",
@@ -526,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "sendAndWait",
           "package": "network-dbus",
@@ -535,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "sendAndWait",
           "normalized": "Connection-\u003eMessage-\u003eIO Message",
@@ -550,6 +598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "sendMessage",
           "package": "network-dbus",
@@ -559,6 +608,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "sendMessage",
           "normalized": "Connection-\u003eMessage-\u003eIO Word",
@@ -574,6 +624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Connection",
           "name": "uniqueName",
           "package": "network-dbus",
@@ -583,6 +634,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Connection",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Connection",
           "name": "uniqueName",
           "normalized": "Connection-\u003eDString",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -606,6 +659,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -619,6 +673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Flag",
           "package": "network-dbus",
@@ -627,6 +682,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Flag",
           "package": "network-dbus",
@@ -640,6 +696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -648,6 +705,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -661,6 +719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "MessageType",
           "package": "network-dbus",
@@ -669,6 +728,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "MessageType",
           "package": "network-dbus",
@@ -682,6 +742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Error",
           "package": "network-dbus",
@@ -691,6 +752,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Error",
           "package": "network-dbus",
@@ -704,6 +766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -713,6 +776,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Message",
           "package": "network-dbus",
@@ -726,6 +790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "MethodCall",
           "package": "network-dbus",
@@ -735,6 +800,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "MethodCall",
           "package": "network-dbus",
@@ -748,6 +814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "MethodReturn",
           "package": "network-dbus",
@@ -757,6 +824,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "MethodReturn",
           "package": "network-dbus",
@@ -770,6 +838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "NoAutoStart",
           "package": "network-dbus",
@@ -779,6 +848,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "NoAutoStart",
           "package": "network-dbus",
@@ -792,6 +862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "NoReplyExpected",
           "package": "network-dbus",
@@ -801,6 +872,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "NoReplyExpected",
           "package": "network-dbus",
@@ -814,6 +886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "Signal",
           "package": "network-dbus",
@@ -823,6 +896,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "Signal",
           "package": "network-dbus",
@@ -836,6 +910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "dbusProtocolVersion",
           "package": "network-dbus",
@@ -845,6 +920,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "dbusProtocolVersion",
           "package": "network-dbus",
@@ -858,6 +934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "deserializeMessage",
           "package": "network-dbus",
@@ -867,6 +944,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "deserializeMessage",
           "normalized": "ByteString-\u003e(Message,ByteString)",
@@ -882,6 +960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "endiannessValue",
           "package": "network-dbus",
@@ -891,6 +970,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "endiannessValue",
           "normalized": "Endianness-\u003eWord",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mBody",
           "package": "network-dbus",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mBody",
           "normalized": "[Variant]",
@@ -930,6 +1012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mDestination",
           "package": "network-dbus",
@@ -939,6 +1022,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mDestination",
           "package": "network-dbus",
@@ -952,6 +1036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mErrorName",
           "package": "network-dbus",
@@ -961,6 +1046,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mErrorName",
           "package": "network-dbus",
@@ -974,6 +1060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mFlags",
           "package": "network-dbus",
@@ -983,6 +1070,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mFlags",
           "normalized": "[Flag]",
@@ -998,6 +1086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mInterface",
           "package": "network-dbus",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mInterface",
           "package": "network-dbus",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mMember",
           "package": "network-dbus",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mMember",
           "package": "network-dbus",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mPath",
           "package": "network-dbus",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mPath",
           "package": "network-dbus",
@@ -1064,6 +1158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mReplySerial",
           "package": "network-dbus",
@@ -1073,6 +1168,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mReplySerial",
           "package": "network-dbus",
@@ -1086,6 +1182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mSender",
           "package": "network-dbus",
@@ -1095,6 +1192,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mSender",
           "package": "network-dbus",
@@ -1108,6 +1206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mSerial",
           "package": "network-dbus",
@@ -1117,6 +1216,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mSerial",
           "package": "network-dbus",
@@ -1130,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "mType",
           "package": "network-dbus",
@@ -1139,6 +1240,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "mType",
           "package": "network-dbus",
@@ -1152,6 +1254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "methodCall",
           "package": "network-dbus",
@@ -1161,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "methodCall",
           "normalized": "DString-\u003eDString-\u003eDString-\u003eObjectPath-\u003e[Variant]-\u003eMessage",
@@ -1176,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "readMessage",
           "package": "network-dbus",
@@ -1185,6 +1290,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "readMessage",
           "normalized": "Handle-\u003eIO Message",
@@ -1200,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "serializeMessage",
           "package": "network-dbus",
@@ -1209,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "serializeMessage",
           "normalized": "Message-\u003eByteString",
@@ -1224,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Message",
           "name": "writeMessage",
           "package": "network-dbus",
@@ -1233,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Message",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Message",
           "name": "writeMessage",
           "normalized": "Handle-\u003eMessage-\u003eIO()",
@@ -1248,6 +1358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "Type",
           "package": "network-dbus",
@@ -1256,6 +1367,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "Type",
           "package": "network-dbus",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DBasicType",
           "package": "network-dbus",
@@ -1277,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DBasicType",
           "package": "network-dbus",
@@ -1290,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DType",
           "package": "network-dbus",
@@ -1298,6 +1413,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DType",
           "package": "network-dbus",
@@ -1311,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "Signature",
           "package": "network-dbus",
@@ -1319,6 +1436,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "Signature",
           "package": "network-dbus",
@@ -1332,6 +1450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DBasicType",
           "package": "network-dbus",
@@ -1341,6 +1460,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DBasicType",
           "package": "network-dbus",
@@ -1354,6 +1474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeArray",
           "package": "network-dbus",
@@ -1363,6 +1484,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeArray",
           "package": "network-dbus",
@@ -1376,6 +1498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeBoolean",
           "package": "network-dbus",
@@ -1385,6 +1508,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeBoolean",
           "package": "network-dbus",
@@ -1398,6 +1522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeByte",
           "package": "network-dbus",
@@ -1407,6 +1532,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeByte",
           "package": "network-dbus",
@@ -1420,6 +1546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeDictEntry",
           "package": "network-dbus",
@@ -1429,6 +1556,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeDictEntry",
           "package": "network-dbus",
@@ -1442,6 +1570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeDouble",
           "package": "network-dbus",
@@ -1451,6 +1580,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeDouble",
           "package": "network-dbus",
@@ -1464,6 +1594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeInt16",
           "package": "network-dbus",
@@ -1473,6 +1604,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeInt16",
           "package": "network-dbus",
@@ -1486,6 +1618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeInt32",
           "package": "network-dbus",
@@ -1495,6 +1628,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeInt32",
           "package": "network-dbus",
@@ -1508,6 +1642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeInt64",
           "package": "network-dbus",
@@ -1517,6 +1652,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeInt64",
           "package": "network-dbus",
@@ -1530,6 +1666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeObjectPath",
           "package": "network-dbus",
@@ -1539,6 +1676,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeObjectPath",
           "package": "network-dbus",
@@ -1552,6 +1690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeSignature",
           "package": "network-dbus",
@@ -1561,6 +1700,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeSignature",
           "package": "network-dbus",
@@ -1574,6 +1714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeString",
           "package": "network-dbus",
@@ -1583,6 +1724,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeString",
           "package": "network-dbus",
@@ -1596,6 +1738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeStruct",
           "package": "network-dbus",
@@ -1605,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeStruct",
           "normalized": "DTypeStruct DType[DType]",
@@ -1620,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt16",
           "package": "network-dbus",
@@ -1629,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt16",
           "package": "network-dbus",
@@ -1642,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt32",
           "package": "network-dbus",
@@ -1651,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt32",
           "package": "network-dbus",
@@ -1664,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt64",
           "package": "network-dbus",
@@ -1673,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeUInt64",
           "package": "network-dbus",
@@ -1686,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "DTypeVariant",
           "package": "network-dbus",
@@ -1695,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "DTypeVariant",
           "package": "network-dbus",
@@ -1708,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "Signature",
           "package": "network-dbus",
@@ -1717,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "Signature",
           "normalized": "Signature[DType]",
@@ -1732,6 +1886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "hasExcessiveNesting",
           "package": "network-dbus",
@@ -1741,6 +1896,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "hasExcessiveNesting",
           "normalized": "DType-\u003eBool",
@@ -1756,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Type",
           "name": "prettyType",
           "package": "network-dbus",
@@ -1765,6 +1922,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Type",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Type",
           "name": "prettyType",
           "normalized": "a-\u003eString",
@@ -1780,6 +1938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Value",
           "package": "network-dbus",
@@ -1788,6 +1947,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Value",
           "package": "network-dbus",
@@ -1801,6 +1961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Bytes",
           "package": "network-dbus",
@@ -1809,6 +1970,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Bytes",
           "package": "network-dbus",
@@ -1822,6 +1984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "DBasicTypedValue",
           "package": "network-dbus",
@@ -1830,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "DBasicTypedValue",
           "package": "network-dbus",
@@ -1843,6 +2007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "DString",
           "package": "network-dbus",
@@ -1851,6 +2016,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "DString",
           "package": "network-dbus",
@@ -1864,6 +2030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "DValue",
           "package": "network-dbus",
@@ -1872,6 +2039,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "DValue",
           "package": "network-dbus",
@@ -1885,6 +2053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Deserializer",
           "package": "network-dbus",
@@ -1893,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Deserializer",
           "package": "network-dbus",
@@ -1906,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Endianness",
           "package": "network-dbus",
@@ -1914,6 +2085,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Endianness",
           "package": "network-dbus",
@@ -1927,6 +2099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "ObjectPath",
           "package": "network-dbus",
@@ -1935,6 +2108,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "ObjectPath",
           "package": "network-dbus",
@@ -1948,6 +2122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Serializer",
           "package": "network-dbus",
@@ -1956,6 +2131,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Serializer",
           "package": "network-dbus",
@@ -1969,6 +2145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Variant",
           "package": "network-dbus",
@@ -1977,6 +2154,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Variant",
           "package": "network-dbus",
@@ -1990,6 +2168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "BigEndian",
           "package": "network-dbus",
@@ -1999,6 +2178,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "BigEndian",
           "package": "network-dbus",
@@ -2012,6 +2192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "LittleEndian",
           "package": "network-dbus",
@@ -2021,6 +2202,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "LittleEndian",
           "package": "network-dbus",
@@ -2034,6 +2216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "Variant",
           "package": "network-dbus",
@@ -2043,6 +2226,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "Variant",
           "package": "network-dbus",
@@ -2056,6 +2240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "advanceBy",
           "package": "network-dbus",
@@ -2065,6 +2250,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "advanceBy",
           "normalized": "Bytes-\u003eSerializer",
@@ -2080,6 +2266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "alignment",
           "package": "network-dbus",
@@ -2089,6 +2276,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "alignment",
           "normalized": "a-\u003eBytes",
@@ -2103,6 +2291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "dbasictype",
           "package": "network-dbus",
@@ -2112,6 +2301,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "dbasictype",
           "normalized": "a-\u003eDBasicType",
@@ -2126,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "deserializeAs",
           "package": "network-dbus",
@@ -2135,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "deserializeAs",
           "normalized": "Signature-\u003eDeserializer[Variant]",
@@ -2150,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "deserializer",
           "package": "network-dbus",
@@ -2159,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "deserializer",
           "package": "network-dbus",
@@ -2171,6 +2365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "dtype",
           "package": "network-dbus",
@@ -2180,6 +2375,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "dtype",
           "normalized": "a-\u003eDType",
@@ -2194,6 +2390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "fromVariant",
           "package": "network-dbus",
@@ -2203,6 +2400,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "fromVariant",
           "normalized": "Variant-\u003eMaybe a",
@@ -2218,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "getPath",
           "package": "network-dbus",
@@ -2227,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "getPath",
           "normalized": "ObjectPath-\u003eString",
@@ -2242,6 +2442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "getString",
           "package": "network-dbus",
@@ -2251,6 +2452,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "getString",
           "normalized": "DString-\u003eString",
@@ -2266,6 +2468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "mkDString",
           "package": "network-dbus",
@@ -2275,6 +2478,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "mkDString",
           "normalized": "String-\u003ea DString",
@@ -2290,6 +2494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "mkDString0",
           "package": "network-dbus",
@@ -2299,6 +2504,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "mkDString0",
           "normalized": "String-\u003eDString",
@@ -2314,6 +2520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "mkObjectPath",
           "package": "network-dbus",
@@ -2323,6 +2530,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "mkObjectPath",
           "normalized": "String-\u003ea ObjectPath",
@@ -2338,6 +2546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "padTo",
           "package": "network-dbus",
@@ -2347,6 +2556,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "padTo",
           "normalized": "Bytes-\u003eSerializer",
@@ -2362,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "runDeserializer",
           "package": "network-dbus",
@@ -2371,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "runDeserializer",
           "normalized": "Endianness-\u003eDeserializer a-\u003eByteString-\u003ea",
@@ -2386,6 +2598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "runSerializer",
           "package": "network-dbus",
@@ -2395,6 +2608,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "runSerializer",
           "normalized": "Endianness-\u003eSerializer-\u003eByteString",
@@ -2410,6 +2624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "serializer",
           "package": "network-dbus",
@@ -2419,6 +2634,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "serializer",
           "normalized": "a-\u003eSerializer",
@@ -2433,6 +2649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "skipTo",
           "package": "network-dbus",
@@ -2442,6 +2659,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "skipTo",
           "normalized": "Bytes-\u003eDeserializer()",
@@ -2457,6 +2675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:27:45 UTC 2014",
           "module": "Network.DBus.Value",
           "name": "unVariant",
           "package": "network-dbus",
@@ -2466,6 +2685,7 @@
         },
         "index": {
           "hierarchy": "Network DBus Value",
+          "indexed": "2014-03-11T19:27:45",
           "module": "Network.DBus.Value",
           "name": "unVariant",
           "package": "network-dbus",

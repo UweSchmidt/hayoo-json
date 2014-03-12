@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "flickr"
+        "phrase": "flickr",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLicense     : See the file LICENSE\n\u003c/p\u003e\u003cp\u003eStatus      : Coded\n\u003c/p\u003e\u003cp\u003eCodec for de/encoding URI strings via percent encodings\n (cf. RFC 3986.)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.Percent",
           "name": "Percent",
           "package": "flickr",
@@ -28,6 +29,7 @@
         "index": {
           "description": "License See the file LICENSE Status Coded Codec for de encoding URI strings via percent encodings cf RFC",
           "hierarchy": "Codec Percent",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.Percent",
           "name": "Percent",
           "package": "flickr",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.Percent",
           "name": "getDecodedChar",
           "package": "flickr",
@@ -50,6 +53,7 @@
         },
         "index": {
           "hierarchy": "Codec Percent",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.Percent",
           "name": "getDecodedChar",
           "normalized": "String-\u003eMaybe(Char,String)",
@@ -65,6 +69,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.Percent",
           "name": "getDecodedString",
           "package": "flickr",
@@ -74,6 +79,7 @@
         },
         "index": {
           "hierarchy": "Codec Percent",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.Percent",
           "name": "getDecodedString",
           "normalized": "String-\u003eString",
@@ -89,6 +95,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.Percent",
           "name": "getEncodedChar",
           "package": "flickr",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Codec Percent",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.Percent",
           "name": "getEncodedChar",
           "normalized": "Char-\u003eMaybe String",
@@ -113,6 +121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.Percent",
           "name": "getEncodedString",
           "package": "flickr",
@@ -122,6 +131,7 @@
         },
         "index": {
           "hierarchy": "Codec Percent",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.Percent",
           "name": "getEncodedString",
           "normalized": "String-\u003eString",
@@ -137,6 +147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "flickr",
@@ -145,6 +156,7 @@
         },
         "index": {
           "hierarchy": "Codec URLEncoder",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.URLEncoder",
           "name": "URLEncoder",
           "package": "flickr",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.URLEncoder",
           "name": "decodeString",
           "package": "flickr",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Codec URLEncoder",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.URLEncoder",
           "name": "decodeString",
           "normalized": "String-\u003eString",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Codec.URLEncoder",
           "name": "encodeString",
           "package": "flickr",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Codec URLEncoder",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Codec.URLEncoder",
           "name": "encodeString",
           "normalized": "String-\u003eString",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.API",
           "name": "API",
           "package": "flickr",
@@ -214,6 +231,7 @@
         },
         "index": {
           "hierarchy": "Flickr API",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.API",
           "name": "API",
           "package": "flickr",
@@ -228,6 +246,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.activity, methods for accessing comments and activity for a user.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Activity",
           "name": "Activity",
           "package": "flickr",
@@ -237,6 +256,7 @@
         "index": {
           "description": "flickr.activity methods for accessing comments and activity for user",
           "hierarchy": "Flickr Activity",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Activity",
           "name": "Activity",
           "package": "flickr",
@@ -251,6 +271,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of recent activity on photos commented on by the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Activity",
           "name": "userComments",
           "package": "flickr",
@@ -261,6 +282,7 @@
         "index": {
           "description": "Returns list of recent activity on photos commented on by the calling user",
           "hierarchy": "Flickr Activity",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Activity",
           "name": "userComments",
           "normalized": "FM[Item]",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of recent activity on photos belonging to the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Activity",
           "name": "userPhotos",
           "package": "flickr",
@@ -287,6 +310,7 @@
         "index": {
           "description": "Returns list of recent activity on photos belonging to the calling user",
           "hierarchy": "Flickr Activity",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Activity",
           "name": "userPhotos",
           "normalized": "Maybe Integer-\u003eFM[Item]",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBinding to flickr.auth's (signed) API\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Auth",
           "name": "Auth",
           "package": "flickr",
@@ -312,6 +337,7 @@
         "index": {
           "description": "Binding to flickr.auth signed API",
           "hierarchy": "Flickr Auth",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Auth",
           "name": "Auth",
           "package": "flickr",
@@ -326,6 +352,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the credentials attached to an authentication token. \n This call must be signed as specified in the authentication API spec.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Auth",
           "name": "checkToken",
           "package": "flickr",
@@ -336,6 +363,7 @@
         "index": {
           "description": "Returns the credentials attached to an authentication token This call must be signed as specified in the authentication API spec",
           "hierarchy": "Flickr Auth",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Auth",
           "name": "checkToken",
           "normalized": "AuthTokenValue-\u003eFM AuthToken",
@@ -352,6 +380,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a frob to be used during authentication. \n This method call must be signed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Auth",
           "name": "getFrob",
           "package": "flickr",
@@ -362,6 +391,7 @@
         "index": {
           "description": "Returns frob to be used during authentication This method call must be signed",
           "hierarchy": "Flickr Auth",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Auth",
           "name": "getFrob",
           "package": "flickr",
@@ -375,6 +405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Auth",
           "name": "getFullToken",
           "package": "flickr",
@@ -384,6 +415,7 @@
         },
         "index": {
           "hierarchy": "Flickr Auth",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Auth",
           "name": "getFullToken",
           "normalized": "AuthMiniToken-\u003eFM AuthToken",
@@ -400,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the auth token for the given frob, if one has been \n attached. This method call must be signed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Auth",
           "name": "getToken",
           "package": "flickr",
@@ -410,6 +443,7 @@
         "index": {
           "description": "Returns the auth token for the given frob if one has been attached This method call must be signed",
           "hierarchy": "Flickr Auth",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Auth",
           "name": "getToken",
           "normalized": "AuthFrob-\u003eFM AuthToken",
@@ -426,6 +460,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.blogs API, accessing a user's blogs + post photos to them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Blogs",
           "name": "Blogs",
           "package": "flickr",
@@ -435,6 +470,7 @@
         "index": {
           "description": "flickr.blogs API accessing user blogs post photos to them",
           "hierarchy": "Flickr Blogs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Blogs",
           "name": "Blogs",
           "package": "flickr",
@@ -449,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of configured blogs for the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Blogs",
           "name": "getList",
           "package": "flickr",
@@ -459,6 +496,7 @@
         "index": {
           "description": "Get list of configured blogs for the calling user",
           "hierarchy": "Flickr Blogs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Blogs",
           "name": "getList",
           "normalized": "FM[Blog]",
@@ -475,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePost a photo to the given blog.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Blogs",
           "name": "postPhoto",
           "package": "flickr",
@@ -484,6 +523,7 @@
         "index": {
           "description": "Post photo to the given blog",
           "hierarchy": "Flickr Blogs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Blogs",
           "name": "postPhoto",
           "normalized": "BlogID-\u003ePhotoID-\u003eString-\u003eString-\u003eMaybe String-\u003eFM()",
@@ -500,6 +540,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.contacts API, fetching a user's contact list.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Contacts",
           "name": "Contacts",
           "package": "flickr",
@@ -509,6 +550,7 @@
         "index": {
           "description": "flickr.contacts API fetching user contact list",
           "hierarchy": "Flickr Contacts",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Contacts",
           "name": "Contacts",
           "package": "flickr",
@@ -523,6 +565,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of contacts for the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Contacts",
           "name": "getList",
           "package": "flickr",
@@ -533,6 +576,7 @@
         "index": {
           "description": "Get list of contacts for the calling user",
           "hierarchy": "Flickr Contacts",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Contacts",
           "name": "getList",
           "normalized": "Maybe Filter-\u003eFM[Contact]",
@@ -549,6 +593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the contact list for a user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Contacts",
           "name": "getPublicList",
           "package": "flickr",
@@ -559,6 +604,7 @@
         "index": {
           "description": "Get the contact list for user",
           "hierarchy": "Flickr Contacts",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Contacts",
           "name": "getPublicList",
           "normalized": "UserID-\u003eFM[Contact]",
@@ -575,6 +621,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.favorites API, managing a user's favorite photos.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Favorites",
           "name": "Favorites",
           "package": "flickr",
@@ -584,6 +631,7 @@
         "index": {
           "description": "flickr.favorites API managing user favorite photos",
           "hierarchy": "Flickr Favorites",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Favorites",
           "name": "Favorites",
           "package": "flickr",
@@ -598,6 +646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a photo to a user's favorites list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Favorites",
           "name": "add",
           "package": "flickr",
@@ -608,6 +657,7 @@
         "index": {
           "description": "Adds photo to user favorites list",
           "hierarchy": "Flickr Favorites",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Favorites",
           "name": "add",
           "normalized": "PhotoID-\u003eFM()",
@@ -623,6 +673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of the user's favorite photos. \n Only photos which the calling user has permission to see are returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Favorites",
           "name": "getList",
           "package": "flickr",
@@ -633,6 +684,7 @@
         "index": {
           "description": "Returns list of the user favorite photos Only photos which the calling user has permission to see are returned",
           "hierarchy": "Flickr Favorites",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Favorites",
           "name": "getList",
           "normalized": "Maybe UserID-\u003e[PhotoInfo]-\u003eDateDetails-\u003eFM(PhotoContext,[Photo])",
@@ -649,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of favorite public photos for the given user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Favorites",
           "name": "getPublicList",
           "package": "flickr",
@@ -659,6 +712,7 @@
         "index": {
           "description": "Returns list of favorite public photos for the given user",
           "hierarchy": "Flickr Favorites",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Favorites",
           "name": "getPublicList",
           "normalized": "UserID-\u003e[PhotoInfo]-\u003eDateDetails-\u003eFM(PhotoContext,[Photo])",
@@ -675,6 +729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves a photo from a user's favorites list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Favorites",
           "name": "remove",
           "package": "flickr",
@@ -685,6 +740,7 @@
         "index": {
           "description": "Removes photo from user favorites list",
           "hierarchy": "Flickr Favorites",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Favorites",
           "name": "remove",
           "normalized": "PhotoID-\u003eFM()",
@@ -700,6 +756,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.groups.pools API, manage photo group pooling.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "Pools",
           "package": "flickr",
@@ -709,6 +766,7 @@
         "index": {
           "description": "flickr.groups.pools API manage photo group pooling",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "Pools",
           "package": "flickr",
@@ -723,6 +781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a photo to a group's pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "add",
           "package": "flickr",
@@ -733,6 +792,7 @@
         "index": {
           "description": "Add photo to group pool",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "add",
           "normalized": "PhotoID-\u003eGroupID-\u003eFM()",
@@ -748,6 +808,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns next and previous photos for a photo in a group pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "getContext",
           "package": "flickr",
@@ -758,6 +819,7 @@
         "index": {
           "description": "Returns next and previous photos for photo in group pool",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "getContext",
           "normalized": "PhotoID-\u003eGroupID-\u003eFM(Photo,Photo)",
@@ -774,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of groups to which you can add photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "getGroups",
           "package": "flickr",
@@ -784,6 +847,7 @@
         "index": {
           "description": "Returns list of groups to which you can add photos",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "getGroups",
           "normalized": "FM[Group]",
@@ -800,6 +864,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of pool photos for a given group, \n based on the permissions of the group and the user logged in (if any).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "getPhotos",
           "package": "flickr",
@@ -810,6 +875,7 @@
         "index": {
           "description": "Returns list of pool photos for given group based on the permissions of the group and the user logged in if any",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "getPhotos",
           "normalized": "GroupID-\u003e[Tag]-\u003eMaybe UserID-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -826,6 +892,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a photo from a group pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups.Pools",
           "name": "remove",
           "package": "flickr",
@@ -836,6 +903,7 @@
         "index": {
           "description": "Remove photo from group pool",
           "hierarchy": "Flickr Groups Pools",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups.Pools",
           "name": "remove",
           "normalized": "PhotoID-\u003eGroupID-\u003eFM()",
@@ -851,6 +919,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.groups API, traversing photo categories and groups.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups",
           "name": "Groups",
           "package": "flickr",
@@ -860,6 +929,7 @@
         "index": {
           "description": "flickr.groups API traversing photo categories and groups",
           "hierarchy": "Flickr Groups",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups",
           "name": "Groups",
           "package": "flickr",
@@ -873,6 +943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups",
           "name": "browse",
           "package": "flickr",
@@ -882,6 +953,7 @@
         },
         "index": {
           "hierarchy": "Flickr Groups",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups",
           "name": "browse",
           "normalized": "Maybe CategoryID-\u003eFM Category",
@@ -896,6 +968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups",
           "name": "getInfo",
           "package": "flickr",
@@ -905,6 +978,7 @@
         },
         "index": {
           "hierarchy": "Flickr Groups",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups",
           "name": "getInfo",
           "normalized": "GroupID-\u003eMaybe String-\u003eFM Group",
@@ -920,6 +994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Groups",
           "name": "search",
           "package": "flickr",
@@ -929,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Flickr Groups",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Groups",
           "name": "search",
           "normalized": "String-\u003eFM[Group]",
@@ -944,6 +1020,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFetch ranked photos by Flickr interest level.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Interestingness",
           "name": "Interestingness",
           "package": "flickr",
@@ -953,6 +1030,7 @@
         "index": {
           "description": "Fetch ranked photos by Flickr interest level",
           "hierarchy": "Flickr Interestingness",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Interestingness",
           "name": "Interestingness",
           "package": "flickr",
@@ -967,6 +1045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of interesting photos for the most recent day or a user-specified date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Interestingness",
           "name": "getList",
           "package": "flickr",
@@ -977,6 +1056,7 @@
         "index": {
           "description": "Returns the list of interesting photos for the most recent day or user-specified date",
           "hierarchy": "Flickr Interestingness",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Interestingness",
           "name": "getList",
           "normalized": "Maybe DateString-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -993,6 +1073,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe flickr.machinetags API, fetching photos by their machinetags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.MachineTags",
           "name": "MachineTags",
           "package": "flickr",
@@ -1002,6 +1083,7 @@
         "index": {
           "description": "The flickr.machinetags API fetching photos by their machinetags",
           "hierarchy": "Flickr MachineTags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.MachineTags",
           "name": "MachineTags",
           "package": "flickr",
@@ -1016,6 +1098,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of unique namespaces, optionally limited by a given predicate, in alphabetical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.MachineTags",
           "name": "getNamespaces",
           "package": "flickr",
@@ -1025,6 +1108,7 @@
         "index": {
           "description": "Return list of unique namespaces optionally limited by given predicate in alphabetical order",
           "hierarchy": "Flickr MachineTags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.MachineTags",
           "name": "getNamespaces",
           "normalized": "Maybe String-\u003eFM(NameContext,[Namespace])",
@@ -1041,6 +1125,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of unique namespace and predicate pairs, optionally \n limited by predicate or namespace, in alphabetical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.MachineTags",
           "name": "getPairs",
           "package": "flickr",
@@ -1050,6 +1135,7 @@
         "index": {
           "description": "Return list of unique namespace and predicate pairs optionally limited by predicate or namespace in alphabetical order",
           "hierarchy": "Flickr MachineTags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.MachineTags",
           "name": "getPairs",
           "normalized": "Maybe String-\u003eMaybe String-\u003eFM(ResContext MachineTagPair,[MachineTagPair])",
@@ -1066,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of unique predicates, optionally limited by a given namespace.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.MachineTags",
           "name": "getPredicates",
           "package": "flickr",
@@ -1076,6 +1163,7 @@
         "index": {
           "description": "Return list of unique predicates optionally limited by given namespace",
           "hierarchy": "Flickr MachineTags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.MachineTags",
           "name": "getPredicates",
           "normalized": "Maybe String-\u003eFM(ResContext MachineTagPred,[MachineTagPred])",
@@ -1092,6 +1180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of unique values for a namespace and predicate.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.MachineTags",
           "name": "getValues",
           "package": "flickr",
@@ -1102,6 +1191,7 @@
         "index": {
           "description": "Return list of unique values for namespace and predicate",
           "hierarchy": "Flickr MachineTags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.MachineTags",
           "name": "getValues",
           "normalized": "String-\u003eString-\u003eFM(ResContext MachineTag,[MachineTag])",
@@ -1118,6 +1208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eMonadic layer for supporting flickr.com interactions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "Monad",
           "package": "flickr",
@@ -1127,6 +1218,7 @@
         "index": {
           "description": "Monadic layer for supporting flickr.com interactions",
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "Monad",
           "package": "flickr",
@@ -1140,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "ErrM",
           "package": "flickr",
@@ -1148,6 +1241,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "ErrM",
           "package": "flickr",
@@ -1161,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FM",
           "package": "flickr",
@@ -1169,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FM",
           "package": "flickr",
@@ -1182,6 +1278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FMEnv",
           "package": "flickr",
@@ -1190,6 +1287,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FMEnv",
           "package": "flickr",
@@ -1203,6 +1301,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FlickErr",
           "package": "flickr",
@@ -1211,6 +1310,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FlickErr",
           "package": "flickr",
@@ -1224,6 +1324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FlickErrorType",
           "package": "flickr",
@@ -1232,6 +1333,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FlickErrorType",
           "package": "flickr",
@@ -1245,6 +1347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "SomeFlickException",
           "package": "flickr",
@@ -1253,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "SomeFlickException",
           "package": "flickr",
@@ -1266,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "EmptyResponse",
           "package": "flickr",
@@ -1275,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "EmptyResponse",
           "package": "flickr",
@@ -1288,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FM",
           "package": "flickr",
@@ -1297,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FM",
           "normalized": "FM(FMEnv-\u003eIO a)",
@@ -1312,6 +1420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FMEnv",
           "package": "flickr",
@@ -1321,6 +1430,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FMEnv",
           "package": "flickr",
@@ -1334,6 +1444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FlickErr",
           "package": "flickr",
@@ -1343,6 +1454,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FlickErr",
           "package": "flickr",
@@ -1356,6 +1468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FlickParseError",
           "package": "flickr",
@@ -1365,6 +1478,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FlickParseError",
           "package": "flickr",
@@ -1378,6 +1492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "FlickrAPIError",
           "package": "flickr",
@@ -1387,6 +1502,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "FlickrAPIError",
           "package": "flickr",
@@ -1400,6 +1516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "IllformedError",
           "package": "flickr",
@@ -1409,6 +1526,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "IllformedError",
           "package": "flickr",
@@ -1422,6 +1540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "MissingStatus",
           "package": "flickr",
@@ -1431,6 +1550,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "MissingStatus",
           "package": "flickr",
@@ -1444,6 +1564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "SomeFlickException",
           "package": "flickr",
@@ -1453,6 +1574,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "SomeFlickException",
           "package": "flickr",
@@ -1466,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "UnexpectedResponse",
           "package": "flickr",
@@ -1475,6 +1598,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "UnexpectedResponse",
           "package": "flickr",
@@ -1488,6 +1612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "api_base",
           "package": "flickr",
@@ -1497,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "api_base",
           "package": "flickr",
@@ -1509,6 +1635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "auth_base",
           "package": "flickr",
@@ -1518,6 +1645,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "auth_base",
           "package": "flickr",
@@ -1530,6 +1658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "catchFlickr",
           "package": "flickr",
@@ -1539,6 +1668,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "catchFlickr",
           "normalized": "FM a-\u003e(FlickErr-\u003eFM a)-\u003eFM a",
@@ -1554,6 +1684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "checkResponse",
           "package": "flickr",
@@ -1563,6 +1694,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "checkResponse",
           "normalized": "String-\u003eErrM Element",
@@ -1578,6 +1710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "eiArg",
           "package": "flickr",
@@ -1587,6 +1720,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "eiArg",
           "normalized": "String-\u003eString-\u003eEither String String-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -1602,6 +1736,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flick",
           "package": "flickr",
@@ -1611,6 +1746,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flick",
           "normalized": "FM a-\u003eIO a",
@@ -1625,6 +1761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickAPI",
           "package": "flickr",
@@ -1634,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickAPI",
           "normalized": "APIKey-\u003eFM a-\u003eIO a",
@@ -1649,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickCall",
           "package": "flickr",
@@ -1658,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickCall",
           "normalized": "String-\u003e[(String,String)]-\u003eFM String",
@@ -1673,6 +1813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickCall_",
           "package": "flickr",
@@ -1682,6 +1823,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickCall_",
           "normalized": "String-\u003e[(String,String)]-\u003eFM()",
@@ -1697,6 +1839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickError",
           "package": "flickr",
@@ -1706,6 +1849,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickError",
           "package": "flickr",
@@ -1719,6 +1863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickErrorCode",
           "package": "flickr",
@@ -1728,6 +1873,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickErrorCode",
           "package": "flickr",
@@ -1741,6 +1887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickErrorLoc",
           "package": "flickr",
@@ -1750,6 +1897,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickErrorLoc",
           "package": "flickr",
@@ -1763,6 +1911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickErrorMsg",
           "package": "flickr",
@@ -1772,6 +1921,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickErrorMsg",
           "package": "flickr",
@@ -1785,6 +1935,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickErrorSource",
           "package": "flickr",
@@ -1794,6 +1945,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickErrorSource",
           "package": "flickr",
@@ -1807,6 +1959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickErrorType",
           "package": "flickr",
@@ -1816,6 +1969,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickErrorType",
           "package": "flickr",
@@ -1829,6 +1983,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickFromException",
           "package": "flickr",
@@ -1838,6 +1993,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickFromException",
           "normalized": "SomeException-\u003eMaybe a",
@@ -1853,6 +2009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickToException",
           "package": "flickr",
@@ -1862,6 +2019,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickToException",
           "normalized": "a-\u003eSomeException",
@@ -1877,6 +2035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickTranslate",
           "package": "flickr",
@@ -1886,6 +2045,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickTranslate",
           "normalized": "(String-\u003eErrM a)-\u003eFM String-\u003eFM a",
@@ -1901,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "flickrCall",
           "package": "flickr",
@@ -1910,6 +2071,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "flickrCall",
           "normalized": "String-\u003e[(String,String)]-\u003eFM String",
@@ -1925,6 +2087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_api_base",
           "package": "flickr",
@@ -1934,6 +2097,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_api_base",
           "package": "flickr",
@@ -1946,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_api_key",
           "package": "flickr",
@@ -1955,6 +2120,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_api_key",
           "package": "flickr",
@@ -1967,6 +2133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_auth_mini_token",
           "package": "flickr",
@@ -1976,6 +2143,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_auth_mini_token",
           "package": "flickr",
@@ -1988,6 +2156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_auth_token",
           "package": "flickr",
@@ -1997,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_auth_token",
           "package": "flickr",
@@ -2009,6 +2179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_include_props",
           "package": "flickr",
@@ -2018,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_include_props",
           "normalized": "Maybe[String]",
@@ -2032,6 +2204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_is_paged",
           "package": "flickr",
@@ -2041,6 +2214,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_is_paged",
           "package": "flickr",
@@ -2053,6 +2227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_is_signed",
           "package": "flickr",
@@ -2062,6 +2237,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_is_signed",
           "package": "flickr",
@@ -2074,6 +2250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_page",
           "package": "flickr",
@@ -2083,6 +2260,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_page",
           "package": "flickr",
@@ -2095,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_per_page",
           "package": "flickr",
@@ -2104,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_per_page",
           "package": "flickr",
@@ -2116,6 +2296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_perm_level",
           "package": "flickr",
@@ -2125,6 +2306,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_perm_level",
           "package": "flickr",
@@ -2137,6 +2319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "fm_post_method",
           "package": "flickr",
@@ -2146,6 +2329,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "fm_post_method",
           "package": "flickr",
@@ -2158,6 +2342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "genLoginURL",
           "package": "flickr",
@@ -2167,6 +2352,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "genLoginURL",
           "normalized": "String-\u003eString-\u003eString-\u003eString-\u003eString",
@@ -2182,6 +2368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "getAPIKey",
           "package": "flickr",
@@ -2191,6 +2378,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "getAPIKey",
           "package": "flickr",
@@ -2204,6 +2392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "getAuthMiniToken",
           "package": "flickr",
@@ -2213,6 +2402,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "getAuthMiniToken",
           "package": "flickr",
@@ -2226,6 +2416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "getAuthToken",
           "package": "flickr",
@@ -2235,6 +2426,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "getAuthToken",
           "package": "flickr",
@@ -2248,6 +2440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "getBaseURL",
           "package": "flickr",
@@ -2257,6 +2450,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "getBaseURL",
           "package": "flickr",
@@ -2270,6 +2464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "getMobileAuthURL",
           "package": "flickr",
@@ -2279,6 +2474,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "getMobileAuthURL",
           "package": "flickr",
@@ -2292,6 +2488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "handleFlickr",
           "package": "flickr",
@@ -2301,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "handleFlickr",
           "normalized": "(FlickErr-\u003eFM a)-\u003eFM a-\u003eFM a",
@@ -2316,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "liftIO",
           "package": "flickr",
@@ -2325,6 +2524,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "liftIO",
           "normalized": "IO a-\u003eFM a",
@@ -2340,6 +2540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "lsArg",
           "package": "flickr",
@@ -2349,6 +2550,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "lsArg",
           "normalized": "String-\u003e[String]-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -2364,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "mbArg",
           "package": "flickr",
@@ -2373,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "mbArg",
           "normalized": "String-\u003eMaybe String-\u003e[(String,String)]-\u003e[(String,String)]",
@@ -2388,6 +2592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "mkLoginURL",
           "package": "flickr",
@@ -2397,6 +2602,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "mkLoginURL",
           "normalized": "String-\u003eString-\u003eFM String",
@@ -2412,6 +2618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "onlyTheseProperties",
           "package": "flickr",
@@ -2421,6 +2628,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "onlyTheseProperties",
           "normalized": "[String]-\u003eFM a-\u003eFM a",
@@ -2436,6 +2644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "pagedCall",
           "package": "flickr",
@@ -2445,6 +2654,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "pagedCall",
           "normalized": "Maybe Int-\u003eFM a-\u003eFM a",
@@ -2460,6 +2670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "parseDoc",
           "package": "flickr",
@@ -2469,6 +2680,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "parseDoc",
           "normalized": "(Element-\u003eMaybe a)-\u003eString-\u003eErrM a",
@@ -2484,6 +2696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "postMethod",
           "package": "flickr",
@@ -2493,6 +2706,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "postMethod",
           "normalized": "FM a-\u003eFM a",
@@ -2508,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "replace_base",
           "package": "flickr",
@@ -2517,6 +2732,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "replace_base",
           "package": "flickr",
@@ -2529,6 +2745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "restGet",
           "package": "flickr",
@@ -2538,6 +2755,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "restGet",
           "normalized": "String-\u003e[(String,String)]-\u003eIO String",
@@ -2553,6 +2771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "restPost",
           "package": "flickr",
@@ -2562,6 +2781,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "restPost",
           "normalized": "String-\u003e[(String,String)]-\u003eIO String",
@@ -2577,6 +2797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "signedMethod",
           "package": "flickr",
@@ -2586,6 +2807,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "signedMethod",
           "normalized": "FM a-\u003eFM a",
@@ -2601,6 +2823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "throwFlickErr",
           "package": "flickr",
@@ -2610,6 +2833,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "throwFlickErr",
           "normalized": "FlickErr-\u003eFM a",
@@ -2625,6 +2849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "tryFlick",
           "package": "flickr",
@@ -2634,6 +2859,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "tryFlick",
           "normalized": "FM a-\u003eFM(Either FlickErr a)",
@@ -2649,6 +2875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "upload_base",
           "package": "flickr",
@@ -2658,6 +2885,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "upload_base",
           "package": "flickr",
@@ -2670,6 +2898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withAPIKey",
           "package": "flickr",
@@ -2679,6 +2908,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withAPIKey",
           "normalized": "APIKey-\u003eFM a-\u003eFM a",
@@ -2694,6 +2924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withAuthMiniToken",
           "package": "flickr",
@@ -2703,6 +2934,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withAuthMiniToken",
           "normalized": "String-\u003eFM a-\u003eFM a",
@@ -2718,6 +2950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withAuthToken",
           "package": "flickr",
@@ -2727,6 +2960,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withAuthToken",
           "normalized": "String-\u003eFM a-\u003eFM a",
@@ -2742,6 +2976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withBase",
           "package": "flickr",
@@ -2751,6 +2986,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withBase",
           "normalized": "URLString-\u003eFM a-\u003eFM a",
@@ -2766,6 +3002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withDeletePerm",
           "package": "flickr",
@@ -2775,6 +3012,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withDeletePerm",
           "normalized": "FM a-\u003eFM a",
@@ -2790,6 +3028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withPageSize",
           "package": "flickr",
@@ -2799,6 +3038,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withPageSize",
           "normalized": "Int-\u003eFM a-\u003eFM a",
@@ -2814,6 +3054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withReadPerm",
           "package": "flickr",
@@ -2823,6 +3064,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withReadPerm",
           "normalized": "FM a-\u003eFM a",
@@ -2838,6 +3080,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withSharedSecret",
           "package": "flickr",
@@ -2847,6 +3090,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withSharedSecret",
           "normalized": "String-\u003eFM a-\u003eFM a",
@@ -2862,6 +3106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Monad",
           "name": "withWritePerm",
           "package": "flickr",
@@ -2871,6 +3116,7 @@
         },
         "index": {
           "hierarchy": "Flickr Monad",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Monad",
           "name": "withWritePerm",
           "normalized": "FM a-\u003eFM a",
@@ -2887,6 +3133,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.people API, accessing a user's attributes etc.\n \u003ca\u003ehttp://www.flickr.com/services/api/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "People",
           "package": "flickr",
@@ -2896,6 +3143,7 @@
         "index": {
           "description": "flickr.people API accessing user attributes etc http www.flickr.com services api",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "People",
           "package": "flickr",
@@ -2910,6 +3158,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a user's NSID, given their email address\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "findByEmail",
           "package": "flickr",
@@ -2920,6 +3169,7 @@
         "index": {
           "description": "Return user NSID given their email address",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "findByEmail",
           "normalized": "String-\u003eFM User",
@@ -2936,6 +3186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a user's NSID, given their username.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "findByUsername",
           "package": "flickr",
@@ -2946,6 +3197,7 @@
         "index": {
           "description": "Return user NSID given their username",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "findByUsername",
           "normalized": "UserName-\u003eFM User",
@@ -2962,6 +3214,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "getInfo",
           "package": "flickr",
@@ -2972,6 +3225,7 @@
         "index": {
           "description": "Get information about user",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "getInfo",
           "normalized": "UserID-\u003eBool-\u003eFM User",
@@ -2988,6 +3242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of public groups a user is a member of.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "getPublicGroups",
           "package": "flickr",
@@ -2998,6 +3253,7 @@
         "index": {
           "description": "Returns the list of public groups user is member of",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "getPublicGroups",
           "normalized": "UserID-\u003eFM[Group]",
@@ -3014,6 +3270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of public photos for the given user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "getPublicPhotos",
           "package": "flickr",
@@ -3024,6 +3281,7 @@
         "index": {
           "description": "Get list of public photos for the given user",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "getPublicPhotos",
           "normalized": "UserID-\u003eMaybe Safety-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -3040,6 +3298,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns information for the calling user related to photo uploads.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.People",
           "name": "getUploadStatus",
           "package": "flickr",
@@ -3050,6 +3309,7 @@
         "index": {
           "description": "Returns information for the calling user related to photo uploads",
           "hierarchy": "Flickr People",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.People",
           "name": "getUploadStatus",
           "normalized": "FM(User,Bandwidth,FileSize,PhotosetQuota)",
@@ -3066,6 +3326,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.comments API, setting/getting photo comments.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Comments",
           "name": "Comments",
           "package": "flickr",
@@ -3075,6 +3336,7 @@
         "index": {
           "description": "flickr.photos.comments API setting getting photo comments",
           "hierarchy": "Flickr Photos Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Comments",
           "name": "Comments",
           "package": "flickr",
@@ -3089,6 +3351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd comment to a photo as the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Comments",
           "name": "addComment",
           "package": "flickr",
@@ -3099,6 +3362,7 @@
         "index": {
           "description": "Add comment to photo as the currently authenticated user",
           "hierarchy": "Flickr Photos Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Comments",
           "name": "addComment",
           "normalized": "PhotoID-\u003eString-\u003eFM CommentID",
@@ -3115,6 +3379,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a comment as the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Comments",
           "name": "deleteComment",
           "package": "flickr",
@@ -3125,6 +3390,7 @@
         "index": {
           "description": "Delete comment as the currently authenticated user",
           "hierarchy": "Flickr Photos Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Comments",
           "name": "deleteComment",
           "normalized": "CommentID-\u003eFM()",
@@ -3141,6 +3407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit the text of a comment as the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Comments",
           "name": "editComment",
           "package": "flickr",
@@ -3151,6 +3418,7 @@
         "index": {
           "description": "Edit the text of comment as the currently authenticated user",
           "hierarchy": "Flickr Photos Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Comments",
           "name": "editComment",
           "normalized": "CommentID-\u003eString-\u003eFM()",
@@ -3167,6 +3435,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the comments for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Comments",
           "name": "getList",
           "package": "flickr",
@@ -3177,6 +3446,7 @@
         "index": {
           "description": "Returns the comments for photo",
           "hierarchy": "Flickr Photos Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Comments",
           "name": "getList",
           "normalized": "PhotoID-\u003eDateDetails-\u003eFM[Comment]",
@@ -3193,6 +3463,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.geo API, setting/getting photo geo location.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "Geo",
           "package": "flickr",
@@ -3202,6 +3473,7 @@
         "index": {
           "description": "flickr.photos.geo API setting getting photo geo location",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "Geo",
           "package": "flickr",
@@ -3216,6 +3488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCorrect the places hierarchy for all the photos for a user at\n a given latitude, longitude and accuracy. \n\u003c/p\u003e\u003cp\u003eBatch corrections are processed in a delayed queue so it may take\n a few minutes before the changes are reflected in a user's photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "batchCorrectLocation",
           "package": "flickr",
@@ -3226,6 +3499,7 @@
         "index": {
           "description": "Correct the places hierarchy for all the photos for user at given latitude longitude and accuracy Batch corrections are processed in delayed queue so it may take few minutes before the changes are reflected in user photos",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "batchCorrectLocation",
           "normalized": "GeoLocation-\u003eEither PlaceID WhereOnEarthID-\u003eFM()",
@@ -3242,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eupdate/correct the location of attached to a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "correctLocation",
           "package": "flickr",
@@ -3252,6 +3527,7 @@
         "index": {
           "description": "update correct the location of attached to photo",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "correctLocation",
           "normalized": "PhotoID-\u003eEither PlaceID WhereOnEarthID-\u003eFM()",
@@ -3268,6 +3544,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the geo data (latitude and longitude and the accuracy level) for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "getLocation",
           "package": "flickr",
@@ -3278,6 +3555,7 @@
         "index": {
           "description": "Get the geo data latitude and longitude and the accuracy level for photo",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "getLocation",
           "normalized": "PhotoID-\u003eFM GeoLocation",
@@ -3294,6 +3572,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet permissions for who may view geo data for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "getPerms",
           "package": "flickr",
@@ -3304,6 +3583,7 @@
         "index": {
           "description": "Get permissions for who may view geo data for photo",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "getPerms",
           "normalized": "PhotoID-\u003eFM Permissions",
@@ -3320,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of photos for a user at a specific latitude, longitude and accuracy\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "photosForLocation",
           "package": "flickr",
@@ -3330,6 +3611,7 @@
         "index": {
           "description": "Return list of photos for user at specific latitude longitude and accuracy",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "photosForLocation",
           "normalized": "GeoLocation-\u003e[PhotoInfo]-\u003eFM(PhotoContext,[Photo])",
@@ -3346,6 +3628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemoves the geo data associated with a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "removeLocation",
           "package": "flickr",
@@ -3356,6 +3639,7 @@
         "index": {
           "description": "Removes the geo data associated with photo",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "removeLocation",
           "normalized": "PhotoID-\u003eFM()",
@@ -3372,6 +3656,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIndicate the state of a photo's geotagginess beyond\n latitude and longitude. Photos passed to this method must\n already be geotagged (using the \u003ccode\u003e\u003ca\u003esetLocation\u003c/a\u003e\u003c/code\u003e method).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "setContext",
           "package": "flickr",
@@ -3382,6 +3667,7 @@
         "index": {
           "description": "Indicate the state of photo geotagginess beyond latitude and longitude Photos passed to this method must already be geotagged using the setLocation method",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "setContext",
           "normalized": "PhotoID-\u003eContextID-\u003eFM()",
@@ -3398,6 +3684,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the geo data (latitude and longitude and, optionally,\n the accuracy level) for a photo. Before users may assign\n location data to a photo they must define who, by default,\n may view that information. Users can edit this preference\n at http:\u003cem/\u003ewww.flickr.com\u003cem\u003eaccount\u003c/em\u003egeo\u003cem\u003eprivacy\u003c/em\u003e. If a user\n has not set this preference, the API method will return \n an error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "setLocation",
           "package": "flickr",
@@ -3408,6 +3695,7 @@
         "index": {
           "description": "Sets the geo data latitude and longitude and optionally the accuracy level for photo Before users may assign location data to photo they must define who by default may view that information Users can edit this preference at http www.flickr.com account geo privacy If user has not set this preference the API method will return an error",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "setLocation",
           "normalized": "PhotoID-\u003eGeoLocation-\u003eFM()",
@@ -3424,6 +3712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the permission for who may view the geo data associated with a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Geo",
           "name": "setPerms",
           "package": "flickr",
@@ -3434,6 +3723,7 @@
         "index": {
           "description": "Set the permission for who may view the geo data associated with photo",
           "hierarchy": "Flickr Photos Geo",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Geo",
           "name": "setPerms",
           "normalized": "PhotoID-\u003ePermissions-\u003eFM()",
@@ -3450,6 +3740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.licenses API, setting/getting photo licensing.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Licenses",
           "name": "Licenses",
           "package": "flickr",
@@ -3459,6 +3750,7 @@
         "index": {
           "description": "flickr.photos.licenses API setting getting photo licensing",
           "hierarchy": "Flickr Photos Licenses",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Licenses",
           "name": "Licenses",
           "package": "flickr",
@@ -3473,6 +3765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches a list of available photo licenses for Flickr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Licenses",
           "name": "getInfo",
           "package": "flickr",
@@ -3483,6 +3776,7 @@
         "index": {
           "description": "Fetches list of available photo licenses for Flickr",
           "hierarchy": "Flickr Photos Licenses",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Licenses",
           "name": "getInfo",
           "normalized": "FM[License]",
@@ -3499,6 +3793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the license for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Licenses",
           "name": "setLicense",
           "package": "flickr",
@@ -3509,6 +3804,7 @@
         "index": {
           "description": "Sets the license for photo",
           "hierarchy": "Flickr Photos Licenses",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Licenses",
           "name": "setLicense",
           "normalized": "PhotoID-\u003eLicenseID-\u003eFM()",
@@ -3525,6 +3821,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.notes API, managing a user's photo annotations.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Notes",
           "name": "Notes",
           "package": "flickr",
@@ -3534,6 +3831,7 @@
         "index": {
           "description": "flickr.photos.notes API managing user photo annotations",
           "hierarchy": "Flickr Photos Notes",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Notes",
           "name": "Notes",
           "package": "flickr",
@@ -3548,6 +3846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a note to a photo. Coordinates and sizes are in \n pixels, based on the 500px image size shown on individual \n photo pages.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Notes",
           "name": "add",
           "package": "flickr",
@@ -3558,6 +3857,7 @@
         "index": {
           "description": "Add note to photo Coordinates and sizes are in pixels based on the px image size shown on individual photo pages",
           "hierarchy": "Flickr Photos Notes",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Notes",
           "name": "add",
           "normalized": "PhotoID-\u003ePoint-\u003eSize-\u003eString-\u003eFM NoteID",
@@ -3573,6 +3873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a note from a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Notes",
           "name": "delete",
           "package": "flickr",
@@ -3583,6 +3884,7 @@
         "index": {
           "description": "Delete note from photo",
           "hierarchy": "Flickr Photos Notes",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Notes",
           "name": "delete",
           "normalized": "NoteID-\u003eFM()",
@@ -3598,6 +3900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit a note on a photo. Coordinates and sizes are in pixels, \n based on the 500px image size shown on individual photo pages. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Notes",
           "name": "edit",
           "package": "flickr",
@@ -3608,6 +3911,7 @@
         "index": {
           "description": "Edit note on photo Coordinates and sizes are in pixels based on the px image size shown on individual photo pages",
           "hierarchy": "Flickr Photos Notes",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Notes",
           "name": "edit",
           "normalized": "NoteID-\u003ePoint-\u003eSize-\u003eString-\u003eFM()",
@@ -3623,6 +3927,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.transform API, rotation only right now.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Transform",
           "name": "Transform",
           "package": "flickr",
@@ -3632,6 +3937,7 @@
         "index": {
           "description": "flickr.photos.transform API rotation only right now",
           "hierarchy": "Flickr Photos Transform",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Transform",
           "name": "Transform",
           "package": "flickr",
@@ -3646,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRotate a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Transform",
           "name": "rotate",
           "package": "flickr",
@@ -3656,6 +3963,7 @@
         "index": {
           "description": "Rotate photo",
           "hierarchy": "Flickr Photos Transform",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Transform",
           "name": "rotate",
           "normalized": "PhotoID-\u003eLatitude-\u003eFM()",
@@ -3671,6 +3979,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos.upload API, check status of upload API initiated actions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "Upload",
           "package": "flickr",
@@ -3680,6 +3989,7 @@
         "index": {
           "description": "flickr.photos.upload API check status of upload API initiated actions",
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "Upload",
           "package": "flickr",
@@ -3693,6 +4003,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "UploadAttr",
           "package": "flickr",
@@ -3701,6 +4012,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "UploadAttr",
           "package": "flickr",
@@ -3714,6 +4026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "UploadAttr",
           "package": "flickr",
@@ -3723,6 +4036,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "UploadAttr",
           "package": "flickr",
@@ -3737,6 +4051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks the status of one or more asynchronous photo upload tickets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "checkTickets",
           "package": "flickr",
@@ -3747,6 +4062,7 @@
         "index": {
           "description": "Checks the status of one or more asynchronous photo upload tickets",
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "checkTickets",
           "normalized": "[TicketID]-\u003eFM[Ticket]",
@@ -3762,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "nullUploadAttr",
           "package": "flickr",
@@ -3771,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "nullUploadAttr",
           "package": "flickr",
@@ -3785,6 +4103,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpload a photo, returning an upload id/ticket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "replacePhoto",
           "package": "flickr",
@@ -3794,6 +4113,7 @@
         "index": {
           "description": "Upload photo returning an upload id ticket",
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "replacePhoto",
           "normalized": "FilePath-\u003ePhotoID-\u003eMaybe Bool-\u003eFM(String,String,PhotoID)",
@@ -3809,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadContentType",
           "package": "flickr",
@@ -3818,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadContentType",
           "package": "flickr",
@@ -3831,6 +4153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadFamily",
           "package": "flickr",
@@ -3840,6 +4163,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadFamily",
           "package": "flickr",
@@ -3853,6 +4177,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadFriend",
           "package": "flickr",
@@ -3862,6 +4187,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadFriend",
           "package": "flickr",
@@ -3875,6 +4201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadHidden",
           "package": "flickr",
@@ -3884,6 +4211,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadHidden",
           "package": "flickr",
@@ -3898,6 +4226,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUpload a photo, returning an upload id/ticket.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadPhoto",
           "package": "flickr",
@@ -3907,6 +4236,7 @@
         "index": {
           "description": "Upload photo returning an upload id ticket",
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadPhoto",
           "normalized": "FilePath-\u003eMaybe String-\u003eMaybe String-\u003e[Tag]-\u003eUploadAttr-\u003eFM PhotoID",
@@ -3922,6 +4252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadPublic",
           "package": "flickr",
@@ -3931,6 +4262,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadPublic",
           "package": "flickr",
@@ -3944,6 +4276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos.Upload",
           "name": "uploadSafety",
           "package": "flickr",
@@ -3953,6 +4286,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos Upload",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos.Upload",
           "name": "uploadSafety",
           "package": "flickr",
@@ -3967,6 +4301,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photos API, searching, managing and access a user's photos.\n \u003ca\u003ehttp://www.flickr.com/services/api/\u003c/a\u003e\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "Photos",
           "package": "flickr",
@@ -3976,6 +4311,7 @@
         "index": {
           "description": "flickr.photos API searching managing and access user photos http www.flickr.com services api",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "Photos",
           "package": "flickr",
@@ -3989,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "SearchConstraints",
           "package": "flickr",
@@ -3997,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "SearchConstraints",
           "package": "flickr",
@@ -4010,6 +4348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "SearchConstraints",
           "package": "flickr",
@@ -4019,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "SearchConstraints",
           "package": "flickr",
@@ -4033,6 +4373,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd tags to a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "addTags",
           "package": "flickr",
@@ -4043,6 +4384,7 @@
         "index": {
           "description": "Add tags to photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "addTags",
           "normalized": "PhotoID-\u003e[Tag]-\u003eFM()",
@@ -4059,6 +4401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a photo from flickr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "delete",
           "package": "flickr",
@@ -4069,6 +4412,7 @@
         "index": {
           "description": "Delete photo from flickr",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "delete",
           "normalized": "PhotoID-\u003eFM()",
@@ -4084,6 +4428,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns all visible sets and pools the photo belongs to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getAllContexts",
           "package": "flickr",
@@ -4094,6 +4439,7 @@
         "index": {
           "description": "Returns all visible sets and pools the photo belongs to",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getAllContexts",
           "normalized": "PhotoID-\u003eFM([Photoset],[PhotoPool])",
@@ -4110,6 +4456,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a list of recent photos from the calling users' contacts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getContactsPhotos",
           "package": "flickr",
@@ -4120,6 +4467,7 @@
         "index": {
           "description": "Fetch list of recent photos from the calling users contacts",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getContactsPhotos",
           "normalized": "Maybe Int-\u003eMaybe Bool-\u003eMaybe Bool-\u003eMaybe Bool-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4136,6 +4484,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a list of recent public photos from a users' contacts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getContactsPublicPhotos",
           "package": "flickr",
@@ -4146,6 +4495,7 @@
         "index": {
           "description": "Fetch list of recent public photos from users contacts",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getContactsPublicPhotos",
           "normalized": "Maybe Int-\u003eMaybe Bool-\u003eMaybe Bool-\u003eMaybe Bool-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4162,6 +4512,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetch a list of recent photos from the calling users' contacts.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getContext",
           "package": "flickr",
@@ -4172,6 +4523,7 @@
         "index": {
           "description": "Fetch list of recent photos from the calling users contacts",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getContext",
           "normalized": "PhotoID-\u003eFM(Photo,Photo)",
@@ -4188,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a list of photo counts for the given date ranges for the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getCounts",
           "package": "flickr",
@@ -4198,6 +4551,7 @@
         "index": {
           "description": "Gets list of photo counts for the given date ranges for the calling user",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getCounts",
           "normalized": "[DateString]-\u003e[DateString]-\u003eFM[PhotoCount]",
@@ -4214,6 +4568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves a list of EXIF\u003cem\u003eTIFF\u003c/em\u003eGPS tags for a given photo. The calling user \n must have permission to view the photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getExif",
           "package": "flickr",
@@ -4224,6 +4579,7 @@
         "index": {
           "description": "Retrieves list of EXIF TIFF GPS tags for given photo The calling user must have permission to view the photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getExif",
           "normalized": "PhotoID-\u003eMaybe String-\u003eFM[EXIF]",
@@ -4240,6 +4596,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the list of people who have favorited a given photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getFavorites",
           "package": "flickr",
@@ -4250,6 +4607,7 @@
         "index": {
           "description": "Returns the list of people who have favorited given photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getFavorites",
           "normalized": "PhotoID-\u003eFM[(User,Date)]",
@@ -4266,6 +4624,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information about a photo. The calling user must have permission to view the photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getInfo",
           "package": "flickr",
@@ -4276,6 +4635,7 @@
         "index": {
           "description": "Get information about photo The calling user must have permission to view the photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getInfo",
           "normalized": "PhotoID-\u003eMaybe String-\u003eFM PhotoDetails",
@@ -4292,6 +4652,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of your photos that are not part of any sets.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getNotInSet",
           "package": "flickr",
@@ -4302,6 +4663,7 @@
         "index": {
           "description": "Returns list of your photos that are not part of any sets",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getNotInSet",
           "normalized": "Maybe DateInterval-\u003eMaybe DateInterval-\u003eMaybe Privacy-\u003eMaybe MediaType-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4318,6 +4680,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet permissions for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getPerms",
           "package": "flickr",
@@ -4328,6 +4691,7 @@
         "index": {
           "description": "Get permissions for photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getPerms",
           "normalized": "PhotoID-\u003eFM Permissions",
@@ -4344,6 +4708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003elocate the URL for the photo..local, non-Flickr, helper function.\n Returns '\u003cunknown\u003e' if cannot be located.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getPhotoURL",
           "package": "flickr",
@@ -4354,6 +4719,7 @@
         "index": {
           "description": "locate the URL for the photo..local non-Flickr helper function Returns unknown if cannot be located",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getPhotoURL",
           "normalized": "PhotoDetails-\u003eURLString",
@@ -4370,6 +4736,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of the latest public photos uploaded to flickr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getRecent",
           "package": "flickr",
@@ -4380,6 +4747,7 @@
         "index": {
           "description": "Returns list of the latest public photos uploaded to flickr",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getRecent",
           "normalized": "[PhotoInfo]-\u003eFM[Photo]",
@@ -4396,6 +4764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the available sizes for a photo. The calling user must have permission to view the photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getSizes",
           "package": "flickr",
@@ -4406,6 +4775,7 @@
         "index": {
           "description": "Returns the available sizes for photo The calling user must have permission to view the photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getSizes",
           "normalized": "PhotoID-\u003eFM[SizeDetails]",
@@ -4422,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of your photos with no tags.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getUntagged",
           "package": "flickr",
@@ -4432,6 +4803,7 @@
         "index": {
           "description": "Returns list of your photos with no tags",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getUntagged",
           "normalized": "Maybe DateInterval-\u003eMaybe DateInterval-\u003eMaybe Privacy-\u003eMaybe MediaType-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4448,6 +4820,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of your geo-tagged photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getWithGeoData",
           "package": "flickr",
@@ -4458,6 +4831,7 @@
         "index": {
           "description": "Returns list of your geo-tagged photos",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getWithGeoData",
           "normalized": "Maybe DateInterval-\u003eMaybe DateInterval-\u003eMaybe Privacy-\u003eMaybe SortKey-\u003eMaybe MediaType-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4474,6 +4848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of your photos which haven't been geo-tagged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "getWithoutGeoData",
           "package": "flickr",
@@ -4484,6 +4859,7 @@
         "index": {
           "description": "Returns list of your photos which haven been geo-tagged",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "getWithoutGeoData",
           "normalized": "Maybe DateInterval-\u003eMaybe DateInterval-\u003eMaybe Privacy-\u003eMaybe SortKey-\u003eMaybe MediaType-\u003e[PhotoInfo]-\u003eFM[Photo]",
@@ -4499,6 +4875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "nullSearchConstraints",
           "package": "flickr",
@@ -4508,6 +4885,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "nullSearchConstraints",
           "package": "flickr",
@@ -4522,6 +4900,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of your photos that have been recently created or which have \n been recently modified. Recently modified may mean that the photo's metadata (title, \n description, tags) may have been changed or a comment has been \n added (or just modified somehow :-)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "recentlyUpdated",
           "package": "flickr",
@@ -4532,6 +4911,7 @@
         "index": {
           "description": "Return list of your photos that have been recently created or which have been recently modified Recently modified may mean that the photo metadata title description tags may have been changed or comment has been added or just modified somehow",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "recentlyUpdated",
           "normalized": "DateString-\u003e[PhotoInfo]-\u003eFM(PhotoContext,[Photo])",
@@ -4548,6 +4928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a tag from a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "removeTag",
           "package": "flickr",
@@ -4558,6 +4939,7 @@
         "index": {
           "description": "Remove tag from photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "removeTag",
           "normalized": "Tag-\u003eFM()",
@@ -4573,6 +4955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_accuracy",
           "package": "flickr",
@@ -4582,6 +4965,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_accuracy",
           "package": "flickr",
@@ -4594,6 +4978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_bbox",
           "package": "flickr",
@@ -4603,6 +4988,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_bbox",
           "package": "flickr",
@@ -4615,6 +5001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_contacts",
           "package": "flickr",
@@ -4624,6 +5011,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_contacts",
           "package": "flickr",
@@ -4636,6 +5024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_content_type",
           "package": "flickr",
@@ -4645,6 +5034,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_content_type",
           "package": "flickr",
@@ -4657,6 +5047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_group_id",
           "package": "flickr",
@@ -4666,6 +5057,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_group_id",
           "package": "flickr",
@@ -4678,6 +5070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_has_geo",
           "package": "flickr",
@@ -4687,6 +5080,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_has_geo",
           "package": "flickr",
@@ -4699,6 +5093,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_is_commons",
           "package": "flickr",
@@ -4708,6 +5103,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_is_commons",
           "package": "flickr",
@@ -4720,6 +5116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_lat",
           "package": "flickr",
@@ -4729,6 +5126,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_lat",
           "package": "flickr",
@@ -4741,6 +5139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_license",
           "package": "flickr",
@@ -4750,6 +5149,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_license",
           "normalized": "Maybe[LicenseID]",
@@ -4764,6 +5164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_lon",
           "package": "flickr",
@@ -4773,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_lon",
           "package": "flickr",
@@ -4785,6 +5187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_machine_tag_mode",
           "package": "flickr",
@@ -4794,6 +5197,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_machine_tag_mode",
           "package": "flickr",
@@ -4806,6 +5210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_machine_tags",
           "package": "flickr",
@@ -4815,6 +5220,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_machine_tags",
           "normalized": "[Tag]",
@@ -4829,6 +5235,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_media",
           "package": "flickr",
@@ -4838,6 +5245,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_media",
           "package": "flickr",
@@ -4850,6 +5258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_place_id",
           "package": "flickr",
@@ -4859,6 +5268,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_place_id",
           "package": "flickr",
@@ -4871,6 +5281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_privacy",
           "package": "flickr",
@@ -4880,6 +5291,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_privacy",
           "package": "flickr",
@@ -4892,6 +5304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_radius",
           "package": "flickr",
@@ -4901,6 +5314,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_radius",
           "package": "flickr",
@@ -4913,6 +5327,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_radius_units",
           "package": "flickr",
@@ -4922,6 +5337,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_radius_units",
           "package": "flickr",
@@ -4934,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_safe_search",
           "package": "flickr",
@@ -4943,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_safe_search",
           "package": "flickr",
@@ -4955,6 +5373,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_sort",
           "package": "flickr",
@@ -4964,6 +5383,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_sort",
           "package": "flickr",
@@ -4976,6 +5396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_tag_mode",
           "package": "flickr",
@@ -4985,6 +5406,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_tag_mode",
           "package": "flickr",
@@ -4997,6 +5419,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_tags",
           "package": "flickr",
@@ -5006,6 +5429,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_tags",
           "normalized": "[Tag]",
@@ -5020,6 +5444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_taken",
           "package": "flickr",
@@ -5029,6 +5454,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_taken",
           "package": "flickr",
@@ -5041,6 +5467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_text",
           "package": "flickr",
@@ -5050,6 +5477,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_text",
           "package": "flickr",
@@ -5062,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_upload",
           "package": "flickr",
@@ -5071,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_upload",
           "package": "flickr",
@@ -5083,6 +5513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "s_woe_id",
           "package": "flickr",
@@ -5092,6 +5523,7 @@
         },
         "index": {
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "s_woe_id",
           "package": "flickr",
@@ -5105,6 +5537,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of photos matching some criteria. Only photos \n visible to the calling user will be returned. To return private \n or semi-private photos, the caller must be authenticated \n with \u003ccode\u003e\u003ca\u003eread\u003c/a\u003e\u003c/code\u003e permissions, and have permission to view the \n photos. Unauthenticated calls will only return public photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "search",
           "package": "flickr",
@@ -5115,6 +5548,7 @@
         "index": {
           "description": "Return list of photos matching some criteria Only photos visible to the calling user will be returned To return private or semi-private photos the caller must be authenticated with read permissions and have permission to view the photos Unauthenticated calls will only return public photos",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "search",
           "normalized": "Maybe UserID-\u003eSearchConstraints-\u003e[PhotoInfo]-\u003eFM(PhotoContext,[Photo])",
@@ -5130,6 +5564,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the content type of a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setContentType",
           "package": "flickr",
@@ -5140,6 +5575,7 @@
         "index": {
           "description": "Set the content type of photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setContentType",
           "normalized": "PhotoID-\u003eContentType-\u003eFM()",
@@ -5156,6 +5592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet one or both of the dates for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setDates",
           "package": "flickr",
@@ -5166,6 +5603,7 @@
         "index": {
           "description": "Set one or both of the dates for photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setDates",
           "normalized": "PhotoID-\u003eMaybe DateString-\u003eMaybe DateString-\u003eMaybe DateGranularity-\u003eFM()",
@@ -5182,6 +5620,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the meta information for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setMeta",
           "package": "flickr",
@@ -5192,6 +5631,7 @@
         "index": {
           "description": "Set the meta information for photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setMeta",
           "normalized": "PhotoID-\u003eTitle-\u003eDescription-\u003eFM()",
@@ -5208,6 +5648,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet permissions for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setPerms",
           "package": "flickr",
@@ -5218,6 +5659,7 @@
         "index": {
           "description": "Set permissions for photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setPerms",
           "normalized": "PhotoID-\u003ePermissions-\u003eFM()",
@@ -5234,6 +5676,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the safety level of a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setSafetyLevel",
           "package": "flickr",
@@ -5244,6 +5687,7 @@
         "index": {
           "description": "Set the safety level of photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setSafetyLevel",
           "normalized": "PhotoID-\u003eMaybe Safety-\u003eMaybe Bool-\u003eFM()",
@@ -5260,6 +5704,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the tags for a photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photos",
           "name": "setTags",
           "package": "flickr",
@@ -5270,6 +5715,7 @@
         "index": {
           "description": "Set the tags for photo",
           "hierarchy": "Flickr Photos",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photos",
           "name": "setTags",
           "normalized": "PhotoID-\u003e[Tag]-\u003eFM()",
@@ -5286,6 +5732,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photosets.comments API, manage comments on photo sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets.Comments",
           "name": "Comments",
           "package": "flickr",
@@ -5295,6 +5742,7 @@
         "index": {
           "description": "flickr.photosets.comments API manage comments on photo sets",
           "hierarchy": "Flickr Photosets Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets.Comments",
           "name": "Comments",
           "package": "flickr",
@@ -5309,6 +5757,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a comment to a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets.Comments",
           "name": "addComment",
           "package": "flickr",
@@ -5319,6 +5768,7 @@
         "index": {
           "description": "Add comment to photoset",
           "hierarchy": "Flickr Photosets Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets.Comments",
           "name": "addComment",
           "normalized": "PhotosetID-\u003eString-\u003eFM CommentID",
@@ -5335,6 +5785,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a photoset comment as the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets.Comments",
           "name": "deleteComment",
           "package": "flickr",
@@ -5345,6 +5796,7 @@
         "index": {
           "description": "Delete photoset comment as the currently authenticated user",
           "hierarchy": "Flickr Photosets Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets.Comments",
           "name": "deleteComment",
           "normalized": "CommentID-\u003eFM()",
@@ -5361,6 +5813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEdit the text of a comment as the currently authenticated user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets.Comments",
           "name": "editComment",
           "package": "flickr",
@@ -5371,6 +5824,7 @@
         "index": {
           "description": "Edit the text of comment as the currently authenticated user",
           "hierarchy": "Flickr Photosets Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets.Comments",
           "name": "editComment",
           "normalized": "CommentID-\u003eString-\u003eFM()",
@@ -5387,6 +5841,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the comments for a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets.Comments",
           "name": "getList",
           "package": "flickr",
@@ -5397,6 +5852,7 @@
         "index": {
           "description": "Returns the comments for photoset",
           "hierarchy": "Flickr Photosets Comments",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets.Comments",
           "name": "getList",
           "normalized": "PhotosetID-\u003eFM[Comment]",
@@ -5413,6 +5869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.photosets API, navigating and managing photo sets.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "Photosets",
           "package": "flickr",
@@ -5422,6 +5879,7 @@
         "index": {
           "description": "flickr.photosets API navigating and managing photo sets",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "Photosets",
           "package": "flickr",
@@ -5436,6 +5894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a photo to the end of an existing photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "addPhoto",
           "package": "flickr",
@@ -5446,6 +5905,7 @@
         "index": {
           "description": "Add photo to the end of an existing photoset",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "addPhoto",
           "normalized": "PhotosetID-\u003ePhotoID-\u003eFM()",
@@ -5462,6 +5922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new photoset for the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "create",
           "package": "flickr",
@@ -5472,6 +5933,7 @@
         "index": {
           "description": "Create new photoset for the calling user",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "create",
           "normalized": "String-\u003eMaybe String-\u003ePhotoID-\u003eFM Photoset",
@@ -5487,6 +5949,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "delete",
           "package": "flickr",
@@ -5497,6 +5960,7 @@
         "index": {
           "description": "Delete photoset",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "delete",
           "normalized": "PhotosetID-\u003eFM()",
@@ -5512,6 +5976,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the meta-data for a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "editMeta",
           "package": "flickr",
@@ -5522,6 +5987,7 @@
         "index": {
           "description": "Modify the meta-data for photoset",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "editMeta",
           "normalized": "PhotosetID-\u003eString-\u003eMaybe String-\u003eFM()",
@@ -5538,6 +6004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eModify the photos in a photoset. Use this method to add, remove and re-order photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "editPhotos",
           "package": "flickr",
@@ -5548,6 +6015,7 @@
         "index": {
           "description": "Modify the photos in photoset Use this method to add remove and re-order photos",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "editPhotos",
           "normalized": "PhotosetID-\u003ePhotoID-\u003e[PhotoID]-\u003eFM()",
@@ -5564,6 +6032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns next and previous photos for a photo in a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "getContext",
           "package": "flickr",
@@ -5574,6 +6043,7 @@
         "index": {
           "description": "Returns next and previous photos for photo in set",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "getContext",
           "normalized": "PhotosetID-\u003ePhotoID-\u003eFM(Photo,Photo)",
@@ -5590,6 +6060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets information about a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "getInfo",
           "package": "flickr",
@@ -5600,6 +6071,7 @@
         "index": {
           "description": "Gets information about photoset",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "getInfo",
           "normalized": "PhotosetID-\u003eFM Photoset",
@@ -5616,6 +6088,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the photosets belonging to the specified user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "getList",
           "package": "flickr",
@@ -5626,6 +6099,7 @@
         "index": {
           "description": "Returns the photosets belonging to the specified user",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "getList",
           "normalized": "Maybe UserID-\u003eFM(Bool,[Photoset])",
@@ -5642,6 +6116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of photos in a set.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "getPhotos",
           "package": "flickr",
@@ -5652,6 +6127,7 @@
         "index": {
           "description": "Get the list of photos in set",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "getPhotos",
           "normalized": "PhotosetID-\u003e[PhotoInfo]-\u003eMaybe Privacy-\u003eMaybe MediaType-\u003eFM Photoset",
@@ -5668,6 +6144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the order of photosets for the calling user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "orderSets",
           "package": "flickr",
@@ -5678,6 +6155,7 @@
         "index": {
           "description": "Set the order of photosets for the calling user",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "orderSets",
           "normalized": "[PhotosetID]-\u003eFM()",
@@ -5694,6 +6172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a photo from a photoset.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Photosets",
           "name": "removePhoto",
           "package": "flickr",
@@ -5704,6 +6183,7 @@
         "index": {
           "description": "Remove photo from photoset",
           "hierarchy": "Flickr Photosets",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Photosets",
           "name": "removePhoto",
           "normalized": "PhotosetID-\u003ePhotoID-\u003eFM()",
@@ -5720,6 +6200,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.places API, locating photos by places and geo.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "Places",
           "package": "flickr",
@@ -5729,6 +6210,7 @@
         "index": {
           "description": "flickr.places API locating photos by places and geo",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "Places",
           "package": "flickr",
@@ -5743,6 +6225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of place IDs for a query string.\n The flickr.places.find method is not a geocoder. \n It will round up to the nearest place type to \n which place IDs apply. For example, if you pass \n it a street level address it will return the city \n that contains the address rather than the street, \n or building, itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "find",
           "package": "flickr",
@@ -5753,6 +6236,7 @@
         "index": {
           "description": "Return list of place IDs for query string The flickr.places.find method is not geocoder It will round up to the nearest place type to which place IDs apply For example if you pass it street level address it will return the city that contains the address rather than the street or building itself",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "find",
           "normalized": "String-\u003eFM(PlaceQuery,[Place])",
@@ -5768,6 +6252,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a place ID for a latitude, longitude and accuracy triple.\n\u003c/p\u003e\u003cp\u003eThe flickr.places.findByLatLon method is not meant to be \n a (reverse) geocoder in the traditional sense. It is designed\n to allow users to find photos for \u003ca\u003eplaces\u003c/a\u003e and will round\n up to the nearest place type to which corresponding place IDs \n apply.\n\u003c/p\u003e\u003cp\u003eFor example, if you pass it a street level coordinate it will \n return the city that contains the point rather than the street, \n or building, itself.\n\u003c/p\u003e\u003cp\u003eIt will also truncate latitudes and longitudes to three \n decimal points.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "findByLatLon",
           "package": "flickr",
@@ -5778,6 +6263,7 @@
         "index": {
           "description": "Return place ID for latitude longitude and accuracy triple The flickr.places.findByLatLon method is not meant to be reverse geocoder in the traditional sense It is designed to allow users to find photos for places and will round up to the nearest place type to which corresponding place IDs apply For example if you pass it street level coordinate it will return the city that contains the point rather than the street or building itself It will also truncate latitudes and longitudes to three decimal points",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "findByLatLon",
           "normalized": "Latitude-\u003eLongitude-\u003eMaybe Accuracy-\u003eFM(PlaceQuery,[Place])",
@@ -5794,6 +6280,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of locations with public photos that are parented by a Where on Earth (WOE) or Places ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "getChildrenWithPhotosPublic",
           "package": "flickr",
@@ -5804,6 +6291,7 @@
         "index": {
           "description": "Return list of locations with public photos that are parented by Where on Earth WOE or Places ID",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "getChildrenWithPhotosPublic",
           "normalized": "Either PlaceID WhereOnEarthID-\u003eFM(PlaceQuery,[Place])",
@@ -5820,6 +6308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet informations about a place.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "getInfo",
           "package": "flickr",
@@ -5830,6 +6319,7 @@
         "index": {
           "description": "Get informations about place",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "getInfo",
           "normalized": "Either PlaceID WhereOnEarthID-\u003eFM LocationPlace",
@@ -5846,6 +6336,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLookup information about a place, by its flickr.com/places URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "getInfoByUrl",
           "package": "flickr",
@@ -5856,6 +6347,7 @@
         "index": {
           "description": "Lookup information about place by its flickr.com places URL",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "getInfoByUrl",
           "normalized": "URLString-\u003eFM LocationPlace",
@@ -5872,6 +6364,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFetches a list of available place types for Flickr.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "getPlaceTypes",
           "package": "flickr",
@@ -5882,6 +6375,7 @@
         "index": {
           "description": "Fetches list of available place types for Flickr",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "getPlaceTypes",
           "normalized": "FM[PlaceType]",
@@ -5898,6 +6392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereturn all the locations of a matching place type for a bounding box.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "placesForBoundingBox",
           "package": "flickr",
@@ -5908,6 +6403,7 @@
         "index": {
           "description": "return all the locations of matching place type for bounding box",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "placesForBoundingBox",
           "normalized": "BoundingBox-\u003eMaybe PlaceTypeName-\u003eMaybe PlaceTypeId-\u003eFM[Place]",
@@ -5924,6 +6420,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the top 100 unique places clustered by a given placetype for a user's contacts. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "placesForContacts",
           "package": "flickr",
@@ -5934,6 +6431,7 @@
         "index": {
           "description": "Return list of the top unique places clustered by given placetype for user contacts",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "placesForContacts",
           "normalized": "Either PlaceTypeName WhereOnEarthID-\u003eMaybe PlaceTypeId-\u003eMaybe Threshold-\u003eMaybe String-\u003eFM[Place]",
@@ -5950,6 +6448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the top 100 unique places clustered by a given placetype for set of tags or machine tags. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "placesForTags",
           "package": "flickr",
@@ -5960,6 +6459,7 @@
         "index": {
           "description": "Return list of the top unique places clustered by given placetype for set of tags or machine tags",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "placesForTags",
           "normalized": "Either PlaceTypeName WhereOnEarthID-\u003eMaybe PlaceID-\u003eMaybe Threshold-\u003eMaybe[Tag]-\u003eMaybe TagMode-\u003eMaybe[MachineTag]-\u003eMaybe TagMode-\u003eDateDetails-\u003eFM[Place]",
@@ -5976,6 +6476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the top 100 unique places clustered by a given placetype for a user. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "placesForUser",
           "package": "flickr",
@@ -5986,6 +6487,7 @@
         "index": {
           "description": "Return list of the top unique places clustered by given placetype for user",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "placesForUser",
           "normalized": "Either PlaceID WhereOnEarthID-\u003eEither PlaceTypeName PlaceTypeId-\u003eMaybe Threshold-\u003eDateDetails-\u003eFM[Place]",
@@ -6002,6 +6504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind Flickr Places information by Place Id.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "resolvePlaceId",
           "package": "flickr",
@@ -6012,6 +6515,7 @@
         "index": {
           "description": "Find Flickr Places information by Place Id",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "resolvePlaceId",
           "normalized": "PlaceID-\u003eFM LocationPlace",
@@ -6028,6 +6532,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind Flickr Places information by Place URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "resolvePlaceURL",
           "package": "flickr",
@@ -6038,6 +6543,7 @@
         "index": {
           "description": "Find Flickr Places information by Place URL",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "resolvePlaceURL",
           "normalized": "URLString-\u003eFM LocationPlace",
@@ -6054,6 +6560,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a list of the top 100 unique tags for a \n Flickr Places or Where on Earth (WOE) ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Places",
           "name": "tagsForPlace",
           "package": "flickr",
@@ -6064,6 +6571,7 @@
         "index": {
           "description": "Return list of the top unique tags for Flickr Places or Where on Earth WOE ID",
           "hierarchy": "Flickr Places",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Places",
           "name": "tagsForPlace",
           "normalized": "Either PlaceID WhereOnEarthID-\u003eDateDetails-\u003eFM[TagInfo]",
@@ -6080,6 +6588,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.prefs API, accessing a user's preferences.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "Prefs",
           "package": "flickr",
@@ -6089,6 +6598,7 @@
         "index": {
           "description": "flickr.prefs API accessing user preferences",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "Prefs",
           "package": "flickr",
@@ -6103,6 +6613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default content type preference for the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "getContentType",
           "package": "flickr",
@@ -6113,6 +6624,7 @@
         "index": {
           "description": "Returns the default content type preference for the user",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "getContentType",
           "package": "flickr",
@@ -6127,6 +6639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default privacy level for geographic information \n attached to the user's photos. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "getGeoPerms",
           "package": "flickr",
@@ -6137,6 +6650,7 @@
         "index": {
           "description": "Returns the default privacy level for geographic information attached to the user photos",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "getGeoPerms",
           "package": "flickr",
@@ -6151,6 +6665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default hidden preference for the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "getHidden",
           "package": "flickr",
@@ -6161,6 +6676,7 @@
         "index": {
           "description": "Returns the default hidden preference for the user",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "getHidden",
           "package": "flickr",
@@ -6175,6 +6691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default privacy level preference for the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "getPrivacy",
           "package": "flickr",
@@ -6185,6 +6702,7 @@
         "index": {
           "description": "Returns the default privacy level preference for the user",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "getPrivacy",
           "package": "flickr",
@@ -6199,6 +6717,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the default safety level preference for the user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Prefs",
           "name": "getSafetyLevel",
           "package": "flickr",
@@ -6209,6 +6728,7 @@
         "index": {
           "description": "Returns the default safety level preference for the user",
           "hierarchy": "Flickr Prefs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Prefs",
           "name": "getSafetyLevel",
           "package": "flickr",
@@ -6223,6 +6743,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe flickr.tags API, fetching photos by tag or cluster membership.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "Tags",
           "package": "flickr",
@@ -6232,6 +6753,7 @@
         "index": {
           "description": "The flickr.tags API fetching photos by tag or cluster membership",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "Tags",
           "package": "flickr",
@@ -6246,6 +6768,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the first 24 photos for a given tag cluster.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getClusterPhotos",
           "package": "flickr",
@@ -6256,6 +6779,7 @@
         "index": {
           "description": "Returns the first photos for given tag cluster",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getClusterPhotos",
           "normalized": "TagID-\u003eClusterID-\u003eFM(PhotoContext,[Photo])",
@@ -6272,6 +6796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives you a list of tag clusters for the given tag.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getClusters",
           "package": "flickr",
@@ -6282,6 +6807,7 @@
         "index": {
           "description": "Gives you list of tag clusters for the given tag",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getClusters",
           "normalized": "Tag-\u003eFM[Cluster]",
@@ -6298,6 +6824,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of hot tags for the given period.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getHotList",
           "package": "flickr",
@@ -6308,6 +6835,7 @@
         "index": {
           "description": "Returns list of hot tags for the given period",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getHotList",
           "normalized": "Maybe DayWeek-\u003eMaybe Int-\u003eFM[TagDetails]",
@@ -6324,6 +6852,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the tag list for a given photo.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getListPhoto",
           "package": "flickr",
@@ -6334,6 +6863,7 @@
         "index": {
           "description": "Get the tag list for given photo",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getListPhoto",
           "normalized": "PhotoID-\u003eFM[TagDetails]",
@@ -6350,6 +6880,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the tag list for a given user (or the currently logged in user).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getListUser",
           "package": "flickr",
@@ -6360,6 +6891,7 @@
         "index": {
           "description": "Get the tag list for given user or the currently logged in user",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getListUser",
           "normalized": "Maybe UserID-\u003eFM[TagDetails]",
@@ -6376,6 +6908,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the popular tags for a given user (or the currently logged in user).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getListUserPopular",
           "package": "flickr",
@@ -6386,6 +6919,7 @@
         "index": {
           "description": "Get the popular tags for given user or the currently logged in user",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getListUserPopular",
           "normalized": "Maybe UserID-\u003eMaybe Int-\u003eFM[TagDetails]",
@@ -6402,6 +6936,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the raw versions of a given tag (or all tags) for the currently logged-in user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getListUserRaw",
           "package": "flickr",
@@ -6412,6 +6947,7 @@
         "index": {
           "description": "Get the raw versions of given tag or all tags for the currently logged-in user",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getListUserRaw",
           "normalized": "Maybe Tag-\u003eFM[TagDetails]",
@@ -6428,6 +6964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of tags \u003ccode\u003erelated\u003c/code\u003e to the given tag, based on clustered usage analysis.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Tags",
           "name": "getRelated",
           "package": "flickr",
@@ -6438,6 +6975,7 @@
         "index": {
           "description": "Returns list of tags related to the given tag based on clustered usage analysis",
           "hierarchy": "Flickr Tags",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Tags",
           "name": "getRelated",
           "normalized": "Tag-\u003eFM[TagDetails]",
@@ -6454,6 +6992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eflickr.test API, kicking the tires for method calls and auth\n of these.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Test",
           "name": "Test",
           "package": "flickr",
@@ -6463,6 +7002,7 @@
         "index": {
           "description": "flickr.test API kicking the tires for method calls and auth of these",
           "hierarchy": "Flickr Test",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Test",
           "name": "Test",
           "package": "flickr",
@@ -6477,6 +7017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA testing method which echo's all parameters back in the response.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Test",
           "name": "echo",
           "package": "flickr",
@@ -6487,6 +7028,7 @@
         "index": {
           "description": "testing method which echo all parameters back in the response",
           "hierarchy": "Flickr Test",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Test",
           "name": "echo",
           "normalized": "[(String,String)]-\u003eFM[(String,String)]",
@@ -6502,6 +7044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA testing method which checks if the caller is logged in then returns their username.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Test",
           "name": "login",
           "package": "flickr",
@@ -6512,6 +7055,7 @@
         "index": {
           "description": "testing method which checks if the caller is logged in then returns their username",
           "hierarchy": "Flickr Test",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Test",
           "name": "login",
           "package": "flickr",
@@ -6525,6 +7069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNull test\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Test",
           "name": "nullTest",
           "package": "flickr",
@@ -6535,6 +7080,7 @@
         "index": {
           "description": "Null test",
           "hierarchy": "Flickr Test",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Test",
           "name": "nullTest",
           "normalized": "FM()",
@@ -6551,6 +7097,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslating XML responses into Haskell type representations\n of the Flickr API resources\u003cem\u003eentities\u003c/em\u003etypes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "Import",
           "package": "flickr",
@@ -6560,6 +7107,7 @@
         "index": {
           "description": "Translating XML responses into Haskell type representations of the Flickr API resources entities types",
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "Import",
           "package": "flickr",
@@ -6573,6 +7121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltActivity",
           "package": "flickr",
@@ -6582,6 +7131,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltActivity",
           "normalized": "Element-\u003eMaybe[Activity]",
@@ -6597,6 +7147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltAuthFrob",
           "package": "flickr",
@@ -6606,6 +7157,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltAuthFrob",
           "normalized": "Element-\u003eMaybe AuthFrob",
@@ -6621,6 +7173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltAuthToken",
           "package": "flickr",
@@ -6630,6 +7183,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltAuthToken",
           "normalized": "Element-\u003eMaybe AuthToken",
@@ -6645,6 +7199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltBandwidth",
           "package": "flickr",
@@ -6654,6 +7209,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltBandwidth",
           "normalized": "Element-\u003eMaybe Bandwidth",
@@ -6669,6 +7225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltBlog",
           "package": "flickr",
@@ -6678,6 +7235,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltBlog",
           "normalized": "Element-\u003eMaybe Blog",
@@ -6693,6 +7251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltBlogsList",
           "package": "flickr",
@@ -6702,6 +7261,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltBlogsList",
           "normalized": "Element-\u003eMaybe[Blog]",
@@ -6717,6 +7277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltBool",
           "package": "flickr",
@@ -6726,6 +7287,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltBool",
           "normalized": "String-\u003eElement-\u003eMaybe Bool",
@@ -6741,6 +7303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltCategory",
           "package": "flickr",
@@ -6750,6 +7313,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltCategory",
           "normalized": "Element-\u003eMaybe Category",
@@ -6765,6 +7329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltCluster",
           "package": "flickr",
@@ -6774,6 +7339,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltCluster",
           "normalized": "Element-\u003eMaybe Cluster",
@@ -6789,6 +7355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltClusterList",
           "package": "flickr",
@@ -6798,6 +7365,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltClusterList",
           "normalized": "Element-\u003eMaybe[Cluster]",
@@ -6813,6 +7381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltComment",
           "package": "flickr",
@@ -6822,6 +7391,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltComment",
           "normalized": "Element-\u003eMaybe Comment",
@@ -6837,6 +7407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltCommentID",
           "package": "flickr",
@@ -6846,6 +7417,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltCommentID",
           "normalized": "Element-\u003eMaybe CommentID",
@@ -6861,6 +7433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltCommentList",
           "package": "flickr",
@@ -6870,6 +7443,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltCommentList",
           "normalized": "Element-\u003eMaybe[Comment]",
@@ -6885,6 +7459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltContact",
           "package": "flickr",
@@ -6894,6 +7469,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltContact",
           "normalized": "Element-\u003eMaybe Contact",
@@ -6909,6 +7485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltContactList",
           "package": "flickr",
@@ -6918,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltContactList",
           "normalized": "Element-\u003eMaybe[Contact]",
@@ -6933,6 +7511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltContentType",
           "package": "flickr",
@@ -6942,6 +7521,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltContentType",
           "normalized": "Element-\u003eMaybe ContentType",
@@ -6957,6 +7537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltEXIF",
           "package": "flickr",
@@ -6966,6 +7547,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltEXIF",
           "normalized": "Element-\u003eMaybe EXIF",
@@ -6981,6 +7563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltEXIFList",
           "package": "flickr",
@@ -6990,6 +7573,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltEXIFList",
           "normalized": "Element-\u003eMaybe[EXIF]",
@@ -7005,6 +7589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltEvent",
           "package": "flickr",
@@ -7014,6 +7599,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltEvent",
           "normalized": "Element-\u003eMaybe Activity",
@@ -7029,6 +7615,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltFileSize",
           "package": "flickr",
@@ -7038,6 +7625,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltFileSize",
           "normalized": "Element-\u003eMaybe FileSize",
@@ -7053,6 +7641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltGeoLocation",
           "package": "flickr",
@@ -7062,6 +7651,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltGeoLocation",
           "normalized": "Element-\u003eMaybe GeoLocation",
@@ -7077,6 +7667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltGroup",
           "package": "flickr",
@@ -7086,6 +7677,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltGroup",
           "normalized": "Element-\u003eMaybe Group",
@@ -7101,6 +7693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltGroupCat",
           "package": "flickr",
@@ -7110,6 +7703,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltGroupCat",
           "normalized": "Element-\u003eMaybe GroupCat",
@@ -7125,6 +7719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltGroupList",
           "package": "flickr",
@@ -7134,6 +7729,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltGroupList",
           "normalized": "Element-\u003eMaybe[Group]",
@@ -7149,6 +7745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltIntAttr",
           "package": "flickr",
@@ -7158,6 +7755,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltIntAttr",
           "normalized": "String-\u003eElement-\u003eMaybe Int",
@@ -7173,6 +7771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltItem",
           "package": "flickr",
@@ -7182,6 +7781,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltItem",
           "normalized": "Element-\u003eMaybe Item",
@@ -7197,6 +7797,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltItems",
           "package": "flickr",
@@ -7206,6 +7807,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltItems",
           "normalized": "Element-\u003eMaybe[Item]",
@@ -7221,6 +7823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltLicense",
           "package": "flickr",
@@ -7230,6 +7833,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltLicense",
           "normalized": "Element-\u003eMaybe License",
@@ -7245,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltLicenseList",
           "package": "flickr",
@@ -7254,6 +7859,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltLicenseList",
           "normalized": "Element-\u003eMaybe[License]",
@@ -7269,6 +7875,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltLocationPlace",
           "package": "flickr",
@@ -7278,6 +7885,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltLocationPlace",
           "normalized": "Element-\u003eMaybe LocationPlace",
@@ -7293,6 +7901,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMTPair",
           "package": "flickr",
@@ -7302,6 +7911,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMTPair",
           "normalized": "Element-\u003eMaybe MachineTagPair",
@@ -7317,6 +7927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMTPred",
           "package": "flickr",
@@ -7326,6 +7937,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMTPred",
           "normalized": "Element-\u003eMaybe MachineTagPred",
@@ -7341,6 +7953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMTag",
           "package": "flickr",
@@ -7350,6 +7963,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMTag",
           "normalized": "Element-\u003eMaybe MachineTag",
@@ -7365,6 +7979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMachinePairList",
           "package": "flickr",
@@ -7374,6 +7989,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMachinePairList",
           "normalized": "Element-\u003eMaybe(ResContext MachineTagPair,[MachineTagPair])",
@@ -7389,6 +8005,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMachinePredList",
           "package": "flickr",
@@ -7398,6 +8015,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMachinePredList",
           "normalized": "Element-\u003eMaybe(ResContext MachineTagPred,[MachineTagPred])",
@@ -7413,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltMachineTagList",
           "package": "flickr",
@@ -7422,6 +8041,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltMachineTagList",
           "normalized": "Element-\u003eMaybe(ResContext MachineTag,[MachineTag])",
@@ -7437,6 +8057,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltNamespace",
           "package": "flickr",
@@ -7446,6 +8067,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltNamespace",
           "normalized": "Element-\u003eMaybe Namespace",
@@ -7461,6 +8083,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltNamespaceList",
           "package": "flickr",
@@ -7470,6 +8093,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltNamespaceList",
           "normalized": "Element-\u003eMaybe(NameContext,[Namespace])",
@@ -7485,6 +8109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltNote",
           "package": "flickr",
@@ -7494,6 +8119,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltNote",
           "normalized": "Element-\u003eMaybe Note",
@@ -7509,6 +8135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltNoteID",
           "package": "flickr",
@@ -7518,6 +8145,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltNoteID",
           "normalized": "Element-\u003eMaybe NoteID",
@@ -7533,6 +8161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPermissions",
           "package": "flickr",
@@ -7542,6 +8171,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPermissions",
           "normalized": "Element-\u003eMaybe Permissions",
@@ -7557,6 +8187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhoto",
           "package": "flickr",
@@ -7566,6 +8197,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhoto",
           "normalized": "Element-\u003eMaybe Photo",
@@ -7581,6 +8213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoContext",
           "package": "flickr",
@@ -7590,6 +8223,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoContext",
           "normalized": "Element-\u003eMaybe PhotoContext",
@@ -7605,6 +8239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoCount",
           "package": "flickr",
@@ -7614,6 +8249,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoCount",
           "normalized": "Element-\u003eMaybe PhotoCount",
@@ -7629,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoCountList",
           "package": "flickr",
@@ -7638,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoCountList",
           "normalized": "Element-\u003eMaybe[PhotoCount]",
@@ -7653,6 +8291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoDate",
           "package": "flickr",
@@ -7662,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoDate",
           "normalized": "Element-\u003eMaybe PhotoDate",
@@ -7677,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoDetails",
           "package": "flickr",
@@ -7686,6 +8327,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoDetails",
           "normalized": "Element-\u003eMaybe PhotoDetails",
@@ -7701,6 +8343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoID",
           "package": "flickr",
@@ -7710,6 +8353,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoID",
           "normalized": "Element-\u003eMaybe PhotoID",
@@ -7725,6 +8369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoList",
           "package": "flickr",
@@ -7734,6 +8379,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoList",
           "normalized": "Element-\u003eMaybe(PhotoContext,[Photo])",
@@ -7749,6 +8395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoPair",
           "package": "flickr",
@@ -7758,6 +8405,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoPair",
           "normalized": "Element-\u003eMaybe(Photo,Photo)",
@@ -7773,6 +8421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoPool",
           "package": "flickr",
@@ -7782,6 +8431,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoPool",
           "normalized": "Element-\u003eMaybe PhotoPool",
@@ -7797,6 +8447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoset",
           "package": "flickr",
@@ -7806,6 +8457,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotoset",
           "normalized": "Element-\u003eMaybe Photoset",
@@ -7821,6 +8473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPhotosetQuota",
           "package": "flickr",
@@ -7830,6 +8483,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPhotosetQuota",
           "normalized": "Element-\u003eMaybe PhotosetQuota",
@@ -7845,6 +8499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlace",
           "package": "flickr",
@@ -7854,6 +8509,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlace",
           "normalized": "Element-\u003eMaybe Place",
@@ -7869,6 +8525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceQuery",
           "package": "flickr",
@@ -7878,6 +8535,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceQuery",
           "normalized": "Element-\u003eMaybe PlaceQuery",
@@ -7893,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceType",
           "package": "flickr",
@@ -7902,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceType",
           "normalized": "Element-\u003eMaybe PlaceType",
@@ -7917,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceTypeList",
           "package": "flickr",
@@ -7926,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlaceTypeList",
           "normalized": "Element-\u003eMaybe[PlaceType]",
@@ -7941,6 +8603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlaces",
           "package": "flickr",
@@ -7950,6 +8613,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlaces",
           "normalized": "Element-\u003eMaybe(PlaceQuery,[Place])",
@@ -7965,6 +8629,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPlacesList",
           "package": "flickr",
@@ -7974,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPlacesList",
           "normalized": "Element-\u003eMaybe[Place]",
@@ -7989,6 +8655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltPrivacy",
           "package": "flickr",
@@ -7998,6 +8665,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltPrivacy",
           "normalized": "String-\u003eElement-\u003eMaybe Privacy",
@@ -8013,6 +8681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltResContext",
           "package": "flickr",
@@ -8022,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltResContext",
           "normalized": "Element-\u003eMaybe(ResContext a)",
@@ -8037,6 +8707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltSize",
           "package": "flickr",
@@ -8046,6 +8717,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltSize",
           "normalized": "Element-\u003eMaybe SizeDetails",
@@ -8061,6 +8733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltSizeList",
           "package": "flickr",
@@ -8070,6 +8743,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltSizeList",
           "normalized": "Element-\u003eMaybe[SizeDetails]",
@@ -8085,6 +8759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltStringAttr",
           "package": "flickr",
@@ -8094,6 +8769,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltStringAttr",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -8109,6 +8785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltSubCategory",
           "package": "flickr",
@@ -8118,6 +8795,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltSubCategory",
           "normalized": "Element-\u003eMaybe SubCategory",
@@ -8133,6 +8811,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTagDetails",
           "package": "flickr",
@@ -8142,6 +8821,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTagDetails",
           "normalized": "Element-\u003eMaybe TagDetails",
@@ -8157,6 +8837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTagDetailsList",
           "package": "flickr",
@@ -8166,6 +8847,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTagDetailsList",
           "normalized": "Element-\u003eMaybe[TagDetails]",
@@ -8181,6 +8863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTagInfo",
           "package": "flickr",
@@ -8190,6 +8873,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTagInfo",
           "normalized": "Element-\u003eMaybe TagInfo",
@@ -8205,6 +8889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTagInfoList",
           "package": "flickr",
@@ -8214,6 +8899,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTagInfoList",
           "normalized": "Element-\u003eMaybe[TagInfo]",
@@ -8229,6 +8915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTicket",
           "package": "flickr",
@@ -8238,6 +8925,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTicket",
           "normalized": "Element-\u003eMaybe Ticket",
@@ -8253,6 +8941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltTicketList",
           "package": "flickr",
@@ -8262,6 +8951,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltTicketList",
           "normalized": "Element-\u003eMaybe[Ticket]",
@@ -8277,6 +8967,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltURLDetails",
           "package": "flickr",
@@ -8286,6 +8977,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltURLDetails",
           "normalized": "Element-\u003eMaybe URLDetails",
@@ -8301,6 +8993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "eltUser",
           "package": "flickr",
@@ -8310,6 +9003,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "eltUser",
           "normalized": "Element-\u003eMaybe User",
@@ -8325,6 +9019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toAuthFrob",
           "package": "flickr",
@@ -8334,6 +9029,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toAuthFrob",
           "normalized": "String-\u003eErrM AuthFrob",
@@ -8349,6 +9045,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toAuthToken",
           "package": "flickr",
@@ -8358,6 +9055,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toAuthToken",
           "normalized": "String-\u003eErrM AuthToken",
@@ -8373,6 +9071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toBlogs",
           "package": "flickr",
@@ -8382,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toBlogs",
           "normalized": "String-\u003eErrM[Blog]",
@@ -8397,6 +9097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toBool",
           "package": "flickr",
@@ -8406,6 +9107,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toBool",
           "normalized": "String-\u003eString-\u003eErrM Bool",
@@ -8421,6 +9123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toCategory",
           "package": "flickr",
@@ -8430,6 +9133,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toCategory",
           "normalized": "String-\u003eErrM Category",
@@ -8445,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toClusterList",
           "package": "flickr",
@@ -8454,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toClusterList",
           "normalized": "String-\u003eErrM[Cluster]",
@@ -8469,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toCommentID",
           "package": "flickr",
@@ -8478,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toCommentID",
           "normalized": "String-\u003eErrM CommentID",
@@ -8493,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toCommentList",
           "package": "flickr",
@@ -8502,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toCommentList",
           "normalized": "String-\u003eErrM[Comment]",
@@ -8517,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toContactList",
           "package": "flickr",
@@ -8526,6 +9237,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toContactList",
           "normalized": "String-\u003eErrM[Contact]",
@@ -8541,6 +9253,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toContentType",
           "package": "flickr",
@@ -8550,6 +9263,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toContentType",
           "normalized": "String-\u003eErrM ContentType",
@@ -8565,6 +9279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toEXIFList",
           "package": "flickr",
@@ -8574,6 +9289,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toEXIFList",
           "normalized": "String-\u003eErrM[EXIF]",
@@ -8589,6 +9305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toGeoLocation",
           "package": "flickr",
@@ -8598,6 +9315,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toGeoLocation",
           "normalized": "String-\u003eErrM GeoLocation",
@@ -8613,6 +9331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toGroup",
           "package": "flickr",
@@ -8622,6 +9341,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toGroup",
           "normalized": "String-\u003eErrM Group",
@@ -8637,6 +9357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toGroupList",
           "package": "flickr",
@@ -8646,6 +9367,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toGroupList",
           "normalized": "String-\u003eErrM[Group]",
@@ -8661,6 +9383,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toItems",
           "package": "flickr",
@@ -8670,6 +9393,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toItems",
           "normalized": "String-\u003eErrM[Item]",
@@ -8685,6 +9409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toLicenseList",
           "package": "flickr",
@@ -8694,6 +9419,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toLicenseList",
           "normalized": "String-\u003eErrM[License]",
@@ -8709,6 +9435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toLocationPlace",
           "package": "flickr",
@@ -8718,6 +9445,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toLocationPlace",
           "normalized": "String-\u003eErrM LocationPlace",
@@ -8733,6 +9461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toMachineTagList",
           "package": "flickr",
@@ -8742,6 +9471,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toMachineTagList",
           "normalized": "String-\u003eErrM(ResContext MachineTag,[MachineTag])",
@@ -8757,6 +9487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toNamespaceList",
           "package": "flickr",
@@ -8766,6 +9497,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toNamespaceList",
           "normalized": "String-\u003eErrM(NameContext,[Namespace])",
@@ -8781,6 +9513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toNoteID",
           "package": "flickr",
@@ -8790,6 +9523,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toNoteID",
           "normalized": "String-\u003eErrM NoteID",
@@ -8805,6 +9539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPairList",
           "package": "flickr",
@@ -8814,6 +9549,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPairList",
           "normalized": "String-\u003eErrM(ResContext MachineTagPair,[MachineTagPair])",
@@ -8829,6 +9565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPermissions",
           "package": "flickr",
@@ -8838,6 +9575,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPermissions",
           "normalized": "String-\u003eErrM Permissions",
@@ -8853,6 +9591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoCountList",
           "package": "flickr",
@@ -8862,6 +9601,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoCountList",
           "normalized": "String-\u003eErrM[PhotoCount]",
@@ -8877,6 +9617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoDetails",
           "package": "flickr",
@@ -8886,6 +9627,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoDetails",
           "normalized": "String-\u003eErrM PhotoDetails",
@@ -8901,6 +9643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoID",
           "package": "flickr",
@@ -8910,6 +9653,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoID",
           "normalized": "String-\u003eErrM PhotoID",
@@ -8925,6 +9669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoList",
           "package": "flickr",
@@ -8934,6 +9679,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoList",
           "normalized": "String-\u003eErrM(PhotoContext,[Photo])",
@@ -8949,6 +9695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoPair",
           "package": "flickr",
@@ -8958,6 +9705,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoPair",
           "normalized": "String-\u003eErrM(Photo,Photo)",
@@ -8973,6 +9721,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoPool",
           "package": "flickr",
@@ -8982,6 +9731,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoPool",
           "normalized": "String-\u003eErrM PhotoPool",
@@ -8997,6 +9747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPhotoset",
           "package": "flickr",
@@ -9006,6 +9757,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPhotoset",
           "normalized": "String-\u003eErrM Photoset",
@@ -9021,6 +9773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPlaceTypes",
           "package": "flickr",
@@ -9030,6 +9783,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPlaceTypes",
           "normalized": "String-\u003eErrM[PlaceType]",
@@ -9045,6 +9799,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPlaces",
           "package": "flickr",
@@ -9054,6 +9809,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPlaces",
           "normalized": "String-\u003eErrM(PlaceQuery,[Place])",
@@ -9069,6 +9825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPlacesList",
           "package": "flickr",
@@ -9078,6 +9835,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPlacesList",
           "normalized": "String-\u003eErrM[Place]",
@@ -9093,6 +9851,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPredList",
           "package": "flickr",
@@ -9102,6 +9861,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPredList",
           "normalized": "String-\u003eErrM(ResContext MachineTagPred,[MachineTagPred])",
@@ -9117,6 +9877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toPrivacy",
           "package": "flickr",
@@ -9126,6 +9887,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toPrivacy",
           "normalized": "String-\u003eString-\u003eErrM Privacy",
@@ -9141,6 +9903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toSafetyLevel",
           "package": "flickr",
@@ -9150,6 +9913,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toSafetyLevel",
           "normalized": "String-\u003eString-\u003eErrM Int",
@@ -9165,6 +9929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toSizeList",
           "package": "flickr",
@@ -9174,6 +9939,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toSizeList",
           "normalized": "String-\u003eErrM[SizeDetails]",
@@ -9189,6 +9955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toString",
           "package": "flickr",
@@ -9198,6 +9965,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toString",
           "normalized": "String-\u003eString-\u003eErrM String",
@@ -9213,6 +9981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toTagDetailsList",
           "package": "flickr",
@@ -9222,6 +9991,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toTagDetailsList",
           "normalized": "String-\u003eErrM[TagDetails]",
@@ -9237,6 +10007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toTagInfoList",
           "package": "flickr",
@@ -9246,6 +10017,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toTagInfoList",
           "normalized": "String-\u003eErrM[TagInfo]",
@@ -9261,6 +10033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toTicketList",
           "package": "flickr",
@@ -9270,6 +10043,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toTicketList",
           "normalized": "String-\u003eErrM[Ticket]",
@@ -9285,6 +10059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types.Import",
           "name": "toUser",
           "package": "flickr",
@@ -9294,6 +10069,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types Import",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types.Import",
           "name": "toUser",
           "normalized": "String-\u003eErrM User",
@@ -9310,6 +10086,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell rendering of types used and introduced by the Flickr API.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Types",
           "package": "flickr",
@@ -9319,6 +10096,7 @@
         "index": {
           "description": "Haskell rendering of types used and introduced by the Flickr API",
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Types",
           "package": "flickr",
@@ -9332,6 +10110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Accuracy",
           "package": "flickr",
@@ -9340,6 +10119,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Accuracy",
           "package": "flickr",
@@ -9353,6 +10133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Activity",
           "package": "flickr",
@@ -9361,6 +10142,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Activity",
           "package": "flickr",
@@ -9374,6 +10156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AppInfo",
           "package": "flickr",
@@ -9382,6 +10165,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AppInfo",
           "package": "flickr",
@@ -9395,6 +10179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AscDesc",
           "package": "flickr",
@@ -9403,6 +10188,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AscDesc",
           "package": "flickr",
@@ -9416,6 +10202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthFrob",
           "package": "flickr",
@@ -9424,6 +10211,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthFrob",
           "package": "flickr",
@@ -9437,6 +10225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthMiniToken",
           "package": "flickr",
@@ -9445,6 +10234,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthMiniToken",
           "package": "flickr",
@@ -9458,6 +10248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthRequest",
           "package": "flickr",
@@ -9466,6 +10257,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthRequest",
           "package": "flickr",
@@ -9479,6 +10271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthToken",
           "package": "flickr",
@@ -9487,6 +10280,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthToken",
           "package": "flickr",
@@ -9500,6 +10294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthTokenValue",
           "package": "flickr",
@@ -9508,6 +10303,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthTokenValue",
           "package": "flickr",
@@ -9521,6 +10317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Bandwidth",
           "package": "flickr",
@@ -9529,6 +10326,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Bandwidth",
           "package": "flickr",
@@ -9542,6 +10340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Blog",
           "package": "flickr",
@@ -9550,6 +10349,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Blog",
           "package": "flickr",
@@ -9563,6 +10363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "BlogID",
           "package": "flickr",
@@ -9571,6 +10372,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "BlogID",
           "package": "flickr",
@@ -9584,6 +10386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "BoundingBox",
           "package": "flickr",
@@ -9592,6 +10395,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "BoundingBox",
           "package": "flickr",
@@ -9605,6 +10409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Category",
           "package": "flickr",
@@ -9613,6 +10418,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Category",
           "package": "flickr",
@@ -9626,6 +10432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "CategoryID",
           "package": "flickr",
@@ -9634,6 +10441,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "CategoryID",
           "package": "flickr",
@@ -9647,6 +10455,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ChatId",
           "package": "flickr",
@@ -9655,6 +10464,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ChatId",
           "package": "flickr",
@@ -9668,6 +10478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Cluster",
           "package": "flickr",
@@ -9676,6 +10487,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Cluster",
           "package": "flickr",
@@ -9689,6 +10501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ClusterID",
           "package": "flickr",
@@ -9697,6 +10510,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ClusterID",
           "package": "flickr",
@@ -9710,6 +10524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Comment",
           "package": "flickr",
@@ -9718,6 +10533,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Comment",
           "package": "flickr",
@@ -9731,6 +10547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "CommentID",
           "package": "flickr",
@@ -9739,6 +10556,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "CommentID",
           "package": "flickr",
@@ -9752,6 +10570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Contact",
           "package": "flickr",
@@ -9760,6 +10579,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Contact",
           "package": "flickr",
@@ -9773,6 +10593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ContentType",
           "package": "flickr",
@@ -9781,6 +10602,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ContentType",
           "package": "flickr",
@@ -9794,6 +10616,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ContextID",
           "package": "flickr",
@@ -9802,6 +10625,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ContextID",
           "package": "flickr",
@@ -9815,6 +10639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Date",
           "package": "flickr",
@@ -9823,6 +10648,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Date",
           "package": "flickr",
@@ -9836,6 +10662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DateDetails",
           "package": "flickr",
@@ -9844,6 +10671,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DateDetails",
           "package": "flickr",
@@ -9857,6 +10685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DateGranularity",
           "package": "flickr",
@@ -9865,6 +10694,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DateGranularity",
           "package": "flickr",
@@ -9878,6 +10708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DateInterval",
           "package": "flickr",
@@ -9886,6 +10717,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DateInterval",
           "package": "flickr",
@@ -9899,6 +10731,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DateString",
           "package": "flickr",
@@ -9907,6 +10740,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DateString",
           "package": "flickr",
@@ -9920,6 +10754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DayWeek",
           "package": "flickr",
@@ -9928,6 +10763,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DayWeek",
           "package": "flickr",
@@ -9941,6 +10777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Decimal",
           "package": "flickr",
@@ -9949,6 +10786,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Decimal",
           "package": "flickr",
@@ -9962,6 +10800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Description",
           "package": "flickr",
@@ -9970,6 +10809,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Description",
           "package": "flickr",
@@ -9983,6 +10823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "EXIF",
           "package": "flickr",
@@ -9991,6 +10832,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "EXIF",
           "package": "flickr",
@@ -10004,6 +10846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "EXIFTag",
           "package": "flickr",
@@ -10012,6 +10855,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "EXIFTag",
           "package": "flickr",
@@ -10025,6 +10869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "FileSize",
           "package": "flickr",
@@ -10033,6 +10878,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "FileSize",
           "package": "flickr",
@@ -10046,6 +10892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Filter",
           "package": "flickr",
@@ -10054,6 +10901,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Filter",
           "package": "flickr",
@@ -10067,6 +10915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "GeoLocation",
           "package": "flickr",
@@ -10075,6 +10924,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "GeoLocation",
           "package": "flickr",
@@ -10088,6 +10938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Group",
           "package": "flickr",
@@ -10096,6 +10947,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Group",
           "package": "flickr",
@@ -10109,6 +10961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "GroupCat",
           "package": "flickr",
@@ -10117,6 +10970,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "GroupCat",
           "package": "flickr",
@@ -10130,6 +10984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "GroupID",
           "package": "flickr",
@@ -10138,6 +10993,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "GroupID",
           "package": "flickr",
@@ -10151,6 +11007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Item",
           "package": "flickr",
@@ -10159,6 +11016,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Item",
           "package": "flickr",
@@ -10172,6 +11030,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Key",
           "package": "flickr",
@@ -10180,6 +11039,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Key",
           "package": "flickr",
@@ -10193,6 +11053,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Latitude",
           "package": "flickr",
@@ -10201,6 +11062,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Latitude",
           "package": "flickr",
@@ -10214,6 +11076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "License",
           "package": "flickr",
@@ -10222,6 +11085,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "License",
           "package": "flickr",
@@ -10235,6 +11099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "LicenseID",
           "package": "flickr",
@@ -10243,6 +11108,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "LicenseID",
           "package": "flickr",
@@ -10256,6 +11122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "LocationPlace",
           "package": "flickr",
@@ -10264,6 +11131,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "LocationPlace",
           "package": "flickr",
@@ -10277,6 +11145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Longitude",
           "package": "flickr",
@@ -10285,6 +11154,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Longitude",
           "package": "flickr",
@@ -10298,6 +11168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTag",
           "package": "flickr",
@@ -10306,6 +11177,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTag",
           "package": "flickr",
@@ -10319,6 +11191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTagPair",
           "package": "flickr",
@@ -10327,6 +11200,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTagPair",
           "package": "flickr",
@@ -10340,6 +11214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTagPred",
           "package": "flickr",
@@ -10348,6 +11223,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTagPred",
           "package": "flickr",
@@ -10361,6 +11237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MediaType",
           "package": "flickr",
@@ -10369,6 +11246,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MediaType",
           "package": "flickr",
@@ -10382,6 +11260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "NSID",
           "package": "flickr",
@@ -10390,6 +11269,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "NSID",
           "package": "flickr",
@@ -10403,6 +11283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "NameContext",
           "package": "flickr",
@@ -10411,6 +11292,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "NameContext",
           "package": "flickr",
@@ -10424,6 +11306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Namespace",
           "package": "flickr",
@@ -10432,6 +11315,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Namespace",
           "package": "flickr",
@@ -10445,6 +11329,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Note",
           "package": "flickr",
@@ -10453,6 +11338,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Note",
           "package": "flickr",
@@ -10466,6 +11352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "NoteID",
           "package": "flickr",
@@ -10474,6 +11361,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "NoteID",
           "package": "flickr",
@@ -10487,6 +11375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PermissionID",
           "package": "flickr",
@@ -10495,6 +11384,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PermissionID",
           "package": "flickr",
@@ -10508,6 +11398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Permissions",
           "package": "flickr",
@@ -10516,6 +11407,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Permissions",
           "package": "flickr",
@@ -10529,6 +11421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Photo",
           "package": "flickr",
@@ -10537,6 +11430,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Photo",
           "package": "flickr",
@@ -10550,6 +11444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoContext",
           "package": "flickr",
@@ -10558,6 +11453,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoContext",
           "package": "flickr",
@@ -10571,6 +11467,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoCount",
           "package": "flickr",
@@ -10579,6 +11476,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoCount",
           "package": "flickr",
@@ -10592,6 +11490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDate",
           "package": "flickr",
@@ -10600,6 +11499,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDate",
           "package": "flickr",
@@ -10613,6 +11513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDetails",
           "package": "flickr",
@@ -10621,6 +11522,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDetails",
           "package": "flickr",
@@ -10634,6 +11536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoID",
           "package": "flickr",
@@ -10642,6 +11545,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoID",
           "package": "flickr",
@@ -10655,6 +11559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoInfo",
           "package": "flickr",
@@ -10663,6 +11568,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoInfo",
           "package": "flickr",
@@ -10676,6 +11582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoPool",
           "package": "flickr",
@@ -10684,6 +11591,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoPool",
           "package": "flickr",
@@ -10697,6 +11605,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSize",
           "package": "flickr",
@@ -10705,6 +11614,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSize",
           "package": "flickr",
@@ -10718,6 +11628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Photoset",
           "package": "flickr",
@@ -10726,6 +11637,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Photoset",
           "package": "flickr",
@@ -10739,6 +11651,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotosetID",
           "package": "flickr",
@@ -10747,6 +11660,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotosetID",
           "package": "flickr",
@@ -10760,6 +11674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotosetQuota",
           "package": "flickr",
@@ -10768,6 +11683,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotosetQuota",
           "package": "flickr",
@@ -10781,6 +11697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Place",
           "package": "flickr",
@@ -10789,6 +11706,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Place",
           "package": "flickr",
@@ -10802,6 +11720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceID",
           "package": "flickr",
@@ -10810,6 +11729,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceID",
           "package": "flickr",
@@ -10823,6 +11743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceQuery",
           "package": "flickr",
@@ -10831,6 +11752,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceQuery",
           "package": "flickr",
@@ -10844,6 +11766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceType",
           "package": "flickr",
@@ -10852,6 +11775,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceType",
           "package": "flickr",
@@ -10865,6 +11789,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceTypeId",
           "package": "flickr",
@@ -10873,6 +11798,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceTypeId",
           "package": "flickr",
@@ -10886,6 +11812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceTypeName",
           "package": "flickr",
@@ -10894,6 +11821,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceTypeName",
           "package": "flickr",
@@ -10907,6 +11835,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Point",
           "package": "flickr",
@@ -10915,6 +11844,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Point",
           "package": "flickr",
@@ -10928,6 +11858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Privacy",
           "package": "flickr",
@@ -10936,6 +11867,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Privacy",
           "package": "flickr",
@@ -10949,6 +11881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ResContext",
           "package": "flickr",
@@ -10957,6 +11890,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ResContext",
           "package": "flickr",
@@ -10970,6 +11904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Safety",
           "package": "flickr",
@@ -10978,6 +11913,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Safety",
           "package": "flickr",
@@ -10991,6 +11927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Signature",
           "package": "flickr",
@@ -10999,6 +11936,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Signature",
           "package": "flickr",
@@ -11012,6 +11950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Size",
           "package": "flickr",
@@ -11020,6 +11959,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Size",
           "package": "flickr",
@@ -11033,6 +11973,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SizeDetails",
           "package": "flickr",
@@ -11041,6 +11982,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SizeDetails",
           "package": "flickr",
@@ -11054,6 +11996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SortKey",
           "package": "flickr",
@@ -11062,6 +12005,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SortKey",
           "package": "flickr",
@@ -11075,6 +12019,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SubCategory",
           "package": "flickr",
@@ -11083,6 +12028,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SubCategory",
           "package": "flickr",
@@ -11096,6 +12042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Tag",
           "package": "flickr",
@@ -11104,6 +12051,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Tag",
           "package": "flickr",
@@ -11117,6 +12065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagDetails",
           "package": "flickr",
@@ -11125,6 +12074,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagDetails",
           "package": "flickr",
@@ -11138,6 +12088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagID",
           "package": "flickr",
@@ -11146,6 +12097,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagID",
           "package": "flickr",
@@ -11159,6 +12111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagInfo",
           "package": "flickr",
@@ -11167,6 +12120,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagInfo",
           "package": "flickr",
@@ -11180,6 +12134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagMode",
           "package": "flickr",
@@ -11188,6 +12143,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagMode",
           "package": "flickr",
@@ -11201,6 +12157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Threshold",
           "package": "flickr",
@@ -11209,6 +12166,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Threshold",
           "package": "flickr",
@@ -11222,6 +12180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Ticket",
           "package": "flickr",
@@ -11230,6 +12189,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Ticket",
           "package": "flickr",
@@ -11243,6 +12203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TicketID",
           "package": "flickr",
@@ -11251,6 +12212,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TicketID",
           "package": "flickr",
@@ -11264,6 +12226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Title",
           "package": "flickr",
@@ -11272,6 +12235,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Title",
           "package": "flickr",
@@ -11285,6 +12249,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "URLDetails",
           "package": "flickr",
@@ -11293,6 +12258,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "URLDetails",
           "package": "flickr",
@@ -11306,6 +12272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "URLString",
           "package": "flickr",
@@ -11314,6 +12281,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "URLString",
           "package": "flickr",
@@ -11327,6 +12295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "User",
           "package": "flickr",
@@ -11335,6 +12304,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "User",
           "package": "flickr",
@@ -11348,6 +12318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "UserID",
           "package": "flickr",
@@ -11356,6 +12327,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "UserID",
           "package": "flickr",
@@ -11369,6 +12341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "UserName",
           "package": "flickr",
@@ -11377,6 +12350,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "UserName",
           "package": "flickr",
@@ -11390,6 +12364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "UserPhotoStat",
           "package": "flickr",
@@ -11398,6 +12373,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "UserPhotoStat",
           "package": "flickr",
@@ -11411,6 +12387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "WhereOnEarthID",
           "package": "flickr",
@@ -11419,6 +12396,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "WhereOnEarthID",
           "package": "flickr",
@@ -11432,6 +12410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AGroup",
           "package": "flickr",
@@ -11441,6 +12420,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AGroup",
           "package": "flickr",
@@ -11454,6 +12434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Activity",
           "package": "flickr",
@@ -11463,6 +12444,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Activity",
           "package": "flickr",
@@ -11476,6 +12458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "All",
           "package": "flickr",
@@ -11485,6 +12468,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "All",
           "package": "flickr",
@@ -11498,6 +12482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AppInfo",
           "package": "flickr",
@@ -11507,6 +12492,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AppInfo",
           "package": "flickr",
@@ -11520,6 +12506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Asc",
           "package": "flickr",
@@ -11529,6 +12516,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Asc",
           "package": "flickr",
@@ -11542,6 +12530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthFrob",
           "package": "flickr",
@@ -11551,6 +12540,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthFrob",
           "package": "flickr",
@@ -11564,6 +12554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthRequest",
           "package": "flickr",
@@ -11573,6 +12564,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthRequest",
           "package": "flickr",
@@ -11586,6 +12578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "AuthToken",
           "package": "flickr",
@@ -11595,6 +12588,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "AuthToken",
           "package": "flickr",
@@ -11608,6 +12602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Bandwidth",
           "package": "flickr",
@@ -11617,6 +12612,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Bandwidth",
           "package": "flickr",
@@ -11630,6 +12626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Blog",
           "package": "flickr",
@@ -11639,6 +12636,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Blog",
           "package": "flickr",
@@ -11652,6 +12650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Both",
           "package": "flickr",
@@ -11661,6 +12660,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Both",
           "package": "flickr",
@@ -11674,6 +12674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "BoundingBox",
           "package": "flickr",
@@ -11683,6 +12684,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "BoundingBox",
           "package": "flickr",
@@ -11696,6 +12698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Category",
           "package": "flickr",
@@ -11705,6 +12708,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Category",
           "package": "flickr",
@@ -11718,6 +12722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Cluster",
           "package": "flickr",
@@ -11727,6 +12732,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Cluster",
           "package": "flickr",
@@ -11740,6 +12746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Comment",
           "package": "flickr",
@@ -11749,6 +12756,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Comment",
           "package": "flickr",
@@ -11762,6 +12770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Contact",
           "package": "flickr",
@@ -11771,6 +12780,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Contact",
           "package": "flickr",
@@ -11784,6 +12794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Contacts",
           "package": "flickr",
@@ -11793,6 +12804,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Contacts",
           "package": "flickr",
@@ -11806,6 +12818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ContentOther",
           "package": "flickr",
@@ -11815,6 +12828,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ContentOther",
           "package": "flickr",
@@ -11828,6 +12842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ContentPhoto",
           "package": "flickr",
@@ -11837,6 +12852,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ContentPhoto",
           "package": "flickr",
@@ -11850,6 +12866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ContentScreenshot",
           "package": "flickr",
@@ -11859,6 +12876,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ContentScreenshot",
           "package": "flickr",
@@ -11872,6 +12890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "DateDetails",
           "package": "flickr",
@@ -11881,6 +12900,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "DateDetails",
           "package": "flickr",
@@ -11894,6 +12914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Desc",
           "package": "flickr",
@@ -11903,6 +12924,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Desc",
           "package": "flickr",
@@ -11916,6 +12938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "EXIF",
           "package": "flickr",
@@ -11925,6 +12948,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "EXIF",
           "package": "flickr",
@@ -11938,6 +12962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "EXIFTag",
           "package": "flickr",
@@ -11947,6 +12972,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "EXIFTag",
           "package": "flickr",
@@ -11960,6 +12986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Family",
           "package": "flickr",
@@ -11969,6 +12996,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Family",
           "package": "flickr",
@@ -11982,6 +13010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "FileSize",
           "package": "flickr",
@@ -11991,6 +13020,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "FileSize",
           "package": "flickr",
@@ -12004,6 +13034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Friends",
           "package": "flickr",
@@ -12013,6 +13044,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Friends",
           "package": "flickr",
@@ -12026,6 +13058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Group",
           "package": "flickr",
@@ -12035,6 +13068,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Group",
           "package": "flickr",
@@ -12048,6 +13082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Item",
           "package": "flickr",
@@ -12057,6 +13092,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Item",
           "package": "flickr",
@@ -12070,6 +13106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "License",
           "package": "flickr",
@@ -12079,6 +13116,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "License",
           "package": "flickr",
@@ -12092,6 +13130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "LocationPlace",
           "package": "flickr",
@@ -12101,6 +13140,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "LocationPlace",
           "package": "flickr",
@@ -12114,6 +13154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTag",
           "package": "flickr",
@@ -12123,6 +13164,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTag",
           "package": "flickr",
@@ -12136,6 +13178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTagPair",
           "package": "flickr",
@@ -12145,6 +13188,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTagPair",
           "package": "flickr",
@@ -12158,6 +13202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "MachineTagPred",
           "package": "flickr",
@@ -12167,6 +13212,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "MachineTagPred",
           "package": "flickr",
@@ -12180,6 +13226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Moderate",
           "package": "flickr",
@@ -12189,6 +13236,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Moderate",
           "package": "flickr",
@@ -12202,6 +13250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Namespace",
           "package": "flickr",
@@ -12211,6 +13260,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Namespace",
           "package": "flickr",
@@ -12224,6 +13274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Neither",
           "package": "flickr",
@@ -12233,6 +13284,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Neither",
           "package": "flickr",
@@ -12246,6 +13298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Note",
           "package": "flickr",
@@ -12255,6 +13308,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Note",
           "package": "flickr",
@@ -12268,6 +13322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Permissions",
           "package": "flickr",
@@ -12277,6 +13332,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Permissions",
           "package": "flickr",
@@ -12290,6 +13346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Photo",
           "package": "flickr",
@@ -12299,6 +13356,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Photo",
           "package": "flickr",
@@ -12312,6 +13370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoContext",
           "package": "flickr",
@@ -12321,6 +13380,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoContext",
           "package": "flickr",
@@ -12334,6 +13394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoCount",
           "package": "flickr",
@@ -12343,6 +13404,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoCount",
           "package": "flickr",
@@ -12356,6 +13418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDate",
           "package": "flickr",
@@ -12365,6 +13428,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDate",
           "package": "flickr",
@@ -12378,6 +13442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDateTaken",
           "package": "flickr",
@@ -12387,6 +13452,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDateTaken",
           "package": "flickr",
@@ -12400,6 +13466,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDateUpload",
           "package": "flickr",
@@ -12409,6 +13476,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDateUpload",
           "package": "flickr",
@@ -12422,6 +13490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoDetails",
           "package": "flickr",
@@ -12431,6 +13500,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoDetails",
           "package": "flickr",
@@ -12444,6 +13514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoGeo",
           "package": "flickr",
@@ -12453,6 +13524,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoGeo",
           "package": "flickr",
@@ -12466,6 +13538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoIconServer",
           "package": "flickr",
@@ -12475,6 +13548,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoIconServer",
           "package": "flickr",
@@ -12488,6 +13562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoLastUpdate",
           "package": "flickr",
@@ -12497,6 +13572,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoLastUpdate",
           "package": "flickr",
@@ -12510,6 +13586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoLicense",
           "package": "flickr",
@@ -12519,6 +13596,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoLicense",
           "package": "flickr",
@@ -12532,6 +13610,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoMachineTags",
           "package": "flickr",
@@ -12541,6 +13620,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoMachineTags",
           "package": "flickr",
@@ -12554,6 +13634,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoMedia",
           "package": "flickr",
@@ -12563,6 +13644,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoMedia",
           "package": "flickr",
@@ -12576,6 +13658,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoO_Dims",
           "package": "flickr",
@@ -12585,6 +13668,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoO_Dims",
           "package": "flickr",
@@ -12598,6 +13682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoOriginalFormat",
           "package": "flickr",
@@ -12607,6 +13692,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoOriginalFormat",
           "package": "flickr",
@@ -12620,6 +13706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoOwnerName",
           "package": "flickr",
@@ -12629,6 +13716,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoOwnerName",
           "package": "flickr",
@@ -12642,6 +13730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoPool",
           "package": "flickr",
@@ -12651,6 +13740,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoPool",
           "package": "flickr",
@@ -12664,6 +13754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeLarge",
           "package": "flickr",
@@ -12673,6 +13764,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeLarge",
           "package": "flickr",
@@ -12686,6 +13778,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeMedium",
           "package": "flickr",
@@ -12695,6 +13788,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeMedium",
           "package": "flickr",
@@ -12708,6 +13802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeOriginal",
           "package": "flickr",
@@ -12717,6 +13812,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeOriginal",
           "package": "flickr",
@@ -12730,6 +13826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeSmall",
           "package": "flickr",
@@ -12739,6 +13836,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeSmall",
           "package": "flickr",
@@ -12752,6 +13850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeSmallSquare",
           "package": "flickr",
@@ -12761,6 +13860,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeSmallSquare",
           "package": "flickr",
@@ -12774,6 +13874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoSizeThumb",
           "package": "flickr",
@@ -12783,6 +13884,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoSizeThumb",
           "package": "flickr",
@@ -12796,6 +13898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoTags",
           "package": "flickr",
@@ -12805,6 +13908,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoTags",
           "package": "flickr",
@@ -12818,6 +13922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotoViews",
           "package": "flickr",
@@ -12827,6 +13932,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotoViews",
           "package": "flickr",
@@ -12840,6 +13946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Photos",
           "package": "flickr",
@@ -12849,6 +13956,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Photos",
           "package": "flickr",
@@ -12862,6 +13970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Photoset",
           "package": "flickr",
@@ -12871,6 +13980,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Photoset",
           "package": "flickr",
@@ -12884,6 +13994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PhotosetQuota",
           "package": "flickr",
@@ -12893,6 +14004,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PhotosetQuota",
           "package": "flickr",
@@ -12906,6 +14018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Place",
           "package": "flickr",
@@ -12915,6 +14028,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Place",
           "package": "flickr",
@@ -12928,6 +14042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceQuery",
           "package": "flickr",
@@ -12937,6 +14052,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceQuery",
           "package": "flickr",
@@ -12950,6 +14066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "PlaceType",
           "package": "flickr",
@@ -12959,6 +14076,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "PlaceType",
           "package": "flickr",
@@ -12972,6 +14090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Point",
           "package": "flickr",
@@ -12981,6 +14100,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Point",
           "package": "flickr",
@@ -12994,6 +14114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Private",
           "package": "flickr",
@@ -13003,6 +14124,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Private",
           "package": "flickr",
@@ -13016,6 +14138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Public",
           "package": "flickr",
@@ -13025,6 +14148,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Public",
           "package": "flickr",
@@ -13038,6 +14162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ResContext",
           "package": "flickr",
@@ -13047,6 +14172,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ResContext",
           "package": "flickr",
@@ -13060,6 +14186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Restricted",
           "package": "flickr",
@@ -13069,6 +14196,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Restricted",
           "package": "flickr",
@@ -13082,6 +14210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Safe",
           "package": "flickr",
@@ -13091,6 +14220,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Safe",
           "package": "flickr",
@@ -13104,6 +14234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Signature",
           "package": "flickr",
@@ -13113,6 +14244,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Signature",
           "package": "flickr",
@@ -13126,6 +14258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Size",
           "package": "flickr",
@@ -13135,6 +14268,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Size",
           "package": "flickr",
@@ -13148,6 +14282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SizeDetails",
           "package": "flickr",
@@ -13157,6 +14292,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SizeDetails",
           "package": "flickr",
@@ -13170,6 +14306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SortKey",
           "package": "flickr",
@@ -13179,6 +14316,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SortKey",
           "package": "flickr",
@@ -13192,6 +14330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SubCat",
           "package": "flickr",
@@ -13201,6 +14340,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SubCat",
           "package": "flickr",
@@ -13214,6 +14354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "SubCategory",
           "package": "flickr",
@@ -13223,6 +14364,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "SubCategory",
           "package": "flickr",
@@ -13236,6 +14378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagDetails",
           "package": "flickr",
@@ -13245,6 +14388,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagDetails",
           "package": "flickr",
@@ -13258,6 +14402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "TagInfo",
           "package": "flickr",
@@ -13267,6 +14412,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "TagInfo",
           "package": "flickr",
@@ -13280,6 +14426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Ticket",
           "package": "flickr",
@@ -13289,6 +14436,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Ticket",
           "package": "flickr",
@@ -13302,6 +14450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "URLDetails",
           "package": "flickr",
@@ -13311,6 +14460,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "URLDetails",
           "package": "flickr",
@@ -13324,6 +14474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "User",
           "package": "flickr",
@@ -13333,6 +14484,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "User",
           "package": "flickr",
@@ -13346,6 +14498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "UserPhotoStat",
           "package": "flickr",
@@ -13355,6 +14508,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "UserPhotoStat",
           "package": "flickr",
@@ -13368,6 +14522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "Videos",
           "package": "flickr",
@@ -13377,6 +14532,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "Videos",
           "package": "flickr",
@@ -13390,6 +14546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "aFrob",
           "package": "flickr",
@@ -13399,6 +14556,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "aFrob",
           "package": "flickr",
@@ -13412,6 +14570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "actContent",
           "package": "flickr",
@@ -13421,6 +14580,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "actContent",
           "package": "flickr",
@@ -13434,6 +14594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "actDate",
           "package": "flickr",
@@ -13443,6 +14604,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "actDate",
           "package": "flickr",
@@ -13456,6 +14618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "actType",
           "package": "flickr",
@@ -13465,6 +14628,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "actType",
           "package": "flickr",
@@ -13478,6 +14642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "actUser",
           "package": "flickr",
@@ -13487,6 +14652,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "actUser",
           "package": "flickr",
@@ -13500,6 +14666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "appAboutURL",
           "package": "flickr",
@@ -13509,6 +14676,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "appAboutURL",
           "package": "flickr",
@@ -13522,6 +14690,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "appDescription",
           "package": "flickr",
@@ -13531,6 +14700,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "appDescription",
           "package": "flickr",
@@ -13544,6 +14714,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "appLogo",
           "package": "flickr",
@@ -13553,6 +14724,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "appLogo",
           "package": "flickr",
@@ -13566,6 +14738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "appTitle",
           "package": "flickr",
@@ -13575,6 +14748,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "appTitle",
           "package": "flickr",
@@ -13588,6 +14762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authFrob",
           "package": "flickr",
@@ -13597,6 +14772,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authFrob",
           "package": "flickr",
@@ -13610,6 +14786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authKey",
           "package": "flickr",
@@ -13619,6 +14796,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authKey",
           "package": "flickr",
@@ -13632,6 +14810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authPermission",
           "package": "flickr",
@@ -13641,6 +14820,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authPermission",
           "package": "flickr",
@@ -13654,6 +14834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authPerms",
           "package": "flickr",
@@ -13663,6 +14844,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authPerms",
           "normalized": "[String]",
@@ -13678,6 +14860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authSig",
           "package": "flickr",
@@ -13687,6 +14870,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authSig",
           "package": "flickr",
@@ -13700,6 +14884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authToken",
           "package": "flickr",
@@ -13709,6 +14894,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authToken",
           "package": "flickr",
@@ -13722,6 +14908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "authUser",
           "package": "flickr",
@@ -13731,6 +14918,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "authUser",
           "package": "flickr",
@@ -13744,6 +14932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthBytes",
           "package": "flickr",
@@ -13753,6 +14942,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthBytes",
           "package": "flickr",
@@ -13766,6 +14956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthKB",
           "package": "flickr",
@@ -13775,6 +14966,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthKB",
           "package": "flickr",
@@ -13788,6 +14980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthRemainingBytes",
           "package": "flickr",
@@ -13797,6 +14990,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthRemainingBytes",
           "package": "flickr",
@@ -13810,6 +15004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthRemainingKB",
           "package": "flickr",
@@ -13819,6 +15014,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthRemainingKB",
           "package": "flickr",
@@ -13832,6 +15028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthUsedBytes",
           "package": "flickr",
@@ -13841,6 +15038,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthUsedBytes",
           "package": "flickr",
@@ -13854,6 +15052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bandWidthUsedKB",
           "package": "flickr",
@@ -13863,6 +15062,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bandWidthUsedKB",
           "package": "flickr",
@@ -13876,6 +15076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bboxMaxLatitude",
           "package": "flickr",
@@ -13885,6 +15086,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bboxMaxLatitude",
           "package": "flickr",
@@ -13898,6 +15100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bboxMaxLongitude",
           "package": "flickr",
@@ -13907,6 +15110,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bboxMaxLongitude",
           "package": "flickr",
@@ -13920,6 +15124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bboxMinLatitude",
           "package": "flickr",
@@ -13929,6 +15134,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bboxMinLatitude",
           "package": "flickr",
@@ -13942,6 +15148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "bboxMinLongitude",
           "package": "flickr",
@@ -13951,6 +15158,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "bboxMinLongitude",
           "package": "flickr",
@@ -13964,6 +15172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "blogId",
           "package": "flickr",
@@ -13973,6 +15182,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "blogId",
           "package": "flickr",
@@ -13986,6 +15196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "blogName",
           "package": "flickr",
@@ -13995,6 +15206,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "blogName",
           "package": "flickr",
@@ -14008,6 +15220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "blogNeedsPW",
           "package": "flickr",
@@ -14017,6 +15230,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "blogNeedsPW",
           "package": "flickr",
@@ -14030,6 +15244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "blogURL",
           "package": "flickr",
@@ -14039,6 +15254,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "blogURL",
           "package": "flickr",
@@ -14052,6 +15268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "catId",
           "package": "flickr",
@@ -14061,6 +15278,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "catId",
           "package": "flickr",
@@ -14074,6 +15292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "catName",
           "package": "flickr",
@@ -14083,6 +15302,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "catName",
           "package": "flickr",
@@ -14096,6 +15316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "catPath",
           "package": "flickr",
@@ -14105,6 +15326,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "catPath",
           "package": "flickr",
@@ -14118,6 +15340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "catPaths",
           "package": "flickr",
@@ -14127,6 +15350,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "catPaths",
           "package": "flickr",
@@ -14140,6 +15364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "catSubs",
           "package": "flickr",
@@ -14149,6 +15374,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "catSubs",
           "normalized": "[GroupCat]",
@@ -14164,6 +15390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "clusterCount",
           "package": "flickr",
@@ -14173,6 +15400,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "clusterCount",
           "package": "flickr",
@@ -14186,6 +15414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "clusterTags",
           "package": "flickr",
@@ -14195,6 +15424,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "clusterTags",
           "normalized": "[Tag]",
@@ -14210,6 +15440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "commentAuthor",
           "package": "flickr",
@@ -14219,6 +15450,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "commentAuthor",
           "package": "flickr",
@@ -14232,6 +15464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "commentDate",
           "package": "flickr",
@@ -14241,6 +15474,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "commentDate",
           "package": "flickr",
@@ -14254,6 +15488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "commentId",
           "package": "flickr",
@@ -14263,6 +15498,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "commentId",
           "package": "flickr",
@@ -14276,6 +15512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "commentText",
           "package": "flickr",
@@ -14285,6 +15522,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "commentText",
           "package": "flickr",
@@ -14298,6 +15536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "commentURL",
           "package": "flickr",
@@ -14307,6 +15546,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "commentURL",
           "package": "flickr",
@@ -14320,6 +15560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conIcon",
           "package": "flickr",
@@ -14329,6 +15570,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conIcon",
           "package": "flickr",
@@ -14342,6 +15584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conId",
           "package": "flickr",
@@ -14351,6 +15594,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conId",
           "package": "flickr",
@@ -14364,6 +15608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conIgnored",
           "package": "flickr",
@@ -14373,6 +15618,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conIgnored",
           "package": "flickr",
@@ -14386,6 +15632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conIsFamily",
           "package": "flickr",
@@ -14395,6 +15642,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conIsFamily",
           "package": "flickr",
@@ -14408,6 +15656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conIsFriend",
           "package": "flickr",
@@ -14417,6 +15666,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conIsFriend",
           "package": "flickr",
@@ -14430,6 +15680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "conUser",
           "package": "flickr",
@@ -14439,6 +15690,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "conUser",
           "package": "flickr",
@@ -14452,6 +15704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "dateMaxTaken",
           "package": "flickr",
@@ -14461,6 +15714,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "dateMaxTaken",
           "package": "flickr",
@@ -14474,6 +15728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "dateMaxUpload",
           "package": "flickr",
@@ -14483,6 +15738,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "dateMaxUpload",
           "package": "flickr",
@@ -14496,6 +15752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "dateMinTaken",
           "package": "flickr",
@@ -14505,6 +15762,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "dateMinTaken",
           "package": "flickr",
@@ -14518,6 +15776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "dateMinUpload",
           "package": "flickr",
@@ -14527,6 +15786,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "dateMinUpload",
           "package": "flickr",
@@ -14540,6 +15800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifClean",
           "package": "flickr",
@@ -14549,6 +15810,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifClean",
           "package": "flickr",
@@ -14562,6 +15824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifLabel",
           "package": "flickr",
@@ -14571,6 +15834,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifLabel",
           "package": "flickr",
@@ -14584,6 +15848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifRaw",
           "package": "flickr",
@@ -14593,6 +15858,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifRaw",
           "package": "flickr",
@@ -14606,6 +15872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifTag",
           "package": "flickr",
@@ -14615,6 +15882,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifTag",
           "package": "flickr",
@@ -14628,6 +15896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifTagId",
           "package": "flickr",
@@ -14637,6 +15906,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifTagId",
           "package": "flickr",
@@ -14650,6 +15920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifTagspace",
           "package": "flickr",
@@ -14659,6 +15930,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifTagspace",
           "package": "flickr",
@@ -14672,6 +15944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "exifTagspaceId",
           "package": "flickr",
@@ -14681,6 +15954,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "exifTagspaceId",
           "package": "flickr",
@@ -14694,6 +15968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "fileSizeBytes",
           "package": "flickr",
@@ -14703,6 +15978,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "fileSizeBytes",
           "package": "flickr",
@@ -14716,6 +15992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "fileSizeKB",
           "package": "flickr",
@@ -14725,6 +16002,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "fileSizeKB",
           "package": "flickr",
@@ -14738,6 +16016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupChatId",
           "package": "flickr",
@@ -14747,6 +16026,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupChatId",
           "package": "flickr",
@@ -14760,6 +16040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupId",
           "package": "flickr",
@@ -14769,6 +16050,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupId",
           "package": "flickr",
@@ -14782,6 +16064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupInChat",
           "package": "flickr",
@@ -14791,6 +16074,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupInChat",
           "package": "flickr",
@@ -14804,6 +16088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupIsOnline",
           "package": "flickr",
@@ -14813,6 +16098,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupIsOnline",
           "package": "flickr",
@@ -14826,6 +16112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupMembers",
           "package": "flickr",
@@ -14835,6 +16122,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupMembers",
           "package": "flickr",
@@ -14848,6 +16136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "groupName",
           "package": "flickr",
@@ -14857,6 +16146,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "groupName",
           "package": "flickr",
@@ -14870,6 +16160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itActivity",
           "package": "flickr",
@@ -14879,6 +16170,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itActivity",
           "normalized": "Maybe[Activity]",
@@ -14894,6 +16186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itComments",
           "package": "flickr",
@@ -14903,6 +16196,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itComments",
           "package": "flickr",
@@ -14916,6 +16210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itId",
           "package": "flickr",
@@ -14925,6 +16220,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itId",
           "package": "flickr",
@@ -14938,6 +16234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itMore",
           "package": "flickr",
@@ -14947,6 +16244,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itMore",
           "package": "flickr",
@@ -14960,6 +16258,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itOwner",
           "package": "flickr",
@@ -14969,6 +16268,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itOwner",
           "package": "flickr",
@@ -14982,6 +16282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itPhotos",
           "package": "flickr",
@@ -14991,6 +16292,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itPhotos",
           "package": "flickr",
@@ -15004,6 +16306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itPrimary",
           "package": "flickr",
@@ -15013,6 +16316,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itPrimary",
           "package": "flickr",
@@ -15026,6 +16330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itSecret",
           "package": "flickr",
@@ -15035,6 +16340,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itSecret",
           "package": "flickr",
@@ -15048,6 +16354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itServer",
           "package": "flickr",
@@ -15057,6 +16364,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itServer",
           "package": "flickr",
@@ -15070,6 +16378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itTitle",
           "package": "flickr",
@@ -15079,6 +16388,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itTitle",
           "package": "flickr",
@@ -15092,6 +16402,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itType",
           "package": "flickr",
@@ -15101,6 +16412,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itType",
           "package": "flickr",
@@ -15114,6 +16426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "itViews",
           "package": "flickr",
@@ -15123,6 +16436,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "itViews",
           "package": "flickr",
@@ -15136,6 +16450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "licenseId",
           "package": "flickr",
@@ -15145,6 +16460,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "licenseId",
           "package": "flickr",
@@ -15158,6 +16474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "licenseLink",
           "package": "flickr",
@@ -15167,6 +16484,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "licenseLink",
           "package": "flickr",
@@ -15180,6 +16498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "licenseName",
           "package": "flickr",
@@ -15189,6 +16508,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "licenseName",
           "package": "flickr",
@@ -15202,6 +16522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceDesc",
           "package": "flickr",
@@ -15211,6 +16532,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceDesc",
           "package": "flickr",
@@ -15224,6 +16546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceDetails",
           "package": "flickr",
@@ -15233,6 +16556,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceDetails",
           "normalized": "[LocationPlace]",
@@ -15248,6 +16572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceId",
           "package": "flickr",
@@ -15257,6 +16582,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceId",
           "package": "flickr",
@@ -15270,6 +16596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceLat",
           "package": "flickr",
@@ -15279,6 +16606,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceLat",
           "package": "flickr",
@@ -15292,6 +16620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceLong",
           "package": "flickr",
@@ -15301,6 +16630,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceLong",
           "package": "flickr",
@@ -15314,6 +16644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceType",
           "package": "flickr",
@@ -15323,6 +16654,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceType",
           "package": "flickr",
@@ -15336,6 +16668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceURL",
           "package": "flickr",
@@ -15345,6 +16678,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceURL",
           "package": "flickr",
@@ -15358,6 +16692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "locationPlaceWOEId",
           "package": "flickr",
@@ -15367,6 +16702,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "locationPlaceWOEId",
           "package": "flickr",
@@ -15380,6 +16716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mTagNamespace",
           "package": "flickr",
@@ -15389,6 +16726,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mTagNamespace",
           "package": "flickr",
@@ -15402,6 +16740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mTagPredicate",
           "package": "flickr",
@@ -15411,6 +16750,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mTagPredicate",
           "package": "flickr",
@@ -15424,6 +16764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mTagUsage",
           "package": "flickr",
@@ -15433,6 +16774,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mTagUsage",
           "package": "flickr",
@@ -15446,6 +16788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mTagValue",
           "package": "flickr",
@@ -15455,6 +16798,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mTagValue",
           "package": "flickr",
@@ -15468,6 +16812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPairName",
           "package": "flickr",
@@ -15477,6 +16822,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPairName",
           "package": "flickr",
@@ -15490,6 +16836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPairNamespace",
           "package": "flickr",
@@ -15499,6 +16846,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPairNamespace",
           "package": "flickr",
@@ -15512,6 +16860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPairPredicate",
           "package": "flickr",
@@ -15521,6 +16870,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPairPredicate",
           "package": "flickr",
@@ -15534,6 +16884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPairUsage",
           "package": "flickr",
@@ -15543,6 +16894,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPairUsage",
           "package": "flickr",
@@ -15556,6 +16908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPredName",
           "package": "flickr",
@@ -15565,6 +16918,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPredName",
           "package": "flickr",
@@ -15578,6 +16932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPredNamespaces",
           "package": "flickr",
@@ -15587,6 +16942,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPredNamespaces",
           "package": "flickr",
@@ -15600,6 +16956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "mtPredUsage",
           "package": "flickr",
@@ -15609,6 +16966,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "mtPredUsage",
           "package": "flickr",
@@ -15622,6 +16980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "namespaceName",
           "package": "flickr",
@@ -15631,6 +16990,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "namespaceName",
           "package": "flickr",
@@ -15644,6 +17004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "namespacePreds",
           "package": "flickr",
@@ -15653,6 +17014,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "namespacePreds",
           "package": "flickr",
@@ -15666,6 +17028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "namespaceUsage",
           "package": "flickr",
@@ -15675,6 +17038,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "namespaceUsage",
           "package": "flickr",
@@ -15688,6 +17052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "noteAuthor",
           "package": "flickr",
@@ -15697,6 +17062,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "noteAuthor",
           "package": "flickr",
@@ -15710,6 +17076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "noteAuthorName",
           "package": "flickr",
@@ -15719,6 +17086,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "noteAuthorName",
           "package": "flickr",
@@ -15732,6 +17100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "noteId",
           "package": "flickr",
@@ -15741,6 +17110,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "noteId",
           "package": "flickr",
@@ -15754,6 +17124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "notePoint",
           "package": "flickr",
@@ -15763,6 +17134,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "notePoint",
           "package": "flickr",
@@ -15776,6 +17148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "noteSize",
           "package": "flickr",
@@ -15785,6 +17158,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "noteSize",
           "package": "flickr",
@@ -15798,6 +17172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "noteText",
           "package": "flickr",
@@ -15807,6 +17182,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "noteText",
           "package": "flickr",
@@ -15820,6 +17196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "nullDateDetails",
           "package": "flickr",
@@ -15829,6 +17206,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "nullDateDetails",
           "package": "flickr",
@@ -15842,6 +17220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "nullTagInfo",
           "package": "flickr",
@@ -15851,6 +17230,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "nullTagInfo",
           "package": "flickr",
@@ -15864,6 +17244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "nullUser",
           "package": "flickr",
@@ -15873,6 +17254,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "nullUser",
           "package": "flickr",
@@ -15886,6 +17268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permAddMetaLevel",
           "package": "flickr",
@@ -15895,6 +17278,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permAddMetaLevel",
           "package": "flickr",
@@ -15908,6 +17292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permCommentLevel",
           "package": "flickr",
@@ -15917,6 +17302,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permCommentLevel",
           "package": "flickr",
@@ -15930,6 +17316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permId",
           "package": "flickr",
@@ -15939,6 +17326,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permId",
           "package": "flickr",
@@ -15952,6 +17340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permIsFamily",
           "package": "flickr",
@@ -15961,6 +17350,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permIsFamily",
           "package": "flickr",
@@ -15974,6 +17364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permIsFriend",
           "package": "flickr",
@@ -15983,6 +17374,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permIsFriend",
           "package": "flickr",
@@ -15996,6 +17388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "permIsPublic",
           "package": "flickr",
@@ -16005,6 +17398,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "permIsPublic",
           "package": "flickr",
@@ -16018,6 +17412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCount",
           "package": "flickr",
@@ -16027,6 +17422,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCount",
           "package": "flickr",
@@ -16040,6 +17436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCountFrom",
           "package": "flickr",
@@ -16049,6 +17446,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCountFrom",
           "package": "flickr",
@@ -16062,6 +17460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCountTo",
           "package": "flickr",
@@ -16071,6 +17470,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCountTo",
           "package": "flickr",
@@ -16084,6 +17484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCtxtPage",
           "package": "flickr",
@@ -16093,6 +17494,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCtxtPage",
           "package": "flickr",
@@ -16106,6 +17508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCtxtPages",
           "package": "flickr",
@@ -16115,6 +17518,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCtxtPages",
           "package": "flickr",
@@ -16128,6 +17532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCtxtPerPage",
           "package": "flickr",
@@ -16137,6 +17542,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCtxtPerPage",
           "package": "flickr",
@@ -16150,6 +17556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoCtxtTotal",
           "package": "flickr",
@@ -16159,6 +17566,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoCtxtTotal",
           "package": "flickr",
@@ -16172,6 +17580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDateGranularity",
           "package": "flickr",
@@ -16181,6 +17590,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDateGranularity",
           "package": "flickr",
@@ -16194,6 +17604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDateLastUpdate",
           "package": "flickr",
@@ -16203,6 +17614,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDateLastUpdate",
           "package": "flickr",
@@ -16216,6 +17628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDatePosted",
           "package": "flickr",
@@ -16225,6 +17638,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDatePosted",
           "package": "flickr",
@@ -16238,6 +17652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDateTaken",
           "package": "flickr",
@@ -16247,6 +17662,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDateTaken",
           "package": "flickr",
@@ -16260,6 +17676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsComments",
           "package": "flickr",
@@ -16269,6 +17686,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsComments",
           "package": "flickr",
@@ -16282,6 +17700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsDates",
           "package": "flickr",
@@ -16291,6 +17710,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsDates",
           "package": "flickr",
@@ -16304,6 +17724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsDesc",
           "package": "flickr",
@@ -16313,6 +17734,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsDesc",
           "package": "flickr",
@@ -16326,6 +17748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsEdits",
           "package": "flickr",
@@ -16335,6 +17758,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsEdits",
           "normalized": "Maybe(Bool,Bool)",
@@ -16350,6 +17774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFamily",
           "package": "flickr",
@@ -16359,6 +17784,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFamily",
           "package": "flickr",
@@ -16372,6 +17798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFavorite",
           "package": "flickr",
@@ -16381,6 +17808,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFavorite",
           "package": "flickr",
@@ -16394,6 +17822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFriend",
           "package": "flickr",
@@ -16403,6 +17832,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsIsFriend",
           "package": "flickr",
@@ -16416,6 +17846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsIsPublic",
           "package": "flickr",
@@ -16425,6 +17856,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsIsPublic",
           "package": "flickr",
@@ -16438,6 +17870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsLicense",
           "package": "flickr",
@@ -16447,6 +17880,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsLicense",
           "package": "flickr",
@@ -16460,6 +17894,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsNotes",
           "package": "flickr",
@@ -16469,6 +17904,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsNotes",
           "normalized": "[Note]",
@@ -16484,6 +17920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsOrigFormat",
           "package": "flickr",
@@ -16493,6 +17930,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsOrigFormat",
           "package": "flickr",
@@ -16506,6 +17944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsOrigSecret",
           "package": "flickr",
@@ -16515,6 +17954,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsOrigSecret",
           "package": "flickr",
@@ -16528,6 +17968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsPerms",
           "package": "flickr",
@@ -16537,6 +17978,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsPerms",
           "normalized": "Maybe(Int,Int)",
@@ -16552,6 +17994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsPhoto",
           "package": "flickr",
@@ -16561,6 +18004,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsPhoto",
           "package": "flickr",
@@ -16574,6 +18018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsRotation",
           "package": "flickr",
@@ -16583,6 +18028,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsRotation",
           "package": "flickr",
@@ -16596,6 +18042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsTags",
           "package": "flickr",
@@ -16605,6 +18052,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsTags",
           "normalized": "[TagDetails]",
@@ -16620,6 +18068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsTitle",
           "package": "flickr",
@@ -16629,6 +18078,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsTitle",
           "package": "flickr",
@@ -16642,6 +18092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoDetailsURLs",
           "package": "flickr",
@@ -16651,6 +18102,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoDetailsURLs",
           "normalized": "[URLDetails]",
@@ -16666,6 +18118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoFamily",
           "package": "flickr",
@@ -16675,6 +18128,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoFamily",
           "package": "flickr",
@@ -16688,6 +18142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoFarm",
           "package": "flickr",
@@ -16697,6 +18152,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoFarm",
           "package": "flickr",
@@ -16710,6 +18166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoFriend",
           "package": "flickr",
@@ -16719,6 +18176,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoFriend",
           "package": "flickr",
@@ -16732,6 +18190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoId",
           "package": "flickr",
@@ -16741,6 +18200,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoId",
           "package": "flickr",
@@ -16754,6 +18214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoLicense",
           "package": "flickr",
@@ -16763,6 +18224,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoLicense",
           "package": "flickr",
@@ -16776,6 +18238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoOwner",
           "package": "flickr",
@@ -16785,6 +18248,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoOwner",
           "package": "flickr",
@@ -16798,6 +18262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoPoolId",
           "package": "flickr",
@@ -16807,6 +18272,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoPoolId",
           "package": "flickr",
@@ -16820,6 +18286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoPoolTitle",
           "package": "flickr",
@@ -16829,6 +18296,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoPoolTitle",
           "package": "flickr",
@@ -16842,6 +18310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoPublic",
           "package": "flickr",
@@ -16851,6 +18320,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoPublic",
           "package": "flickr",
@@ -16864,6 +18334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoSecret",
           "package": "flickr",
@@ -16873,6 +18344,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoSecret",
           "package": "flickr",
@@ -16886,6 +18358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoServer",
           "package": "flickr",
@@ -16895,6 +18368,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoServer",
           "package": "flickr",
@@ -16908,6 +18382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoTitle",
           "package": "flickr",
@@ -16917,6 +18392,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoTitle",
           "package": "flickr",
@@ -16930,6 +18406,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photoURL",
           "package": "flickr",
@@ -16939,6 +18416,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photoURL",
           "package": "flickr",
@@ -16952,6 +18430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetCreated",
           "package": "flickr",
@@ -16961,6 +18440,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetCreated",
           "package": "flickr",
@@ -16974,6 +18454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetDescription",
           "package": "flickr",
@@ -16983,6 +18464,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetDescription",
           "package": "flickr",
@@ -16996,6 +18478,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetId",
           "package": "flickr",
@@ -17005,6 +18488,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetId",
           "package": "flickr",
@@ -17018,6 +18502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetOwner",
           "package": "flickr",
@@ -17027,6 +18512,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetOwner",
           "package": "flickr",
@@ -17040,6 +18526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetPhotos",
           "package": "flickr",
@@ -17049,6 +18536,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetPhotos",
           "package": "flickr",
@@ -17062,6 +18550,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetPrimaryPhoto",
           "package": "flickr",
@@ -17071,6 +18560,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetPrimaryPhoto",
           "package": "flickr",
@@ -17084,6 +18574,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetRemaining",
           "package": "flickr",
@@ -17093,6 +18584,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetRemaining",
           "package": "flickr",
@@ -17106,6 +18598,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "photosetTitle",
           "package": "flickr",
@@ -17115,6 +18608,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "photosetTitle",
           "package": "flickr",
@@ -17128,6 +18622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeDesc",
           "package": "flickr",
@@ -17137,6 +18632,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeDesc",
           "package": "flickr",
@@ -17150,6 +18646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeId",
           "package": "flickr",
@@ -17159,6 +18656,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeId",
           "package": "flickr",
@@ -17172,6 +18670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeLat",
           "package": "flickr",
@@ -17181,6 +18680,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeLat",
           "package": "flickr",
@@ -17194,6 +18694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeLong",
           "package": "flickr",
@@ -17203,6 +18704,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeLong",
           "package": "flickr",
@@ -17216,6 +18718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeQuery",
           "package": "flickr",
@@ -17225,6 +18728,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeQuery",
           "package": "flickr",
@@ -17238,6 +18742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeQueryAccuracy",
           "package": "flickr",
@@ -17247,6 +18752,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeQueryAccuracy",
           "package": "flickr",
@@ -17260,6 +18766,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeQueryLatitude",
           "package": "flickr",
@@ -17269,6 +18776,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeQueryLatitude",
           "package": "flickr",
@@ -17282,6 +18790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeQueryLongitude",
           "package": "flickr",
@@ -17291,6 +18800,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeQueryLongitude",
           "package": "flickr",
@@ -17304,6 +18814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeTotal",
           "package": "flickr",
@@ -17313,6 +18824,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeTotal",
           "package": "flickr",
@@ -17326,6 +18838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeType",
           "package": "flickr",
@@ -17335,6 +18848,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeType",
           "package": "flickr",
@@ -17348,6 +18862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeTypeId",
           "package": "flickr",
@@ -17357,6 +18872,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeTypeId",
           "package": "flickr",
@@ -17370,6 +18886,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeTypeName",
           "package": "flickr",
@@ -17379,6 +18896,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeTypeName",
           "package": "flickr",
@@ -17392,6 +18910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeURL",
           "package": "flickr",
@@ -17401,6 +18920,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeURL",
           "package": "flickr",
@@ -17414,6 +18934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "placeWOEId",
           "package": "flickr",
@@ -17423,6 +18944,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "placeWOEId",
           "package": "flickr",
@@ -17436,6 +18958,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "pointX",
           "package": "flickr",
@@ -17445,6 +18968,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "pointX",
           "package": "flickr",
@@ -17457,6 +18981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "pointY",
           "package": "flickr",
@@ -17466,6 +18991,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "pointY",
           "package": "flickr",
@@ -17478,6 +19004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "resCtxtPage",
           "package": "flickr",
@@ -17487,6 +19014,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "resCtxtPage",
           "package": "flickr",
@@ -17500,6 +19028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "resCtxtPages",
           "package": "flickr",
@@ -17509,6 +19038,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "resCtxtPages",
           "package": "flickr",
@@ -17522,6 +19052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "resCtxtPerPage",
           "package": "flickr",
@@ -17531,6 +19062,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "resCtxtPerPage",
           "package": "flickr",
@@ -17544,6 +19076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "resCtxtTotal",
           "package": "flickr",
@@ -17553,6 +19086,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "resCtxtTotal",
           "package": "flickr",
@@ -17566,6 +19100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "showContentType",
           "package": "flickr",
@@ -17575,6 +19110,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "showContentType",
           "normalized": "ContentType-\u003eString",
@@ -17590,6 +19126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "showSafety",
           "package": "flickr",
@@ -17599,6 +19136,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "showSafety",
           "normalized": "Safety-\u003eString",
@@ -17614,6 +19152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sigComputed",
           "package": "flickr",
@@ -17623,6 +19162,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sigComputed",
           "package": "flickr",
@@ -17636,6 +19176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeDetailsHeight",
           "package": "flickr",
@@ -17645,6 +19186,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeDetailsHeight",
           "package": "flickr",
@@ -17658,6 +19200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeDetailsLabel",
           "package": "flickr",
@@ -17667,6 +19210,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeDetailsLabel",
           "package": "flickr",
@@ -17680,6 +19224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeDetailsSource",
           "package": "flickr",
@@ -17689,6 +19234,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeDetailsSource",
           "package": "flickr",
@@ -17702,6 +19248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeDetailsURL",
           "package": "flickr",
@@ -17711,6 +19258,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeDetailsURL",
           "package": "flickr",
@@ -17724,6 +19272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeDetailsWidth",
           "package": "flickr",
@@ -17733,6 +19282,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeDetailsWidth",
           "package": "flickr",
@@ -17746,6 +19296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeH",
           "package": "flickr",
@@ -17755,6 +19306,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeH",
           "package": "flickr",
@@ -17767,6 +19319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sizeW",
           "package": "flickr",
@@ -17776,6 +19329,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sizeW",
           "package": "flickr",
@@ -17788,6 +19342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sortDir",
           "package": "flickr",
@@ -17797,6 +19352,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sortDir",
           "package": "flickr",
@@ -17810,6 +19366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "sortKind",
           "package": "flickr",
@@ -17819,6 +19376,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "sortKind",
           "package": "flickr",
@@ -17832,6 +19390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "subCatId",
           "package": "flickr",
@@ -17841,6 +19400,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "subCatId",
           "package": "flickr",
@@ -17854,6 +19414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "subCount",
           "package": "flickr",
@@ -17863,6 +19424,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "subCount",
           "package": "flickr",
@@ -17876,6 +19438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "subName",
           "package": "flickr",
@@ -17885,6 +19448,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "subName",
           "package": "flickr",
@@ -17898,6 +19462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagCount",
           "package": "flickr",
@@ -17907,6 +19472,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagCount",
           "package": "flickr",
@@ -17920,6 +19486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsAuthor",
           "package": "flickr",
@@ -17929,6 +19496,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsAuthor",
           "package": "flickr",
@@ -17942,6 +19510,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsCount",
           "package": "flickr",
@@ -17951,6 +19520,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsCount",
           "package": "flickr",
@@ -17964,6 +19534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsId",
           "package": "flickr",
@@ -17973,6 +19544,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsId",
           "package": "flickr",
@@ -17986,6 +19558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsName",
           "package": "flickr",
@@ -17995,6 +19568,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsName",
           "package": "flickr",
@@ -18008,6 +19582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsRaw",
           "package": "flickr",
@@ -18017,6 +19592,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsRaw",
           "normalized": "[String]",
@@ -18032,6 +19608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagDetailsScore",
           "package": "flickr",
@@ -18041,6 +19618,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagDetailsScore",
           "package": "flickr",
@@ -18054,6 +19632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "tagName",
           "package": "flickr",
@@ -18063,6 +19642,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "tagName",
           "package": "flickr",
@@ -18076,6 +19656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ticketComplete",
           "package": "flickr",
@@ -18085,6 +19666,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ticketComplete",
           "package": "flickr",
@@ -18098,6 +19680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ticketId",
           "package": "flickr",
@@ -18107,6 +19690,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ticketId",
           "package": "flickr",
@@ -18120,6 +19704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ticketInvalid",
           "package": "flickr",
@@ -18129,6 +19714,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ticketInvalid",
           "package": "flickr",
@@ -18142,6 +19728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "ticketPhoto",
           "package": "flickr",
@@ -18151,6 +19738,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "ticketPhoto",
           "package": "flickr",
@@ -18164,6 +19752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "urlDetailsType",
           "package": "flickr",
@@ -18173,6 +19762,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "urlDetailsType",
           "package": "flickr",
@@ -18186,6 +19776,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "urlDetailsURL",
           "package": "flickr",
@@ -18195,6 +19786,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "urlDetailsURL",
           "package": "flickr",
@@ -18208,6 +19800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userAttrs",
           "package": "flickr",
@@ -18217,6 +19810,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userAttrs",
           "normalized": "[Attr]",
@@ -18232,6 +19826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userFullName",
           "package": "flickr",
@@ -18241,6 +19836,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userFullName",
           "package": "flickr",
@@ -18254,6 +19850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userId",
           "package": "flickr",
@@ -18263,6 +19860,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userId",
           "package": "flickr",
@@ -18276,6 +19874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userIsAdmin",
           "package": "flickr",
@@ -18285,6 +19884,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userIsAdmin",
           "package": "flickr",
@@ -18298,6 +19898,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userIsPro",
           "package": "flickr",
@@ -18307,6 +19908,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userIsPro",
           "package": "flickr",
@@ -18320,6 +19922,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userLocation",
           "package": "flickr",
@@ -18329,6 +19932,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userLocation",
           "package": "flickr",
@@ -18342,6 +19946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userName",
           "package": "flickr",
@@ -18351,6 +19956,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userName",
           "package": "flickr",
@@ -18364,6 +19970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userPhotoCount",
           "package": "flickr",
@@ -18373,6 +19980,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userPhotoCount",
           "package": "flickr",
@@ -18386,6 +19994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userPhotoFirst",
           "package": "flickr",
@@ -18395,6 +20004,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userPhotoFirst",
           "package": "flickr",
@@ -18408,6 +20018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userPhotoStat",
           "package": "flickr",
@@ -18417,6 +20028,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userPhotoStat",
           "package": "flickr",
@@ -18430,6 +20042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userPhotosURL",
           "package": "flickr",
@@ -18439,6 +20052,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userPhotosURL",
           "package": "flickr",
@@ -18452,6 +20066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Types",
           "name": "userProfileURL",
           "package": "flickr",
@@ -18461,6 +20076,7 @@
         },
         "index": {
           "hierarchy": "Flickr Types",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Types",
           "name": "userProfileURL",
           "package": "flickr",
@@ -18475,6 +20091,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe 'flickr.urls' API + convenience functions for creating\n URL strings to various Flickr std-format URLs.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "URLs",
           "package": "flickr",
@@ -18484,6 +20101,7 @@
         "index": {
           "description": "The flickr.urls API convenience functions for creating URL strings to various Flickr std-format URLs",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "URLs",
           "package": "flickr",
@@ -18498,6 +20116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the url to a group's page.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "getGroup",
           "package": "flickr",
@@ -18508,6 +20127,7 @@
         "index": {
           "description": "Returns the url to group page",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "getGroup",
           "normalized": "GroupID-\u003eFM URLString",
@@ -18524,6 +20144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the url to a user's photos.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "getUserPhotos",
           "package": "flickr",
@@ -18534,6 +20155,7 @@
         "index": {
           "description": "Returns the url to user photos",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "getUserPhotos",
           "normalized": "Maybe UserID-\u003eFM URLString",
@@ -18550,6 +20172,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns the url to a user's profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "getUserProfile",
           "package": "flickr",
@@ -18560,6 +20183,7 @@
         "index": {
           "description": "Returns the url to user profile",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "getUserProfile",
           "normalized": "Maybe UserID-\u003eFM URLString",
@@ -18576,6 +20200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a group NSID, given the url to a group's page or photo pool.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "lookupGroup",
           "package": "flickr",
@@ -18586,6 +20211,7 @@
         "index": {
           "description": "Returns group NSID given the url to group page or photo pool",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "lookupGroup",
           "normalized": "URLString-\u003eFM Group",
@@ -18602,6 +20228,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a user NSID, given the url to a user's photos or profile.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "lookupUser",
           "package": "flickr",
@@ -18612,6 +20239,7 @@
         "index": {
           "description": "Returns user NSID given the url to user photos or profile",
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "lookupUser",
           "normalized": "URLString-\u003eFM User",
@@ -18627,6 +20255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "photoSourceURL",
           "package": "flickr",
@@ -18636,6 +20265,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "photoSourceURL",
           "normalized": "PhotoDetails-\u003ePhotoSize-\u003eURLString",
@@ -18651,6 +20281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "userPhotoStreamURL",
           "package": "flickr",
@@ -18660,6 +20291,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "userPhotoStreamURL",
           "normalized": "User-\u003eURLString",
@@ -18675,6 +20307,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "userPhotoURL",
           "package": "flickr",
@@ -18684,6 +20317,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "userPhotoURL",
           "normalized": "User-\u003ePhotoID-\u003eURLString",
@@ -18699,6 +20333,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "userPhotosetURL",
           "package": "flickr",
@@ -18708,6 +20343,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "userPhotosetURL",
           "normalized": "User-\u003ePhotosetID-\u003eURLString",
@@ -18723,6 +20359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "userPhotosetsURL",
           "package": "flickr",
@@ -18732,6 +20369,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "userPhotosetsURL",
           "normalized": "User-\u003eURLString",
@@ -18747,6 +20385,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.URLs",
           "name": "userProfilePageURL",
           "package": "flickr",
@@ -18756,6 +20395,7 @@
         },
         "index": {
           "hierarchy": "Flickr URLs",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.URLs",
           "name": "userProfilePageURL",
           "normalized": "User-\u003eURLString",
@@ -18772,6 +20412,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAssorted functions for unravelling Flickr responses.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "Utils",
           "package": "flickr",
@@ -18781,6 +20422,7 @@
         "index": {
           "description": "Assorted functions for unravelling Flickr responses",
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "Utils",
           "package": "flickr",
@@ -18794,6 +20436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "child",
           "package": "flickr",
@@ -18803,6 +20446,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "child",
           "normalized": "Element-\u003eElement",
@@ -18817,6 +20461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "children",
           "package": "flickr",
@@ -18826,6 +20471,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "children",
           "normalized": "Element-\u003e[Element]",
@@ -18841,6 +20487,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003efromMaybe\u003c/a\u003e\u003c/code\u003e function takes a default value and and \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e\n value.  If the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e, it returns the default values;\n otherwise, it returns the value contained in the \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "fromMaybe",
           "package": "flickr",
@@ -18850,6 +20497,7 @@
         "index": {
           "description": "The fromMaybe function takes default value and and Maybe value If the Maybe is Nothing it returns the default values otherwise it returns the value contained in the Maybe",
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "fromMaybe",
           "normalized": "a-\u003eMaybe a-\u003ea",
@@ -18865,6 +20513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "ifNamed",
           "package": "flickr",
@@ -18874,6 +20523,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "ifNamed",
           "normalized": "String-\u003eElement-\u003eMaybe a-\u003eMaybe a",
@@ -18889,6 +20539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "intContent",
           "package": "flickr",
@@ -18898,6 +20549,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "intContent",
           "normalized": "Element-\u003eMaybe Int",
@@ -18913,6 +20565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "mbDef",
           "package": "flickr",
@@ -18922,6 +20575,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "mbDef",
           "normalized": "a-\u003eMaybe a-\u003eMaybe a",
@@ -18937,6 +20591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "mbOpt",
           "package": "flickr",
@@ -18946,6 +20601,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "mbOpt",
           "normalized": "String-\u003e(a-\u003eString)-\u003eMaybe a-\u003eMaybe(String,String)",
@@ -18961,6 +20617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "nsName",
           "package": "flickr",
@@ -18970,6 +20627,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "nsName",
           "normalized": "String-\u003eQName",
@@ -18985,6 +20643,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "opt",
           "package": "flickr",
@@ -18994,6 +20653,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "opt",
           "normalized": "String-\u003eString-\u003eMaybe(String,String)",
@@ -19008,6 +20668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "opt1",
           "package": "flickr",
@@ -19017,6 +20678,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "opt1",
           "normalized": "String-\u003e[String]-\u003eMaybe(String,String)",
@@ -19031,6 +20693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "optB",
           "package": "flickr",
@@ -19040,6 +20703,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "optB",
           "normalized": "String-\u003eBool-\u003eMaybe(String,String)",
@@ -19054,6 +20718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "pAttr",
           "package": "flickr",
@@ -19063,6 +20728,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "pAttr",
           "normalized": "String-\u003eElement-\u003eMaybe String",
@@ -19078,6 +20744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "pLeaf",
           "package": "flickr",
@@ -19087,6 +20754,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "pLeaf",
           "normalized": "String-\u003e[Element]-\u003eMaybe String",
@@ -19102,6 +20770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "pMany",
           "package": "flickr",
@@ -19111,6 +20780,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "pMany",
           "normalized": "String-\u003e(Element-\u003eMaybe a)-\u003e[Element]-\u003e[a]",
@@ -19126,6 +20796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "pNode",
           "package": "flickr",
@@ -19135,6 +20806,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "pNode",
           "normalized": "String-\u003e[Element]-\u003eMaybe Element",
@@ -19150,6 +20822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "pNodes",
           "package": "flickr",
@@ -19159,6 +20832,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "pNodes",
           "normalized": "String-\u003e[Element]-\u003e[Element]",
@@ -19174,6 +20848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "piped",
           "package": "flickr",
@@ -19183,6 +20858,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "piped",
           "normalized": "[String]-\u003eString",
@@ -19197,6 +20873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "readMb",
           "package": "flickr",
@@ -19206,6 +20883,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "readMb",
           "normalized": "String-\u003eMaybe a",
@@ -19221,6 +20899,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "showBool",
           "package": "flickr",
@@ -19230,6 +20909,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "showBool",
           "normalized": "Bool-\u003eString",
@@ -19245,6 +20925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Flickr.Utils",
           "name": "without",
           "package": "flickr",
@@ -19254,6 +20935,7 @@
         },
         "index": {
           "hierarchy": "Flickr Utils",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Flickr.Utils",
           "name": "without",
           "normalized": "[String]-\u003e[Attr]-\u003e[Attr]",
@@ -19268,6 +20950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Authenticate",
           "name": "Authenticate",
           "package": "flickr",
@@ -19276,6 +20959,7 @@
         },
         "index": {
           "hierarchy": "Util Authenticate",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Authenticate",
           "name": "Authenticate",
           "package": "flickr",
@@ -19290,6 +20974,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAuthenticate the 'mobile application' way; emit\n an authentication URL for the mobile application\n along with an action that takes a authentication\n 'mini-token' to resolve into a full token. The mini-token\n is either something the application stores (as a secret),\n or for the first time around, by having the user write\n down the mini-token 9-digit (format is xxx-yyy-zzz) string\n and input that to the application through its UI.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Authenticate",
           "name": "authenticateForMobile",
           "package": "flickr",
@@ -19300,6 +20985,7 @@
         "index": {
           "description": "Authenticate the mobile application way emit an authentication URL for the mobile application along with an action that takes authentication mini-token to resolve into full token The mini-token is either something the application stores as secret or for the first time around by having the user write down the mini-token digit format is xxx-yyy-zzz string and input that to the application through its UI",
           "hierarchy": "Util Authenticate",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Authenticate",
           "name": "authenticateForMobile",
           "normalized": "String-\u003eFM(Maybe(URLString,String-\u003eFM AuthToken))",
@@ -19316,6 +21002,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eauthenticate the 'web application' way; obtain\n a so-called frob, generate a URL for the user to\n authorize access via. Once the user has done so,\n resolve the full token by performing action.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Authenticate",
           "name": "authenticateForWeb",
           "package": "flickr",
@@ -19326,6 +21013,7 @@
         "index": {
           "description": "authenticate the web application way obtain so-called frob generate URL for the user to authorize access via Once the user has done so resolve the full token by performing action",
           "hierarchy": "Util Authenticate",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Authenticate",
           "name": "authenticateForWeb",
           "normalized": "String-\u003eFM(Maybe(URLString,FM AuthToken))",
@@ -19342,6 +21030,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eSimple GET/de-ref of URLs; abstracting out networking backend/package.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "Fetch",
           "package": "flickr",
@@ -19351,6 +21040,7 @@
         "index": {
           "description": "Simple GET de-ref of URLs abstracting out networking backend package",
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "Fetch",
           "package": "flickr",
@@ -19364,6 +21054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "URLString",
           "package": "flickr",
@@ -19372,6 +21063,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "URLString",
           "package": "flickr",
@@ -19385,6 +21077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "User",
           "package": "flickr",
@@ -19393,6 +21086,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "User",
           "package": "flickr",
@@ -19406,6 +21100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "User",
           "package": "flickr",
@@ -19415,6 +21110,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "User",
           "package": "flickr",
@@ -19428,6 +21124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "postContentsURL",
           "package": "flickr",
@@ -19437,6 +21134,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "postContentsURL",
           "normalized": "URLString-\u003e[(String,String)]-\u003eString-\u003eIO String",
@@ -19452,6 +21150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "readContentsURL",
           "package": "flickr",
@@ -19461,6 +21160,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "readContentsURL",
           "normalized": "URLString-\u003eIO String",
@@ -19476,6 +21176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "readUserContentsURL",
           "package": "flickr",
@@ -19485,6 +21186,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "readUserContentsURL",
           "normalized": "User-\u003eURLString-\u003eIO String",
@@ -19500,6 +21202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "userName",
           "package": "flickr",
@@ -19509,6 +21212,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "userName",
           "package": "flickr",
@@ -19522,6 +21226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Fetch",
           "name": "userPass",
           "package": "flickr",
@@ -19531,6 +21236,7 @@
         },
         "index": {
           "hierarchy": "Util Fetch",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Fetch",
           "name": "userPass",
           "package": "flickr",
@@ -19545,6 +21251,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003ehs-flickr keys and secrets; use and authorize with care..\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "Keys",
           "package": "flickr",
@@ -19554,6 +21261,7 @@
         "index": {
           "description": "hs-flickr keys and secrets use and authorize with care",
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "Keys",
           "package": "flickr",
@@ -19567,6 +21275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "APIKey",
           "package": "flickr",
@@ -19575,6 +21284,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "APIKey",
           "package": "flickr",
@@ -19588,6 +21298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "APIKey",
           "package": "flickr",
@@ -19597,6 +21308,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "APIKey",
           "package": "flickr",
@@ -19610,6 +21322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "apiAuthURL",
           "package": "flickr",
@@ -19619,6 +21332,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "apiAuthURL",
           "package": "flickr",
@@ -19632,6 +21346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "apiKey",
           "package": "flickr",
@@ -19641,6 +21356,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "apiKey",
           "package": "flickr",
@@ -19654,6 +21370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "apiKind",
           "package": "flickr",
@@ -19663,6 +21380,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "apiKind",
           "package": "flickr",
@@ -19676,6 +21394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "apiSecret",
           "package": "flickr",
@@ -19685,6 +21404,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "apiSecret",
           "package": "flickr",
@@ -19698,6 +21418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "hsflickrAPIKey",
           "package": "flickr",
@@ -19707,6 +21428,7 @@
         },
         "index": {
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "hsflickrAPIKey",
           "package": "flickr",
@@ -19721,6 +21443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe API key currently registered for hsflickr, \u003ccode\u003emobile\u003c/code\u003e application\n version (write perms.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "hsflickr_mobile_key",
           "package": "flickr",
@@ -19731,6 +21454,7 @@
         "index": {
           "description": "the API key currently registered for hsflickr mobile application version write perms",
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "hsflickr_mobile_key",
           "package": "flickr",
@@ -19744,6 +21468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe API key currently registered for hsflickr, web application\n version (write perms.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Keys",
           "name": "hsflickr_web_key",
           "package": "flickr",
@@ -19754,6 +21479,7 @@
         "index": {
           "description": "the API key currently registered for hsflickr web application version write perms",
           "hierarchy": "Util Keys",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Keys",
           "name": "hsflickr_web_key",
           "package": "flickr",
@@ -19767,6 +21493,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell implementation of MD5, derived from RFC 1321.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MD5",
           "name": "MD5",
           "package": "flickr",
@@ -19776,6 +21503,7 @@
         "index": {
           "description": "Haskell implementation of MD5 derived from RFC",
           "hierarchy": "Util MD5",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MD5",
           "name": "MD5",
           "package": "flickr",
@@ -19789,6 +21517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MD5",
           "name": "md5",
           "package": "flickr",
@@ -19798,6 +21527,7 @@
         },
         "index": {
           "hierarchy": "Util MD5",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MD5",
           "name": "md5",
           "normalized": "[Word]-\u003e[Word]",
@@ -19812,6 +21542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MD5",
           "name": "md5sum",
           "package": "flickr",
@@ -19821,6 +21552,7 @@
         },
         "index": {
           "hierarchy": "Util MD5",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MD5",
           "name": "md5sum",
           "normalized": "[Word]-\u003eString",
@@ -19835,6 +21567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MD5",
           "name": "md5sumStr",
           "package": "flickr",
@@ -19844,6 +21577,7 @@
         },
         "index": {
           "hierarchy": "Util MD5",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MD5",
           "name": "md5sumStr",
           "normalized": "[Char]-\u003eString",
@@ -19859,6 +21593,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MD5",
           "name": "showDigest",
           "package": "flickr",
@@ -19868,6 +21603,7 @@
         },
         "index": {
           "hierarchy": "Util MD5",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MD5",
           "name": "showDigest",
           "normalized": "[Word]-\u003eString",
@@ -19883,6 +21619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "MIME",
           "package": "flickr",
@@ -19891,6 +21628,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "MIME",
           "package": "flickr",
@@ -19904,6 +21642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "crnl",
           "package": "flickr",
@@ -19913,6 +21652,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "crnl",
           "package": "flickr",
@@ -19925,6 +21665,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "mixedType",
           "package": "flickr",
@@ -19934,6 +21675,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "mixedType",
           "normalized": "IO(MIMEValue,String)",
@@ -19949,6 +21691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "showDispParam",
           "package": "flickr",
@@ -19958,6 +21701,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "showDispParam",
           "normalized": "DispParam-\u003eString",
@@ -19973,6 +21717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "showDispType",
           "package": "flickr",
@@ -19982,6 +21727,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "showDispType",
           "normalized": "DispType-\u003eString",
@@ -19997,6 +21743,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "showDisposition",
           "package": "flickr",
@@ -20006,6 +21753,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "showDisposition",
           "normalized": "Disposition-\u003eString",
@@ -20021,6 +21769,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "showMIMEContent",
           "package": "flickr",
@@ -20030,6 +21779,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "showMIMEContent",
           "normalized": "String-\u003eMIMEContent-\u003eString",
@@ -20045,6 +21795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "showMIMEValue",
           "package": "flickr",
@@ -20054,6 +21805,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "showMIMEValue",
           "normalized": "String-\u003eMIMEValue-\u003e([(String,String)],String)",
@@ -20069,6 +21821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "uploadFile",
           "package": "flickr",
@@ -20078,6 +21831,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "uploadFile",
           "normalized": "String-\u003eFilePath-\u003eIO MIMEValue",
@@ -20093,6 +21847,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.MIME",
           "name": "uploadFileType",
           "package": "flickr",
@@ -20102,6 +21857,7 @@
         },
         "index": {
           "hierarchy": "Util MIME",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.MIME",
           "name": "uploadFileType",
           "normalized": "String-\u003eType",
@@ -20117,6 +21873,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "Post",
           "package": "flickr",
@@ -20125,6 +21882,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "Post",
           "package": "flickr",
@@ -20138,6 +21896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostKind",
           "package": "flickr",
@@ -20146,6 +21905,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostKind",
           "package": "flickr",
@@ -20159,6 +21919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostParam",
           "package": "flickr",
@@ -20167,6 +21928,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostParam",
           "package": "flickr",
@@ -20180,6 +21942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostReq",
           "package": "flickr",
@@ -20188,6 +21951,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostReq",
           "package": "flickr",
@@ -20201,6 +21965,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostFile",
           "package": "flickr",
@@ -20210,6 +21975,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostFile",
           "package": "flickr",
@@ -20223,6 +21989,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostFormData",
           "package": "flickr",
@@ -20232,6 +21999,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostFormData",
           "package": "flickr",
@@ -20245,6 +22013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostNameValue",
           "package": "flickr",
@@ -20254,6 +22023,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostNameValue",
           "package": "flickr",
@@ -20267,6 +22037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostQuery",
           "package": "flickr",
@@ -20276,6 +22047,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostQuery",
           "package": "flickr",
@@ -20289,6 +22061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostReq",
           "package": "flickr",
@@ -20298,6 +22071,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostReq",
           "package": "flickr",
@@ -20311,6 +22085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "PostWWWForm",
           "package": "flickr",
@@ -20320,6 +22095,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "PostWWWForm",
           "package": "flickr",
@@ -20333,6 +22109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "addNameFile",
           "package": "flickr",
@@ -20342,6 +22119,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "addNameFile",
           "normalized": "String-\u003eFilePath-\u003eMaybe String-\u003ePostReq-\u003ePostReq",
@@ -20357,6 +22135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "addNameValue",
           "package": "flickr",
@@ -20366,6 +22145,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "addNameValue",
           "normalized": "String-\u003eString-\u003ePostReq-\u003ePostReq",
@@ -20381,6 +22161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "fromPostParam",
           "package": "flickr",
@@ -20390,6 +22171,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "fromPostParam",
           "normalized": "String-\u003ePostParam-\u003eIO MIMEValue",
@@ -20405,6 +22187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "getMIMEType",
           "package": "flickr",
@@ -20414,6 +22197,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "getMIMEType",
           "normalized": "String-\u003eIO Type",
@@ -20429,6 +22213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "isPostFile",
           "package": "flickr",
@@ -20438,6 +22223,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "isPostFile",
           "normalized": "PostParam-\u003eBool",
@@ -20453,6 +22239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "newPostRequest",
           "package": "flickr",
@@ -20462,6 +22249,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "newPostRequest",
           "normalized": "String-\u003ePostReq",
@@ -20477,6 +22265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "prName",
           "package": "flickr",
@@ -20486,6 +22275,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "prName",
           "package": "flickr",
@@ -20499,6 +22289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "prVals",
           "package": "flickr",
@@ -20508,6 +22299,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "prVals",
           "normalized": "[PostParam]",
@@ -20523,6 +22315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "testRequest",
           "package": "flickr",
@@ -20532,6 +22325,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "testRequest",
           "normalized": "PostReq-\u003eMaybe PostKind-\u003eIO()",
@@ -20547,6 +22341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "toMIMEType",
           "package": "flickr",
@@ -20556,6 +22351,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "toMIMEType",
           "normalized": "String-\u003eIO Type",
@@ -20571,6 +22367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "toMIMEValue",
           "package": "flickr",
@@ -20580,6 +22377,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "toMIMEValue",
           "normalized": "[PostParam]-\u003eIO MIMEValue",
@@ -20595,6 +22393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:10:30 UTC 2014",
           "module": "Util.Post",
           "name": "toRequest",
           "package": "flickr",
@@ -20604,6 +22403,7 @@
         },
         "index": {
           "hierarchy": "Util Post",
+          "indexed": "2014-03-11T18:10:30",
           "module": "Util.Post",
           "name": "toRequest",
           "normalized": "PostReq-\u003eMaybe PostKind-\u003eIO(String,[(String,String)],String)",

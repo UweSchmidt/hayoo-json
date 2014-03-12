@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hex"
+        "phrase": "hex",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eConvert strings into hexadecimal and back.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:37:35 UTC 2014",
           "module": "Data.Hex",
           "name": "Hex",
           "package": "hex",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Convert strings into hexadecimal and back",
           "hierarchy": "Data Hex",
+          "indexed": "2014-03-11T18:37:35",
           "module": "Data.Hex",
           "name": "Hex",
           "package": "hex",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert strings into hexadecimal and back.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:35 UTC 2014",
           "module": "Data.Hex",
           "name": "Hex",
           "package": "hex",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Convert strings into hexadecimal and back",
           "hierarchy": "Data Hex",
+          "indexed": "2014-03-11T18:37:35",
           "module": "Data.Hex",
           "name": "Hex",
           "package": "hex",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert string into hexadecimal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:35 UTC 2014",
           "module": "Data.Hex",
           "name": "hex",
           "package": "hex",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Convert string into hexadecimal",
           "hierarchy": "Data Hex",
+          "indexed": "2014-03-11T18:37:35",
           "module": "Data.Hex",
           "name": "hex",
           "normalized": "a-\u003ea",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert from hexadecimal and fail on invalid input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:37:35 UTC 2014",
           "module": "Data.Hex",
           "name": "unhex",
           "package": "hex",
@@ -100,6 +107,7 @@
         "index": {
           "description": "Convert from hexadecimal and fail on invalid input",
           "hierarchy": "Data Hex",
+          "indexed": "2014-03-11T18:37:35",
           "module": "Data.Hex",
           "name": "unhex",
           "normalized": "a-\u003eb a",

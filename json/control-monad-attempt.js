@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "control-monad-attempt"
+        "phrase": "control-monad-attempt",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eProvide a monad transformer for the attempt monad, which allows the\n reporting of errors using extensible exceptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "Attempt",
           "package": "control-monad-attempt",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Provide monad transformer for the attempt monad which allows the reporting of errors using extensible exceptions",
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "Attempt",
           "package": "control-monad-attempt",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "AttemptT",
           "package": "control-monad-attempt",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "AttemptT",
           "package": "control-monad-attempt",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "AttemptT",
           "package": "control-monad-attempt",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "AttemptT",
           "package": "control-monad-attempt",
@@ -85,6 +91,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe equivalent of \u003ccode\u003e\u003ca\u003eattempt\u003c/a\u003e\u003c/code\u003e for transformers. Given a success and failure\n handler, eliminates the \u003ccode\u003e\u003ca\u003eAttemptT\u003c/a\u003e\u003c/code\u003e portion of the transformer stack.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "attemptT",
           "package": "control-monad-attempt",
@@ -95,6 +102,7 @@
         "index": {
           "description": "The equivalent of attempt for transformers Given success and failure handler eliminates the AttemptT portion of the transformer stack",
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "attemptT",
           "normalized": "a-\u003eb)-\u003e(c-\u003eb)-\u003eAttemptT d c-\u003ed b",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatches runtime (ie, IO) exceptions and represents them in an \u003ccode\u003e\u003ca\u003eAttemptT\u003c/a\u003e\u003c/code\u003e\n transformer.\n\u003c/p\u003e\u003cp\u003eLike \u003ccode\u003ehandle\u003c/code\u003e, the first argument to this function must explicitly state the\n type of its input.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "attemptTIO",
           "package": "control-monad-attempt",
@@ -120,6 +129,7 @@
         "index": {
           "description": "Catches runtime ie IO exceptions and represents them in an AttemptT transformer Like handle the first argument to this function must explicitly state the type of its input",
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "attemptTIO",
           "normalized": "(a-\u003eb)-\u003eIO c-\u003eAttemptT IO c",
@@ -136,6 +146,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInstances of \u003ccode\u003e\u003ca\u003eFromAttempt\u003c/a\u003e\u003c/code\u003e specify a manner for embedding \u003ccode\u003e\u003ca\u003eAttempt\u003c/a\u003e\u003c/code\u003e\n failures directly into the target data type. For example, the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e instance\n simply throws a runtime error. This is a convenience wrapper when you simply\n want to use that default action.\n\u003c/p\u003e\u003cp\u003eSo given a type \u003ccode\u003e\u003ca\u003eAttemptT\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, this function will convert it to \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e\n \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e, throwing any exceptions in the original value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "evalAttemptT",
           "package": "control-monad-attempt",
@@ -146,6 +157,7 @@
         "index": {
           "description": "Instances of FromAttempt specify manner for embedding Attempt failures directly into the target data type For example the IO instance simply throws runtime error This is convenience wrapper when you simply want to use that default action So given type AttemptT IO Int this function will convert it to IO Int throwing any exceptions in the original value",
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "evalAttemptT",
           "normalized": "AttemptT a b-\u003ea b",
@@ -161,6 +173,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:39:58 UTC 2014",
           "module": "Control.Monad.Attempt",
           "name": "runAttemptT",
           "package": "control-monad-attempt",
@@ -170,6 +183,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Attempt",
+          "indexed": "2014-03-11T17:39:58",
           "module": "Control.Monad.Attempt",
           "name": "runAttemptT",
           "package": "control-monad-attempt",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "roundtrip-string"
+        "phrase": "roundtrip-string",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "Parser",
           "package": "roundtrip-string",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "Parser",
           "package": "roundtrip-string",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "PParser",
           "package": "roundtrip-string",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "PParser",
           "package": "roundtrip-string",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e with the given source name,\n and line number and column number set to 1, the upper left.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "initialPos",
           "package": "roundtrip-string",
@@ -70,6 +75,7 @@
         "index": {
           "description": "Create new SourcePos with the given source name and line number and column number set to the upper left",
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "initialPos",
           "normalized": "SourceName-\u003eSourcePos",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "mkParseError",
           "package": "roundtrip-string",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "mkParseError",
           "normalized": "SourcePos-\u003eString-\u003eParseError",
@@ -110,6 +118,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eSourcePos\u003c/a\u003e\u003c/code\u003e with the given source name,\n line number and column number.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "newPos",
           "package": "roundtrip-string",
@@ -119,6 +128,7 @@
         "index": {
           "description": "Create new SourcePos with the given source name line number and column number",
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "newPos",
           "normalized": "SourceName-\u003eLine-\u003eColumn-\u003eSourcePos",
@@ -134,6 +144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecAlternative1Lookahead",
           "package": "roundtrip-string",
@@ -143,6 +154,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecAlternative1Lookahead",
           "normalized": "PParser a b c d-\u003ePParser a b c d-\u003ePParser a b c d",
@@ -158,6 +170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecAlternativeInfLookahead",
           "package": "roundtrip-string",
@@ -167,6 +180,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecAlternativeInfLookahead",
           "normalized": "PParser a b c d-\u003ePParser a b c d-\u003ePParser a b c d",
@@ -182,6 +196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecApply",
           "package": "roundtrip-string",
@@ -191,6 +206,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecApply",
           "normalized": "Iso a b-\u003ePParser c d e a-\u003ePParser c d e b",
@@ -206,6 +222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecConcat",
           "package": "roundtrip-string",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecConcat",
           "normalized": "PParser a b c d-\u003ePParser a b c e-\u003ePParser a b c(d,e)",
@@ -230,6 +248,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecEmpty",
           "package": "roundtrip-string",
@@ -239,6 +258,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecEmpty",
           "package": "roundtrip-string",
@@ -252,6 +272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecPure",
           "package": "roundtrip-string",
@@ -261,6 +282,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "parsecPure",
           "normalized": "a-\u003ePParser b c d a",
@@ -277,6 +299,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe most general way to run a parser over the Identity monad. \u003ccode\u003erunParser p state filePath\n input\u003c/code\u003e runs parser \u003ccode\u003ep\u003c/code\u003e on the input list of tokens \u003ccode\u003einput\u003c/code\u003e,\n obtained from source \u003ccode\u003efilePath\u003c/code\u003e with the initial user state \u003ccode\u003est\u003c/code\u003e.\n The \u003ccode\u003efilePath\u003c/code\u003e is only used in error messages and may be the empty\n string. Returns either a \u003ccode\u003e\u003ca\u003eParseError\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eLeft\u003c/a\u003e\u003c/code\u003e) or a\n value of type \u003ccode\u003ea\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eRight\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cpre\u003e  parseFromFile p fname\n    = do{ input \u003c- readFile fname\n        ; return (runParser p () fname input)\n        }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "runParser",
           "package": "roundtrip-string",
@@ -286,6 +309,7 @@
         "index": {
           "description": "The most general way to run parser over the Identity monad runParser state filePath input runs parser on the input list of tokens input obtained from source filePath with the initial user state st The filePath is only used in error messages and may be the empty string Returns either ParseError Left or value of type Right parseFromFile fname do input readFile fname return runParser fname input",
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "runParser",
           "normalized": "Parsec a b c-\u003eb-\u003eSourceName-\u003ea-\u003eEither ParseError c",
@@ -301,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Parser",
           "name": "runStringParser",
           "package": "roundtrip-string",
@@ -310,6 +335,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Parser",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Parser",
           "name": "runStringParser",
           "normalized": "PParser a()Identity b-\u003eSourceName-\u003ea-\u003eEither ParseError b",
@@ -325,6 +351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -333,6 +360,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -346,6 +374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -354,6 +383,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -367,6 +397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -376,6 +407,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "Printer",
           "package": "roundtrip-string",
@@ -389,6 +421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "printerAlternative",
           "package": "roundtrip-string",
@@ -398,6 +431,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "printerAlternative",
           "normalized": "Printer a b c-\u003ePrinter a b c-\u003ePrinter a b c",
@@ -413,6 +447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "printerApply",
           "package": "roundtrip-string",
@@ -422,6 +457,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "printerApply",
           "normalized": "Iso a b-\u003ePrinter c d a-\u003ePrinter c d b",
@@ -437,6 +473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "printerConcat",
           "package": "roundtrip-string",
@@ -446,6 +483,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "printerConcat",
           "normalized": "Printer a b c-\u003ePrinter a b d-\u003ePrinter a b(c,d)",
@@ -461,6 +499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "printerEmpty",
           "package": "roundtrip-string",
@@ -470,6 +509,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "printerEmpty",
           "package": "roundtrip-string",
@@ -483,6 +523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "printerPure",
           "package": "roundtrip-string",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "printerPure",
           "normalized": "a-\u003ePrinter b c a",
@@ -507,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "runPrinter",
           "package": "roundtrip-string",
@@ -516,6 +559,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "runPrinter",
           "normalized": "Printer Identity a b-\u003eb-\u003eMaybe a",
@@ -531,6 +575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "runStringPrinter",
           "package": "roundtrip-string",
@@ -540,6 +585,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "runStringPrinter",
           "normalized": "Printer Identity String a-\u003ea-\u003eMaybe String",
@@ -555,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:55:20 UTC 2014",
           "module": "Text.Roundtrip.Printer",
           "name": "unPrinter",
           "package": "roundtrip-string",
@@ -564,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Text Roundtrip Printer",
+          "indexed": "2014-03-11T19:55:20",
           "module": "Text.Roundtrip.Printer",
           "name": "unPrinter",
           "normalized": "a-\u003eb(Maybe c)",

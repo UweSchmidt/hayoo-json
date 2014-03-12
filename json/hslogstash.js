@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hslogstash"
+        "phrase": "hslogstash",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cpre\u003eWARNING: executables using this function must be compiled with -threaded\u003c/pre\u003e\u003cp\u003eThese functions let you connect several sinks to a single source, according to a branching strategy. For example :\n\u003c/p\u003e\u003cpre\u003e\nmodule Main where\n\nimport Data.Conduit.Branching\nimport Data.Conduit\nimport qualified Data.Conduit.List as CL\nimport Control.Monad.IO.Class\n\nsrc :: Monad m =\u003e Producer m (Either Int String)\nsrc = CL.sourceList [Left 5, Left 4, Right \"five\", Right \"four\"]\n\nsinkString :: (Monad m, MonadIO m) =\u003e Sink (Either Int String) m ()\nsinkString = CL.mapM_ $ (Right x) -\u003e liftIO (putStrLn (\"This is a string: \" ++ x))\n\nsinkInt :: (Monad m, MonadIO m) =\u003e Sink (Either Int String) m ()\nsinkInt = CL.mapM_ $ (Left x) -\u003e liftIO (putStrLn (\"This is an integer: \" ++ show x))\n\nsinkLog :: (Monad m, MonadIO m) =\u003e Sink (Either Int String) m ()\nsinkLog = CL.mapM_ (liftIO . putStrLn . (\"Raw logging: \" ++) . show)\n\nmain :: IO ()\nmain = branchConduits src branching [sinkInt, sinkString, sinkLog]\n    where\n        branching (Left _) = [0,2]\n        branching (Right _) = [1,2]\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Branching",
           "name": "Branching",
           "package": "hslogstash",
@@ -28,6 +29,7 @@
         "index": {
           "description": "WARNING executables using this function must be compiled with threaded These functions let you connect several sinks to single source according to branching strategy For example module Main where import Data.Conduit.Branching import Data.Conduit import qualified Data.Conduit.List as CL import Control.Monad.IO.Class src Monad Producer Either Int String src CL.sourceList Left Left Right five Right four sinkString Monad MonadIO Sink Either Int String sinkString CL.mapM Right liftIO putStrLn This is string sinkInt Monad MonadIO Sink Either Int String sinkInt CL.mapM Left liftIO putStrLn This is an integer show sinkLog Monad MonadIO Sink Either Int String sinkLog CL.mapM liftIO putStrLn Raw logging show main IO main branchConduits src branching sinkInt sinkString sinkLog where branching Left branching Right",
           "hierarchy": "Data Conduit Branching",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Branching",
           "name": "Branching",
           "package": "hslogstash",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA higher level function. Given a source, a branching function and\n a list of sinks, this will run the conduits until completion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Branching",
           "name": "branchConduits",
           "package": "hslogstash",
@@ -51,6 +54,7 @@
         "index": {
           "description": "higher level function Given source branching function and list of sinks this will run the conduits until completion",
           "hierarchy": "Data Conduit Branching",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Branching",
           "name": "branchConduits",
           "normalized": "Source(ResourceT IO)a-\u003e(a-\u003e[Int])-\u003e[Sink a(ResourceT IO)()]-\u003eIO()",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates the \u003cem\u003eplumbing\u003c/em\u003e that might be used to connect several conduits\n together, based on a branching function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Branching",
           "name": "mkBranchingConduit",
           "package": "hslogstash",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Creates the plumbing that might be used to connect several conduits together based on branching function",
           "hierarchy": "Data Conduit Branching",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Branching",
           "name": "mkBranchingConduit",
           "normalized": "Int-\u003e(a-\u003e[Int])-\u003eIO(Sink a b(),[Source b a])",
@@ -92,6 +98,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module exports \u003ca\u003eConduit\u003c/a\u003e interfaces to ElasticSearch.\nIt has been used intensively in production for several month now, but at a single site.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.ElasticSearch",
           "name": "ElasticSearch",
           "package": "hslogstash",
@@ -101,6 +108,7 @@
         "index": {
           "description": "This module exports Conduit interfaces to ElasticSearch It has been used intensively in production for several month now but at single site",
           "hierarchy": "Data Conduit ElasticSearch",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.ElasticSearch",
           "name": "ElasticSearch",
           "package": "hslogstash",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTakes a \u003ca\u003eLogstashMessage\u003c/a\u003e, and returns the result of the ElasticSearch request\n along with the value in case of errors, or ElasticSearch's values in case of\n success.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esConduit",
           "package": "hslogstash",
@@ -124,6 +133,7 @@
         "index": {
           "description": "Takes LogstashMessage and returns the result of the ElasticSearch request along with the value in case of errors or ElasticSearch values in case of success",
           "hierarchy": "Data Conduit ElasticSearch",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esConduit",
           "normalized": "Maybe Request-\u003eByteString-\u003eInt-\u003eText-\u003eConduit[LogstashMessage]a[Either(LogstashMessage,Value)Value]",
@@ -140,6 +150,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUse this function for 'scanning' requests, using the scroll feature.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esScan",
           "package": "hslogstash",
@@ -149,6 +160,7 @@
         "index": {
           "description": "Use this function for scanning requests using the scroll feature",
           "hierarchy": "Data Conduit ElasticSearch",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esScan",
           "normalized": "Maybe Request-\u003eByteString-\u003eInt-\u003eByteString-\u003eInt-\u003eProducer(ResourceT IO)(Either Value[Value])",
@@ -165,6 +177,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA source of Logstash messages generated from an ElasticSearch query.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esSearchSource",
           "package": "hslogstash",
@@ -174,6 +187,7 @@
         "index": {
           "description": "source of Logstash messages generated from an ElasticSearch query",
           "hierarchy": "Data Conduit ElasticSearch",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.ElasticSearch",
           "name": "esSearchSource",
           "normalized": "Maybe Request-\u003eByteString-\u003eInt-\u003eByteString-\u003eValue-\u003eInt-\u003eInt-\u003eProducer a(Either Value[LogstashMessage])",
@@ -190,6 +204,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA firehose conduit, spawning a web server that will allow for the\n observation of the messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.FireHose",
           "name": "FireHose",
           "package": "hslogstash",
@@ -199,6 +214,7 @@
         "index": {
           "description": "firehose conduit spawning web server that will allow for the observation of the messages",
           "hierarchy": "Data Conduit FireHose",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.FireHose",
           "name": "FireHose",
           "package": "hslogstash",
@@ -213,6 +229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA web server will be launched on the specified port. Clients can\nrequest URLs of the form /type1,type2,type3. They will be fed all\n\u003ccode\u003e\u003ca\u003eLogstashMessage\u003c/a\u003e\u003c/code\u003e matching one of the given types.\n\u003c/p\u003e\u003cp\u003eHere is a sample usage :\n\u003c/p\u003e\u003cpre\u003e -- run the fire hose on port 13400\n fh \u003c- fireHose 13400 10\n logstashListener lport (printErrors =$ CL.mapM (liftIO . addLogstashTime) -- add the time\n                                     =$ fh\n                                     =$ CL.map (BSL.toStrict . encode) -- turn into a bytestring\n                                     =$ redisSink host port queue (Just logfunc)) -- store to redis\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.FireHose",
           "name": "fireHose",
           "package": "hslogstash",
@@ -222,6 +239,7 @@
         "index": {
           "description": "web server will be launched on the specified port Clients can request URLs of the form type1 type2 type3 They will be fed all LogstashMessage matching one of the given types Here is sample usage run the fire hose on port fh fireHose logstashListener lport printErrors CL.mapM liftIO addLogstashTime add the time fh CL.map BSL.toStrict encode turn into bytestring redisSink host port queue Just logfunc store to redis",
           "hierarchy": "Data Conduit FireHose",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.FireHose",
           "name": "fireHose",
           "normalized": "Int-\u003eInt-\u003eIO(Conduit LogstashMessage a LogstashMessage)",
@@ -238,6 +256,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eReceive logstash messages from the network, and process them with\n a conduit.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Logstash",
           "name": "Logstash",
           "package": "hslogstash",
@@ -247,6 +266,7 @@
         "index": {
           "description": "Receive logstash messages from the network and process them with conduit",
           "hierarchy": "Data Conduit Logstash",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Logstash",
           "name": "Logstash",
           "package": "hslogstash",
@@ -261,6 +281,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis creates a logstash network listener, given a TCP port.\n It will try to decode the Bytestring as UTF-8, and, if it fails, as\n Latin1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Logstash",
           "name": "logstashListener",
           "package": "hslogstash",
@@ -270,6 +291,7 @@
         "index": {
           "description": "This creates logstash network listener given TCP port It will try to decode the Bytestring as UTF-8 and if it fails as Latin1",
           "hierarchy": "Data Conduit Logstash",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Logstash",
           "name": "logstashListener",
           "normalized": "Int-\u003eSink(Either ByteString LogstashMessage)(ResourceT IO)()-\u003eIO()",
@@ -286,6 +308,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecodes JSON data from ByteStrings that can be encoded in UTF-8 or\n latin1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Logstash",
           "name": "tryDecode",
           "package": "hslogstash",
@@ -296,6 +319,7 @@
         "index": {
           "description": "Decodes JSON data from ByteStrings that can be encoded in UTF-8 or latin1",
           "hierarchy": "Data Conduit Logstash",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Logstash",
           "name": "tryDecode",
           "normalized": "ByteString-\u003eEither ByteString a",
@@ -312,6 +336,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVarious conduit functions, mostly related to grouping or separating\n the items handled by conduits.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "Misc",
           "package": "hslogstash",
@@ -321,6 +346,7 @@
         "index": {
           "description": "Various conduit functions mostly related to grouping or separating the items handled by conduits",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "Misc",
           "package": "hslogstash",
@@ -335,6 +361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a stream of lists into a stream of single elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "concat",
           "package": "hslogstash",
@@ -345,6 +372,7 @@
         "index": {
           "description": "Converts stream of lists into stream of single elements",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "concat",
           "normalized": "Conduit[a]b a",
@@ -360,6 +388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a more general version of \u003ccode\u003e\u003ca\u003esimpleConcatFlush\u003c/a\u003e\u003c/code\u003e, where you\n provide your own fold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "concatFlush",
           "package": "hslogstash",
@@ -370,6 +399,7 @@
         "index": {
           "description": "This is more general version of simpleConcatFlush where you provide your own fold",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "concatFlush",
           "normalized": "a-\u003e(a-\u003eb-\u003eConduitM[b](Flush b)c a)-\u003eConduit[b]c(Flush b)",
@@ -386,6 +416,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalized version of \u003ccode\u003e\u003ca\u003esimpleConcatFlush\u003c/a\u003e\u003c/code\u003e where some value is\n summed and the \u003ccode\u003e\u003ca\u003eFlush\u003c/a\u003e\u003c/code\u003e is sent when it reaches a threshold.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "concatFlushSum",
           "package": "hslogstash",
@@ -395,6 +426,7 @@
         "index": {
           "description": "generalized version of simpleConcatFlush where some value is summed and the Flush is sent when it reaches threshold",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "concatFlushSum",
           "normalized": "(a-\u003eb)-\u003eb-\u003eConduit[a]c(Flush a)",
@@ -411,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRegroup a stream of (Flush a) into a stream of lists, using \u003ca\u003eFlush\u003c/a\u003e as\n the separator\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "groupFlush",
           "package": "hslogstash",
@@ -421,6 +454,7 @@
         "index": {
           "description": "Regroup stream of Flush into stream of lists using Flush as the separator",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "groupFlush",
           "normalized": "Conduit(Flush a)b[a]",
@@ -437,6 +471,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike mapMaybe, but in a Flush. Will not touch the Flush values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "mapFlushMaybe",
           "package": "hslogstash",
@@ -447,6 +482,7 @@
         "index": {
           "description": "Like mapMaybe but in Flush Will not touch the Flush values",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "mapFlushMaybe",
           "normalized": "(a-\u003eMaybe b)-\u003eConduit(Flush a)c(Flush b)",
@@ -463,6 +499,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAnalogous to maybe, but for chunks\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "mchunk",
           "package": "hslogstash",
@@ -473,6 +510,7 @@
         "index": {
           "description": "Analogous to maybe but for chunks",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "mchunk",
           "normalized": "a-\u003e(b-\u003ea)-\u003eFlush b-\u003ea",
@@ -488,6 +526,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConverts a stream of [a] into a stream of (Flush a). This is done by\n sending a Flush when the input is the empty list, or that we reached\n a certain threshold\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Misc",
           "name": "simpleConcatFlush",
           "package": "hslogstash",
@@ -498,6 +537,7 @@
         "index": {
           "description": "Converts stream of into stream of Flush This is done by sending Flush when the input is the empty list or that we reached certain threshold",
           "hierarchy": "Data Conduit Misc",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Misc",
           "name": "simpleConcatFlush",
           "normalized": "Int-\u003eConduit[a]b(Flush a)",
@@ -514,6 +554,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eNetwork conduits that will retry sending messages forever \n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Network.Retry",
           "name": "Retry",
           "package": "hslogstash",
@@ -523,6 +564,7 @@
         "index": {
           "description": "Network conduits that will retry sending messages forever",
           "hierarchy": "Data Conduit Network Retry",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Network.Retry",
           "name": "Retry",
           "package": "hslogstash",
@@ -537,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTentative \u003cem\u003esafe\u003c/em\u003e \u003ca\u003eSink\u003c/a\u003e for a \u003ca\u003eSocket\u003c/a\u003e. It should try reopening the \u003ca\u003eSocket\u003c/a\u003e\nevery time the call to \u003ccode\u003e\u003ca\u003esendAll\u003c/a\u003e\u003c/code\u003e fails. This means that some bytes might be sent\nmultiple times, if the socket fails in the middle of the sendAll call. This is\ntargeted at protocols where only a full message makes sense.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Network.Retry",
           "name": "sinkSocketRetry",
           "package": "hslogstash",
@@ -547,6 +590,7 @@
         "index": {
           "description": "Tentative safe Sink for Socket It should try reopening the Socket every time the call to sendAll fails This means that some bytes might be sent multiple times if the socket fails in the middle of the sendAll call This is targeted at protocols where only full message makes sense",
           "hierarchy": "Data Conduit Network Retry",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Network.Retry",
           "name": "sinkSocketRetry",
           "normalized": "IO Socket-\u003eInt-\u003eIO()-\u003eConsumer ByteString a()",
@@ -563,6 +607,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA specialization of the previous Sink that opens a TCP connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Network.Retry",
           "name": "tcpSinkRetry",
           "package": "hslogstash",
@@ -573,6 +618,7 @@
         "index": {
           "description": "specialization of the previous Sink that opens TCP connection",
           "hierarchy": "Data Conduit Network Retry",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Network.Retry",
           "name": "tcpSinkRetry",
           "normalized": "ByteString-\u003eInt-\u003eInt-\u003eIO()-\u003eConsumer ByteString a()",
@@ -589,6 +635,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eQuick conduit for reading from Redis lists. Not tested much, and probably quite slow.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Redis",
           "name": "Redis",
           "package": "hslogstash",
@@ -598,6 +645,7 @@
         "index": {
           "description": "Quick conduit for reading from Redis lists Not tested much and probably quite slow",
           "hierarchy": "Data Conduit Redis",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Redis",
           "name": "Redis",
           "package": "hslogstash",
@@ -612,6 +660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Sink that will let you write ByteStrings to a redis queue. It can be\n augmented with a logging function, that will be able to report errors.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Redis",
           "name": "redisSink",
           "package": "hslogstash",
@@ -621,6 +670,7 @@
         "index": {
           "description": "Sink that will let you write ByteStrings to redis queue It can be augmented with logging function that will be able to report errors",
           "hierarchy": "Data Conduit Redis",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Redis",
           "name": "redisSink",
           "normalized": "HostName-\u003eInt-\u003eByteString-\u003eMaybe(ByteString-\u003eIO())-\u003eSink ByteString a()",
@@ -637,6 +687,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a source that pops elements from a Redis list. It is capable\n of poping several elements at once, and will return lists of\n ByteStrings. You might then use \u003ccode\u003e\u003ca\u003econcat\u003c/a\u003e\u003c/code\u003e or the\n flushing facilities in \u003ca\u003eData.Conduit.Misc\u003c/a\u003e to work with individual\n elements.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Data.Conduit.Redis",
           "name": "redisSource",
           "package": "hslogstash",
@@ -646,6 +697,7 @@
         "index": {
           "description": "This is source that pops elements from Redis list It is capable of poping several elements at once and will return lists of ByteStrings You might then use concat or the flushing facilities in Data.Conduit.Misc to work with individual elements",
           "hierarchy": "Data Conduit Redis",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Data.Conduit.Redis",
           "name": "redisSource",
           "normalized": "HostName-\u003eInt-\u003eByteString-\u003eInt-\u003eInteger-\u003eSource a[ByteString]",
@@ -662,6 +714,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module is not very well named, as it has almost nothing to do with\nLogstash. It is used to define counters that will then be logged by collectd.\n\u003c/p\u003e\u003cp\u003eYou should configure collectd to create a Unix socket :\n\u003c/p\u003e\u003cpre\u003e LoadPlugin unixsock\n\n \u003cPlugin \"unixsock\"\u003e\n    SocketFile \"/var/run/collectd-unixsock\"\n    SocketGroup \"collectdsocket\"\n    SocketPerms \"0660\"\n \u003c/Plugin\u003e\n\u003c/pre\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "Counter",
           "package": "hslogstash",
@@ -671,6 +724,7 @@
         "index": {
           "description": "This module is not very well named as it has almost nothing to do with Logstash It is used to define counters that will then be logged by collectd You should configure collectd to create Unix socket LoadPlugin unixsock Plugin unixsock SocketFile var run collectd-unixsock SocketGroup collectdsocket SocketPerms Plugin",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "Counter",
           "package": "hslogstash",
@@ -685,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe opaque counter type. It is actually just a \u003ccode\u003e\u003ca\u003eTVar\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eInteger\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "Counter",
           "package": "hslogstash",
@@ -694,6 +749,7 @@
         "index": {
           "description": "The opaque counter type It is actually just TVar Integer",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "Counter",
           "package": "hslogstash",
@@ -708,6 +764,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis registers a counter to a Collectd server. This can be used in this way :\n\u003c/p\u003e\u003cpre\u003e counter2collectd nbmsg \"/var/run/collectd-unixsock\" nodename \"logstash-shipper\" \"messages\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "counter2collectd",
           "package": "hslogstash",
@@ -717,6 +774,7 @@
         "index": {
           "description": "This registers counter to Collectd server This can be used in this way counter2collectd nbmsg var run collectd-unixsock nodename logstash-shipper messages",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "counter2collectd",
           "normalized": "Counter-\u003eFilePath-\u003eString-\u003eString-\u003eString-\u003eIO()",
@@ -732,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrements a counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "incrementCounter",
           "package": "hslogstash",
@@ -742,6 +801,7 @@
         "index": {
           "description": "Increments counter",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "incrementCounter",
           "normalized": "Counter-\u003eIO()",
@@ -758,6 +818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is a conduits-specific function that will increase a counter for\n each piece of data that traverses this conduit. It will not alter the\n data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "incrementCounterConduit",
           "package": "hslogstash",
@@ -768,6 +829,7 @@
         "index": {
           "description": "This is conduits-specific function that will increase counter for each piece of data that traverses this conduit It will not alter the data",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "incrementCounterConduit",
           "normalized": "Counter-\u003eConduit a b a",
@@ -784,6 +846,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGives you a new empty counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "newCounter",
           "package": "hslogstash",
@@ -794,6 +857,7 @@
         "index": {
           "description": "Gives you new empty counter",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "newCounter",
           "package": "hslogstash",
@@ -808,6 +872,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieve the current value of a counter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Counter",
           "name": "readCounter",
           "package": "hslogstash",
@@ -818,6 +883,7 @@
         "index": {
           "description": "Retrieve the current value of counter",
           "hierarchy": "Logstash Counter",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Counter",
           "name": "readCounter",
           "normalized": "Counter-\u003eIO Integer",
@@ -834,6 +900,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module needs a lot of work. It will contain all the functions that\nare needed to send some \u003ca\u003eLogstashMessage\u003c/a\u003e to a Logstash server.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.IO",
           "name": "IO",
           "package": "hslogstash",
@@ -843,6 +910,7 @@
         "index": {
           "description": "This module needs lot of work It will contain all the functions that are needed to send some LogstashMessage to Logstash server",
           "hierarchy": "Logstash IO",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.IO",
           "name": "IO",
           "package": "hslogstash",
@@ -857,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis very simple function lets you send a single message to a Logstash\nserver, using the tcp input, configured in the following way:\n\u003c/p\u003e\u003cpre\u003e input {\n   tcp {\n     debug        =\u003e \"true\"\n     port         =\u003e \"12345\"\n     data_timeout =\u003e -1\n     format       =\u003e \"json_event\"\n     type         =\u003e \"somemessages\"\n   }\n }\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.IO",
           "name": "sendSingleMessage",
           "package": "hslogstash",
@@ -867,6 +936,7 @@
         "index": {
           "description": "This very simple function lets you send single message to Logstash server using the tcp input configured in the following way input tcp debug true port data timeout format json event type somemessages",
           "hierarchy": "Logstash IO",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.IO",
           "name": "sendSingleMessage",
           "normalized": "HostName-\u003ePortID-\u003eLogstashMessage-\u003eIO()",
@@ -883,6 +953,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes, helper functions, and JSON instances for Logstash\n messages.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "Message",
           "package": "hslogstash",
@@ -892,6 +963,7 @@
         "index": {
           "description": "Datatypes helper functions and JSON instances for Logstash messages",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "Message",
           "package": "hslogstash",
@@ -906,6 +978,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Logstash message, as described in \u003ca\u003ehttps://github.com/logstash/logstash/wiki/logstash's-internal-message-format\u003c/a\u003e.\nPlease note that it is good practice to forget about the timestamp when creating messages (set \u003ccode\u003e\u003ca\u003elogstashTime\u003c/a\u003e\u003c/code\u003e to \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e), as it should be a responsability of the Logstash server to add it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "LogstashMessage",
           "package": "hslogstash",
@@ -915,6 +988,7 @@
         "index": {
           "description": "The Logstash message as described in https github.com logstash logstash wiki logstash s-internal-message-format Please note that it is good practice to forget about the timestamp when creating messages set logstashTime to Nothing as it should be responsability of the Logstash server to add it",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "LogstashMessage",
           "package": "hslogstash",
@@ -928,6 +1002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "LogstashMessage",
           "package": "hslogstash",
@@ -937,6 +1012,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "LogstashMessage",
           "package": "hslogstash",
@@ -951,6 +1027,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds a tag to a logstash message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "addLogstashTag",
           "package": "hslogstash",
@@ -960,6 +1037,7 @@
         "index": {
           "description": "Adds tag to logstash message",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "addLogstashTag",
           "normalized": "Text-\u003eLogstashMessage-\u003eLogstashMessage",
@@ -976,6 +1054,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the current timestamp if it is not provided.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "addLogstashTime",
           "package": "hslogstash",
@@ -986,6 +1065,7 @@
         "index": {
           "description": "Adds the current timestamp if it is not provided",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "addLogstashTime",
           "normalized": "LogstashMessage-\u003eIO LogstashMessage",
@@ -1002,6 +1082,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAs the name implies, this creates a dummy Logstash message, only\nupdating the message field.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "emptyLSMessage",
           "package": "hslogstash",
@@ -1012,6 +1093,7 @@
         "index": {
           "description": "As the name implies this creates dummy Logstash message only updating the message field",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "emptyLSMessage",
           "normalized": "Text-\u003eLogstashMessage",
@@ -1027,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashContent",
           "package": "hslogstash",
@@ -1036,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashContent",
           "package": "hslogstash",
@@ -1049,6 +1133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashFields",
           "package": "hslogstash",
@@ -1058,6 +1143,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashFields",
           "package": "hslogstash",
@@ -1071,6 +1157,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashSource",
           "package": "hslogstash",
@@ -1080,6 +1167,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashSource",
           "package": "hslogstash",
@@ -1093,6 +1181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashTags",
           "package": "hslogstash",
@@ -1102,6 +1191,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashTags",
           "normalized": "[Text]",
@@ -1117,6 +1207,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashTime",
           "package": "hslogstash",
@@ -1126,6 +1217,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashTime",
           "package": "hslogstash",
@@ -1140,6 +1232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis formats an UTCTime in what logstash expects\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashTimestamp",
           "package": "hslogstash",
@@ -1150,6 +1243,7 @@
         "index": {
           "description": "This formats an UTCTime in what logstash expects",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashTimestamp",
           "normalized": "UTCTime-\u003eText",
@@ -1165,6 +1259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "logstashType",
           "package": "hslogstash",
@@ -1174,6 +1269,7 @@
         },
         "index": {
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "logstashType",
           "package": "hslogstash",
@@ -1188,6 +1284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis parses the logstash time format.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "parseLogstashTime",
           "package": "hslogstash",
@@ -1198,6 +1295,7 @@
         "index": {
           "description": "This parses the logstash time format",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "parseLogstashTime",
           "normalized": "Text-\u003eMaybe UTCTime",
@@ -1214,6 +1312,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will try to convert an arbitrary JSON value into\na \u003ca\u003eLogstashMessage\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:49:05 UTC 2014",
           "module": "Logstash.Message",
           "name": "value2logstash",
           "package": "hslogstash",
@@ -1224,6 +1323,7 @@
         "index": {
           "description": "This will try to convert an arbitrary JSON value into LogstashMessage",
           "hierarchy": "Logstash Message",
+          "indexed": "2014-03-11T18:49:05",
           "module": "Logstash.Message",
           "name": "value2logstash",
           "normalized": "Value-\u003eMaybe LogstashMessage",

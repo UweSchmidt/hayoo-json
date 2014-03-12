@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "inject"
+        "phrase": "inject",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:53 UTC 2014",
           "module": "Text.Inject",
           "name": "Inject",
           "package": "inject",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Inject",
+          "indexed": "2014-03-11T18:57:53",
           "module": "Text.Inject",
           "name": "Inject",
           "package": "inject",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:57:53 UTC 2014",
           "module": "Text.Inject",
           "name": "inject",
           "package": "inject",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Text Inject",
+          "indexed": "2014-03-11T18:57:53",
           "module": "Text.Inject",
           "name": "inject",
           "normalized": "Text-\u003eIO Text",

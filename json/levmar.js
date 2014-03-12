@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "levmar"
+        "phrase": "levmar",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFor additional documentation see the\n \u003ca\u003edocumentation of the levmar C\u003c/a\u003e\n library which this library is based on:\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LevMar",
           "package": "levmar",
@@ -28,6 +29,7 @@
         "index": {
           "description": "For additional documentation see the documentation of the levmar library which this library is based on",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LevMar",
           "package": "levmar",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnsure that these vectors have the same length as the number of parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Constraints",
           "package": "levmar",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Ensure that these vectors have the same length as the number of parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Constraints",
           "package": "levmar",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation regarding the minimization.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Info",
           "package": "levmar",
@@ -74,6 +79,7 @@
         "index": {
           "description": "Information regarding the minimization",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Info",
           "package": "levmar",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ca\u003ejacobian\u003c/a\u003e\nof the \u003ccode\u003e\u003ca\u003eModel\u003c/a\u003e\u003c/code\u003e function. Expressed as a function from a vector of\nparameters to a matrix which for each expected sample describes the\npartial derivatives of the parameters.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Ensure that the length \u003ccode\u003em\u003c/code\u003e of the parameter vector equals the length of the\n   initial parameter vector in \u003ccode\u003e\u003ca\u003elevmar\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Ensure that the output matrix has the dimension \u003ccode\u003en\u003e\u003cm\u003c/code\u003e where \u003ccode\u003en\u003c/code\u003e is the\n   number of samples and \u003ccode\u003em\u003c/code\u003e is the number of parameters.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Jacobian",
           "package": "levmar",
@@ -97,6 +104,7 @@
         "index": {
           "description": "The jacobian of the Model function Expressed as function from vector of parameters to matrix which for each expected sample describes the partial derivatives of the parameters Ensure that the length of the parameter vector equals the length of the initial parameter vector in levmar Ensure that the output matrix has the dimension where is the number of samples and is the number of parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Jacobian",
           "package": "levmar",
@@ -110,6 +118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LevMarError",
           "package": "levmar",
@@ -118,6 +127,7 @@
         },
         "index": {
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LevMarError",
           "package": "levmar",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Levenberg-Marquardt algorithm is overloaded to work on \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eFloat\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LevMarable",
           "package": "levmar",
@@ -141,6 +152,7 @@
         "index": {
           "description": "The Levenberg-Marquardt algorithm is overloaded to work on Double and Float",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LevMarable",
           "package": "levmar",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLinear constraints consisting of a constraints matrix, \u003ccode\u003ek\u003e\u003cm\u003c/code\u003e and\n   a right hand constraints vector, of length \u003ccode\u003ek\u003c/code\u003e where \u003ccode\u003em\u003c/code\u003e is the number of\n   parameters and \u003ccode\u003ek\u003c/code\u003e is the number of constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LinearConstraints",
           "package": "levmar",
@@ -164,6 +177,7 @@
         "index": {
           "description": "Linear constraints consisting of constraints matrix and right hand constraints vector of length where is the number of parameters and is the number of constraints",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LinearConstraints",
           "package": "levmar",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA functional relation describing measurements represented as a function\nfrom a vector of parameters to a vector of expected samples.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Ensure that the length \u003ccode\u003em\u003c/code\u003e of the parameter vector equals the length of the\n   initial parameter vector in \u003ccode\u003e\u003ca\u003elevmar\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Ensure that the length \u003ccode\u003en\u003c/code\u003e of the output sample vector equals the length of\n   the sample vector in \u003ccode\u003e\u003ca\u003elevmar\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Ensure that the length \u003ccode\u003en\u003c/code\u003e of the output sample vector vector is bigger than or\n   equal to the length \u003ccode\u003em\u003c/code\u003e of the parameter vector.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Model",
           "package": "levmar",
@@ -187,6 +202,7 @@
         "index": {
           "description": "functional relation describing measurements represented as function from vector of parameters to vector of expected samples Ensure that the length of the parameter vector equals the length of the initial parameter vector in levmar Ensure that the length of the output sample vector equals the length of the sample vector in levmar Ensure that the length of the output sample vector vector is bigger than or equal to the length of the parameter vector",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Model",
           "package": "levmar",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinimization options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Options",
           "package": "levmar",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Minimization options",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Options",
           "package": "levmar",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParameter vector of length \u003ccode\u003em\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEnsure that \u003ccode\u003em \u003c= n\u003c/code\u003e where \u003ccode\u003en\u003c/code\u003e is the length of the \u003ccode\u003e\u003ca\u003eSamples\u003c/a\u003e\u003c/code\u003e vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Params",
           "package": "levmar",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Parameter vector of length Ensure that where is the length of the Samples vector",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Params",
           "package": "levmar",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSample vector of length \u003ccode\u003en\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eEnsure that \u003ccode\u003en \u003e= m\u003c/code\u003e where \u003ccode\u003em\u003c/code\u003e is the length of the \u003ccode\u003e\u003ca\u003eParams\u003c/a\u003e\u003c/code\u003e vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Samples",
           "package": "levmar",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Sample vector of length Ensure that where is the length of the Params vector",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Samples",
           "package": "levmar",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason for terminating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "StopReason",
           "package": "levmar",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Reason for terminating",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "StopReason",
           "package": "levmar",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstraints matrix is not of full row\n   rank.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "ConstraintMatrixNotFullRowRank",
           "package": "levmar",
@@ -303,6 +328,7 @@
         "index": {
           "description": "Constraints matrix is not of full row rank",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "ConstraintMatrixNotFullRowRank",
           "package": "levmar",
@@ -317,6 +343,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe matrix of constraints cannot have\n   more rows than columns.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "ConstraintMatrixRowsGtCols",
           "package": "levmar",
@@ -327,6 +354,7 @@
         "index": {
           "description": "The matrix of constraints cannot have more rows than columns",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "ConstraintMatrixRowsGtCols",
           "package": "levmar",
@@ -340,6 +368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Constraints",
           "package": "levmar",
@@ -349,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Constraints",
           "package": "levmar",
@@ -363,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAt least one lower bound exceeds the\n   upper one.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "FailedBoxCheck",
           "package": "levmar",
@@ -373,6 +404,7 @@
         "index": {
           "description": "At least one lower bound exceeds the upper one",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "FailedBoxCheck",
           "package": "levmar",
@@ -386,6 +418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Info",
           "package": "levmar",
@@ -395,6 +428,7 @@
         },
         "index": {
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Info",
           "package": "levmar",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because model function returned invalid values\n   (i.e. NaN or Inf). This is a user error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "InvalidValues",
           "package": "levmar",
@@ -419,6 +454,7 @@
         "index": {
           "description": "Stopped because model function returned invalid values i.e NaN or Inf This is user error",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "InvalidValues",
           "package": "levmar",
@@ -433,6 +469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA call to a lapack subroutine failed\n   in the underlying C levmar library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LapackError",
           "package": "levmar",
@@ -443,6 +480,7 @@
         "index": {
           "description": "call to lapack subroutine failed in the underlying levmar library",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LapackError",
           "package": "levmar",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneric error (not one of the others)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "LevMarError",
           "package": "levmar",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Generic error not one of the others",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "LevMarError",
           "package": "levmar",
@@ -481,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because maximum iterations was reached.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "MaxIterations",
           "package": "levmar",
@@ -491,6 +532,7 @@
         "index": {
           "description": "Stopped because maximum iterations was reached",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "MaxIterations",
           "package": "levmar",
@@ -505,6 +547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA call to \u003ccode\u003emalloc\u003c/code\u003e failed in the\n   underlying C levmar library.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "MemoryAllocationFailure",
           "package": "levmar",
@@ -515,6 +558,7 @@
         "index": {
           "description": "call to malloc failed in the underlying levmar library",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "MemoryAllocationFailure",
           "package": "levmar",
@@ -528,6 +572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "Opts",
           "package": "levmar",
@@ -537,6 +582,7 @@
         },
         "index": {
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "Opts",
           "package": "levmar",
@@ -551,6 +597,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because of singular matrix. Restart from current\n   estimated parameters with increased \u003ccode\u003e\u003ca\u003eoptScaleInitMu\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "SingularMatrix",
           "package": "levmar",
@@ -561,6 +608,7 @@
         "index": {
           "description": "Stopped because of singular matrix Restart from current estimated parameters with increased optScaleInitMu",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "SingularMatrix",
           "package": "levmar",
@@ -575,6 +623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because of small Dp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "SmallDp",
           "package": "levmar",
@@ -585,6 +634,7 @@
         "index": {
           "description": "Stopped because of small Dp",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "SmallDp",
           "package": "levmar",
@@ -599,6 +649,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because of small gradient \u003ccode\u003eJ^T e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "SmallGradient",
           "package": "levmar",
@@ -609,6 +660,7 @@
         "index": {
           "description": "Stopped because of small gradient",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "SmallGradient",
           "package": "levmar",
@@ -623,6 +675,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because of small \u003ccode\u003e||e||_2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "SmallNorm2E",
           "package": "levmar",
@@ -633,6 +686,7 @@
         "index": {
           "description": "Stopped because of small",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "SmallNorm2E",
           "package": "levmar",
@@ -647,6 +701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopped because no further error reduction is\n   possible. Restart with increased \u003ccode\u003e\u003ca\u003eoptScaleInitMu\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "SmallestError",
           "package": "levmar",
@@ -657,6 +712,7 @@
         "index": {
           "description": "Stopped because no further error reduction is possible Restart with increased optScaleInitMu",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "SmallestError",
           "package": "levmar",
@@ -671,6 +727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCannot solve a problem with fewer\n   measurements than unknowns.  In case\n   linear constraints are provided, this\n   error is also returned when the number\n   of measurements is smaller than the\n   number of unknowns minus the number of\n   equality constraints.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "TooFewMeasurements",
           "package": "levmar",
@@ -681,6 +738,7 @@
         "index": {
           "description": "Cannot solve problem with fewer measurements than unknowns In case linear constraints are provided this error is also returned when the number of measurements is smaller than the number of unknowns minus the number of equality constraints",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "TooFewMeasurements",
           "package": "levmar",
@@ -695,6 +753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDefault minimization options\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "defaultOpts",
           "package": "levmar",
@@ -705,6 +764,7 @@
         "index": {
           "description": "Default minimization options",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "defaultOpts",
           "package": "levmar",
@@ -719,6 +779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003emu/max[J^T J]_ii ]\u003c/code\u003e at estimated parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infMuDivMax",
           "package": "levmar",
@@ -729,6 +790,7 @@
         "index": {
           "description": "mu max ii at estimated parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infMuDivMax",
           "package": "levmar",
@@ -743,6 +805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e||Dp||_2\u003c/code\u003e            at estimated parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNorm2Dp",
           "package": "levmar",
@@ -753,6 +816,7 @@
         "index": {
           "description": "Dp at estimated parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNorm2Dp",
           "package": "levmar",
@@ -767,6 +831,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e||e||_2\u003c/code\u003e             at estimated parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNorm2E",
           "package": "levmar",
@@ -777,6 +842,7 @@
         "index": {
           "description": "at estimated parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNorm2E",
           "package": "levmar",
@@ -791,6 +857,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e||e||_2\u003c/code\u003e             at initial parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNorm2initE",
           "package": "levmar",
@@ -801,6 +868,7 @@
         "index": {
           "description": "at initial parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNorm2initE",
           "package": "levmar",
@@ -815,6 +883,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e||J^T e||_inf\u003c/code\u003e       at estimated parameters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNormInfJacTe",
           "package": "levmar",
@@ -825,6 +894,7 @@
         "index": {
           "description": "inf at estimated parameters",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNormInfJacTe",
           "package": "levmar",
@@ -839,6 +909,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of function evaluations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNumFuncEvals",
           "package": "levmar",
@@ -849,6 +920,7 @@
         "index": {
           "description": "Number of function evaluations",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNumFuncEvals",
           "package": "levmar",
@@ -863,6 +935,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of iterations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNumIter",
           "package": "levmar",
@@ -873,6 +946,7 @@
         "index": {
           "description": "Number of iterations",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNumIter",
           "package": "levmar",
@@ -887,6 +961,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of jacobian evaluations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNumJacobEvals",
           "package": "levmar",
@@ -897,6 +972,7 @@
         "index": {
           "description": "Number of jacobian evaluations",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNumJacobEvals",
           "package": "levmar",
@@ -911,6 +987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNumber of linear systems solved,\n   i.e. attempts for reducing error.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infNumLinSysSolved",
           "package": "levmar",
@@ -921,6 +998,7 @@
         "index": {
           "description": "Number of linear systems solved i.e attempts for reducing error",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infNumLinSysSolved",
           "package": "levmar",
@@ -935,6 +1013,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReason for terminating.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "infStopReason",
           "package": "levmar",
@@ -945,6 +1024,7 @@
         "index": {
           "description": "Reason for terminating",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "infStopReason",
           "package": "levmar",
@@ -959,6 +1039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Levenberg-Marquardt algorithm.\n\u003c/p\u003e\u003cp\u003eReturns a triple of the found parameters, a structure containing\n information about the minimization and the covariance matrix\n corresponding to LS solution.\n\u003c/p\u003e\u003cp\u003eEnsure that \u003ccode\u003en \u003e= m\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "levmar",
           "package": "levmar",
@@ -969,6 +1050,7 @@
         "index": {
           "description": "The Levenberg-Marquardt algorithm Returns triple of the found parameters structure containing information about the minimization and the covariance matrix corresponding to LS solution Ensure that",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "levmar",
           "package": "levmar",
@@ -982,6 +1064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional linear constraints\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "linearConstraints",
           "package": "levmar",
@@ -992,6 +1075,7 @@
         "index": {
           "description": "Optional linear constraints",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "linearConstraints",
           "package": "levmar",
@@ -1006,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional lower bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "lowerBounds",
           "package": "levmar",
@@ -1016,6 +1101,7 @@
         "index": {
           "description": "Optional lower bounds",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "lowerBounds",
           "package": "levmar",
@@ -1030,6 +1116,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStep used in the difference\n approximation to the Jacobian. If\n \u003ccode\u003eoptDelta\u003c0\u003c/code\u003e, the Jacobian is approximated\n with central differences which are more\n accurate (but slower!)  compared to the\n forward differences employed by default.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "optDelta",
           "package": "levmar",
@@ -1040,6 +1127,7 @@
         "index": {
           "description": "Step used in the difference approximation to the Jacobian If optDelta the Jacobian is approximated with central differences which are more accurate but slower compared to the forward differences employed by default",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "optDelta",
           "package": "levmar",
@@ -1054,6 +1142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eScale factor for initial \u003cem\u003emu\u003c/em\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "optScaleInitMu",
           "package": "levmar",
@@ -1064,6 +1153,7 @@
         "index": {
           "description": "Scale factor for initial mu",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "optScaleInitMu",
           "package": "levmar",
@@ -1078,6 +1168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopping thresholds for \u003ccode\u003e||Dp||_2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "optStopNorm2Dp",
           "package": "levmar",
@@ -1088,6 +1179,7 @@
         "index": {
           "description": "Stopping thresholds for Dp",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "optStopNorm2Dp",
           "package": "levmar",
@@ -1102,6 +1194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopping thresholds for \u003ccode\u003e||e||_2\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "optStopNorm2E",
           "package": "levmar",
@@ -1112,6 +1205,7 @@
         "index": {
           "description": "Stopping thresholds for",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "optStopNorm2E",
           "package": "levmar",
@@ -1126,6 +1220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStopping thresholds for \u003ccode\u003e||J^T e||_inf\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "optStopNormInfJacTe",
           "package": "levmar",
@@ -1136,6 +1231,7 @@
         "index": {
           "description": "Stopping thresholds for inf",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "optStopNormInfJacTe",
           "package": "levmar",
@@ -1150,6 +1246,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional upper bounds\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "upperBounds",
           "package": "levmar",
@@ -1160,6 +1257,7 @@
         "index": {
           "description": "Optional upper bounds",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "upperBounds",
           "package": "levmar",
@@ -1174,6 +1272,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional weights\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:07:54 UTC 2014",
           "module": "Numeric.LevMar",
           "name": "weights",
           "package": "levmar",
@@ -1184,6 +1283,7 @@
         "index": {
           "description": "Optional weights",
           "hierarchy": "Numeric LevMar",
+          "indexed": "2014-03-11T19:07:54",
           "module": "Numeric.LevMar",
           "name": "weights",
           "package": "levmar",

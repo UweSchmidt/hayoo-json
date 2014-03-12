@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "monad-mersenne-random"
+        "phrase": "monad-mersenne-random",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA fast random number generator monad.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Random",
           "package": "monad-mersenne-random",
@@ -28,6 +29,7 @@
         "index": {
           "description": "fast random number generator monad",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Random",
           "package": "monad-mersenne-random",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe state of a random monad, optimized for performance.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "R",
           "package": "monad-mersenne-random",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The state of random monad optimized for performance",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "R",
           "package": "monad-mersenne-random",
@@ -64,6 +68,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA basic random monad, for generating random numbers from pure mersenne twisters.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Rand",
           "package": "monad-mersenne-random",
@@ -73,6 +78,7 @@
         "index": {
           "description": "basic random monad for generating random numbers from pure mersenne twisters",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Rand",
           "package": "monad-mersenne-random",
@@ -86,6 +92,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "R",
           "package": "monad-mersenne-random",
@@ -95,6 +102,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "R",
           "package": "monad-mersenne-random",
@@ -107,6 +115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Rand",
           "package": "monad-mersenne-random",
@@ -116,6 +125,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "Rand",
           "package": "monad-mersenne-random",
@@ -130,6 +140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEvaluate a random computation using the mersenne generator \u003ccode\u003eg\u003c/code\u003e.  Note that the\n generator \u003ccode\u003eg\u003c/code\u003e is not returned, so there's no way to recover the\n updated version of \u003ccode\u003eg\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "evalRandom",
           "package": "monad-mersenne-random",
@@ -140,6 +151,7 @@
         "index": {
           "description": "Evaluate random computation using the mersenne generator Note that the generator is not returned so there no way to recover the updated version of",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "evalRandom",
           "normalized": "Rand a-\u003ePureMT-\u003ea",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getBool",
           "package": "monad-mersenne-random",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getBool",
           "package": "monad-mersenne-random",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a new 53-bit precise \u003ccode\u003e\u003ca\u003eDouble\u003c/a\u003e\u003c/code\u003e value from the generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getDouble",
           "package": "monad-mersenne-random",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Yield new bit precise Double value from the generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getDouble",
           "package": "monad-mersenne-random",
@@ -202,6 +218,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a new \u003ccode\u003e\u003ca\u003eInt\u003c/a\u003e\u003c/code\u003e value from the generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getInt",
           "package": "monad-mersenne-random",
@@ -212,6 +229,7 @@
         "index": {
           "description": "Yield new Int value from the generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getInt",
           "package": "monad-mersenne-random",
@@ -226,6 +244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a new \u003ccode\u003e\u003ca\u003eInt64\u003c/a\u003e\u003c/code\u003e value from the generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getInt64",
           "package": "monad-mersenne-random",
@@ -236,6 +255,7 @@
         "index": {
           "description": "Yield new Int64 value from the generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getInt64",
           "package": "monad-mersenne-random",
@@ -250,6 +270,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a new \u003ccode\u003e\u003ca\u003eWord\u003c/a\u003e\u003c/code\u003e value from the generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getWord",
           "package": "monad-mersenne-random",
@@ -260,6 +281,7 @@
         "index": {
           "description": "Yield new Word value from the generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getWord",
           "package": "monad-mersenne-random",
@@ -274,6 +296,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYield a new \u003ccode\u003e\u003ca\u003eWord64\u003c/a\u003e\u003c/code\u003e value from the generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getWord64",
           "package": "monad-mersenne-random",
@@ -284,6 +307,7 @@
         "index": {
           "description": "Yield new Word64 value from the generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "getWord64",
           "package": "monad-mersenne-random",
@@ -297,6 +321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "runRand",
           "package": "monad-mersenne-random",
@@ -306,6 +331,7 @@
         },
         "index": {
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "runRand",
           "normalized": "PureMT-\u003eR a",
@@ -322,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a random computation using the generator \u003ccode\u003eg\u003c/code\u003e, returning the result\n and the updated generator.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:20:10 UTC 2014",
           "module": "Control.Monad.Mersenne.Random",
           "name": "runRandom",
           "package": "monad-mersenne-random",
@@ -332,6 +359,7 @@
         "index": {
           "description": "Run random computation using the generator returning the result and the updated generator",
           "hierarchy": "Control Monad Mersenne Random",
+          "indexed": "2014-03-11T19:20:10",
           "module": "Control.Monad.Mersenne.Random",
           "name": "runRandom",
           "normalized": "Rand a-\u003ePureMT-\u003e(a,PureMT)",

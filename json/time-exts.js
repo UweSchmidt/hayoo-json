@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "time-exts"
+        "phrase": "time-exts",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBasic definitions, including type classes, datatypes and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Base",
           "package": "time-exts",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Basic definitions including type classes datatypes and functions",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Base",
           "package": "time-exts",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Date",
           "package": "time-exts",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Date",
           "package": "time-exts",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct with date components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateStruct",
           "package": "time-exts",
@@ -72,6 +77,7 @@
         "index": {
           "description": "struct with date components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateStruct",
           "package": "time-exts",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTime",
           "package": "time-exts",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTime",
           "package": "time-exts",
@@ -106,6 +114,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeMath",
           "package": "time-exts",
@@ -114,6 +123,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeMath",
           "package": "time-exts",
@@ -128,6 +138,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct with date and time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeStruct",
           "package": "time-exts",
@@ -137,6 +148,7 @@
         "index": {
           "description": "struct with date and time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeStruct",
           "package": "time-exts",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZone",
           "package": "time-exts",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZone",
           "package": "time-exts",
@@ -172,6 +186,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct with date, time and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZoneStruct",
           "package": "time-exts",
@@ -181,6 +196,7 @@
         "index": {
           "description": "struct with date time and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZoneStruct",
           "package": "time-exts",
@@ -194,6 +210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateZone",
           "package": "time-exts",
@@ -202,6 +219,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateZone",
           "package": "time-exts",
@@ -216,6 +234,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct with date and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateZoneStruct",
           "package": "time-exts",
@@ -225,6 +244,7 @@
         "index": {
           "description": "struct with date and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateZoneStruct",
           "package": "time-exts",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Day",
           "package": "time-exts",
@@ -248,6 +269,7 @@
         "index": {
           "description": "Day",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Day",
           "package": "time-exts",
@@ -262,6 +284,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDay of week.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DayOfWeek",
           "package": "time-exts",
@@ -271,6 +294,7 @@
         "index": {
           "description": "Day of week",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DayOfWeek",
           "package": "time-exts",
@@ -284,6 +308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Duration",
           "package": "time-exts",
@@ -292,6 +317,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Duration",
           "package": "time-exts",
@@ -306,6 +332,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Hour",
           "package": "time-exts",
@@ -315,6 +342,7 @@
         "index": {
           "description": "Hour",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Hour",
           "package": "time-exts",
@@ -329,6 +357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicrosecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Micros",
           "package": "time-exts",
@@ -338,6 +367,7 @@
         "index": {
           "description": "Microsecond",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Micros",
           "package": "time-exts",
@@ -352,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMillisecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Millis",
           "package": "time-exts",
@@ -361,6 +392,7 @@
         "index": {
           "description": "Millisecond",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Millis",
           "package": "time-exts",
@@ -375,6 +407,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMinute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Minute",
           "package": "time-exts",
@@ -384,6 +417,7 @@
         "index": {
           "description": "Minute",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Minute",
           "package": "time-exts",
@@ -398,6 +432,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMonth.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Month",
           "package": "time-exts",
@@ -407,6 +442,7 @@
         "index": {
           "description": "Month",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Month",
           "package": "time-exts",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNanosecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Nanos",
           "package": "time-exts",
@@ -430,6 +467,7 @@
         "index": {
           "description": "Nanosecond",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Nanos",
           "package": "time-exts",
@@ -444,6 +482,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicosecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Picos",
           "package": "time-exts",
@@ -453,6 +492,7 @@
         "index": {
           "description": "Picosecond",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Picos",
           "package": "time-exts",
@@ -467,6 +507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSecond.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Second",
           "package": "time-exts",
@@ -476,6 +517,7 @@
         "index": {
           "description": "Second",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Second",
           "package": "time-exts",
@@ -489,6 +531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Time",
           "package": "time-exts",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Time",
           "package": "time-exts",
@@ -511,6 +555,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA struct with time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "TimeStruct",
           "package": "time-exts",
@@ -520,6 +565,7 @@
         "index": {
           "description": "struct with time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "TimeStruct",
           "package": "time-exts",
@@ -533,6 +579,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "TimeZone",
           "package": "time-exts",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "TimeZone",
           "package": "time-exts",
@@ -555,6 +603,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYear.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Year",
           "package": "time-exts",
@@ -564,6 +613,7 @@
         "index": {
           "description": "Year",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Year",
           "package": "time-exts",
@@ -577,6 +627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Zone",
           "package": "time-exts",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Zone",
           "package": "time-exts",
@@ -598,6 +650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "April",
           "package": "time-exts",
@@ -607,6 +660,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "April",
           "package": "time-exts",
@@ -620,6 +674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "August",
           "package": "time-exts",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "August",
           "package": "time-exts",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateStruct",
           "package": "time-exts",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateStruct",
           "package": "time-exts",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeStruct",
           "package": "time-exts",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeStruct",
           "package": "time-exts",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZoneStruct",
           "package": "time-exts",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateTimeZoneStruct",
           "package": "time-exts",
@@ -708,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "DateZoneStruct",
           "package": "time-exts",
@@ -717,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "DateZoneStruct",
           "package": "time-exts",
@@ -730,6 +794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Day",
           "package": "time-exts",
@@ -739,6 +804,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Day",
           "package": "time-exts",
@@ -752,6 +818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "December",
           "package": "time-exts",
@@ -761,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "December",
           "package": "time-exts",
@@ -774,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "February",
           "package": "time-exts",
@@ -783,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "February",
           "package": "time-exts",
@@ -796,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Friday",
           "package": "time-exts",
@@ -805,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Friday",
           "package": "time-exts",
@@ -818,6 +890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Hour",
           "package": "time-exts",
@@ -827,6 +900,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Hour",
           "package": "time-exts",
@@ -840,6 +914,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "January",
           "package": "time-exts",
@@ -849,6 +924,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "January",
           "package": "time-exts",
@@ -862,6 +938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "July",
           "package": "time-exts",
@@ -871,6 +948,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "July",
           "package": "time-exts",
@@ -884,6 +962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "June",
           "package": "time-exts",
@@ -893,6 +972,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "June",
           "package": "time-exts",
@@ -906,6 +986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "March",
           "package": "time-exts",
@@ -915,6 +996,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "March",
           "package": "time-exts",
@@ -928,6 +1010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "May",
           "package": "time-exts",
@@ -937,6 +1020,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "May",
           "package": "time-exts",
@@ -950,6 +1034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Micros",
           "package": "time-exts",
@@ -959,6 +1044,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Micros",
           "package": "time-exts",
@@ -972,6 +1058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Millis",
           "package": "time-exts",
@@ -981,6 +1068,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Millis",
           "package": "time-exts",
@@ -994,6 +1082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Minute",
           "package": "time-exts",
@@ -1003,6 +1092,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Minute",
           "package": "time-exts",
@@ -1016,6 +1106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Monday",
           "package": "time-exts",
@@ -1025,6 +1116,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Monday",
           "package": "time-exts",
@@ -1038,6 +1130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Nanos",
           "package": "time-exts",
@@ -1047,6 +1140,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Nanos",
           "package": "time-exts",
@@ -1060,6 +1154,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "November",
           "package": "time-exts",
@@ -1069,6 +1164,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "November",
           "package": "time-exts",
@@ -1082,6 +1178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "October",
           "package": "time-exts",
@@ -1091,6 +1188,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "October",
           "package": "time-exts",
@@ -1104,6 +1202,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Picos",
           "package": "time-exts",
@@ -1113,6 +1212,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Picos",
           "package": "time-exts",
@@ -1126,6 +1226,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Saturday",
           "package": "time-exts",
@@ -1135,6 +1236,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Saturday",
           "package": "time-exts",
@@ -1148,6 +1250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Second",
           "package": "time-exts",
@@ -1157,6 +1260,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Second",
           "package": "time-exts",
@@ -1170,6 +1274,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "September",
           "package": "time-exts",
@@ -1179,6 +1284,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "September",
           "package": "time-exts",
@@ -1192,6 +1298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Sunday",
           "package": "time-exts",
@@ -1201,6 +1308,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Sunday",
           "package": "time-exts",
@@ -1214,6 +1322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Thursday",
           "package": "time-exts",
@@ -1223,6 +1332,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Thursday",
           "package": "time-exts",
@@ -1236,6 +1346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "TimeStruct",
           "package": "time-exts",
@@ -1245,6 +1356,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "TimeStruct",
           "package": "time-exts",
@@ -1258,6 +1370,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Tuesday",
           "package": "time-exts",
@@ -1267,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Tuesday",
           "package": "time-exts",
@@ -1280,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Wednesday",
           "package": "time-exts",
@@ -1289,6 +1404,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Wednesday",
           "package": "time-exts",
@@ -1302,6 +1418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "Year",
           "package": "time-exts",
@@ -1311,6 +1428,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "Year",
           "package": "time-exts",
@@ -1324,6 +1442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_d_mday",
           "package": "time-exts",
@@ -1333,6 +1452,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_d_mday",
           "package": "time-exts",
@@ -1345,6 +1465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_d_mon",
           "package": "time-exts",
@@ -1354,6 +1475,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_d_mon",
           "package": "time-exts",
@@ -1366,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_d_wday",
           "package": "time-exts",
@@ -1375,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_d_wday",
           "package": "time-exts",
@@ -1387,6 +1511,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_d_year",
           "package": "time-exts",
@@ -1396,6 +1521,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_d_year",
           "package": "time-exts",
@@ -1408,6 +1534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_hour",
           "package": "time-exts",
@@ -1417,6 +1544,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_hour",
           "package": "time-exts",
@@ -1429,6 +1557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_mday",
           "package": "time-exts",
@@ -1438,6 +1567,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_mday",
           "package": "time-exts",
@@ -1450,6 +1580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_min",
           "package": "time-exts",
@@ -1459,6 +1590,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_min",
           "package": "time-exts",
@@ -1471,6 +1603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_mon",
           "package": "time-exts",
@@ -1480,6 +1613,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_mon",
           "package": "time-exts",
@@ -1492,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_sec",
           "package": "time-exts",
@@ -1501,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_sec",
           "package": "time-exts",
@@ -1513,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_wday",
           "package": "time-exts",
@@ -1522,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_wday",
           "package": "time-exts",
@@ -1534,6 +1672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_year",
           "package": "time-exts",
@@ -1543,6 +1682,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dt_year",
           "package": "time-exts",
@@ -1555,6 +1695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_hour",
           "package": "time-exts",
@@ -1564,6 +1705,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_hour",
           "package": "time-exts",
@@ -1576,6 +1718,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_mday",
           "package": "time-exts",
@@ -1585,6 +1728,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_mday",
           "package": "time-exts",
@@ -1597,6 +1741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_min",
           "package": "time-exts",
@@ -1606,6 +1751,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_min",
           "package": "time-exts",
@@ -1618,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_mon",
           "package": "time-exts",
@@ -1627,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_mon",
           "package": "time-exts",
@@ -1639,6 +1787,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_sec",
           "package": "time-exts",
@@ -1648,6 +1797,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_sec",
           "package": "time-exts",
@@ -1660,6 +1810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_wday",
           "package": "time-exts",
@@ -1669,6 +1820,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_wday",
           "package": "time-exts",
@@ -1681,6 +1833,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_year",
           "package": "time-exts",
@@ -1690,6 +1843,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_year",
           "package": "time-exts",
@@ -1702,6 +1856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_zone",
           "package": "time-exts",
@@ -1711,6 +1866,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dtz_zone",
           "package": "time-exts",
@@ -1723,6 +1879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_mday",
           "package": "time-exts",
@@ -1732,6 +1889,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_mday",
           "package": "time-exts",
@@ -1744,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_mon",
           "package": "time-exts",
@@ -1753,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_mon",
           "package": "time-exts",
@@ -1765,6 +1925,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_wday",
           "package": "time-exts",
@@ -1774,6 +1935,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_wday",
           "package": "time-exts",
@@ -1786,6 +1948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_year",
           "package": "time-exts",
@@ -1795,6 +1958,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_year",
           "package": "time-exts",
@@ -1807,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_zone",
           "package": "time-exts",
@@ -1816,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_dz_zone",
           "package": "time-exts",
@@ -1828,6 +1994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_t_hour",
           "package": "time-exts",
@@ -1837,6 +2004,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_t_hour",
           "package": "time-exts",
@@ -1849,6 +2017,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_t_min",
           "package": "time-exts",
@@ -1858,6 +2027,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_t_min",
           "package": "time-exts",
@@ -1870,6 +2040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "_t_sec",
           "package": "time-exts",
@@ -1879,6 +2050,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "_t_sec",
           "package": "time-exts",
@@ -1892,6 +2064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompute the date or time component duration between two timestamps.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "duration",
           "package": "time-exts",
@@ -1902,6 +2075,7 @@
         "index": {
           "description": "Compute the date or time component duration between two timestamps",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "duration",
           "normalized": "a-\u003ea-\u003eb",
@@ -1917,6 +2091,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the number of days that have\n   elapsed between Unix epoch and the given date.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "epochToDate",
           "package": "time-exts",
@@ -1927,6 +2102,7 @@
         "index": {
           "description": "Calculate the number of days that have elapsed between Unix epoch and the given date",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "epochToDate",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eDay",
@@ -1943,6 +2119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the number of seconds (excluding leap seconds)\n   that have elapsed between Unix epoch and the given time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "epochToTime",
           "package": "time-exts",
@@ -1953,6 +2130,7 @@
         "index": {
           "description": "Calculate the number of seconds excluding leap seconds that have elapsed between Unix epoch and the given time",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "epochToTime",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eSecond",
@@ -1969,6 +2147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from date components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateStruct",
           "package": "time-exts",
@@ -1979,6 +2158,7 @@
         "index": {
           "description": "Compose timestamp from date components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateStruct",
           "normalized": "DateStruct-\u003ea",
@@ -1995,6 +2175,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from date and time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateTimeStruct",
           "package": "time-exts",
@@ -2005,6 +2186,7 @@
         "index": {
           "description": "Compose timestamp from date and time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateTimeStruct",
           "normalized": "DateTimeStruct-\u003ea",
@@ -2021,6 +2203,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from date, time and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateTimeZoneStruct",
           "package": "time-exts",
@@ -2031,6 +2214,7 @@
         "index": {
           "description": "Compose timestamp from date time and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateTimeZoneStruct",
           "normalized": "DateTimeZoneStruct-\u003ea",
@@ -2047,6 +2231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from date and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateZoneStruct",
           "package": "time-exts",
@@ -2057,6 +2242,7 @@
         "index": {
           "description": "Compose timestamp from date and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromDateZoneStruct",
           "normalized": "DateZoneStruct-\u003ea",
@@ -2073,6 +2259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromTimeStruct",
           "package": "time-exts",
@@ -2083,6 +2270,7 @@
         "index": {
           "description": "Compose timestamp from time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromTimeStruct",
           "normalized": "TimeStruct-\u003ea",
@@ -2099,6 +2287,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCompose a timestamp from time and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "fromTimeZoneStruct",
           "package": "time-exts",
@@ -2109,6 +2298,7 @@
         "index": {
           "description": "Compose timestamp from time and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "fromTimeZoneStruct",
           "normalized": "TimeZoneStruct-\u003ea",
@@ -2124,6 +2314,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getDay",
           "package": "time-exts",
@@ -2133,6 +2324,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getDay",
           "package": "time-exts",
@@ -2146,6 +2338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getHour",
           "package": "time-exts",
@@ -2155,6 +2348,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getHour",
           "package": "time-exts",
@@ -2168,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getMicros",
           "package": "time-exts",
@@ -2177,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getMicros",
           "package": "time-exts",
@@ -2190,6 +2386,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getMillis",
           "package": "time-exts",
@@ -2199,6 +2396,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getMillis",
           "package": "time-exts",
@@ -2212,6 +2410,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getMinute",
           "package": "time-exts",
@@ -2221,6 +2420,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getMinute",
           "package": "time-exts",
@@ -2234,6 +2434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getNanos",
           "package": "time-exts",
@@ -2243,6 +2444,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getNanos",
           "package": "time-exts",
@@ -2256,6 +2458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getPicos",
           "package": "time-exts",
@@ -2265,6 +2468,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getPicos",
           "package": "time-exts",
@@ -2278,6 +2482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getSecond",
           "package": "time-exts",
@@ -2287,6 +2492,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getSecond",
           "package": "time-exts",
@@ -2300,6 +2506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "getYear",
           "package": "time-exts",
@@ -2309,6 +2516,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "getYear",
           "package": "time-exts",
@@ -2323,6 +2531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if the given year is a leap year.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "isLeapYear",
           "package": "time-exts",
@@ -2333,6 +2542,7 @@
         "index": {
           "description": "Check if the given year is leap year",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "isLeapYear",
           "normalized": "Year-\u003eBool",
@@ -2349,6 +2559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCalculate the number of seconds (excluding leap seconds)\n   that have elapsed between midnight and the given time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "midnightToTime",
           "package": "time-exts",
@@ -2359,6 +2570,7 @@
         "index": {
           "description": "Calculate the number of seconds excluding leap seconds that have elapsed between midnight and the given time",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "midnightToTime",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003eSecond",
@@ -2375,6 +2587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a timestamp with a date or time component.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "plus",
           "package": "time-exts",
@@ -2385,6 +2598,7 @@
         "index": {
           "description": "Add timestamp with date or time component",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "plus",
           "normalized": "a-\u003eb-\u003ea",
@@ -2400,6 +2614,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a floating point number into second and microsecond components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "properFracMicros",
           "package": "time-exts",
@@ -2410,6 +2625,7 @@
         "index": {
           "description": "Decompose floating point number into second and microsecond components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "properFracMicros",
           "normalized": "a-\u003e(Second,Micros)",
@@ -2426,6 +2642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a floating point number into second and millisecond components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "properFracMillis",
           "package": "time-exts",
@@ -2436,6 +2653,7 @@
         "index": {
           "description": "Decompose floating point number into second and millisecond components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "properFracMillis",
           "normalized": "a-\u003e(Second,Millis)",
@@ -2452,6 +2670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a floating point number into second and nanosecond components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "properFracNanos",
           "package": "time-exts",
@@ -2462,6 +2681,7 @@
         "index": {
           "description": "Decompose floating point number into second and nanosecond components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "properFracNanos",
           "normalized": "a-\u003e(Second,Nanos)",
@@ -2478,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a floating point number into second and picosecond components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "properFracPicos",
           "package": "time-exts",
@@ -2488,6 +2709,7 @@
         "index": {
           "description": "Decompose floating point number into second and picosecond components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "properFracPicos",
           "normalized": "a-\u003e(Second,Picos)",
@@ -2504,6 +2726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the pariod (ante or post meridiem) of the given hour.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "showPeriod",
           "package": "time-exts",
@@ -2514,6 +2737,7 @@
         "index": {
           "description": "Show the pariod ante or post meridiem of the given hour",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "showPeriod",
           "normalized": "Hour-\u003eString",
@@ -2530,6 +2754,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow the suffix of the given day of the month.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "showSuffix",
           "package": "time-exts",
@@ -2540,6 +2765,7 @@
         "index": {
           "description": "Show the suffix of the given day of the month",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "showSuffix",
           "normalized": "Day-\u003eString",
@@ -2556,6 +2782,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into date components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toDateStruct",
           "package": "time-exts",
@@ -2566,6 +2793,7 @@
         "index": {
           "description": "Decompose timestamp into date components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toDateStruct",
           "normalized": "a-\u003eDateStruct",
@@ -2582,6 +2810,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into date and time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toDateTimeStruct",
           "package": "time-exts",
@@ -2592,6 +2821,7 @@
         "index": {
           "description": "Decompose timestamp into date and time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toDateTimeStruct",
           "normalized": "a-\u003eDateTimeStruct",
@@ -2608,6 +2838,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into date, time and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toDateTimeZoneStruct",
           "package": "time-exts",
@@ -2618,6 +2849,7 @@
         "index": {
           "description": "Decompose timestamp into date time and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toDateTimeZoneStruct",
           "normalized": "a-\u003eDateTimeZoneStruct",
@@ -2634,6 +2866,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into date and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toDateZoneStruct",
           "package": "time-exts",
@@ -2644,6 +2877,7 @@
         "index": {
           "description": "Decompose timestamp into date and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toDateZoneStruct",
           "normalized": "a-\u003eDateZoneStruct",
@@ -2660,6 +2894,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into time components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeStruct",
           "package": "time-exts",
@@ -2670,6 +2905,7 @@
         "index": {
           "description": "Decompose timestamp into time components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeStruct",
           "normalized": "a-\u003eTimeStruct",
@@ -2686,6 +2922,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChange the time zone of a timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeZone",
           "package": "time-exts",
@@ -2696,6 +2933,7 @@
         "index": {
           "description": "Change the time zone of timestamp",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeZone",
           "normalized": "a-\u003eTimeZone-\u003ea",
@@ -2712,6 +2950,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecompose a timestamp into time and time zone components.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeZoneStruct",
           "package": "time-exts",
@@ -2722,6 +2961,7 @@
         "index": {
           "description": "Decompose timestamp into time and time zone components",
           "hierarchy": "Data Time Exts Base",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Base",
           "name": "toTimeZoneStruct",
           "normalized": "a-\u003eTimeZoneStruct",
@@ -2738,6 +2978,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eHaskell bindings to the C time library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "C",
           "package": "time-exts",
@@ -2747,6 +2988,7 @@
         "index": {
           "description": "Haskell bindings to the time library",
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "C",
           "package": "time-exts",
@@ -2759,6 +3001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "C'timeval",
           "package": "time-exts",
@@ -2767,6 +3010,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "C'timeval",
           "package": "time-exts",
@@ -2780,6 +3024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "C'tm",
           "package": "time-exts",
@@ -2788,6 +3033,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "C'tm",
           "package": "time-exts",
@@ -2801,6 +3047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "C'timeval",
           "package": "time-exts",
@@ -2810,6 +3057,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "C'timeval",
           "package": "time-exts",
@@ -2823,6 +3071,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "C'tm",
           "package": "time-exts",
@@ -2832,6 +3081,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "C'tm",
           "package": "time-exts",
@@ -2845,6 +3095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'gettimeofday",
           "package": "time-exts",
@@ -2854,6 +3105,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'gettimeofday",
           "normalized": "Ptr C'timeval-\u003ePtr()-\u003eIO CInt",
@@ -2868,6 +3120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'gmtime_r",
           "package": "time-exts",
@@ -2877,6 +3130,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'gmtime_r",
           "normalized": "Ptr CTime-\u003ePtr C'tm-\u003eIO(Ptr C'tm)",
@@ -2891,6 +3145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'timegm",
           "package": "time-exts",
@@ -2900,6 +3155,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'timegm",
           "normalized": "Ptr C'tm-\u003eIO CTime",
@@ -2914,6 +3170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'timeval'tv_sec",
           "package": "time-exts",
@@ -2923,6 +3180,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'timeval'tv_sec",
           "package": "time-exts",
@@ -2935,6 +3193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'timeval'tv_usec",
           "package": "time-exts",
@@ -2944,6 +3203,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'timeval'tv_usec",
           "package": "time-exts",
@@ -2956,6 +3216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_gmtoff",
           "package": "time-exts",
@@ -2965,6 +3226,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_gmtoff",
           "package": "time-exts",
@@ -2977,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_hour",
           "package": "time-exts",
@@ -2986,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_hour",
           "package": "time-exts",
@@ -2998,6 +3262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_isdst",
           "package": "time-exts",
@@ -3007,6 +3272,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_isdst",
           "package": "time-exts",
@@ -3019,6 +3285,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_mday",
           "package": "time-exts",
@@ -3028,6 +3295,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_mday",
           "package": "time-exts",
@@ -3040,6 +3308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_min",
           "package": "time-exts",
@@ -3049,6 +3318,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_min",
           "package": "time-exts",
@@ -3061,6 +3331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_mon",
           "package": "time-exts",
@@ -3070,6 +3341,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_mon",
           "package": "time-exts",
@@ -3082,6 +3354,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_sec",
           "package": "time-exts",
@@ -3091,6 +3364,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_sec",
           "package": "time-exts",
@@ -3103,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_wday",
           "package": "time-exts",
@@ -3112,6 +3387,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_wday",
           "package": "time-exts",
@@ -3124,6 +3400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_yday",
           "package": "time-exts",
@@ -3133,6 +3410,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_yday",
           "package": "time-exts",
@@ -3145,6 +3423,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_year",
           "package": "time-exts",
@@ -3154,6 +3433,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_year",
           "package": "time-exts",
@@ -3166,6 +3446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_zone",
           "package": "time-exts",
@@ -3175,6 +3456,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "c'tm'tm_zone",
           "package": "time-exts",
@@ -3188,6 +3470,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time from the system clock.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "getTimeOfDay",
           "package": "time-exts",
@@ -3198,6 +3481,7 @@
         "index": {
           "description": "Get the current Unix date and time from the system clock",
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "getTimeOfDay",
           "package": "time-exts",
@@ -3211,6 +3495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'gettimeofday",
           "package": "time-exts",
@@ -3220,6 +3505,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'gettimeofday",
           "normalized": "FunPtr(Ptr C'timeval-\u003ePtr()-\u003eIO CInt)",
@@ -3234,6 +3520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'gmtime_r",
           "package": "time-exts",
@@ -3243,6 +3530,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'gmtime_r",
           "normalized": "FunPtr(Ptr CTime-\u003ePtr C'tm-\u003eIO(Ptr C'tm))",
@@ -3257,6 +3545,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'timegm",
           "package": "time-exts",
@@ -3266,6 +3555,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'timegm",
           "normalized": "FunPtr(Ptr C'tm-\u003eIO CTime)",
@@ -3280,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'timeval'tv_sec",
           "package": "time-exts",
@@ -3289,6 +3580,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'timeval'tv_sec",
           "normalized": "Ptr C'timeval-\u003ePtr CLong",
@@ -3303,6 +3595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'timeval'tv_usec",
           "package": "time-exts",
@@ -3312,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'timeval'tv_usec",
           "normalized": "Ptr C'timeval-\u003ePtr CLong",
@@ -3326,6 +3620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_gmtoff",
           "package": "time-exts",
@@ -3335,6 +3630,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_gmtoff",
           "normalized": "Ptr C'tm-\u003ePtr CLong",
@@ -3349,6 +3645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_hour",
           "package": "time-exts",
@@ -3358,6 +3655,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_hour",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3372,6 +3670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_isdst",
           "package": "time-exts",
@@ -3381,6 +3680,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_isdst",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3395,6 +3695,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_mday",
           "package": "time-exts",
@@ -3404,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_mday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3418,6 +3720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_min",
           "package": "time-exts",
@@ -3427,6 +3730,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_min",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3441,6 +3745,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_mon",
           "package": "time-exts",
@@ -3450,6 +3755,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_mon",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3464,6 +3770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_sec",
           "package": "time-exts",
@@ -3473,6 +3780,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_sec",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3487,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_wday",
           "package": "time-exts",
@@ -3496,6 +3805,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_wday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3510,6 +3820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_yday",
           "package": "time-exts",
@@ -3519,6 +3830,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_yday",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3533,6 +3845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_year",
           "package": "time-exts",
@@ -3542,6 +3855,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_year",
           "normalized": "Ptr C'tm-\u003ePtr CInt",
@@ -3556,6 +3870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_zone",
           "package": "time-exts",
@@ -3565,6 +3880,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts C",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.C",
           "name": "p'tm'tm_zone",
           "normalized": "Ptr C'tm-\u003ePtr CString",
@@ -3580,6 +3896,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocal timestamps of varying granularity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "Local",
           "package": "time-exts",
@@ -3589,6 +3906,7 @@
         "index": {
           "description": "Local timestamps of varying granularity",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "Local",
           "package": "time-exts",
@@ -3603,6 +3921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe local timestamp type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "Local",
           "package": "time-exts",
@@ -3612,6 +3931,7 @@
         "index": {
           "description": "The local timestamp type class",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "Local",
           "package": "time-exts",
@@ -3626,6 +3946,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDays since Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDate",
           "package": "time-exts",
@@ -3635,6 +3956,7 @@
         "index": {
           "description": "Days since Unix epoch",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDate",
           "package": "time-exts",
@@ -3649,6 +3971,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds since Unix epoch (including leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTime",
           "package": "time-exts",
@@ -3658,6 +3981,7 @@
         "index": {
           "description": "Seconds since Unix epoch including leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTime",
           "package": "time-exts",
@@ -3672,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicroseconds since Unix epoch (including leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMicros",
           "package": "time-exts",
@@ -3681,6 +4006,7 @@
         "index": {
           "description": "Microseconds since Unix epoch including leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMicros",
           "package": "time-exts",
@@ -3695,6 +4021,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMilliseconds since Unix epoch (including leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMillis",
           "package": "time-exts",
@@ -3704,6 +4031,7 @@
         "index": {
           "description": "Milliseconds since Unix epoch including leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMillis",
           "package": "time-exts",
@@ -3718,6 +4046,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNanoseconds since Unix epoch (including leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeNanos",
           "package": "time-exts",
@@ -3727,6 +4056,7 @@
         "index": {
           "description": "Nanoseconds since Unix epoch including leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeNanos",
           "package": "time-exts",
@@ -3741,6 +4071,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicoseconds since Unix epoch (including leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimePicos",
           "package": "time-exts",
@@ -3750,6 +4081,7 @@
         "index": {
           "description": "Picoseconds since Unix epoch including leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimePicos",
           "package": "time-exts",
@@ -3764,6 +4096,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zone transition time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "Transition",
           "package": "time-exts",
@@ -3773,6 +4106,7 @@
         "index": {
           "description": "Time zone transition time",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "Transition",
           "package": "time-exts",
@@ -3786,6 +4120,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDate",
           "package": "time-exts",
@@ -3795,6 +4130,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDate",
           "package": "time-exts",
@@ -3808,6 +4144,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTime",
           "package": "time-exts",
@@ -3817,6 +4154,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTime",
           "package": "time-exts",
@@ -3830,6 +4168,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMicros",
           "package": "time-exts",
@@ -3839,6 +4178,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMicros",
           "package": "time-exts",
@@ -3852,6 +4192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMillis",
           "package": "time-exts",
@@ -3861,6 +4202,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeMillis",
           "package": "time-exts",
@@ -3874,6 +4216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeNanos",
           "package": "time-exts",
@@ -3883,6 +4226,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimeNanos",
           "package": "time-exts",
@@ -3896,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimePicos",
           "package": "time-exts",
@@ -3905,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "LocalDateTimePicos",
           "package": "time-exts",
@@ -3918,6 +4264,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "Transition",
           "package": "time-exts",
@@ -3927,6 +4274,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "Transition",
           "package": "time-exts",
@@ -3940,6 +4288,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ld_day_base",
           "package": "time-exts",
@@ -3949,6 +4298,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ld_day_base",
           "package": "time-exts",
@@ -3961,6 +4311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ld_day_zone",
           "package": "time-exts",
@@ -3970,6 +4321,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ld_day_zone",
           "package": "time-exts",
@@ -3982,6 +4334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mic_base",
           "package": "time-exts",
@@ -3991,6 +4344,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mic_base",
           "package": "time-exts",
@@ -4003,6 +4357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mic_zone",
           "package": "time-exts",
@@ -4012,6 +4367,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mic_zone",
           "package": "time-exts",
@@ -4024,6 +4380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mil_base",
           "package": "time-exts",
@@ -4033,6 +4390,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mil_base",
           "package": "time-exts",
@@ -4045,6 +4403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mil_zone",
           "package": "time-exts",
@@ -4054,6 +4413,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_mil_zone",
           "package": "time-exts",
@@ -4066,6 +4426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_base",
           "package": "time-exts",
@@ -4075,6 +4436,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_base",
           "package": "time-exts",
@@ -4087,6 +4449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_nano",
           "package": "time-exts",
@@ -4096,6 +4459,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_nano",
           "package": "time-exts",
@@ -4108,6 +4472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_zone",
           "package": "time-exts",
@@ -4117,6 +4482,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_nan_zone",
           "package": "time-exts",
@@ -4129,6 +4495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_base",
           "package": "time-exts",
@@ -4138,6 +4505,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_base",
           "package": "time-exts",
@@ -4150,6 +4518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_pico",
           "package": "time-exts",
@@ -4159,6 +4528,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_pico",
           "package": "time-exts",
@@ -4171,6 +4541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_zone",
           "package": "time-exts",
@@ -4180,6 +4551,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_pic_zone",
           "package": "time-exts",
@@ -4192,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_sec_base",
           "package": "time-exts",
@@ -4201,6 +4574,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_sec_base",
           "package": "time-exts",
@@ -4213,6 +4587,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_sec_zone",
           "package": "time-exts",
@@ -4222,6 +4597,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "_ldt_sec_zone",
           "package": "time-exts",
@@ -4235,6 +4611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert UTC seconds into Unix and leap seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "baseUTCToUnix",
           "package": "time-exts",
@@ -4245,6 +4622,7 @@
         "index": {
           "description": "Convert UTC seconds into Unix and leap seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "baseUTCToUnix",
           "normalized": "Int-\u003e(Int,Double)",
@@ -4261,6 +4639,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert Unix seconds into a UTC seconds.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "baseUnixToUTC",
           "package": "time-exts",
@@ -4271,6 +4650,7 @@
         "index": {
           "description": "Convert Unix seconds into UTC seconds",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "baseUnixToUTC",
           "normalized": "Int-\u003eInt",
@@ -4287,6 +4667,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDate 2013 November 03 Pacific_Standard_Time\n 2013-11-03 PST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDate",
           "package": "time-exts",
@@ -4297,6 +4678,7 @@
         "index": {
           "description": "Create local date createLocalDate November Pacific Standard Time PST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDate",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eTimeZone-\u003eLocalDate",
@@ -4313,6 +4695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date and time.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDateTime 2013 November 03 22 55 52 South_Africa_Standard_Time\n 2013-11-03 22:55:52 SAST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTime",
           "package": "time-exts",
@@ -4323,6 +4706,7 @@
         "index": {
           "description": "Create local date and time createLocalDateTime November South Africa Standard Time SAST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTime",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eTimeZone-\u003eLocalDateTime",
@@ -4339,6 +4723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date and time with microsecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDateTimeMicros 2013 November 03 21 01 42 903539 Coordinated_Universal_Time \n 2013-11-03 21:01:42.903539 UTC\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeMicros",
           "package": "time-exts",
@@ -4349,6 +4734,7 @@
         "index": {
           "description": "Create local date and time with microsecond granularity createLocalDateTimeMicros November Coordinated Universal Time UTC",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeMicros",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eMicros-\u003eTimeZone-\u003eLocalDateTimeMicros",
@@ -4365,6 +4751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date and time with millisecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDateTimeMillis 2013 November 03 13 57 43 830 Mountain_Standard_Time\n 2013-11-03 13:57:43.830 MST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeMillis",
           "package": "time-exts",
@@ -4375,6 +4762,7 @@
         "index": {
           "description": "Create local date and time with millisecond granularity createLocalDateTimeMillis November Mountain Standard Time MST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeMillis",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eMillis-\u003eTimeZone-\u003eLocalDateTimeMillis",
@@ -4391,6 +4779,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date and time with nanosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDateTimeNanos 2013 November 04 06 05 07 016715087 Japan_Standard_Time\n 2013-11-04 06:05:07.016715087 JST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeNanos",
           "package": "time-exts",
@@ -4401,6 +4790,7 @@
         "index": {
           "description": "Create local date and time with nanosecond granularity createLocalDateTimeNanos November Japan Standard Time JST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimeNanos",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eNanos-\u003eTimeZone-\u003eLocalDateTimeNanos",
@@ -4417,6 +4807,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a local date and time with picosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createLocalDateTimePicos 2013 November 03 23 13 56 838238648311 Eastern_European_Time\n 2013-11-03 23:13:56.838238648311 EET\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimePicos",
           "package": "time-exts",
@@ -4427,6 +4818,7 @@
         "index": {
           "description": "Create local date and time with picosecond granularity createLocalDateTimePicos November Eastern European Time EET",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "createLocalDateTimePicos",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003ePicos-\u003eTimeZone-\u003eLocalDateTimePicos",
@@ -4443,6 +4835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDate London \n 2013-11-03 GMT\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDate",
           "package": "time-exts",
@@ -4453,6 +4846,7 @@
         "index": {
           "description": "Get the current local date from the system clock getCurrentLocalDate London GMT",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDate",
           "normalized": "City-\u003eIO LocalDate",
@@ -4469,6 +4863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date from the system clock using preloaded transition times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Tokyo \n \u003e\u003e\u003e getCurrentLocalDate' ttimes\n 2013-11-04 JST\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date more than once. The\n   use of preloaded transition times will avoid unnecessary parsing of Olson files. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDate'",
           "package": "time-exts",
@@ -4479,6 +4874,7 @@
         "index": {
           "description": "Get the current local date from the system clock using preloaded transition times ttimes getTransitions Tokyo getCurrentLocalDate ttimes JST Use this function if you need to get the current local date more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDate'",
           "normalized": "[Transition]-\u003eIO LocalDate",
@@ -4495,6 +4891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTime New_York \n 2013-11-03 16:38:16 EST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTime",
           "package": "time-exts",
@@ -4505,6 +4902,7 @@
         "index": {
           "description": "Get the current local date and time from the system clock getCurrentLocalDateTime New York EST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTime",
           "normalized": "City-\u003eIO LocalDateTime",
@@ -4521,6 +4919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time from the system clock using preloaded transition\n   times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Moscow\n \u003e\u003e\u003e getCurrentLocalDateTime' ttimes\n 2013-11-04 01:41:50 MSK\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date and time more than once.\n   The use of preloaded transition times will avoid unnecessary parsing of Olson files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTime'",
           "package": "time-exts",
@@ -4531,6 +4930,7 @@
         "index": {
           "description": "Get the current local date and time from the system clock using preloaded transition times ttimes getTransitions Moscow getCurrentLocalDateTime ttimes MSK Use this function if you need to get the current local date and time more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTime'",
           "normalized": "[Transition]-\u003eIO LocalDateTime",
@@ -4547,6 +4947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with microsecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTimeMicros Tel_Aviv \n 2013-11-03 23:55:30.935387 IST\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMicros",
           "package": "time-exts",
@@ -4557,6 +4958,7 @@
         "index": {
           "description": "Get the current local date and time with microsecond granularity from the system clock getCurrentLocalDateTimeMicros Tel Aviv IST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMicros",
           "normalized": "City-\u003eIO LocalDateTimeMicros",
@@ -4573,6 +4975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with microsecond granularity from the system clock\n   using preloaded transition times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Sao_Paulo\n \u003e\u003e\u003e getCurrentLocalDateTimeMicros' ttimes\n 2013-11-03 19:58:50.405806 BRST\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date and time with microsecond\n   granularity more than once. The use of preloaded transition times will avoid unnecessary\n   parsing of Olson files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMicros'",
           "package": "time-exts",
@@ -4583,6 +4986,7 @@
         "index": {
           "description": "Get the current local date and time with microsecond granularity from the system clock using preloaded transition times ttimes getTransitions Sao Paulo getCurrentLocalDateTimeMicros ttimes BRST Use this function if you need to get the current local date and time with microsecond granularity more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMicros'",
           "normalized": "[Transition]-\u003eIO LocalDateTimeMicros",
@@ -4599,6 +5003,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with millisecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTimeMillis Auckland\n 2013-11-04 10:46:13.123 NZDT\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMillis",
           "package": "time-exts",
@@ -4609,6 +5014,7 @@
         "index": {
           "description": "Get the current local date and time with millisecond granularity from the system clock getCurrentLocalDateTimeMillis Auckland NZDT",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMillis",
           "normalized": "City-\u003eIO LocalDateTimeMillis",
@@ -4625,6 +5031,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with millisecond granularity from the system clock\n   using preloaded transition times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Tehran\n \u003e\u003e\u003e getCurrentLocalDateTimeMillis' ttimes\n 2013-11-04 01:20:49.435 IRST\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date and time with millisecond\n   granularity more than once. The use of preloaded transition times will avoid unnecessary\n   parsing of Olson files.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMillis'",
           "package": "time-exts",
@@ -4635,6 +5042,7 @@
         "index": {
           "description": "Get the current local date and time with millisecond granularity from the system clock using preloaded transition times ttimes getTransitions Tehran getCurrentLocalDateTimeMillis ttimes IRST Use this function if you need to get the current local date and time with millisecond granularity more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeMillis'",
           "normalized": "[Transition]-\u003eIO LocalDateTimeMillis",
@@ -4651,6 +5059,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with nanosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTimeNanos Brussels \n 2013-11-03 23:01:07.337488000 CET\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the resultant\n   timestamp will have nanosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeNanos",
           "package": "time-exts",
@@ -4661,6 +5070,7 @@
         "index": {
           "description": "Get the current local date and time with nanosecond granularity from the system clock getCurrentLocalDateTimeNanos Brussels CET Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have nanosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeNanos",
           "normalized": "City-\u003eIO LocalDateTimeNanos",
@@ -4677,6 +5087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with nanosecond granularity from the system clock\n   using preloaded transition times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Mogadishu\n \u003e\u003e\u003e getCurrentLocalDateTimeNanos' ttimes\n 2013-11-04 01:15:08.664426000 EAT\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date and time with nanosecond\n   granularity more than once. The use of preloaded transition times will avoid unnecessary\n   parsing of Olson files.\n\u003c/p\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the resultant\n   timestamp will have nanosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeNanos'",
           "package": "time-exts",
@@ -4687,6 +5098,7 @@
         "index": {
           "description": "Get the current local date and time with nanosecond granularity from the system clock using preloaded transition times ttimes getTransitions Mogadishu getCurrentLocalDateTimeNanos ttimes EAT Use this function if you need to get the current local date and time with nanosecond granularity more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have nanosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimeNanos'",
           "normalized": "[Transition]-\u003eIO LocalDateTimeNanos",
@@ -4703,6 +5115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with picosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTimePicos Karachi\n 2013-11-04 22:05:17.556043000000 PKT\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the resultant\n   timestamp will have picosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimePicos",
           "package": "time-exts",
@@ -4713,6 +5126,7 @@
         "index": {
           "description": "Get the current local date and time with picosecond granularity from the system clock getCurrentLocalDateTimePicos Karachi PKT Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have picosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimePicos",
           "normalized": "City-\u003eIO LocalDateTimePicos",
@@ -4729,6 +5143,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current local date and time with picosecond granularity from the system clock using\n   preloaded transition times.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e ttimes \u003c- getTransitions Baghdad\n \u003e\u003e\u003e getCurrentLocalDateTimePicos' ttimes\n 2013-11-04 01:20:57.502906000000 AST\n\u003c/pre\u003e\u003cp\u003eUse this function if you need to get the current local date and time with picosecond\n   granularity more than once. The use of preloaded transition times will avoid unnecessary\n   parsing of Olson files.\n\u003c/p\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the resultant\n   timestamp will have picosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimePicos'",
           "package": "time-exts",
@@ -4739,6 +5154,7 @@
         "index": {
           "description": "Get the current local date and time with picosecond granularity from the system clock using preloaded transition times ttimes getTransitions Baghdad getCurrentLocalDateTimePicos ttimes AST Use this function if you need to get the current local date and time with picosecond granularity more than once The use of preloaded transition times will avoid unnecessary parsing of Olson files Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have picosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getCurrentLocalDateTimePicos'",
           "normalized": "[Transition]-\u003eIO LocalDateTimePicos",
@@ -4755,6 +5171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of time zone transition times for the given city.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "getTransitions",
           "package": "time-exts",
@@ -4765,6 +5182,7 @@
         "index": {
           "description": "Get list of time zone transition times for the given city",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "getTransitions",
           "normalized": "City-\u003eIO[Transition]",
@@ -4781,6 +5199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the last time zone transition time for the given city and time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "lastTransition",
           "package": "time-exts",
@@ -4791,6 +5210,7 @@
         "index": {
           "description": "Get the last time zone transition time for the given city and time",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "lastTransition",
           "normalized": "City-\u003ea-\u003eIO(Maybe Transition)",
@@ -4807,6 +5227,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the base component of a local timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "localBase",
           "package": "time-exts",
@@ -4817,6 +5238,7 @@
         "index": {
           "description": "Get the base component of local timestamp",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "localBase",
           "normalized": "a-\u003eInt",
@@ -4833,6 +5255,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the zone component of a local timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "localZone",
           "package": "time-exts",
@@ -4843,6 +5266,7 @@
         "index": {
           "description": "Get the zone component of local timestamp",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "localZone",
           "normalized": "a-\u003eWord",
@@ -4859,6 +5283,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a local date as a pretty string.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e prettyLocalDate $ createLocalDate 2014 September 25 Japan_Standard_Time \n \"Thursday, September 25th, 2014 (JST)\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "prettyLocalDate",
           "package": "time-exts",
@@ -4869,6 +5294,7 @@
         "index": {
           "description": "Show local date as pretty string prettyLocalDate createLocalDate September Japan Standard Time Thursday September th JST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "prettyLocalDate",
           "normalized": "LocalDate-\u003eString",
@@ -4885,6 +5311,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a local date and time as a pretty string.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentLocalDateTime Los_Angeles \u003e\u003e= return . prettyLocalDateTime \n \"2:17 AM, Wednesday, January 1st, 2014 (PST)\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "prettyLocalDateTime",
           "package": "time-exts",
@@ -4895,6 +5322,7 @@
         "index": {
           "description": "Show local date and time as pretty string getCurrentLocalDateTime Los Angeles return prettyLocalDateTime AM Wednesday January st PST",
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "prettyLocalDateTime",
           "normalized": "a-\u003eString",
@@ -4910,6 +5338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Local",
           "name": "unboxTrans",
           "package": "time-exts",
@@ -4919,6 +5348,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Local",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Local",
           "name": "unboxTrans",
           "package": "time-exts",
@@ -4933,6 +5363,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUnix timestamps of varying granularity.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "Unix",
           "package": "time-exts",
@@ -4942,6 +5373,7 @@
         "index": {
           "description": "Unix timestamps of varying granularity",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "Unix",
           "package": "time-exts",
@@ -4956,6 +5388,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe Unix timestamp type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "Unix",
           "package": "time-exts",
@@ -4965,6 +5398,7 @@
         "index": {
           "description": "The Unix timestamp type class",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "Unix",
           "package": "time-exts",
@@ -4979,6 +5413,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDays since Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDate",
           "package": "time-exts",
@@ -4988,6 +5423,7 @@
         "index": {
           "description": "Days since Unix epoch",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDate",
           "package": "time-exts",
@@ -5002,6 +5438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds since Unix epoch (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTime",
           "package": "time-exts",
@@ -5011,6 +5448,7 @@
         "index": {
           "description": "Seconds since Unix epoch excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTime",
           "package": "time-exts",
@@ -5025,6 +5463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicroseconds since Unix epoch (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMicros",
           "package": "time-exts",
@@ -5034,6 +5473,7 @@
         "index": {
           "description": "Microseconds since Unix epoch excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMicros",
           "package": "time-exts",
@@ -5048,6 +5488,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMilliseconds since Unix epoch (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMillis",
           "package": "time-exts",
@@ -5057,6 +5498,7 @@
         "index": {
           "description": "Milliseconds since Unix epoch excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMillis",
           "package": "time-exts",
@@ -5071,6 +5513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNanoseconds since Unix epoch (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeNanos",
           "package": "time-exts",
@@ -5080,6 +5523,7 @@
         "index": {
           "description": "Nanoseconds since Unix epoch excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeNanos",
           "package": "time-exts",
@@ -5094,6 +5538,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicoseconds since Unix epoch (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimePicos",
           "package": "time-exts",
@@ -5103,6 +5548,7 @@
         "index": {
           "description": "Picoseconds since Unix epoch excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimePicos",
           "package": "time-exts",
@@ -5117,6 +5563,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSeconds since midnight (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTime",
           "package": "time-exts",
@@ -5126,6 +5573,7 @@
         "index": {
           "description": "Seconds since midnight excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTime",
           "package": "time-exts",
@@ -5140,6 +5588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMicroseconds since midnight (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMicros",
           "package": "time-exts",
@@ -5149,6 +5598,7 @@
         "index": {
           "description": "Microseconds since midnight excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMicros",
           "package": "time-exts",
@@ -5163,6 +5613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMilliseconds since midnight (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMillis",
           "package": "time-exts",
@@ -5172,6 +5623,7 @@
         "index": {
           "description": "Milliseconds since midnight excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMillis",
           "package": "time-exts",
@@ -5186,6 +5638,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNanoseconds since midnight (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeNanos",
           "package": "time-exts",
@@ -5195,6 +5648,7 @@
         "index": {
           "description": "Nanoseconds since midnight excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeNanos",
           "package": "time-exts",
@@ -5209,6 +5663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePicoseconds since midnight (excluding leap seconds).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimePicos",
           "package": "time-exts",
@@ -5218,6 +5673,7 @@
         "index": {
           "description": "Picoseconds since midnight excluding leap seconds",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimePicos",
           "package": "time-exts",
@@ -5231,6 +5687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDate",
           "package": "time-exts",
@@ -5240,6 +5697,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDate",
           "package": "time-exts",
@@ -5253,6 +5711,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTime",
           "package": "time-exts",
@@ -5262,6 +5721,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTime",
           "package": "time-exts",
@@ -5275,6 +5735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMicros",
           "package": "time-exts",
@@ -5284,6 +5745,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMicros",
           "package": "time-exts",
@@ -5297,6 +5759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMillis",
           "package": "time-exts",
@@ -5306,6 +5769,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeMillis",
           "package": "time-exts",
@@ -5319,6 +5783,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeNanos",
           "package": "time-exts",
@@ -5328,6 +5793,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimeNanos",
           "package": "time-exts",
@@ -5341,6 +5807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimePicos",
           "package": "time-exts",
@@ -5350,6 +5817,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixDateTimePicos",
           "package": "time-exts",
@@ -5363,6 +5831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTime",
           "package": "time-exts",
@@ -5372,6 +5841,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTime",
           "package": "time-exts",
@@ -5385,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMicros",
           "package": "time-exts",
@@ -5394,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMicros",
           "package": "time-exts",
@@ -5407,6 +5879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMillis",
           "package": "time-exts",
@@ -5416,6 +5889,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeMillis",
           "package": "time-exts",
@@ -5429,6 +5903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeNanos",
           "package": "time-exts",
@@ -5438,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimeNanos",
           "package": "time-exts",
@@ -5451,6 +5927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimePicos",
           "package": "time-exts",
@@ -5460,6 +5937,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "UnixTimePicos",
           "package": "time-exts",
@@ -5473,6 +5951,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ud_day_base",
           "package": "time-exts",
@@ -5482,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ud_day_base",
           "package": "time-exts",
@@ -5494,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_mic_base",
           "package": "time-exts",
@@ -5503,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_mic_base",
           "package": "time-exts",
@@ -5515,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_mil_base",
           "package": "time-exts",
@@ -5524,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_mil_base",
           "package": "time-exts",
@@ -5536,6 +6020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_nan_base",
           "package": "time-exts",
@@ -5545,6 +6030,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_nan_base",
           "package": "time-exts",
@@ -5557,6 +6043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_nan_nano",
           "package": "time-exts",
@@ -5566,6 +6053,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_nan_nano",
           "package": "time-exts",
@@ -5578,6 +6066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_pic_base",
           "package": "time-exts",
@@ -5587,6 +6076,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_pic_base",
           "package": "time-exts",
@@ -5599,6 +6089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_pic_pico",
           "package": "time-exts",
@@ -5608,6 +6099,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_pic_pico",
           "package": "time-exts",
@@ -5620,6 +6112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_sec_base",
           "package": "time-exts",
@@ -5629,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_udt_sec_base",
           "package": "time-exts",
@@ -5641,6 +6135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_mic_base",
           "package": "time-exts",
@@ -5650,6 +6145,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_mic_base",
           "package": "time-exts",
@@ -5662,6 +6158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_mil_base",
           "package": "time-exts",
@@ -5671,6 +6168,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_mil_base",
           "package": "time-exts",
@@ -5683,6 +6181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_nan_base",
           "package": "time-exts",
@@ -5692,6 +6191,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_nan_base",
           "package": "time-exts",
@@ -5704,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_pic_base",
           "package": "time-exts",
@@ -5713,6 +6214,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_pic_base",
           "package": "time-exts",
@@ -5725,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_sec_base",
           "package": "time-exts",
@@ -5734,6 +6237,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "_ut_sec_base",
           "package": "time-exts",
@@ -5747,6 +6251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDate 2013 November 3\n 2013-11-03\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDate",
           "package": "time-exts",
@@ -5757,6 +6262,7 @@
         "index": {
           "description": "Create Unix date createUnixDate November",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDate",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eUnixDate",
@@ -5773,6 +6279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date and time.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDateTime 2012 April 27 7 37 30\n 2012-04-27 07:37:30\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTime",
           "package": "time-exts",
@@ -5783,6 +6290,7 @@
         "index": {
           "description": "Create Unix date and time createUnixDateTime April",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTime",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eUnixDateTime",
@@ -5799,6 +6307,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date and time with microsecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDateTimeMicros 2011 January 22 17 34 13 138563\n 2011-01-22 17:34:13.138563\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeMicros",
           "package": "time-exts",
@@ -5809,6 +6318,7 @@
         "index": {
           "description": "Create Unix date and time with microsecond granularity createUnixDateTimeMicros January",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeMicros",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eMicros-\u003eUnixDateTimeMicros",
@@ -5825,6 +6335,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date and time with millisecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDateTimeMillis 2014 February 2 8 52 37 983\n 2014-02-02 08:52:37.983\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeMillis",
           "package": "time-exts",
@@ -5835,6 +6346,7 @@
         "index": {
           "description": "Create Unix date and time with millisecond granularity createUnixDateTimeMillis February",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeMillis",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eMillis-\u003eUnixDateTimeMillis",
@@ -5851,6 +6363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date and time with nanosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDateTimeNanos 2012 June 28 1 30 35 688279651\n 2012-06-28 01:30:35.688279651\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeNanos",
           "package": "time-exts",
@@ -5861,6 +6374,7 @@
         "index": {
           "description": "Create Unix date and time with nanosecond granularity createUnixDateTimeNanos June",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimeNanos",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003eNanos-\u003eUnixDateTimeNanos",
@@ -5877,6 +6391,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix date and time with picosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixDateTimePicos 2014 August 2 10 57 54 809479393286\n 2014-08-02 10:57:54.809479393286\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimePicos",
           "package": "time-exts",
@@ -5887,6 +6402,7 @@
         "index": {
           "description": "Create Unix date and time with picosecond granularity createUnixDateTimePicos August",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixDateTimePicos",
           "normalized": "Year-\u003eMonth-\u003eDay-\u003eHour-\u003eMinute-\u003eSecond-\u003ePicos-\u003eUnixDateTimePicos",
@@ -5903,6 +6419,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix time.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixTime 4 52 7\n 04:52:07\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTime",
           "package": "time-exts",
@@ -5913,6 +6430,7 @@
         "index": {
           "description": "Create Unix time createUnixTime",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTime",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003eUnixTime",
@@ -5929,6 +6447,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix time with microsecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixTimeMicros 10 6 33 575630\n 10:06:33.575630\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeMicros",
           "package": "time-exts",
@@ -5939,6 +6458,7 @@
         "index": {
           "description": "Create Unix time with microsecond granularity createUnixTimeMicros",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeMicros",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003eMicros-\u003eUnixTimeMicros",
@@ -5955,6 +6475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix time with millisecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixTimeMillis 15 22 47 2\n 15:22:47.002\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeMillis",
           "package": "time-exts",
@@ -5965,6 +6486,7 @@
         "index": {
           "description": "Create Unix time with millisecond granularity createUnixTimeMillis",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeMillis",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003eMillis-\u003eUnixTimeMillis",
@@ -5981,6 +6503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix time with nanosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixTimeNanos 23 19 54 465837593\n 23:19:54.465837593\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeNanos",
           "package": "time-exts",
@@ -5991,6 +6514,7 @@
         "index": {
           "description": "Create Unix time with nanosecond granularity createUnixTimeNanos",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimeNanos",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003eNanos-\u003eUnixTimeNanos",
@@ -6007,6 +6531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a Unix time with picosecond granularity.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e createUnixTimePicos 17 25 36 759230473534\n 17:25:36.759230473534\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimePicos",
           "package": "time-exts",
@@ -6017,6 +6542,7 @@
         "index": {
           "description": "Create Unix time with picosecond granularity createUnixTimePicos",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "createUnixTimePicos",
           "normalized": "Hour-\u003eMinute-\u003eSecond-\u003ePicos-\u003eUnixTimePicos",
@@ -6033,6 +6559,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDate\n 2013-11-03\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDate",
           "package": "time-exts",
@@ -6043,6 +6570,7 @@
         "index": {
           "description": "Get the current Unix date from the system clock getCurrentUnixDate",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDate",
           "package": "time-exts",
@@ -6057,6 +6585,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTime\n 2013-11-03 23:09:38\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTime",
           "package": "time-exts",
@@ -6067,6 +6596,7 @@
         "index": {
           "description": "Get the current Unix date and time from the system clock getCurrentUnixDateTime",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTime",
           "package": "time-exts",
@@ -6081,6 +6611,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time with microsecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTimeMicros\n 2013-11-03 23:10:06.498559\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeMicros",
           "package": "time-exts",
@@ -6091,6 +6622,7 @@
         "index": {
           "description": "Get the current Unix date and time with microsecond granularity from the system clock getCurrentUnixDateTimeMicros",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeMicros",
           "package": "time-exts",
@@ -6105,6 +6637,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time with millisecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTimeMillis\n 2013-11-03 23:09:51.986\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeMillis",
           "package": "time-exts",
@@ -6115,6 +6648,7 @@
         "index": {
           "description": "Get the current Unix date and time with millisecond granularity from the system clock getCurrentUnixDateTimeMillis",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeMillis",
           "package": "time-exts",
@@ -6129,6 +6663,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time with nanosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTimeNanos\n 2013-11-03 23:10:23.697893000\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the\n   resultant timestamp will have nanosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeNanos",
           "package": "time-exts",
@@ -6139,6 +6674,7 @@
         "index": {
           "description": "Get the current Unix date and time with nanosecond granularity from the system clock getCurrentUnixDateTimeNanos Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have nanosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimeNanos",
           "package": "time-exts",
@@ -6153,6 +6689,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix date and time with picosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTimePicos\n 2013-11-03 23:10:44.633032000000\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore, the\n   resultant timestamp will have nanosecond granularity, but only microsecond resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimePicos",
           "package": "time-exts",
@@ -6163,6 +6700,7 @@
         "index": {
           "description": "Get the current Unix date and time with picosecond granularity from the system clock getCurrentUnixDateTimePicos Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have nanosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixDateTimePicos",
           "package": "time-exts",
@@ -6177,6 +6715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix time from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTime\n 05:45:06\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTime",
           "package": "time-exts",
@@ -6187,6 +6726,7 @@
         "index": {
           "description": "Get the current Unix time from the system clock getCurrentUnixTime",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTime",
           "package": "time-exts",
@@ -6201,6 +6741,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix time with microsecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTimeMicros\n 06:40:39.102910\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeMicros",
           "package": "time-exts",
@@ -6211,6 +6752,7 @@
         "index": {
           "description": "Get the current Unix time with microsecond granularity from the system clock getCurrentUnixTimeMicros",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeMicros",
           "package": "time-exts",
@@ -6225,6 +6767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix time with millisecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTimeMillis\n 06:30:08.840\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeMillis",
           "package": "time-exts",
@@ -6235,6 +6778,7 @@
         "index": {
           "description": "Get the current Unix time with millisecond granularity from the system clock getCurrentUnixTimeMillis",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeMillis",
           "package": "time-exts",
@@ -6249,6 +6793,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix time with nanosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTimeNanos\n 06:40:45.903610000\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore,\n   the resultant timestamp will have nanosecond granularity, but only microsecond\n   resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeNanos",
           "package": "time-exts",
@@ -6259,6 +6804,7 @@
         "index": {
           "description": "Get the current Unix time with nanosecond granularity from the system clock getCurrentUnixTimeNanos Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have nanosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimeNanos",
           "package": "time-exts",
@@ -6273,6 +6819,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the current Unix time with picosecond granularity from the system clock.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTimePicos\n 06:47:15.379247000000\n\u003c/pre\u003e\u003cp\u003eNote that this functions calls \u003ccode\u003egettimeofday\u003c/code\u003e behind the scenes. Therefore,\n   the resultant timestamp will have picosecond granularity, but only microsecond\n   resolution.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimePicos",
           "package": "time-exts",
@@ -6283,6 +6830,7 @@
         "index": {
           "description": "Get the current Unix time with picosecond granularity from the system clock getCurrentUnixTimePicos Note that this functions calls gettimeofday behind the scenes Therefore the resultant timestamp will have picosecond granularity but only microsecond resolution",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "getCurrentUnixTimePicos",
           "package": "time-exts",
@@ -6297,6 +6845,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a Unix date as a pretty string.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e prettyUnixDate $ createUnixDate 2014 August 16\n \"Saturday, August 16th, 2014\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixDate",
           "package": "time-exts",
@@ -6307,6 +6856,7 @@
         "index": {
           "description": "Show Unix date as pretty string prettyUnixDate createUnixDate August Saturday August th",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixDate",
           "normalized": "a-\u003eString",
@@ -6323,6 +6873,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a Unix date and time as a pretty string.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixDateTime \u003e\u003e= return . prettyUnixDateTime \n \"6:44 AM, Tuesday, December 31st, 2013\"\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixDateTime",
           "package": "time-exts",
@@ -6333,6 +6884,7 @@
         "index": {
           "description": "Show Unix date and time as pretty string getCurrentUnixDateTime return prettyUnixDateTime AM Tuesday December st",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixDateTime",
           "normalized": "a-\u003eString",
@@ -6349,6 +6901,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eShow a Unix time as a pretty string.\n\u003c/p\u003e\u003cpre\u003e \u003e\u003e\u003e getCurrentUnixTime \u003e\u003e= putStrLn . prettyUnixTime \n 9:12 AM\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixTime",
           "package": "time-exts",
@@ -6359,6 +6912,7 @@
         "index": {
           "description": "Show Unix time as pretty string getCurrentUnixTime putStrLn prettyUnixTime AM",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "prettyUnixTime",
           "normalized": "a-\u003eString",
@@ -6375,6 +6929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the base component of a Unix timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "unixBase",
           "package": "time-exts",
@@ -6385,6 +6940,7 @@
         "index": {
           "description": "Get the base component of Unix timestamp",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "unixBase",
           "normalized": "a-\u003eInt",
@@ -6401,6 +6957,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the normalized base component of a Unix timestamp.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Unix",
           "name": "unixNorm",
           "package": "time-exts",
@@ -6411,6 +6968,7 @@
         "index": {
           "description": "Get the normalized base component of Unix timestamp",
           "hierarchy": "Data Time Exts Unix",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Unix",
           "name": "unixNorm",
           "normalized": "a-\u003eInt",
@@ -6427,6 +6985,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eLocation and time zone constructors and functions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Zone",
           "package": "time-exts",
@@ -6436,6 +6995,7 @@
         "index": {
           "description": "Location and time zone constructors and functions",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Zone",
           "package": "time-exts",
@@ -6450,6 +7010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCities from around the world.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "City",
           "package": "time-exts",
@@ -6459,6 +7020,7 @@
         "index": {
           "description": "Cities from around the world",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "City",
           "package": "time-exts",
@@ -6473,6 +7035,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTime zones from around the world.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZone",
           "package": "time-exts",
@@ -6482,6 +7045,7 @@
         "index": {
           "description": "Time zones from around the world",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZone",
           "package": "time-exts",
@@ -6496,6 +7060,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA time zone abbreviation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZoneAbbr",
           "package": "time-exts",
@@ -6505,6 +7070,7 @@
         "index": {
           "description": "time zone abbreviation",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZoneAbbr",
           "package": "time-exts",
@@ -6519,6 +7085,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYemeni Republic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Aden",
           "package": "time-exts",
@@ -6529,6 +7096,7 @@
         "index": {
           "description": "Yemeni Republic",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Aden",
           "package": "time-exts",
@@ -6542,6 +7110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Afghanistan_Time",
           "package": "time-exts",
@@ -6551,6 +7120,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Afghanistan_Time",
           "package": "time-exts",
@@ -6564,6 +7134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Daylight_Time",
           "package": "time-exts",
@@ -6573,6 +7144,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Daylight_Time",
           "package": "time-exts",
@@ -6586,6 +7158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Hawaii_Daylight_Time",
           "package": "time-exts",
@@ -6595,6 +7168,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Hawaii_Daylight_Time",
           "package": "time-exts",
@@ -6608,6 +7182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Hawaii_Standard_Time",
           "package": "time-exts",
@@ -6617,6 +7192,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Hawaii_Standard_Time",
           "package": "time-exts",
@@ -6630,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Standard_Time",
           "package": "time-exts",
@@ -6639,6 +7216,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Alaska_Standard_Time",
           "package": "time-exts",
@@ -6653,6 +7231,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eHashemite Kingdom of Jordan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Amman",
           "package": "time-exts",
@@ -6663,6 +7242,7 @@
         "index": {
           "description": "Hashemite Kingdom of Jordan",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Amman",
           "package": "time-exts",
@@ -6677,6 +7257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Anchorage",
           "package": "time-exts",
@@ -6687,6 +7268,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Anchorage",
           "package": "time-exts",
@@ -6700,6 +7282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Arabia_Daylight_Time",
           "package": "time-exts",
@@ -6709,6 +7292,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Arabia_Daylight_Time",
           "package": "time-exts",
@@ -6722,6 +7306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Arabia_Standard_Time",
           "package": "time-exts",
@@ -6731,6 +7316,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Arabia_Standard_Time",
           "package": "time-exts",
@@ -6745,6 +7331,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNew Zealand\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Auckland",
           "package": "time-exts",
@@ -6755,6 +7342,7 @@
         "index": {
           "description": "New Zealand",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Auckland",
           "package": "time-exts",
@@ -6769,6 +7357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Iraq\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Baghdad",
           "package": "time-exts",
@@ -6779,6 +7368,7 @@
         "index": {
           "description": "Republic of Iraq",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Baghdad",
           "package": "time-exts",
@@ -6793,6 +7383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFederal Republic of Germany\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Berlin",
           "package": "time-exts",
@@ -6803,6 +7394,7 @@
         "index": {
           "description": "Federal Republic of Germany",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Berlin",
           "package": "time-exts",
@@ -6816,6 +7408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Brasilia_Summer_Time",
           "package": "time-exts",
@@ -6825,6 +7418,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Brasilia_Summer_Time",
           "package": "time-exts",
@@ -6838,6 +7432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Brasilia_Time",
           "package": "time-exts",
@@ -6847,6 +7442,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Brasilia_Time",
           "package": "time-exts",
@@ -6860,6 +7456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "British_Summer_Time",
           "package": "time-exts",
@@ -6869,6 +7466,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "British_Summer_Time",
           "package": "time-exts",
@@ -6883,6 +7481,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKingdom of Belgium\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Brussels",
           "package": "time-exts",
@@ -6893,6 +7492,7 @@
         "index": {
           "description": "Kingdom of Belgium",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Brussels",
           "package": "time-exts",
@@ -6907,6 +7507,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Burundi\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Bujumbura",
           "package": "time-exts",
@@ -6917,6 +7518,7 @@
         "index": {
           "description": "Republic of Burundi",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Bujumbura",
           "package": "time-exts",
@@ -6931,6 +7533,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eArab Republic of Egypt\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Cairo",
           "package": "time-exts",
@@ -6941,6 +7544,7 @@
         "index": {
           "description": "Arab Republic of Egypt",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Cairo",
           "package": "time-exts",
@@ -6954,6 +7558,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Africa_Time",
           "package": "time-exts",
@@ -6963,6 +7568,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Africa_Time",
           "package": "time-exts",
@@ -6976,6 +7582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Daylight_Time",
           "package": "time-exts",
@@ -6985,6 +7592,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Daylight_Time",
           "package": "time-exts",
@@ -6998,6 +7606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_European_Summer_Time",
           "package": "time-exts",
@@ -7007,6 +7616,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_European_Summer_Time",
           "package": "time-exts",
@@ -7020,6 +7630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_European_Time",
           "package": "time-exts",
@@ -7029,6 +7640,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_European_Time",
           "package": "time-exts",
@@ -7042,6 +7654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Standard_Time",
           "package": "time-exts",
@@ -7051,6 +7664,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Central_Standard_Time",
           "package": "time-exts",
@@ -7065,6 +7679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Chicago",
           "package": "time-exts",
@@ -7075,6 +7690,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Chicago",
           "package": "time-exts",
@@ -7088,6 +7704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "China_Daylight_Time",
           "package": "time-exts",
@@ -7097,6 +7714,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "China_Daylight_Time",
           "package": "time-exts",
@@ -7110,6 +7728,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "China_Standard_Time",
           "package": "time-exts",
@@ -7119,6 +7738,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "China_Standard_Time",
           "package": "time-exts",
@@ -7132,6 +7752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Coordinated_Universal_Time",
           "package": "time-exts",
@@ -7141,6 +7762,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Coordinated_Universal_Time",
           "package": "time-exts",
@@ -7155,6 +7777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSyrian Arab Republic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Damascus",
           "package": "time-exts",
@@ -7165,6 +7788,7 @@
         "index": {
           "description": "Syrian Arab Republic",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Damascus",
           "package": "time-exts",
@@ -7179,6 +7803,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Denver",
           "package": "time-exts",
@@ -7189,6 +7814,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Denver",
           "package": "time-exts",
@@ -7203,6 +7829,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of Qatar\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Doha",
           "package": "time-exts",
@@ -7213,6 +7840,7 @@
         "index": {
           "description": "State of Qatar",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Doha",
           "package": "time-exts",
@@ -7226,6 +7854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "East_Africa_Time",
           "package": "time-exts",
@@ -7235,6 +7864,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "East_Africa_Time",
           "package": "time-exts",
@@ -7248,6 +7878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_Daylight_Time",
           "package": "time-exts",
@@ -7257,6 +7888,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_Daylight_Time",
           "package": "time-exts",
@@ -7270,6 +7902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_European_Summer_Time",
           "package": "time-exts",
@@ -7279,6 +7912,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_European_Summer_Time",
           "package": "time-exts",
@@ -7292,6 +7926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_European_Time",
           "package": "time-exts",
@@ -7301,6 +7936,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_European_Time",
           "package": "time-exts",
@@ -7314,6 +7950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_Standard_Time",
           "package": "time-exts",
@@ -7323,6 +7960,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Eastern_Standard_Time",
           "package": "time-exts",
@@ -7336,6 +7974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Further_Eastern_European_Time",
           "package": "time-exts",
@@ -7345,6 +7984,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Further_Eastern_European_Time",
           "package": "time-exts",
@@ -7359,6 +7999,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Botswana\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Gaborone",
           "package": "time-exts",
@@ -7369,6 +8010,7 @@
         "index": {
           "description": "Republic of Botswana",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Gaborone",
           "package": "time-exts",
@@ -7382,6 +8024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Greenwich_Mean_Time",
           "package": "time-exts",
@@ -7391,6 +8034,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Greenwich_Mean_Time",
           "package": "time-exts",
@@ -7404,6 +8048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Gulf_Standard_Time",
           "package": "time-exts",
@@ -7413,6 +8058,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Gulf_Standard_Time",
           "package": "time-exts",
@@ -7426,6 +8072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Hawaii_Aleutian_Standard_Time",
           "package": "time-exts",
@@ -7435,6 +8082,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Hawaii_Aleutian_Standard_Time",
           "package": "time-exts",
@@ -7449,6 +8097,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeople's Republic of China\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong",
           "package": "time-exts",
@@ -7459,6 +8108,7 @@
         "index": {
           "description": "People Republic of China",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong",
           "package": "time-exts",
@@ -7472,6 +8122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong_Summer_Time",
           "package": "time-exts",
@@ -7481,6 +8132,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong_Summer_Time",
           "package": "time-exts",
@@ -7494,6 +8146,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong_Time",
           "package": "time-exts",
@@ -7503,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Hong_Kong_Time",
           "package": "time-exts",
@@ -7517,6 +8171,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Honolulu",
           "package": "time-exts",
@@ -7527,6 +8182,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Honolulu",
           "package": "time-exts",
@@ -7540,6 +8196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "India_Standard_Time",
           "package": "time-exts",
@@ -7549,6 +8206,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "India_Standard_Time",
           "package": "time-exts",
@@ -7562,6 +8220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Iran_Daylight_Time",
           "package": "time-exts",
@@ -7571,6 +8230,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Iran_Daylight_Time",
           "package": "time-exts",
@@ -7584,6 +8244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Iran_Standard_Time",
           "package": "time-exts",
@@ -7593,6 +8254,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Iran_Standard_Time",
           "package": "time-exts",
@@ -7606,6 +8268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Israel_Daylight_Time",
           "package": "time-exts",
@@ -7615,6 +8278,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Israel_Daylight_Time",
           "package": "time-exts",
@@ -7628,6 +8292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Israel_Standard_Time",
           "package": "time-exts",
@@ -7637,6 +8302,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Israel_Standard_Time",
           "package": "time-exts",
@@ -7650,6 +8316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Japan_Standard_Time",
           "package": "time-exts",
@@ -7659,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Japan_Standard_Time",
           "package": "time-exts",
@@ -7673,6 +8341,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of South Africa\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Johannesburg",
           "package": "time-exts",
@@ -7683,6 +8352,7 @@
         "index": {
           "description": "Republic of South Africa",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Johannesburg",
           "package": "time-exts",
@@ -7697,6 +8367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIslamic Republic of Afghanistan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Kabul",
           "package": "time-exts",
@@ -7707,6 +8378,7 @@
         "index": {
           "description": "Islamic Republic of Afghanistan",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Kabul",
           "package": "time-exts",
@@ -7721,6 +8393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIslamic Republic of Pakistan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Karachi",
           "package": "time-exts",
@@ -7731,6 +8404,7 @@
         "index": {
           "description": "Islamic Republic of Pakistan",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Karachi",
           "package": "time-exts",
@@ -7744,6 +8418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Karachi_Time",
           "package": "time-exts",
@@ -7753,6 +8428,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Karachi_Time",
           "package": "time-exts",
@@ -7767,6 +8443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemocratic Republic of the Congo\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Kinshasa",
           "package": "time-exts",
@@ -7777,6 +8454,7 @@
         "index": {
           "description": "Democratic Republic of the Congo",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Kinshasa",
           "package": "time-exts",
@@ -7791,6 +8469,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of India\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Kolkata",
           "package": "time-exts",
@@ -7801,6 +8480,7 @@
         "index": {
           "description": "Republic of India",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Kolkata",
           "package": "time-exts",
@@ -7814,6 +8494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Korea_Daylight_Time",
           "package": "time-exts",
@@ -7823,6 +8504,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Korea_Daylight_Time",
           "package": "time-exts",
@@ -7836,6 +8518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Korea_Standard_Time",
           "package": "time-exts",
@@ -7845,6 +8528,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Korea_Standard_Time",
           "package": "time-exts",
@@ -7859,6 +8543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of Kuwait\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Kuwait_City",
           "package": "time-exts",
@@ -7869,6 +8554,7 @@
         "index": {
           "description": "State of Kuwait",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Kuwait_City",
           "package": "time-exts",
@@ -7883,6 +8569,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited Kingdom of Great Britain and Northern Ireland\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "London",
           "package": "time-exts",
@@ -7893,6 +8580,7 @@
         "index": {
           "description": "United Kingdom of Great Britain and Northern Ireland",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "London",
           "package": "time-exts",
@@ -7907,6 +8595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Los_Angeles",
           "package": "time-exts",
@@ -7917,6 +8606,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Los_Angeles",
           "package": "time-exts",
@@ -7931,6 +8621,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Angola\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Luanda",
           "package": "time-exts",
@@ -7941,6 +8632,7 @@
         "index": {
           "description": "Republic of Angola",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Luanda",
           "package": "time-exts",
@@ -7955,6 +8647,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKingdom of Bahrain\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Manama",
           "package": "time-exts",
@@ -7965,6 +8658,7 @@
         "index": {
           "description": "Kingdom of Bahrain",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Manama",
           "package": "time-exts",
@@ -7979,6 +8673,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Belarus\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Minsk",
           "package": "time-exts",
@@ -7989,6 +8684,7 @@
         "index": {
           "description": "Republic of Belarus",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Minsk",
           "package": "time-exts",
@@ -8003,6 +8699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFederal Republic of Somalia\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Mogadishu",
           "package": "time-exts",
@@ -8013,6 +8710,7 @@
         "index": {
           "description": "Federal Republic of Somalia",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Mogadishu",
           "package": "time-exts",
@@ -8027,6 +8725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRussian Federation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow",
           "package": "time-exts",
@@ -8037,6 +8736,7 @@
         "index": {
           "description": "Russian Federation",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow",
           "package": "time-exts",
@@ -8050,6 +8750,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow_Daylight_Time",
           "package": "time-exts",
@@ -8059,6 +8760,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow_Daylight_Time",
           "package": "time-exts",
@@ -8072,6 +8774,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow_Standard_Time",
           "package": "time-exts",
@@ -8081,6 +8784,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Moscow_Standard_Time",
           "package": "time-exts",
@@ -8094,6 +8798,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Mountain_Daylight_Time",
           "package": "time-exts",
@@ -8103,6 +8808,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Mountain_Daylight_Time",
           "package": "time-exts",
@@ -8116,6 +8822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Mountain_Standard_Time",
           "package": "time-exts",
@@ -8125,6 +8832,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Mountain_Standard_Time",
           "package": "time-exts",
@@ -8139,6 +8847,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnited States of America\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "New_York",
           "package": "time-exts",
@@ -8149,6 +8858,7 @@
         "index": {
           "description": "United States of America",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "New_York",
           "package": "time-exts",
@@ -8162,6 +8872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "New_Zealand_Daylight_Time",
           "package": "time-exts",
@@ -8171,6 +8882,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "New_Zealand_Daylight_Time",
           "package": "time-exts",
@@ -8184,6 +8896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "New_Zealand_Standard_Time",
           "package": "time-exts",
@@ -8193,6 +8906,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "New_Zealand_Standard_Time",
           "package": "time-exts",
@@ -8207,6 +8921,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKingdom of Norway\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Oslo",
           "package": "time-exts",
@@ -8217,6 +8932,7 @@
         "index": {
           "description": "Kingdom of Norway",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Oslo",
           "package": "time-exts",
@@ -8231,6 +8947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBurkina Faso\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Ouagadougou",
           "package": "time-exts",
@@ -8241,6 +8958,7 @@
         "index": {
           "description": "Burkina Faso",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Ouagadougou",
           "package": "time-exts",
@@ -8254,6 +8972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Pacific_Daylight_Time",
           "package": "time-exts",
@@ -8263,6 +8982,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Pacific_Daylight_Time",
           "package": "time-exts",
@@ -8276,6 +8996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Pacific_Standard_Time",
           "package": "time-exts",
@@ -8285,6 +9006,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Pacific_Standard_Time",
           "package": "time-exts",
@@ -8298,6 +9020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Pakistan_Standard_Time",
           "package": "time-exts",
@@ -8307,6 +9030,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Pakistan_Standard_Time",
           "package": "time-exts",
@@ -8320,6 +9044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Pakistan_Summer_Time",
           "package": "time-exts",
@@ -8329,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Pakistan_Summer_Time",
           "package": "time-exts",
@@ -8343,6 +9069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFrench Republic\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Paris",
           "package": "time-exts",
@@ -8353,6 +9080,7 @@
         "index": {
           "description": "French Republic",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Paris",
           "package": "time-exts",
@@ -8367,6 +9095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDemocratic People's Republic of Korea\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Pyongyang",
           "package": "time-exts",
@@ -8377,6 +9106,7 @@
         "index": {
           "description": "Democratic People Republic of Korea",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Pyongyang",
           "package": "time-exts",
@@ -8391,6 +9121,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKingdom of Saudi Arabia\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Riyadh",
           "package": "time-exts",
@@ -8401,6 +9132,7 @@
         "index": {
           "description": "Kingdom of Saudi Arabia",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Riyadh",
           "package": "time-exts",
@@ -8415,6 +9147,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFederative Republic of Brazil\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Sao_Paulo",
           "package": "time-exts",
@@ -8425,6 +9158,7 @@
         "index": {
           "description": "Federative Republic of Brazil",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Sao_Paulo",
           "package": "time-exts",
@@ -8439,6 +9173,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBosnia and Herzegovina\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Sarajevo",
           "package": "time-exts",
@@ -8449,6 +9184,7 @@
         "index": {
           "description": "Bosnia and Herzegovina",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Sarajevo",
           "package": "time-exts",
@@ -8463,6 +9199,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Korea\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Seoul",
           "package": "time-exts",
@@ -8473,6 +9210,7 @@
         "index": {
           "description": "Republic of Korea",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Seoul",
           "package": "time-exts",
@@ -8487,6 +9225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePeople's Republic of China\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Shanghai",
           "package": "time-exts",
@@ -8497,6 +9236,7 @@
         "index": {
           "description": "People Republic of China",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Shanghai",
           "package": "time-exts",
@@ -8511,6 +9251,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Singapore\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Singapore",
           "package": "time-exts",
@@ -8521,6 +9262,7 @@
         "index": {
           "description": "Republic of Singapore",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Singapore",
           "package": "time-exts",
@@ -8534,6 +9276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Singapore_Time",
           "package": "time-exts",
@@ -8543,6 +9286,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Singapore_Time",
           "package": "time-exts",
@@ -8557,6 +9301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Bulgaria\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Sofia",
           "package": "time-exts",
@@ -8567,6 +9312,7 @@
         "index": {
           "description": "Republic of Bulgaria",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Sofia",
           "package": "time-exts",
@@ -8580,6 +9326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "South_Africa_Standard_Time",
           "package": "time-exts",
@@ -8589,6 +9336,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "South_Africa_Standard_Time",
           "package": "time-exts",
@@ -8603,6 +9351,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eKingdom of Sweden\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Stockholm",
           "package": "time-exts",
@@ -8613,6 +9362,7 @@
         "index": {
           "description": "Kingdom of Sweden",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Stockholm",
           "package": "time-exts",
@@ -8627,6 +9377,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIslamic Republic of Iran\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Tehran",
           "package": "time-exts",
@@ -8637,6 +9388,7 @@
         "index": {
           "description": "Islamic Republic of Iran",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Tehran",
           "package": "time-exts",
@@ -8651,6 +9403,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eState of Israel\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Tel_Aviv",
           "package": "time-exts",
@@ -8661,6 +9414,7 @@
         "index": {
           "description": "State of Israel",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Tel_Aviv",
           "package": "time-exts",
@@ -8674,6 +9428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZoneAbbr",
           "package": "time-exts",
@@ -8683,6 +9438,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "TimeZoneAbbr",
           "package": "time-exts",
@@ -8697,6 +9453,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Albania\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Tirana",
           "package": "time-exts",
@@ -8707,6 +9464,7 @@
         "index": {
           "description": "Republic of Albania",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Tirana",
           "package": "time-exts",
@@ -8721,6 +9479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eJapan\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Tokyo",
           "package": "time-exts",
@@ -8731,6 +9490,7 @@
         "index": {
           "description": "Japan",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Tokyo",
           "package": "time-exts",
@@ -8745,6 +9505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCanada\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Toronto",
           "package": "time-exts",
@@ -8755,6 +9516,7 @@
         "index": {
           "description": "Canada",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Toronto",
           "package": "time-exts",
@@ -8769,6 +9531,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInternational Territory\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Universal",
           "package": "time-exts",
@@ -8779,6 +9542,7 @@
         "index": {
           "description": "International Territory",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Universal",
           "package": "time-exts",
@@ -8793,6 +9557,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRepublic of Austria\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Vienna",
           "package": "time-exts",
@@ -8803,6 +9568,7 @@
         "index": {
           "description": "Republic of Austria",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Vienna",
           "package": "time-exts",
@@ -8816,6 +9582,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "West_Africa_Time",
           "package": "time-exts",
@@ -8825,6 +9592,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "West_Africa_Time",
           "package": "time-exts",
@@ -8838,6 +9606,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Yukon_Standard_Time",
           "package": "time-exts",
@@ -8847,6 +9616,7 @@
         },
         "index": {
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Yukon_Standard_Time",
           "package": "time-exts",
@@ -8861,6 +9631,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSwiss Confederation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "Zurich",
           "package": "time-exts",
@@ -8871,6 +9642,7 @@
         "index": {
           "description": "Swiss Confederation",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "Zurich",
           "package": "time-exts",
@@ -8885,6 +9657,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ereference location\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "abbr_city",
           "package": "time-exts",
@@ -8895,6 +9668,7 @@
         "index": {
           "description": "reference location",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "abbr_city",
           "package": "time-exts",
@@ -8908,6 +9682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etime zone abbreviation string\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "abbr_str",
           "package": "time-exts",
@@ -8918,6 +9693,7 @@
         "index": {
           "description": "time zone abbreviation string",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "abbr_str",
           "package": "time-exts",
@@ -8931,6 +9707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAbbreviate a time zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "abbreviate",
           "package": "time-exts",
@@ -8941,6 +9718,7 @@
         "index": {
           "description": "Abbreviate time zone",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "abbreviate",
           "normalized": "TimeZone-\u003eTimeZoneAbbr",
@@ -8956,6 +9734,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from time zones to time zone abbreviations.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "abbreviations",
           "package": "time-exts",
@@ -8966,6 +9745,7 @@
         "index": {
           "description": "map from time zones to time zone abbreviations",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "abbreviations",
           "package": "time-exts",
@@ -8979,6 +9759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of cities in alphabetical order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "cities",
           "package": "time-exts",
@@ -8989,6 +9770,7 @@
         "index": {
           "description": "list of cities in alphabetical order",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "cities",
           "normalized": "[City]",
@@ -9004,6 +9786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the Olson file associated with the given city.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "getOlsonFile",
           "package": "time-exts",
@@ -9014,6 +9797,7 @@
         "index": {
           "description": "Get the Olson file associated with the given city",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "getOlsonFile",
           "normalized": "City-\u003eFilePath",
@@ -9030,6 +9814,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the UTC offset (in minutes) for the given time zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "getUTCOffset",
           "package": "time-exts",
@@ -9040,6 +9825,7 @@
         "index": {
           "description": "Get the UTC offset in minutes for the given time zone",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "getUTCOffset",
           "normalized": "TimeZone-\u003ea",
@@ -9056,6 +9842,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from cities to Olson file paths.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "olsonFiles",
           "package": "time-exts",
@@ -9066,6 +9853,7 @@
         "index": {
           "description": "map from cities to Olson file paths",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "olsonFiles",
           "package": "time-exts",
@@ -9080,6 +9868,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnabbreviate a time zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "unabbreviate",
           "package": "time-exts",
@@ -9090,6 +9879,7 @@
         "index": {
           "description": "Unabbreviate time zone",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "unabbreviate",
           "normalized": "TimeZoneAbbr-\u003eTimeZone",
@@ -9105,6 +9895,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe UTC time zone.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "utc",
           "package": "time-exts",
@@ -9115,6 +9906,7 @@
         "index": {
           "description": "The UTC time zone",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "utc",
           "package": "time-exts",
@@ -9128,6 +9920,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA map from time zones to UTC offsets (in minutes).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts.Zone",
           "name": "utcOffsets",
           "package": "time-exts",
@@ -9138,6 +9931,7 @@
         "index": {
           "description": "map from time zones to UTC offsets in minutes",
           "hierarchy": "Data Time Exts Zone",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts.Zone",
           "name": "utcOffsets",
           "package": "time-exts",
@@ -9152,6 +9946,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eExtensions to the Haskell time library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:22:37 UTC 2014",
           "module": "Data.Time.Exts",
           "name": "Exts",
           "package": "time-exts",
@@ -9161,6 +9956,7 @@
         "index": {
           "description": "Extensions to the Haskell time library",
           "hierarchy": "Data Time Exts",
+          "indexed": "2014-03-11T20:22:37",
           "module": "Data.Time.Exts",
           "name": "Exts",
           "package": "time-exts",

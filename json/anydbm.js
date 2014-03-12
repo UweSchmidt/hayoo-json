@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "anydbm"
+        "phrase": "anydbm",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eSupport for working with Maps through the \u003ca\u003eDatabase.AnyDBM\u003c/a\u003e framework.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.MapDBM",
           "name": "MapDBM",
           "package": "anydbm",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Written by John Goerzen jgoerzen@complete.org Support for working with Maps through the Database.AnyDBM framework",
           "hierarchy": "Database AnyDBM MapDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.MapDBM",
           "name": "MapDBM",
           "package": "anydbm",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the MapDBM. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.MapDBM",
           "name": "MapDBM",
           "package": "anydbm",
@@ -51,6 +54,7 @@
         "index": {
           "description": "The type of the MapDBM",
           "hierarchy": "Database AnyDBM MapDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.MapDBM",
           "name": "MapDBM",
           "package": "anydbm",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the embedded Map in this \u003ccode\u003e\u003ca\u003eMapDBM\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.MapDBM",
           "name": "getMapDBM",
           "package": "anydbm",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Gets the embedded Map in this MapDBM",
           "hierarchy": "Database AnyDBM MapDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.MapDBM",
           "name": "getMapDBM",
           "normalized": "MapDBM-\u003eIO(Map String String)",
@@ -91,6 +97,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMakes a new MapDBM with an empty Map. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.MapDBM",
           "name": "newMapDBM",
           "package": "anydbm",
@@ -101,6 +108,7 @@
         "index": {
           "description": "Makes new MapDBM with an empty Map",
           "hierarchy": "Database AnyDBM MapDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.MapDBM",
           "name": "newMapDBM",
           "package": "anydbm",
@@ -115,6 +123,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the embedded Map in this \u003ccode\u003e\u003ca\u003eMapDBM\u003c/a\u003e\u003c/code\u003e to the\ngiven \u003ccode\u003e\u003ca\u003eMap\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.MapDBM",
           "name": "setMapDBM",
           "package": "anydbm",
@@ -125,6 +134,7 @@
         "index": {
           "description": "Sets the embedded Map in this MapDBM to the given Map",
           "hierarchy": "Database AnyDBM MapDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.MapDBM",
           "name": "setMapDBM",
           "normalized": "MapDBM-\u003eMap String String-\u003eIO()",
@@ -141,6 +151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eThis \u003ccode\u003e\u003ca\u003eAnyDBM\u003c/a\u003e\u003c/code\u003e implementation is very simple.  It can store\ndata on-disk in a persistent fashion, using a very simple String\nrepresentation.  While the file is open, an in-memory cache is maintained.\nThe data is written out during a call to \u003ccode\u003eflush\u003c/code\u003e or \u003ccode\u003eclose\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "StringDBM",
           "package": "anydbm",
@@ -150,6 +161,7 @@
         "index": {
           "description": "Written by John Goerzen jgoerzen@complete.org This AnyDBM implementation is very simple It can store data on-disk in persistent fashion using very simple String representation While the file is open an in-memory cache is maintained The data is written out during call to flush or close",
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "StringDBM",
           "package": "anydbm",
@@ -164,6 +176,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSee \u003ccode\u003e\u003ca\u003eopenFile\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "IOMode",
           "package": "anydbm",
@@ -172,6 +185,7 @@
         "index": {
           "description": "See openFile",
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "IOMode",
           "package": "anydbm",
@@ -186,6 +200,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of the StringDBM instances. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "StringDBM",
           "package": "anydbm",
@@ -195,6 +210,7 @@
         "index": {
           "description": "The type of the StringDBM instances",
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "StringDBM",
           "package": "anydbm",
@@ -208,6 +224,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "SystemFS",
           "package": "anydbm",
@@ -215,6 +232,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "SystemFS",
           "package": "anydbm",
@@ -228,6 +246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "AppendMode",
           "package": "anydbm",
@@ -236,6 +255,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "AppendMode",
           "package": "anydbm",
@@ -249,6 +269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "ReadMode",
           "package": "anydbm",
@@ -257,6 +278,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "ReadMode",
           "package": "anydbm",
@@ -270,6 +292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "ReadWriteMode",
           "package": "anydbm",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "ReadWriteMode",
           "package": "anydbm",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "SystemFS",
           "package": "anydbm",
@@ -299,6 +324,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "SystemFS",
           "package": "anydbm",
@@ -312,6 +338,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "WriteMode",
           "package": "anydbm",
@@ -320,6 +347,7 @@
         },
         "index": {
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "WriteMode",
           "package": "anydbm",
@@ -334,6 +362,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a \u003ccode\u003e\u003ca\u003eStringDBM\u003c/a\u003e\u003c/code\u003e file.  Please note: only ReadMode, WriteMode,\nand ReadWriteMode are supported for the IOMode.  AppendMode is not supported. \n\u003c/p\u003e\u003cpre\u003eopenStringDBM = openStringVDBM SystemFS\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "openStringDBM",
           "package": "anydbm",
@@ -344,6 +373,7 @@
         "index": {
           "description": "Opens StringDBM file Please note only ReadMode WriteMode and ReadWriteMode are supported for the IOMode AppendMode is not supported openStringDBM openStringVDBM SystemFS",
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "openStringDBM",
           "normalized": "FilePath-\u003eIOMode-\u003eIO StringDBM",
@@ -360,6 +390,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOpens a \u003ccode\u003e\u003ca\u003eStringDBM\u003c/a\u003e\u003c/code\u003e file.  Please note: only ReadMode, WriteMode,\nand ReadWriteMode are supported for the IOMode.  AppendMode is not supported.\n\u003c/p\u003e\u003cp\u003eTo work on your system's normal (real) filesystem, just specify\n\u003ccode\u003e\u003ca\u003eSystemFS\u003c/a\u003e\u003c/code\u003e for the first argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM.StringDBM",
           "name": "openStringVDBM",
           "package": "anydbm",
@@ -370,6 +401,7 @@
         "index": {
           "description": "Opens StringDBM file Please note only ReadMode WriteMode and ReadWriteMode are supported for the IOMode AppendMode is not supported To work on your system normal real filesystem just specify SystemFS for the first argument",
           "hierarchy": "Database AnyDBM StringDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM.StringDBM",
           "name": "openStringVDBM",
           "normalized": "a-\u003eFilePath-\u003eIOMode-\u003eIO StringDBM",
@@ -386,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eWritten by John Goerzen, jgoerzen@complete.org\n\u003c/p\u003e\u003cp\u003eThis module provides a generic infrastructure for supporting storage of\nhash-like items with String -\u003e String mappings.  It can be used for in-memory\nor on-disk items.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "AnyDBM",
           "package": "anydbm",
@@ -395,6 +428,7 @@
         "index": {
           "description": "Written by John Goerzen jgoerzen@complete.org This module provides generic infrastructure for supporting storage of hash-like items with String String mappings It can be used for in-memory or on-disk items",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "AnyDBM",
           "package": "anydbm",
@@ -409,6 +443,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe main class for items implementing this interface.\n\u003c/p\u003e\u003cp\u003ePeople implementing this class should provide methods for:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003ecloseA\u003c/a\u003e\u003c/code\u003e (unless you have no persistent storage)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003eflushA\u003c/a\u003e\u003c/code\u003e (unless you have no persistent storage)\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003einsertA\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003edeleteA\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e \u003ccode\u003e\u003ca\u003elookupA\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003cli\u003e either \u003ccode\u003e\u003ca\u003etoListA\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ekeysA\u003c/a\u003e\u003c/code\u003e\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "AnyDBM",
           "package": "anydbm",
@@ -418,6 +453,7 @@
         "index": {
           "description": "The main class for items implementing this interface People implementing this class should provide methods for closeA unless you have no persistent storage flushA unless you have no persistent storage insertA deleteA lookupA either toListA or keysA",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "AnyDBM",
           "package": "anydbm",
@@ -432,6 +468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClose the object, writing out any unsaved data to disk if necessary.\n\u003c/p\u003e\u003cp\u003eIf you implement this, make sure your implementation calls \u003ccode\u003e\u003ca\u003eflushA\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eNote: if you have an object opened for writing, you MUST\n         call closeA on it when you are done.  Implementations are not\n         required to preserve your data otherwise.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "closeA",
           "package": "anydbm",
@@ -442,6 +479,7 @@
         "index": {
           "description": "Close the object writing out any unsaved data to disk if necessary If you implement this make sure your implementation calls flushA Note if you have an object opened for writing you MUST call closeA on it when you are done Implementations are not required to preserve your data otherwise",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "closeA",
           "normalized": "a-\u003eIO()",
@@ -457,6 +495,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDelete the data referenced by the given key.  It is not an error\n         if the key does not exist. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "deleteA",
           "package": "anydbm",
@@ -467,6 +506,7 @@
         "index": {
           "description": "Delete the data referenced by the given key It is not an error if the key does not exist",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "deleteA",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -482,6 +522,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlush the object, saving any un-saved data to disk but not closing\n         it. Called automatically by \u003ccode\u003e\u003ca\u003ecloseA\u003c/a\u003e\u003c/code\u003e. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "flushA",
           "package": "anydbm",
@@ -492,6 +533,7 @@
         "index": {
           "description": "Flush the object saving any un-saved data to disk but not closing it Called automatically by closeA",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "flushA",
           "normalized": "a-\u003eIO()",
@@ -507,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLook up the data and raise an exception if the key does not exist.\n         The exception raised is PatternMatchFail, and the string accompanying\n         it is the key that was looked up.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "forceLookupA",
           "package": "anydbm",
@@ -517,6 +560,7 @@
         "index": {
           "description": "Look up the data and raise an exception if the key does not exist The exception raised is PatternMatchFail and the string accompanying it is the key that was looked up",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "forceLookupA",
           "normalized": "a-\u003eString-\u003eIO String",
@@ -533,6 +577,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTrue if the given key is present. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "hasKeyA",
           "package": "anydbm",
@@ -543,6 +588,7 @@
         "index": {
           "description": "True if the given key is present",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "hasKeyA",
           "normalized": "a-\u003eString-\u003eIO Bool",
@@ -559,6 +605,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInsert the given data into the map. Existing data with the same key\n       will be overwritten. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "insertA",
           "package": "anydbm",
@@ -569,6 +616,7 @@
         "index": {
           "description": "Insert the given data into the map Existing data with the same key will be overwritten",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "insertA",
           "package": "anydbm",
@@ -582,6 +630,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCall \u003ccode\u003e\u003ca\u003einsertA\u003c/a\u003e\u003c/code\u003e on each pair in the given association list, adding\n       them to the map. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "insertListA",
           "package": "anydbm",
@@ -592,6 +641,7 @@
         "index": {
           "description": "Call insertA on each pair in the given association list adding them to the map",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "insertListA",
           "normalized": "a-\u003e[(String,String)]-\u003eIO()",
@@ -608,6 +658,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of keys in the \u003ccode\u003e\u003ca\u003eAnyDBM\u003c/a\u003e\u003c/code\u003e object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "keysA",
           "package": "anydbm",
@@ -618,6 +669,7 @@
         "index": {
           "description": "Returns list of keys in the AnyDBM object",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "keysA",
           "normalized": "a-\u003eIO[String]",
@@ -633,6 +685,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFind the data referenced by the given key. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "lookupA",
           "package": "anydbm",
@@ -643,6 +696,7 @@
         "index": {
           "description": "Find the data referenced by the given key",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "lookupA",
           "normalized": "a-\u003eString-\u003eIO(Maybe String)",
@@ -658,6 +712,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to MapM, but for \u003ccode\u003e\u003ca\u003eAnyDBM\u003c/a\u003e\u003c/code\u003e objects. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "mapA",
           "package": "anydbm",
@@ -668,6 +723,7 @@
         "index": {
           "description": "Similar to MapM but for AnyDBM objects",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "mapA",
           "normalized": "a-\u003e((String,String)-\u003eIO b)-\u003eIO[b]",
@@ -683,6 +739,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003estrFromAL\u003c/a\u003e\u003c/code\u003e -- get a string representation of\nthe entire AnyDBM. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "strFromA",
           "package": "anydbm",
@@ -693,6 +750,7 @@
         "index": {
           "description": "Similar to strFromAL get string representation of the entire AnyDBM",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "strFromA",
           "normalized": "a-\u003eIO String",
@@ -709,6 +767,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to \u003ccode\u003e\u003ca\u003estrToAL\u003c/a\u003e\u003c/code\u003e -- load a string representation\ninto the AnyDBM.  You must supply an existing AnyDBM object;\nthe items loaded from the string will be added to it. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "strToA",
           "package": "anydbm",
@@ -719,6 +778,7 @@
         "index": {
           "description": "Similar to strToAL load string representation into the AnyDBM You must supply an existing AnyDBM object the items loaded from the string will be added to it",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "strToA",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -735,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturn a representation of the content of the map as a list. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "toListA",
           "package": "anydbm",
@@ -745,6 +806,7 @@
         "index": {
           "description": "Return representation of the content of the map as list",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "toListA",
           "normalized": "a-\u003eIO[(String,String)]",
@@ -761,6 +823,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReturns a list of values in the \u003ccode\u003e\u003ca\u003eAnyDBM\u003c/a\u003e\u003c/code\u003e object. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:11:29 UTC 2014",
           "module": "Database.AnyDBM",
           "name": "valuesA",
           "package": "anydbm",
@@ -771,6 +834,7 @@
         "index": {
           "description": "Returns list of values in the AnyDBM object",
           "hierarchy": "Database AnyDBM",
+          "indexed": "2014-03-11T17:11:29",
           "module": "Database.AnyDBM",
           "name": "valuesA",
           "normalized": "a-\u003eIO[String]",

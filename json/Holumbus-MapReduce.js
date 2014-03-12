@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Holumbus-MapReduce"
+        "phrase": "Holumbus-MapReduce",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMapReduce",
           "package": "Holumbus-MapReduce",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMapReduce",
           "package": "Holumbus-MapReduce",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRClientConf",
           "package": "Holumbus-MapReduce",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRClientConf",
           "package": "Holumbus-MapReduce",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRMasterConf",
           "package": "Holumbus-MapReduce",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRMasterConf",
           "package": "Holumbus-MapReduce",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRWorkerConf",
           "package": "Holumbus-MapReduce",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRWorkerConf",
           "package": "Holumbus-MapReduce",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMapReduce",
           "package": "Holumbus-MapReduce",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMapReduce",
           "package": "Holumbus-MapReduce",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRClientConf",
           "package": "Holumbus-MapReduce",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRClientConf",
           "package": "Holumbus-MapReduce",
@@ -168,6 +182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRMasterConf",
           "package": "Holumbus-MapReduce",
@@ -177,6 +192,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRMasterConf",
           "package": "Holumbus-MapReduce",
@@ -190,6 +206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRWorkerConf",
           "package": "Holumbus-MapReduce",
@@ -199,6 +216,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "DMRWorkerConf",
           "package": "Holumbus-MapReduce",
@@ -212,6 +230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "clc_SocketId",
           "package": "Holumbus-MapReduce",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "clc_SocketId",
           "package": "Holumbus-MapReduce",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "clc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -243,6 +264,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "clc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -256,6 +278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "closeMapReduce",
           "package": "Holumbus-MapReduce",
@@ -265,6 +288,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "closeMapReduce",
           "normalized": "a-\u003eIO()",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRClientConfig",
           "package": "Holumbus-MapReduce",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRClientConfig",
           "package": "Holumbus-MapReduce",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRMasterConfig",
           "package": "Holumbus-MapReduce",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRMasterConfig",
           "package": "Holumbus-MapReduce",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRWorkerConfig",
           "package": "Holumbus-MapReduce",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "defaultMRWorkerConfig",
           "package": "Holumbus-MapReduce",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -369,6 +401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estarts a MapReduce-Job (blocking while finished)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doMapReduceJob",
           "package": "Holumbus-MapReduce",
@@ -379,6 +412,7 @@
         "index": {
           "description": "starts MapReduce-Job blocking while finished",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doMapReduceJob",
           "normalized": "JobInfo-\u003ea-\u003eIO JobResult",
@@ -395,6 +429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms a single step of the controller (if mode is singlestep)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doSingleStep",
           "package": "Holumbus-MapReduce",
@@ -405,6 +440,7 @@
         "index": {
           "description": "performs single step of the controller if mode is singlestep",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "doSingleStep",
           "normalized": "a-\u003eIO()",
@@ -421,6 +457,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Type of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "getMapReduceType",
           "package": "Holumbus-MapReduce",
@@ -431,6 +468,7 @@
         "index": {
           "description": "get the Type of the MapReduce instance",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "getMapReduceType",
           "normalized": "a-\u003eIO MapReduceType",
@@ -447,6 +485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints the siteId of the MapReduce instance \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "getMySiteId",
           "package": "Holumbus-MapReduce",
@@ -457,6 +496,7 @@
         "index": {
           "description": "prints the siteId of the MapReduce instance",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "getMySiteId",
           "normalized": "a-\u003eIO SiteId",
@@ -473,6 +513,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest, if Controller is running\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "isControlling",
           "package": "Holumbus-MapReduce",
@@ -483,6 +524,7 @@
         "index": {
           "description": "test if Controller is running",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "isControlling",
           "normalized": "a-\u003eIO Bool",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceClient",
           "package": "Holumbus-MapReduce",
@@ -507,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceClient",
           "normalized": "DMRClientConf-\u003eIO DMapReduce",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceMaster",
           "package": "Holumbus-MapReduce",
@@ -531,6 +576,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceMaster",
           "normalized": "FileSystem-\u003eDMRMasterConf-\u003eIO DMapReduce",
@@ -546,6 +592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceWorker",
           "package": "Holumbus-MapReduce",
@@ -555,6 +602,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "mkMapReduceWorker",
           "normalized": "FileSystem-\u003eActionMap-\u003eDMRWorkerConf-\u003eIO DMapReduce",
@@ -570,6 +618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_PortNumber",
           "package": "Holumbus-MapReduce",
@@ -579,6 +628,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_PortNumber",
           "package": "Holumbus-MapReduce",
@@ -592,6 +642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_StartControlling",
           "package": "Holumbus-MapReduce",
@@ -601,6 +652,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_StartControlling",
           "package": "Holumbus-MapReduce",
@@ -614,6 +666,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -623,6 +676,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "msc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -637,6 +691,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "startControlling",
           "package": "Holumbus-MapReduce",
@@ -647,6 +702,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "startControlling",
           "normalized": "a-\u003eIO()",
@@ -663,6 +719,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "stopControlling",
           "package": "Holumbus-MapReduce",
@@ -673,6 +730,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "stopControlling",
           "normalized": "a-\u003eIO()",
@@ -688,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "woc_SocketId",
           "package": "Holumbus-MapReduce",
@@ -697,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "woc_SocketId",
           "package": "Holumbus-MapReduce",
@@ -710,6 +770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "woc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -719,6 +780,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution DMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.DMapReduce",
           "name": "woc_StreamName",
           "package": "Holumbus-MapReduce",
@@ -733,6 +795,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "MasterData",
           "package": "Holumbus-MapReduce",
@@ -742,6 +805,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Master MasterData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "MasterData",
           "package": "Holumbus-MapReduce",
@@ -755,6 +819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "MasterData",
           "package": "Holumbus-MapReduce",
@@ -763,6 +828,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "MasterData",
           "package": "Holumbus-MapReduce",
@@ -776,6 +842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "newMaster",
           "package": "Holumbus-MapReduce",
@@ -785,6 +852,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterData",
           "name": "newMaster",
           "normalized": "FileSystem-\u003eBool-\u003eStreamName-\u003eMaybe PortNumber-\u003eIO MasterData",
@@ -801,6 +869,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "MasterPort",
           "package": "Holumbus-MapReduce",
@@ -810,6 +879,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Master MasterPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "MasterPort",
           "package": "Holumbus-MapReduce",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "MasterPort",
           "package": "Holumbus-MapReduce",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "MasterPort",
           "package": "Holumbus-MapReduce",
@@ -845,6 +917,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new ControllerPort\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "newMasterPort",
           "package": "Holumbus-MapReduce",
@@ -855,6 +928,7 @@
         "index": {
           "description": "Creates new ControllerPort",
           "hierarchy": "Holumbus Distribution Master MasterPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "newMasterPort",
           "normalized": "StreamName-\u003eMaybe SocketId-\u003eIO MasterPort",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "newMasterPortFromServerPort",
           "package": "Holumbus-MapReduce",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterPort",
           "name": "newMasterPortFromServerPort",
           "normalized": "ServerPort-\u003eMasterPort",
@@ -895,6 +971,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "MasterState",
           "package": "Holumbus-MapReduce",
@@ -904,6 +981,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "MasterState",
           "package": "Holumbus-MapReduce",
@@ -917,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "State",
           "package": "Holumbus-MapReduce",
@@ -925,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "State",
           "package": "Holumbus-MapReduce",
@@ -938,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "StateResource",
           "package": "Holumbus-MapReduce",
@@ -946,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "StateResource",
           "package": "Holumbus-MapReduce",
@@ -959,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "States",
           "package": "Holumbus-MapReduce",
@@ -967,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "States",
           "package": "Holumbus-MapReduce",
@@ -980,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "addResource",
           "package": "Holumbus-MapReduce",
@@ -989,6 +1074,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "addResource",
           "normalized": "FilePath-\u003eIO()",
@@ -1004,6 +1090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "addWorker",
           "package": "Holumbus-MapReduce",
@@ -1013,6 +1100,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "addWorker",
           "normalized": "IdType-\u003eState-\u003eIO()",
@@ -1028,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "delResource",
           "package": "Holumbus-MapReduce",
@@ -1037,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "delResource",
           "normalized": "FilePath-\u003eIO()",
@@ -1052,6 +1142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "delWorker",
           "package": "Holumbus-MapReduce",
@@ -1061,6 +1152,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master MasterState",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master.MasterState",
           "name": "delWorker",
           "normalized": "IdType-\u003eIO()",
@@ -1077,6 +1169,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master",
           "name": "Master",
           "package": "Holumbus-MapReduce",
@@ -1086,6 +1179,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Master",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master",
           "name": "Master",
           "package": "Holumbus-MapReduce",
@@ -1099,6 +1193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master",
           "name": "MasterClass",
           "package": "Holumbus-MapReduce",
@@ -1107,6 +1202,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master",
           "name": "MasterClass",
           "package": "Holumbus-MapReduce",
@@ -1120,6 +1216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master",
           "name": "closeMaster",
           "package": "Holumbus-MapReduce",
@@ -1129,6 +1226,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master",
           "name": "closeMaster",
           "normalized": "a-\u003eIO()",
@@ -1144,6 +1242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master",
           "name": "receiveTaskCompleted",
           "package": "Holumbus-MapReduce",
@@ -1153,6 +1252,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master",
           "name": "receiveTaskCompleted",
           "normalized": "TaskData-\u003ea-\u003eIO a",
@@ -1168,6 +1268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Master",
           "name": "receiveTaskError",
           "package": "Holumbus-MapReduce",
@@ -1177,6 +1278,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Master",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Master",
           "name": "receiveTaskError",
           "normalized": "TaskData-\u003ea-\u003eIO a",
@@ -1193,6 +1295,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "Messages",
           "package": "Holumbus-MapReduce",
@@ -1202,6 +1305,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "Messages",
           "package": "Holumbus-MapReduce",
@@ -1215,6 +1319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MasterRequestMessage",
           "package": "Holumbus-MapReduce",
@@ -1223,6 +1328,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MasterRequestMessage",
           "package": "Holumbus-MapReduce",
@@ -1236,6 +1342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MasterResponseMessage",
           "package": "Holumbus-MapReduce",
@@ -1244,6 +1351,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MasterResponseMessage",
           "package": "Holumbus-MapReduce",
@@ -1257,6 +1365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerId",
           "package": "Holumbus-MapReduce",
@@ -1265,6 +1374,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerId",
           "package": "Holumbus-MapReduce",
@@ -1278,6 +1388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerRequestMessage",
           "package": "Holumbus-MapReduce",
@@ -1286,6 +1397,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerRequestMessage",
           "package": "Holumbus-MapReduce",
@@ -1299,6 +1411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerResponseMessage",
           "package": "Holumbus-MapReduce",
@@ -1307,6 +1420,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WorkerResponseMessage",
           "package": "Holumbus-MapReduce",
@@ -1320,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqIsControlling",
           "package": "Holumbus-MapReduce",
@@ -1329,6 +1444,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqIsControlling",
           "package": "Holumbus-MapReduce",
@@ -1342,6 +1458,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqPerformJob",
           "package": "Holumbus-MapReduce",
@@ -1351,6 +1468,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqPerformJob",
           "package": "Holumbus-MapReduce",
@@ -1364,6 +1482,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqSingleStep",
           "package": "Holumbus-MapReduce",
@@ -1373,6 +1492,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqSingleStep",
           "package": "Holumbus-MapReduce",
@@ -1386,6 +1506,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqStartControlling",
           "package": "Holumbus-MapReduce",
@@ -1395,6 +1516,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqStartControlling",
           "package": "Holumbus-MapReduce",
@@ -1408,6 +1530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqStopControlling",
           "package": "Holumbus-MapReduce",
@@ -1417,6 +1540,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqStopControlling",
           "package": "Holumbus-MapReduce",
@@ -1430,6 +1554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqTaskCompleted",
           "package": "Holumbus-MapReduce",
@@ -1439,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqTaskCompleted",
           "package": "Holumbus-MapReduce",
@@ -1452,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqTaskError",
           "package": "Holumbus-MapReduce",
@@ -1461,6 +1588,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqTaskError",
           "package": "Holumbus-MapReduce",
@@ -1474,6 +1602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqUnknown",
           "package": "Holumbus-MapReduce",
@@ -1483,6 +1612,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MReqUnknown",
           "package": "Holumbus-MapReduce",
@@ -1496,6 +1626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspError",
           "package": "Holumbus-MapReduce",
@@ -1505,6 +1636,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspError",
           "package": "Holumbus-MapReduce",
@@ -1518,6 +1650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspIsControlling",
           "package": "Holumbus-MapReduce",
@@ -1527,6 +1660,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspIsControlling",
           "package": "Holumbus-MapReduce",
@@ -1540,6 +1674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspResult",
           "package": "Holumbus-MapReduce",
@@ -1549,6 +1684,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspResult",
           "package": "Holumbus-MapReduce",
@@ -1562,6 +1698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspSuccess",
           "package": "Holumbus-MapReduce",
@@ -1571,6 +1708,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspSuccess",
           "package": "Holumbus-MapReduce",
@@ -1584,6 +1722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspUnknown",
           "package": "Holumbus-MapReduce",
@@ -1593,6 +1732,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "MRspUnknown",
           "package": "Holumbus-MapReduce",
@@ -1606,6 +1746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqGetActionNames",
           "package": "Holumbus-MapReduce",
@@ -1615,6 +1756,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqGetActionNames",
           "package": "Holumbus-MapReduce",
@@ -1628,6 +1770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStartTask",
           "package": "Holumbus-MapReduce",
@@ -1637,6 +1780,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStartTask",
           "package": "Holumbus-MapReduce",
@@ -1650,6 +1794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStopAllTasks",
           "package": "Holumbus-MapReduce",
@@ -1659,6 +1804,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStopAllTasks",
           "package": "Holumbus-MapReduce",
@@ -1672,6 +1818,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStopTask",
           "package": "Holumbus-MapReduce",
@@ -1681,6 +1828,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqStopTask",
           "package": "Holumbus-MapReduce",
@@ -1694,6 +1842,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqUnknown",
           "package": "Holumbus-MapReduce",
@@ -1703,6 +1852,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WReqUnknown",
           "package": "Holumbus-MapReduce",
@@ -1716,6 +1866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspError",
           "package": "Holumbus-MapReduce",
@@ -1725,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspError",
           "package": "Holumbus-MapReduce",
@@ -1738,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspGetActionNames",
           "package": "Holumbus-MapReduce",
@@ -1747,6 +1900,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspGetActionNames",
           "normalized": "WRspGetActionNames[ActionName]",
@@ -1762,6 +1916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspSuccess",
           "package": "Holumbus-MapReduce",
@@ -1771,6 +1926,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspSuccess",
           "package": "Holumbus-MapReduce",
@@ -1784,6 +1940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspUnknown",
           "package": "Holumbus-MapReduce",
@@ -1793,6 +1950,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "WRspUnknown",
           "package": "Holumbus-MapReduce",
@@ -1807,6 +1965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSends a request to the server (stream) and handles the response and all\n   error cases. Very helpful when simulating a request response scheme\n   with the mailboxes.                    \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Messages",
           "name": "performPortAction",
           "package": "Holumbus-MapReduce",
@@ -1816,6 +1975,7 @@
         "index": {
           "description": "Sends request to the server stream and handles the response and all error cases Very helpful when simulating request response scheme with the mailboxes",
           "hierarchy": "Holumbus Distribution Messages",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Messages",
           "name": "performPortAction",
           "normalized": "Port a-\u003eStream b-\u003eInt-\u003ea-\u003e(b-\u003eIO(Maybe c))-\u003eIO c",
@@ -1832,6 +1992,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "SimpleDMapReduceIO",
           "package": "Holumbus-MapReduce",
@@ -1841,6 +2002,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "SimpleDMapReduceIO",
           "package": "Holumbus-MapReduce",
@@ -1854,6 +2016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "MapFunction",
           "package": "Holumbus-MapReduce",
@@ -1862,6 +2025,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "MapFunction",
           "package": "Holumbus-MapReduce",
@@ -1876,6 +2040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriorities are used to define how important a log messgae is.\nUsers can filter log messages based on priorities.\n\u003c/p\u003e\u003cp\u003eThese have their roots on the traditional syslog system.  The standard\ndefinitions are given below, but you are free to interpret them however you\nlike.  They are listed here in ascending importance order.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "Priority",
           "package": "Holumbus-MapReduce",
@@ -1884,6 +2049,7 @@
         "index": {
           "description": "Priorities are used to define how important log messgae is Users can filter log messages based on priorities These have their roots on the traditional syslog system The standard definitions are given below but you are free to interpret them however you like They are listed here in ascending importance order",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "Priority",
           "package": "Holumbus-MapReduce",
@@ -1897,6 +2063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ReduceFunction",
           "package": "Holumbus-MapReduce",
@@ -1905,6 +2072,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ReduceFunction",
           "package": "Holumbus-MapReduce",
@@ -1919,6 +2087,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTake immediate action\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ALERT",
           "package": "Holumbus-MapReduce",
@@ -1928,6 +2097,7 @@
         "index": {
           "description": "Take immediate action",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ALERT",
           "package": "Holumbus-MapReduce",
@@ -1942,6 +2112,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSevere situations\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "CRITICAL",
           "package": "Holumbus-MapReduce",
@@ -1951,6 +2122,7 @@
         "index": {
           "description": "Severe situations",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "CRITICAL",
           "package": "Holumbus-MapReduce",
@@ -1965,6 +2137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDebug messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "DEBUG",
           "package": "Holumbus-MapReduce",
@@ -1974,6 +2147,7 @@
         "index": {
           "description": "Debug messages",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "DEBUG",
           "package": "Holumbus-MapReduce",
@@ -1988,6 +2162,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSystem is unusable\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "EMERGENCY",
           "package": "Holumbus-MapReduce",
@@ -1997,6 +2172,7 @@
         "index": {
           "description": "System is unusable",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "EMERGENCY",
           "package": "Holumbus-MapReduce",
@@ -2011,6 +2187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral Errors\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ERROR",
           "package": "Holumbus-MapReduce",
@@ -2020,6 +2197,7 @@
         "index": {
           "description": "General Errors",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "ERROR",
           "package": "Holumbus-MapReduce",
@@ -2034,6 +2212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "INFO",
           "package": "Holumbus-MapReduce",
@@ -2043,6 +2222,7 @@
         "index": {
           "description": "Information",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "INFO",
           "package": "Holumbus-MapReduce",
@@ -2057,6 +2237,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNormal runtime conditions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "NOTICE",
           "package": "Holumbus-MapReduce",
@@ -2066,6 +2247,7 @@
         "index": {
           "description": "Normal runtime conditions",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "NOTICE",
           "package": "Holumbus-MapReduce",
@@ -2080,6 +2262,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeneral Warnings\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "WARNING",
           "package": "Holumbus-MapReduce",
@@ -2089,6 +2272,7 @@
         "index": {
           "description": "General Warnings",
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "WARNING",
           "package": "Holumbus-MapReduce",
@@ -2102,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "client",
           "package": "Holumbus-MapReduce",
@@ -2111,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "client",
           "normalized": "MapFunction a b c b c-\u003eReduceFunction a b c c-\u003ea-\u003e(Int,Int,Int)-\u003e[[(b,c)]]-\u003eIO[(b,c)]",
@@ -2125,6 +2311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "partition'",
           "package": "Holumbus-MapReduce",
@@ -2134,6 +2321,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "partition'",
           "normalized": "[a]-\u003e[[a]]-\u003e[[a]]",
@@ -2148,6 +2336,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "putTimeStamp",
           "package": "Holumbus-MapReduce",
@@ -2157,6 +2346,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "putTimeStamp",
           "normalized": "String-\u003eIO()",
@@ -2172,6 +2362,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "worker",
           "package": "Holumbus-MapReduce",
@@ -2181,6 +2372,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution SimpleDMapReduceIO",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.SimpleDMapReduceIO",
           "name": "worker",
           "normalized": "MapFunction a b c b c-\u003eReduceFunction a b c c-\u003e[(String,Priority)]-\u003eIO()",
@@ -2196,6 +2388,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "WorkerData",
           "package": "Holumbus-MapReduce",
@@ -2205,6 +2398,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Worker WorkerData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "WorkerData",
           "package": "Holumbus-MapReduce",
@@ -2218,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "WorkerData",
           "package": "Holumbus-MapReduce",
@@ -2226,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker WorkerData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "WorkerData",
           "package": "Holumbus-MapReduce",
@@ -2239,6 +2435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "newWorker",
           "package": "Holumbus-MapReduce",
@@ -2248,6 +2445,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker WorkerData",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerData",
           "name": "newWorker",
           "normalized": "FileSystem-\u003eActionMap-\u003eStreamName-\u003eMaybe SocketId-\u003eIO WorkerData",
@@ -2264,6 +2462,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2273,6 +2472,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Worker WorkerPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2286,6 +2486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2294,6 +2495,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker WorkerPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2307,6 +2509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2316,6 +2519,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker WorkerPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "WorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2330,6 +2534,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new NodePort.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "newWorkerPort",
           "package": "Holumbus-MapReduce",
@@ -2340,6 +2545,7 @@
         "index": {
           "description": "Creates new NodePort",
           "hierarchy": "Holumbus Distribution Worker WorkerPort",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker.WorkerPort",
           "name": "newWorkerPort",
           "normalized": "ClientPort-\u003eWorkerPort",
@@ -2356,6 +2562,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "Worker",
           "package": "Holumbus-MapReduce",
@@ -2365,6 +2572,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "Worker",
           "package": "Holumbus-MapReduce",
@@ -2378,6 +2586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "WorkerClass",
           "package": "Holumbus-MapReduce",
@@ -2386,6 +2595,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "WorkerClass",
           "package": "Holumbus-MapReduce",
@@ -2399,6 +2609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "closeWorker",
           "package": "Holumbus-MapReduce",
@@ -2408,6 +2619,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "closeWorker",
           "normalized": "a-\u003eIO()",
@@ -2423,6 +2635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "getActionNames",
           "package": "Holumbus-MapReduce",
@@ -2432,6 +2645,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "getActionNames",
           "normalized": "a-\u003eIO[ActionName]",
@@ -2447,6 +2661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "startTask",
           "package": "Holumbus-MapReduce",
@@ -2456,6 +2671,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "startTask",
           "normalized": "TaskData-\u003ea-\u003eIO a",
@@ -2471,6 +2687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "stopAllTasks",
           "package": "Holumbus-MapReduce",
@@ -2480,6 +2697,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "stopAllTasks",
           "normalized": "a-\u003eIO a",
@@ -2495,6 +2713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Distribution.Worker",
           "name": "stopTask",
           "package": "Holumbus-MapReduce",
@@ -2504,6 +2723,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Distribution Worker",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Distribution.Worker",
           "name": "stopTask",
           "normalized": "TaskId-\u003ea-\u003eIO a",
@@ -2520,6 +2740,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.DaemonInterface",
           "name": "DaemonInterface",
           "package": "Holumbus-MapReduce",
@@ -2529,6 +2750,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce DaemonInterface",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.DaemonInterface",
           "name": "DaemonInterface",
           "package": "Holumbus-MapReduce",
@@ -2543,6 +2765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eruns the user interface... just add an fileSystem an a fancy version-number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.DaemonInterface",
           "name": "runDaemon",
           "package": "Holumbus-MapReduce",
@@ -2553,6 +2776,7 @@
         "index": {
           "description": "runs the user interface just add an fileSystem an fancy version-number",
           "hierarchy": "Holumbus MapReduce DaemonInterface",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.DaemonInterface",
           "name": "runDaemon",
           "normalized": "a-\u003eString-\u003eInt-\u003eString-\u003eIO()",
@@ -2569,6 +2793,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.DaemonInterfaceWithFS",
           "name": "DaemonInterfaceWithFS",
           "package": "Holumbus-MapReduce",
@@ -2578,6 +2803,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce DaemonInterfaceWithFS",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.DaemonInterfaceWithFS",
           "name": "DaemonInterfaceWithFS",
           "package": "Holumbus-MapReduce",
@@ -2592,6 +2818,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eruns the user interface... just add an fileSystem an a fancy version-number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.DaemonInterfaceWithFS",
           "name": "runDaemon",
           "package": "Holumbus-MapReduce",
@@ -2602,6 +2829,7 @@
         "index": {
           "description": "runs the user interface just add an fileSystem an fancy version-number",
           "hierarchy": "Holumbus MapReduce DaemonInterfaceWithFS",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.DaemonInterfaceWithFS",
           "name": "runDaemon",
           "normalized": "(a,FileSystem)-\u003eString-\u003eInt-\u003eString-\u003eIO()",
@@ -2618,6 +2846,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "JobController",
           "package": "Holumbus-MapReduce",
@@ -2627,6 +2856,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "JobController",
           "package": "Holumbus-MapReduce",
@@ -2640,6 +2870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "JobController",
           "package": "Holumbus-MapReduce",
@@ -2648,6 +2879,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "JobController",
           "package": "Holumbus-MapReduce",
@@ -2661,6 +2893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TaskSendFunction",
           "package": "Holumbus-MapReduce",
@@ -2669,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TaskSendFunction",
           "package": "Holumbus-MapReduce",
@@ -2682,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TaskSendResult",
           "package": "Holumbus-MapReduce",
@@ -2690,6 +2925,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TaskSendResult",
           "package": "Holumbus-MapReduce",
@@ -2703,6 +2939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRError",
           "package": "Holumbus-MapReduce",
@@ -2712,6 +2949,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRError",
           "package": "Holumbus-MapReduce",
@@ -2725,6 +2963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRNotSend",
           "package": "Holumbus-MapReduce",
@@ -2734,6 +2973,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRNotSend",
           "package": "Holumbus-MapReduce",
@@ -2747,6 +2987,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRSend",
           "package": "Holumbus-MapReduce",
@@ -2756,6 +2997,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "TSRSend",
           "package": "Holumbus-MapReduce",
@@ -2769,6 +3011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "closeJobController",
           "package": "Holumbus-MapReduce",
@@ -2778,6 +3021,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "closeJobController",
           "normalized": "JobController-\u003eIO()",
@@ -2793,6 +3037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "isJobControllerRunning",
           "package": "Holumbus-MapReduce",
@@ -2802,6 +3047,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "isJobControllerRunning",
           "normalized": "JobController-\u003eIO Bool",
@@ -2817,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "newJobController",
           "package": "Holumbus-MapReduce",
@@ -2826,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "newJobController",
           "package": "Holumbus-MapReduce",
@@ -2839,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "performJob",
           "package": "Holumbus-MapReduce",
@@ -2848,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "performJob",
           "normalized": "JobInfo-\u003eJobController-\u003eIO JobResult",
@@ -2863,6 +3113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "printJobController",
           "package": "Holumbus-MapReduce",
@@ -2872,6 +3123,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "printJobController",
           "normalized": "JobController-\u003eIO String",
@@ -2887,6 +3139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setFileSystemToJobController",
           "package": "Holumbus-MapReduce",
@@ -2896,6 +3149,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setFileSystemToJobController",
           "normalized": "FileSystem-\u003eJobController-\u003eIO()",
@@ -2911,6 +3165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskCompleted",
           "package": "Holumbus-MapReduce",
@@ -2920,6 +3175,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskCompleted",
           "normalized": "JobController-\u003eTaskData-\u003eIO()",
@@ -2935,6 +3191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskError",
           "package": "Holumbus-MapReduce",
@@ -2944,6 +3201,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskError",
           "normalized": "JobController-\u003eTaskData-\u003eIO()",
@@ -2959,6 +3217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskSendHook",
           "package": "Holumbus-MapReduce",
@@ -2968,6 +3227,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "setTaskSendHook",
           "normalized": "TaskSendFunction-\u003eJobController-\u003eIO()",
@@ -2983,6 +3243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "singleStepJobControlling",
           "package": "Holumbus-MapReduce",
@@ -2992,6 +3253,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "singleStepJobControlling",
           "normalized": "JobController-\u003eIO()",
@@ -3007,6 +3269,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "startJobController",
           "package": "Holumbus-MapReduce",
@@ -3016,6 +3279,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "startJobController",
           "normalized": "JobController-\u003eIO()",
@@ -3031,6 +3295,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.JobController",
           "name": "stopJobController",
           "package": "Holumbus-MapReduce",
@@ -3040,6 +3305,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce JobController",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.JobController",
           "name": "stopJobController",
           "normalized": "JobController-\u003eIO()",
@@ -3056,6 +3322,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -3065,6 +3332,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -3078,6 +3346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -3086,6 +3355,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -3099,6 +3369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduceType",
           "package": "Holumbus-MapReduce",
@@ -3107,6 +3378,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MapReduceType",
           "package": "Holumbus-MapReduce",
@@ -3120,6 +3392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTClient",
           "package": "Holumbus-MapReduce",
@@ -3129,6 +3402,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTClient",
           "package": "Holumbus-MapReduce",
@@ -3142,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTMaster",
           "package": "Holumbus-MapReduce",
@@ -3151,6 +3426,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTMaster",
           "package": "Holumbus-MapReduce",
@@ -3164,6 +3440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTStandalone",
           "package": "Holumbus-MapReduce",
@@ -3173,6 +3450,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTStandalone",
           "package": "Holumbus-MapReduce",
@@ -3186,6 +3464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTWorker",
           "package": "Holumbus-MapReduce",
@@ -3195,6 +3474,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "MRTWorker",
           "package": "Holumbus-MapReduce",
@@ -3208,6 +3488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "closeMapReduce",
           "package": "Holumbus-MapReduce",
@@ -3217,6 +3498,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "closeMapReduce",
           "normalized": "a-\u003eIO()",
@@ -3232,6 +3514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -3241,6 +3524,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -3255,6 +3539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estarts a MapReduce-Job (blocking while finished)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doMapReduceJob",
           "package": "Holumbus-MapReduce",
@@ -3265,6 +3550,7 @@
         "index": {
           "description": "starts MapReduce-Job blocking while finished",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doMapReduceJob",
           "normalized": "JobInfo-\u003ea-\u003eIO JobResult",
@@ -3281,6 +3567,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms a single step of the controller (if mode is singlestep)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doSingleStep",
           "package": "Holumbus-MapReduce",
@@ -3291,6 +3578,7 @@
         "index": {
           "description": "performs single step of the controller if mode is singlestep",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "doSingleStep",
           "normalized": "a-\u003eIO()",
@@ -3307,6 +3595,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Type of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "getMapReduceType",
           "package": "Holumbus-MapReduce",
@@ -3317,6 +3606,7 @@
         "index": {
           "description": "get the Type of the MapReduce instance",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "getMapReduceType",
           "normalized": "a-\u003eIO MapReduceType",
@@ -3333,6 +3623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints the siteId of the MapReduce instance \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "getMySiteId",
           "package": "Holumbus-MapReduce",
@@ -3343,6 +3634,7 @@
         "index": {
           "description": "prints the siteId of the MapReduce instance",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "getMySiteId",
           "normalized": "a-\u003eIO SiteId",
@@ -3359,6 +3651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest, if Controller is running\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "isControlling",
           "package": "Holumbus-MapReduce",
@@ -3369,6 +3662,7 @@
         "index": {
           "description": "test if Controller is running",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "isControlling",
           "normalized": "a-\u003eIO Bool",
@@ -3385,6 +3679,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "startControlling",
           "package": "Holumbus-MapReduce",
@@ -3395,6 +3690,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "startControlling",
           "normalized": "a-\u003eIO()",
@@ -3411,6 +3707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "stopControlling",
           "package": "Holumbus-MapReduce",
@@ -3421,6 +3718,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus MapReduce MapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.MapReduce",
           "name": "stopControlling",
           "normalized": "a-\u003eIO()",
@@ -3437,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3446,6 +3745,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3459,6 +3759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3467,6 +3768,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3481,6 +3783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ea function for responding a\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskResultFunction",
           "package": "Holumbus-MapReduce",
@@ -3490,6 +3793,7 @@
         "index": {
           "description": "function for responding",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "TaskResultFunction",
           "package": "Holumbus-MapReduce",
@@ -3503,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "closeTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3512,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "closeTaskProcessor",
           "normalized": "TaskProcessor-\u003eIO()",
@@ -3528,6 +3834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all Names of the Actions\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "getActionNames",
           "package": "Holumbus-MapReduce",
@@ -3538,6 +3845,7 @@
         "index": {
           "description": "Lists all Names of the Actions",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "getActionNames",
           "normalized": "TaskProcessor-\u003eIO[ActionName]",
@@ -3554,6 +3862,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLists all Actions with Name, Descrition and so on\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "getActions",
           "package": "Holumbus-MapReduce",
@@ -3564,6 +3873,7 @@
         "index": {
           "description": "Lists all Actions with Name Descrition and so on",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "getActions",
           "normalized": "TaskProcessor-\u003eIO[ActionData]",
@@ -3579,6 +3889,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "listTaskIds",
           "package": "Holumbus-MapReduce",
@@ -3588,6 +3899,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "listTaskIds",
           "normalized": "TaskProcessor-\u003eIO[TaskId]",
@@ -3604,6 +3916,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ecreates a new TaskProcessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "newTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3614,6 +3927,7 @@
         "index": {
           "description": "creates new TaskProcessor",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "newTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3627,6 +3941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "printTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3636,6 +3951,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "printTaskProcessor",
           "normalized": "TaskProcessor-\u003eIO String",
@@ -3652,6 +3968,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadds an ActionMap to the TaskProcessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setActionMap",
           "package": "Holumbus-MapReduce",
@@ -3662,6 +3979,7 @@
         "index": {
           "description": "adds an ActionMap to the TaskProcessor",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setActionMap",
           "normalized": "KeyMap ActionData-\u003eTaskProcessor-\u003eIO()",
@@ -3678,6 +3996,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadd a filesystem-instance to the TaskProcessor\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setFileSystemToTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3688,6 +4007,7 @@
         "index": {
           "description": "add filesystem-instance to the TaskProcessor",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setFileSystemToTaskProcessor",
           "normalized": "FileSystem-\u003eTaskProcessor-\u003eIO()",
@@ -3703,6 +4023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setTaskCompletedHook",
           "package": "Holumbus-MapReduce",
@@ -3712,6 +4033,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setTaskCompletedHook",
           "normalized": "TaskResultFunction-\u003eTaskProcessor-\u003eIO()",
@@ -3727,6 +4049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setTaskErrorHook",
           "package": "Holumbus-MapReduce",
@@ -3736,6 +4059,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "setTaskErrorHook",
           "normalized": "TaskResultFunction-\u003eTaskProcessor-\u003eIO()",
@@ -3752,6 +4076,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eadds a Task to the TaskProcessor, the execution might be later\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "startTask",
           "package": "Holumbus-MapReduce",
@@ -3762,6 +4087,7 @@
         "index": {
           "description": "adds Task to the TaskProcessor the execution might be later",
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "startTask",
           "normalized": "TaskData-\u003eTaskProcessor-\u003eIO()",
@@ -3777,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "startTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3786,6 +4113,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "startTaskProcessor",
           "normalized": "TaskProcessor-\u003eIO()",
@@ -3801,6 +4129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopAllTasks",
           "package": "Holumbus-MapReduce",
@@ -3810,6 +4139,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopAllTasks",
           "normalized": "TaskProcessor-\u003eIO()",
@@ -3825,6 +4155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopTask",
           "package": "Holumbus-MapReduce",
@@ -3834,6 +4165,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopTask",
           "normalized": "TaskId-\u003eTaskProcessor-\u003eIO()",
@@ -3849,6 +4181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopTaskProcessor",
           "package": "Holumbus-MapReduce",
@@ -3858,6 +4191,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce TaskProcessor",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.TaskProcessor",
           "name": "stopTaskProcessor",
           "normalized": "TaskProcessor-\u003eIO()",
@@ -3874,6 +4208,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "Types",
           "package": "Holumbus-MapReduce",
@@ -3883,6 +4218,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "Types",
           "package": "Holumbus-MapReduce",
@@ -3896,6 +4232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -3904,6 +4241,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -3917,6 +4255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionData",
           "package": "Holumbus-MapReduce",
@@ -3925,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionData",
           "package": "Holumbus-MapReduce",
@@ -3939,6 +4279,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe ActionEnvironment contains all data that might be needed\n   during an action. So far, it only keeps the current task data and\n   a reference to the global filesystem and the options. \n   This is a good place to implement counters for the map-reduce-system \n   or other stuff...\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionEnvironment",
           "package": "Holumbus-MapReduce",
@@ -3948,6 +4289,7 @@
         "index": {
           "description": "the ActionEnvironment contains all data that might be needed during an action So far it only keeps the current task data and reference to the global filesystem and the options This is good place to implement counters for the map-reduce-system or other stuff",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionEnvironment",
           "package": "Holumbus-MapReduce",
@@ -3961,6 +4303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionInfo",
           "package": "Holumbus-MapReduce",
@@ -3969,6 +4312,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionInfo",
           "package": "Holumbus-MapReduce",
@@ -3982,6 +4326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionMap",
           "package": "Holumbus-MapReduce",
@@ -3990,6 +4335,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionMap",
           "package": "Holumbus-MapReduce",
@@ -4003,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionName",
           "package": "Holumbus-MapReduce",
@@ -4011,6 +4358,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionName",
           "package": "Holumbus-MapReduce",
@@ -4024,6 +4372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "FunctionData",
           "package": "Holumbus-MapReduce",
@@ -4032,6 +4381,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "FunctionData",
           "package": "Holumbus-MapReduce",
@@ -4045,6 +4395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "Hash",
           "package": "Holumbus-MapReduce",
@@ -4053,6 +4404,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "Hash",
           "package": "Holumbus-MapReduce",
@@ -4066,6 +4418,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "InputReader",
           "package": "Holumbus-MapReduce",
@@ -4074,6 +4427,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "InputReader",
           "package": "Holumbus-MapReduce",
@@ -4087,6 +4441,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobAction",
           "package": "Holumbus-MapReduce",
@@ -4095,6 +4450,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobAction",
           "package": "Holumbus-MapReduce",
@@ -4109,6 +4465,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe job data, include the user-input and some additional control-data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobData",
           "package": "Holumbus-MapReduce",
@@ -4118,6 +4475,7 @@
         "index": {
           "description": "the job data include the user-input and some additional control-data",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobData",
           "package": "Holumbus-MapReduce",
@@ -4132,6 +4490,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe job id (should be unique in the system)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobId",
           "package": "Holumbus-MapReduce",
@@ -4141,6 +4500,7 @@
         "index": {
           "description": "the job id should be unique in the system",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobId",
           "package": "Holumbus-MapReduce",
@@ -4155,6 +4515,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003edefines a job, this is all data the user has to give to run a job\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobInfo",
           "package": "Holumbus-MapReduce",
@@ -4164,6 +4525,7 @@
         "index": {
           "description": "defines job this is all data the user has to give to run job",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobInfo",
           "package": "Holumbus-MapReduce",
@@ -4178,6 +4540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe result of the job, given by the master\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResult",
           "package": "Holumbus-MapReduce",
@@ -4187,6 +4550,7 @@
         "index": {
           "description": "the result of the job given by the master",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResult",
           "package": "Holumbus-MapReduce",
@@ -4200,6 +4564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResultContainer",
           "package": "Holumbus-MapReduce",
@@ -4208,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResultContainer",
           "package": "Holumbus-MapReduce",
@@ -4222,6 +4588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe job state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobState",
           "package": "Holumbus-MapReduce",
@@ -4231,6 +4598,7 @@
         "index": {
           "description": "the job state",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobState",
           "package": "Holumbus-MapReduce",
@@ -4245,6 +4613,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral MapAction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapAction",
           "package": "Holumbus-MapReduce",
@@ -4254,6 +4623,7 @@
         "index": {
           "description": "general MapAction",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapAction",
           "package": "Holumbus-MapReduce",
@@ -4267,6 +4637,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4275,6 +4646,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4288,6 +4660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapFunction",
           "package": "Holumbus-MapReduce",
@@ -4296,6 +4669,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapFunction",
           "package": "Holumbus-MapReduce",
@@ -4309,6 +4683,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapPartition",
           "package": "Holumbus-MapReduce",
@@ -4317,6 +4692,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapPartition",
           "package": "Holumbus-MapReduce",
@@ -4330,6 +4706,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "OptionsDecoder",
           "package": "Holumbus-MapReduce",
@@ -4338,6 +4715,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "OptionsDecoder",
           "package": "Holumbus-MapReduce",
@@ -4351,6 +4729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "OutputMap",
           "package": "Holumbus-MapReduce",
@@ -4359,6 +4738,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "OutputMap",
           "package": "Holumbus-MapReduce",
@@ -4372,6 +4752,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "OutputWriter",
           "package": "Holumbus-MapReduce",
@@ -4380,6 +4761,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "OutputWriter",
           "package": "Holumbus-MapReduce",
@@ -4394,6 +4776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral MapAction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceAction",
           "package": "Holumbus-MapReduce",
@@ -4403,6 +4786,7 @@
         "index": {
           "description": "general MapAction",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceAction",
           "package": "Holumbus-MapReduce",
@@ -4416,6 +4800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4424,6 +4809,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4437,6 +4823,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceFunction",
           "package": "Holumbus-MapReduce",
@@ -4445,6 +4832,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceFunction",
           "package": "Holumbus-MapReduce",
@@ -4458,6 +4846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceMerge",
           "package": "Holumbus-MapReduce",
@@ -4466,6 +4855,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceMerge",
           "package": "Holumbus-MapReduce",
@@ -4479,6 +4869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReducePartition",
           "package": "Holumbus-MapReduce",
@@ -4487,6 +4878,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReducePartition",
           "package": "Holumbus-MapReduce",
@@ -4501,6 +4893,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003egeneral SplitAction\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitAction",
           "package": "Holumbus-MapReduce",
@@ -4510,6 +4903,7 @@
         "index": {
           "description": "general SplitAction",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitAction",
           "package": "Holumbus-MapReduce",
@@ -4523,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4531,6 +4926,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4544,6 +4940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitFunction",
           "package": "Holumbus-MapReduce",
@@ -4552,6 +4949,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitFunction",
           "package": "Holumbus-MapReduce",
@@ -4566,6 +4964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe TaskData, contains all information to do the task\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskData",
           "package": "Holumbus-MapReduce",
@@ -4575,6 +4974,7 @@
         "index": {
           "description": "the TaskData contains all information to do the task",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskData",
           "package": "Holumbus-MapReduce",
@@ -4589,6 +4989,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe task id (should be unique in the system)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskId",
           "package": "Holumbus-MapReduce",
@@ -4598,6 +4999,7 @@
         "index": {
           "description": "the task id should be unique in the system",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskId",
           "package": "Holumbus-MapReduce",
@@ -4611,6 +5013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskOutputType",
           "package": "Holumbus-MapReduce",
@@ -4619,6 +5022,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskOutputType",
           "package": "Holumbus-MapReduce",
@@ -4633,6 +5037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ethe task state\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskState",
           "package": "Holumbus-MapReduce",
@@ -4642,6 +5047,7 @@
         "index": {
           "description": "the task state",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskState",
           "package": "Holumbus-MapReduce",
@@ -4656,6 +5062,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ewhich type (map, combine, reduce)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskType",
           "package": "Holumbus-MapReduce",
@@ -4665,6 +5072,7 @@
         "index": {
           "description": "which type map combine reduce",
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskType",
           "package": "Holumbus-MapReduce",
@@ -4678,6 +5086,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4687,6 +5096,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -4700,6 +5110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionData",
           "package": "Holumbus-MapReduce",
@@ -4709,6 +5120,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionData",
           "package": "Holumbus-MapReduce",
@@ -4722,6 +5134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionEnvironment",
           "package": "Holumbus-MapReduce",
@@ -4731,6 +5144,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ActionEnvironment",
           "package": "Holumbus-MapReduce",
@@ -4744,6 +5158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "FileFunctionData",
           "package": "Holumbus-MapReduce",
@@ -4753,6 +5168,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "FileFunctionData",
           "package": "Holumbus-MapReduce",
@@ -4766,6 +5182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSCombine",
           "package": "Holumbus-MapReduce",
@@ -4775,6 +5192,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSCombine",
           "package": "Holumbus-MapReduce",
@@ -4788,6 +5206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSCompleted",
           "package": "Holumbus-MapReduce",
@@ -4797,6 +5216,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSCompleted",
           "package": "Holumbus-MapReduce",
@@ -4810,6 +5230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSError",
           "package": "Holumbus-MapReduce",
@@ -4819,6 +5240,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSError",
           "package": "Holumbus-MapReduce",
@@ -4832,6 +5254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSFinished",
           "package": "Holumbus-MapReduce",
@@ -4841,6 +5264,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSFinished",
           "package": "Holumbus-MapReduce",
@@ -4854,6 +5278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSIdle",
           "package": "Holumbus-MapReduce",
@@ -4863,6 +5288,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSIdle",
           "package": "Holumbus-MapReduce",
@@ -4876,6 +5302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSMap",
           "package": "Holumbus-MapReduce",
@@ -4885,6 +5312,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSMap",
           "package": "Holumbus-MapReduce",
@@ -4898,6 +5326,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSPlanned",
           "package": "Holumbus-MapReduce",
@@ -4907,6 +5336,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSPlanned",
           "package": "Holumbus-MapReduce",
@@ -4920,6 +5350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSReduce",
           "package": "Holumbus-MapReduce",
@@ -4929,6 +5360,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSReduce",
           "package": "Holumbus-MapReduce",
@@ -4942,6 +5374,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSSplit",
           "package": "Holumbus-MapReduce",
@@ -4951,6 +5384,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JSSplit",
           "package": "Holumbus-MapReduce",
@@ -4964,6 +5398,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobAction",
           "package": "Holumbus-MapReduce",
@@ -4973,6 +5408,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobAction",
           "package": "Holumbus-MapReduce",
@@ -4986,6 +5422,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobData",
           "package": "Holumbus-MapReduce",
@@ -4995,6 +5432,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobData",
           "package": "Holumbus-MapReduce",
@@ -5008,6 +5446,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobInfo",
           "package": "Holumbus-MapReduce",
@@ -5017,6 +5456,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobInfo",
           "package": "Holumbus-MapReduce",
@@ -5030,6 +5470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResult",
           "package": "Holumbus-MapReduce",
@@ -5039,6 +5480,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResult",
           "package": "Holumbus-MapReduce",
@@ -5052,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResultContainer",
           "package": "Holumbus-MapReduce",
@@ -5061,6 +5504,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "JobResultContainer",
           "package": "Holumbus-MapReduce",
@@ -5074,6 +5518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5083,6 +5528,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "MapConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5096,6 +5542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5105,6 +5552,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ReduceConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5118,6 +5566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5127,6 +5576,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "SplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5140,6 +5590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TOTFile",
           "package": "Holumbus-MapReduce",
@@ -5149,6 +5600,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TOTFile",
           "package": "Holumbus-MapReduce",
@@ -5162,6 +5614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TOTRawTuple",
           "package": "Holumbus-MapReduce",
@@ -5171,6 +5624,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TOTRawTuple",
           "package": "Holumbus-MapReduce",
@@ -5184,6 +5638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSCompleted",
           "package": "Holumbus-MapReduce",
@@ -5193,6 +5648,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSCompleted",
           "package": "Holumbus-MapReduce",
@@ -5206,6 +5662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSError",
           "package": "Holumbus-MapReduce",
@@ -5215,6 +5672,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSError",
           "package": "Holumbus-MapReduce",
@@ -5228,6 +5686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSFinished",
           "package": "Holumbus-MapReduce",
@@ -5237,6 +5696,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSFinished",
           "package": "Holumbus-MapReduce",
@@ -5250,6 +5710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSIdle",
           "package": "Holumbus-MapReduce",
@@ -5259,6 +5720,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSIdle",
           "package": "Holumbus-MapReduce",
@@ -5272,6 +5734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSInProgress",
           "package": "Holumbus-MapReduce",
@@ -5281,6 +5744,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSInProgress",
           "package": "Holumbus-MapReduce",
@@ -5294,6 +5758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSSending",
           "package": "Holumbus-MapReduce",
@@ -5303,6 +5768,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TSSending",
           "package": "Holumbus-MapReduce",
@@ -5316,6 +5782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTCombine",
           "package": "Holumbus-MapReduce",
@@ -5325,6 +5792,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTCombine",
           "package": "Holumbus-MapReduce",
@@ -5338,6 +5806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTError",
           "package": "Holumbus-MapReduce",
@@ -5347,6 +5816,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTError",
           "package": "Holumbus-MapReduce",
@@ -5360,6 +5830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTMap",
           "package": "Holumbus-MapReduce",
@@ -5369,6 +5840,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTMap",
           "package": "Holumbus-MapReduce",
@@ -5382,6 +5854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTReduce",
           "package": "Holumbus-MapReduce",
@@ -5391,6 +5864,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTReduce",
           "package": "Holumbus-MapReduce",
@@ -5404,6 +5878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTSplit",
           "package": "Holumbus-MapReduce",
@@ -5413,6 +5888,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TTSplit",
           "package": "Holumbus-MapReduce",
@@ -5426,6 +5902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskData",
           "package": "Holumbus-MapReduce",
@@ -5435,6 +5912,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TaskData",
           "package": "Holumbus-MapReduce",
@@ -5448,6 +5926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "TupleFunctionData",
           "package": "Holumbus-MapReduce",
@@ -5457,6 +5936,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "TupleFunctionData",
           "package": "Holumbus-MapReduce",
@@ -5470,6 +5950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Combine",
           "package": "Holumbus-MapReduce",
@@ -5479,6 +5960,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Combine",
           "package": "Holumbus-MapReduce",
@@ -5492,6 +5974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Info",
           "package": "Holumbus-MapReduce",
@@ -5501,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Info",
           "package": "Holumbus-MapReduce",
@@ -5514,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_InputEncoder",
           "package": "Holumbus-MapReduce",
@@ -5523,6 +6008,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_InputEncoder",
           "package": "Holumbus-MapReduce",
@@ -5536,6 +6022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Map",
           "package": "Holumbus-MapReduce",
@@ -5545,6 +6032,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Map",
           "package": "Holumbus-MapReduce",
@@ -5558,6 +6046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Name",
           "package": "Holumbus-MapReduce",
@@ -5567,6 +6056,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Name",
           "package": "Holumbus-MapReduce",
@@ -5580,6 +6070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OptDecoder",
           "package": "Holumbus-MapReduce",
@@ -5589,6 +6080,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OptDecoder",
           "package": "Holumbus-MapReduce",
@@ -5602,6 +6094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OptEncoder",
           "package": "Holumbus-MapReduce",
@@ -5611,6 +6104,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OptEncoder",
           "package": "Holumbus-MapReduce",
@@ -5624,6 +6118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OutputDecoder",
           "package": "Holumbus-MapReduce",
@@ -5633,6 +6128,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_OutputDecoder",
           "package": "Holumbus-MapReduce",
@@ -5646,6 +6142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Reduce",
           "package": "Holumbus-MapReduce",
@@ -5655,6 +6152,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Reduce",
           "package": "Holumbus-MapReduce",
@@ -5668,6 +6166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Split",
           "package": "Holumbus-MapReduce",
@@ -5677,6 +6176,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ac_Split",
           "package": "Holumbus-MapReduce",
@@ -5690,6 +6190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Combine",
           "package": "Holumbus-MapReduce",
@@ -5699,6 +6200,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Combine",
           "package": "Holumbus-MapReduce",
@@ -5712,6 +6214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Info",
           "package": "Holumbus-MapReduce",
@@ -5721,6 +6224,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Info",
           "package": "Holumbus-MapReduce",
@@ -5734,6 +6238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Map",
           "package": "Holumbus-MapReduce",
@@ -5743,6 +6248,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Map",
           "package": "Holumbus-MapReduce",
@@ -5756,6 +6262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Name",
           "package": "Holumbus-MapReduce",
@@ -5765,6 +6272,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Name",
           "package": "Holumbus-MapReduce",
@@ -5778,6 +6286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Reduce",
           "package": "Holumbus-MapReduce",
@@ -5787,6 +6296,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Reduce",
           "package": "Holumbus-MapReduce",
@@ -5800,6 +6310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Split",
           "package": "Holumbus-MapReduce",
@@ -5809,6 +6320,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ad_Split",
           "package": "Holumbus-MapReduce",
@@ -5822,6 +6334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ae_FileSystem",
           "package": "Holumbus-MapReduce",
@@ -5831,6 +6344,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ae_FileSystem",
           "package": "Holumbus-MapReduce",
@@ -5844,6 +6358,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ae_TaskData",
           "package": "Holumbus-MapReduce",
@@ -5853,6 +6368,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ae_TaskData",
           "package": "Holumbus-MapReduce",
@@ -5866,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "createJobInfoFromConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5874,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "createJobInfoFromConfiguration",
           "normalized": "ActionConfiguration a b c b c c c-\u003ea-\u003e[(b,c)]-\u003e[FileId]-\u003eInt-\u003eInt-\u003eInt-\u003eInt-\u003eTaskOutputType-\u003eJobInfo",
@@ -5889,6 +6407,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "createListsFromJobResult",
           "package": "Holumbus-MapReduce",
@@ -5898,6 +6417,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "createListsFromJobResult",
           "normalized": "ActionConfiguration a b c b c c c-\u003eJobResult-\u003e([(b,c)],[FileId])",
@@ -5913,6 +6433,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5922,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultActionConfiguration",
           "normalized": "ActionName-\u003eActionConfiguration a b c b c c c",
@@ -5937,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultInputReader",
           "package": "Holumbus-MapReduce",
@@ -5946,6 +6469,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultInputReader",
           "package": "Holumbus-MapReduce",
@@ -5959,6 +6483,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultMapConfiguration",
           "package": "Holumbus-MapReduce",
@@ -5968,6 +6493,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultMapConfiguration",
           "normalized": "MapFunction a b c b c-\u003eMapConfiguration a b c b c",
@@ -5983,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultMerge",
           "package": "Holumbus-MapReduce",
@@ -5992,6 +6519,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultMerge",
           "package": "Holumbus-MapReduce",
@@ -6005,6 +6533,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultOutputWriter",
           "package": "Holumbus-MapReduce",
@@ -6014,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultOutputWriter",
           "package": "Holumbus-MapReduce",
@@ -6027,6 +6557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultPartition",
           "package": "Holumbus-MapReduce",
@@ -6036,6 +6567,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultPartition",
           "package": "Holumbus-MapReduce",
@@ -6049,6 +6581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultReduceConfiguration",
           "package": "Holumbus-MapReduce",
@@ -6058,6 +6591,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultReduceConfiguration",
           "normalized": "ReduceFunction a b c c-\u003eReduceConfiguration a b c c",
@@ -6073,6 +6607,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultSplit",
           "package": "Holumbus-MapReduce",
@@ -6082,6 +6617,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultSplit",
           "package": "Holumbus-MapReduce",
@@ -6095,6 +6631,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultSplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -6104,6 +6641,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "defaultSplitConfiguration",
           "package": "Holumbus-MapReduce",
@@ -6117,6 +6655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "fromJobStatetoTaskType",
           "package": "Holumbus-MapReduce",
@@ -6126,6 +6665,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "fromJobStatetoTaskType",
           "normalized": "JobState-\u003eMaybe TaskType",
@@ -6141,6 +6681,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "getActionForTaskType",
           "package": "Holumbus-MapReduce",
@@ -6150,6 +6691,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "getActionForTaskType",
           "normalized": "TaskType-\u003eActionData-\u003eMaybe BinaryReduceAction",
@@ -6165,6 +6707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "getNextJobState",
           "package": "Holumbus-MapReduce",
@@ -6174,6 +6717,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "getNextJobState",
           "normalized": "JobState-\u003eJobState",
@@ -6189,6 +6733,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "getNextTaskState",
           "package": "Holumbus-MapReduce",
@@ -6198,6 +6743,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "getNextTaskState",
           "normalized": "TaskState-\u003eTaskState",
@@ -6213,6 +6759,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "getPrevJobState",
           "package": "Holumbus-MapReduce",
@@ -6222,6 +6769,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "getPrevJobState",
           "normalized": "JobState-\u003eJobState",
@@ -6237,6 +6785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "hash",
           "package": "Holumbus-MapReduce",
@@ -6246,6 +6795,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "hash",
           "normalized": "Int-\u003ea-\u003eInt",
@@ -6260,6 +6810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "hashedPartition",
           "package": "Holumbus-MapReduce",
@@ -6269,6 +6820,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "hashedPartition",
           "package": "Holumbus-MapReduce",
@@ -6282,6 +6834,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Count",
           "package": "Holumbus-MapReduce",
@@ -6291,6 +6844,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Count",
           "package": "Holumbus-MapReduce",
@@ -6304,6 +6858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Name",
           "package": "Holumbus-MapReduce",
@@ -6313,6 +6868,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Name",
           "package": "Holumbus-MapReduce",
@@ -6326,6 +6882,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Output",
           "package": "Holumbus-MapReduce",
@@ -6335,6 +6892,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ja_Output",
           "package": "Holumbus-MapReduce",
@@ -6348,6 +6906,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_Info",
           "package": "Holumbus-MapReduce",
@@ -6357,6 +6916,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_Info",
           "package": "Holumbus-MapReduce",
@@ -6370,6 +6930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_JobId",
           "package": "Holumbus-MapReduce",
@@ -6379,6 +6940,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_JobId",
           "package": "Holumbus-MapReduce",
@@ -6392,6 +6954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_OutputMap",
           "package": "Holumbus-MapReduce",
@@ -6401,6 +6964,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_OutputMap",
           "package": "Holumbus-MapReduce",
@@ -6414,6 +6978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_Result",
           "package": "Holumbus-MapReduce",
@@ -6423,6 +6988,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_Result",
           "package": "Holumbus-MapReduce",
@@ -6436,6 +7002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_State",
           "package": "Holumbus-MapReduce",
@@ -6445,6 +7012,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_State",
           "package": "Holumbus-MapReduce",
@@ -6458,6 +7026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_endTime",
           "package": "Holumbus-MapReduce",
@@ -6467,6 +7036,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_endTime",
           "package": "Holumbus-MapReduce",
@@ -6480,6 +7050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_startTime",
           "package": "Holumbus-MapReduce",
@@ -6489,6 +7060,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jd_startTime",
           "package": "Holumbus-MapReduce",
@@ -6502,6 +7074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_CombineAction",
           "package": "Holumbus-MapReduce",
@@ -6511,6 +7084,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_CombineAction",
           "package": "Holumbus-MapReduce",
@@ -6524,6 +7098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Description",
           "package": "Holumbus-MapReduce",
@@ -6533,6 +7108,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Description",
           "package": "Holumbus-MapReduce",
@@ -6546,6 +7122,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Input",
           "package": "Holumbus-MapReduce",
@@ -6555,6 +7132,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Input",
           "normalized": "[FunctionData]",
@@ -6570,6 +7148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_MapAction",
           "package": "Holumbus-MapReduce",
@@ -6579,6 +7158,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_MapAction",
           "package": "Holumbus-MapReduce",
@@ -6592,6 +7172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_NumOfResults",
           "package": "Holumbus-MapReduce",
@@ -6601,6 +7182,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_NumOfResults",
           "package": "Holumbus-MapReduce",
@@ -6614,6 +7196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Option",
           "package": "Holumbus-MapReduce",
@@ -6623,6 +7206,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_Option",
           "package": "Holumbus-MapReduce",
@@ -6636,6 +7220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_ReduceAction",
           "package": "Holumbus-MapReduce",
@@ -6645,6 +7230,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_ReduceAction",
           "package": "Holumbus-MapReduce",
@@ -6658,6 +7244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_SplitAction",
           "package": "Holumbus-MapReduce",
@@ -6667,6 +7254,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "ji_SplitAction",
           "package": "Holumbus-MapReduce",
@@ -6680,6 +7268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "jr_Output",
           "package": "Holumbus-MapReduce",
@@ -6689,6 +7278,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "jr_Output",
           "normalized": "[FunctionData]",
@@ -6704,6 +7294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Function",
           "package": "Holumbus-MapReduce",
@@ -6713,6 +7304,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Function",
           "package": "Holumbus-MapReduce",
@@ -6726,6 +7318,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Partition",
           "package": "Holumbus-MapReduce",
@@ -6735,6 +7328,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Partition",
           "package": "Holumbus-MapReduce",
@@ -6748,6 +7342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Reader",
           "package": "Holumbus-MapReduce",
@@ -6757,6 +7352,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Reader",
           "package": "Holumbus-MapReduce",
@@ -6770,6 +7366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Writer",
           "package": "Holumbus-MapReduce",
@@ -6779,6 +7376,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "mc_Writer",
           "package": "Holumbus-MapReduce",
@@ -6792,6 +7390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "mkActionEnvironment",
           "package": "Holumbus-MapReduce",
@@ -6801,6 +7400,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "mkActionEnvironment",
           "normalized": "TaskData-\u003eFileSystem-\u003eActionEnvironment",
@@ -6816,6 +7416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Function",
           "package": "Holumbus-MapReduce",
@@ -6825,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Function",
           "package": "Holumbus-MapReduce",
@@ -6838,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Merge",
           "package": "Holumbus-MapReduce",
@@ -6847,6 +7450,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Merge",
           "package": "Holumbus-MapReduce",
@@ -6860,6 +7464,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Partition",
           "package": "Holumbus-MapReduce",
@@ -6869,6 +7474,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Partition",
           "package": "Holumbus-MapReduce",
@@ -6882,6 +7488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Reader",
           "package": "Holumbus-MapReduce",
@@ -6891,6 +7498,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Reader",
           "package": "Holumbus-MapReduce",
@@ -6904,6 +7512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Writer",
           "package": "Holumbus-MapReduce",
@@ -6913,6 +7522,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "rc_Writer",
           "package": "Holumbus-MapReduce",
@@ -6926,6 +7536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "readActionConfiguration",
           "package": "Holumbus-MapReduce",
@@ -6935,6 +7546,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "readActionConfiguration",
           "normalized": "ActionConfiguration a b c b c c c-\u003eActionData",
@@ -6950,6 +7562,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "readConnector",
           "package": "Holumbus-MapReduce",
@@ -6959,6 +7572,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "readConnector",
           "normalized": "InputReader a b-\u003eActionEnvironment-\u003e[FunctionData]-\u003eIO[(a,b)]",
@@ -6974,6 +7588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Function",
           "package": "Holumbus-MapReduce",
@@ -6983,6 +7598,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Function",
           "package": "Holumbus-MapReduce",
@@ -6996,6 +7612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Reader",
           "package": "Holumbus-MapReduce",
@@ -7005,6 +7622,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Reader",
           "package": "Holumbus-MapReduce",
@@ -7018,6 +7636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Writer",
           "package": "Holumbus-MapReduce",
@@ -7027,6 +7646,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "sc_Writer",
           "package": "Holumbus-MapReduce",
@@ -7040,6 +7660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Action",
           "package": "Holumbus-MapReduce",
@@ -7049,6 +7670,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Action",
           "package": "Holumbus-MapReduce",
@@ -7062,6 +7684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Input",
           "package": "Holumbus-MapReduce",
@@ -7071,6 +7694,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Input",
           "normalized": "(Int,[FunctionData])",
@@ -7086,6 +7710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_JobId",
           "package": "Holumbus-MapReduce",
@@ -7095,6 +7720,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_JobId",
           "package": "Holumbus-MapReduce",
@@ -7108,6 +7734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Option",
           "package": "Holumbus-MapReduce",
@@ -7117,6 +7744,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Option",
           "package": "Holumbus-MapReduce",
@@ -7130,6 +7758,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Output",
           "package": "Holumbus-MapReduce",
@@ -7139,6 +7768,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Output",
           "normalized": "[(Int,[FunctionData])]",
@@ -7154,6 +7784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_OutputType",
           "package": "Holumbus-MapReduce",
@@ -7163,6 +7794,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_OutputType",
           "package": "Holumbus-MapReduce",
@@ -7176,6 +7808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_PartValue",
           "package": "Holumbus-MapReduce",
@@ -7185,6 +7818,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_PartValue",
           "package": "Holumbus-MapReduce",
@@ -7198,6 +7832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_State",
           "package": "Holumbus-MapReduce",
@@ -7207,6 +7842,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_State",
           "package": "Holumbus-MapReduce",
@@ -7220,6 +7856,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_TaskId",
           "package": "Holumbus-MapReduce",
@@ -7229,6 +7866,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_TaskId",
           "package": "Holumbus-MapReduce",
@@ -7242,6 +7880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Type",
           "package": "Holumbus-MapReduce",
@@ -7251,6 +7890,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "td_Type",
           "package": "Holumbus-MapReduce",
@@ -7264,6 +7904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.Types",
           "name": "writeConnector",
           "package": "Holumbus-MapReduce",
@@ -7273,6 +7914,7 @@
         },
         "index": {
           "hierarchy": "Holumbus MapReduce Types",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.Types",
           "name": "writeConnector",
           "normalized": "OutputWriter a b-\u003eActionEnvironment-\u003e[(Int,[(a,b)])]-\u003eIO[(Int,[FunctionData])]",
@@ -7289,6 +7931,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.UserInterface",
           "name": "UserInterface",
           "package": "Holumbus-MapReduce",
@@ -7298,6 +7941,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus MapReduce UserInterface",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.UserInterface",
           "name": "UserInterface",
           "package": "Holumbus-MapReduce",
@@ -7312,6 +7956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eruns the user interface... just add an fileSystem an a fancy version-number\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.MapReduce.UserInterface",
           "name": "runUI",
           "package": "Holumbus-MapReduce",
@@ -7322,6 +7967,7 @@
         "index": {
           "description": "runs the user interface just add an fileSystem an fancy version-number",
           "hierarchy": "Holumbus MapReduce UserInterface",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.MapReduce.UserInterface",
           "name": "runUI",
           "normalized": "a-\u003eString-\u003eIO()",
@@ -7338,6 +7984,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eVersion    : 0.1\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7347,6 +7994,7 @@
         "index": {
           "description": "Version",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7360,6 +8008,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -7368,6 +8017,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "MapReduce",
           "package": "Holumbus-MapReduce",
@@ -7381,6 +8031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMRConf",
           "package": "Holumbus-MapReduce",
@@ -7389,6 +8040,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMRConf",
           "package": "Holumbus-MapReduce",
@@ -7402,6 +8054,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7410,6 +8063,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "SMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7423,6 +8077,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "closeMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7432,6 +8087,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "closeMapReduce",
           "normalized": "a-\u003eIO()",
@@ -7447,6 +8103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "defaultStandaloneConfig",
           "package": "Holumbus-MapReduce",
@@ -7456,6 +8113,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "defaultStandaloneConfig",
           "package": "Holumbus-MapReduce",
@@ -7469,6 +8127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7478,6 +8137,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7492,6 +8152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003estarts a MapReduce-Job (blocking while finished)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doMapReduceJob",
           "package": "Holumbus-MapReduce",
@@ -7502,6 +8163,7 @@
         "index": {
           "description": "starts MapReduce-Job blocking while finished",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doMapReduceJob",
           "normalized": "JobInfo-\u003ea-\u003eIO JobResult",
@@ -7518,6 +8180,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eperforms a single step of the controller (if mode is singlestep)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doSingleStep",
           "package": "Holumbus-MapReduce",
@@ -7528,6 +8191,7 @@
         "index": {
           "description": "performs single step of the controller if mode is singlestep",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "doSingleStep",
           "normalized": "a-\u003eIO()",
@@ -7544,6 +8208,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Type of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "getMapReduceType",
           "package": "Holumbus-MapReduce",
@@ -7554,6 +8219,7 @@
         "index": {
           "description": "get the Type of the MapReduce instance",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "getMapReduceType",
           "normalized": "a-\u003eIO MapReduceType",
@@ -7570,6 +8236,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eprints the siteId of the MapReduce instance \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "getMySiteId",
           "package": "Holumbus-MapReduce",
@@ -7580,6 +8247,7 @@
         "index": {
           "description": "prints the siteId of the MapReduce instance",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "getMySiteId",
           "normalized": "a-\u003eIO SiteId",
@@ -7596,6 +8264,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etest, if Controller is running\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "isControlling",
           "package": "Holumbus-MapReduce",
@@ -7606,6 +8275,7 @@
         "index": {
           "description": "test if Controller is running",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "isControlling",
           "normalized": "a-\u003eIO Bool",
@@ -7621,6 +8291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "newSMapReduce",
           "package": "Holumbus-MapReduce",
@@ -7630,6 +8301,7 @@
         },
         "index": {
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "newSMapReduce",
           "normalized": "FileSystem-\u003eActionMap-\u003eSMRConf-\u003eIO SMapReduce",
@@ -7646,6 +8318,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "startControlling",
           "package": "Holumbus-MapReduce",
@@ -7656,6 +8329,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "startControlling",
           "normalized": "a-\u003eIO()",
@@ -7672,6 +8346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eget the Controlling-Type (normal or singlestep) of the MapReduce instance\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 16:48:41 UTC 2014",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "stopControlling",
           "package": "Holumbus-MapReduce",
@@ -7682,6 +8357,7 @@
         "index": {
           "description": "get the Controlling-Type normal or singlestep of the MapReduce instance",
           "hierarchy": "Holumbus Standalone SMapReduce",
+          "indexed": "2014-03-11T16:48:41",
           "module": "Holumbus.Standalone.SMapReduce",
           "name": "stopControlling",
           "normalized": "a-\u003eIO()",

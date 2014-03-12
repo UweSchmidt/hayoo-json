@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "maid"
+        "phrase": "maid",
+        "type": "phrase"
       },
       "type": "context"
     }

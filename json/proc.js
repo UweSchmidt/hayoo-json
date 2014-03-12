@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "proc"
+        "phrase": "proc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Proc",
           "package": "proc",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Proc",
           "package": "proc",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "ProcStatus",
           "package": "proc",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "ProcStatus",
           "package": "proc",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "ProcessName",
           "package": "proc",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "ProcessName",
           "package": "proc",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "ProcessState",
           "package": "proc",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "ProcessState",
           "package": "proc",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "UID",
           "package": "proc",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "UID",
           "package": "proc",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "UserDatabase",
           "package": "proc",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "UserDatabase",
           "package": "proc",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "UserName",
           "package": "proc",
@@ -152,6 +165,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "UserName",
           "package": "proc",
@@ -165,6 +179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Paging",
           "package": "proc",
@@ -174,6 +189,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Paging",
           "package": "proc",
@@ -187,6 +203,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "ProcStatus",
           "package": "proc",
@@ -196,6 +213,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "ProcStatus",
           "package": "proc",
@@ -209,6 +227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Running",
           "package": "proc",
@@ -218,6 +237,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Running",
           "package": "proc",
@@ -231,6 +251,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Sleeping",
           "package": "proc",
@@ -240,6 +261,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Sleeping",
           "package": "proc",
@@ -253,6 +275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Traced",
           "package": "proc",
@@ -262,6 +285,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Traced",
           "package": "proc",
@@ -275,6 +299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Waiting",
           "package": "proc",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Waiting",
           "package": "proc",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "Zombie",
           "package": "proc",
@@ -306,6 +333,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "Zombie",
           "package": "proc",
@@ -320,6 +348,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet user database for search username with UID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "getUserDatabase",
           "package": "proc",
@@ -330,6 +359,7 @@
         "index": {
           "description": "Get user database for search username with UID",
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "getUserDatabase",
           "package": "proc",
@@ -344,6 +374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet information for all running processes.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "procGetAllProcessStatus",
           "package": "proc",
@@ -354,6 +385,7 @@
         "index": {
           "description": "Get information for all running processes",
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "procGetAllProcessStatus",
           "normalized": "IO[ProcStatus]",
@@ -370,6 +402,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation Box to find status.\n\u003c/p\u003e\u003cp\u003eGet process directories.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "procGetProcessDirs",
           "package": "proc",
@@ -380,6 +413,7 @@
         "index": {
           "description": "Information Box to find status Get process directories",
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "procGetProcessDirs",
           "normalized": "IO[FilePath]",
@@ -395,6 +429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psCmdline",
           "package": "proc",
@@ -404,6 +439,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psCmdline",
           "package": "proc",
@@ -417,6 +453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psCommand",
           "package": "proc",
@@ -426,6 +463,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psCommand",
           "package": "proc",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psCpuPercent",
           "package": "proc",
@@ -448,6 +487,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psCpuPercent",
           "package": "proc",
@@ -461,6 +501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psNice",
           "package": "proc",
@@ -470,6 +511,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psNice",
           "package": "proc",
@@ -483,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psNumThreads",
           "package": "proc",
@@ -492,6 +535,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psNumThreads",
           "package": "proc",
@@ -505,6 +549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psParentProcessId",
           "package": "proc",
@@ -514,6 +559,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psParentProcessId",
           "package": "proc",
@@ -527,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psProcessGroupId",
           "package": "proc",
@@ -536,6 +583,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psProcessGroupId",
           "package": "proc",
@@ -549,6 +597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psProcessId",
           "package": "proc",
@@ -558,6 +607,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psProcessId",
           "package": "proc",
@@ -571,6 +621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psResidentMem",
           "package": "proc",
@@ -580,6 +631,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psResidentMem",
           "package": "proc",
@@ -593,6 +645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psSessionId",
           "package": "proc",
@@ -602,6 +655,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psSessionId",
           "package": "proc",
@@ -615,6 +669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psState",
           "package": "proc",
@@ -624,6 +679,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psState",
           "package": "proc",
@@ -637,6 +693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psUID",
           "package": "proc",
@@ -646,6 +703,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psUID",
           "package": "proc",
@@ -659,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psUsername",
           "package": "proc",
@@ -668,6 +727,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psUsername",
           "package": "proc",
@@ -681,6 +741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:14 UTC 2014",
           "module": "System.Linux.Proc",
           "name": "psVirtualMem",
           "package": "proc",
@@ -690,6 +751,7 @@
         },
         "index": {
           "hierarchy": "System Linux Proc",
+          "indexed": "2014-03-11T19:44:14",
           "module": "System.Linux.Proc",
           "name": "psVirtualMem",
           "package": "proc",

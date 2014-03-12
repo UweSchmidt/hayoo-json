@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "karakuri"
+        "phrase": "karakuri",
+        "type": "phrase"
       },
       "type": "context"
     }

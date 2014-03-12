@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "nettle-frp"
+        "phrase": "nettle-frp",
+        "type": "phrase"
       },
       "type": "context"
     }

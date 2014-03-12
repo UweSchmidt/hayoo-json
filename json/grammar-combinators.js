@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "grammar-combinators"
+        "phrase": "grammar-combinators",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "Domain",
           "package": "grammar-combinators",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "Domain",
           "package": "grammar-combinators",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "ApplyIxMap",
           "package": "grammar-combinators",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "ApplyIxMap",
           "package": "grammar-combinators",
@@ -61,6 +65,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA decent Domain \u003ccode\u003ephi\u003c/code\u003e should instantiate the \u003ccode\u003e\u003ca\u003eFoldFam\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eShowFam\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eEqFam\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003eMemoFam\u003c/a\u003e\u003c/code\u003e. Avoid\n using this type class in constraints, use more specific type classes whenever possible.\n\u003c/p\u003e\u003cp\u003eNote: instances for this type class are not automatically derived, and you have to manually instantiate \n it with an empty implementation block.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "Domain",
           "package": "grammar-combinators",
@@ -70,6 +75,7 @@
         "index": {
           "description": "decent Domain phi should instantiate the FoldFam ShowFam EqFam and MemoFam Avoid using this type class in constraints use more specific type classes whenever possible Note instances for this type class are not automatically derived and you have to manually instantiate it with an empty implementation block",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "Domain",
           "package": "grammar-combinators",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "DomainEmbedding",
           "package": "grammar-combinators",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "DomainEmbedding",
           "package": "grammar-combinators",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "DomainMap",
           "package": "grammar-combinators",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "DomainMap",
           "package": "grammar-combinators",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "EitherFunctor",
           "package": "grammar-combinators",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "EitherFunctor",
           "package": "grammar-combinators",
@@ -147,6 +159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA domain \u003ccode\u003ephi\u003c/code\u003e that is an instance of the \u003ccode\u003e\u003ca\u003eEqFam\u003c/a\u003e\u003c/code\u003e type class supports \n overriding a function over the full domain at a single non-terminal using \n the |overrideIdx| function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "EqFam",
           "package": "grammar-combinators",
@@ -156,6 +169,7 @@
         "index": {
           "description": "domain phi that is an instance of the EqFam type class supports overriding function over the full domain at single non-terminal using the overrideIdx function",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "EqFam",
           "package": "grammar-combinators",
@@ -170,6 +184,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA domain \u003ccode\u003ephi\u003c/code\u003e that is an instance of the \u003ccode\u003e\u003ca\u003eFoldFam\u003c/a\u003e\u003c/code\u003e type class supports \n folding over all non-terminals in the domain using the \u003ccode\u003e\u003ca\u003efoldFam\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "FoldFam",
           "package": "grammar-combinators",
@@ -179,6 +194,7 @@
         "index": {
           "description": "domain phi that is an instance of the FoldFam type class supports folding over all non-terminals in the domain using the foldFam function",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "FoldFam",
           "package": "grammar-combinators",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapBase",
           "package": "grammar-combinators",
@@ -200,6 +217,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapBase",
           "package": "grammar-combinators",
@@ -213,6 +231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapId",
           "package": "grammar-combinators",
@@ -221,6 +240,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapId",
           "package": "grammar-combinators",
@@ -234,6 +254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapSeq",
           "package": "grammar-combinators",
@@ -242,6 +263,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "IxMapSeq",
           "package": "grammar-combinators",
@@ -255,6 +277,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftIx",
           "package": "grammar-combinators",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftIx",
           "package": "grammar-combinators",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LiftFam",
           "package": "grammar-combinators",
@@ -284,6 +309,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LiftFam",
           "package": "grammar-combinators",
@@ -297,6 +323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MemoFam",
           "package": "grammar-combinators",
@@ -305,6 +332,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MemoFam",
           "package": "grammar-combinators",
@@ -318,6 +346,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MergeDomain",
           "package": "grammar-combinators",
@@ -326,6 +355,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MergeDomain",
           "package": "grammar-combinators",
@@ -339,6 +369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightIx",
           "package": "grammar-combinators",
@@ -347,6 +378,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightIx",
           "package": "grammar-combinators",
@@ -361,6 +393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA domain \u003ccode\u003ephi\u003c/code\u003e that is an instance of the \u003ccode\u003e\u003ca\u003eShowFam\u003c/a\u003e\u003c/code\u003e type class supports \n conversion of non-terminal proof terms to Strings using the \u003ccode\u003e\u003ca\u003eshowIdx\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "ShowFam",
           "package": "grammar-combinators",
@@ -370,6 +403,7 @@
         "index": {
           "description": "domain phi that is an instance of the ShowFam type class supports conversion of non-terminal proof terms to Strings using the showIdx function",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "ShowFam",
           "package": "grammar-combinators",
@@ -384,6 +418,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generic wrapper type that restricts a semantic value family over a bigger domain\n to a smaller domain.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "SubVal",
           "package": "grammar-combinators",
@@ -393,6 +428,7 @@
         "index": {
           "description": "generic wrapper type that restricts semantic value family over bigger domain to smaller domain",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "SubVal",
           "package": "grammar-combinators",
@@ -406,6 +442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftIdx",
           "package": "grammar-combinators",
@@ -415,6 +452,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftIdx",
           "normalized": "a b-\u003eMergeDomain a c(LeftIx b)",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftR",
           "package": "grammar-combinators",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "LeftR",
           "normalized": "a b-\u003eEitherFunctor a c(LeftIx b)",
@@ -454,6 +494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MkSubVal",
           "package": "grammar-combinators",
@@ -463,6 +504,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "MkSubVal",
           "package": "grammar-combinators",
@@ -476,6 +518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightIdx",
           "package": "grammar-combinators",
@@ -485,6 +528,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightIdx",
           "normalized": "a b-\u003eMergeDomain c a(RightIx b)",
@@ -500,6 +544,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightR",
           "package": "grammar-combinators",
@@ -509,6 +554,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "RightR",
           "normalized": "a b-\u003eEitherFunctor c a(RightIx b)",
@@ -525,6 +571,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTest equality of two given non-terminal proof terms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "eqIdx",
           "package": "grammar-combinators",
@@ -535,6 +582,7 @@
         "index": {
           "description": "Test equality of two given non-terminal proof terms",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "eqIdx",
           "normalized": "a b b c b-\u003ec b-\u003eBool",
@@ -551,6 +599,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a given function over all non-terminals in the domain \u003ccode\u003ephi\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "foldFam",
           "package": "grammar-combinators",
@@ -561,6 +610,7 @@
         "index": {
           "description": "Fold given function over all non-terminals in the domain phi",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "foldFam",
           "normalized": "(a b c d-\u003ee-\u003ee)-\u003ee-\u003ee",
@@ -576,6 +626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "fromMemo",
           "package": "grammar-combinators",
@@ -585,6 +636,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "fromMemo",
           "normalized": "Memo a b-\u003ec d a e-\u003eb e",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "fromMemoK",
           "package": "grammar-combinators",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "fromMemoK",
           "normalized": "Memo a(K b)-\u003ea c-\u003eb",
@@ -624,6 +678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "liftIdxE",
           "package": "grammar-combinators",
@@ -633,6 +688,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "liftIdxE",
           "normalized": "a b-\u003eExp",
@@ -648,6 +704,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "liftIdxP",
           "package": "grammar-combinators",
@@ -657,6 +714,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "liftIdxP",
           "normalized": "a b-\u003ePat",
@@ -672,6 +730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "memoFamily",
           "package": "grammar-combinators",
@@ -681,6 +740,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "memoFamily",
           "normalized": "(a b c d-\u003ee d)-\u003ea b c d-\u003ee d",
@@ -696,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "memoFamilyK",
           "package": "grammar-combinators",
@@ -705,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "memoFamilyK",
           "normalized": "(a b c d-\u003ee)-\u003ea b c d-\u003ee",
@@ -721,6 +783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOverride a function over the full domain at a single non-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "overrideIdx",
           "package": "grammar-combinators",
@@ -731,6 +794,7 @@
         "index": {
           "description": "Override function over the full domain at single non-terminal",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "overrideIdx",
           "normalized": "(a b c d-\u003ee d)-\u003ec f-\u003ee f-\u003ec g-\u003ee g",
@@ -747,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSimilar to the \u003ccode\u003e\u003ca\u003eoverrideIdx\u003c/a\u003e\u003c/code\u003e function, but limited to functions whose result type is \n the same for all non-terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "overrideIdxK",
           "package": "grammar-combinators",
@@ -757,6 +822,7 @@
         "index": {
           "description": "Similar to the overrideIdx function but limited to functions whose result type is the same for all non-terminals",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "overrideIdxK",
           "normalized": "(a b c d-\u003ee)-\u003ec f-\u003ee-\u003ec g-\u003ee",
@@ -773,6 +839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a given non-terminal proof term to a String representation.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "showIdx",
           "package": "grammar-combinators",
@@ -783,6 +850,7 @@
         "index": {
           "description": "Convert given non-terminal proof term to String representation",
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "showIdx",
           "normalized": "a b c d-\u003eString",
@@ -798,6 +866,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "subIx",
           "package": "grammar-combinators",
@@ -807,6 +876,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "subIx",
           "normalized": "a(b c)-\u003ed c",
@@ -822,6 +892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "supIx",
           "package": "grammar-combinators",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "supIx",
           "normalized": "a b-\u003ec(d b)",
@@ -846,6 +918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "supPF",
           "package": "grammar-combinators",
@@ -855,6 +928,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "supPF",
           "normalized": "a b-\u003ec(d b)-\u003ePF a(SubVal d e)b-\u003ePF c e(d b)",
@@ -870,6 +944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "toMemo",
           "package": "grammar-combinators",
@@ -879,6 +954,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "toMemo",
           "normalized": "(a b c d-\u003ee d)-\u003eMemo c e",
@@ -894,6 +970,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "toMemoK",
           "package": "grammar-combinators",
@@ -903,6 +980,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "toMemoK",
           "normalized": "(a b c d-\u003ee)-\u003eMemo c(K e)",
@@ -918,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unLeftR",
           "package": "grammar-combinators",
@@ -927,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unLeftR",
           "normalized": "EitherFunctor a b(LeftIx c)-\u003ea c",
@@ -942,6 +1022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unRightR",
           "package": "grammar-combinators",
@@ -951,6 +1032,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unRightR",
           "normalized": "EitherFunctor a b(RightIx c)-\u003eb c",
@@ -966,6 +1048,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unSubVal",
           "package": "grammar-combinators",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Domain",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Domain",
           "name": "unSubVal",
           "package": "grammar-combinators",
@@ -988,6 +1072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "Grammar",
           "package": "grammar-combinators",
@@ -996,6 +1081,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "Grammar",
           "package": "grammar-combinators",
@@ -1009,6 +1095,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "AGrammar",
           "package": "grammar-combinators",
@@ -1017,6 +1104,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "AGrammar",
           "package": "grammar-combinators",
@@ -1030,6 +1118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "AnyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1038,6 +1127,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "AnyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1051,6 +1141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedContextFreeRule",
           "package": "grammar-combinators",
@@ -1059,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedContextFreeRule",
           "package": "grammar-combinators",
@@ -1072,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1080,6 +1173,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1093,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1101,6 +1196,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1114,6 +1210,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedLiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1122,6 +1219,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedExtendedLiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1135,6 +1233,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedRegularRule",
           "package": "grammar-combinators",
@@ -1143,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "BiasedRegularRule",
           "package": "grammar-combinators",
@@ -1156,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1164,6 +1265,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1177,6 +1279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ContextFreeRule",
           "package": "grammar-combinators",
@@ -1185,6 +1288,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ContextFreeRule",
           "package": "grammar-combinators",
@@ -1198,6 +1302,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1206,6 +1311,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1219,6 +1325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1227,6 +1334,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1240,6 +1348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedLiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1248,6 +1357,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ExtendedLiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1261,6 +1371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GAnyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1269,6 +1380,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GAnyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1282,6 +1394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GBiasedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1290,6 +1403,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GBiasedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1303,6 +1417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1311,6 +1426,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1324,6 +1440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1332,6 +1449,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1345,6 +1463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1353,6 +1472,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1366,6 +1486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GGrammar",
           "package": "grammar-combinators",
@@ -1374,6 +1495,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GGrammar",
           "package": "grammar-combinators",
@@ -1387,6 +1509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLAnyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1395,6 +1518,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLAnyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1408,6 +1532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1416,6 +1541,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1429,6 +1555,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1437,6 +1564,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GLExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1450,6 +1578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GPenaltyContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1458,6 +1587,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GPenaltyContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1471,6 +1601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GPenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1479,6 +1610,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GPenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1492,6 +1624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GRegularGrammar",
           "package": "grammar-combinators",
@@ -1500,6 +1633,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "GRegularGrammar",
           "package": "grammar-combinators",
@@ -1513,6 +1647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LAnyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1521,6 +1656,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LAnyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1534,6 +1670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1542,6 +1679,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1555,6 +1693,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1563,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1576,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1584,6 +1725,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "LiftableContextFreeRule",
           "package": "grammar-combinators",
@@ -1597,6 +1739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PGrammar",
           "package": "grammar-combinators",
@@ -1605,6 +1748,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PGrammar",
           "package": "grammar-combinators",
@@ -1618,6 +1762,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyContextFreeRule",
           "package": "grammar-combinators",
@@ -1626,6 +1771,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyContextFreeRule",
           "package": "grammar-combinators",
@@ -1639,6 +1785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1647,6 +1794,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1660,6 +1808,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1668,6 +1817,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyExtendedContextFreeRule",
           "package": "grammar-combinators",
@@ -1681,6 +1831,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyRegularRule",
           "package": "grammar-combinators",
@@ -1689,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "PenaltyRegularRule",
           "package": "grammar-combinators",
@@ -1702,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1710,6 +1863,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1723,6 +1877,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1731,6 +1886,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1744,6 +1900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedRegularGrammar",
           "package": "grammar-combinators",
@@ -1752,6 +1909,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingBiasedRegularGrammar",
           "package": "grammar-combinators",
@@ -1765,6 +1923,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1773,6 +1932,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1786,6 +1946,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1794,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1807,6 +1969,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1815,6 +1978,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLBiasedExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1828,6 +1992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1836,6 +2001,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1849,6 +2015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1857,6 +2024,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingLExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1870,6 +2038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1878,6 +2047,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1891,6 +2061,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1899,6 +2070,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyExtendedContextFreeGrammar",
           "package": "grammar-combinators",
@@ -1912,6 +2084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyRegularGrammar",
           "package": "grammar-combinators",
@@ -1920,6 +2093,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingPenaltyRegularGrammar",
           "package": "grammar-combinators",
@@ -1933,6 +2107,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingRegularGrammar",
           "package": "grammar-combinators",
@@ -1941,6 +2116,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "ProcessingRegularGrammar",
           "package": "grammar-combinators",
@@ -1954,6 +2130,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "RegularRule",
           "package": "grammar-combinators",
@@ -1962,6 +2139,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Grammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Grammar",
           "name": "RegularRule",
           "package": "grammar-combinators",
@@ -1975,6 +2153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "MultiRec",
           "package": "grammar-combinators",
@@ -1983,6 +2162,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "MultiRec",
           "package": "grammar-combinators",
@@ -1996,6 +2176,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "IL",
           "package": "grammar-combinators",
@@ -2004,6 +2185,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "IL",
           "package": "grammar-combinators",
@@ -2017,6 +2199,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "SubPF",
           "package": "grammar-combinators",
@@ -2025,6 +2208,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "SubPF",
           "package": "grammar-combinators",
@@ -2038,6 +2222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "IL",
           "package": "grammar-combinators",
@@ -2047,6 +2232,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "IL",
           "package": "grammar-combinators",
@@ -2060,6 +2246,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "SubPF",
           "package": "grammar-combinators",
@@ -2069,6 +2256,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "SubPF",
           "normalized": "a b-\u003ePF a(SubVal c d)b-\u003eSubPF e a a c d(c b)",
@@ -2084,6 +2272,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "unIL",
           "package": "grammar-combinators",
@@ -2093,6 +2282,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base MultiRec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.MultiRec",
           "name": "unIL",
           "normalized": "[a b]",
@@ -2108,6 +2298,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "Processor",
           "package": "grammar-combinators",
@@ -2116,6 +2307,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "Processor",
           "package": "grammar-combinators",
@@ -2129,6 +2321,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "GProcessor",
           "package": "grammar-combinators",
@@ -2137,6 +2330,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "GProcessor",
           "package": "grammar-combinators",
@@ -2150,6 +2344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "Processor",
           "package": "grammar-combinators",
@@ -2158,6 +2353,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "Processor",
           "package": "grammar-combinators",
@@ -2172,6 +2368,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given processor to a given context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessor",
           "package": "grammar-combinators",
@@ -2182,6 +2379,7 @@
         "index": {
           "description": "Apply given processor to given context-free grammar",
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessor",
           "normalized": "GContextFreeGrammar a b c d-\u003eGProcessor a e d-\u003eGContextFreeGrammar a b c e",
@@ -2197,6 +2395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessor'",
           "package": "grammar-combinators",
@@ -2206,6 +2405,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessor'",
           "normalized": "(a b c d-\u003ee(f d))-\u003eGProcessor c g f-\u003ea b c d-\u003ee(g d)",
@@ -2222,6 +2422,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given processor to a given extended context-free\n grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorE",
           "package": "grammar-combinators",
@@ -2232,6 +2433,7 @@
         "index": {
           "description": "Apply given processor to given extended context-free grammar",
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorE",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eGProcessor a e d-\u003eGExtendedContextFreeGrammar a b c e",
@@ -2247,6 +2449,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorL",
           "package": "grammar-combinators",
@@ -2256,6 +2459,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorL",
           "normalized": "GLContextFreeGrammar a b c d-\u003eGProcessor a e d-\u003eQ Exp-\u003eGLContextFreeGrammar a b c e",
@@ -2272,6 +2476,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given processor to a given extended liftable context-free\n grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorLE",
           "package": "grammar-combinators",
@@ -2282,6 +2487,7 @@
         "index": {
           "description": "Apply given processor to given extended liftable context-free grammar",
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "applyProcessorLE",
           "normalized": "GLExtendedContextFreeGrammar a b c d-\u003eGProcessor a e d-\u003eQ Exp-\u003eGLExtendedContextFreeGrammar a b c e",
@@ -2298,6 +2504,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trivial identity processor that keeps current production\n rule results unmodified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "identityProcessor",
           "package": "grammar-combinators",
@@ -2308,6 +2515,7 @@
         "index": {
           "description": "trivial identity processor that keeps current production rule results unmodified",
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "identityProcessor",
           "package": "grammar-combinators",
@@ -2322,6 +2530,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trivial processor that throws everything away and returns \n a value of the type K0 ().\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "trivialProcessor",
           "package": "grammar-combinators",
@@ -2332,6 +2541,7 @@
         "index": {
           "description": "trivial processor that throws everything away and returns value of the type K0",
           "hierarchy": "Text GrammarCombinators Base Processor",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Processor",
           "name": "trivialProcessor",
           "normalized": "Processor a(K())",
@@ -2347,6 +2557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRule",
           "package": "grammar-combinators",
@@ -2355,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRule",
           "package": "grammar-combinators",
@@ -2368,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "BiasedProductionRule",
           "package": "grammar-combinators",
@@ -2376,6 +2589,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "BiasedProductionRule",
           "package": "grammar-combinators",
@@ -2389,6 +2603,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "EpsProductionRule",
           "package": "grammar-combinators",
@@ -2397,6 +2612,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "EpsProductionRule",
           "package": "grammar-combinators",
@@ -2410,6 +2626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "LiftableProductionRule",
           "package": "grammar-combinators",
@@ -2418,6 +2635,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "LiftableProductionRule",
           "package": "grammar-combinators",
@@ -2432,6 +2650,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduction rule interpretations supporting the \u003ccode\u003e\u003ca\u003eLoopProductionRule\u003c/a\u003e\u003c/code\u003e \n type class allow for Kleene-star quantified references to \n non-terminals (zero or more, see the \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e function) as well\n as \u003ccode\u003e\u003ca\u003e+\u003c/a\u003e\u003c/code\u003e-quantified references to non-terminals (one or more, see\n the \u003ccode\u003e\u003ca\u003emany1Ref\u003c/a\u003e\u003c/code\u003e function).\n\u003c/p\u003e\u003cp\u003eAn instance can implement either manyRef or many1Ref,\n both or neither. Not implementing either produces \n old-style many and many1 combinator behaviour (discouraged\n for most situations)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "LoopProductionRule",
           "package": "grammar-combinators",
@@ -2441,6 +2660,7 @@
         "index": {
           "description": "Production rule interpretations supporting the LoopProductionRule type class allow for Kleene-star quantified references to non-terminals zero or more see the manyRef function as well as quantified references to non-terminals one or more see the many1Ref function An instance can implement either manyRef or many1Ref both or neither Not implementing either produces old-style many and many1 combinator behaviour discouraged for most situations",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "LoopProductionRule",
           "package": "grammar-combinators",
@@ -2454,6 +2674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "PenaltyProductionRule",
           "package": "grammar-combinators",
@@ -2462,6 +2683,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "PenaltyProductionRule",
           "package": "grammar-combinators",
@@ -2476,6 +2698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBase type class for production rule interpretations. A production rule\n interpretation that is an instance of the \u003ccode\u003e\u003ca\u003eProductionRule\u003c/a\u003e\u003c/code\u003e type class supports\n sequencing and disjunction of rules, empty rules, dead rules and end-of-input \n rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRule",
           "package": "grammar-combinators",
@@ -2485,6 +2708,7 @@
         "index": {
           "description": "Base type class for production rule interpretations production rule interpretation that is an instance of the ProductionRule type class supports sequencing and disjunction of rules empty rules dead rules and end-of-input rules",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRule",
           "package": "grammar-combinators",
@@ -2498,6 +2722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRuleWithLibrary",
           "package": "grammar-combinators",
@@ -2506,6 +2731,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ProductionRuleWithLibrary",
           "package": "grammar-combinators",
@@ -2520,6 +2746,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eProduction rule interpretations supporting the \u003ccode\u003e\u003ca\u003eRecProductionRule\u003c/a\u003e\u003c/code\u003e type class support references\n to non-terminals in a given domain \u003ccode\u003ephi\u003c/code\u003e. The type of the result values of the rules is determined\n by semantic value family \u003ccode\u003er\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "RecProductionRule",
           "package": "grammar-combinators",
@@ -2529,6 +2756,7 @@
         "index": {
           "description": "Production rule interpretations supporting the RecProductionRule type class support references to non-terminals in given domain phi The type of the result values of the rules is determined by semantic value family",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "RecProductionRule",
           "package": "grammar-combinators",
@@ -2543,6 +2771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe 'SuperProductionRule| type class is in an experimental state, and \n currently not intended for general use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "SuperProductionRule",
           "package": "grammar-combinators",
@@ -2552,6 +2781,7 @@
         "index": {
           "description": "The SuperProductionRule type class is in an experimental state and currently not intended for general use",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "SuperProductionRule",
           "package": "grammar-combinators",
@@ -2566,6 +2796,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType class for production rules matching tokens of a certain\n token type \u003ccode\u003et\u003c/code\u003e.\n \u003ccode\u003et\u003c/code\u003e should be an instance of the \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e type class.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "TokenProductionRule",
           "package": "grammar-combinators",
@@ -2575,6 +2806,7 @@
         "index": {
           "description": "Type class for production rules matching tokens of certain token type should be an instance of the Token type class",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "TokenProductionRule",
           "package": "grammar-combinators",
@@ -2589,6 +2821,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisjunction of two rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(|||)",
           "package": "grammar-combinators",
@@ -2599,6 +2832,7 @@
         "index": {
           "description": "Disjunction of two rules",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(|||) |||",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2614,6 +2848,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given function to the result of a given rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($|\u003e\u003e)",
           "package": "grammar-combinators",
@@ -2624,6 +2859,7 @@
         "index": {
           "description": "Apply given function to the result of given rule",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($|\u003e\u003e) $|\u003e\u003e",
           "normalized": "(a-\u003eb,Q Exp)-\u003ec a-\u003ec b",
@@ -2639,6 +2875,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a rule's result value with a given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($|\u003e\u003e*)",
           "package": "grammar-combinators",
@@ -2649,6 +2886,7 @@
         "index": {
           "description": "Replace rule result value with given value",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($|\u003e\u003e*) $|\u003e\u003e*",
           "normalized": "(a,Q Exp)-\u003eb c-\u003eb a",
@@ -2664,6 +2902,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a given function to the result of a given rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($\u003e\u003e)",
           "package": "grammar-combinators",
@@ -2674,6 +2913,7 @@
         "index": {
           "description": "Apply given function to the result of given rule",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($\u003e\u003e) $\u003e\u003e",
           "normalized": "(a-\u003eb)-\u003ec a-\u003ec b",
@@ -2689,6 +2929,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace a rule's result value with a given value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($\u003e\u003e*)",
           "package": "grammar-combinators",
@@ -2699,6 +2940,7 @@
         "index": {
           "description": "Replace rule result value with given value",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "($\u003e\u003e*) $\u003e\u003e*",
           "normalized": "a-\u003eb c-\u003eb a",
@@ -2714,6 +2956,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence two rules, but drop the result of the first.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(*\u003e\u003e\u003e)",
           "package": "grammar-combinators",
@@ -2724,6 +2967,7 @@
         "index": {
           "description": "Sequence two rules but drop the result of the first",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(*\u003e\u003e\u003e) *\u003e\u003e\u003e",
           "normalized": "a b-\u003ea c-\u003ea c",
@@ -2739,6 +2983,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRight-biased choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003c|||)",
           "package": "grammar-combinators",
@@ -2749,6 +2994,7 @@
         "index": {
           "description": "Right-biased choice",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003c|||) \u003c|||",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2764,6 +3010,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLeft-biased choice\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e|||)",
           "package": "grammar-combinators",
@@ -2774,6 +3021,7 @@
         "index": {
           "description": "Left-biased choice",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e|||) \u003e|||",
           "normalized": "a b-\u003ea b-\u003ea b",
@@ -2789,6 +3037,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence two rules. Result of the sequenced rule is the application\n of the result of the first rule to the result of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e\u003e\u003e)",
           "package": "grammar-combinators",
@@ -2799,6 +3048,7 @@
         "index": {
           "description": "Sequence two rules Result of the sequenced rule is the application of the result of the first rule to the result of the second",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e\u003e\u003e) \u003e\u003e\u003e",
           "normalized": "a(b-\u003ec)-\u003ea b-\u003ea c",
@@ -2814,6 +3064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSequence two rules, but drop the result of the second.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e\u003e\u003e*)",
           "package": "grammar-combinators",
@@ -2824,6 +3075,7 @@
         "index": {
           "description": "Sequence two rules but drop the result of the second",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "(\u003e\u003e\u003e*) \u003e\u003e\u003e*",
           "normalized": "a b-\u003ea c-\u003ea b",
@@ -2838,6 +3090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "anyToken",
           "package": "grammar-combinators",
@@ -2847,6 +3100,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "anyToken",
           "package": "grammar-combinators",
@@ -2861,6 +3115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDead rule. Never matches.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "die",
           "package": "grammar-combinators",
@@ -2871,6 +3126,7 @@
         "index": {
           "description": "Dead rule Never matches",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "die",
           "package": "grammar-combinators",
@@ -2884,6 +3140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnd of input rule. Matches only at end of input, consumes nothing,\n produces '()' as result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "endOfInput",
           "package": "grammar-combinators",
@@ -2894,6 +3151,7 @@
         "index": {
           "description": "End of input rule Matches only at end of input consumes nothing produces as result",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "endOfInput",
           "normalized": "a()",
@@ -2910,6 +3168,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon rule. Always matches, consumes nothing, produces\n   the given value as result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilon",
           "package": "grammar-combinators",
@@ -2920,6 +3179,7 @@
         "index": {
           "description": "Epsilon rule Always matches consumes nothing produces the given value as result",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilon",
           "normalized": "a-\u003eb a",
@@ -2935,6 +3195,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEpsilon rule with lifted value. Always matches, consumes nothing, produces\n   the given value (with its lifted version) as result.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilonL",
           "package": "grammar-combinators",
@@ -2945,6 +3206,7 @@
         "index": {
           "description": "Epsilon rule with lifted value Always matches consumes nothing produces the given value with its lifted version as result",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilonL",
           "normalized": "a-\u003eQ Exp-\u003eb a",
@@ -2959,6 +3221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilonLS",
           "package": "grammar-combinators",
@@ -2968,6 +3231,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "epsilonLS",
           "normalized": "a-\u003eb a",
@@ -2983,6 +3247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "lib",
           "package": "grammar-combinators",
@@ -2992,6 +3257,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "lib",
           "normalized": "a b-\u003ec(d b)",
@@ -3007,6 +3273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn old style \u003ccode\u003emany\u003c/code\u003e combinator. Produces an infinite rule similar to Parsec's many rule. \n Prefer to use the \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e function whenever possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "many1Inf",
           "package": "grammar-combinators",
@@ -3017,6 +3284,7 @@
         "index": {
           "description": "An old style many combinator Produces an infinite rule similar to Parsec many rule Prefer to use the manyRef function whenever possible",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "many1Inf",
           "normalized": "a b-\u003ea[b]",
@@ -3033,6 +3301,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a given non-terminal one or more times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "many1Ref",
           "package": "grammar-combinators",
@@ -3043,6 +3312,7 @@
         "index": {
           "description": "Match given non-terminal one or more times",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "many1Ref",
           "normalized": "a b-\u003ec[d b]",
@@ -3059,6 +3329,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn old style \u003ccode\u003emany\u003c/code\u003e combinator. Produces an infinite rule similar to Parsec's many rule. \n Prefer to use the \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e function whenever possible.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "manyInf",
           "package": "grammar-combinators",
@@ -3069,6 +3340,7 @@
         "index": {
           "description": "An old style many combinator Produces an infinite rule similar to Parsec many rule Prefer to use the manyRef function whenever possible",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "manyInf",
           "normalized": "a b-\u003ea[b]",
@@ -3085,6 +3357,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a given non-terminal zero or more times.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "manyRef",
           "package": "grammar-combinators",
@@ -3095,6 +3368,7 @@
         "index": {
           "description": "Match given non-terminal zero or more times",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "manyRef",
           "normalized": "a b-\u003ec[d b]",
@@ -3111,6 +3385,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptionally match a given rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "optionally",
           "package": "grammar-combinators",
@@ -3121,6 +3396,7 @@
         "index": {
           "description": "Optionally match given rule",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "optionally",
           "normalized": "a b-\u003ea(Maybe b)",
@@ -3135,6 +3411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "penalty",
           "package": "grammar-combinators",
@@ -3144,6 +3421,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "penalty",
           "normalized": "Int-\u003ea b-\u003ea b",
@@ -3159,6 +3437,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference a given non-terminal in a production rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ref",
           "package": "grammar-combinators",
@@ -3169,6 +3448,7 @@
         "index": {
           "description": "Reference given non-terminal in production rule",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "ref",
           "normalized": "a b-\u003ec(d b)",
@@ -3184,6 +3464,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsecutively match a given list of tokens and return their concrete token values as a list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "string",
           "package": "grammar-combinators",
@@ -3194,6 +3475,7 @@
         "index": {
           "description": "Consecutively match given list of tokens and return their concrete token values as list",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "string",
           "normalized": "[a]-\u003eb[ConcreteToken a]",
@@ -3208,6 +3490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "subref",
           "package": "grammar-combinators",
@@ -3217,6 +3500,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "subref",
           "normalized": "(a b c d-\u003ee c(IxMapSeq f g)(SubVal g h)i(PF c(SubVal g h)d))-\u003ec j-\u003ek(g j)-\u003ee k f h i(PF k h(g j))",
@@ -3232,6 +3516,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch a given token of type \u003ccode\u003et\u003c/code\u003e and produce its concrete\n value (of type \u003ccode\u003e\u003ca\u003eConcreteToken\u003c/a\u003e\u003c/code\u003e t).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "token",
           "package": "grammar-combinators",
@@ -3242,6 +3527,7 @@
         "index": {
           "description": "Match given token of type and produce its concrete value of type ConcreteToken",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "token",
           "normalized": "a-\u003eb(ConcreteToken a)",
@@ -3257,6 +3543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMatch any token in a given range of tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "tokenRange",
           "package": "grammar-combinators",
@@ -3267,6 +3554,7 @@
         "index": {
           "description": "Match any token in given range of tokens",
           "hierarchy": "Text GrammarCombinators Base ProductionRule",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.ProductionRule",
           "name": "tokenRange",
           "normalized": "[a]-\u003eb(ConcreteToken a)",
@@ -3282,6 +3570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "Token",
           "package": "grammar-combinators",
@@ -3290,6 +3579,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base Token",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "Token",
           "package": "grammar-combinators",
@@ -3304,6 +3594,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e class identifies a type that can be used as terminal\n identifier in a grammar definition. The type \u003ccode\u003et\u003c/code\u003e itself is an\n abstract identifier, identifying a certain type of terminals, but\n any value of type \u003ccode\u003et\u003c/code\u003e can correspond to a possibly infinite numer\n of values of type 'ConcreteToken t'. For example, if you use a lexer\n in a simple arithmetic expressions grammar, your lexer would typically\n return values like \u003ccode\u003ePLUS\u003c/code\u003e, \u003ccode\u003eMINUS\u003c/code\u003e, but also 'INTEGER 42' when a\n number is lexed. In this case, a separate Token type t would be defined,\n such that a value \u003ccode\u003eINTEGER_T\u003c/code\u003e of the \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e type t could\n correspond to all values of the form 'INTEGER n' (for n an Integer)\n of type 'ConcreteToken t'. A production rule defined as \n \u003ccode\u003etoken\u003c/code\u003e INTEGER_T would then produce result values of type \n \u003ccode\u003e\u003ca\u003eConcreteToken\u003c/a\u003e\u003c/code\u003e t (e.g. INTEGER 42).\n\u003c/p\u003e\u003cp\u003eThe requirements on \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e types are relatively strict, but this is\n necessary to make it usable in table-based parser algorithms.\n We reference the \u003ccode\u003e\u003ca\u003eLift\u003c/a\u003e\u003c/code\u003e class to allow for compile-time\n precalculation of tables using Template Haskell (See the LL1 and \n RealLL1 parsers).\n\u003c/p\u003e\u003cp\u003eNote that in some cases it is inefficient to use Char directly as \n token type, because of the big amount of tokens. For example when using\n \u003ccode\u003etransformLeftCorner\u003c/code\u003e, the new domain will contain O(n*t + n^2)\n non-terminals where n is the amount of non-terminals and t is th \n number of tokens, so when using this transformation, it is beneficial to\n use a token type with less token values than \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e, at\n least if you will use algorithms that fold over the full new grammar's domain \n (e.g. \u003ccode\u003eprintGrammar\u003c/code\u003e does, \u003ccode\u003eprintReachableGrammar\u003c/code\u003e doesn't).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "Token",
           "package": "grammar-combinators",
@@ -3313,6 +3604,7 @@
         "index": {
           "description": "The Token class identifies type that can be used as terminal identifier in grammar definition The type itself is an abstract identifier identifying certain type of terminals but any value of type can correspond to possibly infinite numer of values of type ConcreteToken For example if you use lexer in simple arithmetic expressions grammar your lexer would typically return values like PLUS MINUS but also INTEGER when number is lexed In this case separate Token type would be defined such that value INTEGER of the Token type could correspond to all values of the form INTEGER for an Integer of type ConcreteToken production rule defined as token INTEGER would then produce result values of type ConcreteToken e.g INTEGER The requirements on Token types are relatively strict but this is necessary to make it usable in table-based parser algorithms We reference the Lift class to allow for compile-time precalculation of tables using Template Haskell See the LL1 and RealLL1 parsers Note that in some cases it is inefficient to use Char directly as token type because of the big amount of tokens For example when using transformLeftCorner the new domain will contain non-terminals where is the amount of non-terminals and is th number of tokens so when using this transformation it is beneficial to use token type with less token values than Char at least if you will use algorithms that fold over the full new grammar domain e.g printGrammar does printReachableGrammar doesn",
           "hierarchy": "Text GrammarCombinators Base Token",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "Token",
           "package": "grammar-combinators",
@@ -3327,6 +3619,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eclassify\u003c/a\u003e\u003c/code\u003e function classifies a given \u003ccode\u003e\u003ca\u003eConcreteToken\u003c/a\u003e\u003c/code\u003e t into\n the value of type t it is represented by. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "classify",
           "package": "grammar-combinators",
@@ -3337,6 +3630,7 @@
         "index": {
           "description": "The classify function classifies given ConcreteToken into the value of type it is represented by",
           "hierarchy": "Text GrammarCombinators Base Token",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "classify",
           "normalized": "ConcreteToken a-\u003ea",
@@ -3352,6 +3646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe \u003ccode\u003e\u003ca\u003eenumConcreteTokens\u003c/a\u003e\u003c/code\u003e function returns a (possibly infinite)\n list of all concrete tokens of type 'ConcreteToken t' \n corresponding to a given token of \u003ccode\u003e\u003ca\u003eToken\u003c/a\u003e\u003c/code\u003e type t\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "enumConcreteTokens",
           "package": "grammar-combinators",
@@ -3362,6 +3657,7 @@
         "index": {
           "description": "The enumConcreteTokens function returns possibly infinite list of all concrete tokens of type ConcreteToken corresponding to given token of Token type",
           "hierarchy": "Text GrammarCombinators Base Token",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base.Token",
           "name": "enumConcreteTokens",
           "normalized": "a-\u003e[ConcreteToken a]",
@@ -3377,6 +3673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Base",
           "name": "Base",
           "package": "grammar-combinators",
@@ -3385,6 +3682,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Base",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Base",
           "name": "Base",
           "package": "grammar-combinators",
@@ -3398,6 +3696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "Numeric",
           "package": "grammar-combinators",
@@ -3406,6 +3705,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "Numeric",
           "package": "grammar-combinators",
@@ -3419,6 +3719,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "DecimalInteger",
           "package": "grammar-combinators",
@@ -3427,6 +3728,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "DecimalInteger",
           "package": "grammar-combinators",
@@ -3441,6 +3743,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis domain is intended to be reused in grammars where decimal integers are used.\n   You can refer to the DecimalInteger non-terminal using the \u003ccode\u003e\u003ca\u003elib\u003c/a\u003e\u003c/code\u003e primitive from the \u003ccode\u003e\u003ca\u003eProductionRuleWithLibrary\u003c/a\u003e\u003c/code\u003e type class  \n   and then obtain the combined grammar by combining your grammar with \u003ccode\u003e\u003ca\u003eprocNumericGrammar\u003c/a\u003e\u003c/code\u003e using the \n   \u003ccode\u003e\u003ca\u003ecombineGrammars\u003c/a\u003e\u003c/code\u003e function\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "NumericDomain",
           "package": "grammar-combinators",
@@ -3450,6 +3753,7 @@
         "index": {
           "description": "This domain is intended to be reused in grammars where decimal integers are used You can refer to the DecimalInteger non-terminal using the lib primitive from the ProductionRuleWithLibrary type class and then obtain the combined grammar by combining your grammar with procNumericGrammar using the combineGrammars function",
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "NumericDomain",
           "package": "grammar-combinators",
@@ -3463,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "NumericValue",
           "package": "grammar-combinators",
@@ -3471,6 +3776,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "NumericValue",
           "package": "grammar-combinators",
@@ -3484,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "DecimalInteger",
           "package": "grammar-combinators",
@@ -3493,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "DecimalInteger",
           "package": "grammar-combinators",
@@ -3506,6 +3814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "numericGrammar",
           "package": "grammar-combinators",
@@ -3515,6 +3824,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "numericGrammar",
           "package": "grammar-combinators",
@@ -3529,6 +3839,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe standard processing grammar for domain \u003ccode\u003e\u003ca\u003eNumericDomain\u003c/a\u003e\u003c/code\u003e, intended to be combined with other grammars using\n   the \u003ccode\u003e\u003ca\u003ecombineGrammars\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "procNumericGrammar",
           "package": "grammar-combinators",
@@ -3539,6 +3850,7 @@
         "index": {
           "description": "The standard processing grammar for domain NumericDomain intended to be combined with other grammars using the combineGrammars function",
           "hierarchy": "Text GrammarCombinators Library Numeric",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Library.Numeric",
           "name": "procNumericGrammar",
           "package": "grammar-combinators",
@@ -3552,6 +3864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1",
           "package": "grammar-combinators",
@@ -3560,6 +3873,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1",
           "package": "grammar-combinators",
@@ -3573,6 +3887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1Table",
           "package": "grammar-combinators",
@@ -3581,6 +3896,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1Table",
           "package": "grammar-combinators",
@@ -3594,6 +3910,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1Table",
           "package": "grammar-combinators",
@@ -3603,6 +3920,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "LL1Table",
           "package": "grammar-combinators",
@@ -3616,6 +3934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "calcLL1Table",
           "package": "grammar-combinators",
@@ -3625,6 +3944,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "calcLL1Table",
           "normalized": "GContextFreeGrammar a b c d-\u003eLL Table a b",
@@ -3640,6 +3960,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "parseLL1",
           "package": "grammar-combinators",
@@ -3649,6 +3970,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1",
           "name": "parseLL1",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eLL Table a b-\u003ea d-\u003e[ConcreteToken b]-\u003eMaybe(c d)",
@@ -3664,6 +3986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1TH",
           "name": "LL1TH",
           "package": "grammar-combinators",
@@ -3672,6 +3995,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1TH",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1TH",
           "name": "LL1TH",
           "package": "grammar-combinators",
@@ -3685,6 +4009,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.LL1TH",
           "name": "prepareLL1TableTH",
           "package": "grammar-combinators",
@@ -3694,6 +4019,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser LL1TH",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.LL1TH",
           "name": "prepareLL1TableTH",
           "normalized": "GContextFreeGrammar a b c d-\u003eQ Exp",
@@ -3709,6 +4035,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Packrat",
           "package": "grammar-combinators",
@@ -3717,6 +4044,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Packrat",
           "package": "grammar-combinators",
@@ -3730,6 +4058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Derivs",
           "package": "grammar-combinators",
@@ -3738,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Derivs",
           "package": "grammar-combinators",
@@ -3751,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Result",
           "package": "grammar-combinators",
@@ -3759,6 +4090,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Result",
           "package": "grammar-combinators",
@@ -3772,6 +4104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "NoParse",
           "package": "grammar-combinators",
@@ -3781,6 +4114,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "NoParse",
           "package": "grammar-combinators",
@@ -3794,6 +4128,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Parsed",
           "package": "grammar-combinators",
@@ -3803,6 +4138,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "Parsed",
           "package": "grammar-combinators",
@@ -3817,6 +4153,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given grammar, starting from a given start non-terminal,\n with a backtracking Packrat parser algorithm (like backtracking recursive descent, but with \n linear performance in the length of the input).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "parsePackrat",
           "package": "grammar-combinators",
@@ -3827,6 +4164,7 @@
         "index": {
           "description": "Parse given string according to given grammar starting from given start non-terminal with backtracking Packrat parser algorithm like backtracking recursive descent but with linear performance in the length of the input",
           "hierarchy": "Text GrammarCombinators Parser Packrat",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Packrat",
           "name": "parsePackrat",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003ea d-\u003e[ConcreteToken b]-\u003eResult a c b(c d)",
@@ -3843,6 +4181,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatibility component for the Parsec library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "Parsec",
           "package": "grammar-combinators",
@@ -3852,6 +4191,7 @@
         "index": {
           "description": "Compatibility component for the Parsec library",
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "Parsec",
           "package": "grammar-combinators",
@@ -3865,6 +4205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "WrapGenParser",
           "package": "grammar-combinators",
@@ -3873,6 +4214,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "WrapGenParser",
           "package": "grammar-combinators",
@@ -3887,6 +4229,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given grammar, starting from a given start\n   non-terminal, using the Parsec parser library. Currently uses backtracking for\n   every branch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsec",
           "package": "grammar-combinators",
@@ -3897,6 +4240,7 @@
         "index": {
           "description": "Parse given string according to given grammar starting from given start non-terminal using the Parsec parser library Currently uses backtracking for every branch",
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsec",
           "normalized": "ProcessingBiasedContextFreeGrammar a b c-\u003ea d-\u003eSourceName-\u003e[ConcreteToken b]-\u003eEither ParseError(c d)",
@@ -3912,6 +4256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsecBiased",
           "package": "grammar-combinators",
@@ -3921,6 +4266,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsecBiased",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003ea d-\u003eSourceName-\u003e[ConcreteToken b]-\u003eEither ParseError(c d)",
@@ -3936,6 +4282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsecR",
           "package": "grammar-combinators",
@@ -3945,6 +4292,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "parseParsecR",
           "normalized": "ProcessingBiasedRegularGrammar a b c-\u003ea d-\u003eSourceName-\u003e[ConcreteToken b]-\u003eEither ParseError(c d)",
@@ -3960,6 +4308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "unWGP",
           "package": "grammar-combinators",
@@ -3969,6 +4318,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser Parsec",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.Parsec",
           "name": "unWGP",
           "normalized": "WrapGenParser a b-\u003eParsec[ConcreteToken a]()b",
@@ -3985,6 +4335,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is an experiment, do not use.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "RealLL1",
           "package": "grammar-combinators",
@@ -3994,6 +4345,7 @@
         "index": {
           "description": "This is an experiment do not use",
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "RealLL1",
           "package": "grammar-combinators",
@@ -4007,6 +4359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "BranchSelectorMemo",
           "package": "grammar-combinators",
@@ -4015,6 +4368,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "BranchSelectorMemo",
           "package": "grammar-combinators",
@@ -4028,6 +4382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FirstSet",
           "package": "grammar-combinators",
@@ -4036,6 +4391,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FirstSet",
           "package": "grammar-combinators",
@@ -4049,6 +4405,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "RealLL1Table",
           "package": "grammar-combinators",
@@ -4057,6 +4414,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "RealLL1Table",
           "package": "grammar-combinators",
@@ -4070,6 +4428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "DefaultBranchSelectorMemo",
           "package": "grammar-combinators",
@@ -4079,6 +4438,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "DefaultBranchSelectorMemo",
           "package": "grammar-combinators",
@@ -4092,6 +4452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FS",
           "package": "grammar-combinators",
@@ -4101,6 +4462,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FS",
           "package": "grammar-combinators",
@@ -4114,6 +4476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FlipBS",
           "package": "grammar-combinators",
@@ -4123,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "FlipBS",
           "package": "grammar-combinators",
@@ -4136,6 +4500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "MkRealLL1Table",
           "package": "grammar-combinators",
@@ -4145,6 +4510,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "MkRealLL1Table",
           "package": "grammar-combinators",
@@ -4158,6 +4524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "SplitBranchSelectorMemoL",
           "package": "grammar-combinators",
@@ -4167,6 +4534,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "SplitBranchSelectorMemoL",
           "package": "grammar-combinators",
@@ -4180,6 +4548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "canBeEOI",
           "package": "grammar-combinators",
@@ -4189,6 +4558,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "canBeEOI",
           "package": "grammar-combinators",
@@ -4202,6 +4572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "canBeEmpty",
           "package": "grammar-combinators",
@@ -4211,6 +4582,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "canBeEmpty",
           "package": "grammar-combinators",
@@ -4224,6 +4596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "firstTokens",
           "package": "grammar-combinators",
@@ -4233,6 +4606,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "firstTokens",
           "package": "grammar-combinators",
@@ -4246,6 +4620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "parseRealLL1",
           "package": "grammar-combinators",
@@ -4255,6 +4630,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "parseRealLL1",
           "normalized": "RealLL Grammar a b c c d-\u003eRealLL Table a d-\u003ea e-\u003e[ConcreteToken d]-\u003eMaybe(c e)",
@@ -4270,6 +4646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "prepareLL1Parser",
           "package": "grammar-combinators",
@@ -4279,6 +4656,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RealLL1",
           "name": "prepareLL1Parser",
           "normalized": "BSCGrammar a b c d-\u003eRealLL Table a c",
@@ -4294,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RecursiveDescent",
           "name": "RecursiveDescent",
           "package": "grammar-combinators",
@@ -4302,6 +4681,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser RecursiveDescent",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RecursiveDescent",
           "name": "RecursiveDescent",
           "package": "grammar-combinators",
@@ -4316,6 +4696,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given grammar, starting from a given start non-terminal,\n with a simple backtracking recursive descent parser algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.RecursiveDescent",
           "name": "parseRecDec",
           "package": "grammar-combinators",
@@ -4326,6 +4707,7 @@
         "index": {
           "description": "Parse given string according to given grammar starting from given start non-terminal with simple backtracking recursive descent parser algorithm",
           "hierarchy": "Text GrammarCombinators Parser RecursiveDescent",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.RecursiveDescent",
           "name": "parseRecDec",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003ea d-\u003e[ConcreteToken b]-\u003eMaybe(c d)",
@@ -4342,6 +4724,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis was intended as a common library for top-down parser algorithms, but it \n is a bit outdated and currently only used by the LL1 parser.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "TopDown",
           "package": "grammar-combinators",
@@ -4351,6 +4734,7 @@
         "index": {
           "description": "This was intended as common library for top-down parser algorithms but it is bit outdated and currently only used by the LL1 parser",
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "TopDown",
           "package": "grammar-combinators",
@@ -4364,6 +4748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "NonBranchingRule",
           "package": "grammar-combinators",
@@ -4372,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "NonBranchingRule",
           "package": "grammar-combinators",
@@ -4385,6 +4771,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "UnambiguousTopDownGrammar",
           "package": "grammar-combinators",
@@ -4393,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "UnambiguousTopDownGrammar",
           "package": "grammar-combinators",
@@ -4406,6 +4794,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "WrapLookaheadNBR",
           "package": "grammar-combinators",
@@ -4414,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "WrapLookaheadNBR",
           "package": "grammar-combinators",
@@ -4427,6 +4817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "MkNBR",
           "package": "grammar-combinators",
@@ -4436,6 +4827,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "MkNBR",
           "package": "grammar-combinators",
@@ -4449,6 +4841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "WrapLNBR",
           "package": "grammar-combinators",
@@ -4458,6 +4851,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "WrapLNBR",
           "package": "grammar-combinators",
@@ -4471,6 +4865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "nbrEndOfInput",
           "package": "grammar-combinators",
@@ -4480,6 +4875,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "nbrEndOfInput",
           "normalized": "NonBranchingRule a b c()",
@@ -4495,6 +4891,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "parseTopDown",
           "package": "grammar-combinators",
@@ -4504,6 +4901,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "parseTopDown",
           "normalized": "UnambiguousTopDownGrammar a b c-\u003ea d-\u003e[ConcreteToken c]-\u003eMaybe(b d)",
@@ -4519,6 +4917,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "unNBR",
           "package": "grammar-combinators",
@@ -4528,6 +4927,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "unNBR",
           "normalized": "(a b c d-\u003e[ConcreteToken e]-\u003eNonBranchingRule c f e(f d))-\u003eMaybeT(State[ConcreteToken e])g",
@@ -4543,6 +4943,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "unWrapLNBR",
           "package": "grammar-combinators",
@@ -4552,6 +4953,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Parser TopDown",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.TopDown",
           "name": "unWrapLNBR",
           "normalized": "[ConcreteToken a]-\u003eNonBranchingRule b c a(c d)",
@@ -4568,6 +4970,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eUUParse compatibility module.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "UUParse",
           "package": "grammar-combinators",
@@ -4577,6 +4980,7 @@
         "index": {
           "description": "UUParse compatibility module",
           "hierarchy": "Text GrammarCombinators Parser UUParse",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "UUParse",
           "package": "grammar-combinators",
@@ -4591,6 +4995,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given grammar, starting from a given\n start symbol using the UUParse error-correcting parsing library (always\n produces a result)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUU",
           "package": "grammar-combinators",
@@ -4601,6 +5006,7 @@
         "index": {
           "description": "Parse given string according to given grammar starting from given start symbol using the UUParse error-correcting parsing library always produces result",
           "hierarchy": "Text GrammarCombinators Parser UUParse",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUU",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003ea d-\u003ee-\u003e[ConcreteToken b]-\u003ec d",
@@ -4617,6 +5023,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given extended grammar, starting from a given\n start symbol using the UUParse error-correcting parsing library (always\n produces a result)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUUE",
           "package": "grammar-combinators",
@@ -4627,6 +5034,7 @@
         "index": {
           "description": "Parse given string according to given extended grammar starting from given start symbol using the UUParse error-correcting parsing library always produces result",
           "hierarchy": "Text GrammarCombinators Parser UUParse",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUUE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003ea d-\u003ee-\u003e[ConcreteToken b]-\u003ec d",
@@ -4643,6 +5051,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given regular grammar, starting from a given\n start symbol using the UUParse error-correcting parsing library (always\n produces a result)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUUR",
           "package": "grammar-combinators",
@@ -4653,6 +5062,7 @@
         "index": {
           "description": "Parse given string according to given regular grammar starting from given start symbol using the UUParse error-correcting parsing library always produces result",
           "hierarchy": "Text GrammarCombinators Parser UUParse",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUUR",
           "normalized": "ProcessingRegularGrammar a b c-\u003ea d-\u003ee-\u003e[ConcreteToken b]-\u003ec d",
@@ -4669,6 +5079,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a given string according to a given regular production rule using the \n UUParse error-correcting parsing library (always produces a result).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUURule",
           "package": "grammar-combinators",
@@ -4679,6 +5090,7 @@
         "index": {
           "description": "Parse given string according to given regular production rule using the UUParse error-correcting parsing library always produces result",
           "hierarchy": "Text GrammarCombinators Parser UUParse",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Parser.UUParse",
           "name": "parseUURule",
           "normalized": "RegularRule a b c d-\u003ee-\u003e[ConcreteToken c]-\u003ed",
@@ -4694,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.TH.Base",
           "name": "Base",
           "package": "grammar-combinators",
@@ -4702,6 +5115,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators TH Base",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.TH.Base",
           "name": "Base",
           "package": "grammar-combinators",
@@ -4715,6 +5129,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.TH.FoldLoops",
           "name": "FoldLoops",
           "package": "grammar-combinators",
@@ -4723,6 +5138,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators TH FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.TH.FoldLoops",
           "name": "FoldLoops",
           "package": "grammar-combinators",
@@ -4736,6 +5152,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.TH.RealLL1",
           "name": "RealLL1",
           "package": "grammar-combinators",
@@ -4744,6 +5161,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators TH RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.TH.RealLL1",
           "name": "RealLL1",
           "package": "grammar-combinators",
@@ -4757,6 +5175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.TH.RealLL1",
           "name": "liftRealLL1Table",
           "package": "grammar-combinators",
@@ -4766,6 +5185,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators TH RealLL1",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.TH.RealLL1",
           "name": "liftRealLL1Table",
           "normalized": "RealLL Table a b-\u003eQ Exp",
@@ -4781,6 +5201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "CombineEpsilons",
           "package": "grammar-combinators",
@@ -4789,6 +5210,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform CombineEpsilons",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "CombineEpsilons",
           "package": "grammar-combinators",
@@ -4803,6 +5225,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine consecutive epsilon rules in a given grammar into a single\n epsilon rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "combineEpsilons",
           "package": "grammar-combinators",
@@ -4813,6 +5236,7 @@
         "index": {
           "description": "Combine consecutive epsilon rules in given grammar into single epsilon rule",
           "hierarchy": "Text GrammarCombinators Transform CombineEpsilons",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "combineEpsilons",
           "normalized": "a b c d e GContextFreeGrammar b c d f-\u003eGContextFreeGrammar b c d f",
@@ -4829,6 +5253,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine consecutive epsilon rules in a given extended \n grammar into a single epsilon rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "combineEpsilonsE",
           "package": "grammar-combinators",
@@ -4839,6 +5264,7 @@
         "index": {
           "description": "Combine consecutive epsilon rules in given extended grammar into single epsilon rule",
           "hierarchy": "Text GrammarCombinators Transform CombineEpsilons",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.CombineEpsilons",
           "name": "combineEpsilonsE",
           "normalized": "a b c d e GExtendedContextFreeGrammar b c d f-\u003eGExtendedContextFreeGrammar b c d f",
@@ -4854,6 +5280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.CombineGrammars",
           "name": "CombineGrammars",
           "package": "grammar-combinators",
@@ -4862,6 +5289,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform CombineGrammars",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.CombineGrammars",
           "name": "CombineGrammars",
           "package": "grammar-combinators",
@@ -4876,6 +5304,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two grammars into a single one. The argument grammars are over\n   different domains \u003ccode\u003ephiL\u003c/code\u003e and \u003ccode\u003ephiR\u003c/code\u003e, but they are allowed to refer to \n   each other's non-terminals\n   using the \u003ccode\u003e\u003ca\u003elib\u003c/a\u003e\u003c/code\u003e primitive from the \u003ccode\u003e\u003ca\u003eProductionRuleWithLibrary\u003c/a\u003e\u003c/code\u003e type class.\n   The resulting grammar is over the combined domain 'MergeDomain phiL phiR'.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.CombineGrammars",
           "name": "combineGrammars",
           "package": "grammar-combinators",
@@ -4886,6 +5315,7 @@
         "index": {
           "description": "Combine two grammars into single one The argument grammars are over different domains phiL and phiR but they are allowed to refer to each other non-terminals using the lib primitive from the ProductionRuleWithLibrary type class The resulting grammar is over the combined domain MergeDomain phiL phiR",
           "hierarchy": "Text GrammarCombinators Transform CombineGrammars",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.CombineGrammars",
           "name": "combineGrammars",
           "normalized": "a b-\u003ec(d b))-\u003eMergeDomain e a f-\u003eg(EitherFunctor h d f)",
@@ -4901,6 +5331,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "FilterDies",
           "package": "grammar-combinators",
@@ -4909,6 +5340,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "FilterDies",
           "package": "grammar-combinators",
@@ -4923,6 +5355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter dead branches from a given context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDies",
           "package": "grammar-combinators",
@@ -4933,6 +5366,7 @@
         "index": {
           "description": "Filter dead branches from given context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDies",
           "normalized": "a b c d e GContextFreeGrammar b c d f-\u003eGContextFreeGrammar b c d f",
@@ -4949,6 +5383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter dead branches from a given extended context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesE",
           "package": "grammar-combinators",
@@ -4959,6 +5394,7 @@
         "index": {
           "description": "Filter dead branches from given extended context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesE",
           "normalized": "a b c d e GExtendedContextFreeGrammar b c d f-\u003eGExtendedContextFreeGrammar b c d f",
@@ -4975,6 +5411,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter dead branches from a given extended context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesLE",
           "package": "grammar-combinators",
@@ -4985,6 +5422,7 @@
         "index": {
           "description": "Filter dead branches from given extended context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesLE",
           "normalized": "a b c d e GLExtendedContextFreeGrammar b c d f-\u003eGLExtendedContextFreeGrammar b c d f",
@@ -5001,6 +5439,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter dead branches from a given context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesP",
           "package": "grammar-combinators",
@@ -5011,6 +5450,7 @@
         "index": {
           "description": "Filter dead branches from given context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesP",
           "normalized": "a b c d e GPenaltyContextFreeGrammar b c d f-\u003eGPenaltyContextFreeGrammar b c d f",
@@ -5027,6 +5467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFilter dead branches from a given context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesPE",
           "package": "grammar-combinators",
@@ -5037,6 +5478,7 @@
         "index": {
           "description": "Filter dead branches from given context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform FilterDies",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FilterDies",
           "name": "filterDiesPE",
           "normalized": "a b c d e GPenaltyExtendedContextFreeGrammar b c d f-\u003eGPenaltyExtendedContextFreeGrammar b c d f",
@@ -5052,6 +5494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoops",
           "package": "grammar-combinators",
@@ -5060,6 +5503,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoops",
           "package": "grammar-combinators",
@@ -5074,6 +5518,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parametrised type such that \u003ccode\u003e\u003ca\u003eFLBaseIx\u003c/a\u003e\u003c/code\u003e ix represents\n base non-terminal ix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLBaseIx",
           "package": "grammar-combinators",
@@ -5083,6 +5528,7 @@
         "index": {
           "description": "parametrised type such that FLBaseIx ix represents base non-terminal ix",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLBaseIx",
           "package": "grammar-combinators",
@@ -5097,6 +5543,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA parametrised type such that \u003ccode\u003e\u003ca\u003eFLBaseIx\u003c/a\u003e\u003c/code\u003e ix represents\n the Kleene-\u003ccode\u003e\u003ca\u003e*\u003c/a\u003e\u003c/code\u003e version of base non-terminal ix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLManyIx",
           "package": "grammar-combinators",
@@ -5106,6 +5553,7 @@
         "index": {
           "description": "parametrised type such that FLBaseIx ix represents the Kleene version of base non-terminal ix",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLManyIx",
           "package": "grammar-combinators",
@@ -5120,6 +5568,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFoldLoopsDomain phi defines, for base domain phi, an\n extended domain containing non-terminal types \n \u003ccode\u003e\u003ca\u003eFLBaseIx\u003c/a\u003e\u003c/code\u003e ix representing base non-terminal ix, and \n \u003ccode\u003e\u003ca\u003eFLManyIx\u003c/a\u003e\u003c/code\u003e ix representing a Kleene-* version of base\n non-terminal ix.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsDomain",
           "package": "grammar-combinators",
@@ -5129,6 +5578,7 @@
         "index": {
           "description": "FoldLoopsDomain phi defines for base domain phi an extended domain containing non-terminal types FLBaseIx ix representing base non-terminal ix and FLManyIx ix representing Kleene version of base non-terminal ix",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsDomain",
           "package": "grammar-combinators",
@@ -5143,6 +5593,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFoldLoopsResultValue defines, for semantic value families\n r and rr over base domain phi, a semantic value family \n \u003ccode\u003e\u003ca\u003eFoldLoopsResultValue\u003c/a\u003e\u003c/code\u003e r rr over domain \u003ccode\u003e\u003ca\u003eFoldLoopsDomain\u003c/a\u003e\u003c/code\u003e r.\n such that the semantic value for base non-terminal \u003ccode\u003e\u003ca\u003eFLBaseIx\u003c/a\u003e\u003c/code\u003e \n is a wrapped version of type rr ix, and for Kleene-* non-terminal\n \u003ccode\u003e\u003ca\u003eFLManyIx\u003c/a\u003e\u003c/code\u003e a wrapped version of type [r ix]. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsResultValue",
           "package": "grammar-combinators",
@@ -5152,6 +5603,7 @@
         "index": {
           "description": "FoldLoopsResultValue defines for semantic value families and rr over base domain phi semantic value family FoldLoopsResultValue rr over domain FoldLoopsDomain such that the semantic value for base non-terminal FLBaseIx is wrapped version of type rr ix and for Kleene non-terminal FLManyIx wrapped version of type ix",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsResultValue",
           "package": "grammar-combinators",
@@ -5166,6 +5618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFoldLoopsValue defines, for a semantic value family\n r over base domain phi, a semantic value family \n \u003ccode\u003e\u003ca\u003eFoldLoopsValue\u003c/a\u003e\u003c/code\u003e r over domain \u003ccode\u003e\u003ca\u003eFoldLoopsDomain\u003c/a\u003e\u003c/code\u003e r, such\n that the semantic value for base non-terminal \u003ccode\u003e\u003ca\u003eFLBaseIx\u003c/a\u003e\u003c/code\u003e \n is a wrapped version of type r ix, and for Kleene-* non-terminal\n \u003ccode\u003e\u003ca\u003eFLManyIx\u003c/a\u003e\u003c/code\u003e a wrapped version of type [r ix]. \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsValue",
           "package": "grammar-combinators",
@@ -5175,6 +5628,7 @@
         "index": {
           "description": "FoldLoopsValue defines for semantic value family over base domain phi semantic value family FoldLoopsValue over domain FoldLoopsDomain such that the semantic value for base non-terminal FLBaseIx is wrapped version of type ix and for Kleene non-terminal FLManyIx wrapped version of type ix",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FoldLoopsValue",
           "package": "grammar-combinators",
@@ -5188,6 +5642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLBase",
           "package": "grammar-combinators",
@@ -5197,6 +5652,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLBase",
           "normalized": "a b-\u003eFoldLoopsDomain a(FLBaseIx b)",
@@ -5212,6 +5668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLMany",
           "package": "grammar-combinators",
@@ -5221,6 +5678,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "FLMany",
           "normalized": "a b-\u003eFoldLoopsDomain a(FLManyIx b)",
@@ -5237,6 +5695,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a given processing extended context-free \n grammar over a domain \u003ccode\u003ephi\u003c/code\u003e into a standard context-free\n grammar over the extended domain 'FoldLoopsDomain phi'.\n Completely similar to \u003ccode\u003e\u003ca\u003efoldLoops\u003c/a\u003e\u003c/code\u003e, but wraps values in the\n \u003ccode\u003e\u003ca\u003eFoldLoopsValue\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e semantic value family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "foldAndProcessLoops",
           "package": "grammar-combinators",
@@ -5247,6 +5706,7 @@
         "index": {
           "description": "Transform given processing extended context-free grammar over domain phi into standard context-free grammar over the extended domain FoldLoopsDomain phi Completely similar to foldLoops but wraps values in the FoldLoopsValue semantic value family",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "foldAndProcessLoops",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingContextFreeGrammar(FoldLoopsDomain a)b(FoldLoopsValue c)",
@@ -5263,6 +5723,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform a given extended context-free grammar over a domain \u003ccode\u003ephi\u003c/code\u003e into a standard\n context-free grammar over the extended domain \u003ccode\u003e\u003ca\u003eFoldLoopsDomain\u003c/a\u003e\u003c/code\u003e \u003ccode\u003ephi\u003c/code\u003e.\n Calls to \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e idx are transformed into calls to \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eFLMany\u003c/a\u003e\u003c/code\u003e idx),\n where \u003ccode\u003e\u003ca\u003eFLMany\u003c/a\u003e\u003c/code\u003e idx is a new non-terminal representing the\n Kleene-* version of underlying non-terminal \u003ccode\u003eidx\u003c/code\u003e. Normal\n calls to \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx are transformed into calls to \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e \n (\u003ccode\u003e\u003ca\u003eFLBase\u003c/a\u003e\u003c/code\u003e idx) where \u003ccode\u003e\u003ca\u003eFLBase\u003c/a\u003e\u003c/code\u003e idx represents the unmodified\n underlying non-terminal \u003ccode\u003eidx\u003c/code\u003e. The \u003ccode\u003e\u003ca\u003efoldLoops\u003c/a\u003e\u003c/code\u003e algorithm \n constructs appropriate production rules for both types of\n new non-terminals.\n Values are wrapped in the \u003ccode\u003e\u003ca\u003eFoldLoopsResultValue\u003c/a\u003e\u003c/code\u003e \u003ccode\u003er\u003c/code\u003e \u003ccode\u003err\u003c/code\u003e\n semantic value family.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "foldLoops",
           "package": "grammar-combinators",
@@ -5273,6 +5734,7 @@
         "index": {
           "description": "Transform given extended context-free grammar over domain phi into standard context-free grammar over the extended domain FoldLoopsDomain phi Calls to manyRef idx are transformed into calls to ref FLMany idx where FLMany idx is new non-terminal representing the Kleene version of underlying non-terminal idx Normal calls to ref idx are transformed into calls to ref FLBase idx where FLBase idx represents the unmodified underlying non-terminal idx The foldLoops algorithm constructs appropriate production rules for both types of new non-terminals Values are wrapped in the FoldLoopsResultValue rr semantic value family",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "foldLoops",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eGContextFreeGrammar(FoldLoopsDomain a)b(FoldLoopsValue c)(FoldLoopsResultValue c d)",
@@ -5289,6 +5751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a processor for a grammar transformed using the \u003ccode\u003e\u003ca\u003efoldLoops\u003c/a\u003e\u003c/code\u003e algorithm, \n given a processor for the original grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "processFoldLoops",
           "package": "grammar-combinators",
@@ -5299,6 +5762,7 @@
         "index": {
           "description": "Construct processor for grammar transformed using the foldLoops algorithm given processor for the original grammar",
           "hierarchy": "Text GrammarCombinators Transform FoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.FoldLoops",
           "name": "processFoldLoops",
           "normalized": "a b c d GProcessor b c e-\u003eGProcessor(FoldLoopsDomain b)(FoldLoopsValue c)(FoldLoopsResultValue c e)",
@@ -5315,6 +5779,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCompatibility component for the Parsec library.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "IntroduceBias",
           "package": "grammar-combinators",
@@ -5324,6 +5789,7 @@
         "index": {
           "description": "Compatibility component for the Parsec library",
           "hierarchy": "Text GrammarCombinators Transform IntroduceBias",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "IntroduceBias",
           "package": "grammar-combinators",
@@ -5337,6 +5803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBias",
           "package": "grammar-combinators",
@@ -5346,6 +5813,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform IntroduceBias",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBias",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eProcessingBiasedContextFreeGrammar a b c",
@@ -5361,6 +5829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBiasE",
           "package": "grammar-combinators",
@@ -5370,6 +5839,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform IntroduceBias",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBiasE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingBiasedExtendedContextFreeGrammar a b c",
@@ -5385,6 +5855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBiasLE",
           "package": "grammar-combinators",
@@ -5394,6 +5865,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform IntroduceBias",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.IntroduceBias",
           "name": "introduceBiasLE",
           "normalized": "ProcessingLExtendedContextFreeGrammar a b c-\u003eProcessingLBiasedExtendedContextFreeGrammar a b c",
@@ -5409,6 +5881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LeftCorner",
           "package": "grammar-combinators",
@@ -5417,6 +5890,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LeftCorner",
           "package": "grammar-combinators",
@@ -5430,6 +5904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCBaseIx",
           "package": "grammar-combinators",
@@ -5438,6 +5913,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCBaseIx",
           "package": "grammar-combinators",
@@ -5452,6 +5928,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eLCDomain\u003c/a\u003e\u003c/code\u003e defines, for a base domain phi an extended\n domain containing the non-terminals used by the left-\n corner transform.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCDomain",
           "package": "grammar-combinators",
@@ -5461,6 +5938,7 @@
         "index": {
           "description": "LCDomain defines for base domain phi an extended domain containing the non-terminals used by the left corner transform",
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCDomain",
           "package": "grammar-combinators",
@@ -5474,6 +5952,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinNTIx",
           "package": "grammar-combinators",
@@ -5482,6 +5961,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinNTIx",
           "package": "grammar-combinators",
@@ -5495,6 +5975,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinTIx",
           "package": "grammar-combinators",
@@ -5503,6 +5984,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinTIx",
           "package": "grammar-combinators",
@@ -5516,6 +5998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCValue",
           "package": "grammar-combinators",
@@ -5524,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCValue",
           "package": "grammar-combinators",
@@ -5537,6 +6021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCBase",
           "package": "grammar-combinators",
@@ -5546,6 +6031,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCBase",
           "normalized": "a b-\u003eLCDomain a c(LCBaseIx b)",
@@ -5561,6 +6047,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinNT",
           "package": "grammar-combinators",
@@ -5570,6 +6057,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinNT",
           "normalized": "a b-\u003ea c-\u003eLCDomain a d(LCNTMinNTIx b c)",
@@ -5585,6 +6073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinT",
           "package": "grammar-combinators",
@@ -5594,6 +6083,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "LCNTMinT",
           "normalized": "a-\u003eb c-\u003eLCDomain b a(LCNTMinTIx a c)",
@@ -5610,6 +6100,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the left-corner transform to a given grammar, removing direct and indirect left recursion.\n\u003c/p\u003e\u003cp\u003eNote that the new domain will contain O(n*t + n^2)\n non-terminals where n is the amount of non-terminals and t is the\n number of tokens, so when using this transformation, it can be beneficial to\n use a token type with a more limited amount of token values than \u003ccode\u003e\u003ca\u003eChar\u003c/a\u003e\u003c/code\u003e, at\n least if you will use algorithms that fold over the full new grammar's domain \n (e.g. \u003ccode\u003eprintGrammar\u003c/code\u003e does, \u003ccode\u003eprintReachableGrammar\u003c/code\u003e doesn't).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "transformLeftCorner",
           "package": "grammar-combinators",
@@ -5620,6 +6111,7 @@
         "index": {
           "description": "Apply the left-corner transform to given grammar removing direct and indirect left recursion Note that the new domain will contain non-terminals where is the amount of non-terminals and is the number of tokens so when using this transformation it can be beneficial to use token type with more limited amount of token values than Char at least if you will use algorithms that fold over the full new grammar domain e.g printGrammar does printReachableGrammar doesn",
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "transformLeftCorner",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eProcessingContextFreeGrammar(LCDomain a b)b(LCValue c b)",
@@ -5636,6 +6128,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply the left-corner transform to a given extended grammar, removing direct and indirect left recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "transformLeftCornerE",
           "package": "grammar-combinators",
@@ -5646,6 +6139,7 @@
         "index": {
           "description": "Apply the left-corner transform to given extended grammar removing direct and indirect left recursion",
           "hierarchy": "Text GrammarCombinators Transform LeftCorner",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.LeftCorner",
           "name": "transformLeftCornerE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar(LCDomain a b)b(LCValue c b)",
@@ -5661,6 +6155,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.OptimizeGrammar",
           "name": "OptimizeGrammar",
           "package": "grammar-combinators",
@@ -5669,6 +6164,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform OptimizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.OptimizeGrammar",
           "name": "OptimizeGrammar",
           "package": "grammar-combinators",
@@ -5682,6 +6178,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.OptimizeGrammar",
           "name": "optimizeGrammarE",
           "package": "grammar-combinators",
@@ -5691,6 +6188,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform OptimizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.OptimizeGrammar",
           "name": "optimizeGrammarE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar(UPDomain a)b(UPValue c)",
@@ -5706,6 +6204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "PenalizeErrors",
           "package": "grammar-combinators",
@@ -5714,6 +6213,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "PenalizeErrors",
           "package": "grammar-combinators",
@@ -5727,6 +6227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "IsJustApp",
           "package": "grammar-combinators",
@@ -5735,6 +6236,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "IsJustApp",
           "package": "grammar-combinators",
@@ -5748,6 +6250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "MaybeSemanticT",
           "package": "grammar-combinators",
@@ -5756,6 +6259,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "MaybeSemanticT",
           "package": "grammar-combinators",
@@ -5769,6 +6273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "PBEHProductionRule",
           "package": "grammar-combinators",
@@ -5777,6 +6282,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "PBEHProductionRule",
           "package": "grammar-combinators",
@@ -5790,6 +6296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "IJA",
           "package": "grammar-combinators",
@@ -5799,6 +6306,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "IJA",
           "package": "grammar-combinators",
@@ -5812,6 +6320,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "JustV",
           "package": "grammar-combinators",
@@ -5821,6 +6330,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "JustV",
           "package": "grammar-combinators",
@@ -5834,6 +6344,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "MkPBEH",
           "package": "grammar-combinators",
@@ -5843,6 +6354,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "MkPBEH",
           "package": "grammar-combinators",
@@ -5856,6 +6368,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "NothingV",
           "package": "grammar-combinators",
@@ -5865,6 +6378,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "NothingV",
           "package": "grammar-combinators",
@@ -5878,6 +6392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "fromJustV",
           "package": "grammar-combinators",
@@ -5887,6 +6402,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "fromJustV",
           "package": "grammar-combinators",
@@ -5900,6 +6416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "isJustV",
           "package": "grammar-combinators",
@@ -5909,6 +6426,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "isJustV",
           "normalized": "MaybeSemanticT a b-\u003eBool",
@@ -5924,6 +6442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrors",
           "package": "grammar-combinators",
@@ -5933,6 +6452,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrors",
           "normalized": "GContextFreeGrammar a b(MaybeSemanticT c)d-\u003eGPenaltyContextFreeGrammar a b(MaybeSemanticT c)d",
@@ -5948,6 +6468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrors'",
           "package": "grammar-combinators",
@@ -5957,6 +6478,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrors'",
           "normalized": "a b c d e f g(a h c i-\u003ePBEHProductionRule b c(MaybeSemanticT d)d f(e i))-\u003ec j-\u003eb(e j)",
@@ -5972,6 +6494,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrorsE",
           "package": "grammar-combinators",
@@ -5981,6 +6504,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "penalizeErrorsE",
           "normalized": "GExtendedContextFreeGrammar a b(MaybeSemanticT c)d-\u003eGPenaltyExtendedContextFreeGrammar a b(MaybeSemanticT c)d",
@@ -5996,6 +6520,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "processPenalizedSimple",
           "package": "grammar-combinators",
@@ -6005,6 +6530,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "processPenalizedSimple",
           "normalized": "Processor a b-\u003eProcessor a(MaybeSemanticT b)",
@@ -6020,6 +6546,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "unIJA",
           "package": "grammar-combinators",
@@ -6029,6 +6556,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "unIJA",
           "package": "grammar-combinators",
@@ -6042,6 +6570,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "unPBEH",
           "package": "grammar-combinators",
@@ -6051,6 +6580,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform PenalizeErrors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.PenalizeErrors",
           "name": "unPBEH",
           "package": "grammar-combinators",
@@ -6064,6 +6594,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "UnfoldChainNTs",
           "package": "grammar-combinators",
@@ -6072,6 +6603,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldChainNTs",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "UnfoldChainNTs",
           "package": "grammar-combinators",
@@ -6086,6 +6618,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold chain non-terminals in a given context-\n free grammar.\n A chain non-terminal is a terminal such that its\n production rule is a numer of epsilons followed by a \n single normal reference to another non-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "unfoldChainNTs",
           "package": "grammar-combinators",
@@ -6096,6 +6629,7 @@
         "index": {
           "description": "Unfold chain non-terminals in given context free grammar chain non-terminal is terminal such that its production rule is numer of epsilons followed by single normal reference to another non-terminal",
           "hierarchy": "Text GrammarCombinators Transform UnfoldChainNTs",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "unfoldChainNTs",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eProcessingContextFreeGrammar a b c",
@@ -6112,6 +6646,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold chain non-terminals in a given extended \n context-free grammar.\n A chain non-terminal is a terminal such that its\n production rule is a numer of epsilons followed by a \n single normal reference to another non-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "unfoldChainNTsE",
           "package": "grammar-combinators",
@@ -6122,6 +6657,7 @@
         "index": {
           "description": "Unfold chain non-terminals in given extended context-free grammar chain non-terminal is terminal such that its production rule is numer of epsilons followed by single normal reference to another non-terminal",
           "hierarchy": "Text GrammarCombinators Transform UnfoldChainNTs",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldChainNTs",
           "name": "unfoldChainNTsE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar a b c",
@@ -6137,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "UnfoldDead",
           "package": "grammar-combinators",
@@ -6145,6 +6682,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "UnfoldDead",
           "package": "grammar-combinators",
@@ -6159,6 +6697,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold dead non-terminals in a given context-\n free grammar, such\n that the unfolded references can be filtered with the\n \u003ccode\u003efilterDies\u003c/code\u003e algorithm. This uses the \u003ccode\u003e\u003ca\u003eisDead\u003c/a\u003e\u003c/code\u003e algorithm\n to detect dead non-terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDead",
           "package": "grammar-combinators",
@@ -6169,6 +6708,7 @@
         "index": {
           "description": "Unfold dead non-terminals in given context free grammar such that the unfolded references can be filtered with the filterDies algorithm This uses the isDead algorithm to detect dead non-terminals",
           "hierarchy": "Text GrammarCombinators Transform UnfoldDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDead",
           "normalized": "GContextFreeGrammar a b c d-\u003eGContextFreeGrammar a b c d",
@@ -6185,6 +6725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold dead non-terminals in a given extended context-\n free grammar, such\n that the unfolded references can be filtered with the\n \u003ccode\u003efilterDies\u003c/code\u003e algorithm. This uses the \u003ccode\u003e\u003ca\u003eisDead\u003c/a\u003e\u003c/code\u003e algorithm\n to detect dead non-terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDeadE",
           "package": "grammar-combinators",
@@ -6195,6 +6736,7 @@
         "index": {
           "description": "Unfold dead non-terminals in given extended context free grammar such that the unfolded references can be filtered with the filterDies algorithm This uses the isDead algorithm to detect dead non-terminals",
           "hierarchy": "Text GrammarCombinators Transform UnfoldDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDeadE",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eGExtendedContextFreeGrammar a b c d",
@@ -6211,6 +6753,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold dead non-terminals in a given extended liftable context-\n free grammar, such\n that the unfolded references can be filtered with the\n \u003ccode\u003efilterDies\u003c/code\u003e algorithm. This uses the \u003ccode\u003e\u003ca\u003eisDead\u003c/a\u003e\u003c/code\u003e algorithm\n to detect dead non-terminals.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDeadLE",
           "package": "grammar-combinators",
@@ -6221,6 +6764,7 @@
         "index": {
           "description": "Unfold dead non-terminals in given extended liftable context free grammar such that the unfolded references can be filtered with the filterDies algorithm This uses the isDead algorithm to detect dead non-terminals",
           "hierarchy": "Text GrammarCombinators Transform UnfoldDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldDead",
           "name": "unfoldDeadLE",
           "normalized": "GLExtendedContextFreeGrammar a b c d-\u003eGLExtendedContextFreeGrammar a b c d",
@@ -6236,6 +6780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "UnfoldLoops",
           "package": "grammar-combinators",
@@ -6244,6 +6789,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "UnfoldLoops",
           "package": "grammar-combinators",
@@ -6258,6 +6804,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReplace loops in a given rule by rules provided\n in two provided sets of rules, replacing calls to\n \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e by the corresponding rule from the first\n set, and calls to \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e by the corresponding rule\n from the second set. You likely don't need this\n and should be looking at \u003ccode\u003e\u003ca\u003eunfoldLoops\u003c/a\u003e\u003c/code\u003e or \n \u003ccode\u003e\u003ca\u003eunfoldLoopsRule\u003c/a\u003e\u003c/code\u003e instead.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "replaceLoopsRule",
           "package": "grammar-combinators",
@@ -6268,6 +6815,7 @@
         "index": {
           "description": "Replace loops in given rule by rules provided in two provided sets of rules replacing calls to manyRef by the corresponding rule from the first set and calls to manyRef by the corresponding rule from the second set You likely don need this and should be looking at unfoldLoops or unfoldLoopsRule instead",
           "hierarchy": "Text GrammarCombinators Transform UnfoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "replaceLoopsRule",
           "normalized": "ExtendedContextFreeRule a b c d-\u003e(e f a g-\u003eh[b g])-\u003e(e f a g-\u003eh[b g])-\u003eh d",
@@ -6284,6 +6832,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold loops in a given grammar, replacing calls to\n \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e idx by \u003ccode\u003e\u003ca\u003emanyInf\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx) and likewise\n for \u003ccode\u003e\u003ca\u003emany1Ref\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoops",
           "package": "grammar-combinators",
@@ -6294,6 +6843,7 @@
         "index": {
           "description": "Unfold loops in given grammar replacing calls to manyRef idx by manyInf ref idx and likewise for many1Ref",
           "hierarchy": "Text GrammarCombinators Transform UnfoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoops",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eGContextFreeGrammar a b c d",
@@ -6310,6 +6860,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold loops in a given grammar, replacing calls to\n \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e idx by \u003ccode\u003e\u003ca\u003emanyInf\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx) and likewise\n for \u003ccode\u003e\u003ca\u003emany1Ref\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoopsP",
           "package": "grammar-combinators",
@@ -6320,6 +6871,7 @@
         "index": {
           "description": "Unfold loops in given grammar replacing calls to manyRef idx by manyInf ref idx and likewise for many1Ref",
           "hierarchy": "Text GrammarCombinators Transform UnfoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoopsP",
           "normalized": "GPenaltyExtendedContextFreeGrammar a b c d-\u003eGPenaltyContextFreeGrammar a b c d",
@@ -6336,6 +6888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold loops in a given rule, replacing calls to\n \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e idx by \u003ccode\u003e\u003ca\u003emanyInf\u003c/a\u003e\u003c/code\u003e (\u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx) and likewise\n for \u003ccode\u003e\u003ca\u003emany1Ref\u003c/a\u003e\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoopsRule",
           "package": "grammar-combinators",
@@ -6346,6 +6899,7 @@
         "index": {
           "description": "Unfold loops in given rule replacing calls to manyRef idx by manyInf ref idx and likewise for many1Ref",
           "hierarchy": "Text GrammarCombinators Transform UnfoldLoops",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldLoops",
           "name": "unfoldLoopsRule",
           "normalized": "ExtendedContextFreeRule a b c d-\u003eContextFreeRule a b c d",
@@ -6361,6 +6915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "UnfoldRecursion",
           "package": "grammar-combinators",
@@ -6369,6 +6924,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "UnfoldRecursion",
           "package": "grammar-combinators",
@@ -6383,6 +6939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type UnfoldDepth defines for each non-terminal in a\n grammar how many times it should be unfolded by the \u003ccode\u003e\u003ca\u003eunfoldSelective\u003c/a\u003e\u003c/code\u003e\n or \u003ccode\u003e\u003ca\u003eunfoldSelectiveE\u003c/a\u003e\u003c/code\u003e algorithms.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "UnfoldDepth",
           "package": "grammar-combinators",
@@ -6392,6 +6949,7 @@
         "index": {
           "description": "value of type UnfoldDepth defines for each non-terminal in grammar how many times it should be unfolded by the unfoldSelective or unfoldSelectiveE algorithms",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "UnfoldDepth",
           "package": "grammar-combinators",
@@ -6406,6 +6964,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function modifying a given \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e phi by applying a given\n function to the depth for a given non-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "modifyUnfoldDepth",
           "package": "grammar-combinators",
@@ -6416,6 +6975,7 @@
         "index": {
           "description": "function modifying given UnfoldDepth phi by applying given function to the depth for given non-terminal",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "modifyUnfoldDepth",
           "normalized": "UnfoldDepth a-\u003e(Integer-\u003eInteger)-\u003ea b-\u003eUnfoldDepth a",
@@ -6431,6 +6991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "scaleUD",
           "package": "grammar-combinators",
@@ -6440,6 +7001,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "scaleUD",
           "normalized": "Integer-\u003eUnfoldDepth a-\u003eUnfoldDepth a",
@@ -6456,6 +7018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e phi indicating every non-terminal\n should be unfolded once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectAllOnce",
           "package": "grammar-combinators",
@@ -6466,6 +7029,7 @@
         "index": {
           "description": "value of type UnfoldDepth phi indicating every non-terminal should be unfolded once",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectAllOnce",
           "package": "grammar-combinators",
@@ -6480,6 +7044,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function modifying a given \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e phi by increasing \n the depth for a given non-terminal by 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectNT",
           "package": "grammar-combinators",
@@ -6490,6 +7055,7 @@
         "index": {
           "description": "function modifying given UnfoldDepth phi by increasing the depth for given non-terminal by",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectNT",
           "normalized": "UnfoldDepth a-\u003ea b-\u003eUnfoldDepth a",
@@ -6506,6 +7072,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA value of type \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e phi indicating nothing should be\n unfolded at all. This can be used as a start value and then further\n modified with the \u003ccode\u003e\u003ca\u003eselectNT\u003c/a\u003e\u003c/code\u003e function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectNothing",
           "package": "grammar-combinators",
@@ -6516,6 +7083,7 @@
         "index": {
           "description": "value of type UnfoldDepth phi indicating nothing should be unfolded at all This can be used as start value and then further modified with the selectNT function",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "selectNothing",
           "package": "grammar-combinators",
@@ -6529,6 +7097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "sumUD",
           "package": "grammar-combinators",
@@ -6538,6 +7107,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "sumUD",
           "normalized": "UnfoldDepth a-\u003eUnfoldDepth a-\u003eUnfoldDepth a",
@@ -6554,6 +7124,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold recursion in a given contextx-free grammar, replacing\n calls to\n \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx with the non-terminal's production rule. This produces\n production rules similar to those in traditional parser combinator\n libraries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursion",
           "package": "grammar-combinators",
@@ -6564,6 +7135,7 @@
         "index": {
           "description": "Unfold recursion in given contextx-free grammar replacing calls to ref idx with the non-terminal production rule This produces production rules similar to those in traditional parser combinator libraries",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursion",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eProcessingRegularGrammar a b c",
@@ -6579,6 +7151,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionB",
           "package": "grammar-combinators",
@@ -6588,6 +7161,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionB",
           "normalized": "ProcessingBiasedContextFreeGrammar a b c-\u003eProcessingBiasedRegularGrammar a b c",
@@ -6604,6 +7178,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold recursion in a given extended context-free grammar,\n replacing calls to\n \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e idx with the non-terminal's production rule. This produces\n production rules similar to those in traditional parser combinator\n libraries.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionE",
           "package": "grammar-combinators",
@@ -6614,6 +7189,7 @@
         "index": {
           "description": "Unfold recursion in given extended context-free grammar replacing calls to ref idx with the non-terminal production rule This produces production rules similar to those in traditional parser combinator libraries",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingRegularGrammar a b c",
@@ -6629,6 +7205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionP",
           "package": "grammar-combinators",
@@ -6638,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRecursionP",
           "normalized": "ProcessingPenaltyContextFreeGrammar a b c-\u003eProcessingPenaltyRegularGrammar a b c",
@@ -6654,6 +7232,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold a given context-free rule by replacing all references to\n non-terminals with the production rule for that non-terminal in \n a given processing context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRule",
           "package": "grammar-combinators",
@@ -6664,6 +7243,7 @@
         "index": {
           "description": "Unfold given context-free rule by replacing all references to non-terminals with the production rule for that non-terminal in given processing context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRule",
           "normalized": "ContextFreeRule a b c d-\u003eProcessingContextFreeGrammar a c b-\u003eContextFreeRule a b c d",
@@ -6680,6 +7260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnfold a given extended context-free rule by replacing all\n references to\n non-terminals with the production rule for that non-terminal in \n a given processing extended context-free grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRuleE",
           "package": "grammar-combinators",
@@ -6690,6 +7271,7 @@
         "index": {
           "description": "Unfold given extended context-free rule by replacing all references to non-terminals with the production rule for that non-terminal in given processing extended context-free grammar",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldRuleE",
           "normalized": "ExtendedContextFreeRule a b c d-\u003eProcessingExtendedContextFreeGrammar a c b-\u003eExtendedContextFreeRule a b c d",
@@ -6706,6 +7288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectively unfold a given context-free grammar according to a \n given \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldSelective",
           "package": "grammar-combinators",
@@ -6716,6 +7299,7 @@
         "index": {
           "description": "Selectively unfold given context-free grammar according to given UnfoldDepth",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldSelective",
           "normalized": "UnfoldDepth a-\u003eProcessingContextFreeGrammar a b c-\u003eProcessingContextFreeGrammar a b c",
@@ -6732,6 +7316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSelectively unfold a given extended context-free grammar\n according to a given \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldSelectiveE",
           "package": "grammar-combinators",
@@ -6742,6 +7327,7 @@
         "index": {
           "description": "Selectively unfold given extended context-free grammar according to given UnfoldDepth",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unfoldSelectiveE",
           "normalized": "UnfoldDepth a-\u003eProcessingExtendedContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar a b c",
@@ -6758,6 +7344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA function modifying a given \u003ccode\u003e\u003ca\u003eUnfoldDepth\u003c/a\u003e\u003c/code\u003e phi by decreasing \n the depth for a given non-terminal by 1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unselectNT",
           "package": "grammar-combinators",
@@ -6768,6 +7355,7 @@
         "index": {
           "description": "function modifying given UnfoldDepth phi by decreasing the depth for given non-terminal by",
           "hierarchy": "Text GrammarCombinators Transform UnfoldRecursion",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UnfoldRecursion",
           "name": "unselectNT",
           "normalized": "UnfoldDepth a-\u003ea b-\u003eUnfoldDepth a",
@@ -6783,6 +7371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UniformPaull",
           "package": "grammar-combinators",
@@ -6791,6 +7380,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UniformPaull",
           "package": "grammar-combinators",
@@ -6804,6 +7394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPBaseIx",
           "package": "grammar-combinators",
@@ -6812,6 +7403,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPBaseIx",
           "package": "grammar-combinators",
@@ -6825,6 +7417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPDomain",
           "package": "grammar-combinators",
@@ -6833,6 +7426,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPDomain",
           "package": "grammar-combinators",
@@ -6846,6 +7440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPHeadIx",
           "package": "grammar-combinators",
@@ -6854,6 +7449,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPHeadIx",
           "package": "grammar-combinators",
@@ -6867,6 +7463,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPTailIx",
           "package": "grammar-combinators",
@@ -6875,6 +7472,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPTailIx",
           "package": "grammar-combinators",
@@ -6888,6 +7486,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPValue",
           "package": "grammar-combinators",
@@ -6896,6 +7495,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPValue",
           "package": "grammar-combinators",
@@ -6909,6 +7509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPBase",
           "package": "grammar-combinators",
@@ -6918,6 +7519,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPBase",
           "normalized": "a b-\u003eUPDomain a(UPBaseIx b)",
@@ -6933,6 +7535,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPHead",
           "package": "grammar-combinators",
@@ -6942,6 +7545,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPHead",
           "normalized": "a b-\u003eUPDomain a(UPHeadIx b)",
@@ -6957,6 +7561,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPTail",
           "package": "grammar-combinators",
@@ -6966,6 +7571,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "UPTail",
           "normalized": "a b-\u003eUPDomain a(UPTailIx b)",
@@ -6982,6 +7588,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a uniform variant of the classic Paull transformation to a given grammar,\n removing direct and indirect left recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaull",
           "package": "grammar-combinators",
@@ -6992,6 +7599,7 @@
         "index": {
           "description": "Apply uniform variant of the classic Paull transformation to given grammar removing direct and indirect left recursion",
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaull",
           "normalized": "ProcessingContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar(UPDomain a)b(UPValue c)",
@@ -7008,6 +7616,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a uniform variant of the classic Paull transformation to a given extended grammar,\n removing direct and indirect left recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullE",
           "package": "grammar-combinators",
@@ -7018,6 +7627,7 @@
         "index": {
           "description": "Apply uniform variant of the classic Paull transformation to given extended grammar removing direct and indirect left recursion",
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullE",
           "normalized": "ProcessingExtendedContextFreeGrammar a b c-\u003eProcessingExtendedContextFreeGrammar(UPDomain a)b(UPValue c)",
@@ -7034,6 +7644,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a uniform variant of the classic Paull transformation to a given extended liftable grammar,\n removing direct and indirect left recursion.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullLE",
           "package": "grammar-combinators",
@@ -7044,6 +7655,7 @@
         "index": {
           "description": "Apply uniform variant of the classic Paull transformation to given extended liftable grammar removing direct and indirect left recursion",
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullLE",
           "normalized": "ProcessingLExtendedContextFreeGrammar a b c-\u003eProcessingLExtendedContextFreeGrammar(UPDomain a)b(UPValue c)",
@@ -7059,6 +7671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullP",
           "package": "grammar-combinators",
@@ -7068,6 +7681,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "transformUniformPaullP",
           "normalized": "ProcessingPenaltyContextFreeGrammar a b c-\u003eProcessingPenaltyExtendedContextFreeGrammar(UPDomain a)b(UPValue c)",
@@ -7083,6 +7697,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPBV",
           "package": "grammar-combinators",
@@ -7092,6 +7707,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPBV",
           "normalized": "UPValue a(UPBaseIx b)-\u003ea b",
@@ -7107,6 +7723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPHV",
           "package": "grammar-combinators",
@@ -7116,6 +7733,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPHV",
           "normalized": "UPValue a(UPHeadIx b)-\u003ea b",
@@ -7131,6 +7749,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPTV",
           "package": "grammar-combinators",
@@ -7140,6 +7759,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Transform UniformPaull",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Transform.UniformPaull",
           "name": "unUPTV",
           "normalized": "UPValue a(UPTailIx b)-\u003ea b-\u003ea b",
@@ -7155,6 +7775,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.AssessSize",
           "name": "AssessSize",
           "package": "grammar-combinators",
@@ -7163,6 +7784,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils AssessSize",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.AssessSize",
           "name": "AssessSize",
           "package": "grammar-combinators",
@@ -7177,6 +7799,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssess the size of a given grammar. Primitive rules (\u003ccode\u003e\u003ca\u003etoken\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eref\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emanyRef\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003emany1Ref\u003c/a\u003e\u003c/code\u003e, \u003ccode\u003e\u003ca\u003eepsilon\u003c/a\u003e\u003c/code\u003e)\n   are counted as 1 point, combinators like \u003ccode\u003e\u003ca\u003e|||\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003e\u003e\u003e\u003e\u003c/a\u003e\u003c/code\u003e just add the points of their left and\n   right hand sides. Proposals for better metrics are welcome.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.AssessSize",
           "name": "assessSize",
           "package": "grammar-combinators",
@@ -7187,6 +7810,7 @@
         "index": {
           "description": "Assess the size of given grammar Primitive rules token ref manyRef many1Ref epsilon are counted as point combinators like or just add the points of their left and right hand sides Proposals for better metrics are welcome",
           "hierarchy": "Text GrammarCombinators Utils AssessSize",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.AssessSize",
           "name": "assessSize",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eInt",
@@ -7202,6 +7826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "CalcFirst",
           "package": "grammar-combinators",
@@ -7210,6 +7835,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "CalcFirst",
           "package": "grammar-combinators",
@@ -7223,6 +7849,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FSCalculator",
           "package": "grammar-combinators",
@@ -7231,6 +7858,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FSCalculator",
           "package": "grammar-combinators",
@@ -7244,6 +7872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FirstSet",
           "package": "grammar-combinators",
@@ -7252,6 +7881,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FirstSet",
           "package": "grammar-combinators",
@@ -7265,6 +7895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FirstSetGrammar",
           "package": "grammar-combinators",
@@ -7273,6 +7904,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FirstSetGrammar",
           "package": "grammar-combinators",
@@ -7286,6 +7918,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FS",
           "package": "grammar-combinators",
@@ -7295,6 +7928,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "FS",
           "package": "grammar-combinators",
@@ -7308,6 +7942,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "calcFS",
           "package": "grammar-combinators",
@@ -7317,6 +7952,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "calcFS",
           "normalized": "FSCalculator a b c d e-\u003eFirstSetGrammar a b c d-\u003eFirstSet c",
@@ -7332,6 +7968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "calcFirst",
           "package": "grammar-combinators",
@@ -7341,6 +7978,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "calcFirst",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003ea e-\u003eFirstSet b",
@@ -7356,6 +7994,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "canBeEOI",
           "package": "grammar-combinators",
@@ -7365,6 +8004,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "canBeEOI",
           "package": "grammar-combinators",
@@ -7378,6 +8018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "canBeEmpty",
           "package": "grammar-combinators",
@@ -7387,6 +8028,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "canBeEmpty",
           "package": "grammar-combinators",
@@ -7400,6 +8042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "firstSet",
           "package": "grammar-combinators",
@@ -7409,6 +8052,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CalcFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CalcFirst",
           "name": "firstSet",
           "package": "grammar-combinators",
@@ -7422,6 +8066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "CombineProcessors",
           "package": "grammar-combinators",
@@ -7430,6 +8075,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CombineProcessors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "CombineProcessors",
           "package": "grammar-combinators",
@@ -7443,6 +8089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "CombineFam",
           "package": "grammar-combinators",
@@ -7451,6 +8098,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CombineProcessors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "CombineFam",
           "package": "grammar-combinators",
@@ -7464,6 +8112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "Combine",
           "package": "grammar-combinators",
@@ -7473,6 +8122,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils CombineProcessors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "Combine",
           "package": "grammar-combinators",
@@ -7487,6 +8137,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCombine two semantic processors into a single one that tuples\n   their respective values.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "combineProcessors",
           "package": "grammar-combinators",
@@ -7497,6 +8148,7 @@
         "index": {
           "description": "Combine two semantic processors into single one that tuples their respective values",
           "hierarchy": "Text GrammarCombinators Utils CombineProcessors",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.CombineProcessors",
           "name": "combineProcessors",
           "normalized": "a b c d c d GProcessor b c d-\u003eGProcessor b c d-\u003eGProcessor b(CombineFam c c)(CombineFam d d)",
@@ -7512,6 +8164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "EnumTokens",
           "package": "grammar-combinators",
@@ -7520,6 +8173,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumTokens",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "EnumTokens",
           "package": "grammar-combinators",
@@ -7534,6 +8188,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all tokens that can be present in any match of any string that can be matched \n   by any non-terminal in a given grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumAllTokens",
           "package": "grammar-combinators",
@@ -7544,6 +8199,7 @@
         "index": {
           "description": "Enumerate all tokens that can be present in any match of any string that can be matched by any non-terminal in given grammar",
           "hierarchy": "Text GrammarCombinators Utils EnumTokens",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumAllTokens",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003e[b]",
@@ -7560,6 +8216,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all tokens that can be present in any match of a given production rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumRuleTokens",
           "package": "grammar-combinators",
@@ -7570,6 +8227,7 @@
         "index": {
           "description": "Enumerate all tokens that can be present in any match of given production rule",
           "hierarchy": "Text GrammarCombinators Utils EnumTokens",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumRuleTokens",
           "normalized": "ExtendedContextFreeRule a b c d-\u003e[c]",
@@ -7586,6 +8244,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEnumerate all tokens that can be present in any match of any string that can be matched \n   by a given non-terminal in a given grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumTokens",
           "package": "grammar-combinators",
@@ -7596,6 +8255,7 @@
         "index": {
           "description": "Enumerate all tokens that can be present in any match of any string that can be matched by given non-terminal in given grammar",
           "hierarchy": "Text GrammarCombinators Utils EnumTokens",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumTokens",
           "name": "enumTokens",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003ea e-\u003e[b]",
@@ -7611,6 +8271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateGrammar",
           "package": "grammar-combinators",
@@ -7619,6 +8280,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateGrammar",
           "package": "grammar-combinators",
@@ -7632,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateGrammar",
           "package": "grammar-combinators",
@@ -7640,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateGrammar",
           "package": "grammar-combinators",
@@ -7653,6 +8317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateParserInternalGrammar",
           "package": "grammar-combinators",
@@ -7661,6 +8326,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateParserInternalGrammar",
           "package": "grammar-combinators",
@@ -7674,6 +8340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateProductionRule",
           "package": "grammar-combinators",
@@ -7682,6 +8349,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "EnumerateProductionRule",
           "package": "grammar-combinators",
@@ -7695,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "IPP",
           "package": "grammar-combinators",
@@ -7704,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "IPP",
           "package": "grammar-combinators",
@@ -7717,6 +8387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "enumerateGrammar",
           "package": "grammar-combinators",
@@ -7726,6 +8397,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "enumerateGrammar",
           "normalized": "GContextFreeGrammar a b c d-\u003eInt-\u003ea e-\u003e[[ConcreteToken b]]",
@@ -7741,6 +8413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "enumerateGrammarE",
           "package": "grammar-combinators",
@@ -7750,6 +8423,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "enumerateGrammarE",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eInt-\u003ea e-\u003e[[ConcreteToken b]]",
@@ -7765,6 +8439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "printIPP",
           "package": "grammar-combinators",
@@ -7774,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils EnumerateGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.EnumerateGrammar",
           "name": "printIPP",
           "normalized": "EnumerateParserInternalGrammar a b-\u003eInt-\u003e[[ConcreteToken b]]",
@@ -7789,6 +8465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsChainNT",
           "name": "IsChainNT",
           "package": "grammar-combinators",
@@ -7797,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils IsChainNT",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsChainNT",
           "name": "IsChainNT",
           "package": "grammar-combinators",
@@ -7811,6 +8489,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetect if a given non-terminal in a given extended context free \n grammar is a chain non-terminal. An NT is a chain NT if all of\n its productions are chain rules.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsChainNT",
           "name": "isChainNT",
           "package": "grammar-combinators",
@@ -7821,6 +8500,7 @@
         "index": {
           "description": "Detect if given non-terminal in given extended context free grammar is chain non-terminal An NT is chain NT if all of its productions are chain rules",
           "hierarchy": "Text GrammarCombinators Utils IsChainNT",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsChainNT",
           "name": "isChainNT",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003ea e-\u003eBool",
@@ -7836,6 +8516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsDead",
           "name": "IsDead",
           "package": "grammar-combinators",
@@ -7844,6 +8525,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils IsDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsDead",
           "name": "IsDead",
           "package": "grammar-combinators",
@@ -7858,6 +8540,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetect if a given non-terminal in a given grammar is dead. A \n non-terminal is dead if its production rule can never match\n anything.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsDead",
           "name": "isDead",
           "package": "grammar-combinators",
@@ -7868,6 +8551,7 @@
         "index": {
           "description": "Detect if given non-terminal in given grammar is dead non-terminal is dead if its production rule can never match anything",
           "hierarchy": "Text GrammarCombinators Utils IsDead",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsDead",
           "name": "isDead",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003ea e-\u003eBool",
@@ -7883,6 +8567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsEpsilon",
           "name": "IsEpsilon",
           "package": "grammar-combinators",
@@ -7891,6 +8576,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils IsEpsilon",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsEpsilon",
           "name": "IsEpsilon",
           "package": "grammar-combinators",
@@ -7905,6 +8591,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetect if a given context-free rule is an epsilon rule.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsEpsilon",
           "name": "isEpsilon",
           "package": "grammar-combinators",
@@ -7915,6 +8602,7 @@
         "index": {
           "description": "Detect if given context-free rule is an epsilon rule",
           "hierarchy": "Text GrammarCombinators Utils IsEpsilon",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsEpsilon",
           "name": "isEpsilon",
           "normalized": "ContextFreeRule a b c d-\u003eBool",
@@ -7930,6 +8618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "IsReachable",
           "package": "grammar-combinators",
@@ -7938,6 +8627,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils IsReachable",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "IsReachable",
           "package": "grammar-combinators",
@@ -7952,6 +8642,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a given function over all non-terminals that are reachable \n from a given non-terminal. This function will at least fold over the\n given non-terminal itself.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "foldReachable",
           "package": "grammar-combinators",
@@ -7962,6 +8653,7 @@
         "index": {
           "description": "Fold given function over all non-terminals that are reachable from given non-terminal This function will at least fold over the given non-terminal itself",
           "hierarchy": "Text GrammarCombinators Utils IsReachable",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "foldReachable",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003e(f g a h-\u003ei-\u003ei)-\u003ei-\u003ei",
@@ -7978,6 +8670,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFold a given function over all non-terminals that are reachable \n from a given non-terminal. This function is limited to proper\n reachable rules (see \u003ccode\u003e\u003ca\u003eisReachableProper\u003c/a\u003e\u003c/code\u003e for what that means).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "foldReachableProper",
           "package": "grammar-combinators",
@@ -7988,6 +8681,7 @@
         "index": {
           "description": "Fold given function over all non-terminals that are reachable from given non-terminal This function is limited to proper reachable rules see isReachableProper for what that means",
           "hierarchy": "Text GrammarCombinators Utils IsReachable",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "foldReachableProper",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003e(f g a h-\u003ei-\u003ei)-\u003ei-\u003ei",
@@ -8004,6 +8698,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given non-terminal is reachable from a given other non-terminal\n in a given extended context-free grammar. This function assumes\n that all grammars are reachable from themselves.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "isReachable",
           "package": "grammar-combinators",
@@ -8014,6 +8709,7 @@
         "index": {
           "description": "Check if given non-terminal is reachable from given other non-terminal in given extended context-free grammar This function assumes that all grammars are reachable from themselves",
           "hierarchy": "Text GrammarCombinators Utils IsReachable",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "isReachable",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003ea f-\u003eBool",
@@ -8030,6 +8726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if a given non-terminal is reachable from a given other non-terminal\n in a given extended context-free grammar. For this function, a non- \n terminal is not automatically considered reachable from itself, but\n only if it has some production in which a submatch of itself is\n present.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "isReachableProper",
           "package": "grammar-combinators",
@@ -8040,6 +8737,7 @@
         "index": {
           "description": "Check if given non-terminal is reachable from given other non-terminal in given extended context-free grammar For this function non terminal is not automatically considered reachable from itself but only if it has some production in which submatch of itself is present",
           "hierarchy": "Text GrammarCombinators Utils IsReachable",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.IsReachable",
           "name": "isReachableProper",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003ea f-\u003eBool",
@@ -8055,6 +8753,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "LiftGrammar",
           "package": "grammar-combinators",
@@ -8063,6 +8762,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils LiftGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "LiftGrammar",
           "package": "grammar-combinators",
@@ -8077,6 +8777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a given grammar to Template Haskell \n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "liftGrammar",
           "package": "grammar-combinators",
@@ -8087,6 +8788,7 @@
         "index": {
           "description": "Lift given grammar to Template Haskell",
           "hierarchy": "Text GrammarCombinators Utils LiftGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "liftGrammar",
           "normalized": "GLAnyExtendedContextFreeGrammar a b c d-\u003eName-\u003eQ Type-\u003eQ[Dec]",
@@ -8103,6 +8805,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLift a given grammar to Template Haskell and replace recursion and loops with \n infinite-tree style recursive calls to the grammar itself. This allows GHC to do\n a much better optimization (x20 speed-ups in one realistic test, compared with\n result of \u003ccode\u003e\u003ca\u003eliftGrammar\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "unfoldAndLiftGrammar",
           "package": "grammar-combinators",
@@ -8113,6 +8816,7 @@
         "index": {
           "description": "Lift given grammar to Template Haskell and replace recursion and loops with infinite-tree style recursive calls to the grammar itself This allows GHC to do much better optimization x20 speed-ups in one realistic test compared with result of liftGrammar",
           "hierarchy": "Text GrammarCombinators Utils LiftGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.LiftGrammar",
           "name": "unfoldAndLiftGrammar",
           "normalized": "GLAnyExtendedContextFreeGrammar a b c d-\u003eName-\u003eQ Type-\u003eQ[Dec]",
@@ -8128,6 +8832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "MemoizeGrammar",
           "package": "grammar-combinators",
@@ -8136,6 +8841,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils MemoizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "MemoizeGrammar",
           "package": "grammar-combinators",
@@ -8150,6 +8856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the production rules of a grammar. Currently not sure if this is ever useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammar",
           "package": "grammar-combinators",
@@ -8160,6 +8867,7 @@
         "index": {
           "description": "Memoize the production rules of grammar Currently not sure if this is ever useful",
           "hierarchy": "Text GrammarCombinators Utils MemoizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammar",
           "normalized": "GContextFreeGrammar a b c d-\u003eGContextFreeGrammar a b c d",
@@ -8176,6 +8884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the production rules of an extended grammar. Currently not sure if this is ever useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammarE",
           "package": "grammar-combinators",
@@ -8186,6 +8895,7 @@
         "index": {
           "description": "Memoize the production rules of an extended grammar Currently not sure if this is ever useful",
           "hierarchy": "Text GrammarCombinators Utils MemoizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammarE",
           "normalized": "GExtendedContextFreeGrammar a b c d-\u003eGExtendedContextFreeGrammar a b c d",
@@ -8202,6 +8912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMemoize the production rules of a regular grammar. Currently not sure if this is ever useful.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammarR",
           "package": "grammar-combinators",
@@ -8212,6 +8923,7 @@
         "index": {
           "description": "Memoize the production rules of regular grammar Currently not sure if this is ever useful",
           "hierarchy": "Text GrammarCombinators Utils MemoizeGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.MemoizeGrammar",
           "name": "memoizeGrammarR",
           "normalized": "GRegularGrammar a b c d-\u003eGRegularGrammar a b c d",
@@ -8227,6 +8939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "PrintGrammar",
           "package": "grammar-combinators",
@@ -8235,6 +8948,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils PrintGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "PrintGrammar",
           "package": "grammar-combinators",
@@ -8249,6 +8963,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint out a full grammar.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printGrammar",
           "package": "grammar-combinators",
@@ -8259,6 +8974,7 @@
         "index": {
           "description": "Print out full grammar",
           "hierarchy": "Text GrammarCombinators Utils PrintGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printGrammar",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003eString",
@@ -8275,6 +8991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint out a grammar with a depth limit. Intended for infinite grammars.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printGrammarInf",
           "package": "grammar-combinators",
@@ -8285,6 +9002,7 @@
         "index": {
           "description": "Print out grammar with depth limit Intended for infinite grammars",
           "hierarchy": "Text GrammarCombinators Utils PrintGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printGrammarInf",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003eInteger-\u003eString",
@@ -8301,6 +9019,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint out the part of a grammar that is reachable from a given non-terminal.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printReachableGrammar",
           "package": "grammar-combinators",
@@ -8311,6 +9030,7 @@
         "index": {
           "description": "Print out the part of grammar that is reachable from given non-terminal",
           "hierarchy": "Text GrammarCombinators Utils PrintGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printReachableGrammar",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003eString",
@@ -8327,6 +9047,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrint out a single production rule\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printRule",
           "package": "grammar-combinators",
@@ -8337,6 +9058,7 @@
         "index": {
           "description": "Print out single production rule",
           "hierarchy": "Text GrammarCombinators Utils PrintGrammar",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.PrintGrammar",
           "name": "printRule",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003eInteger-\u003ea e-\u003eString",
@@ -8352,6 +9074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "ToGraph",
           "package": "grammar-combinators",
@@ -8360,6 +9083,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "ToGraph",
           "package": "grammar-combinators",
@@ -8373,6 +9097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "fullGrammarToGraph",
           "package": "grammar-combinators",
@@ -8382,6 +9107,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "fullGrammarToGraph",
           "normalized": "Int-\u003eGExtendedContextFreeGrammar a b c d-\u003ee String String",
@@ -8397,6 +9123,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "graphToGraphviz",
           "package": "grammar-combinators",
@@ -8406,6 +9133,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "graphToGraphviz",
           "normalized": "Gr String String-\u003eDotGraph Node",
@@ -8421,6 +9149,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "reachableGrammarToGraph",
           "package": "grammar-combinators",
@@ -8430,6 +9159,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "reachableGrammarToGraph",
           "normalized": "Int-\u003eGExtendedContextFreeGrammar a b c d-\u003ea e-\u003ef String String",
@@ -8445,6 +9175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "ruleToGraph",
           "package": "grammar-combinators",
@@ -8454,6 +9185,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "ruleToGraph",
           "normalized": "Int-\u003eGExtendedContextFreeGrammar a b c d-\u003ea e-\u003ef String String",
@@ -8469,6 +9201,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "showGraph",
           "package": "grammar-combinators",
@@ -8478,6 +9211,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils ToGraph",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.ToGraph",
           "name": "showGraph",
           "normalized": "a b-\u003eIO()",
@@ -8493,6 +9227,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UnfoldDepthFirst",
           "package": "grammar-combinators",
@@ -8501,6 +9236,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UnfoldDepthFirst",
           "package": "grammar-combinators",
@@ -8514,6 +9250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "SimpleLoopProductionRule",
           "package": "grammar-combinators",
@@ -8522,6 +9259,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "SimpleLoopProductionRule",
           "package": "grammar-combinators",
@@ -8535,6 +9273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "SimpleRecProductionRule",
           "package": "grammar-combinators",
@@ -8543,6 +9282,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "SimpleRecProductionRule",
           "package": "grammar-combinators",
@@ -8556,6 +9296,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UDFGrammar",
           "package": "grammar-combinators",
@@ -8564,6 +9305,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UDFGrammar",
           "package": "grammar-combinators",
@@ -8577,6 +9319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UnfoldDepthFirstRule",
           "package": "grammar-combinators",
@@ -8585,6 +9328,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "UnfoldDepthFirstRule",
           "package": "grammar-combinators",
@@ -8598,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "WrapUR",
           "package": "grammar-combinators",
@@ -8606,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "WrapUR",
           "package": "grammar-combinators",
@@ -8619,6 +9365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "MkFRR",
           "package": "grammar-combinators",
@@ -8628,6 +9375,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "MkFRR",
           "package": "grammar-combinators",
@@ -8641,6 +9389,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "WUR",
           "package": "grammar-combinators",
@@ -8650,6 +9399,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "WUR",
           "package": "grammar-combinators",
@@ -8663,6 +9413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "cutRecursion",
           "package": "grammar-combinators",
@@ -8672,6 +9423,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "cutRecursion",
           "normalized": "a b-\u003ec(d b)",
@@ -8687,6 +9439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "declareDead",
           "package": "grammar-combinators",
@@ -8696,6 +9449,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "declareDead",
           "normalized": "a b-\u003eUDFGrammar c a d e f-\u003eUDFGrammar c a d e f",
@@ -8711,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "foldReachableFromRule",
           "package": "grammar-combinators",
@@ -8720,6 +9475,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "foldReachableFromRule",
           "normalized": "UDFGrammar a b c d e-\u003ea f",
@@ -8735,6 +9491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "many1Ref'",
           "package": "grammar-combinators",
@@ -8744,6 +9501,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "many1Ref'",
           "normalized": "a b-\u003ec(d b)-\u003ec[e b]",
@@ -8759,6 +9517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "manyRef'",
           "package": "grammar-combinators",
@@ -8768,6 +9527,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "manyRef'",
           "normalized": "a b-\u003ec(d b)-\u003ec[e b]",
@@ -8783,6 +9543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "ref'",
           "package": "grammar-combinators",
@@ -8792,6 +9553,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "ref'",
           "normalized": "a b-\u003ec(d b)-\u003ec(e b)",
@@ -8806,6 +9568,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unWUR",
           "package": "grammar-combinators",
@@ -8815,6 +9578,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unWUR",
           "package": "grammar-combinators",
@@ -8828,6 +9592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst",
           "package": "grammar-combinators",
@@ -8837,6 +9602,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003ef(c e)",
@@ -8852,6 +9618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst'",
           "package": "grammar-combinators",
@@ -8861,6 +9628,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst'",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003e(UDFGrammar e a c b d-\u003eUDFGrammar e a c b d)-\u003ea f-\u003ee(d f)",
@@ -8876,6 +9644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst''",
           "package": "grammar-combinators",
@@ -8885,6 +9654,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirst''",
           "normalized": "UnfoldDepthFirstRule a b c d e f-\u003eGAnyExtendedContextFreeGrammar b d c e-\u003e(UDFGrammar a b c d e-\u003eUDFGrammar a b c d e)-\u003ea f",
@@ -8900,6 +9670,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:19:41 UTC 2014",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirstProper",
           "package": "grammar-combinators",
@@ -8909,6 +9680,7 @@
         },
         "index": {
           "hierarchy": "Text GrammarCombinators Utils UnfoldDepthFirst",
+          "indexed": "2014-03-11T18:19:41",
           "module": "Text.GrammarCombinators.Utils.UnfoldDepthFirst",
           "name": "unfoldDepthFirstProper",
           "normalized": "GAnyExtendedContextFreeGrammar a b c d-\u003ea e-\u003ef(d e)",

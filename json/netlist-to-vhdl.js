@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "netlist-to-vhdl"
+        "phrase": "netlist-to-vhdl",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eTranslates a Netlist AST (\u003ccode\u003eLanguage.Netlist.AST\u003c/code\u003e) to VHDL.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 19:26:57 UTC 2014",
           "module": "Language.Netlist.GenVHDL",
           "name": "GenVHDL",
           "package": "netlist-to-vhdl",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Translates Netlist AST Language.Netlist.AST to VHDL",
           "hierarchy": "Language Netlist GenVHDL",
+          "indexed": "2014-03-11T19:26:57",
           "module": "Language.Netlist.GenVHDL",
           "name": "GenVHDL",
           "package": "netlist-to-vhdl",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a \u003ccode\u003e\u003ca\u003eModule\u003c/a\u003e\u003c/code\u003e as a VHDL file . The [\u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003e] argument\n is the list of extra modules to import, typically [\"work.all\"].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:26:57 UTC 2014",
           "module": "Language.Netlist.GenVHDL",
           "name": "genVHDL",
           "package": "netlist-to-vhdl",
@@ -52,6 +55,7 @@
         "index": {
           "description": "Generate Module as VHDL file The String argument is the list of extra modules to import typically work.all",
           "hierarchy": "Language Netlist GenVHDL",
+          "indexed": "2014-03-11T19:26:57",
           "module": "Language.Netlist.GenVHDL",
           "name": "genVHDL",
           "normalized": "Module-\u003e[String]-\u003eString",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "bindings-dc1394"
+        "phrase": "bindings-dc1394",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "DC1394",
           "package": "bindings-dc1394",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "DC1394",
           "package": "bindings-dc1394",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394_t",
           "package": "bindings-dc1394",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394_t",
           "package": "bindings-dc1394",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_id_t",
           "package": "bindings-dc1394",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_id_t",
           "package": "bindings-dc1394",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_list_t",
           "package": "bindings-dc1394",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_list_t",
           "package": "bindings-dc1394",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_t",
           "package": "bindings-dc1394",
@@ -110,6 +119,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_t",
           "package": "bindings-dc1394",
@@ -123,6 +133,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394video_frame_t",
           "package": "bindings-dc1394",
@@ -131,6 +142,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394video_frame_t",
           "package": "bindings-dc1394",
@@ -144,6 +156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394_t",
           "package": "bindings-dc1394",
@@ -153,6 +166,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394_t",
           "package": "bindings-dc1394",
@@ -166,6 +180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_id_t",
           "package": "bindings-dc1394",
@@ -175,6 +190,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_id_t",
           "package": "bindings-dc1394",
@@ -188,6 +204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_list_t",
           "package": "bindings-dc1394",
@@ -197,6 +214,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_list_t",
           "package": "bindings-dc1394",
@@ -210,6 +228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_t",
           "package": "bindings-dc1394",
@@ -219,6 +238,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394camera_t",
           "package": "bindings-dc1394",
@@ -232,6 +252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "C'dc1394video_frame_t",
           "package": "bindings-dc1394",
@@ -241,6 +262,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "C'dc1394video_frame_t",
           "package": "bindings-dc1394",
@@ -254,6 +276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_CORRUPTED_SFF_CHUNK",
           "package": "bindings-dc1394",
@@ -263,6 +286,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_CORRUPTED_SFF_CHUNK",
           "package": "bindings-dc1394",
@@ -276,6 +300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_NO_MORE_SFF_CHUNKS",
           "package": "bindings-dc1394",
@@ -285,6 +310,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_NO_MORE_SFF_CHUNKS",
           "package": "bindings-dc1394",
@@ -298,6 +324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_UNKNOWN_SFF_CHUNK",
           "package": "bindings-dc1394",
@@ -307,6 +334,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_BASLER_UNKNOWN_SFF_CHUNK",
           "package": "bindings-dc1394",
@@ -320,6 +348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAMERA_NOT_INITIALIZED",
           "package": "bindings-dc1394",
@@ -329,6 +358,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAMERA_NOT_INITIALIZED",
           "package": "bindings-dc1394",
@@ -342,6 +372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_AUTO_ISO",
           "package": "bindings-dc1394",
@@ -351,6 +382,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_AUTO_ISO",
           "package": "bindings-dc1394",
@@ -364,6 +396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_BANDWIDTH_ALLOC",
           "package": "bindings-dc1394",
@@ -373,6 +406,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_BANDWIDTH_ALLOC",
           "package": "bindings-dc1394",
@@ -386,6 +420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_CHANNEL_ALLOC",
           "package": "bindings-dc1394",
@@ -395,6 +430,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_CHANNEL_ALLOC",
           "package": "bindings-dc1394",
@@ -408,6 +444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_DEFAULT",
           "package": "bindings-dc1394",
@@ -417,6 +454,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_FLAGS_DEFAULT",
           "package": "bindings-dc1394",
@@ -430,6 +468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_IS_NOT_SET",
           "package": "bindings-dc1394",
@@ -439,6 +478,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_IS_NOT_SET",
           "package": "bindings-dc1394",
@@ -452,6 +492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_IS_RUNNING",
           "package": "bindings-dc1394",
@@ -461,6 +502,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_IS_RUNNING",
           "package": "bindings-dc1394",
@@ -474,6 +516,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_MAX",
           "package": "bindings-dc1394",
@@ -483,6 +526,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_MAX",
           "package": "bindings-dc1394",
@@ -496,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_MIN",
           "package": "bindings-dc1394",
@@ -505,6 +550,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_MIN",
           "package": "bindings-dc1394",
@@ -518,6 +564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_NUM",
           "package": "bindings-dc1394",
@@ -527,6 +574,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_NUM",
           "package": "bindings-dc1394",
@@ -540,6 +588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_POLL",
           "package": "bindings-dc1394",
@@ -549,6 +598,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_POLL",
           "package": "bindings-dc1394",
@@ -562,6 +612,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_WAIT",
           "package": "bindings-dc1394",
@@ -571,6 +622,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_CAPTURE_POLICY_WAIT",
           "package": "bindings-dc1394",
@@ -584,6 +636,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MAX",
           "package": "bindings-dc1394",
@@ -593,6 +646,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MAX",
           "package": "bindings-dc1394",
@@ -606,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MIN",
           "package": "bindings-dc1394",
@@ -615,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MIN",
           "package": "bindings-dc1394",
@@ -628,6 +684,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO16",
           "package": "bindings-dc1394",
@@ -637,6 +694,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO16",
           "package": "bindings-dc1394",
@@ -650,6 +708,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO16S",
           "package": "bindings-dc1394",
@@ -659,6 +718,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO16S",
           "package": "bindings-dc1394",
@@ -672,6 +732,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO8",
           "package": "bindings-dc1394",
@@ -681,6 +742,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_MONO8",
           "package": "bindings-dc1394",
@@ -694,6 +756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RAW16",
           "package": "bindings-dc1394",
@@ -703,6 +766,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RAW16",
           "package": "bindings-dc1394",
@@ -716,6 +780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RAW8",
           "package": "bindings-dc1394",
@@ -725,6 +790,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RAW8",
           "package": "bindings-dc1394",
@@ -738,6 +804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB16",
           "package": "bindings-dc1394",
@@ -747,6 +814,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB16",
           "package": "bindings-dc1394",
@@ -760,6 +828,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB16S",
           "package": "bindings-dc1394",
@@ -769,6 +838,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB16S",
           "package": "bindings-dc1394",
@@ -782,6 +852,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB8",
           "package": "bindings-dc1394",
@@ -791,6 +862,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_RGB8",
           "package": "bindings-dc1394",
@@ -804,6 +876,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV411",
           "package": "bindings-dc1394",
@@ -813,6 +886,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV411",
           "package": "bindings-dc1394",
@@ -826,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV422",
           "package": "bindings-dc1394",
@@ -835,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV422",
           "package": "bindings-dc1394",
@@ -848,6 +924,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV444",
           "package": "bindings-dc1394",
@@ -857,6 +934,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_CODING_YUV444",
           "package": "bindings-dc1394",
@@ -870,6 +948,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_BGGR",
           "package": "bindings-dc1394",
@@ -879,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_BGGR",
           "package": "bindings-dc1394",
@@ -892,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_GBRG",
           "package": "bindings-dc1394",
@@ -901,6 +982,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_GBRG",
           "package": "bindings-dc1394",
@@ -914,6 +996,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_GRBG",
           "package": "bindings-dc1394",
@@ -923,6 +1006,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_GRBG",
           "package": "bindings-dc1394",
@@ -936,6 +1020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_MAX",
           "package": "bindings-dc1394",
@@ -945,6 +1030,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_MAX",
           "package": "bindings-dc1394",
@@ -958,6 +1044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_MIN",
           "package": "bindings-dc1394",
@@ -967,6 +1054,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_MIN",
           "package": "bindings-dc1394",
@@ -980,6 +1068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_RGGB",
           "package": "bindings-dc1394",
@@ -989,6 +1078,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_COLOR_FILTER_RGGB",
           "package": "bindings-dc1394",
@@ -1002,6 +1092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FAILURE",
           "package": "bindings-dc1394",
@@ -1011,6 +1102,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FAILURE",
           "package": "bindings-dc1394",
@@ -1024,6 +1116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FORMAT7_ERROR_FLAG_1",
           "package": "bindings-dc1394",
@@ -1033,6 +1126,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FORMAT7_ERROR_FLAG_1",
           "package": "bindings-dc1394",
@@ -1046,6 +1140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FORMAT7_ERROR_FLAG_2",
           "package": "bindings-dc1394",
@@ -1055,6 +1150,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FORMAT7_ERROR_FLAG_2",
           "package": "bindings-dc1394",
@@ -1068,6 +1164,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_120",
           "package": "bindings-dc1394",
@@ -1077,6 +1174,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_120",
           "package": "bindings-dc1394",
@@ -1090,6 +1188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_15",
           "package": "bindings-dc1394",
@@ -1099,6 +1198,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_15",
           "package": "bindings-dc1394",
@@ -1112,6 +1212,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_1_875",
           "package": "bindings-dc1394",
@@ -1121,6 +1222,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_1_875",
           "package": "bindings-dc1394",
@@ -1134,6 +1236,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_240",
           "package": "bindings-dc1394",
@@ -1143,6 +1246,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_240",
           "package": "bindings-dc1394",
@@ -1156,6 +1260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_30",
           "package": "bindings-dc1394",
@@ -1165,6 +1270,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_30",
           "package": "bindings-dc1394",
@@ -1178,6 +1284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_3_75",
           "package": "bindings-dc1394",
@@ -1187,6 +1294,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_3_75",
           "package": "bindings-dc1394",
@@ -1200,6 +1308,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_60",
           "package": "bindings-dc1394",
@@ -1209,6 +1318,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_60",
           "package": "bindings-dc1394",
@@ -1222,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_7_5",
           "package": "bindings-dc1394",
@@ -1231,6 +1342,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_7_5",
           "package": "bindings-dc1394",
@@ -1244,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_MAX",
           "package": "bindings-dc1394",
@@ -1253,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_MAX",
           "package": "bindings-dc1394",
@@ -1266,6 +1380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_MIN",
           "package": "bindings-dc1394",
@@ -1275,6 +1390,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FRAMERATE_MIN",
           "package": "bindings-dc1394",
@@ -1288,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FUNCTION_NOT_SUPPORTED",
           "package": "bindings-dc1394",
@@ -1297,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_FUNCTION_NOT_SUPPORTED",
           "package": "bindings-dc1394",
@@ -1310,6 +1428,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_04",
           "package": "bindings-dc1394",
@@ -1319,6 +1438,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_04",
           "package": "bindings-dc1394",
@@ -1332,6 +1452,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_20",
           "package": "bindings-dc1394",
@@ -1341,6 +1462,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_20",
           "package": "bindings-dc1394",
@@ -1354,6 +1476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_30",
           "package": "bindings-dc1394",
@@ -1363,6 +1486,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_30",
           "package": "bindings-dc1394",
@@ -1376,6 +1500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_31",
           "package": "bindings-dc1394",
@@ -1385,6 +1510,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_31",
           "package": "bindings-dc1394",
@@ -1398,6 +1524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_32",
           "package": "bindings-dc1394",
@@ -1407,6 +1534,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_32",
           "package": "bindings-dc1394",
@@ -1420,6 +1548,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_33",
           "package": "bindings-dc1394",
@@ -1429,6 +1558,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_33",
           "package": "bindings-dc1394",
@@ -1442,6 +1572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_34",
           "package": "bindings-dc1394",
@@ -1451,6 +1582,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_34",
           "package": "bindings-dc1394",
@@ -1464,6 +1596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_35",
           "package": "bindings-dc1394",
@@ -1473,6 +1606,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_35",
           "package": "bindings-dc1394",
@@ -1486,6 +1620,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_36",
           "package": "bindings-dc1394",
@@ -1495,6 +1630,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_36",
           "package": "bindings-dc1394",
@@ -1508,6 +1644,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_37",
           "package": "bindings-dc1394",
@@ -1517,6 +1654,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_37",
           "package": "bindings-dc1394",
@@ -1530,6 +1668,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_38",
           "package": "bindings-dc1394",
@@ -1539,6 +1678,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_38",
           "package": "bindings-dc1394",
@@ -1552,6 +1692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_39",
           "package": "bindings-dc1394",
@@ -1561,6 +1702,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_1_39",
           "package": "bindings-dc1394",
@@ -1574,6 +1716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_PTGREY",
           "package": "bindings-dc1394",
@@ -1583,6 +1726,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IIDC_VERSION_PTGREY",
           "package": "bindings-dc1394",
@@ -1596,6 +1740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ARGUMENT_VALUE",
           "package": "bindings-dc1394",
@@ -1605,6 +1750,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ARGUMENT_VALUE",
           "package": "bindings-dc1394",
@@ -1618,6 +1764,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_BAYER_METHOD",
           "package": "bindings-dc1394",
@@ -1627,6 +1774,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_BAYER_METHOD",
           "package": "bindings-dc1394",
@@ -1640,6 +1788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_BYTE_ORDER",
           "package": "bindings-dc1394",
@@ -1649,6 +1798,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_BYTE_ORDER",
           "package": "bindings-dc1394",
@@ -1662,6 +1812,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_CAPTURE_POLICY",
           "package": "bindings-dc1394",
@@ -1671,6 +1822,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_CAPTURE_POLICY",
           "package": "bindings-dc1394",
@@ -1684,6 +1836,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_COLOR_CODING",
           "package": "bindings-dc1394",
@@ -1693,6 +1846,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_COLOR_CODING",
           "package": "bindings-dc1394",
@@ -1706,6 +1860,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_COLOR_FILTER",
           "package": "bindings-dc1394",
@@ -1715,6 +1870,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_COLOR_FILTER",
           "package": "bindings-dc1394",
@@ -1728,6 +1884,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ERROR_CODE",
           "package": "bindings-dc1394",
@@ -1737,6 +1894,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ERROR_CODE",
           "package": "bindings-dc1394",
@@ -1750,6 +1908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FEATURE",
           "package": "bindings-dc1394",
@@ -1759,6 +1918,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FEATURE",
           "package": "bindings-dc1394",
@@ -1772,6 +1932,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FEATURE_MODE",
           "package": "bindings-dc1394",
@@ -1781,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FEATURE_MODE",
           "package": "bindings-dc1394",
@@ -1794,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FRAMERATE",
           "package": "bindings-dc1394",
@@ -1803,6 +1966,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_FRAMERATE",
           "package": "bindings-dc1394",
@@ -1816,6 +1980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_IIDC_VERSION",
           "package": "bindings-dc1394",
@@ -1825,6 +1990,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_IIDC_VERSION",
           "package": "bindings-dc1394",
@@ -1838,6 +2004,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ISO_SPEED",
           "package": "bindings-dc1394",
@@ -1847,6 +2014,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_ISO_SPEED",
           "package": "bindings-dc1394",
@@ -1860,6 +2028,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_LOG_TYPE",
           "package": "bindings-dc1394",
@@ -1869,6 +2038,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_LOG_TYPE",
           "package": "bindings-dc1394",
@@ -1882,6 +2052,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_OPERATION_MODE",
           "package": "bindings-dc1394",
@@ -1891,6 +2062,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_OPERATION_MODE",
           "package": "bindings-dc1394",
@@ -1904,6 +2076,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_STEREO_METHOD",
           "package": "bindings-dc1394",
@@ -1913,6 +2086,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_STEREO_METHOD",
           "package": "bindings-dc1394",
@@ -1926,6 +2100,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_MODE",
           "package": "bindings-dc1394",
@@ -1935,6 +2110,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_MODE",
           "package": "bindings-dc1394",
@@ -1948,6 +2124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_POLARITY",
           "package": "bindings-dc1394",
@@ -1957,6 +2134,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_POLARITY",
           "package": "bindings-dc1394",
@@ -1970,6 +2148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_SOURCE",
           "package": "bindings-dc1394",
@@ -1979,6 +2158,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_TRIGGER_SOURCE",
           "package": "bindings-dc1394",
@@ -1992,6 +2172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO1394_DEVICE",
           "package": "bindings-dc1394",
@@ -2001,6 +2182,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO1394_DEVICE",
           "package": "bindings-dc1394",
@@ -2014,6 +2196,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO_FORMAT",
           "package": "bindings-dc1394",
@@ -2023,6 +2206,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO_FORMAT",
           "package": "bindings-dc1394",
@@ -2036,6 +2220,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO_MODE",
           "package": "bindings-dc1394",
@@ -2045,6 +2230,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_INVALID_VIDEO_MODE",
           "package": "bindings-dc1394",
@@ -2058,6 +2244,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IOCTL_FAILURE",
           "package": "bindings-dc1394",
@@ -2067,6 +2254,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_IOCTL_FAILURE",
           "package": "bindings-dc1394",
@@ -2080,6 +2268,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_100",
           "package": "bindings-dc1394",
@@ -2089,6 +2278,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_100",
           "package": "bindings-dc1394",
@@ -2102,6 +2292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_1600",
           "package": "bindings-dc1394",
@@ -2111,6 +2302,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_1600",
           "package": "bindings-dc1394",
@@ -2124,6 +2316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_200",
           "package": "bindings-dc1394",
@@ -2133,6 +2326,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_200",
           "package": "bindings-dc1394",
@@ -2146,6 +2340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_3200",
           "package": "bindings-dc1394",
@@ -2155,6 +2350,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_3200",
           "package": "bindings-dc1394",
@@ -2168,6 +2364,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_400",
           "package": "bindings-dc1394",
@@ -2177,6 +2374,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_400",
           "package": "bindings-dc1394",
@@ -2190,6 +2388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_800",
           "package": "bindings-dc1394",
@@ -2199,6 +2398,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_800",
           "package": "bindings-dc1394",
@@ -2212,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_MAX",
           "package": "bindings-dc1394",
@@ -2221,6 +2422,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_MAX",
           "package": "bindings-dc1394",
@@ -2234,6 +2436,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_MIN",
           "package": "bindings-dc1394",
@@ -2243,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_MIN",
           "package": "bindings-dc1394",
@@ -2256,6 +2460,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_NUM",
           "package": "bindings-dc1394",
@@ -2265,6 +2470,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ISO_SPEED_NUM",
           "package": "bindings-dc1394",
@@ -2278,6 +2484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_MEMORY_ALLOCATION_FAILURE",
           "package": "bindings-dc1394",
@@ -2287,6 +2494,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_MEMORY_ALLOCATION_FAILURE",
           "package": "bindings-dc1394",
@@ -2300,6 +2508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NOT_A_CAMERA",
           "package": "bindings-dc1394",
@@ -2309,6 +2518,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NOT_A_CAMERA",
           "package": "bindings-dc1394",
@@ -2322,6 +2532,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NO_BANDWIDTH",
           "package": "bindings-dc1394",
@@ -2331,6 +2542,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NO_BANDWIDTH",
           "package": "bindings-dc1394",
@@ -2344,6 +2556,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NO_ISO_CHANNEL",
           "package": "bindings-dc1394",
@@ -2353,6 +2566,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_NO_ISO_CHANNEL",
           "package": "bindings-dc1394",
@@ -2366,6 +2580,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_OFF",
           "package": "bindings-dc1394",
@@ -2375,6 +2590,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_OFF",
           "package": "bindings-dc1394",
@@ -2388,6 +2604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ON",
           "package": "bindings-dc1394",
@@ -2397,6 +2614,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_ON",
           "package": "bindings-dc1394",
@@ -2410,6 +2628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_RAW1394_FAILURE",
           "package": "bindings-dc1394",
@@ -2419,6 +2638,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_RAW1394_FAILURE",
           "package": "bindings-dc1394",
@@ -2432,6 +2652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_REQ_VALUE_OUTSIDE_RANGE",
           "package": "bindings-dc1394",
@@ -2441,6 +2662,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_REQ_VALUE_OUTSIDE_RANGE",
           "package": "bindings-dc1394",
@@ -2454,6 +2676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_SUCCESS",
           "package": "bindings-dc1394",
@@ -2463,6 +2686,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_SUCCESS",
           "package": "bindings-dc1394",
@@ -2476,6 +2700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_TAGGED_REGISTER_NOT_FOUND",
           "package": "bindings-dc1394",
@@ -2485,6 +2710,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_TAGGED_REGISTER_NOT_FOUND",
           "package": "bindings-dc1394",
@@ -2498,6 +2724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_MONO16",
           "package": "bindings-dc1394",
@@ -2507,6 +2734,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_MONO16",
           "package": "bindings-dc1394",
@@ -2520,6 +2748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_MONO8",
           "package": "bindings-dc1394",
@@ -2529,6 +2758,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_MONO8",
           "package": "bindings-dc1394",
@@ -2542,6 +2772,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_RGB8",
           "package": "bindings-dc1394",
@@ -2551,6 +2782,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_RGB8",
           "package": "bindings-dc1394",
@@ -2564,6 +2796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_YUV422",
           "package": "bindings-dc1394",
@@ -2573,6 +2806,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1024x768_YUV422",
           "package": "bindings-dc1394",
@@ -2586,6 +2820,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_MONO16",
           "package": "bindings-dc1394",
@@ -2595,6 +2830,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_MONO16",
           "package": "bindings-dc1394",
@@ -2608,6 +2844,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_MONO8",
           "package": "bindings-dc1394",
@@ -2617,6 +2854,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_MONO8",
           "package": "bindings-dc1394",
@@ -2630,6 +2868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_RGB8",
           "package": "bindings-dc1394",
@@ -2639,6 +2878,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_RGB8",
           "package": "bindings-dc1394",
@@ -2652,6 +2892,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_YUV422",
           "package": "bindings-dc1394",
@@ -2661,6 +2902,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1280x960_YUV422",
           "package": "bindings-dc1394",
@@ -2674,6 +2916,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_MONO16",
           "package": "bindings-dc1394",
@@ -2683,6 +2926,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_MONO16",
           "package": "bindings-dc1394",
@@ -2696,6 +2940,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_MONO8",
           "package": "bindings-dc1394",
@@ -2705,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_MONO8",
           "package": "bindings-dc1394",
@@ -2718,6 +2964,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_RGB8",
           "package": "bindings-dc1394",
@@ -2727,6 +2974,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_RGB8",
           "package": "bindings-dc1394",
@@ -2740,6 +2988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_YUV422",
           "package": "bindings-dc1394",
@@ -2749,6 +2998,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_1600x1200_YUV422",
           "package": "bindings-dc1394",
@@ -2762,6 +3012,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_160x120_YUV444",
           "package": "bindings-dc1394",
@@ -2771,6 +3022,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_160x120_YUV444",
           "package": "bindings-dc1394",
@@ -2784,6 +3036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_320x240_YUV422",
           "package": "bindings-dc1394",
@@ -2793,6 +3046,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_320x240_YUV422",
           "package": "bindings-dc1394",
@@ -2806,6 +3060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_MONO16",
           "package": "bindings-dc1394",
@@ -2815,6 +3070,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_MONO16",
           "package": "bindings-dc1394",
@@ -2828,6 +3084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_MONO8",
           "package": "bindings-dc1394",
@@ -2837,6 +3094,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_MONO8",
           "package": "bindings-dc1394",
@@ -2850,6 +3108,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_RGB8",
           "package": "bindings-dc1394",
@@ -2859,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_RGB8",
           "package": "bindings-dc1394",
@@ -2872,6 +3132,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_YUV411",
           "package": "bindings-dc1394",
@@ -2881,6 +3142,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_YUV411",
           "package": "bindings-dc1394",
@@ -2894,6 +3156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_YUV422",
           "package": "bindings-dc1394",
@@ -2903,6 +3166,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_640x480_YUV422",
           "package": "bindings-dc1394",
@@ -2916,6 +3180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_MONO16",
           "package": "bindings-dc1394",
@@ -2925,6 +3190,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_MONO16",
           "package": "bindings-dc1394",
@@ -2938,6 +3204,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_MONO8",
           "package": "bindings-dc1394",
@@ -2947,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_MONO8",
           "package": "bindings-dc1394",
@@ -2960,6 +3228,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_RGB8",
           "package": "bindings-dc1394",
@@ -2969,6 +3238,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_RGB8",
           "package": "bindings-dc1394",
@@ -2982,6 +3252,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_YUV422",
           "package": "bindings-dc1394",
@@ -2991,6 +3262,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_800x600_YUV422",
           "package": "bindings-dc1394",
@@ -3004,6 +3276,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_EXIF",
           "package": "bindings-dc1394",
@@ -3013,6 +3286,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_EXIF",
           "package": "bindings-dc1394",
@@ -3026,6 +3300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_0",
           "package": "bindings-dc1394",
@@ -3035,6 +3310,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_0",
           "package": "bindings-dc1394",
@@ -3048,6 +3324,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_1",
           "package": "bindings-dc1394",
@@ -3057,6 +3334,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_1",
           "package": "bindings-dc1394",
@@ -3070,6 +3348,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_2",
           "package": "bindings-dc1394",
@@ -3079,6 +3358,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_2",
           "package": "bindings-dc1394",
@@ -3092,6 +3372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_3",
           "package": "bindings-dc1394",
@@ -3101,6 +3382,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_3",
           "package": "bindings-dc1394",
@@ -3114,6 +3396,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_4",
           "package": "bindings-dc1394",
@@ -3123,6 +3406,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_4",
           "package": "bindings-dc1394",
@@ -3136,6 +3420,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_5",
           "package": "bindings-dc1394",
@@ -3145,6 +3430,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_5",
           "package": "bindings-dc1394",
@@ -3158,6 +3444,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_6",
           "package": "bindings-dc1394",
@@ -3167,6 +3454,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_6",
           "package": "bindings-dc1394",
@@ -3180,6 +3468,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_7",
           "package": "bindings-dc1394",
@@ -3189,6 +3478,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'DC1394_VIDEO_MODE_FORMAT7_7",
           "package": "bindings-dc1394",
@@ -3202,6 +3492,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_enumerate",
           "package": "bindings-dc1394",
@@ -3211,6 +3502,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_enumerate",
           "normalized": "Ptr C'dc a-\u003ePtr(Ptr C'dc b)-\u003eIO CInt",
@@ -3225,6 +3517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_free",
           "package": "bindings-dc1394",
@@ -3234,6 +3527,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_free",
           "normalized": "Ptr C'dc a-\u003eIO()",
@@ -3248,6 +3542,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_free_list",
           "package": "bindings-dc1394",
@@ -3257,6 +3552,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_free_list",
           "normalized": "Ptr C'dc a-\u003eIO()",
@@ -3271,6 +3567,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_new",
           "package": "bindings-dc1394",
@@ -3280,6 +3577,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_camera_new",
           "normalized": "Ptr C'dc a-\u003eWord-\u003eIO(Ptr C'dc b)",
@@ -3294,6 +3592,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_dequeue",
           "package": "bindings-dc1394",
@@ -3303,6 +3602,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_dequeue",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003ePtr(Ptr C'dc b)-\u003eIO CInt",
@@ -3317,6 +3617,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_enqueue",
           "package": "bindings-dc1394",
@@ -3326,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_enqueue",
           "normalized": "Ptr C'dc a-\u003ePtr C'dc b-\u003eIO CInt",
@@ -3340,6 +3642,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_is_frame_corrupt",
           "package": "bindings-dc1394",
@@ -3349,6 +3652,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_is_frame_corrupt",
           "normalized": "Ptr C'dc a-\u003ePtr C'dc b-\u003eIO CInt",
@@ -3363,6 +3667,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_setup",
           "package": "bindings-dc1394",
@@ -3372,6 +3677,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_setup",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003eCInt-\u003eIO CInt",
@@ -3386,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_stop",
           "package": "bindings-dc1394",
@@ -3395,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_capture_stop",
           "normalized": "Ptr C'dc a-\u003eIO CInt",
@@ -3409,6 +3717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_free",
           "package": "bindings-dc1394",
@@ -3418,6 +3727,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_free",
           "normalized": "Ptr C'dc a-\u003eIO()",
@@ -3432,6 +3742,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_get_image_size_from_video_mode",
           "package": "bindings-dc1394",
@@ -3441,6 +3752,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_get_image_size_from_video_mode",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt",
@@ -3455,6 +3767,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_new",
           "package": "bindings-dc1394",
@@ -3464,6 +3777,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_new",
           "package": "bindings-dc1394",
@@ -3476,6 +3790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_get_mode",
           "package": "bindings-dc1394",
@@ -3485,6 +3800,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_get_mode",
           "normalized": "Ptr C'dc a-\u003ePtr CInt-\u003eIO CInt",
@@ -3499,6 +3815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_framerate",
           "package": "bindings-dc1394",
@@ -3508,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_framerate",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003eIO CInt",
@@ -3522,6 +3840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_iso_speed",
           "package": "bindings-dc1394",
@@ -3531,6 +3850,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_iso_speed",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003eIO CInt",
@@ -3545,6 +3865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_mode",
           "package": "bindings-dc1394",
@@ -3554,6 +3875,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_mode",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003eIO CInt",
@@ -3568,6 +3890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_transmission",
           "package": "bindings-dc1394",
@@ -3577,6 +3900,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394_video_set_transmission",
           "normalized": "Ptr C'dc a-\u003eCInt-\u003eIO CInt",
@@ -3591,6 +3915,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_id_t'guid",
           "package": "bindings-dc1394",
@@ -3600,6 +3925,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_id_t'guid",
           "package": "bindings-dc1394",
@@ -3612,6 +3938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_id_t'unit",
           "package": "bindings-dc1394",
@@ -3621,6 +3948,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_id_t'unit",
           "package": "bindings-dc1394",
@@ -3633,6 +3961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_list_t'ids",
           "package": "bindings-dc1394",
@@ -3642,6 +3971,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_list_t'ids",
           "package": "bindings-dc1394",
@@ -3654,6 +3984,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_list_t'num",
           "package": "bindings-dc1394",
@@ -3663,6 +3994,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_list_t'num",
           "package": "bindings-dc1394",
@@ -3675,6 +4007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'PIO_control_csr",
           "package": "bindings-dc1394",
@@ -3684,6 +4017,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'PIO_control_csr",
           "package": "bindings-dc1394",
@@ -3697,6 +4031,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'SIO_control_csr",
           "package": "bindings-dc1394",
@@ -3706,6 +4041,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'SIO_control_csr",
           "package": "bindings-dc1394",
@@ -3719,6 +4055,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'advanced_features_csr",
           "package": "bindings-dc1394",
@@ -3728,6 +4065,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'advanced_features_csr",
           "package": "bindings-dc1394",
@@ -3740,6 +4078,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'bmode_capable",
           "package": "bindings-dc1394",
@@ -3749,6 +4088,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'bmode_capable",
           "package": "bindings-dc1394",
@@ -3761,6 +4101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'can_switch_on_off",
           "package": "bindings-dc1394",
@@ -3770,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'can_switch_on_off",
           "package": "bindings-dc1394",
@@ -3782,6 +4124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'command_registers_base",
           "package": "bindings-dc1394",
@@ -3791,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'command_registers_base",
           "package": "bindings-dc1394",
@@ -3803,6 +4147,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'flags",
           "package": "bindings-dc1394",
@@ -3812,6 +4157,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'flags",
           "package": "bindings-dc1394",
@@ -3824,6 +4170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'format7_csr_DC1394_VIDEO_MODE_FORMAT7_NUM_",
           "package": "bindings-dc1394",
@@ -3833,6 +4180,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'format7_csr_DC1394_VIDEO_MODE_FORMAT7_NUM_",
           "package": "bindings-dc1394",
@@ -3846,6 +4194,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'guid",
           "package": "bindings-dc1394",
@@ -3855,6 +4204,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'guid",
           "package": "bindings-dc1394",
@@ -3867,6 +4217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'has_feature_error_status",
           "package": "bindings-dc1394",
@@ -3876,6 +4227,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'has_feature_error_status",
           "package": "bindings-dc1394",
@@ -3888,6 +4240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'has_vmode_error_status",
           "package": "bindings-dc1394",
@@ -3897,6 +4250,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'has_vmode_error_status",
           "package": "bindings-dc1394",
@@ -3909,6 +4263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'iidc_version",
           "package": "bindings-dc1394",
@@ -3918,6 +4273,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'iidc_version",
           "package": "bindings-dc1394",
@@ -3930,6 +4286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'max_mem_channel",
           "package": "bindings-dc1394",
@@ -3939,6 +4296,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'max_mem_channel",
           "package": "bindings-dc1394",
@@ -3951,6 +4309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'model",
           "package": "bindings-dc1394",
@@ -3960,6 +4319,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'model",
           "package": "bindings-dc1394",
@@ -3972,6 +4332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'model_id",
           "package": "bindings-dc1394",
@@ -3981,6 +4342,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'model_id",
           "package": "bindings-dc1394",
@@ -3993,6 +4355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'multi_shot_capable",
           "package": "bindings-dc1394",
@@ -4002,6 +4365,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'multi_shot_capable",
           "package": "bindings-dc1394",
@@ -4014,6 +4378,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'one_shot_capable",
           "package": "bindings-dc1394",
@@ -4023,6 +4388,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'one_shot_capable",
           "package": "bindings-dc1394",
@@ -4035,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'strobe_control_csr",
           "package": "bindings-dc1394",
@@ -4044,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'strobe_control_csr",
           "package": "bindings-dc1394",
@@ -4056,6 +4424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit",
           "package": "bindings-dc1394",
@@ -4065,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit",
           "package": "bindings-dc1394",
@@ -4077,6 +4447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_dependent_directory",
           "package": "bindings-dc1394",
@@ -4086,6 +4457,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_dependent_directory",
           "package": "bindings-dc1394",
@@ -4098,6 +4470,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_directory",
           "package": "bindings-dc1394",
@@ -4107,6 +4480,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_directory",
           "package": "bindings-dc1394",
@@ -4119,6 +4493,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_spec_ID",
           "package": "bindings-dc1394",
@@ -4128,6 +4503,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_spec_ID",
           "package": "bindings-dc1394",
@@ -4141,6 +4517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_sub_sw_version",
           "package": "bindings-dc1394",
@@ -4150,6 +4527,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_sub_sw_version",
           "package": "bindings-dc1394",
@@ -4162,6 +4540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_sw_version",
           "package": "bindings-dc1394",
@@ -4171,6 +4550,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'unit_sw_version",
           "package": "bindings-dc1394",
@@ -4183,6 +4563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'vendor",
           "package": "bindings-dc1394",
@@ -4192,6 +4573,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'vendor",
           "package": "bindings-dc1394",
@@ -4204,6 +4586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'vendor_id",
           "package": "bindings-dc1394",
@@ -4213,6 +4596,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394camera_t'vendor_id",
           "package": "bindings-dc1394",
@@ -4225,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'allocated_image_bytes",
           "package": "bindings-dc1394",
@@ -4234,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'allocated_image_bytes",
           "package": "bindings-dc1394",
@@ -4246,6 +4632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'camera",
           "package": "bindings-dc1394",
@@ -4255,6 +4642,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'camera",
           "package": "bindings-dc1394",
@@ -4267,6 +4655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'color_coding",
           "package": "bindings-dc1394",
@@ -4276,6 +4665,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'color_coding",
           "package": "bindings-dc1394",
@@ -4288,6 +4678,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'color_filter",
           "package": "bindings-dc1394",
@@ -4297,6 +4688,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'color_filter",
           "package": "bindings-dc1394",
@@ -4309,6 +4701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'data_depth",
           "package": "bindings-dc1394",
@@ -4318,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'data_depth",
           "package": "bindings-dc1394",
@@ -4330,6 +4724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'data_in_padding",
           "package": "bindings-dc1394",
@@ -4339,6 +4734,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'data_in_padding",
           "package": "bindings-dc1394",
@@ -4351,6 +4747,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'frames_behind",
           "package": "bindings-dc1394",
@@ -4360,6 +4757,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'frames_behind",
           "package": "bindings-dc1394",
@@ -4372,6 +4770,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'id",
           "package": "bindings-dc1394",
@@ -4381,6 +4780,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'id",
           "package": "bindings-dc1394",
@@ -4393,6 +4793,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'image",
           "package": "bindings-dc1394",
@@ -4402,6 +4803,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'image",
           "package": "bindings-dc1394",
@@ -4414,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'image_bytes",
           "package": "bindings-dc1394",
@@ -4423,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'image_bytes",
           "package": "bindings-dc1394",
@@ -4435,6 +4839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'little_endian",
           "package": "bindings-dc1394",
@@ -4444,6 +4849,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'little_endian",
           "package": "bindings-dc1394",
@@ -4456,6 +4862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'packet_size",
           "package": "bindings-dc1394",
@@ -4465,6 +4872,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'packet_size",
           "package": "bindings-dc1394",
@@ -4477,6 +4885,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'packets_per_frame",
           "package": "bindings-dc1394",
@@ -4486,6 +4895,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'packets_per_frame",
           "package": "bindings-dc1394",
@@ -4498,6 +4908,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'padding_bytes",
           "package": "bindings-dc1394",
@@ -4507,6 +4918,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'padding_bytes",
           "package": "bindings-dc1394",
@@ -4519,6 +4931,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'position",
           "package": "bindings-dc1394",
@@ -4528,6 +4941,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'position",
           "package": "bindings-dc1394",
@@ -4540,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'size",
           "package": "bindings-dc1394",
@@ -4549,6 +4964,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'size",
           "package": "bindings-dc1394",
@@ -4561,6 +4977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'stride",
           "package": "bindings-dc1394",
@@ -4570,6 +4987,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'stride",
           "package": "bindings-dc1394",
@@ -4582,6 +5000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'timestamp",
           "package": "bindings-dc1394",
@@ -4591,6 +5010,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'timestamp",
           "package": "bindings-dc1394",
@@ -4603,6 +5023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'total_bytes",
           "package": "bindings-dc1394",
@@ -4612,6 +5033,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'total_bytes",
           "package": "bindings-dc1394",
@@ -4624,6 +5046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'video_mode",
           "package": "bindings-dc1394",
@@ -4633,6 +5056,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'video_mode",
           "package": "bindings-dc1394",
@@ -4645,6 +5069,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'yuv_byte_order",
           "package": "bindings-dc1394",
@@ -4654,6 +5079,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'dc1394video_frame_t'yuv_byte_order",
           "package": "bindings-dc1394",
@@ -4666,6 +5092,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "c'memcpy",
           "package": "bindings-dc1394",
@@ -4675,6 +5102,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "c'memcpy",
           "normalized": "Ptr()-\u003ePtr()-\u003eWord-\u003eIO()",
@@ -4689,6 +5117,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_enumerate",
           "package": "bindings-dc1394",
@@ -4698,6 +5127,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_enumerate",
           "normalized": "FunPtr(Ptr C'dc a-\u003ePtr(Ptr C'dc b)-\u003eIO CInt)",
@@ -4712,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_free",
           "package": "bindings-dc1394",
@@ -4721,6 +5152,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_free",
           "normalized": "FunPtr(Ptr C'dc a-\u003eIO())",
@@ -4735,6 +5167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_free_list",
           "package": "bindings-dc1394",
@@ -4744,6 +5177,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_free_list",
           "normalized": "FunPtr(Ptr C'dc a-\u003eIO())",
@@ -4758,6 +5192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_new",
           "package": "bindings-dc1394",
@@ -4767,6 +5202,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_camera_new",
           "normalized": "FunPtr(Ptr C'dc a-\u003eWord-\u003eIO(Ptr C'dc b))",
@@ -4781,6 +5217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_dequeue",
           "package": "bindings-dc1394",
@@ -4790,6 +5227,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_dequeue",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003ePtr(Ptr C'dc b)-\u003eIO CInt)",
@@ -4804,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_enqueue",
           "package": "bindings-dc1394",
@@ -4813,6 +5252,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_enqueue",
           "normalized": "FunPtr(Ptr C'dc a-\u003ePtr C'dc b-\u003eIO CInt)",
@@ -4827,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_is_frame_corrupt",
           "package": "bindings-dc1394",
@@ -4836,6 +5277,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_is_frame_corrupt",
           "normalized": "FunPtr(Ptr C'dc a-\u003ePtr C'dc b-\u003eIO CInt)",
@@ -4850,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_setup",
           "package": "bindings-dc1394",
@@ -4859,6 +5302,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_setup",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003eCInt-\u003eIO CInt)",
@@ -4873,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_stop",
           "package": "bindings-dc1394",
@@ -4882,6 +5327,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_capture_stop",
           "normalized": "FunPtr(Ptr C'dc a-\u003eIO CInt)",
@@ -4896,6 +5342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_free",
           "package": "bindings-dc1394",
@@ -4905,6 +5352,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_free",
           "normalized": "FunPtr(Ptr C'dc a-\u003eIO())",
@@ -4919,6 +5367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_get_image_size_from_video_mode",
           "package": "bindings-dc1394",
@@ -4928,6 +5377,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_get_image_size_from_video_mode",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003ePtr Word-\u003ePtr Word-\u003eIO CInt)",
@@ -4942,6 +5392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_new",
           "package": "bindings-dc1394",
@@ -4951,6 +5402,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_new",
           "package": "bindings-dc1394",
@@ -4963,6 +5415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_get_mode",
           "package": "bindings-dc1394",
@@ -4972,6 +5425,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_get_mode",
           "normalized": "FunPtr(Ptr C'dc a-\u003ePtr CInt-\u003eIO CInt)",
@@ -4986,6 +5440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_framerate",
           "package": "bindings-dc1394",
@@ -4995,6 +5450,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_framerate",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003eIO CInt)",
@@ -5009,6 +5465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_iso_speed",
           "package": "bindings-dc1394",
@@ -5018,6 +5475,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_iso_speed",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003eIO CInt)",
@@ -5032,6 +5490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_mode",
           "package": "bindings-dc1394",
@@ -5041,6 +5500,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_mode",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003eIO CInt)",
@@ -5055,6 +5515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_transmission",
           "package": "bindings-dc1394",
@@ -5064,6 +5525,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'dc1394_video_set_transmission",
           "normalized": "FunPtr(Ptr C'dc a-\u003eCInt-\u003eIO CInt)",
@@ -5078,6 +5540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:20:00 UTC 2014",
           "module": "Bindings.DC1394",
           "name": "p'memcpy",
           "package": "bindings-dc1394",
@@ -5087,6 +5550,7 @@
         },
         "index": {
           "hierarchy": "Bindings DC1394",
+          "indexed": "2014-03-11T17:20:00",
           "module": "Bindings.DC1394",
           "name": "p'memcpy",
           "normalized": "FunPtr(Ptr()-\u003ePtr()-\u003eWord-\u003eIO())",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "yesod-routes"
+        "phrase": "yesod-routes",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "Class",
           "package": "yesod-routes",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "Class",
           "package": "yesod-routes",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "ParseRoute",
           "package": "yesod-routes",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "ParseRoute",
           "package": "yesod-routes",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "RenderRoute",
           "package": "yesod-routes",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "RenderRoute",
           "package": "yesod-routes",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "RouteAttrs",
           "package": "yesod-routes",
@@ -89,6 +96,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "RouteAttrs",
           "package": "yesod-routes",
@@ -102,6 +110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "parseRoute",
           "package": "yesod-routes",
@@ -111,6 +120,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "parseRoute",
           "normalized": "([Text],[(Text,Text)])-\u003eMaybe(Route a)",
@@ -126,6 +136,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "renderRoute",
           "package": "yesod-routes",
@@ -135,6 +146,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "renderRoute",
           "normalized": "Route a-\u003e([Text],[(Text,Text)])",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Class",
           "name": "routeAttrs",
           "package": "yesod-routes",
@@ -159,6 +172,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Class",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Class",
           "name": "routeAttrs",
           "normalized": "Route a-\u003eSet Text",
@@ -174,6 +188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -182,6 +197,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -195,6 +211,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -203,6 +220,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -216,6 +234,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Piece",
           "package": "yesod-routes",
@@ -224,6 +243,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Piece",
           "package": "yesod-routes",
@@ -237,6 +257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Route",
           "package": "yesod-routes",
@@ -245,6 +266,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Route",
           "package": "yesod-routes",
@@ -258,6 +280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dynamic",
           "package": "yesod-routes",
@@ -267,6 +290,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Dynamic",
           "package": "yesod-routes",
@@ -280,6 +304,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Route",
           "package": "yesod-routes",
@@ -289,6 +314,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Route",
           "package": "yesod-routes",
@@ -302,6 +328,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "Static",
           "package": "yesod-routes",
@@ -311,6 +338,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "Static",
           "package": "yesod-routes",
@@ -324,6 +352,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhDispatch",
           "package": "yesod-routes",
@@ -333,6 +362,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhDispatch",
           "package": "yesod-routes",
@@ -346,6 +376,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhHasMulti",
           "package": "yesod-routes",
@@ -355,6 +386,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhHasMulti",
           "package": "yesod-routes",
@@ -368,6 +400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhPieces",
           "package": "yesod-routes",
@@ -377,6 +410,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "rhPieces",
           "normalized": "[Piece]",
@@ -392,6 +426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Dispatch",
           "name": "toDispatch",
           "package": "yesod-routes",
@@ -401,6 +436,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Dispatch",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Dispatch",
           "name": "toDispatch",
           "normalized": "[Route a]-\u003eDispatch a",
@@ -417,6 +453,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eCheck for overlapping routes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -426,6 +463,7 @@
         "index": {
           "description": "Check for overlapping routes",
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -439,6 +477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -447,6 +486,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -460,6 +500,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -469,6 +510,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "Overlap",
           "package": "yesod-routes",
@@ -482,6 +524,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "findOverlapNames",
           "package": "yesod-routes",
@@ -491,6 +534,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "findOverlapNames",
           "normalized": "[ResourceTree a]-\u003e[(String,String)]",
@@ -507,6 +551,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: This function is no longer used\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "findOverlaps",
           "package": "yesod-routes",
@@ -517,6 +562,7 @@
         "index": {
           "description": "Deprecated This function is no longer used",
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "findOverlaps",
           "normalized": "([String]-\u003e[String])-\u003e[ResourceTree a]-\u003e[Overlap a]",
@@ -532,6 +578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "overlap1",
           "package": "yesod-routes",
@@ -541,6 +588,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "overlap1",
           "package": "yesod-routes",
@@ -553,6 +601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "overlap2",
           "package": "yesod-routes",
@@ -562,6 +611,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "overlap2",
           "package": "yesod-routes",
@@ -575,6 +625,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eparent resource trees\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Overlap",
           "name": "overlapParents",
           "package": "yesod-routes",
@@ -585,6 +636,7 @@
         "index": {
           "description": "parent resource trees",
           "hierarchy": "Yesod Routes Overlap",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Overlap",
           "name": "overlapParents",
           "normalized": "[String]-\u003e[String]",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "Parse",
           "package": "yesod-routes",
@@ -608,6 +661,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "Parse",
           "package": "yesod-routes",
@@ -621,6 +675,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "TypeTree",
           "package": "yesod-routes",
@@ -629,6 +684,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "TypeTree",
           "package": "yesod-routes",
@@ -642,6 +698,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "TTApp",
           "package": "yesod-routes",
@@ -651,6 +708,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "TTApp",
           "package": "yesod-routes",
@@ -664,6 +722,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "TTList",
           "package": "yesod-routes",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "TTList",
           "package": "yesod-routes",
@@ -686,6 +746,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "TTTerm",
           "package": "yesod-routes",
@@ -695,6 +756,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "TTTerm",
           "package": "yesod-routes",
@@ -709,6 +771,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA quasi-quoter to parse a string into a list of \u003ccode\u003e\u003ca\u003eResource\u003c/a\u003e\u003c/code\u003es. Checks for\n overlapping routes, failing if present; use \u003ccode\u003e\u003ca\u003eparseRoutesNoCheck\u003c/a\u003e\u003c/code\u003e to skip the\n checking. See documentation site for details on syntax.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutes",
           "package": "yesod-routes",
@@ -719,6 +782,7 @@
         "index": {
           "description": "quasi-quoter to parse string into list of Resource Checks for overlapping routes failing if present use parseRoutesNoCheck to skip the checking See documentation site for details on syntax",
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutes",
           "package": "yesod-routes",
@@ -732,6 +796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesFile",
           "package": "yesod-routes",
@@ -741,6 +806,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesFile",
           "normalized": "FilePath-\u003eQ Exp",
@@ -756,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesFileNoCheck",
           "package": "yesod-routes",
@@ -765,6 +832,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesFileNoCheck",
           "normalized": "FilePath-\u003eQ Exp",
@@ -781,6 +849,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003eparseRoutes\u003c/a\u003e\u003c/code\u003e, but performs no overlap checking.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesNoCheck",
           "package": "yesod-routes",
@@ -791,6 +860,7 @@
         "index": {
           "description": "Same as parseRoutes but performs no overlap checking",
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseRoutesNoCheck",
           "package": "yesod-routes",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseType",
           "package": "yesod-routes",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseType",
           "normalized": "String-\u003eType",
@@ -828,6 +900,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.Parse",
           "name": "parseTypeTree",
           "package": "yesod-routes",
@@ -837,6 +910,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes Parse",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.Parse",
           "name": "parseTypeTree",
           "normalized": "String-\u003eMaybe TypeTree",
@@ -852,6 +926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "TH",
           "package": "yesod-routes",
@@ -860,6 +935,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "TH",
           "package": "yesod-routes",
@@ -873,6 +949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "CheckOverlap",
           "package": "yesod-routes",
@@ -881,6 +958,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "CheckOverlap",
           "package": "yesod-routes",
@@ -894,6 +972,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -902,6 +981,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Dispatch",
           "package": "yesod-routes",
@@ -915,6 +995,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "FlatResource",
           "package": "yesod-routes",
@@ -923,6 +1004,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "FlatResource",
           "package": "yesod-routes",
@@ -936,6 +1018,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "MkDispatchSettings",
           "package": "yesod-routes",
@@ -944,6 +1027,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "MkDispatchSettings",
           "package": "yesod-routes",
@@ -957,6 +1041,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Piece",
           "package": "yesod-routes",
@@ -965,6 +1050,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Piece",
           "package": "yesod-routes",
@@ -978,6 +1064,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Resource",
           "package": "yesod-routes",
@@ -986,6 +1073,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Resource",
           "package": "yesod-routes",
@@ -999,6 +1087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "ResourceTree",
           "package": "yesod-routes",
@@ -1007,6 +1096,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "ResourceTree",
           "package": "yesod-routes",
@@ -1020,6 +1110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Dynamic",
           "package": "yesod-routes",
@@ -1029,6 +1120,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Dynamic",
           "package": "yesod-routes",
@@ -1042,6 +1134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "FlatResource",
           "package": "yesod-routes",
@@ -1051,6 +1144,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "FlatResource",
           "normalized": "FlatResource[(String,[(CheckOverlap,Piece a)])]String[(CheckOverlap,Piece a)](Dispatch a)",
@@ -1066,6 +1160,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Methods",
           "package": "yesod-routes",
@@ -1075,6 +1170,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Methods",
           "package": "yesod-routes",
@@ -1088,6 +1184,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "MkDispatchSettings",
           "package": "yesod-routes",
@@ -1097,6 +1194,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "MkDispatchSettings",
           "package": "yesod-routes",
@@ -1110,6 +1208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Resource",
           "package": "yesod-routes",
@@ -1119,6 +1218,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Resource",
           "package": "yesod-routes",
@@ -1132,6 +1232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "ResourceLeaf",
           "package": "yesod-routes",
@@ -1141,6 +1242,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "ResourceLeaf",
           "package": "yesod-routes",
@@ -1154,6 +1256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "ResourceParent",
           "package": "yesod-routes",
@@ -1163,6 +1266,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "ResourceParent",
           "normalized": "ResourceParent String[(CheckOverlap,Piece a)][ResourceTree a]",
@@ -1178,6 +1282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Static",
           "package": "yesod-routes",
@@ -1187,6 +1292,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Static",
           "package": "yesod-routes",
@@ -1200,6 +1306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "Subsite",
           "package": "yesod-routes",
@@ -1209,6 +1316,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "Subsite",
           "package": "yesod-routes",
@@ -1222,6 +1330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "defaultGetHandler",
           "package": "yesod-routes",
@@ -1231,6 +1340,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "defaultGetHandler",
           "normalized": "Maybe String-\u003eString-\u003eQ Exp",
@@ -1246,6 +1356,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "flatten",
           "package": "yesod-routes",
@@ -1255,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "flatten",
           "normalized": "[ResourceTree a]-\u003e[FlatResource a]",
@@ -1269,6 +1381,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mds404",
           "package": "yesod-routes",
@@ -1278,6 +1391,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mds404",
           "package": "yesod-routes",
@@ -1290,6 +1404,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mds405",
           "package": "yesod-routes",
@@ -1299,6 +1414,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mds405",
           "package": "yesod-routes",
@@ -1311,6 +1427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsGetHandler",
           "package": "yesod-routes",
@@ -1320,6 +1437,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsGetHandler",
           "normalized": "Maybe String-\u003eString-\u003eQ Exp",
@@ -1335,6 +1453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsGetPathInfo",
           "package": "yesod-routes",
@@ -1344,6 +1463,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsGetPathInfo",
           "package": "yesod-routes",
@@ -1357,6 +1477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsMethod",
           "package": "yesod-routes",
@@ -1366,6 +1487,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsMethod",
           "package": "yesod-routes",
@@ -1379,6 +1501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsRunHandler",
           "package": "yesod-routes",
@@ -1388,6 +1511,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsRunHandler",
           "package": "yesod-routes",
@@ -1401,6 +1525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsSetPathInfo",
           "package": "yesod-routes",
@@ -1410,6 +1535,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsSetPathInfo",
           "package": "yesod-routes",
@@ -1423,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mdsSubDispatcher",
           "package": "yesod-routes",
@@ -1432,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mdsSubDispatcher",
           "package": "yesod-routes",
@@ -1446,6 +1574,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003esupported request methods\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "methodsMethods",
           "package": "yesod-routes",
@@ -1456,6 +1585,7 @@
         "index": {
           "description": "supported request methods",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "methodsMethods",
           "normalized": "[String]",
@@ -1472,6 +1602,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003etype of the multi piece at the end\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "methodsMulti",
           "package": "yesod-routes",
@@ -1482,6 +1613,7 @@
         "index": {
           "description": "type of the multi piece at the end",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "methodsMulti",
           "package": "yesod-routes",
@@ -1496,6 +1628,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function will generate a single clause that will address all\n your routing needs. It takes four arguments. The fourth (a list of\n \u003ccode\u003e\u003ca\u003eResource\u003c/a\u003e\u003c/code\u003es) is self-explanatory. We'll discuss the first\n three. But first, let's cover the terminology.\n\u003c/p\u003e\u003cp\u003eDispatching involves a master type and a sub type. When you dispatch to the\n top level type, master and sub are the same. Each time to dispatch to\n another subsite, the sub changes. This requires two changes:\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Getting the new sub value. This is handled via \u003ccode\u003e\u003ca\u003esubsiteFunc\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e Figure out a way to convert sub routes to the original master route. To\n address this, we keep a toMaster function, and each time we dispatch to a\n new subsite, we compose it with the constructor for that subsite.\n\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDispatching acts on two different components: the request method and a list\n of path pieces. If we cannot match the path pieces, we need to return a 404\n response. If the path pieces match, but the method is not supported, we need\n to return a 405 response.\n\u003c/p\u003e\u003cp\u003eThe final result of dispatch is going to be an application type. A simple\n example would be the WAI Application type. However, our handler functions\n will need more input: the master/subsite, the toMaster function, and the\n type-safe route. Therefore, we need to have another type, the handler type,\n and a function that turns a handler into an application, i.e.\n\u003c/p\u003e\u003cpre\u003e runHandler :: handler sub master -\u003e master -\u003e sub -\u003e Route sub -\u003e (Route sub -\u003e Route master) -\u003e app\n\u003c/pre\u003e\u003cp\u003eThis is the first argument to our function. Note that this will almost\n certainly need to be a method of a typeclass, since it will want to behave\n differently based on the subsite.\n\u003c/p\u003e\u003cp\u003eNote that the 404 response passed in is an application, while the 405\n response is a handler, since the former can't be passed the type-safe\n route.\n\u003c/p\u003e\u003cp\u003eIn the case of a subsite, we don't directly deal with a handler function.\n Instead, we redispatch to the subsite, passing on the updated sub value and\n toMaster function, as well as any remaining, unparsed path pieces. This\n function looks like:\n\u003c/p\u003e\u003cpre\u003e dispatcher :: master -\u003e sub -\u003e (Route sub -\u003e Route master) -\u003e app -\u003e handler sub master -\u003e Text -\u003e [Text] -\u003e app\n\u003c/pre\u003e\u003cp\u003eWhere the parameters mean master, sub, toMaster, 404 response, 405 response,\n request method and path pieces. This is the second argument of our function.\n\u003c/p\u003e\u003cp\u003eFinally, we need a way to decide which of the possible formats\n should the handler send the data out. Think of each URL holding an\n abstract object which has multiple representation (JSON, plain HTML\n etc). Each client might have a preference on which format it wants\n the abstract object in. For example, a javascript making a request\n (on behalf of a browser) might prefer a JSON object over a plain\n HTML file where as a user browsing with javascript disabled would\n want the page in HTML. The third argument is a function that\n converts the abstract object to the desired representation\n depending on the preferences sent by the client.\n\u003c/p\u003e\u003cp\u003eThe typical values for the first three arguments are,\n \u003ccode\u003e\u003ccode\u003eyesodRunner\u003c/code\u003e\u003c/code\u003e for the first, \u003ccode\u003e\u003ccode\u003eyesodDispatch\u003c/code\u003e\u003c/code\u003e for the second and\n \u003ccode\u003efmap \u003ccode\u003echooseRep\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkDispatchClause",
           "package": "yesod-routes",
@@ -1506,6 +1639,7 @@
         "index": {
           "description": "This function will generate single clause that will address all your routing needs It takes four arguments The fourth list of Resource is self-explanatory We ll discuss the first three But first let cover the terminology Dispatching involves master type and sub type When you dispatch to the top level type master and sub are the same Each time to dispatch to another subsite the sub changes This requires two changes Getting the new sub value This is handled via subsiteFunc Figure out way to convert sub routes to the original master route To address this we keep toMaster function and each time we dispatch to new subsite we compose it with the constructor for that subsite Dispatching acts on two different components the request method and list of path pieces If we cannot match the path pieces we need to return response If the path pieces match but the method is not supported we need to return response The final result of dispatch is going to be an application type simple example would be the WAI Application type However our handler functions will need more input the master subsite the toMaster function and the type-safe route Therefore we need to have another type the handler type and function that turns handler into an application i.e runHandler handler sub master master sub Route sub Route sub Route master app This is the first argument to our function Note that this will almost certainly need to be method of typeclass since it will want to behave differently based on the subsite Note that the response passed in is an application while the response is handler since the former can be passed the type-safe route In the case of subsite we don directly deal with handler function Instead we redispatch to the subsite passing on the updated sub value and toMaster function as well as any remaining unparsed path pieces This function looks like dispatcher master sub Route sub Route master app handler sub master Text Text app Where the parameters mean master sub toMaster response response request method and path pieces This is the second argument of our function Finally we need way to decide which of the possible formats should the handler send the data out Think of each URL holding an abstract object which has multiple representation JSON plain HTML etc Each client might have preference on which format it wants the abstract object in For example javascript making request on behalf of browser might prefer JSON object over plain HTML file where as user browsing with javascript disabled would want the page in HTML The third argument is function that converts the abstract object to the desired representation depending on the preferences sent by the client The typical values for the first three arguments are yesodRunner for the first yesodDispatch for the second and fmap chooseRep",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkDispatchClause",
           "normalized": "MkDispatchSettings-\u003e[ResourceTree a]-\u003eQ Clause",
@@ -1521,6 +1655,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkParseRouteInstance",
           "package": "yesod-routes",
@@ -1530,6 +1665,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkParseRouteInstance",
           "normalized": "Type-\u003e[ResourceTree a]-\u003eQ Dec",
@@ -1546,6 +1682,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClauses for the \u003ccode\u003e\u003ca\u003erenderRoute\u003c/a\u003e\u003c/code\u003e method.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteClauses",
           "package": "yesod-routes",
@@ -1556,6 +1693,7 @@
         "index": {
           "description": "Clauses for the renderRoute method",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteClauses",
           "normalized": "[ResourceTree Type]-\u003eQ[Clause]",
@@ -1572,6 +1710,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the \u003ccode\u003e\u003ca\u003eRenderRoute\u003c/a\u003e\u003c/code\u003e instance.\n\u003c/p\u003e\u003cp\u003eThis includes both the \u003ccode\u003e\u003ca\u003eRoute\u003c/a\u003e\u003c/code\u003e associated type and the\n \u003ccode\u003e\u003ca\u003erenderRoute\u003c/a\u003e\u003c/code\u003e method.  This function uses both \u003ccode\u003e\u003ca\u003emkRouteCons\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003emkRenderRouteClasses\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteInstance",
           "package": "yesod-routes",
@@ -1582,6 +1721,7 @@
         "index": {
           "description": "Generate the RenderRoute instance This includes both the Route associated type and the renderRoute method This function uses both mkRouteCons and mkRenderRouteClasses",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteInstance",
           "normalized": "Type-\u003e[ResourceTree Type]-\u003eQ[Dec]",
@@ -1598,6 +1738,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA more general version of \u003ccode\u003e\u003ca\u003emkRenderRouteInstance\u003c/a\u003e\u003c/code\u003e which takes an\n additional context.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteInstance'",
           "package": "yesod-routes",
@@ -1608,6 +1749,7 @@
         "index": {
           "description": "more general version of mkRenderRouteInstance which takes an additional context",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkRenderRouteInstance'",
           "normalized": "Cxt-\u003eType-\u003e[ResourceTree Type]-\u003eQ[Dec]",
@@ -1623,6 +1765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkRouteAttrsInstance",
           "package": "yesod-routes",
@@ -1632,6 +1775,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkRouteAttrsInstance",
           "normalized": "Type-\u003e[ResourceTree a]-\u003eQ Dec",
@@ -1648,6 +1792,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate the constructors of a route data type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "mkRouteCons",
           "package": "yesod-routes",
@@ -1658,6 +1803,7 @@
         "index": {
           "description": "Generate the constructors of route data type",
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "mkRouteCons",
           "normalized": "[ResourceTree Type]-\u003e([Con],[Dec])",
@@ -1673,6 +1819,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceAttrs",
           "package": "yesod-routes",
@@ -1682,6 +1829,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceAttrs",
           "normalized": "[String]",
@@ -1697,6 +1845,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceDispatch",
           "package": "yesod-routes",
@@ -1706,6 +1855,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceDispatch",
           "package": "yesod-routes",
@@ -1719,6 +1869,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceMulti",
           "package": "yesod-routes",
@@ -1728,6 +1879,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceMulti",
           "normalized": "Resource a-\u003eMaybe a",
@@ -1743,6 +1895,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceName",
           "package": "yesod-routes",
@@ -1752,6 +1905,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceName",
           "package": "yesod-routes",
@@ -1765,6 +1919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourcePieces",
           "package": "yesod-routes",
@@ -1774,6 +1929,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourcePieces",
           "normalized": "[(CheckOverlap,Piece a)]",
@@ -1789,6 +1945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceTreeName",
           "package": "yesod-routes",
@@ -1798,6 +1955,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceTreeName",
           "normalized": "ResourceTree a-\u003eString",
@@ -1813,6 +1971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "resourceTreePieces",
           "package": "yesod-routes",
@@ -1822,6 +1981,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "resourceTreePieces",
           "normalized": "ResourceTree a-\u003e[(CheckOverlap,Piece a)]",
@@ -1837,6 +1997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "subsiteFunc",
           "package": "yesod-routes",
@@ -1846,6 +2007,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "subsiteFunc",
           "package": "yesod-routes",
@@ -1859,6 +2021,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:46:25 UTC 2014",
           "module": "Yesod.Routes.TH",
           "name": "subsiteType",
           "package": "yesod-routes",
@@ -1868,6 +2031,7 @@
         },
         "index": {
           "hierarchy": "Yesod Routes TH",
+          "indexed": "2014-03-11T20:46:25",
           "module": "Yesod.Routes.TH",
           "name": "subsiteType",
           "package": "yesod-routes",

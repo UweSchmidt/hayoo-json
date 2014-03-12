@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "thumbnail"
+        "phrase": "thumbnail",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "ImageFormat",
           "package": "thumbnail",
@@ -47,6 +50,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "ImageFormat",
           "package": "thumbnail",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -68,6 +73,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -81,6 +87,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Gif",
           "package": "thumbnail",
@@ -90,6 +97,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Gif",
           "package": "thumbnail",
@@ -103,6 +111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Jpeg",
           "package": "thumbnail",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Jpeg",
           "package": "thumbnail",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Png",
           "package": "thumbnail",
@@ -134,6 +145,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Png",
           "package": "thumbnail",
@@ -147,6 +159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -156,6 +169,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "Thumbnail",
           "package": "thumbnail",
@@ -169,6 +183,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "defaultBounds",
           "package": "thumbnail",
@@ -178,6 +193,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "defaultBounds",
           "normalized": "((Int,Int),(Int,Int))",
@@ -194,6 +210,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImage Format Type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "fmt",
           "package": "thumbnail",
@@ -204,6 +221,7 @@
         "index": {
           "description": "Image Format Type",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "fmt",
           "package": "thumbnail",
@@ -217,6 +235,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThumbnail Image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "img",
           "package": "thumbnail",
@@ -227,6 +246,7 @@
         "index": {
           "description": "Thumbnail Image",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "img",
           "package": "thumbnail",
@@ -240,6 +260,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThumbnail Data\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "lbs",
           "package": "thumbnail",
@@ -250,6 +271,7 @@
         "index": {
           "description": "Thumbnail Data",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "lbs",
           "package": "thumbnail",
@@ -262,6 +284,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "mkThumbnail",
           "package": "thumbnail",
@@ -271,6 +294,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "mkThumbnail",
           "normalized": "ByteString-\u003eIO(Either String Thumbnail)",
@@ -286,6 +310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "mkThumbnail'",
           "package": "thumbnail",
@@ -295,6 +320,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "mkThumbnail'",
           "normalized": "((Int,Int),(Int,Int))-\u003eByteString-\u003eIO(Either String Thumbnail)",
@@ -311,6 +337,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal Image\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "orgImg",
           "package": "thumbnail",
@@ -321,6 +348,7 @@
         "index": {
           "description": "Original Image",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "orgImg",
           "package": "thumbnail",
@@ -335,6 +363,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOriginal Size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "orgSZ",
           "package": "thumbnail",
@@ -345,6 +374,7 @@
         "index": {
           "description": "Original Size",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "orgSZ",
           "package": "thumbnail",
@@ -358,6 +388,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "saveFile",
           "package": "thumbnail",
@@ -367,6 +398,7 @@
         },
         "index": {
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "saveFile",
           "normalized": "FilePath-\u003eIO()",
@@ -383,6 +415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThumbnail Size\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 20:22:09 UTC 2014",
           "module": "Graphics.Thumbnail",
           "name": "sz",
           "package": "thumbnail",
@@ -393,6 +426,7 @@
         "index": {
           "description": "Thumbnail Size",
           "hierarchy": "Graphics Thumbnail",
+          "indexed": "2014-03-11T20:22:09",
           "module": "Graphics.Thumbnail",
           "name": "sz",
           "package": "thumbnail",

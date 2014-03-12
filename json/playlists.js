@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "playlists"
+        "phrase": "playlists",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "Playlist",
           "package": "playlists",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "Playlist",
           "package": "playlists",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePlaylist formats.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "Format",
           "package": "playlists",
@@ -49,6 +52,7 @@
         "index": {
           "description": "Playlist formats",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "Format",
           "package": "playlists",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA list of \u003ccode\u003e\u003ca\u003eTrack\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "Playlist",
           "package": "playlists",
@@ -72,6 +77,7 @@
         "index": {
           "description": "list of Track",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "Playlist",
           "package": "playlists",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA single music file or streaming URL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "Track",
           "package": "playlists",
@@ -95,6 +102,7 @@
         "index": {
           "description": "single music file or streaming URL",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "Track",
           "package": "playlists",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eM3U and M3U8. \u003ca\u003ehttp://en.wikipedia.org/wiki/M3U\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "M3U",
           "package": "playlists",
@@ -119,6 +128,7 @@
         "index": {
           "description": "M3U and M3U8 http en.wikipedia.org wiki M3U",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "M3U",
           "package": "playlists",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ca\u003ehttp://en.wikipedia.org/wiki/PLS_(file_format)\u003c/a\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "PLS",
           "package": "playlists",
@@ -142,6 +153,7 @@
         "index": {
           "description": "http en.wikipedia.org wiki PLS file format",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "PLS",
           "package": "playlists",
@@ -155,6 +167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "Track",
           "package": "playlists",
@@ -164,6 +177,7 @@
         },
         "index": {
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "Track",
           "package": "playlists",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGenerate a lazy \u003ccode\u003eByteString\u003c/code\u003e containing playlist data from the\n given playlist and in the given format.\n\u003c/p\u003e\u003cpre\u003e BL.putStr $ generatePlaylist M3U somePlaylist\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "generatePlaylist",
           "package": "playlists",
@@ -188,6 +203,7 @@
         "index": {
           "description": "Generate lazy ByteString containing playlist data from the given playlist and in the given format BL.putStr generatePlaylist M3U somePlaylist",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "generatePlaylist",
           "normalized": "Format-\u003ePlaylist-\u003eByteString",
@@ -204,6 +220,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a playlist from a \u003ccode\u003eByteString\u003c/code\u003e.  Parsing may fail in which\n case an error message is returned in \u003ccode\u003eLeft\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e content \u003c- BS.getContents\n case parsePlaylist M3U content of\n  Left err -\u003e fail $ \"failed to parse playlist: \" ++ err\n  Right x  -\u003e return x\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "parsePlaylist",
           "package": "playlists",
@@ -214,6 +231,7 @@
         "index": {
           "description": "Parse playlist from ByteString Parsing may fail in which case an error message is returned in Left content BS.getContents case parsePlaylist M3U content of Left err fail failed to parse playlist err Right return",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "parsePlaylist",
           "normalized": "Format-\u003eByteString-\u003eEither String Playlist",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOptional title.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "trackTitle",
           "package": "playlists",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Optional title",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "trackTitle",
           "package": "playlists",
@@ -254,6 +274,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL for a file or streaming resource.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:40:04 UTC 2014",
           "module": "Text.Playlist",
           "name": "trackURL",
           "package": "playlists",
@@ -264,6 +285,7 @@
         "index": {
           "description": "URL for file or streaming resource",
           "hierarchy": "Text Playlist",
+          "indexed": "2014-03-11T19:40:04",
           "module": "Text.Playlist",
           "name": "trackURL",
           "package": "playlists",

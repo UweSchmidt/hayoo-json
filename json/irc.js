@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "irc"
+        "phrase": "irc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDatatypes for representing IRC messages, as well as formatting them.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Base",
           "package": "irc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Datatypes for representing IRC messages as well as formatting them",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Base",
           "package": "irc",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Command",
           "package": "irc",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Command",
           "package": "irc",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIRC messages are parsed as:\n   [ \u003ccode\u003e:\u003c/code\u003e prefix space ] command { space param } crlf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Message",
           "package": "irc",
@@ -72,6 +77,7 @@
         "index": {
           "description": "IRC messages are parsed as prefix space command space param crlf",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Message",
           "package": "irc",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Parameter",
           "package": "irc",
@@ -93,6 +100,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Parameter",
           "package": "irc",
@@ -107,6 +115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe optional beginning of an IRC messages\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Prefix",
           "package": "irc",
@@ -116,6 +125,7 @@
         "index": {
           "description": "The optional beginning of an IRC messages",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Prefix",
           "package": "irc",
@@ -129,6 +139,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "RealName",
           "package": "irc",
@@ -137,6 +148,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "RealName",
           "package": "irc",
@@ -150,6 +162,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "ServerName",
           "package": "irc",
@@ -158,6 +171,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "ServerName",
           "package": "irc",
@@ -171,6 +185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "UserName",
           "package": "irc",
@@ -179,6 +194,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "UserName",
           "package": "irc",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Message",
           "package": "irc",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Message",
           "package": "irc",
@@ -215,6 +233,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNickname Prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "NickName",
           "package": "irc",
@@ -225,6 +244,7 @@
         "index": {
           "description": "Nickname Prefix",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "NickName",
           "package": "irc",
@@ -239,6 +259,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eServer Prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "Server",
           "package": "irc",
@@ -249,6 +270,7 @@
         "index": {
           "description": "Server Prefix",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "Server",
           "package": "irc",
@@ -263,6 +285,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEncode a message to its string representation\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "encode",
           "package": "irc",
@@ -273,6 +296,7 @@
         "index": {
           "description": "Encode message to its string representation",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "encode",
           "normalized": "Message-\u003eByteString",
@@ -287,6 +311,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "msg_command",
           "package": "irc",
@@ -296,6 +321,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "msg_command",
           "package": "irc",
@@ -308,6 +334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "msg_params",
           "package": "irc",
@@ -317,6 +344,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "msg_params",
           "normalized": "[Parameter]",
@@ -331,6 +359,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "msg_prefix",
           "package": "irc",
@@ -340,6 +369,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "msg_prefix",
           "package": "irc",
@@ -353,6 +383,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis is the deprecated version of encode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "render",
           "package": "irc",
@@ -363,6 +394,7 @@
         "index": {
           "description": "This is the deprecated version of encode",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "render",
           "normalized": "Message-\u003eByteString",
@@ -377,6 +409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "replyTable",
           "package": "irc",
@@ -386,6 +419,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "replyTable",
           "normalized": "[(ByteString,ByteString)]",
@@ -401,6 +435,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "showMessage",
           "package": "irc",
@@ -410,6 +445,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "showMessage",
           "normalized": "Message-\u003eByteString",
@@ -425,6 +461,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "showParameters",
           "package": "irc",
@@ -434,6 +471,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "showParameters",
           "normalized": "[Parameter]-\u003eByteString",
@@ -449,6 +487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "showPrefix",
           "package": "irc",
@@ -458,6 +497,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "showPrefix",
           "normalized": "Prefix-\u003eByteString",
@@ -474,6 +514,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTranslate a reply into its text description.\n   If no text is available, the argument is returned.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Base",
           "name": "translateReply",
           "package": "irc",
@@ -483,6 +524,7 @@
         "index": {
           "description": "Translate reply into its text description If no text is available the argument is returned",
           "hierarchy": "Network IRC Base",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Base",
           "name": "translateReply",
           "normalized": "Command-\u003eByteString",
@@ -498,6 +540,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "Commands",
           "package": "irc",
@@ -506,6 +549,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "Commands",
           "package": "irc",
@@ -519,6 +563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "Channel",
           "package": "irc",
@@ -527,6 +572,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "Channel",
           "package": "irc",
@@ -540,6 +586,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "Password",
           "package": "irc",
@@ -548,6 +595,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "Password",
           "package": "irc",
@@ -561,6 +609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "joinChan",
           "package": "irc",
@@ -570,6 +619,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "joinChan",
           "normalized": "Channel-\u003eMessage",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "kick",
           "package": "irc",
@@ -594,6 +645,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "kick",
           "normalized": "Channel-\u003eUserName-\u003eMaybe Reason-\u003eMessage",
@@ -608,6 +660,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "nick",
           "package": "irc",
@@ -617,6 +670,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "nick",
           "normalized": "UserName-\u003eMessage",
@@ -631,6 +685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "part",
           "package": "irc",
@@ -640,6 +695,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "part",
           "normalized": "Channel-\u003eMessage",
@@ -654,6 +710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "pong",
           "package": "irc",
@@ -663,6 +720,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "pong",
           "normalized": "ServerName-\u003eMessage",
@@ -677,6 +735,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "privmsg",
           "package": "irc",
@@ -686,6 +745,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "privmsg",
           "normalized": "ByteString-\u003eByteString-\u003eMessage",
@@ -700,6 +760,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "quit",
           "package": "irc",
@@ -709,6 +770,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "quit",
           "normalized": "Maybe ByteString-\u003eMessage",
@@ -723,6 +785,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Commands",
           "name": "user",
           "package": "irc",
@@ -732,6 +795,7 @@
         },
         "index": {
           "hierarchy": "Network IRC Commands",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Commands",
           "name": "user",
           "normalized": "UserName-\u003eServerName-\u003eServerName-\u003eRealName-\u003eMessage",
@@ -747,6 +811,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eParsec parsers and a general parsing interface for IRC messages\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "Parser",
           "package": "irc",
@@ -756,6 +821,7 @@
         "index": {
           "description": "Parsec parsers and general parsing interface for IRC messages",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "Parser",
           "package": "irc",
@@ -770,6 +836,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a command.  Either a string of capital letters, or 3 digits.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "command",
           "package": "irc",
@@ -780,6 +847,7 @@
         "index": {
           "description": "Parse command Either string of capital letters or digits",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "command",
           "package": "irc",
@@ -793,6 +861,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a cr lf\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "crlf",
           "package": "irc",
@@ -803,6 +872,7 @@
         "index": {
           "description": "Parse cr lf",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "crlf",
           "normalized": "Parser()",
@@ -818,6 +888,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a String into a Message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "decode",
           "package": "irc",
@@ -827,6 +898,7 @@
         "index": {
           "description": "Parse String into Message",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "decode",
           "normalized": "ByteString-\u003eMaybe Message",
@@ -842,6 +914,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Message\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "message",
           "package": "irc",
@@ -852,6 +925,7 @@
         "index": {
           "description": "Parse Message",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "message",
           "package": "irc",
@@ -865,6 +939,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a NickName prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "nicknamePrefix",
           "package": "irc",
@@ -875,6 +950,7 @@
         "index": {
           "description": "Parse NickName prefix",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "nicknamePrefix",
           "package": "irc",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a command parameter.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "parameter",
           "package": "irc",
@@ -899,6 +976,7 @@
         "index": {
           "description": "Parse command parameter",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "parameter",
           "package": "irc",
@@ -912,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe deprecated version of decode\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "parseMessage",
           "package": "irc",
@@ -922,6 +1001,7 @@
         "index": {
           "description": "The deprecated version of decode",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "parseMessage",
           "normalized": "ByteString-\u003eMaybe Message",
@@ -938,6 +1018,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "prefix",
           "package": "irc",
@@ -948,6 +1029,7 @@
         "index": {
           "description": "Parse Prefix",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "prefix",
           "package": "irc",
@@ -961,6 +1043,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParse a Server prefix\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "serverPrefix",
           "package": "irc",
@@ -971,6 +1054,7 @@
         "index": {
           "description": "Parse Server prefix",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "serverPrefix",
           "package": "irc",
@@ -985,6 +1069,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConsume only spaces, tabs, or the bell character\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC.Parser",
           "name": "spaces",
           "package": "irc",
@@ -995,6 +1080,7 @@
         "index": {
           "description": "Consume only spaces tabs or the bell character",
           "hierarchy": "Network IRC Parser",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC.Parser",
           "name": "spaces",
           "normalized": "Parser()",
@@ -1010,6 +1096,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003elibrary for parsing IRC messages\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:59:39 UTC 2014",
           "module": "Network.IRC",
           "name": "IRC",
           "package": "irc",
@@ -1019,6 +1106,7 @@
         "index": {
           "description": "library for parsing IRC messages",
           "hierarchy": "Network IRC",
+          "indexed": "2014-03-11T18:59:39",
           "module": "Network.IRC",
           "name": "IRC",
           "package": "irc",

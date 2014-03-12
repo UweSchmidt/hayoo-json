@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "prof2pretty"
+        "phrase": "prof2pretty",
+        "type": "phrase"
       },
       "type": "context"
     }

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "idna"
+        "phrase": "idna",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements the two algorithms from RFC 3490. (\u003ca\u003ehttp://tools.ietf.org/html/rfc3490\u003c/a\u003e)\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:55:53 UTC 2014",
           "module": "Text.IDNA",
           "name": "IDNA",
           "package": "idna",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This module implements the two algorithms from RFC http tools.ietf.org html rfc3490",
           "hierarchy": "Text IDNA",
+          "indexed": "2014-03-11T18:55:53",
           "module": "Text.IDNA",
           "name": "IDNA",
           "package": "idna",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe ASCII Compatible Encoding prefix (currently '\u003ccode\u003exn--\u003c/code\u003e').\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:53 UTC 2014",
           "module": "Text.IDNA",
           "name": "acePrefix",
           "package": "idna",
@@ -52,6 +55,7 @@
         "index": {
           "description": "The ASCII Compatible Encoding prefix currently xn",
           "hierarchy": "Text IDNA",
+          "indexed": "2014-03-11T18:55:53",
           "module": "Text.IDNA",
           "name": "acePrefix",
           "package": "idna",
@@ -66,6 +70,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eImplements the ToASCII algorithm.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:55:53 UTC 2014",
           "module": "Text.IDNA",
           "name": "toASCII",
           "package": "idna",
@@ -75,6 +80,7 @@
         "index": {
           "description": "Implements the ToASCII algorithm",
           "hierarchy": "Text IDNA",
+          "indexed": "2014-03-11T18:55:53",
           "module": "Text.IDNA",
           "name": "toASCII",
           "normalized": "Bool-\u003eBool-\u003eText-\u003eMaybe Text",
@@ -90,6 +96,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:55:53 UTC 2014",
           "module": "Text.IDNA",
           "name": "toUnicode",
           "package": "idna",
@@ -98,6 +105,7 @@
         },
         "index": {
           "hierarchy": "Text IDNA",
+          "indexed": "2014-03-11T18:55:53",
           "module": "Text.IDNA",
           "name": "toUnicode",
           "normalized": "Bool-\u003eBool-\u003eText-\u003eText",

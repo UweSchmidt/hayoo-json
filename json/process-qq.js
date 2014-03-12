@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "process-qq"
+        "phrase": "process-qq",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:34 UTC 2014",
           "module": "System.Process.QQ",
           "name": "QQ",
           "package": "process-qq",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:34",
           "module": "System.Process.QQ",
           "name": "QQ",
           "package": "process-qq",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:34 UTC 2014",
           "module": "System.Process.QQ",
           "name": "cmd",
           "package": "process-qq",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:34",
           "module": "System.Process.QQ",
           "name": "cmd",
           "package": "process-qq",
@@ -60,6 +64,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:34 UTC 2014",
           "module": "System.Process.QQ",
           "name": "enumCmd",
           "package": "process-qq",
@@ -69,6 +74,7 @@
         },
         "index": {
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:34",
           "module": "System.Process.QQ",
           "name": "enumCmd",
           "package": "process-qq",
@@ -82,6 +88,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:44:34 UTC 2014",
           "module": "System.Process.QQ",
           "name": "lcmd",
           "package": "process-qq",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System Process QQ",
+          "indexed": "2014-03-11T19:44:34",
           "module": "System.Process.QQ",
           "name": "lcmd",
           "package": "process-qq",

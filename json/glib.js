@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "glib"
+        "phrase": "glib",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eAttributes interface\n\u003c/p\u003e\u003cp\u003eAttributes of an object can be get and set. Getting the value of an\n object's attribute is straingtforward. As an example consider a \u003ccode\u003ebutton\u003c/code\u003e\n widget and an attribute called \u003ccode\u003ebuttonLabel\u003c/code\u003e.\n\u003c/p\u003e\u003cpre\u003e value \u003c- get button buttonLabel\n\u003c/pre\u003e\u003cp\u003eThe syntax for setting or updating an attribute is only slightly more\n complex. At the simplest level it is just:\n\u003c/p\u003e\u003cpre\u003e set button [ buttonLabel := value ]\n\u003c/pre\u003e\u003cp\u003eHowever as the list notation would indicate, you can set or update multiple\n attributes of the same object in one go:\n\u003c/p\u003e\u003cpre\u003e set button [ buttonLabel := value, buttonFocusOnClick := False ]\n\u003c/pre\u003e\u003cp\u003eYou are not limited to setting the value of an attribute, you can also\n apply an update function to an attribute's value. That is the function\n receives the current value of the attribute and returns the new value.\n\u003c/p\u003e\u003cpre\u003e set spinButton [ spinButtonValue :~ (+1) ]\n\u003c/pre\u003e\u003cp\u003eThere are other variants of these operators, (see \u003ccode\u003e\u003ca\u003eAttrOp\u003c/a\u003e\u003c/code\u003e). \u003ccode\u003e\u003ca\u003e:=\u003e\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003e:~\u003e\u003c/a\u003e\u003c/code\u003e and like \u003ccode\u003e\u003ca\u003e:=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e:~\u003c/a\u003e\u003c/code\u003e but operate in the \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e monad rather\n than being pure. There is also \u003ccode\u003e\u003ca\u003e::=\u003c/a\u003e\u003c/code\u003e and \u003ccode\u003e\u003ca\u003e::~\u003c/a\u003e\u003c/code\u003e which take the object\n as an extra parameter.\n\u003c/p\u003e\u003cp\u003eAttributes can be read only, write only or both read/write.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "Attributes",
           "package": "glib",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Attributes interface Attributes of an object can be get and set Getting the value of an object attribute is straingtforward As an example consider button widget and an attribute called buttonLabel value get button buttonLabel The syntax for setting or updating an attribute is only slightly more complex At the simplest level it is just set button buttonLabel value However as the list notation would indicate you can set or update multiple attributes of the same object in one go set button buttonLabel value buttonFocusOnClick False You are not limited to setting the value of an attribute you can also apply an update function to an attribute value That is the function receives the current value of the attribute and returns the new value set spinButton spinButtonValue There are other variants of these operators see AttrOp and and like and but operate in the IO monad rather than being pure There is also and which take the object as an extra parameter Attributes can be read only write only or both read write",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "Attributes",
           "package": "glib",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn ordinary attribute. Most attributes have the same get and set types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "Attr",
           "package": "glib",
@@ -51,6 +54,7 @@
         "index": {
           "description": "An ordinary attribute Most attributes have the same get and set types",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "Attr",
           "package": "glib",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA set or update operation on an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "AttrOp",
           "package": "glib",
@@ -74,6 +79,7 @@
         "index": {
           "description": "set or update operation on an attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "AttrOp",
           "package": "glib",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA read-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "ReadAttr",
           "package": "glib",
@@ -97,6 +104,7 @@
         "index": {
           "description": "read-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "ReadAttr",
           "package": "glib",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA generalised attribute with independent get and set types.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "ReadWriteAttr",
           "package": "glib",
@@ -120,6 +129,7 @@
         "index": {
           "description": "generalised attribute with independent get and set types",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "ReadWriteAttr",
           "package": "glib",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA write-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "WriteAttr",
           "package": "glib",
@@ -143,6 +154,7 @@
         "index": {
           "description": "write-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "WriteAttr",
           "package": "glib",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an update function to\n   an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": ":~",
           "package": "glib",
@@ -167,6 +180,7 @@
         "index": {
           "description": "Apply an update function to an attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": ":~",
           "normalized": "a b c(ReadWriteAttr d b c)(b-\u003ec)",
@@ -182,6 +196,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply a IO update function\n   to an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": ":~\u003e",
           "package": "glib",
@@ -192,6 +207,7 @@
         "index": {
           "description": "Apply IO update function to an attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": ":~\u003e",
           "normalized": "a b c(ReadWriteAttr d b c)(b-\u003eIO c)",
@@ -207,6 +223,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a value to an\n   attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": ":=",
           "package": "glib",
@@ -217,6 +234,7 @@
         "index": {
           "description": "Assign value to an attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": ":=",
           "package": "glib",
@@ -230,6 +248,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign the result of an IO\n   action to an attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": ":=\u003e",
           "package": "glib",
@@ -240,6 +259,7 @@
         "index": {
           "description": "Assign the result of an IO action to an attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": ":=\u003e",
           "package": "glib",
@@ -253,6 +273,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eApply an update function to\n   an attribute with the object\n   as an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "::~",
           "package": "glib",
@@ -263,6 +284,7 @@
         "index": {
           "description": "Apply an update function to an attribute with the object as an argument",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "::~",
           "normalized": "(a-\u003eb-\u003ec)",
@@ -278,6 +300,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAssign a value to an\n   attribute with the object as\n   an argument.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "::=",
           "package": "glib",
@@ -288,6 +311,7 @@
         "index": {
           "description": "Assign value to an attribute with the object as an argument",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "::=",
           "normalized": "(a-\u003eb)",
@@ -303,6 +327,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an Attr of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "get",
           "package": "glib",
@@ -313,6 +338,7 @@
         "index": {
           "description": "Get an Attr of an object",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "get",
           "normalized": "a-\u003eReadWriteAttr a b c-\u003eIO b",
@@ -328,6 +354,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new attribute with a getter and setter function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "newAttr",
           "package": "glib",
@@ -338,6 +365,7 @@
         "index": {
           "description": "Create new attribute with getter and setter function",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "newAttr",
           "normalized": "(a-\u003eIO b)-\u003e(a-\u003ec-\u003eIO())-\u003eReadWriteAttr a b c",
@@ -354,6 +382,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new attribute with a getter and setter function.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "newNamedAttr",
           "package": "glib",
@@ -364,6 +393,7 @@
         "index": {
           "description": "Create new attribute with getter and setter function",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "newNamedAttr",
           "normalized": "String-\u003e(a-\u003eIO b)-\u003e(a-\u003ec-\u003eIO())-\u003eReadWriteAttr a b c",
@@ -380,6 +410,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new read-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "readAttr",
           "package": "glib",
@@ -390,6 +421,7 @@
         "index": {
           "description": "Create new read-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "readAttr",
           "normalized": "(a-\u003eIO b)-\u003eReadAttr a b",
@@ -406,6 +438,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new read-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "readNamedAttr",
           "package": "glib",
@@ -416,6 +449,7 @@
         "index": {
           "description": "Create new read-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "readNamedAttr",
           "normalized": "String-\u003e(a-\u003eIO b)-\u003eReadAttr a b",
@@ -432,6 +466,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet a number of properties for some object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "set",
           "package": "glib",
@@ -442,6 +477,7 @@
         "index": {
           "description": "Set number of properties for some object",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "set",
           "normalized": "a-\u003e[AttrOp a]-\u003eIO()",
@@ -457,6 +493,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new write-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "writeAttr",
           "package": "glib",
@@ -467,6 +504,7 @@
         "index": {
           "description": "Create new write-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "writeAttr",
           "normalized": "(a-\u003eb-\u003eIO())-\u003eWriteAttr a b",
@@ -483,6 +521,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new write-only attribute.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Attributes",
           "name": "writeNamedAttr",
           "package": "glib",
@@ -493,6 +532,7 @@
         "index": {
           "description": "Create new write-only attribute",
           "hierarchy": "System Glib Attributes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Attributes",
           "name": "writeNamedAttr",
           "normalized": "String-\u003e(a-\u003eb-\u003eIO())-\u003eWriteAttr a b",
@@ -509,6 +549,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module defines a type class for flags that are marshaled as bitflags.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Flags",
           "name": "Flags",
           "package": "glib",
@@ -518,6 +559,7 @@
         "index": {
           "description": "This module defines type class for flags that are marshaled as bitflags",
           "hierarchy": "System Glib Flags",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Flags",
           "name": "Flags",
           "package": "glib",
@@ -531,6 +573,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Flags",
           "name": "Flags",
           "package": "glib",
@@ -539,6 +582,7 @@
         },
         "index": {
           "hierarchy": "System Glib Flags",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Flags",
           "name": "Flags",
           "package": "glib",
@@ -552,6 +596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Flags",
           "name": "fromFlags",
           "package": "glib",
@@ -561,6 +606,7 @@
         },
         "index": {
           "hierarchy": "System Glib Flags",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Flags",
           "name": "fromFlags",
           "normalized": "[a]-\u003eInt",
@@ -576,6 +622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Flags",
           "name": "toFlags",
           "package": "glib",
@@ -585,6 +632,7 @@
         },
         "index": {
           "hierarchy": "System Glib Flags",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Flags",
           "name": "toFlags",
           "normalized": "Int-\u003e[a]",
@@ -600,6 +648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateTime",
           "package": "glib",
@@ -608,6 +657,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateTime",
           "package": "glib",
@@ -621,6 +671,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDate",
           "package": "glib",
@@ -629,6 +680,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDate",
           "package": "glib",
@@ -642,6 +694,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateDay",
           "package": "glib",
@@ -650,6 +703,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateDay",
           "package": "glib",
@@ -663,6 +717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateJulianDay",
           "package": "glib",
@@ -671,6 +726,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateJulianDay",
           "package": "glib",
@@ -684,6 +740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateMonth",
           "package": "glib",
@@ -692,6 +749,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateMonth",
           "package": "glib",
@@ -705,6 +763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateWeekday",
           "package": "glib",
@@ -713,6 +772,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateWeekday",
           "package": "glib",
@@ -726,6 +786,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDateYear",
           "package": "glib",
@@ -734,6 +795,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDateYear",
           "package": "glib",
@@ -747,6 +809,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GTimeVal",
           "package": "glib",
@@ -755,6 +818,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GTimeVal",
           "package": "glib",
@@ -768,6 +832,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GTimeValPart",
           "package": "glib",
@@ -776,6 +841,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GTimeValPart",
           "package": "glib",
@@ -789,6 +855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GDate",
           "package": "glib",
@@ -798,6 +865,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GDate",
           "package": "glib",
@@ -811,6 +879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "GTimeVal",
           "package": "glib",
@@ -820,6 +889,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "GTimeVal",
           "package": "glib",
@@ -833,6 +903,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddDays",
           "package": "glib",
@@ -842,6 +913,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddDays",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -857,6 +929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddMonths",
           "package": "glib",
@@ -866,6 +939,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddMonths",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -881,6 +955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddYears",
           "package": "glib",
@@ -890,6 +965,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateAddYears",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -905,6 +981,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateClamp",
           "package": "glib",
@@ -914,6 +991,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateClamp",
           "normalized": "GDate-\u003eGDate-\u003eGDate-\u003eGDate",
@@ -929,6 +1007,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateCompare",
           "package": "glib",
@@ -938,6 +1017,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateCompare",
           "normalized": "GDate-\u003eGDate-\u003eOrdering",
@@ -953,6 +1033,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateDay",
           "package": "glib",
@@ -962,6 +1043,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateDay",
           "normalized": "GDate-\u003eGDateDay",
@@ -977,6 +1059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateDaysBetween",
           "package": "glib",
@@ -986,6 +1069,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateDaysBetween",
           "normalized": "GDate-\u003eGDate-\u003eInt",
@@ -1001,6 +1085,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateJulianDay",
           "package": "glib",
@@ -1010,6 +1095,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateJulianDay",
           "package": "glib",
@@ -1023,6 +1109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateMonth",
           "package": "glib",
@@ -1032,6 +1119,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateMonth",
           "normalized": "GDate-\u003eGDateMonth",
@@ -1047,6 +1135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewDMY",
           "package": "glib",
@@ -1056,6 +1145,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewDMY",
           "normalized": "GDateDay-\u003eGDateMonth-\u003eGDateYear-\u003eMaybe GDate",
@@ -1071,6 +1161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewJulian",
           "package": "glib",
@@ -1080,6 +1171,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewJulian",
           "normalized": "GDateJulianDay-\u003eMaybe GDate",
@@ -1095,6 +1187,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewTimeVal",
           "package": "glib",
@@ -1104,6 +1197,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateNewTimeVal",
           "normalized": "GTimeVal-\u003eGDate",
@@ -1119,6 +1213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateParse",
           "package": "glib",
@@ -1128,6 +1223,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateParse",
           "normalized": "String-\u003eIO(Maybe GDate)",
@@ -1143,6 +1239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetDay",
           "package": "glib",
@@ -1152,6 +1249,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetDay",
           "normalized": "GDate-\u003eGDateDay-\u003eMaybe GDate",
@@ -1167,6 +1265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetMonth",
           "package": "glib",
@@ -1176,6 +1275,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetMonth",
           "normalized": "GDate-\u003eGDateMonth-\u003eMaybe GDate",
@@ -1191,6 +1291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetYear",
           "package": "glib",
@@ -1200,6 +1301,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSetYear",
           "normalized": "GDate-\u003eGDateYear-\u003eMaybe GDate",
@@ -1215,6 +1317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractDays",
           "package": "glib",
@@ -1224,6 +1327,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractDays",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -1239,6 +1343,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractMonths",
           "package": "glib",
@@ -1248,6 +1353,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractMonths",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -1263,6 +1369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractYears",
           "package": "glib",
@@ -1272,6 +1379,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateSubtractYears",
           "normalized": "GDate-\u003eWord-\u003eGDate",
@@ -1287,6 +1395,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateValidDMY",
           "package": "glib",
@@ -1296,6 +1405,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateValidDMY",
           "normalized": "GDateDay-\u003eGDateMonth-\u003eGDateYear-\u003eBool",
@@ -1311,6 +1421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateValidJulian",
           "package": "glib",
@@ -1320,6 +1431,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateValidJulian",
           "normalized": "GDateJulianDay-\u003eBool",
@@ -1335,6 +1447,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateWeekday",
           "package": "glib",
@@ -1344,6 +1457,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateWeekday",
           "normalized": "GDate-\u003eGDateWeekday",
@@ -1359,6 +1473,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gDateYear",
           "package": "glib",
@@ -1368,6 +1483,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gDateYear",
           "normalized": "GDate-\u003eGDateYear",
@@ -1383,6 +1499,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gGetCurrentTime",
           "package": "glib",
@@ -1392,6 +1509,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gGetCurrentTime",
           "package": "glib",
@@ -1405,6 +1523,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValAdd",
           "package": "glib",
@@ -1414,6 +1533,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValAdd",
           "normalized": "GTimeVal-\u003eGTimeValPart-\u003eGTimeVal",
@@ -1429,6 +1549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValFromISO8601",
           "package": "glib",
@@ -1438,6 +1559,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValFromISO8601",
           "normalized": "String-\u003eMaybe GTimeVal",
@@ -1453,6 +1575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValSec",
           "package": "glib",
@@ -1462,6 +1585,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValSec",
           "package": "glib",
@@ -1475,6 +1599,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValToISO8601",
           "package": "glib",
@@ -1484,6 +1609,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValToISO8601",
           "normalized": "GTimeVal-\u003eString",
@@ -1499,6 +1625,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValUSec",
           "package": "glib",
@@ -1508,6 +1635,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gTimeValUSec",
           "package": "glib",
@@ -1521,6 +1649,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GDateTime",
           "name": "gUSleep",
           "package": "glib",
@@ -1530,6 +1659,7 @@
         },
         "index": {
           "hierarchy": "System Glib GDateTime",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GDateTime",
           "name": "gUSleep",
           "normalized": "GTimeValPart-\u003eIO()",
@@ -1546,6 +1676,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eError Reporting, glib's system for reporting errors.\n\u003c/p\u003e\u003cp\u003e\u003ccode\u003e\u003ca\u003eGError\u003c/a\u003e\u003c/code\u003es are used by glib to report recoverable runtime errors.\n\u003c/p\u003e\u003cp\u003eThis module provides functions for checking glib/gtk functions that report\n \u003ccode\u003e\u003ca\u003eGError\u003c/a\u003e\u003c/code\u003es. It also provides functions for throwing and catching \u003ccode\u003e\u003ca\u003eGError\u003c/a\u003e\u003c/code\u003es as\n Haskell exceptions.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1555,6 +1686,7 @@
         "index": {
           "description": "Error Reporting glib system for reporting errors GError are used by glib to report recoverable runtime errors This module provides functions for checking glib gtk functions that report GError It also provides functions for throwing and catching GError as Haskell exceptions",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1569,6 +1701,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA GError consists of a domain, code and a human readable message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1578,6 +1711,7 @@
         "index": {
           "description": "GError consists of domain code and human readable message",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1592,6 +1726,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eEach error domain's error enumeration type should be an instance of this\n class. This class helps to hide the raw error and domain codes from the\n user. This interface should be implemented by calling the approrpiate\n \u003ccode\u003e{error_domain}_error_quark\u003c/code\u003e. It is safe to use a pure FFI call for this.\n\u003c/p\u003e\u003cp\u003eExample for \u003ccode\u003e\u003ca\u003ePixbufError\u003c/a\u003e\u003c/code\u003e:\n\u003c/p\u003e\u003cpre\u003e instance GErrorClass PixbufError where\n gerrorDomain _ = {#call pure unsafe pixbuf_error_quark#}\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GErrorClass",
           "package": "glib",
@@ -1601,6 +1736,7 @@
         "index": {
           "description": "Each error domain error enumeration type should be an instance of this class This class helps to hide the raw error and domain codes from the user This interface should be implemented by calling the approrpiate error domain error quark It is safe to use pure FFI call for this Example for PixbufError instance GErrorClass PixbufError where gerrorDomain call pure unsafe pixbuf error quark",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GErrorClass",
           "package": "glib",
@@ -1615,6 +1751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA code to identify a specific error within a given \u003ccode\u003e\u003ca\u003eGErrorDomain\u003c/a\u003e\u003c/code\u003e. Most of\n time you will not need to deal with this raw code since there is an\n enumeration type for each error domain. Of course which enumeraton to use\n depends on the error domain, but if you use \u003ccode\u003e\u003ca\u003ecatchGErrorJustDomain\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003ehandleGErrorJustDomain\u003c/a\u003e\u003c/code\u003e, this is worked out for you automatically.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GErrorCode",
           "package": "glib",
@@ -1624,6 +1761,7 @@
         "index": {
           "description": "code to identify specific error within given GErrorDomain Most of time you will not need to deal with this raw code since there is an enumeration type for each error domain Of course which enumeraton to use depends on the error domain but if you use catchGErrorJustDomain or handleGErrorJustDomain this is worked out for you automatically",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GErrorCode",
           "package": "glib",
@@ -1638,6 +1776,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA code used to identify the 'namespace' of the error. Within each error\n domain all the error codes are defined in an enumeration. Each gtk/gnome\n module that uses GErrors has its own error domain. The rationale behind\n using error domains is so that each module can organise its own error codes\n without having to coordinate on a global error code list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GErrorDomain",
           "package": "glib",
@@ -1647,6 +1786,7 @@
         "index": {
           "description": "code used to identify the namespace of the error Within each error domain all the error codes are defined in an enumeration Each gtk gnome module that uses GErrors has its own error domain The rationale behind using error domains is so that each module can organise its own error codes without having to coordinate on global error code list",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GErrorDomain",
           "package": "glib",
@@ -1661,6 +1801,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA human readable error message.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GErrorMessage",
           "package": "glib",
@@ -1670,6 +1811,7 @@
         "index": {
           "description": "human readable error message",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GErrorMessage",
           "package": "glib",
@@ -1683,6 +1825,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1692,6 +1835,7 @@
         },
         "index": {
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "GError",
           "package": "glib",
@@ -1706,6 +1850,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use ordinary Control.Exception.catch\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eThis will catch any GError exception. The handler function will receive the\n raw GError. This is probably only useful when you want to take some action\n that does not depend on which GError exception has occured, otherwise it\n would be better to use either \u003ccode\u003e\u003ca\u003ecatchGErrorJust\u003c/a\u003e\u003c/code\u003e or \u003ccode\u003e\u003ca\u003ecatchGErrorJustDomain\u003c/a\u003e\u003c/code\u003e.\n For example:\n\u003c/p\u003e\u003cpre\u003e catchGError\n (do ...\n ...)\n (\\(GError dom code msg) -\u003e fail msg)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "catchGError",
           "package": "glib",
@@ -1715,6 +1860,7 @@
         "index": {
           "description": "Deprecated Use ordinary Control.Exception.catch This will catch any GError exception The handler function will receive the raw GError This is probably only useful when you want to take some action that does not depend on which GError exception has occured otherwise it would be better to use either catchGErrorJust or catchGErrorJustDomain For example catchGError do GError dom code msg fail msg",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "catchGError",
           "normalized": "IO a-\u003e(GError-\u003eIO a)-\u003eIO a",
@@ -1731,6 +1877,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis will catch just a specific GError exception. If you need to catch a\n range of related errors, \u003ccode\u003e\u003ca\u003ecatchGErrorJustDomain\u003c/a\u003e\u003c/code\u003e is probably more\n appropriate. Example:\n\u003c/p\u003e\u003cpre\u003e do image \u003c- catchGErrorJust PixbufErrorCorruptImage\n loadImage\n (\\errorMessage -\u003e do log errorMessage\n return mssingImagePlaceholder)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "catchGErrorJust",
           "package": "glib",
@@ -1740,6 +1887,7 @@
         "index": {
           "description": "This will catch just specific GError exception If you need to catch range of related errors catchGErrorJustDomain is probably more appropriate Example do image catchGErrorJust PixbufErrorCorruptImage loadImage errorMessage do log errorMessage return mssingImagePlaceholder",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "catchGErrorJust",
           "normalized": "a-\u003eIO b-\u003e(GErrorMessage-\u003eIO b)-\u003eIO b",
@@ -1756,6 +1904,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch all GErrors from a particular error domain. The handler function\n should just deal with one error enumeration type. If you need to catch\n errors from more than one error domain, use this function twice with an\n appropriate handler functions for each.\n\u003c/p\u003e\u003cpre\u003e catchGErrorJustDomain\n loadImage\n (\\err message -\u003e case err of\n PixbufErrorCorruptImage -\u003e ...\n PixbufErrorInsufficientMemory -\u003e ...\n PixbufErrorUnknownType -\u003e ...\n _ -\u003e ...)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "catchGErrorJustDomain",
           "package": "glib",
@@ -1765,6 +1914,7 @@
         "index": {
           "description": "Catch all GErrors from particular error domain The handler function should just deal with one error enumeration type If you need to catch errors from more than one error domain use this function twice with an appropriate handler functions for each catchGErrorJustDomain loadImage err message case err of PixbufErrorCorruptImage PixbufErrorInsufficientMemory PixbufErrorUnknownType",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "catchGErrorJustDomain",
           "normalized": "IO a-\u003e(b-\u003eGErrorMessage-\u003eIO a)-\u003eIO a",
@@ -1781,6 +1931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epropagateGError\u003c/a\u003e\u003c/code\u003e but instead of throwing the GError as an exception\n handles the error immediately using the supplied error handler.\n\u003c/p\u003e\u003cp\u003eExample of use:\n\u003c/p\u003e\u003cpre\u003e checkGError\n (\\gerrorPtr -\u003e {# call g_some_function_that_might_return_an_error #} a b gerrorPtr)\n (\\(GError domain code msg) -\u003e ...)\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "checkGError",
           "package": "glib",
@@ -1791,6 +1942,7 @@
         "index": {
           "description": "Like propagateGError but instead of throwing the GError as an exception handles the error immediately using the supplied error handler Example of use checkGError gerrorPtr call some function that might return an error gerrorPtr GError domain code msg",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "checkGError",
           "normalized": "(Ptr(Ptr())-\u003eIO a)-\u003e(GError-\u003eIO a)-\u003eIO a",
@@ -1807,6 +1959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCatch all GError exceptions and convert them into a general failure.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "failOnGError",
           "package": "glib",
@@ -1817,6 +1970,7 @@
         "index": {
           "description": "Catch all GError exceptions and convert them into general failure",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "failOnGError",
           "normalized": "IO a-\u003eIO a",
@@ -1832,6 +1986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "gerrorDomain",
           "package": "glib",
@@ -1841,6 +1996,7 @@
         },
         "index": {
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "gerrorDomain",
           "package": "glib",
@@ -1855,6 +2011,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use ordinary Control.Exception.handle\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eA verson of \u003ccode\u003e\u003ca\u003ecatchGError\u003c/a\u003e\u003c/code\u003e with the arguments swapped around.\n\u003c/p\u003e\u003cpre\u003e handleGError (\\(GError dom code msg) -\u003e ...) $\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "handleGError",
           "package": "glib",
@@ -1865,6 +2022,7 @@
         "index": {
           "description": "Deprecated Use ordinary Control.Exception.handle verson of catchGError with the arguments swapped around handleGError GError dom code msg",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "handleGError",
           "normalized": "(GError-\u003eIO a)-\u003eIO a-\u003eIO a",
@@ -1881,6 +2039,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA verson of \u003ccode\u003e\u003ca\u003ehandleGErrorJust\u003c/a\u003e\u003c/code\u003e with the arguments swapped around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "handleGErrorJust",
           "package": "glib",
@@ -1891,6 +2050,7 @@
         "index": {
           "description": "verson of handleGErrorJust with the arguments swapped around",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "handleGErrorJust",
           "normalized": "a-\u003e(GErrorMessage-\u003eIO b)-\u003eIO b-\u003eIO b",
@@ -1907,6 +2067,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA verson of \u003ccode\u003e\u003ca\u003ecatchGErrorJustDomain\u003c/a\u003e\u003c/code\u003e with the arguments swapped around.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "handleGErrorJustDomain",
           "package": "glib",
@@ -1917,6 +2078,7 @@
         "index": {
           "description": "verson of catchGErrorJustDomain with the arguments swapped around",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "handleGErrorJustDomain",
           "normalized": "(a-\u003eGErrorMessage-\u003eIO b)-\u003eIO b-\u003eIO b",
@@ -1933,6 +2095,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGlib functions which report \u003ccode\u003e\u003ca\u003eGError\u003c/a\u003e\u003c/code\u003es take as a parameter a \u003ccode\u003eGError\n **error\u003c/code\u003e. Use this function to supply such a parameter. It checks if an\n error was reported and if so throws it as a Haskell exception.\n\u003c/p\u003e\u003cp\u003eExample of use:\n\u003c/p\u003e\u003cpre\u003e propagateGError $ \\gerrorPtr -\u003e\n {# call g_some_function_that_might_return_an_error #} a b gerrorPtr\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "propagateGError",
           "package": "glib",
@@ -1943,6 +2106,7 @@
         "index": {
           "description": "Glib functions which report GError take as parameter GError error Use this function to supply such parameter It checks if an error was reported and if so throws it as Haskell exception Example of use propagateGError gerrorPtr call some function that might return an error gerrorPtr",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "propagateGError",
           "normalized": "(Ptr(Ptr())-\u003eIO a)-\u003eIO a",
@@ -1959,6 +2123,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Use ordinary Control.Exception.throw\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003eUse this if you need to explicitly throw a GError or re-throw an existing\n GError that you do not wish to handle.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GError",
           "name": "throwGError",
           "package": "glib",
@@ -1969,6 +2134,7 @@
         "index": {
           "description": "Deprecated Use ordinary Control.Exception.throw Use this if you need to explicitly throw GError or re-throw an existing GError that you do not wish to handle",
           "hierarchy": "System Glib GError",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GError",
           "name": "throwGError",
           "normalized": "GError-\u003eIO a",
@@ -1985,6 +2151,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions to extract data from a GList and to produce a GList from\n a list of pointers.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The same for GSList.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "GList",
           "package": "glib",
@@ -1994,6 +2161,7 @@
         "index": {
           "description": "Defines functions to extract data from GList and to produce GList from list of pointers The same for GSList",
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "GList",
           "package": "glib",
@@ -2007,6 +2175,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "GList",
           "package": "glib",
@@ -2015,6 +2184,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "GList",
           "package": "glib",
@@ -2028,6 +2198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "GSList",
           "package": "glib",
@@ -2036,6 +2207,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "GSList",
           "package": "glib",
@@ -2049,6 +2221,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "fromGList",
           "package": "glib",
@@ -2058,6 +2231,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "fromGList",
           "normalized": "GList-\u003eIO[Ptr a]",
@@ -2073,6 +2247,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "fromGSList",
           "package": "glib",
@@ -2082,6 +2257,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "fromGSList",
           "normalized": "GSList-\u003eIO[Ptr a]",
@@ -2097,6 +2273,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "fromGSListRev",
           "package": "glib",
@@ -2106,6 +2283,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "fromGSListRev",
           "normalized": "GSList-\u003eIO[Ptr a]",
@@ -2121,6 +2299,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "readGList",
           "package": "glib",
@@ -2130,6 +2309,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "readGList",
           "normalized": "GList-\u003eIO[Ptr a]",
@@ -2145,6 +2325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "readGSList",
           "package": "glib",
@@ -2154,6 +2335,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "readGSList",
           "normalized": "GSList-\u003eIO[Ptr a]",
@@ -2169,6 +2351,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "toGList",
           "package": "glib",
@@ -2178,6 +2361,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "toGList",
           "normalized": "[Ptr a]-\u003eIO GList",
@@ -2193,6 +2377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "toGSList",
           "package": "glib",
@@ -2202,6 +2387,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "toGSList",
           "normalized": "[Ptr a]-\u003eIO GSList",
@@ -2217,6 +2403,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "withGList",
           "package": "glib",
@@ -2226,6 +2413,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "withGList",
           "normalized": "[Ptr a]-\u003e(GSList-\u003eIO b)-\u003eIO b",
@@ -2241,6 +2429,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GList",
           "name": "withGSList",
           "package": "glib",
@@ -2250,6 +2439,7 @@
         },
         "index": {
           "hierarchy": "System Glib GList",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GList",
           "name": "withGSList",
           "normalized": "[Ptr a]-\u003e(GSList-\u003eIO b)-\u003eIO b",
@@ -2266,6 +2456,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThe base object type for all glib objects\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2275,6 +2466,7 @@
         "index": {
           "description": "The base object type for all glib objects",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2288,6 +2480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "DestroyNotify",
           "package": "glib",
@@ -2296,6 +2489,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "DestroyNotify",
           "package": "glib",
@@ -2309,6 +2503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2317,6 +2512,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2330,6 +2526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "GObjectClass",
           "package": "glib",
@@ -2338,6 +2535,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "GObjectClass",
           "package": "glib",
@@ -2351,6 +2549,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "Quark",
           "package": "glib",
@@ -2359,6 +2558,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "Quark",
           "package": "glib",
@@ -2372,6 +2572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2381,6 +2582,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "GObject",
           "package": "glib",
@@ -2394,6 +2596,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "castToGObject",
           "package": "glib",
@@ -2403,6 +2606,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "castToGObject",
           "normalized": "a-\u003ea",
@@ -2419,6 +2623,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function wraps any newly created objects that derives from\n GInitiallyUnowned also known as objects with\n \"floating-references\". The object will be refSink (for glib\n versions \u003e= 2.10). On non-floating objects, this function behaves\n exactly the same as \u003ca\u003emakeNewGObject\u003c/a\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "constructNewGObject",
           "package": "glib",
@@ -2429,6 +2634,7 @@
         "index": {
           "description": "This function wraps any newly created objects that derives from GInitiallyUnowned also known as objects with floating-references The object will be refSink for glib versions On non-floating objects this function behaves exactly the same as makeNewGObject",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "constructNewGObject",
           "normalized": "(ForeignPtr a-\u003ea,FinalizerPtr a)-\u003eIO(Ptr a)-\u003eIO a",
@@ -2445,6 +2651,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMany methods in classes derived from GObject take a callback function and\n a destructor function which is called to free that callback function when\n it is no longer required. This constants is an address of a functions in\n C land that will free a function pointer.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "destroyFunPtr",
           "package": "glib",
@@ -2455,6 +2662,7 @@
         "index": {
           "description": "Many methods in classes derived from GObject take callback function and destructor function which is called to free that callback function when it is no longer required This constants is an address of functions in land that will free function pointer",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "destroyFunPtr",
           "package": "glib",
@@ -2469,6 +2677,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe address of a function freeing a \u003ccode\u003e\u003ca\u003eStablePtr\u003c/a\u003e\u003c/code\u003e. See \u003ccode\u003e\u003ca\u003edestroyFunPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "destroyStablePtr",
           "package": "glib",
@@ -2479,6 +2688,7 @@
         "index": {
           "description": "The address of function freeing StablePtr See destroyFunPtr",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "destroyStablePtr",
           "package": "glib",
@@ -2493,6 +2703,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type constant to check if an instance is of \u003ccode\u003e\u003ca\u003eGObject\u003c/a\u003e\u003c/code\u003e type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "gTypeGObject",
           "package": "glib",
@@ -2503,6 +2714,7 @@
         "index": {
           "description": "The type constant to check if an instance is of GObject type",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "gTypeGObject",
           "package": "glib",
@@ -2517,6 +2729,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetermine if this is an instance of a particular GTK type\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "isA",
           "package": "glib",
@@ -2527,6 +2740,7 @@
         "index": {
           "description": "Determine if this is an instance of particular GTK type",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "isA",
           "normalized": "a-\u003eGType-\u003eBool",
@@ -2542,6 +2756,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function wraps any object that does not derive from Object.\n It should be used whenever a function returns a pointer to an existing\n \u003ccode\u003e\u003ca\u003eGObject\u003c/a\u003e\u003c/code\u003e (as opposed to a function that constructs a new object).\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The first argument is the contructor of the specific object.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "makeNewGObject",
           "package": "glib",
@@ -2551,6 +2766,7 @@
         "index": {
           "description": "This function wraps any object that does not derive from Object It should be used whenever function returns pointer to an existing GObject as opposed to function that constructs new object The first argument is the contructor of the specific object",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "makeNewGObject",
           "normalized": "(ForeignPtr a-\u003ea,FinalizerPtr a)-\u003eIO(Ptr a)-\u003eIO a",
@@ -2566,6 +2782,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "mkGObject",
           "package": "glib",
@@ -2575,6 +2792,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "mkGObject",
           "normalized": "(ForeignPtr GObject-\u003eGObject,FinalizerPtr a)",
@@ -2591,6 +2809,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd an attribute to this object.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e The function returns a new attribute that can be set or retrieved from\n any \u003ccode\u003e\u003ca\u003eGObject\u003c/a\u003e\u003c/code\u003e. The attribute is wrapped in a \u003ccode\u003e\u003ca\u003eMaybe\u003c/a\u003e\u003c/code\u003e type to reflect\n the circumstance when the attribute is not set or if it should be unset.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectCreateAttribute",
           "package": "glib",
@@ -2601,6 +2820,7 @@
         "index": {
           "description": "Add an attribute to this object The function returns new attribute that can be set or retrieved from any GObject The attribute is wrapped in Maybe type to reflect the circumstance when the attribute is not set or if it should be unset",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectCreateAttribute",
           "package": "glib",
@@ -2615,6 +2835,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the value of an association.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Note that this function may crash the Haskell run-time since the\n returned type can be forced to be anything. See \u003ccode\u003e\u003ca\u003eobjectCreateAttribute\u003c/a\u003e\u003c/code\u003e\n for a safe wrapper around this funciton.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectGetAttributeUnsafe",
           "package": "glib",
@@ -2625,6 +2846,7 @@
         "index": {
           "description": "Get the value of an association Note that this function may crash the Haskell run-time since the returned type can be forced to be anything See objectCreateAttribute for safe wrapper around this funciton",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectGetAttributeUnsafe",
           "normalized": "Quark-\u003ea-\u003eIO(Maybe b)",
@@ -2641,6 +2863,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConstruct a new object (should rairly be used directly)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectNew",
           "package": "glib",
@@ -2651,6 +2874,7 @@
         "index": {
           "description": "Construct new object should rairly be used directly",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectNew",
           "normalized": "GType-\u003e[(String,GValue)]-\u003eIO(Ptr GObject)",
@@ -2667,6 +2891,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eIncrease the reference counter of an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectRef",
           "package": "glib",
@@ -2677,6 +2902,7 @@
         "index": {
           "description": "Increase the reference counter of an object",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectRef",
           "normalized": "Ptr a-\u003eIO()",
@@ -2693,6 +2919,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eReference and sink an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectRefSink",
           "package": "glib",
@@ -2703,6 +2930,7 @@
         "index": {
           "description": "Reference and sink an object",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectRefSink",
           "normalized": "Ptr a-\u003eIO()",
@@ -2719,6 +2947,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSet the value of an association.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectSetAttribute",
           "package": "glib",
@@ -2729,6 +2958,7 @@
         "index": {
           "description": "Set the value of an association",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectSetAttribute",
           "normalized": "Quark-\u003ea-\u003eMaybe b-\u003eIO()",
@@ -2745,6 +2975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDecrease the reference counter of an object\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "objectUnref",
           "package": "glib",
@@ -2755,6 +2986,7 @@
         "index": {
           "description": "Decrease the reference counter of an object",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "objectUnref",
           "package": "glib",
@@ -2769,6 +3001,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a unique id based on the given string.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "quarkFromString",
           "package": "glib",
@@ -2779,6 +3012,7 @@
         "index": {
           "description": "Create unique id based on the given string",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "quarkFromString",
           "normalized": "String-\u003eIO Quark",
@@ -2795,6 +3029,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSafe upcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "toGObject",
           "package": "glib",
@@ -2805,6 +3040,7 @@
         "index": {
           "description": "Safe upcast",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "toGObject",
           "normalized": "a-\u003eGObject",
@@ -2820,6 +3056,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "unGObject",
           "package": "glib",
@@ -2829,6 +3066,7 @@
         },
         "index": {
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "unGObject",
           "normalized": "GObject-\u003eForeignPtr GObject",
@@ -2845,6 +3083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnchecked downcast.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "unsafeCastGObject",
           "package": "glib",
@@ -2855,6 +3094,7 @@
         "index": {
           "description": "Unchecked downcast",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "unsafeCastGObject",
           "normalized": "GObject-\u003ea",
@@ -2871,6 +3111,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThis function wraps any newly created object that does not derived\n from GInitiallyUnowned (that is a GObject with no floating\n reference). Since newly created \u003ccode\u003e\u003ca\u003eGObject\u003c/a\u003e\u003c/code\u003es have a reference count of\n one, they don't need ref'ing.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GObject",
           "name": "wrapNewGObject",
           "package": "glib",
@@ -2881,6 +3122,7 @@
         "index": {
           "description": "This function wraps any newly created object that does not derived from GInitiallyUnowned that is GObject with no floating reference Since newly created GObject have reference count of one they don need ref ing",
           "hierarchy": "System Glib GObject",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GObject",
           "name": "wrapNewGObject",
           "normalized": "(ForeignPtr a-\u003ea,FinalizerPtr a)-\u003eIO(Ptr a)-\u003eIO a",
@@ -2897,6 +3139,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eStorable instance for GParameter, used by objectNew\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "package": "glib",
@@ -2906,6 +3149,7 @@
         "index": {
           "description": "Storable instance for GParameter used by objectNew",
           "hierarchy": "System Glib GParameter",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "package": "glib",
@@ -2919,6 +3163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "package": "glib",
@@ -2927,6 +3172,7 @@
         },
         "index": {
           "hierarchy": "System Glib GParameter",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "package": "glib",
@@ -2940,6 +3186,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "package": "glib",
@@ -2949,6 +3196,7 @@
         },
         "index": {
           "hierarchy": "System Glib GParameter",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GParameter",
           "name": "GParameter",
           "normalized": "GParameter(String,GValue)",
@@ -2965,6 +3213,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eDefines functions to extract data from a GString.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GString",
           "name": "GString",
           "package": "glib",
@@ -2974,6 +3223,7 @@
         "index": {
           "description": "Defines functions to extract data from GString",
           "hierarchy": "System Glib GString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GString",
           "name": "GString",
           "package": "glib",
@@ -2987,6 +3237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GString",
           "name": "GString",
           "package": "glib",
@@ -2995,6 +3246,7 @@
         },
         "index": {
           "hierarchy": "System Glib GString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GString",
           "name": "GString",
           "package": "glib",
@@ -3008,6 +3260,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GString",
           "name": "fromGString",
           "package": "glib",
@@ -3017,6 +3270,7 @@
         },
         "index": {
           "hierarchy": "System Glib GString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GString",
           "name": "fromGString",
           "normalized": "GString-\u003eIO(Maybe String)",
@@ -3032,6 +3286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GString",
           "name": "readGString",
           "package": "glib",
@@ -3041,6 +3296,7 @@
         },
         "index": {
           "hierarchy": "System Glib GString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GString",
           "name": "readGString",
           "normalized": "GString-\u003eIO(Maybe String)",
@@ -3057,6 +3313,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements only the necessities for the GTK binding.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GType",
           "name": "GType",
           "package": "glib",
@@ -3066,6 +3323,7 @@
         "index": {
           "description": "This module implements only the necessities for the GTK binding",
           "hierarchy": "System Glib GType",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GType",
           "name": "GType",
           "package": "glib",
@@ -3079,6 +3337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GType",
           "name": "GType",
           "package": "glib",
@@ -3087,6 +3346,7 @@
         },
         "index": {
           "hierarchy": "System Glib GType",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GType",
           "name": "GType",
           "package": "glib",
@@ -3101,6 +3361,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePrior to any use of the glib type/object system, \u003ccode\u003eglibTypeInit\u003c/code\u003e has to\n be called to initialise the system.\n\u003c/p\u003e\u003cp\u003eNote that this is not needed for gtk applications using \u003ccode\u003einitGUI\u003c/code\u003e since\n that initialises everything itself. It is only needed for applications\n using glib directly, without also using gtk.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GType",
           "name": "glibTypeInit",
           "package": "glib",
@@ -3111,6 +3372,7 @@
         "index": {
           "description": "Prior to any use of the glib type object system glibTypeInit has to be called to initialise the system Note that this is not needed for gtk applications using initGUI since that initialises everything itself It is only needed for applications using glib directly without also using gtk",
           "hierarchy": "System Glib GType",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GType",
           "name": "glibTypeInit",
           "normalized": "IO()",
@@ -3127,6 +3389,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCheck if an object is of the specific type or derived from it.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Internally used by Hierarchy.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GType",
           "name": "typeInstanceIsA",
           "package": "glib",
@@ -3137,6 +3400,7 @@
         "index": {
           "description": "Check if an object is of the specific type or derived from it Internally used by Hierarchy",
           "hierarchy": "System Glib GType",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GType",
           "name": "typeInstanceIsA",
           "normalized": "Ptr()-\u003eGType-\u003eBool",
@@ -3152,6 +3416,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "GTypeConstants",
           "package": "glib",
@@ -3160,6 +3425,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "GTypeConstants",
           "package": "glib",
@@ -3173,6 +3439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "bool",
           "package": "glib",
@@ -3182,6 +3449,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "bool",
           "package": "glib",
@@ -3194,6 +3462,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "boxed",
           "package": "glib",
@@ -3203,6 +3472,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "boxed",
           "package": "glib",
@@ -3215,6 +3485,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "char",
           "package": "glib",
@@ -3224,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "char",
           "package": "glib",
@@ -3236,6 +3508,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "double",
           "package": "glib",
@@ -3245,6 +3518,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "double",
           "package": "glib",
@@ -3257,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "enum",
           "package": "glib",
@@ -3266,6 +3541,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "enum",
           "package": "glib",
@@ -3278,6 +3554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "flags",
           "package": "glib",
@@ -3287,6 +3564,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "flags",
           "package": "glib",
@@ -3299,6 +3577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "float",
           "package": "glib",
@@ -3308,6 +3587,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "float",
           "package": "glib",
@@ -3320,6 +3600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "int",
           "package": "glib",
@@ -3329,6 +3610,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "int",
           "package": "glib",
@@ -3341,6 +3623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "int64",
           "package": "glib",
@@ -3350,6 +3633,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "int64",
           "package": "glib",
@@ -3362,6 +3646,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "invalid",
           "package": "glib",
@@ -3371,6 +3656,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "invalid",
           "package": "glib",
@@ -3383,6 +3669,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "none",
           "package": "glib",
@@ -3392,6 +3679,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "none",
           "package": "glib",
@@ -3404,6 +3692,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "object",
           "package": "glib",
@@ -3413,6 +3702,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "object",
           "package": "glib",
@@ -3425,6 +3715,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "pointer",
           "package": "glib",
@@ -3434,6 +3725,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "pointer",
           "package": "glib",
@@ -3446,6 +3738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "string",
           "package": "glib",
@@ -3455,6 +3748,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "string",
           "package": "glib",
@@ -3467,6 +3761,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "uchar",
           "package": "glib",
@@ -3476,6 +3771,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "uchar",
           "package": "glib",
@@ -3488,6 +3784,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "uint",
           "package": "glib",
@@ -3497,6 +3794,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "uint",
           "package": "glib",
@@ -3509,6 +3807,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GTypeConstants",
           "name": "uint64",
           "package": "glib",
@@ -3518,6 +3817,7 @@
         },
         "index": {
           "hierarchy": "System Glib GTypeConstants",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GTypeConstants",
           "name": "uint64",
           "package": "glib",
@@ -3531,6 +3831,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module implements only the necessities for the GTK binding.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Everything here is only used by \u003ca\u003eGraphics.UI.Gtk.TreeList.TreeModel\u003c/a\u003e and\n friends.\n\u003c/li\u003e\u003c/ul\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3540,6 +3841,7 @@
         "index": {
           "description": "This module implements only the necessities for the GTK binding Everything here is only used by Graphics.UI.Gtk.TreeList.TreeModel and friends",
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3553,6 +3855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3561,6 +3864,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3574,6 +3878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3583,6 +3888,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "GValue",
           "package": "glib",
@@ -3597,6 +3903,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily allocate a GValue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "allocaGValue",
           "package": "glib",
@@ -3607,6 +3914,7 @@
         "index": {
           "description": "Temporarily allocate GValue",
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "allocaGValue",
           "normalized": "(GValue-\u003eIO a)-\u003eIO a",
@@ -3623,6 +3931,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the type of the value stored in the GValue\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "valueGetType",
           "package": "glib",
@@ -3633,6 +3942,7 @@
         "index": {
           "description": "Get the type of the value stored in the GValue",
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "valueGetType",
           "normalized": "GValue-\u003eIO GType",
@@ -3649,6 +3959,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClear a GValue.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValue",
           "name": "valueInit",
           "package": "glib",
@@ -3659,6 +3970,7 @@
         "index": {
           "description": "Clear GValue",
           "hierarchy": "System Glib GValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValue",
           "name": "valueInit",
           "normalized": "GValue-\u003eGType-\u003eIO()",
@@ -3675,6 +3987,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis is used by the implementation of properties and by the\n \u003ccode\u003e\u003ca\u003eTreeModel\u003c/a\u003e\u003c/code\u003e and\n related modules.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "GValueTypes",
           "package": "glib",
@@ -3684,6 +3997,7 @@
         "index": {
           "description": "This is used by the implementation of properties and by the TreeModel and related modules",
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "GValueTypes",
           "package": "glib",
@@ -3697,6 +4011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetBool",
           "package": "glib",
@@ -3706,6 +4021,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetBool",
           "normalized": "GValue-\u003eIO Bool",
@@ -3721,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetBoxed",
           "package": "glib",
@@ -3730,6 +4047,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetBoxed",
           "normalized": "(Ptr a-\u003eIO a)-\u003eGValue-\u003eIO a",
@@ -3745,6 +4063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetDouble",
           "package": "glib",
@@ -3754,6 +4073,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetDouble",
           "normalized": "GValue-\u003eIO Double",
@@ -3769,6 +4089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetEnum",
           "package": "glib",
@@ -3778,6 +4099,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetEnum",
           "normalized": "GValue-\u003eIO a",
@@ -3793,6 +4115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetFlags",
           "package": "glib",
@@ -3802,6 +4125,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetFlags",
           "normalized": "GValue-\u003eIO[a]",
@@ -3817,6 +4141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetFloat",
           "package": "glib",
@@ -3826,6 +4151,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetFloat",
           "normalized": "GValue-\u003eIO Float",
@@ -3841,6 +4167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetGObject",
           "package": "glib",
@@ -3850,6 +4177,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetGObject",
           "normalized": "GValue-\u003eIO a",
@@ -3865,6 +4193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetInt",
           "package": "glib",
@@ -3874,6 +4203,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetInt",
           "normalized": "GValue-\u003eIO Int",
@@ -3889,6 +4219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetInt64",
           "package": "glib",
@@ -3898,6 +4229,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetInt64",
           "normalized": "GValue-\u003eIO Int",
@@ -3913,6 +4245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetMaybeGObject",
           "package": "glib",
@@ -3922,6 +4255,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetMaybeGObject",
           "normalized": "GValue-\u003eIO(Maybe a)",
@@ -3937,6 +4271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetMaybeString",
           "package": "glib",
@@ -3946,6 +4281,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetMaybeString",
           "normalized": "GValue-\u003eIO(Maybe String)",
@@ -3961,6 +4297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetPointer",
           "package": "glib",
@@ -3970,6 +4307,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetPointer",
           "normalized": "GValue-\u003eIO(Ptr())",
@@ -3985,6 +4323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetString",
           "package": "glib",
@@ -3994,6 +4333,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetString",
           "normalized": "GValue-\u003eIO String",
@@ -4009,6 +4349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetUInt",
           "package": "glib",
@@ -4018,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetUInt",
           "normalized": "GValue-\u003eIO Word",
@@ -4033,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetUInt64",
           "package": "glib",
@@ -4042,6 +4385,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueGetUInt64",
           "normalized": "GValue-\u003eIO Word",
@@ -4057,6 +4401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetBool",
           "package": "glib",
@@ -4066,6 +4411,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetBool",
           "normalized": "GValue-\u003eBool-\u003eIO()",
@@ -4081,6 +4427,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetBoxed",
           "package": "glib",
@@ -4090,6 +4437,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetBoxed",
           "normalized": "(a-\u003e(Ptr a-\u003eIO())-\u003eIO())-\u003eGValue-\u003ea-\u003eIO()",
@@ -4105,6 +4453,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetDouble",
           "package": "glib",
@@ -4114,6 +4463,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetDouble",
           "normalized": "GValue-\u003eDouble-\u003eIO()",
@@ -4129,6 +4479,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetEnum",
           "package": "glib",
@@ -4138,6 +4489,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetEnum",
           "normalized": "GValue-\u003ea-\u003eIO()",
@@ -4153,6 +4505,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetFlags",
           "package": "glib",
@@ -4162,6 +4515,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetFlags",
           "normalized": "GValue-\u003e[a]-\u003eIO()",
@@ -4177,6 +4531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetFloat",
           "package": "glib",
@@ -4186,6 +4541,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetFloat",
           "normalized": "GValue-\u003eFloat-\u003eIO()",
@@ -4201,6 +4557,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetGObject",
           "package": "glib",
@@ -4210,6 +4567,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetGObject",
           "normalized": "GValue-\u003ea-\u003eIO()",
@@ -4225,6 +4583,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetInt",
           "package": "glib",
@@ -4234,6 +4593,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetInt",
           "normalized": "GValue-\u003eInt-\u003eIO()",
@@ -4249,6 +4609,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetInt64",
           "package": "glib",
@@ -4258,6 +4619,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetInt64",
           "normalized": "GValue-\u003eInt-\u003eIO()",
@@ -4273,6 +4635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetMaybeGObject",
           "package": "glib",
@@ -4282,6 +4645,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetMaybeGObject",
           "normalized": "GValue-\u003eMaybe a-\u003eIO()",
@@ -4297,6 +4661,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetMaybeString",
           "package": "glib",
@@ -4306,6 +4671,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetMaybeString",
           "normalized": "GValue-\u003eMaybe String-\u003eIO()",
@@ -4321,6 +4687,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetPointer",
           "package": "glib",
@@ -4330,6 +4697,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetPointer",
           "normalized": "GValue-\u003ePtr()-\u003eIO()",
@@ -4345,6 +4713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetString",
           "package": "glib",
@@ -4354,6 +4723,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetString",
           "normalized": "GValue-\u003eString-\u003eIO()",
@@ -4369,6 +4739,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetUInt",
           "package": "glib",
@@ -4378,6 +4749,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetUInt",
           "normalized": "GValue-\u003eWord-\u003eIO()",
@@ -4393,6 +4765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetUInt64",
           "package": "glib",
@@ -4402,6 +4775,7 @@
         },
         "index": {
           "hierarchy": "System Glib GValueTypes",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.GValueTypes",
           "name": "valueSetUInt64",
           "normalized": "GValue-\u003eWord-\u003eIO()",
@@ -4418,6 +4792,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003emain event loop, and events\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "MainLoop",
           "package": "glib",
@@ -4427,6 +4802,7 @@
         "index": {
           "description": "main event loop and events",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "MainLoop",
           "package": "glib",
@@ -4440,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "HandlerId",
           "package": "glib",
@@ -4448,6 +4825,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "HandlerId",
           "package": "glib",
@@ -4462,6 +4840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eFlags representing a condition to watch for on a file descriptor.\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003e\u003ccode\u003eIOIn\u003c/code\u003e\u003c/dt\u003e\u003cdd\u003e There is data to read.\n [\u003ccode\u003eIOOut\u003c/code\u003e] Data can be written (without blocking).\n [\u003ccode\u003eIOPri\u003c/code\u003e] There is urgent data to read.\n [\u003ccode\u003eIOErr\u003c/code\u003e] Error condition.\n [\u003ccode\u003eIOHup\u003c/code\u003e] Hung up (the connection has been broken, usually for\n pipes and sockets).\n [\u003ccode\u003eIOInvalid\u003c/code\u003e] Invalid request. The file descriptor is not open.\n\u003c/dd\u003e\u003c/dl\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOCondition",
           "package": "glib",
@@ -4471,6 +4850,7 @@
         "index": {
           "description": "Flags representing condition to watch for on file descriptor IOIn There is data to read IOOut Data can be written without blocking IOPri There is urgent data to read IOErr Error condition IOHup Hung up the connection has been broken usually for pipes and sockets IOInvalid Invalid request The file descriptor is not open",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOCondition",
           "package": "glib",
@@ -4485,6 +4865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn opaque datatype representing a set of sources to be handled in\n a main loop.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "MainContext",
           "package": "glib",
@@ -4494,6 +4875,7 @@
         "index": {
           "description": "An opaque datatype representing set of sources to be handled in main loop",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "MainContext",
           "package": "glib",
@@ -4508,6 +4890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA main event loop abstraction.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "MainLoop",
           "package": "glib",
@@ -4517,6 +4900,7 @@
         "index": {
           "description": "main event loop abstraction",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "MainLoop",
           "package": "glib",
@@ -4531,6 +4915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePriorities for installing callbacks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "Priority",
           "package": "glib",
@@ -4540,6 +4925,7 @@
         "index": {
           "description": "Priorities for installing callbacks",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "Priority",
           "package": "glib",
@@ -4553,6 +4939,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "Source",
           "package": "glib",
@@ -4561,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "Source",
           "package": "glib",
@@ -4574,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOErr",
           "package": "glib",
@@ -4583,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOErr",
           "package": "glib",
@@ -4596,6 +4986,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOHup",
           "package": "glib",
@@ -4605,6 +4996,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOHup",
           "package": "glib",
@@ -4618,6 +5010,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOIn",
           "package": "glib",
@@ -4627,6 +5020,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOIn",
           "package": "glib",
@@ -4640,6 +5034,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOInvalid",
           "package": "glib",
@@ -4649,6 +5044,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOInvalid",
           "package": "glib",
@@ -4662,6 +5058,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOOut",
           "package": "glib",
@@ -4671,6 +5068,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOOut",
           "package": "glib",
@@ -4684,6 +5082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "IOPri",
           "package": "glib",
@@ -4693,6 +5092,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "IOPri",
           "package": "glib",
@@ -4706,6 +5106,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "Source",
           "package": "glib",
@@ -4715,6 +5116,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "Source",
           "package": "glib",
@@ -4729,6 +5131,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd a callback that is called whenever the system is idle.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e A priority can be specified via an integer. This should usually be\n \u003ccode\u003e\u003ca\u003epriorityDefaultIdle\u003c/a\u003e\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e If the function returns \u003ccode\u003eFalse\u003c/code\u003e it will be removed.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "idleAdd",
           "package": "glib",
@@ -4739,6 +5142,7 @@
         "index": {
           "description": "Add callback that is called whenever the system is idle priority can be specified via an integer This should usually be priorityDefaultIdle If the function returns False it will be removed",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "idleAdd",
           "normalized": "IO Bool-\u003ePriority-\u003eIO HandlerId",
@@ -4755,6 +5159,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a previously added idle handler by its \u003ccode\u003e\u003ca\u003eHandlerId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "idleRemove",
           "package": "glib",
@@ -4765,6 +5170,7 @@
         "index": {
           "description": "Remove previously added idle handler by its HandlerId",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "idleRemove",
           "normalized": "HandlerId-\u003eIO()",
@@ -4781,6 +5187,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdds the file descriptor into the main event loop with the given priority.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "inputAdd",
           "package": "glib",
@@ -4790,6 +5197,7 @@
         "index": {
           "description": "Adds the file descriptor into the main event loop with the given priority",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "inputAdd",
           "normalized": "FD-\u003e[IOCondition]-\u003ePriority-\u003eIO Bool-\u003eIO HandlerId",
@@ -4805,6 +5213,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "inputRemove",
           "package": "glib",
@@ -4814,6 +5223,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "inputRemove",
           "normalized": "HandlerId-\u003eIO()",
@@ -4830,6 +5240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe default \u003ccode\u003e\u003ca\u003eMainContext\u003c/a\u003e\u003c/code\u003e. This is the main context used for main\n loop functions when a main loop is not explicitly specified.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainContextDefault",
           "package": "glib",
@@ -4840,6 +5251,7 @@
         "index": {
           "description": "The default MainContext This is the main context used for main loop functions when main loop is not explicitly specified",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainContextDefault",
           "package": "glib",
@@ -4853,6 +5265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainContextFindSourceById",
           "package": "glib",
@@ -4862,6 +5275,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainContextFindSourceById",
           "normalized": "MainContext-\u003eHandlerId-\u003eIO Source",
@@ -4878,6 +5292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a single iteration for the given main loop. This involves\n checking to see if any event sources are ready to be processed,\n then if no events sources are ready and \u003ccode\u003emayBlock\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e,\n waiting for a source to become ready, then dispatching the\n highest priority events sources that are ready. Note that even\n when \u003ccode\u003emayBlock\u003c/code\u003e is \u003ccode\u003e\u003ca\u003eTrue\u003c/a\u003e\u003c/code\u003e, it is still possible for\n \u003ccode\u003e\u003ca\u003emainContextIteration\u003c/a\u003e\u003c/code\u003e to return (0), since the the wait\n may be interrupted for other reasons than an event source\n becoming ready.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainContextIteration",
           "package": "glib",
@@ -4888,6 +5303,7 @@
         "index": {
           "description": "Runs single iteration for the given main loop This involves checking to see if any event sources are ready to be processed then if no events sources are ready and mayBlock is True waiting for source to become ready then dispatching the highest priority events sources that are ready Note that even when mayBlock is True it is still possible for mainContextIteration to return since the the wait may be interrupted for other reasons than an event source becoming ready",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainContextIteration",
           "normalized": "MainContext-\u003eBool-\u003eIO Bool",
@@ -4904,6 +5320,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a new \u003ccode\u003e\u003ca\u003eMainContext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainContextNew",
           "package": "glib",
@@ -4914,6 +5331,7 @@
         "index": {
           "description": "Creates new MainContext",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainContextNew",
           "package": "glib",
@@ -4928,6 +5346,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eChecks to see if the main loop is currently being run via mainLoopRun.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopIsRunning",
           "package": "glib",
@@ -4938,6 +5357,7 @@
         "index": {
           "description": "Checks to see if the main loop is currently being run via mainLoopRun",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopIsRunning",
           "normalized": "MainLoop-\u003eIO Bool",
@@ -4954,6 +5374,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new \u003ccode\u003e\u003ca\u003eMainLoop\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopNew",
           "package": "glib",
@@ -4963,6 +5384,7 @@
         "index": {
           "description": "Create new MainLoop",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopNew",
           "normalized": "Maybe MainContext-\u003eBool-\u003eIO MainLoop",
@@ -4979,6 +5401,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a \u003ccode\u003e\u003ca\u003eMainLoop\u003c/a\u003e\u003c/code\u003e from running. Any calls to mainLoopRun for the\n loop will return.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopQuit",
           "package": "glib",
@@ -4989,6 +5412,7 @@
         "index": {
           "description": "Stops MainLoop from running Any calls to mainLoopRun for the loop will return",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopQuit",
           "normalized": "MainLoop-\u003eIO()",
@@ -5005,6 +5429,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRuns a main loop until \u003ccode\u003e\u003ca\u003emainLoopQuit\u003c/a\u003e\u003c/code\u003e is called on the\n loop. If this is called for the thread of the loop's\n \u003ccode\u003e\u003ca\u003eMainContext\u003c/a\u003e\u003c/code\u003e, it will process events from the loop, otherwise it\n will simply wait.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopRun",
           "package": "glib",
@@ -5015,6 +5440,7 @@
         "index": {
           "description": "Runs main loop until mainLoopQuit is called on the loop If this is called for the thread of the loop MainContext it will process events from the loop otherwise it will simply wait",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "mainLoopRun",
           "normalized": "MainLoop-\u003eIO()",
@@ -5030,6 +5456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "priorityDefault",
           "package": "glib",
@@ -5039,6 +5466,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "priorityDefault",
           "package": "glib",
@@ -5052,6 +5480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "priorityDefaultIdle",
           "package": "glib",
@@ -5061,6 +5490,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "priorityDefaultIdle",
           "package": "glib",
@@ -5074,6 +5504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "priorityHigh",
           "package": "glib",
@@ -5083,6 +5514,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "priorityHigh",
           "package": "glib",
@@ -5096,6 +5528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "priorityHighIdle",
           "package": "glib",
@@ -5105,6 +5538,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "priorityHighIdle",
           "package": "glib",
@@ -5118,6 +5552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "priorityLow",
           "package": "glib",
@@ -5127,6 +5562,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "priorityLow",
           "package": "glib",
@@ -5140,6 +5576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "sourceAttach",
           "package": "glib",
@@ -5149,6 +5586,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "sourceAttach",
           "normalized": "Source-\u003eMainContext-\u003eIO HandlerId",
@@ -5164,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "sourceDestroy",
           "package": "glib",
@@ -5173,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "sourceDestroy",
           "normalized": "Source-\u003eIO()",
@@ -5188,6 +5628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "sourceGetPriority",
           "package": "glib",
@@ -5197,6 +5638,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "sourceGetPriority",
           "normalized": "Source-\u003eIO Priority",
@@ -5212,6 +5654,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "sourceIsDestroyed",
           "package": "glib",
@@ -5221,6 +5664,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "sourceIsDestroyed",
           "normalized": "Source-\u003eIO Bool",
@@ -5236,6 +5680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "sourceSetPriority",
           "package": "glib",
@@ -5245,6 +5690,7 @@
         },
         "index": {
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "sourceSetPriority",
           "normalized": "Source-\u003ePriority-\u003eIO()",
@@ -5261,6 +5707,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a function to be called at regular intervals, with the default\n priority \u003ccode\u003e\u003ca\u003epriorityDefault\u003c/a\u003e\u003c/code\u003e. The function is called repeatedly until it\n returns \u003ccode\u003eFalse\u003c/code\u003e, after which point the timeout function will not be called\n again. The first call to the function will be at the end of the first interval.\n\u003c/p\u003e\u003cp\u003eNote that timeout functions may be delayed, due to the processing of other\n event sources. Thus they should not be relied on for precise timing. After\n each call to the timeout function, the time of the next timeout is\n recalculated based on the current time and the given interval (it does not\n try to 'catch up' time lost in delays).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "timeoutAdd",
           "package": "glib",
@@ -5271,6 +5718,7 @@
         "index": {
           "description": "Sets function to be called at regular intervals with the default priority priorityDefault The function is called repeatedly until it returns False after which point the timeout function will not be called again The first call to the function will be at the end of the first interval Note that timeout functions may be delayed due to the processing of other event sources Thus they should not be relied on for precise timing After each call to the timeout function the time of the next timeout is recalculated based on the current time and the given interval it does not try to catch up time lost in delays",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "timeoutAdd",
           "normalized": "IO Bool-\u003eInt-\u003eIO HandlerId",
@@ -5287,6 +5735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a function to be called at regular intervals, with the given\n priority. The function is called repeatedly until it returns \u003ccode\u003eFalse\u003c/code\u003e, after\n which point the timeout function will not be called again. The first call\n to the function will be at the end of the first interval.\n\u003c/p\u003e\u003cp\u003eNote that timeout functions may be delayed, due to the processing of other\n event sources. Thus they should not be relied on for precise timing. After\n each call to the timeout function, the time of the next timeout is\n recalculated based on the current time and the given interval (it does not\n try to 'catch up' time lost in delays).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "timeoutAddFull",
           "package": "glib",
@@ -5297,6 +5746,7 @@
         "index": {
           "description": "Sets function to be called at regular intervals with the given priority The function is called repeatedly until it returns False after which point the timeout function will not be called again The first call to the function will be at the end of the first interval Note that timeout functions may be delayed due to the processing of other event sources Thus they should not be relied on for precise timing After each call to the timeout function the time of the next timeout is recalculated based on the current time and the given interval it does not try to catch up time lost in delays",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "timeoutAddFull",
           "normalized": "IO Bool-\u003ePriority-\u003eInt-\u003eIO HandlerId",
@@ -5313,6 +5763,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove a previously added timeout handler by its \u003ccode\u003e\u003ca\u003eHandlerId\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.MainLoop",
           "name": "timeoutRemove",
           "package": "glib",
@@ -5323,6 +5774,7 @@
         "index": {
           "description": "Remove previously added timeout handler by its HandlerId",
           "hierarchy": "System Glib MainLoop",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.MainLoop",
           "name": "timeoutRemove",
           "normalized": "HandlerId-\u003eIO()",
@@ -5339,6 +5791,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eFunctions for getting and setting GObject properties\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "Properties",
           "package": "glib",
@@ -5348,6 +5801,7 @@
         "index": {
           "description": "Functions for getting and setting GObject properties",
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "Properties",
           "package": "glib",
@@ -5361,6 +5815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoolProperty",
           "package": "glib",
@@ -5370,6 +5825,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoolProperty",
           "normalized": "String-\u003eAttr a Bool",
@@ -5385,6 +5841,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoxedOpaqueProperty",
           "package": "glib",
@@ -5394,6 +5851,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoxedOpaqueProperty",
           "normalized": "(Ptr a-\u003eIO a)-\u003e(a-\u003e(Ptr a-\u003eIO())-\u003eIO())-\u003eString-\u003eGType-\u003eAttr b a",
@@ -5409,6 +5867,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoxedStorableProperty",
           "package": "glib",
@@ -5418,6 +5877,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromBoxedStorableProperty",
           "normalized": "String-\u003eGType-\u003eAttr a b",
@@ -5433,6 +5893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromCharProperty",
           "package": "glib",
@@ -5442,6 +5903,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromCharProperty",
           "normalized": "String-\u003eAttr a Char",
@@ -5457,6 +5919,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromDoubleProperty",
           "package": "glib",
@@ -5466,6 +5929,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromDoubleProperty",
           "normalized": "String-\u003eAttr a Double",
@@ -5481,6 +5945,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromEnumProperty",
           "package": "glib",
@@ -5490,6 +5955,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromEnumProperty",
           "normalized": "String-\u003eGType-\u003eAttr a b",
@@ -5505,6 +5971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromFlagsProperty",
           "package": "glib",
@@ -5514,6 +5981,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromFlagsProperty",
           "normalized": "String-\u003eGType-\u003eAttr a[b]",
@@ -5529,6 +5997,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromFloatProperty",
           "package": "glib",
@@ -5538,6 +6007,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromFloatProperty",
           "normalized": "String-\u003eAttr a Float",
@@ -5553,6 +6023,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromIntProperty",
           "package": "glib",
@@ -5562,6 +6033,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromIntProperty",
           "normalized": "String-\u003eAttr a Int",
@@ -5577,6 +6049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromMaybeObjectProperty",
           "package": "glib",
@@ -5586,6 +6059,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromMaybeObjectProperty",
           "normalized": "String-\u003eGType-\u003eReadWriteAttr a(Maybe b)(Maybe c)",
@@ -5601,6 +6075,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromMaybeStringProperty",
           "package": "glib",
@@ -5610,6 +6085,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromMaybeStringProperty",
           "normalized": "String-\u003eAttr a(Maybe String)",
@@ -5625,6 +6101,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromObjectProperty",
           "package": "glib",
@@ -5634,6 +6111,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromObjectProperty",
           "normalized": "String-\u003eGType-\u003eReadWriteAttr a b c",
@@ -5649,6 +6127,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromStringProperty",
           "package": "glib",
@@ -5658,6 +6137,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromStringProperty",
           "normalized": "String-\u003eAttr a String",
@@ -5673,6 +6153,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "newAttrFromUIntProperty",
           "package": "glib",
@@ -5682,6 +6163,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "newAttrFromUIntProperty",
           "normalized": "String-\u003eAttr a Int",
@@ -5697,6 +6179,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBool",
           "package": "glib",
@@ -5706,6 +6189,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBool",
           "normalized": "String-\u003ea-\u003eIO Bool",
@@ -5721,6 +6205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBoxedOpaque",
           "package": "glib",
@@ -5730,6 +6215,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBoxedOpaque",
           "normalized": "(Ptr a-\u003eIO a)-\u003eGType-\u003eString-\u003eb-\u003eIO a",
@@ -5745,6 +6231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBoxedStorable",
           "package": "glib",
@@ -5754,6 +6241,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyBoxedStorable",
           "normalized": "GType-\u003eString-\u003ea-\u003eIO b",
@@ -5769,6 +6257,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyChar",
           "package": "glib",
@@ -5778,6 +6267,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyChar",
           "normalized": "String-\u003ea-\u003eIO Char",
@@ -5793,6 +6283,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyDouble",
           "package": "glib",
@@ -5802,6 +6293,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyDouble",
           "normalized": "String-\u003ea-\u003eIO Double",
@@ -5817,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyEnum",
           "package": "glib",
@@ -5826,6 +6319,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyEnum",
           "normalized": "GType-\u003eString-\u003ea-\u003eIO b",
@@ -5841,6 +6335,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyFlags",
           "package": "glib",
@@ -5850,6 +6345,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyFlags",
           "normalized": "GType-\u003eString-\u003ea-\u003eIO[b]",
@@ -5865,6 +6361,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyFloat",
           "package": "glib",
@@ -5874,6 +6371,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyFloat",
           "normalized": "String-\u003ea-\u003eIO Float",
@@ -5889,6 +6387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyGObject",
           "package": "glib",
@@ -5898,6 +6397,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyGObject",
           "normalized": "GType-\u003eString-\u003ea-\u003eIO b",
@@ -5913,6 +6413,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInt",
           "package": "glib",
@@ -5922,6 +6423,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInt",
           "normalized": "String-\u003ea-\u003eIO Int",
@@ -5937,6 +6439,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInt64",
           "package": "glib",
@@ -5946,6 +6449,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInt64",
           "normalized": "String-\u003ea-\u003eIO Int",
@@ -5961,6 +6465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInternal",
           "package": "glib",
@@ -5970,6 +6475,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyInternal",
           "normalized": "GType-\u003e(GValue-\u003eIO a)-\u003eString-\u003eb-\u003eIO a",
@@ -5985,6 +6491,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyMaybeString",
           "package": "glib",
@@ -5994,6 +6501,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyMaybeString",
           "normalized": "String-\u003ea-\u003eIO(Maybe String)",
@@ -6009,6 +6517,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyString",
           "package": "glib",
@@ -6018,6 +6527,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyString",
           "normalized": "String-\u003ea-\u003eIO String",
@@ -6033,6 +6543,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyUInt",
           "package": "glib",
@@ -6042,6 +6553,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyUInt",
           "normalized": "String-\u003ea-\u003eIO Int",
@@ -6057,6 +6569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyUInt64",
           "package": "glib",
@@ -6066,6 +6579,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectGetPropertyUInt64",
           "normalized": "String-\u003ea-\u003eIO Word",
@@ -6081,6 +6595,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBool",
           "package": "glib",
@@ -6090,6 +6605,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBool",
           "normalized": "String-\u003ea-\u003eBool-\u003eIO()",
@@ -6105,6 +6621,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBoxedOpaque",
           "package": "glib",
@@ -6114,6 +6631,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBoxedOpaque",
           "normalized": "(a-\u003e(Ptr a-\u003eIO())-\u003eIO())-\u003eGType-\u003eString-\u003eb-\u003ea-\u003eIO()",
@@ -6129,6 +6647,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBoxedStorable",
           "package": "glib",
@@ -6138,6 +6657,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyBoxedStorable",
           "normalized": "GType-\u003eString-\u003ea-\u003eb-\u003eIO()",
@@ -6153,6 +6673,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyChar",
           "package": "glib",
@@ -6162,6 +6683,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyChar",
           "normalized": "String-\u003ea-\u003eChar-\u003eIO()",
@@ -6177,6 +6699,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyDouble",
           "package": "glib",
@@ -6186,6 +6709,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyDouble",
           "normalized": "String-\u003ea-\u003eDouble-\u003eIO()",
@@ -6201,6 +6725,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyEnum",
           "package": "glib",
@@ -6210,6 +6735,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyEnum",
           "normalized": "GType-\u003eString-\u003ea-\u003eb-\u003eIO()",
@@ -6225,6 +6751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyFlags",
           "package": "glib",
@@ -6234,6 +6761,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyFlags",
           "normalized": "GType-\u003eString-\u003ea-\u003e[b]-\u003eIO()",
@@ -6249,6 +6777,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyFloat",
           "package": "glib",
@@ -6258,6 +6787,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyFloat",
           "normalized": "String-\u003ea-\u003eFloat-\u003eIO()",
@@ -6273,6 +6803,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyGObject",
           "package": "glib",
@@ -6282,6 +6813,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyGObject",
           "normalized": "GType-\u003eString-\u003ea-\u003eb-\u003eIO()",
@@ -6297,6 +6829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInt",
           "package": "glib",
@@ -6306,6 +6839,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInt",
           "normalized": "String-\u003ea-\u003eInt-\u003eIO()",
@@ -6321,6 +6855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInt64",
           "package": "glib",
@@ -6330,6 +6865,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInt64",
           "normalized": "String-\u003ea-\u003eInt-\u003eIO()",
@@ -6345,6 +6881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInternal",
           "package": "glib",
@@ -6354,6 +6891,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyInternal",
           "normalized": "GType-\u003e(GValue-\u003ea-\u003eIO())-\u003eString-\u003eb-\u003ea-\u003eIO()",
@@ -6369,6 +6907,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyMaybeString",
           "package": "glib",
@@ -6378,6 +6917,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyMaybeString",
           "normalized": "String-\u003ea-\u003eMaybe String-\u003eIO()",
@@ -6393,6 +6933,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyString",
           "package": "glib",
@@ -6402,6 +6943,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyString",
           "normalized": "String-\u003ea-\u003eString-\u003eIO()",
@@ -6417,6 +6959,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyUInt",
           "package": "glib",
@@ -6426,6 +6969,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyUInt",
           "normalized": "String-\u003ea-\u003eInt-\u003eIO()",
@@ -6441,6 +6985,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyUInt64",
           "package": "glib",
@@ -6450,6 +6995,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "objectSetPropertyUInt64",
           "normalized": "String-\u003ea-\u003eWord-\u003eIO()",
@@ -6465,6 +7011,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromBoolProperty",
           "package": "glib",
@@ -6474,6 +7021,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromBoolProperty",
           "normalized": "String-\u003eReadAttr a Bool",
@@ -6489,6 +7037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromBoxedOpaqueProperty",
           "package": "glib",
@@ -6498,6 +7047,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromBoxedOpaqueProperty",
           "normalized": "(Ptr a-\u003eIO a)-\u003eString-\u003eGType-\u003eReadAttr b a",
@@ -6513,6 +7063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromEnumProperty",
           "package": "glib",
@@ -6522,6 +7073,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromEnumProperty",
           "normalized": "String-\u003eGType-\u003eReadAttr a b",
@@ -6537,6 +7089,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromIntProperty",
           "package": "glib",
@@ -6546,6 +7099,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromIntProperty",
           "normalized": "String-\u003eReadAttr a Int",
@@ -6561,6 +7115,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromMaybeObjectProperty",
           "package": "glib",
@@ -6570,6 +7125,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromMaybeObjectProperty",
           "normalized": "String-\u003eGType-\u003eReadAttr a(Maybe b)",
@@ -6585,6 +7141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromMaybeStringProperty",
           "package": "glib",
@@ -6594,6 +7151,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromMaybeStringProperty",
           "normalized": "String-\u003eReadAttr a(Maybe String)",
@@ -6609,6 +7167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromObjectProperty",
           "package": "glib",
@@ -6618,6 +7177,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromObjectProperty",
           "normalized": "String-\u003eGType-\u003eReadAttr a b",
@@ -6633,6 +7193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "readAttrFromStringProperty",
           "package": "glib",
@@ -6642,6 +7203,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "readAttrFromStringProperty",
           "normalized": "String-\u003eReadAttr a String",
@@ -6657,6 +7219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromBoxedOpaqueProperty",
           "package": "glib",
@@ -6666,6 +7229,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromBoxedOpaqueProperty",
           "normalized": "(a-\u003e(Ptr a-\u003eIO())-\u003eIO())-\u003eString-\u003eGType-\u003eWriteAttr b a",
@@ -6681,6 +7245,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromEnumProperty",
           "package": "glib",
@@ -6690,6 +7255,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromEnumProperty",
           "normalized": "String-\u003eGType-\u003eWriteAttr a b",
@@ -6705,6 +7271,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromMaybeObjectProperty",
           "package": "glib",
@@ -6714,6 +7281,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromMaybeObjectProperty",
           "normalized": "String-\u003eGType-\u003eWriteAttr a(Maybe b)",
@@ -6729,6 +7297,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromMaybeStringProperty",
           "package": "glib",
@@ -6738,6 +7307,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromMaybeStringProperty",
           "normalized": "String-\u003eWriteAttr a(Maybe String)",
@@ -6753,6 +7323,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromObjectProperty",
           "package": "glib",
@@ -6762,6 +7333,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromObjectProperty",
           "normalized": "String-\u003eGType-\u003eWriteAttr a b",
@@ -6777,6 +7349,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromStringProperty",
           "package": "glib",
@@ -6786,6 +7359,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromStringProperty",
           "normalized": "String-\u003eWriteAttr a String",
@@ -6801,6 +7375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromUIntProperty",
           "package": "glib",
@@ -6810,6 +7385,7 @@
         },
         "index": {
           "hierarchy": "System Glib Properties",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Properties",
           "name": "writeAttrFromUIntProperty",
           "normalized": "String-\u003eWriteAttr a Int",
@@ -6825,6 +7401,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "Signals",
           "package": "glib",
@@ -6833,6 +7410,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "Signals",
           "package": "glib",
@@ -6846,6 +7424,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "ConnectAfter",
           "package": "glib",
@@ -6854,6 +7433,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "ConnectAfter",
           "package": "glib",
@@ -6868,6 +7448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of signal handler ids. If you ever need to \u003ccode\u003e\u003ca\u003edisconnect\u003c/a\u003e\u003c/code\u003e a signal\n handler then you will need to retain the \u003ccode\u003e\u003ca\u003eConnectId\u003c/a\u003e\u003c/code\u003e you got when you\n registered it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "ConnectId",
           "package": "glib",
@@ -6877,6 +7458,7 @@
         "index": {
           "description": "The type of signal handler ids If you ever need to disconnect signal handler then you will need to retain the ConnectId you got when you registered it",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "ConnectId",
           "package": "glib",
@@ -6890,6 +7472,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "GClosure",
           "package": "glib",
@@ -6898,6 +7481,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "GClosure",
           "package": "glib",
@@ -6911,6 +7495,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "Signal",
           "package": "glib",
@@ -6919,6 +7504,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "Signal",
           "package": "glib",
@@ -6932,6 +7518,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "SignalName",
           "package": "glib",
@@ -6940,6 +7527,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "SignalName",
           "package": "glib",
@@ -6953,6 +7541,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "ConnectId",
           "package": "glib",
@@ -6962,6 +7551,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "ConnectId",
           "package": "glib",
@@ -6975,6 +7565,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "Signal",
           "package": "glib",
@@ -6984,6 +7575,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "Signal",
           "normalized": "Signal(Bool-\u003ea-\u003eb-\u003eIO(ConnectId a))",
@@ -7000,6 +7592,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action in response to a signal.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Like \u003ccode\u003e\u003ca\u003eon\u003c/a\u003e\u003c/code\u003e but the signal is executed after Gtk's default handler has\n run.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "after",
           "package": "glib",
@@ -7010,6 +7603,7 @@
         "index": {
           "description": "Perform an action in response to signal Like on but the signal is executed after Gtk default handler has run",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "after",
           "normalized": "a-\u003eSignal a b-\u003eb-\u003eIO(ConnectId a)",
@@ -7024,6 +7618,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "connectGeneric",
           "package": "glib",
@@ -7033,6 +7628,7 @@
         },
         "index": {
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "connectGeneric",
           "normalized": "SignalName-\u003eConnectAfter-\u003ea-\u003eb-\u003eIO(ConnectId a)",
@@ -7049,6 +7645,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: use signalDisconnect instead\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "disconnect",
           "package": "glib",
@@ -7059,6 +7656,7 @@
         "index": {
           "description": "Deprecated use signalDisconnect instead",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "disconnect",
           "normalized": "ConnectId a-\u003eIO()",
@@ -7074,6 +7672,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePerform an action in response to a signal.\n\u003c/p\u003e\u003cp\u003eUse it like this:\n\u003c/p\u003e\u003cpre\u003e on obj sig $ do\n ...\n\u003c/pre\u003e\u003cp\u003eor if the signal handler takes any arguments:\n\u003c/p\u003e\u003cpre\u003e on obj sig $ \\args -\u003e do\n ...\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "on",
           "package": "glib",
@@ -7084,6 +7683,7 @@
         "index": {
           "description": "Perform an action in response to signal Use it like this on obj sig do or if the signal handler takes any arguments on obj sig args do",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "on",
           "normalized": "a-\u003eSignal a b-\u003eb-\u003eIO(ConnectId a)",
@@ -7099,6 +7699,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eBlock a specific signal handler.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Blocks a handler of an instance so it will not be called during any\n signal emissions unless it is unblocked again. Thus \"blocking\" a signal\n handler means to temporarily deactive it, a signal handler has to be\n unblocked exactly the same amount of times it has been blocked before\n to become active again.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "signalBlock",
           "package": "glib",
@@ -7109,6 +7710,7 @@
         "index": {
           "description": "Block specific signal handler Blocks handler of an instance so it will not be called during any signal emissions unless it is unblocked again Thus blocking signal handler means to temporarily deactive it signal handler has to be unblocked exactly the same amount of times it has been blocked before to become active again",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "signalBlock",
           "normalized": "ConnectId a-\u003eIO()",
@@ -7125,6 +7727,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDisconnect a signal handler. After disconnecting the handler will no\n longer be invoked when the event occurs.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "signalDisconnect",
           "package": "glib",
@@ -7135,6 +7738,7 @@
         "index": {
           "description": "Disconnect signal handler After disconnecting the handler will no longer be invoked when the event occurs",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "signalDisconnect",
           "normalized": "ConnectId a-\u003eIO()",
@@ -7151,6 +7755,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eStops a signal's current emission.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e This will prevent the default method from running. The sequence in which\n handlers are run is \"first\", \"on\", \"last\" then \"after\" where\n Gtk-internal\n signals are connected either at \"first\" or at \"last\". Hence this\n function can only stop the signal processing if it is called from within\n a handler that is connected with an \"on\" signal and if the Gtk-internal\n handler is connected as \"last\". Gtk prints a warning if this function\n is used on a signal which isn't being emitted.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "signalStopEmission",
           "package": "glib",
@@ -7161,6 +7766,7 @@
         "index": {
           "description": "Stops signal current emission This will prevent the default method from running The sequence in which handlers are run is first on last then after where Gtk-internal signals are connected either at first or at last Hence this function can only stop the signal processing if it is called from within handler that is connected with an on signal and if the Gtk-internal handler is connected as last Gtk prints warning if this function is used on signal which isn being emitted",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "signalStopEmission",
           "normalized": "a-\u003eSignalName-\u003eIO()",
@@ -7177,6 +7783,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUnblock a specific signal handler.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Undoes the effect of a previous \u003ccode\u003e\u003ca\u003esignalBlock\u003c/a\u003e\u003c/code\u003e call. A blocked handler\n is skipped during signal emissions and will not be invoked, unblocking\n it (for exactly the amount of times it has been blocked before) reverts\n its \"blocked\" state, so the handler will be recognized by the signal\n system and is called upon future or currently ongoing signal emissions\n (since the order in which handlers are called during signal emissions\n is deterministic, whether the unblocked handler in question is called\n as part of a currently ongoing emission depends on how far that\n emission has proceeded yet).\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Signals",
           "name": "signalUnblock",
           "package": "glib",
@@ -7187,6 +7794,7 @@
         "index": {
           "description": "Unblock specific signal handler Undoes the effect of previous signalBlock call blocked handler is skipped during signal emissions and will not be invoked unblocking it for exactly the amount of times it has been blocked before reverts its blocked state so the handler will be recognized by the signal system and is called upon future or currently ongoing signal emissions since the order in which handlers are called during signal emissions is deterministic whether the unblocked handler in question is called as part of currently ongoing emission depends on how far that emission has proceeded yet",
           "hierarchy": "System Glib Signals",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Signals",
           "name": "signalUnblock",
           "normalized": "ConnectId a-\u003eIO()",
@@ -7202,6 +7810,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "StoreValue",
           "package": "glib",
@@ -7210,6 +7819,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "StoreValue",
           "package": "glib",
@@ -7224,6 +7834,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA union with information about the currently stored type.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e Internally used by \u003ca\u003eGraphics.UI.Gtk.TreeList.TreeModel\u003c/a\u003e.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GenericValue",
           "package": "glib",
@@ -7233,6 +7844,7 @@
         "index": {
           "description": "union with information about the currently stored type Internally used by Graphics.UI.Gtk.TreeList.TreeModel",
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GenericValue",
           "package": "glib",
@@ -7246,6 +7858,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMType",
           "package": "glib",
@@ -7254,6 +7867,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMType",
           "package": "glib",
@@ -7267,6 +7881,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVboolean",
           "package": "glib",
@@ -7276,6 +7891,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVboolean",
           "package": "glib",
@@ -7289,6 +7905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVdouble",
           "package": "glib",
@@ -7298,6 +7915,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVdouble",
           "package": "glib",
@@ -7311,6 +7929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVenum",
           "package": "glib",
@@ -7320,6 +7939,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVenum",
           "package": "glib",
@@ -7333,6 +7953,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVflags",
           "package": "glib",
@@ -7342,6 +7963,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVflags",
           "package": "glib",
@@ -7355,6 +7977,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVfloat",
           "package": "glib",
@@ -7364,6 +7987,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVfloat",
           "package": "glib",
@@ -7377,6 +8001,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVint",
           "package": "glib",
@@ -7386,6 +8011,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVint",
           "package": "glib",
@@ -7399,6 +8025,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVobject",
           "package": "glib",
@@ -7408,6 +8035,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVobject",
           "package": "glib",
@@ -7421,6 +8049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVstring",
           "package": "glib",
@@ -7430,6 +8059,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVstring",
           "package": "glib",
@@ -7443,6 +8073,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "GVuint",
           "package": "glib",
@@ -7452,6 +8083,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "GVuint",
           "package": "glib",
@@ -7465,6 +8097,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMboolean",
           "package": "glib",
@@ -7474,6 +8107,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMboolean",
           "package": "glib",
@@ -7487,6 +8121,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMdouble",
           "package": "glib",
@@ -7496,6 +8131,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMdouble",
           "package": "glib",
@@ -7509,6 +8145,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMenum",
           "package": "glib",
@@ -7518,6 +8155,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMenum",
           "package": "glib",
@@ -7531,6 +8169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMflags",
           "package": "glib",
@@ -7540,6 +8179,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMflags",
           "package": "glib",
@@ -7553,6 +8193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMfloat",
           "package": "glib",
@@ -7562,6 +8203,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMfloat",
           "package": "glib",
@@ -7575,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMint",
           "package": "glib",
@@ -7584,6 +8227,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMint",
           "package": "glib",
@@ -7597,6 +8241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMinvalid",
           "package": "glib",
@@ -7606,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMinvalid",
           "package": "glib",
@@ -7619,6 +8265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMobject",
           "package": "glib",
@@ -7628,6 +8275,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMobject",
           "package": "glib",
@@ -7641,6 +8289,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMstring",
           "package": "glib",
@@ -7650,6 +8299,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMstring",
           "package": "glib",
@@ -7663,6 +8313,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "TMuint",
           "package": "glib",
@@ -7672,6 +8323,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "TMuint",
           "package": "glib",
@@ -7685,6 +8337,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "valueGetGenericValue",
           "package": "glib",
@@ -7694,6 +8347,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "valueGetGenericValue",
           "normalized": "GValue-\u003eIO GenericValue",
@@ -7709,6 +8363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.StoreValue",
           "name": "valueSetGenericValue",
           "package": "glib",
@@ -7718,6 +8373,7 @@
         },
         "index": {
           "hierarchy": "System Glib StoreValue",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.StoreValue",
           "name": "valueSetGenericValue",
           "normalized": "GValue-\u003eGenericValue-\u003eIO()",
@@ -7734,6 +8390,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module adds CString-like functions that handle UTF8 strings.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "UTFString",
           "package": "glib",
@@ -7743,6 +8400,7 @@
         "index": {
           "description": "This module adds CString-like functions that handle UTF8 strings",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "UTFString",
           "package": "glib",
@@ -7757,6 +8415,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eOffset correction for String to UTF8 mapping.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "UTFCorrection",
           "package": "glib",
@@ -7766,6 +8425,7 @@
         "index": {
           "description": "Offset correction for String to UTF8 mapping",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "UTFCorrection",
           "package": "glib",
@@ -7780,6 +8440,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a list of offset corrections.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "genUTFOfs",
           "package": "glib",
@@ -7790,6 +8451,7 @@
         "index": {
           "description": "Create list of offset corrections",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "genUTFOfs",
           "normalized": "String-\u003eUTFCorrection",
@@ -7806,6 +8468,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003emaybePeek\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003epeekCString\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding to retrieve\n UTF-8 from a \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003e which may be the \u003ccode\u003e\u003ca\u003enullPtr\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "maybePeekUTFString",
           "package": "glib",
@@ -7816,6 +8479,7 @@
         "index": {
           "description": "Like maybePeek peekCString but using the UTF-8 encoding to retrieve UTF-8 from CString which may be the nullPtr",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "maybePeekUTFString",
           "normalized": "CString-\u003eIO(Maybe String)",
@@ -7832,6 +8496,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003enewCString\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "newUTFString",
           "package": "glib",
@@ -7842,6 +8507,7 @@
         "index": {
           "description": "Like newCString but using the UTF-8 encoding",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "newUTFString",
           "normalized": "String-\u003eIO CString",
@@ -7858,6 +8524,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike  Define newUTFStringLen to emit UTF-8.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "newUTFStringLen",
           "package": "glib",
@@ -7868,6 +8535,7 @@
         "index": {
           "description": "Like Define newUTFStringLen to emit UTF-8",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "newUTFStringLen",
           "normalized": "String-\u003eIO CStringLen",
@@ -7883,6 +8551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "ofsFromUTF",
           "package": "glib",
@@ -7892,6 +8561,7 @@
         },
         "index": {
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "ofsFromUTF",
           "normalized": "Int-\u003eUTFCorrection-\u003eInt",
@@ -7907,6 +8577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "ofsToUTF",
           "package": "glib",
@@ -7916,6 +8587,7 @@
         },
         "index": {
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "ofsToUTF",
           "normalized": "Int-\u003eUTFCorrection-\u003eInt",
@@ -7932,6 +8604,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeekCString\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "peekUTFString",
           "package": "glib",
@@ -7942,6 +8615,7 @@
         "index": {
           "description": "Like peekCString but using the UTF-8 encoding",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "peekUTFString",
           "normalized": "CString-\u003eIO String",
@@ -7958,6 +8632,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert an array (of the given length) of UTF-8 encoded \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003es to a\n   list of Haskell \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringArray",
           "package": "glib",
@@ -7968,6 +8643,7 @@
         "index": {
           "description": "Convert an array of the given length of UTF-8 encoded CString to list of Haskell String",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringArray",
           "normalized": "Int-\u003ePtr CString-\u003eIO[String]",
@@ -7984,6 +8660,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eConvert a null-terminated array of UTF-8 encoded \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003es to a list of\n   Haskell \u003ccode\u003e\u003ca\u003eString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringArray0",
           "package": "glib",
@@ -7994,6 +8671,7 @@
         "index": {
           "description": "Convert null-terminated array of UTF-8 encoded CString to list of Haskell String",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringArray0",
           "normalized": "Ptr CString-\u003eIO[String]",
@@ -8010,6 +8688,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeekCStringLen\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringLen",
           "package": "glib",
@@ -8020,6 +8699,7 @@
         "index": {
           "description": "Like peekCStringLen but using the UTF-8 encoding",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "peekUTFStringLen",
           "normalized": "CStringLen-\u003eIO String",
@@ -8036,6 +8716,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeekCString\u003c/a\u003e\u003c/code\u003e but then frees the string using \u003ccode\u003eg_free\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "readCString",
           "package": "glib",
@@ -8046,6 +8727,7 @@
         "index": {
           "description": "Like peekCString but then frees the string using free",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "readCString",
           "normalized": "CString-\u003eIO String",
@@ -8062,6 +8744,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike like \u003ccode\u003e\u003ca\u003epeekUTFString\u003c/a\u003e\u003c/code\u003e but then frees the string using g_free\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "readUTFString",
           "package": "glib",
@@ -8072,6 +8755,7 @@
         "index": {
           "description": "Like like peekUTFString but then frees the string using free",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "readUTFString",
           "normalized": "CString-\u003eIO String",
@@ -8088,6 +8772,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003epeekUTFStringArray0\u003c/a\u003e\u003c/code\u003e but then free the string array including all\n strings.\n\u003c/p\u003e\u003cp\u003eTo be used when functions indicate that their return value should be freed\n with \u003ccode\u003eg_strfreev\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "readUTFStringArray0",
           "package": "glib",
@@ -8098,6 +8783,7 @@
         "index": {
           "description": "Like peekUTFStringArray0 but then free the string array including all strings To be used when functions indicate that their return value should be freed with strfreev",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "readUTFStringArray0",
           "normalized": "Ptr CString-\u003eIO[String]",
@@ -8114,6 +8800,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithCString\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "withUTFString",
           "package": "glib",
@@ -8124,6 +8811,7 @@
         "index": {
           "description": "Like withCString but using the UTF-8 encoding",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "withUTFString",
           "normalized": "String-\u003e(CString-\u003eIO a)-\u003eIO a",
@@ -8140,6 +8828,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily allocate an array of UTF-8 encoded \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringArray",
           "package": "glib",
@@ -8150,6 +8839,7 @@
         "index": {
           "description": "Temporarily allocate an array of UTF-8 encoded CString",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringArray",
           "normalized": "[String]-\u003e(Ptr CString-\u003eIO a)-\u003eIO a",
@@ -8166,6 +8856,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily allocate a null-terminated array of UTF-8 encoded \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringArray0",
           "package": "glib",
@@ -8176,6 +8867,7 @@
         "index": {
           "description": "Temporarily allocate null-terminated array of UTF-8 encoded CString",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringArray0",
           "normalized": "[String]-\u003e(Ptr CString-\u003eIO a)-\u003eIO a",
@@ -8192,6 +8884,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eLike \u003ccode\u003e\u003ca\u003ewithCStringLen\u003c/a\u003e\u003c/code\u003e but using the UTF-8 encoding.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringLen",
           "package": "glib",
@@ -8202,6 +8895,7 @@
         "index": {
           "description": "Like withCStringLen but using the UTF-8 encoding",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "withUTFStringLen",
           "normalized": "String-\u003e(CStringLen-\u003eIO a)-\u003eIO a",
@@ -8218,6 +8912,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTemporarily allocate a list of UTF-8 \u003ccode\u003e\u003ca\u003eCString\u003c/a\u003e\u003c/code\u003es.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.UTFString",
           "name": "withUTFStrings",
           "package": "glib",
@@ -8228,6 +8923,7 @@
         "index": {
           "description": "Temporarily allocate list of UTF-8 CString",
           "hierarchy": "System Glib UTFString",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.UTFString",
           "name": "withUTFStrings",
           "normalized": "[String]-\u003e([CString]-\u003eIO a)-\u003eIO a",
@@ -8244,6 +8940,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis module binds GLib-specific utility procedures.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Utils",
           "name": "Utils",
           "package": "glib",
@@ -8253,6 +8950,7 @@
         "index": {
           "description": "This module binds GLib-specific utility procedures",
           "hierarchy": "System Glib Utils",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Utils",
           "name": "Utils",
           "package": "glib",
@@ -8267,6 +8965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets a human-readable name for the application, as set by\n \u003ccode\u003e\u003ca\u003esetApplicationName\u003c/a\u003e\u003c/code\u003e. This name should be localized if possible, and is\n intended for display to the user. Contrast with \u003ccode\u003e\u003ca\u003egetProgramName\u003c/a\u003e\u003c/code\u003e, which\n gets a non-localized name. If \u003ccode\u003e\u003ca\u003esetApplicationName\u003c/a\u003e\u003c/code\u003e has not been performed,\n returns the result of \u003ccode\u003e\u003ca\u003egetProgramName\u003c/a\u003e\u003c/code\u003e (which may be \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e if\n \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e has also not been performed).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Utils",
           "name": "getApplicationName",
           "package": "glib",
@@ -8277,6 +8976,7 @@
         "index": {
           "description": "Gets human-readable name for the application as set by setApplicationName This name should be localized if possible and is intended for display to the user Contrast with getProgramName which gets non-localized name If setApplicationName has not been performed returns the result of getProgramName which may be Nothing if setProgramName has also not been performed",
           "hierarchy": "System Glib Utils",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Utils",
           "name": "getApplicationName",
           "package": "glib",
@@ -8291,6 +8991,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGets the name of the program. This name should \u003cem\u003enot\u003c/em\u003e be localized, contrast\n with \u003ccode\u003e\u003ca\u003egetApplicationName\u003c/a\u003e\u003c/code\u003e. If you are using GDK or GTK+, the program name\n is set in \u003ccode\u003einitGUI\u003c/code\u003e to the last component of argv[0].\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Utils",
           "name": "getProgramName",
           "package": "glib",
@@ -8301,6 +9002,7 @@
         "index": {
           "description": "Gets the name of the program This name should not be localized contrast with getApplicationName If you are using GDK or GTK the program name is set in initGUI to the last component of argv",
           "hierarchy": "System Glib Utils",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Utils",
           "name": "getProgramName",
           "package": "glib",
@@ -8315,6 +9017,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets a human-readable name for the application. This name should be\n localized if possible, and is intended for display to the user. Contrast\n with \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e, which sets a non-localized name. \u003ccode\u003e\u003ca\u003esetProgramName\u003c/a\u003e\u003c/code\u003e\n will be performed automatically by \u003ccode\u003einitGUI\u003c/code\u003e, but \u003ccode\u003e\u003ca\u003esetApplicationName\u003c/a\u003e\u003c/code\u003e\n will not.\n\u003c/p\u003e\u003cp\u003eNote that for thread safety reasons, this computation can only be performed\n once.\n\u003c/p\u003e\u003cp\u003eThe application name will be used in contexts such as error messages, or\n when displaying an application's name in the task list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Utils",
           "name": "setApplicationName",
           "package": "glib",
@@ -8325,6 +9028,7 @@
         "index": {
           "description": "Sets human-readable name for the application This name should be localized if possible and is intended for display to the user Contrast with setProgramName which sets non-localized name setProgramName will be performed automatically by initGUI but setApplicationName will not Note that for thread safety reasons this computation can only be performed once The application name will be used in contexts such as error messages or when displaying an application name in the task list",
           "hierarchy": "System Glib Utils",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Utils",
           "name": "setApplicationName",
           "normalized": "String-\u003eIO()",
@@ -8341,6 +9045,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSets the name of the program. This name should \u003cem\u003enot\u003c/em\u003e be localized, contrast\n with \u003ccode\u003e\u003ca\u003esetApplicationName\u003c/a\u003e\u003c/code\u003e. Note that for thread-safety reasons this\n computation can only be performed once.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib.Utils",
           "name": "setProgramName",
           "package": "glib",
@@ -8351,6 +9056,7 @@
         "index": {
           "description": "Sets the name of the program This name should not be localized contrast with setApplicationName Note that for thread-safety reasons this computation can only be performed once",
           "hierarchy": "System Glib Utils",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib.Utils",
           "name": "setProgramName",
           "normalized": "String-\u003eIO()",
@@ -8366,6 +9072,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:17:58 UTC 2014",
           "module": "System.Glib",
           "name": "Glib",
           "package": "glib",
@@ -8374,6 +9081,7 @@
         },
         "index": {
           "hierarchy": "System Glib",
+          "indexed": "2014-03-11T18:17:58",
           "module": "System.Glib",
           "name": "Glib",
           "package": "glib",

@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hmatrix-svdlibc"
+        "phrase": "hmatrix-svdlibc",
+        "type": "phrase"
       },
       "type": "context"
     }

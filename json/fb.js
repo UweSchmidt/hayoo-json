@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "fb"
+        "phrase": "fb",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Facebook",
           "package": "fb",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Facebook",
           "package": "fb",
@@ -40,6 +42,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn access token.  While you can make some API calls without\n an access token, many require an access token and some will\n give you more information with an appropriate access token.\n\u003c/p\u003e\u003cp\u003eThere are two kinds of access tokens:\n\u003c/p\u003e\u003cdl\u003e\u003cdt\u003eUser access token\u003c/dt\u003e\u003cdd\u003e An access token obtained after an user\n accepts your application.  Let's you access more information\n about that user and act on their behalf (depending on which\n permissions you've asked for).\n\u003c/dd\u003e\u003cdt\u003eApp access token\u003c/dt\u003e\u003cdd\u003e An access token that allows you to take\n administrative actions for your application.\n\u003c/dd\u003e\u003c/dl\u003e\u003cp\u003eThese two kinds of access tokens are distinguished by the\n phantom type on \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e, which can be \u003ccode\u003e\u003ca\u003eUserKind\u003c/a\u003e\u003c/code\u003e or\n \u003ccode\u003e\u003ca\u003eAppKind\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AccessToken",
           "package": "fb",
@@ -49,6 +52,7 @@
         "index": {
           "description": "An access token While you can make some API calls without an access token many require an access token and some will give you more information with an appropriate access token There are two kinds of access tokens User access token An access token obtained after an user accepts your application Let you access more information about that user and act on their behalf depending on which permissions you ve asked for App access token An access token that allows you to take administrative actions for your application These two kinds of access tokens are distinguished by the phantom type on AccessToken which can be UserKind or AppKind",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AccessToken",
           "package": "fb",
@@ -63,6 +67,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe access token data that is passed to Facebook's API\n calls.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AccessTokenData",
           "package": "fb",
@@ -72,6 +77,7 @@
         "index": {
           "description": "The access token data that is passed to Facebook API calls",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AccessTokenData",
           "package": "fb",
@@ -86,6 +92,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn action of your app.  Please refer to Facebook's\n documentation at\n \u003ca\u003ehttps://developers.facebook.com/docs/opengraph/keyconcepts/#actions-objects\u003c/a\u003e\n to see how you can create actions.\n\u003c/p\u003e\u003cp\u003eThis is a \u003ccode\u003enewtype\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e that supports only \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e.\n This means that to create an \u003ccode\u003e\u003ca\u003eAction\u003c/a\u003e\u003c/code\u003e you should use the\n \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension.  For example,\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n foo token = do\n   ...\n   createAction \"cook\" [...] token\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Action",
           "package": "fb",
@@ -95,6 +102,7 @@
         "index": {
           "description": "An action of your app Please refer to Facebook documentation at https developers.facebook.com docs opengraph keyconcepts actions-objects to see how you can create actions This is newtype of Text that supports only IsString This means that to create an Action you should use the OverloadedStrings language extension For example LANGUAGE OverloadedStrings foo token do createAction cook token",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Action",
           "package": "fb",
@@ -109,6 +117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eAppKind\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AppAccessToken",
           "package": "fb",
@@ -118,6 +127,7 @@
         "index": {
           "description": "Type synonym for AccessToken AppKind",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AppAccessToken",
           "package": "fb",
@@ -132,6 +142,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used mark an \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e as an app access\n token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AppKind",
           "package": "fb",
@@ -141,6 +152,7 @@
         "index": {
           "description": "Phantom type used mark an AccessToken as an app access token",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AppKind",
           "package": "fb",
@@ -155,6 +167,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn argument given to an API call.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Argument",
           "package": "fb",
@@ -164,6 +177,7 @@
         "index": {
           "description": "An argument given to an API call",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Argument",
           "package": "fb",
@@ -178,6 +192,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type stating that you have provided your\n \u003ccode\u003e\u003ca\u003eCredentials\u003c/a\u003e\u003c/code\u003e and thus have access to the whole API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Auth",
           "package": "fb",
@@ -187,6 +202,7 @@
         "index": {
           "description": "Phantom type stating that you have provided your Credentials and thus have access to the whole API",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Auth",
           "package": "fb",
@@ -201,6 +217,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook check-in (see\n \u003ca\u003ehttps://developers.facebook.com/docs/reference/api/checkin/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNOTE:\u003c/em\u003e We still don't support all fields supported by\n Facebook. Please fill an issue if you need access to any other\n fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Checkin",
           "package": "fb",
@@ -210,6 +227,7 @@
         "index": {
           "description": "Facebook check-in see https developers.facebook.com docs reference api checkin NOTE We still don support all fields supported by Facebook Please fill an issue if you need access to any other fields",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Checkin",
           "package": "fb",
@@ -224,6 +242,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about the user who made the check-in.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CheckinFrom",
           "package": "fb",
@@ -233,6 +252,7 @@
         "index": {
           "description": "Information about the user who made the check-in",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CheckinFrom",
           "package": "fb",
@@ -247,6 +267,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eData type used to hold information of a new test user. This type\n also accepts a Data.Default value.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUser",
           "package": "fb",
@@ -256,6 +277,7 @@
         "index": {
           "description": "Data type used to hold information of new test user This type also accepts Data.Default value",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUser",
           "package": "fb",
@@ -270,6 +292,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSpecify if the app is to be installed on the new test user.  If\n it is, then you must tell what permissions should be given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUserInstalled",
           "package": "fb",
@@ -279,6 +302,7 @@
         "index": {
           "description": "Specify if the app is to be installed on the new test user If it is then you must tell what permissions should be given",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUserInstalled",
           "package": "fb",
@@ -293,6 +317,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCredentials that you get for your app when you register on\n Facebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Credentials",
           "package": "fb",
@@ -302,6 +327,7 @@
         "index": {
           "description": "Credentials that you get for your app when you register on Facebook",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Credentials",
           "package": "fb",
@@ -316,6 +342,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eDetailed information about an access token (cf. \u003ccode\u003e\u003ca\u003edebugToken\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "DebugToken",
           "package": "fb",
@@ -325,6 +352,7 @@
         "index": {
           "description": "Detailed information about an access token cf debugToken",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "DebugToken",
           "package": "fb",
@@ -339,6 +367,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewtype\u003c/code\u003e wrapper around lists that works around FQL's\n strange lists.\n\u003c/p\u003e\u003cp\u003eFor example, if you fetch the \u003ccode\u003etagged_uids\u003c/code\u003e field from\n \u003ccode\u003elocation_post\u003c/code\u003e, you'll find that Facebook's FQL represents an\n empty list of tagged UIDs as plain JSON array (\u003ccode\u003e[]\u003c/code\u003e).\n However, it represents a singleton list as an object\n \u003ccode\u003e{\"1234\": 1234}\u003c/code\u003e instead of the much more correct \u003ccode\u003e[1234]\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eOn the other hand, not all FQL arrays are represented in this\n bogus manner.  Also, some so-called arrays by FQL's\n documentation are actually objects, see \u003ccode\u003e\u003ca\u003eFQLObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLList",
           "package": "fb",
@@ -348,6 +377,7 @@
         "index": {
           "description": "newtype wrapper around lists that works around FQL strange lists For example if you fetch the tagged uids field from location post you ll find that Facebook FQL represents an empty list of tagged UIDs as plain JSON array However it represents singleton list as an object instead of the much more correct On the other hand not all FQL arrays are represented in this bogus manner Also some so-called arrays by FQL documentation are actually objects see FQLObject",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLList",
           "package": "fb",
@@ -362,6 +392,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewtype\u003c/code\u003e wrapper around any object that works around FQL's\n strange objects.\n\u003c/p\u003e\u003cp\u003eFor example, if you fetch the \u003ccode\u003eapp_data\u003c/code\u003e field from \u003ccode\u003estream\u003c/code\u003e,\n you'll find that empty objects are actually represented as\n empty lists \u003ccode\u003e[]\u003c/code\u003e instead of a proper empty object \u003ccode\u003e{}\u003c/code\u003e.  Also\n note that FQL's documentation says that \u003ccode\u003eapp_data\u003c/code\u003e is an\n array, which it clear is not.  See also \u003ccode\u003e\u003ca\u003eFQLList\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLObject",
           "package": "fb",
@@ -371,6 +402,7 @@
         "index": {
           "description": "newtype wrapper around any object that works around FQL strange objects For example if you fetch the app data field from stream you ll find that empty objects are actually represented as empty lists instead of proper empty object Also note that FQL documentation says that app data is an array which it clear is not See also FQLList",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLObject",
           "package": "fb",
@@ -385,6 +417,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Deprecated since fb 0.14.7, please use FbUTCTime instead.\n\u003c/p\u003e\u003c/div\u003e\u003cp\u003e\u003ccode\u003enewtype\u003c/code\u003e wrapper around \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that is able to parse\n FQL's time representation as seconds since the Unix epoch.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLTime",
           "package": "fb",
@@ -394,6 +427,7 @@
         "index": {
           "description": "Deprecated Deprecated since fb please use FbUTCTime instead newtype wrapper around UTCTime that is able to parse FQL time representation as seconds since the Unix epoch",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLTime",
           "package": "fb",
@@ -408,6 +442,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception that may be thrown by functions on this\n package.  Includes any information provided by Facebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FacebookException",
           "package": "fb",
@@ -417,6 +452,7 @@
         "index": {
           "description": "An exception that may be thrown by functions on this package Includes any information provided by Facebook",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FacebookException",
           "package": "fb",
@@ -431,6 +467,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eFacebookT auth m a\u003c/code\u003e is this library's monad transformer.\n Contains information needed to issue commands and queries to\n Facebook.  The phantom type \u003ccode\u003eauth\u003c/code\u003e may be either \u003ccode\u003e\u003ca\u003eAuth\u003c/a\u003e\u003c/code\u003e (you\n have supplied your \u003ccode\u003e\u003ca\u003eCredentials\u003c/a\u003e\u003c/code\u003e) or \u003ccode\u003e\u003ca\u003eNoAuth\u003c/a\u003e\u003c/code\u003e (you have not\n supplied any \u003ccode\u003e\u003ca\u003eCredentials\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FacebookT",
           "package": "fb",
@@ -440,6 +477,7 @@
         "index": {
           "description": "FacebookT auth is this library monad transformer Contains information needed to issue commands and queries to Facebook The phantom type auth may be either Auth you have supplied your Credentials or NoAuth you have not supplied any Credentials",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FacebookT",
           "package": "fb",
@@ -454,6 +492,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003enewtype\u003c/code\u003e for \u003ccode\u003e\u003ca\u003eUTCTime\u003c/a\u003e\u003c/code\u003e that follows Facebook's\n conventions of JSON parsing.\n\u003c/p\u003e\u003cul\u003e\u003cli\u003e As a string, while \u003ccode\u003eaeson\u003c/code\u003e expects a format of \u003ccode\u003e%FT%T%Q\u003c/code\u003e,\n    Facebook gives time values formatted as \u003ccode\u003e%FT%T%z\u003c/code\u003e.\n\u003c/li\u003e\u003cli\u003e As a number, \u003ccode\u003e\u003ca\u003eFbUTCTime\u003c/a\u003e\u003c/code\u003e accepts a number of seconds since\n    the Unix epoch.\n\u003c/li\u003e\u003c/ul\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FbUTCTime",
           "package": "fb",
@@ -463,6 +502,7 @@
         "index": {
           "description": "newtype for UTCTime that follows Facebook conventions of JSON parsing As string while aeson expects format of FT Facebook gives time values formatted as FT As number FbUTCTime accepts number of seconds since the Unix epoch",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FbUTCTime",
           "package": "fb",
@@ -477,6 +517,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA friend connection of a \u003ccode\u003e\u003ca\u003eUser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Friend",
           "package": "fb",
@@ -486,6 +527,7 @@
         "index": {
           "description": "friend connection of User",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Friend",
           "package": "fb",
@@ -500,6 +542,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA friend list for a \u003ccode\u003e\u003ca\u003eUser\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FriendList",
           "package": "fb",
@@ -509,6 +552,7 @@
         "index": {
           "description": "friend list for User",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FriendList",
           "package": "fb",
@@ -522,6 +566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FriendListType",
           "package": "fb",
@@ -530,6 +575,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FriendListType",
           "package": "fb",
@@ -544,6 +590,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn user's gender.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Gender",
           "package": "fb",
@@ -553,6 +600,7 @@
         "index": {
           "description": "An user gender",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Gender",
           "package": "fb",
@@ -567,6 +615,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGeographical coordinates.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "GeoCoordinates",
           "package": "fb",
@@ -576,6 +625,7 @@
         "index": {
           "description": "Geographical coordinates",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "GeoCoordinates",
           "package": "fb",
@@ -590,6 +640,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe identification code of an object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Id",
           "package": "fb",
@@ -599,6 +650,7 @@
         "index": {
           "description": "The identification code of an object",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Id",
           "package": "fb",
@@ -613,6 +665,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA geographical location.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Location",
           "package": "fb",
@@ -622,6 +675,7 @@
         "index": {
           "description": "geographical location",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Location",
           "package": "fb",
@@ -636,6 +690,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type stating that you have \u003cem\u003enot\u003c/em\u003e provided your\n \u003ccode\u003e\u003ca\u003eCredentials\u003c/a\u003e\u003c/code\u003e.  This means that you'll be limited about which\n APIs you'll be able use.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "NoAuth",
           "package": "fb",
@@ -645,6 +700,7 @@
         "index": {
           "description": "Phantom type stating that you have not provided your Credentials This means that you ll be limited about which APIs you ll be able use",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "NoAuth",
           "package": "fb",
@@ -659,6 +715,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook \u003ccode\u003eOrder\u003c/code\u003e oject.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Order",
           "package": "fb",
@@ -668,6 +725,7 @@
         "index": {
           "description": "Facebook Order oject",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Order",
           "package": "fb",
@@ -682,6 +740,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA trimmed down version of Facebook Application as it is used in \u003ccode\u003e\u003ca\u003eOrder\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "OrderApplication",
           "package": "fb",
@@ -691,6 +750,7 @@
         "index": {
           "description": "trimmed down version of Facebook Application as it is used in Order",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "OrderApplication",
           "package": "fb",
@@ -705,6 +765,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003e\u003ca\u003eOrder\u003c/a\u003e\u003c/code\u003e Id type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "OrderId",
           "package": "fb",
@@ -714,6 +775,7 @@
         "index": {
           "description": "Order Id type",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "OrderId",
           "package": "fb",
@@ -728,6 +790,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook \u003ccode\u003e\u003ca\u003eOrder\u003c/a\u003e\u003c/code\u003e status type.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "OrderStatus",
           "package": "fb",
@@ -737,6 +800,7 @@
         "index": {
           "description": "Facebook Order status type",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "OrderStatus",
           "package": "fb",
@@ -751,6 +815,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook page (see\n \u003ca\u003ehttps://developers.facebook.com/docs/reference/api/page/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNOTE:\u003c/em\u003e Does not yet support all fields. Please file an issue if\n you need any other fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Page",
           "package": "fb",
@@ -760,6 +825,7 @@
         "index": {
           "description": "Facebook page see https developers.facebook.com docs reference api page NOTE Does not yet support all fields Please file an issue if you need any other fields",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Page",
           "package": "fb",
@@ -774,6 +840,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMany Graph API results are returned as a JSON object with\n the following structure:\n\u003c/p\u003e\u003cpre\u003e\n {\n   \"data\": [\n     ...item 1...,\n          :\n     ...item n...\n   ],\n   \"paging\": {\n     \"previous\": \"http:\u003cem/\u003e...link to previous page...\",\n     \"next\":     \"http:\u003cem/\u003e...link to next page...\"\n   }\n }\n\u003c/pre\u003e\u003cp\u003eOnly the \u003ccode\u003e\"data\"\u003c/code\u003e field is required, the others may or may\n not appear.\n\u003c/p\u003e\u003cp\u003eA \u003ccode\u003ePager a\u003c/code\u003e datatype encodes such result where each item has\n type \u003ccode\u003ea\u003c/code\u003e.  You may use functions \u003ccode\u003e\u003ca\u003efetchNextPage\u003c/a\u003e\u003c/code\u003e and\n \u003ccode\u003e\u003ca\u003efetchPreviousPage\u003c/a\u003e\u003c/code\u003e to navigate through the results.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Pager",
           "package": "fb",
@@ -783,6 +850,7 @@
         "index": {
           "description": "Many Graph API results are returned as JSON object with the following structure data item item paging previous http link to previous page next http link to next page Only the data field is required the others may or may not appear Pager datatype encodes such result where each item has type You may use functions fetchNextPage and fetchPreviousPage to navigate through the results",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Pager",
           "package": "fb",
@@ -797,6 +865,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA permission that is asked for the user when he authorizes\n your app.  Please refer to Facebook's documentation at\n \u003ca\u003ehttps://developers.facebook.com/docs/reference/api/permissions/\u003c/a\u003e\n to see which permissions are available.\n\u003c/p\u003e\u003cp\u003eThis is a \u003ccode\u003enewtype\u003c/code\u003e of \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e that supports only \u003ccode\u003e\u003ca\u003eIsString\u003c/a\u003e\u003c/code\u003e.\n This means that to create a \u003ccode\u003e\u003ca\u003ePermission\u003c/a\u003e\u003c/code\u003e you should use the\n \u003ccode\u003eOverloadedStrings\u003c/code\u003e language extension.  For example,\n\u003c/p\u003e\u003cpre\u003e {-# LANGUAGE OverloadedStrings #-}\n\n perms :: [Permission]\n perms = [\"user_about_me\", \"email\", \"offline_access\"]\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Permission",
           "package": "fb",
@@ -806,6 +875,7 @@
         "index": {
           "description": "permission that is asked for the user when he authorizes your app Please refer to Facebook documentation at https developers.facebook.com docs reference api permissions to see which permissions are available This is newtype of Text that supports only IsString This means that to create Permission you should use the OverloadedStrings language extension For example LANGUAGE OverloadedStrings perms Permission perms user about me email offline access",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Permission",
           "package": "fb",
@@ -820,6 +890,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation about a place.  This is not a Graph Object,\n instead it's just a field of a Object.  (Not to be confused\n with the \u003ccode\u003ePage\u003c/code\u003e object.)\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Place",
           "package": "fb",
@@ -829,6 +900,7 @@
         "index": {
           "description": "Information about place This is not Graph Object instead it just field of Object Not to be confused with the Page object",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Place",
           "package": "fb",
@@ -843,6 +915,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA field of a \u003ccode\u003e\u003ca\u003eRealTimeUpdateObject\u003c/a\u003e\u003c/code\u003e that you would like to\n receive notifications when changed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateField",
           "package": "fb",
@@ -852,6 +925,7 @@
         "index": {
           "description": "field of RealTimeUpdateObject that you would like to receive notifications when changed",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateField",
           "package": "fb",
@@ -866,6 +940,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWhen data changes and there's a valid subscription, Facebook\n will \u003ccode\u003ePOST\u003c/code\u003e to your \u003ccode\u003e\u003ca\u003eRealTimeUpdateUrl\u003c/a\u003e\u003c/code\u003e with a JSON-encoded\n object containing the notifications.  A\n 'RealTimeUpdateNotification a' represents such object where\n \u003ccode\u003ea\u003c/code\u003e is type of the entries (e.g.,\n \u003ccode\u003e\u003ca\u003eRealTimeUpdateNotificationUserEntry\u003c/a\u003e\u003c/code\u003e).\n\u003c/p\u003e\u003cp\u003eIf you have a single \u003ccode\u003e\u003ca\u003eRealTimeUpdateUrl\u003c/a\u003e\u003c/code\u003e for different kinds\n of notifications, you may parse a \u003ccode\u003eRealTimeUpdateNotification\n \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e and then manually parse the \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e depending on\n the value of \u003ccode\u003e\u003ca\u003ertunObject\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eWe recommend using \u003ccode\u003e\u003ca\u003egetRealTimeUpdateNotifications\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateNotification",
           "package": "fb",
@@ -875,6 +950,7 @@
         "index": {
           "description": "When data changes and there valid subscription Facebook will POST to your RealTimeUpdateUrl with JSON-encoded object containing the notifications RealTimeUpdateNotification represents such object where is type of the entries e.g RealTimeUpdateNotificationUserEntry If you have single RealTimeUpdateUrl for different kinds of notifications you may parse RealTimeUpdateNotification Value and then manually parse the Value depending on the value of rtunObject We recommend using getRealTimeUpdateNotifications",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateNotification",
           "package": "fb",
@@ -889,6 +965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA notification for the \u003ccode\u003e\u003ca\u003eUserRTUO\u003c/a\u003e\u003c/code\u003e object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateNotificationUserEntry",
           "package": "fb",
@@ -898,6 +975,7 @@
         "index": {
           "description": "notification for the UserRTUO object",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateNotificationUserEntry",
           "package": "fb",
@@ -912,6 +990,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe type of objects that a real-time update refers to.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateObject",
           "package": "fb",
@@ -921,6 +1000,7 @@
         "index": {
           "description": "The type of objects that real-time update refers to",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateObject",
           "package": "fb",
@@ -935,6 +1015,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eInformation returned by Facebook about a real-time update\n notification subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateSubscription",
           "package": "fb",
@@ -944,6 +1025,7 @@
         "index": {
           "description": "Information returned by Facebook about real-time update notification subscription",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateSubscription",
           "package": "fb",
@@ -958,6 +1040,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA token that is sent back by Facebook's servers to your\n server in order to verify that you really were trying to\n modify your subscription.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateToken",
           "package": "fb",
@@ -967,6 +1050,7 @@
         "index": {
           "description": "token that is sent back by Facebook servers to your server in order to verify that you really were trying to modify your subscription",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateToken",
           "package": "fb",
@@ -981,6 +1065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL on your server that will receive the real-time\n updates.  Please refer to Facebook's documentation in order to\n see what this URL needs to implement.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateUrl",
           "package": "fb",
@@ -990,6 +1075,7 @@
         "index": {
           "description": "The URL on your server that will receive the real-time updates Please refer to Facebook documentation in order to see what this URL needs to implement",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateUrl",
           "package": "fb",
@@ -1004,6 +1090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eURL where the user is redirected to after Facebook\n authenticates the user authorizes your application.  This URL\n should be inside the domain registered for your Facebook\n application.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RedirectUrl",
           "package": "fb",
@@ -1013,6 +1100,7 @@
         "index": {
           "description": "URL where the user is redirected to after Facebook authenticates the user authorizes your application This URL should be inside the domain registered for your Facebook application",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RedirectUrl",
           "package": "fb",
@@ -1027,6 +1115,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eClass for data types that may be represented as a Facebook\n simple type. (see\n \u003ca\u003ehttps://developers.facebook.com/docs/opengraph/simpletypes/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "SimpleType",
           "package": "fb",
@@ -1036,6 +1125,7 @@
         "index": {
           "description": "Class for data types that may be represented as Facebook simple type see https developers.facebook.com docs opengraph simpletypes",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "SimpleType",
           "package": "fb",
@@ -1050,6 +1140,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA tag (i.e. \"I'll \u003cem\u003etag\u003c/em\u003e you on my post\").\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Tag",
           "package": "fb",
@@ -1059,6 +1150,7 @@
         "index": {
           "description": "tag i.e ll tag you on my post",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Tag",
           "package": "fb",
@@ -1073,6 +1165,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook test user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "TestUser",
           "package": "fb",
@@ -1082,6 +1175,7 @@
         "index": {
           "description": "Facebook test user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "TestUser",
           "package": "fb",
@@ -1096,6 +1190,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook user profile (see\n \u003ca\u003ehttps://developers.facebook.com/docs/reference/api/user/\u003c/a\u003e).\n\u003c/p\u003e\u003cp\u003e\u003cem\u003eNOTE:\u003c/em\u003e We still don't support all fields supported by\n Facebook. Please fill an issue if you need access to any other\n fields.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "User",
           "package": "fb",
@@ -1105,6 +1200,7 @@
         "index": {
           "description": "Facebook user profile see https developers.facebook.com docs reference api user NOTE We still don support all fields supported by Facebook Please fill an issue if you need access to any other fields",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "User",
           "package": "fb",
@@ -1119,6 +1215,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eType synonym for \u003ccode\u003e\u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e \u003ccode\u003e\u003ca\u003eUserKind\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserAccessToken",
           "package": "fb",
@@ -1128,6 +1225,7 @@
         "index": {
           "description": "Type synonym for AccessToken UserKind",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserAccessToken",
           "package": "fb",
@@ -1142,6 +1240,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA Facebook user ID such as \u003ccode\u003e1008905713901\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserId",
           "package": "fb",
@@ -1151,6 +1250,7 @@
         "index": {
           "description": "Facebook user ID such as",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserId",
           "package": "fb",
@@ -1165,6 +1265,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003ePhantom type used mark an \u003ccode\u003e\u003ca\u003eAccessToken\u003c/a\u003e\u003c/code\u003e as an user access\n token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserKind",
           "package": "fb",
@@ -1174,6 +1275,7 @@
         "index": {
           "description": "Phantom type used mark an AccessToken as an user access token",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserKind",
           "package": "fb",
@@ -1188,6 +1290,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eArgument\u003c/a\u003e\u003c/code\u003e with a \u003ccode\u003e\u003ca\u003eSimpleType\u003c/a\u003e\u003c/code\u003e.  See the docs on\n \u003ccode\u003ecreateAction\u003c/code\u003e for an example.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "(#=)",
           "package": "fb",
@@ -1198,6 +1301,7 @@
         "index": {
           "description": "Create an Argument with SimpleType See the docs on createAction for an example",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "(#=) #=",
           "normalized": "ByteString-\u003ea-\u003eArgument",
@@ -1212,6 +1316,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AcquaintancesList",
           "package": "fb",
@@ -1221,6 +1326,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AcquaintancesList",
           "package": "fb",
@@ -1234,6 +1340,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "AppAccessToken",
           "package": "fb",
@@ -1243,6 +1350,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "AppAccessToken",
           "normalized": "AccessTokenData-\u003eAccessToken AppKind",
@@ -1258,6 +1366,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Checkin",
           "package": "fb",
@@ -1267,6 +1376,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Checkin",
           "package": "fb",
@@ -1280,6 +1390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CheckinFrom",
           "package": "fb",
@@ -1289,6 +1400,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CheckinFrom",
           "package": "fb",
@@ -1302,6 +1414,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CloseFriendsList",
           "package": "fb",
@@ -1311,6 +1424,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CloseFriendsList",
           "package": "fb",
@@ -1324,6 +1438,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUser",
           "package": "fb",
@@ -1333,6 +1448,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUser",
           "package": "fb",
@@ -1347,6 +1463,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eUses Facebook's default. It seems that this is equivalent to\n \u003ccode\u003eCreateTestUserInstalled []\u003c/code\u003e, but Facebook's documentation is\n not clear about it.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUserFbDefault",
           "package": "fb",
@@ -1357,6 +1474,7 @@
         "index": {
           "description": "Uses Facebook default It seems that this is equivalent to CreateTestUserInstalled but Facebook documentation is not clear about it",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUserFbDefault",
           "package": "fb",
@@ -1370,6 +1488,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUserInstalled",
           "package": "fb",
@@ -1379,6 +1498,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUserInstalled",
           "package": "fb",
@@ -1392,6 +1512,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CreateTestUserNotInstalled",
           "package": "fb",
@@ -1401,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CreateTestUserNotInstalled",
           "package": "fb",
@@ -1414,6 +1536,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Credentials",
           "package": "fb",
@@ -1423,6 +1546,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Credentials",
           "package": "fb",
@@ -1436,6 +1560,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "CurrentCityList",
           "package": "fb",
@@ -1445,6 +1570,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "CurrentCityList",
           "package": "fb",
@@ -1458,6 +1584,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "DebugToken",
           "package": "fb",
@@ -1467,6 +1594,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "DebugToken",
           "package": "fb",
@@ -1480,6 +1608,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "EducationList",
           "package": "fb",
@@ -1489,6 +1618,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "EducationList",
           "package": "fb",
@@ -1502,6 +1632,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "ErrorsRTUO",
           "package": "fb",
@@ -1511,6 +1642,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "ErrorsRTUO",
           "package": "fb",
@@ -1524,6 +1656,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLList",
           "package": "fb",
@@ -1533,6 +1666,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLList",
           "package": "fb",
@@ -1546,6 +1680,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLObject",
           "package": "fb",
@@ -1555,6 +1690,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLObject",
           "package": "fb",
@@ -1569,6 +1705,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"warning\"\u003e\u003cp\u003eDeprecated: Deprecated since fb 0.14.7, please use FbUTCTime instead.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FQLTime",
           "package": "fb",
@@ -1579,6 +1716,7 @@
         "index": {
           "description": "Deprecated Deprecated since fb please use FbUTCTime instead",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FQLTime",
           "package": "fb",
@@ -1593,6 +1731,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception coming from Facebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FacebookException",
           "package": "fb",
@@ -1603,6 +1742,7 @@
         "index": {
           "description": "An exception coming from Facebook",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FacebookException",
           "package": "fb",
@@ -1616,6 +1756,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FamilyList",
           "package": "fb",
@@ -1625,6 +1766,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FamilyList",
           "package": "fb",
@@ -1639,6 +1781,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAn exception coming from the \u003ccode\u003efb\u003c/code\u003e package's code.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FbLibraryException",
           "package": "fb",
@@ -1649,6 +1792,7 @@
         "index": {
           "description": "An exception coming from the fb package code",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FbLibraryException",
           "package": "fb",
@@ -1662,6 +1806,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FbUTCTime",
           "package": "fb",
@@ -1671,6 +1816,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FbUTCTime",
           "package": "fb",
@@ -1684,6 +1830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Female",
           "package": "fb",
@@ -1693,6 +1840,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Female",
           "package": "fb",
@@ -1706,6 +1854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Friend",
           "package": "fb",
@@ -1715,6 +1864,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Friend",
           "package": "fb",
@@ -1728,6 +1878,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "FriendList",
           "package": "fb",
@@ -1737,6 +1888,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "FriendList",
           "package": "fb",
@@ -1750,6 +1902,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "GeoCoordinates",
           "package": "fb",
@@ -1759,6 +1912,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "GeoCoordinates",
           "package": "fb",
@@ -1772,6 +1926,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Id",
           "package": "fb",
@@ -1781,6 +1936,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Id",
           "package": "fb",
@@ -1794,6 +1950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Location",
           "package": "fb",
@@ -1803,6 +1960,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Location",
           "package": "fb",
@@ -1816,6 +1974,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Male",
           "package": "fb",
@@ -1825,6 +1984,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Male",
           "package": "fb",
@@ -1838,6 +1998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Order",
           "package": "fb",
@@ -1847,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Order",
           "package": "fb",
@@ -1860,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "OtherRTUO",
           "package": "fb",
@@ -1869,6 +2032,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "OtherRTUO",
           "package": "fb",
@@ -1882,6 +2046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Page",
           "package": "fb",
@@ -1891,6 +2056,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Page",
           "package": "fb",
@@ -1904,6 +2070,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "PageRTUO",
           "package": "fb",
@@ -1913,6 +2080,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "PageRTUO",
           "package": "fb",
@@ -1926,6 +2094,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Pager",
           "package": "fb",
@@ -1935,6 +2104,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Pager",
           "package": "fb",
@@ -1948,6 +2118,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "PermissionsRTUO",
           "package": "fb",
@@ -1957,6 +2128,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "PermissionsRTUO",
           "package": "fb",
@@ -1970,6 +2142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Place",
           "package": "fb",
@@ -1979,6 +2152,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Place",
           "package": "fb",
@@ -1992,6 +2166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateNotification",
           "package": "fb",
@@ -2001,6 +2176,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateNotification",
           "package": "fb",
@@ -2014,6 +2190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateNotificationUserEntry",
           "package": "fb",
@@ -2023,6 +2200,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateNotificationUserEntry",
           "package": "fb",
@@ -2036,6 +2214,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RealTimeUpdateSubscription",
           "package": "fb",
@@ -2045,6 +2224,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RealTimeUpdateSubscription",
           "package": "fb",
@@ -2058,6 +2238,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "RestrictedList",
           "package": "fb",
@@ -2067,6 +2248,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "RestrictedList",
           "package": "fb",
@@ -2080,6 +2262,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "Tag",
           "package": "fb",
@@ -2089,6 +2272,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "Tag",
           "package": "fb",
@@ -2102,6 +2286,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "TestUser",
           "package": "fb",
@@ -2111,6 +2296,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "TestUser",
           "package": "fb",
@@ -2124,6 +2310,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "User",
           "package": "fb",
@@ -2133,6 +2320,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "User",
           "package": "fb",
@@ -2146,6 +2334,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserAccessToken",
           "package": "fb",
@@ -2155,6 +2344,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserAccessToken",
           "normalized": "UserId-\u003eAccessTokenData-\u003eUTCTime-\u003eAccessToken UserKind",
@@ -2170,6 +2360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserCreatedList",
           "package": "fb",
@@ -2179,6 +2370,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserCreatedList",
           "package": "fb",
@@ -2192,6 +2384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "UserRTUO",
           "package": "fb",
@@ -2201,6 +2394,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "UserRTUO",
           "package": "fb",
@@ -2214,6 +2408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "WorkList",
           "package": "fb",
@@ -2223,6 +2418,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "WorkList",
           "package": "fb",
@@ -2237,6 +2433,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour application ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "appId",
           "package": "fb",
@@ -2247,6 +2444,7 @@
         "index": {
           "description": "Your application ID",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "appId",
           "package": "fb",
@@ -2261,6 +2459,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour application name (e.g. for Open Graph calls).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "appName",
           "package": "fb",
@@ -2271,6 +2470,7 @@
         "index": {
           "description": "Your application name e.g for Open Graph calls",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "appName",
           "package": "fb",
@@ -2285,6 +2485,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eYour application secret key.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "appSecret",
           "package": "fb",
@@ -2295,6 +2496,7 @@
         "index": {
           "description": "Your application secret key",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "appSecret",
           "package": "fb",
@@ -2309,6 +2511,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erunFacebookT\u003c/a\u003e\u003c/code\u003e, but uses Facebook's beta tier (see\n \u003ca\u003ehttps://developers.facebook.com/support/beta-tier/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "beta_runFacebookT",
           "package": "fb",
@@ -2319,6 +2522,7 @@
         "index": {
           "description": "Same as runFacebookT but uses Facebook beta tier see https developers.facebook.com support beta-tier",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "beta_runFacebookT",
           "normalized": "Credentials-\u003eManager-\u003eFacebookT Auth a b-\u003ea b",
@@ -2335,6 +2539,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003erunNoAuthFacebookT\u003c/a\u003e\u003c/code\u003e, but uses Facebook's beta tier\n (see \u003ca\u003ehttps://developers.facebook.com/support/beta-tier/\u003c/a\u003e).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "beta_runNoAuthFacebookT",
           "package": "fb",
@@ -2345,6 +2550,7 @@
         "index": {
           "description": "Same as runNoAuthFacebookT but uses Facebook beta tier see https developers.facebook.com support beta-tier",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "beta_runNoAuthFacebookT",
           "normalized": "Manager-\u003eFacebookT NoAuth a b-\u003ea b",
@@ -2360,6 +2566,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinCreatedTime",
           "package": "fb",
@@ -2369,6 +2576,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinCreatedTime",
           "package": "fb",
@@ -2382,6 +2590,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinFrom",
           "package": "fb",
@@ -2391,6 +2600,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinFrom",
           "package": "fb",
@@ -2404,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinFromId",
           "package": "fb",
@@ -2413,6 +2624,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinFromId",
           "package": "fb",
@@ -2426,6 +2638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinFromName",
           "package": "fb",
@@ -2435,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinFromName",
           "package": "fb",
@@ -2448,6 +2662,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinId",
           "package": "fb",
@@ -2457,6 +2672,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinId",
           "package": "fb",
@@ -2470,6 +2686,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinMessage",
           "package": "fb",
@@ -2479,6 +2696,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinMessage",
           "package": "fb",
@@ -2492,6 +2710,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinPlace",
           "package": "fb",
@@ -2501,6 +2720,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinPlace",
           "package": "fb",
@@ -2514,6 +2734,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "checkinTags",
           "package": "fb",
@@ -2523,6 +2744,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "checkinTags",
           "package": "fb",
@@ -2537,6 +2759,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates an Open Graph action on the user's timeline. Returns\n the \u003ccode\u003e\u003ca\u003eId\u003c/a\u003e\u003c/code\u003e of the newly created action.  For example:\n\u003c/p\u003e\u003cpre\u003e now \u003c- liftIO getCurrentTime\n createAction \"cook\"\n              [ \"recipe\" #= \"http://example.com/cookie.html\"\n              , \"when\"   #= now ]\n              token\n\u003c/pre\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "createAction",
           "package": "fb",
@@ -2546,6 +2769,7 @@
         "index": {
           "description": "Creates an Open Graph action on the user timeline Returns the Id of the newly created action For example now liftIO getCurrentTime createAction cook recipe http example.com cookie.html when now token",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "createAction",
           "normalized": "Action-\u003e[Argument]-\u003eMaybe AppAccessToken-\u003eUserAccessToken-\u003eFacebookT Auth a Id",
@@ -2562,6 +2786,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreates a 'check-in' and returns its ID. Place and\n coordinates are both required by Facebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "createCheckin",
           "package": "fb",
@@ -2571,6 +2796,7 @@
         "index": {
           "description": "Creates check-in and returns its ID Place and coordinates are both required by Facebook",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "createCheckin",
           "normalized": "Id-\u003eGeoCoordinates-\u003e[Argument]-\u003eUserAccessToken-\u003eFacebookT Auth a Id",
@@ -2587,6 +2813,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate a new test user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "createTestUser",
           "package": "fb",
@@ -2596,6 +2823,7 @@
         "index": {
           "description": "Create new test user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "createTestUser",
           "normalized": "CreateTestUser-\u003eAppAccessToken-\u003eFacebookT Auth a TestUser",
@@ -2611,6 +2839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "ctuInstalled",
           "package": "fb",
@@ -2620,6 +2849,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "ctuInstalled",
           "package": "fb",
@@ -2633,6 +2863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "ctuLocale",
           "package": "fb",
@@ -2642,6 +2873,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "ctuLocale",
           "package": "fb",
@@ -2655,6 +2887,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "ctuName",
           "package": "fb",
@@ -2664,6 +2897,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "ctuName",
           "package": "fb",
@@ -2677,6 +2911,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "ctuiPermissions",
           "package": "fb",
@@ -2686,6 +2921,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "ctuiPermissions",
           "normalized": "[Permission]",
@@ -2702,6 +2938,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet detailed information about an access token.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "debugToken",
           "package": "fb",
@@ -2711,6 +2948,7 @@
         "index": {
           "description": "Get detailed information about an access token",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "debugToken",
           "normalized": "AppAccessToken-\u003eAccessTokenData-\u003eFacebookT Auth a DebugToken",
@@ -2727,6 +2965,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a raw \u003ccode\u003eDELETE\u003c/code\u003e request to Facebook's Graph API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "deleteObject",
           "package": "fb",
@@ -2736,6 +2975,7 @@
         "index": {
           "description": "Make raw DELETE request to Facebook Graph API",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "deleteObject",
           "normalized": "Text-\u003e[Argument]-\u003eAccessToken a-\u003eFacebookT Auth b c",
@@ -2751,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtAccessToken",
           "package": "fb",
@@ -2760,6 +3001,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtAccessToken",
           "package": "fb",
@@ -2773,6 +3015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtAppId",
           "package": "fb",
@@ -2782,6 +3025,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtAppId",
           "package": "fb",
@@ -2795,6 +3039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtAppName",
           "package": "fb",
@@ -2804,6 +3049,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtAppName",
           "package": "fb",
@@ -2817,6 +3063,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtExpiresAt",
           "package": "fb",
@@ -2826,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtExpiresAt",
           "package": "fb",
@@ -2839,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtIsValid",
           "package": "fb",
@@ -2848,6 +3097,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtIsValid",
           "package": "fb",
@@ -2861,6 +3111,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtIssuedAt",
           "package": "fb",
@@ -2870,6 +3121,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtIssuedAt",
           "package": "fb",
@@ -2883,6 +3135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtScopes",
           "package": "fb",
@@ -2892,6 +3145,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtScopes",
           "normalized": "Maybe[Permission]",
@@ -2907,6 +3161,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "dtUserId",
           "package": "fb",
@@ -2916,6 +3171,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "dtUserId",
           "package": "fb",
@@ -2929,6 +3185,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "encodeFbParam",
           "package": "fb",
@@ -2938,6 +3195,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "encodeFbParam",
           "normalized": "a-\u003eByteString",
@@ -2954,6 +3212,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eExtend the expiration time of an user access token (see\n \u003ca\u003ehttps://developers.facebook.com/docs/offline-access-deprecation/\u003c/a\u003e,\n \u003ca\u003ehttps://developers.facebook.com/roadmap/offline-access-removal/\u003c/a\u003e).\n Only short-lived user access tokens may extended into\n long-lived user access tokens, you must get a new short-lived\n user access token if you need to extend a long-lived\n one.  Returns \u003ccode\u003eLeft exc\u003c/code\u003e if there is an error while extending,\n or \u003ccode\u003eRight token\u003c/code\u003e with the new user access token (which could\n have the same data and expiration time as before, but you\n can't assume this).  Note that expired access tokens can't be\n extended, only valid tokens.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "extendUserAccessToken",
           "package": "fb",
@@ -2964,6 +3223,7 @@
         "index": {
           "description": "Extend the expiration time of an user access token see https developers.facebook.com docs offline-access-deprecation https developers.facebook.com roadmap offline-access-removal Only short-lived user access tokens may extended into long-lived user access tokens you must get new short-lived user access token if you need to extend long-lived one Returns Left exc if there is an error while extending or Right token with the new user access token which could have the same data and expiration time as before but you can assume this Note that expired access tokens can be extended only valid tokens",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "extendUserAccessToken",
           "normalized": "UserAccessToken-\u003eFacebookT Auth a(Either FacebookException UserAccessToken)",
@@ -2979,6 +3239,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fbeMessage",
           "package": "fb",
@@ -2988,6 +3249,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fbeMessage",
           "package": "fb",
@@ -3001,6 +3263,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fbeType",
           "package": "fb",
@@ -3010,6 +3273,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fbeType",
           "package": "fb",
@@ -3024,6 +3288,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to fetch all next pages and returns a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e with\n all results.  The \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e will include the results from\n this page as well.  Previous pages will not be considered.\n Next pages will be fetched on-demand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fetchAllNextPages",
           "package": "fb",
@@ -3034,6 +3299,7 @@
         "index": {
           "description": "Tries to fetch all next pages and returns Source with all results The Source will include the results from this page as well Previous pages will not be considered Next pages will be fetched on-demand",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fetchAllNextPages",
           "normalized": "Pager a-\u003eFacebookT b c(Source d a)",
@@ -3050,6 +3316,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to fetch all previous pages and returns a \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e\n with all results.  The \u003ccode\u003e\u003ca\u003eSource\u003c/a\u003e\u003c/code\u003e will include the results\n from this page as well.  Next pages will not be\n considered.  Previous pages will be fetched on-demand.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fetchAllPreviousPages",
           "package": "fb",
@@ -3060,6 +3327,7 @@
         "index": {
           "description": "Tries to fetch all previous pages and returns Source with all results The Source will include the results from this page as well Next pages will not be considered Previous pages will be fetched on-demand",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fetchAllPreviousPages",
           "normalized": "Pager a-\u003eFacebookT b c(Source d a)",
@@ -3076,6 +3344,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to fetch the next page of a \u003ccode\u003e\u003ca\u003ePager\u003c/a\u003e\u003c/code\u003e.  Returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e whenever the current \u003ccode\u003ePager\u003c/code\u003e does not have a\n \u003ccode\u003e\u003ca\u003epagerNext\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fetchNextPage",
           "package": "fb",
@@ -3086,6 +3355,7 @@
         "index": {
           "description": "Tries to fetch the next page of Pager Returns Nothing whenever the current Pager does not have pagerNext",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fetchNextPage",
           "normalized": "Pager a-\u003eFacebookT b c(Maybe(Pager a))",
@@ -3102,6 +3372,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTries to fetch the previous page of a \u003ccode\u003e\u003ca\u003ePager\u003c/a\u003e\u003c/code\u003e.  Returns\n \u003ccode\u003e\u003ca\u003eNothing\u003c/a\u003e\u003c/code\u003e whenever the current \u003ccode\u003ePager\u003c/code\u003e does not have a\n \u003ccode\u003e\u003ca\u003epagerPrevious\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fetchPreviousPage",
           "package": "fb",
@@ -3112,6 +3383,7 @@
         "index": {
           "description": "Tries to fetch the previous page of Pager Returns Nothing whenever the current Pager does not have pagerPrevious",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fetchPreviousPage",
           "normalized": "Pager a-\u003eFacebookT b c(Maybe(Pager a))",
@@ -3128,6 +3400,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eQuery the Facebook Graph using FQL.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "fqlQuery",
           "package": "fb",
@@ -3137,6 +3410,7 @@
         "index": {
           "description": "Query the Facebook Graph using FQL",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "fqlQuery",
           "normalized": "Text-\u003eMaybe(AccessToken a)-\u003eFacebookT b c(Pager d)",
@@ -3152,6 +3426,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "friendId",
           "package": "fb",
@@ -3161,6 +3436,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "friendId",
           "package": "fb",
@@ -3174,6 +3450,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "friendListId",
           "package": "fb",
@@ -3183,6 +3460,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "friendListId",
           "package": "fb",
@@ -3196,6 +3474,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "friendListName",
           "package": "fb",
@@ -3205,6 +3484,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "friendListName",
           "package": "fb",
@@ -3218,6 +3498,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "friendListType",
           "package": "fb",
@@ -3227,6 +3508,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "friendListType",
           "package": "fb",
@@ -3240,6 +3522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "friendName",
           "package": "fb",
@@ -3249,6 +3532,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "friendName",
           "package": "fb",
@@ -3263,6 +3547,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an app access token from Facebook using your\n credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getAppAccessToken",
           "package": "fb",
@@ -3273,6 +3558,7 @@
         "index": {
           "description": "Get an app access token from Facebook using your credentials",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getAppAccessToken",
           "package": "fb",
@@ -3287,6 +3573,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a checkin from its ID.  The user access token is\n optional, but when provided more information can be returned\n back by Facebook.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getCheckin",
           "package": "fb",
@@ -3296,6 +3583,7 @@
         "index": {
           "description": "Get checkin from its ID The user access token is optional but when provided more information can be returned back by Facebook",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getCheckin",
           "normalized": "Id-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b Checkin",
@@ -3312,6 +3600,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the members of a friend list.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getFriendListMembers",
           "package": "fb",
@@ -3321,6 +3610,7 @@
         "index": {
           "description": "Get the members of friend list",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getFriendListMembers",
           "normalized": "Id-\u003e[Argument]-\u003eUserAccessToken-\u003eFacebookT a b(Pager Friend)",
@@ -3337,6 +3627,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a raw \u003ccode\u003eGET\u003c/code\u003e request to Facebook's Graph API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getObject",
           "package": "fb",
@@ -3346,6 +3637,7 @@
         "index": {
           "description": "Make raw GET request to Facebook Graph API",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getObject",
           "normalized": "Text-\u003e[Argument]-\u003eMaybe(AccessToken a)-\u003eFacebookT b c d",
@@ -3362,6 +3654,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an \u003ccode\u003e\u003ca\u003eOrder\u003c/a\u003e\u003c/code\u003e using its \u003ccode\u003e\u003ca\u003eOrderId\u003c/a\u003e\u003c/code\u003e.  The user access token\n is mandatory.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getOrder",
           "package": "fb",
@@ -3371,6 +3664,7 @@
         "index": {
           "description": "Get an Order using its OrderId The user access token is mandatory",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getOrder",
           "normalized": "OrderId-\u003eUserAccessToken-\u003eFacebookT a b Order",
@@ -3387,6 +3681,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a page using its ID. The user access token is optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getPage",
           "package": "fb",
@@ -3396,6 +3691,7 @@
         "index": {
           "description": "Get page using its ID The user access token is optional",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getPage",
           "normalized": "Id-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b Page",
@@ -3412,6 +3708,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSame as \u003ccode\u003e\u003ca\u003everifyRealTimeUpdateNotifications\u003c/a\u003e\u003c/code\u003e but also parses\n the response as JSON.  Returns \u003ccode\u003eNothing\u003c/code\u003e if either the\n signature is invalid or the data can't be parsed (use\n \u003ccode\u003e\u003ca\u003everifyRealTimeUpdateNotifications\u003c/a\u003e\u003c/code\u003e if you need to distinguish\n between these two error conditions).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getRealTimeUpdateNotifications",
           "package": "fb",
@@ -3421,6 +3718,7 @@
         "index": {
           "description": "Same as verifyRealTimeUpdateNotifications but also parses the response as JSON Returns Nothing if either the signature is invalid or the data can be parsed use verifyRealTimeUpdateNotifications if you need to distinguish between these two error conditions",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getRealTimeUpdateNotifications",
           "normalized": "ByteString-\u003eByteString-\u003eFacebookT Auth a(Maybe(RealTimeUpdateNotification b))",
@@ -3437,6 +3735,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of test users.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getTestUsers",
           "package": "fb",
@@ -3446,6 +3745,7 @@
         "index": {
           "description": "Get list of test users",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getTestUsers",
           "normalized": "AppAccessToken-\u003eFacebookT Auth a(Pager TestUser)",
@@ -3462,6 +3762,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet an user using his user ID.  The user access token is\n optional, but when provided more information can be returned\n back by Facebook.  The user ID may be \u003ccode\u003e\"me\"\u003c/code\u003e, in which\n case you must provide an user access token and information\n about the token's owner is given.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUser",
           "package": "fb",
@@ -3471,6 +3772,7 @@
         "index": {
           "description": "Get an user using his user ID The user access token is optional but when provided more information can be returned back by Facebook The user ID may be me in which case you must provide an user access token and information about the token owner is given",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUser",
           "normalized": "UserId-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b User",
@@ -3487,6 +3789,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe first step to get an user access token.  Returns the\n Facebook URL you should redirect you user to.  Facebook will\n authenticate the user, authorize your app and then redirect\n the user back into the provider \u003ccode\u003e\u003ca\u003eRedirectUrl\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserAccessTokenStep1",
           "package": "fb",
@@ -3497,6 +3800,7 @@
         "index": {
           "description": "The first step to get an user access token Returns the Facebook URL you should redirect you user to Facebook will authenticate the user authorize your app and then redirect the user back into the provider RedirectUrl",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserAccessTokenStep1",
           "normalized": "RedirectUrl-\u003e[Permission]-\u003eFacebookT Auth a Text",
@@ -3513,6 +3817,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe second step to get an user access token.  If the user is\n successfully authenticate and they authorize your application,\n then they'll be redirected back to the \u003ccode\u003e\u003ca\u003eRedirectUrl\u003c/a\u003e\u003c/code\u003e you've\n passed to \u003ccode\u003e\u003ca\u003egetUserAccessTokenStep1\u003c/a\u003e\u003c/code\u003e.  You should take the\n request query parameters passed to your \u003ccode\u003e\u003ca\u003eRedirectUrl\u003c/a\u003e\u003c/code\u003e and give\n to this function that will complete the user authentication\n flow and give you an \u003ccode\u003e\u003ccode\u003e\u003ca\u003eUserAccessToken\u003c/a\u003e\u003c/code\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserAccessTokenStep2",
           "package": "fb",
@@ -3522,6 +3827,7 @@
         "index": {
           "description": "The second step to get an user access token If the user is successfully authenticate and they authorize your application then they ll be redirected back to the RedirectUrl you ve passed to getUserAccessTokenStep1 You should take the request query parameters passed to your RedirectUrl and give to this function that will complete the user authentication flow and give you an UserAccessToken",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserAccessTokenStep2",
           "normalized": "RedirectUrl-\u003e[Argument]-\u003eFacebookT Auth a UserAccessToken",
@@ -3538,6 +3844,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet a list of check-ins made by a given user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserCheckins",
           "package": "fb",
@@ -3547,6 +3854,7 @@
         "index": {
           "description": "Get list of check-ins made by given user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserCheckins",
           "normalized": "UserId-\u003e[Argument]-\u003eUserAccessToken-\u003eFacebookT a b(Pager Checkin)",
@@ -3563,6 +3871,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the friend lists of the given user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserFriendLists",
           "package": "fb",
@@ -3572,6 +3881,7 @@
         "index": {
           "description": "Get the friend lists of the given user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserFriendLists",
           "normalized": "UserId-\u003e[Argument]-\u003eUserAccessToken-\u003eFacebookT a b(Pager FriendList)",
@@ -3588,6 +3898,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eGet the list of friends of the given user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserFriends",
           "package": "fb",
@@ -3597,6 +3908,7 @@
         "index": {
           "description": "Get the list of friends of the given user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserFriends",
           "normalized": "UserId-\u003e[Argument]-\u003eUserAccessToken-\u003eFacebookT a b(Pager Friend)",
@@ -3613,6 +3925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe URL an user should be redirected to in order to log them\n out of their Facebook session.  Facebook will then redirect\n the user to the provided URL after logging them out.  Note\n that, at the time of this writing, Facebook's policies require\n you to log the user out of Facebook when they ask to log out\n of your site.\n\u003c/p\u003e\u003cp\u003eNote also that Facebook may refuse to redirect the user to the\n provided URL if their user access token is invalid.  In order\n to prevent this bug, we suggest that you use \u003ccode\u003e\u003ca\u003eisValid\u003c/a\u003e\u003c/code\u003e before\n redirecting the user to the URL provided by \u003ccode\u003e\u003ca\u003egetUserLogoutUrl\u003c/a\u003e\u003c/code\u003e\n since this function doesn't do any validity checks.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "getUserLogoutUrl",
           "package": "fb",
@@ -3622,6 +3935,7 @@
         "index": {
           "description": "The URL an user should be redirected to in order to log them out of their Facebook session Facebook will then redirect the user to the provided URL after logging them out Note that at the time of this writing Facebook policies require you to log the user out of Facebook when they ask to log out of your site Note also that Facebook may refuse to redirect the user to the provided URL if their user access token is invalid In order to prevent this bug we suggest that you use isValid before redirecting the user to the URL provided by getUserLogoutUrl since this function doesn do any validity checks",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "getUserLogoutUrl",
           "normalized": "UserAccessToken-\u003eRedirectUrl-\u003eFacebookT Auth a Text",
@@ -3638,6 +3952,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if the access token has expired, otherwise \u003ccode\u003eFalse\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "hasExpired",
           "package": "fb",
@@ -3648,6 +3963,7 @@
         "index": {
           "description": "True if the access token has expired otherwise False",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "hasExpired",
           "normalized": "AccessToken a-\u003eb Bool",
@@ -3663,6 +3979,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "idCode",
           "package": "fb",
@@ -3672,6 +3989,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "idCode",
           "package": "fb",
@@ -3686,6 +4004,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eCreate an \u003ccode\u003e\u003ca\u003eUserAccessToken\u003c/a\u003e\u003c/code\u003e from a \u003ccode\u003e\u003ca\u003eTestUser\u003c/a\u003e\u003c/code\u003e.  It's incomplete\n because it will not have the right expiration time.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "incompleteTestUserAccessToken",
           "package": "fb",
@@ -3696,6 +4015,7 @@
         "index": {
           "description": "Create an UserAccessToken from TestUser It incomplete because it will not have the right expiration time",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "incompleteTestUserAccessToken",
           "normalized": "TestUser-\u003eMaybe UserAccessToken",
@@ -3712,6 +4032,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003eTrue\u003c/code\u003e if the access token is valid.  An expired access\n token is not valid (see \u003ccode\u003e\u003ca\u003ehasExpired\u003c/a\u003e\u003c/code\u003e).  However, a non-expired\n access token may not be valid as well.  For example, in the\n case of an user access token, they may have changed their\n password, logged out from Facebook or blocked your app.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "isValid",
           "package": "fb",
@@ -3722,6 +4043,7 @@
         "index": {
           "description": "True if the access token is valid An expired access token is not valid see hasExpired However non-expired access token may not be valid as well For example in the case of an user access token they may have changed their password logged out from Facebook or blocked your app",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "isValid",
           "normalized": "AccessToken a-\u003eFacebookT b c Bool",
@@ -3737,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "latitude",
           "package": "fb",
@@ -3746,6 +4069,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "latitude",
           "package": "fb",
@@ -3759,6 +4083,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eList current real-time update subscriptions.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "listSubscriptions",
           "package": "fb",
@@ -3769,6 +4094,7 @@
         "index": {
           "description": "List current real-time update subscriptions",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "listSubscriptions",
           "normalized": "AppAccessToken-\u003eFacebookT Auth a[RealTimeUpdateSubscription]",
@@ -3784,6 +4110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationCity",
           "package": "fb",
@@ -3793,6 +4120,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationCity",
           "package": "fb",
@@ -3806,6 +4134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationCoords",
           "package": "fb",
@@ -3815,6 +4144,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationCoords",
           "package": "fb",
@@ -3828,6 +4158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationCountry",
           "package": "fb",
@@ -3837,6 +4168,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationCountry",
           "package": "fb",
@@ -3850,6 +4182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationState",
           "package": "fb",
@@ -3859,6 +4192,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationState",
           "package": "fb",
@@ -3872,6 +4206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationStreet",
           "package": "fb",
@@ -3881,6 +4216,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationStreet",
           "package": "fb",
@@ -3894,6 +4230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "locationZip",
           "package": "fb",
@@ -3903,6 +4240,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "locationZip",
           "package": "fb",
@@ -3916,6 +4254,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "longitude",
           "package": "fb",
@@ -3925,6 +4264,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "longitude",
           "package": "fb",
@@ -3938,6 +4278,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a friend connection between two test users.\n\u003c/p\u003e\u003cp\u003eThis is how Facebook's API work: two calls must be made. The first\n call has the format: \"/userA_id/friends/userB_id\" with the\n access token of user A as query parameter. The second call has the\n format: \"/userB_id/friends/userA_id\" with the access token of\n user B as query parameter. The first call creates a friend request\n and the second call accepts the friend request.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "makeFriendConn",
           "package": "fb",
@@ -3948,6 +4289,7 @@
         "index": {
           "description": "Make friend connection between two test users This is how Facebook API work two calls must be made The first call has the format userA id friends userB id with the access token of user as query parameter The second call has the format userB id friends userA id with the access token of user as query parameter The first call creates friend request and the second call accepts the friend request",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "makeFriendConn",
           "normalized": "TestUser-\u003eTestUser-\u003eFacebookT Auth a()",
@@ -3964,6 +4306,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eTransform the computation inside a \u003ccode\u003e\u003ca\u003eFacebookT\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "mapFacebookT",
           "package": "fb",
@@ -3974,6 +4317,7 @@
         "index": {
           "description": "Transform the computation inside FacebookT",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "mapFacebookT",
           "normalized": "(a b-\u003ec d)-\u003eFacebookT e a b-\u003eFacebookT e c d",
@@ -3990,6 +4334,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eAdd or modify a subscription for real-time updates.  If\n there were no previous subscriptions for the given\n \u003ccode\u003e\u003ca\u003eRealTimeUpdateObject\u003c/a\u003e\u003c/code\u003e, then a new subscription is created.\n If there was any previous subscription for the given\n \u003ccode\u003e\u003ca\u003eRealTimeUpdateObject\u003c/a\u003e\u003c/code\u003e, it's overriden by this one (even if\n the other subscription had a different callback URL).\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "modifySubscription",
           "package": "fb",
@@ -3999,6 +4344,7 @@
         "index": {
           "description": "Add or modify subscription for real-time updates If there were no previous subscriptions for the given RealTimeUpdateObject then new subscription is created If there was any previous subscription for the given RealTimeUpdateObject it overriden by this one even if the other subscription had different callback URL",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "modifySubscription",
           "normalized": "RealTimeUpdateObject-\u003e[RealTimeUpdateField]-\u003eRealTimeUpdateUrl-\u003eRealTimeUpdateToken-\u003eAppAccessToken-\u003eFacebookT Auth a()",
@@ -4014,6 +4360,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderAmount",
           "package": "fb",
@@ -4023,6 +4370,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderAmount",
           "package": "fb",
@@ -4036,6 +4384,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderApplication",
           "package": "fb",
@@ -4045,6 +4394,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderApplication",
           "package": "fb",
@@ -4058,6 +4408,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderCountry",
           "package": "fb",
@@ -4067,6 +4418,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderCountry",
           "package": "fb",
@@ -4080,6 +4432,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderCreatedTime",
           "package": "fb",
@@ -4089,6 +4442,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderCreatedTime",
           "package": "fb",
@@ -4102,6 +4456,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderFrom",
           "package": "fb",
@@ -4111,6 +4466,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderFrom",
           "package": "fb",
@@ -4124,6 +4480,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderId",
           "package": "fb",
@@ -4133,6 +4490,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderId",
           "package": "fb",
@@ -4146,6 +4504,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderRefundCode",
           "package": "fb",
@@ -4155,6 +4514,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderRefundCode",
           "package": "fb",
@@ -4168,6 +4528,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderStatus",
           "package": "fb",
@@ -4177,6 +4538,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderStatus",
           "package": "fb",
@@ -4190,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderTo",
           "package": "fb",
@@ -4199,6 +4562,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderTo",
           "package": "fb",
@@ -4212,6 +4576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "orderUpdatedTime",
           "package": "fb",
@@ -4221,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "orderUpdatedTime",
           "package": "fb",
@@ -4234,6 +4600,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageCanPost",
           "package": "fb",
@@ -4243,6 +4610,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageCanPost",
           "package": "fb",
@@ -4256,6 +4624,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageCategory",
           "package": "fb",
@@ -4265,6 +4634,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageCategory",
           "package": "fb",
@@ -4278,6 +4648,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageCheckins",
           "package": "fb",
@@ -4287,6 +4658,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageCheckins",
           "package": "fb",
@@ -4300,6 +4672,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageId",
           "package": "fb",
@@ -4309,6 +4682,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageId",
           "package": "fb",
@@ -4322,6 +4696,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageIsPublished",
           "package": "fb",
@@ -4331,6 +4706,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageIsPublished",
           "package": "fb",
@@ -4344,6 +4720,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageLikes",
           "package": "fb",
@@ -4353,6 +4730,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageLikes",
           "package": "fb",
@@ -4366,6 +4744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageLink",
           "package": "fb",
@@ -4375,6 +4754,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageLink",
           "package": "fb",
@@ -4388,6 +4768,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageLocation",
           "package": "fb",
@@ -4397,6 +4778,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageLocation",
           "package": "fb",
@@ -4410,6 +4792,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageName",
           "package": "fb",
@@ -4419,6 +4802,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageName",
           "package": "fb",
@@ -4432,6 +4816,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pagePhone",
           "package": "fb",
@@ -4441,6 +4826,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pagePhone",
           "package": "fb",
@@ -4454,6 +4840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pagePicture",
           "package": "fb",
@@ -4463,6 +4850,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pagePicture",
           "package": "fb",
@@ -4476,6 +4864,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageTalkingAboutCount",
           "package": "fb",
@@ -4485,6 +4874,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageTalkingAboutCount",
           "package": "fb",
@@ -4498,6 +4888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pageWebsite",
           "package": "fb",
@@ -4507,6 +4898,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pageWebsite",
           "package": "fb",
@@ -4520,6 +4912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pagerData",
           "package": "fb",
@@ -4529,6 +4922,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pagerData",
           "normalized": "[a]",
@@ -4544,6 +4938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pagerNext",
           "package": "fb",
@@ -4553,6 +4948,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pagerNext",
           "package": "fb",
@@ -4566,6 +4962,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "pagerPrevious",
           "package": "fb",
@@ -4575,6 +4972,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "pagerPrevious",
           "package": "fb",
@@ -4589,6 +4987,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eParses a Facebook signed request\n (\u003ca\u003ehttps://developers.facebook.com/docs/authentication/signed_request/\u003c/a\u003e),\n verifies its authencity and integrity using the HMAC and\n decodes its JSON object.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "parseSignedRequest",
           "package": "fb",
@@ -4598,6 +4997,7 @@
         "index": {
           "description": "Parses Facebook signed request https developers.facebook.com docs authentication signed request verifies its authencity and integrity using the HMAC and decodes its JSON object",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "parseSignedRequest",
           "normalized": "ByteString-\u003eFacebookT Auth a(Maybe b)",
@@ -4614,6 +5014,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePage\u003c/code\u003e ID.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "placeId",
           "package": "fb",
@@ -4624,6 +5025,7 @@
         "index": {
           "description": "Page ID",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "placeId",
           "package": "fb",
@@ -4637,6 +5039,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "placeLocation",
           "package": "fb",
@@ -4646,6 +5049,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "placeLocation",
           "package": "fb",
@@ -4660,6 +5064,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003e\u003ccode\u003ePage\u003c/code\u003e name.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "placeName",
           "package": "fb",
@@ -4670,6 +5075,7 @@
         "index": {
           "description": "Page name",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "placeName",
           "package": "fb",
@@ -4684,6 +5090,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a raw \u003ccode\u003ePOST\u003c/code\u003e request to Facebook's Graph API.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "postObject",
           "package": "fb",
@@ -4693,6 +5100,7 @@
         "index": {
           "description": "Make raw POST request to Facebook Graph API",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "postObject",
           "normalized": "Text-\u003e[Argument]-\u003eAccessToken a-\u003eFacebookT Auth b c",
@@ -4709,6 +5117,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRemove an existing test user.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "removeTestUser",
           "package": "fb",
@@ -4718,6 +5127,7 @@
         "index": {
           "description": "Remove an existing test user",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "removeTestUser",
           "normalized": "TestUser-\u003eAppAccessToken-\u003eFacebookT Auth a Bool",
@@ -4733,6 +5143,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtunEntries",
           "package": "fb",
@@ -4742,6 +5153,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtunEntries",
           "normalized": "[a]",
@@ -4757,6 +5169,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtunObject",
           "package": "fb",
@@ -4766,6 +5179,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtunObject",
           "package": "fb",
@@ -4779,6 +5193,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtuneChangedFields",
           "package": "fb",
@@ -4788,6 +5203,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtuneChangedFields",
           "normalized": "[RealTimeUpdateField]",
@@ -4803,6 +5219,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtuneTime",
           "package": "fb",
@@ -4812,6 +5229,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtuneTime",
           "package": "fb",
@@ -4825,6 +5243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtuneUserId",
           "package": "fb",
@@ -4834,6 +5253,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtuneUserId",
           "package": "fb",
@@ -4847,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtusActive",
           "package": "fb",
@@ -4856,6 +5277,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtusActive",
           "package": "fb",
@@ -4869,6 +5291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtusCallbackUrl",
           "package": "fb",
@@ -4878,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtusCallbackUrl",
           "package": "fb",
@@ -4891,6 +5315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtusFields",
           "package": "fb",
@@ -4900,6 +5325,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtusFields",
           "normalized": "[RealTimeUpdateField]",
@@ -4915,6 +5341,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "rtusObject",
           "package": "fb",
@@ -4924,6 +5351,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "rtusObject",
           "package": "fb",
@@ -4938,6 +5366,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in the \u003ccode\u003e\u003ca\u003eFacebookT\u003c/a\u003e\u003c/code\u003e monad transformer with\n your credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "runFacebookT",
           "package": "fb",
@@ -4947,6 +5376,7 @@
         "index": {
           "description": "Run computation in the FacebookT monad transformer with your credentials",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "runFacebookT",
           "normalized": "Credentials-\u003eManager-\u003eFacebookT Auth a b-\u003ea b",
@@ -4963,6 +5393,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun a computation in the \u003ccode\u003e\u003ca\u003eFacebookT\u003c/a\u003e\u003c/code\u003e monad without\n credentials.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "runNoAuthFacebookT",
           "package": "fb",
@@ -4973,6 +5404,7 @@
         "index": {
           "description": "Run computation in the FacebookT monad without credentials",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "runNoAuthFacebookT",
           "normalized": "Manager-\u003eFacebookT NoAuth a b-\u003ea b",
@@ -4989,6 +5421,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eMake a raw \u003ccode\u003eGET\u003c/code\u003e request to the /search endpoint of Facebook&#8217;s\n Graph API.  Returns a raw JSON \u003ccode\u003e\u003ca\u003eValue\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "searchObjects",
           "package": "fb",
@@ -4998,6 +5431,7 @@
         "index": {
           "description": "Make raw GET request to the search endpoint of Facebook Graph API Returns raw JSON Value",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "searchObjects",
           "normalized": "Text-\u003eText-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b(Pager c)",
@@ -5014,6 +5448,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch pages by keyword. The user access token is optional.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "searchPages",
           "package": "fb",
@@ -5023,6 +5458,7 @@
         "index": {
           "description": "Search pages by keyword The user access token is optional",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "searchPages",
           "normalized": "Text-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b(Pager Page)",
@@ -5039,6 +5475,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eSearch users by keyword.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "searchUsers",
           "package": "fb",
@@ -5049,6 +5486,7 @@
         "index": {
           "description": "Search users by keyword",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "searchUsers",
           "normalized": "Text-\u003e[Argument]-\u003eMaybe UserAccessToken-\u003eFacebookT a b(Pager User)",
@@ -5065,6 +5503,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eWho is tagged.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tagId",
           "package": "fb",
@@ -5075,6 +5514,7 @@
         "index": {
           "description": "Who is tagged",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tagId",
           "package": "fb",
@@ -5089,6 +5529,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eName of the tagged person.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tagName",
           "package": "fb",
@@ -5099,6 +5540,7 @@
         "index": {
           "description": "Name of the tagged person",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tagName",
           "package": "fb",
@@ -5112,6 +5554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tuAccessToken",
           "package": "fb",
@@ -5121,6 +5564,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tuAccessToken",
           "package": "fb",
@@ -5134,6 +5578,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tuEmail",
           "package": "fb",
@@ -5143,6 +5588,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tuEmail",
           "package": "fb",
@@ -5156,6 +5602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tuId",
           "package": "fb",
@@ -5165,6 +5612,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tuId",
           "package": "fb",
@@ -5178,6 +5626,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tuLoginUrl",
           "package": "fb",
@@ -5187,6 +5636,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tuLoginUrl",
           "package": "fb",
@@ -5200,6 +5650,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "tuPassword",
           "package": "fb",
@@ -5209,6 +5660,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "tuPassword",
           "package": "fb",
@@ -5222,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "unFQLList",
           "package": "fb",
@@ -5231,6 +5684,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "unFQLList",
           "normalized": "[a]",
@@ -5246,6 +5700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "unFQLObject",
           "package": "fb",
@@ -5255,6 +5710,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "unFQLObject",
           "package": "fb",
@@ -5268,6 +5724,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "unFQLTime",
           "package": "fb",
@@ -5277,6 +5734,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "unFQLTime",
           "package": "fb",
@@ -5290,6 +5748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "unFbUTCTime",
           "package": "fb",
@@ -5299,6 +5758,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "unFbUTCTime",
           "package": "fb",
@@ -5313,6 +5773,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRetrieves the \u003ccode\u003e\u003ca\u003eText\u003c/a\u003e\u003c/code\u003e back from a \u003ccode\u003e\u003ca\u003ePermission\u003c/a\u003e\u003c/code\u003e.  Most of\n the time you won't need to use this function, but you may\n need it if you're a library author.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "unPermission",
           "package": "fb",
@@ -5323,6 +5784,7 @@
         "index": {
           "description": "Retrieves the Text back from Permission Most of the time you won need to use this function but you may need it if you re library author",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "unPermission",
           "normalized": "Permission-\u003eText",
@@ -5338,6 +5800,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userEmail",
           "package": "fb",
@@ -5347,6 +5810,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userEmail",
           "package": "fb",
@@ -5360,6 +5824,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userFirstName",
           "package": "fb",
@@ -5369,6 +5834,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userFirstName",
           "package": "fb",
@@ -5382,6 +5848,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userGender",
           "package": "fb",
@@ -5391,6 +5858,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userGender",
           "package": "fb",
@@ -5404,6 +5872,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userId",
           "package": "fb",
@@ -5413,6 +5882,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userId",
           "package": "fb",
@@ -5426,6 +5896,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userLastName",
           "package": "fb",
@@ -5435,6 +5906,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userLastName",
           "package": "fb",
@@ -5448,6 +5920,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userLocale",
           "package": "fb",
@@ -5457,6 +5930,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userLocale",
           "package": "fb",
@@ -5470,6 +5944,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userLocation",
           "package": "fb",
@@ -5479,6 +5954,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userLocation",
           "package": "fb",
@@ -5492,6 +5968,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userMiddleName",
           "package": "fb",
@@ -5501,6 +5978,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userMiddleName",
           "package": "fb",
@@ -5514,6 +5992,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userName",
           "package": "fb",
@@ -5523,6 +6002,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userName",
           "package": "fb",
@@ -5536,6 +6016,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userUsername",
           "package": "fb",
@@ -5545,6 +6026,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userUsername",
           "package": "fb",
@@ -5558,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "userVerified",
           "package": "fb",
@@ -5567,6 +6050,7 @@
         },
         "index": {
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "userVerified",
           "package": "fb",
@@ -5581,6 +6065,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eVerifies the input's authenticity (i.e. it comes from\n Facebook) and integrity by calculating its HMAC-SHA1 (using\n your application secret as the key) and verifying that it\n matches the value from the HTTP request's \u003ccode\u003eX-Hub-Signature\u003c/code\u003e\n header's value.  If it's not valid, \u003ccode\u003eNothing\u003c/code\u003e is returned,\n otherwise \u003ccode\u003eJust data\u003c/code\u003e is returned where \u003ccode\u003edata\u003c/code\u003e is the original\n data.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:07:00 UTC 2014",
           "module": "Facebook",
           "name": "verifyRealTimeUpdateNotifications",
           "package": "fb",
@@ -5590,6 +6075,7 @@
         "index": {
           "description": "Verifies the input authenticity i.e it comes from Facebook and integrity by calculating its HMAC-SHA1 using your application secret as the key and verifying that it matches the value from the HTTP request X-Hub-Signature header value If it not valid Nothing is returned otherwise Just data is returned where data is the original data",
           "hierarchy": "Facebook",
+          "indexed": "2014-03-11T18:07:00",
           "module": "Facebook",
           "name": "verifyRealTimeUpdateNotifications",
           "normalized": "ByteString-\u003eByteString-\u003eFacebookT Auth a(Maybe ByteString)",

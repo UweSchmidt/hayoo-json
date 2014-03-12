@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "avr-shake"
+        "phrase": "avr-shake",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "AVR",
           "package": "avr-shake",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "AVR",
           "package": "avr-shake",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_gcc",
           "package": "avr-shake",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_gcc",
           "normalized": "[String]-\u003eFilePath-\u003eString-\u003eAction()",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_gcc'",
           "package": "avr-shake",
@@ -71,6 +76,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_gcc'",
           "normalized": "String-\u003e[String]-\u003eFilePath-\u003eString-\u003eAction()",
@@ -85,6 +91,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_ld",
           "package": "avr-shake",
@@ -94,6 +101,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_ld",
           "normalized": "[String]-\u003e[FilePath]-\u003eString-\u003eAction()",
@@ -108,6 +116,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_ld'",
           "package": "avr-shake",
@@ -117,6 +126,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_ld'",
           "normalized": "FilePath-\u003e[String]-\u003e[FilePath]-\u003eString-\u003eAction()",
@@ -131,6 +141,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_objcopy",
           "package": "avr-shake",
@@ -140,6 +151,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_objcopy",
           "normalized": "String-\u003e[String]-\u003eFilePath-\u003eString-\u003eAction()",
@@ -154,6 +166,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_objcopy'",
           "package": "avr-shake",
@@ -163,6 +176,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_objcopy'",
           "normalized": "FilePath-\u003eString-\u003e[String]-\u003eFilePath-\u003eString-\u003eAction()",
@@ -177,6 +191,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_objdump",
           "package": "avr-shake",
@@ -186,6 +201,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_objdump",
           "normalized": "FilePath-\u003eFilePath-\u003eAction()",
@@ -200,6 +216,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avr_objdump'",
           "package": "avr-shake",
@@ -209,6 +226,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avr_objdump'",
           "normalized": "String-\u003eFilePath-\u003eFilePath-\u003eAction()",
@@ -223,6 +241,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avrdude",
           "package": "avr-shake",
@@ -232,6 +251,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avrdude",
           "normalized": "[String]-\u003eFilePath-\u003eFilePath-\u003eAction()",
@@ -246,6 +266,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:15:23 UTC 2014",
           "module": "Development.Shake.AVR",
           "name": "avrdude'",
           "package": "avr-shake",
@@ -255,6 +276,7 @@
         },
         "index": {
           "hierarchy": "Development Shake AVR",
+          "indexed": "2014-03-11T17:15:23",
           "module": "Development.Shake.AVR",
           "name": "avrdude'",
           "normalized": "FilePath-\u003e[String]-\u003eFilePath-\u003eFilePath-\u003eAction()",

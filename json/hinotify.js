@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hinotify"
+        "phrase": "hinotify",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eA Haskell binding to INotify.\n See \u003ca\u003ehttp://www.kernel.org/pub/linux/kernel/people/rml/inotify/\u003c/a\u003e and \u003ccode\u003eman\n inotify\u003c/code\u003e.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003einitINotify\u003c/a\u003e\u003c/code\u003e to get a \u003ccode\u003e\u003ca\u003eINotify\u003c/a\u003e\u003c/code\u003e, then use \u003ccode\u003e\u003ca\u003eaddWatch\u003c/a\u003e\u003c/code\u003e to\n add a watch on a file or directory. Select which events you're interested\n in with \u003ccode\u003e\u003ca\u003eEventVariety\u003c/a\u003e\u003c/code\u003e, which corresponds to the \u003ccode\u003e\u003ca\u003eEvent\u003c/a\u003e\u003c/code\u003e events.\n\u003c/p\u003e\u003cp\u003eUse \u003ccode\u003e\u003ca\u003eremoveWatch\u003c/a\u003e\u003c/code\u003e once you don't want to watch a file any more.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "INotify",
           "package": "hinotify",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Haskell binding to INotify See http www.kernel.org pub linux kernel people rml inotify and man inotify Use initINotify to get INotify then use addWatch to add watch on file or directory Select which events you re interested in with EventVariety which corresponds to the Event events Use removeWatch once you don want to watch file any more",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "INotify",
           "package": "hinotify",
@@ -41,6 +43,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Cookie",
           "package": "hinotify",
@@ -49,6 +52,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Cookie",
           "package": "hinotify",
@@ -62,6 +66,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Event",
           "package": "hinotify",
@@ -70,6 +75,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Event",
           "package": "hinotify",
@@ -83,6 +89,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "EventVariety",
           "package": "hinotify",
@@ -91,6 +98,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "EventVariety",
           "package": "hinotify",
@@ -104,6 +112,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "INotify",
           "package": "hinotify",
@@ -112,6 +121,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "INotify",
           "package": "hinotify",
@@ -125,6 +135,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "WatchDescriptor",
           "package": "hinotify",
@@ -133,6 +144,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "WatchDescriptor",
           "package": "hinotify",
@@ -146,6 +158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Access",
           "package": "hinotify",
@@ -155,6 +168,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Access",
           "package": "hinotify",
@@ -169,6 +183,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was accessed. \u003ccode\u003eAccessed isDirectory file\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Accessed",
           "package": "hinotify",
@@ -179,6 +194,7 @@
         "index": {
           "description": "file was accessed Accessed isDirectory file",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Accessed",
           "package": "hinotify",
@@ -192,6 +208,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "AllEvents",
           "package": "hinotify",
@@ -201,6 +218,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "AllEvents",
           "package": "hinotify",
@@ -214,6 +232,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Attrib",
           "package": "hinotify",
@@ -223,6 +242,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Attrib",
           "package": "hinotify",
@@ -237,6 +257,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA files attributes where changed. \u003ccode\u003eAttributes isDirectory file\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Attributes",
           "package": "hinotify",
@@ -247,6 +268,7 @@
         "index": {
           "description": "files attributes where changed Attributes isDirectory file",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Attributes",
           "package": "hinotify",
@@ -260,6 +282,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Close",
           "package": "hinotify",
@@ -269,6 +292,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Close",
           "package": "hinotify",
@@ -282,6 +306,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "CloseNoWrite",
           "package": "hinotify",
@@ -291,6 +316,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "CloseNoWrite",
           "package": "hinotify",
@@ -304,6 +330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "CloseWrite",
           "package": "hinotify",
@@ -313,6 +340,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "CloseWrite",
           "package": "hinotify",
@@ -327,6 +355,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was closed. \u003ccode\u003eClosed isDirectory file wasWriteable\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Closed",
           "package": "hinotify",
@@ -337,6 +366,7 @@
         "index": {
           "description": "file was closed Closed isDirectory file wasWriteable",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Closed",
           "package": "hinotify",
@@ -350,6 +380,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Create",
           "package": "hinotify",
@@ -359,6 +390,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Create",
           "package": "hinotify",
@@ -373,6 +405,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was created. \u003ccode\u003eCreated isDirectory file\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Created",
           "package": "hinotify",
@@ -383,6 +416,7 @@
         "index": {
           "description": "file was created Created isDirectory file",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Created",
           "package": "hinotify",
@@ -396,6 +430,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Delete",
           "package": "hinotify",
@@ -405,6 +440,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Delete",
           "package": "hinotify",
@@ -418,6 +454,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "DeleteSelf",
           "package": "hinotify",
@@ -427,6 +464,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "DeleteSelf",
           "package": "hinotify",
@@ -441,6 +479,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was deleted. \u003ccode\u003eDeleted isDirectory file\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Deleted",
           "package": "hinotify",
@@ -451,6 +490,7 @@
         "index": {
           "description": "file was deleted Deleted isDirectory file",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Deleted",
           "package": "hinotify",
@@ -465,6 +505,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file watched was deleted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "DeletedSelf",
           "package": "hinotify",
@@ -475,6 +516,7 @@
         "index": {
           "description": "The file watched was deleted",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "DeletedSelf",
           "package": "hinotify",
@@ -488,6 +530,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Ignored",
           "package": "hinotify",
@@ -497,6 +540,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Ignored",
           "package": "hinotify",
@@ -510,6 +554,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MaskAdd",
           "package": "hinotify",
@@ -519,6 +564,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MaskAdd",
           "package": "hinotify",
@@ -533,6 +579,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was modified. \u003ccode\u003eModified isDirectory file\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Modified",
           "package": "hinotify",
@@ -543,6 +590,7 @@
         "index": {
           "description": "file was modified Modified isDirectory file",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Modified",
           "package": "hinotify",
@@ -556,6 +604,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Modify",
           "package": "hinotify",
@@ -565,6 +614,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Modify",
           "package": "hinotify",
@@ -578,6 +628,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Move",
           "package": "hinotify",
@@ -587,6 +638,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Move",
           "package": "hinotify",
@@ -600,6 +652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MoveIn",
           "package": "hinotify",
@@ -609,6 +662,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MoveIn",
           "package": "hinotify",
@@ -622,6 +676,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MoveOut",
           "package": "hinotify",
@@ -631,6 +686,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MoveOut",
           "package": "hinotify",
@@ -644,6 +700,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MoveSelf",
           "package": "hinotify",
@@ -653,6 +710,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MoveSelf",
           "package": "hinotify",
@@ -667,6 +725,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was moved into the watched dir. \u003ccode\u003eMovedTo isDirectory to cookie\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MovedIn",
           "package": "hinotify",
@@ -677,6 +736,7 @@
         "index": {
           "description": "file was moved into the watched dir MovedTo isDirectory to cookie",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MovedIn",
           "package": "hinotify",
@@ -691,6 +751,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was moved away from the watched dir. \u003ccode\u003eMovedFrom isDirectory from cookie\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MovedOut",
           "package": "hinotify",
@@ -701,6 +762,7 @@
         "index": {
           "description": "file was moved away from the watched dir MovedFrom isDirectory from cookie",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MovedOut",
           "package": "hinotify",
@@ -715,6 +777,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe watched file was moved. \u003ccode\u003eMovedSelf isDirectory\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "MovedSelf",
           "package": "hinotify",
@@ -725,6 +788,7 @@
         "index": {
           "description": "The watched file was moved MovedSelf isDirectory",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "MovedSelf",
           "package": "hinotify",
@@ -738,6 +802,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "NoSymlink",
           "package": "hinotify",
@@ -747,6 +812,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "NoSymlink",
           "package": "hinotify",
@@ -760,6 +826,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "OneShot",
           "package": "hinotify",
@@ -769,6 +836,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "OneShot",
           "package": "hinotify",
@@ -782,6 +850,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "OnlyDir",
           "package": "hinotify",
@@ -791,6 +860,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "OnlyDir",
           "package": "hinotify",
@@ -804,6 +874,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Open",
           "package": "hinotify",
@@ -813,6 +884,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Open",
           "package": "hinotify",
@@ -827,6 +899,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA file was opened. \u003ccode\u003eOpened isDirectory maybeFilePath\u003c/code\u003e\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Opened",
           "package": "hinotify",
@@ -837,6 +910,7 @@
         "index": {
           "description": "file was opened Opened isDirectory maybeFilePath",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Opened",
           "package": "hinotify",
@@ -851,6 +925,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe queue overflowed.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "QOverflow",
           "package": "hinotify",
@@ -861,6 +936,7 @@
         "index": {
           "description": "The queue overflowed",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "QOverflow",
           "package": "hinotify",
@@ -874,6 +950,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Unknown",
           "package": "hinotify",
@@ -883,6 +960,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Unknown",
           "package": "hinotify",
@@ -897,6 +975,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe file watched was unmounted.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "Unmounted",
           "package": "hinotify",
@@ -907,6 +986,7 @@
         "index": {
           "description": "The file watched was unmounted",
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "Unmounted",
           "package": "hinotify",
@@ -920,6 +1000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "addWatch",
           "package": "hinotify",
@@ -929,6 +1010,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "addWatch",
           "normalized": "INotify-\u003e[EventVariety]-\u003eFilePath-\u003e(Event-\u003eIO())-\u003eIO WatchDescriptor",
@@ -944,6 +1026,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "filePath",
           "package": "hinotify",
@@ -953,6 +1036,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "filePath",
           "package": "hinotify",
@@ -966,6 +1050,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "initINotify",
           "package": "hinotify",
@@ -975,6 +1060,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "initINotify",
           "package": "hinotify",
@@ -988,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "isDirectory",
           "package": "hinotify",
@@ -997,6 +1084,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "isDirectory",
           "package": "hinotify",
@@ -1010,6 +1098,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "killINotify",
           "package": "hinotify",
@@ -1019,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "killINotify",
           "normalized": "INotify-\u003eIO()",
@@ -1034,6 +1124,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "maybeFilePath",
           "package": "hinotify",
@@ -1043,6 +1134,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "maybeFilePath",
           "package": "hinotify",
@@ -1056,6 +1148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "moveCookie",
           "package": "hinotify",
@@ -1065,6 +1158,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "moveCookie",
           "package": "hinotify",
@@ -1078,6 +1172,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "removeWatch",
           "package": "hinotify",
@@ -1087,6 +1182,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "removeWatch",
           "normalized": "WatchDescriptor-\u003eIO()",
@@ -1102,6 +1198,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "wasWriteable",
           "package": "hinotify",
@@ -1111,6 +1208,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "wasWriteable",
           "package": "hinotify",
@@ -1124,6 +1222,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:39:42 UTC 2014",
           "module": "System.INotify",
           "name": "withINotify",
           "package": "hinotify",
@@ -1133,6 +1232,7 @@
         },
         "index": {
           "hierarchy": "System INotify",
+          "indexed": "2014-03-11T18:39:42",
           "module": "System.INotify",
           "name": "withINotify",
           "normalized": "(INotify-\u003eIO a)-\u003eIO a",

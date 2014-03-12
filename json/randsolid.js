@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "randsolid"
+        "phrase": "randsolid",
+        "type": "phrase"
       },
       "type": "context"
     }

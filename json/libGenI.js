@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "libGenI"
+        "phrase": "libGenI",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3ANFA",
           "package": "libGenI",
@@ -25,6 +26,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3ANFA",
           "package": "libGenI",
@@ -38,6 +40,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3AaddTrans",
           "package": "libGenI",
@@ -46,6 +49,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3AaddTrans",
           "normalized": "NFA a b-\u003ea-\u003eMaybe b-\u003ea-\u003eNFA a b",
@@ -62,6 +66,7 @@
       "document": {
         "description": {
           "description": "Not quite the set of all paths, but the sets of all transitions\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3AautomatonPathSets",
           "package": "libGenI",
@@ -71,6 +76,7 @@
         "index": {
           "description": "Not quite the set of all paths but the sets of all transitions",
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3AautomatonPathSets",
           "normalized": "(NFA a b)-\u003e[[[b]]]",
@@ -134,6 +140,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3AlookupTrans",
           "package": "libGenI",
@@ -142,6 +149,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3AlookupTrans",
           "normalized": "NFA a b-\u003ea-\u003e(Maybe b)-\u003e[a]",
@@ -157,6 +165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3AnumStates",
           "package": "libGenI",
@@ -165,6 +174,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3AnumStates",
           "normalized": "NFA a b-\u003eInt",
@@ -180,6 +190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Automaton",
           "name": "3AnumTransitions",
           "package": "libGenI",
@@ -188,6 +199,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Automaton",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Automaton",
           "name": "3AnumTransitions",
           "normalized": "NFA a b-\u003eInt",
@@ -203,6 +215,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AAvPair",
           "package": "libGenI",
@@ -210,6 +223,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AAvPair",
           "package": "libGenI",
@@ -223,6 +237,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AFlist",
           "package": "libGenI",
@@ -230,6 +245,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AFlist",
           "package": "libGenI",
@@ -243,6 +259,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AGNode",
           "package": "libGenI",
@@ -250,6 +267,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AGNode",
           "package": "libGenI",
@@ -263,6 +281,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AGType",
           "package": "libGenI",
@@ -270,6 +289,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AGType",
           "package": "libGenI",
@@ -283,6 +303,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AGeniVal",
           "package": "libGenI",
@@ -290,6 +311,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AGeniVal",
           "package": "libGenI",
@@ -303,6 +325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AILexEntry",
           "package": "libGenI",
@@ -310,6 +333,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AILexEntry",
           "package": "libGenI",
@@ -324,6 +348,7 @@
       "document": {
         "description": {
           "description": "A lexicon maps semantic predicates to lexical entries.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ALexicon",
           "package": "libGenI",
@@ -332,6 +357,7 @@
         "index": {
           "description": "lexicon maps semantic predicates to lexical entries",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ALexicon",
           "package": "libGenI",
@@ -345,6 +371,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ALitConstr",
           "package": "libGenI",
@@ -352,6 +379,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ALitConstr",
           "package": "libGenI",
@@ -365,6 +393,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AMTtree",
           "package": "libGenI",
@@ -372,6 +401,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AMTtree",
           "package": "libGenI",
@@ -385,6 +415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AMacros",
           "package": "libGenI",
@@ -392,6 +423,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AMacros",
           "package": "libGenI",
@@ -405,6 +437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AMorphLexEntry",
           "package": "libGenI",
@@ -412,6 +445,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AMorphLexEntry",
           "package": "libGenI",
@@ -425,6 +459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ANodeName",
           "package": "libGenI",
@@ -432,6 +467,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ANodeName",
           "package": "libGenI",
@@ -445,6 +481,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3APred",
           "package": "libGenI",
@@ -452,6 +489,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3APred",
           "package": "libGenI",
@@ -465,6 +503,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3APtype",
           "package": "libGenI",
@@ -472,6 +511,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3APtype",
           "package": "libGenI",
@@ -485,6 +525,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ASem",
           "package": "libGenI",
@@ -492,6 +533,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ASem",
           "package": "libGenI",
@@ -505,6 +547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ASemInput",
           "package": "libGenI",
@@ -512,6 +555,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ASemInput",
           "package": "libGenI",
@@ -525,6 +569,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ASemPols",
           "package": "libGenI",
@@ -532,6 +577,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ASemPols",
           "package": "libGenI",
@@ -545,6 +591,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ASubst",
           "package": "libGenI",
@@ -552,6 +599,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ASubst",
           "package": "libGenI",
@@ -565,6 +613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ATestCase",
           "package": "libGenI",
@@ -572,6 +621,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ATestCase",
           "package": "libGenI",
@@ -585,6 +635,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ATtree",
           "package": "libGenI",
@@ -592,6 +643,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ATtree",
           "package": "libGenI",
@@ -605,6 +657,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ACollectable",
           "package": "libGenI",
@@ -612,6 +665,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ACollectable",
           "package": "libGenI",
@@ -625,6 +679,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AIdable",
           "package": "libGenI",
@@ -632,6 +687,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AIdable",
           "package": "libGenI",
@@ -645,6 +701,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AReplacable",
           "package": "libGenI",
@@ -652,6 +709,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AReplacable",
           "package": "libGenI",
@@ -665,6 +723,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AalphaConvert",
           "package": "libGenI",
@@ -673,6 +732,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AalphaConvert",
           "normalized": "String-\u003ea-\u003ea",
@@ -688,6 +748,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AalphaConvertById",
           "package": "libGenI",
@@ -696,6 +757,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AalphaConvertById",
           "normalized": "a-\u003ea",
@@ -736,6 +798,7 @@
       "document": {
         "description": {
           "description": "A null \u003ctt\u003e\u003ca\u003eGNode\u003c/a\u003e\u003c/tt\u003e which you can use for various debugging or display purposes.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyGNode",
           "package": "libGenI",
@@ -745,6 +808,7 @@
         "index": {
           "description": "null GNode which you can use for various debugging or display purposes",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyGNode",
           "package": "libGenI",
@@ -758,6 +822,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyLE",
           "package": "libGenI",
@@ -766,6 +831,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyLE",
           "package": "libGenI",
@@ -780,6 +846,7 @@
       "document": {
         "description": {
           "description": "A null tree which you can use for various debugging or display purposes.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyMacro",
           "package": "libGenI",
@@ -789,6 +856,7 @@
         "index": {
           "description": "null tree which you can use for various debugging or display purposes",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyMacro",
           "package": "libGenI",
@@ -802,6 +870,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyPred",
           "package": "libGenI",
@@ -810,6 +879,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AemptyPred",
           "package": "libGenI",
@@ -823,6 +893,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Afoot",
           "package": "libGenI",
@@ -831,6 +902,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Afoot",
           "normalized": "Tree GNode-\u003eGNode",
@@ -847,6 +919,7 @@
       "document": {
         "description": {
           "description": "(assumes that it's a GConst!)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AfromGConst",
           "package": "libGenI",
@@ -856,6 +929,7 @@
         "index": {
           "description": "assumes that it GConst",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AfromGConst",
           "normalized": "GeniVal-\u003e[String]",
@@ -872,6 +946,7 @@
       "document": {
         "description": {
           "description": "(assumes that it's a GVar!)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AfromGVar",
           "package": "libGenI",
@@ -881,6 +956,7 @@
         "index": {
           "description": "assumes that it GVar",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AfromGVar",
           "normalized": "GeniVal-\u003eString",
@@ -897,6 +973,7 @@
       "document": {
         "description": {
           "description": "Return the value of the \u003ca\u003ecat\u003c/a\u003e attribute, if available\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AgCategory",
           "package": "libGenI",
@@ -906,6 +983,7 @@
         "index": {
           "description": "Return the value of the cat attribute if available",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AgCategory",
           "normalized": "Flist-\u003eMaybe GeniVal",
@@ -921,6 +999,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AgnnameIs",
           "package": "libGenI",
@@ -929,6 +1008,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AgnnameIs",
           "normalized": "NodeName-\u003eGNode-\u003eBool",
@@ -944,6 +1024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AidOf",
           "package": "libGenI",
@@ -952,6 +1033,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AidOf",
           "normalized": "a-\u003eInteger",
@@ -967,6 +1049,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AisAnon",
           "package": "libGenI",
@@ -975,6 +1058,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AisAnon",
           "normalized": "GeniVal-\u003eBool",
@@ -990,6 +1074,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AisConst",
           "package": "libGenI",
@@ -998,6 +1083,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AisConst",
           "normalized": "GeniVal-\u003eBool",
@@ -1013,6 +1099,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AisVar",
           "package": "libGenI",
@@ -1021,6 +1108,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AisVar",
           "normalized": "GeniVal-\u003eBool",
@@ -1037,6 +1125,7 @@
       "document": {
         "description": {
           "description": "Attributes recognised as lexemes, in order of preference\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AlexemeAttributes",
           "package": "libGenI",
@@ -1046,6 +1135,7 @@
         "index": {
           "description": "Attributes recognised as lexemes in order of preference",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AlexemeAttributes",
           "normalized": "[String]",
@@ -1062,6 +1152,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eNote that the first Subst is assumed to come chronologically\n   before the second one; so merging \u003ctt\u003e{ X -\u003e Y }\u003c/tt\u003e and \u003ctt\u003e{ Y -\u003e 3 }\u003c/tt\u003e\n   should give us \u003ctt\u003e{ X -\u003e 3; Y -\u003e 3 }\u003c/tt\u003e;\n\u003c/p\u003e\u003cp\u003eSee \u003ctt\u003eprependToSubst\u003c/tt\u003e for a warning!\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AmergeSubst",
           "package": "libGenI",
@@ -1071,6 +1162,7 @@
         "index": {
           "description": "Note that the first Subst is assumed to come chronologically before the second one so merging and should give us See prependToSubst for warning",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AmergeSubst",
           "normalized": "Subst-\u003eSubst-\u003eSubst",
@@ -1087,6 +1179,7 @@
       "document": {
         "description": {
           "description": "Plug the first tree into the second tree at the specified node.\n   Anything below the second node is silently discarded.\n   We assume the trees are pluggable; it is treated as a bug if\n   they are not!\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AplugTree",
           "package": "libGenI",
@@ -1096,6 +1189,7 @@
         "index": {
           "description": "Plug the first tree into the second tree at the specified node Anything below the second node is silently discarded We assume the trees are pluggable it is treated as bug if they are not",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AplugTree",
           "normalized": "Tree NodeName-\u003eNodeName-\u003eTree NodeName-\u003eTree NodeName",
@@ -1111,6 +1205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_anon",
           "package": "libGenI",
@@ -1119,6 +1214,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_anon",
           "normalized": "[GeniVal]-\u003eBool",
@@ -1134,6 +1230,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_self",
           "package": "libGenI",
@@ -1142,6 +1239,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_self",
           "normalized": "[GeniVal]-\u003eProperty",
@@ -1157,6 +1255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_sym",
           "package": "libGenI",
@@ -1165,6 +1264,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Aprop_unify_sym",
           "normalized": "[GeniVal]-\u003e[GeniVal]-\u003eProperty",
@@ -1180,6 +1280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Areplace",
           "package": "libGenI",
@@ -1188,6 +1289,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Areplace",
           "normalized": "Subst-\u003ea-\u003ea",
@@ -1204,6 +1306,7 @@
       "document": {
         "description": {
           "description": "Here it is safe to say (X -\u003e Y; Y -\u003e Z) because this would be crushed\n   down into a final value of (X -\u003e Z; Y -\u003e Z)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceList",
           "package": "libGenI",
@@ -1213,6 +1316,7 @@
         "index": {
           "description": "Here it is safe to say because this would be crushed down into final value of",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceList",
           "normalized": "[(String,GeniVal)]-\u003ea-\u003ea",
@@ -1228,6 +1332,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceMap",
           "package": "libGenI",
@@ -1236,6 +1341,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceMap",
           "normalized": "Map String GeniVal-\u003ea-\u003ea",
@@ -1251,6 +1357,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceOne",
           "package": "libGenI",
@@ -1259,6 +1366,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceOne",
           "normalized": "(String,GeniVal)-\u003ea-\u003ea",
@@ -1275,6 +1383,7 @@
       "document": {
         "description": {
           "description": "Default implementation for replaceOne but not a good idea for the\n   core stuff; which is why it is not a typeclass default\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceOneAsMap",
           "package": "libGenI",
@@ -1284,6 +1393,7 @@
         "index": {
           "description": "Default implementation for replaceOne but not good idea for the core stuff which is why it is not typeclass default",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AreplaceOneAsMap",
           "normalized": "(String,GeniVal)-\u003ea-\u003ea",
@@ -1299,6 +1409,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Aroot",
           "package": "libGenI",
@@ -1307,6 +1418,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Aroot",
           "normalized": "Tree a-\u003ea",
@@ -1322,6 +1434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3ArootUpd",
           "package": "libGenI",
@@ -1330,6 +1443,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3ArootUpd",
           "normalized": "Tree a-\u003ea-\u003eTree a",
@@ -1346,6 +1460,7 @@
       "document": {
         "description": {
           "description": "Given a lexical item \u003ctt\u003es\u003c/tt\u003e and a Tree GNode t, returns the tree t'\n   where l has been assigned to the anchor node in t'\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AsetAnchor",
           "package": "libGenI",
@@ -1355,6 +1470,7 @@
         "index": {
           "description": "Given lexical item and Tree GNode returns the tree where has been assigned to the anchor node in",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AsetAnchor",
           "normalized": "[String]-\u003eTree GNode-\u003eTree GNode",
@@ -1371,6 +1487,7 @@
       "document": {
         "description": {
           "description": "Given a lexical item \u003ctt\u003el\u003c/tt\u003e and a tree node \u003ctt\u003en\u003c/tt\u003e (actually a subtree\n   with no children), return the same node with the lexical item as\n   its unique child.  The idea is that it converts terminal lexeme nodes\n   into preterminal nodes where the actual terminal is the given lexical\n   item\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AsetLexeme",
           "package": "libGenI",
@@ -1380,6 +1497,7 @@
         "index": {
           "description": "Given lexical item and tree node actually subtree with no children return the same node with the lexical item as its unique child The idea is that it converts terminal lexeme nodes into preterminal nodes where the actual terminal is the given lexical item",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AsetLexeme",
           "normalized": "[String]-\u003eTree GNode-\u003eTree GNode",
@@ -1395,6 +1513,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowAv",
           "package": "libGenI",
@@ -1403,6 +1522,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowAv",
           "normalized": "AvPair-\u003eString",
@@ -1418,6 +1538,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowFlist",
           "package": "libGenI",
@@ -1426,6 +1547,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowFlist",
           "normalized": "Flist-\u003eString",
@@ -1441,6 +1563,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowLexeme",
           "package": "libGenI",
@@ -1449,6 +1572,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowLexeme",
           "normalized": "[String]-\u003eString",
@@ -1464,6 +1588,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowPairs",
           "package": "libGenI",
@@ -1472,6 +1597,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowPairs",
           "normalized": "Flist-\u003eString",
@@ -1487,6 +1613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowPred",
           "package": "libGenI",
@@ -1495,6 +1622,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowPred",
           "normalized": "Pred-\u003eString",
@@ -1510,6 +1638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowSem",
           "package": "libGenI",
@@ -1518,6 +1647,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AshowSem",
           "normalized": "Sem-\u003eString",
@@ -1534,6 +1664,7 @@
       "document": {
         "description": {
           "description": "Sort an Flist according with its attributes\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AsortFlist",
           "package": "libGenI",
@@ -1543,6 +1674,7 @@
         "index": {
           "description": "Sort an Flist according with its attributes",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AsortFlist",
           "normalized": "Flist-\u003eFlist",
@@ -1559,6 +1691,7 @@
       "document": {
         "description": {
           "description": "Sort semantics first according to its predicate, and then to its handles.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AsortSem",
           "package": "libGenI",
@@ -1568,6 +1701,7 @@
         "index": {
           "description": "Sort semantics first according to its predicate and then to its handles",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AsortSem",
           "normalized": "Sem-\u003eSem",
@@ -1584,6 +1718,7 @@
       "document": {
         "description": {
           "description": "foot node of the aux tree\naux tree\nplace to adjoin in target tree\ntarget tree\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AspliceTree",
           "package": "libGenI",
@@ -1593,6 +1728,7 @@
         "index": {
           "description": "foot node of the aux tree aux tree place to adjoin in target tree target tree",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AspliceTree",
           "normalized": "NodeName-\u003eTree NodeName-\u003eNodeName-\u003eTree NodeName-\u003eTree NodeName",
@@ -1608,6 +1744,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AsubsumeSem",
           "package": "libGenI",
@@ -1616,6 +1753,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AsubsumeSem",
           "normalized": "Sem-\u003eSem-\u003e[(Sem,Subst)]",
@@ -1632,6 +1770,7 @@
       "document": {
         "description": {
           "description": "Given a Semantics, return the string with the proper keys\n   (propsymbol+arity) to access the agenda\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AtoKeys",
           "package": "libGenI",
@@ -1641,6 +1780,7 @@
         "index": {
           "description": "Given Semantics return the string with the proper keys propsymbol arity to access the agenda",
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AtoKeys",
           "normalized": "Sem-\u003e[String]",
@@ -1656,6 +1796,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3Aunify",
           "package": "libGenI",
@@ -1664,6 +1805,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3Aunify",
           "normalized": "[GeniVal]-\u003e[GeniVal]-\u003ea([GeniVal],Subst)",
@@ -1679,6 +1821,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Btypes",
           "name": "3AunifyFeat",
           "package": "libGenI",
@@ -1687,6 +1830,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Btypes",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Btypes",
           "name": "3AunifyFeat",
           "normalized": "Flist-\u003eFlist-\u003ea(Flist,Subst)",
@@ -1702,6 +1846,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ABuilder",
           "package": "libGenI",
@@ -1709,6 +1854,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ABuilder",
           "package": "libGenI",
@@ -1722,6 +1868,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ABuilderState",
           "package": "libGenI",
@@ -1729,6 +1876,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ABuilderState",
           "package": "libGenI",
@@ -1742,6 +1890,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ADerivation",
           "package": "libGenI",
@@ -1749,6 +1898,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ADerivation",
           "package": "libGenI",
@@ -1762,6 +1912,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ADispatchFilter",
           "package": "libGenI",
@@ -1769,6 +1920,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ADispatchFilter",
           "package": "libGenI",
@@ -1782,6 +1934,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AIafMap",
           "package": "libGenI",
@@ -1789,6 +1942,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AIafMap",
           "package": "libGenI",
@@ -1802,6 +1956,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AInput",
           "package": "libGenI",
@@ -1809,6 +1964,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AInput",
           "package": "libGenI",
@@ -1822,6 +1978,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ANullState",
           "package": "libGenI",
@@ -1829,6 +1986,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ANullState",
           "package": "libGenI",
@@ -1842,6 +2000,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AOutput",
           "package": "libGenI",
@@ -1849,6 +2008,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AOutput",
           "package": "libGenI",
@@ -1862,6 +2022,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ASemBitMap",
           "package": "libGenI",
@@ -1869,6 +2030,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ASemBitMap",
           "package": "libGenI",
@@ -1882,6 +2044,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ASentenceAut",
           "package": "libGenI",
@@ -1889,6 +2052,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ASentenceAut",
           "package": "libGenI",
@@ -1902,6 +2066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedDisjunction",
           "package": "libGenI",
@@ -1909,6 +2074,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedDisjunction",
           "package": "libGenI",
@@ -1922,6 +2088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedSentence",
           "package": "libGenI",
@@ -1929,6 +2096,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedSentence",
           "package": "libGenI",
@@ -1942,6 +2110,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedWord",
           "package": "libGenI",
@@ -1949,6 +2118,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AUninflectedWord",
           "package": "libGenI",
@@ -1963,6 +2133,7 @@
       "document": {
         "description": {
           "description": "Sequence two dispatch filters.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3A\u003e--\u003e",
           "package": "libGenI",
@@ -1972,6 +2143,7 @@
         "index": {
           "description": "Sequence two dispatch filters",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3A\u003e--\u003e",
           "normalized": "DispatchFilter a b-\u003eDispatchFilter a b-\u003eDispatchFilter a b",
@@ -1986,6 +2158,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AIafAble",
           "package": "libGenI",
@@ -1993,6 +2166,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AIafAble",
           "package": "libGenI",
@@ -2006,6 +2180,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AaddCounters",
           "package": "libGenI",
@@ -2014,6 +2189,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AaddCounters",
           "normalized": "Statistics-\u003eStatistics-\u003eStatistics",
@@ -2053,6 +2229,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3Achart_size",
           "package": "libGenI",
@@ -2061,6 +2238,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3Achart_size",
           "package": "libGenI",
@@ -2075,6 +2253,7 @@
       "document": {
         "description": {
           "description": "If the item meets some condition, use the first filter, otherwise\n   use the second one.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AcondFilter",
           "package": "libGenI",
@@ -2084,6 +2263,7 @@
         "index": {
           "description": "If the item meets some condition use the first filter otherwise use the second one",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AcondFilter",
           "normalized": "(a-\u003eBool)-\u003eDispatchFilter b a-\u003eDispatchFilter b a-\u003eDispatchFilter b a",
@@ -2099,6 +2279,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AdefaultMetricNames",
           "package": "libGenI",
@@ -2107,6 +2288,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AdefaultMetricNames",
           "normalized": "[String]",
@@ -2123,6 +2305,7 @@
       "document": {
         "description": {
           "description": "Default implementation for the \u003ctt\u003estepAll\u003c/tt\u003e function in \u003ctt\u003e\u003ca\u003eBuilder\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AdefaultStepAll",
           "package": "libGenI",
@@ -2132,6 +2315,7 @@
         "index": {
           "description": "Default implementation for the stepAll function in Builder",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AdefaultStepAll",
           "normalized": "Builder a b c-\u003eBuilderState a()",
@@ -2148,6 +2332,7 @@
       "document": {
         "description": {
           "description": "assign a bit vector value to each literal in the semantics\n the resulting map can then be used to construct a bit vector\n representation of the semantics\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AdefineSemanticBits",
           "package": "libGenI",
@@ -2157,6 +2342,7 @@
         "index": {
           "description": "assign bit vector value to each literal in the semantics the resulting map can then be used to construct bit vector representation of the semantics",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AdefineSemanticBits",
           "normalized": "Sem-\u003eSemBitMap",
@@ -2173,6 +2359,7 @@
       "document": {
         "description": {
           "description": "Return the literals of the semantics (in bit vector form)\n   whose accesibility depends on the given index\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AdependentSem",
           "package": "libGenI",
@@ -2182,6 +2369,7 @@
         "index": {
           "description": "Return the literals of the semantics in bit vector form whose accesibility depends on the given index",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AdependentSem",
           "normalized": "IafMap-\u003eString-\u003eSem",
@@ -2198,6 +2386,7 @@
       "document": {
         "description": {
           "description": "Like fromGConst but only for the non-disjoint ones: meant to be used as Maybe or List\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AfromUniConst",
           "package": "libGenI",
@@ -2207,6 +2396,7 @@
         "index": {
           "description": "Like fromGConst but only for the non-disjoint ones meant to be used as Maybe or List",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AfromUniConst",
           "normalized": "GeniVal-\u003ea String",
@@ -2222,6 +2412,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AgetIdx",
           "package": "libGenI",
@@ -2230,6 +2421,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AgetIdx",
           "normalized": "Flist-\u003e[GeniVal]",
@@ -2245,6 +2437,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafAcc",
           "package": "libGenI",
@@ -2253,6 +2446,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafAcc",
           "normalized": "a-\u003e[String]",
@@ -2269,6 +2463,7 @@
       "document": {
         "description": {
           "description": "the input semantics\nthe semantics of the item\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafBadSem",
           "package": "libGenI",
@@ -2278,6 +2473,7 @@
         "index": {
           "description": "the input semantics the semantics of the item",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafBadSem",
           "normalized": "IafMap-\u003eSemBitMap-\u003eBitVector-\u003ea-\u003eBitVector-\u003ea-\u003eBitVector",
@@ -2293,6 +2489,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafInacc",
           "package": "libGenI",
@@ -2301,6 +2498,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafInacc",
           "normalized": "a-\u003e[String]",
@@ -2316,6 +2514,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafNewAcc",
           "package": "libGenI",
@@ -2324,6 +2523,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafNewAcc",
           "normalized": "a-\u003e[String]",
@@ -2339,6 +2539,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafSetAcc",
           "package": "libGenI",
@@ -2347,6 +2548,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafSetAcc",
           "normalized": "[String]-\u003ea-\u003ea",
@@ -2362,6 +2564,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AiafSetInacc",
           "package": "libGenI",
@@ -2370,6 +2573,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AiafSetInacc",
           "normalized": "[String]-\u003ea-\u003ea",
@@ -2385,6 +2589,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AincrCounter",
           "package": "libGenI",
@@ -2393,6 +2598,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AincrCounter",
           "normalized": "String-\u003eInt-\u003eBuilderState a()",
@@ -2408,6 +2614,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AinitNullBuilder",
           "package": "libGenI",
@@ -2416,6 +2623,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AinitNullBuilder",
           "normalized": "Input-\u003eParams-\u003e((),Statistics)",
@@ -2431,6 +2639,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AinitStats",
           "package": "libGenI",
@@ -2439,6 +2648,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AinitStats",
           "normalized": "Params-\u003eStatistics",
@@ -2455,6 +2665,7 @@
       "document": {
         "description": {
           "description": "Return the handle and arguments of a literal\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AliteralArgs",
           "package": "libGenI",
@@ -2464,6 +2675,7 @@
         "index": {
           "description": "Return the handle and arguments of literal",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AliteralArgs",
           "normalized": "Pred-\u003e[GeniVal]",
@@ -2479,6 +2691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AmodifyStats",
           "package": "libGenI",
@@ -2487,6 +2700,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AmodifyStats",
           "normalized": "(Metric-\u003eMetric)-\u003eBuilderState a()",
@@ -2502,6 +2716,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AnamedMetric",
           "package": "libGenI",
@@ -2510,6 +2725,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AnamedMetric",
           "normalized": "String-\u003eMetric",
@@ -2525,6 +2741,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AnullBuilder",
           "package": "libGenI",
@@ -2533,6 +2750,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AnullBuilder",
           "normalized": "Builder()(NullState())Params",
@@ -2549,6 +2767,7 @@
       "document": {
         "description": {
           "description": "A filter that always fails (i.e. no filtering)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AnullFilter",
           "package": "libGenI",
@@ -2558,6 +2777,7 @@
         "index": {
           "description": "filter that always fails i.e no filtering",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AnullFilter",
           "package": "libGenI",
@@ -2571,6 +2791,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3Anum_comparisons",
           "package": "libGenI",
@@ -2579,6 +2800,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3Anum_comparisons",
           "package": "libGenI",
@@ -2592,6 +2814,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3Anum_iterations",
           "package": "libGenI",
@@ -2600,6 +2823,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3Anum_iterations",
           "package": "libGenI",
@@ -2613,6 +2837,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ApreInit",
           "package": "libGenI",
@@ -2621,6 +2846,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ApreInit",
           "normalized": "Input-\u003eParams-\u003e(Input,(Int,Int,Int),PolResult)",
@@ -2636,6 +2862,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AqueryCounter",
           "package": "libGenI",
@@ -2644,6 +2871,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AqueryCounter",
           "normalized": "String-\u003eStatistics-\u003eMaybe Int",
@@ -2660,6 +2888,7 @@
       "document": {
         "description": {
           "description": "Calculate the new set of accessibility/inaccesible indices, returning a\n   a tuple of accesible / inaccesible indices\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3ArecalculateAccesibility",
           "package": "libGenI",
@@ -2669,6 +2898,7 @@
         "index": {
           "description": "Calculate the new set of accessibility inaccesible indices returning tuple of accesible inaccesible indices",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3ArecalculateAccesibility",
           "normalized": "a-\u003ea",
@@ -2685,6 +2915,7 @@
       "document": {
         "description": {
           "description": "Performs surface realisation from an input semantics and a lexical selection.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3Arun",
           "package": "libGenI",
@@ -2694,6 +2925,7 @@
         "index": {
           "description": "Performs surface realisation from an input semantics and lexical selection",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3Arun",
           "normalized": "Builder a b Params-\u003eInput-\u003eParams-\u003e(a,Statistics)",
@@ -2709,6 +2941,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AsemToBitVector",
           "package": "libGenI",
@@ -2717,6 +2950,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AsemToBitVector",
           "normalized": "SemBitMap-\u003eSem-\u003eBitVector",
@@ -2732,6 +2966,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AsemToIafMap",
           "package": "libGenI",
@@ -2740,6 +2975,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AsemToIafMap",
           "normalized": "Sem-\u003eIafMap",
@@ -2755,6 +2991,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3Ats_iafFailure",
           "package": "libGenI",
@@ -2763,6 +3000,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3Ats_iafFailure",
           "normalized": "[String]-\u003e[Pred]-\u003eString",
@@ -2779,6 +3017,7 @@
       "document": {
         "description": {
           "description": "Equivalent to \u003ctt\u003e\u003ca\u003eid\u003c/a\u003e\u003c/tt\u003e unless the input contains an empty or uninstatiated\n   semantics\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Builder",
           "name": "3AunlessEmptySem",
           "package": "libGenI",
@@ -2788,6 +3027,7 @@
         "index": {
           "description": "Equivalent to id unless the input contains an empty or uninstatiated semantics",
           "hierarchy": "NLP GenI Builder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Builder",
           "name": "3AunlessEmptySem",
           "normalized": "Input-\u003eParams-\u003ea-\u003ea",
@@ -2803,6 +3043,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AChartId",
           "package": "libGenI",
@@ -2810,6 +3051,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AChartId",
           "package": "libGenI",
@@ -2823,6 +3065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3ACkyItem",
           "package": "libGenI",
@@ -2830,6 +3073,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3ACkyItem",
           "package": "libGenI",
@@ -2843,6 +3087,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3ACkyStatus",
           "package": "libGenI",
@@ -2850,6 +3095,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3ACkyStatus",
           "package": "libGenI",
@@ -2863,6 +3109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AciAdjDone",
           "package": "libGenI",
@@ -2871,6 +3118,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AciAdjDone",
           "normalized": "CkyItem-\u003eBool",
@@ -2886,6 +3134,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AciRoot",
           "package": "libGenI",
@@ -2894,6 +3143,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AciRoot",
           "normalized": "CkyItem-\u003eBool",
@@ -2909,6 +3159,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AckyBuilder",
           "package": "libGenI",
@@ -2917,6 +3168,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AckyBuilder",
           "package": "libGenI",
@@ -2930,6 +3182,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AearleyBuilder",
           "package": "libGenI",
@@ -2938,6 +3191,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AearleyBuilder",
           "package": "libGenI",
@@ -2951,6 +3205,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AemptySentenceAut",
           "package": "libGenI",
@@ -2959,6 +3214,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AemptySentenceAut",
           "package": "libGenI",
@@ -2973,6 +3229,7 @@
       "document": {
         "description": {
           "description": "Returns all the derivations trees for this item: note that this is\n not a TAG derivation tree but a history of inference rule applications\n in tree form\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AextractDerivations",
           "package": "libGenI",
@@ -2982,6 +3239,7 @@
         "index": {
           "description": "Returns all the derivations trees for this item note that this is not TAG derivation tree but history of inference rule applications in tree form",
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AextractDerivations",
           "normalized": "CkyStatus-\u003eCkyItem-\u003e[Tree(ChartId,String)]",
@@ -2997,6 +3255,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AfindId",
           "package": "libGenI",
@@ -3005,6 +3264,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AfindId",
           "normalized": "CkyStatus-\u003eChartId-\u003eMaybe CkyItem",
@@ -3020,6 +3280,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AmAutomatonPaths",
           "package": "libGenI",
@@ -3028,6 +3289,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AmAutomatonPaths",
           "normalized": "Maybe(NFA a b)-\u003e[[b]]",
@@ -3043,6 +3305,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AmJoinAutomata",
           "package": "libGenI",
@@ -3051,6 +3314,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AmJoinAutomata",
           "normalized": "Maybe SentenceAut-\u003eMaybe SentenceAut-\u003eMaybe SentenceAut",
@@ -3066,6 +3330,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AunpackItemToAuts",
           "package": "libGenI",
@@ -3074,6 +3339,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI CkyEarley CkyBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.CkyEarley.CkyBuilder",
           "name": "3AunpackItemToAuts",
           "normalized": "CkyStatus-\u003eCkyItem-\u003eSentenceAutPairMaybe",
@@ -3089,6 +3355,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ABatchDirFlg",
           "package": "libGenI",
@@ -3096,6 +3363,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ABatchDirFlg",
           "package": "libGenI",
@@ -3109,6 +3377,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ABuilderType",
           "package": "libGenI",
@@ -3116,6 +3385,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ABuilderType",
           "package": "libGenI",
@@ -3129,6 +3399,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ADisableGuiFlg",
           "package": "libGenI",
@@ -3136,6 +3407,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ADisableGuiFlg",
           "package": "libGenI",
@@ -3149,6 +3421,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AEarlyDeathFlg",
           "package": "libGenI",
@@ -3156,6 +3429,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AEarlyDeathFlg",
           "package": "libGenI",
@@ -3169,6 +3443,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AExtraPolaritiesFlg",
           "package": "libGenI",
@@ -3176,6 +3451,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AExtraPolaritiesFlg",
           "package": "libGenI",
@@ -3189,6 +3465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AFlag",
           "package": "libGenI",
@@ -3196,6 +3473,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AFlag",
           "package": "libGenI",
@@ -3209,6 +3487,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AFromStdinFlg",
           "package": "libGenI",
@@ -3216,6 +3495,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AFromStdinFlg",
           "package": "libGenI",
@@ -3229,6 +3509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AGrammarType",
           "package": "libGenI",
@@ -3236,6 +3517,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AGrammarType",
           "package": "libGenI",
@@ -3249,6 +3531,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AHelpFlg",
           "package": "libGenI",
@@ -3256,6 +3539,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AHelpFlg",
           "package": "libGenI",
@@ -3269,6 +3553,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AIgnoreSemanticsFlg",
           "package": "libGenI",
@@ -3276,6 +3561,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AIgnoreSemanticsFlg",
           "package": "libGenI",
@@ -3289,6 +3575,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AInstruction",
           "package": "libGenI",
@@ -3296,6 +3583,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AInstruction",
           "package": "libGenI",
@@ -3309,6 +3597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AInstructionsFileFlg",
           "package": "libGenI",
@@ -3316,6 +3605,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AInstructionsFileFlg",
           "package": "libGenI",
@@ -3329,6 +3619,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ALexiconFlg",
           "package": "libGenI",
@@ -3336,6 +3627,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ALexiconFlg",
           "package": "libGenI",
@@ -3349,6 +3641,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMacrosFlg",
           "package": "libGenI",
@@ -3356,6 +3649,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMacrosFlg",
           "package": "libGenI",
@@ -3369,6 +3663,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMaxTreesFlg",
           "package": "libGenI",
@@ -3376,6 +3671,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMaxTreesFlg",
           "package": "libGenI",
@@ -3389,6 +3685,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMetricsFlg",
           "package": "libGenI",
@@ -3396,6 +3693,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMetricsFlg",
           "package": "libGenI",
@@ -3409,6 +3707,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphCmdFlg",
           "package": "libGenI",
@@ -3416,6 +3715,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphCmdFlg",
           "package": "libGenI",
@@ -3429,6 +3729,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphInfoFlg",
           "package": "libGenI",
@@ -3436,6 +3737,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphInfoFlg",
           "package": "libGenI",
@@ -3449,6 +3751,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphLexiconFlg",
           "package": "libGenI",
@@ -3456,6 +3759,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AMorphLexiconFlg",
           "package": "libGenI",
@@ -3469,6 +3773,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ANoLoadTestSuiteFlg",
           "package": "libGenI",
@@ -3476,6 +3781,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ANoLoadTestSuiteFlg",
           "package": "libGenI",
@@ -3489,6 +3795,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AOptimisation",
           "package": "libGenI",
@@ -3496,6 +3803,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AOptimisation",
           "package": "libGenI",
@@ -3509,6 +3817,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AOptimisationsFlg",
           "package": "libGenI",
@@ -3516,6 +3825,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AOptimisationsFlg",
           "package": "libGenI",
@@ -3529,6 +3839,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AOutputFileFlg",
           "package": "libGenI",
@@ -3536,6 +3847,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AOutputFileFlg",
           "package": "libGenI",
@@ -3549,6 +3861,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AParams",
           "package": "libGenI",
@@ -3556,6 +3869,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AParams",
           "package": "libGenI",
@@ -3569,6 +3883,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3APartialFlg",
           "package": "libGenI",
@@ -3576,6 +3891,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3APartialFlg",
           "package": "libGenI",
@@ -3589,6 +3905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ARegressionTestModeFlg",
           "package": "libGenI",
@@ -3596,6 +3913,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ARegressionTestModeFlg",
           "package": "libGenI",
@@ -3609,6 +3927,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ARootFeatureFlg",
           "package": "libGenI",
@@ -3616,6 +3935,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ARootFeatureFlg",
           "package": "libGenI",
@@ -3629,6 +3949,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AStatsFileFlg",
           "package": "libGenI",
@@ -3636,6 +3957,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AStatsFileFlg",
           "package": "libGenI",
@@ -3649,6 +3971,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestCaseFlg",
           "package": "libGenI",
@@ -3656,6 +3979,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestCaseFlg",
           "package": "libGenI",
@@ -3669,6 +3993,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestInstructionsFlg",
           "package": "libGenI",
@@ -3676,6 +4001,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestInstructionsFlg",
           "package": "libGenI",
@@ -3689,6 +4015,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestSuiteFlg",
           "package": "libGenI",
@@ -3696,6 +4023,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ATestSuiteFlg",
           "package": "libGenI",
@@ -3709,6 +4037,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ATimeoutFlg",
           "package": "libGenI",
@@ -3716,6 +4045,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ATimeoutFlg",
           "package": "libGenI",
@@ -3729,6 +4059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3ATracesFlg",
           "package": "libGenI",
@@ -3736,6 +4067,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3ATracesFlg",
           "package": "libGenI",
@@ -3749,6 +4081,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AVerboseModeFlg",
           "package": "libGenI",
@@ -3756,6 +4089,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AVerboseModeFlg",
           "package": "libGenI",
@@ -3769,6 +4103,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AViewCmdFlg",
           "package": "libGenI",
@@ -3776,6 +4111,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AViewCmdFlg",
           "package": "libGenI",
@@ -3789,6 +4125,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AdefineParams",
           "package": "libGenI",
@@ -3797,6 +4134,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AdefineParams",
           "normalized": "[Flag]-\u003eParams-\u003eParams",
@@ -3812,6 +4150,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AdeleteFlagP",
           "package": "libGenI",
@@ -3820,6 +4159,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AdeleteFlagP",
           "normalized": "(a-\u003eb)-\u003eParams-\u003eParams",
@@ -3836,6 +4176,7 @@
       "document": {
         "description": {
           "description": "The default parameters configuration\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AemptyParams",
           "package": "libGenI",
@@ -3845,6 +4186,7 @@
         "index": {
           "description": "The default parameters configuration",
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AemptyParams",
           "package": "libGenI",
@@ -3858,6 +4200,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetFlag",
           "package": "libGenI",
@@ -3866,6 +4209,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetFlag",
           "normalized": "(a-\u003eb)-\u003e[Flag]-\u003eMaybe a",
@@ -3881,6 +4225,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetFlagP",
           "package": "libGenI",
@@ -3889,6 +4234,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetFlagP",
           "normalized": "(a-\u003eb)-\u003eParams-\u003eMaybe a",
@@ -3904,6 +4250,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetListFlagP",
           "package": "libGenI",
@@ -3912,6 +4259,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AgetListFlagP",
           "normalized": "([a]-\u003eb)-\u003eParams-\u003e[a]",
@@ -3927,6 +4275,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasFlag",
           "package": "libGenI",
@@ -3935,6 +4284,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasFlag",
           "normalized": "(a-\u003eb)-\u003e[Flag]-\u003eBool",
@@ -3950,6 +4300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasFlagP",
           "package": "libGenI",
@@ -3958,6 +4309,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasFlagP",
           "normalized": "(a-\u003eb)-\u003eParams-\u003eBool",
@@ -3973,6 +4325,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasOpt",
           "package": "libGenI",
@@ -3981,6 +4334,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AhasOpt",
           "normalized": "Optimisation-\u003eParams-\u003eBool",
@@ -3996,6 +4350,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AisIaf",
           "package": "libGenI",
@@ -4004,6 +4359,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AisIaf",
           "normalized": "Params-\u003eBool",
@@ -4019,6 +4375,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AmainBuilderTypes",
           "package": "libGenI",
@@ -4027,6 +4384,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AmainBuilderTypes",
           "normalized": "[BuilderType]",
@@ -4042,6 +4400,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AnoArg",
           "package": "libGenI",
@@ -4050,6 +4409,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AnoArg",
           "normalized": "(()-\u003ea)-\u003eArgDescr Flag",
@@ -4065,6 +4425,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AnubBySwitches",
           "package": "libGenI",
@@ -4073,6 +4434,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AnubBySwitches",
           "normalized": "[OptDescr a]-\u003e[OptDescr a]",
@@ -4089,6 +4451,7 @@
       "document": {
         "description": {
           "description": "flag\ndefault value\nstring reader (as in \u003ctt\u003ereqArg\u003c/tt\u003e)\ndescription\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptArg",
           "package": "libGenI",
@@ -4098,6 +4461,7 @@
         "index": {
           "description": "flag default value string reader as in reqArg description",
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptArg",
           "normalized": "a-\u003eb-\u003ea-\u003eString-\u003ea-\u003eString-\u003eArgDescr Flag",
@@ -4113,6 +4477,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForBasicStuff",
           "package": "libGenI",
@@ -4121,6 +4486,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForBasicStuff",
           "normalized": "[OptDescr Flag]",
@@ -4136,6 +4502,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForBuilder",
           "package": "libGenI",
@@ -4144,6 +4511,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForBuilder",
           "normalized": "[OptDescr Flag]",
@@ -4159,6 +4527,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForInputFiles",
           "package": "libGenI",
@@ -4167,6 +4536,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForInputFiles",
           "normalized": "[OptDescr Flag]",
@@ -4182,6 +4552,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForMorphology",
           "package": "libGenI",
@@ -4190,6 +4561,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForMorphology",
           "normalized": "[OptDescr Flag]",
@@ -4205,6 +4577,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForOptimisation",
           "package": "libGenI",
@@ -4213,6 +4586,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForOptimisation",
           "normalized": "[OptDescr Flag]",
@@ -4228,6 +4602,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForStandardGenI",
           "package": "libGenI",
@@ -4236,6 +4611,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForStandardGenI",
           "normalized": "[OptDescr Flag]",
@@ -4251,6 +4627,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForTesting",
           "package": "libGenI",
@@ -4259,6 +4636,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AoptionsForTesting",
           "normalized": "[OptDescr Flag]",
@@ -4274,6 +4652,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AparseFlagWithParsec",
           "package": "libGenI",
@@ -4282,6 +4661,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AparseFlagWithParsec",
           "normalized": "String-\u003eCharParser()a-\u003eString-\u003ea",
@@ -4297,6 +4677,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3Apolarised",
           "package": "libGenI",
@@ -4305,6 +4686,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3Apolarised",
           "normalized": "Params-\u003eBool",
@@ -4320,6 +4702,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AprocessInstructions",
           "package": "libGenI",
@@ -4328,6 +4711,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AprocessInstructions",
           "normalized": "Params-\u003eIO Params",
@@ -4344,6 +4728,7 @@
       "document": {
         "description": {
           "description": "flag\nstring reader for flag (probably |id| if already a String)\ndescription\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AreqArg",
           "package": "libGenI",
@@ -4353,6 +4738,7 @@
         "index": {
           "description": "flag string reader for flag probably id if already String description",
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AreqArg",
           "normalized": "a-\u003eb-\u003eString-\u003ea-\u003eString-\u003eArgDescr Flag",
@@ -4368,6 +4754,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3Arootcatfiltered",
           "package": "libGenI",
@@ -4376,6 +4763,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3Arootcatfiltered",
           "normalized": "Params-\u003eBool",
@@ -4391,6 +4779,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3Asemfiltered",
           "package": "libGenI",
@@ -4399,6 +4788,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3Asemfiltered",
           "normalized": "Params-\u003eBool",
@@ -4414,6 +4804,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AsetFlag",
           "package": "libGenI",
@@ -4422,6 +4813,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AsetFlag",
           "normalized": "(a-\u003eb)-\u003ea-\u003e[Flag]-\u003e[Flag]",
@@ -4437,6 +4829,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AsetFlagP",
           "package": "libGenI",
@@ -4445,6 +4838,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AsetFlagP",
           "normalized": "(a-\u003eb)-\u003ea-\u003eParams-\u003eParams",
@@ -4460,6 +4854,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatArgs",
           "package": "libGenI",
@@ -4468,6 +4863,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatArgs",
           "normalized": "[OptDescr Flag]-\u003e[String]-\u003eIO Params",
@@ -4483,6 +4879,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatArgsWithParams",
           "package": "libGenI",
@@ -4491,6 +4888,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatArgsWithParams",
           "normalized": "[OptDescr Flag]-\u003e[String]-\u003eParams-\u003eIO Params",
@@ -4506,6 +4904,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatStandardArgs",
           "package": "libGenI",
@@ -4514,6 +4913,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatStandardArgs",
           "normalized": "[String]-\u003eIO Params",
@@ -4529,6 +4929,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatStandardArgsWithParams",
           "package": "libGenI",
@@ -4537,6 +4938,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Configuration",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Configuration",
           "name": "3AtreatStandardArgsWithParams",
           "normalized": "[String]-\u003eParams-\u003eIO Params",
@@ -4552,6 +4954,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AAlphaNum",
           "package": "libGenI",
@@ -4559,6 +4962,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AAlphaNum",
           "package": "libGenI",
@@ -4572,6 +4976,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ABitVector",
           "package": "libGenI",
@@ -4579,6 +4984,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ABitVector",
           "package": "libGenI",
@@ -4592,6 +4998,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AInterval",
           "package": "libGenI",
@@ -4599,6 +5006,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AInterval",
           "package": "libGenI",
@@ -4612,6 +5020,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ATimeOut",
           "package": "libGenI",
@@ -4619,6 +5028,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ATimeOut",
           "package": "libGenI",
@@ -4632,6 +5042,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3A!+!",
           "package": "libGenI",
@@ -4640,6 +5051,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3A!+!",
           "normalized": "Interval-\u003eInterval-\u003eInterval",
@@ -4654,6 +5066,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3A///",
           "package": "libGenI",
@@ -4662,6 +5075,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3A///",
           "normalized": "FilePath-\u003eFilePath-\u003eFilePath",
@@ -4676,6 +5090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Abasename",
           "package": "libGenI",
@@ -4684,6 +5099,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Abasename",
           "normalized": "FilePath-\u003eFilePath",
@@ -4700,6 +5116,7 @@
       "document": {
         "description": {
           "description": "Makes sure that index s is in the bounds of list l.  \n   Surely there must be some more intelligent way to deal with this.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AboundsCheck",
           "package": "libGenI",
@@ -4709,6 +5126,7 @@
         "index": {
           "description": "Makes sure that index is in the bounds of list Surely there must be some more intelligent way to deal with this",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AboundsCheck",
           "normalized": "Int-\u003e[a]-\u003eBool",
@@ -4724,6 +5142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Abuf_size",
           "package": "libGenI",
@@ -4732,6 +5151,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Abuf_size",
           "package": "libGenI",
@@ -4745,6 +5165,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Acombinations",
           "package": "libGenI",
@@ -4753,6 +5174,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Acombinations",
           "normalized": "[[a]]-\u003e[[a]]",
@@ -4768,6 +5190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Acomparing",
           "package": "libGenI",
@@ -4776,6 +5199,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Acomparing",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ea-\u003eOrdering)",
@@ -4792,6 +5216,7 @@
       "document": {
         "description": {
           "description": "Drop all characters up to and including the one in question\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AdropTillIncluding",
           "package": "libGenI",
@@ -4801,6 +5226,7 @@
         "index": {
           "description": "Drop all characters up to and including the one in question",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AdropTillIncluding",
           "normalized": "Char-\u003eString-\u003eString",
@@ -4816,6 +5242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AeFlush",
           "package": "libGenI",
@@ -4824,6 +5251,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AeFlush",
           "normalized": "IO()",
@@ -4839,6 +5267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AePutStr",
           "package": "libGenI",
@@ -4847,6 +5276,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AePutStr",
           "normalized": "String-\u003eIO()",
@@ -4862,6 +5292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AePutStrLn",
           "package": "libGenI",
@@ -4870,6 +5301,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AePutStrLn",
           "normalized": "String-\u003eIO()",
@@ -4885,6 +5317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Aequating",
           "package": "libGenI",
@@ -4893,6 +5326,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Aequating",
           "normalized": "(a-\u003eb)-\u003e(a-\u003ea-\u003eBool)",
@@ -4909,6 +5343,7 @@
       "document": {
         "description": {
           "description": "Like exitFailure, except that we return with a code that we reserve for timing out\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AexitTimeout",
           "package": "libGenI",
@@ -4918,6 +5353,7 @@
         "index": {
           "description": "Like exitFailure except that we return with code that we reserve for timing out",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AexitTimeout",
           "normalized": "IO()",
@@ -4933,6 +5369,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AfilterTree",
           "package": "libGenI",
@@ -4941,6 +5378,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AfilterTree",
           "normalized": "(a-\u003eBool)-\u003eTree a-\u003e[a]",
@@ -4956,6 +5394,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Afst3",
           "package": "libGenI",
@@ -4964,6 +5403,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Afst3",
           "normalized": "(a,b,c)-\u003ea",
@@ -4980,6 +5420,7 @@
       "document": {
         "description": {
           "description": "errors specifically in GenI, which is very likely NOT the user's fault.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AgeniBug",
           "package": "libGenI",
@@ -4989,6 +5430,7 @@
         "index": {
           "description": "errors specifically in GenI which is very likely NOT the user fault",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AgeniBug",
           "normalized": "String-\u003ea",
@@ -5029,6 +5471,7 @@
       "document": {
         "description": {
           "description": "Serves the same function as \u003ctt\u003e\u003ca\u003egroupBy\u003c/a\u003e\u003c/tt\u003e.  It groups together\n   items by some property they have in common. The difference is that the\n   property is used as a key to a Map that you can lookup.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AgroupByFM",
           "package": "libGenI",
@@ -5038,6 +5481,7 @@
         "index": {
           "description": "Serves the same function as groupBy It groups together items by some property they have in common The difference is that the property is used as key to Map that you can lookup",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AgroupByFM",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e(Map b[a])",
@@ -5053,6 +5497,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AinsertToListMap",
           "package": "libGenI",
@@ -5061,6 +5506,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AinsertToListMap",
           "normalized": "a-\u003eb-\u003eMap a[b]-\u003eMap a[b]",
@@ -5076,6 +5522,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AisEmptyIntersect",
           "package": "libGenI",
@@ -5084,6 +5531,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AisEmptyIntersect",
           "normalized": "[a]-\u003e[a]-\u003eBool",
@@ -5099,6 +5547,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AisNumber",
           "package": "libGenI",
@@ -5107,6 +5556,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AisNumber",
           "normalized": "Char-\u003eBool",
@@ -5122,6 +5572,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Aival",
           "package": "libGenI",
@@ -5130,6 +5581,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Aival",
           "normalized": "Int-\u003eInterval",
@@ -5145,6 +5597,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AlazySlurp",
           "package": "libGenI",
@@ -5153,6 +5606,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AlazySlurp",
           "normalized": "ForeignPtr Word-\u003eInt-\u003eInt-\u003eIO String",
@@ -5168,6 +5622,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AlistRepNode",
           "package": "libGenI",
@@ -5176,6 +5631,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AlistRepNode",
           "normalized": "(Tree a-\u003eTree a)-\u003e(Tree a-\u003eBool)-\u003e[Tree a]-\u003e([Tree a],Bool)",
@@ -5192,6 +5648,7 @@
       "document": {
         "description": {
           "description": "A strict version of \u003ctt\u003e\u003ca\u003emap\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Amap'",
           "package": "libGenI",
@@ -5201,6 +5658,7 @@
         "index": {
           "description": "strict version of map",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Amap'",
           "normalized": "(a-\u003eb)-\u003e[a]-\u003e[b]",
@@ -5216,6 +5674,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AmapMaybeM",
           "package": "libGenI",
@@ -5224,6 +5683,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AmapMaybeM",
           "normalized": "(a-\u003eb(Maybe c))-\u003e[a]-\u003eb[c]",
@@ -5240,6 +5700,7 @@
       "document": {
         "description": {
           "description": "Strict version of mapTree (for non-strict, just use fmap)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AmapTree'",
           "package": "libGenI",
@@ -5249,6 +5710,7 @@
         "index": {
           "description": "Strict version of mapTree for non-strict just use fmap",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AmapTree'",
           "normalized": "(a-\u003eb)-\u003eTree a-\u003eTree b",
@@ -5265,6 +5727,7 @@
       "document": {
         "description": {
           "description": "Same as \u003ctt\u003e\u003ca\u003egroupByFM\u003c/a\u003e\u003c/tt\u003e, except that we let an item appear in\n   multiple groups.  The fn extracts the property from the item,\n   and returns multiple results in the form of a list\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AmultiGroupByFM",
           "package": "libGenI",
@@ -5274,6 +5737,7 @@
         "index": {
           "description": "Same as groupByFM except that we let an item appear in multiple groups The fn extracts the property from the item and returns multiple results in the form of list",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AmultiGroupByFM",
           "normalized": "(a-\u003e[b])-\u003e[a]-\u003e(Map b[a])",
@@ -5290,6 +5754,7 @@
       "document": {
         "description": {
           "description": "Return pairs of (parent, terminal)\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ApreTerminals",
           "package": "libGenI",
@@ -5299,6 +5764,7 @@
         "index": {
           "description": "Return pairs of parent terminal",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ApreTerminals",
           "normalized": "Tree a-\u003e[(a,a)]",
@@ -5314,6 +5780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AreadFile'",
           "package": "libGenI",
@@ -5322,6 +5789,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AreadFile'",
           "normalized": "FilePath-\u003eIO String",
@@ -5338,6 +5806,7 @@
       "document": {
         "description": {
           "description": "Like \u003ctt\u003e\u003ca\u003erepNode\u003c/a\u003e\u003c/tt\u003e except that it performs the operations on\n   all nodes that match and doesn't care if any nodes match\n   or not\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ArepAllNode",
           "package": "libGenI",
@@ -5347,6 +5816,7 @@
         "index": {
           "description": "Like repNode except that it performs the operations on all nodes that match and doesn care if any nodes match or not",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ArepAllNode",
           "normalized": "(Tree a-\u003eTree a)-\u003e(Tree a-\u003eBool)-\u003eTree a-\u003eTree a",
@@ -5363,6 +5833,7 @@
       "document": {
         "description": {
           "description": "Return the list, modifying only the first matching item.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ArepList",
           "package": "libGenI",
@@ -5372,6 +5843,7 @@
         "index": {
           "description": "Return the list modifying only the first matching item",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ArepList",
           "normalized": "(a-\u003eBool)-\u003e(a-\u003ea)-\u003e[a]-\u003e[a]",
@@ -5387,6 +5859,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ArepNode",
           "package": "libGenI",
@@ -5395,6 +5868,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ArepNode",
           "normalized": "(Tree a-\u003eTree a)-\u003e(Tree a-\u003eBool)-\u003eTree a-\u003eMaybe(Tree a)",
@@ -5411,6 +5885,7 @@
       "document": {
         "description": {
           "description": "which node?\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3ArepNodeByNode",
           "package": "libGenI",
@@ -5420,6 +5895,7 @@
         "index": {
           "description": "which node",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3ArepNodeByNode",
           "normalized": "a-\u003eBool-\u003ea-\u003eTree a-\u003eTree a",
@@ -5436,6 +5912,7 @@
       "document": {
         "description": {
           "description": "displays a bit vector, using a minimum number of bits\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AshowBitVector",
           "package": "libGenI",
@@ -5445,6 +5922,7 @@
         "index": {
           "description": "displays bit vector using minimum number of bits",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AshowBitVector",
           "normalized": "Int-\u003eBitVector-\u003eString",
@@ -5460,6 +5938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AshowInterval",
           "package": "libGenI",
@@ -5468,6 +5947,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AshowInterval",
           "normalized": "Interval-\u003eString",
@@ -5483,6 +5963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AshowTable",
           "package": "libGenI",
@@ -5491,6 +5972,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AshowTable",
           "normalized": "[String]-\u003e[a]-\u003e(a-\u003e[String])-\u003eString",
@@ -5506,6 +5988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Asnd3",
           "package": "libGenI",
@@ -5514,6 +5997,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Asnd3",
           "normalized": "(a,b,c)-\u003eb",
@@ -5530,6 +6014,7 @@
       "document": {
         "description": {
           "description": "A forgiving version of tail : if you give it the empty list, it returns the empty list\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Atail_",
           "package": "libGenI",
@@ -5539,6 +6024,7 @@
         "index": {
           "description": "forgiving version of tail if you give it the empty list it returns the empty list",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Atail_",
           "normalized": "[a]-\u003e[a]",
@@ -5554,6 +6040,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Athd3",
           "package": "libGenI",
@@ -5562,6 +6049,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Athd3",
           "normalized": "(a,b,c)-\u003ec",
@@ -5577,6 +6065,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AtimeOutTc",
           "package": "libGenI",
@@ -5585,6 +6074,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AtimeOutTc",
           "package": "libGenI",
@@ -5598,6 +6088,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AtoAlphaNum",
           "package": "libGenI",
@@ -5606,6 +6097,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AtoAlphaNum",
           "normalized": "String-\u003e[AlphaNum]",
@@ -5621,6 +6113,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AtoLowerHead",
           "package": "libGenI",
@@ -5629,6 +6122,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AtoLowerHead",
           "normalized": "String-\u003eString",
@@ -5644,6 +6138,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AtoUpperHead",
           "package": "libGenI",
@@ -5652,6 +6147,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AtoUpperHead",
           "normalized": "String-\u003eString",
@@ -5667,6 +6163,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AtreeLeaves",
           "package": "libGenI",
@@ -5675,6 +6172,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AtreeLeaves",
           "normalized": "Tree a-\u003e[a]",
@@ -5690,6 +6188,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3Atrim",
           "package": "libGenI",
@@ -5698,6 +6197,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3Atrim",
           "normalized": "String-\u003eString",
@@ -5714,6 +6214,7 @@
       "document": {
         "description": {
           "description": "action to run upon timing out\nmain action to run\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AwithTimeout",
           "package": "libGenI",
@@ -5723,6 +6224,7 @@
         "index": {
           "description": "action to run upon timing out main action to run",
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AwithTimeout",
           "normalized": "Integer-\u003eIO a-\u003eIO a-\u003eIO a",
@@ -5738,6 +6240,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.General",
           "name": "3AwordsBy",
           "package": "libGenI",
@@ -5746,6 +6249,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI General",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.General",
           "name": "3AwordsBy",
           "normalized": "a-\u003e[a]-\u003e[[a]]",
@@ -5761,6 +6265,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AGeniResult",
           "package": "libGenI",
@@ -5768,6 +6273,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AGeniResult",
           "package": "libGenI",
@@ -5781,6 +6287,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AProgState",
           "package": "libGenI",
@@ -5788,6 +6295,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AProgState",
           "package": "libGenI",
@@ -5801,6 +6309,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AProgStateRef",
           "package": "libGenI",
@@ -5808,6 +6317,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AProgStateRef",
           "package": "libGenI",
@@ -5822,6 +6332,7 @@
       "document": {
         "description": {
           "description": "Only used for instances of GenI where the grammar is compiled\n   directly into GenI.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3ASelector",
           "package": "libGenI",
@@ -5830,6 +6341,7 @@
         "index": {
           "description": "Only used for instances of GenI where the grammar is compiled directly into GenI",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3ASelector",
           "package": "libGenI",
@@ -5844,6 +6356,7 @@
       "document": {
         "description": {
           "description": "Select and returns the set of entries from the lexicon whose semantics\n   subsumes the input semantics.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AchooseLexCand",
           "package": "libGenI",
@@ -5853,6 +6366,7 @@
         "index": {
           "description": "Select and returns the set of entries from the lexicon whose semantics subsumes the input semantics",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AchooseLexCand",
           "normalized": "Lexicon-\u003eSem-\u003e[ILexEntry]",
@@ -5868,6 +6382,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3Acombine",
           "package": "libGenI",
@@ -5876,6 +6391,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3Acombine",
           "normalized": "Macros-\u003eLexicon-\u003eTags",
@@ -5892,6 +6408,7 @@
       "document": {
         "description": {
           "description": "The program state when you start GenI for the very first time\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AemptyProgState",
           "package": "libGenI",
@@ -5901,6 +6418,7 @@
         "index": {
           "description": "The program state when you start GenI for the very first time",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AemptyProgState",
           "normalized": "Params-\u003eProgState",
@@ -5916,6 +6434,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AgetTraces",
           "package": "libGenI",
@@ -5924,6 +6443,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AgetTraces",
           "normalized": "ProgState-\u003eString-\u003e[String]",
@@ -5939,6 +6459,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AinitGeni",
           "package": "libGenI",
@@ -5947,6 +6468,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AinitGeni",
           "normalized": "ProgStateRef-\u003eIO(Input)",
@@ -5962,6 +6484,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AloadEverything",
           "package": "libGenI",
@@ -5970,6 +6493,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AloadEverything",
           "normalized": "ProgStateRef-\u003eIO()",
@@ -5985,6 +6509,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AloadGeniMacros",
           "package": "libGenI",
@@ -5993,6 +6518,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AloadGeniMacros",
           "normalized": "ProgStateRef-\u003eIO()",
@@ -6008,6 +6534,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AloadLexicon",
           "package": "libGenI",
@@ -6016,6 +6543,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AloadLexicon",
           "normalized": "ProgStateRef-\u003eIO()",
@@ -6032,6 +6560,7 @@
       "document": {
         "description": {
           "description": "Updates program state the same way as \u003ctt\u003e\u003ca\u003eloadTestSuite\u003c/a\u003e\u003c/tt\u003e\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AloadTargetSemStr",
           "package": "libGenI",
@@ -6041,6 +6570,7 @@
         "index": {
           "description": "Updates program state the same way as loadTestSuite",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AloadTargetSemStr",
           "normalized": "ProgStateRef-\u003eString-\u003eIO()",
@@ -6057,6 +6587,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eThe macros are stored as a hashing function in the monad.\n\u003c/p\u003e\u003cp\u003eThe results are stored as a lookup function in the monad.\n\u003c/p\u003e\u003cp\u003eStores the results in the tcase and tsuite fields\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AloadTestSuite",
           "package": "libGenI",
@@ -6066,6 +6597,7 @@
         "index": {
           "description": "The macros are stored as hashing function in the monad The results are stored as lookup function in the monad Stores the results in the tcase and tsuite fields",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AloadTestSuite",
           "normalized": "ProgStateRef-\u003eIO()",
@@ -6081,6 +6613,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3ArunGeni",
           "package": "libGenI",
@@ -6089,6 +6622,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3ArunGeni",
           "normalized": "ProgStateRef-\u003eBuilder a b Params-\u003eIO([GeniResult],Statistics,a)",
@@ -6104,6 +6638,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3ArunGeniWithSelector",
           "package": "libGenI",
@@ -6112,6 +6647,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3ArunGeniWithSelector",
           "normalized": "ProgStateRef-\u003eSelector-\u003eBuilder a b Params-\u003eIO([GeniResult],Statistics,a)",
@@ -6128,6 +6664,7 @@
       "document": {
         "description": {
           "description": "Show the sentences produced by the generator, in a relatively compact form\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Geni",
           "name": "3AshowRealisations",
           "package": "libGenI",
@@ -6137,6 +6674,7 @@
         "index": {
           "description": "Show the sentences produced by the generator in relatively compact form",
           "hierarchy": "NLP GenI Geni",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Geni",
           "name": "3AshowRealisations",
           "normalized": "[String]-\u003eString",
@@ -6153,6 +6691,7 @@
       "document": {
         "description": {
           "description": "This is only used by the script genimakesuite\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniDerivations",
           "package": "libGenI",
@@ -6162,6 +6701,7 @@
         "index": {
           "description": "This is only used by the script genimakesuite",
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniDerivations",
           "normalized": "Parser[TestCaseOutput]",
@@ -6177,6 +6717,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniFeats",
           "package": "libGenI",
@@ -6185,6 +6726,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniFeats",
           "package": "libGenI",
@@ -6198,6 +6740,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniLanguageDef",
           "package": "libGenI",
@@ -6206,6 +6749,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniLanguageDef",
           "normalized": "LanguageDef()",
@@ -6221,6 +6765,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniLexicon",
           "package": "libGenI",
@@ -6229,6 +6774,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniLexicon",
           "normalized": "Parser[ILexEntry]",
@@ -6244,6 +6790,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMacros",
           "package": "libGenI",
@@ -6252,6 +6799,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMacros",
           "normalized": "Parser[MTtree]",
@@ -6267,6 +6815,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMorphInfo",
           "package": "libGenI",
@@ -6275,6 +6824,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMorphInfo",
           "normalized": "Parser[(String,Flist)]",
@@ -6290,6 +6840,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMorphLexicon",
           "package": "libGenI",
@@ -6298,6 +6849,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniMorphLexicon",
           "normalized": "Parser[MorphLexEntry]",
@@ -6313,6 +6865,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniPolarities",
           "package": "libGenI",
@@ -6321,6 +6874,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniPolarities",
           "package": "libGenI",
@@ -6334,6 +6888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniSemanticInput",
           "package": "libGenI",
@@ -6342,6 +6897,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniSemanticInput",
           "normalized": "Parser(Sem,Flist,[LitConstr])",
@@ -6357,6 +6913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniSemantics",
           "package": "libGenI",
@@ -6365,6 +6922,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniSemantics",
           "package": "libGenI",
@@ -6378,6 +6936,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTagElems",
           "package": "libGenI",
@@ -6386,6 +6945,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTagElems",
           "normalized": "Parser[TagElem]",
@@ -6401,6 +6961,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTestSuite",
           "package": "libGenI",
@@ -6409,6 +6970,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTestSuite",
           "normalized": "Parser[TestCase]",
@@ -6425,6 +6987,7 @@
       "document": {
         "description": {
           "description": "Just the String representations of the semantics\n   in the test suite\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTestSuiteString",
           "package": "libGenI",
@@ -6434,6 +6997,7 @@
         "index": {
           "description": "Just the String representations of the semantics in the test suite",
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniTestSuiteString",
           "normalized": "Parser[String]",
@@ -6449,6 +7013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniValue",
           "package": "libGenI",
@@ -6457,6 +7022,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniValue",
           "package": "libGenI",
@@ -6470,6 +7036,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniWords",
           "package": "libGenI",
@@ -6478,6 +7045,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AgeniWords",
           "package": "libGenI",
@@ -6491,6 +7059,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AtillEof",
           "package": "libGenI",
@@ -6499,6 +7068,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AtillEof",
           "normalized": "Parser a-\u003eParser a",
@@ -6514,6 +7084,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AtoSemInputString",
           "package": "libGenI",
@@ -6522,6 +7093,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniParsers",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniParsers",
           "name": "3AtoSemInputString",
           "normalized": "SemInput-\u003eString-\u003eSemInputString",
@@ -6537,6 +7109,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3AGeniShow",
           "package": "libGenI",
@@ -6544,6 +7117,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3AGeniShow",
           "package": "libGenI",
@@ -6557,6 +7131,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShow",
           "package": "libGenI",
@@ -6565,6 +7140,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShow",
           "normalized": "a-\u003eString",
@@ -6580,6 +7156,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShowKeyword",
           "package": "libGenI",
@@ -6588,6 +7165,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShowKeyword",
           "normalized": "String-\u003eShowS",
@@ -6603,6 +7181,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShowSemInput",
           "package": "libGenI",
@@ -6611,6 +7190,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3AgeniShowSemInput",
           "normalized": "SemInput-\u003eShowS",
@@ -6626,6 +7206,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3Aparens",
           "package": "libGenI",
@@ -6634,6 +7215,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3Aparens",
           "normalized": "String-\u003eString",
@@ -6649,6 +7231,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.GeniShow",
           "name": "3Asquares",
           "package": "libGenI",
@@ -6657,6 +7240,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI GeniShow",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.GeniShow",
           "name": "3Asquares",
           "normalized": "String-\u003eString",
@@ -6672,6 +7256,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AMorphFn",
           "package": "libGenI",
@@ -6679,6 +7264,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AMorphFn",
           "package": "libGenI",
@@ -6692,6 +7278,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AMorphLexicon",
           "package": "libGenI",
@@ -6699,6 +7286,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AMorphLexicon",
           "package": "libGenI",
@@ -6712,6 +7300,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AUninflectedDisjunction",
           "package": "libGenI",
@@ -6719,6 +7308,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AUninflectedDisjunction",
           "package": "libGenI",
@@ -6732,6 +7322,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AattachMorph",
           "package": "libGenI",
@@ -6740,6 +7331,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AattachMorph",
           "normalized": "MorphFn-\u003eSem-\u003e[TagElem]-\u003e[TagElem]",
@@ -6755,6 +7347,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AattachMorphHelper",
           "package": "libGenI",
@@ -6763,6 +7356,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AattachMorphHelper",
           "normalized": "Flist-\u003eTagElem-\u003eTagElem",
@@ -6778,6 +7372,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentenceUsingLex",
           "package": "libGenI",
@@ -6786,6 +7381,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentenceUsingLex",
           "normalized": "MorphLexicon-\u003e[UninflectedDisjunction]-\u003e[String]",
@@ -6801,6 +7397,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentencesUsingCmd",
           "package": "libGenI",
@@ -6809,6 +7406,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentencesUsingCmd",
           "normalized": "String-\u003e[[UninflectedDisjunction]]-\u003eIO[[String]]",
@@ -6825,6 +7423,7 @@
       "document": {
         "description": {
           "description": "Return a list of results for each sentence\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentencesUsingLex",
           "package": "libGenI",
@@ -6834,6 +7433,7 @@
         "index": {
           "description": "Return list of results for each sentence",
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectSentencesUsingLex",
           "normalized": "MorphLexicon-\u003e[[UninflectedDisjunction]]-\u003e[[String]]",
@@ -6850,6 +7450,7 @@
       "document": {
         "description": {
           "description": "Return only n matches, but note any excessive ambiguities or missing matches\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectWordUsingLex",
           "package": "libGenI",
@@ -6859,6 +7460,7 @@
         "index": {
           "description": "Return only matches but note any excessive ambiguities or missing matches",
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AinflectWordUsingLex",
           "normalized": "MorphLexicon-\u003eUninflectedDisjunction-\u003e[String]",
@@ -6874,6 +7476,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AreadMorph",
           "package": "libGenI",
@@ -6882,6 +7485,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AreadMorph",
           "normalized": "[(String,[AvPair])]-\u003eMorphFn",
@@ -6897,6 +7501,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AsansMorph",
           "package": "libGenI",
@@ -6905,6 +7510,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AsansMorph",
           "normalized": "[(String,Flist)]-\u003e[String]",
@@ -6920,6 +7526,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AsetMorphAnchor",
           "package": "libGenI",
@@ -6928,6 +7535,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AsetMorphAnchor",
           "normalized": "GNode-\u003eTree GNode-\u003eTree GNode",
@@ -6943,6 +7551,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3Asingleton",
           "package": "libGenI",
@@ -6951,6 +7560,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3Asingleton",
           "normalized": "a-\u003e[a]",
@@ -6966,6 +7576,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Morphology",
           "name": "3AstripMorphSem",
           "package": "libGenI",
@@ -6974,6 +7585,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Morphology",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Morphology",
           "name": "3AstripMorphSem",
           "normalized": "MorphFn-\u003eSem-\u003eSem",
@@ -6989,6 +7601,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AAutDebug",
           "package": "libGenI",
@@ -6996,6 +7609,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AAutDebug",
           "package": "libGenI",
@@ -7009,6 +7623,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3ANFA",
           "package": "libGenI",
@@ -7016,6 +7631,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3ANFA",
           "package": "libGenI",
@@ -7029,6 +7645,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3APolAut",
           "package": "libGenI",
@@ -7036,6 +7653,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3APolAut",
           "package": "libGenI",
@@ -7050,6 +7668,7 @@
       "document": {
         "description": {
           "description": "intermediate auts, seed aut, final aut, potentially modified sem\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3APolResult",
           "package": "libGenI",
@@ -7058,6 +7677,7 @@
         "index": {
           "description": "intermediate auts seed aut final aut potentially modified sem",
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3APolResult",
           "package": "libGenI",
@@ -7071,6 +7691,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3APolState",
           "package": "libGenI",
@@ -7078,6 +7699,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3APolState",
           "package": "libGenI",
@@ -7091,6 +7713,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AbuildAutomaton",
           "package": "libGenI",
@@ -7099,6 +7722,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AbuildAutomaton",
           "normalized": "SemInput-\u003e[TagElem]-\u003eFlist-\u003ePolMap-\u003ePolResult",
@@ -7114,6 +7738,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdeclareIdxConstraints",
           "package": "libGenI",
@@ -7122,6 +7747,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdeclareIdxConstraints",
           "normalized": "Flist-\u003ePolMap",
@@ -7137,6 +7763,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectIdxConstraints",
           "package": "libGenI",
@@ -7145,6 +7772,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectIdxConstraints",
           "normalized": "Flist-\u003eFlist-\u003ePolMap",
@@ -7160,6 +7788,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPolFeatures",
           "package": "libGenI",
@@ -7168,6 +7797,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPolFeatures",
           "normalized": "[TagElem]-\u003e[String]",
@@ -7183,6 +7813,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPolPaths",
           "package": "libGenI",
@@ -7191,6 +7822,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPolPaths",
           "normalized": "[[TagElem]]-\u003e[(TagElem,BitVector)]",
@@ -7206,6 +7838,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPols",
           "package": "libGenI",
@@ -7214,6 +7847,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectPols",
           "normalized": "[TagElem]-\u003e[TagElem]",
@@ -7229,6 +7863,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectSansIdx",
           "package": "libGenI",
@@ -7237,6 +7872,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AdetectSansIdx",
           "normalized": "[TagElem]-\u003e[TagElem]",
@@ -7252,6 +7888,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AfixPronouns",
           "package": "libGenI",
@@ -7260,6 +7897,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AfixPronouns",
           "normalized": "(Sem,[TagElem])-\u003e(Sem,[TagElem])",
@@ -7275,6 +7913,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AmakePolAut",
           "package": "libGenI",
@@ -7283,6 +7922,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AmakePolAut",
           "normalized": "[TagElem]-\u003eSem-\u003ePolMap-\u003ePolResult",
@@ -7298,6 +7938,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowLite",
           "package": "libGenI",
@@ -7306,6 +7947,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowLite",
           "normalized": "a-\u003eString",
@@ -7321,6 +7963,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowLitePm",
           "package": "libGenI",
@@ -7329,6 +7972,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowLitePm",
           "normalized": "PolMap-\u003eString",
@@ -7344,6 +7988,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowPolPaths",
           "package": "libGenI",
@@ -7352,6 +7997,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowPolPaths",
           "normalized": "BitVector-\u003eString",
@@ -7367,6 +8013,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowPolPaths'",
           "package": "libGenI",
@@ -7375,6 +8022,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Polarity",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Polarity",
           "name": "3AshowPolPaths'",
           "normalized": "BitVector-\u003eInt-\u003e[Int]",
@@ -7390,6 +8038,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AAgenda",
           "package": "libGenI",
@@ -7397,6 +8046,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AAgenda",
           "package": "libGenI",
@@ -7410,6 +8060,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AAuxAgenda",
           "package": "libGenI",
@@ -7417,6 +8068,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AAuxAgenda",
           "package": "libGenI",
@@ -7430,6 +8082,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AChart",
           "package": "libGenI",
@@ -7437,6 +8090,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AChart",
           "package": "libGenI",
@@ -7450,6 +8104,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleGuiItem",
           "package": "libGenI",
@@ -7457,6 +8112,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleGuiItem",
           "package": "libGenI",
@@ -7470,6 +8126,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleItem",
           "package": "libGenI",
@@ -7477,6 +8134,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleItem",
           "package": "libGenI",
@@ -7490,6 +8148,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleState",
           "package": "libGenI",
@@ -7497,6 +8156,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleState",
           "package": "libGenI",
@@ -7510,6 +8170,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleStatus",
           "package": "libGenI",
@@ -7517,6 +8178,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3ASimpleStatus",
           "package": "libGenI",
@@ -7530,6 +8192,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AaddToAgenda",
           "package": "libGenI",
@@ -7538,6 +8201,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AaddToAgenda",
           "normalized": "SimpleItem-\u003eSimpleState()",
@@ -7553,6 +8217,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AaddToChart",
           "package": "libGenI",
@@ -7561,6 +8226,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AaddToChart",
           "normalized": "SimpleItem-\u003eSimpleState()",
@@ -7576,6 +8242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3Agenconfig",
           "package": "libGenI",
@@ -7584,6 +8251,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3Agenconfig",
           "normalized": "SimpleStatus-\u003eParams",
@@ -7600,6 +8268,7 @@
       "document": {
         "description": {
           "description": "Creates an initial SimpleStatus.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AinitSimpleBuilder",
           "package": "libGenI",
@@ -7609,6 +8278,7 @@
         "index": {
           "description": "Creates an initial SimpleStatus",
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AinitSimpleBuilder",
           "normalized": "Bool-\u003eInput-\u003eParams-\u003e(SimpleStatus,Statistics)",
@@ -7624,6 +8294,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder",
           "package": "libGenI",
@@ -7632,6 +8303,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder",
           "normalized": "Bool-\u003eSimpleBuilder",
@@ -7647,6 +8319,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder_1p",
           "package": "libGenI",
@@ -7655,6 +8328,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder_1p",
           "package": "libGenI",
@@ -7668,6 +8342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder_2p",
           "package": "libGenI",
@@ -7676,6 +8351,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AsimpleBuilder_2p",
           "package": "libGenI",
@@ -7689,6 +8365,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheAgenda",
           "package": "libGenI",
@@ -7697,6 +8374,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheAgenda",
           "normalized": "SimpleStatus-\u003eAgenda",
@@ -7712,6 +8390,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheAuxAgenda",
           "package": "libGenI",
@@ -7720,6 +8399,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheAuxAgenda",
           "normalized": "SimpleStatus-\u003eAuxAgenda",
@@ -7735,6 +8415,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheChart",
           "package": "libGenI",
@@ -7743,6 +8424,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheChart",
           "normalized": "SimpleStatus-\u003eChart",
@@ -7758,6 +8440,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheResults",
           "package": "libGenI",
@@ -7766,6 +8449,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheResults",
           "normalized": "SimpleStatus-\u003e[SimpleItem]",
@@ -7781,6 +8465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheTrash",
           "package": "libGenI",
@@ -7789,6 +8474,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AtheTrash",
           "normalized": "SimpleStatus-\u003eTrash",
@@ -7804,6 +8490,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AunpackResult",
           "package": "libGenI",
@@ -7812,6 +8499,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Simple SimpleBuilder",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Simple.SimpleBuilder",
           "name": "3AunpackResult",
           "normalized": "SimpleItem-\u003e[Output]",
@@ -7827,6 +8515,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AMetric",
           "package": "libGenI",
@@ -7834,6 +8523,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AMetric",
           "package": "libGenI",
@@ -7847,6 +8537,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatistics",
           "package": "libGenI",
@@ -7854,6 +8545,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatistics",
           "package": "libGenI",
@@ -7867,6 +8559,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatisticsState",
           "package": "libGenI",
@@ -7874,6 +8567,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatisticsState",
           "package": "libGenI",
@@ -7887,6 +8581,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatisticsStateIO",
           "package": "libGenI",
@@ -7894,6 +8589,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AStatisticsStateIO",
           "package": "libGenI",
@@ -7908,6 +8604,7 @@
       "document": {
         "description": {
           "description": "Adds a metric that will be printed out at regular intervals \n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddInspectionMetric",
           "package": "libGenI",
@@ -7917,6 +8614,7 @@
         "index": {
           "description": "Adds metric that will be printed out at regular intervals",
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddInspectionMetric",
           "normalized": "Metric-\u003eStatisticsState()",
@@ -7932,6 +8630,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddIntMetrics",
           "package": "libGenI",
@@ -7940,6 +8639,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddIntMetrics",
           "normalized": "Metric-\u003eMetric-\u003eMetric",
@@ -7956,6 +8656,7 @@
       "document": {
         "description": {
           "description": "Adds a metric at the end of the list (thus,\n   metrics are printed out in the order in which they were added \n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddMetric",
           "package": "libGenI",
@@ -7965,6 +8666,7 @@
         "index": {
           "description": "Adds metric at the end of the list thus metrics are printed out in the order in which they were added",
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AaddMetric",
           "normalized": "Metric-\u003eStatisticsState()",
@@ -7980,6 +8682,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AemptyStats",
           "package": "libGenI",
@@ -7988,6 +8691,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AemptyStats",
           "package": "libGenI",
@@ -8001,6 +8705,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AincrIntMetric",
           "package": "libGenI",
@@ -8009,6 +8714,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AincrIntMetric",
           "normalized": "String-\u003eInt-\u003eMetric-\u003eMetric",
@@ -8024,6 +8730,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AinitialStatisticsStateFor",
           "package": "libGenI",
@@ -8032,6 +8739,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AinitialStatisticsStateFor",
           "normalized": "(a b-\u003eStatistics-\u003ec)-\u003ea b-\u003ec",
@@ -8047,6 +8755,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AmergeMetrics",
           "package": "libGenI",
@@ -8055,6 +8764,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AmergeMetrics",
           "normalized": "(Metric-\u003eMetric-\u003eMetric)-\u003eStatistics-\u003eStatistics-\u003eStatistics",
@@ -8070,6 +8780,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutAllMetrics",
           "package": "libGenI",
@@ -8078,6 +8789,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutAllMetrics",
           "normalized": "StatisticsStateIO()",
@@ -8093,6 +8805,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutAllMetrics'",
           "package": "libGenI",
@@ -8101,6 +8814,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutAllMetrics'",
           "normalized": "Statistics-\u003eIO()",
@@ -8116,6 +8830,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutInspectionMetrics",
           "package": "libGenI",
@@ -8124,6 +8839,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AprintOutInspectionMetrics",
           "normalized": "StatisticsStateIO()",
@@ -8139,6 +8855,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AqueryIntMetric",
           "package": "libGenI",
@@ -8147,6 +8864,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AqueryIntMetric",
           "normalized": "String-\u003eMetric-\u003eMaybe Int",
@@ -8162,6 +8880,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AqueryMetrics",
           "package": "libGenI",
@@ -8170,6 +8889,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AqueryMetrics",
           "normalized": "(Metric-\u003eMaybe a)-\u003eStatistics-\u003e[a]",
@@ -8185,6 +8905,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AsetPrintOutInterval",
           "package": "libGenI",
@@ -8193,6 +8914,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AsetPrintOutInterval",
           "normalized": "Int-\u003eStatisticsState()",
@@ -8208,6 +8930,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AshowFinalStats",
           "package": "libGenI",
@@ -8216,6 +8939,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AshowFinalStats",
           "normalized": "Statistics-\u003eString",
@@ -8231,6 +8955,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Statistics",
           "name": "3AupdateMetrics",
           "package": "libGenI",
@@ -8239,6 +8964,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Statistics",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Statistics",
           "name": "3AupdateMetrics",
           "normalized": "(Metric-\u003eMetric)-\u003eStatistics-\u003eStatistics",
@@ -8254,6 +8980,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3ATagDerivation",
           "package": "libGenI",
@@ -8261,6 +8988,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3ATagDerivation",
           "package": "libGenI",
@@ -8274,6 +9002,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3ATagElem",
           "package": "libGenI",
@@ -8281,6 +9010,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3ATagElem",
           "package": "libGenI",
@@ -8294,6 +9024,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3ATagSite",
           "package": "libGenI",
@@ -8301,6 +9032,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3ATagSite",
           "package": "libGenI",
@@ -8314,6 +9046,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3ATags",
           "package": "libGenI",
@@ -8321,6 +9054,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3ATags",
           "package": "libGenI",
@@ -8334,6 +9068,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3ATagItem",
           "package": "libGenI",
@@ -8341,6 +9076,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3ATagItem",
           "package": "libGenI",
@@ -8354,6 +9090,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AaddToTags",
           "package": "libGenI",
@@ -8362,6 +9099,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AaddToTags",
           "normalized": "Tags-\u003eString-\u003eTagElem-\u003eTags",
@@ -8378,6 +9116,7 @@
       "document": {
         "description": {
           "description": "Given a tree(GNode) returns a list of substitution or adjunction\n   nodes, as well as remaining nodes with a null adjunction constraint.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AdetectSites",
           "package": "libGenI",
@@ -8387,6 +9126,7 @@
         "index": {
           "description": "Given tree GNode returns list of substitution or adjunction nodes as well as remaining nodes with null adjunction constraint",
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AdetectSites",
           "normalized": "Tree GNode-\u003e([TagSite],[TagSite],[TagSite])",
@@ -8402,6 +9142,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AdrawTagTrees",
           "package": "libGenI",
@@ -8410,6 +9151,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AdrawTagTrees",
           "normalized": "[TagElem]-\u003eString",
@@ -8425,6 +9167,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AemptyTE",
           "package": "libGenI",
@@ -8433,6 +9176,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AemptyTE",
           "package": "libGenI",
@@ -8446,6 +9190,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AmapBySem",
           "package": "libGenI",
@@ -8454,6 +9199,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AmapBySem",
           "normalized": "[a]-\u003eMap Pred[a]",
@@ -8470,6 +9216,7 @@
       "document": {
         "description": {
           "description": "Assigns a unique id to each element of this list, that is, an integer\n   between 1 and the size of the list.\n",
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AsetTidnums",
           "package": "libGenI",
@@ -8479,6 +9226,7 @@
         "index": {
           "description": "Assigns unique id to each element of this list that is an integer between and the size of the list",
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AsetTidnums",
           "normalized": "[TagElem]-\u003e[TagElem]",
@@ -8494,6 +9242,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AshowTagSites",
           "package": "libGenI",
@@ -8502,6 +9251,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AshowTagSites",
           "normalized": "[TagSite]-\u003eString",
@@ -8517,6 +9267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AsubsumedBy",
           "package": "libGenI",
@@ -8525,6 +9276,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AsubsumedBy",
           "normalized": "Sem-\u003ePred-\u003eBool",
@@ -8540,6 +9292,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AtagLeaves",
           "package": "libGenI",
@@ -8548,6 +9301,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AtagLeaves",
           "normalized": "TagElem-\u003e[(String,UninflectedDisjunction)]",
@@ -8563,6 +9317,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AtgIdName",
           "package": "libGenI",
@@ -8571,6 +9326,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AtgIdName",
           "normalized": "a-\u003eString",
@@ -8586,6 +9342,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AtgIdNum",
           "package": "libGenI",
@@ -8594,6 +9351,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AtgIdNum",
           "normalized": "a-\u003eInteger",
@@ -8609,6 +9367,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3AtgSemantics",
           "package": "libGenI",
@@ -8617,6 +9376,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3AtgSemantics",
           "normalized": "a-\u003eSem",
@@ -8632,6 +9392,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_rootFeatureMismatch",
           "package": "libGenI",
@@ -8640,6 +9401,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_rootFeatureMismatch",
           "normalized": "Flist-\u003eString",
@@ -8655,6 +9417,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_semIncomplete",
           "package": "libGenI",
@@ -8663,6 +9426,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_semIncomplete",
           "normalized": "[Pred]-\u003eString",
@@ -8678,6 +9442,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_synIncomplete",
           "package": "libGenI",
@@ -8686,6 +9451,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_synIncomplete",
           "package": "libGenI",
@@ -8699,6 +9465,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 19:08:15 UTC 2014",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_tbUnificationFailure",
           "package": "libGenI",
@@ -8707,6 +9474,7 @@
         },
         "index": {
           "hierarchy": "NLP GenI Tags",
+          "indexed": "2014-03-11T19:08:15",
           "module": "NLP.GenI.Tags",
           "name": "3Ats_tbUnificationFailure",
           "package": "libGenI",

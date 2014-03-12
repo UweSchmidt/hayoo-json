@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "hspec-smallcheck"
+        "phrase": "hspec-smallcheck",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -18,6 +18,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:08 UTC 2014",
           "module": "Test.Hspec.SmallCheck",
           "name": "SmallCheck",
           "package": "hspec-smallcheck",
@@ -26,6 +27,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec SmallCheck",
+          "indexed": "2014-03-11T18:50:08",
           "module": "Test.Hspec.SmallCheck",
           "name": "SmallCheck",
           "package": "hspec-smallcheck",
@@ -39,6 +41,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 18:50:08 UTC 2014",
           "module": "Test.Hspec.SmallCheck",
           "name": "property",
           "package": "hspec-smallcheck",
@@ -48,6 +51,7 @@
         },
         "index": {
           "hierarchy": "Test Hspec SmallCheck",
+          "indexed": "2014-03-11T18:50:08",
           "module": "Test.Hspec.SmallCheck",
           "name": "property",
           "normalized": "a-\u003eProperty IO",

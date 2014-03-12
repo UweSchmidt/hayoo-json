@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "Tensor"
+        "phrase": "Tensor",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eThis package contains tensor data types and their instances for some basic\n type classes.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Tensor",
           "package": "Tensor",
@@ -28,6 +29,7 @@
         "index": {
           "description": "This package contains tensor data types and their instances for some basic type classes",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Tensor",
           "package": "Tensor",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA one-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector1",
           "package": "Tensor",
@@ -51,6 +54,7 @@
         "index": {
           "description": "one-dimensional vector",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector1",
           "package": "Tensor",
@@ -65,6 +69,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA two-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector2",
           "package": "Tensor",
@@ -74,6 +79,7 @@
         "index": {
           "description": "two-dimensional vector",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector2",
           "package": "Tensor",
@@ -88,6 +94,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA three-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector3",
           "package": "Tensor",
@@ -97,6 +104,7 @@
         "index": {
           "description": "three-dimensional vector",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector3",
           "package": "Tensor",
@@ -111,6 +119,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA four-dimensional vector.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector4",
           "package": "Tensor",
@@ -120,6 +129,7 @@
         "index": {
           "description": "four-dimensional vector",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector4",
           "package": "Tensor",
@@ -134,6 +144,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vertex with \u003cem\u003ey\u003c/em\u003e=0, \u003cem\u003ez\u003c/em\u003e=0 and \u003cem\u003ew\u003c/em\u003e=1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex1",
           "package": "Tensor",
@@ -143,6 +154,7 @@
         "index": {
           "description": "vertex with and",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex1",
           "package": "Tensor",
@@ -157,6 +169,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vertex with \u003cem\u003ez\u003c/em\u003e=0 and \u003cem\u003ew\u003c/em\u003e=1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex2",
           "package": "Tensor",
@@ -166,6 +179,7 @@
         "index": {
           "description": "vertex with and",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex2",
           "package": "Tensor",
@@ -180,6 +194,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA vertex with \u003cem\u003ew\u003c/em\u003e=1.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex3",
           "package": "Tensor",
@@ -189,6 +204,7 @@
         "index": {
           "description": "vertex with",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex3",
           "package": "Tensor",
@@ -203,6 +219,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eA fully-fledged four-dimensional vertex.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex4",
           "package": "Tensor",
@@ -212,6 +229,7 @@
         "index": {
           "description": "fully-fledged four-dimensional vertex",
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex4",
           "package": "Tensor",
@@ -225,6 +243,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector1",
           "package": "Tensor",
@@ -234,6 +253,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector1",
           "package": "Tensor",
@@ -247,6 +267,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector2",
           "package": "Tensor",
@@ -256,6 +277,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector2",
           "package": "Tensor",
@@ -269,6 +291,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector3",
           "package": "Tensor",
@@ -278,6 +301,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector3",
           "package": "Tensor",
@@ -291,6 +315,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vector4",
           "package": "Tensor",
@@ -300,6 +325,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vector4",
           "package": "Tensor",
@@ -313,6 +339,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex1",
           "package": "Tensor",
@@ -322,6 +349,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex1",
           "package": "Tensor",
@@ -335,6 +363,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex2",
           "package": "Tensor",
@@ -344,6 +373,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex2",
           "package": "Tensor",
@@ -357,6 +387,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex3",
           "package": "Tensor",
@@ -366,6 +397,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex3",
           "package": "Tensor",
@@ -379,6 +411,7 @@
       "cmd": "insert",
       "document": {
         "description": {
+          "indexed": "Tue Mar 11 17:02:09 UTC 2014",
           "module": "Data.Tensor",
           "name": "Vertex4",
           "package": "Tensor",
@@ -388,6 +421,7 @@
         },
         "index": {
           "hierarchy": "Data Tensor",
+          "indexed": "2014-03-11T17:02:09",
           "module": "Data.Tensor",
           "name": "Vertex4",
           "package": "Tensor",

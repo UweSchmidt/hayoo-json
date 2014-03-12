@@ -7,8 +7,8 @@
       ],
       "query": {
         "op": "case",
-        "type": "word",
-        "word": "haskelldb-connect-hdbc"
+        "phrase": "haskelldb-connect-hdbc",
+        "type": "phrase"
       },
       "type": "context"
     }
@@ -19,6 +19,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBracketed HaskellDB session with \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e.\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:11 UTC 2014",
           "module": "Database.HaskellDB.Connect.HDBC.Simple",
           "name": "Simple",
           "package": "haskelldb-connect-hdbc",
@@ -28,6 +29,7 @@
         "index": {
           "description": "Bracketed HaskellDB session with IO",
           "hierarchy": "Database HaskellDB Connect HDBC Simple",
+          "indexed": "2014-03-11T18:32:11",
           "module": "Database.HaskellDB.Connect.HDBC.Simple",
           "name": "Simple",
           "package": "haskelldb-connect-hdbc",
@@ -42,6 +44,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action on a HDBC \u003ccode\u003e\u003ca\u003eIConnection\u003c/a\u003e\u003c/code\u003e and close the connection.\n   Simple \u003ccode\u003e\u003ca\u003eIO\u003c/a\u003e\u003c/code\u003e version.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:11 UTC 2014",
           "module": "Database.HaskellDB.Connect.HDBC.Simple",
           "name": "hdbcSession",
           "package": "haskelldb-connect-hdbc",
@@ -51,6 +54,7 @@
         "index": {
           "description": "Run an action on HDBC IConnection and close the connection Simple IO version",
           "hierarchy": "Database HaskellDB Connect HDBC Simple",
+          "indexed": "2014-03-11T18:32:11",
           "module": "Database.HaskellDB.Connect.HDBC.Simple",
           "name": "hdbcSession",
           "normalized": "SqlGenerator-\u003eIO a-\u003e(a-\u003eDatabase-\u003eIO b)-\u003eIO b",
@@ -67,6 +71,7 @@
       "document": {
         "description": {
           "description": "\u003cdiv class=\"doc\"\u003e\u003cp\u003eBracketed session for HaskellDB with HDBC\n\u003c/p\u003e\u003c/div\u003e",
+          "indexed": "Tue Mar 11 18:32:11 UTC 2014",
           "module": "Database.HaskellDB.Connect.HDBC",
           "name": "HDBC",
           "package": "haskelldb-connect-hdbc",
@@ -76,6 +81,7 @@
         "index": {
           "description": "Bracketed session for HaskellDB with HDBC",
           "hierarchy": "Database HaskellDB Connect HDBC",
+          "indexed": "2014-03-11T18:32:11",
           "module": "Database.HaskellDB.Connect.HDBC",
           "name": "HDBC",
           "package": "haskelldb-connect-hdbc",
@@ -90,6 +96,7 @@
       "document": {
         "description": {
           "description": "\u003cp\u003eRun an action on a HDBC IConnection and close the connection.\n\u003c/p\u003e",
+          "indexed": "Tue Mar 11 18:32:11 UTC 2014",
           "module": "Database.HaskellDB.Connect.HDBC",
           "name": "makeHDBCSession",
           "package": "haskelldb-connect-hdbc",
@@ -99,6 +106,7 @@
         "index": {
           "description": "Run an action on HDBC IConnection and close the connection",
           "hierarchy": "Database HaskellDB Connect HDBC",
+          "indexed": "2014-03-11T18:32:11",
           "module": "Database.HaskellDB.Connect.HDBC",
           "name": "makeHDBCSession",
           "normalized": "(a b-\u003e(b-\u003ea())-\u003e(b-\u003ea c)-\u003ea c)-\u003e(d e IO f-\u003ea f)-\u003eSqlGenerator-\u003eIO b-\u003e(b-\u003eDatabase-\u003ea c)-\u003ea c",
